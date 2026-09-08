@@ -1,0 +1,34 @@
+{
+  "id": "QH0-longer",
+  "status": "bounded_descriptive_pass",
+  "scope": "Same 179 GDT631 selectors and cached selector-first projection as QH0; exact contiguous raw-group sequences of lengths 4, 5, and 6, collapsed to distinct loci.",
+  "result": {
+    "length_6": {"repeated_sequences": 0, "all_three_readings_at_two_loci": 0},
+    "length_5": {"repeated_sequences": 0, "all_three_readings_at_two_loci": 0},
+    "length_4": {
+      "repeated_sequences": 1,
+      "all_three_readings_at_two_loci": 0,
+      "sequence": ["shedy", "qol", "shedy", "qokaiin"],
+      "distinct_loci": 2,
+      "occurrences": [
+        {
+          "locus": "f78r.40",
+          "reading_support": "2/3 exact (ZL3b, IT2a; RF1b has alternate readings at groups 1 and 3)",
+          "reading_specific_scopes": {"ZL3b": [1, 2, 3, 4], "IT2a": [1, 2, 3, 4]},
+          "internal_right_separators": "DEFINITE_SPACE between all adjacent groups in both exact readings"
+        },
+        {
+          "locus": "f80r.35",
+          "reading_support": "1/3 exact (IT2a only; ZL3b has qokain at group 8 and RF1b differs at groups 4 and 7)",
+          "reading_specific_scopes": {"IT2a": [4, 5, 6, 7]},
+          "internal_right_separators": "DEFINITE_SPACE between all adjacent groups in the exact IT2a reading"
+        }
+      ],
+      "status": "known_exact_order_in_prior_artifacts"
+    }
+  },
+  "interpretation": "No repeated 4–6-group sequence has all-three-reading support at two distinct loci in this scope. The sole 4-group recurrence is descriptive raw text only; no meaning or significance is inferred.",
+  "source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+  "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+  "reproduction": "python3 research_registry/decisions/qh0_longer_repeat_extract.py"
+}

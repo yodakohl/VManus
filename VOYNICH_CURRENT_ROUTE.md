@@ -36,6 +36,9 @@ User-requested available-observation search:qg3_available_observation_search.md.
 Fourwrittenvaluecells fitgradeandquantity; starcounts supplyvisiblevariable,
 notselectedwordrule; okal/dakocth/carrier examples lackdecisivereferentcontrast.
 No newexperimentselected; no decoder/count/owner follow-on fromthissearch.
+User-requested Luna text lookup:qh4_luna_text_patterns.md. Concrete ABAB on
+f8r19/f30r11; chol…daiin andol…aiin frames. Root10literalhighlightsall3,
+9definiteseams; f107r46ZLoneuncertainseam. Descriptiveonly, no meaning/nulltest.
 
 4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.

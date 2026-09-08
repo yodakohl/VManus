@@ -1,0 +1,76 @@
+{
+  "id": "QH0",
+  "status": "bounded_descriptive_pass",
+  "scope": {
+    "selectors": 179,
+    "source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+    "guard": "./vmanus-exp query-tsv --selector page with one repeated --allow per allowlisted page and --forbid-prefix f84",
+    "rows_materialized": 96184,
+    "groups_are": "source_group_index, 1-based",
+    "matching": "exact adjacent triples of ivtff_group_raw within one edition and locus; distinct physical loci counted once",
+    "separator_convention": "internal_right_separators below are the ZL3b classes when available; alternate readings can shift indices/classes, so reading_support is reported separately"
+  },
+  "patterns": [
+    {
+      "sequence": ["ol", "s", "aiin"],
+      "distinct_loci": 5,
+      "status": "known_exact_order",
+      "prior": "research_registry/decisions/clean_gap_review_ef.json",
+      "occurrences": [
+        {"locus": "f55v.10", "groups_1based": [2, 3, 4], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]},
+        {"locus": "f78r.37", "groups_1based": [2, 3, 4], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]},
+        {"locus": "f82r.16", "groups_1based": [7, 8, 9], "reading_support": "2/3", "internal_right_separators": ["UNCERTAIN_SMALL_SPACE", "DEFINITE_SPACE"]},
+        {"locus": "f85r1.13", "groups_1based": [7, 8, 9], "reading_support": "3/3", "internal_right_separators": ["UNCERTAIN_SMALL_SPACE", "UNCERTAIN_SMALL_SPACE"]},
+        {"locus": "f94v.9", "groups_1based": [8, 9, 10], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]}
+      ]
+    },
+    {
+      "sequence": ["chey", "qol", "chedy"],
+      "distinct_loci": 4,
+      "status": "known_exact_order",
+      "prior": "experiments/yolo/sidequest_semantic_three_layer_master_handbook_nine_hundred_tenth/PASS910_LOCUS_EDITION.tsv",
+      "occurrences": [
+        {"locus": "f104v.4", "groups_1based": [7, 8, 9], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]},
+        {"locus": "f111v.32", "groups_1based": [6, 7, 8], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]},
+        {"locus": "f81v.25", "groups_1based": [7, 8, 9], "reading_support": "2/3", "internal_right_separators": ["DEFINITE_SPACE", "UNCERTAIN_SMALL_SPACE"]},
+        {"locus": "f82r.21", "groups_1based": [6, 7, 8], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]}
+      ]
+    },
+    {
+      "sequence": ["or", "or", "aiin"],
+      "distinct_loci": 4,
+      "status": "known_exact_order",
+      "prior": "experiments/yolo/sidequest_semantic_three_layer_master_handbook_nine_hundred_tenth/PASS910_LOCUS_EDITION.tsv",
+      "occurrences": [
+        {"locus": "f104r.28", "groups_1based": [11, 12, 13], "reading_support": "2/3", "internal_right_separators": ["DEFINITE_SPACE", "UNCERTAIN_SMALL_SPACE"]},
+        {"locus": "f55v.9", "groups_1based": [5, 6, 7], "reading_support": "3/3", "internal_right_separators": ["DRAWING_INTERRUPTION", "DEFINITE_SPACE"]},
+        {"locus": "f79v.39", "groups_1based": [4, 5, 6], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]},
+        {"locus": "f85r2.2", "groups_1based": [2, 3, 4], "reading_support": "3/3", "internal_right_separators": ["UNCERTAIN_SMALL_SPACE", "DEFINITE_SPACE"]}
+      ]
+    },
+    {
+      "sequence": ["chedy", "qokeey", "qokeey"],
+      "distinct_loci": 3,
+      "status": "known_exact_order",
+      "prior": "experiments/yolo/gdt639_strict_hole_component_repair/artifacts/ALL_LINE_CONCRETE_COVERAGE_V16.tsv",
+      "occurrences": [
+        {"locus": "f103r.53", "groups_1based": [6, 7, 8], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]},
+        {"locus": "f108v.46", "groups_1based": [8, 9, 10], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]},
+        {"locus": "f112v.16", "groups_1based": [6, 7, 8], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]}
+      ]
+    },
+    {
+      "sequence": ["qokedy", "qokedy", "qokedy"],
+      "distinct_loci": 2,
+      "status": "known_exact_order",
+      "prior": "experiments/yolo/gdt639_strict_hole_component_repair/artifacts/ALL_LINE_CONCRETE_COVERAGE_V16.tsv",
+      "occurrences": [
+        {"locus": "f75r.13", "groups_1based": [3, 4, 5], "reading_support": "3/3", "internal_right_separators": ["DRAWING_INTERRUPTION", "DEFINITE_SPACE"]},
+        {"locus": "f79v.19", "groups_1based": [5, 6, 7], "reading_support": "3/3", "internal_right_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"]}
+      ]
+    }
+  ],
+  "interpretation": "Descriptive recurrence only. These are raw written-group sequences; no semantic gloss, decoder claim, or independent manuscript meaning is inferred. ZL3b, IT2a, and RF1b are alternate readings of one manuscript.",
+  "reproduction": "python3 research_registry/decisions/qh0_repeated_text_patterns_extract.py"
+}

@@ -1,0 +1,76 @@
+{
+  "status": "bounded_literal_serial_census",
+  "scope": {
+    "selectors": 179,
+    "source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+    "readings": ["ZL3b", "IT2a", "RF1b"],
+    "selected_rows": 96184,
+    "sealed_prefixes_rejected_before_materialization": ["f84", "f84r"]
+  },
+  "census": {
+    "ABA_shape_windows": 125,
+    "ABA_literal_identical_all_readings": 102,
+    "ABAB_shape_windows": 2,
+    "ABAB_literal_identical_all_readings": 2,
+    "near_repetition_4_shape_windows": 14,
+    "near_repetition_4_literal_identical_all_readings": 11
+  },
+  "patterns": [
+    {
+      "kind": "ABA",
+      "locus": "f19v.10",
+      "source_group_index_1based": [1, 2, 3],
+      "literal_groups": ["daiin", "chor", "daiin"],
+      "internal_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"],
+      "reader_support": "ZL3b=IT2a=RF1b literal-identical; one occurrence at this locus/start",
+      "known_status": "new to this bounded search; historical duplicate status not assessed; distinct from cited GDT857/GDT877 baselines"
+    },
+    {
+      "kind": "ABA",
+      "locus": "f21r.11",
+      "source_group_index_1based": [1, 2, 3],
+      "literal_groups": ["shol", "chol", "shol"],
+      "internal_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE"],
+      "reader_support": "ZL3b=IT2a=RF1b literal-identical; one occurrence at this locus/start",
+      "known_status": "new to this bounded search; historical duplicate status not assessed; outside the cited GDT880 immediate same-head minim-triple baseline"
+    },
+    {
+      "kind": "ABAB",
+      "locus": "f8r.19",
+      "source_group_index_1based": [5, 6, 7, 8],
+      "literal_groups": ["shol", "kaiin", "shol", "kaiin"],
+      "internal_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE", "DEFINITE_SPACE"],
+      "reader_support": "ZL3b=IT2a=RF1b literal-identical; one occurrence at this locus/start",
+      "known_status": "new to this bounded search; historical duplicate status not assessed; alternating whole-group run outside cited AAA/triple baselines"
+    },
+    {
+      "kind": "ABAB",
+      "locus": "f30r.11",
+      "source_group_index_1based": [2, 3, 4, 5],
+      "literal_groups": ["cheor", "chey", "cheor", "chey"],
+      "internal_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE", "DEFINITE_SPACE"],
+      "reader_support": "ZL3b=IT2a=RF1b literal-identical; one occurrence at this locus/start",
+      "known_status": "new to this bounded search; historical duplicate status not assessed; alternating whole-group run outside cited AAA/triple baselines"
+    },
+    {
+      "kind": "NEAR4_3-of-4",
+      "locus": "f86v3.3",
+      "source_group_index_1based": [1, 2, 3, 4],
+      "literal_groups": ["taiin", "ytaiin", "ytaiin", "ytaiin"],
+      "internal_separators": ["DEFINITE_SPACE", "DEFINITE_SPACE", "DEFINITE_SPACE"],
+      "reader_support": "ZL3b=IT2a=RF1b literal-identical; one changed first group followed by three equal groups",
+      "known_status": "new to this bounded search; historical duplicate status not assessed; distinct from exact AAA and immediate same-head triple baselines"
+    }
+  ],
+  "reproduction": {
+    "source": "research_registry/decisions/qh2_serial_text_patterns.py",
+    "command": "python3 research_registry/decisions/qh2_serial_text_patterns.py",
+    "query_contract": "query-tsv uses selector=page, one explicit --allow per allowlist page, explicit columns, and --forbid-prefix f84 --forbid-prefix f84r"
+  },
+  "limits": [
+    "Patterns are literal transcription regularities only; no semantic gloss or decoding claim.",
+    "ZL3b, IT2a, and RF1b are alternate readings of one manuscript.",
+    "Counts exclude uncertain seams by requiring DEFINITE_SPACE between adjacent groups."
+  ]
+}
