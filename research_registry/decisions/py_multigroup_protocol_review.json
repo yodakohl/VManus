@@ -1,0 +1,87 @@
+{
+  "schema": "py_multigroup_protocol_review_v1",
+  "status": "protocol_only_critical_review",
+  "target_reads_performed": false,
+  "mutations_performed": false,
+  "overall": "Protocol is appropriately exploratory and bounded. No semantic/null score is licensed. Before target reads, tighten the source join/completeness contract and preserve the same-index diagnostic as non-independent.",
+  "accepted_contract_points": [
+    "Fixed GDT791 30-page/35-selector roster; no implicit 179-selector extension or new page/image admission.",
+    "Raw groups, separator barriers, line boundaries, all three readings, repeated-label dependence, and zero-result limits are explicitly addressed.",
+    "A positive bridge changes only the next native unit-boundary inspection decision; it does not establish names, compounds, referents, or translation."
+  ],
+  "critical_corrections": [
+    {
+      "id": "C1_exact_join_and_completeness",
+      "severity": "required_before_target_read",
+      "issue": "The protocol requires 1007 metadata loci and raw groups, but does not state the exact bijective join key or require every returned ATLAS row to map exactly once to a LINES locus for each edition/selector. A missing or duplicate join could masquerade as zero bridge opportunities.",
+      "repair": "Declare and validate the join key (including edition, page/locus, and source row/group identity as applicable); require 1007 expected metadata loci, no unjoined nonempty rows, no duplicate identities, and no out-of-roster rows. Stop as incomplete input rather than emitting zeros. Record the validation counts in the source receipt.",
+      "decision_effect": "Without this, a no-bridge result cannot stop the route; with it, either a bridge or a defensible availability stop decides whether native inspection is worth scheduling."
+    },
+    {
+      "id": "C2_query_projection_receipt",
+      "severity": "required_before_target_read",
+      "issue": "SPEC names source files and columns but does not itself encode selector allow-values, query output columns, or the actual guarded query receipts. The prose says selector-first query-tsv, but reproducibility depends on the executable projection being frozen.",
+      "repair": "Before target reads, freeze receipts containing exact allowed selectors, requested columns, rejected f84/f84r prefixes, source hashes, and returned row counts; ensure no full-table parse/filter path is used.",
+      "decision_effect": "This protects the fixed 35-selector scope and makes a positive/zero availability result interpretable."
+    },
+    {
+      "id": "C3_same_index_nonindependence",
+      "severity": "clarification",
+      "issue": "The same-index three-reading bridge is correctly called a coordinate diagnostic, but any summary must keep it separate from primary bridges and never pool it as three witnesses.",
+      "repair": "Label same-index output diagnostic_only and report primary per-edition bridges independently; do not use diagnostic concordance as semantic support or an independent replication count.",
+      "decision_effect": "Only primary raw recurrence can nominate a native inspection; diagnostic agreement can describe reading stability."
+    },
+    {
+      "id": "C4_local_unit_scope",
+      "severity": "clarification",
+      "issue": "LOCAL_LABEL_OR_MARKER and RUNNING_PROSE are inherited renderer classifications, so “local record” must remain an operational unit, not an authorial label or phrase claim.",
+      "repair": "Keep the existing caveat in every result summary and call positives raw local-record/running-record bridges; require later native review before any semantic interpretation.",
+      "decision_effect": "Prevents a positive census from being misreported as lexical or referential evidence."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/PREREGISTRATION.md",
+      "line": 22,
+      "line_end": 30,
+      "sha256": "11ed46d80257a42848469d3bca2f209ecc10812c3689be1f51b3c6b5e730d908",
+      "quote": "Use exactly the GDT791 thirty-page/thirty-five-selector roster. No179-selector\nextension, new page or image admission. Obtain the GDT791 line-owner atlas and\nraw source-separator atlas through selector-first query-tsv, explicit allow-values,\ncolumns and f84/f84r exclusions. Preserve source selectors and physical leaf IDs.\n\nLOCAL_LABEL_OR_MARKER and RUNNING_PROSE are inherited line classifications.\nThey do not establish a phrase, clause, authorial label or pictured owner.\nCircular running text is reported separately by its raw source kind; it is not\nsilently treated as ordinary prose. Source records never cross physical lines."
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/PREREGISTRATION.md",
+      "line": 32,
+      "line_end": 37,
+      "sha256": "11ed46d80257a42848469d3bca2f209ecc10812c3689be1f51b3c6b5e730d908",
+      "quote": "A candidate is the COMPLETE raw local record, with at least two raw groups.\nEvery group must equal its single clean ASCII fragment and contain only a–z.\nAll raw groups remain in positional counting. Reject a candidate or running\nmatch if an INTERNAL separator is UNCERTAIN_SMALL_SPACE or starts DRAWING_.\nOuter record/window separators are not traversed. Do not split, drop, normalize,\nreverse or shorten candidate groups. A split fragment is not a raw word."
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/PREREGISTRATION.md",
+      "line": 46,
+      "line_end": 53,
+      "sha256": "11ed46d80257a42848469d3bca2f209ecc10812c3689be1f51b3c6b5e730d908",
+      "quote": "Run ZL3b, IT2a and RF1b separately as alternative readings of one manuscript.\nReport each reading's local-record eligibility, patterns, running opportunities\nand exact bridges, including zeroes. A same-index three-reading bridge requires\nthe same local locus, running locus, start group, length and equal raw group\ncounts of the whole running line in all three readings. Each reading must match\nits own complete local string. This is a coordinate-concordance diagnostic,\nnot three independent witnesses or a claim of identical glyph segmentation.\nAlso mark the stricter subset with literally identical candidate strings."
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/PREREGISTRATION.md",
+      "line": 55,
+      "line_end": 68,
+      "sha256": "11ed46d80257a42848469d3bca2f209ecc10812c3689be1f51b3c6b5e730d908",
+      "quote": "## Completeness and limits\n\nRequire1007unique GDT791 metadata loci and the exact35selectors. Every nonempty\nprimary metadata record must have raw ZL source groups; otherwise stop as an\nincomplete input rather than interpreting absent matches. Alternate-reading\nmissing records are reported separately. Check raw group indices/counts and\nunique row identities before matching. Blank metadata records remain visible.\n\nCounts are descriptive availability evidence. Do not compute significance,\ntranslation scores or a GDT388 mapped relation score. Repeated labels pointing\nto one running occurrence are explicit repeated references, not independent\nreplications. Positive candidates require separate native/provenance review\nbefore any semantic use. Zero exact bridges do not prove that the words, their\nreferents or differently written phrases cannot recur."
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/src/SPEC.json",
+      "line": 7,
+      "line_end": 18,
+      "sha256": "e72346c35fc7e0e3d5d2b9ef557af1ef885d904f85c8d857e65c3dc279ced4f5",
+      "quote": "  \"expected_metadata_loci\": 1007,\n  \"experiment_id\": \"GDT874\",\n  \"focal_locus\": \"f81v.28\",\n  \"local_kind\": \"LOCAL_LABEL_OR_MARKER\",\n  \"roster\": {\n    \"path\": \"experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv\",\n    \"sha256\": \"69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae\"\n  },\n  \"running_kind\": \"RUNNING_PROSE\",\n  \"sealed_data\": {\n    \"f84\": \"FORBIDDEN\",\n    \"f84r\": \"FORBIDDEN\""
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/src/SPEC.json",
+      "line": 57,
+      "line_end": 92,
+      "sha256": "e72346c35fc7e0e3d5d2b9ef557af1ef885d904f85c8d857e65c3dc279ced4f5",
+      "quote": "  \"sources\": [\n    {\n      \"columns\": [\n        \"line_ordinal\",\n        \"source_selector\",\n        \"physical_page\",\n        \"locus\",\n        \"line_kind\",\n        \"token_count\"\n      ],\n      \"name\": \"LINES\",\n      \"path\": \"experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_1007_LINE_OWNER_ATLAS.tsv\",\n      \"selector\": \"source_selector\",\n      \"sha256\": \"5ef9ef2a3ddf294aa9b57a459f0669e1aab7f38c4546f3914bd28e6fbac3378f\"\n    },\n    {\n      \"columns\": [\n        \"source_group_id\",\n        \"edition\",\n        \"locus\",\n        \"page\",\n        \"kind\",\n        \"source_row_index\",\n        \"source_group_index\",\n        \"source_group_count\",\n        \"left_separator\",\n        \"right_separator\",\n        \"ivtff_group_raw\",\n        \"clean_ascii_fragments\",\n        \"clean_ascii_fragment_count\"\n      ],\n      \"name\": \"ATLAS\",\n      \"path\": \"experiments/semantic_assumptions/results/source_separator_transcription.tsv\",\n      \"selector\": \"page\",\n      \"sha256\": \"4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0\"\n    }"
+    }
+  ],
+  "bottom_line_for_root": "Proceed only after C1/C2 are represented in the frozen executable receipt/validator. The design is otherwise a valid bounded availability census; no target execution or semantic conclusion is authorized by this review."
+}

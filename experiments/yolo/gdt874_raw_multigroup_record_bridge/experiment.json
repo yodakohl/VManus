@@ -1,0 +1,105 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory raw text identity and availability only; no authorial phrase, object name, semantic relation, significance or translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt874_raw_multigroup_record_bridge/src/run.py",
+    "validate": "python3 experiments/yolo/gdt874_raw_multigroup_record_bridge/src/validate.py"
+  },
+  "created": "2026-09-08",
+  "dependencies": [
+    "GDT791",
+    "GDT811"
+  ],
+  "experiment_id": "GDT874",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_1007_LINE_OWNER_ATLAS.tsv",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "5ef9ef2a3ddf294aa9b57a459f0669e1aab7f38c4546f3914bd28e6fbac3378f"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "b5277bce41201d1146d398b95e59d864ad08f59a92e23d262b1de20c3dcc6e8c"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/.gitignore",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/METHOD.md",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "3955c7cbe3789406f8a6c747b3639006f5ec4da3564049f0e1a781026fa6097e"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/PREREGISTRATION.md",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "5cc2d8fc395eaecff1311b2c8e90ac07d73afebfd1e397225f430bbaf65156f5"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/README.md",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "5911a36044f064fd16ee78f1a3c6ea365a04f2e9fffcd5570fab8803a5e44509"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/src/PREREG_LOCK.json",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "8e8a9949bd5b7fadd6c4843cdcd076dbad67dad48cabed71255692a3325571ae"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/src/SPEC.json",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "e72346c35fc7e0e3d5d2b9ef557af1ef885d904f85c8d857e65c3dc279ced4f5"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/src/run.py",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "f09abf3a893abfc3e41789b54c9f90f2509a9d2edb47ede5cf7dc6d2f8884882"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/src/validate.py",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "bfc9579a1b28c8696ba528545c02241ef88adf3a1de20239db5e205ba0632b2d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/artifacts/README.md",
+      "role": "compact descriptive census and validation",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    }
+  ],
+  "question": "Which complete multigroup local records recur as contiguous raw running-text windows on the fixed GDT791 thirty-page roster?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "raw_multigroup_record_bridge",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Complete raw multigroup local-record bridges",
+  "updated": "2026-09-08",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

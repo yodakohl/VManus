@@ -15,9 +15,10 @@ No persistentstate/reset/meaning.872published42881456.
 Folioresidual15negative12positive2zero;strictdiagnostic1matched failscoverage.
 Selectedhalf/newdensityendpoint doesnotexplain872composition. Branchstopped;no controlchain.
 92raw/91unique;54method;37pending.84–86methodreviewed, notsemanticfalsifications.
-734twenty-whole gap recovered asone finite model/20pagedapplications;3945semantic.
-Separate19rolemodel preserved.28spoken-scope policy also recovered asone model;
-3946semantic/162dossiers. Storedcoresunchanged; no automatic cleanup cycle.
+734twenty-whole and28spoken-scope policies recovered as2finite models;
+separate19rolemodel andstoredcores preserved.3946semantic/162dossiers.
+874registered:complete raw2+group local-record→running-window census on791's
+fixed35selectors. No newadmission/meaning/nullscore. Budget09:20UTC.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
