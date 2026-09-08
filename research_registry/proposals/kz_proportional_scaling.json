@@ -1,0 +1,16 @@
+{
+  "title": "Recipe scaling preserves ingredient ratios rather than absolute indexed doses",
+  "summary": "A speculative functional hypothesis treats repeated recipe instructions as proportionally scalable: increasing the number of product units multiplies each ingredient share, while an absolute indexed prescription keeps fixed amounts.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "proportional recipe scaling rule",
+    "unit": "matched recipe records with an explicit product count and at least two ingredient amounts",
+    "contrast": "ratio-preserving scaling versus fixed indexed amounts",
+    "prediction": "When product count changes within the same recipe template, ingredient ratios should remain constant under the scaling model; the indexed model predicts stable absolute amounts and changing ratios.",
+    "countermodel": "The same surface alternation could reflect editorial batch conventions, lexicalized forms, or analyst counting choices without either proposed semantic rule.",
+    "falsifier": "A matched count change preserves absolute amounts while the source explicitly marks a scaled batch, or ratios vary without a batch/count change.",
+    "principal_risk": "Independent product counts and ingredient amounts are unavailable. Near IDEA000049 quantity calibration and old recipe quantity families, but the contrast is transformation across batch size, not unit interpretation or conservation.",
+    "endpoint_status": "availability_unknown"
+  }
+}

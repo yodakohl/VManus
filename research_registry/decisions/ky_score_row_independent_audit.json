@@ -1,0 +1,125 @@
+{
+  "schema": "ky_score_row_independent_audit_v1",
+  "scope": "Bounded read-only audit of the V4 A/B/C score rows and full model pointers; source bytes and semantic cases preserved, no identity merge or registry mutation.",
+  "target": {
+    "id": "SEM:9199ad2f82cfada981d9",
+    "claim": "The manuscript records medium-and-process recipes.",
+    "evidence_scope": "single literal V4 score-table row only"
+  },
+  "full_model_counterparts": [
+    {
+      "id": "SEM:15a8735edf04936740f7",
+      "model": "A typed practical form",
+      "role": "full semantic-model proposition, separately evidenced in the source definition"
+    },
+    {
+      "id": "SEM:4d170b449aa0a6e8aed5",
+      "model": "B working-medium/process recipe",
+      "role": "full semantic-model proposition, separately evidenced in the source definition"
+    },
+    {
+      "id": "SEM:ba8e01d2f7912882034e",
+      "model": "C indexed workshop checklist",
+      "role": "full semantic-model proposition, separately evidenced in the source definition"
+    }
+  ],
+  "finding": {
+    "classification": "result_only_model_name_pointer_extraction_error",
+    "recommendation": "archive_as_result_only_fragment_in_semantic_idea_views; preserve_original_source_case_and_full_primary_bytes",
+    "reason": "The SEM:9199 card cites only the row `B medium/process recipe | 14 | 17 | 19 | 16 | 66`. That row reports comparative axis scores; it does not state the recipe model’s roles, scope, or manuscript proposition. The adjacent decision says Model A narrowly wins and Model C fits distribution, confirming that the row is a result of the three separately described models, not an independent fourth semantic claim. Its claim sentence therefore cannot be treated as source evidence for a manuscript content model.",
+    "not_a_nonidentity_decision": "This is extraction-level classification, not a semantic identity judgment. The B full model remains a separate unconfirmed historical model card and is not deleted or downgraded by this audit.",
+    "basis_dependencies": [
+      "V4 scoring rubric at lines 169-175",
+      "full Model A/B/C definitions at lines 64-167",
+      "score result rows at lines 177-181"
+    ]
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+      "line": 169,
+      "line_end": 181,
+      "quote": "## Scoring\n\nEach axis is scored out of 25. On the first axis a high score means **low**\nsemantic role-switch cost. Consecutive coverage asks whether all eleven\nnominated-card runs can be paraphrased without changing the frozen roles or\nsilently inserting arguments. These are transparent comparative judgments,\nnot statistical estimates.\n\n| model | low role-switch cost | positional fit | cross-register plausibility | consecutive coverage | total |\n|---|---:|---:|---:|---:|---:|\n| A typed practical form | 22 | 22 | 23 | 23 | **90** |\n| C indexed checklist | **24** | **24** | 17 | **24** | 89 |\n| B medium/process recipe | 14 | 17 | 19 | 16 | 66 |",
+      "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd",
+      "why": "Scoring section and adjacent A/C/B result rows"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+      "line": 183,
+      "line_end": 188,
+      "quote": "### Decision\n\n**Model A wins narrowly.** Model C is the better description of pure\ndistribution, so V4 does not strengthen literal medical vocabulary. Model A\nwins because it preserves nearly the same formal economy while explaining the\nfixed illustrated registers as content-bearing practical forms. The result is",
+      "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd",
+      "why": "Decision interprets scores and preserves model distinction"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+      "line": 100,
+      "line_end": 109,
+      "quote": "### Model B — working-medium/process recipe\n\n| card/family | one role attempted globally |\n|---|---|\n| `qokaiin` | WORKING MEDIUM / liquid matrix |\n| L/O | COMBINE / IN-WITH process relation |\n| AIIN | DOSE / DEGREE of treatment |\n| Y | PORTION / station or treated item |\n| CTHY | TREATED / prepared process state |\n| terminal families | resulting preparation + process completion |",
+      "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd",
+      "why": "Full Model B definition"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+      "line": 135,
+      "line_end": 148,
+      "quote": "### Model C — indexed workshop checklist (new rival)\n\n| card/family | one role used globally |\n|---|---|\n| `qokaiin` | RECORD KEY / mode selector |\n| L/O | CROSS-REFERENCE / list edge |\n| AIIN | INDEX / coordinate / value slot |\n| Y | CHECKPOINT / labelled node |\n| CTHY | CLASS / status flag |\n| terminal families | exact cell value + VALIDATION SEAL |\n\nThis is not a medical-content model. It treats the pages as an illustrated\ninventory, routing sheet or exemplar checklist whose cards primarily locate\nand validate entries.",
+      "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd",
+      "why": "Full Model C definition"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+      "line": 64,
+      "line_end": 76,
+      "quote": "### Model A — typed practical form (current model)\n\n| card/family | one role used globally |\n|---|---|\n| `qokaiin` | ENTRY / reactivated ADDRESS HEAD |\n| L/O | RELATION / co-member LINK |\n| AIIN | PARAMETER / degree / index / reference slot |\n| Y | ITEM-TAG / POINTER slot |\n| CTHY | PROPERTY / CONFIGURATION STATE |\n| terminal families | exact PAYLOAD + formal COMMIT realization |\n\nThis model deliberately refuses the narrower expansions TAKE, WITH, AMOUNT,\nOBJECT and PREPARED. They would fail more occurrences than the broad roles.",
+      "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd",
+      "why": "Full Model A definition"
+    }
+  ],
+  "validation": {
+    "checks": [
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+        "line": 169,
+        "line_end": 181,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+        "line": 183,
+        "line_end": 188,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+        "line": 100,
+        "line_end": 109,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+        "line": 135,
+        "line_end": 148,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+        "line": 64,
+        "line_end": 76,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+      }
+    ],
+    "all_literal_spans_and_hashes_valid": true
+  },
+  "status": "audit_complete_no_operative_change"
+}
