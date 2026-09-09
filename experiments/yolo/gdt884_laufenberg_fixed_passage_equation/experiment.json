@@ -44,7 +44,22 @@
     {
       "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md",
       "role": "primary_report",
-      "sha256": "646bec40f1c9adc25da16210421857c0275a9c4d7ac83105575e21f8ac8c71a6"
+      "sha256": "9ccce4f00ebcdd495bf387a06bd5fb383d1c0e0e53d5dbdda09a86e6969c9ca2"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/ANALYTIC_CERTIFICATE.json",
+      "role": "source_or_artifact",
+      "sha256": "a989e4e736592353c7e1825d46ae254e4b88cb8fd51d492b6df9ba33fe84baa8"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/ANALYTIC_VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "9afa44e82da5efc12624da291d1cdaaa0466629c0982a766f6e66a57f63b06f7"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/INPUT.json",
+      "role": "source_or_artifact",
+      "sha256": "2b7dbf86ff51b9804edea28387b33e7c24648912ff6b98ec6e2d5f238a6c5e83"
     },
     {
       "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/README.md",
@@ -52,9 +67,19 @@
       "sha256": "041f911d91aa3614e7ad935f993f2ae96f7e6bdf4f1518a0bb4b56de3a640094"
     },
     {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "1ee59fa5bfd8f3c471a32418351fd470b9f0aad82b9299574f3faf19aec49a32"
+    },
+    {
       "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/SOURCE_INTRO.json",
       "role": "source_or_artifact",
       "sha256": "e405215ad8699072b0bbd3c19c00e817ff51daad4bb49190e99505ed3b0b5006"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "b55e4db5c758e43604920d00c644cff60b5c7e91e884b595eddc451ce3481b07"
     },
     {
       "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/PREREG_LOCK.json",
@@ -65,6 +90,11 @@
       "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/SPEC.json",
       "role": "source_or_artifact",
       "sha256": "592c8b0fb476230853b4c3636906d1e3aafbec4913a5578dacbc9a0d124b8ae7"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/analytic_certificate.py",
+      "role": "source_or_artifact",
+      "sha256": "2e56d26b90a007e8ceef7ffa8d0427be4c2a93ec5545ea3e1eb7b42768d28cb2"
     },
     {
       "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/bind.py",
@@ -85,6 +115,11 @@
       "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/validate.py",
       "role": "source_or_artifact",
       "sha256": "a07616ab770db59a4d9c04c30ce2ca7e23dd083167a8f5024c546912fc22b57a"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/validate_analytic.py",
+      "role": "source_or_artifact",
+      "sha256": "7d9aa3b09fbb36c70981926b562a0c250b4637e805e0d46fde17a80d93b19b22"
     }
   ],
   "question": "Can any of three primary exact STA North-block readings expand to any of eight frozen historical introduction strings under an erasing morphism with nonempty group images?",
@@ -94,11 +129,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "laufenberg_fixed_passage_equation",
-  "status": "REGISTERED_UNSCORED",
+  "status": "UNSAT_ANALYTIC_FIXED_PASSAGE",
   "title": "Fixed Laufenberg introduction as a conditional plaintext crib",
   "updated": "2026-09-09",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/ANALYTIC_VALIDATION.json",
+    "status": "PASS"
   }
 }

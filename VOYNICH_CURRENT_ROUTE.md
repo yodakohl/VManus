@@ -14,6 +14,13 @@ for any fixed block length >=2. STA: 25/33 codes forced identical; homophonic
 model has at most 38 latent strings among 749 raw forms. Independent graph and
 source validation PASS. Primary: experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md.
 No meaning; no adaptive segmentation/exception follow-on. IDEA000114 remains raw.
+GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
+erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,
+with nonempty group images. Initial DFS remains UNKNOWN_BUDGET; separate exact
+post-search square/unique-x proof excludes all24 unchanged equations. Independent
+interval-DP certificate PASS. Historical motif parallel remains open; no meaning,
+no Winter query, no new visual page. Primary:
+experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md.
 User withdrew global_reconstruction_plan as repetition; it is NOT the next route.
 Minimal documentation requested; no administrative source-check series.
 
