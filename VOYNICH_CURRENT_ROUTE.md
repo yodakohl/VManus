@@ -14,7 +14,7 @@ with stride 1 cannot be injective at literal EVA or exact STA member scale,
 for any fixed block length >=2. STA: 25/33 codes forced identical; homophonic
 model has at most 38 latent strings among 749 raw forms. Independent graph and
 source validation PASS. Primary: experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md.
-No meaning; no adaptive segmentation/exception follow-on. IDEA000114 remains raw.
+No meaning; no adaptive segmentation/exception follow-on. IDEA000114 tested in889.
 GDT885: all2^20 sign assignments give exact rank20 overF3; independent full
 rank-vector parity PASS. No nontrivial reversible machine on<=3 states makes
 all413882 lines share one endpoint from one start. This closes882's specific
@@ -50,6 +50,10 @@ forms (1598of1617groups) to one message; exact maximum20messages. Independent
 all280126pair DP/BFS and729collision witnessesPASS. Injectivity impossible;
 noninjective code bounded, not generally refuted. No actual meaning equivalence.
 Primary:experiments/yolo/gdt889_whole_form_edit_capacity/REPORT.md. No successor.
+890selected: f77r strict component-detail hypothesis, independent text-blind
+geometry first;18:07–18:22UTC totalbudget. Existingimage only, no meaning.
+119Lull vegetative-faculty source remains raw: scholarly description located,
+original/image unverified; no Voynich comparison or decoder selected.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
 erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,
 with nonempty group images. Initial DFS remains UNKNOWN_BUDGET; separate exact

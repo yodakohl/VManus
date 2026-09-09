@@ -1,0 +1,93 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Local discovery geometry and reference hypothesis only; no meaning or scored relation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt890_f77_component_detail/src/run.py",
+    "validate": "python3 experiments/yolo/gdt890_f77_component_detail/src/validate.py"
+  },
+  "created": "2026-09-09",
+  "dependencies": [
+    "GDT198",
+    "GDT790",
+    "GDT791",
+    "GDT792",
+    "GDT811"
+  ],
+  "experiment_id": "GDT890",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/src/IMAGE_SOURCE_SPECS.tsv",
+      "role": "existing_source_contract",
+      "sha256": "c29c9e6f8a951eabba2d22b443d3e078d8ca29912cc154a30f7ed2a63c38215b"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/src/LABEL_OWNER_SPECS.tsv",
+      "role": "existing_source_contract",
+      "sha256": "2cf36e77b6804b44c242d84b9a8f8a1f2be6aef641dafcdd72e13e0db561c329"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/F77_HISTORICAL_READING.md",
+      "role": "existing_source_contract",
+      "sha256": "9c828026face38dd1d295597b5d7c0202bcfb44aca525cfb1851d2d6811cf5df"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt890_f77_component_detail/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "08fee4bd942c8cff94c34db713167274c376c42dd25a4988f369f9105726e958"
+    },
+    {
+      "path": "experiments/yolo/gdt890_f77_component_detail/README.md",
+      "role": "source_or_artifact",
+      "sha256": "0bcb0d016fa7233b3c6d2747374f4ab77fc7481a192dcb3d35f7ddd32684b799"
+    },
+    {
+      "path": "experiments/yolo/gdt890_f77_component_detail/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "808db4c10459516dee8a03c7be4dd83e5ad6de426488272489a1c0ff4000e162"
+    },
+    {
+      "path": "experiments/yolo/gdt890_f77_component_detail/src/GEOMETRY_PROTOCOL.txt",
+      "role": "source_or_artifact",
+      "sha256": "c83245f6a0114c439b72346e782f59802ade3cb05ddedc2bcc91789ddc93a02e"
+    },
+    {
+      "path": "experiments/yolo/gdt890_f77_component_detail/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "9d7a667635530d56eca869df3b137963b84103689ab54633b91bdd3e30b800e2"
+    },
+    {
+      "path": "experiments/yolo/gdt890_f77_component_detail/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "ba1b2f10aa287e6e5210018b2960a98ee409fbbfa88054b074fe3f8831875df8"
+    },
+    {
+      "path": "experiments/yolo/gdt890_f77_component_detail/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "9d5a83cdaf06d4c237e496c6a1de6f64f848ba602f1a0abda2d8f05434a3bbba"
+    },
+    {
+      "path": "experiments/yolo/gdt890_f77_component_detail/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "e24db2cf4323a93f4b0cab3b6aec0f756a224ad93043a106ada87651cccfb07e"
+    }
+  ],
+  "question": "Do two independent geometry inventories permit the middle drawing to enlarge an upper component under the existing exact label/opener relation?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f77_component_detail",
+  "status": "REGISTERED_UNSCORED",
+  "title": "f77r strict component-detail correspondence",
+  "updated": "2026-09-09",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
