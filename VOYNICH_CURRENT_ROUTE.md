@@ -9,7 +9,9 @@ New user10h task starts2026-09-09 18:34:04UTC: prioritized full models5+3
 22 grammar;12 discovery+9 held, below registered12+12. Full source exhausted.
 425561 referenceforms/global unknown-unit CV architecture prepared but untested.
 No threshold relaxation, replacement corpus or616/832–837repair.
-Next independent priority48 source montage: complete primary text+shared mapping.
+893registered: source montage under one global whole-word bijection; maximize
+whole-paragraph word coverage, alloptima retained.14sourcewitnesses/153031tokens;
+odd physical leaves only, no new targetfit yet.90min budget19:30–21:00UTC.
 LatInfLexi excludes medieval vocabulary; no Voynich-language inference.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
 

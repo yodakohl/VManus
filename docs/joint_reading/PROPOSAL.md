@@ -172,3 +172,19 @@ below the fixed12+12 requirement. No decoder fit or threshold/corpus repair.
 The architecture remains untested; move to the independently prioritized source
 montage model, conditional on complete source runs and an identifiable shared
 writing map. No old control failure is reopened.
+
+Source montage decision, 2026-09-09 19:30UTC: GDT378/211 tested anonymous
+roles,838 internal windows,884 one fixed expanded passage,887 one fixed medical
+compiler. The unknown is whether complete source runs from a frozen14-witness
+pool jointly identify whole manuscript paragraphs under ONE injective word code.
+Pool: all8 current ALIM Medicina works/versions plus6 cached COREMA recipe XMLs;
+related witnesses remain dependent. Maximize written word positions covered by
+whole eligible discovery paragraphs, retain every optimal plaintext projection,
+and leave residual text untranslated. No fragment-length or match-count threshold.
+A forced complete passage supports a corpus-relative candidate for independent
+continuation validation; no compatible passage or only ambiguous optima parks
+this exact-copy model on this pool. No enlarged corpus or relaxed code follows.
+Use existing887 paragraph cache, odd physical leaves only; historical exposure
+is disclosed, even leaves unused by this fit. First complete enumeration/optimizer
+budget90min through21:00UTC, including source preparation, independent validation
+and publication. No scored null/meaning before separate388 packet and held gates.
