@@ -5,8 +5,8 @@
   },
   "claim_ceiling": "Conditional complete-entry copy law on a partial eclectic source pool; no language, meaning, completebook, diplomaticwitness, passed892control or held claim.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt895_simon_complete_entry_cv_code/src/source_text.py",
-    "validate": "python3 experiments/yolo/gdt895_simon_complete_entry_cv_code/src/validate_source.py"
+    "run": "python3 experiments/yolo/gdt895_simon_complete_entry_cv_code/src/fit_cv.py",
+    "validate": "python3 experiments/yolo/gdt895_simon_complete_entry_cv_code/src/validate_cv.py"
   },
   "created": "2026-09-09",
   "dependencies": [
@@ -33,17 +33,17 @@
     {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/METHOD.md",
       "role": "source_or_artifact",
-      "sha256": "bfc4d4826fc52c075a8effd1891b1f0b6f4a9bec640a2a594641b08ff27d6f8e"
+      "sha256": "88bd29959baeafb8ed9aa308e22256ee8ed566ac861103dcaae16baefebcd78d"
     },
     {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/README.md",
       "role": "source_or_artifact",
-      "sha256": "b3a14b81c82c450979e48cf812253f573e12d30121419b74bad51880c80522c5"
+      "sha256": "53ccd9b26abccae3d14673c71c092b8b39e54b995669d58449ec0d2934f1e83d"
     },
     {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md",
       "role": "primary_report",
-      "sha256": "2db66e6ef2a15bdb2c9420a6aab4c1d0128e7b62b05f0b84b4ae05ba30ce5198"
+      "sha256": "3d152ee5258dde149e3250b2ed9be7ef1230525f8ed68fff0ebb28fdc00677ef"
     },
     {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/CAPTURES.json",
@@ -51,9 +51,19 @@
       "sha256": "033800bc117abe9031364800c703d4b061299d47a642b53398bd478429f9d322"
     },
     {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/CDX_ALL.raw",
+      "role": "source_or_artifact",
+      "sha256": "0244b2118801ae9c24e27cf0692cc551e1eb6ae1edb760349bb0dcb4dbde810a"
+    },
+    {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/INDEX_INVENTORY.json",
       "role": "source_or_artifact",
       "sha256": "c32d29ecb0f12ad5c0dbc5c3ff84cd3d02b86eadf1898ff1fa787547b6602f75"
+    },
+    {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/PREPARATION_VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "33b8db2eb969a4b80b189126f4e2e3dcac2b453a42677b2af22b672709f75eb5"
     },
     {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/README.md",
@@ -61,14 +71,29 @@
       "sha256": "c19d9de75d84a2bfac073656e2c5c9fe3ea848b920cb33398e61a4c6601261f5"
     },
     {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/RECEIPTS.json",
+      "role": "source_or_artifact",
+      "sha256": "bdcdbc96e844c814726b9b3b9743b765e3f4058d05ec8c56a865159d71bcd15a"
+    },
+    {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/SOURCE_ACQUISITION.json",
       "role": "source_or_artifact",
       "sha256": "8f357a1ef0ed2d272bc60de227471f44f85aa463b4ff98028e7eff145946a88c"
     },
     {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/SOURCE_AUDIT.json",
+      "role": "source_or_artifact",
+      "sha256": "aaa365203d5ce33f679496388ad3e37e5446a7b70c610eff6dfcde34cedb9250"
+    },
+    {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/SOURCE_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "ec35b637bd891edc833648f61b57ef182802b6148b9979c1856d56a6f1fcc169"
+    },
+    {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/SPEC.json",
       "role": "source_or_artifact",
-      "sha256": "25c15c96fe8d205e3143d460bb10c28d193ef205432cbaabb5e4312c597187f9"
+      "sha256": "741c28bb434781c74581273f1fe7bc612c6fdfeb291dd3b50cd0262ce4b2386d"
     },
     {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/acquire_source.py",
@@ -76,9 +101,44 @@
       "sha256": "f20491deca97f38224c9ef5f88ec870489a312ef901952928a722e6c4d32479a"
     },
     {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/check_entry_domains.py",
+      "role": "source_or_artifact",
+      "sha256": "8e504c51cb2852a66921e6eee0dcee31de77ac67f26b828d63190b34d50247bd"
+    },
+    {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/cv_equations.py",
+      "role": "source_or_artifact",
+      "sha256": "3c88ad1f813d3e198a7f7b9f058e3c29be160a8ff3f012c409bd4400dc6face8"
+    },
+    {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/fit_cv.py",
+      "role": "source_or_artifact",
+      "sha256": "f46c6a87a86b7694e65ff949240bc3770fd5b41ee26cf535ea4eb4f75d275d2a"
+    },
+    {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/replay_source_cache.py",
+      "role": "source_or_artifact",
+      "sha256": "3da7f94f65e86e313a6c84077947fd1616fc7f429a614343c9e315623196d242"
+    },
+    {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/source_text.py",
       "role": "source_or_artifact",
       "sha256": "f5039fb306afa929e6a0f5550c9c9e8827a4be6abc2b9bef7f2d627c19ff3aea"
+    },
+    {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/validate_cv.py",
+      "role": "source_or_artifact",
+      "sha256": "153c23888889ccd2899f5d02180e7124a46425707b4f41f8cddba00048816469"
+    },
+    {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/validate_cv_equations.py",
+      "role": "source_or_artifact",
+      "sha256": "b63aca4ef25033c894634d9fe64f29d3e2f218cd45e2154764b8202112e9fd49"
+    },
+    {
+      "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/validate_entry_domains.py",
+      "role": "source_or_artifact",
+      "sha256": "ab768e967b75a573704be1448e831c18a8b480eda326714a661234e2f533caa8"
     },
     {
       "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/src/validate_source.py",
@@ -93,11 +153,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "simon_complete_entry_cv_code",
-  "status": "SOURCE_INTAKE_IN_PROGRESS_NO_TARGET_FIT",
+  "status": "SOURCE_FROZEN_PRETARGET",
   "title": "Complete Simon dictionary entries under one lossless CV code",
   "updated": "2026-09-09",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt895_simon_complete_entry_cv_code/artifacts/SOURCE_AUDIT.json"
   }
 }

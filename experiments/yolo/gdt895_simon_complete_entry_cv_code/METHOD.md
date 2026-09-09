@@ -2,7 +2,7 @@
 
 Can every inherited eligible odd complete paragraph correspond to a different
 complete Simon dictionary entry under one global lossless consonant/vowel code?
-The exact contract is [src/SPEC.json](src/SPEC.json). Source preparation only;
+The exact contract is [src/SPEC.json](src/SPEC.json). Source pool independently frozen;
 no target fit or held access has started.
 
 The source is an explicitly partial archived **eclectic edition**, originally
@@ -45,11 +45,20 @@ meaning. A portable candidate requires a separately fixed held evaluation and
 the applicable GDT388 gates before semantic promotion.
 
 Source acquisition/parser/validation/publication budget:21:16–22:46UTC on
-9September2026; stop acquisition22:40. A target-search budget will be specified
-after the finite source pool passes review and before target processing. The
+9September2026; stop acquisition22:40. The target phase is now capped at30minutes, ending no later than23:15UTC;
+primary and independent CV searches each receive300seconds, with10000 observed
+models per panel as an UNKNOWN output cap. The
 broader arbitrary block-expansion alternative is not an automatic successor.
 
 Source reconstruction uses `src/source_text.py --cache CACHE --output POOL`,
 then `src/validate_source.py --corpus CACHE --source-pool POOL --output AUDIT`.
-These paths name a local cache supplied by the caller. The frozen capture/index
-receipts and acquisition implementation will accompany the completed source lock.
+These paths name a local cache supplied by the caller. The original5803 receipts,
+CDX response and frozen source/audit hashes accompany SOURCE_LOCK.json.
+The receipt replay script reconstructs the original snapshot from byte-identical
+archived bodies; later acquisition successes never enlarge this fixed pool.
+
+The independent CV validator first materializes all local codebooks using binary
+component-length equations, then exhaustively joins them with distinct source
+entries and globally consistent injective prefix-free codes. It compares every
+observed model with the direct word-equation search. Unused component codes
+remain existentially extendable and unidentified.

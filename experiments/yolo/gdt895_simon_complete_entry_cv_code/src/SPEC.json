@@ -1,6 +1,6 @@
 {
   "experiment": "GDT895",
-  "status": "SOURCE_PREPARATION_NO_TARGET_FIT",
+  "status": "SOURCE_FROZEN_PRETARGET",
   "question": "Can every declared complete discovery paragraph be a distinct complete entry of one frozen partial Simon edition under a single lossless CV writing code?",
   "source": {
     "identity": "Simon Online eclectic edition, originally based on Venice1510 print; editorial maintext only, never diplomaticA or completebook",
@@ -15,7 +15,12 @@
     "markup": "Main inline tags a,b,i,em,strong,span,br only. Unknownblock/tag, hidden/aria-hidden, visibility:hidden, line-through, color/font-weight/display CSS or noprint/reference classes quarantine wholeentry. This excludes actualmodern complete-text/sectioned-text editorial additions seen in Achilea/Alcionium before Apparatus.",
     "characters": "Wholeentry rejected for $?[]<>{} or ellipsis, unsupportedcharacters includingdigits, combining/abbreviationmarks, apostrophe,slash,hyphen or ampersand. OnlyASCIIletters, whitespace and . , ; : ! ( ) accepted; æ/Æ and œ/Œ explicitlyexpanded. ASCIIuppercase lowercased; no otherUnicodecasefold ordiacriticdeletion.",
     "words": "All maximal a-z runs after declaredprojection, inexactorder; punctuationdelimits. Literalletter-names andRomannumerals retainedaswritten; remainingabbreviations notexpanded; apparatusspellings never substituted.",
-    "rights": "Raw moderneditionHTML and fulltransformedpool keptinlocalcache. Publish sourceURLs/hashes, extraction/reproductioncode and compactresults."
+    "rights": "Raw moderneditionHTML and fulltransformedpool keptinlocalcache. Publish sourceURLs/hashes, extraction/reproductioncode and compactresults.",
+    "final_entries": 1016,
+    "final_words": 13270,
+    "final_acquired": 1299,
+    "final_quarantined": 283,
+    "final_deadline_missing": 276
   },
   "channel": {
     "predecessor": "Exact lossless orthographic CV transformation inGDT892 core.py. Its original grammar/control task remains capacity-stopped, neverpassed; this is a different source-equation falsifier, not a controlrepair.",
@@ -31,12 +36,15 @@
     "source": "InheritedGDT887 SELECTED.json cache only, via sharedoddparagraphpacket preparedforGDT893; exactinputhash andreaderrecordedbeforefit.",
     "domain": "Every inheritedeligible completeparagraph on oddphysicalleaves, separately ZL3b/IT2a/RF1b/consensus. Eligibility/boundaries are inherited and imperfect, not an independenttrue reading.",
     "assignment": "Total injective paragraph-to-sourceentry assignment; complete-sourceentries mayremainunused. No maximumcoverageobjective, paragraphsubsetting, shiftedwindows, clippedentries, entryreuse orsourcevariants fittedafterresults.",
-    "exposure": "Historicallyexposed sourceparagraphcache; no heldclaimfordiscovery. Alternate readings areone manuscript. No evenparagraph fit, newVoynichimage, f84/f84r or f116v access."
+    "exposure": "Historicallyexposed sourceparagraphcache; no heldclaimfordiscovery. Alternate readings areone manuscript. No evenparagraph fit, newVoynichimage, f84/f84r or f116v access.",
+    "packet_sha256": "1b536c8f46dca72522d9cd059869a963aad124ee5da44218b886c88d91ddf2ed",
+    "reader": "GDT893 src/run.py builds the already validated odd-only packet; GDT895 checks bytehash before parsing and requires unchanged panel counts14/259/11/1."
   },
   "search": {
     "first_necessary_condition": "Wordcount and whole-word equalitypattern mustmatch, because theCV/codecomposition is injective. Emptydomain is an exact totalcoverage contradiction without a keysearch.",
     "next": "Retainall sixvowels; usecomponentlength constraints, fullcomponent/equalitypatterns, globallyconsistentprefix-free codes anddistinctentryassignment. Searchorderingdoesnotalteradmittedparagraphscope.",
-    "completeness": "A verifiedfullwitness provescompatibility only. Rejection requirescompleteenumeration or independentlycheckable necessaryconditioncertificate. Unfinishedsearch isUNKNOWN. Uniqueplaintext andportablekey requirecompletecounterexamplequeries overallsurvivingmodels; noonebestsolutionclaims."
+    "completeness": "A verifiedfullwitness provescompatibility only. Rejection requirescompleteenumeration or independentlycheckable necessaryconditioncertificate. Unfinishedsearch isUNKNOWN. Uniqueplaintext andportablekey requirecompletecounterexamplequeries overallsurvivingmodels; noonebestsolutionclaims.",
+    "implementation": "Direct codeword DFS shares one key across all assigned paragraphs. Independent binary component-length enumeration materializes local maps, then independently joins them with global prefix/injective constraints and source-entry allDifferent."
   },
   "held": "No heldtestdefined orauthorizedbythissourcepreparation. If a portableprojection survives, freezeallsurvivingmodels and aseparatewholefolio/continuationcontract beforeanyheldaccess; missingcodes remainUNKNOWN and helddata cannotselect amongdiscoveryalternatives.",
   "gates": "No language, wordmeaning orrelation score is established bythisconditionalcopytest. Anyrelationevidence mustseparatelypassapplicableGDT388capacity/held/provenance/mobile-nullgates.",
@@ -44,6 +52,15 @@
     "source_start_utc": "2026-09-09T21:16:00Z",
     "source_end_utc": "2026-09-09T22:46:00Z",
     "acquisition_stop_utc": "2026-09-09T22:40:00Z",
-    "target_search": "NOT_STARTED; numericalbudget setafterfrozeninventoryreview andbeforeanytargetprocessing; noautomaticfallbacktoarbitraryblockexpansion"
+    "target_search": {
+      "wall_minutes_from_first_target_processing": 30,
+      "latest_end_utc": "2026-09-09T23:15:00Z",
+      "primary_cv_total_seconds": 300,
+      "independent_cv_total_seconds": 300,
+      "observed_model_output_limit_per_panel": 10000,
+      "cap_outcome": "UNKNOWN, never rejection or uniqueness",
+      "includes": "complete domain certificate, direct CV equations for surviving panels, independent full replay, result/publication",
+      "no_follow_on": "No alternate source, relaxed coverage, changed code or additional optimizer after this budget."
+    }
   }
 }

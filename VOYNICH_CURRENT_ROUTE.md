@@ -18,9 +18,9 @@ barriers:9safepriorpositions/4conflicts,19following/4conflicts. Independent
 guard/sourcevalidationPASS. LiteralRFcopylawonly; no transferablemeaning.
 122rawcommonscript/multiplelanguage architecture retained; primarysources
 supportmultilinguallexicallists, notparagraphswitching. Sourcesstillunfixed.
-895sourcepreparation: completeSimonentry equations underone lossless892CVkey;
-explicitpartialeclecticarchive,1575fixedcaptures of5803indexlinks. No targetfit.
-Fullsource/parser/independentaudit block21:16–22:46UTC; noautomaticblockdecoder.
+895sourcefrozen:1299acquired/1016strictcompleteentries13270words;283quarantine,
+276deadline,4228missingmetadata. Independent source/revision/auditPASS; no targetfit.
+Complete-entryCVtest next:30minwall,300sper independent solver; noautomaticrepair.
 128Llull chamber macros sourced; fixed10-letter complete-line morphism conflicts
 with882rank20 on its certificate scope. Narrow ordered-table domain remainsunbound.
 LatInfLexi excludes medieval vocabulary; no Voynich-language inference.

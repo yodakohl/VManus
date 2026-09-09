@@ -259,3 +259,13 @@ without further archive chasing. If it can, set the smallest adequate exact-sear
 budget in its preregistration. A forced portable key opens a separately fixed held
 reading; only ambiguous keys or exact rejection parks this pool/channel. No target
 omissions, changed source spellings, threshold relaxation or fitted source variants.
+
+GDT895 preparation checkpoint,22:27UTC: complete-entry word partitions may leave
+an individual panel unresolved; they do not themselves test the CV channel.
+Within the existing22:46 preparation end, allow at most15minutes for two small
+independent exact word-equation kernels on invented data only: direct codeword
+DFS and binary component-length equations. A verified empty domain closes a
+panel; otherwise these kernels can decide the already registered channel rather
+than reporting preliminary compatibility as a fit. No broader decoder, alternate
+source or target processing is selected. Actual target-search duration and
+frozen inputs remain to be published after source closure.

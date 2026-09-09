@@ -1,9 +1,17 @@
 # GDT895 — source preparation, no manuscript result
 
-**SOURCE_INTAKE_IN_PROGRESS_NO_TARGET_FIT.** The selected full model couples all
-complete discovery paragraphs to complete dictionary entries through one
-lossless CV key. Its source pool is being acquired and independently validated;
-no target candidate or new word value has been computed.
+**SOURCE_FROZEN_PRETARGET.** All1299 acquired captures passed independent
+provenance/revision checks. The fixed parser admits1016 complete entries,
+13270 words;283 acquired bodies are quarantined. Of1575 selected captures,
+276 remain unavailable at the fixed deadline;4228 other titles lacked matching
+capture metadata. No target has been processed for895.
+
+The exact original5803 receipts and successful raw-body hashes are preserved.
+Replaying those receipts with identical archived bodies reproduces the complete
+source pool byte-for-byte. The declared target phase has at most30minutes,
+ending no later than23:15UTC; primary and independent CV solvers each have300s,
+with10000 observed models per panel as an explicit UNKNOWN output limit.
+Every declared paragraph must fit a distinct complete entry under one key.
 
 Simon Online's21 available archived letter indices contain5803 distinct entry
 links. Exact-title archive metadata supplies1575 selected captures;4228 titles
@@ -16,7 +24,7 @@ Nefros is an emendation relative to printA, and witnesses can split/merge entrie
 differently. Acquired Achilea and Alcionium pages contain modern explanatory
 material before an Apparatus marker. The strict parser quarantines those entire
 structures rather than mixing them into historical maintext. Source validation
-is incremental until acquisition and receipt hashes are closed.
+is complete and all receipt hashes are closed.
 
 Historical context: [Zipser's study of non-Latin alphabets](https://www.ncbi.nlm.nih.gov/books/NBK607402/)
 collates the transmission of Greek/Arabic material inside the primarily Latin
