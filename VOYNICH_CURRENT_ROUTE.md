@@ -1,7 +1,12 @@
 # Voynich current route
-Updated: 2026-09-08. Read first.
+Updated: 2026-09-09. Read first.
 
 ## Latest completed continuation and next selection
+
+QK: IDEA000107 method-reviewed, semantic not-tested. Same-type homonyms
+need not change role; GDT559 inheritance uses constructed reader state.
+No independent incompatible requirement in selected559/593 sources. No rerun.
+Primary: research_registry/decisions/qk_argument_type_design_review.md.
 
 Translation plan prepared 2026-09-08:
 research_registry/proposals/translation_reconstruction_plan.md.

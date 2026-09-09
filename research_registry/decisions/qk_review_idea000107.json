@@ -1,0 +1,66 @@
+{
+  "record_id": "IDEA000107",
+  "reviewer": "root",
+  "scope": "method",
+  "verdict": "not_tested",
+  "assessment_basis": "primary_source_and_logical_design_review_no_manuscript_test",
+  "reason": "Same-type homonyms and stable meaning have coincident type predictions; source inheritance is constructed reader state. No independently observable incompatible requirement is nominated.",
+  "design": {
+    "mechanism": "cross-envelope type invariance versus context-conditioned homonymy",
+    "unit": "source-bound relation/modifier or argument-envelope construction",
+    "contrast": "Replace the same argument form across two envelope types while holding its local participant relation fixed: its typed role should remain invariant; the homonym model predicts a changed role or incompatible downstream requirement.",
+    "prediction": "GDT559 showed renderer compositionality and inherited successors, but did not test whether a semantic type survives envelope substitution against a homonym rival.",
+    "countermodel": "A renderer or position-conditioned convention can reproduce the observed layouts without the proposed semantic law.",
+    "falsifier": "The held occurrence requires an incompatible role or the invariant type fits only by changing the surrounding construction.",
+    "principal_risk": "The four argument types and independent participant endpoints are unresolved; use only abstract type constraints.",
+    "endpoint_status": "availability_unknown",
+    "smallest_test": "Select one form occurring in two envelopes, hold one occurrence out, and compare role compatibility under invariant-type and homonym models.",
+    "prior_duplicate_pointers": "Near GDT559 and IDEA000064/078; distinct observable is type preservation across envelope substitution.",
+    "selection_status": "raw unreviewed; no readiness or novelty claim"
+  },
+  "blockers": [
+    {
+      "code": "invalid_test",
+      "detail": "Context-dependent meanings need not change semantic type; role change need not change lexical meaning.",
+      "evidence": [
+        "research_registry/decisions/qk_argument_type_design_review.md",
+        "research_registry/proposals/qa5_argument_type_invariance.json"
+      ]
+    },
+    {
+      "code": "missing_independent_semantic_binding",
+      "detail": "GDT559 reader defaults and GDT593 applications do not supply an independent type endpoint.",
+      "evidence": [
+        "research_registry/decisions/qk_argument_type_design_review.md",
+        "research_registry/proposals/qa5_argument_type_invariance.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "different_observable_predictions",
+        "change": "new_design",
+        "detail": "Specify finite source-bound rival predictions for an observable relation or requirement; joint inference without pretranslated words is allowed.",
+        "evidence": [
+          "research_registry/decisions/qk_argument_type_design_review.md",
+          "research_registry/proposals/qa5_argument_type_invariance.json"
+        ]
+      },
+      {
+        "id": "independent_endpoint",
+        "change": "new_binding",
+        "detail": "Bind that observable independently of renderer-assigned meaning or inherited context state.",
+        "evidence": [
+          "research_registry/decisions/qk_argument_type_design_review.md",
+          "research_registry/proposals/qa5_argument_type_invariance.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More unchanged formal envelopes, renderer inheritance matches, or invariant abstract types alone."
+    ]
+  },
+  "relations": []
+}
