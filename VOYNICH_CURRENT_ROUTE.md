@@ -54,8 +54,11 @@ Primary:experiments/yolo/gdt889_whole_form_edit_capacity/REPORT.md. No successor
 boundaries; no certified graph matches or contradictions. Measurement stop, not
 hypothesis refutation; no word meaning or new page. Late route-read deviation
 disclosed. Primary:experiments/yolo/gdt890_f77_component_detail/REPORT.md.
-119Lull vegetative-faculty source remains raw: scholarly description located,
-original/image unverified; no Voynich comparison or decoder selected.
+891/119original recovered: Vat.lat.3468.pt.1 f38r, four captions and spatial
+owners agree in two native readings. Mill/defecation functions not independently
+resolved; full attribute conjunction incomplete. No Voynich target or score.
+Primary:experiments/yolo/gdt891_lull_vegetative_source/REPORT.md. Park functional
+homolog pending source clarification and separately fixed target contract.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
 erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,
 with nonempty group images. Initial DFS remains UNKNOWN_BUDGET; separate exact

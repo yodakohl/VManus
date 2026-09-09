@@ -903,3 +903,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT888 | GDT888_alphita_joint_name_incidence | `COMPLETE_FIT_UNIDENTIFIED` | [report](../experiments/yolo/gdt888_alphita_joint_name_incidence/REPORT.md) | 17 | 393.2 KiB | 8 | STRUCTURED_YOLO |
 | GDT889 | GDT889_whole_form_edit_capacity | `EXACT_FINITE_CAPACITY_20` | [report](../experiments/yolo/gdt889_whole_form_edit_capacity/REPORT.md) | 11 | 69.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT890 | GDT890_f77_component_detail | `STOP_MISSING_COMPLETE_BOUNDARIES` | [report](../experiments/yolo/gdt890_f77_component_detail/REPORT.md) | 14 | 30.2 KiB | 5 | STRUCTURED_YOLO |
+| GDT891 | GDT891 | `SOURCE_LABELS_CONFIRMED_ATTRIBUTES_PARTIAL` | [report](../experiments/yolo/gdt891_lull_vegetative_source/REPORT.md) | 12 | 18.7 KiB | 2 | STRUCTURED_YOLO |
