@@ -3,7 +3,8 @@ Updated: 2026-09-09. Read first.
 
 ## Latest completed continuation and next selection
 
-Active user-requested10h research:2026-09-09 01:58:34UTC; earliestend11:58:34UTC.
+User-requested10h ACTIVE research started2026-09-09 01:58:34UTC.
+Resumed16:59UTC after interruption; inactive gap does not count (active timer~3h28).
 GDT882:413all3-concordant lines43leaves20literal characters; integer lattice
 Z^20, index1; independent C D=I verificationPASS. No nonzero fixed additive
 whole-line rule over any abelian group on this literal scope. Evenleavesunread.
@@ -34,8 +35,15 @@ has0lengthmatches, not independent content evidence. Input amendment excludes
 6mixedframes, uses ZL-defined blocks; RFno flags/ITdiffers. Independent source/
 complete-fit validationPASS. Broader named-network idea117 not generally refuted.
 Primary:experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md.
-No meaning, no automatic compiler repair. Next candidate not yet selected.
-115parked for source/target graph identifiability.
+No meaning, no automatic compiler repair.
+115source follow-up finds an independently collated six-name incidence graph,
+including literal identity mentions as distinct provenance, not fake Respice edges.
+888selected: odd-leaf five-record training, even-leaf S heads only; S bodies
+withheld. One globally shared name-prefix rule; no ordinary Latin-word compiler.
+Initial05:20–06:40 window interrupted before any graphfit. Remaining fixed work
+reassessed17:00–18:00UTC, including validation/publication; no model expansion.
+115strictRespice branch remains insufficient;888uses separately defined literal
+name-incidence graph, preserving relation provenance.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
 erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,
 with nonempty group images. Initial DFS remains UNKNOWN_BUDGET; separate exact
