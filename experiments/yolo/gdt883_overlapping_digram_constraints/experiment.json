@@ -1,0 +1,94 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact fixed unit and overlap mechanism; no semantic, language, historical or general cipher identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt883_overlapping_digram_constraints/src/run.py",
+    "validate": "python3 experiments/yolo/gdt883_overlapping_digram_constraints/src/validate.py"
+  },
+  "created": "2026-09-09",
+  "dependencies": [
+    "GDT882"
+  ],
+  "experiment_id": "GDT883",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/artifacts/SELECTED_LINES.json",
+      "role": "frozen_source_or_reader",
+      "sha256": "bd8b58523e4e49754f4e49e3901f00ecef748679d90ac46184e453294c8753c2"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv",
+      "role": "frozen_source_or_reader",
+      "sha256": "f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840"
+    },
+    {
+      "path": "tools/guarded_tsv_query.py",
+      "role": "frozen_source_or_reader",
+      "sha256": "eeb8f325b3f7b10ad94eef4907d2d3baaa20bb1b81a9aa36782f96c9008551e3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "bf04bbb64711c5e503c1bb92e5e499a4d02835a62b4f97cb64ff1189e0c7fa73"
+    },
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/README.md",
+      "role": "source_or_artifact",
+      "sha256": "bb73d1a6101f6a8ba6c241a14d5dc5e7bc99e7e4e1145181431376a7fa1594c0"
+    },
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md",
+      "role": "primary_report",
+      "sha256": "a43e7293ac834fca423b23ea7a7c29eeb80ab5ef417119177a94b86104980bbd"
+    },
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "d4ba00def37be107f5cf3ffc95a58333355bfc0cd10b6d0d859a9c3d3b57e247"
+    },
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "cfdbfe5fe09fd81cc9b140c7938441c266a7c23fd2d4cd7be17a64a3bc1e580c"
+    },
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "0c2ba1463e6d90d6f6ee6ccc1c2107b3fb0ba7a012a86d6ab11ec1b0a84b603e"
+    },
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "28ab4b1325465025b999ea2406d627805cc174c0d4225a106bb713f511efd08f"
+    },
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "5627f828e52ab2d80a4e6e0569a5740f4f4fd7b9ae37f848f607e70aa2a8fd53"
+    },
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "3e8df406ef8d82ec12ff10c4db34fee5e8b210bc1d2a13de7b4415eda5027c38"
+    }
+  ],
+  "question": "Do fixed overlapping pairs, and the implied fixed-window block class, admit an injective assignment on concordant literal or exact STA transcription units?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "overlapping_digram_constraints",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Unknown overlapping-block code constraints",
+  "updated": "2026-09-09",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

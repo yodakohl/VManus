@@ -1,0 +1,1 @@
+SELECTED_GROUPS.json binds both fixed unit panels to source groups. RESULT.json contains the exact equality graph and witness forest; VALIDATION.json verifies source and graph reconstruction independently.
