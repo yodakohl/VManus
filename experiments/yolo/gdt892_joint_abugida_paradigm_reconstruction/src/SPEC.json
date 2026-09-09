@@ -1,0 +1,52 @@
+{
+  "status": "DESIGN_FROZEN_BEFORE_ANY_CIPHER_FIT",
+  "experiment": "GDT892",
+  "question": "Can one global prefix-free consonant/vowel code, latent unit boundaries, explicit Latin paradigm forms and sentence-feature templates jointly identify complete plaintext?",
+  "scope": "New orthographic abugida model; not a claim of Latin language, phonetic values or medieval script ancestry.",
+  "channel": {
+    "plaintext": "lowercase Latin a-z; Unicode combining quantity marks removed, ae/oe ligatures expanded; u/v and i/j retained as written",
+    "vowels": "aeiouy",
+    "inherent_vowel": "one globally selected member of aeiouy; all six possibilities retained",
+    "scan": "left-to-right, greedily consume a consonant and immediately following vowel as CV; otherwise consume one C or V",
+    "CV": "C:<letter>, followed by V:<vowel> iff vowel differs from inherent",
+    "C": "C:<letter>, then VIRAMA",
+    "V": "CARRIER, followed by V:<vowel> iff vowel differs from inherent",
+    "code": "one global injective prefix-free assignment from the 20 consonant bases, five noninherent vowel modifiers, CARRIER and VIRAMA to nonempty ciphertext strings of length 1 or 2",
+    "word_boundary": "one complete written group equals one complete plaintext word; no cross-space codes",
+    "exceptions": "none; no nulls, lexical root codes, per-word substitutions or position-dependent keys",
+    "unobserved_rules": "No identification credit; output equivalence, not unused parameter equality, determines recovery."
+  },
+  "lexicon": {
+    "paradigms": "LatInfLexi commit60c6f115a354abc3ad24456a5bbba7f3b7cae8fc orth_form + cell + lexeme, retaining all analyses and defective/missing distinctions",
+    "limitations": "Classical/pre-/post-Classical noun/verb lemma sample; medieval-specific lexemes and adjective/pronoun/function paradigms absent",
+    "supplement": "all exact attested alphabetic forms and complete analyses from the fixed GDT832 ITTB-TRAIN source; no target-selected additions",
+    "sentence_grammar": "Fixed feature/dependency CFG induced from projective complete ITTB-TRAIN sentence trees: each production preserves the ordered immediate dependents, head position and projected grammatical features. All rules are source-derived; no target rules. A paragraph may concatenate complete source-rooted parses. Restricted grammar, not all Latin syntax.",
+    "identification": "Complete noun/verb paradigms constrain source forms and features; one letter channel binds stems and endings. Feature-isomorphic free lexeme permutations are not separate allowed key operations.",
+    "feature_projection": [
+      "UPOS",
+      "Case",
+      "Number",
+      "Person",
+      "VerbForm",
+      "Mood"
+    ]
+  },
+  "control": {
+    "source": "unchanged GDT832 UDante-TRAIN source, independent from ITTB reference",
+    "selection": "first12 source-order complete non-MWT sentences of6..16 alphabetic lexical tokens entirely covered by frozen source lexicon AND admitted by frozen reference grammar; punctuation excluded as punctuation only, no lexical omissions. Then next12 eligible sentences whose used component set is contained in discovery for EACH of the six possible inherent vowels; reject a whole sentence, never individual words.",
+    "cipher_alphabet": "acdefghiklmnopqrstxy",
+    "key": "independent generator seed commitment;12 single-character codewords and15 two-character codewords with first characters from the remaining8 alphabet symbols; random injective permutation over27 components; one inherent vowel hidden",
+    "source_words": "no deletion, reordering, case-targeted repair or injected examples",
+    "exposure": "root sees ciphertext only until fit candidates and completeness status are locked; source selector and generator are independent",
+    "recovery": "all discovery and held words exact under every surviving plaintext projection, every observed rule recovered up to equivalent parameterizations; a timeout is UNKNOWN_BUDGET, not unique or rejected",
+    "coverage": "Every held-used component is observed in discovery, checked for all6 inherent vowels before key selection. No exact-identity requirement for unused key rules."
+  },
+  "budget": {
+    "design_start_utc": "2026-09-09 18:34:04 UTC",
+    "design_checkpoint_minutes": 30,
+    "initial_implementation_control_minutes": 90,
+    "interpretation": "Includes preparation, implementation, independent validation and publication; reassess before expansion. No automatic failed-control repairs."
+  },
+  "target": "No Voynich fit selected by this preregistration. A passing control and explicit manuscript contract are needed; existing f84/f84r seals and179-selector limit remain.",
+  "risk": "The observed manuscript may violate this finite channel; source incompleteness, search incompleteness, model failure and unidentified meanings remain distinct."
+}

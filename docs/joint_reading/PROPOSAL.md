@@ -134,3 +134,35 @@ diese Prüfung geöffnet. Rohgruppen, unsichere Abstände und alternative Lesung
 bleiben sichtbar; letztere sind keine unabhängigen Manuskripte. Keine neue
 Seitenaufnahme; f84 und f84r bleiben versiegelt. Neue Relationsevidenz müsste
 weiterhin sämtliche GDT388-Einlassprüfungen bestehen.
+
+## Nutzerauftrag 9. September: Gesamtarchitektur 5 + 3
+
+Aktiver Beginn 18:34:04 UTC; mindestens zehn Stunden angefordert, ohne inaktive
+Lücken. Die bestehende Langlaufsteuerung meldet usageLimited; daraus entsteht
+keine behauptete Arbeitszeit. Schwerpunkt: unbekannte Schriftbausteine, volle
+Flexionsparadigmen und Satzbeziehungen unter einem globalen Leseschlüssel.
+832–837 nutzten nur Co-Lemma-Mitgliedschaft, vorgegebene Atome/Grenzen und wenige
+Suffixkarten; ihre Fehler und 616 bleiben bestehen. Neu verfügbar ist die
+Primärressource LatInfLexi mit expliziten Paradigmenzellen und phonologischen
+Formen; sie schließt mittelalterlichen Wortschatz ausdrücklich aus. Sie wird
+nicht als belegte Voynichsprache behandelt.
+
+Erster Entscheidungspunkt nach höchstens 30 Minuten einschließlich Quellenzugriff,
+Architektur, unabhängiger Kritik und kompakter Veröffentlichung: Gibt es einen
+endlichen globalen Schriftkanal, in dem diese zusätzlichen Beschränkungen die
+Wort-/Merkmalszuordnungen tatsächlich identifizierbar machen können? Bei einem
+konkreten tragfähigen Modell folgt eine gemeinsame Rekonstruktion vollständiger
+Texte; ungelöste freie Bedeutungsumbenennung oder fehlende Kanaldefinition führen
+zur Modellrevision auf Papier, nicht zu einem größeren LM-/Kontrolllauf. Der
+Unterschied muss über den bekannten Co-Lemma-Bonus hinausgehen. Nr.48 bleibt
+die unabhängige Quellenalternative. Keine neuen Voynichseiten oder versiegelten
+Daten; Quellenregister und Sprachannahmen bleiben getrennt.
+
+Checkpoint nach etwa30Minuten: GDT892 definiert einen endlichen gemeinsamen
+orthographischen CV-Kanal ohne freie Wurzelcodes. Präfixfreiheit bei1/2-Zeichen-
+Codes reduziert die latenten Zerlegungen auf globale Zeichenmasken; vollständige
+Codebuchergänzbarkeit bleibt zusätzlich verpflichtend.425561 feste Quellformen
+und eine Grammatik aus13586 projektiven Referenzbäumen liegen vor. Das genügt
+für die begrenzte Implementierung/Identifikationsprüfung, nicht für eine
+Manuskriptlesung. Nächstes Budget90Minuten ab19:04UTC einschließlich Ergebnis-
+prüfung und Veröffentlichung; kein automatischer Reparaturlauf bei Scheitern.

@@ -1,0 +1,31 @@
+{
+  "title": "Source montage identified by complete passage provenance and one shared writing model",
+  "summary": "RAW_UNSCREENED: compare a source-assembled plaintext with freely generated grammatical plaintext under the same frozen writing model. Every assembled passage must identify a complete, independently fixed primary-source segment; long-range reuse of the writing key and exact source continuations jointly constrain the reading.",
+  "scope": "method",
+  "status": "RAW_UNSCREENED",
+  "design": {
+    "architecture": "A finite source-run automaton emits exact diplomatic primary-text segments and permits joins only at independently transcribed clause or entry boundaries. Its emitted text passes through the same finite writing-block, word-formation and sentence-grammar model as the unrestricted-generation rival. The source automaton replaces the free plaintext generator; it does not alter code units, merges, key budgets, morphology rules or exceptions. The selected writing model must be frozen before either source-route fit; until then this is a conditional architecture, not an executable experiment.",
+    "concrete_source_start": "GDT621 independently read five Latin6823 entries and documents the manuscript as an expanded herbal compilation. Its corrected clauses include a tree-versus-shrub judgment, a culinary-use statement and attributed medical descriptions. These are actual external text examples, not Voynich matches. They motivate source compilation independently of the tested Alphita incidence graph or Tacuinum compiler.",
+    "information_channel": "Exact readable source wording, including content lemmas, inflection, ordinary connective words and nonlocal source continuation. The Latin identity comes from those primary strings, not analyst semantic tags or the Voynich form frequencies. A uniquely identified copied segment supplies concrete lexical content; a class of equally compatible segments supplies only that class.",
+    "joint_constraints": [
+      "Every plaintext token must belong to an exact, source-identified contiguous run from a corpus frozen before target fitting; no corpus-wide bag of words, synonym substitutions, free connective filler or within-clause cut-and-paste.",
+      "One global writing model and key must produce all source runs on all admitted discovery folios; source switches change provenance only, never the key.",
+      "Freeze each run's identity, joins and the remaining key equivalence class before revealing reserved target material; exact continuation predictions must follow without choosing a new source segment after the reveal."
+    ],
+    "key_identification": "Do not assert that a finite corpus guarantees a unique key. Enumerate surviving source-path/key equivalence classes on the fixed scope. A lexical commitment is identified only if every surviving class gives the same content and predicts the same reserved continuation. Any residual source or key automorphism is reported explicitly; arbitrary label permutation earns no reading.",
+    "falsifier": "No complete source-path/key assignment supports the discovery scope, or the committed unique continuation contradicts reserved material. Multiple complete assignments are unidentifiability, solver timeout is incomplete computation, and absent complete source transcription is missing data.",
+    "countermodel": "The manuscript contains newly composed language with a shared morphology and syntax, rather than copied source runs. It uses the identical frozen writing channel; better language-model scores alone do not distinguish it from montage.",
+    "closest_predecessors": [
+      "GDT616 REPORT.md: closed synthetic primitive/card composition, which is not reopened or modified.",
+      "GDT617 PREREGISTRATION.md and GDT621 FINAL_RESULT.md: external source family and exact source reading; the old picture-pairing/transducer protocol stays frozen. Montage instead requires complete source provenance plus source-continuation predictions across a common writing model.",
+      "GDT832 REPORT.md: ordinary context plus limited co-lemma membership, supplied boundaries/roles, no source-path identity; its failed objective and controls remain unchanged.",
+      "GDT884 and GDT887: fixed passage/compiler failures. Their rejected strings, code rules and target blocks are not repaired or selected as montage starting cases.",
+      "IDEA000103: complementary constraints may identify only jointly; loss of uniqueness under ablation is not falsification."
+    ],
+    "availability": "Current source openings are insufficient to assert a complete montage corpus or an independently frozen target-source relation. No target nomination, querying, decoding or source expansion was performed by this proposal.",
+    "smallest_test": "Once the writing architecture and a small complete source corpus are independently fixed, intersect their exact candidate languages on a bounded discovery packet. At the first checkpoint report existence and the size/content of the source-key equivalence class before building any decoder extension. Preserve existing sealed scope and whole-folio reservation.",
+    "decision": "A unique, correct externally named continuation would distinguish an actual source-assembly account from fluent unconstrained guesses. Failure closes only the frozen corpus/assembly hypothesis. No new sources, joins, code parameters or exceptions follow automatically.",
+    "budget": "For any selected pilot, 30 minutes total including preparation, exact intersection, independent validation and publication; stop before implementation if the frozen writing model or complete source corpus is unavailable.",
+    "selection_status": "Explicitly unreviewed conditional architecture. This is one alternative to the root morphology/grammar route, not a ready next experiment or a claimed general closure of source montage."
+  }
+}

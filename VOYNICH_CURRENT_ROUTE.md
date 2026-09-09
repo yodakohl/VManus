@@ -3,6 +3,14 @@ Updated: 2026-09-09. Read first.
 
 ## Latest completed continuation and next selection
 
+New user10h task starts2026-09-09 18:34:04UTC: prioritized full models5+3
+(morphological roots/grammar plus compound script units),48source alternative.
+892registered: finite global prefix-free CV channel with latent1/2-unit splits;
+425561 referenceforms plus fixed feature/dependency grammar prepared. No fit/key.
+90min implementation/control checkpoint from19:04UTC; no616/832–837repair.
+LatInfLexi excludes medieval vocabulary; no Voynich-language inference.
+Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
+
 User-requested10h ACTIVE research started2026-09-09 01:58:34UTC.
 Resumed16:59UTC after interruption; inactive gap does not count (active timer~3h28).
 GDT882:413all3-concordant lines43leaves20literal characters; integer lattice

@@ -1,0 +1,119 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "New constrained architecture and reference preparation only; no recovered key, language, word meaning or Voynich score.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/run.py",
+    "validate": "python3 experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/validate.py"
+  },
+  "created": "2026-09-09",
+  "dependencies": [
+    "GDT602",
+    "GDT605",
+    "GDT616",
+    "GDT832",
+    "GDT834",
+    "GDT837"
+  ],
+  "experiment_id": "GDT892",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/sources/MANIFEST.json",
+      "sha256": "61bd2d3610ae0e59abaa83507aa6245fa29eb95b2f67ecfc067eadc7154a375d",
+      "role": "fixed_reference_source_binding"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/METHOD.md",
+      "sha256": "e75aac95ebec74ab468b815645e115b89988c86c8cc686cb892a03aed126989f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/PREREGISTRATION.md",
+      "sha256": "58b27ddb0e17753ff4b752251f96b80745027aee089462932865c1cb461bc033",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/README.md",
+      "sha256": "59341d5c20efc6315d73a7e69ef6003cf492126d8b82949fc515552d376511b7",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md",
+      "sha256": "930dd4f0b1e05fa3c4cab10ea704bb5d845ef0bced498b5247fea9971522c81c",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/README.md",
+      "sha256": "f9e9208a0904f4aea09e2663add4a1833e7f9f085642c6c0170fb2f44f92a58a",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/REFERENCE.json",
+      "sha256": "f27b20f5c5f80fdc1d03965ba33154a1dc2105c04b72c7ce76cf54359001ebea",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/SOURCE.json",
+      "sha256": "5a4c91a0b1ac9c0e5c60752e5186fcbb24ccf60861b29910f9067630ca0121bc",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/SPEC.json",
+      "sha256": "94f6e46d1f28abf378c7cc760d329a30ef0b73890c6fe6f0be9e02d548ab57cd",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/core.py",
+      "sha256": "cc77c1786f5d10917dba0e3ba94335731a219b55f934d989c09526134238d33a",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/grammar.py",
+      "sha256": "2bf93ef6a5f5e7ab5bf172da077a05298927f0d51080d2e2c345e07122f206d7",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/make_control.py",
+      "sha256": "769bacfbe7c950795fafdb39b41387db1e4df4b1e023b9226161723e56fb800d",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/prepare.py",
+      "sha256": "c9fa79fba1b9476e4d286122af1e39956dab53f27f979508b004aaf7f2994c4c",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/run.py",
+      "sha256": "dc7eac7ff40250157558e709b4f4431ed6594120ddb2b8c3c24c24ed3c5477e7",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/test_grammar.py",
+      "sha256": "7f6caee0b52286e980c222974b49dd8cac2b8abceaf2843a0babe0fa6926d7e8",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/validate.py",
+      "sha256": "33af1166ab11e946e7c2bd3f326b850d2eabd7429d1e47192b30af66b246e669",
+      "role": "source_or_artifact"
+    }
+  ],
+  "question": "Can one global prefix-free consonant/vowel code, latent unit boundaries, explicit Latin paradigm forms and sentence-feature templates jointly identify complete plaintext?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "joint_abugida_paradigm_reconstruction",
+  "status": "REGISTERED_NO_CIPHER_FIT",
+  "title": "Joint unknown-unit CV code with complete paradigm constraints",
+  "updated": "2026-09-09",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
