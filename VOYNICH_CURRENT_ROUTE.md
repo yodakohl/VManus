@@ -38,12 +38,13 @@ Primary:experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md.
 No meaning, no automatic compiler repair.
 115source follow-up finds an independently collated six-name incidence graph,
 including literal identity mentions as distinct provenance, not fake Respice edges.
-888selected: odd-leaf five-record training, even-leaf S heads only; S bodies
-withheld. One globally shared name-prefix rule; no ordinary Latin-word compiler.
-Initial05:20–06:40 window interrupted before any graphfit. Remaining fixed work
-reassessed17:00–18:00UTC, including validation/publication; no model expansion.
-115strictRespice branch remains insufficient;888uses separately defined literal
-name-incidence graph, preserving relation provenance.
+888complete: IT2a18solutions18surfacelexicons; ZL/RF0; consensus only1odd
+trainingleaf, a capacity stop. Independent full enumeration/source/projectionPASS.
+All18 share head[P1]/mention[] prefixes but disagree on every named head.
+No unique lexicon, no held bodies evaluated, no meanings or graphscore.
+Primary:experiments/yolo/gdt888_alphita_joint_name_incidence/REPORT.md.
+115strictRespice branch remains insufficient;888literal incidence branch remains
+unidentified. No automatic prefix expansion or held-data selection of alternatives.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
 erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,
 with nonempty group images. Initial DFS remains UNKNOWN_BUDGET; separate exact

@@ -900,3 +900,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT885 | GDT885 | `NO_NONTRIVIAL_REVERSIBLE_THREE_STATE_MACHINE` | [report](../experiments/yolo/gdt885_reversible_three_state_line_machine/REPORT.md) | 18 | 2.1 MiB | 1 | STRUCTURED_YOLO |
 | GDT886 | GDT886_unknown_label_collation | `EXACT_SORT_MODEL_CONTRADICTED` | [report](../experiments/yolo/gdt886_unknown_label_collation/REPORT.md) | 13 | 53.3 KiB | 2 | STRUCTURED_YOLO |
 | GDT887 | GDT887_tacuinum_joint_entry_reconstruction | `FIXED_COMPILER_NO_SOLUTION` | [report](../experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md) | 18 | 19.3 MiB | 6 | STRUCTURED_YOLO |
+| GDT888 | GDT888_alphita_joint_name_incidence | `COMPLETE_FIT_UNIDENTIFIED` | [report](../experiments/yolo/gdt888_alphita_joint_name_incidence/REPORT.md) | 17 | 393.2 KiB | 8 | STRUCTURED_YOLO |
