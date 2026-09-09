@@ -1,0 +1,94 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact reversible at-most-three-state mechanism on the declared literal lines; not group-product equality, general automata, historical script or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt885_reversible_three_state_line_machine/src/run.py",
+    "validate": "python3 experiments/yolo/gdt885_reversible_three_state_line_machine/src/validate.py"
+  },
+  "created": "2026-09-09",
+  "dependencies": [
+    "GDT882"
+  ],
+  "experiment_id": "GDT885",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/artifacts/SELECTED_LINES.json",
+      "role": "frozen_source_or_validation",
+      "sha256": "bd8b58523e4e49754f4e49e3901f00ecef748679d90ac46184e453294c8753c2"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/artifacts/VALIDATION.json",
+      "role": "frozen_source_or_validation",
+      "sha256": "daf4c951d043f5c96c3027daa5fcbb0ec2ccbb1035e15c42d5950ba38a6ce4f1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "5675349a38fb0d7f4ff378a19a4e62278da04f8f50c66b07575bc60b5e602872"
+    },
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/README.md",
+      "role": "source_or_artifact",
+      "sha256": "053f4017fda78b0d4126a151f83c1567ec8c612eacb6d944c078a5205122bed3"
+    },
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/REPORT.md",
+      "role": "primary_report",
+      "sha256": "e267b9b508744660b2f73d9891a00beae7cc4ecf4cf3802b82cf5c21ae08ec0f"
+    },
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "6fc9ea7e5d85224c4c51d97b4237ce8208e9dd6abcb9b4b89e924a192e9facb9"
+    },
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "494f14362c565a8cd047d3fa84893d0a130177d972482550d91efedfe714c84b"
+    },
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/src/enumerate.cpp",
+      "role": "source_or_artifact",
+      "sha256": "aeac1a5f098d6ab0d596001bc524cb623e858b1c0d595a8798e22b490c737b61"
+    },
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/src/independent.cpp",
+      "role": "source_or_artifact",
+      "sha256": "816ac1740f2cbb0f170d75a6804e0f5d7276dc0f933018011129033c66644f3c"
+    },
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "d711a015cdf04fceef70cd1d345e5fa43c65bae4fd42299a2dcb376807f2fa3c"
+    },
+    {
+      "path": "experiments/yolo/gdt885_reversible_three_state_line_machine/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "566252306c54038923358fb8e0b715871c47ad2a28949b44ee086ea148354ee6"
+    }
+  ],
+  "question": "Can fixed character permutations on three states send a common start with nontrivial orbit to one common endpoint for all413 fixed GDT882 literal lines?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "reversible_three_state_line_machine",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Exhaustive reversible three-state line endpoint machines",
+  "updated": "2026-09-09",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

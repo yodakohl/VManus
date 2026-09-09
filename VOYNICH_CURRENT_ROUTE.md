@@ -14,6 +14,15 @@ for any fixed block length >=2. STA: 25/33 codes forced identical; homophonic
 model has at most 38 latent strings among 749 raw forms. Independent graph and
 source validation PASS. Primary: experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md.
 No meaning; no adaptive segmentation/exception follow-on. IDEA000114 remains raw.
+Current bounded selection: test all reversible three-state character machines
+on the unchanged882 odd-leaf lines. Unknown: common endpoint from one start,
+which882's constant-product corollary explicitly does not exclude. Every S3
+letter action is x->epsilon*x+b over F3; enumerate2^20 signs and solve remaining
+linear equations exactly. Full rank throughout closes this three-state route;
+nontrivial maps are frozen for even-leaf prediction; incomplete enumeration stops.
+Smallest test reuses413 cached strings, no new reader/decoder/visual source.
+Budget45min including independent arithmetic verification and publication; no
+automatic larger-state continuation. This is a mechanism test, not a meaning claim.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
 erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,
 with nonempty group images. Initial DFS remains UNKNOWN_BUDGET; separate exact
