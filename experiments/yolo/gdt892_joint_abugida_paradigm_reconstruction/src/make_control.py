@@ -101,7 +101,11 @@ def self_test():
 
 
 def source_sentences(path):
-    """Drop only rows explicitly tagged PUNCT; reject remaining nonletters."""
+    """Exclude entire MWT sentences; drop only PUNCT ordinary token rows.
+
+    This prevents silently substituting syntactic word splits for surface words.
+    Empty-node metadata is ignored; every integer-ID lexical row is mandatory.
+    """
     raw = Path(path).read_bytes()
     if hashlib.sha256(raw).hexdigest() != SOURCE_SHA256:
         raise ValueError('UDante source hash mismatch')
@@ -117,9 +121,7 @@ def source_sentences(path):
                 valid = False
                 continue
             if not fields[0].isdigit():
-                # Range rows duplicate surface tokens; decimal rows are empty nodes.
-                # Every ordinary integer-ID lexical token remains mandatory.
-                if '-' not in fields[0] and '.' not in fields[0]:
+                if '-' in fields[0] or '.' not in fields[0]:
                     valid = False
                 continue
             if fields[3] == 'PUNCT':
@@ -134,6 +136,15 @@ def source_sentences(path):
 
 def packed(value):
     return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf8')
+
+
+def used_components(words):
+    return {v: set(c for word in words for c in components(word, v)) for v in VOWELS}
+
+
+def covered_for_all_inherent(words, discovery_components):
+    used = used_components(words)
+    return all(used[v] <= discovery_components[v] for v in VOWELS)
 
 
 def build(args):
@@ -153,7 +164,9 @@ def build(args):
         cache = pickle.load(handle)
     forms = set(cache['forms'])
     selected = []
-    counts = {'complete_length_eligible': 0, 'lexicon_covered': 0, 'grammar_admitted': 0}
+    counts = {'complete_length_eligible': 0, 'lexicon_covered': 0, 'grammar_admitted': 0,
+              'held_component_coverage_declines': 0, 'discovery_selected': 0, 'held_selected': 0}
+    discovery_components = {v: set() for v in VOWELS}
     for sid, words in source_sentences(args.source):
         counts['complete_length_eligible'] += 1
         if any(w not in forms or not cache['analyses'].get(w) for w in words):
@@ -162,7 +175,17 @@ def build(args):
         if not accepts(cache['grammar'], [set(tuple(t) for t in cache['analyses'][w]) for w in words]):
             continue
         counts['grammar_admitted'] += 1
+        if len(selected) >= 12 and not covered_for_all_inherent(words, discovery_components):
+            counts['held_component_coverage_declines'] += 1
+            continue
         selected.append((sid, words))
+        if len(selected) <= 12:
+            counts['discovery_selected'] += 1
+            used = used_components(words)
+            for v in VOWELS:
+                discovery_components[v].update(used[v])
+        else:
+            counts['held_selected'] += 1
         if len(selected) == 24:
             break
     if len(selected) < 24:

@@ -42,3 +42,12 @@ allowed to search mixed TSV contents and returned existing f69/f70 text rows.
 No such row is a model/control input; no sealed row was displayed. Future text
 projection remains selector-first through the guarded tool. This deviation does
 not enlarge admission or provide research evidence.
+
+Pre-fit implementation amendment: codebook completion counts every member of S,
+including unused single-character codes. Therefore |S| plus observed two-character
+codes must not exceed27; the total available code space must also reach27. An
+independent enumeration of actual small codebooks caught the omitted lower bound
+before any cipher existed. Independent scanner validation now passes11 tests/153
+invocations. The independently written encoder agrees on109668 word/vowel cases.
+The control selector now enforces the already registered all-six-vowel held
+component coverage and rejects complete MWT sentences before key generation.

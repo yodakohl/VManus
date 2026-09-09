@@ -65,4 +65,6 @@ def segment(word,singletons):
 
 def complete_capacity(singletons,alphabet,used):
     # Codewords not observed must still be extendable to27 distinct components.
-    return len(singletons)+len(alphabet)*(len(alphabet)-len(singletons))>=27 and len(set(used))<=27
+    return (len(singletons)+len(alphabet)*(len(alphabet)-len(singletons))>=27
+            and len(singletons)+sum(len(c)==2 for c in set(used))<=27
+            and len(set(used))<=27)
