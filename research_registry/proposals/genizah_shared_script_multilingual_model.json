@@ -1,0 +1,48 @@
+{
+  "title": "RAW_UNREVIEWED: multilingual medical prose through one shared consonantal script channel",
+  "summary": "Retain a whole-reading architecture motivated by Hebrew and Judaeo-Arabic medical witnesses: one globally shared script-to-cipher map, with paragraph-level language choice and language-specific morphology. Cambridge identifies Avicenna witnesses T-S Ar.11.19 in Judaeo-Arabic and T-S NS90.75 in Hebrew; T-S K14.22 independently attests Syriac medical language in Jewish Aramaic characters. No source collation, model selection or manuscript gate has passed.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED",
+    "mechanism": "A common written consonantal repertoire can carry several different languages. Infer one injective, globally prefix-free map from source script units to one-/two-symbol ciphertext strings, jointly with complete word readings and a single latent language per predeclared paragraph. Language changes select a source-derived lexical/morphological grammar, never a different cipher key. Preserve source-attested vowel letters; do not manufacture vowel deletion from modern vocalized spellings. No per-word language assignment, null codes, invented cognates or local repairs.",
+    "unit": "Complete paragraphs and their entire words; one language assignment per fixed paragraph, one key across all paragraphs. Historical sources motivate this architecture, not a claim that these particular fragments were copied into the Voynich manuscript.",
+    "contrast": "Joint multilingual common-script reconstruction versus each fixed single-language model with the identical channel family. The unknown is whether cross-language full-word and morphological constraints leave a unique shared reading, or permit unrelated language/key explanations. This is not retrieval from anonymous graphs.",
+    "prediction": "Every surviving model must read complete held paragraphs and novel word forms under the same already learned script map; minority-language paragraphs must constrain and be constrained by that map. Report all surviving complete plaintext projections and unresolved equivalences. Unobserved parameters get no identification credit.",
+    "primary_sources": [
+      {
+        "id": "T-S Ar. 11.19",
+        "url": "https://exhibitions.lib.cam.ac.uk/avicenna/artifacts/on-sleep/",
+        "verified_catalogue_fact": "Cambridge identifies a Judaeo-Arabic fragment of Avicenna's Canon, Book III, concerning sleep disorders; Egypt, 11th–13th century."
+      },
+      {
+        "id": "T-S NS 90.75",
+        "url": "https://exhibitions.lib.cam.ac.uk/avicenna/artifacts/on-muscles/",
+        "verified_catalogue_fact": "Cambridge identifies a Hebrew translation of the anatomical section of Avicenna's Canon; Italy or France, 15th–16th century."
+      },
+      {
+        "id": "T-S K14.22",
+        "url": "https://www.lib.cam.ac.uk/collections/departments/taylor-schechter-genizah-research-unit/fragment-month/fragment-month-16-1",
+        "verified_catalogue_fact": "The identifying scholar describes an alphabetically organized Syriac materia-medica text transcribed into Jewish Aramaic characters, with occasional Palestinian vowel signs. This is a script/language distinction example, not an automatic third-language fit pool."
+      },
+      {
+        "url": "https://exhibitions.lib.cam.ac.uk/avicenna/case/the-fame-of-avicennas-canon-of-medicine/",
+        "verified_catalogue_fact": "Cambridge explicitly defines Judaeo-Arabic as Arabic language in Hebrew script and distinguishes Hebrew translations."
+      }
+    ],
+    "novelty_vs_predecessors": {
+      "GDT892": "892 selects one Latin orthographic abugida with inherent vowel, carrier and virama and ITTB grammar. Proposed mechanism instead shares an attested consonantal writing repertoire across different language grammars; no inherent-vowel CV scanner. 892's insufficient control source remains closed, not repaired by this proposal.",
+      "GDT893": "893 has one whole-word bijection and exact source windows. Here the shared parameters are script units, so new inflected forms and different languages can constrain one another without receiving independent whole-word keys. Merely adding Genizah source windows to893 would not implement this architecture.",
+      "GDT341_343": "These calibrated anonymous/persistent-identity recipe graph retrieval and did not reconstruct full source spellings under a jointly constrained multilingual script channel. Their failed comparator gates remain unchanged."
+    },
+    "known_blockers_for_experimental_selection": [
+      "No complete independently collated source transcription pool frozen; library captions are catalogue evidence, not the required text corpus.",
+      "Common script-unit inventory, positional letter forms, dots/vocalization and spelling variation have not been measured and frozen; source-dependent normalization could otherwise smuggle in separate keys.",
+      "Language grammars and attested orthographic word analyses missing; Hebrew and Judaeo-Arabic semantic similarities are not literal spelling identities.",
+      "The cited fragments do not demonstrate language switching within one original manuscript or share one time/place. Historical plurality motivates a raw architecture only.",
+      "No adequate independent blinded control, held capacity, exact search completeness or manuscript contract established. No experiment selected."
+    ],
+    "retention_vs_selection": "Missing collation and channel specification block experimental selection, not preservation of this diverse raw architecture. Before implementation, write a new bounded decision note after source predecessors are checked; do not automatically start a decoder or substitute a corpus for failed892.",
+    "duplicate_review": "Registry multilingual/Genizah searches and declared-design duplicate screen found no same declared design; lexical ranking is navigation only. Primary341–343 comparator reports inspected. Broader old language/decoder predecessors still require targeted review before selection.",
+    "exposure": "Official Cambridge text pages/catalogue descriptions only; no manuscript images, Voynich target data, private models or public decipherment searches."
+  }
+}

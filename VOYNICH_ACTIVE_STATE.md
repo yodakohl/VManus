@@ -23359,3 +23359,5 @@ ownership astronomicalphase ormeaning assessment. RBR002/ringclosures unchanged.
 Primary: experiments/yolo/gdt871_remaining_shared_diagram_orientation/REPORT.md.
 
 GDT892: frozen control source exhausted before key/cipher generation:12 discovery+9 held below12+12; independent full-source replay PASS. Unknown-unit CV/paradigm architecture remains untested. No threshold/corpus repair or manuscript meaning; independent source-montage priority under review. Primary: `experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md`.
+
+GDT893 provisional: full frozen-source candidate enumeration independently replays. Exact global maximum coverage ZL77/RF125/consensus11; RF alone forces one28-group f103v.30–32 ALIM213 source window and26 written values. Other completed projections empty; IT unresolved. Conditional source-pool assignment only; both source-window ends truncate sentences. GDT894 separately preregisters adjacent-copy falsifier without new key values. No meaning, native certainty or independent held claim. Primary: `experiments/yolo/gdt893_global_source_montage_word_code/REPORT.md`.

@@ -188,3 +188,23 @@ Use existing887 paragraph cache, odd physical leaves only; historical exposure
 is disclosed, even leaves unused by this fit. First complete enumeration/optimizer
 budget90min through21:00UTC, including source preparation, independent validation
 and publication. No scored null/meaning before separate388 packet and held gates.
+
+GDT894 decision,20:21UTC: GDT893 RF has one independently reproduced forced
+28-group projection,26 written values and one source provenance. GDT884 tested
+a different fixed expanded passage;893 permits source changes at paragraph
+boundaries and entails no continuation. The genuinely unknown additional law
+is continuous exact copying on both sides of this particular source window.
+Freeze the adjacent128 source positions per direction, clipped only by the
+already frozen gap-bounded unit (128 preceding,39 following). The same26-value
+key predicts known-code equality and forbids those codes for unknown source
+words; no new values or source offsets are selected. Compare only literal RF
+groups on f103v, anchored by all28 original group IDs; stop positional evidence
+at an uncertain raw group, separator, missing line or folio edge. STA parse
+ineligibility alone is irrelevant to this explicitly literal-word model.
+One secure contradiction refutes the continuous-copy law for that direction;
+both directions are assessed, all provenance retained. No contradiction is
+only necessary-condition compatibility, never full decoding or independent
+held confirmation. Historical exposure remains explicit. Rejection parks this
+continuation rather than repairing keys, shifting windows or enlarging sources.
+Budget35min20:21–20:56UTC including preregistration, two implementations, guarded
+intake, validation and publication. No visual admission or f84/f84r access.

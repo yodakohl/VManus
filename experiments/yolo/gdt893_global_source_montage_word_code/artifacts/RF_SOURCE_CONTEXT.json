@@ -1,0 +1,45 @@
+{
+  "status": "SOURCE_CONTEXT_VERIFIED_BUT_BOTH_WINDOW_BOUNDARIES_TRUNCATE_SENTENCES",
+  "source": "ALIM:213",
+  "unit": "ALIM:213:segment:0042",
+  "token_start_zero_based": 175,
+  "token_length": 28,
+  "source_sha256": "f8dcbddc173a4b65bd7e5152a3fee1d079b0ee048edcc4b13eea1741205e881d",
+  "cached_metadata_sha256": "4919745ab9e867a71d2e7112c7cb3c4e4a8ce527158870b0ac6a6fb39ddd7751",
+  "primary_url": "https://api.alim.unisi.it/resource/213",
+  "primary_text_url": "https://alim-admin.unisi.it/download_txt?id=213",
+  "edition": "Guido Aretinus, Liber mitis; P. Licciardello edition, 2009, as recorded by ALIM.",
+  "literal_span": "differentias, tanto melior, quanto pauciores, minus\nbona, sed fallit in nigra.Ego vero de urinis et digestione adhuc latius exponere curo. Hic vero dixi, quantum introducendis et praesenti",
+  "original_txt_char_span": [
+    64066,
+    64254
+  ],
+  "exact_continuity": {
+    "txt_slice_exact": true,
+    "html_mixed_text_whitespace_collapsed_match": true,
+    "no_gap_marker_within_window": true,
+    "tokens": 28,
+    "alterations": "None; source fit corpus was neither repaired nor mutated."
+  },
+  "location": {
+    "nearest_preceding_html_pagebreak_id": "pb86",
+    "displayed_page": "Page 86",
+    "manuscript_folio_context": "97va precedes the passage; 97vb follows it. These are edition-provided manuscript foliation markers, not independently inspected images.",
+    "section_topic": "Discussion of urine, sediment and signs of digestion during illness."
+  },
+  "boundary_assessment": {
+    "start": "Mid-sentence and mid-comparative construction: first noun continues a preceding adjective and clause about having more good characteristics. It is not a sentence, clause or paragraph start.",
+    "end": "Mid-sentence and within a noun phrase: final adjective is completed by the following noun; the sentence then finishes by saying what seemed sufficient. It is not a complete clause or paragraph end.",
+    "internal_boundaries": "The window contains the end of one sentence, a complete intervening authorial sentence about treating urine and digestion more extensively, and the beginning of the next. It crosses an ALIM HTML p boundary inside a phrase, between the comparative modifier and its adjective.",
+    "copied_paragraph_assessment": "A permitted arbitrary source window, but not a naturally bounded complete copied paragraph."
+  },
+  "topic_paraphrase": "The author contrasts better and worse urine characteristics, notes an exception for dark urine, then announces a fuller discussion of urine and digestion while characterizing the present account as introductory.",
+  "editorial_uncertainties": [
+    "The TXT and HTML both concatenate a sentence-ending period with the following initial capital without an intervening space; punctuation-based tokenization still separates the words. This is retained literally.",
+    "ALIM metadata says angle brackets mark editorial additions and square-bracket folio references were supplied by the editor, sometimes moved past a word. No angle-bracket addition occurs inside this selected window.",
+    "Nearby paragraph tags divide running syntax, so HTML paragraphs cannot be assumed authorial paragraph divisions.",
+    "No manuscript image or printed-page facsimile was consulted; whether typographic anomalies originate in OCR, transcription or the edition is unresolved.",
+    "ALIM metadata identifies a 2009 edition drawing on Goehl 1984 with apparatus variants. Cached text alone does not establish autograph wording."
+  ],
+  "exposure": "Only supplied cached source corpus, TXT and official metadata/HTML were inspected for this task; no Voynich text, image, target hypothesis or fit modifications."
+}
