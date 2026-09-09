@@ -1,0 +1,218 @@
+{
+  "analysis_scope": "Physical inscription order only. No alphabetic comparison or meaning test; lower-row inscription count not assessed.",
+  "localization": [
+    {
+      "approximate_bbox_xyxy": [
+        221,
+        118,
+        309,
+        153
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.1"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        342,
+        146,
+        391,
+        170
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.2"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        412,
+        143,
+        476,
+        180
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.3"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        500,
+        150,
+        568,
+        188
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.4"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        620,
+        146,
+        682,
+        183
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.5"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        755,
+        132,
+        827,
+        177
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.6"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        193,
+        483,
+        257,
+        518
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.12"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        302,
+        511,
+        354,
+        544
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.13"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        382,
+        478,
+        433,
+        508
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.14"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        486,
+        459,
+        543,
+        496
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.15"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        595,
+        520,
+        665,
+        553
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.16"
+    },
+    {
+      "approximate_bbox_xyxy": [
+        869,
+        460,
+        925,
+        502
+      ],
+      "coordinate_space": "displayed 1000px original; manual approximate box, not segmentation gold",
+      "locus": "f88r.17"
+    }
+  ],
+  "question": "Does numerical locus order coincide with the visible left-to-right order of the top and middle inscription rows on f88r?",
+  "rows": [
+    {
+      "confidence": "high",
+      "count": 6,
+      "left_to_right_loci": [
+        "f88r.1",
+        "f88r.2",
+        "f88r.3",
+        "f88r.4",
+        "f88r.5",
+        "f88r.6"
+      ],
+      "name": "top",
+      "same_as_numeric_locus_order": true
+    },
+    {
+      "confidence": "high",
+      "count": 6,
+      "geometry_note": "Vertically staggered: loci13 and16 are lower than their horizontal neighbors; x order remains clear.",
+      "left_to_right_loci": [
+        "f88r.12",
+        "f88r.13",
+        "f88r.14",
+        "f88r.15",
+        "f88r.16",
+        "f88r.17"
+      ],
+      "name": "middle",
+      "same_as_numeric_locus_order": true
+    }
+  ],
+  "source_image": {
+    "height": 1376,
+    "higher_resolution_used": false,
+    "sha256": "d310750412321f4f596c58c7290ed52c9ef03b3c0f0f5b5a09036440fb281b39",
+    "url": "https://collections.library.yale.edu/iiif/2/1037112/full/1000,/0/default.jpg",
+    "width": 1000,
+    "yale_image_id": "1037112"
+  },
+  "source_transcription": {
+    "all_selected_loci_one_source_group": true,
+    "editions": [
+      "ZL3b",
+      "IT2a",
+      "RF1b"
+    ],
+    "guard_argv": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "--selector",
+      "locus",
+      "--allow",
+      "f88r.1",
+      "--allow",
+      "f88r.2",
+      "--allow",
+      "f88r.3",
+      "--allow",
+      "f88r.4",
+      "--allow",
+      "f88r.5",
+      "--allow",
+      "f88r.6",
+      "--allow",
+      "f88r.12",
+      "--allow",
+      "f88r.13",
+      "--allow",
+      "f88r.14",
+      "--allow",
+      "f88r.15",
+      "--allow",
+      "f88r.16",
+      "--allow",
+      "f88r.17",
+      "--columns",
+      "source_group_id,edition,locus,page,source_group_index,source_group_count,ivtff_group_raw,left_separator,right_separator",
+      "--forbid-prefix",
+      "f84",
+      "--forbid-prefix",
+      "f84r"
+    ],
+    "outer_separators": "LINE_START / LINE_END",
+    "selected_source_rows": 36
+  },
+  "status": "GEOMETRIC_LEFT_TO_RIGHT_ORDER_CONFIRMED",
+  "uncertainty": [
+    "No uncertainty found in the relative horizontal order of the twelve localized inscriptions.",
+    "Fine glyph readings were used only as source pointers, not newly adjudicated; edition disagreement at locus2 and RF1b uncertainty at locus17 remain unchanged.",
+    "No inference about plant-reference ownership or authorial collation/reading convention."
+  ]
+}

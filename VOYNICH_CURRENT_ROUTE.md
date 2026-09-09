@@ -19,8 +19,14 @@ rank-vector parity PASS. No nontrivial reversible machine on<=3 states makes
 all413882 lines share one endpoint from one start. This closes882's specific
 three-state point-action gap, not generalautomata. No even-leafquery/meaning.
 Primary:experiments/yolo/gdt885_reversible_three_state_line_machine/REPORT.md.
-Next candidate:115Alphita source-named cross-reference graph;116unknown
-collation raw. Primary predecessor review done; targetgraphsnotqueried.
+115Alphita source checkpoint: native outgoing closure from Absinthium is a
+3-node2-edge star; both refs Selden-only relativeSloane. First10page OCR/maintext
+pilot did not establish a globally identifiable source/target graph. Park before
+Voynich scoring; this is source/design incompleteness, not hypothesis refutation.
+116selected asGDT886: unknown symbol collation on f88r top/middle6-labelrows,
+fixed left-to-right, literalEVA/exactSTA, all3readings plusconsensus.30minceiling
+from03:44UTC. Bottomrow inscription grouping unresolved; notselected. Sourceorder
+review separate; primary METHOD frozen before label-constraint calculation.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
 erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,
 with nonempty group images. Initial DFS remains UNKNOWN_BUDGET; separate exact

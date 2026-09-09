@@ -1,0 +1,89 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional sorted encoded-spelling model on one physical folio; no phonetic values or meanings.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt886_unknown_label_collation/src/run.py",
+    "validate": "python3 experiments/yolo/gdt886_unknown_label_collation/src/validate.py"
+  },
+  "created": "2026-09-09",
+  "dependencies": [
+    "GDT794"
+  ],
+  "experiment_id": "GDT886",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "selector_guarded_source",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv",
+      "role": "selector_guarded_source",
+      "sha256": "f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "selector_guarded_source",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt886_unknown_label_collation/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "d1bddea3d9478c7a39c9dbb44a023717b80df308ffca052fe2cd130799744731"
+    },
+    {
+      "path": "experiments/yolo/gdt886_unknown_label_collation/README.md",
+      "role": "source_or_artifact",
+      "sha256": "a673d955a563528440b1b69c014acda7e1f225ba97ef61aa90daf01b9a938ea4"
+    },
+    {
+      "path": "experiments/yolo/gdt886_unknown_label_collation/artifacts/NATIVE_ORDER.json",
+      "role": "source_or_artifact",
+      "sha256": "77858bf346dc90c594c5063bb653729199186d8a06ed81285b7b433de39679ae"
+    },
+    {
+      "path": "experiments/yolo/gdt886_unknown_label_collation/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt886_unknown_label_collation/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "843468e22f0ba0d9e1a67adb18a7bcfed5379f77f7691f981c23ba9b526aaa0a"
+    },
+    {
+      "path": "experiments/yolo/gdt886_unknown_label_collation/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "2bf5805cd36ccbe7975053042a4188f8be63622b34582c8710863445cf595d8e"
+    },
+    {
+      "path": "experiments/yolo/gdt886_unknown_label_collation/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "3f99fc565833104161e3ae18c6f02c1562d94167e6d65a9b11d02c3233962b18"
+    },
+    {
+      "path": "experiments/yolo/gdt886_unknown_label_collation/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "eed48988769bcb33318d5594b8db6c67cd104a95218a490e8d9e21ad490130e8"
+    }
+  ],
+  "question": "Can a fixed total order of literal EVA or exact STA symbols sort the two six-label rows on f88r?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "unknown_label_collation",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Unknown symbol collation in two physical label rows",
+  "updated": "2026-09-09",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
