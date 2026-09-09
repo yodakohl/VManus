@@ -1,0 +1,105 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact declared literal-character whole-line mechanism only; no error-tolerant, stateful, positional, nonlinear, phonetic or semantic verdict.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt882_additive_line_lattice/src/run.py",
+    "validate": "python3 experiments/yolo/gdt882_additive_line_lattice/src/validate.py"
+  },
+  "created": "2026-09-09",
+  "dependencies": [
+    "GDT631",
+    "GDT829"
+  ],
+  "experiment_id": "GDT882",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/src/run.py",
+      "role": "frozen_source_or_reader",
+      "sha256": "49313d7787d74099f7ff8983e379acab091b7d464ce3156b767072a515c5516b"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen_source_or_reader",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "frozen_source_or_reader",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "tools/guarded_tsv_query.py",
+      "role": "frozen_source_or_reader",
+      "sha256": "eeb8f325b3f7b10ad94eef4907d2d3baaa20bb1b81a9aa36782f96c9008551e3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "76ad39605565e7cb064ec40f7c62ff308b812fd4e54afd6bf177e6d2d9b5bc90"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/README.md",
+      "role": "source_or_artifact",
+      "sha256": "1ae753d884414d5c0bbc7bc60f8a2df9d13ec7e153f95fe8b194e3f21a5b0183"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/REPORT.md",
+      "role": "primary_report",
+      "sha256": "989365f2019b75d6c1a6e22ffd9392fd2a83644e67199bb297e52498ca1211a8"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "526c0523b9ebf6c338471f9f7865d0ac8324deaa1bc6603e11cc374b4d3aa2ea"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "02c88bbd0c0031a659b3d35775bfac2422e40ce5c7512212a75476ac0d7ef403"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "68f8130ec40912b8960666d0533e01584f1452ab4ab56cb2f82ae6bafa79f0d8"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/src/algebra.py",
+      "role": "source_or_artifact",
+      "sha256": "c27b1b768673143d860a890de27d6b42365b39f8194fd48a154d61441eae11cd"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "557b6bdde2a3a313562fa86484fde493485a0707bcca4a78bed40f378a1f4184"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "ee5cdc18fee0b00461eee5d4214a5bd051c697e688ff05e39fa065e63fa69ec5"
+    },
+    {
+      "path": "experiments/yolo/gdt882_additive_line_lattice/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "f0a09b70103cf8763050bad0d2a82cdba8e9a644df291d510862ea5fbfacc5fb"
+    }
+  ],
+  "question": "Do complete concordant prose lines admit any nonzero fixed literal-character additive invariant into an abelian group?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "additive_line_lattice",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Fixed additive whole-line integer lattice",
+  "updated": "2026-09-09",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

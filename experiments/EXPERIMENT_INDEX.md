@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT882 | Fixed additive whole-line integer lattice | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt882_additive_line_lattice/REPORT.md) | 11 | 26.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT878 | GDT878_text_picture_combination_feasibility | `STOP_NOMINATED_JOINT_ENTRIES_NO_CROSSED_CONSTRUCTION_OR_REUSABLE_BINDING` | [report](../experiments/yolo/gdt878_text_picture_combination_feasibility/REPORT.md) | 15 | 80.7 KiB | 4 | STRUCTURED_YOLO |
 | GDT879 | GDT879 | `STOP_INCOMPLETE_NATIVE_GRAPH_ENDPOINT` | [report](../experiments/yolo/gdt879_plant_topology_endpoint_pilot/REPORT.md) | 15 | 82.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT880 | GDT880 | `STOP_INSUFFICIENT_IMMEDIATE_TRIPLE_CAPACITY` | [report](../experiments/yolo/gdt880_minim_triple_arithmetic_capacity/REPORT.md) | 15 | 71.1 KiB | 2 | STRUCTURED_YOLO |

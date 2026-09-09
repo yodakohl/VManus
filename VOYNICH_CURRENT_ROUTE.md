@@ -3,14 +3,11 @@ Updated: 2026-09-09. Read first.
 
 ## Latest completed continuation and next selection
 
-User-directed global reconstruction plan, 2026-09-09:
-research_registry/proposals/global_reconstruction_plan.md.
-Next work: jointly specify finite competing content/construction/script models,
-then derive genuinely different observable predictions; planned8h first block,
-not started.809/827are exposed development;828immediate repairs stayclosed.
-Semantic renaming must be separated from structure; no automatic decoder,
-newpage or878/838rerun. No experiment or meaning selected by this plan.
-QK107 remains semanticnot-tested; QL additions/f76r/otar source checks complete.
+Active user-requested10h research:2026-09-09 01:58:34UTC; earliestend11:58:34UTC.
+First candidate: GDT882 fixed additive whole-line lattice; preregistration
+experiments/yolo/gdt882_additive_line_lattice/METHOD.md. Not yet run.
+User withdrew global_reconstruction_plan as repetition; it is NOT the next route.
+Minimal documentation requested; no administrative source-check series.
 
 Earlier targeted translation plan prepared 2026-09-08:
 research_registry/proposals/translation_reconstruction_plan.md.
