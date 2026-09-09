@@ -27,7 +27,11 @@ GDT886: f88r bothfixed6-labelrows contradict every literalEVA/exactSTA symbol
 order, also all3consensus5-per-row. oram-dary-okol forceso<d<o; topcyclet<r<l<t.
 Nativeorder+independentgraphvalidationPASS. No alphabet/meaning/newpage/rescue.
 Primary:experiments/yolo/gdt886_unknown_label_collation/REPORT.md.
-No next experiment selected;115parked for source/target graph identifiability.
+117selected asGDT887: three complete source-named Tacuinum records; shared
+lexeme dictionary +global entity-prefix change. Infer withheld corrective identity
+across all complete paragraph solutions. Source-first34/24/17 or43/33/26slots;
+no targetcontentyet.2h totalbudget03:57–05:57UTC, no decoder-rescue series.
+115parked for source/target graph identifiability.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
 erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,
 with nonempty group images. Initial DFS remains UNKNOWN_BUDGET; separate exact

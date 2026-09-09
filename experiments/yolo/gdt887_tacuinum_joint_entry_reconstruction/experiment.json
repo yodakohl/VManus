@@ -1,0 +1,109 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete admitted paragraph projections preserve all raw groups, STA sequences, exclusions and source IDs for independent replay.",
+    "max_inline_bytes": 30000000
+  },
+  "claim_ceiling": "Conditional lexeme/group and entity-prefix notation model; no confirmed manuscript meaning, no independent held-folio test.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/run.py",
+    "validate": "python3 experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/validate.py"
+  },
+  "created": "2026-09-09",
+  "dependencies": [
+    "GDT631",
+    "GDT735",
+    "GDT737",
+    "GDT807",
+    "GDT809",
+    "GDT814"
+  ],
+  "experiment_id": "GDT887",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "scope_allowlist",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/artifacts/GDT807_665_STRICT_PARAGRAPH_ATLAS.tsv",
+      "role": "selector_guarded_source",
+      "sha256": "d317699b1568405a31c09bb4734cbe0ba62ea8a43f43a852f1c83d5903652bd2"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "selector_guarded_source",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv",
+      "role": "selector_guarded_source",
+      "sha256": "f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "1bc475c873a8edc4e01679e3d8b37a9eebd45e24a09e6601ba2bbb13a2109871"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/README.md",
+      "role": "source_or_artifact",
+      "sha256": "a6a02e5ba8568abea8de68a7ab3836f08c4c99d51569f0d216126c2b4f5b7abe"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "0d610909b1ac55ab200f7517c25e25a6926b8c6d07aa7cef01ce52fbf3d34df2"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/FIT_TEMPLATES.json",
+      "role": "source_or_artifact",
+      "sha256": "e70616e0baa42f53c3cf6d79406d9c1d39d160cf87162180208e58d8951665dc"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "ea20510898bc54c4acaf1c587b60f6d13dab22a0c5be9f86a50a6bf9d14e78fa"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/SOURCE.json",
+      "role": "source_or_artifact",
+      "sha256": "b5c6317d7b66d2e77ab48581f86b0b9a5bda69edc2167e1417fb05cc070e5c96"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "183a2e48013f558c0e690345a5793cbafdb2ea180c0127cbc9a17724e01b3905"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "0079a239d07f174698445bdd1293b88e782cf98753a85088c445a56a1072afa2"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/source.py",
+      "role": "source_or_artifact",
+      "sha256": "72405415b0ad31679f54136126f5fffd1935a441bd70076c65dea5e1bc5e568d"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "edb775e86c3e557a8350926ed6dc43b1efd2b5d20c990826b79901c24bd883de"
+    }
+  ],
+  "question": "Does the fixed complete-record compiler identify the withheld corrective entity across all eligible paragraph assignments?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "tacuinum_joint_entry_reconstruction",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Joint reconstruction of three complete named Tacuinum records",
+  "updated": "2026-09-09",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
