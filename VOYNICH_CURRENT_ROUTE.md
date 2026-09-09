@@ -9,13 +9,15 @@ New user10h task starts2026-09-09 18:34:04UTC: prioritized full models5+3
 22 grammar;12 discovery+9 held, below registered12+12. Full source exhausted.
 425561 referenceforms/global unknown-unit CV architecture prepared but untested.
 No threshold relaxation, replacement corpus or616/832–837repair.
-893partial: complete frozen14-witness/153031-token candidate enumeration.
-Independent exact maxima ZL77/RF125/consensus11; RFalone forcesone28-group
-f103v.30–32 sourcewindow and26writtenvalues, conditionalonly. All other
-completed projections empty; IToptimization pending through21:00UTC budget.
-SourceTXT/HTMLverified butbothwindowends cut sentences. No language/meaning.
-894registered additional adjacent-copy falsifier, same26values, fixed128before/
-39after sourcewords; no targetadjacency queryyet. Stop20:56UTC; no keyrepair.
+893closedatbudget: full14-witness/153031-token candidate enumeration replays.
+Exact maxima ZL77/RF125/consensus11; RFalone forcesone28-groupf103v.30–32
+sourcewindow/26writtenvalues. Its localwindowwasalreadyunique. ITprovedonly
+a feasible230-wordselection; maximum/projection UNKNOWN, no moreoptimizer.
+894bothfixedadjacentdirectionscontradictthat26-valuekey beforefirstuncertainty
+barriers:9safepriorpositions/4conflicts,19following/4conflicts. Independent
+guard/sourcevalidationPASS. LiteralRFcopylawonly; no transferablemeaning.
+122rawcommonscript/multiplelanguage architecture retained; primarysources
+supportmultilinguallexicallists, notparagraphswitching. Sourcesstillunfixed.
 LatInfLexi excludes medieval vocabulary; no Voynich-language inference.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
 

@@ -39,7 +39,7 @@
     },
     {
       "path": "experiments/yolo/gdt894_forced_source_adjacent_copy/REPORT.md",
-      "sha256": "cc97a4f4922a3ca85d4fc57624c1e9dfd389d19864f84993d8a11bf8c18fe9f6",
+      "sha256": "742e408a791c5dddcc8b553d226936af42f0441d316fd9f96b472b3f8ff23dd1",
       "role": "primary_report"
     },
     {
@@ -50,6 +50,26 @@
     {
       "path": "experiments/yolo/gdt894_forced_source_adjacent_copy/artifacts/README.md",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt894_forced_source_adjacent_copy/artifacts/RESULT.json",
+      "sha256": "bdc20086479cb2c9eb1beba74ff1b61bf70b1317a714e720506b2e385d66037c",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt894_forced_source_adjacent_copy/artifacts/SOURCE_VALIDATION.json",
+      "sha256": "784b4fb2d5b0d623018b9c3295d186d8e9ef611b8295816f48e4571e24919458",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt894_forced_source_adjacent_copy/artifacts/TARGET.json",
+      "sha256": "501434802eadb94249b87fb45d90207f4062a96e6e815569987fc5914dde8b1d",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt894_forced_source_adjacent_copy/artifacts/VALIDATION.json",
+      "sha256": "cd05b3d88b9bf00376c0fb57480d7feede854fcf3a0cc6d3c0881f84d385742b",
       "role": "source_or_artifact"
     },
     {
@@ -66,6 +86,11 @@
       "path": "experiments/yolo/gdt894_forced_source_adjacent_copy/src/validate.py",
       "sha256": "967dda3ef6fa7d95617061cf370394cc4f7d18532fe64bc0a5f0ac1fd5c9dc0f",
       "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt894_forced_source_adjacent_copy/src/validate_source.py",
+      "sha256": "0ac195ae5864ad68853584bdafe3b3cd6ed634381ca6bb7feaa87f9fe412a1dd",
+      "role": "source_or_artifact"
     }
   ],
   "question": "Can the forced RF written-source map extend to both fixed adjacent source horizons without any new word values?",
@@ -75,11 +100,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "forced_source_adjacent_copy",
-  "status": "REGISTERED_UNSCORED",
+  "status": "CONTRADICTED_BOTH_DIRECTIONS_LITERAL_RF",
   "title": "Frozen adjacent-copy falsifier for the conditional RF source window",
   "updated": "2026-09-09",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt894_forced_source_adjacent_copy/artifacts/VALIDATION.json"
   }
 }

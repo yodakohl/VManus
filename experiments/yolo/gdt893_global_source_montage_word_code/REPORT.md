@@ -1,6 +1,7 @@
 # GDT893: conditional source reconstruction
 
-Status: PARTIAL_COMPLETE_RF_CONDITIONAL_LEAD; IT2a global optimization pending.
+Status: PARTIAL_COMPLETE_RF_CONDITIONAL_LEAD_IT_UNKNOWN.
+The fixed computational budget has ended; no decoder continuation is authorized.
 All four exact source-window/candidate enumerations independently replay.
 
 | Reading | Eligible paragraphs / words | Proved maximum word coverage | Forced paragraphs / written values |
@@ -8,14 +9,17 @@ All four exact source-window/candidate enumerations independently replay.
 | ZL3b |14 /362|77|0 /0|
 | RF1b |11 /249|125|1 /26|
 | Consensus |1 /11|11|0 /0|
-| IT2a |259 /11071|unknown|unknown|
+| IT2a |259 /11071|at least230; maximum unproved|unknown|
 
 Separate primary and independent exact algorithms agree on every completed
 maximum, universal candidate/word projection and counterexample witness.
 The original complete families contain5,167,758 ZL3b,396,536 RF1b and74,778
 consensus optimum candidate sets. The new exact implicit representation retains
 all optimum selections without enumerating their cardinality. Original IT2a
-full enumeration was killed before completion; its result remains unknown.
+full enumeration was killed before completion. Both later exact searches hit
+their900-second limits before proving the maximum. Primary supplies a feasible
+230-word selection; independent incumbent219 lacks a saved timeout witness and
+receives no bound credit. IT2a optimum/projection remain unknown.
 
 The RF paragraph already has exactly one admissible local source window;
 global optimization forces its inclusion, rather than resolving multiple local
@@ -34,6 +38,8 @@ Latin language, phonetic values, significance and confirmed word meanings are
 not established. The three transcriptions describe one manuscript.
 
 GDT893 allows arbitrary paragraph-level source switches and unselected text;
-it does not predict a continuation. GDT894 separately freezes an exact adjacent
-copying law using only the existing conditional key. No source/window repair
-or new meanings are licensed by the current lead. No even-leaf fit or new image.
+it does not predict a continuation. GDT894 tested the separately frozen adjacent-copy law using only this key:
+both directions contradict it before their first uncertainty barrier. Thus this
+lead supplies no continuous copied passage beyond the fitted paragraph. The
+weaker paragraph-switching model is not refuted. No source/window repair, new
+meanings, even-leaf fit or new image.

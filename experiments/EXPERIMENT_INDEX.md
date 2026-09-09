@@ -905,5 +905,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT890 | GDT890_f77_component_detail | `STOP_MISSING_COMPLETE_BOUNDARIES` | [report](../experiments/yolo/gdt890_f77_component_detail/REPORT.md) | 14 | 30.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT891 | GDT891 | `SOURCE_LABELS_CONFIRMED_ATTRIBUTES_PARTIAL` | [report](../experiments/yolo/gdt891_lull_vegetative_source/REPORT.md) | 12 | 18.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT892 | GDT892 | `INSUFFICIENT_ELIGIBLE_SENTENCES` | [report](../experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md) | 25 | 111.9 KiB | 6 | STRUCTURED_YOLO |
-| GDT893 | GDT893_conditional_RF_source_projection | `PROVISIONAL_RF_UNIVERSAL_CORPUS_RELATIVE` | [report](../experiments/yolo/gdt893_global_source_montage_word_code/REPORT.md) | 53 | 248.6 KiB | 7 | STRUCTURED_YOLO |
-| GDT894 | Frozen adjacent-copy falsifier for the conditional RF source window | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt894_forced_source_adjacent_copy/REPORT.md) | 9 | 27.9 KiB | 2 | STRUCTURED_YOLO |
+| GDT893 | GDT893_budget_completion | `THREE_EXACT_PANELS_IT_UNKNOWN` | [report](../experiments/yolo/gdt893_global_source_montage_word_code/REPORT.md) | 60 | 265.6 KiB | 7 | STRUCTURED_YOLO |
+| GDT894 | GDT894_fixed_adjacent_copy | `CONTRADICTED_BOTH_DIRECTIONS_LITERAL_RF` | [report](../experiments/yolo/gdt894_forced_source_adjacent_copy/REPORT.md) | 15 | 215.2 KiB | 2 | STRUCTURED_YOLO |

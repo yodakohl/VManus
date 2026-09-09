@@ -1,0 +1,41 @@
+{
+  "record_id": "IDEA000122",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root after official Cambridge source reading and independent source audit",
+  "reason": "Shared-script premise retained, but K14.22 is a multilingual lexical list rather than demonstrated complete-paragraph language switching. Syriac classification is disputed. No exact medical script channel or collated corpus is fixed.",
+  "assessment_basis": "primary_source_scope_correction_not_model_falsification",
+  "blockers": [
+    {
+      "code": "missing_data",
+      "detail": "Full medical editions, observed script inventory and reversible normalization are not yet collated.",
+      "evidence": [
+        "research_registry/decisions/genizah_source_feasibility.json"
+      ]
+    },
+    {
+      "code": "missing_design",
+      "detail": "Distinguish multilingual synonym slots and loanwords from whole-paragraph language selection; do not infer a script conversion from language labels.",
+      "evidence": [
+        "research_registry/decisions/genizah_source_feasibility.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "source_bound_shared_channel",
+        "change": "new_data",
+        "detail": "Collate the actual medical source, delimit complete records and measured script units, then define a global channel with explicit ambiguity.",
+        "evidence": [
+          "research_registry/decisions/genizah_source_feasibility.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Catalogue language labels alone; inaccessible edition metadata; simply adding new source windows to GDT893."
+    ]
+  },
+  "relations": []
+}

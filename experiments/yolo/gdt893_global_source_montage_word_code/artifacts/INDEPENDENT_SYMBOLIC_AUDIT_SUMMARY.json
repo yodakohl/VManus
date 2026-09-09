@@ -1,0 +1,62 @@
+{
+  "status": "PARTIAL_VALIDATION_IT_UNKNOWN",
+  "primary_panel_audits": {
+    "ZL3b": {
+      "status": "PASS",
+      "best_weight": 77,
+      "forced_candidates": 0,
+      "forced_pairs": 0,
+      "SAT_witnesses_checked": 3,
+      "UNSAT_queries_checked": 0
+    },
+    "RF1b": {
+      "status": "PASS",
+      "best_weight": 125,
+      "forced_candidates": 1,
+      "forced_pairs": 26,
+      "SAT_witnesses_checked": 4,
+      "UNSAT_queries_checked": 1
+    },
+    "CONSENSUS": {
+      "status": "PASS",
+      "best_weight": 11,
+      "forced_candidates": 0,
+      "forced_pairs": 0,
+      "SAT_witnesses_checked": 1,
+      "UNSAT_queries_checked": 0
+    }
+  },
+  "IT2a": {
+    "edition": "IT2a",
+    "status": "UNKNOWN_BUDGET",
+    "max_complete": false,
+    "projection_complete": false,
+    "best_weight": 219,
+    "forced_candidates": null,
+    "forced_pairs": null,
+    "query_count": 0,
+    "seconds": 900.0638974898029,
+    "stats": {
+      "nodes": 582336,
+      "candidate_checks": 40170815488
+    },
+    "input_sha256": "6662d5bafce12a20a4ab8735ebc6bf1db403946abf533be46062c2dfb1043ff8",
+    "independent_source_sha256": "2bb3fae6db3b1aaa75225e874164e1faeda30842fd8ee58a4a4c50b425b24c05"
+  },
+  "algorithm_audit": "No logical defect found in the frozen primary maximum/counterexample algorithm. Constraint pool plus proved maximum represents all optima implicitly; no cardinality claim.",
+  "new_fixture_cases": 106,
+  "certificate_checker_tests": 5,
+  "source_hashes": {
+    "validate_projection.cpp": "2bb3fae6db3b1aaa75225e874164e1faeda30842fd8ee58a4a4c50b425b24c05",
+    "validate_symbolic.py": "811ec1094e9c2ffe519aebc6f3708c995c96c64fbc589f03d0115de8f298d436",
+    "test_validate_projection.py": "e27464fbbada52f2a800403e721cb555101836b036eb2a6bf3c7bd6940a10f5b",
+    "test_validate_symbolic.py": "3a492052bff1ed50c0700a25a3a8053257b45737e7aa45863fa9dd73887887f2"
+  },
+  "limitations": [
+    "IT2a maximum and universal projection not independently proved within 900 seconds.",
+    "IT2a numeric incumbent 219 has no emitted independent timeout witness and is not separately replay-certified.",
+    "Primary IT2a result was not yet available when this audit summary was written.",
+    "Original explicit IT2a SIGKILL/resource failure remains recorded separately.",
+    "No meaning, held decoding, null score or relation promotion."
+  ]
+}
