@@ -897,3 +897,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT881 | GDT881_f99v_native_text_graphic_interface | `STOP_NO_SHARED_STROKE_CONSTRUCTION__PVO_SINGLE_POSITIVE_UNRESOLVED` | [report](../experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/REPORT.md) | 15 | 33.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT883 | GDT883_overlapping_digram_constraints | `FIXED_INJECTIVE_OVERLAPPING_BLOCKS_EXCLUDED__HOMOPHONIC_CHANNEL_BOUNDED` | [report](../experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md) | 13 | 387.3 KiB | 1 | STRUCTURED_YOLO |
 | GDT884 | GDT884 | `UNSAT_ANALYTIC_FIXED_PASSAGE` | [report](../experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md) | 19 | 263.2 KiB | 1 | STRUCTURED_YOLO |
+| GDT885 | GDT885 | `NO_NONTRIVIAL_REVERSIBLE_THREE_STATE_MACHINE` | [report](../experiments/yolo/gdt885_reversible_three_state_line_machine/REPORT.md) | 18 | 2.1 MiB | 1 | STRUCTURED_YOLO |
