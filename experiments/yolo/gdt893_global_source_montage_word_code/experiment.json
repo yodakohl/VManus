@@ -5,7 +5,7 @@
   },
   "claim_ceiling": "Exploratory optimum relative to a frozen source pool; no significance, held prediction or confirmed meaning.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt893_global_source_montage_word_code/src/run.py",
+    "run": "python3 experiments/yolo/gdt893_global_source_montage_word_code/src/run_cpp.py --fit-dir FIT_DIRECTORY --budget-seconds 1500",
     "validate": "python3 experiments/yolo/gdt893_global_source_montage_word_code/src/validate.py"
   },
   "created": "2026-09-09",
@@ -28,7 +28,7 @@
   "outputs": [
     {
       "path": "experiments/yolo/gdt893_global_source_montage_word_code/METHOD.md",
-      "sha256": "861900aff06e3df1ead5a1c1c827afaedb95920093bd42a56deee9beb340f0df",
+      "sha256": "df927e048e6e1abe99cbf73522f2d6a65d67bfdac769b5acfb73ace012b3fd36",
       "role": "source_or_artifact"
     },
     {
@@ -52,6 +52,16 @@
       "role": "source_or_artifact"
     },
     {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/artifacts/CANDIDATE_AUDIT.json",
+      "sha256": "d005c3b8f0e287847ef369544076e9554c3201bc5c84a38ae4d0177ecd3c5349",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/artifacts/CANDIDATE_LOCK.json",
+      "sha256": "5399c339a99487f1c0b2b34e17e5e93811427913eeff90b617c0b6d7eeaab2e4",
+      "role": "source_or_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt893_global_source_montage_word_code/artifacts/COREMA_INTAKE.json",
       "sha256": "4d63a53942499d8562f854199e1db079055d5c148c153c3b83c9d5c47bff2ecd",
       "role": "source_or_artifact"
@@ -62,8 +72,18 @@
       "role": "source_or_artifact"
     },
     {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/artifacts/ORIGINAL_EXECUTION.json",
+      "sha256": "a02ef6b781721e28847232b7ceba8fb91b0c46718101b135aecfc4ea23495935",
+      "role": "source_or_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt893_global_source_montage_word_code/artifacts/README.md",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/artifacts/ZL_INITIAL_PARITY.json",
+      "sha256": "ac733ca14ad15a06b2cbe1ae935a61b7a78dcc4139b27a75b3e355d02d92f086",
       "role": "source_or_artifact"
     },
     {
@@ -82,8 +102,28 @@
       "role": "source_or_artifact"
     },
     {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/optimize_cpp.cpp",
+      "sha256": "96199ee5ae981c6af46a6b603a5e96c5305ae8626abdc60906d388e0deb25369",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/prepare_cpp.py",
+      "sha256": "4f19660acf9af395897df3519b162141de3dcc040fe22aa1dcfd808734bd473f",
+      "role": "source_or_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/run.py",
       "sha256": "a96bf321d48c2a664f48f1410a52c762d6cd867f935166f0a1e2412a98cea7be",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/run_cpp.py",
+      "sha256": "53dbb4d2ac2bcbb1926381aacd0744631084b5404ac208e5b643b3dc56fb4154",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/solve_projection.cpp",
+      "sha256": "3069717d56b0d758b9c94b593fb75c887be6fbeff6ca7687403bf5b3a486ab44",
       "role": "source_or_artifact"
     },
     {
@@ -102,13 +142,53 @@
       "role": "source_or_artifact"
     },
     {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/test_optimize_cpp.py",
+      "sha256": "7e2aba083200db563da3b895285bfe100a7a67747d45c3076d1dd74b05adcee2",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/test_projection_cpp.py",
+      "sha256": "67af1893ec3c3e68a811397081f0c8f37848af9578e56f2fa09f9fa9fdc21d19",
+      "role": "source_or_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/test_source.py",
       "sha256": "f1b4801e3036b4f98f8428f63943e3d138411052b97504569174a24cfc3f7bbd",
       "role": "source_or_artifact"
     },
     {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/test_validate_independent.py",
+      "sha256": "9ec779be39b47febc1549dfc14236a9588e42ae71ab3d3be6ca9026c8f74f54a",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/test_validate_projection.py",
+      "sha256": "e27464fbbada52f2a800403e721cb555101836b036eb2a6bf3c7bd6940a10f5b",
+      "role": "source_or_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/validate.py",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
+      "sha256": "4f283f9cd3aa43c00cf2eca502bcc332aaa975e02c5c7a59e61a73093adda3ab",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/validate_optima.cpp",
+      "sha256": "b5d4cf91efef1875fb7ed4ab76e8104ec03ca624e6bbc6dc983e0997c33d5666",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/validate_projection.cpp",
+      "sha256": "2bb3fae6db3b1aaa75225e874164e1faeda30842fd8ee58a4a4c50b425b24c05",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/validate_symbolic.py",
+      "sha256": "811ec1094e9c2ffe519aebc6f3708c995c96c64fbc589f03d0115de8f298d436",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt893_global_source_montage_word_code/src/validate_windows.cpp",
+      "sha256": "4f2379fb95f21ea136ee749b4afa57e63748c3a12ecd0e42b6c0f019cd1755f8",
       "role": "source_or_artifact"
     }
   ],
@@ -119,7 +199,7 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "global_source_montage_word_code",
-  "status": "REGISTERED_UNSCORED",
+  "status": "REGISTERED_SYMBOLIC_AMENDMENT_UNSCORED",
   "title": "Complete historical source montage under one global word code",
   "updated": "2026-09-09",
   "validation": {
