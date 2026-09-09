@@ -24,7 +24,11 @@ Independent fullsource/domain/CVvalidationPASS; no meanings orautomaticrepair.
 896closed: decoded-controlAlberti ring/complete-entry model has0solutions on
 398projected895entries. ZL/IT/RFall20indices lackmandatoryrundomains; consensus
 5remainingwholeentry/indexcases have0rings. IndependentcompletevalidationPASS.
-No generalrotorrefutation, meanings orautomaticrepair; no nextattackselected.
+No generalrotorrefutation, meanings orautomaticrepair.
+897selected: complete LEFT/MIDDLE open starfields versus96frozenPtolemy units;
+fixed gnomonic/projective and stereographic families, whole-ink uncertainty.
+Native inventories independent; no coordinate fit yet. Budget23:38–01:08UTC;
+checkpoint00:03. Decision: GDT897 METHOD.md. Same admittedcanvas, no meaning.
 128Llull chamber macros sourced; fixed10-letter complete-line morphism conflicts
 with882rank20 on its certificate scope. Narrow ordered-table domain remainsunbound.
 LatInfLexi excludes medieval vocabulary; no Voynich-language inference.

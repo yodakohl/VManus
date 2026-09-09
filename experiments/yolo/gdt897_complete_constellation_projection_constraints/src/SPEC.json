@@ -1,0 +1,33 @@
+{
+  "schema": "GDT897_FIXED_SEARCH_SPEC_V1",
+  "checkpoint_utc": "2026-09-09T23:59:00Z",
+  "checkpoint_decision": "GO bounded complete sign-CSP: all5count-compatible sourcecases, bothfixedfamilies, bothcompleteLEFTinventoryalternatives. Intervalandindependentsearch implementations andsyntheticchecks ready.",
+  "budget_end_utc": "2026-09-10T01:08:00Z",
+  "source_cases": [
+    "C07:FORMED",
+    "C07:FULL",
+    "C11:FULL",
+    "C13:FULL",
+    "C38:FULL"
+  ],
+  "target_alternatives": [
+    "LEFT29",
+    "LEFT30"
+  ],
+  "projection_families": [
+    "gnomonic_positive_final_denominators_projective_camera",
+    "stereographic_rotation_similarity"
+  ],
+  "source_scope": "all48FORMED and48FULL cases frozen before count selection; no geometric source selection",
+  "search": "complete all-different bijection andglobalorientation sign; every triple/quadruple necessary determinant constraint; onlysoundcertifiedsource/possibletarget facetincidence pruning",
+  "primary": "C++ DFS withMRV, facetvertex/pair/triangle necessities andfullresidualmatching",
+  "independent": "Python domainDFS, facetvertex necessities andresidualunionHall test",
+  "cap_seconds_per_case_orientation": 120,
+  "primary_hard_timeout_seconds_per_case": 300,
+  "max_parallel_cases_per_implementation": 10,
+  "unknown_policy": "timeout is UNKNOWN, not exclusion; signcompatible witness is not continuous feasibility",
+  "positive_policy": "Anycontinuousfit mustuseunchanged sourcecase, inventoryandboxes. A failedfittoone invariantwitnesscannotexcludeother bijections. Nooptimizerrepairchain.",
+  "source_angles": "exactliteralintegerarcminutes, noextraerrororprecession",
+  "target_metric": "normalizedboxx*7993,y*3828 exactly; wholeinkunions; ydownward permittedreflection",
+  "claims": "conditionalgeometryonly, no labelreading, namedobjectorwordmeaning, heldscoreortransfer"
+}
