@@ -1,0 +1,41 @@
+{
+  "schema": "GDT896_PREPARATION_VALIDATION_V1",
+  "status": "PASS",
+  "target_accessed": false,
+  "source_hashes": {
+    "run.py": "6f8fe010830814d7b2fe69a67c98f95f3ceb570d62ea233adf7bbd20e14b64d3",
+    "independent_runs.py": "e11aca901982ac63dbff44c90a7ca176f3ccf99d702e8b1f0e57290dbe759c79",
+    "SPEC.json": "cecbaac2cd6c7475a42377708ec31a7d57b7f2a17c04200efd21e2d16caa9bbe",
+    "check_preparation.py": "d61daf4afcf8172d9bd4b8ba8ac454bdf179bfc6ba22c70253ff22c6bd4a4e9f"
+  },
+  "checks": {
+    "run_language": {
+      "status": "PASS",
+      "comparisons": 4160,
+      "all_twenty_indices": true
+    },
+    "complete_local_families": {
+      "status": "PASS",
+      "families": 24,
+      "brute_position_assignments": 8280
+    },
+    "forward_encoder_replay": {
+      "status": "PASS",
+      "cases": 40,
+      "consecutive_and_trailing_controls": true
+    },
+    "global_disconnected_alias_fixture": {
+      "status": "PASS",
+      "complete_models": 46
+    },
+    "frozen_source_projection": {
+      "status": "PASS",
+      "original_entries": 1016,
+      "accepted": 398,
+      "excluded": 618,
+      "source_pool_sha256": "440476367567addf11406cbc62d8d22f3c1fa42be1701190866903a101dfa28d",
+      "projection_sha256": "23b1576f503c8056a996ce5ee1dc7a801d3e0e7650eba32b8f713a0550603689"
+    }
+  },
+  "claim_ceiling": "Engineering and source projection only; no manuscript compatibility or decipherment finding."
+}

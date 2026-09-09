@@ -908,3 +908,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT893 | GDT893_budget_completion | `THREE_EXACT_PANELS_IT_UNKNOWN` | [report](../experiments/yolo/gdt893_global_source_montage_word_code/REPORT.md) | 60 | 265.6 KiB | 7 | STRUCTURED_YOLO |
 | GDT894 | GDT894_fixed_adjacent_copy | `CONTRADICTED_BOTH_DIRECTIONS_LITERAL_RF` | [report](../experiments/yolo/gdt894_forced_source_adjacent_copy/REPORT.md) | 15 | 215.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT895 | GDT895_complete_entry_cv | `ALL_FOUR_PANELS_UNSAT` | [report](../experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md) | 29 | 13.0 MiB | 5 | STRUCTURED_YOLO |
+| GDT896 | Complete source entries under a decoded-control Alberti ring | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt896_alberti_complete_entry_rotor/REPORT.md) | 14 | 199.0 KiB | 4 | STRUCTURED_YOLO |

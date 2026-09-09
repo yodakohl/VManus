@@ -21,7 +21,10 @@ supportmultilinguallexicallists, notparagraphswitching. Sourcesstillunfixed.
 895closed:1016completeSimonentries13270words; totalCVcopylawhas0solutions.
 ZL12/14,IT233/259,RF8/11emptydomains; CONS24entriesx6vowelsalllength-conflict.
 Independent fullsource/domain/CVvalidationPASS; no meanings orautomaticrepair.
-130Alberti decoded-control rotor source recovered; raw, no next attackselected.
+896selected: total complete-entry reconstruction under Alberti's decoded-control
+ring, all20indices/global24positions;398strictlyprojected895entries,618excluded.
+Statefulvalues/erasingcontrols/ignoredspaces distinguish895flatCVcontract.
+Preparation23:18,targetlatest23:38,totalbudget23:58UTC. No targetyet/no meanings.
 128Llull chamber macros sourced; fixed10-letter complete-line morphism conflicts
 with882rank20 on its certificate scope. Narrow ordered-table domain remainsunbound.
 LatInfLexi excludes medieval vocabulary; no Voynich-language inference.

@@ -269,3 +269,23 @@ panel; otherwise these kernels can decide the already registered channel rather
 than reporting preliminary compatibility as a fit. No broader decoder, alternate
 source or target processing is selected. Actual target-search duration and
 frozen inputs remain to be published after source closure.
+
+GDT896 decision,22:58UTC:895 is closed. Alberti's source-attested decoded-control
+ring is a different complete channel: previous signs change later letter values,
+controls emit no letter, and written word boundaries impose no plaintext boundary.
+604's fixed U/P/S failure and895's word-equality contradictions do not decide it.
+Test one explicit conjunction: every inherited odd paragraph is one initialized
+message encoding a distinct complete entry from the unchanged895 available pool.
+Only j->i and v->u are projected; any remaining out-of-alphabet letter excludes
+the entire source entry. This copy/message contract is hypothetical, not historical
+evidence linking Simon, Alberti and Voynich. Allow the mechanical superset with
+consecutive/trailing controls, all20 index letters and every injective24-position
+ring. Exact failure closes this conjunction; complete solutions permit examining
+whether the shared key/plaintexts are forced; timeout parks it without repair.
+First derive complete-source run domains, then solve shared ring/entry constraints
+only if needed. Independent recursion/constraint validation must check the result.
+Budget60min through23:58UTC including preparation, validation and publication;
+checkpoint23:18 before target access, latest target start23:38, at most300seconds
+per panel per independent implementation. No new pages, source, LM or coverage
+relaxation; full contract in896/METHOD.md. This is a conditional source-equation
+test, not an inference that the manuscript uses the later Alberti cipher.
