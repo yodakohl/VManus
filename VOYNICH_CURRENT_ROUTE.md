@@ -3,15 +3,16 @@ Updated: 2026-09-09. Read first.
 
 ## Latest completed continuation and next selection
 
-QK: IDEA000107 method-reviewed, semantic not-tested. Same-type homonyms
-need not change role; GDT559 inheritance uses constructed reader state.
-No independent incompatible requirement in selected559/593 sources. No rerun.
-Primary: research_registry/decisions/qk_argument_type_design_review.md.
-QL selection: SIA001/PIP001 additions, f76r margin mapping and otar contexts
-already have primary follow-ups; no new discriminator selected. Do not repeat
-these source checks. Receipt: research_registry/decisions/ql_source_specific_selection.md.
+User-directed global reconstruction plan, 2026-09-09:
+research_registry/proposals/global_reconstruction_plan.md.
+Next work: jointly specify finite competing content/construction/script models,
+then derive genuinely different observable predictions; planned8h first block,
+not started.809/827are exposed development;828immediate repairs stayclosed.
+Semantic renaming must be separated from structure; no automatic decoder,
+newpage or878/838rerun. No experiment or meaning selected by this plan.
+QK107 remains semanticnot-tested; QL additions/f76r/otar source checks complete.
 
-Translation plan prepared 2026-09-08:
+Earlier targeted translation plan prepared 2026-09-08:
 research_registry/proposals/translation_reconstruction_plan.md.
 10h continuation active:2026-09-08 13:27:56UTC; earliestend23:27:56UTC.
 Session:research_registry/decisions/semantic_10h_translation_session.md.
