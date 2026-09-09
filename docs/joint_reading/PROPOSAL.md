@@ -208,3 +208,54 @@ held confirmation. Historical exposure remains explicit. Rejection parks this
 continuation rather than repairing keys, shifting windows or enlarging sources.
 Budget35min20:21–20:56UTC including preregistration, two implementations, guarded
 intake, validation and publication. No visual admission or f84/f84r access.
+
+Simon dictionary decision, 2026-09-09 21:04UTC:893/894 are closed; their source
+pool and word key will not be repaired. The distinct #13/#44 hypothesis is a
+collection of complete dictionary entries under one compositional writing code.
+888 leaves18 opaque name assignments;884 is a single fixed passage equation;
+893 permits arbitrary word values and uncovered paragraphs. The unknown is
+whether Simon's complete edited entries provide enough actual bounded text to
+constrain both whole-entry identity and a shared script, without arbitrary word
+values. Two archived examples (Nefros, Kit) do not establish a usable corpus.
+First recover the23 source index sections and a deterministic varied entry
+sample, assess the edition's word/uncertainty boundaries, and specify a finite
+global code with explicit invertibility limits. A complete reproducible source
+inventory and defensible contract permit preregistering the joint entry model;
+missing source coverage or unconstrained word loss parks this source/model before
+decoder work. No source substitutions, target-selected entry omissions, or
+editorial commentary used as medieval text. Budget45min21:04–21:49UTC, including
+source intake, independent architecture review and compact publication. No new
+Voynich data are needed for this preparation. Further work requires a concrete
+decision at that checkpoint, not an automatic corpus/decoder expansion.
+
+Early source checkpoint21:16UTC:21/23 archived letter indices expose5803 entry
+links; eight varied complete bodies are verified, eight failed requests retained.
+The edition is eclectic and expanded, with witness-dependent entry boundaries.
+Full-book coverage is not established. Select an explicitly PARTIAL AVAILABLE
+EDITION inventory, not a claim about every Simon entry or any individual witness.
+Acquire metadata for all5803 already indexed titles and each available body's
+capture nearest the fixed20220812000000 anchor; no title/content selection by
+Voynich fit, no new archive/source after results. Raw modern edition stays local.
+Before target access, freeze all successfully acquired complete unambiguous main
+entries and every exclusion with source reason. This is a conditional complete-
+target reconstruction from that partial pool; an exclusion cannot reject missing
+Simon entries or the broader dictionary hypothesis.
+
+Select the exact lossless892 CV channel as a new source-equation hypothesis:
+all eligible odd887 paragraphs must match different complete source entries under
+one27-component prefix-free1/2-character key, with all six inherent vowels kept.
+It can contract inherent CVs and reconstructs every letter; it supplies no free
+root/word values. This is not a rerun or repair of892's failed source eligibility
+control: attested complete entries replace its lexicon/grammar task, with exact
+compatibility and all-solution identification as the falsifier. 892's control
+never passed and no grammar-decoder claim is imported. The broader block-expansion
+alternative is not selected and will not be an automatic fallback.
+
+Next budget90min21:16–22:46UTC including archive intake, parser/source validation,
+formal specification and publication. Source-only work until the exact finite
+inventory and its alphabet contract pass independent review. If the available
+inventory cannot support a reproducible complete-entry equation, stop this source
+without further archive chasing. If it can, set the smallest adequate exact-search
+budget in its preregistration. A forced portable key opens a separately fixed held
+reading; only ambiguous keys or exact rejection parks this pool/channel. No target
+omissions, changed source spellings, threshold relaxation or fitted source variants.

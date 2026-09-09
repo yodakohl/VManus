@@ -18,6 +18,9 @@ barriers:9safepriorpositions/4conflicts,19following/4conflicts. Independent
 guard/sourcevalidationPASS. LiteralRFcopylawonly; no transferablemeaning.
 122rawcommonscript/multiplelanguage architecture retained; primarysources
 supportmultilinguallexicallists, notparagraphswitching. Sourcesstillunfixed.
+895sourcepreparation: completeSimonentry equations underone lossless892CVkey;
+explicitpartialeclecticarchive,1575fixedcaptures of5803indexlinks. No targetfit.
+Fullsource/parser/independentaudit block21:16–22:46UTC; noautomaticblockdecoder.
 LatInfLexi excludes medieval vocabulary; no Voynich-language inference.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
 

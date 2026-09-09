@@ -6,11 +6,13 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-Current2026-09-09 continuation: GDT887 fixed complete Tacuinum lexeme/group
-compiler has no eligible solution; joint identity prediction never reached.
-Independent source/fit replay PASS. Broader content/network question remains open;
-no confirmed meanings or automatic compiler successor. Primary:
-`experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md`.
+Current2026-09-09 continuation:892control capacity-stopped before cipher/fit;
+893three exact source-montage panels and ITunknown;894fixed adjacentcopy
+contradicted bothways. Confirmedmeanings remainzero.895nowprepares complete
+Simonentry equations underone global losslessCVcode, froman explicitlypartial
+archivedeclectic edition;1575fixedcaptures of5803indexedentrylinks. Source
+acquisition/independentvalidation inprogress; no895targetfit or newpage.
+Primary: `experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md`.
 
 ### Consolidated research memory (2026-09-06; workflow, not decipherment)
 

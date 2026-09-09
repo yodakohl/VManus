@@ -907,3 +907,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT892 | GDT892 | `INSUFFICIENT_ELIGIBLE_SENTENCES` | [report](../experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md) | 25 | 111.9 KiB | 6 | STRUCTURED_YOLO |
 | GDT893 | GDT893_budget_completion | `THREE_EXACT_PANELS_IT_UNKNOWN` | [report](../experiments/yolo/gdt893_global_source_montage_word_code/REPORT.md) | 60 | 265.6 KiB | 7 | STRUCTURED_YOLO |
 | GDT894 | GDT894_fixed_adjacent_copy | `CONTRADICTED_BOTH_DIRECTIONS_LITERAL_RF` | [report](../experiments/yolo/gdt894_forced_source_adjacent_copy/REPORT.md) | 15 | 215.2 KiB | 2 | STRUCTURED_YOLO |
+| GDT895 | GDT895_source_selection | `PARTIAL_ARCHIVE_SOURCE_INTAKE_NO_TARGET_FIT` | [report](../experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md) | 12 | 7.5 MiB | 5 | STRUCTURED_YOLO |

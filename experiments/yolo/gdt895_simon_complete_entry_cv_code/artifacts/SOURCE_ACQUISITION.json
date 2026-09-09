@@ -1,0 +1,82 @@
+{
+  "schema": "simon-public-acquisition-v1",
+  "phase": "PREREGISTRATION_SOURCE_POOL_ACQUISITION_IN_PROGRESS",
+  "scope": "Explicit partial available eclectic edited lexicon; not fullSimonbook or diplomatic1510A. No HTML or maintext published in these metadata artifacts.",
+  "indexed_titles": 5803,
+  "selected_exact_title_captures": 1575,
+  "no_exact_title_capture_metadata": 4228,
+  "missing_letter_indices": [
+    "E",
+    "H"
+  ],
+  "fixed_anchor": "20220812000000",
+  "public_files": {
+    "source": {
+      "file": "src/acquire_source.py",
+      "sha256": "f20491deca97f38224c9ef5f88ec870489a312ef901952928a722e6c4d32479a"
+    },
+    "captures": {
+      "file": "artifacts/CAPTURES.json",
+      "sha256": "033800bc117abe9031364800c703d4b061299d47a642b53398bd478429f9d322"
+    },
+    "index_inventory": {
+      "file": "artifacts/INDEX_INVENTORY.json",
+      "sha256": "c32d29ecb0f12ad5c0dbc5c3ff84cd3d02b86eadf1898ff1fa787547b6602f75"
+    }
+  },
+  "original_execution": {
+    "collector_file_basename": "collect.py",
+    "sha256": "c11cdda260c0b13cb263aaa28746281a48a0f03963adfdea18c971a2945bb39c",
+    "start_utc": "2026-09-09T21:18:54.723464+00:00",
+    "deadline_utc": "2026-09-09T22:40:00Z",
+    "code_not_changed_by_portability_work": true
+  },
+  "cdx_source": {
+    "url": "https://web.archive.org/cdx/search/cdx?url=simonofgenoa.org%2Findex.php%3Ftitle%3D&matchType=prefix&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&showResumeKey=true",
+    "started_utc": "2026-09-09T21:16:26.071029+00:00",
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=simonofgenoa.org%2Findex.php%3Ftitle%3D&matchType=prefix&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&showResumeKey=true",
+    "status": 200,
+    "bytes": 384149,
+    "sha256": "0244b2118801ae9c24e27cf0692cc551e1eb6ae1edb760349bb0dcb4dbde810a"
+  },
+  "selection": "All indexed titles; exact decodedtitle only. Nearest capture to anchor, earlier timestamp ties, originalURLlexical finalties. No content-selected titles or capture replacement.",
+  "transport": {
+    "max_workers": 2,
+    "minimum_global_request_start_interval_seconds": 3,
+    "transient_retry_limit": 2,
+    "backoff_seconds": "15 times attemptnumber; first429 at least60seconds",
+    "stop": "persistent429 or accesschallenge; explicit deadline remainder",
+    "redirects": "Only publicarchive redirectdestinations; same globalrate gate; chain preserved; finaltimestamp mismatch excluded",
+    "reuse": "Only identical selectedreplayURL with actual cachedHTML, never a differentcapture"
+  },
+  "portability_differences": [
+    "Caller supplied --cache, --inventory and timezone-aware --deadline replace execution-local path/deadline configuration.",
+    "Optional --initial-cache is explicit and empty by default; execution used two existing sourcecache directories.",
+    "--captures permits exact publishedfrozenmetadata replay; --prepare-only exposes original CDXquery and captureselection without bodyacquisition.",
+    "Portable CLI adds inventorytitle/hash consistency checks and refuses to overwrite differing capturebytes.",
+    "Transport, retries, receiptwriting, SHA256binding, capturetimestampchecks and cacheeligibility functions preserve execution AST exactly."
+  ],
+  "checks": {
+    "python_compile": "PASS",
+    "cli_help": "PASS",
+    "offline_metadata_replay": "PASS: prepare using frozen384149byteCDX response reproduces originalCAPTURES bytes exactly",
+    "identical_transport_function_AST": [
+      "utc",
+      "write",
+      "gate",
+      "stop",
+      "Redirects",
+      "reuse",
+      "oldid",
+      "run",
+      "progress"
+    ],
+    "privacy_scan": "PASS: proposed4files contain no detected absolute machinepaths, credentialtokens or privatekeys"
+  },
+  "reproduction": [
+    "python src/acquire_source.py --cache CACHE_DIR --inventory artifacts/INDEX_INVENTORY.json --captures artifacts/CAPTURES.json --deadline UTC_ISO8601",
+    "Optional fresh metadata audit: samecommand with --prepare-only in an emptycache. CDX may change over time; a freshquery must not silently replace this frozen sourcepool."
+  ],
+  "status_receipts": "Every indexedtitle receives its own receipt. Successincludes immutableHTML bytehash and oldid. Missingmetadata, HTTP/networkfailures, accessstop and deadlineremainder remain explicit.",
+  "publication_limits": "Raw archived modernedition remains local; these files publish provenance/titlemetadata and acquisitioncode only."
+}
