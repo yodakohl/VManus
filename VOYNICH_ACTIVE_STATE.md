@@ -23357,3 +23357,5 @@ contexts coverall45admittedkeys. No completeMS/fineglyph claim. Radial/curved
 text and shortstar-adjacent texts described; no count direction underlayer
 ownership astronomicalphase ormeaning assessment. RBR002/ringclosures unchanged.
 Primary: experiments/yolo/gdt871_remaining_shared_diagram_orientation/REPORT.md.
+
+GDT892: frozen control source exhausted before key/cipher generation:12 discovery+9 held below12+12; independent full-source replay PASS. Unknown-unit CV/paradigm architecture remains untested. No threshold/corpus repair or manuscript meaning; independent source-montage priority under review. Primary: `experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md`.

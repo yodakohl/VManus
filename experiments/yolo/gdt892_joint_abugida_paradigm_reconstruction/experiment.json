@@ -3,7 +3,7 @@
     "large_artifact_justification": "",
     "max_inline_bytes": 5000000
   },
-  "claim_ceiling": "New constrained architecture and reference preparation only; no recovered key, language, word meaning or Voynich score.",
+  "claim_ceiling": "Frozen control source exhausted before key/cipher generation:12 discovery+9 held below12+12; architecture untested, no Voynich input or meaning.",
   "commands": {
     "run": "python3 experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/run.py",
     "validate": "python3 experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/validate.py"
@@ -43,8 +43,13 @@
     },
     {
       "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md",
-      "sha256": "930dd4f0b1e05fa3c4cab10ea704bb5d845ef0bced498b5247fea9971522c81c",
+      "sha256": "26cd4f1a434702e4aacb0a4074177a75ea92878fa5739cda9a036fcd04a47e0d",
       "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/CONTROL.json",
+      "sha256": "78699a7b7dd28871fad2723cc97cf2939ec8531f0f6da4a72223b009259e4254",
+      "role": "source_or_artifact"
     },
     {
       "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/README.md",
@@ -62,6 +67,11 @@
       "role": "source_or_artifact"
     },
     {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/VALIDATION.json",
+      "sha256": "60f07a2ff5d0b8af65d950531a79bfbaac4c8dedd0e332fcdba258c82f6f2d62",
+      "role": "source_or_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/SPEC.json",
       "sha256": "94f6e46d1f28abf378c7cc760d329a30ef0b73890c6fe6f0be9e02d548ab57cd",
       "role": "source_or_artifact"
@@ -69,6 +79,11 @@
     {
       "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/core.py",
       "sha256": "832651909344428b41c63b817170f6bae1427ae55b78aaa1de138bf02b997abe",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/csp.py",
+      "sha256": "bf574eadbeb78eee2acaef5ab91fc579ecc241c9f00b3f5297b538044ec03ff0",
       "role": "source_or_artifact"
     },
     {
@@ -98,12 +113,17 @@
     },
     {
       "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/run.py",
-      "sha256": "dc7eac7ff40250157558e709b4f4431ed6594120ddb2b8c3c24c24ed3c5477e7",
+      "sha256": "87762e2088dd24ab6e3e4ffff1a5e03c3c39911f4891e68500e4afc05acfcf10",
       "role": "source_or_artifact"
     },
     {
       "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/test_channel_independent.py",
       "sha256": "ccf771a459538578ee8b108dffb80e617fb1070bc5dfd8266858503da504993a",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/test_csp.py",
+      "sha256": "80e39b5e4637e2a063dde61870ad71c41478d4e1dd20dc9d4a37f547936474ef",
       "role": "source_or_artifact"
     },
     {
@@ -117,8 +137,13 @@
       "role": "source_or_artifact"
     },
     {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/test_validate_independent.py",
+      "sha256": "55002bff42eb28feca0a1d5598bdd4e4090d46807cbcf051b07f5aacc8d86cc4",
+      "role": "source_or_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/validate.py",
-      "sha256": "33af1166ab11e946e7c2bd3f326b850d2eabd7429d1e47192b30af66b246e669",
+      "sha256": "a4eee50172ca4ab884256723efd71a9ce6ecb99907f3235c02848932033ca52b",
       "role": "source_or_artifact"
     }
   ],
@@ -129,11 +154,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "joint_abugida_paradigm_reconstruction",
-  "status": "REGISTERED_NO_CIPHER_FIT",
+  "status": "INSUFFICIENT_ELIGIBLE_SENTENCES",
   "title": "Joint unknown-unit CV code with complete paradigm constraints",
   "updated": "2026-09-09",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/VALIDATION.json"
   }
 }

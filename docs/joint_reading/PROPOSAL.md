@@ -166,3 +166,9 @@ und eine Grammatik aus13586 projektiven Referenzbäumen liegen vor. Das genügt
 für die begrenzte Implementierung/Identifikationsprüfung, nicht für eine
 Manuskriptlesung. Nächstes Budget90Minuten ab19:04UTC einschließlich Ergebnis-
 prüfung und Veröffentlichung; kein automatischer Reparaturlauf bei Scheitern.
+
+GDT892 stopped before key/cipher generation: the unchanged source supplies12D+9H,
+below the fixed12+12 requirement. No decoder fit or threshold/corpus repair.
+The architecture remains untested; move to the independently prioritized source
+montage model, conditional on complete source runs and an identifiable shared
+writing map. No old control failure is reopened.
