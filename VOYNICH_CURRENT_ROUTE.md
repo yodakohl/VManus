@@ -7,6 +7,9 @@ QK: IDEA000107 method-reviewed, semantic not-tested. Same-type homonyms
 need not change role; GDT559 inheritance uses constructed reader state.
 No independent incompatible requirement in selected559/593 sources. No rerun.
 Primary: research_registry/decisions/qk_argument_type_design_review.md.
+QL selection: SIA001/PIP001 additions, f76r margin mapping and otar contexts
+already have primary follow-ups; no new discriminator selected. Do not repeat
+these source checks. Receipt: research_registry/decisions/ql_source_specific_selection.md.
 
 Translation plan prepared 2026-09-08:
 research_registry/proposals/translation_reconstruction_plan.md.
