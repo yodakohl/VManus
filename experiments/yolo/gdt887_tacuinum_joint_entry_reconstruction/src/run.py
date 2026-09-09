@@ -35,11 +35,11 @@ def select():
  byline=defaultdict(list)
  for r in raw:
   if r['edition'] in EDITIONS:byline[r['edition'],r['locus']].append(r)
- prose=defaultdict(list)
+ source_loci=defaultdict(list)
  for (ed,loc),rows in byline.items():
   rows.sort(key=lambda r:int(r['source_group_index']))
   assert len({r['kind'] for r in rows})==1
-  if rows[0]['kind']=='P':prose[ed,rows[0]['page']].append(loc)
+  source_loci[ed,rows[0]['page']].append(loc)
  all_loci=set();frame_loci={}
  for f in frames:
   assert f['page'] in pages
@@ -47,12 +47,12 @@ def select():
   f['atlas_physical_folio']=f['physical_folio']
   f['physical_folio']=re.match(r'f[0-9]+',f['page']).group()
   lo,hi=int(f['start_line_number']),int(f['end_line_number'])
-  locs=sorted((l for l in prose['ZL3b',f['page']] if lo<=number(l)<=hi),key=number)
+  locs=sorted((l for l in source_loci['ZL3b',f['page']] if lo<=number(l)<=hi),key=number)
   assert len(locs)==int(f['source_line_count']),('FRAME_LINE_COUNT',f['paragraph_id'])
   assert locs[0]==f['start_locus'] and locs[-1]==f['end_locus'],('FRAME_ENDPOINTS',f['paragraph_id'])
   for ed in EDITIONS:
-   alternate={l for l in prose[ed,f['page']] if lo<=number(l)<=hi}
-   assert not alternate-set(locs),('ADDITIONAL_ALTERNATE_P_LOCUS',ed,f['paragraph_id'])
+   alternate={l for l in source_loci[ed,f['page']] if lo<=number(l)<=hi}
+   assert not alternate-set(locs),('ADDITIONAL_ALTERNATE_LOCUS',ed,f['paragraph_id'])
   frame_loci[f['paragraph_id']]=locs;all_loci.update(locs)
  sta,g3=query(STA,'locus',all_loci,STACOLS)
  sx={r['source_group_id']:r for r in sta};assert len(sx)==len(sta)
@@ -60,16 +60,17 @@ def select():
  for f in frames:
   locs=frame_loci[f['paragraph_id']];readings={}
   for ed in EDITIONS:
-   groups=[];reasons=[]
+   groups=[];reasons=['NON_P_FRAME'] if any(byline['ZL3b',loc][0]['kind']!='P' for loc in locs) else []
    for li,loc in enumerate(locs):
     rows=byline.get((ed,loc),[])
     if not rows:reasons.append('MISSING_LOCUS');continue
     assert [int(r['source_group_index']) for r in rows]==list(range(1,len(rows)+1)),('GROUP_INDEX',ed,loc)
     assert all(int(r['source_group_count'])==len(rows) for r in rows)
-    assert all(r['kind']=='P' for r in rows),('NON_P_FRAME_LOCUS',ed,loc)
+    if any(r['kind']!='P' for r in rows):reasons.append('NON_P_LOCUS')
     assert len({r['paragraph_start'] for r in rows})==len({r['paragraph_end'] for r in rows})==1
-    assert (rows[0]['paragraph_start']=='1')==(li==0),('PARAGRAPH_START',ed,loc)
-    assert (rows[0]['paragraph_end']=='1')==(li==len(locs)-1),('PARAGRAPH_END',ed,loc)
+    if ed=='ZL3b':
+     assert (rows[0]['paragraph_start']=='1')==(li==0),('PARAGRAPH_START',ed,loc)
+     assert (rows[0]['paragraph_end']=='1')==(li==len(locs)-1),('PARAGRAPH_END',ed,loc)
     if rows[0]['left_separator']!='LINE_START' or rows[-1]['right_separator']!='LINE_END':reasons.append('OUTER_BOUNDARY')
     assert all(a['right_separator']==b['left_separator'] for a,b in zip(rows,rows[1:])),('SEPARATOR_PARITY',ed,loc)
     if any(r['right_separator']!='DEFINITE_SPACE' for r in rows[:-1]):reasons.append('NONDEFINITE_INTERNAL_SEPARATOR')
@@ -81,7 +82,7 @@ def select():
      codes=s['primary_sta_codes'].split();assert len(codes)==int(s['primary_sta_symbol_count'])
      if not codes:reasons.append('EMPTY_STA')
      if int(s['alternative_site_count']):reasons.append('STA_ALTERNATIVE')
-     groups.append(dict(raw=r['ivtff_group_raw'],sta=codes,locus=loc,source_group_id=r['source_group_id']))
+     groups.append(dict(raw=r['ivtff_group_raw'],sta=codes,locus=loc,source_group_id=r['source_group_id'],kind=r['kind'],paragraph_start=r['paragraph_start'],paragraph_end=r['paragraph_end']))
    readings[ed]=dict(eligible=not reasons,reasons=sorted(set(reasons)),groups=groups)
   rs=[readings[e] for e in EDITIONS]
   same=all([(g['raw'],g['sta'],g['locus']) for g in r['groups']]==[(g['raw'],g['sta'],g['locus']) for g in rs[0]['groups']] for r in rs[1:])

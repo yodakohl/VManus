@@ -55,9 +55,14 @@ suitability arguments remain bound; no convenient four-equal-fields reduction.
 
 Reuse only boundary metadata from GDT807's665 strict paragraphs, within the179-page
 GDT631 allowlist. Rebuild complete unmasked source groups from the literal separator
-and exact STA atlases through selector-first query-tsv. Source-marked P loci inside
-the fixed numeric endpoints must reproduce each frame's source-line count and
-boundary flags. Metadata disagreements are instrument failures, not negative fits.
+and exact STA atlases through selector-first query-tsv. All ZL loci inside the fixed
+numeric endpoints must reproduce the frame's source-line count and ZL boundary
+flags. Any frame containing a non-P locus is excluded whole, without clipping.
+These are ZL-defined complete blocks in three readings, not a claim of identical
+paragraph continuity across editions (GDT827). Alternate readings use those same
+fixed ZL frames; their paragraph markers are
+preserved but do not redefine the frame. Metadata disagreements are instrument
+failures, not negative fits.
 Never read masked807 content/features as a complete paragraph.
 
 Preserve every raw group and source ID. A paragraph-reading is eligible only when
@@ -104,3 +109,16 @@ checks positive and conflicting miniature instances. Prefix transfer ambiguity
 must be enumerated, never resolved by the known external answer. An empty solution
 set identifies no word; a nonempty set is conditional reconstruction only. f84 and
 f84r stay forbidden. New relation evidence is not score-ready without GDT388 gates.
+
+## One input amendment before any fit
+
+The original preregistration e56225bd stopped at G807-P0040 during metadata
+reconstruction: its seven loci include the separately marked f11v.5 label.
+Metadata-only auditing finds six such mixed frames, exact all-kind count/endpoint
+and ZL boundary parity for all665, and no RF paragraph markers at all. IT has697
+markers against ZL665. These are transcription/frame conventions, not fit results.
+The one bounded correction above excludes all six mixed frames and treats ZL as
+the already selected frame authority. No source atomization, dictionary constraint,
+entity rule, eligible page, score or prediction changes. The initial lock is
+retained separately. No fit was computed before this amendment; further metadata
+failures stop the experiment instead of initiating another repair series.

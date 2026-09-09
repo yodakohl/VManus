@@ -30,7 +30,8 @@ Primary:experiments/yolo/gdt886_unknown_label_collation/REPORT.md.
 117selected asGDT887: three complete source-named Tacuinum records; shared
 lexeme dictionary +global entity-prefix change. Infer withheld corrective identity
 across all complete paragraph solutions. Source-first34/24/17 or43/33/26slots;
-no targetcontentyet.2h totalbudget03:57–05:57UTC, no decoder-rescue series.
+no fit yet. One metadata correction: exclude6mixedframes; ZL-defined blocks,
+RFflagsabsent/ITdiffers, not all3paragraphgold.2h budget03:57–05:57UTC.
 115parked for source/target graph identifiability.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
 erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,
