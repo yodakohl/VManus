@@ -1,0 +1,104 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Only the declared fixed passage, primary readings and code contract; no source identification, translation, general abbreviation or language verdict.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/run.py",
+    "validate": "python3 experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/validate.py"
+  },
+  "created": "2026-09-09",
+  "dependencies": [
+    "GDT606"
+  ],
+  "experiment_id": "GDT884",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "frozen_source_or_reader",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv",
+      "role": "frozen_source_or_reader",
+      "sha256": "f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840"
+    },
+    {
+      "path": "tools/guarded_tsv_query.py",
+      "role": "frozen_source_or_reader",
+      "sha256": "eeb8f325b3f7b10ad94eef4907d2d3baaa20bb1b81a9aa36782f96c9008551e3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "8423d2064f75e323acecd54daafa614f8d2d8dd0dbe62389aadd917424facf1b"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/README.md",
+      "role": "source_or_artifact",
+      "sha256": "c3aafcc2ea7b51cfb1b17dd494219aa148c3d484342bca2872095b2d60ba373d"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md",
+      "role": "primary_report",
+      "sha256": "646bec40f1c9adc25da16210421857c0275a9c4d7ac83105575e21f8ac8c71a6"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "041f911d91aa3614e7ad935f993f2ae96f7e6bdf4f1518a0bb4b56de3a640094"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/SOURCE_INTRO.json",
+      "role": "source_or_artifact",
+      "sha256": "e405215ad8699072b0bbd3c19c00e817ff51daad4bb49190e99505ed3b0b5006"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "34947f69e82917053701a1525c574d0435c401f7459f1084253689bc9c034488"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "592c8b0fb476230853b4c3636906d1e3aafbec4913a5578dacbc9a0d124b8ae7"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "62f92baed63bf4326d0151301a243a8fbf4df00cb227221a552636aae434e40e"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/morphism.py",
+      "role": "source_or_artifact",
+      "sha256": "83bd02b1c84b8bf6f78fdc6456aa9877c05e60659396516e7fdecbf8f4db3d74"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "c23f906644fbfdd75a5a39c094a7a0d356ad67240e2afd5feff6b52d2c5db2df"
+    },
+    {
+      "path": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "a07616ab770db59a4d9c04c30ce2ca7e23dd083167a8f5024c546912fc22b57a"
+    }
+  ],
+  "question": "Can any of three primary exact STA North-block readings expand to any of eight frozen historical introduction strings under an erasing morphism with nonempty group images?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "laufenberg_fixed_passage_equation",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Fixed Laufenberg introduction as a conditional plaintext crib",
+  "updated": "2026-09-09",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

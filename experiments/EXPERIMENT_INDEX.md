@@ -896,3 +896,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT001 | GDT001 | `UNREGISTERED` | [report](../GDT001_CURRENT_SUMMARY.md) | 305 | 76.2 MiB | 0 | LEGACY_ROOT |
 | GDT881 | GDT881_f99v_native_text_graphic_interface | `STOP_NO_SHARED_STROKE_CONSTRUCTION__PVO_SINGLE_POSITIVE_UNRESOLVED` | [report](../experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/REPORT.md) | 15 | 33.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT883 | GDT883_overlapping_digram_constraints | `FIXED_INJECTIVE_OVERLAPPING_BLOCKS_EXCLUDED__HOMOPHONIC_CHANNEL_BOUNDED` | [report](../experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md) | 13 | 387.3 KiB | 1 | STRUCTURED_YOLO |
+| GDT884 | Fixed Laufenberg introduction as a conditional plaintext crib | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md) | 12 | 36.9 KiB | 1 | STRUCTURED_YOLO |
