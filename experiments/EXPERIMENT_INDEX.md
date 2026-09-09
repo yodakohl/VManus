@@ -895,4 +895,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT002 | GDT002_existing_annotation_route_synthesis | `CURRENT_EXISTING_ANNOTATION_GROUNDING_CAPACITY_EXHAUSTED` | [report](../experiments/yolo/GDT002_EXISTING_ANNOTATION_ROUTE_STATUS.md) | 98 | 11.8 MiB | 1 | LEGACY_ROOT |
 | GDT001 | GDT001 | `UNREGISTERED` | [report](../GDT001_CURRENT_SUMMARY.md) | 305 | 76.2 MiB | 0 | LEGACY_ROOT |
 | GDT881 | GDT881_f99v_native_text_graphic_interface | `STOP_NO_SHARED_STROKE_CONSTRUCTION__PVO_SINGLE_POSITIVE_UNRESOLVED` | [report](../experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/REPORT.md) | 15 | 33.4 KiB | 2 | STRUCTURED_YOLO |
-| GDT883 | Unknown overlapping-block code constraints | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md) | 10 | 32.5 KiB | 1 | STRUCTURED_YOLO |
+| GDT883 | GDT883_overlapping_digram_constraints | `FIXED_INJECTIVE_OVERLAPPING_BLOCKS_EXCLUDED__HOMOPHONIC_CHANNEL_BOUNDED` | [report](../experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md) | 13 | 387.3 KiB | 1 | STRUCTURED_YOLO |

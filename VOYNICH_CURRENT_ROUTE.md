@@ -8,6 +8,12 @@ GDT882:413all3-concordant lines43leaves20literal characters; integer lattice
 Z^20, index1; independent C D=I verificationPASS. No nonzero fixed additive
 whole-line rule over any abelian group on this literal scope. Evenleavesunread.
 Primary:experiments/yolo/gdt882_additive_line_lattice/REPORT.md. No meaning.
+GDT883: 1617 clear concordant groups / 42 leaves. Fixed overlapping blocks
+with stride 1 cannot be injective at literal EVA or exact STA member scale,
+for any fixed block length >=2. STA: 25/33 codes forced identical; homophonic
+model has at most 38 latent strings among 749 raw forms. Independent graph and
+source validation PASS. Primary: experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md.
+No meaning; no adaptive segmentation/exception follow-on. IDEA000114 remains raw.
 User withdrew global_reconstruction_plan as repetition; it is NOT the next route.
 Minimal documentation requested; no administrative source-check series.
 
