@@ -50,8 +50,10 @@ forms (1598of1617groups) to one message; exact maximum20messages. Independent
 all280126pair DP/BFS and729collision witnessesPASS. Injectivity impossible;
 noninjective code bounded, not generally refuted. No actual meaning equivalence.
 Primary:experiments/yolo/gdt889_whole_form_edit_capacity/REPORT.md. No successor.
-890selected: f77r strict component-detail hypothesis, independent text-blind
-geometry first;18:07–18:22UTC totalbudget. Existingimage only, no meaning.
+890complete: two independent f77r native inventories lack complete upper/M
+boundaries; no certified graph matches or contradictions. Measurement stop, not
+hypothesis refutation; no word meaning or new page. Late route-read deviation
+disclosed. Primary:experiments/yolo/gdt890_f77_component_detail/REPORT.md.
 119Lull vegetative-faculty source remains raw: scholarly description located,
 original/image unverified; no Voynich comparison or decoder selected.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
