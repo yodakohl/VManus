@@ -21,6 +21,8 @@ supportmultilinguallexicallists, notparagraphswitching. Sourcesstillunfixed.
 895sourcepreparation: completeSimonentry equations underone lossless892CVkey;
 explicitpartialeclecticarchive,1575fixedcaptures of5803indexlinks. No targetfit.
 Fullsource/parser/independentaudit block21:16–22:46UTC; noautomaticblockdecoder.
+128Llull chamber macros sourced; fixed10-letter complete-line morphism conflicts
+with882rank20 on its certificate scope. Narrow ordered-table domain remainsunbound.
 LatInfLexi excludes medieval vocabulary; no Voynich-language inference.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
 

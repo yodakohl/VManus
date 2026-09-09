@@ -1,0 +1,55 @@
+{
+  "record_id": "IDEA000128",
+  "reviewer": "independent_geometry_a",
+  "verdict": "inconclusive",
+  "assessment_basis": "primary_report_and_exact_mathematical_corollary",
+  "reason": "The source-backed operational macro is real, but its ten-letter fixed morphism cannot cover the full GDT882 complete-line scope. A narrower complete twenty-cell column domain remains untested and has no demonstrated target/source binding. No experiment selected.",
+  "blockers": [
+    {
+      "status": "proved_conditional_exclusion",
+      "summary": "For a fixed source alphabet of size k=10 and any fixed codeword strings, let M be the 20 by 10 integer character-count matrix. Complete target lines satisfying n_l=M z_l+b for one fixed line prefix/suffix count b have difference rank at most 10. GDT882 verifies rank20 (indeed the stronger full Z^20 lattice), so the morphism is impossible if it covers all certified complete lines. Prefix freedom, injectivity and the one/two-character bound are unnecessary to this exclusion. The certificate subset of 101 original lines suffices if all those exact lines are covered.",
+      "evidence": [
+        "experiments/yolo/gdt882_additive_line_lattice/REPORT.md",
+        "experiments/yolo/gdt882_additive_line_lattice/METHOD.md",
+        "experiments/yolo/gdt882_additive_line_lattice/artifacts/VALIDATION.json"
+      ],
+      "code": "ten_letter_morphism_rank_scope"
+    },
+    {
+      "status": "unresolved",
+      "summary": "No overlap or rank proof was made for a narrower twenty-cell column, GDT887 paragraphs, or GDT883 subsets. Those domains cannot inherit the exclusion automatically. No target inputs were inspected for this proof. Complete source collation still must retain overwritten table cells as uncertain; seven displayed columns do not equal eighty-four explicitly transcribed columns.",
+      "evidence": [
+        "research_registry/proposals/lull_ordered_chamber_operation_register.json"
+      ],
+      "code": "narrow_column_scope_not_established"
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "condition": "A target domain must be fixed independently, with complete source-column/passage coverage and no arbitrary residual omission. Establish its own exact rank/scope applicability before any key search. Do not rescue the excluded ten-letter whole-line model by adding homophones, context alphabets or exceptions.",
+        "evidence": [
+          "experiments/yolo/gdt882_additive_line_lattice/REPORT.md"
+        ],
+        "change": "new_design"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT882",
+      "evidence": [
+        "experiments/yolo/gdt882_additive_line_lattice/REPORT.md"
+      ]
+    }
+  ],
+  "limitations": [
+    "This is a mathematical corollary of an existing validated result, not a new manuscript measurement or decipherment.",
+    "The GDT882 report covers 413 complete concordant prose lines on 43 odd physical leaves, selected using 88 allowed selectors, with a 20-character literal transcription alphabet. Its certificate uses 100 differences and one reference line.",
+    "No source table can choose a unique sentence merely from a chamber: meanings remain a finite operation set with external context.",
+    "While seeking a review-schema example, the independent reviewer accidentally opened an older public proposal containing GDT798/815 target excerpts. It was not used in this proof; no new target query occurred. This exposure must remain disclosed for later blinding assignments."
+  ],
+  "scope": "semantic"
+}
