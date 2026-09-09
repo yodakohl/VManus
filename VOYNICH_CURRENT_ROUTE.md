@@ -27,11 +27,14 @@ GDT886: f88r bothfixed6-labelrows contradict every literalEVA/exactSTA symbol
 order, also all3consensus5-per-row. oram-dary-okol forceso<d<o; topcyclet<r<l<t.
 Nativeorder+independentgraphvalidationPASS. No alphabet/meaning/newpage/rescue.
 Primary:experiments/yolo/gdt886_unknown_label_collation/REPORT.md.
-117selected asGDT887: three complete source-named Tacuinum records; shared
-lexeme dictionary +global entity-prefix change. Infer withheld corrective identity
-across all complete paragraph solutions. Source-first34/24/17 or43/33/26slots;
-no fit yet. One metadata correction: exclude6mixedframes; ZL-defined blocks,
-RFflagsabsent/ITdiffers, not all3paragraphgold.2h budget03:57–05:57UTC.
+GDT887: fixed complete Tacuinum lexeme/group compiler has0solutions. Eligible
+ZL32/IT498/RF20/consensus3; all69length-compatible reading/role cases already
+violate a repeated ordinary atom. Joint entity stage never reached; consensus
+has0lengthmatches, not independent content evidence. Input amendment excludes
+6mixedframes, uses ZL-defined blocks; RFno flags/ITdiffers. Independent source/
+complete-fit validationPASS. Broader named-network idea117 not generally refuted.
+Primary:experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md.
+No meaning, no automatic compiler repair. Next candidate not yet selected.
 115parked for source/target graph identifiability.
 GDT884: fixed Laufenberg chapter-IV intro (8 frozen strings) cannot be a fixed
 erasing STA-symbol expansion of f85r2 North block under any of 3 primary readings,

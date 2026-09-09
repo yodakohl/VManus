@@ -6,6 +6,12 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+Current2026-09-09 continuation: GDT887 fixed complete Tacuinum lexeme/group
+compiler has no eligible solution; joint identity prediction never reached.
+Independent source/fit replay PASS. Broader content/network question remains open;
+no confirmed meanings or automatic compiler successor. Primary:
+`experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md`.
+
 ### Consolidated research memory (2026-09-06; workflow, not decipherment)
 
 `research_registry/README.md` is the operational entry point for bounded search,

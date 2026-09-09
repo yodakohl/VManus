@@ -899,3 +899,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT884 | GDT884 | `UNSAT_ANALYTIC_FIXED_PASSAGE` | [report](../experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md) | 19 | 263.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT885 | GDT885 | `NO_NONTRIVIAL_REVERSIBLE_THREE_STATE_MACHINE` | [report](../experiments/yolo/gdt885_reversible_three_state_line_machine/REPORT.md) | 18 | 2.1 MiB | 1 | STRUCTURED_YOLO |
 | GDT886 | GDT886_unknown_label_collation | `EXACT_SORT_MODEL_CONTRADICTED` | [report](../experiments/yolo/gdt886_unknown_label_collation/REPORT.md) | 13 | 53.3 KiB | 2 | STRUCTURED_YOLO |
+| GDT887 | GDT887_tacuinum_joint_entry_reconstruction | `FIXED_COMPILER_NO_SOLUTION` | [report](../experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md) | 18 | 19.3 MiB | 6 | STRUCTURED_YOLO |
