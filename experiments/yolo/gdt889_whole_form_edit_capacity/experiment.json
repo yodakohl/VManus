@@ -1,0 +1,80 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact finite code-capacity bound under valid-codeword and complete one-edit assumptions; no meaning or general redundancy rejection.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt889_whole_form_edit_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt889_whole_form_edit_capacity/src/validate.py"
+  },
+  "created": "2026-09-09",
+  "dependencies": [
+    "GDT338",
+    "GDT883"
+  ],
+  "experiment_id": "GDT889",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/artifacts/SELECTED_GROUPS.json",
+      "role": "published_guarded_concordant_source",
+      "sha256": "818f646e5922538cfcff03216e2f453b69927cad866ee9d2bfcf853ca43cee8c"
+    },
+    {
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/artifacts/VALIDATION.json",
+      "role": "published_guarded_concordant_source",
+      "sha256": "52b70638316a1027b18d56a3d3e80c3bf25e25aaf29f3e9211b6e75d55bea9b1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt889_whole_form_edit_capacity/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "73dbb133c23d272203f5c2c086aedaa4c81c16e8f3a131989b324570f6903a1f"
+    },
+    {
+      "path": "experiments/yolo/gdt889_whole_form_edit_capacity/README.md",
+      "role": "source_or_artifact",
+      "sha256": "025b0b41a8d9215d12cf047cb32cdc257110593a3c0662fc264164ce51826a3e"
+    },
+    {
+      "path": "experiments/yolo/gdt889_whole_form_edit_capacity/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "5e7ed19e2438843df98c336c94e424bccabf283c90a3a1c80243b6d2a6589f75"
+    },
+    {
+      "path": "experiments/yolo/gdt889_whole_form_edit_capacity/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "a19dc6d193b95d1fd268ce449af885b6560ca961b034d92f0002da268c27960a"
+    },
+    {
+      "path": "experiments/yolo/gdt889_whole_form_edit_capacity/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "d5e860725cea23d74682f21fce108f45a95686f2250be6cba2cd2bdf59452506"
+    },
+    {
+      "path": "experiments/yolo/gdt889_whole_form_edit_capacity/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "6b89ac1f972fce97b4216695b165d7d323c9592e75e422035f5d2a0f91f4def6"
+    },
+    {
+      "path": "experiments/yolo/gdt889_whole_form_edit_capacity/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "a64fe76d4070239c97c4a8dcd81f332da4f67ce253531dce7b86eb67ef545bd1"
+    }
+  ],
+  "question": "How many distinct messages can all fixed valid whole forms carry under guaranteed context-free one-edit correction?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "whole_form_edit_capacity",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Exact whole-form one-edit-correction message capacity",
+  "updated": "2026-09-09",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
