@@ -12,8 +12,12 @@ contradicted bothways.895complete-entryCVcopylaw haszero solutions on1016
 strictcompleteSimonentries: three readingpanels haveempty mandatorydomains;
 all24consensus candidates fail forallsixvowels oncomponentlength bounds.
 Independent fullsource/domain/CVvalidationPASS; no newpage orconfirmedmeaning.
-130sourcegroundedAlberti rotor retainedraw; no nextattackselected.
-Primary: `experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md`.
+896statefulAlberti/complete-entry model alsohas0solutions on398projectedentries:
+all20indicesexcluded inthreepanels bymandatoryrundomains; consensus5remaining
+entry/indexcases havezero exactrings. Independent completevalidationPASS.
+Only thiscopy/message/source/channelconjunction excluded; generalrotor remains
+unidentified. No nextattackselected.
+Primary: `experiments/yolo/gdt896_alberti_complete_entry_rotor/REPORT.md`.
 
 ### Consolidated research memory (2026-09-06; workflow, not decipherment)
 
