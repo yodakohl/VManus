@@ -2,8 +2,8 @@
 
 Can every inherited eligible odd complete paragraph correspond to a different
 complete Simon dictionary entry under one global lossless consonant/vowel code?
-The exact contract is [src/SPEC.json](src/SPEC.json). Source pool independently frozen;
-no target fit or held access has started.
+The exact contract is [src/SPEC.json](src/SPEC.json). Source and target protocol were frozen before the complete test;
+results are in REPORT.md. No held access occurred.
 
 The source is an explicitly partial archived **eclectic edition**, originally
 based on the1510 print. Its modern editors sometimes use other witnesses and

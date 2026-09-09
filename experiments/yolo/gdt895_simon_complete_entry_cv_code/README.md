@@ -1,6 +1,6 @@
 # GDT895 — complete dictionary entries under one CV code
 
-Status: `SOURCE_FROZEN_PRETARGET`. See [REPORT.md](REPORT.md),
+Status: `ALL_FOUR_PANELS_UNSAT`; independent full validation PASS. See [REPORT.md](REPORT.md),
 [METHOD.md](METHOD.md) and [src/SPEC.json](src/SPEC.json).
 
 Acquire the fixed captures into a separate cache using src/acquire_source.py;

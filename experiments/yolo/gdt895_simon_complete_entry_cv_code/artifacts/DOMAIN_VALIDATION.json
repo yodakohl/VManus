@@ -1,0 +1,51 @@
+{
+  "schema": "GDT895_INDEPENDENT_ENTRY_DOMAIN_VALIDATION_V1",
+  "status": "PASS",
+  "source_pool_sha256": "440476367567addf11406cbc62d8d22f3c1fa42be1701190866903a101dfa28d",
+  "source_lock_sha256": "ec35b637bd891edc833648f61b57ef182802b6148b9979c1856d56a6f1fcc169",
+  "source_audit_sha256": "aaa365203d5ce33f679496388ad3e37e5446a7b70c610eff6dfcde34cedb9250",
+  "target_packet_sha256": "1b536c8f46dca72522d9cd059869a963aad124ee5da44218b886c88d91ddf2ed",
+  "result_sha256": "b7c2da998fbfed0c344665d46f396a363a550cb4b1b12d0f98770bb492191ddb",
+  "primary_implementation_sha256": "8e504c51cb2852a66921e6eee0dcee31de77ac67f26b828d63190b34d50247bd",
+  "validator_sha256": "ab768e967b75a573704be1448e831c18a8b480eda326714a661234e2f533caa8",
+  "source_entry_count": 1016,
+  "mandatory_paragraph_count": 285,
+  "reconstructed_status": "SOME_PANELS_NOT_EXCLUDED",
+  "panels": {
+    "CONSENSUS": {
+      "status": "NECESSARY_CONDITION_ONLY",
+      "paragraphs": 1,
+      "target_words": 11,
+      "empty_domains": 0,
+      "length_only_empty_domains": 0,
+      "candidate_pairs": 24
+    },
+    "IT2a": {
+      "status": "UNSAT_EMPTY_COMPLETE_ENTRY_DOMAIN",
+      "paragraphs": 259,
+      "target_words": 11071,
+      "empty_domains": 233,
+      "length_only_empty_domains": 26,
+      "candidate_pairs": 230
+    },
+    "RF1b": {
+      "status": "UNSAT_EMPTY_COMPLETE_ENTRY_DOMAIN",
+      "paragraphs": 11,
+      "target_words": 249,
+      "empty_domains": 8,
+      "length_only_empty_domains": 0,
+      "candidate_pairs": 35
+    },
+    "ZL3b": {
+      "status": "UNSAT_EMPTY_COMPLETE_ENTRY_DOMAIN",
+      "paragraphs": 14,
+      "target_words": 362,
+      "empty_domains": 12,
+      "length_only_empty_domains": 0,
+      "candidate_pairs": 56
+    }
+  },
+  "mismatches": [],
+  "method": "Every equal-length complete source/target pair checked through direct forward and reverse word dictionaries; no primary partition/check import.",
+  "claim_ceiling": "Exact complete-domain necessity only; no component-key solution, held reading or word meaning."
+}

@@ -8,10 +8,11 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 Current2026-09-09 continuation:892control capacity-stopped before cipher/fit;
 893three exact source-montage panels and ITunknown;894fixed adjacentcopy
-contradicted bothways. Confirmedmeanings remainzero.895nowprepares complete
-Simonentry equations underone global losslessCVcode, froman explicitlypartial
-archivedeclectic edition;1575fixedcaptures of5803indexedentrylinks. Source
-acquisition/independentvalidation inprogress; no895targetfit or newpage.
+contradicted bothways.895complete-entryCVcopylaw haszero solutions on1016
+strictcompleteSimonentries: three readingpanels haveempty mandatorydomains;
+all24consensus candidates fail forallsixvowels oncomponentlength bounds.
+Independent fullsource/domain/CVvalidationPASS; no newpage orconfirmedmeaning.
+130sourcegroundedAlberti rotor retainedraw; no nextattackselected.
 Primary: `experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md`.
 
 ### Consolidated research memory (2026-09-06; workflow, not decipherment)
