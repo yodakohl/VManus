@@ -25,10 +25,12 @@ Independent fullsource/domain/CVvalidationPASS; no meanings orautomaticrepair.
 398projected895entries. ZL/IT/RFall20indices lackmandatoryrundomains; consensus
 5remainingwholeentry/indexcases have0rings. IndependentcompletevalidationPASS.
 No generalrotorrefutation, meanings orautomaticrepair.
-897selected: complete LEFT/MIDDLE open starfields versus96frozenPtolemy units;
-fixed gnomonic/projective and stereographic families, whole-ink uncertainty.
-Native inventories independent; no coordinate fit yet. Budget23:38–01:08UTC;
-checkpoint00:03. Decision: GDT897 METHOD.md. Same admittedcanvas, no meaning.
+897inprogress: MIDDLE59 exceedsall96wholecatalogueunits(max45); LEFT29/30
+uncertaintyalternatives retained. Primarygnu excludesall5cases; independent
+reproduces1,4timeout. Stereo v1alltargetmasks7: uninformative, no lead.
+OnefixedBernsteinprecision amendment; unchangedboxes/source, no subdivisions;
+precisiondeadline00:24, overall01:08UTC. Sameadmittedcanvas, no meanings.
+Primary: experiments/yolo/gdt897_complete_constellation_projection_constraints/REPORT.md.
 128Llull chamber macros sourced; fixed10-letter complete-line morphism conflicts
 with882rank20 on its certificate scope. Narrow ordered-table domain remainsunbound.
 LatInfLexi excludes medieval vocabulary; no Voynich-language inference.

@@ -63,3 +63,13 @@ No star identity or classification is inferred from any geometric survivor.
 Normalized axes have different physical lengths. Before BOTH geometry families,
 use exact integer x*=7993,y*=3828, restoring a common native image metric. Omitting
 this correction would make the stereographic similarity contract invalid.
+
+## Bounded precision amendment (before refined comparison)
+V1 stereographic target tensors contain only mask7: all circle-sidedness remains
+unknown. Their compatible bijections are uninformative, not celestial leads.
+Preserve v1 unchanged. The single fixed refinement in PRECISION_AMENDMENT.json
+uses exact degree(2,2) Bernstein row controls, no subdivision, changed boxes or
+source selection. Both independent integer kernels freeze before refinement.
+Budget ends00:24 UTC for precision preparation, validation and comparison.
+Gnomonic tensors/searches are not rerun. If the refined instrument is likewise
+uninformative, stop instead of another interval or optimizer repair.

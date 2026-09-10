@@ -16,7 +16,10 @@ Independent fullsource/domain/CVvalidationPASS; no newpage orconfirmedmeaning.
 all20indicesexcluded inthreepanels bymandatoryrundomains; consensus5remaining
 entry/indexcases havezero exactrings. Independent completevalidationPASS.
 Only thiscopy/message/source/channelconjunction excluded; generalrotor remains
-unidentified. No nextattackselected.
+unidentified.897nowtests completecatalogueconstellations againstwholeopenfields.
+MIDDLE59exceedsmax45; LEFT29/30retained. Primarygnomonicall5casesexcluded;
+independently1reproduced/4timeout. Stereoallinitialtargetmasks7, uninformative.
+OnefixedBernsteinprecision amendment selectedwithinbudget; no meanings.
 Primary: `experiments/yolo/gdt896_alberti_complete_entry_rotor/REPORT.md`.
 
 ### Consolidated research memory (2026-09-06; workflow, not decipherment)

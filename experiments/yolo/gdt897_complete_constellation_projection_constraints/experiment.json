@@ -6,7 +6,7 @@
   "claim_ceiling": "Only conditional complete-field geometry; invariant compatibility is not a continuous map or celestial/linguistic identification.",
   "commands": {
     "run": "python3 experiments/yolo/gdt897_complete_constellation_projection_constraints/src/run.py",
-    "validate": "python3 experiments/yolo/gdt897_complete_constellation_projection_constraints/src/validate_geometry.py --packet experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/SEARCH_PACKET.json.gz"
+    "validate": "python3 experiments/yolo/gdt897_complete_constellation_projection_constraints/src/validate_results.py"
   },
   "created": "2026-09-09",
   "dependencies": [
@@ -19,17 +19,32 @@
     {
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/METHOD.md",
       "role": "source_or_artifact",
-      "sha256": "a784ba13e5a5e32b10c6d0a9e8f7d2d03e9720b9d5ac4c9014743350f16ece47"
+      "sha256": "f25e00eaad7513e37025f6e81f1c90019d4b89ea7ec1249ca4b4f46b85102167"
     },
     {
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/README.md",
       "role": "source_or_artifact",
-      "sha256": "848d19b1c795336c02240d90f8ae9572d5e0489dfdaf021a1071fed861fbceee"
+      "sha256": "a0483cf482b239924fd8c2628d3fd7d23a277eeb989366003f10d90fb2952d16"
+    },
+    {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/REPORT.md",
+      "role": "primary_report",
+      "sha256": "bbc51cc6bcadae1aa208a363b5e497ca5b5fb4672dd7b7065c7796f0fe35ad5c"
     },
     {
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/GEOMETRY_PREPARATION.json",
       "role": "source_or_artifact",
       "sha256": "930ed983159b8de2159216a273e216420008fbd9f0cbe0abb708d5aa702721a4"
+    },
+    {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/GEOMETRY_VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "0b1d18032e5dc324be5f41b9f9c3285b2daf18af4bfb37542697ae07db675c6d"
+    },
+    {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/INDEPENDENT_RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "d6ca174ad1df0b343c2803897292b5a01592ea903f88fea5f1f734899464b859"
     },
     {
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/OBSERVER_INDEPENDENT.json",
@@ -47,9 +62,29 @@
       "sha256": "c0accdc4db66f873640cc805b5b9d984b93fad660c0b5a11272a6b6248247466"
     },
     {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/PRECISION_AMENDMENT.json",
+      "role": "source_or_artifact",
+      "sha256": "7abb484e014cd58d0986366c0062fb9d3c7a41249b32220c824a78f811c6f5b2"
+    },
+    {
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "5446d078b4d30bc8fffc520f0a5ed6b20e7b71515428206b9aca2367edeeb80f"
+    },
+    {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "43e6d14872fff81d8b4c6e509d533e3d9e2eaf7df7ca8aeb3cb9c3c639f28776"
+    },
+    {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/RESULT_VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "da52230df3cdd239e717d184cf241072646ee6933c99376b024d729c38cab826"
+    },
+    {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/SEARCH_PACKET.json.gz",
+      "role": "source_or_artifact",
+      "sha256": "c1e874daee4c5c56cb2fdef22ae37f6f70e897a80838eddd56b81fbcbcb90ac8"
     },
     {
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/SEARCH_PREPARATION.json",
@@ -77,6 +112,16 @@
       "sha256": "374c61011598ace6d97cddd5dedeece834f881cfdb86f95e2915b7474e8933dd"
     },
     {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/bernstein.cpp",
+      "role": "source_or_artifact",
+      "sha256": "547148ff0c2eda1c4971463417092f1d576d62b277a324aeb5f9e9be8a75074c"
+    },
+    {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/bernstein_reference.cpp",
+      "role": "source_or_artifact",
+      "sha256": "525bda71cf7f0eee4b324bc3d2c321ae8d31957f2f452ee480cfb4adc1f5ba3f"
+    },
+    {
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/check_search.py",
       "role": "source_or_artifact",
       "sha256": "96456bef0dcd227d69acf0adf451dc60aaee5abc5b2dd6ce36101a9b094d6d96"
@@ -97,6 +142,11 @@
       "sha256": "67f605ea8b1fa3f0c175b1d4cb861886dad59b33e571a24f3e5689eac24ececf"
     },
     {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/prepare_refined.py",
+      "role": "source_or_artifact",
+      "sha256": "d244d5c72942a878968b92db00d926170061269378d3091b1f777257d846488a"
+    },
+    {
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/run.py",
       "role": "source_or_artifact",
       "sha256": "6ebe3fe56b0851d5efaae2be769a1dbffdf24e573bdc4016980e1c01596eb415"
@@ -105,6 +155,11 @@
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/run_independent.py",
       "role": "source_or_artifact",
       "sha256": "e2a1b55a48d128fd6f881f1257569f314479234715f7a31f4070db815772b01d"
+    },
+    {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/run_refined.py",
+      "role": "source_or_artifact",
+      "sha256": "39ddf24a3a9824c75d89fed5786e65011da00ef638e906201aea357e3090562a"
     },
     {
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/search.cpp",
@@ -120,6 +175,11 @@
       "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/validate_geometry.py",
       "role": "source_or_artifact",
       "sha256": "7b00187d8c9c93bd820eea5d3a627e1b088d5f97159d4d5130e53278cafb5b77"
+    },
+    {
+      "path": "experiments/yolo/gdt897_complete_constellation_projection_constraints/src/validate_results.py",
+      "role": "source_or_artifact",
+      "sha256": "d769aff0ab5fcb66a0c7e5931dcb5735ea20fa857c96442a2a1c015f5d1e872c"
     }
   ],
   "question": "Can either entire open star field equal a complete catalogue constellation under one fixed projection?",
@@ -129,11 +189,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "complete_constellation_projection_constraints",
-  "status": "REGISTERED_GEOMETRIC_COMPARISON_UNRUN",
+  "status": "GNOMONIC_PRIMARY_UNSAT_STEREO_UNINFORMATIVE",
   "title": "Complete stellar fields under fixed historical constellation projections",
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt897_complete_constellation_projection_constraints/artifacts/RESULT_VALIDATION.json",
+    "status": "PASS"
   }
 }
