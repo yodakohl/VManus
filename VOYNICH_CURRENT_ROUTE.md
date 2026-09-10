@@ -2,10 +2,11 @@
 Updated: 2026-09-10. Read first.
 
 ## Latest completed continuation and next selection
+907closed:line-seam joins ZL55/52.919expected,IT48/47.529,RF41/38.252;tails.2782/.5042/.2442.26all3samepairs22leaves;independent replayPASS;nohyphenation/meaning.
+RFno paragraphflags;metadata runs not native boundaries;noautomatic joins. Primary:experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md.
 
-906closed:all439399primary+independentCOMPLETE/0CFG;allkeysetsagree.
-3lexicalcases=2knownf103r/vkeys;ZLduplicatesIT;fixed905scopeexhausted.
-Report:experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md;0meanings.
+906closed:all439399primary+independentCOMPLETE/0CFG;allkeysetsagree;3lexicalcases=2knownf103r/vkeys;ZLduplicatesIT;fixed905scopeexhausted;0meanings.
+Primary:experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md.
 892capacity stop before key/cipher: fixed source212 length-eligible,24 lexical,
 22 grammar;12 discovery+9 held, below registered12+12. Full source exhausted.
 425561referenceforms/CV:controlrecoveryuntested;905targetconstructionabove.
@@ -213,7 +214,6 @@ GPU/subagents authorized; no other LLM API keys or public decipherment searches.
 Use primary internal evidence and established manuscript/history context.
 
 841–843 stopped; lookup for native star observations. No meaning or regrading.
-
 ## Controls
 
 837–840 closed; no decoder successor or general boundary/cipher rejection.

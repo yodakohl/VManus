@@ -6,6 +6,12 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT907:complete line-seam join census, ZL55/52.919expected,IT48/47.529,RF41/38.252;
+exploratory tails.2782/.5042/.2442.26all3samepairs22leaves21wholes,
+no hyphenation/meaning identification. Independent source/matrix/null replayPASS.
+RF paragraph flags absent; metadata runs not native boundary confirmation.
+Primary:experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md. No automatic joins.
+
 GDT906closed:all439399primary+independentCOMPLETE,exactkeysets/CFGagree;0CFGkeys.
 3lexicalcases=2knownf103r/vpassages;ZLduplicatesIT,allCFG-rejected.
 26483reused/412916new,unchanged905scopeexhausted;0meanings/generalrefutation.
