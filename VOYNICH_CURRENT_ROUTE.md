@@ -36,8 +36,8 @@ Originaldiplomatictext/orderunresolved; conditionalCHDmodelonly, no meanings.
 899closed:24wholeMS/MJconditiontraces;6headersALLUNKNOWNbothengines.
 No key/exclusion/projections; no automatic source/compiler/solverrepair.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
-901selected:complete22-pitch operationalmusicnetwork;10root/affixrolepartitions
-frozenbeforefit; all10ITnecessarydomains survive. Fulljointsolverready; no key.
+901closed:all10complete22pitchrolecasesUNSAT; independentcount/head-onlyagrees.
+No order/morphology needed forexclusion; no meanings orautomaticrepair.
 GDT882:413all3-concordant lines43leaves20literal characters; integer lattice
 Z^20, index1; independent C D=I verificationPASS. No nonzero fixed additive
 whole-line rule over any abelian group on this literal scope. Evenleavesunread.

@@ -15,3 +15,7 @@ The runner launches ten cases, two solver workers each, with a shared per-case
 1800-second construction/fit/projection limit and 20-second cleanup allowance.
 `src/selftest_fit.py` checks complete synthetic witnesses, impossible order and
 shared-root cases, independent alternative queries, and an exhaustive tiny oracle.
+
+Result validation: `python3 experiments/yolo/gdt901_solmization_joint_relational_lexicon/src/validate_results.py`.
+`artifacts/FULL_RESULT.json` aggregates both independent fixed-case executions;
+`artifacts/RESULT.json` retains the earlier necessary-domain outcome unchanged.

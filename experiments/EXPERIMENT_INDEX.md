@@ -913,4 +913,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT898 | GDT898_complete_cisiojanus_cycle | `CONDITIONAL_EDITED_SOURCE_ALL_THREE_PANELS_UNSAT` | [report](../experiments/yolo/gdt898_cisiojanus_complete_cycle_compositional_code/REPORT.md) | 13 | 53.8 KiB | 2 | STRUCTURED_YOLO |
 | GDT899 | GDT899_COMPLETE_MODEL_RESULT | `ALL_SIX_HEADERS_UNKNOWN_BOTH_ENGINES` | [report](../experiments/yolo/gdt899_astrolabium_joint_condition_program_code/REPORT.md) | 35 | 910.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT900 | GDT900_COMPLETE_MODEL_RESULT | `ALL_FOUR_PANELS_UNSAT_INDEPENDENTLY_PROVED` | [report](../experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/REPORT.md) | 24 | 8.5 MiB | 1 | STRUCTURED_YOLO |
-| GDT901 | GDT901_NECESSARY_DOMAINS_SURVIVE | `FULL_MORPHOLOGICAL_SOLVER_REQUIRED` | [report](../experiments/yolo/gdt901_solmization_joint_relational_lexicon/METHOD.md) | 77 | 5.7 MiB | 2 | STRUCTURED_YOLO |
+| GDT901 | GDT901_COMPLETE_MODEL_RESULT | `ALL_TEN_CASES_UNSAT_INDEPENDENT_COUNT_HEAD_CONFIRMATION` | [report](../experiments/yolo/gdt901_solmization_joint_relational_lexicon/REPORT.md) | 112 | 5.8 MiB | 2 | STRUCTURED_YOLO |

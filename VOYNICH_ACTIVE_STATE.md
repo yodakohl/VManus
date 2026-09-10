@@ -6,10 +6,9 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-GDT901selected:complete22pitch/42membership/52mutation sourcegraph independently
-collated;35semanticatoms416positions and10morphologicalrolepartitions frozen.
-All10ITnecessarydomains survive independently. Completejointsolverready;
-sharedroot/affixlexicon andwholeparagraph assignments unknown; no meaning.
+GDT901closed:all10complete22pitchrolepartitions UNSAT inbothindependentengines.
+The count/head-only modelalreadyexcludesall10; morphology/ordernotneeded.
+Source/role/input/resultauditsPASS; no meanings, helddata orautomaticrepair.
 
 GDT900closed:all576completeCumanicustable cases excluded; independent720component
 whole-windowproofPASS. Fourdeletionvariants3unitizations12sharedtraversals; no
