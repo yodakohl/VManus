@@ -1,0 +1,62 @@
+{
+  "schema": "GDT901_INDEPENDENT_CODE_REVIEW_V1",
+  "status": "PASS_WITH_SCOPE_LIMITS",
+  "reviewed_utc": "2026-09-10T02:44:57.791841+00:00",
+  "fit_sha256": "29d730bfe2a81ee08ca7d4df9f0fe72da2c4f69c90e8edae5b7a1b19a6b6ce4a",
+  "runner_sha256": "913474b924349cb22070335d25db47009b7ac49dcbd151cee177897028188266",
+  "review_scope": "Independent mathematical and source-code inspection of the finite morphology/count/lazy-cut model, plus five invented executable checks. No actual target domain or fit was invoked by this reviewer.",
+  "findings": [
+    "All word factorizations use every 0<=i<j<=len(word), preserving a nonempty root and possibly empty affixes.",
+    "Semantic-root variables are shared by family and semantic value; prefix/suffix variables are shared by family and global role class. No extra root/affix distinctness or boundary gauge restriction is introduced.",
+    "Global form injectivity, distinct record paragraphs, exact first-word heads and positive/zero occurrence-count tables implement the registered necessary model.",
+    "Every retained full witness is replayed by complete global-word-type projection and by its morphology equations.",
+    "Each invalid binary projection adds only its necessary record-paragraph/form-A-value/form-B-value forbidden tuple.",
+    "Queries clone the original model plus globally necessary cuts; the one alternative-value restriction is not retained for subsequent queries.",
+    "Fixed source, target, separate model-specification, role-compiler and frozen domain-gate hashes are now enforced before CP model construction; each compressed domain artifact is bound to the frozen gate receipt.",
+    "Timeout and non-feasible solver statuses remain UNKNOWN; an unreplayed count-model candidate is not returned as a valid witness."
+  ],
+  "corrected_before_fit": [
+    {
+      "issue": "Initial main function merely recorded current input hashes without enforcing the frozen source/model/target/domain bindings.",
+      "resolution": "Reviewed updated fixed hash gates and per-case compressed domain binding; scientific model unchanged."
+    }
+  ],
+  "independent_invented_checks": [
+    {
+      "name": "NONEMPTY_REFERENCE_CLASS_AFFIXES_SAT",
+      "fixture": "Roots x/y; class0 forms ax/ay; class1 forms bx/by; two complete records.",
+      "result": "SAT, retaining solutions excluded by an invalid empty-reference-affix gauge."
+    },
+    {
+      "name": "QUERY_RESTRICTION_NOT_RETAINED",
+      "fixture": "Forbid the first witness root value in the preceding model, then requery the unrestricted model.",
+      "result": "Restricted query UNSAT; unrestricted query SAT again."
+    },
+    {
+      "name": "CROSS_FAMILY_EQUAL_ROOTS_SAT",
+      "fixture": "Pitch form ax and voice form bx, with both root variables fixed to the same nonempty string x.",
+      "result": "SAT; no unregistered cross-family root AllDifferent."
+    },
+    {
+      "name": "EXACT_COUNTS_WRONG_ORDER_LAZY_UNSAT",
+      "fixture": "Fixed A=a,B=b,C=c; source A B A C; paragraph a c a b.",
+      "result": "UNSAT after at least two solver rounds and a necessary binary cut."
+    },
+    {
+      "name": "BACKGROUND_GLOBAL_WORD_TYPE_UNSAT",
+      "fixture": "Sources A B and D C; paragraphs a b c and d c; fixed global a/b/c/d values.",
+      "result": "UNSAT; c cannot be treated as local background in the first record."
+    }
+  ],
+  "execution": "Python3 with separately prepared OR-Tools dependencies; only invented inputs were passed to ExactModel.",
+  "proof_of_binary_cuts": "With equal individual multiplicities, two unequal words have unequal next symbols A/B after their longest common prefix. Their projections to {A,B} then differ. Therefore individual counts and all binary projections determine the complete projected word. A violated pair forbids the specific paragraph and two word values independently of other values and of any particular factorization.",
+  "limits": [
+    "The executable fixtures supplement bounded code inspection; they are not a general formal verification of OR-Tools or every possible solver input.",
+    "All value and paragraph queries in fit.py are conditional on one fixed role partition. Cross-partition universal claims require comparison over the complete ten-case union using semantic roles, not merely matching class-index form names.",
+    "A complete surface lexicon does not imply identified root boundaries or affixes; the model includes their finite factorization ambiguities.",
+    "Model construction itself is not interruptible by its internal query deadline. The runner supplies an outer process timeout; a killed or absent result must remain unresolved.",
+    "No primary manuscript fit or independent full negative result validation was performed in this code review."
+  ],
+  "target_fit_invoked": false,
+  "primary_edited_by_reviewer": false
+}

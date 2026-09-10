@@ -1,0 +1,32 @@
+{
+  "schema": "GDT901_INDEPENDENT_PANEL_CAPACITY_V1",
+  "source_sha256": "0daf60d86d63ec371137378310871dd0f3bc0b7d16ac78770986b66647fe5d65",
+  "model_spec_sha256": "119be016d348b28d0915792bdb59a2c4f40496ed821be9c5fcddae2c2856b17a",
+  "target_sha256": "6244c721c3d48c88a8a855e1dea038a39d3f0b291493d333fa28f8458d9f3544",
+  "required_distinct_paragraphs": 22,
+  "panels": {
+    "CONSENSUS": {
+      "paragraphs": 1,
+      "distinct_ids": 1,
+      "capacity_failure": true
+    },
+    "IT2a": {
+      "paragraphs": 259,
+      "distinct_ids": 259,
+      "capacity_failure": false
+    },
+    "RF1b": {
+      "paragraphs": 11,
+      "distinct_ids": 11,
+      "capacity_failure": true
+    },
+    "ZL3b": {
+      "paragraphs": 14,
+      "distinct_ids": 14,
+      "capacity_failure": true
+    }
+  },
+  "proof": "An assignment of22 distinct source records to distinct complete target paragraphs requires at least22 available paragraphs in that same panel; role partitions do not change the record count.",
+  "attempted_domain_panel": "IT2a",
+  "other_panels_fit": false
+}

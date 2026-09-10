@@ -8,7 +8,8 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 GDT901selected:complete22pitch/42membership/52mutation sourcegraph independently
 collated;35semanticatoms416positions and10morphologicalrolepartitions frozen.
-One sharedroot/affixlexicon andwholeparagraph assignments unknown; no meaning.
+All10ITnecessarydomains survive independently. Completejointsolverready;
+sharedroot/affixlexicon andwholeparagraph assignments unknown; no meaning.
 
 GDT900closed:all576completeCumanicustable cases excluded; independent720component
 whole-windowproofPASS. Fourdeletionvariants3unitizations12sharedtraversals; no

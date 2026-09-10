@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Complete necessary domains for all ten preregistered morphology cases."""
-import hashlib,json
+import gzip,hashlib,json
 from pathlib import Path
 from source import load
 from role_source import CASES,compile_case
@@ -13,7 +13,7 @@ def main():
  for panel,rows in target['panels'].items():
   for i,case in enumerate(CASES):
    compiled=compile_case(source,case);r=build(compiled,rows)
-   file=BASE/'artifacts'/f'DOMAINS_{panel}_{i:02}.json';file.write_text(json.dumps(r,ensure_ascii=False,separators=(',',':'))+'\n')
+   file=BASE/'artifacts'/f'DOMAINS_{panel}_{i:02}.json.gz';file.write_bytes(gzip.compress((json.dumps(r,ensure_ascii=False,separators=(',',':'))+'\n').encode(),mtime=0))
    results.append({'panel':panel,'case':i,'role_partition':case,'status':r['status'],
        'available':r['available'],'required':r['required'],'form_count':len(compiled['atoms']),
        'empty_forms':r.get('empty_atoms',[]),'artifact':file.name,'artifact_sha256':hashlib.sha256(file.read_bytes()).hexdigest()})

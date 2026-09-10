@@ -98,3 +98,15 @@ is not a morphological witness. Union exclusion requires everycase tofail.
 A unique complete surfacelexicon need not identify its stem/affix factorization.
 Those parameters must be separately projected before any stemmeaning claim; a
 first factorization or an arbitrary canonical boundary cannot establish one.
+
+Implementation checkpoint before the full fit: all10 IT histogram domains
+survive, independently reproduced; otherpanels have fewer than22paragraphs.
+The unchanged10cases run concurrently, each with1800seconds total including
+model construction, necessary cuts and projections, two CP-SAT workers percase.
+Outer cleanup allowance20seconds, no restart. OR-Tools9.14.6206; independent
+Z3 count/head relaxation runs10cases withoneworker each,1200seconds including
+construction. At most30 solverworkers combined. Its SAT is relaxationonly;
+its UNSAT excludes that completecase. Fullmodel UNSAT requires the exact primary
+encoding; independently replayed positive witnesses and necessary cuts do not
+constitute independently proved universal solverresults. Exact necessary-domain
+JSON bytes are stored with deterministic gzip compression; no value changed.
