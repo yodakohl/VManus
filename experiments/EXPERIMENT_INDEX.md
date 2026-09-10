@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **910**
-- Experiment-associated tracked files: **17,260** (1.5 GiB)
-- Structured GDT337+ experiments: **575**
+- Experiments indexed: **911**
+- Experiment-associated tracked files: **17,292** (1.6 GiB)
+- Structured GDT337+ experiments: **576**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT912 | GDT912_f1r_progressive_key | `SOURCE_TABLE_INCOMPLETE_NO_BODY_TEST` | [report](../experiments/yolo/gdt912_f1r_progressive_key/REPORT.md) | 32 | 18.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT911 | GDT911_syllabic_metre_identifiability | `EXPOSED_SIX_VERSE_COLLISION_CONFIRMED` | [report](../experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md) | 17 | 2.5 MiB | 4 | STRUCTURED_YOLO |
 | GDT910 | GDT910_short_long_context_substitution | `NO_RECURRENT_SHORT_LONG_RULE` | [report](../experiments/yolo/gdt910_short_long_context_substitution/REPORT.md) | 19 | 6.8 MiB | 4 | STRUCTURED_YOLO |
 | GDT909 | GDT909_complete_worked_division_chains | `NO_FIXED_TEMPLATE_CHAIN` | [report](../experiments/yolo/gdt909_worked_division_chains/REPORT.md) | 14 | 92.2 KiB | 2 | STRUCTURED_YOLO |

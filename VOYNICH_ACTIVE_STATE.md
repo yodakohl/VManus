@@ -6,6 +6,8 @@ Updated: 2026-09-10. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT912: f1r marginal source checkpoint incomplete for both readers;24published display slots are not a complete26-row native table. Wrong calibration crop corrected and retained separately. No body query/progressive-key test/meaning; missing data, not cipher refutation. Visual48keys/54selectors,2remain. Primary:experiments/yolo/gdt912_f1r_progressive_key/REPORT.md.
+
 GDT911: source-exposed Macer716–721 control; two injective syllable keys yield identical43word/92syllable/74typecipher with frigida/fervida cold/hot contrast and six scans. Incomplete prescription edge; no blind recovery or Voynich test. No metre-based semantic promotion; general joint/held design untested. Primary:experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md.
 
 GDT910:1-to2/3-group exact-flank discovery40selectors;243ZL381IT151RFproperrules,0two-context recurrence;48transferselectorsunqueried. IndependentPASS;noabbreviation/meaning;noautomaticbroadening. Primary:experiments/yolo/gdt910_short_long_context_substitution/REPORT.md.

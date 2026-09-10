@@ -1,6 +1,7 @@
 # Voynich current route
 Updated: 2026-09-10. Read first.
 ## Latest completed continuation and next selection
+GDT912: f1r marginal source checkpoint incomplete for both readers;24published display slots are not a complete26-row native table. Wrong calibration crop corrected and retained separately. No body query/progressive-key test/meaning; missing data, not cipher refutation. Visual48keys/54selectors,2remain. Primary:experiments/yolo/gdt912_f1r_progressive_key/REPORT.md.
 GDT911: source-exposed Macer716–721 control; two injective syllable keys yield identical43word/92syllable/74typecipher with frigida/fervida cold/hot contrast and six scans. Incomplete prescription edge; no blind recovery or Voynich test. No metre-based semantic promotion; general joint/held design untested. Primary:experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md.
 GDT910:1-to2/3-group exact-flank discovery40selectors;243ZL381IT151RFproperrules,0two-context recurrence;48transferselectorsunqueried. IndependentPASS;noabbreviation/meaning;noautomaticbroadening. Primary:experiments/yolo/gdt910_short_long_context_substitution/REPORT.md.
 GDT909:complete fixed-template division chains:ZL14/IT259/RF11paragraphs,8/367/9partitions;0requiredrole-transfer candidates. IndependentPASS;no arithmeticfit/prediction/meaning. Fixedmodelonly;no automatictemplate/windowrepair. Primary:experiments/yolo/gdt909_worked_division_chains/REPORT.md.
@@ -132,7 +133,7 @@ Root native lowerf2r15visible signs insidegreenleaf; Bmislocalizedprose then
 couldnotresolvefainttarget. No two-viewer confirmation orpaint chronology.
 qc3/qc4locationclaim superseded byqe2_f2r15_wrong_region_correction.md.
 Separate f2r14ytoail is caption-like; bothinscriptions' meanings unknown.
-Currentvisual47keys/53selectors,3remain. Admission below.
+Current visual48keys/54selectors,2remain after GDT912 f1r marginal admission.
 User-requested available-observation search:qg3_available_observation_search.md.
 Fourwrittenvaluecells fitgradeandquantity; starcounts supplyvisiblevariable,
 notselectedwordrule; okal/dakocth/carrier examples lackdecisivereferentcontrast.
@@ -145,14 +146,12 @@ f82r33all3definite; f5r6ZL/IT,ZLuncertain. shol kaiin onlyitsABAB in179scope.
 No sharedlongerimmediateformula/meaning; qi1_pair_context_followup.md.
 QJ parks selectedQH/QI repeat/framebranch:642/761alreadygrid/sharedcontexts,
 no independentsemanticcontrast. Reopenconditions:qj1_text_pattern_branch_decision.md.
-
 Completed4h2026-09-08:research_registry/decisions/semantic_4h_followon_session.md.
 No next semantic experiment selected;47rawproposals remainunreviewed.
 111raw/110unique;57method;87/102/104/105/110/111semanticnot-tested.
 No automatic decoder/control/atlas follow-on.
 3946semantic variants/266formal cards;4893sourcecases;162scopedquestions.
 Thisinterval recovered2historicalfinite models with20+28applications, notnewmeanings.
-
 872:198rawanchors;1930opportunities178hits;all3diagnostic274/31.
 Distal51/529forward vs66/646backward: nooverallforwarddensityexcess.
 CHcomposition41/51vs36/66primaryonly;strictdiagnosticdoesnotrepeatdirection.
@@ -264,6 +263,7 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
   GDT881: `experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/src/PAGE_ADMISSIONS.tsv`.
   User-directed f2r question adds f2r:47keys/53selectors,3remain; admission:
   `docs/visual_overview/F2R_USER_QUESTION_ADMISSION.md`.
+  GDT912 adds f1r margins only: experiments/yolo/gdt912_f1r_progressive_key/src/PAGE_ADMISSIONS.tsv.
   Register before any new page access.
 - Cached NVA002/EBA001: ten MSI folios already routed; repeated UV traces leave material role unresolved. No new layer located.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually

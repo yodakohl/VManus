@@ -1,0 +1,44 @@
+{
+  "reviewer": "root_with_independent_source_exposed_native_reader",
+  "scope": "semantic",
+  "verdict": "inconclusive",
+  "assessment_basis": "primary_public_figure_and_one_native_product_checkpoint",
+  "reason": "GDT912 preserves 24 editorial display rows with explicit unknowns. Both source-exposed native readers failed to certify a complete single-valued table. No body test or meaning; the original mislocalized calibration crop is input error, not absent-ink evidence.",
+  "blockers": [
+    {
+      "code": "missing_data",
+      "status": "unresolved",
+      "summary": "Complete native table and row/unit identification not recovered.",
+      "evidence": [
+        "experiments/yolo/gdt912_f1r_progressive_key/REPORT.md",
+        "experiments/yolo/gdt912_f1r_progressive_key/src/READER_A_LOCALIZED.json",
+        "experiments/yolo/gdt912_f1r_progressive_key/src/READER_B_LOCALIZED.json"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "status": "unresolved",
+      "summary": "Later marginal letter proposals do not establish an authorial key or transferable meanings.",
+      "evidence": [
+        "experiments/yolo/gdt912_f1r_progressive_key/METHOD.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "condition": "Independently qualified complete table plus evidence that its middle units correspond to the main script; any new body model requires a prospective discriminating test.",
+        "evidence": [
+          "experiments/yolo/gdt912_f1r_progressive_key/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Interpolated missing letters, a desirable Latin phrase, another unregistered processing/phase repair, or the inherited complete26-row summary."
+    ]
+  },
+  "relations": [],
+  "record_id": "ANCHOR:F1R_LATER_ALPHABET_TABLE"
+}
