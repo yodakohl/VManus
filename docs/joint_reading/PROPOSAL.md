@@ -289,3 +289,27 @@ checkpoint23:18 before target access, latest target start23:38, at most300second
 per panel per independent implementation. No new pages, source, LM or coverage
 relaxation; full contract in896/METHOD.md. This is a conditional source-equation
 test, not an inference that the manuscript uses the later Alberti cipher.
+
+
+GDT905 decision, 2026-09-10 05:50 UTC, new explicit user construction task:
+Select a bounded exploratory manuscript construction under the UNCHANGED892
+CV channel,425561-word reference and frozen feature grammar.892 never ran a
+cipher fit; its12+9 capacity stop remains, with no threshold/source repair or
+claim of a passing control.832/837 wrong high-score keys motivate exact
+constraint satisfaction with all surviving readings retained, no fluency winner.
+Unlike895, no complete source entry is assumed; the unknown plaintext is generated
+from the fixed word/grammar constraints. This is explicit hypothesis generation,
+not a semantic validation successor or permission to evaluate held folios.
+Use the already published904 odd-leaf paragraph intake. Select whole paragraphs
+with12..24 raw groups, every selected reading preserved separately. Enumerate
+all global1/2-codeword segmentations per complete paragraph, then exact shared
+component keys and full grammar acceptance. No source word deletion, target
+window, private word code or later character/grammar repair. Compatible keys
+provide concrete whole-passage candidates; ambiguity/timeout stays explicit.
+A candidate changes the next decision only by supplying a fully stated key whose
+additional consequences can subsequently be assessed. Empty domains stop this
+fixed construction scope; timeout stops optimization. No translated-meaning
+claim without separately justified independent evidence and applicable gates.
+Budget40min through06:30UTC including implementation, independent validation and
+publication. First target scan by06:02; stop all search06:17. No new images,
+even-leaf bodies, f84/f84r or control truth. Protocol905/METHOD.md fixes details.

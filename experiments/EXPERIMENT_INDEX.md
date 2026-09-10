@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **903**
-- Experiment-associated tracked files: **17,079** (1.5 GiB)
-- Structured GDT337+ experiments: **568**
+- Experiments indexed: **904**
+- Experiment-associated tracked files: **17,087** (1.5 GiB)
+- Structured GDT337+ experiments: **569**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT905 | Constructive complete-passage CV hypotheses | `REGISTERED_UNSCORED` | — | 8 | 23.9 KiB | 7 | STRUCTURED_YOLO |
 | GDT904 | GDT904_COMPLETE_MODEL_RESULT | `FULL_VINIDARIUS_WORD_CODE_EXCLUDED` | [report](../experiments/yolo/gdt904_vinidarius_complete_relational_register/REPORT.md) | 21 | 3.4 MiB | 2 | STRUCTURED_YOLO |
 | GDT882 | GDT882_additive_line_lattice | `NO_NONZERO_FIXED_ADDITIVE_LINE_INVARIANT` | [report](../experiments/yolo/gdt882_additive_line_lattice/REPORT.md) | 15 | 604.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT878 | GDT878_text_picture_combination_feasibility | `STOP_NOMINATED_JOINT_ENTRIES_NO_CROSSED_CONSTRUCTION_OR_REUSABLE_BINDING` | [report](../experiments/yolo/gdt878_text_picture_combination_feasibility/REPORT.md) | 15 | 80.7 KiB | 4 | STRUCTURED_YOLO |

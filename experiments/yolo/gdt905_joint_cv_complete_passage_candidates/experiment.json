@@ -1,0 +1,130 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory candidate construction; GDT892 control remains unvalidated; no meanings or held data.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/run.py",
+    "validate": "python3 experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/validate.py"
+  },
+  "created": "2026-09-10",
+  "dependencies": [
+    "GDT832",
+    "GDT837",
+    "GDT887",
+    "GDT888",
+    "GDT892",
+    "GDT895",
+    "GDT904"
+  ],
+  "experiment_id": "GDT905",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/core.py",
+      "role": "unchanged_source_or_channel",
+      "sha256": "832651909344428b41c63b817170f6bae1427ae55b78aaa1de138bf02b997abe"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/csp.py",
+      "role": "unchanged_source_or_channel",
+      "sha256": "bf574eadbeb78eee2acaef5ab91fc579ecc241c9f00b3f5297b538044ec03ff0"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/grammar.py",
+      "role": "unchanged_source_or_channel",
+      "sha256": "2bf93ef6a5f5e7ab5bf172da077a05298927f0d51080d2e2c345e07122f206d7"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/maskscan.cpp",
+      "role": "unchanged_source_or_channel",
+      "sha256": "dd226fa65087e2adcfd079d4c3400f4d130cf07036d7f1cf51b6e544d0635d14"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/prepare.py",
+      "role": "unchanged_source_or_channel",
+      "sha256": "c9fa79fba1b9476e4d286122af1e39956dab53f27f979508b004aaf7f2994c4c"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/SPEC.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "94f6e46d1f28abf378c7cc760d329a30ef0b73890c6fe6f0be9e02d548ab57cd"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/REFERENCE.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "f27b20f5c5f80fdc1d03965ba33154a1dc2105c04b72c7ce76cf54359001ebea"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/SOURCE.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "5a4c91a0b1ac9c0e5c60752e5186fcbb24ccf60861b29910f9067630ca0121bc"
+    },
+    {
+      "path": "experiments/yolo/gdt904_vinidarius_complete_relational_register/src/run.py",
+      "role": "unchanged_source_or_channel",
+      "sha256": "306ac6509b09a8dffec51c08f5578ce3317921377d04f1f016d848cd34694cfc"
+    },
+    {
+      "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/run.py",
+      "role": "unchanged_source_or_channel",
+      "sha256": "27246148bc46599e9acaf5bb10c4bb439351d56a786080e769a11cb1d8e8f737"
+    },
+    {
+      "path": "experiments/yolo/gdt888_alphita_joint_name_incidence/artifacts/FIT_INPUT.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "2e513d772b921e9733017c7c977dd35bb554618cc589930ed4236ccd3e148625"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/METHOD.md",
+      "role": "protocol_or_source",
+      "sha256": "62527e7483902783b8a3fc229e3278ca0a72d02612d8a68a0146510807734135"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/PREREGISTRATION.md",
+      "role": "protocol_or_source",
+      "sha256": "6408eea7a8d287a0de72f5b449a504ea2695f5aaab650f99720c565739c7e8d3"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/README.md",
+      "role": "protocol_or_source",
+      "sha256": "9ee63ee51d57fe268b6c684f926cfa740a80dffaa5e02d677cd8ff7af7110ee6"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/README.md",
+      "role": "protocol_or_source",
+      "sha256": "3871d647187667136306aed5ac6b31956cd0bbe31906191fbb2eff6bd6348acb"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/PREREG_LOCK.json",
+      "role": "protocol_or_source",
+      "sha256": "79c95cef3383b7c42ae571b9c468d1513c541c15c4ba98186f973137437326be"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/run.py",
+      "role": "protocol_or_source",
+      "sha256": "6524a64a64fab2353d2ef6e190be1b03cd1b04e827c0d44406e1c4ecbee11fe9"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/validate.py",
+      "role": "protocol_or_source",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    }
+  ],
+  "question": "Does the fixed global CV channel and frozen Latin word/grammar reference construct any complete12\u201324-group odd-leaf paragraph, without a copied source passage?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "joint_cv_complete_passage_candidates",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Constructive complete-passage CV hypotheses",
+  "updated": "2026-09-10",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
