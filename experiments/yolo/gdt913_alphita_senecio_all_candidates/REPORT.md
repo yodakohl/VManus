@@ -1,3 +1,3 @@
-# GDT913 — predictions registered; bodies not yet opened
+# GDT913 — selection complete, confirmation still closed
 
-All18 frozen IT2a lexicons have complete Senecio predictions in artifacts/PREDICTIONS.tsv and .json. Six paragraphs on five physical leaves are bound. There are18 distinct complete observable predicates and4 positive-only classes. Selection:f80/f104/f112; confirmation:f108/f116. Seven candidates have confirmation capacity, eleven do not. METHOD.md fixes all evaluation rules before body access. No observed results or meanings yet.
+All18 candidates contradict the fixed selection consequences: every candidate has B=0,D=0 rather than1,1. K01 also has forbidden S=1. The four selection paragraphs on f80/f104/f112 were all evaluated; the survivor set is empty and frozen in src/SELECTION_LOCK.json. Independent frozen validator PASS. Confirmation f108/f116 has not yet been opened. Predictions/code were publicly registered in d5d5cd81. No key or source changes, meanings or significance.
