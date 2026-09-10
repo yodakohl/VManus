@@ -1,0 +1,267 @@
+{
+  "schema": "VINIDARIUS_COMPILER_RECONCILIATION_M_V1",
+  "source_only": true,
+  "target_access": false,
+  "frozen_input_sha256": {
+    "A": "24677f284bfdb6bdc91cf1d9d126f760a2b7cb215645c5ba534ddc892c7e7d86",
+    "M": "dafab28e525b812ecc61b94a7f265f6289ca2eb994fe270b9b55f58b28d18016"
+  },
+  "source_raw_sha256": {
+    "pantry.html": "423b5c768884da4c624c78056e5c4cfe592ba4b06ea0c6ce8a7ca1515a29c669",
+    "recipes.html": "a61ba433da1779a727d144c70fe89836be83d76a8c23ad37c8f69f879bc34a4a"
+  },
+  "alignment": {
+    "aligned_nonordinal_tokens_in_37_segments": 1206,
+    "surface_disagreements": 0,
+    "missing_M_content_tokens": 0,
+    "A_extra_tokens": 31,
+    "extra_tokens_are_all_nonsemantic_h4_ordinals": true,
+    "storage_postlude_word_tokens": 11,
+    "postlude_text_equal": true,
+    "all_source_html_spans_checked_against_original_CRLF_preserved_bytes": true
+  },
+  "material_policy_findings": [
+    {
+      "id": "F01",
+      "priority": "REQUIRES_CORRECTION",
+      "family": "amulo / amulabis",
+      "loci": [
+        "R07",
+        "R09",
+        "R14",
+        "R15",
+        "R22",
+        "R26"
+      ],
+      "A": "One OPERATION:amulo family with6occurrences: amulabis once and amulo five times.",
+      "M": "OPERATION:amulo contains amulabis once; INGREDIENT:amulum contains amulo five times.",
+      "effect": "Changes global identity partition from6shared action occurrences to1action and5material occurrences.",
+      "adjudication": "The literal contexts amulo oryzae obligas and amulo obligabis make amulo an instrumental substance expression, while amulabis is the procedural verb. Keep the noun/verb distinction. No rice identity is inserted where oryzae is absent."
+    },
+    {
+      "id": "F02",
+      "priority": "REQUIRES_GLOBAL_LEMMA_POLICY",
+      "family": "addo / adicio",
+      "loci": [
+        "R07",
+        "R25",
+        "R31"
+      ],
+      "A": "All23addes/addis/adices/adicies occurrences share adicio.",
+      "M": "Four addes/addis belong to addo;19adices/adicies to adicio.",
+      "effect": "A merges distinct written lexical verbs, beyond transparent inflection.",
+      "adjudication": "Under the requested inflection-only policy retain addo and adicio separately. Similar operation meaning is insufficient to merge their global written atom."
+    },
+    {
+      "id": "F03",
+      "priority": "REQUIRES_GLOBAL_LEMMA_POLICY",
+      "family": "facio / fio",
+      "loci": [
+        "R24: ut spissum fiat",
+        "twelve other facio occurrences"
+      ],
+      "A": "fiat has fio;12other forms have facio.",
+      "M": "fiat shares facio with the other12forms.",
+      "effect": "Changes whether a becoming/result predicate shares the globally coded action family.",
+      "adjudication": "Explicitly choose a lexical-lemma or a passive/suppletive-paradigm convention before compilation. Preserve role difference and the actual fiat occurrence. Do not adjudicate from target fit."
+    },
+    {
+      "id": "F04",
+      "priority": "REQUIRES_GLOBAL_ORTHOGRAPHY_POLICY",
+      "family": "aspargis / adspargis",
+      "loci": [
+        "R04",
+        "R14",
+        "R15",
+        "R19",
+        "R20"
+      ],
+      "A": "All5finite forms use aspergo.",
+      "M": "Four aspargis use aspargo; one adspargis uses adspargo.",
+      "effect": "A4+1family partition becomes one5member family.",
+      "adjudication": "This is a spelling/lexical normalization decision, not a mere category-label alias. Retain exact surfaces; any merger needs explicit independently justified global orthography policy."
+    },
+    {
+      "id": "F05",
+      "priority": "REQUIRES_IDENTITY_KEY_DEFINITION",
+      "family": "folium / folia",
+      "loci": [
+        "P01",
+        "P03",
+        "R01"
+      ],
+      "A": "All5occurrences use PART:folium, with lexical-sense ambiguity recorded.",
+      "M": "Three standalone folium mentions use INGREDIENT:folium;2folia mentions use EXPLICIT_PART:folium.",
+      "effect": "If identity includes category, M splits a family that A shares. If identity is only lemma, category renaming does not split it.",
+      "adjudication": "State once whether semantic role is a separate occurrence feature or part of the global atom identity. Bare folium remains botanically unidentified; do not silently equate it with a named leaf ingredient."
+    },
+    {
+      "id": "F06",
+      "priority": "REQUIRES_COMPOUND_POLICY",
+      "family": "spica Indica; spica nardi; cepa ascalonia; pullina; copadia",
+      "loci": [
+        "P01",
+        "P03",
+        "R01",
+        "R02",
+        "R27"
+      ],
+      "A": "Several modifier/name components are INGREDIENT; M marks descriptors/parts or explicit ambiguity.",
+      "M": "Spica has2unresolved part/name occurrences; Indica/ascalonia are descriptors; copadia/copadiola are explicit cuts; pullina/pullinam remain written derived descriptors.",
+      "effect": "A purported independent ingredient Indica is not equivalent to a descriptor of spica; decomposition changes global named values and argument connections.",
+      "adjudication": "Use exact whole nominal spans and finite attachment alternatives. Do not add an unstated animal noun or botanical identity. Preserve the missing punctuation between myrtae and costum as a source-boundary uncertainty."
+    },
+    {
+      "id": "F07",
+      "priority": "REQUIRES_NUMBER_SCOPE_POLICY",
+      "family": "I.2 / una / numerals",
+      "loci": [
+        "R01: 2. Alias",
+        "R01: cum cerifolio una",
+        "R23: hemina una"
+      ],
+      "A": "The internal2is NUMERAL; both una occurrences are NUMERAL:unus.",
+      "M": "Internal2is section metadata; first una is the together-adverb, second una is a measure numeral.",
+      "effect": "Creates or removes an apparent numeric2and an apparent quantity1in recipeI.",
+      "adjudication": "Apply the same nonculinary-ordinal policy to the31h4numbers and the internal2. For cum cerifolio una, the comitative together reading is grammatically available and no hidden unit may be invented. Keep a finite explicit context alternative if cardinal scope remains disputed. Hemina una is explicit quantity1."
+    },
+    {
+      "id": "F08",
+      "priority": "REQUIRES_CLAUSE_COMPILATION_POLICY",
+      "family": "cum and finite clause predicates",
+      "loci": [
+        "R01",
+        "R02",
+        "R04",
+        "R06",
+        "R07",
+        "R08",
+        "R13",
+        "R19",
+        "R21",
+        "R22",
+        "R26",
+        "R27",
+        "R28"
+      ],
+      "A": "19cum tokens are condition markers with recorded alternatives; finite volo/habeo/coepio/etc are action candidates.",
+      "M": "Cum/support predicates are omitted atomically but retained in explicit full clause spans;10cum clauses are temporal.",
+      "effect": "Standalone-atom traces differ substantially in both count and relation identity. A flat COND-CUM interpretation would also misclassify9comitative phrases.",
+      "adjudication": "Separate9comitative noun phrases from10temporal clauses by their actual source context. Define one fixed treatment for lexical predicates in conditional/purpose spans. A local source span cannot simply become an arbitrary new clause-specific codeword."
+    },
+    {
+      "id": "F09",
+      "priority": "REQUIRES_REFERENCE_POLICY",
+      "family": "haec/omnia/suo/eius/eodem and mixture words",
+      "loci": [
+        "R01",
+        "R04",
+        "R08",
+        "R10",
+        "R12",
+        "R13",
+        "R15",
+        "R19",
+        "R20",
+        "R21",
+        "R22",
+        "R23",
+        "R24",
+        "R28",
+        "R29",
+        "R30",
+        "PANTRY_POSTLUDE"
+      ],
+      "A": "Written reference words form explicit UNBOUND_REFERENCE annotations.",
+      "M": "Most pronouns are explicitly omitted atomic function words, while complete text and relevant larger spans preserve them.",
+      "effect": "Changes the number and repeated identity of reference atoms; neither version supplies a resolved ingredient argument.",
+      "adjudication": "A finite literal trace may retain global written reference tokens without resolving antecedents. Do not invent a sauce ingredient or repeat a referenced ingredient value. Executed ingredient/quantity graphs remain undefined at these references."
+    },
+    {
+      "id": "F10",
+      "priority": "REQUIRES_QUANTITY_SERIALIZATION_POLICY",
+      "family": "mellis tertiam partem; partem aceti; similiter; ad cochleare",
+      "loci": [
+        "R01",
+        "R03",
+        "R14",
+        "R16",
+        "R24"
+      ],
+      "A": "Primarily atomic word categories; cochleare selected as UNIT provisionally.",
+      "M": "Explicit full written quantity spans plus atomic mentions; cochleare has unit/equipment alternatives.",
+      "effect": "Emitting both a phrase-specific quantity atom and all child units/numerals would double-count source structure; different implicit bases would invent semantics.",
+      "adjudication": "Use a single fixed span/child serialization, preserve the literal fraction expression, and leave its absent base unbound. A finite unit/equipment branch for cochleare is possible; no numerical capacity is licensed."
+    },
+    {
+      "id": "F11",
+      "priority": "REQUIRES_COMPLETENESS_POLICY",
+      "family": "heading descriptors and global storage postlude",
+      "loci": [
+        "R01",
+        "R02",
+        "R06",
+        "R07",
+        "R11",
+        "R13",
+        "R14",
+        "R20",
+        "R21",
+        "R24",
+        "R25",
+        "R26",
+        "R27",
+        "R28",
+        "R29",
+        "PANTRY_POSTLUDE"
+      ],
+      "A": "Unresolved title/state classes retain dish descriptors; storage postlude retained once separately.",
+      "M": "Transparent adjective forms are states; several Greek descriptors remain unresolved; same postlude retained once separately.",
+      "effect": "Dropping every unresolved title would remove written material, while duplicating the global storage instruction would fabricate multiplicity.",
+      "adjudication": "Retain finite descriptor/type alternatives without expanding a title into inferred ingredients. Compile the single written postlude exactly once as a mandatory ordered top-level component; its target-unit attachment is not yet specified."
+    },
+    {
+      "id": "F12",
+      "priority": "SOURCE_UNIT_SCOPE_FIXED",
+      "family": "37electronic segments and damagedI.2",
+      "loci": [
+        "R01",
+        "R21",
+        "R22",
+        "P01-P06"
+      ],
+      "A": "31Romanh4sections plus6pantry blocks; damagedI.2 included.",
+      "M": "Same full electronic segment content; Roman numbers held separately as metadata.",
+      "effect": "The packets do not disagree on substantive source-word content or order. The1922edition does not support an independent count of31historical recipes.",
+      "adjudication": "Keep the exact Harsch31h4contract if chosen. No silent XXI/XXII merger, no1922substitution, and no dropping the malformed raw fragment."
+    }
+  ],
+  "not_material_by_itself": [
+    "pisces versus piscis",
+    "holera versus holus",
+    "coliclos versus coliclus",
+    "nuces versus nux",
+    "Roman_I versus I",
+    "STATE versus EXPLICIT_STATE",
+    "one-occurrence deprimo versus depresso labels"
+  ],
+  "finite_compiler_answer": {
+    "finite_literal_source_compiler_possible_in_principle": true,
+    "complete_verified_compiler_now_present": false,
+    "executed_recipe_or_quantity_graph_defined": false,
+    "contract": [
+      "Freeze the37electronic segments plus the one storage postlude in their exact observed order and scope.",
+      "Use globally shared lexical families plus an explicit policy for occurrence-role features; do not create a private atom for each clause or occurrence.",
+      "Serialize every declared ingredient/part/state/operation/quantity/alternative/condition span with one global boundary/child-order rule. Do not emit a phrase and its constituent events twice by accident.",
+      "Represent each genuine source ambiguity by a finite enumerated local parse set; any shared lexical-family decision must be global, not changed per occurrence.",
+      "Every branch retains the actual written forms and source order. It may leave a reference unbound, but may not supply an unwritten ingredient, quantity base, unit or predicate.",
+      "Choose a mandatory representation for the storage postlude once. Its mapping to target units would require a separate fixed contract before a fit."
+    ],
+    "actual_remaining_gap": "Neither current annotation defines the global identity key, the complete branch inventory, or the deterministic overlapping-span serialization. Thus finite constructibility is established at the source-design level; a complete executable compiler is not yet delivered or validated."
+  },
+  "source_semantic_claims": [
+    "Malva and beta both occur once in R02, but only beta belongs to the explicit beta-sive-coliclus alternative. This additional source relation can distinguish that local pair.",
+    "Amygdala and aballana occur only once each inP05. Unordered recipe-derived relations leave their swap intact. No global graph-rigidity claim follows."
+  ],
+  "no_frozen_annotations_modified": true
+}

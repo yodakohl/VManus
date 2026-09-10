@@ -6,6 +6,10 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+IDEA136:complete6+31electronic sourcecapture/postlude independentlyaligned;
+I.2recovered,1922joinsXXI–XXII. Twelveatom/serializationchoicesremain;
+localalternativegainconfirmed. Notargetfit orsourcegatePASS; proposalparked.
+
 GDT903closed:ordinaryH=<wiwref^-1> proper,infiniteindex; independentcoresagree
 10451vertices10862edgesrank412. Explicit20permutations replayall413linesto453;
 localproofPASS. Compatibilityonly, noidentifiedrule/meaning orautomaticsuccessor.
