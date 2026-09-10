@@ -33,8 +33,8 @@ Primary: experiments/yolo/gdt897_complete_constellation_projection_constraints/R
 898closed: all28editedFebruarycells distinct; f69v14/18wholeokeodall3readings.
 InjectiveprefixcodeimpossibleforANYbijection; independentrawreplayPASS.
 Originaldiplomatictext/orderunresolved; conditionalCHDmodelonly, no meanings.
-128Llull chamber macros sourced; fixed10-letter complete-line morphism conflicts
-with882rank20 on its certificate scope. Narrow ordered-table domain remainsunbound.
+899selected:24completeAstrolabiumMS/MJ conditiontraces,61atoms independently
+collated; source/compilerfrozen. Jointprefixfreecode+paragraphassignmentfitnext.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
 User-requested10h ACTIVE research started2026-09-09 01:58:34UTC.
 Resumed16:59UTC after interruption; inactive gap does not count (active timer~3h28).

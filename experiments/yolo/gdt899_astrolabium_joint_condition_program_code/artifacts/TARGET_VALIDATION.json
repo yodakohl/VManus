@@ -1,0 +1,70 @@
+{
+  "schema": "GDT899_INDEPENDENT_TARGET_VALIDATION_V1",
+  "status": "PASS",
+  "fit_packet_sha256": "1b536c8f46dca72522d9cd059869a963aad124ee5da44218b886c88d91ddf2ed",
+  "inherited_input_lock_sha256": "4de92f3728b46c9ecb67f98da34dfea85a36fcd83af8df1226978c9814520979",
+  "target_input_sha256": "d360ccbcbae0641b33d4af5e36ae5e121baacbe482334dc2f18bc490a6f3dd40",
+  "validator_sha256": "c0084b2fe1a003890eb30e30bb6fb7b31d035471254d4ba8f2fb928bd106b137",
+  "panels": {
+    "ZL3b": {
+      "paragraphs": 14,
+      "raw_groups": 362,
+      "distinct_source_group_ids": 362,
+      "physical_folios": 7,
+      "page_selectors": 9,
+      "all_rows_exact": true,
+      "all_texts_exact_single_space_join": true,
+      "all_source_ids_bound_and_ordered": true,
+      "all_physical_leaves_odd": true,
+      "sealed_prefixes_present": false
+    },
+    "IT2a": {
+      "paragraphs": 259,
+      "raw_groups": 11071,
+      "distinct_source_group_ids": 11071,
+      "physical_folios": 36,
+      "page_selectors": 62,
+      "all_rows_exact": true,
+      "all_texts_exact_single_space_join": true,
+      "all_source_ids_bound_and_ordered": true,
+      "all_physical_leaves_odd": true,
+      "sealed_prefixes_present": false
+    },
+    "RF1b": {
+      "paragraphs": 11,
+      "raw_groups": 249,
+      "distinct_source_group_ids": 249,
+      "physical_folios": 9,
+      "page_selectors": 10,
+      "all_rows_exact": true,
+      "all_texts_exact_single_space_join": true,
+      "all_source_ids_bound_and_ordered": true,
+      "all_physical_leaves_odd": true,
+      "sealed_prefixes_present": false
+    },
+    "CONSENSUS": {
+      "paragraphs": 1,
+      "raw_groups": 11,
+      "distinct_source_group_ids": 11,
+      "physical_folios": 1,
+      "page_selectors": 1,
+      "all_rows_exact": true,
+      "all_texts_exact_single_space_join": true,
+      "all_source_ids_bound_and_ordered": true,
+      "all_physical_leaves_odd": true,
+      "sealed_prefixes_present": false
+    }
+  },
+  "checks": [
+    "Fixed frozen packet and lock byte hashes verified before target JSON parsing",
+    "Both embedded input locks equal the independently read inherited lock",
+    "All inherited paragraphs retained in exact panel order with no additions",
+    "Every raw word, group ID, paragraph ID, page and physical folio unchanged",
+    "Text is the exact reversible single-space join of complete raw groups",
+    "Every source ID has matching edition/page and increasing line/group coordinates",
+    "No duplicate paragraph IDs or overlapping group IDs within a panel",
+    "Only odd physical leaves; f84 and f84r prefixes excluded throughout",
+    "Capacity labels reproduce the mandatory 24-source-block count rule"
+  ],
+  "scope": "Independent projection replay of the already admitted odd-only GDT893 packet; inherited transcription eligibility is not re-adjudicated. Consensus retains the packet's ZL3b source-group pointers. No raw mixed source, even target, source corpus or fitted result read."
+}

@@ -1,0 +1,135 @@
+{
+  "schema": "GDT899_INDEPENDENT_SOURCE_VALIDATION_V1",
+  "status": "PASS_CONDITIONAL_SOURCE_TRACE_FIDELITY",
+  "observer": "B",
+  "sealed_utc": "2026-09-10T01:22:18.722982+00:00",
+  "source_programs_sha256": "ee1f78c739102e46db5f2dd2b0fb9c76182fff716ed4b4e4efc3e7d93308ac81",
+  "independent_fitter_sha256": "58aebf87508b09b60d6edbb929d587d860532e3734f46995213b25da7d1caea7",
+  "source_images": [
+    {
+      "leaf_index": 236,
+      "url": "https://archive.org/download/9410622.nlm.nih.gov/page/n236.jpg",
+      "sha256": "402b3cb296ceac92f30c232307a0a194bb9a68500ab320029cc6bb7e3c15ec95"
+    },
+    {
+      "leaf_index": 237,
+      "url": "https://archive.org/download/9410622.nlm.nih.gov/page/n237.jpg",
+      "sha256": "10072585b30a6b27bba1c7dd47d67bc5b2fbbbb26712511e4b31ae59969f3b13"
+    },
+    {
+      "leaf_index": 238,
+      "url": "https://archive.org/download/9410622.nlm.nih.gov/page/n238.jpg",
+      "sha256": "e36bc05dab42f6af0a4c86ef3a38c7dd1e20b30fcc3dad906a3cfea7dc5e2600"
+    },
+    {
+      "leaf_index": 239,
+      "url": "https://archive.org/download/9410622.nlm.nih.gov/page/n239.jpg",
+      "sha256": "6072d3c0e4d87c8922166456f8cf3e060b0f72ce70cc764a3871d8c1375f53e9"
+    }
+  ],
+  "observer_receipts": [
+    {
+      "name": "observer_m.json",
+      "sha256": "c0ff0950fb16b93c495b6d552bfc2626d4e3b78b60df4e46e2e1c4768019c61c"
+    },
+    {
+      "name": "observer_b.json",
+      "sha256": "14b842780e37ecf097993d307ddd0f5968e1ff2b2e99016917206ce9bbfaaafb"
+    },
+    {
+      "name": "observer_m_jupiter.json",
+      "sha256": "0034bddc4e80186f0eab293c1fbfbd9b81d8975454468240eafb795cfa5bd956"
+    },
+    {
+      "name": "observer_b_jupiter.json",
+      "sha256": "f12a881c14428ff4b191772f3f37ed16bb0042bfd68236f244706f32cbe73b0d"
+    }
+  ],
+  "program_count": 24,
+  "registers": [
+    "MS",
+    "MJ"
+  ],
+  "RET_vectors_in_printed_primary_block_order": {
+    "MS": [
+      3,
+      3,
+      1,
+      1,
+      1,
+      3,
+      2,
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "MJ": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      4,
+      2,
+      2,
+      0,
+      1,
+      0,
+      3
+    ]
+  },
+  "reference_operands": {
+    "MS11": [
+      "N05"
+    ],
+    "MS12": [
+      "N06"
+    ],
+    "MJ03": [
+      "N09"
+    ],
+    "MJ05": [
+      "N11"
+    ],
+    "MJ09": [
+      "N03"
+    ],
+    "MJ11": [
+      "N05"
+    ]
+  },
+  "checks": {
+    "all24_whole_native_house_blocks_reviewed": true,
+    "all24_event_lists_flatten_exactly_to_body_atoms": true,
+    "independent_RET_counts_and_reference_operands_match": true,
+    "all6_header_compilations_match_interface": true,
+    "four_original_image_hashes_replayed": true,
+    "four_precomparison_observer_hashes_replayed": true,
+    "target_data_read_for_validation": false,
+    "decoder_fit_performed": false
+  },
+  "source_fidelity_notes": [
+    "MS06 is one printed house6-and12 block; the later MS12 reference remains its own block. No house or mention was split off as an extra program.",
+    "MS02 sign-quality qualifier interrupts the day prognosis: two day RET spans and one night RET are correct.",
+    "MS04 retains its conflicting printed MIDHEAVEN alias; no canonical correction. MS07/MS10/MJ07 retain their actually printed positional aliases.",
+    "MS08 postposed lunar condition, MJ06 especially qualifier, MJ07 postposed aspect condition and MJ12 postposed night condition receive no invented following prognosis.",
+    "MJ07 diminution is an actual prognosis modification before its postposed condition; RET stays before that condition.",
+    "MJ12 contiguous favorable/adversative prose forms one RET before its postposed night condition. Morning/evening phase stays distinct from day/night nativity.",
+    "Jupiter forward house9/11 applicability and later backward references are all preserved; reference-only blocks have zero RET.",
+    "MJ10 MEASURE agrees with B original-image reading and root native confirmation; M initial differing seal remains preserved."
+  ],
+  "explicit_model_projections": [
+    "PARTILE in short MJ09/MJ11 headings is inherited contextual model content; not an independently written word in those two blocks.",
+    "Three header factors have one shared global order among six alternatives; this is a model serialization, not a claim that the Latin source literally uses a fixed word order.",
+    "Typed predicates, repeated operand expansion and factored unchanged context constitute an explicit source-condition projection, not diplomatic Latin transcription.",
+    "RET is a shared opaque prognosis-return marker; the source-addressed outcome text is not claimed to be literally encoded."
+  ],
+  "claim_ceiling": [
+    "Complete condition/qualifier/reference traces with preserved order and source addresses; not a uniquely resolved Boolean IF/ELSE interpreter.",
+    "Overlapping clauses, implicit referents, postposed scope, qualitative sign/star dependencies and unclassified marks remain metadata, not fitted extra atoms or inferred ELSE/default-day cases.",
+    "No quantitative conjunction orb, house calculation, or modern astronomical interpretation is supplied by this validation.",
+    "No target meaning binding or decipherment claim follows from source fidelity."
+  ]
+}
