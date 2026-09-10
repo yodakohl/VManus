@@ -3,9 +3,9 @@ Updated: 2026-09-10. Read first.
 
 ## Latest completed continuation and next selection
 
-906active:userremovedtimebudget;complete905remainingcases,unchangeddata/model.
-905historical49UNKNOWN;2lexicalkeysonf103r/vfailCFG,0meanings;nohelddata.
-Protocol:experiments/yolo/gdt906_complete_cv_key_enumeration/METHOD.md.
+906primary439399COMPLETE/0CFG;fullindependentvalidationrunning32workers.
+3lexicalcases=2knownf103r/vkeys;ZLduplicatesIT;3independentkeysets/CFGchecked.
+Report:experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md;0meanings.
 892capacity stop before key/cipher: fixed source212 length-eligible,24 lexical,
 22 grammar;12 discovery+9 held, below registered12+12. Full source exhausted.
 425561referenceforms/CV:controlrecoveryuntested;905targetconstructionabove.

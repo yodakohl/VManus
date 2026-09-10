@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **905**
-- Experiment-associated tracked files: **17,164** (1.5 GiB)
+- Experiment-associated tracked files: **17,172** (1.5 GiB)
 - Structured GDT337+ experiments: **570**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT906 | GDT906_COMPLETE_CV_ENUMERATION_REGISTERED | `ENUMERATION_RUNNING` | [report](../experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md) | 13 | 7.2 MiB | 2 | STRUCTURED_YOLO |
+| GDT906 | GDT906_PRIMARY_COMPLETE_CV_ENUMERATION | `PRIMARY_ENUMERATION_COMPLETE_VALIDATION_PENDING` | [report](../experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md) | 21 | 20.4 MiB | 2 | STRUCTURED_YOLO |
 | GDT905 | GDT905_CONSTRUCTIVE_COMPLETE_PASSAGE_RESULT | `CONSTRUCTIVE_CV_SEARCH_UNRESOLVED` | [report](../experiments/yolo/gdt905_joint_cv_complete_passage_candidates/REPORT.md) | 72 | 7.1 MiB | 7 | STRUCTURED_YOLO |
 | GDT904 | GDT904_COMPLETE_MODEL_RESULT | `FULL_VINIDARIUS_WORD_CODE_EXCLUDED` | [report](../experiments/yolo/gdt904_vinidarius_complete_relational_register/REPORT.md) | 21 | 3.4 MiB | 2 | STRUCTURED_YOLO |
 | GDT882 | GDT882_additive_line_lattice | `NO_NONZERO_FIXED_ADDITIVE_LINE_INVARIANT` | [report](../experiments/yolo/gdt882_additive_line_lattice/REPORT.md) | 15 | 604.6 KiB | 2 | STRUCTURED_YOLO |

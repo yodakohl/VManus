@@ -1,9 +1,9 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "The complete exact mask partition requires a 7.2 MiB deterministic gzip artifact; every equivalent mask and literal segmentation is retained for independent coverage validation.",
+    "large_artifact_justification": "Deterministic gzip retains all2240785maskmembers and439399complete primarycase receipts for exact independent coverage/key-set validation; see PACKING.json for compressed/logical hashes.",
     "max_inline_bytes": 5000000
   },
-  "claim_ceiling": "Running exhaustive fixed-model construction; no final key-space verdict or confirmed meanings. GDT892 control remains unpassed.",
+  "claim_ceiling": "439399primary cases complete:0CFG keys;3lexicalcaseassignments=2distinctknownpassages,independentwitness enumerationPASS;full independent allcasevalidationpending;0meanings.",
   "commands": {
     "run": "python3 experiments/yolo/gdt906_complete_cv_key_enumeration/src/reproduce.py --cache-dir \"$GDT906_CACHE\" --work-dir \"$GDT906_WORK\"",
     "validate": "python3 experiments/yolo/gdt906_complete_cv_key_enumeration/src/validate.py"
@@ -75,12 +75,12 @@
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/README.md",
       "role": "source_or_compact_result",
-      "sha256": "0df3a461a440137bc8aca4856ed86597f8a37f14c359638c398b7c9c473ed058"
+      "sha256": "36896be56a8d03bc876951ab454ac4a1cf5129e8d32269fd810048baccfafd1f"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md",
       "role": "primary_report",
-      "sha256": "bed56533395372a666e64c202ceedff63e840ebc071db4474a2abac776497cf5"
+      "sha256": "828813f1cd9cd9a3c9c1c2f2d9dfbd964e8469d901857c7e43482d4471445563"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/BINDINGS.json",
@@ -88,9 +88,34 @@
       "sha256": "94ba63c56811d80fccd34cd9a5e1df0157f83701b9bb4f12ef6f501e5cd8a79a"
     },
     {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/CASES.json.gz",
+      "role": "source_or_compact_result",
+      "sha256": "60941e77cf5b50b6d5b0e035474585bd0f1631f02cd4343e6a81b4af72dec5d3"
+    },
+    {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/INDEPENDENT_PLAN_VALIDATION.json",
       "role": "source_or_compact_result",
       "sha256": "63fb4132f90f6c3d2d55a110397c11fc792a3f12291e9add0136ddf247d8dda1"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/INDEPENDENT_WITNESS_VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "632d02bce5b28414f6ed1356dddf52188b1a5fe726f331eca0b933d8b9b82c61"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/LEXICAL_KEYS.json",
+      "role": "source_or_compact_result",
+      "sha256": "7bd74a993ead760f803666e6005f0fc1dd3914f0c0814594d741a34080746b29"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/LEXICAL_KEYS.md",
+      "role": "source_or_compact_result",
+      "sha256": "4e63c889e74ca09435e913c545ebfb231d129fd2044d12205ddf72a23c2c5bdb"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/PACKING.json",
+      "role": "source_or_compact_result",
+      "sha256": "46707b5f1ff41ed62a037cccdd2b75694cfa719a73949bc79c792b81ebd9841d"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/PLAN.json.gz",
@@ -103,9 +128,24 @@
       "sha256": "3d03974017021292357d5206fef97198ce3bac5aa0cacce0b3607b2e9cc6d71a"
     },
     {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "23b1f42f69f997b5e445729a4b81e990fc79421e21ffd924e75afe9ef913ee2e"
+    },
+    {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/SCOPE.json",
       "role": "source_or_compact_result",
       "sha256": "ca7212181187916627fd979c10257e9ff4e1a4988a271ef21998a7241c752e24"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/WITNESS_ROLLUP.json",
+      "role": "source_or_compact_result",
+      "sha256": "f4dd6240e61bfece3984e136ef644929bbfeb0da17751ac27bbbb8d9bdc06ae6"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/explain_keys.py",
+      "role": "source_or_compact_result",
+      "sha256": "24303b27697aa898429f35f4cd6c77aa1f6f4006fddd464f5c18031eed4ef3f6"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/reproduce.py",
@@ -135,7 +175,7 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "complete_cv_key_enumeration",
-  "status": "ENUMERATION_RUNNING",
+  "status": "PRIMARY_ENUMERATION_COMPLETE_VALIDATION_PENDING",
   "title": "Complete enumeration of unchanged GDT905 observed CV keys",
   "updated": "2026-09-10",
   "validation": {

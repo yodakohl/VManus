@@ -17,6 +17,9 @@ python3 experiments/yolo/gdt906_complete_cv_key_enumeration/src/reproduce.py --c
 ```
 
 The primary pass uses up to 28 workers; the separate implementation verifies
-all observed-key sets and grammar decisions with four workers. Receipts permit
+all observed-key sets and grammar decisions with four workers during the primary
+pass and up to 32 after the primary workers finish. Total concurrent workers
+remain at most 32. This scheduling adjustment does not alter any case or
+constraint. Receipts permit
 resuming completed cases. Neither pass has a time or witness-count stopping rule.
 A full-model candidate still requires independent evidence for its meanings.
