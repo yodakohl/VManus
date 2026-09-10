@@ -3,11 +3,12 @@ Updated: 2026-09-10. Read first.
 
 ## Latest completed continuation and next selection
 
-New user10h task starts2026-09-09 18:34:04UTC: prioritized full models5+3
-(morphological roots/grammar plus compound script units),48source alternative.
+905closedatbudget:49complete-paragraph readingcases,allshared-keyspacesUNKNOWN. Twolexicalkeys16/18groupsf103r/v(differentkeys,sameleaf)bothfailindependentCFG.
+0acceptedreadings/meanings;nohelddata/automaticoptimizerfollow-on.
+Primary:experiments/yolo/gdt905_joint_cv_complete_passage_candidates/REPORT.md.
 892capacity stop before key/cipher: fixed source212 length-eligible,24 lexical,
 22 grammar;12 discovery+9 held, below registered12+12. Full source exhausted.
-425561 referenceforms/global unknown-unit CV architecture prepared but untested.
+425561referenceforms/CV:controlrecoveryuntested;905targetconstructionabove.
 No threshold relaxation, replacement corpus or616/832–837repair.
 893closedatbudget: full14-witness/153031-token candidate enumeration replays.
 Exact maxima ZL77/RF125/consensus11; RFalone forcesone28-groupf103v.30–32
@@ -37,8 +38,7 @@ Originaldiplomatictext/orderunresolved; conditionalCHDmodelonly, no meanings.
 No key/exclusion/projections; no automatic source/compiler/solverrepair.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
 901/902excluded.129early11-outputexamplematches; fullrules/targetunbound.
-904/136closed:full38-recordwordcode excluded;IT259P02/R02zero,independent518UNSAT.
-7otherlocalUNKNOWNpreserved;otherpanelsbelow38records;nohelddata/meaning/repair.
+904/136closed:full38-recordwordcode excluded;IT259P02/R02zero,independent518UNSAT.7otherlocalUNKNOWNpreserved;otherpanelsbelow38records;nohelddata/meaning/repair.
 Primary:experiments/yolo/gdt904_vinidarius_complete_relational_register/REPORT.md.
 903closed:properinfinite-indexH; explicit10451-statecompatibility, noidentifiedrule.
 GDT882:413all3-concordant lines43leaves20literal characters; integer lattice

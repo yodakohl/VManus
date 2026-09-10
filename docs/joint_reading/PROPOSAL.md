@@ -313,3 +313,11 @@ claim without separately justified independent evidence and applicable gates.
 Budget40min through06:30UTC including implementation, independent validation and
 publication. First target scan by06:02; stop all search06:17. No new images,
 even-leaf bodies, f84/f84r or control truth. Protocol905/METHOD.md fixes details.
+
+905explanation decision06:10UTC, after partial search: two completed CSP cases
+produced one full lexical key each but failed the frozen grammar. Recover ONLY
+the exact complete assignments in already completed cases from the saved trace,
+with the same tables/solver and require identical deterministic search counts.
+This exposes the actual proposed words for review; it selects no new key or
+grammar, adds no search scope, and cannot promote rejected keys to valid readings.
+Budget3min within the existing06:30publication limit; no new target/held input.

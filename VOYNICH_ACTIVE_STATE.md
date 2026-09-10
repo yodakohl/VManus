@@ -6,6 +6,14 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT905:fixed892CV/reference/CFG constructive search on49whole12–24group
+readingcases(41uniqueparagraphs/15leaves). All49globalkeyspacesUNKNOWN;
+44startedCSP,5budget-unstarted. Independent49fullmasklistsPASS, notkeys.
+Twofulllexicalkeys16/18groupsITf103r/v: differentkeys/samephysicalleaf,
+bothindependentlyreencodeandfailCFG.0acceptedreadings/confirmedmeanings.
+No reconstructedlemma links,controlpass,helddata orautomaticoptimizerfollow-on.
+Primary:experiments/yolo/gdt905_joint_cv_complete_passage_candidates/REPORT.md.
+
 IDEA129:earlyCodSang756 complete15-position example matches11candidateoutputs
 in2replays; onevectorprovisional. Independentprosecollation bindsparity and
 witnesschecks, notfullconstruction/serialization. No targetregister ormeaning;

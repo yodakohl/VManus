@@ -3,10 +3,10 @@
     "large_artifact_justification": "",
     "max_inline_bytes": 5000000
   },
-  "claim_ceiling": "Exploratory candidate construction; GDT892 control remains unvalidated; no meanings or held data.",
+  "claim_ceiling": "Two complete dictionary-only keys independently fail CFG;0acceptedreadings;all49globalkeyspacesUNKNOWN;no meanings,controlpass,helddata orautomaticoptimizerfollow-on.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/run.py",
-    "validate": "python3 experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/validate.py"
+    "run": "python3 experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/reproduce.py --cache-dir \"$GDT905_CACHE\" --work-dir \"$GDT905_WORK\"",
+    "validate": "python3 experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/validate.py --cache-dir \"$GDT905_CACHE\" --check"
   },
   "created": "2026-09-10",
   "dependencies": [
@@ -79,38 +79,358 @@
   "outputs": [
     {
       "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/METHOD.md",
-      "role": "protocol_or_source",
+      "role": "source_or_compact_result",
       "sha256": "62527e7483902783b8a3fc229e3278ca0a72d02612d8a68a0146510807734135"
     },
     {
       "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/PREREGISTRATION.md",
-      "role": "protocol_or_source",
+      "role": "source_or_compact_result",
       "sha256": "6408eea7a8d287a0de72f5b449a504ea2695f5aaab650f99720c565739c7e8d3"
     },
     {
       "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/README.md",
-      "role": "protocol_or_source",
-      "sha256": "9ee63ee51d57fe268b6c684f926cfa740a80dffaa5e02d677cd8ff7af7110ee6"
+      "role": "source_or_compact_result",
+      "sha256": "268fac624fcfb1218be87daeb7f2d7064eb724d834b26d07b2491a597417ee26"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/REPORT.md",
+      "role": "primary_report",
+      "sha256": "0b949de0aa0a76e035943314b3713b0cd3545092cefa511503feec5c9beeac05"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/CANDIDATES.json.gz",
+      "role": "source_or_compact_result",
+      "sha256": "d394e7794c0368660087613532ce5ae5a994bb2c4a0d080c3b9a47505b69ef54"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/INDEPENDENT_VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "95992f629da0e77389c237726d5cbb021015fd04ff98f31548b3f5fdd655e6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/LEXICAL_KEYS.md",
+      "role": "source_or_compact_result",
+      "sha256": "63a301175132eff8d062827a211bf1c12949e79276907ddc9dbd49f74623900f"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/LEXICAL_KEY_EXPLANATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "5c8a2edbc9ca89838f5dcb16fc88542a0c1d12c83711bc66b180b613b3808813"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/PACKING.json",
+      "role": "source_or_compact_result",
+      "sha256": "33a654b9ae8556cbe2ea924faed44c7e21dd5091487c05410f5e87e31af8cc2a"
     },
     {
       "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/README.md",
-      "role": "protocol_or_source",
+      "role": "source_or_compact_result",
       "sha256": "3871d647187667136306aed5ac6b31956cd0bbe31906191fbb2eff6bd6348acb"
     },
     {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "ee74771a2f7ae705e8edb1f8cd2c01b1737e446a6a058f94533a2e1dcf03546e"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/SCANS.json",
+      "role": "source_or_compact_result",
+      "sha256": "7b337ab4baaf3b7c6a295f2a61f017b2f6d3e1ab601e6451d357707361516b26"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/SCOPE.json",
+      "role": "source_or_compact_result",
+      "sha256": "7c75205c087bf46bce9e424105fa7f836fb65a73dad6dfaefeccda2c601a4009"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/TARGET.json",
+      "role": "source_or_compact_result",
+      "sha256": "49fa70f331528ab13dddb7addb56e3bf58fc9afa686b6dea53a70c668ed8adda"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "b48eaa74a73576b7a352a064084885a7baae9e3f5b5f63e73c5ee6c80ee3bfbc"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0006.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "b2e4f2b8e168a49ce5ffb8c1e523c0c2b0f1f12025ecc9dd9943f45bd086ebbe"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0016.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "2ec2e0be30387e23f51936c45676be13b46d0e134163d93bda82638f31cfac40"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0081.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "c8640c718f677d912510a11ea2487d84df6c8b095eebc66135add9627c4b04e0"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0128.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "9e0b5a4e2ca5c717e61126e251754df5c0775625b4b5eddbc26b97d61dead865"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0132.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "945d4469a380e031fd806f000d87e8d3436bdf8212e4cc98acb4f879c658dfb0"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0166.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "3356307ba67ded58bb14110e3762288607916ad2e9ad3feb420c1ac1ba941afe"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0260.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "4ff9441d1bde924e03f350a75256e162d82575613b9fef363070869d1ad84124"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0298.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "522c93729186591ee1e8efff5e975e1eb00dfe8eb6b701e07fe367661333b0d0"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0308.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "968655bba116fe699a99fe03d16253b3689499ee28b5de547df6f9617e734bc2"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0311.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "b9a1d8bf3272e54b9411d2ad1cbf15404bdbcdd6fa515874ae7f4f18bbbfb7eb"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0358.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "ad5ba408a956d4e32c271902050ca4d393c303230744d027d8bc7d1056ab352c"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0385.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "2992935cd8b2e28002f2e7107613de1aa7b8a09ba770999078295ee039b3ccc2"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0391.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "c8cf071cae36d12feca18404da2bc814686b271971a6a7dd7fbf3e78cd369796"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0392.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "7f08097374b82ddef57bf4e4f689620280c4b0173b07ed22c0d03fd2303c3c79"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0393.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "432bea6882f14de1181ea8a035d5146a9e109f497d7f00f486c6fb1ce6c7cf45"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0395.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "7835afde381c3ab7f673ca978bc1965671c793cc12a7416f5450445213f431f3"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0402.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "5c9f8f6d31fc6e25ff2568d91543f1db359a3a24770849748e0b90345a283834"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0409.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "ebb6d5de969cfe3d985922f4673dd24c56a8968a358f8f20c44c9c14d4e4d133"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0443.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "07bf34365fb8a86da5ba59adfe1317eeb701c318c9f843e8f6a08972487571f4"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0444.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "6db803a5d73fb10e8f3fc246b43070810827a128e86dee4cb2717aecfbd81563"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0452.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "6ffdd9a55a4459ecf0f90d95c026c70c255b875cb617bf1a528bf8c9d5acbf32"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0454.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "d301005aaa77ec23c9e65f1063b98652658790cbf7687b96bdd9a713433278dc"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0508.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "af9f617e4c2aabb89c6cec70e314fc12c89506fe6039c5c4c2bda034e1a15812"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0512.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "09db85b6b655e05313085f6dd29501ff1a90ad2a17007e2cbe130b82bfc7eea2"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0514.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "783a172501b7a445bb716fdd9982e58f09335657cf785ffacdbcc95939ac0f2e"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0515.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "ff7eba856a1607b29efed921f76b77149a9fd1fe1e995601379891624cd09f7a"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0546.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "988c63af96e4fea35170d6646c86862653cd695e791e2f049a02c32584798b74"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0578.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "6872c6450cd7c1b68dce9e910e94c849ab7bcff57dbbe436c72977bbde096de2"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0582.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "5580e85e3899622b2fc79f62d45e6ef80ced1d4ff8b4dcb2b97dd8edda756c39"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0584.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "185dacdcd50237340c7d66b175b24d09cbb088d4cbd287196fcff9d870550127"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0588.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "95e427e11afdf1feb143a1d3bcf4aaaf764721ea7085e609ae78a54395efb82f"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0601.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "b21a7934637a4f7673dfc2c64da02a0c8f292b335356b54d92cd6f7112c98d96"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0602.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "f4abd80c9998754c4e55ea702e842e60d2ee007dd8a36cf29a6b8a0d7bfd2b00"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0605.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "c6e4040bb4d64ae7e656e87d9e8270eaa6f50791a702a167a70384eaa2314d6b"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0634.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "aea2d9e4a3bb225f164fd6de3943ffb3eab60c698d76b91a99367c02f670445f"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0641.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "bc64cecc1c78fae45d68a5e7c73be11c737215302bb3e1a1085d815ea4535b1f"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0643.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "fa4b3bb071bda5c4755544fbfee4a98aa6d4eb0036f64ba7cc4c717511b475ed"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0646.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "3ea71ffbf4b163cedf49bdd516d531488d730ee73cd91669365c4a123bfe4757"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0648.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "1ffe984561c1676fa147b49d3d8352b19a1f1cb73a7b1d8d56a241ff0823ad18"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0653.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "765d37962d4c83f300486fcf09df1201f2ea37b170a1ed2d3326c0873b6d582a"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/IT2a_G807-P0654.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "297f4ae39812ab17b5187f0e17794cef35831086f95e4ded62a195f48bcf35da"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/RF1b_G807-P0166.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "d997ce6096a9cea36e888dd48177c5c3abb9345d06f795eab75d895565b4a19a"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/RF1b_G807-P0260.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "502bbd44c6cafd2c423ba1819f97833bcd87045a439e5de9604f0f93497abd55"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/RF1b_G807-P0515.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "199eee1eb52c6d4efce97d4d5cf635be6081d20b0ff6f2c2a339c2db8becfdc4"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/RF1b_G807-P0643.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "437934e3adef633f030acf4cd974008da3ed37476a0bf40ab1850b321752bd18"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/RF1b_G807-P0653.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "38af36ce232e01ae3f6a619f60de5f3777f6eee02e758863810cd090ddeda4b5"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/ZL3b_G807-P0298.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "2b7229607da1bf414dc6f92077e6b023f964cdc5fac6dc20f15cd82a698a104d"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/ZL3b_G807-P0391.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "3bc6943f1597b5af4d5696799b2e6fe51f310f7f4b7d799d1f5f707eda8bf2de"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/mask_scans/ZL3b_G807-P0395.csv.gz",
+      "role": "source_or_compact_result",
+      "sha256": "7835afde381c3ab7f673ca978bc1965671c793cc12a7416f5450445213f431f3"
+    },
+    {
       "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/PREREG_LOCK.json",
-      "role": "protocol_or_source",
+      "role": "source_or_compact_result",
       "sha256": "79c95cef3383b7c42ae571b9c468d1513c541c15c4ba98186f973137437326be"
     },
     {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/explain_lexical_keys.py",
+      "role": "source_or_compact_result",
+      "sha256": "63330bf31e6f02e5f079e182113449ffc0462dab19f17b6f6d661a5e3ad80ed8"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/pack_artifacts.py",
+      "role": "source_or_compact_result",
+      "sha256": "51e1f4209dbd1ef3498ae2f9c60dcb8a375c11fcf2d0b7bd686a168bc303462c"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/reproduce.py",
+      "role": "source_or_compact_result",
+      "sha256": "5a43fbe105d75863dfb057e37a306f3737a45372c14726ee6a6115e88eed39da"
+    },
+    {
       "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/run.py",
-      "role": "protocol_or_source",
+      "role": "source_or_compact_result",
       "sha256": "6524a64a64fab2353d2ef6e190be1b03cd1b04e827c0d44406e1c4ecbee11fe9"
     },
     {
       "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/validate.py",
-      "role": "protocol_or_source",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "role": "source_or_compact_result",
+      "sha256": "b760215fa12d737cee1a22fbf348065ea299d984a688f7652976c534fb491733"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/src/validate_independent.py",
+      "role": "source_or_compact_result",
+      "sha256": "7e917dd4b32ed813d1de273c1745d181b3f7d211b3d6543d338eaf0ed552d777"
     }
   ],
   "question": "Does the fixed global CV channel and frozen Latin word/grammar reference construct any complete12\u201324-group odd-leaf paragraph, without a copied source passage?",
@@ -120,11 +440,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "joint_cv_complete_passage_candidates",
-  "status": "REGISTERED_UNSCORED",
+  "status": "CONSTRUCTIVE_CV_SEARCH_UNRESOLVED",
   "title": "Constructive complete-passage CV hypotheses",
   "updated": "2026-09-10",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
