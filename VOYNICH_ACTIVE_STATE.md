@@ -1,10 +1,12 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-09-06. This is the full claim registry. For routine work, read
+Updated: 2026-09-10. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
+
+GDT911: source-exposed Macer716–721 control; two injective syllable keys yield identical43word/92syllable/74typecipher with frigida/fervida cold/hot contrast and six scans. Incomplete prescription edge; no blind recovery or Voynich test. No metre-based semantic promotion; general joint/held design untested. Primary:experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md.
 
 GDT910:1-to2/3-group exact-flank discovery40selectors;243ZL381IT151RFproperrules,0two-context recurrence;48transferselectorsunqueried. IndependentPASS;noabbreviation/meaning;noautomaticbroadening. Primary:experiments/yolo/gdt910_short_long_context_substitution/REPORT.md.
 

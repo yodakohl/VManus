@@ -1,0 +1,43 @@
+{
+  "record_id": "IDEA000141",
+  "reviewer": "root_with_independent_source_and_equality_audit",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "assessment_basis": "source_exposed_explicit_collision_for_one_fixed_syllable_channel",
+  "reason": "GDT911 supplies two keys with identical complete six-verse ciphertext and scans but frigida/fervida contrast. This disproves uniqueness for this chosen excerpt/channel only. The proposed independent withheld-key full-reading challenge and Voynich held transfer remain untested. Excerpt cuts before a treatment condition; B is constructed, not historical.",
+  "blockers": [
+    {
+      "code": "missing_meaning_binding",
+      "status": "unresolved",
+      "summary": "Grammar and metre do not distinguish the explicit cold/hot pair in this packet.",
+      "evidence": [
+        "experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md",
+        "experiments/yolo/gdt911_syllabic_metre_identifiability/src/INDEPENDENT_AUDIT.md"
+      ]
+    },
+    {
+      "code": "missing_complete_identifiability_test",
+      "status": "not_tested",
+      "summary": "No blinded unknown-wording decoder or manuscript-motivated complete target/key/quantity lexicon fixed.",
+      "evidence": [
+        "experiments/yolo/gdt911_syllabic_metre_identifiability/METHOD.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "condition": "Independent constraints with a prospectively testable way to distinguish complete meanings, plus an actually bounded manuscript channel and complete passage. Do not treat a new source or metrical score as a uniqueness proof.",
+        "evidence": [
+          "experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More metrical fits, selecting an appealing German meaning, automatically extending/repairing this exposed control, or re-running closed GDT906 with a metre filter."
+    ]
+  },
+  "relations": []
+}

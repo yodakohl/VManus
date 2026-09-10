@@ -1,6 +1,7 @@
 # Voynich current route
 Updated: 2026-09-10. Read first.
 ## Latest completed continuation and next selection
+GDT911: source-exposed Macer716–721 control; two injective syllable keys yield identical43word/92syllable/74typecipher with frigida/fervida cold/hot contrast and six scans. Incomplete prescription edge; no blind recovery or Voynich test. No metre-based semantic promotion; general joint/held design untested. Primary:experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md.
 GDT910:1-to2/3-group exact-flank discovery40selectors;243ZL381IT151RFproperrules,0two-context recurrence;48transferselectorsunqueried. IndependentPASS;noabbreviation/meaning;noautomaticbroadening. Primary:experiments/yolo/gdt910_short_long_context_substitution/REPORT.md.
 GDT909:complete fixed-template division chains:ZL14/IT259/RF11paragraphs,8/367/9partitions;0requiredrole-transfer candidates. IndependentPASS;no arithmeticfit/prediction/meaning. Fixedmodelonly;no automatictemplate/windowrepair. Primary:experiments/yolo/gdt909_worked_division_chains/REPORT.md.
 GDT908 resolvesfixed899:259wholeITparagraphs,33411pairs/3577cuts;0requiredexternal suffixwitnesses;all6headers excluded. Independenttheorem/fullpairreplayPASS;0keys/meanings.
@@ -105,7 +106,6 @@ no Winter query, no new visual page. Primary:
 experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md.
 User withdrew global_reconstruction_plan as repetition; it is NOT the next route.
 Minimal documentation requested; no administrative source-check series.
-
 Earlier translation plan2026-09-08:research_registry/proposals/translation_reconstruction_plan.md.
 Old10h2026-09-08:research_registry/decisions/semantic_10h_translation_session.md.
 878firstnativepass complete:7fixedrootanchors source-guided;no crossedconstruction.
