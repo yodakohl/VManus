@@ -1,0 +1,86 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory raw-string seam dependence; neither hyphenation nor meaning is identified.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt907_line_seam_join_discovery/src/run.py",
+    "validate": "python3 experiments/yolo/gdt907_line_seam_join_discovery/src/validate.py"
+  },
+  "created": "2026-09-10",
+  "dependencies": [
+    "GDT851",
+    "GDT850",
+    "GDT853"
+  ],
+  "experiment_id": "GDT907",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_ZL3b.json",
+      "role": "guarded_source_ZL3b",
+      "sha256": "73d3a80095d76876da91e67a6c9bd0d46284fdfe62250fccfb7d9dee3c038329"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_IT2a.json",
+      "role": "guarded_source_IT2a",
+      "sha256": "333a76f0f8ec4904accf8f56cd947cb81cc6a05e2a53b1de3674659a04c83e03"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_RF1b.json",
+      "role": "guarded_source_RF1b",
+      "sha256": "e9998f013dd1ae4608a13bc4e67bea1f9bfb3859cb4f4b60b84c404b2c7e0101"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt907_line_seam_join_discovery/METHOD.md",
+      "role": "source_or_compact_result",
+      "sha256": "ec1f79a50db9b1f4bbb39a0a5863c63ae6587ab07bc7d5ea1296b890120dd232"
+    },
+    {
+      "path": "experiments/yolo/gdt907_line_seam_join_discovery/PREREGISTRATION.md",
+      "role": "source_or_compact_result",
+      "sha256": "0508ab9b3bc85635803894849e40aea9b6afe417d30fc0344113ec9c103719d5"
+    },
+    {
+      "path": "experiments/yolo/gdt907_line_seam_join_discovery/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "44a26f97f84eca3183dd4441c365b842085e6146922b0d64dc0f5cc097a47387"
+    },
+    {
+      "path": "experiments/yolo/gdt907_line_seam_join_discovery/artifacts/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt907_line_seam_join_discovery/src/SPEC.json",
+      "role": "source_or_compact_result",
+      "sha256": "9745c11266945c23dae33acffcfe4878b4d2785cfc6d52c63ba79d66adfcebc7"
+    },
+    {
+      "path": "experiments/yolo/gdt907_line_seam_join_discovery/src/run.py",
+      "role": "source_or_compact_result",
+      "sha256": "95ba0a7b8bafc5c7c6e51238bc5cf314f8a531759897ba325da14f51db3ce717"
+    },
+    {
+      "path": "experiments/yolo/gdt907_line_seam_join_discovery/src/validate.py",
+      "role": "source_or_compact_result",
+      "sha256": "01ed0e4622482c324a735269639ae8ca949cf364bd818739358e9ab3ee2f39ef"
+    }
+  ],
+  "question": "Do actual consecutive line endpoints concatenate into independently attested whole forms more often than within-run, length-preserving endpoint permutations?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "line_seam_join_discovery",
+  "status": "REGISTERED_UNSCORED",
+  "title": "line seam join discovery",
+  "updated": "2026-09-10",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
