@@ -31,10 +31,37 @@ def main():
     assert independent['expected_cases']==independent['independently_complete_cases']==len(rows)
     assert independent['pending_cases']==0 and not independent['failures']
     assert independent['validator_sha256']==sha(E/'src/validate_complete.py')
+    source_paths={'src/validate_complete.py','src/validate_complete_v3.py'}
+    sources=independent['accepted_validator_sources']
+    assert set(sources)==source_paths
+    for path,digest in sources.items():assert sha(E/path)==digest,path
+    assert independent['validator_sha256'] in set(sources.values())
     assert independent['plan_logical_sha256']==hashlib.sha256(gzip.decompress((E/'artifacts/PLAN.json.gz').read_bytes())).hexdigest()
+    packing=read(E/'artifacts/INDEPENDENT_PACKING.json')
+    proof_path=E/'artifacts/INDEPENDENT_CASES.jsonl.gz'
+    assert sha(proof_path)==packing['sha256']==independent['independent_cases_gzip_sha256']
+    primary={r['case_id']:r for r in rows};checked=set();proof_counts=collections.Counter();source_counts=collections.Counter();logical=hashlib.sha256()
+    with gzip.open(proof_path,'rb') as f:
+        for line in f:
+            logical.update(line);r=json.loads(line);key=r['case_id']
+            assert key in primary and key not in checked;checked.add(key)
+            assert r['status']=='COMPLETE' and r['validator_sha256'] in set(sources.values())
+            assert r['plan_logical_sha256']==independent['plan_logical_sha256']
+            original=primary[key]
+            encoded=(json.dumps(original,sort_keys=True,separators=(',',':'),ensure_ascii=False)+'\n').encode()
+            assert hashlib.sha256(encoded).hexdigest()==r['primary_receipt_sha256']
+            left={tuple(v):a for v,a in zip(original['values'],original['grammar_accepted'])}
+            right={tuple(v):a for v,a in zip(r['values'],r['grammar_accepted'])}
+            assert len(r['values'])==len(r['grammar_accepted'])==len(right) and left==right
+            proof_counts[r['proof']['proof']]+=1;source_counts[r['validator_sha256']]+=1
+    assert checked==set(expected) and len(checked)==packing['cases']
+    assert logical.hexdigest()==packing['logical_sha256']==independent['independent_cases_logical_sha256']
     result=read(E/'artifacts/RESULT.json')
     assert result['cases']==len(rows) and result['lexical_keys']==lexical and result['grammar_accepted']==accepted
-    assert result['cases_sha256']==sha(E/'artifacts/CASES.json.gz')
-    receipt=dict(status='PASS',cases=len(rows),lexical_keys=lexical,grammar_accepted=accepted,confirmed_meanings=0,cases_sha256=sha(E/'artifacts/CASES.json.gz'),independent_receipt_sha256=sha(E/'artifacts/INDEPENDENT_COMPLETE_VALIDATION.json'),validator_sha256=sha(Path(__file__)))
+    assert result['cases_sha256']==sha(E/'artifacts/CASES.json.gz')==independent['primary_cases_gzip_sha256']
+    result['status']='COMPLETE_MODEL_CANDIDATES' if accepted else 'COMPLETE_NO_GRAMMAR_KEY'
+    result['independent_cases_sha256']=packing['sha256']
+    (E/'artifacts/RESULT.json').write_text(json.dumps(result,sort_keys=True,separators=(',',':'))+'\n')
+    receipt=dict(status='PASS',cases=len(rows),lexical_keys=lexical,grammar_accepted=accepted,confirmed_meanings=0,cases_sha256=sha(E/'artifacts/CASES.json.gz'),independent_receipt_sha256=sha(E/'artifacts/INDEPENDENT_COMPLETE_VALIDATION.json'),validator_sha256=sha(Path(__file__)),independent_cases_sha256=packing['sha256'],independent_proof_counts=dict(proof_counts),independent_source_counts=dict(source_counts))
     (E/'artifacts/VALIDATION.json').write_text(json.dumps(receipt,sort_keys=True,indent=2)+'\n');print(json.dumps(receipt))
 if __name__=='__main__':main()

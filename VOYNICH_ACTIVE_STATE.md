@@ -6,9 +6,9 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-GDT906primary439399COMPLETE:0CFGkeys;fullindependentallcasevalidationrunning.
-3lexicalcases=2knownf103r/vpassages;ZLduplicatesIT.3keysetsindependentlyexhausted,
-allrejectCFG.26483reused/412916new,unchanged905model/data;0meanings.
+GDT906closed:all439399primary+independentCOMPLETE,exactkeysets/CFGagree;0CFGkeys.
+3lexicalcases=2knownf103r/vpassages;ZLduplicatesIT,allCFG-rejected.
+26483reused/412916new,unchanged905scopeexhausted;0meanings/generalrefutation.
 Primary:experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md.
 
 GDT905:fixed892CV/reference/CFG constructive search on49whole12–24group

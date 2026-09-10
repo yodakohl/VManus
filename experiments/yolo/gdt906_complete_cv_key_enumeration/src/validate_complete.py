@@ -166,11 +166,33 @@ def relation_formula(variables,rows):
     return trie(0,reordered)
 
 
+def domain_injection_possible(domains,nvalues):
+ n=len(domains); end=n+nvalues+1; cap=[[0]*(end+1) for _ in range(end+1)]; adj=[[] for _ in range(end+1)]
+ def edge(a,b): cap[a][b]=1; adj[a].append(b); adj[b].append(a)
+ for i,d in enumerate(domains):
+  edge(0,i+1)
+  for j in d: edge(i+1,n+1+j)
+ for j in range(nvalues): edge(n+1+j,end)
+ flow=0
+ while True:
+  parent=[-1]*(end+1);parent[0]=0;q=collections.deque([0])
+  while q and parent[end]<0:
+   a=q.popleft()
+   for b in adj[a]:
+    if cap[a][b] and parent[b]<0: parent[b]=a;q.append(b)
+  if parent[end]<0: return flow==n
+  b=end
+  while b:
+   a=parent[b];cap[a][b]-=1;cap[b][a]+=1;b=a
+  flow+=1
+
 def enumerate_tables(tables,nvars,nvalues):
     reduced,stats = reduce_tables(tables,nvars,nvalues)
     if reduced is None:
         return [],stats
     domains,relations = reduced
+    if not domain_injection_possible(domains,nvalues):
+        return [],{**stats,'proof':'DOMAIN_INJECTION_MAX_FLOW_UNSAT'}
     variables = [z3.Int('component_'+str(i)) for i in range(nvars)]
     solver = z3.Solver()
     solver.set(random_seed=0)
@@ -228,6 +250,10 @@ def decode_key(words,mask,vowel,observed,reference,helper):
 
 
 def synthetic_tests():
+    for mask in range(512):
+        domains=[{j for j in range(3) if mask&(1<<(3*i+j))} for i in range(3)]
+        expected=any(all(p[i] in domains[i] for i in range(3)) for p in itertools.permutations(range(3)))
+        assert domain_injection_possible(domains,3)==expected
     cases = 0
     # Exhaust every relation subset for two overlapping2-column tables over
     # three values. Independent brute-force full injections are the oracle.
@@ -241,7 +267,7 @@ def synthetic_tests():
             actual,_ = enumerate_tables(tables,3,3)
             assert actual == expected
             cases += 1
-    return {'overlapping_table_pairs':cases,'oracle':'all full injective assignments','passes':True}
+    return {'bipartite_graphs':512,'overlapping_table_pairs':cases,'oracle':'all full injective assignments','passes':True}
 
 
 def validate_plan(plan_path):
@@ -379,8 +405,15 @@ def check_case(task):
     return {'case_id':task['case_id'],'keys':len(found),'accepted':sum(found.values()),'proof':proof['proof']}
 
 
+def validator_sources():
+    snapshot=EXP/'src/validate_complete_v3.py'
+    assert sha(snapshot)=='dd557e9b1901f65f8e3dd46c62828d66faf987a3ea8162ae0e878ff37fef4838'
+    return {'src/validate_complete_v3.py':sha(snapshot),'src/validate_complete.py':sha(Path(__file__))}
+
+
 def validate_existing(independent_work,primary_work,task_by_id,plan_hash):
     complete = set()
+    accepted_sources = set(validator_sources().values())
     folder = independent_work/'cases'
     if not folder.exists():
         return complete
@@ -389,7 +422,7 @@ def validate_existing(independent_work,primary_work,task_by_id,plan_hash):
         cid = record['case_id']
         assert cid in task_by_id and path.stem==cid
         assert record['status']=='COMPLETE' and record['plan_logical_sha256']==plan_hash
-        assert record['validator_sha256']==sha(Path(__file__))
+        assert record['validator_sha256'] in accepted_sources
         assert record['primary_receipt_sha256']==sha(primary_work/'cases'/(cid+'.json'))
         complete.add(cid)
     return complete
@@ -434,7 +467,7 @@ def run_cases(args,plan_hash,tasks):
                 complete.add(cid)
                 if detail['keys'] or len(complete)%100==0:
                     print(json.dumps({'validated_cases':len(complete),'total_cases':len(tasks),**detail}),flush=True)
-    result = {'schema_version':1,'status':'PASS_COMPLETE' if len(complete)==len(tasks) else 'PARTIAL','plan_logical_sha256':plan_hash,'validator_sha256':sha(Path(__file__)),'expected_cases':len(tasks),'independently_complete_cases':len(complete),'pending_cases':len(tasks)-len(complete),'failures':failures,'claim_ceiling':'Exact observed lexical-key sets and independent fullCFG decisions compared for every completed receipt. A partial validator run does not certify full search exhaustion.'}
+    result = {'schema_version':1,'status':'PASS_COMPLETE' if len(complete)==len(tasks) else 'PARTIAL','plan_logical_sha256':plan_hash,'validator_sha256':sha(Path(__file__)),'accepted_validator_sources':validator_sources(),'expected_cases':len(tasks),'independently_complete_cases':len(complete),'pending_cases':len(tasks)-len(complete),'failures':failures,'claim_ceiling':'Exact observed lexical-key sets and independent fullCFG decisions compared for every completed receipt. A partial validator run does not certify full search exhaustion.'}
     (EXP/'artifacts/INDEPENDENT_COMPLETE_VALIDATION.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result),flush=True)
 

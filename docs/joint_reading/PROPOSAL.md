@@ -343,3 +343,18 @@ Independent table propagation and Z3 enumeration check completeness. No new
 source/control corpus, objective, held text, page or exception. Checkpoints
 report actual remaining cases/candidates and preserve publication; user has
 removed the former total-walltime budget, not the scientific constraints.
+
+GDT906 execution adjustment,2026-09-10: keep full model/case/key-set/CFG
+requirements unchanged. The independent array/Z3 checker spends time on domain
+sets that already cannot admit a global injection. Before adding one small
+residual source/sink-flow check, bounded saved-case measurements found188/200
+early and17/100P0395 Z3-empty cases proved by this necessary condition;
+512complete3x3graphs agree with brute injections. Flow cost0.113/0.058seconds
+versus270.51/22.45recorded case-seconds in the pruned subsets; timing is
+engineering evidence only. Add only this independent flow contradiction gate
+before unchanged exhaustiveZ3; rerun the4096full-table toy oracle. Preserve
+exact publishedv3source and all its valid hash-bound completed receipts; v4
+restarts only missing cases with an explicit checked source-version map. No
+case selection, weaker proof, new source/control, meaning or further optimizer
+chain follows. Full completion still decides the same fixed-model question;
+the user has removed the elapsed budget.

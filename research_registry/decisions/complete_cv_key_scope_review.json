@@ -1,0 +1,42 @@
+{
+  "assessment_basis": "complete_primary_and_independent_key_set_enumeration_and_packed_proof_validation",
+  "blockers": [
+    {
+      "code": "fixed_cv_paragraph_construction_excluded",
+      "evidence": [
+        "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md",
+        "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/VALIDATION.json"
+      ],
+      "status": "proved_scoped_exclusion",
+      "summary": "No observed key satisfies the unchanged dictionary and grammar on any of49 frozen whole paragraph readings."
+    }
+  ],
+  "reason": "All439399 fixedGDT905 cases are complete in both implementations with identical full key sets and CFG decisions. Three lexical case assignments are two known distinct passages; all reject the fixed grammar. No translation or generalLatin/CVrefutation.",
+  "record_id": "GDT906",
+  "relations": [
+    {
+      "evidence": [
+        "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md"
+      ],
+      "target": "GDT905",
+      "type": "related_to"
+    },
+    {
+      "evidence": [
+        "experiments/yolo/gdt906_complete_cv_key_enumeration/METHOD.md"
+      ],
+      "target": "GDT892",
+      "type": "related_to"
+    }
+  ],
+  "reopen": {
+    "all_of": [],
+    "not_sufficient": [
+      "More elapsed time, additional workers or repeating the identical complete case space."
+    ],
+    "policy": "do_not_repeat_same_model"
+  },
+  "reviewer": "root_with_independent_complete_enumeration",
+  "scope": "method",
+  "verdict": "refuted_specific_model"
+}

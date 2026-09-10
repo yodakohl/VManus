@@ -3,7 +3,7 @@
     "large_artifact_justification": "Deterministic gzip retains all2240785maskmembers and439399complete primarycase receipts for exact independent coverage/key-set validation; see PACKING.json for compressed/logical hashes.",
     "max_inline_bytes": 5000000
   },
-  "claim_ceiling": "439399primary cases complete:0CFG keys;3lexicalcaseassignments=2distinctknownpassages,independentwitness enumerationPASS;full independent allcasevalidationpending;0meanings.",
+  "claim_ceiling": "All439399fixed905cases independently complete;3lexicalcaseassignments=2knownpassages,allCFG-rejected;0translation/meanings. Exact scoped model only,not generalLatin/CVrefutation. No new/helddata orcontrolpass.",
   "commands": {
     "run": "python3 experiments/yolo/gdt906_complete_cv_key_enumeration/src/reproduce.py --cache-dir \"$GDT906_CACHE\" --work-dir \"$GDT906_WORK\"",
     "validate": "python3 experiments/yolo/gdt906_complete_cv_key_enumeration/src/validate.py"
@@ -75,12 +75,12 @@
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/README.md",
       "role": "source_or_compact_result",
-      "sha256": "36896be56a8d03bc876951ab454ac4a1cf5129e8d32269fd810048baccfafd1f"
+      "sha256": "c3ce58f33040f2e2cd18d7b0ddd972784a9f8d8884fcc0b6fdfd1762a2e55587"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md",
       "role": "primary_report",
-      "sha256": "828813f1cd9cd9a3c9c1c2f2d9dfbd964e8469d901857c7e43482d4471445563"
+      "sha256": "53bbe49ef5de2f53ebcd1f9bcf4d2fce4fc8311a141c6b37de4424c95ff1c5df"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/BINDINGS.json",
@@ -91,6 +91,26 @@
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/CASES.json.gz",
       "role": "source_or_compact_result",
       "sha256": "60941e77cf5b50b6d5b0e035474585bd0f1631f02cd4343e6a81b4af72dec5d3"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/INDEPENDENT_CASES.jsonl.gz",
+      "role": "source_or_compact_result",
+      "sha256": "f32645d39e68ff7c5f258294224acaac6a5748423e4e1c50494782f4d2d44584"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/INDEPENDENT_COMPLETE_VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "86e0f00ea9592a0c7b4a8142e63f2cb9ea735c3746f42564aa3424bc0130daf7"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/INDEPENDENT_FLOW_BENCHMARK.json",
+      "role": "source_or_compact_result",
+      "sha256": "4f6736188150935311ea50950f6ae4cb6e8bc8500eeacd814f637e183d5c3692"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/INDEPENDENT_PACKING.json",
+      "role": "source_or_compact_result",
+      "sha256": "62d77116b071f704e76c387a14356d6f84b479c5cf3b7fa31892749c4c643fab"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/INDEPENDENT_PLAN_VALIDATION.json",
@@ -125,17 +145,22 @@
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/README.md",
       "role": "source_or_compact_result",
-      "sha256": "3d03974017021292357d5206fef97198ce3bac5aa0cacce0b3607b2e9cc6d71a"
+      "sha256": "677f0ee995baf53b3054963a554c766f7b7f5829ecdfcbef078a2d45b3d9c9f8"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/RESULT.json",
       "role": "source_or_compact_result",
-      "sha256": "23b1f42f69f997b5e445729a4b81e990fc79421e21ffd924e75afe9ef913ee2e"
+      "sha256": "e8117847b51eb31a090994463c57eea9f0967ee66993b42c039f59e95caa9c21"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/SCOPE.json",
       "role": "source_or_compact_result",
       "sha256": "ca7212181187916627fd979c10257e9ff4e1a4988a271ef21998a7241c752e24"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "5f2b728c26fc5ca1af6c5dccf5688b1f5c86e209d23afc8f54f943d6a3dae7e9"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/WITNESS_ROLLUP.json",
@@ -148,9 +173,14 @@
       "sha256": "24303b27697aa898429f35f4cd6c77aa1f6f4006fddd464f5c18031eed4ef3f6"
     },
     {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/pack_independent.py",
+      "role": "source_or_compact_result",
+      "sha256": "2aaddbf89a2ebebbdd6a48652a1ed8a25c9075ad23cf1b4dda50165c86e3f86a"
+    },
+    {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/reproduce.py",
       "role": "source_or_compact_result",
-      "sha256": "bc6f74f33e2f1662fffbf80dd81564852c187d0cc3b10a9a479c56b70b99d3bc"
+      "sha256": "e1db7415a8f7481dec455f76cbc75ddf5cf24bdcb48ca6da9e3b97c9b50660b1"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/run.py",
@@ -160,10 +190,15 @@
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/validate.py",
       "role": "source_or_compact_result",
-      "sha256": "22765656eba066d35f0f83c7a77b08ec7380ec72488b4dd218ee508f76b6c969"
+      "sha256": "37090f5d2f1c349b2f0b184be375808b01c22bc775893bb821da636598eb115d"
     },
     {
       "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/validate_complete.py",
+      "role": "source_or_compact_result",
+      "sha256": "ce982fa048f1599aed34c8ac7f79d683075524e3092f2182339ad29cf19697e9"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/validate_complete_v3.py",
       "role": "source_or_compact_result",
       "sha256": "dd557e9b1901f65f8e3dd46c62828d66faf987a3ea8162ae0e878ff37fef4838"
     }
@@ -175,11 +210,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "complete_cv_key_enumeration",
-  "status": "PRIMARY_ENUMERATION_COMPLETE_VALIDATION_PENDING",
+  "status": "COMPLETE_NO_GRAMMAR_KEY",
   "title": "Complete enumeration of unchanged GDT905 observed CV keys",
   "updated": "2026-09-10",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
