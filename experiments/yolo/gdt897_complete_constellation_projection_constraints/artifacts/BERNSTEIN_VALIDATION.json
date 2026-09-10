@@ -1,0 +1,33 @@
+{
+  "schema": "GDT897_BERNSTEIN_VALIDATION_V1",
+  "status": "PASS",
+  "old_packet_sha256": "c1e874daee4c5c56cb2fdef22ae37f6f70e897a80838eddd56b81fbcbcb90ac8",
+  "refined_packet_sha256": "f49b7cf35039d14a7e4237471dfec71669071824ea584657fe1cd6d3c4e8bc61",
+  "unchanged": "allsourcevectors/sourcecases, exactboxes, source_signs, completeinventoryalternatives, bothprojectioncontracts; gnomonic results preserved",
+  "method": "exactBernsteincontrolrowdeterminant_signrange, independently identical completeCSV, intersectv1masks",
+  "kernels": {
+    "bernstein.cpp": "547148ff0c2eda1c4971463417092f1d576d62b277a324aeb5f9e9be8a75074c",
+    "bernstein_reference.cpp": "525bda71cf7f0eee4b324bc3d2c321ae8d31957f2f452ee480cfb4adc1f5ba3f"
+  },
+  "targets": {
+    "LEFT29": {
+      "canonical_tuples": 23751,
+      "mask_counts": {
+        "7": 16668,
+        "1": 3785,
+        "4": 3298
+      },
+      "independent_csv_sha256": "bff101dd365c0e5bee44f74cebfd889326f05e7640a96542782999d9488a7f18"
+    },
+    "LEFT30": {
+      "canonical_tuples": 27405,
+      "mask_counts": {
+        "7": 18406,
+        "1": 4896,
+        "4": 4103
+      },
+      "independent_csv_sha256": "5d978b62f9ebb56e27cac7bcd4a4aed9c7ae7a181e4e31038410d8bbe073af52"
+    }
+  },
+  "scope": "necessary-sign precision only; no continuousfit or meaning"
+}

@@ -1,0 +1,106 @@
+{
+  "schema": "GDT897_REFINED_VALIDATION_V1",
+  "status": "PASS_WITH_UNREPRODUCED_EXCLUSIONS",
+  "freeze_commit": "2fd54a53",
+  "frozen_sha256": {
+    "src/bernstein.cpp": "547148ff0c2eda1c4971463417092f1d576d62b277a324aeb5f9e9be8a75074c",
+    "src/bernstein_reference.cpp": "525bda71cf7f0eee4b324bc3d2c321ae8d31957f2f452ee480cfb4adc1f5ba3f",
+    "src/prepare_refined.py": "d244d5c72942a878968b92db00d926170061269378d3091b1f777257d846488a",
+    "src/run_refined.py": "39ddf24a3a9824c75d89fed5786e65011da00ef638e906201aea357e3090562a",
+    "src/search.cpp": "4012749d1b38c83a9c5d957d216ab42d256f387f714525d5b6a4652e239fd686",
+    "src/run.py": "6ebe3fe56b0851d5efaae2be769a1dbffdf24e573bdc4016980e1c01596eb415",
+    "src/independent_search.py": "765f2a5fde17cb5a5ff688307848ee0a880f6fcd0611ca627101f3d6c9119b48",
+    "artifacts/PRECISION_AMENDMENT.json": "7abb484e014cd58d0986366c0062fb9d3c7a41249b32220c824a78f811c6f5b2",
+    "artifacts/SEARCH_PACKET.json.gz": "c1e874daee4c5c56cb2fdef22ae37f6f70e897a80838eddd56b81fbcbcb90ac8"
+  },
+  "input_sha256": {
+    "SEARCH_PACKET.json.gz": "c1e874daee4c5c56cb2fdef22ae37f6f70e897a80838eddd56b81fbcbcb90ac8",
+    "BERNSTEIN_PACKET.json.gz": "f49b7cf35039d14a7e4237471dfec71669071824ea584657fe1cd6d3c4e8bc61",
+    "BERNSTEIN_VALIDATION.json": "dbcd82a83c6d18072768fb10140e79e719a0306af48a35a25963e2d6fc1f68fd",
+    "REFINED_RESULT.json": "d64f5c9bb883b45fa57b581cf1ee1fabc23672993da7fc19addaa7d9a48e9e45",
+    "REFINED_INDEPENDENT_RESULT.json": "ceca0986aaee13c12f9dc5950ce24af9c73e3e5ee89c5d4c27a218d6aab83680",
+    "PRECISION_AMENDMENT.json": "7abb484e014cd58d0986366c0062fb9d3c7a41249b32220c824a78f811c6f5b2"
+  },
+  "validator_sha256": "10cb4c0f86b33f8bcb0b360057dc180b78cf1edfae4be7efc57bf549d489bca5",
+  "unchanged_source_cases_and_boxes": true,
+  "only_original_stereographic_cases": true,
+  "all_refined_masks_subset_original": true,
+  "alternating_target_tensor_cells_checked": 1517281,
+  "changed_target_tensor_cells": 385968,
+  "bernstein_kernel_validation": "PASS",
+  "ordered_witness_tuples_checked": 0,
+  "unreproduced_primary_exclusions": 1,
+  "cases": [
+    {
+      "case_id": "LEFT29|C07:FORMED|stereographic",
+      "status": "UNKNOWN_BUDGET_NO_EXCLUSION",
+      "primary_orientations": {
+        "1": "UNKNOWN_BUDGET",
+        "-1": "UNKNOWN_BUDGET"
+      },
+      "independent_orientations": {
+        "1": "UNKNOWN_BUDGET",
+        "-1": "UNKNOWN_BUDGET"
+      },
+      "independent_status": "UNKNOWN_BUDGET",
+      "witness_checks": []
+    },
+    {
+      "case_id": "LEFT29|C11:FULL|stereographic",
+      "status": "UNKNOWN_BUDGET_NO_EXCLUSION",
+      "primary_orientations": {
+        "1": "UNKNOWN_BUDGET",
+        "-1": "UNKNOWN_BUDGET"
+      },
+      "independent_orientations": {
+        "1": "UNKNOWN_BUDGET",
+        "-1": "UNKNOWN_BUDGET"
+      },
+      "independent_status": "UNKNOWN_BUDGET",
+      "witness_checks": []
+    },
+    {
+      "case_id": "LEFT29|C13:FULL|stereographic",
+      "status": "UNKNOWN_BUDGET_NO_EXCLUSION",
+      "primary_orientations": {
+        "1": "UNKNOWN_BUDGET",
+        "-1": "UNKNOWN_BUDGET"
+      },
+      "independent_orientations": {
+        "1": "UNKNOWN_BUDGET",
+        "-1": "UNKNOWN_BUDGET"
+      },
+      "independent_status": "UNKNOWN_BUDGET",
+      "witness_checks": []
+    },
+    {
+      "case_id": "LEFT29|C38:FULL|stereographic",
+      "status": "UNKNOWN_BUDGET_NO_EXCLUSION",
+      "primary_orientations": {
+        "1": "UNKNOWN_BUDGET",
+        "-1": "UNKNOWN_BUDGET"
+      },
+      "independent_orientations": {
+        "1": "UNKNOWN_BUDGET",
+        "-1": "UNKNOWN_BUDGET"
+      },
+      "independent_status": "UNKNOWN_BUDGET",
+      "witness_checks": []
+    },
+    {
+      "case_id": "LEFT30|C07:FULL|stereographic",
+      "status": "PRIMARY_EXCLUSION_NOT_INDEPENDENTLY_REPRODUCED",
+      "primary_orientations": {
+        "1": "UNSAT_INVARIANTS",
+        "-1": "UNSAT_INVARIANTS"
+      },
+      "independent_orientations": {
+        "1": "UNKNOWN_BUDGET",
+        "-1": "UNKNOWN_BUDGET"
+      },
+      "independent_status": "UNKNOWN_BUDGET",
+      "witness_checks": []
+    }
+  ],
+  "claim_ceiling": "Provenance and necessary-invariant result validation only. UNKNOWN does not contradict UNSAT and does not certify exclusion. No continuous map or celestial/name identification."
+}

@@ -25,12 +25,12 @@ Independent fullsource/domain/CVvalidationPASS; no meanings orautomaticrepair.
 398projected895entries. ZL/IT/RFall20indices lackmandatoryrundomains; consensus
 5remainingwholeentry/indexcases have0rings. IndependentcompletevalidationPASS.
 No generalrotorrefutation, meanings orautomaticrepair.
-897inprogress: MIDDLE59 exceedsall96wholecatalogueunits(max45); LEFT29/30
-uncertaintyalternatives retained. Primarygnu excludesall5cases; independent
-reproduces1,4timeout. Stereo v1alltargetmasks7: uninformative, no lead.
-OnefixedBernsteinprecision amendment; unchangedboxes/source, no subdivisions;
-precisiondeadline00:24, overall01:08UTC. Sameadmittedcanvas, no meanings.
+897closed: MIDDLE59 exceedswholecatalogueunitmax45; LEFT29/30retained.
+Gnomonicprimaryall5UNSAT; independent1reproduced/4timeout. Stereo v1vacuous;
+fixedBernsteinverified. RefinedLEFT29all4UNKNOWNboth; LEFT30primaryUNSAT/independentUNKNOWN.
+No continuousfit, identity, newpage ormeaning; no projection/source/optimizerfollow-on.
 Primary: experiments/yolo/gdt897_complete_constellation_projection_constraints/REPORT.md.
+Cisiojanus completecycle/source coupling underreview, notselected.
 128Llull chamber macros sourced; fixed10-letter complete-line morphism conflicts
 with882rank20 on its certificate scope. Narrow ordered-table domain remainsunbound.
 LatInfLexi excludes medieval vocabulary; no Voynich-language inference.

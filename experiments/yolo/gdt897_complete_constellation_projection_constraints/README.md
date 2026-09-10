@@ -1,6 +1,5 @@
 # GDT897: complete constellation projection constraints
 
-See REPORT.md for the initial gnomonic exclusions and uninformative stereo
-relaxation. METHOD.md and src/SPEC.json preserve the initial contract;
-artifacts/PRECISION_AMENDMENT.json registers one fixed interval refinement.
-No continuous projection or celestial/linguistic identification is established.
+Closed with unresolved LEFT29 stereographic cases; see REPORT.md for exact
+primary versus independently reproduced exclusions. No continuous map,
+celestial identification, translation or further solver pass is selected.
