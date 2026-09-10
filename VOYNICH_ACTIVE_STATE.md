@@ -6,13 +6,13 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-GDT900selected:36completeCumanicus trilingualpresent/imperfectcells independently
-collated; fourdeletionvariants,3unitizations and12traversals fixedbeforefit.
-All6925eligibleodd18-groupwindows independentlyreplayed; no key/meaning yet.
+GDT900closed:all576completeCumanicustable cases excluded; independent720component
+whole-windowproofPASS. Fourdeletionvariants3unitizations12sharedtraversals; no
+keysearchneeded. Conditionalcopy/channel/scopeonly; no generalmultilingualclaim.
 
-GDT899selected: bothcomplete12-house Mercury-Saturn/Jupiter registers independently
-collated;24conditiontraces61atoms fixedbeforetargetfit. Source/projectionvalidation
-PASS; jointprefixfreecode/wholeparagraphassignment pending, no meanings.
+GDT899closed:24completeMS/MJconditiontraces61atoms; all6globalheaders UNKNOWN
+inbothsolvers. No key, exclusion or projections; source/oddtarget/resultreceipts
+independentlyvalidated. No automatic source/compiler/optimizerrepair or meanings.
 
 Current2026-09-09 continuation:892control capacity-stopped before cipher/fit;
 893three exact source-montage panels and ITunknown;894fixed adjacentcopy

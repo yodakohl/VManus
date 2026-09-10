@@ -1,0 +1,210 @@
+{
+  "schema": "GDT899_INDEPENDENT_RESULT_VALIDATION_V1",
+  "status": "PASS_ALL12_RESULTS_UNRESOLVED",
+  "sealed_utc": "2026-09-10T01:57:49.045464+00:00",
+  "source_sha256": "ee1f78c739102e46db5f2dd2b0fb9c76182fff716ed4b4e4efc3e7d93308ac81",
+  "target_sha256": "d360ccbcbae0641b33d4af5e36ae5e121baacbe482334dc2f18bc490a6f3dd40",
+  "source_validation_sha256": "0322fa04d5f105355572a17241fb54a42dde43163c8046f3a9568aa5929d54eb",
+  "primary_validation_sha256": "cca24d093fc06469d9ffeb0eb9405cde35dc6282bea2af588de26771a438f16f",
+  "solver_code_sha256": {
+    "run.py": "3d17bc1115fac803c879704c8c85bda02f1794e8f118ce6ea7fdbec9cc116980",
+    "independent_z3.py": "58aebf87508b09b60d6edbb929d587d860532e3734f46995213b25da7d1caea7",
+    "run_all.py": "c6ae24e617e362c8ca39d40d300bb4a731a5ad4ae7768fa1c9b00df054a42110"
+  },
+  "registered_program_count": 24,
+  "header_orders_per_engine": 6,
+  "case_count": 12,
+  "result_totals": {
+    "SAT": 0,
+    "UNSAT": 0,
+    "UNKNOWN": 12
+  },
+  "witnesses_recorded": 0,
+  "projection_results_recorded": 0,
+  "attempted_panel": "IT2a",
+  "distinct_target_text_capacity": {
+    "ZL3b": 14,
+    "IT2a": 259,
+    "RF1b": 11,
+    "CONSENSUS": 1
+  },
+  "capacity_excluded_panels": [
+    "ZL3b",
+    "RF1b",
+    "CONSENSUS"
+  ],
+  "capacity_reason": "Each of these panels contains fewer than24 distinct complete target texts, so it cannot host24 distinct program outputs. This capacity exclusion is separate from unresolved IT2a fitting.",
+  "checks": [
+    "All12 receipts bind the same frozen source and target.",
+    "Each engine covers each of the six registered global header permutations once.",
+    "All11 internal solver receipts agree on derived atom-length bounds; the external-timeout receipt carries no such bounds.",
+    "All12 receipt hashes agree with primary VALIDATION.json.",
+    "No recorded SAT witness or projection result exists; UNKNOWN is not promoted to UNSAT or a meaning claim."
+  ],
+  "timeout_accounting": {
+    "case_budget_seconds": 1200,
+    "driver_outer_allowance_seconds": 20,
+    "cvc5_external_timeout_case": "case_00.json",
+    "cvc5_external_elapsed_seconds": 1220.1122879078612,
+    "note": "Preserve original internal timeout-return overhead and the one outer1220s timeout. External termination proves no solver decision. No case was restarted."
+  },
+  "cases": [
+    {
+      "artifact": "cvc5/case_00.json",
+      "sha256": "edf5f60364c0546cd84f07a74c13d7ca61b2e578a1b3564b849db1510d985db9",
+      "header_order": [
+        "location",
+        "mercury",
+        "companion"
+      ],
+      "status": "UNKNOWN_EXTERNAL_TIMEOUT",
+      "reason": "UNKNOWN_EXTERNAL_TIMEOUT",
+      "elapsed_seconds": 1220.1122879078612,
+      "solver_version_as_reported": null
+    },
+    {
+      "artifact": "cvc5/case_01.json",
+      "sha256": "1d094a1a80c12bdb4bcb9dc2adcb99e34e9f637a77d655b9bd7e62c5e62e22e9",
+      "header_order": [
+        "location",
+        "companion",
+        "mercury"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "reason": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "elapsed_seconds": 1200.0852688171435,
+      "solver_version_as_reported": "1.3.4-modified"
+    },
+    {
+      "artifact": "cvc5/case_02.json",
+      "sha256": "c0544659a9e604f92ab2fe479cf1a1e0db972810fad30c21be22b4fdff35e2ff",
+      "header_order": [
+        "mercury",
+        "location",
+        "companion"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "reason": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "elapsed_seconds": 1200.1658097640611,
+      "solver_version_as_reported": "1.3.4-modified"
+    },
+    {
+      "artifact": "cvc5/case_03.json",
+      "sha256": "992236cc9ef2a96f3b8f8c8f1dedd8d231014ba1d91456d1eda65d41fc58609b",
+      "header_order": [
+        "mercury",
+        "companion",
+        "location"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "reason": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "elapsed_seconds": 1200.055562373018,
+      "solver_version_as_reported": "1.3.4-modified"
+    },
+    {
+      "artifact": "cvc5/case_04.json",
+      "sha256": "2368f6b036e67b4822bcbfba310bf6cbc71bd7ce46099f5504675a33d3a54f3f",
+      "header_order": [
+        "companion",
+        "location",
+        "mercury"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "reason": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "elapsed_seconds": 1200.0463678280357,
+      "solver_version_as_reported": "1.3.4-modified"
+    },
+    {
+      "artifact": "cvc5/case_05.json",
+      "sha256": "12b6eaedc225298779d20ddbea1ef3bf86fa0450930b1cdf1638c066faca21d9",
+      "header_order": [
+        "companion",
+        "mercury",
+        "location"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "reason": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "elapsed_seconds": 1200.0151068109553,
+      "solver_version_as_reported": "1.3.4-modified"
+    },
+    {
+      "artifact": "z3/case_00.json",
+      "sha256": "f467786bf0fb165734af62f81f888b7f739d9f11554326ad5b41231f6d37cb5b",
+      "header_order": [
+        "location",
+        "mercury",
+        "companion"
+      ],
+      "status": "UNKNOWN",
+      "reason": "timeout",
+      "elapsed_seconds": 1200.5961277771275,
+      "solver_version_as_reported": "4.15.3"
+    },
+    {
+      "artifact": "z3/case_01.json",
+      "sha256": "fda78c022c2aa512ba1aa4b04ed302f18ebd7d5c28c19f982c438fa50bb94447",
+      "header_order": [
+        "location",
+        "companion",
+        "mercury"
+      ],
+      "status": "UNKNOWN",
+      "reason": "timeout",
+      "elapsed_seconds": 1200.5975288678892,
+      "solver_version_as_reported": "4.15.3"
+    },
+    {
+      "artifact": "z3/case_02.json",
+      "sha256": "38056c49c9d8c2f0ebd9e5e500e36bdd28dbe72cc0142c59e2fc05e5f7b985ad",
+      "header_order": [
+        "mercury",
+        "location",
+        "companion"
+      ],
+      "status": "UNKNOWN",
+      "reason": "timeout",
+      "elapsed_seconds": 1200.6593277018983,
+      "solver_version_as_reported": "4.15.3"
+    },
+    {
+      "artifact": "z3/case_03.json",
+      "sha256": "13bb10b1f36051882293399c31fdcd2fc4a4c79622d7ce4c963228b5209a0a94",
+      "header_order": [
+        "mercury",
+        "companion",
+        "location"
+      ],
+      "status": "UNKNOWN",
+      "reason": "timeout",
+      "elapsed_seconds": 1200.818324945867,
+      "solver_version_as_reported": "4.15.3"
+    },
+    {
+      "artifact": "z3/case_04.json",
+      "sha256": "1c662ed21a8754bfb0d7e19cbdf9a846116736ca0138168c75fe1b2ebdbbbe65",
+      "header_order": [
+        "companion",
+        "location",
+        "mercury"
+      ],
+      "status": "UNKNOWN",
+      "reason": "timeout",
+      "elapsed_seconds": 1200.4960461149458,
+      "solver_version_as_reported": "4.15.3"
+    },
+    {
+      "artifact": "z3/case_05.json",
+      "sha256": "0643fdc6cf406a9f4a7c3ed529cd38afe516fc5249019e28a698da45005fb903",
+      "header_order": [
+        "companion",
+        "mercury",
+        "location"
+      ],
+      "status": "UNKNOWN",
+      "reason": "timeout",
+      "elapsed_seconds": 1200.6893013289664,
+      "solver_version_as_reported": "4.15.3"
+    }
+  ],
+  "claim_ceiling": "The attempted IT2a complete-model question remains unresolved for all six header orders in both solvers. Source fidelity and below24 panel capacities are separate findings; there is no recovered code, prognosis identification, or transferable reading."
+}

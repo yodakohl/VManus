@@ -16,8 +16,8 @@ a feasible230-wordselection; maximum/projection UNKNOWN, no moreoptimizer.
 894bothfixedadjacentdirectionscontradictthat26-valuekey beforefirstuncertainty
 barriers:9safepriorpositions/4conflicts,19following/4conflicts. Independent
 guard/sourcevalidationPASS. LiteralRFcopylawonly; no transferablemeaning.
-900selected: two complete Cumanicus18-cell trilingualsubtables, four source
-variants; sharedletter/disjointpaircode andall18-group oddwindows frozen.
+900closed:bothcompleteCumanicus18-celltables,4variants3unitizations12orders
+have0domains allpanels; independentcompleteproof. No generalmultilingualrefutation.
 895closed:1016completeSimonentries13270words; totalCVcopylawhas0solutions.
 ZL12/14,IT233/259,RF8/11emptydomains; CONS24entriesx6vowelsalllength-conflict.
 Independent fullsource/domain/CVvalidationPASS; no meanings orautomaticrepair.
@@ -33,8 +33,8 @@ Primary: experiments/yolo/gdt897_complete_constellation_projection_constraints/R
 898closed: all28editedFebruarycells distinct; f69v14/18wholeokeodall3readings.
 InjectiveprefixcodeimpossibleforANYbijection; independentrawreplayPASS.
 Originaldiplomatictext/orderunresolved; conditionalCHDmodelonly, no meanings.
-899selected:24completeAstrolabiumMS/MJ conditiontraces,61atoms independently
-collated; source/compilerfrozen. Jointprefixfreecode+paragraphassignmentfitnext.
+899closed:24wholeMS/MJconditiontraces;6headersALLUNKNOWNbothengines.
+No key/exclusion/projections; no automatic source/compiler/solverrepair.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
 User-requested10h ACTIVE research started2026-09-09 01:58:34UTC.
 Resumed16:59UTC after interruption; inactive gap does not count (active timer~3h28).

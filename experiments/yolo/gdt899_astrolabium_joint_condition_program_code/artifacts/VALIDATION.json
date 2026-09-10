@@ -1,11 +1,132 @@
 {
   "schema": "GDT899_VALIDATION_V1",
   "status": "PASS",
-  "phase": "REGISTERED_INPUTS_ONLY",
+  "phase": "RESULTS",
   "source_sha256": "ee1f78c739102e46db5f2dd2b0fb9c76182fff716ed4b4e4efc3e7d93308ac81",
   "target_sha256": "d360ccbcbae0641b33d4af5e36ae5e121baacbe482334dc2f18bc490a6f3dd40",
   "compiled_complete_source_programs": 24,
   "header_orders": 6,
-  "checked_cases": [],
+  "checked_cases": [
+    {
+      "engine": "cvc5",
+      "header_order": [
+        "location",
+        "mercury",
+        "companion"
+      ],
+      "status": "UNKNOWN_EXTERNAL_TIMEOUT",
+      "artifact_sha256": "edf5f60364c0546cd84f07a74c13d7ca61b2e578a1b3564b849db1510d985db9"
+    },
+    {
+      "engine": "cvc5",
+      "header_order": [
+        "location",
+        "companion",
+        "mercury"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "artifact_sha256": "1d094a1a80c12bdb4bcb9dc2adcb99e34e9f637a77d655b9bd7e62c5e62e22e9"
+    },
+    {
+      "engine": "cvc5",
+      "header_order": [
+        "mercury",
+        "location",
+        "companion"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "artifact_sha256": "c0544659a9e604f92ab2fe479cf1a1e0db972810fad30c21be22b4fdff35e2ff"
+    },
+    {
+      "engine": "cvc5",
+      "header_order": [
+        "mercury",
+        "companion",
+        "location"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "artifact_sha256": "992236cc9ef2a96f3b8f8c8f1dedd8d231014ba1d91456d1eda65d41fc58609b"
+    },
+    {
+      "engine": "cvc5",
+      "header_order": [
+        "companion",
+        "location",
+        "mercury"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "artifact_sha256": "2368f6b036e67b4822bcbfba310bf6cbc71bd7ce46099f5504675a33d3a54f3f"
+    },
+    {
+      "engine": "cvc5",
+      "header_order": [
+        "companion",
+        "mercury",
+        "location"
+      ],
+      "status": "UNKNOWN_UnknownExplanation.TIMEOUT",
+      "artifact_sha256": "12b6eaedc225298779d20ddbea1ef3bf86fa0450930b1cdf1638c066faca21d9"
+    },
+    {
+      "engine": "z3",
+      "header_order": [
+        "location",
+        "mercury",
+        "companion"
+      ],
+      "status": "UNKNOWN",
+      "artifact_sha256": "f467786bf0fb165734af62f81f888b7f739d9f11554326ad5b41231f6d37cb5b"
+    },
+    {
+      "engine": "z3",
+      "header_order": [
+        "location",
+        "companion",
+        "mercury"
+      ],
+      "status": "UNKNOWN",
+      "artifact_sha256": "fda78c022c2aa512ba1aa4b04ed302f18ebd7d5c28c19f982c438fa50bb94447"
+    },
+    {
+      "engine": "z3",
+      "header_order": [
+        "mercury",
+        "location",
+        "companion"
+      ],
+      "status": "UNKNOWN",
+      "artifact_sha256": "38056c49c9d8c2f0ebd9e5e500e36bdd28dbe72cc0142c59e2fc05e5f7b985ad"
+    },
+    {
+      "engine": "z3",
+      "header_order": [
+        "mercury",
+        "companion",
+        "location"
+      ],
+      "status": "UNKNOWN",
+      "artifact_sha256": "13bb10b1f36051882293399c31fdcd2fc4a4c79622d7ce4c963228b5209a0a94"
+    },
+    {
+      "engine": "z3",
+      "header_order": [
+        "companion",
+        "location",
+        "mercury"
+      ],
+      "status": "UNKNOWN",
+      "artifact_sha256": "1c662ed21a8754bfb0d7e19cbdf9a846116736ca0138168c75fe1b2ebdbbbe65"
+    },
+    {
+      "engine": "z3",
+      "header_order": [
+        "companion",
+        "mercury",
+        "location"
+      ],
+      "status": "UNKNOWN",
+      "artifact_sha256": "0643fdc6cf406a9f4a7c3ed529cd38afe516fc5249019e28a698da45005fb903"
+    }
+  ],
   "limit": "UNSAT statuses are solver results, not independently checked proof objects; timeout is unresolved."
 }

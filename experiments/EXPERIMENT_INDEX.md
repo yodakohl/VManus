@@ -911,5 +911,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT896 | GDT896_complete_entry_rotor | `ALL_FOUR_PANELS_UNSAT` | [report](../experiments/yolo/gdt896_alberti_complete_entry_rotor/REPORT.md) | 16 | 490.3 KiB | 4 | STRUCTURED_YOLO |
 | GDT897 | GDT897_fixed_bernstein_projection_constraints | `CLOSED_WITH_UNRESOLVED_STEREOGRAPHIC_CASES` | [report](../experiments/yolo/gdt897_complete_constellation_projection_constraints/REPORT.md) | 40 | 2.3 MiB | 2 | STRUCTURED_YOLO |
 | GDT898 | GDT898_complete_cisiojanus_cycle | `CONDITIONAL_EDITED_SOURCE_ALL_THREE_PANELS_UNSAT` | [report](../experiments/yolo/gdt898_cisiojanus_complete_cycle_compositional_code/REPORT.md) | 13 | 53.8 KiB | 2 | STRUCTURED_YOLO |
-| GDT899 | GDT899_SOURCE_COMPILER_FREEZE | `REGISTERED_SOURCE_AND_TARGET_VALIDATED` | [report](../experiments/yolo/gdt899_astrolabium_joint_condition_program_code/METHOD.md) | 20 | 868.3 KiB | 2 | STRUCTURED_YOLO |
-| GDT900 | GDT900_SOURCE_COMPILER_FREEZE | `REGISTERED_SOURCE_AND_TARGET_VALIDATED` | [report](../experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/METHOD.md) | 19 | 4.3 MiB | 1 | STRUCTURED_YOLO |
+| GDT899 | GDT899_COMPLETE_MODEL_RESULT | `ALL_SIX_HEADERS_UNKNOWN_BOTH_ENGINES` | [report](../experiments/yolo/gdt899_astrolabium_joint_condition_program_code/REPORT.md) | 35 | 910.6 KiB | 2 | STRUCTURED_YOLO |
+| GDT900 | GDT900_COMPLETE_MODEL_RESULT | `ALL_FOUR_PANELS_UNSAT_INDEPENDENTLY_PROVED` | [report](../experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/REPORT.md) | 24 | 8.5 MiB | 1 | STRUCTURED_YOLO |
