@@ -36,7 +36,10 @@ Originaldiplomatictext/orderunresolved; conditionalCHDmodelonly, no meanings.
 899closed:24wholeMS/MJconditiontraces;6headersALLUNKNOWNbothengines.
 No key/exclusion/projections; no automatic source/compiler/solverrepair.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
-901/902excluded.136sourcecomplete/compilerunfinished;129early11-outputexamplematches; fullrules/targetunbound.
+901/902excluded.129early11-outputexamplematches; fullrules/targetunbound.
+904/136closed:full38-recordwordcode excluded;IT259P02/R02zero,independent518UNSAT.
+7otherlocalUNKNOWNpreserved;otherpanelsbelow38records;nohelddata/meaning/repair.
+Primary:experiments/yolo/gdt904_vinidarius_complete_relational_register/REPORT.md.
 903closed:properinfinite-indexH; explicit10451-statecompatibility, noidentifiedrule.
 GDT882:413all3-concordant lines43leaves20literal characters; integer lattice
 Z^20, index1; independent C D=I verificationPASS. No nonzero fixed additive
@@ -102,10 +105,8 @@ experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md.
 User withdrew global_reconstruction_plan as repetition; it is NOT the next route.
 Minimal documentation requested; no administrative source-check series.
 
-Earlier targeted translation plan prepared 2026-09-08:
-research_registry/proposals/translation_reconstruction_plan.md.
-10h continuation active:2026-09-08 13:27:56UTC; earliestend23:27:56UTC.
-Session:research_registry/decisions/semantic_10h_translation_session.md.
+Earlier translation plan2026-09-08:research_registry/proposals/translation_reconstruction_plan.md.
+Old10h2026-09-08:research_registry/decisions/semantic_10h_translation_session.md.
 878firstnativepass complete:7fixedrootanchors source-guided;no crossedconstruction.
 B12medallions distinguish3coarsered-area states includingzero;reusablebindingfalse.
 Differentobservers/endpoints;prior/preliminarysummaryexposure disclosed;no measured
@@ -144,8 +145,7 @@ No sharedlongerimmediateformula/meaning; qi1_pair_context_followup.md.
 QJ parks selectedQH/QI repeat/framebranch:642/761alreadygrid/sharedcontexts,
 no independentsemanticcontrast. Reopenconditions:qj1_text_pattern_branch_decision.md.
 
-4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
-Session:research_registry/decisions/semantic_4h_followon_session.md.
+Completed4h2026-09-08:research_registry/decisions/semantic_4h_followon_session.md.
 No next semantic experiment selected;47rawproposals remainunreviewed.
 111raw/110unique;57method;87/102/104/105/110/111semanticnot-tested.
 No automatic decoder/control/atlas follow-on.

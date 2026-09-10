@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **902**
-- Experiment-associated tracked files: **17,039** (1.5 GiB)
-- Structured GDT337+ experiments: **567**
+- Experiments indexed: **903**
+- Experiment-associated tracked files: **17,079** (1.5 GiB)
+- Structured GDT337+ experiments: **568**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,39 +20,11 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT904 | Complete Vinidarius relational register under one global word code | `REGISTERED_UNSCORED` | — | 12 | 423.9 KiB | 2 | STRUCTURED_YOLO |
-| GDT903 | GDT903_COMPLETE_MODEL_RESULT | `PROPER_SUBGROUP_EXPLICIT_FINITE_COMPATIBILITY` | [report](../experiments/yolo/gdt903_universal_reversible_line_action/REPORT.md) | 22 | 6.2 MiB | 2 | STRUCTURED_YOLO |
-| GDT902 | GDT902_COMPLETE_MODEL_RESULT | `ALL_PANELS_EXCLUDED_BY_NECESSARY_CONSTRAINTS` | [report](../experiments/yolo/gdt902_treviso_complete_multiplication_register/REPORT.md) | 25 | 2.5 MiB | 3 | STRUCTURED_YOLO |
-| GDT901 | GDT901_COMPLETE_MODEL_RESULT | `ALL_TEN_CASES_UNSAT_INDEPENDENT_COUNT_HEAD_CONFIRMATION` | [report](../experiments/yolo/gdt901_solmization_joint_relational_lexicon/REPORT.md) | 112 | 5.8 MiB | 2 | STRUCTURED_YOLO |
-| GDT900 | GDT900_COMPLETE_MODEL_RESULT | `ALL_FOUR_PANELS_UNSAT_INDEPENDENTLY_PROVED` | [report](../experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/REPORT.md) | 24 | 8.5 MiB | 1 | STRUCTURED_YOLO |
-| GDT899 | GDT899_COMPLETE_MODEL_RESULT | `ALL_SIX_HEADERS_UNKNOWN_BOTH_ENGINES` | [report](../experiments/yolo/gdt899_astrolabium_joint_condition_program_code/REPORT.md) | 35 | 910.6 KiB | 2 | STRUCTURED_YOLO |
-| GDT898 | GDT898_complete_cisiojanus_cycle | `CONDITIONAL_EDITED_SOURCE_ALL_THREE_PANELS_UNSAT` | [report](../experiments/yolo/gdt898_cisiojanus_complete_cycle_compositional_code/REPORT.md) | 13 | 53.8 KiB | 2 | STRUCTURED_YOLO |
-| GDT897 | GDT897_fixed_bernstein_projection_constraints | `CLOSED_WITH_UNRESOLVED_STEREOGRAPHIC_CASES` | [report](../experiments/yolo/gdt897_complete_constellation_projection_constraints/REPORT.md) | 40 | 2.3 MiB | 2 | STRUCTURED_YOLO |
-| GDT896 | GDT896_complete_entry_rotor | `ALL_FOUR_PANELS_UNSAT` | [report](../experiments/yolo/gdt896_alberti_complete_entry_rotor/REPORT.md) | 16 | 490.3 KiB | 4 | STRUCTURED_YOLO |
-| GDT895 | GDT895_complete_entry_cv | `ALL_FOUR_PANELS_UNSAT` | [report](../experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md) | 29 | 13.0 MiB | 5 | STRUCTURED_YOLO |
-| GDT894 | GDT894_fixed_adjacent_copy | `CONTRADICTED_BOTH_DIRECTIONS_LITERAL_RF` | [report](../experiments/yolo/gdt894_forced_source_adjacent_copy/REPORT.md) | 15 | 215.2 KiB | 2 | STRUCTURED_YOLO |
-| GDT893 | GDT893_budget_completion | `THREE_EXACT_PANELS_IT_UNKNOWN` | [report](../experiments/yolo/gdt893_global_source_montage_word_code/REPORT.md) | 60 | 265.6 KiB | 7 | STRUCTURED_YOLO |
-| GDT892 | GDT892 | `INSUFFICIENT_ELIGIBLE_SENTENCES` | [report](../experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md) | 25 | 111.9 KiB | 6 | STRUCTURED_YOLO |
-| GDT891 | GDT891 | `SOURCE_LABELS_CONFIRMED_ATTRIBUTES_PARTIAL` | [report](../experiments/yolo/gdt891_lull_vegetative_source/REPORT.md) | 12 | 18.7 KiB | 2 | STRUCTURED_YOLO |
-| GDT890 | GDT890_f77_component_detail | `STOP_MISSING_COMPLETE_BOUNDARIES` | [report](../experiments/yolo/gdt890_f77_component_detail/REPORT.md) | 14 | 30.2 KiB | 5 | STRUCTURED_YOLO |
-| GDT889 | GDT889_whole_form_edit_capacity | `EXACT_FINITE_CAPACITY_20` | [report](../experiments/yolo/gdt889_whole_form_edit_capacity/REPORT.md) | 11 | 69.7 KiB | 2 | STRUCTURED_YOLO |
-| GDT888 | GDT888_alphita_joint_name_incidence | `COMPLETE_FIT_UNIDENTIFIED` | [report](../experiments/yolo/gdt888_alphita_joint_name_incidence/REPORT.md) | 17 | 393.2 KiB | 8 | STRUCTURED_YOLO |
-| GDT887 | GDT887_tacuinum_joint_entry_reconstruction | `FIXED_COMPILER_NO_SOLUTION` | [report](../experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md) | 18 | 19.3 MiB | 6 | STRUCTURED_YOLO |
-| GDT886 | GDT886_unknown_label_collation | `EXACT_SORT_MODEL_CONTRADICTED` | [report](../experiments/yolo/gdt886_unknown_label_collation/REPORT.md) | 13 | 53.3 KiB | 2 | STRUCTURED_YOLO |
-| GDT885 | GDT885 | `NO_NONTRIVIAL_REVERSIBLE_THREE_STATE_MACHINE` | [report](../experiments/yolo/gdt885_reversible_three_state_line_machine/REPORT.md) | 18 | 2.1 MiB | 1 | STRUCTURED_YOLO |
-| GDT884 | GDT884 | `UNSAT_ANALYTIC_FIXED_PASSAGE` | [report](../experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md) | 19 | 262.9 KiB | 1 | STRUCTURED_YOLO |
-| GDT883 | GDT883_overlapping_digram_constraints | `FIXED_INJECTIVE_OVERLAPPING_BLOCKS_EXCLUDED__HOMOPHONIC_CHANNEL_BOUNDED` | [report](../experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md) | 13 | 387.3 KiB | 1 | STRUCTURED_YOLO |
-| GDT882 | GDT882_additive_line_lattice | `NO_NONZERO_FIXED_ADDITIVE_LINE_INVARIANT` | [report](../experiments/yolo/gdt882_additive_line_lattice/REPORT.md) | 15 | 605.3 KiB | 2 | STRUCTURED_YOLO |
-| GDT881 | GDT881_f99v_native_text_graphic_interface | `STOP_NO_SHARED_STROKE_CONSTRUCTION__PVO_SINGLE_POSITIVE_UNRESOLVED` | [report](../experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/REPORT.md) | 15 | 33.4 KiB | 2 | STRUCTURED_YOLO |
-| GDT880 | GDT880 | `STOP_INSUFFICIENT_IMMEDIATE_TRIPLE_CAPACITY` | [report](../experiments/yolo/gdt880_minim_triple_arithmetic_capacity/REPORT.md) | 15 | 71.1 KiB | 2 | STRUCTURED_YOLO |
-| GDT879 | GDT879 | `STOP_INCOMPLETE_NATIVE_GRAPH_ENDPOINT` | [report](../experiments/yolo/gdt879_plant_topology_endpoint_pilot/REPORT.md) | 15 | 82.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT904 | GDT904_COMPLETE_MODEL_RESULT | `FULL_VINIDARIUS_WORD_CODE_EXCLUDED` | [report](../experiments/yolo/gdt904_vinidarius_complete_relational_register/REPORT.md) | 21 | 3.4 MiB | 2 | STRUCTURED_YOLO |
+| GDT882 | GDT882_additive_line_lattice | `NO_NONZERO_FIXED_ADDITIVE_LINE_INVARIANT` | [report](../experiments/yolo/gdt882_additive_line_lattice/REPORT.md) | 15 | 604.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT878 | GDT878_text_picture_combination_feasibility | `STOP_NOMINATED_JOINT_ENTRIES_NO_CROSSED_CONSTRUCTION_OR_REUSABLE_BINDING` | [report](../experiments/yolo/gdt878_text_picture_combination_feasibility/REPORT.md) | 15 | 80.7 KiB | 4 | STRUCTURED_YOLO |
-| GDT877 | GDT877_h1_raw_construction_fidelity | `FOUR_ALL_READING_RAW_CONSTRUCTION_ANCHORS_ONE_ANNOTATION_QUALIFICATION` | [report](../experiments/yolo/gdt877_h1_raw_construction_fidelity/REPORT.md) | 18 | 141.0 KiB | 2 | STRUCTURED_YOLO |
-| GDT876 | GDT876_f67r2_long_record_placement | `TWO_LATER_DEFINITE_WRITTEN_PLACEMENTS_CONTRADICTED` | [report](../experiments/yolo/gdt876_f67r2_long_record_placement/REPORT.md) | 21 | 49.4 KiB | 4 | STRUCTURED_YOLO |
-| GDT875 | GDT875_native_bridge_unit_readings | `COMPLETE_NATIVE_AUDIT_NO_CONFIRMED_COMPLETE_BRIDGE` | [report](../experiments/yolo/gdt875_native_bridge_unit_readings/REPORT.md) | 19 | 57.8 KiB | 3 | STRUCTURED_YOLO |
-| GDT874 | GDT874_raw_multigroup_record_bridge | `COMPLETE_EXPLORATORY_AVAILABILITY_CENSUS_NO_SEMANTIC_PROMOTION` | [report](../experiments/yolo/gdt874_raw_multigroup_record_bridge/REPORT.md) | 16 | 237.5 KiB | 2 | STRUCTURED_YOLO |
-| GDT873 | GDT873_matched_paragraph_position_profile | `COMPLETE_RETROSPECTIVE_POSITION_PROFILE_NO_SEMANTIC_PROMOTION` | [report](../experiments/yolo/gdt873_matched_paragraph_position_profile/REPORT.md) | 16 | 411.0 KiB | 3 | STRUCTURED_YOLO |
-| GDT872 | GDT872_whole_pair_directed_profile | `COMPLETE_DESCRIPTIVE_RAW_PROFILE_NO_SEMANTIC_PROMOTION` | [report](../experiments/yolo/gdt872_whole_pair_directed_profile/REPORT.md) | 20 | 775.3 KiB | 5 | STRUCTURED_YOLO |
+| GDT879 | GDT879 | `STOP_INCOMPLETE_NATIVE_GRAPH_ENDPOINT` | [report](../experiments/yolo/gdt879_plant_topology_endpoint_pilot/REPORT.md) | 15 | 82.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT880 | GDT880 | `STOP_INSUFFICIENT_IMMEDIATE_TRIPLE_CAPACITY` | [report](../experiments/yolo/gdt880_minim_triple_arithmetic_capacity/REPORT.md) | 15 | 71.1 KiB | 2 | STRUCTURED_YOLO |
 | GDT871 | GDT871 | `COMPLETE_PERSONAL_ORIENTATION_SOURCE_BOUNDARY` | [report](../experiments/yolo/gdt871_remaining_shared_diagram_orientation/REPORT.md) | 19 | 28.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT870 | GDT870 | `NO_NEW_EXPLICIT_REFERENCE` | [report](../experiments/yolo/gdt870_f100r_complete_scene_discovery/REPORT.md) | 20 | 61.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT869 | GDT869 | `UNRESOLVED_OPAQUE_METADATA` | [report](../experiments/yolo/gdt869_f17r_capture_metadata_inventory/REPORT.md) | 19 | 89.5 KiB | 0 | STRUCTURED_YOLO |
@@ -324,6 +296,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT603 | GDT603_naibbe_end_to_end_control | `END_TO_END_NAIBBE_CONTROL_RECOVERED_AT_PUBLIC_CAPACITY` | [report](../experiments/yolo/gdt603_naibbe_end_to_end_control/REPORT.md) | 13 | 1.0 MiB | 2 | STRUCTURED_YOLO |
 | GDT602 | GDT602_naibbe_blind_key_recovery | `NAIBBE_KEY_RECOVERED_CONDITIONAL_ON_ORACLE_SEGMENTATION` | [report](../experiments/yolo/gdt602_naibbe_blind_key_recovery/REPORT.md) | 11 | 42.7 KiB | 1 | STRUCTURED_YOLO |
 | GDT601 | GDT601_naibbe_literal_key_attack | `LITERAL_NAIBBE_KEY_REJECTED_ON_F84_FREE_91_FOLIO_CORPUS` | [report](../experiments/yolo/gdt601_naibbe_literal_key_attack/REPORT.md) | 11 | 40.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT600 | complete object surface grammar | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt600_complete_object_surface_grammar/REPORT.md) | 31 | 3.6 MiB | 2 | STRUCTURED_YOLO |
 | GDT599 | GDT599_remaining_action_object_completion | `PASS_793_REMAINING_OBJECTS__1443_OF_1443_ACTIONS_COMPLETE__313_OF_313_STATEMENTS_COMPLETE__11_LOCAL_WORKSHOP_DECISIONS__46_AIIN_QUANTITY_BINDINGS__9_Q_CIRCULAR_TARGETS_BLOCKED__0_UNFILLED` | [report](../experiments/yolo/gdt599_remaining_action_object_completion/REPORT.md) | 32 | 3.0 MiB | 6 | STRUCTURED_YOLO |
 | GDT598 | GDT598_six_page_object_statement_integration | `PASS_313_STATEMENTS__2272_HOSTS__1443_ACTIONS__650_OBJECT_COMPLETE__793_GAPS__71_COMPLETE__229_MIXED__13_GAP_ONLY__298_PARTICIPANT_PACKET__46_AIIN_ONLY__449_CARRIERLESS__36_MULTI_EVENTS__10_STRING_HAZARDS__0_SLOT_COLLISIONS` | [report](../experiments/yolo/gdt598_six_page_object_statement_integration/REPORT.md) | 22 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT597 | GDT597_nonsh_action_object_reference_phrasebook | `PASS_396_NONSH_ACTION_OBJECTS__219_WRITTEN__77_LEFT__4_RIGHT__96_DEFAULT__0_UNFILLED` | [report](../experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md) | 24 | 355.2 KiB | 7 | STRUCTURED_YOLO |
@@ -922,3 +895,25 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT003 | GDT003 | `UNREGISTERED` | [report](../GDT003_NESTED_HELDOUT_REPORT.md) | 43 | 19.4 MiB | 2 | LEGACY_ROOT |
 | GDT002 | GDT002_existing_annotation_route_synthesis | `CURRENT_EXISTING_ANNOTATION_GROUNDING_CAPACITY_EXHAUSTED` | [report](../experiments/yolo/GDT002_EXISTING_ANNOTATION_ROUTE_STATUS.md) | 98 | 11.8 MiB | 1 | LEGACY_ROOT |
 | GDT001 | GDT001 | `UNREGISTERED` | [report](../GDT001_CURRENT_SUMMARY.md) | 305 | 76.2 MiB | 0 | LEGACY_ROOT |
+| GDT881 | GDT881_f99v_native_text_graphic_interface | `STOP_NO_SHARED_STROKE_CONSTRUCTION__PVO_SINGLE_POSITIVE_UNRESOLVED` | [report](../experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/REPORT.md) | 15 | 33.4 KiB | 2 | STRUCTURED_YOLO |
+| GDT883 | GDT883_overlapping_digram_constraints | `FIXED_INJECTIVE_OVERLAPPING_BLOCKS_EXCLUDED__HOMOPHONIC_CHANNEL_BOUNDED` | [report](../experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md) | 13 | 387.3 KiB | 1 | STRUCTURED_YOLO |
+| GDT884 | GDT884 | `UNSAT_ANALYTIC_FIXED_PASSAGE` | [report](../experiments/yolo/gdt884_laufenberg_fixed_passage_equation/REPORT.md) | 19 | 263.2 KiB | 1 | STRUCTURED_YOLO |
+| GDT885 | GDT885 | `NO_NONTRIVIAL_REVERSIBLE_THREE_STATE_MACHINE` | [report](../experiments/yolo/gdt885_reversible_three_state_line_machine/REPORT.md) | 18 | 2.1 MiB | 1 | STRUCTURED_YOLO |
+| GDT886 | GDT886_unknown_label_collation | `EXACT_SORT_MODEL_CONTRADICTED` | [report](../experiments/yolo/gdt886_unknown_label_collation/REPORT.md) | 13 | 53.3 KiB | 2 | STRUCTURED_YOLO |
+| GDT887 | GDT887_tacuinum_joint_entry_reconstruction | `FIXED_COMPILER_NO_SOLUTION` | [report](../experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md) | 18 | 19.3 MiB | 6 | STRUCTURED_YOLO |
+| GDT888 | GDT888_alphita_joint_name_incidence | `COMPLETE_FIT_UNIDENTIFIED` | [report](../experiments/yolo/gdt888_alphita_joint_name_incidence/REPORT.md) | 17 | 393.2 KiB | 8 | STRUCTURED_YOLO |
+| GDT889 | GDT889_whole_form_edit_capacity | `EXACT_FINITE_CAPACITY_20` | [report](../experiments/yolo/gdt889_whole_form_edit_capacity/REPORT.md) | 11 | 69.7 KiB | 2 | STRUCTURED_YOLO |
+| GDT890 | GDT890_f77_component_detail | `STOP_MISSING_COMPLETE_BOUNDARIES` | [report](../experiments/yolo/gdt890_f77_component_detail/REPORT.md) | 14 | 30.2 KiB | 5 | STRUCTURED_YOLO |
+| GDT891 | GDT891 | `SOURCE_LABELS_CONFIRMED_ATTRIBUTES_PARTIAL` | [report](../experiments/yolo/gdt891_lull_vegetative_source/REPORT.md) | 12 | 18.7 KiB | 2 | STRUCTURED_YOLO |
+| GDT892 | GDT892 | `INSUFFICIENT_ELIGIBLE_SENTENCES` | [report](../experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md) | 25 | 111.9 KiB | 6 | STRUCTURED_YOLO |
+| GDT893 | GDT893_budget_completion | `THREE_EXACT_PANELS_IT_UNKNOWN` | [report](../experiments/yolo/gdt893_global_source_montage_word_code/REPORT.md) | 60 | 265.6 KiB | 7 | STRUCTURED_YOLO |
+| GDT894 | GDT894_fixed_adjacent_copy | `CONTRADICTED_BOTH_DIRECTIONS_LITERAL_RF` | [report](../experiments/yolo/gdt894_forced_source_adjacent_copy/REPORT.md) | 15 | 215.2 KiB | 2 | STRUCTURED_YOLO |
+| GDT895 | GDT895_complete_entry_cv | `ALL_FOUR_PANELS_UNSAT` | [report](../experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md) | 29 | 13.0 MiB | 5 | STRUCTURED_YOLO |
+| GDT896 | GDT896_complete_entry_rotor | `ALL_FOUR_PANELS_UNSAT` | [report](../experiments/yolo/gdt896_alberti_complete_entry_rotor/REPORT.md) | 16 | 490.3 KiB | 4 | STRUCTURED_YOLO |
+| GDT897 | GDT897_fixed_bernstein_projection_constraints | `CLOSED_WITH_UNRESOLVED_STEREOGRAPHIC_CASES` | [report](../experiments/yolo/gdt897_complete_constellation_projection_constraints/REPORT.md) | 40 | 2.3 MiB | 2 | STRUCTURED_YOLO |
+| GDT898 | GDT898_complete_cisiojanus_cycle | `CONDITIONAL_EDITED_SOURCE_ALL_THREE_PANELS_UNSAT` | [report](../experiments/yolo/gdt898_cisiojanus_complete_cycle_compositional_code/REPORT.md) | 13 | 53.8 KiB | 2 | STRUCTURED_YOLO |
+| GDT899 | GDT899_COMPLETE_MODEL_RESULT | `ALL_SIX_HEADERS_UNKNOWN_BOTH_ENGINES` | [report](../experiments/yolo/gdt899_astrolabium_joint_condition_program_code/REPORT.md) | 35 | 910.6 KiB | 2 | STRUCTURED_YOLO |
+| GDT900 | GDT900_COMPLETE_MODEL_RESULT | `ALL_FOUR_PANELS_UNSAT_INDEPENDENTLY_PROVED` | [report](../experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/REPORT.md) | 24 | 8.5 MiB | 1 | STRUCTURED_YOLO |
+| GDT901 | GDT901_COMPLETE_MODEL_RESULT | `ALL_TEN_CASES_UNSAT_INDEPENDENT_COUNT_HEAD_CONFIRMATION` | [report](../experiments/yolo/gdt901_solmization_joint_relational_lexicon/REPORT.md) | 112 | 5.8 MiB | 2 | STRUCTURED_YOLO |
+| GDT902 | GDT902_COMPLETE_MODEL_RESULT | `ALL_PANELS_EXCLUDED_BY_NECESSARY_CONSTRAINTS` | [report](../experiments/yolo/gdt902_treviso_complete_multiplication_register/REPORT.md) | 25 | 2.5 MiB | 3 | STRUCTURED_YOLO |
+| GDT903 | GDT903_COMPLETE_MODEL_RESULT | `PROPER_SUBGROUP_EXPLICIT_FINITE_COMPATIBILITY` | [report](../experiments/yolo/gdt903_universal_reversible_line_action/REPORT.md) | 22 | 6.2 MiB | 2 | STRUCTURED_YOLO |

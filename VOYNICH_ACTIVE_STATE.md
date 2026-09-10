@@ -11,9 +11,14 @@ in2replays; onevectorprovisional. Independentprosecollation bindsparity and
 witnesschecks, notfullconstruction/serialization. No targetregister ormeaning;
 oldf57vstop remains. Source packet:research_registry/proposals/geomancy_early_source/.
 
-IDEA136:complete6+31electronic sourcecapture/postlude independentlyaligned;
-I.2recovered,1922joinsXXI–XXII. Twelveatom/serializationchoicesremain;
-localalternativegainconfirmed. Notargetfit orsourcegatePASS; proposalparked.
+GDT904/IDEA136:full38-record Vinidarius relationalwordcode excluded.
+Complete1217word accounting yields936lexicaloccurrences323atoms175scopes;
+independentsourcevalidationPASS. IT259paragraphs/36leaves: wholeP02andR02
+each0lexicaldomains; independentZ3all518pairsUNSAT. ZL14/RF11/CONS1
+alreadybelow38mandatoryrecords, withseparatelexicalcontradictions.
+SevenotherlocalUNKNOWN remain; deletionofscopetokensisnecessaryrelaxationonly.
+No globalfit, helddata, meaning, generalrecipeexclusion orautomaticrepair.
+Primary:experiments/yolo/gdt904_vinidarius_complete_relational_register/REPORT.md.
 
 GDT903closed:ordinaryH=<wiwref^-1> proper,infiniteindex; independentcoresagree
 10451vertices10862edgesrank412. Explicit20permutations replayall413linesto453;
