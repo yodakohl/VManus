@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **907**
-- Experiment-associated tracked files: **17,210** (1.5 GiB)
-- Structured GDT337+ experiments: **572**
+- Experiments indexed: **908**
+- Experiment-associated tracked files: **17,219** (1.5 GiB)
+- Structured GDT337+ experiments: **573**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT909 | worked division chains | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt909_worked_division_chains/REPORT.md) | 9 | 8.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT908 | GDT908_mutual_reference_cancellation | `FIXED_899_FULL_MODEL_EXCLUDED` | [report](../experiments/yolo/gdt908_mutual_reference_cancellation/REPORT.md) | 17 | 942.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT907 | GDT907_line_seam_join_discovery | `COMPLETE_EXPLORATORY_CENSUS_NO_HYPHENATION_IDENTIFICATION` | [report](../experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md) | 14 | 2.5 MiB | 3 | STRUCTURED_YOLO |
 | GDT906 | GDT906_COMPLETE_CV_ENUMERATION_RESULT | `COMPLETE_NO_GRAMMAR_KEY` | [report](../experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md) | 28 | 45.8 MiB | 2 | STRUCTURED_YOLO |
