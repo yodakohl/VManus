@@ -1,0 +1,357 @@
+{
+  "status": "PASS",
+  "validator_sha256": "74ff360e43aa6d68483749b49ab876c16a8c6cbac0b1c1b18e47a05aa3e67a44",
+  "spec_sha256": "d87499b2eeddcd161e976fddc562bcec7f3e5484cc08bee9140e541d1a3ada24",
+  "source_sha256": "ee1f78c739102e46db5f2dd2b0fb9c76182fff716ed4b4e4efc3e7d93308ac81",
+  "target_sha256": "d360ccbcbae0641b33d4af5e36ae5e121baacbe482334dc2f18bc490a6f3dd40",
+  "theorem_headers": 6,
+  "target_paragraphs": 259,
+  "distinct_strings": 259,
+  "pairs": 33411,
+  "pair_stage_totals": {
+    "cuts": 3577,
+    "prefix_incomparable": 3577,
+    "X_external_suffix": 0,
+    "XY_external_suffix": 0,
+    "four_distinct_cuts": 0,
+    "four_distinct_combinations": 0
+  },
+  "necessary_survivors": 0,
+  "independent_positive_fixtures": [
+    {
+      "order": [
+        "location",
+        "mercury",
+        "companion"
+      ],
+      "swapped_house_codes": false,
+      "source_orientation_in_sorted_pair": "forward",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "xx",
+        "N09": "yyy",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "haxxmerspartre",
+        "MS09": "hayyymerspartre",
+        "MJ03": "haxxmerjupartrefoyyy",
+        "MJ09": "hayyymerjupartfoxx"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "location",
+        "mercury",
+        "companion"
+      ],
+      "swapped_house_codes": true,
+      "source_orientation_in_sorted_pair": "reverse",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "yyy",
+        "N09": "xx",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "hayyymerspartre",
+        "MS09": "haxxmerspartre",
+        "MJ03": "hayyymerjupartrefoxx",
+        "MJ09": "haxxmerjupartfoyyy"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "location",
+        "companion",
+        "mercury"
+      ],
+      "swapped_house_codes": false,
+      "source_orientation_in_sorted_pair": "forward",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "xx",
+        "N09": "yyy",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "haxxsmerpartre",
+        "MS09": "hayyysmerpartre",
+        "MJ03": "haxxjumerpartrefoyyy",
+        "MJ09": "hayyyjumerpartfoxx"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "location",
+        "companion",
+        "mercury"
+      ],
+      "swapped_house_codes": true,
+      "source_orientation_in_sorted_pair": "reverse",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "yyy",
+        "N09": "xx",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "hayyysmerpartre",
+        "MS09": "haxxsmerpartre",
+        "MJ03": "hayyyjumerpartrefoxx",
+        "MJ09": "haxxjumerpartfoyyy"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "mercury",
+        "location",
+        "companion"
+      ],
+      "swapped_house_codes": false,
+      "source_orientation_in_sorted_pair": "forward",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "xx",
+        "N09": "yyy",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "merhaxxspartre",
+        "MS09": "merhayyyspartre",
+        "MJ03": "merhaxxjupartrefoyyy",
+        "MJ09": "merhayyyjupartfoxx"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "mercury",
+        "location",
+        "companion"
+      ],
+      "swapped_house_codes": true,
+      "source_orientation_in_sorted_pair": "reverse",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "yyy",
+        "N09": "xx",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "merhayyyspartre",
+        "MS09": "merhaxxspartre",
+        "MJ03": "merhayyyjupartrefoxx",
+        "MJ09": "merhaxxjupartfoyyy"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "mercury",
+        "companion",
+        "location"
+      ],
+      "swapped_house_codes": false,
+      "source_orientation_in_sorted_pair": "forward",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "xx",
+        "N09": "yyy",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "mershaxxpartre",
+        "MS09": "mershayyypartre",
+        "MJ03": "merjuhaxxpartrefoyyy",
+        "MJ09": "merjuhayyypartfoxx"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "mercury",
+        "companion",
+        "location"
+      ],
+      "swapped_house_codes": true,
+      "source_orientation_in_sorted_pair": "reverse",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "yyy",
+        "N09": "xx",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "mershayyypartre",
+        "MS09": "mershaxxpartre",
+        "MJ03": "merjuhayyypartrefoxx",
+        "MJ09": "merjuhaxxpartfoyyy"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "companion",
+        "location",
+        "mercury"
+      ],
+      "swapped_house_codes": false,
+      "source_orientation_in_sorted_pair": "forward",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "xx",
+        "N09": "yyy",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "shaxxmerpartre",
+        "MS09": "shayyymerpartre",
+        "MJ03": "juhaxxmerpartrefoyyy",
+        "MJ09": "juhayyymerpartfoxx"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "companion",
+        "location",
+        "mercury"
+      ],
+      "swapped_house_codes": true,
+      "source_orientation_in_sorted_pair": "reverse",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "yyy",
+        "N09": "xx",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "shayyymerpartre",
+        "MS09": "shaxxmerpartre",
+        "MJ03": "juhayyymerpartrefoxx",
+        "MJ09": "juhaxxmerpartfoyyy"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "companion",
+        "mercury",
+        "location"
+      ],
+      "swapped_house_codes": false,
+      "source_orientation_in_sorted_pair": "forward",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "xx",
+        "N09": "yyy",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "smerhaxxpartre",
+        "MS09": "smerhayyypartre",
+        "MJ03": "jumerhaxxpartrefoyyy",
+        "MJ09": "jumerhayyypartfoxx"
+      },
+      "necessary_domain_contains_known_witness": true
+    },
+    {
+      "order": [
+        "companion",
+        "mercury",
+        "location"
+      ],
+      "swapped_house_codes": true,
+      "source_orientation_in_sorted_pair": "reverse",
+      "known_code": {
+        "HOUSE": "ha",
+        "MERCURY": "mer",
+        "SATURN": "s",
+        "PARTILE": "part",
+        "RET": "re",
+        "N03": "yyy",
+        "N09": "xx",
+        "JUPITER": "ju",
+        "REF": "fo"
+      },
+      "complete_outputs": {
+        "MS03": "smerhayyypartre",
+        "MS09": "smerhaxxpartre",
+        "MJ03": "jumerhayyypartrefoxx",
+        "MJ09": "jumerhaxxpartfoyyy"
+      },
+      "necessary_domain_contains_known_witness": true
+    }
+  ],
+  "primary_fixture_scope": "Positive counts inspected; independent known variable-length nine-code constructions replay all six headers and both source orientations. Primary exact-refinement multiplicities are not independently certified and are unnecessary for the empty target relaxation.",
+  "artifact_sha256": {
+    "THEOREM.json": "abb804d1fd284e7617cf84f58e74a09bf63691721c3d83122fcd0f12d77378be",
+    "TARGET_IDS.json": "84444546b304771ac1604ae4c0230355805294cb3052a5d42695eea1f8d06cb7",
+    "PAIRS.json": "ed5dc4e3bb6aed7485c83e05521d6af1c7df412049d2fb1a68f83758d1476c5d",
+    "RELAXED.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "WITNESSES.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "FIXTURES.json": "3af6c4a2f82dada796b618338dddf9bd80f7882a2016312c3fea4c630939b84b",
+    "RESULT.json": "e58f95f2d9ff71c716c24bcdcd11e2a38f98c96832d95972ab33844b64e12b0c"
+  },
+  "claim_ceiling": "All six full GDT899 model cases are excluded by an independently exhausted necessary four-record relaxation on the unchanged discovery packet. No general astrology, conditional-language or meaning claim."
+}

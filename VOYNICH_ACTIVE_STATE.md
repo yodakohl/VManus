@@ -6,6 +6,9 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT908 resolvesfixed899:259wholeITparagraphs,33411pairs/3577cuts;0requiredexternal suffixwitnesses;all6headers excluded. Independenttheorem/fullpairreplayPASS;0keys/meanings.
+Primary:experiments/yolo/gdt908_mutual_reference_cancellation/REPORT.md. Original899UNKNOWNreceipts unchanged;noautomatic source/compiler/optimizerfollow-on.
+
 GDT907:complete line-seam join census, ZL55/52.919expected,IT48/47.529,RF41/38.252;
 exploratory tails.2782/.5042/.2442.26all3samepairs22leaves21wholes,
 no hyphenation/meaning identification. Independent source/matrix/null replayPASS.
@@ -55,9 +58,9 @@ GDT900closed:all576completeCumanicustable cases excluded; independent720componen
 whole-windowproofPASS. Fourdeletionvariants3unitizations12sharedtraversals; no
 keysearchneeded. Conditionalcopy/channel/scopeonly; no generalmultilingualclaim.
 
-GDT899closed:24completeMS/MJconditiontraces61atoms; all6globalheaders UNKNOWN
-inbothsolvers. No key, exclusion or projections; source/oddtarget/resultreceipts
-independentlyvalidated. No automatic source/compiler/optimizerrepair or meanings.
+GDT899original12solverreceipts remainUNKNOWN for24MS/MJtraces/61atoms.
+GDT908 nowexcludesall6headers oftheunchangedmodel by exactfour-recordnecessity;
+no key, projection, meaning or automatic source/compiler/optimizerrepair.
 
 Current2026-09-09 continuation:892control capacity-stopped before cipher/fit;
 893three exact source-montage panels and ITunknown;894fixed adjacentcopy

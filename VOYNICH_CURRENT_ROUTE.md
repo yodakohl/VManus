@@ -2,7 +2,8 @@
 Updated: 2026-09-10. Read first.
 
 ## Latest completed continuation and next selection
-908selected:unchanged899 mutual-reference algebraic falsifier; emptydomain closesfullmodel, survivors partialonly. Finite cuts/refinement, no elapsedbudget; METHOD.md in gdt908_mutual_reference_cancellation.
+GDT908 resolvesfixed899:259wholeITparagraphs,33411pairs/3577cuts;0requiredexternal suffixwitnesses;all6headers excluded. Independenttheorem/fullpairreplayPASS;0keys/meanings.
+Primary:experiments/yolo/gdt908_mutual_reference_cancellation/REPORT.md. Original899UNKNOWNreceipts unchanged;noautomatic source/compiler/optimizerfollow-on.
 907closed:line-seam census nohyphenation/meaning;26all3samepairs;independentPASS;RFno paragraphflags. Primary:experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md.
 
 906closed:all439399primary+independentCOMPLETE/0CFG;allkeysetsagree;3lexicalcases=2knownf103r/vkeys;ZLduplicatesIT;fixed905scopeexhausted;0meanings.
@@ -35,8 +36,7 @@ Primary: experiments/yolo/gdt897_complete_constellation_projection_constraints/R
 898closed: all28editedFebruarycells distinct; f69v14/18wholeokeodall3readings.
 InjectiveprefixcodeimpossibleforANYbijection; independentrawreplayPASS.
 Originaldiplomatictext/orderunresolved; conditionalCHDmodelonly, no meanings.
-899closed:24wholeMS/MJconditiontraces;6headersALLUNKNOWNbothengines.
-No key/exclusion/projections; no automatic source/compiler/solverrepair.
+899original24MS/MJtrace fits:6headersUNKNOWNbothengines;908nowexcludesunchangedmodel. No key/projections or automatic source/compiler/solverrepair.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
 901/902excluded.129early11-outputexamplematches; fullrules/targetunbound.
 904/136closed:full38-recordwordcode excluded;IT259P02/R02zero,independent518UNSAT.7otherlocalUNKNOWNpreserved;otherpanelsbelow38records;nohelddata/meaning/repair.
