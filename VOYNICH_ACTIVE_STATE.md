@@ -6,6 +6,8 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT910:1-to2/3-group exact-flank discovery40selectors;243ZL381IT151RFproperrules,0two-context recurrence;48transferselectorsunqueried. IndependentPASS;noabbreviation/meaning;noautomaticbroadening. Primary:experiments/yolo/gdt910_short_long_context_substitution/REPORT.md.
+
 GDT909:complete fixed-template division chains:ZL14/IT259/RF11paragraphs,8/367/9partitions;0requiredrole-transfer candidates. IndependentPASS;no arithmeticfit/prediction/meaning. Fixedmodelonly;no automatictemplate/windowrepair.
 Primary:experiments/yolo/gdt909_worked_division_chains/REPORT.md.
 

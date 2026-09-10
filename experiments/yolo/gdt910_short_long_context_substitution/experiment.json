@@ -52,12 +52,62 @@
     {
       "path": "experiments/yolo/gdt910_short_long_context_substitution/REPORT.md",
       "role": "primary_report",
-      "sha256": "4dccd8cf3e2dd28f93f5e76691d03b3bec5c2a649a4411115062617b7c2eecf1"
+      "sha256": "c07b824e34140e589db4c493034fe7611937619a24248b077da7096454d30ddc"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/DISCOVERY_GUARD.json",
+      "role": "source_or_compact_result",
+      "sha256": "03f7228804c1eac32c7e637776c05aae756121a5fae70ac74e58da081361c2dd"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/DISCOVERY_IT2a.json",
+      "role": "source_or_compact_result",
+      "sha256": "cf16e5dc88335d689eb4661200a9668657d5434fbb512103414930a531af3ebf"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/DISCOVERY_RF1b.json",
+      "role": "source_or_compact_result",
+      "sha256": "4b2353a163fff34ecf6355c80efd2b2cbe62139a4067d47792714320d82d8e66"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/DISCOVERY_SOURCE.json",
+      "role": "source_or_compact_result",
+      "sha256": "51ca51b75fcfd5c239ad5952a787921ba9fe14ac7425d452065ec4affd90abac"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/DISCOVERY_ZL3b.json",
+      "role": "source_or_compact_result",
+      "sha256": "53f839b798c3f3896d9bf23c3caeb5909eca27a5100aa97445baf477fa3a171a"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/FROZEN_RULES.json",
+      "role": "source_or_compact_result",
+      "sha256": "d2768f56a15e030073d4466c92c13e3cb6012c918153fa07c065452ece61e944"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/PRIMARY_FIXTURES.json",
+      "role": "source_or_compact_result",
+      "sha256": "4b1ac81ccb855e2b325d61ba062b8d0002dc3254fe28082a7a150338c8e1b07f"
     },
     {
       "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/README.md",
       "role": "source_or_compact_result",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "f85f491d1dc19cb4fa4e3695e30aceca24f1a458e39e8fbd2d9b5c0cf421217a"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/RULE_LOCK.json",
+      "role": "source_or_compact_result",
+      "sha256": "a54e05d4deba6d3388020cffdecdd2772331f5e453ef299a447a6cd9aa69eb7f"
+    },
+    {
+      "path": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "3fae9a1a93bc1bc55e1aeadb5b56350bf2e7d37cbce1c69d31c70c1fae69fb4d"
     },
     {
       "path": "experiments/yolo/gdt910_short_long_context_substitution/src/SPEC.json",
@@ -67,12 +117,12 @@
     {
       "path": "experiments/yolo/gdt910_short_long_context_substitution/src/run.py",
       "role": "source_or_compact_result",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "sha256": "13ce908593f136abfa45312312663f1bc8820f52e20c3c1c43351a80520f8d8d"
     },
     {
       "path": "experiments/yolo/gdt910_short_long_context_substitution/src/validate.py",
       "role": "source_or_compact_result",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "sha256": "e7a71ce5789f34e651d315c25662e0e6c57dc6aff349a6f8f4bc3acdcb7441e9"
     }
   ],
   "question": "Do literal one-to-two/three whole-group substitutions recur in distinct exact flanks and predict new contexts on separate physical leaves?",
@@ -82,11 +132,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "short_long_context_substitution",
-  "status": "REGISTERED_UNSCORED",
+  "status": "NO_RECURRENT_SHORT_LONG_RULE",
   "title": "short long context substitution",
   "updated": "2026-09-10",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt910_short_long_context_substitution/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

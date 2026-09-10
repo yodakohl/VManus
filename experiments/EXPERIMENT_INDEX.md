@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **909**
-- Experiment-associated tracked files: **17,233** (1.5 GiB)
+- Experiment-associated tracked files: **17,243** (1.5 GiB)
 - Structured GDT337+ experiments: **574**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT910 | short long context substitution | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt910_short_long_context_substitution/REPORT.md) | 9 | 11.6 KiB | 4 | STRUCTURED_YOLO |
+| GDT910 | GDT910_short_long_context_substitution | `NO_RECURRENT_SHORT_LONG_RULE` | [report](../experiments/yolo/gdt910_short_long_context_substitution/REPORT.md) | 19 | 6.8 MiB | 4 | STRUCTURED_YOLO |
 | GDT909 | GDT909_complete_worked_division_chains | `NO_FIXED_TEMPLATE_CHAIN` | [report](../experiments/yolo/gdt909_worked_division_chains/REPORT.md) | 14 | 92.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT908 | GDT908_mutual_reference_cancellation | `FIXED_899_FULL_MODEL_EXCLUDED` | [report](../experiments/yolo/gdt908_mutual_reference_cancellation/REPORT.md) | 17 | 942.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT907 | GDT907_line_seam_join_discovery | `COMPLETE_EXPLORATORY_CENSUS_NO_HYPHENATION_IDENTIFICATION` | [report](../experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md) | 14 | 2.5 MiB | 3 | STRUCTURED_YOLO |

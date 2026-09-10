@@ -1,11 +1,11 @@
 # Voynich current route
 Updated: 2026-09-10. Read first.
 ## Latest completed continuation and next selection
+GDT910:1-to2/3-group exact-flank discovery40selectors;243ZL381IT151RFproperrules,0two-context recurrence;48transferselectorsunqueried. IndependentPASS;noabbreviation/meaning;noautomaticbroadening. Primary:experiments/yolo/gdt910_short_long_context_substitution/REPORT.md.
 GDT909:complete fixed-template division chains:ZL14/IT259/RF11paragraphs,8/367/9partitions;0requiredrole-transfer candidates. IndependentPASS;no arithmeticfit/prediction/meaning. Fixedmodelonly;no automatictemplate/windowrepair. Primary:experiments/yolo/gdt909_worked_division_chains/REPORT.md.
 GDT908 resolvesfixed899:259wholeITparagraphs,33411pairs/3577cuts;0requiredexternal suffixwitnesses;all6headers excluded. Independenttheorem/fullpairreplayPASS;0keys/meanings.
 Primary:experiments/yolo/gdt908_mutual_reference_cancellation/REPORT.md. Original899UNKNOWNreceipts unchanged;noautomatic source/compiler/optimizerfollow-on.
 907closed:line-seam census nohyphenation/meaning;26all3samepairs;independentPASS;RFno paragraphflags. Primary:experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md.
-
 906closed:all439399primary+independentCOMPLETE/0CFG;allkeysetsagree;3lexicalcases=2knownf103r/vkeys;ZLduplicatesIT;fixed905scopeexhausted;0meanings.
 Primary:experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md.
 892capacity stop before key/cipher: fixed source212 length-eligible,24 lexical,
