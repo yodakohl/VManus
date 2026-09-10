@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "validator_sha256": "4510cdfb75db373e8ec07ac0998b057705bda0777061c788add516a87aa08941",
+  "source_sha256": "d360ccbcbae0641b33d4af5e36ae5e121baacbe482334dc2f18bc490a6f3dd40",
+  "spec_sha256": "e838d09ed0d9ce60b704ee1b157066a01ecb67f8fb408036ad4bee2eb0b41e08",
+  "reading_counts": {
+    "ZL3b": {
+      "paragraphs": 14,
+      "partitions": 8,
+      "at_most_four_varying": 4
+    },
+    "IT2a": {
+      "paragraphs": 259,
+      "partitions": 367,
+      "at_most_four_varying": 65
+    },
+    "RF1b": {
+      "paragraphs": 11,
+      "partitions": 9,
+      "at_most_four_varying": 2
+    }
+  },
+  "structural_candidates": 0,
+  "fixtures": {
+    "positive_role_and_scaffold_cases": 48,
+    "transfer_and_numeric_negatives": 96,
+    "full_role_oracle_compared_positive_cases": 48,
+    "binary_negative_tables": 4096
+  },
+  "artifact_sha256": {
+    "PARTITIONS.json": "0661153f8fb1ae7b95cd837f3ee5705f0cdb197e9dd6baa9f6ffbaa3c6b5cdd0",
+    "CANDIDATES.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "RESULT.json": "b659a88b425ec12c0a6e6228d34c529d8beb49ca5de5aeb1f689b7143c90d8f2"
+  },
+  "claim_ceiling": "Every complete equal partition and admissible four-role assignment is covered independently; zero literal structures excludes the fixed template regardless of numeric bound. Arithmetic search was not reached on manuscript data. No general arithmetic or meaning exclusion. Primary efficiency counters are not claimed as independently replayed."
+}

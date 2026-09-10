@@ -6,6 +6,9 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT909:complete fixed-template division chains:ZL14/IT259/RF11paragraphs,8/367/9partitions;0requiredrole-transfer candidates. IndependentPASS;no arithmeticfit/prediction/meaning. Fixedmodelonly;no automatictemplate/windowrepair.
+Primary:experiments/yolo/gdt909_worked_division_chains/REPORT.md.
+
 GDT908 resolvesfixed899:259wholeITparagraphs,33411pairs/3577cuts;0requiredexternal suffixwitnesses;all6headers excluded. Independenttheorem/fullpairreplayPASS;0keys/meanings.
 Primary:experiments/yolo/gdt908_mutual_reference_cancellation/REPORT.md. Original899UNKNOWNreceipts unchanged;noautomatic source/compiler/optimizerfollow-on.
 

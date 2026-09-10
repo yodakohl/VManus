@@ -40,12 +40,37 @@
     {
       "path": "experiments/yolo/gdt909_worked_division_chains/REPORT.md",
       "role": "primary_report",
-      "sha256": "6976ffe1686bdd1159b4166ad911286d6e9797caa43f97ea1b428bb2ca9640ab"
+      "sha256": "edb1118bbff3e7deac4dd9064a4d00dc9b923d6ddcc3c102783abc6586a17420"
+    },
+    {
+      "path": "experiments/yolo/gdt909_worked_division_chains/artifacts/CANDIDATES.json",
+      "role": "source_or_compact_result",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "experiments/yolo/gdt909_worked_division_chains/artifacts/PARTITIONS.json",
+      "role": "source_or_compact_result",
+      "sha256": "0661153f8fb1ae7b95cd837f3ee5705f0cdb197e9dd6baa9f6ffbaa3c6b5cdd0"
+    },
+    {
+      "path": "experiments/yolo/gdt909_worked_division_chains/artifacts/PRIMARY_FIXTURES.json",
+      "role": "source_or_compact_result",
+      "sha256": "93ffca8aa6469db96c61d865f1213b7eea8a6e1c6d853bfa4ba4328ac13ae594"
     },
     {
       "path": "experiments/yolo/gdt909_worked_division_chains/artifacts/README.md",
       "role": "source_or_compact_result",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt909_worked_division_chains/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "b659a88b425ec12c0a6e6228d34c529d8beb49ca5de5aeb1f689b7143c90d8f2"
+    },
+    {
+      "path": "experiments/yolo/gdt909_worked_division_chains/artifacts/VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "6a1bc1b69df60e25676dd60f01c0558fb2026eef390035947d1911469710c30a"
     },
     {
       "path": "experiments/yolo/gdt909_worked_division_chains/src/SPEC.json",
@@ -55,12 +80,12 @@
     {
       "path": "experiments/yolo/gdt909_worked_division_chains/src/run.py",
       "role": "source_or_compact_result",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "sha256": "79f8490bb00000f35798b3968b3c4788061da6f9fb49a22b20e2059291ec0aeb"
     },
     {
       "path": "experiments/yolo/gdt909_worked_division_chains/src/validate.py",
       "role": "source_or_compact_result",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "sha256": "4510cdfb75db373e8ec07ac0998b057705bda0777061c788add516a87aa08941"
     }
   ],
   "question": "Do complete odd-leaf paragraphs encode at least three fixed-template division steps with exact quotient/remainder transfer and a consistent numeral key?",
@@ -70,11 +95,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "worked_division_chains",
-  "status": "REGISTERED_UNSCORED",
+  "status": "NO_FIXED_TEMPLATE_CHAIN",
   "title": "worked division chains",
   "updated": "2026-09-10",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt909_worked_division_chains/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
