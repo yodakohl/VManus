@@ -2,8 +2,8 @@
 Updated: 2026-09-10. Read first.
 
 ## Latest completed continuation and next selection
-907closed:line-seam joins ZL55/52.919expected,IT48/47.529,RF41/38.252;tails.2782/.5042/.2442.26all3samepairs22leaves;independent replayPASS;nohyphenation/meaning.
-RFno paragraphflags;metadata runs not native boundaries;noautomatic joins. Primary:experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md.
+908selected:unchanged899 mutual-reference algebraic falsifier; emptydomain closesfullmodel, survivors partialonly. Finite cuts/refinement, no elapsedbudget; METHOD.md in gdt908_mutual_reference_cancellation.
+907closed:line-seam census nohyphenation/meaning;26all3samepairs;independentPASS;RFno paragraphflags. Primary:experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md.
 
 906closed:all439399primary+independentCOMPLETE/0CFG;allkeysetsagree;3lexicalcases=2knownf103r/vkeys;ZLduplicatesIT;fixed905scopeexhausted;0meanings.
 Primary:experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md.

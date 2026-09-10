@@ -1,0 +1,54 @@
+{
+  "title": "Mutual-reference cancellation certificate for the frozen Astrolabium condition code",
+  "summary": "RAW_UNREVIEWED analytic proposal. The unchanged GDT899 MS03/MS09 headers differ only in N03/N09, which reappear as opposite MJ09/MJ03 terminal reference values. Exhaust finite common-prefix/common-suffix cuts and opposite suffix witnesses; an empty necessary relaxation excludes the full24-record model for allsix global header orders. No target examined, output fit or meaning.",
+  "scope": "method",
+  "design": {
+    "source": "experiments/yolo/gdt899_astrolabium_joint_condition_program_code/artifacts/SOURCE_PROGRAMS.json",
+    "source_sha256": "ee1f78c739102e46db5f2dd2b0fb9c76182fff716ed4b4e4efc3e7d93308ac81",
+    "source_records": {
+      "MS03": [
+        "HOUSE",
+        "N03",
+        "MERCURY",
+        "SATURN",
+        "PARTILE",
+        "RET"
+      ],
+      "MS09": [
+        "HOUSE",
+        "N09",
+        "MERCURY",
+        "SATURN",
+        "PARTILE",
+        "RET"
+      ],
+      "MJ03": [
+        "HOUSE",
+        "N03",
+        "MERCURY",
+        "JUPITER",
+        "PARTILE",
+        "RET",
+        "REF",
+        "N09"
+      ],
+      "MJ09": [
+        "HOUSE",
+        "N09",
+        "MERCURY",
+        "JUPITER",
+        "PARTILE",
+        "REF",
+        "N03"
+      ]
+    },
+    "record_serialization": "Listed order is location/mercury/companion; allsix frozen global header permutations remain alternatives. Internal HOUSE,N order and all body atoms stay fixed.",
+    "theorem": "For every header order, MS03=A=U X V and MS09=B=U Y V, where X=code(N03),Y=code(N09). HOUSE precedes N, so U nonempty. PARTILE and RET follow N, so |V|>=2 literal characters. X and Y are nonempty and prefix-incomparable. MJ03=C has proper suffix Y and MJ09=D has proper suffix X. Injective prefix coding and distinct source traces force A,B,C,D to be distinct whole strings.",
+    "finite_test": "Use only already frozen899 discovery paragraphs, preserve every byte. For each unordered A/B pair enumerate BOTH orientations, every positive common-prefix U cut and every common-suffix V cut of length>=2 leaving positive middle X/Y; require prefix incomparability and distinct other whole C/D suffix witnesses. Keep all survivors. No arbitrary maximum codeword length, whole-word values, record-specific exceptions or omitted source atoms.",
+    "optional_exact_four_record_stage": "For every relaxed survivor and allsix header orders, exhaust positive cuts of U/V into the five remaining MS atom values HOUSE,MERCURY,SATURN,PARTILE,RET at their required positions. Enumerate positive JUPITER length and derive its substring at the fixed header offset, then derive REF from the remaining exact MJ equations. Verify allfour complete equations and allnine nonempty pairwise prefix-incomparable codewords. Both A/B orientations are mandatory because MJ03 and MJ09 bodies differ.",
+    "decision": "Empty relaxed or exact four-record domain implies no full24-record GDT899 fit. Any surviving four-record code remains partial: it does not establish a full61-atom prefix code, a24-record assignment, a prognosis translation or an identified manuscript value. No additional search follows automatically.",
+    "predecessor": "GDT899 allsix headers UNKNOWN under both full-string solvers remains intact; this is a derived exact finite certificate, not an altered source/compiler/channel or a rerun of timedout engines.",
+    "reopening_limit": "IDEA000133 literally requires a new observable contract; this proposal retains that contract and changes the exact mathematical falsifier. It does not assert that the old reopening clause is automatically met. Explicit continuation decision belongs to root under current user authorization.",
+    "status": "RAW_UNREVIEWED; no experimental result or held/new target access"
+  }
+}

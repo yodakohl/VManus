@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **906**
-- Experiment-associated tracked files: **17,193** (1.5 GiB)
-- Structured GDT337+ experiments: **571**
+- Experiments indexed: **907**
+- Experiment-associated tracked files: **17,201** (1.5 GiB)
+- Structured GDT337+ experiments: **572**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT908 | mutual reference cancellation | `REGISTERED_UNSCORED` | — | 8 | 18.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT907 | GDT907_line_seam_join_discovery | `COMPLETE_EXPLORATORY_CENSUS_NO_HYPHENATION_IDENTIFICATION` | [report](../experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md) | 14 | 2.5 MiB | 3 | STRUCTURED_YOLO |
 | GDT906 | GDT906_COMPLETE_CV_ENUMERATION_RESULT | `COMPLETE_NO_GRAMMAR_KEY` | [report](../experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md) | 28 | 45.8 MiB | 2 | STRUCTURED_YOLO |
 | GDT905 | GDT905_CONSTRUCTIVE_COMPLETE_PASSAGE_RESULT | `CONSTRUCTIVE_CV_SEARCH_UNRESOLVED` | [report](../experiments/yolo/gdt905_joint_cv_complete_passage_candidates/REPORT.md) | 72 | 7.1 MiB | 7 | STRUCTURED_YOLO |
