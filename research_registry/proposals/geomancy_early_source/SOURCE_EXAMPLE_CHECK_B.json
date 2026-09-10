@@ -1,0 +1,287 @@
+{
+  "schema": "early-geomancy-candidate-program-check-b-v1",
+  "source_receipt_sha256": "b5d8f749eee53fef9dad97741c36ab2421669c7a666dbdb26234ee4dcccc755b",
+  "scope": "Arithmetic comparison of frozen visual vectors to the supplied late IDEA129/Turner candidate program. No assertion that this ordering, directed joins, or rule is independently established by medieval prose. No source vector changes.",
+  "encoding": "single=1,pair=0; rows top to bottom",
+  "mapping": {
+    "M": [
+      8,
+      7,
+      6,
+      5
+    ],
+    "D": [
+      4,
+      3,
+      2,
+      1
+    ],
+    "N": [
+      12,
+      11,
+      10,
+      9
+    ],
+    "witnesses": [
+      15,
+      13
+    ],
+    "judge": 14
+  },
+  "checks": [
+    {
+      "kind": "transpose",
+      "output_position": 4,
+      "input_positions": [
+        8,
+        7,
+        6,
+        5
+      ],
+      "expected_bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "observed_bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "equal": true,
+      "provisional_source": false
+    },
+    {
+      "kind": "transpose",
+      "output_position": 3,
+      "input_positions": [
+        8,
+        7,
+        6,
+        5
+      ],
+      "expected_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "observed_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "equal": true,
+      "provisional_source": false
+    },
+    {
+      "kind": "transpose",
+      "output_position": 2,
+      "input_positions": [
+        8,
+        7,
+        6,
+        5
+      ],
+      "expected_bits": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "observed_bits": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "equal": true,
+      "provisional_source": false
+    },
+    {
+      "kind": "transpose",
+      "output_position": 1,
+      "input_positions": [
+        8,
+        7,
+        6,
+        5
+      ],
+      "expected_bits": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "observed_bits": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "equal": true,
+      "provisional_source": false
+    },
+    {
+      "kind": "XOR",
+      "output_position": 12,
+      "input_positions": [
+        8,
+        7
+      ],
+      "expected_bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "observed_bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "equal": true,
+      "provisional_source": false
+    },
+    {
+      "kind": "XOR",
+      "output_position": 11,
+      "input_positions": [
+        6,
+        5
+      ],
+      "expected_bits": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "observed_bits": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "equal": true,
+      "provisional_source": false
+    },
+    {
+      "kind": "XOR",
+      "output_position": 10,
+      "input_positions": [
+        4,
+        3
+      ],
+      "expected_bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "observed_bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "equal": true,
+      "provisional_source": false
+    },
+    {
+      "kind": "XOR",
+      "output_position": 9,
+      "input_positions": [
+        2,
+        1
+      ],
+      "expected_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "observed_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "equal": true,
+      "provisional_source": false
+    },
+    {
+      "kind": "XOR",
+      "output_position": 15,
+      "input_positions": [
+        12,
+        11
+      ],
+      "expected_bits": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "observed_bits": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "equal": true,
+      "provisional_source": true
+    },
+    {
+      "kind": "XOR",
+      "output_position": 13,
+      "input_positions": [
+        10,
+        9
+      ],
+      "expected_bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "observed_bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "equal": true,
+      "provisional_source": false
+    },
+    {
+      "kind": "XOR",
+      "output_position": 14,
+      "input_positions": [
+        15,
+        13
+      ],
+      "expected_bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "observed_bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "equal": true,
+      "provisional_source": true
+    }
+  ],
+  "all_equal": true,
+  "passed": 11,
+  "total": 11,
+  "source_uncertainty": "Position15 bottom-right lowest mark/border overlap remains provisional. Checks consuming that vector are conditional on the frozen reading."
+}

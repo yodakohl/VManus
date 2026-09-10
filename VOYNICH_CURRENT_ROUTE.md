@@ -1,5 +1,5 @@
 # Voynich current route
-Updated: 2026-09-09. Read first.
+Updated: 2026-09-10. Read first.
 
 ## Latest completed continuation and next selection
 
@@ -36,7 +36,7 @@ Originaldiplomatictext/orderunresolved; conditionalCHDmodelonly, no meanings.
 899closed:24wholeMS/MJconditiontraces;6headersALLUNKNOWNbothengines.
 No key/exclusion/projections; no automatic source/compiler/solverrepair.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
-901/902excluded.136complete sourcecapture; typedcompilerunfinished, nofit.
+901/902excluded.136sourcecomplete/compilerunfinished;129early11-outputexamplematches; fullrules/targetunbound.
 903closed:properinfinite-indexH; explicit10451-statecompatibility, noidentifiedrule.
 GDT882:413all3-concordant lines43leaves20literal characters; integer lattice
 Z^20, index1; independent C D=I verificationPASS. No nonzero fixed additive

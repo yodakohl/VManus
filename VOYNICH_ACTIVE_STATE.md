@@ -6,6 +6,11 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+IDEA129:earlyCodSang756 complete15-position example matches11candidateoutputs
+in2replays; onevectorprovisional. Independentprosecollation bindsparity and
+witnesschecks, notfullconstruction/serialization. No targetregister ormeaning;
+oldf57vstop remains. Source packet:research_registry/proposals/geomancy_early_source/.
+
 IDEA136:complete6+31electronic sourcecapture/postlude independentlyaligned;
 I.2recovered,1922joinsXXI–XXII. Twelveatom/serializationchoicesremain;
 localalternativegainconfirmed. Notargetfit orsourcegatePASS; proposalparked.

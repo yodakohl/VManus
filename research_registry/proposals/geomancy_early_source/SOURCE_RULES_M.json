@@ -1,0 +1,227 @@
+{
+  "schema": "COD_SANG_756_INDEPENDENT_RULE_COLLATION_M_V1",
+  "status": "PARTIAL_EXPLICIT_RULES_NOT_A_COMPLETE_PROGRAM",
+  "scope": "Source-only independent native reading of Cod. Sang. 756 pp. 6–8 and the p. 3 shield. No Voynich access, fit, later manual, or other observer annotation read.",
+  "observer": "M",
+  "institutional_manifest": {
+    "url": "https://www.e-codices.ch/metadata/iiif/csg-0756/manifest.json",
+    "sha256": "6b016291f3fda56135e85afd31c698bc0f24c6bfdcec7b4244575feae2553882",
+    "label": "St. Gallen, Stiftsbibliothek, Cod. Sang. 756",
+    "institutional_date": "first half of the 15th century",
+    "date_scope": "Institutional manuscript metadata, not an independently dated individual rule hand."
+  },
+  "image_bindings": [
+    {
+      "file": "p3.jpg",
+      "page": 3,
+      "sha256": "fab427e453594d9eec11af0fa83250242a03f7bb67724d25c0957d5abdc59cea",
+      "dimensions": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "file": "p6.jpg",
+      "page": 6,
+      "sha256": "bfdff77fc83345a060a3553367dc6272f789147b191bc9439c2b3bb2b98c6e98",
+      "dimensions": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "file": "p7.jpg",
+      "page": 7,
+      "sha256": "47da1571040aaf14e0f1909e7bd692df401701563ae0a54e6d6afaede3b1ab98",
+      "dimensions": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "file": "p8.jpg",
+      "page": 8,
+      "sha256": "bcd4a26580f128e89e80f740b2dc95f3906026d9f6711ff790b04d3bedd01cd0",
+      "dimensions": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "file": "M_p6_3600.jpg",
+      "page": 6,
+      "sha256": "ed97a456eccdc56a3ceec004bbdcbf0382f9880c68350d07a49b0cc176d8de98",
+      "url": "https://www.e-codices.ch/loris/csg/csg-0756/csg-0756_006.jp2/full/3600,/0/default.jpg"
+    },
+    {
+      "file": "M_p7_3600.jpg",
+      "page": 7,
+      "sha256": "2dab0f59383410c2ddbfad9294eb0f373da040978e483ab53108f5eeaaed01c4",
+      "url": "https://www.e-codices.ch/loris/csg/csg-0756/csg-0756_007.jp2/full/3600,/0/default.jpg"
+    },
+    {
+      "file": "M_p8_3600.jpg",
+      "page": 8,
+      "sha256": "b72d813b25eaab0ee37f74d8a91b760de250e035d8d9b3fcad4256f296334fa4",
+      "url": "https://www.e-codices.ch/loris/csg/csg-0756/csg-0756_008.jp2/full/3600,/0/default.jpg"
+    },
+    {
+      "file": "M_p7_rule_region.jpg",
+      "page": 7,
+      "sha256": "b3da8f320bdc3c64b6c6dfb84e5164788b8b15e78335174c5f129baea8852441",
+      "url": "https://www.e-codices.ch/loris/csg/csg-0756/csg-0756_007.jp2/650,4450,4450,1950/full/0/default.jpg",
+      "operation": "Institutional original-resolution rectangular region, after whole-page native reading; no enhancement, OCR or local image edit."
+    }
+  ],
+  "transcription_policy": "Short semi-diplomatic anchors only: u/v and Roman numerals retained when secure; bracketed letters expand abbreviations; [unclear] is not supplied from another text. Full diplomatic transcription is not claimed. Readable semantic assertions are separated from uncertain connecting words and from mathematical inference.",
+  "evidence": [
+    {
+      "id": "M01",
+      "page": 6,
+      "location": "last paragraph, last four lines, continuing at p7 top",
+      "kind": "INITIAL_MARK_GENERATION",
+      "anchors": [
+        "seminare lineas punctorum",
+        "in fortuitum"
+      ],
+      "reading": "The practitioner is to sow lines of points fortuitously, not according to a predetermined point quantity. The preceding paragraph allows writing on paper, a prepared tablet, sand and other suitable surfaces.",
+      "confidence": "HIGH for fortuitous point-line production; no complete input indexing certified"
+    },
+    {
+      "id": "M02",
+      "page": 7,
+      "location": "top four lines",
+      "kind": "PAIR_CANCELLATION",
+      "anchors": [
+        "postea bina et bina debes ligare puncta",
+        "ad ultima duo",
+        "usq[ue] ad unum"
+      ],
+      "reading": "Pairs of points are linked/cancelled until the last two or one remain; the two or single remainder is retained. The operation is explicitly described for the point lines.",
+      "formalization": "A positive line count n is reduced to 2 when even, 1 when odd.",
+      "confidence": "HIGH for parity reduction",
+      "limits": "This passage does not by itself identify each later parent-pair or its daughter slot. The opening Roman numeral/grouping is not certified here: apparent xv. and the following four-group language require a full diplomatic adjudication before treating them as an exact 16-line input declaration."
+    },
+    {
+      "id": "M03",
+      "page": 7,
+      "location": "upper paragraph ending immediately above Si queratur and the small red figures",
+      "kind": "REGISTER_AND_JUDGE",
+      "anchors": [
+        "p[er] figuram xv q[ue] iudex vocatur"
+      ],
+      "reading": "The fifteenth figure is explicitly the judge. The surrounding text distinguishes the querent and the thing asked about and places the judge between them.",
+      "confidence": "HIGH for XV = judge; no complete physical numbering permutation certified"
+    },
+    {
+      "id": "M04",
+      "page": 7,
+      "location": "red rubric beginning De modo sciendi, then first prose line",
+      "kind": "CHECKING_SECTION_BOUNDARY",
+      "anchors": [
+        "De modo sciendi",
+        "Formata questione p[er] xv. figuras"
+      ],
+      "reading": "The following section begins after a question has already been formed through fifteen figures and asks whether the formation is correct or contains an error. Its equations must therefore be retained as checking instructions, not silently substituted for a missing full construction.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "M05",
+      "page": 7,
+      "location": "lower checking paragraph, Primus ordo through Quartus ordo",
+      "kind": "RIGHT_WITNESS_ROW_CHECK",
+      "anchors": [
+        "Primus ordo punctorum figure xiii.",
+        "Sec[un]dus ordo a vj",
+        "Tercia a vij",
+        "Quartus ordo ab viij"
+      ],
+      "reading": "Rows 1, 2, 3, 4 of figure XIII are checked from the whole-point parities of figures V, VI, VII, VIII respectively. The prose immediately explains the first case: even total points in V give two points in the first row of XIII; odd total points give one point in that row of the right witness. Subsequent rows follow the stated order.",
+      "formalization": "For r=1..4, points(XIII,r)=reduce_parity(sum_s points(IV+r,s)).",
+      "confidence": "HIGH for the four source figure numbers, row order and even/odd first-row rule; the connecting abbreviation after tota is not diplomatically resolved"
+    },
+    {
+      "id": "M06",
+      "page": 7,
+      "location": "last lines of checking paragraph, immediately above De xv figura",
+      "kind": "WITNESS_PROVENANCE_AND_ANALOGOUS_CHECK",
+      "anchors": [
+        "testis dext[er]",
+        "a iiij filiabus",
+        "sinist[er] testis",
+        "a iiij figuris q[ue] matres vocantur"
+      ],
+      "reading": "The right witness is connected to four daughters, and the left witness analogously to four figures called mothers. This is the conclusion of the checking argument. Earlier in the same paragraph the term filiae is also applied to a six-figure group including V–VIII and XI–XII, so the word alone should not define a single graph level.",
+      "confidence": "HIGH for right/daughters and left/mothers; MEDIUM for the complete earlier six-figure enumeration",
+      "limits": "The left witness's Roman number is not separately read in this excerpt. The analogy supports a corresponding check on the mothers but is not a full list of construction edges."
+    },
+    {
+      "id": "M07",
+      "page": 7,
+      "location": "last red rubric and opening line, continuing on p8",
+      "kind": "JUDGE_PARITY_CHECK",
+      "anchors": [
+        "De xv. figura que iudex vocatur"
+      ],
+      "reading": "The fifteenth figure must have even total point parity; an odd judge indicates a preceding error.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "M08",
+      "page": 8,
+      "location": "first paragraph",
+      "kind": "WITNESS_AND_JUDGE_PARITY_CHECK",
+      "anchors": [
+        "due disparitates faciunt unam paritatem",
+        "xv. figura",
+        "testes fuerint discordes in paritate"
+      ],
+      "reading": "The text explains the judge's evenness through agreement of witness total parity: two odd parities give an even parity, and disagreement between the witnesses signals an error above. It warns against correcting only the final figure.",
+      "confidence": "HIGH for total-parity checking",
+      "limits": "These total-parity statements alone are not a four-row pointwise addition truth table, nor do they enumerate all seven generation pairs."
+    },
+    {
+      "id": "M09",
+      "page": 8,
+      "location": "paragraph beginning Si queratur after the judge discussion",
+      "kind": "FIGURE_ALPHABET_COUNT",
+      "anchors": [
+        "figure geomantie sunt t[antu]m xvj"
+      ],
+      "reading": "Sixteen available figure types are distinguished from the fifteen positions in a formed question. The subsequent explanation invokes four elements and twelve further figures and then discusses entering/exiting or fixed/mobile qualities.",
+      "confidence": "HIGH for 16 types; qualities not collated as part of the calculation program"
+    },
+    {
+      "id": "M10",
+      "page": 3,
+      "location": "red shield in lower right of prose area",
+      "kind": "DIAGRAM_STRUCTURE_ONLY",
+      "reading": "A complete shield is visible with eight figures across the upper band, four in the next band, and three in the lower part including a central figure. No per-cell Roman numbering is visible in this small shield.",
+      "confidence": "HIGH for 8+4+3 complete objects",
+      "limits": "No binary transcription, parent-arrow interpretation or numbered left/right traversal has been used to fill the textual gaps."
+    }
+  ],
+  "requested_full_program_gate": {
+    "complete": false,
+    "mother_to_daughter_transposition": "NOT EXPLICITLY BOUND by this independent reading of pp6–8. The right-witness whole-figure parity check is not the four-by-four transpose rule.",
+    "four_nephew_parent_pairs": "NOT EXPLICITLY ENUMERATED in the inspected passages.",
+    "two_witness_parent_pairs": "NOT EXPLICITLY ENUMERATED as the two intermediate-figure pair operations; witness provenance and an alternative row-parity check are explicit.",
+    "judge_parent_pair_operation": "Two witnesses and the judge's evenness are explicit; a complete pointwise four-row operation has not been independently read here.",
+    "all_register_positions_and_order": "XV judge and XIII/right-witness reading supported; full fifteen-slot numbering/traversal is not certified.",
+    "mathematical_nonimplication": "Whole-figure parity retains only one bit per four-row figure. Such checks discard within-figure arrangement, so they cannot independently determine the full mother/daughter transposition or every generation edge. A complete program must not be reconstructed from these checks plus a modern template.",
+    "decision": "Source/design incompleteness of this bounded collation, not a falsification of geomancy, IDEA129, or the historical manuscript. No complete-source gate PASS and no target fit authorized by this receipt. Another independently bound passage or a fully collated explicit schema could close the missing construction steps; this receipt makes no assertion that the entire codex lacks them."
+  },
+  "unread_or_unresolved": [
+    "No other observers' source annotations have been opened.",
+    "No modern or seventeenth-century procedure has been used to supply an unclear Latin clause.",
+    "The opening p7 numeral and exact grouping syntax remain uncertain rather than normalized to sixteen.",
+    "Full diplomatic readings of the checking paragraph's intervening abbreviated clauses are not supplied.",
+    "No exact source figure-value inventory or general full program is claimed from the unnumbered p3 shield."
+  ],
+  "sealed_utc": "2026-09-10 04:23:18 UTC",
+  "native_view_interval_utc": {
+    "start": "2026-09-10 04:16:36 UTC",
+    "end": "2026-09-10 04:20:40 UTC",
+    "basis": "Clock samples bounding all native source views; no claim of exact per-image viewing second."
+  }
+}
