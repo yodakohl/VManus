@@ -910,3 +910,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT895 | GDT895_complete_entry_cv | `ALL_FOUR_PANELS_UNSAT` | [report](../experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md) | 29 | 13.0 MiB | 5 | STRUCTURED_YOLO |
 | GDT896 | GDT896_complete_entry_rotor | `ALL_FOUR_PANELS_UNSAT` | [report](../experiments/yolo/gdt896_alberti_complete_entry_rotor/REPORT.md) | 16 | 490.3 KiB | 4 | STRUCTURED_YOLO |
 | GDT897 | GDT897_fixed_bernstein_projection_constraints | `CLOSED_WITH_UNRESOLVED_STEREOGRAPHIC_CASES` | [report](../experiments/yolo/gdt897_complete_constellation_projection_constraints/REPORT.md) | 40 | 2.3 MiB | 2 | STRUCTURED_YOLO |
+| GDT898 | GDT898_complete_cisiojanus_cycle | `CONDITIONAL_EDITED_SOURCE_ALL_THREE_PANELS_UNSAT` | [report](../experiments/yolo/gdt898_cisiojanus_complete_cycle_compositional_code/REPORT.md) | 13 | 53.8 KiB | 2 | STRUCTURED_YOLO |

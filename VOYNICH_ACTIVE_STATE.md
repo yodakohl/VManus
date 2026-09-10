@@ -21,8 +21,11 @@ retained; primarygnomonicall5casesexcluded, independently1reproduced/4timeout.
 Initialstereo uninformative; fixedBernsteinprecision independentlyverified.
 RefinedLEFT29all4casesUNKNOWNbothimplementations; LEFT30primaryUNSAT and
 independentUNKNOWN. No continuousfit, geometricidentity, newpage ormeaning.
-No further projection/source/optimizerpassselected.
-Primary: `experiments/yolo/gdt896_alberti_complete_entry_rotor/REPORT.md`.
+No further projection/source/optimizerpassselected.898conditionaleditedFebruary
+all28cellsdistinct, f69v14/18wholeokeodall3: injectiveprefixcodeimpossibleforany
+bijection; independentrawsource/targetreplayPASS. Diplomatictext/orderunresolved;
+onlyfixededitedsource/channelconjunction excluded, no meaning orautomaticrepair.
+Primary: `experiments/yolo/gdt898_cisiojanus_complete_cycle_compositional_code/REPORT.md`.
 
 ### Consolidated research memory (2026-09-06; workflow, not decipherment)
 

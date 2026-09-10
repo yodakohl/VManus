@@ -30,12 +30,12 @@ Gnomonicprimaryall5UNSAT; independent1reproduced/4timeout. Stereo v1vacuous;
 fixedBernsteinverified. RefinedLEFT29all4UNKNOWNboth; LEFT30primaryUNSAT/independentUNKNOWN.
 No continuousfit, identity, newpage ormeaning; no projection/source/optimizerfollow-on.
 Primary: experiments/yolo/gdt897_complete_constellation_projection_constraints/REPORT.md.
-Cisiojanus completecycle/source coupling underreview, notselected.
+898closed: all28editedFebruarycells distinct; f69v14/18wholeokeodall3readings.
+InjectiveprefixcodeimpossibleforANYbijection; independentrawreplayPASS.
+Originaldiplomatictext/orderunresolved; conditionalCHDmodelonly, no meanings.
 128Llull chamber macros sourced; fixed10-letter complete-line morphism conflicts
 with882rank20 on its certificate scope. Narrow ordered-table domain remainsunbound.
-LatInfLexi excludes medieval vocabulary; no Voynich-language inference.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
-
 User-requested10h ACTIVE research started2026-09-09 01:58:34UTC.
 Resumed16:59UTC after interruption; inactive gap does not count (active timer~3h28).
 GDT882:413all3-concordant lines43leaves20literal characters; integer lattice

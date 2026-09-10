@@ -1,0 +1,203 @@
+{
+  "schema": "GDT898_INDEPENDENT_INJECTIVITY_VALIDATION_V1",
+  "status": "PASS_CONDITIONAL_MODEL_IMPOSSIBLE",
+  "source_input_sha256": "12a7cfd801256baf143d83c2386dba8fd6176335bceadd54a3270fe36692cc7d",
+  "target_input_sha256": "656090f548ed2084addd6040ac1b2d75d11284fefed8fc0c15d27007ad778665",
+  "source_html_sha256": "09b06c438405c111ee04988a66fbd342e67ee30957fc3a3685b8b6dec8c683a1",
+  "source_url": "https://www.manuscripts.org.uk/chd.dk/cals/gks79cal.html",
+  "target_source_sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+  "source_cells_independently_extracted": [
+    {
+      "day": 1,
+      "raw_text": "Bri",
+      "written_atoms": "bri"
+    },
+    {
+      "day": 2,
+      "raw_text": "*pur",
+      "written_atoms": "pur"
+    },
+    {
+      "day": 3,
+      "raw_text": "*bla",
+      "written_atoms": "bla"
+    },
+    {
+      "day": 4,
+      "raw_text": "sus",
+      "written_atoms": "sus"
+    },
+    {
+      "day": 5,
+      "raw_text": "agti ",
+      "written_atoms": "agti"
+    },
+    {
+      "day": 6,
+      "raw_text": "*dor",
+      "written_atoms": "dor"
+    },
+    {
+      "day": 7,
+      "raw_text": "fe-",
+      "written_atoms": "fe"
+    },
+    {
+      "day": 8,
+      "raw_text": "bru-",
+      "written_atoms": "bru"
+    },
+    {
+      "day": 9,
+      "raw_text": "o",
+      "written_atoms": "o"
+    },
+    {
+      "day": 10,
+      "raw_text": "sco",
+      "written_atoms": "sco"
+    },
+    {
+      "day": 11,
+      "raw_text": "las-",
+      "written_atoms": "las"
+    },
+    {
+      "day": 12,
+      "raw_text": "ti-",
+      "written_atoms": "ti"
+    },
+    {
+      "day": 13,
+      "raw_text": "ca.",
+      "written_atoms": "ca"
+    },
+    {
+      "day": 14,
+      "raw_text": "va",
+      "written_atoms": "va"
+    },
+    {
+      "day": 15,
+      "raw_text": "lent",
+      "written_atoms": "lent"
+    },
+    {
+      "day": 16,
+      "raw_text": "Iu",
+      "written_atoms": "iu"
+    },
+    {
+      "day": 17,
+      "raw_text": "li",
+      "written_atoms": "li"
+    },
+    {
+      "day": 18,
+      "raw_text": " con-",
+      "written_atoms": "con"
+    },
+    {
+      "day": 19,
+      "raw_text": " iun-",
+      "written_atoms": "iun"
+    },
+    {
+      "day": 20,
+      "raw_text": " go",
+      "written_atoms": "go"
+    },
+    {
+      "day": 21,
+      "raw_text": "tunc",
+      "written_atoms": "tunc"
+    },
+    {
+      "day": 22,
+      "raw_text": "*pe",
+      "written_atoms": "pe"
+    },
+    {
+      "day": 23,
+      "raw_text": "trum",
+      "written_atoms": "trum"
+    },
+    {
+      "day": 24,
+      "raw_text": "*mat",
+      "written_atoms": "mat"
+    },
+    {
+      "day": 25,
+      "raw_text": " thi-  \n",
+      "written_atoms": "thi"
+    },
+    {
+      "day": 26,
+      "raw_text": " am ",
+      "written_atoms": "am"
+    },
+    {
+      "day": 27,
+      "raw_text": " in-",
+      "written_atoms": "in"
+    },
+    {
+      "day": 28,
+      "raw_text": " de.",
+      "written_atoms": "de"
+    }
+  ],
+  "distinct_source_strings": 28,
+  "target_entries_replayed": 28,
+  "target_group_rows_replayed": 100,
+  "guard_receipt": "GUARD_STATS {\"selected\": 100, \"skipped_forbidden\": 2122, \"skipped_not_allowed\": 113248}",
+  "duplicate_witnesses": [
+    {
+      "panel": "ZL3b",
+      "loci": [
+        "f69v.14",
+        "f69v.18"
+      ],
+      "complete_raw_groups_each": [
+        "okeod"
+      ]
+    },
+    {
+      "panel": "IT2a",
+      "loci": [
+        "f69v.14",
+        "f69v.18"
+      ],
+      "complete_raw_groups_each": [
+        "okeod"
+      ]
+    },
+    {
+      "panel": "RF1b",
+      "loci": [
+        "f69v.14",
+        "f69v.18"
+      ],
+      "complete_raw_groups_each": [
+        "okeod"
+      ]
+    }
+  ],
+  "proof": [
+    "Assume distinct source atoms have distinct nonempty prefix-free codewords.",
+    "For equal encoded strings, their first codewords are comparable by prefix. Prefix-freeness forces equality; atom injectivity forces equal first atoms.",
+    "Cancel that common codeword and induct. Nonemptiness prevents a nonempty remainder encoding the empty string. Thus the induced morphism is injective on every finite source string.",
+    "All 28 source strings are distinct; every bijection to 28 complete target entries must therefore yield distinct outputs.",
+    "The two distinct entries f69v.14 and f69v.18 instead have the same complete single-group literal output in each panel. This contradicts every bijection, including every cyclic phase and direction."
+  ],
+  "scope": "Conditional on the fixed CHD letters-only February edition and literal target panels; not a refutation of every historical Cisiojanus variant.",
+  "limitations": [
+    "Exact diplomatic native source collation remains unresolved; editorial reading is an explicit condition.",
+    "Panels are alternate readings of one manuscript, not three independent manuscript observations.",
+    "The equality obstruction was noticed after raw target exposure, not preregistered blind.",
+    "No native cyclic-order certification, continuous fit, decoder, calendar meaning or plaintext claim is required or supplied.",
+    "Executable synthetic checks illustrate implementation behavior; the general result follows from the stated proof."
+  ],
+  "synthetic_checks": "PASS normalization/rejection and prefix-code illustration/non-prefix counterexample"
+}
