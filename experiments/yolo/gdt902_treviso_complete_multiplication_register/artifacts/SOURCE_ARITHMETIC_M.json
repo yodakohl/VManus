@@ -1,0 +1,99 @@
+{
+  "schema": "INDEPENDENT_NATIVE_TREVISO_ARITHMETIC_OBSERVATION_V1",
+  "observer": "morphology_predecessors",
+  "native_view_utc": "2026-09-10 02:57:31 UTC",
+  "image": {
+    "file": "treviso-16.jpg",
+    "sha256": "8af134240a88ed8cdaafa40975fd09a347461c11b3a6cb7721e2f0f9404fbbb3",
+    "width": 1600,
+    "height": 1088,
+    "view": "Complete original cached canvas at native resolution, without cropping, enhancement or OCR. Source assigned by parent as Treviso arithmetic 1478; date and PDF-page binding not independently established by this image alone."
+  },
+  "independence": {
+    "read_other_observer_before_seal": false,
+    "read_target_data": false,
+    "prior_information": "Parent specified eight blocks and 44 rows, factor ranges and proposed compiler before this independent visual transcription. Every row below was read directly from the whole image, not generated from multiplication."
+  },
+  "field_order": ["first_factor", "fia", "second_factor", "fa", "product"],
+  "blocks": [
+    {"id":"B2","position":"left page, upper table block","rows":[
+      ["2","fia","2","fa","4"],
+      ["2","fia","3","fa","6"],
+      ["2","fia","4","fa","8"],
+      ["2","fia","5","fa","10"],
+      ["2","fia","6","fa","12"],
+      ["2","fia","7","fa","14"],
+      ["2","fia","8","fa","16"],
+      ["2","fia","9","fa","18"],
+      ["2","fia","0","fa","0"]
+    ]},
+    {"id":"B3","position":"left page, lower table block","rows":[
+      ["3","fia","3","fa","9"],
+      ["3","fia","4","fa","12"],
+      ["3","fia","5","fa","15"],
+      ["3","fia","6","fa","18"],
+      ["3","fia","7","fa","21"],
+      ["3","fia","8","fa","24"],
+      ["3","fia","9","fa","27"],
+      ["3","fia","0","fa","0"]
+    ]},
+    {"id":"B4","position":"right page, first table block","rows":[
+      ["4","fia","4","fa","16"],
+      ["4","fia","5","fa","20"],
+      ["4","fia","6","fa","24"],
+      ["4","fia","7","fa","28"],
+      ["4","fia","8","fa","32"],
+      ["4","fia","9","fa","36"],
+      ["4","fia","0","fa","0"]
+    ]},
+    {"id":"B5","position":"right page, second table block","rows":[
+      ["5","fia","5","fa","25"],
+      ["5","fia","6","fa","30"],
+      ["5","fia","7","fa","35"],
+      ["5","fia","8","fa","40"],
+      ["5","fia","9","fa","45"],
+      ["5","fia","0","fa","0"]
+    ]},
+    {"id":"B6","position":"right page, third table block","rows":[
+      ["6","fia","6","fa","36"],
+      ["6","fia","7","fa","42"],
+      ["6","fia","8","fa","48"],
+      ["6","fia","9","fa","54"],
+      ["6","fia","0","fa","0"]
+    ]},
+    {"id":"B7","position":"right page, fourth table block","rows":[
+      ["7","fia","7","fa","49"],
+      ["7","fia","8","fa","56"],
+      ["7","fia","9","fa","63"],
+      ["7","fia","0","fa","0"]
+    ]},
+    {"id":"B8","position":"right page, fifth table block","rows":[
+      ["8","fia","8","fa","64"],
+      ["8","fia","9","fa","72"],
+      ["8","fia","0","fa","0"]
+    ]},
+    {"id":"B9","position":"right page, sixth table block","rows":[
+      ["9","fia","9","fa","81"],
+      ["9","fia","0","fa","0"]
+    ]}
+  ],
+  "counts": {"blocks":8,"equations":44,"nonzero_products":36,"zero_products":8,"fields":220},
+  "source_observations": [
+    "All printed table rows on the canvas are included in native top-to-bottom block order, left page then right page.",
+    "Every block ends with multiplication by zero, after the increasing positive second factors.",
+    "No multiplication-by-one row or commuted lower-triangle row is printed in this table. None is added.",
+    "The first factor is repeated in every row; there is no separately printed lexical block heading.",
+    "The operators read fia and fa in their respective columns throughout.",
+    "Two-digit products display visible spacing between the digits within one product column. The decimal strings here remove only that within-field spacing; this is an explicit arithmetic-field canonicalization, not a claim that the print has one unspaced word.",
+    "Historical Arabic-digit shapes, including the z-like seven and crossed/hourglass eight, are transcribed by their numerical values. The image hash retains their original forms.",
+    "The explanatory prose preceding the table is outside the eight table blocks and is not transcribed or implicitly encoded."
+  ],
+  "uncertain_rows": [],
+  "model_limitations": [
+    "One printed table block becoming one whole target paragraph is a prospective compiler hypothesis; the source image does not establish target ownership or target paragraph semantics.",
+    "Treating every complete decimal number as one target group, despite within-product digit spacing in the source, is a registered writing-model choice.",
+    "The source supplies ordinary multiplication with a particular triangular presentation. A successful arithmetic recovery would not uniquely identify this book as the historical source.",
+    "The cached edition is designated 1478 and is not evidence that this printed book predates or supplied the Voynich manuscript.",
+    "Any foreground projection must retain every occurrence of every globally selected numeric or operator code; other word types remain untranslated."
+  ]
+}

@@ -6,6 +6,10 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT902selected:twoindependentnativecollations agreeon44Treviso1478equations,
+8blocks220fields36numeralvalues. Globaldecimalcode/wholeparagraphmodel frozen;
+no targetfit ormeaning yet. Printedsourceidentitynotclaimed.
+
 GDT901closed:all10complete22pitchrolepartitions UNSAT inbothindependentengines.
 The count/head-only modelalreadyexcludesall10; morphology/ordernotneeded.
 Source/role/input/resultauditsPASS; no meanings, helddata orautomaticrepair.
