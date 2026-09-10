@@ -1,0 +1,71 @@
+{
+  "schema": "GDT900_INDEPENDENT_TARGET_VALIDATION_V1",
+  "status": "PASS",
+  "parent_packet_sha256": "1b536c8f46dca72522d9cd059869a963aad124ee5da44218b886c88d91ddf2ed",
+  "target_input_sha256": "dfb5f1981b609fadaf4c93c406ad86042d928f60296d8010a022fe303033df6a",
+  "target_input_bytes": 4423257,
+  "validator_sha256": "bcd4e6075f57fce8ed2ab9c50ef0e5209fd97382cd46d5d3c0d2f3c2a5244179",
+  "inherited_target_cache_sha256": "6d2e86fee415137eff89362022cfd62cf4adcf783b28f7e98c827b8a8413afa4",
+  "panels": {
+    "CONSENSUS": {
+      "inherited_paragraphs": 1,
+      "paragraphs_with_at_least_18_groups": 0,
+      "inherited_raw_groups": 11,
+      "physical_folios_in_inherited_panel": 1,
+      "expected_windows": 0,
+      "actual_windows": 0,
+      "raw_group_occurrences_in_windows": 0,
+      "complete_exact_replay": true,
+      "all_physical_leaves_odd": true,
+      "sealed_prefixes_present": false
+    },
+    "IT2a": {
+      "inherited_paragraphs": 259,
+      "paragraphs_with_at_least_18_groups": 243,
+      "inherited_raw_groups": 11071,
+      "physical_folios_in_inherited_panel": 36,
+      "expected_windows": 6710,
+      "actual_windows": 6710,
+      "raw_group_occurrences_in_windows": 120780,
+      "complete_exact_replay": true,
+      "all_physical_leaves_odd": true,
+      "sealed_prefixes_present": false
+    },
+    "RF1b": {
+      "inherited_paragraphs": 11,
+      "paragraphs_with_at_least_18_groups": 7,
+      "inherited_raw_groups": 249,
+      "physical_folios_in_inherited_panel": 9,
+      "expected_windows": 73,
+      "actual_windows": 73,
+      "raw_group_occurrences_in_windows": 1314,
+      "complete_exact_replay": true,
+      "all_physical_leaves_odd": true,
+      "sealed_prefixes_present": false
+    },
+    "ZL3b": {
+      "inherited_paragraphs": 14,
+      "paragraphs_with_at_least_18_groups": 9,
+      "inherited_raw_groups": 362,
+      "physical_folios_in_inherited_panel": 7,
+      "expected_windows": 142,
+      "actual_windows": 142,
+      "raw_group_occurrences_in_windows": 2556,
+      "complete_exact_replay": true,
+      "all_physical_leaves_odd": true,
+      "sealed_prefixes_present": false
+    }
+  },
+  "total_windows": 6925,
+  "checks": [
+    "Frozen parent and final compact target hashes verified before parsing",
+    "Every inherited paragraph accounted for, including those shorter than 18 groups",
+    "All windows independently regenerated using every eligible paragraph end position",
+    "All raw words, source-group IDs, paragraph IDs, offsets, page selectors and physical folios agree exactly",
+    "Complete list order and window IDs agree; no omitted or extra windows",
+    "Every window has 18 consecutive inherited groups and stays inside one paragraph",
+    "All source IDs match their panel edition and page, with strictly increasing native coordinates",
+    "Only odd physical leaves; f84 and f84r prefixes excluded"
+  ],
+  "scope": "Projection/provenance audit only, without fitting. Candidate windows may overlap; selecting two nonoverlapping windows is a separate model constraint. Physical positions are inherited source-group pointers, not new native table certification. Alternate readings remain panels of one manuscript. No raw mixed transcription, even target, source forms or fitted results were opened."
+}

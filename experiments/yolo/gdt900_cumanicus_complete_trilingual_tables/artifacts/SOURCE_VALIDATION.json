@@ -1,0 +1,64 @@
+{
+  "schema": "GDT900_INDEPENDENT_SOURCE_VALIDATION_V1",
+  "status": "PASS",
+  "source_input_sha256": "7647eb754fd68d939d041d7a6a35e1711d1783f936f316a5f669b0f58f39846c",
+  "compiler_sha256": "5d8449a0bba5e48dee57f0184a6773adfce24e127897b448119ffa3e89be5945",
+  "validator_sha256": "9b1059bf98d8de41cadb25b46b4c93bbcb7a141ac9d7ff3d0116141241802497",
+  "observer_receipt_sha256": {
+    "OBSERVER_A.json": "d786abd6b446762dfb5e90b274c25a29f0890507ce3967604aad16d9b27c301d",
+    "OBSERVER_M.json": "ed5b2e7f0ca7fc30cacace927b92b584e733454fc3e9dd1a14efb6fd26f6bc28",
+    "ADJUDICATION.json": "53b11dd7c2a3ea74f0c3d0a7891eb14bd210acaa993920a751897878e90aa367"
+  },
+  "native_source_sha256": {
+    "kuun1880.pdf": "78be07bc3ebd06f683a6b06501fe38a2fb7f660fb77c9f25845a1035a62e09f9",
+    "page-149.png": "34099878ae7ac823896232da391c483aef0575f4c8848e4b93e1c247c10561bd",
+    "page-153.png": "1112a0e1d26ca987866b3ffd0cd6487731e1d6a982f5119114a223f120ea6301",
+    "detail-149.png": "4eac18c0bb17b19bccc123bb4f3af6a92195cc056aa24b16a71f7c23cfc6d0c3"
+  },
+  "native_source_bytes_verified": [
+    "kuun1880.pdf",
+    "page-149.png",
+    "page-153.png",
+    "detail-149.png"
+  ],
+  "tables": 2,
+  "cells": 36,
+  "source_variants": 4,
+  "unit_schemes": 3,
+  "traversals": 12,
+  "joint_compilations": 144,
+  "compiled_cells_checked": 5184,
+  "compiled_family_sha256": "d278b6d7007b2018ea06ac6fbb142c68bed3cc92b35ebd02eb42809e710796f2",
+  "unit_inventory_sizes_over_complete_variant_union": {
+    "LETTER": 19,
+    "PAIR_LEFT": 47,
+    "PAIR_RIGHT": 49
+  },
+  "source_variant_union": [
+    {
+      "IMPERFECT_1SG_C2": "LETTER_ABSENT",
+      "IMPERFECT_3PL_C2": "LETTER_ABSENT"
+    },
+    {
+      "IMPERFECT_1SG_C2": "LETTER_ABSENT",
+      "IMPERFECT_3PL_C2": "LETTER_PRESENT"
+    },
+    {
+      "IMPERFECT_1SG_C2": "LETTER_PRESENT",
+      "IMPERFECT_3PL_C2": "LETTER_ABSENT"
+    },
+    {
+      "IMPERFECT_1SG_C2": "LETTER_PRESENT",
+      "IMPERFECT_3PL_C2": "LETTER_PRESENT"
+    }
+  ],
+  "checks": [
+    "All 36 base cells agree with sealed M observation plus the explicit after-seal final-i correction",
+    "Marked u remains one U_ABBR atom and the initial ordinary u is retained",
+    "Only the two apparatus-specified i positions vary, with all four independent combinations",
+    "All 144 source variant/unitization/traversal compilations match an independent implementation",
+    "Both complete 18-cell tables and all 36 distinct whole-cell unit sequences survive every compilation",
+    "Original A/M receipts and the separate adjudication are hash-bound and unchanged"
+  ],
+  "scope": "Source and compiler audit only. No target, fit, manuscript translation or model witness. The finite erasure union is a conservative envelope, not four certified historical revision layers. Exact heading typography is excluded from the lexical-cell model and remains recorded as uncertain in the original M observation."
+}

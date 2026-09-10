@@ -1,0 +1,1 @@
+Frozen complete edited source cells and all eligible odd target windows. Observer seals, adjudication and independent source/target checks are retained. Solver results follow the registered fit; no held data or meanings.

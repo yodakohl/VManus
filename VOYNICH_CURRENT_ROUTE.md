@@ -16,8 +16,8 @@ a feasible230-wordselection; maximum/projection UNKNOWN, no moreoptimizer.
 894bothfixedadjacentdirectionscontradictthat26-valuekey beforefirstuncertainty
 barriers:9safepriorpositions/4conflicts,19following/4conflicts. Independent
 guard/sourcevalidationPASS. LiteralRFcopylawonly; no transferablemeaning.
-122rawcommonscript/multiplelanguage architecture retained; primarysources
-supportmultilinguallexicallists, notparagraphswitching. Sourcesstillunfixed.
+900selected: two complete Cumanicus18-cell trilingualsubtables, four source
+variants; sharedletter/disjointpaircode andall18-group oddwindows frozen.
 895closed:1016completeSimonentries13270words; totalCVcopylawhas0solutions.
 ZL12/14,IT233/259,RF8/11emptydomains; CONS24entriesx6vowelsalllength-conflict.
 Independent fullsource/domain/CVvalidationPASS; no meanings orautomaticrepair.

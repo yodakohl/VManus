@@ -6,6 +6,10 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT900selected:36completeCumanicus trilingualpresent/imperfectcells independently
+collated; fourdeletionvariants,3unitizations and12traversals fixedbeforefit.
+All6925eligibleodd18-groupwindows independentlyreplayed; no key/meaning yet.
+
 GDT899selected: bothcomplete12-house Mercury-Saturn/Jupiter registers independently
 collated;24conditiontraces61atoms fixedbeforetargetfit. Source/projectionvalidation
 PASS; jointprefixfreecode/wholeparagraphassignment pending, no meanings.
