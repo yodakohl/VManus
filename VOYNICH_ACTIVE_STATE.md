@@ -6,9 +6,9 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-GDT903selected:ordinaryH=<wiwref^-1> decidesallstatecounts for882literal
-commonendpointmodel. Twoindependentfolds+localunioncertificate frozen;
-no actualsourcefold/index/machine ormeaning yet.
+GDT903closed:ordinaryH=<wiwref^-1> proper,infiniteindex; independentcoresagree
+10451vertices10862edgesrank412. Explicit20permutations replayall413linesto453;
+localproofPASS. Compatibilityonly, noidentifiedrule/meaning orautomaticsuccessor.
 
 GDT902closed:allfourpanels excludecomplete44equationregister independently.
 ITbothoperators solechedy cannotbedistinct; RF/ZL11emptydomains; CONS1below8.

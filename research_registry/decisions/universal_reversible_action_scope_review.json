@@ -1,0 +1,27 @@
+{
+  "record_id": "IDEA000138",
+  "reviewer": "root_with_independent_subgroup_and_certificate_audits",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "assessment_basis": "complete_unrestricted_class_decision_with_explicit_finite_witness",
+  "reason": "GDT903 proves the ordinary subgroup proper, with exact independent core parity and an explicit 10451-state common-endpoint action. The unrestricted class remains compatible but identifies no historical machine or meaning.",
+  "blockers": [{
+    "code": "unrestricted_model_not_identified",
+    "status": "explicit_compatibility_without_identification",
+    "summary": "Infinite-index core; arbitrary finite completion witnesses compatibility, not a decoder or minimum state count.",
+    "evidence": ["experiments/yolo/gdt903_universal_reversible_line_action/REPORT.md"]
+  }],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [{
+      "change": "new_design",
+      "condition": "Independently motivated historical constraints and a genuinely different preregistered falsifier; no automatic minimum-state, overgroup, completion or held-word search.",
+      "evidence": ["experiments/yolo/gdt903_universal_reversible_line_action/METHOD.md"]
+    }]
+  },
+  "relations": [{
+    "type": "related_to",
+    "target": "GDT903",
+    "evidence": ["experiments/yolo/gdt903_universal_reversible_line_action/REPORT.md"]
+  }]
+}

@@ -915,4 +915,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT900 | GDT900_COMPLETE_MODEL_RESULT | `ALL_FOUR_PANELS_UNSAT_INDEPENDENTLY_PROVED` | [report](../experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/REPORT.md) | 24 | 8.5 MiB | 1 | STRUCTURED_YOLO |
 | GDT901 | GDT901_COMPLETE_MODEL_RESULT | `ALL_TEN_CASES_UNSAT_INDEPENDENT_COUNT_HEAD_CONFIRMATION` | [report](../experiments/yolo/gdt901_solmization_joint_relational_lexicon/REPORT.md) | 112 | 5.8 MiB | 2 | STRUCTURED_YOLO |
 | GDT902 | GDT902_COMPLETE_MODEL_RESULT | `ALL_PANELS_EXCLUDED_BY_NECESSARY_CONSTRAINTS` | [report](../experiments/yolo/gdt902_treviso_complete_multiplication_register/REPORT.md) | 25 | 2.5 MiB | 3 | STRUCTURED_YOLO |
-| GDT903 | GDT903_UNBOUNDED_ACTION_MODEL_FREEZE | `REGISTERED_UNIVERSAL_ORDINARY_SUBGROUP_TEST` | [report](../experiments/yolo/gdt903_universal_reversible_line_action/METHOD.md) | 15 | 527.7 KiB | 2 | STRUCTURED_YOLO |
+| GDT903 | GDT903_COMPLETE_MODEL_RESULT | `PROPER_SUBGROUP_EXPLICIT_FINITE_COMPATIBILITY` | [report](../experiments/yolo/gdt903_universal_reversible_line_action/REPORT.md) | 22 | 6.2 MiB | 2 | STRUCTURED_YOLO |

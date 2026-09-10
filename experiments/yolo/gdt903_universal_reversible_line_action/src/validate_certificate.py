@@ -212,10 +212,12 @@ def validate_files(source_path, log_path, result_path, producer_code=None):
     require(isinstance(records, list) and len(records) == 413, "SOURCE_LINE_COUNT")
     require(len({r["locus"] for r in records}) == 413, "SOURCE_LOCUS_DUPLICATION")
     pages = {r["page"] for r in records}
-    require(len(pages) == 43, "SOURCE_PAGE_COUNT")
+    physical_folios = set()
     for page in pages:
         match = re.fullmatch(r"f(\d+)[rv]\d*", page)
         require(match is not None and int(match.group(1)) % 2 == 1 and not page.startswith("f84"), "SOURCE_OUTSIDE_ODD_SCOPE")
+        physical_folios.add(int(match.group(1)))
+    require(len(physical_folios) == 43, "SOURCE_PHYSICAL_FOLIO_COUNT")
     words = [r["literal"] for r in records]
     require(all(re.fullmatch(r"[a-z]+", w) for w in words), "SOURCE_LITERAL_FORMAT")
     alphabet = sorted(set("".join(words)))
@@ -238,7 +240,7 @@ def validate_files(source_path, log_path, result_path, producer_code=None):
         "declared_producer_code_sha256": result["code_sha256"],
         "producer_code_bytes_rechecked": producer_code is not None,
         "validator_sha256": sha(Path(__file__).read_bytes()),
-        "source_counts": {"lines": 413, "pages": 43, "alphabet": 20},
+        "source_counts": {"lines": 413, "page_selectors": len(pages), "physical_folios": len(physical_folios), "alphabet": 20},
         "certificate_counts": {k: expected[k] for k in ("initial_vertices", "initial_edges", "union_count")},
         "folded_vertices": expected["graph"]["vertices"],
         "core_vertices": expected["core"]["vertices"],

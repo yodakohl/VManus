@@ -1,0 +1,30 @@
+{
+  "schema": "GDT903_CERTIFICATE_VALIDATOR_METADATA_CORRECTION_V1",
+  "first_actual_call_utc": "2026-09-10 03:29:09 UTC",
+  "original_validator_sha256": "5a5c87bfbae128badd984062912c8401b2b8dfdf9a7ee81c5452421c74514df3",
+  "corrected_validator_sha256": "9ea06f09bf100c05c418c3f193d2d68eb4ec2110eaac1887a60e286779d9443d",
+  "failure_label": "SOURCE_PAGE_COUNT",
+  "first_call_exit_code": 1,
+  "failure_before_fold_log_or_result_read": true,
+  "source_sha256": "bd8b58523e4e49754f4e49e3901f00ecef748679d90ac46184e453294c8753c2",
+  "counts": {
+    "lines": 413,
+    "page_selectors": 80,
+    "physical_folios": 43,
+    "all_physical_folios_odd": true,
+    "forbidden_f84_prefix_present": false
+  },
+  "correction": "Count distinct physical folio numbers extracted from page selectors, rather than treating the number of recto/verso/panel selectors as the number of physical leaves. Output both counts explicitly.",
+  "unchanged": [
+    "source bytes",
+    "primary result bytes",
+    "fold-log bytes",
+    "initial graph reconstruction",
+    "every forced-merge proof check",
+    "final folding and core checks",
+    "permutation and endpoint replay"
+  ],
+  "original_code_preserved_by_preregistration_commit": "1871cc11",
+  "fitted_graph_used_to_adjust_proof_checks": false,
+  "authorization": "Parent explicitly authorized metadata-only validator correction and one subsequent proof replay."
+}
