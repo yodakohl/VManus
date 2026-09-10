@@ -1,0 +1,37 @@
+{
+  "record_id": "GDT913",
+  "reviewer": "root_with_independent_frozen_evaluator",
+  "scope": "semantic",
+  "verdict": "refuted_specific_model",
+  "assessment_basis": "all18_frozen_candidate_consequences_exhausted_on_registered_paragraphs",
+  "reason": "Every unchanged GDT888 IT2a lexicon predicts B1/D1 in its S-head paragraph but observes B0/D0 in selection. All7 registered candidate-confirmation cases also contradict;11have no confirmation capacity. No candidate survives. GDT888 original training nonuniqueness remains unchanged.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "status": "observed",
+      "summary": "Complete exact Senecio count vector fails for every frozen candidate; all matching paragraphs retained.",
+      "evidence": [
+        "experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md",
+        "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/CANDIDATE_RESULTS.tsv",
+        "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/SELECTION.json",
+        "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/CONFIRMATION.json"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "status": "unresolved",
+      "summary": "No independent semantic validation; no name meaning promoted.",
+      "evidence": [
+        "experiments/yolo/gdt913_alphita_senecio_all_candidates/METHOD.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Selecting a different one of these18 after seeing confirmation, dropping paragraphs/zeros, changing a key or prefix, or claiming significance from the original fit."
+    ]
+  },
+  "relations": []
+}

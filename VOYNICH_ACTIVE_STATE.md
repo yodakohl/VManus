@@ -6,6 +6,8 @@ Updated: 2026-09-10. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT913: all18 frozen888 IT2a lexicons contradict Senecio B1/D1; allobserveB0/D0 in selection. All7 confirmation cases alsofail;11lack confirmation capacity. 25dependent candidate checks/6paragraphs/5leaves; independentPASS. Original888 unchanged;0meanings/no significance. Primary:experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md.
+
 GDT912: f1r marginal source checkpoint incomplete for both readers;24published display slots are not a complete26-row native table. Wrong calibration crop corrected and retained separately. No body query/progressive-key test/meaning; missing data, not cipher refutation. Visual48keys/54selectors,2remain. Primary:experiments/yolo/gdt912_f1r_progressive_key/REPORT.md.
 
 GDT911: source-exposed Macer716–721 control; two injective syllable keys yield identical43word/92syllable/74typecipher with frigida/fervida cold/hot contrast and six scans. Incomplete prescription edge; no blind recovery or Voynich test. No metre-based semantic promotion; general joint/held design untested. Primary:experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md.

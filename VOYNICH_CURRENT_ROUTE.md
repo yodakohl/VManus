@@ -1,7 +1,7 @@
 # Voynich current route
 Updated: 2026-09-10. Read first.
 ## Latest completed continuation and next selection
-GDT913 selection: all18 unchanged888 IT2a candidates contradict B1/D1 (observed0/0); K01 alsoS1. Survivor set empty and locked; f108/116 confirmation still closed. No refit/meaning. Primary:experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md.
+GDT913: all18 frozen888 IT2a lexicons contradict Senecio B1/D1; allobserveB0/D0 in selection. All7 confirmation cases alsofail;11lack confirmation capacity. 25dependent candidate checks/6paragraphs/5leaves; independentPASS. Original888 unchanged;0meanings/no significance. Primary:experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md.
 GDT911: source-exposed Macer716–721 control; two injective syllable keys yield identical43word/92syllable/74typecipher with frigida/fervida cold/hot contrast and six scans. Incomplete prescription edge; no blind recovery or Voynich test. No metre-based semantic promotion; general joint/held design untested. Primary:experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md.
 GDT910:1-to2/3-group exact-flank discovery40selectors;243ZL381IT151RFproperrules,0two-context recurrence;48transferselectorsunqueried. IndependentPASS;noabbreviation/meaning;noautomaticbroadening. Primary:experiments/yolo/gdt910_short_long_context_substitution/REPORT.md.
 GDT909:complete fixed-template division chains:ZL14/IT259/RF11paragraphs,8/367/9partitions;0requiredrole-transfer candidates. IndependentPASS;no arithmeticfit/prediction/meaning. Fixedmodelonly;no automatictemplate/windowrepair. Primary:experiments/yolo/gdt909_worked_division_chains/REPORT.md.
@@ -80,10 +80,10 @@ including literal identity mentions as distinct provenance, not fake Respice edg
 888complete: IT2a18solutions18surfacelexicons; ZL/RF0; consensus only1odd
 trainingleaf, a capacity stop. Independent full enumeration/source/projectionPASS.
 All18 share head[P1]/mention[] prefixes but disagree on every named head.
-No unique lexicon, no held bodies evaluated, no meanings or graphscore.
+Original888: no unique lexicon or held test. Explicit913 now contradicts all18; no meanings/graphscore.
 Primary:experiments/yolo/gdt888_alphita_joint_name_incidence/REPORT.md.
 115strictRespice branch remains insufficient;888literal incidence branch remains
-unidentified. No automatic prefix expansion or held-data selection of alternatives.
+unidentified in training;913 S-consequences fail all18. No automatic prefix expansion.
 889complete: guaranteed context-free one-edit correction forces730of749valid
 forms (1598of1617groups) to one message; exact maximum20messages. Independent
 all280126pair DP/BFS and729collision witnessesPASS. Injectivity impossible;

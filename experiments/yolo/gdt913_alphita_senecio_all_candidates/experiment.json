@@ -6,7 +6,7 @@
   "claim_ceiling": "Conditional literal incidence consequences only; no refit, significance or confirmed plant names. GDT888 remains unchanged.",
   "commands": {
     "run": "python3 experiments/yolo/gdt913_alphita_senecio_all_candidates/src/run.py predict",
-    "validate": "python3 experiments/yolo/gdt913_alphita_senecio_all_candidates/src/validate.py"
+    "validate": "python3 experiments/yolo/gdt913_alphita_senecio_all_candidates/src/validate.py --phase confirmation"
   },
   "created": "2026-09-10",
   "dependencies": [
@@ -120,12 +120,42 @@
     {
       "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/README.md",
       "role": "source_or_compact_result",
-      "sha256": "e646928e77b74c57f584b64ed96001c100c622888659fc1047acaaeebf21d74e"
+      "sha256": "47e019a1951fc9b818a7def826e561983edfe94775c5fd130a1dc66ab8e32484"
     },
     {
       "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md",
       "role": "primary_report",
-      "sha256": "ada2a8e58b5002101bc773e6f55931581d108861680f137217b1cc6eaca09e2f"
+      "sha256": "af8d8ce17a2b572187c18e7c483908a3cbf4d8a1dc73eb0426aa3eb8fa1d53b9"
+    },
+    {
+      "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/CANDIDATE_RESULTS.tsv",
+      "role": "source_or_compact_result",
+      "sha256": "4689a91ca96b4714dbcf07dd4363cb0feb25591b4e3aa1df5930bf588809e91c"
+    },
+    {
+      "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/CANDIDATE_TABLE.md",
+      "role": "source_or_compact_result",
+      "sha256": "f6b54f014704b70a9bb7b0717c9e156543a2f8f5223066002f1bf46d330a700d"
+    },
+    {
+      "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/CONFIRMATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "4997778ab2be9021aa272fdd324365a651d681fc01dc4519539d9c28f8fe184f"
+    },
+    {
+      "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/CONFIRMATION_INPUT.json",
+      "role": "source_or_compact_result",
+      "sha256": "54bb9287c13a2e7c5f59cfcab6b3d6616bec7fd4192fe59e26f6a8188a23d4f4"
+    },
+    {
+      "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/INDEPENDENT_VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "80b2b62f184e16325f7fd06c7392789a5fa44bc477175329ae3bc4084f6db149"
+    },
+    {
+      "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/PARAGRAPH_RESULTS.tsv",
+      "role": "source_or_compact_result",
+      "sha256": "7fa223d518afe9b207eea1069591e00912ad877a8d75907f9a8e8a12c2362e1c"
     },
     {
       "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/PREDICTIONS.json",
@@ -145,7 +175,12 @@
     {
       "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/README.md",
       "role": "source_or_compact_result",
-      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+      "sha256": "f9bf8dc2309a81f5c97431d68d06e498f73d89ba0341e26ef9871b3cdfc98f38"
+    },
+    {
+      "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "636cb17723cfed10dd9e0892f15d6f51d0e7f926685c4479ccbf14519e3e8dd5"
     },
     {
       "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/SELECTION.json",
@@ -161,6 +196,11 @@
       "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/SELECTION_VALIDATION.json",
       "role": "source_or_compact_result",
       "sha256": "90a99e77cb455a7e1fede84e37a85310ed50bb6178b1aabbc6264bd501913e31"
+    },
+    {
+      "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/src/FINAL_AUDIT.md",
+      "role": "source_or_compact_result",
+      "sha256": "c968a6781c98790359e063dc6c567fdb3fd75bf1b3fd85316328b24b55381362"
     },
     {
       "path": "experiments/yolo/gdt913_alphita_senecio_all_candidates/src/INDEPENDENT_AUDIT.md",
@@ -205,11 +245,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "alphita_senecio_all_candidates",
-  "status": "SELECTION_ALL18_CONTRADICTED_CONFIRMATION_PENDING",
+  "status": "ALL18_FROZEN_CANDIDATES_CONTRADICTED",
   "title": "All 18 frozen Alphita lexicons: Senecio consequence test",
   "updated": "2026-09-10",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt913_alphita_senecio_all_candidates/artifacts/INDEPENDENT_VALIDATION.json",
+    "status": "PASS"
   }
 }

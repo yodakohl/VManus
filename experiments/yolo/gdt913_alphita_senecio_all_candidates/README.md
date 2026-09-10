@@ -1,3 +1,3 @@
-# GDT913 — Senecio consequences of all18 frozen lexicons
+# GDT913 — alle18 Senecio-Kandidaten widersprochen
 
-See REPORT.md, METHOD.md and artifacts/PREDICTIONS.tsv. No GDT888 file is changed.
+Ergebnis und Entscheidung: REPORT.md. Vollständige Tabelle: artifacts/CANDIDATE_RESULTS.tsv. Lesbare18-Zeilen-Tabelle: artifacts/CANDIDATE_TABLE.md. GDT888 bleibt unverändert.
