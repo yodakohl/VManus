@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **911**
-- Experiment-associated tracked files: **17,292** (1.6 GiB)
-- Structured GDT337+ experiments: **576**
+- Experiments indexed: **912**
+- Experiment-associated tracked files: **17,307** (1.6 GiB)
+- Structured GDT337+ experiments: **577**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT913 | GDT913_alphita_senecio_all_candidates | `PREDICTIONS_REGISTERED_BEFORE_BODY_ACCESS` | [report](../experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md) | 15 | 68.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT912 | GDT912_f1r_progressive_key | `SOURCE_TABLE_INCOMPLETE_NO_BODY_TEST` | [report](../experiments/yolo/gdt912_f1r_progressive_key/REPORT.md) | 32 | 18.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT911 | GDT911_syllabic_metre_identifiability | `EXPOSED_SIX_VERSE_COLLISION_CONFIRMED` | [report](../experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md) | 17 | 2.5 MiB | 4 | STRUCTURED_YOLO |
 | GDT910 | GDT910_short_long_context_substitution | `NO_RECURRENT_SHORT_LONG_RULE` | [report](../experiments/yolo/gdt910_short_long_context_substitution/REPORT.md) | 19 | 6.8 MiB | 4 | STRUCTURED_YOLO |
