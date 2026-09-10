@@ -6,6 +6,11 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT906active:usertimebudgetremoved;exhaustall439399fixed905CVcases.
+26483completedreused/412916remainingatstart;fullmaskpartitionindependentPASS.
+No new source/model/helddata;905historicalUNKNOWNretained,0meanings.
+Protocol:experiments/yolo/gdt906_complete_cv_key_enumeration/METHOD.md.
+
 GDT905:fixed892CV/reference/CFG constructive search on49whole12–24group
 readingcases(41uniqueparagraphs/15leaves). All49globalkeyspacesUNKNOWN;
 44startedCSP,5budget-unstarted. Independent49fullmasklistsPASS, notkeys.

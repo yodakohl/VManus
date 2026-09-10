@@ -3,9 +3,9 @@ Updated: 2026-09-10. Read first.
 
 ## Latest completed continuation and next selection
 
-905closedatbudget:49complete-paragraph readingcases,allshared-keyspacesUNKNOWN. Twolexicalkeys16/18groupsf103r/v(differentkeys,sameleaf)bothfailindependentCFG.
-0acceptedreadings/meanings;nohelddata/automaticoptimizerfollow-on.
-Primary:experiments/yolo/gdt905_joint_cv_complete_passage_candidates/REPORT.md.
+906active:userremovedtimebudget;complete905remainingcases,unchangeddata/model.
+905historical49UNKNOWN;2lexicalkeysonf103r/vfailCFG,0meanings;nohelddata.
+Protocol:experiments/yolo/gdt906_complete_cv_key_enumeration/METHOD.md.
 892capacity stop before key/cipher: fixed source212 length-eligible,24 lexical,
 22 grammar;12 discovery+9 held, below registered12+12. Full source exhausted.
 425561referenceforms/CV:controlrecoveryuntested;905targetconstructionabove.

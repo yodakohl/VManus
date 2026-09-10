@@ -1,0 +1,145 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete exact mask partition requires a 7.2 MiB deterministic gzip artifact; every equivalent mask and literal segmentation is retained for independent coverage validation.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Running exhaustive fixed-model construction; no final key-space verdict or confirmed meanings. GDT892 control remains unpassed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt906_complete_cv_key_enumeration/src/reproduce.py --cache-dir \"$GDT906_CACHE\" --work-dir \"$GDT906_WORK\"",
+    "validate": "python3 experiments/yolo/gdt906_complete_cv_key_enumeration/src/validate.py"
+  },
+  "created": "2026-09-10",
+  "dependencies": [
+    "GDT892",
+    "GDT905"
+  ],
+  "experiment_id": "GDT906",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/artifacts/REFERENCE.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "f27b20f5c5f80fdc1d03965ba33154a1dc2105c04b72c7ce76cf54359001ebea"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/core.py",
+      "role": "unchanged_source_or_channel",
+      "sha256": "832651909344428b41c63b817170f6bae1427ae55b78aaa1de138bf02b997abe"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/csp.py",
+      "role": "unchanged_source_or_channel",
+      "sha256": "bf574eadbeb78eee2acaef5ab91fc579ecc241c9f00b3f5297b538044ec03ff0"
+    },
+    {
+      "path": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/grammar.py",
+      "role": "unchanged_source_or_channel",
+      "sha256": "2bf93ef6a5f5e7ab5bf172da077a05298927f0d51080d2e2c345e07122f206d7"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/CANDIDATES.json.gz",
+      "role": "unchanged_source_or_channel",
+      "sha256": "d394e7794c0368660087613532ce5ae5a994bb2c4a0d080c3b9a47505b69ef54"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/INDEPENDENT_VALIDATION.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "95992f629da0e77389c237726d5cbb021015fd04ff98f31548b3f5fdd655e6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/LEXICAL_KEY_EXPLANATION.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "5c8a2edbc9ca89838f5dcb16fc88542a0c1d12c83711bc66b180b613b3808813"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/SCANS.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "7b337ab4baaf3b7c6a295f2a61f017b2f6d3e1ab601e6451d357707361516b26"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/TARGET.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "49fa70f331528ab13dddb7addb56e3bf58fc9afa686b6dea53a70c668ed8adda"
+    },
+    {
+      "path": "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/VALIDATION.json",
+      "role": "unchanged_source_or_channel",
+      "sha256": "b48eaa74a73576b7a352a064084885a7baae9e3f5b5f63e73c5ee6c80ee3bfbc"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/METHOD.md",
+      "role": "source_or_compact_result",
+      "sha256": "a1f159e59aa9802cc5b2db2ed93d6b1a028c8f4b7cf63cf51101b30ac3e6f32a"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "0df3a461a440137bc8aca4856ed86597f8a37f14c359638c398b7c9c473ed058"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md",
+      "role": "primary_report",
+      "sha256": "bed56533395372a666e64c202ceedff63e840ebc071db4474a2abac776497cf5"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/BINDINGS.json",
+      "role": "source_or_compact_result",
+      "sha256": "94ba63c56811d80fccd34cd9a5e1df0157f83701b9bb4f12ef6f501e5cd8a79a"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/INDEPENDENT_PLAN_VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "63fb4132f90f6c3d2d55a110397c11fc792a3f12291e9add0136ddf247d8dda1"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/PLAN.json.gz",
+      "role": "source_or_compact_result",
+      "sha256": "40a818f995f8c7a88c1ce41792340da47441217cbbbeff403d4f84c97fdf7227"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "3d03974017021292357d5206fef97198ce3bac5aa0cacce0b3607b2e9cc6d71a"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/artifacts/SCOPE.json",
+      "role": "source_or_compact_result",
+      "sha256": "ca7212181187916627fd979c10257e9ff4e1a4988a271ef21998a7241c752e24"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/reproduce.py",
+      "role": "source_or_compact_result",
+      "sha256": "bc6f74f33e2f1662fffbf80dd81564852c187d0cc3b10a9a479c56b70b99d3bc"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/run.py",
+      "role": "source_or_compact_result",
+      "sha256": "be9334da43035934488b81d2a73f1e41256e156ba279444a1066bb165a564073"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/validate.py",
+      "role": "source_or_compact_result",
+      "sha256": "22765656eba066d35f0f83c7a77b08ec7380ec72488b4dd218ee508f76b6c969"
+    },
+    {
+      "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/src/validate_complete.py",
+      "role": "source_or_compact_result",
+      "sha256": "dd557e9b1901f65f8e3dd46c62828d66faf987a3ea8162ae0e878ff37fef4838"
+    }
+  ],
+  "question": "Does exhaustive completion of the fixed GDT905 key space yield any full-paragraph grammar-accepted key?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "complete_cv_key_enumeration",
+  "status": "ENUMERATION_RUNNING",
+  "title": "Complete enumeration of unchanged GDT905 observed CV keys",
+  "updated": "2026-09-10",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

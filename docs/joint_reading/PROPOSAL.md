@@ -321,3 +321,25 @@ with the same tables/solver and require identical deterministic search counts.
 This exposes the actual proposed words for review; it selects no new key or
 grammar, adds no search scope, and cannot promote rejected keys to valid readings.
 Budget3min within the existing06:30publication limit; no new target/held input.
+
+
+GDT906 decision,2026-09-10: user explicitly states “zeitbudget gilt nicht mehr,
+bitte eine lösung”. This authorizes completing905's unresolved search rather
+than applying its elapsed-time or witness caps. It does not change the channel,
+reference425561forms/CFG,49paragraph-reading cases,mask universe,word scope,
+sealed-data rules or standards for meanings.905remains a historical incomplete
+result;892's control-capacity stop remains unchanged.
+The unknown is whether any of905's remaining exact observed-key assignments
+passes the fixed whole-paragraph grammar and which complete key sets survive.
+Success supplies concrete full-model candidates for independent consequence
+review; exhaustivezero closes this fixed construction; infrastructure failure
+retains exact outstanding work and does not become a scientific verdict.
+Smallest adequate work: reuse905's independently validated complete mask lists
+and completed cases under identical bindings, restart only incomplete cases,
+and exhaust all remaining observed assignments. Parallel28primary+4independent
+workers, durable case receipts; no elapsed-time/witness stopping. Every lexical
+assignment, including grammar-rejected ones, is retained for exact set validation.
+Independent table propagation and Z3 enumeration check completeness. No new
+source/control corpus, objective, held text, page or exception. Checkpoints
+report actual remaining cases/candidates and preserve publication; user has
+removed the former total-walltime budget, not the scientific constraints.
