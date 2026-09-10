@@ -31,6 +31,16 @@ def main():
    elif p['status']=='EMPTY_ATOM_DOMAINS_UNSAT':assert d['empty_atoms'] and all(not d['domains'][a] for a in d['empty_atoms'])
    elif p['status']=='OPERATOR_PAIR_DOMAINS_UNSAT':assert not d['operator_pairs']
   assert r['model_excluded_in_all_panels']==all(p['status'] in ['CAPACITY_STOP','EMPTY_ATOM_DOMAINS_UNSAT','OPERATOR_PAIR_DOMAINS_UNSAT'] for p in r['panels'])
+  ip=BASE/'artifacts/INDEPENDENT_DOMAINS.json';ind=json.loads(ip.read_text())
+  assert ind['source_sha256']==sha(sp) and ind['target_sha256']==sha(tp) and ind['observer_sha256']==sha(BASE/'artifacts/SOURCE_ARITHMETIC_B.json')
+  assert ind['code_sha256']==sha(BASE/'src/independent_domains.py') and set(ind['panels'])==set(t['panels'])
+  for p in r['panels']:
+   d=json.loads(gzip.decompress((BASE/'artifacts'/p['artifact']).read_bytes()));ib=ind['panels'][p['panel']]
+   assert not ib['head_filter_applied']
+   if p['status']=='CAPACITY_STOP':assert ib['capacity_failure']
+   else:assert d['domains']==ib['domains'] and set(d['empty_atoms'])==set(ib['empty_domains'])
+  it=ind['panels']['IT2a'];assert it['domains']['OP:fia']==it['domains']['OP:fa']==['chedy'] and it['ordered_distinct_pairs_tested']==0
+  phase='COMPLETE_EXCLUSION_INDEPENDENTLY_REPLAYED'
  out={'status':'PASS','phase':phase,'source_sha256':sha(sp),'target_sha256':sha(tp),'parent_exact_replay':parent,'coverage':'Frozen complete source, arithmetic, target scope and resultbindings; independent necessary-domain replay required for exclusion.'}
  (BASE/'artifacts/VALIDATION.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out))
 if __name__=='__main__':main()

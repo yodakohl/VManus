@@ -914,4 +914,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT899 | GDT899_COMPLETE_MODEL_RESULT | `ALL_SIX_HEADERS_UNKNOWN_BOTH_ENGINES` | [report](../experiments/yolo/gdt899_astrolabium_joint_condition_program_code/REPORT.md) | 35 | 910.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT900 | GDT900_COMPLETE_MODEL_RESULT | `ALL_FOUR_PANELS_UNSAT_INDEPENDENTLY_PROVED` | [report](../experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/REPORT.md) | 24 | 8.5 MiB | 1 | STRUCTURED_YOLO |
 | GDT901 | GDT901_COMPLETE_MODEL_RESULT | `ALL_TEN_CASES_UNSAT_INDEPENDENT_COUNT_HEAD_CONFIRMATION` | [report](../experiments/yolo/gdt901_solmization_joint_relational_lexicon/REPORT.md) | 112 | 5.8 MiB | 2 | STRUCTURED_YOLO |
-| GDT902 | GDT902_COMPLETE_SOURCE_FREEZE | `REGISTERED_COMPLETE_ARITHMETIC_MODEL` | [report](../experiments/yolo/gdt902_treviso_complete_multiplication_register/METHOD.md) | 18 | 708.5 KiB | 3 | STRUCTURED_YOLO |
+| GDT902 | GDT902_COMPLETE_MODEL_RESULT | `ALL_PANELS_EXCLUDED_BY_NECESSARY_CONSTRAINTS` | [report](../experiments/yolo/gdt902_treviso_complete_multiplication_register/REPORT.md) | 25 | 2.5 MiB | 3 | STRUCTURED_YOLO |

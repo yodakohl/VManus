@@ -37,7 +37,7 @@ Originaldiplomatictext/orderunresolved; conditionalCHDmodelonly, no meanings.
 No key/exclusion/projections; no automatic source/compiler/solverrepair.
 Decision:docs/joint_reading/PROPOSAL.md. Existing goal usageLimited, not elapsed10h.
 901closed:all10musiccasesUNSATboth; independentcount/head-onlysuffices.
-902selected:complete44multiplications8blocks; shareddigitcode/paragraphmodel.
+902closed:44equations impossible; ITfia/fa bothsolechedy, RF/ZLempty, CONS1<8.
 GDT882:413all3-concordant lines43leaves20literal characters; integer lattice
 Z^20, index1; independent C D=I verificationPASS. No nonzero fixed additive
 whole-line rule over any abelian group on this literal scope. Evenleavesunread.
