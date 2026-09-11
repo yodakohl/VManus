@@ -35,3 +35,5 @@ GDT921 complete: independently observed Royal54v fourpeople/twooffsetregister so
 GDT922 complete: exactadjacentchR/shR orderoutsideor/ol notestablished, ZL7forward8reverse;435/1024two-sidedworlds>=obs, adequatecapacity. Full3reading/1024worldindependentreplayPASS. No automaticlag/remainderrepair;0meanings.
 
 GDT923 complete: fixed89326key on all268even eligible paragraph/readings. RFhasno informativecompatible case and lacks informativebaseline-positivecapacity; loneRFchedy=et case permits250writtenplaintexts. OneZL17wordwindow surviveswithlchedy=sed,qokeey=deand15unknowns. FullindependentreplayPASS; candidate retained withoutmeaning/keyextension orsourceidentity. No automaticfollowon.
+
+GDT924: finalnativeauditofactual923candidate, newf106vadmission49keys55selectors1remaining. Bothreaderslocalize11+6groups;6jointMATCH11unresolved0contradictions. qokeeymatchesbutlchedyunresolved; no complete nativeconfirmation ormeaning. Fullfrozenpackets/cropspublished; no adjustedtranscription or923key.

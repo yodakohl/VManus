@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **923**
-- Experiment-associated tracked files: **17,524** (1.6 GiB)
+- Experiment-associated tracked files: **17,534** (1.6 GiB)
 - Structured GDT337+ experiments: **588**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT924 | GDT924_f106v_fixed_candidate_native_audit_preregistration | `REGISTERED_NOT_OPENED` | [report](../experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md) | 12 | 9.6 KiB | 1 | STRUCTURED_YOLO |
+| GDT924 | GDT924_f106v_fixed_candidate_native_audit_final | `NATIVE_INPUT_UNRESOLVED` | [report](../experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md) | 22 | 3.1 MiB | 1 | STRUCTURED_YOLO |
 | GDT923 | GDT923_fixed_word_key_even_paragraph_compatibility_final | `NO_INFORMATIVE_COMPATIBILITY` | [report](../experiments/yolo/gdt923_fixed_word_key_even_paragraph_compatibility/REPORT.md) | 27 | 12.0 MiB | 3 | STRUCTURED_YOLO |
 | GDT922 | GDT922_identical_remainder_chsh_order_final | `ORDER_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt922_identical_remainder_chsh_order/REPORT.md) | 17 | 4.5 MiB | 1 | STRUCTURED_YOLO |
 | GDT921 | GDT921_royal_seasons_topology_final | `PARTIAL_SOURCE_TOPOLOGY_NO_OWNED_VALUES` | [report](../experiments/yolo/gdt921_royal_seasons_two_register_topology/REPORT.md) | 17 | 36.2 KiB | 0 | STRUCTURED_YOLO |

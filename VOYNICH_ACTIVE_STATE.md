@@ -1,5 +1,6 @@
 # Voynich active state — structural reset baseline
 
+GDT924: newlyadmittedf106v nativefixed923paragraph, bothobservers11+6groups;6jointMATCH11unresolved0jointcontradictions. qokeeybothMATCH,lchedybothunresolved; full17notnativelyverified.923transcript-relative resultunchanged,0meanings. Visual49keys55selectors1remaining. Primary:experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md.
 GDT923: unchanged893 RF26wordkey, all268eligible evenparagraph/readings; RF9 has1informative but0baseline windows there; noinformativetransfer. ZLone17word2locked-value compatibility onf106v;15unknown,notmeaning. RFf108r onevalue survives250differenttexts. Independent allwindowsPASS; no source/keychange orsignificance. Primary:experiments/yolo/gdt923_fixed_word_key_even_paragraph_compatibility/REPORT.md.
 GDT922: excludingor/ol, adjacentchR/shR writtenorder hasZL49pairs/16R/27leaves,CS7SC8; residual+.08992,435/1024two-sidedworlds>=observed. Adequatecapacity/fullindependentreplayPASS; no orderingestablished. Fixedbridgeclosed;0meanings. Primary:experiments/yolo/gdt922_identical_remainder_chsh_order/REPORT.md.
 

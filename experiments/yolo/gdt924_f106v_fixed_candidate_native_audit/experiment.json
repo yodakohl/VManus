@@ -44,17 +44,67 @@
     {
       "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md",
       "role": "primary_report",
-      "sha256": "8be9824e80ecc7fb09eceb2399fd6b9b1c61ca02175fe430d2181f6e4c7fdc7c"
+      "sha256": "436db8a95ad75fe3e9d772bb8f6d09d30693f8d18c7afa889da82618e9bd8148"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/A_CONTEXT.png",
+      "role": "source_or_compact_result",
+      "sha256": "0d43053e92cfced7c67e67aeca873bfc2d1dd84bf2692c51b16620281ad44de2"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/A_CROP.json",
+      "role": "source_or_compact_result",
+      "sha256": "40469ef5030eaf599a05cb4f60db1128a798f2f6c903d35d1a217c3dbd556b41"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/A_FULL_CROP.json",
+      "role": "source_or_compact_result",
+      "sha256": "f38741ddb760cf4e17cd177ad45034447368b1111a4539badad06d0434a9cf24"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/A_FULL_PARAGRAPH.png",
+      "role": "source_or_compact_result",
+      "sha256": "7e0b5e8df898398f88d9263155f4c7b97e159852b54ef7d3306ef0d8f4fda46e"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/IMAGE_RECEIPT.json",
+      "role": "source_or_compact_result",
+      "sha256": "c87d4760cef812b74c95a4f5515aafafa57b530fbfb78878842d01fe3523baad"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/OBSERVER_B_crop.png",
+      "role": "source_or_compact_result",
+      "sha256": "4a2517772fb5160e2f439bf1b5f56ea2caff9747e2fcb7f12d422574d4dcd0d6"
     },
     {
       "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/README.md",
       "role": "source_or_compact_result",
-      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+      "sha256": "7ddf10b9eea6a71cdb09f8a512623a8d69d39b99c9d309521ce47ba615ebf715"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "6377d534ca3739af41117a3a36632490fe793ed21204548021476cdd21813b6f"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "539278af4383ac3468b96e8adf3c5bd74123029a05e6fbf782f148abdb6bfa4b"
     },
     {
       "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/EXPECTED.json",
       "role": "source_or_compact_result",
       "sha256": "e6a4592287db1a37727a666f9efc01fdabd5162a9361e5940f93f1d43b48730a"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/OBSERVER_A.json",
+      "role": "source_or_compact_result",
+      "sha256": "40d5e78627b4d6604dc1b0f0bad2c06ece759763bffd2a798b4dd8215a47f62b"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/OBSERVER_B.json",
+      "role": "source_or_compact_result",
+      "sha256": "842c9f2373a97468e5e07b12a67bbb195c0b489db8dd8bf30fd7aae1344b6af8"
     },
     {
       "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/PAGE_ADMISSIONS.tsv",
@@ -69,12 +119,12 @@
     {
       "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/run.py",
       "role": "source_or_compact_result",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "sha256": "0fd6d6b9b06e5f23e1fc48daf56803b05314be54694208d005c47811f5ea784c"
     },
     {
       "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/validate.py",
       "role": "source_or_compact_result",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "sha256": "010af85dbd53b17a9f9c5c846f4dcba86a77ae6bc0ed53532013ee6ee893deab"
     }
   ],
   "question": "Does the native f106v photograph support every group of the fixed17-word GDT923 ZL candidate?",
@@ -84,11 +134,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "f106v_fixed_candidate_native_audit",
-  "status": "REGISTERED_NOT_OPENED",
+  "status": "NATIVE_INPUT_UNRESOLVED",
   "title": "f106v fixed candidate native audit",
   "updated": "2026-09-11",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
