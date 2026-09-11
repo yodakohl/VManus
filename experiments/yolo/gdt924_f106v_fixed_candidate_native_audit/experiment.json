@@ -1,0 +1,94 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Native written-input audit only, no wordmeaning or translated passage.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/validate.py"
+  },
+  "created": "2026-09-11",
+  "dependencies": [
+    "GDT923"
+  ],
+  "experiment_id": "GDT924",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt923_fixed_word_key_even_paragraph_compatibility/artifacts/PREDICTION_PACKET.json",
+      "role": "frozen_complete_candidate",
+      "sha256": "fb8a62134efd06e7846aac2cb51dd65dec2f2d1111a76eebbf89bad300cfb47e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/METHOD.md",
+      "role": "source_or_compact_result",
+      "sha256": "24cc4b14e56a373ff15b3e0ced3bb313fb4beb7381b9b58f4a726db876be10ba"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/PREREGISTRATION.md",
+      "role": "source_or_compact_result",
+      "sha256": "8dda8aee3335f9e1f979383494f0d1accb506d6d7320b99c948bdbc488dc595b"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/PREREG_LOCK.json",
+      "role": "source_or_compact_result",
+      "sha256": "735442130fee3e0b82790a762d8953ad85ebd04d9fc49f286640ad693bbf3e5d"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "ecf387c96b9b840cba9c98a44135745c47065c5b5a6156c74805667fd9352560"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md",
+      "role": "primary_report",
+      "sha256": "8be9824e80ecc7fb09eceb2399fd6b9b1c61ca02175fe430d2181f6e4c7fdc7c"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/artifacts/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/EXPECTED.json",
+      "role": "source_or_compact_result",
+      "sha256": "e6a4592287db1a37727a666f9efc01fdabd5162a9361e5940f93f1d43b48730a"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/PAGE_ADMISSIONS.tsv",
+      "role": "source_or_compact_result",
+      "sha256": "e515f995d6c6dfe4dc22889b3b3a9f5f9654d852e2ccfd225e3e95fd80bc6c86"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/SOURCE.json",
+      "role": "source_or_compact_result",
+      "sha256": "718cffeca6f1c6365947c5091b7c9d6bbcc04b2c38e41c442a58ca8b1cd1085e"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/run.py",
+      "role": "source_or_compact_result",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/validate.py",
+      "role": "source_or_compact_result",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    }
+  ],
+  "question": "Does the native f106v photograph support every group of the fixed17-word GDT923 ZL candidate?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f106v_fixed_candidate_native_audit",
+  "status": "REGISTERED_NOT_OPENED",
+  "title": "f106v fixed candidate native audit",
+  "updated": "2026-09-11",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

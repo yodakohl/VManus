@@ -135,7 +135,7 @@ Root native lowerf2r15visible signs insidegreenleaf; Bmislocalizedprose then
 couldnotresolvefainttarget. No two-viewer confirmation orpaint chronology.
 qc3/qc4locationclaim superseded byqe2_f2r15_wrong_region_correction.md.
 Separate f2r14ytoail is caption-like; bothinscriptions' meanings unknown.
-Current visual48keys/54selectors,2remain after GDT912 f1r marginal admission.
+Current visual49keys/55selectors,1remains after GDT924 f106v fixed-candidate native admission.
 User-requested available-observation search:qg3_available_observation_search.md.
 Fourwrittenvaluecells fitgradeandquantity; starcounts supplyvisiblevariable,
 notselectedwordrule; okal/dakocth/carrier examples lackdecisivereferentcontrast.
@@ -263,8 +263,9 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
   GDT881: `experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/src/PAGE_ADMISSIONS.tsv`.
   User-directed f2r question adds f2r:47keys/53selectors,3remain; admission:
   `docs/visual_overview/F2R_USER_QUESTION_ADMISSION.md`.
+  GDT924 adds f106v for complete fixed923paragraph audit; admission:experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/PAGE_ADMISSIONS.tsv.
   GDT912 adds f1r margins only: experiments/yolo/gdt912_f1r_progressive_key/src/PAGE_ADMISSIONS.tsv.
-  Register before any new page access.
+  GDT924 visual total49keys/55selectors,1remaining. Register before any new page access.
 - Cached NVA002/EBA001: ten MSI folios already routed; repeated UV traces leave material role unresolved. No new layer located.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually
   inspected pages. GDT811 union190 and GDT327's91-folio edition do not enlarge scope.
