@@ -1,0 +1,114 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete formula candidate only; no general cipher, charm or word meaning claim.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt919_complete_sator_word_equations/src/run.py",
+    "validate": "python3 experiments/yolo/gdt919_complete_sator_word_equations/src/validate.py"
+  },
+  "created": "2026-09-11",
+  "dependencies": [
+    "GDT915"
+  ],
+  "experiment_id": "GDT919",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+      "role": "frozen_guarded_source",
+      "sha256": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "role": "frozen_guarded_source",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "role": "frozen_guarded_source",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt919_complete_sator_word_equations/METHOD.md",
+      "role": "source_or_compact_result",
+      "sha256": "78a1dcd0c3e55d4632571cd73bc8c76b98409f0101d521dfca9e264d3335fc17"
+    },
+    {
+      "path": "experiments/yolo/gdt919_complete_sator_word_equations/PREREGISTRATION.md",
+      "role": "source_or_compact_result",
+      "sha256": "cd06110ae8c4e48688b72d612730b8aff550101e81246b511f46b35dba08b4f0"
+    },
+    {
+      "path": "experiments/yolo/gdt919_complete_sator_word_equations/PREREG_LOCK.json",
+      "role": "source_or_compact_result",
+      "sha256": "8737f427f2d9721f8a34c76beab6251e248aafdd31d2e4859b2ebac6fc56d1fe"
+    },
+    {
+      "path": "experiments/yolo/gdt919_complete_sator_word_equations/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "9ae212d5074279b59eea320d0776825b32cce85194cff438089817c86c3a7671"
+    },
+    {
+      "path": "experiments/yolo/gdt919_complete_sator_word_equations/REPORT.md",
+      "role": "primary_report",
+      "sha256": "2e4bff5bc609498979608485e6a301a43c78eb0ac3023808f2cbf2ea98891306"
+    },
+    {
+      "path": "experiments/yolo/gdt919_complete_sator_word_equations/artifacts/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt919_complete_sator_word_equations/src/SOURCE.json",
+      "role": "source_or_compact_result",
+      "sha256": "128c3df29c47e8179520785d739d9391d82d75599b8197b1e853b556a55395be"
+    },
+    {
+      "path": "experiments/yolo/gdt919_complete_sator_word_equations/src/run.py",
+      "role": "source_or_compact_result",
+      "sha256": "552205ec17cbae553eb39aa4f2c248b35a9a7edb93060505ad1043acf65e36c0"
+    },
+    {
+      "path": "experiments/yolo/gdt919_complete_sator_word_equations/src/validate.py",
+      "role": "source_or_compact_result",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    }
+  ],
+  "question": "Does the complete Sator formula satisfy a shared nonempty distinct literal-string image for every letter in any admitted five-group or five-line carrier?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "complete_sator_word_equations",
+  "status": "REGISTERED_BEFORE_NEW_ANALYSIS_EXPOSED_DATA",
+  "title": "complete sator word equations",
+  "updated": "2026-09-11",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
