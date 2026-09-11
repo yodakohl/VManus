@@ -29,3 +29,5 @@ GDT918 complete: three primary raw reversed endpointpairs with different centers
 GDT919 complete: completeSator equations have no keys under either carrier/order, independently reconstructed by a different word-equation algorithm. Source-driven fixedconjunction only; formula branch stopped. Geomancy129 remains incomplete-program/target-contractblocked; no fifteen-group replacement selected. PHF001/812 primaryreports show no newly justified plural-count panel from f100v/f101r; no new image used.
 
 GDT920 complete: both fixed p/f-to-k/t paragraph-body maps are negative against same-leaf body exchange in all3readings; ZLadequate634types/87leaves,883/1024worldmaxima>=observed. Independent complete replayPASS. Exactbridgeclosed, notallallography. No newimages, no wordmeaning.
+
+GDT921 complete: independently observed Royal54v fourpeople/twooffsetregister source, tentative boundary-date inscriptions; uniqueowner/fullvalues/targetorientationmissing. Rootmonthringdescriptioncorrectedtozodiac explicitly; frozenoriginalretained. Specificsourceadvance only, no targetmeaning.

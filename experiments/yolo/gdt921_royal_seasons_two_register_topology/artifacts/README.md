@@ -1,3 +1,3 @@
-# Artifacts
+# GDT921 artifacts
 
-Commit compact, reproducible results here. Large exhaustive tables require an explicit retention justification.
+Frozen initial observations, explicit postfreeze correction and separately frozen spoke reading. RESULT and VALIDATION are packaging receipts, not proof of visual or semantic truth.
