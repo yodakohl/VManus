@@ -1,0 +1,114 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Paragraph-associated whole-form correspondence only; no lexical identity or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/src/run.py",
+    "validate": "python3 experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/src/validate.py"
+  },
+  "created": "2026-09-11",
+  "dependencies": [
+    "GDT915"
+  ],
+  "experiment_id": "GDT920",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+      "role": "frozen_guarded_source",
+      "sha256": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "role": "frozen_guarded_source",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "role": "frozen_guarded_source",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/METHOD.md",
+      "role": "source_or_compact_result",
+      "sha256": "6c88fcbacc5a8346c6d9ff56795ca9101360ebdcccc834e3c66f51fba652f5df"
+    },
+    {
+      "path": "experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/PREREGISTRATION.md",
+      "role": "source_or_compact_result",
+      "sha256": "72a730d1230f950c7d449af0a61981bde1a86e4c2bbb798ec63c2d3e93915f70"
+    },
+    {
+      "path": "experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/PREREG_LOCK.json",
+      "role": "source_or_compact_result",
+      "sha256": "b83f728f1ad3d6af04abb3c6acea2ce4ce89517a378a7e6e87fb0ea384f9fcc4"
+    },
+    {
+      "path": "experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "f025c67a163a30c7d98cec5bbc816d7e131ab5127217cea9a025fe1c32c22e0a"
+    },
+    {
+      "path": "experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/REPORT.md",
+      "role": "primary_report",
+      "sha256": "fb6addfe93ea218198ff5876535c69d19257598272cddbf71ffe36bc2ad5e3db"
+    },
+    {
+      "path": "experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/artifacts/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/src/SOURCE.json",
+      "role": "source_or_compact_result",
+      "sha256": "5f50fda39d6f32ca728d6fd827c6e75823e219295733d8bf8c2b059099293cf1"
+    },
+    {
+      "path": "experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/src/run.py",
+      "role": "source_or_compact_result",
+      "sha256": "40466845a55098ff8154601292541e6e1909f97f4c7b653a49969b28c0def77e"
+    },
+    {
+      "path": "experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/src/validate.py",
+      "role": "source_or_compact_result",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    }
+  ],
+  "question": "Do fixed p/f to k/t whole-word counterparts occur preferentially in their own paragraph bodies beyond same-physical-leaf whole-body exchange?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "paragraph_gallows_wholeform_bridge",
+  "status": "REGISTERED_NOT_RUN",
+  "title": "paragraph gallows wholeform bridge",
+  "updated": "2026-09-11",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
