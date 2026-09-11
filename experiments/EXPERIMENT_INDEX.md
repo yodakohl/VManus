@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **918**
-- Experiment-associated tracked files: **17,428** (1.6 GiB)
+- Experiment-associated tracked files: **17,433** (1.6 GiB)
 - Structured GDT337+ experiments: **583**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT919 | GDT919_complete_sator_word_equations | `REGISTERED_BEFORE_NEW_ANALYSIS_EXPOSED_DATA` | [report](../experiments/yolo/gdt919_complete_sator_word_equations/REPORT.md) | 10 | 16.1 KiB | 1 | STRUCTURED_YOLO |
+| GDT919 | GDT919_complete_sator_word_equations | `NO_COMPLETE_SATOR_EQUATION_FIT` | [report](../experiments/yolo/gdt919_complete_sator_word_equations/REPORT.md) | 15 | 28.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT918 | GDT918_reciprocal_center_serial_transfer | `NOMINATION_CAPACITY_STOP_NO_EVALUATION` | [report](../experiments/yolo/gdt918_reciprocal_center_serial_transfer/REPORT.md) | 17 | 35.8 KiB | 1 | STRUCTURED_YOLO |
 | GDT917 | GDT917_diminishing_charm_complete_chain | `NO_COMPLETE_FIXED_CHARM_FIT` | [report](../experiments/yolo/gdt917_diminishing_charm_complete_chain/REPORT.md) | 15 | 26.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT916 | GDT916_unseen_lr_stem_pair_transfer | `NEW_PAIR_CONCORDANCE_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md) | 15 | 721.2 KiB | 1 | STRUCTURED_YOLO |

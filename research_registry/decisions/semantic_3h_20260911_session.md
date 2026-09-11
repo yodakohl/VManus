@@ -25,3 +25,5 @@ GDT916 complete: new-pair test has capacity but does not establish concordance (
 GDT917 complete: source-inspired eleven-rung abracadabra taper tested exhaustively under two fixed carriers/two sides; no complete nested chain in any reading. Independent replayPASS. Exact conjunction closed; no partial-rung rescue. f2v botanical likeness was not selected: no authorial word binding, and visual admissions remain unchanged.
 
 GDT918 complete: three primary raw reversed endpointpairs with different centers, zero frozen primary nominees; no even-source payload analysis. Independent replayPASS. Full witnesses retained; no conjunction or word meaning. IDEA000143 adds an unreviewed source-only uroscopy compartment proposal, not a target finding.
+
+GDT919 complete: completeSator equations have no keys under either carrier/order, independently reconstructed by a different word-equation algorithm. Source-driven fixedconjunction only; formula branch stopped. Geomancy129 remains incomplete-program/target-contractblocked; no fifteen-group replacement selected. PHF001/812 primaryreports show no newly justified plural-count panel from f100v/f101r; no new image used.

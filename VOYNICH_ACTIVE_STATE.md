@@ -6,6 +6,7 @@ Updated: 2026-09-11. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT919: completeSator5word8letterequations yield0keys inall3readings/bothorders; lengtheligibleGROUP/LINE ZL133/3 IT176/20 RF70/1. Independent genericword-equationPASS. Fixedsource/map/carrieronly; stopformulabranch,0meanings. Primary:experiments/yolo/gdt919_complete_sator_word_equations/REPORT.md.
 GDT918: oddleaf rawreciprocaltriples ZL3pairs/3differentcenters,0nominees; IT8pairs/chedyownnominee,RF0. Primary2pair3leafcapacitystop, noevenpayloadanalysis. Independent fullcensusPASS; no coordination/wordmeaning. Primary:experiments/yolo/gdt918_reciprocal_center_serial_transfer/REPORT.md.
 GDT917: complete11rung abracadabra taper has0nestedchains/0fits in all3readings; ZL482group+34line eligiblewindows, IT1458+1796 RF385+25. Independent exhaustivePASS. Exactsource/layoutconjunction only, notgeneralcharmrefutation;0meanings. Primary:experiments/yolo/gdt917_diminishing_charm_complete_chain/REPORT.md.
 GDT916: exposed915data,468ZL new-pair occurrences/411stempairs/45leaves;255same213mixed,T.0101177 vsconditionalmean.0033081,449/1024>=obs. Independent complete replayPASS; adequatecapacity but new-combination concordance not established.915unchanged; close fixedr/lsequence,0meanings. Primary:experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md.
