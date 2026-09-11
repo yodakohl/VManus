@@ -176,7 +176,6 @@ Fourrawanchorsalone donotsupplythatendpoint. See scopedreview, notoldglosses.
 Fourtranscription-data passes plus2nativeaudits of2previousoriginals thisinterval;
 zero confirmedmeanings. Source/registryvalidationPASS; globalcheckstill8known
 GDT600/indexerrorgroups.872/875localruntimejustifications corrected;nosourcechange.
-
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
 L .611534→.616364(10/13>.5),DY .753049→.750323(11/13>.5).
@@ -190,7 +189,6 @@ Retrospective primary robustness only; no old null/verdict/meaning reuse.
 867complete: native shared Yale1006199=f69v+f70r1/f70r2; orientation only.
 869:144metadata tagsPASS; no direction map. Metadata/imaging side route stopped by user; do not resume.
 870:f100rL2sixloci nativelylocalized withrawgroups; no new explicitreference. Known391contact unchanged. Stop.
-
 859–864: prior seam/link observations remain structural only; lookup primary reports. No meaning.
 GDT853:25W qualify, zero held pairs meet fixed source/start-index matching;
 no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
