@@ -1,3 +1,3 @@
-# Artifacts
+# GDT922
 
-Commit compact, reproducible results here. Large exhaustive tables require an explicit retention justification.
+CANDIDATES.tsv is the complete per-remainder table. CENSUS files contain all source witnesses/opportunities/strata, and WORLDS contains all conditional comparisons.

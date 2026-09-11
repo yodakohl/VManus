@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **921**
-- Experiment-associated tracked files: **17,478** (1.6 GiB)
+- Experiment-associated tracked files: **17,485** (1.6 GiB)
 - Structured GDT337+ experiments: **586**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT922 | GDT922_identical_remainder_chsh_order_preregistration | `REGISTERED_NOT_RUN` | [report](../experiments/yolo/gdt922_identical_remainder_chsh_order/REPORT.md) | 10 | 17.7 KiB | 1 | STRUCTURED_YOLO |
+| GDT922 | GDT922_identical_remainder_chsh_order_final | `ORDER_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt922_identical_remainder_chsh_order/REPORT.md) | 17 | 4.5 MiB | 1 | STRUCTURED_YOLO |
 | GDT921 | GDT921_royal_seasons_topology_final | `PARTIAL_SOURCE_TOPOLOGY_NO_OWNED_VALUES` | [report](../experiments/yolo/gdt921_royal_seasons_two_register_topology/REPORT.md) | 17 | 36.2 KiB | 0 | STRUCTURED_YOLO |
 | GDT920 | GDT920_paragraph_gallows_wholeform_bridge_final | `BRIDGE_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/REPORT.md) | 18 | 11.0 MiB | 1 | STRUCTURED_YOLO |
 | GDT919 | GDT919_complete_sator_word_equations | `NO_COMPLETE_SATOR_EQUATION_FIT` | [report](../experiments/yolo/gdt919_complete_sator_word_equations/REPORT.md) | 15 | 28.0 KiB | 1 | STRUCTURED_YOLO |

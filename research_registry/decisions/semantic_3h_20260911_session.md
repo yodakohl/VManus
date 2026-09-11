@@ -31,3 +31,5 @@ GDT919 complete: completeSator equations have no keys under either carrier/order
 GDT920 complete: both fixed p/f-to-k/t paragraph-body maps are negative against same-leaf body exchange in all3readings; ZLadequate634types/87leaves,883/1024worldmaxima>=observed. Independent complete replayPASS. Exactbridgeclosed, notallallography. No newimages, no wordmeaning.
 
 GDT921 complete: independently observed Royal54v fourpeople/twooffsetregister source, tentative boundary-date inscriptions; uniqueowner/fullvalues/targetorientationmissing. Rootmonthringdescriptioncorrectedtozodiac explicitly; frozenoriginalretained. Specificsourceadvance only, no targetmeaning.
+
+GDT922 complete: exactadjacentchR/shR orderoutsideor/ol notestablished, ZL7forward8reverse;435/1024two-sidedworlds>=obs, adequatecapacity. Full3reading/1024worldindependentreplayPASS. No automaticlag/remainderrepair;0meanings.

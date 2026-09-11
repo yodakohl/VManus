@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT922: excludingor/ol, adjacentchR/shR writtenorder hasZL49pairs/16R/27leaves,CS7SC8; residual+.08992,435/1024two-sidedworlds>=observed. Adequatecapacity/fullindependentreplayPASS; no orderingestablished. Fixedbridgeclosed;0meanings. Primary:experiments/yolo/gdt922_identical_remainder_chsh_order/REPORT.md.
+
 GDT921: Royal19CI54v source has4seasonalfigures/4headlabels/4offsetinscribedspokes, independently observed. Spokes plausiblydatephrases; fullvalues/uniquefigureownershipunresolved, headsoutward. Rootmonthring correctedtozodiac; frozenpacketsretained. No targetaccess/binding/meaning. Primary:experiments/yolo/gdt921_royal_seasons_two_register_topology/REPORT.md.
 
 GDT920: fixedp/f-to-k/t whole-form paragraphbridge, ZL659frames/87exchangeableleaves/634anchorforms; bothmaps negative (A-.00029094,B-.00018304),883/1024jointnullmaxima>=observed. All3readings negative; capacity adequate, independent fullreplayPASS. No lexicalidentity/meaning; closefixedbridge. Primary:experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/REPORT.md.
