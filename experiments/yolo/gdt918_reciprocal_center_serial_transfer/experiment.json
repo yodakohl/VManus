@@ -1,0 +1,109 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Structural witness availability only; neither semantic reciprocity nor AND/OR/grammar or translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt918_reciprocal_center_serial_transfer/src/run.py discovery; then freeze DISCOVERY_LOCK and run evaluation only if candidates",
+    "validate": "python3 experiments/yolo/gdt918_reciprocal_center_serial_transfer/src/validate.py"
+  },
+  "created": "2026-09-11",
+  "dependencies": [
+    "GDT915"
+  ],
+  "experiment_id": "GDT918",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+      "role": "frozen_guarded_source",
+      "sha256": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "role": "frozen_guarded_source",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "role": "frozen_guarded_source",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "role": "frozen_guarded_source",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt918_reciprocal_center_serial_transfer/METHOD.md",
+      "role": "source_or_compact_result",
+      "sha256": "f8c8e8e8fb11ae0c7ab91c3ed1fa7ac16cc406042c9da01b6ab2bd5a5dbfc986"
+    },
+    {
+      "path": "experiments/yolo/gdt918_reciprocal_center_serial_transfer/PREREGISTRATION.md",
+      "role": "source_or_compact_result",
+      "sha256": "e1a0b7a1f988b45743fdd373f3f038a3554d2a99659bd4ed8f69670b9d795f9e"
+    },
+    {
+      "path": "experiments/yolo/gdt918_reciprocal_center_serial_transfer/PREREG_LOCK.json",
+      "role": "source_or_compact_result",
+      "sha256": "78cf9a3e02677b2c392788babf093ce9ba19592d65933a4423d7674892dd2c5b"
+    },
+    {
+      "path": "experiments/yolo/gdt918_reciprocal_center_serial_transfer/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "71dc651c4e99819a703d1ed6f21daebb1b4f8c042cc0f954008ae75a42518a8c"
+    },
+    {
+      "path": "experiments/yolo/gdt918_reciprocal_center_serial_transfer/REPORT.md",
+      "role": "primary_report",
+      "sha256": "9c019b11ef45dc65b78b0e92a41b426684419a028cc21fc67c3e3e545ef46bb3"
+    },
+    {
+      "path": "experiments/yolo/gdt918_reciprocal_center_serial_transfer/artifacts/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt918_reciprocal_center_serial_transfer/src/run.py",
+      "role": "source_or_compact_result",
+      "sha256": "c17e56446d064806e231e5cc418958a642e4856312ca661d1c3e590eede79cd0"
+    },
+    {
+      "path": "experiments/yolo/gdt918_reciprocal_center_serial_transfer/src/validate.py",
+      "role": "source_or_compact_result",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    }
+  ],
+  "question": "Do raw reciprocal triples nominate centers that recur in serial5group constructions on other physical leaves?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "reciprocal_center_serial_transfer",
+  "status": "REGISTERED_BEFORE_DISCOVERY_EXPOSED_DATA",
+  "title": "reciprocal center serial transfer",
+  "updated": "2026-09-11",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
