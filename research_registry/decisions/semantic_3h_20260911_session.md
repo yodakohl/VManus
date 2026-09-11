@@ -33,3 +33,5 @@ GDT920 complete: both fixed p/f-to-k/t paragraph-body maps are negative against 
 GDT921 complete: independently observed Royal54v fourpeople/twooffsetregister source, tentative boundary-date inscriptions; uniqueowner/fullvalues/targetorientationmissing. Rootmonthringdescriptioncorrectedtozodiac explicitly; frozenoriginalretained. Specificsourceadvance only, no targetmeaning.
 
 GDT922 complete: exactadjacentchR/shR orderoutsideor/ol notestablished, ZL7forward8reverse;435/1024two-sidedworlds>=obs, adequatecapacity. Full3reading/1024worldindependentreplayPASS. No automaticlag/remainderrepair;0meanings.
+
+GDT923 complete: fixed89326key on all268even eligible paragraph/readings. RFhasno informativecompatible case and lacks informativebaseline-positivecapacity; loneRFchedy=et case permits250writtenplaintexts. OneZL17wordwindow surviveswithlchedy=sed,qokeey=deand15unknowns. FullindependentreplayPASS; candidate retained withoutmeaning/keyextension orsourceidentity. No automaticfollowon.
