@@ -23,3 +23,5 @@ IDEA000142 retains counterpoint as RAW source-only, not selected.
 GDT916 complete: new-pair test has capacity but does not establish concordance (449/1024 reference worlds >= observed). Parent915 retained unchanged. Independent complete replayPASS. Fixed r/l sequence closed; next content-anchor selection requires a new independently observable contrast.
 
 GDT917 complete: source-inspired eleven-rung abracadabra taper tested exhaustively under two fixed carriers/two sides; no complete nested chain in any reading. Independent replayPASS. Exact conjunction closed; no partial-rung rescue. f2v botanical likeness was not selected: no authorial word binding, and visual admissions remain unchanged.
+
+GDT918 complete: three primary raw reversed endpointpairs with different centers, zero frozen primary nominees; no even-source payload analysis. Independent replayPASS. Full witnesses retained; no conjunction or word meaning. IDEA000143 adds an unreviewed source-only uroscopy compartment proposal, not a target finding.

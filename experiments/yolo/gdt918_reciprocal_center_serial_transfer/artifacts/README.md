@@ -1,3 +1,1 @@
-# Artifacts
-
-Commit compact, reproducible results here. Large exhaustive tables require an explicit retention justification.
+DISCOVERY files retain complete reciprocal evidence and all denominators. Empty CANDIDATES/PREDICTIONS reflect the primary capacity stop. RESULT and independent VALIDATION document no even-payload analysis.
