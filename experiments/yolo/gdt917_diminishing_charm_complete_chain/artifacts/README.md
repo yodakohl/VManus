@@ -1,3 +1,1 @@
-# Artifacts
-
-Commit compact, reproducible results here. Large exhaustive tables require an explicit retention justification.
+CENSUS_{reading}.json retains all denominators and complete hits (empty); RESULT summarizes all readings; VALIDATION records independent full enumeration and constructive checks. Inputs remain bound in the manifest.

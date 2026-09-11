@@ -21,3 +21,5 @@ separate known-phrase reuse from prediction on previously absent stem pairs.
 IDEA000142 retains counterpoint as RAW source-only, not selected.
 
 GDT916 complete: new-pair test has capacity but does not establish concordance (449/1024 reference worlds >= observed). Parent915 retained unchanged. Independent complete replayPASS. Fixed r/l sequence closed; next content-anchor selection requires a new independently observable contrast.
+
+GDT917 complete: source-inspired eleven-rung abracadabra taper tested exhaustively under two fixed carriers/two sides; no complete nested chain in any reading. Independent replayPASS. Exact conjunction closed; no partial-rung rescue. f2v botanical likeness was not selected: no authorial word binding, and visual admissions remain unchanged.

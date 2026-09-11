@@ -6,6 +6,7 @@ Updated: 2026-09-11. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT917: complete11rung abracadabra taper has0nestedchains/0fits in all3readings; ZL482group+34line eligiblewindows, IT1458+1796 RF385+25. Independent exhaustivePASS. Exactsource/layoutconjunction only, notgeneralcharmrefutation;0meanings. Primary:experiments/yolo/gdt917_diminishing_charm_complete_chain/REPORT.md.
 GDT916: exposed915data,468ZL new-pair occurrences/411stempairs/45leaves;255same213mixed,T.0101177 vsconditionalmean.0033081,449/1024>=obs. Independent complete replayPASS; adequatecapacity but new-combination concordance not established.915unchanged; close fixedr/lsequence,0meanings. Primary:experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md.
 GDT915:22odd-leaf nominated phrase stempairs; evenZL43same/21mixed on25leaves, T.0293135 versus conditionalworldmean.0055632 (3/1024>=obs); IT49/20 RF49/21. Independent full1024replayPASS. Positive known-phrase co-variation only;5ZLzero-transfer/21mixed; no unseencombination grammar/meaning/projectsignificance. Primary:experiments/yolo/gdt915_terminal_lr_phrase_transfer/REPORT.md.
 
