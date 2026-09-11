@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **915**
-- Experiment-associated tracked files: **17,386** (1.6 GiB)
-- Structured GDT337+ experiments: **580**
+- Experiments indexed: **916**
+- Experiment-associated tracked files: **17,396** (1.6 GiB)
+- Structured GDT337+ experiments: **581**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT917 | GDT917_diminishing_charm_complete_chain | `REGISTERED_BEFORE_NEW_ANALYSIS_EXPOSED_DATA` | [report](../experiments/yolo/gdt917_diminishing_charm_complete_chain/REPORT.md) | 10 | 15.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT916 | GDT916_unseen_lr_stem_pair_transfer | `NEW_PAIR_CONCORDANCE_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md) | 15 | 721.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT915 | GDT915_terminal_lr_phrase_transfer | `EXPLORATORY_PHRASE_COVARIATION_TRANSFER` | [report](../experiments/yolo/gdt915_terminal_lr_phrase_transfer/REPORT.md) | 34 | 9.8 MiB | 8 | STRUCTURED_YOLO |
 | GDT914 | GDT914_local_parallel_one_edit_patterns | `COMPLETE_NO_RECURRENT_CONCORDANT_PATTERN` | [report](../experiments/yolo/gdt914_local_parallel_one_edit_patterns/REPORT.md) | 18 | 32.9 KiB | 5 | STRUCTURED_YOLO |
