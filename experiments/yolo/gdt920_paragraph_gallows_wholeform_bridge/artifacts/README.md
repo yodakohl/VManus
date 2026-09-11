@@ -1,3 +1,3 @@
-# Artifacts
+# GDT920 artifacts
 
-Commit compact, reproducible results here. Large exhaustive tables require an explicit retention justification.
+PREDICTIONS.tsv is the compact complete table; CENSUS files preserve all opportunities and source witnesses. RESULT.json contains the fixed decision. Validation independently reconstructs the complete calculation.

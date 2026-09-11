@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT920: fixedp/f-to-k/t whole-form paragraphbridge, ZL659frames/87exchangeableleaves/634anchorforms; bothmaps negative (A-.00029094,B-.00018304),883/1024jointnullmaxima>=observed. All3readings negative; capacity adequate, independent fullreplayPASS. No lexicalidentity/meaning; closefixedbridge. Primary:experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/REPORT.md.
+
 Updated: 2026-09-11. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
