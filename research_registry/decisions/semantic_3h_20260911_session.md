@@ -13,3 +13,9 @@ margins and freezes odd-leaf nomination before even-leaf evaluation. Conditional
 reference only; no old glosses or guaranteed semantic promotion. Budget25min
 including implementation, validation and publication, then reassess and select
 an independently justified next question. No automatic suffix/window repairs.
+
+GDT915 complete: positive conditional known-phrase co-variation on separate
+physical leaves; all22 candidates and1024 comparisons published with independent
+reconstruction. Mixed/zero cases retained; no semantic claim. Next decision:
+separate known-phrase reuse from prediction on previously absent stem pairs.
+IDEA000142 retains counterpoint as RAW source-only, not selected.

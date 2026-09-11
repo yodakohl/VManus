@@ -6,6 +6,8 @@ Updated: 2026-09-11. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT915:22odd-leaf nominated phrase stempairs; evenZL43same/21mixed on25leaves, T.0293135 versus conditionalworldmean.0055632 (3/1024>=obs); IT49/20 RF49/21. Independent full1024replayPASS. Positive known-phrase co-variation only;5ZLzero-transfer/21mixed; no unseencombination grammar/meaning/projectsignificance. Primary:experiments/yolo/gdt915_terminal_lr_phrase_transfer/REPORT.md.
+
 GDT914:179cached text selectors already cover787/748/854; no enlarged-input rerun. Complete local paired single-edit census:1IT-only window f34v.7 chey keedy chy kedy; ZLuncertain seam/RFmerged reading;0all3/0nominations. No productive rule/meaning/significance; stop fixed local mechanism. Primary:experiments/yolo/gdt914_local_parallel_one_edit_patterns/REPORT.md.
 
 GDT913: all18 frozen888 IT2a lexicons contradict Senecio B1/D1; allobserveB0/D0 in selection. All7 confirmation cases alsofail;11lack confirmation capacity. 25dependent candidate checks/6paragraphs/5leaves; independentPASS. Original888 unchanged;0meanings/no significance. Primary:experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md.
