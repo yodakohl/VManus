@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **919**
-- Experiment-associated tracked files: **17,451** (1.6 GiB)
-- Structured GDT337+ experiments: **584**
+- Experiments indexed: **920**
+- Experiment-associated tracked files: **17,462** (1.6 GiB)
+- Structured GDT337+ experiments: **585**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT921 | GDT921_royal_seasons_topology_preregistration | `REGISTERED_NOT_VIEWED` | [report](../experiments/yolo/gdt921_royal_seasons_two_register_topology/REPORT.md) | 11 | 12.5 KiB | 0 | STRUCTURED_YOLO |
 | GDT920 | GDT920_paragraph_gallows_wholeform_bridge_final | `BRIDGE_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/REPORT.md) | 18 | 11.0 MiB | 1 | STRUCTURED_YOLO |
 | GDT919 | GDT919_complete_sator_word_equations | `NO_COMPLETE_SATOR_EQUATION_FIT` | [report](../experiments/yolo/gdt919_complete_sator_word_equations/REPORT.md) | 15 | 28.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT918 | GDT918_reciprocal_center_serial_transfer | `NOMINATION_CAPACITY_STOP_NO_EVALUATION` | [report](../experiments/yolo/gdt918_reciprocal_center_serial_transfer/REPORT.md) | 17 | 35.8 KiB | 1 | STRUCTURED_YOLO |
