@@ -1,0 +1,98 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Descriptive local ASCII edit co-occurrences only; no new meaning, morphology, significance or closed-route reopening.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt914_local_parallel_one_edit_patterns/src/run.py",
+    "validate": "python3 experiments/yolo/gdt914_local_parallel_one_edit_patterns/src/validate.py"
+  },
+  "created": "2026-09-11",
+  "dependencies": [
+    "GDT003",
+    "GDT748",
+    "GDT787",
+    "GDT851",
+    "GDT854"
+  ],
+  "experiment_id": "GDT914",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_ZL3b.json",
+      "role": "unchanged_guarded179selector_cache",
+      "sha256": "73d3a80095d76876da91e67a6c9bd0d46284fdfe62250fccfb7d9dee3c038329"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_IT2a.json",
+      "role": "unchanged_guarded179selector_cache",
+      "sha256": "333a76f0f8ec4904accf8f56cd947cb81cc6a05e2a53b1de3674659a04c83e03"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_RF1b.json",
+      "role": "unchanged_guarded179selector_cache",
+      "sha256": "e9998f013dd1ae4608a13bc4e67bea1f9bfb3859cb4f4b60b84c404b2c7e0101"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt914_local_parallel_one_edit_patterns/METHOD.md",
+      "role": "source_or_compact_result",
+      "sha256": "15c61f39c6b449e597f671e45cd5c58522b087a27ba31a87c0a1ba8ce01df40b"
+    },
+    {
+      "path": "experiments/yolo/gdt914_local_parallel_one_edit_patterns/PREREGISTRATION.md",
+      "role": "source_or_compact_result",
+      "sha256": "9ea75c31b044d95ce3b45019501cb85d62e90c048ce0fb8ab73b1f9017d55324"
+    },
+    {
+      "path": "experiments/yolo/gdt914_local_parallel_one_edit_patterns/PREREG_LOCK.json",
+      "role": "source_or_compact_result",
+      "sha256": "56d8feab26fe949268c1b28c66a051dff23c476de6c1c8b0c89c3c8dd4ab28f9"
+    },
+    {
+      "path": "experiments/yolo/gdt914_local_parallel_one_edit_patterns/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "674f9db58bd4eaed4863d6490c606dd838159a7105086ccb34c23eb5853fe55f"
+    },
+    {
+      "path": "experiments/yolo/gdt914_local_parallel_one_edit_patterns/REPORT.md",
+      "role": "primary_report",
+      "sha256": "d299b5ab3ce0f62f20ef10c698edcb4b6bd8076d95638edd085b16b99b751078"
+    },
+    {
+      "path": "experiments/yolo/gdt914_local_parallel_one_edit_patterns/artifacts/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt914_local_parallel_one_edit_patterns/src/SPEC.json",
+      "role": "source_or_compact_result",
+      "sha256": "62d806e34f8b25042b1083c56557813086c125ff855fe2b69926f6aeeef791c8"
+    },
+    {
+      "path": "experiments/yolo/gdt914_local_parallel_one_edit_patterns/src/run.py",
+      "role": "source_or_compact_result",
+      "sha256": "cea72c85d9b3c435db5665e5a3073788b097645a39ea41c38fced7495120ce94"
+    },
+    {
+      "path": "experiments/yolo/gdt914_local_parallel_one_edit_patterns/src/validate.py",
+      "role": "source_or_compact_result",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    }
+  ],
+  "question": "Do four consecutive distinct written groups exhibit the same directed single-character edit on two bases, across all three pairings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "local_parallel_one_edit_patterns",
+  "status": "REGISTERED_BEFORE_SOURCE_ACCESS",
+  "title": "Local coordinated single-character edits on two distinct bases",
+  "updated": "2026-09-11",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
