@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **913**
-- Experiment-associated tracked files: **17,329** (1.6 GiB)
+- Experiment-associated tracked files: **17,337** (1.6 GiB)
 - Structured GDT337+ experiments: **578**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT914 | GDT914_local_parallel_one_edit_patterns | `REGISTERED_BEFORE_CACHE_ACCESS` | [report](../experiments/yolo/gdt914_local_parallel_one_edit_patterns/REPORT.md) | 10 | 16.7 KiB | 5 | STRUCTURED_YOLO |
+| GDT914 | GDT914_local_parallel_one_edit_patterns | `COMPLETE_NO_RECURRENT_CONCORDANT_PATTERN` | [report](../experiments/yolo/gdt914_local_parallel_one_edit_patterns/REPORT.md) | 18 | 32.9 KiB | 5 | STRUCTURED_YOLO |
 | GDT913 | GDT913_alphita_senecio_all_candidates | `ALL18_FROZEN_CANDIDATES_CONTRADICTED` | [report](../experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md) | 27 | 138.5 KiB | 2 | STRUCTURED_YOLO |
 | GDT912 | GDT912_f1r_progressive_key | `SOURCE_TABLE_INCOMPLETE_NO_BODY_TEST` | [report](../experiments/yolo/gdt912_f1r_progressive_key/REPORT.md) | 32 | 18.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT911 | GDT911_syllabic_metre_identifiability | `EXPOSED_SIX_VERSE_COLLISION_CONFIRMED` | [report](../experiments/yolo/gdt911_syllabic_metre_identifiability/REPORT.md) | 17 | 2.5 MiB | 4 | STRUCTURED_YOLO |
