@@ -1,3 +1,1 @@
-# Artifacts
-
-Commit compact, reproducible results here. Large exhaustive tables require an explicit retention justification.
+Complete OBSERVED files retain all categories and occurrences for each reading. RESULT gives compact endpoints; NULL_WORLDS retains all1024 comparisons; VALIDATION records independent reconstruction. No sealed source was accessed.

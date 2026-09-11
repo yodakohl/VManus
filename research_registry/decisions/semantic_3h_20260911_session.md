@@ -19,3 +19,5 @@ physical leaves; all22 candidates and1024 comparisons published with independent
 reconstruction. Mixed/zero cases retained; no semantic claim. Next decision:
 separate known-phrase reuse from prediction on previously absent stem pairs.
 IDEA000142 retains counterpoint as RAW source-only, not selected.
+
+GDT916 complete: new-pair test has capacity but does not establish concordance (449/1024 reference worlds >= observed). Parent915 retained unchanged. Independent complete replayPASS. Fixed r/l sequence closed; next content-anchor selection requires a new independently observable contrast.

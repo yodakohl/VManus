@@ -53,6 +53,11 @@
       "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
       "role": "frozen_source_or_preparation",
       "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/validate.py",
+      "role": "independent_validator_parser",
+      "sha256": "56c5806c698d4234aefab4f2600ce296cb933b5e18253a90d9e0252ba9ec7ab3"
     }
   ],
   "outputs": [
@@ -79,12 +84,42 @@
     {
       "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md",
       "role": "primary_report",
-      "sha256": "efc2e564c59fbeffcf374bb49c1b67d7a1d14305c0d65de1721bf34ca687f4b7"
+      "sha256": "d2957851cc00b97b29c11ca358e6a657704d1636ddf4ae8a44b7e3e7a9a0ceb3"
+    },
+    {
+      "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/artifacts/NULL_WORLDS.json",
+      "role": "source_or_compact_result",
+      "sha256": "54e1a6d59c1cfe6fbdb6518de83f41390b9428c3f356508999552ea74c8f54cb"
+    },
+    {
+      "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/artifacts/OBSERVED_IT2a.json",
+      "role": "source_or_compact_result",
+      "sha256": "0ad8452122109864db7c259f53ca221cc17705f045b1885cb97dba343cbb2f18"
+    },
+    {
+      "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/artifacts/OBSERVED_RF1b.json",
+      "role": "source_or_compact_result",
+      "sha256": "d3192fd57f61eeba35fbeff00beae7f23032fef2ab2da7e9d13777a4083d15b1"
+    },
+    {
+      "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/artifacts/OBSERVED_ZL3b.json",
+      "role": "source_or_compact_result",
+      "sha256": "873bcb99a948be8b041ba9d77f46e0e820cf2afdcb184924b185508f4dd65b40"
     },
     {
       "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/artifacts/README.md",
       "role": "source_or_compact_result",
-      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+      "sha256": "674e0fb1e99f0d463c4be5adbfa7a52ac3618a9af43cf82f575df8b279a0cc4f"
+    },
+    {
+      "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "6f11bade5e3a73c93a58965e6430a039e8e57984dbfc149ffbcde607c2b8f631"
+    },
+    {
+      "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/artifacts/VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "27bb93a3e7bba98f48e9f7bf4289869e64769a40a45b52c897aeab69cb25e3b4"
     },
     {
       "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/src/run.py",
@@ -94,7 +129,7 @@
     {
       "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/src/validate.py",
       "role": "source_or_compact_result",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "sha256": "acc5f7a7bec53dbe21f08a73a6b8ae0e6cbc8201a2b4ae2a45a208eb45c8c046"
     }
   ],
   "question": "Does terminal r/l concordance extend to unseen ordered stem pairs whose individual two-form licenses were already known?",
@@ -104,11 +139,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "unseen_lr_stem_pair_transfer",
-  "status": "REGISTERED_BEFORE_NEW_ANALYSIS_EXPOSED_DATA",
+  "status": "NEW_PAIR_CONCORDANCE_NOT_ESTABLISHED",
   "title": "Unseen ordered stem-pair ending concordance",
   "updated": "2026-09-11",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

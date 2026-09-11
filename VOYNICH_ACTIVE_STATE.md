@@ -6,6 +6,7 @@ Updated: 2026-09-11. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+GDT916: exposed915data,468ZL new-pair occurrences/411stempairs/45leaves;255same213mixed,T.0101177 vsconditionalmean.0033081,449/1024>=obs. Independent complete replayPASS; adequatecapacity but new-combination concordance not established.915unchanged; close fixedr/lsequence,0meanings. Primary:experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md.
 GDT915:22odd-leaf nominated phrase stempairs; evenZL43same/21mixed on25leaves, T.0293135 versus conditionalworldmean.0055632 (3/1024>=obs); IT49/20 RF49/21. Independent full1024replayPASS. Positive known-phrase co-variation only;5ZLzero-transfer/21mixed; no unseencombination grammar/meaning/projectsignificance. Primary:experiments/yolo/gdt915_terminal_lr_phrase_transfer/REPORT.md.
 
 GDT914:179cached text selectors already cover787/748/854; no enlarged-input rerun. Complete local paired single-edit census:1IT-only window f34v.7 chey keedy chy kedy; ZLuncertain seam/RFmerged reading;0all3/0nominations. No productive rule/meaning/significance; stop fixed local mechanism. Primary:experiments/yolo/gdt914_local_parallel_one_edit_patterns/REPORT.md.
