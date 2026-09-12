@@ -1,0 +1,33 @@
+{
+  "findings": {
+    "cthy": "Schwellung",
+    "chor": "Schmerz",
+    "shor": "Absonderung",
+    "chol": "Trockenheit",
+    "shol": "Feuchtigkeit",
+    "shey": "Hitze"
+  },
+  "grades": {
+    "dair": "A",
+    "dain": "B",
+    "daiin": "C"
+  },
+  "D_actions": {
+    "sho": "Benetzen",
+    "chkaiin": "Trocknen",
+    "qotchy": "Kühlen"
+  },
+  "R_states": {
+    "sho": "ist benetzt",
+    "chkaiin": "ist getrocknet",
+    "qotchy": "ist gekühlt"
+  },
+  "rule_priority": [
+    "heat->cool",
+    "latest moisture wet->dry",
+    "latest moisture dry->moisten",
+    "otherwise unresolved"
+  ],
+  "all_authored_hypotheses": true,
+  "unmentioned_is_not_absent": true
+}
