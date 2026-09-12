@@ -64,3 +64,5 @@ Nach der Fünferfolge wurden P11, P12, P15, P25, P18, P27, P04, P01, P07, P26, P
 Lesungswerte, Ursprungstabellen, Korrekturen, Gegenfassungen und alle unaufgelösten Gruppen sind verlinkt. Ein dokumentierter Fehler in der P05-Fortsetzungsprosa (ol/olaiin sowie shey/sheey) wurde in FOLLOWUP_v02 korrigiert; die ursprünglich korrekten Tabellen und52Wortwerte blieben gleich. Keine nachträgliche Glättung des früheren Entwurfs.
 
 [PROGRESS.tsv](PROGRESS.tsv) hält den Ausführungsstatus aller30Programme fest. Die Rohvorschläge und ihre ursprünglichen JSON-Dateien bleiben unverändert.
+
+Fortsetzung nach den30Erstdurchgängen: [S01](S01/REPORT.md) führt die Proben-/Herkunftslesung in drei vollständigen Fassungen aus. Eine bedingte Schlusskette nur bei zweiter Portion als Probe; zwölf weitere Behauptungen bleiben unbegründet oder ohne Ziel. Keine gesonderte Probenbehandlung gelesen. IDEA000175 (Gefäßinhalt) ist als ungeprüfter Nachfolger gespeichert.
