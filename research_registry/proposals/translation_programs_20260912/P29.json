@@ -1,0 +1,87 @@
+{
+  "title": "P29 — Eine überarbeitete Fachquelle über ihre Aussagefolge rekonstruieren",
+  "summary": "RAW_UNSCREENED: Direkte Quellkopien und starre Registercompiler sind gescheitert. Ein Schreiber könnte Stoff aus einer Vorlage gekürzt, paraphrasiert und neu gegliedert haben. Anleitung:docs/TRANSLATION_PROGRAMS_30.md#p29",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Explorative inhaltliche Rekonstruktion mit offen bezahlten Redaktionseingriffen statt erneuter exakter Wortfenster- oder Graphscore-Suche. Die alten fehlgeschlagenen Kopiermodelle bleiben unverändert.",
+    "unit": "Ein durchgängig gelesenes Kapitel plus Satz-für-Satz-Vergleich mit genau einer Quelle; keine behauptete Quellenidentität.",
+    "contrast": "Keine Quellenwanderung nach jeder misslungenen Passage. Wenn Redaktion und Auslassungen den Großteil tragen, die Quellenidentität verwerfen und die autonome Lesung behalten.",
+    "prediction": "Eine konkrete Vorlage muss mehrere ungewöhnliche Aussagen in erklärbarer Folge beitragen; allgemein plausible Medizin oder eine einzige passende Aussage genügt nicht.",
+    "scope": "Nur festgelegte exponierte Arbeitspakete; nahezu vollständige plausible Gesamtlesung vor späterer Prüfung zurückgehaltener Seiten",
+    "execution": {
+      "plan_id": "P29",
+      "title": "Eine überarbeitete Fachquelle über ihre Aussagefolge rekonstruieren",
+      "scope": "semantic",
+      "status": "RAW_UNSCREENED_NEW_DESIGN",
+      "summary": "RAW_UNSCREENED: Direkte Quellkopien und starre Registercompiler sind gescheitert. Ein Schreiber könnte Stoff aus einer Vorlage gekürzt, paraphrasiert und neu gegliedert haben.",
+      "work_packages": [
+        "HERB4",
+        "SOURCE_OLD"
+      ],
+      "starting_observation": "Direkte Quellkopien und starre Registercompiler sind gescheitert. Ein Schreiber könnte Stoff aus einer Vorlage gekürzt, paraphrasiert und neu gegliedert haben.",
+      "provisional_assumptions": [
+        "Eine einzige kleine Vorlagentradition liefert eine wiedererkennbare Folge von Sachbehauptungen, nicht zwingend dieselben Wörter.",
+        "Umstellungen und Auslassungen brauchen gemeinsame redaktionelle Regeln und dürfen nicht jede Zeile frei passend machen."
+      ],
+      "steps": [
+        "Zuerst aus HERB4 eine vollständige vorläufige Inhaltslesung mit höchstens drei offenen Sachvarianten pro Absatz entwickeln; keine Quellensuche nach einzelnen flüssigen Sätzen.",
+        "Genau einen bereits dokumentierten historischen Vergleichsabschnitt nach Thema und vollständiger Aussagefolge wählen; Auswahlgrund vor dem Vergleich notieren.",
+        "Quelle und Voynich-Arbeitslesung jeweils in Aussagen zerlegen: Gegenstand, Eigenschaft, Wirkung, Bedingung und Verweis.",
+        "Höchstens drei globale redaktionelle Regeln formulieren, etwa Weglassen von Belegen oder Zusammenziehen gleicher Subjekte; alle unmatched-Aussagen behalten.",
+        "Ein gemeinsames Wörterbuch so überarbeiten, dass mehrere Aussagen gleichzeitig passen; keine separaten Wörterbücher pro Quellenstelle.",
+        "Ein rekonstruiertes Kapitel mit allen parallelen, widersprechenden und fehlenden Aussagen ausgeben und eine eigenständige Nichtkopie-Lesung danebenstellen."
+      ],
+      "joint_constraints": [
+        "Aussagefolge",
+        "begrenzte Redaktion",
+        "gemeinsame Wortbedeutungen"
+      ],
+      "predecessors": [
+        "GDT341",
+        "GDT343",
+        "GDT887",
+        "GDT893",
+        "GDT894",
+        "GDT923"
+      ],
+      "new_contribution": "Explorative inhaltliche Rekonstruktion mit offen bezahlten Redaktionseingriffen statt erneuter exakter Wortfenster- oder Graphscore-Suche. Die alten fehlgeschlagenen Kopiermodelle bleiben unverändert.",
+      "working_consequence": "Eine konkrete Vorlage muss mehrere ungewöhnliche Aussagen in erklärbarer Folge beitragen; allgemein plausible Medizin oder eine einzige passende Aussage genügt nicht.",
+      "revision_or_stop": "Keine Quellenwanderung nach jeder misslungenen Passage. Wenn Redaktion und Auslassungen den Großteil tragen, die Quellenidentität verwerfen und die autonome Lesung behalten.",
+      "deliverable": "Ein durchgängig gelesenes Kapitel plus Satz-für-Satz-Vergleich mit genau einer Quelle; keine behauptete Quellenidentität.",
+      "first_block_minutes": 90,
+      "priority": "ALTERNATIVE",
+      "shortlist_order": null,
+      "family": "Textüberlieferung",
+      "first_block_minutes_label": "Aufwandsrichtwert für erste zusammenhängende Fassung, kein hartes Abbruch- oder Gesamtzeitlimit",
+      "held_page_policy": "Keine zurückgehaltene Seite öffnen oder prüfen. Erst nach nahezu vollständiger plausibler Gesamtlesung auf dem vereinbarten Arbeitsmaterial spätere Prüfung gesondert festlegen.",
+      "human_policy": "Keine Kontakte und keine externe Gegenlesung; eigene native Bildanalyse innerhalb der bestehenden Freigaben.",
+      "revision_policy": "Warnzeichen gelten gegen die aktuelle Modellfassung, nicht als Pflicht zum Abbruch der Hypothesenarbeit. Zahlen zu Begriffs-/Regelumfang sind Startbudgets, keine wissenschaftlichen Grenzwerte; begründete Änderungen versionieren und kapitelweit anwenden.",
+      "novelty_status": "Neue Ausarbeitung mit benannten Vorgängern; begrenzter Registry- und Paarvergleich dient der Navigation, nicht als Beweis historischer Einmaligkeit. Wissenschaftliche Auswahlprüfung offen.",
+      "initial_meaning_status": "Alle Bedeutungen hypothetisch; dieses Dokument führt keine Versuche aus und bestätigt kein Wort.",
+      "starting_scope": "HERB4: zuerst alle vier Absätze autonom lesen. Erst danach genau einen dokumentierten SOURCE_OLD-Vergleich wählen und den Auswahlgrund notieren.",
+      "source_entrypoints": [
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "passage": "Primärbefund und rivalisierende Eigenschafts-/Mengenlesungen; kein festes Bedeutungslexikon.",
+          "work_package": "HERB4"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md",
+          "passage": "Alle vier vollständigen Absätze samt Ausrichtung; die alten Glossen sind Arbeitshypothesen.",
+          "work_package": "HERB4"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/src/HISTORICAL_PASSAGE_REVIEW.md",
+          "passage": "Vorhandene vollständige historische Vergleichspassagen und Begrenzungen.",
+          "work_package": "SOURCE_OLD"
+        },
+        {
+          "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md",
+          "passage": "Tacuinum-Vergleich und Grenze des ausgeschlossenen festen Compilers; keine Wiederbelebung dieses Kopiermodells.",
+          "work_package": "SOURCE_OLD"
+        }
+      ],
+      "result_status": "UNTESTED_PROPOSAL"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "P09 — Vergleichende Materia medica: Eigenschaften, Nutzen, Schaden und Ausgleich",
+  "summary": "RAW_UNSCREENED: Unbekannter eigener Text mit gemeinsamen inhaltlichen Gegenspielern Nutzen/Schaden/Ausgleich, nicht erneute Anpassung des ausgeschlossenen vollständigen Quellencompilers. Anleitung:docs/TRANSLATION_PROGRAMS_30.md#p09",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Unbekannter eigener Text mit gemeinsamen inhaltlichen Gegenspielern Nutzen/Schaden/Ausgleich, nicht erneute Anpassung des ausgeschlossenen vollständigen Quellencompilers.",
+    "unit": "Vier vollständige Katalogeinträge, Eigenschaftsnetz und vollständige Rezeptgegenlesung.",
+    "contrast": "Für Nutzen, Schaden und Ausgleich werden pro Eintrag neue unabhängige Eigenschaften erfunden, sodass kein gemeinsames Schema mehr übrig bleibt. Zulässige Revision: Die Feldreihenfolge darf einmal kapitelweit geändert werden; jede Änderung wird an allen vier Einträgen angewendet.",
+    "prediction": "Ein Ausgleichswort muss wiederkehrend eine zuvor bezeichnete ungünstige Eigenschaft kompensieren; als bloße nächste Zutat verlangt es diesen Zusammenhang nicht.",
+    "scope": "Nur festgelegte exponierte Arbeitspakete; nahezu vollständige plausible Gesamtlesung vor späterer Prüfung zurückgehaltener Seiten",
+    "execution": {
+      "plan_id": "P09",
+      "title": "Vergleichende Materia medica: Eigenschaften, Nutzen, Schaden und Ausgleich",
+      "scope": "semantic",
+      "status": "RAW_UNSCREENED_NEW_DESIGN",
+      "summary": "RAW_UNSCREENED: Unbekannter eigener Text mit gemeinsamen inhaltlichen Gegenspielern Nutzen/Schaden/Ausgleich, nicht erneute Anpassung des ausgeschlossenen vollständigen Quellencompilers.",
+      "work_packages": [
+        "HERB4",
+        "SOURCE_OLD"
+      ],
+      "starting_observation": "f17r/f21r/f32v/f29v vollständige Absätze; historische Tacuinum-Felder, ausdrücklich nicht dessen ausgeschlossene Wortabschrift",
+      "provisional_assumptions": [
+        "Die Absätze sind verschiedene Einträge eines Arznei- oder Nahrungsmittelkatalogs. Ein Eintrag kann Eigenschaft, Nutzen, Schaden und Ausgleich enthalten; Reihenfolge und Benennungen sind vorläufig."
+      ],
+      "steps": [
+        "Aus den vier vollständigen Absätzen alle wiederkehrenden Gruppen ohne Glossen tabellieren.",
+        "Ein gemeinsames Eintragsschema mit maximal sechs Feldern anlegen; leere Felder sind nur erlaubt, wenn ihre Grenzen aus der vollständigen Lesung erklärbar werden.",
+        "Alle vier Einträge zunächst grob und dann Wort für Wort ausarbeiten; Nutzen und Schaden müssen verschiedene betroffene Zustände besitzen.",
+        "Ein Ausgleichsmittel muss genau einen zuvor genannten Nachteil beheben, ohne die übrigen Eigenschaften beliebig zu verändern.",
+        "Den stärksten Rivalen als Herstellungsrezept ausarbeiten und prüfen, ob dessen Handlungskette die gleichen Wiederholungen besser erklärt.",
+        "Ein vollständiges Katalogkapitel mit Kreuztabelle aller Eigenschafts-/Nutzen-/Schadensrelationen erstellen; keine Wahl eines exakt passenden historischen Quellensatzes."
+      ],
+      "joint_constraints": [
+        "Unbekannter eigener Text mit gemeinsamen inhaltlichen Gegenspielern Nutzen/Schaden/Ausgleich, nicht erneute Anpassung des ausgeschlossenen vollständigen Quellencompilers."
+      ],
+      "predecessors": [
+        "GDT887",
+        "GDT809"
+      ],
+      "new_contribution": "Unbekannter eigener Text mit gemeinsamen inhaltlichen Gegenspielern Nutzen/Schaden/Ausgleich, nicht erneute Anpassung des ausgeschlossenen vollständigen Quellencompilers.",
+      "working_consequence": "Ein Ausgleichswort muss wiederkehrend eine zuvor bezeichnete ungünstige Eigenschaft kompensieren; als bloße nächste Zutat verlangt es diesen Zusammenhang nicht.",
+      "revision_or_stop": "Für Nutzen, Schaden und Ausgleich werden pro Eintrag neue unabhängige Eigenschaften erfunden, sodass kein gemeinsames Schema mehr übrig bleibt. Zulässige Revision: Die Feldreihenfolge darf einmal kapitelweit geändert werden; jede Änderung wird an allen vier Einträgen angewendet.",
+      "deliverable": "Vier vollständige Katalogeinträge, Eigenschaftsnetz und vollständige Rezeptgegenlesung.",
+      "first_block_minutes": 110,
+      "source_entrypoints": [
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "passage": "Primärbefund und rivalisierende Eigenschafts-/Mengenlesungen; kein festes Bedeutungslexikon.",
+          "work_package": "HERB4"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md",
+          "passage": "Alle vier vollständigen Absätze samt Ausrichtung; die alten Glossen sind Arbeitshypothesen.",
+          "work_package": "HERB4"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/src/HISTORICAL_PASSAGE_REVIEW.md",
+          "passage": "Vorhandene vollständige historische Vergleichspassagen und Begrenzungen.",
+          "work_package": "SOURCE_OLD"
+        },
+        {
+          "path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/REPORT.md",
+          "passage": "Tacuinum-Vergleich und Grenze des ausgeschlossenen festen Compilers; keine Wiederbelebung dieses Kopiermodells.",
+          "work_package": "SOURCE_OLD"
+        }
+      ],
+      "priority": "REVIEW_PRIORITY",
+      "shortlist_order": 1,
+      "family": "Inhalt und Textgattung",
+      "first_block_minutes_label": "Aufwandsrichtwert für erste zusammenhängende Fassung, kein hartes Abbruch- oder Gesamtzeitlimit",
+      "held_page_policy": "Keine zurückgehaltene Seite öffnen oder prüfen. Erst nach nahezu vollständiger plausibler Gesamtlesung auf dem vereinbarten Arbeitsmaterial spätere Prüfung gesondert festlegen.",
+      "human_policy": "Keine Kontakte und keine externe Gegenlesung; eigene native Bildanalyse innerhalb der bestehenden Freigaben.",
+      "revision_policy": "Warnzeichen gelten gegen die aktuelle Modellfassung, nicht als Pflicht zum Abbruch der Hypothesenarbeit. Zahlen zu Begriffs-/Regelumfang sind Startbudgets, keine wissenschaftlichen Grenzwerte; begründete Änderungen versionieren und kapitelweit anwenden.",
+      "novelty_status": "Neue Ausarbeitung mit benannten Vorgängern; begrenzter Registry- und Paarvergleich dient der Navigation, nicht als Beweis historischer Einmaligkeit. Wissenschaftliche Auswahlprüfung offen.",
+      "initial_meaning_status": "Alle Bedeutungen hypothetisch; dieses Dokument führt keine Versuche aus und bestätigt kein Wort.",
+      "starting_scope": "HERB4: sämtliche vier Absätze; als erstes f17r.4–6 wortweise ausarbeiten, das Wörterbuch an allen vier Einträgen mitführen.",
+      "result_status": "UNTESTED_PROPOSAL"
+    }
+  }
+}

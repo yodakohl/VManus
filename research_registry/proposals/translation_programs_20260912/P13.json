@@ -1,0 +1,110 @@
+{
+  "title": "P13 — Begrenzte Fachmehrdeutigkeit statt eines Worts für alles",
+  "summary": "RAW_UNSCREENED: Wiederkehrende Formen erscheinen in unterschiedlichen Text- und Bildkontexten; bisher blieben mehrere globale Bedeutungsrichtungen gleich möglich. Anleitung:docs/TRANSLATION_PROGRAMS_30.md#p13",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Eine explizite kontextabhängige Bedeutungsfunktion ersetzt freie Einzelfallglossen; weder eine einzige universelle Bedeutung noch grenzenlose Polysemie wird vorausgesetzt.",
+    "unit": "Kleines zweisinniges Wörterbuch mit Auslösern und vollständigem Vorkommensvergleich.",
+    "contrast": "Braucht ein Wort eine dritte unverbundene Bedeutung, zuerst die ganze Hypothese prüfen. Zahl der Lesarten und Ausnahmen offen zählen.",
+    "prediction": "Zwei Lesarten müssen wiederkehrende Satzprobleme gleichzeitig beseitigen, ohne für jedes Vorkommen eine eigene Kontextklasse anzulegen.",
+    "scope": "Nur festgelegte exponierte Arbeitspakete; nahezu vollständige plausible Gesamtlesung vor späterer Prüfung zurückgehaltener Seiten",
+    "execution": {
+      "plan_id": "P13",
+      "title": "Begrenzte Fachmehrdeutigkeit statt eines Worts für alles",
+      "scope": "semantic",
+      "status": "RAW_UNSCREENED_NEW_DESIGN",
+      "summary": "RAW_UNSCREENED: Wiederkehrende Formen erscheinen in unterschiedlichen Text- und Bildkontexten; bisher blieben mehrere globale Bedeutungsrichtungen gleich möglich.",
+      "work_packages": [
+        "HERB4",
+        "BATH3",
+        "LABEL4"
+      ],
+      "starting_observation": "Wiederkehrende Formen erscheinen in unterschiedlichen Text- und Bildkontexten; bisher blieben mehrere globale Bedeutungsrichtungen gleich möglich.",
+      "provisional_assumptions": [
+        "Ein technischer Ausdruck kann zwei verwandte Bedeutungen haben, etwa Material und daraus hergestellte Zubereitung.",
+        "Die Wahl der Bedeutung folgt einem geschriebenen Kontext oder einer vorab beschriebenen Textsorte."
+      ],
+      "steps": [
+        "Zwei bis vier wiederkehrende ganze Formen aus den Arbeitsabsätzen wählen, deren Einheitslesung an mehreren Stellen sichtbar hakt.",
+        "Zunächst eine Bedeutung für alle Vorkommen formulieren und die widersprüchlichen ganzen Sätze bewahren.",
+        "Je Form höchstens zwei verwandte Lesarten vorschlagen und genau erklären, was beide semantisch verbindet.",
+        "Einen gemeinsamen Auslöser für den Wechsel suchen: begleitendes Wort, syntaktische Stelle oder Absatzgattung; nicht die gewünschte deutsche Übersetzung verwenden.",
+        "Alle ausgewählten Vorkommen im vollständigen Kontext neu lesen und die Auslöser auch an ungünstigen Stellen anwenden.",
+        "Einheitsmodell und Zweilesartenmodell samt Regelkosten nebeneinander ausgeben; nur hilfreiche, konsistente Unterscheidungen behalten."
+      ],
+      "joint_constraints": [
+        "semantische Verwandtschaft",
+        "beobachtbarer Auslöser",
+        "gemeinsame Verwendung über Passagen"
+      ],
+      "predecessors": [
+        "GDT768",
+        "GDT793",
+        "GDT809"
+      ],
+      "new_contribution": "Eine explizite kontextabhängige Bedeutungsfunktion ersetzt freie Einzelfallglossen; weder eine einzige universelle Bedeutung noch grenzenlose Polysemie wird vorausgesetzt.",
+      "working_consequence": "Zwei Lesarten müssen wiederkehrende Satzprobleme gleichzeitig beseitigen, ohne für jedes Vorkommen eine eigene Kontextklasse anzulegen.",
+      "revision_or_stop": "Braucht ein Wort eine dritte unverbundene Bedeutung, zuerst die ganze Hypothese prüfen. Zahl der Lesarten und Ausnahmen offen zählen.",
+      "deliverable": "Kleines zweisinniges Wörterbuch mit Auslösern und vollständigem Vorkommensvergleich.",
+      "first_block_minutes": 90,
+      "priority": "ALTERNATIVE",
+      "shortlist_order": null,
+      "family": "Bedeutungsvariation",
+      "first_block_minutes_label": "Aufwandsrichtwert für erste zusammenhängende Fassung, kein hartes Abbruch- oder Gesamtzeitlimit",
+      "held_page_policy": "Keine zurückgehaltene Seite öffnen oder prüfen. Erst nach nahezu vollständiger plausibler Gesamtlesung auf dem vereinbarten Arbeitsmaterial spätere Prüfung gesondert festlegen.",
+      "human_policy": "Keine Kontakte und keine externe Gegenlesung; eigene native Bildanalyse innerhalb der bestehenden Freigaben.",
+      "revision_policy": "Warnzeichen gelten gegen die aktuelle Modellfassung, nicht als Pflicht zum Abbruch der Hypothesenarbeit. Zahlen zu Begriffs-/Regelumfang sind Startbudgets, keine wissenschaftlichen Grenzwerte; begründete Änderungen versionieren und kapitelweit anwenden.",
+      "novelty_status": "Neue Ausarbeitung mit benannten Vorgängern; begrenzter Registry- und Paarvergleich dient der Navigation, nicht als Beweis historischer Einmaligkeit. Wissenschaftliche Auswahlprüfung offen.",
+      "initial_meaning_status": "Alle Bedeutungen hypothetisch; dieses Dokument führt keine Versuche aus und bestätigt kein Wort.",
+      "starting_scope": "HERB4: alle vier Absätze. BATH3 f83r und LABEL4 f88r erst als zusätzliche exponierte Kontexte derselben Wörter hinzunehmen.",
+      "source_entrypoints": [
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "passage": "Primärbefund und rivalisierende Eigenschafts-/Mengenlesungen; kein festes Bedeutungslexikon.",
+          "work_package": "HERB4"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md",
+          "passage": "Alle vier vollständigen Absätze samt Ausrichtung; die alten Glossen sind Arbeitshypothesen.",
+          "work_package": "HERB4"
+        },
+        {
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+          "passage": "Umfang und Gliederung der drei Arbeitsseiten.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_MANUAL_IMAGE_GRAMMAR_AUDIT.md",
+          "passage": "Vorhandene Bildbeobachtungen; angenommene Funktionen nicht als Wahrheit übernehmen.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+          "passage": "Nur query-tsv mit selector page und allow f77r/f82r/f83r; nur page,panel_id,record_id,locus,zl3b_line ausgeben.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md",
+          "passage": "Korrekturen der Arbeitsgliederung; keine goldenen Satzgrenzen.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt890_f77_component_detail/REPORT.md",
+          "passage": "f77r: ungeklärte Bildgrenzen bleiben als Alternativen offen.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md",
+          "passage": "Vierseiten-Synthese mit ausdrücklich unbestätigten Bedeutungsalternativen.",
+          "work_package": "LABEL4"
+        },
+        {
+          "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/FOUR_PAGES_FULL_TEXT.md",
+          "passage": "Nur die vier genannten Seiten/Panelabschnitte. f108r ist hier kein Arbeitsblatt.",
+          "work_package": "LABEL4"
+        }
+      ],
+      "result_status": "UNTESTED_PROPOSAL"
+    }
+  }
+}

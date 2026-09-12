@@ -1,0 +1,100 @@
+{
+  "title": "P26 — Wiederkehrende Verfahren als Aufruf mit Parametern",
+  "summary": "RAW_UNSCREENED: Wiederholte Formeln könnten kürzere Hinweise auf ein andernorts beschriebenes Verfahren sein, statt jedes Mal dieselben Einzelschritte auszuschreiben. Anleitung:docs/TRANSLATION_PROGRAMS_30.md#p26",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Keine Ausführung alter Rendereraktionen als Beweis: ein kleines neues Verfahrenslexikon muss aus konkreten vollständigen Textlesungen entstehen und alle Aufrufe erklären.",
+    "unit": "Ein Arbeitskapitel, eine Verfahrenskarte und alle vollständig expandierten Aufrufe.",
+    "contrast": "Unbegrenzte Rekursion oder ein Verfahren pro unverständlicher Form vermeiden. Wenn die Expansion den Text beliebig verlängert, ist die Hypothese zu frei.",
+    "prediction": "Ein gleicher Verfahrensname mit anderem Material kann gleichartige Ergebnisse erzeugen; eine bloße Gegenstandsbezeichnung erklärt keinen ganzen Schrittverband.",
+    "scope": "Nur festgelegte exponierte Arbeitspakete; nahezu vollständige plausible Gesamtlesung vor späterer Prüfung zurückgehaltener Seiten",
+    "execution": {
+      "plan_id": "P26",
+      "title": "Wiederkehrende Verfahren als Aufruf mit Parametern",
+      "scope": "semantic",
+      "status": "RAW_UNSCREENED_NEW_DESIGN",
+      "summary": "RAW_UNSCREENED: Wiederholte Formeln könnten kürzere Hinweise auf ein andernorts beschriebenes Verfahren sein, statt jedes Mal dieselben Einzelschritte auszuschreiben.",
+      "work_packages": [
+        "BATH3",
+        "HERB4"
+      ],
+      "starting_observation": "Wiederholte Formeln könnten kürzere Hinweise auf ein andernorts beschriebenes Verfahren sein, statt jedes Mal dieselben Einzelschritte auszuschreiben.",
+      "provisional_assumptions": [
+        "Ein Verfahren wird in einem Arbeitskapitel einmal ausführlicher beschrieben und später mit wechselnden Materialien aufgerufen.",
+        "Seine Parameter und Ergebnisse bleiben bei jedem Aufruf typgleich."
+      ],
+      "steps": [
+        "Eine vollständige Passage als mögliche Verfahrensbeschreibung lesen; höchstens drei Handlungen und zwei Parameter verwenden.",
+        "Wiederkehrende ganze Formen in weiteren vollständigen Arbeitsabsätzen als mögliche Aufrufe dieses Verfahrens markieren.",
+        "Für jeden Aufruf sämtliche geschriebenen Argumente, den angenommenen Anfangszustand und das angenommene Ergebnis angeben.",
+        "Das Verfahren wörtlich an jeder Aufrufstelle expandieren, ohne neue freie Handlung hinzuzufügen.",
+        "Prüfen, ob die expandierten Kapitel sachlich und grammatisch konsistent sind oder Materialien, Ziele beziehungsweise Ergebnisse unerklärt wechseln.",
+        "Eine Kurzfassung und die vollständig expandierte Lesung mit einer alternativen gewöhnlichen Wortlesung vergleichen."
+      ],
+      "joint_constraints": [
+        "feste Verfahrensbedeutung",
+        "Parametertypen",
+        "Ergebniswiederverwendung"
+      ],
+      "predecessors": [
+        "GDT441",
+        "GDT448",
+        "GDT904",
+        "GDT817"
+      ],
+      "new_contribution": "Keine Ausführung alter Rendereraktionen als Beweis: ein kleines neues Verfahrenslexikon muss aus konkreten vollständigen Textlesungen entstehen und alle Aufrufe erklären.",
+      "working_consequence": "Ein gleicher Verfahrensname mit anderem Material kann gleichartige Ergebnisse erzeugen; eine bloße Gegenstandsbezeichnung erklärt keinen ganzen Schrittverband.",
+      "revision_or_stop": "Unbegrenzte Rekursion oder ein Verfahren pro unverständlicher Form vermeiden. Wenn die Expansion den Text beliebig verlängert, ist die Hypothese zu frei.",
+      "deliverable": "Ein Arbeitskapitel, eine Verfahrenskarte und alle vollständig expandierten Aufrufe.",
+      "first_block_minutes": 90,
+      "priority": "ALTERNATIVE",
+      "shortlist_order": null,
+      "family": "Verfahrensaufruf",
+      "first_block_minutes_label": "Aufwandsrichtwert für erste zusammenhängende Fassung, kein hartes Abbruch- oder Gesamtzeitlimit",
+      "held_page_policy": "Keine zurückgehaltene Seite öffnen oder prüfen. Erst nach nahezu vollständiger plausibler Gesamtlesung auf dem vereinbarten Arbeitsmaterial spätere Prüfung gesondert festlegen.",
+      "human_policy": "Keine Kontakte und keine externe Gegenlesung; eigene native Bildanalyse innerhalb der bestehenden Freigaben.",
+      "revision_policy": "Warnzeichen gelten gegen die aktuelle Modellfassung, nicht als Pflicht zum Abbruch der Hypothesenarbeit. Zahlen zu Begriffs-/Regelumfang sind Startbudgets, keine wissenschaftlichen Grenzwerte; begründete Änderungen versionieren und kapitelweit anwenden.",
+      "novelty_status": "Neue Ausarbeitung mit benannten Vorgängern; begrenzter Registry- und Paarvergleich dient der Navigation, nicht als Beweis historischer Einmaligkeit. Wissenschaftliche Auswahlprüfung offen.",
+      "initial_meaning_status": "Alle Bedeutungen hypothetisch; dieses Dokument führt keine Versuche aus und bestätigt kein Wort.",
+      "starting_scope": "BATH3: erster vollständiger f83r-Record als vorläufige Definition, alle übrigen f83r-Records als mögliche Aufrufe; HERB4 nur später und mit ausdrücklich erklärtem Geltungsbereich.",
+      "source_entrypoints": [
+        {
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+          "passage": "Umfang und Gliederung der drei Arbeitsseiten.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_MANUAL_IMAGE_GRAMMAR_AUDIT.md",
+          "passage": "Vorhandene Bildbeobachtungen; angenommene Funktionen nicht als Wahrheit übernehmen.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+          "passage": "Nur query-tsv mit selector page und allow f77r/f82r/f83r; nur page,panel_id,record_id,locus,zl3b_line ausgeben.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md",
+          "passage": "Korrekturen der Arbeitsgliederung; keine goldenen Satzgrenzen.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt890_f77_component_detail/REPORT.md",
+          "passage": "f77r: ungeklärte Bildgrenzen bleiben als Alternativen offen.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "passage": "Primärbefund und rivalisierende Eigenschafts-/Mengenlesungen; kein festes Bedeutungslexikon.",
+          "work_package": "HERB4"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md",
+          "passage": "Alle vier vollständigen Absätze samt Ausrichtung; die alten Glossen sind Arbeitshypothesen.",
+          "work_package": "HERB4"
+        }
+      ],
+      "result_status": "UNTESTED_PROPOSAL"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "title": "P03 — Therapeutisches Rezeptbuch: Anlass, Durchführung und Anwendung trennen",
+  "summary": "RAW_UNSCREENED: Freie historische Rezeptinhalte unter gemeinsamer Handlungssprache und getrennten Mengenarten; keine Gleichsetzung mit einem bestimmten lateinischen Quellensatz. Anleitung:docs/TRANSLATION_PROGRAMS_30.md#p03",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Freie historische Rezeptinhalte unter gemeinsamer Handlungssprache und getrennten Mengenarten; keine Gleichsetzung mit einem bestimmten lateinischen Quellensatz.",
+    "unit": "Vier komplette Anweisungen mit Zutaten-/Produktlisten, Wortzuordnung und offen ausgewiesenen Alternativen.",
+    "contrast": "Die Rezepte werden nur durch ausgelassene unbekannte Wörter, wechselnde Zahlenwerte oder ungeschriebene Hauptoperationen ausführbar. Zulässige Revision: Eine vorher als Dosis angenommene Größe darf global als Stärke umgedeutet werden; alle Rezeptblätter werden dabei neu berechnet.",
+    "prediction": "Ein Mengenwort, das als Dosis gewählt wird, muss bei Anwendung statt bei jedem Materialzustand sinnvoll bleiben; ein Prozesswort muss in allen Rezepten dieselbe Eingabe-Ausgabe-Art besitzen.",
+    "scope": "Nur festgelegte exponierte Arbeitspakete; nahezu vollständige plausible Gesamtlesung vor späterer Prüfung zurückgehaltener Seiten",
+    "execution": {
+      "plan_id": "P03",
+      "title": "Therapeutisches Rezeptbuch: Anlass, Durchführung und Anwendung trennen",
+      "scope": "semantic",
+      "status": "RAW_UNSCREENED_NEW_DESIGN",
+      "summary": "RAW_UNSCREENED: Freie historische Rezeptinhalte unter gemeinsamer Handlungssprache und getrennten Mengenarten; keine Gleichsetzung mit einem bestimmten lateinischen Quellensatz.",
+      "work_packages": [
+        "HERB4"
+      ],
+      "starting_observation": "alle vier vollständigen Arbeitsabsätze f17r/f21r/f32v/f29v; ols-aiin f104v.19; ckhy in medialen und finalen Stellungen",
+      "provisional_assumptions": [
+        "Das Kapitel enthält therapeutische Anweisungen. Menge, Zubereitung und Anwendung können unterschiedliche Felder sein; kein Wert wird schon als drei oder trocken festgelegt."
+      ],
+      "steps": [
+        "Ein Rezeptblatt mit Anlass, Bestandteilen, Mengen, Verarbeitung, Anwendung und Endbedingung erstellen.",
+        "Zunächst den kürzesten vollständigen809Absatz ausarbeiten; jede Wortgruppe erhält eine ausdrückliche Funktion, auch problematische Wiederholungen.",
+        "Alle mengenähnlichen Angaben gleichzeitig als Dosis, Herstellungsmenge oder Stärke führen und ihre Folgen für das ganze Rezept vergleichen.",
+        "Den zweiten Absatz mit unverändertem Kernwörterbuch lesen; gemeinsame Bestandteile müssen nicht dieselbe Anwendung haben, unterschiedliche Anwendungen brauchen aber Textträger.",
+        "Ein simuliertes Durchspielen auf Papier durchführen: Was wird wann womit gemacht, was liegt danach vor, was wird wem verabreicht?",
+        "Vier vollständige Rezepte zusammenstellen und alle nicht ausführbaren oder unbegründeten Schritte als konkrete Widersprüche ausweisen."
+      ],
+      "joint_constraints": [
+        "Freie historische Rezeptinhalte unter gemeinsamer Handlungssprache und getrennten Mengenarten; keine Gleichsetzung mit einem bestimmten lateinischen Quellensatz."
+      ],
+      "predecessors": [
+        "GDT809",
+        "GDT769",
+        "GDT904"
+      ],
+      "new_contribution": "Freie historische Rezeptinhalte unter gemeinsamer Handlungssprache und getrennten Mengenarten; keine Gleichsetzung mit einem bestimmten lateinischen Quellensatz.",
+      "working_consequence": "Ein Mengenwort, das als Dosis gewählt wird, muss bei Anwendung statt bei jedem Materialzustand sinnvoll bleiben; ein Prozesswort muss in allen Rezepten dieselbe Eingabe-Ausgabe-Art besitzen.",
+      "revision_or_stop": "Die Rezepte werden nur durch ausgelassene unbekannte Wörter, wechselnde Zahlenwerte oder ungeschriebene Hauptoperationen ausführbar. Zulässige Revision: Eine vorher als Dosis angenommene Größe darf global als Stärke umgedeutet werden; alle Rezeptblätter werden dabei neu berechnet.",
+      "deliverable": "Vier komplette Anweisungen mit Zutaten-/Produktlisten, Wortzuordnung und offen ausgewiesenen Alternativen.",
+      "first_block_minutes": 120,
+      "source_entrypoints": [
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "passage": "Primärbefund und rivalisierende Eigenschafts-/Mengenlesungen; kein festes Bedeutungslexikon.",
+          "work_package": "HERB4"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md",
+          "passage": "Alle vier vollständigen Absätze samt Ausrichtung; die alten Glossen sind Arbeitshypothesen.",
+          "work_package": "HERB4"
+        }
+      ],
+      "priority": "ALTERNATIVE",
+      "shortlist_order": null,
+      "family": "Inhalt und Textgattung",
+      "first_block_minutes_label": "Aufwandsrichtwert für erste zusammenhängende Fassung, kein hartes Abbruch- oder Gesamtzeitlimit",
+      "held_page_policy": "Keine zurückgehaltene Seite öffnen oder prüfen. Erst nach nahezu vollständiger plausibler Gesamtlesung auf dem vereinbarten Arbeitsmaterial spätere Prüfung gesondert festlegen.",
+      "human_policy": "Keine Kontakte und keine externe Gegenlesung; eigene native Bildanalyse innerhalb der bestehenden Freigaben.",
+      "revision_policy": "Warnzeichen gelten gegen die aktuelle Modellfassung, nicht als Pflicht zum Abbruch der Hypothesenarbeit. Zahlen zu Begriffs-/Regelumfang sind Startbudgets, keine wissenschaftlichen Grenzwerte; begründete Änderungen versionieren und kapitelweit anwenden.",
+      "novelty_status": "Neue Ausarbeitung mit benannten Vorgängern; begrenzter Registry- und Paarvergleich dient der Navigation, nicht als Beweis historischer Einmaligkeit. Wissenschaftliche Auswahlprüfung offen.",
+      "initial_meaning_status": "Alle Bedeutungen hypothetisch; dieses Dokument führt keine Versuche aus und bestätigt kein Wort.",
+      "starting_scope": "HERB4: zuerst f17r.4–6, danach f21r.8–12, f32v.7–11 und f29v.1–4.",
+      "result_status": "UNTESTED_PROPOSAL"
+    }
+  }
+}

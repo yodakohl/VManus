@@ -1,0 +1,68 @@
+{
+  "title": "P01 — Differentialdiagnose: ähnliche Befunde, verschiedene Behandlungen",
+  "summary": "RAW_UNSCREENED: Verlangt zusätzlich eine gemeinsame Entscheidungslogik über ganze Absätze, inklusive verschiedener Schlussfolgerungen und begründeter Maßnahmen; kein neuer Test derselben Kopfassoziation. Anleitung:docs/TRANSLATION_PROGRAMS_30.md#p01",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Verlangt zusätzlich eine gemeinsame Entscheidungslogik über ganze Absätze, inklusive verschiedener Schlussfolgerungen und begründeter Maßnahmen; kein neuer Test derselben Kopfassoziation.",
+    "unit": "Zwei vollständige Diagnoseabsätze, Entscheidungsbaum, Wörterbuch mit Annahmen und Widerspruchsliste.",
+    "contrast": "Warnsignal nach zwei vollständigen Fassungen: Es erfordert derselbe Befund unter denselben Bedingungen widersprechende Schlüsse oder mehr als drei lokale Sonderbedeutungen. Zulässige Revision: Schweregrad und Stoffart dürfen kapitelweit getauscht werden; Änderungen müssen alle Vorkommen und beide Rivalen neu durchlaufen.",
+    "prediction": "Ein als unterscheidend gelesenes Wort muss in allen Arbeitsfällen denselben Entscheidungszweig ändern; identische Befundkombinationen dürfen ohne geschriebenen Zusatz keine gegensätzliche Behandlung erhalten.",
+    "scope": "Nur festgelegte exponierte Arbeitspakete; nahezu vollständige plausible Gesamtlesung vor späterer Prüfung zurückgehaltener Seiten",
+    "execution": {
+      "plan_id": "P01",
+      "title": "Differentialdiagnose: ähnliche Befunde, verschiedene Behandlungen",
+      "scope": "semantic",
+      "status": "RAW_UNSCREENED_NEW_DESIGN",
+      "summary": "RAW_UNSCREENED: Verlangt zusätzlich eine gemeinsame Entscheidungslogik über ganze Absätze, inklusive verschiedener Schlussfolgerungen und begründeter Maßnahmen; kein neuer Test derselben Kopfassoziation.",
+      "work_packages": [
+        "HERB4"
+      ],
+      "starting_observation": "f17r.4–6 und f21r.8–12; cthy chor shor und chor chol daiin",
+      "provisional_assumptions": [
+        "Die wiederkehrenden Köpfe können Befunde oder Körperstoffe statt Pflanzenorgane bezeichnen. Die Werte sind zunächst Stufen A/B/C, keine Zahlen."
+      ],
+      "steps": [
+        "Beide vollständigen Absätze mit allen Wiederholungen als Arbeitskapitel übernehmen; Lesarten nebeneinander erhalten.",
+        "Eine kleine Tabelle von höchstens sechs vorläufigen Befunden und drei Schweregraden anlegen; jeden neuen Begriff einer geschriebenen Form zuordnen.",
+        "Für jeden Absatz eine Diagnosekette schreiben: Befund, unterscheidendes Merkmal, Schluss, Behandlung. Unbekannte Wörter zunächst als benannte Variablen eintragen.",
+        "Gemeinsame Wörter müssen gemeinsame Befunde oder Regeln behalten; Unterschiede müssen unterschiedliche Schlüsse erklären. Keine Diagnose nur aus dem Bild benennen.",
+        "Die Ketten rückwärts prüfen: Jede vorgeschlagene Behandlung benötigt einen zuvor genannten Grund; ein Befund darf nicht zugleich ausschlaggebend und unbeachtet sein.",
+        "Alle Variablen zu vorläufigen vollständigen Sätzen ausarbeiten und das gesamte Kapitel gegen eine gleich sorgfältige reine Zustandsbeschreibung lesen."
+      ],
+      "joint_constraints": [
+        "Verlangt zusätzlich eine gemeinsame Entscheidungslogik über ganze Absätze, inklusive verschiedener Schlussfolgerungen und begründeter Maßnahmen; kein neuer Test derselben Kopfassoziation."
+      ],
+      "predecessors": [
+        "GDT809"
+      ],
+      "new_contribution": "Verlangt zusätzlich eine gemeinsame Entscheidungslogik über ganze Absätze, inklusive verschiedener Schlussfolgerungen und begründeter Maßnahmen; kein neuer Test derselben Kopfassoziation.",
+      "working_consequence": "Ein als unterscheidend gelesenes Wort muss in allen Arbeitsfällen denselben Entscheidungszweig ändern; identische Befundkombinationen dürfen ohne geschriebenen Zusatz keine gegensätzliche Behandlung erhalten.",
+      "revision_or_stop": "Warnsignal nach zwei vollständigen Fassungen: Es erfordert derselbe Befund unter denselben Bedingungen widersprechende Schlüsse oder mehr als drei lokale Sonderbedeutungen. Zulässige Revision: Schweregrad und Stoffart dürfen kapitelweit getauscht werden; Änderungen müssen alle Vorkommen und beide Rivalen neu durchlaufen.",
+      "deliverable": "Zwei vollständige Diagnoseabsätze, Entscheidungsbaum, Wörterbuch mit Annahmen und Widerspruchsliste.",
+      "first_block_minutes": 100,
+      "source_entrypoints": [
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "passage": "Primärbefund und rivalisierende Eigenschafts-/Mengenlesungen; kein festes Bedeutungslexikon.",
+          "work_package": "HERB4"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md",
+          "passage": "Alle vier vollständigen Absätze samt Ausrichtung; die alten Glossen sind Arbeitshypothesen.",
+          "work_package": "HERB4"
+        }
+      ],
+      "priority": "ALTERNATIVE",
+      "shortlist_order": null,
+      "family": "Inhalt und Textgattung",
+      "first_block_minutes_label": "Aufwandsrichtwert für erste zusammenhängende Fassung, kein hartes Abbruch- oder Gesamtzeitlimit",
+      "held_page_policy": "Keine zurückgehaltene Seite öffnen oder prüfen. Erst nach nahezu vollständiger plausibler Gesamtlesung auf dem vereinbarten Arbeitsmaterial spätere Prüfung gesondert festlegen.",
+      "human_policy": "Keine Kontakte und keine externe Gegenlesung; eigene native Bildanalyse innerhalb der bestehenden Freigaben.",
+      "revision_policy": "Warnzeichen gelten gegen die aktuelle Modellfassung, nicht als Pflicht zum Abbruch der Hypothesenarbeit. Zahlen zu Begriffs-/Regelumfang sind Startbudgets, keine wissenschaftlichen Grenzwerte; begründete Änderungen versionieren und kapitelweit anwenden.",
+      "novelty_status": "Neue Ausarbeitung mit benannten Vorgängern; begrenzter Registry- und Paarvergleich dient der Navigation, nicht als Beweis historischer Einmaligkeit. Wissenschaftliche Auswahlprüfung offen.",
+      "initial_meaning_status": "Alle Bedeutungen hypothetisch; dieses Dokument führt keine Versuche aus und bestätigt kein Wort.",
+      "starting_scope": "HERB4: zuerst f17r.4–6 und f21r.8–12 vollständig; danach verbleibende zwei Absätze als exponierte interne Vergleichsbelege.",
+      "result_status": "UNTESTED_PROPOSAL"
+    }
+  }
+}

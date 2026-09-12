@@ -1,0 +1,89 @@
+{
+  "title": "P15 — Verlaufsform, Ergebnisform und wiederholte Handlung unterscheiden",
+  "summary": "RAW_UNSCREENED: Y/DY- und andere Abschlussdeutungen sind durch Parser und physische Position belastet; eine semantische Zeitstruktur ganzer Passagen bleibt davon zu unterscheiden. Anleitung:docs/TRANSLATION_PROGRAMS_30.md#p15",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Keine erneute Endpositionsmessung: Ereignisstruktur, Zustandsreferenz und ganze Satzlesung werden gemeinsam entwickelt.",
+    "unit": "Ein Seitenkapitel mit zwei Zeitmodellen und einer expliziten Entscheidung über die vorläufig bevorzugte Lesung.",
+    "contrast": "Wenn jede Wiederholung einen unbezeichneten Zeitsprung benötigt, die Zeitfunktion verwerfen oder die Satzgrenzen begründet ändern.",
+    "prediction": "Eine Ergebnislesung legt spätere Zustandsbezüge nahe, eine Imperativlesung weitere Ausführungsschritte; beide dürfen nicht an derselben Stelle stillschweigend vertauscht werden.",
+    "scope": "Nur festgelegte exponierte Arbeitspakete; nahezu vollständige plausible Gesamtlesung vor späterer Prüfung zurückgehaltener Seiten",
+    "execution": {
+      "plan_id": "P15",
+      "title": "Verlaufsform, Ergebnisform und wiederholte Handlung unterscheiden",
+      "scope": "semantic",
+      "status": "RAW_UNSCREENED_NEW_DESIGN",
+      "summary": "RAW_UNSCREENED: Y/DY- und andere Abschlussdeutungen sind durch Parser und physische Position belastet; eine semantische Zeitstruktur ganzer Passagen bleibt davon zu unterscheiden.",
+      "work_packages": [
+        "BATH3"
+      ],
+      "starting_observation": "Y/DY- und andere Abschlussdeutungen sind durch Parser und physische Position belastet; eine semantische Zeitstruktur ganzer Passagen bleibt davon zu unterscheiden.",
+      "provisional_assumptions": [
+        "Eine Formvariante könnte laufenden Vorgang, erreichten Zustand oder erneuten Durchgang unterscheiden.",
+        "Die Reihenfolge des Erzählens muss nicht genau der Reihenfolge der Vorgänge entsprechen."
+      ],
+      "steps": [
+        "Für einen vollständigen BATH3-Absatz zunächst nur mögliche Ereignisse und Zustände in einer Zeitleiste notieren.",
+        "Zwei Geschichten mit denselben Beteiligten schreiben: Anweisung in Durchführungsschritten und Beschreibung eines bereits entstandenen Zustands.",
+        "Wiederkehrende Formen probeweise den drei Zeitfunktionen laufend, erreicht und wiederholt zuordnen; keine feste DY-Übersetzung importieren.",
+        "Diese Zuordnung auf sämtliche Absätze derselben Seite anwenden und eine gemeinsame Reihenfolge- oder Rückbezugsregel benutzen.",
+        "Prüfen, ob Ergebnisnennungen später als Eingangszustand einer weiteren Aussage wiederkehren können; auch nicht passende Fälle dokumentieren.",
+        "Eine vollständige hypothetische Lesung mit Ereigniszeit, Erzählposition und Wortbeleg ausgeben."
+      ],
+      "joint_constraints": [
+        "zeitliche Verträglichkeit",
+        "Zustandsfortführung",
+        "Formvarianten"
+      ],
+      "predecessors": [
+        "GDT556",
+        "GDT687",
+        "GDT801",
+        "GDT817"
+      ],
+      "new_contribution": "Keine erneute Endpositionsmessung: Ereignisstruktur, Zustandsreferenz und ganze Satzlesung werden gemeinsam entwickelt.",
+      "working_consequence": "Eine Ergebnislesung legt spätere Zustandsbezüge nahe, eine Imperativlesung weitere Ausführungsschritte; beide dürfen nicht an derselben Stelle stillschweigend vertauscht werden.",
+      "revision_or_stop": "Wenn jede Wiederholung einen unbezeichneten Zeitsprung benötigt, die Zeitfunktion verwerfen oder die Satzgrenzen begründet ändern.",
+      "deliverable": "Ein Seitenkapitel mit zwei Zeitmodellen und einer expliziten Entscheidung über die vorläufig bevorzugte Lesung.",
+      "first_block_minutes": 90,
+      "priority": "ALTERNATIVE",
+      "shortlist_order": null,
+      "family": "Zeit und Aspekt",
+      "first_block_minutes_label": "Aufwandsrichtwert für erste zusammenhängende Fassung, kein hartes Abbruch- oder Gesamtzeitlimit",
+      "held_page_policy": "Keine zurückgehaltene Seite öffnen oder prüfen. Erst nach nahezu vollständiger plausibler Gesamtlesung auf dem vereinbarten Arbeitsmaterial spätere Prüfung gesondert festlegen.",
+      "human_policy": "Keine Kontakte und keine externe Gegenlesung; eigene native Bildanalyse innerhalb der bestehenden Freigaben.",
+      "revision_policy": "Warnzeichen gelten gegen die aktuelle Modellfassung, nicht als Pflicht zum Abbruch der Hypothesenarbeit. Zahlen zu Begriffs-/Regelumfang sind Startbudgets, keine wissenschaftlichen Grenzwerte; begründete Änderungen versionieren und kapitelweit anwenden.",
+      "novelty_status": "Neue Ausarbeitung mit benannten Vorgängern; begrenzter Registry- und Paarvergleich dient der Navigation, nicht als Beweis historischer Einmaligkeit. Wissenschaftliche Auswahlprüfung offen.",
+      "initial_meaning_status": "Alle Bedeutungen hypothetisch; dieses Dokument führt keine Versuche aus und bestätigt kein Wort.",
+      "starting_scope": "BATH3: erster vollständiger f83r-Record, danach das vollständige f83r-Blatt.",
+      "source_entrypoints": [
+        {
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+          "passage": "Umfang und Gliederung der drei Arbeitsseiten.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_MANUAL_IMAGE_GRAMMAR_AUDIT.md",
+          "passage": "Vorhandene Bildbeobachtungen; angenommene Funktionen nicht als Wahrheit übernehmen.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+          "passage": "Nur query-tsv mit selector page und allow f77r/f82r/f83r; nur page,panel_id,record_id,locus,zl3b_line ausgeben.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md",
+          "passage": "Korrekturen der Arbeitsgliederung; keine goldenen Satzgrenzen.",
+          "work_package": "BATH3"
+        },
+        {
+          "path": "experiments/yolo/gdt890_f77_component_detail/REPORT.md",
+          "passage": "f77r: ungeklärte Bildgrenzen bleiben als Alternativen offen.",
+          "work_package": "BATH3"
+        }
+      ],
+      "result_status": "UNTESTED_PROPOSAL"
+    }
+  }
+}

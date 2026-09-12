@@ -3,6 +3,31 @@
 Read VOYNICH_CURRENT_ROUTE.md first. It gives the live position and scope, not
 the full history. Detailed claims stay in the active registry and primary reports.
 
+## Current exploratory reading mode — user correction, 2026-09-12
+
+The current user instruction authorizes sustained development of coherent,
+multistep hypothetical readings without first finding independently confirmed
+word anchors. Nobody is to be contacted and no external expert reading is a
+prerequisite. Use native visual analysis inside existing page admissions. The
+old unsent f106v external-reading request is inactive historical documentation.
+
+Do not open or test reserved pages during hypothesis development. Plan their
+later examination only after a nearly complete plausible overall reading in
+the declared working scope exists; one successful paragraph is insufficient.
+f84/f84r remain sealed and this correction admits no new material. Exposed
+working passages may be used for internal consistency, with all revisions and
+counterexamples recorded. Provisional coherence is not confirmed word meaning.
+
+The executable starting queue is [30 reading programs](TRANSLATION_PROGRAMS_30.md).
+Start with P09 unless a concrete current reason favors another. Its effort
+estimates are checkpoints, not automatic stops or a renewed global time limit.
+Old fixed failed experiments remain unchanged. Primary predecessor checks must
+distinguish their actual tested contracts from these new joint hypotheses;
+missing confirmed meaning alone does not forbid writing a provisional chapter.
+Do not replace that chapter with successive control, source, or decoder repairs.
+This correction governs exploratory work where older workflow prose would
+otherwise demand an anchor, external reading, or an early held-page test.
+
 ## Start narrowly
 
 The whole-history working memory is now [research_registry/README.md](../research_registry/README.md).
