@@ -1,0 +1,42 @@
+[
+  {
+    "source": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+    "sha256": "13e4cc2f4373948c2772991f608d8f3b442cdf501b7fc685519dc6830f2f5216",
+    "projection": "PROSE.tsv",
+    "projection_sha256": "b8101f6cdfe7a815b7ec8fe69c1534d0f8eeeef338f2e22fbd0845f16a3dd0cf",
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f77r",
+      "--allow",
+      "f82r",
+      "--columns",
+      "page,panel_id,record_id,locus,zl3b_line"
+    ],
+    "guard_stats": "GUARD_STATS {\"selected\": 72, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 51}"
+  },
+  {
+    "source": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_27_LABEL_OWNER_ATLAS.tsv",
+    "sha256": "774ff47da69dd66f278583968f1885e56986d63920a79310b6f2950572a43e32",
+    "projection": "LABELS.tsv",
+    "projection_sha256": "8b0a7fb9a2bbfef5158951b4d00edd0770a1848727f1c652ec4b28cbd7ecd42e",
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_27_LABEL_OWNER_ATLAS.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f77r",
+      "--allow",
+      "f82r",
+      "--columns",
+      "page,locus,label_surface,panel_id,component_id,owner_class,local_position,attachment_relation"
+    ],
+    "guard_stats": "GUARD_STATS {\"selected\": 23, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 4}"
+  }
+]
