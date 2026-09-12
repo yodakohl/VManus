@@ -1,0 +1,19 @@
+# Feste Regeln der gemeinsamen Arbeitsfassung
+
+Die148Ganzwortwerte in LEXICON.tsv sind frei entwickelte Annahmen. W01 gab ausschließlich ychor einen hier übernehmbaren Arbeitswert; die übrigen147Einträge sind keine bereits bestätigten Wörter. Viele erinnern an alte Glossen, andere ändern sie ausdrücklich: etwa okchey≈zerstoße fein statt der früheren Wärmezubereitung. Es gibt keine automatische Ableitung für unbekannte Formen und keine Änderung an einem alten Wörterbuch, Schlüssel oder Decoder.
+
+Die erste53-Wort-Schicht wurde für f6v entworfen. Die95weiteren Werte entwickeln das gemeinsame Inhaltsmodell an den übrigen zwölf Absätzen. Alle900Positionen waren bei der Ausarbeitung verfügbar; die zwölf Absätze sind keine unabhängige Übertragungsprüfung. Jede Ganzform hat genau einen Arbeitswert. Q/P/R sind symbolische unbekannte Werte, ohne angenommene Reihenfolge oder Gleichsetzung mit römischen Zahlen. Unklare Rohgruppen werden nicht bereinigt oder zusammengezogen.
+
+R1: MATERIAL und MATERIAL_DOSE sind explizit als Gegenstände angenommene Ganzformen. Eine bloße Zahl oder ungebundene Menge ist kein beliebiger Stoff. Verschiedene Materialnamen werden nicht aus Ähnlichkeit oder Bedarf der Geschichte als dasselbe Produkt angesetzt.
+
+R2: Handlungen beziehen sich zunächst auf die letzte explizite Materialnennung links in derselben Zeile. Fehlt sie, gilt die erste Materialnennung rechts vor der nächsten Handlung derselben Zeile. Fehlt auch sie, wird die letzte Materialnennung des Absatzes als hypothetischer Rückbezug angegeben. Ungelesene Zwischenformen und implizite Absatzfortführung werden ausnahmslos als offene Abhängigkeiten vermerkt. Die Regel ist ein gemeinsamer Vorschlag für die Ausrichtung, keine entschlüsselte Wortstellung.
+
+R3: Zwei explizite Materialnennungen in derselben Zeile können die binäre Mischfassung besetzen; ein sonst fehlender zweiter Bestandteil wird nicht aus irgendeinem vorherigen Stoff erfunden. Die Materialquelle für nimm bleibt unbekannt. Abseihen benötigt in dieser Fassung einen flüssigen Zusammenhang; feuchtes Material allein bestätigt ihn nicht. Bei qokeor≈erhitze den Auszug muss der Auszug als Patient gebunden sein, sonst bleibt die im Wortwert angenommene Sorte offen.
+
+R4: Die deutsche Prosa darf Artikel, Kopula, Kasus und angenommene Satzverbindungen in Klammern ergänzen. Sie darf weder ungeschriebene Herstellungsschritte noch eine Mischung aller bloß aufgezählten Stoffe als erkannt ausgeben. Die freie Zuordnung von Qualitäten zu Material- oder Mengenfeldern bleibt dort offen, wo sie nicht ausdrücklich im Entwurf genannt wird. ARGUMENTS.tsv prüft Handlungsargumente, nicht die ganze deutsche Syntax oder sämtliche Qualitätsbindungen.
+
+R5 SAME: Wiederholte exakte Materialnamen im selben Absatz können dasselbe Individuum bezeichnen. R5 NEW: jede neue Nennung kann eine andere Portion derselben angenommenen Klasse bezeichnen. Die zwei Operationen nach einer einzigen Materialnennung behalten in beiden Fassungen denselben Patienten. MATERIAL_CHAINS.tsv zeigt sämtliche wiederholten Materialnamen und die Folgen für ihre Handlungen. Keine Identität zwischen verschiedenen Blättern.
+
+A liest ychor als ferner. B ändert nur diesen einen Wert zu nimm und fügt für jede der13Stellen eine Entnahmehandlung mit nach R2 gesuchtem Patienten hinzu. Die übrigen147Wortwerte bleiben in beiden Fassungen gleich. Die bessere sprachliche Formulierbarkeit ist keine empirische Auswahl. Die positionsabhängige Schreibalternative bleibt ungetestet; sie wird nicht durch freies Streichen eines y implementiert.
+
+Alle verzeichneten Ketten sind Folgen dieser Bedeutungs- und Bezugsannahmen. Sie dürfen nicht als unabhängige Bestätigung ihrer eigenen Wörter benutzt werden. Kein Signifikanzwert, keine exportierte Komponentenbedeutung, keine bestätigte Spezies. Die Reserveseiten bleiben bis zu einer nahezu vollständigen plausiblen Gesamtlesung geschlossen; dieser Entwurf erfüllt das nicht.

@@ -1,0 +1,5 @@
+# Interne Darstellungsrevision vor Abschluss
+
+V01 zählte nur MATERIAL als möglichen Handlungsträger. Das widerspricht einigen bereits vollständig ausgeschriebenen Wortannahmen: „Dosis des Grundansatzes“ und „erwärmte Dosis“ bezeichnen in der hypothetischen Lesung selbst Materialportionen. Sieben solche Einträge werden vor Abschluss als MATERIAL_DOSE typisiert. Kein Wortwert ändert sich; isolierte Zahlen und bloße Mengen wie daiin bleiben ohne Stoffbindung. V01-Zählung in ARGUMENT_MODEL_V01_RESULT.json erhalten. Eine dadurch bessere Argumentabdeckung wäre eine Korrektur der Modellrepräsentation, kein neuer Manuskriptbefund.
+
+Der erste f6v-Entwurf, die gemeinsame Bedeutungsliste und alle Originalgruppen bleiben gleich. Fehlende Mischpartner sind offene Anforderungen der binären Mischfassung; „vermischen“ kann sprachlich auch die Homogenisierung einer schon zusammengesetzten Masse meinen. Deshalb keine Widerlegung des Verbs allein aus einem ungenannten zweiten Stoff. Diese unäre Gegenmöglichkeit wird nicht nachträglich als geprüfter Erfolg ausgegeben.
