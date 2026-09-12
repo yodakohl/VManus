@@ -2,7 +2,7 @@
 
 Stand: 12. September 2026. Auftrag: neue mehrstufige Wege zur Bedeutung so ausarbeiten, dass ein folgendes Modell sie ohne erneute Erfindung des Vorgehens bearbeiten kann.
 
-**Hier stehen 30 ausgearbeitete, noch nicht ausgeführte Programme.** Jeder Ansatz verbindet mehrere Annahmen zu einer vollständigen vorläufigen Lesung und nennt eine konkurrierende Erklärung. Die ersten zehn entwickeln unterschiedliche mögliche Inhalte; die übrigen zwanzig entwickeln Grammatik, Schriftgebrauch und Begriffsbeziehungen. Sie sind kombinierbar, aber keine 30 unabhängigen Belege. Kein Wort wird durch diese Planung als übersetzt bestätigt.
+**Hier stehen30ausgearbeitete Programme. P09 und P05 besitzen inzwischen erste partielle Lesungen; die übrigen28sind noch nicht ausgeführt.** Aktueller [Arbeitsstand](../research_registry/proposals/translation_programs_20260912/work/PROGRESS.md). Jeder Ansatz verbindet mehrere Annahmen zu einer vollständigen vorläufigen Lesung und nennt eine konkurrierende Erklärung. Die ersten zehn entwickeln unterschiedliche mögliche Inhalte; die übrigen zwanzig entwickeln Grammatik, Schriftgebrauch und Begriffsbeziehungen. Sie sind kombinierbar, aber keine 30 unabhängigen Belege. Kein Wort wird durch diese Planung als übersetzt bestätigt.
 
 ## Direkt anfangen
 
@@ -146,7 +146,6 @@ Die ausgeschlossenen festen Regeln von GDT888/913, GDT887, GDT904–906 und ande
 
 | ID | Programm | Einstieg | Priorität |
 |---|---|---|---|
-
 | [P01](#p01) | Differentialdiagnose: ähnliche Befunde, verschiedene Behandlungen | HERB4 | Alternative |
 | [P02](#p02) | Verlaufsfälle: ein Gegenstand durch mehrere Zustände | HERB4 | Alternative |
 | [P03](#p03) | Therapeutisches Rezeptbuch: Anlass, Durchführung und Anwendung trennen | HERB4 | Alternative |
@@ -340,7 +339,7 @@ Registry: `IDEA000147` · Status: ungetestete Hypothese.
 
 ### P05 — Herstellungsprotokoll mit Zwischenprodukten und Qualitätskontrolle
 
-Registry: `IDEA000148` · Status: ungetestete Hypothese.
+Registry: `IDEA000148` · Status: explorative partielle Lesung; [Arbeitsbericht](../research_registry/proposals/translation_programs_20260912/work/P05/REPORT.md). Keine bestätigte Bedeutung.
 
 **Start:** HERB4: zuerst f29v.1–4 und f32v.7–11; die beiden übrigen Absätze sind spätere interne Gegenfälle, keine blinden Tests.
 
@@ -496,7 +495,7 @@ Registry: `IDEA000151` · Status: ungetestete Hypothese.
 
 ### P09 — Vergleichende Materia medica: Eigenschaften, Nutzen, Schaden und Ausgleich
 
-Registry: `IDEA000152` · Status: ungetestete Hypothese.
+Registry: `IDEA000152` · Status: explorative partielle Lesung; [Arbeitsbericht](../research_registry/proposals/translation_programs_20260912/work/P09/REPORT.md). Keine bestätigte Bedeutung.
 
 **Start:** HERB4: sämtliche vier Absätze; als erstes f17r.4–6 wortweise ausarbeiten, das Wörterbuch an allen vier Einträgen mitführen.
 
