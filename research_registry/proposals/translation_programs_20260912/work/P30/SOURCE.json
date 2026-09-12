@@ -1,0 +1,68 @@
+[
+  {
+    "source": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+    "sha256": "13e4cc2f4373948c2772991f608d8f3b442cdf501b7fc685519dc6830f2f5216",
+    "projection": "PROSE.tsv",
+    "projection_sha256": "7518549c683c7470864fefa864c8b318a8541e5b9938a90156d1ef535becb99b",
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f77r",
+      "--allow",
+      "f82r",
+      "--allow",
+      "f83r",
+      "--columns",
+      "page,panel_id,record_id,locus,zl3b_line"
+    ],
+    "guard_stats": "GUARD_STATS {\"selected\": 123, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 0}"
+  },
+  {
+    "source": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_10_PANEL_SUMMARY.tsv",
+    "sha256": "17c2b81168b1d452b8261296459fd3a153ab301d3cd2c1a949546068a4a20279",
+    "projection": "PANELS.tsv",
+    "projection_sha256": "d6376619679f93178f3e7e0832f6b04b9d250d1bf5a96912e3d27d1d6626435c",
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_10_PANEL_SUMMARY.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f77r",
+      "--allow",
+      "f82r",
+      "--allow",
+      "f83r",
+      "--columns",
+      "page,panel_id,owner_display_de,record_ids,prose_token_count"
+    ],
+    "guard_stats": "GUARD_STATS {\"selected\": 10, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 0}"
+  },
+  {
+    "source": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_3_IMAGE_SOURCES.tsv",
+    "sha256": "c29c9e6f8a951eabba2d22b443d3e078d8ca29912cc154a30f7ed2a63c38215b",
+    "projection": "IMAGES.tsv",
+    "projection_sha256": "f9231b3d1b99c7750bee664998b31d44e3501a20d21952de0ae22474c516bddc",
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_3_IMAGE_SOURCES.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f77r",
+      "--allow",
+      "f82r",
+      "--allow",
+      "f83r",
+      "--columns",
+      "page,object_id,image_url,width_px,height_px,review_sha256,review_date,provider"
+    ],
+    "guard_stats": "GUARD_STATS {\"selected\": 3, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 0}"
+  }
+]
