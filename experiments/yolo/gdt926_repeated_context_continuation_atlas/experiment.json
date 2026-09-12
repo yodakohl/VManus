@@ -1,0 +1,164 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exposed written-context inventory; no meaning, causal equivalence, significance or independent confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt926_repeated_context_continuation_atlas/src/run.py",
+    "validate": "python3 experiments/yolo/gdt926_repeated_context_continuation_atlas/src/validate.py"
+  },
+  "created": "2026-09-12",
+  "dependencies": [
+    "GDT915"
+  ],
+  "experiment_id": "GDT926",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/CANDIDATE_TABLE.md",
+      "role": "source_or_compact_result",
+      "sha256": "5153972047d1826d54815e76cc15d84d260ca62442b83f3230271684ba5540f8"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/METHOD.md",
+      "role": "source_or_compact_result",
+      "sha256": "6d166812003ec3df729a1ed1eee4e1aa5d9b6e96928f34122d77e65d331566e2"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/PREREGISTRATION.md",
+      "role": "source_or_compact_result",
+      "sha256": "41e39d31a4c14c85a8a2513881453b21f6b89f9ae620afa25e01ab09b081c967"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/PREREG_LOCK.json",
+      "role": "source_or_compact_result",
+      "sha256": "fba6f1a74a16198e9ccb6f8bd2645de94bd98a98238e19524370497c9ff48ad2"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "4be08920eee23fd4d9453fe31c28fb9816f1841a146163bdac1d1d6e3ef28feb"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/REPORT.md",
+      "role": "primary_report",
+      "sha256": "675a8a0d79952f7711a7ac80211ec8f40ba59d7d21830c455abed72f33c7fb72"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/REVIEW.json",
+      "role": "source_or_compact_result",
+      "sha256": "f4e0d6b427213c9c22f50362f2b8177419faaebd100bb8b93ae8dd30b15b112a"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/ALTERNATE_AUDIT.json",
+      "role": "source_or_compact_result",
+      "sha256": "627e5e0737ee33ac73c33f886355e51f76c0c3bfeaa6b1bde9da188c9b423694"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/CANDIDATES_IT2a.json",
+      "role": "source_or_compact_result",
+      "sha256": "1e87c0f7a53853d0f584d8bf5d5412c3003d0413614ab1232e7eab65aea790fd"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/CANDIDATES_RF1b.json",
+      "role": "source_or_compact_result",
+      "sha256": "f40bc6d01d2e405baffafd780832c2efb46ecfedbd5d0dfb23b0d4ca6ce27bbb"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/CANDIDATES_ZL3b.json",
+      "role": "source_or_compact_result",
+      "sha256": "078ab7de7003ef7257d1d961c84be1451cd1a113db2ad47cfaf5e265d0b504b7"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/CANDIDATE_INDEX.tsv",
+      "role": "source_or_compact_result",
+      "sha256": "db05c73f8e47a86536b88cc6c28de764310e1cf2d3ef2051c64085f6b67e1b8f"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/ELIGIBLE_LINES.json",
+      "role": "source_or_compact_result",
+      "sha256": "1eb19834eb57609d0134a5e43cda0ed70ae1b1595964068a4f0ba2c5251f633d"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "22f8efd745f50a1c5fecaf6eb8032ed7e474825a27b0ec6990fcb10e65dd08f2"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "58c0e21352eefd7546b646cc949b90ebace77cb73ea8f78ca4b8839843262f42"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/TOP_CONTEXTS.json",
+      "role": "source_or_compact_result",
+      "sha256": "13ecbce2000080e9b83d16e7cc1b91e4d2147f466924b3eab8f75fb3d22dcef8"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "76f12472b340b6363f6c112c6e9ff8e6df1851a64dcb19f674d37960aa4c8c99"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/src/run.py",
+      "role": "source_or_compact_result",
+      "sha256": "8045682a2a1870e9728274419139179cc0be6928393aa909394fc5f99c0277f9"
+    },
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/src/validate.py",
+      "role": "source_or_compact_result",
+      "sha256": "0ff4c48f00b89d565d9d997c465f024bc16c281582cff38e041a71fbd263cb0e"
+    }
+  ],
+  "question": "Which literal contexts of at least three words recur across admitted leaves with different written continuations, and which have replicated branches?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "repeated_context_continuation_atlas",
+  "status": "COMPLETE_EXPOSED_CONTEXT_INVENTORY",
+  "title": "repeated context continuation atlas",
+  "updated": "2026-09-12",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/VALIDATION.json"
+  }
+}

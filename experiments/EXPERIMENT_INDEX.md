@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **924**
-- Experiment-associated tracked files: **17,553** (1.6 GiB)
-- Structured GDT337+ experiments: **589**
+- Experiments indexed: **925**
+- Experiment-associated tracked files: **17,573** (1.6 GiB)
+- Structured GDT337+ experiments: **590**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT926 | GDT926 | `COMPLETE_EXPOSED_CONTEXT_INVENTORY` | [report](../experiments/yolo/gdt926_repeated_context_continuation_atlas/REPORT.md) | 20 | 2.3 MiB | 1 | STRUCTURED_YOLO |
 | GDT925 | GDT925_whole_line_word_multiset_discovery | `COMPLETE_EXPLORATORY_CENSUS` | [report](../experiments/yolo/gdt925_whole_line_word_multiset_discovery/REPORT.md) | 14 | 110.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT924 | GDT924_f106v_fixed_candidate_native_audit_final | `NATIVE_INPUT_UNRESOLVED` | [report](../experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md) | 24 | 6.1 MiB | 1 | STRUCTURED_YOLO |
 | GDT923 | GDT923_fixed_word_key_even_paragraph_compatibility_final | `NO_INFORMATIVE_COMPATIBILITY` | [report](../experiments/yolo/gdt923_fixed_word_key_even_paragraph_compatibility/REPORT.md) | 27 | 12.0 MiB | 3 | STRUCTURED_YOLO |
