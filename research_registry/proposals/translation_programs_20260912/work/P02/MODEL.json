@@ -1,0 +1,79 @@
+{
+  "nouns": {
+    "okaiin": [
+      "A",
+      "Ansatz"
+    ],
+    "cthy": [
+      "B",
+      "Kraut"
+    ],
+    "chor": [
+      "C",
+      "Blüten"
+    ]
+  },
+  "operators": {
+    "shytchy": [
+      "benetze",
+      "RIGHT",
+      "moisture",
+      "WET"
+    ],
+    "otshy": [
+      "kühle",
+      "RIGHT",
+      "temperature",
+      "COLD"
+    ],
+    "shot": [
+      "erwärme",
+      "LEFT",
+      "temperature",
+      "HOT"
+    ],
+    "qotchy": [
+      "zerkleinere",
+      "LEFT",
+      "texture",
+      "GROUND"
+    ],
+    "cpho": [
+      "zerstoße",
+      "LEFT",
+      "texture",
+      "GROUND"
+    ],
+    "cphos": [
+      "zerreibe",
+      "LEFT",
+      "texture",
+      "GROUND"
+    ]
+  },
+  "assertions": {
+    "chol": {
+      "moisture": "DRY"
+    },
+    "shol": {
+      "moisture": "WET"
+    },
+    "shy": {
+      "moisture": "WET"
+    },
+    "oltchy": {
+      "temperature": "COLD",
+      "moisture": "DRY"
+    }
+  },
+  "CARRY": "same local instance for each whole noun",
+  "NEW": "fresh instance only on each okaiin; cthy/chor stable",
+  "axes": [
+    "moisture",
+    "temperature",
+    "texture"
+  ],
+  "time": "source order; forward operation applied at target mention, source retained",
+  "assertion_conflict": "retain predicted state, do not overwrite contradiction",
+  "unknown_groups": "preserved, no simulated state effects claimed"
+}
