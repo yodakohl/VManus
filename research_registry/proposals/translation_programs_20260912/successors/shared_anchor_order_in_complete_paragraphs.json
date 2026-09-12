@@ -1,0 +1,31 @@
+{
+  "title": "Reihenfolge mehrerer gemeinsamer Wortkontexte in vollständigen Absätzen",
+  "summary": "RAW_UNSCREENED: Bei Absatzpaaren mit mindestens zwei nicht überlappenden gemeinsamen Mehrwortkontexten die ganze Ankerreihenfolge vergleichen, statt aus einem einzigen gemeinsamen Ausdruck gleiche Aussagefunktion abzuleiten.",
+  "scope": "structural",
+  "design": {
+    "status": "RAW_UNSCREENED",
+    "source_observation": "GDT926 berichtet wiederkehrende wörtliche Mehrwortkontexte in vollständigen P-Zeilen. Ob zwei ganze Absätze mehrere voneinander unabhängige solche Kontexte teilen, ist noch nicht festgestellt.",
+    "mechanism": "Bei Absatzpaaren mit mindestens zwei nicht überlappenden gemeinsamen Mehrwortkontexten die ganze Ankerreihenfolge vergleichen, statt aus einem einzigen gemeinsamen Ausdruck gleiche Aussagefunktion abzuleiten.",
+    "steps": [
+      "Nur den vorhandenen root-Kontextatlas und seine vollständig freigegebenen Absatzprojektionen benutzen.",
+      "Gemeinsame maximale Wortkontexte ermitteln und überlappende Treffer derselben Quellgruppen als eine Belegstelle behandeln.",
+      "Für jedes Absatzpaar alle wiederholten Ankerpositionen und mehrdeutigen Zuordnungen bewahren.",
+      "Prüfen, ob alle möglichen Zuordnungen dieselbe relative Ordnung, eine Umkehr oder keine eindeutige Ordnung ergeben.",
+      "Abweichende vollständige Zwischenpassagen und Absatzenden neben die stabilen Anker stellen.",
+      "Ein rein wörtliches Absatzgerüst mit sämtlichen Variationen ausgeben; keinen semantischen Schritt und keine Kopiergenealogie daraus behaupten."
+    ],
+    "discriminator": "Zwei unabhängige gemeinsame Kontexte können eine gemeinsame grobe Textordnung stützen oder eine Umstellung zeigen. Nur ein gemeinsamer Kontext oder ausschließlich überlappende Treffer liefert diese Kapazität nicht.",
+    "nearest_predecessors": [
+      "GDT926",
+      "GDT925 komplette Zeilenmultimengen",
+      "IP017 gekoppelte Kopiervarianten",
+      "IP081 Gegenreihenfolge"
+    ],
+    "risk": "Keine neue Schwellenabsenkung bei fehlenden Paaren. Keine Codewerte, edit-distance Ersetzungen oder gekürzten Manuskripttexte. Absatzgerüst ist noch keine Grammatik oder Übersetzung.",
+    "source_paths": [
+      "experiments/yolo/gdt926_repeated_context_continuation_atlas/REPORT.md",
+      "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md"
+    ],
+    "limits": "Keine neue Datenöffnung, keine gehaltenen Seiten, keine Kontakte oder root-Änderungen. Keine Glossen. Auswahl erst nach Primär-/Kapazitätsprüfung. Die vorliegenden Angaben sind Vorschläge, keine ausgeführten Resultate."
+  }
+}
