@@ -1,0 +1,129 @@
+{
+  "hypothetical_only": true,
+  "materials": {
+    "tcho": "Pflanzenmaterial",
+    "cthy": "Kraut",
+    "chor": "Blüten",
+    "shor": "Früchte",
+    "cthey": "Arzneiform A",
+    "qody": "fertige Zubereitung",
+    "okaiin": "Ansatz",
+    "tshaiin": "Flüssigauszug",
+    "chy": "Wasser",
+    "qotaiin": "abgeteilte Portion",
+    "qotchol": "Trockenmaterial",
+    "otchol": "Trockenmaterial",
+    "ctho": "Pflanzenpulver",
+    "shan": "Feinanteil",
+    "chocthy": "Pflanzenmark",
+    "cthaiin": "Pflanzenportion",
+    "keol": "Öl",
+    "cthol": "Trockenmaterial",
+    "kooiin": "Wurzelmaterial",
+    "qotcheaiin": "Feinpulver",
+    "cthold": "Pflanzenrückstand",
+    "ytchor": "zerkleinerte Blüten",
+    "odaiin": "Zusatzportion"
+  },
+  "locations": {
+    "cfhy": "Filterstelle",
+    "taiin": "Auffanggefäß",
+    "kor": "Mörser",
+    "cho": "Inneres"
+  },
+  "other": {
+    "ol": "auch",
+    "s": "und",
+    "daiin": "Maß Γ",
+    "dain": "Maß Β",
+    "dair": "Anteil Β",
+    "dary": "Teilmenge",
+    "shy": "feucht",
+    "otshy": "kalt-feucht",
+    "oltchy": "kalt-trocken"
+  },
+  "predicates": {
+    "chol": {
+      "D0": "ist trocken",
+      "I0": "trockne",
+      "D_roles": [
+        "bearer"
+      ],
+      "I_roles": [
+        "agent",
+        "material"
+      ],
+      "right": null
+    },
+    "shol": {
+      "D0": "ist feucht",
+      "I0": "befeuchte",
+      "D_roles": [
+        "bearer"
+      ],
+      "I_roles": [
+        "agent",
+        "material"
+      ],
+      "right": null
+    },
+    "sho": {
+      "D0": "enthält",
+      "I0": "führe zu",
+      "D_roles": [
+        "bearer",
+        "content"
+      ],
+      "I_roles": [
+        "agent",
+        "material",
+        "recipient"
+      ],
+      "right": "MATERIAL"
+    },
+    "qotchy": {
+      "D0": "befindet sich bei",
+      "I0": "überführe nach",
+      "D_roles": [
+        "material",
+        "location"
+      ],
+      "I_roles": [
+        "agent",
+        "material",
+        "destination"
+      ],
+      "right": "LOCATION"
+    },
+    "shey": {
+      "D0": "ist heiß",
+      "I0": "erwärme",
+      "D_roles": [
+        "bearer"
+      ],
+      "I_roles": [
+        "agent",
+        "material"
+      ],
+      "right": null
+    },
+    "chkaiin": {
+      "D0": "ist gemischt",
+      "I0": "vermische",
+      "D_roles": [
+        "bearer"
+      ],
+      "I_roles": [
+        "agent",
+        "material"
+      ],
+      "right": null
+    }
+  },
+  "identity": "each unclaimed noun mention introduces a mention-ID; repeated spelling is not automatic object identity",
+  "topic": "latest unclaimed material mention inside paragraph; no lookahead or cross-page inheritance",
+  "right_argument": "immediately next whole group inside paragraph; claimed once and not promoted to topic",
+  "agent": "one implicit addressee per paragraph, shared by all I0 predicates",
+  "D1": "same descriptive values and argument alignment as D0; assume nondecreasing time across every paragraph assertion, equal states may share time; no imperative established",
+  "initial_location": "audit only; nearest preceding place does not prove containment or transfer origin"
+}
