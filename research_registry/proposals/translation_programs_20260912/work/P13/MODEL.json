@@ -1,0 +1,46 @@
+{
+  "materials": {
+    "tcho": "Pflanzenmaterial",
+    "cthy": "Kraut",
+    "chor": "Blüten",
+    "shor": "Früchte",
+    "cthey": "Arzneiform A",
+    "qody": "fertige Zubereitung",
+    "okaiin": "Ansatz",
+    "tshaiin": "Flüssigauszug",
+    "chy": "Wasser",
+    "qotaiin": "abgeteilte Portion",
+    "qotchol": "Trockenmaterial",
+    "otchol": "Trockenmaterial",
+    "ctho": "Pflanzenpulver",
+    "shan": "Feinanteil",
+    "chocthy": "Pflanzenmark",
+    "cthaiin": "Pflanzenportion",
+    "keol": "Öl",
+    "cthol": "Trockenmaterial",
+    "kooiin": "Wurzelmaterial",
+    "qotcheaiin": "Feinpulver",
+    "cthold": "Pflanzenrückstand",
+    "ytchor": "zerkleinerte Blüten",
+    "odaiin": "Zusatzportion"
+  },
+  "targets": {
+    "chor": {
+      "raw": "unbearbeitetes Blütenmaterial",
+      "processed": "Blütenzubereitung",
+      "neutral": "Blütenmaterial"
+    },
+    "cthy": {
+      "raw": "unbearbeitetes Kraut",
+      "processed": "Krautzubereitung",
+      "neutral": "Krautmaterial"
+    }
+  },
+  "verbs": {
+    "sho": "vermische",
+    "qotchy": "zerkleinere"
+  },
+  "trigger": "preceding sho or qotchy within record",
+  "identity": "same whole within record",
+  "completion": "after explicit argument, not at earlier verb"
+}
