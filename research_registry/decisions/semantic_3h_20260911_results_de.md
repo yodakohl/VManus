@@ -1,7 +1,9 @@
 # Ergebnisse des Forschungsfensters am 11. September 2026
 
 Angefordertes Arbeitsfenster: 14:27:58–17:27:58 UTC (16:27:58–19:27:58 Wien).
-Abschlusszeit wird im Sitzungsprotokoll festgehalten. **Bestätigte Übersetzungen: 0.**
+Letzte beobachtete aktive Uhrzeit am 11. September: 17:27:41 UTC. Fortsetzung
+am 12. September ab 10:19:42 UTC; die Nachtpause zählt nicht als Forschungszeit.
+**Bestätigte Übersetzungen: 0.**
 
 ## Zwei konkrete Ergebnisse, die erhalten bleiben
 
@@ -107,3 +109,13 @@ beibehalten, die negativen Konsequenzen nicht umdeuten, **keinen Wortwert als
 Selektoren, eine Bildzulassung verbleibt. Der separate globale Repository-Check behält seine
 acht bekannten GDT600/Index-Fehlergruppen; die Aufgabenprüfungen für die
 veröffentlichten Änderungen bestanden.
+
+## Fortsetzung am 12. September
+
+Die zusätzliche begrenzte Prüfung möglicher Folgeansätze ergab keinen neuen
+ausführbaren Bedeutungstest. Geprüft wurden Verbotsformen, erklärende Fremdwörter,
+kalibrierte Mengen, die senkrechte Zeichenfolge auf f76r und arithmetische
+Beziehungen. Es kam kein neuer unabhängiger Bedeutungsunterschied hinzu.
+Das ist eine Prüfung vorhandener Ansätze, kein neues Manuskriptergebnis und
+keine Behauptung, alle denkbaren Lösungen ausgeschöpft zu haben. GDT925 wurde
+nicht angelegt; die veröffentlichten Versuche bleiben unverändert.

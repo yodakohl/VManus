@@ -37,3 +37,25 @@ GDT922 complete: exactadjacentchR/shR orderoutsideor/ol notestablished, ZL7forwa
 GDT923 complete: fixed89326key on all268even eligible paragraph/readings. RFhasno informativecompatible case and lacks informativebaseline-positivecapacity; loneRFchedy=et case permits250writtenplaintexts. OneZL17wordwindow surviveswithlchedy=sed,qokeey=deand15unknowns. FullindependentreplayPASS; candidate retained withoutmeaning/keyextension orsourceidentity. No automaticfollowon.
 
 GDT924: finalnativeauditofactual923candidate, newf106vadmission49keys55selectors1remaining. Bothreaderslocalize11+6groups;6jointMATCH11unresolved0contradictions. qokeeymatchesbutlchedyunresolved; no complete nativeconfirmation ormeaning. Fullfrozenpackets/cropspublished; no adjustedtranscription or923key.
+
+## Continuation on 2026-09-12
+
+The last observed active clock on September11 was17:27:41UTC, seventeen
+seconds before the requested deadline. Work resumed at10:19:42UTC on September12
+after user continuation. The overnight gap is not research time. The ten
+completed experiments above were already published; none is reopened here.
+
+A bounded successor review considered prohibition (IDEA000043), foreign-form
+explanation (IP070), calibrated units (IDEA000049), the f76r vertical sequence
+(F76V001), and arithmetic (IDEA000110/GDT880/GDT909). The first three still lack
+a concrete independently documented manuscript contrast. The vertical sequence
+has an existing nonconfirming ordinary-word test; an acrostic interpretation
+has no fixed corresponding text. Arithmetic review supplies neither new
+immediate triples nor a new complete-template discriminator. These are review
+stops, not new experimental refutations. No GDT925 was selected, no new image
+or sealed content was opened, and no decoder or key was changed.
+
+The fixed26-key fully mapped-fragment idea was also not selected: clipped
+fragments and source-guided Latin fluency would not independently establish
+a meaning or repair GDT923's limited informative capacity. GDT924's eleven
+unresolved readings remain unresolved. Confirmed word meanings remain zero.
