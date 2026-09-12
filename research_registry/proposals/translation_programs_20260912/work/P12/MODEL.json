@@ -1,0 +1,32 @@
+{
+  "hypothetical_only": true,
+  "names": {
+    "shedy": {
+      "slot": "A",
+      "meaning": "Flüssigkeit",
+      "type": "MATERIAL"
+    },
+    "qokaiin": {
+      "slot": "B",
+      "meaning": "Gefäß",
+      "type": "CONTAINER"
+    },
+    "lchedy": {
+      "slot": "C",
+      "meaning": "Zusatzstoff",
+      "type": "MATERIAL"
+    }
+  },
+  "actions": {
+    "chedy": "erwärme",
+    "qokeedy": "fülle ein"
+  },
+  "L0": "last explicitly mentioned A/B/C",
+  "L1": "last explicitly mentioned A/C; B only updates destination",
+  "T0": "first explicitly mentioned A/C remains topic through record end",
+  "identity_REUSE": "repeated whole form reuses one local candidate; not observed individual identity",
+  "identity_FRESH": "each mention introduces a new instance of the same type",
+  "reset": "every record, including embedded Q1/Q2; no lookahead, image default or inherited argument",
+  "destination": "most recent explicit B in record; remains missing before first mention",
+  "unknown_groups": "conserved open; cannot change memory in this limited model, not claimed semantically empty"
+}

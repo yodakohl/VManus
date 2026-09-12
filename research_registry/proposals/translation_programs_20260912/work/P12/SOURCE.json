@@ -1,0 +1,18 @@
+{
+  "source": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+  "sha256": "13e4cc2f4373948c2772991f608d8f3b442cdf501b7fc685519dc6830f2f5216",
+  "projection": "PROSE.tsv",
+  "projection_sha256": "147f2e10c7cca6c3b93f9358498e01089efc28eb11ecba786f335103c928beb8",
+  "command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+    "--selector",
+    "page",
+    "--allow",
+    "f83r",
+    "--columns",
+    "page,panel_id,record_id,locus,zl3b_line"
+  ],
+  "guard_stats": "GUARD_STATS {\"selected\": 51, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 72}"
+}
