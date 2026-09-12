@@ -1,0 +1,10 @@
+{
+  "for_any_chosen_head": "if at least two distinct class words occur, at least one differs from chosen head; if all equal, no chosen head has a differing feature",
+  "equivalent_rule": [
+    "distinct_classes>=2 => REJECT",
+    "distinct_classes==1 and mentions>=2 and latest_quality==chol => ACCEPT",
+    "otherwise UNKNOWN"
+  ],
+  "consequence": "No choice of claimed head among prefix class mentions changes output. More examples with this same rule alone cannot identify direction.",
+  "limits": "Only fixed S10 any-different rule and shared quality binding; role-sensitive rules or independently read relational markers are different tests."
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Wiederkehrender Behandlungsplan statt Arbeitsgänge an einem Ansatz",
+  "summary": "RAW_UNSCREENED: Eine ganze Anweisung als mehrere zeitlich getrennte Anwendungen am selben Patienten ausarbeiten; gegenüber wiederholtem Bearbeiten desselben Materials.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNSCREENED",
+    "source_observation": "f83r.7 qoteedy qoteedy und .20 qoteedy sowie wiederholte Teilnehmerformen im vollständigen Blatt. P15/S04 entwickelten Wiederholung beziehungsweise Schleifen; kein Zeitintervall oder Patient ist identifiziert.",
+    "mechanism": "Eine ganze Anweisung als mehrere zeitlich getrennte Anwendungen am selben Patienten ausarbeiten; gegenüber wiederholtem Bearbeiten desselben Materials.",
+    "steps": [
+      "Das gesamte exponierte f83r unverändert ausrichten.",
+      "Patienten, verabreichte Mittel und Verfahrensmaterialien als getrennte hypothetische Rollen definieren.",
+      "Für jede Wiederholung Zeitpunkt, Anwendung und Adressat festhalten; unbekannte Abstände symbolisch offen lassen.",
+      "Einen festen Zeit-/Häufigkeitsvertrag kapitelweit anwenden, ohne zwei benachbarte Gruppen automatisch zu zwei Tagen zu machen.",
+      "Prüfen, ob wiederkehrende Patientennennungen denselben Behandlungsplan fortsetzen oder neue Fälle eröffnen; zusätzliche Portionen ausdrücklich bilanzieren.",
+      "Alle vollständigen Planlesungen mit dem Herstellungsrivalen vergleichen und sämtliche ungeschriebenen Termine, Dosen und Patienten anzeigen."
+    ],
+    "discriminator": "Ein weiterer Anwendungstermin benötigt eine verfügbare neue Gabe, aber keinen neuen Patienten. Eine Materialbearbeitung braucht dagegen keinen fortbestehenden Behandlungsadressaten. Ohne geschriebene Zeit- und Patientenbindung bleiben beide Modelle unentschieden.",
+    "nearest_predecessors": [
+      "P03 therapeutische Anwendung",
+      "P15 Ereignisfolge",
+      "S04 Wiederholungsschleife"
+    ],
+    "risk": "Keine konkreten Dosierungen oder therapeutischen Empfehlungen; eine Terminliste ist nicht aus bloßer Tokenwiederholung nachgewiesen. Kein nachträglich frei eingesetzter Tagesmarker.",
+    "source": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+    "limits": "Nur bereits exponiertes f83r. Keine neuen/gehaltenen Seiten oder Kontakte, keine Änderung bestehender Wortwerte. Keine Bedeutungen bestätigt;90Minuten erster Arbeitsblock ohne Gesamt-Abbruchlimit."
+  }
+}
