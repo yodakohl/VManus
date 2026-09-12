@@ -1,6 +1,6 @@
 # Schrittweise Ausführung der30Programme
 
-Stand:2026-09-12. Die fünf zuerst priorisierten Programme sowie P11 und P12 besitzen konkrete, noch partielle Lesungsfassungen. Keines wird als bestätigte Übersetzung oder vollständig abgeschlossene Gesamtlesung ausgegeben; die übrigen23Programme sind nicht ausgeführt.
+Stand:2026-09-12. Die fünf zuerst priorisierten Programme sowie P11, P12 und P15 besitzen konkrete, noch partielle Lesungsfassungen. Keines wird als bestätigte Übersetzung oder vollständig abgeschlossene Gesamtlesung ausgegeben; die übrigen22Programme sind nicht ausgeführt.
 
 | Programm | Tatsächlich ausgearbeitet | Aktueller Stand |
 |---|---|---|
@@ -13,7 +13,9 @@ Stand:2026-09-12. Die fünf zuerst priorisierten Programme sowie P11 und P12 bes
 
 | [P12](P12/REPORT.md) | Ganze f83r-Seite,341Gruppen; drei Referenzregeln und zwei Identitätsannahmen; alle20Handlungen vollständig verglichen. | Fünf Wortannahmen an50Positionen,291offen. Stoff-/Gefäßtrennung vermeidet eine Selbstbefüllung; L1/T0 bleiben an sechs beziehungsweise14Bezügen verschieden. Keine Anapher bestätigt. |
 
-Nach der Fünferfolge wurden P11 und P12 ausgearbeitet. Nächster eigenständiger Ansatz ist P15: Verlauf, Ergebnis und wiederholte Handlung. P12 lässt zuletzt genannten Stoff versus dauerhaftes Thema sowie dieselbe Substanz versus neue Portion offen. In P11 ersetzt ein gebundenes Inhalts-/Ortsargument nicht zugleich das Materialthema; tatsächliche Referentenidentität bleibt offen. Die ganze Grammatik und alle Glossen bleiben Hypothesen. P28 lässt ein gemeinsames Register oder Klassenbezeichnungen offen, P30 eine Differenz- oder Beschreibungssprache. Am offenen P05-Kandidaten bleiben Stoffidentität und Zeitführung ungeklärt, besonders frühe Benetzung versus spätere Trockenheit und Eingabe/Ausgabe beider Siebvorgänge. Die späteren Programme bestätigen ihn nicht. Keine Reserveseitenprüfung vor einer nahezu vollständigen plausiblen Gesamtlesung. f84/f84r geschlossen, keine Kontakte, keine neuen Seiten.
+| [P15](P15/REPORT.md) | Ganze f83r-Seite; acht Ganzwortannahmen an72von341Positionen; zwei vollständige Zeitfassungen und42Zeit-/Handlungsstellen je Fassung. | R ermöglicht zwei bedingte Zustand→Erwärmung-Bezüge. Keine der fünf erneut-Stellen hat einen vollständig gebundenen früheren Durchgang;269Gruppen offen. |
+
+Nach der Fünferfolge wurden P11, P12 und P15 ausgearbeitet. Nächster Kandidat zur Auswahlprüfung ist P25: Begriffserklärung versus Zutatenliste. P15 behält die Ergebnisdarstellung R als Hypothese, übernimmt aber das acht Wörter umfassende Modell wegen seiner offenen und widersprechenden Zeitbezüge nicht als Gesamtlesung. P12 lässt zuletzt genannten Stoff versus dauerhaftes Thema sowie dieselbe Substanz versus neue Portion offen. In P11 ersetzt ein gebundenes Inhalts-/Ortsargument nicht zugleich das Materialthema; tatsächliche Referentenidentität bleibt offen. Die ganze Grammatik und alle Glossen bleiben Hypothesen. P28 lässt ein gemeinsames Register oder Klassenbezeichnungen offen, P30 eine Differenz- oder Beschreibungssprache. Am offenen P05-Kandidaten bleiben Stoffidentität und Zeitführung ungeklärt, besonders frühe Benetzung versus spätere Trockenheit und Eingabe/Ausgabe beider Siebvorgänge. Die späteren Programme bestätigen ihn nicht. Keine Reserveseitenprüfung vor einer nahezu vollständigen plausiblen Gesamtlesung. f84/f84r geschlossen, keine Kontakte, keine neuen Seiten.
 
 Lesungswerte, Ursprungstabellen, Korrekturen, Gegenfassungen und alle unaufgelösten Gruppen sind verlinkt. Ein dokumentierter Fehler in der P05-Fortsetzungsprosa (ol/olaiin sowie shey/sheey) wurde in FOLLOWUP_v02 korrigiert; die ursprünglich korrekten Tabellen und52Wortwerte blieben gleich. Keine nachträgliche Glättung des früheren Entwurfs.
 
