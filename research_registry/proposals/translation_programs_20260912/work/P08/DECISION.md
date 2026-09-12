@@ -1,0 +1,17 @@
+# P08 — gemeinsamer Relationssinn gegen getrennte Fachwörter
+
+2026-09-12, vor dem Lauf. Beginn bei f32v.7–11 und f83r.P1; verpflichtender Umfang dieses Durchgangs sind alle vier HERB4-Absätze und alle sieben f83r-Records, 486 Gruppen. Schon exponierte begrenzte Projektionen aus P11 und P12. Die Erweiterung auf HERB4 nimmt auch die dortigen shey-Stellen auf; f32v allein enthält kein shey. Keine Reserven, f84/f84r geschlossen.
+
+GDT809 gibt keine bestätigten Wörter; GDT790s Panelnamen keine Körperidentifikationen. P27 verglich bereits zwei Begriffswelten mit ol/sho/chedy/qokeedy und Ergebnisfortführung. Hier werden andere ganze Relationsformen, daiin und shey, und eine explizite Alternative mit domänenspezifisch verschiedenen Relationen ausgeführt. Keine Wiederholung des P27-Tests als neuer Fund. Ein Analogieschema allein beweist keine Lehrabsicht.
+
+Gemeinsame Fassung A: daiin=speist, shey=enthält. Beide sind gerichtete Zweierbeziehungen links→rechts; kein Vorgang wechselt beim Domänenwechsel seine Teilnehmerzahl oder Richtung. Getrennte Fassung D: im Pflanzenkapitel daiin=ist Teil von, shey=bedeckt; im Körperkapitel weiterhin speist/enthält. D braucht vier statt zwei domänengebundene Relationskarten, aber nicht mehr Bindungsregeln. Diese Kosten sind keine Wahrscheinlichkeit oder Evidenz.
+
+Explizite Dingkarten H: tcho Pflanze, cthy Blatt, chor Blüte, shor Frucht, ctho Stängel, chocthy Mark, cthaiin Knospe, otchol Wurzel, qotchol Wurzelgewebe, shan Samen, keol Fruchtfleisch, cthol Rinde, okaiin Hohlraum. B: qokaiin Hohlorgan, lchedy Gewebe, shedy Blut, qokeey Flüssigkeit. Domänentitel und Anatomiewerte sind Hypothesen; keine Bilder beweisen sie. Andere Ganzformen bleiben offen; insbesondere sheey ist NICHT shey. Keine Substringzerlegung.
+
+Bindung unabhängig vom Relationssinn: jeweils nächste gewählte Dingform links und rechts vor der nächsten daiin-/shey-Stelle oder Recordgrenze. Keine Fortführung über eine Relationsstelle ohne geschriebenes Nomen. Dasselbe Nomenvorkommen darf rechts und danach links verwendet werden; dies erzeugt eine explizite Zweierkette. Gleiche Wortform im selben Record wird als gleicher Gegenstand angenommen; verschiedene Records haben keine gemeinsame Identität. Nicht benutzte Nomen und alle offenen Zwischenwörter bleiben sichtbar.
+
+Alle Relationen werden ausgegeben: beide Rollen, ungelesene Zwischenwörter, geteilte Teilnehmer, Selbstbezüge. Striktes Teil-von und enthält verlangen in dieser Fassung verschiedene Objekte und einen kreisfreien Graphen; speist und bedeckt erhalten Selbstbezüge als inhaltliche Erklärungsprobleme, nicht als vorab ausgeschlossene Tatsachen. Keine freie Umbenennung zu verschiedenen Portionen zum Retten eines Selbstbezugs.
+
+Konkrete Entscheidung: Gibt es in beiden Domänen vollständige gerichtete Relationen und vollständige Zweierschritte mit derselben Rollenstruktur? Welche zusätzliche Behauptung macht A gegenüber D am gleichen Text? Ohne unabhängige Teilnehmer- und Bedeutungsbindung ist dies nur eine konkrete Hypothese. Vollständige Einzelkanten sind keine vollständige Lehranalogie, gleiche Form keine unabhängige Bestätigung. Keine scorefähigen Relationsbelege oder Signifikanzbehauptung; GDT388-Gates werden nicht durch einen Hypothesenreader ersetzt.
+
+Budget25Minuten einschließlich Prüfung/Publikation. Zwei vollständige Kapitel pro Fassung, Rollen-/Kettentabellen und gemeinsames Schema; kein neuer Decoder, keine neue Bild-/Seitenöffnung, keine Kontakte. Originalversuche unverändert. Keine Reserveprüfung vor nahezu vollständiger plausibler Gesamtlesung.
