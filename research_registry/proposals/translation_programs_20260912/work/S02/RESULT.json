@@ -1,0 +1,176 @@
+{
+  "status": "PARTIAL_VESSEL_INVENTORY_PURE_WITHDRAWAL_CONTRACT_CONFLICTS",
+  "groups_per_reading": 341,
+  "readings": 6,
+  "variants": {
+    "D0": {
+      "hypothetical_positions": 63,
+      "open_positions": 278,
+      "vessels": 1,
+      "fills": {
+        "COMPLETE": 5,
+        "MISSING_MATERIAL": 1
+      },
+      "withdrawals": {
+        "CONFLICT_EMPTY": 3,
+        "MISSING_MATERIAL": 7,
+        "COMPLETE": 1,
+        "CONFLICT_OTHER_COMPONENT": 2
+      },
+      "first_problem": "f83r.4:3",
+      "first_conflict": "f83r.4:3",
+      "final_vessels": {
+        "SHARED": {
+          "components": [
+            "A",
+            "C"
+          ],
+          "unknown": false
+        }
+      }
+    },
+    "D?": {
+      "hypothetical_positions": 63,
+      "open_positions": 278,
+      "vessels": 1,
+      "fills": {
+        "COMPLETE": 5,
+        "MISSING_MATERIAL": 1
+      },
+      "withdrawals": {
+        "UNRESOLVED_INITIAL_CONTENT": 3,
+        "MISSING_MATERIAL": 7,
+        "CONFLICT_OTHER_COMPONENT": 3
+      },
+      "first_problem": "f83r.4:3",
+      "first_conflict": "f83r.11:6",
+      "final_vessels": {
+        "SHARED": {
+          "components": [
+            "A",
+            "C"
+          ],
+          "unknown": true
+        }
+      }
+    },
+    "R0": {
+      "hypothetical_positions": 63,
+      "open_positions": 278,
+      "vessels": 2,
+      "fills": {
+        "COMPLETE": 2,
+        "MISSING_VESSEL": 3,
+        "MISSING_MATERIAL_AND_VESSEL": 1
+      },
+      "withdrawals": {
+        "CONFLICT_EMPTY": 3,
+        "MISSING_MATERIAL": 2,
+        "MISSING_VESSEL": 3,
+        "MISSING_MATERIAL_AND_VESSEL": 5
+      },
+      "first_problem": "f83r.4:3",
+      "first_conflict": "f83r.4:3",
+      "final_vessels": {
+        "F83_P1": {
+          "components": [
+            "A"
+          ],
+          "unknown": false
+        },
+        "F83_P2": {
+          "components": [
+            "A"
+          ],
+          "unknown": false
+        }
+      }
+    },
+    "R?": {
+      "hypothetical_positions": 63,
+      "open_positions": 278,
+      "vessels": 2,
+      "fills": {
+        "COMPLETE": 2,
+        "MISSING_VESSEL": 3,
+        "MISSING_MATERIAL_AND_VESSEL": 1
+      },
+      "withdrawals": {
+        "UNRESOLVED_INITIAL_CONTENT": 3,
+        "MISSING_MATERIAL": 2,
+        "MISSING_VESSEL": 3,
+        "MISSING_MATERIAL_AND_VESSEL": 5
+      },
+      "first_problem": "f83r.4:3",
+      "first_conflict": "NONE",
+      "final_vessels": {
+        "F83_P1": {
+          "components": [
+            "A"
+          ],
+          "unknown": true
+        },
+        "F83_P2": {
+          "components": [
+            "A"
+          ],
+          "unknown": true
+        }
+      }
+    },
+    "E0": {
+      "hypothetical_positions": 67,
+      "open_positions": 274,
+      "vessels": 1,
+      "fills": {
+        "COMPLETE": 5,
+        "MISSING_MATERIAL": 1
+      },
+      "withdrawals": {
+        "CONFLICT_EMPTY": 3,
+        "MISSING_MATERIAL": 7,
+        "COMPLETE": 2,
+        "CONFLICT_OTHER_COMPONENT": 1
+      },
+      "first_problem": "f83r.4:3",
+      "first_conflict": "f83r.4:3",
+      "final_vessels": {
+        "SHARED": {
+          "components": [
+            "A"
+          ],
+          "unknown": false
+        }
+      }
+    },
+    "E?": {
+      "hypothetical_positions": 67,
+      "open_positions": 274,
+      "vessels": 1,
+      "fills": {
+        "COMPLETE": 5,
+        "MISSING_MATERIAL": 1
+      },
+      "withdrawals": {
+        "UNRESOLVED_INITIAL_CONTENT": 1,
+        "MISSING_MATERIAL": 7,
+        "COMPLETE": 2,
+        "CONFLICT_EMPTY": 2,
+        "CONFLICT_OTHER_COMPONENT": 1
+      },
+      "first_problem": "f83r.4:3",
+      "first_conflict": "f83r.11:6",
+      "final_vessels": {
+        "SHARED": {
+          "components": [
+            "A"
+          ],
+          "unknown": false
+        }
+      }
+    }
+  },
+  "confirmed_meanings": 0,
+  "independent_confirmation_capacity": 0,
+  "decision": "No fully evidenced reading; R? unresolved, later conflicts conditional on unapplied failed/unknown actions. No chosen translation"
+}
