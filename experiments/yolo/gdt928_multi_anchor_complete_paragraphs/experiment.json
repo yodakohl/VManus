@@ -1,0 +1,151 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exposed literal structure only; no meaning, significance or independent confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt928_multi_anchor_complete_paragraphs/src/run.py",
+    "validate": "python3 experiments/yolo/gdt928_multi_anchor_complete_paragraphs/src/validate.py"
+  },
+  "created": "2026-09-12",
+  "dependencies": [
+    "GDT915",
+    "GDT926",
+    "GDT927"
+  ],
+  "experiment_id": "GDT928",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "role": "guarded_scope_or_snapshot",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/ALL_MATCHES.md",
+      "role": "source_or_compact_result",
+      "sha256": "24cc88f5d24ed5f6ed2e5517f249509956d39b2b1f2406c02fafd701c1154ee2"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/CANDIDATE_PARAGRAPHS.md",
+      "role": "source_or_compact_result",
+      "sha256": "25f4681c087c167a89a0c175573e0a3a140a86fc9ebfc98fdc4f63fcd64d3433"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/METHOD.md",
+      "role": "source_or_compact_result",
+      "sha256": "92ac466fd125108357d1d1eaac6eebb4ee541c5da66a9d1c88567820dd7dd36f"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/PREREGISTRATION.md",
+      "role": "source_or_compact_result",
+      "sha256": "abcc15fc818a8ae0ac6f42a24eefcdc57dcee8c7caecdc4841623031586b61a0"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/PREREG_LOCK.json",
+      "role": "source_or_compact_result",
+      "sha256": "b8bb305b4930019f0a5b546df4af9ccd85b2cf9ecc54fed511d9ce671f064dac"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "6193d0c6d1fedc418b3f4638aab4b3aacd2ad9070efcb823b47359f08c2b437a"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/REPORT.md",
+      "role": "primary_report",
+      "sha256": "a7da4c4501bac6d4c3b81d1de4695dccaac45eb656266b0bc9c29b116fd85c52"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/REVIEW.json",
+      "role": "source_or_compact_result",
+      "sha256": "158ae912d8129cf0063084bb4365c60138f55d3a0157848c5f1b993f1e56ee61"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PAIRS.json",
+      "role": "source_or_compact_result",
+      "sha256": "4b5e8a4bec4293fa158cb55d63a98987458c8b17b163e77b1fb0a3fdbe5be7d5"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PAIR_INDEX.tsv",
+      "role": "source_or_compact_result",
+      "sha256": "aeec3bd99d43e359dd58637945890de43938812c074974071efd95d287a7a4c0"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "source_or_compact_result",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/README.md",
+      "role": "source_or_compact_result",
+      "sha256": "20eee640408d5c74060ee086fa4a50987d1b51a3f87da8c8182c9fb4deba88ec"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "e7f67c4fb1af6bfc21b444a167ba4d1af2ada5c3459e9b22b51fd87a76470cf2"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "ad21a1e76634239a0842708b89f40fb9aeacd015d2b863e39bd858edbe6295d6"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/src/run.py",
+      "role": "source_or_compact_result",
+      "sha256": "9838c29bc6dbbe57952604b12dd6b009fe55762cd3ede37d2291246207c1c11a"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/src/validate.py",
+      "role": "source_or_compact_result",
+      "sha256": "32463c2b37ee95897b81b2023f0ec8d98dfb4ba6a08c0135ab8dfef3c96c60bc"
+    }
+  ],
+  "question": "Do complete paragraphs on different physical leaves share at least two disjoint exact word sequences?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "multi_anchor_complete_paragraphs",
+  "status": "COMPLETE_EXPOSED_MULTI_ANCHOR_CENSUS",
+  "title": "multi anchor complete paragraphs",
+  "updated": "2026-09-12",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/VALIDATION.json"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Fortsetzungszweige und verfügbarer Zeilenrest im vollständigen Absatz",
+  "summary": "RAW_UNSCREENED: Vor einer inhaltlichen Zweigdeutung prüfen, ob kurze/lange Fortsetzungen desselben wörtlichen Kontexts ausschließlich in verschiedenen Zeilenrest-/Absatzsituationen vorkommen.",
+  "scope": "structural",
+  "design": {
+    "status": "RAW_UNSCREENED",
+    "source_observation": "GDT926 hält ganze P-Zeilen und GDT927 ganze Absätze vor; im dokumentierten f15v/f19r-Kontrast unterscheiden sich kurze und längere Fortsetzung sowie Absatzende. Keine Schreibraumursache ist gezeigt.",
+    "mechanism": "Vor einer inhaltlichen Zweigdeutung prüfen, ob kurze/lange Fortsetzungen desselben wörtlichen Kontexts ausschließlich in verschiedenen Zeilenrest-/Absatzsituationen vorkommen.",
+    "steps": [
+      "Nur bereits freigegebene vollständige Atlasquellen benutzen.",
+      "Für jede exakte Kontextfamilie alle Fortsetzungen und ursprünglichen Zeilen-/Absatzgrenzen festhalten.",
+      "Geschriebene restliche Gruppenanzahl und Zeichenanzahl getrennt messen; keine physische Pixelbreite daraus machen.",
+      "Gleiche Fortsetzungsformen in anderen Kontextfamilien mitführen und echte Enden von Zeilenumbrüchen unterscheiden.",
+      "Familien mit verschiedenen Zweigen unter derselben Grenzsituation gegenüber vollständig konfundierten Familien ausweisen.",
+      "Komplette Kontexte zur späteren Inhaltsarbeit nach verfügbarer Vergleichskapazität ordnen, ohne Zweigen Bedeutungen zu geben."
+    ],
+    "discriminator": "Eine Zweigkontrastierung bei gleicher Grenzsituation trennt Inhalt zumindest von dieser Textgeometrie; vollständig getrennte Grenzsituationen erlauben diese Trennung nicht. Keine Kausalität aus Restlängenkorrelation.",
+    "nearest_predecessors": [
+      "GDT926/927",
+      "GDT907 Zeilennähte",
+      "GDT920 Erstzeilenformen",
+      "IDEA000197 Absatzabschluss"
+    ],
+    "risk": "Zeichen-/Gruppenzahl ist keine native freie Schreibfläche. Keine neuen Bilder, kein automatischer Ersatz kurzer Wörter durch lange Varianten.",
+    "source_paths": [
+      "experiments/yolo/gdt926_repeated_context_continuation_atlas/REPORT.md",
+      "experiments/yolo/gdt927_chor_continuation_full_context_audit/REPORT.md"
+    ],
+    "limits": "Keine neue Datenöffnung, gehaltenen Seiten, Kontakte oder root-Änderungen. Keine Glossen. Die Durchführbarkeit und Abgrenzung ist vor Auswahl noch zu prüfen; Vorschlag, kein Ergebnis."
+  }
+}
