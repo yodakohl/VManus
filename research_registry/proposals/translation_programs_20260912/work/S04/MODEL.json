@@ -1,0 +1,19 @@
+{
+  "common_whole_hypotheses": {
+    "shedy": "Flüssigkeit A",
+    "lchedy": "Zusatzstoff C",
+    "qokaiin": "Gefäß B",
+    "chedy": "erwärme",
+    "qokeedy": "fülle ein",
+    "qokeey": "laufendes Einfüllen",
+    "qokedy": "ist eingefüllt"
+  },
+  "qoteedy": {
+    "N": "ein Einfülldurchgang",
+    "PRE": "prüfe Zielzustand vor Einfüllen",
+    "POST": "fülle einmal ein, dann prüfe Zielzustand"
+  },
+  "guard_source": "previous qokedy same local material/container pair",
+  "body": "qokeedy sets FILLED in one step",
+  "limit": "no written false guard, no multi-iteration test"
+}
