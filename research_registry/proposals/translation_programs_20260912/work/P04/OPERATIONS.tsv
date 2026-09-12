@@ -1,0 +1,22 @@
+scenario	record	locus	kind	subject	target	purpose	selection_related	issues	reading
+S_A	f21r	f21r.9:2	ADD	f21r.9:1	f21r.9:3	MISSING	0	NONE	füge Flüssigauszug zu f21r.9:1 hinzu
+S_A	f32v	f32v.9:1	PURPOSE	f32v.8:9	f32v.9:2	cfhy	0	NONE	für Bindung einer feuchten Masse
+S_A	f32v	f32v.9:3	CHOICE	f32v:choice@f32v.9:3	chocthy	cfhy	1	EFFECT_EQUIVALENCE_UNESTABLISHED	bei vorhandenem Feinpulver A: verwende Feinpulver A; je Maß Γ
+S_A	f32v	f32v.10:1	ADD	f32v:choice@f32v.9:3	f32v.10:2	cfhy	1	NONE	füge Öl zu f32v:choice@f32v.9:3 hinzu
+S_A	f32v	f32v.11:2	ADD	f32v.10:8	f32v.11:3	cfhy	0	NONE	füge Wasser zu f32v.10:8 hinzu
+S_A	f29v	f29v.3:6	PURPOSE	f29v.3:5	f29v.3:7	taiin	0	NONE	für Klärung einer Flüssigkeit
+S_A	f29v	f29v.4:8	ADD	f29v.4:4	f29v.4:9	taiin	0	NONE	füge Ansatz zu f29v.4:4 hinzu
+S_B	f21r	f21r.9:2	ADD	f21r.9:1	f21r.9:3	MISSING	0	NONE	füge Flüssigauszug zu f21r.9:1 hinzu
+S_B	f32v	f32v.9:1	PURPOSE	f32v.8:9	f32v.9:2	cfhy	0	NONE	für Bindung einer feuchten Masse
+S_B	f32v	f32v.9:3	CHOICE	f32v:choice@f32v.9:3	cthaiin	cfhy	1	EFFECT_EQUIVALENCE_UNESTABLISHED	bei fehlendem Feinpulver A: verwende Grobpulver B; je Maß Γ
+S_B	f32v	f32v.10:1	ADD	f32v:choice@f32v.9:3	f32v.10:2	cfhy	1	NONE	füge Öl zu f32v:choice@f32v.9:3 hinzu
+S_B	f32v	f32v.11:2	ADD	f32v.10:8	f32v.11:3	cfhy	0	NONE	füge Wasser zu f32v.10:8 hinzu
+S_B	f29v	f29v.3:6	PURPOSE	f29v.3:5	f29v.3:7	taiin	0	NONE	für Klärung einer Flüssigkeit
+S_B	f29v	f29v.4:8	ADD	f29v.4:4	f29v.4:9	taiin	0	NONE	füge Ansatz zu f29v.4:4 hinzu
+L_AB	f21r	f21r.9:2	ADD	f21r.9:1	f21r.9:3	MISSING	0	NONE	füge Flüssigauszug zu f21r.9:1 hinzu
+L_AB	f32v	f32v.9:1	PURPOSE	f32v.8:9	f32v.9:2	cfhy	0	NONE	für Bindung einer feuchten Masse
+L_AB	f32v	f32v.9:3	JOINT_USE	f32v:choice@f32v.9:3	chocthy+cthaiin	cfhy	1	JOINT_EFFECT_UNESTABLISHED	verwende beide: Feinpulver A und Grobpulver B; je Maß Γ
+L_AB	f32v	f32v.10:1	ADD	f32v:choice@f32v.9:3	f32v.10:2	cfhy	1	NONE	füge Öl zu f32v:choice@f32v.9:3 hinzu
+L_AB	f32v	f32v.11:2	ADD	f32v.10:8	f32v.11:3	cfhy	0	NONE	füge Wasser zu f32v.10:8 hinzu
+L_AB	f29v	f29v.3:6	PURPOSE	f29v.3:5	f29v.3:7	taiin	0	NONE	für Klärung einer Flüssigkeit
+L_AB	f29v	f29v.4:8	ADD	f29v.4:4	f29v.4:9	taiin	0	NONE	füge Ansatz zu f29v.4:4 hinzu
