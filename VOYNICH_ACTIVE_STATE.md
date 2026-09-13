@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W38 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W38/REPORT.md. chkaiin hot/dry: physical P conflicts onwetf21endH;Dpartialmatch;constitutionalCinitialclasscompatible. f9missingcarrier;Pdryfluidconceptualtension.3positions144cases816worlds22272events;614semantic1structural430open.Allargumentstakeunchanged;0laterchecks.ValidatorPASS.RetainlocalCconditional,nomeaningconfirmation.Noheldaccess.Nextnotselected.
+
 W37 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W37/REPORT.md. cfhy Sdependent retains W36PK pair with exact operationalparity; I independent losesbothf32qotchy partners.816worlds21984events48cases;24newincomplete no newphysicalconflict.611semantic1structural433unread. S conditional,Iarchitectureopen;skeyunread.No heldaccess.ValidatorPASS.Nextnotselected.
 
 W36 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W36/REPORT.md. New conditional PK nominals chocthy/cthaiin fill f32qotchy pair; f22mix changes tochocthy+cthy and loses sho. C/P/K/PK full17paragraphs,1224worlds32856events,0newhardfailures,611assumed434open. cfhy/skey gaps retained. ValidatorPASS;retainlocalPK,notconfirmedglobalmeaning;no heldaccess.Nextnotselected.
