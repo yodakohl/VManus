@@ -1,0 +1,5 @@
+# W52 — manueller f83r-Bildvergleich der Rollenlesung
+
+Fortsetzung des Nutzerauftrags zur optischen Inhaltsprüfung. Vor Zugriff: ganze bereits GDT791-zugelassene Seite f83r, Quelle aus FIGURE_ORIENTATION_2026-09-06_SOURCES.json. Keine neue Seite/Reserve, f84/f84r geschlossen. Keine Kontakte, OCR oder generative Bildbearbeitung.
+
+Vergleich mit W41s unveränderten Rivalen: qokaiin als Gefäß/Empfänger oder Bearbeiter; qokeedy als Materialüberführung oder Übergabe; qoky als Weiterarbeit des Empfängers; chedy als Erwärmung. Selbst prüfen: Figuren, Behälter-/Verbindungsformen, sichtbare Übergabe, Handlung/Patientenrolle und Textzuordnung. Eine Figur ist nicht allein deshalb ein Bearbeiter; Nähe ist keine Wortbindung. Keine neue übertragbare Eigentums-/Flussrichtung, kein früherer f77→f83-Renderer oder Score. Vorwissen W41 und alte Bildorientierung bekannt, keine Blindbestätigung. Bericht darf auch eine weitere Rollenalternative als visuelle Möglichkeit nennen, ohne eine neue Wortregel einzusetzen.

@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W52 nativef83r:figures themselves in connectedforms;worker vs treatedbody/personifiedcarrier unresolved. W41handover/custody notvisuallyconfirmed,no rolemodelrun. Sevenadmittedpages/siximages acrossW50–52. Primary:research_registry/proposals/translation_programs_20260912/work/W52/REPORT.md
+
 W51 native f6v/f9v originals:plantcontext fits;f6roundedspinyorgans uncertain,f9flowerlike forms;no processing/temperature binding. W50+51sixadmittedpages,nonewpage. F99r selection corrected beforeaccess. Primary:research_registry/proposals/translation_programs_20260912/work/W51/REPORT.md
 
 W50 manualnative visual:3originals4alreadyadmittedpages+f21crop. Broadplant/materialcontext compatible, specificflower/wet/extract/heating glosses not visually bound. No depictedprocesschain, notrecipe refutation. ykeey/ykeea unresolved;no newadmissions. Primary:research_registry/proposals/translation_programs_20260912/work/W50/REPORT.md
