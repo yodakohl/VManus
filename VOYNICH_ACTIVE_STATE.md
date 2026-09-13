@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W44: ysheol once in1045groups; candidate wet andwarm bothMATCH under frozenchor history;dry/coldCONFLICT,hotnotexactmatch. No unique word meaning or component export. Primary:research_registry/proposals/translation_programs_20260912/work/W44/REPORT.md
+
 W43: fixed S04 resource/schedule extension; all341groups, old6/2/4bodies unchanged. Consumptive/retained families admit free stock/time assignments; no meaning selection, old gaps remain. Primary:research_registry/proposals/translation_programs_20260912/work/W43/REPORT.md
 
 W42: all145HERB4groups8daiin; M/E/L/T fixed comparison yields f32 partial2Q vs6Q,tariff masses unknown;17actions13unpriced. No numerical/word/dimension selection. Primary:research_registry/proposals/translation_programs_20260912/work/W42/REPORT.md
