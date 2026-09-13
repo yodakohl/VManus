@@ -1,0 +1,7 @@
+# W50 — ausdrücklich angeforderter manueller Bild-/Lesungsvergleich
+
+Nutzerauftrag: bisherige Lesung optisch prüfen und inhaltliche Stimmigkeit beurteilen. Vor Bildzugriff festgelegt: f21r und f32v (aktuelle Pflanzenlesung) sowie die gemeinsam aufgenommene f100v/f101r-Darstellung (Gegenkontext). Alle vier Seiten bereits durch GDT812 visuell freigegeben; keine neue Zulassung. f111r wird nicht neu visuell geöffnet. f84/f84r bleiben geschlossen.
+
+Eigene native Sichtung ganzer Originalbilder, gegebenenfalls nicht generativ vergrößerte Originalregion. Keine OCR oder Bildgenerierung. Bestehende W38/W44-Glossen bleiben Hypothesen: Pflanzengut/Blüten, zerkleinern, benetzen, erhitzen, Mischung. Prüfen: sichtbare Gegenstände/Teile; tatsächlich gezeichnete Verarbeitung; Schriftpositionen und mögliche Bindung an Bilder; auf f21r die strittige Schlusszeile. Abwesenheit eines Prozesses ist keine Widerlegung eines danebenstehenden Rezepts; eine Pflanze identifiziert keine Verben oder Spezies. Keine blinde Begutachtung behaupten: Wortvorschläge und frühere visuelle Berichte sind bekannt.
+
+Lieferung: Beobachtung von Annahme trennen, konkrete Vergleichstabelle und Gesamturteil, vollständige Quellreferenzen. Keine Decoder-/Transkriptionsänderung oder automatische Wiederöffnung vorheriger Tests. Dies ist ein angeforderter visueller Review, keine neue Signifikanzstudie. Aufwand primär tatsächliche Bildbetrachtung.
