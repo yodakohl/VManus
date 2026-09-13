@@ -1,0 +1,76 @@
+{
+  "evidence": [
+    {
+      "edition": "ZL3b",
+      "raw_line": "ykeey chor sheey ysheol chor chol daiin chkaiin",
+      "exact_target": true,
+      "state": {
+        "thermal": "warm",
+        "moisture": "wet"
+      },
+      "causes": [
+        {
+          "source_id": "ZL3b|f21r.12|G001",
+          "raw": "ykeey",
+          "effect": {
+            "axis": "thermal",
+            "value": "warm"
+          },
+          "patient": "ZL3b|f21r.12|G002",
+          "status": "ASSUMED_EFFECT"
+        },
+        {
+          "source_id": "ZL3b|f21r.12|G003",
+          "raw": "sheey",
+          "effect": {
+            "axis": "moisture",
+            "value": "wet"
+          },
+          "patient": "ZL3b|f21r.12|G002",
+          "status": "ASSUMED_EFFECT"
+        }
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "raw_line": "ykeea chor sheey ysheol chor chol daiin chkaiin",
+      "exact_target": true,
+      "state": {
+        "moisture": "wet"
+      },
+      "causes": [
+        {
+          "source_id": "IT2a|f21r.12|G001",
+          "raw": "ykeea",
+          "effect": null,
+          "patient": "IT2a|f21r.12|G002",
+          "status": "UNKNOWN_EFFECT"
+        },
+        {
+          "source_id": "IT2a|f21r.12|G003",
+          "raw": "sheey",
+          "effect": {
+            "axis": "moisture",
+            "value": "wet"
+          },
+          "patient": "IT2a|f21r.12|G002",
+          "status": "ASSUMED_EFFECT"
+        }
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "raw_line": "ykee@222; chor sheey @222;sheol chor chol daiin chkaiin",
+      "exact_target": false,
+      "state": {},
+      "causes": []
+    }
+  ],
+  "conditional_priority": [
+    "wet"
+  ],
+  "physical_loci": 1,
+  "independent_meaning_confirmations": 0,
+  "unknown_is_not_refutation": true,
+  "complete_paragraph_source": "research_registry/proposals/translation_programs_20260912/work/W45/CONTEXTS.json"
+}
