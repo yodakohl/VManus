@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W42: all145HERB4groups8daiin; M/E/L/T fixed comparison yields f32 partial2Q vs6Q,tariff masses unknown;17actions13unpriced. No numerical/word/dimension selection. Primary:research_registry/proposals/translation_programs_20260912/work/W42/REPORT.md
+
 W41: all7f83records341groups; fixed L1/T0 crossed vessel/worker/no-switch/switch. One T0 qoky worker-custody chain,3dependent marker witnesses; L1 conflict onsame .8:5,T0conflict .16:5;4markers no recipient9actions noactor. No general word/role selection. Primary:research_registry/proposals/translation_programs_20260912/work/W41/REPORT.md
 
 W40: frozen P14 on17 exposed paragraphs1045groups;40values. RECORD M/R imply B=C under constant long-range cthy/cthol reference on f93r;22unknown intervening groups. LINE no value constraints. No identified number or meaning; no repair or held access. Primary: research_registry/proposals/translation_programs_20260912/work/W40/REPORT.md
