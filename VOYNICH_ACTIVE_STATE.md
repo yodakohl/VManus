@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W36 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W36/REPORT.md. New conditional PK nominals chocthy/cthaiin fill f32qotchy pair; f22mix changes tochocthy+cthy and loses sho. C/P/K/PK full17paragraphs,1224worlds32856events,0newhardfailures,611assumed434open. cfhy/skey gaps retained. ValidatorPASS;retainlocalPK,notconfirmedglobalmeaning;no heldaccess.Nextnotselected.
+
 W35 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W35/REPORT.md. Full connected-thermal capacity census: one f93shodaiin→kchol co-treatment prediction underV,96variants but zero later recipient events. No propagationengine/direction selection/newmeaning.3264worlds,1920relations,8352thermalactions; independent graph validationPASS. W34/W33 unchanged;no heldaccess.Nextnotselected.
 
 W34 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W34/REPORT.md. Fixed nearest-material qokain/qokar aliases on all4positions: O f106coldol→warmqokain contradicts beforechol; three otherpositions compatible but unconfirmed, C f106no parent. 192cases336E/Rworlds8544events; independent state/account validation PASS. Retain W33localcooling, no globalidentity, no new meaning or heldaccess. Nextnotselected.
