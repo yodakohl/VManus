@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W27 (2026-09-13): conditional tchol→wetting/treatment→shody atf21.11 underW26A; JM1origin,BH2,BDtcholonly becauseotherportiondry. Complete8wetresults192cases996pairs;14dependentorigin groups;0laterrequirements,0aliases selected. Otherfirstresultsunbound/repeatsretained. ValidatorPASS479oldfilesfrozen;W26reader unchanged. Primary: research_registry/proposals/translation_programs_20260912/work/W27/REPORT.md. No independent meaning/identity confirmation or reserved access.
+
 W26 (2026-09-13): shol≈befeuchte/ACTION becomes an explicitly editorial global working alternative over17exposedparagraphs,8targets. A/H/I removes f21hardconflict withnonew hardconflicts; warmhot/gapsremain. A/D/H/B/J/M/O/I allretained; no confirmed meaning. 1045groups606assumed439unread;8changedglosses0newassigned. ValidationPASS10824events;442oldfilesfrozen;HERB4QexactW25. Current separate reader: research_registry/proposals/translation_programs_20260912/work/W26/A_READING.md. Primary: research_registry/proposals/translation_programs_20260912/work/W26/REPORT.md. Reserves closed.
 
 W25 (2026-09-13): explicit transfer to already exposed HERB4, separate145groups. Both fixedcholD/Hpackages contradict shol wet / tchol dry atf21r.11; no D/H winner. 48worlds660events,O=I;72assumed73unread. Source/transitionvalidationPASS;422olderfiles unchanged. W24/W22 local hypotheses not generalized; no reserves opened. Primary: research_registry/proposals/translation_programs_20260912/work/W25/REPORT.md.
