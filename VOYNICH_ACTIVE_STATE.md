@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W39 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W39/REPORT.md. IDEA000192 all7f83records341groups21pairs usingP15R:2one-editseq,0same nonemptyinputs,0terminalboundoutcomes among13states,0modeledpairs. No newmeaning/causalclaim. ValidatorPASS. W38hypothesisunchanged;noheldaccess.Nextnotselected.
+
 W38 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W38/REPORT.md. chkaiin hot/dry: physical P conflicts onwetf21endH;Dpartialmatch;constitutionalCinitialclasscompatible. f9missingcarrier;Pdryfluidconceptualtension.3positions144cases816worlds22272events;614semantic1structural430open.Allargumentstakeunchanged;0laterchecks.ValidatorPASS.RetainlocalCconditional,nomeaningconfirmation.Noheldaccess.Nextnotselected.
 
 W37 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W37/REPORT.md. cfhy Sdependent retains W36PK pair with exact operationalparity; I independent losesbothf32qotchy partners.816worlds21984events48cases;24newincomplete no newphysicalconflict.611semantic1structural433unread. S conditional,Iarchitectureopen;skeyunread.No heldaccess.ValidatorPASS.Nextnotselected.
