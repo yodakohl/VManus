@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W55 (2026-09-13): four primary GDT590 passages checked; no body-exclusive consequence. cheey/lsheey not a pure l contrast; old model unchanged. Primary: research_registry/proposals/translation_programs_20260912/work/W55/REPORT.md.
+
 W54 (2026-09-13): all W41 roles audited; B never treatment patient. P07 primary body/station alternatives already consequence-equivalent. No relabeling or image-only rerun. Primary: research_registry/proposals/translation_programs_20260912/work/W54/REPORT.md.
 
 W53 (2026-09-13): native complete f81r/f82r comparison with W52 supports body-in-basin scene description; bathing plausible, passive patient versus active/personified role unresolved. No word binding or changed W41 model. Primary: research_registry/proposals/translation_programs_20260912/work/W53/REPORT.md.
