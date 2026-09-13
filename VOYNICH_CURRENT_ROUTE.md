@@ -1,7 +1,7 @@
 # Voynich current route
 Updated: 2026-09-13. Read first.
 ## Current task and latest completed experiments
-W39 paired-record audit: research_registry/proposals/translation_programs_20260912/work/W39/REPORT.md. IDEA000192 onall7previouslyexposedf83records51lines341groups,P15Rfixed8words;21pairs. P2/P5 andQ1/Q2 one-editseq only;0same nonemptyinputproxy,13STATEpositions0terminalboundoutcomes,0modeledpairs;allunparsedremainders differ. ValidatorPASS45boundfiles. No newmeaning/causalclaim,do not relaxpairs. W38conditionalqualityclass andW37/W36 retainedseparately. No newpages/heldaccess;f84/f84rclosed. Nextnotselected.
+W40 fixed P14 dimension comparison: research_registry/proposals/translation_programs_20260912/work/W40/REPORT.md. IDEA000088; all17 exposed paragraphs1045groups40values. RECORD M27/R20 equations each force B=C (dain/daiin) through same cthy/cthol at f93r.22:4 and29:1;22unknown groups between. LINE M13/R5 no value constraints. Conditional constant-mass/reference assumption only, no number/word identified; do not combine distinct B/C numbers with this paragraph contract. ValidatorPASS; original P14 145groups20fields unchanged. W39 closed at no comparable pairs; W38/W37/W36 retained separately. No newpages/heldaccess; f84/f84rclosed. Next not selected.
 GDT928 complete multi-anchor paragraph census: experiments/yolo/gdt928_multi_anchor_complete_paragraphs/REPORT.md. ZL659/IT690 complete paragraphs;18/72 cross-leaf pairs each share exactly one maximal literal sequence;0 pairs with two disjoint anchors. RF missing paragraph flags, not a negative result. No order-test capacity/meaning/significance/heldaccess; independent direct-match and coverage validation PASS. Fixed IDEA000199 test stopped; different mechanism required, not selected. f84/f84r sealed.
 GDT925: complete literal P-line multiset census,179selectors; eligible ZL1448/IT3177/RF1201, zero same-multiset pairs in every reading. Independent680250equal-length Counter comparisonsPASS. No candidate/meaning/significance; no shorter-window repair. Primary:experiments/yolo/gdt925_whole_line_word_multiset_discovery/REPORT.md.
 Completed research window2026-09-11, last observed active clock17:27:41UTC; resumed2026-09-12 10:19:42UTC on user continuation. Overnight gap is not active work. GDT925 now completed: literal whole-line multiset census yields0pairs inall3readings; no meaning or admission. GDT915 known22phrasepair r/lcovariation transfers;916doesnotestablishnewpairgrammar. GDT917–920 and922closedatfixedtests;921externalseason/registersourceonly. GDT923fixed26key: oneZL17word2valuecompatibility,15unknown; RFnoinformativetransfer. GDT924: newlyadmittedf106v nativefixed923paragraph, bothobservers11+6groups;6jointMATCH11unresolved0jointcontradictions. qokeeybothMATCH,lchedybothunresolved; full17notnativelyverified.923transcript-relative resultunchanged,0meanings. Visual49keys55selectors1remaining. Primary:experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md. Fullsessionresults:research_registry/decisions/semantic_3h_20260911_results_de.md; chronologicaldecision:research_registry/decisions/semantic_3h_20260911_session.md.
@@ -211,10 +211,8 @@ exhaustive whole-group cycles force singleton pools, not general homophony rejec
 GDT856 old605freecode nonUD: [C,E]=[CE]; canonicalBPE remains deterministic.
 GPU/subagents authorized; no other LLM API keys or public decipherment searches.
 Use primary internal evidence and established manuscript/history context.
-
 841–843 stopped; lookup for native star observations. No meaning or regrading.
 ## Controls
-
 837–840 closed; no decoder successor or general boundary/cipher rejection.
 685 fixed semantic roles/verdicts/ranks are not independent evidence; see DF.
 

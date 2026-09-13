@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W40: frozen P14 on17 exposed paragraphs1045groups;40values. RECORD M/R imply B=C under constant long-range cthy/cthol reference on f93r;22unknown intervening groups. LINE no value constraints. No identified number or meaning; no repair or held access. Primary: research_registry/proposals/translation_programs_20260912/work/W40/REPORT.md
+
 W39 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W39/REPORT.md. IDEA000192 all7f83records341groups21pairs usingP15R:2one-editseq,0same nonemptyinputs,0terminalboundoutcomes among13states,0modeledpairs. No newmeaning/causalclaim. ValidatorPASS. W38hypothesisunchanged;noheldaccess.Nextnotselected.
 
 W38 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W38/REPORT.md. chkaiin hot/dry: physical P conflicts onwetf21endH;Dpartialmatch;constitutionalCinitialclasscompatible. f9missingcarrier;Pdryfluidconceptualtension.3positions144cases816worlds22272events;614semantic1structural430open.Allargumentstakeunchanged;0laterchecks.ValidatorPASS.RetainlocalCconditional,nomeaningconfirmation.Noheldaccess.Nextnotselected.
