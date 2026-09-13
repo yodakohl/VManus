@@ -1,0 +1,4 @@
+# W53 — vor dem erneuten Bildzugriff
+2026-09-13. Ausschließlich bereits visuell freigegebene f81r/f82r; Vergleich mit W52 f83r. Frühere Projektbeobachtungen dieser Seiten sind bekannt: kein Blindtest. f84/f84r und alle nicht freigegebenen Seiten bleiben geschlossen.
+Unbekannt ist, ob Figuren eher außerhalb eines Apparats handelnd oder selbst in dessen Becken/Röhren angeordnet sind. Prüfkriterien: Position ganzer Körper, erkennbare Handkontakte/Übergaben, Verbindungen zwischen Behältern, Wärmequelle. Alle beiden vollständigen Bilder prüfen, keine passenden Ausschnitte auswählen.
+Ergebnisentscheidung: erkennbare externe Bedienung würde Arbeiterrolle stützen; überwiegend eingeschlossene Körper priorisieren Körper-/Trägerhypothese für spätere Modellierung. Mehrdeutige Darstellung bindet kein Wort. Kein Decoder und keine neue Modellrechnung. Kleinster Test: zwei Originalbilder; Budget einschließlich Dokumentation und Veröffentlichung 20 Minuten.

@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W53 (2026-09-13): native complete f81r/f82r comparison with W52 supports body-in-basin scene description; bathing plausible, passive patient versus active/personified role unresolved. No word binding or changed W41 model. Primary: research_registry/proposals/translation_programs_20260912/work/W53/REPORT.md.
+
 W52 nativef83r:figures themselves in connectedforms;worker vs treatedbody/personifiedcarrier unresolved. W41handover/custody notvisuallyconfirmed,no rolemodelrun. Sevenadmittedpages/siximages acrossW50–52. Primary:research_registry/proposals/translation_programs_20260912/work/W52/REPORT.md
 
 W51 native f6v/f9v originals:plantcontext fits;f6roundedspinyorgans uncertain,f9flowerlike forms;no processing/temperature binding. W50+51sixadmittedpages,nonewpage. F99r selection corrected beforeaccess. Primary:research_registry/proposals/translation_programs_20260912/work/W51/REPORT.md
