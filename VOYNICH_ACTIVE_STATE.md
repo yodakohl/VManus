@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W26 (2026-09-13): shol≈befeuchte/ACTION becomes an explicitly editorial global working alternative over17exposedparagraphs,8targets. A/H/I removes f21hardconflict withnonew hardconflicts; warmhot/gapsremain. A/D/H/B/J/M/O/I allretained; no confirmed meaning. 1045groups606assumed439unread;8changedglosses0newassigned. ValidationPASS10824events;442oldfilesfrozen;HERB4QexactW25. Current separate reader: research_registry/proposals/translation_programs_20260912/work/W26/A_READING.md. Primary: research_registry/proposals/translation_programs_20260912/work/W26/REPORT.md. Reserves closed.
+
 W25 (2026-09-13): explicit transfer to already exposed HERB4, separate145groups. Both fixedcholD/Hpackages contradict shol wet / tchol dry atf21r.11; no D/H winner. 48worlds660events,O=I;72assumed73unread. Source/transitionvalidationPASS;422olderfiles unchanged. W24/W22 local hypotheses not generalized; no reserves opened. Primary: research_registry/proposals/translation_programs_20260912/work/W25/REPORT.md.
 
 W24 (2026-09-13): or al f99.50 yields local authored partitive source okeol/ITkeeor under bothT/V. Otheral disagree orlacksource; no globalreference choice or subsequentokor identity. 108refs/73pairs/27dependentpartitives,900groupsunchanged;407oldfilesfrozen;independentselectionvalidationPASS. No new meaning or heldaccess. Primary: research_registry/proposals/translation_programs_20260912/work/W24/REPORT.md.
