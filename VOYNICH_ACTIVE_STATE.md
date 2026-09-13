@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT929 (2026-09-14): fixed four-form inventory finds three cheey/sheey two-sided frames on different leaves; no l-edge or full square. Descriptive context evidence, no semantics. Primary: experiments/yolo/gdt929_fixed_four_form_context_square/REPORT.md.
+
 W55 (2026-09-13): four primary GDT590 passages checked; no body-exclusive consequence. cheey/lsheey not a pure l contrast; old model unchanged. Primary: research_registry/proposals/translation_programs_20260912/work/W55/REPORT.md.
 
 W54 (2026-09-13): all W41 roles audited; B never treatment patient. P07 primary body/station alternatives already consequence-equivalent. No relabeling or image-only rerun. Primary: research_registry/proposals/translation_programs_20260912/work/W54/REPORT.md.
