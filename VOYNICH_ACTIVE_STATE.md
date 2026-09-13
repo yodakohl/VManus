@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W23 (2026-09-13): okor whole-word A teile ab / N abgeteilter Anteil / U unread. N locally binds f99.51:7; A carries older fluid; f93 A binds shody. No output/origin/quantity selection. Full2781arguments,108futures,234priorpairs;387oldfilesfrozen;validationPASS. Two new hypothesis positions,0meanings. W22 retained separately; reserves closed. Primary: research_registry/proposals/translation_programs_20260912/work/W23/REPORT.md.
+
 W22 (2026-09-13): general qokeor heating rival preserves R prior-action REP history, loses current warm MATCH. E/R unequal3→6; P6 unchanged. No selected verb/reference, no new word. Full234worlds7056events;370oldfiles frozen, validationPASS. Primary: research_registry/proposals/translation_programs_20260912/work/W22/REPORT.md. All reserves remain closed.
 
 W21 take contrast capacity: research_registry/proposals/translation_programs_20260912/work/W21/REPORT.md.120fixedtakecases,ZL/RF38firstnames1missingB,IT38firstnames3sameextraITctho/no followingprocessing1missingB.0priorstock+following-use candidates;IT/RFqualitiesnot evaluated. ExtraITf93.10ctho9:3 remention29:3,no boundprocessing. Stopfixedcapacityroute,no simulator/portionreset/wordselection. IndependentfullusevalidationPASS,357legacyfilesfrozen. W19localRrepeatleadunchanged.0meanings/confirmation/significance/heldaccess;f84/f84rsealed.Nextnotselected.
