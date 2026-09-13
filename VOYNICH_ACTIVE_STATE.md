@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W48: one conditional ITf111r cheo→sheey→cheo→qokeor extract-production rival;67open groups,SAME required,ZLcheodaiin source split differs. All200paras48pairs;6dependent differences,0meaningselection. W benetzen remains UNKNOWN;no ysheol promotion. Primary:research_registry/proposals/translation_programs_20260912/work/W48/REPORT.md
+
 W47: all96184groups,365dependent sheey hits;0fixed immediate material/action/state triples. Five effects untested; authored benetzen not bound;no added support for W46 conditional feucht. Narrow test stopped;no heldaccess. Primary:research_registry/proposals/translation_programs_20260912/work/W47/REPORT.md
 
 W45/W46: exposed96184groups yield one physical ysheol locus. wet conditionally supported in both exact readings; warm ZL MATCH/IT UNKNOWN. Prioritize feucht only under assumed sheey benetzen, no independent translation; source variant unresolved. Primary:research_registry/proposals/translation_programs_20260912/work/W46/REPORT.md
