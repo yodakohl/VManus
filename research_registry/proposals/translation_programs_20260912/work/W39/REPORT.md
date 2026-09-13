@@ -65,3 +65,9 @@ python research_registry/proposals/translation_programs_20260912/work/W39/valida
 ```
 
 Die Inhalte waren bereits in früheren Projektversuchen exponiert; keine Blindheit oder unabhängige Blattbestätigung. Keine neuen Manuskriptseiten oder Kontakte; sämtliche Reserveseiten einschließlich f84/f84r geschlossen. Keine moderne randomisierte Versuchspraxis unterstellt. Keine Signifikanz, Kausalwirkung, bestätigte Wort-/Pflanzennamen oder scorefähige GDT388-Evidenz. Publikationsprüfung ersetzt keine globale Prüfung bekannter GDT600-/Indexaltprobleme.
+
+## Veröffentlichungskorrektur
+
+Commit `84b0acbd2` wurde versehentlich vor dem Datenschutz-/Umfangsscan veröffentlicht: Eine zu strenge Gleichheitsprüfung erwartete auch die unveränderte Datei `research_registry/ideas.jsonl`; nach ihrem Abbruch liefen die nachfolgenden Shell-Befehle dennoch weiter. Das war kein erfolgreicher Vorabscan.
+
+Die nachträgliche Prüfung aller 18 tatsächlich geänderten Dateien anhand ihrer exakten veröffentlichten Git-Blobs bestand die bestehenden Musterprüfungen für Zugangsdaten, private Schlüssel, lokale Pfade und die explizite Dateifreigabeliste ohne Treffer. Reproduktion: `python research_registry/proposals/translation_programs_20260912/work/W39/audit_publication.py`; Beleg: `PUBLICATION_AUDIT.json`. Dies garantiert nicht die Erkennung jedes denkbaren Geheimnisses und ersetzt keine globale Repository-Prüfung. Wissenschaftliche Ergebnisse bleiben unverändert. Künftige Commit- und Push-Aufrufe erfolgen getrennt und erst nach erfolgreicher Prüfung.
