@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W51 native f6v/f9v originals:plantcontext fits;f6roundedspinyorgans uncertain,f9flowerlike forms;no processing/temperature binding. W50+51sixadmittedpages,nonewpage. F99r selection corrected beforeaccess. Primary:research_registry/proposals/translation_programs_20260912/work/W51/REPORT.md
+
 W50 manualnative visual:3originals4alreadyadmittedpages+f21crop. Broadplant/materialcontext compatible, specificflower/wet/extract/heating glosses not visually bound. No depictedprocesschain, notrecipe refutation. ykeey/ykeea unresolved;no newadmissions. Primary:research_registry/proposals/translation_programs_20260912/work/W50/REPORT.md
 
 W49: all48f111 thermal cases36unbound12chr0cheo. SAME/NEW cannot be tested through these states;W48weak extraction rival parked,notrefuted. No grammarrepair/stateengine/newmeaning. Primary:research_registry/proposals/translation_programs_20260912/work/W49/REPORT.md
