@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W35 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W35/REPORT.md. Full connected-thermal capacity census: one f93shodaiin→kchol co-treatment prediction underV,96variants but zero later recipient events. No propagationengine/direction selection/newmeaning.3264worlds,1920relations,8352thermalactions; independent graph validationPASS. W34/W33 unchanged;no heldaccess.Nextnotselected.
+
 W34 (2026-09-13): research_registry/proposals/translation_programs_20260912/work/W34/REPORT.md. Fixed nearest-material qokain/qokar aliases on all4positions: O f106coldol→warmqokain contradicts beforechol; three otherpositions compatible but unconfirmed, C f106no parent. 192cases336E/Rworlds8544events; independent state/account validation PASS. Retain W33localcooling, no globalidentity, no new meaning or heldaccess. Nextnotselected.
 
 W33 ol/lor nominal transfer: research_registry/proposals/translation_programs_20260912/work/W33/REPORT.md. FourC/O/L/OLlexicons;3new×Q/A×BJM×DH×OI=1224worlds33432events. O/OL olf106.8:3 bindsoteedy8:6+qotor8:7+qoteedy8:9(MISSING→MATCH);4othercommandsdisplaceoldpatients inclf93chol31:2 cthol→ol; Btakef1069:1 newlybindsol. No newhard/incompletefailures; A/H/I missing15→12/incomplete39→33. OperationalC=L,O=OL;lor0newuses. 1632targetcases704future16take;ValidatorPASS628boundfiles. LocalO coolingchain retainedconditional,not globalmeaning;W28/W29baselineunchanged608assumed437unread. No SAME/alias/companionrepair, no heldaccess;f84/f84rclosed. Nextnotselected.
