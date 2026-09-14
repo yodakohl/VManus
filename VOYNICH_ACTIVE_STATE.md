@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W83:112paras66shey; V heat versus H warm/F moist under W82 C. H/F34bound32missing, structurally identical; six bad shey inputs become missing carriers, no repair. f8 prior .4 versus next .7 portion. Next primary-check tshor and full f15r opening. Primary: research_registry/proposals/translation_programs_20260912/work/W83/REPORT.md
+
 W82:58cthar/ochey hits21loci112paras7059groups; four N/C/O/CO drafts138changed bindings. f8v shey cthar permits hypothetical heat herb portion; f56 carrier ambiguous, U dry elsewhere unchanged. 7wrong input roles each model, no selection. Next full f8v versus shey ol/daiin joint reading. Primary: research_registry/proposals/translation_programs_20260912/work/W82/REPORT.md
 
 W81:82paras4572groups51qualities; T and U both dry/wet under fixed carry. Both fixed-current-liquid candidates conflict under physical interpretation, neither distinguished under humoral alternative. U bindings all nonadjacent. No meaning; next f56v qoteey cthar / ochey chol chol carrier reading. Primary: research_registry/proposals/translation_programs_20260912/work/W81/REPORT.md
