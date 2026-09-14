@@ -3,13 +3,13 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: complete
-Task: Higher-throughput Luna batch: six previous candidates reviewed, three new raw proposals, full four-form source audit.
-Latest decision: IDEA281 is the next source-specific draft candidate; no semantic test selected. Four cells on leaf80 only;282/283 held.
-Working files: research_registry/work_batches/luna_throughput_20260914/REPORT.md
-Assumptions: Old meanings unconfirmed; no945/946repair or helper expansion.
-Resume: Specify one shared content effect for olkain/qolkain/ol kain/qol kain against a formal-grammar rival; occurrence alone cannot select it.
-Running: none; all bounded Luna workers completed.
+Status: checkpoint
+Task: Optimize progress toward meaning; user corrected candidate-throughput objective.
+Latest decision: IDEA281 retained as structural support, no automatic main-route priority. No meaning selected; old50 hypotheses only.
+Working files: research_registry/work_batches/luna_throughput_20260914/MEANING_PRIORITY.md
+Assumptions: Joint provisional meanings permitted; no945/946repair or infrastructure expansion.
+Resume: Draft connected rival readings with shared content/form assumptions and differing consequences. Luna checks those consequences.
+Running: none.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
