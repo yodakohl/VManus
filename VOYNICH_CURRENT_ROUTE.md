@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT947 tested fixed overt backward/forward meanings for olshedy and olshey.
-Latest decision: Both joint contracts fail; olshedy/BACK ZL alone unresolved. No meaning selected.
-Working files: experiments/yolo/gdt947_ol_content_reference_direction/REPORT.md
+Task: Audited recent selection and counts:946 indexed GDT entries; no measured remaining model space.
+Latest decision: GDT947 joint rules fail, olshedy/BACK ZL unresolved. Scenario counts are not remaining trials.
+Working files: research_registry/work_batches/search_space_20260914/SELECTION_AUDIT.md
 Assumptions: All sources exposed; leaves77/80/85 design. No new access or independent meaning test.
-Resume: Choose connected content consequences beyond exact within-paragraph mention; no ol-scope repair.
-Running: none. One-hour work block documented in research_registry/work_batches/meaning_hour_20260914/REPORT.md.
+Resume: Select connected meaning rivals by distinct predicted consequences; no further reference-scope repair.
+Running: none. GDT947 remains the latest manuscript experiment; this pass audited metadata and selection.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
