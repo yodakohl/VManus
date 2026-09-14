@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W80:121qoteeyhits76fullparas4272groups;ZLf44TtoU added to f19UtoT,ITchorreceiver;3inputroleclashes42unknown5missing. No recipe/meaningselection. Primary: research_registry/proposals/translation_programs_20260912/work/W80/REPORT.md
+
+
 W79:4role/dimension drafts;UM f19T/U equalassumedmassC,localworkingdraftonly;UGqualitygap,Qinputrole mismatch.100values40operations,no numeric/wordconfirmation. Primary: research_registry/proposals/translation_programs_20260912/work/W79/REPORT.md
 
 
