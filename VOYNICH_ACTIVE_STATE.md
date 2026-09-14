@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W65 (2026-09-14): all16okain/solchey positions audited;paired f80.32/.33 initialsolchey before different hypothetical heating verbs. Unknownokain may interrupt portioncarry;no newgloss. Primary: research_registry/proposals/translation_programs_20260912/work/W65/REPORT.md.
+
 W64 (2026-09-14): all33qokain;f80directportion may precede heating, same-mixture vs separateD unresolved. No new alias/stateengine;W63conditionalnoun retained. Primary: research_registry/proposals/translation_programs_20260912/work/W64/REPORT.md.
 
 W63 (2026-09-14): N sheckhy=mixture conditionally prioritized from ol/sheckhy and chey/sheckhy under old unconfirmed glosses. A retained;role evidence not lexical identity. All6completeparagraphs and5physicalpositions retained. Primary: research_registry/proposals/translation_programs_20260912/work/W63/REPORT.md.
