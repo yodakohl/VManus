@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT946 portion/material trial complete; next possible full f77r23 source/flow clause.
-Latest decision: P Anteil/M Oel flow ties; both strict olal packages fail7known-side positions/3loci. Registered2compatible9open5untestable preserved.
-Working files: experiments/yolo/gdt946_portion_or_material_residue_clause/REPORT.md
-Assumptions: GDT94450values unchanged, conditional; eight946values parked. No old qokey/olal syntax repair.
-Resume: Full77r23 sheoky + qok[a:o]l(ZL)/qokol(IT)/qokal(RF); explain source and repeated place/time values jointly. No new gap gloss yet. Preserve full contexts.
-Running: none; producer W84/W86 review found no new discriminator/files.
+Task: Luna high pipeline pilot implemented and first batch reviewed.
+Latest decision: IDEA278-280 not selected;278 lacks exact second-page support,279/280 lack a semantic discriminator. No new word.
+Working files: research_registry/work_batches/luna_pilot_20260914/REPORT.md
+Assumptions: Old50values unconfirmed; no945/946role repair. Automation: docs/LUNA_PIPELINE.md
+Resume: Next joint content/form proposal needs exact source forms and a credible grammar/phrase rival. Use Luna high; no default helper expansion.
+Running: none; bounded workers completed. No between-turn execution.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

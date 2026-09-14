@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-14T18:02:57.463282+00:00",
+  "purpose": "Luna high throughput handoff pilot and exposed multi-context candidate review",
+  "claim_ceiling": "No new scientific selection or translated word from workflow success; no unseen meaning confirmation.",
+  "allowed_selectors": [
+    "f77r",
+    "f80v",
+    "f85r1"
+  ],
+  "inputs": [
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+      "sha256": "25cb7259002627ceae5eeebc93ed28fee0153adcdb1755a3e41c5d45106b39a8",
+      "role": "bounded_research_input"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+      "sha256": "e1abf863d5c4ed29306135a74c09d3232aa25e763b1f7ab34fc88e8b85f9bd1e",
+      "role": "bounded_research_input"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/BRIEF.md",
+      "sha256": "38ea3860156764653793e350336f98d1714732b7e5e60f3e6e6067f72685be81",
+      "role": "bounded_research_input"
+    },
+    {
+      "path": "experiments/yolo/gdt944_third_content_formation_separation/artifacts/LEXICONS.json",
+      "sha256": "eb9c9bf0dafa2a6996e9f720e6008128f8af7b25235fe866611f72387c7be15e",
+      "role": "bounded_research_input"
+    },
+    {
+      "path": "experiments/yolo/gdt945_flow_source_or_partitive/REPORT.md",
+      "sha256": "570ce0ae5cf92b27181a4a5e63be357fd9f944f661e25f60be0600da8debe6cd",
+      "role": "bounded_research_input"
+    },
+    {
+      "path": "experiments/yolo/gdt946_portion_or_material_residue_clause/REPORT.md",
+      "sha256": "b2b4fcfb34382056d57fb618b81227da195bdf52db8c8fface48cc19ed3b195c",
+      "role": "bounded_research_input"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+      "sha256": "56ed49676d351cee387537b32bff41cd9fe532416f85dfd2dc30edf21ac176f6",
+      "role": "bounded_research_input"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md",
+      "sha256": "7f6cec251553c9c6f74aeb95e0d733d1514a4b531ddf54ff1705b021c725392e",
+      "role": "bounded_research_input"
+    }
+  ],
+  "output_dir": "research_registry/work_batches/luna_pilot_20260914",
+  "tasks": [
+    {
+      "id": "produce",
+      "owner": "luna_idea_producer",
+      "question": "Propose up to6 distinct small joint content/form hypotheses using concrete source cases and a close rival; add genuinely new RAW cards through existing ideas add.",
+      "input_paths": [
+        "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+        "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+        "research_registry/work_batches/luna_pilot_20260914/BRIEF.md",
+        "experiments/yolo/gdt944_third_content_formation_separation/artifacts/LEXICONS.json",
+        "experiments/yolo/gdt945_flow_source_or_partitive/REPORT.md",
+        "experiments/yolo/gdt946_portion_or_material_residue_clause/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md"
+      ],
+      "output_path": "research_registry/work_batches/luna_pilot_20260914/PRODUCER_RESULT.json",
+      "required_result_fields": [
+        "status",
+        "summary",
+        "proposals",
+        "evidence_paths"
+      ]
+    },
+    {
+      "id": "critic",
+      "owner": "luna_evidence_critic",
+      "question": "Independently identify up to3 source-grounded constraints/discriminators across these paragraphs; distinguish observations from old guessed meanings, identify misleading tests.",
+      "input_paths": [
+        "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+        "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+        "research_registry/work_batches/luna_pilot_20260914/BRIEF.md",
+        "experiments/yolo/gdt944_third_content_formation_separation/artifacts/LEXICONS.json",
+        "experiments/yolo/gdt945_flow_source_or_partitive/REPORT.md",
+        "experiments/yolo/gdt946_portion_or_material_residue_clause/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md"
+      ],
+      "output_path": "research_registry/work_batches/luna_pilot_20260914/CRITIC_RESULT.json",
+      "required_result_fields": [
+        "status",
+        "summary",
+        "constraints",
+        "evidence_paths"
+      ]
+    },
+    {
+      "id": "builder",
+      "owner": "luna_batch_builder",
+      "question": "Implement and test a small safe validate/brief/collect helper; no model/API launch, decoder or registry replacement.",
+      "input_paths": [
+        "research_registry/work_batches/luna_pilot_20260914/BRIEF.md"
+      ],
+      "output_path": "research_registry/work_batches/luna_pilot_20260914/BUILDER_RESULT.json",
+      "required_result_fields": [
+        "status",
+        "summary",
+        "tests",
+        "evidence_paths"
+      ]
+    }
+  ]
+}

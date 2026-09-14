@@ -1,0 +1,26 @@
+{
+  "title": "RAW_UNSCREENED: Lesergrenzen bewahren einen gemeinsamen Inhaltskern",
+  "summary": "RAW_UNSCREENED: ZL/IT/RF können dieselben lokalen Inhaltsbeziehungen mit unterschiedlicher Segmentierung oder Allographmarkierung bewahren; das ist eine Hypothese über Wortbildung und Leservarianten, keine Normalisierung der Fassungen.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Only RF raw variants aligned to f77r.23, f80v.32/.36 and f85r1.4 plus the corresponding ZL3b/IT2a packet lines.",
+    "mechanism": "Reader-specific spaces and marked characters alter surface segmentation while preserving a shared sequence of compositional kernels and local relation slots.",
+    "unit": "Source-group aligned triples, retaining raw RF strings and separators rather than normalizing them.",
+    "contrast": "Stable compositional spine under reader rendering versus independent lexical/segmentation alternatives.",
+    "prediction": "The stable-spine account predicts invariant kernel order and relation-slot adjacency in f77r.23, f80v.32/.36 and f85r1.4 despite RF markings; the independent-reader account predicts materially different kernel or adjacency structures after alignment.",
+    "shared_mechanism": "Surface allographs/spacing are a rendering layer over a shared content-building sequence; raw boundaries remain evidence, not errors.",
+    "concrete_observations": [
+      "f77r.23 has ZL/IT olshedy qokeedy chedy qok[a:o]l/qokol but RF olshe@152;y qokeedy che@152;y qokal.",
+      "f80v.32 splits ZL arolkeedy while IT has arol keedy, and f85r1.4 changes ZL/IT olshedy qokeedy to RF olshe@152;y qokee@152;y."
+    ],
+    "linked_consequences": [
+      "Aligned kernel order should survive the marked RF spellings without treating RF as a third independent paragraph.",
+      "A stable spine should predict the same local content relation in at least two loci, while preserving unresolved qok[a:o]l/qokol/qokal differences as an explicit terminal rival."
+    ],
+    "nearest_rival": "Each transcription records an independent lexical segmentation, so apparent common forms are editorial convergence or coincidence.",
+    "distinguishing_observation": "Publish a source-group alignment that lists raw strings, boundaries and invariant stems; a positive discriminator requires two loci with identical ordered kernel slots and one locus where the reader boundary differs, not a majority vote.",
+    "assumption_costs": ["cross-reader alignment is semantically relevant", "kernels survive segmentation", "RF marks are rendering evidence", "no boundary is silently repaired"],
+    "strongest_likely_failure": "The apparent spine is inherited from transcriber conventions or broad high-frequency forms; f77r.23 has only one clear terminal variant and f85r1.4 RF leaves most content unresolved.",
+    "primary_predecessors": ["GDT944", "GDT945", "GDT946", "GDT915", "W16"]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETE_BOUNDED_CRITIQUE",
+  "summary": "Raw evidence supports structural comparisons only; no confirmed anchor, meaning, or winner between content+word-building and rivals. German values in LEXICONS and GDT945/946 remain hypotheses.",
+  "constraints": [
+    {
+      "id": "C1_recurrent_packages",
+      "observation": "The same consecutive listed groups qoteedy qokaiin shedy recur at f77r.11 G001-G003 and f77r.14 G004-G006 in both ZL3b and IT2a. The consecutive listed olshedy qokeedy groups recur across pages at f77r.23 G005-G006 and f85r1.4 G005-G006 in ZL3b/IT2a; RF retains the loci but marks the forms uncertain. Per-group separator flags are unavailable in EXPOSED_PARAGRAPHS, so this is a source-group recurrence claim, not an extra spacing claim.",
+      "discriminator": "The recurrence alone does not distinguish compositional components from a stored whole-phrase template. It would distinguish only a preregistered rival predicting no recurrence; component versus whole-phrase reuse requires a further test of internal substitutions or role transfer. This is structural evidence, not evidence for any gloss.",
+      "evidence": ["ZL3b|f77r.11|G001", "ZL3b|f77r.14|G004", "IT2a|f77r.11|G001", "IT2a|f77r.14|G004", "ZL3b|f77r.23|G005", "ZL3b|f85r1.4|G005", "RF1b|f77r.23|G005", "RF1b|f85r1.4|G005"]
+    },
+    {
+      "id": "C2_position_is_not_fixed_role",
+      "observation": "In the provided line grouping, shedy is non-final (f77r.11 G003; f77r.16 G005) and the last listed group (f80v.32 G009; f85r1.6 G007). qokeedy is the first listed group (f77r.13 G001; f80v.33 G001) and non-first (f77r.23 G006; f85r1.4 G006). EXPOSED_PARAGRAPHS lacks per-group separator flags, so these are line-position constraints only.",
+      "discriminator": "These observations contradict only a rival requiring one fixed line-boundary position for an exact token. They do not contradict a flexible word-order account in which the same token keeps a participant or grammatical role at different positions; component versus whole-form role requires a separate substitution/transfer test. Structural predecessors GDT608/GDT282/GDT286/GDT318 motivate retaining entry context and residual whole-form information; no translation follows.",
+      "evidence": ["ZL3b|f77r.11|G003", "ZL3b|f77r.16|G005", "ZL3b|f80v.32|G009", "ZL3b|f85r1.6|G007", "ZL3b|f77r.13|G001", "ZL3b|f80v.33|G001", "ZL3b|f77r.23|G006", "ZL3b|f85r1.4|G006"]
+    },
+    {
+      "id": "C3_reader_variant_gate",
+      "observation": "The same locus changes grouping/raw form: f77r.9 has ZL poldarais (one G001), IT pol G001 + darair G002, and RF poldarairol G001; f77r.12 has ZL she[a:o]lol G007, IT sheol G007 + ol G008, and RF sheolol G007. RF also carries uncertainty markers at f77r.23 G005 and f85r1.4 G005-G006.",
+      "discriminator": "Any candidate must state its reader/segmentation contract. A claimed invariant lexeme count or three-reader replication is invalid where group boundaries differ; RF is an alternate reading of the same manuscript, not independent support.",
+      "evidence": ["ZL3b|f77r.9|G001", "IT2a|f77r.9|G001", "IT2a|f77r.9|G002", "RF1b|f77r.9|G001", "ZL3b|f77r.12|G007", "IT2a|f77r.12|G007", "IT2a|f77r.12|G008", "RF1b|f77r.12|G007"]
+    }
+  ],
+  "failure_modes": [
+    "Do not promote LEXICONS German glosses (liquid/flow/pipe, etc.) to evidence or invent same-portion identity for repeated forms.",
+    "Do not select only compatible loci, skip RF uncertainty, or merge ZL/IT/RF as independent manuscripts; GDT945/946 show this masks failed fixed contracts.",
+    "Do not let unknown neighbors repair a known contradiction or become arbitrary fillers; preserve UNBOUND/NOT_TESTABLE as capacity limits."
+  ],
+  "audit_example": "Under GDT946's fixed immediate-neighbor rule, ZL f80v.36 olal has an uncertain boundary and stays NOT_TESTABLE, while exact IT/RF olshedy olal shedy is COMPATIBLE. At f107r.21 taror olal okain, the known right-side okain mismatch remains KNOWN_SIDE_CONTRADICTION even if another neighbor is unknown: unknowns can block evaluation, never turn a known failure into PASS.",
+  "primary_pointers_checked": ["GDT608", "GDT282", "GDT286", "GDT318", "GDT910", "GDT914", "GDT927"],
+  "root_review_corrections": [
+    "C1 recurrence cannot select compositional analysis over stored whole-phrase reuse; an internal substitution or role-transfer test would be required.",
+    "C2 position variation constrains only fixed line-boundary rules; flexible word order can preserve participant or grammatical roles."
+  ],
+  "evidence_paths": [
+    "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+    "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+    "experiments/yolo/gdt944_third_content_formation_separation/artifacts/LEXICONS.json",
+    "experiments/yolo/gdt945_flow_source_or_partitive/REPORT.md",
+    "experiments/yolo/gdt946_portion_or_material_residue_clause/REPORT.md"
+  ]
+}

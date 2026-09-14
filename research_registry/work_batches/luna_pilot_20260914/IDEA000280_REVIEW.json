@@ -1,0 +1,37 @@
+{
+  "record_id": "IDEA000280",
+  "reviewer": "root",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "assessment_basis": "primary_source_review",
+  "reason": "RF_VARIANTS preserves raw separator flags, but EXPOSED_PARAGRAPHS word arrays do not encode all ZL/IT flags. More fundamentally, ZL/IT/RF are alternate readings of one manuscript, so cross-reader agreement cannot be independent semantic evidence. No semantic experiment was run; the original proposal is preserved.",
+  "blockers": [
+    {
+      "code": "missing_discriminating_prediction",
+      "detail": "Invariant order across alternate transcriptions is expected from a shared source. Raw RF boundaries can audit transcription, but cannot by themselves identify a shared content role or meaning.",
+      "evidence": [
+        "research_registry/work_batches/luna_pilot_20260914/REPORT.md",
+        "research_registry/work_batches/luna_pilot_20260914/PRODUCER_AUDIT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "different_observable_consequence",
+        "change": "new_design",
+        "detail": "A within-reader, raw-boundary-conditioned change in neighboring form/argument configuration must recur at a second locus against an explicit orthographic whole-phrase null; reader agreement alone is insufficient. No such independent semantic consequence is currently supplied. This is a design requirement, not proof that a reopening gate is met. Hypothetical joint meanings are allowed; no confirmed anchor is required.",
+        "evidence": [
+          "research_registry/work_batches/luna_pilot_20260914/REPORT.md",
+          "research_registry/work_batches/luna_pilot_20260914/PRODUCER_AUDIT.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More similar strings, reader agreement or random-word rivals alone",
+      "A matching change label or evidence-file existence"
+    ]
+  },
+  "relations": []
+}

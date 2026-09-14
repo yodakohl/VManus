@@ -1,0 +1,18 @@
+{
+  "status": "DONE",
+  "summary": "Implemented and hardened a standalone stdlib validate/brief/collect CLI with schema, selector seal, lexical packet path, symlink/path, input hash, task ownership, output collision, and existing regular evidence file checks. It does not execute jobs or validate scientific meaning.",
+  "tests": [
+    "python -m unittest tests.test_luna_batch -v (4 tests passed, including packet symlink, sealed selectors, traversal, tamper, output collision, missing evidence, and task-scoped brief cases)",
+    "python -m py_compile tools/luna_batch.py tests/test_luna_batch.py",
+    "python tools/luna_batch.py validate research_registry/work_batches/luna_pilot_20260914/PACKET.json (VALID)"
+  ],
+  "evidence_paths": [
+    "research_registry/work_batches/luna_pilot_20260914/BRIEF.md"
+  ],
+  "files_changed": [
+    "tools/luna_batch.py",
+    "tests/test_luna_batch.py"
+  ],
+  "limitations": "Read-only workflow helper; no worker launch, API, subprocess execution, semantic or scientific result validation, registry mutation, or background service.",
+  "elapsed": "about 7 minutes total"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "AUDITED_NO_SELECTION",
+  "summary": "The three original RAW_UNSCREENED proposals remain preserved. Literal packet checks expose a P01 page-coverage/boundary problem and realistic rivals for all three. None is empirically falsified; none presently supplies a meaning-bearing discriminator.",
+  "preserved_outputs": {
+    "producer_result": "research_registry/work_batches/luna_pilot_20260914/PRODUCER_RESULT.json",
+    "producer_result_sha256": "664a7ddba68391ce0024944043bf389d443639fc02ed3affcb1d9c5209fb7b9b",
+    "raw_proposals": [
+      "research_registry/work_batches/luna_pilot_20260914/RAW_P01_qoteedy_qokeedy_order.json",
+      "research_registry/work_batches/luna_pilot_20260914/RAW_P02_ol_kernel_composition.json",
+      "research_registry/work_batches/luna_pilot_20260914/RAW_P03_reader_spine_boundary.json"
+    ]
+  },
+  "proposals": [
+    {
+      "local_id": "LUNA-P01",
+      "idea_id": "IDEA000278",
+      "original_prediction": "A shared qo kernel with a compositional eedy/teedy state-to-process contrast predicts qoteedy-to-qokeedy or qoteedy-to-qokedy pairings and stable successor classes in f77r.11, .14, .17, .20 and f85r1.2-.3.",
+      "literal_packet_audit": {
+        "exact_counts_ZL3b": {"qoteedy": 6, "qokeedy": 15, "qokedy": 3, "qoteey": 1, "otedy": 4, "qotedy": 4, "qokchdy": 1},
+        "exact_pages_ZL3b": {"qoteedy": ["f77r"], "qokeedy": ["f77r", "f80v", "f85r1"], "qokedy": ["f77r"], "qotedy": ["f77r", "f85r1"], "otedy": ["f85r1"], "qokchdy": ["f85r1"]},
+        "exact_adjacent_pairs": ["f77r.17 qoteedy qokedy"],
+        "same_line_qoteedy_qokeedy": ["f77r.11", "f77r.14", "f77r.17"]
+      },
+      "scope_finding": "qoteedy and qokeedy do not co-occur as exact forms on two physical pages; qoteedy is f77r-only. The f85r1.2-.3 observation broadens from qoteedy/qokeedy to otedy/qotedy/qokchdy, and the original t/k contrast is not an eedy/teedy contrast.",
+      "realistic_rival": "A grammar or fixed whole-phrase template can place two frequent forms in the same line; qokeedy and qoteedy may be independent words with position-conditioned collocation.",
+      "distinguishes_meaning_mechanism": false,
+      "why": "Same-line co-occurrence on one page and related but nonidentical f85r1 forms cannot separate a compositional state/process meaning from a positional or whole-phrase grammar.",
+      "smallest_genuinely_different_consequence_needed": "An exact t/k opposition with the same controlled neighbors must recur on a second physical page and predict a different local content relation, or an in-packet matched context must show the t/k choice changing a relation while lexical/position controls remain fixed. The current packet supplies neither.",
+      "recommendation": "Retain as raw exploratory wording only; do not select P01 or silently treat f85r1 related forms as exact qoteedy/qokeedy evidence."
+    },
+    {
+      "local_id": "LUNA-P02",
+      "idea_id": "IDEA000279",
+      "original_prediction": "ol shells preserve kernels and neighbor classes across f80v and f85r1, including olshedy-qokeedy at f77r.23 and f85r1.4, whereas unrelated wholes do not.",
+      "literal_packet_audit": {
+        "observations": ["f80v.30-.36 has a dense ol/olkain/olshey/olshedy/olky run", "f77r.23 and f85r1.4 both contain olshedy qokeedy in ZL/IT", "f85r1.5 contains olkeedy ... olshedy"]
+      },
+      "scope_finding": "The observations are real packet forms, but shared morphology can itself produce kernel reuse and collocation. The original independent-whole rival is too weak because a whole-phrase or productive orthographic grammar can mimic both predicted signals without any stable meaning-bearing ol layer.",
+      "realistic_rival": "A register-specific grammar licenses recurring ol-shaped whole phrases and collocations; apparent kernels are morphological coincidence or a formal construction with no portable content role.",
+      "distinguishes_meaning_mechanism": false,
+      "why": "Kernel overlap plus repeated olshedy qokeedy adjacency does not show that ol modifies content rather than belonging to a formal or phrase-level construction; GDT945/GDT946 already warn against generalizing ol/olal roles.",
+      "smallest_genuinely_different_consequence_needed": "Within matched contexts, one shell change must alter a declared relation while the kernel/content environment stays fixed, and the converse shell reuse must preserve that relation on a second paragraph; both outcomes must be scored against a morphology/whole-phrase null using raw boundaries.",
+      "recommendation": "Retain as plausible untested composition, but do not select until a relation-changing consequence beyond kernel/collocation is written and available in scope."
+    },
+    {
+      "local_id": "LUNA-P03",
+      "idea_id": "IDEA000280",
+      "original_prediction": "RF marks and reader-specific spacing change surface segmentation while preserving an ordered kernel/relation-slot spine at f77r.23, f80v.32/.36 and f85r1.4.",
+      "literal_packet_audit": {
+        "observations": ["f77r.23 ZL/IT olshedy qokeedy chedy qok[a:o]l/qokol versus RF olshe@152;y qokeedy che@152;y qokal", "f80v.32 ZL arolkeedy versus IT arol keedy is documented in GDT944, not as a ZL/IT separator flag in EXPOSED_PARAGRAPHS", "f85r1.4 ZL/IT olshedy qokeedy versus RF olshe@152;y qokee@152;y"]
+      },
+      "scope_finding": "RF_VARIANTS preserves raw separator flags, but EXPOSED_PARAGRAPHS word arrays do not encode all ZL/IT flags. More fundamentally, ZL/IT/RF are alternate readings of one manuscript, so cross-reader agreement cannot be independent semantic evidence.",
+      "realistic_rival": "Transcriber orthography, source copying, and whole-phrase alignment produce the same stable spine while carrying no semantic or compositional claim; RF marking can be a reader convention.",
+      "distinguishes_meaning_mechanism": false,
+      "why": "Invariant order across alternate transcriptions is expected from a shared source. Raw RF boundaries can audit transcription, but cannot by themselves identify a shared content role or meaning.",
+      "smallest_genuinely_different_consequence_needed": "A within-reader, raw-boundary-conditioned change in neighboring form/argument configuration must recur at a second locus against an explicit orthographic whole-phrase null; reader agreement alone is insufficient. No such independent semantic consequence is currently supplied.",
+      "recommendation": "Retain only as an orthographic/segmentation hypothesis pending a non-reader discriminator; do not use it as independent semantic support."
+    }
+  ],
+  "evidence_paths": [
+    "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+    "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+    "research_registry/work_batches/luna_pilot_20260914/BRIEF.md",
+    "research_registry/work_batches/luna_pilot_20260914/PRODUCER_RESULT.json",
+    "research_registry/work_batches/luna_pilot_20260914/RAW_P01_qoteedy_qokeedy_order.json",
+    "research_registry/work_batches/luna_pilot_20260914/RAW_P02_ol_kernel_composition.json",
+    "research_registry/work_batches/luna_pilot_20260914/RAW_P03_reader_spine_boundary.json",
+    "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md",
+    "experiments/yolo/gdt945_flow_source_or_partitive/REPORT.md",
+    "experiments/yolo/gdt946_portion_or_material_residue_clause/REPORT.md",
+    "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+    "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md"
+  ]
+}

@@ -18,8 +18,8 @@ f84/f84r remain sealed and this correction admits no new material. Exposed
 working passages may be used for internal consistency, with all revisions and
 counterexamples recorded. Provisional coherence is not confirmed word meaning.
 
-The executable starting queue is [30 reading programs](TRANSLATION_PROGRAMS_30.md).
-Start with P09 unless a concrete current reason favors another. Its effort
+The [30 reading programs](TRANSLATION_PROGRAMS_30.md) have all received first passes.
+Choose the next task from the current route and reviewed idea cards. Effort
 estimates are checkpoints, not automatic stops or a renewed global time limit.
 Old fixed failed experiments remain unchanged. Primary predecessor checks must
 distinguish their actual tested contracts from these new joint hypotheses;
@@ -126,6 +126,11 @@ negative findings remain useful when they actually change a research decision.
 
 Explicit user request, 2026-09-06: keep an additional agent generating ideas in
 parallel and saving a list, so root does not restart ideation after each test.
+
+User authorization, 2026-09-14: use `gpt-5.6-luna` with high reasoning for bounded
+routine tasks, with root retaining interpretation and experimental selection.
+The [Luna pipeline guide](LUNA_PIPELINE.md) describes the producer/worker/critic
+roles and reusable packet validation, task briefs and result collection.
 
 - One producer adds new proposals with `vmanus-work ideas add`; root continues the current scientific
   task. On active turns, resume the producer with a bounded replenishment task

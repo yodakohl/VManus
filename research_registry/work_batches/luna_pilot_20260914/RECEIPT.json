@@ -1,0 +1,203 @@
+{
+  "status": "ENGINEERING_COMPLETE_RESEARCH_NOT_SELECTED",
+  "task": "Authorized Luna high pipeline and bounded automation pilot",
+  "timing": {
+    "started_utc": "2026-09-14T18:00:35+00:00",
+    "packet_created_utc": "2026-09-14T18:02:57.463282+00:00",
+    "ready_for_publication_utc": "2026-09-14T18:18:17.202208+00:00",
+    "budget_minutes": 30,
+    "measurement": "Wall clock for this engineering-heavy pilot, not model inference time or comparative throughput; Git records the subsequent publication commit."
+  },
+  "workers": [
+    {
+      "role": "producer",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "high",
+      "fork_turns": "none"
+    },
+    {
+      "role": "worker",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "high",
+      "fork_turns": "none"
+    },
+    {
+      "role": "critic",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "high",
+      "fork_turns": "none"
+    }
+  ],
+  "checks": {
+    "focused_and_existing_tests": {
+      "status": "PASS",
+      "tests": 62,
+      "command": "python3 -m unittest tests.test_luna_batch tests.test_workflow_docs tests.test_work_context tests.test_work_preflight tests.test_repository_infrastructure"
+    },
+    "packet_validation": "VALID: 8 bound inputs and 3 tasks",
+    "collection": "DONE: all three primary task packages; scientific meaning not validated",
+    "exact_form_audit": "PASS: deterministic stdout/artifact replay, independent literal counts across all six paragraphs, all 43 exact occurrences, qoteedy only f77r and three same-line loci",
+    "registry": "PASS after one metadata refresh",
+    "context": "PASS; 3973 bytes",
+    "global_check": {
+      "status": "FAIL_PREEXISTING_GDT600_ONLY",
+      "unbound_files": [
+        "METHOD.md",
+        "PREREGISTRATION.md",
+        "README.md",
+        "REPORT.md",
+        "src/model.py",
+        "src/run.py",
+        "src/validate.py"
+      ],
+      "path": "experiments/yolo/gdt600_complete_object_surface_grammar",
+      "cleared": false
+    },
+    "publication": "Exact staged privacy/scope preflight must pass before push; result is checked at publication, not presumed here."
+  },
+  "scope": {
+    "manuscript_selectors": [
+      "f77r",
+      "f80v",
+      "f85r1"
+    ],
+    "physical_leaves": [
+      77,
+      80,
+      85
+    ],
+    "loci": 30,
+    "ZL_IT_paragraph_records": 6,
+    "RF_role": "matching line union; alternative reading",
+    "new_manuscript_access": false,
+    "new_images": false,
+    "contacts": false,
+    "independent_meaning_capacity": 0,
+    "confirmed_words": 0
+  },
+  "research_decision": {
+    "ideas": [
+      "IDEA000278",
+      "IDEA000279",
+      "IDEA000280"
+    ],
+    "verdict": "not_tested; none selected",
+    "distinction": "P01 source premise corrected; P02/P03 insufficient semantic discrimination. No mechanisms empirically falsified by this workflow pilot."
+  },
+  "corrections": {
+    "producer": "Original outputs preserved; PRODUCER_AUDIT.json separately records exact-form and rival defects.",
+    "critic": "Initial producer-independent source inspection; root then requested two explicit corrections recorded in root_review_corrections.",
+    "followup_worker": "Exact-form source audit only; no new registered order test."
+  },
+  "metadata_refresh": {
+    "old_records": 5544,
+    "new_records": 5545,
+    "removed_ids": [],
+    "added_ids": [
+      "HIST:78d0c584613c0fdf"
+    ],
+    "existing_changes": "Only sources metadata in 4486 imported records changed after the ledger append; no historical result bodies rewritten."
+  },
+  "artifact_bindings": [
+    {
+      "path": "docs/LUNA_PIPELINE.md",
+      "sha256": "29e58fd5258b6cfe711a598a125977c9a3f3fe3ffdf25021345de898f876e191"
+    },
+    {
+      "path": "docs/WORKFLOW.md",
+      "sha256": "6b319d04a831f5947484478f5775e3ad43a6f415528ee37c2ab7099839e1a61b"
+    },
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+      "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+    },
+    {
+      "path": "experiments/yolo/gdt763_h1_content_vs_record_discriminator/REPORT.md",
+      "sha256": "a18fe25b661e5a69fd84799a45dad01c50a512a71468f9fc6e35398421534650"
+    },
+    {
+      "path": "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md",
+      "sha256": "e8d09a5c2f52d642f0bec2197c552ddcc61fa2fe2ea37abf85ce47e454abe472"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/BRIEF.md",
+      "sha256": "38ea3860156764653793e350336f98d1714732b7e5e60f3e6e6067f72685be81"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/BUILDER_RESULT.json",
+      "sha256": "a987e2c633fa2b8ec5463672928ccd947fd5ef057da2c5d48680336924afe69c"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/COLLECTED_RESULTS.json",
+      "sha256": "6016f1ab7bd4292f844a8206bec306cf8d9569c4835861636d25cbb547e53fa8"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/CRITIC_RESULT.json",
+      "sha256": "12a822371f32a9723298a2d603639a4d96868231196cfb5df7ecc721fc5a6c64"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/EXACT_FORM_AUDIT.json",
+      "sha256": "1ddcd286465ff6a26bc880a215a282731a3748c42bb64a5836643c3ddd5b3a19"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+      "sha256": "25cb7259002627ceae5eeebc93ed28fee0153adcdb1755a3e41c5d45106b39a8"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/IDEA000278_REVIEW.json",
+      "sha256": "a1bc31120519162d5a988ad1defeccdb60db9912095f7437c401af60c1aa3ddc"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/IDEA000279_REVIEW.json",
+      "sha256": "ec651962115ca8816c13334554dc462d09913f0d51db324b87caa2a620b2fe20"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/IDEA000280_REVIEW.json",
+      "sha256": "a393768dd10d9e7292bc32006992cb9d5173489f29fce2d84c0b7ff8494c3930"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/PACKET.json",
+      "sha256": "852267ff88335af13f6a05a248e98827a9e449b5501497974a7e4276e6a30b40"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/PRODUCER_AUDIT.json",
+      "sha256": "66bea7263503a25fd300026e4ca97b40879b0433c6413a5cd8450bb12f3f64fd"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/PRODUCER_RESULT.json",
+      "sha256": "664a7ddba68391ce0024944043bf389d443639fc02ed3affcb1d9c5209fb7b9b"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/RAW_P01_qoteedy_qokeedy_order.json",
+      "sha256": "3c3b118245e8a5f9f38e287bd37ac4d8a637ced5207d1ec2e357ee7c5d2c95a4"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/RAW_P02_ol_kernel_composition.json",
+      "sha256": "2d268ae1d920a2a00a70ae8e9090c01c646f2e7557312db1eb3f27799bee4033"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/RAW_P03_reader_spine_boundary.json",
+      "sha256": "5eef7538387b574eeab1ff17ef245fbfcc6084ad0db1ffa90137931298b45312"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/REPORT.md",
+      "sha256": "a74c5b229fa0ff564d44d0d28292d61648b994187cb8012f9e5207c934191d01"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+      "sha256": "e1abf863d5c4ed29306135a74c09d3232aa25e763b1f7ab34fc88e8b85f9bd1e"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/audit_exact_forms.py",
+      "sha256": "29c0bc6ba018d490c447d76d130da056f4f0ed5767bbbc3eaed93b8a736dd103"
+    },
+    {
+      "path": "tests/test_luna_batch.py",
+      "sha256": "b8761ad6d5aa97641a2b0be9a187ec483fc87cca7e9c304cf50ce3746ca6c298"
+    },
+    {
+      "path": "tools/luna_batch.py",
+      "sha256": "fa840f0725c46c47f4ae8c34531cdaeaab393486ed0b1ddfac2634d2db862cc1"
+    }
+  ]
+}
