@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W60 (2026-09-14): exact qolshey qokain repeats f80r.36 beyond f75v.42; all5 exact reading pairs definite. charor one physical locus. Full four ZL/IT paragraphs exported; no new gloss or W59 repair. Primary: research_registry/proposals/translation_programs_20260912/work/W60/REPORT.md.
+
 W59 (2026-09-14): conditional A-with-D wetting at f75v.40 under explicit immediate syntax;all4qokain retained;B medium remains open across qolshey. No meanings selected. Primary: research_registry/proposals/translation_programs_20260912/work/W59/REPORT.md.
 
 W58 (2026-09-14): explicit sheedy=A/shey=B hypotheses bind4actionsA/3B under fixed last-material rule. No material identity or meaning confirmation; wetting medium open. Primary: research_registry/proposals/translation_programs_20260912/work/W58/REPORT.md.
