@@ -1,0 +1,157 @@
+{
+  "prior_lexicons": "experiments/yolo/gdt939_written_content_subject_passage/artifacts/LEXICONS.json",
+  "inventory_spec": "experiments/yolo/gdt929_fixed_four_form_context_square/src/SPEC.json",
+  "paragraph_source": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "locus": "f111v.18",
+  "frame": [
+    "f111v",
+    1,
+    25
+  ],
+  "new_lexicon": {
+    "tair": [
+      "danach",
+      "TEMPORAL_ANAPHOR"
+    ],
+    "qochdaiin": [
+      "gelangt",
+      "MOTION"
+    ],
+    "okain": [
+      "weiterhin",
+      "PERSISTENCE"
+    ],
+    "kaiin": [
+      "durch",
+      "PATH"
+    ],
+    "alkain": [
+      "füllt",
+      "FILL"
+    ],
+    "o": [
+      "das",
+      "DEFINITE_DETERMINER"
+    ],
+    "l": [
+      "andere",
+      "OTHER"
+    ],
+    "r": [
+      "Gefäß",
+      "VESSEL"
+    ],
+    "ol": [
+      "nur",
+      "LIMITER"
+    ],
+    "dain": [
+      "wenig",
+      "LOW_AMOUNT"
+    ]
+  },
+  "expected_words": {
+    "ZL3b": [
+      "tai[s:r]",
+      "shedy",
+      "qoeedaiin",
+      "okain",
+      "{c'hh}ey",
+      "kaiin",
+      "shey",
+      "otain",
+      "alkain",
+      "o",
+      "l",
+      "r",
+      "ol",
+      "dain"
+    ],
+    "IT2a": [
+      "tair",
+      "shedy",
+      "qochdaiin",
+      "okain",
+      "sheey",
+      "kaiin",
+      "shey",
+      "otain",
+      "alkain",
+      "o",
+      "l",
+      "r",
+      "ol",
+      "dain"
+    ],
+    "RF1b": [
+      "tair",
+      "shedy",
+      "qoeedaiin",
+      "@221;kain",
+      "sheey",
+      "kaiin",
+      "shey",
+      "otain",
+      "alkain",
+      "o",
+      "l",
+      "r",
+      "ol",
+      "jain"
+    ]
+  },
+  "sentences": {
+    "C": "Danach gelangt die Flüssigkeit, weiterhin klar, durch diese Öffnung; sie füllt das andere Gefäß nur wenig.",
+    "W": "Danach gelangt die Flüssigkeit, weiterhin Wasser, durch diese Öffnung; sie füllt das andere Gefäß nur wenig."
+  },
+  "local_roles": [
+    "TIME",
+    "SUBJECT",
+    "MOTION",
+    "PERSISTENCE",
+    "SUBJECT_PREDICATE",
+    "PATH",
+    "APERTURE_DEMONSTRATIVE",
+    "APERTURE",
+    "FILL",
+    "OBJECT_DETERMINER",
+    "OBJECT_OTHER",
+    "OBJECT_VESSEL",
+    "AMOUNT_LIMITER",
+    "LOW_FILL_AMOUNT"
+  ],
+  "nominal_roles": [
+    "CONTENT_MATERIAL",
+    "MATERIAL",
+    "MATERIAL_CLASS",
+    "VESSEL",
+    "APERTURE",
+    "MATERIAL_RESULT",
+    "PLACE"
+  ],
+  "transfer_rules": {
+    "o": {
+      "id": "ARTICLE_NOMINAL",
+      "optional": "l"
+    },
+    "l": {
+      "id": "OTHER_NOMINAL",
+      "optional": null
+    },
+    "kaiin": {
+      "id": "PATH_NOMINAL",
+      "optional": "shey"
+    }
+  },
+  "sealed": [
+    "f84",
+    "f84r"
+  ],
+  "transfer_contract": "Immediate nominal head after optional single modifier, only across definite spaces within the existing line. Unknown or uncertain boundary is OPEN. Known nonnominal first head is CONFLICT. This restrictive syntax is an explicit new hypothesis, not inferred universal Voynich grammar.",
+  "claims": {
+    "confirmed_words": 0,
+    "independent_meaning_tests": 0,
+    "unexposed_confirmation_folios": 0,
+    "significance_claimed": false
+  }
+}

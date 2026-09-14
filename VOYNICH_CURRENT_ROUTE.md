@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT939 full12group f111v17: content of this pipe clear/water, rise and passage.
-Latest decision: Nine new hypotheses avoid local pipe=water only conditionally; no word selected. solkain transfer open.
-Working files: experiments/yolo/gdt939_written_content_subject_passage/REPORT.md
-Assumptions: 33-word values; new nominal/subject syntax; .18 this-opening has5 earlier aperture mentions, no bound identity.
-Resume: Read whole f111v18 with25line context and all variants; no automatic reference filter or recount of the pair.
-Running: none; producer added3 RAW_UNSCREENED ideas265–267.
+Task: GDT940 whole14group f111v18 second-vessel draft and exhaustive nominal transfer.
+Latest decision: Reject new10-word/3-construction package; C84/W78 contract conflicts, not individual word refutations.
+Working files: experiments/yolo/gdt940_second_vessel_whole_line_trial/REPORT.md
+Assumptions: GDT93933-word hypotheses unchanged; GDT94010values parked. IT14/14,ZL/RF11/14; no word selected.
+Resume: Review whole existing f115v paragraph around38 against111v18 o l r; IT115v has olr. No boundary recount or assumed vessel meaning; no automatic19 gloss expansion.
+Running: none; producer added3 RAW_UNSCREENED ideas268–270.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
