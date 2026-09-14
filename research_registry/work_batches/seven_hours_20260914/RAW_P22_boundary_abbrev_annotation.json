@@ -1,0 +1,30 @@
+{
+  "title": "RAW_UNSCREENED: ctho-daiin als Abkürzungsform oder zwei Felder",
+  "summary": "RAW_UNSCREENED: f32v.8 has ZL/IT ctho daiin but RF cthodaiin; f32v.9 has neighboring two-field sequence.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Only already exposed source lines and cached report outputs; no new selectors, images or reserves.",
+    "mechanism": "Abbreviation reading treats fused/split writing as one compact semantic unit; field reading treats ctho and daiin as independent cells.",
+    "unit": "Exact whole-form occurrences at the named loci.",
+    "contrast": "Reader-invariant abbreviation versus boundary-sensitive field scope",
+    "prediction": "Abbreviation predicts invariant downstream scope under fused/split presentation; two-field reading predicts changed field count or scope.",
+    "concrete_observations": [
+      "GDT809 documents exact ZL/IT versus RF boundary difference at f32v.8 and chocthy daiin cthaiin daiin at f32v.9."
+    ],
+    "linked_consequences": [
+      "Abbreviation requires reader-invariant downstream role without component export; two-field reading requires reproducible boundary-sensitive scope."
+    ],
+    "nearest_rival": "Reader-invariant abbreviation versus boundary-sensitive field scope",
+    "distinguishing_observation": "Compare reader-native boundaries and downstream scope only; alternate readings are not independent witnesses.",
+    "assumption_costs": [
+      "whole boundary unit is provisional",
+      "reader flags are preserved",
+      "no component translation"
+    ],
+    "strongest_likely_failure": "Boundary variation may be transcriptional and cannot by itself supply semantic evidence.",
+    "primary_predecessors": [
+      "GDT809",
+      "GDT609"
+    ]
+  }
+}

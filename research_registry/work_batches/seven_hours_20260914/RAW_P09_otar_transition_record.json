@@ -1,0 +1,32 @@
+{
+  "title": "RAW_UNSCREENED: otar als Fortsetzung oder Recordposten",
+  "summary": "RAW_UNSCREENED: otar occurs after amount/state fields and before new fields; it may be a continuation relation or a nominal record entry, with direction-sensitive consequences.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Exact otar contexts f86v5.13, f75r.43 and f115v.5 from GDT769; no new corpus.",
+    "mechanism": "Continuation reading links an earlier field to the next; record reading treats otar as a nominal preparation/field item.",
+    "unit": "otar occurrences in the three complete local frames.",
+    "contrast": "Relational continuation versus nominal record field.",
+    "prediction": "Continuation predicts a following field/state and mixed but licensed transition directions; nominal reading predicts otar can close or occupy a field without requiring a successor state.",
+    "concrete_observations": [
+      "GDT769 places otar after an amount in f86v5.13, between state and close/result at f75r.43, and before an independent process word at f115v.5.",
+      "GDT769 reports R05 and R01 role ties, with `bis` as an identity rival."
+    ],
+    "linked_consequences": [
+      "A continuation must explain all three written successor configurations without silent endpoints.",
+      "A nominal field must recur in line/record positions where no transition is claimed."
+    ],
+    "nearest_rival": "A preparation/record noun or endpoint marker such as `bis`.",
+    "distinguishing_observation": "Predeclare successor availability and endpoint status per exact locus; a mixed-direction continuation only survives if each direction has a written target, otherwise the nominal rival remains.",
+    "assumption_costs": [
+      "local frame roles are provisional",
+      "no universal temporal translation",
+      "state changes are not inferred from order alone"
+    ],
+    "strongest_likely_failure": "GDT769 already finds equal role scores; no written endpoint or successor is independently semantic.",
+    "primary_predecessors": [
+      "GDT769",
+      "GDT625"
+    ]
+  }
+}

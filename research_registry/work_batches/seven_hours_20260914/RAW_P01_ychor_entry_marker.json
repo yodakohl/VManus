@@ -1,0 +1,32 @@
+{
+  "title": "RAW_UNSCREENED: ychor als Eintragsfortsetzung oder Rezeptimperativ",
+  "summary": "RAW_UNSCREENED: ychor steht 13/13 am Zeilenanfang, nie am Absatzanfang; dieselben Folgefelder können einen weiteren Eintrag oder einen Arbeitsbefehl eröffnen.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Exposed ychor lines and their cached complete line bodies in GDT756; no image or new corpus.",
+    "mechanism": "Metatextual continuation marker: ychor introduces another item/entry; rival treats it as an imperative Recipe/Accipe.",
+    "unit": "Exact ychor loci and first three complete body slots.",
+    "contrast": "Entry continuation versus executable imperative.",
+    "prediction": "Continuation predicts ychor bodies remain item-like records and recur with heterogeneous content/amount/process fields without requiring an action host; imperative predicts a stable action-bearing body with an explicit patient/result.",
+    "concrete_observations": [
+      "GDT756 reports 13/13 line-initial and 0/13 paragraph-initial ychor occurrences across four sections.",
+      "Examples f6v.8, f17v.15, f45v.9 and f102v2.35 have differing following content, quantity and process-like slots."
+    ],
+    "linked_consequences": [
+      "A continuation reading predicts the same opener can precede descriptive and prescriptive records.",
+      "An imperative reading predicts a common written operand and resulting state in each selected body; missing operands remain failures, not invisible repairs."
+    ],
+    "nearest_rival": "Recipe/Accipe imperative with a line-initial action frame.",
+    "distinguishing_observation": "Predeclare body fields and count whether ychor lines contain a written action operand plus result versus merely a new item/record body; line position alone is not sufficient.",
+    "assumption_costs": [
+      "ychor is a whole metatextual form",
+      "body slots can be typed without translating them",
+      "no paragraph boundary is inferred from line onset"
+    ],
+    "strongest_likely_failure": "The same mixed bodies can be rendered under both entry and imperative syntax, leaving no independent operand/result distinction.",
+    "primary_predecessors": [
+      "GDT756",
+      "GDT609"
+    ]
+  }
+}

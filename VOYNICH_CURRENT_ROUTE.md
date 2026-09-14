@@ -1,15 +1,16 @@
 # Voynich current route
-Updated: 2026-09-14. This is the sole live resume point; replace, never append history.
+Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
 Phase: exploration
-Status: complete
-Task: GDT949 two full phrase-family readings; no observable semantic discriminator obtained.
-Latest decision: Known mixed endings reject N plus universal attribution; number/state meanings remain unselected.
-Working files: experiments/yolo/gdt949_phrase_readings_observable_consequences/REPORT.md
-Assumptions: 4wholelines32ZLgroups31types30singletons;33values/model; all exposed. No reserves.
-Resume: No semantic test selected. Do not extend free glosses or rerun r/l counts from these drafts.
-Running: none. Source/coverage validation passed; GDT948 and prior failures unchanged.
+Status: active
+Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
+Latest decision: GDT950 closes fixed weather phase/result model: ZL/IT contradicted, RF unselected.
+Next: choose a different repeated content consequence; no weather-gloss permutation or adjacency repair.
+Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
+Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
+Resume: GDT950 publication closure; check session clock/receipts, then select next justified candidate.
+Running: root active research; bounded idea producer to replenish proposals. Seven hours not yet elapsed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

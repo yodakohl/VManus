@@ -1,0 +1,81 @@
+{
+  "title": "Bounded screen: directional label/register content mechanism",
+  "date": "2026-09-15",
+  "scope": {
+    "sources": [
+      "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_10_EXACT_LABEL_PROSE_BRIDGES.tsv",
+      "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_13_PANEL_RECORD_BINDINGS.tsv",
+      "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+      "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "experiments/yolo/gdt930_label_text_joint_reading/REPORT.md",
+      "experiments/yolo/gdt931_shedy_concrete_reading_contrast/REPORT.md",
+      "experiments/yolo/gdt932_joint_flow_participant_reading/REPORT.md",
+      "experiments/yolo/gdt933_paragraph_participant_reference_contrast/REPORT.md"
+    ],
+    "constraints": [
+      "already exposed material only",
+      "no new images, selectors, reserves or contacts",
+      "whole forms and raw label/prose edges retained",
+      "no confirmed word meanings"
+    ]
+  },
+  "strongest_candidate": {
+    "mechanism": "A silent panel station enters written content through a directional document register. A label-before-prose edge is an entry opener/address; prose-before-label is a return/index edge; cross-page reuse is neutral name/formula reuse.",
+    "finite_mapping_space": {
+      "worlds": [
+        "DIRECTIONAL_REGISTER: same-page label-to-prose must open a record and same-page prose-to-label must close/point to a station; cross-page edges carry no local-owner claim",
+        "NAME_REUSE: exact label recurrence has one nominal/name function regardless of document direction"
+      ],
+      "edge_classes": ["LABEL_PRECEDES_PROSE", "PROSE_PRECEDES_LABEL", "CROSS_PAGE"],
+      "predeclared_observable_bins": {
+        "label_precedes_prose": "recurrent form is token 1 of the same-page prose record",
+        "prose_precedes_label": "recurrent form is in the final third of the same-page prose record",
+        "cross_page": "no station binding; only exact-form reuse is counted"
+      }
+    },
+    "exact_observation": {
+      "all_bridges": 10,
+      "same_page_label_precedes_prose": 1,
+      "same_page_prose_precedes_label": 2,
+      "cross_page": 7,
+      "label_precedes_example": "otedy: f77r.3 label -> f77r.25 token 1 of 8",
+      "prose_precedes_examples": [
+        "okal: f82r.6 token 6 of 9 -> f82r.36 label",
+        "okal: f82r.12 token 7 of 8 -> f82r.36 label"
+      ],
+      "panel_mismatch": [
+        "otedy label is F77_TOP_ARCH while f77r.25 is F77_MIDDLE_BODY",
+        "okal label is F82_BOTTOM_COMMUNAL while f82r.6/f82r.12 are F82_TOP_COUPLED/F82_MIDDLE_TRANSFER"
+      ],
+      "cross_page_position_counterexample_to_owner_transfer": "otedy occurs at prose positions 1, 1, 2, 3 and 8 across f77r/f82r/f83r; it does not retain a fixed local field position"
+    },
+    "linked_consequences": [
+      "If additional already exposed same-page bridges satisfied the two positional bins, the next research decision would be to model labels as document addresses and keep their panel content external rather than assign them portable nouns.",
+      "If a same-page bridge violated its directional bin, or if cross-page recurrence required a panel owner, the directional register would be dropped and exact labels would remain names/formulae only; GDT930–933 reference/participant word models would not be reopened automatically."
+    ],
+    "minimum_assumptions": [
+      "GDT790's record and label loci are accepted as source metadata",
+      "same-page direction is a document relation, not a word translation",
+      "the final-third bin is fixed before any additional edge is inspected",
+      "cross-page recurrence is not treated as identity"
+    ],
+    "predecessor_difference": "GDT790 established panel ownership and counted ten exact bridges but did not test a directional register rule. GDT930–933 tested fixed whole-form attachment/reference readings inside f77r prose; this candidate keeps panel content external and predicts document function from edge direction."
+  },
+  "screen_result": {
+    "status": "NO_READY_DISCRIMINATOR",
+    "reason": "The only three same-page edges already used to define the candidate fit its bins (1/1 opener and 2/2 late fields), so there is no independent same-page case left to distinguish it from unrestricted name reuse. The two same-page examples also cross panel records, and no written relation identifies the remote station. Treating that as content would import the missing relation; relaxing it makes the candidate unfalsifiable on this packet.",
+    "closest_primary": "GDT790",
+    "closest_rivals": [
+      "GDT930–933 fixed label/participant attachment models",
+      "GDT765/GDT764 parallel X+daiin field models (already screened as duplicate or underpowered)",
+      "GDT809 whole-paragraph record/recipe comparison"
+    ],
+    "decision": "Do not implement or register this as a new experiment in the current bounded pass. Preserve it as a conditional structural hypothesis only. No semantic winner, confirmed word, or content identity follows."
+  },
+  "additional_topology_check": {
+    "candidate": "GDT790 topology-conditioned record schema",
+    "observation": "Across 123 image-aware lines and ten topology classes, X+daiin occurs on 5/99 multi-figure or multi-port lines and 2/24 single-figure lines; H1/H2 distributions overlap across every broad class.",
+    "decision": "No finite topology-to-content mapping is supported without fitting sparse counts; this is a duplicate of GDT790's stated next route rather than a ready content experiment."
+  },
+  "claim_ceiling": "This file records a source-grounded hypothesis screen, not a decipherment result. Confirmed translated words remain 0."
+}

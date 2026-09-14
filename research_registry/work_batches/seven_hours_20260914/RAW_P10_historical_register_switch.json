@@ -1,0 +1,33 @@
+{
+  "title": "RAW_UNSCREENED: medizinischer Glossar- versus Rezeptregister",
+  "summary": "RAW_UNSCREENED: period caches show learned drug/part names beside qualities in glossaries and separate measures/actions in recipes; HERB4 may switch register within a shared form inventory.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "HERB4 complete lines f17r.5, f21r.12 and f29v.1 plus historical comparison documented in GDT625/GDT809.",
+    "mechanism": "A register switch uses the same whole-form vocabulary for descriptive materia entries and prescriptive recipe fields, with explicit local record type.",
+    "unit": "The three exact lines and their neighboring part/quality/value forms.",
+    "contrast": "Descriptive glossary register versus executable recipe register.",
+    "prediction": "Glossary reading predicts head→part/quality→degree layouts and no required temporal output; recipe reading predicts material→amount/action→result layouts with written operands.",
+    "concrete_observations": [
+      "f17r.5 cthy chor shor contains several part-like wholes without a written amount token in the local span.",
+      "f21r.12 chor chol daiin and f29v.1 ... cthy ... daiin place part-like forms near value-like fields."
+    ],
+    "linked_consequences": [
+      "A glossary register should preserve parallel descriptive fields even when no operation is present.",
+      "A recipe register should require a written action/result pair before treating a value as a prescription."
+    ],
+    "nearest_rival": "One uniform recipe or one uniform descriptive genre across all four paragraphs.",
+    "distinguishing_observation": "Classify each complete line by written operand/result obligations, then test whether the same whole-form value remains stable within each register; mixed genre is supported only by recurring formal switch cues.",
+    "assumption_costs": [
+      "historical register analogues transfer only structurally",
+      "whole meanings remain unconfirmed",
+      "line grouping is inherited from exposed source"
+    ],
+    "strongest_likely_failure": "The same 145 groups can be made coherent under both genres because no independent genre marker is decoded.",
+    "primary_predecessors": [
+      "GDT625",
+      "GDT809",
+      "GDT764"
+    ]
+  }
+}

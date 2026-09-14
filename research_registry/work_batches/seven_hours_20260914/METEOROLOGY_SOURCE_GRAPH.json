@@ -1,0 +1,139 @@
+{
+  "title": "Aristotle Meteorology I.9-I.12: source-only causal and contrast graph",
+  "provenance": {
+    "cached_source": "research_registry/work_batches/seven_hours_20260914/ARISTOTLE_WEBSTER_I_9_12.txt",
+    "cached_scope": "Webster English translation, Parts 9-12, 2162 words; paraphrased here in full",
+    "contextual_medieval_source": "https://www.corpusthomisticum.org/cme1.html",
+    "contextual_note": "The linked page is Thomas Aquinas, Sentencia super Meteora, with a Leonine 1886 text; it confirms a medieval exposition context, not a circa-1420 witness or a Voynich plaintext.",
+    "voynich_access": "none"
+  },
+  "causal_cycle": {
+    "nodes": [
+      {"id":"solar_motion","description":"The sun's approach and retreat drive dissipation and condensation, hence generation and destruction."},
+      {"id":"earth_moisture","description":"Moisture surrounding the earth remains the material source."},
+      {"id":"evaporation","description":"Sunlight and heat from above evaporate the moisture."},
+      {"id":"vapour","description":"The exhaled water rises; it retains the heat that lifted it."},
+      {"id":"cooling","description":"Heat is lost by dispersal upward or quenching during ascent; cold place and lost heat cool the vapour."},
+      {"id":"condensation","description":"Cooled vapour condenses and changes from air to water."},
+      {"id":"fall","description":"Once water has formed it descends to earth."},
+      {"id":"cloud","description":"Air that condenses into water is called cloud."},
+      {"id":"mist","description":"Residue after cloud condenses into water; a barren-cloud sign of fair weather rather than rain."},
+      {"id":"drizzle_rain","description":"Small falling drops are drizzle; larger drops are rain."}
+    ],
+    "edges": [
+      {"from":"solar_motion","to":"evaporation","relation":"drives"},
+      {"from":"evaporation","to":"vapour","relation":"produces_and_raises"},
+      {"from":"vapour","to":"cooling","relation":"loses_lifting_heat"},
+      {"from":"cooling","to":"condensation","relation":"causes"},
+      {"from":"condensation","to":"fall","relation":"forms_water_then"},
+      {"from":"cloud","to":"mist","relation":"residue_after_condensation"},
+      {"from":"fall","to":"drizzle_rain","relation":"drop_size_names_variants"}
+    ],
+    "qualification": "The cycle follows the sun: vapour tends upward when the sun is near and water downward when it recedes, while the sequence itself remains ordered. Aristotle compares it to a circular river partly air and partly water."
+  },
+  "dew_frost_and_lower_conditions": {
+    "nodes": [
+      {"id":"low_rise_vapour","description":"Some daytime vapour does not rise high because the fire-to-water ratio is small; it cools and descends at night."},
+      {"id":"dew","description":"Vapour first condenses to water, with heat insufficient to dry it and climate or season warm enough to prevent freezing."},
+      {"id":"hoar_frost","description":"Vapour freezes before it has condensed back into water; it is associated with winter and colder places."},
+      {"id":"clear_calm","description":"Clear sky permits raising; still air permits condensation. Both dew and hoar-frost require these conditions."},
+      {"id":"hollow_watery_source","description":"Vapour rises from hollow and watery places; a heavy burden limits its height."},
+      {"id":"mountain_absence","description":"Hoar-frost is absent on mountains in the account because high air motion dissolves the gathering and the vapour does not rise high."},
+      {"id":"south_north_wind","description":"Outside Pontus, south wind accompanies dew and north does not; south brings warmth, north cold that quenches evaporation."},
+      {"id":"pontus_reversal","description":"In Pontus the south is too cool to cause enough evaporation, while north cold concentrates heat by recoil and yields more evaporation; wells likewise emit more vapour in north than south wind."},
+      {"id":"formed_surface_water","description":"Water already formed on the earth's surface does not freeze in the same way as water in cloud-region conditions."}
+    ],
+    "edges": [
+      {"from":"low_rise_vapour","to":"dew","relation":"condenses_without_freezing"},
+      {"from":"low_rise_vapour","to":"hoar_frost","relation":"freezes_before_condensing"},
+      {"from":"clear_calm","to":"dew","relation":"necessary_condition"},
+      {"from":"clear_calm","to":"hoar_frost","relation":"necessary_condition"},
+      {"from":"hollow_watery_source","to":"low_rise_vapour","relation":"limits_height"},
+      {"from":"south_north_wind","to":"dew","relation":"ordinary_directional_condition"},
+      {"from":"pontus_reversal","to":"dew","relation":"geographic_exception_reverses_wind_relation"}
+    ],
+    "contrast": "Dew and frost share a low vapour path but split at the order of phase change: water first then no freeze versus freeze before water. Warmth makes dew more common; cold makes frost more common, but Pontus reverses the ordinary wind association."
+  },
+  "upper_precipitation_and_hail": {
+    "nodes": [
+      {"id":"upper_condensed_bodies","description":"Rain, snow and hail are three bodies condensed by cold in the upper region."},
+      {"id":"rain_dew_pair","description":"Rain and dew are treated as one kind in different amount: rain uses much vapour gathered over a larger region and longer time; dew is small and forms in a day over a small area."},
+      {"id":"snow_frost_pair","description":"Snow and hoar-frost are treated as one kind in different amount and cloud/vapour stage: cloud freezing yields snow, vapour freezing yields frost."},
+      {"id":"hail_no_lower_pair","description":"Hail has no corresponding lower vapour-region phenomenon, unlike the rain/dew and snow/frost pairs."},
+      {"id":"hail","description":"Hail is ice formed when already formed water freezes faster than it descends."},
+      {"id":"near_ground_freezing","description":"Large angular hail indicates short fall and freezing near the earth; distant fall abrades stones into smaller rounder forms."},
+      {"id":"warm_cold_recoil","description":"Warm surrounding air concentrates cold within by recoil; the same reversal makes lower earth cold in warm weather and warm in frost."},
+      {"id":"quick_condensation","description":"In warm seasons, concentrated cold makes cloud become water suddenly, producing large drops and violent showers."},
+      {"id":"seasonal_humidity","description":"Hail is uncommon in dry summer, more common in moist spring and moisture-returning autumn; late summer is possible. It is commoner in warm places while snow is commoner in cold places."},
+      {"id":"prior_warmth","description":"Water warmed beforehand is said to freeze more quickly; the text gives sun-warmed water and Pontus fishermen pouring warm water around reeds on ice as examples."},
+      {"id":"hot_region_rain","description":"Arabia and Ethiopia receive summer rather than winter rain, in torrents and repeatedly in one day, attributed to extreme heat and recoil cooling clouds."}
+    ],
+    "edges": [
+      {"from":"upper_condensed_bodies","to":"rain_dew_pair","relation":"upper_lower_correspondence"},
+      {"from":"upper_condensed_bodies","to":"snow_frost_pair","relation":"upper_lower_correspondence"},
+      {"from":"upper_condensed_bodies","to":"hail_no_lower_pair","relation":"explicit_exception"},
+      {"from":"snow_frost_pair","to":"hail","relation":"distinct_freezing_stage"},
+      {"from":"warm_cold_recoil","to":"quick_condensation","relation":"concentrates_cold_inside_warm_surrounding"},
+      {"from":"quick_condensation","to":"hail","relation":"formed_water_freezes_before_fall_completes"},
+      {"from":"near_ground_freezing","to":"hail","relation":"location_and_fall_shape_evidence"},
+      {"from":"seasonal_humidity","to":"hail","relation":"seasonal_frequency_qualification"},
+      {"from":"prior_warmth","to":"hail","relation":"faster_freezing_qualification"},
+      {"from":"hot_region_rain","to":"quick_condensation","relation":"regional_example"}
+    ]
+  },
+  "rejected_or_negated_accounts": [
+    {"claim":"Hail cannot be explained by cloud being pushed into a cold upper atmosphere and freezing there.","attribution":"unnamed proponents; explicitly opposed by Aristotle","reasons":["hail is not found at great height though that theory predicts it","large angular stones and observed near-ground clouds imply short fall and near-ground freezing","snow, unlike hail, is the high-mountain comparison"]},
+    {"claim":"Anaxagoras' explanation of violent showers is opposed.","attribution":"Anaxagoras","rejected_form":"cloud rises into cold air","account_given":"cloud descends into warm air; farther descent increases the effect"},
+    {"claim":"Hailstone growth by liquid droplets joining cannot explain hail.","attribution":"argument in source","reasons":["solid bodies do not coalesce like liquids","the drops must already have been large while suspended"]},
+    {"claim":"A cloud can freeze before becoming water.","attribution":"argument in source","status":"negated","reason":"the text says freezing requires formed water; suspension time and fall-time ordering are the issue"}
+  ],
+  "asymmetric_relations_for_future_text_representation": [
+    {
+      "id":"A1_pair_with_exception",
+      "relation":"rain:dew and snow:frost are paired correspondences, while hail has no lower counterpart",
+      "why_asymmetric":"Two upper/lower mappings exist and the third explicitly fails to map.",
+      "observable_representation_needed":"At least two repeated paired frames plus a third upper phenomenon with an explicit negative, absent-lower slot, or equivalent exception marker; simple recurrence or co-occurrence is insufficient.",
+      "multiword_constraint":"Constrains four pair-role words and a hail-role word together without requiring any one word to be known first."
+    },
+    {
+      "id":"A2_phase_order",
+      "relation":"vapour freezing before condensation yields frost; cloud freezing yields snow; formed water freezing before descent yields hail",
+      "why_asymmetric":"The same broad material path branches according to the order of phase transitions and altitude.",
+      "observable_representation_needed":"A directed multi-stage clause with distinct state nodes and ordered transition markers; an unordered list of weather terms cannot represent the contrast.",
+      "multiword_constraint":"Constrains terms for vapour/cloud/water and three outcome terms jointly."
+    },
+    {
+      "id":"A3_quantity_scale",
+      "relation":"rain exceeds dew in collected amount, spatial source and collection time; snow exceeds frost analogously",
+      "why_asymmetric":"The paired names share causes but differ systematically in magnitude and extent.",
+      "observable_representation_needed":"The same pair heads must recur with explicit quantity, duration or spatial modifiers that preserve the large/small ordering; isolated value-like tokens do not suffice.",
+      "multiword_constraint":"Constrains both members of each pair and their amount/extent field."
+    },
+    {
+      "id":"A4_wind_exception",
+      "relation":"dew follows south rather than north wind generally, but north rather than south in Pontus",
+      "why_asymmetric":"The same outcome and wind alternatives reverse under a named geographic condition.",
+      "observable_representation_needed":"A location-conditioned contrast with two wind-direction slots and opposite polarity, plus an explicit exception boundary; frequency alone cannot encode it.",
+      "multiword_constraint":"Constrains dew, two directional terms, and a location term as one relation."
+    },
+    {
+      "id":"A5_height_and_shape",
+      "relation":"hail's near-ground formation is inferred from large angular stones and short fall; high-altitude freezing is rejected",
+      "why_asymmetric":"Observed shape and violence support one formation location while the attributed rival predicts the opposite height.",
+      "observable_representation_needed":"A written observation→inference chain containing shape/size, fall duration or height, and an explicit rejected alternative.",
+      "multiword_constraint":"Constrains hail, shape/size descriptors, vertical-location terms and negation."
+    },
+    {
+      "id":"A6_condition_sign_vs_cause",
+      "relation":"clear calm permits dew/frost condensation; mist is a sign of fair weather rather than a rain cause",
+      "why_asymmetric":"The same atmospheric material can be a prerequisite in one frame and merely an indicator in another.",
+      "observable_representation_needed":"Conditional prerequisite syntax and a separate sign-versus-outcome relation, retaining explicit absence of wind.",
+      "multiword_constraint":"Constrains dew/frost, mist, clear/calm conditions and rain as distinct roles."
+    }
+  ],
+  "source_ceiling": {
+    "historical_transfer": "The text can supply a finite conceptual comparison, but it does not establish that the Voynich manuscript encodes this system.",
+    "language": "No Latin substitution, transliteration or word assignment is made.",
+    "semantic_status": "No Voynich meaning, image object, sentence boundary or universal recipe/document rule is inferred."
+  }
+}

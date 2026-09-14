@@ -1,0 +1,34 @@
+{
+  "experiment": "GDT950",
+  "source": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+  "editions": ["ZL3b", "IT2a", "RF1b"],
+  "discovery_pages": ["f77r"],
+  "additional_pages": ["f17r", "f21r", "f32v", "f29v"],
+  "forbidden_prefixes": ["f84"],
+  "forbidden_pages": ["f116v"],
+  "pairs": [
+    {"id": "A", "base": "otedy", "marked": "qotedy"},
+    {"id": "B", "base": "otol", "marked": "qotol"},
+    {"id": "C", "base": "otaiin", "marked": "qotaiin"},
+    {"id": "D", "base": "okaiin", "marked": "qokaiin"}
+  ],
+  "operators": ["qokeedy", "qoteedy"],
+  "orientations": [
+    {"id": "CF", "qokeedy": "CONDENSE", "qoteedy": "FREEZE"},
+    {"id": "FC", "qokeedy": "FREEZE", "qoteedy": "CONDENSE"}
+  ],
+  "operation_output_phases": {"CONDENSE": "LIQUID", "FREEZE": "SOLID"},
+  "phenomena": [
+    {"name": "DEW", "german": "Tau", "phase": "LIQUID"},
+    {"name": "RAIN", "german": "Regen", "phase": "LIQUID"},
+    {"name": "HOAR_FROST", "german": "Reif", "phase": "SOLID"},
+    {"name": "SNOW", "german": "Schnee", "phase": "SOLID"},
+    {"name": "HAIL", "german": "Hagel", "phase": "SOLID"}
+  ],
+  "case_rule": "Same edition, page and physical P line; consecutive raw source-group indices, literal listed operator then literal listed marked form; both touching separators DEFINITE_SPACE.",
+  "unknown_policy": "All other positions remain unknown; absent result after an operator is unresolved, not success or evidence for another parser.",
+  "known_motivating_loci": ["f77r.27", "f77r.43"],
+  "source_exposure": "All sources project-exposed before this model; discovery and additional leaves are disjoint but not semantically independent.",
+  "meaning_status": "UNCONFIRMED_CONJUNCTION",
+  "new_decoder": false
+}
