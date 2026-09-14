@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT938 whole B drafts: clear outflow or unmixed water; all500 targets retained.
-Latest decision: C/W unselected; f111v17 Rohr/sheey/ist is a conditional vessel/water collision, not proven syntax.
-Working files: experiments/yolo/gdt938_outflow_clarity_material_readings/REPORT.md
-Assumptions: 24-word hypotheses; shared pipe/unmixed and double-ist debts; R/T/F/P open.
-Resume: Read whole f111v17 with existing25line context; need content, not recounting collision or a scope parser.
-Running: none; producer added3 RAW_UNSCREENED ideas262–264.
+Task: GDT939 full12group f111v17: content of this pipe clear/water, rise and passage.
+Latest decision: Nine new hypotheses avoid local pipe=water only conditionally; no word selected. solkain transfer open.
+Working files: experiments/yolo/gdt939_written_content_subject_passage/REPORT.md
+Assumptions: 33-word values; new nominal/subject syntax; .18 this-opening has5 earlier aperture mentions, no bound identity.
+Resume: Read whole f111v18 with25line context and all variants; no automatic reference filter or recount of the pair.
+Running: none; producer added3 RAW_UNSCREENED ideas265–267.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
