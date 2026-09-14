@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W64 (2026-09-14): all33qokain;f80directportion may precede heating, same-mixture vs separateD unresolved. No new alias/stateengine;W63conditionalnoun retained. Primary: research_registry/proposals/translation_programs_20260912/work/W64/REPORT.md.
+
 W63 (2026-09-14): N sheckhy=mixture conditionally prioritized from ol/sheckhy and chey/sheckhy under old unconfirmed glosses. A retained;role evidence not lexical identity. All6completeparagraphs and5physicalpositions retained. Primary: research_registry/proposals/translation_programs_20260912/work/W63/REPORT.md.
 
 W62 (2026-09-14): sheckhy mixture/mix rivals;local mixture-with-D concept removes hypothetical long verb attachment but no meaning selected.3direct sheckhy qokain loci across all3readings. Primary: research_registry/proposals/translation_programs_20260912/work/W62/REPORT.md.
