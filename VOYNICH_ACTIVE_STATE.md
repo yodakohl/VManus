@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W85:complete f15r/f53v comparison4paras334groups45events; common opening only. cthy5vs1, operations2vs0; f53 last7lines wholly unknown; max carry24/26groups. No full shared reading. Next primary-check shodaiin/qodal and whole f53v7-13, no more placeholder-only repair. Primary: research_registry/proposals/translation_programs_20260912/work/W85/REPORT.md
+
 W84:14exacthits3loci116paras; tshor shey recurs f15r/f53v ZLIT, RF f53 tshorshey fused; tshor medial f95v1. Eight explicit-head drafts118changedbindings; tshor binds opening but no identity; tchaly/chtols single locus. Next joint complete f15r/f53v entry through cthy. Primary: research_registry/proposals/translation_programs_20260912/work/W84/REPORT.md
 
 W83:112paras66shey; V heat versus H warm/F moist under W82 C. H/F34bound32missing, structurally identical; six bad shey inputs become missing carriers, no repair. f8 prior .4 versus next .7 portion. Next primary-check tshor and full f15r opening. Primary: research_registry/proposals/translation_programs_20260912/work/W83/REPORT.md
