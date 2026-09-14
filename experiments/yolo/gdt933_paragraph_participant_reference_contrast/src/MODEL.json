@@ -1,0 +1,24 @@
+{
+  "source": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+  "frames": "experiments/yolo/gdt930_label_text_joint_reading/src/MODEL.json",
+  "lexicons": "experiments/yolo/gdt932_joint_flow_participant_reading/src/MODEL.json",
+  "baseline_bindings": "experiments/yolo/gdt932_joint_flow_participant_reading/artifacts/BINDINGS.tsv",
+  "policies": [
+    "LOCAL",
+    "TYPED_BACK",
+    "NOMINAL_BACK"
+  ],
+  "typed_material_roles": [
+    "MATERIAL"
+  ],
+  "ordinary_nominal_roles": [
+    "MATERIAL",
+    "VESSEL",
+    "PLACE",
+    "PART"
+  ],
+  "part_qualification": "PART immediately followed by GENITIVE within same prose block; only then typed material",
+  "continuation_rule": "Most recent prior FLOW in same block; retain that FLOW material binding, never update it retroactively from a later material mention.",
+  "resets": "every declared prose frame and every label; no sentence boundaries inferred from physical lines or unknown groups",
+  "gap_policy": "Keep all intervening raw groups, types, nominal competitors and copulas. Unknowns are unchecked, not neutral."
+}

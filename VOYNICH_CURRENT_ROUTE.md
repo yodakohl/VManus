@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT932 executed two joint nine-word flow/continuation readings on full GDT930 scope.
-Latest decision: M is an operational prose seed, V remains open; neither is a translation winner.
-Working files: experiments/yolo/gdt932_joint_flow_participant_reading/REPORT.md
-Assumptions: All words/syntax provisional; most obligations unbound; RF variants unresolved.
-Resume: Develop whole f77r P2/P3 with M and V rival; confront .26/.42 before adding isolated glosses.
-Running: none; 3 independent raw producer proposals stored.
+Task: GDT933 executed whole-paragraph M/V reference rivals and full P2/P3 drafts.
+Latest decision: M stays conditional; every extra compatible carry crosses unread content; no word gain.
+Working files: experiments/yolo/gdt933_paragraph_participant_reference_contrast/REPORT.md
+Assumptions: Nine words unchanged; source identity and all gap content unresolved; V remains open.
+Resume: Read the full qokal shedar dal chedy daror bridge at .25 in context; no further carry/filter expansion.
+Running: none; 3 separate raw producer proposals stored.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
