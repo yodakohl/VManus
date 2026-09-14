@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+IDEA181 SELECTION: fixed-standard relative shol/chol comparison retains known strict conflict in shol-chol-shol;weak opposing comparisons force equality,not a translated value. No written standard switch selected;full reading program not_tested,no renderer. Primary: research_registry/proposals/translation_programs_20260912/work/RELATIVE_STANDARD_REVIEW/REPORT.md
+
 DITTO BASELINE: closure argument deprioritized. Two of4shared symmetric cases automatic with only2X;remaining dar2/2 final versus other-middle56/179 ZL and50/165 IT in >2X stratum. Unmatched descriptive background,no significance/meaning;no semantic successor. Primary: research_registry/proposals/translation_programs_20260912/work/DITTO_BASELINE/REPORT.md
 
 DITTO WHOLE CONTEXT: all4symmetric X-marker-X sites are final two X mentions in their paragraphs;later text remains35-50groups at3sites. Posthoc construction-closing hypothesis only. Broad dar-means-no-later-X rule fails f78r with3later qokain. f82r paragraph scope ZL80/IT5groups. Repetition/identity/closing unresolved;no meaning or semantic successor. Primary: research_registry/proposals/translation_programs_20260912/work/DITTO_FULL_CENSUS/CONTEXT_REVIEW.md
