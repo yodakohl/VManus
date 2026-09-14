@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT948 four HERB4 process readings with catalogue and inspection rivals; no meaning selected.
-Latest decision: qotchy trenne/pruefe unresolved;3singleton bridges fit gaps. Full gloss coverage is no word recovery.
-Working files: experiments/yolo/gdt948_herb4_joint_material_reading/REPORT.md
-Assumptions: 145groups103types84singletons; all4paragraphs exposed. M/I states and identities assigned. No reserves.
-Resume: Select a distinct recurring-word binding consequence before more glosses; do not extend singleton repairs.
-Running: none. GDT948 is the latest manuscript hypothesis pass; technical validation passed.
+Task: GDT949 two full phrase-family readings; no observable semantic discriminator obtained.
+Latest decision: Known mixed endings reject N plus universal attribution; number/state meanings remain unselected.
+Working files: experiments/yolo/gdt949_phrase_readings_observable_consequences/REPORT.md
+Assumptions: 4wholelines32ZLgroups31types30singletons;33values/model; all exposed. No reserves.
+Resume: No semantic test selected. Do not extend free glosses or rerun r/l counts from these drafts.
+Running: none. Source/coverage validation passed; GDT948 and prior failures unchanged.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

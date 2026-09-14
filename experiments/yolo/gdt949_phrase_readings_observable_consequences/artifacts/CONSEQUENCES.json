@@ -1,0 +1,120 @@
+[
+  {
+    "id": "D1",
+    "claim_N": "chor/otar are plural, chol/otal singular",
+    "claim_S": "chor/otar name fresh material, chol/otal dried material",
+    "bridge": "A written nominal is bound to a visible referent with independently assessable numerosity and processing state; the image actually depicts these attributes.",
+    "observable": "Referent count and preparation state at all corresponding occurrences",
+    "prediction_N": "r nominal plural and l nominal singular; freshness/drying unspecified",
+    "prediction_S": "r nominal fresh and l nominal dried; number unspecified",
+    "available": false,
+    "reason": "Text packet has no independently identified pictured referent or state. Source words cannot measure their own meaning.",
+    "observed": null,
+    "decision": "NO_INDEPENDENT_OBSERVABLE_BINDING_IN_PACKET"
+  },
+  {
+    "id": "D2",
+    "claim_N": "A modifier and its nominal agree in number inside a constituent",
+    "claim_S": "Operation and material state are separately assigned",
+    "bridge": "EVERY exact adjacent pair in both nominated ordered families is one modifier-nominal constituent, across all its occurrences.",
+    "observable": "rr/rl/lr/ll cells among every exact definite-space pair",
+    "prediction_N": "Under this added universal attachment bridge: rl=lr=0",
+    "prediction_S": "No forbidden cell under this lexicon; no probabilistic frequency prediction",
+    "available": true,
+    "reason": "Cells are written and countable; universal constituent ownership is not independently known. Mixed cells already known from GDT915. This is an implication audit, not a new agreement test.",
+    "observed": [
+      {
+        "edition": "ZL3b",
+        "family": "cheo/cho",
+        "mixed": 3,
+        "total": 11
+      },
+      {
+        "edition": "ZL3b",
+        "family": "oka/ota",
+        "mixed": 2,
+        "total": 9
+      },
+      {
+        "edition": "IT2a",
+        "family": "cheo/cho",
+        "mixed": 2,
+        "total": 10
+      },
+      {
+        "edition": "IT2a",
+        "family": "oka/ota",
+        "mixed": 2,
+        "total": 7
+      },
+      {
+        "edition": "RF1b",
+        "family": "cheo/cho",
+        "mixed": 2,
+        "total": 8
+      },
+      {
+        "edition": "RF1b",
+        "family": "oka/ota",
+        "mixed": 2,
+        "total": 9
+      }
+    ],
+    "decision": "N plus universal adjacent-constituent bridge contradicted by known mixed cells; N semantic core not isolated; S not selected."
+  },
+  {
+    "id": "D3",
+    "claim_N": "At f2v.8 plural roots precede one cut root",
+    "claim_S": "At f2v.8 fresh root precedes ground dried root",
+    "bridge": "All three nominal appearances designate the same material individual and the line documents a transition, rather than a list/class/sample relation.",
+    "observable": "Independently bound source/result identity and explicit transition relation",
+    "prediction_N": "Would need a group-to-member or division interpretation to connect plural and singular",
+    "prediction_S": "Would need drying plus grinding to connect fresh and dried material",
+    "available": false,
+    "reason": "No explicit independently read identity/transition is supplied. Neither model is credited with these missing operations.",
+    "observed": null,
+    "decision": "NO_INDEPENDENT_OBSERVABLE_BINDING_IN_PACKET"
+  },
+  {
+    "id": "D4",
+    "claim_N": "Freshness not encoded by the N core",
+    "claim_S": "Number not encoded by the S core",
+    "bridge": "A new phrase occurrence must carry an independently known state or number, not just another r/l pair.",
+    "observable": "Later source context with independently constrained count/state",
+    "prediction_N": "A bare repetition alone gives the same number assignment",
+    "prediction_S": "A bare repetition alone gives the same state assignment",
+    "available": false,
+    "reason": "All54 matches in the scoped text census provide written occurrences; no additional semantic annotation is admitted. Repetition does not discriminate.",
+    "observed": null,
+    "decision": "NO_INDEPENDENT_OBSERVABLE_BINDING_IN_PACKET"
+  },
+  {
+    "id": "D5",
+    "claim_N": "dardardy rendered as two divisions and completion",
+    "claim_S": "same rendering",
+    "bridge": "Whole-token rendering equivalence across alternate reader segmentations",
+    "observable": "ZL dardardy versus IT/RF dar dar dy at f75r.36",
+    "prediction_N": "same authored action phrase",
+    "prediction_S": "same authored action phrase",
+    "available": true,
+    "reason": "Observed reader disagreement retained, no boundary normalization. It does not separate N/S or establish a dar or dy meaning.",
+    "observed": {
+      "IT2a": [
+        "dar",
+        "dar",
+        "dy"
+      ],
+      "RF1b": [
+        "dar",
+        "dar",
+        "dy"
+      ],
+      "ZL3b": [
+        "okar",
+        "otar",
+        "dardardy"
+      ]
+    },
+    "decision": "Reader difference present; both authored renderings share consequence."
+  }
+]
