@@ -1,0 +1,123 @@
+{
+  "phase": "DISCOVERY_SELECTED_CANDIDATES_BEFORE_FULL_RENDER",
+  "source": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+  "base_model": "experiments/yolo/gdt932_joint_flow_participant_reading/src/MODEL.json",
+  "frames": "experiments/yolo/gdt930_label_text_joint_reading/src/MODEL.json",
+  "targets": [
+    "qokal",
+    "shedar",
+    "dal",
+    "chedy",
+    "daror"
+  ],
+  "base": "M",
+  "rival_V": "Retained unchanged as unselected GDT932 rival; no new five-word V extension in this bounded pass. Choosing M as drafting basis is not a semantic comparison victory.",
+  "models": {
+    "R": {
+      "title": "Sammlung und örtlicher Verbleib",
+      "lexicon": {
+        "qokal": [
+          "im Becken",
+          "LOCATION"
+        ],
+        "shedar": [
+          "sammelt sich",
+          "ACCUMULATION"
+        ],
+        "dal": [
+          "und",
+          "COORDINATION"
+        ],
+        "chedy": [
+          "dort",
+          "LOCATION_ANAPHOR"
+        ],
+        "daror": [
+          "bleibt",
+          "REMAIN"
+        ]
+      },
+      "bridge_paraphrase": "Die Flüssigkeit sammelt sich im Becken und bleibt dort.",
+      "syntax": "shedy supplies the subject of shedar and daror across dal; qokal locates accumulation, chedy locates remaining. German wording reorders the source to S-V-A / S-V-A. No new event or participant is silently inserted.",
+      "continuation": "Following qokeedy may describe circulation inside the same basin, another portion or a later phase; source topology, portion identity and phase change must be read, not assumed. No assertion of universal contradiction with flow.",
+      "obligations": [
+        "Every chedy requires a location referent; it does not mean then or clear.",
+        "Every dal coordinates two constituents or clauses; unseen arguments remain unknown.",
+        "No amount reading for dal; no free derivation of qokaly or solchedy."
+      ]
+    },
+    "T": {
+      "title": "Sammlung und zeitlich folgender Abfluss",
+      "lexicon": {
+        "qokal": [
+          "im Becken",
+          "LOCATION"
+        ],
+        "shedar": [
+          "sammelt sich",
+          "ACCUMULATION"
+        ],
+        "dal": [
+          "und",
+          "COORDINATION"
+        ],
+        "chedy": [
+          "danach",
+          "TEMPORAL_ANAPHOR"
+        ],
+        "daror": [
+          "fließt ab",
+          "DRAIN"
+        ]
+      },
+      "bridge_paraphrase": "Die Flüssigkeit sammelt sich im Becken und fließt danach ab.",
+      "syntax": "shedy supplies one material subject for accumulation and drainage; dal coordinates both predicates; chedy orders drainage after accumulation. German reorders source groups; no assumed chronological order for every physical line.",
+      "continuation": "Following qokeedy could specify the drainage as warm flow from a pipe; identity of that event, the pipe outlet and fluid portion remain hypotheses.",
+      "obligations": [
+        "Every chedy requires an earlier event/state or time interval, even at line end or before ist.",
+        "Repeated chedy retains separate written temporal positions; no change to there or clear.",
+        "No free derivation of qokaly or solchedy."
+      ]
+    },
+    "Q": {
+      "title": "Örtlicher Gegensatz der Flüssigkeitsbeschaffenheit",
+      "lexicon": {
+        "qokal": [
+          "im Becken",
+          "LOCATION"
+        ],
+        "shedar": [
+          "trüb",
+          "QUALITY"
+        ],
+        "dal": [
+          "aber",
+          "CONTRAST"
+        ],
+        "chedy": [
+          "klar (trübungsarm)",
+          "FLUID_QUALITY"
+        ],
+        "daror": [
+          "am Ausgang",
+          "LOCATION"
+        ]
+      },
+      "bridge_paraphrase": "Die Flüssigkeit ist im Becken trüb, am Ausgang aber klar.",
+      "syntax": "Two predicative qualities share shedy; qokal and daror specify different locations; dal contrasts both predications. Zero copula is an explicit additional hypothesis at .25 although qokain is a written ist elsewhere.",
+      "continuation": "A single flowing material could have different clarity at two locations. No filter or purification process is silently translated; a cause must be supplied by other text.",
+      "obligations": [
+        "Every chedy means low-turbidity fluid quality, not clear passage, transparent pipe or temporal/spatial particle.",
+        "Every dal coordinates a contrast whose content must be recoverable.",
+        "No automatic chedy/shedy/solchedy component meanings."
+      ]
+    }
+  },
+  "selection_basis": "All target concordance lines viewed before selection, including f77r.23/.25/.34/.35 and all raw-reader alternatives. Basin, collection, clarity and drainage are conjectural content choices motivated by the prior fluid/pipe draft, not identified objects or independently learned senses.",
+  "rejected_before_lock": [
+    "Carry-only repair would not read the five groups.",
+    "Inherited dal=measured material / chedy=becomes would reuse an unrelated semantic model without testing its joint assumptions."
+  ],
+  "form_debt": "Known formal word families constrain future whole-account explanation; functional candidates are not ruled out merely because a longer word contains the same letters. R/T shedar event versus shedy material, Q shedar versus shedy quality/material, chedy versus solchedy and qokal versus qokaly remain unexplained.",
+  "semantic_confirmation": false
+}

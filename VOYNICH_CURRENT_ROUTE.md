@@ -4,11 +4,11 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT933 executed whole-paragraph M/V reference rivals and full P2/P3 drafts.
-Latest decision: M stays conditional; every extra compatible carry crosses unread content; no word gain.
-Working files: experiments/yolo/gdt933_paragraph_participant_reference_contrast/REPORT.md
-Assumptions: Nine words unchanged; source identity and all gap content unresolved; V remains open.
-Resume: Read the full qokal shedar dal chedy daror bridge at .25 in context; no further carry/filter expansion.
+Task: GDT934 executed three whole-content extensions for qokal shedar dal chedy daror.
+Latest decision: R collection/remain and T collection/drain remain open; Q clarity has conditional local debt.
+Working files: experiments/yolo/gdt934_bridge_content_joint_readings/REPORT.md
+Assumptions: Fixed M base; chedy there/afterwards/clear unselected; V unchanged; no confirmed word.
+Resume: Read whole .26 tail chcthy lchedy qokaly with chedy/lchedy/solchedy contexts; no carry repair.
 Running: none; 3 separate raw producer proposals stored.
 
 ## Structural baseline
