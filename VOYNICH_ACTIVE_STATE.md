@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W73: fixed J/M shared-right transfer16cases allblocked byopenotey/chedy;no newpatient. W68–73heatbranch remains hypothetical,not promoted;return to different whole-reading program selection. Primary: research_registry/proposals/translation_programs_20260912/work/W73/REPORT.md
+
+
 W72: all18quality events in six W69 paragraphs;6thermal have no prior/following samepatient thermal action,0written endpoint candidates. No alias/dy repair or meaning;fixed endpoint question complete. Primary: research_registry/proposals/translation_programs_20260912/work/W72/REPORT.md
 
 
