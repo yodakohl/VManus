@@ -1,0 +1,7 @@
+# Fixed f82r line 19 visual audit
+
+2026-09-14. Before image inspection in this pass. Use only W53's admitted Yale image 1006222 at its fixed 1000-pixel endpoint and verify its existing byte hash. Inspect entire image to locate text, then the full f82r.11–19 block and .19 without selecting a different locus. Questions: can both okain forms and the middle group be compared visually; does .19 visibly start a separate paragraph; is there an explicit line joining an individual word to a pictured owner? Unknown readings remain unresolved at this image resolution.
+
+Prior exposure: full W53 scene report, GDT242's three-paragraph correction and the exact line transcription, including ZL80 versus IT5 paragraph scope. This is not a blind transcription or independent observer. GDT242 already favors .11–19 as one paragraph; do not claim this as a newly discovered boundary. W53 says repeat scene inspection alone has no information gain; this pass is restricted to disputed boundary and actual glyph/spacing capacity.
+
+If sufficient, record literal visual observations for the fixed line and boundary. If insufficient, stop without new page admission, image processing repairs or an unrequested higher-resolution acquisition. No meaning/word ownership inferred from proximity. No decoder, closing-hypothesis revival or new scene ranking. Budget 8 minutes including retrieval, inspection and publication. f84/f84r and other reserves stay closed.

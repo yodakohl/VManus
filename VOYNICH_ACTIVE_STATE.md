@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+f82r.19 VISUAL: admitted W53 image hash matched;short right-shifted terminal line and similar first/third groups compatible with prior transcript. Exact glyph confirmation unresolved;no special char mark or individual word-owner link. GDT242 layout not newly discovered;no transcript edits,meaning or closure revival. Primary: research_registry/proposals/translation_programs_20260912/work/F82R_LINE19_VISUAL/REPORT.md
+
 IDEA181 SELECTION: fixed-standard relative shol/chol comparison retains known strict conflict in shol-chol-shol;weak opposing comparisons force equality,not a translated value. No written standard switch selected;full reading program not_tested,no renderer. Primary: research_registry/proposals/translation_programs_20260912/work/RELATIVE_STANDARD_REVIEW/REPORT.md
 
 DITTO BASELINE: closure argument deprioritized. Two of4shared symmetric cases automatic with only2X;remaining dar2/2 final versus other-middle56/179 ZL and50/165 IT in >2X stratum. Unmatched descriptive background,no significance/meaning;no semantic successor. Primary: research_registry/proposals/translation_programs_20260912/work/DITTO_BASELINE/REPORT.md
