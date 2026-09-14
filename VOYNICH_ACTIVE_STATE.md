@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W72: all18quality events in six W69 paragraphs;6thermal have no prior/following samepatient thermal action,0written endpoint candidates. No alias/dy repair or meaning;fixed endpoint question complete. Primary: research_registry/proposals/translation_programs_20260912/work/W72/REPORT.md
+
+
 W71: f75v45 warm-hot-hot-warm from old assignment contract;32full-paragraph predicate rows. No physical explanation or dy endpoint feature;heat-input versus endpoint concepts separated,neither confirmed. Primary: research_registry/proposals/translation_programs_20260912/work/W71/REPORT.md
 
 
