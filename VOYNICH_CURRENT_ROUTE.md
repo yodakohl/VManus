@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT936 executed whole .37 conditional motion/rest clauses with four fixed new word hypotheses.
-Latest decision: R/T open; if-warm is a condition, not an actual state; RF37 only5of7 groups.
-Working files: experiments/yolo/gdt936_clause_condition_motion_state/REPORT.md
-Assumptions: M/R/T preserved; mixture/if/material anaphor and motion/rest conjectural; Q/V open.
-Resume: Read whole .18–20: two cheedy, line-final chey and following flow/copula; no generic scope repair.
-Running: none; 3 separate raw producer proposals stored.
+Task: GDT937 fixed R/T condition transfer on whole f77r.18–20.
+Latest decision: F conditions B copula; P all3 K flows. Both lack readable A/B/K content; no selection.
+Working files: experiments/yolo/gdt937_fixed_condition_direction_transfer/REPORT.md
+Assumptions: 21-word values fixed; local A/B boundary conjectural; no factual events inferred.
+Resume: Read whole B qoteey qokain sheey qotedy dalchedy jointly; check predecessors, preserve all occurrences. No more generic scope filters.
+Running: none; producer added3 RAW_UNSCREENED ideas259–261.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

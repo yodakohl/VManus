@@ -1,0 +1,60 @@
+{
+  "source": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+  "base_model": "experiments/yolo/gdt932_joint_flow_participant_reading/src/MODEL.json",
+  "extensions": [
+    "experiments/yolo/gdt934_bridge_content_joint_readings/src/MODEL.json",
+    "experiments/yolo/gdt935_tail_spatial_temporal_content/src/MODEL.json",
+    "experiments/yolo/gdt936_clause_condition_motion_state/src/MODEL.json"
+  ],
+  "prior_alignment": "experiments/yolo/gdt936_clause_condition_motion_state/artifacts/ALIGNMENT.tsv",
+  "working_frame": [
+    "f77r",
+    9,
+    24
+  ],
+  "focus_loci": [
+    "f77r.18",
+    "f77r.19",
+    "f77r.20"
+  ],
+  "models": [
+    "R",
+    "T"
+  ],
+  "partitions": {
+    "A": [
+      "qotain",
+      "sheal",
+      "qokeedy"
+    ],
+    "B": [
+      "qoteey",
+      "qokain",
+      "sheey",
+      "qotedy",
+      "dalchedy"
+    ],
+    "K": "all .19 groups before final chey",
+    "M": "final chey of .19"
+  },
+  "directions": {
+    "F": {
+      "PRE": "OUTSIDE_THIS_CONDITION",
+      "K": "OUTSIDE_THIS_CONDITION",
+      "M": "CONDITION_MARKER",
+      "A": "ANTECEDENT",
+      "B": "CONSEQUENT"
+    },
+    "P": {
+      "PRE": "OUTSIDE_THIS_CONDITION",
+      "K": "CONSEQUENT",
+      "M": "CONDITION_MARKER",
+      "A": "ANTECEDENT",
+      "B": "OUTSIDE_THIS_CONDITION"
+    }
+  },
+  "new_word_values": {},
+  "subject_binding": "No new participant links; all A/B/K participants unresolved unless literally named, no implicit transfer of37 mixture or material anaphor.",
+  "factuality": "All readings hypothetical. OUTSIDE_THIS_CONDITION is a local scope tag, not an assertion that unknown material cannot impose other scopes.",
+  "scope_limit": "Two manually nominated local clause structures, not an exhaustive parse search or general decoder."
+}
