@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT944 third whole content clause complete; next full f80v33 flow/source content, then36.
-Latest decision: F formation/S separation remain tied; ZL8+1structural/9,IT9/9,RF7/8. Later shedy36 identity unknown.
-Working files: experiments/yolo/gdt944_third_content_formation_separation/REPORT.md
-Assumptions: GDT94341values unchanged; new50-word branch conditional. s-olkain/compound bridges assumed; no s word.
-Resume: Read whole33 qokeedy qoker olkain olshedy qokey qokeey tchcthy lom; retain whole30-37. No phrase recount or invented identity marker.
-Running: none; producer review found only existing examples, no new cards/files.
+Task: GDT945 whole f80v33 trial complete; next olshedy participant/material contexts.
+Latest decision: All32 strict qokey spatial-noun packages fail at43reader positions/16loci. qoker only seed; SRC/GEN unselected.
+Working files: experiments/yolo/gdt945_flow_source_or_partitive/REPORT.md
+Assumptions: GDT94450values unchanged, conditional. Six new945values NOT adopted; no syntax repair.
+Resume: Whole f80v36 olshedy olal shedy plus f77r23/f85r1.4 olshedy qokeedy, retain full contexts/all21olshedy loci. No invented identity/ol rule.
+Running: none; producer bounded review added no new proposal/files.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -1,0 +1,81 @@
+{
+  "inventory_spec": "experiments/yolo/gdt929_fixed_four_form_context_square/src/SPEC.json",
+  "sources": [
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json"
+  ],
+  "allow_source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+  "paragraph_source": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "base_lexicons": "experiments/yolo/gdt944_third_content_formation_separation/artifacts/LEXICONS.json",
+  "old_context_paragraphs": "experiments/yolo/gdt944_third_content_formation_separation/artifacts/CONTEXT_PARAGRAPHS.json",
+  "old_model": "experiments/yolo/gdt944_third_content_formation_separation/src/MODEL.json",
+  "seed_locus": "f80v.33",
+  "shared_new": {
+    "olshedy": [
+      "Flüssigkeitsanteil",
+      "MATERIAL_PART"
+    ],
+    "qokey": [
+      "zum",
+      "GOAL_RELATION"
+    ],
+    "qokeey": [
+      "Ausgang",
+      "PLACE"
+    ],
+    "tchcthy": [
+      "langsam",
+      "RATE"
+    ],
+    "lom": [
+      "hin",
+      "GOAL_DIRECTION"
+    ]
+  },
+  "variants": {
+    "SRC": {
+      "qoker": [
+        "aus",
+        "SOURCE_RELATION"
+      ]
+    },
+    "GEN": {
+      "qoker": [
+        "des",
+        "GENITIVE_RELATION"
+      ]
+    }
+  },
+  "nominal_roles": [
+    "VESSEL",
+    "MATERIAL",
+    "MATERIAL_CLASS",
+    "MATERIAL_RESULT",
+    "CONTENT_MATERIAL",
+    "MATERIAL_PART",
+    "PLACE",
+    "APERTURE",
+    "EVENT_NOUN"
+  ],
+  "goal_roles": [
+    "VESSEL",
+    "PLACE",
+    "APERTURE"
+  ],
+  "product_roles": [
+    "MATERIAL",
+    "MATERIAL_CLASS",
+    "MATERIAL_RESULT",
+    "CONTENT_MATERIAL",
+    "MATERIAL_PART"
+  ],
+  "required_boundary": "DEFINITE_SPACE",
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}
