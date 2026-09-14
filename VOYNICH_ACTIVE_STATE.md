@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W66 (2026-09-14): F same-material/measure vs T next-step/additive full drafts, neither selected;shared referent and additionpurpose remain unbound.1160groups32newassumptions,nottranslations. Primary: research_registry/proposals/translation_programs_20260912/work/W66/REPORT.md.
+
 W65 (2026-09-14): all16okain/solchey positions audited;paired f80.32/.33 initialsolchey before different hypothetical heating verbs. Unknownokain may interrupt portioncarry;no newgloss. Primary: research_registry/proposals/translation_programs_20260912/work/W65/REPORT.md.
 
 W64 (2026-09-14): all33qokain;f80directportion may precede heating, same-mixture vs separateD unresolved. No new alias/stateengine;W63conditionalnoun retained. Primary: research_registry/proposals/translation_programs_20260912/work/W64/REPORT.md.
