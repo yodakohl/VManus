@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT941 whole115v37-40 and explicit lkchey ratio/comparison trial.
-Latest decision: Only115v39 binds LK numeric pair;24markers/9loci give no transfer. Four models unselected.
-Working files: experiments/yolo/gdt941_explicit_lkchey_comparison_context/REPORT.md
-Assumptions: GDT93933words unchanged; GDT94010values parked. Second olr paragraph has only old copula; no content or numeral selected.
-Resume: IDEA274 list-total versus dose after o l r aiiin is raw only; check written binding/primaries before selection. No count-match-only trial, prefix expansion or repeated LK test.
-Running: none; producer added3 RAW_UNSCREENED ideas271–273; root274 untested.
+Task: GDT942 complete; stop local o/l/r count-only proof and resume whole-passage hypothesis work.
+Latest decision: Native115v37-40 has gaps, no list-specific delimitation or list-value device. No numeral selected.
+Working files: experiments/yolo/gdt942_f115v_native_list_total_binding/REPORT.md
+Assumptions: Implicit list/dose/grade-compound remain tied; GDT939 hypotheses unchanged, GDT94010values parked.
+Resume: Review raw275-277 against concrete exposed passages and primary predecessors; select one whole-content contrast. No kerning/count-only retry.
+Running: none; producer completed RAW ideas275-277. Independent meaning/confirmation capacity in942:0.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
@@ -37,7 +37,7 @@ Other closed families remain in the existing registry; no automatic reopening.
 ## Access and operating boundaries
 f84 and f84r remain sealed. f116v not admitted. Reserves stay closed until a nearly
 complete plausible overall reading. Prior exposure cannot be erased by a new model.
-179 text selectors;49 visual keys/55 selectors, one slot remains. f1r margins only;
+179 text selectors;50 visual keys/56 selectors, no slot remains. f1r margins only;
 f106v fixed paragraph only. Register new access first. Full admission contracts:
 [VOYNICH_DATA_SCOPE](docs/VOYNICH_DATA_SCOPE.md). No outside contacts or expert review.
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.

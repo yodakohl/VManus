@@ -1,21 +1,23 @@
 # Aktueller Datenzugriff und Quellenkorrekturen
 
-Stand: 14. September 2026. Aus der bisherigen Route übernommen, keine neue
-Freigabe und kein Datenzugriff im Dokumentationsaudit. Aufnahmezahlen bezeichnen
+Stand: 14. September 2026, nach GDT942. Der frühere Dokumentationsaudit
+öffnete keine Daten; GDT942 hat anschließend f115v vor Bildzugriff für den
+festen Absatz37–40 zugelassen. Aufnahmezahlen bezeichnen
 verschiedene Einheiten; eine Quote ersetzt nicht den konkreten Zulassungsvertrag.
 
 | Bereich | Aktueller Umfang | Verbindliche Grenze |
 |---|---|---|
 | Text | 179 Selektoren im [GDT631-Allowlist](../experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv) | Kein Bildrecht für 179 Seiten. GDT811s Union von 190 Selektoren und GDT327s 91-Blatt-Edition erweitern diesen Umfang nicht. |
-| Bilder | 49 Bildschlüssel / 55 Selektoren; ein Platz im bisherigen Kontingent verbleibt | Jede neue Aufnahme vor Zugriff registrieren. f1r nur zugelassene Ränder; f106v nur der feste GDT923-Absatz für GDT924. Die Einzelverträge unten entscheiden. |
+| Bilder | 50 Bildschlüssel / 56 Selektoren; kein freier Platz im bisherigen Kontingent | Jede neue Aufnahme vor Zugriff registrieren. f1r nur zugelassene Ränder; f106v nur der feste GDT923-Absatz für GDT924. Die Einzelverträge unten entscheiden. |
 | Reserven | Keine Öffnung durch diesen Audit | Erst für eine nahezu vollständige plausible Gesamtlesung verwenden; frühere Exposition und Entwicklungsauswahl offenlegen. Freigabe ist keine unabhängige Bestätigung. |
 | Explizite Sperren | f84 und f84r bleiben geschlossen; f116v ist aktuell nicht zugelassen | Historische MSI-Arbeit an f116v hebt diese Grenze nicht auf. |
 
 ## Primäre Bildzulassungen
 
 Diese Tabelle ist ein Verzeichnis der vorhandenen Verträge, keine pauschale
-Zulassung aller in einem Bericht erwähnten Seiten. Zählstand nach GDT924:
-49 Schlüssel/55 Selektoren. Keine Neuauszählung oder Nachsichtung in diesem Audit.
+Zulassung aller in einem Bericht erwähnten Seiten. Zählstand nach GDT942:
+50 Schlüssel/56 Selektoren. Der neue Eintrag betrifft ausschließlich GDT942;
+frühere Einzelverträge bleiben unverändert.
 
 | Zulassung | Vertrag |
 |---|---|
@@ -31,6 +33,7 @@ Zulassung aller in einem Bericht erwähnten Seiten. Zählstand nach GDT924:
 | Nutzerfrage zu f2r | [Einzelzulassung](visual_overview/F2R_USER_QUESTION_ADMISSION.md) |
 | GDT912: f1r, nur Ränder | [PAGE_ADMISSIONS](../experiments/yolo/gdt912_f1r_progressive_key/src/PAGE_ADMISSIONS.tsv) |
 | GDT924: f106v, fester Absatz | [PAGE_ADMISSIONS](../experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/src/PAGE_ADMISSIONS.tsv) |
+| GDT942: f115v, fester Absatz37–40 | [PAGE_ADMISSIONS](../experiments/yolo/gdt942_f115v_native_list_total_binding/src/PAGE_ADMISSIONS.tsv) |
 
 ## Quellenidentität und Exposition
 

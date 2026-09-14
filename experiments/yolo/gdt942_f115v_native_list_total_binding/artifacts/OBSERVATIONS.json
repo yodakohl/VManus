@@ -1,0 +1,91 @@
+{
+  "experiment": "GDT942",
+  "observer": "root native vision, informed by prior text and candidate",
+  "observed_utc": "2026-09-14T16:03:48.156509+00:00",
+  "source": "artifacts/SOURCE_F115V.jpg",
+  "source_sha256": "5700486404459fe1abfc11f6347aa0171bd651e39bcf71d594beecfb170ed8a3",
+  "viewed": [
+    "artifacts/SOURCE_F115V.jpg",
+    "artifacts/PARAGRAPH_LOCALIZE.png",
+    "artifacts/PARAGRAPH_FULL.png",
+    "artifacts/TARGET_LINE_DETAIL.png"
+  ],
+  "scope_note": "Whole page localization only; detailed observation of complete f115v37-40. Crops retain marginal stars and unavoidable adjacent-line fragments, which were not transcribed or evaluated. Coordinates are source pixels; field boxes are approximate contextual regions, not glyph segmentation.",
+  "fields": [
+    {
+      "id": "localization",
+      "status": "PRESENT",
+      "box_xyxy": [
+        380,
+        2410,
+        2590,
+        2790
+      ],
+      "observation": "Four consecutive target lines identified by their line openings and the target sequence in the second line. The four lines form a continuous paragraph-sized block beside marginal star marks; last target line is shorter than the preceding lines.",
+      "limitation": "Line numbers and expected identities supplied by exposed transcriptions. The image does not independently certify every one of the 110 alternative-reader groups."
+    },
+    {
+      "id": "member_delimitation",
+      "status": "ABSENT",
+      "box_xyxy": [
+        1700,
+        2510,
+        1930,
+        2640
+      ],
+      "observation": "The short forms corresponding to o/l/r occupy one baseline within the second continuous text line. Visible inter-form gaps; no list cells, bullets, separate item lines, bracket or other distinct member-delimiting device.",
+      "limitation": "ABSENT refers to authorial list-specific delimitation under the registered rule, not to the absence of gaps. Ordinary spaced prose can contain implicit lists."
+    },
+    {
+      "id": "list_value_binding",
+      "status": "ABSENT",
+      "box_xyxy": [
+        1480,
+        2510,
+        2500,
+        2660
+      ],
+      "observation": "After the short forms, the aiiin-like group and the chkain/sham region continue on the same text line. No separate rule, bracket, connector, column heading or visible total device links all proposed members to that group.",
+      "limitation": "Unread preceding/following words could carry an implicit grammatical relationship. Their meaning is not supplied by this image."
+    },
+    {
+      "id": "physical_target_span",
+      "status": "PRESENT",
+      "box_xyxy": [
+        1480,
+        2510,
+        2500,
+        2660
+      ],
+      "observation": "The whole llchs-to-sham span is visible. The three short shapes have visible gaps and do not appear as one unbroken ink stroke. Following minim-like strokes belong to a compact group; exact glyph identity and minim count are not independently resolved. ZL/RF o l r and IT olr remain alternative segmentation records.",
+      "limitation": "Ink separation alone cannot select manuscript word boundaries, three referents, a numeral, or a translation; no spacing metric or new transcription rule was fitted."
+    },
+    {
+      "id": "parallel_list_layout",
+      "status": "ABSENT",
+      "box_xyxy": [
+        380,
+        2410,
+        2590,
+        2790
+      ],
+      "observation": "The other three target lines are horizontal runs of spaced groups, with a shorter final line. No parallel list cells, member columns or value column recur. Marginal stars mark blocks of text, not each of the three short forms.",
+      "limitation": "This assesses visible organization only. Repeated syntax or semantic structure in the unread words remains unknown."
+    }
+  ],
+  "independence": {
+    "physical_leaves_observed": 1,
+    "independent_observers": 0,
+    "unexposed_confirmation_leaves_tested": 0,
+    "independent_meaning_checks": 0,
+    "alternative_readings_are_same_manuscript": true
+  },
+  "claims_excluded": [
+    "confirmed numeral",
+    "confirmed plant or other word meaning",
+    "significance",
+    "all implicit list readings refuted",
+    "independent replication"
+  ],
+  "no_transcription_edits": true
+}
