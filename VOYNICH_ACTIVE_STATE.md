@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W70: complete NRC/AMV intersection, 33sharedbound among78unionpositions,5runs;f75v45 common conditional heat sequence with open words and physical interpretation. Full branched paragraphs retained;no meaning or state validation. Primary: research_registry/proposals/translation_programs_20260912/work/W70/REPORT.md
+
+
 W69: all11chey scopes in W63 six paragraphs; negative sheckhy bound hypothetically to shey/B; qokchy polarity differs ZL/IT by parity, other objects differ. AMV not adopted, NRC unconfirmed. 135events, no state execution or reserves. Primary: research_registry/proposals/translation_programs_20260912/work/W69/REPORT.md
 
 
