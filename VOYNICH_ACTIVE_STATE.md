@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W77: all117otchy positions114lines,N/Q fullrole drafts;17Qadjacentcarriers and2Nrightqualities are incomparable diagnostics,no nounwinner. Primary: research_registry/proposals/translation_programs_20260912/work/W77/REPORT.md
+
+
 W76: unchanged P09R1 on12W75paras654groups;20operations18unknown2missinginputs. f44ITchorrecipient,ZLnone;R1notcomplete/no semanticwinner. Primary: research_registry/proposals/translation_programs_20260912/work/W76/REPORT.md
 
 
