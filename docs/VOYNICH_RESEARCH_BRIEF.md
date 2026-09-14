@@ -6,6 +6,13 @@ behaupten. Aktueller Auftrag: [Route](../VOYNICH_CURRENT_ROUTE.md).
 Primärberichte entscheiden über den jeweiligen Umfang; ihre historischen
 „nächsten Schritte“ sind keine heutigen Arbeitsaufträge.
 
+Für alte Glossen, konkrete Variantenfamilien, Zahlen, Kontroll-PASS und
+Bildbelege gilt zusätzlich die thematische [Statuszuordnung K01–K12](VOYNICH_CLAIM_STATUS_MAP.md).
+Sie erhält positive Form-/Transferbefunde und verknüpft ihre Grenzen.
+GDT616s ursprünglicher Vertrag bleibt gescheitert; alte HOT/END-Karten
+enthalten übernommene Bedeutungsannahmen. W96s f2v-Zweig und W97s Generationenvertrag bleiben
+geparkt beziehungsweise gestoppt. Nur die relevante Tabellenzeile vertiefen.
+
 ## Was eine neue Lesung bereits berücksichtigen muss
 
 | Wissensbereich | Bereits vorhanden | Konsequenz und Grenze |

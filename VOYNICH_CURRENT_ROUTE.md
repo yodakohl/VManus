@@ -3,9 +3,10 @@ Updated: 2026-09-14. Read first; replace this snapshot, do not append history.
 
 ## Current task and scientific position
 
-The user requested documentation repair before further research. The bounded
-[audit](research_registry/decisions/documentation_audit_20260914/REPORT.md)
-repairs retrieval and routing; it produces no new manuscript result. No new
+The user requested further documentation repair before research. The bounded
+[followup audit](research_registry/decisions/documentation_audit_followup_20260914/REPORT.md)
+adds [12 topic/status mappings](docs/VOYNICH_CLAIM_STATUS_MAP.md) to the initial
+entry repair; it produces no new manuscript result. No new
 experiment is selected. No word, language or overall reading is confirmed.
 
 Before scientific selection, read [the research brief](docs/VOYNICH_RESEARCH_BRIEF.md).
@@ -24,10 +25,12 @@ sufficient. Operating guide: [research memory](research_registry/README.md).
   “28 unexecuted” status are obsolete. [Dated report navigator](research_registry/proposals/translation_programs_20260912/work/PROGRESS.md), not the live queue.
 - [W89](research_registry/proposals/translation_programs_20260912/work/W89/REPORT.md): recipe expansion paused; description not confirmed. No automatic cheor/gloss repair.
 - [W93](research_registry/proposals/translation_programs_20260912/work/W93/REPORT.md): naming test parked for NO_CAPACITY, not refuted or independently confirmed. No automatic name expansion.
+- [W96](research_registry/proposals/translation_programs_20260912/work/W96/REPORT.md): local f2v amount/grade and identity variants parked; no confirmed value “one”. [W97](research_registry/proposals/translation_programs_20260912/work/W97/REPORT.md): fixed generation model stopped on stipulated self-relations, not all genealogy.
 - [GDT913](experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md): all 18 frozen IT2a lexicons contradict Senecio predictions; original GDT888 non-uniqueness unchanged.
 - [GDT915](experiments/yolo/gdt915_terminal_lr_phrase_transfer/REPORT.md)/[916](experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md): known r/l families transfer; new stem-pair grammar not established. Preserve both results.
 - [GDT914](experiments/yolo/gdt914_local_parallel_one_edit_patterns/REPORT.md), [925](experiments/yolo/gdt925_whole_line_word_multiset_discovery/REPORT.md), [928](experiments/yolo/gdt928_multi_anchor_complete_paragraphs/REPORT.md): fixed local-edit/literal-parallel tests closed; no blanket rejection of compositional meaning or paraphrases. No enlarged-text rerun merely from more visual admissions.
-- GDT616 stays closed. Other closed families require bounded lookup and primary
+- GDT616 stays closed: its imported diagnostic PASS does not replace strict
+  UNSAT; `ideas show GDT616` now separates them. Other closed families require bounded lookup and primary
   review before reopening; no automatic decoder/control repair chain.
 
 ## User intent, access and interpretation

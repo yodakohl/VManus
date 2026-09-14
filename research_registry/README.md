@@ -14,6 +14,13 @@ linked primary reports for the selected topic. The brief preserves positive
 structural knowledge as well as interpretation limits and current stops.
 Reading only the latest failures or lexical search hits is insufficient.
 For source access, use [the scope table](../docs/VOYNICH_DATA_SCOPE.md).
+For old glosses, tested variant mechanisms, numeric readings, control recovery
+or visual claims, open the relevant row in the
+[topic/status map](../docs/VOYNICH_CLAIM_STATUS_MAP.md), then its primary reports.
+It preserves qualified positive results as well as failures and missing capacity.
+An unreviewed import may describe an executed experiment; a latest diagnostic
+PASS may coexist with an unchanged registered failure. GDT616 now has a scoped
+append-only review separating these outcomes. No old source bytes were rewritten.
 
 The original [30-program plan](../docs/TRANSLATION_PROGRAMS_30.md) is historical.
 Its “28 unexecuted” status and WORKFLOW's “Start with P09” instruction are

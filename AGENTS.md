@@ -5,7 +5,11 @@ Before any Voynich action, read `VOYNICH_CURRENT_ROUTE.md`, then use
 cards; use `lookup GDTNNN` for primary experiment pointers. Before selecting or
 proposing scientific work, also read `docs/VOYNICH_RESEARCH_BRIEF.md`, then the
 relevant linked primary evidence. Search hits alone do not supply the known
-structural baseline or current stop decisions. Never dump the JSONL
+structural baseline or current stop decisions. For historical glosses, pattern
+families, controls or image claims,
+use the relevant row of `docs/VOYNICH_CLAIM_STATUS_MAP.md` before its primary
+report. An unreviewed import is not an unexecuted experiment; a later diagnostic
+PASS does not supersede the original registered decision. Never dump the JSONL
 registry or full history into context. The current-route file is the compact authoritative
 routing snapshot. `VOYNICH_ACTIVE_STATE.md` and
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv` remain the full
