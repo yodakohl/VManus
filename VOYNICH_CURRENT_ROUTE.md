@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT943 second full solkain clause complete; next whole f80v32 and existing30-37 context.
-Latest decision: REL whose/TEMP while both fit80r14 with8new words; only seed binds subclause. No meaning selected.
-Working files: experiments/yolo/gdt943_solkain_second_leaf_complete_clause/REPORT.md
-Assumptions: GDT93933values unchanged; GDT94341-word branch conditional. qotal/otal and lchey/chey wordbuilding unresolved.
-Resume: Develop whole80v32, retaining ZL s/olkain and arolkeedy/arol keedy. No shl/shol equivalence or local clause recount.
-Running: none. Raw275-277 reviewed not_tested; producer bounded review yielded no new cards.
+Task: GDT944 third whole content clause complete; next full f80v33 flow/source content, then36.
+Latest decision: F formation/S separation remain tied; ZL8+1structural/9,IT9/9,RF7/8. Later shedy36 identity unknown.
+Working files: experiments/yolo/gdt944_third_content_formation_separation/REPORT.md
+Assumptions: GDT94341values unchanged; new50-word branch conditional. s-olkain/compound bridges assumed; no s word.
+Resume: Read whole33 qokeedy qoker olkain olshedy qokey qokeey tchcthy lom; retain whole30-37. No phrase recount or invented identity marker.
+Running: none; producer review found only existing examples, no new cards/files.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

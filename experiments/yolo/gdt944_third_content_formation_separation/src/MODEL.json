@@ -1,0 +1,106 @@
+{
+  "inventory_spec": "experiments/yolo/gdt929_fixed_four_form_context_square/src/SPEC.json",
+  "sources": [
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json"
+  ],
+  "allow_source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+  "paragraph_source": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "base_lexicons": "experiments/yolo/gdt943_solkain_second_leaf_complete_clause/artifacts/LEXICONS.json",
+  "old_context_source": "experiments/yolo/gdt943_solkain_second_leaf_complete_clause/artifacts/CONTEXT_SOURCE_LINES.json",
+  "old_context_paragraphs": "experiments/yolo/gdt943_solkain_second_leaf_complete_clause/artifacts/CONTEXT_PARAGRAPHS.json",
+  "seed_locus": "f80v.32",
+  "shared_new": {
+    "olkain": [
+      "Inhalt",
+      "CONTENT_MATERIAL"
+    ],
+    "shol": [
+      "zerfällt",
+      "DISINTEGRATION"
+    ],
+    "kair": [
+      "allmählich",
+      "RATE"
+    ],
+    "or": [
+      "und",
+      "COORDINATION"
+    ],
+    "arol": [
+      "wird",
+      "PASSIVE_AUX"
+    ],
+    "olky": [
+      "dabei",
+      "SIMULTANEITY"
+    ],
+    "qolkain": [
+      "aus dem Inhalt",
+      "CONTENT_SOURCE"
+    ]
+  },
+  "event_variants": {
+    "F": {
+      "keedy": [
+        "gebildet",
+        "FORMATION_PARTICIPLE"
+      ],
+      "arolkeedy": [
+        "wird gebildet",
+        "FORMATION_EVENT"
+      ]
+    },
+    "S": {
+      "keedy": [
+        "abgesondert",
+        "SEPARATION_PARTICIPLE"
+      ],
+      "arolkeedy": [
+        "wird abgesondert",
+        "SEPARATION_EVENT"
+      ]
+    }
+  },
+  "phrase_bridges": [
+    {
+      "name": "CONTENT",
+      "parts": [
+        "s",
+        "olkain"
+      ],
+      "whole": "solkain",
+      "structural_only_part": "s"
+    },
+    {
+      "name": "PASSIVE",
+      "parts": [
+        "arol",
+        "keedy"
+      ],
+      "whole": "arolkeedy"
+    }
+  ],
+  "bridge_boundaries": [
+    "DEFINITE_SPACE",
+    "UNCERTAIN_SMALL_SPACE"
+  ],
+  "product_roles": [
+    "MATERIAL",
+    "MATERIAL_CLASS",
+    "MATERIAL_RESULT",
+    "CONTENT_MATERIAL"
+  ],
+  "fixed_tail": [
+    "olky",
+    "qolkain"
+  ],
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}
