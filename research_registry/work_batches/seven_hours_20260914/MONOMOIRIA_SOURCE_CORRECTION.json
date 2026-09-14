@@ -1,0 +1,48 @@
+{
+  "schema": "MONOMOIRIA_SOURCE_CORRECTION_V1",
+  "status": "SOURCE_DISCREPANCY_RECORDED_BEFORE_GDT951_FREEZE",
+  "scope": "Monomoiria source cells only; no Voynich target access, test, code, or result change.",
+  "preserved_original": {
+    "path": "research_registry/work_batches/seven_hours_20260914/MONOMOIRIA_SOURCE_EVIDENCE.json",
+    "sha256": "2634e2a11d42d77145aff404cb6bb99aca51716986b5065cb5c3a72a3d6a7ec7",
+    "note": "The original evidence file contains algorithmically generated 7-cycle arrays and is intentionally not edited."
+  },
+  "literal_project_hindsight_cells": {
+    "source_pdf": "https://www.projecthindsight.com/images/TablesPDFs/Tb2-Monomoria.pdf",
+    "source_sha256": "2c793b7491e46e6b67f40b43339688aeb27ab6ab5f3b0624cbd4e05873f59e52",
+    "column": "Leo (glyph header ♌; the fifth of seven domicile-group columns)",
+    "cells": {
+      "degree_28": "Mars",
+      "degree_29": "Venus",
+      "degree_30": "Mercury"
+    },
+    "visual_check": "The fifth data column visibly reads Mars, Venus, Mercury in rows 28, 29, 30."
+  },
+  "academic_rule_check": {
+    "source_pdf": "https://mc.dlib.nyu.edu/files/books/isaw_aphs000001/isaw_aphs000001_lo.pdf",
+    "source_sha256": "66f6970f18dcd65e1ecd47f0f9c74b8fb532a6006032d459045c7a74a32676a9",
+    "locator": "Neugebauer & van Hoesen, Greek Horoscopes (1959), printed p. 10, PDF p. 26, Table 5 and rule immediately below",
+    "literal_rule": "Each degree is associated with a planet; enter the house-ruler column and take the row containing d, ignoring fractional degree f.",
+    "relevant_rows": {
+      "d=28 (degrees 0,7,14,21,28)": "Sun in the Sun/Leo house-ruler column",
+      "d=29 (degrees 1,8,15,22,29)": "Venus in the Sun/Leo house-ruler column"
+    },
+    "expected_leo_degree_29_30": [
+      "Sun",
+      "Venus"
+    ]
+  },
+  "correction": {
+    "algorithmic_expectation_from_row_1_cycle": {
+      "degree_29": "Sun",
+      "degree_30": "Venus"
+    },
+    "finding": "Project Hindsight's Leo rows 29-30 are literal Venus/Mercury, while the explicit academic Table 5 rule and the anchored 7-cycle give Sun/Venus. Treat the two cells as a source-table anomaly or unresolved variant; do not silently overwrite the literal cells or present generated values as a transcription of that PDF.",
+    "freeze_recommendation": "Use Sun/Venus only as the rule-based academic comparator, retain Venus/Mercury as the literal Project Hindsight cells, and keep the discrepancy visible until a historical critical-text witness resolves it."
+  },
+  "source_limits": [
+    "The Project Hindsight monomoiria sheet is a 2004 reference table, not a medieval witness.",
+    "The Greek Horoscopes Table 5 is an academic source presentation and cites Vettius Valens IV.26; it is not a direct facsimile of Paulus.",
+    "No source here licenses any manuscript encoding or semantic interpretation."
+  ]
+}

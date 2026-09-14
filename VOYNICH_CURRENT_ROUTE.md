@@ -6,10 +6,10 @@ Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
 Latest decision: GDT950 closes fixed weather phase/result model: ZL/IT contradicted, RF unselected.
-Next: source-specific joint astrological degree attributes; inspect prior zodiac contracts before selecting a target model.
+Next: execute GDT951 complete zodiac ruler-tuple census; source predictions locked before target intake.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT950 public e6f612e90. Tironian and Greek1364 source reviews complete; neither establishes a target correspondence.
+Resume: GDT951 locked 23:20:42 UTC; T3=189/T4=272 tuple types. Discovery f70/f71, additional f72/f73; Taurus final only. No target read yet.
 Running: root active research; bounded idea producer to replenish proposals. Seven hours not yet elapsed.
 
 ## Structural baseline

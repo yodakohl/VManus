@@ -1,0 +1,128 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact conditional consistency on exposed material; no inferred circular coordinate, confirmed planet name or significance",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/run.py --phase final",
+    "validate": "python3 experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/validate.py"
+  },
+  "created": "2026-09-15",
+  "dependencies": [
+    "GDT337",
+    "GDT398",
+    "GDT794",
+    "GDT795",
+    "GDT812"
+  ],
+  "experiment_id": "GDT951",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+      "role": "guarded_intake_source"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/zodiac_star_slot_ownership.tsv",
+      "sha256": "e66da1024021ef63d1bbd30a1d335e642aa46bd3661aaff4c528ec3b222131b3",
+      "role": "public_ownership_metadata"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/METHOD.md",
+      "sha256": "a338433a95c476498256708a384cb1c3230025a4fdcebb37391f4e77dc44d9e9",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/PREREGISTRATION.md",
+      "sha256": "7b8f7b9440acb41b33718263e22ded36485cbadfe25b32f5ea0969f76d9195b6",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/PREREG_LOCK.json",
+      "sha256": "5876520afe9f69c2d0f14171c3a6ef321f101cf7bcd183c396c866a60c66f403",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/README.md",
+      "sha256": "951641e2926a870c3f8448ef72dcc28146ba70d796f3387b1a55340487af638a",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/artifacts/SOURCE_VALIDATION.json",
+      "sha256": "43a629272b12b0dc4128138da1012b88aedcd63cb47db75538f466e3b7fa09b8",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/HISTORICAL_DEGREES.tsv",
+      "sha256": "c04323e9e3f5f989a78af8db6da1f2bf1e485021e61727421d25750f297976b9",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/HISTORICAL_RULES.json",
+      "sha256": "ad162b160d36dff0f0cec8674b8b3e46c07dd064759680e66c7b261270a1c98e",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/SELECTION.md",
+      "sha256": "6d398b96f8133150328cc71f34435e8dc909a8e378a62c5e06e8d2db3937f88d",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/SOURCE_PREDICTIONS.json",
+      "sha256": "a59399a8dfcd575421726f1969e287627d508990e5becaf31392426cdc5e667b",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/SOURCE_REVIEW.md",
+      "sha256": "8ce3eb2a31dc5081ec167690ce8492095caa9c21d2c269e823d3e62c724e6686",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/SPEC.json",
+      "sha256": "c873a6301ff9efdf1993ad97d4068b4770111fb571366fc539606c7ed18e734d",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/build_source.py",
+      "sha256": "0a34ca74326c0530b18aabb8238e4ebb57e06ad90fc364a6cd41f76486e39cdf",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/prepare.py",
+      "sha256": "505c0d9344c13cb5729548bedd9dd9327b597062836e31f07325ba60953f1ceb",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/run.py",
+      "sha256": "bad1810be66862c84b3ac8aa5da2fd4916e4a82961364f5c722bdaf6f7c7e042",
+      "role": "preregistered_protocol_or_source_prediction"
+    },
+    {
+      "path": "experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/src/validate.py",
+      "sha256": "f51edee192b21aea5c063180de3afee8f88c5ce8417ee70ffd37ca3ba422e1d8",
+      "role": "preregistered_protocol_or_source_prediction"
+    }
+  ],
+  "question": "Can two fixed historical ruler-tuple registers reproduce complete unordered per-sign label multiplicities under one injective renderer, including additional physical leaves?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "zodiac_unordered_ruler_tuples",
+  "status": "REGISTERED_SOURCE_PREDICTIONS_FROZEN_TARGET_UNOPENED",
+  "title": "Complete zodiac labels as unordered historical ruler tuples",
+  "updated": "2026-09-15",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

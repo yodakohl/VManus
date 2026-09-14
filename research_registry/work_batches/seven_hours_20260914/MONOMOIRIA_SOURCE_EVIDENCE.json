@@ -1,0 +1,948 @@
+{
+  "schema": "MONOMOIRIA_SOURCE_EVIDENCE_V1",
+  "status": "SOURCE_ONLY_VERIFIED_TABLES_NO_VOYNICH_TEST",
+  "scope": "Separate historical degree systems for decanic faces, Egyptian bounds, and monomoiria; no target data, codebook, or translation claim.",
+  "sources": [
+    {
+      "id": "PH_RULERS_EGIP_2004",
+      "role": "Project Hindsight reference table containing Domicile, Egyptian Bounds, and Decanic faces",
+      "url": "https://www.projecthindsight.com/images/TablesPDFs/Tb2-Rulersh-egip-L.pdf",
+      "sha256": "adfcfa2ddd3cd177ba6387239860aefed0cc1547620c1f069a4abc62d2751605",
+      "locator": "one-page PDF; table rows Domicile, Bounds, Decanic faces"
+    },
+    {
+      "id": "PH_MONOMOIRIA_2004",
+      "role": "Project Hindsight 30-degree monomoiria table",
+      "url": "https://www.projecthindsight.com/images/TablesPDFs/Tb2-Monomoria.pdf",
+      "sha256": "2c793b7491e46e6b67f40b43339688aeb27ab6ab5f3b0624cbd4e05873f59e52",
+      "locator": "one-page PDF; rows Deg. 1-30; seven sign-group columns"
+    },
+    {
+      "id": "PH_NOTES",
+      "role": "Official table notes and provenance description",
+      "url": "https://www.projecthindsight.com/reference/notes.html",
+      "sha256": "b65232d787f43cf38f7c4edfb06cc78b74eb86907efe84c046ea07bf509970ac",
+      "locator": "Rulerships and Monomoiria paragraphs"
+    },
+    {
+      "id": "PAULUS_CONTENTS",
+      "role": "Official Paulus Alexandrinus contents pointer",
+      "url": "https://www.projecthindsight.com/archives/hellenistic%20contents/paulus.html",
+      "sha256": "88aa472f8560f858fbaba9d0521f1c0ef80fd6bd45e84511e3d5557a532c179b",
+      "locator": "contents lists chapters 3 Bounds, 4 Faces, 5 Monomoiria"
+    },
+    {
+      "id": "GREEK_HOROSCOPES_1959",
+      "role": "Academic edition with explicit explanatory rules and Tables 4, 6, 7",
+      "url": "https://mc.dlib.nyu.edu/files/books/isaw_aphs000001/isaw_aphs000001_lo.pdf",
+      "sha256": "66f6970f18dcd65e1ecd47f0f9c74b8fb532a6006032d459045c7a74a32676a9",
+      "locator": "Neugebauer & van Hoesen, Greek Horoscopes (1959); printed pp. 6, 11, 13; PDF pp. 22, 27, 29"
+    }
+  ],
+  "systems": {
+    "decanic_faces": {
+      "definition": "Each zodiac sign is divided into three 10-degree decans; each decan has one planetary face/countenance.",
+      "source_rule": "Greek Horoscopes explains decans as thirds of a sign (10 degrees) and Table 6 gives the planetary face sequence; the Project Hindsight table independently prints the same face rows.",
+      "by_sign": {
+        "Aries": [
+          "Mars",
+          "Sun",
+          "Venus"
+        ],
+        "Taurus": [
+          "Mercury",
+          "Moon",
+          "Saturn"
+        ],
+        "Gemini": [
+          "Jupiter",
+          "Mars",
+          "Sun"
+        ],
+        "Cancer": [
+          "Venus",
+          "Mercury",
+          "Moon"
+        ],
+        "Leo": [
+          "Saturn",
+          "Jupiter",
+          "Mars"
+        ],
+        "Virgo": [
+          "Sun",
+          "Venus",
+          "Mercury"
+        ],
+        "Libra": [
+          "Moon",
+          "Saturn",
+          "Jupiter"
+        ],
+        "Scorpio": [
+          "Mars",
+          "Sun",
+          "Venus"
+        ],
+        "Sagittarius": [
+          "Mercury",
+          "Moon",
+          "Saturn"
+        ],
+        "Capricorn": [
+          "Jupiter",
+          "Mars",
+          "Sun"
+        ],
+        "Aquarius": [
+          "Venus",
+          "Mercury",
+          "Moon"
+        ],
+        "Pisces": [
+          "Saturn",
+          "Jupiter",
+          "Mars"
+        ]
+      },
+      "consequence": "This is a three-slot per-sign sequence. It is not the five unequal Egyptian-term partition and not one ruler for every degree."
+    },
+    "egyptian_bounds": {
+      "definition": "Five unequal sectors per sign, each assigned to one of the five non-luminary planets.",
+      "source_rule": "Greek Horoscopes states that the Egyptian system divides each sign into five sectors; Table 7 prints cumulative end degrees. The ranges below use the table literally as integer degree labels 1..30.",
+      "by_sign": {
+        "Aries": [
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              1,
+              6
+            ],
+            "cumulative_end_degree": 6
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              7,
+              12
+            ],
+            "cumulative_end_degree": 12
+          },
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              13,
+              20
+            ],
+            "cumulative_end_degree": 20
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              21,
+              25
+            ],
+            "cumulative_end_degree": 25
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              26,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Taurus": [
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              1,
+              8
+            ],
+            "cumulative_end_degree": 8
+          },
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              9,
+              14
+            ],
+            "cumulative_end_degree": 14
+          },
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              15,
+              22
+            ],
+            "cumulative_end_degree": 22
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              23,
+              27
+            ],
+            "cumulative_end_degree": 27
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              28,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Gemini": [
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              1,
+              6
+            ],
+            "cumulative_end_degree": 6
+          },
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              7,
+              12
+            ],
+            "cumulative_end_degree": 12
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              13,
+              17
+            ],
+            "cumulative_end_degree": 17
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              18,
+              24
+            ],
+            "cumulative_end_degree": 24
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              25,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Cancer": [
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              1,
+              7
+            ],
+            "cumulative_end_degree": 7
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              8,
+              13
+            ],
+            "cumulative_end_degree": 13
+          },
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              14,
+              19
+            ],
+            "cumulative_end_degree": 19
+          },
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              20,
+              26
+            ],
+            "cumulative_end_degree": 26
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              27,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Leo": [
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              1,
+              6
+            ],
+            "cumulative_end_degree": 6
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              7,
+              11
+            ],
+            "cumulative_end_degree": 11
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              12,
+              18
+            ],
+            "cumulative_end_degree": 18
+          },
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              19,
+              24
+            ],
+            "cumulative_end_degree": 24
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              25,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Virgo": [
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              1,
+              7
+            ],
+            "cumulative_end_degree": 7
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              8,
+              17
+            ],
+            "cumulative_end_degree": 17
+          },
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              18,
+              21
+            ],
+            "cumulative_end_degree": 21
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              22,
+              28
+            ],
+            "cumulative_end_degree": 28
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              29,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Libra": [
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              1,
+              6
+            ],
+            "cumulative_end_degree": 6
+          },
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              7,
+              14
+            ],
+            "cumulative_end_degree": 14
+          },
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              15,
+              21
+            ],
+            "cumulative_end_degree": 21
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              22,
+              28
+            ],
+            "cumulative_end_degree": 28
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              29,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Scorpio": [
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              1,
+              7
+            ],
+            "cumulative_end_degree": 7
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              8,
+              11
+            ],
+            "cumulative_end_degree": 11
+          },
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              12,
+              19
+            ],
+            "cumulative_end_degree": 19
+          },
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              20,
+              24
+            ],
+            "cumulative_end_degree": 24
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              25,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Sagittarius": [
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              1,
+              12
+            ],
+            "cumulative_end_degree": 12
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              13,
+              17
+            ],
+            "cumulative_end_degree": 17
+          },
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              18,
+              21
+            ],
+            "cumulative_end_degree": 21
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              22,
+              26
+            ],
+            "cumulative_end_degree": 26
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              27,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Capricorn": [
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              1,
+              7
+            ],
+            "cumulative_end_degree": 7
+          },
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              8,
+              14
+            ],
+            "cumulative_end_degree": 14
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              15,
+              22
+            ],
+            "cumulative_end_degree": 22
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              23,
+              26
+            ],
+            "cumulative_end_degree": 26
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              27,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Aquarius": [
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              1,
+              7
+            ],
+            "cumulative_end_degree": 7
+          },
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              8,
+              13
+            ],
+            "cumulative_end_degree": 13
+          },
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              14,
+              20
+            ],
+            "cumulative_end_degree": 20
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              21,
+              25
+            ],
+            "cumulative_end_degree": 25
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              26,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ],
+        "Pisces": [
+          {
+            "planet": "Venus",
+            "integer_degrees": [
+              1,
+              12
+            ],
+            "cumulative_end_degree": 12
+          },
+          {
+            "planet": "Jupiter",
+            "integer_degrees": [
+              13,
+              16
+            ],
+            "cumulative_end_degree": 16
+          },
+          {
+            "planet": "Mercury",
+            "integer_degrees": [
+              17,
+              19
+            ],
+            "cumulative_end_degree": 19
+          },
+          {
+            "planet": "Mars",
+            "integer_degrees": [
+              20,
+              28
+            ],
+            "cumulative_end_degree": 28
+          },
+          {
+            "planet": "Saturn",
+            "integer_degrees": [
+              29,
+              30
+            ],
+            "cumulative_end_degree": 30
+          }
+        ]
+      },
+      "consequence": "This is a five-slot irregular partition; boundaries and planet order are sign-specific and must not be merged with decan or monomoiria order."
+    },
+    "monomoiria": {
+      "definition": "One planetary ruler is assigned to each individual degree 1..30 of a sign.",
+      "source_rule": "The official table groups signs by domicile ruler and prints rows 1..30. Within each group the seven-planet cycle repeats from the domicile ruler; the group mapping is read from the table header and cross-checked against the Domicile row in PH_RULERS_EGIP_2004.",
+      "sign_to_group": {
+        "Aries": "Mars",
+        "Scorpio": "Mars",
+        "Taurus": "Venus",
+        "Libra": "Venus",
+        "Gemini": "Mercury",
+        "Virgo": "Mercury",
+        "Cancer": "Moon",
+        "Leo": "Sun",
+        "Sagittarius": "Jupiter",
+        "Pisces": "Jupiter",
+        "Capricorn": "Saturn",
+        "Aquarius": "Saturn"
+      },
+      "group_cycle_1_to_7": {
+        "Mars": [
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter"
+        ],
+        "Venus": [
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun"
+        ],
+        "Mercury": [
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus"
+        ],
+        "Moon": [
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury"
+        ],
+        "Sun": [
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars"
+        ],
+        "Jupiter": [
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn"
+        ],
+        "Saturn": [
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon"
+        ]
+      },
+      "group_degrees_1_to_30": {
+        "Mars": [
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun"
+        ],
+        "Venus": [
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury"
+        ],
+        "Mercury": [
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon"
+        ],
+        "Moon": [
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn"
+        ],
+        "Sun": [
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus"
+        ],
+        "Jupiter": [
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars"
+        ],
+        "Saturn": [
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Venus",
+          "Mercury",
+          "Moon",
+          "Saturn",
+          "Jupiter"
+        ]
+      },
+      "consequence": "Each sign has 30 degree labels, with paired signs sharing the same sequence only when they share the displayed domicile column."
+    }
+  },
+  "uncertainties_and_source_limits": [
+    "These are modern reference tables and an academic edition of historical material, not a direct medieval manuscript witness for a Voynich system.",
+    "The official Paulus page is a contents page; it confirms the three relevant chapters but does not itself expose their full text.",
+    "The literal Egyptian-bounds row for Leo ends at 18 degrees (lengths 6,5,7,6,6) in both downloaded table renderings. Some later/secondary lists may normalize this differently; preserve 18 here and do not silently substitute 17.",
+    "The monomoiria PDF uses planetary glyphs and sign-group headers; the planet names in this record are the explicit crosswalk from those headers and the Domicile row, not an inferred Voynich mapping.",
+    "No claim follows about which, if any, of these systems is encoded in the manuscript; GDT951 remains a scaffold only."
+  ],
+  "verification": {
+    "downloaded_files": "All five URLs were fetched; hashes above are of the fetched bytes.",
+    "checks": [
+      "The monomoiria arrays each contain exactly 30 degree labels.",
+      "Every Egyptian-bound range covers integer degrees 1..30 exactly once.",
+      "Every decan entry has exactly three faces.",
+      "The three systems remain separate in the data model."
+    ]
+  }
+}

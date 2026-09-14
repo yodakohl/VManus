@@ -51,3 +51,8 @@ report scientific progress separately from technical work and known failures.
   running passages;11-word historical sentence, no target model. Refetch validator
   PASS covers sources only. Next source-specific exploration: joint astrological
   degree attributes, with old zodiac/phase contracts reviewed before selection.
+
+- 23:20:42 UTC: GDT951 source predictions and exact unordered label test locked;
+  189 T3/272 T4 tuples. Source-only independent validator passes. No951target
+  intake yet. Historical Leo29/30 source discrepancy corrected before freeze;
+  original producer evidence preserved with separate erratum.
