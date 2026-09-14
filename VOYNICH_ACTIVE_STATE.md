@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W97 FIXED GENERATION DRAFT: all7f83r records341groups;19operators8bound11missing. Four qokedy/qokeedy STEP/EQUAL direction variants all inconsistent: qokedy selflinks .23:5/.28:4, qokeedy .14:2. Three distinct sites;zero mixed-operator contradiction witnesses. P1 coupled-generation consequence remains hypothetical;known self-identity failure mode, no general genealogy refutation or new meaning. Fixed model stopped;no successor. Primary: research_registry/proposals/translation_programs_20260912/work/W97/REPORT.md
+
 W96 WHOLE f2v DRAFTS: all4lines ZL29/IT30groups;9hypothesis positions20/21open. MASS/GRADE x SAME/NEW: SAME mass requiresA=C;GRADE firstA lacksaxis. SAME wet/dry conflict,NEW avoids by new identities;neither chosen. qoty chor daiin admits cold-X amountC vs X cold-gradeC under old unconfirmed qoty. No new meaning;local f2v scope/identity branch parked, no next model. Primary: research_registry/proposals/translation_programs_20260912/work/W96/REPORT.md
 
 W95 W94 HEAD AUDIT: all278value positions;38have old P14 material/quality heads,240untyped or no head. All36primary cycle witnesses preserved;26nontrivial:3mixed material/quality,2allmaterial (same f2v across readings),21untyped. f15unity uses cthy vs chol; ITf19 shy vs chor. No unit/reference change or translated1;W94 remains unchanged. f2v chor dair/chor daiin open, no new model selected. Primary: research_registry/proposals/translation_programs_20260912/work/W95/REPORT.md
