@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+IDEA143 SOURCE PAIR: fixed Durham Cosin V.iv.7 f50r/f50v manually inspected; second Circulus sicut antea carries ring description while liquid label changes. Partial diagnoses unresolved; no changed-ring/fixed-liquid contrast, no Voynich target or meaning. Retain source-only scoped carry-forward example; no decoder selected. Primary: research_registry/proposals/translation_programs_20260912/work/URO_SOURCE_PAIR/REPORT.md
+
 POST-W97 SELECTION: IDEA189 harvest/cultivation not selected. P05/P15 primaries and preceding P27 do not bind living source plant plus detached part to different later consequences. No new renderer or manuscript experiment;missing design,not genealogy/gardening refutation. Producer143 remains source-only without target. No executable next candidate from this bounded review;no meaning. Primary: research_registry/proposals/translation_programs_20260912/HARVEST_SELECTION_REVIEW.md
 
 W97 FIXED GENERATION DRAFT: all7f83r records341groups;19operators8bound11missing. Four qokedy/qokeedy STEP/EQUAL direction variants all inconsistent: qokedy selflinks .23:5/.28:4, qokeedy .14:2. Three distinct sites;zero mixed-operator contradiction witnesses. P1 coupled-generation consequence remains hypothetical;known self-identity failure mode, no general genealogy refutation or new meaning. Fixed model stopped;no successor. Primary: research_registry/proposals/translation_programs_20260912/work/W97/REPORT.md
