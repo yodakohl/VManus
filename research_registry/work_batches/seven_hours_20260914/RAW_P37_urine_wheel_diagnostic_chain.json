@@ -1,0 +1,35 @@
+{
+  "title": "RAW_UNSCREENED: Uroskopie-Rad als Beobachtung-Diagnose-Therapie-Kette",
+  "summary": "RAW_UNSCREENED: Mittelalterliche Urinräder verbinden sichtbare Farb-/Ringmerkmale mit Diagnose und teils Behandlung; f68r1s Zentrum-plus-28 Karten könnte ein solches mehrstufiges Nachschlagewerk tragen, obwohl die abweichende Kardinalität ein harter Gegenpunkt ist.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Nur die bereits gebundene f68r1-Zählung (ein Zentrum plus 28 Randgruppen) und vorhandene Quellenkarten; keine neue Bild- oder Textfreigabe.",
+    "mechanism": "A visual sign selects a diagnostic record, which may then select a condition or treatment note; the same item is therefore a lookup key, not necessarily the diagnosis itself.",
+    "unit": "The central group and 28 peripheral f68r1 groups in the existing locus record, compared as a complete diagram rather than isolated word glosses.",
+    "contrast": "Mehrstufiges diagnostisches Nachschlagewerk versus gleichförmiger räumlicher Katalog.",
+    "prediction": "The uroscopy model predicts one fixed sign-to-diagnosis relation and a second, separately structured diagnosis-to-action/result relation. The plain-catalog model predicts uniform peer slots and no second-stage cross-reference.",
+    "concrete_observations": [
+      "HIST:2797fab43dce948f records one central plus 28 noncentral f68r1 labels; no meanings are independently bound.",
+      "QMUL's primary-witness edition describes late-fifteenth-century entries as repeated `Urine as [colour] [optional comparative] [resulting diagnosis]` units, while the Durham Cosin MS V.iv.7 catalogue records a wheel with 20 urine bottles and an inner band of seven digestive-significance circles linked by lines, with a recipe at each page foot.",
+      "The 28-versus-20/7 cardinality mismatch is retained as an explicit source conflict, not repaired by merging slots."
+    ],
+    "linked_consequences": [
+      "A diagnostic-wheel reading requires a stable second-layer relation: changing the outer sign class should select a constrained inner condition/result class rather than an arbitrary neighboring label.",
+      "It predicts an exceptional central role or entry/healthy baseline only if the bound centre has a relation not shared by all 28 peripheral groups; otherwise the catalogue rival remains live.",
+      "A plain catalogue permits every peripheral group to be an equal independent label and predicts no cross-layer reuse or condition-to-treatment continuation."
+    ],
+    "nearest_rival": "A spatial 29-entry star or calendar catalogue whose centre is simply one peer and whose apparent inner/outer relation is layout only.",
+    "distinguishing_observation": "Freeze the existing centre/rim and any already recorded inner relations, then test whether two different outer groups share a constrained downstream class while preserving the same position rule. A position-only catalogue should not produce a repeatable two-stage mapping.",
+    "assumption_costs": [
+      "A late medieval uroscopy layout is a structural analogue, not a Voynich lexical key.",
+      "The f68r1 centre/rim ownership is reliable in the existing source record.",
+      "A diagnosis/action layer must be visible in bound relations; no missing arrows or meanings may be supplied."
+    ],
+    "strongest_likely_failure": "The witness's 20-bottle plus seven-circle architecture does not match f68r1's 28 rim groups, and no author-visible f68r1 cross-layer links are currently bound; the analogy could be numerology over a spatial catalogue.",
+    "primary_predecessors": ["HIST:2797fab43dce948f", "IDEA000143", "GDT184", "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv"],
+    "primary_sources": [
+      {"source_id":"QMUL_BOKYNHAM_URINARIUM", "locator":"late-fifteenth-century William Bokynham tract, edition overview", "url":"https://digitalmanuscripts.history.qmul.ac.uk/editions/miscellaneous/urinarium-colores-urinarum-database-by-jessica-louise-reeves/", "source_consequence":"Repeated colour-led entries join an observable sign to a resulting diagnosis."},
+      {"source_id":"DURHAM_COSIN_VIV7", "locator":"Cosin MS V.iv.7, Tabula de iudiciis vrinarum per colores", "url":"https://reed.dur.ac.uk/xtf/view?docId=ark%2F32150_s13b5918659.xml", "source_consequence":"A wheel separates a bottle/colour band, seven inner digestive-significance circles and foot recipes."}
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "RAW_UNSCREENED: Graftkompatibilität als gerichteter Donor-Stock-Graph",
+  "summary": "RAW_UNSCREENED: Columella/Palladius describe ordered graft relations with three insertion methods, stock-donor compatibility and altered fruit traits; the bound f57v four-near/four-between layout could encode transformations rather than two independent label lists.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Nur die bereits gebundene f57v-Visualbeschreibung mit vier figurnahen und vier Zwischenfigurtexten sowie der zugängliche antike/lateinische Grafting-Vergleich; keine neue Bildauswertung.",
+    "mechanism": "Each endpoint is a host or donor plant state; an intervening item records a directed graft method or compatibility relation, and the next endpoint records the inherited or altered product trait.",
+    "unit": "The four cyclic endpoint inscriptions and four interfigure inscriptions recorded in the existing f57v source-bound report.",
+    "contrast": "Gerichteter Donor-Stock- und Ergebnisgraph versus zwei parallele räumliche Beschriftungsregister.",
+    "prediction": "A graft graph predicts that reversing an endpoint pair changes the legal relation or result, and that repeated host/donor classes reuse one of the three method families. The parallel-list model predicts no direction-sensitive bridge and allows the gap texts to vary independently of endpoint pairs.",
+    "concrete_observations": [
+      "RAW_P30/GDT389 records four short f57v inscriptions near figures and four additional inscriptions between consecutive figures, with no drawn leader or bracket assigning a nearby item to one figure.",
+      "Columella, De Arboribus 26.1.1 explicitly distinguishes three methods: a split stock receiving scions, insertion between bark and wood, and budding under bark; it also states season and bark/fruit similarity constraints.",
+      "Palladius, De insitione 34-39 gives the same three-way technique inventory and then lists directed tree pairings whose graft changes fruit colour, size, flesh or thorniness; some trees exchange their own buds rather than accept an alien one."
+    ],
+    "linked_consequences": [
+      "A source-like f57v reading requires every bridge to carry both an ordered endpoint pair and one method/compatibility class; a reverse pair cannot silently preserve the same relation.",
+      "It predicts a constrained output change at the following endpoint (for example colour, size, protection or fertility), while a bridge between incompatible endpoint classes should be exceptional or marked as failed.",
+      "The parallel-register rival predicts no systematic co-variation between endpoint pair order, intervening inscription and downstream endpoint, even if all eight items form a neat circle."
+    ],
+    "nearest_rival": "Two independent cyclic lists placed together, with proximity and cyclic adjacency serving layout only; a repeated gap form is a reusable label rather than a donor-stock operation.",
+    "distinguishing_observation": "Freeze the four endpoint pairs in their recorded cyclic order and compare exact intervening forms across repeated or reversed pair classes. A positive result needs direction-sensitive bridge reuse plus an endpoint change; adjacency alone is not evidence.",
+    "assumption_costs": [
+      "The f57v four-plus-four grouping is source-bound and semantically co-owned.",
+      "A plant-transformation system can be represented without visible plant names or confirmed Voynich lexemes.",
+      "The historical three-method inventory is an analogue, not a licence to assign graft words."
+    ],
+    "strongest_likely_failure": "f57v has no visible leaders and only four pairs; apparent endpoint-dependent bridges may be circular layout coincidence, leaving this stronger graph model indistinguishable from P30's independent-register rival.",
+    "primary_predecessors": ["RAW_P30_f57v_derived_register.json", "GDT389", "HIST:cfad7da3682d3dcb", "HIST:058818018b902b54"],
+    "primary_sources": [
+      {"source_id":"COLUMELLA_ARBOR_26_1_1", "locator":"De Arboribus 26.1.1", "url":"https://latin.packhum.org/loc/845/1/30/704-709", "source_consequence":"Three methods, compatibility conditions and seasonal distinctions are written explicitly; method is separate from host/donor names."},
+      {"source_id":"PALLADIUS_INSITIONE_34_39", "locator":"De insitione, Book XIV, §§34-39", "url":"https://remacle.org/bloodwolf/erudits/palladius/livre14.htm", "source_consequence":"Directed pairings produce altered fruit traits and include a non-accepting/self-exchanging exception."}
+    ]
+  }
+}

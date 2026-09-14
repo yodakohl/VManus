@@ -1,0 +1,60 @@
+{
+  "title": "RAW_UNSCREENED: Operations- und Ergebnisrahmen als Registertrennprobe",
+  "summary": "RAW_UNSCREENED: Wellcome MS 542 separates named qualities/states from explicit operations and named outputs; this gives a concrete gate for reading the bound HERB4 lines as descriptive records or executable processes.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Nur die bereits gebundenen vollständigen HERB4-Linien f17r.5, f21r.12, f29v.1 und f29v.4 sowie die quellengebundenen W542/W541-Vergleiche in GDT625/GDT768; keine neue Seite, kein Bildzugriff und keine Bedeutungsfestlegung.",
+    "mechanism": "A descriptive register stores material/part and quality/degree fields without temporal entailment; an executable recipe register requires a separate written operation frame between an input and a reached state, and a written result or closure when one is claimed.",
+    "unit": "Exact complete-line surfaces and their recurring whole-form positions, preserving the bound line boundaries and all three manuscript readings.",
+    "contrast": "Glossary/list record versus ordered recipe process with explicit operation and result obligations.",
+    "prediction": "The glossary reading predicts that adjacent nominal-looking fields can co-occur without an operation/result pair and that their order is record-field order. The recipe reading predicts a reusable operator-position whole between input and state, plus a distinct output/closure position; a state-like neighbor alone cannot count as the operation.",
+    "concrete_observations": [
+      "GDT768 records the exact f17r.5 surface `ychekchy cthy chor shor cphor cphaldy dair cthey qody`, including the adjacent triple `cthy chor shor` and later `dair cthey qody`.",
+      "GDT625 records the exact f29v.1 surface prefix `kooiin shor chetchy ol ls shytchy cthy shy cho shy daiin` and f29v.4 `ysho otshy okaiin cthy oltchy s shot sho okaiin`; their current state/part labels remain exploratory.",
+      "The bound primary comparator W542 fol.79v writes `ponatur super carbones` and separately `ponatur calidum super caput`; fol.80r writes `bene ablutae et pistatae`, `ponantur in vino albo`, `deinde distillentur`, `fiat aqua`; fol.118r-119v places learned part/drug names beside quality and degree fields."
+    ],
+    "linked_consequences": [
+      "If HERB4 is a glossary/list, the f17r.5 nominal run should be admissible without inventing an unmarked action, and repeated quality/state forms should remain field descriptions across comparable lines.",
+      "If HERB4 is procedural, at least two complete lines must expose the same operator-slot whole between an input-like field and a state/result endpoint, while a distinct closure/output slot recurs; otherwise the process reading has no written bridge.",
+      "W542 predicts that a candidate state form and a candidate operation form must occupy different reusable positions, and that a claimed product/result must have an independent closing form rather than being inferred from a quality adjective."
+    ],
+    "nearest_rival": "A uniform record grammar in which apparent operators and results are omitted or folded into whole-phrase semantics, allowing either reading to relabel the same sequence without a reusable frame.",
+    "distinguishing_observation": "On the already bound complete lines, freeze recurring whole-form positions before glossing and ask whether one exact operator candidate recurs in the input-to-state slot and one independent closure candidate recurs after it across at least two lines. A line that only contains adjacent part/quality/value candidates distinguishes neither mechanism; it must remain unresolved.",
+    "assumption_costs": [
+      "The W542 register distinction transfers as a structural expectation to HERB4.",
+      "Complete-line boundaries and recurrence positions inherited from GDT625/GDT768 are reliable under ZL3b/IT2a/RF1b.",
+      "The proposed operator and closure classes can be tested without assigning English meanings to any Voynich form."
+    ],
+    "strongest_likely_failure": "The exposed HERB4 lines may contain no independent operation/result frame, so a process account and a field-list account remain observationally equivalent; GDT625 already warns that f29v.4 is more economically a pair of part-state descriptions than one drying process.",
+    "primary_predecessors": [
+      "GDT625",
+      "GDT768",
+      "IDEA000293",
+      "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+      "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/HISTORICAL_PROCESS_COMPARATORS.tsv"
+    ],
+    "primary_sources": [
+      {
+        "source_id": "W542_HEAT",
+        "locator": "Wellcome MS 542, fol.79v",
+        "url": "https://iiif.wellcomecollection.org/image/b19608767_MS_542_0172.JP2/full/2400,/0/default.jpg",
+        "catalog_url": "https://wellcomecollection.org/works/n674z2xd",
+        "source_consequence": "The reached state `calidum` is written with a separate placement/heating phrase, not used as the operation itself."
+      },
+      {
+        "source_id": "W542_DISTILL",
+        "locator": "Wellcome MS 542, fol.80r",
+        "url": "https://iiif.wellcomecollection.org/image/b19608767_MS_542_0173.JP2/full/2400,/0/default.jpg",
+        "catalog_url": "https://wellcomecollection.org/works/n674z2xd",
+        "source_consequence": "Operations are ordered by independent verbs and `deinde`, and the output is named by `fiat aqua`."
+      },
+      {
+        "source_id": "W542_QUALITY",
+        "locator": "Wellcome MS 542, fols.118r-119v",
+        "url": "https://iiif.wellcomecollection.org/image/b19608767_MS_542_0249.JP2/full/2400,/0/default.jpg",
+        "catalog_url": "https://wellcomecollection.org/works/n674z2xd",
+        "source_consequence": "Named drug/part entries are paired with quality and degree in a descriptive glossary register."
+      }
+    ]
+  }
+}
