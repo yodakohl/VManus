@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W78:8fullparasN/Q;f19N bindsdryT and laterqoteeyaddition,Qmissing.LocalNretained,no globalotchymeaning;otherchorrelations open. Primary: research_registry/proposals/translation_programs_20260912/work/W78/REPORT.md
+
+
 W77: all117otchy positions114lines,N/Q fullrole drafts;17Qadjacentcarriers and2Nrightqualities are incomparable diagnostics,no nounwinner. Primary: research_registry/proposals/translation_programs_20260912/work/W77/REPORT.md
 
 
