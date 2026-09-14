@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W91 USER-SELECTED ARGUMENTATION: all7 exposed f83r records341groups; fixed sol=therefore/qokeey=if-then propositional skeleton43hypothesis298open. All7sol:5not entailed with explicit countermodels,2unbound;0new proofs. Neither connective selected; no categorical/class or historical proof reconstruction; broad IDEA000127 not exhausted. W89 recipe pause remains; no automatic repair or next experiment. Primary: research_registry/proposals/translation_programs_20260912/work/W91/REPORT.md
+
 W90 USER-REQUESTED NATIVE f88r FEASIBILITY:13provisional botanical regions+3vessels,9manual comparisons; no supported same-base single-feature pair/replicated owned contrast identified. STOP before meaning test; original pair suggestion unsupported. PHF001/PLC001 not reopened. W89 recipe expansion remains suspended; no next experiment selected. Primary: research_registry/proposals/translation_programs_20260912/work/W90/REPORT.md
 
 W89 USER-REQUESTED FROZEN AUDIT:140paras8600groups106claimpairs. R5known-roleconflicts/10complete;D43missingsubjects. No independent semantic discriminator established. RECIPE SEMANTIC EXPANSION SUSPENDED; D not promoted; W88 cheor follow-on cancelled. Existing local mixing sentence remains unconfirmed. No next experiment selected; new concrete discriminating relation required, no placeholder repair. Primary: research_registry/proposals/translation_programs_20260912/work/W89/REPORT.md
