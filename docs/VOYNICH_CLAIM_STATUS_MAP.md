@@ -10,10 +10,13 @@ bleibt und was die vorhandene Prüfung tatsächlich offenlässt.
 ## Suchhilfe
 
 Die Metadatensuche erfasst nicht automatisch den Volltext dieser Dokumente.
-Bei leeren oder unpassenden Treffern zunächst diesen Themenverweis benutzen,
+`./vmanus-work context topic Wortzusammensetzung` und die mit `context topics`
+paginierten Themen rufen passende Live-Ausschnitte direkt ab, einschließlich
+ihrer Grenzen und Primärverweise. Die Registersuche selbst bleibt unverändert.
+Bei unbekannten Themen oder unpassenden Treffern diesen Themenverweis benutzen,
 danach die genaue Register-ID beziehungsweise den Primärbericht. Der begrenzte
 [Abrufcheck](../research_registry/decisions/workflow_review_20260914.md) fand
-die fünf Themenwörter am Anfang der ersten fünf Tabellenzeilen nicht, obwohl
+damals die fünf Themenwörter am Anfang der ersten fünf Tabellenzeilen nicht, obwohl
 die zugehörige Arbeit existiert. Weitere Stichwörter dienen nur der Navigation.
 Dies ergänzt die Suche; es ändert keinen Befund oder Wiederöffnungsstatus.
 

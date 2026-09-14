@@ -9,6 +9,9 @@ from tools.experiment_lookup import lookup_experiments, render_lookup
 
 def main(argv: list[str] | None = None) -> int:
     arguments = list(sys.argv[1:] if argv is None else argv)
+    if arguments and arguments[0] == 'context':
+        from tools.work_context import main as context_main
+        return context_main(arguments[1:])
     if arguments and arguments[0] == 'priorities':
         remaining = arguments[1:]
         if '--sources' in remaining:
@@ -36,6 +39,7 @@ def main(argv: list[str] | None = None) -> int:
         return question_coverage_main(arguments[1:])
     parser = argparse.ArgumentParser(prog='vmanus-work')
     commands = parser.add_subparsers(dest='command', required=True)
+    commands.add_parser('context', help='bounded startup, resume fields and topic excerpts from live documentation')
     commands.add_parser('priorities', help='bounded hypothesis groups and conditional research priorities')
     commands.add_parser('ideas', help='scalable research memory: search, duplicates, reconsider, show')
     commands.add_parser('identity-inputs', help='read-only manifest membership/hash receipt; no semantic verdict')

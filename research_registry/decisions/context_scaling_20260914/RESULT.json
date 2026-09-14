@@ -1,0 +1,84 @@
+{
+  "status": "WORKFLOW_IMPLEMENTED_TESTED_NO_SCIENTIFIC_TEST",
+  "baseline_commit": "8d5795a2b65bbc6014dbf65ed55944c24be444d9",
+  "context": {
+    "status": "PASS",
+    "scope": "live documentation format, block selectors and byte limits only",
+    "start_bytes": 3714,
+    "max_start_bytes": 4096,
+    "topic_count": 15,
+    "largest_topic_bytes": 2520,
+    "max_topic_bytes": 6000,
+    "manuscript_data_read": false,
+    "scientific_validation": false
+  },
+  "old_required_route_and_brief_bytes": 15346,
+  "startup_reduction_percent": 75.8,
+  "measurement_scope": "Project startup documents only; not tokens or total conversation/model context; topic and primary evidence are additional.",
+  "tests": {
+    "command": "python -m unittest tests.test_work_context tests.test_workflow_docs tests.test_semantic_ideas_context.SemanticIdeasContextTests.test_ten_thousand_claims_use_bounded_cached_index_pages",
+    "returncode": 0,
+    "output": "...................\n----------------------------------------------------------------------\nRan 19 tests in 4.487s\n\nOK",
+    "wall_seconds": 4.576
+  },
+  "growth_fixtures": {
+    "extra_synthetic_records": 1000,
+    "synthetic_existing_index_cards": 10000,
+    "claims": "Fixed startup/topic output and existing bounded index pages; no real experiments added or scientific decisions simulated."
+  },
+  "guards": [
+    "mandatory unique resume fields and phase/status",
+    "UTF-8 byte bounds; no partial output",
+    "missing/ambiguous source selectors",
+    "detached table header",
+    "source changes visible with file hash",
+    "fixed documentation allowlist and no symlinks",
+    "paged topic names",
+    "unknown alias is not absence of research"
+  ],
+  "unchanged_legacy_tools": {
+    "tools/research_registry.py": true,
+    "vmanus-exp": true
+  },
+  "unchanged_knowledge_table_rows": {
+    "docs/VOYNICH_RESEARCH_BRIEF.md": true,
+    "docs/VOYNICH_CLAIM_STATUS_MAP.md": true
+  },
+  "legacy_experiment_changes_before_ledger_append": [],
+  "new_manuscript_data": false,
+  "new_meaning_claim": false,
+  "new_scientific_assessment": false,
+  "reserved_pages_opened": false,
+  "outside_contacts": false,
+  "limitations": [
+    "Format checks do not validate scientific truth, completeness, dependencies or source admission.",
+    "Fifteen topic selectors are a small navigator, not exhaustive coverage; use existing registry and primaries for other work.",
+    "The growth fixture does not predict 1000 future experiments or prevent an agent from ignoring the protocol."
+  ],
+  "tested_files": {
+    "AGENTS.md": "3f9977df58e9ef69027576d899d31b2185050e2cb8412054222dbdb730911072",
+    "VOYNICH_CURRENT_ROUTE.md": "015964a69af260c9e50364acdfa044a525e9e55331d0e516342e2f2021e86d40",
+    "docs/VOYNICH_RESEARCH_BRIEF.md": "6dcf270680ebad0abc1228c22e482b9035458d3458cec68998a652a013e2acc0",
+    "docs/VOYNICH_CLAIM_STATUS_MAP.md": "a6fdb3b1ce60cb0c7716680fb7f3637585f430ad00d96978128d1561ae0ad98b",
+    "docs/VOYNICH_DATA_SCOPE.md": "71b049ee9f7c79154969aec48014e8a617319f6cc3844ec145bf036145d73cb3",
+    "research_registry/README.md": "e54b27ab359b6be4df50d01dd7f2689f51339c4e13df8f341da314a82c653bc9",
+    "research_registry/context_navigation.json": "cf4a1b91c1d2fbda3f8ebd1713db8e5dc1fa8819521f2fda66c777523bca9751",
+    "tools/work_cli.py": "f9e838b486f37878c1d070b1bf965c3d402e219181173a1c72e3076a236cba2f",
+    "tools/work_context.py": "e0a8a54b3abd155f854bed151f7af18a6d24614a2f94938d6ee285e1c148e4a8",
+    "tests/test_work_context.py": "76c02ed95a6702256581c0b904009e3078c4d9acd9e2a49fe60b27cde171cd7c",
+    "tests/test_workflow_docs.py": "246591cf76b5866caed378a4db6a652ddab4470f7c1151dd53e76e135de9b877",
+    "tests/test_semantic_ideas_context.py": "71ea8d6d2db9c050279fa9bff13824b55472f14baad7c88109821a07de55da4e"
+  },
+  "registry_refresh": {
+    "executed_once": true,
+    "check_status": "PASS",
+    "check_coverage": "schema, identities, relation consistency, source/review freshness; not semantic truth",
+    "records": 5749,
+    "imported_before": 5511,
+    "imported_after": 5512,
+    "added_record": "HIST:6fd3a3b94edd94e7",
+    "removed_records": 0,
+    "existing_record_changes": "Only source sha256 values: 4523 references across 4468 records; appended ledger changes its source hash.",
+    "curation_changed": false
+  }
+}

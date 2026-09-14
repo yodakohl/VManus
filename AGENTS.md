@@ -1,15 +1,15 @@
 # Workspace continuity instructions
 
-Before any Voynich action, read `VOYNICH_CURRENT_ROUTE.md`, then use
-`./vmanus-work ideas search QUERY` and `ideas show ID` for bounded research-memory
-cards; use `lookup GDTNNN` for primary experiment pointers. Before selecting or
-proposing scientific work, also read `docs/VOYNICH_RESEARCH_BRIEF.md`, then the
-relevant linked primary evidence. Search hits alone do not supply the known
-structural baseline or current stop decisions. For historical glosses, pattern
-families, controls or image claims,
-use the relevant row of `docs/VOYNICH_CLAIM_STATUS_MAP.md` before its primary
-report; empty natural-language search results require the map's topic fallback,
-not a claim of absent research. An unreviewed import is not an unexecuted experiment; a later diagnostic
+Before any Voynich action, read `VOYNICH_CURRENT_ROUTE.md` directly or through
+`./vmanus-work context start`. It is the sole live resume point and includes the
+structural baseline and current stops. Before scientific selection, use
+`context topic QUERY` for relevant live brief/map excerpts, then bounded
+`ideas search QUERY`, `ideas show ID`, `lookup GDTNNN` and the linked primaries.
+`context topics` lists eight topics per page. Unknown topics or empty searches
+require targeted registry/primary lookup, not a claim of absent research.
+Do not routinely load the full brief, map or operating guide. Search hits alone
+do not replace the baseline or claim-bearing primary evidence.
+An unreviewed import is not an unexecuted experiment; a later diagnostic
 PASS does not supersede the original registered decision. Never dump the JSONL
 registry or full history into context. The current-route file is the compact authoritative
 routing snapshot. `VOYNICH_ACTIVE_STATE.md` and
@@ -25,9 +25,15 @@ pointers instead of dumping entire index rows. The live operating guide is
 30-program plan are preserved historical sources: their index-first/P09-first
 and unexecuted-program instructions are superseded by the live guide and route.
 Access scope is in `docs/VOYNICH_DATA_SCOPE.md`; historical exposure is not a new
-admission or independent holdout. Keep the current route at most 80 lines/6000
-UTF-8 bytes; retain foundational links and live stops when replacing summaries
-instead of appending an ever-growing chronology. Add workflow conveniences
+admission or independent holdout. Keep the current route at most 80 lines/4096
+UTF-8 bytes; retain foundational links, positive knowledge and live stops.
+Before a context switch, replace its eight work fields with the current phase,
+status, task, latest decision, working files, assumptions, exact next step and
+running work. Store detailed results in existing dossiers, not another resume
+file. Run `context check` after changing the route or its topic sources and
+before publishing such changes. It checks format and retrieval, not truth.
+Use `context topic closure` for the compact result/dependency/decision record.
+Add workflow conveniences
 outside hash-bound legacy tools so past experiments remain reproducible.
 
 - Use subagents only when the user explicitly authorizes them; preserve task

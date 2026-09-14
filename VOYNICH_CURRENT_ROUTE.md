@@ -1,60 +1,56 @@
 # Voynich current route
-Updated: 2026-09-14. Read first; replace this snapshot, do not append history.
+Updated: 2026-09-14. This is the sole live resume point; replace, never append history.
 
-## Current task and scientific position
+## Current work
+Phase: workflow
+Status: complete
+Task: Bounded startup and topic retrieval implemented; workflow checks passed.
+Latest decision: Existing registry retained; live-document views now enforce limits.
+Working files: tools/work_context.py; research_registry/decisions/context_scaling_20260914/
+Assumptions: No scientific reading or new experiment selected; no new data admitted.
+Resume: On research continuation, select one topic and inspect its primaries; no candidate preselected.
+Running: none
 
-The user requested remaining memory gaps and better working practice. The
-[workflow review](research_registry/decisions/workflow_review_20260914.md) adds
-topic fallbacks for empty searches and clarifies exploratory reading versus
-fixed testing in the [live guide](research_registry/README.md). The existing
-[12 topic/status mappings](docs/VOYNICH_CLAIM_STATUS_MAP.md) remain in force. No new
-experiment is selected. No word, language or overall reading is confirmed.
+## Structural baseline
+Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
+but whole-form residuals and position/entry context still matter (GDT608/282/286/318).
+Different segmentations are not one proven parser; 98 learned units are no identified
+alphabet. No default Latin or phonetic reading. General adjacency transfers across
+Currier/section/hand; extra direction only across Currier. Known r/l families transfer,
+new stem-pair grammar does not follow (GDT915/916). Formal roles and reversible
+rendering are not confirmed meanings or historical sentence boundaries.
+Confirmed translated words: 0. Whole hypothetical readings remain permitted.
 
-Before scientific selection, read [the research brief](docs/VOYNICH_RESEARCH_BRIEF.md).
-Known hierarchy, productive components, directed composition, whole-form
-residuals and position effects constrain a reading. They do not identify every
-morpheme, phoneme or historical sentence. Then use bounded `ideas search/show`,
-`lookup GDTNNN` and the relevant primary reports; search hits alone are not
-sufficient. Operating guide: [research memory](research_registry/README.md).
+## Decisions to retain
+W89 recipe expansion paused; description not confirmed. W93 naming: NO_CAPACITY.
+W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted.
+GDT913 contradicts all18 frozen IT2a lexicons; original GDT888 non-uniqueness retained.
+GDT914/925/928 fixed edit/literal-parallel tests closed, not all compositional meaning.
+GDT616 strict contract failed; later diagnostic PASS does not rescue it.
+IDEA237 untested, no longer preferred; all30 programs have first passes, no P09 restart.
+Details via `context topic NAME`: recipes, names, numbers, genealogy, variants,
+controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primaries.
+Other closed families remain in the existing registry; no automatic reopening.
 
-## Decisions that must survive the next route update
+## Access and operating boundaries
+f84 and f84r remain sealed. f116v not admitted. Reserves stay closed until a nearly
+complete plausible overall reading. Prior exposure cannot be erased by a new model.
+179 text selectors;49 visual keys/55 selectors, one slot remains. f1r margins only;
+f106v fixed paragraph only. Register new access first. Full admission contracts:
+[VOYNICH_DATA_SCOPE](docs/VOYNICH_DATA_SCOPE.md). No outside contacts or expert review.
+ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
+Mixed TSVs ONLY via selector-first `vmanus-exp query-tsv`; new scored relation packets
+require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
-- IDEA237 is untested and no longer preferred: unrestricted raw-group deltas
-  neglected known composition. No added information channel or default Latin/
-  phonetic model is selected. [Current assessment](research_registry/proposals/differential_reading_20260914/STRUCTURAL_BASELINE.md).
-- All 30 programs have first-pass readings. The original P09-first queue and
-  “28 unexecuted” status are obsolete. [Dated report navigator](research_registry/proposals/translation_programs_20260912/work/PROGRESS.md), not the live queue.
-- [W89](research_registry/proposals/translation_programs_20260912/work/W89/REPORT.md): recipe expansion paused; description not confirmed. No automatic cheor/gloss repair.
-- [W93](research_registry/proposals/translation_programs_20260912/work/W93/REPORT.md): naming test parked for NO_CAPACITY, not refuted or independently confirmed. No automatic name expansion.
-- [W96](research_registry/proposals/translation_programs_20260912/work/W96/REPORT.md): local f2v amount/grade and identity variants parked; no confirmed value “one”. [W97](research_registry/proposals/translation_programs_20260912/work/W97/REPORT.md): fixed generation model stopped on stipulated self-relations, not all genealogy.
-- [GDT913](experiments/yolo/gdt913_alphita_senecio_all_candidates/REPORT.md): all 18 frozen IT2a lexicons contradict Senecio predictions; original GDT888 non-uniqueness unchanged.
-- [GDT915](experiments/yolo/gdt915_terminal_lr_phrase_transfer/REPORT.md)/[916](experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md): known r/l families transfer; new stem-pair grammar not established. Preserve both results.
-- [GDT914](experiments/yolo/gdt914_local_parallel_one_edit_patterns/REPORT.md), [925](experiments/yolo/gdt925_whole_line_word_multiset_discovery/REPORT.md), [928](experiments/yolo/gdt928_multi_anchor_complete_paragraphs/REPORT.md): fixed local-edit/literal-parallel tests closed; no blanket rejection of compositional meaning or paraphrases. No enlarged-text rerun merely from more visual admissions.
-- GDT616 stays closed: its imported diagnostic PASS does not replace strict
-  UNSAT; `ideas show GDT616` now separates them. Other closed families require bounded lookup and primary
-  review before reopening; no automatic decoder/control repair chain.
-
-## User intent, access and interpretation
-
-Coherent multistep whole-reading hypotheses are permitted without a confirmed
-word anchor. Preserve unknowns and contradictions; neither fluent prose nor a
-reversible parser confirms meaning. No outside contacts or expert review.
-Reserved pages remain closed until a nearly complete plausible overall reading;
-f84 and f84r remain explicitly sealed. No reserve admission in this task.
-
-[Current source scope](docs/VOYNICH_DATA_SCOPE.md): 179 text selectors versus
-49 visual keys/55 selectors, one visual slot remaining. Register new access
-first; f1r margins and f106v fixed-paragraph limits remain. f116v not admitted.
-Prior exposure stays explicit. ZL3b/IT2a/RF1b are alternate readings of one
-manuscript. Preserve raw entities/uncertain spaces. Mixed TSV access only via
-`vmanus-exp query-tsv` with explicit selector allow-values and output columns.
-New scored relation packets require `check-edge-packet`; see the
-[scope correction](docs/RELATION_GATE_SCOPE_CORRECTION.md).
-
-## Continuity
-
-Use active-state/ledger targeted sections for claims; old logs are recovery
-archives. Record material changes once, refresh/check metadata, publish after
-exact staged-tree privacy/scope checks. Preserve legacy source bytes and
-unrelated GDT600 binding debt. The [previous route](research_registry/decisions/documentation_audit_20260914/ROUTE_BEFORE.md)
-is recovery history, not a second live queue. Keep this route <=80 lines/6000 bytes.
+## Load only the next relevant layer
+`./vmanus-work context start` returns this route (<=4096 UTF-8 bytes).
+`./vmanus-work context topic Wortzusammensetzung` returns a bounded live excerpt.
+`context topics` lists eight broad topics; `context check` checks bounds and selectors.
+Use `ideas search/show`, `lookup`, and `vmanus-exp route-check` before scientific choice.
+[Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and
+[topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md) are targeted references, not full startup reads.
+[Live guide](research_registry/README.md): phases, closing protocol and exceptions.
+Update this resume block before a context switch. Store results and reopening terms
+in the existing dossier/review/ACTIVE_EXPERIMENT_LEDGER.tsv; update
+VOYNICH_ACTIVE_STATE.md only when its live interpretation changes. No history dumps.
+Retain positives as well as failures; publish after exact staged privacy/scope checks.

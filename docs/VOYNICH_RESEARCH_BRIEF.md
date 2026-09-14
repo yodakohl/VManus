@@ -1,6 +1,9 @@
 # Verbindlicher Wissenseinstieg
 
-Stand: 14. September 2026. Vor einer neuen wissenschaftlichen Auswahl lesen.
+Stand: 14. September 2026. Vor einer wissenschaftlichen Auswahl die relevante
+Zeile über `./vmanus-work context topic THEMA` lesen, dann ihre Primärbelege.
+Der verpflichtende allgemeine Strukturstand steht bereits in der Route;
+dieses Dokument muss beim Wiedereinstieg nicht vollständig geladen werden.
 Dies bündelt vorhandene Befunde und ihre Folgen, ohne neue Ergebnisse zu
 behaupten. Aktueller Auftrag: [Route](../VOYNICH_CURRENT_ROUTE.md).
 Primärberichte entscheiden über den jeweiligen Umfang; ihre historischen

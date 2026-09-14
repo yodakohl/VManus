@@ -7,17 +7,35 @@ FAIL does not endorse its scientific interpretation.
 
 ## Mandatory entry before scientific selection
 
-Read [the current route](../VOYNICH_CURRENT_ROUTE.md), then
-[the compact research brief](../docs/VOYNICH_RESEARCH_BRIEF.md). These are the
-live entry points; use bounded `ideas search/show`, `lookup GDTNNN`, and the
-linked primary reports for the selected topic. The brief preserves positive
-structural knowledge as well as interpretation limits and current stops.
-Reading only the latest failures or lexical search hits is insufficient.
-For source access, use [the scope table](../docs/VOYNICH_DATA_SCOPE.md).
-For old glosses, tested variant mechanisms, numeric readings, control recovery
-or visual claims, open the relevant row in the
-[topic/status map](../docs/VOYNICH_CLAIM_STATUS_MAP.md), then its primary reports.
-It preserves qualified positive results as well as failures and missing capacity.
+Start with the sole live resume point, [the current route](../VOYNICH_CURRENT_ROUTE.md).
+It retains positive structure, live stops, access boundaries and current work
+within 4096 UTF-8 bytes. Then load one relevant topic and its exact primaries:
+
+```bash
+./vmanus-work context start
+./vmanus-work context topic Wortzusammensetzung
+./vmanus-work context topics --limit 8 --offset 0
+./vmanus-work context check
+```
+
+`topic` accepts a listed ID or alias and returns complete selected rows/blocks
+from the live [brief](../docs/VOYNICH_RESEARCH_BRIEF.md),
+[status map](../docs/VOYNICH_CLAIM_STATUS_MAP.md),
+[data scope](../docs/VOYNICH_DATA_SCOPE.md) or this guide. Each excerpt includes
+its source line and file hash. No report link is followed and no manuscript
+data are opened. Output is limited to 6000 bytes; ambiguous, missing or
+oversized blocks fail visibly without partial output. `check` checks these
+retrieval contracts, not whether a scientific claim is correct.
+
+The navigation catalog contains only selectors and aliases for broad topics,
+not another claim database. It is intentionally small, not one topic per
+experiment. Unknown queries fall back to the existing bounded registry search;
+an empty result is not absence of research. Use `ideas search/show`, `lookup
+GDTNNN` and claim-bearing primary sections before scientific selection. Do not
+routinely reread this whole guide, the whole brief or map at startup. Topic
+excerpts preserve qualified positives, failures and capacity limits; reading
+only recent failures or lexical hits is insufficient. Targeted primary review
+still determines the exact scope; a source hash establishes identity, not truth.
 An unreviewed import may describe an executed experiment; a latest diagnostic
 PASS may coexist with an unchanged registered failure. GDT616 now has a scoped
 append-only review separating these outcomes. No old source bytes were rewritten.
@@ -86,12 +104,50 @@ Keep these phases explicit in the existing proposal:
 | Fixed test | Freeze the chosen readings, scope and distinguishing consequences; evaluate every declared case. | No post-result exception repair or selection of only matching passages. A result from a stipulated model is not automatically manuscript meaning. |
 | Reserved confirmation | Test a nearly complete plausible overall reading using prospectively separated physical leaves where available. | Preserve all prior exposure, the user's reserve threshold and explicit f84/f84r seals. A new model/reviewer does not create blindness. |
 
-Keep the route within 80 lines/6000 UTF-8 bytes. Replace chronology with primary
-pointers, but retain the brief, scope and live stop decisions. Record changed
-facts in the existing ledger/dossiers; update this brief only when its content
-changes. Old source bytes stay frozen. The
+## Close a work unit before losing its context
+
+Use the existing proposal/report, assessed registry review and ledger. Do not
+add a second running diary or migrate all old experiments merely to fit a new
+template. `context topic closure` retrieves the following compact decision
+record to preserve for each material result:
+
+- **Question and contract:** exact candidate, data scope, exclusions and frozen
+  settings; point to the preregistration/source instead of copying it.
+- **Observed consequence:** what passed, contradicted the reading, remained
+  untestable for missing capacity, or was invalid. Preserve qualified positives
+  and contradictions together; a diagnostic PASS may not replace a fixed failure.
+- **Dependencies and ceiling:** which meanings/boundaries/identities were assumed,
+  which alternatives remain equivalent, and what the observation does not establish.
+- **Decision and reopening condition:** what changes next, what remains closed,
+  and the concrete changed input or different falsifier needed to reconsider.
+
+Append one material ledger row; use `ideas review` for a new assessed decision.
+Refresh the metadata snapshot once after the ledger update and check it. Update
+the brief/map only when their scoped content changes, and the active state only
+when the live interpretation or route changes. Keep detailed evidence in the
+existing dossier. Imported history remains unreviewed until assessed; no bulk
+endorsement follows from this closing protocol.
+
+Before a context switch, replace the route's eight fields: `Phase`, `Status`,
+`Task`, `Latest decision`, `Working files`, `Assumptions`, `Resume`, `Running`.
+Use one active question, an exact next action and its file pointer. State a
+checkpoint or completion explicitly; list real running commands/tasks, or
+`none`. Do not label a planned publication completed. The next worker reads
+the route, the relevant excerpt/card and the specified work file; no full
+history replay or independent resume JSON is needed. Verify the actual work
+state on resumption. File existence alone does not mean reviewed evidence.
+
+Keep the route within 80 lines/4096 UTF-8 bytes. Replace chronology, retaining
+the structural baseline, scope and live stops; run `context check` whenever
+the route or excerpt sources change and before their publication. If a topic
+outgrows its bound, narrow the selection and preserve the linked full account;
+do not silently drop its limitations or raise the limit for each new experiment.
+Tests cover startup isolation from 1000 synthetic added records and the existing
+10000-card paginated index; neither is a simulation of scientific progress.
+Old source bytes stay frozen. The
 [2026-09-14 audit](decisions/documentation_audit_20260914/REPORT.md) records why
-these entry rules were needed and the limits of its review.
+the entry rules were needed; the [bounded-context record](decisions/context_scaling_20260914/REPORT.md)
+records the later retrieval checks and their limits.
 
 ## Source-attested historical semantic hypotheses
 
