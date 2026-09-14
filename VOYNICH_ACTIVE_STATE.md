@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W71: f75v45 warm-hot-hot-warm from old assignment contract;32full-paragraph predicate rows. No physical explanation or dy endpoint feature;heat-input versus endpoint concepts separated,neither confirmed. Primary: research_registry/proposals/translation_programs_20260912/work/W71/REPORT.md
+
+
 W70: complete NRC/AMV intersection, 33sharedbound among78unionpositions,5runs;f75v45 common conditional heat sequence with open words and physical interpretation. Full branched paragraphs retained;no meaning or state validation. Primary: research_registry/proposals/translation_programs_20260912/work/W70/REPORT.md
 
 
