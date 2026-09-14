@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT942 complete; stop local o/l/r count-only proof and resume whole-passage hypothesis work.
-Latest decision: Native115v37-40 has gaps, no list-specific delimitation or list-value device. No numeral selected.
-Working files: experiments/yolo/gdt942_f115v_native_list_total_binding/REPORT.md
-Assumptions: Implicit list/dose/grade-compound remain tied; GDT939 hypotheses unchanged, GDT94010values parked.
-Resume: Review raw275-277 against concrete exposed passages and primary predecessors; select one whole-content contrast. No kerning/count-only retry.
-Running: none; producer completed RAW ideas275-277. Independent meaning/confirmation capacity in942:0.
+Task: GDT943 second full solkain clause complete; next whole f80v32 and existing30-37 context.
+Latest decision: REL whose/TEMP while both fit80r14 with8new words; only seed binds subclause. No meaning selected.
+Working files: experiments/yolo/gdt943_solkain_second_leaf_complete_clause/REPORT.md
+Assumptions: GDT93933values unchanged; GDT94341-word branch conditional. qotal/otal and lchey/chey wordbuilding unresolved.
+Resume: Develop whole80v32, retaining ZL s/olkain and arolkeedy/arol keedy. No shl/shol equivalence or local clause recount.
+Running: none. Raw275-277 reviewed not_tested; producer bounded review yielded no new cards.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **941**
-- Experiment-associated tracked files: **17,952** (1.6 GiB)
-- Structured GDT337+ experiments: **606**
+- Experiments indexed: **942**
+- Experiment-associated tracked files: **17,987** (1.6 GiB)
+- Structured GDT337+ experiments: **607**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT943 | GDT943_solkain_second_leaf_complete_clause | `FULL_SECOND_LEAF_CLAUSE_HYPOTHESES_UNSELECTED` | [report](../experiments/yolo/gdt943_solkain_second_leaf_complete_clause/REPORT.md) | 35 | 3.3 MiB | 5 | STRUCTURED_YOLO |
 | GDT942 | GDT942_f115v_native_list_total_binding | `NO_VISUAL_LIST_TOTAL_BINDING` | [report](../experiments/yolo/gdt942_f115v_native_list_total_binding/REPORT.md) | 30 | 5.2 MiB | 3 | STRUCTURED_YOLO |
 | GDT941 | GDT941_EXPLICIT_LKCHEY_COMPARISON_CONTEXT | `NO_TRANSFER_CAPACITY` | [report](../experiments/yolo/gdt941_explicit_lkchey_comparison_context/REPORT.md) | 25 | 1.8 MiB | 9 | STRUCTURED_YOLO |
 | GDT940 | GDT940_SECOND_VESSEL_WHOLE_LINE_TRIAL | `REJECT_FIXED_NOMINAL_EXTENSION` | [report](../experiments/yolo/gdt940_second_vessel_whole_line_trial/REPORT.md) | 31 | 3.3 MiB | 8 | STRUCTURED_YOLO |
