@@ -1,0 +1,11 @@
+# Whole-surface context census before further ditto interpretation
+
+2026-09-14. Exploratory descriptive census, not confirmation of meaning.
+
+Pass417/418 assign SAME and PORTION directly; Pass458 changes SAME to a source relation. The preceding five-case audit verifies one known okain char okain and finds a selected-stream gap. Unknown: does the complete already-exposed paragraph cache supply additional exact symmetric contexts, or do the three alleged aliases occupy different observable positions? Five selected cases cannot answer this coverage question.
+
+Use every complete paragraph in the immutable GDT928 PARAGRAPHS.json, separately for ZL3b and IT2a. Extract every exact whole group char, dar and sar, without pooling aliases, changing spelling or dropping uncertain neighboring groups. Report full source line, exact source ID, paragraph and physical leaf, paragraph-initial/final and line-final placement. For every occurrence with both immediate paragraph neighbors, test only literal equality of those neighbors and retain all equal cases. Separately enumerate shared exact (left,right) frames between different forms, so the proposed alias grouping can be assessed descriptively. Paragraph boundaries are hard; line breaks are recorded, not skipped. No fuzzy windows, new decoder, meaning fit or controls.
+
+All symmetric cases and shared frames will be inspected, with no favorable selection. This is a finite coverage audit: extra cases could provide a concrete new contrast for a later reading attempt; no further cases would leave the known singleton without corroborating constructions in this cache. Different positions do not by themselves refute synonyms or context-dependent allomorphs. Neither outcome certifies a word. No significance claim or independent semantic confirmation. Stop after one census; do not tune window length to create hits. Total budget 10 minutes including implementation, review, validation and publication.
+
+Prior exposure: the old five cases and broad project transcription work, plus GDT928's report. This is reused discovery data, not held confirmation. No new Voynich page/image, reserve or f84/f84r access. RF1b has no paragraph capacity in this cache and is not counted negative. General anaphora and failed GDT928 multi-anchor contracts remain unchanged.
