@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W81:82paras4572groups51qualities; T and U both dry/wet under fixed carry. Both fixed-current-liquid candidates conflict under physical interpretation, neither distinguished under humoral alternative. U bindings all nonadjacent. No meaning; next f56v qoteey cthar / ochey chol chol carrier reading. Primary: research_registry/proposals/translation_programs_20260912/work/W81/REPORT.md
+
 W80:121qoteeyhits76fullparas4272groups;ZLf44TtoU added to f19UtoT,ITchorreceiver;3inputroleclashes42unknown5missing. No recipe/meaningselection. Primary: research_registry/proposals/translation_programs_20260912/work/W80/REPORT.md
 
 
