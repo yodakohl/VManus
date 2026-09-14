@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W69: all11chey scopes in W63 six paragraphs; negative sheckhy bound hypothetically to shey/B; qokchy polarity differs ZL/IT by parity, other objects differ. AMV not adopted, NRC unconfirmed. 135events, no state execution or reserves. Primary: research_registry/proposals/translation_programs_20260912/work/W69/REPORT.md
+
+
 W68: eight full ol/chey/sheckhy lexical combinations, 4640groups80targetrows; conditional N priority unchanged, AMV explicit rival without scope/state validation. No meaning, no reserve access. Primary: research_registry/proposals/translation_programs_20260912/work/W68/REPORT.md
 
 
