@@ -1,0 +1,23 @@
+{
+  "phase": "EXPLORATORY_MODEL_AFTER_SOURCE_VIEW_BEFORE_FULL_CONSEQUENCE_RENDER",
+  "meaning_status": "C0_HYPOTHESIS_ONLY",
+  "question": "Can four complete q/base pairs keep one nominal concept while marked occurrences add a consistently interpreted relation?",
+  "pairs": [
+    {"id":"A", "base":"otedy", "marked":"qotedy", "image_label":"f77r.3", "nominal_display":"A", "visual_candidates":["Mündung oder angrenzender Bereich", "austretender Stoff/Zustand"], "prior_basis":"Known same-page label and paragraph opener; no unique object identity established."},
+    {"id":"B", "base":"otol", "marked":"qotol", "image_label":"f77r.5", "nominal_display":"B", "visual_candidates":["Mündung oder angrenzender Bereich", "Stoff/Zustand am Bogen"], "prior_basis":"Complete local label and exact longer whole both present; image proximity is not ownership."},
+    {"id":"C", "base":"otaiin", "marked":"qotaiin", "image_label":null, "nominal_display":"C", "visual_candidates":[], "prior_basis":"Written base and marked whole both occur in the fixed HERB4 material; no image identity."},
+    {"id":"D", "base":"okaiin", "marked":"qokaiin", "image_label":null, "nominal_display":"D", "visual_candidates":[], "prior_basis":"Both whole forms occur in the full development packet; no confirmation of old whose/quality/pipe meanings."}
+  ],
+  "models": [
+    {"id":"N", "title":"Gemeinsamer Nennwert", "marked_template":"{name}", "relation":"NONE", "claim":"Whole variants name the same concept; their difference could reflect writing context. No added relation read."},
+    {"id":"L", "title":"Zugehörigkeitslesung", "marked_template":"zu {name} gehörig", "relation":"BELONGS_TO", "claim":"The preceding written group denotes something belonging to the marked nominal concept."},
+    {"id":"S", "title":"Herkunftslesung", "marked_template":"aus/von {name}", "relation":"FROM", "claim":"The preceding written group denotes something originating from the marked nominal concept."},
+    {"id":"T", "title":"Ziellesung", "marked_template":"zu/in {name}", "relation":"TO", "claim":"The preceding written group denotes something directed toward the marked nominal concept."}
+  ],
+  "attachment": "For L/S/T only, attach to the immediately previous written source group in the same fixed prose block. Never skip unresolved groups. Another marked whole is not silently turned into an unmarked head or coordinated by an unwritten conjunction. Unknown heads remain type-unresolved; absence or an already marked head leaves this narrow attachment unfilled.",
+  "referent_scope": "A/B can be associated hypothetically with their f77r label regions. A concept is not necessarily one individual; neither same spelling nor record position proves participant identity. C/D have no pictured endpoint. No rule requiring a previous bare occurrence is imposed.",
+  "paragraph_frames": {"f77r":[[9,24],[25,37],[38,48]],"f17r":[[4,6]],"f21r":[[8,12]],"f32v":[[7,11]],"f29v":[[1,4]]},
+  "not_licensed": ["No free q-prefix decoder; only the eight listed complete raw forms receive hypotheses.","No merging qotedy/qoteedy, qokain/qokaiin, otedy/dotedy or otol/otolaiino.","No old HOT/COLD, plant, water, pipe, imperative, degree or pronoun values inherited as truth.","No independent semantic ranking by coverage, repeated spelling or unfilled-role count.","No reopening GDT751/238, GDT890, IDEA000008/000022; these are different scoped predecessors, not passed gates.","No post-output changes to the model; preserve any disagreement and build a separate later proposal."],
+  "reader_policy": "Use original edition-specific source groups and separators, including unresolved entities. The common block frames are exposed work units, not identical authorial sentence segmentation across readers.",
+  "intended_change_in_reading": "A common nominal-core hypothesis stops choosing okaiin=whose and qokaiin=pipe/air/basin independently inside one fluent sentence. It suggests nominal/complement structures alongside earlier procedure hypotheses; this incompatibility is conditional on the new model, not a manuscript refutation."
+}

@@ -1,0 +1,271 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory whole readings only; no independently confirmed meanings or statistical discovery.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt930_label_text_joint_reading/src/run.py",
+    "validate": "python3 experiments/yolo/gdt930_label_text_joint_reading/src/validate.py"
+  },
+  "created": "2026-09-14",
+  "dependencies": [
+    "GDT238",
+    "GDT751",
+    "GDT790",
+    "GDT792",
+    "GDT809",
+    "GDT815",
+    "GDT827",
+    "GDT890"
+  ],
+  "experiment_id": "GDT930",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "source_or_primary_predecessor",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "vmanus-exp",
+      "role": "source_or_primary_predecessor",
+      "sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528"
+    },
+    {
+      "path": "tools/guarded_tsv_query.py",
+      "role": "source_or_primary_predecessor",
+      "sha256": "eeb8f325b3f7b10ad94eef4907d2d3baaa20bb1b81a9aa36782f96c9008551e3"
+    },
+    {
+      "path": "GDT238_LABEL_PREFIX_RELATION_MODE_REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "b24f86d8f7c04ee7dfaa77b9b87ca493e6bd1ac1bcc3b758b346738484a13060"
+    },
+    {
+      "path": "experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "1cc862db584a1873e800677ed36da65a700528af316964557f3dd668d42c8de9"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    {
+      "path": "experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "4ca6636bceaf98a0a172a00b3b67004f4f658d06d2b9eb20328480c7f14a9003"
+    },
+    {
+      "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f"
+    },
+    {
+      "path": "experiments/yolo/gdt890_f77_component_detail/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "26ff5a0a4f38a5c59cbe0eec4b519d062616c9779d66ef773f169be9cecff5df"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/src/IMAGE_SOURCE_SPECS.tsv",
+      "role": "source_or_primary_predecessor",
+      "sha256": "c29c9e6f8a951eabba2d22b443d3e078d8ca29912cc154a30f7ed2a63c38215b"
+    },
+    {
+      "path": "experiments/yolo/gdt815_referent_property_discrimination/WORKING_THEORY.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "d396b7c3855fdfe97b9928842ca649a340e5b9dece509f6fea6af8691e34a05b"
+    },
+    {
+      "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/src/CANDIDATES.tsv",
+      "role": "source_or_primary_predecessor",
+      "sha256": "8e04cd46539b415271b302e25da28af49449686913894ea8ada486c826a3872e"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "56ed49676d351cee387537b32bff41cd9fe532416f85dfd2dc30edf21ac176f6"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/W54/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "72c55b36d840dba999cd3da60d76a57cf24fc8d41d3c51a1d448739954fb737b"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/W89/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "94ad7787310d928267da364fa3fec9714f639fcd1313ef297e8548eafe97d8d5"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/W90/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "8dab41bfad50e51e7c5e1a66201077ee57e418ea2a6685b2b193830dce14341b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/METHOD.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "90cc2ab722c8d589c326ef95ad856256686edb925ff1e753edca7ed434b1675c"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/MODEL_DECISION.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "cffdb27457c126a8a6331e9a4040266598175069c37dc6a0c4187fff7d0f9b0d"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/MODEL_LOCK.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "52d3c74c7d6023bbd10ea236adfc8c23d7b6f357ae0b6bd4cc5bf3deafcf42b4"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/PREREGISTRATION.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "1eef24a33e5ffe099cbab060a3de45f2494d42437ce956d0eae45faeb3b87ef1"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/PREREG_LOCK.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "1f0f2c739e907fc10579a703e36f276d9990a71fa4554e0ec879b91670895540"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/README.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "1858bcf27bc93e00dce1be2dc98e7a98a7f30e8b88ad146f8052b460ce94e456"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/REPORT.md",
+      "role": "primary_report",
+      "sha256": "5575794d73b86db020db4f0cc64b7ab9f25688a13f1b6cc80506abcb230004c2"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/REVIEW.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "75ad2ed9e524a57b667991a147db9c30c2f3aa3ebf0c1aa2610badb7ac6286a9"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/WORK_CHECKPOINT.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "73e90062835076516525b7b65f2f3a105663ef43f0265850a3c35420e59241ea"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/ALIGNMENT.tsv",
+      "role": "reproducibility_source_or_result",
+      "sha256": "c2463e215e943a20bbd4e96709d2d8f1bbb37483ba047353bb742553e741febb"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/CONSEQUENCES.tsv",
+      "role": "reproducibility_source_or_result",
+      "sha256": "8c10d0de2c161b4d51a72f9fa2e7f494945df181639ea1f8c04542065d9dd9c8"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/EDGE_GATE.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "33c32371a247973296f43d6fdd99eacb483d981c81725b9bfd05e8eb9504ac1f"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/LABEL_REUSE.tsv",
+      "role": "reproducibility_source_or_result",
+      "sha256": "69d78fb45cc4bacabfa698e6de816ea13372332c13be615bef906ec7c2b7341b"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/PACKET_MEMBERS.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "7ee8d6d6c205197d2641a471214abaee8bd215033e31e0b2bdbabdcbb74d8d77"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/PAIR_COUNTS.tsv",
+      "role": "reproducibility_source_or_result",
+      "sha256": "b84bd57cdabf8cd120d3b233627fe9a5d079a54aa32754bf6f82190e18852283"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/READING_IT2a.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "0c514825986b289b360ff7a086f1bf082278b898e0fac8ca50d4f5d7df9bacf9"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/READING_RF1b.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "1f84de93940533d863d00feb5396d165350eb71fa11ef0a19b9f6665241323da"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/READING_ZL3b.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "4beca34b259a4cba72d16da937000e3aa3d43ddf8dcf5ec1997612c4c2b18106"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/README.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/RELATION_PACKET.tsv",
+      "role": "reproducibility_source_or_result",
+      "sha256": "25c7c7a71c51d1aa38e458202bfd83152547bdd1caf6df1375fd1480ca158f01"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/RESULT.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "756bb14646b33bca724ae7255fb8d1bac8ae39898a7561eeb95f6b58f785efe7"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "be014bd7c82c6779e1afd601c28453af707fe9f24c6e5e2e0d4a68174edcdcaf"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/VALIDATION.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "8f97839719edd56b229d81c1052006b2e993fdb731ceba03487711f640f01d0d"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/f77r.jpg",
+      "role": "reproducibility_source_or_result",
+      "sha256": "6bcedcaccc8107da32d6d1ca950b96708b529538d7902a2108398a3c0b9327df"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/src/MODEL.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "60a05cc800989310329403a2d4a48250a1b27f2d08adf3542d21f8325b3ebd2a"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/src/SOURCE.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "522aaf10fafaf5de09769b2a97169539d87c80b1f45dfdf63938d3ca11d13deb"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/src/VISUAL_NOTES.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "4c1b55166a02000794e8771f28842c93f211465e736c431d7130d583ff46ae5d"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/src/prepare.py",
+      "role": "reproducibility_source_or_result",
+      "sha256": "60b36d5b2ff69c6437e5456aa0725811e8b2ce462b42cabcd46d8371b3cb28cf"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/src/run.py",
+      "role": "reproducibility_source_or_result",
+      "sha256": "ef8f7d989a8b5e0bfbcb72d832f8dbb9ad8e348b752b70f70e6856cef49bc412"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/src/validate.py",
+      "role": "reproducibility_source_or_result",
+      "sha256": "bf9dc4b5d6f4524c65ef56200a7e9fc2dc500f1b0989affb2a8c7078f5519ec9"
+    }
+  ],
+  "question": "Can explicit common reading and reference hypotheses account jointly for every f77r label and its complete prose plus HERB4?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "label_text_joint_reading",
+  "status": "EXPLORATORY_NOMINAL_CORE_READING_UNDERDETERMINED",
+  "title": "Joint f77r label and paragraph nominal-core hypotheses",
+  "updated": "2026-09-14",
+  "validation": {
+    "artifact": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

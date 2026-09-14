@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **928**
-- Experiment-associated tracked files: **17,626** (1.6 GiB)
-- Structured GDT337+ experiments: **593**
+- Experiments indexed: **929**
+- Experiment-associated tracked files: **17,657** (1.6 GiB)
+- Structured GDT337+ experiments: **594**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT930 | GDT930_LABEL_TEXT_JOINT_NOMINAL_READING | `EXPLORATORY_NOMINAL_CORE_READING_UNDERDETERMINED` | [report](../experiments/yolo/gdt930_label_text_joint_reading/REPORT.md) | 31 | 2.2 MiB | 9 | STRUCTURED_YOLO |
 | GDT929 | GDT929_fixed_four_form_context_square | `COMPLETE_THREE_CH_SH_FRAMES_NO_L_EDGE` | [report](../experiments/yolo/gdt929_fixed_four_form_context_square/REPORT.md) | 16 | 389.5 KiB | 1 | STRUCTURED_YOLO |
 | GDT928 | GDT928 | `COMPLETE_EXPOSED_MULTI_ANCHOR_CENSUS` | [report](../experiments/yolo/gdt928_multi_anchor_complete_paragraphs/REPORT.md) | 17 | 2.7 MiB | 3 | STRUCTURED_YOLO |
 | GDT927 | GDT927 | `COMPLETE_FIXED_CONTINUATION_AUDIT` | [report](../experiments/yolo/gdt927_chor_continuation_full_context_audit/REPORT.md) | 20 | 658.9 KiB | 4 | STRUCTURED_YOLO |

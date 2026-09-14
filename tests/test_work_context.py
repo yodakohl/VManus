@@ -117,7 +117,8 @@ class ContextTests(unittest.TestCase):
         original = path.read_text()
         path.write_text(original.replace('f84 and f84r remain sealed.', 'f84 and f84r are open.'))
         self.assert_cli_failure(['start'])
-        path.write_text(original.replace('Phase: workflow', 'Phase: invented'))
+        current_phase = next(line for line in original.splitlines() if line.startswith('Phase: '))
+        path.write_text(original.replace(current_phase, 'Phase: invented'))
         self.assert_cli_failure(['start'])
 
     def test_overlong_start_and_source_fail_without_truncation(self):

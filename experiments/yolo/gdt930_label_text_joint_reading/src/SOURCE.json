@@ -1,0 +1,39 @@
+{
+  "command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "--selector",
+    "page",
+    "--allow",
+    "f77r",
+    "--allow",
+    "f17r",
+    "--allow",
+    "f21r",
+    "--allow",
+    "f32v",
+    "--allow",
+    "f29v",
+    "--columns",
+    "source_group_id,edition,locus,page,kind,source_group_index,source_group_count,paragraph_start,paragraph_end,left_separator,right_separator,ivtff_group_raw",
+    "--forbid-prefix",
+    "f84",
+    "--forbid-prefix",
+    "f84r"
+  ],
+  "guard": {
+    "selected": 2053,
+    "skipped_forbidden": 2122,
+    "skipped_not_allowed": 111295
+  },
+  "projection_sha256": "be014bd7c82c6779e1afd601c28453af707fe9f24c6e5e2e0d4a68174edcdcaf",
+  "image_url": "https://collections.library.yale.edu/iiif/2/1006212/full/2000,/0/default.jpg",
+  "image_sha256": "6bcedcaccc8107da32d6d1ca950b96708b529538d7902a2108398a3c0b9327df",
+  "new_image_admissions": 0,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "prior_exposure": true
+}

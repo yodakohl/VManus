@@ -2,14 +2,14 @@
 Updated: 2026-09-14. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: workflow
+Phase: exploration
 Status: complete
-Task: Bounded startup and topic retrieval implemented; workflow checks passed.
-Latest decision: Existing registry retained; live-document views now enforce limits.
-Working files: tools/work_context.py; research_registry/decisions/context_scaling_20260914/
-Assumptions: No scientific reading or new experiment selected; no new data admitted.
-Resume: On research continuation, select one topic and inspect its primaries; no candidate preselected.
-Running: none
+Task: GDT930 executed: full f77r labels/prose plus HERB4 nominal hypotheses.
+Latest decision: Keep four nominal pairs provisional; no relation word chosen; immediate-head rule incomplete.
+Working files: experiments/yolo/gdt930_label_text_joint_reading/REPORT.md
+Assumptions: Nominal-core conservation and label ownership unconfirmed; all data exposed.
+Resume: Use GDT930 full cases to propose written head meanings/scope; no automatic prefix or decoder rerun.
+Running: none; 3 raw producer ideas stored, not selected.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
@@ -20,6 +20,8 @@ Currier/section/hand; extra direction only across Currier. Known r/l families tr
 new stem-pair grammar does not follow (GDT915/916). Formal roles and reversible
 rendering are not confirmed meanings or historical sentence boundaries.
 Confirmed translated words: 0. Whole hypothetical readings remain permitted.
+Legacy checker facts: Confirmed English lexemes: **0**; f84r is sealed;
+GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
 W89 recipe expansion paused; description not confirmed. W93 naming: NO_CAPACITY.
