@@ -5,6 +5,48 @@ ideas, research families, attempts and historical events separate. Record counts
 are **not** counts of independent meaning hypotheses. Importing an old PASS or
 FAIL does not endorse its scientific interpretation.
 
+## Mandatory entry before scientific selection
+
+Read [the current route](../VOYNICH_CURRENT_ROUTE.md), then
+[the compact research brief](../docs/VOYNICH_RESEARCH_BRIEF.md). These are the
+live entry points; use bounded `ideas search/show`, `lookup GDTNNN`, and the
+linked primary reports for the selected topic. The brief preserves positive
+structural knowledge as well as interpretation limits and current stops.
+Reading only the latest failures or lexical search hits is insufficient.
+For source access, use [the scope table](../docs/VOYNICH_DATA_SCOPE.md).
+
+The original [30-program plan](../docs/TRANSLATION_PROGRAMS_30.md) is historical.
+Its “28 unexecuted” status and WORKFLOW's “Start with P09” instruction are
+superseded: [all 30 have documented first passes](proposals/translation_programs_20260912/work/PROGRESS.md).
+That dated progress table is a report navigator, not today's candidate queue;
+its old P05 preference is superseded by [W89](proposals/translation_programs_20260912/work/W89/REPORT.md).
+[W93](proposals/translation_programs_20260912/work/W93/REPORT.md) separately parks
+the naming test for missing comparison capacity. Neither stop is a universal
+refutation of its meaning family. A completed first pass is not a translation.
+
+Before a new proposal, state briefly in its existing decision note: which
+known observations it uses, which predecessor and current stop apply, and which
+new consequence would change the reading decision. Do not add another generic
+statistics or decoder stage without that consequence. Preserve the distinction
+between manuscript evidence, properties of a stipulated reading, an invalid
+test, and missing capacity; read the source before promoting a status label.
+
+The user permits coherent, multistep hypothetical whole readings without
+previously confirmed word anchors or a 100% guarantee. This permits exploration,
+not declaring guessed glosses confirmed. Use existing composition knowledge;
+no default Latin or phonetic interpretation. Reserved pages stay closed until
+a nearly complete plausible overall reading exists, not merely one fitted
+paragraph. f84/f84r remain explicitly sealed. No outside contacts or expert
+review. Active research may use the authorized bounded idea producer; a
+documentation-only task does not require new idea production.
+
+Keep the route within 80 lines/6000 UTF-8 bytes. Replace chronology with primary
+pointers, but retain the brief, scope and live stop decisions. Record changed
+facts in the existing ledger/dossiers; update this brief only when its content
+changes. Old source bytes stay frozen. The
+[2026-09-14 audit](decisions/documentation_audit_20260914/REPORT.md) records why
+these entry rules were needed and the limits of its review.
+
 ## Source-attested historical semantic hypotheses
 
 The repository-root README and `docs/WORKFLOW.md` are hash-bound import

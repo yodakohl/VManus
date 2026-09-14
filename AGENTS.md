@@ -2,7 +2,10 @@
 
 Before any Voynich action, read `VOYNICH_CURRENT_ROUTE.md`, then use
 `./vmanus-work ideas search QUERY` and `ideas show ID` for bounded research-memory
-cards; use `lookup GDTNNN` for primary experiment pointers. Never dump the JSONL
+cards; use `lookup GDTNNN` for primary experiment pointers. Before selecting or
+proposing scientific work, also read `docs/VOYNICH_RESEARCH_BRIEF.md`, then the
+relevant linked primary evidence. Search hits alone do not supply the known
+structural baseline or current stop decisions. Never dump the JSONL
 registry or full history into context. The current-route file is the compact authoritative
 routing snapshot. `VOYNICH_ACTIVE_STATE.md` and
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv` remain the full
@@ -12,8 +15,13 @@ not on every turn. `VOYNICH_HANDOFF.md`, `VOYNICH_WORKLOG.md`, and the older
 experiment log/README are recovery archives and may contain superseded claims.
 
 Use `./vmanus-work lookup GDT811` (or the relevant IDs) for compact index
-pointers instead of dumping entire index rows. The efficient operating guide is
-`docs/WORKFLOW.md`. Keep the current route short; replace current summaries
+pointers instead of dumping entire index rows. The live operating guide is
+`research_registry/README.md`. Root README, `docs/WORKFLOW.md`, and the original
+30-program plan are preserved historical sources: their index-first/P09-first
+and unexecuted-program instructions are superseded by the live guide and route.
+Access scope is in `docs/VOYNICH_DATA_SCOPE.md`; historical exposure is not a new
+admission or independent holdout. Keep the current route at most 80 lines/6000
+UTF-8 bytes; retain foundational links and live stops when replacing summaries
 instead of appending an ever-growing chronology. Add workflow conveniences
 outside hash-bound legacy tools so past experiments remain reproducible.
 
@@ -64,7 +72,8 @@ outside hash-bound legacy tools so past experiments remain reproducible.
   decision note in the existing route/proposal: what is genuinely unknown after
   checking primary predecessors, which Voynich research decision each plausible
   outcome changes, the smallest adequate test, and a wall-time budget including
-  preparation, implementation, validation, and publication. See docs/WORKFLOW.md.
+  preparation, implementation, validation, and publication. See
+  research_registry/README.md; docs/WORKFLOW.md supplies historical detail only.
   If outcomes leave the same research decision unchanged, do not start a large
   implementation. At the budget limit, stop expansion and reassess; no automatic
   chain of decoder repairs or new control corpora. Preserve scientific gates.
