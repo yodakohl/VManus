@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+DITTO TARGET AUDIT: all5legacy SAME events checked in ZL/IT, same target lines; known okain char okain survives, meaning tied. f83r.3 dar selected successor skips19groups on .4/.5 before .6. No expanded/abbreviated field pair or Voynich meaning; Durham143 remains source-only. Primary: research_registry/proposals/translation_programs_20260912/work/DITTO_TARGET_AUDIT/REPORT.md
+
 IDEA143 SOURCE PAIR: fixed Durham Cosin V.iv.7 f50r/f50v manually inspected; second Circulus sicut antea carries ring description while liquid label changes. Partial diagnoses unresolved; no changed-ring/fixed-liquid contrast, no Voynich target or meaning. Retain source-only scoped carry-forward example; no decoder selected. Primary: research_registry/proposals/translation_programs_20260912/work/URO_SOURCE_PAIR/REPORT.md
 
 POST-W97 SELECTION: IDEA189 harvest/cultivation not selected. P05/P15 primaries and preceding P27 do not bind living source plant plus detached part to different later consequences. No new renderer or manuscript experiment;missing design,not genealogy/gardening refutation. Producer143 remains source-only without target. No executable next candidate from this bounded review;no meaning. Primary: research_registry/proposals/translation_programs_20260912/HARVEST_SELECTION_REVIEW.md
