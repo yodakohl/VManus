@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT930 executed: full f77r labels/prose plus HERB4 nominal hypotheses.
-Latest decision: Keep four nominal pairs provisional; no relation word chosen; immediate-head rule incomplete.
-Working files: experiments/yolo/gdt930_label_text_joint_reading/REPORT.md
-Assumptions: Nominal-core conservation and label ownership unconfirmed; all data exposed.
-Resume: Use GDT930 full cases to propose written head meanings/scope; no automatic prefix or decoder rerun.
-Running: none; 3 raw producer ideas stored, not selected.
+Task: GDT931 executed shedy as Flüssigkeit, fließt or feucht across full GDT930 scope.
+Latest decision: No word chosen; left/right reversal keeps the same marked-head gaps.
+Working files: experiments/yolo/gdt931_shedy_concrete_reading_contrast/REPORT.md
+Assumptions: Nominal A–D unconfirmed; RF variants unresolved; all source already exposed.
+Resume: Jointly read D + shedy qokeedy qotedy and all its word contexts; no isolated gloss or prefix rerun.
+Running: none; 3 raw producer proposals stored, not selected.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
