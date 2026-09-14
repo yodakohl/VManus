@@ -1,0 +1,3 @@
+# GDT948 generated artifacts
+
+`ALIGNMENT.tsv` covers all 145 source tokens and repeats each type frequency with its fixed process/catalogue/kind fields. `CLAUSES.md` presents each raw source line, process reading, descriptive catalogue reading, and supplied notes with complete refs. `CLAUSES.tsv` preserves the same fields. `EVENTS.tsv` retains inputs, outputs, requirements, and effects; `CHECKS.tsv`, `ENTITIES.tsv`, and `CONTRADICTIONS.tsv` expose every event check claim/evidence/status, missing producers, cycles, and contradictions. `RESULT.json` reports coverage and supplied evidence/status counts. Coverage is an audit result, not a semantic win; no meanings are confirmed and no scores are computed.

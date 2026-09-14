@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **946**
-- Experiment-associated tracked files: **18,128** (1.7 GiB)
-- Structured GDT337+ experiments: **611**
+- Experiments indexed: **947**
+- Experiment-associated tracked files: **18,159** (1.7 GiB)
+- Structured GDT337+ experiments: **612**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT948 | GDT948 | `JOINT_FULL_DRAFTS_WITH_EXPLICIT_REPAIRS_MEANING_UNSELECTED` | [report](../experiments/yolo/gdt948_herb4_joint_material_reading/REPORT.md) | 31 | 406.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT947 | GDT947 | `FIXED_OVERT_REFERENCE_CONJUNCTIONS_REJECTED` | [report](../experiments/yolo/gdt947_ol_content_reference_direction/REPORT.md) | 24 | 5.4 MiB | 3 | STRUCTURED_YOLO |
 | GDT946 | GDT946 | `PORTION_MATERIAL_PACKAGES_REJECTED_KNOWN_SIDE_AUDIT` | [report](../experiments/yolo/gdt946_portion_or_material_residue_clause/REPORT.md) | 42 | 6.8 MiB | 5 | STRUCTURED_YOLO |
 | GDT945 | GDT945 | `STRICT_SOURCE_PARTITIVE_PACKAGES_REJECTED_16_LOCI` | [report](../experiments/yolo/gdt945_flow_source_or_partitive/REPORT.md) | 37 | 4.3 MiB | 6 | STRUCTURED_YOLO |

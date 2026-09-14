@@ -1,0 +1,56 @@
+{
+  "record_id": "GDT948",
+  "scope": "semantic",
+  "verdict": "inconclusive",
+  "reviewer": "independent GDT948 source, coverage and consequence audit",
+  "reason": "The independent validator reproduces the original GDT809 four fenced blocks by hash and content, and confirms 17 lines, 145 tokens, 103 fixed lexicon types, 84 singleton types, and an exact 145-token clause partition. Every one of the current v02's 32 ACTION occurrences has exactly one same-paragraph event; all 61 entities and 32 events resolve without cross-paragraph identity, missing producer, or dependency cycle. It independently verifies all three reported candidates: M_v01 has 9 CONDITIONAL_MATCH, 1 CONDITIONAL_CONTRADICTION and 2 UNKNOWN requirements; M_v02 and I_v02 each have 11 CONDITIONAL_MATCH and 2 UNKNOWN. The qotchy/cfhy lexical delta remains exactly two qotchy occurrences (trenne versus prüfe) and one cfhy occurrence (mit dem Sieb versus Feinheit), with no output-identity evidence. These are assignments under joint hypotheses, not observed process success. The descriptive catalogue is retained for every clause and is not rejected for carrying fewer event obligations.",
+  "assessment_basis": "independent_locked_fenced_source_and_model_consequence_recomputation",
+  "blockers": [
+    {
+      "code": "missing_meaning_binding",
+      "detail": "The 103 process/catalogue values, entity states, event bindings, and requirement matches are jointly assigned exploratory hypotheses. The validator has zero independent meaning-confirmation capacity; no plant name, translated word, physical batch identity, or historical event is established.",
+      "evidence": [
+        "experiments/yolo/gdt948_herb4_joint_material_reading/PREREGISTRATION.md",
+      "experiments/yolo/gdt948_herb4_joint_material_reading/artifacts/VALIDATION.json",
+        "experiments/yolo/gdt948_herb4_joint_material_reading/artifacts/CONSEQUENCE_RESULT.json",
+        "experiments/yolo/gdt948_herb4_joint_material_reading/artifacts/QOTCHY_CANDIDATES.tsv",
+        "experiments/yolo/gdt948_herb4_joint_material_reading/artifacts/STATE_CONSEQUENCES.tsv"
+      ]
+    },
+    {
+      "code": "missing_data",
+      "detail": "All four source paragraphs were already exposed and there is no held-out or independent confirmation leaf. Twenty-two event triggers are singleton forms, so generalization of their repaired values is untested within this packet.",
+      "evidence": [
+        "experiments/yolo/gdt948_herb4_joint_material_reading/PREREGISTRATION.md",
+        "experiments/yolo/gdt948_herb4_joint_material_reading/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "caveats": [
+    "The four v02 revisions are disclosed post-draft exploratory changes. cthey, cphaldy, otyky, and kor include singleton or contradiction-repair reasons; their 11 conditional matches cannot be reported as prospective validation. M_v01's one conditional contradiction remains a contradiction in that earlier draft, not a discovered manuscript error.",
+    "The f32v.7 'Nimm' wording is explicitly marked as supplied in C09 and the f32v.8 nimm event records its added bindings. The f17r.5 second portion/Ansatz bridge is likewise marked as supplied in C02 and 17E04. These remain writer-supplied assumptions.",
+    "Three limited prose/event alignment warnings remain: 21E04 uses active prüfe against passive geprüft, 32E03's füge zusammen spans the C09/C10 continuation, and 29E02's schneide klein is rendered as Schneide ... fein. Report these wording or segmentation limits rather than treating them as source-confirmed verbs."
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [],
+    "not_sufficient": [
+      "Do not interpret 11 conditional matches, complete coverage, fluent process prose, or alternate descriptive wording as accuracy or decipherment.",
+      "Do not treat singleton revisions chosen to remove a contradiction or create a missing product as independently learned values; retain v01's conditional contradiction and the reasons for v02.",
+      "Do not turn supplied actors, patients, verbs, outputs, or identity links into written evidence. The catalogue rival remains a live descriptive rival even though it asserts fewer event obligations.",
+      "No confirmed word or independent semantic reopening follows from this audit; reserves and new source access remain closed."
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT809",
+      "type": "related_to",
+      "detail": "The four printed HERB4 source blocks are hash- and content-checked directly against the original predecessor."
+    },
+    {
+      "target": "GDT932",
+      "type": "related_to",
+      "detail": "GDT948 keeps prior participant uncertainty in scope; the joint event graph does not convert it into a confirmed reading."
+    }
+  ]
+}

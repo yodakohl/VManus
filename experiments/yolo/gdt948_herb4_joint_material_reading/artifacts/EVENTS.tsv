@@ -1,0 +1,33 @@
+id	paragraph	trigger_ref	verb	inputs	outputs	requirements	effects	supplied	check_count	check_statuses	contradictions
+17E01	H17	f17r.4#3	rühre	17raw		[]	[]	Rohgut bleibt derselbe Patient; Gefäß aus Ortsform ergänzt	1	assumed	0
+17E02	H17	f17r.4#8	presse	17raw	17juice|17pressrest	"[{""entity"":""17raw"",""property"":""wet"",""value"":true}]"	[]	Fortführung desselben Rohguts; zweiter Pressausgang ungeschrieben	2	assumed|unknown	0
+17E03	H17	f17r.5#1	sondere ab	17A|17B|17C	17Apart|17Bpart|17Cpart	[]	[]	Drei unabhängige Materialvorräte, nicht aus Saft hergeleitet	1	assumed	0
+17E04	H17	f17r.5#6	füge zusammen	17juice|17Apart|17Bpart|17Cpart	17extract	[]	[]	Früherer Saft und drei gewonnene Teile als Mischpatienten; zweite Portion als neues Ansatzgefäß verstanden	1	assumed	0
+17E05	H17	f17r.6#2	bewahre	17clear		[]	[]	hiervon verbindet versuchsweise Auszug mit geklärtem Anteil	1	unknown	0
+21E01	H21	f21r.8#2	zerkleinere	21raw	21crushed	"[{""entity"":""21raw"",""property"":""solid"",""value"":true}]"	[]		1	assumed	0
+21E02	H21	f21r.8#4	füge hinzu	21crushed|21solid|21soft|21A	21mix1	[]	[]	Anfangsprodukt als Empfänger; danach cthey als Bezeichnung dieser Zubereitung	1	assumed	0
+21E03	H21	f21r.9#4	miss ab	21fluid		[]	[]	Gefäßbezug und Flüssigkeitsanteil angesetzt	1	assumed	0
+21E04	H21	f21r.10#1	prüfe	21mix1|21rest|21A		[]	[]	Drei Patientennamen auf voriger Zeile; Einzelprüfung keor	1	assumed	0
+21E05	H21	f21r.10#3	vermische	21sample|21solid2|21clear	21mix2	[]	[]	Drei neue Mischzutaten; Herkunft von Probe und geklärtem Auszug offen	2	assumed|unknown	0
+21E06	H21	f21r.11#6	füge hinzu	21mix2|21dryrest	21mix3	[]	[]	otyky singleton changes from nun to add; previous mixture is an implicit receiver	1	assumed	0
+21E07	H21	f21r.11#7	teile ab	21mix3	21over|21wetrest	"[{""entity"":""21mix3"",""property"":""wet"",""value"":true}]"	[]	Fortgeführte Mischung einschließlich A-Rest statt isolierter trockener Quelle	1	assumed	0
+21E08	H21	f21r.12#3	wähle aus	21B		[]	[]	Beide B-Nennungen bezeichnen dieselbe ausgewählte Portion	1	source_link	0
+21E09	H21	f21r.12#4	nimm hinzu	21over|21B	21final	[]	[]	Überstand statt feuchtem Rest als Empfänger frei gewählt	1	unknown	0
+21E10	H21	f21r.12#8	miss ab	21final		[]	[]	Letztes Ergebnis als impliziter Messpatient	1	unknown	0
+32E01	H32	f32v.7#2	zerkleinere	32raw	32ground	"[{""entity"":""32raw"",""property"":""solid"",""value"":true}]"	[]	Nicht geschriebenes Ausgangsthema vorausgesetzt	1	unknown	0
+32E02	H32	f32v.7#3	lasse ruhen	32ground		[]	[]	Voriges Zerkleinerungsprodukt als Patient	1	assumed	0
+32E03	H32	f32v.7#8	füge zusammen	32ground|32rest|32fine	32powder	[]	[]	Wenig vom Grobgut sowie je abgemessener Rückstand/Feinmaterial; Pulver als Produktname angenommen	2	assumed|unknown	0
+32E04	H32	f32v.8#7	nimm	32powder	32sample|32left	[]	[]	qotaiin und shan sind Bezeichnungen derselben genommenen Probe; d zeigt auf Pulver	1	assumed	0
+32E05	H32	f32v.9#1	trenne	32sample	32coarseout|32fineout	"[{""entity"":""32sample"",""property"":""solid"",""value"":true}]"	[]	Voriger feiner Anteil als Patient; cfhy als Sieb; nach skey folgende Nomen als Trennausgänge	1	assumed	0
+32E06	H32	f32v.9#3	behalte	32coarseout|32fineout		[]	[]	Beide Namen gleichzeitig als Trennausgänge und Behalten-Patienten	1	assumed	0
+32E07	H32	f32v.10#6	verrühre	32liquid|32L|32B|32D	32susp	[]	[]	Neue Mischung; kein geschriebener Bezug von D oder B auf die beiden Siebausgänge	2	assumed|unknown	0
+32E08	H32	f32v.11#3	vermische	32susp|32liquid2	32final	[]	[]	Vorige Mischung implizit fortgesetzt, zweite Flüssigkeitsnennung als Zugabe	1	source_link	0
+29E01	H29	f29v.1#3	zerteile	29R|29C	29Rcut|29Ccut	"[{""entity"":""29R"",""property"":""solid"",""value"":true},{""entity"":""29C"",""property"":""solid"",""value"":true}]"	[]	Zwei Materialpatienten und Schneidwerkzeug	1	assumed	0
+29E02	H29	f29v.1#6	schneide klein	29A	29Afine	"[{""entity"":""29A"",""property"":""solid"",""value"":true}]"	[]	Feinangabe und Portion davon als ein Materialstrang	1	assumed	0
+29E03	H29	f29v.2#6	prüfe	29A|29Acoarse|29Bpart		[]	[]	Grober A-Anteil und B-Anteil als eigene verfügbare Teilbestände; spätere doppelte Trockenangabe auf beide verteilt	1	assumed	0
+29E04	H29	f29v.3#3	mahle	29Acoarse	29powder	"[{""entity"":""29Acoarse"",""property"":""solid"",""value"":true}]"	[]	Earlier coarse A-part chosen instead of B-part; choice not identified by text	1	assumed	0
+29E05	H29	f29v.3#4	teile ab	29powder	29portion|29left	"[{""entity"":""29powder"",""property"":""solid"",""value"":true}]"	[]	Neu angesetztes Mahlprodukt als Pulverquelle	1	assumed	0
+29E06	H29	f29v.3#6	trenne	29portion	29fraction|29residue	"[{""entity"":""29portion"",""property"":""solid"",""value"":true}]"	[]	Zweiter Trennausgang semantisch ergänzt, ohne eigenes Nomen	2	assumed|unknown	0
+29E07	H29	f29v.3#9	lasse ruhen	29fraction		"[{""entity"":""29fraction"",""property"":""settled"",""value"":true}]"	[]	Jeder abgenommene Anteil bis zum Zielzustand; bis behauptet nicht bereits Erfolg	1	unknown	0
+29E08	H29	f29v.4#5	lasse abkühlen	29Afine		"[{""entity"":""29Afine"",""property"":""above_ambient"",""value"":true}]"	[]	Material A als zuvor geschnittener Anteil; Gefäß als Aufenthalt ergänzt	1	unknown	0
+29E09	H29	f29v.4#7	erwärme	29fluid		[]	[]	Beide Gefäßnennungen als dasselbe Gefäß; kein fortdauernder Kältezustand von A behauptet	1	source_link	0
