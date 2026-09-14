@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W88:61chotey/teey/teeys hits22loci36paras2745groups. Additional sheey teey f29r all3 permits hypothetical treatment, not material identity. chotey2otherloci unresolved;teeys onlymotivating. W87 mix transfer remains open. Next full f29r with primary cheor check, no forced nouns. Primary: research_registry/proposals/translation_programs_20260912/work/W88/REPORT.md
+
 W87:ychocthy6hits2loci; A mix next2 versus Mherbprep/Dfurther. f53ZLIT qodal/shodaiin nominal inputs,RFrawvariants unknown;f93 chotey teey/teeys unknown. Full3drafts4paras452groups;local complete mixing hypothesis, no selection. Next joint chotey teey/teeys contexts, no forced materials. Primary: research_registry/proposals/translation_programs_20260912/work/W87/REPORT.md
 
 W86:full f53 ending gains10hypothesis positions each reading,23/24open. qodal Nportion/Lmeasureleft/Rmeasureright all20hits7loci;L5bound15unknown,R2bound15unknown3wrong;no winner. 80combinedhits42paras. Next ychocthy qodal shodaiin whole-line interpretation, retain preceding context. Primary: research_registry/proposals/translation_programs_20260912/work/W86/REPORT.md
