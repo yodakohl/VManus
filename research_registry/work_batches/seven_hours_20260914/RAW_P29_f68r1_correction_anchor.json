@@ -1,0 +1,34 @@
+{
+  "title": "RAW_UNSCREENED: f68r1 als 28er Register mit Korrekturanker",
+  "summary": "RAW_UNSCREENED: Die bereits gebundene Kombination aus einem Zentrum und 28 peripheren f68r1-Sternkarten kann ein 28er Nachschlagewerk mit einem Korrektur-/Einstiegsanker oder ein gleichförmiges 29er Register sein.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Nur die vorhandene f68r1-Locus-Tabelle und die importierten, unbestätigten Quellenkarten; keine neue Bild- oder Seitenfreigabe.",
+    "mechanism": "Ein zentraler Eintrag steuert Eintritt, Rücksprung oder Abgleich eines 28er Zyklus; die 28 peripheren Einträge tragen die regulären Positionen.",
+    "unit": "f68r1 central-plus-28 star-label groups, as already counted in the bound source records.",
+    "contrast": "Korrektur-/Indexanker eines 28er Zyklus versus gleichförmiger 29er Sternkatalog.",
+    "prediction": "Ankerlesung sagt eine einzige nichtgleichförmige Zentralrolle und einen definierten Wrap-/Abgleichschritt voraus; Kataloglesung sagt gleiche Slotbehandlung und keine Sonderstellung voraus.",
+    "concrete_observations": [
+      "HIST:2797fab43dce948f records one central plus 28 noncentral f68r1 labels; the existing crosswalk lists the 29 f68r1 star groups.",
+      "HIST:83ab628d74a71ef2 records zero exact overlap between f68r1 star cards and f69v radial entries, so an identical cross-page 28-name lexicon is already ruled out."
+    ],
+    "linked_consequences": [
+      "The proposed central entry must be the only group lacking a peripheral counterpart or carrying an explicit return/entry relation.",
+      "The peripheral 28 should retain a uniform cyclic treatment while the center supplies the exceptional transition."
+    ],
+    "nearest_rival": "A plain 29-entry spatial star catalogue in which the centre is simply the 29th peer.",
+    "distinguishing_observation": "Before any gloss, inspect the bound locus/slot records for one central-only relation and a peripheral wrap or return relation; uniform 29-way slot and successor treatment supports the rival. This does not infer a meaning from central placement alone.",
+    "assumption_costs": [
+      "The central-versus-peripheral ownership is reliable in the existing source record.",
+      "A 28-cycle can be independently licensed without importing f69v meanings.",
+      "A correction relation would need a visible or recorded structural cue."
+    ],
+    "strongest_likely_failure": "The 28/29 count and central placement may be diagram design only; no author-visible return key or semantic payload may exist, so the two models remain observationally equivalent.",
+    "primary_predecessors": [
+      "HIST:2797a341fc8c5d65",
+      "HIST:83ab628d74a71ef2",
+      "HIST:33ae0dfb7a542ab0",
+      "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv"
+    ]
+  }
+}

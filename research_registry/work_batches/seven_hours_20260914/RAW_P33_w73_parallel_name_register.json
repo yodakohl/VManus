@@ -1,0 +1,35 @@
+{
+  "title": "RAW_UNSCREENED: W73-Mehrfachregister als Namen/Synonym/Profil-Kette",
+  "summary": "RAW_UNSCREENED: Walters W73 f.1v dokumentiert zwölf wiederholte Datensätze mit äußerem lateinischem Namen, innerem griechischem Synonym, Profil/Gesicht und kurzem Speichentext; f67r2 besitzt bereits eine gebundene Zwölferserie.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Nur der vorhandene W73-Vergleich und die gebundene f67r2-Zwölferserie; keine neue Voynich-Seite, kein Bild und kein Decoder.",
+    "mechanism": "Ein f67r2-Datensatz könnte denselben Inhalt in mehreren festen Registern wiederholen: Kopfname, Synonym/Variante, Profilattribut und Kurzvermerk.",
+    "fixed_source_parameter": "W73 fixiert die Feldfolge outer Latin name -> inner Greek synonym -> profile/face -> short spoke text und zwölf Datensätze; die konkrete Wortliste bleibt die des W73-Zeugen.",
+    "unit": "Twelve f67r2 sector records in the existing locus inventory, compared fieldwise rather than by guessed meanings.",
+    "contrast": "Mehrfachaufschrift mit derselben Referenz versus vier unabhängige Sektorfelder.",
+    "prediction": "Die Mehrfachregisterlesung sagt, dass eine wiederkehrende f67r2-Position ihre Felder gemeinsam und in fester Reihenfolge verändert; die unabhängige Feldlesung sagt, dass ein Feldwechsel die anderen nicht systematisch mitzieht.",
+    "concrete_observations": [
+      "HIST:bf5a7e15d50c3f0a records W73 fol.1v as twelve repeated outer-Latin-name, inner-Greek-synonym, profile/face and short-spoke records.",
+      "The bound f67r2 crosswalk contains a twelve-position lower sequence, including exact forms `okal` (f67r2.22), `okain.am` (f67r2.28), `opcholdy` (f67r2.31) and `ofar.oeoldan` (f67r2.34)."
+    ],
+    "linked_consequences": [
+      "A fixed field chain predicts that repeated outer-form classes must recur with a constrained inner-field or profile-field class, not merely at the same page.",
+      "An independent-field reading permits a stable outer position with unrelated inner/spoke changes and does not require synonym equivalence."
+    ],
+    "nearest_rival": "A twelve-position diagram whose apparent outer/inner/spoke records are independent coordinate, attribute and note lists.",
+    "distinguishing_observation": "Freeze the twelve f67r2 positions and compare exact fieldwise co-variation before any gloss: a stable outer-to-inner/profile correspondence supports the W73-like chain; independent field permutations support the rival. Do not treat the existing `planet?` annotations as semantic gold.",
+    "assumption_costs": [
+      "The W73 field order is a genuine repeated-record convention, not merely an editorial description.",
+      "The f67r2 lower sequence is comparable to W73 records despite different visible topology.",
+      "A fieldwise relation can be observed without translating any field."
+    ],
+    "strongest_likely_failure": "The W73 source is only a structural homologue and the f67r2 entries may not have four co-owned fields; twelve positions can create apparent parallelism under arbitrary grouping.",
+    "primary_predecessors": [
+      "HIST:bf5a7e15d50c3f0a",
+      "HIST:1ad444a70541438b",
+      "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv",
+      "experiments/semantic_assumptions/results/existing_human_page_role_matrix.tsv"
+    ]
+  }
+}

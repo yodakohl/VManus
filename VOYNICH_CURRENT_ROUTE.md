@@ -6,10 +6,10 @@ Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
 Latest decision: GDT950 closes fixed weather phase/result model: ZL/IT contradicted, RF unselected.
-Next: choose a different repeated content consequence; no weather-gloss permutation or adjacency repair.
+Next: concrete Greek medical tachygraphy1364 source from GDT609; read actual table/passages.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT950 publication closure; check session clock/receipts, then select next justified candidate.
+Resume: GDT950 public e6f612e90. Tironian source review complete, target untested; close its small record then Greek1364.
 Running: root active research; bounded idea producer to replenish proposals. Seven hours not yet elapsed.
 
 ## Structural baseline

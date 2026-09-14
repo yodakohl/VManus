@@ -41,3 +41,8 @@ report scientific progress separately from technical work and known failures.
   ZL/IT fixed conjunction contradicted; RF unselected; no independent meaning
   capacity. Late GDT817/818/820 predecessor audit corrects subject novelty.
   Public closure underway. Seven-hour session remains active.
+
+- 22:33 UTC: GDT950 published as e6f612e90; remote main verified.
+- Subsequent source review: TIRONIAN_SOURCE_REVIEW.md records native inspection
+  of a complete15-note page and Geneva1v. Historical positional clause contrast,
+  no target model or word. Separate Greek1364source review selected next.

@@ -1,0 +1,35 @@
+{
+  "title": "RAW_UNSCREENED: Hieronymus-Mutationsregister als begrenzter Zustandsautomat",
+  "summary": "RAW_UNSCREENED: Hieronymus de Moravia listet in Kapitel 12 feste Solmisationssilben, Richtungen, Hexachordursprünge und auch Nicht-Mutationsfälle; ein Voynich-Ziel müsste diese Parameter gemeinsam reproduzieren.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Nur der vollständig gelesene Primärtext des Traktats und bereits vorhandene f67v1-Sequenzen; keine musikalische oder Voynich-Codierung wird jetzt ausgeführt.",
+    "mechanism": "Ein endlicher Zustandsautomat kodiert Ton-/Silbenidentität, Mutation von einem Hexachord in ein anderes, Richtung und Ursprung; ein Übergang darf die quellseitig gleiche Tonhöhe nicht beliebig verändern.",
+    "fixed_source_parameter": "Hieronymus fixes the syllable inventory ut/re/mi/fa/sol/la, legal directed mutation pairs with destination hexachord/origin, voice/cantus context, and explicit no-mutation cases; Gamma and B-flat/B-natural distinctions remain source-bound.",
+    "unit": "Complete f67v1 radial sequences in the existing result record, including exact forms such as `pchodaiin otch oekeey dy` and `okeeodaiin saii dairal`.",
+    "contrast": "Quellengebundener Zustands-/Übergangsautomat versus freie Silbenersetzung oder thematische Liste.",
+    "prediction": "Der Automatenansatz sagt für jede vollständige Sequenz eine konsistente Zustandsfolge mit legaler Richtung und Zielursprung sowie wiederholbaren Nullübergängen voraus; die freie Listenlesung erlaubt dieselben Silben in wechselnden Funktionen ohne solchen Erhaltungssatz.",
+    "concrete_observations": [
+      "IDEA000135 records the primary chapter’s explicit `fa -> ut` and `ut -> fa` mutations under different hexachord origins, repeated syllable pairs under different contexts, and explicit no-mutation records.",
+      "The bound f67v1 result contains complete 17-sector radial surfaces, including `pchodaiin otch oekeey dy` and `okeeodaiin saii dairal`, whose forms are retained without assigning meanings."
+    ],
+    "linked_consequences": [
+      "A candidate target register must preserve one source-defined state parameter across every occurrence of a repeated transition, including direction and origin.",
+      "A free syllable-list reading has no obligation to predict legal reverse transitions or to reserve zero-mutation cases."
+    ],
+    "nearest_rival": "A mnemonic or technical register using repeated syllable-like forms as independent labels, without pitch/hexachord state.",
+    "distinguishing_observation": "Freeze one complete target serialization and test only source-defined transition invariants: same transition direction/origin and required no-mutation slots. If no target record exposes these fields, retain the idea as unavailable rather than fitting an arbitrary syllable key.",
+    "assumption_costs": [
+      "The target has a complete ordered register with recoverable transition boundaries.",
+      "Voynich forms can encode an external finite syllable/state inventory without phonetic assumptions.",
+      "The critical-edition transcription’s mutation rules are the intended historical variant."
+    ],
+    "strongest_likely_failure": "No current Voynich target independently exposes pitch, voice or hexachord origins, so any successful mapping could be a free codebook and would not establish meaning.",
+    "primary_predecessors": [
+      "IDEA000135",
+      "experiments/semantic_assumptions/results/f67v1_dual_transition_transfer.json",
+      "experiments/semantic_assumptions/f77r_quality_transition_bridge/F67V1_DUAL_TRANSFER_DESIGN.md",
+      "HIST:5aaf4819ad2f49eb"
+    ]
+  }
+}

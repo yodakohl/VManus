@@ -1,0 +1,34 @@
+{
+  "title": "RAW_UNSCREENED: f73v als Quellenkonflikt- oder Korrekturregister",
+  "summary": "RAW_UNSCREENED: Die vorhandene f73v-Quellenannotation bewahrt an einer Stelle widersprüchliche Benennungen (Abbildung/Dezember Sagittarius, Feld Scorpio) und eröffnet eine metatextuelle Konfliktlesung.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Nur der bereits gebundene öffentliche Seitenannotationsbericht; die widersprüchlichen Felder sind externe Metadaten und kein bestätigter Voynich-Textanker.",
+    "mechanism": "Eine Seite kann konkurrierende Quellenlesungen als Korrektur-/Berichtsstatus mitführen, statt eine einzige Objektbenennung zu behaupten.",
+    "unit": "The single documented f73v contradiction across illustration/month text and tentative annotation fields.",
+    "contrast": "Bewahrter Quellenkonflikt mit Statusrollen versus gewöhnlicher Katalog-/Annotationsfehler.",
+    "prediction": "Die Konfliktlesung sagt getrennte Rollen für Primärbeobachtung, Monatsbeleg und unsichere Feldannotation sowie eine spätere Auswahl- oder Korrekturspur voraus; die Fehlerlesung sagt keine wiederverwendbare Statusordnung und keine Folgeentscheidung voraus.",
+    "concrete_observations": [
+      "HIST:8d4cf69878a708ea records that the f73v illustration plus December say Sagittarius while the tentative field says Scorpio.",
+      "HIST:bc3acab09bcf6d10 independently reconstructs this as the sole contradiction among the 228 public annotation rows after folio-aware boundary correction."
+    ],
+    "linked_consequences": [
+      "A status-register model predicts that any later page-level use distinguishes primary observation from tentative catalog field.",
+      "A plain annotation error predicts that the conflict is isolated and has no stable role or downstream correction marker."
+    ],
+    "nearest_rival": "A metadata or transcription error with no semantic function in the manuscript.",
+    "distinguishing_observation": "Keep the three source roles separate and look only for an already recorded reuse or explicit correction relation; a lone disagreement with no role distinction is evidence for the rival, not a decoded word.",
+    "assumption_costs": [
+      "External page annotations are relevant to the manuscript’s editorial history.",
+      "A metatextual status function can be linked to the bound manuscript without new image or text access.",
+      "One contradiction can provide a reusable mechanism rather than a catalog accident."
+    ],
+    "strongest_likely_failure": "This is not independent manuscript semantic evidence: the disagreement may be introduced entirely by modern annotation fields, leaving no source-grounded translation consequence.",
+    "primary_predecessors": [
+      "HIST:8d4cf69878a708ea",
+      "HIST:bc3acab09bcf6d10",
+      "experiments/semantic_assumptions/results/public_page_annotation_boundary_correction.json",
+      "experiments/semantic_assumptions/results/public_voynich_nu_page_annotations_v2.tsv"
+    ]
+  }
+}

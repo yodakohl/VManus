@@ -1,0 +1,34 @@
+{
+  "title": "RAW_UNSCREENED: f70v2 als gekoppelter 19-plus-10-Rechenweg",
+  "summary": "RAW_UNSCREENED: Das gebundene f70v2-Layout mit 19 äußeren und 10 inneren Einträgen kann ein zweistufiges Rechen-/Korrekturschema oder zwei unabhängige Sternregister tragen.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Nur die bereits ausgewählte und validierte f70v2-Zählung sowie der importierte CodSang760-Vergleich; keine neue Bildöffnung und kein erneuter geschlossener Kalender-Test.",
+    "mechanism": "Ein 19er Register liefert einen Hauptindex; ein 10er Register führt Korrektur, Restklasse oder Folgezustand aus, sodass ein Eingang beide Ebenen bestimmt.",
+    "unit": "The complete f70v2 outer-19 and inner-10 records in the frozen ZST002 selection.",
+    "contrast": "Gekoppelter zweistufiger Rechenweg versus zwei unabhängige Ringlisten.",
+    "prediction": "Die gekoppelte Lesung sagt eine vorab formulierte Carry-/Restbeziehung zwischen 19er und 10er Positionen und eine wiederkehrende Kopplung am Umlaufende voraus; unabhängige Listen sagen keine gemeinsame Arithmetik oder Übergangsbedingung voraus.",
+    "concrete_observations": [
+      "ZST002 records all nineteen OUTER and ten INNER f70v2 records in a 19+10 total-29 layout, with no mixed tail state.",
+      "HIST:ec0218fa59d49a36 supplies an explicit historical comparator with consecutive 19-sector Golden-Number and 28-sector Sunday-letter calculators, while also recording that Voynich has no 28-sector paired group."
+    ],
+    "linked_consequences": [
+      "A genuine two-stage system must specify one arithmetic relation before any word gloss and use it on both rings.",
+      "The independent-list rival predicts that ring-local order and surface forms remain admissible even when no cross-ring key or spoke exists."
+    ],
+    "nearest_rival": "Two locally ordered star/slot inventories whose 19 and 10 counts are layout cardinalities only.",
+    "distinguishing_observation": "Write the carry or residue rule first, then check whether the bound slot records expose a stable cross-ring pairing or only separate local orders; without an author-visible key, the computational reading cannot claim a linkage.",
+    "assumption_costs": [
+      "The 19 and 10 groups are intended as jointly addressed records.",
+      "A numeric operation is licensed independently of the count coincidence.",
+      "The historical 19+28 comparator may not transfer to a 19+10 layout."
+    ],
+    "strongest_likely_failure": "The missing 28-sector partner and absent start/key make the computus analogy underdetermined; the same cardinalities can arise from unrelated diagram bands.",
+    "primary_predecessors": [
+      "HIST:ec0218fa59d49a36",
+      "HIST:aa7f3c76e7449180",
+      "experiments/semantic_assumptions/results/zst002_f70v2_complete_star_tail_census_result.json",
+      "experiments/semantic_assumptions/results/zst002_f70v2_complete_star_tail_census_result_validation.json"
+    ]
+  }
+}

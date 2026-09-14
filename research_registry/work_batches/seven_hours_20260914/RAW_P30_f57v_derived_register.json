@@ -1,0 +1,34 @@
+{
+  "title": "RAW_UNSCREENED: f57v Nahinschrift und Zwischenfigurtext als Ableitung",
+  "summary": "RAW_UNSCREENED: Die vier figurnahen und vier zwischen den Figuren verlaufenden Texte auf f57v können eine Quelle→Folge-Relation oder zwei parallele Beschriftungsregister bilden.",
+  "scope": "semantic",
+  "design": {
+    "scope_description": "Nur die bereits gebundene f57v-Visualbeschreibung und vorhandene Locus-/Registertabellen; keine neue Bildauswertung.",
+    "mechanism": "Jede figurnahe Einheit liefert einen Ausgangszustand; der Text zwischen zwei Figuren beschreibt das Ergebnis oder den Übergang des benachbarten Paars.",
+    "unit": "The four nearby and four interfigure f57v inscriptions recorded in the existing source-bound visual report.",
+    "contrast": "Abgeleitetes Übergangsregister versus zwei unabhängige Beschriftungsregister.",
+    "prediction": "Die Ableitungslesung sagt eine positionsgebundene Relation zwischen jedem Zwischenfigurtext und seinen beiden Nachbarn voraus; die Parallelregisterlesung sagt keine solche Abhängigkeit und erlaubt eigenständige lokale Serien.",
+    "concrete_observations": [
+      "The bound f57v report records four short inscriptions near the figures and four additional inscriptions radiating through the gaps between consecutive figures.",
+      "The same report explicitly records no drawn leader, bracket or separate enclosure assigning a nearby inscription to one figure."
+    ],
+    "linked_consequences": [
+      "A repeated nearby-register pattern should be followed by a predictable transformation or relation in the intervening text, measured only on exact forms and order.",
+      "If the registers are parallel, changing endpoint pair types need not change the intervening item and no endpoint-to-middle mapping is required."
+    ],
+    "nearest_rival": "Two independent lists placed in one circular composition, with proximity serving layout only.",
+    "distinguishing_observation": "Freeze the four cyclic endpoint pairs before reading values and ask whether each intervening item has a repeatable endpoint-dependent form relation; absence of any such relation, especially with mixed endpoint pairs, favors independent registers. No label is called an observation merely because it is nearby.",
+    "assumption_costs": [
+      "The four positions and cyclic adjacency are source-bound.",
+      "A semantic transition may be expressed by form relations without a confirmed word anchor.",
+      "No missing connector can be supplied by editorial proximity."
+    ],
+    "strongest_likely_failure": "The report’s lack of connectors may mean the eight texts are simply separate labels, and an exact four-item sample is too small to distinguish derived relation from coincidental repetition.",
+    "primary_predecessors": [
+      "HIST:cfad7da3682d3dcb",
+      "HIST:058818018b902b54",
+      "experiments/semantic_assumptions/results/f57v_ai_visual_description_pilot.md",
+      "experiments/yolo/gdt389_connector_edge_census/REPORT.md"
+    ]
+  }
+}
