@@ -1,0 +1,24 @@
+{
+  "experiment": "GDT947",
+  "experiment_validation": "PASS",
+  "independent_case_checks": 696,
+  "meaning_validation": false,
+  "registry_check": "PASS",
+  "context_check": "PASS",
+  "index_check": "PASS",
+  "task_staged_preflight": "TASK_STAGED_PREFLIGHT_PASS",
+  "task_preflight_errors": [],
+  "global_check": "FAIL_PREEXISTING_GDT600_SEVEN_UNBOUND_FILES",
+  "global_errors": [
+    "FAIL experiments/yolo/gdt600_complete_object_surface_grammar/experiment.json: unbound reproducibility file experiments/yolo/gdt600_complete_object_surface_grammar/METHOD.md",
+    "FAIL experiments/yolo/gdt600_complete_object_surface_grammar/experiment.json: unbound reproducibility file experiments/yolo/gdt600_complete_object_surface_grammar/PREREGISTRATION.md",
+    "FAIL experiments/yolo/gdt600_complete_object_surface_grammar/experiment.json: unbound reproducibility file experiments/yolo/gdt600_complete_object_surface_grammar/README.md",
+    "FAIL experiments/yolo/gdt600_complete_object_surface_grammar/experiment.json: unbound reproducibility file experiments/yolo/gdt600_complete_object_surface_grammar/REPORT.md",
+    "FAIL experiments/yolo/gdt600_complete_object_surface_grammar/experiment.json: unbound reproducibility file experiments/yolo/gdt600_complete_object_surface_grammar/src/model.py",
+    "FAIL experiments/yolo/gdt600_complete_object_surface_grammar/experiment.json: unbound reproducibility file experiments/yolo/gdt600_complete_object_surface_grammar/src/run.py",
+    "FAIL experiments/yolo/gdt600_complete_object_surface_grammar/experiment.json: unbound reproducibility file experiments/yolo/gdt600_complete_object_surface_grammar/src/validate.py"
+  ],
+  "diff_check": "non-TSV staged files pass; TSV terminal empty fields intentionally retained and every row width independently checked",
+  "excluded_work": "unrelated pre-existing untracked GDT600 and other work were not staged",
+  "claim": "No global repository PASS; no scientific meaning PASS."
+}

@@ -3,13 +3,13 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: Optimize progress toward meaning; user corrected candidate-throughput objective.
-Latest decision: IDEA281 retained as structural support, no automatic main-route priority. No meaning selected; old50 hypotheses only.
-Working files: research_registry/work_batches/luna_throughput_20260914/MEANING_PRIORITY.md
-Assumptions: Joint provisional meanings permitted; no945/946repair or infrastructure expansion.
-Resume: Draft connected rival readings with shared content/form assumptions and differing consequences. Luna checks those consequences.
-Running: none.
+Status: complete
+Task: GDT947 tested fixed overt backward/forward meanings for olshedy and olshey.
+Latest decision: Both joint contracts fail; olshedy/BACK ZL alone unresolved. No meaning selected.
+Working files: experiments/yolo/gdt947_ol_content_reference_direction/REPORT.md
+Assumptions: All sources exposed; leaves77/80/85 design. No new access or independent meaning test.
+Resume: Choose connected content consequences beyond exact within-paragraph mention; no ol-scope repair.
+Running: none. One-hour work block documented in research_registry/work_batches/meaning_hour_20260914/REPORT.md.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -1,0 +1,33 @@
+{
+  "experiment": "GDT947",
+  "status": "PASS",
+  "source_groups": 96184,
+  "own_complete_paragraphs": {
+    "ZL3b": 659,
+    "IT2a": 690,
+    "RF1b": 0
+  },
+  "exact_occurrences": 348,
+  "direction_cases": 696,
+  "case_statuses": {
+    "WRITTEN_ANCHOR_PRESENT": 110,
+    "UNRESOLVED_SOURCE": 145,
+    "MISSING_WRITTEN_ANCHOR": 211,
+    "TARGET_BOUNDARY_UNCERTAIN": 22,
+    "NO_PARAGRAPH_CAPACITY": 208
+  },
+  "strict_missing_anchor_cases": 211,
+  "checks": [
+    "all preregistration/model/input hashes",
+    "179-selector safe snapshot boundaries and source uniqueness",
+    "own-reader complete paragraph boundaries/contiguity and every raw source ID",
+    "every exact target occurrence, including no-capacity RF and non-paragraph hits",
+    "independent reconstruction of every directional status and full anchor/uncertainty ID lists",
+    "whole target lines including alternate-reader nonmatches, full target paragraphs",
+    "summary contradictions cannot be masked by missing source cases",
+    "deterministic read-only artifact replay"
+  ],
+  "meaning_validation": false,
+  "independent_meaning_tests": 0,
+  "significance_claim": false
+}

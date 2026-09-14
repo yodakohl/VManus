@@ -1,0 +1,55 @@
+{
+  "experiment": "GDT947",
+  "primary_forms": {
+    "olshedy": "shedy",
+    "olshey": "shey"
+  },
+  "family_diagnostics": {
+    "olkain": "kain",
+    "olkeedy": "keedy",
+    "olchey": "chey"
+  },
+  "directions": [
+    "BACK",
+    "FORWARD"
+  ],
+  "models": {
+    "BACK": "the X explicitly named earlier in this same written paragraph",
+    "FORWARD": "the X explicitly named later in this same written paragraph",
+    "LEXICAL": "independent whole or non-referential composition; no obligatory written exact-core mention"
+  },
+  "illustrative_only": {
+    "olshedy_BACK": "die in diesem Absatz zuvor ausdrücklich genannte Flüssigkeit, falls shedy Flüssigkeit bedeutet",
+    "olshedy_FORWARD": "die in diesem Absatz nachfolgend ausdrücklich genannte Flüssigkeit, falls shedy Flüssigkeit bedeutet",
+    "olshey": "same directional contrast with the meaning of shey left open"
+  },
+  "allow_source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+  "sources": [
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json"
+  ],
+  "paragraph_source": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "design_leaves": [
+    77,
+    80,
+    85
+  ],
+  "scope": "all exact occurrences in six already exposed source snapshots; score only own-edition complete paragraphs; no RF paragraph borrowing",
+  "definite_boundaries": [
+    "DEFINITE_SPACE",
+    "LINE_START",
+    "LINE_END"
+  ],
+  "exact_core_only": true,
+  "target_policy": "both boundaries definite and raw exact; otherwise TARGET_BOUNDARY_UNCERTAIN",
+  "anchor_policy": "same raw exact bare core with both boundaries definite strictly before/after; all such IDs retained; compound repetitions are not bare anchors",
+  "missing_policy": "if no eligible anchor: UNRESOLVED_SOURCE when any group on relevant side is non-[a-z]+ or has a non-definite boundary, else MISSING_WRITTEN_ANCHOR; missing complete paragraph is NO_PARAGRAPH_CAPACITY",
+  "decision": "for each primary form/direction reject the strict written-paragraph contract on any MISSING_WRITTEN_ANCHOR; otherwise retain as unresolved or compatible, never select lexical meaning; report two-form conjunction separately",
+  "null_policy": "LEXICAL rival predicts no necessary direction. Family diagnostics are not semantic-negative controls. No search-wide null, p-value or significance.",
+  "claim_ceiling": "conditional written-reference compatibility; no individual referent identity or English word confirmed",
+  "prior_exposure": "All sources project-exposed. Root inspected three seed paragraphs and selected the two primary forms after noticing prior cores. Entire physical leaves77,80,85 are design data. Other exposed leaves are internal transfer only, not independent meaning confirmation. Known olkain and olkeedy seed counterexamples motivate fixed diagnostics."
+}

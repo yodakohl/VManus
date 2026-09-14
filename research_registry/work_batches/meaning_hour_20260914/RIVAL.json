@@ -1,0 +1,95 @@
+{
+  "task": "semantic_rival",
+  "date": "2026-09-14",
+  "scope": "GDT930 exposed f77r label/prose source; GDT932 and GDT944 predecessor reports",
+  "source_integrity": {
+    "manifest": "experiments/yolo/gdt930_label_text_joint_reading/experiment.json",
+    "checked_sha256": {
+      "artifacts/READING_ZL3b.md": "4beca34b259a4cba72d16da937000e3aa3d43ddf8dcf5ec1997612c4c2b18106",
+      "artifacts/READING_IT2a.md": "0c514825986b289b360ff7a086f1bf082278b898e0fac8ca50f4d5d7df9bacf9",
+      "artifacts/READING_RF1b.md": "1f84de93940533d863d00feb5396d165350eb71fa11ef0a19b9f6665241323da",
+      "artifacts/ALIGNMENT.tsv": "c2463e215e943a20bbd4e96709d2d8f1bbb37483ba047353bb742553e741febb",
+      "artifacts/SOURCE.json": "be014bd7c82c6779e1afd601c28453af707fe9f24c6e5e2e0d4a68174edcdcaf"
+    },
+    "note": "All checked values are manifest-bound exposed files; no new image, raw global source, reserve, f84/f84r, f116v, or contact was used."
+  },
+  "shared_mechanism": {
+    "name": "local content thread with q-role marking",
+    "claim": "Treat the local content stem as stable while a q-bearing form marks its role in the clause; forms ending in -edy are one operation/state family, and qokeedy is the q-marked result/participant of that same family. The mechanism supplies roles and a shared content thread; it does not supply an English lexicon. This is a bounded hypothesis, not a q rule for the manuscript.",
+    "why_here": "GDT930 keeps the f77r.27 order and the q/base pair inventory visible; GDT944 shows that whole/split boundaries can carry a local content relation but do not establish meanings."
+  },
+  "clause": {
+    "source": {
+      "ZL3b": "solchedy qokain okaiin shedy qokeedy qotedy",
+      "IT2a": "solchedy qokain okaiin shedy qokeedy qotedy",
+      "RF1b": "solche@152;y qokain okaiin shedy qokeedy qotedy",
+      "locus": "f77r.27",
+      "delimiter": "the six groups from line start through line end"
+    },
+    "rival_A": {
+      "label": "purpose-bound assignment",
+      "word_account": {
+        "solchedy": "operation-frame (lexical value unknown)",
+        "qokain": "q-marked purpose role over the content thread",
+        "okaiin": "content thread C (lexical value unknown)",
+        "shedy": "operation P: allocate (hypothesized content, direction unknown)",
+        "qokeedy": "q-marked P-result/participant: allocated C",
+        "qotedy": "q-marked relation of allocated C to named A (A remains opaque)"
+      },
+      "complete_reading": "[Operation-frame]: C is put into a purpose role; P allocates C, and the q-marked allocated C is related to A."
+    },
+    "rival_B": {
+      "label": "equivalence check",
+      "word_account": {
+        "solchedy": "operation-frame (lexical value unknown)",
+        "qokain": "q-marked comparison role over the content thread",
+        "okaiin": "content thread C (lexical value unknown)",
+        "shedy": "operation P: match (hypothesized content, direction unknown)",
+        "qokeedy": "q-marked P-result/participant: matched C",
+        "qotedy": "q-marked comparison relation of matched C to A (direction unknown)"
+      },
+      "complete_reading": "[Operation-frame]: C is put into a comparison role; P matches C, and the q-marked matched C is compared with A."
+    }
+  },
+  "linked_consequences": [
+    {
+      "id": "C1",
+      "exposed_context": "f77r.28: olchey qotey qokain olcheedy sar lom",
+      "A_prediction": "qokain should resolve as a purpose relation, with qotey supplying or constraining the use and olcheedy naming the following treatment; no second material is required.",
+      "B_prediction": "qokain should introduce a comparison, so the neighboring sequence should provide a second comparable material/form; qotey cannot merely be a purpose marker.",
+      "discriminator": "A survives a one-material purpose frame; B requires a second comparand in this already exposed line."
+    },
+    {
+      "id": "C2",
+      "exposed_context": "f77r.35: solkeey okaiin chedy qokain sheedy qokaiin chedaiin chealy",
+      "A_prediction": "the repeated okaiin can be the same content thread through two treatment stages, with qokain marking intended-use role.",
+      "B_prediction": "the two qokaiin occurrences should be distinct members of an equivalence comparison and should have symmetric treatment context.",
+      "discriminator": "Identity-through-treatment versus two-member comparison is directly distinguishable from the written order and repeated forms."
+    },
+    {
+      "id": "C3",
+      "exposed_context": "qokeedy doublets at f77r.19, f77r.29, and f77r.42 (all retained in GDT930 alignments)",
+      "A_prediction": "a doublet is two successive selected portions/assignments and may feed different purposes or recipients.",
+      "B_prediction": "a doublet is a paired equivalence statement; the two members should be symmetric and require two comparable referents.",
+      "discriminator": "Search the already exposed neighboring groups for recipient/purpose asymmetry (A) versus paired comparands (B); a stock flow/continuation gloss is compatible with neither rival."
+    },
+    {
+      "id": "C4",
+      "exposed_context": "HERB4 f29v.4 contains two okaiin occurrences; f21r.9 contains okaiin in the same exposed GDT930 scope",
+      "A_prediction": "okaiin retains one material/content thread across repeated handling.",
+      "B_prediction": "the two f29v.4 occurrences are candidate matched materials/forms, while the single f21r.9 occurrence cannot by itself complete an equivalence pair.",
+      "discriminator": "The local co-occurrence pattern separates one content tracked through treatment from two items asserted equivalent."
+    }
+  ],
+  "predecessor_difference": {
+    "GDT932": "Both rivals replace M/V's qokain=is, okaiin=pipe-or-liquid, shedy=liquid-or-flows, qokeedy=flows-or-continues, and qotedy=mouth-or-outlet. They do not use a flow event or a fixed source/target reading.",
+    "GDT944": "Both rivals are a separate f77r.27 clause and do not use F/S's f80v.32 solkain/shol/kair/or/arolkeedy/olky/qolkain/shedy formation-versus-separation sentence. The shared q-role mechanism is local and does not import GDT944's passive product identity."
+  },
+  "assumptions": [
+    "A and B are whole-clause hypotheses, not confirmed translations.",
+    "A is an opaque label referent inherited only as the GDT930 nominal placeholder; no mouth, pipe, liquid, plant, or image object is assigned.",
+    "Repeated spelling is not independently asserted to be the same portion; that identity is the discriminated consequence.",
+    "Unknown operation-frame and relation direction remain visible rather than repaired by articles, omitted conjunctions, or hidden sentence boundaries."
+  ],
+  "status": "bounded_semantic_rivals_for_root_selection"
+}

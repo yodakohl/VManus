@@ -1,0 +1,3 @@
+# Decision before census
+
+Unknown: whether the two selected ol whole forms satisfy a restrictive overt backward reference reading outside the three exposed seed leaves. GDT933 only added participant references; IDEA000022/279 lack independently discriminating meaning bindings and remain unresolved. The new result can reject a concrete addition to the working reading, but cannot select a word meaning. Smallest adequate test: both directions, all exact occurrences, fixed diagnostic families, own-reader complete paragraphs, full uncertainty accounting. Success retains a provisional candidate; failure drops the strict addition; insufficient source capacity parks it. No broad repair after failure. Budget and exposure: see preregistration.
