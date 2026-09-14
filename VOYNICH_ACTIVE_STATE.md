@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W67 (2026-09-14): full solchey census adds medial f79r.5, retains ZLsalchey and RF sol-chey segmentation. Narrow initial heating pattern notglobal;F/T unselected. Primary: research_registry/proposals/translation_programs_20260912/work/W67/REPORT.md.
+
 W66 (2026-09-14): F same-material/measure vs T next-step/additive full drafts, neither selected;shared referent and additionpurpose remain unbound.1160groups32newassumptions,nottranslations. Primary: research_registry/proposals/translation_programs_20260912/work/W66/REPORT.md.
 
 W65 (2026-09-14): all16okain/solchey positions audited;paired f80.32/.33 initialsolchey before different hypothetical heating verbs. Unknownokain may interrupt portioncarry;no newgloss. Primary: research_registry/proposals/translation_programs_20260912/work/W65/REPORT.md.
