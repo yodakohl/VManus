@@ -1,0 +1,52 @@
+{
+  "record_type": "SOURCE_REVIEW",
+  "idea_id": "IDEA000318",
+  "status": "RAW_UNSCREENED_SOURCE_REVIEW",
+  "source": {
+    "witness": "Hieronymus de Moravia, Tractatus de musica, chapter 12",
+    "url": "https://www.gregoriana.pl/images/traktaty/IERTDM1%20TEXTa.htm",
+    "locator": "primary transcription lines 378-441",
+    "literal_observation": "The text fixes six syllables (ut, re, mi, fa, sol, la), directed mutation rules, and explicit zero cases. Gamma ut, A re, and square-B mi have no mutation; C/D/E/F two-voice keys have two directed mutations; G sol re ut has six. Lower voices ascend and upper voices descend, cross-key voices do not mutate, and three-voice mutations follow first-last, first-middle, middle-last order."
+  },
+  "fixed_source_consequence": "The source supplies a finite directed transition graph with legal origins, directions, and no-transition states; these are jointly constrained historical operations, not free syllable meanings.",
+  "target_endpoint": {
+    "documented": "The existing f67v1 result preserves complete 17-sector radial sequences, including `pchodaiin otch oekeey dy` at f67v1.19, `okeeodaiin saii dairal` at .27, and `okechey cheody cheky` at .14.",
+    "missing": "Those serialized forms expose no independently documented pitch, voice, cantus, hexachord-origin, transition-boundary, or zero-state fields. A source graph cannot be projected onto them without a free codebook."
+  },
+  "contrast": {
+    "mechanism": "A complete target register encodes a fixed finite state and its legal directed transitions, including repeated zero transitions.",
+    "rival": "A grammatical, whole-phrase, or orthographic register reuses similar forms as independent labels without pitch or hexachord state.",
+    "mechanism_consequences": [
+      "Repeated transition contexts must preserve direction and source/destination state together.",
+      "The same register must leave source-defined no-mutation cases structurally distinct from legal mutations."
+    ],
+    "rival_consequences": [
+      "The same form may occur in incompatible transition roles without a state-preservation rule.",
+      "No special structural status is required for zero cases or reverse transitions."
+    ]
+  },
+  "prior_difference": "IDEA000135's complete 22-pitch operational projection was jointly excluded by GDT901, so this card is not a rescue or automatic reopening of that result. Its only genuine distinction is the already documented f67v1 17-sequence endpoint and a local transition-invariant question rather than GDT901's whole-paragraph shared-root/affix lexicon. It also differs from HIST:5aaf4819ad2f49eb and F67V1_DUAL_TRANSFER_DESIGN.md: that prior route tested graphical output iff adjacent f57-derived states changed, whereas this source rule concerns directed mutation and explicit zero states. The target state fields remain absent.",
+  "smallest_discriminator": "Only proceed if an existing target serialization independently exposes repeated transition boundaries and state/direction markers; require both a legal mutation sequence and a documented no-mutation case before any semantic interpretation. Otherwise retain as unavailable.",
+  "assumption_costs": [
+    "The target contains a complete ordered register with recoverable transitions.",
+    "The target can encode the external finite inventory without phonetic assumptions.",
+    "The electronic critical transcription represents the relevant historical rule."
+  ],
+  "strongest_likely_failure": "No current target field identifies pitch, voice, or origin, so any apparent success would be a fitted codebook and would establish neither content nor translation.",
+  "primary_predecessors": [
+    "IDEA000135",
+    "experiments/yolo/gdt901_solmization_joint_relational_lexicon/REPORT.md",
+    "experiments/yolo/gdt901_solmization_joint_relational_lexicon/METHOD.md",
+    "experiments/semantic_assumptions/results/f67v1_dual_transition_transfer.json",
+    "experiments/semantic_assumptions/f77r_quality_transition_bridge/F67V1_DUAL_TRANSFER_DESIGN.md",
+    "HIST:5aaf4819ad2f49eb"
+  ],
+  "evidence_paths": [
+    "research_registry/work_batches/seven_hours_20260914/RAW_P35_hieronymus_mutation_automaton.json",
+    "experiments/yolo/gdt901_solmization_joint_relational_lexicon/REPORT.md",
+    "experiments/yolo/gdt901_solmization_joint_relational_lexicon/METHOD.md",
+    "experiments/semantic_assumptions/results/f67v1_dual_transition_transfer.json",
+    "experiments/semantic_assumptions/f77r_quality_transition_bridge/F67V1_DUAL_TRANSFER_DESIGN.md"
+  ],
+  "decision": "Source review only; no target test or meaning selected here. A new explicitly hypothetical field construction remains possible but was not supplied by this review."
+}

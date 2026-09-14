@@ -46,3 +46,8 @@ report scientific progress separately from technical work and known failures.
 - Subsequent source review: TIRONIAN_SOURCE_REVIEW.md records native inspection
   of a complete15-note page and Geneva1v. Historical positional clause contrast,
   no target model or word. Separate Greek1364source review selected next.
+
+- 23:00 UTC: Greek1364 source review complete: full article, original table and
+  running passages;11-word historical sentence, no target model. Refetch validator
+  PASS covers sources only. Next source-specific exploration: joint astrological
+  degree attributes, with old zodiac/phase contracts reviewed before selection.

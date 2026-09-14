@@ -1,0 +1,50 @@
+{
+  "record_type": "SOURCE_REVIEW",
+  "idea_id": "IDEA000316",
+  "status": "RAW_UNSCREENED_SOURCE_REVIEW",
+  "source": {
+    "witness": "Walters W.73, fols. 1v-2r",
+    "url": "https://t.thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+    "locator": "primary description lines 121-153",
+    "literal_observation": "Fol. 1v has twelve wind busts: an outer Latin name band, an inner Greek alternate-name band, and one first-person spoke characterization per bust. Fol. 2r repeats twelve names with the corresponding sector characterizations and explicit relative relations such as left/right of another wind."
+  },
+  "fixed_source_consequence": "The historical constraint is a repeated twelve-record, multi-field correspondence with a fixed field order; it does not supply a Voynich word meaning or authorize a wind gloss.",
+  "target_endpoint": {
+    "documented": "The existing f67r2 crosswalk records a twelve-position lower sequence, including `okal` at f67r2.22, `okain.am` at .28, `opcholdy` at .31, and `ofar.oeoldan` at .34.",
+    "missing": "No already documented f67r2 partition supplies four co-owned fields (outer name, alternate name, profile, spoke) or a second complete target register. A fieldwise test is therefore unavailable without inventing target fields."
+  },
+  "contrast": {
+    "mechanism": "One target record owns several parallel registers whose values co-vary in a fixed order.",
+    "rival": "Four independent coordinate, attribute, and note lists happen to have twelve positions.",
+    "mechanism_consequences": [
+      "A repeated target record should preserve linked field identity and constrained co-variation across its registers.",
+      "The same record schema should recur without assigning any field an English gloss."
+    ],
+    "rival_consequences": [
+      "A change in one field need not be accompanied by a constrained change in the others.",
+      "Independent field permutations remain admissible even when the twelve positions align."
+    ]
+  },
+  "prior_difference": "This is not the failed W73 shared-right action run (GDT929), which stopped on open `otey`/`chedy`, and not the older W73 wind-fingerprint/alignment route recorded by HIST:1ad444a70541438b. The proposed observable is field co-ownership, not wind names, cardinal orientation, rotation, or a guessed dictionary. The distinction remains prospective because the target fields are missing.",
+  "smallest_discriminator": "Using only the existing twelve f67r2 positions, first document an author-visible multi-field partition; then require the same cross-field correspondence in repeated complete records. If no such partition is available, stop with no semantic inference.",
+  "assumption_costs": [
+    "W.73's field grouping reflects a historical record convention rather than editorial packaging.",
+    "The f67r2 twelve positions are comparable to those records despite different topology.",
+    "Co-ownership can be observed without translated anchors."
+  ],
+  "strongest_likely_failure": "The target has only a twelve-position layout, so apparent parallelism would be produced by arbitrary grouping; the W.73 homologue may be only a diagram-class resemblance.",
+  "primary_predecessors": [
+    "HIST:bf5a7e15d50c3f0a",
+    "HIST:1ad444a70541438b",
+    "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv",
+    "experiments/semantic_assumptions/results/existing_human_page_role_matrix.tsv",
+    "research_registry/proposals/translation_programs_20260912/work/W73/REPORT.md"
+  ],
+  "evidence_paths": [
+    "research_registry/work_batches/seven_hours_20260914/RAW_P33_w73_parallel_name_register.json",
+    "research_registry/proposals/translation_programs_20260912/work/W73/REPORT.md",
+    "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv",
+    "experiments/semantic_assumptions/results/existing_human_page_role_matrix.tsv"
+  ],
+  "decision": "Source review only; no target test or meaning selected here. A new explicitly hypothetical field construction remains possible but was not supplied by this review."
+}
