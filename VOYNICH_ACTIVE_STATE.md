@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+DITTO WHOLE CONTEXT: all4symmetric X-marker-X sites are final two X mentions in their paragraphs;later text remains35-50groups at3sites. Posthoc construction-closing hypothesis only. Broad dar-means-no-later-X rule fails f78r with3later qokain. f82r paragraph scope ZL80/IT5groups. Repetition/identity/closing unresolved;no meaning or semantic successor. Primary: research_registry/proposals/translation_programs_20260912/work/DITTO_FULL_CENSUS/CONTEXT_REVIEW.md
+
 DITTO FULL CENSUS: ZL360/IT350 char,dar,sar positions. Four symmetric sites shared by readings: qokchol-dar-qokchol,oty-dar-oty,qokal-dar-qokal,known okain-char-okain; ZL-only aiin-char-aiin segmentation-sensitive. qokain-[char/dar]-ar shared frame survives;al-frame ZL-only. Concrete context material, no alias or meaning. Primary: research_registry/proposals/translation_programs_20260912/work/DITTO_FULL_CENSUS/REPORT.md
 
 DITTO TARGET AUDIT: all5legacy SAME events checked in ZL/IT, same target lines; known okain char okain survives, meaning tied. f83r.3 dar selected successor skips19groups on .4/.5 before .6. No expanded/abbreviated field pair or Voynich meaning; Durham143 remains source-only. Primary: research_registry/proposals/translation_programs_20260912/work/DITTO_TARGET_AUDIT/REPORT.md
