@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT931 executed shedy as Flüssigkeit, fließt or feucht across full GDT930 scope.
-Latest decision: No word chosen; left/right reversal keeps the same marked-head gaps.
-Working files: experiments/yolo/gdt931_shedy_concrete_reading_contrast/REPORT.md
-Assumptions: Nominal A–D unconfirmed; RF variants unresolved; all source already exposed.
-Resume: Jointly read D + shedy qokeedy qotedy and all its word contexts; no isolated gloss or prefix rerun.
-Running: none; 3 raw producer proposals stored, not selected.
+Task: GDT932 executed two joint nine-word flow/continuation readings on full GDT930 scope.
+Latest decision: M is an operational prose seed, V remains open; neither is a translation winner.
+Working files: experiments/yolo/gdt932_joint_flow_participant_reading/REPORT.md
+Assumptions: All words/syntax provisional; most obligations unbound; RF variants unresolved.
+Resume: Develop whole f77r P2/P3 with M and V rival; confront .26/.42 before adding isolated glosses.
+Running: none; 3 independent raw producer proposals stored.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

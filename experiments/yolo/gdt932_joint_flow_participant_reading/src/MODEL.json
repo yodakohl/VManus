@@ -1,0 +1,93 @@
+{
+  "source": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+  "frames": "experiments/yolo/gdt930_label_text_joint_reading/src/MODEL.json",
+  "models": {
+    "M": {
+      "title": "Stoff und Fließvorgang",
+      "lexicon": {
+        "solchedy": [
+          "hier",
+          "LOCATION"
+        ],
+        "qokain": [
+          "ist",
+          "COPULA"
+        ],
+        "okaiin": [
+          "Rohr",
+          "VESSEL"
+        ],
+        "qokaiin": [
+          "aus dem Rohr",
+          "SOURCE"
+        ],
+        "shedy": [
+          "Flüssigkeit",
+          "MATERIAL"
+        ],
+        "qokeedy": [
+          "fließt",
+          "FLOW"
+        ],
+        "qotedy": [
+          "aus der Mündung",
+          "SOURCE"
+        ],
+        "otedy": [
+          "Mündung",
+          "PLACE"
+        ],
+        "qoteedy": [
+          "warm",
+          "QUALITY"
+        ]
+      }
+    },
+    "V": {
+      "title": "Anteil und Fortsetzung",
+      "lexicon": {
+        "solchedy": [
+          "hier",
+          "LOCATION"
+        ],
+        "qokain": [
+          "ist",
+          "COPULA"
+        ],
+        "okaiin": [
+          "Flüssigkeit",
+          "MATERIAL"
+        ],
+        "qokaiin": [
+          "der Flüssigkeit",
+          "GENITIVE"
+        ],
+        "shedy": [
+          "fließt",
+          "FLOW"
+        ],
+        "qokeedy": [
+          "weiter",
+          "CONTINUATION"
+        ],
+        "qotedy": [
+          "zum Ausgang",
+          "GOAL"
+        ],
+        "otedy": [
+          "Ausgang",
+          "PLACE"
+        ],
+        "qoteedy": [
+          "Anteil",
+          "PART"
+        ]
+      }
+    }
+  },
+  "scope": "all1408 source groups; all seven prose frames and ten labels",
+  "target": "qokeedy",
+  "binding_rule": "Within maximal contiguous lexicon-known prose run: nearest eligible left head, otherwise first eligible right head. No crossing an unknown group, paragraph or label. Unknown groups censor this trial, not asserted sentence boundaries.",
+  "material_heads": "M MATERIAL; V MATERIAL and PART only when immediately followed by GENITIVE in same run.",
+  "continuation_head": "FLOW under V, whose material obligation is separately retained. Duplicate continuations stay separate, not automatically intensification or separate events."
+}
