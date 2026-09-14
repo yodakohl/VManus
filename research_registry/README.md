@@ -31,12 +31,43 @@ its old P05 preference is superseded by [W89](proposals/translation_programs_202
 the naming test for missing comparison capacity. Neither stop is a universal
 refutation of its meaning family. A completed first pass is not a translation.
 
-Before a new proposal, state briefly in its existing decision note: which
-known observations it uses, which predecessor and current stop apply, and which
-new consequence would change the reading decision. Do not add another generic
-statistics or decoder stage without that consequence. Preserve the distinction
-between manuscript evidence, properties of a stipulated reading, an invalid
-test, and missing capacity; read the source before promoting a status label.
+Before substantial work, use the existing decision note to state four things:
+the positive observations used; the strongest relevant predecessor/countercase;
+the assumed whole-passage reading or specific question; and the consequence
+that would change the reading decision. Check a known countercase before a
+larger implementation if its failed premise is retained. A changed premise
+requires a fresh scoped check, not automatic transfer of the old failure.
+This preliminary check cannot certify whole-scope success or replace the
+complete declared evaluation. W97's known self-reference failure explains why
+this matters; see [the workflow review](decisions/workflow_review_20260914.md).
+
+Keep a short assumption/dependency list inside the active proposal, not a new
+global database: reused glosses, participant identity, boundaries, state changes
+and free values. Mark inherited assumptions as assumptions. When one changes,
+check which downstream claims depended on it; distinguish obligations solved
+from obligations removed or left unknown. W83's action/property comparison and
+W96's SAME/NEW comparison cannot be ranked by raw conflict counts. Do not silently
+repair frozen readings. No new generic statistics or decoder stage without a
+consequence for the reading decision.
+
+Use the existing primary reader and source packet when adequate. Check exact
+loci, source layer and whole form before inheriting an example from an idea
+sketch: P02 corrects its sketch's f32v reference to f21r. Share one bounded
+packet among authorized concurrent tasks, preserving ownership and blinding.
+Read one relevant report section at a time; a clipped search card or truncated
+batch output is navigation, not completed review of omitted material. Fetch
+the missing claim-bearing section before relying on it.
+
+At the declared total-work checkpoint, report the concrete new reading
+consequence, its assumptions, unresolved alternatives and next decision.
+Record elapsed preparation/implementation/check/publication time in the same
+note when a timed work block is undertaken; this is not a new global time limit.
+Test counts, recovered cards and publication counts are not semantic progress.
+Do not repeat a missing-input audit without a documented change: IDEA184's
+TEMPORAL_SELECTION already records its specific absence. Keep raw idea supply
+diverse, but select at most one active research question; unresolved raw ideas
+may remain stored without full review. Documentation work needs no new GDT ID
+or automatic continuation into another maintenance project.
 
 The user permits coherent, multistep hypothetical whole readings without
 previously confirmed word anchors or a 100% guarantee. This permits exploration,
@@ -46,6 +77,14 @@ a nearly complete plausible overall reading exists, not merely one fitted
 paragraph. f84/f84r remain explicitly sealed. No outside contacts or expert
 review. Active research may use the authorized bounded idea producer; a
 documentation-only task does not require new idea production.
+
+Keep these phases explicit in the existing proposal:
+
+| Phase | What the work may achieve | Boundary |
+|---|---|---|
+| Exploratory reading | Develop several coherent whole-passage hypotheses on admitted, exposed data; combine known structure with explicitly provisional meanings. Log revisions and retain unknown groups and conflicts. | No confirmed word anchor or already independent discriminator is required to begin. Mark observational equivalence as unresolved; it need not erase a useful candidate. Source/admission rules still apply. |
+| Fixed test | Freeze the chosen readings, scope and distinguishing consequences; evaluate every declared case. | No post-result exception repair or selection of only matching passages. A result from a stipulated model is not automatically manuscript meaning. |
+| Reserved confirmation | Test a nearly complete plausible overall reading using prospectively separated physical leaves where available. | Preserve all prior exposure, the user's reserve threshold and explicit f84/f84r seals. A new model/reviewer does not create blindness. |
 
 Keep the route within 80 lines/6000 UTF-8 bytes. Replace chronology with primary
 pointers, but retain the brief, scope and live stop decisions. Record changed
@@ -115,9 +154,12 @@ not another raw-idea ranking. Check the literal selected source column and
 unit before comparing meanings; preserve an incorrect peer report with an
 explicit correction rather than silently repairing its history.
 
-Before data work, state an alternative model that could produce the proposed
-positive result without the target meaning. If both stated meanings permit the
-same outcome, revise the discriminator before requesting more data or compute.
+Before a fixed selection or scoring test, state an alternative model that could
+produce the proposed positive result without the target meaning. If the tested
+consequences cannot separate them, the test cannot choose a meaning; change or
+defer that test before more data/compute. This is not an independent-binding
+prerequisite for the exploratory reading phase defined above. Existing stop
+decisions and access rules remain in force in every phase.
 A source-case audit, a direct scoped assessment and an independent semantic
 binding are three different things. See the [four-hour audit](decisions/semantic_4h_completion.md)
 for concrete failures that motivated these operating rules.
@@ -151,6 +193,12 @@ SQLite full-text index reads metadata locally and returns only the selected
 cards. Canonical files retain full imported events and evidence locators;
 display truncation is labelled. Search is lexical, with a small documented
 German/English navigation vocabulary. A low score or no hit proves no novelty.
+In a bounded six-query check, five German topic words returned no records despite
+existing primary work. Use the [topic fallback table](../docs/VOYNICH_CLAIM_STATUS_MAP.md#suchhilfe)
+when a natural-language query is empty or misses a known family, then an exact
+ID and primary report. These are tested navigation fallbacks, not a new search
+algorithm or a claim of complete retrieval. New live Markdown is not automatically
+searched as full report text by the metadata index.
 
 `--blocker` selects assessed classifications. `--signal` selects explicit
 historical wording, **not** an adjudicated failure. `--scope semantic` excludes

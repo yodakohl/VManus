@@ -1,0 +1,97 @@
+{
+  "baseline_commit": "35595468d256ec8b21dac159e47e0d5d5121be31",
+  "scope": "six purposive metadata queries and five exact-ID fallbacks; not a general search benchmark",
+  "queries": [
+    {
+      "query": "Wortzusammensetzung",
+      "matched": 0,
+      "top_ids": []
+    },
+    {
+      "query": "keedy",
+      "matched": 5,
+      "top_ids": [
+        "GDT787",
+        "HIST:1f744120ff7fa5f3",
+        "HIST:1d0fee7b1086d50a",
+        "IDEA000167",
+        "IDEA000164"
+      ]
+    },
+    {
+      "query": "Blattausschluss",
+      "matched": 0,
+      "top_ids": []
+    },
+    {
+      "query": "Generationen",
+      "matched": 0,
+      "top_ids": []
+    },
+    {
+      "query": "Rezeptlesung",
+      "matched": 0,
+      "top_ids": []
+    },
+    {
+      "query": "Chiffrierzustand",
+      "matched": 0,
+      "top_ids": []
+    }
+  ],
+  "exact_id_fallbacks": [
+    {
+      "id": "GDT608",
+      "command": "./vmanus-work lookup GDT608",
+      "primary_report": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md"
+    },
+    {
+      "id": "GDT858",
+      "command": "./vmanus-work lookup GDT858",
+      "primary_report": "experiments/yolo/gdt858_folio_holdout_unit_audit/REPORT.md"
+    },
+    {
+      "id": "GDT865",
+      "command": "./vmanus-work lookup GDT865",
+      "primary_report": "experiments/yolo/gdt865_whole_leaf_primary_robustness/REPORT.md"
+    },
+    {
+      "id": "IDEA000195",
+      "command": "./vmanus-work ideas show IDEA000195",
+      "verdict": "refuted_specific_model"
+    },
+    {
+      "id": "IDEA000237",
+      "command": "./vmanus-work ideas show IDEA000237",
+      "verdict": "not_tested"
+    }
+  ],
+  "preserved_source_sha256": {
+    "docs/WORKFLOW.md": "8b7d424e83642a22442cd0133ec410ba22a4c4bf8a7f611efc61d4f1bcf9bb34",
+    "tools/research_registry.py": "330e9e4e66d0d70a2e4bde42c887050f08d483fc97f3e4f745a7dd106699fbb0",
+    "research_registry/curation.jsonl": "cf3340d953820e57c5862d4c4ecfd86166e3a1a72b6a929a018241ce06ac5129",
+    "research_registry/proposals/translation_programs_20260912/work/P02/REPORT.md": "9c73f438720d0a43a9feb03d8b1040eba2b970858e046ac3ea39fff650aaba9f",
+    "research_registry/proposals/translation_programs_20260912/work/W83/REPORT.md": "919d9b283f3255e0af816b8c2e6a44b6014a244b298545a338f608708ee60b24",
+    "research_registry/proposals/translation_programs_20260912/work/W97/DECISION.md": "65c54139cf2fdf1b33786872f6411364ee717ad5fc879ac194aac8b905a7b22f",
+    "research_registry/proposals/translation_programs_20260912/work/W97/REPORT.md": "b2c77f80fcfef15c2e5d13440063cd127bf88300b394e0ab6f1fdd5162b5fd39",
+    "research_registry/proposals/translation_programs_20260912/work/TEMPORAL_SELECTION/REPORT.md": "a79aedd610b73dc7c5404e9c399f5724f7113fe8b4f1521bc3f9c03343250609",
+    "research_registry/decisions/semantic_4h_completion.md": "359f0208741c7fc1e9dfe0544d4b105f3e9e1edab44b4ac8c6c66111ae13b237"
+  },
+  "manuscript_access": false,
+  "search_engine_changed": false,
+  "validation": {
+    "status": "PASS",
+    "local_links_checked": 76,
+    "preserved_sources": 9,
+    "prior_audits_unchanged": true,
+    "route_bytes": 4915,
+    "route_lines": 60,
+    "registry": {
+      "status": "PASS",
+      "errors": [],
+      "records": 5748,
+      "coverage": "schema, identities, relation consistency, source/review freshness; not semantic truth"
+    },
+    "scientific_revalidation": false
+  }
+}

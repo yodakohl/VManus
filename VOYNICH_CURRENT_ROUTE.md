@@ -3,10 +3,11 @@ Updated: 2026-09-14. Read first; replace this snapshot, do not append history.
 
 ## Current task and scientific position
 
-The user requested further documentation repair before research. The bounded
-[followup audit](research_registry/decisions/documentation_audit_followup_20260914/REPORT.md)
-adds [12 topic/status mappings](docs/VOYNICH_CLAIM_STATUS_MAP.md) to the initial
-entry repair; it produces no new manuscript result. No new
+The user requested remaining memory gaps and better working practice. The
+[workflow review](research_registry/decisions/workflow_review_20260914.md) adds
+topic fallbacks for empty searches and clarifies exploratory reading versus
+fixed testing in the [live guide](research_registry/README.md). The existing
+[12 topic/status mappings](docs/VOYNICH_CLAIM_STATUS_MAP.md) remain in force. No new
 experiment is selected. No word, language or overall reading is confirmed.
 
 Before scientific selection, read [the research brief](docs/VOYNICH_RESEARCH_BRIEF.md).

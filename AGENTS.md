@@ -8,7 +8,8 @@ relevant linked primary evidence. Search hits alone do not supply the known
 structural baseline or current stop decisions. For historical glosses, pattern
 families, controls or image claims,
 use the relevant row of `docs/VOYNICH_CLAIM_STATUS_MAP.md` before its primary
-report. An unreviewed import is not an unexecuted experiment; a later diagnostic
+report; empty natural-language search results require the map's topic fallback,
+not a claim of absent research. An unreviewed import is not an unexecuted experiment; a later diagnostic
 PASS does not supersede the original registered decision. Never dump the JSONL
 registry or full history into context. The current-route file is the compact authoritative
 routing snapshot. `VOYNICH_ACTIVE_STATE.md` and
@@ -83,6 +84,12 @@ outside hash-bound legacy tools so past experiments remain reproducible.
   chain of decoder repairs or new control corpora. Preserve scientific gates.
   Separate manuscript findings, control findings, and engineering work in updates;
   do not present a known failure mode or test count as new decipherment progress.
+- Apply the live guide's distinction between exploratory reading, fixed testing
+  and reserved confirmation. Unconfirmed meanings may support explicit working
+  hypotheses; they do not permit retrospective repairs or premature reserve use.
+  Check retained known counterexamples before substantial implementation, and
+  keep an assumption/dependency list inside the active proposal. Do not repeat
+  an unchanged missing-input audit or add another global tracking system.
 - Before proposing a new route, use `./vmanus-exp route-check QUERY` as a fast
   duplicate screen, then inspect only the returned primary reports and closed
   family rows. Its lexical ranking is navigation help, not a scientific gate.
