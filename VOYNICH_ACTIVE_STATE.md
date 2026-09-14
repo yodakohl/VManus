@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W75: all6argument forms468readinghits,25contacts12paras;f44 qotchy otchy lacks preceding harm,otchy harm/corrective role obligation. W74E/Cnotcomplete;no meaning. Primary: research_registry/proposals/translation_programs_20260912/work/W75/REPORT.md
+
+
 W74: P09 catalog Erecipient/Ccondition,2full145group drafts;4harm2correction each,6singleton unknown arguments and2unlinked efficacy sites. No semantic winner,remedy efficacy or reserve access. Primary: research_registry/proposals/translation_programs_20260912/work/W74/REPORT.md
 
 
