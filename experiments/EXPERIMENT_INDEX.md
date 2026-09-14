@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **934**
-- Experiment-associated tracked files: **17,766** (1.6 GiB)
-- Structured GDT337+ experiments: **599**
+- Experiments indexed: **935**
+- Experiment-associated tracked files: **17,789** (1.6 GiB)
+- Structured GDT337+ experiments: **600**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT936 | GDT936_CLAUSE_CONDITION_MOTION_STATE | `TWO_FULL_CONDITIONAL_CLAUSE_DRAFTS_UNSELECTED` | [report](../experiments/yolo/gdt936_clause_condition_motion_state/REPORT.md) | 23 | 823.7 KiB | 6 | STRUCTURED_YOLO |
 | GDT935 | GDT935_TAIL_SPATIAL_TEMPORAL_CONTENT | `TWO_FULL_LINE_TAIL_DRAFTS_UNSELECTED` | [report](../experiments/yolo/gdt935_tail_spatial_temporal_content/REPORT.md) | 23 | 630.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT934 | GDT934_BRIDGE_CONTENT_JOINT_READINGS | `THREE_EXPOSED_BRIDGE_CONTENT_HYPOTHESES_UNSELECTED` | [report](../experiments/yolo/gdt934_bridge_content_joint_readings/REPORT.md) | 22 | 850.6 KiB | 6 | STRUCTURED_YOLO |
 | GDT933 | GDT933_PARAGRAPH_PARTICIPANT_REFERENCE_CONTRAST | `CONDITIONAL_PARAGRAPH_REFERENCE_DRAFTS_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt933_paragraph_participant_reference_contrast/REPORT.md) | 19 | 440.7 KiB | 4 | STRUCTURED_YOLO |

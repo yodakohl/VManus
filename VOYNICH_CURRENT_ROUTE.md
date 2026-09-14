@@ -4,11 +4,11 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT935 executed full .26 tail readings with fixed R/T and three new word hypotheses.
-Latest decision: R goal and T later-flow remain unselected; slow rate unbound; RF26 only4of6 groups.
-Working files: experiments/yolo/gdt935_tail_spatial_temporal_content/REPORT.md
-Assumptions: M/R/T preserved; chedy/lchedy there/toward-there versus afterwards/later; Q/V open.
-Resume: Read whole .37 teeolain chey qoteedy qokain cheedy cheey lchedy; direction versus later state.
+Task: GDT936 executed whole .37 conditional motion/rest clauses with four fixed new word hypotheses.
+Latest decision: R/T open; if-warm is a condition, not an actual state; RF37 only5of7 groups.
+Working files: experiments/yolo/gdt936_clause_condition_motion_state/REPORT.md
+Assumptions: M/R/T preserved; mixture/if/material anaphor and motion/rest conjectural; Q/V open.
+Resume: Read whole .18–20: two cheedy, line-final chey and following flow/copula; no generic scope repair.
 Running: none; 3 separate raw producer proposals stored.
 
 ## Structural baseline

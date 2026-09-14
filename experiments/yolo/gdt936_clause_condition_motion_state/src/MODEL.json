@@ -1,0 +1,87 @@
+{
+  "phase": "DISCOVERY_SELECTED_AFTER_FULL_CONCORDANCE_BEFORE_RENDER",
+  "source": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+  "base_model": "experiments/yolo/gdt932_joint_flow_participant_reading/src/MODEL.json",
+  "prior_extensions": [
+    "experiments/yolo/gdt934_bridge_content_joint_readings/src/MODEL.json",
+    "experiments/yolo/gdt935_tail_spatial_temporal_content/src/MODEL.json"
+  ],
+  "frames": "experiments/yolo/gdt930_label_text_joint_reading/src/MODEL.json",
+  "targets": [
+    "teeolain",
+    "chey",
+    "cheedy",
+    "cheey"
+  ],
+  "new_forms": [
+    "teeolain",
+    "chey",
+    "cheedy",
+    "cheey"
+  ],
+  "models": {
+    "R": {
+      "title": "Bedingung und gerichtete Bewegung",
+      "lexicon": {
+        "teeolain": [
+          "Gemisch",
+          "MATERIAL"
+        ],
+        "chey": [
+          "wenn",
+          "CONDITION"
+        ],
+        "cheedy": [
+          "bewegt sich",
+          "MOTION"
+        ],
+        "cheey": [
+          "dieser Stoff",
+          "MATERIAL_ANAPHOR"
+        ]
+      },
+      "line37": "Wenn das Gemisch warm ist, bewegt sich dieser Stoff dorthin.",
+      "local_syntax": "The initial teeolain supplies the subject of chey qoteedy qokain. cheey resumes that same hypothetical material in the consequent cheedy cheey lchedy. The source subject precedes the condition marker; German moves it inside the if-clause. No additional finite verb or then word is inserted. lchedy keeps goal direction; destination identity remains open.",
+      "obligations": [
+        "A condition is not an assertion that the mixture is warm or that motion actually occurs.",
+        "The newly chosen motion meaning fills the previous goal requirement by construction; this is not independent evidence for lchedy=dorthin.",
+        "Every cheedy keeps motion, not rest or generic becomes; all cheey keep a material anaphor with unresolved reference unless explicitly bound.",
+        "Gemisch does not identify ingredients, a preparation recipe or the same portion as earlier shedy."
+      ]
+    },
+    "T": {
+      "title": "Bedingung und späterer Ruhezustand",
+      "lexicon": {
+        "teeolain": [
+          "Gemisch",
+          "MATERIAL"
+        ],
+        "chey": [
+          "wenn",
+          "CONDITION"
+        ],
+        "cheedy": [
+          "ruht",
+          "REST_STATE"
+        ],
+        "cheey": [
+          "dieser Stoff",
+          "MATERIAL_ANAPHOR"
+        ]
+      },
+      "line37": "Wenn das Gemisch warm ist, ruht dieser Stoff später.",
+      "local_syntax": "Same subject and conditional grouping as R; cheey resumes teeolain in the consequent. lchedy remains later; the comparison time/event is not identified at37. This does not change the separate fixed26 later-than-drainage reading.",
+      "obligations": [
+        "Neither warmth nor rest is asserted as an observed event; both belong to a hypothetical conditional statement.",
+        "Every cheedy retains a resting state, never covert motion at source/goal expressions.",
+        "Every cheey retains material anaphora; no globally automatic prior participant chosen.",
+        "State/effect versus motion is bundled with inherited lchedy meanings; no independent single-word ranking."
+      ]
+    }
+  },
+  "syntax_scope": "One explicit complete parse at37. Other chey occurrences require full condition/consequence content; no generic lookahead/negation/carry parser is fitted. Raw physical line ends do not close a condition automatically.",
+  "selection_basis": "All45 target occurrences including whole lines and explicit continuations77r20,29v3-4 were read before model selection. Gemisch, wenn, motion/rest and material anaphora are concrete exploratory choices; no primary report identifies these senses. No old check/negation/dry/result gloss used as truth.",
+  "family_debt": "chey/cheey/cheedy are related-looking whole forms but their four roles have no demonstrated component mapping. GDT929/W56 cheey/sheey coexistence and GDT739 downgraded result defaults remain constraints, not meaning evidence. No free e/dy export.",
+  "retained_rivals": "Q and V remain open; unextended old models and experiments unchanged.",
+  "meaning_confirmed": false
+}
