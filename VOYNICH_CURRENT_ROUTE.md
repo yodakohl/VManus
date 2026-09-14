@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT940 whole14group f111v18 second-vessel draft and exhaustive nominal transfer.
-Latest decision: Reject new10-word/3-construction package; C84/W78 contract conflicts, not individual word refutations.
-Working files: experiments/yolo/gdt940_second_vessel_whole_line_trial/REPORT.md
-Assumptions: GDT93933-word hypotheses unchanged; GDT94010values parked. IT14/14,ZL/RF11/14; no word selected.
-Resume: Review whole existing f115v paragraph around38 against111v18 o l r; IT115v has olr. No boundary recount or assumed vessel meaning; no automatic19 gloss expansion.
-Running: none; producer added3 RAW_UNSCREENED ideas268–270.
+Task: GDT941 whole115v37-40 and explicit lkchey ratio/comparison trial.
+Latest decision: Only115v39 binds LK numeric pair;24markers/9loci give no transfer. Four models unselected.
+Working files: experiments/yolo/gdt941_explicit_lkchey_comparison_context/REPORT.md
+Assumptions: GDT93933words unchanged; GDT94010values parked. Second olr paragraph has only old copula; no content or numeral selected.
+Resume: IDEA274 list-total versus dose after o l r aiiin is raw only; check written binding/primaries before selection. No count-match-only trial, prefix expansion or repeated LK test.
+Running: none; producer added3 RAW_UNSCREENED ideas271–273; root274 untested.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
