@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+W74: P09 catalog Erecipient/Ccondition,2full145group drafts;4harm2correction each,6singleton unknown arguments and2unlinked efficacy sites. No semantic winner,remedy efficacy or reserve access. Primary: research_registry/proposals/translation_programs_20260912/work/W74/REPORT.md
+
+
 W73: fixed J/M shared-right transfer16cases allblocked byopenotey/chedy;no newpatient. W68–73heatbranch remains hypothetical,not promoted;return to different whole-reading program selection. Primary: research_registry/proposals/translation_programs_20260912/work/W73/REPORT.md
 
 
