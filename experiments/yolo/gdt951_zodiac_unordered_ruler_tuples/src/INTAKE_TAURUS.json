@@ -1,0 +1,44 @@
+{
+  "phase": "taurus",
+  "command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "--selector",
+    "page",
+    "--allow",
+    "f71v",
+    "--allow",
+    "f72r1",
+    "--columns",
+    "source_group_id,edition,locus,page,kind,source_group_index,source_group_count,left_separator,right_separator,ivtff_group_raw",
+    "--forbid-prefix",
+    "f84",
+    "--forbid-prefix",
+    "f84r"
+  ],
+  "guard": {
+    "selected": 611,
+    "skipped_forbidden": 2122,
+    "skipped_not_allowed": 112737
+  },
+  "selected_label_groups": 133,
+  "label_locus_counts": {
+    "ZL3b": {
+      "f71v": 15,
+      "f72r1": 15
+    },
+    "IT2a": {
+      "f71v": 15,
+      "f72r1": 15
+    },
+    "RF1b": {
+      "f71v": 15,
+      "f72r1": 15
+    }
+  },
+  "projection_sha256": "66e9d0da7749b5eba0c6b488a39f4da8559fdba384a09821b672416a77b11024",
+  "prior_project_exposure": true,
+  "new_image_access": false,
+  "reserves_accessed": false
+}

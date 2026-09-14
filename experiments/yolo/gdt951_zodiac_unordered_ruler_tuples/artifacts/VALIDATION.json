@@ -1,0 +1,60 @@
+{
+  "schema": "GDT951_VALIDATION_V1",
+  "status": "PASS",
+  "phase": "final",
+  "lock": {
+    "files_checked": 13,
+    "lock_sha256": "5876520afe9f69c2d0f14171c3a6ef321f101cf7bcd183c396c866a60c66f403"
+  },
+  "fixture_checks": {
+    "matching": true,
+    "forced_edges": true,
+    "hall": true,
+    "unknown_capacity": true
+  },
+  "adversarial_matching_check": {
+    "graphs_checked": 512,
+    "hall_certificates_checked": 265,
+    "status": "PASS"
+  },
+  "source_reconstruction": {
+    "rows": 360,
+    "degrees_per_sign": 30,
+    "signs": 12
+  },
+  "historical_degrees": {
+    "rows": 360,
+    "signs": 12
+  },
+  "historical_rules": {
+    "schema": "MONOMOIRIA_SOURCE_EVIDENCE_V1",
+    "explicit_rows": 0
+  },
+  "source_predictions": {
+    "models": {
+      "T3": 189,
+      "T4": 272
+    }
+  },
+  "input_inscriptions": {
+    "discovery": 180,
+    "additional": 630,
+    "taurus": 90
+  },
+  "package": {
+    "results": 24,
+    "forced_supported_edges": 0,
+    "hall_certificates_checked": 24,
+    "contradicted_results": 24
+  },
+  "exact_feasibility_audit": {
+    "matching_condition_checked": "injective definite-label-type to source-tuple matching",
+    "per_sign_capacity_checked": true,
+    "unknown_leftover_accounting_checked": true,
+    "hall_certificates_all_checked": true,
+    "no_significance_or_null_search": true
+  },
+  "target_access": "already_guarded_INPUT_JSON_only",
+  "significance_or_null": false,
+  "semantic_meaning": false
+}

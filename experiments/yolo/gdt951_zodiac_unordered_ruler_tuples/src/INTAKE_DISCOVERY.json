@@ -1,0 +1,49 @@
+{
+  "phase": "discovery",
+  "command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "--selector",
+    "page",
+    "--allow",
+    "f70v2",
+    "--allow",
+    "f70v1",
+    "--allow",
+    "f71r",
+    "--columns",
+    "source_group_id,edition,locus,page,kind,source_group_index,source_group_count,left_separator,right_separator,ivtff_group_raw",
+    "--forbid-prefix",
+    "f84",
+    "--forbid-prefix",
+    "f84r"
+  ],
+  "guard": {
+    "selected": 923,
+    "skipped_forbidden": 2122,
+    "skipped_not_allowed": 112425
+  },
+  "selected_label_groups": 236,
+  "label_locus_counts": {
+    "ZL3b": {
+      "f70v2": 30,
+      "f70v1": 15,
+      "f71r": 15
+    },
+    "IT2a": {
+      "f70v2": 30,
+      "f70v1": 15,
+      "f71r": 15
+    },
+    "RF1b": {
+      "f70v2": 30,
+      "f70v1": 15,
+      "f71r": 15
+    }
+  },
+  "projection_sha256": "c5dc43da59aa8f68aae960278386be9ef3cca60f314f8fb81b562ccaa785ceaa",
+  "prior_project_exposure": true,
+  "new_image_access": false,
+  "reserves_accessed": false
+}

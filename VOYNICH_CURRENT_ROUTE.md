@@ -5,12 +5,12 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT950 closes fixed weather phase/result model: ZL/IT contradicted, RF unselected.
-Next: execute GDT951 complete zodiac ruler-tuple census; source predictions locked before target intake.
+Latest decision: GDT951 closes both exact zodiac ruler-tuple models; all24 reading/scope results contradicted.
+Next: select another source-backed content model; no tuple/decoder repair.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT951 locked 23:20:42 UTC; T3=189/T4=272 tuple types. Discovery f70/f71, additional f72/f73; Taurus final only. No target read yet.
-Running: root active research; bounded idea producer to replenish proposals. Seven hours not yet elapsed.
+Resume: GDT951 validated,24Hall certificates; prior findings retained. No first word.
+Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

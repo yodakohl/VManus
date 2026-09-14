@@ -1,0 +1,69 @@
+{
+  "phase": "additional",
+  "command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "--selector",
+    "page",
+    "--allow",
+    "f72r2",
+    "--allow",
+    "f72r3",
+    "--allow",
+    "f72v3",
+    "--allow",
+    "f72v2",
+    "--allow",
+    "f72v1",
+    "--allow",
+    "f73r",
+    "--allow",
+    "f73v",
+    "--columns",
+    "source_group_id,edition,locus,page,kind,source_group_index,source_group_count,left_separator,right_separator,ivtff_group_raw",
+    "--forbid-prefix",
+    "f84",
+    "--forbid-prefix",
+    "f84r"
+  ],
+  "guard": {
+    "selected": 2380,
+    "skipped_forbidden": 2122,
+    "skipped_not_allowed": 110968
+  },
+  "selected_label_groups": 691,
+  "label_locus_counts": {
+    "ZL3b": {
+      "f72r2": 29,
+      "f72r3": 30,
+      "f72v3": 30,
+      "f72v2": 30,
+      "f72v1": 30,
+      "f73r": 30,
+      "f73v": 30
+    },
+    "IT2a": {
+      "f72r2": 29,
+      "f72r3": 30,
+      "f72v3": 30,
+      "f72v2": 30,
+      "f72v1": 30,
+      "f73r": 30,
+      "f73v": 30
+    },
+    "RF1b": {
+      "f72r2": 29,
+      "f72r3": 30,
+      "f72v3": 30,
+      "f72v2": 30,
+      "f72v1": 30,
+      "f73r": 30,
+      "f73v": 30
+    }
+  },
+  "projection_sha256": "9b1b96e340833974e8a00037893972a6a957255c82446ef102b96534e7ee265d",
+  "prior_project_exposure": true,
+  "new_image_access": false,
+  "reserves_accessed": false
+}

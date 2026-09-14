@@ -56,3 +56,8 @@ report scientific progress separately from technical work and known failures.
   189 T3/272 T4 tuples. Source-only independent validator passes. No951target
   intake yet. Historical Leo29/30 source discrepancy corrected before freeze;
   original producer evidence preserved with separate erratum.
+
+- 23:27 UTC: GDT951 executed after public prereg951063d71. Bothmodels
+  contradict all24reading/scope cases;discovery0survivors;additional2leaves
+  also contradict. Full independent validation PASS;all299labels+1unknown per
+  reading retained. No meaning selected. Result publication follows.

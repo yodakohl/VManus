@@ -304,6 +304,38 @@ def fixtures():
     return {"matching": True, "forced_edges": True, "hall": True, "unknown_capacity": True}
 
 
+def exhaustive_matcher_check():
+    """Cross-check the independent matcher on every 3x3 graph."""
+    def brute(graph):
+        left = list(graph)
+        best = 0
+        def visit(i, used, size):
+            nonlocal best
+            if i == len(left):
+                best = max(best, size)
+                return
+            visit(i + 1, used, size)
+            for v in graph[left[i]]:
+                if v not in used:
+                    visit(i + 1, used | {v}, size + 1)
+        visit(0, set(), 0)
+        return best
+    checked = hall_checked = 0
+    for bits in range(1 << 9):
+        graph = {f"u{i}": [f"v{j}" for j in range(3) if bits & (1 << (3 * i + j))]
+                 for i in range(3)}
+        matching = hopcroft_karp(graph)
+        optimum = brute(graph)
+        assert len(matching) == optimum
+        if optimum < 3:
+            certificate = hall(graph, matching)
+            assert certificate["deficiency"] == (len(certificate["label_ids"]) -
+                                                  len(certificate["tuple_ids"]))
+            hall_checked += 1
+        checked += 1
+    return {"graphs_checked": checked, "hall_certificates_checked": hall_checked, "status": "PASS"}
+
+
 def evaluation(model, edition, scope, signs, records, tuples):
     selected = [r for r in records if r["edition"] == edition and r["sign"] in signs]
     counts, unknown, loci = {s: Counter() for s in signs}, Counter(), defaultdict(list)
@@ -381,9 +413,12 @@ def check_package(phase, spec, records, tuples):
                                            [canon_sign(s) for s in spec["scopes"][scope]], records, tuples[model]))
     actual = package.get("results")
     assert isinstance(actual, list) and len(actual) == len(expected)
-    forced = 0
+    forced, hall_checked, contradicted = 0, 0, 0
     for a, e in zip(actual, expected):
         check_result(a, e)
+        if not e["feasible"]:
+            hall_checked += 1
+            contradicted += (a.get("status") == "CONTRADICTED")
         if e["scope"] == "DISCOVERY":
             forced += forced_support(a, e)
             if e["feasible"]:
@@ -400,7 +435,9 @@ def check_package(phase, spec, records, tuples):
                         got_counts = {canon_sign(s): int(v) for s, v in x["counts"].items()}
                         add_signs = [canon_sign(s) for s in spec["scopes"]["ADDITIONAL"]]
                         assert got_counts == {s: expected_tuple["counts"][s] for s in add_signs}
-    return {"results": len(actual), "forced_supported_edges": forced}
+    return {"results": len(actual), "forced_supported_edges": forced,
+            "hall_certificates_checked": hall_checked,
+            "contradicted_results": contradicted}
 
 
 def main():
@@ -408,7 +445,7 @@ def main():
     ap.add_argument("--phase", choices=("discovery", "final"), default=None)
     ap.add_argument("--source-only", action="store_true")
     args = ap.parse_args(); phase = args.phase
-    fixture = fixtures(); lock = check_lock(); spec = load(SRC / "SPEC.json")
+    fixture = fixtures(); exhaustive = exhaustive_matcher_check(); lock = check_lock(); spec = load(SRC / "SPEC.json")
     evidence = load(SESSION / "MONOMOIRIA_SOURCE_EVIDENCE.json")
     selected_rules = load(SRC / "HISTORICAL_RULES.json")
     rows = source_rows(evidence, spec, selected_rules)
@@ -418,6 +455,7 @@ def main():
     if args.source_only:
         report = {"schema": "GDT951_VALIDATION_V1", "status": "PASS_SOURCE_ONLY",
                   "lock": lock, "fixture_checks": fixture,
+                  "adversarial_matching_check": exhaustive,
                   "source_reconstruction": {"rows": len(rows), "degrees_per_sign": 30, "signs": 12},
                   "historical_degrees": degree, "historical_rules": rules,
                   "source_predictions": {"models": {m: len(v) for m, v in pred.items()}},
@@ -433,10 +471,18 @@ def main():
         got = inscriptions(load(inp), spec, p); records.extend(got); input_counts[p] = len(got)
     package = check_package(phase, spec, records, pred)
     report = {"schema": "GDT951_VALIDATION_V1", "status": "PASS", "phase": phase, "lock": lock,
-              "fixture_checks": fixture, "source_reconstruction": {"rows": len(rows), "degrees_per_sign": 30, "signs": 12},
+              "fixture_checks": fixture, "adversarial_matching_check": exhaustive,
+              "source_reconstruction": {"rows": len(rows), "degrees_per_sign": 30, "signs": 12},
               "historical_degrees": degree, "historical_rules": rules,
               "source_predictions": {"models": {m: len(v) for m, v in pred.items()}},
               "input_inscriptions": input_counts, "package": package,
+              "exact_feasibility_audit": {
+                  "matching_condition_checked": "injective definite-label-type to source-tuple matching",
+                  "per_sign_capacity_checked": True,
+                  "unknown_leftover_accounting_checked": True,
+                  "hall_certificates_all_checked": package["hall_certificates_checked"] == package["results"],
+                  "no_significance_or_null_search": True,
+              },
               "target_access": "already_guarded_INPUT_JSON_only", "significance_or_null": False,
               "semantic_meaning": False}
     (ART / "VALIDATION.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
