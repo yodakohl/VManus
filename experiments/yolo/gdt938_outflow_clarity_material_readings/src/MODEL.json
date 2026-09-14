@@ -1,0 +1,89 @@
+{
+  "source": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+  "base_model": "experiments/yolo/gdt932_joint_flow_participant_reading/src/MODEL.json",
+  "extensions": [
+    "experiments/yolo/gdt934_bridge_content_joint_readings/src/MODEL.json",
+    "experiments/yolo/gdt935_tail_spatial_temporal_content/src/MODEL.json",
+    "experiments/yolo/gdt936_clause_condition_motion_state/src/MODEL.json"
+  ],
+  "inventory_spec": "experiments/yolo/gdt929_fixed_four_form_context_square/src/SPEC.json",
+  "paragraph_source": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "frames": "experiments/yolo/gdt930_label_text_joint_reading/src/MODEL.json",
+  "prior_alignment": "experiments/yolo/gdt936_clause_condition_motion_state/artifacts/ALIGNMENT.tsv",
+  "targets": [
+    "qoteey",
+    "sheey",
+    "dalchedy"
+  ],
+  "base_models": [
+    "R",
+    "T"
+  ],
+  "content_models": {
+    "C": {
+      "lexicon": {
+        "qoteey": [
+          "Ausfluss",
+          "MATERIAL_RESULT"
+        ],
+        "sheey": [
+          "klar",
+          "OPTICAL_QUALITY"
+        ],
+        "dalchedy": [
+          "unvermischt",
+          "COMPOSITION_STATE"
+        ]
+      },
+      "sentence": "Der Ausfluss aus der Mündung ist klar, unvermischt.",
+      "consequences": {
+        "optically_clear": true,
+        "water_identity": null,
+        "unmixed": true
+      }
+    },
+    "W": {
+      "lexicon": {
+        "qoteey": [
+          "Ausfluss",
+          "MATERIAL_RESULT"
+        ],
+        "sheey": [
+          "Wasser",
+          "MATERIAL_CLASS"
+        ],
+        "dalchedy": [
+          "unvermischt",
+          "COMPOSITION_STATE"
+        ]
+      },
+      "sentence": "Der Ausfluss ist unvermischtes Wasser aus der Mündung.",
+      "consequences": {
+        "optically_clear": null,
+        "water_identity": true,
+        "unmixed": true
+      }
+    }
+  },
+  "local_block": [
+    "qoteey",
+    "qokain",
+    "sheey",
+    "qotedy",
+    "dalchedy"
+  ],
+  "local_locus": "f77r.20",
+  "local_group_indices": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "subject_binding": "Only within whole B: predicate, origin and unmixed refer to qoteey material-result; no global carry or individual outlet identity.",
+  "scope": "Retain both F and P from GDT937; conditional under F, outside that specific condition under P. No factual assertions.",
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}

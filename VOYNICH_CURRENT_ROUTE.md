@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT937 fixed R/T condition transfer on whole f77r.18–20.
-Latest decision: F conditions B copula; P all3 K flows. Both lack readable A/B/K content; no selection.
-Working files: experiments/yolo/gdt937_fixed_condition_direction_transfer/REPORT.md
-Assumptions: 21-word values fixed; local A/B boundary conjectural; no factual events inferred.
-Resume: Read whole B qoteey qokain sheey qotedy dalchedy jointly; check predecessors, preserve all occurrences. No more generic scope filters.
-Running: none; producer added3 RAW_UNSCREENED ideas259–261.
+Task: GDT938 whole B drafts: clear outflow or unmixed water; all500 targets retained.
+Latest decision: C/W unselected; f111v17 Rohr/sheey/ist is a conditional vessel/water collision, not proven syntax.
+Working files: experiments/yolo/gdt938_outflow_clarity_material_readings/REPORT.md
+Assumptions: 24-word hypotheses; shared pipe/unmixed and double-ist debts; R/T/F/P open.
+Resume: Read whole f111v17 with existing25line context; need content, not recounting collision or a scope parser.
+Running: none; producer added3 RAW_UNSCREENED ideas262–264.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
