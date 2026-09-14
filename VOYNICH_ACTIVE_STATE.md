@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W86:full f53 ending gains10hypothesis positions each reading,23/24open. qodal Nportion/Lmeasureleft/Rmeasureright all20hits7loci;L5bound15unknown,R2bound15unknown3wrong;no winner. 80combinedhits42paras. Next ychocthy qodal shodaiin whole-line interpretation, retain preceding context. Primary: research_registry/proposals/translation_programs_20260912/work/W86/REPORT.md
+
 W85:complete f15r/f53v comparison4paras334groups45events; common opening only. cthy5vs1, operations2vs0; f53 last7lines wholly unknown; max carry24/26groups. No full shared reading. Next primary-check shodaiin/qodal and whole f53v7-13, no more placeholder-only repair. Primary: research_registry/proposals/translation_programs_20260912/work/W85/REPORT.md
 
 W84:14exacthits3loci116paras; tshor shey recurs f15r/f53v ZLIT, RF f53 tshorshey fused; tshor medial f95v1. Eight explicit-head drafts118changedbindings; tshor binds opening but no identity; tchaly/chtols single locus. Next joint complete f15r/f53v entry through cthy. Primary: research_registry/proposals/translation_programs_20260912/work/W84/REPORT.md
