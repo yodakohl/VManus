@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W90 USER-REQUESTED NATIVE f88r FEASIBILITY:13provisional botanical regions+3vessels,9manual comparisons; no supported same-base single-feature pair/replicated owned contrast identified. STOP before meaning test; original pair suggestion unsupported. PHF001/PLC001 not reopened. W89 recipe expansion remains suspended; no next experiment selected. Primary: research_registry/proposals/translation_programs_20260912/work/W90/REPORT.md
+
 W89 USER-REQUESTED FROZEN AUDIT:140paras8600groups106claimpairs. R5known-roleconflicts/10complete;D43missingsubjects. No independent semantic discriminator established. RECIPE SEMANTIC EXPANSION SUSPENDED; D not promoted; W88 cheor follow-on cancelled. Existing local mixing sentence remains unconfirmed. No next experiment selected; new concrete discriminating relation required, no placeholder repair. Primary: research_registry/proposals/translation_programs_20260912/work/W89/REPORT.md
 
 W88:61chotey/teey/teeys hits22loci36paras2745groups. Additional sheey teey f29r all3 permits hypothetical treatment, not material identity. chotey2otherloci unresolved;teeys onlymotivating. W87 mix transfer remains open. Next full f29r with primary cheor check, no forced nouns. Primary: research_registry/proposals/translation_programs_20260912/work/W88/REPORT.md
