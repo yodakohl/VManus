@@ -1,0 +1,66 @@
+{
+  "status": "REVIEWED_NO_EXECUTABLE_CONTRAST",
+  "summary": "IDEA000052, IDEA000096, and IDEA000099 remain untested and unselected. GDT769 already covers the relevant role/transition screens; GDT944 supplies the only bounded input/output wording case. No fixed observable discriminator survives within the exposed f77r/f80v/f85r1 packet.",
+  "root_review_corrections": "GDT944 has three reader cases total: two ZL/IT product bindings and one RF unread product group. No continuation reader default is made live here. Exploratory joint meanings remain permitted without a confirmed anchor; independent repeated bindings are required only for a confirmation or strict contract, not as a prerequisite for hypothesis drafting. The audit therefore states a missing fixed discriminator, without claiming identity is globally absent.",
+  "items": [
+    {
+      "idea_id": "IDEA000052",
+      "title": "A transformation preserves material identity while changing state",
+      "status": "PREVIOUSLY_REVIEWED_NO_CHANGE",
+      "source_example": "f80v.32 has `s olkain shol kair or arolkeedy olky qolkain shedy`; f80v.33 continues `qokeedy qoker olkain olshedy ...`, with a later `olshedy` at .36.",
+      "already_tested": "GDT944 explicitly tested formed-versus-separated output (F/S) at .32 and retained the whole continuation: three reader cases total, with two ZL/IT product bindings and RF's product group unread. GDT769 also left liquid/material identity unresolved for ol/ols.",
+      "genuinely_unknown": "The bounded cases do not provide a fixed observable identity-and-state discriminator. A shared input/output conservation hypothesis remains permissible, but the later product mention has no tested identity tie in this packet.",
+      "credible_rival": "A source/content sentence or nominal/field sequence with no conserved material participant explains the same adjacency; the phrase/grammar rival remains viable.",
+      "distinct_consequence": "A conservation reading could predict an input/output identity tie under a predeclared state change, whereas the rival predicts only source/content adjacency. This batch has no fixed observable that separates those predictions.",
+      "decision": "Keep as an explicit hypothesis; do not select or call it a finding.",
+      "next_smallest_action": "Keep both joint hypotheses available for exploratory drafting; if confirmation is later considered, preregister a fixed identity-plus-state observable rather than adding an anchor prerequisite now.",
+      "primary_reports": [
+        "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md",
+        "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md"
+      ]
+    },
+    {
+      "idea_id": "IDEA000096",
+      "title": "A transformation preserves an input-output conservation relation",
+      "status": "PREVIOUSLY_REVIEWED_NO_CHANGE",
+      "source_example": "The same f80v.32-to-.36 passage supplies an assumed source `qolkain` and product `shedy`; f85r1.4 has `... doltshdy otar otchdy ols`, but no independently identified input/output pair.",
+      "already_tested": "GDT769's complete local frames include amount, state and process candidates but leave material identity unresolved. GDT944 checked the whole f80v paragraph (three reader cases total; two ZL/IT product bindings and RF unread) and found no fixed identity discriminator. W16 reports no new material-transition interaction.",
+      "genuinely_unknown": "Whether a conserved quantity or participant links a source to an output remains open; the assumed source/product sentence does not decide it, while exploratory shared meanings remain allowed.",
+      "credible_rival": "A transport/continuation or record-field account preserves ordering or state labels without asserting an input-output conservation equation.",
+      "distinct_consequence": "Conservation could predict a repeated participant/quantity relation across an operation; the rival predicts only local adjacency. No fixed observable in this bounded packet separates those predictions.",
+      "decision": "Retain as untested and unselected; no experiment or decoder work is justified.",
+      "next_smallest_action": "Keep the relation as an exploratory hypothesis; a future confirmation would need a predeclared state/quantity observable, with no requirement for a confirmed anchor during exploration.",
+      "primary_reports": [
+        "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+        "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md"
+      ]
+    },
+    {
+      "idea_id": "IDEA000099",
+      "title": "A transition marker is direction-neutral continuation rather than an endpoint verb",
+      "status": "PREVIOUSLY_REVIEWED_NO_CHANGE",
+      "source_example": "In exposed f85r1.4, `otar` occurs between `doltshdy` and `otchdy`, followed by `ols` (all RF/ZL/IT variants retain the position).",
+      "already_tested": "GDT769 tested 110 otar occurrences: four clean state bridges ran in mixed directions, including amount-to-next-value, state-to-close/result, and before an independent process. R05 continuation and nominal R01 tied; `bis` remained the identity rival.",
+      "genuinely_unknown": "The pilot occurrence has no independently decoded right-hand attained state, so it cannot separate a neutral continuation marker from an endpoint or nominal field.",
+      "credible_rival": "`bis`/endpoint wording or a preparation/record-field noun remains credible under the same geometry.",
+      "distinct_consequence": "Continuation predicts mixed left/right state directions; endpoint `bis` predicts a repeatedly right-directed attained state. GDT769's mixed-direction result already supplies the available consequence, with no new pilot discriminator.",
+      "decision": "Retain the direction-neutral continuation hypothesis as an exploratory candidate only; do not promote role or identity.",
+      "next_smallest_action": "A future fixed test would need held occurrences with an independently specified right-hand attained-state criterion; do not rerun unchanged GDT769.",
+      "primary_reports": [
+        "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+        "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md"
+      ]
+    }
+  ],
+  "evidence_paths": [
+    "research_registry/work_batches/luna_throughput_20260914/BRIEF.md",
+    "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+    "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+    "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+    "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md",
+    "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+    "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md"
+  ]
+}

@@ -4,12 +4,12 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: Luna high pipeline pilot implemented and first batch reviewed.
-Latest decision: IDEA278-280 not selected;278 lacks exact second-page support,279/280 lack a semantic discriminator. No new word.
-Working files: research_registry/work_batches/luna_pilot_20260914/REPORT.md
-Assumptions: Old50values unconfirmed; no945/946role repair. Automation: docs/LUNA_PIPELINE.md
-Resume: Next joint content/form proposal needs exact source forms and a credible grammar/phrase rival. Use Luna high; no default helper expansion.
-Running: none; bounded workers completed. No between-turn execution.
+Task: Higher-throughput Luna batch: six previous candidates reviewed, three new raw proposals, full four-form source audit.
+Latest decision: IDEA281 is the next source-specific draft candidate; no semantic test selected. Four cells on leaf80 only;282/283 held.
+Working files: research_registry/work_batches/luna_throughput_20260914/REPORT.md
+Assumptions: Old meanings unconfirmed; no945/946repair or helper expansion.
+Resume: Specify one shared content effect for olkain/qolkain/ol kain/qol kain against a formal-grammar rival; occurrence alone cannot select it.
+Running: none; all bounded Luna workers completed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -1,0 +1,96 @@
+{
+  "status": "BATCH_COMPLETE_READY_FOR_PUBLICATION",
+  "started_utc": "2026-09-14T18:22:22+00:00",
+  "ready_utc": "2026-09-14T18:35:37.772958+00:00",
+  "elapsed_to_ready_seconds": 796,
+  "budget_checkpoint_minutes": 12,
+  "budget_decision": "Stop expansion after completed review and source audit; finish validation and publication.",
+  "model_config": {
+    "worker_count": 3,
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "high",
+    "fork_turns": "none"
+  },
+  "outputs": {
+    "existing_candidate_reviews": 6,
+    "raw_proposals": 3,
+    "exact_source_families_audited": 1,
+    "new_hypothesis_tests": 0,
+    "selected_semantic_models": 0,
+    "confirmed_words": 0
+  },
+  "source_scope": {
+    "pages": [
+      "f77r",
+      "f80v",
+      "f85r1"
+    ],
+    "new_source_or_image_access": false,
+    "independent_meaning_capacity": 0,
+    "all_four_form_hits_physical_leaf": 80
+  },
+  "checks": {
+    "packet": "VALID, 7 hash-bound inputs, 3 task packages DONE",
+    "source_audit": "PASS deterministic replay, counts and leaf-scope checks, RF inner spaces",
+    "helper_tests": "4 passed; existing helper byte-unchanged",
+    "registry": "PASS after single refresh",
+    "context": "PASS 4002 bytes",
+    "global_check": "Not rerun: unchanged known seven GDT600 binding failures; no experiment or infrastructure files changed",
+    "publication": "Exact staged privacy/scope preflight required before push"
+  },
+  "interpretation": "More candidate handling than the engineering pilot; not a controlled comparison of useful scientific throughput or token savings.",
+  "artifact_bindings": [
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/BRIEF.md",
+      "sha256": "63e9811184cfd2011d3f09484f5a6187f0857c3c63be43f45945fc444d586554"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/COLLECTED_RESULTS.json",
+      "sha256": "9f606e58ccbf0bddbb71c7697ccf22dda67ad04e93df48ebfca895b726056596"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/FOUR_FORM_AUDIT.json",
+      "sha256": "3136df7efcd5c1ec9bd91409178116badbe972200bf4da787218c496784015eb"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/OPERATORS_RESULT.json",
+      "sha256": "75b2e41d8c497ccb6e6095863f7bca5b1f139eade26cf20c5782a6cd9198a109"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/PACKET.json",
+      "sha256": "f9f7540464587932a46686641a976729f6b4a530e32745ce385197591a8283df"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/PRODUCER_RESULT.json",
+      "sha256": "0b407dc9bcadbfdbfa566d6783ef5c163a98fc6e911b2a5fa28658b593169a86"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/RAW_P04_kain_qol_boundary_rectangle.json",
+      "sha256": "669d0075724e103a4adcfeff491e7cb91374d34ee4942b5d13cdd3300246dbd7"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/RAW_P05_otedy_qotedy_stem_branch.json",
+      "sha256": "1e431f6c20637bd47845d07cd647821de27deec4ed4daa4b409b5712cd1d7dc6"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/RAW_P06_qok_frame_content_pair.json",
+      "sha256": "63b35380bc647af4ac277b4a7ac85f295a72619cbe42a32e80bfbd5675efb873"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/REPORT.md",
+      "sha256": "0ffae119ad99f9077aa9de380d5137cffdc4ff8dd96d4d6811b09c53eda5d04b"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/REVIEWS.json",
+      "sha256": "42503fbfc73fbd0245484e3cd0e23ea3e1c882c42a6399a90320926a3556ef3a"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/TRANSITIONS_RESULT.json",
+      "sha256": "cf9e60e52db9d6dd7555d7dab734cd3a55016ba86f4e8e019f728fc9938c18d6"
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/audit_four_forms.py",
+      "sha256": "364ca73c7b2953e05871301639495b42c9fc26b0002ba805fa2adf1252e90dd2"
+    }
+  ]
+}

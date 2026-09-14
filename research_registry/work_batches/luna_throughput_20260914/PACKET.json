@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-14T18:24:01.316817+00:00",
+  "purpose": "Batch six predecessor/design reviews plus bounded source-specific proposal supply",
+  "claim_ceiling": "Selection review only; no new manuscript hypothesis test, significance or meaning confirmation",
+  "allowed_selectors": [
+    "f77r",
+    "f80v",
+    "f85r1"
+  ],
+  "inputs": [
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/BRIEF.md",
+      "sha256": "63e9811184cfd2011d3f09484f5a6187f0857c3c63be43f45945fc444d586554",
+      "role": "source report or bounded exposed source"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+      "sha256": "25cb7259002627ceae5eeebc93ed28fee0153adcdb1755a3e41c5d45106b39a8",
+      "role": "source report or bounded exposed source"
+    },
+    {
+      "path": "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+      "sha256": "e1abf863d5c4ed29306135a74c09d3232aa25e763b1f7ab34fc88e8b85f9bd1e",
+      "role": "source report or bounded exposed source"
+    },
+    {
+      "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+      "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346",
+      "role": "source report or bounded exposed source"
+    },
+    {
+      "path": "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md",
+      "sha256": "e8d09a5c2f52d642f0bec2197c552ddcc61fa2fe2ea37abf85ce47e454abe472",
+      "role": "source report or bounded exposed source"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+      "sha256": "56ed49676d351cee387537b32bff41cd9fe532416f85dfd2dc30edf21ac176f6",
+      "role": "source report or bounded exposed source"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md",
+      "sha256": "7f6cec251553c9c6f74aeb95e0d733d1514a4b531ddf54ff1705b021c725392e",
+      "role": "source report or bounded exposed source"
+    }
+  ],
+  "output_dir": "research_registry/work_batches/luna_throughput_20260914",
+  "tasks": [
+    {
+      "id": "transitions",
+      "owner": "transitions",
+      "question": "Review IDEA000052, IDEA000096, IDEA000099 against primary sources; return up to one executable joint contrast.",
+      "input_paths": [
+        "research_registry/work_batches/luna_throughput_20260914/BRIEF.md",
+        "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+        "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+        "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+        "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md"
+      ],
+      "output_path": "research_registry/work_batches/luna_throughput_20260914/TRANSITIONS_RESULT.json",
+      "required_result_fields": [
+        "status",
+        "summary",
+        "items",
+        "evidence_paths"
+      ]
+    },
+    {
+      "id": "operators",
+      "owner": "operators",
+      "question": "Review IDEA000059, IDEA000073, IDEA000124 against primary sources; return up to one executable joint contrast.",
+      "input_paths": [
+        "research_registry/work_batches/luna_throughput_20260914/BRIEF.md",
+        "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+        "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+        "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+        "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md"
+      ],
+      "output_path": "research_registry/work_batches/luna_throughput_20260914/OPERATORS_RESULT.json",
+      "required_result_fields": [
+        "status",
+        "summary",
+        "items",
+        "evidence_paths"
+      ]
+    },
+    {
+      "id": "producer",
+      "owner": "producer",
+      "question": "Produce up to four concrete diverse joint content/form hypotheses grounded in exact pilot examples; preserve raw status and realistic rivals.",
+      "input_paths": [
+        "research_registry/work_batches/luna_throughput_20260914/BRIEF.md",
+        "research_registry/work_batches/luna_pilot_20260914/EXPOSED_PARAGRAPHS.json",
+        "research_registry/work_batches/luna_pilot_20260914/RF_VARIANTS.json",
+        "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+        "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/P21/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/W16/REPORT.md"
+      ],
+      "output_path": "research_registry/work_batches/luna_throughput_20260914/PRODUCER_RESULT.json",
+      "required_result_fields": [
+        "status",
+        "summary",
+        "items",
+        "evidence_paths"
+      ]
+    }
+  ]
+}
