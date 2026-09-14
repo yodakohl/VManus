@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+IDEA237 USER CORRECTION: no Latin-first target and no default phonetic interpretation. Surface-profile differences do not identify the hidden source language. Joint writing/information/reading formulation remains planned on exposed W92 f83r;no experiment or meanings. Read LANGUAGE_CORRECTION.md before historical PLAN.md. Reserves and f84/f84r sealed. Primary: research_registry/proposals/differential_reading_20260914/LANGUAGE_CORRECTION.md
+
 STRATEGIC ROUTE IDEA237: differential writing nominated for joint language/operation formulation on exposed W92 f83r,7records51lines341groups. Same written qokedy follows different predecessors;illustration only. No executed decipherment test,decoder,meanings or novelty claim. Whole-text reading and shared forward-production obligations required;reversibility/compression alone insufficient. First block90min,20min checkpoint;reserves and f84/f84r sealed. Primary: research_registry/proposals/differential_reading_20260914/PLAN.md
 
 TEMPORAL SELECTION: IDEA44 fixed r route already W20;IDEA184 no bound same-portion use after expiry,not_tested. Free duration does not discriminate pause versus shelf-life. No new manuscript experiment,meaning or successor;do not repeat missing-input audit. Primary: research_registry/proposals/translation_programs_20260912/work/TEMPORAL_SELECTION/REPORT.md
