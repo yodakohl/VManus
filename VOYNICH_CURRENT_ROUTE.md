@@ -4,11 +4,11 @@ Updated: 2026-09-14. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: complete
-Task: GDT934 executed three whole-content extensions for qokal shedar dal chedy daror.
-Latest decision: R collection/remain and T collection/drain remain open; Q clarity has conditional local debt.
-Working files: experiments/yolo/gdt934_bridge_content_joint_readings/REPORT.md
-Assumptions: Fixed M base; chedy there/afterwards/clear unselected; V unchanged; no confirmed word.
-Resume: Read whole .26 tail chcthy lchedy qokaly with chedy/lchedy/solchedy contexts; no carry repair.
+Task: GDT935 executed full .26 tail readings with fixed R/T and three new word hypotheses.
+Latest decision: R goal and T later-flow remain unselected; slow rate unbound; RF26 only4of6 groups.
+Working files: experiments/yolo/gdt935_tail_spatial_temporal_content/REPORT.md
+Assumptions: M/R/T preserved; chedy/lchedy there/toward-there versus afterwards/later; Q/V open.
+Resume: Read whole .37 teeolain chey qoteedy qokain cheedy cheey lchedy; direction versus later state.
 Running: none; 3 separate raw producer proposals stored.
 
 ## Structural baseline

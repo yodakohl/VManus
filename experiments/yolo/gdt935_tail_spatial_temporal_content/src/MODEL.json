@@ -1,0 +1,84 @@
+{
+  "phase": "DISCOVERY_SELECTED_BEFORE_FULL_CONSEQUENCE_RENDER",
+  "source": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+  "base_model": "experiments/yolo/gdt932_joint_flow_participant_reading/src/MODEL.json",
+  "prior_extensions": "experiments/yolo/gdt934_bridge_content_joint_readings/src/MODEL.json",
+  "frames": "experiments/yolo/gdt930_label_text_joint_reading/src/MODEL.json",
+  "targets": [
+    "chcthy",
+    "lchedy",
+    "qokaly",
+    "chedy",
+    "solchedy",
+    "qokal"
+  ],
+  "new_forms": [
+    "chcthy",
+    "lchedy",
+    "qokaly"
+  ],
+  "models": {
+    "R": {
+      "title": "Örtlicher Verbleib mit gerichtetem Rohrfluss",
+      "lexicon": {
+        "chcthy": [
+          "langsam",
+          "RATE"
+        ],
+        "lchedy": [
+          "dorthin",
+          "GOAL_ANAPHOR"
+        ],
+        "qokaly": [
+          "ins Becken",
+          "GOAL"
+        ]
+      },
+      "line26": "Die zuvor genannte Flüssigkeit fließt warm und langsam aus dem Rohr dorthin, ins Becken.",
+      "syntax26": "One written flow predicate qokeedy. qoteedy qualifies the carried fluid as warm; chcthy describes low rate of that flow. lchedy and immediately following qokaly specify one appositional goal. No second verb or return marker inserted. The source subject is the prior hypothetical shedy, not written again at26.",
+      "family_hypothesis": "Only the complete pairs chedy/lchedy and qokal/qokaly are compared as location versus goal. solchedy remains proximal here and chedy distal there. No universal l or y operation; deictic centre and identity of basin remain unbound.",
+      "all_occurrence_obligations": [
+        "Every lchedy retains goal direction, never silently becomes static dort at37.",
+        "At23 chedy lchedy reads dort dorthin; two written roles must be explained, not erased as one redundant word.",
+        "At37 a motion/orientation relation must be found in the unread text; the known copula ist is not silently rendered as moves.",
+        "Every chcthy remains low rate; the second complete occurrence f21r11 must admit a rate-bearing event or process.",
+        "No inference that the goal basin is physically identical to the prior basin or that the pipe forms a loop."
+      ]
+    },
+    "T": {
+      "title": "Zeitlicher Abfluss mit späterem Rohrfluss",
+      "lexicon": {
+        "chcthy": [
+          "langsam",
+          "RATE"
+        ],
+        "lchedy": [
+          "später",
+          "RELATIVE_LATER"
+        ],
+        "qokaly": [
+          "ins Becken",
+          "GOAL"
+        ]
+      },
+      "line26": "Die zuvor genannte Flüssigkeit fließt später warm und langsam aus dem Rohr ins Becken.",
+      "syntax26": "One written flow predicate qokeedy. The added lchedy orders this flow later than the preceding hypothesized drainage daror at25 for this local reading; it is not silently the same event. The shared material subject remains conjectural. qokaly is the written goal; chcthy is low flow rate. German reorders the source, adding no second movement verb.",
+      "family_hypothesis": "chedy remains afterwards, lchedy later; relation between these whole forms is temporal, while solchedy stays here and qokal/qokaly stay spatial. This mixed family requires explanation, not an automatic formal refutation.",
+      "all_occurrence_obligations": [
+        "Every lchedy needs a comparison time/event; at37 a later state is possible but the state content and reference time remain unread.",
+        "At23 chedy lchedy reads danach später; no fusion or deletion of either temporal position.",
+        "The later flow at26 is distinct in time from the selected preceding drainage; a later analysis cannot identify them without revising this candidate.",
+        "Every chcthy retains low rate, including f21r11.",
+        "No general assumption that manuscript line order is event order."
+      ]
+    }
+  },
+  "retained_rivals": "Q and V unchanged, not extended or ruled out. Choice of R/T for this pass is continuation of explicit prior alternatives, not scientific selection.",
+  "selection_basis": "All six target forms and fixed comparison concordance read before selection. Spatial pair meanings are a constructed coherent hypothesis, not independent support from form similarity. langsam is a concrete manner trial motivated by the single flow predicate; neither a speed comparison nor external semantic evidence selects it. The historical cth/chcth/shcth family remains a debt, not inherited dryness/material truth.",
+  "remaining_ambiguities": [
+    "No rate evidence selects langsam over other possible manner/quality meanings.",
+    "No new meaning evidence distinguishes motion goal from time adjunct across unknown contexts.",
+    "No shared physical basin, pipe loop or event chronology independently identified."
+  ],
+  "confirmation": false
+}

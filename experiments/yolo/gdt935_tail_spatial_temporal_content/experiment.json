@@ -1,0 +1,182 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete line-level hypotheses only; no selected direction, time, rate or confirmed word; no independent meaning test or reserve access.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt935_tail_spatial_temporal_content/src/run.py",
+    "validate": "python3 experiments/yolo/gdt935_tail_spatial_temporal_content/src/validate.py"
+  },
+  "created": "2026-09-14",
+  "dependencies": [
+    "GDT631",
+    "GDT930",
+    "GDT932",
+    "GDT934"
+  ],
+  "experiment_id": "GDT935",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "22647ec417eef0781712527fc1aa17175959756c414a5c5687a482e89333f405"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/EDGE_GATE.json",
+      "role": "source_or_primary_predecessor",
+      "sha256": "33c32371a247973296f43d6fdd99eacb483d981c81725b9bfd05e8eb9504ac1f"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/SOURCE.json",
+      "role": "source_or_primary_predecessor",
+      "sha256": "be014bd7c82c6779e1afd601c28453af707fe9f24c6e5e2e0d4a68174edcdcaf"
+    },
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/src/MODEL.json",
+      "role": "source_or_primary_predecessor",
+      "sha256": "60a05cc800989310329403a2d4a48250a1b27f2d08adf3542d21f8325b3ebd2a"
+    },
+    {
+      "path": "experiments/yolo/gdt932_joint_flow_participant_reading/src/MODEL.json",
+      "role": "source_or_primary_predecessor",
+      "sha256": "81bb3b8afc0e0186037013c3c85efaec40826602c7edd03d37582236a1a7087b"
+    },
+    {
+      "path": "experiments/yolo/gdt934_bridge_content_joint_readings/REPORT.md",
+      "role": "source_or_primary_predecessor",
+      "sha256": "b20d69bf23312d950dd62cbf2856b21ca92a28d8ca0ef930e8dde28ee0944f66"
+    },
+    {
+      "path": "experiments/yolo/gdt934_bridge_content_joint_readings/src/MODEL.json",
+      "role": "source_or_primary_predecessor",
+      "sha256": "55fab32b01478107a5b58be49acbac9ce0bc99747834ae6040dbff404206e1d7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/METHOD.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "dae41209103dbae395c4bcc434f0f463464ff3fe3b9d556c42569e2b4b6055bd"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/MODEL_LOCK.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "5f7694f7c99892dddcad628f9c7b074a8c760f51813e37a0a50e832093a49127"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/PREREGISTRATION.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "4d5fa4a98f4977838b50511e129bfccf72b59faeaa36b6ed562bea06317bf746"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/PREREG_LOCK.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "aff7d7cfe5cee5e5d2f2f347a94a8bd41e1e9a86f139845999a5dfe3c2383fda"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/README.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "901ad043fe96fb1aa02d95f18682b9d96138a43c563f1d47dfb0861258ad7ff3"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/REPORT.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "906d0b8828f37aa0cf7787379afdfe92ee0c175624c76ee5ac112734bc641d55"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/REVIEW.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "fff7fa39ac1616a25e9ccd45ba2903da65a3f884a1ef6d1e160d5947d2b46cf4"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/WORK_CHECKPOINT.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "ed5fbe6e033061c7d3b981de4d29599811e887d0e720c4b034026abea0e088a4"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/ALIGNMENT.tsv",
+      "role": "reproducibility_source_or_result",
+      "sha256": "ee54e0e37743a3885b813df532efeb151625687baa68f7e14dbf46a906fabf31"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/CANDIDATE_OCCURRENCES.tsv",
+      "role": "reproducibility_source_or_result",
+      "sha256": "652012b919f1972094a13479fd17cead8a8a5edec0181d237abd175f42d7b380"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/CONCORDANCE.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "63c27593afac01ab56a257f5365eefc35aac844c5396ba6c314b4d2185dcc5f3"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/LOCAL_CONTENT_BINDINGS.tsv",
+      "role": "reproducibility_source_or_result",
+      "sha256": "1b72feb1a9701f25081c1e6c46798d802448904870ad3dcf4885bd2b53f34980"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/READING_IT2a.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "f0b18423a30c584abfcbe3203f87c5852dd9edd501b0312159822052c4deb93c"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/READING_RF1b.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "25a4beebe9d3617acb88a14468b22eec40cc1ebdb1578a58e2332ef3c3fb2c28"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/READING_ZL3b.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "d3bf3e6f5c0bf1170147f3ac05d66625e41b386fc01de31a9e8eae1a6b22fc56"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/README.md",
+      "role": "reproducibility_source_or_result",
+      "sha256": "c56cf0f6e02a8cd4ac1bf9f58e95a70bae8db6a287633f32a49879bdf1e0cbc0"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/RESULT.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "77dbd14ee80ecbd9d62b5b16283d1f583cfda37e94d32977183eefa806191d72"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/VALIDATION.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "14493755f05688d2754c7e851e61741de639df0d12c6856e09ada731b9cc13d3"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/src/MODEL.json",
+      "role": "reproducibility_source_or_result",
+      "sha256": "a7d1064b53e8515d38a4f033e152e8b5ac9602967314f90ceb7c89943d684580"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/src/explore.py",
+      "role": "reproducibility_source_or_result",
+      "sha256": "76b0c08926f9bf0e5c69ca184a43a94c6451ddfe2f1860ad6a2f84a0d0420139"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/src/run.py",
+      "role": "reproducibility_source_or_result",
+      "sha256": "418b8cb60643323afe55e43c1ffaa6ba96ea5e89cb0465fe1d1d0c7358d017ba"
+    },
+    {
+      "path": "experiments/yolo/gdt935_tail_spatial_temporal_content/src/validate.py",
+      "role": "reproducibility_source_or_result",
+      "sha256": "880a3b6e9404a2e7ab442d0d7a54f7a426c3c32bac56c282236c8da01bb2da0f"
+    }
+  ],
+  "question": "Can two constant three-word extensions read the entire chcthy lchedy qokaly tail and all family occurrences while preserving distinct spatial-goal and temporal-event consequences?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "tail_spatial_temporal_content",
+  "status": "TWO_FULL_LINE_TAIL_DRAFTS_UNSELECTED",
+  "title": "Spatial goal versus later flow in the complete f77r26 tail",
+  "updated": "2026-09-14",
+  "validation": {
+    "artifact": "experiments/yolo/gdt935_tail_spatial_temporal_content/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
