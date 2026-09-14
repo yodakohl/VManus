@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W62 (2026-09-14): sheckhy mixture/mix rivals;local mixture-with-D concept removes hypothetical long verb attachment but no meaning selected.3direct sheckhy qokain loci across all3readings. Primary: research_registry/proposals/translation_programs_20260912/work/W62/REPORT.md.
+
 W61 (2026-09-14): full qolshey=with/use rivals. R f80 reaches known action across6words5open; V application unknown. No selection; old W59 unchanged. Primary: research_registry/proposals/translation_programs_20260912/work/W61/REPORT.md.
 
 W60 (2026-09-14): exact qolshey qokain repeats f80r.36 beyond f75v.42; all5 exact reading pairs definite. charor one physical locus. Full four ZL/IT paragraphs exported; no new gloss or W59 repair. Primary: research_registry/proposals/translation_programs_20260912/work/W60/REPORT.md.
