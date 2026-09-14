@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+W58 (2026-09-14): explicit sheedy=A/shey=B hypotheses bind4actionsA/3B under fixed last-material rule. No material identity or meaning confirmation; wetting medium open. Primary: research_registry/proposals/translation_programs_20260912/work/W58/REPORT.md.
+
 W57 (2026-09-14): full f75v G grind/wet versus S wet/wet; old W02 exact values only, cheey rival explicit. More than half open, no argument binding or selection. Conditional repeated material-working concept. Primary: research_registry/proposals/translation_programs_20260912/work/W57/REPORT.md.
 
 W56 (2026-09-14): all12 complete contexts audited; f75v same-line coexistence and cheey/sheey return sequence. Prioritize full f75v.38–42 for a joint hypothetical reading; no meanings selected. Primary: research_registry/proposals/translation_programs_20260912/work/W56/REPORT.md.
