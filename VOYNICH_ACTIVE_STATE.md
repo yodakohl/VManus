@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+STRATEGIC ROUTE IDEA237: differential writing nominated for joint language/operation formulation on exposed W92 f83r,7records51lines341groups. Same written qokedy follows different predecessors;illustration only. No executed decipherment test,decoder,meanings or novelty claim. Whole-text reading and shared forward-production obligations required;reversibility/compression alone insufficient. First block90min,20min checkpoint;reserves and f84/f84r sealed. Primary: research_registry/proposals/differential_reading_20260914/PLAN.md
+
 TEMPORAL SELECTION: IDEA44 fixed r route already W20;IDEA184 no bound same-portion use after expiry,not_tested. Free duration does not discriminate pause versus shelf-life. No new manuscript experiment,meaning or successor;do not repeat missing-input audit. Primary: research_registry/proposals/translation_programs_20260912/work/TEMPORAL_SELECTION/REPORT.md
 
 f82r.19 VISUAL: admitted W53 image hash matched;short right-shifted terminal line and similar first/third groups compatible with prior transcript. Exact glyph confirmation unresolved;no special char mark or individual word-owner link. GDT242 layout not newly discovered;no transcript edits,meaning or closure revival. Primary: research_registry/proposals/translation_programs_20260912/work/F82R_LINE19_VISUAL/REPORT.md
