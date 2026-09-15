@@ -49,9 +49,39 @@
       "sha256": "4e1762b2378b062e329967d42fe19770cc5eb0f0f76dbc2aaf8e64a2194bdd5b"
     },
     {
+      "path": "experiments/yolo/gdt975_tp15_published_example_consistency/REPORT.md",
+      "role": "primary_report",
+      "sha256": "88d196a2fec63a11ba9a9895177e6251769012e4665629b3566222ed85c4d86c"
+    },
+    {
+      "path": "experiments/yolo/gdt975_tp15_published_example_consistency/artifacts/CANDIDATE_PREDICTIONS.tsv",
+      "role": "source_or_artifact",
+      "sha256": "201bd0fc5fcaaef352048bd9dda5c1a0b4399dc591b163175e2e8001d412a27c"
+    },
+    {
+      "path": "experiments/yolo/gdt975_tp15_published_example_consistency/artifacts/CHECK_SCOPE.md",
+      "role": "source_or_artifact",
+      "sha256": "d08bed946b0cd555ac0b1c4184b4d7b27900a7babe5d927793a463f458e2d120"
+    },
+    {
       "path": "experiments/yolo/gdt975_tp15_published_example_consistency/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt975_tp15_published_example_consistency/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "46b5e7aab2ef76a29852fb3f90d44dc8f1eeb9e1a50db6ad2c2e1ea2466bdad2"
+    },
+    {
+      "path": "experiments/yolo/gdt975_tp15_published_example_consistency/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "dbff541e230709fa4775c31eb57add2710758841e85847144a65a656f45e7f07"
+    },
+    {
+      "path": "experiments/yolo/gdt975_tp15_published_example_consistency/src/ASSESSMENT_GDT975.json",
+      "role": "source_or_artifact",
+      "sha256": "5a7c339ee019bf46e11f9685b918ab5ac378819be96d4e6ebadb298cb4599e09"
     },
     {
       "path": "experiments/yolo/gdt975_tp15_published_example_consistency/src/SOURCE.json",
@@ -121,11 +151,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "tp15_published_example_consistency",
-  "status": "DECLARED_EXPLORATORY_UNCHECKED",
+  "status": "PUBLISHED_EXAMPLES_INCONSISTENT",
   "title": "Published TP15 eight-example consistency audit",
   "updated": "2026-09-15",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt975_tp15_published_example_consistency/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

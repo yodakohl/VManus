@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT975 EXTERNAL SOURCE AUDIT: all8 printed TP15 AppendixF pairs checked using exact documented fragment:7contradictions/1match;3technical traces reproduce. k remains unknown;no complete table or paragraph test. Withhold semantic follow-up pending consistent fixed source;not tachygraphy/language refutation.0words/independent;reserves closed. Primary: experiments/yolo/gdt975_tp15_published_example_consistency/REPORT.md
+
 GDT974 R2CLOSURE: both GDT973weak-form survivors length10force repeatedNUMat3/6/9;actualh-i-e/h-d-i contradict. Exploratory exposed-header audit;7checksPASS. R0/R1/R2closed in561literal panel;788nonliteral unknown,RFno fences;no automaticR3. GDT973original2survivorsunchanged;0words/confirmation. Primary: experiments/yolo/gdt974_alloy_two_survivor_forced_num/REPORT.md
 
 GDT973 NECESSARY FORMS: R1all561literal paragraphscontradicted;R2two IT candidates f104r16–18/f114r32–33, unparsed. Exact2698rows/10checksPASS;CSVleaf type correction disclosed. Next mandatory sharedpayload audit must include both, not body decoder yet. No words/independentconfirmation. Primary: experiments/yolo/gdt973_alloy_packed_header_consequences/REPORT.md

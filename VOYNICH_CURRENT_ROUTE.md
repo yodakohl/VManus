@@ -3,13 +3,13 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: active
-Task: New turn: assess fixed published TP15/CVC readings on complete exposed passages.
-Latest decision: R0/R1/R2closed;Naibbe604not reopened;published TP15candidate distinct.
-Working files: research_registry/work_batches/ten_hours_20260915/TP15_COMPLETE_READING_DECISION.md
-Assumptions: No new values/wildcard repairs;public claims unconfirmed;reserves closed.
-Resume: Inspect owned TP15source/code;freeze smallest complete-context consequence.
-Running: Root source intake;bounded producer inverse-comparison raw proposal.
+Status: checkpoint
+Task: GDT975 complete; select next content-grounded joint reading hypothesis.
+Latest decision: TP15printed examples7/8conflict;3traces reproduce;no whole passage.
+Working files: experiments/yolo/gdt975_tp15_published_example_consistency/REPORT.md
+Assumptions: TP15full table absent;no added values;R0/R1/R2closed;reserves closed.
+Resume: Review RAW IDEA357 comparison grouping and primary counters before selection.
+Running: None;raw IDEA357/358 retained, unreviewed and untested.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

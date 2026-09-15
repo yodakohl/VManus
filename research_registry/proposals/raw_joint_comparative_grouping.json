@@ -1,0 +1,149 @@
+{
+  "title": "Joint comparative clause grouping with shared parts and inverse order constraints",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Existing Dioscorides I.1/I.2/IV.20 source clauses compare Iris, Acoron and opaque Xiphion. Jointly infer phrase grouping, part ownership, participant references and signed comparison under one reusable grammar; do not impose a paragraph header or copied source order. Reciprocal leaf-width closure is conditional on an explicit IV.20 leaf-ellipsis branch; plant-shape scope is preserved. Resemblance is not equality, and Xiphion/Acoron width order remains unknown.",
+  "scope": "method",
+  "design": {
+    "mechanism": "Couple latent constituent grouping with typed participant/part/axis assignments and directed comparison. Shared-argument conjunction unifies the same participant and part across resemblance and comparative predicates. One globally shared lexical/realization rule must account for repeated constructions; no per-occurrence semantic values, local axis changes or free reference switches.",
+    "unit": "Complete entries or paragraphs retain every written group and all unread content. This raw card supplies a comparative constraint module, not an already complete unknown-text grammar. Its source objects are three complete chapters with bounded opening comparison units; source paragraph lengths and order are not target requirements.",
+    "contrast": "IDEA50 already proposes ordered reciprocity but lacks an owned reversal and does not license an obligatory inverse marker; IDEA6 invalidates mandatory observed reciprocal frame equality. GDT918 stopped under a fixed literal-triple nomination rule. This proposal supplies source-owned different comparative predicates on persistent referents, an explicit part-scope ambiguity, and a resemblance-versus-order contrast while learning constituent grouping jointly. It neither repairs literal triples nor imports ol or other old glosses.",
+    "semantic_kernel": {
+      "types": [
+        "plant_referent",
+        "plant_part",
+        "comparison_scope",
+        "ordered_axis",
+        "sign",
+        "proposition"
+      ],
+      "constructors": [
+        "PART(owner,part_kind)",
+        "COMPARE(axis,sign,part_or_object_1,part_or_object_2)",
+        "RESEMBLES(scope,object_1,object_2)",
+        "AND(proposition,proposition)"
+      ],
+      "typing": "Compare both participants on the same justified part/scope and axis. Larger/smaller, broader/narrower and fleshier are separate source properties; do not collapse all into one numerical axis.",
+      "order_axioms": "Within one identified scalar axis, strict comparison is irreflexive, asymmetric and transitive; inverse sign with reversed arguments preserves the order fact. Resemblance supplies no width equality, identity or universal transitivity/symmetry assumption.",
+      "grouping_policy": "Select constituent spans, owner/part attachment, argument order, signed relation and shared-argument coordination together; preserve written spaces and every group. Permit one explicitly shared argument across coordinated predicates only through a reusable grammatical rule. No obligatory source clause length, paragraph header or inverse-marker string.",
+      "writing_contract_limit": "The exact finite inventory of lexical realizations, allowed linearizations and compositional surface forms remains to be registered before search. This is not a target decoder or a claim that any word means broader/narrower. Other whole-entry content requires an explicit complete grammar and cannot be free padding."
+    },
+    "source_owned_examples": [
+      {
+        "locator": "I.1",
+        "cache_path": "research_registry/work_batches/ten_hours_20260915/dioscorides_cache/Wellmann_I_1.txt",
+        "cache_sha256": "f33747322f44a6a55c0648a799b3566e318cac898edab1c3d8e146a654904774",
+        "complete_main_text": "1 ἶρις Ἰλλυρικὴ φύλλα φέρει ὅμοια ξιφίῳ, μείζονα δὲ καὶ πλατύτερα καὶ λιπαρώτερα, ἄνθη ἐπὶ καυλῶν παράλληλα, ἐπικαμπῆ, ποικίλα· ἢ γὰρ λευκὰ ἢ ὠχρὰ ἢ μήλινα ἢ πορφυρᾶ ἢ κυανίζοντα ὁρᾶται, ὅθεν διὰ τὴν ποικιλίαν ἀπεικάσθη Ἴριδι οὐρανίᾳ. ῥίζαι δὲ ὕπεισι γονατώδεις, στερεαί, εὐώδεις, ἃς δεῖ μετὰ τὴν τομὴν ξηράναντας ἐν σκιᾷ καὶ διείραντας λίνῳ ἀποτίθεσθαι. ἔστι δὲ βελτίων ἡ Ἰλλυρικὴ καὶ Μακεδονική, καὶ ταύτης ἀρίστη ἡ πυκνόρριζος καὶ ὑποκόλοβος καὶ δύσθραυστος καὶ τῇ χρόᾳ ὑπόκιρρος καὶ σφόδρα εὐώδης καὶ τῇ γεύσει πυρω δεστέρα τήν τε ὀσμὴν εἰλικρινὴς καὶ μὴ νοτίζουσα πταρμούς τε ἐν τῷ κόπτεσθαι κινοῦσα. ἡ δὲ Λιβυκὴ λευκή τέ ἐστι τὴν χρόαν τῇ τε γεύσει πικρά, δευτερεύουσα δὲ τῇ δυνάμει. παλαιούμεναι δὲ τερηδονίζονται, εὐωδέστεραι μέντοι τότε γίνονται. 2 δύναμιν δὲ ἔχουσι πᾶσαι θερμαντικήν, λεπτυντικήν, ἁρμόζουσαι πρὸς βῆχας καὶ τὰ δυσανάγωγα ὑγρὰ λεπτοποιοῦσαι. καθαίρουσι δὲ πάχη καὶ χολὰς ποτιζόμεναι μεθ᾿ ὑδρομέλιτος δραχμῶν ἑπτά. εἰσὶ δὲ καὶ ὑπνοποιοὶ καὶ δακρυοποιοὶ καὶ στρόφους ἰῶνται. μετ᾿ ὄξους δὲ πινόμεναι θηριοδήκτοις ἀρήγουσι καὶ σπληνικοῖς καὶ σπωμένοις καὶ περιψυχομένοις ἢ ῥιγοῦσι καὶ τοῖς γόνον προιεμένοις, σὺν οἴνῳ δὲ ποθεῖσαι ἄγουσιν ἔμμηνα. καὶ τὸ ἀπόζεμα δὲ αὐτῶν πρὸς γυναικείας πυρίας εὔθετον, μαλάσσον τοὺς τόπους καὶ ἀναστομοῦν, ἰσχιάδος τε ἔγκλυσμα, καὶ συρίγγων καὶ κόλπων σαρκωτικόν. προστεθεῖσαι 3 δὲ ὡς κολλύριον μετὰ μέλιτος ἔμβρυα κατασπῶσι, καὶ μαλάσσουσι δὲ χοιράδας καὶ σκιρρώματα παλαιὰ ἑφθαὶ καταπλασθεῖσαι. ξηραὶ δὲ πληροῦσιν ἕλκη καὶ ἀνακαθαίρουσι μετὰ μέλιτος καὶ τὰ ἐψιλωμένα τῶν ὀστέων σαρκοῦσιν. ὠφελοῦσι δὲ καὶ κεφαλαλγίας σὺν ὄξει καὶ ῥοδίνῳ καταπλασθεῖσαι, φακούς τε καὶ ἐφήλεις ἀποκαθαίρουσι σὺν ἐλλεβόρῳ λευκῷ διπλασίονι καὶ μέλιτι καταχρισθεῖσαι. μείγνυνται δὲ καὶ πεσσοῖς καὶ μαλάγμασι καὶ ἀκόποις, καὶ καθόλου εἰσὶ πολύχρηστοι.\n",
+        "complete_opening_unit": "ἶρις Ἰλλυρικὴ φύλλα φέρει ὅμοια ξιφίῳ, μείζονα δὲ καὶ πλατύτερα καὶ λιπαρώτερα, ἄνθη ἐπὶ καυλῶν παράλληλα, ἐπικαμπῆ, ποικίλα· ἢ γὰρ λευκὰ ἢ ὠχρὰ ἢ μήλινα ἢ πορφυρᾶ ἢ κυανίζοντα ὁρᾶται, ὅθεν διὰ τὴν ποικιλίαν ἀπεικάσθη Ἴριδι οὐρανίᾳ."
+      },
+      {
+        "locator": "I.2",
+        "cache_path": "research_registry/work_batches/ten_hours_20260915/dioscorides_cache/Wellmann_I_2.txt",
+        "cache_sha256": "4ebd50b1d5bf899ba4c995f5c7f2b49f5d7106e46b1d900a475d60ac56931bc2",
+        "complete_main_text": "2 ἄκορον τὰ μὲν φύλλα ἔχει ἐμφερῆ ἴριδι, στενότερα δέ, καὶ τὰς ῥίζας δὲ οὐκ ἀνομοίους, διαπεπλεγμένας δὲ καὶ οὐκ εἰς εὐθὺ πεφυκυίας, ἀλλὰ πλαγίας καὶ ἐξ ἐπιπολῆς, γόνασι διειλημμένας, ὑπολεύκους, δριμείας δὲ τῇ γεύσει καὶ τῇ ὀσμῇ οὐκ ἀηδεῖς. διαφέρει δὲ τὸ πυκνὸν καὶ λευκὸν ἄβρωτόν τε καὶ πλῆρες εὐωδίας. τοιοῦτο δέ ἐστι τὸ ἐν Κολχίδι καὶ τὸ ἐκ τῆς Γαλατίας δὲ ἄσπληνον λεγόμενον. 2 δύναμιν δὲ ἔχει ἡ ῥίζα θερμαντικήν. πινόμενον δὲ τὸ ἀπόζεμα οὖρα κινεῖ, ἁρμόζον πρὸς πλευρᾶς πόνους καὶ θώρακος καὶ ἥπατος, στρόφους, ῥήγματα, σπάσματα, σπλῆνάς τε τήκει· ὠφελεῖ καὶ στραγγουριῶντας, θηριοδήκτους, καὶ εἰς ἐγκάθισμα ὡς ἶρις πρὸς τὰ γυναικεῖα. ὁ δὲ χυλὸς τῆς ῥίζης ἀποκαθαίρει τὰ ἐπισκοτοῦντα ταῖς κόραις· μείγνυται δὲ καὶ ταῖς ἀντιδότοις ῥίζα χρησίμως.\n",
+        "complete_opening_unit": "ἄκορον τὰ μὲν φύλλα ἔχει ἐμφερῆ ἴριδι, στενότερα δέ, καὶ τὰς ῥίζας δὲ οὐκ ἀνομοίους, διαπεπλεγμένας δὲ καὶ οὐκ εἰς εὐθὺ πεφυκυίας, ἀλλὰ πλαγίας καὶ ἐξ ἐπιπολῆς, γόνασι διειλημμένας, ὑπολεύκους, δριμείας δὲ τῇ γεύσει καὶ τῇ ὀσμῇ οὐκ ἀηδεῖς."
+      },
+      {
+        "locator": "IV.20",
+        "cache_path": "research_registry/work_batches/ten_hours_20260915/dioscorides_cache/Wellmann_IV_20.txt",
+        "cache_sha256": "b67c0a0a9276f5cfcbf5fcf5314d394e8f3f008b77692812c4554ce602758a0b",
+        "complete_main_text": "20 ξιφίον· οἱ δὲ φασγάνιον, οἱ δὲ μαχαιρίωνα καλοῦσι διὰ τὸ τοῦ φύλλου σχῆμα· ἔοικε γὰρ ἴριδι, ἔλαττον ὂν καὶ στενώτερον, ἄποξυ ὡς μαχαίριον, ἰνῶδες· καυλὸν δὲ ἀνίησι πηχυαῖον, ἐφʼ οὗ ἄνθη πορφυρᾶ, στοιχηδὸν ἀπʼ ἀλλήλων διεστῶτα, καρπὸν δὲ στρογγύλον, ῥίζας δύο, τὴν μίαν τῆς ἑτέρας ἐπικαθημένην, ὥσπερ βολβία μικρά· τούτων ἡ μὲν κάτω ἰσχνή ἐστιν |, ἡ δὲ ἄνωθεν ἁδροτέρα· φύεται μάλιστα ἐν ἀρούραις. δύναται δὲ ἡ ἄνωθεν ῥίζα καταπλαττομένη μετʼ οἴνου καὶ 2 λιβανωτοῦ ἀκίδας καὶ σκόλοπας ἐπισπᾶσθαι, σὺν ἀλεύρῳ δὲ αἰρίνῳ καὶ ὑδρομέλιτι διαφορεῖν φύγεθλα, ὅθεν καὶ ταῖς τοιαύταις ἐμπλάστροις μείγνυται· ἄγει δὲ καὶ καταμήνια προστεθεῖσα. φασὶ δὲ καὶ ἀφροδίσια παρορμᾶν τὴν ἀνωτέρω ῥίζαν σὺν οἴνῳ ποθεῖσαν, τὴν κατωτέραν δὲ ἀγόνους ποιεῖν, ἐντεροκηλικοῖς τε παιδίοις ὠφελίμως δίδοσθαι τὴν ἐπάνω ῥίζαν ἐν ποτῷ σὺν ὕδατι.\n",
+        "complete_opening_unit": "ξιφίον· οἱ δὲ φασγάνιον, οἱ δὲ μαχαιρίωνα καλοῦσι διὰ τὸ τοῦ φύλλου σχῆμα· ἔοικε γὰρ ἴριδι, ἔλαττον ὂν καὶ στενώτερον, ἄποξυ ὡς μαχαίριον, ἰνῶδες·"
+      }
+    ],
+    "source_provenance": {
+      "author": "Dioscorides",
+      "work": "De materia medica",
+      "content_date": "First century CE work; not a claim of copying or particular transmission to the target.",
+      "edition": "Wellmann Greek edition, 1907–1914; existing main-text extraction omits TEI apparatus notes as explicitly documented.",
+      "xml_url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0656/tlg001/tlg0656.tlg001.1st1K-grc1.xml",
+      "xml_sha256": "e2a2175c5ca1c1a2313c5816bc79c7fa1c9103766fcad193356d0c13ce6746bc",
+      "source_trace_paths": [
+        "research_registry/work_batches/ten_hours_20260915/DIOSCORIDES_FIRST3_SEMANTIC_SOURCE.json",
+        "research_registry/work_batches/ten_hours_20260915/DIOSCORIDES_XIPHION_SOURCE.json"
+      ],
+      "source_trace_sha256": [
+        "13e9ff6bf54c8c5fca9847764d2d283b05fff7c492f9302d67c5f3b3b28bb891",
+        "1fd036dcd79d99bcf6eef489a8ade27198efb968a4adbfb4bc3910d29ab0a6a6"
+      ],
+      "independence": "Distinct main-text passages/occurrences of one edited work, not independent manuscripts or independent empirical botany. I.1 ξιφίῳ and IV.20 ξιφίον are linked by the existing source audit; inflectional identity is a philological source assumption, not a target key."
+    },
+    "source_meaning_ownership": {
+      "I.1": "Iris leaves resemble ξιφίῳ but are larger, broader and fleshier; flowers/colours and the celestial Iris naming explanation remain in the full opening sentence.",
+      "I.2": "Acoron leaves resemble Iris but are narrower. The subsequent roots clause is separately scoped; the later as-Iris sitz-bath comparison is a use relation, not leaf width.",
+      "IV.20": "Xiphion is also reportedly called φασγάνιον and μαχαιρίων because of leaf shape; it resembles Iris but is smaller/narrower, sharp like a small knife and fibrous. No modern taxon or literal-sword normalization.",
+      "alias_policy": "Reported alternative names are aliases, not new independently observed species. Iris-of-the-sky is a different referent from the plant. Morphology and treatment comparisons cannot be pooled by name recurrence alone.",
+      "part_scope_branches": [
+        {
+          "id": "LEAF_ELLIPSIS",
+          "condition": "IV.20 leaf-shape context carries leaves into its smaller/narrower comparison.",
+          "consequence": "I.1 and IV.20 normalize to one inverse leaf-width fact."
+        },
+        {
+          "id": "BROADER_PLANT_SHAPE",
+          "condition": "IV.20 neuter subject ξιφίον compares the plant/general form rather than repeating a leaf subject.",
+          "consequence": "Keep its comparison on separate scope; do not claim exact inverse leaf-width closure without further part alignment."
+        }
+      ],
+      "other_content": "All complete main text is retained. The comparison module does not silently translate or delete harvest, quality, medicine, reporting and application content; the full existing traces preserve those distinctions."
+    },
+    "source_only_constraint_check": {
+      "symbols": {
+        "I": "Iris",
+        "X": "opaque ξιφίον",
+        "A": "Acoron"
+      },
+      "conditional_leaf_constraints": [
+        "width(leaves(I)) > width(leaves(X))",
+        "width(leaves(X)) < width(leaves(I))",
+        "width(leaves(A)) < width(leaves(I))"
+      ],
+      "strict_linear_extensions": [
+        [
+          "X",
+          "A",
+          "I"
+        ],
+        [
+          "A",
+          "X",
+          "I"
+        ]
+      ],
+      "X_and_A_equal_also_allowed": true,
+      "inverse_pair_independent_constraint_count": 1,
+      "wrong_one_occurrence_positive_sign_strict_orders": [],
+      "check": "Exhaustive six strict rank permutations; source has two orders, sign-reversal rival zero. Equality X=A is separately allowed by the source partial order. No source numeric widths are invented."
+    },
+    "different_rivals": [
+      {
+        "name": "Same positive comparative sign after participant reversal",
+        "consequence": "On the LEAF_ELLIPSIS branch demands I>X and X>I, a strict cycle; does not establish contradiction across distinct part axes in the other branch."
+      },
+      {
+        "name": "Resemblance means identical width",
+        "consequence": "Contradicts the simultaneously stated width inequality on the same source pair."
+      },
+      {
+        "name": "Generic graph topology/learned role labels",
+        "consequence": "May preserve structural compression while pairing the wrong owned endpoints. Must remain an independent rival; consistency of the graph alone is not a semantic identification."
+      }
+    ],
+    "smallest_prospective_target_consequence": "A complete jointly grouped reading must keep one participant/part/axis interpretation when the same pair reverses comparative roles. The reversed relation must denote the inverse order through its globally fixed predicate/argument realization. An independently observed comparison of those owned parts could fix sign and reject the reversed interpretation. Cross-page absolute width requires justified common scale; aspect ratio is not substituted. No target pair or image is nominated in this source-only card.",
+    "symmetries": [
+      "Consistent plant-name renaming until externally bound.",
+      "Order-preserving rescaling of the width axis.",
+      "Unresolved Xiphion/Acoron order, including equality.",
+      "Part-scope branch in IV.20.",
+      "Different grammatical realizations of inverse direction; changed literal marker is not mandatory."
+    ],
+    "predecessor_stops": "GDT918 primary nomination capacity stop and no even evaluation retained; IDEA50 missing specified reversal contract and IDEA6 invalid broad frame-necessity test retained. GDT386 lacks eligible owned parent edges; geometry is not an authorial pointer. RTA001 original FAIL despite held positive gains (wrong-pairing p=0.888428) retained. No automatic source-copy, fixed-header, old Greek-code or visual-relation rerun.",
+    "structural_dependencies": "Hierarchy at written spaces, directed reusable composition, residual whole-form and entry/context effects retained. No BPE/EVA phonetic alphabet, no inherited gloss, no unrestricted marker deletion. Joint hypotheses need no previously confirmed word but require a reusable rule and concrete observable consequence.",
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "source_evidence": {
+      "path": "research_registry/work_batches/ten_hours_20260915/JOINT_COMPARATIVE_CONTENT_SUPPLY.md",
+      "line": 4,
+      "quote": "Status: RAW_UNREVIEWED_NOT_SELECTED. No target cache, new image or decoder.",
+      "sha256": "4f692cdf93492c8810ce0c3497108aae28582565a340290dcfe10fb1d11f22d9"
+    },
+    "access": "Existing source texts and owned audits only; required route/decision and claim-bearing historical primaries include already published target excerpts, disclosed without a new blindness claim. No raw target corpus/cache row, new target or source image, reserve, admission or outside contact. Existing source and proposal bytes unchanged."
+  }
+}

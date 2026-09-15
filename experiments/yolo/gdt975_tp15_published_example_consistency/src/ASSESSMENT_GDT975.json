@@ -1,0 +1,32 @@
+{
+  "scope": "method",
+  "reviewer": "root; separate constituent validator",
+  "assessment_basis": "primary_reports",
+  "blockers": [
+    {
+      "code": "published_fragment_inconsistent",
+      "detail": "Seven of8 printed AppendixF pairs contradict the documented fragment; complete runtime table missing. No complete passage or semantic meaning was tested.",
+      "evidence": [
+        "experiments/yolo/gdt975_tp15_published_example_consistency/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "source_correction",
+        "condition": "Own a complete fixed versioned assignment/classification table with internally consistent worked examples; preserve GDT975 original source audit."
+      }
+    ],
+    "not_sufficient": [
+      "Refitting the missing values to a desired passage",
+      "Calling reproduction of din a confirmed gloss",
+      "Treating code validation as independent semantic confirmation"
+    ]
+  },
+  "relations": [],
+  "record_id": "GDT975",
+  "verdict": "supported_limited",
+  "reason": "All8 published pairs tested;7 logical contradictions/1 exact output match;3 technical trace reproductions. Exact upstream fragment plus independent constituent reconstruction, unknown k unfilled. Source inconsistency supported; no complete-model or language refutation."
+}
