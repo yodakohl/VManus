@@ -5,11 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT953 whole-purpose R16 stays weak; all11 component domains fail. No adopted word.
-Next: complete continuous content hypotheses beyond invariant label registers; no decoder repair.
+Latest decision: GDT953 closed. GDT954 shared invocation-refrain screen locked before target census.
+Next: all adjacent7complete-paragraph windows, R1/R5 terminal clause; no decoder or word claim.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT953 source/predictions unchanged; validator repaired and all168cases checked. Publication next.
+Resume: GDT954 source7prayers+§65context; all oldGDT915/928inputs exposed; publish then execute.
 Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline
