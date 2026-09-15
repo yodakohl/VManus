@@ -1,0 +1,16 @@
+{
+  "windows": "experiments/yolo/gdt960_behenian_complete_plant_incidence/artifacts/ALL_WINDOWS.json.gz",
+  "source": "experiments/yolo/gdt960_behenian_complete_plant_incidence/src/SOURCE.json",
+  "window_count": 22,
+  "directions": [
+    "ORIGINAL",
+    "REVERSED"
+  ],
+  "models": [
+    "MATERIAL",
+    "PLANT_IDENTITY"
+  ],
+  "component_rule": "every nonempty contiguous substring inside each GDT960 known raw group, including the complete word",
+  "unknown_rule": "unchanged GDT960 whole-group unknown slots; no length plausibility asserted",
+  "purpose": "necessary-condition bound, not a joint lexicon or parser"
+}

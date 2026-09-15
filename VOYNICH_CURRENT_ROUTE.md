@@ -6,10 +6,10 @@ Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
 Latest decision: GDT960 plants88cases:60contra28unknown-only; no adoptedname.
-Next: early geomantic source audit for959; no chosen table/key or newVoydata.
+Next: GDT961 exhaustive contiguous-piece incidence bound; all2904predictions frozen.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT960complete;959fourclear/sevenupperrivals;958windextensionclosed.
+Resume: GDT960published5e2e68300;961registered;959fourclear/sevenupperrivals.
 Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline

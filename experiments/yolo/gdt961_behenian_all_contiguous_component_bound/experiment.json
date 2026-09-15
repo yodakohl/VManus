@@ -1,0 +1,102 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Necessary component-incidence condition only; no joint lexicon, parser, significance or confirmed meaning",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt961_behenian_all_contiguous_component_bound/src/run.py",
+    "validate": "python3 experiments/yolo/gdt961_behenian_all_contiguous_component_bound/src/validate.py"
+  },
+  "created": "2026-09-15",
+  "dependencies": [
+    "GDT960",
+    "GDT608",
+    "GDT766",
+    "GDT768"
+  ],
+  "experiment_id": "GDT961",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt960_behenian_complete_plant_incidence/artifacts/ALL_WINDOWS.json.gz",
+      "sha256": "00bec46f2d861b92b347db917d8f3969255671523192f9b0d58539bea2186836",
+      "role": "frozen_exposed_predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt960_behenian_complete_plant_incidence/src/SOURCE.json",
+      "sha256": "50abcfdd138995b6d5abf52a6f7611a611d51301dcbbbf121857fe40bf15aa92",
+      "role": "frozen_exposed_predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt960_behenian_complete_plant_incidence/PREREG_LOCK.json",
+      "sha256": "e47492985bbf51dd624a39d74d270345967ec60170fd8e22fbf13720898eb7d7",
+      "role": "frozen_exposed_predecessor"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/METHOD.md",
+      "sha256": "42c0086b4da2d5a3926b150c3d91cd336aeed8fc0f892e812b8b60384e0b6528",
+      "role": "registered_protocol_prediction_or_placeholder"
+    },
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/PREREGISTRATION.md",
+      "sha256": "e9db7249a236d05521f60df0f0326b455c17058fa09951014ef01a7b83568549",
+      "role": "registered_protocol_prediction_or_placeholder"
+    },
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/PREREG_LOCK.json",
+      "sha256": "2557a186362fcb071e0d5980b7986a8a95a60499d1f1ef6e386b611ad482d801",
+      "role": "registered_protocol_prediction_or_placeholder"
+    },
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/README.md",
+      "sha256": "6eaaa1b7fd9eaffc4871de5e60e96d4e66349bc6b18788b2771744e7952bc55e",
+      "role": "registered_protocol_prediction_or_placeholder"
+    },
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/artifacts/PREDICTIONS.tsv",
+      "sha256": "dac54224504f42787b294824beee38c5d544205f0283d418e7af5afca8c23174",
+      "role": "registered_protocol_prediction_or_placeholder"
+    },
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/artifacts/README.md",
+      "sha256": "93cb999471be9b6be5a5a27b2a8014faf762e6e6ef837a3b30c2858d0452ad9f",
+      "role": "registered_protocol_prediction_or_placeholder"
+    },
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/src/DECISION.md",
+      "sha256": "c5b4d7f71f196750cd5c65c3ba501b9cadc488415c4482fb959606af78f2e7a6",
+      "role": "registered_protocol_prediction_or_placeholder"
+    },
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/src/SPEC.json",
+      "sha256": "16a2a0574c83cae9d24b1fab9785e13bba336bac14667ec7fe0fa2b14c19d589",
+      "role": "registered_protocol_prediction_or_placeholder"
+    },
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/src/run.py",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
+      "role": "registered_protocol_prediction_or_placeholder"
+    },
+    {
+      "path": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/src/validate.py",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
+      "role": "registered_protocol_prediction_or_placeholder"
+    }
+  ],
+  "question": "Can any context-independent nonempty contiguous piece carry every fixed source-plant incidence across the complete GDT960 windows?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "behenian_all_contiguous_component_bound",
+  "status": "PREREGISTERED",
+  "title": "behenian all contiguous component bound",
+  "updated": "2026-09-15",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
