@@ -4,12 +4,12 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;close969,select variable-length content.
-Latest decision: 969all39600cases fail atINPUT/HIGH;later target arithmetic untested.
-Working files: experiments/yolo/gdt969_fibonacci_generated_root_trace/REPORT.md
-Assumptions: Exact writing model failed;0words;no arithmetic exclusion;reservesclosed.
-Resume: Publish969;review111/879/881/346 plus producer/critic concrete proposals.
-Running: Root969closure;producer35min source supply;critic20min whole-reading design.
+Task: Ten-hour session04:49:14–14:49:14UTC;review one whole-part code consequence.
+Latest decision: Rota source97events acquired;pes AB/BA supported;no target test.
+Working files: research_registry/work_batches/ten_hours_20260915/ROTA_CONTENT_DECISION.md
+Assumptions: Shared interpretation;main durations conditional;0words;all reserves closed.
+Resume: Review glyph-projected pes conjugacy under one full variable code before use.
+Running: Root source publication;critic channel review;producer source work complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

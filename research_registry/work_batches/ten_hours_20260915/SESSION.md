@@ -144,3 +144,7 @@ Next: source-only review ofFibonacci wholecalculation+writtenproof content.
 ## GDT969 closure checkpoint
 
 Source investigation from11:43UTC; metadata preflight11:55:14; public registration750f7d478 confirmed12:08:59; target run12:09:17,0.373s; independent full validation completed before this closure. All39600cases fail atINPUT/HIGH, so later arithmetic is not a manuscript test result. IT3frames3leaves contradicted; ZL1leaf/RF0 capacity,10other23-group frames unknown. Source9900traces and29synthetic checks establish code fidelity only.0words/independent meaning. Final closure publication is pending this commit; use its Git timestamp for exact completion and inclusive elapsed from11:43. Checkpoint13:00UTC retained. Next selection seeks variable-length whole content under shared semantics; no model has been selected and no width/step rescue is authorized.
+
+## Rota source acquisition checkpoint
+
+From12:26:42UTC: complete97-event inventory and native18-event independent pes comparison; robust AB/BA relation under shared interpretation. Four conditional duration branches,12steady periods and36rivals independently replayed. Main stemless-note attribution and numeric rhythm remain unresolved; initialization not separately compared. No target data/code selected. Source publication is pending this commit; use its timestamp against13:05UTC. Next is one bounded channel-consequence review, not a generic music decoder. Primary: [source report](ROTA_SOURCE_EVENTS.md).

@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+ROTA SOURCE ONLY:97writtenevents;paired pes AB/BA correspondence survives shared duration interpretation. Main numeric timing unresolved;12conditional periods/36rivals replayed, initialization not separately compared. No target model or word. Primary: research_registry/work_batches/ten_hours_20260915/ROTA_SOURCE_EVENTS.md
+
 GDT969 FIXED TRACE CODE: all39600 input/width cases across4editionframes fail at INPUT/HIGH, before later target arithmetic. IT three-leaf model contradicted; ZL1leaf/RF0 capacity and10ineligible frames remain unknown. Independent9900source/39600case/29synthetic checksPASS;0words/independent. No format repair. Primary: experiments/yolo/gdt969_fibonacci_generated_root_trace/REPORT.md
 
 GDT968 TWO-POLE FRAMEWORK: six fixed astronomical renderings,14selectors;both native observers12wholeunitscontradicted/1clippedfragmentunknown/0MATCH. Separate seals and source/result validatorPASS. No complete candidate, metricconstruction, code or meaning. Primary: experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/REPORT.md

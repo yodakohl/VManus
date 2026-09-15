@@ -1,0 +1,2506 @@
+{
+  "schema": "source-event-inventory/1",
+  "source": "British Library Harley MS978 f11v",
+  "date": "2026-09-15",
+  "scope": "Complete current written note/rest sequence and operative performance rules; no complete lyric transcription, no Voynich reading or target format.",
+  "status": "COMPLETE_PITCH_AND_MARK_INVENTORY_WITH_UNRESOLVED_EDITORIAL_DURATION_ATTRIBUTION; conditional execution only",
+  "sources": [
+    {
+      "id": "BL_NATIVE",
+      "url": "https://live.staticflickr.com/2826/12458897473_6530558074_o.jpg",
+      "owner_metadata_url": "https://www.flickr.com/photos/britishlibrary/12458897473",
+      "sha256": "f0dca799f0e46f419b0918b7be6e4443e8cda74ea53ea5a1cf97246f92bb7668",
+      "bytes": 981730,
+      "role": "Native full folio actually inspected, including all seven staves; crops used only as viewing aids."
+    },
+    {
+      "id": "HURRY1914",
+      "url": "https://archive.org/download/sumerisicumenin00hurruoft/sumerisicumenin00hurruoft.pdf",
+      "sha256": "b6064c7ce7b72c740e8a0bfdc2ea7d6c8c3d22577fcce95dac0548d8afc1070a",
+      "bytes": 3197963,
+      "pages_read": "printed28–35; modern score pp32–35 actually viewed",
+      "role": "Public-domain scholarly edition with acknowledged liberties and internal prose/score discrepancy."
+    },
+    {
+      "id": "ROCKSTRO_GROVE",
+      "url": "https://en.wikisource.org/w/index.php?title=A_Dictionary_of_Music_and_Musicians/Sumer_is_icumen_in&oldid=12180580",
+      "sha256": null,
+      "role": "Named original manuscript study, explicit duration conventions and erasure report. Web prose read; score images NOT independently collated."
+    },
+    {
+      "id": "MEEUS",
+      "url": "http://nicolas.meeus.free.fr/MusiqueAncienne/3Sumer.pdf",
+      "sha256": "b0c78c8ff0c2b030ae0ff1c0334bc6a61d19bdac71441e0128c18999f9c0b1d5",
+      "bytes": 591529,
+      "role": "Named scholarly teaching edition following Davison–Apel no42. Complete p2 score/rules actually viewed. Different corrected-layer pitches; not substituted for native inventory."
+    }
+  ],
+  "pitch_conventions": {
+    "native_reference": "C clef and B rotundum on each stave",
+    "absolute_octave": "C4 chosen as an explicit modern reference, not a source numeral; global transposition remains equivalent for intervals",
+    "staff_line_count": "Main staves six; upper pes seven including extra upper ruling; lower pes six. Upper-pes correction was prompted by independent reviewer message, then checked natively.",
+    "c_reference_line": "third red ruling from top, with the extra upper-pes ruling counted; named pitches derive from diatonic spacing and B-flat sign",
+    "visual_limit": "Irregular head tilt and erasure/show-through do not license extra notes or silent restoration of earlier layers."
+  },
+  "written_counts": {
+    "main_notes": 73,
+    "main_pauses": 6,
+    "upper_pes_notes": 8,
+    "upper_pes_pauses": 1,
+    "lower_pes_notes": 8,
+    "lower_pes_pauses": 1,
+    "all_written_events": 97
+  },
+  "independent_comparison": {
+    "own_event_matrix_precomparison_sha256": "2ff05f993c8ffcba901184bf811557ad604f4e497f785a5d80fedce3b37163fd",
+    "independent_json_sha256": "c943edac727035ff20e52785389f195ded3d6d4419189cf7c058dfd935d423a8",
+    "independent_md_sha256": "77a11f3833d49f6b6ad0f872f5a5856786faddaaf9ce846d04f89748d8fc0c86",
+    "read_after_own_matrix_written_utc": "2026-09-15 12:49:33 UTC",
+    "agreement": "All 18 pes note/pause event positions; eight notes each; rising paired ligatures; current pitch steps; operative rule semantics. Neither independent audit nor collation certifies every numeric duration.",
+    "corrections_and_qualifications": [
+      "Upper pes seven-ruling correction was prompted by reviewer message before own matrix seal and checked natively; not independent discovery.",
+      "Producer initially classified upper stray cluster as noncurrent; independent audit leaves exact ink status unresolved. Preserve unresolved status; no ninth note inserted.",
+      "Producer treats upper end stroke as pause; independent audit qualifies adjacent box-edge separation while agreeing end pause is explicitly required by red prose.",
+      "Cantatur/Canitur, repetit/repetat, dicit/dicat are retained expansion alternatives, not semantic repairs."
+    ]
+  },
+  "pes_full_event_relation": {
+    "A": [
+      "P1N001",
+      "P1N002",
+      "P1N003",
+      "P1N004",
+      "P1N005"
+    ],
+    "B": [
+      "P1N006",
+      "P1N007",
+      "P1N008",
+      "P1R01"
+    ],
+    "upper": "AB",
+    "lower": "BA",
+    "native_scope": "Pitch positions, classified square/stem forms, corresponding rising binary ligature, and required pause; isolated irregular ink and end-stroke classification caveats retained.",
+    "duration_theorem": "If the same rotation-equivariant interpretation assigns duration to corresponding notational events in their circular contexts, P2 is exactly a timed rotation of P1. This does not require A and B to have equal lengths.",
+    "numeric_scope": "C0/C1/C3: A=12,B=12; C2: A=11,B=12. None is independently certified as the complete historical rhythm."
+  },
+  "markers": [
+    {
+      "id": "X01",
+      "kind": "red entry cross",
+      "owner": "main physical stave1",
+      "after": "MN009",
+      "before": "MN010",
+      "meaning_owner": "R04",
+      "not_a_sounding_event": true
+    },
+    {
+      "id": "PES_LABEL",
+      "kind": "red pes label and enclosing mark",
+      "owner": "the two lower notated parts",
+      "not_a_sounding_event": true
+    }
+  ],
+  "events": [
+    {
+      "id": "MN001",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 1,
+      "written_note_ordinal_on_stave": 1,
+      "note_ordinal_in_part": 1,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 3,
+        "conventional_pitch": "F4",
+        "midi_under_c4_octave_convention": 65
+      }
+    },
+    {
+      "id": "MN002",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 2,
+      "written_note_ordinal_on_stave": 2,
+      "note_ordinal_in_part": 2,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 2,
+        "conventional_pitch": "E4",
+        "midi_under_c4_octave_convention": 64
+      },
+      "native_layer_note": "Current pitch E; Rockstro reports erased prior F. Prior reading not silently substituted."
+    },
+    {
+      "id": "MN003",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 3,
+      "written_note_ordinal_on_stave": 3,
+      "note_ordinal_in_part": 3,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 1,
+        "conventional_pitch": "D4",
+        "midi_under_c4_octave_convention": 62
+      }
+    },
+    {
+      "id": "MN004",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 4,
+      "written_note_ordinal_on_stave": 4,
+      "note_ordinal_in_part": 4,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 2,
+        "conventional_pitch": "E4",
+        "midi_under_c4_octave_convention": 64
+      }
+    },
+    {
+      "id": "MN005",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 5,
+      "written_note_ordinal_on_stave": 5,
+      "note_ordinal_in_part": 5,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 3,
+        "conventional_pitch": "F4",
+        "midi_under_c4_octave_convention": 65
+      }
+    },
+    {
+      "id": "MN006",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 6,
+      "written_note_ordinal_on_stave": 6,
+      "note_ordinal_in_part": 6,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 3,
+        "conventional_pitch": "F4",
+        "midi_under_c4_octave_convention": 65
+      }
+    },
+    {
+      "id": "MN007",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 7,
+      "written_note_ordinal_on_stave": 7,
+      "note_ordinal_in_part": 7,
+      "kind": "note",
+      "visible_mark_class": "t",
+      "visible_mark_description": "lozenge at start of descending ternary group, with descending oblique tractus",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 2,
+        "conventional_pitch": "E4",
+        "midi_under_c4_octave_convention": 64
+      },
+      "joined_group": "M_LIGATURE_TERNARY_1"
+    },
+    {
+      "id": "MN008",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 8,
+      "written_note_ordinal_on_stave": 8,
+      "note_ordinal_in_part": 8,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 1,
+        "conventional_pitch": "D4",
+        "midi_under_c4_octave_convention": 62
+      },
+      "joined_group": "M_LIGATURE_TERNARY_1"
+    },
+    {
+      "id": "MN009",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 9,
+      "written_note_ordinal_on_stave": 9,
+      "note_ordinal_in_part": 9,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      },
+      "joined_group": "M_LIGATURE_TERNARY_1"
+    },
+    {
+      "id": "MN010",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 10,
+      "written_note_ordinal_on_stave": 10,
+      "note_ordinal_in_part": 10,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN011",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 11,
+      "written_note_ordinal_on_stave": 11,
+      "note_ordinal_in_part": 11,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN012",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 12,
+      "written_note_ordinal_on_stave": 12,
+      "note_ordinal_in_part": 12,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      }
+    },
+    {
+      "id": "MN013",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 13,
+      "written_note_ordinal_on_stave": 13,
+      "note_ordinal_in_part": 13,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "MN014",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 14,
+      "written_note_ordinal_on_stave": 14,
+      "note_ordinal_in_part": 14,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MR01",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 15,
+      "written_note_ordinal_on_stave": null,
+      "note_ordinal_in_part": null,
+      "kind": "pause",
+      "visible_mark_class": "R",
+      "visible_mark_description": "upright pause stroke, not a modern barline",
+      "pitch_reading": null
+    },
+    {
+      "id": "MN015",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 16,
+      "written_note_ordinal_on_stave": 15,
+      "note_ordinal_in_part": 15,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "MN016",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 17,
+      "written_note_ordinal_on_stave": 16,
+      "note_ordinal_in_part": 16,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN017",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 18,
+      "written_note_ordinal_on_stave": 17,
+      "note_ordinal_in_part": 17,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "MN018",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 19,
+      "written_note_ordinal_on_stave": 18,
+      "note_ordinal_in_part": 18,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      }
+    },
+    {
+      "id": "MN019",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 20,
+      "written_note_ordinal_on_stave": 19,
+      "note_ordinal_in_part": 19,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN020",
+      "part": "M",
+      "physical_stave": "M1",
+      "written_event_ordinal_on_stave": 21,
+      "written_note_ordinal_on_stave": 20,
+      "note_ordinal_in_part": 20,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN021",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 1,
+      "written_note_ordinal_on_stave": 1,
+      "note_ordinal_in_part": 21,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "MN022",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 2,
+      "written_note_ordinal_on_stave": 2,
+      "note_ordinal_in_part": 22,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "MN023",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 3,
+      "written_note_ordinal_on_stave": 3,
+      "note_ordinal_in_part": 23,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN024",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 4,
+      "written_note_ordinal_on_stave": 4,
+      "note_ordinal_in_part": 24,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "MN025",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 5,
+      "written_note_ordinal_on_stave": 5,
+      "note_ordinal_in_part": 25,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 1,
+        "conventional_pitch": "D4",
+        "midi_under_c4_octave_convention": 62
+      }
+    },
+    {
+      "id": "MN026",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 6,
+      "written_note_ordinal_on_stave": 6,
+      "note_ordinal_in_part": 26,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 1,
+        "conventional_pitch": "D4",
+        "midi_under_c4_octave_convention": 62
+      }
+    },
+    {
+      "id": "MN027",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 7,
+      "written_note_ordinal_on_stave": 7,
+      "note_ordinal_in_part": 27,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "MR02",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 8,
+      "written_note_ordinal_on_stave": null,
+      "note_ordinal_in_part": null,
+      "kind": "pause",
+      "visible_mark_class": "R",
+      "visible_mark_description": "upright pause stroke, not a modern barline",
+      "pitch_reading": null
+    },
+    {
+      "id": "MN028",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 9,
+      "written_note_ordinal_on_stave": 8,
+      "note_ordinal_in_part": 28,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 3,
+        "conventional_pitch": "F4",
+        "midi_under_c4_octave_convention": 65
+      }
+    },
+    {
+      "id": "MN029",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 10,
+      "written_note_ordinal_on_stave": 9,
+      "note_ordinal_in_part": 29,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 1,
+        "conventional_pitch": "D4",
+        "midi_under_c4_octave_convention": 62
+      }
+    },
+    {
+      "id": "MN030",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 11,
+      "written_note_ordinal_on_stave": 10,
+      "note_ordinal_in_part": 30,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 3,
+        "conventional_pitch": "F4",
+        "midi_under_c4_octave_convention": 65
+      }
+    },
+    {
+      "id": "MR03",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 12,
+      "written_note_ordinal_on_stave": null,
+      "note_ordinal_in_part": null,
+      "kind": "pause",
+      "visible_mark_class": "R",
+      "visible_mark_description": "upright pause stroke, not a modern barline",
+      "pitch_reading": null
+    },
+    {
+      "id": "MN031",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 13,
+      "written_note_ordinal_on_stave": 11,
+      "note_ordinal_in_part": 31,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "MN032",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 14,
+      "written_note_ordinal_on_stave": 12,
+      "note_ordinal_in_part": 32,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN033",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 15,
+      "written_note_ordinal_on_stave": 13,
+      "note_ordinal_in_part": 33,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      }
+    },
+    {
+      "id": "MN034",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 16,
+      "written_note_ordinal_on_stave": 14,
+      "note_ordinal_in_part": 34,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "MN035",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 17,
+      "written_note_ordinal_on_stave": 15,
+      "note_ordinal_in_part": 35,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN036",
+      "part": "M",
+      "physical_stave": "M2",
+      "written_event_ordinal_on_stave": 18,
+      "written_note_ordinal_on_stave": 16,
+      "note_ordinal_in_part": 36,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "MN037",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 1,
+      "written_note_ordinal_on_stave": 1,
+      "note_ordinal_in_part": 37,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      }
+    },
+    {
+      "id": "MN038",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 2,
+      "written_note_ordinal_on_stave": 2,
+      "note_ordinal_in_part": 38,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN039",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 3,
+      "written_note_ordinal_on_stave": 3,
+      "note_ordinal_in_part": 39,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "MN040",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 4,
+      "written_note_ordinal_on_stave": 4,
+      "note_ordinal_in_part": 40,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN041",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 5,
+      "written_note_ordinal_on_stave": 5,
+      "note_ordinal_in_part": 41,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "MN042",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 6,
+      "written_note_ordinal_on_stave": 6,
+      "note_ordinal_in_part": 42,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -5,
+        "conventional_pitch": "E3",
+        "midi_under_c4_octave_convention": 52
+      }
+    },
+    {
+      "id": "MN043",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 7,
+      "written_note_ordinal_on_stave": 7,
+      "note_ordinal_in_part": 43,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "MR04",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 8,
+      "written_note_ordinal_on_stave": null,
+      "note_ordinal_in_part": null,
+      "kind": "pause",
+      "visible_mark_class": "R",
+      "visible_mark_description": "upright pause stroke, not a modern barline",
+      "pitch_reading": null
+    },
+    {
+      "id": "MN044",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 9,
+      "written_note_ordinal_on_stave": 8,
+      "note_ordinal_in_part": 44,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN045",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 10,
+      "written_note_ordinal_on_stave": 9,
+      "note_ordinal_in_part": 45,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN046",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 11,
+      "written_note_ordinal_on_stave": 10,
+      "note_ordinal_in_part": 46,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "MN047",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 12,
+      "written_note_ordinal_on_stave": 11,
+      "note_ordinal_in_part": 47,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      }
+    },
+    {
+      "id": "MN048",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 13,
+      "written_note_ordinal_on_stave": 12,
+      "note_ordinal_in_part": 48,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "MN049",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 14,
+      "written_note_ordinal_on_stave": 13,
+      "note_ordinal_in_part": 49,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "MN050",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 15,
+      "written_note_ordinal_on_stave": 14,
+      "note_ordinal_in_part": 50,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 1,
+        "conventional_pitch": "D4",
+        "midi_under_c4_octave_convention": 62
+      }
+    },
+    {
+      "id": "MN051",
+      "part": "M",
+      "physical_stave": "M3",
+      "written_event_ordinal_on_stave": 16,
+      "written_note_ordinal_on_stave": 15,
+      "note_ordinal_in_part": 51,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 2,
+        "conventional_pitch": "E4",
+        "midi_under_c4_octave_convention": 64
+      }
+    },
+    {
+      "id": "MN052",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 1,
+      "written_note_ordinal_on_stave": 1,
+      "note_ordinal_in_part": 52,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 3,
+        "conventional_pitch": "F4",
+        "midi_under_c4_octave_convention": 65
+      }
+    },
+    {
+      "id": "MN053",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 2,
+      "written_note_ordinal_on_stave": 2,
+      "note_ordinal_in_part": 53,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 2,
+        "conventional_pitch": "E4",
+        "midi_under_c4_octave_convention": 64
+      }
+    },
+    {
+      "id": "MN054",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 3,
+      "written_note_ordinal_on_stave": 3,
+      "note_ordinal_in_part": 54,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 1,
+        "conventional_pitch": "D4",
+        "midi_under_c4_octave_convention": 62
+      }
+    },
+    {
+      "id": "MN055",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 4,
+      "written_note_ordinal_on_stave": 4,
+      "note_ordinal_in_part": 55,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 2,
+        "conventional_pitch": "E4",
+        "midi_under_c4_octave_convention": 64
+      }
+    },
+    {
+      "id": "MN056",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 5,
+      "written_note_ordinal_on_stave": 5,
+      "note_ordinal_in_part": 56,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 3,
+        "conventional_pitch": "F4",
+        "midi_under_c4_octave_convention": 65
+      }
+    },
+    {
+      "id": "MR05",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 6,
+      "written_note_ordinal_on_stave": null,
+      "note_ordinal_in_part": null,
+      "kind": "pause",
+      "visible_mark_class": "R",
+      "visible_mark_description": "upright pause stroke, not a modern barline",
+      "pitch_reading": null
+    },
+    {
+      "id": "MN057",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 7,
+      "written_note_ordinal_on_stave": 6,
+      "note_ordinal_in_part": 57,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "MN058",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 8,
+      "written_note_ordinal_on_stave": 7,
+      "note_ordinal_in_part": 58,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 1,
+        "conventional_pitch": "D4",
+        "midi_under_c4_octave_convention": 62
+      }
+    },
+    {
+      "id": "MN059",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 9,
+      "written_note_ordinal_on_stave": 8,
+      "note_ordinal_in_part": 59,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "MN060",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 10,
+      "written_note_ordinal_on_stave": 9,
+      "note_ordinal_in_part": 60,
+      "kind": "note",
+      "visible_mark_class": "l",
+      "visible_mark_description": "member of joined two-note group; individual duration not read directly from head",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      },
+      "joined_group": "M_LIGATURE_BINARY_1"
+    },
+    {
+      "id": "MN061",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 11,
+      "written_note_ordinal_on_stave": 10,
+      "note_ordinal_in_part": 61,
+      "kind": "note",
+      "visible_mark_class": "l",
+      "visible_mark_description": "member of joined two-note group; individual duration not read directly from head",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      },
+      "joined_group": "M_LIGATURE_BINARY_1"
+    },
+    {
+      "id": "MN062",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 12,
+      "written_note_ordinal_on_stave": 11,
+      "note_ordinal_in_part": 62,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "MN063",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 13,
+      "written_note_ordinal_on_stave": 12,
+      "note_ordinal_in_part": 63,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN064",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 14,
+      "written_note_ordinal_on_stave": 13,
+      "note_ordinal_in_part": 64,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      }
+    },
+    {
+      "id": "MN065",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 15,
+      "written_note_ordinal_on_stave": 14,
+      "note_ordinal_in_part": 65,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "MN066",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 16,
+      "written_note_ordinal_on_stave": 15,
+      "note_ordinal_in_part": 66,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN067",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 17,
+      "written_note_ordinal_on_stave": 16,
+      "note_ordinal_in_part": 67,
+      "kind": "note",
+      "visible_mark_class": "u",
+      "visible_mark_description": "approximately horizontal square head without a clear stem; near erased area",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      },
+      "native_layer_note": "Local shape/edition attribution unresolved: current reading locates clear stemless square at MN067; Hurry p28 says penultimate note of stave4, which is MN068. Preserve both statements."
+    },
+    {
+      "id": "MN068",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 18,
+      "written_note_ordinal_on_stave": 17,
+      "note_ordinal_in_part": 68,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      },
+      "native_layer_note": "Local shape/edition attribution unresolved: current reading locates clear stemless square at MN067; Hurry p28 says penultimate note of stave4, which is MN068. Preserve both statements."
+    },
+    {
+      "id": "MN069",
+      "part": "M",
+      "physical_stave": "M4",
+      "written_event_ordinal_on_stave": 19,
+      "written_note_ordinal_on_stave": 18,
+      "note_ordinal_in_part": 69,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      }
+    },
+    {
+      "id": "MN070",
+      "part": "M",
+      "physical_stave": "M5",
+      "written_event_ordinal_on_stave": 1,
+      "written_note_ordinal_on_stave": 1,
+      "note_ordinal_in_part": 70,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "MN071",
+      "part": "M",
+      "physical_stave": "M5",
+      "written_event_ordinal_on_stave": 2,
+      "written_note_ordinal_on_stave": 2,
+      "note_ordinal_in_part": 71,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "MN072",
+      "part": "M",
+      "physical_stave": "M5",
+      "written_event_ordinal_on_stave": 3,
+      "written_note_ordinal_on_stave": 3,
+      "note_ordinal_in_part": 72,
+      "kind": "note",
+      "visible_mark_class": "b",
+      "visible_mark_description": "filled untailed head, lozenge/oblique form; not a modern duration symbol",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -5,
+        "conventional_pitch": "E3",
+        "midi_under_c4_octave_convention": 52
+      }
+    },
+    {
+      "id": "MN073",
+      "part": "M",
+      "physical_stave": "M5",
+      "written_event_ordinal_on_stave": 4,
+      "written_note_ordinal_on_stave": 4,
+      "note_ordinal_in_part": 73,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "MR06",
+      "part": "M",
+      "physical_stave": "M5",
+      "written_event_ordinal_on_stave": 5,
+      "written_note_ordinal_on_stave": null,
+      "note_ordinal_in_part": null,
+      "kind": "pause",
+      "visible_mark_class": "R",
+      "visible_mark_description": "upright pause stroke, not a modern barline",
+      "pitch_reading": null
+    },
+    {
+      "id": "P1N001",
+      "part": "P1",
+      "physical_stave": "P1",
+      "written_event_ordinal_on_stave": 1,
+      "written_note_ordinal_on_stave": 1,
+      "note_ordinal_in_part": 1,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "P1N002",
+      "part": "P1",
+      "physical_stave": "P1",
+      "written_event_ordinal_on_stave": 2,
+      "written_note_ordinal_on_stave": 2,
+      "note_ordinal_in_part": 2,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "P1N003",
+      "part": "P1",
+      "physical_stave": "P1",
+      "written_event_ordinal_on_stave": 3,
+      "written_note_ordinal_on_stave": 3,
+      "note_ordinal_in_part": 3,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "P1N004",
+      "part": "P1",
+      "physical_stave": "P1",
+      "written_event_ordinal_on_stave": 4,
+      "written_note_ordinal_on_stave": 4,
+      "note_ordinal_in_part": 4,
+      "kind": "note",
+      "visible_mark_class": "l",
+      "visible_mark_description": "member of joined two-note group; individual duration not read directly from head",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      },
+      "joined_group": "P1_LIGATURE_BINARY_1"
+    },
+    {
+      "id": "P1N005",
+      "part": "P1",
+      "physical_stave": "P1",
+      "written_event_ordinal_on_stave": 5,
+      "written_note_ordinal_on_stave": 5,
+      "note_ordinal_in_part": 5,
+      "kind": "note",
+      "visible_mark_class": "l",
+      "visible_mark_description": "member of joined two-note group; individual duration not read directly from head",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      },
+      "joined_group": "P1_LIGATURE_BINARY_1"
+    },
+    {
+      "id": "P1N006",
+      "part": "P1",
+      "physical_stave": "P1",
+      "written_event_ordinal_on_stave": 6,
+      "written_note_ordinal_on_stave": 6,
+      "note_ordinal_in_part": 6,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "P1N007",
+      "part": "P1",
+      "physical_stave": "P1",
+      "written_event_ordinal_on_stave": 7,
+      "written_note_ordinal_on_stave": 7,
+      "note_ordinal_in_part": 7,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      }
+    },
+    {
+      "id": "P1N008",
+      "part": "P1",
+      "physical_stave": "P1",
+      "written_event_ordinal_on_stave": 8,
+      "written_note_ordinal_on_stave": 8,
+      "note_ordinal_in_part": 8,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "P1R01",
+      "part": "P1",
+      "physical_stave": "P1",
+      "written_event_ordinal_on_stave": 9,
+      "written_note_ordinal_on_stave": null,
+      "note_ordinal_in_part": null,
+      "kind": "pause",
+      "visible_mark_class": "R",
+      "visible_mark_description": "upright pause stroke, not a modern barline",
+      "pitch_reading": null
+    },
+    {
+      "id": "P2N001",
+      "part": "P2",
+      "physical_stave": "P2",
+      "written_event_ordinal_on_stave": 1,
+      "written_note_ordinal_on_stave": 1,
+      "note_ordinal_in_part": 1,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "P2N002",
+      "part": "P2",
+      "physical_stave": "P2",
+      "written_event_ordinal_on_stave": 2,
+      "written_note_ordinal_on_stave": 2,
+      "note_ordinal_in_part": 2,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -1,
+        "conventional_pitch": "Bb3",
+        "midi_under_c4_octave_convention": 58
+      }
+    },
+    {
+      "id": "P2N003",
+      "part": "P2",
+      "physical_stave": "P2",
+      "written_event_ordinal_on_stave": 3,
+      "written_note_ordinal_on_stave": 3,
+      "note_ordinal_in_part": 3,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": 0,
+        "conventional_pitch": "C4",
+        "midi_under_c4_octave_convention": 60
+      }
+    },
+    {
+      "id": "P2R01",
+      "part": "P2",
+      "physical_stave": "P2",
+      "written_event_ordinal_on_stave": 4,
+      "written_note_ordinal_on_stave": null,
+      "note_ordinal_in_part": null,
+      "kind": "pause",
+      "visible_mark_class": "R",
+      "visible_mark_description": "upright pause stroke, not a modern barline",
+      "pitch_reading": null
+    },
+    {
+      "id": "P2N004",
+      "part": "P2",
+      "physical_stave": "P2",
+      "written_event_ordinal_on_stave": 5,
+      "written_note_ordinal_on_stave": 4,
+      "note_ordinal_in_part": 4,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "P2N005",
+      "part": "P2",
+      "physical_stave": "P2",
+      "written_event_ordinal_on_stave": 6,
+      "written_note_ordinal_on_stave": 5,
+      "note_ordinal_in_part": 5,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      }
+    },
+    {
+      "id": "P2N006",
+      "part": "P2",
+      "physical_stave": "P2",
+      "written_event_ordinal_on_stave": 7,
+      "written_note_ordinal_on_stave": 6,
+      "note_ordinal_in_part": 6,
+      "kind": "note",
+      "visible_mark_class": "L",
+      "visible_mark_description": "filled approximately square head with descending stem",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -4,
+        "conventional_pitch": "F3",
+        "midi_under_c4_octave_convention": 53
+      }
+    },
+    {
+      "id": "P2N007",
+      "part": "P2",
+      "physical_stave": "P2",
+      "written_event_ordinal_on_stave": 8,
+      "written_note_ordinal_on_stave": 7,
+      "note_ordinal_in_part": 7,
+      "kind": "note",
+      "visible_mark_class": "l",
+      "visible_mark_description": "member of joined two-note group; individual duration not read directly from head",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -3,
+        "conventional_pitch": "G3",
+        "midi_under_c4_octave_convention": 55
+      },
+      "joined_group": "P2_LIGATURE_BINARY_1"
+    },
+    {
+      "id": "P2N008",
+      "part": "P2",
+      "physical_stave": "P2",
+      "written_event_ordinal_on_stave": 9,
+      "written_note_ordinal_on_stave": 8,
+      "note_ordinal_in_part": 8,
+      "kind": "note",
+      "visible_mark_class": "l",
+      "visible_mark_description": "member of joined two-note group; individual duration not read directly from head",
+      "pitch_reading": {
+        "diatonic_steps_above_c_reference": -2,
+        "conventional_pitch": "A3",
+        "midi_under_c4_octave_convention": 57
+      },
+      "joined_group": "P2_LIGATURE_BINARY_1"
+    }
+  ],
+  "rules": [
+    {
+      "id": "R01",
+      "owner": "black ruled instruction box, opening clause",
+      "latin_normalized": "Hanc rotam cantare possunt quatuor socii.",
+      "meaning": "Four companions may sing the rota.",
+      "content": "selected_upper_voice_count_4",
+      "qualification": "The clause says four can sing; it does not prohibit human doubling or prove an absolute maximum."
+    },
+    {
+      "id": "R02",
+      "owner": "same box, second clause",
+      "latin_normalized": "A paucioribus autem quam a tribus vel saltem duobus non debet dici, preter eos qui dicunt pedem.",
+      "meaning": "It should not be sung by fewer than three, or at least two, apart from those who sing the pes.",
+      "content": "upper_voices_2_3_4_plus_pes",
+      "collation": "Meeus prints aut where native expansion is read vel; operational alternative unchanged."
+    },
+    {
+      "id": "R03",
+      "owner": "same box, Canitur autem sic / Tacentibus clause",
+      "latin_normalized": "Canitur autem sic. Tacentibus ceteris, unus inchoat cum hiis qui tenent pedem.",
+      "meaning": "With the others silent, one begins together with those who sustain the pes.",
+      "content": "rota_voice_1_and_both_pes_start_together",
+      "collation": "Independent audit expands Cantatur; producer/Meeus Canitur. No operative distinction claimed."
+    },
+    {
+      "id": "R04",
+      "owner": "same box, Et cum venerit clause; red cross in main stave1",
+      "latin_normalized": "Et cum venerit ad primam notam post crucem, inchoat alius, et sic de ceteris.",
+      "meaning": "When that singer reaches the first note after the cross, another begins; likewise the others.",
+      "content": "successive_upper_voice_delay_equals_time_to_MN010",
+      "marker": "X01"
+    },
+    {
+      "id": "R05",
+      "owner": "same box, final Singuli clause",
+      "latin_normalized": "Singuli vero repausent ad pausaciones scriptas et non alibi, spacio unius longe note.",
+      "meaning": "Each pauses at the written pauses and nowhere else, for one long note.",
+      "content": "written_pauses_only_duration_one_longa",
+      "scope_qualification": "Immediate boxed context is rota singers; extension of its numeric realization to pes pauses is an explicit shared-scope assumption.",
+      "duration_limit": "This says longa, not an independently specified modern beat count."
+    },
+    {
+      "id": "R06",
+      "owner": "red instruction immediately right/below upper pes",
+      "latin_normalized": "Hoc repetat unus quociens opus est, faciens pausacionem in fine.",
+      "meaning": "One repeats this as often as needed, making a pause at the end.",
+      "content": "P1_repeats_with_ending_pause",
+      "collation": "Independent audit and Meeus print repetit; initial producer expansion repetat is retained as a provisional alternative; repeat behavior unchanged."
+    },
+    {
+      "id": "R07",
+      "owner": "red instruction to right/below lower pes",
+      "latin_normalized": "Hoc dicat alius pausans in medio et non in fine, set immediate repetens principium.",
+      "meaning": "The other sings this, pausing in the middle and not at the end, but immediately repeating the beginning.",
+      "content": "P2_pause_after_third_note_no_end_pause_immediate_repeat",
+      "collation": "Independent audit and Meeus print dicit; initial producer expansion dicat is retained as a provisional alternative; non is retained."
+    }
+  ],
+  "baseline_conditional_duration_breves": {
+    "MN001": "2",
+    "MN002": "1",
+    "MN003": "2",
+    "MN004": "1",
+    "MN005": "2",
+    "MN006": "1",
+    "MN007": "1",
+    "MN008": "1",
+    "MN009": "1",
+    "MN010": "2",
+    "MN011": "1",
+    "MN012": "2",
+    "MN013": "1",
+    "MN014": "3",
+    "MR01": "3",
+    "MN015": "2",
+    "MN016": "1",
+    "MN017": "2",
+    "MN018": "1",
+    "MN019": "2",
+    "MN020": "1",
+    "MN021": "2",
+    "MN022": "1",
+    "MN023": "2",
+    "MN024": "1",
+    "MN025": "2",
+    "MN026": "1",
+    "MN027": "3",
+    "MR02": "3",
+    "MN028": "3",
+    "MN029": "3",
+    "MN030": "3",
+    "MR03": "3",
+    "MN031": "2",
+    "MN032": "1",
+    "MN033": "2",
+    "MN034": "1",
+    "MN035": "2",
+    "MN036": "1",
+    "MN037": "2",
+    "MN038": "1",
+    "MN039": "2",
+    "MN040": "1",
+    "MN041": "2",
+    "MN042": "1",
+    "MN043": "3",
+    "MR04": "3",
+    "MN044": "2",
+    "MN045": "1",
+    "MN046": "2",
+    "MN047": "1",
+    "MN048": "2",
+    "MN049": "1",
+    "MN050": "2",
+    "MN051": "1",
+    "MN052": "2",
+    "MN053": "1",
+    "MN054": "2",
+    "MN055": "1",
+    "MN056": "3",
+    "MR05": "3",
+    "MN057": "3",
+    "MN058": "3",
+    "MN059": "3",
+    "MN060": "2",
+    "MN061": "1",
+    "MN062": "2",
+    "MN063": "1",
+    "MN064": "2",
+    "MN065": "1",
+    "MN066": "3",
+    "MN067": "2",
+    "MN068": "1",
+    "MN069": "2",
+    "MN070": "1",
+    "MN071": "2",
+    "MN072": "1",
+    "MN073": "3",
+    "MR06": "3",
+    "P1N001": "3",
+    "P1N002": "3",
+    "P1N003": "3",
+    "P1N004": "2",
+    "P1N005": "1",
+    "P1N006": "3",
+    "P1N007": "3",
+    "P1N008": "3",
+    "P1R01": "3",
+    "P2N001": "3",
+    "P2N002": "3",
+    "P2N003": "3",
+    "P2R01": "3",
+    "P2N004": "3",
+    "P2N005": "3",
+    "P2N006": "3",
+    "P2N007": "2",
+    "P2N008": "1"
+  },
+  "documentary_duration_branches": [
+    {
+      "id": "C0_local_current_conditional",
+      "changes": {},
+      "status": "conditional composite, NOT a certified complete historical edition",
+      "conditions": [
+        "Current native pitches and head classification.",
+        "Ternary group 1+1+1 following Hurry p31.",
+        "MN067 is the stemless longa, duration2; MN066=3 and MN068=1.",
+        "Main written pauses are perfect longae3; extending the boxed longa prescription to both pes pauses is a declared shared-scope assumption.",
+        "Binary groups interpreted2+1, following the owned modern scores."
+      ]
+    },
+    {
+      "id": "C1_rockstro_ternary_conditional",
+      "changes": {
+        "MN007": "3/2",
+        "MN008": "1/2"
+      },
+      "status": "C0 sensitivity using Rockstro explicit ternary rhythm; not full Grove score collation"
+    },
+    {
+      "id": "C2_hurry_pes_prose_countercase",
+      "changes": {
+        "P1N004": "1",
+        "P2N007": "1"
+      },
+      "status": "C0 sensitivity preserving Hurry prose both-minims claim against owned score; not an endorsed performance"
+    },
+    {
+      "id": "C3_ordinal_missing_stem_sensitivity",
+      "changes": {
+        "MN066": "2",
+        "MN067": "1",
+        "MN068": "3"
+      },
+      "status": "C0 sensitivity to Hurry penultimate-note ordinal: stemless longa assigned to MN068; other lengths from his perfect/imperfect rule. This is a constructed documentary alternative, not an attested complete edition."
+    }
+  ],
+  "branch_policy": "C0 is a declared composite local reading, not proof that all duration ambiguity is solved. C1–C3 change one documented uncertainty at a time; they are not asserted exhaustive and their Cartesian product is not claimed historically licensed. No branch was chosen for target convenience.",
+  "preregistered_source_only_rivals": [
+    {
+      "id": "entry_shift_plus_one_breve",
+      "mutation": "Upper entries at successive multiples of d+1, instead of d; written part events unchanged."
+    },
+    {
+      "id": "upper_pes_rest_phase_swap",
+      "mutation": "Swap P1 ending pause with immediately preceding note as duration-carrying events; all notes, durations and pause counts retained."
+    },
+    {
+      "id": "reverse_main_event_cycle",
+      "mutation": "Reverse the complete main event order, including pauses, retaining each pitch-duration pair; hold entry delay d fixed."
+    }
+  ],
+  "executions": [
+    {
+      "branch": "C0_local_current_conditional",
+      "written_part_lengths_breves": {
+        "M": "144",
+        "P1": "24",
+        "P2": "24"
+      },
+      "entry_delay_breves": "12",
+      "pes2_equals_pes1_rotation_ticks": [
+        24
+      ],
+      "execution": [
+        {
+          "upper_voices": 2,
+          "pes_voices": 2,
+          "start_tick": 26,
+          "period_ticks": 288,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "a95899790c1e845846e76345a33c20da95239c8fddbd9fbdde2a610470ce46d1",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 146,
+              "different_rest_mask_cells": 24,
+              "different_signed_interval_or_undefined_cells": 376,
+              "first_difference": {
+                "sample_tick": 2,
+                "voice_index": 1,
+                "base_midi_or_rest": 64,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "13bf8d960f0aea938eedf0dc689ec128dc650d6e53d5e818ea30ed2cb5402d6e"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 72,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 180,
+              "first_difference": {
+                "sample_tick": 10,
+                "voice_index": 2,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "a1eb63fe44a6c6acebf7229fbb99b161dca79cd61fb3f8a99223f354eb9b80ec"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 576,
+              "different_rest_mask_cells": 144,
+              "different_signed_interval_or_undefined_cells": 1284,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 57,
+                "rival_midi_or_rest": 58
+              },
+              "rival_output_sha256": "21c9cf58815a4ceef55e45d4135eed84488fed059753002c41d022ddea00f367"
+            }
+          ]
+        },
+        {
+          "upper_voices": 3,
+          "pes_voices": 2,
+          "start_tick": 52,
+          "period_ticks": 288,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "d34fed52d2b12cfe288731c7cf62a6bc606f344a186bc097829eecb3f3f11114",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 386,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 1226,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 2,
+                "base_midi_or_rest": 64,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "7506568a183227928d64538e633bcb042850a9a69c03fd3ae7db67c996250b85"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 72,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 234,
+              "first_difference": {
+                "sample_tick": 32,
+                "voice_index": 3,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "7260d46c2bfbef24f32c26701f4cc6c966e85c9527b3388d9790322660266a44"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 864,
+              "different_rest_mask_cells": 216,
+              "different_signed_interval_or_undefined_cells": 2348,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 57,
+                "rival_midi_or_rest": 58
+              },
+              "rival_output_sha256": "742f01c3a211aff5f4f585aa1e697c6835a5e98a66d88013c1e1887e6cfc4c4a"
+            }
+          ]
+        },
+        {
+          "upper_voices": 4,
+          "pes_voices": 2,
+          "start_tick": 78,
+          "period_ticks": 288,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "584781a97a07b391de359ad0e014356ffddc9fba305319e111a75fd127e9fd59",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 662,
+              "different_rest_mask_cells": 144,
+              "different_signed_interval_or_undefined_cells": 2460,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 1,
+                "base_midi_or_rest": 55,
+                "rival_midi_or_rest": 57
+              },
+              "rival_output_sha256": "e54936cfc8f6e9351610c0d33936bf0a0aa921aae5763fdcbff43acec01515bf"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 72,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 288,
+              "first_difference": {
+                "sample_tick": 6,
+                "voice_index": 4,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "9e16a4e5faffed729882ca3ce2c2c9204fec76bb8a4bd33ddca22a49441360bd"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 1152,
+              "different_rest_mask_cells": 288,
+              "different_signed_interval_or_undefined_cells": 3684,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 62,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "628e670a9bfb8ce54c0f46df0ed87c25b61a28774789a45bcc00bea5139d2edb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "branch": "C1_rockstro_ternary_conditional",
+      "written_part_lengths_breves": {
+        "M": "144",
+        "P1": "24",
+        "P2": "24"
+      },
+      "entry_delay_breves": "12",
+      "pes2_equals_pes1_rotation_ticks": [
+        24
+      ],
+      "execution": [
+        {
+          "upper_voices": 2,
+          "pes_voices": 2,
+          "start_tick": 26,
+          "period_ticks": 288,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "ebf43a5d6fe11d2a9b7e3497f0dafab927b08244fb500b4458cdf18aab6648c5",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 145,
+              "different_rest_mask_cells": 24,
+              "different_signed_interval_or_undefined_cells": 375,
+              "first_difference": {
+                "sample_tick": 2,
+                "voice_index": 1,
+                "base_midi_or_rest": 64,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "0b8be0e5212d447a534690686a33f66ac1c4310bc1bbd22ce05cd1153d5729a1"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 72,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 180,
+              "first_difference": {
+                "sample_tick": 10,
+                "voice_index": 2,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "7e3ce3f0a6b70de860241a57af656908d3e8ef3c378e362d6e27565b9335cd16"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 576,
+              "different_rest_mask_cells": 144,
+              "different_signed_interval_or_undefined_cells": 1284,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 57,
+                "rival_midi_or_rest": 58
+              },
+              "rival_output_sha256": "cc083367dec27ba7d224710cfce77c49782ea2ebb58b7d2ebdcea46fa78b3e6d"
+            }
+          ]
+        },
+        {
+          "upper_voices": 3,
+          "pes_voices": 2,
+          "start_tick": 52,
+          "period_ticks": 288,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "c72b1890c5a70038b5ad74c75e9922ad2d08f6df3b0449066d27a5b638c68f79",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 385,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 1225,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 2,
+                "base_midi_or_rest": 64,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "277b2ceb74f94f1c6ab19102fa02e8dbee71f30c03a94f1d99a76aaccb02e714"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 72,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 234,
+              "first_difference": {
+                "sample_tick": 32,
+                "voice_index": 3,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "240f43e4cf33f0c4c2eb678dfbc84ee84b9bce6e728a3bdf232d8691a095db59"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 864,
+              "different_rest_mask_cells": 216,
+              "different_signed_interval_or_undefined_cells": 2348,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 57,
+                "rival_midi_or_rest": 58
+              },
+              "rival_output_sha256": "2510aa4456a6919dbd417c20c9cfd522e1a2a7948f12cabcaca0be8bde535d88"
+            }
+          ]
+        },
+        {
+          "upper_voices": 4,
+          "pes_voices": 2,
+          "start_tick": 78,
+          "period_ticks": 288,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "6730f7ba5932501c7d3909ec3a99786174dada26a89fc8ec1449b12c0fe37091",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 661,
+              "different_rest_mask_cells": 144,
+              "different_signed_interval_or_undefined_cells": 2459,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 1,
+                "base_midi_or_rest": 55,
+                "rival_midi_or_rest": 57
+              },
+              "rival_output_sha256": "a2164467573787321ac01e9e3ec51ceadda25d33a0313453f22bbe8e84e43aa0"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 72,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 288,
+              "first_difference": {
+                "sample_tick": 6,
+                "voice_index": 4,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "acc98733bf7acf8ec69959c3fb8ae0baae57aa09adf6140c209d557919eb2e5f"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 1152,
+              "different_rest_mask_cells": 288,
+              "different_signed_interval_or_undefined_cells": 3686,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 62,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "efd158a6497f0f568780decd3924c1379dde3d84889724e9cecd28f3d5325b95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "branch": "C2_hurry_pes_prose_countercase",
+      "written_part_lengths_breves": {
+        "M": "144",
+        "P1": "23",
+        "P2": "23"
+      },
+      "entry_delay_breves": "12",
+      "pes2_equals_pes1_rotation_ticks": [
+        22
+      ],
+      "execution": [
+        {
+          "upper_voices": 2,
+          "pes_voices": 2,
+          "start_tick": 26,
+          "period_ticks": 6624,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "3e6ce8d42dbb016e902c79773446ed88319cacf9bb9e3a7625db5088f2994b5d",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 3358,
+              "different_rest_mask_cells": 552,
+              "different_signed_interval_or_undefined_cells": 8646,
+              "first_difference": {
+                "sample_tick": 2,
+                "voice_index": 1,
+                "base_midi_or_rest": 64,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "3ec60be407598c48033ee4a1ff457d4b564530dac67b832197587fe821a399f1"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 1728,
+              "different_rest_mask_cells": 1728,
+              "different_signed_interval_or_undefined_cells": 4752,
+              "first_difference": {
+                "sample_tick": 8,
+                "voice_index": 2,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "aea5a8da3d43ca605be2589040ab631912dfb116e981716fe6e6e65efdbff264"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 13248,
+              "different_rest_mask_cells": 3312,
+              "different_signed_interval_or_undefined_cells": 29388,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 57,
+                "rival_midi_or_rest": 58
+              },
+              "rival_output_sha256": "9f8cb794bc8fab92d55e21323b83add20d2a3b389b19edfdb852dea21db7dad7"
+            }
+          ]
+        },
+        {
+          "upper_voices": 3,
+          "pes_voices": 2,
+          "start_tick": 52,
+          "period_ticks": 6624,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "fc2743872d362ae2b0ec48daed53424e30bd89bca878f2406b928c92390a414c",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 8878,
+              "different_rest_mask_cells": 1656,
+              "different_signed_interval_or_undefined_cells": 28136,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 2,
+                "base_midi_or_rest": 64,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "ebc31f75ea5b76cd49bc6897253e04c1b381c08659528412fa0a7c2228fc210c"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 1728,
+              "different_rest_mask_cells": 1728,
+              "different_signed_interval_or_undefined_cells": 6264,
+              "first_difference": {
+                "sample_tick": 28,
+                "voice_index": 3,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "2e66e649773144257f9b59d683cf111062bdfbdf8d8eb304bb1b0a60d4d2f287"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 19872,
+              "different_rest_mask_cells": 4968,
+              "different_signed_interval_or_undefined_cells": 53788,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 57,
+                "rival_midi_or_rest": 58
+              },
+              "rival_output_sha256": "c31b2b9bc1f0da0f3620ffa9b4bbc71b18a7e6e922e13095f5cfbd770c4cf8ae"
+            }
+          ]
+        },
+        {
+          "upper_voices": 4,
+          "pes_voices": 2,
+          "start_tick": 78,
+          "period_ticks": 6624,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "e080aa494a67d35592104a2e39e19eb1db1837d126b881e18cb1c7affbcb3843",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 15226,
+              "different_rest_mask_cells": 3312,
+              "different_signed_interval_or_undefined_cells": 56518,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 1,
+                "base_midi_or_rest": 55,
+                "rival_midi_or_rest": 57
+              },
+              "rival_output_sha256": "b24be8de88c8a4f9e5f5321419a80b04d0e6085d9547538e28a0a5ccfa37ea11"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 1728,
+              "different_rest_mask_cells": 1728,
+              "different_signed_interval_or_undefined_cells": 7776,
+              "first_difference": {
+                "sample_tick": 2,
+                "voice_index": 4,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "50e9ce1850b22b7063361d76f0aeaa5a5f09b6d6d4529479a26ca86b204acba2"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 26496,
+              "different_rest_mask_cells": 6624,
+              "different_signed_interval_or_undefined_cells": 84444,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 62,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "b653cffc6d218d13fc3219fec40cc667311d27f2de42f5d6214a0a7aae8e5302"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "branch": "C3_ordinal_missing_stem_sensitivity",
+      "written_part_lengths_breves": {
+        "M": "144",
+        "P1": "24",
+        "P2": "24"
+      },
+      "entry_delay_breves": "12",
+      "pes2_equals_pes1_rotation_ticks": [
+        24
+      ],
+      "execution": [
+        {
+          "upper_voices": 2,
+          "pes_voices": 2,
+          "start_tick": 26,
+          "period_ticks": 288,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "4c7872a74444ef2520ecd43c1063d1bc99f869fd17e62318141007961d8297c2",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 146,
+              "different_rest_mask_cells": 24,
+              "different_signed_interval_or_undefined_cells": 380,
+              "first_difference": {
+                "sample_tick": 2,
+                "voice_index": 1,
+                "base_midi_or_rest": 64,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "2320f9ba150fb61f47bc64436ffba05ccfb83043fa70d99a2c5b1e72816ea624"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 72,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 180,
+              "first_difference": {
+                "sample_tick": 10,
+                "voice_index": 2,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "acb4cb8a2fed2cd642f1849f863b0e77029b32f2e3712f1e8f3c1fceebd42353"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 568,
+              "different_rest_mask_cells": 144,
+              "different_signed_interval_or_undefined_cells": 1272,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 57,
+                "rival_midi_or_rest": 60
+              },
+              "rival_output_sha256": "75bd828c14f948bab8b2f431f97bfcd635a85549a42eb9279ccc2935564bd721"
+            }
+          ]
+        },
+        {
+          "upper_voices": 3,
+          "pes_voices": 2,
+          "start_tick": 52,
+          "period_ticks": 288,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "f648f9fc8814941d3b36b772bff5ed9d94f3dd1fbb89ed6dc9c8bd20f25228e7",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 386,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 1236,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 2,
+                "base_midi_or_rest": 64,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "122fc69fb255fcf5a92f450d8e09fa937ac874bd74faf88d36ca58dc99ed65f2"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 72,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 234,
+              "first_difference": {
+                "sample_tick": 32,
+                "voice_index": 3,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "29ecac3449c02822917243a5fb7101f2bdd8e76b85dcc0855c2f8c6e4fb7f0d1"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 852,
+              "different_rest_mask_cells": 216,
+              "different_signed_interval_or_undefined_cells": 2332,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 57,
+                "rival_midi_or_rest": 58
+              },
+              "rival_output_sha256": "d2ed99f10972cc5b1240c77ce3d06ecf53035e5f2586b30dd1233119ca7f3197"
+            }
+          ]
+        },
+        {
+          "upper_voices": 4,
+          "pes_voices": 2,
+          "start_tick": 78,
+          "period_ticks": 288,
+          "tick_unit_breve": "1/2",
+          "source_branch_output_sha256": "7bf1fd43e55847fe4e214f217f610cf4241ccc10955e503399a87aec762c53f3",
+          "rivals": [
+            {
+              "rival": "entry_shift_plus_one_breve",
+              "different_pitch_or_rest_cells": 662,
+              "different_rest_mask_cells": 144,
+              "different_signed_interval_or_undefined_cells": 2466,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 1,
+                "base_midi_or_rest": 55,
+                "rival_midi_or_rest": 57
+              },
+              "rival_output_sha256": "d99568ba59a7efabdaef3258aef26d29f1b690f54f7baff9aecf0cd3aacdc231"
+            },
+            {
+              "rival": "upper_pes_rest_phase_swap",
+              "different_pitch_or_rest_cells": 72,
+              "different_rest_mask_cells": 72,
+              "different_signed_interval_or_undefined_cells": 288,
+              "first_difference": {
+                "sample_tick": 6,
+                "voice_index": 4,
+                "base_midi_or_rest": 60,
+                "rival_midi_or_rest": null
+              },
+              "rival_output_sha256": "6409d2180d1199546c0baf8746dd1fd709bc25ebdaa9d38eaf6d910f037a8187"
+            },
+            {
+              "rival": "reverse_main_event_cycle",
+              "different_pitch_or_rest_cells": 1136,
+              "different_rest_mask_cells": 288,
+              "different_signed_interval_or_undefined_cells": 3668,
+              "first_difference": {
+                "sample_tick": 0,
+                "voice_index": 0,
+                "base_midi_or_rest": 62,
+                "rival_midi_or_rest": 65
+              },
+              "rival_output_sha256": "1016895e981cce92e5bd81513b0256015e150e0a308e8d8c1134143476ed7dff"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "initialization_check_status": "NOT_SEPARATELY_COMPARED: output receipts cover complete steady periods after all baseline and rival entries; tick0-to-warmup transient is not part of the reported comparisons.",
+  "claim_ceiling": [
+    "Exact executions demonstrate temporal consequences conditional on explicit source readings.",
+    "A rival differs from a known score; this is not a calibrated null or proof that unknown text is music.",
+    "No universal consonance rule, optimality claim, key signature semantics beyond pitch interpretation, or fit score is imposed.",
+    "Main repetition is the rota interpretation; total performance duration and stopping procedure are not fixed by the written instructions.",
+    "English and Latin lyrics and syllable alignment are outside the declared music-content subset.",
+    "The MN067/MN068 discrepancy must be settled or retained as a finite explicit uncertainty before a complete certified temporal contract is claimed."
+  ],
+  "code_sha256": "97d2bf4a4f5ce2ba6aba70d65db08536e778ff05a7b14564f46908a69abf9f71"
+}
