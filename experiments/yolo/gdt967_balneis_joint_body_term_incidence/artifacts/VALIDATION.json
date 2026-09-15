@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "canonical_witnesses": true,
+      "cases": 21,
+      "check": "synthetic_exhaustive_oracles",
+      "injectivity_and_count_overflow": true,
+      "piece_presence": true,
+      "primary_tested": true,
+      "sat": 12,
+      "status": "PASS",
+      "unknown_limits": true,
+      "unsat": 9
+    },
+    {
+      "check": "current_and_parent_freezes",
+      "current": 33,
+      "parent": 8,
+      "status": "PASS"
+    },
+    {
+      "cells": 416,
+      "check": "independent_complete_source",
+      "exclusions": 14,
+      "headers": 33,
+      "occurrences": 166,
+      "records": 32,
+      "status": "PASS"
+    },
+    {
+      "cells": 416,
+      "check": "registered_predictions_and_source_equivalence",
+      "source_groups": 31,
+      "status": "PASS"
+    },
+    {
+      "check": "independent_six_cache_intake",
+      "complete": 157,
+      "editions": 3,
+      "literal": 74,
+      "nonliteral": 83,
+      "status": "PASS"
+    },
+    {
+      "accepted_pairs_by_first": {},
+      "check": "every_prefix_certificate_WHOLE_GROUP",
+      "depths": 2,
+      "status": "PASS",
+      "table_rows": 41
+    },
+    {
+      "check": "independent_model_WHOLE_GROUP",
+      "limits": "NOT_EXERCISED",
+      "literal_carriers": 1209,
+      "positive_witness_path": "NOT_EXERCISED_NO_ACTUAL_WITNESS",
+      "profiles": 481,
+      "replay": {
+        "families": 0,
+        "replay": "EXHAUSTIVE_TUPLE_REPLAY",
+        "stats_reproduced": true
+      },
+      "status": "PASS"
+    },
+    {
+      "accepted_pairs_by_first": {
+        "hee": 8,
+        "hy": 2,
+        "p": 11
+      },
+      "check": "every_prefix_certificate_WITHIN_GROUP_PIECE",
+      "depths": 3,
+      "status": "PASS",
+      "table_rows": 7885
+    },
+    {
+      "check": "independent_model_WITHIN_GROUP_PIECE",
+      "limits": "NOT_EXERCISED",
+      "literal_carriers": 4546,
+      "positive_witness_path": "NOT_EXERCISED_NO_ACTUAL_WITNESS",
+      "profiles": 1417,
+      "replay": {
+        "families": 0,
+        "replay": "EXHAUSTIVE_TUPLE_REPLAY",
+        "stats_reproduced": true
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "complete_panels_summary_scope",
+      "confirmed_words": 0,
+      "editions": 3,
+      "independent_confirmation": 0,
+      "models": 2,
+      "status": "PASS"
+    },
+    {
+      "check": "current_and_parent_freezes",
+      "current": 33,
+      "parent": 8,
+      "status": "PASS"
+    }
+  ],
+  "result_sha256": "a4a26e68c78de43efd109fce96965106338255c9f58f33a2bfdcd139affe2688",
+  "schema": "gdt967_independent_validation.v1",
+  "scope": "Source/data/computation correctness only; no independent semantic confirmation.",
+  "source_review": "src/SOURCE_REVIEW.md",
+  "status": "VALIDATION_PASS",
+  "validator_sha256": "71a93187e1fd690332b273d07bf17b770d309877a5b633dc7b79dc1a803bc293"
+}

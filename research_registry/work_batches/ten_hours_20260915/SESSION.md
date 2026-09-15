@@ -108,3 +108,15 @@ or broader Arabic exclusion. Exact finite model parked without repair.
 Source construction was independently reviewed; generated propositions are
 not historical quotes. Next selection retains GDT607 whole-word-bucket
 correction and GDT608 directed composition/whole-form residuals.
+
+## Seventh material result — GDT967
+
+All32 complete bath-source bodies,13 term families and416count predictions
+were public in088396515 before target carrier counting. Both whole-group and
+within-group-piece models exhaustively contradict. All7926 visited prefix
+consequences reconstructed independently;11 grouped checksPASS. Source v1
+coverage errors were corrected and disclosed before registration. All9 physical
+leaves exposed;ZL3/RF0 literal capacity, wider scope unknown.0word/independent.
+The exact count-preserving models close without repair. Subsequent source-only
+operator drafts remain unreviewed: XI heat tolerance and XIX chronicity must
+be retained; textual order is not automatically an executed water-state path.

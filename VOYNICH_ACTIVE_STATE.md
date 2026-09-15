@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT967 SHARED BATH CONTENT: all32source records/13families/166occurrences cannot jointly embed in71literalITparagraphs. Whole-word model fails all40AQUA/STOMACH pairs; piece model leaves21pairs then fails all6615HEAD extensions. Complete enumeration;11 independent grouped checksPASS including7926prefix rows. ZL3/RF0 literal capacity; wider scope unknown.0words/independent; partial incidence only, no source or language refutation. Primary: experiments/yolo/gdt967_balneis_joint_body_term_incidence/REPORT.md
+
 GDT966 FINITE GENERATED GENIZA: all81 complete statements x49 paragraphs contradict the fixed word-preserving grapheme code.3735 word-count conflicts; all234 equal-count cases also length/prefix/suffix conflicts.20 independent checksPASS; no exact search needed.0words/independent. Park exact model; GDT965 unchanged. Primary: experiments/yolo/gdt966_genizah_constructed_clause_code/REPORT.md
 
 GDT965 COMPLETE GENIZA CODE: all1071 cases;306 necessary contradictions,1 exact UNSAT,762 source unknown,2 computation unknown. No joint assignment within literal domains; IT pomegranate/quince all101 contradicted, ZL0 literal capacity. Whole scope unknown;14 independent checksPASS. Park without repair;0word/independent. Primary: experiments/yolo/gdt965_genizah_complete_record_grapheme_code/REPORT.md
