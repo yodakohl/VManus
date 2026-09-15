@@ -45,3 +45,15 @@ branches and excess/headache consequence, with no target fit selected yet.
 Geoman­tic house-rubric source analogy does not supply a chosen f66r continuation.
 GDT899 was considered but NOT rerun: its later GDT908 certificate already
 excludes the unchanged model despite the original solver UNKNOWN receipts.
+
+## Second material result — GDT963
+
+Four complete Dioscorides records were registered publicly10a7ba761 before fitting.
+All1428 local cases are retained:71 necessary length contradictions,1016 source
+unknowns,341 solver/wall unknowns. IT2a joint search remains UNKNOWN after the
+frozen600-second limit. Independent source/intake/result validation passes.
+No code witness, no global refutation, no word. The06:23 checkpoint closes this
+branch without a further solver repair. Next candidate for review: a uniform
+one-substitution relation over all15 f66r labels and all frozen957/959 assignments.
+Root has already noticed saly/salf and anticipates a possible favorable TableB
+case; this is explicitly post-exposure exploration, not independent confirmation.

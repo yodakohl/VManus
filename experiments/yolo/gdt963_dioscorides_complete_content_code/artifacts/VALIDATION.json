@@ -4,6 +4,12 @@
   "independent_algorithm": "independent XML/alias replay, exact source accounting, D-ary Huffman bound",
   "checks": [
     {
+      "name": "preregistration_lock",
+      "ok": true,
+      "checked": 19,
+      "errors": []
+    },
+    {
       "name": "source_schema",
       "ok": true
     },
@@ -71,10 +77,72 @@
       "note": "full upstream XML is not an admitted local input; metadata preserved"
     },
     {
-      "name": "target_intake",
+      "name": "target_frames_replay",
       "ok": true,
-      "status": "NOT_YET_INTAKEN",
-      "checked": false
+      "actual": 357,
+      "expected": 357
+    },
+    {
+      "name": "target_frame_denominators",
+      "ok": true,
+      "actual_by_edition": {
+        "ZL3b": 119,
+        "IT2a": 119,
+        "RF1b": 119
+      }
+    },
+    {
+      "name": "source_predictions",
+      "ok": true,
+      "errors": [],
+      "actual": 604
+    },
+    {
+      "name": "identical_target_strings",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "name": "all_local_cases",
+      "ok": true,
+      "actual": 1428,
+      "expected": 1428,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "candidate_table",
+      "ok": true,
+      "actual": 1428,
+      "expected": 1428,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "joint_results_and_witnesses",
+      "ok": true,
+      "errors": [],
+      "error_count": 0,
+      "joint_editions": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ]
+    },
+    {
+      "name": "result_aggregation",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "name": "target_result_json",
+      "ok": true,
+      "experiment_id": null
+    },
+    {
+      "name": "target_artifact_receipts",
+      "ok": true,
+      "errors": []
     }
   ],
   "source_counts": {
@@ -90,7 +158,35 @@
     }
   },
   "target": {
-    "status": "NOT_YET_INTAKEN"
+    "status": "TARGET_ARTIFACTS_PRESENT",
+    "local_cases": 1428,
+    "local_statuses": {
+      "UNKNOWN_SOURCE": 1016,
+      "CONTRADICTED_LENGTH_BOUND": 71,
+      "UNKNOWN_SOLVER": 262,
+      "UNKNOWN_WALL_CEILING": 79
+    },
+    "joint_statuses": {
+      "ZL3b": "NO_CAPACITY",
+      "IT2a": "UNKNOWN_SOLVER",
+      "RF1b": "NO_CAPACITY"
+    },
+    "result_keys": [
+      "confirmed_words",
+      "distinct_source_atoms",
+      "frames",
+      "global_source_singletons",
+      "independent_confirmation_leaves",
+      "joint_statuses",
+      "local_cases",
+      "local_statuses",
+      "significance_claim",
+      "solver_seconds_joint",
+      "solver_seconds_local",
+      "source_atoms",
+      "source_records",
+      "status"
+    ]
   },
   "claim_ceiling": "source/engineering contract validation only; no confirmed language or semantic reading"
 }

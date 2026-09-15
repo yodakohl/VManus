@@ -5,12 +5,12 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Ten-hour research session started2026-09-15 04:49:14UTC;minimum end14:49:14UTC.
-Latest decision: GDT962fixed98-BPE plantmarker fails all176cases; no first word.
-Next: GDT963four complete Dioscorides content streams; fit only after public registration.
+Latest decision: GDT963 whole-content code remains computationally unresolved; parked.
+Next: assess all one-substitution f66r label pairs against frozen957/959 whole readings.
 Working files: research_registry/work_batches/ten_hours_20260915/SESSION.md
 Assumptions: Whole hypothetical readings permitted; no new admission, contacts or reserves.
 Resume: Previous seven-hour session published aec82d7b8;GDT961cc9d743b0;9605e2e68300.
-Running: Root GDT963registration/solver; independent validator ready. Budget checkpoint06:23UTC.
+Running: Root closing963; new geomantic discriminator requires separate post-exposure registration.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

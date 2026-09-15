@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT963 COMPLETE CONTENT CODE: four complete Dioscorides records, 613 atoms / 333 types / 255 singletons. All1428 cases:71 length contradictions,1016 source unknown,341 computation unknown. IT joint UNKNOWN; no code witness or full refutation. Park without automatic solver/source repair;0 independent leaves and0 words. Primary: experiments/yolo/gdt963_dioscorides_complete_content_code/REPORT.md
+
 GDT962 FIXED PARSER: all176complete Behenian cases contradict both frozen98-unit FINAL/ALL_TREE marker models, including conservative unknown completion.0Mugwort knownmask; minimumfullrosterdeficit10/11. No parser repair or plantmeaning. Primary: experiments/yolo/gdt962_fixed_bpe_behenian_plant_incidence/REPORT.md
 
 GDT961: all contiguous raw pieces tested in the fixed960windows;58upper contradictions,30incomplete cases. The tc/tch local Mugwort mask has raw tchey extra at f113r.40, so no plantcomponent adopted. No contextual/BPE exhaustion claim.
