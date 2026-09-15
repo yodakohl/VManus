@@ -5,11 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Ten-hour research session started2026-09-15 04:49:14UTC;minimum end14:49:14UTC.
-Latest decision: GDT965 no literal joint reading;762 source/2 compute unknown;0word.
-Working files: experiments/yolo/gdt965_genizah_complete_record_grapheme_code/REPORT.md
+Latest decision: GDT966 reviewed81 generated Geniza paragraphs;all3969 predictions fixed.
+Working files: experiments/yolo/gdt966_genizah_constructed_clause_code/METHOD.md
 Assumptions: No source language selected; full hypotheses allowed; all reserves closed.
-Resume: Review PGP40129 constructions and751/915/916 before selecting a grammar hypothesis.
-Running: GDT965 publication; bounded source-construction producer; next checkpoint09:05UTC.
+Resume: Publish966 registration;run all3969cases and independentvalidator;no modelrepair.
+Running: Registration publication then8-worker fixed search; inclusivecheckpoint09:41UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
