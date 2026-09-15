@@ -4,12 +4,12 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;review variable-content semantic constraints.
-Latest decision: GDT970 all140152pairs fail length/inventory;independentPASS;0words.
-Working files: experiments/yolo/gdt970_rota_whole_part_conjugacy/REPORT.md
-Assumptions: 970 literal whole-part code closed;RF/nonliteral unknown;all reserves closed.
-Resume: Publish970 closure;review producer's complete variable-content examples by13:40UTC.
-Running: Root closure/selection review;producer raw ideas;critic970work complete.
+Task: Ten-hour session04:49:14–14:49:14UTC;test alloy numeric binding before target code.
+Latest decision: GDT970 published/refuted;alloy two-path closure real in source;0words.
+Working files: experiments/yolo/gdt971_alloy_numeral_binding_control/PREREGISTRATION.md
+Assumptions: 971 source-only, known arithmetic/roles;native mixed fractions;reserves closed.
+Resume: Freeze/register971;count all digit maps, compare free labels;close by14:15UTC.
+Running: Root971;critic complete grammar card by14:00;producer bounded supply by14:05.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

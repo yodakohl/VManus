@@ -1,0 +1,121 @@
+{
+  "title": "Whole transport narratives with globally shared safety and weight-capacity semantics",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Alcuin-attributed Propositiones XVIII and XIX supply complete transport narratives whose meanings constrain every intermediate distribution, vehicle location, cargo identity and final safe state. A swapped first/third cargo preserves all cargo counts and the terminal inventory but leaves an unsafe unattended pair. A separate source problem distinguishes a weight-limited boat from a two-passenger count rule. Variable complete narratives need not copy either source sequence or its seven/nine crossing counts.",
+  "scope": "method",
+  "design": {
+    "mechanism": "One shared semantic language declares transport agents and cargo, vehicle capacity, initial locations, compatibility restrictions and a goal. Crossing clauses update both vehicle and passenger locations; later references use the same identity. Loading requires co-location. All intermediate unattended shore states satisfy fixed compatibility rules. A second clause type can assert or explain a capacity/safety condition without producing a movement. Failed hypothetical branches must be grammatically marked rather than executed in the actual-world state. This is a prospective content language, not a frozen cipher serializer.",
+    "unit": "A whole problem/instruction/solution account, including initial conditions, every real or explicitly hypothetical movement, its explanations and final-state claim. The source owns the complete narratives XVIII and XIX; future texts may express different legal paths under the same semantic rules. No free extra voyage, disappearance, fresh-copy cargo, or per-record reset is allowed.",
+    "contrast": "IDEA000140 already proposes chess-family legal move narratives; its complete proposal was read. This new content has a single shared vehicle, safety of unattended co-located objects and load-weight constraints, rather than alternating players, square coordinates, captures or check. The old complete-game card is not re-added. The itinerary-versus-static-station proposal already supplies location continuity, but does not supply the same all-states incompatibility and mass-capacity restrictions. P06/IDEA000124 retain endpoint and identity gaps; endpoint inventory alone is deliberately insufficient here.",
+    "prediction": "A globally shared decode must make every stated voyage executable and every unmarked actual intermediate state safe. In XVIII the documented complete safe path has cargo sequence G,empty,W,G,C,empty,G with alternating outward/return directions. Exchanging cargo of trips1and3 keeps cargo counts and final state fixed but violates the G-C unattended prohibition immediately. In XIX a count-only two-passenger rival permits one adult plus one child, while the written positive child weight and adult=capacity require overload. A future target contrast must use this kind of raw differing consequence under one shared grammar, not a subjective narrative resemblance.",
+    "source_examples": [
+      {
+        "work": "Propositiones ad acuendos iuvenes, XVIII",
+        "whole_boundaries": "Printed PL101 columns1149–1150, from Homo quidam debebat through absque voragine lacerationis; entire problem and solution on extracted PDFpage4.",
+        "initial": "Man, wolf, goat and cabbage at initial shore; boat holds at most two of these including man; all must arrive undamaged.",
+        "complete_crossings": [
+          {
+            "direction": "out",
+            "cargo": [
+              "man",
+              "goat"
+            ]
+          },
+          {
+            "direction": "back",
+            "cargo": [
+              "man"
+            ]
+          },
+          {
+            "direction": "out",
+            "cargo": [
+              "man",
+              "wolf"
+            ]
+          },
+          {
+            "direction": "back",
+            "cargo": [
+              "man",
+              "goat"
+            ]
+          },
+          {
+            "direction": "out",
+            "cargo": [
+              "man",
+              "cabbage"
+            ]
+          },
+          {
+            "direction": "back",
+            "cargo": [
+              "man"
+            ]
+          },
+          {
+            "direction": "out",
+            "cargo": [
+              "man",
+              "goat"
+            ]
+          }
+        ],
+        "formalization_assumptions": [
+          "Man rows every crossing.",
+          "Unattended wolf-goat and goat-cabbage pairings are forbidden. The problem asserts absence of damage but does not explicitly list these two dietary axioms.",
+          "The safety graph alone treats wolf and cabbage as exchangeable endpoint roles."
+        ],
+        "source_only_check": "Exact state replay gives all7source states safe. Cargo-swap rival reaches the same final inventory but its first state is unsafe."
+      },
+      {
+        "work": "Same work, XIX",
+        "whole_boundaries": "Printed PL101 column1150, entire De viro et muliere problem and solution, ending forsitan sine naufragio.",
+        "initial": "Each adult weighs one loaded-wagon unit; the two children together weigh one unit; boat capacity one unit. Children need not each weigh exactly half.",
+        "complete_crossings": [
+          "both children out",
+          "child1 back",
+          "mother out",
+          "child2 back",
+          "both children out",
+          "child1 back",
+          "father out",
+          "child2 back",
+          "both children out"
+        ],
+        "source_owned_constraints": [
+          "All four transported",
+          "No load exceeds one unit",
+          "Each child can row as enacted by the solution"
+        ],
+        "rival": "Replace weight capacity by passenger-count capacity2; this admits adult+child despite positive child mass making that load exceed1."
+      }
+    ],
+    "source_receipt": {
+      "public_pdf": "https://www.documentacatholicaomnia.eu/02m/0735-0804,_Alcuinus,_Propositiones_Alcuini_Karoli_Magni_Imperatoris_Ad_Acuendos_Juvenes,_MLT.pdf",
+      "sha256": "269d1c57add8dd719a392819aa63f22b6f1ec7e0ed4f68238d2de0f7b90f820e",
+      "bytes": 932206,
+      "native_vision": "Complete PDFpage4 actually viewed; no OCR used to fabricate manuscript characters.",
+      "date_policy": "Work traditionally attributed to Alcuin; BLB CodAugperg205 catalogue dates a manuscript containing the work to the last third of tenth century. Migne PL101 published1851/reprinted1863; extracted scan impression not identified. Medieval witness leaves not collated.",
+      "medieval_owner_catalogue": "https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/structure/131078"
+    },
+    "symmetries": [
+      "Reverse both shores and every direction.",
+      "Exchange the two children under the stated total-weight constraints.",
+      "Exchange wolf/cabbage under undirected incompatibility alone; literal food names remain unbound.",
+      "Rename all abstract identities consistently."
+    ],
+    "scope": "The externally owned examples establish semantic restrictions, not a Voynich boat scene or a decipherment. Full target owner/grammar, rule vocabulary and treatment of explanatory prose are unresolved. No requirement that a known word precede a joint hypothesis. No recommendation to fit arbitrary paths to paragraphs; grammar capacity and all surviving symmetries would need separate predeclared accounting.",
+    "status": "RAW_UNREVIEWED_SOURCE_ONLY_NOT_SELECTED",
+    "writing_model_limits": "No source token count, event count, fixed decimal/opcode fields, note-per-word rule, or literal source-order copy is equated with a target paragraph. A globally shared variable-length grammar must account for every content clause and reference within its declared whole-text scope. Explanations and exceptions cannot become free padding. Grammar productions and their written realization remain to be designed before a fit.",
+    "structural_dependencies": "Retain hierarchy at spaces, directed composition, whole-form residuals and position/entry effects from the live baseline. EVA/BPE units are not an identified alphabet. No default Latin/phonetic basis, free deletion of wrappers, or arbitrary per-occurrence semantics.",
+    "ownership_limit": "No complete admitted target owner and shared writing rule are nominated in this source-only card. Joint exploratory owner/code hypotheses remain allowed without a confirmed word; missing concrete observable consequence is a design gap, not a failed manuscript test or proof of absence.",
+    "source_evidence": {
+      "path": "research_registry/work_batches/ten_hours_20260915/NEXT_GLOBAL_MEANING_SUPPLY.md",
+      "line": 4,
+      "quote": "are **RAW_UNREVIEWED, NOT SELECTED**. They supply different semantic restrictions,",
+      "sha256": "cb58ca551a6e0f4a5072210637b895035251f113e709d34ff3ebea44584594c2"
+    },
+    "access": "No current pes target outcome, target body, new Voynich image, reserve, f84/f84r/f116v or outside contact accessed. Historical predecessor reports with already exposed excerpts were read for claim scope. No decoder, benchmark or new experiment selected."
+  }
+}
