@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: GDT975 complete; select next content-grounded joint reading hypothesis.
-Latest decision: TP15printed examples7/8conflict;3traces reproduce;no whole passage.
-Working files: experiments/yolo/gdt975_tp15_published_example_consistency/REPORT.md
-Assumptions: TP15full table absent;no added values;R0/R1/R2closed;reserves closed.
-Resume: Review RAW IDEA357 comparison grouping and primary counters before selection.
-Running: None;raw IDEA357/358 retained, unreviewed and untested.
+Phase: fixed_test
+Status: active
+Task: GDT976 exact shared-referent projection of unchanged GDT963 content code.
+Latest decision: IDEA357grammar unfrozen;test existing963name reuse without repairs.
+Working files: experiments/yolo/gdt976_dioscorides_shared_referent_projection/PREREGISTRATION.md
+Assumptions: Necessary projection only;all other atom equalities relaxed;reserves closed.
+Resume: Register all prefix candidates, execute complete domains, validate and publish.
+Running: Root GDT976;bounded producer one source-only age-cohort proposal.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
