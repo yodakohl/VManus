@@ -42,6 +42,12 @@
       "error_count": 0
     },
     {
+      "name": "gdt957_chart_direction_candidate_reconstruction",
+      "ok": true,
+      "actual_chart_cases": 6,
+      "errors": []
+    },
+    {
       "name": "all_16920_predictions",
       "ok": true,
       "actual": 16920,
@@ -49,16 +55,77 @@
       "errors": []
     },
     {
-      "name": "all_pairs",
+      "name": "all_315_pairs",
       "ok": true,
-      "status": "NOT_YET_EVALUATED",
-      "checked": false
+      "actual": 315,
+      "expected": 315,
+      "edge_counts": {
+        "ZL3b": 4,
+        "IT2a": 1,
+        "RF1b": 4
+      },
+      "errors": []
     },
     {
-      "name": "all_candidate_consequences",
+      "name": "all_1128_candidate_consequences",
       "ok": true,
-      "status": "NOT_YET_EVALUATED",
-      "checked": false
+      "actual": 1128,
+      "expected": 1128,
+      "errors": []
+    },
+    {
+      "name": "EDGE_CONSEQUENCES.tsv",
+      "ok": true,
+      "actual": 4224,
+      "expected": 4224,
+      "errors": []
+    },
+    {
+      "name": "CANDIDATE_TABLE.tsv",
+      "ok": true,
+      "actual": 1128,
+      "expected": 1128,
+      "errors": []
+    },
+    {
+      "name": "SUMMARY.tsv",
+      "ok": true,
+      "actual": 18,
+      "expected": 18,
+      "errors": []
+    },
+    {
+      "name": "IDENTICAL_PHYSICAL_PREDICTIONS.json",
+      "ok": true,
+      "actual": 312,
+      "expected": 312,
+      "errors": []
+    },
+    {
+      "name": "IDENTICAL_OBSERVED_PREDICTIONS.json",
+      "ok": true,
+      "actual": 769,
+      "expected": 769,
+      "errors": []
+    },
+    {
+      "name": "cross_edition_table",
+      "ok": true,
+      "actual": 96,
+      "expected": 96,
+      "errors": []
+    },
+    {
+      "name": "previous_seven",
+      "ok": true,
+      "actual": 7,
+      "expected": 7,
+      "errors": []
+    },
+    {
+      "name": "result_aggregation",
+      "ok": true,
+      "errors": []
     }
   ],
   "source": {
@@ -72,13 +139,19 @@
     ]
   },
   "pairs": {
-    "pairs_expected": 315,
+    "pairs": 315,
     "edge_counts": {
       "ZL3b": 4,
       "IT2a": 1,
       "RF1b": 4
     }
   },
-  "candidates": {},
+  "candidates": {
+    "statuses": {
+      "CONTRADICTED": 1102,
+      "UNKNOWN_ONLY": 10,
+      "COMPATIBLE_KNOWN_EDGES": 16
+    }
+  },
   "claim_ceiling": "independent computation/audit only; no semantic confirmation or meaning claim"
 }

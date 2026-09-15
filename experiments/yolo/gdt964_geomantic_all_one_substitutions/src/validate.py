@@ -88,6 +88,22 @@ def source_checks() -> tuple[list[dict], dict]:
     checks.append({"name": "gdt959_cases_and_source_projection", "ok": not old_errors,
                    "actual": len(old), "expected": 1128, "case_counts": dict(by_case),
                    "errors": old_errors[:25], "error_count": len(old_errors)})
+    chart_rows = load(FIG / "artifacts/ALL_CASES.json")
+    chart_errors = []
+    chart_keys = {(row.get("edition"), row.get("direction")) for row in chart_rows}
+    if chart_keys != {(edition, direction) for edition in EDITIONS for direction in
+                      ("TOP_DOWN", "BOTTOM_UP")}:
+        chart_errors.append({"kind": "chart_case_keys", "actual": sorted(chart_keys)})
+    old_ids = defaultdict(set)
+    for row in old:
+        old_ids[row["case"]].add(row["candidate_id"])
+    for chart in chart_rows:
+        case = chart["case"]
+        if old_ids[case] != set(chart.get("surviving_ids", [])):
+            chart_errors.append({"kind": "chart_surviving_id_mismatch", "case": case,
+                                 "old": len(old_ids[case]), "chart": len(chart.get("surviving_ids", []))})
+    checks.append({"name": "gdt957_chart_direction_candidate_reconstruction", "ok": not chart_errors,
+                   "actual_chart_cases": len(chart_rows), "errors": chart_errors})
     return checks, {"old_cases": len(old), "old_case_groups": len(by_case),
                     "figures": len(figures), "element_tables": sorted(tables)}
 
@@ -205,6 +221,77 @@ def candidate_checks(old: list[dict], edges: dict[str, list[dict]]) -> tuple[lis
     return checks, {"statuses": dict(Counter(row["status"] for row in actual))}, expected
 
 
+def table_and_group_checks(candidates: list[dict], edges: dict[str, list[dict]]) -> list[dict]:
+    """Recreate every derived TSV and both provenance grouping files."""
+    checks = []
+    edge_rows = []
+    candidate_rows = []
+    for row in candidates:
+        for edge in row["edges"]:
+            i, j = edge["position1"] - 1, edge["position2"] - 1
+            values = edge["elements"]
+            edge_rows.append({"case": row["case"], "candidate_id": row["candidate_id"],
+                              "table": row["table"], "position1": i + 1, "position2": j + 1,
+                              "raw1": edge["raw1"], "raw2": edge["raw2"],
+                              "changed_position": edge["changed_position"],
+                              "name1": edge["names"][0], "name2": edge["names"][1],
+                              "element1": values[0] or "UNKNOWN", "element2": values[1] or "UNKNOWN",
+                              "explicit_conflict": edge["conflict"]})
+        candidate_rows.append({"case": row["case"], "candidate_id": row["candidate_id"],
+                               "table": row["table"], "old959_status": row["old959_status"],
+                               "new_status": row["status"], "edge_count": len(row["edges"]),
+                               "explicit_conflicts": sum(edge["conflict"] for edge in row["edges"]),
+                               "source_completions": " | ".join(row["allowed_source_completions"]),
+                               "predicted_names": " | ".join(row["names"]),
+                               "predicted_elements": " | ".join(x or "UNKNOWN" for x in row["elements"]),
+                               "independent_confirmation_leaves": 0})
+    for name, expected in (("EDGE_CONSEQUENCES.tsv", edge_rows), ("CANDIDATE_TABLE.tsv", candidate_rows)):
+        path = ART / name
+        if not path.exists():
+            checks.append({"name": name, "ok": False, "errors": ["missing"]})
+            continue
+        actual = read_tsv(path)
+        # csv.DictReader returns strings; stringify exactly as DictWriter does.
+        wanted = [{key: str(value) if value is not None else "" for key, value in row.items()}
+                  for row in expected]
+        checks.append({"name": name, "ok": actual == wanted, "actual": len(actual),
+                       "expected": len(wanted),
+                       "errors": [] if actual == wanted else ["row_or_value_mismatch"]})
+    summary = []
+    for case, table in sorted({(row["case"], row["table"]) for row in candidates}):
+        rows = [row for row in candidates if row["case"] == case and row["table"] == table]
+        summary.append({"case": case, "table": table, "candidates": len(rows),
+                        "lower": sum(row["lower"] for row in rows),
+                        "upper": sum(row["upper"] for row in rows),
+                        "contradicted": sum(row["status"] == "CONTRADICTED" for row in rows)})
+    path = ART / "SUMMARY.tsv"
+    if path.exists():
+        actual = read_tsv(path)
+        wanted = [{key: str(value) for key, value in row.items()} for row in summary]
+        checks.append({"name": "SUMMARY.tsv", "ok": actual == wanted, "actual": len(actual),
+                       "expected": len(wanted), "errors": [] if actual == wanted else ["rows"]})
+    else:
+        checks.append({"name": "SUMMARY.tsv", "ok": False, "errors": ["missing"]})
+
+    for kind in ("physical", "observed"):
+        groups = defaultdict(list)
+        for row in candidates:
+            key = (tuple(row["names"]) if kind == "physical" else
+                   (row["edition"], tuple((edge["position1"], edge["position2"],
+                                            *edge["elements"]) for edge in row["edges"])))
+            groups[repr(key)].append({"case": row["case"], "candidate_id": row["candidate_id"],
+                                      "table": row["table"], "status": row["status"]})
+        wanted = [{"prediction": key, "provenance": value} for key, value in sorted(groups.items())]
+        path = ART / f"IDENTICAL_{kind.upper()}_PREDICTIONS.json"
+        if path.exists():
+            actual = load(path)
+            checks.append({"name": path.name, "ok": actual == wanted, "actual": len(actual),
+                           "expected": len(wanted), "errors": [] if actual == wanted else ["groups"]})
+        else:
+            checks.append({"name": path.name, "ok": False, "errors": ["missing"]})
+    return checks
+
+
 def cross_checks(expected_candidates_rows: list[dict]) -> list[dict]:
     lookup = {(row["edition"], row["direction"], row["candidate_id"], row["table"]): row
               for row in expected_candidates_rows}
@@ -274,6 +361,7 @@ def validate() -> dict:
     candidate_result, candidate_summary, expected = candidate_checks(old, edges)
     checks.extend(candidate_result)
     if (ART / "ALL_CANDIDATES.json").exists():
+        checks.extend(table_and_group_checks(expected, edges))
         checks.extend(cross_checks(expected))
     checks.append(result_checks(old, pairs, edges, expected)) if (ART / "ALL_CANDIDATES.json").exists() else None
     ok = all(check.get("ok", False) for check in checks)

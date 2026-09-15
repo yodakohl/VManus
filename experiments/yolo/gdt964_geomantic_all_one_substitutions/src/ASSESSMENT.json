@@ -1,0 +1,35 @@
+{
+  "record_id": "GDT964",
+  "scope": "semantic",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root with independent full-table validator and source review",
+  "assessment_basis": "primary_reports",
+  "reason": "No complete original key satisfies the uniform Hamming1 equal-element extension across all three editions. Edition-specific surviving cases remain conditional; original957/959 are unchanged.",
+  "blockers": [
+    {
+      "code": "uniform_cross_edition_class_extension_contradicted",
+      "detail": "All seven previous complete cross-edition hypotheses have explicit RF1b conflicts; none of96 complete key/table combinations has a common completion.",
+      "evidence": [
+        "experiments/yolo/gdt964_geomantic_all_one_substitutions/REPORT.md",
+        "experiments/yolo/gdt964_geomantic_all_one_substitutions/artifacts/PREVIOUS_SEVEN.json"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "detail": "One previously exposed physical leaf, no independent semantic confirmation and no full-search control.",
+      "evidence": [
+        "experiments/yolo/gdt964_geomantic_all_one_substitutions/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Changing similarity radius, transcription or element table to retain a preferred key",
+      "Dropping an inconvenient member of a known family",
+      "Calling edition-specific compatibility a confirmed name"
+    ]
+  },
+  "relations": []
+}

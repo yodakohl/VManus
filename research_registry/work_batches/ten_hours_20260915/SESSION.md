@@ -57,3 +57,14 @@ branch without a further solver repair. Next candidate for review: a uniform
 one-substitution relation over all15 f66r labels and all frozen957/959 assignments.
 Root has already noticed saly/salf and anticipates a possible favorable TableB
 case; this is explicitly post-exposure exploration, not independent confirmation.
+
+## Third material result — GDT964
+
+All1128 frozen key/table cases and315 full-word pairs were evaluated after public
+registration cfe691913.1102 contradictions,16 known-edge compatible,10 source-only
+unknown cases; zero common complete readings across the three editions. ZL3b
+retains two of the old seven; RF1b contradicts all seven. No transcription is
+selected for that reason. Original957/959 remain unchanged. Full source/target
+pre-exposure and an invalid separate bottom-up pilot are disclosed in the report.
+Next bounded work: sixteen admitted large-plant images versus complete paired-root
+source descriptions, with no target-text fit before a full candidate decision.

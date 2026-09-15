@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT964 UNIFORM ONE-SUBSTITUTION: all1128 frozen cases,315 pairs,4224 edge consequences.1102 contradictions/16 known/10 source-unknown local cases;0 complete cross-edition survivors. Of previous7, ZL retains18621B/18557C but RF contradictsall7. No chosen transcription or word;957/959 unchanged. Primary: experiments/yolo/gdt964_geomantic_all_one_substitutions/REPORT.md
+
 GDT963 COMPLETE CONTENT CODE: four complete Dioscorides records, 613 atoms / 333 types / 255 singletons. All1428 cases:71 length contradictions,1016 source unknown,341 computation unknown. IT joint UNKNOWN; no code witness or full refutation. Park without automatic solver/source repair;0 independent leaves and0 words. Primary: experiments/yolo/gdt963_dioscorides_complete_content_code/REPORT.md
 
 GDT962 FIXED PARSER: all176complete Behenian cases contradict both frozen98-unit FINAL/ALL_TREE marker models, including conservative unknown completion.0Mugwort knownmask; minimumfullrosterdeficit10/11. No parser repair or plantmeaning. Primary: experiments/yolo/gdt962_fixed_bpe_behenian_plant_incidence/REPORT.md
