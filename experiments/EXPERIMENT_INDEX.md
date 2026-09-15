@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **956**
-- Experiment-associated tracked files: **18,393** (1.7 GiB)
-- Structured GDT337+ experiments: **621**
+- Experiments indexed: **957**
+- Experiment-associated tracked files: **18,407** (1.7 GiB)
+- Structured GDT337+ experiments: **622**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT958 | wind fixed form variation | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt958_wind_fixed_form_variation/REPORT.md) | 14 | 88.5 KiB | 5 | STRUCTURED_YOLO |
 | GDT957 | GDT957_f66r_complete_geomantic_margin | `COMPATIBLE_CONDITIONAL_READING_UNIDENTIFIED` | [report](../experiments/yolo/gdt957_f66r_complete_geomantic_margin/REPORT.md) | 22 | 710.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT956 | GDT956_f66r_contextual_marginal_reading | `CONTEXTUAL_HYPOTHESES_RETAINED_NO_COMPLETE_READING` | [report](../experiments/yolo/gdt956_f66r_contextual_marginal_reading/REPORT.md) | 17 | 38.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT955 | GDT955 | `R16_CONTRADICTED_BY_RECOVERED_LATER_WITNESSES__ARCHETYPE_UNKNOWN` | [report](../experiments/yolo/gdt955_picatrix_lacuna_external_witness/REPORT.md) | 17 | 36.7 KiB | 1 | STRUCTURED_YOLO |
