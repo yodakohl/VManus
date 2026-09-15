@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **963**
-- Experiment-associated tracked files: **18,563** (1.7 GiB)
-- Structured GDT337+ experiments: **628**
+- Experiments indexed: **964**
+- Experiment-associated tracked files: **18,575** (1.7 GiB)
+- Structured GDT337+ experiments: **629**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT965 | Three complete Geniza fruit records under one graphemic code | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt965_genizah_complete_record_grapheme_code/src/SOURCE_AUDIT.md) | 12 | 244.3 KiB | 6 | STRUCTURED_YOLO |
 | GDT964 | GDT964 | `UNIFORM_CLASS_EXTENSION_NO_CROSS_EDITION_READING` | [report](../experiments/yolo/gdt964_geomantic_all_one_substitutions/REPORT.md) | 22 | 5.2 MiB | 2 | STRUCTURED_YOLO |
 | GDT963 | GDT963 | `BOUNDED_SEARCH_UNRESOLVED` | [report](../experiments/yolo/gdt963_dioscorides_complete_content_code/REPORT.md) | 27 | 769.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT962 | GDT962_fixed_bpe_behenian_plant_incidence | `FIXED_BPE_PLANT_MARKER_MODEL_CONTRADICTED` | [report](../experiments/yolo/gdt962_fixed_bpe_behenian_plant_incidence/REPORT.md) | 23 | 1.4 MiB | 4 | STRUCTURED_YOLO |

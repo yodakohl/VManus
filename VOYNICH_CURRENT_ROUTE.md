@@ -5,12 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Ten-hour research session started2026-09-15 04:49:14UTC;minimum end14:49:14UTC.
-Latest decision: GDT964 uniform one-substitution element rule has0cross-edition readings.
-Next: select a content test; strict16-image paired-root conjunction has no clear match.
-Working files: research_registry/work_batches/ten_hours_20260915/SESSION.md
-Assumptions: Whole hypothetical readings permitted; no new admission, contacts or reserves.
-Resume: Previous seven-hour session published aec82d7b8;GDT961cc9d743b0;9605e2e68300.
-Running: paired-root closure; bounded source-specific idea review. f17r/Orchis remains partial.
+Latest decision: GDT965 fixed three complete Geniza records; all1071 predictions written.
+Working files: experiments/yolo/gdt965_genizah_complete_record_grapheme_code/METHOD.md
+Assumptions: No source language selected; full hypotheses allowed; all reserves closed.
+Resume: Publish965 registration, then run all source/page cases and independent validator.
+Running: Source collation done; validator in preparation; publication checkpoint08:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

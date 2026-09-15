@@ -77,3 +77,13 @@ candidate. A named tenth-century Morgan Orchis illustration supplies an actual
 comparator but differs in several features. The strict version stops, with no
 text fitting or old root/powder gloss adoption. Matrix, hashes, complete source
 clauses and access failures are retained. No word or independent confirmation.
+
+## Fifth selected test — GDT965
+
+Three complete PGP40129 Judaeo-Arabic fruit records,241 words and32 literal
+base-plus-mark unit types, supply one shared-code test over all357 existing
+Herbal frames. All1071 consequences are written before filtering. No source
+word must equal an EVA group. Anticipated initial-entry recurrence conflict
+is explicit; no initial gallows deletion is licensed by structural profiles.
+The earlier interrupted tool sequence did not run a fit. Resumed08:16UTC;
+source-only independent audit agrees on complete entry boundaries and counts.
