@@ -11,9 +11,54 @@
     "prediction_maps_valid": true
   },
   "synthetic_matching_checks": true,
-  "pre_intake": true,
-  "status": "SOURCE_ONLY_PASS",
-  "runner_contract_review": {
-    "warning": "targets() checks source_group_count only on first row; independent validator will check every row after intake"
+  "pre_intake": false,
+  "input_issues": [],
+  "line_record_defects": [],
+  "status": "PASS",
+  "input_counts": {
+    "raw": 100,
+    "legacy": 84
+  },
+  "table_counts": {
+    "pairs": 58968,
+    "components": 30184,
+    "summaries": 168,
+    "predictions": 1568,
+    "target_records": 84,
+    "details": 168
+  },
+  "table_coverage": {
+    "predictions": true,
+    "target_records": true,
+    "pairs": true,
+    "components": true,
+    "summaries": true,
+    "candidate_details": true
+  },
+  "table_mismatches": {
+    "predictions": 0,
+    "target_records": 0,
+    "pairs": 0,
+    "components": 0,
+    "summaries": 0,
+    "candidate_details": 0
+  },
+  "component_storage": {
+    "plain_present": true,
+    "gzip_present": true,
+    "plain_sha256": "30825a9177f375734bd1ca957c5b95c8330beb139967ef7a4bfdc81f9bfecc0b",
+    "gzip_uncompressed_sha256": "30825a9177f375734bd1ca957c5b95c8330beb139967ef7a4bfdc81f9bfecc0b",
+    "plain_gzip_identical": true
+  },
+  "result_reproduction": true,
+  "result_claim_ceiling": "Discovery-seeded conditional content consistency; catalogue-order condition; no search null or independent semantic confirmation.",
+  "P_outcomes": {
+    "CONTRADICTED": 162,
+    "UNRESOLVED": 5,
+    "COMPATIBLE": 1
+  },
+  "C_outcomes": {
+    "P_CONTRADICTED": 162,
+    "COMPONENT_CONTRADICTED": 6
   }
 }

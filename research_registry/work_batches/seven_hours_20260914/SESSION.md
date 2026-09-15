@@ -69,3 +69,5 @@ report scientific progress separately from technical work and known failures.
   Seven-hour work remains active;earliest end04:42:35UTC.
 
 - 00:16–00:17UTC: GDT952 complete. Originalseparator-enum error preserved asINVALID_TEST; correctedpost-exposurecomparison0observedtitle referencesall6cases;ITbothincompatible,ZL/RFunknownonly. Exactcounts/marginals independentlyvalidated;publicationfollows. Sevenhourworkcontinues.
+
+- 00:49:35UTC: GDT953 after public165d8c151: P commonR16 only, IT1compatible, ZL1/RF4unknown. All component candidates contradicted; all11R16domains empty. Thirdokeod maps missing source22. Full28row speculative reading retained but not selected. Original independentvalidatorfailed targetcode; repairedvalidatorPASS, frozen scienceunchanged. Sevenhours notelapsed.
