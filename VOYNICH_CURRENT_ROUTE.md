@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;assess complete alloy writing hypotheses.
-Latest decision: 971 source digits unique;Q2/plusP2/all5=1;no second-path gain;0words.
-Working files: research_registry/work_batches/ten_hours_20260915/ALLOY_FINITE_GRAMMAR.md
-Assumptions: Known-role source control only;S0/R0 untested on target;reserves closed.
-Resume: Publish971/grammar;review R0 versus prior124 and bounded producer R1 by14:20UTC.
-Running: Root publication/renderer selection;producer R1proposal;independent971PASS.
+Task: Ten-hour session04:49:14–14:49:14UTC;R0complete-account necessary header census.
+Latest decision: 971published/source-only unique;S0/R0specified;no target meaning.
+Working files: experiments/yolo/gdt972_alloy_r0_whole_header_consequence/PREREGISTRATION.md
+Assumptions: UnchangedR0;970complete/literal intake reused;all reserves closed.
+Resume: Freeze/publish972;test every1349row/561literal header;close by14:35UTC.
+Running: Root972;producer independent R2proposal by14:38;R1raw complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
