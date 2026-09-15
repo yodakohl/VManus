@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT974 R2CLOSURE: both GDT973weak-form survivors length10force repeatedNUMat3/6/9;actualh-i-e/h-d-i contradict. Exploratory exposed-header audit;7checksPASS. R0/R1/R2closed in561literal panel;788nonliteral unknown,RFno fences;no automaticR3. GDT973original2survivorsunchanged;0words/confirmation. Primary: experiments/yolo/gdt974_alloy_two_survivor_forced_num/REPORT.md
+
 GDT973 NECESSARY FORMS: R1all561literal paragraphscontradicted;R2two IT candidates f104r16–18/f114r32–33, unparsed. Exact2698rows/10checksPASS;CSVleaf type correction disclosed. Next mandatory sharedpayload audit must include both, not body decoder yet. No words/independentconfirmation. Primary: experiments/yolo/gdt973_alloy_packed_header_consequences/REPORT.md
 
 GDT972 FIXED R0 HEADER: all561literal complete paragraphs contradict at least one necessary header condition;788nonliteral unknown;RFno fences. Exact1349row/TSV validationPASS after disclosed nonliteral intake correction. Close unchangedR0;retain971source-only numeric kernel. R1separately frozen before outcome, untested;0words/independentconfirmation. Primary: experiments/yolo/gdt972_alloy_r0_whole_header_consequence/REPORT.md

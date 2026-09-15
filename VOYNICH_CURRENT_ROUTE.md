@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: workflow
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;exact forced-NUM audit of both R2survivors.
-Latest decision: 973R1closed/R2two weak-form candidates;974postselection declaration.
-Working files: experiments/yolo/gdt974_alloy_two_survivor_forced_num/PREREGISTRATION.md
-Assumptions: Headers already seen;R2 unchanged;no body fit;reserves closed.
-Resume: Publish973 closure/974declaration;run/validate both rows;publish by14:49UTC.
-Running: Root final consequence;source-only transport graph reviewed, no new card.
+Task: Close ten-hour session04:49:14–14:49:14UTC and publish final decisions.
+Latest decision: 974rejects both973R2survivors;R0/R1/R2closed;971source-only retained.
+Working files: experiments/yolo/gdt974_alloy_two_survivor_forced_num/REPORT.md
+Assumptions: 973weak-screen decision retained;974exploratory;all reserves closed.
+Resume: Publish974 closure;stop local renderer expansion;next source meaning contract.
+Running: Root final publication;all bounded subagents complete;no background research.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

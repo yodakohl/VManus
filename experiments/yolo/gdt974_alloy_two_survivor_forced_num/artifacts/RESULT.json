@@ -1,0 +1,96 @@
+{
+  "status": "ALL_SELECTED_R2_HEADERS_CONTRADICTED",
+  "declared_exploratory": true,
+  "prior_target_header_exposure": true,
+  "started_utc": "2026-09-15T14:44:28.052213+00:00",
+  "input_prediction_rows": 2698,
+  "selected_count": 2,
+  "rows": [
+    {
+      "id": "f104r|f104r.16-f104r.18",
+      "edition": "IT2a",
+      "page": "f104r",
+      "leaf": 104,
+      "all_four_headers": [
+        "ocheoithey",
+        "qoctheody",
+        "ykeeodey",
+        "qoepchy"
+      ],
+      "word": "ocheoithey",
+      "length": 10,
+      "required_num_positions_zero_based": [
+        2,
+        5,
+        8
+      ],
+      "observed_num_characters": [
+        "h",
+        "i",
+        "e"
+      ],
+      "decision": "SHARED_NUM_CONTRADICTION"
+    },
+    {
+      "id": "f114r|f114r.32-f114r.33",
+      "edition": "IT2a",
+      "page": "f114r",
+      "leaf": 114,
+      "all_four_headers": [
+        "tcheodaiin",
+        "chaiin",
+        "qokaiin",
+        "otaiin"
+      ],
+      "word": "tcheodaiin",
+      "length": 10,
+      "required_num_positions_zero_based": [
+        2,
+        5,
+        8
+      ],
+      "observed_num_characters": [
+        "h",
+        "d",
+        "i"
+      ],
+      "decision": "SHARED_NUM_CONTRADICTION"
+    }
+  ],
+  "source_fixtures": {
+    "positive": {
+      "word": "abndenfgnh",
+      "length": 10,
+      "required_num_positions_zero_based": [
+        2,
+        5,
+        8
+      ],
+      "observed_num_characters": [
+        "n",
+        "n",
+        "n"
+      ],
+      "decision": "NECESSARY_NUM_ONLY"
+    },
+    "negative": {
+      "word": "abndexfgnh",
+      "length": 10,
+      "required_num_positions_zero_based": [
+        2,
+        5,
+        8
+      ],
+      "observed_num_characters": [
+        "n",
+        "x",
+        "n"
+      ],
+      "decision": "SHARED_NUM_CONTRADICTION"
+    }
+  },
+  "translated_words": 0,
+  "independent_confirmation_capacity": 0,
+  "reserve_access": false,
+  "full_code_or_body_tested": false
+}
