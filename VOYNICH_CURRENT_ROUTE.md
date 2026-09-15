@@ -4,12 +4,12 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;close967,review next content consequence.
-Latest decision: GDT967 both shared13-family count models contradicted;11checksPASS.
-Working files: experiments/yolo/gdt967_balneis_joint_body_term_incidence/REPORT.md
-Assumptions: 0 words;hypotheses allowed;9leaves exposed;all reserves closed.
-Resume: Publish967;review source-conditioned meaning alternatives and known counterexamples.
-Running: Root closure/selection;producer source alternatives;no next model selected.
+Task: Ten-hour session04:49:14–14:49:14UTC;close latitude preflight,review geometry.
+Latest decision: Fixed7/12group worksheets lack eligible paragraphs; no arithmetic fit.
+Working files: research_registry/work_batches/ten_hours_20260915/LATITUDE_CAPACITY_REPORT.md
+Assumptions: 0 words;hypotheses allowed;all caches exposed;reserves closed.
+Resume: Publish capacity;review IDEA125 whole-output geometry and primary countercases.
+Running: Root closure/geometry;producer source correction;critic geometry preflight.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

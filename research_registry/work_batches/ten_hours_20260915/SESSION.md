@@ -120,3 +120,14 @@ leaves exposed;ZL3/RF0 literal capacity, wider scope unknown.0word/independent.
 The exact count-preserving models close without repair. Subsequent source-only
 operator drafts remain unreviewed: XI heat tolerance and XIX chronicity must
 be retained; textual order is not automatically an executed water-state path.
+
+## Eighth material result — latitude notation capacity
+
+Both complete seven/twelve-group worksheet formats stop before arithmetic:
+zero eligible paragraphs across the179selector caches. Independent paragraph
+reconstruction matches every histogram; the declared algorithm yields3761
+illustrative programmes. No decoder or target numeral fit, no reserve access.
+The source's earlier image attribution is corrected; edited II25 is complete.
+Primary: [capacity report](LATITUDE_CAPACITY_REPORT.md). No word recovered.
+Next review: a whole geometric construction whose executed output could bind
+meaning; existing counts and proximity alone do not supply this relation.

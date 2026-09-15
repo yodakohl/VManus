@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+LATITUDE WORKSHEET PREFLIGHT: both fixed7/12group models have0eligible complete paragraphs over179selectors; independent reconstruction and3761generated-program count PASS. No number-code or arithmetic fit performed; nonliteral/boundary scope unknown.0words/independent. Primary: research_registry/work_batches/ten_hours_20260915/LATITUDE_CAPACITY_REPORT.md
+
 GDT967 SHARED BATH CONTENT: all32source records/13families/166occurrences cannot jointly embed in71literalITparagraphs. Whole-word model fails all40AQUA/STOMACH pairs; piece model leaves21pairs then fails all6615HEAD extensions. Complete enumeration;11 independent grouped checksPASS including7926prefix rows. ZL3/RF0 literal capacity; wider scope unknown.0words/independent; partial incidence only, no source or language refutation. Primary: experiments/yolo/gdt967_balneis_joint_body_term_incidence/REPORT.md
 
 GDT966 FINITE GENERATED GENIZA: all81 complete statements x49 paragraphs contradict the fixed word-preserving grapheme code.3735 word-count conflicts; all234 equal-count cases also length/prefix/suffix conflicts.20 independent checksPASS; no exact search needed.0words/independent. Park exact model; GDT965 unchanged. Primary: experiments/yolo/gdt966_genizah_constructed_clause_code/REPORT.md
