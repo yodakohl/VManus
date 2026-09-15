@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;close latitude preflight,review geometry.
-Latest decision: Fixed7/12group worksheets lack eligible paragraphs; no arithmetic fit.
-Working files: research_registry/work_batches/ten_hours_20260915/LATITUDE_CAPACITY_REPORT.md
-Assumptions: 0 words;hypotheses allowed;all caches exposed;reserves closed.
-Resume: Publish capacity;review IDEA125 whole-output geometry and primary countercases.
-Running: Root closure/geometry;producer source correction;critic geometry preflight.
+Task: Ten-hour session04:49:14–14:49:14UTC;GDT968 two-pole source consequence.
+Latest decision: Freeze6admitted astronomical views;test both-half shared-pole arcs.
+Working files: experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/METHOD.md
+Assumptions: 0 words;necessary topology only;prior exposure;all reserves closed.
+Resume: Register968 before views;seal A/B independently;compare every whole unit.
+Running: Root registration;critic source/validator;producer Fibonacci content source.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
