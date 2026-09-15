@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **951**
-- Experiment-associated tracked files: **18,282** (1.7 GiB)
-- Structured GDT337+ experiments: **616**
+- Experiments indexed: **952**
+- Experiment-associated tracked files: **18,298** (1.7 GiB)
+- Structured GDT337+ experiments: **617**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT953 | Picatrix complete purpose headings and component consequences | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt953_picatrix_purpose_component_consequences/src/SOURCE_AUDIT.md) | 16 | 352.4 KiB | 1 | STRUCTURED_YOLO |
 | GDT952 | GDT952 | `ORIGINAL_INVALID_ENUM__CORRECTED_IT_CONTRADICTED_ZL_RF_UNRESOLVED__ZERO_OBSERVED_REFERENCES` | [report](../experiments/yolo/gdt952_wind_named_reference_network/REPORT.md) | 37 | 687.3 KiB | 1 | STRUCTURED_YOLO |
 | GDT951 | GDT951 | `BOTH_FIXED_TUPLE_MODELS_CONTRADICTED_ALL_READINGS` | [report](../experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/REPORT.md) | 34 | 3.3 MiB | 5 | STRUCTURED_YOLO |
 | GDT950 | GDT950 | `FIXED_PHASE_OUTPUT_CONTRADICTED_ZL_IT_RF_UNSELECTED` | [report](../experiments/yolo/gdt950_meteorological_phase_output_contrast/REPORT.md) | 25 | 1.6 MiB | 7 | STRUCTURED_YOLO |

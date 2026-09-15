@@ -5,11 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT952 wind references yield0observed matches;IT contradicted,ZL/RF unknown only.
-Next: source-backed content beyond fixed whole-name registers; no decoder repair.
+Latest decision: GDT952 closed; GDT953 tests Picatrix IV.ix complete purpose headings and components.
+Next: all56 cyclic predictions locked; publish before fresh f69v projection; source22 UNKNOWN.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT952 source-enum error preserved; corrected diagnostic validated. GDT951 retained. No first word.
+Resume: GDT953 source/predictions locked before intake. Known okeod14/18 collision seeded this hypothesis.
 Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline

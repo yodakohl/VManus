@@ -1,0 +1,119 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional discovery-seeded complete-source consistency; no confirmed words, p-value or independent leaf confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt953_picatrix_purpose_component_consequences/src/run.py",
+    "validate": "python3 experiments/yolo/gdt953_picatrix_purpose_component_consequences/src/validate.py"
+  },
+  "created": "2026-09-15",
+  "dependencies": [
+    "GDT898"
+  ],
+  "experiment_id": "GDT953",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+      "role": "guarded_existing_target_source"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv",
+      "sha256": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+      "role": "guarded_existing_target_source"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/METHOD.md",
+      "sha256": "63add29676ec5c5f8542c2807ec0f82f0f7dbbedee30d131c72ee80d80adcb31",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/PREREGISTRATION.md",
+      "sha256": "20a063a9654904ded17bc96eddd41a44967d0bd5c79a9de511077d9e54d7367b",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/PREREG_LOCK.json",
+      "sha256": "bfa8f27d7d9e71e0138657ddb3f6b1668ed448c5674993d801087adfebf0b4cb",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/README.md",
+      "sha256": "e99e2d82c7231767d6a1e75fc54b3499a7e7ce523377bb9591a7bf8f8e6cdd58",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/artifacts/ALL_PREDICTIONS.tsv",
+      "sha256": "28c9adfcb883e981af2c4b8e2687749806a83192cb93251395d4bd58b5c8e2c5",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/artifacts/PREDICTION_CLASSES.json",
+      "sha256": "8249c232a46e4f4d934dca0c48714ff1da0e27cb8e65668b15084e8c3adab534",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/artifacts/SOURCE_COLLATION.json",
+      "sha256": "67e72e99261a3a61bd177f09053353c990e48340e87e8a68deb0220f6d0f3091",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/artifacts/VALIDATION.json",
+      "sha256": "9cb2c225d613c3ba880c345fb20d145028e862c2bc4278453cf39edb8c42c27d",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/src/SOURCE.json",
+      "sha256": "9dba052ac4f7f4b89cbbd78aa08fb39cf589a90c03951dbd36347128b3c09614",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/src/SOURCE_AUDIT.md",
+      "sha256": "89d62998ec10c37c5c5788d2c6a10946e941818e1b6eab722df7c7391721dfce",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/src/SPEC.json",
+      "sha256": "be318ac835b70baa3807e37b22b8e97e79244f444fc0b1f3ec4eab4aa21744b5",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/src/prepare.py",
+      "sha256": "972877d4e6b9fc202cac56c335837fb30c4fab6f6adb36ea07401e1b92e9ad35",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/src/run.py",
+      "sha256": "a8263953021e3ce1167fdc7ffbe87fbd2576e12f4492ecc3eed54e7c7c8c120d",
+      "role": "preregistration_or_source_validation"
+    },
+    {
+      "path": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/src/validate.py",
+      "sha256": "5de21b073b4c9ba8c3358103e9753dd9e77ffb6bea520271365e7af7cf1b772c",
+      "role": "preregistration_or_source_validation"
+    }
+  ],
+  "question": "Do all28 f69v labels support the complete Picatrix IV.ix purpose partition and11 fixed recurrent semantic atoms under any of56 cyclic alignments?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "picatrix_purpose_component_consequences",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Picatrix complete purpose headings and component consequences",
+  "updated": "2026-09-15",
+  "validation": {
+    "status": "NOT_RUN",
+    "artifact": "experiments/yolo/gdt953_picatrix_purpose_component_consequences/artifacts/VALIDATION.json"
+  }
+}
