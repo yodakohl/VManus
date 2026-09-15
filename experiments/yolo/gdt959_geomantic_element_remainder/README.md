@@ -1,3 +1,3 @@
 # GDT959
 
-Complete post-exposure comparison of frozen geomantic readings and initial-letter word families. Protocol: [PREREGISTRATION.md](PREREGISTRATION.md). Results pending.
+[Ergebnis und vollständige Lesungstabelle](REPORT.md). Vier klare und drei unsichere bedingte Figurenlisten; kein identifiziertes Wort. [Registrierter Folgeversuch](PREREGISTRATION.md).

@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT959 POST-EXPOSURE FAMILY: All376frozen957candidates x3elementtables. One aryfamily peredition; ZL3members IT/RF2. Cross-edition complete ITset4known-source/7upper readings; aryFire/Earth/Air rivals; no positionunique. ConditionaltableB two keys share9names but no selectedmeaning. One exposedleaf0independent. Primary: experiments/yolo/gdt959_geomantic_element_remainder/REPORT.md
+
 GDT958 FIXED FORM VARIANTS:155LM/22LRlibraries expand onlyfirstf67r2title aram/aral; all1296referencecells and18graphs identicalto952literal. Ninecases0newreferences,IT3contradicted,ZL/RFunknown-only. No meaninggain; no furtherending/fragmentextension. Primary: experiments/yolo/gdt958_wind_fixed_form_variation/REPORT.md
 
 GDT957 CONDITIONAL CALCULATIONS: f66r whole15wordmargin supports16ITcalculations perdirection, ZL76/152RF60/56unknown-limited. All15ITwords distinct, so any renamed distinct list fitsidentically; no preferred key or meaning. All32 complete ITname rows retained,0independentleaves. Turner1655commonprogram only;earlysourcepartial;otherhouseorderuntested. Primary: experiments/yolo/gdt957_f66r_complete_geomantic_margin/REPORT.md

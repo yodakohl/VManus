@@ -1,0 +1,95 @@
+{
+  "artifact": "ELEMENT_TABLES_SECOND",
+  "purpose": "Independent source collation of Turner's three elemental triplicity classifications",
+  "source": {
+    "url": "https://www.princeton.edu/~ezb/geomancy/agrippa.html",
+    "title": "Henry Cornelius Agrippa, His Fourth Book of Occult Philosophy: Of Geomancy",
+    "witness": "Robert Turner English translation, London 1655; printed by J.C. for John Harrison",
+    "chronology": "The web page identifies the text as a 1655 English translation and attributes the Fourth Book to Agrippa. This is a late witness for this project, not certification of the early Cod. Sang. 756 program.",
+    "source_sections": {
+      "intro": "The page first describes sixteen figures and their planetary and zodiacal associations.",
+      "classification_A": "The paragraph beginning 'And these are the infallible comparisons...' gives a sign/course-based triplicity order.",
+      "classification_B": "The following paragraph beginning 'But if any one will constitute these triplicities according to the nature of the Planets...' gives the author's preferred planetary/figure order.",
+      "classification_C": "The next paragraph beginning 'This order is also far more true...' records the vulgar order as an alternative.",
+      "preferred_note": "Turner says the planetary/figure order is rather to be observed than the first, and calls it more true and rational than the vulgar order."
+    }
+  },
+  "frozen_figure_bits": {
+    "source": "experiments/yolo/gdt957_f66r_complete_geomantic_margin/src/SOURCE.json",
+    "convention": "single=1, double=0, top-to-bottom; integer most significant bit top",
+    "figures": [
+      {"value": 0, "bits": "0000", "name": "Populus"},
+      {"value": 1, "bits": "0001", "name": "Tristitia"},
+      {"value": 2, "bits": "0010", "name": "Albus"},
+      {"value": 3, "bits": "0011", "name": "Fortuna major"},
+      {"value": 4, "bits": "0100", "name": "Rubeus"},
+      {"value": 5, "bits": "0101", "name": "Acquisitio"},
+      {"value": 6, "bits": "0110", "name": "Conjunctio"},
+      {"value": 7, "bits": "0111", "name": "Caput draconis"},
+      {"value": 8, "bits": "1000", "name": "Laetitia"},
+      {"value": 9, "bits": "1001", "name": "Carcer"},
+      {"value": 10, "bits": "1010", "name": "Amissio"},
+      {"value": 11, "bits": "1011", "name": "Puella"},
+      {"value": 12, "bits": "1100", "name": "Fortuna minor"},
+      {"value": 13, "bits": "1101", "name": "Puer"},
+      {"value": 14, "bits": "1110", "name": "Cauda draconis"},
+      {"value": 15, "bits": "1111", "name": "Via"}
+    ]
+  },
+  "classifications": {
+    "A_sign_course": {
+      "source_paraphrase": "The first triplicity list follows the order and manner of the zodiacal signs.",
+      "element_to_figures": {
+        "fire": ["Puer", "Fortuna major", "Fortuna minor", "Laetitia"],
+        "earth": ["Puella", "Conjunctio", "Carcer", "Caput draconis"],
+        "air": ["Albus", "Amitia", "Tristitia"],
+        "water": ["Via", "Populus", "Rubeus", "Cauda draconis", "Acquisitio"]
+      },
+      "figure_to_element": {
+        "Puer": "fire", "Fortuna major": "fire", "Fortuna minor": "fire", "Laetitia": "fire",
+        "Puella": "earth", "Conjunctio": "earth", "Carcer": "earth", "Caput draconis": "earth",
+        "Albus": "air", "Amissio": {"element": "air", "status": "uncertain", "source_token": "Amitia", "reason": "Amitia is the source spelling; likely Amissio but not silently normalized"}, "Tristitia": "air",
+        "Via": "water", "Populus": "water", "Rubeus": "water", "Cauda draconis": "water", "Acquisitio": "water"
+      },
+      "spelling_options": {
+        "lower_literal": "Treat Amitia as an unnormalized source token: Amissio has no assigned element in this printed list, so the list is not a complete canonical 16-figure table.",
+        "upper_emendation": "Treat Amitia as a probable spelling error for Amissio: Amissio is air and all 16 frozen canonical figures receive an assignment."
+      }
+    },
+    "B_planetary_preferred": {
+      "source_paraphrase": "The author reorganizes the triplicities by the natures of the planets and figures, then explicitly prefers this order to the first.",
+      "element_to_figures": {
+        "fire": ["Fortuna major", "Rubeus", "Puer", "Amissio"],
+        "air": ["Fortuna minor", "Puella", "Laetitia", "Conjunctio"],
+        "water": ["Acquisitio", "Cauda draconis", "Via", "Populus"],
+        "earth": ["Carcer", "Tristitia", "Albus", "Caput draconis"]
+      },
+      "figure_to_element": {
+        "Fortuna major": "fire", "Rubeus": "fire", "Puer": "fire", "Amissio": "fire",
+        "Fortuna minor": "air", "Puella": "air", "Laetitia": "air", "Conjunctio": "air",
+        "Acquisitio": "water", "Cauda draconis": "water", "Via": "water", "Populus": "water",
+        "Carcer": "earth", "Tristitia": "earth", "Albus": "earth", "Caput draconis": "earth"
+      }
+    },
+    "C_vulgar": {
+      "source_paraphrase": "The page then reports a commonly used alternative order, explicitly contrasting it with the preferred planetary/figure order.",
+      "element_to_figures": {
+        "fire": ["Cauda draconis", "Fortuna minor", "Amissio", "Rubeus"],
+        "air": ["Acquisitio", "Laetitia", "Puer", "Conjunctio"],
+        "water": ["Populus", "Via", "Albus", "Puella"],
+        "earth": ["Caput draconis", "Fortuna major", "Carcer", "Tristitia"]
+      },
+      "figure_to_element": {
+        "Cauda draconis": "fire", "Fortuna minor": "fire", "Amissio": "fire", "Rubeus": "fire",
+        "Acquisitio": "air", "Laetitia": "air", "Puer": "air", "Conjunctio": "air",
+        "Populus": "water", "Via": "water", "Albus": "water", "Puella": "water",
+        "Caput draconis": "earth", "Fortuna major": "earth", "Carcer": "earth", "Tristitia": "earth"
+      }
+    }
+  },
+  "limits": [
+    "The source tables are classifications in one 1655 witness, not an independent Voynich meaning or early-source confirmation.",
+    "Amitia is retained as printed in classification A; the Amissio mapping is an explicit upper/emendation option only.",
+    "No target labels, target scoring, or additional manuscript access was used."
+  ]
+}

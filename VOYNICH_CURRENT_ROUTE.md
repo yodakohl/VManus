@@ -5,11 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT958 fixed form variants add no references; wind extension closed.
-Next: complete content readings beyond list fits; raw324–328 remain unselected.
+Latest decision: GDT959 ary-family leaves4clear/7upper conditional figure lists; no word.
+Next: a further whole-content consequence of these readings; no chosen table/key.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT958complete,952unchanged;957conditional32readings unselected.956uncertain.
+Resume: GDT959postexposure1128cases;4clear7upper;957unchanged.958windextensionclosed.
 Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline
