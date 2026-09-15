@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;close968,review arithmetic content.
-Latest decision: 968:12whole two-pole frameworks contradicted;1clippedunknown;0match.
-Working files: experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/REPORT.md
-Assumptions: 0 words;native agreement not meaning;all reserves closed.
-Resume: Publish968;review347 complete root-calculation and explicit proof source.
-Running: Root closure/contentmodel;producer11source inventories;no nexttestselected.
+Task: Ten-hour session04:49:14–14:49:14UTC;969 complete root-calculation traces.
+Latest decision: 968public;969preflight IT3eligible23-group records on3leaves.
+Working files: experiments/yolo/gdt969_fibonacci_generated_root_trace/METHOD.md
+Assumptions: Generated23-step format, not literal source;0words;reservesclosed.
+Resume: Freeze/publish969 before any numericfit;run all9900inputs/widths perframe.
+Running: Root969registration;criticvalidator;producer35minvariablelengthcontentsupply.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

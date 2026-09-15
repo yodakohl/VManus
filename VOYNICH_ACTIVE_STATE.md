@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT969 REGISTERED: complete23-group generated square-root/proof model;9900inputs, one global opcode/digit code, three distinct physical leaves. IT capacity3, ZL1, RF0; no numeric fit yet. Modern result-trace projection,0words/independent meaning. Primary: experiments/yolo/gdt969_fibonacci_generated_root_trace/METHOD.md
+
 GDT968 TWO-POLE FRAMEWORK: six fixed astronomical renderings,14selectors;both native observers12wholeunitscontradicted/1clippedfragmentunknown/0MATCH. Separate seals and source/result validatorPASS. No complete candidate, metricconstruction, code or meaning. Primary: experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/REPORT.md
 
 LATITUDE WORKSHEET PREFLIGHT: both fixed7/12group models have0eligible complete paragraphs over179selectors; independent reconstruction and3761generated-program count PASS. No number-code or arithmetic fit performed; nonliteral/boundary scope unknown.0words/independent. Primary: research_registry/work_batches/ten_hours_20260915/LATITUDE_CAPACITY_REPORT.md
