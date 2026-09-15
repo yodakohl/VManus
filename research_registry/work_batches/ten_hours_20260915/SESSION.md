@@ -97,3 +97,14 @@ Independent validator14/14. Exact version parked without repair;0word/independen
 08:40 inclusive checkpoint overrun only for closure/publication, no search expansion.
 Next: source-grounded constructions and their specific predecessors before any
 new grammar model is selected. PGP40129 constructions are source facts only.
+
+## Sixth material result — GDT966
+
+All81 complete generated Geniza statements and3969 consequences were public
+in8e4d3a3a3 before fitting. All cases necessarily contradict:3735word-count,
+234same-count all additionally length/prefix/suffix.20 independent checksPASS;
+exact solver/witness branches not exercised. No word, independent confirmation
+or broader Arabic exclusion. Exact finite model parked without repair.
+Source construction was independently reviewed; generated propositions are
+not historical quotes. Next selection retains GDT607 whole-word-bucket
+correction and GDT608 directed composition/whole-form residuals.
