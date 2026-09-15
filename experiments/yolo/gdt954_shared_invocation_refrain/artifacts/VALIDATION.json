@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "independent": true,
+  "checks": {
+    "synthetic": {
+      "cross_line_seam": true,
+      "distinct_r1_conflict": true,
+      "uncertain_group": true,
+      "r5_noninjective": true,
+      "short_capacity": true,
+      "all_pass": true
+    },
+    "model_contract": {
+      "status": "PASS"
+    },
+    "source_refrain": {
+      "status": "PASS"
+    },
+    "source_reconstruction": {
+      "status": "PASS",
+      "inputs": [
+        {
+          "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+          "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+          "line_count": 2024
+        },
+        {
+          "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+          "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+          "line_count": 2022
+        },
+        {
+          "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+          "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+          "line_count": 2024
+        },
+        {
+          "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+          "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+          "line_count": 2113
+        },
+        {
+          "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+          "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+          "line_count": 2109
+        },
+        {
+          "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+          "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+          "line_count": 2113
+        },
+        {
+          "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+          "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+        }
+      ],
+      "integrity": {
+        "line_refs": 7387,
+        "paragraphs": 1349,
+        "groups": 61966
+      }
+    },
+    "RESULT.json": {
+      "status": "PASS"
+    },
+    "ALL_CANDIDATES.json": {
+      "status": "PASS"
+    },
+    "ALL_PARAGRAPH_SUFFIXES.json": {
+      "status": "PASS"
+    },
+    "REMAINING_CONTEXTS.json": {
+      "status": "PASS"
+    },
+    "CANDIDATE_TABLE.tsv": {
+      "status": "PASS",
+      "rows": 620,
+      "expected": 620
+    },
+    "prereg_lock": {
+      "status": "PASS",
+      "sha256": "da29a66cae3cc214154f1aa9312ca16d3743280514a5b85eb9dbeaf2a2a2fc53"
+    }
+  },
+  "claim_ceiling": "Necessary-condition audit only; no translation or source identity is confirmed."
+}

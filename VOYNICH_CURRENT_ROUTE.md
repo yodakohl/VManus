@@ -5,11 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT953 closed. GDT954 shared invocation-refrain screen locked before target census.
-Next: all adjacent7complete-paragraph windows, R1/R5 terminal clause; no decoder or word claim.
+Latest decision: GDT954 fixed shared invocation refrain closed; no surviving context.
+Next: choose a content consequence beyond literal repetition; no automatic source/model repair.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT954 source7prayers+§65context; all oldGDT915/928inputs exposed; publish then execute.
+Resume: GDT954 complete:615contradictions,5capacityfailures;RF no paragraphs; publish closure.
 Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline

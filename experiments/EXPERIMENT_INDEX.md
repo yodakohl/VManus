@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **953**
-- Experiment-associated tracked files: **18,329** (1.7 GiB)
+- Experiment-associated tracked files: **18,337** (1.7 GiB)
 - Structured GDT337+ experiments: **618**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT954 | Complete shared-invocation-refrain capacity screen | `REGISTERED_UNSCORED` | — | 12 | 29.5 KiB | 2 | STRUCTURED_YOLO |
+| GDT954 | GDT954 | `NO_SHARED_SEVEN_RECORD_REFRAIN__RF_NO_PARAGRAPH_CAPACITY` | [report](../experiments/yolo/gdt954_shared_invocation_refrain/REPORT.md) | 20 | 1.9 MiB | 2 | STRUCTURED_YOLO |
 | GDT953 | GDT953 | `P_ONE_COMMON_ALIGNMENT__ALL_COMPOSITIONAL_CANDIDATES_CONTRADICTED` | [report](../experiments/yolo/gdt953_picatrix_purpose_component_consequences/REPORT.md) | 35 | 3.5 MiB | 1 | STRUCTURED_YOLO |
 | GDT952 | GDT952 | `ORIGINAL_INVALID_ENUM__CORRECTED_IT_CONTRADICTED_ZL_RF_UNRESOLVED__ZERO_OBSERVED_REFERENCES` | [report](../experiments/yolo/gdt952_wind_named_reference_network/REPORT.md) | 37 | 687.3 KiB | 1 | STRUCTURED_YOLO |
 | GDT951 | GDT951 | `BOTH_FIXED_TUPLE_MODELS_CONTRADICTED_ALL_READINGS` | [report](../experiments/yolo/gdt951_zodiac_unordered_ruler_tuples/REPORT.md) | 34 | 3.3 MiB | 5 | STRUCTURED_YOLO |
