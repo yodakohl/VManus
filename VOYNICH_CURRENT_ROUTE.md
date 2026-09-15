@@ -3,7 +3,7 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: idle
-Status: session_results_complete_translation_unresolved
+Status: checkpoint
 Task: Ten-hour session04:49:14–14:49:14UTC;research results published, no translation.
 Latest decision: 974rejects both973R2survivors;R0/R1/R2closed;971source-only retained.
 Working files: research_registry/work_batches/ten_hours_20260915/ALLOY_MODEL_DECISION.md
