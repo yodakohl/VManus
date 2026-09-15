@@ -1,0 +1,232 @@
+{
+  "experiment": "GDT952",
+  "editions": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "models": [
+    "LITERAL",
+    "LEGACY_ROOT_EXACT"
+  ],
+  "sectors": [
+    {
+      "clock": "09:30",
+      "body": [
+        "f67r2.13",
+        "f67r2.14",
+        "f67r2.15"
+      ],
+      "title": "f67r2.1",
+      "sector": 1
+    },
+    {
+      "clock": "10:30",
+      "body": [
+        "f67r2.16",
+        "f67r2.17",
+        "f67r2.18"
+      ],
+      "title": "f67r2.2",
+      "sector": 2
+    },
+    {
+      "clock": "11:30",
+      "body": [
+        "f67r2.19",
+        "f67r2.20",
+        "f67r2.21",
+        "f67r2.22"
+      ],
+      "title": "f67r2.3",
+      "sector": 3
+    },
+    {
+      "clock": "00:30",
+      "body": [
+        "f67r2.23",
+        "f67r2.24",
+        "f67r2.25"
+      ],
+      "title": "f67r2.4",
+      "sector": 4
+    },
+    {
+      "clock": "01:30",
+      "body": [
+        "f67r2.26",
+        "f67r2.27",
+        "f67r2.28"
+      ],
+      "title": "f67r2.5",
+      "sector": 5
+    },
+    {
+      "clock": "02:30",
+      "body": [
+        "f67r2.29",
+        "f67r2.30",
+        "f67r2.31"
+      ],
+      "title": "f67r2.6",
+      "sector": 6
+    },
+    {
+      "clock": "03:30",
+      "body": [
+        "f67r2.32",
+        "f67r2.33",
+        "f67r2.34"
+      ],
+      "title": "f67r2.7",
+      "sector": 7
+    },
+    {
+      "clock": "04:30",
+      "body": [
+        "f67r2.35",
+        "f67r2.36",
+        "f67r2.37"
+      ],
+      "title": "f67r2.8",
+      "sector": 8
+    },
+    {
+      "clock": "05:30",
+      "body": [
+        "f67r2.38",
+        "f67r2.39",
+        "f67r2.40"
+      ],
+      "title": "f67r2.9",
+      "sector": 9
+    },
+    {
+      "clock": "06:30",
+      "body": [
+        "f67r2.41",
+        "f67r2.42",
+        "f67r2.43"
+      ],
+      "title": "f67r2.10",
+      "sector": 10
+    },
+    {
+      "clock": "07:30",
+      "body": [
+        "f67r2.44",
+        "f67r2.45",
+        "f67r2.46",
+        "f67r2.47"
+      ],
+      "title": "f67r2.11",
+      "sector": 11
+    },
+    {
+      "clock": "08:30",
+      "body": [
+        "f67r2.48",
+        "f67r2.49",
+        "f67r2.50",
+        "f67r2.51"
+      ],
+      "title": "f67r2.12",
+      "sector": 12
+    }
+  ],
+  "loci": [
+    "f67r2.1",
+    "f67r2.2",
+    "f67r2.3",
+    "f67r2.4",
+    "f67r2.5",
+    "f67r2.6",
+    "f67r2.7",
+    "f67r2.8",
+    "f67r2.9",
+    "f67r2.10",
+    "f67r2.11",
+    "f67r2.12",
+    "f67r2.13",
+    "f67r2.14",
+    "f67r2.15",
+    "f67r2.16",
+    "f67r2.17",
+    "f67r2.18",
+    "f67r2.19",
+    "f67r2.20",
+    "f67r2.21",
+    "f67r2.22",
+    "f67r2.23",
+    "f67r2.24",
+    "f67r2.25",
+    "f67r2.26",
+    "f67r2.27",
+    "f67r2.28",
+    "f67r2.29",
+    "f67r2.30",
+    "f67r2.31",
+    "f67r2.32",
+    "f67r2.33",
+    "f67r2.34",
+    "f67r2.35",
+    "f67r2.36",
+    "f67r2.37",
+    "f67r2.38",
+    "f67r2.39",
+    "f67r2.40",
+    "f67r2.41",
+    "f67r2.42",
+    "f67r2.43",
+    "f67r2.44",
+    "f67r2.45",
+    "f67r2.46",
+    "f67r2.47",
+    "f67r2.48",
+    "f67r2.49",
+    "f67r2.50",
+    "f67r2.51"
+  ],
+  "sources": {
+    "raw": {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "columns": [
+        "source_group_id",
+        "edition",
+        "locus",
+        "page",
+        "kind",
+        "source_group_index",
+        "source_group_count",
+        "left_separator",
+        "right_separator",
+        "ivtff_group_raw"
+      ]
+    },
+    "legacy": {
+      "path": "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv",
+      "columns": [
+        "edition",
+        "locus",
+        "page",
+        "surface",
+        "root_sequence"
+      ]
+    }
+  },
+  "raw_literal_regex": "[a-z]+",
+  "definite_separator": ".",
+  "representation": "Literal complete group sequence, or existing cached root_sequence grouped by written groups with + internal. No splitting +; no removal or normalization. Root alignment requires cached surface exactly equals full raw group sequence and same count. Otherwise unknown.",
+  "body_concatenation": "all Q1lines in fixed physical sector followed by attached M1tail, in stored locus order, no other sector or inner ring. Cross-line windows permitted as a generous prose-continuation hypothesis.",
+  "uncertainty": "Nonliteral groups, uncertain seams, missing root alignment or count mismatch are not repaired. Unknown title -> all possible body matches in upper graph only. Uncertain body seams/count/root alignment -> missing match UNKNOWN. Otherwise unknown group wildcard in fixed-length windows. Definite match overrides uncertainty elsewhere. Upper graph permits all unknown edges independently and is a conservative bound, not a coherent completed reading.",
+  "physical_leaves": [
+    "f67"
+  ],
+  "independent_confirmation_capacity": 0,
+  "all_previously_exposed": true,
+  "sealed": [
+    "f84",
+    "f84r"
+  ],
+  "no_new_target_access_before_lock": true
+}

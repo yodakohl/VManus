@@ -1,0 +1,119 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional source-plus-invariant-rendering consistency; no confirmed wind names, p-value or independent leaf replication",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt952_wind_named_reference_network/src/run.py",
+    "validate": "python3 experiments/yolo/gdt952_wind_named_reference_network/src/validate.py"
+  },
+  "created": "2026-09-15",
+  "dependencies": [
+    "GDT876"
+  ],
+  "experiment_id": "GDT952",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+      "role": "guarded_source_or_ownership_metadata_source"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv",
+      "sha256": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+      "role": "guarded_source_or_ownership_metadata_source"
+    },
+    {
+      "path": "transcription/sources/Stolfi_text25e1-52.evt",
+      "sha256": "0509b276fcb7c98c574ccc92e70a1272567851816c5a8ebbfda95da084a3da4b",
+      "role": "guarded_source_or_ownership_metadata_source"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/METHOD.md",
+      "sha256": "4ca63763b8ae582891cba5316ba60c0d3b999892338a666efb548f293023ec60",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/PREREGISTRATION.md",
+      "sha256": "237b286a7ffe7e2889aabe724977ef7d899298fc756f54a7a87c598842ceef69",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/PREREG_LOCK.json",
+      "sha256": "bb447a3dfbf3c54549b0e372ff57813d2243dbf953eb16eeb62d66fab360451c",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/README.md",
+      "sha256": "b9e3794245ffd6129772bdebec2a8e52e083c7733c66884338a5f1093535a70f",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/OWNERSHIP_METADATA.json",
+      "sha256": "8ac55694178a131ffe6431360e9d2e7bbe171d8587566127e969f6786098fb3c",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/SELECTION.md",
+      "sha256": "3640d5400bfe7ee04cee5465ae83810000d0ec1b7c49d83bc19d2e2584d2c355",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/SOURCE.json",
+      "sha256": "2a72e46679c6d98c3b6ccf30194cc3059b853c8c378e348a24f285a27bd15412",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/SOURCE_AUDIT.md",
+      "sha256": "41bf4b2eb3ca7486d807221ffd7c76845d4abf54313b288170f0c021a478d4ec",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/SPEC.json",
+      "sha256": "b56912cbf289ba1b3cb0c7f6deebd9036c8af09830851ea75f28a5d419d662be",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/count.py",
+      "sha256": "7c2cd9af5582691465e8cbbd63aca9d034e2646ccdce03bb76f8c534b0a4bdc5",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/prepare.py",
+      "sha256": "da1c7bad459dea0831f376e0ac269e8a6d98f3e87276472e40b9c401b104f408",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/run.py",
+      "sha256": "756c2f24bc1684e2d617b9064b1b844524182e0228b76a002ed0d84dec8bdc0c",
+      "role": "preregistered_source_or_implementation"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/validate.py",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
+      "role": "preregistered_source_or_implementation"
+    }
+  ],
+  "question": "Can all8explicit W.73f2r named references be simultaneously realized by the complete f67r2 titles in the fixed body owners under any bijection?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "wind_named_reference_network",
+  "status": "PREREGISTERED_TARGET_NOT_YET_PROJECTED",
+  "title": "Complete wind name-reference network on twelve fixed sectors",
+  "updated": "2026-09-15",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

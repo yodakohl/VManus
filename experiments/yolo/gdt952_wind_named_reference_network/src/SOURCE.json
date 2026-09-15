@@ -1,0 +1,118 @@
+{
+  "names": [
+    "Septentrio",
+    "Aquilo",
+    "Vulturnus",
+    "Subsolanus",
+    "Eurus",
+    "Euroauster",
+    "Auster",
+    "Euronothus",
+    "Affricus",
+    "Zephirus",
+    "Chorus",
+    "Circius"
+  ],
+  "mandatory_edges": [
+    [
+      "Vulturnus",
+      "Subsolanus"
+    ],
+    [
+      "Eurus",
+      "Subsolanus"
+    ],
+    [
+      "Euroauster",
+      "Auster"
+    ],
+    [
+      "Euroauster",
+      "Eurus"
+    ],
+    [
+      "Euronothus",
+      "Auster"
+    ],
+    [
+      "Affricus",
+      "Zephirus"
+    ],
+    [
+      "Chorus",
+      "Zephirus"
+    ],
+    [
+      "Circius",
+      "Septentrio"
+    ]
+  ],
+  "source_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+  "source_locator": "W.73 fol.2r complete12sector descriptions",
+  "edge_records": [
+    {
+      "from": "Vulturnus",
+      "to": "Subsolanus",
+      "anchor": "dexter est Subsolani",
+      "kind": "spatial_named_mention"
+    },
+    {
+      "from": "Eurus",
+      "to": "Subsolanus",
+      "anchor": "ex sinistro latere ueniens subsolani",
+      "kind": "spatial_named_mention"
+    },
+    {
+      "from": "Euroauster",
+      "to": "Auster",
+      "anchor": "a dextris intonat Austri",
+      "kind": "spatial_named_mention"
+    },
+    {
+      "from": "Euroauster",
+      "to": "Eurus",
+      "anchor": "ex una parte habeat eurum ex altero austrum",
+      "kind": "etymological_named_mention"
+    },
+    {
+      "from": "Euronothus",
+      "to": "Auster",
+      "anchor": "a sinistra parte austri spirat",
+      "kind": "spatial_named_mention"
+    },
+    {
+      "from": "Affricus",
+      "to": "Zephirus",
+      "anchor": "ex zephiri dextro intonans",
+      "kind": "spatial_named_mention"
+    },
+    {
+      "from": "Chorus",
+      "to": "Zephirus",
+      "anchor": "ex sinistra parte fauovnii aspirat",
+      "kind": "spatial_named_mention"
+    },
+    {
+      "from": "Circius",
+      "to": "Septentrio",
+      "anchor": "a dextris septentrionis intonans",
+      "kind": "spatial_named_mention"
+    }
+  ],
+  "excluded_uncertain_edge": {
+    "from": "Circius",
+    "raw_target": "euro",
+    "editorial_target": "Chorus",
+    "treatment": "excluded from mandatory obligations; no source repair"
+  },
+  "fixed_canonical_aliases": {
+    "Favonius": "Zephirus",
+    "Fauonius": "Zephirus",
+    "fauovnii": "Zephirus",
+    "Auroauster": "Euroauster"
+  },
+  "conditional_rendering_assumption": "Each wind concept has its same complete title representation when referenced in sector prose, regardless of case or supplied alias. This is NOT established for Voynich or literal Latin; no language identification.",
+  "self_mentions": "not required",
+  "negative_source_edges": "not required",
+  "all_assignment_prediction_rule": "For EVERY bijection f from these12names to12frozen sectors, predict all8 destination title representations occur in the complete source-sector body. Same f owns title and body; source rotation is unrestricted."
+}

@@ -1,0 +1,7 @@
+# Prospective registration
+
+Frozen before the new51locus target projection. Source graph, physical ownership, all6model/reading cases, matching/unknown rules, all12!assignments, exact counter and interpretation are bound in PREREG_LOCK.json. SOURCE.json specifies the complete8predictions for every assignment as a deterministic substitution rule; none can be selected after target access. Specifying479001600assignments symbolically is complete enumeration of the candidate space, not a sampled candidate list.
+
+Prior exposure: alltargettext/image has been studied by this project before; metadata and source excerpts were read in this session before freezing. SOURCE_REVIEW_IDEA000316 also previously printed several M1forms, disclosed here. This registration creates no new independent test or blinding fiction. Only f67r2.1–.51are newly projected for this test; later rings/reserves are not opened. Discovery/additional split impossible on oneleaf. All outcomes, contradictions and uncertainty bounds retained. No significance or confirmed names; no post-result decoder/matching repair.
+
+Budget from source-selection23:59UTC through00:49UTC; ownership recovered within the10minutecheckpoint. Source-only independent audit corrected its initial confusion between spatial-only and any named edges before this freeze:7spatial+1etymological certain, ninthambiguous excluded. Original audit correction retained. Validator may be implemented after freeze; it cannot alter predictions.
