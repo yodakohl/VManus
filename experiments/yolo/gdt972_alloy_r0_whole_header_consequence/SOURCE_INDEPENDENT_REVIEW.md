@@ -39,3 +39,7 @@ Default execution is registration-only while RESULT is absent; after execution i
 ## Pre-publication implementation corrections
 
 Before any target header enumeration, root corrected the independently drafted validator's guessed input/output schemas, summary survivor type and status, independent-condition handling, exact TSV comparison, binding/scope checks and failure exit. An extra suffix segmentation restriction was removed because it was outside the registered necessary screen. No primary predicate or frozen protocol changed. The independently drafted header evaluator remains separate from the primary runner; validation is not a blinded semantic replication.
+
+## First full-run validator intake correction
+
+After the frozen primary census, the first full validator run stopped before comparison because its `full_text.split(" ")` reconstruction split internal spaces inside nonliteral cached groups. The primary correctly preserves cached line word lists and checks `" ".join(words) == full_text`. The validator was corrected to check that same textual identity while retaining the cached group boundaries. No eligibility, header predicate, primary result or preregistration changed. The initial validator failure is an intake implementation error, not a manuscript contradiction or independent confirmation.

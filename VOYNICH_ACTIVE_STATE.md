@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT972 FIXED R0 HEADER: all561literal complete paragraphs contradict at least one necessary header condition;788nonliteral unknown;RFno fences. Exact1349row/TSV validationPASS after disclosed nonliteral intake correction. Close unchangedR0;retain971source-only numeric kernel. R1separately frozen before outcome, untested;0words/independentconfirmation. Primary: experiments/yolo/gdt972_alloy_r0_whole_header_consequence/REPORT.md
+
 GDT971 SOURCE CONTROL: all10!digitmaps reduce362880 syntax ->2Q ->2Q/P ->1all5accounts;independentPASS. Shared numeral grammar with known roles identifies source values;secondpath adds0eliminations. No Voynich data/word or target renderer. Primary: experiments/yolo/gdt971_alloy_numeral_binding_control/REPORT.md
 
 GDT970 FIXED WHOLE-PART CODE: all140152literal paragraph pairs fail length/inventory;ZL32/IT529paragraphs,RF no fences.788complete nonliteral paragraphs unknown. Independent1349prediction/438counterexample rowsPASS. No cyclic survivor/full code/main melody/word;no repair. Primary: experiments/yolo/gdt970_rota_whole_part_conjugacy/REPORT.md

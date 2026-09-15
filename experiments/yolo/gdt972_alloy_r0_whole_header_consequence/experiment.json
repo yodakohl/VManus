@@ -106,12 +106,22 @@
     {
       "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/REPORT.md",
       "role": "primary_report",
-      "sha256": "bf982059736534d29517db3d459e59f61b6b988a1dd74bf973bfbb50dec253e0"
+      "sha256": "4edb85387e7b0d8bab5b87c93fc1d26fd5d6339075f9be28ba07a008c1127cef"
     },
     {
       "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/SOURCE_INDEPENDENT_REVIEW.md",
       "role": "source_or_artifact",
-      "sha256": "82542cd48aff4912f645e920b9fb9fae2a64a648222969f44dac8c21c329535d"
+      "sha256": "f8bea16da5319d0eee8282654d1bac22d6f1d6818ebd1e79434717689669522d"
+    },
+    {
+      "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/artifacts/CANDIDATE_PREDICTIONS.tsv",
+      "role": "source_or_artifact",
+      "sha256": "6bcdea0ca7158ab3e9972b2af0e0b8c87e37022696366ecad9c0af026c500312"
+    },
+    {
+      "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/artifacts/PREDICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "437183e6a0fd198151dd2de25bab7cde358d0bb7dd31de624ed267bf008e8249"
     },
     {
       "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/artifacts/PREFLIGHT.json",
@@ -122,6 +132,21 @@
       "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "33d0fbbc330e9e2295516ae795d2241b8e8e3d3444f2734318a71e915fb913ed"
+    },
+    {
+      "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "6feda8d1423e074d3e550254a6035ae4692ab853095621b5e568f8d88a11c7de"
+    },
+    {
+      "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "f31a3ff24e202c7585351bf493f142891b9fcc24e3817e47c8160c3c64016eb6"
+    },
+    {
+      "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/src/ASSESSMENT.json",
+      "role": "source_or_artifact",
+      "sha256": "87c9a0b841869cad660d1f2dc79bda19c9431ab6c0d4e3ccd06048c1347640dd"
     },
     {
       "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/src/bind.py",
@@ -136,7 +161,7 @@
     {
       "path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/src/validate.py",
       "role": "source_or_artifact",
-      "sha256": "1c4916a6b7848c2d60df3537fb09c8284a549be503ed18e4e0934f20f3a872d0"
+      "sha256": "6b8077f561a4f2d3cb6cfe9eb63f47d020d7395dc7361aa145b6a256a4dfb05c"
     }
   ],
   "question": "Does any complete admitted literal paragraph satisfy the unavoidable header code conditions of the unchanged variable-account alloy grammar R0?",
@@ -146,11 +171,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "alloy_r0_whole_header_consequence",
-  "status": "REGISTERED_UNSCORED",
+  "status": "ALL_LITERAL_R0_HEADERS_CONTRADICTED",
   "title": "R0 whole-account necessary header consequence",
   "updated": "2026-09-15",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

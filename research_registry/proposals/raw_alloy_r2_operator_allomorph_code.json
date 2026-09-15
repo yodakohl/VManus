@@ -1,0 +1,2432 @@
+{
+  "title": "R2 finite operator-allomorph selection for complete typed mixture accounts",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Prospective source-only writing rival defined before any R1 target outcome: keep S0 and exact R1 atomic packing/holes, but select a shared operator allomorph by the same fixed entry and absorbed-MIXED contexts instead of universal ENTRY/AGREE pieces. Exact family: 39 operator allomorphs plus 18 shared payload components, one prefix-free code. Four complete source/generated accounts and a different literal-writing consequence are supplied; no target fit.",
+  "scope": "method",
+  "design": {
+    "mechanism": "Every R1 core keeps all payload components in order; the head alone is replaced by its deterministic (head,entry,mixed) allomorph. Remove universal entry/agreement components. Recursively emit every owned HOLE child in argument order. Same S0 semantics and limits, no additional states, glosses or exceptions.",
+    "unit": "One complete variable-size S0 account with every header, branch, statement, assertion, argument and terminal yield. Group boundaries follow exact R1 packing, not source or target token counts.",
+    "contrast": "R1 forces at most two literal group-initial characters and at least three characters in every group. R2 does not: a complete global prefix-free code witness has four header/marker initials and a one-character FIRST. R2 additionally forces identical encoded operand tails for FINE(RREF1) and YIELD(RREF1); R1 adds different result-class suffixes. Both retain different SETR allomorphs at branch entry versus after a used declaration. Not claimed to be disjoint or nested full languages.",
+    "prediction": "The same operator/context always has one shared code independent of argument values; every numerical digit/material/reference/HOLE component is globally unchanged across operators and contexts. All typed arities, hole ownership, reference limits and arithmetic checks remain. A syntactically legal program is insufficient: every written assertion and declared goal must be true. No independent target content binding or bounded target test is claimed.",
+    "semantic_model": {
+      "name": "S0 unchanged",
+      "source_path": "research_registry/work_batches/ten_hours_20260915/ALLOY_FINITE_GRAMMAR.json",
+      "sha256": "b852e2ec8e191bebdc904d1274a79174b5fa08bb3cd24980128286895dbab109",
+      "code_path": "research_registry/work_batches/ten_hours_20260915/alloy_finite_grammar.py",
+      "code_sha256": "bc04278d040217de9b7d97bd08943429374f97c3a36d02d38001f54e900f5ce3",
+      "limits": {
+        "branches": 3,
+        "statements_per_branch": 20,
+        "registers_per_type": 8,
+        "expression_depth": 6,
+        "numeric_literal_max": 400,
+        "rational_denominator_max": 400
+      },
+      "productions": {
+        "Q": "NUM(n) | MIXED(NUM(w),NUM(p),NUM(d)) | QREF(i) | ADD(Q,Q) | SUB(Q,Q) | MUL(Q,Q) | DIV(Q,Q) | MASS(R) | FINE(R) | GRADE(R)",
+        "R": "RREF(i) | PORTION(type,Q) | MIX(R,R) | SCALE(Q,R) | REPEAT_FILL(R,R,Q,Q)",
+        "S": "SETQ(i,Q) | SETR(i,R) | ASSERTQ(property(R),Q) | ASSERTWEIGHTS(R,Q,Q,Q) | YIELD(R)"
+      },
+      "material_policy": "Immutable recipe vectors. Repeating a recipe reference reuses a definition, not physical stock. Different alternatives may have different vectors and histories while sharing mass/fine goals. No requirement that a second branch by itself identify any meanings."
+    },
+    "writing_family": {
+      "id": "R2",
+      "status": "PROSPECTIVE_RAW_ALTERNATIVE_NO_TARGET_FIT",
+      "atomic_arguments": [
+        "TYPE(A|B|C)",
+        "NUM(canonical decimal)",
+        "QREF(index)",
+        "RREF(index)",
+        "MIXED(NUM(w),NUM(p),NUM(d))"
+      ],
+      "atom_spelling": "TYPE emits its type atom; NUM and references emit their shared prefix followed by shared digit atoms. MIXED emits MIXED plus all three complete NUM component spellings. No whole rational is assigned a new independent value.",
+      "core_production": "head(C) slot(a1)...slot(ak); atomic slot emits its complete atom spelling; non-atomic slot emits HOLE. SETQ/SETR indices are shared decimal digits in the head. Emit non-atomic child cores recursively in original argument order.",
+      "header": "GRADES(A,NUM(a),B,NUM(b),C,NUM(c)), TARGET(NUM(t)), TOTAL(NUM(m)), then FIRST/ALTERNATIVELY and all branch statements.",
+      "whole_group": "H(head@entry,mixed) followed by H of each unchanged core payload atom; no ENTRY or AGREE component. Labels such as SETR@10 encode entry=1,mixed=0.",
+      "entry_function": "entry=0 iff first account group or first group after FIRST/ALTERNATIVELY; otherwise entry=1. No line or leaf state.",
+      "mixed_function": "mixed=1 iff the core directly absorbs a literal MIXED atomic argument; otherwise zero. No inspection of deferred/referenced numerical values.",
+      "result_class": "Determined by the operator and used only by unchanged typing; no separately realized class marker.",
+      "operator_contexts": {
+        "GRADES": [
+          [
+            0,
+            0
+          ]
+        ],
+        "TARGET": [
+          [
+            1,
+            0
+          ]
+        ],
+        "TOTAL": [
+          [
+            1,
+            0
+          ]
+        ],
+        "FIRST": [
+          [
+            1,
+            0
+          ]
+        ],
+        "ALTERNATIVELY": [
+          [
+            1,
+            0
+          ]
+        ],
+        "SETQ": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "ASSERTQ": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "ASSERTWEIGHTS": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "SETR": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "YIELD": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "ADD": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "SUB": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "MUL": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "DIV": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "PORTION": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "SCALE": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "REPEAT_FILL": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "MASS": [
+          [
+            1,
+            0
+          ]
+        ],
+        "FINE": [
+          [
+            1,
+            0
+          ]
+        ],
+        "GRADE": [
+          [
+            1,
+            0
+          ]
+        ],
+        "MIX": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "operator_allomorph_components": [
+        "GRADES@00",
+        "TARGET@10",
+        "TOTAL@10",
+        "FIRST@10",
+        "ALTERNATIVELY@10",
+        "SETQ@00",
+        "SETQ@01",
+        "SETQ@10",
+        "SETQ@11",
+        "ASSERTQ@00",
+        "ASSERTQ@01",
+        "ASSERTQ@10",
+        "ASSERTQ@11",
+        "ASSERTWEIGHTS@00",
+        "ASSERTWEIGHTS@01",
+        "ASSERTWEIGHTS@10",
+        "ASSERTWEIGHTS@11",
+        "SETR@00",
+        "SETR@10",
+        "YIELD@00",
+        "YIELD@10",
+        "ADD@10",
+        "ADD@11",
+        "SUB@10",
+        "SUB@11",
+        "MUL@10",
+        "MUL@11",
+        "DIV@10",
+        "DIV@11",
+        "PORTION@10",
+        "PORTION@11",
+        "SCALE@10",
+        "SCALE@11",
+        "REPEAT_FILL@10",
+        "REPEAT_FILL@11",
+        "MASS@10",
+        "FINE@10",
+        "GRADE@10",
+        "MIX@10"
+      ],
+      "shared_payload_components": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "A",
+        "B",
+        "C",
+        "NUM",
+        "QREF",
+        "RREF",
+        "MIXED",
+        "HOLE"
+      ],
+      "atoms": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "A",
+        "B",
+        "C",
+        "NUM",
+        "QREF",
+        "RREF",
+        "MIXED",
+        "HOLE",
+        "GRADES@00",
+        "TARGET@10",
+        "TOTAL@10",
+        "FIRST@10",
+        "ALTERNATIVELY@10",
+        "SETQ@00",
+        "SETQ@01",
+        "SETQ@10",
+        "SETQ@11",
+        "ASSERTQ@00",
+        "ASSERTQ@01",
+        "ASSERTQ@10",
+        "ASSERTQ@11",
+        "ASSERTWEIGHTS@00",
+        "ASSERTWEIGHTS@01",
+        "ASSERTWEIGHTS@10",
+        "ASSERTWEIGHTS@11",
+        "SETR@00",
+        "SETR@10",
+        "YIELD@00",
+        "YIELD@10",
+        "ADD@10",
+        "ADD@11",
+        "SUB@10",
+        "SUB@11",
+        "MUL@10",
+        "MUL@11",
+        "DIV@10",
+        "DIV@11",
+        "PORTION@10",
+        "PORTION@11",
+        "SCALE@10",
+        "SCALE@11",
+        "REPEAT_FILL@10",
+        "REPEAT_FILL@11",
+        "MASS@10",
+        "FINE@10",
+        "GRADE@10",
+        "MIX@10"
+      ],
+      "atom_count": 57,
+      "code_alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "min_atom_code_length": 1,
+      "max_atom_code_length": 8,
+      "injective_prefix_free": true,
+      "one_global_code_across_accounts": true,
+      "spacing": "A physical line break may replace a group-separating space while remaining recorded, with no semantic/context reset. No internal spaces, arbitrary erasure, comments or other whitespace changes.",
+      "finite_limit_policy": "Retains S0 bounds and R0/R1 alphabet/codeword bounds. Only 39 statically licensed head/context cells exist. No cell, context, state, word key or silent filler may be added after data inspection. Ten more global code entries than R1, nineteen more than R0; capacity unassessed.",
+      "whole_form_limit": "Operator-specific selection and the original fixed entry/direct-MIXED conditions are one bounded compositional hypothesis. They do not explain all known whole-form residuals by assertion."
+    },
+    "source_example_streams": {
+      "two_source_alternatives": {
+        "groups": [
+          [
+            "GRADES@00",
+            "A",
+            "NUM",
+            "3",
+            "B",
+            "NUM",
+            "4",
+            "C",
+            "NUM",
+            "6"
+          ],
+          [
+            "TARGET@10",
+            "NUM",
+            "5"
+          ],
+          [
+            "TOTAL@10",
+            "NUM",
+            "2",
+            "0"
+          ],
+          [
+            "FIRST@10"
+          ],
+          [
+            "SETR@00",
+            "0",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "HOLE",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "A",
+            "NUM",
+            "2"
+          ],
+          [
+            "PORTION@10",
+            "B",
+            "NUM",
+            "5"
+          ],
+          [
+            "ASSERTQ@11",
+            "HOLE",
+            "MIXED",
+            "NUM",
+            "3",
+            "NUM",
+            "5",
+            "NUM",
+            "7"
+          ],
+          [
+            "GRADE@10",
+            "RREF",
+            "0"
+          ],
+          [
+            "SETR@10",
+            "1",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "RREF",
+            "0",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "C",
+            "NUM",
+            "9"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "1",
+            "6"
+          ],
+          [
+            "MASS@10",
+            "RREF",
+            "1"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "8",
+            "0"
+          ],
+          [
+            "FINE@10",
+            "RREF",
+            "1"
+          ],
+          [
+            "SETR@10",
+            "2",
+            "HOLE"
+          ],
+          [
+            "SCALE@10",
+            "HOLE",
+            "RREF",
+            "1"
+          ],
+          [
+            "DIV@10",
+            "NUM",
+            "2",
+            "0",
+            "HOLE"
+          ],
+          [
+            "MASS@10",
+            "RREF",
+            "1"
+          ],
+          [
+            "ASSERTWEIGHTS@11",
+            "RREF",
+            "2",
+            "MIXED",
+            "NUM",
+            "2",
+            "NUM",
+            "1",
+            "NUM",
+            "2",
+            "MIXED",
+            "NUM",
+            "6",
+            "NUM",
+            "1",
+            "NUM",
+            "4",
+            "MIXED",
+            "NUM",
+            "1",
+            "1",
+            "NUM",
+            "1",
+            "NUM",
+            "4"
+          ],
+          [
+            "YIELD@10",
+            "RREF",
+            "2"
+          ],
+          [
+            "ALTERNATIVELY@10"
+          ],
+          [
+            "SETR@00",
+            "0",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "HOLE",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "A",
+            "NUM",
+            "1"
+          ],
+          [
+            "PORTION@10",
+            "C",
+            "NUM",
+            "2"
+          ],
+          [
+            "SETR@10",
+            "1",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "HOLE",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "B",
+            "NUM",
+            "1"
+          ],
+          [
+            "PORTION@10",
+            "C",
+            "NUM",
+            "1"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "3"
+          ],
+          [
+            "MASS@10",
+            "RREF",
+            "0"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "2"
+          ],
+          [
+            "MASS@10",
+            "RREF",
+            "1"
+          ],
+          [
+            "SETR@10",
+            "2",
+            "HOLE"
+          ],
+          [
+            "REPEAT_FILL@10",
+            "RREF",
+            "0",
+            "RREF",
+            "1",
+            "NUM",
+            "2",
+            "0",
+            "NUM",
+            "2"
+          ],
+          [
+            "ASSERTWEIGHTS@10",
+            "RREF",
+            "2",
+            "NUM",
+            "2",
+            "NUM",
+            "7",
+            "NUM",
+            "1",
+            "1"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "FINE@10",
+            "RREF",
+            "2"
+          ],
+          [
+            "YIELD@10",
+            "RREF",
+            "2"
+          ]
+        ],
+        "generated_group_count": 42,
+        "source_semantic_atom_count": 171,
+        "all_semantic_atom_multiplicities_preserved": true,
+        "hole_count": 21,
+        "complete_semantic_account": {
+          "grades": [
+            [
+              "num",
+              "3"
+            ],
+            [
+              "num",
+              "4"
+            ],
+            [
+              "num",
+              "6"
+            ]
+          ],
+          "target": [
+            "num",
+            "5"
+          ],
+          "mass": [
+            "num",
+            "20"
+          ],
+          "branches": [
+            [
+              [
+                "setr",
+                0,
+                [
+                  "mix",
+                  [
+                    "portion",
+                    "A",
+                    [
+                      "num",
+                      "2"
+                    ]
+                  ],
+                  [
+                    "portion",
+                    "B",
+                    [
+                      "num",
+                      "5"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "grade",
+                  [
+                    "rref",
+                    0
+                  ]
+                ],
+                [
+                  "mixed",
+                  [
+                    "num",
+                    "3"
+                  ],
+                  [
+                    "num",
+                    "5"
+                  ],
+                  [
+                    "num",
+                    "7"
+                  ]
+                ]
+              ],
+              [
+                "setr",
+                1,
+                [
+                  "mix",
+                  [
+                    "rref",
+                    0
+                  ],
+                  [
+                    "portion",
+                    "C",
+                    [
+                      "num",
+                      "9"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "mass",
+                  [
+                    "rref",
+                    1
+                  ]
+                ],
+                [
+                  "num",
+                  "16"
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "fine",
+                  [
+                    "rref",
+                    1
+                  ]
+                ],
+                [
+                  "num",
+                  "80"
+                ]
+              ],
+              [
+                "setr",
+                2,
+                [
+                  "scale",
+                  [
+                    "div",
+                    [
+                      "num",
+                      "20"
+                    ],
+                    [
+                      "mass",
+                      [
+                        "rref",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "rref",
+                    1
+                  ]
+                ]
+              ],
+              [
+                "assertweights",
+                [
+                  "rref",
+                  2
+                ],
+                [
+                  "mixed",
+                  [
+                    "num",
+                    "2"
+                  ],
+                  [
+                    "num",
+                    "1"
+                  ],
+                  [
+                    "num",
+                    "2"
+                  ]
+                ],
+                [
+                  "mixed",
+                  [
+                    "num",
+                    "6"
+                  ],
+                  [
+                    "num",
+                    "1"
+                  ],
+                  [
+                    "num",
+                    "4"
+                  ]
+                ],
+                [
+                  "mixed",
+                  [
+                    "num",
+                    "11"
+                  ],
+                  [
+                    "num",
+                    "1"
+                  ],
+                  [
+                    "num",
+                    "4"
+                  ]
+                ]
+              ],
+              [
+                "yield",
+                [
+                  "rref",
+                  2
+                ]
+              ]
+            ],
+            [
+              [
+                "setr",
+                0,
+                [
+                  "mix",
+                  [
+                    "portion",
+                    "A",
+                    [
+                      "num",
+                      "1"
+                    ]
+                  ],
+                  [
+                    "portion",
+                    "C",
+                    [
+                      "num",
+                      "2"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "setr",
+                1,
+                [
+                  "mix",
+                  [
+                    "portion",
+                    "B",
+                    [
+                      "num",
+                      "1"
+                    ]
+                  ],
+                  [
+                    "portion",
+                    "C",
+                    [
+                      "num",
+                      "1"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "mass",
+                  [
+                    "rref",
+                    0
+                  ]
+                ],
+                [
+                  "num",
+                  "3"
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "mass",
+                  [
+                    "rref",
+                    1
+                  ]
+                ],
+                [
+                  "num",
+                  "2"
+                ]
+              ],
+              [
+                "setr",
+                2,
+                [
+                  "repeat_fill",
+                  [
+                    "rref",
+                    0
+                  ],
+                  [
+                    "rref",
+                    1
+                  ],
+                  [
+                    "num",
+                    "20"
+                  ],
+                  [
+                    "num",
+                    "2"
+                  ]
+                ]
+              ],
+              [
+                "assertweights",
+                [
+                  "rref",
+                  2
+                ],
+                [
+                  "num",
+                  "2"
+                ],
+                [
+                  "num",
+                  "7"
+                ],
+                [
+                  "num",
+                  "11"
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "fine",
+                  [
+                    "rref",
+                    2
+                  ]
+                ],
+                [
+                  "num",
+                  "100"
+                ]
+              ],
+              [
+                "yield",
+                [
+                  "rref",
+                  2
+                ]
+              ]
+            ]
+          ]
+        },
+        "semantic_outputs": [
+          {
+            "weights": [
+              "5/2",
+              "25/4",
+              "45/4"
+            ],
+            "mass": "20",
+            "fine": "100",
+            "grade": "5"
+          },
+          {
+            "weights": [
+              "2",
+              "7",
+              "11"
+            ],
+            "mass": "20",
+            "fine": "100",
+            "grade": "5"
+          }
+        ]
+      },
+      "new_4_4_12": {
+        "groups": [
+          [
+            "GRADES@00",
+            "A",
+            "NUM",
+            "3",
+            "B",
+            "NUM",
+            "4",
+            "C",
+            "NUM",
+            "6"
+          ],
+          [
+            "TARGET@10",
+            "NUM",
+            "5"
+          ],
+          [
+            "TOTAL@10",
+            "NUM",
+            "2",
+            "0"
+          ],
+          [
+            "FIRST@10"
+          ],
+          [
+            "SETR@00",
+            "0",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "HOLE",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "A",
+            "NUM",
+            "4"
+          ],
+          [
+            "PORTION@10",
+            "B",
+            "NUM",
+            "4"
+          ],
+          [
+            "SETR@10",
+            "1",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "RREF",
+            "0",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "C",
+            "NUM",
+            "1",
+            "2"
+          ],
+          [
+            "ASSERTWEIGHTS@10",
+            "RREF",
+            "1",
+            "NUM",
+            "4",
+            "NUM",
+            "4",
+            "NUM",
+            "1",
+            "2"
+          ],
+          [
+            "YIELD@10",
+            "RREF",
+            "1"
+          ]
+        ],
+        "generated_group_count": 13,
+        "source_semantic_atom_count": 52,
+        "all_semantic_atom_multiplicities_preserved": true,
+        "hole_count": 5,
+        "complete_semantic_account": {
+          "grades": [
+            [
+              "num",
+              "3"
+            ],
+            [
+              "num",
+              "4"
+            ],
+            [
+              "num",
+              "6"
+            ]
+          ],
+          "target": [
+            "num",
+            "5"
+          ],
+          "mass": [
+            "num",
+            "20"
+          ],
+          "branches": [
+            [
+              [
+                "setr",
+                0,
+                [
+                  "mix",
+                  [
+                    "portion",
+                    "A",
+                    [
+                      "num",
+                      "4"
+                    ]
+                  ],
+                  [
+                    "portion",
+                    "B",
+                    [
+                      "num",
+                      "4"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "setr",
+                1,
+                [
+                  "mix",
+                  [
+                    "rref",
+                    0
+                  ],
+                  [
+                    "portion",
+                    "C",
+                    [
+                      "num",
+                      "12"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertweights",
+                [
+                  "rref",
+                  1
+                ],
+                [
+                  "num",
+                  "4"
+                ],
+                [
+                  "num",
+                  "4"
+                ],
+                [
+                  "num",
+                  "12"
+                ]
+              ],
+              [
+                "yield",
+                [
+                  "rref",
+                  1
+                ]
+              ]
+            ]
+          ]
+        },
+        "semantic_outputs": [
+          {
+            "weights": [
+              "4",
+              "4",
+              "12"
+            ],
+            "mass": "20",
+            "fine": "100",
+            "grade": "5"
+          }
+        ]
+      },
+      "three_alternative_account": {
+        "groups": [
+          [
+            "GRADES@00",
+            "A",
+            "NUM",
+            "3",
+            "B",
+            "NUM",
+            "4",
+            "C",
+            "NUM",
+            "6"
+          ],
+          [
+            "TARGET@10",
+            "NUM",
+            "5"
+          ],
+          [
+            "TOTAL@10",
+            "NUM",
+            "2",
+            "0"
+          ],
+          [
+            "FIRST@10"
+          ],
+          [
+            "SETR@00",
+            "0",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "HOLE",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "A",
+            "NUM",
+            "2"
+          ],
+          [
+            "PORTION@10",
+            "B",
+            "NUM",
+            "5"
+          ],
+          [
+            "ASSERTQ@11",
+            "HOLE",
+            "MIXED",
+            "NUM",
+            "3",
+            "NUM",
+            "5",
+            "NUM",
+            "7"
+          ],
+          [
+            "GRADE@10",
+            "RREF",
+            "0"
+          ],
+          [
+            "SETR@10",
+            "1",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "RREF",
+            "0",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "C",
+            "NUM",
+            "9"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "1",
+            "6"
+          ],
+          [
+            "MASS@10",
+            "RREF",
+            "1"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "8",
+            "0"
+          ],
+          [
+            "FINE@10",
+            "RREF",
+            "1"
+          ],
+          [
+            "SETR@10",
+            "2",
+            "HOLE"
+          ],
+          [
+            "SCALE@10",
+            "HOLE",
+            "RREF",
+            "1"
+          ],
+          [
+            "DIV@10",
+            "NUM",
+            "2",
+            "0",
+            "HOLE"
+          ],
+          [
+            "MASS@10",
+            "RREF",
+            "1"
+          ],
+          [
+            "ASSERTWEIGHTS@11",
+            "RREF",
+            "2",
+            "MIXED",
+            "NUM",
+            "2",
+            "NUM",
+            "1",
+            "NUM",
+            "2",
+            "MIXED",
+            "NUM",
+            "6",
+            "NUM",
+            "1",
+            "NUM",
+            "4",
+            "MIXED",
+            "NUM",
+            "1",
+            "1",
+            "NUM",
+            "1",
+            "NUM",
+            "4"
+          ],
+          [
+            "YIELD@10",
+            "RREF",
+            "2"
+          ],
+          [
+            "ALTERNATIVELY@10"
+          ],
+          [
+            "SETR@00",
+            "0",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "HOLE",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "A",
+            "NUM",
+            "1"
+          ],
+          [
+            "PORTION@10",
+            "C",
+            "NUM",
+            "2"
+          ],
+          [
+            "SETR@10",
+            "1",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "HOLE",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "B",
+            "NUM",
+            "1"
+          ],
+          [
+            "PORTION@10",
+            "C",
+            "NUM",
+            "1"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "3"
+          ],
+          [
+            "MASS@10",
+            "RREF",
+            "0"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "2"
+          ],
+          [
+            "MASS@10",
+            "RREF",
+            "1"
+          ],
+          [
+            "SETR@10",
+            "2",
+            "HOLE"
+          ],
+          [
+            "REPEAT_FILL@10",
+            "RREF",
+            "0",
+            "RREF",
+            "1",
+            "NUM",
+            "2",
+            "0",
+            "NUM",
+            "2"
+          ],
+          [
+            "ASSERTWEIGHTS@10",
+            "RREF",
+            "2",
+            "NUM",
+            "2",
+            "NUM",
+            "7",
+            "NUM",
+            "1",
+            "1"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "FINE@10",
+            "RREF",
+            "2"
+          ],
+          [
+            "YIELD@10",
+            "RREF",
+            "2"
+          ],
+          [
+            "ALTERNATIVELY@10"
+          ],
+          [
+            "SETR@00",
+            "0",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "HOLE",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "A",
+            "NUM",
+            "4"
+          ],
+          [
+            "PORTION@10",
+            "B",
+            "NUM",
+            "4"
+          ],
+          [
+            "SETR@10",
+            "1",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "RREF",
+            "0",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "C",
+            "NUM",
+            "1",
+            "2"
+          ],
+          [
+            "ASSERTWEIGHTS@10",
+            "RREF",
+            "1",
+            "NUM",
+            "4",
+            "NUM",
+            "4",
+            "NUM",
+            "1",
+            "2"
+          ],
+          [
+            "YIELD@10",
+            "RREF",
+            "1"
+          ]
+        ],
+        "generated_group_count": 52,
+        "source_semantic_atom_count": 206,
+        "all_semantic_atom_multiplicities_preserved": true,
+        "hole_count": 26,
+        "complete_semantic_account": {
+          "grades": [
+            [
+              "num",
+              "3"
+            ],
+            [
+              "num",
+              "4"
+            ],
+            [
+              "num",
+              "6"
+            ]
+          ],
+          "target": [
+            "num",
+            "5"
+          ],
+          "mass": [
+            "num",
+            "20"
+          ],
+          "branches": [
+            [
+              [
+                "setr",
+                0,
+                [
+                  "mix",
+                  [
+                    "portion",
+                    "A",
+                    [
+                      "num",
+                      "2"
+                    ]
+                  ],
+                  [
+                    "portion",
+                    "B",
+                    [
+                      "num",
+                      "5"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "grade",
+                  [
+                    "rref",
+                    0
+                  ]
+                ],
+                [
+                  "mixed",
+                  [
+                    "num",
+                    "3"
+                  ],
+                  [
+                    "num",
+                    "5"
+                  ],
+                  [
+                    "num",
+                    "7"
+                  ]
+                ]
+              ],
+              [
+                "setr",
+                1,
+                [
+                  "mix",
+                  [
+                    "rref",
+                    0
+                  ],
+                  [
+                    "portion",
+                    "C",
+                    [
+                      "num",
+                      "9"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "mass",
+                  [
+                    "rref",
+                    1
+                  ]
+                ],
+                [
+                  "num",
+                  "16"
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "fine",
+                  [
+                    "rref",
+                    1
+                  ]
+                ],
+                [
+                  "num",
+                  "80"
+                ]
+              ],
+              [
+                "setr",
+                2,
+                [
+                  "scale",
+                  [
+                    "div",
+                    [
+                      "num",
+                      "20"
+                    ],
+                    [
+                      "mass",
+                      [
+                        "rref",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "rref",
+                    1
+                  ]
+                ]
+              ],
+              [
+                "assertweights",
+                [
+                  "rref",
+                  2
+                ],
+                [
+                  "mixed",
+                  [
+                    "num",
+                    "2"
+                  ],
+                  [
+                    "num",
+                    "1"
+                  ],
+                  [
+                    "num",
+                    "2"
+                  ]
+                ],
+                [
+                  "mixed",
+                  [
+                    "num",
+                    "6"
+                  ],
+                  [
+                    "num",
+                    "1"
+                  ],
+                  [
+                    "num",
+                    "4"
+                  ]
+                ],
+                [
+                  "mixed",
+                  [
+                    "num",
+                    "11"
+                  ],
+                  [
+                    "num",
+                    "1"
+                  ],
+                  [
+                    "num",
+                    "4"
+                  ]
+                ]
+              ],
+              [
+                "yield",
+                [
+                  "rref",
+                  2
+                ]
+              ]
+            ],
+            [
+              [
+                "setr",
+                0,
+                [
+                  "mix",
+                  [
+                    "portion",
+                    "A",
+                    [
+                      "num",
+                      "1"
+                    ]
+                  ],
+                  [
+                    "portion",
+                    "C",
+                    [
+                      "num",
+                      "2"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "setr",
+                1,
+                [
+                  "mix",
+                  [
+                    "portion",
+                    "B",
+                    [
+                      "num",
+                      "1"
+                    ]
+                  ],
+                  [
+                    "portion",
+                    "C",
+                    [
+                      "num",
+                      "1"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "mass",
+                  [
+                    "rref",
+                    0
+                  ]
+                ],
+                [
+                  "num",
+                  "3"
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "mass",
+                  [
+                    "rref",
+                    1
+                  ]
+                ],
+                [
+                  "num",
+                  "2"
+                ]
+              ],
+              [
+                "setr",
+                2,
+                [
+                  "repeat_fill",
+                  [
+                    "rref",
+                    0
+                  ],
+                  [
+                    "rref",
+                    1
+                  ],
+                  [
+                    "num",
+                    "20"
+                  ],
+                  [
+                    "num",
+                    "2"
+                  ]
+                ]
+              ],
+              [
+                "assertweights",
+                [
+                  "rref",
+                  2
+                ],
+                [
+                  "num",
+                  "2"
+                ],
+                [
+                  "num",
+                  "7"
+                ],
+                [
+                  "num",
+                  "11"
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "fine",
+                  [
+                    "rref",
+                    2
+                  ]
+                ],
+                [
+                  "num",
+                  "100"
+                ]
+              ],
+              [
+                "yield",
+                [
+                  "rref",
+                  2
+                ]
+              ]
+            ],
+            [
+              [
+                "setr",
+                0,
+                [
+                  "mix",
+                  [
+                    "portion",
+                    "A",
+                    [
+                      "num",
+                      "4"
+                    ]
+                  ],
+                  [
+                    "portion",
+                    "B",
+                    [
+                      "num",
+                      "4"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "setr",
+                1,
+                [
+                  "mix",
+                  [
+                    "rref",
+                    0
+                  ],
+                  [
+                    "portion",
+                    "C",
+                    [
+                      "num",
+                      "12"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertweights",
+                [
+                  "rref",
+                  1
+                ],
+                [
+                  "num",
+                  "4"
+                ],
+                [
+                  "num",
+                  "4"
+                ],
+                [
+                  "num",
+                  "12"
+                ]
+              ],
+              [
+                "yield",
+                [
+                  "rref",
+                  1
+                ]
+              ]
+            ]
+          ]
+        },
+        "semantic_outputs": [
+          {
+            "weights": [
+              "5/2",
+              "25/4",
+              "45/4"
+            ],
+            "mass": "20",
+            "fine": "100",
+            "grade": "5"
+          },
+          {
+            "weights": [
+              "2",
+              "7",
+              "11"
+            ],
+            "mass": "20",
+            "fine": "100",
+            "grade": "5"
+          },
+          {
+            "weights": [
+              "4",
+              "4",
+              "12"
+            ],
+            "mass": "20",
+            "fine": "100",
+            "grade": "5"
+          }
+        ]
+      },
+      "new_grades_4_6_10_total12": {
+        "groups": [
+          [
+            "GRADES@00",
+            "A",
+            "NUM",
+            "4",
+            "B",
+            "NUM",
+            "6",
+            "C",
+            "NUM",
+            "1",
+            "0"
+          ],
+          [
+            "TARGET@10",
+            "NUM",
+            "8"
+          ],
+          [
+            "TOTAL@10",
+            "NUM",
+            "1",
+            "2"
+          ],
+          [
+            "FIRST@10"
+          ],
+          [
+            "SETR@00",
+            "0",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "HOLE",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "A",
+            "NUM",
+            "2"
+          ],
+          [
+            "PORTION@10",
+            "B",
+            "NUM",
+            "3"
+          ],
+          [
+            "ASSERTQ@11",
+            "HOLE",
+            "MIXED",
+            "NUM",
+            "5",
+            "NUM",
+            "1",
+            "NUM",
+            "5"
+          ],
+          [
+            "GRADE@10",
+            "RREF",
+            "0"
+          ],
+          [
+            "SETR@10",
+            "1",
+            "HOLE"
+          ],
+          [
+            "MIX@10",
+            "RREF",
+            "0",
+            "HOLE"
+          ],
+          [
+            "PORTION@10",
+            "C",
+            "NUM",
+            "7"
+          ],
+          [
+            "ASSERTWEIGHTS@10",
+            "RREF",
+            "1",
+            "NUM",
+            "2",
+            "NUM",
+            "3",
+            "NUM",
+            "7"
+          ],
+          [
+            "ASSERTQ@10",
+            "HOLE",
+            "NUM",
+            "9",
+            "6"
+          ],
+          [
+            "FINE@10",
+            "RREF",
+            "1"
+          ],
+          [
+            "YIELD@10",
+            "RREF",
+            "1"
+          ]
+        ],
+        "generated_group_count": 17,
+        "source_semantic_atom_count": 69,
+        "all_semantic_atom_multiplicities_preserved": true,
+        "hole_count": 7,
+        "complete_semantic_account": {
+          "grades": [
+            [
+              "num",
+              "4"
+            ],
+            [
+              "num",
+              "6"
+            ],
+            [
+              "num",
+              "10"
+            ]
+          ],
+          "target": [
+            "num",
+            "8"
+          ],
+          "mass": [
+            "num",
+            "12"
+          ],
+          "branches": [
+            [
+              [
+                "setr",
+                0,
+                [
+                  "mix",
+                  [
+                    "portion",
+                    "A",
+                    [
+                      "num",
+                      "2"
+                    ]
+                  ],
+                  [
+                    "portion",
+                    "B",
+                    [
+                      "num",
+                      "3"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "grade",
+                  [
+                    "rref",
+                    0
+                  ]
+                ],
+                [
+                  "mixed",
+                  [
+                    "num",
+                    "5"
+                  ],
+                  [
+                    "num",
+                    "1"
+                  ],
+                  [
+                    "num",
+                    "5"
+                  ]
+                ]
+              ],
+              [
+                "setr",
+                1,
+                [
+                  "mix",
+                  [
+                    "rref",
+                    0
+                  ],
+                  [
+                    "portion",
+                    "C",
+                    [
+                      "num",
+                      "7"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "assertweights",
+                [
+                  "rref",
+                  1
+                ],
+                [
+                  "num",
+                  "2"
+                ],
+                [
+                  "num",
+                  "3"
+                ],
+                [
+                  "num",
+                  "7"
+                ]
+              ],
+              [
+                "assertq",
+                [
+                  "fine",
+                  [
+                    "rref",
+                    1
+                  ]
+                ],
+                [
+                  "num",
+                  "96"
+                ]
+              ],
+              [
+                "yield",
+                [
+                  "rref",
+                  1
+                ]
+              ]
+            ]
+          ]
+        },
+        "semantic_outputs": [
+          {
+            "weights": [
+              "2",
+              "3",
+              "7"
+            ],
+            "mass": "12",
+            "fine": "96",
+            "grade": "8"
+          }
+        ]
+      }
+    },
+    "code_existence_witness": {
+      "dictionary": {
+        "GRADES@00": "a",
+        "TARGET@10": "b",
+        "TOTAL@10": "c",
+        "FIRST@10": "d",
+        "0": "ea",
+        "1": "eb",
+        "2": "ec",
+        "3": "ed",
+        "4": "ee",
+        "5": "ef",
+        "6": "eg",
+        "7": "eh",
+        "8": "ei",
+        "9": "ej",
+        "A": "ek",
+        "B": "el",
+        "C": "em",
+        "NUM": "en",
+        "QREF": "eo",
+        "RREF": "ep",
+        "MIXED": "eq",
+        "HOLE": "er",
+        "ALTERNATIVELY@10": "es",
+        "SETQ@00": "et",
+        "SETQ@01": "eu",
+        "SETQ@10": "ev",
+        "SETQ@11": "ew",
+        "ASSERTQ@00": "ex",
+        "ASSERTQ@01": "ey",
+        "ASSERTQ@10": "ez",
+        "ASSERTQ@11": "fa",
+        "ASSERTWEIGHTS@00": "fb",
+        "ASSERTWEIGHTS@01": "fc",
+        "ASSERTWEIGHTS@10": "fd",
+        "ASSERTWEIGHTS@11": "fe",
+        "SETR@00": "ff",
+        "SETR@10": "fg",
+        "YIELD@00": "fh",
+        "YIELD@10": "fi",
+        "ADD@10": "fj",
+        "ADD@11": "fk",
+        "SUB@10": "fl",
+        "SUB@11": "fm",
+        "MUL@10": "fn",
+        "MUL@11": "fo",
+        "DIV@10": "fp",
+        "DIV@11": "fq",
+        "PORTION@10": "fr",
+        "PORTION@11": "fs",
+        "SCALE@10": "ft",
+        "SCALE@11": "fu",
+        "REPEAT_FILL@10": "fv",
+        "REPEAT_FILL@11": "fw",
+        "MASS@10": "fx",
+        "FINE@10": "fy",
+        "GRADE@10": "fz",
+        "MIX@10": "ga"
+      },
+      "first_four_source_groups": [
+        "aekenedeleneeemeneg",
+        "benef",
+        "cenecea",
+        "d"
+      ],
+      "distinct_initials_in_first_four": 4,
+      "first_marker_group_length": 1,
+      "prefix_free": true,
+      "purpose": "Logical contrast only; no target fit"
+    },
+    "shared_payload_witness": {
+      "fine_group": [
+        "FINE@10",
+        "RREF",
+        "1"
+      ],
+      "yield_group": [
+        "YIELD@10",
+        "RREF",
+        "1"
+      ],
+      "identical_tail": [
+        "RREF",
+        "1"
+      ]
+    },
+    "entry_context_witness": [
+      [
+        "SETR@00",
+        "0",
+        "HOLE"
+      ],
+      [
+        "SETR@10",
+        "0",
+        "HOLE"
+      ]
+    ],
+    "source_only_rival_check": {
+      "typed_recipe_encoded": true,
+      "generated_groups": 13,
+      "written_header_arithmetic_rejected": true,
+      "weights": [
+        16,
+        4,
+        0
+      ],
+      "mass": 20,
+      "fine": 64
+    },
+    "prior_ownership": {
+      "r1_proposal_path": "research_registry/proposals/raw_alloy_r1_compositional_group_code.json",
+      "r1_proposal_sha256": "5048251b43b1c3ba996e3a23a235ce3c865ceea00a2328de1cef68a4578d93e6",
+      "r1_idea": "IDEA000355",
+      "r1_frozen": true,
+      "source": "Fibonacci, Liber abbaci, revised 1228, chapter XI three-coin subsection; Boncompagni edition 1857, printed pp.152–154. Existing native source audit, not newly acquired.",
+      "public_pdf": "https://archive.org/download/bub_gb_CrdUBgtAZFoC/bub_gb_CrdUBgtAZFoC.pdf",
+      "public_pdf_sha256": "e0617041071d181ae61a5109fc21ad48b8503927ed9f8f2a1378575de797ed1a",
+      "source_scope": "Existing S0 technical-content projection only; original classifications, table drawing, citations and repeated prose remain outside this model. All S0 omissions and printed-versus-computed distinctions retained."
+    },
+    "new_account_status": "new_grades_4_6_10_total12 is generated here: grades4,6,10, target8, total12; mix2A+3B, assert5+1/5, add7C, assert2,3,7and fine96, yield. It is not printed historical source. All other supplied ASTs are unchanged S0examples.",
+    "meaning_layers": [
+      "Well-typed legal expression and reference program.",
+      "True written arithmetic assertions and independently declared header.",
+      "A global written realization plus an independently bound target consequence. Only the first two are exercised source-only."
+    ],
+    "retained_countermodels": "GDT971 Qalone left2digit maps; Padded no elimination; all5accounts fixedidentity under known arithmetic/roles/spelling. Free whole-quantity labels remain underidentified. More than one valid path does not automatically identify meaning. R0/R1have different group counts for the same trees but their complete variable-program languages are not claimed disjoint.",
+    "predecessors": "IDEA124 already owns whole-group instructions, physical-stock semantics and its missing owned endpoint stop. S0/R0 owns immutable recipes; R1 owns grouping/context hypotheses. GDT571 is an inherited finite-slot rendering result, no operator translation license. IDEA9 remains missing a discriminating owned role response, not empirically refuted. GDT882 fixed additive whole-line exclusion and GDT903 unrestricted-automaton underidentification remain. GDT708/741 provide no new gloss or target owner. GDT971 multiple paths did not automatically add digit-map discrimination.",
+    "structural_dependencies": "Ordered composition, hierarchy atspaces, whole-form residuals and entry/context effects retained. No identified BPE/EVAphonetic alphabet, inherited medicine gloss, marker stripping or per-occurrence exception.",
+    "timing_and_access": "Explicitly prospective alternative assigned before any R1 target outcome; no target input/result, new Voynich image, reserve, new source acquisition or outside contact. Live stable baseline, composition topic, route-check, bounded duplicate navigation and indicated old primaries only. No R0 target result read. Earlier source/proposal bytes remain frozen.",
+    "source_encoder": {
+      "path": "research_registry/work_batches/ten_hours_20260915/alloy_r2_source_encoder.py",
+      "sha256": "7266ee5035dcd807048f462c1bdcce77939e5b605e66a033cb7965433771ad12",
+      "function": "Hash-checks frozen R1/source inputs, verifies deterministic contexts and unchanged payloads, re-evaluates all four complete S0 accounts, emits complete abstract groups and a preassigned prefix-free logical witness. No unknown-text input, key fitting or target decoder."
+    },
+    "source_evidence": {
+      "path": "research_registry/work_batches/ten_hours_20260915/ALLOY_R2_WRITING_MODEL.md",
+      "line": 4,
+      "quote": "Status: RAW_UNREVIEWED_NOT_SELECTED. No target input, parser or fit.",
+      "sha256": "1662fe193b0b32c7a4c89d8be6d0ddd7c3ca879bac06ed608c727648995e3530"
+    },
+    "scope": "One raw writing alternative. No historical format license, target owner, confirmed word, model selection, practical search capacity or automatic repair authority. A failed writing hypothesis would not reject mixture content generally."
+  }
+}

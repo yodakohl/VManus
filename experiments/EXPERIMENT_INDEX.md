@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **971**
-- Experiment-associated tracked files: **18,740** (1.7 GiB)
+- Experiment-associated tracked files: **18,745** (1.7 GiB)
 - Structured GDT337+ experiments: **636**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT972 | GDT972 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt972_alloy_r0_whole_header_consequence/PREREGISTRATION.md) | 12 | 46.9 KiB | 3 | STRUCTURED_YOLO |
+| GDT972 | GDT972 | `ALL_LITERAL_R0_HEADERS_CONTRADICTED` | [report](../experiments/yolo/gdt972_alloy_r0_whole_header_consequence/REPORT.md) | 17 | 1.6 MiB | 3 | STRUCTURED_YOLO |
 | GDT971 | GDT971 | `SOURCE_NUMERAL_VALUES_UNIQUE` | [report](../experiments/yolo/gdt971_alloy_numeral_binding_control/REPORT.md) | 17 | 57.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT970 | GDT970 | `FIXED_LITERAL_WHOLE_PART_CODE_CONTRADICTED` | [report](../experiments/yolo/gdt970_rota_whole_part_conjugacy/REPORT.md) | 22 | 4.2 MiB | 8 | STRUCTURED_YOLO |
 | GDT969 | GDT969 | `FIXED_IT2A_TRACE_CODE_CONTRADICTED` | [report](../experiments/yolo/gdt969_fibonacci_generated_root_trace/REPORT.md) | 21 | 2.8 MiB | 10 | STRUCTURED_YOLO |

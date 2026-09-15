@@ -100,9 +100,9 @@ def row_groups(row):
                 return None
             flattened.extend(line["words"])
         line_groups = flattened
-    if full_groups is not None and line_groups is not None and full_groups != line_groups:
+    if full_groups is not None and line_groups is not None and full != " ".join(line_groups):
         raise ValueError("full_text does not equal flattened line words")
-    return full_groups if full_groups is not None else line_groups
+    return line_groups if line_groups is not None else full_groups
 
 
 def normalize_rows(payload):
