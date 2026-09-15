@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT968 TWO-POLE FRAMEWORK: six fixed astronomical renderings,14selectors;both native observers12wholeunitscontradicted/1clippedfragmentunknown/0MATCH. Separate seals and source/result validatorPASS. No complete candidate, metricconstruction, code or meaning. Primary: experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/REPORT.md
+
 LATITUDE WORKSHEET PREFLIGHT: both fixed7/12group models have0eligible complete paragraphs over179selectors; independent reconstruction and3761generated-program count PASS. No number-code or arithmetic fit performed; nonliteral/boundary scope unknown.0words/independent. Primary: research_registry/work_batches/ten_hours_20260915/LATITUDE_CAPACITY_REPORT.md
 
 GDT967 SHARED BATH CONTENT: all32source records/13families/166occurrences cannot jointly embed in71literalITparagraphs. Whole-word model fails all40AQUA/STOMACH pairs; piece model leaves21pairs then fails all6615HEAD extensions. Complete enumeration;11 independent grouped checksPASS including7926prefix rows. ZL3/RF0 literal capacity; wider scope unknown.0words/independent; partial incidence only, no source or language refutation. Primary: experiments/yolo/gdt967_balneis_joint_body_term_incidence/REPORT.md

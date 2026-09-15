@@ -131,3 +131,12 @@ The source's earlier image attribution is corrected; edited II25 is complete.
 Primary: [capacity report](LATITUDE_CAPACITY_REPORT.md). No word recovered.
 Next review: a whole geometric construction whose executed output could bind
 meaning; existing counts and proximity alone do not supply this relation.
+
+## Ninth material result — GDT968
+
+Fixed Digby40chapter2 shared-pole consequence: twelve complete circular units
+contradict;one clipped neighbour remainsunknown. Bothsealedobserversagree,
+sourcehash/seal/all13rowcomparisonvalidationPASS.0completecandidate/word.
+No all-astronomy exclusion;no decoder or furtherimagevariant selected.
+Primary: [GDT968](../../../experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/REPORT.md).
+Next: source-only review ofFibonacci wholecalculation+writtenproof content.

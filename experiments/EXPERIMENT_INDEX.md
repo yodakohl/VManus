@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **967**
-- Experiment-associated tracked files: **18,661** (1.7 GiB)
+- Experiment-associated tracked files: **18,668** (1.7 GiB)
 - Structured GDT337+ experiments: **632**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT968 | GDT968 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/REPORT.md) | 15 | 44.2 KiB | 4 | STRUCTURED_YOLO |
+| GDT968 | GDT968 | `UNRESOLVED_FRAMEWORK_CAPACITY` | [report](../experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/REPORT.md) | 22 | 111.7 KiB | 4 | STRUCTURED_YOLO |
 | GDT967 | GDT967 | `BOTH_FIXED_MODELS_CONTRADICTED` | [report](../experiments/yolo/gdt967_balneis_joint_body_term_incidence/REPORT.md) | 34 | 10.2 MiB | 10 | STRUCTURED_YOLO |
 | GDT966 | GDT966 | `ALL_FINITE_CONSTRUCTION_CASES_CONTRADICTED` | [report](../experiments/yolo/gdt966_genizah_constructed_clause_code/REPORT.md) | 29 | 8.9 MiB | 9 | STRUCTURED_YOLO |
 | GDT965 | GDT965 | `NO_LITERAL_JOINT_READING_WHOLE_SCOPE_UNKNOWN` | [report](../experiments/yolo/gdt965_genizah_complete_record_grapheme_code/REPORT.md) | 20 | 1.9 MiB | 6 | STRUCTURED_YOLO |
