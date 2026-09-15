@@ -5,11 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT956 retains uncertain f66r food/provisions note; no full reading.
-Next: source-reviewed content hypotheses beyond literal equality; raw324–326 unselected.
+Latest decision: GDT957 retains32 conditional f66r calculations; no figure word chosen.
+Next: content constraints beyond injective list fits; raw324–328 remain unselected.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT956 complete;955closed,953unchanged; no Picatrix repair or adoptedokeod meaning.
+Resume: GDT957 complete;15unique labels fit any renaming.956uncertain;955closed,953unchanged.
 Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline

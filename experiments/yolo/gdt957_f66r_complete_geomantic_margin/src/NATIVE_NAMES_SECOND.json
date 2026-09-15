@@ -1,0 +1,62 @@
+{
+  "schema": "TURNER1655_GEOMANCY_NAMES_NATIVE_SECOND_READING_V1",
+  "observer": "semantic_rival",
+  "status": "source_image_collation_only",
+  "source": {
+    "local_path": "geomancy_cache/turner1655_names.gif",
+    "remote_image": "https://www.princeton.edu/~ezb/geomancy/hcafig1.gif",
+    "sha256": "f005fa1052305c50d95f4d4385b6c33873f70210ef6c236611ea8ebfce2ce4b5",
+    "dimensions": [300, 741],
+    "page_context": "The Princeton HTML places this image immediately after the statement that the art has sixteen figures and before the planetary/name discussion."
+  },
+  "encoding": {
+    "row_order": "top_to_bottom as printed",
+    "single_dot": 1,
+    "double_dot": 0,
+    "vector_order": "four printed rows",
+    "interpretation_limit": "The vectors are visual dot-count transcriptions only; no target spelling, house meaning, planet meaning, or target column orientation is inferred."
+  },
+  "figures": [
+    {"printed_name": "The greater Fortune", "canonical_name": "Fortuna major", "row_counts": [2, 2, 1, 1], "vector": [0, 0, 1, 1]},
+    {"printed_name": "The lesser Fortune", "canonical_name": "Fortuna minor", "row_counts": [1, 1, 2, 2], "vector": [1, 1, 0, 0]},
+    {"printed_name": "Via", "canonical_name": "Via", "row_counts": [1, 1, 1, 1], "vector": [1, 1, 1, 1]},
+    {"printed_name": "Populus", "canonical_name": "Populus", "row_counts": [2, 2, 2, 2], "vector": [0, 0, 0, 0]},
+    {"printed_name": "Acquisitio", "canonical_name": "Acquisitio", "row_counts": [2, 1, 2, 1], "vector": [0, 1, 0, 1]},
+    {"printed_name": "Laetitia", "canonical_name": "Laetitia", "row_counts": [1, 2, 2, 2], "vector": [1, 0, 0, 0]},
+    {"printed_name": "Puella", "canonical_name": "Puella", "row_counts": [1, 2, 1, 1], "vector": [1, 0, 1, 1]},
+    {"printed_name": "Amissio", "canonical_name": "Amissio", "row_counts": [1, 2, 1, 2], "vector": [1, 0, 1, 0]},
+    {"printed_name": "Conjunctio", "canonical_name": "Conjunctio", "row_counts": [2, 1, 1, 2], "vector": [0, 1, 1, 0]},
+    {"printed_name": "Albus", "canonical_name": "Albus", "row_counts": [2, 2, 1, 2], "vector": [0, 0, 1, 0]},
+    {"printed_name": "Puer", "canonical_name": "Puer", "row_counts": [1, 1, 2, 1], "vector": [1, 1, 0, 1]},
+    {"printed_name": "Rubeus", "canonical_name": "Rubeus", "row_counts": [2, 1, 2, 2], "vector": [0, 1, 0, 0]},
+    {"printed_name": "Carcer", "canonical_name": "Carcer", "row_counts": [1, 2, 2, 1], "vector": [1, 0, 0, 1]},
+    {"printed_name": "Tristitia", "canonical_name": "Tristitia", "row_counts": [2, 2, 2, 1], "vector": [0, 0, 0, 1]},
+    {"printed_name": "Dragons head", "canonical_name": "Caput Draconis", "row_counts": [2, 1, 1, 1], "vector": [0, 1, 1, 1]},
+    {"printed_name": "Dragons taile", "canonical_name": "Cauda Draconis", "row_counts": [1, 1, 1, 2], "vector": [1, 1, 1, 0]}
+  ],
+  "native_observations": [
+    "The table visibly pairs each name with a four-row dot figure in the left or middle column; the right column gives planetary glyph/name associations for the first fourteen entries and no planet for the two dragon entries.",
+    "The first and last rows of some cells approach the printed separators and labels. Counts above were read from the dot symbols themselves at native resolution, with row order retained; no mirror or rotation was applied.",
+    "The image binds the dot pattern's printed top-to-bottom presentation. It does not independently bind the direction in which four mothers are serialized into a target record."
+  ],
+  "cross_checks": {
+    "distinct_vectors": 16,
+    "all_vectors_length_four": true,
+    "single_double_complement_pairs_visible": [
+      ["Fortuna major", "Fortuna minor"],
+      ["Via", "Populus"],
+      ["Acquisitio", "Amissio"],
+      ["Laetitia", "Caput Draconis"],
+      ["Tristitia", "Cauda Draconis"],
+      ["Puella", "Rubeus"],
+      ["Puer", "Albus"],
+      ["Conjunctio", "Carcer"]
+    ],
+    "note": "These complement pairings are arithmetic checks on the transcription, not semantic claims."
+  },
+  "not_read": [
+    "No Voynich target labels or target paragraphs.",
+    "No early Cod. Sang. 756 images beyond the already frozen source receipt.",
+    "No target fit, key search, significance test, or source-program completion beyond the printed Turner table."
+  ]
+}

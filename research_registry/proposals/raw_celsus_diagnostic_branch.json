@@ -1,0 +1,20 @@
+{
+  "title": "RAW_UNSCREENED: Conditional diagnosis with an ordered polarity reversal",
+  "summary": "Celsus gives a compact diagnostic chain with acute/chronic alternatives, a conditional fallback, a first restraining and then warming/drawing treatment, and a named final preparation. This supplies a branch plus changed outcome consequence for an admitted Herbal line, beyond repeated words.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A clinical paragraph encodes observation, diagnosis branch, conditional fallback, ordered interventions and endpoint; the interventions can reverse a property while preserving the patient/complaint frame.",
+    "external_primary": "Celsus, De Medicina 4.15.1.1, Packard Humanities Institute: https://latin.packhum.org/loc/836/2/260",
+    "source_example": "Celsus separates acute from longer liver disease by signs; gives bloodletting first; says the abdomen is to be loosened if necessary; then orders external poultices, first those that restrain and then warm ones that draw, followed by a malagma. The conditional and the ordered polarity pair are explicit.",
+    "target_endpoint": "The already admitted complete Herbal line f29v.4 from GDT625: `ysho otshy okaiin cthy oltchy s shot sho okaiin`; f29v.1 is the paired complete local line in the same registered source report.",
+    "reading_a": "A diagnostic/process record: a condition selects one branch, two successive interventions alter a shared carrier in opposite directions, and a final endpoint closes the case.",
+    "reading_b": "A descriptive part-state record: the apparent polarity pair is two co-present material states or parts, with no diagnosis, conditional branch, or temporal result.",
+    "observable_difference": "Reading A predicts one independently recurrent condition slot before a branch, a stable ordered pair of opposite state changes on the same carrier, and a distinct terminal endpoint; reversing the pair changes the clinical result. Reading B predicts no branch-dependent choice and allows the two state/part fields to co-occur without an endpoint transition. No English action is assigned in advance.",
+    "smallest_test": "Use only the existing f29v.1/f29v.4 complete lines and frozen boundaries. Seek a repeated condition-before-branch frame and a held polarity/order consequence; a mere dry/moist adjacency or assigned carrier is insufficient.",
+    "nearest_rival": "GDT625's two parallel plant-part/state descriptions, including its preferred reading of f29v.4.",
+    "assumption_costs": ["Celsus supplies a content architecture, not a Voynich translation.", "Condition, carrier and endpoint must be independently coded rather than borrowed from old glosses.", "The source's polarity order must be treated as a falsifiable relation, not as a synonym list."],
+    "strongest_likely_failure": "The admitted lines expose no written condition or independent result, so process and inventory readings can be relabelled to fit the same surfaces.",
+    "primary_predecessors": ["GDT625", "GDT768", "IDEA000034", "IDEA000042"],
+    "status": "RAW_UNSCREENED"
+  }
+}

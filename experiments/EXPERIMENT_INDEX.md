@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **956**
-- Experiment-associated tracked files: **18,381** (1.7 GiB)
+- Experiment-associated tracked files: **18,393** (1.7 GiB)
 - Structured GDT337+ experiments: **621**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT957 | f66r complete geomantic margin | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt957_f66r_complete_geomantic_margin/REPORT.md) | 10 | 14.5 KiB | 3 | STRUCTURED_YOLO |
+| GDT957 | GDT957_f66r_complete_geomantic_margin | `COMPATIBLE_CONDITIONAL_READING_UNIDENTIFIED` | [report](../experiments/yolo/gdt957_f66r_complete_geomantic_margin/REPORT.md) | 22 | 710.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT956 | GDT956_f66r_contextual_marginal_reading | `CONTEXTUAL_HYPOTHESES_RETAINED_NO_COMPLETE_READING` | [report](../experiments/yolo/gdt956_f66r_contextual_marginal_reading/REPORT.md) | 17 | 38.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT955 | GDT955 | `R16_CONTRADICTED_BY_RECOVERED_LATER_WITNESSES__ARCHETYPE_UNKNOWN` | [report](../experiments/yolo/gdt955_picatrix_lacuna_external_witness/REPORT.md) | 17 | 36.7 KiB | 1 | STRUCTURED_YOLO |
 | GDT954 | GDT954 | `NO_SHARED_SEVEN_RECORD_REFRAIN__RF_NO_PARAGRAPH_CAPACITY` | [report](../experiments/yolo/gdt954_shared_invocation_refrain/REPORT.md) | 20 | 1.9 MiB | 2 | STRUCTURED_YOLO |
