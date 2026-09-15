@@ -87,3 +87,13 @@ word must equal an EVA group. Anticipated initial-entry recurrence conflict
 is explicit; no initial gallows deletion is licensed by structural profiles.
 The earlier interrupted tool sequence did not run a fit. Resumed08:16UTC;
 source-only independent audit agrees on complete entry boundaries and counts.
+
+## Fifth material result — GDT965
+
+All1071 predictions tested after public adbd863e5 registration.306 necessary
+contradictions,1 exhaustive UNSAT,762 source unknowns and2 computation unknowns.
+No literal joint reading; no whole-scope exclusion, especially ZL0 literal pages.
+Independent validator14/14. Exact version parked without repair;0word/independent.
+08:40 inclusive checkpoint overrun only for closure/publication, no search expansion.
+Next: source-grounded constructions and their specific predecessors before any
+new grammar model is selected. PGP40129 constructions are source facts only.

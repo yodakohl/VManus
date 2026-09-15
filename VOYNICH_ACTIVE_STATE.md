@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT965 COMPLETE GENIZA CODE: all1071 cases;306 necessary contradictions,1 exact UNSAT,762 source unknown,2 computation unknown. No joint assignment within literal domains; IT pomegranate/quince all101 contradicted, ZL0 literal capacity. Whole scope unknown;14 independent checksPASS. Park without repair;0word/independent. Primary: experiments/yolo/gdt965_genizah_complete_record_grapheme_code/REPORT.md
+
 PAIRED-ROOT FEASIBILITY: all16 fixed admitted plant images viewed; no clear full IV.20/III.126 conjunction. f17r remains a partial Orchis candidate, with a named Morgan M.652 f121v comparator but no text consequence or identified word. Strict image-bound version stops;0 independent confirmation. Primary: research_registry/work_batches/ten_hours_20260915/PAIRED_ROOT_NATIVE_REPORT.md
 
 GDT964 UNIFORM ONE-SUBSTITUTION: all1128 frozen cases,315 pairs,4224 edge consequences.1102 contradictions/16 known/10 source-unknown local cases;0 complete cross-edition survivors. Of previous7, ZL retains18621B/18557C but RF contradictsall7. No chosen transcription or word;957/959 unchanged. Primary: experiments/yolo/gdt964_geomantic_all_one_substitutions/REPORT.md
