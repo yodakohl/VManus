@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **953**
-- Experiment-associated tracked files: **18,337** (1.7 GiB)
-- Structured GDT337+ experiments: **618**
+- Experiments indexed: **954**
+- Experiment-associated tracked files: **18,346** (1.7 GiB)
+- Structured GDT337+ experiments: **619**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT955 | Fixed missing-source-heading consequence of R16 | `REGISTERED_UNSCORED` | — | 9 | 10.8 KiB | 1 | STRUCTURED_YOLO |
 | GDT954 | GDT954 | `NO_SHARED_SEVEN_RECORD_REFRAIN__RF_NO_PARAGRAPH_CAPACITY` | [report](../experiments/yolo/gdt954_shared_invocation_refrain/REPORT.md) | 20 | 1.9 MiB | 2 | STRUCTURED_YOLO |
 | GDT953 | GDT953 | `P_ONE_COMMON_ALIGNMENT__ALL_COMPOSITIONAL_CANDIDATES_CONTRADICTED` | [report](../experiments/yolo/gdt953_picatrix_purpose_component_consequences/REPORT.md) | 35 | 3.5 MiB | 1 | STRUCTURED_YOLO |
 | GDT952 | GDT952 | `ORIGINAL_INVALID_ENUM__CORRECTED_IT_CONTRADICTED_ZL_RF_UNRESOLVED__ZERO_OBSERVED_REFERENCES` | [report](../experiments/yolo/gdt952_wind_named_reference_network/REPORT.md) | 37 | 687.3 KiB | 1 | STRUCTURED_YOLO |
