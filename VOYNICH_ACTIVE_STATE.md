@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT970 FIXED WHOLE-PART CODE: all140152literal paragraph pairs fail length/inventory;ZL32/IT529paragraphs,RF no fences.788complete nonliteral paragraphs unknown. Independent1349prediction/438counterexample rowsPASS. No cyclic survivor/full code/main melody/word;no repair. Primary: experiments/yolo/gdt970_rota_whole_part_conjugacy/REPORT.md
+
 ROTA SOURCE ONLY:97writtenevents;paired pes AB/BA correspondence survives shared duration interpretation. Main numeric timing unresolved;12conditional periods/36rivals replayed, initialization not separately compared. No target model or word. Primary: research_registry/work_batches/ten_hours_20260915/ROTA_SOURCE_EVENTS.md
 
 GDT969 FIXED TRACE CODE: all39600 input/width cases across4editionframes fail at INPUT/HIGH, before later target arithmetic. IT three-leaf model contradicted; ZL1leaf/RF0 capacity and10ineligible frames remain unknown. Independent9900source/39600case/29synthetic checksPASS;0words/independent. No format repair. Primary: experiments/yolo/gdt969_fibonacci_generated_root_trace/REPORT.md

@@ -149,7 +149,32 @@
     {
       "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/REPORT.md",
       "role": "primary_report",
-      "sha256": "76844b136be69406ad05ae98e6d4ec2efdc47050f53ad74995e50e6d79e78734"
+      "sha256": "f774644bff7de1fc2b8baa58410000d1ccdf0d9a03ab701c7049cfc680db0703"
+    },
+    {
+      "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/CANDIDATE_PREDICTIONS.tsv",
+      "role": "source_or_artifact",
+      "sha256": "179199529a992059acc415f438730f8ce5bae2f6d477323935b4b1718880a9d0"
+    },
+    {
+      "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/EQUAL_LENGTH_COUNTEREXAMPLES.tsv",
+      "role": "source_or_artifact",
+      "sha256": "51f50df7fe3c1cd8317f5aec84d52f53dd600a85d7afc7ba220204eeb0c37558"
+    },
+    {
+      "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/LENGTH_PARTITION.tsv",
+      "role": "source_or_artifact",
+      "sha256": "4821f5162a3f296f4298ae5357a84cd125b9df1a593bdccfc05cf5bd9bc33430"
+    },
+    {
+      "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/PAIR_CONSEQUENCES.json",
+      "role": "source_or_artifact",
+      "sha256": "cddbc6e9ce2f4f7269ce505f94cb1359614bcb4e53d18ea3c5443fb08b4109b8"
+    },
+    {
+      "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/PARAGRAPHS.json",
+      "role": "source_or_artifact",
+      "sha256": "3b6cbd429cc8e6700080e88bcf1aad2003ec72edc5a54fb59202e04861850d94"
     },
     {
       "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/PREFLIGHT.json",
@@ -162,6 +187,11 @@
       "sha256": "f30aacb08203b28a249999473229fba14ec053ecf3b4905886dc61def6583747"
     },
     {
+      "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "05dc6b4fe429733e8fcf6b8c66066a4280b1ea6b3b0ddbfc05f50447c5e84312"
+    },
+    {
       "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/SOURCE_CONSEQUENCES.json",
       "role": "source_or_artifact",
       "sha256": "75aea32ef269818227b00abf36fc2b5230453caa82d3e6fefaab01f2d47ce9d6"
@@ -169,12 +199,17 @@
     {
       "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/VALIDATION.json",
       "role": "source_or_artifact",
-      "sha256": "390363941d212d2e12bc8acc06261ba907d9d73fc09cf7e8b1515251f0b94f4d"
+      "sha256": "bfc3669a3c3f74ce441d2b1a0891d8266f6553a06ab381a282feca27536625d5"
+    },
+    {
+      "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/src/ASSESSMENT.json",
+      "role": "source_or_artifact",
+      "sha256": "3cb1ed4771f6645bd43a671b99348319b65452bed4e7cde766f9364c03c61310"
     },
     {
       "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/src/VALIDATOR_REVIEW.md",
       "role": "source_or_artifact",
-      "sha256": "1b4c4714a38b7be97781c97c046503c705faa3e76c655338b1a05cc83e60fd5b"
+      "sha256": "894096494536cdb74e4d61aef22ee3805538aa2159425ed1b65ed19b86524212"
     },
     {
       "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/src/bind.py",
@@ -187,9 +222,14 @@
       "sha256": "4bbd402c8c63a4d2aea3af5382b9d54431ce6ef370796261a009868d0093cfba"
     },
     {
+      "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/src/summarize.py",
+      "role": "source_or_artifact",
+      "sha256": "953ca918f66eeb1b3849ff2c080e0093dd73a71079e496f265e7c64fc1c1ab0d"
+    },
+    {
       "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/src/validate.py",
       "role": "source_or_artifact",
-      "sha256": "c469b3384babc7c7bd3d9bacd472b48151471f8b65ddf12759cb753559f4a294"
+      "sha256": "39e28c434d7bf5e71c2869cb5ee84ff3abe9435ace5b6bab75c9017be91254fa"
     }
   ],
   "question": "Do any distinct complete literal paragraphs have the necessary glyph conjugacy of the two whole Reading Rota pes parts under one global variable-width event code?",
@@ -199,11 +239,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "rota_whole_part_conjugacy",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_NECESSARY_CONSEQUENCE_CENSUS",
   "title": "Complete musical-part cyclic consequence",
   "updated": "2026-09-15",
   "validation": {
     "artifact": "experiments/yolo/gdt970_rota_whole_part_conjugacy/artifacts/VALIDATION.json",
-    "status": "NOT_RUN"
+    "status": "PASS"
   }
 }

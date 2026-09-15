@@ -121,7 +121,7 @@ def source_checks():
     expected_changes = [{}, {"MN007": "3/2", "MN008": "1/2"},
                         {"P1N004": "1", "P2N007": "1"},
                         {"MN066": "2", "MN067": "1", "MN068": "3"}]
-    summaries = []
+    summaries, source_variants = [], []
     require(len(source["documentary_duration_branches"]) == 4, "Duration branch scope")
     for branch, changes in zip(source["documentary_duration_branches"], expected_changes):
         require(branch["changes"] == changes, "Unchanged duration alternatives")
@@ -135,6 +135,17 @@ def source_checks():
         require(ab == ([Fraction(11), Fraction(12)] if changes == expected_changes[2]
                        else [Fraction(12), Fraction(12)]), "Block-duration qualification")
         summaries.append({"branch": branch["id"], "A": str(ab[0]), "B": str(ab[1])})
+        declared_durations = dict(source["baseline_conditional_duration_breves"])
+        declared_durations.update(changes)
+        serial_parts = {p: [[None if e["kind"] == "pause" else e["pitch_reading"]["conventional_pitch"],
+                             declared_durations[e["id"]]] for e in es] for p, es in parts.items()}
+        source_variants.append({"branch": branch["id"], "parts": serial_parts,
+                                "A": serial_parts["P1"][:5], "B": serial_parts["P1"][5:]})
+    published_consequence = read(A/"SOURCE_CONSEQUENCES.json")
+    require(published_consequence["source_path"] == source_path.relative_to(R).as_posix()
+            and published_consequence["source_sha256"] == sha(source_path), "Source consequence provenance")
+    require(published_consequence["variants"] == source_variants,
+            "Every published source event/duration/block in all four branches")
     return {"source_events_checked": 97, "independent_pes_events_checked": 18,
             "source_event_array_sha256": event_digest, "duration_branches": summaries}
 
@@ -209,6 +220,9 @@ def lock_checks(registration_only):
     for relative in ("PREREGISTRATION.md", "METHOD.md", "src/run.py"):
         require((E/relative).relative_to(R).as_posix() in bindings, "Missing scientific binding")
     checked, deferred = {}, []
+    parent = read(R/"experiments/yolo/gdt928_multi_anchor_complete_paragraphs/PREREG_LOCK.json")
+    require(all(bindings.get(name) == expected for name, expected in parent["files"].items()),
+            "Every original GDT928 binding is inherited unchanged")
     for name, expected in bindings.items():
         require(not Path(name).is_absolute() and ".." not in Path(name).parts, "Safe bound path")
         path = R/name
@@ -224,8 +238,215 @@ def lock_checks(registration_only):
             "prereg_lock_sha256": sha(E/"PREREG_LOCK.json")}
 
 
+def reconstruct_intake():
+    """Read original guarded caches, then assemble intervals without GDT928 code."""
+    specification = read(P/"src/SPEC.json")
+    allowed = set(specification["allowed_selectors"])
+    require(len(allowed) == 179 and not any(p.startswith("f84") or p == "f116v" for p in allowed),
+            "Exact admitted selector fence")
+    outputs, denominators, coverage = {}, {}, {}
+    names = {"NON_LITERAL": "NONLITERAL_GROUP", "INDEX_GAP": "NONCONSECUTIVE_GROUP_INDICES",
+             "INDEFINITE_SEAM": "UNRESOLVED_INTERIOR_BOUNDARY", "EMPTY_LINE": "EMPTY_LINE"}
+    for edition in EDS:
+        pages, errors, seen = defaultdict(list), {}, set()
+        den = Counter()
+        raw_count, raw_group_count = 0, 0
+        for phase in ("DISCOVERY", "EVALUATION"):
+            cache = read(P/"artifacts"/("SOURCE_"+phase+"_"+edition+".json"))
+            columns = cache["group_columns"]
+            require(len(columns) == len(set(columns)), "Unique original group columns")
+            for raw in cache["lines"]:
+                meta = raw["metadata"]
+                # Raw selector metadata is checked before group contents are accessed.
+                page = meta["page"]
+                require(page in allowed and not page.startswith("f84") and page != "f116v",
+                        "Original cache metadata outside admitted scope")
+                raw_count += 1
+                if meta["kind"] != "P":
+                    continue
+                row = int(meta["source_row_index"])
+                require((page, row) not in seen, "Duplicated P-line source ownership")
+                seen.add((page, row))
+                require(all(len(g) == len(columns) for g in raw["groups"]), "Original group schema")
+                gs = [dict(zip(columns, g)) for g in raw["groups"]]
+                words = [g["ivtff_group_raw"] for g in gs]
+                bad = literal_defects(words, [int(g["source_group_index"]) for g in gs],
+                                      [g["left_separator"] for g in gs],
+                                      [g["right_separator"] for g in gs])
+                errors[(page, row)] = [names[b] for b in bad]
+                pages[page].append({"locus": meta["locus"], "row": row,
+                                   "start": meta["paragraph_start"] == "1",
+                                   "end": meta["paragraph_end"] == "1", "words": words,
+                                   "source_ids": [g["source_group_id"] for g in gs],
+                                   "anchor_eligible": len(words) >= 2 and not bad})
+                den["P_lines"] += 1
+                raw_group_count += len(words)
+        paragraphs = []
+        for page in sorted(pages):
+            blocks, diagnostics = paragraph_blocks(pages[page])
+            den.update(diagnostics)
+            for block in blocks:
+                group_count = 0
+                for line in block:
+                    line["offset"] = group_count
+                    group_count += len(line["words"])
+                paragraph = {"id": page+"|"+block[0]["locus"]+"-"+block[-1]["locus"],
+                             "page": page, "leaf": int(re.match(r"f(\d+)", page)[1]),
+                             "lines": block, "groups": group_count}
+                paragraph["defects"] = [{"locus": line["locus"], "reasons": errors[(page, line["row"])]}
+                                         for line in block if errors[(page, line["row"])]]
+                paragraph["literal_eligible"] = not paragraph["defects"]
+                words = list(itertools.chain.from_iterable(line["words"] for line in block))
+                paragraph["full_text"] = " ".join(words)
+                projection = "".join(words) if paragraph["literal_eligible"] else None
+                paragraph["projection"] = projection
+                paragraph["canonical_cycle"] = canonical_cycle(projection) if projection is not None else None
+                paragraph["min_pes_letters"] = len(projection) >= 9 if projection is not None else None
+                paragraphs.append(paragraph)
+                den["complete_paragraphs"] += 1
+                den["anchor_lines"] += sum(line["anchor_eligible"] for line in block)
+        require(len({p["id"] for p in paragraphs}) == len(paragraphs), "Distinct complete paragraph IDs")
+        outputs[edition], denominators[edition] = paragraphs, dict(den)
+        coverage[edition] = {"raw_metadata_rows_guarded": raw_count, "P_lines_reconstructed": den["P_lines"],
+                             "P_groups_reconstructed": raw_group_count,
+                             "complete_paragraphs": len(paragraphs),
+                             "complete_paragraph_lines": sum(len(p["lines"]) for p in paragraphs),
+                             "paragraphs_admitted_by_single_group_rule": sum(
+                                  p["literal_eligible"] and any(not line["anchor_eligible"] for line in p["lines"])
+                                  for p in paragraphs),
+                             "eligible_single_group_lines": sum(len(line["words"]) == 1
+                                  for p in paragraphs if p["literal_eligible"] for line in p["lines"])}
+    return outputs, denominators, coverage
+
+
+def read_table(name, expected_header):
+    with (A/name).open(newline="") as handle:
+        rows = list(csv.reader(handle, delimiter="\t"))
+    require(bool(rows) and rows[0] == expected_header, "Exact table columns: "+name)
+    require(all(len(row) == len(expected_header) for row in rows[1:]), "Rectangular table: "+name)
+    return rows[1:]
+
+
 def target_checks():
-    raise NotImplementedError("Full target branch awaits public registration and final artifact schema")
+    paragraphs, assembly, intake_coverage = reconstruct_intake()
+    actual_paragraphs = read(A/"PARAGRAPHS.json")
+    require(actual_paragraphs == paragraphs, "Every intake record, raw group, fence, defect and projection")
+    actual_pairs, result = read(A/"PAIR_CONSEQUENCES.json"), read(A/"RESULT.json")
+    require(set(actual_pairs) == set(EDS), "Pair edition coverage")
+    require(set(result["panels"]) == set(EDS), "Result edition coverage")
+    require(result["assembly_denominators"] == assembly, "Original paragraph assembly denominators")
+    summary, candidate_rows, length_rows, pair_coverage = {}, [], [], {}
+    counterexample_rows = []
+    for edition in EDS:
+        paras = paragraphs[edition]
+        eligible = [p for p in paras if p["literal_eligible"]]
+        partners, equal_pairs = defaultdict(list), []
+        counts = Counter({name: 0 for name in DECISIONS})
+        same_leaf = direct_calls = positive_nonzero = positive_identity = 0
+        for left, right in itertools.combinations(eligible, 2):
+            x, y = left["projection"], right["projection"]
+            # This direct doubled-string search is independent of both cached
+            # canonical values and the primary decision procedure.
+            direct = direct_offsets(x, y)
+            direct_calls += 1
+            status, offsets = pair_consequence(x, y)
+            counts[status] += 1
+            same_leaf += left["leaf"] == right["leaf"]
+            require((left["canonical_cycle"] == right["canonical_cycle"]) == bool(direct),
+                    "Every-pair canonical claim versus direct search")
+            if status == "NECESSARY_CONSEQUENCE_ONLY":
+                require(offsets == direct and bool(offsets), "All actual cyclic offsets")
+                positive_identity += 0 in offsets
+                positive_nonzero += any(offset > 0 for offset in offsets)
+                partners[left["id"]].append(right["id"])
+                partners[right["id"]].append(left["id"])
+            elif status != "TOO_SHORT":
+                require(not direct, "Contradiction must lack any cyclic offset")
+            if len(x) == len(y):
+                equal_pairs.append({"a": left["id"], "b": right["id"],
+                                    "decision": status, "offsets": offsets})
+                differences = {letter: [x.count(letter), y.count(letter)]
+                               for letter in sorted(set(x+y)) if x.count(letter) != y.count(letter)}
+                counterexample_rows.append([edition, left["id"], right["id"], str(len(x)),
+                    json.dumps(differences, separators=(",", ":")), status,
+                    json.dumps(offsets, separators=(",", ":"))])
+        require(actual_pairs[edition] == equal_pairs, "Every ordered artifact record for unordered equal-length pairs")
+        n = len(eligible)
+        total = n*(n-1)//2
+        require(total == direct_calls == sum(counts.values()), "Complete unordered-pair census")
+        groups = defaultdict(list)
+        for p in eligible:
+            groups[len(p["projection"])].append(p["id"])
+        equal_count = sum(len(ids)*(len(ids)-1)//2 for ids in groups.values())
+        require(equal_count == len(equal_pairs), "Independent length-partition pair denominator")
+        short_count = sum(len(p["projection"]) < 9 for p in eligible)
+        require(counts["TOO_SHORT"] == total-(n-short_count)*(n-short_count-1)//2,
+                "Every short/nonshort pair receives priority TOO_SHORT")
+        status = ("NO_COMPLETE_PARAGRAPH_CAPACITY" if len(paras) == 0 else
+                  "NO_LITERAL_PAIR_CAPACITY" if n < 2 else
+                  "NECESSARY_CONSEQUENCE_CAPACITY" if counts["NECESSARY_CONSEQUENCE_ONLY"] else
+                  "FIXED_LITERAL_WHOLE_PART_CODE_CONTRADICTED")
+        summary[edition] = {
+            "complete_paragraphs": len(paras), "literal_paragraphs": n,
+            "literal_physical_leaves": len({p["leaf"] for p in eligible}),
+            "ineligible_paragraphs": len(paras)-n, "literal_below9letters": short_count,
+            "all_literal_pairs": total, "same_leaf_pairs": same_leaf,
+            "different_leaf_pairs": total-same_leaf, "equal_projection_length_pairs": equal_count,
+            "pair_decisions": dict(counts), "status": status}
+        require(result["panels"][edition] == summary[edition], "Exact edition counters and scope status")
+        for p in paras:
+            literal = p["literal_eligible"]
+            mate = partners[p["id"]]
+            status = ("UNKNOWN_LITERAL_CONTENT" if not literal else
+                      "TOO_SHORT" if not p["min_pes_letters"] else
+                      "NECESSARY_CONSEQUENCE_ONLY" if mate else "NO_COMPATIBLE_WHOLE_PARTNER")
+            candidate_rows.append([edition, p["id"], p["page"], str(p["leaf"]),
+                "LITERAL" if literal else json.dumps(p["defects"], separators=(",", ":")),
+                str(len(p["projection"])) if literal else "",
+                str(p["min_pes_letters"]) if literal else "", p["canonical_cycle"] or "",
+                json.dumps(mate, separators=(",", ":")), status, "0"])
+        for length, ids in sorted(groups.items()):
+            length_rows.append([edition, str(length), str(len(ids)), str(len(ids)*(len(ids)-1)//2),
+                                json.dumps(ids, separators=(",", ":"))])
+        pair_coverage[edition] = {"all_pairs_directly_checked": direct_calls,
+                                  "equal_length_certificate_records": len(equal_pairs),
+                                  "real_positive_pairs": counts["NECESSARY_CONSEQUENCE_ONLY"],
+                                  "real_identity_offset_pairs": positive_identity,
+                                  "real_nonzero_offset_pairs": positive_nonzero,
+                                  "decision_paths_exercised": [k for k in DECISIONS if counts[k]],
+                                  "decision_paths_not_exercised": [k for k in DECISIONS if not counts[k]]}
+    require(read_table("CANDIDATE_PREDICTIONS.tsv",
+            ["edition", "paragraph", "page", "physical_leaf", "literal_status", "projected_length",
+             "source_minimum_met", "required_cyclic_string", "observed_partners", "decision",
+             "independent_confirmation_capacity"]) == candidate_rows, "Every complete-paragraph prediction row")
+    require(read_table("LENGTH_PARTITION.tsv",
+            ["edition", "projected_length", "paragraph_count", "all_same_length_pairs", "paragraph_ids"])
+            == length_rows, "Every literal length group, count and paragraph ownership")
+    require(read_table("EQUAL_LENGTH_COUNTEREXAMPLES.tsv",
+            ["edition", "paragraph_a", "paragraph_b", "projected_length",
+             "different_letter_counts_a_b", "decision", "rotation_offsets"]) == counterexample_rows,
+            "Every equal-length pair and every differing letter count")
+    fixed = {"status": "COMPLETE_NECESSARY_CONSEQUENCE_CENSUS", "translated_words": 0,
+             "independent_confirmation_capacity": 0, "significance_claim": False,
+             "reserve_access": False, "full_code_tested": False, "main_melody_tested": False}
+    for key, value in fixed.items():
+        require(result[key] == value and type(result[key]) is type(value), "Result claim ceiling: "+key)
+    require(set(result) == set(fixed) | {"started_utc", "elapsed_seconds", "assembly_denominators", "panels"},
+            "Result field coverage")
+    from datetime import datetime
+    require(datetime.fromisoformat(result["started_utc"]).utcoffset() is not None, "Recorded UTC run time")
+    require(isinstance(result["elapsed_seconds"], (int, float)) and 0 <= result["elapsed_seconds"] < 3600,
+            "Recorded finite run duration")
+    output_names = ("PARAGRAPHS.json", "PAIR_CONSEQUENCES.json", "RESULT.json",
+                    "CANDIDATE_PREDICTIONS.tsv", "LENGTH_PARTITION.tsv", "EQUAL_LENGTH_COUNTEREXAMPLES.tsv")
+    return {"target_validation": "COMPLETE", "intake_coverage": intake_coverage,
+            "panels": summary, "pair_validation": pair_coverage,
+            "candidate_prediction_rows_checked": len(candidate_rows),
+            "length_partition_rows_checked": len(length_rows),
+            "equal_length_counterexample_rows_checked": len(counterexample_rows),
+            "output_hashes": {name: sha(A/name) for name in output_names},
+            "actual_full_code_paths_tested": False, "actual_main_melody_paths_tested": False,
+            "runtime_limit_paths": "NOT_APPLICABLE: finite census has no capped search or unknown solver branch"}
 
 
 def main():

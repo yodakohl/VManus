@@ -148,3 +148,7 @@ Source investigation from11:43UTC; metadata preflight11:55:14; public registrati
 ## Rota source acquisition checkpoint
 
 From12:26:42UTC: complete97-event inventory and native18-event independent pes comparison; robust AB/BA relation under shared interpretation. Four conditional duration branches,12steady periods and36rivals independently replayed. Main stemless-note attribution and numeric rhythm remain unresolved; initialization not separately compared. No target data/code selected. Source publication is pending this commit; use its timestamp against13:05UTC. Next is one bounded channel-consequence review, not a generic music decoder. Primary: [source report](ROTA_SOURCE_EVENTS.md).
+
+## GDT970 closure checkpoint
+
+Preparation13:03UTC; source/design lock13:11:04; public registration3cc6748f5 confirmed13:13:52; target run13:14:10.733154,0.517s. Every140152literal paragraph pair fails length/inventory,0cyclic survivor;ZL32/IT529literal paragraphs.788complete nonliteral unknown,RFno paragraph fences. Independent1349prediction/438counterexample rowsPASS by13:18:34. Full code, main melody and musical meaning not reached. Closing publication is pending this commit; use its timestamp against13:35UTC. No width/header/part-boundary repair; next review concerns variable-content semantic constraints from the raw producer.

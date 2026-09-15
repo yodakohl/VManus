@@ -1,12 +1,8 @@
 {
-  "cache_hashes_deferred_until_public_target_validation": [
-    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
-    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
-    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
-    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
-    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
-    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json"
-  ],
+  "actual_full_code_paths_tested": false,
+  "actual_main_melody_paths_tested": false,
+  "cache_hashes_deferred_until_public_target_validation": [],
+  "candidate_prediction_rows_checked": 1349,
   "claim_ceiling": "Source and necessary-consequence fidelity; no full code or musical meaning confirmation.",
   "duration_branches": [
     {
@@ -30,9 +26,16 @@
       "branch": "C3_ordinal_missing_stem_sensitivity"
     }
   ],
+  "equal_length_counterexample_rows_checked": 438,
   "independent_pes_events_checked": 18,
   "input_hashes": {
     "docs/VOYNICH_DATA_SCOPE.md": "ed476f654c7481422fd8810a52d938f1d39b005545f54920604db4225eaab329",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
     "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd",
     "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/PREREGISTRATION.md": "abcc15fc818a8ae0ac6f42a24eefcdc57dcee8c7caecdc4841623031586b61a0",
     "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/PREREG_LOCK.json": "b8bb305b4930019f0a5b546df4af9ccd85b2cf9ecc54fed511d9ce671f064dac",
@@ -55,12 +58,159 @@
     "research_registry/work_batches/ten_hours_20260915/rota_source_events.py": "97d2bf4a4f5ce2ba6aba70d65db08536e778ff05a7b14564f46908a69abf9f71",
     "research_registry/work_batches/ten_hours_20260915/validate_rota_source.py": "9907e7764e4be14198808520a54e6c18273dd8ea15cb1ac8673d7e2ad33b522d"
   },
+  "intake_coverage": {
+    "IT2a": {
+      "P_groups_reconstructed": 31433,
+      "P_lines_reconstructed": 3767,
+      "complete_paragraph_lines": 3691,
+      "complete_paragraphs": 690,
+      "eligible_single_group_lines": 9,
+      "paragraphs_admitted_by_single_group_rule": 6,
+      "raw_metadata_rows_guarded": 4131
+    },
+    "RF1b": {
+      "P_groups_reconstructed": 31504,
+      "P_lines_reconstructed": 3768,
+      "complete_paragraph_lines": 0,
+      "complete_paragraphs": 0,
+      "eligible_single_group_lines": 0,
+      "paragraphs_admitted_by_single_group_rule": 0,
+      "raw_metadata_rows_guarded": 4137
+    },
+    "ZL3b": {
+      "P_groups_reconstructed": 31918,
+      "P_lines_reconstructed": 3768,
+      "complete_paragraph_lines": 3696,
+      "complete_paragraphs": 659,
+      "eligible_single_group_lines": 4,
+      "paragraphs_admitted_by_single_group_rule": 1,
+      "raw_metadata_rows_guarded": 4137
+    }
+  },
+  "length_partition_rows_checked": 314,
+  "output_hashes": {
+    "CANDIDATE_PREDICTIONS.tsv": "179199529a992059acc415f438730f8ce5bae2f6d477323935b4b1718880a9d0",
+    "EQUAL_LENGTH_COUNTEREXAMPLES.tsv": "51f50df7fe3c1cd8317f5aec84d52f53dd600a85d7afc7ba220204eeb0c37558",
+    "LENGTH_PARTITION.tsv": "4821f5162a3f296f4298ae5357a84cd125b9df1a593bdccfc05cf5bd9bc33430",
+    "PAIR_CONSEQUENCES.json": "cddbc6e9ce2f4f7269ce505f94cb1359614bcb4e53d18ea3c5443fb08b4109b8",
+    "PARAGRAPHS.json": "3b6cbd429cc8e6700080e88bcf1aad2003ec72edc5a54fb59202e04861850d94",
+    "RESULT.json": "05dc6b4fe429733e8fcf6b8c66066a4280b1ea6b3b0ddbfc05f50447c5e84312"
+  },
+  "pair_validation": {
+    "IT2a": {
+      "all_pairs_directly_checked": 139656,
+      "decision_paths_exercised": [
+        "UNEQUAL_LENGTH",
+        "UNEQUAL_INVENTORY"
+      ],
+      "decision_paths_not_exercised": [
+        "TOO_SHORT",
+        "UNEQUAL_CYCLIC_ORDER",
+        "NECESSARY_CONSEQUENCE_ONLY"
+      ],
+      "equal_length_certificate_records": 435,
+      "real_identity_offset_pairs": 0,
+      "real_nonzero_offset_pairs": 0,
+      "real_positive_pairs": 0
+    },
+    "RF1b": {
+      "all_pairs_directly_checked": 0,
+      "decision_paths_exercised": [],
+      "decision_paths_not_exercised": [
+        "TOO_SHORT",
+        "UNEQUAL_LENGTH",
+        "UNEQUAL_INVENTORY",
+        "UNEQUAL_CYCLIC_ORDER",
+        "NECESSARY_CONSEQUENCE_ONLY"
+      ],
+      "equal_length_certificate_records": 0,
+      "real_identity_offset_pairs": 0,
+      "real_nonzero_offset_pairs": 0,
+      "real_positive_pairs": 0
+    },
+    "ZL3b": {
+      "all_pairs_directly_checked": 496,
+      "decision_paths_exercised": [
+        "UNEQUAL_LENGTH",
+        "UNEQUAL_INVENTORY"
+      ],
+      "decision_paths_not_exercised": [
+        "TOO_SHORT",
+        "UNEQUAL_CYCLIC_ORDER",
+        "NECESSARY_CONSEQUENCE_ONLY"
+      ],
+      "equal_length_certificate_records": 3,
+      "real_identity_offset_pairs": 0,
+      "real_nonzero_offset_pairs": 0,
+      "real_positive_pairs": 0
+    }
+  },
+  "panels": {
+    "IT2a": {
+      "all_literal_pairs": 139656,
+      "complete_paragraphs": 690,
+      "different_leaf_pairs": 135606,
+      "equal_projection_length_pairs": 435,
+      "ineligible_paragraphs": 161,
+      "literal_below9letters": 0,
+      "literal_paragraphs": 529,
+      "literal_physical_leaves": 78,
+      "pair_decisions": {
+        "NECESSARY_CONSEQUENCE_ONLY": 0,
+        "TOO_SHORT": 0,
+        "UNEQUAL_CYCLIC_ORDER": 0,
+        "UNEQUAL_INVENTORY": 435,
+        "UNEQUAL_LENGTH": 139221
+      },
+      "same_leaf_pairs": 4050,
+      "status": "FIXED_LITERAL_WHOLE_PART_CODE_CONTRADICTED"
+    },
+    "RF1b": {
+      "all_literal_pairs": 0,
+      "complete_paragraphs": 0,
+      "different_leaf_pairs": 0,
+      "equal_projection_length_pairs": 0,
+      "ineligible_paragraphs": 0,
+      "literal_below9letters": 0,
+      "literal_paragraphs": 0,
+      "literal_physical_leaves": 0,
+      "pair_decisions": {
+        "NECESSARY_CONSEQUENCE_ONLY": 0,
+        "TOO_SHORT": 0,
+        "UNEQUAL_CYCLIC_ORDER": 0,
+        "UNEQUAL_INVENTORY": 0,
+        "UNEQUAL_LENGTH": 0
+      },
+      "same_leaf_pairs": 0,
+      "status": "NO_COMPLETE_PARAGRAPH_CAPACITY"
+    },
+    "ZL3b": {
+      "all_literal_pairs": 496,
+      "complete_paragraphs": 659,
+      "different_leaf_pairs": 465,
+      "equal_projection_length_pairs": 3,
+      "ineligible_paragraphs": 627,
+      "literal_below9letters": 0,
+      "literal_paragraphs": 32,
+      "literal_physical_leaves": 17,
+      "pair_decisions": {
+        "NECESSARY_CONSEQUENCE_ONLY": 0,
+        "TOO_SHORT": 0,
+        "UNEQUAL_CYCLIC_ORDER": 0,
+        "UNEQUAL_INVENTORY": 3,
+        "UNEQUAL_LENGTH": 493
+      },
+      "same_leaf_pairs": 31,
+      "status": "FIXED_LITERAL_WHOLE_PART_CODE_CONTRADICTED"
+    }
+  },
   "prereg_lock_sha256": "5b762ec467de047aa5bd48f2fa7778fcf736311572b3c299c55a439a8aee6f30",
-  "registration_only": true,
+  "registration_only": false,
+  "runtime_limit_paths": "NOT_APPLICABLE: finite census has no capped search or unknown solver branch",
   "source_event_array_sha256": "2ff05f993c8ffcba901184bf811557ad604f4e497f785a5d80fedce3b37163fd",
   "source_events_checked": 97,
-  "status": "PASS_REGISTRATION_ONLY",
+  "status": "PASS",
   "synthetic_checks": 21,
-  "target_validation": "NOT_RUN",
-  "validator_sha256": "c469b3384babc7c7bd3d9bacd472b48151471f8b65ddf12759cb753559f4a294"
+  "target_validation": "COMPLETE",
+  "validator_sha256": "39e28c434d7bf5e71c2869cb5ee84ff3abe9435ace5b6bab75c9017be91254fa"
 }

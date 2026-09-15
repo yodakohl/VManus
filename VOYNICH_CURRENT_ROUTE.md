@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;GDT970 complete pes-copy consequence.
-Latest decision: Source public e1e48a273;970 locally registered, target unopened.
-Working files: experiments/yolo/gdt970_rota_whole_part_conjugacy/PREREGISTRATION.md
-Assumptions: One shared whole-part code;glyph screen necessary only;0words.
-Resume: Publish970 registration, then all complete literal paragraph pairs;close13:35UTC.
-Running: Root registration;critic validator;producer diverse raw meaning proposals.
+Task: Ten-hour session04:49:14–14:49:14UTC;review variable-content semantic constraints.
+Latest decision: GDT970 all140152pairs fail length/inventory;independentPASS;0words.
+Working files: experiments/yolo/gdt970_rota_whole_part_conjugacy/REPORT.md
+Assumptions: 970 literal whole-part code closed;RF/nonliteral unknown;all reserves closed.
+Resume: Publish970 closure;review producer's complete variable-content examples by13:40UTC.
+Running: Root closure/selection review;producer raw ideas;critic970work complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
