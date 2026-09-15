@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT971 SOURCE CONTROL: all10!digitmaps reduce362880 syntax ->2Q ->2Q/P ->1all5accounts;independentPASS. Shared numeral grammar with known roles identifies source values;secondpath adds0eliminations. No Voynich data/word or target renderer. Primary: experiments/yolo/gdt971_alloy_numeral_binding_control/REPORT.md
+
 GDT970 FIXED WHOLE-PART CODE: all140152literal paragraph pairs fail length/inventory;ZL32/IT529paragraphs,RF no fences.788complete nonliteral paragraphs unknown. Independent1349prediction/438counterexample rowsPASS. No cyclic survivor/full code/main melody/word;no repair. Primary: experiments/yolo/gdt970_rota_whole_part_conjugacy/REPORT.md
 
 ROTA SOURCE ONLY:97writtenevents;paired pes AB/BA correspondence survives shared duration interpretation. Main numeric timing unresolved;12conditional periods/36rivals replayed, initialization not separately compared. No target model or word. Primary: research_registry/work_batches/ten_hours_20260915/ROTA_SOURCE_EVENTS.md

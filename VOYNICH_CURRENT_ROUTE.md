@@ -4,12 +4,12 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;test alloy numeric binding before target code.
-Latest decision: GDT970 published/refuted;alloy two-path closure real in source;0words.
-Working files: experiments/yolo/gdt971_alloy_numeral_binding_control/PREREGISTRATION.md
-Assumptions: 971 source-only, known arithmetic/roles;native mixed fractions;reserves closed.
-Resume: Freeze/register971;count all digit maps, compare free labels;close by14:15UTC.
-Running: Root971;critic complete grammar card by14:00;producer bounded supply by14:05.
+Task: Ten-hour session04:49:14–14:49:14UTC;assess complete alloy writing hypotheses.
+Latest decision: 971 source digits unique;Q2/plusP2/all5=1;no second-path gain;0words.
+Working files: research_registry/work_batches/ten_hours_20260915/ALLOY_FINITE_GRAMMAR.md
+Assumptions: Known-role source control only;S0/R0 untested on target;reserves closed.
+Resume: Publish971/grammar;review R0 versus prior124 and bounded producer R1 by14:20UTC.
+Running: Root publication/renderer selection;producer R1proposal;independent971PASS.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
