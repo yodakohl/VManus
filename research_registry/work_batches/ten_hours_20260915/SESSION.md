@@ -34,3 +34,14 @@ note. Subsequent substantial work requires its own concrete decision note.
 One bounded idea producer is replenishing diverse source-specific proposals.
 One independent source reader examines geomantic whole-text consequences.
 Root owns experimental selection, interpretation, global records and publication.
+
+## First material result — GDT962
+
+Registered publicly3ae9f3636 before parsing; all176complete fixed-parser plant
+incidence cases contradict. Independent parser/Hopcroft-Karp replay agrees.
+No known Mugwort unit or complete plant roster; no semantic word. The next
+working source is Dioscorides I.3 Meum: complete preparation/application
+branches and excess/headache consequence, with no target fit selected yet.
+Geoman­tic house-rubric source analogy does not supply a chosen f66r continuation.
+GDT899 was considered but NOT rerun: its later GDT908 certificate already
+excludes the unchanged model despite the original solver UNKNOWN receipts.

@@ -1,5 +1,8 @@
-# GDT962 — fixed bpe behenian plant incidence
+# GDT962 — fixed BPE plant incidence
 
-Status: `REGISTERED_UNSCORED`
+Status: `FIXED_BPE_PLANT_MARKER_MODEL_CONTRADICTED`.
 
-See `METHOD.md` and `experiment.json`.
+All176 complete cases contradict the fixed98-unit plant-marker model.
+See [REPORT.md](REPORT.md), [registered predictions](artifacts/PREDICTIONS.tsv),
+[complete candidate table](artifacts/CANDIDATE_TABLE.tsv) and
+[independent validation](artifacts/VALIDATION.json). No confirmed word.

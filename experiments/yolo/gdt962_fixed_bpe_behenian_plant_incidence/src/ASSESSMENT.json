@@ -1,0 +1,28 @@
+{
+  "record_id": "GDT962",
+  "scope": "semantic",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root with separate parser and incidence validator",
+  "assessment_basis": "primary_reports",
+  "reason": "All176 complete cases have at least one empty upper plant-unit domain; no full roster survives either fixed98-unit representation. No parser or name adopted.",
+  "blockers": [
+    {
+      "code": "fixed_parser_plant_marker_conjunction_excluded",
+      "detail": "All22fixed windows \u00d72sourceorders\u00d72rosters\u00d72representations contradict even the conservative necessary upper domains.",
+      "evidence": [
+        "experiments/yolo/gdt962_fixed_bpe_behenian_plant_incidence/REPORT.md",
+        "experiments/yolo/gdt962_fixed_bpe_behenian_plant_incidence/artifacts/CANDIDATE_TABLE.tsv"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "More BPE restarts or changing merges/plant aliases after exposure",
+      "Treating isolated known incidence masks as a complete shared lexicon",
+      "Claiming all context-sensitive semantic encodings are exhausted"
+    ]
+  },
+  "relations": []
+}

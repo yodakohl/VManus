@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT962 FIXED PARSER: all176complete Behenian cases contradict both frozen98-unit FINAL/ALL_TREE marker models, including conservative unknown completion.0Mugwort knownmask; minimumfullrosterdeficit10/11. No parser repair or plantmeaning. Primary: experiments/yolo/gdt962_fixed_bpe_behenian_plant_incidence/REPORT.md
+
 GDT961: all contiguous raw pieces tested in the fixed960windows;58upper contradictions,30incomplete cases. The tc/tch local Mugwort mask has raw tchey extra at f113r.40, so no plantcomponent adopted. No contextual/BPE exhaustion claim.
 
 GDT960 BEHENIAN PLANTS: complete15star43plantmentions,32identity/34materialterms. All22fifteenparagraphwindows x2ordersx2models=88cases:60contra28ZLunknownonly;0observedfullassignment. Mugwort7rowmaskhas0knowncarrierall88;uppercasesmax4/7known. Apparentunique sheckhy/qokey require5missingrows. No plantname adopted. Primary: experiments/yolo/gdt960_behenian_complete_plant_incidence/REPORT.md

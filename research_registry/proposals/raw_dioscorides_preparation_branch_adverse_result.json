@@ -1,0 +1,22 @@
+{
+  "status": "RAW_UNSCREENED",
+  "title": "A Dioscorides entry branches one root into preparations, effects, and an overdose result",
+  "summary": "Dioscorides' Meum entry explicitly gives boiled or pounded roots, honey syrup, hip bath, plaster, and an excessive-decoction adverse effect. The content distinction is branch structure, not repeated plant-name equality.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "One source item is carried through alternative preparation operators; each branch has a distinct application/result, and an excess condition reverses the ordinary benefit with a named harm.",
+    "source_example": "Dioscorides, De materia medica I.3 (UPenn/Gunther edition, printed p. 5): Meum roots are boiled or pounded and drunk; pounded with honey as syrup; boiled for a hip bath; plastered on children; too much decoction causes headache.",
+    "target_endpoint": "Already admitted Herbal complete-paragraph cache; no target text, labels, or new selectors were opened.",
+    "two_readings": [
+      {"name": "branching preparation record", "consequences": ["A repeated material core may feed different operation/application slots, with downstream result type changing by branch.", "An explicit excess/exception branch must produce an adverse result rather than the ordinary treatment outcome."]},
+      {"name": "static item and procedure list", "consequences": ["The same material can recur beside unrelated procedures without a shared branch source.", "The adverse statement is an independent warning and need not be tied to the preceding preparation or result."]}
+    ],
+    "smallest_distinguishing_observation": "A complete target record would need one reused material component linked to at least two distinct preparation/application roles and a separately marked conditional reversal; exact whole-word identity is unnecessary, but the branch and result positions must be fixed before reading.",
+    "nearest_rival": "A plant/material catalogue with neighboring preparation notes, where shared material forms reflect editorial reuse rather than one item branching through state and outcome.",
+    "assumption_costs": ["The target contains complete Herbal records with independently recognizable branch and result positions.", "A first-century Greek pharmacological entry is a relevant content analogue for the manuscript.", "The 1933 English translation is treated as a guide to relations, not a target lexicon or modern plant identification."],
+    "strongest_likely_failure": "The target has no independently bound adverse-result or preparation branch marker; any apparent repeated core could be ordinary component reuse and the source cannot select among content genres.",
+    "falsifier": "A source-frozen target model repeatedly links the same material component to only one role or treats an independently marked excess branch as the same result without an explicit exception operator.",
+    "primary_predecessors": ["GDT608", "GDT735", "GDT928"],
+    "primary_sources": [{"locator": "Dioscorides, De materia medica I.3 Meum, printed p. 5", "url": "https://web.english.upenn.edu/~cavitch/pdf-library/Dioscorides_De_materia_medica.pdf", "source_limit": "English translation/edition based on John Goodyer's 1655 translation and Gunther's 1933 edition; exact Greek wording and plant identity remain outside this card."}]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "RAW_UNSCREENED",
+  "title": "A monastic rule encodes fault, visible demotion, satisfaction, and conditional re-entry",
+  "summary": "Rule of Benedict chapter 43 gives a complete status transition: late arrival after a signal leads to last-place placement, public penance, and re-entry; an abbot's permission creates a bounded exception with later satisfaction.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "An institutional rule tracks an actor's status across an event: trigger, sanction/placement, repair, and restored participation, with an explicit authority-conditioned exception.",
+    "source_example": "Rule of Benedict, chapter 43: after the office signal, a late arrival after the Gloria stands last or in a designated place until public penance; at day hours the abbot may permit joining the choir, but satisfaction remains due afterward.",
+    "target_endpoint": "Already admitted complete paragraph cache summarized by GDT928; target text and candidate forms were not opened.",
+    "two_readings": [
+      {"name": "status-transition rule", "consequences": ["A trigger must precede a visible placement/status change, then a repair or satisfaction stage before normal participation resumes.", "The permission exception changes the timing of re-entry but does not erase the later repair obligation."]},
+      {"name": "ordinary procedural sequence", "consequences": ["Late/early phrases can be temporal instructions without a persistent status state.", "A permission clause can replace the following action entirely, with no required repair or re-entry relation."]}
+    ],
+    "smallest_distinguishing_observation": "A later target paragraph would have to preserve a trigger-to-demotion-to-repair-to-reentry chain, and an authority-conditioned branch would alter only re-entry timing. A generic process/list reading predicts no such state carry.",
+    "nearest_rival": "A recipe or service instruction in which ordered actions have no institutional actor status and a permission clause simply selects an alternative action.",
+    "assumption_costs": ["Complete paragraph order and any status/permission markers can be fixed independently.", "A monastic regulatory text is a relevant model for a possible metatextual or procedural register.", "The source roles remain unglossed target placeholders; no moral or religious meaning is assigned."],
+    "strongest_likely_failure": "No target-visible sanction, authority, or re-entry relation may be independently owned; the chain could then be imposed on any ordered prose.",
+    "falsifier": "On source-frozen complete target paragraphs, a purported status trigger is followed by no stable demotion/repair relation, or permission repeatedly removes rather than delays the repair stage.",
+    "primary_predecessors": ["IDEA000034", "IDEA000066", "GDT928"],
+    "primary_sources": [{"locator": "Rule of Benedict, chapter 43, On those who come late to the Work of God or to table", "url": "https://archive.osb.org/rb/text/rbemjo2.html", "source_limit": "Modern English translation of the early medieval rule; this card uses its explicit conditional and status sequence, not a target vocabulary."}]
+  }
+}

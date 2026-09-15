@@ -1,0 +1,124 @@
+{
+  "experiment_id": "GDT962",
+  "status": "VALIDATION_PASS",
+  "independent_algorithm": "explicit parser replay + Hopcroft-Karp matching",
+  "checks": [
+    {
+      "name": "lock",
+      "checked": 9,
+      "failures": [],
+      "ok": true
+    },
+    {
+      "name": "windows",
+      "ok": true,
+      "actual": 22,
+      "expected": 22
+    },
+    {
+      "name": "inventory",
+      "ok": true,
+      "actual": 98
+    },
+    {
+      "name": "merges",
+      "ok": true,
+      "actual": 64
+    },
+    {
+      "name": "prediction_count",
+      "ok": true,
+      "actual": 5808,
+      "expected": 5808
+    },
+    {
+      "name": "source_rows_to_incidence",
+      "ok": true,
+      "errors": [],
+      "models": 2
+    },
+    {
+      "name": "prior_prediction_source_mask",
+      "ok": true,
+      "errors": 0,
+      "expected": 0
+    },
+    {
+      "name": "frozen_predictions",
+      "ok": true,
+      "actual_count": 5808,
+      "expected_count": 5808
+    },
+    {
+      "name": "parsed_chunks",
+      "ok": true,
+      "actual_count": 9507,
+      "expected_count": 9507
+    },
+    {
+      "name": "identical_unit_predictions",
+      "ok": true,
+      "actual_count": 3213,
+      "expected_count": 3213
+    },
+    {
+      "name": "changed_knownness",
+      "ok": true,
+      "actual_count": 582,
+      "expected_count": 582
+    },
+    {
+      "name": "unit_masks",
+      "ok": true,
+      "actual_count": 4312,
+      "expected_count": 4312
+    },
+    {
+      "name": "plant_domains",
+      "ok": true,
+      "actual_count": 5808,
+      "expected_count": 5808
+    },
+    {
+      "name": "all_case_matchings",
+      "ok": true,
+      "actual_count": 176,
+      "expected_count": 176,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "result",
+      "ok": true,
+      "fields": {
+        "experiment_id": true,
+        "case_count": true,
+        "plant_predictions": true,
+        "chunk_window_rows": true,
+        "known_chunk_window_rows": true,
+        "changed_knownness_rows": true,
+        "unit_masks": true,
+        "case_outcomes": true,
+        "by_representation": true,
+        "plant_outcomes": true,
+        "mugwort_outcomes": true,
+        "mugwort_known_units": true,
+        "confirmed_words_zero": true,
+        "independent_confirmation_zero": true
+      }
+    }
+  ],
+  "actual_counts": {
+    "windows": 22,
+    "parsed_chunks": 9507,
+    "known_chunks": 9393,
+    "changed_knownness": 582,
+    "unit_masks": 4312,
+    "plant_predictions": 5808,
+    "cases": 176,
+    "case_outcomes": {
+      "CONTRADICTED": 176
+    }
+  },
+  "claim_ceiling": "engineering/source-contract validation only; no semantic confirmation"
+}
