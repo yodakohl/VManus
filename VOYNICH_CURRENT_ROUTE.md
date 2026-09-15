@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: idle
-Status: checkpoint
-Task: Ten-hour session04:49:14–14:49:14UTC;research results published, no translation.
-Latest decision: 974rejects both973R2survivors;R0/R1/R2closed;971source-only retained.
-Working files: research_registry/work_batches/ten_hours_20260915/ALLOY_MODEL_DECISION.md
-Assumptions: 973weak-screen result retained;974exploratory;all reserves closed.
-Resume: Read decision note;require a different content consequence before a new writer.
-Running: None;all bounded subagents complete;no unattended between-turn research.
+Phase: exploration
+Status: active
+Task: New turn: assess fixed published TP15/CVC readings on complete exposed passages.
+Latest decision: R0/R1/R2closed;Naibbe604not reopened;published TP15candidate distinct.
+Working files: research_registry/work_batches/ten_hours_20260915/TP15_COMPLETE_READING_DECISION.md
+Assumptions: No new values/wildcard repairs;public claims unconfirmed;reserves closed.
+Resume: Inspect owned TP15source/code;freeze smallest complete-context consequence.
+Running: Root source intake;bounded producer inverse-comparison raw proposal.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

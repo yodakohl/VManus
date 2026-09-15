@@ -1,0 +1,7 @@
+# Fixed published fragment consistency audit
+
+See PREREGISTRATION.md and src/SOURCE.json for exact scope and exposure. Source fragments are verbatim AST nodes from Matthew Ruckman's MIT-licensed repository at commit2f1e4567511135028c1b1233b454aa84d265b702. Each node, complete original module, and extracted file has a hash receipt. The scope harness supplies no upstream corpus. License is retained.
+
+Greedy EVA ligatures come directly from the original code. First components and simple gallows are syllabic; documented modifiers add their coda, with connector/descender empty. Other relevant internal e stays syllabic even under ambiguous classification. Fixed syllables concatenate; they are never truncated. The missing k assignment is represented by ?, with pattern compatibility evaluated separately from literal equality. The unknown has unlimited string length for the logical audit, a relaxation of a CV assignment. A mismatch of the immutable ra prefix cannot be repaired by that relaxation.
+
+All eight explicit AppendixF pairs are retained, including the repeated okaiin and the matching daiin case. These are eight published occurrences, seven distinct tokens, and no independent manuscripts. Three earlier printed traces are implementation reproduction checks. No complete passage has been decoded here. A missing runtime table is not itself a decoding failure; the code-fragment contradictions are a separate observed result.

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **973**
-- Experiment-associated tracked files: **18,781** (1.7 GiB)
-- Structured GDT337+ experiments: **638**
+- Experiments indexed: **974**
+- Experiment-associated tracked files: **18,799** (1.7 GiB)
+- Structured GDT337+ experiments: **639**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT975 | Published TP15 eight-example consistency audit | `DECLARED_EXPLORATORY_UNCHECKED` | — | 18 | 52.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT974 | GDT974 | `ALL_SELECTED_R2_HEADERS_CONTRADICTED` | [report](../experiments/yolo/gdt974_alloy_two_survivor_forced_num/REPORT.md) | 17 | 29.4 KiB | 1 | STRUCTURED_YOLO |
 | GDT973 | GDT973 | `R1_CONTRADICTED_R2_TWO_NECESSARY_FORM_SURVIVORS` | [report](../experiments/yolo/gdt973_alloy_packed_header_consequences/REPORT.md) | 19 | 3.5 MiB | 4 | STRUCTURED_YOLO |
 | GDT972 | GDT972 | `ALL_LITERAL_R0_HEADERS_CONTRADICTED` | [report](../experiments/yolo/gdt972_alloy_r0_whole_header_consequence/REPORT.md) | 17 | 1.6 MiB | 3 | STRUCTURED_YOLO |
