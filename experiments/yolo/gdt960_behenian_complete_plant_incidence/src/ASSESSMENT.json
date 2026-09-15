@@ -1,0 +1,42 @@
+{
+  "record_id": "GDT960",
+  "scope": "semantic",
+  "verdict": "nonconfirming",
+  "reviewer": "root with independent source and feasibility reconstruction",
+  "assessment_basis": "primary_reports",
+  "reason": "All88complete cases lack observed support for the seven-rowMugwort pattern;60contradict evenjointunknowncompletion,28ZLonlypermit3ormoremissingMugwortrowsplusotherunknowns. No candidateplantname selected.",
+  "blockers": [
+    {
+      "code": "missing_meaning_binding",
+      "detail": "Unknown-onlylexicons cannot identifyplants;2locallyuniqueforms eachneed5of7unobservedpositiveinstances.",
+      "evidence": [
+        "experiments/yolo/gdt960_behenian_complete_plant_incidence/REPORT.md",
+        "experiments/yolo/gdt960_behenian_complete_plant_incidence/artifacts/REPEATED_PLANT_OBSERVED_SUPPORT.tsv"
+      ]
+    },
+    {
+      "code": "fixed_model_contradiction",
+      "detail": "All48ITcases and12ZLcases emptyMugwortupperdomain, completeallplantmodeltested.",
+      "evidence": [
+        "experiments/yolo/gdt960_behenian_complete_plant_incidence/artifacts/CANDIDATE_TABLE.tsv"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "A separately justified whole-content representation with independently evidenced compositional rules that changes actualpredictions, not an immediate prefix/ending/order/paragraph repair.",
+        "evidence": []
+      }
+    ],
+    "not_sufficient": [
+      "More sourceplantparts when unchangedbareMugwort alreadyfails",
+      "Selectingonlyunknown-richZLcases",
+      "SingleSMTwitness or localconditionaluniqueness",
+      "Calling sourcehistoricalcommon names identifiedplants"
+    ]
+  },
+  "relations": []
+}

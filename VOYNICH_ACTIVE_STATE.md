@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT960 BEHENIAN PLANTS: complete15star43plantmentions,32identity/34materialterms. All22fifteenparagraphwindows x2ordersx2models=88cases:60contra28ZLunknownonly;0observedfullassignment. Mugwort7rowmaskhas0knowncarrierall88;uppercasesmax4/7known. Apparentunique sheckhy/qokey require5missingrows. No plantname adopted. Primary: experiments/yolo/gdt960_behenian_complete_plant_incidence/REPORT.md
+
 GDT959 POST-EXPOSURE FAMILY: All376frozen957candidates x3elementtables. One aryfamily peredition; ZL3members IT/RF2. Cross-edition complete ITset4known-source/7upper readings; aryFire/Earth/Air rivals; no positionunique. ConditionaltableB two keys share9names but no selectedmeaning. One exposedleaf0independent. Primary: experiments/yolo/gdt959_geomantic_element_remainder/REPORT.md
 
 GDT958 FIXED FORM VARIANTS:155LM/22LRlibraries expand onlyfirstf67r2title aram/aral; all1296referencecells and18graphs identicalto952literal. Ninecases0newreferences,IT3contradicted,ZL/RFunknown-only. No meaninggain; no furtherending/fragmentextension. Primary: experiments/yolo/gdt958_wind_fixed_form_variation/REPORT.md

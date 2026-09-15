@@ -1,3 +1,3 @@
 # Artifacts
 
-Commit compact, reproducible results here. Large exhaustive tables require an explicit retention justification.
+CANDIDATE_TABLE lists all88outcomes; PLANT_PREDICTION_TABLE has2904namedrequirements and completepossibleformsets. ALL_CASES.gz has jointwitnesses/cores/marginals; ALL_WINDOWS.gz preservesfull15paragraphs. WORD_MASKS plus requiredmasks exposeextra/missingknownobservations. REPEATED_PLANT_OBSERVED_SUPPORT separatesknownoccurrences fromunknowncompletion. No semanticconfirmation.
