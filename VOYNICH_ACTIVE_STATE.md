@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+PAIRED-ROOT FEASIBILITY: all16 fixed admitted plant images viewed; no clear full IV.20/III.126 conjunction. f17r remains a partial Orchis candidate, with a named Morgan M.652 f121v comparator but no text consequence or identified word. Strict image-bound version stops;0 independent confirmation. Primary: research_registry/work_batches/ten_hours_20260915/PAIRED_ROOT_NATIVE_REPORT.md
+
 GDT964 UNIFORM ONE-SUBSTITUTION: all1128 frozen cases,315 pairs,4224 edge consequences.1102 contradictions/16 known/10 source-unknown local cases;0 complete cross-edition survivors. Of previous7, ZL retains18621B/18557C but RF contradictsall7. No chosen transcription or word;957/959 unchanged. Primary: experiments/yolo/gdt964_geomantic_all_one_substitutions/REPORT.md
 
 GDT963 COMPLETE CONTENT CODE: four complete Dioscorides records, 613 atoms / 333 types / 255 singletons. All1428 cases:71 length contradictions,1016 source unknown,341 computation unknown. IT joint UNKNOWN; no code witness or full refutation. Park without automatic solver/source repair;0 independent leaves and0 words. Primary: experiments/yolo/gdt963_dioscorides_complete_content_code/REPORT.md

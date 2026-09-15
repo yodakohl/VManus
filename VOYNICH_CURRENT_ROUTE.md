@@ -6,11 +6,11 @@ Phase: exploration
 Status: active
 Task: Ten-hour research session started2026-09-15 04:49:14UTC;minimum end14:49:14UTC.
 Latest decision: GDT964 uniform one-substitution element rule has0cross-edition readings.
-Next: bounded16-image paired-root feasibility for full Dioscorides part/effect hypotheses.
+Next: select a content test; strict16-image paired-root conjunction has no clear match.
 Working files: research_registry/work_batches/ten_hours_20260915/SESSION.md
 Assumptions: Whole hypothetical readings permitted; no new admission, contacts or reserves.
 Resume: Previous seven-hour session published aec82d7b8;GDT961cc9d743b0;9605e2e68300.
-Running: Root native16-image screen; complete source collation; checkpoint07:01UTC.
+Running: paired-root closure; bounded source-specific idea review. f17r/Orchis remains partial.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

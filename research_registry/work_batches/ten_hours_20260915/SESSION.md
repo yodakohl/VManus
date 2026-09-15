@@ -68,3 +68,12 @@ selected for that reason. Original957/959 remain unchanged. Full source/target
 pre-exposure and an invalid separate bottom-up pilot are disclosed in the report.
 Next bounded work: sixteen admitted large-plant images versus complete paired-root
 source descriptions, with no target-text fit before a full candidate decision.
+
+## Fourth material result — paired-root feasibility
+
+All sixteen fixed admitted images were directly viewed. No clear complete
+Dioscorides IV.20 or III.126 picture conjunction; f17r remains a partial Orchis
+candidate. A named tenth-century Morgan Orchis illustration supplies an actual
+comparator but differs in several features. The strict version stops, with no
+text fitting or old root/powder gloss adoption. Matrix, hashes, complete source
+clauses and access failures are retained. No word or independent confirmation.
