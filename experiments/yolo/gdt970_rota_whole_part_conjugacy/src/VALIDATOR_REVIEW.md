@@ -1,0 +1,13 @@
+# Independent GDT970 validator review
+
+Registration-only validation passes. Target intake and result validation have not run. The six target cache hashes are explicitly deferred until public registration; this mode does not open their bodies. The validator imports neither the primary runner nor GDT928. It binds the frozen source and protocol, checks all 97 source events against the unchanged precomparison array, and independently compares all 18 pes events to the earlier native-observation receipt.
+
+All four declared duration branches retain P1 = AB and P2 = BA with 5 and 4 events respectively. Three branches give A = B = 12 conditional breves; the Hurry prose countercase gives A = 11, B = 12. Cyclic conjugacy survives that unequal duration branch. This is a source consequence, not native certainty about every duration or a complete account of musical initialization.
+
+The 21 initial independent synthetic checks cover direct doubled-string offsets, equal strings and offset zero, unequal length, unequal inventory, equal inventory without cyclic order, minimum event length, variable event widths within a single group, one-group line eligibility, uncertain interior seams and paragraph-fence gaps. The independent cyclic canonical form is defined by enumerating rotations, rather than importing the runner's least-rotation algorithm.
+
+The essential projection counterexample uses seven distinct equal-width, hence prefix-free, codes: F=`aaaa`, G=` aaa`, g=` a a`, A=`aa a`, C=`a aa`, B=`aaa `, R=`a a `. Here g denotes the second G event with its distinct duration. The complete pes event strings are `FGFgACBCR` and `CBCRFGFgA`. Their full encodings have length 36; trimming exterior spaces gives lengths 35 and 36, while both letter projections are 27 copies of `a`. Every code contains a letter; neither trimmed string contains consecutive spaces. Therefore full-code injectivity does not justify rejecting equal projected strings, and externally padded terminal spaces cannot be the decisive gate. All 27 projected offsets must survive this fixture.
+
+A second counterexample retains a conjugate pair of nine different letters. It passes the necessary screen but cannot encode the repeated first/third F event with a non-erasing nine-event homomorphism. Thus even actual positive pairs would establish capacity only, with no event code, complete main melody, musical meaning, or independent confirmation claimed.
+
+Full reconstruction, pair certificates, table reconciliation, actual positive-path coverage and output hashes remain pending the public registration and run. The generated VALIDATION.json distinguishes this status as PASS_REGISTRATION_ONLY with target_validation NOT_RUN.

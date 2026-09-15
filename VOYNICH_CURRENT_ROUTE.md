@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;review one whole-part code consequence.
-Latest decision: Rota source97events acquired;pes AB/BA supported;no target test.
-Working files: research_registry/work_batches/ten_hours_20260915/ROTA_CONTENT_DECISION.md
-Assumptions: Shared interpretation;main durations conditional;0words;all reserves closed.
-Resume: Review glyph-projected pes conjugacy under one full variable code before use.
-Running: Root source publication;critic channel review;producer source work complete.
+Task: Ten-hour session04:49:14–14:49:14UTC;GDT970 complete pes-copy consequence.
+Latest decision: Source public e1e48a273;970 locally registered, target unopened.
+Working files: experiments/yolo/gdt970_rota_whole_part_conjugacy/PREREGISTRATION.md
+Assumptions: One shared whole-part code;glyph screen necessary only;0words.
+Resume: Publish970 registration, then all complete literal paragraph pairs;close13:35UTC.
+Running: Root registration;critic validator;producer diverse raw meaning proposals.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

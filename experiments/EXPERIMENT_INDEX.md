@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **968**
-- Experiment-associated tracked files: **18,689** (1.7 GiB)
-- Structured GDT337+ experiments: **633**
+- Experiments indexed: **969**
+- Experiment-associated tracked files: **18,703** (1.7 GiB)
+- Structured GDT337+ experiments: **634**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT970 | GDT970 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt970_rota_whole_part_conjugacy/PREREGISTRATION.md) | 14 | 64.2 KiB | 6 | STRUCTURED_YOLO |
 | GDT969 | GDT969 | `FIXED_IT2A_TRACE_CODE_CONTRADICTED` | [report](../experiments/yolo/gdt969_fibonacci_generated_root_trace/REPORT.md) | 21 | 2.8 MiB | 10 | STRUCTURED_YOLO |
 | GDT968 | GDT968 | `UNRESOLVED_FRAMEWORK_CAPACITY` | [report](../experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/REPORT.md) | 22 | 111.7 KiB | 4 | STRUCTURED_YOLO |
 | GDT967 | GDT967 | `BOTH_FIXED_MODELS_CONTRADICTED` | [report](../experiments/yolo/gdt967_balneis_joint_body_term_incidence/REPORT.md) | 34 | 10.2 MiB | 10 | STRUCTURED_YOLO |
