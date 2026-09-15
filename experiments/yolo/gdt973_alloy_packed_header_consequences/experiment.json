@@ -6,7 +6,7 @@
   "claim_ceiling": "Necessary forms only; no full parse/code/arithmetic, source identity, significance, confirmed words or independent manuscript confirmation.",
   "commands": {
     "run": "python3 experiments/yolo/gdt973_alloy_packed_header_consequences/src/run.py",
-    "validate": "python3 experiments/yolo/gdt973_alloy_packed_header_consequences/src/validate.py"
+    "validate": "python3 experiments/yolo/gdt973_alloy_packed_header_consequences/src/validate_table.py"
   },
   "created": "2026-09-15",
   "dependencies": [
@@ -102,7 +102,7 @@
     {
       "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/REPORT.md",
       "role": "primary_report",
-      "sha256": "b6fd0801ea0431510e66cb1555541d4eaa56c74d54b77023c63ffd1bbdf285b2"
+      "sha256": "ee547f8ed6f4f3db573b68d7148615cbdf4a648858b8d238b293ba1f3844f1b9"
     },
     {
       "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/ROOT_PROOF_NOTE.md",
@@ -115,6 +115,16 @@
       "sha256": "12019d6b856d513fe8b76bac73f8d45e09992917fe260828dd1bd29b43184984"
     },
     {
+      "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/artifacts/CANDIDATE_PREDICTIONS.tsv",
+      "role": "source_or_artifact",
+      "sha256": "f8dce65f94b72a664c699a2000bb703a71a9cbaa4fb6c953a0780c2434943791"
+    },
+    {
+      "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/artifacts/PREDICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "b91d764752cc9f70fce7ff85896dd558dad55270371d60d6cf969e0d32a1e632"
+    },
+    {
       "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/artifacts/PREFLIGHT.json",
       "role": "source_or_artifact",
       "sha256": "9597314bd9515aaa5758e2dd9cf4e6b0ef5f6e7b17ba850a0338580d53569cd4"
@@ -123,6 +133,21 @@
       "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "e578e6132de2439435d0bad02a8eee6ca4e660a827937b5f8846e613dcc5d509"
+    },
+    {
+      "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "8dda8fb60fbf6c01723e9bfe2ea81773cb08fb99bc9104e1951c9d17ed2cc3ec"
+    },
+    {
+      "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "253776c2cdfee1531cefefaf3eb57a91faaf4a8ec7daecf747d9f55fcf517209"
+    },
+    {
+      "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/artifacts/VALIDATION_INITIAL.json",
+      "role": "source_or_artifact",
+      "sha256": "3b1b47d2ea5125caef64b8a2477bc78a6f346d8e3187473787742a4902f3818f"
     },
     {
       "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/src/bind.py",
@@ -138,6 +163,11 @@
       "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/src/validate.py",
       "role": "source_or_artifact",
       "sha256": "db98d238e7755b4694280fadd24b0b8c6bc4d726fb26e0f0a559cd3cfef0076e"
+    },
+    {
+      "path": "experiments/yolo/gdt973_alloy_packed_header_consequences/src/validate_table.py",
+      "role": "source_or_artifact",
+      "sha256": "5180b1239742c1d94ec37de94d17b67b8268f1daa94ff332337445b4ab79af75"
     }
   ],
   "question": "Do any complete literal paragraphs satisfy all fixed necessary form consequences of the two prospectively specified packed alloy writers?",
@@ -147,11 +177,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "alloy_packed_header_consequences",
-  "status": "REGISTERED_UNSCORED",
+  "status": "NECESSARY_FORM_SURVIVORS_NO_FULL_READING",
   "title": "Unchanged packed-account writers R1/R2 necessary forms",
   "updated": "2026-09-15",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt973_alloy_packed_header_consequences/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
