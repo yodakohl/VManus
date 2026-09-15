@@ -6,11 +6,11 @@ Phase: exploration
 Status: active
 Task: Ten-hour research session started2026-09-15 04:49:14UTC;minimum end14:49:14UTC.
 Latest decision: GDT962fixed98-BPE plantmarker fails all176cases; no first word.
-Next: assess complete Dioscorides Meum preparation/benefit/adverse-effect content model.
+Next: GDT963four complete Dioscorides content streams; fit only after public registration.
 Working files: research_registry/work_batches/ten_hours_20260915/SESSION.md
 Assumptions: Whole hypothetical readings permitted; no new admission, contacts or reserves.
 Resume: Previous seven-hour session published aec82d7b8;GDT961cc9d743b0;9605e2e68300.
-Running: Root source/content design. Bounded producer/source/validator tasks completed.
+Running: Root GDT963registration/solver; independent validator ready. Budget checkpoint06:23UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

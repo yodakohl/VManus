@@ -1,0 +1,96 @@
+{
+  "experiment_id": "GDT963",
+  "status": "VALIDATION_PASS",
+  "independent_algorithm": "independent XML/alias replay, exact source accounting, D-ary Huffman bound",
+  "checks": [
+    {
+      "name": "source_schema",
+      "ok": true
+    },
+    {
+      "name": "source_record_ids",
+      "ok": true,
+      "actual": [
+        "I.1",
+        "I.2",
+        "I.3",
+        "IV.20"
+      ]
+    },
+    {
+      "name": "origin_record_ids",
+      "ok": true,
+      "actual": [
+        "I.1",
+        "I.2",
+        "I.3",
+        "IV.20"
+      ]
+    },
+    {
+      "name": "source_projection_replay",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "name": "source_global_accounting",
+      "ok": true,
+      "errors": [],
+      "atom_count": 333
+    },
+    {
+      "name": "alias_contract",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "name": "alias_scope_and_special_case",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "name": "source_capacity_artifact",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "name": "dary_huffman_source_lower_bound",
+      "ok": true,
+      "alphabet": 26,
+      "minimum_serialized_lengths": {
+        "I.1": 422,
+        "I.2": 178,
+        "I.3": 161,
+        "IV.20": 196
+      }
+    },
+    {
+      "name": "source_origin_hash_metadata",
+      "ok": true,
+      "verified": false,
+      "note": "full upstream XML is not an admitted local input; metadata preserved"
+    },
+    {
+      "name": "target_intake",
+      "ok": true,
+      "status": "NOT_YET_INTAKEN",
+      "checked": false
+    }
+  ],
+  "source_counts": {
+    "records": 4,
+    "tokens": 604,
+    "atoms": 613,
+    "distinct_atoms": 333,
+    "huffman_lower_bounds": {
+      "I.1": 422,
+      "I.2": 178,
+      "I.3": 161,
+      "IV.20": 196
+    }
+  },
+  "target": {
+    "status": "NOT_YET_INTAKEN"
+  },
+  "claim_ceiling": "source/engineering contract validation only; no confirmed language or semantic reading"
+}
