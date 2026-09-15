@@ -1,0 +1,3161 @@
+{
+  "schema": "balneis_body_source.v2",
+  "status": "SOURCE_ONLY_AUDITED",
+  "revision_history": {
+    "initial_json_sha256": "b2db4bda3aa2abd9a2b61c631e0f303484e8cc55f6d9d92f0e4a4285cb2b2238",
+    "initial_md_sha256": "d0b3bc43df29a5de03628429292bf64010e9940872f7aeae1dce630745b9d21d",
+    "deviations_corrected": [
+      "All 33 headers are bounded before excluding XXXI; XXX ends at line 364 and dedication lines 365-376 are excluded.",
+      "HEAD adds capitus line 201 and capiti line 206.",
+      "STOMACH adds stomacus line 387.",
+      "LIVER adds Jecur line 79, Iecoris line 385, and Jecur line 397.",
+      "AQUA excludes dedication aquis at line 370."
+    ],
+    "polarity_and_context": "Occurrence annotations are explicitly UNREVIEWED and non-operative."
+  },
+  "source": {
+    "path": "research_registry/work_batches/ten_hours_20260915/balneis_cache/ALIM553.txt",
+    "sha256": "397968f02fc5faf54161f2c0df9e7557f96d36e649a27a140e64c2cfe0c69ecd",
+    "line_count": 404,
+    "offset_convention": "0-based Unicode character offset in complete source; source_line is 1-based; line_column and source_token_index are 0-based.",
+    "matching_normalization": "Dictionary matching only: trim token-edge punctuation, casefold, and remove square-bracket markers while retaining bracket contents; stored source text is never normalized.",
+    "scope": "32 complete numbered bath entries: I-XXX and XXXII-XXXIII; dedication XXXI excluded; prolog excluded."
+  },
+  "family_rules": {
+    "AQUA": "Lexical noun forms aqua/unda/limpha only; aquosas and lymphato excluded.",
+    "HEAD": "Clinical caput family: caput, capitis, capitus, capiti; I capue caput excluded.",
+    "STOMACH": "All observed stomachus-family forms, including stomachiq[u]e and stomacus.",
+    "OCULUS": "Oculus forms only; lumen-family witnesses excluded explicitly.",
+    "LIVER": "All observed epar/iecur/jecur spellings, including Iecoris and Jecur.",
+    "SPLEEN": "All observed splen/splem forms, including splenisq[ue].",
+    "SKIN": "All observed cutis/cute/cutim forms.",
+    "LUNG": "All observed pulmonem/pulmoni/pulmonis forms.",
+    "KIDNEY": "All observed renes/renibus forms.",
+    "BLADDER": "All observed vesicas/vesicam/vesice forms.",
+    "WOMB": "All observed matricem/matrices/matrix/matrice forms.",
+    "NERVOUS_TISSUE": "All observed neruos/neruis forms; nerve/sinew breadth unresolved.",
+    "HYDROPS": "All observed ydropicis/ydropicos/ydropisis forms."
+  },
+  "family_form_tables": {
+    "AQUA": {
+      "source_forms": [
+        "aqua",
+        "aquam",
+        "aquas",
+        "aque",
+        "aquis",
+        "unda",
+        "undam",
+        "undis",
+        "limpha"
+      ],
+      "dictionary_keys": [
+        "aqua",
+        "aquam",
+        "aquas",
+        "aque",
+        "aquis",
+        "limpha",
+        "unda",
+        "undam",
+        "undis"
+      ]
+    },
+    "HEAD": {
+      "source_forms": [
+        "caput",
+        "capitis",
+        "capitus",
+        "capiti"
+      ],
+      "dictionary_keys": [
+        "capiti",
+        "capitis",
+        "capitus",
+        "caput"
+      ]
+    },
+    "STOMACH": {
+      "source_forms": [
+        "stomachiq[u]e",
+        "stomachi",
+        "stomachum",
+        "stomacho",
+        "stomacus"
+      ],
+      "dictionary_keys": [
+        "stomachi",
+        "stomachique",
+        "stomacho",
+        "stomachum",
+        "stomacus"
+      ]
+    },
+    "OCULUS": {
+      "source_forms": [
+        "oculos",
+        "oculis",
+        "oculorum"
+      ],
+      "dictionary_keys": [
+        "oculis",
+        "oculorum",
+        "oculos"
+      ]
+    },
+    "LIVER": {
+      "source_forms": [
+        "epar",
+        "iecur",
+        "Iecur",
+        "Iecoris",
+        "Jecur"
+      ],
+      "dictionary_keys": [
+        "epar",
+        "iecoris",
+        "iecur",
+        "jecur"
+      ]
+    },
+    "SPLEEN": {
+      "source_forms": [
+        "splenis",
+        "splene",
+        "splenisq[ue]",
+        "splem"
+      ],
+      "dictionary_keys": [
+        "splem",
+        "splene",
+        "splenis",
+        "splenisque"
+      ]
+    },
+    "SKIN": {
+      "source_forms": [
+        "cute",
+        "cutis",
+        "cutim"
+      ],
+      "dictionary_keys": [
+        "cute",
+        "cutim",
+        "cutis"
+      ]
+    },
+    "LUNG": {
+      "source_forms": [
+        "pulmonem",
+        "pulmoni",
+        "pulmonis"
+      ],
+      "dictionary_keys": [
+        "pulmonem",
+        "pulmoni",
+        "pulmonis"
+      ]
+    },
+    "KIDNEY": {
+      "source_forms": [
+        "renes",
+        "renibus"
+      ],
+      "dictionary_keys": [
+        "renes",
+        "renibus"
+      ]
+    },
+    "BLADDER": {
+      "source_forms": [
+        "vesicas",
+        "vesicam",
+        "vesice"
+      ],
+      "dictionary_keys": [
+        "vesicam",
+        "vesicas",
+        "vesice"
+      ]
+    },
+    "WOMB": {
+      "source_forms": [
+        "matricem",
+        "matrices",
+        "matrix",
+        "matrice"
+      ],
+      "dictionary_keys": [
+        "matrice",
+        "matricem",
+        "matrices",
+        "matrix"
+      ]
+    },
+    "NERVOUS_TISSUE": {
+      "source_forms": [
+        "neruos",
+        "neruis"
+      ],
+      "dictionary_keys": [
+        "neruis",
+        "neruos"
+      ]
+    },
+    "HYDROPS": {
+      "source_forms": [
+        "ydropicis",
+        "ydropicos",
+        "ydropisis"
+      ],
+      "dictionary_keys": [
+        "ydropicis",
+        "ydropicos",
+        "ydropisis"
+      ]
+    }
+  },
+  "records": [
+    {
+      "record_id": 1,
+      "roman": "I",
+      "name": "Sudatoria",
+      "start_line": 13,
+      "end_line": 24,
+      "header_exact": "I. [Sudatoria] - Absque liquore domus bene Sudatoria dicta,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 2,
+      "roman": "II",
+      "name": "Sulfatara",
+      "start_line": 25,
+      "end_line": 36,
+      "header_exact": "II. [Sulfatara] - Mollificat neruos lavacrum de sulphure dictum.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 3,
+      "roman": "III",
+      "name": "Bulla",
+      "start_line": 37,
+      "end_line": 48,
+      "header_exact": "III. [Bulla] - Est aqua que bullit et ob hoc bene Bulla vocantur.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 4,
+      "roman": "IV",
+      "name": "Astrunis",
+      "start_line": 49,
+      "end_line": 60,
+      "header_exact": "IV. [Astrunis] - Dentibus Astrunis prodest, quos reuma relaxat.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 5,
+      "roman": "V",
+      "name": "Juncare",
+      "start_line": 61,
+      "end_line": 61,
+      "header_exact": "V. [Juncare] - Balnea Juncare que sunt in litore Ponti Prosunt consumptis in sit adusta cutis. Pectoris amissas reparant in pectore vires. Letificant animos; gaudia sumpta fouent. Que veniunt per se mentis suspiria tollunt, Et faciunt alacres in muliere viros. Efficiunt renes Veneris ad prelia fortes Confortant stomachum lumina lesa iuvant. Quas hominum certas febres int[er]polat usus Anichilant necnon triste medentur epar. Talibus usus aquis discrimina nulla timebit Que quandoq[u]e solent extenuare cutim.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 6,
+      "roman": "VI",
+      "name": "Balneolum",
+      "start_line": 62,
+      "end_line": 73,
+      "header_exact": "VI. [Balneolum] - Inter aquas pelagi prope litus sub pede rupis",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 7,
+      "roman": "VII",
+      "name": "Foris Cripte",
+      "start_line": 74,
+      "end_line": 85,
+      "header_exact": "VII. [Foris Cripte] - Limpha foris cripte iuxta maris edita litus",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 8,
+      "roman": "VIII",
+      "name": "Petra",
+      "start_line": 86,
+      "end_line": 97,
+      "header_exact": "VIII. [Petra] - Cui petra dat nomen, mirum reor e[ss]e lauacrum.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 9,
+      "roman": "IX",
+      "name": "Calatura",
+      "start_line": 98,
+      "end_line": 109,
+      "header_exact": "IX. [Calatura] - Pulmoni prebet solitam Calatura quietem,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 10,
+      "roman": "X",
+      "name": "Subvenit Homini",
+      "start_line": 110,
+      "end_line": 121,
+      "header_exact": "X. [Subvenit Homini] - Ex re nomen habet lauacrum quia subvenit egris.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 11,
+      "roman": "XI",
+      "name": "Sancta Anastasia",
+      "start_line": 122,
+      "end_line": 134,
+      "header_exact": "XI. [Sancta Anastasia]",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 12,
+      "roman": "XII",
+      "name": "Cantarellus",
+      "start_line": 135,
+      "end_line": 146,
+      "header_exact": "XII. [Cantarellus] - Inter aquas pelagi feruens aqua manat et ip[s]am",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 13,
+      "roman": "XIII",
+      "name": "Prato",
+      "start_line": 147,
+      "end_line": 158,
+      "header_exact": "XIII. [Prato] - Est aqua quam populi de prato Balnea dicunt;",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 14,
+      "roman": "XIV",
+      "name": "Tripergula",
+      "start_line": 159,
+      "end_line": 170,
+      "header_exact": "XIV. [Tripergula] - Est lacus astrata quo portas Christus Averni",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 15,
+      "roman": "XV",
+      "name": "Arcus",
+      "start_line": 171,
+      "end_line": 182,
+      "header_exact": "XV. [Arcus] - Dulce satis lauacrum quod nomen sumit ab arcu,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 16,
+      "roman": "XVI",
+      "name": "Raynerius",
+      "start_line": 183,
+      "end_line": 194,
+      "header_exact": "XVI. [Raynerius] - Balnea Raynerii que corpora putrida sanant",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 17,
+      "roman": "XVII",
+      "name": "Ferris",
+      "start_line": 195,
+      "end_line": 206,
+      "header_exact": "XVII. [Ferris] - Ante domum vatis lacus est ubi dictus Averni,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 18,
+      "roman": "XVIII",
+      "name": "Silvia",
+      "start_line": 207,
+      "end_line": 218,
+      "header_exact": "XVIII. [Silvia] - Sylvia diua parens inuenit forte lauacrum;",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 19,
+      "roman": "XIX",
+      "name": "Culma",
+      "start_line": 219,
+      "end_line": 230,
+      "header_exact": "XIX. [Culma] - Inter aquas alias mirabile culma lauacrum.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 20,
+      "roman": "XX",
+      "name": "Trituli",
+      "start_line": 231,
+      "end_line": 244,
+      "header_exact": "XX. [Trituli] - Est locus antiqua testudine ductus in aluum",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 21,
+      "roman": "XXI",
+      "name": "Arculus",
+      "start_line": 245,
+      "end_line": 256,
+      "header_exact": "XXI. [Arculus] - Qui breue nomen habet, magne virtutis habetur.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 22,
+      "roman": "XXII",
+      "name": "Palumbare",
+      "start_line": 257,
+      "end_line": 268,
+      "header_exact": "XXII. [Palumbare] - Cripta palumbare fuerit vel grata palumbis,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 23,
+      "roman": "XXIII",
+      "name": "Pugillus",
+      "start_line": 269,
+      "end_line": 280,
+      "header_exact": "XXIII. [Pugillus] - Cum maris unda tumet, tanti vacat unda pugilli",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 24,
+      "roman": "XXIV",
+      "name": "Sanctus Georgius",
+      "start_line": 281,
+      "end_line": 292,
+      "header_exact": "XXIV. [Sanctus Georgius] - Est aqua que poterit de iure Georgica dici:",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 25,
+      "roman": "XXV",
+      "name": "Petroleo; Olivum",
+      "start_line": 293,
+      "end_line": 304,
+      "header_exact": "XXV. [Petroleo; Olivum] - Non procul a culma locus est qui fundit olivum.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 26,
+      "roman": "XXVI",
+      "name": "Sol et Luna",
+      "start_line": 305,
+      "end_line": 316,
+      "header_exact": "XXVI. [Sol et Luna] - Cesaris est lauacrum quod Sol et luna vocatur:",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 27,
+      "roman": "XXVII",
+      "name": "Fons Episcopi",
+      "start_line": 317,
+      "end_line": 328,
+      "header_exact": "XXVII. [Fons Episcopi] - Nomine fons tali fruitur q[uo]d episcopat egris,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 28,
+      "roman": "XXVIII",
+      "name": "Bracula",
+      "start_line": 329,
+      "end_line": 340,
+      "header_exact": "XXVIII. [Bracula] - Faucibus antidotum bene confert bracula Grossis.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 29,
+      "roman": "XXIX",
+      "name": "Gimborosus",
+      "start_line": 341,
+      "end_line": 352,
+      "header_exact": "XXIX. [Gimborosus] - Est Aqua mirandi nimium noua dicta lauacri",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 30,
+      "roman": "XXX",
+      "name": "Spelunca",
+      "start_line": 353,
+      "end_line": 364,
+      "header_exact": "XXX. [Spelunca] - Ultima termarum laudem Spelunca meretur.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 32,
+      "roman": "XXXII",
+      "name": "Subcellarium",
+      "start_line": 377,
+      "end_line": 392,
+      "header_exact": "XXXII. [Subcellarium] - Est subcellarium lauacrum quod conuenit Egris.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 33,
+      "roman": "XXXIII",
+      "name": "De Cruce",
+      "start_line": 393,
+      "end_line": 404,
+      "header_exact": "XXXIII. [De Cruce] - Hoc lauacrum Crucis satis est laudabilis unda.",
+      "complete_numbered_entry": true
+    }
+  ],
+  "all_header_boundaries": [
+    {
+      "record_id": 1,
+      "roman": "I",
+      "name": "Sudatoria",
+      "start_line": 13,
+      "end_line": 24,
+      "header_exact": "I. [Sudatoria] - Absque liquore domus bene Sudatoria dicta,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 2,
+      "roman": "II",
+      "name": "Sulfatara",
+      "start_line": 25,
+      "end_line": 36,
+      "header_exact": "II. [Sulfatara] - Mollificat neruos lavacrum de sulphure dictum.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 3,
+      "roman": "III",
+      "name": "Bulla",
+      "start_line": 37,
+      "end_line": 48,
+      "header_exact": "III. [Bulla] - Est aqua que bullit et ob hoc bene Bulla vocantur.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 4,
+      "roman": "IV",
+      "name": "Astrunis",
+      "start_line": 49,
+      "end_line": 60,
+      "header_exact": "IV. [Astrunis] - Dentibus Astrunis prodest, quos reuma relaxat.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 5,
+      "roman": "V",
+      "name": "Juncare",
+      "start_line": 61,
+      "end_line": 61,
+      "header_exact": "V. [Juncare] - Balnea Juncare que sunt in litore Ponti Prosunt consumptis in sit adusta cutis. Pectoris amissas reparant in pectore vires. Letificant animos; gaudia sumpta fouent. Que veniunt per se mentis suspiria tollunt, Et faciunt alacres in muliere viros. Efficiunt renes Veneris ad prelia fortes Confortant stomachum lumina lesa iuvant. Quas hominum certas febres int[er]polat usus Anichilant necnon triste medentur epar. Talibus usus aquis discrimina nulla timebit Que quandoq[u]e solent extenuare cutim.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 6,
+      "roman": "VI",
+      "name": "Balneolum",
+      "start_line": 62,
+      "end_line": 73,
+      "header_exact": "VI. [Balneolum] - Inter aquas pelagi prope litus sub pede rupis",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 7,
+      "roman": "VII",
+      "name": "Foris Cripte",
+      "start_line": 74,
+      "end_line": 85,
+      "header_exact": "VII. [Foris Cripte] - Limpha foris cripte iuxta maris edita litus",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 8,
+      "roman": "VIII",
+      "name": "Petra",
+      "start_line": 86,
+      "end_line": 97,
+      "header_exact": "VIII. [Petra] - Cui petra dat nomen, mirum reor e[ss]e lauacrum.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 9,
+      "roman": "IX",
+      "name": "Calatura",
+      "start_line": 98,
+      "end_line": 109,
+      "header_exact": "IX. [Calatura] - Pulmoni prebet solitam Calatura quietem,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 10,
+      "roman": "X",
+      "name": "Subvenit Homini",
+      "start_line": 110,
+      "end_line": 121,
+      "header_exact": "X. [Subvenit Homini] - Ex re nomen habet lauacrum quia subvenit egris.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 11,
+      "roman": "XI",
+      "name": "Sancta Anastasia",
+      "start_line": 122,
+      "end_line": 134,
+      "header_exact": "XI. [Sancta Anastasia]",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 12,
+      "roman": "XII",
+      "name": "Cantarellus",
+      "start_line": 135,
+      "end_line": 146,
+      "header_exact": "XII. [Cantarellus] - Inter aquas pelagi feruens aqua manat et ip[s]am",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 13,
+      "roman": "XIII",
+      "name": "Prato",
+      "start_line": 147,
+      "end_line": 158,
+      "header_exact": "XIII. [Prato] - Est aqua quam populi de prato Balnea dicunt;",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 14,
+      "roman": "XIV",
+      "name": "Tripergula",
+      "start_line": 159,
+      "end_line": 170,
+      "header_exact": "XIV. [Tripergula] - Est lacus astrata quo portas Christus Averni",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 15,
+      "roman": "XV",
+      "name": "Arcus",
+      "start_line": 171,
+      "end_line": 182,
+      "header_exact": "XV. [Arcus] - Dulce satis lauacrum quod nomen sumit ab arcu,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 16,
+      "roman": "XVI",
+      "name": "Raynerius",
+      "start_line": 183,
+      "end_line": 194,
+      "header_exact": "XVI. [Raynerius] - Balnea Raynerii que corpora putrida sanant",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 17,
+      "roman": "XVII",
+      "name": "Ferris",
+      "start_line": 195,
+      "end_line": 206,
+      "header_exact": "XVII. [Ferris] - Ante domum vatis lacus est ubi dictus Averni,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 18,
+      "roman": "XVIII",
+      "name": "Silvia",
+      "start_line": 207,
+      "end_line": 218,
+      "header_exact": "XVIII. [Silvia] - Sylvia diua parens inuenit forte lauacrum;",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 19,
+      "roman": "XIX",
+      "name": "Culma",
+      "start_line": 219,
+      "end_line": 230,
+      "header_exact": "XIX. [Culma] - Inter aquas alias mirabile culma lauacrum.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 20,
+      "roman": "XX",
+      "name": "Trituli",
+      "start_line": 231,
+      "end_line": 244,
+      "header_exact": "XX. [Trituli] - Est locus antiqua testudine ductus in aluum",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 21,
+      "roman": "XXI",
+      "name": "Arculus",
+      "start_line": 245,
+      "end_line": 256,
+      "header_exact": "XXI. [Arculus] - Qui breue nomen habet, magne virtutis habetur.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 22,
+      "roman": "XXII",
+      "name": "Palumbare",
+      "start_line": 257,
+      "end_line": 268,
+      "header_exact": "XXII. [Palumbare] - Cripta palumbare fuerit vel grata palumbis,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 23,
+      "roman": "XXIII",
+      "name": "Pugillus",
+      "start_line": 269,
+      "end_line": 280,
+      "header_exact": "XXIII. [Pugillus] - Cum maris unda tumet, tanti vacat unda pugilli",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 24,
+      "roman": "XXIV",
+      "name": "Sanctus Georgius",
+      "start_line": 281,
+      "end_line": 292,
+      "header_exact": "XXIV. [Sanctus Georgius] - Est aqua que poterit de iure Georgica dici:",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 25,
+      "roman": "XXV",
+      "name": "Petroleo; Olivum",
+      "start_line": 293,
+      "end_line": 304,
+      "header_exact": "XXV. [Petroleo; Olivum] - Non procul a culma locus est qui fundit olivum.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 26,
+      "roman": "XXVI",
+      "name": "Sol et Luna",
+      "start_line": 305,
+      "end_line": 316,
+      "header_exact": "XXVI. [Sol et Luna] - Cesaris est lauacrum quod Sol et luna vocatur:",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 27,
+      "roman": "XXVII",
+      "name": "Fons Episcopi",
+      "start_line": 317,
+      "end_line": 328,
+      "header_exact": "XXVII. [Fons Episcopi] - Nomine fons tali fruitur q[uo]d episcopat egris,",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 28,
+      "roman": "XXVIII",
+      "name": "Bracula",
+      "start_line": 329,
+      "end_line": 340,
+      "header_exact": "XXVIII. [Bracula] - Faucibus antidotum bene confert bracula Grossis.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 29,
+      "roman": "XXIX",
+      "name": "Gimborosus",
+      "start_line": 341,
+      "end_line": 352,
+      "header_exact": "XXIX. [Gimborosus] - Est Aqua mirandi nimium noua dicta lauacri",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 30,
+      "roman": "XXX",
+      "name": "Spelunca",
+      "start_line": 353,
+      "end_line": 364,
+      "header_exact": "XXX. [Spelunca] - Ultima termarum laudem Spelunca meretur.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 31,
+      "roman": "XXXI",
+      "name": "Dedicatio",
+      "start_line": 365,
+      "end_line": 376,
+      "header_exact": "XXXI. [Dedicatio] - Suscipe, Sol mundi, ubi quem presento libellum.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 32,
+      "roman": "XXXII",
+      "name": "Subcellarium",
+      "start_line": 377,
+      "end_line": 392,
+      "header_exact": "XXXII. [Subcellarium] - Est subcellarium lauacrum quod conuenit Egris.",
+      "complete_numbered_entry": true
+    },
+    {
+      "record_id": 33,
+      "roman": "XXXIII",
+      "name": "De Cruce",
+      "start_line": 393,
+      "end_line": 404,
+      "header_exact": "XXXIII. [De Cruce] - Hoc lauacrum Crucis satis est laudabilis unda.",
+      "complete_numbered_entry": true
+    }
+  ],
+  "families": {
+    "AQUA": {
+      "count_total": 82,
+      "count_by_record": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 1,
+        "6": 3,
+        "7": 2,
+        "8": 2,
+        "9": 1,
+        "10": 2,
+        "11": 4,
+        "12": 3,
+        "13": 2,
+        "14": 4,
+        "15": 2,
+        "16": 5,
+        "17": 2,
+        "18": 2,
+        "19": 3,
+        "20": 3,
+        "21": 4,
+        "22": 2,
+        "23": 4,
+        "24": 4,
+        "25": 2,
+        "26": 2,
+        "27": 1,
+        "29": 3,
+        "30": 5,
+        "32": 4,
+        "33": 3
+      },
+      "occurrences": [
+        {
+          "record_id": 1,
+          "source_line": 20,
+          "char_offset": 834,
+          "line_column": 30,
+          "source_token_index": 4,
+          "sourceword_exact": "aqua.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Quouis apposita vase calescit aqua."
+        },
+        {
+          "record_id": 1,
+          "source_line": 21,
+          "char_offset": 844,
+          "line_column": 4,
+          "source_token_index": 1,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec aqua languentes restaurat et ylia sanat."
+        },
+        {
+          "record_id": 2,
+          "source_line": 32,
+          "char_offset": 1369,
+          "line_column": 17,
+          "source_token_index": 2,
+          "sourceword_exact": "aquas",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Intrabis securus aquas nam corpora pura,"
+        },
+        {
+          "record_id": 3,
+          "source_line": 37,
+          "char_offset": 1595,
+          "line_column": 19,
+          "source_token_index": 4,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "III. [Bulla] - Est aqua que bullit et ob hoc bene Bulla vocantur."
+        },
+        {
+          "record_id": 3,
+          "source_line": 44,
+          "char_offset": 1919,
+          "line_column": 30,
+          "source_token_index": 4,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Alterius curant sumere fontis aquam."
+        },
+        {
+          "record_id": 4,
+          "source_line": 52,
+          "char_offset": 2265,
+          "line_column": 20,
+          "source_token_index": 4,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Et lesis oculis hec aqua prestat opem."
+        },
+        {
+          "record_id": 4,
+          "source_line": 54,
+          "char_offset": 2359,
+          "line_column": 31,
+          "source_token_index": 4,
+          "sourceword_exact": "aqua.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Inflammat corpus cui dominatur aqua."
+        },
+        {
+          "record_id": 5,
+          "source_line": 61,
+          "char_offset": 3052,
+          "line_column": 441,
+          "source_token_index": 64,
+          "sourceword_exact": "aquis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "V. [Juncare] - Balnea Juncare que sunt in litore Ponti Prosunt consumptis in sit adusta cutis. Pectoris amissas reparant in pectore vires. Letificant animos; gaudia sumpta fouent. Que veniunt per se mentis suspiria tollunt, Et faciunt alacres in muliere viros. Efficiunt renes Veneris ad prelia fortes Confortant stomachum lumina lesa iuvant. Quas hominum certas febres int[er]polat usus Anichilant necnon triste medentur epar. Talibus usus aquis discrimina nulla timebit Que quandoq[u]e solent extenuare cutim."
+        },
+        {
+          "record_id": 6,
+          "source_line": 62,
+          "char_offset": 3147,
+          "line_column": 24,
+          "source_token_index": 4,
+          "sourceword_exact": "aquas",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "VI. [Balneolum] - Inter aquas pelagi prope litus sub pede rupis"
+        },
+        {
+          "record_id": 6,
+          "source_line": 67,
+          "char_offset": 3361,
+          "line_column": 6,
+          "source_token_index": 1,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Lotus aqua tali tempore liber abis."
+        },
+        {
+          "record_id": 6,
+          "source_line": 69,
+          "char_offset": 3468,
+          "line_column": 32,
+          "source_token_index": 4,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Confortat, tepidam si renouabis aquam."
+        },
+        {
+          "record_id": 7,
+          "source_line": 74,
+          "char_offset": 3665,
+          "line_column": 22,
+          "source_token_index": 4,
+          "sourceword_exact": "Limpha",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "VII. [Foris Cripte] - Limpha foris cripte iuxta maris edita litus"
+        },
+        {
+          "record_id": 7,
+          "source_line": 85,
+          "char_offset": 4150,
+          "line_column": 34,
+          "source_token_index": 5,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ipsa foris cripte bulla ministrat aquam."
+        },
+        {
+          "record_id": 8,
+          "source_line": 93,
+          "char_offset": 4476,
+          "line_column": 6,
+          "source_token_index": 1,
+          "sourceword_exact": "aque",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Huius aque potus interiora lauat:"
+        },
+        {
+          "record_id": 8,
+          "source_line": 97,
+          "char_offset": 4660,
+          "line_column": 28,
+          "source_token_index": 4,
+          "sourceword_exact": "aque.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Assiduue talie liberat usus aque."
+        },
+        {
+          "record_id": 9,
+          "source_line": 105,
+          "char_offset": 5011,
+          "line_column": 33,
+          "source_token_index": 5,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ut timor abscedat, depius intret aquam."
+        },
+        {
+          "record_id": 10,
+          "source_line": 115,
+          "char_offset": 5428,
+          "line_column": 24,
+          "source_token_index": 3,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Humores ventris leuiter unda lauat."
+        },
+        {
+          "record_id": 10,
+          "source_line": 119,
+          "char_offset": 5589,
+          "line_column": 23,
+          "source_token_index": 3,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Talis amatores recreat unda suos:"
+        },
+        {
+          "record_id": 11,
+          "source_line": 126,
+          "char_offset": 5843,
+          "line_column": 24,
+          "source_token_index": 3,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Virtutes eciam corporis unda novat."
+        },
+        {
+          "record_id": 11,
+          "source_line": 128,
+          "char_offset": 5931,
+          "line_column": 29,
+          "source_token_index": 5,
+          "sourceword_exact": "aqua.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "In medio fosse feruida manat aqua."
+        },
+        {
+          "record_id": 11,
+          "source_line": 130,
+          "char_offset": 6011,
+          "line_column": 30,
+          "source_token_index": 4,
+          "sourceword_exact": "aque.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Languidus ardorem si paciatur aque."
+        },
+        {
+          "record_id": 11,
+          "source_line": 134,
+          "char_offset": 6174,
+          "line_column": 31,
+          "source_token_index": 4,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Senciet auxilium, si renouabit aquam."
+        },
+        {
+          "record_id": 12,
+          "source_line": 135,
+          "char_offset": 6208,
+          "line_column": 27,
+          "source_token_index": 4,
+          "sourceword_exact": "aquas",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "XII. [Cantarellus] - Inter aquas pelagi feruens aqua manat et ip[s]am"
+        },
+        {
+          "record_id": 12,
+          "source_line": 135,
+          "char_offset": 6229,
+          "line_column": 48,
+          "source_token_index": 7,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "XII. [Cantarellus] - Inter aquas pelagi feruens aqua manat et ip[s]am"
+        },
+        {
+          "record_id": 12,
+          "source_line": 146,
+          "char_offset": 6684,
+          "line_column": 5,
+          "source_token_index": 1,
+          "sourceword_exact": "aque",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Usua aque lateri continuatus obest."
+        },
+        {
+          "record_id": 13,
+          "source_line": 147,
+          "char_offset": 6735,
+          "line_column": 20,
+          "source_token_index": 4,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "XIII. [Prato] - Est aqua quam populi de prato Balnea dicunt;"
+        },
+        {
+          "record_id": 13,
+          "source_line": 150,
+          "char_offset": 6893,
+          "line_column": 37,
+          "source_token_index": 6,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "In quibus inueniet, quam petit eger, aquam."
+        },
+        {
+          "record_id": 14,
+          "source_line": 162,
+          "char_offset": 7415,
+          "line_column": 32,
+          "source_token_index": 5,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Una capit uestes, altera servat aquam."
+        },
+        {
+          "record_id": 14,
+          "source_line": 163,
+          "char_offset": 7429,
+          "line_column": 7,
+          "source_token_index": 1,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Utilis unda satis multum sudantibus; aufert"
+        },
+        {
+          "record_id": 14,
+          "source_line": 168,
+          "char_offset": 7668,
+          "line_column": 29,
+          "source_token_index": 4,
+          "sourceword_exact": "aqua.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Consulimus tali sepe fruatur aqua."
+        },
+        {
+          "record_id": 14,
+          "source_line": 169,
+          "char_offset": 7688,
+          "line_column": 14,
+          "source_token_index": 2,
+          "sourceword_exact": "aque",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Cuius amoator aque sinthomata nulla timebit"
+        },
+        {
+          "record_id": 15,
+          "source_line": 173,
+          "char_offset": 7853,
+          "line_column": 4,
+          "source_token_index": 1,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec aqua consumptos restaurat corporis artus."
+        },
+        {
+          "record_id": 15,
+          "source_line": 175,
+          "char_offset": 7976,
+          "line_column": 41,
+          "source_token_index": 7,
+          "sourceword_exact": "undam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Si quis in extremis patitur, festinet ad undam."
+        },
+        {
+          "record_id": 16,
+          "source_line": 184,
+          "char_offset": 8383,
+          "line_column": 36,
+          "source_token_index": 5,
+          "sourceword_exact": "aqua.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Est quor[um] salsi flegmatis hostis aqua."
+        },
+        {
+          "record_id": 16,
+          "source_line": 190,
+          "char_offset": 8623,
+          "line_column": 32,
+          "source_token_index": 4,
+          "sourceword_exact": "aquas.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Terribiles tribuli sanus adibis aquas."
+        },
+        {
+          "record_id": 16,
+          "source_line": 193,
+          "char_offset": 8731,
+          "line_column": 18,
+          "source_token_index": 2,
+          "sourceword_exact": "aquas",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Raynerii refrenat aquas aqua turgida stagni."
+        },
+        {
+          "record_id": 16,
+          "source_line": 193,
+          "char_offset": 8737,
+          "line_column": 24,
+          "source_token_index": 3,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Raynerii refrenat aquas aqua turgida stagni."
+        },
+        {
+          "record_id": 16,
+          "source_line": 194,
+          "char_offset": 8785,
+          "line_column": 27,
+          "source_token_index": 4,
+          "sourceword_exact": "aquas.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Felix qui pingue evacuabit aquas."
+        },
+        {
+          "record_id": 17,
+          "source_line": 200,
+          "char_offset": 9058,
+          "line_column": 30,
+          "source_token_index": 4,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Siue supercilii, sepius inter aquam."
+        },
+        {
+          "record_id": 17,
+          "source_line": 203,
+          "char_offset": 9158,
+          "line_column": 8,
+          "source_token_index": 2,
+          "sourceword_exact": "aque",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Si quis aque talis vires cognosceret eger"
+        },
+        {
+          "record_id": 18,
+          "source_line": 208,
+          "char_offset": 9394,
+          "line_column": 32,
+          "source_token_index": 5,
+          "sourceword_exact": "aque.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "De proprio tribuit nomine nomen aque."
+        },
+        {
+          "record_id": 18,
+          "source_line": 209,
+          "char_offset": 9404,
+          "line_column": 4,
+          "source_token_index": 1,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec aqua matrices quouis humore grauatus"
+        },
+        {
+          "record_id": 19,
+          "source_line": 219,
+          "char_offset": 9854,
+          "line_column": 21,
+          "source_token_index": 4,
+          "sourceword_exact": "aquas",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "XIX. [Culma] - Inter aquas alias mirabile culma lauacrum."
+        },
+        {
+          "record_id": 19,
+          "source_line": 221,
+          "char_offset": 9966,
+          "line_column": 36,
+          "source_token_index": 5,
+          "sourceword_exact": "undis;",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ymo per obliquum medicis accreditur undis;"
+        },
+        {
+          "record_id": 19,
+          "source_line": 223,
+          "char_offset": 10014,
+          "line_column": 0,
+          "source_token_index": 0,
+          "sourceword_exact": "Unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Unda lateris intus sudorem prouocat intus."
+        },
+        {
+          "record_id": 20,
+          "source_line": 234,
+          "char_offset": 10496,
+          "line_column": 8,
+          "source_token_index": 2,
+          "sourceword_exact": "aque",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ad quid aque valeant queq[ue] figura notat."
+        },
+        {
+          "record_id": 20,
+          "source_line": 236,
+          "char_offset": 10607,
+          "line_column": 26,
+          "source_token_index": 4,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hic veniente die mittitur unda semel:"
+        },
+        {
+          "record_id": 20,
+          "source_line": 241,
+          "char_offset": 10784,
+          "line_column": 4,
+          "source_token_index": 1,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hic aqua cotidie q[uam] multos mota medetur"
+        },
+        {
+          "record_id": 21,
+          "source_line": 250,
+          "char_offset": 11208,
+          "line_column": 31,
+          "source_token_index": 4,
+          "sourceword_exact": "aqua;",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Deficit arculea triste papauer aqua;"
+        },
+        {
+          "record_id": 21,
+          "source_line": 253,
+          "char_offset": 11329,
+          "line_column": 33,
+          "source_token_index": 5,
+          "sourceword_exact": "limpha",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Balnea quod trituli q[uo]d culme limpha ministrat,"
+        },
+        {
+          "record_id": 21,
+          "source_line": 255,
+          "char_offset": 11400,
+          "line_column": 16,
+          "source_token_index": 2,
+          "sourceword_exact": "aquas",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Qua[m]uis inter aquas trituli fit gracior unda"
+        },
+        {
+          "record_id": 21,
+          "source_line": 255,
+          "char_offset": 11426,
+          "line_column": 42,
+          "source_token_index": 6,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Qua[m]uis inter aquas trituli fit gracior unda"
+        },
+        {
+          "record_id": 22,
+          "source_line": 259,
+          "char_offset": 11578,
+          "line_column": 0,
+          "source_token_index": 0,
+          "sourceword_exact": "Unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Unda palumbare lesos cum vertice renes"
+        },
+        {
+          "record_id": 22,
+          "source_line": 267,
+          "char_offset": 11925,
+          "line_column": 19,
+          "source_token_index": 3,
+          "sourceword_exact": "aque",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Crede michi q[uod] aque faciunt quodcu[n]q[ue] syrupi,"
+        },
+        {
+          "record_id": 23,
+          "source_line": 269,
+          "char_offset": 12027,
+          "line_column": 30,
+          "source_token_index": 5,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "XXIII. [Pugillus] - Cum maris unda tumet, tanti vacat unda pugilli"
+        },
+        {
+          "record_id": 23,
+          "source_line": 269,
+          "char_offset": 12051,
+          "line_column": 54,
+          "source_token_index": 9,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "XXIII. [Pugillus] - Cum maris unda tumet, tanti vacat unda pugilli"
+        },
+        {
+          "record_id": 23,
+          "source_line": 271,
+          "char_offset": 12145,
+          "line_column": 39,
+          "source_token_index": 7,
+          "sourceword_exact": "undam;",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Est iter obliquum paruam quod ducit ad undam;"
+        },
+        {
+          "record_id": 23,
+          "source_line": 279,
+          "char_offset": 12451,
+          "line_column": 13,
+          "source_token_index": 2,
+          "sourceword_exact": "aqua,",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Aridus, usus aqua, baculis adiutus amicis,"
+        },
+        {
+          "record_id": 24,
+          "source_line": 281,
+          "char_offset": 12550,
+          "line_column": 31,
+          "source_token_index": 5,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "XXIV. [Sanctus Georgius] - Est aqua que poterit de iure Georgica dici:"
+        },
+        {
+          "record_id": 24,
+          "source_line": 282,
+          "char_offset": 12621,
+          "line_column": 31,
+          "source_token_index": 4,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Abdita telluris vena ministrat aquam."
+        },
+        {
+          "record_id": 24,
+          "source_line": 286,
+          "char_offset": 12792,
+          "line_column": 32,
+          "source_token_index": 4,
+          "sourceword_exact": "aquam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Mirificam tantum leta relinquit aquam."
+        },
+        {
+          "record_id": 24,
+          "source_line": 290,
+          "char_offset": 12960,
+          "line_column": 33,
+          "source_token_index": 4,
+          "sourceword_exact": "aquis.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Egrotant sanctis hiis releuantur aquis."
+        },
+        {
+          "record_id": 25,
+          "source_line": 302,
+          "char_offset": 13458,
+          "line_column": 4,
+          "source_token_index": 1,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec aqua rugosas delet ab ore notas."
+        },
+        {
+          "record_id": 25,
+          "source_line": 304,
+          "char_offset": 13567,
+          "line_column": 35,
+          "source_token_index": 6,
+          "sourceword_exact": "aqua.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hoc oleum prestat quod petra sudat aqua."
+        },
+        {
+          "record_id": 26,
+          "source_line": 306,
+          "char_offset": 13675,
+          "line_column": 33,
+          "source_token_index": 5,
+          "sourceword_exact": "aquis.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Sicut sol stellis preualet istud aquis."
+        },
+        {
+          "record_id": 26,
+          "source_line": 311,
+          "char_offset": 13880,
+          "line_column": 39,
+          "source_token_index": 7,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Sed tamen ignorant ubi sit tam nobilis unda"
+        },
+        {
+          "record_id": 27,
+          "source_line": 326,
+          "char_offset": 14520,
+          "line_column": 30,
+          "source_token_index": 4,
+          "sourceword_exact": "aqua.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Utilis est vobis pontificalis aqua."
+        },
+        {
+          "record_id": 29,
+          "source_line": 341,
+          "char_offset": 15167,
+          "line_column": 25,
+          "source_token_index": 4,
+          "sourceword_exact": "Aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "XXIX. [Gimborosus] - Est Aqua mirandi nimium noua dicta lauacri"
+        },
+        {
+          "record_id": 29,
+          "source_line": 343,
+          "char_offset": 15282,
+          "line_column": 42,
+          "source_token_index": 7,
+          "sourceword_exact": "undam.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Pene per octo gradus paciens descendit ad undam."
+        },
+        {
+          "record_id": 29,
+          "source_line": 344,
+          "char_offset": 15304,
+          "line_column": 15,
+          "source_token_index": 2,
+          "sourceword_exact": "aquas",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Circinat intus aquas per latus omne gradus."
+        },
+        {
+          "record_id": 30,
+          "source_line": 354,
+          "char_offset": 15716,
+          "line_column": 6,
+          "source_token_index": 1,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Huius aqua poterit simplice nemo frui:"
+        },
+        {
+          "record_id": 30,
+          "source_line": 355,
+          "char_offset": 15778,
+          "line_column": 29,
+          "source_token_index": 4,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ingenio faciente modum cadit unda doloris,"
+        },
+        {
+          "record_id": 30,
+          "source_line": 356,
+          "char_offset": 15805,
+          "line_column": 13,
+          "source_token_index": 2,
+          "sourceword_exact": "aquas",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Sic intrabit aquas ingeniosus homo."
+        },
+        {
+          "record_id": 30,
+          "source_line": 360,
+          "char_offset": 15995,
+          "line_column": 32,
+          "source_token_index": 4,
+          "sourceword_exact": "aque:",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Quisq[ua]m cotidie sumere curet aque:"
+        },
+        {
+          "record_id": 30,
+          "source_line": 364,
+          "char_offset": 16167,
+          "line_column": 32,
+          "source_token_index": 4,
+          "sourceword_exact": "aquam",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Cripta salutarem continet intus aquam ~"
+        },
+        {
+          "record_id": 32,
+          "source_line": 378,
+          "char_offset": 16809,
+          "line_column": 28,
+          "source_token_index": 5,
+          "sourceword_exact": "unda",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Lucida quo multum dulcis et unda manet."
+        },
+        {
+          "record_id": 32,
+          "source_line": 381,
+          "char_offset": 16938,
+          "line_column": 38,
+          "source_token_index": 6,
+          "sourceword_exact": "undis;",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hac hominis varii pertolus curatur in undis;"
+        },
+        {
+          "record_id": 32,
+          "source_line": 387,
+          "char_offset": 17190,
+          "line_column": 37,
+          "source_token_index": 6,
+          "sourceword_exact": "unda:",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Appetit et stomacus ista pertolus in unda:"
+        },
+        {
+          "record_id": 32,
+          "source_line": 390,
+          "char_offset": 17288,
+          "line_column": 13,
+          "source_token_index": 2,
+          "sourceword_exact": "aqua",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec curantur aqua quando lauantur ibi."
+        },
+        {
+          "record_id": 33,
+          "source_line": 393,
+          "char_offset": 17454,
+          "line_column": 62,
+          "source_token_index": 10,
+          "sourceword_exact": "unda.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "XXXIII. [De Cruce] - Hoc lauacrum Crucis satis est laudabilis unda."
+        },
+        {
+          "record_id": 33,
+          "source_line": 400,
+          "char_offset": 17714,
+          "line_column": 12,
+          "source_token_index": 1,
+          "sourceword_exact": "aquam",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Frequentant aquam que euacuata crescit."
+        },
+        {
+          "record_id": 33,
+          "source_line": 403,
+          "char_offset": 17842,
+          "line_column": 17,
+          "source_token_index": 3,
+          "sourceword_exact": "aque",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Tempore in breui aque virtute fluendi"
+        }
+      ]
+    },
+    "HEAD": {
+      "count_total": 12,
+      "count_by_record": {
+        "2": 1,
+        "3": 2,
+        "6": 1,
+        "8": 1,
+        "13": 1,
+        "17": 2,
+        "20": 1,
+        "21": 1,
+        "23": 1,
+        "28": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 2,
+          "source_line": 27,
+          "char_offset": 1140,
+          "line_column": 19,
+          "source_token_index": 2,
+          "sourceword_exact": "capitis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Impregnat steriles capitis stomachiq[u]e dolorem"
+        },
+        {
+          "record_id": 3,
+          "source_line": 42,
+          "char_offset": 1838,
+          "line_column": 30,
+          "source_token_index": 6,
+          "sourceword_exact": "caput.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Si studeant in ea sepe lauare caput."
+        },
+        {
+          "record_id": 3,
+          "source_line": 47,
+          "char_offset": 2012,
+          "line_column": 4,
+          "source_token_index": 1,
+          "sourceword_exact": "caput",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec caput emendat matricem purgat et inguen."
+        },
+        {
+          "record_id": 6,
+          "source_line": 68,
+          "char_offset": 3394,
+          "line_column": 3,
+          "source_token_index": 1,
+          "sourceword_exact": "caput",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Et caput et stomachum renes et cetera membra"
+        },
+        {
+          "record_id": 8,
+          "source_line": 88,
+          "char_offset": 4269,
+          "line_column": 3,
+          "source_token_index": 1,
+          "sourceword_exact": "caput",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Et caput a multis absoluit triste querelis."
+        },
+        {
+          "record_id": 13,
+          "source_line": 154,
+          "char_offset": 7030,
+          "line_column": 3,
+          "source_token_index": 1,
+          "sourceword_exact": "caput",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Et caput et scapulas ad sua iura trahit."
+        },
+        {
+          "record_id": 17,
+          "source_line": 201,
+          "char_offset": 9075,
+          "line_column": 10,
+          "source_token_index": 2,
+          "sourceword_exact": "capitus",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Cum vicio capitus nubem caliginis aufert."
+        },
+        {
+          "record_id": 17,
+          "source_line": 206,
+          "char_offset": 9283,
+          "line_column": 10,
+          "source_token_index": 1,
+          "sourceword_exact": "capiti",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Congaudet capiti trina suo."
+        },
+        {
+          "record_id": 20,
+          "source_line": 242,
+          "char_offset": 10862,
+          "line_column": 38,
+          "source_token_index": 5,
+          "sourceword_exact": "caput",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Reuma fugat Stomachum roborat atq[ue] caput"
+        },
+        {
+          "record_id": 21,
+          "source_line": 248,
+          "char_offset": 11130,
+          "line_column": 28,
+          "source_token_index": 4,
+          "sourceword_exact": "caput;",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Liberat a multa frigiditate caput;"
+        },
+        {
+          "record_id": 23,
+          "source_line": 275,
+          "char_offset": 12294,
+          "line_column": 22,
+          "source_token_index": 4,
+          "sourceword_exact": "caput,",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Si patitur cum splene caput, cum frigore corpus"
+        },
+        {
+          "record_id": 28,
+          "source_line": 331,
+          "char_offset": 14720,
+          "line_column": 11,
+          "source_token_index": 2,
+          "sourceword_exact": "capitis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Si patitur capitis pupis vel prora dolorem,"
+        }
+      ]
+    },
+    "STOMACH": {
+      "count_total": 13,
+      "count_by_record": {
+        "2": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "9": 1,
+        "10": 1,
+        "14": 1,
+        "15": 1,
+        "20": 1,
+        "21": 1,
+        "25": 1,
+        "32": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 2,
+          "source_line": 27,
+          "char_offset": 1148,
+          "line_column": 27,
+          "source_token_index": 3,
+          "sourceword_exact": "stomachiq[u]e",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Impregnat steriles capitis stomachiq[u]e dolorem"
+        },
+        {
+          "record_id": 4,
+          "source_line": 55,
+          "char_offset": 2385,
+          "line_column": 20,
+          "source_token_index": 3,
+          "sourceword_exact": "stomachi",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Incitat os dapibus; stomachi fastidia tollit;"
+        },
+        {
+          "record_id": 5,
+          "source_line": 61,
+          "char_offset": 2924,
+          "line_column": 313,
+          "source_token_index": 47,
+          "sourceword_exact": "stomachum",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "V. [Juncare] - Balnea Juncare que sunt in litore Ponti Prosunt consumptis in sit adusta cutis. Pectoris amissas reparant in pectore vires. Letificant animos; gaudia sumpta fouent. Que veniunt per se mentis suspiria tollunt, Et faciunt alacres in muliere viros. Efficiunt renes Veneris ad prelia fortes Confortant stomachum lumina lesa iuvant. Quas hominum certas febres int[er]polat usus Anichilant necnon triste medentur epar. Talibus usus aquis discrimina nulla timebit Que quandoq[u]e solent extenuare cutim."
+        },
+        {
+          "record_id": 6,
+          "source_line": 68,
+          "char_offset": 3403,
+          "line_column": 12,
+          "source_token_index": 3,
+          "sourceword_exact": "stomachum",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Et caput et stomachum renes et cetera membra"
+        },
+        {
+          "record_id": 7,
+          "source_line": 75,
+          "char_offset": 3711,
+          "line_column": 2,
+          "source_token_index": 1,
+          "sourceword_exact": "stomacho",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "A stomacho pellit debilitatis onus."
+        },
+        {
+          "record_id": 9,
+          "source_line": 100,
+          "char_offset": 4770,
+          "line_column": 4,
+          "source_token_index": 1,
+          "sourceword_exact": "stomachi",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec stomachi vires reparat; vim crescit edendi:"
+        },
+        {
+          "record_id": 10,
+          "source_line": 116,
+          "char_offset": 5449,
+          "line_column": 9,
+          "source_token_index": 1,
+          "sourceword_exact": "stomachi",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Defectum stomachi tollit confortat et ip[su]m"
+        },
+        {
+          "record_id": 14,
+          "source_line": 165,
+          "char_offset": 7509,
+          "line_column": 4,
+          "source_token_index": 1,
+          "sourceword_exact": "stomachi",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec stomachi varis facit absentare querelas."
+        },
+        {
+          "record_id": 15,
+          "source_line": 174,
+          "char_offset": 7899,
+          "line_column": 4,
+          "source_token_index": 1,
+          "sourceword_exact": "stomacho",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Dat stomacho vires; arida membra rigat."
+        },
+        {
+          "record_id": 20,
+          "source_line": 242,
+          "char_offset": 10836,
+          "line_column": 12,
+          "source_token_index": 2,
+          "sourceword_exact": "Stomachum",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Reuma fugat Stomachum roborat atq[ue] caput"
+        },
+        {
+          "record_id": 21,
+          "source_line": 247,
+          "char_offset": 11067,
+          "line_column": 12,
+          "source_token_index": 2,
+          "sourceword_exact": "stomachi",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Reumatis et stomachi vicium de corpore tollit."
+        },
+        {
+          "record_id": 25,
+          "source_line": 296,
+          "char_offset": 13219,
+          "line_column": 12,
+          "source_token_index": 3,
+          "sourceword_exact": "stomacho",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Tollit et a stomacho flegmata salsa fugat."
+        },
+        {
+          "record_id": 32,
+          "source_line": 387,
+          "char_offset": 17164,
+          "line_column": 11,
+          "source_token_index": 2,
+          "sourceword_exact": "stomacus",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Appetit et stomacus ista pertolus in unda:"
+        }
+      ]
+    },
+    "OCULUS": {
+      "count_total": 9,
+      "count_by_record": {
+        "2": 1,
+        "4": 1,
+        "6": 2,
+        "13": 1,
+        "17": 2,
+        "21": 1,
+        "22": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 2,
+          "source_line": 29,
+          "char_offset": 1238,
+          "line_column": 19,
+          "source_token_index": 3,
+          "sourceword_exact": "oculos",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ad vomitum prodest oculos bene reddit acutos."
+        },
+        {
+          "record_id": 4,
+          "source_line": 52,
+          "char_offset": 2254,
+          "line_column": 9,
+          "source_token_index": 2,
+          "sourceword_exact": "oculis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Et lesis oculis hec aqua prestat opem."
+        },
+        {
+          "record_id": 6,
+          "source_line": 70,
+          "char_offset": 3487,
+          "line_column": 12,
+          "source_token_index": 2,
+          "sourceword_exact": "oculis,",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec prodest oculis, oculorum nube fugata."
+        },
+        {
+          "record_id": 6,
+          "source_line": 70,
+          "char_offset": 3495,
+          "line_column": 20,
+          "source_token_index": 3,
+          "sourceword_exact": "oculorum",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec prodest oculis, oculorum nube fugata."
+        },
+        {
+          "record_id": 13,
+          "source_line": 155,
+          "char_offset": 7077,
+          "line_column": 9,
+          "source_token_index": 1,
+          "sourceword_exact": "oculos",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Lipposos oculos declarat et ulcera tergit."
+        },
+        {
+          "record_id": 17,
+          "source_line": 202,
+          "char_offset": 9119,
+          "line_column": 12,
+          "source_token_index": 2,
+          "sourceword_exact": "oculis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Tollitur ex oculis sanguis, ab aure sonus."
+        },
+        {
+          "record_id": 17,
+          "source_line": 205,
+          "char_offset": 9239,
+          "line_column": 9,
+          "source_token_index": 1,
+          "sourceword_exact": "oculos",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Pannosos oculos sincerat et ephetat aures."
+        },
+        {
+          "record_id": 21,
+          "source_line": 249,
+          "char_offset": 11146,
+          "line_column": 9,
+          "source_token_index": 1,
+          "sourceword_exact": "oculis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Lintheis oculis obtalpa sana ministrat."
+        },
+        {
+          "record_id": 22,
+          "source_line": 261,
+          "char_offset": 11657,
+          "line_column": 3,
+          "source_token_index": 1,
+          "sourceword_exact": "oculis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ex oculis nebulas • et ab auribis excutit euros."
+        }
+      ]
+    },
+    "LIVER": {
+      "count_total": 9,
+      "count_by_record": {
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "10": 1,
+        "15": 1,
+        "21": 1,
+        "28": 1,
+        "32": 1,
+        "33": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 3,
+          "source_line": 48,
+          "char_offset": 2085,
+          "line_column": 32,
+          "source_token_index": 5,
+          "sourceword_exact": "epar.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Liberat et splem congrua purgat epar."
+        },
+        {
+          "record_id": 5,
+          "source_line": 61,
+          "char_offset": 3033,
+          "line_column": 422,
+          "source_token_index": 61,
+          "sourceword_exact": "epar.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "V. [Juncare] - Balnea Juncare que sunt in litore Ponti Prosunt consumptis in sit adusta cutis. Pectoris amissas reparant in pectore vires. Letificant animos; gaudia sumpta fouent. Que veniunt per se mentis suspiria tollunt, Et faciunt alacres in muliere viros. Efficiunt renes Veneris ad prelia fortes Confortant stomachum lumina lesa iuvant. Quas hominum certas febres int[er]polat usus Anichilant necnon triste medentur epar. Talibus usus aquis discrimina nulla timebit Que quandoq[u]e solent extenuare cutim."
+        },
+        {
+          "record_id": 7,
+          "source_line": 79,
+          "char_offset": 3899,
+          "line_column": 29,
+          "source_token_index": 5,
+          "sourceword_exact": "Jecur.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Pulmonem lesum sanat et inde Jecur."
+        },
+        {
+          "record_id": 10,
+          "source_line": 113,
+          "char_offset": 5354,
+          "line_column": 29,
+          "source_token_index": 4,
+          "sourceword_exact": "iecur.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Depurat tumidum certa medela iecur."
+        },
+        {
+          "record_id": 15,
+          "source_line": 178,
+          "char_offset": 8109,
+          "line_column": 39,
+          "source_token_index": 5,
+          "sourceword_exact": "iecur.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Aggrauat atq[u]e dolent splene tumente iecur."
+        },
+        {
+          "record_id": 21,
+          "source_line": 246,
+          "char_offset": 11049,
+          "line_column": 35,
+          "source_token_index": 6,
+          "sourceword_exact": "epar.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Arculus a flammis quod calet arcet epar."
+        },
+        {
+          "record_id": 28,
+          "source_line": 332,
+          "char_offset": 14787,
+          "line_column": 34,
+          "source_token_index": 5,
+          "sourceword_exact": "Iecur,",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Si dolet oppressum splene tumente Iecur,"
+        },
+        {
+          "record_id": 32,
+          "source_line": 385,
+          "char_offset": 17072,
+          "line_column": 10,
+          "source_token_index": 1,
+          "sourceword_exact": "Iecoris",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Pulmonis, Iecoris vicium splenisq[ue] medetur."
+        },
+        {
+          "record_id": 33,
+          "source_line": 397,
+          "char_offset": 17612,
+          "line_column": 29,
+          "source_token_index": 4,
+          "sourceword_exact": "Jecur.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Consueuit eam splene tumente Jecur."
+        }
+      ]
+    },
+    "SPLEEN": {
+      "count_total": 7,
+      "count_by_record": {
+        "3": 1,
+        "10": 1,
+        "15": 1,
+        "23": 1,
+        "28": 1,
+        "32": 1,
+        "33": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 3,
+          "source_line": 48,
+          "char_offset": 2064,
+          "line_column": 11,
+          "source_token_index": 2,
+          "sourceword_exact": "splem",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Liberat et splem congrua purgat epar."
+        },
+        {
+          "record_id": 10,
+          "source_line": 112,
+          "char_offset": 5316,
+          "line_column": 33,
+          "source_token_index": 4,
+          "sourceword_exact": "splenis.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Purgat pulmonem; deponit pondera splenis."
+        },
+        {
+          "record_id": 15,
+          "source_line": 178,
+          "char_offset": 8094,
+          "line_column": 24,
+          "source_token_index": 3,
+          "sourceword_exact": "splene",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Aggrauat atq[u]e dolent splene tumente iecur."
+        },
+        {
+          "record_id": 23,
+          "source_line": 275,
+          "char_offset": 12287,
+          "line_column": 15,
+          "source_token_index": 3,
+          "sourceword_exact": "splene",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Si patitur cum splene caput, cum frigore corpus"
+        },
+        {
+          "record_id": 28,
+          "source_line": 332,
+          "char_offset": 14772,
+          "line_column": 19,
+          "source_token_index": 3,
+          "sourceword_exact": "splene",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Si dolet oppressum splene tumente Iecur,"
+        },
+        {
+          "record_id": 32,
+          "source_line": 385,
+          "char_offset": 17087,
+          "line_column": 25,
+          "source_token_index": 3,
+          "sourceword_exact": "splenisq[ue]",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Pulmonis, Iecoris vicium splenisq[ue] medetur."
+        },
+        {
+          "record_id": 33,
+          "source_line": 397,
+          "char_offset": 17597,
+          "line_column": 14,
+          "source_token_index": 2,
+          "sourceword_exact": "splene",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Consueuit eam splene tumente Jecur."
+        }
+      ]
+    },
+    "SKIN": {
+      "count_total": 8,
+      "count_by_record": {
+        "1": 1,
+        "5": 2,
+        "7": 1,
+        "12": 1,
+        "15": 1,
+        "16": 2
+      },
+      "occurrences": [
+        {
+          "record_id": 1,
+          "source_line": 22,
+          "char_offset": 905,
+          "line_column": 20,
+          "source_token_index": 3,
+          "sourceword_exact": "cute",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ulcera desiccat sub cute si qua latent."
+        },
+        {
+          "record_id": 5,
+          "source_line": 61,
+          "char_offset": 2699,
+          "line_column": 88,
+          "source_token_index": 15,
+          "sourceword_exact": "cutis.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "V. [Juncare] - Balnea Juncare que sunt in litore Ponti Prosunt consumptis in sit adusta cutis. Pectoris amissas reparant in pectore vires. Letificant animos; gaudia sumpta fouent. Que veniunt per se mentis suspiria tollunt, Et faciunt alacres in muliere viros. Efficiunt renes Veneris ad prelia fortes Confortant stomachum lumina lesa iuvant. Quas hominum certas febres int[er]polat usus Anichilant necnon triste medentur epar. Talibus usus aquis discrimina nulla timebit Que quandoq[u]e solent extenuare cutim."
+        },
+        {
+          "record_id": 5,
+          "source_line": 61,
+          "char_offset": 3116,
+          "line_column": 505,
+          "source_token_index": 72,
+          "sourceword_exact": "cutim.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "V. [Juncare] - Balnea Juncare que sunt in litore Ponti Prosunt consumptis in sit adusta cutis. Pectoris amissas reparant in pectore vires. Letificant animos; gaudia sumpta fouent. Que veniunt per se mentis suspiria tollunt, Et faciunt alacres in muliere viros. Efficiunt renes Veneris ad prelia fortes Confortant stomachum lumina lesa iuvant. Quas hominum certas febres int[er]polat usus Anichilant necnon triste medentur epar. Talibus usus aquis discrimina nulla timebit Que quandoq[u]e solent extenuare cutim."
+        },
+        {
+          "record_id": 7,
+          "source_line": 83,
+          "char_offset": 4064,
+          "line_column": 33,
+          "source_token_index": 5,
+          "sourceword_exact": "cutis.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Subuenit egrotis est quibus egra cutis."
+        },
+        {
+          "record_id": 12,
+          "source_line": 141,
+          "char_offset": 6480,
+          "line_column": 20,
+          "source_token_index": 3,
+          "sourceword_exact": "Cutis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ulcera, que patitur Cutis ex humorib[us] extra,"
+        },
+        {
+          "record_id": 15,
+          "source_line": 182,
+          "char_offset": 8278,
+          "line_column": 30,
+          "source_token_index": 4,
+          "sourceword_exact": "cutim.",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Tempore non longo restituisse cutim."
+        },
+        {
+          "record_id": 16,
+          "source_line": 187,
+          "char_offset": 8486,
+          "line_column": 17,
+          "source_token_index": 2,
+          "sourceword_exact": "cutim",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Infectam mundare cutim quicunq[u]e laboras,"
+        },
+        {
+          "record_id": 16,
+          "source_line": 188,
+          "char_offset": 8532,
+          "line_column": 19,
+          "source_token_index": 3,
+          "sourceword_exact": "Cute",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Utere raynerio, de Cute sanus eris."
+        }
+      ]
+    },
+    "LUNG": {
+      "count_total": 5,
+      "count_by_record": {
+        "4": 1,
+        "7": 1,
+        "9": 1,
+        "10": 1,
+        "32": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 4,
+          "source_line": 53,
+          "char_offset": 2284,
+          "line_column": 0,
+          "source_token_index": 0,
+          "sourceword_exact": "Pulmonem",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Pulmonem recreat quem tussis causa fatigat."
+        },
+        {
+          "record_id": 7,
+          "source_line": 79,
+          "char_offset": 3870,
+          "line_column": 0,
+          "source_token_index": 0,
+          "sourceword_exact": "Pulmonem",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Pulmonem lesum sanat et inde Jecur."
+        },
+        {
+          "record_id": 9,
+          "source_line": 98,
+          "char_offset": 4683,
+          "line_column": 17,
+          "source_token_index": 3,
+          "sourceword_exact": "Pulmoni",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "IX. [Calatura] - Pulmoni prebet solitam Calatura quietem,"
+        },
+        {
+          "record_id": 10,
+          "source_line": 112,
+          "char_offset": 5290,
+          "line_column": 7,
+          "source_token_index": 1,
+          "sourceword_exact": "pulmonem;",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Purgat pulmonem; deponit pondera splenis."
+        },
+        {
+          "record_id": 32,
+          "source_line": 385,
+          "char_offset": 17062,
+          "line_column": 0,
+          "source_token_index": 0,
+          "sourceword_exact": "Pulmonis,",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Pulmonis, Iecoris vicium splenisq[ue] medetur."
+        }
+      ]
+    },
+    "KIDNEY": {
+      "count_total": 5,
+      "count_by_record": {
+        "5": 1,
+        "6": 1,
+        "8": 1,
+        "22": 1,
+        "29": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 5,
+          "source_line": 61,
+          "char_offset": 2882,
+          "line_column": 271,
+          "source_token_index": 41,
+          "sourceword_exact": "renes",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "V. [Juncare] - Balnea Juncare que sunt in litore Ponti Prosunt consumptis in sit adusta cutis. Pectoris amissas reparant in pectore vires. Letificant animos; gaudia sumpta fouent. Que veniunt per se mentis suspiria tollunt, Et faciunt alacres in muliere viros. Efficiunt renes Veneris ad prelia fortes Confortant stomachum lumina lesa iuvant. Quas hominum certas febres int[er]polat usus Anichilant necnon triste medentur epar. Talibus usus aquis discrimina nulla timebit Que quandoq[u]e solent extenuare cutim."
+        },
+        {
+          "record_id": 6,
+          "source_line": 68,
+          "char_offset": 3413,
+          "line_column": 22,
+          "source_token_index": 4,
+          "sourceword_exact": "renes",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Et caput et stomachum renes et cetera membra"
+        },
+        {
+          "record_id": 8,
+          "source_line": 92,
+          "char_offset": 4448,
+          "line_column": 18,
+          "source_token_index": 3,
+          "sourceword_exact": "renibus",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Vesicas aperit; a renibus urget arenam."
+        },
+        {
+          "record_id": 22,
+          "source_line": 259,
+          "char_offset": 11611,
+          "line_column": 33,
+          "source_token_index": 5,
+          "sourceword_exact": "renes",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Unda palumbare lesos cum vertice renes"
+        },
+        {
+          "record_id": 29,
+          "source_line": 350,
+          "char_offset": 15545,
+          "line_column": 18,
+          "source_token_index": 3,
+          "sourceword_exact": "renibus",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ulla patet melior renibus e[ss]e salus"
+        }
+      ]
+    },
+    "BLADDER": {
+      "count_total": 3,
+      "count_by_record": {
+        "8": 1,
+        "29": 1,
+        "32": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 8,
+          "source_line": 92,
+          "char_offset": 4430,
+          "line_column": 0,
+          "source_token_index": 0,
+          "sourceword_exact": "Vesicas",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Vesicas aperit; a renibus urget arenam."
+        },
+        {
+          "record_id": 29,
+          "source_line": 349,
+          "char_offset": 15489,
+          "line_column": 0,
+          "source_token_index": 0,
+          "sourceword_exact": "Vesicam",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Vesicam curat quociens urina negatur:"
+        },
+        {
+          "record_id": 32,
+          "source_line": 379,
+          "char_offset": 16839,
+          "line_column": 18,
+          "source_token_index": 3,
+          "sourceword_exact": "vesice",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Pondus et arborem vesice soluit • et egris"
+        }
+      ]
+    },
+    "WOMB": {
+      "count_total": 4,
+      "count_by_record": {
+        "3": 1,
+        "18": 2,
+        "29": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 3,
+          "source_line": 47,
+          "char_offset": 2026,
+          "line_column": 18,
+          "source_token_index": 3,
+          "sourceword_exact": "matricem",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec caput emendat matricem purgat et inguen."
+        },
+        {
+          "record_id": 18,
+          "source_line": 209,
+          "char_offset": 9409,
+          "line_column": 9,
+          "source_token_index": 2,
+          "sourceword_exact": "matrices",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Hec aqua matrices quouis humore grauatus"
+        },
+        {
+          "record_id": 18,
+          "source_line": 213,
+          "char_offset": 9587,
+          "line_column": 13,
+          "source_token_index": 2,
+          "sourceword_exact": "matrix",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Quas patitur matrix causas obtemperat egras"
+        },
+        {
+          "record_id": 29,
+          "source_line": 345,
+          "char_offset": 15357,
+          "line_column": 24,
+          "source_token_index": 4,
+          "sourceword_exact": "matrice",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ylia componit; vetat in matrice dolorem."
+        }
+      ]
+    },
+    "NERVOUS_TISSUE": {
+      "count_total": 4,
+      "count_by_record": {
+        "2": 1,
+        "19": 1,
+        "33": 2
+      },
+      "occurrences": [
+        {
+          "record_id": 2,
+          "source_line": 25,
+          "char_offset": 1033,
+          "line_column": 29,
+          "source_token_index": 4,
+          "sourceword_exact": "neruos",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "II. [Sulfatara] - Mollificat neruos lavacrum de sulphure dictum."
+        },
+        {
+          "record_id": 19,
+          "source_line": 224,
+          "char_offset": 10069,
+          "line_column": 12,
+          "source_token_index": 3,
+          "sourceword_exact": "neruos",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Et facit ad neruos quos graue flegma grauat."
+        },
+        {
+          "record_id": 33,
+          "source_line": 395,
+          "char_offset": 17505,
+          "line_column": 11,
+          "source_token_index": 1,
+          "sourceword_exact": "neruos",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Confortata neruos et fleuma expellit ab ip[s]is"
+        },
+        {
+          "record_id": 33,
+          "source_line": 399,
+          "char_offset": 17695,
+          "line_column": 34,
+          "source_token_index": 6,
+          "sourceword_exact": "neruis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Ad guttam frigidam que est imbita neruis"
+        }
+      ]
+    },
+    "HYDROPS": {
+      "count_total": 5,
+      "count_by_record": {
+        "7": 1,
+        "20": 1,
+        "23": 1,
+        "30": 1,
+        "33": 1
+      },
+      "occurrences": [
+        {
+          "record_id": 7,
+          "source_line": 76,
+          "char_offset": 3755,
+          "line_column": 10,
+          "source_token_index": 2,
+          "sourceword_exact": "ydropicis,",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Sed nocet ydropicis, cum sit dulcissima potu:"
+        },
+        {
+          "record_id": 20,
+          "source_line": 243,
+          "char_offset": 10875,
+          "line_column": 7,
+          "source_token_index": 1,
+          "sourceword_exact": "ydropicos",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Libera ydropicos hic omnes gutta fugatur."
+        },
+        {
+          "record_id": 23,
+          "source_line": 274,
+          "char_offset": 12244,
+          "line_column": 9,
+          "source_token_index": 2,
+          "sourceword_exact": "ydropicos",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Cogit et ydropicos attenuare potest."
+        },
+        {
+          "record_id": 30,
+          "source_line": 358,
+          "char_offset": 15886,
+          "line_column": 10,
+          "source_token_index": 2,
+          "sourceword_exact": "ydropisis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Sic fugit ydropisis tussis iniqua perit."
+        },
+        {
+          "record_id": 33,
+          "source_line": 396,
+          "char_offset": 17550,
+          "line_column": 8,
+          "source_token_index": 1,
+          "sourceword_exact": "ydropicis",
+          "polarity": "unreviewed",
+          "context_role": "unreviewed_source_context",
+          "annotation_status": "UNREVIEWED",
+          "source_line_exact": "Prodest ydropicis qui exfleumate grosso."
+        }
+      ]
+    }
+  },
+  "excluded_witnesses": [
+    {
+      "exclusion": "AQUA_ADJECTIVE_EXCLUDED",
+      "record_id": 2,
+      "source_line": 28,
+      "char_offset": 1210,
+      "line_column": 40,
+      "source_token_index": 6,
+      "sourceword_exact": "aquosas.",
+      "reason": "adjective/participle, not lexical water noun",
+      "source_line_exact": "Destruit et lacrimas in lumine stringit aquosas."
+    },
+    {
+      "exclusion": "AQUA_ADJECTIVE_EXCLUDED",
+      "record_id": 22,
+      "source_line": 266,
+      "char_offset": 11874,
+      "line_column": 6,
+      "source_token_index": 1,
+      "sourceword_exact": "lymphato,",
+      "reason": "adjective/participle, not lexical water noun",
+      "source_line_exact": "Utere lymphato, quod parit uva, mero."
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 2,
+      "source_line": 28,
+      "char_offset": 1194,
+      "line_column": 24,
+      "source_token_index": 4,
+      "sourceword_exact": "lumine",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "Destruit et lacrimas in lumine stringit aquosas."
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 3,
+      "source_line": 46,
+      "char_offset": 1970,
+      "line_column": 0,
+      "source_token_index": 0,
+      "sourceword_exact": "Luminis",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "Luminis antidotum seu medicina potens"
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 5,
+      "source_line": 61,
+      "char_offset": 2934,
+      "line_column": 323,
+      "source_token_index": 48,
+      "sourceword_exact": "lumina",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "V. [Juncare] - Balnea Juncare que sunt in litore Ponti Prosunt consumptis in sit adusta cutis. Pectoris amissas reparant in pectore vires. Letificant animos; gaudia sumpta fouent. Que veniunt per se mentis suspiria tollunt, Et faciunt alacres in muliere viros. Efficiunt renes Veneris ad prelia fortes Confortant stomachum lumina lesa iuvant. Quas hominum certas febres int[er]polat usus Anichilant necnon triste medentur epar. Talibus usus aquis discrimina nulla timebit Que quandoq[u]e solent extenuare cutim."
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 8,
+      "source_line": 90,
+      "char_offset": 4348,
+      "line_column": 0,
+      "source_token_index": 0,
+      "sourceword_exact": "Lumina",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "Lumina detergit tunicis maculosa piatis."
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 12,
+      "source_line": 142,
+      "char_offset": 6529,
+      "line_column": 21,
+      "source_token_index": 2,
+      "sourceword_exact": "lumina",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "Cantarus abstringit; lumina clara facit."
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 15,
+      "source_line": 179,
+      "char_offset": 8151,
+      "line_column": 35,
+      "source_token_index": 5,
+      "sourceword_exact": "lumine",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "Rem loquor expertam prop[ri]o quam lumine vidi;"
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 19,
+      "source_line": 225,
+      "char_offset": 10102,
+      "line_column": 0,
+      "source_token_index": 0,
+      "sourceword_exact": "Luminibus",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "Luminibus lumen reddit, vestigia claudis,"
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 19,
+      "source_line": 225,
+      "char_offset": 10112,
+      "line_column": 10,
+      "source_token_index": 1,
+      "sourceword_exact": "lumen",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "Luminibus lumen reddit, vestigia claudis,"
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 21,
+      "source_line": 251,
+      "char_offset": 11243,
+      "line_column": 29,
+      "source_token_index": 5,
+      "sourceword_exact": "lumina",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "Et si forte fugit vigilancia lumina sompnus,"
+    },
+    {
+      "exclusion": "OCULUS_NONFORM_LUMEN_EXCLUDED",
+      "record_id": 23,
+      "source_line": 278,
+      "char_offset": 12419,
+      "line_column": 18,
+      "source_token_index": 3,
+      "sourceword_exact": "lumine",
+      "reason": "lumen-family witness, possibly visual/light context, not oculus form",
+      "source_line_exact": "Quod proprio vidi lumine testor ego:"
+    },
+    {
+      "exclusion": "HEAD_I_CIVIC_LIGHT_EXCLUDED",
+      "record_id": 1,
+      "source_line": 23,
+      "char_offset": 941,
+      "line_column": 16,
+      "source_token_index": 3,
+      "sourceword_exact": "capue",
+      "reason": "I capue caput witness outside clinical HEAD",
+      "source_line_exact": "Hac te germanus capue caput ede repertum"
+    },
+    {
+      "exclusion": "HEAD_I_CIVIC_LIGHT_EXCLUDED",
+      "record_id": 1,
+      "source_line": 23,
+      "char_offset": 947,
+      "line_column": 22,
+      "source_token_index": 4,
+      "sourceword_exact": "caput",
+      "reason": "I capue caput witness outside clinical HEAD",
+      "source_line_exact": "Hac te germanus capue caput ede repertum"
+    }
+  ],
+  "coverage_notes": [
+    "Counts are lexical-form incidences, not independent clinical concepts or Voynich semantic units.",
+    "Printed forms, bracket notation, capitalization, punctuation, and offsets are preserved.",
+    "Polarity and context annotations are unreviewed and not operative.",
+    "Only the explicitly listed family aliases are grouped; no additional synonym merging or target reading is asserted."
+  ]
+}

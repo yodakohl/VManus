@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **965**
-- Experiment-associated tracked files: **18,612** (1.7 GiB)
-- Structured GDT337+ experiments: **630**
+- Experiments indexed: **966**
+- Experiment-associated tracked files: **18,629** (1.7 GiB)
+- Structured GDT337+ experiments: **631**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT967 | Complete bath-source term incidence under one shared dictionary | `REGISTERED_UNSCORED` | — | 17 | 313.4 KiB | 10 | STRUCTURED_YOLO |
 | GDT966 | GDT966 | `ALL_FINITE_CONSTRUCTION_CASES_CONTRADICTED` | [report](../experiments/yolo/gdt966_genizah_constructed_clause_code/REPORT.md) | 29 | 8.9 MiB | 9 | STRUCTURED_YOLO |
 | GDT965 | GDT965 | `NO_LITERAL_JOINT_READING_WHOLE_SCOPE_UNKNOWN` | [report](../experiments/yolo/gdt965_genizah_complete_record_grapheme_code/REPORT.md) | 20 | 1.9 MiB | 6 | STRUCTURED_YOLO |
 | GDT964 | GDT964 | `UNIFORM_CLASS_EXTENSION_NO_CROSS_EDITION_READING` | [report](../experiments/yolo/gdt964_geomantic_all_one_substitutions/REPORT.md) | 22 | 5.2 MiB | 2 | STRUCTURED_YOLO |

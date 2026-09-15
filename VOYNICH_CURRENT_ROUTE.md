@@ -4,12 +4,12 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour session04:49:14UTC to at least14:49:14UTC;next content model selection.
-Latest decision: GDT966 all3969 necessary contradictions;20 independentchecksPASS;park.
-Working files: experiments/yolo/gdt966_genizah_constructed_clause_code/REPORT.md
-Assumptions: 0 translated words; full hypotheses allowed; GDT607 W-bucket corrected.
-Resume: Review distinct content model using605/607/608 primaries;966 stays closed.
-Running: Root closes966;bounded producer supplies composition/content proposals.
+Task: Ten-hour session04:49:14–14:49:14UTC;register/run joint bath-content test GDT967.
+Latest decision: Source166occurrences/416counts independently checked;71ITparagraph capacity.
+Working files: experiments/yolo/gdt967_balneis_joint_body_term_incidence/METHOD.md
+Assumptions: 0 words;13 source-term families are hypotheses;all reserves closed.
+Resume: Publish GDT967 freeze before target carrier counts;run both fixed models.
+Running: Root registration;critic validator;producer source-only operator ideas;limit10:55UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
