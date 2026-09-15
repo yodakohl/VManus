@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT958 FIXED FORM VARIANTS:155LM/22LRlibraries expand onlyfirstf67r2title aram/aral; all1296referencecells and18graphs identicalto952literal. Ninecases0newreferences,IT3contradicted,ZL/RFunknown-only. No meaninggain; no furtherending/fragmentextension. Primary: experiments/yolo/gdt958_wind_fixed_form_variation/REPORT.md
+
 GDT957 CONDITIONAL CALCULATIONS: f66r whole15wordmargin supports16ITcalculations perdirection, ZL76/152RF60/56unknown-limited. All15ITwords distinct, so any renamed distinct list fitsidentically; no preferred key or meaning. All32 complete ITname rows retained,0independentleaves. Turner1655commonprogram only;earlysourcepartial;otherhouseorderuntested. Primary: experiments/yolo/gdt957_f66r_complete_geomantic_margin/REPORT.md
 
 GDT956 MARGINAL CONTEXT: f66r native four groups remain uncertain; conditional musdel food/provisions reading retained, no full phrase. DRW1429 musdel also general provisions, so widow-versus-food contrast is not exclusive; FWB1414 muosmel attested but m not securely visible. Human-like figure corrects animal-only caption; no disease, object identity or plain/Voynich equivalence. No new leaf or confirmed word. Primary: experiments/yolo/gdt956_f66r_contextual_marginal_reading/REPORT.md
