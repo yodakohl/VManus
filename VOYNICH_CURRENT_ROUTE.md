@@ -5,11 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT954 closed. GDT955 missing-source-heading consequence selected.
-Next: recover Picatrix IVix source22 in another witness against frozen R16 prediction.
+Latest decision: GDT955 recovered later source22headings contradict R16; archetype unknown.
+Next: source-reviewed content hypotheses beyond literal equality; raw324–326 unselected.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT955 prediction all-good acquisition; register before witness search;953unchanged.
+Resume: publish955closure;953bytesunchanged; no Picatrix repair or adoptedokeod meaning.
 Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline

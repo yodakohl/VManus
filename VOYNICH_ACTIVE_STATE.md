@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT955 SOURCE22 CONSEQUENCE: FrozenR16 predicts universalallgood, but newly inspected appendices64F²/65M-N give safeescape/hostilespeechprotection. Both laterwitnessescontradict;moderntranslationdependent;Arabicendpointunassessable;archetypeunknown. Samecachededitionappendicesoverlookedearlier,notnewVoydata. GDT953source/resultsunchanged;no word orindependentconfirmation. Do notdevelopR16fromlacuna. Primary: experiments/yolo/gdt955_picatrix_lacuna_external_witness/REPORT.md
+
 GDT954 SHARED REFRAIN: Seven Picatrix planetary invocations predict common terminal1/5group clause. All155adjacent windows per ZL/IT:615contradicted modelcases5ITcapacityfailures;RF no paragraphs. Zero remainingcontexts; no word or broad prayer refutation. One exposedleaf per candidate0independentconfirmation; frozen science and independent validatorPASS. No refrain/spelling/boundary repair. Primary: experiments/yolo/gdt954_shared_invocation_refrain/REPORT.md
 
 GDT953 PURPOSE COMPONENTS: Fixed PicatrixIVix complete purpose partition leaves R16 common; IT fully equality-compatible, ZL/RF unresolved. Third okeod lands on source22 lacuna. All11 recurrent semantic atoms lack any invariant cached unit at R16; full component model fails all168cases. Whole28-row speculative reading retained, not adopted as translation. No word or independentleaf; no automatic parser/source repair. Primary: experiments/yolo/gdt953_picatrix_purpose_component_consequences/REPORT.md
