@@ -1,1 +1,1 @@
-PREDICTIONS.tsv is written before component enumeration. Results follow the registered bound.
+PREDICTIONS.tsv is frozen before enumeration. COMPONENT_MASKS and all domain/case tables retain the complete search. OBSERVED_MATCH_RAW_AUDIT is a separately identified post-result diagnostic; it does not alter registered scores.

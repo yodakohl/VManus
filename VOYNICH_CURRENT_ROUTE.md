@@ -5,11 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT960 plants88cases:60contra28unknown-only; no adoptedname.
-Next: GDT961 exhaustive contiguous-piece incidence bound; all2904predictions frozen.
+Latest decision: GDT961 pieces:58contra30incomplete;tc/tchhit has rawcounterexample.
+Next: close seven-hour session; retain959rivals, no chosen translation or nextdecoder.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT960published5e2e68300;961registered;959fourclear/sevenupperrivals.
+Resume: GDT961complete;960published5e2e68300;959fourclear/sevenupperrivals.
 Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline
@@ -39,7 +39,7 @@ Other closed families remain in the existing registry; no automatic reopening.
 f84 and f84r remain sealed. f116v not admitted. Reserves stay closed until a nearly
 complete plausible overall reading. Prior exposure cannot be erased by a new model.
 179 text selectors;50 visual keys/56 selectors, no slot remains. f1r margins only;
-f106v fixed paragraph only. Register new access first. Full admission contracts:
+f106v image fixed paragraph only. Register new access first. Full admission contracts:
 [VOYNICH_DATA_SCOPE](docs/VOYNICH_DATA_SCOPE.md). No outside contacts or expert review.
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs ONLY via selector-first `vmanus-exp query-tsv`; new scored relation packets

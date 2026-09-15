@@ -1,0 +1,96 @@
+{
+  "experiment": "GDT961",
+  "validator": "independent_contiguous_substring_union_without_run_import",
+  "status": "PASS",
+  "lock": {
+    "all_hashes_match": true,
+    "checks": {
+      "experiments/yolo/gdt960_behenian_complete_plant_incidence/artifacts/ALL_WINDOWS.json.gz": {
+        "expected": "00bec46f2d861b92b347db917d8f3969255671523192f9b0d58539bea2186836",
+        "actual": "00bec46f2d861b92b347db917d8f3969255671523192f9b0d58539bea2186836",
+        "ok": true
+      },
+      "experiments/yolo/gdt960_behenian_complete_plant_incidence/src/SOURCE.json": {
+        "expected": "50abcfdd138995b6d5abf52a6f7611a611d51301dcbbbf121857fe40bf15aa92",
+        "actual": "50abcfdd138995b6d5abf52a6f7611a611d51301dcbbbf121857fe40bf15aa92",
+        "ok": true
+      },
+      "experiments/yolo/gdt960_behenian_complete_plant_incidence/PREREG_LOCK.json": {
+        "expected": "e47492985bbf51dd624a39d74d270345967ec60170fd8e22fbf13720898eb7d7",
+        "actual": "e47492985bbf51dd624a39d74d270345967ec60170fd8e22fbf13720898eb7d7",
+        "ok": true
+      },
+      "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/src/SPEC.json": {
+        "expected": "16a2a0574c83cae9d24b1fab9785e13bba336bac14667ec7fe0fa2b14c19d589",
+        "actual": "16a2a0574c83cae9d24b1fab9785e13bba336bac14667ec7fe0fa2b14c19d589",
+        "ok": true
+      },
+      "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/src/DECISION.md": {
+        "expected": "c5b4d7f71f196750cd5c65c3ba501b9cadc488415c4482fb959606af78f2e7a6",
+        "actual": "c5b4d7f71f196750cd5c65c3ba501b9cadc488415c4482fb959606af78f2e7a6",
+        "ok": true
+      },
+      "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/PREREGISTRATION.md": {
+        "expected": "e9db7249a236d05521f60df0f0326b455c17058fa09951014ef01a7b83568549",
+        "actual": "e9db7249a236d05521f60df0f0326b455c17058fa09951014ef01a7b83568549",
+        "ok": true
+      },
+      "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/artifacts/PREDICTIONS.tsv": {
+        "expected": "dac54224504f42787b294824beee38c5d544205f0283d418e7af5afca8c23174",
+        "actual": "dac54224504f42787b294824beee38c5d544205f0283d418e7af5afca8c23174",
+        "ok": true
+      }
+    }
+  },
+  "components": {
+    "windows": 22,
+    "component_window_rows": 31251,
+    "component_masks_match": true,
+    "distinct_observed_components": 6608
+  },
+  "predictions": {
+    "count": 2904,
+    "source_reconstruction_matches_frozen_tsv": true
+  },
+  "domains": {
+    "predictions": 2904,
+    "domains_match": true,
+    "cases": 88,
+    "cases_match": true,
+    "identical_prediction_classes_match": true,
+    "mugwort_report_match": true,
+    "candidate_table_match": true,
+    "case_outcomes": {
+      "CONTRADICTED": 58,
+      "ALL_NECESSARY_UPPER_DOMAINS_NONEMPTY": 30
+    },
+    "plant_outcomes": {
+      "KNOWN_MASK_MATCH": 2672,
+      "UNKNOWN_ONLY": 89,
+      "CONTRADICTED": 143
+    },
+    "mugwort_outcomes": {
+      "CONTRADICTED": 58,
+      "UNKNOWN_ONLY": 28,
+      "KNOWN_MASK_MATCH": 2
+    },
+    "mugwort_known_pieces": [
+      "tc",
+      "tch"
+    ]
+  },
+  "raw_audit": {
+    "rows": 26,
+    "replay_matches_artifact": true,
+    "uncertain_boundary_rows": 2
+  },
+  "result_contract_match": true,
+  "claim_ceiling": {
+    "meaning_validated": false,
+    "confirmed_words": 0,
+    "joint_lexicon_assessed": false,
+    "independent_confirmation_leaves": 0,
+    "significance_assessed": false,
+    "no_new_decoder": true
+  }
+}

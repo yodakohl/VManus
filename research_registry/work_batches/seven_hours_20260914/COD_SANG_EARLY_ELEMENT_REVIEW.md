@@ -1,0 +1,9 @@
+# Cod. Sang. 756 early-element source review
+
+I inspected the cached page images for Cod. Sang. 756 p8 and p9, with a temporary 3600-pixel p9 retrieval used only to check small writing. The source is the St. Gallen manuscript identified by the institutional IIIF manifest; the cached-image hashes and URLs are recorded in the JSON artifact.
+
+Page 9 is a circular *Thema* diagram. It has two visibly separate named bands, each containing sixteen figure names. I transcribed each band by physical quadrant, retaining the page orientation: upper right, lower right, lower left, upper left. The names are mostly recognizable but several endings are uncertain, especially the two *Fortuna* entries and the *Caput/Cauda draconis* forms. The two lists are kept separate; their spatial repetition is not treated as evidence that the bands are one inventory or that one generates the other.
+
+The cardinal labels are visibly **Oriente** at the top, **Meridies** at the right, **Septentrio** at the left, and **Occidens?** below. Four grey inscriptions occupy the central quarters. Radial rules and overlying red writing make their letter sequences non-secure in both the cached and temporary high-resolution view; the JSON records four unreadable fragments rather than importing element words from a later table.
+
+Page 8 shows two six-cell horizontal figure rows under partially legible fixed/mobile and contradictory rubrics. It supplies useful evidence for diagram categories, but no complete sixteen-entry or element-ownership statement was readable there. Across these two pages I find explicit directions, two named figure rings, and associated dot fields. I do not find a readable legend or prose that assigns an element class to a ring or grants ownership of a central quarter to one ring. This remains a partial early-source witness, not a certified complete program.

@@ -1,0 +1,103 @@
+{
+  "artifact": "COD_SANG_EARLY_ELEMENT_REVIEW",
+  "status": "SOURCE_ONLY_NATIVE_SECOND_READING",
+  "observer": "semantic_rival",
+  "scope": "Independent visual audit of Cod. Sang. 756 pages 8 and 9 only; no Voynich target or Turner classification data used.",
+  "source": {
+    "shelfmark": "St. Gallen, Stiftsbibliothek, Cod. Sang. 756",
+    "institution_url": "https://www.e-codices.ch/metadata/iiif/csg-0756/manifest.json",
+    "manuscript_date": "first half of the fifteenth century (institutional metadata)",
+    "image_sources": [
+      {
+        "page": 8,
+        "path": "research_registry/proposals/geomancy_early_source/p8.jpg",
+        "sha256": "bcd4a26580f128e89e80f740b2dc95f3906026d9f6711ff790b04d3bedd01cd0",
+        "url": "https://www.e-codices.ch/loris/csg/csg-0756/csg-0756_008.jp2/full/1800,/0/default.jpg"
+      },
+      {
+        "page": 9,
+        "path": "research_registry/proposals/geomancy_early_source/p9.jpg",
+        "sha256": "787303cab0b1faabf134d1f6aa62cf2c2c437cd64a3dd81570dde2ccd7a97480",
+        "url": "https://www.e-codices.ch/loris/csg/csg-0756/csg-0756_009.jp2/full/1800,/0/default.jpg"
+      }
+    ],
+    "optional_highres_review": {
+      "page": 9,
+      "url": "https://www.e-codices.ch/loris/csg/csg-0756/csg-0756_009.jp2/full/3600,/0/default.jpg",
+      "sha256": "bd42a9a602d76f69ac129a489b4ca3b7bb88c1d6ce6d85626bf1783e9a645977",
+      "local_temp_only": true
+    }
+  },
+  "orientation": {
+    "page9_cardinal_labels": {
+      "top": {"reading": "Oriente", "confidence": "clear"},
+      "right": {"reading": "Meridies", "confidence": "clear"},
+      "bottom": {"reading": "Occidens?", "confidence": "moderate"},
+      "left": {"reading": "Septentrio", "confidence": "clear"}
+    },
+    "physical_quadrants": [
+      "upper_right (Oriente–Meridies)",
+      "lower_right (Meridies–Occidens)",
+      "lower_left (Occidens–Septentrio)",
+      "upper_left (Septentrio–Oriente)"
+    ],
+    "ring_order": "The lists below preserve physical quadrant order and, within each quadrant, clockwise order from the top-right sector. This is a page orientation convention, not a generation order."
+  },
+  "p8": {
+    "layout": "Two horizontal diagram rows, with six visible figure cells in each row; surrounding prose and colored rubrics.",
+    "visible_headings": [
+      {"reading": "Figure minores recte et fixe?", "confidence": "partial"},
+      {"reading": "Contradictorie", "confidence": "moderate"},
+      {"reading": "Figure sequentes ... et mobiles?", "confidence": "partial"}
+    ],
+    "observations": [
+      "The page visibly distinguishes fixed and mobile/contradictory diagram material by headings and ink color.",
+      "No complete sixteen-name ring or explicit four-element ownership legend was securely read on page 8.",
+      "Page 8 therefore does not by itself certify a complete early program."
+    ]
+  },
+  "p9": {
+    "layout": "A circular Thema diagram with two separately named concentric sixteen-entry bands, dot figures between/around them, a four-way cross, and cardinal labels.",
+    "rings": {
+      "outer": {
+        "upper_right": ["leticia", "Albus", "Acquisicio[?]", "Coniunctio[?]"],
+        "lower_right": ["Cauda d[?]", "Puer", "Populus", "Fort[?] maior"],
+        "lower_left": ["Tristicia[?]", "Rubeus", "Amissio", "Carcer"],
+        "upper_left": ["Cap[?] d[?]", "Puella", "Via", "Fort[?] maior/minor unresolved"]
+      },
+      "inner": {
+        "upper_right": ["Cauda d[?]", "for[?] minor", "Amissio", "Rube[?]"],
+        "lower_right": ["leticia", "Coniunctio[?]", "Puer", "Acquisitio[?]"],
+        "lower_left": ["Via", "puella", "Albus", "p[opu]lo[?]"],
+        "upper_left": ["Carcer[?]", "tristi[?]", "fortuna maior", "Cap[?] d[?]"]
+      }
+    },
+    "central_quarter_labels": {
+      "upper_right": {"raw_visual": "grey cursive fragment, partly crossed by radial lines", "reading": null, "confidence": "unreadable"},
+      "lower_right": {"raw_visual": "grey cursive fragment, partly crossed by radial lines", "reading": null, "confidence": "unreadable"},
+      "lower_left": {"raw_visual": "grey cursive fragment, partly crossed by radial lines", "reading": null, "confidence": "unreadable"},
+      "upper_left": {"raw_visual": "grey cursive fragment, partly crossed by radial lines", "reading": null, "confidence": "unreadable"}
+    },
+    "central_label_result": "Four grey central-quarter inscriptions are visible, but their letter sequences and quadrant boundaries are not secure enough for a responsible transcription from these images. No element word is promoted from visual resemblance."
+  },
+  "classification_assessment": {
+    "explicitly_shown": [
+      "Four physical direction sectors.",
+      "Two distinct named sixteen-entry figure bands.",
+      "Dot figures associated spatially with the rings."
+    ],
+    "not_explicitly_licensed_by_this_audit": [
+      "An element class for any ring or sector.",
+      "Ownership of a central grey label by an outer or inner ring.",
+      "A mapping between the two named rings or a generation direction.",
+      "A complete early-source computational program."
+    ],
+    "element_ownership": "Not established. Adjacency to a quadrant is not treated as ownership without a readable legend, arrow, or prose statement.",
+    "turner_normalization_used": false
+  },
+  "limits": [
+    "The figure-name readings are direct visual readings with marked uncertainty, not a modern dictionary substitution.",
+    "Central quarter labels remain unresolved rather than being filled from a later source.",
+    "This is source evidence from an earlier fifteenth-century manuscript witness, not a Voynich reading or a confirmation of any target hypothesis."
+  ]
+}

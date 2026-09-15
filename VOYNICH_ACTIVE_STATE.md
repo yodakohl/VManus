@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT961: all contiguous raw pieces tested in the fixed960windows;58upper contradictions,30incomplete cases. The tc/tch local Mugwort mask has raw tchey extra at f113r.40, so no plantcomponent adopted. No contextual/BPE exhaustion claim.
+
 GDT960 BEHENIAN PLANTS: complete15star43plantmentions,32identity/34materialterms. All22fifteenparagraphwindows x2ordersx2models=88cases:60contra28ZLunknownonly;0observedfullassignment. Mugwort7rowmaskhas0knowncarrierall88;uppercasesmax4/7known. Apparentunique sheckhy/qokey require5missingrows. No plantname adopted. Primary: experiments/yolo/gdt960_behenian_complete_plant_incidence/REPORT.md
 
 GDT959 POST-EXPOSURE FAMILY: All376frozen957candidates x3elementtables. One aryfamily peredition; ZL3members IT/RF2. Cross-edition complete ITset4known-source/7upper readings; aryFire/Earth/Air rivals; no positionunique. ConditionaltableB two keys share9names but no selectedmeaning. One exposedleaf0independent. Primary: experiments/yolo/gdt959_geomantic_element_remainder/REPORT.md

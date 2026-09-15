@@ -1,3 +1,3 @@
 # GDT961
 
-Registered exhaustive contiguous-component incidence bound; no parser or word translation.
+Complete contiguous-piece incidence bound;58 upper contradictions,30 incomplete cases; tc/tch local projected match has raw counterexample. See REPORT.md.
