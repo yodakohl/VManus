@@ -75,3 +75,5 @@ report scientific progress separately from technical work and known failures.
 - 2026-09-15T01:28:18.011309+00:00: GDT954 complete;615contradictions5capacityfailures, RF no paragraph capacity; zero phrase candidates. Independent validation PASS.15minute budget exceeded during report/publication; no expanded test. Seven-hour work remains active.
 
 - 2026-09-15T01:39:01.842408+00:00: GDT955 source22prediction checked afterpublicf096cd536. Two supplementaryLatinpurposes contradictR16;laterwitnesslimitsanddependenttranslationretained;original953unchanged. Publicationthencontentresearchcontinues;earliestend04:42:35UTC.
+
+- 2026-09-15T02:06:15.886041+00:00: GDT956 native marginal and historical lexical comparison complete; conditional food/provisions hypotheses, no complete reading. Four groups retained; animal-only caption corrected; no new folio or Voynich word. Publication follows within25minute budget; seven-hour session continues.

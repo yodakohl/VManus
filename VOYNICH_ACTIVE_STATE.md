@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT956 MARGINAL CONTEXT: f66r native four groups remain uncertain; conditional musdel food/provisions reading retained, no full phrase. DRW1429 musdel also general provisions, so widow-versus-food contrast is not exclusive; FWB1414 muosmel attested but m not securely visible. Human-like figure corrects animal-only caption; no disease, object identity or plain/Voynich equivalence. No new leaf or confirmed word. Primary: experiments/yolo/gdt956_f66r_contextual_marginal_reading/REPORT.md
+
 GDT955 SOURCE22 CONSEQUENCE: FrozenR16 predicts universalallgood, but newly inspected appendices64F²/65M-N give safeescape/hostilespeechprotection. Both laterwitnessescontradict;moderntranslationdependent;Arabicendpointunassessable;archetypeunknown. Samecachededitionappendicesoverlookedearlier,notnewVoydata. GDT953source/resultsunchanged;no word orindependentconfirmation. Do notdevelopR16fromlacuna. Primary: experiments/yolo/gdt955_picatrix_lacuna_external_witness/REPORT.md
 
 GDT954 SHARED REFRAIN: Seven Picatrix planetary invocations predict common terminal1/5group clause. All155adjacent windows per ZL/IT:615contradicted modelcases5ITcapacityfailures;RF no paragraphs. Zero remainingcontexts; no word or broad prayer refutation. One exposedleaf per candidate0independentconfirmation; frozen science and independent validatorPASS. No refrain/spelling/boundary repair. Primary: experiments/yolo/gdt954_shared_invocation_refrain/REPORT.md
