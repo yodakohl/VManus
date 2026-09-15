@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **958**
-- Experiment-associated tracked files: **18,441** (1.7 GiB)
-- Structured GDT337+ experiments: **623**
+- Experiments indexed: **959**
+- Experiment-associated tracked files: **18,454** (1.7 GiB)
+- Structured GDT337+ experiments: **624**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT960 | behenian complete plant incidence | `PREREGISTERED` | — | 13 | 44.8 KiB | 5 | STRUCTURED_YOLO |
 | GDT959 | GDT959_geomantic_element_remainder | `POST_EXPOSURE_LOCAL_CLASS_HYPOTHESIS_UNIDENTIFIED` | [report](../experiments/yolo/gdt959_geomantic_element_remainder/REPORT.md) | 23 | 2.0 MiB | 2 | STRUCTURED_YOLO |
 | GDT958 | GDT958_wind_fixed_form_variation | `NO_ADDED_REFERENCE_NO_MEANING_GAIN` | [report](../experiments/yolo/gdt958_wind_fixed_form_variation/REPORT.md) | 25 | 703.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT957 | GDT957_f66r_complete_geomantic_margin | `COMPATIBLE_CONDITIONAL_READING_UNIDENTIFIED` | [report](../experiments/yolo/gdt957_f66r_complete_geomantic_margin/REPORT.md) | 22 | 710.2 KiB | 3 | STRUCTURED_YOLO |
