@@ -1,0 +1,57 @@
+{
+  "windows": "experiments/yolo/gdt960_behenian_complete_plant_incidence/artifacts/ALL_WINDOWS.json.gz",
+  "source": "experiments/yolo/gdt960_behenian_complete_plant_incidence/src/SOURCE.json",
+  "prior_predictions": "experiments/yolo/gdt961_behenian_all_contiguous_component_bound/artifacts/PREDICTIONS.tsv",
+  "merges": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv",
+  "inventory": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_unit_inventory.tsv",
+  "parser_source": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py",
+  "representations": [
+    "FINAL_UNITS",
+    "ALL_TREE_NODES"
+  ],
+  "join_boundary": "UNCERTAIN_SMALL_SPACE",
+  "allowed_outer_boundaries": [
+    "LINE_START",
+    "LINE_END",
+    "DEFINITE_SPACE",
+    "DRAWING_INTERRUPTION"
+  ],
+  "collapse": [
+    [
+      "cth",
+      "T"
+    ],
+    [
+      "ckh",
+      "K"
+    ],
+    [
+      "cph",
+      "P"
+    ],
+    [
+      "cfh",
+      "F"
+    ],
+    [
+      "ch",
+      "C"
+    ],
+    [
+      "sh",
+      "S"
+    ],
+    [
+      "iin",
+      "N"
+    ],
+    [
+      "in",
+      "I"
+    ],
+    [
+      "ee",
+      "E"
+    ]
+  ]
+}
