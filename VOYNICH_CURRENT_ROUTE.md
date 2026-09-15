@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;close972 and review separate source models.
-Latest decision: R0all561literal headers contradicted;788unknown;971source-only retained.
-Working files: experiments/yolo/gdt972_alloy_r0_whole_header_consequence/REPORT.md
-Assumptions: No R0repair;R1raw pre-outcome model untested;all reserves closed.
-Resume: Publish972 closure by14:35;review producerR2 source card and next consequence.
-Running: Root closure/review;producer independent R2proposal by14:38.
+Task: Ten-hour session04:49:14–14:49:14UTC;compare unchanged packed writers R1/R2.
+Latest decision: 972published/R0closed;R1/R2 source checks pass, target untested.
+Working files: experiments/yolo/gdt973_alloy_packed_header_consequences/PREREGISTRATION.md
+Assumptions: Necessary forms only;no renderer changes;all reserves closed.
+Resume: Publish973 registration;enumerate both writers/all1349rows;close by14:46UTC.
+Running: Root973;producer one separate source proposal by14:43;proof review complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
