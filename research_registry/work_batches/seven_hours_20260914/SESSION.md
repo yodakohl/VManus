@@ -67,3 +67,5 @@ report scientific progress separately from technical work and known failures.
   retained as IDEA323;no target model selected.24/760selection coincidence rejected;
   critic proposed additional-completions criterion tautological and not executed.
   Seven-hour work remains active;earliest end04:42:35UTC.
+
+- 00:16–00:17UTC: GDT952 complete. Originalseparator-enum error preserved asINVALID_TEST; correctedpost-exposurecomparison0observedtitle referencesall6cases;ITbothincompatible,ZL/RFunknownonly. Exactcounts/marginals independentlyvalidated;publicationfollows. Sevenhourworkcontinues.

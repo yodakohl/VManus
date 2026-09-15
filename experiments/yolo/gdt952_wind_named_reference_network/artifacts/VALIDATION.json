@@ -1,0 +1,588 @@
+{
+  "experiment": "GDT952",
+  "validator": "independent_reconstruction_no_runner_or_count_import",
+  "lock": {
+    "all_hashes_match": true,
+    "checks": {
+      "files:METHOD.md": {
+        "expected": "4ca63763b8ae582891cba5316ba60c0d3b999892338a666efb548f293023ec60",
+        "actual": "4ca63763b8ae582891cba5316ba60c0d3b999892338a666efb548f293023ec60",
+        "ok": true
+      },
+      "files:PREREGISTRATION.md": {
+        "expected": "237b286a7ffe7e2889aabe724977ef7d899298fc756f54a7a87c598842ceef69",
+        "actual": "237b286a7ffe7e2889aabe724977ef7d899298fc756f54a7a87c598842ceef69",
+        "ok": true
+      },
+      "files:src/SPEC.json": {
+        "expected": "b56912cbf289ba1b3cb0c7f6deebd9036c8af09830851ea75f28a5d419d662be",
+        "actual": "b56912cbf289ba1b3cb0c7f6deebd9036c8af09830851ea75f28a5d419d662be",
+        "ok": true
+      },
+      "files:src/SOURCE.json": {
+        "expected": "2a72e46679c6d98c3b6ccf30194cc3059b853c8c378e348a24f285a27bd15412",
+        "actual": "2a72e46679c6d98c3b6ccf30194cc3059b853c8c378e348a24f285a27bd15412",
+        "ok": true
+      },
+      "files:src/SOURCE_AUDIT.md": {
+        "expected": "41bf4b2eb3ca7486d807221ffd7c76845d4abf54313b288170f0c021a478d4ec",
+        "actual": "41bf4b2eb3ca7486d807221ffd7c76845d4abf54313b288170f0c021a478d4ec",
+        "ok": true
+      },
+      "files:src/OWNERSHIP_METADATA.json": {
+        "expected": "8ac55694178a131ffe6431360e9d2e7bbe171d8587566127e969f6786098fb3c",
+        "actual": "8ac55694178a131ffe6431360e9d2e7bbe171d8587566127e969f6786098fb3c",
+        "ok": true
+      },
+      "files:src/SELECTION.md": {
+        "expected": "3640d5400bfe7ee04cee5465ae83810000d0ec1b7c49d83bc19d2e2584d2c355",
+        "actual": "3640d5400bfe7ee04cee5465ae83810000d0ec1b7c49d83bc19d2e2584d2c355",
+        "ok": true
+      },
+      "files:src/prepare.py": {
+        "expected": "da1c7bad459dea0831f376e0ac269e8a6d98f3e87276472e40b9c401b104f408",
+        "actual": "da1c7bad459dea0831f376e0ac269e8a6d98f3e87276472e40b9c401b104f408",
+        "ok": true
+      },
+      "files:src/run.py": {
+        "expected": "756c2f24bc1684e2d617b9064b1b844524182e0228b76a002ed0d84dec8bdc0c",
+        "actual": "756c2f24bc1684e2d617b9064b1b844524182e0228b76a002ed0d84dec8bdc0c",
+        "ok": true
+      },
+      "files:src/count.py": {
+        "expected": "7c2cd9af5582691465e8cbbd63aca9d034e2646ccdce03bb76f8c534b0a4bdc5",
+        "actual": "7c2cd9af5582691465e8cbbd63aca9d034e2646ccdce03bb76f8c534b0a4bdc5",
+        "ok": true
+      },
+      "source_files:experiments/semantic_assumptions/results/source_separator_transcription.tsv": {
+        "expected": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+        "actual": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+        "ok": true
+      },
+      "source_files:experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv": {
+        "expected": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+        "actual": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+        "ok": true
+      },
+      "source_files:transcription/sources/Stolfi_text25e1-52.evt": {
+        "expected": "0509b276fcb7c98c574ccc92e70a1272567851816c5a8ebbfda95da084a3da4b",
+        "actual": "0509b276fcb7c98c574ccc92e70a1272567851816c5a8ebbfda95da084a3da4b",
+        "ok": true
+      }
+    }
+  },
+  "source_graph": {
+    "names_and_edges_match_SOURCE": true,
+    "edges_match_graphs": true,
+    "components": [
+      [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        1
+      ]
+    ],
+    "component_sizes": [
+      6,
+      3,
+      2,
+      1
+    ],
+    "expected_component_sizes": [
+      6,
+      3,
+      2,
+      1
+    ]
+  },
+  "solver_fixtures": {
+    "all_64_n3_and_random_n4_to_n7": true
+  },
+  "input_contract": {
+    "raw_rows": 372,
+    "raw_loci": 153,
+    "legacy_rows": 153,
+    "raw_zero_based_loci": [],
+    "raw_non_one_based_loci": [],
+    "raw_separator_values": {
+      "DEFINITE_SPACE": 211,
+      "LINE_END": 153,
+      "UNCERTAIN_SMALL_SPACE": 8
+    },
+    "selected_loci": 51,
+    "source_page_values": [
+      "f67r2"
+    ],
+    "forbidden_page_rows": 0
+  },
+  "original_locked_run": {
+    "graph_reproduction": true,
+    "summary_reproduction": true,
+    "graph_checks": [
+      {
+        "edition": "ZL3b",
+        "model": "LITERAL",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "ZL3b",
+        "model": "LITERAL",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 479001600,
+        "reported_count": 479001600
+      },
+      {
+        "edition": "ZL3b",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "ZL3b",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 479001600,
+        "reported_count": 479001600
+      },
+      {
+        "edition": "IT2a",
+        "model": "LITERAL",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "IT2a",
+        "model": "LITERAL",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 479001600,
+        "reported_count": 479001600
+      },
+      {
+        "edition": "IT2a",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "IT2a",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 479001600,
+        "reported_count": 479001600
+      },
+      {
+        "edition": "RF1b",
+        "model": "LITERAL",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "RF1b",
+        "model": "LITERAL",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 479001600,
+        "reported_count": 479001600
+      },
+      {
+        "edition": "RF1b",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "RF1b",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 479001600,
+        "reported_count": 479001600
+      }
+    ],
+    "summary_checks": [
+      {
+        "edition": "ZL3b",
+        "model": "LITERAL",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        }
+      },
+      {
+        "edition": "ZL3b",
+        "model": "LEGACY_ROOT_EXACT",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        }
+      },
+      {
+        "edition": "IT2a",
+        "model": "LITERAL",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        }
+      },
+      {
+        "edition": "IT2a",
+        "model": "LEGACY_ROOT_EXACT",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        }
+      },
+      {
+        "edition": "RF1b",
+        "model": "LITERAL",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        }
+      },
+      {
+        "edition": "RF1b",
+        "model": "LEGACY_ROOT_EXACT",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 479001600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 132,
+          "definite_titles": 2
+        }
+      }
+    ],
+    "interpretation": "INVALID_TEST: frozen SPEC/run compares '.' but INPUT uses DEFINITE_SPACE; unresolved bounds are not a manuscript finding."
+  },
+  "corrected_post_exposure_diagnostic": {
+    "graph_reproduction": true,
+    "summary_reproduction": true,
+    "graph_checks": [
+      {
+        "edition": "ZL3b",
+        "model": "LITERAL",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "ZL3b",
+        "model": "LITERAL",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 22560,
+        "reported_count": 22560
+      },
+      {
+        "edition": "ZL3b",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "ZL3b",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 1497600,
+        "reported_count": 1497600
+      },
+      {
+        "edition": "IT2a",
+        "model": "LITERAL",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "IT2a",
+        "model": "LITERAL",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "IT2a",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "IT2a",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "RF1b",
+        "model": "LITERAL",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "RF1b",
+        "model": "LITERAL",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 8328000,
+        "reported_count": 8328000
+      },
+      {
+        "edition": "RF1b",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "lower",
+        "ok": true,
+        "independent_count": 0,
+        "reported_count": 0
+      },
+      {
+        "edition": "RF1b",
+        "model": "LEGACY_ROOT_EXACT",
+        "bound": "upper",
+        "ok": true,
+        "independent_count": 158376960,
+        "reported_count": 158376960
+      }
+    ],
+    "summary_checks": [
+      {
+        "edition": "ZL3b",
+        "model": "LITERAL",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 22560,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 43,
+          "definite_titles": 10
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 22560,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 43,
+          "definite_titles": 10
+        }
+      },
+      {
+        "edition": "ZL3b",
+        "model": "LEGACY_ROOT_EXACT",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 1497600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 67,
+          "definite_titles": 10
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 1497600,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 67,
+          "definite_titles": 10
+        }
+      },
+      {
+        "edition": "IT2a",
+        "model": "LITERAL",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 0,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 13,
+          "definite_titles": 11
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 0,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 13,
+          "definite_titles": 11
+        }
+      },
+      {
+        "edition": "IT2a",
+        "model": "LEGACY_ROOT_EXACT",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 0,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 41,
+          "definite_titles": 11
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 0,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 41,
+          "definite_titles": 11
+        }
+      },
+      {
+        "edition": "RF1b",
+        "model": "LITERAL",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 8328000,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 79,
+          "definite_titles": 8
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 8328000,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 79,
+          "definite_titles": 8
+        }
+      },
+      {
+        "edition": "RF1b",
+        "model": "LEGACY_ROOT_EXACT",
+        "ok": true,
+        "expected": {
+          "lower_count": 0,
+          "upper_count": 158376960,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 116,
+          "definite_titles": 8
+        },
+        "reported": {
+          "lower_count": 0,
+          "upper_count": 158376960,
+          "present_offdiagonal": 0,
+          "unknown_offdiagonal": 116,
+          "definite_titles": 8
+        }
+      }
+    ],
+    "interpretation": "Post-exposure schema correction; compatibility counts are uncertainty bounds only, with no significance or meaning claim."
+  },
+  "claim_ceiling": {
+    "independent_physical_leaves": 0,
+    "additional_confirmation_capacity": 0,
+    "meaning_confirmed": 0,
+    "significance_test": false,
+    "observed_offdiagonal_matches": {
+      "original": 0,
+      "corrected": 0
+    }
+  },
+  "overall": {
+    "lock_ok": true,
+    "solver_fixtures_ok": true,
+    "original_reproduced": true,
+    "corrected_reproduced": true,
+    "original_interpretation_valid": false,
+    "validator_status": "PASS"
+  }
+}

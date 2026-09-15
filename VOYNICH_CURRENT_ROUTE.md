@@ -5,11 +5,11 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT951 closes both exact zodiac ruler-tuple models; all24 reading/scope results contradicted.
-Next: select another source-backed content model; no tuple/decoder repair.
+Latest decision: GDT952 wind references yield0observed matches;IT contradicted,ZL/RF unknown only.
+Next: source-backed content beyond fixed whole-name registers; no decoder repair.
 Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
 Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT951 validated,24Hall certificates; prior findings retained. No first word.
+Resume: GDT952 source-enum error preserved; corrected diagnostic validated. GDT951 retained. No first word.
 Running: root research and bounded producer; seven hours not elapsed.
 
 ## Structural baseline

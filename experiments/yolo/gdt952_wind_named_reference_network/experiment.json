@@ -5,7 +5,7 @@
   },
   "claim_ceiling": "Conditional source-plus-invariant-rendering consistency; no confirmed wind names, p-value or independent leaf replication",
   "commands": {
-    "run": "python3 experiments/yolo/gdt952_wind_named_reference_network/src/run.py",
+    "run": "python3 experiments/yolo/gdt952_wind_named_reference_network/src/run_corrected.py",
     "validate": "python3 experiments/yolo/gdt952_wind_named_reference_network/src/validate.py"
   },
   "created": "2026-09-15",
@@ -32,74 +32,184 @@
   ],
   "outputs": [
     {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/CORRECTION.md",
+      "sha256": "15ef25bfcc88f7227a1fb468be9f624640df2c7970eea8c6444f54748d45dc84",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/METHOD.md",
       "sha256": "4ca63763b8ae582891cba5316ba60c0d3b999892338a666efb548f293023ec60",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/PREREGISTRATION.md",
       "sha256": "237b286a7ffe7e2889aabe724977ef7d899298fc756f54a7a87c598842ceef69",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/PREREG_LOCK.json",
       "sha256": "bb447a3dfbf3c54549b0e372ff57813d2243dbf953eb16eeb62d66fab360451c",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/README.md",
       "sha256": "b9e3794245ffd6129772bdebec2a8e52e083c7733c66884338a5f1093535a70f",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/REPORT.md",
+      "sha256": "c858a218e98859431e3b71a2693e6684228182a627c0e8d2558748c9f6909975",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/ALL_NAME_CANDIDATES.tsv",
+      "sha256": "ecb958829c857bd935b0aebf8730c63327f2936a90a7e24ff57eed56d0bb6349",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/ALL_TITLE_BODY_CONSEQUENCES.tsv",
+      "sha256": "e412c6b5fad1a6eba197b078d85dff2d0f4a80987cd5a7854ac4ca640592d0c3",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/CANDIDATE_TABLE.tsv",
+      "sha256": "73981f3efb59e64c44432282925f7c68e3876608d2e9e5eda15db4afc08595c4",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/COMPLETE_RECORDS.tsv",
+      "sha256": "899d98eb2670c4fc0dd530a68dabb219d9ff2a3d76df1078851716e02b4a7bc6",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/EXPORT_VALIDATION.json",
+      "sha256": "c5bc1d39a786fc801717db50147a37d3c624123cac805f0fb8d2f54ad8e5009e",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/GRAPHS.json",
+      "sha256": "76fc87b2862f5a6dc270673a2c857b3a8d3b5cf92fd8f007befa3e7d2590b888",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/INPUT.json",
+      "sha256": "1249fd12ab3d19a3a9c516f3416f65eeb04ce522ef18bced94170aaccfa38b36",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/INTAKE.json",
+      "sha256": "418eb4530d073b8d61deda0421ad0255308bcd9406d1f50658a7b8128462b8ae",
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/README.md",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/RESULT.json",
+      "sha256": "55602c4713d110c62f9b42e6db8928fa1d426474084c9d3ae5eab1948cfc9a8d",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/VALIDATION.json",
+      "sha256": "3142570750904277b104a892e4a7468630d72e89859e4894e3f6848068a69592",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/corrected/ALL_NAME_CANDIDATES.tsv",
+      "sha256": "d87189dcfbd19070603b60548bcfc8d613d0bd7ec4e1d01167e48a39e56f7f15",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/corrected/ALL_TITLE_BODY_CONSEQUENCES.tsv",
+      "sha256": "94dba6101522af464647b131f879a70319ac4259f35f70fe1dddd8121019879a",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/corrected/CANDIDATE_TABLE.tsv",
+      "sha256": "0b8180f8c4d0976b1a06d7855f06dd87e7cf9881efb037270135451262ff2af9",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/corrected/COMPLETE_RECORDS.tsv",
+      "sha256": "ba96ea29629276a814e81236811fbdfe8d23527c6be1cff004118966032651de",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/corrected/GRAPHS.json",
+      "sha256": "abeae00237b89b5c41eb27f09fcdb647ce157e7f964de4c14d5a037e4c52fa77",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/corrected/IT_CONTRADICTION_CERTIFICATE.json",
+      "sha256": "40b5ee140ea7b3d9526c1003a9c13fc77655722328c22b8dfb54576b3ca4760c",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/corrected/RESULT.json",
+      "sha256": "6975ef535a9ec1c4f7fa3776ad496be9d055059733e38d146dc7db8ca3a97256",
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/src/OWNERSHIP_METADATA.json",
       "sha256": "8ac55694178a131ffe6431360e9d2e7bbe171d8587566127e969f6786098fb3c",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/src/SELECTION.md",
       "sha256": "3640d5400bfe7ee04cee5465ae83810000d0ec1b7c49d83bc19d2e2584d2c355",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/src/SOURCE.json",
       "sha256": "2a72e46679c6d98c3b6ccf30194cc3059b853c8c378e348a24f285a27bd15412",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/src/SOURCE_AUDIT.md",
       "sha256": "41bf4b2eb3ca7486d807221ffd7c76845d4abf54313b288170f0c021a478d4ec",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/src/SPEC.json",
       "sha256": "b56912cbf289ba1b3cb0c7f6deebd9036c8af09830851ea75f28a5d419d662be",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/src/count.py",
       "sha256": "7c2cd9af5582691465e8cbbd63aca9d034e2646ccdce03bb76f8c534b0a4bdc5",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/src/prepare.py",
       "sha256": "da1c7bad459dea0831f376e0ac269e8a6d98f3e87276472e40b9c401b104f408",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/src/run.py",
       "sha256": "756c2f24bc1684e2d617b9064b1b844524182e0228b76a002ed0d84dec8bdc0c",
-      "role": "preregistered_source_or_implementation"
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/run_corrected.py",
+      "sha256": "a5b86dcb45e88bb5d770e4816c17e365a612be6c45099a46c89255b9c8715fac",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/star_certificate.py",
+      "sha256": "d41b3d943891b200d6f8c31805137523763349f71c274846b6b971ede2fab03c",
+      "role": "result_or_reproducibility_artifact"
     },
     {
       "path": "experiments/yolo/gdt952_wind_named_reference_network/src/validate.py",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
-      "role": "preregistered_source_or_implementation"
+      "sha256": "68b4bef4b2c1bc813b7b54c57f44a1d91ae3c61c10aaaf8b4adc3640a00796fc",
+      "role": "result_or_reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt952_wind_named_reference_network/src/validate_exports.py",
+      "sha256": "27a402821c2756a5bf42c19de7db351b07b8e4b23889d93525e120f5b3faf24d",
+      "role": "result_or_reproducibility_artifact"
     }
   ],
   "question": "Can all8explicit W.73f2r named references be simultaneously realized by the complete f67r2 titles in the fixed body owners under any bijection?",
@@ -109,11 +219,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "wind_named_reference_network",
-  "status": "PREREGISTERED_TARGET_NOT_YET_PROJECTED",
+  "status": "ORIGINAL_INVALID_ENUM__CORRECTED_IT_CONTRADICTED_ZL_RF_UNRESOLVED",
   "title": "Complete wind name-reference network on twelve fixed sectors",
   "updated": "2026-09-15",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt952_wind_named_reference_network/artifacts/VALIDATION.json"
   }
 }
