@@ -1,0 +1,37 @@
+{
+  "record_id": "GDT969",
+  "scope": "semantic",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root and independent source/finite-case validator",
+  "assessment_basis": "primary_reports",
+  "reason": "All three eligible IT2a frames contradict the registered code at INPUT/HIGH; 39600 total edition/input/width cases independently replayed. No later target arithmetic was reached. The same f114v text appears in ZL3b; ZL/RF whole-panel capacity and ten ineligible frames remain distinct limitations.",
+  "blockers": [
+    {
+      "code": "fixed_trace_code_contradiction",
+      "detail": "Zero single or joint candidates. INPUT nonempty-prefix capacity and globally repeated leading decimal digits already conflict; no number or opcode recovered.",
+      "evidence": [
+        "experiments/yolo/gdt969_fibonacci_generated_root_trace/REPORT.md",
+        "experiments/yolo/gdt969_fibonacci_generated_root_trace/artifacts/CANDIDATE_PREDICTION_TABLE.tsv",
+        "experiments/yolo/gdt969_fibonacci_generated_root_trace/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Different guessed input integers within the same finite domain",
+      "Changing widths, skipped steps or paragraph boundaries to rescue this result",
+      "Treating source arithmetic or synthetic positive controls as manuscript translation",
+      "Treating alternate transcriptions or restart agreement as independent confirmation"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA000347",
+      "type": "related_to",
+      "detail": "Separately selected generated23-step mathematical projection; does not test all possible complete historical-prose encodings.",
+      "evidence": ["experiments/yolo/gdt969_fibonacci_generated_root_trace/METHOD.md"]
+    }
+  ]
+}

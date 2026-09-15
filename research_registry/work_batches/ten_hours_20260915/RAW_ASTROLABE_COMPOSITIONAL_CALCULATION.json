@@ -1,0 +1,55 @@
+{
+  "title": "RAW_UNSCREENED: compositional calculation carries operands to result and verification",
+  "summary": "Chaucer Astrolabe II.25 supplies a complete 90 minus 38 equals 52 calculation under noon/equinoctial conditions, followed by an Oxford qualification and verification invitation; a distinct source-role grammar predicts operand order, computed result, and closure together.",
+  "scope": "semantic",
+  "source_status": "NEW_PROPOSAL",
+  "design": {
+    "source": {
+      "title": "Chaucer, Treatise on the Astrolabe II.25",
+      "url": "https://web.archive.org/web/20090813233205/http://www.umm.maine.edu/faculty/necastro/chaucer/texts/astr/astr207.txt",
+      "locator": "Astr 2 25 13-28 complete instructional/example block",
+      "sha256": "8a6691961db5dea8ef02046e3bc2ff5b0acd138f6f3656d501799d9c654bafd1"
+    },
+    "grammar": "CALC = SETUP(condition); OPERATOR(ABATE_FROM); INPUT(observed); RESULT(complement); QUALIFICATION(caveat); VERIFY(invitation)",
+    "source_clauses_exact": [
+      "Astr 2 25 13 Than if thou desire to knowe this latitude",
+      "Astr 2 25 14 of the regioun, tak the altitude of the sonne",
+      "Astr 2 25 15 in the myddel of the day, whan the sonne is",
+      "Astr 2 25 16 in the hevedes of Aries or of Libra; for than",
+      "Astr 2 25 17 moeveth the sonne in the lyne equinoxiall;",
+      "Astr 2 25 18 and abate the nombre of that same sonnes altitude",
+      "Astr 2 25 19 out of 90 degrees, and than is the",
+      "Astr 2 25 20 remenaunt of the nombre that leveth",
+      "Astr 2 25 21 the latitude of the regioun. As thus:",
+      "Astr 2 25 22 I suppose that the sonne is thilke day at",
+      "Astr 2 25 23 noon 38 degrees of height; abate than 38",
+      "Astr 2 25 24 degrees oute of 90; so leveth there 52; than is",
+      "Astr 2 25 25 52 degrees the latitude. I say not this but for",
+      "Astr 2 25 26 ensample; for wel I wot the latitude of Oxenford",
+      "Astr 2 25 27 is certeyn minutes lasse; thow might",
+      "Astr 2 25 28 preve the same."
+    ],
+    "source_roles": {
+      "setup": "noon with Sun at Aries or Libra on equinoctial line",
+      "operator": "abate observed altitude out of 90 degrees",
+      "input": "38 degrees",
+      "result": "52 degrees latitude",
+      "qualification": "Oxford is certain minutes less",
+      "verification": "thow might preve the same"
+    },
+    "coupled_consequences": [
+      "Operand order and arithmetic must yield 90 - 38 = 52; a flat number list fails.",
+      "Result must scope over the Oxford qualification and verification invitation.",
+      "Setup conditions must license the complement operation."
+    ],
+    "nearest_rival": "Flat numerical/list reading with no typed operand order, result dependency, or verification closure.",
+    "strongest_likely_failure": "Target exposes no typed operands/result/closure, or apparent values are copied without arithmetic dependency; source witness variation may also prevent one frozen calculation.",
+    "primary_predecessors": [
+      "IDEA000126",
+      "IDEA000341",
+      "GDT902",
+      "GDT608"
+    ],
+    "scope_note": "Source-only raw proposal; no target text or meaning selected."
+  }
+}

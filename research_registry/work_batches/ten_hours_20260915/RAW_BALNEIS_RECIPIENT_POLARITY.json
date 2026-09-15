@@ -1,0 +1,33 @@
+{
+  "title": "RAW_UNSCREENED: source and recipient condition jointly reverse treatment sign",
+  "summary": "Complete VII, XIX, and XXXIII entries contrast harm/help by bath identity and recipient condition: VII harms hydrops, XIX harms healthy recipients but helps diseased bodies, and XXXIII helps hydrops.",
+  "scope": "semantic",
+  "source_status": "NEW_PROPOSAL",
+  "design": {
+    "source": {
+      "path": "research_registry/work_batches/ten_hours_20260915/balneis_cache/ALIM553.txt",
+      "sha256": "397968f02fc5faf54161f2c0df9e7557f96d36e649a27a140e64c2cfe0c69ecd",
+      "locators": ["complete entry VII, lines 74-85", "complete entry XIX, lines 219-228", "complete entry XXXIII, lines 393-404"]
+    },
+    "mechanism": "Outcome sign is jointly conditioned by source identity and recipient condition, rather than fixed by one body-term family.",
+    "source_clauses_exact": [
+      "Sed nocet ydropicis, cum sit dulcissima potu:",
+      "Vim consumendi non habet, unde nocet",
+      "Culma nocet sanis, morbida membra iuuat.",
+      "Prodest ydropicis qui exfleumate grosso."
+    ],
+    "roles_and_conditions": {
+      "source_identity": ["VII Foris Cripte", "XIX Culma", "XXXIII De Cruce"],
+      "recipient_conditions": ["ydropicis", "sanis", "morbida membra"],
+      "local_conditions": ["dulcissima potu", "exfleumate grosso"],
+      "signed_outcomes": ["nocet", "iuuat", "prodest", "sanat"]
+    },
+    "whole_reading": "A complete paragraph would let source identity and recipient condition jointly select a signed outcome, retaining VII versus XXXIII hydrops contrast and XIX healthy/sick contrast.",
+    "nearest_rival": "Uniform body-effect model assigning one stable sign to hydrops or healthy/sick status across entries.",
+    "distinguishing_observation": "Require a stable source-by-recipient relation that permits sign reversal only when the source or explicit condition changes.",
+    "strongest_likely_failure": "Entries are independent bath claims with no reusable recipient relation, making the signed graph overstructured.",
+    "assumption_costs": ["Source identity remains available in the whole record.", "Recipient conditions scope over the stated outcome.", "No target term or medical efficacy is inferred."],
+    "primary_predecessors_checked": ["IDEA000334", "FAMILY:IL010_LABEL_CONTENT_SIGN_INTERACTION", "GDT212", "HIST:3818fd8ba3209fd9"],
+    "scope_note": "Source-only raw proposal; polarity is a source-clause relation, not a target meaning."
+  }
+}

@@ -1,10 +1,66 @@
 {
+  "actual_target_maximum_examined_position": 2,
+  "artifact_hashes": {
+    "CASE_CONSEQUENCES.tsv": "b5f59efd99782e9953938dc3cb591d7552af77a50ed06f343687b46280ac5b8c",
+    "JOINT_CANDIDATES.json": "ee72bc360587b381a421141c90740790d7317524256d5eda84d5dd8b35957419",
+    "RESULT.json": "7ca674059654276c04f7e97da8ef5197b55ff85c60922e4ae229decca06fbb0f",
+    "TARGET.json": "e9bf321255ff9ae80d5d6725b577a18e6f4ebb6fef2cdab4c821f2cb97d9dede"
+  },
   "bound_files_checked": 28,
+  "case_rows_replayed": 39600,
   "claim_ceiling": "Conditional source, code and result fidelity; no meaning confirmation.",
+  "finite_cases": 39600,
+  "first_failure_counts": {
+    "DIGIT_INCONSISTENT": 29700,
+    "NONEMPTY_PREFIX_LENGTH": 9900
+  },
+  "first_failure_positions": {
+    "1": 24048,
+    "2": 15552
+  },
+  "joint_witnesses": 0,
+  "panels": {
+    "IT2a": {
+      "eligible_frames": 3,
+      "eligible_physical_leaves": [
+        24,
+        103,
+        114
+      ],
+      "joint_candidates": 0,
+      "single_candidates": 0,
+      "status": "FIXED_TRACE_MODEL_CONTRADICTED",
+      "unvisited_joint_triples_exist": false
+    },
+    "RF1b": {
+      "eligible_frames": 0,
+      "eligible_physical_leaves": [],
+      "joint_candidates": 0,
+      "single_candidates": 0,
+      "status": "INSUFFICIENT_LITERAL_THREE_LEAF_CAPACITY",
+      "unvisited_joint_triples_exist": false
+    },
+    "ZL3b": {
+      "eligible_frames": 1,
+      "eligible_physical_leaves": [
+        114
+      ],
+      "joint_candidates": 0,
+      "single_candidates": 0,
+      "status": "INSUFFICIENT_LITERAL_THREE_LEAF_CAPACITY",
+      "unvisited_joint_triples_exist": false
+    }
+  },
   "prereg_lock_sha256": "7496d7aecf5c63e434ec873e6301f47483b7438cebd8895acc91901c621b1de0",
-  "registration_only": true,
+  "registration_only": false,
+  "result_status": "FINITE_TRACE_EVALUATION_COMPLETE",
+  "runtime_limit_claim": "NOT_EXERCISED: no empirical validation of deadline execution paths is claimed.",
+  "runtime_limit_exercised": false,
+  "single_witnesses": 0,
+  "source_ids_checked": 92,
   "source_programmes_checked": 9900,
-  "status": "PASS_REGISTRATION_ONLY",
+  "status": "PASS",
   "synthetic_cases": 29,
-  "validator_sha256": "5af62d2b75781de7fad4f00a9d876c9add82b22a51e1ca8a8bb50dd71706a4c7"
+  "target_frames_checked": 4,
+  "validator_sha256": "f84ef673b4a3f436de227f2fdaf4d84899cd37278ca0e4ebb0ec2700fa8dc3b4"
 }

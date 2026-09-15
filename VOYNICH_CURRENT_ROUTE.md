@@ -2,14 +2,14 @@
 Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Ten-hour session04:49:14–14:49:14UTC;969 complete root-calculation traces.
-Latest decision: 968public;969preflight IT3eligible23-group records on3leaves.
-Working files: experiments/yolo/gdt969_fibonacci_generated_root_trace/METHOD.md
-Assumptions: Generated23-step format, not literal source;0words;reservesclosed.
-Resume: Freeze/publish969 before any numericfit;run all9900inputs/widths perframe.
-Running: Root969registration;criticvalidator;producer35minvariablelengthcontentsupply.
+Task: Ten-hour session04:49:14–14:49:14UTC;close969,select variable-length content.
+Latest decision: 969all39600cases fail atINPUT/HIGH;later target arithmetic untested.
+Working files: experiments/yolo/gdt969_fibonacci_generated_root_trace/REPORT.md
+Assumptions: Exact writing model failed;0words;no arithmetic exclusion;reservesclosed.
+Resume: Publish969;review111/879/881/346 plus producer/critic concrete proposals.
+Running: Root969closure;producer35min source supply;critic20min whole-reading design.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

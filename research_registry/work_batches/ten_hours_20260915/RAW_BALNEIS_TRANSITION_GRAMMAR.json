@@ -1,0 +1,27 @@
+{
+  "title": "RAW_UNSCREENED: ordered water states with explicit signed exception branches",
+  "summary": "A finite transition grammar carries one water referent through XI source/removal/cooling/renewal states, then permits marked recipient or condition branches for VII, XIX, and XXXIII sign reversals.",
+  "scope": "semantic",
+  "source_status": "NEW_PROPOSAL",
+  "design": {
+    "source": {
+      "path": "research_registry/work_batches/ten_hours_20260915/balneis_cache/ALIM553.txt",
+      "sha256": "397968f02fc5faf54161f2c0df9e7557f96d36e649a27a140e64c2cfe0c69ecd",
+      "locators": ["XI lines 122-134", "VII lines 74-85", "XIX lines 219-228", "XXXIII lines 393-404"]
+    },
+    "grammar": "ENTRY = INIT(SOURCE); STATE_UPDATE(STATE); EFFECT(SIGN,TARGET); [REPEAT|DECAY|EXCEPTION(RECIPIENT,CONDITION,SIGN)]",
+    "source_clauses_exact": [
+      "Illa recens in fonte suo sinthomata tollit,",
+      "Fonte relicta suo nichil affert utilitatis;",
+      "Hec eadem prodest frigida facta parum.",
+      "Senciet auxilium, si renouabit aquam.",
+      "Vim consumendi non habet, unde nocet"
+    ],
+    "prediction": "State/update order must be recoverable, with sign changes only at explicit recipient or condition boundaries; XI fresh -> removed -> cooled -> renewed is the primary sequence falsifier.",
+    "nearest_rival": "Unordered local effect statements with no state carry or marked branch boundary.",
+    "falsifier": "The source behaves as unordered independent claims, or state/exception boundaries require outcome-first fitting.",
+    "assumption_costs": ["Repeated water references may share a source referent.", "Order has source-content force.", "No target word or medical efficacy is inferred."],
+    "primary_predecessors_checked": ["IDEA000047", "IDEA000093", "IDEA000343", "HIST:ead97afdeeff5d75", "GDT212"],
+    "scope_note": "Source-only raw grammar; no target endpoint or test selected."
+  }
+}

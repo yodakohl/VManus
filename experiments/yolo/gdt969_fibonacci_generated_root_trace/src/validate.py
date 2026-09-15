@@ -215,6 +215,207 @@ def lock_checks():
     return len(bindings)
 
 
+def reconstruct_targets():
+    """Read the fixed original caches; independently form start/end intervals."""
+    parent = R/"experiments/yolo/gdt915_terminal_lr_phrase_transfer"
+    inherited = read(R/"experiments/yolo/gdt928_multi_anchor_complete_paragraphs/PREREG_LOCK.json")["files"]
+    for name, digest in inherited.items():
+        require(sha(R/name) == digest, "Inherited source hash")
+    allowed = set(read(parent/"src/SPEC.json")["allowed_selectors"])
+    require(len(allowed) == 179 and not any(p.startswith(("f84", "f116v")) for p in allowed), "Closed source scope")
+    capacity = read(R/"research_registry/work_batches/ten_hours_20260915/ROOT_TRACE_CAPACITY.json")
+    targets, denominators = {}, {}
+    for ed in EDITION_ORDER:
+        pages, seen, den = defaultdict(list), set(), Counter()
+        for phase in ("DISCOVERY", "EVALUATION"):
+            cache = read(parent/"artifacts"/f"SOURCE_{phase}_{ed}.json")
+            ix = {name: i for i, name in enumerate(cache["group_columns"])}
+            for raw in cache["lines"]:
+                m = raw["metadata"]
+                require(m["page"] in allowed, "Unadmitted selector")
+                if m["kind"] != "P":
+                    continue
+                identity = (m["page"], m["locus"], m["source_row_index"])
+                require(identity not in seen, "Duplicate source line")
+                seen.add(identity)
+                groups = raw["groups"]
+                words = [g[ix["ivtff_group_raw"]] for g in groups]
+                indices = [int(g[ix["source_group_index"]]) for g in groups]
+                literal = all(re.fullmatch("[a-z]+", word) for word in words)
+                consecutive = all(v == u+1 for u, v in zip(indices, indices[1:]))
+                seams = all(u[ix["right_separator"]] == v[ix["left_separator"]] == "DEFINITE_SPACE"
+                            for u, v in zip(groups, groups[1:]))
+                pages[m["page"]].append({"row": int(m["source_row_index"]),
+                    "locus": m["locus"], "number": int(m["locus"].rsplit(".", 1)[1]),
+                    "start": m["paragraph_start"] == "1", "end": m["paragraph_end"] == "1",
+                    "words": words, "ids": [g[ix["source_group_id"]] for g in groups],
+                    "eligible": bool(len(words) >= 2 and literal and consecutive and seams)})
+                den["P_lines"] += 1
+        frames, eligible_targets = [], []
+        for page, lines in sorted(pages.items()):
+            lines.sort(key=lambda line: line["row"])
+            starts = [i for i, line in enumerate(lines) if line["start"]]
+            for j, first in enumerate(starts):
+                limit = starts[j+1] if j+1 < len(starts) else len(lines)
+                last = next((i for i in range(first, limit) if lines[i]["end"]), None)
+                if last is None:
+                    den["unclosed_start" if j+1 < len(starts) else "unclosed_end"] += 1
+                    continue
+                block = lines[first:last+1]
+                numbers = [line["number"] for line in block]
+                if numbers != list(range(numbers[0], numbers[0]+len(numbers))):
+                    den["gapped_paragraphs"] += 1
+                    continue
+                den["complete_paragraphs"] += 1
+                den["anchor_lines"] += sum(line["eligible"] for line in block)
+                frame = {"id": page+"|"+block[0]["locus"]+"-"+block[-1]["locus"],
+                         "page": page, "leaf": int(re.match(r"f(\d+)", page)[1]),
+                         "groups": sum(len(line["words"]) for line in block),
+                         "eligible": all(line["eligible"] for line in block),
+                         "ineligible_lines": [line["locus"] for line in block if not line["eligible"]]}
+                frames.append(frame)
+                if frame["groups"] == 23 and frame["eligible"]:
+                    target = {k: frame[k] for k in ("id", "page", "leaf", "groups")}
+                    target["words"] = [w for line in block for w in line["words"]]
+                    target["source_ids"] = [sid for line in block for sid in line["ids"]]
+                    require(len(target["source_ids"]) == len(set(target["source_ids"])) == 23, "Group ownership")
+                    eligible_targets.append(target)
+        hist = {str(n): v for n, v in Counter(f["groups"] for f in frames).items()}
+        literal_hist = {str(n): v for n, v in Counter(f["groups"] for f in frames if f["eligible"]).items()}
+        candidate_rows = [f for f in frames if f["groups"] == 23]
+        leaves = sorted({f["leaf"] for f in candidate_rows if f["eligible"]})
+        own_capacity = {"complete": len(frames), "literal": sum(literal_hist.values()),
+            "all_length_histogram": hist, "literal_length_histogram": literal_hist,
+            "candidate_rows": candidate_rows, "eligible_physical_leaves": leaves,
+            "three_leaf_capacity": len(leaves) >= 3}
+        require(own_capacity == capacity["panels"][ed], "Independent capacity reconstruction: "+ed)
+        require(dict(den) == capacity["denominators"][ed], "Independent source denominators")
+        targets[ed], denominators[ed] = eligible_targets, dict(den)
+    return targets, denominators
+
+
+def target_checks():
+    targets, denominators = reconstruct_targets()
+    require(read(A/"TARGET.json") == targets, "All target groups/source IDs and boundaries")
+    result, actual_joint = read(A/"RESULT.json"), read(A/"JOINT_CANDIDATES.json")
+    require(result["denominators"] == denominators, "Result denominators")
+    require(set(result["panels"]) == set(actual_joint) == set(EDITION_ORDER), "Edition scope")
+    require(result["confirmed_words"] == result["independent_meaning_confirmation_capacity"] == 0
+            and result["significance_claim"] is False, "Semantic claim ceiling")
+    require(isinstance(result["elapsed_seconds"], (int, float)) and result["elapsed_seconds"] >= 0, "Elapsed time")
+    values_by_input = {n: independent_trace(n) for n in range(100, 10000)}
+    tested_total, complete_domain_total = 0, 0
+    local_witnesses, joint_witnesses, any_unknown = 0, 0, False
+    certificate_counts, position_counts, panel_counts = Counter(), Counter(), {}
+    with (A/"CASE_CONSEQUENCES.tsv").open(newline="") as stream:
+        rows = csv.DictReader(stream, delimiter="\t")
+        require(rows.fieldnames == ["edition", "paragraph", "input", "width", "status", "first_failed_position"], "Case header")
+        for ed in EDITION_ORDER:
+            panel = result["panels"][ed]
+            require(len(panel["records"]) == len(targets[ed]), "One complete case record per target")
+            singles = {}
+            local_unknown = False
+            for target, record in zip(targets[ed], panel["records"]):
+                require(record["paragraph"] == target["id"] and record["page"] == target["page"]
+                        and record["leaf"] == target["leaf"], "Result ownership/order")
+                width_bound = min(len(word)-1 for word in target["words"][:22])
+                finite = 9900*max(0, width_bound)
+                tested = record["tested_cases"]
+                require(record["width_upper_bound"] == width_bound and record["finite_cases"] == finite, "Finite width scope")
+                require(isinstance(tested, int) and 0 <= tested <= finite, "Tested case count")
+                if width_bound > 0:
+                    require(tested % width_bound == 0, "Registered deadline preserves complete input batches")
+                if record["status"] == "COMPUTATION_UNKNOWN":
+                    require(tested < finite, "Unknown must preserve untested finite cases")
+                    local_unknown = True
+                else:
+                    require(tested == finite, "Exhaustive record missing cases")
+                found, failures = [], Counter()
+                for index in range(tested):
+                    n, width = 100+index//width_bound, 1+index % width_bound
+                    values = values_by_input[n]
+                    key, reason = independent_parse(target["words"], values, width)
+                    expected = {"edition": ed, "paragraph": target["id"],
+                                "input": str(n), "width": str(width)}
+                    if key is None:
+                        expected.update(status=reason[0], first_failed_position=str(reason[1]))
+                        failures[reason[0]] += 1
+                        certificate_counts[reason[0]] += 1
+                        position_counts[reason[1]] += 1
+                    else:
+                        require(encode(values, key) == target["words"], "Whole witness reencoding")
+                        candidate = {**key, "input": n, "values": values,
+                                     "paragraph": target["id"], "leaf": target["leaf"]}
+                        candidate["completions"] = completions(key)
+                        require(candidate["completions"]["distinct_completion_count"] > 0, "No complete digit key")
+                        found.append(candidate)
+                        expected.update(status="EXACT_SINGLE_FRAME", first_failed_position="0")
+                    actual = next(rows, None)
+                    require(actual == expected, "Every ordered first-contradiction or exact-case row")
+                require(record["first_failure_counts"] == dict(failures), "First-failure histogram")
+                require(record["candidates"] == found, "Complete single candidate set/order")
+                expected_status = "COMPUTATION_UNKNOWN" if tested < finite else "SINGLE_FRAME_WITNESSES" if found else "CONTRADICTED"
+                require(record["status"] == expected_status, "Single record conclusion")
+                singles[target["id"]] = found
+                tested_total += tested
+                complete_domain_total += finite
+                local_witnesses += len(found)
+            leaves = sorted({t["leaf"] for t in targets[ed]})
+            require(panel["eligible_physical_leaves"] == leaves, "Physical leaf capacity")
+            # Reconstruct every visited triple in deterministic source/candidate order.
+            def all_triples():
+                for owners in itertools.combinations(targets[ed], 3):
+                    if len({owner["leaf"] for owner in owners}) != 3:
+                        continue
+                    yield from itertools.product(*(singles[owner["id"]] for owner in owners))
+            declared = panel["joint_combinations_tested"]
+            require(isinstance(declared, int) and declared >= 0, "Joint tested count")
+            iterator = iter(all_triples())
+            joint = []
+            for _ in range(declared):
+                triple = next(iterator, None)
+                require(triple is not None, "Overstated tested triple count")
+                if len({candidate["input"] for candidate in triple}) != 3:
+                    continue
+                key = independent_combine(triple[0], triple[1])
+                if key is not None:
+                    key = independent_combine(key, triple[2])
+                if key is None:
+                    continue
+                for candidate in triple:
+                    target = next(t for t in targets[ed] if t["id"] == candidate["paragraph"])
+                    require(encode(candidate["values"], key) == target["words"], "Unchanged joint key reencoding")
+                joint.append({"key": key, "completions": completions(key),
+                              "records": [{k: x[k] for k in ("paragraph", "leaf", "input", "values")} for x in triple]})
+            join_incomplete = next(iterator, None) is not None
+            require(actual_joint[ed] == joint and panel["joint_witnesses"] == len(joint), "Complete joint witnesses")
+            expected_panel = ("INSUFFICIENT_LITERAL_THREE_LEAF_CAPACITY" if len(leaves) < 3 else
+                              "COMPUTATION_UNKNOWN" if local_unknown or join_incomplete else
+                              "JOINT_CONDITIONAL_WITNESSES" if joint else "FIXED_TRACE_MODEL_CONTRADICTED")
+            require(panel["status"] == expected_panel, "Panel scope/conclusion")
+            any_unknown |= local_unknown or join_incomplete
+            joint_witnesses += len(joint)
+            panel_counts[ed] = {"eligible_frames": len(targets[ed]), "eligible_physical_leaves": leaves,
+                               "single_candidates": sum(len(v) for v in singles.values()),
+                               "joint_candidates": len(joint), "status": expected_panel,
+                               "unvisited_joint_triples_exist": join_incomplete}
+        require(next(rows, None) is None, "Extra consequence-table rows")
+    expected_overall = "FINITE_TRACE_EVALUATION_WITH_UNKNOWNS" if any_unknown else "FINITE_TRACE_EVALUATION_COMPLETE"
+    require(result["status"] == expected_overall, "Global unknown propagation")
+    return {"target_frames_checked": sum(len(t) for t in targets.values()),
+            "source_ids_checked": sum(len(t["source_ids"]) for ts in targets.values() for t in ts),
+            "finite_cases": complete_domain_total, "case_rows_replayed": tested_total,
+            "first_failure_counts": dict(certificate_counts), "single_witnesses": local_witnesses,
+            "first_failure_positions": {str(p): n for p, n in sorted(position_counts.items())},
+            "actual_target_maximum_examined_position": 23 if local_witnesses else max(position_counts, default=0),
+            "joint_witnesses": joint_witnesses, "panels": panel_counts,
+            "result_status": expected_overall, "runtime_limit_exercised": any_unknown,
+            "runtime_limit_claim": ("Partial receipts checked; unvisited search remains unknown." if any_unknown else
+                                   "NOT_EXERCISED: no empirical validation of deadline execution paths is claimed."),
+            "artifact_hashes": {name: sha(A/name) for name in
+                               ("TARGET.json", "CASE_CONSEQUENCES.tsv", "JOINT_CANDIDATES.json", "RESULT.json")}}
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--registration-only", action="store_true")
@@ -228,11 +429,10 @@ def main():
                "prereg_lock_sha256": sha(E/"PREREG_LOCK.json"),
                "claim_ceiling": "Conditional source, code and result fidelity; no meaning confirmation."}
     if not args.registration_only:
-        raise NotImplementedError("Actual target reconciliation will be added after public registration.")
+        receipt.update(target_checks())
     (A/"VALIDATION.json").write_text(json.dumps(receipt, sort_keys=True, indent=2)+"\n")
     print(json.dumps({k: receipt[k] for k in ("status", "source_programmes_checked", "synthetic_cases")}, sort_keys=True))
 
 
 if __name__ == "__main__":
     main()
-
