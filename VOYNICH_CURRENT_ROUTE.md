@@ -3,14 +3,14 @@ Updated: 2026-09-15. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: active
-Task: Seven-hour research session, 2026-09-14 21:42:35 through at least 2026-09-15 04:42:35 UTC.
-Latest decision: GDT961 pieces:58contra30incomplete;tc/tchhit has rawcounterexample.
-Next: close seven-hour session; retain959rivals, no chosen translation or nextdecoder.
-Working files: research_registry/work_batches/seven_hours_20260914/SESSION.md
-Assumptions: No first word; previous glosses unconfirmed; no new data admission or reserves.
-Resume: GDT961complete;960published5e2e68300;959fourclear/sevenupperrivals.
-Running: root research and bounded producer; seven hours not elapsed.
+Status: checkpoint
+Task: Seven-hour session ended2026-09-15 04:42:39UTC;7h00m04s elapsed.
+Latest decision: GDT961pieces58contra30incomplete;tc/tchhit has rawcounterexample.
+Next: choose a new concrete content consequence; no next decoder or reading selected.
+Working files: research_registry/work_batches/seven_hours_20260914/FINAL_REPORT.md
+Assumptions: No first word; no new data admission, outside contact or reserves.
+Resume: GDT961publishedcc9d743b0;960published5e2e68300;959fourclear/sevenupperrivals.
+Running: none. Bounded agents finished; no unattended work between turns.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
