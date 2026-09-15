@@ -1,0 +1,84 @@
+{
+  "experiment_id": "GDT964",
+  "status": "VALIDATION_PASS",
+  "checks": [
+    {
+      "name": "preregistration_lock",
+      "ok": true,
+      "checked": 11,
+      "errors": []
+    },
+    {
+      "name": "gdt957_figure_key",
+      "ok": true,
+      "errors": [],
+      "count": 16,
+      "vector_convention": "single1 double0 top-to-bottom; integer most significant bit top"
+    },
+    {
+      "name": "gdt959_element_tables",
+      "ok": true,
+      "errors": [],
+      "tables": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "name": "gdt959_cases_and_source_projection",
+      "ok": true,
+      "actual": 1128,
+      "expected": 1128,
+      "case_counts": {
+        "ZL3b_TOP_DOWN": 228,
+        "ZL3b_BOTTOM_UP": 456,
+        "IT2a_TOP_DOWN": 48,
+        "IT2a_BOTTOM_UP": 48,
+        "RF1b_TOP_DOWN": 180,
+        "RF1b_BOTTOM_UP": 168
+      },
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "all_16920_predictions",
+      "ok": true,
+      "actual": 16920,
+      "expected": 16920,
+      "errors": []
+    },
+    {
+      "name": "all_pairs",
+      "ok": true,
+      "status": "NOT_YET_EVALUATED",
+      "checked": false
+    },
+    {
+      "name": "all_candidate_consequences",
+      "ok": true,
+      "status": "NOT_YET_EVALUATED",
+      "checked": false
+    }
+  ],
+  "source": {
+    "old_cases": 1128,
+    "old_case_groups": 6,
+    "figures": 16,
+    "element_tables": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "pairs": {
+    "pairs_expected": 315,
+    "edge_counts": {
+      "ZL3b": 4,
+      "IT2a": 1,
+      "RF1b": 4
+    }
+  },
+  "candidates": {},
+  "claim_ceiling": "independent computation/audit only; no semantic confirmation or meaning claim"
+}

@@ -1,0 +1,120 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Post-exposure conditional class extension on one exposed leaf; no independent meaning or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt964_geomantic_all_one_substitutions/src/run.py",
+    "validate": "python3 experiments/yolo/gdt964_geomantic_all_one_substitutions/src/validate.py"
+  },
+  "created": "2026-09-15",
+  "dependencies": [
+    "GDT957",
+    "GDT959"
+  ],
+  "experiment_id": "GDT964",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt959_geomantic_element_remainder/artifacts/ALL_CANDIDATES.json",
+      "sha256": "38e7f6eadf7a6813f971f170ad6d468ce5bb6e2b3d288de289b3dd67913a67a1",
+      "role": "frozen_predecessor_input"
+    },
+    {
+      "path": "experiments/yolo/gdt959_geomantic_element_remainder/artifacts/TARGET_RECORDS.json",
+      "sha256": "255476a8a2c140e2036ad0905c9b3e5f518bc5a2c746dc1a67d1fa351c186287",
+      "role": "frozen_predecessor_input"
+    },
+    {
+      "path": "experiments/yolo/gdt959_geomantic_element_remainder/artifacts/COMPLETE_IT2A_CROSS_EDITION.json",
+      "sha256": "7e97580c980f5992c4eafbce5b80cc0e782042d6e44b81c6f9a1cad9653785e5",
+      "role": "frozen_predecessor_input"
+    },
+    {
+      "path": "experiments/yolo/gdt959_geomantic_element_remainder/src/SOURCE.json",
+      "sha256": "f93a252304904f5f8c520344f13f97827b8b88a65153fca245bdfd33f01764aa",
+      "role": "frozen_predecessor_input"
+    },
+    {
+      "path": "experiments/yolo/gdt957_f66r_complete_geomantic_margin/src/SOURCE.json",
+      "sha256": "3ad9dd56b61ef6f26338146a138ae1505187225d1bf80cd1ca63cef0cef87c20",
+      "role": "frozen_predecessor_input"
+    },
+    {
+      "path": "experiments/yolo/gdt957_f66r_complete_geomantic_margin/artifacts/ALL_CASES.json",
+      "sha256": "3564b455dabd39f436556f89d6de551e3b37621c7027ad82217c99d40f7613e6",
+      "role": "frozen_predecessor_input"
+    },
+    {
+      "path": "experiments/yolo/gdt957_f66r_complete_geomantic_margin/artifacts/ALL_SURVIVING_CALCULATIONS.tsv.gz",
+      "sha256": "55e6fb4898096458034d67bff0d384ee1c051cd1c97f4825678276111a70efc3",
+      "role": "frozen_predecessor_input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/METHOD.md",
+      "sha256": "09d1bdf771a4cb80530329c29613c2c5f6421464c8df3570bf0d4aa3573ccdb8",
+      "role": "reproducibility_source_protocol_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/PREREGISTRATION.md",
+      "sha256": "09d1bdf771a4cb80530329c29613c2c5f6421464c8df3570bf0d4aa3573ccdb8",
+      "role": "reproducibility_source_protocol_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/PREREG_LOCK.json",
+      "sha256": "feb2078b208c12488775e559cdf612543f8cff42ce8b7627da1c949ed8cc51e7",
+      "role": "reproducibility_source_protocol_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/README.md",
+      "sha256": "15b4d352e414936f14cc9df07cd0413eae9019be57524dc3bb6bacf84363aedb",
+      "role": "reproducibility_source_protocol_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/REPORT.md",
+      "sha256": "b4b27a8f4a76b61202d70e55618f2dab273d696decda982f197c32c742cd65f8",
+      "role": "reproducibility_source_protocol_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/artifacts/PREDICTIONS.tsv",
+      "sha256": "0920dd080405a05975f799ad1d6e6e387f75080efc4f0993786303f0e493a3ff",
+      "role": "reproducibility_source_protocol_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility_source_protocol_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/artifacts/VALIDATION.json",
+      "sha256": "6da49264a485e17f3d783c01fe638836919d5f1960d03be1d3401e087935d8ec",
+      "role": "reproducibility_source_protocol_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/src/run.py",
+      "sha256": "01c3a6afe3a803e8c2fc07a291e34ad866adeb00ef10f09106f8c8f858ef6c56",
+      "role": "reproducibility_source_protocol_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt964_geomantic_all_one_substitutions/src/validate.py",
+      "sha256": "4b649285117173414c6544b854ef90370997a8b8c511892e45bd9747f03cc81e",
+      "role": "reproducibility_source_protocol_or_artifact"
+    }
+  ],
+  "question": "Do all known whole-label Hamming1 pairs support equal elements under every frozen GDT957/959 whole-name reading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "geomantic_all_one_substitutions",
+  "status": "PREREGISTERED_PREDICTIONS_FROZEN",
+  "title": "geomantic all one substitutions",
+  "updated": "2026-09-15",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt964_geomantic_all_one_substitutions/artifacts/VALIDATION.json"
+  }
+}
