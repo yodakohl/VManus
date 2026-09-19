@@ -2,14 +2,14 @@
 Updated: 2026-09-19. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: IDEA363 reviewed, not tested; whole target realization still missing.
-Latest decision: Retain net/gross source contrast; no more fixed-role arithmetic controls.
-Working files: research_registry/work_batches/ten_hours_20260915/NET_CONTRIBUTION_TARGET_SELECTION_20260919.md
-Assumptions: Joint hypothetical meanings allowed; no new word or target finding; reserves closed.
-Resume: Review RAW IDEA364 with IDEA142/GDT970; nominate a target consequence before control work.
-Running: None; root review and bounded target-nomination producer finished.
+Phase: fixed_test
+Status: active
+Task: GDT981: whole-phrase state prerequisites for all22 old r/l families.
+Latest decision: Test paragraph-persistent state; no repair of failed number agreement.
+Working files: experiments/yolo/gdt981_lr_phrase_state_carry/METHOD.md
+Assumptions: Abstract states and participant carry hypothesized; all data exposed; reserves closed.
+Resume: Publish registration, run both endpoint directions, inspect every consequence.
+Running: Root GDT981; bounded idea producer finished with no new nomination.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

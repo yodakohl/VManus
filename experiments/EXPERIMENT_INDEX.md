@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **979**
-- Experiment-associated tracked files: **18,933** (1.7 GiB)
-- Structured GDT337+ experiments: **644**
+- Experiments indexed: **980**
+- Experiment-associated tracked files: **18,943** (1.7 GiB)
+- Structured GDT337+ experiments: **645**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT981 | Complete phrase state prerequisites across paragraphs | `REGISTERED_UNEXECUTED` | — | 10 | 28.5 KiB | 7 | STRUCTURED_YOLO |
 | GDT980 | GDT980_scoped_query_meaning_counterexample | `COMPLETE_ACCOUNT_TRUTH_INSUFFICIENT` | [report](../experiments/yolo/gdt980_scoped_query_meaning_counterexample/REPORT.md) | 19 | 935.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT979 | GDT979_partial_action_compound_accounts | `NO_LITERAL_JOINT_FIT_SOURCE_UNCERTAINTY_RETAINED` | [report](../experiments/yolo/gdt979_partial_action_compound_accounts/REPORT.md) | 27 | 901.0 KiB | 7 | STRUCTURED_YOLO |
 | GDT978 | GDT978_dioscorides_all_recurrent_content | `BOUNDED_RECURRENT_SEARCH_UNRESOLVED` | [report](../experiments/yolo/gdt978_dioscorides_all_recurrent_content/REPORT.md) | 28 | 758.1 KiB | 3 | STRUCTURED_YOLO |
