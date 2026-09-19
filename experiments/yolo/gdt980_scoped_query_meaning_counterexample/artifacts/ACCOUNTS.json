@@ -1,0 +1,323 @@
+[
+  {
+    "accepted_worlds": 1,
+    "account": "source_description",
+    "all_atoms_used": true,
+    "changed_parent_and_color_certificate": null,
+    "clauses": [
+      [
+        "FIELD",
+        "SILVER",
+        "NE"
+      ],
+      [
+        "LION",
+        "RED",
+        "NE"
+      ],
+      [
+        "BORDER",
+        "BLACK",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "PARENT",
+        "BORDER",
+        "EQ"
+      ],
+      [
+        "LION",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "BORDER",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ]
+    ],
+    "grammar_valid": true,
+    "incompatible_worlds": 0,
+    "source_truth": true,
+    "used_atoms": [
+      "BLACK",
+      "BORDER",
+      "EQ",
+      "FIELD",
+      "GOLD",
+      "LION",
+      "NE",
+      "PARENT",
+      "RED",
+      "ROUND",
+      "SILVER"
+    ],
+    "whole_surface": "afk bgk chk dik dec jbe ajc eaj"
+  },
+  {
+    "accepted_worlds": 1,
+    "account": "source_plus_correct_scope",
+    "all_atoms_used": true,
+    "changed_parent_and_color_certificate": null,
+    "clauses": [
+      [
+        "FIELD",
+        "SILVER",
+        "NE"
+      ],
+      [
+        "LION",
+        "RED",
+        "NE"
+      ],
+      [
+        "BORDER",
+        "BLACK",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "PARENT",
+        "BORDER",
+        "EQ"
+      ],
+      [
+        "LION",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "BORDER",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "PARENT",
+        "BORDER",
+        "EQ"
+      ]
+    ],
+    "grammar_valid": true,
+    "incompatible_worlds": 0,
+    "source_truth": true,
+    "used_atoms": [
+      "BLACK",
+      "BORDER",
+      "EQ",
+      "FIELD",
+      "GOLD",
+      "LION",
+      "NE",
+      "PARENT",
+      "RED",
+      "ROUND",
+      "SILVER"
+    ],
+    "whole_surface": "afk bgk chk dik dec jbe ajc eaj die cj"
+  },
+  {
+    "accepted_worlds": 0,
+    "account": "source_plus_wrong_scope",
+    "all_atoms_used": true,
+    "changed_parent_and_color_certificate": null,
+    "clauses": [
+      [
+        "FIELD",
+        "SILVER",
+        "NE"
+      ],
+      [
+        "LION",
+        "RED",
+        "NE"
+      ],
+      [
+        "BORDER",
+        "BLACK",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "PARENT",
+        "BORDER",
+        "EQ"
+      ],
+      [
+        "LION",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "BORDER",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "ROUND",
+        "PARENT",
+        "GOLD",
+        "BORDER",
+        "EQ"
+      ]
+    ],
+    "grammar_valid": true,
+    "incompatible_worlds": 0,
+    "source_truth": false,
+    "used_atoms": [
+      "BLACK",
+      "BORDER",
+      "EQ",
+      "FIELD",
+      "GOLD",
+      "LION",
+      "NE",
+      "PARENT",
+      "RED",
+      "ROUND",
+      "SILVER"
+    ],
+    "whole_surface": "afk bgk chk dik dec jbe ajc eaj dei cj"
+  },
+  {
+    "accepted_worlds": 4096,
+    "account": "selector_coverage_only",
+    "all_atoms_used": false,
+    "changed_parent_and_color_certificate": {
+      "colors": {
+        "border": "silver",
+        "field": "silver",
+        "lion": "silver",
+        "roundel_group": "silver"
+      },
+      "parent": {
+        "border": "field",
+        "lion": "field",
+        "roundel_group": "field"
+      }
+    },
+    "clauses": [
+      [
+        "FIELD",
+        "NE"
+      ],
+      [
+        "LION",
+        "NE"
+      ],
+      [
+        "BORDER",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "NE"
+      ]
+    ],
+    "grammar_valid": true,
+    "incompatible_worlds": 4095,
+    "source_truth": true,
+    "used_atoms": [
+      "BORDER",
+      "FIELD",
+      "LION",
+      "NE",
+      "ROUND"
+    ],
+    "whole_surface": "akb kck dk"
+  },
+  {
+    "accepted_worlds": 4096,
+    "account": "all_atoms_self_equalities",
+    "all_atoms_used": true,
+    "changed_parent_and_color_certificate": {
+      "colors": {
+        "border": "silver",
+        "field": "silver",
+        "lion": "silver",
+        "roundel_group": "silver"
+      },
+      "parent": {
+        "border": "field",
+        "lion": "field",
+        "roundel_group": "field"
+      }
+    },
+    "clauses": [
+      [
+        "FIELD",
+        "SILVER",
+        "FIELD",
+        "SILVER",
+        "EQ"
+      ],
+      [
+        "LION",
+        "RED",
+        "LION",
+        "RED",
+        "EQ"
+      ],
+      [
+        "BORDER",
+        "BLACK",
+        "BORDER",
+        "BLACK",
+        "EQ"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "PARENT",
+        "ROUND",
+        "GOLD",
+        "PARENT",
+        "EQ"
+      ],
+      [
+        "FIELD",
+        "NE"
+      ]
+    ],
+    "grammar_valid": true,
+    "incompatible_worlds": 4095,
+    "source_truth": true,
+    "used_atoms": [
+      "BLACK",
+      "BORDER",
+      "EQ",
+      "FIELD",
+      "GOLD",
+      "LION",
+      "NE",
+      "PARENT",
+      "RED",
+      "ROUND",
+      "SILVER"
+    ],
+    "whole_surface": "afa fjb gbg jch chj die die jak"
+  }
+]
