@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **982**
-- Experiment-associated tracked files: **19,014** (1.7 GiB)
-- Structured GDT337+ experiments: **647**
+- Experiments indexed: **983**
+- Experiment-associated tracked files: **19,028** (1.7 GiB)
+- Structured GDT337+ experiments: **648**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT984 | Whole remainder prefix compatibility of fixed name codes | `REGISTERED_UNEXECUTED` | — | 14 | 45.6 KiB | 6 | STRUCTURED_YOLO |
 | GDT983 | GDT983_qo_reduplication_expansion | `NO_CONTEXT_SUPPORT` | [report](../experiments/yolo/gdt983_qo_reduplication_expansion/REPORT.md) | 23 | 774.1 KiB | 8 | STRUCTURED_YOLO |
 | GDT982 | GDT982_reciprocal_flow_clause_readings | `COMPLETE_TRIAL_READINGS_NO_INDEPENDENT_MEANING_SELECTION` | [report](../experiments/yolo/gdt982_reciprocal_flow_clause_readings/REPORT.md) | 30 | 459.2 KiB | 9 | STRUCTURED_YOLO |
 | GDT981 | GDT981_lr_phrase_state_carry | `F_CONTRADICTED_R_UNCONFIRMED_ONE_MOBILE_LEAF` | [report](../experiments/yolo/gdt981_lr_phrase_state_carry/REPORT.md) | 28 | 246.3 KiB | 7 | STRUCTURED_YOLO |

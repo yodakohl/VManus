@@ -1,0 +1,142 @@
+{
+  "title": "f17r.5 as mature-seed extraction and sowing after a developmental list",
+  "summary": "RAW_UNREVIEWED. A complete nine-group draft reads an ordered leaf/flower/fruit account, then a maturity guard, seed extraction and sowing. The concrete continuation is about detached seeds becoming planted, not a freely added care action on the mother plant. It extends IDEA287 with an explicit whole-line grammar and distinguishes sowing from storage while retaining IDEA189 and GDT768 objections.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "created_utc": "2026-09-19",
+    "access": "Only current route, bounded registry navigation and already published primary reports. No target raw corpus, new image, new admission, reserve or outside contact. IDEA365 and IDEA366 not evaluated. No decoder or target test.",
+    "target": {
+      "locus": "f17r.5",
+      "complete_line": "ychekchy cthy chor shor cphor cphaldy dair cthey qody",
+      "primary_owner": "GDT768 REPORT.md quotes all nine groups and a complete older inventory draft. The present source is that report, not newly inspected transcription or imagery.",
+      "whole_line_draft": "Development: leaves, flowers, fruit. When ripe, extract the seeds; sow them."
+    },
+    "word_hypotheses": [
+      {
+        "word": "ychekchy",
+        "meaning": "developmental account",
+        "origin": "new unconfirmed header, replacing old Ansatzposten default"
+      },
+      {
+        "word": "cthy",
+        "meaning": "leaves",
+        "origin": "inherited unconfirmed part hypothesis; aerial herb remains rival"
+      },
+      {
+        "word": "chor",
+        "meaning": "flowers",
+        "origin": "one of GDT768 tied unconfirmed directions"
+      },
+      {
+        "word": "shor",
+        "meaning": "fruit",
+        "origin": "same provisional direction; no independent seed/fruit identification"
+      },
+      {
+        "word": "cphor",
+        "meaning": "when",
+        "origin": "new unconfirmed guard marker"
+      },
+      {
+        "word": "cphaldy",
+        "meaning": "ripe",
+        "origin": "new unconfirmed state predicate"
+      },
+      {
+        "word": "dair",
+        "meaning": "extract",
+        "origin": "new unconfirmed action, explicitly replacing the old portion-II/root-part alternatives for this draft"
+      },
+      {
+        "word": "cthey",
+        "meaning": "seeds",
+        "origin": "new unconfirmed noun, not derived from cthy or an EVA initial"
+      },
+      {
+        "word": "qody",
+        "meaning": "sow the active extracted material",
+        "origin": "new unconfirmed action, not inherited from an old completion marker"
+      }
+    ],
+    "finite_provisional_grammar": {
+      "productions": [
+        "Account := DEVELOPMENT StageList GuardedInstructions",
+        "StageList := Part Part+",
+        "GuardedInstructions := WHEN Property Instruction+",
+        "Instruction := EXTRACT Object | SOW"
+      ],
+      "local_parse": "[ychekchy [cthy chor shor]] [cphor cphaldy [dair cthey] [qody]]",
+      "stage_rule": "Only the explicit DEVELOPMENT header licenses interpreting its nominal list as ordered developmental stages of one plant account. The last named stage is the current organ. This does not impose chronological order on every chor/shor juxtaposition or every technical list.",
+      "guard_rule": "The nearest named current organ, here the fruit candidate, is the subject of ripe. The guard scopes over both following instructions until the account ends or an explicitly written new guard begins. It is not a report that ripeness has already occurred.",
+      "identity_rule": "EXTRACT Object takes the specified object out of the current organ and makes those detached individuals the active object. SOW with no following object consumes that active free-seed availability. It cannot select another seed lot from a hidden stock.",
+      "boundaries": "The whole physical line is the nominated complete account for this RAW draft; its true relation to neighboring lines remains a debt. No universal line length or exact source-copy order is assumed. Lists and instruction sequences are variable-length.",
+      "surface_debt": "The finite semantic constructions do not yet define a full compositional script code. All occurrences of the nine whole forms must retain their values in a future complete writer; unrelated unknown words may not be discarded or used as individual escape clauses."
+    },
+    "multistep_consequence": [
+      "Under the proposed guarded account, a fruit organ must supply mature seeds before extraction is executable. The words are not evidence that this condition was actually met.",
+      "Extraction changes a seed from contained to detached while preserving that seed identity; sowing then changes the same seed from detached/available to planted.",
+      "Reversing extraction and sowing with no earlier free seeds would fail the prerequisite. A later instruction treating the seed as still stored or immediately available would need an explicit retrieval.",
+      "Sowing does not entail germination, a mature new plant, successful reproduction, or survival of the mother plant. No unwritten watering, later harvest or new descendant is inserted.",
+      "The flower/fruit orientation would matter only if the DEVELOPMENT header and its list semantics hold across complete accounts: fruit-before-flower is a different chronology. Merely imposing that order on this chosen line does not identify chor or shor."
+    ],
+    "rivals": [
+      {
+        "name": "store instead of sow",
+        "difference": "Only qody is assigned STORE in the matched action rival. The same mature seed extraction occurs, but the detached seeds remain a stored available lot instead of becoming planted. A later planted-location predicate or use requiring retrieval would distinguish the readings if owned."
+      },
+      {
+        "name": "nominal part and dose inventory",
+        "difference": "The old GDT768 inventory entails no extraction or planting at all. It may list the same part classes without a temporal order. Its lower semantic commitment is a serious rival, not a failed model."
+      },
+      {
+        "name": "reverse flower/fruit direction",
+        "difference": "GDT768 gives the reverse the same support. This RAW chronology can oppose it only through the additional unconfirmed developmental grammar; it has not broken the old tie."
+      }
+    ],
+    "new_difference_from_existing_raw_ideas": "IDEA287 names this exact line as list versus relation but supplies no explicit nine-word clause account. This card adds a concrete shared header/guard/object-continuation grammar and a sow-versus-store end state. IDEA189 concerns separate later care of a surviving mother plant after harvest; no such care or survival is asserted here. This is an explicit coupling of old part hypotheses with a new seed-use account, not a reopening claim for IDEA189.",
+    "primary_review": [
+      "GDT768 was read in full: parallel nominal roles are supported structurally; flower/fruit directions tie, and its 94-token reader includes concrete low-confidence fillers. None of those displayed words is used as established semantics here.",
+      "IDEA287 card and IDEA189 reviewed status read. HARVEST_SELECTION_REVIEW.md expressly says cthy chor shor does not establish extraction or surviving-plant care and prohibits manufacturing the desired care action. Those missing observations are not claimed solved by the current draft.",
+      "GDT813 primary reports a connected f17r plant with narrow pointed leaves, three terminal heads and root-region forms, but no demonstrated target-word/object binding or visible processing. This card does not turn the three heads into three ages or identify a ripe seed-bearing organ.",
+      "GDT759 primary quarantines the old s=seed mnemonic. No s-family value or orthographic resemblance is imported. The candidate cthey=seeds is a newly paid whole-word guess.",
+      "W97 fixed genealogical self-reference contradictions, P25 homogeneous-definition conflicts and GDT965/966 literal source-code stops remain intact. No universal genealogy, homogeneous part identity or copied historical text is proposed."
+    ],
+    "strongest_objection": "The six new whole-word meanings create the desired temporal and biological structure rather than recover it independently. No growth header, ripe predicate, extraction, seed owner or sowing action is identified in the existing reports. Even a consistent account might merely rename a formal sequence. The proposed biological domain is a seed-bearing flowering plant; no universal claim about all plants or all fruits is made.",
+    "likely_failure": [
+      "Other uses of cphor or qody may make the guard/sowing interpretation impossible under a single grammar.",
+      "The part order and whole-line boundary may be list structure rather than developmental chronology.",
+      "A fruit-to-seed identity could remain unbound; a freely introduced seed lot would destroy the distinguishing prerequisite.",
+      "No later written sow-versus-store consequence is currently nominated as independently owned. The card remains raw until an entire surrounding account supplies one."
+    ],
+    "structural_link": "Directed written composition could distinguish part names from process/state expressions, while repeated whole classes and guard scope bind a variable-length account. No component is decoded here; the future writer must also pay for whole-form residuals and entry-context effects.",
+    "scope_and_stops": "No confirmed word, new manuscript finding, statistical score or selected experiment. The inherited reading alternatives, physical-line uncertainty and all unknown neighboring groups are retained. No new data or reserves are needed merely to explore this explicit hypothesis.",
+    "navigation": "Current route; bounded ideas search and duplicates for phenology/propagation; route-check found GDT768/759/813 and closed reproductive/source-code families. Closest idea cards and claim-bearing reports listed above were read. This is not an exhaustive novelty claim.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+      "line": 23,
+      "quote": "ychekchy cthy chor shor cphor cphaldy dair cthey qody",
+      "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+    },
+    "additional_evidence": [
+      {
+        "path": "research_registry/proposals/translation_programs_20260912/HARVEST_SELECTION_REVIEW.md",
+        "line": 19,
+        "quote": "Die in der Rohidee motivierende Folge `cthy chor shor` erlaubt eine Teileliste als Hypothese. Sie sagt aus sich heraus weder, dass etwas abgetrennt wurde, noch dass eine bestimmte Ursprungspflanze danach weiterlebt. Ein Wort als „gieße die Pflanze“ zu vergeben, nur damit dieser Folgeschritt vorhanden wäre, würde die Testbedingung erfinden.",
+        "sha256": "d65841687482dfe01ad40116f247498ed497c73c052e692a3c7be4739d380755"
+      },
+      {
+        "path": "experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md",
+        "line": 83,
+        "quote": "three terminal heads and marked root-region forms. It does not picture",
+        "sha256": "d945b7e02bb21be92767a7f12eb2e7597eebfac7647d19bdbd08f55d00e4d92e"
+      },
+      {
+        "path": "experiments/yolo/gdt759_quantity_part_state_construction_atlas/REPORT.md",
+        "line": 37,
+        "quote": "Stoffidentität stammte aus dem bereits verworfenen EVA-Initial-Mnemonic.",
+        "sha256": "322a0842c189fd3f3f2fd3384030781db1f6c3c4e147a324c18ddd5dafeda7d1"
+      }
+    ]
+  }
+}

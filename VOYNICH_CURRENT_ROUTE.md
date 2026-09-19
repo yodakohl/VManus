@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: GDT983 closed; review fresh RAW content proposals before next selection.
-Latest decision: qoqokeey alone; three expansions lack comparison capacity, no meaning chosen.
-Working files: experiments/yolo/gdt983_qo_reduplication_expansion/REPORT.md
-Assumptions: GDT982 hypotheses unchanged; no iteration/fire value; reserves remain closed.
-Resume: Review producer cards and linked primaries; choose a new whole-content consequence.
-Running: Root publication; bounded producer; ten-hour block until at least Sep20 09:05:26UTC.
+Task: GDT984: all non-name codewords must coexist with the fixed two-name codes.
+Latest decision: Test full remainder prefix compatibility;963/976/977/978 unchanged.
+Working files: experiments/yolo/gdt984_name_code_remainder_prefix_capacity/METHOD.md
+Assumptions: Whole copied-content/prefix-code contract; all exposed; partial SAT is no translation.
+Resume: Implement exact interval DP and independent checks; register before target execution.
+Running: Root implementation; 00:23UTC unit checkpoint; ten-hour block earliest end09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
