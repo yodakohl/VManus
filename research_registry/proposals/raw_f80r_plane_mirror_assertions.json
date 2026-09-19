@@ -1,0 +1,167 @@
+{
+  "title": "Whole f80r.14 as an image-location statement with coupled mirror predicates",
+  "summary": "RAW_UNREVIEWED. A full twelve-group hypothesis says that an image in a plane mirror is directly opposite the object, behind the mirror, at equal perpendicular distance. The written remainder supplies three simultaneous claims about one pair, distinguishing plane reflection from a same-size half-turn. This gives IDEA351 a concrete target sentence and explicit lexical/syntactic debts; it does not claim an optical image owner.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "created_utc": "2026-09-19",
+    "target": {
+      "locus": "f80r.14",
+      "complete_line": "solkain shl lky chcthy qokain qotchy qotal dy chckhy lchey qotar otal",
+      "ownership": "GDT943 REPORT.md prints the entire twelve-group line and states that all three transcriptions give these same groups. These are alternate readings of one manuscript. No raw source or image was newly inspected.",
+      "complete_draft": "The image in the plane mirror is directly opposite the object, behind the mirror, at the same perpendicular distance as the object.",
+      "literal_alignment": "IMAGE IN PLANE MIRROR IS DIRECTLY-OPPOSITE BEHIND AT EQUAL DISTANCE AS OBJECT"
+    },
+    "exact_whole_word_hypotheses": [
+      {
+        "word": "solkain",
+        "value": "image",
+        "status": "new optical noun, replacing rather than adopting the old content hypothesis"
+      },
+      {
+        "word": "shl",
+        "value": "in",
+        "status": "new locative relation; neither old whose nor while is promoted"
+      },
+      {
+        "word": "lky",
+        "value": "plane or flat",
+        "status": "new modifier; flat is fixed for this draft"
+      },
+      {
+        "word": "chcthy",
+        "value": "mirror",
+        "status": "new noun, not the old slow value"
+      },
+      {
+        "word": "qokain",
+        "value": "is",
+        "status": "retained as an unconfirmed copula hypothesis"
+      },
+      {
+        "word": "qotchy",
+        "value": "directly opposite along the mirror normal",
+        "status": "new alignment predicate"
+      },
+      {
+        "word": "qotal",
+        "value": "behind the mirror",
+        "status": "new side predicate"
+      },
+      {
+        "word": "dy",
+        "value": "at",
+        "status": "new measure relation"
+      },
+      {
+        "word": "chckhy",
+        "value": "equal",
+        "status": "new comparison modifier"
+      },
+      {
+        "word": "lchey",
+        "value": "distance",
+        "status": "new quantity noun"
+      },
+      {
+        "word": "qotar",
+        "value": "as",
+        "status": "new comparative link"
+      },
+      {
+        "word": "otal",
+        "value": "object",
+        "status": "new source-object noun, not old chamber"
+      }
+    ],
+    "lexical_cost": "Eleven optical/function values are new at this line. Only the old hypothetical copula is reused. Their fluent combination supplies no independent evidence. In particular qotal/otal, qotar/otar and chcthy/chckhy need a common word-formation account; this card has not explained those visible families.",
+    "finite_content_grammar": {
+      "production": "Clause := ImageMirrorNP COPULA AlignmentPredicate SidePredicate DistanceComparison",
+      "image_mirror_np": "IMAGE IN PLANE MIRROR",
+      "distance_comparison": "AT EQUAL DISTANCE AS OBJECT",
+      "local_parse": "[solkain shl lky chcthy] [qokain [qotchy] [qotal] [dy chckhy lchey qotar otal]]",
+      "reference_rule": "One image, one mirror and one original object are shared by all three predicates. The source-object role is resolved by the final written OBJECT. The mirror named in the first noun phrase remains the reference for behind and distance. No predicate can silently choose a different mirror or object.",
+      "scope_rule": "The copula governs three coordinated predicates; juxtaposition is the explicitly hypothesized coordination construction. It does not assert a time sequence or physical motion. The image is an apparent location, not a second material body manufactured behind a surface.",
+      "writing_limit": "This is one complete provisional sentence grammar with relational arguments, not a fixed-length source projection or cipher. A finite common realization for other complete sentences and the internal word parts remains unknown. No new per-occurrence glossary, optional erased word or source-count match is allowed."
+    },
+    "coupled_assertions_in_the_written_remainder": [
+      {
+        "groups": "qotchy",
+        "claim": "Image and object have the same perpendicular foot on the same mirror."
+      },
+      {
+        "groups": "qotal",
+        "claim": "The image lies on the opposite side of that mirror from the object."
+      },
+      {
+        "groups": "dy chckhy lchey qotar otal",
+        "claim": "Their absolute perpendicular distances from that mirror are equal."
+      }
+    ],
+    "exact_semantic_consequence": {
+      "setup": "Let the mirror cross-section be line M with unit normal n and equation n dot x = c. Let O be the nondegenerate original point and I its proposed image point.",
+      "normal_alignment": "The tangential projection of I equals the tangential projection of O.",
+      "side": "(n dot I-c)*(n dot O-c) < 0.",
+      "distance": "abs(n dot I-c) = abs(n dot O-c).",
+      "combined": "All three require I = O - 2*(n dot O-c)*n. A separate free image location for each predicate is forbidden.",
+      "nondegeneracy": "O is not on the mirror. For an extended object, each corresponding point must use the same mirror; point names may be jointly renamed but not rematched independently."
+    },
+    "concrete_rival_and_generated_example": {
+      "status": "Modern illustrative coordinates, not manuscript measurements, pixels or a historical transcription.",
+      "mirror": "y=0",
+      "object_point": [
+        2,
+        3
+      ],
+      "plane_reflection": [
+        2,
+        -3
+      ],
+      "half_turn_about_origin": [
+        -2,
+        -3
+      ],
+      "same_consequences": "Reflection and half-turn both put the point behind the line at perpendicular distance 3; rigid size preservation also does not distinguish them.",
+      "different_written_consequence": "Only reflection preserves the perpendicular foot (2,0). The half-turn has foot (-2,0), so the qotchy alignment claim would fail while the rest of the distance/side predicates still hold.",
+      "weaker_rival": "If qotchy merely meant appears rather than directly opposite, the same written side/distance remainder would leave tangential image position free. The restrictive optical predicate is therefore a substantive lexical assumption, not an observed fact.",
+      "symmetries": "Global rigid coordinate changes and scale remain gauges. A point on the turning axis can make the half-turn rival indistinguishable. A single freely placed mirror/object/image triple can always be fitted and earns no semantic credit."
+    },
+    "relation_to_the_rest_of_the_open_passage": "The discriminating consequence is located in the seven written groups after qokain on the same fully owned line, not postponed to an unnamed future sentence. GDT943 also preserves f80r.21 qotar/chckhy/qotal/chcthy and f80r.26 qotchy qokaiin in its longer ZL context, but their full optical parses are not invented here. All such occurrences must eventually keep these values; they could refute this short hypothesis. No unread neighboring word is treated as neutral.",
+    "source_basis": {
+      "existing_card": "IDEA351 / raw_global_optical_appearance.json supplies the already owned Catoptrics19 account, with point correspondence, opposite-side placement and equal distances.",
+      "public_source": "https://web.calstatela.edu/faculty/hmendel/Ancient%20Mathematics/Euclid/Catoptrics/Catoptrics.19/Catoptrics.19.html",
+      "cached_text_sha256": "8c64e06ab1b0cf0acab11118f6bfc5cb9cfbd50343ecf0136bc38127ca6f6279",
+      "limits": "Ancient work transmitted under Euclid; authorship disputed. The owned witness is a modern scholarly translation and explanatory drawing, not a newly checked pre1450 manuscript. Its inconsistent-looking BG/BZ and mirror-ED/AG references and missing auxiliaries remain unresolved. This card uses a declared elementary plane-reflection model, not a repaired literal historical proof or source-to-target string alignment."
+    },
+    "primary_and_duplicate_review": [
+      "GDT943 primary read in full: REL and TEMP are existing complete unconfirmed hydraulic readings of this same line. Their eight added words and unbound outside contexts are retained. This is a separate prospective content rival, not an edit to either draft.",
+      "IDEA351 card and its source proposal were read. The new addition is an actual twelve-group target and three explicitly located simultaneous assertions, rather than another source-only optical genre suggestion.",
+      "GDT796 primary read: its unstable f71 formal relative-reflection texture gives no optical object, mirror or general word code. No f71 result is used as evidence for this f80r sentence.",
+      "Bounded context, ideas search and route-check supplied navigation. Subsequent registry operations were blocked by the known concurrent stale index; no metadata refresh was attempted."
+    ],
+    "strongest_objection": "Every restrictive optical predicate is newly guessed, and no mirror, original or apparent image is independently owned in this target. The mathematical conjunction is exact only after those assignments. This might be an elegant invented sentence unrelated to the manuscript. Confirming that such a triple can be drawn would merely confirm the model, not the reading.",
+    "prospective_decision": "RAW only. A useful exploratory next reading would keep all twelve values and one shared referent grammar across the already open paragraph, exposing conflicts instead of replacing troublesome words. No source-only geometry decoder, fresh illustration admission or claim that a free coordinate fit chooses optical meanings follows from this card.",
+    "retained_stops": "The current GDT984 name-code contract is untouched. IDEA365/366, iteration, rank-reference and warmth routes were not evaluated. GDT913/914/915/916/925/928/930/947/949/970/979/980/981 and the fixed W97 genealogy stop remain unchanged. Spaces, directed composition, whole-form residuals and entry effects still require explanation; no EVA alphabet or Latin phonetic assumption.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt943_solkain_second_leaf_complete_clause/REPORT.md",
+      "line": 23,
+      "quote": "`solkain shl lky chcthy qokain qotchy qotal dy chckhy lchey qotar otal`",
+      "sha256": "0c0c945dd69eb0b7130eed0410db2c31b53c08dc79ebb0deff910b54814c5153"
+    },
+    "additional_evidence": [
+      {
+        "path": "research_registry/proposals/raw_global_optical_appearance.json",
+        "line": 6,
+        "quote": "    \"mechanism\": \"A prospective globally shared language declares geometric objects and relations, observer and object roles, visibility conditions, apparent locations, and proof assertions. Plane reflection is one fixed operation applied consistently to all corresponding points: perpendicular-foot preservation, opposite signed distances and equal pairwise lengths. More complicated texts may add multiple objects or observations without changing the operation. Only explicit alternative branches may change a hypothesis. This describes optical content rather than a free JOIN/CIRCLE drawing program.\",",
+        "sha256": "35e771a5b348db737b320bc1c8144e00c095a0a5048f386700172c7c85953f3b"
+      },
+      {
+        "path": "experiments/yolo/gdt796_outer_ring_mirror_status_facies_bridge/REPORT.md",
+        "line": 53,
+        "quote": "rival, not a recovered ten-member code. The statistic does not identify the",
+        "sha256": "72d0338d8082b898be1dc89094d184f325db90c6aba0d1e8826efeafdf74e7b2"
+      }
+    ],
+    "access": "No target raw cache, image, new source admission, reserve, outside contact or decoding computation. Only already owned reports and proposal source evidence. No earlier file, route, ledger or metadata changed."
+  }
+}

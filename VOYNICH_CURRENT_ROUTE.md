@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT984: all non-name codewords must coexist with the fixed two-name codes.
-Latest decision: Test full remainder prefix compatibility;963/976/977/978 unchanged.
-Working files: experiments/yolo/gdt984_name_code_remainder_prefix_capacity/METHOD.md
-Assumptions: Whole copied-content/prefix-code contract; all exposed; partial SAT is no translation.
-Resume: Implement exact interval DP and independent checks; register before target execution.
-Running: Root implementation; 00:23UTC unit checkpoint; ten-hour block earliest end09:05:26UTC.
+Task: GDT984 closed; review complete f80r.14 mirror RAW draft before selection.
+Latest decision: 8256/8986 name rows survive;91.9%triggers prefix-projection stop;0words.
+Working files: experiments/yolo/gdt984_name_code_remainder_prefix_capacity/REPORT.md
+Assumptions: Whole-code unknowns unchanged;new mirror glosses unconfirmed;reserves closed.
+Resume: Register raw_f80r_plane_mirror_assertions.json;read GDT943 and full target context.
+Running: Root publication;producer finished;ten-hour block earliest end Sep20 09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
