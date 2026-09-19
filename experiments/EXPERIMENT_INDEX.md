@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **980**
-- Experiment-associated tracked files: **18,961** (1.7 GiB)
-- Structured GDT337+ experiments: **645**
+- Experiments indexed: **981**
+- Experiment-associated tracked files: **18,973** (1.7 GiB)
+- Structured GDT337+ experiments: **646**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT982 | Whole reciprocal-flow line: connector and repetition rivals | `REGISTERED_UNEXECUTED` | — | 12 | 41.1 KiB | 6 | STRUCTURED_YOLO |
 | GDT981 | GDT981_lr_phrase_state_carry | `F_CONTRADICTED_R_UNCONFIRMED_ONE_MOBILE_LEAF` | [report](../experiments/yolo/gdt981_lr_phrase_state_carry/REPORT.md) | 28 | 246.3 KiB | 7 | STRUCTURED_YOLO |
 | GDT980 | GDT980_scoped_query_meaning_counterexample | `COMPLETE_ACCOUNT_TRUTH_INSUFFICIENT` | [report](../experiments/yolo/gdt980_scoped_query_meaning_counterexample/REPORT.md) | 19 | 935.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT979 | GDT979_partial_action_compound_accounts | `NO_LITERAL_JOINT_FIT_SOURCE_UNCERTAINTY_RETAINED` | [report](../experiments/yolo/gdt979_partial_action_compound_accounts/REPORT.md) | 27 | 901.0 KiB | 7 | STRUCTURED_YOLO |

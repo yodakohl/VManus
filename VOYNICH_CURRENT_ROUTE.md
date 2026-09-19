@@ -3,13 +3,13 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: GDT981 executed: one direction-sensitive state-carry consequence on f17v.
-Latest decision: F contradicted; R uncontradicted but only one mobile leaf, no meaning selected.
-Working files: experiments/yolo/gdt981_lr_phrase_state_carry/REPORT.md
-Assumptions: Paragraph identity/neutral intervening words hypothetical; all data exposed; reserves closed.
-Resume: Review primaries for f75v.39 whole role-exchange versus state-list reading before selection.
-Running: None; root test and bounded idea producer finished.
+Status: active
+Task: GDT982: five complete f75v.39 drafts; joint chey/aiin consequences.
+Latest decision: Keep then/not and repeat/once jointly open; image does not select direction.
+Working files: experiments/yolo/gdt982_reciprocal_flow_clause_readings/METHOD.md
+Assumptions: All eleven whole-word values hypothetical; same portion/loop scope assumed; reserves closed.
+Resume: Register models, execute local traces and fixed all-chey bilateral-frame census.
+Running: Root GDT982; bounded idea producer finished without new nomination.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
