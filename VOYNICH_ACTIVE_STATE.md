@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT977 CONTENT PROJECTION STOP: LEAF/BROAD extension retains8986/8990rows (99.9555%),1318/1320nameclasses;all52IRIS/138XIPHION values survive. Four exact contradictions,0unknown, all8990certificates PASS. Registered90%retention rule parks serial atom additions;13/613occurrences only, no fullcode or word. GDT963/GDT976 unchanged;0independent, reserves closed. Primary: experiments/yolo/gdt977_dioscorides_leaf_breadth_projection/REPORT.md
+
 GDT976 NECESSARY SHARED-NAME PROJECTION: 8990 partial code/page bindings in1320classes; IT3300pagepairs=1111projection contradictions+2124partial+65sameleaf. IRIS52values/XIPHION138;6/613source occurrences only. Full code untested; separate corrected validation PASS, disclosed failures retained; original963UNKNOWN unchanged. Next separately declare shared LEAF/BROAD constraint against all survivors;no name selected,0words/independent, reserves closed. Primary: experiments/yolo/gdt976_dioscorides_shared_referent_projection/REPORT.md
 
 GDT975 EXTERNAL SOURCE AUDIT: all8 printed TP15 AppendixF pairs checked using exact documented fragment:7contradictions/1match;3technical traces reproduce. k remains unknown;no complete table or paragraph test. Withhold semantic follow-up pending consistent fixed source;not tachygraphy/language refutation.0words/independent;reserves closed. Primary: experiments/yolo/gdt975_tp15_published_example_consistency/REPORT.md

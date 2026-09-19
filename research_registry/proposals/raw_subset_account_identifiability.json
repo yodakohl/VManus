@@ -1,0 +1,194 @@
+{
+  "title": "Joint participant grouping and solvability in complete subset accounts",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. An owned Liber abbaci passage uses the same four totals in a uniquely soluble triple-subset problem and an explicitly impossible adjacent-pair problem, then announces a changed amount and a non-unique solution family. This constrains participant grouping and argument status together; no fixed source-count writer, numeral code or target owner is supplied.",
+  "scope": "method",
+  "design": {
+    "mechanism": "Whole-account interpretation with globally shared participant identity, subset-sum meaning, explicit case boundaries, and distinct assertions of solution, impossibility and free choice. Grouping and reference may be learned jointly; no old glosses or per-occurrence fresh holdings.",
+    "unit": "The two complete four-man source problems, including the negative case, explicit revised case, explanations, checks and both owned result tables. No fixed target paragraph/field count.",
+    "source": {
+      "work": "Fibonacci, Liber abbaci, 1202/revised1228",
+      "owned_witness": "Boncompagni1857, pp284–285; PDF pages290–291 actually viewed natively",
+      "url": "https://archive.org/download/bub_gb_CrdUBgtAZFoC/bub_gb_CrdUBgtAZFoC.pdf",
+      "sha256": "e0617041071d181ae61a5109fc21ad48b8503927ed9f8f2a1378575de797ed1a",
+      "render_sha256": [
+        "4b44e3f6ba9d7b323fb9f5beecc426ac5c623022247b01360c3bd759968ea0f3",
+        "529272e1748284dd9206934d644e305165fcc60f85b02888833c703040fe25e4"
+      ],
+      "boundary": "Qvatuor homines sunt through ergo quartus habet denarios20; before Item sunt quinque homines. Full operative inventory in sealed dossier, not a diplomatic Latin transcription.",
+      "collation": "Native print/table correct layout OCR129/16/6/27 defects; no conflicting numeral silently chosen."
+    },
+    "owned_cases": [
+      {
+        "kind": "triple subsets",
+        "participants": [
+          "first",
+          "second",
+          "third",
+          "fourth"
+        ],
+        "subsets_zero_based": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "written_totals": [
+          27,
+          31,
+          34,
+          37
+        ],
+        "written_sum": 129,
+        "written_multiplicity": 3,
+        "written_total": 43,
+        "written_subtractions": "43-27=16;43-31=12;43-34=9;43-37=6",
+        "written_table": [
+          12,
+          9,
+          6,
+          16
+        ],
+        "written_check": "12+9+6+16=43",
+        "modern_status": "unique"
+      },
+      {
+        "kind": "adjacent pairs, impossible",
+        "subsets_zero_based": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "written_totals": [
+          27,
+          31,
+          34,
+          37
+        ],
+        "written_complementary_cover_totals": [
+          61,
+          68
+        ],
+        "written_assertion": "impossible; insoluble"
+      },
+      {
+        "kind": "explicitly changed adjacent-pair case",
+        "written_totals": [
+          27,
+          31,
+          34,
+          30
+        ],
+        "written_changed_amount": "fourth+first changed37to30; other amounts retained in order",
+        "written_cover_totals": [
+          61,
+          61
+        ],
+        "written_instruction": "choose first holding at will from the27 shared with second",
+        "written_choice": 10,
+        "written_answer_table": [
+          10,
+          17,
+          14,
+          20
+        ],
+        "calculated_closing_check": "20+10=30",
+        "modern_complete_family": "(t,27-t,4+t,30-t); integer0<=t<=27 for nonnegative holdings;1<=t<=26 strictly positive"
+      }
+    ],
+    "prediction": "Same four totals under triple incidence determine one solution, while adjacent-pair incidence makes them inconsistent. Corrected pair incidence retains a degree of freedom; a unique-answer claim would be false. Solvability status must be bound by shared writing, not selected after a contradiction.",
+    "generated_complete_account": {
+      "status": "modern hypothetical example only",
+      "holdings": [
+        4,
+        7,
+        9,
+        12
+      ],
+      "triple_totals": [
+        20,
+        28,
+        25,
+        23
+      ],
+      "triple_sum": 96,
+      "total": 32,
+      "pair_totals": [
+        11,
+        16,
+        21,
+        16
+      ],
+      "pair_family": "(t,11-t,5+t,16-t), integer0<=t<=11",
+      "impossible_modified_pair_totals": [
+        11,
+        16,
+        21,
+        17
+      ],
+      "modified_cover_totals": [
+        32,
+        33
+      ]
+    },
+    "source_only_verification": "PASS: historical triple equations and total; all28 nonnegative pair solutions and printed t10; generated triple/pair paths and contradiction. No target computation.",
+    "symmetries": [
+      "Global participant renaming",
+      "Clause reorderings preserving assertion dependencies",
+      "Unit scaling if numeral/unit spelling unbound",
+      "Free t in pair case cannot be called identified",
+      "Negative cases are real source content but cannot become free posthoc exception labels"
+    ],
+    "predecessors": [
+      {
+        "path": "research_registry/proposals/raw_global_simultaneous_grouping.json",
+        "read": "full",
+        "scope": "IDEA354 CRT one-count residue ambiguity remains raw. New source binds multiple participant subset incidence and explicit impossible/free-choice/unique distinctions."
+      },
+      {
+        "path": "research_registry/proposals/translation_programs_20260912/work/W94/REPORT.md",
+        "read": "full",
+        "scope": "Fixed distinct-ratio extension fails; identity assumptions matter. No old forms, last-material pointers, masses or unmarked resets reused."
+      }
+    ],
+    "writing_contract": "Unknown. No numeral encoding, fixed field count, paragraph header or finite variable-length writer selected. Future shared grammar must express all explanation and status clauses in declared complete scope, with explicit case changes; no per-word free glosses.",
+    "missing_binding": "No independently owned target subset account or held-out semantic owner. Joint meaning/grouping recovery is permitted, but source arithmetic success alone cannot establish it.",
+    "duplicate_review": "Bounded route/context/ideas searches and closest primary reads; no exact same-declared-design returned, no exhaustive novelty claim.",
+    "status": "RAW_UNREVIEWED_SOURCE_ONLY_NOT_SELECTED",
+    "source_evidence": {
+      "path": "research_registry/work_batches/ten_hours_20260915/SUBSET_ACCOUNT_IDENTIFIABILITY_SUPPLY.md",
+      "line": 4,
+      "quote": "Status: RAW_UNREVIEWED_SOURCE_ONLY_NOT_SELECTED.",
+      "sha256": "f0880faac13ff8491254e7f582425f08ef71aabd38d5d8e86ec9f1f4c1a15aa2"
+    },
+    "access": "Existing source PDF only; published examples in W94 primary encountered for scope. No raw target text/image/cache, new admission, reserve or contact. No root metadata edits."
+  }
+}

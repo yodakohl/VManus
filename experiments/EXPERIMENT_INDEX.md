@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **976**
-- Experiment-associated tracked files: **18,849** (1.7 GiB)
+- Experiment-associated tracked files: **18,859** (1.7 GiB)
 - Structured GDT337+ experiments: **641**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT977 | Shared leaf and breadth projection of all GDT976 candidates | `REGISTERED_UNEXECUTED` | — | 14 | 2.3 MiB | 2 | STRUCTURED_YOLO |
+| GDT977 | GDT977_dioscorides_leaf_breadth_projection | `PARTIAL_FOUR_ATOM_BINDINGS_REMAIN` | [report](../experiments/yolo/gdt977_dioscorides_leaf_breadth_projection/REPORT.md) | 24 | 11.2 MiB | 2 | STRUCTURED_YOLO |
 | GDT976 | GDT976_dioscorides_shared_referent_projection | `PARTIAL_SHARED_REFERENT_BINDINGS_REMAIN` | [report](../experiments/yolo/gdt976_dioscorides_shared_referent_projection/REPORT.md) | 30 | 3.3 MiB | 2 | STRUCTURED_YOLO |
 | GDT975 | GDT975_tp15_published_example_consistency | `PUBLISHED_EXAMPLES_INCONSISTENT` | [report](../experiments/yolo/gdt975_tp15_published_example_consistency/REPORT.md) | 24 | 67.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT974 | GDT974 | `ALL_SELECTED_R2_HEADERS_CONTRADICTED` | [report](../experiments/yolo/gdt974_alloy_two_survivor_forced_num/REPORT.md) | 17 | 29.4 KiB | 1 | STRUCTURED_YOLO |
