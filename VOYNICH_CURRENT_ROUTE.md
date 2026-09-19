@@ -2,14 +2,14 @@
 Updated: 2026-09-19. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: GDT978 all-recurrence test unresolved; no automatic solver continuation.
-Latest decision: All 33 joint partitions UNKNOWN; 8,986 old rows unresolved; no new words/exclusions.
-Working files: experiments/yolo/gdt978_dioscorides_all_recurrent_content/REPORT.md
-Assumptions: Unchanged GDT963 source; 255 singleton obligations relaxed; reserves closed.
-Resume: Read GDT978 REPORT stop, then review a finite content/writing contract; no solver restart.
-Running: None; IDEA348 duplicate review adds no new proposal or target binding.
+Phase: fixed_test
+Status: active
+Task: GDT979 fixed partial-action compounds across whole exposed paragraphs.
+Latest decision: Test IDEA361's six-atom contract; old q-gloss and GDT978 routes stay parked.
+Working files: experiments/yolo/gdt979_partial_action_compound_accounts/PREREGISTRATION.md
+Assumptions: Modern action/code hypothesis; no meanings bound; reserves closed.
+Resume: Freeze, register, enumerate all cases and joint codes; close by 19:15 UTC.
+Running: Root prepares fixed test; raw idea producer done (361/362).
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

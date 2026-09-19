@@ -1,0 +1,61 @@
+{
+  "status": "PASS_REGISTRATION_ONLY",
+  "controls": [
+    {
+      "name": "valid_M",
+      "expected_error": null,
+      "observed_errors": [],
+      "pass": true
+    },
+    {
+      "name": "valid_D",
+      "expected_error": null,
+      "observed_errors": [],
+      "pass": true
+    },
+    {
+      "name": "prefix_collision",
+      "expected_error": "key_not_prefix_free",
+      "observed_errors": [
+        "key_not_prefix_free"
+      ],
+      "pass": true
+    },
+    {
+      "name": "undefined",
+      "expected_error": "undefined_transition",
+      "observed_errors": [
+        "undefined_transition",
+        "missing_L"
+      ],
+      "pass": true
+    },
+    {
+      "name": "cross_space",
+      "expected_error": "group_render_mismatch",
+      "observed_errors": [
+        "group_render_mismatch",
+        "group_render_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "name": "four_atom_group",
+      "expected_error": "group_atom_limit",
+      "observed_errors": [
+        "group_atom_limit"
+      ],
+      "pass": true
+    },
+    {
+      "name": "too_many_atoms",
+      "expected_error": "account_atom_limit",
+      "observed_errors": [
+        "account_atom_limit"
+      ],
+      "pass": true
+    }
+  ],
+  "lock_errors": [],
+  "claim_ceiling": "syntactic/state certificate validation only; no target or semantic evidence"
+}

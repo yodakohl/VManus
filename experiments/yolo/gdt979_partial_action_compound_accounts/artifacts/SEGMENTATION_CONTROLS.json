@@ -1,0 +1,163 @@
+{
+  "status": "PASS_SOURCE_ONLY_SYNTHETIC_CONTROLS",
+  "runner_sha256": "991fd66e5058c602a4ba5ff59d624727367b12aedc4c1e7e2a5b0d20ee54e396",
+  "specification_sha256": "fb3342f64f05d011c8ee3ffc11bdcabd0b215fa604601c67524f65f4d1bb6143",
+  "checker_sha256": "7a7fb755b2ced84b478fec539ae0190802a2ce4cf3716905f960d6bbaf224564",
+  "cases": [
+    {
+      "model": "M",
+      "words": [
+        "a"
+      ],
+      "status": "EXHAUSTED",
+      "primary_keys": 0,
+      "independent_keys": 0,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "M",
+      "words": [
+        "a",
+        "b",
+        "c"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 1,
+      "independent_keys": 1,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "M",
+      "words": [
+        "ab",
+        "cd"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 4,
+      "independent_keys": 4,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "M",
+      "words": [
+        "ab",
+        "ca",
+        "bd"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 3,
+      "independent_keys": 3,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "M",
+      "words": [
+        "abca",
+        "bc",
+        "ad"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 2,
+      "independent_keys": 2,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "M",
+      "words": [
+        "abc",
+        "def"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 25,
+      "independent_keys": 25,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "D",
+      "words": [
+        "a"
+      ],
+      "status": "EXHAUSTED",
+      "primary_keys": 0,
+      "independent_keys": 0,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "D",
+      "words": [
+        "a",
+        "b",
+        "c"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 2,
+      "independent_keys": 2,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "D",
+      "words": [
+        "ab",
+        "cd"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 6,
+      "independent_keys": 6,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "D",
+      "words": [
+        "ab",
+        "ca",
+        "bd"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 4,
+      "independent_keys": 4,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "D",
+      "words": [
+        "abca",
+        "bc",
+        "ad"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 2,
+      "independent_keys": 2,
+      "exact_key_set_match": true
+    },
+    {
+      "model": "D",
+      "words": [
+        "abc",
+        "def"
+      ],
+      "status": "SAT_COMPLETE",
+      "primary_keys": 20,
+      "independent_keys": 20,
+      "exact_key_set_match": true
+    }
+  ],
+  "total_matched_keys": 69,
+  "atom_group_boundaries": [
+    {
+      "groups": 24,
+      "status": "SAT_COMPLETE",
+      "witnesses": 1
+    },
+    {
+      "groups": 25,
+      "status": "EXHAUSTED",
+      "witnesses": 0
+    }
+  ],
+  "interrupted_trace": {
+    "status": "UNKNOWN",
+    "witnesses": 1,
+    "replay": true
+  },
+  "scope": "Synthetic controls only. Independent segmentation and assignment enumeration uses the same declared transition specification; it does not independently establish the source meanings. No target cases, results, joint-pair enumeration or data capacity were read. Finite controls support the code audit but are not a proof of all target search outcomes."
+}
