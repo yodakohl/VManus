@@ -2,14 +2,14 @@
 Updated: 2026-09-19. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: GDT977 complete: serial weak atom additions parked.
-Latest decision: 8986/8990 survive; all name values remain; 8990 certificates PASS.
-Working files: experiments/yolo/gdt977_dioscorides_leaf_breadth_projection/REPORT.md
-Assumptions: Only13/613 occurrences; no full code/meaning; reserves remain closed.
-Resume: Assess a stronger joint content/writing constraint; no one-noun rerun.
-Running: None; IDEA360 raw/unreviewed, not selected.
+Phase: fixed_test
+Status: active
+Task: GDT978 all recurrent content jointly:78types/358occurrences/208exact seams.
+Latest decision: GDT977 weak additions parked; only global singleton runs relaxed.
+Working files: experiments/yolo/gdt978_dioscorides_all_recurrent_content/PREREGISTRATION.md
+Assumptions: Unchanged963source/channel; full singleton code/meaning unproved; reserves closed.
+Resume: Register, run all33 four-record partitions, check certificates and close by18:39UTC.
+Running: Root;8bounded solver workers planned;source producer done/no new idea.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

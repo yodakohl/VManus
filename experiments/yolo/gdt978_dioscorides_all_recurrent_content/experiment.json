@@ -1,0 +1,176 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Necessary recurrent-code projection, not full singleton code or meaning; unknowns remain unknown, solver UNSAT not independently proved.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/run.py",
+    "validate": "python3 experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/validate.py"
+  },
+  "created": "2026-09-19",
+  "dependencies": [
+    "GDT963",
+    "GDT976",
+    "GDT977"
+  ],
+  "experiment_id": "GDT978",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt963_dioscorides_complete_content_code/src/SOURCE.json",
+      "role": "fixed_input",
+      "sha256": "7bd7ab3e49b39f0f97023e5c8c0d424945482da86a57eb4ddfc00cf76bd2e791"
+    },
+    {
+      "path": "experiments/yolo/gdt963_dioscorides_complete_content_code/src/ALIASES.json",
+      "role": "fixed_input",
+      "sha256": "cc8d705c58a0cbb537667b58ad3b97c46684ea530fe11488d51bf4ac6cdcbfa9"
+    },
+    {
+      "path": "experiments/yolo/gdt963_dioscorides_complete_content_code/METHOD.md",
+      "role": "fixed_input",
+      "sha256": "d77b23f40ca98f389fae4471fb8e0270a11885659778ec7b0810d62c4ec011ec"
+    },
+    {
+      "path": "experiments/yolo/gdt963_dioscorides_complete_content_code/REPORT.md",
+      "role": "fixed_input",
+      "sha256": "d4ea5da823969ff773aa256a372fa0cc736d9a827c0852f0d792bacd6aa3788e"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/DOMAINS.json",
+      "role": "fixed_input",
+      "sha256": "055f67162b4f6fe8c62ad4ca70ba4573cac649c34b55fdcea7072827fb202107"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/CANDIDATES.json.gz",
+      "role": "fixed_input",
+      "sha256": "f939335806a9a994b9de64d34486564bc448c985d041f116b7c84c636b9c8943"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/REPORT.md",
+      "role": "fixed_input",
+      "sha256": "f0f59c4b90717224b7161036c42e497703fdb5d1ab72d830ae1cef78863ad8c3"
+    },
+    {
+      "path": "experiments/yolo/gdt977_dioscorides_leaf_breadth_projection/artifacts/CASES.json.gz",
+      "role": "fixed_input",
+      "sha256": "0139d42825c466551125c7e357ab61a36d66493c9947f574cdc17453565adcf3"
+    },
+    {
+      "path": "experiments/yolo/gdt977_dioscorides_leaf_breadth_projection/artifacts/RESULT.json",
+      "role": "fixed_input",
+      "sha256": "4c0b0b1ab6d12c000bc27dad358717130bc3ad139fd0c1c970557f9d66b4fe56"
+    },
+    {
+      "path": "experiments/yolo/gdt977_dioscorides_leaf_breadth_projection/REPORT.md",
+      "role": "fixed_input",
+      "sha256": "aefc590c24a7610cd81db3ae0e7bf8c3b6d147a6feade0d3ebdc2b0f2f5af1d5"
+    },
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE.md",
+      "role": "fixed_input",
+      "sha256": "ed476f654c7481422fd8810a52d938f1d39b005545f54920604db4225eaab329"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "2945faed9444d4693c4beafb7563d17f4371ee551c512bc6c0cd379d0de0e13c"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "2b835f94a01527594807e7e0508e8692ee04b0d66bcfa37b26ce4f2352007e24"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "f9b115a0bffbdb580cd186efcc8334d33e45c66b823a009770a7c96b0a63273a"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/README.md",
+      "role": "source_or_artifact",
+      "sha256": "e7b993bbcd525cc8b4388f8320b2af82db619b2f27b7f02eda1e785d409c7901"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/artifacts/CONTROL_RESULTS.json",
+      "role": "source_or_artifact",
+      "sha256": "8039e3172276c441d3a735052129cddca5c074d86a0d2671523508e19363ffe9"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/artifacts/PARTITION_PREDICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "edee7d99d16d5d07aef0cd764261bcf95e62371b9d94ab49556cda8479ce4617"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "42f4a71776c697b6a49921724520a547e5e1d1acd8c93b7680c089164b725cc4"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/artifacts/SOURCE_CONSEQUENCES.tsv",
+      "role": "source_or_artifact",
+      "sha256": "360c25b85a4aaf8b8fc724232e8274e558acf627817612075e6b3d359851ca46"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/artifacts/SOURCE_VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "68a947a9877851095550341e46a5984466babf627d3a061971a124e34ebff0cd"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/SOURCE_MODEL.json",
+      "role": "source_or_artifact",
+      "sha256": "533d84ac8e0f0dc790e494071b98349f68f93e5986670440fbabd75809276de1"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "bee5ce6ef4206b04715f73bc92f0ecd5d2f295d04b95b1c23a4953e024fb67e0"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "d2d68d232c5a0bb2d35d16f8bd3d0df92c1bb04827e26bd35864337a4fa2d935"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/check_controls.py",
+      "role": "source_or_artifact",
+      "sha256": "6d0df92cfd774710732770a2d6f46c617da9cf51bcf16920d79a4969c85e8fdd"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/compile_source.py",
+      "role": "source_or_artifact",
+      "sha256": "dda60782c8c397919f67ec404a21ab28a468f62773e654583de9bf2b135c9a37"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/requirements.txt",
+      "role": "source_or_artifact",
+      "sha256": "f81467ba9da925a4f67eb7fea8e113f57177e1121f48f7f1390038ec62fa955d"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "5d3ba9b6d660882f45a06cc6d02b63b59b0e881817c3fd0365f53309e06077f6"
+    },
+    {
+      "path": "experiments/yolo/gdt978_dioscorides_all_recurrent_content/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "e28d0216f5abd24d74254b3ac77765047c286a03ca057489029cc1d3bc64c736"
+    }
+  ],
+  "question": "Can the unchanged four whole records jointly realize all78 recurrent atoms/358occurrences and208exact adjacent seams, relaxing only singleton runs?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "dioscorides_all_recurrent_content",
+  "status": "REGISTERED_UNEXECUTED",
+  "title": "All recurrent Dioscorides content under one shared code",
+  "updated": "2026-09-19",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
