@@ -1,0 +1,44 @@
+{
+  "record_id": "GDT981",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root; separate reconstruction by same author",
+  "assessment_basis": "primary_reports",
+  "reason": "Fixed state prerequisite F contradicts IT f17v; R remains consistent on four physical chains but only one leaf distinguishes the direction. No lexical states or participant identity established; original GDT949 meanings untested here.",
+  "relations": [],
+  "blockers": [
+    {
+      "code": "missing_independent_meaning_binding",
+      "detail": "Same participant, neutral intervening groups and state meanings are hypotheses; no independent semantic edges.",
+      "evidence": [
+        "experiments/yolo/gdt981_lr_phrase_state_carry/REPORT.md"
+      ]
+    },
+    {
+      "code": "insufficient_order_mobile_replication",
+      "detail": "Only f17 supplies a direction-sensitive chain; the other three cases cannot select an orientation.",
+      "evidence": [
+        "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/ORDER_CAPACITY.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "condition": "A whole-context interpretation with an independently different consequence separating state carry from an inventory/list, preserving all known cases."
+      },
+      {
+        "change": "new_binding",
+        "condition": "A second distinguishable physical case or an explicit participant/transition binding on admitted data, with prior exposure disclosed."
+      }
+    ],
+    "not_sufficient": [
+      "Counting the three order-neutral matches as confirmation",
+      "Treating R survival as a translated word",
+      "Changing the fixed F boundaries or silently adding resets",
+      "Relaxing entire-line eligibility to obtain extra copies of already known cases"
+    ]
+  }
+}

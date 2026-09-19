@@ -1,15 +1,15 @@
 # Voynich current route
-Updated: 2026-09-19. This is the sole live resume point; replace, never append history.
+Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
-Status: active
-Task: GDT981: whole-phrase state prerequisites for all22 old r/l families.
-Latest decision: Test paragraph-persistent state; no repair of failed number agreement.
-Working files: experiments/yolo/gdt981_lr_phrase_state_carry/METHOD.md
-Assumptions: Abstract states and participant carry hypothesized; all data exposed; reserves closed.
-Resume: Publish registration, run both endpoint directions, inspect every consequence.
-Running: Root GDT981; bounded idea producer finished with no new nomination.
+Phase: exploration
+Status: checkpoint
+Task: GDT981 executed: one direction-sensitive state-carry consequence on f17v.
+Latest decision: F contradicted; R uncontradicted but only one mobile leaf, no meaning selected.
+Working files: experiments/yolo/gdt981_lr_phrase_state_carry/REPORT.md
+Assumptions: Paragraph identity/neutral intervening words hypothetical; all data exposed; reserves closed.
+Resume: Review primaries for f75v.39 whole role-exchange versus state-list reading before selection.
+Running: None; root test and bounded idea producer finished.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

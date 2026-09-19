@@ -67,6 +67,46 @@
       "path": "experiments/yolo/gdt591_bath_episode_continuity/REPORT.md",
       "role": "fixed_input",
       "sha256": "db2b32d000fa8fc93059251a2bc04a428b7ee7b9fcb58f6a913b1e9aaeb40cdd"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "role": "post_result_source_diagnostic",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "role": "post_result_source_diagnostic",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "role": "post_result_source_diagnostic",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "role": "post_result_source_diagnostic",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "role": "post_result_source_diagnostic",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "role": "post_result_source_diagnostic",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    },
+    {
+      "path": "tools/relation_edge_intake.py",
+      "role": "post_result_gate_implementation",
+      "sha256": "fb8447470aa81ed608b90aedf7478893ddf6a445351aa12ab23c6fd725be3a47"
+    },
+    {
+      "path": "tools/vmanus_experiment.py",
+      "role": "post_result_gate_implementation",
+      "sha256": "0b84a5503f8d4aa2e1d23c449da1cd1b2d2059f4d7f74727c6b899928e59cce2"
     }
   ],
   "outputs": [
@@ -91,9 +131,89 @@
       "sha256": "0a3a3b86f8069ddff95a2284cb1557c4bee1c690a6e46cfd824fd15c4bf5f149"
     },
     {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/REPORT.md",
+      "role": "primary_report",
+      "sha256": "d3216bbedfb2e1aa06fd7c80c8abdb04d98b4eac1314503032a77b7a7729b779"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/CANDIDATES.json",
+      "role": "source_or_artifact",
+      "sha256": "1e4bfbf5f5eef0d0931257cad2ac0e92484354d9afeead862bb5378a59212fc9"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/CANDIDATE_TABLE.tsv",
+      "role": "source_or_artifact",
+      "sha256": "f0fdda53a6899fc5e90b5a78bea83e4a38b2f1a87321d8c7d91e26aee1505a7b"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/CHAINS.json",
+      "role": "source_or_artifact",
+      "sha256": "ca893ca415a1f1ee26c6bcc4ff6c0c8ef323ce0323a2fda4c0ee3abdeace20f8"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/COMPLETE_CHAIN_PARAGRAPHS.json",
+      "role": "source_or_artifact",
+      "sha256": "de6a4171382c18841cb4c1cdc927d2f2696656695391a1a4db860ea7bb266429"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/CONSEQUENCES.tsv",
+      "role": "source_or_artifact",
+      "sha256": "0d3e20361798d9e7b303b0f3f2967e2e8878b75a51852941d290010664ae2433"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/EDGE_GATE.json",
+      "role": "source_or_artifact",
+      "sha256": "4921f0de7f080c594b28e99eb236a432a0b56844208fe2e327753c649c25a9cb"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/EVENTS.json",
+      "role": "source_or_artifact",
+      "sha256": "03104852f6e987a71014e48f41c27872610f36d948a4445aa9c0cf9317e51f38"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/EXECUTION_RECEIPT.json",
+      "role": "source_or_artifact",
+      "sha256": "12442d331ca3a0721b45859bccc06b45bd77dffb1b0a4389ae6698e63b21470f"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/ORDER_CAPACITY.json",
+      "role": "source_or_artifact",
+      "sha256": "235787e0af9f477aff5568599b4b8fb7a071180bf077a58da9a7e3307eaa7a9a"
+    },
+    {
       "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/RELATION_PACKET.tsv",
+      "role": "source_or_artifact",
+      "sha256": "4b75f93b97981db6d97526fcef4fa80b10818151caa648c4828601a7a6be619f"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "c63db2fbd51caf67c809b96cb82f5f073a5b4e2fe88e342428aeb8d2ead3fcf6"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/SOURCE_DIAGNOSTIC.json",
+      "role": "source_or_artifact",
+      "sha256": "dff93eb7cb8f8aed07b280137be900e4baf976b8141f122891dc8f3507819dfb"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/SUPPLEMENT_INPUTS.json",
+      "role": "source_or_artifact",
+      "sha256": "11be5ad36c0b4c6c0a9e0b62eead6c3cd3adc5347ef56e6a3d4e1efaabb4ed3f"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "753806ab8d4978448084241e2058cff21826d0357379068218969599de243506"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/src/ASSESSMENT.json",
+      "role": "source_or_artifact",
+      "sha256": "5a374821f4a46d49f4782e97e53100be60834df8ab67b7eae181408aecd089e5"
     },
     {
       "path": "experiments/yolo/gdt981_lr_phrase_state_carry/src/SPEC.json",
@@ -106,9 +226,19 @@
       "sha256": "6e503b0023881ef35d5c19eb7c0f2123b81960e9d76cd70dc30b4e946249d9ae"
     },
     {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/src/finalize.py",
+      "role": "source_or_artifact",
+      "sha256": "e2c4bfaabd00022b4dfab53725848d0c5c71c17164e3ea6552c98e219ac88cdf"
+    },
+    {
       "path": "experiments/yolo/gdt981_lr_phrase_state_carry/src/run.py",
       "role": "source_or_artifact",
       "sha256": "24306351658fe9728e166dccb5f232a598927cb1b1c75197bfd661cd8356f286"
+    },
+    {
+      "path": "experiments/yolo/gdt981_lr_phrase_state_carry/src/supplement.py",
+      "role": "source_or_artifact",
+      "sha256": "36d531597cb99d7ed03dd44555253d8367b63b4f7a7dbaff4a050f72f4dd94c0"
     },
     {
       "path": "experiments/yolo/gdt981_lr_phrase_state_carry/src/validate.py",
@@ -123,11 +253,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "lr_phrase_state_carry",
-  "status": "REGISTERED_UNEXECUTED",
+  "status": "FIXED_STATE_CARRY_TEST_COMPLETE",
   "title": "Complete phrase state prerequisites across paragraphs",
   "updated": "2026-09-20",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt981_lr_phrase_state_carry/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
