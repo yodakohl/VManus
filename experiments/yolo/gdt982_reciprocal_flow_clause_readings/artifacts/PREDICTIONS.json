@@ -1,0 +1,158 @@
+[
+  {
+    "frame": "H0496",
+    "edition": "IT2a",
+    "locus": "f75v.39",
+    "leaf": 75,
+    "family": "qoka/o",
+    "model": "THEN_REPEAT",
+    "seed": true,
+    "status": "COHERENT_UNCONFIRMED",
+    "initial": "r",
+    "final": "r",
+    "trace": [
+      {
+        "iteration": 1,
+        "step": 1,
+        "state_before": "r",
+        "required_source": "r",
+        "destination": "l",
+        "enabled": true
+      },
+      {
+        "iteration": 1,
+        "step": 2,
+        "state_before": "l",
+        "required_source": "l",
+        "destination": "r",
+        "enabled": true
+      },
+      {
+        "iteration": 2,
+        "step": 1,
+        "state_before": "r",
+        "required_source": "r",
+        "destination": "l",
+        "enabled": true
+      },
+      {
+        "iteration": 2,
+        "step": 2,
+        "state_before": "l",
+        "required_source": "l",
+        "destination": "r",
+        "enabled": true
+      }
+    ],
+    "error": null
+  },
+  {
+    "frame": "H0496",
+    "edition": "IT2a",
+    "locus": "f75v.39",
+    "leaf": 75,
+    "family": "qoka/o",
+    "model": "THEN_ONCE",
+    "seed": true,
+    "status": "COHERENT_UNCONFIRMED",
+    "initial": "r",
+    "final": "r",
+    "trace": [
+      {
+        "iteration": 1,
+        "step": 1,
+        "state_before": "r",
+        "required_source": "r",
+        "destination": "l",
+        "enabled": true
+      },
+      {
+        "iteration": 1,
+        "step": 2,
+        "state_before": "l",
+        "required_source": "l",
+        "destination": "r",
+        "enabled": true
+      }
+    ],
+    "error": null
+  },
+  {
+    "frame": "H0496",
+    "edition": "IT2a",
+    "locus": "f75v.39",
+    "leaf": 75,
+    "family": "qoka/o",
+    "model": "NOT_REPEAT",
+    "seed": true,
+    "status": "INTERNAL_CONTRADICTION",
+    "initial": "r",
+    "final": "l",
+    "trace": [
+      {
+        "iteration": 1,
+        "step": 1,
+        "state_before": "r",
+        "required_source": "r",
+        "destination": "l",
+        "enabled": true
+      },
+      {
+        "iteration": 2,
+        "step": 1,
+        "state_before": "l",
+        "required_source": "r",
+        "destination": "l",
+        "enabled": false
+      }
+    ],
+    "error": "SOURCE_PREREQUISITE_FAIL"
+  },
+  {
+    "frame": "H0496",
+    "edition": "IT2a",
+    "locus": "f75v.39",
+    "leaf": 75,
+    "family": "qoka/o",
+    "model": "NOT_ONCE",
+    "seed": true,
+    "status": "COHERENT_UNCONFIRMED",
+    "initial": "r",
+    "final": "l",
+    "trace": [
+      {
+        "iteration": 1,
+        "step": 1,
+        "state_before": "r",
+        "required_source": "r",
+        "destination": "l",
+        "enabled": true
+      }
+    ],
+    "error": null
+  },
+  {
+    "frame": "H0496",
+    "edition": "IT2a",
+    "locus": "f75v.39",
+    "leaf": 75,
+    "family": "qoka/o",
+    "model": "DESCRIPTION",
+    "seed": true,
+    "status": "DESCRIPTIVE_UNSCORED",
+    "initial": null,
+    "final": null,
+    "trace": [],
+    "asserted_edges": [
+      [
+        "r",
+        "l"
+      ],
+      [
+        "l",
+        "r"
+      ]
+    ],
+    "error": null
+  }
+]

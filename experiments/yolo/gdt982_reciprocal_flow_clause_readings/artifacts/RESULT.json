@@ -1,0 +1,175 @@
+{
+  "status": "COMPLETE_TRIAL_READINGS_NO_INDEPENDENT_MEANING_SELECTION",
+  "confirmed_words": 0,
+  "significance_claim": false,
+  "reserve_access": false,
+  "target": "f75v.39",
+  "local_outcomes": [
+    {
+      "model": "THEN_REPEAT",
+      "status": "COHERENT_UNCONFIRMED",
+      "initial": "r",
+      "final": "r",
+      "trace": [
+        {
+          "iteration": 1,
+          "step": 1,
+          "state_before": "r",
+          "required_source": "r",
+          "destination": "l",
+          "enabled": true
+        },
+        {
+          "iteration": 1,
+          "step": 2,
+          "state_before": "l",
+          "required_source": "l",
+          "destination": "r",
+          "enabled": true
+        },
+        {
+          "iteration": 2,
+          "step": 1,
+          "state_before": "r",
+          "required_source": "r",
+          "destination": "l",
+          "enabled": true
+        },
+        {
+          "iteration": 2,
+          "step": 2,
+          "state_before": "l",
+          "required_source": "l",
+          "destination": "r",
+          "enabled": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "THEN_ONCE",
+      "status": "COHERENT_UNCONFIRMED",
+      "initial": "r",
+      "final": "r",
+      "trace": [
+        {
+          "iteration": 1,
+          "step": 1,
+          "state_before": "r",
+          "required_source": "r",
+          "destination": "l",
+          "enabled": true
+        },
+        {
+          "iteration": 1,
+          "step": 2,
+          "state_before": "l",
+          "required_source": "l",
+          "destination": "r",
+          "enabled": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "NOT_REPEAT",
+      "status": "INTERNAL_CONTRADICTION",
+      "initial": "r",
+      "final": "l",
+      "trace": [
+        {
+          "iteration": 1,
+          "step": 1,
+          "state_before": "r",
+          "required_source": "r",
+          "destination": "l",
+          "enabled": true
+        },
+        {
+          "iteration": 2,
+          "step": 1,
+          "state_before": "l",
+          "required_source": "r",
+          "destination": "l",
+          "enabled": false
+        }
+      ],
+      "error": "SOURCE_PREREQUISITE_FAIL"
+    },
+    {
+      "model": "NOT_ONCE",
+      "status": "COHERENT_UNCONFIRMED",
+      "initial": "r",
+      "final": "l",
+      "trace": [
+        {
+          "iteration": 1,
+          "step": 1,
+          "state_before": "r",
+          "required_source": "r",
+          "destination": "l",
+          "enabled": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "DESCRIPTION",
+      "status": "DESCRIPTIVE_UNSCORED",
+      "initial": null,
+      "final": null,
+      "trace": [],
+      "asserted_edges": [
+        [
+          "r",
+          "l"
+        ],
+        [
+          "l",
+          "r"
+        ]
+      ],
+      "error": null
+    }
+  ],
+  "panels": {
+    "ZL3b": {
+      "paragraphs": 659,
+      "all_chey": 297,
+      "frame_statuses": {
+        "INELIGIBLE_LINE": 193,
+        "NO_TWO_SIDED_SAME_LINE_WINDOW": 45,
+        "OUTSIDE_FIXED_FAMILY_INVENTORY": 59
+      },
+      "qualifying_frames": 0,
+      "outside_seed_frames": 0,
+      "physical_leaves": [],
+      "independent_meaning_confirmation": 0
+    },
+    "IT2a": {
+      "paragraphs": 690,
+      "all_chey": 294,
+      "frame_statuses": {
+        "OUTSIDE_FIXED_FAMILY_INVENTORY": 167,
+        "NO_TWO_SIDED_SAME_LINE_WINDOW": 98,
+        "INELIGIBLE_LINE": 28,
+        "QUALIFYING": 1
+      },
+      "qualifying_frames": 1,
+      "outside_seed_frames": 0,
+      "physical_leaves": [
+        75
+      ],
+      "independent_meaning_confirmation": 0
+    },
+    "RF1b": {
+      "paragraphs": 0,
+      "all_chey": 0,
+      "frame_statuses": {},
+      "qualifying_frames": 0,
+      "outside_seed_frames": 0,
+      "physical_leaves": [],
+      "independent_meaning_confirmation": 0
+    }
+  }
+}

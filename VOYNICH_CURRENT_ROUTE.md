@@ -3,13 +3,13 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: active
-Task: GDT982: five complete f75v.39 drafts; joint chey/aiin consequences.
-Latest decision: Keep then/not and repeat/once jointly open; image does not select direction.
-Working files: experiments/yolo/gdt982_reciprocal_flow_clause_readings/METHOD.md
-Assumptions: All eleven whole-word values hypothetical; same portion/loop scope assumed; reserves closed.
-Resume: Register models, execute local traces and fixed all-chey bilateral-frame census.
-Running: Root GDT982; bounded idea producer finished without new nomination.
+Status: checkpoint
+Task: GDT982: five complete f75v.39 drafts; no external bilateral chey frame.
+Latest decision: NOT_REPEAT internally fails; three process rivals plus description stay unconfirmed.
+Working files: experiments/yolo/gdt982_reciprocal_flow_clause_readings/REPORT.md
+Assumptions: Eleven word values guessed; singleton opener; paragraph mostly unread; reserves closed.
+Resume: Review qoqokeey versus qokeey qokeey with GDT751/820/822 and W70; require a new falsifier.
+Running: None; root test and bounded producer finished.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
