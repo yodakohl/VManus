@@ -2,14 +2,14 @@
 Updated: 2026-09-19. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
-Status: active
-Task: GDT978 all recurrent content jointly:78types/358occurrences/208exact seams.
-Latest decision: GDT977 weak additions parked; only global singleton runs relaxed.
-Working files: experiments/yolo/gdt978_dioscorides_all_recurrent_content/PREREGISTRATION.md
-Assumptions: Unchanged963source/channel; full singleton code/meaning unproved; reserves closed.
-Resume: Register, run all33 four-record partitions, check certificates and close by18:39UTC.
-Running: Root;8bounded solver workers planned;source producer done/no new idea.
+Phase: exploration
+Status: checkpoint
+Task: GDT978 all-recurrence test unresolved; no automatic solver continuation.
+Latest decision: All 33 joint partitions UNKNOWN; 8,986 old rows unresolved; no new words/exclusions.
+Working files: experiments/yolo/gdt978_dioscorides_all_recurrent_content/REPORT.md
+Assumptions: Unchanged GDT963 source; 255 singleton obligations relaxed; reserves closed.
+Resume: Read GDT978 REPORT stop, then review a finite content/writing contract; no solver restart.
+Running: None; IDEA348 duplicate review adds no new proposal or target binding.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
