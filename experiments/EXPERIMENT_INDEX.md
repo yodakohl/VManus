@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **978**
-- Experiment-associated tracked files: **18,901** (1.7 GiB)
+- Experiment-associated tracked files: **18,914** (1.7 GiB)
 - Structured GDT337+ experiments: **643**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT979 | Complete partial-action compound accounts under one shared code | `REGISTERED_UNEXECUTED` | — | 14 | 55.8 KiB | 7 | STRUCTURED_YOLO |
+| GDT979 | GDT979_partial_action_compound_accounts | `NO_LITERAL_JOINT_FIT_SOURCE_UNCERTAINTY_RETAINED` | [report](../experiments/yolo/gdt979_partial_action_compound_accounts/REPORT.md) | 27 | 901.0 KiB | 7 | STRUCTURED_YOLO |
 | GDT978 | GDT978_dioscorides_all_recurrent_content | `BOUNDED_RECURRENT_SEARCH_UNRESOLVED` | [report](../experiments/yolo/gdt978_dioscorides_all_recurrent_content/REPORT.md) | 28 | 758.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT977 | GDT977_dioscorides_leaf_breadth_projection | `PARTIAL_FOUR_ATOM_BINDINGS_REMAIN` | [report](../experiments/yolo/gdt977_dioscorides_leaf_breadth_projection/REPORT.md) | 24 | 11.2 MiB | 2 | STRUCTURED_YOLO |
 | GDT976 | GDT976_dioscorides_shared_referent_projection | `PARTIAL_SHARED_REFERENT_BINDINGS_REMAIN` | [report](../experiments/yolo/gdt976_dioscorides_shared_referent_projection/REPORT.md) | 30 | 3.3 MiB | 2 | STRUCTURED_YOLO |

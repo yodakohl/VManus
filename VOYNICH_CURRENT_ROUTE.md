@@ -2,14 +2,14 @@
 Updated: 2026-09-19. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
-Status: active
-Task: GDT979 fixed partial-action compounds across whole exposed paragraphs.
-Latest decision: Test IDEA361's six-atom contract; old q-gloss and GDT978 routes stay parked.
-Working files: experiments/yolo/gdt979_partial_action_compound_accounts/PREREGISTRATION.md
-Assumptions: Modern action/code hypothesis; no meanings bound; reserves closed.
-Resume: Freeze, register, enumerate all cases and joint codes; close by 19:15 UTC.
-Running: Root prepares fixed test; raw idea producer done (361/362).
+Phase: exploration
+Status: checkpoint
+Task: GDT979 closed: local compound fits cannot share one cross-leaf account code.
+Latest decision: M168/D10 local keys, zero joint fits; source uncertainty retained; zero words.
+Working files: experiments/yolo/gdt979_partial_action_compound_accounts/REPORT.md
+Assumptions: Six stipulated actions, no bound meanings; reserves closed.
+Resume: Review RAW IDEA362 against GDT879/881/346 before selection; no GDT979 expansion.
+Running: None; GDT979 computation, validation and table audit finished.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
