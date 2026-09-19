@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: GDT982: five complete f75v.39 drafts; no external bilateral chey frame.
-Latest decision: NOT_REPEAT internally fails; three process rivals plus description stay unconfirmed.
-Working files: experiments/yolo/gdt982_reciprocal_flow_clause_readings/REPORT.md
-Assumptions: Eleven word values guessed; singleton opener; paragraph mostly unread; reserves closed.
-Resume: Review qoqokeey versus qokeey qokeey with GDT751/820/822 and W70; require a new falsifier.
-Running: None; root test and bounded producer finished.
+Phase: fixed_test
+Status: active
+Task: GDT983: compare DUP/ECHO/SINGLE predictions for all qoqo-initial forms.
+Latest decision: Wider admitted coverage and fixed family warrant one bounded spelling test.
+Working files: experiments/yolo/gdt983_qo_reduplication_expansion/METHOD.md
+Assumptions: Shared flanks do not imply synonymy; all text exposed; no inherited heat/fire meaning.
+Resume: Publish frozen protocol, execute census, validate all candidates; reassess without relaxing.
+Running: Root registration; bounded idea producer; ten-hour block starts23:05UTC Sep19.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -1,0 +1,16 @@
+import argparse,datetime,hashlib,json
+from pathlib import Path
+E=Path(__file__).resolve().parents[1];R=E.parents[2]
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def dump(p,x):p.write_text(json.dumps(x,indent=2,sort_keys=True)+'\n')
+a=argparse.ArgumentParser();a.add_argument('--register',action='store_true');args=a.parse_args()
+up=['experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json', 'experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json', 'experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json', 'experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json', 'experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json', 'experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json', 'experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json', 'experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json', 'experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md', 'experiments/yolo/gdt820_grouped_predicate_repetition_context/REPORT.md', 'experiments/yolo/gdt822_qokeey_physical_fire_context/WORKING_THEORY.md', 'experiments/yolo/gdt863_standalone_qo_immediate_echo/REPORT.md', 'experiments/yolo/gdt910_short_long_context_substitution/REPORT.md', 'experiments/yolo/gdt982_reciprocal_flow_clause_readings/REPORT.md', 'research_registry/proposals/translation_programs_20260912/work/W70/REPORT.md', 'research_registry/decisions/mr_root_three_design_review.json']
+lock=E/'PREREG_LOCK.json'
+if args.register:
+ assert not lock.exists()
+ paths=[p for p in sorted(E.rglob('*')) if p.is_file() and p.name!='experiment.json' and '__pycache__' not in p.parts]+[R/n for n in up]
+ dump(lock,{'registered_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'stage':'FIXED_SPELLING_EXPANSION_CENSUS','files':{p.relative_to(R).as_posix():sha(p) for p in paths}})
+for n,h in json.loads(lock.read_text())['files'].items():assert sha(R/n)==h,n
+m=json.loads((E/'experiment.json').read_text());rr=E/'artifacts/RESULT.json';vv=E/'artifacts/VALIDATION.json';rel=E.relative_to(R).as_posix()
+m.update(title='Fixed qo-onset expansion comparison',question='Do three fixed expansions of all qoqo-initial forms recur in identical immediate flanks across physical leaves in the admitted text?',status=json.loads(rr.read_text())['status'] if rr.exists() else 'REGISTERED_UNEXECUTED',claim_ceiling='Conditional exposed-text test; no independent semantic relation, significance, reserved access or translated word.',dependencies=['GDT751','GDT820','GDT822','GDT863','GDT910','GDT915','GDT928','GDT982'],inputs=[{'path':n,'sha256':sha(R/n),'role':'fixed_input'} for n in up],outputs=[{'path':p.relative_to(R).as_posix(),'sha256':sha(p),'role':'primary_report' if p.name=='REPORT.md' else 'source_or_artifact'} for p in sorted(E.rglob('*')) if p.is_file() and p.name!='experiment.json' and '__pycache__' not in p.parts],validation={'status':json.loads(vv.read_text())['status'] if vv.exists() else 'NOT_RUN','artifact':rel+'/artifacts/VALIDATION.json' if vv.exists() else None})
+dump(E/'experiment.json',m);print(m['status'])
