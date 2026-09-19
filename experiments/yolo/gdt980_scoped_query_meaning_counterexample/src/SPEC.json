@@ -1,0 +1,263 @@
+{
+  "source_scene": {
+    "nodes": [
+      "field",
+      "lion",
+      "border",
+      "roundel_group"
+    ],
+    "parent": {
+      "lion": "field",
+      "border": "field",
+      "roundel_group": "border"
+    },
+    "colors": {
+      "field": "silver",
+      "lion": "red",
+      "border": "black",
+      "roundel_group": "gold"
+    }
+  },
+  "atoms": {
+    "FIELD": "push singleton field",
+    "LION": "push singleton lion",
+    "BORDER": "push singleton border",
+    "ROUND": "push singleton roundel_group",
+    "PARENT": "replace top set by union of parents; root has no parent",
+    "SILVER": "filter top set by silver",
+    "RED": "filter top set by red",
+    "BLACK": "filter top set by black",
+    "GOLD": "filter top set by gold",
+    "EQ": "pop two sets and require exact equality",
+    "NE": "pop one set and require nonempty"
+  },
+  "grammar": "Each query starts with one selector then0..3 unary operations. Each assertion is query NE or query query EQ. A complete account has1..8 assertions, empty stack between assertions and at end, and includes every declared node selector somewhere. The writing-family group boundaries may divide or combine query fragments, but every group still has1..3 whole atom codes. No stack underflow, ignored atom or free synonym is allowed.",
+  "nodes": [
+    "field",
+    "lion",
+    "border",
+    "roundel_group"
+  ],
+  "colors": [
+    "silver",
+    "red",
+    "black",
+    "gold"
+  ],
+  "root": "field",
+  "world_class": "Every labeled rooted tree on these four nodes, rooted at field, and every independent assignment of four named colors to four nodes. Same nodes in every world.",
+  "fixed_code": {
+    "FIELD": "a",
+    "LION": "b",
+    "BORDER": "c",
+    "ROUND": "d",
+    "PARENT": "e",
+    "SILVER": "f",
+    "RED": "g",
+    "BLACK": "h",
+    "GOLD": "i",
+    "EQ": "j",
+    "NE": "k"
+  },
+  "programs": {
+    "source_description": [
+      [
+        "FIELD",
+        "SILVER",
+        "NE"
+      ],
+      [
+        "LION",
+        "RED",
+        "NE"
+      ],
+      [
+        "BORDER",
+        "BLACK",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "PARENT",
+        "BORDER",
+        "EQ"
+      ],
+      [
+        "LION",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "BORDER",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ]
+    ],
+    "source_plus_correct_scope": [
+      [
+        "FIELD",
+        "SILVER",
+        "NE"
+      ],
+      [
+        "LION",
+        "RED",
+        "NE"
+      ],
+      [
+        "BORDER",
+        "BLACK",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "PARENT",
+        "BORDER",
+        "EQ"
+      ],
+      [
+        "LION",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "BORDER",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "PARENT",
+        "BORDER",
+        "EQ"
+      ]
+    ],
+    "source_plus_wrong_scope": [
+      [
+        "FIELD",
+        "SILVER",
+        "NE"
+      ],
+      [
+        "LION",
+        "RED",
+        "NE"
+      ],
+      [
+        "BORDER",
+        "BLACK",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "PARENT",
+        "BORDER",
+        "EQ"
+      ],
+      [
+        "LION",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "BORDER",
+        "PARENT",
+        "FIELD",
+        "EQ"
+      ],
+      [
+        "ROUND",
+        "PARENT",
+        "GOLD",
+        "BORDER",
+        "EQ"
+      ]
+    ],
+    "selector_coverage_only": [
+      [
+        "FIELD",
+        "NE"
+      ],
+      [
+        "LION",
+        "NE"
+      ],
+      [
+        "BORDER",
+        "NE"
+      ],
+      [
+        "ROUND",
+        "NE"
+      ]
+    ],
+    "all_atoms_self_equalities": [
+      [
+        "FIELD",
+        "SILVER",
+        "FIELD",
+        "SILVER",
+        "EQ"
+      ],
+      [
+        "LION",
+        "RED",
+        "LION",
+        "RED",
+        "EQ"
+      ],
+      [
+        "BORDER",
+        "BLACK",
+        "BORDER",
+        "BLACK",
+        "EQ"
+      ],
+      [
+        "ROUND",
+        "GOLD",
+        "PARENT",
+        "ROUND",
+        "GOLD",
+        "PARENT",
+        "EQ"
+      ],
+      [
+        "FIELD",
+        "NE"
+      ]
+    ]
+  },
+  "meaning_requirement": "Does accepting all assertions of a legal whole account entail the restricted source colors and parent relations?",
+  "limits": {
+    "max_assertions": 8,
+    "max_unary_per_query": 3,
+    "max_atoms_per_group": 3,
+    "code_length": [
+      1,
+      3
+    ]
+  },
+  "known_before_execution": "Selector coverage and all-atom self-equalities are expected to accept wrong colors/parents. This is an explicit adversarial counterexample, not a blind empirical discovery."
+}

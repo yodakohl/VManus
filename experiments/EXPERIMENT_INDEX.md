@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **978**
-- Experiment-associated tracked files: **18,914** (1.7 GiB)
-- Structured GDT337+ experiments: **643**
+- Experiments indexed: **979**
+- Experiment-associated tracked files: **18,924** (1.7 GiB)
+- Structured GDT337+ experiments: **644**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT980 | Source-only counterexample to scoped-query meaning sufficiency | `REGISTERED_UNEXECUTED` | — | 10 | 28.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT979 | GDT979_partial_action_compound_accounts | `NO_LITERAL_JOINT_FIT_SOURCE_UNCERTAINTY_RETAINED` | [report](../experiments/yolo/gdt979_partial_action_compound_accounts/REPORT.md) | 27 | 901.0 KiB | 7 | STRUCTURED_YOLO |
 | GDT978 | GDT978_dioscorides_all_recurrent_content | `BOUNDED_RECURRENT_SEARCH_UNRESOLVED` | [report](../experiments/yolo/gdt978_dioscorides_all_recurrent_content/REPORT.md) | 28 | 758.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT977 | GDT977_dioscorides_leaf_breadth_projection | `PARTIAL_FOUR_ATOM_BINDINGS_REMAIN` | [report](../experiments/yolo/gdt977_dioscorides_leaf_breadth_projection/REPORT.md) | 24 | 11.2 MiB | 2 | STRUCTURED_YOLO |

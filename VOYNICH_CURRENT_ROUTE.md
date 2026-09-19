@@ -2,14 +2,14 @@
 Updated: 2026-09-19. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: GDT979 closed: local compound fits cannot share one cross-leaf account code.
-Latest decision: M168/D10 local keys, zero joint fits; source uncertainty retained; zero words.
-Working files: experiments/yolo/gdt979_partial_action_compound_accounts/REPORT.md
-Assumptions: Six stipulated actions, no bound meanings; reserves closed.
-Resume: Review RAW IDEA362 against GDT879/881/346 before selection; no GDT979 expansion.
-Running: None; GDT979 computation, validation and table audit finished.
+Phase: fixed_test
+Status: active
+Task: GDT980 source-only counterexample to IDEA362 complete-query meaning criterion.
+Latest decision: Check all-atom tautology against fixed content control; no target nominated.
+Working files: experiments/yolo/gdt980_scoped_query_meaning_counterexample/METHOD.md
+Assumptions: Four-node source scene, fixed semantics; zero words; reserves closed.
+Resume: Register and evaluate five accounts on all finite worlds; publish by 21:30 UTC.
+Running: Root source audit; bounded raw idea producer replenishes two proposals.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
