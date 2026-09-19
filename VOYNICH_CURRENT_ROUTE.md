@@ -4,12 +4,12 @@ Updated: 2026-09-19. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT980 source control closed; IDEA362 remains target-unselected.
-Latest decision: Full content selects1/4096 scenes; all-atom tautology4096; no target finding.
-Working files: experiments/yolo/gdt980_scoped_query_meaning_counterexample/REPORT.md
-Assumptions: Stipulated source semantics, no bound Voynich words; reserves closed.
-Resume: Review RAW IDEA363 against IDEA360/W94/GDT970 before selection; no numeral reuse.
-Running: None; five-account control validated, RAW ideas363/364 registered.
+Task: IDEA363 reviewed, not tested; whole target realization still missing.
+Latest decision: Retain net/gross source contrast; no more fixed-role arithmetic controls.
+Working files: research_registry/work_batches/ten_hours_20260915/NET_CONTRIBUTION_TARGET_SELECTION_20260919.md
+Assumptions: Joint hypothetical meanings allowed; no new word or target finding; reserves closed.
+Resume: Review RAW IDEA364 with IDEA142/GDT970; nominate a target consequence before control work.
+Running: None; root review and bounded target-nomination producer finished.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
