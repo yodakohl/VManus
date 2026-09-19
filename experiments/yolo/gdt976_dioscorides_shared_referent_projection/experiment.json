@@ -6,7 +6,7 @@
   "claim_ceiling": "Necessary two-name projection only;omitted atom equalities relaxed;no full code, plant meaning, significance or independent confirmation.",
   "commands": {
     "run": "python3 experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/run.py",
-    "validate": "python3 experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/validate.py --full"
+    "validate": "python3 experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/validate_projection.py --full"
   },
   "created": "2026-09-15",
   "dependencies": [
@@ -88,14 +88,99 @@
       "sha256": "ef3e3505aecee8fd123cf14c048f4ecb781d336a06f95f21f12bb4411c4d6177"
     },
     {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/REPORT.md",
+      "role": "primary_report",
+      "sha256": "f0f59c4b90717224b7161036c42e497703fdb5d1ab72d830ae1cef78863ad8c3"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/ACORUS_SUPPORT.json.gz",
+      "role": "source_or_artifact",
+      "sha256": "f2fc44530d75ad512a2c26cd950af7f5daf2fcd4a6f7066b3836cdd5182b6228"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/CANDIDATES.json.gz",
+      "role": "source_or_artifact",
+      "sha256": "f939335806a9a994b9de64d34486564bc448c985d041f116b7c84c636b9c8943"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/CANDIDATE_PREDICTIONS.tsv",
+      "role": "source_or_artifact",
+      "sha256": "c51c2c28fe15379d1a023d75f8e3b3b513eb1a191f6f8e7a91724135de5a0e46"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/CLOSURE_CHECKS.json",
+      "role": "source_or_artifact",
+      "sha256": "250952cf97c3766dd451a6c1bf46522bc89f2a038bb754c05d5e8736cff6784a"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/CODE_CLASSES.tsv",
+      "role": "source_or_artifact",
+      "sha256": "1c7c843aa16ea4ce8b3693f62b52687ee5c3803662c61d4f11234820f93ac7d1"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/DOMAINS.json",
+      "role": "source_or_artifact",
+      "sha256": "055f67162b4f6fe8c62ad4ca70ba4573cac649c34b55fdcea7072827fb202107"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/EXECUTION_RECEIPT.json",
+      "role": "source_or_artifact",
+      "sha256": "9775cb41d553d1b26b0785333206d560504578acaa2bec739385731d1b9fadf6"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/PAGE_PAIRS.tsv",
+      "role": "source_or_artifact",
+      "sha256": "a99ce4fabb6a88f88557ef66802eefec0cbee186d94cdcb0d0faf2e1d252f6bf"
+    },
+    {
       "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
     },
     {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "4f5d023739a411d752b067c858f641e82c347f593f89c539c08b141e05d51aca"
+    },
+    {
       "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/SOURCE_PREDICTIONS.tsv",
       "role": "source_or_artifact",
       "sha256": "0dbd1c863d9ec82af81fe10fc8edebc4a6fb68491f17fbbabd733d15bac15225"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "fa1c7b3120e191d0172eecc4f75e3b2dde8863d2ae0b24678dfcbff45686b017"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/VALIDATION_CORRECTIVE_FIRST.json",
+      "role": "source_or_artifact",
+      "sha256": "e115f6e402cc280465cfd6dcc56e526bf1ff5b5ecd8be81de760312261b2f4b9"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/VALIDATION_CORRECTIVE_SECOND.json",
+      "role": "source_or_artifact",
+      "sha256": "18ce61b79896bb78dcb73d5fb017c5fc621b600100e29f62c2bd32a417a7847d"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/VALIDATION_INITIAL.json",
+      "role": "source_or_artifact",
+      "sha256": "7eca6a1cccd6e3491d7ec553c6de4952c8cc777fe026241676630d9fd4e66f85"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/VALIDATOR_CACHE_CORRECTION.json",
+      "role": "source_or_artifact",
+      "sha256": "29db9553d2dffb66b41ae5a9ad145fcecf827b0649254cc41906605e3aa82963"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/ASSESSMENT_GDT976.json",
+      "role": "source_or_artifact",
+      "sha256": "87ae2a6ec8492fff5a611e336779c22d5d2ba49a8c2617accf6263ed6ef2ceb3"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/ASSESSMENT_IDEA000357.json",
+      "role": "source_or_artifact",
+      "sha256": "bbe7cc93a38e63ecbe64682bc9a3132975f53387dcd3ff482d02b97fe69a6ad1"
     },
     {
       "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/SPEC.json",
@@ -108,6 +193,11 @@
       "sha256": "8f9478028a5167536fcedd23a075f6c36ccfd14b23a34487460e0b38c50c97ea"
     },
     {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/finalize.py",
+      "role": "source_or_artifact",
+      "sha256": "21636669f4d2e5ea5dba8363ad0a3141f773d8d066af675d2b46aec18befad27"
+    },
+    {
       "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/run.py",
       "role": "source_or_artifact",
       "sha256": "7e04a4fa6ae92536e5e9227a66614ee7485488d5dea159604698cd2e6fcffb0f"
@@ -116,6 +206,11 @@
       "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/validate.py",
       "role": "source_or_artifact",
       "sha256": "cb3387788ec92bece0e17ad2a98830bbc976f3f44a467237e05ddc64e53a70cf"
+    },
+    {
+      "path": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/src/validate_projection.py",
+      "role": "source_or_artifact",
+      "sha256": "241356614144f2eb17b70ad52b5dfc6dd438762df615019efe675833dbef5d78"
     }
   ],
   "question": "Do any unchanged963whole-page assignments admit both repeated name codes with all source-implied gaps and distinct leaves?",
@@ -125,11 +220,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "dioscorides_shared_referent_projection",
-  "status": "REGISTERED_UNEXECUTED",
+  "status": "PARTIAL_SHARED_REFERENT_BINDINGS_REMAIN",
   "title": "Shared referent projection of complete Dioscorides content code",
   "updated": "2026-09-15",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt976_dioscorides_shared_referent_projection/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

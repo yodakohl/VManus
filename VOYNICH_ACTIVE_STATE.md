@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT976 NECESSARY SHARED-NAME PROJECTION: 8990 partial code/page bindings in1320classes; IT3300pagepairs=1111projection contradictions+2124partial+65sameleaf. IRIS52values/XIPHION138;6/613source occurrences only. Full code untested; separate corrected validation PASS, disclosed failures retained; original963UNKNOWN unchanged. Next separately declare shared LEAF/BROAD constraint against all survivors;no name selected,0words/independent, reserves closed. Primary: experiments/yolo/gdt976_dioscorides_shared_referent_projection/REPORT.md
+
 GDT975 EXTERNAL SOURCE AUDIT: all8 printed TP15 AppendixF pairs checked using exact documented fragment:7contradictions/1match;3technical traces reproduce. k remains unknown;no complete table or paragraph test. Withhold semantic follow-up pending consistent fixed source;not tachygraphy/language refutation.0words/independent;reserves closed. Primary: experiments/yolo/gdt975_tp15_published_example_consistency/REPORT.md
 
 GDT974 R2CLOSURE: both GDT973weak-form survivors length10force repeatedNUMat3/6/9;actualh-i-e/h-d-i contradict. Exploratory exposed-header audit;7checksPASS. R0/R1/R2closed in561literal panel;788nonliteral unknown,RFno fences;no automaticR3. GDT973original2survivorsunchanged;0words/confirmation. Primary: experiments/yolo/gdt974_alloy_two_survivor_forced_num/REPORT.md

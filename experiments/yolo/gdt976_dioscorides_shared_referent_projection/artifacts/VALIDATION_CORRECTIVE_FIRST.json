@@ -1,0 +1,98 @@
+{
+  "registration": {
+    "prereg_exists": true,
+    "method_exists": true,
+    "spec_exists": true,
+    "lock_exists": true,
+    "target_cache_opened": false,
+    "lock_file_count": 19,
+    "lock_hashes": true,
+    "errors": [],
+    "prereg_sha256": "cfd4d33710cde0d6e6cdc025e5018359018438a3881af022f9e67c80f7433199",
+    "method_sha256": "13966a16d0926a96591d7b0d6600517ae32b4f2e52bf9de05b48a4a4b9f44a95",
+    "spec_sha256": "dda0418357fee161df421cbe7bdf811271e0b3cc9624ce5f1987f83f2a58b951",
+    "status": "PASS_REGISTRATION_ONLY"
+  },
+  "source": {
+    "source_exists": true,
+    "source_schema": true,
+    "source_record_order": true,
+    "source_projection": true,
+    "source_errors": [],
+    "source_sha256": "7bd7ab3e49b39f0f97023e5c8c0d424945482da86a57eb4ddfc00cf76bd2e791",
+    "spec_sha256": "dda0418357fee161df421cbe7bdf811271e0b3cc9624ce5f1987f83f2a58b951",
+    "regex_fixture": true,
+    "status": "PASS_SOURCE_PROJECTION"
+  },
+  "source_counts": {
+    "I.1": {
+      "source_atoms": 265,
+      "events": [
+        "IRIS",
+        "XIPHION"
+      ],
+      "gaps_before": [
+        0,
+        4
+      ],
+      "tail": 259
+    },
+    "I.2": {
+      "source_atoms": 120,
+      "events": [
+        "IRIS",
+        "IRIS"
+      ],
+      "gaps_before": [
+        6,
+        92
+      ],
+      "tail": 20
+    },
+    "I.3": {
+      "source_atoms": 102,
+      "events": [],
+      "gaps_before": [],
+      "tail": 102
+    },
+    "IV.20": {
+      "source_atoms": 126,
+      "events": [
+        "XIPHION",
+        "IRIS"
+      ],
+      "gaps_before": [
+        0,
+        14
+      ],
+      "tail": 110
+    }
+  },
+  "target_frames": 357,
+  "comparison": {
+    "status": "FAIL",
+    "checks": {
+      "frames_complete": true,
+      "candidate_table_complete": true,
+      "DOMAINS.json": true,
+      "CANDIDATES.json.gz": true,
+      "ACORUS_SUPPORT.json.gz": false,
+      "PAGE_PAIRS.tsv": false,
+      "CODE_CLASSES.tsv": true,
+      "RESULT.json": false
+    },
+    "errors": [
+      "ACORUS_SUPPORT.json.gz",
+      "PAGE_PAIRS.tsv",
+      "RESULT.json"
+    ],
+    "derived_counts": {
+      "frames": 357,
+      "candidates": 8990,
+      "page_pairs": 3300,
+      "code_classes": 1320
+    }
+  },
+  "status": "FAIL",
+  "claim_ceiling": "source/projection and artifact validation only; no word meaning"
+}

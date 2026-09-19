@@ -1,0 +1,288 @@
+{
+  "title": "Whole age-cohort population accounts with delayed-production and aggregate closure",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Complete owned Liber abbaci pp.283–284 narration and marginal table distinguish newborn from reproductive pairs. A shared age-delay state predicts totals and a different next total for different cohorts at the same present total. Joint grouping remains possible; no fixed month/header count, source-copy writer or target binding is supplied.",
+  "scope": "method",
+  "design": {
+    "mechanism": "Joint whole-account recovery of age-cohort identity, delayed reproduction, quantity and time under one global state rule, with variable content grouping and no fixed source-copy or field-count writer.",
+    "unit": "A complete bounded population account including setup, age/rate conditions, each described transition, totals, explanation, and continuation advice. No monthly or source-numeral count is imposed on target groups.",
+    "contrast": "A two-compartment delayed-production semantics predicts future content from a state, unlike an unconstrained list or freely satisfiable participant DAG. Aggregate recurrence alone is insufficient for the animal/cohort meaning.",
+    "historical_source": {
+      "author": "Fibonacci",
+      "work": "Liber abbaci",
+      "composition": "1202; revised 1228",
+      "owned_witness": "Boncompagni printed edition 1857, pp.283–284; PDF pages289–290",
+      "url": "https://archive.org/download/bub_gb_CrdUBgtAZFoC/bub_gb_CrdUBgtAZFoC.pdf",
+      "pdf_sha256": "e0617041071d181ae61a5109fc21ad48b8503927ed9f8f2a1378575de797ed1a",
+      "native_render_sha256": [
+        "4e520e9d9832037226662c8ef569bebd25207f53c2f320cfaf834398c7a3b1b3",
+        "4b44e3f6ba9d7b323fb9f5beecc426ac5c623022247b01360c3bd759968ea0f3"
+      ],
+      "inspection": "Both complete source pages actually viewed natively during this task; previously owned cached PDF, no new source acquisition.",
+      "complete_prose_reading_transcription": "Quot paria coniculorum in uno anno ex uno pario germinentur.\nQvidam posuit unum par cuniculorum in quodam loco, qui erat undique pariete circundatus, ut sciret, quot ex eo paria germinarentur in uno anno: cum natura eorum sit per singulum mensem aliud par germinare; et in secundo mense ab eorum natiuitate germinant. Quia suprascriptum par in primo mense germinat, duplicabis ipsum, erunt paria duo in uno mense. Ex quibus unum, scilicet primum, in secundo mense geminat; et sic sunt in secundo mense paria 3; ex quibus in uno mense duo pregnantur; et geminantur in tercio mense paria 2 coniculorum; et sic sunt paria 5 in ipso mense; ex quibus in ipso pregnantur paria 3; et sunt in quarto mense paria 8; ex quibus paria 5 geminant alia paria 5: quibus additis cum parijs 8, faciunt paria 13 in quinto mense; ex quibus paria 5, que geminata fuerunt in ipso mense, non concipiunt in ipso mense, sed alia 8 paria pregnantur; et sic sunt in sexto mense paria 21;\n[printed page break 283/284]\ncum quibus additis parijs 13, que geminantur in septimo, erant in ipso paria 34; cum quibus additis parijs 21, que geminantur in octauo mense, erant in ipso paria 55; cum quibus additis parjis 34, que geminantur in nono mense, erunt in ipso paria 89; cum quibus additis rursum parijs 55, que geminantur in decimo, erunt in ipso paria 144; cum quibus additis rursum parijs 89, que geminantur in undecimo mense, erunt in ipso paria 233. Cum quibus etiam additis parijs 144, que geminantur in ultimo mense, erunt paria 377; et tot paria peperit suprascriptum par in prefato loco in capite unius anni. Potes enim uidere in hac margine, qualiter hoc operati fuimus, scilicet quod iunximus primum numerum cum secundo, uidelicet 1 cum 2; et secundum cum tercio; et tercium cum quarto; et quartum cum quinto, et sic deinceps, donec iunximus decimum cum undecimo, uidelicet 144 cum 233; et habuimus suprascriptorum cuniculorum summam, uidelicet 377; et sic posses facere per ordinem de infinitis numeris mensibus.",
+      "transcription_policy": "Whitespace/punctuation and evident OCR errors normalized against printed images; not a diplomatic manuscript edition. Printed21 versus layout2 f is explicit collation.",
+      "owned_table": {
+        "heading": "parium",
+        "initial_pairs": 1,
+        "month_labels": "Primus through Duodecimus",
+        "monthly_totals": [
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          34,
+          55,
+          89,
+          144,
+          233,
+          377
+        ]
+      }
+    },
+    "complete_source_content_inventory": [
+      "One initial pair in an enclosed place; question asks number of pairs after one year.",
+      "Every reproductive pair produces one new pair per month; offspring reproduce from their second month from birth.",
+      "Initial pair explicitly reproduces in month1, so it is not the initially newborn seed convention.",
+      "Narration distinguishes original/reproductive and newborn pairs, pregnancy and birth; month5 explicitly excludes newborn5 while other8 conceive.",
+      "All monthly totals and late additions through377 are printed.",
+      "Full marginal table initial1, months1–12 totals2 through377.",
+      "Explanation points to margin and adds consecutive prior totals, explicitly1+2 and144+233.",
+      "General continuation for indefinitely many months is part of source meaning, not omitted filler."
+    ],
+    "written_vs_computed": {
+      "source_written": "Initial1, all12 totals, early cohort/pregnancy clauses and late increments13/21/34/55/89/144; add-consecutive-number method and endpoint377.",
+      "computed": "The modern M/J labels, complete two-column cohort decomposition and inverse-state theorem.",
+      "assumed_idealization": "Continued survival and no migration/rate change are implied operationally by additive account, not empirical or separately printed biological laws."
+    },
+    "semantic_kernel": {
+      "state": "Nonnegative integer pair counts M eligible to conceive for next delivery, J newly born at boundary; total T=M+J.",
+      "source_initial": [
+        1,
+        0
+      ],
+      "uniform_transition": {
+        "M_next": "M+J",
+        "J_next": "M",
+        "T_next": "T+M"
+      },
+      "aggregate_consequence": "T[t+2]=T[t+1]+T[t]",
+      "inverse": "previous(M,J)=(J,M-J); reached-state admissibility M>=J after at least one transition",
+      "boundary_caveat": "Modern discrete boundary convention, no claim of additional finer pregnancy-time specification.",
+      "source_trace": [
+        {
+          "month": 0,
+          "eligible_to_conceive": 1,
+          "newborn_pairs": 0,
+          "total_pairs": 1,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 1,
+          "eligible_to_conceive": 1,
+          "newborn_pairs": 1,
+          "total_pairs": 2,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 2,
+          "eligible_to_conceive": 2,
+          "newborn_pairs": 1,
+          "total_pairs": 3,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 3,
+          "eligible_to_conceive": 3,
+          "newborn_pairs": 2,
+          "total_pairs": 5,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 4,
+          "eligible_to_conceive": 5,
+          "newborn_pairs": 3,
+          "total_pairs": 8,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 5,
+          "eligible_to_conceive": 8,
+          "newborn_pairs": 5,
+          "total_pairs": 13,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 6,
+          "eligible_to_conceive": 13,
+          "newborn_pairs": 8,
+          "total_pairs": 21,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 7,
+          "eligible_to_conceive": 21,
+          "newborn_pairs": 13,
+          "total_pairs": 34,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 8,
+          "eligible_to_conceive": 34,
+          "newborn_pairs": 21,
+          "total_pairs": 55,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 9,
+          "eligible_to_conceive": 55,
+          "newborn_pairs": 34,
+          "total_pairs": 89,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 10,
+          "eligible_to_conceive": 89,
+          "newborn_pairs": 55,
+          "total_pairs": 144,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 11,
+          "eligible_to_conceive": 144,
+          "newborn_pairs": 89,
+          "total_pairs": 233,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        },
+        {
+          "month": 12,
+          "eligible_to_conceive": 233,
+          "newborn_pairs": 144,
+          "total_pairs": 377,
+          "provenance": "Modern cohort decomposition; total explicitly owned by source prose/table; specific cohort clauses below."
+        }
+      ]
+    },
+    "complete_generated_example": {
+      "status": "Modern hypothetical initialization, not a second source-owned historical example.",
+      "initial": [
+        3,
+        1
+      ],
+      "transitions": 4,
+      "trace": [
+        {
+          "month": 0,
+          "eligible_to_conceive": 3,
+          "newborn_pairs": 1,
+          "total_pairs": 4
+        },
+        {
+          "month": 1,
+          "eligible_to_conceive": 4,
+          "newborn_pairs": 3,
+          "total_pairs": 7
+        },
+        {
+          "month": 2,
+          "eligible_to_conceive": 7,
+          "newborn_pairs": 4,
+          "total_pairs": 11
+        },
+        {
+          "month": 3,
+          "eligible_to_conceive": 11,
+          "newborn_pairs": 7,
+          "total_pairs": 18
+        },
+        {
+          "month": 4,
+          "eligible_to_conceive": 18,
+          "newborn_pairs": 11,
+          "total_pairs": 29
+        }
+      ],
+      "aggregate_path": [
+        4,
+        7,
+        11,
+        18,
+        29
+      ],
+      "immediate_breeding_rival": [
+        4,
+        8,
+        16,
+        32,
+        64
+      ]
+    },
+    "different_rivals": [
+      {
+        "rival": "All extant pairs immediately reproduce each month.",
+        "preserved": "Same initial pair, one pair per reproduction, monthly clock.",
+        "consequence": "Totals1,2,4,... contradict source month2 total3."
+      },
+      {
+        "rival": "Swap the one source month3 cohort assignment, retaining total5.",
+        "preserved": "Current total5.",
+        "consequence": "State3,2 yields next total8; state2,3 yields7 and also violates preceding transition; this is a false local assignment, not another valid original-seed history."
+      },
+      {
+        "rival": "Fresh unconstrained stock/seed every interval.",
+        "consequence": "Can erase the state relation and is excluded; it would not recover continued whole-account meaning."
+      }
+    ],
+    "source_only_checks": {
+      "status": "PASS",
+      "checks": [
+        "All12 source state transitions exact.",
+        "All11 source aggregate recurrences exact.",
+        "Each source inverse transition reconstructs prior compartments.",
+        "All4 generated transitions and3 aggregate recurrences exact.",
+        "Immediate reproduction and one-state swap have different stated predictions."
+      ],
+      "limits": "Arithmetic source simulation only; no finite target writing grammar or target content fit."
+    },
+    "retained_counterexamples": [
+      {
+        "primary": "research_registry/proposals/translation_programs_20260912/work/W97/REPORT.md",
+        "read": "full report",
+        "stop": "All4 fixed generation variants contradicted; cannot change participant identity per occurrence or pointer windows. Cohort proposal assigns none of those words."
+      },
+      {
+        "primary": "experiments/yolo/gdt969_fibonacci_generated_root_trace/REPORT.md",
+        "read": "full report",
+        "stop": "Fixed23-group INPUT/HIGH notation failed before arithmetic; source arithmetic PASS does not license a writer. No reopening or source-count substitution."
+      }
+    ],
+    "duplicate_review": {
+      "navigation": [
+        "live route",
+        "context topic genealogy",
+        "route-check age structured population recurrence rabbits",
+        "ideas search rabbit population reproduction recurrence",
+        "ideas search Fibonacci",
+        "ideas search rabbit maturation age cohort population",
+        "ideas duplicates rabbits Fibonacci cohort maturation reproductive pairs",
+        "ideas search rabbits"
+      ],
+      "result": "Bounded navigation did not establish an exact same declared design. Empty query is not an absence proof; no exhaustive novelty claim. Closest generation and fixed arithmetic primaries were read."
+    },
+    "missing_binding": [
+      "No finite shared writing grammar is selected; baseline hierarchy/whole-form effects do not imply a population header.",
+      "No independently owned target population or count interpretation.",
+      "Unknown unit and simultaneous role-relabeling/scaling gauges remain.",
+      "A recurrence fit alone would not identify rabbits, age classes or the full prose content.",
+      "No per-time seed, arbitrary rate, new individual per occurrence or post-target phase repair is allowed within this prospective semantics."
+    ],
+    "status": "RAW_UNREVIEWED_NOT_SELECTED; no decoder or experiment built.",
+    "source_evidence": {
+      "path": "research_registry/work_batches/ten_hours_20260915/AGE_COHORT_POPULATION_SUPPLY.md",
+      "line": 4,
+      "quote": "Status: RAW_UNREVIEWED_NOT_SELECTED. No raw target data, target image or reserve was accessed.",
+      "sha256": "cb8dfb91644a7c50bf849a0b9a27bf123e65917ca9b30ef4a00849f4122ba89f"
+    },
+    "access": "Existing cached external source only. Published target examples embedded in required W97/GDT969 primary reports encountered during predecessor audit; no raw target query, target image, reserve, f84/f84r/f116v or external contact."
+  }
+}

@@ -1,15 +1,15 @@
 # Voynich current route
-Updated: 2026-09-15. This is the sole live resume point; replace, never append history.
+Updated: 2026-09-19. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
-Status: active
-Task: GDT976 exact shared-referent projection of unchanged GDT963 content code.
-Latest decision: IDEA357grammar unfrozen;test existing963name reuse without repairs.
-Working files: experiments/yolo/gdt976_dioscorides_shared_referent_projection/PREREGISTRATION.md
-Assumptions: Necessary projection only;all other atom equalities relaxed;reserves closed.
-Resume: Register all prefix candidates, execute complete domains, validate and publish.
-Running: Root GDT976;bounded producer one source-only age-cohort proposal.
+Phase: exploration
+Status: checkpoint
+Task: GDT976 complete: retain all partial shared-name bindings.
+Latest decision: 8990 code/page rows in 1320 classes; no complete code or word.
+Working files: experiments/yolo/gdt976_dioscorides_shared_referent_projection/REPORT.md
+Assumptions: Only 6/613 source occurrences bound; original963UNKNOWN; reserves closed.
+Resume: Review a separate LEAF/BROAD source consequence against all8990 candidates.
+Running: None. GDT976 complete; proposed follow-up not yet registered.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
