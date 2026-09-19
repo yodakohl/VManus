@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT983: compare DUP/ECHO/SINGLE predictions for all qoqo-initial forms.
-Latest decision: Wider admitted coverage and fixed family warrant one bounded spelling test.
-Working files: experiments/yolo/gdt983_qo_reduplication_expansion/METHOD.md
-Assumptions: Shared flanks do not imply synonymy; all text exposed; no inherited heat/fire meaning.
-Resume: Publish frozen protocol, execute census, validate all candidates; reassess without relaxing.
-Running: Root registration; bounded idea producer; ten-hour block starts23:05UTC Sep19.
+Task: GDT983 closed; review fresh RAW content proposals before next selection.
+Latest decision: qoqokeey alone; three expansions lack comparison capacity, no meaning chosen.
+Working files: experiments/yolo/gdt983_qo_reduplication_expansion/REPORT.md
+Assumptions: GDT982 hypotheses unchanged; no iteration/fire value; reserves remain closed.
+Resume: Review producer cards and linked primaries; choose a new whole-content consequence.
+Running: Root publication; bounded producer; ten-hour block until at least Sep20 09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
