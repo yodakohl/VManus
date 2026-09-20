@@ -103,7 +103,32 @@
     {
       "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md",
       "role": "primary_report",
-      "sha256": "9fec805e46f16dd7b9d0cc0ef4b5e57b8608e0c1bb047149b5cc3b35603dd733"
+      "sha256": "83703b9769aba381a2cf92c0f0490ab135d7af0f78c648ee8f4d35cebbd476ab"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/CANDIDATES.tsv",
+      "role": "source_or_artifact",
+      "sha256": "8c7c3cd4e7682055ad3a93adcaf639b2c70c2d9c5ad508eec377ebba03666d18"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/CASES.json.gz",
+      "role": "source_or_artifact",
+      "sha256": "93898413d247fc7e1ae4d3d38f58f5c41a4155c089a6fa668d24511c60102a74"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/COMPLETE_ALIGNMENTS.json.gz",
+      "role": "source_or_artifact",
+      "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/COMPLETE_READINGS.md",
+      "role": "source_or_artifact",
+      "sha256": "bac3b3b79c0bacbd8e2349310844f8db90c2e12165e9d1bdbab276961d0fd40b"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/EXECUTION_RECEIPT.json",
+      "role": "source_or_artifact",
+      "sha256": "5d903f1dda2ca1106fc5fac81e99a9aedf89171ff0756e908ba27a21fa2f5f09"
     },
     {
       "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/PRE_RUN_FIXTURES.json",
@@ -111,14 +136,44 @@
       "sha256": "b62879c45a399b4f6914a8a33e0fa4d89cf60ef47d08415dff991b5976891cd7"
     },
     {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/PRIMARY_CASES.json.gz",
+      "role": "source_or_artifact",
+      "sha256": "a74589c8b47b74de34cde5c1f56f682543c89394243cf247361f00893a9d6fa8"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/PRIMARY_JOURNAL.jsonl",
+      "role": "source_or_artifact",
+      "sha256": "7a8cb40afa34903d6542bbfb194890b801887f1db5a6235aa87ab20ab8db9a23"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/PRIMARY_RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "e56c979a63328538fb4553d72e16efbe63313c9e257fd0ebc55680e2e53701ba"
+    },
+    {
       "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
     },
     {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "1f4aff7b750a3af226ab3019dc18fd1aa55b6047619b5246bf25e7b79fcedf3d"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/REVERSE_JOURNAL.jsonl",
+      "role": "source_or_artifact",
+      "sha256": "713936e5d3cad98b3f4c20b62851114b90e2301252326201402ecc3ebef17893"
+    },
+    {
       "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/SOURCE_PREDICTIONS.json",
       "role": "source_or_artifact",
       "sha256": "d628c77258b0f9fdc1e992195ab6129701446464abb2332a80b41ce2b0e9bd47"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "58058d114f586c8b53fe236a622b9de7116bf8f4a92da3333234864e2868de59"
     },
     {
       "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/WORKER_IO_FIXTURES.json",
@@ -168,11 +223,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "sunzi_complete_contextual_count",
-  "status": "REGISTERED_UNSCORED",
+  "status": "NO_LITERAL_COMPLETE_READING",
   "title": "Complete contextual grouping and reconstruction source reading",
   "updated": "2026-09-20",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/VALIDATION.json"
   }
 }

@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Test the complete Sunzi count/reconstruction under two frozen writers.
-Latest decision: Source review and full controls PASS;992locking before target fit.
-Working files: experiments/yolo/gdt992_sunzi_complete_contextual_count/METHOD.md
-Assumptions: Typed REF and positional decimal are declared writing hypotheses.
-Resume: Publish992registration, execute all2698cases, reverse-check, close by07:35UTC.
-Running: Bounded RAW producer;target not started;earliest end09:05:26UTC.
+Task: Close992and review unresolved whole-passage content obligations.
+Latest decision: All1108readable Sunzi cases contradicted;1590source unknown;0words.
+Working files: experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md
+Assumptions: No source/writer repair;whole hypothetical readings remain permitted.
+Resume: Publish992closure;review932/933/947 and complete target obligations.
+Running: Bounded source producer;no target search;earliest end09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

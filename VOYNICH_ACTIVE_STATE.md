@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-GDT992 REGISTERED: complete Sunzi count question/answer/method/general rules;18units,122atoms/27types, two fixed prefix-free contextual tree writers. Full source audit and six complete-source controls PASS;all2698paragraph cases planned;no target fit yet. Single15min target/reverse budget;inclusive07:35UTC deadline.0words/independent/reserves. [Method](experiments/yolo/gdt992_sunzi_complete_contextual_count/METHOD.md).
+GDT992 COMPLETE SOURCE STOP: all1108readable whole paragraph/writer cases contradict the18-unit Sunzi content;reverse corroborates1108/1108,0limits/conflicts/codes.1590source unknowns retained;0words/independent. Both fixed contextual tree writers closed without repair;not all mathematical content. [Report](experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md).
 
 GDT991 PATTERN STOP: all1980open cases tested;1407primary exhaustions/573limits. Reverse corroborates108, limits on1299;1872open(94.545%) triggers90percent stop. All32376rows retained,0pattern/fullcode witnesses/words/independent;no third algorithm or source/frame repair. Original990interruption unchanged. [Report](experiments/yolo/gdt991_smaragdina_complete_form_pattern/REPORT.md).
 
