@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1001**
-- Experiment-associated tracked files: **19,492** (1.8 GiB)
+- Experiment-associated tracked files: **19,503** (1.8 GiB)
 - Structured GDT337+ experiments: **666**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1002 | transport joint alias alternatives | `REGISTERED_UNSCORED` | — | 18 | 49.8 KiB | 4 | STRUCTURED_YOLO |
+| GDT1002 | GDT1002_transport_joint_alias_alternatives | `TWO_SHARED_PAIRS_AND_FIVE_WAY_EXCLUDED_TWO_SHARED_PAIRS_OPEN` | [report](../experiments/yolo/gdt1002_transport_joint_alias_alternatives/REPORT.md) | 29 | 321.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT1001 | GDT1001_cato_typed_complete_branch_code | `NO_LITERAL_TYPED_CODE_SOURCE_UNCERTAINTY_RETAINED` | [report](../experiments/yolo/gdt1001_cato_typed_complete_branch_code/REPORT.md) | 30 | 7.7 MiB | 8 | STRUCTURED_YOLO |
 | GDT1000 | GDT1000_trotula_joint_quantity_code | `NO_LITERAL_JOINT_FIT_SOURCE_UNCERTAINTY_RETAINED` | [report](../experiments/yolo/gdt1000_trotula_joint_quantity_code/REPORT.md) | 30 | 13.3 MiB | 8 | STRUCTURED_YOLO |
 | GDT999 | GDT999_typed_pair_frame_transfer | `NO_OTHER_LEAF_FRAME_TRANSFER` | [report](../experiments/yolo/gdt999_typed_pair_frame_transfer/REPORT.md) | 20 | 371.5 KiB | 4 | STRUCTURED_YOLO |

@@ -1,0 +1,84 @@
+{
+  "title": "Modal safety scope algebra keeps hypothetical hazards separate from voyage state",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A shared ch/modal constructor composes pair arguments, absence conditions, counterfactual force, universal cargo scope and final harmlessness as propositions over a possible unattended world. It predicts a different complete-reading consequence from an actual-state safety guard: the written safety clauses describe what would be unsafe without the agent, but do not themselves veto a legal voyage.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "observations": [
+      "Frozen GDT993 SPEC has separate SAFETY, PAIR and CONCLUSION patterns; WOULD_BE and WITHOUT_AGENT are distinct atoms rather than movement commands.",
+      "RAW377 explicitly says qokchedy is a condition, chckhdy marks a general assertion, and the absent-agent clause is not an assertion that the agent is currently absent.",
+      "GDT993's surviving transport trace passes only under the stipulated conditional safety interpretation; its safety edges are not independently identified.",
+      "GDT608 and the prior component cards support formal order only, so the modal operators below remain a content hypothesis."
+    ],
+    "mechanism": {
+      "semantic_types": [
+        "ModalFrame(world_condition, predicate, arguments, force)",
+        "Pair(CargoRef, CargoRef)",
+        "SafetyProperty(Pair, AgentAbsenceCondition)",
+        "Assertion(force, proposition)"
+      ],
+      "component_functions": [
+        "ch seeds a typed proposition frame; it never creates a cargo or movement event.",
+        "qok applied inside a ch frame selects a transport-pair relation domain; its qokedy argument supplies CargoRef(G) rather than an action.",
+        "e opens the next proposition argument slot; dy closes a cargo reference in the bare ch frame as CargoRef(C), or closes the qok+ch relation as UNATTENDED(Pair).",
+        "ckh sets force=WOULD_BE; it scopes over the preceding pair property and does not mutate current transport state.",
+        "ched closes WITHOUT_AGENT(Agent); chety closes the UNHARMED property; checthy introduces ALL over the already named cargo set.",
+        "chedain remains a separate NEXT sequencing operator and is not absorbed into the modal frame."
+      ],
+      "evaluation_order": [
+        "Construct the pair from the written CargoRef arguments before applying UNATTENDED.",
+        "Apply WITHOUT_AGENT to the typed Agent argument and form a possible-world condition.",
+        "Apply WOULD_BE to the resulting safety proposition; only then attach the unsafe predicate.",
+        "Evaluate voyage operations against actual bank state separately; a modal safety assertion may constrain a plan without asserting that its antecedent currently holds.",
+        "At the result, apply ALL and UNHARMED to the final co-location/attended state; do not feed them backward as movement commands."
+      ],
+      "worked_consequence": "The S11 chain `chedy ... qokchedy qokedy chckhdy sar` reduces to a proposition such as WOULD_BE(UNSAFE(Pair(C,G), WITHOUT_AGENT(M))), while S05/S09/S13 remain actual voyage transitions. Under this algebra, a legal trip may carry G while M is present even though the counterfactual pair is unsafe without M. The actual-state rival instead treats the same safety phrase as a live guard and may reject an otherwise legal trip. S18's checthy/chety-style conclusion quantifies the final cargo set and harmlessness after the last event; it does not retroactively alter the safety world.",
+      "rival": "An actual-state guard algebra evaluates UNATTENDED as a present fact at every voyage and blocks any pair that would be unsafe; a flat predicate algebra treats WOULD_BE, WITHOUT_AGENT and UNHARMED as unordered labels with no possible-world scope."
+    },
+    "falsifier": "Reject the modal model if a complete fixed passage uses the safety clause as an explicit present-state command, if WOULD_BE changes a voyage state without a written operation, if WITHOUT_AGENT lacks its written Agent argument, or if a later conclusion requires the safety proposition's antecedent to have held in the actual trace. A complete independently bound clause showing the same ch/modal state both as a hypothetical assertion and a live movement guard would also reject the fixed scope law.",
+    "strongest_failure": "The modal distinction is already stipulated by the RAW377 reading and may merely restate English punctuation. No component meaning, possible-world operator, or independent agent binding is observed; the source packet cannot choose conditional safety from the manuscript. The model also leaves several che/ch forms dependent on hypothesized typed closures.",
+    "predecessors": [
+      {
+        "id": "GDT993",
+        "limit": "Conditional safety is an internally coherent reading, not independent semantic evidence."
+      },
+      {
+        "id": "IDEA000432",
+        "limit": "Its qok/ch finite-state table omitted most frozen ch-family forms and conflated qokeedy with NEXT; this card instead tests modal scope."
+      },
+      {
+        "id": "IDEA000403",
+        "limit": "Complete transport assignment with safety-frame reuse; no component-level modal algebra."
+      },
+      {
+        "id": "IDEA000427",
+        "limit": "Residual event phases do not distinguish hypothetical predicates from actual state guards."
+      }
+    ],
+    "dependencies": [
+      "The inherited cargo/agent names are opaque typed variables; no target word is independently translated.",
+      "The complete reading must preserve every safety, pair, conclusion and voyage group; no safety group may be dropped as filler.",
+      "Possible-world and actual-state scopes are fixed before any comparison; no analyst-selected reset or nearest-reference repair is allowed.",
+      "The model is exploratory and does not claim the target uses medieval transport logic."
+    ],
+    "access": "GDT993 REPORT/SPEC/SOURCE_PACKET, RAW377 complete lexicon, bounded IDEA432 audit, and retained predecessor checks only; no target data/image, reserve, root experiment, decoder, route, ledger, or source mutation."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT993"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000432"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000403"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000427"
+    }
+  ]
+}

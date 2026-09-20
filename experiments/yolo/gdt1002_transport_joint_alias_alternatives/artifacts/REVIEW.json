@@ -1,0 +1,56 @@
+{
+  "record_id": "GDT1002",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root",
+  "assessment_basis": "two_independent_complete_joint_grammar_encodings_and_frozen_bit_replay",
+  "reason": "All11systems checked:2of4overlapping pairs and all5joint are UNSAT;other2overlapping pairs syntacticallySAT but16total sampled pair maps fail world replays. Six inherited disjoint pairs stay coherent,with0shared-word capacity. Semantic alternatives of2overlapping pairs remain unknown.",
+  "blockers": [
+    {
+      "code": "joint_semantic_alternatives_unresolved",
+      "detail": "0+3and2+4have grammatical alternatives,not a coherent shared reading yet;all5joint excluded. Productive components unexplained.",
+      "evidence": [
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/REPORT.md",
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/METHOD.md",
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/RESULT.json",
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/VALIDATION.json",
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/EXPLANATIONS.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "A separately declared complete joint content constraint or productive semantic constructor for the two surviving overlapping pairs; no longer first-witness sampling or repair of failed five-way system.",
+        "evidence": [
+          "experiments/yolo/gdt1002_transport_joint_alias_alternatives/REPORT.md",
+          "experiments/yolo/gdt1002_transport_joint_alias_alternatives/METHOD.md",
+          "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/RESULT.json",
+          "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/VALIDATION.json",
+          "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/EXPLANATIONS.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Failed sampled assignments called semantic exhaustion",
+      "Disjoint inherited witnesses called lexical transfer",
+      "Source flags made literal",
+      "Another alias/grammar repair"
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT997",
+      "evidence": [
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/REPORT.md",
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/METHOD.md",
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/RESULT.json",
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/VALIDATION.json",
+        "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/EXPLANATIONS.json"
+      ]
+    }
+  ]
+}

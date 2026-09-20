@@ -396,3 +396,25 @@ new complete clause exposes the same states, this is a compact hypothesis about
 old values rather than semantic confirmation.
 
 Proposal file: `research_registry/proposals/raw_qok_component_transport_algebra_20260920.json`.
+
+## H. IDEA432 exact-spec audit and two alternatives (IDEA433/IDEA434)
+
+The separate audit [IDEA432_TRANSPORT_COMPONENT_AUDIT_20260920.md](IDEA432_TRANSPORT_COMPONENT_AUDIT_20260920.md) preserves IDEA432's original bytes and checks all distinct ZL `qok`/`che`/`ch` family words. The frozen family contains `qokedol=FAR_BANK`, `qokeey=TAKE_OUT`, `qokedy=G`, `qoky=FERRY`, `qokchedy=UNATTENDED`, `qokeedy=CONVEY_OUT`, `qokal=TRAVEL_TOGETHER`, `ched=WITHOUT_AGENT`, `cheeety=RETURN_EXCLUDING`, `chedy=C`, `chckhdy=WOULD_BE`, `chedain=NEXT`, `checthy=ALL`, and `chety=UNHARMED`. `cheey` is absent from the frozen 63-group stream.
+
+The material correction is exact: GDT993 SPEC represents `CONVEY_OUT`, `NEXT`, and `CargoRef` as separate atoms. In `qokeedy chedain chedy`, `qokeedy` emits `CONVEY_OUT`; `chedain` supplies `NEXT`; `chedy` supplies `C`. IDEA432's `CONVEY_OUT_NEXT` output and `qokeedy(chedy)=CONVEY_OUT_NEXT(C)` are therefore overstated. A byte-repaired table would not itself be a new derivation, so no V2 card was registered. The audit also records that 432 omitted seven other frozen family forms and that its state names remain fitted semantic hypotheses rather than observed component meanings.
+
+### IDEA433 — operation effect versus sequence scope
+
+[IDEA000433](../../proposals/raw_transport_curry_sequence_algebra_20260920.json) uses a typed curried transport builder. `qok/o/k` reserve direction, vehicle, and cargo slots; `e` controls typed application; `y` and `dy` close operation/reference states; `a/l` close the joint-agent operator. Crucially, `chedain` is an independent `NEXT` function applied after `CONVEY_OUT`, never a hidden suffix meaning. The worked forms are `qokeey(qokedy)=TAKE_OUT(G)`, `qokeedy chedain chedy=NEXT(CONVEY_OUT(C), prior_event)`, `qoky(FIRST_CARGO)=FERRY(FIRST_CARGO)`, and `qokal(M,qokedy)=TRAVEL_TOGETHER(M,G)`.
+
+Its consequence differs from the hidden-NEXT account: TAKE_OUT and CONVEY_OUT produce the same one-trip state under the frozen truth conditions, while only the explicit `chedain` changes event order. A complete clause containing qokeedy without chedain must still produce a legal CONVEY_OUT event. The fixed falsifier is a same-state occurrence requiring hidden NEXT, a chedain that fails to order explicit events, or an unexplained physical divergence between TAKE_OUT and CONVEY_OUT with identical typed arguments. This remains a raw hypothesis because operation equivalence and component segmentation are inherited assumptions.
+
+### IDEA434 — modal safety scope versus actual voyage state
+
+[IDEA000434](../../proposals/raw_safety_modal_scope_algebra_20260920.json) supplies a different semantic construction: `ch` seeds a proposition frame, qok inside that frame selects a pair relation, `ched` supplies the absence condition, `qokchedy` supplies `UNATTENDED`, `chckhdy` supplies `WOULD_BE`, and `chety`/`checthy` close harmlessness and universal cargo scope. `chedain` remains the independent sequence function. The evaluator constructs the pair and possible-world condition before applying counterfactual force; actual voyage operations are evaluated against the current bank state separately.
+
+Its complete-reading consequence is that S11's safety clause can assert `WOULD_BE(UNSAFE(C,G), WITHOUT_AGENT(M))` without vetoing a legal trip in which M is present. The actual-state guard rival would block the same trip. The result clause's ALL/UNHARMED scope applies after the final event and cannot retroactively change the voyage. The fixed falsifier is a complete passage using the same modal state as a present-state movement command, or requiring WOULD_BE to mutate the actual trace. This is not a target meaning claim; the modal distinction is itself inherited from the conditional RAW377 reading.
+
+Both new cards remain `RAW_UNREVIEWED` and are distinct from IDEA432, IDEA403, IDEA427, and each other. Neither opens target data, reserves, or root experiment files.
+
+Root publication note: the separate432audit was renamed to IDEA432_TRANSPORT_COMPONENT_AUDIT_20260920.md before publication because a GDT993-prefixed file outside its experiment directory triggers the layout scanner. Audit content and original432proposal bytes are unchanged.

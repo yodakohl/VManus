@@ -1,0 +1,84 @@
+{
+  "title": "Curried transport-event algebra separates operation effect from chedain sequence scope",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A type-driven transport builder derives qok operation values and applies written cargo arguments, while the separate chedain component contributes sequence scope. qokeedy therefore remains CONVEY_OUT exactly; it does not hide NEXT. The model predicts when TAKE_OUT and CONVEY_OUT have the same physical transition and when a separate NEXT marker changes event ordering.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "observations": [
+      "Frozen GDT993 SPEC separates CONVEY_OUT, NEXT, and CargoRef into three ordered semantic atoms; RAW377 writes qokeedy chedain chedy in exactly that order.",
+      "GDT993 states that TAKE_OUT and CONVEY_OUT have identical transport truth conditions and that their different spellings remain unexplained lexical synonymy.",
+      "GDT608 supports directed formal component composition but retains exact whole residuals, so this card tests an explicitly typed application law rather than treating every whole as a macro.",
+      "IDEA000432 incorrectly folded NEXT into qokeedy; this card preserves that correction as its central changed input."
+    ],
+    "mechanism": {
+      "typed_values": [
+        "qok creates a TransportBuilder with slots for direction, vehicle and cargo; it does not itself name a voyage.",
+        "o fills direction=OUT toward the paragraph's GoalBank slot when that slot is already introduced; k fills the vehicle/transport frame.",
+        "One e requests a CargoRef argument. A second e changes the builder's operation channel from reference to outward operation.",
+        "y closes a zero-e builder as FERRY or a two-e builder as TAKE_OUT; dy closes a one-e builder as the typed cargo reference G or a two-e builder as CONVEY_OUT. These are typed closures, not occurrence-specific whole aliases.",
+        "a opens the Agent-plus-Cargo joint argument channel and l closes it as TRAVEL_TOGETHER.",
+        "chedain is an independent sequence function: NEXT(event, prior_event_state) schedules the supplied event after the prior actual voyage. It is never consumed inside qokeedy."
+      ],
+      "application_order": [
+        "Reduce qok/o/k and suffixes into a typed builder.",
+        "Apply the immediately following written CargoRef or Agent/Cargo arguments; an absent required argument is undefined rather than guessed.",
+        "Apply chedain only after its preceding event and before its following CargoRef-bearing event, preserving its own word boundary.",
+        "Update the transport state only after the completed event is applied; operation naming and sequence ordering are separate semantic fields."
+      ],
+      "worked_outputs": [
+        "qokeey(qokedy) = TAKE_OUT(G), producing one outbound event.",
+        "qokeedy chedain chedy = NEXT(CONVEY_OUT(C), prior_event), where qokeedy alone is CONVEY_OUT and chedain alone is NEXT.",
+        "qoky(FIRST_CARGO) = FERRY(FIRST_CARGO), with destination opposite the current bank.",
+        "qokal(M,qokedy) = TRAVEL_TOGETHER(M,G).",
+        "qokedy = CargoRef(G) and chedy = CargoRef(C) remain reusable typed arguments, not operations."
+      ],
+      "rival": "The frozen synonym-only rival treats TAKE_OUT and CONVEY_OUT as independently named operations with no shared effect law; the 432-style rival additionally treats qokeedy as a hidden NEXT-bearing macro.",
+      "content_consequence": "On the retained S05 and S13 clauses, both qokeey(qokedy) and qokeedy(chedy) produce one outbound transport transition, but only S13 has the explicit chedain sequence relation. A future complete clause containing qokeedy without chedain must still produce a legal CONVEY_OUT event, while a future qokeedy chedain X must be ordered after the previous actual event. This distinguishes operation effect from sequence scope and predicts a different event-order trace from the hidden-NEXT rival."
+    },
+    "falsifier": "Reject the algebra if a frozen complete occurrence requires qokeedy itself to carry NEXT, if chedain changes no event order where a prior and following voyage are explicit, if qokeey and qokeedy have different physical transitions with identical typed arguments and no written trigger, or if a same typed builder needs an occurrence-specific output. Missing arguments must remain undefined; no local repair is allowed.",
+    "strongest_failure": "The operation equivalence is inherited from GDT993's stipulated truth conditions, not independently observed. The component segmentation and builder states remain hypotheses, and no complete target passage independently binds an event-order relation to chedain. The model may simply redistribute old whole labels across a convenient type system.",
+    "predecessors": [
+      {
+        "id": "GDT993",
+        "limit": "Conditional transport truth conditions; no independent operation identity."
+      },
+      {
+        "id": "IDEA000432",
+        "limit": "Corrects its qokeedy/NEXT conflation; retains its exact raw bytes unchanged."
+      },
+      {
+        "id": "IDEA000377",
+        "limit": "Whole transport predecessor without a component-level sequence/effect split."
+      },
+      {
+        "id": "IDEA000069",
+        "limit": "Nested operation evaluation is a different inside-out record model; this card separates two independent word-level fields and does not add nested result operations."
+      }
+    ],
+    "dependencies": [
+      "Frozen ZL3b forms and SPEC atoms remain unchanged; IT2a/RF1b are not pooled as independent witnesses.",
+      "GoalBank, vehicle, agent, and cargo identities remain inherited typed variables, not confirmed target meanings.",
+      "No qokeedy whole-form NEXT value, Latin default, or new target access is allowed.",
+      "A future discriminator requires a complete already exposed clause with explicit before/after event structure."
+    ],
+    "access": "GDT993 REPORT/SPEC, RAW377 complete lexicon, GDT608, bounded IDEA432 audit and duplicate checks only; no target data/image, reserve, root experiment, decoder, route, ledger, or source mutation."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT993"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000432"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000377"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000069"
+    }
+  ]
+}
