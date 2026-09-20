@@ -143,3 +143,60 @@ subsequent unrelated idea search encountered four historical target groups in
 an old proposal quote; that later supply task is not described as entirely
 target-character-blind. The already frozen Tabula collation and source check
 precede that exposure. Neither supplies independent Voynich meaning evidence.
+
+## Interrupted run and a different bounded consequence,05:33UTC
+
+GDT990 terminated with exit143 before saving its individual equation outcomes.
+The termination cause is unknown. Its independent deterministic recovery was
+completed and publicly pushed at05:24UTC (`a550333ef`), about three minutes after
+the recovery decision:11316necessary contradictions,19080source unknowns and
+1980unretained full equations. The original model, source and registered bytes
+remain unchanged. Its progress checkpoints cannot classify individual cases.
+
+The next proposed falsifier is the **entire ordered root/role-form pattern**,
+with every source occurrence and every target word seam retained. Each distinct
+(root, argument-slot) gets a shared nonempty surface string. Across different
+slots the same root may temporarily differ freely; root distinctness and
+shared frame factorization are relaxed. Thus every GDT990 writing gives one
+such pattern match. A complete no-match would contradict the original writing;
+a match is only a necessary witness until its actual strings factor into the
+original shared frames and distinct roots.
+
+This differs from simply restarting the cvc5 queue: it is a separate, strictly
+weaker finite language with a direct bounded backreference matcher. Unlike a
+single name or small substring projection, all recurrent source occurrences,
+all singleton occurrences, their order and all word seams remain. Unlike
+GDT987, no prefix-free code or forced-word-start lemma is assumed:990 does not
+require prefix-freeness. GDT978/984's source and automatic-projection stops are
+not reopened. Their warning remains: surviving partial matches are not meanings.
+
+Scientific decision: if the complete repeated-form pattern cannot match, the
+corresponding original equation is closed by a separately reproducible necessary
+certificate. If a saved pattern witness also admits exact original root/frame
+factorization, retain a complete conditional source reading. A match that does
+not factor, or a time limit, leaves the full equation unresolved. If90%or more
+of the1980open cases remain unresolved, stop this computational branch; do not
+add another small condition or automatically lengthen the search. Regardless
+of percentage, no third algorithm is selected by default.
+
+Smallest adequate implementation: one full-pattern search for each of the1980
+open cases, with every other32376-panel row inherited explicitly. A separate
+right-to-left implementation checks primary negatives; every positive is
+replayed directly. Frame factorization is finite on the saved whole-form strings,
+without alteration of the original grammar. A failed factorization does not
+reject other pattern witnesses. No search through alternative relaxed witnesses
+is added after seeing the target.
+
+Preflight budget:15minutes from05:33UTC to05:48UTC, including formal specification
+and small exhaustive controls. If adequacy is not established, park without a
+target run. If selected, the inclusive block ends06:24UTC, retaining the original
+source-work allocation's end; implementation, target run, validation and
+publication all count. At most5seconds per primary pattern case,10seconds for
+independent reverse checks,24workers; hard whole-run ceiling15minutes. Every
+completed job is saved as it arrives. These caps are part of the proposal before
+any new target outcome. A later interruption remains unknown, never exhaustion.
+
+This is still a writing-consequence test, not new historical evidence for the
+Tabula. All targets were exposed. Zero independent meaning capacity and confirmed
+words; no reserve or new admission. Source uncertainty and possible inverse
+ambiguity stay as declared in990. No GDT388-scored relation or significance claim.

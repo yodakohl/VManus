@@ -1,0 +1,35 @@
+# Two whole-content discourse proposals
+
+Status: RAW_UNSCREENED; source supply only,2026-09-20. Neither is a target reading or selected experiment. No decoder, solver, manuscript source, image or reserve was opened. Legacy navigation unexpectedly displayed already-public target lines in ROUND4_CONTENT_DECISION.md; they were not used. This run is therefore not claimed to be wholly blind to target characters. No process termination, registry refresh or commit was performed in this task.
+
+The complete bounded source texts, their HTML/text hashes, every content position and source uncertainties are retained in [DISCOURSE_CONSTRAINT_RAW_SOURCES_20260920.json](DISCOURSE_CONSTRAINT_RAW_SOURCES_20260920.json). Its SHA256 is 983b7214da3a90c57b34398379bfa03a00ee413439dbc5c1566833213668aeb1. The copied ancient Latin and nineteenth-century translation are public-domain primary text; no host-page styling, modern commentary or images are reproduced.
+
+## A. A visible sign can retain its identity while its prognosis changes
+
+[Hippocratic Prognostic, complete Part2, Adams translation](https://classics.mit.edu/Hippocrates/prognost.2.2.html) gives a full face/eye/lip examination. The source is a later English translation of an ancient work, not an owned medieval Latin witness. Its entire adverse-feature lists, initial healthy comparisons, repeated inquiry, further eye signs, exceptions and final lip assertion remain in the packet; no paragraph remainder is discarded.
+
+The coupled content is: observe the same adverse appearance; inquire whether prior sleeplessness, loose bowels or hunger explains it; a confessed cause lowers danger; use the stated day-and-night course to assess that explanation; and at a later disease stage repeat the same inquiries with further observation. Lower danger is not survival, absence of an answer is not a negative answer, and persistence is not an invented new symptom. The interval, remembered query and comparison baseline jointly restrict interpretation.
+
+A context-independent sign-to-prognosis dictionary cannot represent the written change in danger judgment for the same appearance. A bare treatment sequence also loses the distinction between asking about an antecedent cause and changing the patient. A generic connector is allowed to co-occur with both branches: it is not rejected merely because opposed content occurs nearby. The proposed consequence belongs to the complete scoped account, not to a newly guessed word meaning.
+
+Two translation-scope debts are explicit: the two if-clauses before imminent death, and the printed and/or around diarrhea, medicinal purgation and sleep habit. No unique Boolean repair is chosen. A source-faithful account must also retain the different prognostic strengths and all later signs. Many symptom values occur once; they are openly listed costs, not magically supplied by a few guessed operators. Historical medical claims are not offered as clinical advice.
+
+## B. A rebuttal changes what is warranted, not necessarily what happens
+
+[Phaedrus I.1, complete Latin fable](https://www.intratext.com/IXT/LAT0092/_P1.HTM) supplies one stream, two located animals, two accusations and two different rebuttals, an introduced father, an unjust killing and an explicit moral. The digital edition ancestry is uncollated; no medieval witness or manuscript source attribution is claimed.
+
+The wolf stands above the lamb. The lamb rejects alleged upstream water-fouling by giving the opposite flow direction, and the narrator endorses this reply as true. The wolf then alleges an offense six months earlier; the lamb had not yet been born. The wolf substitutes the father and kills the lamb. The father allegation remains unverified; it must not be called fact merely because the action occurs. The final authorial statement identifies oppression through invented causes.
+
+One shared discourse rule must bind first/second-person expressions to the current speaker/addressee, distinguish narrator commitments from accusations, and retain participant identity through correction. The father is a new related participant. A globally consistent relabeling of animal names remains a symmetry; the proposed binding is to causal direction, temporal existence and commitment scope, not an independently recovered zoological name. Water and liquor do not identify one indivisible physical aliquot.
+
+A flat list of true event assertions contradicts the two rebuttals. A model in which refutation automatically prevents action contradicts the killing. A final-outcome-implies-true-charge model contradicts narrator endorsement and the moral. Yet a generic reported-speech model can already satisfy these relations if its content and scopes are supplied; source consistency alone therefore does not identify a special evidential marker or a target writing system. Quotation scope cannot be added per contradiction after fitting.
+
+## Shared constraints and retained predecessors
+
+IDEA31’s primary review in [jg_root_method_scope_review.json](../../decisions/jg_root_method_scope_review.json) rejects the claim that an ordinary connector has no semantic association. IDEA33’s [primary review](../../decisions/jm_root_five_method_review.json) likewise preserves topic/genre explanations for report-associated words. Those are logical limits, not negative manuscript tests superseded here. IDEA363 already supplies proposed versus accepted opinion in a contribution problem and remains blocked on target nomination and writing. Replacing its arithmetic with another story would not by itself be new; the present fable adds two explicitly different factual prerequisites and a final action that does not follow their warranted judgment. No arithmetic control is proposed.
+
+IDEA325 supplies conditional treatment and an ordered opposite-treatment sequence. The new prognosis source instead reuses a question bundle and changes warranted risk from prior history plus observation time; it does not reopen GDT625 or import its glosses. IDEA349/377 transport stories retain cargo-safety semantics; sharing a wolf and water does not turn the present discourse content into a crossing puzzle. Empty exact-source searches and an empty fable route-check are navigation results, not proof of novelty.
+
+Both proposals retain the live structural baseline: directed composition, spaces, whole-form residuals and entry context. None of those measurements identifies a semantic operator. A later complete reading would need one fixed finite writer with a shared reference and scope policy, all groups accounted for, and a rival whole reading. It may begin as an explicit joint hypothesis without confirmed seedwords. One source clause is not one target word, fixed source length is not paragraph length, and freely reassigning unknown groups or hiding clauses in a quotation is barred. No target was nominated or tested here.
+
+Only these two cards are retained. The inspected Celsus reported-school route would add another opinion narrative without yet improving the already-retained IDEA363 distinction; no third quota card is created.

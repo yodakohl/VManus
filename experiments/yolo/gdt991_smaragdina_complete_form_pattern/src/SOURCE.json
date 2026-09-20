@@ -1,0 +1,35 @@
+{
+  "original_source": "experiments/yolo/gdt990_smaragdina_complete_role_frames/src/SOURCE.json",
+  "original_cases": "experiments/yolo/gdt990_smaragdina_complete_role_frames/artifacts/INTERRUPTED_CASES.json.gz",
+  "paragraphs": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "fixed_case_count": 32376,
+  "new_pattern_cases": 1980,
+  "source_variants": [
+    "VERSA_TOPIC__GLORY_TOPIC_PAST",
+    "VERSA_TOPIC__GLORY_TOPIC_FUTURE",
+    "VERSA_TOPIC__GLORY_YOU_FUTURE",
+    "VERSA_VIS__GLORY_TOPIC_PAST",
+    "VERSA_VIS__GLORY_TOPIC_FUTURE",
+    "VERSA_VIS__GLORY_YOU_FUTURE"
+  ],
+  "writers": [
+    "PREFIX_FORWARD",
+    "PREFIX_REVERSE",
+    "POSTFIX_FORWARD",
+    "POSTFIX_REVERSE"
+  ],
+  "limits": {
+    "pattern_seconds": 5,
+    "factor_seconds": 2,
+    "factor_nodes": 100000,
+    "external_pattern_seconds": 10,
+    "reverse_seconds": 10,
+    "shared_target_seconds": 900,
+    "workers": 24
+  },
+  "stop_remaining_fraction": 0.9,
+  "preexisting_exposure": true,
+  "independent_meaning_confirmation_capacity": 0,
+  "confirmed_translated_words": 0,
+  "meaning_note": "Full original-code factorization is required even for a conditional source reading; no fixed lexical values or unique inverse parsing claimed."
+}

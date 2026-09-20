@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT991 REGISTERED: all1980open990cases receive complete role-form pattern checks;all32376rows retained.24source signatures,5100small/24whole controls PASS. Shared15-minute target/reverse cap;90percent unresolved stop. No target fit yet;original990bytes/status unchanged;0words/independent/reserves. [Decision](experiments/yolo/gdt991_smaragdina_complete_form_pattern/DECISION.md).
+
 GDT990 INTERRUPTED: exit143 before solver case files; cause unknown. Complete32376-row deterministic recovery independently agrees:11316necessary contradictions,19080source unknown,1980full equations unretained/unresolved. Last console checkpoint96jobs, no case/status inventory inferred. Sixbranches/fourwriters parked without retry;0retained witnesses/words/independent. Original public lock unchanged;no reserve. [Report](experiments/yolo/gdt990_smaragdina_complete_role_frames/REPORT.md).
 
 RUPESCISSA COMPLETE CONTENT: C1 covers all29source positions with48bindings, separating generated stock provenance from unspecified aliquot mass. No full script realization or tested physical execution; retain source draft and stop before target decoder. Source identity finding remains;985/933/947 unchanged. Next complete Tabula source/writer preflight only;0words/reserves. [Decision](research_registry/work_batches/ten_hours_20260915/RUPESCISSA_CONTENT_DECISION_20260920.md).
