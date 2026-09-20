@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+NEXT SCOPE:1012post-result quotient prepares20complete-content inputs covering312original-setting/f50r cases;zero new queries.1003short-only world solver cannot coverlongPAIR/COPY/RECENT. IDEA433not selected: NEXTorder discriminator absent from fixed executor. [Scope](experiments/yolo/gdt1012_transport_necessary_bank_sequence/FULL_CONTENT_FOLLOWUP.md), [433review](research_registry/decisions/transport_curry_433_preflight_20260920.json).
+
 GDT1012 BANK PROJECTION NONSEPARATING: all72cases SAT independently;all144saved full maps fail. Neitherf50reader space closed. The36original codes form6cargo-renamingclasses with full German paragraph renderings;0words. No automatic added-state/sample loop. [Report](experiments/yolo/gdt1012_transport_necessary_bank_sequence/REPORT.md).
 
 GDT1011 COMPLETE ORIGINAL CONTENT: all8layouts and1800dictionaries independently exhausted;36maps156settings retain complete content. Six extra roles fixed conditionally; qokedy belongs to bothhazardpairs. Bothf114extensions excluded for every valid full code;twof50grammar spaces remain despite144failed saved maps. No independent meaning/words. [Report](experiments/yolo/gdt1011_transport_factored_layout_meanings/REPORT.md).

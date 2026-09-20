@@ -77,3 +77,13 @@ pairs and all earlier complete exclusions. Do not automatically add another
 state variable or extend sampling. A future test needs a compact complete
 content formulation or a component model explaining the entire retained word
 inventory; merely passing this projection is not enough to choose a reading.
+
+## Prepared follow-up scope, not an executed result
+
+Exact cargo-symmetry grouping reduces the312retained original-map/valid-setting/
+f50rcontext cases to20canonical complete-content inputs. Every original member
+and inverse rename is retained in NEXT_FULL_CONTENT_CASES.json; the independent
+membership reconstruction passes. No full-content query was run by this step.
+[FULL_CONTENT_FOLLOWUP.md](FULL_CONTENT_FOLLOWUP.md) states the exact obligations,
+including why1003's short-only omission of PAIR/COPY cannot be reused on f50r.
+This is preparation for a separately registered test,not another reading result.
