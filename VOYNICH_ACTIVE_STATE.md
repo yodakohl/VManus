@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1007 PROJECTED CONTEXTS: all36original role/settings candidates survive same2of120whole contexts;72candidateSAT/4248UNSAT,4440totalqueries independently agree. Both name/reference alternatives remain;34free assignments per witness,all saved maps conflict with original nonprojected words. Full joint alternatives untested;0words/meaning. [Report](experiments/yolo/gdt1007_transport_projected_reference_contexts/REPORT.md).
+
 GDT1006 FREE LEXICON: all47old assignments released;36bijective role/settings tuples independently exhausted,66functional tuples with remainder. Eight singleton roles already syntax-forced;chedy=OTHER_CARGO excluded, name/FIRST_CARGO survive.36nonprojected domains witnessed-only;0words/meaning. [Report](experiments/yolo/gdt1006_transport_unfixed_original_lexicon/REPORT.md).
 
 GDT1005 RECORD WRITER STOP: both FULL/DELTA contradict all1440literal whole bundles;7212cases total,4162sourceunknown170gapunknown,0computeunknown/code. All240predictions and capacity bounds independently checked. Fixed240record and1–2records/group model only;not Cennini/content exclusion. No source/mask/seam repair;0words/meaning. [Report](experiments/yolo/gdt1005_cennini_lossless_context_records/REPORT.md).

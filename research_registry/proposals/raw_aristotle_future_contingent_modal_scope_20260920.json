@@ -1,0 +1,107 @@
+{
+  "title": "Aristotle De Interpretatione 9 future-contingent modal-scope constructor",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Aristotle De Interpretatione 9 gives a complete short argument about future singular propositions, contradictory alternatives, deliberation, and potentiality. A finite constructor keeps NECESSARY outside the disjunction: NECESSARY(OR(P,NOT(P))) while neither NECESSARY(P) nor NECESSARY(NOT(P)) follows. The same rule is worked through a sea-battle-tomorrow case and a cloak that may be cut but may wear out first. Changing only modal scope changes the complete consequence from open alternatives to a fixed future.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Aristotle, De Interpretatione / Peri hermeneias, chapter 9",
+    "bekker_span": "18a28-19b4",
+    "greek_url": "https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0086.tlg017.1st1K-grc1/",
+    "primary_translation_url": "https://classics.mit.edu/Aristotle/interpretation.1.1.html",
+    "parallel_translation_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+    "source_span": "Chapter 9 from the opening distinction between present/past and future singular assertions through the sea-battle scope statement, the cloak counterexample, deliberation/action, potentiality in contrary directions, and the final undecided truth-value conclusion.",
+    "provenance": "The Greek work is the First1KGreek/Perseus CTS text. The MIT and St Andrews English translations are navigation and clause-account witnesses; this proposal makes no claim about a target language, Latin default, or medieval manuscript transmission."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000454 Dionysius connector classes; IDEA000423 Aristotle Physics regular-purpose versus incidental result; IDEA000451 Cicero conditional promise/harm; IDEA000028 generic modal obligation; GDT1006 fixed transport role/settings projections.",
+    "difference": "Those cards classify connectors, causes, obligations, or conditional safety. This card tests one source-attested higher-order scope distinction: necessity applies to the exhaustive OR of two contradictory future alternatives, not to either alternative separately. It also requires one rule to account for two complete examples with different event content."
+  },
+  "source_account": {
+    "presuppositions": [
+      "A future singular predicate has one positive and one negative contradictory form with the same subject, predicate, and time.",
+      "The source distinguishes an exhaustive alternative (P or not-P) from selecting one member (P or not-P individually).",
+      "Statements correspond to how things are, but deliberation and action can be causal for events that are not continuously actual.",
+      "Potentiality can run in contrary directions; a present actuality can be necessary when it is actual without making every future event unconditionally necessary."
+    ],
+    "clauses": [
+      {"id":"C01","span":"18a28-18a32","content":"Present and past affirmations or negations are true or false; future individual cases differ.","ast":["ASSERTION_DOMAIN",["TIME","PRESENT_PAST"],["STATUS","TRUE_OR_FALSE"],["FUTURE_INDIVIDUAL","DIFFERENT"]]},
+      {"id":"C02","span":"18a32-18b7","content":"If every future affirmation or negation is already true or false, one speaker affirming and another denying the same future event yields one true statement and a necessary event-status alternative.","ast":["IF",["BIVALENCE","FUTURE_SINGULAR"],["DERIVE","ONE_TRUE_ONE_FALSE",["NECESSARY_STATUS","P"]]]},
+      {"id":"C03","span":"18b7-18b16","content":"The same premise makes every event fixed and removes chance, because the true forecast must be fulfilled.","ast":["IF",["BIVALENCE","FUTURE_SINGULAR"],["DERIVE","NO_CHANCE",["FIXED_FUTURE"]]]},
+      {"id":"C04","span":"18b16-18b25","content":"The backward truth argument says that if it was always true that a future event would occur, it could not fail; hence everything that will be would happen necessarily.","ast":["IF",["ALWAYS_TRUE_FUTURE","P"],["DERIVE","NECESSARY",["FUTURE_EVENT","P"]]]},
+      {"id":"C05","span":"18b25-19a7","content":"The alternative that neither affirmation nor negation is true is also rejected; the sea battle would then neither happen nor fail to happen and chance would disappear.","ast":["REJECT",["NEITHER_TRUE","P","NOT_P"],["CONSEQUENCE","SEA_BATTLE","NEITHER_HAPPEN_NOR_FAIL"],["CONSEQUENCE","CHANCE","REMOVED"]]},
+      {"id":"C06","span":"19a7-19a22","content":"The fixed-bivalence result also removes deliberation and action, although the source observes that future events arise from deliberation/action and that non-actual things can be possible in either direction.","ast":["CONTRADICTS",["NO_CHANCE","FIXED_FUTURE"],["CAUSES_FUTURE","DELIBERATION_ACTION"],["POSSIBILITY","CONTRARY_DIRECTIONS"]]},
+      {"id":"C07","span":"19a22-19a27","content":"Cloak example: the cloak may be cut in half, yet it may wear out first; its not-being-cut is possible because otherwise wearing out first could not occur.","ast":["EXAMPLE","CLOAK",["POSSIBLE","CUT"],["POSSIBLE","NOT_CUT"],["ACTUAL_OR_DESCRIBED","WEAR_OUT_FIRST"],["SUPPORTS","POSSIBLE_NOT_CUT","WEAR_OUT_FIRST"]]},
+      {"id":"C08","span":"19a27-19b4","content":"Therefore not everything happens necessarily; some future alternatives are open, while some tendencies favor one direction without excluding the opposite. What is actual is necessary when actual, but not every actual or future thing is unconditionally necessary.","ast":["CONCLUDE",["OPEN_ALTERNATIVE","P","NOT_P"],["TENDENCY","MAY_FAVOR_ONE"],["NOT_UNCONDITIONALLY_NECESSARY","FUTURE"]]},
+      {"id":"C09","span":"19a23-19a25","content":"The exact sea-battle scope statement: a sea battle must either happen tomorrow or not happen, but neither happening nor not happening is necessary; the OR as a whole is necessary.","ast":["SCOPE_TEST","NECESSARY",["OR","SEA_BATTLE_TOMORROW",["NOT","SEA_BATTLE_TOMORROW"]],["NEITHER",["NECESSARY","SEA_BATTLE_TOMORROW"],["NECESSARY",["NOT","SEA_BATTLE_TOMORROW"]]]]},
+      {"id":"C10","span":"19a25-19b4","content":"Because statements follow facts, the same open contrary potentiality belongs to the corresponding affirmation and negation; one or the other is the case, but not this one or that one determinately in advance.","ast":["MAP",["FACTS","OPEN_CONTRARY_POTENTIALITY"],["STATEMENTS","CORRESPONDING_OPEN_ALTERNATIVES"],["DEFER","WHICH_DISJUNCT"]]}
+    ],
+    "examples": [
+      {
+        "id":"SEA_BATTLE",
+        "p":"SEA_BATTLE_TOMORROW",
+        "not_p":["NOT","SEA_BATTLE_TOMORROW"],
+        "complete_source_consequence":["AND",["NECESSARY",["OR","SEA_BATTLE_TOMORROW",["NOT","SEA_BATTLE_TOMORROW"]]], ["AND",["NOT",["NECESSARY","SEA_BATTLE_TOMORROW"]],["NOT",["NECESSARY",["NOT","SEA_BATTLE_TOMORROW"]]]]],
+        "scope_note":"NECESSARY scopes over OR; it does not distribute into either disjunct."
+      },
+      {
+        "id":"CLOAK",
+        "p":"CLOAK_CUT_IN_HALF",
+        "not_p":["NOT","CLOAK_CUT_IN_HALF"],
+        "complete_source_consequence":["AND",["POSSIBLE","CLOAK_CUT_IN_HALF"],["AND",["POSSIBLE",["NOT","CLOAK_CUT_IN_HALF"]],["WEAR_OUT_FIRST","CLOAK"]]],
+        "scope_note":"The described wear-out-first outcome supplies a live route in which not-cut remains possible; it does not convert either future disjunct into an unconditional necessity."
+      }
+    ]
+  },
+  "constructor": {
+    "types": ["PROPOSITION", "TIME", "NEGATION", "DISJUNCTION", "MODAL", "POSSIBILITY", "CAUSE", "OUTCOME", "SCOPE_FRAME"],
+    "operators": [
+      "ATOM(name) -> PROPOSITION",
+      "NOT(p) -> PROPOSITION",
+      "OR(p,q) -> PROPOSITION",
+      "NECESSARY(p) -> MODAL",
+      "POSSIBLE(p) -> MODAL",
+      "OPEN_ALTERNATIVE(p,q) -> OUTCOME",
+      "IF(premise, consequence) -> SCOPE_FRAME",
+      "CAUSE(event, source) -> CAUSE",
+      "ACTUAL(outcome) -> OUTCOME"
+    ],
+    "global_rules": [
+      "For every future singular p, define exactly one contradictory pair p and NOT(p) with the same subject, predicate, and time.",
+      "EXHAUSTIVE_OR(p) is OR(p,NOT(p)); NECESSARY(EXHAUSTIVE_OR(p)) is not equivalent to OR(NECESSARY(p),NECESSARY(NOT(p))).",
+      "OPEN_ALTERNATIVE(p,NOT(p)) is licensed when POSSIBLE(p) and POSSIBLE(NOT(p)) both hold; a tendency may favor one without closing the other.",
+      "An actual or completed event receives NECESSARY_WHEN_ACTUAL only at its actual time; this local rule does not propagate to all future propositions.",
+      "The same operators and scope rules are reused for SEA_BATTLE and CLOAK; only the proposition atoms and described outcome differ."
+    ],
+    "python": "def scope_reading(p):\n    q = ('NOT', p)\n    return {\n      'exhaustive_alternative': ('NECESSARY', ('OR', p, q)),\n      'positive_disjunct': ('NECESSARY', p),\n      'negative_disjunct': ('NECESSARY', q),\n      'open_result': ('OPEN_ALTERNATIVE', p, q)\n    }\n\nsea = scope_reading('SEA_BATTLE_TOMORROW')\ncloak = scope_reading('CLOAK_CUT_IN_HALF')\nresult = {\n  'sea': sea,\n  'cloak': cloak,\n  'cloak_outcome': ('WEAR_OUT_FIRST', 'CLOAK')\n}",
+    "python_result": {
+      "sea": {
+        "exhaustive_alternative": ["NECESSARY", ["OR", "SEA_BATTLE_TOMORROW", ["NOT", "SEA_BATTLE_TOMORROW"]]],
+        "positive_disjunct": ["NECESSARY", "SEA_BATTLE_TOMORROW"],
+        "negative_disjunct": ["NECESSARY", ["NOT", "SEA_BATTLE_TOMORROW"]],
+        "open_result": ["OPEN_ALTERNATIVE", "SEA_BATTLE_TOMORROW", ["NOT", "SEA_BATTLE_TOMORROW"]]
+      },
+      "cloak": {
+        "exhaustive_alternative": ["NECESSARY", ["OR", "CLOAK_CUT_IN_HALF", ["NOT", "CLOAK_CUT_IN_HALF"]]],
+        "positive_disjunct": ["NECESSARY", "CLOAK_CUT_IN_HALF"],
+        "negative_disjunct": ["NECESSARY", ["NOT", "CLOAK_CUT_IN_HALF"]],
+        "open_result": ["OPEN_ALTERNATIVE", "CLOAK_CUT_IN_HALF", ["NOT", "CLOAK_CUT_IN_HALF"]]
+      },
+      "cloak_outcome": ["WEAR_OUT_FIRST", "CLOAK"]
+    },
+    "observable_consequence": "Changing only the modal scope changes a complete source reading: correct scope yields NECESSARY(OR(P,NOT(P))) plus OPEN_ALTERNATIVE(P,NOT(P)); the rival distributes necessity and yields a fixed P or fixed NOT(P), removing the source's deliberation, chance, and wear-out-first consequences. The same changed scope must affect both sea battle and cloak examples."
+  },
+  "rival": {
+    "name": "DISTRIBUTED_NECESSITY",
+    "rule": "Rewrite NECESSARY(OR(p,NOT(p))) as OR(NECESSARY(p),NECESSARY(NOT(p))) and choose one necessary disjunct.",
+    "changed_consequence": "Sea battle becomes predetermined and cloak wear-out-first cannot preserve possible not-cut; deliberation/action and open contrary potentiality are lost.",
+    "why_source_disagrees": "Aristotle explicitly says that either alternative is necessary as a whole, but neither sea battle nor its negation is individually necessary; the cloak example gives both contrary possibilities."
+  },
+  "falsifier": "Reject this source constructor if a complete source passage requires NECESSARY to distribute into one future disjunct, if the same scope rule cannot account for both sea battle and cloak, or if the described wear-out-first outcome is treated as proof that not-cut was unconditionally necessary. A target application would also fail to discriminate unless written forms/context independently expose proposition scope and a contradictory pair; no unknown target group may be assigned these roles merely to fit.",
+  "dependencies": [
+    "The two proposition atoms in each example are opaque source variables; no target word is translated.",
+    "Contradiction requires identity of subject, predicate, and time; arbitrary near-reference is not allowed.",
+    "The modal scope is fixed before any target comparison; no post-hoc placement of NECESSARY is permitted.",
+    "This is an exploratory source-content constructor, not a claim that the Voynich manuscript encodes Aristotelian logic or Greek vocabulary."
+  ],
+  "access": "No Voynich target rows, images, reserves, f84/f84r/f116v, root experiment files, route, ledger, or frozen source packet were opened or changed."
+}

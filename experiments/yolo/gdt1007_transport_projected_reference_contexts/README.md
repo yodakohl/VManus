@@ -1,3 +1,3 @@
 # GDT1007
 
-Registered complete-context test of36 conditional GDT1006 role projections. See [METHOD.md](METHOD.md) and [candidate predictions](artifacts/CANDIDATE_PREDICTIONS.json). No target query result yet.
+See [REPORT.md](REPORT.md), [all36candidate summaries](artifacts/CANDIDATE_SUMMARY.tsv), and [all72complete conditional readings](artifacts/READINGS.md).

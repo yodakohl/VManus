@@ -1016,3 +1016,31 @@ and grammar-adjacent cards were screened; only one genuinely new card survived.
 The card remains `RAW_UNREVIEWED_NOT_SELECTED`; source coverage and target
 binding are deliberately narrow. No target, reserve, root experiment, route,
 ledger, or frozen source file was changed.
+
+## T. One complete future-contingent modal-scope candidate
+
+The live route was read first. The composition topic, bounded route-check, and
+source/card search screened the existing Dionysius connector, Aristotle Physics,
+Cicero obligation, generic modal, and GDT1006 transport-scope material. One
+new card survived because it tests operator scope across two complete source
+examples rather than adding another connector or target phase label.
+
+* `IDEA000455` —
+  `raw_aristotle_future_contingent_modal_scope_20260920.json`. Aristotle,
+  *De Interpretatione* 9, gives a connected argument from future singular
+  contradictories through the bivalence/fatalism challenge, rejection of the
+  “neither true” escape, deliberation and action, potentiality in contrary
+  directions, the cloak that may be cut but may wear out first, and the exact
+  sea-battle conclusion. The finite constructor keeps `NECESSARY` outside the
+  exhaustive disjunction: `NECESSARY(OR(P,NOT(P)))`, while neither disjunct is
+  individually necessary. It applies the same rule to `SEA_BATTLE_TOMORROW`
+  and `CLOAK_CUT_IN_HALF`, retaining the described `WEAR_OUT_FIRST` outcome.
+  The named `DISTRIBUTED_NECESSITY` rival pushes necessity into one disjunct,
+  making the future fixed and erasing the source's open contrary potentiality.
+
+The source account records all chapter-9 premise, counterexample, scope, and
+conclusion stages in the card. It does not identify a target operator, source
+language, or target word; a future application would need independently bound
+proposition identity and scope. The card remains
+`RAW_UNREVIEWED_NOT_SELECTED`; no target, reserve, root experiment, route,
+ledger, or frozen source file was changed.
