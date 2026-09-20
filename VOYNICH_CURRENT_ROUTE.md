@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;close996then select whole relational content.
-Latest decision: 996T18compatible/T21uncertain;IT fixed opening contradicted;0words.
+Task: Ten-hour block to22:52:35UTC;publish partial medical review,select next content.
+Latest decision: IDEA413partial,223/310groups unread;failure-order debt retained.
 Working files: research_registry/work_batches/ten_hours_20260915/WHOLE_CONTENT_SELECTION_20260920.md
-Assumptions: 993is constructed;995conditionalcontrol;source agreement not meaning.
-Resume: Publish996closure;review whole relational candidates without fixed word counts.
-Running: bounded anatomical-source producer to14:50;root996closure then selection.
+Assumptions: Remedy type is not dose;literal previous form is not bound reference.
+Resume: Publish413review;select a complete content construction against live stops.
+Running: Root closure/publication;bounded idea producer idle after413delivery.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -1,0 +1,124 @@
+{
+  "status": "RAW_UNREVIEWED_WORKING_GRAMMAR",
+  "scope": "Only f83r.1-f83r.8 and f83r.9-f83r.17 from the existing GDT928 packet; ZL3b and IT2a streams. RF1b has no complete paragraph flags.",
+  "source_packet": "research_registry/work_batches/ten_hours_20260915/F83R_JOINT_MEDICAL_SOURCE_PACKET_20260920.json",
+  "source_paragraphs_sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+  "packet_file_sha256": "a0a504e0cb08c05bfbd17fadc2d071947a4d973d74d859b9b56b7f71ba6d681d",
+  "variables": {
+    "C": "case/patient discourse referent",
+    "M": "one treatment or medicine kind; not a physical dose or portion",
+    "D": "initial/distal application site",
+    "P": "revised/proximal causal site",
+    "S": "persistent affected sensory state; motor function is a separate unknown slot",
+    "H": "reported preceding history and cause-localization evidence",
+    "R": "reported response/outcome; not automatically causal proof"
+  },
+  "core_dictionary": {
+    "tchedy": "CASE_FRAME",
+    "chedy": "STATE_ASSERTION",
+    "chey": "NEGATE_OR_EXCLUDE",
+    "lchedy": "SITE_P_REFERENCE",
+    "lo": "CLOSE_OR_RESULT_SCOPE",
+    "lsheedy": "HISTORY_OR_CAUSE_LINK",
+    "qokaiin": "SITE_D_REFERENCE",
+    "qokal": "APPLY_OR_DIRECT",
+    "qokedy": "RESPONSE_OR_REPORTED_EFFECT",
+    "qokeedy": "NO_BENEFIT_OR_FAILURE_FLAG",
+    "qokshedy": "OTHER_MEDICINE_CONTRAST",
+    "shedy": "MEDICINE_KIND"
+  },
+  "reference_grammar": [
+    "CASE_FRAME introduces C; recurrence of tchedy does not itself prove a new patient.",
+    "INTRODUCE(C,M,S) binds M as a treatment kind and S as an affected state; same spelling does not prove same physical dose.",
+    "REPORT(C,H,S) keeps a reported history distinct from an authorially true diagnosis.",
+    "APPLY(M,D) and APPLY(M,P) preserve treatment-kind identity while changing site; the equality M_D = M_P is an explicit working assumption, not a consequence of repeated spelling.",
+    "NO_BENEFIT(M,D,S) licenses the changed-site proposal but does not prove that another medicine at D would fail.",
+    "RESPONSE(C,R) records an outcome; R does not by itself establish BECAUSE(P,R).",
+    "NEGATE_OR_EXCLUDE scopes over the nearest predeclared proposition unless the line-level reading marks a wider scope.",
+    "REPRISE(P1,P2) is a cross-paragraph hypothesis that unifies C, M, D, P, S and H; the independent-case rival leaves these variables distinct.",
+    "Every non-core whole form is one persistent unknown lexical variable wherever repeated; unknown groups are role-constrained, never filler or deleted."
+  ],
+  "working_chain": [
+    "INTRODUCE(C,M,S)",
+    "REPORT(C,H,S)",
+    "LOCATE(H,D,P)",
+    "APPLY(M,D)",
+    "NO_BENEFIT(M,D,S)",
+    "APPLY(M,P)",
+    "RESPONSE(C,R)",
+    "CLOSE_OR_RESULT_SCOPE(C,R)"
+  ],
+  "counts": {
+    "ZL3b": {
+      "P1_groups": 72,
+      "P2_groups": 84,
+      "total_occurrences": 156,
+      "whole_types": 113,
+      "singleton_types": 92,
+      "cross_paragraph_core_types": 12,
+      "cross_paragraph_core_occurrences": 43,
+      "core_bound_occurrences": 43,
+      "noncore_unknown_occurrences": 113,
+      "noncore_unknown_types": 101
+    },
+    "IT2a": {
+      "P1_groups": 71,
+      "P2_groups": 83,
+      "total_occurrences": 154,
+      "whole_types": 112,
+      "singleton_types": 92,
+      "cross_paragraph_core_types": 12,
+      "cross_paragraph_core_occurrences": 44,
+      "core_bound_occurrences": 44,
+      "noncore_unknown_occurrences": 110,
+      "noncore_unknown_types": 100
+    },
+    "pooled_four_streams": {
+      "occurrences": 310,
+      "exact_surface_types": 128,
+      "core_types": 12,
+      "core_occurrences": 87,
+      "noncore_unknown_occurrences": 223,
+      "noncore_unknown_types": 116
+    }
+  },
+  "semantic_assumptions": [
+    "P1 and P2 are two presentations of one case under REPRISE; this is a hypothesis, not an observed identity.",
+    "M is a treatment kind, not a conserved physical portion; P1/P2 do not establish dose identity.",
+    "D and P are distinct application sites; the causal relation from H to P is a working content assumption.",
+    "The reported response R does not entail that P caused recovery; a causal reading is a separate rival.",
+    "Aligned ZL3b/IT2a variant forms are retained as stream variants; no unrecorded normalization or EVA morphology supplies a meaning.",
+    "The old 376 fallback vocabulary, 993 Goat/Wolf/Cabbage values and renderer roles are not inherited."
+  ],
+  "binary_alternatives": [
+    {
+      "id": "A",
+      "reading": "same M at D then P",
+      "prediction": "A failure flag at D licenses a later APPLY(M,P); the medicine argument is stable while site changes.",
+      "rival": "different M at the same D",
+      "different_consequence": "The rival predicts a medication substitution without requiring a site change; it leaves the H-to-P localization edge unused."
+    },
+    {
+      "id": "B",
+      "reading": "qokeedy reports no benefit/failure",
+      "prediction": "The changed-site instruction is conditional on a stated unsuccessful response.",
+      "rival": "qokeedy marks a planned treatment stage",
+      "different_consequence": "The rival permits APPLY(M,P) even when M at D succeeded; success and failure no longer change the instruction path."
+    },
+    {
+      "id": "C",
+      "reading": "P2 is a reprise of P1",
+      "prediction": "REPRISE unifies C, M, D, P, S and H while allowing different clause order and report detail.",
+      "rival": "P1 and P2 are independent cases",
+      "different_consequence": "The rival allows homonymous roles to refer to different patients, medicines and sites, so no cross-paragraph content transfer is predicted."
+    },
+    {
+      "id": "D",
+      "reading": "qokshedy is a mentioned alternative medicine",
+      "prediction": "The alternative is a contrastive candidate and is not silently administered in the main chain.",
+      "rival": "qokshedy is an executed replacement",
+      "different_consequence": "The rival adds a second intervention event and predicts an additional treatment identity/output that the main reading does not."
+    }
+  ],
+  "stop_condition": "If the 223 non-core occurrences cannot be assigned finite argument roles without assigning 92 singleton meanings or changing repeated values, retain the exact unknown groups and report the conflict; do not repair with filler, old glosses, EVA similarity or a new production."
+}

@@ -1,0 +1,59 @@
+{
+  "title": "RAW_UNREVIEWED: joint f83r P1/P2 case with same treatment kind and changed application site",
+  "summary": "A complete two-paragraph working reading of f83r.1-8 and f83r.9-17 uses one explicit case/reference grammar: reported non-benefit of one treatment kind at an initial site, revised cause localization, and the same treatment kind at another site. Unknown singleton groups remain role-constrained rather than receiving free sentence glosses.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "source_packet": "research_registry/work_batches/ten_hours_20260915/F83R_JOINT_MEDICAL_SOURCE_PACKET_20260920.json",
+    "source_paragraphs_sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+    "packet_file_sha256": "a0a504e0cb08c05bfbd17fadc2d071947a4d973d74d859b9b56b7f71ba6d681d",
+    "reading_file": "research_registry/work_batches/ten_hours_20260915/F83R_JOINT_MEDICAL_JOINT_READING_20260920.md",
+    "grammar_file": "research_registry/work_batches/ten_hours_20260915/F83R_JOINT_MEDICAL_GRAMMAR_20260920.json",
+    "target_scope": {
+      "ZL3b": ["f83r.1-f83r.8", "f83r.9-f83r.17"],
+      "IT2a": ["f83r.1-f83r.8", "f83r.9-f83r.17"],
+      "RF1b": "no complete paragraph flags; not fitted"
+    },
+    "working_chain": "INTRODUCE(C,M,S) -> REPORT(C,H,S) -> LOCATE(H,D,P) -> APPLY(M,D) -> NO_BENEFIT(M,D,S) -> APPLY(M,P) -> RESPONSE(C,R)",
+    "content": "P1 introduces a case and affected sensory state, reports an initial site and preceding history, then links failure of M at D to application of the same treatment kind M at P. P2 is provisionally a reprise of the same case under an explicit REPRISE relation, with the same variables and different report detail. The treatment kind is not a conserved dose or physical portion. Reported response does not prove that P caused recovery.",
+    "core_forms": {
+      "tchedy": "CASE_FRAME",
+      "chedy": "STATE_ASSERTION",
+      "chey": "NEGATE_OR_EXCLUDE",
+      "lchedy": "SITE_P_REFERENCE",
+      "lo": "CLOSE_OR_RESULT_SCOPE",
+      "lsheedy": "HISTORY_OR_CAUSE_LINK",
+      "qokaiin": "SITE_D_REFERENCE",
+      "qokal": "APPLY_OR_DIRECT",
+      "qokedy": "RESPONSE_OR_REPORTED_EFFECT",
+      "qokeedy": "NO_BENEFIT_OR_FAILURE_FLAG",
+      "qokshedy": "OTHER_MEDICINE_CONTRAST",
+      "shedy": "MEDICINE_KIND"
+    },
+    "transparent_counts": {
+      "ZL3b": {"groups": 156, "whole_types": 113, "singleton_types": 92, "cross_paragraph_core_types": 12, "cross_paragraph_core_occurrences": 43, "noncore_unknown_occurrences": 113},
+      "IT2a": {"groups": 154, "whole_types": 112, "singleton_types": 92, "cross_paragraph_core_types": 12, "cross_paragraph_core_occurrences": 44, "noncore_unknown_occurrences": 110},
+      "pooled_four_streams": {"occurrences": 310, "exact_surface_types": 128, "core_occurrences": 87, "noncore_unknown_occurrences": 223, "noncore_unknown_types": 116}
+    },
+    "semantic_assumptions": [
+      "P1 and P2 are one case only through an explicit REPRISE hypothesis; repeated spelling alone does not unify patient or referent.",
+      "M is a treatment kind, not the same physical dose or portion.",
+      "D and P are distinct sites; history-to-P is a working relation, not an observed target fact.",
+      "Response is reported outcome and does not entail causation.",
+      "qokshedy is a mentioned alternative in the main reading, not an unmarked executed intervention.",
+      "No old IDEA376 meanings, GDT993 Goat/Wolf/Cabbage glosses, renderer roles or EVA-shape meanings are inherited."
+    ],
+    "binary_alternatives": [
+      {"id": "A", "main": "same M at D then P", "rival": "different M at same D", "consequence": "The rival removes the changed-site edge and predicts medication substitution instead."},
+      {"id": "B", "main": "qokeedy is reported non-benefit", "rival": "qokeedy is a planned stage", "consequence": "Only the main reading makes relocation conditional on failure."},
+      {"id": "C", "main": "P2 reprises P1", "rival": "P1 and P2 are independent cases", "consequence": "Only the main reading transfers C/M/D/P/S/H across paragraphs."},
+      {"id": "D", "main": "qokshedy is mentioned contrast", "rival": "qokshedy is executed replacement", "consequence": "The rival adds an intervention and outcome absent from the main chain."}
+    ],
+    "nearest_predecessors": [
+      {"id": "IDEA000376", "difference": "Existing P2 card proposes Celsus-like failure-triggered fallback and aftercare. This card jointly reads P1/P2 as one case with same treatment kind and changed site; it does not inherit 376's fallback glosses."},
+      {"id": "IDEA000401", "difference": "Galen source-only analogy motivated the relation, but this is a new target construction and imports no Rome, Pausanias, duration or literal source wording."},
+      {"id": "GDT928", "difference": "GDT928 is an exact word-sequence census; this card is an exploratory whole-content construction over its already bounded paragraph packet."}
+    ],
+    "stop_condition": "If the 223 non-core occurrences cannot be retained under finite argument roles without free singleton meanings, changing repeated values, or adding productions, stop with the exact unknown ledger rather than repairing the reading."
+  }
+}

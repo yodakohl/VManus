@@ -477,3 +477,85 @@ conflicts atINITIAL2–5 survive arbitrary unknown-terminal filling;ZL/RF endpoi
 notexcluded. This is one shift,notfourindependentcontradictions. Independent
 formal/pixel checksPASS;0meaningconfirmation. No corpus wildcard solver or
 new singleton meanings follow.996exactreading remains source-uncertain.
+
+
+996closure10abe9899pushed and confirmed14:22UTC,about11minutesfrompreparation,
+inside14:35budget. ExactstagedgatePASS;globalonly8old600/953findings. No further
+seaminspectionselected. The complete381/352Timaeus contentplan,809jointparagraph
+report,798whole-reference tie,827jointcoreconflict andIDEA030causal-scope review
+were read during next-choice preparation. They supply limits,not target meanings.
+
+## Exploratory shared medical account,14:26UTC–15:25UTC checkpoint
+
+Question: can two complete already exposedf83rparagraphs share one concrete
+relational reading in which remedy TYPE persists while application SITE changes?
+A fresh constructed medical narrative may draw onGalen401's causal-site idea;
+it does not claim literal I.6/III.14source identity or silently omit parts of a
+promised source translation. Source historical anatomy/efficacy are assertions,
+not currentmedicalfacts. The type of remedy is not its same physical portion.
+
+Whole units fixed from928:ZL1–8(72groups),9–17(84);ITsameboundaries71/83;
+RFmissingwholeparagraphcontract. Sourcepacketis an exactsubsetofpublic928.
+Root's first producer assignment wrongly named811FOUR_PAGES,which actually owns
+f17r/f77r/f88r/f72r;this was corrected before any claimedf83extraction. No new
+admission or target original. Wholeleaf83fullyexposed;independentmeaning0.
+
+Positive:12exactwholes bridge bothparagraphs,43of156ZLoccurrences(IT44/154).
+Strong risk:113ZLtypes,92singletons;wholecoveragealonecouldbe92freeglosses.
+Actualsharedforms:chedy,chey,lchedy,lo,lsheedy,qokaiin,qokal,qokedy,qokeedy,
+qokshedy,shedy,tchedy. Thisinventoryis preparation,not semanticprogress.
+Agentindependentlyattemptsa completeproposalwithonelexiconandgrammar;root
+reviewsprimarycountercasesandwillcheckidentity/scopeconsequenceswithoutusing
+fluentproseasvalidation. Unknowns,contradictionsandnewvaluesremainvisible.
+
+Retainedcountercases:798text-referent/remedy tie doesnot identify either;
+827changingfiveglossestogether preservesthe same line with different content;
+809wholeparagraphshave99unresolvedpositions,coverageisnotaccuracy;993has41new
+valuesand996retainsaseamdebt. IDEA030plainTHENcan describe causal events,
+so differentphysicaloutcomes do not locate BECAUSE in an unbound word.
+No inheritedoldaction/animal/water/degreeword,nonewglobalrendererdefaults.
+
+Consequences must distinguish identityandlocation assertions actually written
+under the candidategrammar. Laterimprovementalone doesnot prove same-remedy
+or changed-site meaning:another remedy'sefficacy is UNKNOWN unless explicitly
+constrained. Do notinvent a universal only-causal-site-heals rule to force a
+winner. If the proposal remains incomplete,identify its exact joint binding
+conflicts or missing construction;no newGDTmerelyforanothermissing-input audit.
+If complete,freeze fullsource,lexicon,grammar,candidatevariations and evaluation
+before executableconsequence testing. Scopeparsing,semanticconsistency,unknown
+values,sourceuncertaintyandconfirmationcapacityreportedseparately.
+
+Assumptions:bothparagraphs discussonecase/linkedcases;whole-form meanings stable;
+proposedboundaries/argumentorderanddiscourse/scopemarkers are hypotheses;
+wordcompositionnotexplainedmerelybyawholelexicon;no significanceorindependent
+semanticgold. Inclusivepreparation/exploration/validation/publicationcheckpoint
+15:25UTC;noautochainofnewglossesorscopeexpansionafterfailure.
+
+
+Root pre-draft consequence limits14:35UTC: fixed word meaning is not automatic
+referent identity. ARZNEI/PATIENT could denote new instances; shared patient,
+remedy type, physical portion, symptomatic location and causal location need
+separate bindings or declared defaults. An abstract maintenance account could
+also preserve intervention type while moving an application to an upstream
+site; relational coherence alone cannot name a body,nerve or medicine. Such
+consistent global renamings must remain explicit unseparated interpretations.
+The observed cure cannot be used as an oracle to resolve ambiguous references.
+An unknown efficacy remains UNKNOWN,not a conveniently false rival outcome.
+
+Exact subsetpacketwas compared independentlywithall17linesin each915ZL/IT
+snapshot:rawgroupsmatch,includinguncertainentities andspaces. This is source
+integrity only,notnewscientificsupport. Completebothparagraphs remainfixed;
+no shorter favorable subspan or replacement third paragraph will be selected.
+
+
+### IDEA413pre-implementation decision14:53UTC
+
+No complete joint reading delivered:12core guesses,113/156ZL and110/154IT
+unknownoccurrences. Rootretained all nine qokal/qokeedy positions. Under an
+additional latest-application rule the later failure would refer to the second
+application,not silentlyto the first. ITalsohas an earlyflag before anyqokal.
+These are explicit obligations,not medicalrefutations. Complete review/table/
+script inF83R_JOINT_MEDICAL_REVIEW_20260920.md.933's typed-carry stop checked;
+no new reference engine or blanket stative interpretation of unknowns selected.
+Keeprawpartialhypothesis;no newGDTorwordconfirmation. Nextchoicepending;do not
+repeatthismissingconstructionauditwithoutactualnewcontentbindings.

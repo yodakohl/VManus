@@ -335,6 +335,50 @@ word, embryological reading, or Voynich source. No new target access, image
 inspection, decoder, experiment, ledger, route, refresh, commit, or publication
 was performed.
 
+### Producer batch: joint f83r P1/P2 medical working reading (2026-09-20)
+
+One new raw card, **IDEA000413**, records a complete exploratory content draft
+over exactly the existing GDT928 paragraph pair: `f83r.1–f83r.8` and
+`f83r.9–f83r.17`. It uses all four available complete streams (ZL3b and IT2a;
+RF1b has no paragraph flags), with no new target access. The source packet is
+`F83R_JOINT_MEDICAL_SOURCE_PACKET_20260920.json`.
+
+The raw reading and its small grammar are kept in:
+
+- `F83R_JOINT_MEDICAL_JOINT_READING_20260920.md`
+- `F83R_JOINT_MEDICAL_GRAMMAR_20260920.json`
+
+The main working chain is `INTRODUCE(C,M,S) → REPORT(C,H,S) → LOCATE(H,D,P)
+→ APPLY(M,D) → NO_BENEFIT(M,D,S) → APPLY(M,P) → RESPONSE(C,R)`. Here `M` is
+the same treatment **kind** under an explicit cross-paragraph `REPRISE`
+assumption. It is not the same dose or physical portion. `C`, `M`, `D`, `P`,
+`S`, and `H` are unified across P1/P2 only by that declared relation; repeated
+spellings alone do not prove referent identity. Reported response is kept
+separate from a causal `BECAUSE(P,R)` claim.
+
+The 12 cross-paragraph core whole forms carry 43 ZL3b and 44 IT2a occurrences.
+ZL3b contains 156 groups, 113 whole types and 92 singleton types; IT2a
+contains 154 groups, 112 whole types and 92 singleton types. Across the four
+streams there are 310 occurrences and 128 pooled exact surface types. The
+working dictionary binds only the 12 core forms; 223 pooled non-core
+occurrences from 116 types remain unknown and are retained as persistent
+role-constrained variables. No 92-singleton gloss expansion is claimed.
+
+Four explicit binary alternatives are retained: same treatment kind at D then
+P versus a different medicine at D; failure-triggered relocation versus a
+planned stage; P2 reprise versus independent second case; and mentioned
+alternative medicine versus executed replacement. IDEA000376 remains a nearby
+P2 fallback/aftercare predecessor, while IDEA000401 is only the source-owned
+Galen relation that motivated the new construction. Neither is silently
+inherited. If the unknown groups cannot be reduced to finite argument roles,
+the card stops with the exact unknown ledger rather than adding meanings,
+productions, filler, or EVA-based composition.
+
+No claim of translation, Galen provenance, independent patient identity,
+physical dose identity, or causal efficacy is made. No GDT experiment, root
+route, ledger, decoder, refresh, commit, publication, new image, reserve, or
+other target row was accessed.
+
 ## Source audit record and public reproducibility
 
 All links below identify public sources; hashes bind bytes actually downloaded. Original source images were viewed through native image inspection. Images, browser captures, caches and absolute machine paths are not included in this dossier or its raw card. No Voynich transcription or image file, reserve, f84/f84r or f116v was opened. Registry metadata and primary result prose were used for duplicate/claim checks; their quoted historical target examples were not treated as new experiment data. No contact was made. Root owns publication, route and ledger changes.
