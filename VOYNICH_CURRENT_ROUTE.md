@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Publish GDT987 finite closure of all literal complete986equations.
-Latest decision: 148/148contradicted;reverse replay agrees;166source unknowns;0codes.
-Working files: experiments/yolo/gdt987_anastasia_finite_word_proof/REPORT.md
-Assumptions: Original986receipts fixed;no broader content refutation;reserves closed.
-Resume: Bind,index,refresh,review,check,publish;then inspect old Trotula primary sections.
-Running: Root closure;bounded source-construction producer active;earliestend09:05:26UTC.
+Task: Select a complete-content candidate with attested repeated-reference notation.
+Latest decision: Trotula43source units retained;f82r/f83r do not bind odors/branches.
+Working files: research_registry/proposals/raw_reference_assembly_observation_context_20260920.md
+Assumptions: No inherited gloss;complete source content and exposed whole paragraphs required.
+Resume: Review reference grammar candidates and their primary stops before choosing a test.
+Running: Root selection;bounded notation-source producer active;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -1,0 +1,649 @@
+{
+  "title": "f83r P5: transferring one observation to a shared instrument setting and two readings",
+  "summary": "RAW_UNREVIEWED. The full Chaucer II.3 daytime example couples back-side altitude, front-side setting, solar-degree reference, border-letter count and ascendant. Same-value/reference constraints must bind the unknown groups; independent legal steps do not reproduce one instrument observation.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "created_utc": "2026-09-20",
+    "scope_limit": "Whole-content exploratory draft, not a complete target translation, fixed test or selected decoder.",
+    "structural_baseline": "Directed reusable composition, spaces, whole-form residuals and entry effects are all retained. No EVA letter, suffix or previous renderer is a known meaning.",
+    "access": "Already exposed complete report-owned paragraphs, existing external source caches and one reread primary edition/native source image; no new Voynich data/image/admission, reserve, contact, solver or target fit.",
+    "writing_limit": "Finite semantic productions specify a prospective reusable language, not a solved surface code. Unknown groups remain; no individual unknown may be invented merely to fill a source sentence. One shared argument order, reference composition and scope mechanism is required before fixed testing.",
+    "retained_stops": [
+      "GDT947 fixed ol-backward/forward reference rule remains contradicted.",
+      "GDT214/GDT187 general diagram-key reuse unsupported; no hidden recovery is asserted.",
+      "GDT969/970/979 fixed code families are not broadened.",
+      "GDT913/914/925/928 closed literal routes retained; W89/W96 remain paused/parked."
+    ],
+    "target": {
+      "source_path": "research_registry/proposals/translation_programs_20260912/work/P12/READING_L1.md",
+      "records": [
+        {
+          "locus": "f83r.31",
+          "raw": "techedy qotchedy okeedy ldy",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.32",
+          "raw": "cheol qokchedy lchedy qokey",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.33",
+          "raw": "sy s aiin sheekchy qokey sain",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.34",
+          "raw": "shky lchedy dolshed qokchy",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.35",
+          "raw": "saiin cheky okeeol okain chdy",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.36",
+          "raw": "sor aiin shy shey lshedy qoky",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.37",
+          "raw": "sol lkedy lchedy qokol shedy",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.38",
+          "raw": "or chey qockhey dairydy",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.39",
+          "raw": "qokain shey kain chckhal",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.40",
+          "raw": "solchedy olchedy chedaiin",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.41",
+          "raw": "solkey lchedy qolkain dal",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.42",
+          "raw": "sol ol chcthdy l chedy lchdy",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.43",
+          "raw": "daiin sheol chedy qotal sar",
+          "paragraph": "F83_P5"
+        },
+        {
+          "locus": "f83r.44",
+          "raw": "skar shedy",
+          "paragraph": "F83_P5"
+        }
+      ],
+      "scope": "Full paragraph from this report; all raw spaces and present alternate readings retained. These are previously exposed sources, not independent witnesses or a new visual boundary."
+    },
+    "shared_whole_word_hypotheses": {
+      "lchedy": "the Sun degree on the instrument",
+      "shedy": "the label / pointer",
+      "qokey": "the measured altitude quantity",
+      "chedy": "read an indicated value",
+      "shey": "the time of day"
+    },
+    "whole_content_draft": "The complete II.3 daytime example15–37: dated observation25°30′, turn instrument, before-noon right-side rete setting at first Aries using the same altitude, label placed on the same Sun degree, border X counted from midnight to obtain9o’clock, eastern-horizon20Gemini ascendant, concluding learned method. The preceding general side rule is an explicit prerequisite; the separate night account is outside the nominated source paragraph.",
+    "finite_semantic_productions": {
+      "types": [
+        "date",
+        "angular altitude",
+        "zodiac degree",
+        "instrument side",
+        "rete state",
+        "pointer state",
+        "border marker",
+        "clock time",
+        "ascendant"
+      ],
+      "terms": [
+        "OBSERVATION(date,body,altitude)",
+        "SETTING(rete,body_degree,side,altitude)",
+        "POINTER_AT(pointer,body_degree)",
+        "BORDER_READ(pointer,marker)",
+        "COUNT_FROM(origin,marker,time)",
+        "HORIZON_READ(rete,east,ascendant)"
+      ],
+      "clauses": [
+        "MEASURE(observation)",
+        "TRANSFER(altitude,back_scale,front_scale)",
+        "BEFORE_NOON(date)",
+        "SET(setting)",
+        "READ(term)",
+        "TAKE_AS(value,role)",
+        "LEARN(method)"
+      ],
+      "reference_rule": "The altitude argument is one value in MEASURE and SET, the solar degree is one value in SET and POINTER_AT, and the marker is one value in BORDER_READ and COUNT_FROM. Subsequent reads share one rete state until a written resetting action.",
+      "choice": "The prerequisite general rule chooses east for before noon and west for after noon; the source example says right side. A shared interpretation must account for both descriptions without per-occurrence direction swaps."
+    },
+    "complete_clause_inventory": [
+      "On12March1391 seek the daytime hour.",
+      "Measure Sun altitude25°30′ on back border.",
+      "Turn instrument; before noon turn rete to Sun degree firstAries on right at25°30′ among almucantars.",
+      "Place label on the same solar degree.",
+      "Read label point at border capitalX.",
+      "Count capital letters from midnight to this sameX:9o’clock.",
+      "Read20Gemini on eastern horizon as ascendant.",
+      "Conclude learned method for time and ascendant."
+    ],
+    "semantic_consequence": {
+      "interaction": "Changing only the front-side altitude or only the later solar degree breaks the explicit transfer/reference identities. The time and ascendant must be outputs of the same fixed rete state, not independently chosen settings.",
+      "rival": "A list of plausible instrument commands can preserve nouns and local valencies while silently resetting the state between readings or changing the counted endpoint. The proposed account disallows those repairs.",
+      "numeric_limit": "The source supplies9o’clock/20Gemini but the full plate/calendar calibration is not owned here as executable data. No independent numerical derivation or accuracy of the1391 observation is asserted.",
+      "symmetry": "Marker X is a conventional border index, not Roman ten or a confirmed cipher letter. Unbound instrument scales leave alternative mappings."
+    },
+    "concrete_written_connections": [
+      "lchedy in .32,.34,.37,.41 keeps the same solar-degree reference. These mentions must link the setting and pointer operations through a shared construction.",
+      "qokey in .32/.33 is a prospective same-altitude link; numeric components or units are still unknown, and the two mentions are not assigned the historical number by fiat.",
+      "shedy in .37/.44 and chedy in .42/.43 retain pointer/read roles. Neither is inherited from the old fluid/heating renderer.",
+      "shey in .36/.39 is one time concept; claim versus query distinction must be written elsewhere under the same grammar."
+    ],
+    "lexical_syntax_and_source_debts": [
+      "The date, units, side condition, reset prohibition, marker and result roles all remain to be read. No singleton is silently given a source numeral.",
+      "Actual plate/calendar functions are missing for independent computation of clock and ascendant; reference consistency alone is a necessary content condition, not full source identification.",
+      "The source countercontext warns against precision near the meridian; the daytime worked example is not a universal error-free measuring algorithm.",
+      "The complete next night example and its caution are explicitly outside this source unit, not lost clauses of it.",
+      "No instrument, Sun-degree label or capitalX has been independently bound on this target.",
+      "The closed7/12-group latitude worksheets remain untouched; no paragraph shortening, padding or number-code variant."
+    ],
+    "primary_review": [
+      {
+        "id": "IDEA346",
+        "path": "research_registry/work_batches/ten_hours_20260915/ASTRO_MEDICAL_WORKED_SOURCE.md",
+        "scope": "Owned complete daytime block reused; new target and observation-transfer consequence, not copied latitude arithmetic."
+      },
+      {
+        "id": "LATITUDE_WORKSHEET_CAPACITY",
+        "path": "research_registry/work_batches/ten_hours_20260915/LATITUDE_CAPACITY_REPORT.md",
+        "scope": "Full primary read; seven/twelve-group formats NO_CAPACITY retained."
+      },
+      {
+        "id": "GDT214",
+        "path": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+        "scope": "General source label-reference analogy is not target evidence."
+      },
+      {
+        "id": "IDEA378",
+        "path": "research_registry/proposals/raw_f83r_concealed_unweaving_narrative.json",
+        "scope": "Same complete f83r P5 already has an incompatible raw weaving narrative. No dictionary is inherited, silently merged or treated as defeated. This is a separate source/reference hypothesis."
+      }
+    ],
+    "source_evidence": {
+      "path": "research_registry/proposals/translation_programs_20260912/work/P12/READING_L1.md",
+      "line": 187,
+      "quote": "`techedy qotchedy okeedy ldy`",
+      "sha256": "806658aff934443495fc923fa12a272d44d8af6fd602013d247c66571944ed09"
+    },
+    "additional_evidence": [
+      {
+        "path": "research_registry/proposals/raw_reference_assembly_observation_context_20260920.md",
+        "line": 109,
+        "quote": "## C. Chaucer II.3: one measured altitude, one setting and two outputs",
+        "sha256": "b4d79765c9c566a34cf3e9b086863f9e6d2e3f8fa0d41c39e9886e14e98f0a72"
+      },
+      {
+        "path": "research_registry/work_batches/ten_hours_20260915/ASTRO_MEDICAL_WORKED_SOURCE.md",
+        "line": 119,
+        "quote": "## Complete worked block B: dated astrolabe observation",
+        "sha256": "a285b8ace20c6e98823c9f6882befd4519f0dc4aa90b9b72d6e6879dbfb4ad36"
+      }
+    ],
+    "all_group_alignment": [
+      {
+        "locus": "f83r.31",
+        "group": 1,
+        "raw": "techedy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.31",
+        "group": 2,
+        "raw": "qotchedy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.31",
+        "group": 3,
+        "raw": "okeedy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.31",
+        "group": 4,
+        "raw": "ldy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.32",
+        "group": 1,
+        "raw": "cheol",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.32",
+        "group": 2,
+        "raw": "qokchedy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.32",
+        "group": 3,
+        "raw": "lchedy",
+        "status": "HYPOTHESIS",
+        "meaning": "the Sun degree on the instrument"
+      },
+      {
+        "locus": "f83r.32",
+        "group": 4,
+        "raw": "qokey",
+        "status": "HYPOTHESIS",
+        "meaning": "the measured altitude quantity"
+      },
+      {
+        "locus": "f83r.33",
+        "group": 1,
+        "raw": "sy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.33",
+        "group": 2,
+        "raw": "s",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.33",
+        "group": 3,
+        "raw": "aiin",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.33",
+        "group": 4,
+        "raw": "sheekchy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.33",
+        "group": 5,
+        "raw": "qokey",
+        "status": "HYPOTHESIS",
+        "meaning": "the measured altitude quantity"
+      },
+      {
+        "locus": "f83r.33",
+        "group": 6,
+        "raw": "sain",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.34",
+        "group": 1,
+        "raw": "shky",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.34",
+        "group": 2,
+        "raw": "lchedy",
+        "status": "HYPOTHESIS",
+        "meaning": "the Sun degree on the instrument"
+      },
+      {
+        "locus": "f83r.34",
+        "group": 3,
+        "raw": "dolshed",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.34",
+        "group": 4,
+        "raw": "qokchy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.35",
+        "group": 1,
+        "raw": "saiin",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.35",
+        "group": 2,
+        "raw": "cheky",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.35",
+        "group": 3,
+        "raw": "okeeol",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.35",
+        "group": 4,
+        "raw": "okain",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.35",
+        "group": 5,
+        "raw": "chdy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.36",
+        "group": 1,
+        "raw": "sor",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.36",
+        "group": 2,
+        "raw": "aiin",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.36",
+        "group": 3,
+        "raw": "shy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.36",
+        "group": 4,
+        "raw": "shey",
+        "status": "HYPOTHESIS",
+        "meaning": "the time of day"
+      },
+      {
+        "locus": "f83r.36",
+        "group": 5,
+        "raw": "lshedy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.36",
+        "group": 6,
+        "raw": "qoky",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.37",
+        "group": 1,
+        "raw": "sol",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.37",
+        "group": 2,
+        "raw": "lkedy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.37",
+        "group": 3,
+        "raw": "lchedy",
+        "status": "HYPOTHESIS",
+        "meaning": "the Sun degree on the instrument"
+      },
+      {
+        "locus": "f83r.37",
+        "group": 4,
+        "raw": "qokol",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.37",
+        "group": 5,
+        "raw": "shedy",
+        "status": "HYPOTHESIS",
+        "meaning": "the label / pointer"
+      },
+      {
+        "locus": "f83r.38",
+        "group": 1,
+        "raw": "or",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.38",
+        "group": 2,
+        "raw": "chey",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.38",
+        "group": 3,
+        "raw": "qockhey",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.38",
+        "group": 4,
+        "raw": "dairydy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.39",
+        "group": 1,
+        "raw": "qokain",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.39",
+        "group": 2,
+        "raw": "shey",
+        "status": "HYPOTHESIS",
+        "meaning": "the time of day"
+      },
+      {
+        "locus": "f83r.39",
+        "group": 3,
+        "raw": "kain",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.39",
+        "group": 4,
+        "raw": "chckhal",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.40",
+        "group": 1,
+        "raw": "solchedy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.40",
+        "group": 2,
+        "raw": "olchedy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.40",
+        "group": 3,
+        "raw": "chedaiin",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.41",
+        "group": 1,
+        "raw": "solkey",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.41",
+        "group": 2,
+        "raw": "lchedy",
+        "status": "HYPOTHESIS",
+        "meaning": "the Sun degree on the instrument"
+      },
+      {
+        "locus": "f83r.41",
+        "group": 3,
+        "raw": "qolkain",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.41",
+        "group": 4,
+        "raw": "dal",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.42",
+        "group": 1,
+        "raw": "sol",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.42",
+        "group": 2,
+        "raw": "ol",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.42",
+        "group": 3,
+        "raw": "chcthdy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.42",
+        "group": 4,
+        "raw": "l",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.42",
+        "group": 5,
+        "raw": "chedy",
+        "status": "HYPOTHESIS",
+        "meaning": "read an indicated value"
+      },
+      {
+        "locus": "f83r.42",
+        "group": 6,
+        "raw": "lchdy",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.43",
+        "group": 1,
+        "raw": "daiin",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.43",
+        "group": 2,
+        "raw": "sheol",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.43",
+        "group": 3,
+        "raw": "chedy",
+        "status": "HYPOTHESIS",
+        "meaning": "read an indicated value"
+      },
+      {
+        "locus": "f83r.43",
+        "group": 4,
+        "raw": "qotal",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.43",
+        "group": 5,
+        "raw": "sar",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.44",
+        "group": 1,
+        "raw": "skar",
+        "status": "UNKNOWN",
+        "meaning": null
+      },
+      {
+        "locus": "f83r.44",
+        "group": 2,
+        "raw": "shedy",
+        "status": "HYPOTHESIS",
+        "meaning": "the label / pointer"
+      }
+    ],
+    "coverage_statement": {
+      "groups": 62,
+      "hypothetical_positions": 12,
+      "unknown_positions": 50,
+      "meaning": "Documentation only, not decoding accuracy or a semantic result."
+    }
+  }
+}
