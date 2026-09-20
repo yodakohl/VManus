@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Review IDEA370 shared material specification across complete paragraphs.
-Latest decision: 985 conditional sheolo B-to-A role;3tables;no meaning selected;0words.
-Working files: research_registry/proposals/raw_shared_ingredient_goal_contract.json
-Assumptions: All glosses guessed;W89 pause retained;no cross-leaf batch identity;reserves closed.
-Resume: Read W44/W45/P05 and both whole contexts;select only a new content consequence.
-Running: Root985publication;bounded producer;ten-hour block earliestend09:05:26UTC.
+Task: Source-only intake of Averyanov2026 workshop cipher; compare GDT603/604.
+Latest decision: 985 role remains conditional and single-locus;370 draft unselected;0words.
+Working files: experiments/yolo/gdt985_f75v_source_availability_continuation/FOLLOWUP_REVIEW.md
+Assumptions: New publication is no reopening evidence;no foreign target data;reserves closed.
+Resume: Obtain public paper/generator definitions only;decide if content can be recovered.
+Running: Root source intake/publication;producer idle;block earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
