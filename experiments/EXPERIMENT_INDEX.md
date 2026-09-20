@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1007**
-- Experiment-associated tracked files: **19,701** (1.8 GiB)
+- Experiment-associated tracked files: **19,714** (1.8 GiB)
 - Structured GDT337+ experiments: **672**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1008 | transport complete shared lexicon | `REGISTERED_UNSCORED` | — | 22 | 52.9 KiB | 6 | STRUCTURED_YOLO |
+| GDT1008 | GDT1008 | `REFUTED_SPECIFIC_MODEL` | [report](../experiments/yolo/gdt1008_transport_complete_shared_lexicon/REPORT.md) | 35 | 107.6 KiB | 6 | STRUCTURED_YOLO |
 | GDT1007 | GDT1007 | `SUPPORTED_LIMITED` | [report](../experiments/yolo/gdt1007_transport_projected_reference_contexts/REPORT.md) | 39 | 2.9 MiB | 6 | STRUCTURED_YOLO |
 | GDT1006 | GDT1006 | `SUPPORTED_LIMITED` | [report](../experiments/yolo/gdt1006_transport_unfixed_original_lexicon/REPORT.md) | 45 | 17.0 MiB | 6 | STRUCTURED_YOLO |
 | GDT1005 | GDT1005_cennini_lossless_context_records | `ALL_LITERAL_RECORD_WRITERS_CONTRADICTED_SOURCE_UNKNOWNS_RETAINED` | [report](../experiments/yolo/gdt1005_cennini_lossless_context_records/REPORT.md) | 32 | 6.1 MiB | 8 | STRUCTURED_YOLO |

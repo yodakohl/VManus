@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;test full original/context dictionary compatibility.
-Latest decision: 1007public58bc064cb:2projected contexts,all36ambiguous;full-map conflicts retained.
-Working files: experiments/yolo/gdt1008_transport_complete_shared_lexicon/METHOD.md
-Assumptions: All47old values free;17source patterns fixed;global spelling identity;0words.
-Resume: Publish1008preregistration;run all6system/family cases;validate alternatives.
-Running: 1008preflight8PASS;no target joint search;checkpoint21:55UTC;producer456done.
+Task: Ten-hour block to22:52:35UTC;close1008 then select a distinct content construction.
+Latest decision: 1008validated:6joint systems fail;120bounded bijective contexts closed;0words.
+Working files: experiments/yolo/gdt1008_transport_complete_shared_lexicon/REPORT.md
+Assumptions: Original local worlds retained;FUNCTIONAL remainder open;no word/seam repair.
+Resume: Publish1008 closure;review source-owned compositional reference candidate.
+Running: No solver active;1008publication pending;source-only idea producer active.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

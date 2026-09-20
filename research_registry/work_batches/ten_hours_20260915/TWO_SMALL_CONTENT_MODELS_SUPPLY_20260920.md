@@ -1071,3 +1071,29 @@ pursuit, return habit, domestic escape, and theft consequence. It remains
 `RAW_UNREVIEWED_NOT_SELECTED`: no target word, target operator, or Voynich
 participant role is claimed. No target, reserve, root experiment, route, ledger,
 or frozen source file was changed.
+
+## V. One local-register soil-probe candidate
+
+The current route was read first. Composition/transfer excerpts, bounded
+route-check, and targeted searches screened the retained Euclid, Cato,
+Columella/Palladius graft, Fibonacci arithmetic-register, and Justinian
+reference cards. One new card survived because its source terms introduce a
+FIELD, REGION, PIT, and SAMPLE and the same probe has three written outcomes.
+
+* `IDEA000457` —
+  `raw_palladius_soil_probe_local_register_20260920.json`. Palladius,
+  *Opus agriculturae* I.V. introduces a field and local soil parts, then gives
+  a clod/glue test, a pit-refill test, a taste sample explicitly taken from the
+  most-displeasing part of the field, and vineyard sign observations. The
+  executable constructor keeps these registers separate. `PIT_REFILL` yields
+  `FAT_SOIL`, `LEAN_SOIL`, or `MODERATE_SOIL` from surplus, deficit, or equal
+  returned earth; `TASTE` yields a distinct sweetness observation and consumes
+  the local worst-region reference. A first-branch, nearest-register, or
+  one-result-for-all-probes rival loses those source consequences.
+
+The card retains the complete short I.V.1–4 scope, including rejected soil
+classes, plant signs, sweet-water/clod adhesion, all three pit branches, local
+sample selection, and vineyard signs. It remains
+`RAW_UNREVIEWED_NOT_SELECTED`; no target term or local register is claimed.
+No target, reserve, root experiment, route, ledger, or frozen source file was
+changed.

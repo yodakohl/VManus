@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1008 FULL SHARED STOP: all6original-plus-context systems UNSAT independently,all47values free.1006/7/8close all120bounded BIJECTIVE chedy contexts;FUNCTIONAL onlytwoextensions closed,original remainder retained. Original local worlds/projection positives stay;0words/meaning. No role/seam/budget repair. [Report](experiments/yolo/gdt1008_transport_complete_shared_lexicon/REPORT.md).
+
 GDT1007 PROJECTED CONTEXTS: all36original role/settings candidates survive same2of120whole contexts;72candidateSAT/4248UNSAT,4440totalqueries independently agree. Both name/reference alternatives remain;34free assignments per witness,all saved maps conflict with original nonprojected words. Full joint alternatives untested;0words/meaning. [Report](experiments/yolo/gdt1007_transport_projected_reference_contexts/REPORT.md).
 
 GDT1006 FREE LEXICON: all47old assignments released;36bijective role/settings tuples independently exhausted,66functional tuples with remainder. Eight singleton roles already syntax-forced;chedy=OTHER_CARGO excluded, name/FIRST_CARGO survive.36nonprojected domains witnessed-only;0words/meaning. [Report](experiments/yolo/gdt1006_transport_unfixed_original_lexicon/REPORT.md).

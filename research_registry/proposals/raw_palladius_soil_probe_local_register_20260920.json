@@ -1,0 +1,102 @@
+{
+  "title": "Palladius local field-register soil probes with context-specific outcomes",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Palladius Opus agriculturae I.V introduces a field and local regions, then runs several explicitly different probes against the locally selected soil. A finite constructor keeps the introduced FIELD/REGION/SAMPLE registers and lets the same PIT_REFILL operator resolve excess returned soil as fertile, deficit as lean, and equality as moderate. The passage separately binds a clod-glue probe, a taste sample from the most-displeasing region, and vine-sign observations; no whole sentence is treated as an opaque macro.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Palladius, Opus agriculturae, Book I, chapter V, sections 1–4, De qualitate terrarum",
+    "latin_url": "https://la.wikisource.org/wiki/Opus_agriculturae/I",
+    "perseus_url": "https://atlas.perseus.tufts.edu/library/urn%3Acts%3AlatinLit%3Astoa0218.stoa002.nd-dlc-lat1/",
+    "source_span": "The complete soil-quality subsection from the search for fertility and rejection of defective soils through vegetation signs, clod/glue test, pit refill test, taste test on the most-displeasing field part, and vineyard signs.",
+    "provenance": "The Latin Wikisource page and Perseus CTS Latin witness were used as source navigation. Palladius is a late Roman agricultural author; no claim is made that the page is a single medieval manuscript or that its agricultural terminology maps to a target language."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000425 Cato attached propagation; IDEA000321/IDEA000439 Columella/Palladius graft methods; IDEA000456 Justinian nature-dependent control; raw_common_measure_rational_accounts Fibonacci register reductions; route-check local register/reference construction.",
+    "difference": "The graft cards track host/donor transformation and refusal, and the Fibonacci card tracks rational calculation registers. This card instead uses a locally introduced FIELD and REGION with one source-owned diagnostic operator whose branch result changes with the observed residual relation (excess, deficit, equality), while separate probe methods retain their own result types."
+  },
+  "source_account": {
+    "presuppositions": [
+      "A field is introduced as the object being evaluated; a region can be selected within it and remains the referent of later local deictic expressions.",
+      "Fertility, sweetness, and suitability are distinct properties; one probe cannot silently stand for all of them.",
+      "The pit test compares returned earth with the excavated capacity; excess, deficit, and exact fit are source-distinct branches.",
+      "The taste test samples the part of the field that displeases most; this local reference is not replaced by the nearest previously mentioned soil.",
+      "Vegetation signs are evidence about soil/vine suitability, not proof of a target plant identity."
+    ],
+    "clauses": [
+      {"id":"C01","span":"I.V.1","content":"Seek fertility and reject white/bare clod, unmixed poor sand, lone chalk, barren gravel, salty or bitter soil, waterlogged soil, and similarly defective kinds.","ast":["FIELD_POLICY","REJECT_DEFECTIVE_SOIL_CLASSES"]},
+      {"id":"C02","span":"I.V.2","content":"Plants that emerge should neither be rough nor scorched nor lacking natural sap; useful signs include crops/grass/clover and fat brambles, while color is less important than fatness and sweetness.","ast":["OBSERVE",["FIELD","PLANT_SIGNS"],["PROPERTY","SAP"],["PROPERTY","FATNESS"],["PROPERTY","SWEETNESS"]]},
+      {"id":"C03","span":"I.V.3","content":"To recognize a fat clod, sprinkle a small clod with sweet water and knead it; if it is sticky and adheres, fatness is present.","ast":["SEQ",["INTRODUCE","SAMPLE_CLOD",["FIELD","REGION"]],["TEST_CLOD_GLUE","SAMPLE_CLOD","SWEET_WATER"],["IF",["STICKY_AND_ADHERES","SAMPLE_CLOD"],["RESULT","FAT_SOIL"]]]},
+      {"id":"C04","span":"I.V.3","content":"Dig and refill a pit: surplus returned earth means fat soil, deficient earth means lean soil, and an equal level means moderate soil.","ast":["SEQ",["INTRODUCE","PIT",["FIELD","REGION"]],["PIT_REFILL","PIT","RETURNED_EARTH"],["BRANCH",["SURPLUS","RETURNED_EARTH"],["RESULT","FAT_SOIL"],["DEFICIT","RETURNED_EARTH"],["RESULT","LEAN_SOIL"],["EQUAL_LEVEL","RETURNED_EARTH"],["RESULT","MODERATE_SOIL"]]]},
+      {"id":"C05","span":"I.V.3","content":"Sweetness is recognized by tasting a clod moistened with sweet water in an earthen vessel, taken from the part of the field that displeases most.","ast":["SEQ",["INTRODUCE","WORST_REGION",["FIELD","PART_MOST_DISPLEASING"]],["INTRODUCE","TASTE_SAMPLE",["WORST_REGION"]],["MOISTEN","TASTE_SAMPLE","SWEET_WATER"],["TASTE","TASTE_SAMPLE","EARTHEN_VESSEL"],["RESULT","SWEETNESS_OBSERVED"]]},
+      {"id":"C06","span":"I.V.4","content":"Vineyard suitability uses further signs: somewhat open color/body, and shoots that are smooth, bright, tall, and fruitful, not twisted, barren, or weakened by leanness.","ast":["OBSERVE","VINEYARD",["COLOR_BODY","OPEN_ENOUGH"],["SHOOTS","SMOOTH_BRIGHT_TALL_FRUITFUL"],["EXCLUDE","TWISTED_BARREN_LEAN"]]},
+      {"id":"C07","span":"I.V.4","content":"The same source keeps the vineyard observation distinct from the earlier general field pit and taste tests; no single result is assigned to every probe.","ast":["TYPE_SEPARATION","PIT_RESULT","TASTE_RESULT","VINEYARD_SIGN_RESULT"]}
+    ],
+    "complete_examples": [
+      {
+        "id":"PIT_SURPLUS",
+        "input":{"field":"F1","region":"R1","pit":"P1","returned_earth":"SURPLUS"},
+        "output":"FAT_SOIL",
+        "reference_resolution":"P1 is the locally introduced pit in R1; SURPLUS resolves the branch without replacing R1 by a global field default."
+      },
+      {
+        "id":"PIT_DEFICIT",
+        "input":{"field":"F1","region":"R2","pit":"P2","returned_earth":"DEFICIT"},
+        "output":"LEAN_SOIL",
+        "reference_resolution":"The same PIT_REFILL operator and same field register resolve to a different result because the locally introduced region/pit observation is DEFICIT."
+      },
+      {
+        "id":"PIT_EQUAL",
+        "input":{"field":"F1","region":"R3","pit":"P3","returned_earth":"EQUAL_LEVEL"},
+        "output":"MODERATE_SOIL",
+        "reference_resolution":"Equality is a third source branch, not a default or alias for either surplus or deficit."
+      },
+      {
+        "id":"WORST_REGION_TASTE",
+        "input":{"field":"F1","region":"R4","sample_region":"PART_MOST_DISPLEASING","sample":"CLOD4","water":"SWEET_WATER","vessel":"EARTHEN"},
+        "output":"SWEETNESS_OBSERVED",
+        "reference_resolution":"The written local selector binds the taste sample to the most-displeasing region, not automatically to R1/R2/R3 or the nearest prior clod."
+      }
+    ]
+  },
+  "constructor": {
+    "types": ["FIELD", "REGION", "SAMPLE", "PIT", "TEST_METHOD", "OBSERVATION", "PROPERTY", "RESULT", "BRANCH"],
+    "operators": [
+      "INTRODUCE(kind, owner) -> REGISTER",
+      "SELECT(register, local_selector) -> REGION",
+      "PIT_REFILL(pit, returned_earth) -> OBSERVATION",
+      "TEST_CLOD_GLUE(sample, water) -> OBSERVATION",
+      "TASTE(sample, vessel) -> OBSERVATION",
+      "BRANCH(observation, case_table) -> RESULT",
+      "OBSERVE(register, signs) -> RESULT"
+    ],
+    "global_rules": [
+      "Each FIELD is introduced before its REGION, PIT, or SAMPLE references; later deictic references resolve to the active local register explicitly selected by the source clause.",
+      "PIT_REFILL branches on exactly three mutually exclusive observations: SURPLUS -> FAT_SOIL, DEFICIT -> LEAN_SOIL, EQUAL_LEVEL -> MODERATE_SOIL.",
+      "TEST_CLOD_GLUE requires the introduced clod and sweet-water argument; sticky adhesion yields FAT_SOIL but does not yield SWEETNESS_OBSERVED unless the separate taste operator is present.",
+      "TASTE requires the source-selected PART_MOST_DISPLEASING region, a sample, water, and vessel; its output is SWEETNESS_OBSERVED, not a pit fertility class.",
+      "VINEYARD signs remain a separate result channel; no local sample or pit result is silently copied into the vineyard observation.",
+      "The rival nearest-register resolver may use an earlier sample only when the source explicitly repeats that reference; otherwise the locally introduced register is required."
+    ],
+    "python": "def pit_result(returned_earth):\n    return {'SURPLUS':'FAT_SOIL','DEFICIT':'LEAN_SOIL','EQUAL_LEVEL':'MODERATE_SOIL'}[returned_earth]\n\ndef taste_result(sample_region, water, vessel):\n    assert sample_region == 'PART_MOST_DISPLEASING'\n    assert water == 'SWEET_WATER' and vessel == 'EARTHEN'\n    return 'SWEETNESS_OBSERVED'\n\ndef parse(case):\n    out = {'field':case['field'], 'region':case['region']}\n    if case['method'] == 'PIT_REFILL':\n        out['pit'] = case['pit']\n        out['result'] = pit_result(case['returned_earth'])\n    elif case['method'] == 'TASTE':\n        out['sample'] = case['sample']\n        out['result'] = taste_result(case['sample_region'], case['water'], case['vessel'])\n    else:\n        raise ValueError('unknown source method')\n    return out\n\nresult = {\n  'pit_surplus': parse({'field':'F1','region':'R1','method':'PIT_REFILL','pit':'P1','returned_earth':'SURPLUS'}),\n  'pit_deficit': parse({'field':'F1','region':'R2','method':'PIT_REFILL','pit':'P2','returned_earth':'DEFICIT'}),\n  'pit_equal': parse({'field':'F1','region':'R3','method':'PIT_REFILL','pit':'P3','returned_earth':'EQUAL_LEVEL'}),\n  'worst_region_taste': parse({'field':'F1','region':'R4','method':'TASTE','sample':'CLOD4','sample_region':'PART_MOST_DISPLEASING','water':'SWEET_WATER','vessel':'EARTHEN'})\n}",
+    "python_result": {
+      "pit_surplus": {"field":"F1","region":"R1","pit":"P1","result":"FAT_SOIL"},
+      "pit_deficit": {"field":"F1","region":"R2","pit":"P2","result":"LEAN_SOIL"},
+      "pit_equal": {"field":"F1","region":"R3","pit":"P3","result":"MODERATE_SOIL"},
+      "worst_region_taste": {"field":"F1","region":"R4","sample":"CLOD4","result":"SWEETNESS_OBSERVED"}
+    },
+    "observable_consequence": "Changing only the locally bound PIT_REFILL observation changes the complete source result among FAT_SOIL, LEAN_SOIL, and MODERATE_SOIL. Changing the method to TASTE changes the output type to SWEETNESS_OBSERVED and requires the source's PART_MOST_DISPLEASING register; a nearest-register or one-result-for-all-probes rival cannot preserve these source distinctions."
+  },
+  "rivals": {
+    "R_FIRST_BRANCH_ONLY": "Every PIT_REFILL returns FAT_SOIL, losing the source's explicit deficit and equal branches.",
+    "R_NEAREST_REGISTER": "The taste phrase binds to the most recent clod or region instead of the explicitly selected most-displeasing field part.",
+    "R_ONE_SOIL_RESULT": "Clod adhesion, pit residual, taste, and vineyard signs are collapsed into one generic FERTILE result, losing the source's typed result channels."
+  },
+  "falsifier": "Reject the constructor if the complete source text cannot preserve the three pit branches, the separate taste sample selector, and the vineyard sign channel under one register discipline. A target use would have no force unless local introduction, reference selector, test method, and result branch were independently visible; filling these fields occurrence by occurrence would be free fitting.",
+  "dependencies": [
+    "FIELD, REGION, PIT, and SAMPLE are source-side registers introduced by the hypothetical constructor; they are not target word meanings.",
+    "The source states the branch outcomes for pit residuals but does not supply a numeric threshold or modern soil taxonomy; none is added.",
+    "The taste test records the source's sample location and observation type without inventing a sweetness threshold.",
+    "The complete source account is limited to Book I chapter V sections 1–4; no later Palladius chapter or target material is imported."
+  ],
+  "access": "No Voynich target rows, images, reserves, f84/f84r/f116v, root experiment files, route, ledger, or frozen source packet were opened or changed."
+}
