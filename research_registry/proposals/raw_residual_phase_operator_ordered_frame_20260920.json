@@ -1,0 +1,78 @@
+{
+  "title": "Whole-form residual phase operator over an ordered argument frame",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Retained directed composition can supply an ordered two-slot frame while the exact whole-form residual selects OPEN, UPDATE, or CLOSE phase. A complete passage must therefore create, update, and close one typed event without assigning one fixed English gloss to every whole or component.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "source_observations": [
+      "GDT608: directed component backoff transfers external entry/final profiles on held material, but atomic merge identity remains stronger; pair-specific residuals are required.",
+      "GDT437: preserving written component order yields distinct state-transition signatures; reversed AIR+Y and Y+AIR were previously collapsed by a bucketed renderer.",
+      "GDT563: repeated recipes can inherit active action/argument context, but context-variable whole forms require an explicit selector rather than whole-word gloss inflation."
+    ],
+    "mechanism": {
+      "types": [
+        "ARGUMENT_FRAME",
+        "LEFT_SLOT",
+        "RIGHT_SLOT",
+        "EVENT_RECORD",
+        "PHASE",
+        "STATE",
+        "RESULT"
+      ],
+      "frame": "FRAME(left_component,right_component,entry_context) preserves written order and binds two opaque argument slots; components receive no independent translation.",
+      "residual": "The exact merge/whole identity M selects one phase from OPEN, UPDATE, CLOSE. M is a phase operator only within a declared frame family; it does not become a noun or free component meaning.",
+      "transitions": [
+        "OPEN(frame, context) creates EVENT_RECORD(owner, left_slot, right_slot, state=INITIAL).",
+        "UPDATE(frame, active_record, context) consumes the active record, preserves owner and slots, and changes only the declared state.",
+        "CLOSE(frame, active_record, context) emits RESULT(owner, slots, final_state) and clears the active record."
+      ],
+      "order_rule": "R+L swaps the two argument slots and is a distinct frame signature from L+R; no reverse-direction gloss is imported."
+    },
+    "complete_reading_consequence": "In a complete three-clause passage, M_open followed by M_update followed by M_close yields one participant/event record with a state transition and one final result. A close before an open is a fixed invalid transition; the writer may not insert an unseen reset or a new participant. A second complete passage reusing the same ordered frame but a different residual phase must show the corresponding phase change.",
+    "falsifier": "Replay complete passages with all written frame order, residual identities, entry contexts, and explicit boundaries. Reject the model if the same residual in the same frame/context both opens and closes, if an update requires an unprinted participant/reset, or if reversed written order does not swap the two argument dependencies.",
+    "strongest_failure": "GDT608 measures formal boundary transfer, not semantic phases. Exact whole residuals may be editorial or frequency artifacts, and no independent target fact currently names an event owner, state, or result. The phase labels therefore remain a finite hypothesis, not a decoded lexicon.",
+    "predecessors": [
+      {
+        "id": "GDT608",
+        "limit": "Positive held directed backoff with stronger atomic residual; this proposal keeps both channels."
+      },
+      {
+        "id": "GDT437",
+        "limit": "Formal order repair; no inherited German action meanings."
+      },
+      {
+        "id": "IDEA000050",
+        "limit": "Existing ordered reciprocity card; this proposal selects lifecycle phase from whole residual rather than assigning inverse relation semantics."
+      },
+      {
+        "id": "IDEA000341",
+        "limit": "Existing carrier-chain/pivot card; this proposal has no left opener/right closer content chain."
+      }
+    ],
+    "dependencies": [
+      "A complete target passage must expose at least one repeated ordered frame and three residual phase candidates.",
+      "Entry context and reset boundaries must be fixed before phase assignment.",
+      "Participant identity is an opaque record variable, not a target word or picture role.",
+      "No Latin, phonetic, component, or one-gloss-per-whole assumption is used."
+    ],
+    "access": "Retained reports and route/duplicate checks only; no new target rows, images, reserves, GDT1001/source packet, decoder, experiment, route, ledger, or publication."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT608"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT437"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000050"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000341"
+    }
+  ]
+}

@@ -127,9 +127,13 @@ passage selection.
 
 ## C. Cato 133 source audit (IDEA425 unchanged)
 
-This audit corrects the compact AST above without rewriting the raw card.  The
-complete Latin is checked against the proofread text (Goetz/Teubner wording,
-with the public-domain translation on the same page):
+This audit corrects the compact AST above without rewriting the raw card. The
+complete Latin and English are checked against the proofread 1934 Hooper/Ash
+Loeb witness; the earlier Goetz/Teubner provenance label was incorrect for this
+online page:
+
+- English: <https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cato/De_Agricultura/H%2A.html>
+- Latin: <https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Cato/De_Agricultura/H%2A.html>
 
 > **133.** *Propagatio pomorum ceterarumque arborum. Arboribus abs terra pulli
 > qui nati erunt, eos in terram deprimito, extollito, uti radicem capere
@@ -187,3 +191,88 @@ are retained above. The source supports a finite *three-branch* content model,
 but not one age/cut/container value shared across all branches. IDEA425 remains
 `RAW_UNREVIEWED`; no target field is bound and no source-only statement is a
 Voynich reading.
+
+## D. EACH/ana distribution audit (IDEA426; GDT1000 remains closed)
+
+The targeted predecessor check found that historical `ana` is already represented
+as an equal-parts comparator in GDT759 (`E006`) and as source arithmetic in
+IDEA421. Neither predecessor fixes a *surface event cardinality* for a list
+distribution. I therefore registered IDEA426 as a separate raw writer contract,
+not as a GDT1000 repair:
+
+`EACH([m1, ..., mk], q) -> q(m1), ..., q(mk)`
+
+The list must have an independently written end boundary. Under this contract,
+the frozen Trotula atom ownership gives the following source prediction:
+
+| Source | EACH-scoped list | Quantity | Required quantity events | Existing compact source writer |
+|---|---|---|---:|---:|
+| IV15 | castoreum, white pepper, costus, mint, apium | QD1 = one drachm | 5 | 1 |
+| V19 | deer heart, laurel leaves | QD1 = one drachm | 2 | 1 |
+
+The later IV15 QD2 administration dose, V19 QS1 myrrh quantity, wine medium,
+and all dose-scope uncertainties remain separate. No 2/5 finished-mixture
+fraction or per-component administration dose is introduced. A complete target
+serialization with a closed k-member list and any QD1 count other than k would
+falsify this writer. The already frozen GDT1000 pair has one QD1 event per
+recipe, so it is direct negative pressure against IDEA426 and cannot support it.
+
+The closest rivals are `COMPACT_SCOPE` (one quantity event carries a list
+pointer), `TOTAL_DOSE` (the amount belongs to the preparation rather than each
+member), and IDEA421's `PER_COMPONENT_DOSE` rival (which moves the later dose
+onto each ingredient). The historical `ana` records do not decide between the
+first two serialization contracts: repeating QD1 per member is an added writer
+assumption, not a translation of `ana`. A future use would require independently
+bound target list membership, EACH scope, and quantity-event boundaries; no
+confirmed target word is required for exploratory registration, but no meaning
+or target binding has been claimed.
+
+## E. Two formal-observation semantic mechanisms (IDEA427/IDEA428)
+
+The retained composition reports support two distinct raw mechanisms without
+supporting a target lexicon. GDT608 transfers directed component boundary
+profiles but retains a stronger exact-merge residual; GDT437 shows that written
+component order changes formal transition signatures. Separately, GDT282,
+GDT286, and GDT318 transfer opaque wrapper and entry-state profiles, while
+GDT563 shows active action/argument carry in repeated context cards. The two
+new cards use these observations in different semantic roles.
+
+### IDEA427 — residual phase over an ordered frame
+
+`FRAME(L,R,entry)` preserves two ordered opaque argument slots. The exact whole
+residual selects one of three finite operators: `OPEN` creates an event record,
+`UPDATE` changes its state while preserving its participant and slots, and
+`CLOSE` emits the final result and clears the record. A complete three-clause
+reading with `OPEN → UPDATE → CLOSE` therefore predicts one multistep event;
+`CLOSE` before `OPEN` is invalid and cannot be repaired with an unseen reset.
+Reversing the written components swaps the two argument dependencies.
+
+Its strongest failure is that GDT608's residual is only a formal merge identity;
+no event owner, state, or result is independently observed. The named rivals
+are the existing ordered-reciprocity card (inverse relation semantics) and the
+carrier-chain card (left opener/right closer); IDEA427 uses residual lifecycle
+phase instead. Its exact falsifier is a complete passage where the same
+residual/frame/context both opens and closes, or where update/close requires an
+unwritten participant or reset.
+
+### IDEA428 — wrapper-scoped participant continuity
+
+`SCOPE(wrapper, line_start, previous_DY, paragraph_boundary)` returns either
+`NEW_EVENT` or `CONTINUE`. A new event creates one opaque participant record;
+continuation preserves that record while ordered payload components update it;
+an explicit reset closes the old record before a new one opens. A complete
+three-clause reading consequently predicts `OPEN → CONTINUE → CLOSE`, with the
+same wrapper in uninterrupted context referring to one record and the same
+payload after a declared reset referring to a new record.
+
+This differs from GDT563's working microphrase carry because it predicts
+participant-record continuity and reset, rather than merely filling an action
+and argument. Its strongest failure is that GDT282/286/318 establish only
+opaque formal channels; line and paragraph boundaries may be editorial and no
+participant identity is independently known. The exact falsifier is a complete
+passage where same-selector wrapper repetitions require distinct participants,
+or where entry/reset context adds no stable record break beyond matched formal
+frequencies.
+
+Both cards remain `RAW_UNREVIEWED`; neither assigns a target word, image role,
+source name, or confirmed meaning.

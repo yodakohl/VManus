@@ -1,0 +1,5159 @@
+{
+  "artifact": {
+    "artifact_id": "CATO133_COMPLETE_TYPED_SOURCE_20260920",
+    "status": "SOURCE_ONLY_COMPILED",
+    "generated_utc": "2026-09-20",
+    "purpose": "Complete typed source AST for Cato De Agri Cultura 133 for exploratory writer work; no target gloss or historical identity claim.",
+    "parent_task": "GDT1001 Cato133 whole typed-tree compatibility"
+  },
+  "provenance": {
+    "english_url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cato/De_Agricultura/H%2A.html",
+    "latin_url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Cato/De_Agricultura/H%2A.html",
+    "edition": "W. D. Hooper and H. B. Ash, Cato on Agriculture, Loeb Classical Library, London, 1934",
+    "online_header": "The English and Latin pages identify the 1934 Hooper/Ash Loeb edition and state that the public-domain text was proofread.",
+    "correction": "The earlier dossier's Goetz/Teubner provenance label was incorrect for this online witness; this artifact uses the 1934 Hooper/Ash Loeb provenance.",
+    "source_scope": "Chapter 133 heading and §§133.1–4 only; no Cato 134 material."
+  },
+  "source_text": {
+    "latin": "133 Propagatio pomorum ceterarumque arborum. Arboribus abs terra pulli qui nati erunt, eos in terram deprimito, extollito, uti radicem capere possint. 2 Inde, ubi tempus erit, effodito seritoque recte. Ficum, oleam, malum Punicum, mala strutea, cotonea aliaque mala omnia, laurum Cypriam, Delphicam, prunum, murtum coniugulum et murtum album et nigrum, nuces Abellanas, Praenestinas, platanum, haec omnia genera a capitibus propagari eximique ad hunc modum oportebit. 3 Quae diligentius seri voles, in calicibus seri oportet. In arboribus radices uti capiant, calicem pertusum sumito tibi aut quasillum; per eum ramulum trasserito; eum quasillum terra inpleto calcatoque, in arbore relinquito. Ubi bimum erit, ramum tenerum infra praecidito, cum quasillo serito. Eo modo quod vis genus arborum facere poteris uti radices bene habeant. 4 Item vitem in quasillum propagato terraque bene operito, anno post praecidito, cum qualo serito.",
+    "english": "133.1 To layer fruit and other trees: press back into the ground the scions which spring up from the ground, but raise their tips out, so that they will take root; dig up at the proper time and transplant vertically. In this way you should propagate from the crown and transplant fig, olive, pomegranate, quince, wild quince, and all other fruits, Cyprian and Delphic laurel, plum, conjuglan myrtle, as well as white and black myrtle, Abellan and Praenestine nuts, and plane trees. 133.3 Those which you wish to have planted more carefully should be planted in pots. To make them take root while on the tree, take a pot perforated at the bottom or a basket, run the shoot through it, fill the basket with earth, pack it, and leave it on the tree. When it is two years old cut off the tender branch below and plant along with the basket. By this method you can make any variety of tree take root firmly. 133.4 Vines may also be layered by thrusting them through a basket, packing firmly with earth, cutting a year later, and planting along with the basket.",
+    "english_scope_note": "The online English page presents §133 in lines 32–34; line 33 contains the careful branch and line 34 the vine branch."
+  },
+  "type_system": {
+    "atomic_types": [
+      "OP",
+      "ENTITY",
+      "PROPERTY",
+      "REFERENCE",
+      "NUMBER",
+      "LIST"
+    ],
+    "signature_conventions": "OP nodes have fixed arity; SEQ and CONS are binary and NIL is nullary. Lists are never represented as opaque strings.",
+    "signatures": {
+      "SEQ": "(OP, OP) -> OP",
+      "CONS": "(T, LIST<T>) -> LIST<T>",
+      "NIL": "() -> LIST<T>",
+      "TITLE": "(REFERENCE<ENTITY>) -> OP",
+      "ASSERT_PROPERTY": "(REFERENCE<ENTITY>, PROPERTY) -> OP",
+      "PRESS_INTO": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "RAISE": "(REFERENCE<ENTITY>, PROPERTY) -> OP",
+      "PURPOSE": "(OP, PROPERTY) -> OP",
+      "DIG": "(REFERENCE<ENTITY>) -> OP",
+      "PLANT_STRAIGHT": "(REFERENCE<ENTITY>, PROPERTY) -> OP",
+      "WHEN": "(NUMBER|OP, OP) -> OP",
+      "PROPAGATE_FROM": "(REFERENCE<ENTITY_LIST>, REFERENCE<ENTITY>) -> OP",
+      "EXTRACT_BY": "(REFERENCE<ENTITY_LIST>, REFERENCE<ENTITY>) -> OP",
+      "SPECIES_LIST": "(REFERENCE<ENTITY>) -> LIST<ENTITY>",
+      "PLANT_IN": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "ALT": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "THREAD": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "FILL": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "PACK": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "LEAVE_ON": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "DURATION": "(REFERENCE<ENTITY>, NUMBER) -> OP",
+      "CUT_BELOW": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "PLANT_WITH": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "CAPABILITY": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>, PROPERTY) -> OP",
+      "PROPAGATE_IN": "(REFERENCE<ENTITY>, REFERENCE<ENTITY>) -> OP",
+      "COVER_WITH_EARTH": "(REFERENCE<ENTITY>, PROPERTY) -> OP",
+      "CUT": "(REFERENCE<ENTITY>) -> OP"
+    }
+  },
+  "compiler_assumptions": [
+    "SEQ is a serialization convention for preserving source order; it is not a claim about Cato's sentence boundaries.",
+    "CONS/NIL serialize every species-list member explicitly and preserve list order.",
+    "Reference identities connect pronouns only where the source text supplies a plausible grammatical referent; unresolved links remain explicit REFERENCE nodes.",
+    "The imperatives have an unspecified operator/addressee; no named owner or agent is inserted.",
+    "Purpose, capability, and conditional timing are distinct OPs. Purpose is not an observed result; capability is not a guarantee.",
+    "Ground-shoot branch has no invented age, basket, attachment, or cut. Its only timing is UNKNOWN proper time.",
+    "The pot/basket alternative, bimum antecedent, infra cut point, and qualus/quasillus identity remain unresolved.",
+    "Labels are source-analysis types, not Latin phonetic values or target word glosses."
+  ],
+  "entities": [
+    {
+      "type": "ENTITY",
+      "id": "topic_propagation",
+      "label": "propagation of fruit and other trees",
+      "source_span": "Propagatio pomorum ceterarumque arborum",
+      "note": "Heading topic; no target or modern horticultural identity."
+    },
+    {
+      "type": "ENTITY",
+      "id": "tree_context",
+      "label": "trees mentioned by arboribus",
+      "source_span": "Arboribus",
+      "note": "Context relation only; not asserted as a legal owner."
+    },
+    {
+      "type": "ENTITY",
+      "id": "ground_shoot_group",
+      "label": "shoots that have arisen from the ground",
+      "source_span": "pulli qui nati erunt ... abs terra",
+      "note": "Plural source group; no single individual is selected."
+    },
+    {
+      "type": "ENTITY",
+      "id": "ground",
+      "label": "ground/earth",
+      "source_span": "abs terra; in terram",
+      "note": "Source material/location."
+    },
+    {
+      "type": "ENTITY",
+      "id": "ground_tip",
+      "label": "tip of the ground shoot",
+      "source_span": "extollito",
+      "note": "Reference identity is analytic but source names the tip."
+    },
+    {
+      "type": "ENTITY",
+      "id": "species_set",
+      "label": "all listed fruit and other tree genera",
+      "source_span": "haec omnia genera",
+      "note": "A list, not a claim that every species occurs in one target passage."
+    },
+    {
+      "type": "ENTITY",
+      "id": "heads_or_crowns",
+      "label": "heads/crowns",
+      "source_span": "a capitibus",
+      "note": "Exact anatomical referent is unresolved."
+    },
+    {
+      "type": "ENTITY",
+      "id": "method_133",
+      "label": "the method described in chapter 133",
+      "source_span": "ad hunc modum",
+      "note": "Reference to the preceding propagation instructions."
+    },
+    {
+      "type": "ENTITY",
+      "id": "careful_targets",
+      "label": "plants desired for more careful planting",
+      "source_span": "Quae diligentius seri voles",
+      "note": "Source leaves selection to the operator; no owner is named."
+    },
+    {
+      "type": "ENTITY",
+      "id": "careful_shoot",
+      "label": "a shoot/propagule selected for careful planting",
+      "source_span": "ramulum; ramum tenerum",
+      "note": "Identity across the pot/basket steps is a source-level working reference, not a target gloss."
+    },
+    {
+      "type": "ENTITY",
+      "id": "pot",
+      "label": "perforated pot/cup",
+      "source_span": "calicem pertusum",
+      "note": "Alternative container; source does not establish all later quasillus references as this pot."
+    },
+    {
+      "type": "ENTITY",
+      "id": "basket",
+      "label": "basket",
+      "source_span": "quasillum; quasillo",
+      "note": "Explicit basket lexeme in the careful branch."
+    },
+    {
+      "type": "ENTITY",
+      "id": "chosen_container",
+      "label": "the selected pot-or-basket container",
+      "source_span": "calicem ... aut quasillum",
+      "note": "Container alternative retained; identity linkage is unresolved."
+    },
+    {
+      "type": "ENTITY",
+      "id": "earth",
+      "label": "earth packed into the container",
+      "source_span": "terra inpleto calcatoque",
+      "note": "Material."
+    },
+    {
+      "type": "ENTITY",
+      "id": "tree_host",
+      "label": "tree on which the container is left",
+      "source_span": "in arbore",
+      "note": "Host reference; ownership is unspecified."
+    },
+    {
+      "type": "ENTITY",
+      "id": "tender_branch",
+      "label": "tender branch cut below",
+      "source_span": "ramum tenerum infra",
+      "note": "Branch identity is source wording; exact cut reference is unknown."
+    },
+    {
+      "type": "ENTITY",
+      "id": "cut_reference",
+      "label": "the point below which cutting occurs",
+      "source_span": "infra",
+      "note": "Unspecified reference point; no measured boundary invented."
+    },
+    {
+      "type": "ENTITY",
+      "id": "root_state",
+      "label": "roots taking/being well established",
+      "source_span": "radicem capere; radices bene habeant",
+      "note": "Purpose/capability state, not an observed success."
+    },
+    {
+      "type": "ENTITY",
+      "id": "vine",
+      "label": "vine",
+      "source_span": "vitem",
+      "note": "Separate procedure branch."
+    },
+    {
+      "type": "ENTITY",
+      "id": "vine_basket",
+      "label": "basket used for vine",
+      "source_span": "quasillum",
+      "note": "Kept as a lexical occurrence; not silently identified with every earlier container."
+    },
+    {
+      "type": "ENTITY",
+      "id": "qualus_container",
+      "label": "container named by qualo",
+      "source_span": "qualo",
+      "note": "Lexical relation to quasillus is unresolved."
+    },
+    {
+      "type": "ENTITY",
+      "id": "operator_addressee",
+      "label": "unspecified recipient of the imperatives",
+      "source_span": "deprimito ... serito",
+      "note": "No personal owner or named agent is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "ficus",
+      "label": "fig",
+      "source_span": "Ficum",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "olea",
+      "label": "olive",
+      "source_span": "oleam",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "malum_punicum",
+      "label": "pomegranate",
+      "source_span": "malum Punicum",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "mala_strutea",
+      "label": "strutean/wild apple or quince term",
+      "source_span": "mala strutea",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "cotonea",
+      "label": "quince",
+      "source_span": "cotonea",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "all_other_fruit",
+      "label": "all other apples/fruits",
+      "source_span": "aliaque mala omnia",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "laurus_cypria",
+      "label": "Cyprian laurel",
+      "source_span": "laurum Cypriam",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "laurus_delphica",
+      "label": "Delphic laurel",
+      "source_span": "Delphicam",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "prunum",
+      "label": "plum",
+      "source_span": "prunum",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "murtum_coniugulum",
+      "label": "conjuglan myrtle",
+      "source_span": "murtum coniugulum",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "murtum_album",
+      "label": "white myrtle",
+      "source_span": "murtum album",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "murtum_nigrum",
+      "label": "black myrtle",
+      "source_span": "murtum nigrum",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "nux_abellana",
+      "label": "Abellan nut",
+      "source_span": "nuces Abellanas",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "nux_praenestina",
+      "label": "Praenestine nut",
+      "source_span": "Praenestinas",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "platanus",
+      "label": "plane tree",
+      "source_span": "platanum",
+      "note": "Species inventory item; no species-specific procedure is supplied."
+    },
+    {
+      "type": "ENTITY",
+      "id": "bimum_subject_unknown",
+      "label": "subject of bimum (unknown)",
+      "source_span": "Ubi bimum erit",
+      "note": "The source does not resolve whether bimum qualifies shoot, branch, basket, or rooting state."
+    }
+  ],
+  "properties": [
+    {
+      "type": "PROPERTY",
+      "id": "sprung_from_ground",
+      "value": "sprung/arisen from the ground",
+      "source_span": "pulli qui nati erunt ... abs terra",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "tip_raised_out",
+      "value": "tip raised out of the ground",
+      "source_span": "extollito",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "rooting_possible",
+      "value": "may be able to take root",
+      "source_span": "uti radicem capere possint",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "straight_or_right",
+      "value": "straight/right planting orientation",
+      "source_span": "recte",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "carefully_selected",
+      "value": "selected for more careful planting",
+      "source_span": "diligentius",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "perforated",
+      "value": "perforated at the bottom",
+      "source_span": "calicem pertusum",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "earth_filled",
+      "value": "filled with earth",
+      "source_span": "terra inpleto",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "earth_packed",
+      "value": "earth packed down",
+      "source_span": "calcatoque",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "left_on_tree",
+      "value": "left on the tree",
+      "source_span": "in arbore relinquito",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "tender",
+      "value": "tender",
+      "source_span": "ramum tenerum",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "root_well",
+      "value": "roots are well/firmly established",
+      "source_span": "uti radices bene habeant",
+      "note": ""
+    },
+    {
+      "type": "PROPERTY",
+      "id": "earth_covered_well",
+      "value": "well covered with earth",
+      "source_span": "terraque bene operito",
+      "note": ""
+    }
+  ],
+  "numbers": [
+    {
+      "type": "NUMBER",
+      "id": "proper_time",
+      "value": "UNKNOWN",
+      "unit": "TIME",
+      "source_span": "ubi tempus erit",
+      "note": "Proper time is conditional and unquantified."
+    },
+    {
+      "type": "NUMBER",
+      "id": "two_years",
+      "value": 2,
+      "unit": "YEARS",
+      "source_span": "bimum",
+      "note": "Exact number; referent of bimum remains scoped-unknown."
+    },
+    {
+      "type": "NUMBER",
+      "id": "one_year",
+      "value": 1,
+      "unit": "YEARS",
+      "source_span": "anno post",
+      "note": "Exact number for the vine branch."
+    }
+  ],
+  "species_list_root": "species_cons_1",
+  "uncertainties": [
+    {
+      "id": "U1",
+      "field": "ground_shoot_relation",
+      "text": "Arboribus/abs terra and the English 'from the crown' do not license a universal ATTACH or PARENT predicate for the ground-shoot branch."
+    },
+    {
+      "id": "U2",
+      "field": "proper_time",
+      "text": "ubi tempus erit supplies a conditional proper time but no numeric age."
+    },
+    {
+      "id": "U3",
+      "field": "heads_or_crowns",
+      "text": "a capitibus may mean heads/crowns or another source-defined plant region; kept as a reference without choosing anatomy."
+    },
+    {
+      "id": "U4",
+      "field": "container",
+      "text": "calix and quasillus are presented as alternatives, while later quasillus forms are written explicitly; the compiler retains both and does not unify all container references."
+    },
+    {
+      "id": "U5",
+      "field": "bimum",
+      "text": "The two-year scope has no unambiguous grammatical antecedent in the compact AST; duration is attached to an unknown subject reference."
+    },
+    {
+      "id": "U6",
+      "field": "infra",
+      "text": "The lower cut reference is not measured or named."
+    },
+    {
+      "id": "U7",
+      "field": "qualus",
+      "text": "qualus in §133.4 is not silently equated with quasillus."
+    },
+    {
+      "id": "U8",
+      "field": "species_lexemes",
+      "text": "mala strutea and murtum coniugulum are retained as source labels; their modern botanical identifications are not selected."
+    }
+  ],
+  "claim_boundary": {
+    "source_only": true,
+    "target_meanings_assigned": 0,
+    "actual_root_success_claimed": false,
+    "target_access": false,
+    "dropped_source_spans": 0
+  },
+  "interface": {
+    "tree_format": "recursive arrays [OP_NAME, child1, ...]; operation children recurse as arrays and leaves are prefixed atom strings ref:, prop:, num:, or ent:.",
+    "root_field": "tree",
+    "leaf_type_map_field": "atom_types",
+    "operator_type": "OP_NAME is the first array element and is typed OP.",
+    "list_convention": "CONS(head,tail) is binary and NIL is nullary; species list is never an opaque string.",
+    "sequence_convention": "SEQ(left,right) is binary and preserves source order.",
+    "source_ownership_field": "source_ownership maps source spans to node identifiers and source propositions; node_trees provides each proposition tree."
+  },
+  "atom_types": {
+    "ALT": "OP",
+    "ASSERT_PROPERTY": "OP",
+    "CAPABILITY": "OP",
+    "CONS": "OP",
+    "COVER_WITH_EARTH": "OP",
+    "CUT": "OP",
+    "CUT_BELOW": "OP",
+    "DIG": "OP",
+    "DURATION": "OP",
+    "EXTRACT_BY": "OP",
+    "FILL": "OP",
+    "LEAVE_ON": "OP",
+    "NIL": "OP",
+    "PACK": "OP",
+    "PLANT_IN": "OP",
+    "PLANT_STRAIGHT": "OP",
+    "PLANT_WITH": "OP",
+    "PRESS_INTO": "OP",
+    "PROPAGATE_FROM": "OP",
+    "PROPAGATE_IN": "OP",
+    "PURPOSE": "OP",
+    "RAISE": "OP",
+    "SEQ": "OP",
+    "THREAD": "OP",
+    "TITLE": "OP",
+    "WHEN": "OP",
+    "num:one_year": "NUMBER",
+    "num:proper_time": "NUMBER",
+    "num:two_years": "NUMBER",
+    "prop:carefully_selected": "PROPERTY",
+    "prop:earth_covered_well": "PROPERTY",
+    "prop:perforated": "PROPERTY",
+    "prop:root_well": "PROPERTY",
+    "prop:rooting_possible": "PROPERTY",
+    "prop:sprung_from_ground": "PROPERTY",
+    "prop:straight_or_right": "PROPERTY",
+    "prop:tender": "PROPERTY",
+    "prop:tip_raised_out": "PROPERTY",
+    "ref:all_other_fruit": "REFERENCE",
+    "ref:basket": "REFERENCE",
+    "ref:bimum_subject_unknown": "REFERENCE",
+    "ref:careful_shoot": "REFERENCE",
+    "ref:careful_targets": "REFERENCE",
+    "ref:chosen_container": "REFERENCE",
+    "ref:cotonea": "REFERENCE",
+    "ref:cut_reference": "REFERENCE",
+    "ref:earth": "REFERENCE",
+    "ref:ficus": "REFERENCE",
+    "ref:ground": "REFERENCE",
+    "ref:ground_shoot_group": "REFERENCE",
+    "ref:ground_tip": "REFERENCE",
+    "ref:heads_or_crowns": "REFERENCE",
+    "ref:laurus_cypria": "REFERENCE",
+    "ref:laurus_delphica": "REFERENCE",
+    "ref:mala_strutea": "REFERENCE",
+    "ref:malum_punicum": "REFERENCE",
+    "ref:method_133": "REFERENCE",
+    "ref:murtum_album": "REFERENCE",
+    "ref:murtum_coniugulum": "REFERENCE",
+    "ref:murtum_nigrum": "REFERENCE",
+    "ref:nux_abellana": "REFERENCE",
+    "ref:nux_praenestina": "REFERENCE",
+    "ref:olea": "REFERENCE",
+    "ref:platanus": "REFERENCE",
+    "ref:pot": "REFERENCE",
+    "ref:prunum": "REFERENCE",
+    "ref:qualus_container": "REFERENCE",
+    "ref:tender_branch": "REFERENCE",
+    "ref:topic_propagation": "REFERENCE",
+    "ref:tree_host": "REFERENCE",
+    "ref:vine": "REFERENCE",
+    "ref:vine_basket": "REFERENCE"
+  },
+  "tree": [
+    "SEQ",
+    [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "TITLE",
+          "ref:topic_propagation"
+        ],
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "ASSERT_PROPERTY",
+                "ref:ground_shoot_group",
+                "prop:sprung_from_ground"
+              ],
+              [
+                "SEQ",
+                [
+                  "PRESS_INTO",
+                  "ref:ground_shoot_group",
+                  "ref:ground"
+                ],
+                [
+                  "PURPOSE",
+                  [
+                    "RAISE",
+                    "ref:ground_tip",
+                    "prop:tip_raised_out"
+                  ],
+                  "prop:rooting_possible"
+                ]
+              ]
+            ],
+            [
+              "SEQ",
+              [
+                "DIG",
+                "ref:ground_shoot_group"
+              ],
+              [
+                "WHEN",
+                "num:proper_time",
+                [
+                  "PLANT_STRAIGHT",
+                  "ref:ground_shoot_group",
+                  "prop:straight_or_right"
+                ]
+              ]
+            ]
+          ],
+          [
+            "SEQ",
+            [
+              "PROPAGATE_FROM",
+              [
+                "CONS",
+                "ref:platanus",
+                [
+                  "CONS",
+                  "ref:nux_praenestina",
+                  [
+                    "CONS",
+                    "ref:nux_abellana",
+                    [
+                      "CONS",
+                      "ref:murtum_nigrum",
+                      [
+                        "CONS",
+                        "ref:murtum_album",
+                        [
+                          "CONS",
+                          "ref:murtum_coniugulum",
+                          [
+                            "CONS",
+                            "ref:prunum",
+                            [
+                              "CONS",
+                              "ref:laurus_delphica",
+                              [
+                                "CONS",
+                                "ref:laurus_cypria",
+                                [
+                                  "CONS",
+                                  "ref:all_other_fruit",
+                                  [
+                                    "CONS",
+                                    "ref:cotonea",
+                                    [
+                                      "CONS",
+                                      "ref:mala_strutea",
+                                      [
+                                        "CONS",
+                                        "ref:malum_punicum",
+                                        [
+                                          "CONS",
+                                          "ref:olea",
+                                          [
+                                            "CONS",
+                                            "ref:ficus",
+                                            [
+                                              "NIL"
+                                            ]
+                                          ]
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              "ref:heads_or_crowns"
+            ],
+            [
+              "EXTRACT_BY",
+              [
+                "CONS",
+                "ref:platanus",
+                [
+                  "CONS",
+                  "ref:nux_praenestina",
+                  [
+                    "CONS",
+                    "ref:nux_abellana",
+                    [
+                      "CONS",
+                      "ref:murtum_nigrum",
+                      [
+                        "CONS",
+                        "ref:murtum_album",
+                        [
+                          "CONS",
+                          "ref:murtum_coniugulum",
+                          [
+                            "CONS",
+                            "ref:prunum",
+                            [
+                              "CONS",
+                              "ref:laurus_delphica",
+                              [
+                                "CONS",
+                                "ref:laurus_cypria",
+                                [
+                                  "CONS",
+                                  "ref:all_other_fruit",
+                                  [
+                                    "CONS",
+                                    "ref:cotonea",
+                                    [
+                                      "CONS",
+                                      "ref:mala_strutea",
+                                      [
+                                        "CONS",
+                                        "ref:malum_punicum",
+                                        [
+                                          "CONS",
+                                          "ref:olea",
+                                          [
+                                            "CONS",
+                                            "ref:ficus",
+                                            [
+                                              "NIL"
+                                            ]
+                                          ]
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              "ref:method_133"
+            ]
+          ]
+        ]
+      ],
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "ASSERT_PROPERTY",
+                "ref:careful_targets",
+                "prop:carefully_selected"
+              ],
+              [
+                "PLANT_IN",
+                "ref:careful_targets",
+                "ref:pot"
+              ]
+            ],
+            [
+              "SEQ",
+              [
+                "SEQ",
+                [
+                  "ASSERT_PROPERTY",
+                  "ref:pot",
+                  "prop:perforated"
+                ],
+                [
+                  "PURPOSE",
+                  [
+                    "ALT",
+                    "ref:pot",
+                    "ref:basket"
+                  ],
+                  "prop:rooting_possible"
+                ]
+              ],
+              [
+                "SEQ",
+                [
+                  "SEQ",
+                  [
+                    "SEQ",
+                    [
+                      "THREAD",
+                      "ref:careful_shoot",
+                      "ref:chosen_container"
+                    ],
+                    [
+                      "FILL",
+                      "ref:chosen_container",
+                      "ref:earth"
+                    ]
+                  ],
+                  [
+                    "PACK",
+                    "ref:chosen_container",
+                    "ref:earth"
+                  ]
+                ],
+                [
+                  "LEAVE_ON",
+                  "ref:careful_shoot",
+                  "ref:tree_host"
+                ]
+              ]
+            ]
+          ],
+          [
+            "WHEN",
+            [
+              "DURATION",
+              "ref:bimum_subject_unknown",
+              "num:two_years"
+            ],
+            [
+              "SEQ",
+              [
+                "SEQ",
+                [
+                  "ASSERT_PROPERTY",
+                  "ref:tender_branch",
+                  "prop:tender"
+                ],
+                [
+                  "CUT_BELOW",
+                  "ref:tender_branch",
+                  "ref:cut_reference"
+                ]
+              ],
+              [
+                "PLANT_WITH",
+                "ref:tender_branch",
+                "ref:basket"
+              ]
+            ]
+          ]
+        ],
+        [
+          "CAPABILITY",
+          "ref:method_133",
+          "ref:careful_targets",
+          "prop:root_well"
+        ]
+      ]
+    ],
+    [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "PROPAGATE_IN",
+            "ref:vine",
+            "ref:vine_basket"
+          ],
+          [
+            "COVER_WITH_EARTH",
+            "ref:vine",
+            "prop:earth_covered_well"
+          ]
+        ],
+        [
+          "WHEN",
+          [
+            "DURATION",
+            "ref:vine",
+            "num:one_year"
+          ],
+          [
+            "CUT",
+            "ref:vine"
+          ]
+        ]
+      ],
+      [
+        "PLANT_WITH",
+        "ref:vine",
+        "ref:qualus_container"
+      ]
+    ]
+  ],
+  "node_index": {
+    "title_op": {
+      "type": "OP",
+      "id": "title_op",
+      "op": "TITLE",
+      "arity": 1,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "topic_propagation",
+          "ref_id": "topic_propagation"
+        }
+      ],
+      "source_span": "Propagatio pomorum ceterarumque arborum",
+      "note": ""
+    },
+    "ground_origin": {
+      "type": "OP",
+      "id": "ground_origin",
+      "op": "ASSERT_PROPERTY",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_shoot_group",
+          "ref_id": "ground_shoot_group"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "sprung_from_ground",
+          "value": "sprung/arisen from the ground",
+          "source_span": "pulli qui nati erunt ... abs terra",
+          "note": ""
+        }
+      ],
+      "source_span": "Arboribus abs terra pulli qui nati erunt",
+      "note": "Source says the shoots arise from the ground in tree context; no attachment predicate is added."
+    },
+    "ground_press": {
+      "type": "OP",
+      "id": "ground_press",
+      "op": "PRESS_INTO",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_shoot_group",
+          "ref_id": "ground_shoot_group"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "ground",
+          "ref_id": "ground"
+        }
+      ],
+      "source_span": "eos in terram deprimito",
+      "note": ""
+    },
+    "ground_raise": {
+      "type": "OP",
+      "id": "ground_raise",
+      "op": "RAISE",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_tip",
+          "ref_id": "ground_tip"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "tip_raised_out",
+          "value": "tip raised out of the ground",
+          "source_span": "extollito",
+          "note": ""
+        }
+      ],
+      "source_span": "extollito",
+      "note": ""
+    },
+    "ground_purpose": {
+      "type": "OP",
+      "id": "ground_purpose",
+      "op": "PURPOSE",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_raise",
+          "ref_id": "ground_raise"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "rooting_possible",
+          "value": "may be able to take root",
+          "source_span": "uti radicem capere possint",
+          "note": ""
+        }
+      ],
+      "source_span": "uti radicem capere possint",
+      "note": ""
+    },
+    "ground_actions": {
+      "type": "OP",
+      "id": "ground_actions",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_press",
+          "ref_id": "ground_press"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "ground_purpose",
+          "ref_id": "ground_purpose"
+        }
+      ],
+      "source_span": "deprimito ... extollito ... uti ...",
+      "note": ""
+    },
+    "ground_root_phase": {
+      "type": "OP",
+      "id": "ground_root_phase",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_origin",
+          "ref_id": "ground_origin"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "ground_actions",
+          "ref_id": "ground_actions"
+        }
+      ],
+      "source_span": "Arboribus abs terra ... in terram deprimito ...",
+      "note": ""
+    },
+    "ground_dig": {
+      "type": "OP",
+      "id": "ground_dig",
+      "op": "DIG",
+      "arity": 1,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_shoot_group",
+          "ref_id": "ground_shoot_group"
+        }
+      ],
+      "source_span": "effodito",
+      "note": ""
+    },
+    "ground_plant": {
+      "type": "OP",
+      "id": "ground_plant",
+      "op": "PLANT_STRAIGHT",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_shoot_group",
+          "ref_id": "ground_shoot_group"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "straight_or_right",
+          "value": "straight/right planting orientation",
+          "source_span": "recte",
+          "note": ""
+        }
+      ],
+      "source_span": "seritoque recte",
+      "note": ""
+    },
+    "ground_replant_at_time": {
+      "type": "OP",
+      "id": "ground_replant_at_time",
+      "op": "WHEN",
+      "arity": 2,
+      "args": [
+        {
+          "type": "NUMBER",
+          "id": "proper_time",
+          "value": "UNKNOWN",
+          "unit": "TIME",
+          "source_span": "ubi tempus erit",
+          "note": "Proper time is not quantified."
+        },
+        {
+          "type": "REFERENCE",
+          "id": "ground_plant",
+          "ref_id": "ground_plant"
+        }
+      ],
+      "source_span": "ubi tempus erit ... seritoque recte",
+      "note": ""
+    },
+    "ground_transition": {
+      "type": "OP",
+      "id": "ground_transition",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_dig",
+          "ref_id": "ground_dig"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "ground_replant_at_time",
+          "ref_id": "ground_replant_at_time"
+        }
+      ],
+      "source_span": "effodito seritoque recte",
+      "note": ""
+    },
+    "species_list": {
+      "type": "OP",
+      "id": "species_list",
+      "op": "SPECIES_LIST",
+      "arity": 1,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "species_set",
+          "ref_id": "species_set"
+        }
+      ],
+      "source_span": "haec omnia genera",
+      "note": "List value is supplied by species_cons."
+    },
+    "species_cons_15": {
+      "type": "OP",
+      "id": "species_cons_15",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "platanus",
+          "ref_id": "platanus"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_14",
+          "ref_id": "species_cons_14"
+        }
+      ],
+      "source_span": "platanum",
+      "note": ""
+    },
+    "species_cons_14": {
+      "type": "OP",
+      "id": "species_cons_14",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "nux_praenestina",
+          "ref_id": "nux_praenestina"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_13",
+          "ref_id": "species_cons_13"
+        }
+      ],
+      "source_span": "Praenestinas",
+      "note": ""
+    },
+    "species_cons_13": {
+      "type": "OP",
+      "id": "species_cons_13",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "nux_abellana",
+          "ref_id": "nux_abellana"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_12",
+          "ref_id": "species_cons_12"
+        }
+      ],
+      "source_span": "nuces Abellanas",
+      "note": ""
+    },
+    "species_cons_12": {
+      "type": "OP",
+      "id": "species_cons_12",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "murtum_nigrum",
+          "ref_id": "murtum_nigrum"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_11",
+          "ref_id": "species_cons_11"
+        }
+      ],
+      "source_span": "murtum nigrum",
+      "note": ""
+    },
+    "species_cons_11": {
+      "type": "OP",
+      "id": "species_cons_11",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "murtum_album",
+          "ref_id": "murtum_album"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_10",
+          "ref_id": "species_cons_10"
+        }
+      ],
+      "source_span": "murtum album",
+      "note": ""
+    },
+    "species_cons_10": {
+      "type": "OP",
+      "id": "species_cons_10",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "murtum_coniugulum",
+          "ref_id": "murtum_coniugulum"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_9",
+          "ref_id": "species_cons_9"
+        }
+      ],
+      "source_span": "murtum coniugulum",
+      "note": ""
+    },
+    "species_cons_9": {
+      "type": "OP",
+      "id": "species_cons_9",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "prunum",
+          "ref_id": "prunum"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_8",
+          "ref_id": "species_cons_8"
+        }
+      ],
+      "source_span": "prunum",
+      "note": ""
+    },
+    "species_cons_8": {
+      "type": "OP",
+      "id": "species_cons_8",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "laurus_delphica",
+          "ref_id": "laurus_delphica"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_7",
+          "ref_id": "species_cons_7"
+        }
+      ],
+      "source_span": "Delphicam",
+      "note": ""
+    },
+    "species_cons_7": {
+      "type": "OP",
+      "id": "species_cons_7",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "laurus_cypria",
+          "ref_id": "laurus_cypria"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_6",
+          "ref_id": "species_cons_6"
+        }
+      ],
+      "source_span": "laurum Cypriam",
+      "note": ""
+    },
+    "species_cons_6": {
+      "type": "OP",
+      "id": "species_cons_6",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "all_other_fruit",
+          "ref_id": "all_other_fruit"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_5",
+          "ref_id": "species_cons_5"
+        }
+      ],
+      "source_span": "aliaque mala omnia",
+      "note": ""
+    },
+    "species_cons_5": {
+      "type": "OP",
+      "id": "species_cons_5",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "cotonea",
+          "ref_id": "cotonea"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_4",
+          "ref_id": "species_cons_4"
+        }
+      ],
+      "source_span": "cotonea",
+      "note": ""
+    },
+    "species_cons_4": {
+      "type": "OP",
+      "id": "species_cons_4",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "mala_strutea",
+          "ref_id": "mala_strutea"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_3",
+          "ref_id": "species_cons_3"
+        }
+      ],
+      "source_span": "mala strutea",
+      "note": ""
+    },
+    "species_cons_3": {
+      "type": "OP",
+      "id": "species_cons_3",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "malum_punicum",
+          "ref_id": "malum_punicum"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_2",
+          "ref_id": "species_cons_2"
+        }
+      ],
+      "source_span": "malum Punicum",
+      "note": ""
+    },
+    "species_cons_2": {
+      "type": "OP",
+      "id": "species_cons_2",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "olea",
+          "ref_id": "olea"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_1",
+          "ref_id": "species_cons_1"
+        }
+      ],
+      "source_span": "oleam",
+      "note": ""
+    },
+    "species_cons_1": {
+      "type": "OP",
+      "id": "species_cons_1",
+      "op": "CONS",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ficus",
+          "ref_id": "ficus"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_nil",
+          "ref_id": "species_nil"
+        }
+      ],
+      "source_span": "Ficum",
+      "note": ""
+    },
+    "species_nil": {
+      "type": "OP",
+      "id": "species_nil",
+      "op": "NIL",
+      "arity": 0,
+      "args": [],
+      "source_span": "end of species list",
+      "note": ""
+    },
+    "species_propagate": {
+      "type": "OP",
+      "id": "species_propagate",
+      "op": "PROPAGATE_FROM",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_15",
+          "ref_id": "species_cons_15"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "heads_or_crowns",
+          "ref_id": "heads_or_crowns"
+        }
+      ],
+      "source_span": "haec omnia genera a capitibus propagari",
+      "note": ""
+    },
+    "species_extract": {
+      "type": "OP",
+      "id": "species_extract",
+      "op": "EXTRACT_BY",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "species_cons_15",
+          "ref_id": "species_cons_15"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "method_133",
+          "ref_id": "method_133"
+        }
+      ],
+      "source_span": "eximique ad hunc modum",
+      "note": ""
+    },
+    "species_actions": {
+      "type": "OP",
+      "id": "species_actions",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "species_propagate",
+          "ref_id": "species_propagate"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_extract",
+          "ref_id": "species_extract"
+        }
+      ],
+      "source_span": "a capitibus propagari et eximique ad hunc modum",
+      "note": ""
+    },
+    "ground_full": {
+      "type": "OP",
+      "id": "ground_full",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_root_phase",
+          "ref_id": "ground_root_phase"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "ground_transition",
+          "ref_id": "ground_transition"
+        }
+      ],
+      "source_span": "§133.1",
+      "note": ""
+    },
+    "ground_with_species": {
+      "type": "OP",
+      "id": "ground_with_species",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "ground_full",
+          "ref_id": "ground_full"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "species_actions",
+          "ref_id": "species_actions"
+        }
+      ],
+      "source_span": "§133.1–2",
+      "note": ""
+    },
+    "careful_select": {
+      "type": "OP",
+      "id": "careful_select",
+      "op": "ASSERT_PROPERTY",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "careful_targets",
+          "ref_id": "careful_targets"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "carefully_selected",
+          "value": "selected for more careful planting",
+          "source_span": "diligentius",
+          "note": ""
+        }
+      ],
+      "source_span": "Quae diligentius seri voles",
+      "note": ""
+    },
+    "careful_pot_plant": {
+      "type": "OP",
+      "id": "careful_pot_plant",
+      "op": "PLANT_IN",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "careful_targets",
+          "ref_id": "careful_targets"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "pot",
+          "ref_id": "pot"
+        }
+      ],
+      "source_span": "in calicibus seri oportet",
+      "note": ""
+    },
+    "careful_purpose": {
+      "type": "OP",
+      "id": "careful_purpose",
+      "op": "PURPOSE",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "container_alt",
+          "ref_id": "container_alt"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "rooting_possible",
+          "value": "may be able to take root",
+          "source_span": "In arboribus radices uti capiant",
+          "note": ""
+        }
+      ],
+      "source_span": "In arboribus radices uti capiant",
+      "note": ""
+    },
+    "container_alt": {
+      "type": "OP",
+      "id": "container_alt",
+      "op": "ALT",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "pot",
+          "ref_id": "pot"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "basket",
+          "ref_id": "basket"
+        }
+      ],
+      "source_span": "calicem pertusum ... aut quasillum",
+      "note": ""
+    },
+    "thread": {
+      "type": "OP",
+      "id": "thread",
+      "op": "THREAD",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "careful_shoot",
+          "ref_id": "careful_shoot"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "chosen_container",
+          "ref_id": "chosen_container"
+        }
+      ],
+      "source_span": "per eum ramulum trasserito",
+      "note": ""
+    },
+    "fill": {
+      "type": "OP",
+      "id": "fill",
+      "op": "FILL",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "chosen_container",
+          "ref_id": "chosen_container"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "earth",
+          "ref_id": "earth"
+        }
+      ],
+      "source_span": "eum quasillum terra inpleto",
+      "note": ""
+    },
+    "pack": {
+      "type": "OP",
+      "id": "pack",
+      "op": "PACK",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "chosen_container",
+          "ref_id": "chosen_container"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "earth",
+          "ref_id": "earth"
+        }
+      ],
+      "source_span": "calcatoque",
+      "note": ""
+    },
+    "leave_on_tree": {
+      "type": "OP",
+      "id": "leave_on_tree",
+      "op": "LEAVE_ON",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "careful_shoot",
+          "ref_id": "careful_shoot"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "tree_host",
+          "ref_id": "tree_host"
+        }
+      ],
+      "source_span": "in arbore relinquito",
+      "note": ""
+    },
+    "on_tree_sequence": {
+      "type": "OP",
+      "id": "on_tree_sequence",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "thread",
+          "ref_id": "thread"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "fill",
+          "ref_id": "fill"
+        }
+      ],
+      "source_span": "per eum ... terra inpleto",
+      "note": ""
+    },
+    "on_tree_sequence2": {
+      "type": "OP",
+      "id": "on_tree_sequence2",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "on_tree_sequence",
+          "ref_id": "on_tree_sequence"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "pack",
+          "ref_id": "pack"
+        }
+      ],
+      "source_span": "terra inpleto calcatoque",
+      "note": ""
+    },
+    "on_tree_sequence3": {
+      "type": "OP",
+      "id": "on_tree_sequence3",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "on_tree_sequence2",
+          "ref_id": "on_tree_sequence2"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "leave_on_tree",
+          "ref_id": "leave_on_tree"
+        }
+      ],
+      "source_span": "in arbore relinquito",
+      "note": ""
+    },
+    "bimum_duration": {
+      "type": "OP",
+      "id": "bimum_duration",
+      "op": "DURATION",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "bimum_subject_unknown",
+          "ref_id": "bimum_subject_unknown"
+        },
+        {
+          "type": "NUMBER",
+          "id": "two_years",
+          "value": 2,
+          "unit": "YEARS",
+          "source_span": "bimum",
+          "note": "Exact number; referent scope remains unresolved."
+        }
+      ],
+      "source_span": "Ubi bimum erit",
+      "note": "The source does not specify whether bimum measures shoot, branch, basket, or rooting state."
+    },
+    "cut_below": {
+      "type": "OP",
+      "id": "cut_below",
+      "op": "CUT_BELOW",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "tender_branch",
+          "ref_id": "tender_branch"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "cut_reference",
+          "ref_id": "cut_reference"
+        }
+      ],
+      "source_span": "ramum tenerum infra praecidito",
+      "note": "No measured cut point is invented."
+    },
+    "careful_cut_plant": {
+      "type": "OP",
+      "id": "careful_cut_plant",
+      "op": "PLANT_WITH",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "tender_branch",
+          "ref_id": "tender_branch"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "basket",
+          "ref_id": "basket"
+        }
+      ],
+      "source_span": "cum quasillo serito",
+      "note": "The written planting container is quasillus; relation to the initial pot alternative remains explicit uncertainty."
+    },
+    "careful_after_age": {
+      "type": "OP",
+      "id": "careful_after_age",
+      "op": "WHEN",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "bimum_duration",
+          "ref_id": "bimum_duration"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "cut_then_plant",
+          "ref_id": "cut_then_plant"
+        }
+      ],
+      "source_span": "Ubi bimum erit ... praecidito ... serito",
+      "note": ""
+    },
+    "careful_capability": {
+      "type": "OP",
+      "id": "careful_capability",
+      "op": "CAPABILITY",
+      "arity": 3,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "method_133",
+          "ref_id": "method_133"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "careful_targets",
+          "ref_id": "careful_targets"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "root_well",
+          "value": "roots are well/firmly established",
+          "source_span": "uti radices bene habeant",
+          "note": ""
+        }
+      ],
+      "source_span": "Eo modo quod vis genus arborum facere poteris uti radices bene habeant",
+      "note": "Capability/purpose claim, not observed root success."
+    },
+    "careful_inner": {
+      "type": "OP",
+      "id": "careful_inner",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "careful_select",
+          "ref_id": "careful_select"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "careful_pot_plant",
+          "ref_id": "careful_pot_plant"
+        }
+      ],
+      "source_span": "Quae diligentius ... in calicibus seri oportet",
+      "note": ""
+    },
+    "careful_container": {
+      "type": "OP",
+      "id": "careful_container",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "pot_perforation",
+          "ref_id": "pot_perforation"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "careful_purpose",
+          "ref_id": "careful_purpose"
+        }
+      ],
+      "source_span": "calicem pertusum ... aut quasillum ... radices uti capiant",
+      "note": ""
+    },
+    "careful_on_tree": {
+      "type": "OP",
+      "id": "careful_on_tree",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "careful_container",
+          "ref_id": "careful_container"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "on_tree_sequence3",
+          "ref_id": "on_tree_sequence3"
+        }
+      ],
+      "source_span": "§133.3 container sequence",
+      "note": ""
+    },
+    "careful_full": {
+      "type": "OP",
+      "id": "careful_full",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "careful_inner",
+          "ref_id": "careful_inner"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "careful_on_tree",
+          "ref_id": "careful_on_tree"
+        }
+      ],
+      "source_span": "§133.3",
+      "note": ""
+    },
+    "careful_full2": {
+      "type": "OP",
+      "id": "careful_full2",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "careful_full",
+          "ref_id": "careful_full"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "careful_after_age",
+          "ref_id": "careful_after_age"
+        }
+      ],
+      "source_span": "§133.3 continuation",
+      "note": ""
+    },
+    "careful_full3": {
+      "type": "OP",
+      "id": "careful_full3",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "careful_full2",
+          "ref_id": "careful_full2"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "careful_capability",
+          "ref_id": "careful_capability"
+        }
+      ],
+      "source_span": "§133.3 outcome claim",
+      "note": ""
+    },
+    "vine_propagate": {
+      "type": "OP",
+      "id": "vine_propagate",
+      "op": "PROPAGATE_IN",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "vine",
+          "ref_id": "vine"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "vine_basket",
+          "ref_id": "vine_basket"
+        }
+      ],
+      "source_span": "Item vitem in quasillum propagato",
+      "note": ""
+    },
+    "vine_cover": {
+      "type": "OP",
+      "id": "vine_cover",
+      "op": "COVER_WITH_EARTH",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "vine",
+          "ref_id": "vine"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "earth_covered_well",
+          "value": "well covered with earth",
+          "source_span": "terraque bene operito",
+          "note": ""
+        }
+      ],
+      "source_span": "terraque bene operito",
+      "note": ""
+    },
+    "vine_start": {
+      "type": "OP",
+      "id": "vine_start",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "vine_propagate",
+          "ref_id": "vine_propagate"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "vine_cover",
+          "ref_id": "vine_cover"
+        }
+      ],
+      "source_span": "Item ... propagato terraque ...",
+      "note": ""
+    },
+    "vine_duration": {
+      "type": "OP",
+      "id": "vine_duration",
+      "op": "DURATION",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "vine",
+          "ref_id": "vine"
+        },
+        {
+          "type": "NUMBER",
+          "id": "one_year",
+          "value": 1,
+          "unit": "YEARS",
+          "source_span": "anno post",
+          "note": "Exact one-year interval."
+        }
+      ],
+      "source_span": "anno post",
+      "note": ""
+    },
+    "vine_cut": {
+      "type": "OP",
+      "id": "vine_cut",
+      "op": "CUT",
+      "arity": 1,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "vine",
+          "ref_id": "vine"
+        }
+      ],
+      "source_span": "praecidito",
+      "note": ""
+    },
+    "vine_cut_after": {
+      "type": "OP",
+      "id": "vine_cut_after",
+      "op": "WHEN",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "vine_duration",
+          "ref_id": "vine_duration"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "vine_cut",
+          "ref_id": "vine_cut"
+        }
+      ],
+      "source_span": "anno post praecidito",
+      "note": ""
+    },
+    "vine_plant": {
+      "type": "OP",
+      "id": "vine_plant",
+      "op": "PLANT_WITH",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "vine",
+          "ref_id": "vine"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "qualus_container",
+          "ref_id": "qualus_container"
+        }
+      ],
+      "source_span": "cum qualo serito",
+      "note": "qualus/quasillus identity is unresolved."
+    },
+    "vine_full": {
+      "type": "OP",
+      "id": "vine_full",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "vine_start",
+          "ref_id": "vine_start"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "vine_cut_after",
+          "ref_id": "vine_cut_after"
+        }
+      ],
+      "source_span": "§133.4",
+      "note": ""
+    },
+    "vine_full2": {
+      "type": "OP",
+      "id": "vine_full2",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "vine_full",
+          "ref_id": "vine_full"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "vine_plant",
+          "ref_id": "vine_plant"
+        }
+      ],
+      "source_span": "§133.4",
+      "note": ""
+    },
+    "root_ast": {
+      "type": "OP",
+      "id": "root_ast",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "title_op",
+          "ref_id": "title_op"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "ground_with_species",
+          "ref_id": "ground_with_species"
+        }
+      ],
+      "source_span": "Chapter title + §§133.1–2",
+      "note": ""
+    },
+    "root_ast2": {
+      "type": "OP",
+      "id": "root_ast2",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "root_ast",
+          "ref_id": "root_ast"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "careful_full3",
+          "ref_id": "careful_full3"
+        }
+      ],
+      "source_span": "§133.3",
+      "note": ""
+    },
+    "root_ast3": {
+      "type": "OP",
+      "id": "root_ast3",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "root_ast2",
+          "ref_id": "root_ast2"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "vine_full2",
+          "ref_id": "vine_full2"
+        }
+      ],
+      "source_span": "§133.4",
+      "note": ""
+    },
+    "pot_perforation": {
+      "type": "OP",
+      "id": "pot_perforation",
+      "op": "ASSERT_PROPERTY",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "pot",
+          "ref_id": "pot"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "perforated",
+          "value": "perforated at the bottom",
+          "source_span": "calicem pertusum",
+          "note": ""
+        }
+      ],
+      "source_span": "calicem pertusum",
+      "note": "Only the pot alternative is explicitly perforated."
+    },
+    "tender_assertion": {
+      "type": "OP",
+      "id": "tender_assertion",
+      "op": "ASSERT_PROPERTY",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "tender_branch",
+          "ref_id": "tender_branch"
+        },
+        {
+          "type": "PROPERTY",
+          "id": "tender",
+          "value": "tender",
+          "source_span": "ramum tenerum",
+          "note": ""
+        }
+      ],
+      "source_span": "ramum tenerum",
+      "note": "Tender is a written branch property."
+    },
+    "cut_then_plant": {
+      "type": "OP",
+      "id": "cut_then_plant",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "cut_tender",
+          "ref_id": "cut_tender"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "careful_cut_plant",
+          "ref_id": "careful_cut_plant"
+        }
+      ],
+      "source_span": "praecidito ... cum quasillo serito"
+    },
+    "cut_tender": {
+      "type": "OP",
+      "id": "cut_tender",
+      "op": "SEQ",
+      "arity": 2,
+      "args": [
+        {
+          "type": "REFERENCE",
+          "id": "tender_assertion",
+          "ref_id": "tender_assertion"
+        },
+        {
+          "type": "REFERENCE",
+          "id": "cut_below",
+          "ref_id": "cut_below"
+        }
+      ],
+      "source_span": "ramum tenerum infra praecidito"
+    }
+  },
+  "node_trees": {
+    "title_op": [
+      "TITLE",
+      "ref:topic_propagation"
+    ],
+    "ground_origin": [
+      "ASSERT_PROPERTY",
+      "ref:ground_shoot_group",
+      "prop:sprung_from_ground"
+    ],
+    "ground_press": [
+      "PRESS_INTO",
+      "ref:ground_shoot_group",
+      "ref:ground"
+    ],
+    "ground_raise": [
+      "RAISE",
+      "ref:ground_tip",
+      "prop:tip_raised_out"
+    ],
+    "ground_purpose": [
+      "PURPOSE",
+      [
+        "RAISE",
+        "ref:ground_tip",
+        "prop:tip_raised_out"
+      ],
+      "prop:rooting_possible"
+    ],
+    "ground_actions": [
+      "SEQ",
+      [
+        "PRESS_INTO",
+        "ref:ground_shoot_group",
+        "ref:ground"
+      ],
+      [
+        "PURPOSE",
+        [
+          "RAISE",
+          "ref:ground_tip",
+          "prop:tip_raised_out"
+        ],
+        "prop:rooting_possible"
+      ]
+    ],
+    "ground_root_phase": [
+      "SEQ",
+      [
+        "ASSERT_PROPERTY",
+        "ref:ground_shoot_group",
+        "prop:sprung_from_ground"
+      ],
+      [
+        "SEQ",
+        [
+          "PRESS_INTO",
+          "ref:ground_shoot_group",
+          "ref:ground"
+        ],
+        [
+          "PURPOSE",
+          [
+            "RAISE",
+            "ref:ground_tip",
+            "prop:tip_raised_out"
+          ],
+          "prop:rooting_possible"
+        ]
+      ]
+    ],
+    "ground_dig": [
+      "DIG",
+      "ref:ground_shoot_group"
+    ],
+    "ground_plant": [
+      "PLANT_STRAIGHT",
+      "ref:ground_shoot_group",
+      "prop:straight_or_right"
+    ],
+    "ground_replant_at_time": [
+      "WHEN",
+      "num:proper_time",
+      [
+        "PLANT_STRAIGHT",
+        "ref:ground_shoot_group",
+        "prop:straight_or_right"
+      ]
+    ],
+    "ground_transition": [
+      "SEQ",
+      [
+        "DIG",
+        "ref:ground_shoot_group"
+      ],
+      [
+        "WHEN",
+        "num:proper_time",
+        [
+          "PLANT_STRAIGHT",
+          "ref:ground_shoot_group",
+          "prop:straight_or_right"
+        ]
+      ]
+    ],
+    "species_list": [
+      "SPECIES_LIST",
+      "ref:species_set"
+    ],
+    "species_cons_15": [
+      "CONS",
+      "ref:platanus",
+      [
+        "CONS",
+        "ref:nux_praenestina",
+        [
+          "CONS",
+          "ref:nux_abellana",
+          [
+            "CONS",
+            "ref:murtum_nigrum",
+            [
+              "CONS",
+              "ref:murtum_album",
+              [
+                "CONS",
+                "ref:murtum_coniugulum",
+                [
+                  "CONS",
+                  "ref:prunum",
+                  [
+                    "CONS",
+                    "ref:laurus_delphica",
+                    [
+                      "CONS",
+                      "ref:laurus_cypria",
+                      [
+                        "CONS",
+                        "ref:all_other_fruit",
+                        [
+                          "CONS",
+                          "ref:cotonea",
+                          [
+                            "CONS",
+                            "ref:mala_strutea",
+                            [
+                              "CONS",
+                              "ref:malum_punicum",
+                              [
+                                "CONS",
+                                "ref:olea",
+                                [
+                                  "CONS",
+                                  "ref:ficus",
+                                  [
+                                    "NIL"
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_14": [
+      "CONS",
+      "ref:nux_praenestina",
+      [
+        "CONS",
+        "ref:nux_abellana",
+        [
+          "CONS",
+          "ref:murtum_nigrum",
+          [
+            "CONS",
+            "ref:murtum_album",
+            [
+              "CONS",
+              "ref:murtum_coniugulum",
+              [
+                "CONS",
+                "ref:prunum",
+                [
+                  "CONS",
+                  "ref:laurus_delphica",
+                  [
+                    "CONS",
+                    "ref:laurus_cypria",
+                    [
+                      "CONS",
+                      "ref:all_other_fruit",
+                      [
+                        "CONS",
+                        "ref:cotonea",
+                        [
+                          "CONS",
+                          "ref:mala_strutea",
+                          [
+                            "CONS",
+                            "ref:malum_punicum",
+                            [
+                              "CONS",
+                              "ref:olea",
+                              [
+                                "CONS",
+                                "ref:ficus",
+                                [
+                                  "NIL"
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_13": [
+      "CONS",
+      "ref:nux_abellana",
+      [
+        "CONS",
+        "ref:murtum_nigrum",
+        [
+          "CONS",
+          "ref:murtum_album",
+          [
+            "CONS",
+            "ref:murtum_coniugulum",
+            [
+              "CONS",
+              "ref:prunum",
+              [
+                "CONS",
+                "ref:laurus_delphica",
+                [
+                  "CONS",
+                  "ref:laurus_cypria",
+                  [
+                    "CONS",
+                    "ref:all_other_fruit",
+                    [
+                      "CONS",
+                      "ref:cotonea",
+                      [
+                        "CONS",
+                        "ref:mala_strutea",
+                        [
+                          "CONS",
+                          "ref:malum_punicum",
+                          [
+                            "CONS",
+                            "ref:olea",
+                            [
+                              "CONS",
+                              "ref:ficus",
+                              [
+                                "NIL"
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_12": [
+      "CONS",
+      "ref:murtum_nigrum",
+      [
+        "CONS",
+        "ref:murtum_album",
+        [
+          "CONS",
+          "ref:murtum_coniugulum",
+          [
+            "CONS",
+            "ref:prunum",
+            [
+              "CONS",
+              "ref:laurus_delphica",
+              [
+                "CONS",
+                "ref:laurus_cypria",
+                [
+                  "CONS",
+                  "ref:all_other_fruit",
+                  [
+                    "CONS",
+                    "ref:cotonea",
+                    [
+                      "CONS",
+                      "ref:mala_strutea",
+                      [
+                        "CONS",
+                        "ref:malum_punicum",
+                        [
+                          "CONS",
+                          "ref:olea",
+                          [
+                            "CONS",
+                            "ref:ficus",
+                            [
+                              "NIL"
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_11": [
+      "CONS",
+      "ref:murtum_album",
+      [
+        "CONS",
+        "ref:murtum_coniugulum",
+        [
+          "CONS",
+          "ref:prunum",
+          [
+            "CONS",
+            "ref:laurus_delphica",
+            [
+              "CONS",
+              "ref:laurus_cypria",
+              [
+                "CONS",
+                "ref:all_other_fruit",
+                [
+                  "CONS",
+                  "ref:cotonea",
+                  [
+                    "CONS",
+                    "ref:mala_strutea",
+                    [
+                      "CONS",
+                      "ref:malum_punicum",
+                      [
+                        "CONS",
+                        "ref:olea",
+                        [
+                          "CONS",
+                          "ref:ficus",
+                          [
+                            "NIL"
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_10": [
+      "CONS",
+      "ref:murtum_coniugulum",
+      [
+        "CONS",
+        "ref:prunum",
+        [
+          "CONS",
+          "ref:laurus_delphica",
+          [
+            "CONS",
+            "ref:laurus_cypria",
+            [
+              "CONS",
+              "ref:all_other_fruit",
+              [
+                "CONS",
+                "ref:cotonea",
+                [
+                  "CONS",
+                  "ref:mala_strutea",
+                  [
+                    "CONS",
+                    "ref:malum_punicum",
+                    [
+                      "CONS",
+                      "ref:olea",
+                      [
+                        "CONS",
+                        "ref:ficus",
+                        [
+                          "NIL"
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_9": [
+      "CONS",
+      "ref:prunum",
+      [
+        "CONS",
+        "ref:laurus_delphica",
+        [
+          "CONS",
+          "ref:laurus_cypria",
+          [
+            "CONS",
+            "ref:all_other_fruit",
+            [
+              "CONS",
+              "ref:cotonea",
+              [
+                "CONS",
+                "ref:mala_strutea",
+                [
+                  "CONS",
+                  "ref:malum_punicum",
+                  [
+                    "CONS",
+                    "ref:olea",
+                    [
+                      "CONS",
+                      "ref:ficus",
+                      [
+                        "NIL"
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_8": [
+      "CONS",
+      "ref:laurus_delphica",
+      [
+        "CONS",
+        "ref:laurus_cypria",
+        [
+          "CONS",
+          "ref:all_other_fruit",
+          [
+            "CONS",
+            "ref:cotonea",
+            [
+              "CONS",
+              "ref:mala_strutea",
+              [
+                "CONS",
+                "ref:malum_punicum",
+                [
+                  "CONS",
+                  "ref:olea",
+                  [
+                    "CONS",
+                    "ref:ficus",
+                    [
+                      "NIL"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_7": [
+      "CONS",
+      "ref:laurus_cypria",
+      [
+        "CONS",
+        "ref:all_other_fruit",
+        [
+          "CONS",
+          "ref:cotonea",
+          [
+            "CONS",
+            "ref:mala_strutea",
+            [
+              "CONS",
+              "ref:malum_punicum",
+              [
+                "CONS",
+                "ref:olea",
+                [
+                  "CONS",
+                  "ref:ficus",
+                  [
+                    "NIL"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_6": [
+      "CONS",
+      "ref:all_other_fruit",
+      [
+        "CONS",
+        "ref:cotonea",
+        [
+          "CONS",
+          "ref:mala_strutea",
+          [
+            "CONS",
+            "ref:malum_punicum",
+            [
+              "CONS",
+              "ref:olea",
+              [
+                "CONS",
+                "ref:ficus",
+                [
+                  "NIL"
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_5": [
+      "CONS",
+      "ref:cotonea",
+      [
+        "CONS",
+        "ref:mala_strutea",
+        [
+          "CONS",
+          "ref:malum_punicum",
+          [
+            "CONS",
+            "ref:olea",
+            [
+              "CONS",
+              "ref:ficus",
+              [
+                "NIL"
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_4": [
+      "CONS",
+      "ref:mala_strutea",
+      [
+        "CONS",
+        "ref:malum_punicum",
+        [
+          "CONS",
+          "ref:olea",
+          [
+            "CONS",
+            "ref:ficus",
+            [
+              "NIL"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "species_cons_3": [
+      "CONS",
+      "ref:malum_punicum",
+      [
+        "CONS",
+        "ref:olea",
+        [
+          "CONS",
+          "ref:ficus",
+          [
+            "NIL"
+          ]
+        ]
+      ]
+    ],
+    "species_cons_2": [
+      "CONS",
+      "ref:olea",
+      [
+        "CONS",
+        "ref:ficus",
+        [
+          "NIL"
+        ]
+      ]
+    ],
+    "species_cons_1": [
+      "CONS",
+      "ref:ficus",
+      [
+        "NIL"
+      ]
+    ],
+    "species_nil": [
+      "NIL"
+    ],
+    "species_propagate": [
+      "PROPAGATE_FROM",
+      [
+        "CONS",
+        "ref:platanus",
+        [
+          "CONS",
+          "ref:nux_praenestina",
+          [
+            "CONS",
+            "ref:nux_abellana",
+            [
+              "CONS",
+              "ref:murtum_nigrum",
+              [
+                "CONS",
+                "ref:murtum_album",
+                [
+                  "CONS",
+                  "ref:murtum_coniugulum",
+                  [
+                    "CONS",
+                    "ref:prunum",
+                    [
+                      "CONS",
+                      "ref:laurus_delphica",
+                      [
+                        "CONS",
+                        "ref:laurus_cypria",
+                        [
+                          "CONS",
+                          "ref:all_other_fruit",
+                          [
+                            "CONS",
+                            "ref:cotonea",
+                            [
+                              "CONS",
+                              "ref:mala_strutea",
+                              [
+                                "CONS",
+                                "ref:malum_punicum",
+                                [
+                                  "CONS",
+                                  "ref:olea",
+                                  [
+                                    "CONS",
+                                    "ref:ficus",
+                                    [
+                                      "NIL"
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "ref:heads_or_crowns"
+    ],
+    "species_extract": [
+      "EXTRACT_BY",
+      [
+        "CONS",
+        "ref:platanus",
+        [
+          "CONS",
+          "ref:nux_praenestina",
+          [
+            "CONS",
+            "ref:nux_abellana",
+            [
+              "CONS",
+              "ref:murtum_nigrum",
+              [
+                "CONS",
+                "ref:murtum_album",
+                [
+                  "CONS",
+                  "ref:murtum_coniugulum",
+                  [
+                    "CONS",
+                    "ref:prunum",
+                    [
+                      "CONS",
+                      "ref:laurus_delphica",
+                      [
+                        "CONS",
+                        "ref:laurus_cypria",
+                        [
+                          "CONS",
+                          "ref:all_other_fruit",
+                          [
+                            "CONS",
+                            "ref:cotonea",
+                            [
+                              "CONS",
+                              "ref:mala_strutea",
+                              [
+                                "CONS",
+                                "ref:malum_punicum",
+                                [
+                                  "CONS",
+                                  "ref:olea",
+                                  [
+                                    "CONS",
+                                    "ref:ficus",
+                                    [
+                                      "NIL"
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "ref:method_133"
+    ],
+    "species_actions": [
+      "SEQ",
+      [
+        "PROPAGATE_FROM",
+        [
+          "CONS",
+          "ref:platanus",
+          [
+            "CONS",
+            "ref:nux_praenestina",
+            [
+              "CONS",
+              "ref:nux_abellana",
+              [
+                "CONS",
+                "ref:murtum_nigrum",
+                [
+                  "CONS",
+                  "ref:murtum_album",
+                  [
+                    "CONS",
+                    "ref:murtum_coniugulum",
+                    [
+                      "CONS",
+                      "ref:prunum",
+                      [
+                        "CONS",
+                        "ref:laurus_delphica",
+                        [
+                          "CONS",
+                          "ref:laurus_cypria",
+                          [
+                            "CONS",
+                            "ref:all_other_fruit",
+                            [
+                              "CONS",
+                              "ref:cotonea",
+                              [
+                                "CONS",
+                                "ref:mala_strutea",
+                                [
+                                  "CONS",
+                                  "ref:malum_punicum",
+                                  [
+                                    "CONS",
+                                    "ref:olea",
+                                    [
+                                      "CONS",
+                                      "ref:ficus",
+                                      [
+                                        "NIL"
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        "ref:heads_or_crowns"
+      ],
+      [
+        "EXTRACT_BY",
+        [
+          "CONS",
+          "ref:platanus",
+          [
+            "CONS",
+            "ref:nux_praenestina",
+            [
+              "CONS",
+              "ref:nux_abellana",
+              [
+                "CONS",
+                "ref:murtum_nigrum",
+                [
+                  "CONS",
+                  "ref:murtum_album",
+                  [
+                    "CONS",
+                    "ref:murtum_coniugulum",
+                    [
+                      "CONS",
+                      "ref:prunum",
+                      [
+                        "CONS",
+                        "ref:laurus_delphica",
+                        [
+                          "CONS",
+                          "ref:laurus_cypria",
+                          [
+                            "CONS",
+                            "ref:all_other_fruit",
+                            [
+                              "CONS",
+                              "ref:cotonea",
+                              [
+                                "CONS",
+                                "ref:mala_strutea",
+                                [
+                                  "CONS",
+                                  "ref:malum_punicum",
+                                  [
+                                    "CONS",
+                                    "ref:olea",
+                                    [
+                                      "CONS",
+                                      "ref:ficus",
+                                      [
+                                        "NIL"
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        "ref:method_133"
+      ]
+    ],
+    "ground_full": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "ASSERT_PROPERTY",
+          "ref:ground_shoot_group",
+          "prop:sprung_from_ground"
+        ],
+        [
+          "SEQ",
+          [
+            "PRESS_INTO",
+            "ref:ground_shoot_group",
+            "ref:ground"
+          ],
+          [
+            "PURPOSE",
+            [
+              "RAISE",
+              "ref:ground_tip",
+              "prop:tip_raised_out"
+            ],
+            "prop:rooting_possible"
+          ]
+        ]
+      ],
+      [
+        "SEQ",
+        [
+          "DIG",
+          "ref:ground_shoot_group"
+        ],
+        [
+          "WHEN",
+          "num:proper_time",
+          [
+            "PLANT_STRAIGHT",
+            "ref:ground_shoot_group",
+            "prop:straight_or_right"
+          ]
+        ]
+      ]
+    ],
+    "ground_with_species": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "ASSERT_PROPERTY",
+            "ref:ground_shoot_group",
+            "prop:sprung_from_ground"
+          ],
+          [
+            "SEQ",
+            [
+              "PRESS_INTO",
+              "ref:ground_shoot_group",
+              "ref:ground"
+            ],
+            [
+              "PURPOSE",
+              [
+                "RAISE",
+                "ref:ground_tip",
+                "prop:tip_raised_out"
+              ],
+              "prop:rooting_possible"
+            ]
+          ]
+        ],
+        [
+          "SEQ",
+          [
+            "DIG",
+            "ref:ground_shoot_group"
+          ],
+          [
+            "WHEN",
+            "num:proper_time",
+            [
+              "PLANT_STRAIGHT",
+              "ref:ground_shoot_group",
+              "prop:straight_or_right"
+            ]
+          ]
+        ]
+      ],
+      [
+        "SEQ",
+        [
+          "PROPAGATE_FROM",
+          [
+            "CONS",
+            "ref:platanus",
+            [
+              "CONS",
+              "ref:nux_praenestina",
+              [
+                "CONS",
+                "ref:nux_abellana",
+                [
+                  "CONS",
+                  "ref:murtum_nigrum",
+                  [
+                    "CONS",
+                    "ref:murtum_album",
+                    [
+                      "CONS",
+                      "ref:murtum_coniugulum",
+                      [
+                        "CONS",
+                        "ref:prunum",
+                        [
+                          "CONS",
+                          "ref:laurus_delphica",
+                          [
+                            "CONS",
+                            "ref:laurus_cypria",
+                            [
+                              "CONS",
+                              "ref:all_other_fruit",
+                              [
+                                "CONS",
+                                "ref:cotonea",
+                                [
+                                  "CONS",
+                                  "ref:mala_strutea",
+                                  [
+                                    "CONS",
+                                    "ref:malum_punicum",
+                                    [
+                                      "CONS",
+                                      "ref:olea",
+                                      [
+                                        "CONS",
+                                        "ref:ficus",
+                                        [
+                                          "NIL"
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "ref:heads_or_crowns"
+        ],
+        [
+          "EXTRACT_BY",
+          [
+            "CONS",
+            "ref:platanus",
+            [
+              "CONS",
+              "ref:nux_praenestina",
+              [
+                "CONS",
+                "ref:nux_abellana",
+                [
+                  "CONS",
+                  "ref:murtum_nigrum",
+                  [
+                    "CONS",
+                    "ref:murtum_album",
+                    [
+                      "CONS",
+                      "ref:murtum_coniugulum",
+                      [
+                        "CONS",
+                        "ref:prunum",
+                        [
+                          "CONS",
+                          "ref:laurus_delphica",
+                          [
+                            "CONS",
+                            "ref:laurus_cypria",
+                            [
+                              "CONS",
+                              "ref:all_other_fruit",
+                              [
+                                "CONS",
+                                "ref:cotonea",
+                                [
+                                  "CONS",
+                                  "ref:mala_strutea",
+                                  [
+                                    "CONS",
+                                    "ref:malum_punicum",
+                                    [
+                                      "CONS",
+                                      "ref:olea",
+                                      [
+                                        "CONS",
+                                        "ref:ficus",
+                                        [
+                                          "NIL"
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "ref:method_133"
+        ]
+      ]
+    ],
+    "careful_select": [
+      "ASSERT_PROPERTY",
+      "ref:careful_targets",
+      "prop:carefully_selected"
+    ],
+    "careful_pot_plant": [
+      "PLANT_IN",
+      "ref:careful_targets",
+      "ref:pot"
+    ],
+    "careful_purpose": [
+      "PURPOSE",
+      [
+        "ALT",
+        "ref:pot",
+        "ref:basket"
+      ],
+      "prop:rooting_possible"
+    ],
+    "container_alt": [
+      "ALT",
+      "ref:pot",
+      "ref:basket"
+    ],
+    "thread": [
+      "THREAD",
+      "ref:careful_shoot",
+      "ref:chosen_container"
+    ],
+    "fill": [
+      "FILL",
+      "ref:chosen_container",
+      "ref:earth"
+    ],
+    "pack": [
+      "PACK",
+      "ref:chosen_container",
+      "ref:earth"
+    ],
+    "leave_on_tree": [
+      "LEAVE_ON",
+      "ref:careful_shoot",
+      "ref:tree_host"
+    ],
+    "on_tree_sequence": [
+      "SEQ",
+      [
+        "THREAD",
+        "ref:careful_shoot",
+        "ref:chosen_container"
+      ],
+      [
+        "FILL",
+        "ref:chosen_container",
+        "ref:earth"
+      ]
+    ],
+    "on_tree_sequence2": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "THREAD",
+          "ref:careful_shoot",
+          "ref:chosen_container"
+        ],
+        [
+          "FILL",
+          "ref:chosen_container",
+          "ref:earth"
+        ]
+      ],
+      [
+        "PACK",
+        "ref:chosen_container",
+        "ref:earth"
+      ]
+    ],
+    "on_tree_sequence3": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "THREAD",
+            "ref:careful_shoot",
+            "ref:chosen_container"
+          ],
+          [
+            "FILL",
+            "ref:chosen_container",
+            "ref:earth"
+          ]
+        ],
+        [
+          "PACK",
+          "ref:chosen_container",
+          "ref:earth"
+        ]
+      ],
+      [
+        "LEAVE_ON",
+        "ref:careful_shoot",
+        "ref:tree_host"
+      ]
+    ],
+    "bimum_duration": [
+      "DURATION",
+      "ref:bimum_subject_unknown",
+      "num:two_years"
+    ],
+    "cut_below": [
+      "CUT_BELOW",
+      "ref:tender_branch",
+      "ref:cut_reference"
+    ],
+    "careful_cut_plant": [
+      "PLANT_WITH",
+      "ref:tender_branch",
+      "ref:basket"
+    ],
+    "careful_after_age": [
+      "WHEN",
+      [
+        "DURATION",
+        "ref:bimum_subject_unknown",
+        "num:two_years"
+      ],
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "ASSERT_PROPERTY",
+            "ref:tender_branch",
+            "prop:tender"
+          ],
+          [
+            "CUT_BELOW",
+            "ref:tender_branch",
+            "ref:cut_reference"
+          ]
+        ],
+        [
+          "PLANT_WITH",
+          "ref:tender_branch",
+          "ref:basket"
+        ]
+      ]
+    ],
+    "careful_capability": [
+      "CAPABILITY",
+      "ref:method_133",
+      "ref:careful_targets",
+      "prop:root_well"
+    ],
+    "careful_inner": [
+      "SEQ",
+      [
+        "ASSERT_PROPERTY",
+        "ref:careful_targets",
+        "prop:carefully_selected"
+      ],
+      [
+        "PLANT_IN",
+        "ref:careful_targets",
+        "ref:pot"
+      ]
+    ],
+    "careful_container": [
+      "SEQ",
+      [
+        "ASSERT_PROPERTY",
+        "ref:pot",
+        "prop:perforated"
+      ],
+      [
+        "PURPOSE",
+        [
+          "ALT",
+          "ref:pot",
+          "ref:basket"
+        ],
+        "prop:rooting_possible"
+      ]
+    ],
+    "careful_on_tree": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "ASSERT_PROPERTY",
+          "ref:pot",
+          "prop:perforated"
+        ],
+        [
+          "PURPOSE",
+          [
+            "ALT",
+            "ref:pot",
+            "ref:basket"
+          ],
+          "prop:rooting_possible"
+        ]
+      ],
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "THREAD",
+              "ref:careful_shoot",
+              "ref:chosen_container"
+            ],
+            [
+              "FILL",
+              "ref:chosen_container",
+              "ref:earth"
+            ]
+          ],
+          [
+            "PACK",
+            "ref:chosen_container",
+            "ref:earth"
+          ]
+        ],
+        [
+          "LEAVE_ON",
+          "ref:careful_shoot",
+          "ref:tree_host"
+        ]
+      ]
+    ],
+    "careful_full": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "ASSERT_PROPERTY",
+          "ref:careful_targets",
+          "prop:carefully_selected"
+        ],
+        [
+          "PLANT_IN",
+          "ref:careful_targets",
+          "ref:pot"
+        ]
+      ],
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "ASSERT_PROPERTY",
+            "ref:pot",
+            "prop:perforated"
+          ],
+          [
+            "PURPOSE",
+            [
+              "ALT",
+              "ref:pot",
+              "ref:basket"
+            ],
+            "prop:rooting_possible"
+          ]
+        ],
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "THREAD",
+                "ref:careful_shoot",
+                "ref:chosen_container"
+              ],
+              [
+                "FILL",
+                "ref:chosen_container",
+                "ref:earth"
+              ]
+            ],
+            [
+              "PACK",
+              "ref:chosen_container",
+              "ref:earth"
+            ]
+          ],
+          [
+            "LEAVE_ON",
+            "ref:careful_shoot",
+            "ref:tree_host"
+          ]
+        ]
+      ]
+    ],
+    "careful_full2": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "ASSERT_PROPERTY",
+            "ref:careful_targets",
+            "prop:carefully_selected"
+          ],
+          [
+            "PLANT_IN",
+            "ref:careful_targets",
+            "ref:pot"
+          ]
+        ],
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "ASSERT_PROPERTY",
+              "ref:pot",
+              "prop:perforated"
+            ],
+            [
+              "PURPOSE",
+              [
+                "ALT",
+                "ref:pot",
+                "ref:basket"
+              ],
+              "prop:rooting_possible"
+            ]
+          ],
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "SEQ",
+                [
+                  "THREAD",
+                  "ref:careful_shoot",
+                  "ref:chosen_container"
+                ],
+                [
+                  "FILL",
+                  "ref:chosen_container",
+                  "ref:earth"
+                ]
+              ],
+              [
+                "PACK",
+                "ref:chosen_container",
+                "ref:earth"
+              ]
+            ],
+            [
+              "LEAVE_ON",
+              "ref:careful_shoot",
+              "ref:tree_host"
+            ]
+          ]
+        ]
+      ],
+      [
+        "WHEN",
+        [
+          "DURATION",
+          "ref:bimum_subject_unknown",
+          "num:two_years"
+        ],
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "ASSERT_PROPERTY",
+              "ref:tender_branch",
+              "prop:tender"
+            ],
+            [
+              "CUT_BELOW",
+              "ref:tender_branch",
+              "ref:cut_reference"
+            ]
+          ],
+          [
+            "PLANT_WITH",
+            "ref:tender_branch",
+            "ref:basket"
+          ]
+        ]
+      ]
+    ],
+    "careful_full3": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "ASSERT_PROPERTY",
+              "ref:careful_targets",
+              "prop:carefully_selected"
+            ],
+            [
+              "PLANT_IN",
+              "ref:careful_targets",
+              "ref:pot"
+            ]
+          ],
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "ASSERT_PROPERTY",
+                "ref:pot",
+                "prop:perforated"
+              ],
+              [
+                "PURPOSE",
+                [
+                  "ALT",
+                  "ref:pot",
+                  "ref:basket"
+                ],
+                "prop:rooting_possible"
+              ]
+            ],
+            [
+              "SEQ",
+              [
+                "SEQ",
+                [
+                  "SEQ",
+                  [
+                    "THREAD",
+                    "ref:careful_shoot",
+                    "ref:chosen_container"
+                  ],
+                  [
+                    "FILL",
+                    "ref:chosen_container",
+                    "ref:earth"
+                  ]
+                ],
+                [
+                  "PACK",
+                  "ref:chosen_container",
+                  "ref:earth"
+                ]
+              ],
+              [
+                "LEAVE_ON",
+                "ref:careful_shoot",
+                "ref:tree_host"
+              ]
+            ]
+          ]
+        ],
+        [
+          "WHEN",
+          [
+            "DURATION",
+            "ref:bimum_subject_unknown",
+            "num:two_years"
+          ],
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "ASSERT_PROPERTY",
+                "ref:tender_branch",
+                "prop:tender"
+              ],
+              [
+                "CUT_BELOW",
+                "ref:tender_branch",
+                "ref:cut_reference"
+              ]
+            ],
+            [
+              "PLANT_WITH",
+              "ref:tender_branch",
+              "ref:basket"
+            ]
+          ]
+        ]
+      ],
+      [
+        "CAPABILITY",
+        "ref:method_133",
+        "ref:careful_targets",
+        "prop:root_well"
+      ]
+    ],
+    "vine_propagate": [
+      "PROPAGATE_IN",
+      "ref:vine",
+      "ref:vine_basket"
+    ],
+    "vine_cover": [
+      "COVER_WITH_EARTH",
+      "ref:vine",
+      "prop:earth_covered_well"
+    ],
+    "vine_start": [
+      "SEQ",
+      [
+        "PROPAGATE_IN",
+        "ref:vine",
+        "ref:vine_basket"
+      ],
+      [
+        "COVER_WITH_EARTH",
+        "ref:vine",
+        "prop:earth_covered_well"
+      ]
+    ],
+    "vine_duration": [
+      "DURATION",
+      "ref:vine",
+      "num:one_year"
+    ],
+    "vine_cut": [
+      "CUT",
+      "ref:vine"
+    ],
+    "vine_cut_after": [
+      "WHEN",
+      [
+        "DURATION",
+        "ref:vine",
+        "num:one_year"
+      ],
+      [
+        "CUT",
+        "ref:vine"
+      ]
+    ],
+    "vine_plant": [
+      "PLANT_WITH",
+      "ref:vine",
+      "ref:qualus_container"
+    ],
+    "vine_full": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "PROPAGATE_IN",
+          "ref:vine",
+          "ref:vine_basket"
+        ],
+        [
+          "COVER_WITH_EARTH",
+          "ref:vine",
+          "prop:earth_covered_well"
+        ]
+      ],
+      [
+        "WHEN",
+        [
+          "DURATION",
+          "ref:vine",
+          "num:one_year"
+        ],
+        [
+          "CUT",
+          "ref:vine"
+        ]
+      ]
+    ],
+    "vine_full2": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "PROPAGATE_IN",
+            "ref:vine",
+            "ref:vine_basket"
+          ],
+          [
+            "COVER_WITH_EARTH",
+            "ref:vine",
+            "prop:earth_covered_well"
+          ]
+        ],
+        [
+          "WHEN",
+          [
+            "DURATION",
+            "ref:vine",
+            "num:one_year"
+          ],
+          [
+            "CUT",
+            "ref:vine"
+          ]
+        ]
+      ],
+      [
+        "PLANT_WITH",
+        "ref:vine",
+        "ref:qualus_container"
+      ]
+    ],
+    "root_ast": [
+      "SEQ",
+      [
+        "TITLE",
+        "ref:topic_propagation"
+      ],
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "ASSERT_PROPERTY",
+              "ref:ground_shoot_group",
+              "prop:sprung_from_ground"
+            ],
+            [
+              "SEQ",
+              [
+                "PRESS_INTO",
+                "ref:ground_shoot_group",
+                "ref:ground"
+              ],
+              [
+                "PURPOSE",
+                [
+                  "RAISE",
+                  "ref:ground_tip",
+                  "prop:tip_raised_out"
+                ],
+                "prop:rooting_possible"
+              ]
+            ]
+          ],
+          [
+            "SEQ",
+            [
+              "DIG",
+              "ref:ground_shoot_group"
+            ],
+            [
+              "WHEN",
+              "num:proper_time",
+              [
+                "PLANT_STRAIGHT",
+                "ref:ground_shoot_group",
+                "prop:straight_or_right"
+              ]
+            ]
+          ]
+        ],
+        [
+          "SEQ",
+          [
+            "PROPAGATE_FROM",
+            [
+              "CONS",
+              "ref:platanus",
+              [
+                "CONS",
+                "ref:nux_praenestina",
+                [
+                  "CONS",
+                  "ref:nux_abellana",
+                  [
+                    "CONS",
+                    "ref:murtum_nigrum",
+                    [
+                      "CONS",
+                      "ref:murtum_album",
+                      [
+                        "CONS",
+                        "ref:murtum_coniugulum",
+                        [
+                          "CONS",
+                          "ref:prunum",
+                          [
+                            "CONS",
+                            "ref:laurus_delphica",
+                            [
+                              "CONS",
+                              "ref:laurus_cypria",
+                              [
+                                "CONS",
+                                "ref:all_other_fruit",
+                                [
+                                  "CONS",
+                                  "ref:cotonea",
+                                  [
+                                    "CONS",
+                                    "ref:mala_strutea",
+                                    [
+                                      "CONS",
+                                      "ref:malum_punicum",
+                                      [
+                                        "CONS",
+                                        "ref:olea",
+                                        [
+                                          "CONS",
+                                          "ref:ficus",
+                                          [
+                                            "NIL"
+                                          ]
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "ref:heads_or_crowns"
+          ],
+          [
+            "EXTRACT_BY",
+            [
+              "CONS",
+              "ref:platanus",
+              [
+                "CONS",
+                "ref:nux_praenestina",
+                [
+                  "CONS",
+                  "ref:nux_abellana",
+                  [
+                    "CONS",
+                    "ref:murtum_nigrum",
+                    [
+                      "CONS",
+                      "ref:murtum_album",
+                      [
+                        "CONS",
+                        "ref:murtum_coniugulum",
+                        [
+                          "CONS",
+                          "ref:prunum",
+                          [
+                            "CONS",
+                            "ref:laurus_delphica",
+                            [
+                              "CONS",
+                              "ref:laurus_cypria",
+                              [
+                                "CONS",
+                                "ref:all_other_fruit",
+                                [
+                                  "CONS",
+                                  "ref:cotonea",
+                                  [
+                                    "CONS",
+                                    "ref:mala_strutea",
+                                    [
+                                      "CONS",
+                                      "ref:malum_punicum",
+                                      [
+                                        "CONS",
+                                        "ref:olea",
+                                        [
+                                          "CONS",
+                                          "ref:ficus",
+                                          [
+                                            "NIL"
+                                          ]
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "ref:method_133"
+          ]
+        ]
+      ]
+    ],
+    "root_ast2": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "TITLE",
+          "ref:topic_propagation"
+        ],
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "ASSERT_PROPERTY",
+                "ref:ground_shoot_group",
+                "prop:sprung_from_ground"
+              ],
+              [
+                "SEQ",
+                [
+                  "PRESS_INTO",
+                  "ref:ground_shoot_group",
+                  "ref:ground"
+                ],
+                [
+                  "PURPOSE",
+                  [
+                    "RAISE",
+                    "ref:ground_tip",
+                    "prop:tip_raised_out"
+                  ],
+                  "prop:rooting_possible"
+                ]
+              ]
+            ],
+            [
+              "SEQ",
+              [
+                "DIG",
+                "ref:ground_shoot_group"
+              ],
+              [
+                "WHEN",
+                "num:proper_time",
+                [
+                  "PLANT_STRAIGHT",
+                  "ref:ground_shoot_group",
+                  "prop:straight_or_right"
+                ]
+              ]
+            ]
+          ],
+          [
+            "SEQ",
+            [
+              "PROPAGATE_FROM",
+              [
+                "CONS",
+                "ref:platanus",
+                [
+                  "CONS",
+                  "ref:nux_praenestina",
+                  [
+                    "CONS",
+                    "ref:nux_abellana",
+                    [
+                      "CONS",
+                      "ref:murtum_nigrum",
+                      [
+                        "CONS",
+                        "ref:murtum_album",
+                        [
+                          "CONS",
+                          "ref:murtum_coniugulum",
+                          [
+                            "CONS",
+                            "ref:prunum",
+                            [
+                              "CONS",
+                              "ref:laurus_delphica",
+                              [
+                                "CONS",
+                                "ref:laurus_cypria",
+                                [
+                                  "CONS",
+                                  "ref:all_other_fruit",
+                                  [
+                                    "CONS",
+                                    "ref:cotonea",
+                                    [
+                                      "CONS",
+                                      "ref:mala_strutea",
+                                      [
+                                        "CONS",
+                                        "ref:malum_punicum",
+                                        [
+                                          "CONS",
+                                          "ref:olea",
+                                          [
+                                            "CONS",
+                                            "ref:ficus",
+                                            [
+                                              "NIL"
+                                            ]
+                                          ]
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              "ref:heads_or_crowns"
+            ],
+            [
+              "EXTRACT_BY",
+              [
+                "CONS",
+                "ref:platanus",
+                [
+                  "CONS",
+                  "ref:nux_praenestina",
+                  [
+                    "CONS",
+                    "ref:nux_abellana",
+                    [
+                      "CONS",
+                      "ref:murtum_nigrum",
+                      [
+                        "CONS",
+                        "ref:murtum_album",
+                        [
+                          "CONS",
+                          "ref:murtum_coniugulum",
+                          [
+                            "CONS",
+                            "ref:prunum",
+                            [
+                              "CONS",
+                              "ref:laurus_delphica",
+                              [
+                                "CONS",
+                                "ref:laurus_cypria",
+                                [
+                                  "CONS",
+                                  "ref:all_other_fruit",
+                                  [
+                                    "CONS",
+                                    "ref:cotonea",
+                                    [
+                                      "CONS",
+                                      "ref:mala_strutea",
+                                      [
+                                        "CONS",
+                                        "ref:malum_punicum",
+                                        [
+                                          "CONS",
+                                          "ref:olea",
+                                          [
+                                            "CONS",
+                                            "ref:ficus",
+                                            [
+                                              "NIL"
+                                            ]
+                                          ]
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              "ref:method_133"
+            ]
+          ]
+        ]
+      ],
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "ASSERT_PROPERTY",
+                "ref:careful_targets",
+                "prop:carefully_selected"
+              ],
+              [
+                "PLANT_IN",
+                "ref:careful_targets",
+                "ref:pot"
+              ]
+            ],
+            [
+              "SEQ",
+              [
+                "SEQ",
+                [
+                  "ASSERT_PROPERTY",
+                  "ref:pot",
+                  "prop:perforated"
+                ],
+                [
+                  "PURPOSE",
+                  [
+                    "ALT",
+                    "ref:pot",
+                    "ref:basket"
+                  ],
+                  "prop:rooting_possible"
+                ]
+              ],
+              [
+                "SEQ",
+                [
+                  "SEQ",
+                  [
+                    "SEQ",
+                    [
+                      "THREAD",
+                      "ref:careful_shoot",
+                      "ref:chosen_container"
+                    ],
+                    [
+                      "FILL",
+                      "ref:chosen_container",
+                      "ref:earth"
+                    ]
+                  ],
+                  [
+                    "PACK",
+                    "ref:chosen_container",
+                    "ref:earth"
+                  ]
+                ],
+                [
+                  "LEAVE_ON",
+                  "ref:careful_shoot",
+                  "ref:tree_host"
+                ]
+              ]
+            ]
+          ],
+          [
+            "WHEN",
+            [
+              "DURATION",
+              "ref:bimum_subject_unknown",
+              "num:two_years"
+            ],
+            [
+              "SEQ",
+              [
+                "SEQ",
+                [
+                  "ASSERT_PROPERTY",
+                  "ref:tender_branch",
+                  "prop:tender"
+                ],
+                [
+                  "CUT_BELOW",
+                  "ref:tender_branch",
+                  "ref:cut_reference"
+                ]
+              ],
+              [
+                "PLANT_WITH",
+                "ref:tender_branch",
+                "ref:basket"
+              ]
+            ]
+          ]
+        ],
+        [
+          "CAPABILITY",
+          "ref:method_133",
+          "ref:careful_targets",
+          "prop:root_well"
+        ]
+      ]
+    ],
+    "root_ast3": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "TITLE",
+            "ref:topic_propagation"
+          ],
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "SEQ",
+                [
+                  "ASSERT_PROPERTY",
+                  "ref:ground_shoot_group",
+                  "prop:sprung_from_ground"
+                ],
+                [
+                  "SEQ",
+                  [
+                    "PRESS_INTO",
+                    "ref:ground_shoot_group",
+                    "ref:ground"
+                  ],
+                  [
+                    "PURPOSE",
+                    [
+                      "RAISE",
+                      "ref:ground_tip",
+                      "prop:tip_raised_out"
+                    ],
+                    "prop:rooting_possible"
+                  ]
+                ]
+              ],
+              [
+                "SEQ",
+                [
+                  "DIG",
+                  "ref:ground_shoot_group"
+                ],
+                [
+                  "WHEN",
+                  "num:proper_time",
+                  [
+                    "PLANT_STRAIGHT",
+                    "ref:ground_shoot_group",
+                    "prop:straight_or_right"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "SEQ",
+              [
+                "PROPAGATE_FROM",
+                [
+                  "CONS",
+                  "ref:platanus",
+                  [
+                    "CONS",
+                    "ref:nux_praenestina",
+                    [
+                      "CONS",
+                      "ref:nux_abellana",
+                      [
+                        "CONS",
+                        "ref:murtum_nigrum",
+                        [
+                          "CONS",
+                          "ref:murtum_album",
+                          [
+                            "CONS",
+                            "ref:murtum_coniugulum",
+                            [
+                              "CONS",
+                              "ref:prunum",
+                              [
+                                "CONS",
+                                "ref:laurus_delphica",
+                                [
+                                  "CONS",
+                                  "ref:laurus_cypria",
+                                  [
+                                    "CONS",
+                                    "ref:all_other_fruit",
+                                    [
+                                      "CONS",
+                                      "ref:cotonea",
+                                      [
+                                        "CONS",
+                                        "ref:mala_strutea",
+                                        [
+                                          "CONS",
+                                          "ref:malum_punicum",
+                                          [
+                                            "CONS",
+                                            "ref:olea",
+                                            [
+                                              "CONS",
+                                              "ref:ficus",
+                                              [
+                                                "NIL"
+                                              ]
+                                            ]
+                                          ]
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ],
+                "ref:heads_or_crowns"
+              ],
+              [
+                "EXTRACT_BY",
+                [
+                  "CONS",
+                  "ref:platanus",
+                  [
+                    "CONS",
+                    "ref:nux_praenestina",
+                    [
+                      "CONS",
+                      "ref:nux_abellana",
+                      [
+                        "CONS",
+                        "ref:murtum_nigrum",
+                        [
+                          "CONS",
+                          "ref:murtum_album",
+                          [
+                            "CONS",
+                            "ref:murtum_coniugulum",
+                            [
+                              "CONS",
+                              "ref:prunum",
+                              [
+                                "CONS",
+                                "ref:laurus_delphica",
+                                [
+                                  "CONS",
+                                  "ref:laurus_cypria",
+                                  [
+                                    "CONS",
+                                    "ref:all_other_fruit",
+                                    [
+                                      "CONS",
+                                      "ref:cotonea",
+                                      [
+                                        "CONS",
+                                        "ref:mala_strutea",
+                                        [
+                                          "CONS",
+                                          "ref:malum_punicum",
+                                          [
+                                            "CONS",
+                                            "ref:olea",
+                                            [
+                                              "CONS",
+                                              "ref:ficus",
+                                              [
+                                                "NIL"
+                                              ]
+                                            ]
+                                          ]
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ],
+                "ref:method_133"
+              ]
+            ]
+          ]
+        ],
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "SEQ",
+              [
+                "SEQ",
+                [
+                  "ASSERT_PROPERTY",
+                  "ref:careful_targets",
+                  "prop:carefully_selected"
+                ],
+                [
+                  "PLANT_IN",
+                  "ref:careful_targets",
+                  "ref:pot"
+                ]
+              ],
+              [
+                "SEQ",
+                [
+                  "SEQ",
+                  [
+                    "ASSERT_PROPERTY",
+                    "ref:pot",
+                    "prop:perforated"
+                  ],
+                  [
+                    "PURPOSE",
+                    [
+                      "ALT",
+                      "ref:pot",
+                      "ref:basket"
+                    ],
+                    "prop:rooting_possible"
+                  ]
+                ],
+                [
+                  "SEQ",
+                  [
+                    "SEQ",
+                    [
+                      "SEQ",
+                      [
+                        "THREAD",
+                        "ref:careful_shoot",
+                        "ref:chosen_container"
+                      ],
+                      [
+                        "FILL",
+                        "ref:chosen_container",
+                        "ref:earth"
+                      ]
+                    ],
+                    [
+                      "PACK",
+                      "ref:chosen_container",
+                      "ref:earth"
+                    ]
+                  ],
+                  [
+                    "LEAVE_ON",
+                    "ref:careful_shoot",
+                    "ref:tree_host"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "WHEN",
+              [
+                "DURATION",
+                "ref:bimum_subject_unknown",
+                "num:two_years"
+              ],
+              [
+                "SEQ",
+                [
+                  "SEQ",
+                  [
+                    "ASSERT_PROPERTY",
+                    "ref:tender_branch",
+                    "prop:tender"
+                  ],
+                  [
+                    "CUT_BELOW",
+                    "ref:tender_branch",
+                    "ref:cut_reference"
+                  ]
+                ],
+                [
+                  "PLANT_WITH",
+                  "ref:tender_branch",
+                  "ref:basket"
+                ]
+              ]
+            ]
+          ],
+          [
+            "CAPABILITY",
+            "ref:method_133",
+            "ref:careful_targets",
+            "prop:root_well"
+          ]
+        ]
+      ],
+      [
+        "SEQ",
+        [
+          "SEQ",
+          [
+            "SEQ",
+            [
+              "PROPAGATE_IN",
+              "ref:vine",
+              "ref:vine_basket"
+            ],
+            [
+              "COVER_WITH_EARTH",
+              "ref:vine",
+              "prop:earth_covered_well"
+            ]
+          ],
+          [
+            "WHEN",
+            [
+              "DURATION",
+              "ref:vine",
+              "num:one_year"
+            ],
+            [
+              "CUT",
+              "ref:vine"
+            ]
+          ]
+        ],
+        [
+          "PLANT_WITH",
+          "ref:vine",
+          "ref:qualus_container"
+        ]
+      ]
+    ],
+    "pot_perforation": [
+      "ASSERT_PROPERTY",
+      "ref:pot",
+      "prop:perforated"
+    ],
+    "tender_assertion": [
+      "ASSERT_PROPERTY",
+      "ref:tender_branch",
+      "prop:tender"
+    ],
+    "cut_then_plant": [
+      "SEQ",
+      [
+        "SEQ",
+        [
+          "ASSERT_PROPERTY",
+          "ref:tender_branch",
+          "prop:tender"
+        ],
+        [
+          "CUT_BELOW",
+          "ref:tender_branch",
+          "ref:cut_reference"
+        ]
+      ],
+      [
+        "PLANT_WITH",
+        "ref:tender_branch",
+        "ref:basket"
+      ]
+    ],
+    "cut_tender": [
+      "SEQ",
+      [
+        "ASSERT_PROPERTY",
+        "ref:tender_branch",
+        "prop:tender"
+      ],
+      [
+        "CUT_BELOW",
+        "ref:tender_branch",
+        "ref:cut_reference"
+      ]
+    ]
+  },
+  "source_ownership": {
+    "heading": {
+      "node_ids": [
+        "title_op"
+      ],
+      "latin": "Propagatio pomorum ceterarumque arborum",
+      "owned": true
+    },
+    "ground context and emergence": {
+      "node_ids": [
+        "ground_origin"
+      ],
+      "latin": "Arboribus abs terra pulli qui nati erunt",
+      "owned": true
+    },
+    "press and raised tip": {
+      "node_ids": [
+        "ground_press",
+        "ground_raise"
+      ],
+      "latin": "eos in terram deprimito, extollito",
+      "owned": true
+    },
+    "rooting purpose": {
+      "node_ids": [
+        "ground_purpose"
+      ],
+      "latin": "uti radicem capere possint",
+      "owned": true
+    },
+    "proper time and dig": {
+      "node_ids": [
+        "ground_replant_at_time",
+        "ground_dig"
+      ],
+      "latin": "Inde, ubi tempus erit, effodito",
+      "owned": true
+    },
+    "straight planting": {
+      "node_ids": [
+        "ground_plant"
+      ],
+      "latin": "seritoque recte",
+      "owned": true
+    },
+    "species source and extraction": {
+      "node_ids": [
+        "species_actions",
+        "species_list",
+        "species_cons_15",
+        "species_cons_14",
+        "species_cons_13",
+        "species_cons_12",
+        "species_cons_11",
+        "species_cons_10",
+        "species_cons_9",
+        "species_cons_8",
+        "species_cons_7",
+        "species_cons_6",
+        "species_cons_5",
+        "species_cons_4",
+        "species_cons_3",
+        "species_cons_2",
+        "species_cons_1",
+        "species_nil",
+        "species_nil"
+      ],
+      "latin": "a capitibus propagari et eximique ad hunc modum",
+      "owned": true
+    },
+    "careful selection and pots": {
+      "node_ids": [
+        "careful_select",
+        "careful_pot_plant"
+      ],
+      "latin": "Quae diligentius seri voles, in calicibus seri oportet",
+      "owned": true
+    },
+    "on-tree rooting purpose": {
+      "node_ids": [
+        "careful_purpose"
+      ],
+      "latin": "In arboribus radices uti capiant",
+      "owned": true
+    },
+    "pot/basket alternative": {
+      "node_ids": [
+        "pot_perforation",
+        "container_alt"
+      ],
+      "latin": "calicem pertusum ... aut quasillum",
+      "owned": true
+    },
+    "thread shoot": {
+      "node_ids": [
+        "thread"
+      ],
+      "latin": "per eum ramulum trasserito",
+      "owned": true
+    },
+    "fill and pack earth": {
+      "node_ids": [
+        "fill",
+        "pack"
+      ],
+      "latin": "eum quasillum terra inpleto calcatoque",
+      "owned": true
+    },
+    "leave on tree": {
+      "node_ids": [
+        "leave_on_tree"
+      ],
+      "latin": "in arbore relinquito",
+      "owned": true
+    },
+    "two-year condition": {
+      "node_ids": [
+        "bimum_duration",
+        "careful_after_age"
+      ],
+      "latin": "Ubi bimum erit",
+      "owned": true
+    },
+    "tender branch and lower cut": {
+      "node_ids": [
+        "tender_assertion",
+        "cut_below",
+        "cut_tender"
+      ],
+      "latin": "ramum tenerum infra praecidito",
+      "owned": true
+    },
+    "plant with basket": {
+      "node_ids": [
+        "cut_tender",
+        "cut_then_plant",
+        "careful_cut_plant"
+      ],
+      "latin": "cum quasillo serito",
+      "owned": true
+    },
+    "capability/root outcome": {
+      "node_ids": [
+        "careful_capability"
+      ],
+      "latin": "Eo modo quod vis genus arborum facere poteris uti radices bene habeant",
+      "owned": true
+    },
+    "vine propagation": {
+      "node_ids": [
+        "vine_propagate"
+      ],
+      "latin": "Item vitem in quasillum propagato",
+      "owned": true
+    },
+    "vine earth cover": {
+      "node_ids": [
+        "vine_cover"
+      ],
+      "latin": "terraque bene operito",
+      "owned": true
+    },
+    "vine one-year cut": {
+      "node_ids": [
+        "vine_duration",
+        "vine_cut_after"
+      ],
+      "latin": "anno post praecidito",
+      "owned": true
+    },
+    "vine planting with qualus": {
+      "node_ids": [
+        "vine_plant"
+      ],
+      "latin": "cum qualo serito",
+      "owned": true
+    }
+  },
+  "source_ownership_note": "Object keys are complete source-span propositions; node_ids identify typed propositions in node_index/node_trees. Every source phrase in §§133.1–4 is assigned to at least one proposition; unknown referents are represented by typed atoms rather than REST.",
+  "ast_summary": {
+    "root_node_id": "root_ast3",
+    "node_count": 71,
+    "recursive_tree_depth": null
+  }
+}

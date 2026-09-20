@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;close1000 then select a different content route.
-Latest decision: All531724literal1000pairs contradicted;source unknowns retained.
-Working files: experiments/yolo/gdt1000_trotula_joint_quantity_code/REPORT.md
-Assumptions: 0words;no2/5;987alreadyclosed986literalunknowns;no decoder repairs.
-Resume: Publish1000closure;review425complete Cato source against prior content tests.
-Running: Root closure;bounded producer completed425source audit;no solver running.
+Task: Ten-hour block to22:52:35UTC;GDT1001 complete Cato typed tree code.
+Latest decision: 1000closed/published;1001new full-source/context-type writer selected.
+Working files: experiments/yolo/gdt1001_cato_typed_complete_branch_code/DECISION.md
+Assumptions: Full Cato133;no earlier word needed;no source success or Latin default.
+Resume: Register root-corrected192atom/96type tree;run both writers on all1349paragraphs.
+Running: Root1001registration/test to19:15UTC;producer3–5diverse raw hypotheses.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

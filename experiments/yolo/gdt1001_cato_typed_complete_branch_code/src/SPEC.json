@@ -1,0 +1,32 @@
+{
+  "input": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "input_sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+  "writers": [
+    "PREFIX",
+    "POSTFIX"
+  ],
+  "solver_seconds": 5,
+  "max_nodes": 500000,
+  "max_solutions": 2,
+  "worker_wall_seconds": 20,
+  "replay_seconds": 10,
+  "replay_max_nodes": 1000000,
+  "workers": 32,
+  "literal_qualification": "All raw words lowercase literal and all GDT928 lines anchor_eligible; no changes to uncertainties.",
+  "code_classes": [
+    "OP",
+    "ENTITY",
+    "PROPERTY",
+    "REFERENCE",
+    "NUMBER"
+  ],
+  "within_class": "nonempty injective prefix-free",
+  "between_classes": "equal and prefix-overlapping strings allowed",
+  "atom_may_cross_word": false,
+  "all_target_characters_required": true,
+  "source_world_validity_claim": false,
+  "independent_meaning_capacity": 0,
+  "reserve_accesses": 0,
+  "confirmed_words": 0,
+  "inclusive_checkpoint_utc": "2026-09-20T19:15:00Z"
+}

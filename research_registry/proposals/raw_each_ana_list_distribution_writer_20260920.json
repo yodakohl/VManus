@@ -1,0 +1,133 @@
+{
+  "title": "EACH ana list distribution with per-member quantity events",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A source-owned distribution writer treats EACH/ana as an operator over a closed ordered ingredient list and expands one quantity event for every member: five QD1 events for Trotula IV15 and two for V19. This is a new serialization contract, not a repair of GDT1000's compact one-QD1 writer; the exact count consequence currently makes it unsupported by that frozen pair.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "created_utc": "2026-09-20",
+    "access": "Existing frozen Trotula source packet, GDT1000 report/source, GDT759 historical comparator deck, and IDEA421 dossier only; no new target rows, images, reserve, decoder, experiment, route, ledger, or global edit.",
+    "source": {
+      "packet": "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_V19_SOURCE_PACKET_20260920.json",
+      "gdt1000_source": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/SOURCE.json",
+      "gdt1000_report": "experiments/yolo/gdt1000_trotula_joint_quantity_code/REPORT.md",
+      "historical_comparator": "experiments/yolo/gdt759_quantity_part_state_construction_atlas/artifacts/HISTORICAL_CONSTRUCTION_COMPARATORS.tsv",
+      "historical_rows": [
+        "E006"
+      ],
+      "source_status": "The frozen source packet supplies the bounded atom ownership and source uncertainties; it does not establish a Voynich spelling or a target meaning."
+    },
+    "constructor": {
+      "types": [
+        "INGREDIENT_LIST",
+        "MEMBER",
+        "EACH_OPERATOR",
+        "QUANTITY_EVENT",
+        "UNIT",
+        "SCOPE_BOUNDARY",
+        "MEDIUM"
+      ],
+      "rule": "EACH(list=[m1,...,mk], q) expands to QUANTITY_EVENT(q,m1) ... QUANTITY_EVENT(q,mk), in list order. The list must be closed by an independently written source boundary; no nearest-ingredient or invisible member may be inserted.",
+      "iv15": {
+        "list": [
+          "CASTOREUM",
+          "PEPPER",
+          "COSTUS",
+          "MINT",
+          "APIUM"
+        ],
+        "operator": "EACH",
+        "quantity": "QD1 = one drachm",
+        "predicted_events": 5,
+        "retained_content": [
+          "GRIND",
+          "TEMPER",
+          "WITH",
+          "WHITE_OR_SWEET_WINE",
+          "GIVE",
+          "EVENING",
+          "QD2 = two drachms"
+        ],
+        "scope_limit": "Wine amount and the referent of the evening dose remain unknown; no 2/5 finished-mixture fraction is inferred."
+      },
+      "v19": {
+        "list": [
+          "DEER_HEART",
+          "LAUREL_LEAVES"
+        ],
+        "operator": "EACH",
+        "quantity": "QD1 = one drachm",
+        "predicted_events": 2,
+        "retained_content": [
+          "MYRRH",
+          "QS1 = one scruple",
+          "TEMPER",
+          "GRIND",
+          "WINE",
+          "GIVE",
+          "DRINK",
+          "UTERUS_RETURN_ASSERTION"
+        ],
+        "scope_limit": "QS1 is a separate myrrh quantity; wine amount and dose scope remain unknown."
+      }
+    },
+    "source_equivalent_falsifier": "Under this writer, a complete source-equivalent realization must contain exactly k QD1 quantity events for an EACH-scoped list of k members: 5 in IV15 and 2 in V19. The frozen GDT1000 source-equivalent candidate has one QD1 event in each recipe, so it cannot be counted as support for this proposal. A future complete target-owned serialization with a closed k-member list but any QD1 event count other than k rejects the proposal.",
+    "rivals": [
+      {
+        "name": "COMPACT_SCOPE",
+        "prediction": "One QD1 event carries a scope pointer to all list members; IV15 and V19 therefore retain one QD1 surface event each.",
+        "distinction": "Same semantic equal-amount relation but different written event cardinality; this is the compact contract used by the closed GDT1000 writer."
+      },
+      {
+        "name": "TOTAL_DOSE",
+        "prediction": "QD1 denotes one preparation-level amount and EACH only groups ingredients without distributing a quantity event.",
+        "distinction": "No per-member quantity events; list membership changes content grouping but not amount-event count."
+      },
+      {
+        "name": "PER_COMPONENT_ADMINISTRATION",
+        "prediction": "A later dose applies independently to each component, producing a different total and administration scope.",
+        "distinction": "Confuses the later administration dose with the earlier ana ingredient relation; retained as IDEA421's named rival, not silently folded into this writer."
+      }
+    ],
+    "historical_limit": "GDT759 E006 attests ana as an equal-parts formula in recipe/measure registers, but does not establish that a manuscript must repeat the following amount once per ingredient. The repeated-event rule is therefore a new falsifiable writer convention, not a translation of ana.",
+    "predecessors": [
+      {
+        "id": "GDT1000",
+        "limit": "Closed specific compact two-recipe writer; all 531724 fully literal pairs fail, and its one-QD1-per-recipe output cannot support this expanded contract."
+      },
+      {
+        "id": "IDEA000421",
+        "limit": "Already owns source arithmetic for equal initial parts, total dose, and per-component rival. This card differs by fixing surface quantity-event cardinality and its falsifier."
+      },
+      {
+        "id": "GDT759",
+        "limit": "Licenses ana-like equal-parts as a historical rival for s+value spans, with zero target lexeme confirmation and no expanded list serialization."
+      },
+      {
+        "id": "GDT729",
+        "limit": "Quantity defaults retain zero component credit; no ain/i-count or global quantity gloss is inherited."
+      }
+    ],
+    "assumptions_and_dependencies": [
+      "The ingredient list and its end boundary are independently known before the writer is applied.",
+      "A quantity event is a written compositional unit, not an unobservable semantic annotation.",
+      "IV15's five listed dry ingredients and V19's two ana-scoped ingredients follow the frozen source packet's atom ownership.",
+      "The target must independently expose list membership, EACH/ana scope, and quantity-event boundaries; confirmed translated words are not required for exploratory registration.",
+      "No unit conversion, Latin default, or target spelling is assumed."
+    ],
+    "strongest_failure": "Historical ana normally permits a compact equal-parts instruction, so repeating QD1 per member may be an arbitrary target serialization rather than source content. The frozen source itself writes ana and one drachm once in each recipe, which is direct pressure against the expanded event-count rule. Without an independently bound target list and event boundary, the proposal has no target test and remains raw."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "IDEA000421"
+    },
+    {
+      "type": "closed_predecessor",
+      "target": "GDT1000"
+    },
+    {
+      "type": "historical_comparator",
+      "target": "GDT759"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Wrapper-scoped participant continuity with entry reset",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Retained wrapper identity and entry-state transfer can be treated as a scope controller: a wrapper at an entry boundary opens a participant/event record, while the same wrapper in an uninterrupted context continues it. Ordered payload components update that record without receiving fixed word meanings.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "source_observations": [
+      "GDT282: opaque outer-wrapper identity transfers across held registers; its claim ceiling excludes lexical or semantic identity.",
+      "GDT286: host/context conditioning adds an opaque wrapper variant, with formal gains but no language claim.",
+      "GDT318: line-start and preceding-DY selectors jointly compress opaque wrapper entry states across held events.",
+      "GDT563: active action/argument state can be carried through repeated context-variable recipes while preserving written atoms."
+    ],
+    "mechanism": {
+      "types": [
+        "WRAPPER_CLASS",
+        "ENTRY_CONTEXT",
+        "ACTIVE_RECORD",
+        "PARTICIPANT",
+        "PAYLOAD",
+        "RESET",
+        "CONTINUE",
+        "CLOSE"
+      ],
+      "scope_selector": "SCOPE(wrapper, line_start, previous_DY, paragraph_boundary) returns NEW_EVENT at a declared entry/reset state and CONTINUE otherwise. The selector is fixed before reading content.",
+      "open": "NEW_EVENT(wrapper,payload) creates ACTIVE_RECORD(wrapper, participant_opaque, payload, open_state).",
+      "carry": "CONTINUE(wrapper,payload,active_record) preserves participant_opaque and appends/updates the payload in written order; it cannot select a nearest noun or invent a missing participant.",
+      "reset": "At an explicit paragraph/entry reset, CLOSE(active_record) ends the prior record before NEW_EVENT can create another one.",
+      "payload_rule": "Known component order and exact whole-form residual remain formal payload structure. They do not decide participant identity by themselves."
+    },
+    "complete_reading_consequence": "A complete passage with two clauses in one uninterrupted wrapper context must share one opaque participant/event record across the clauses; a line-start or declared paragraph reset must create a new record even when the payload form repeats. A three-clause passage can therefore OPEN one record, CONTINUE it with a second ordered payload, and CLOSE it at the next written reset.",
+    "falsifier": "On a predeclared set of complete passages, reject the model if repeated wrappers in the same selector context require distinct participants, if entry/reset contexts do not predict record breaks beyond matched context frequencies, or if a continuation needs an unprinted nearest-reference repair.",
+    "strongest_failure": "GDT282/286/318 establish transferable opaque form/context channels, not participant identity. IVTFF line and paragraph boundaries can be editorial, and GDT563's inherited action/argument state is a working renderer. Without an independently owned participant relation, continuity may be a formal compression artifact.",
+    "predecessors": [
+      {
+        "id": "GDT282",
+        "limit": "Wrapper identity transfers formally; no semantic class is imported."
+      },
+      {
+        "id": "GDT286",
+        "limit": "Host-context variant has a failed position increment gate; only opaque context conditioning is retained."
+      },
+      {
+        "id": "GDT318",
+        "limit": "Entry-state compression supplies the selector family but no participant meaning."
+      },
+      {
+        "id": "GDT563",
+        "limit": "Active state carry is a working edition; this proposal adds an explicit record identity/reset consequence."
+      },
+      {
+        "id": "IDEA000341",
+        "limit": "Carrier-chain card assigns local opener/pivot/closer roles; this proposal uses wrapper scope and record continuity instead."
+      }
+    ],
+    "dependencies": [
+      "Wrapper class and entry/reset context must be fixed from retained formal observations.",
+      "A complete passage must contain at least two same-context occurrences and one explicit reset comparison.",
+      "Participant identity remains opaque; no target word, image role, or historical source name is assigned.",
+      "No source or target nearest-reference rule may be added after seeing an outcome."
+    ],
+    "access": "Retained reports and route/duplicate checks only; no new target rows, images, reserves, GDT1001/source packet, decoder, experiment, route, ledger, or publication."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT282"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT318"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT563"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000341"
+    }
+  ]
+}
