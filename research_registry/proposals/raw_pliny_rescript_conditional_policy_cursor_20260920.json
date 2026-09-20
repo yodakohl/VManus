@@ -1,0 +1,61 @@
+{
+  "title": "Pliny–Trajan conditional rescript policy cursor",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Pliny X.96 and Trajan X.97 form a complete administrative query/reply chain: a governor lists unresolved case dimensions, reports a current discharge test, and receives a reply that preserves the case identity while adding three conditional policy gates. A finite writer carries the queried issue set and applies NOT_SEEK, PRESENT_AND_PROVED->PUNISH, RECANT_AND_ACT->PARDON, and ANONYMOUS->REJECT. The rival universal-edict writer produces different later case outcomes.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Pliny the Younger, Epistulae X.96; Trajan, X.97",
+    "url_primary": "https://dcc.dickinson.edu/pliny-letters/10-96",
+    "url_reply": "https://dcc.dickinson.edu/pliny-letters/10-97",
+    "source_span": "Complete bounded exchange: Pliny reports his uncertainty and existing recantation practice; Trajan approves the procedure, rejects general hunting and anonymous libelli, and states the denounced-and-proved rule.",
+    "provenance": "The linked pages preserve the Latin text with commentary and identify X.96 as Pliny asking how to conduct trials and X.97 as Trajan advising the procedure. This is source content, not a claimed target Vorlage."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000333 charter authority/transfer/protection/attestation; IDEA000395 Institutes ownership; IDEA000397 accusation/rebuttal narrative; route-check administrative letter/reply.",
+    "difference": "This card is a two-document policy update with a persistent case cursor and explicit exception gates. It does not encode a charter grant, a transformed object, or an accusation narrative whose outcome is independent of the allegations."
+  },
+  "constructor": {
+    "types": [
+      "CASE_SET",
+      "ISSUE",
+      "CURRENT_PRACTICE",
+      "POLICY",
+      "CONDITION",
+      "OUTCOME",
+      "DOCUMENT",
+      "AUTHORITY"
+    ],
+    "operators": [
+      "OPEN_QUERY(authority, issue_set, current_practice) -> QUERY",
+      "CARRY_CASE(query, reply) -> CASE_POLICY",
+      "GUARD(condition, outcome) -> POLICY_RULE",
+      "APPLY(policy, case) -> OUTCOME",
+      "CLOSE_REPLY(policy, anonymous_rule) -> RESCRIPT"
+    ],
+    "component_functions": {
+      "Q": "opens a typed issue set (what is investigated, punishment extent, age, repentance, profession versus crimes); it does not answer those issues.",
+      "R": "opens the authority reply and consumes the carried case cursor.",
+      "NG": "sets SEEK=false; it cannot itself create an accused case.",
+      "DF": "binds a formally denounced and proved individual to PUNISH.",
+      "RC": "binds denial plus the source-stated worship/action test to PARDON, even if previously suspect.",
+      "AN": "sets anonymous libellus to REJECT.",
+      "WHOLE_RESIDUAL": "selects QUERY, RATIFY, EXCEPTION, PROHIBIT or REJECT only inside the document frame; it cannot supply a missing accused person."
+    },
+    "worked_example": [
+      "state0 = {case_cursor: C, seek: UNKNOWN, anonymous: UNKNOWN, proved: UNKNOWN, recantation: UNKNOWN}",
+      "Q(C, {grounds, extent, age, repentance, profession_or_crimes}, current_discharge_test) -> state1",
+      "R(C, NG) -> state2.seek=false",
+      "R(C, DF) -> state3.if_denounced_and_proved=PUNISH",
+      "R(C, RC) -> state4.if_denied_and_performed_test=PARDON",
+      "R(C, AN) -> state5.if_anonymous=REJECT",
+      "CLOSE(C) -> one rescript with all four policy effects; no universal fixed punishment duration is invented because Trajan does not answer Pliny's extent question."
+    ],
+    "observable_consequence": "The same case cursor can receive a named, proved accusation and yield PUNISH while an anonymous libellus yields REJECT and a formerly suspect person who performs the stated action yields PARDON. A later clause cannot turn the reply into a universal hunt without changing the policy state.",
+    "rivals": [
+      "UNIVERSAL_EDICT: seek all Christians, accept anonymous accusations, and punish the name regardless of recantation.",
+      "FLAT_DOCUMENT_LIST: treats X.96 and X.97 as adjacent independent statements, losing the reply's update to Pliny's carried procedure."
+    ],
+    "falsifier": "Reject if the same declared reply components require incompatible policies in one uninterrupted exchange, or if a purported reading changes the issue set without a written reply/reset. The source leaves punishment extent and age treatment unresolved; those are debt, not filler slots.",
+    "target_binding_limit": "No target word, person, or legal role is independently identified. The rule is an exploratory semantic constructor whose source-side consequence is fully specified."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Censorinus calendar authority and correction-state constructor",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Censorinus De die natali XX describes successive calendar states: ten months/304 days, a twelve-month 355-day year against a 354-day lunar year, a 22/23-day intercalary month every two years, pontifical discretionary distortion for magistrate and tax interests, Caesar's 445-day correction, and the later 365-day solar rule with a leap day every four years. A finite writer carries one calendar state and its correction authority. It predicts a different later date/term outcome from a neutral fixed month-length or permanently biennial-intercalation rival.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Censorinus, De die natali XX",
+    "url": "https://penelope.uchicago.edu/Thayer/F/Roman/Texts/Censorinus/text%2A.html",
+    "source_span": "Lines 227–249 of the linked translation cover the Roman calendar history, and lines 241–247 cover biennial intercalation, pontifical discretion, Caesar's 445-day corrective year, and the fixed solar/leap-day rule.",
+    "provenance": "The linked LacusCurtius page is a public translation of Censorinus. The card uses its bounded source account and does not claim that its later editorial translation is a medieval target witness."
+  },
+  "duplicate_screen": {
+    "checked": "FAMILY NUMBER_CALENDAR_AND_COUNTING; GDT354/GDT356 calendar history; prior month-length/ordinal templates.",
+    "difference": "Those predecessors concern month-length, ordinal, or calendar-coordinate matching. This proposal makes authority, discretionary bias, and reform state the semantic payload; it is retained only as a distinct policy-state candidate and must be rejected if review shows that its only consequence is another number template."
+  },
+  "constructor": {
+    "types": [
+      "CALENDAR_STATE",
+      "CIVIL_YEAR",
+      "NATURAL_YEAR",
+      "INTERCALATION_RULE",
+      "AUTHORITY",
+      "INTEREST",
+      "DATE_EFFECT",
+      "REFORM"
+    ],
+    "operators": [
+      "INIT(state, month_rule, civil_length, natural_reference) -> CALENDAR_STATE",
+      "INTERCALATE(state, insertion_length, interval, placement) -> CALENDAR_STATE",
+      "BIAS(state, authority, interest, direction) -> CALENDAR_STATE",
+      "REFORM(state, authority, civil_rule, leap_rule) -> CALENDAR_STATE",
+      "PROJECT(state, office_or_tax_due) -> DATE_EFFECT"
+    ],
+    "component_functions": {
+      "INIT": "opens the civil/natural mismatch; it does not claim that civil and lunar lengths are identical.",
+      "INTERCALATE": "changes civil state by a declared 22/23-day insertion every two years in the old regime.",
+      "BIAS": "records that pontifical discretion can lengthen or shorten an office or tax-farm interval; it is not a free numerical correction.",
+      "REFORM": "closes the discretionary regime and opens Caesar's solar 365-day rule with a four-year leap-day branch.",
+      "WHOLE_RESIDUAL": "selects historical state transition (INIT, INTERCALATE, BIAS, REFORM) rather than assigning each numeral an isolated English value."
+    },
+    "worked_example": [
+      "s0 = INIT(ten_month_state, 304_days, natural_year_reference)",
+      "s1 = INIT(twelve_month_state, 355_days, 354_day_lunar_reference)",
+      "s2 = INTERCALATE(s1, 22_or_23_days, every_two_years, after_Terminalia_before_Regifugium)",
+      "s3 = BIAS(s2, pontiffs, {magistrate_term,tax_collection}, lengthen_or_shorten)",
+      "s4 = REFORM(s3, Caesar, 365_day_solar_year, one_leap_day_after_each_four_revolutions)",
+      "effect_old = PROJECT(s3, magistrate_or_tax_due); effect_new = PROJECT(s4, same_due_type); retain 445_day correction as a historical transition, not a normal recurring year."
+    ],
+    "observable_consequence": "A source-complete state reading predicts that the same office/tax reference can have a discretionary duration before reform, while after reform it follows the fixed solar/leap rule. A permanently neutral biennial calendar cannot produce the bias branch or the 445-day correction state.",
+    "rivals": [
+      "MONTH_TEMPLATE: treats all calendar passages as fixed month lengths or ordinal values and loses authority/bias/reform scope.",
+      "PERMANENT_BIENNIAL: continues 22/23-day insertion after Caesar and therefore predicts the wrong later civil state."
+    ],
+    "falsifier": "Reject if the candidate requires an independently assigned numeral meaning for every date, if the bias branch cannot alter a projected office/tax interval, or if it treats Caesar's 445-day correction as the ordinary post-reform year. The source does not identify a target calendar or target numbers.",
+    "target_binding_limit": "No target calendar terms or numerical glyph values are claimed. The card is a raw source-grounded policy/state hypothesis and overlaps an existing calendar family by design; its only justification for retention is the authority and reform consequence."
+  }
+}

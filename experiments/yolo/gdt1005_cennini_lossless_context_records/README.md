@@ -1,5 +1,5 @@
-# GDT1005 — cennini lossless context records
+# GDT1005 — complete Cennini context records
 
-Status: `REGISTERED_UNSCORED`
+Status: `ALL_LITERAL_RECORD_WRITERS_CONTRADICTED_SOURCE_UNKNOWNS_RETAINED`
 
-See `METHOD.md` and `experiment.json`.
+Both writers contradict all1440literal whole bundles;2166bundles remain source/gap unknown. No code or meaning. See [report](REPORT.md), [all candidates](artifacts/CANDIDATES.tsv), [predictions](artifacts/PREDICTIONS.json), [validation](artifacts/VALIDATION.json).

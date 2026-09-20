@@ -1,0 +1,59 @@
+{
+  "title": "Periplus route cursor with changed anchorage and inland branch",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Periplus sections 1–4 give a compact complete route: Myos Hormos to Berenice after 1800 stadia, Ptolemais after about 4000, Adulis after about 3000, a current Mountain Island anchorage replacing the former Diodorus anchorage because of attacks, and inland branches from Adulis to Coloe and then the Auxumite city. A finite route cursor composes distance, endpoint, historical-versus-current anchorage, and inland cargo direction. A flat list or nearest-landmark reset predicts a different endpoint/anchorage state.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Periplus Maris Erythraei, sections 1–4",
+    "url": "https://depts.washington.edu/silkroad/texts/periplus/periplus.html",
+    "source_span": "Complete bounded route from Mussel Harbor/Myos Hormos through Berenice and Ptolemais of the Hunts to Adulis, including the old Diodorus anchorage, the current Mountain Island anchorage, and the three-day/five-day inland branch.",
+    "provenance": "The University of Washington Silk Road text identifies the work as an anonymous mid-first-century Greek-speaking merchant account and states that the linked text is the Schoff translation. No manuscript access or target comparison is claimed."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000862/GDT862 landmark capacity stop; Vitruvius and Hero construction cards; route-check landmark/route cursor results.",
+    "difference": "This is a textual itinerary with a persistent route endpoint and a source-written replacement of one anchorage by another. It does not infer a diagram landmark, metric geometry, or a generic transport cargo macro."
+  },
+  "constructor": {
+    "types": [
+      "PORT",
+      "LEG",
+      "DISTANCE",
+      "ANCHORAGE",
+      "ROUTE_CURSOR",
+      "INLAND_BRANCH",
+      "CARGO_FLOW",
+      "CONDITION"
+    ],
+    "operators": [
+      "START(port) -> ROUTE_CURSOR",
+      "SAIL(cursor, distance, endpoint) -> ROUTE_CURSOR",
+      "REPLACE_ANCHORAGE(port, old, new, condition) -> ROUTE_CURSOR",
+      "BRANCH_INLAND(cursor, duration, endpoint) -> INLAND_BRANCH",
+      "CARGO_FROM(branch, source_region, endpoint) -> CARGO_FLOW"
+    ],
+    "component_functions": {
+      "PORT": "creates a named endpoint; a repeated endpoint is a reference to the active cursor unless an explicit branch opens a second cursor.",
+      "DIST": "updates leg distance only; it does not create a new port or convert stadia into days.",
+      "ANCH": "keeps old and current anchorage as two distinct physical locations under one Adulis endpoint.",
+      "INLAND": "opens a branch from the current Adulis cursor and returns to the Adulis market endpoint after the inland description.",
+      "WHOLE_RESIDUAL": "selects SAIL, REPLACE_ANCHORAGE, or BRANCH_INLAND; it cannot silently reset the voyage at each place name."
+    },
+    "worked_example": [
+      "c0 = START(Myos_Hormos)",
+      "c1 = SAIL(c0, 1800_stadia, Berenice)",
+      "c2 = SAIL(c1, 4000_stadia, Ptolemais_Hunts); c2.harbor = NONE_OR_SMALL_BOATS_ONLY",
+      "c3 = SAIL(c2, 3000_stadia, Adulis)",
+      "c4 = REPLACE_ANCHORAGE(c3, Diodorus_near_shore, Mountain_Island_off_harbor, attack_from_land)",
+      "b1 = BRANCH_INLAND(c4, 3_days, Coloe)",
+      "b2 = BRANCH_INLAND(b1, 5_days, Auxumite_city)",
+      "cargo = CARGO_FROM(b2, inland_beyond_Nile, Adulis); return cursor remains Adulis."
+    ],
+    "observable_consequence": "A complete reading must preserve Adulis while distinguishing its current Mountain Island anchorage from the former Diodorus anchorage, and it must route the ivory branch back through Adulis. A nearest-name reset predicts the old anchorage as current or loses the inland cargo return.",
+    "rivals": [
+      "FLAT_LIST: every place name is an independent record; no route cursor or branch return exists.",
+      "STATIC_ANCHORAGE: Adulis always uses Diodorus and ignores the source's attack-conditioned replacement."
+    ],
+    "falsifier": "Reject if the same endpoint can switch current/old anchorage without an explicit condition, if distance is reused as duration, or if the inland branch changes the sea cursor without a written return. The source does not license exact modern coordinates or a target landmark identity.",
+    "target_binding_limit": "No target location, cargo token, or route word is independently identified. This is a source-owned finite relation system only."
+  }
+}

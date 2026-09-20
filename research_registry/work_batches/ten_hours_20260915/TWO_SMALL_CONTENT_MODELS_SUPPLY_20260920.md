@@ -865,3 +865,49 @@ cards. None opens target data or changes the Cennini source construction.
 All three are explicitly `RAW_UNREVIEWED_NOT_SELECTED`, retain source and target
 limitations, name rivals and smallest future discriminators, and avoid a new
 prefix/postfix serialization scheme or one-gloss-per-whole proposal.
+
+## O. Three diverse raw candidates after the Cennini batch
+
+This bounded batch checked the live route, targeted idea searches, and the linked
+primary texts before adding three more `RAW_UNREVIEWED_NOT_SELECTED` cards. They
+are source-grounded constructor hypotheses, not target readings or tested results.
+
+* `IDEA000446` —
+  `raw_pliny_rescript_conditional_policy_cursor_20260920.json`. Pliny X.96
+  opens a typed case/query cursor with unresolved issues and reports a current
+  recantation test; Trajan X.97 updates that cursor with four policy effects:
+  do not seek, punish only a formally denounced and proved case, pardon the
+  person who denies and performs the stated action, and reject anonymous libelli.
+  The finite composition keeps punishment extent unresolved because the reply
+  does not answer it. A universal-edict or flat-document rival produces a
+  different later outcome for anonymous, recanting, and named/proved cases.
+  This is distinct from the charter, ownership, and accusation cards because its
+  content is a reply-scoped policy update across two documents.
+
+* `IDEA000447` —
+  `raw_periplus_route_cursor_anchorage_branch_20260920.json`. Periplus 1–4
+  composes Myos Hormos -> Berenice (1800 stadia) -> Ptolemais (about 4000)
+  -> Adulis (about 3000), then keeps Adulis as the endpoint while replacing the
+  former Diodorus anchorage with Mountain Island because of attacks. The same
+  route cursor opens the three-day Coloe and five-day Auxumite inland branch and
+  returns ivory flow to Adulis. A flat place list or static-anchorage rival loses
+  the source-owned old/current distinction and predicts a different cargo and
+  endpoint state. This is an itinerary relation system, not a diagram landmark,
+  metric reconstruction, or generic transport macro.
+
+* `IDEA000448` —
+  `raw_censorinus_calendar_authority_state_20260920.json`. Censorinus, De die
+  natali XX, is represented as a state machine from early 304-day and 355-day
+  regimes through 22/23-day intercalation, pontifical discretionary lengthening
+  or shortening for offices/taxes, Caesar's 445-day correction, and the later
+  365-day plus four-year leap rule. Its distinct payload is authority, bias,
+  and reform scope rather than an isolated month-length or ordinal value. A
+  neutral fixed calendar and a permanently biennial-intercalated rival predict
+  different office/tax date effects and cannot represent the reform closure.
+  The card explicitly records its overlap with the calendar family; it remains
+  raw unless review confirms that this policy/state consequence is more than a
+  disguised number template.
+
+All three cards name the strongest source or target-binding failure and leave
+unknown target word meanings unresolved. No target data, reserves, root
+experiment files, route, ledger, or frozen source packet were changed.

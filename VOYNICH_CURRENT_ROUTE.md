@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;complete Cennini context-change content candidate.
-Latest decision: 1003/1004public;24worldtuples;14content restrictions;0words.
-Working files: research_registry/work_batches/ten_hours_20260915/CENNINI_DELTA_RECORD_DECISION_20260920.md
-Assumptions: 240working source records;source uncertainties disclosed;no inherited glosses.
-Resume: Freeze GDT1005 records, writer and validation; publish before target census.
-Running: Root GDT1005 preflight, checkpoint20:50UTC;producer3raw ideas;no target job.
+Task: Ten-hour block to22:52:35UTC;next complete compositional content candidate.
+Latest decision: 1005all1440literalbundlesfail;source unknowns retained;1003/4positives stay.
+Working files: research_registry/work_batches/ten_hours_20260915/TWO_SMALL_CONTENT_MODELS_SUPPLY_20260920.md
+Assumptions: 0words;1005fixed record contract closed, not all contextual content.
+Resume: Review remaining complete content candidates against primaries; no1005repair.
+Running: 1005closure publication;producer446–448raw proposals returned;no target job.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
