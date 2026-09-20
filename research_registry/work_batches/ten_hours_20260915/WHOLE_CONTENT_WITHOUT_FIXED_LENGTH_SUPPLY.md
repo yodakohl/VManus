@@ -298,6 +298,43 @@ content and explicit rivals remain available for later review. No target rows,
 images, reserves, decoder, production change, ledger, route, refresh, commit,
 or publication was performed.
 
+### Bounded embryology/anatomy source check (2026-09-20)
+
+The bounded registry and cache review found no already-owned Hippocratic
+*De natura pueri*/*De generatione* or Galenic semen passage with a frozen
+primary packet. It did find a complete, source-owned anatomical case already
+registered as **IDEA000401**. No new card is added because the source mechanism
+and requested relation type are the same.
+
+The owned primary packet is
+`GALEN_FAILED_APPLICATION_SOURCE_20260920.json`, with the complete *De locis
+affectis* I.6 narrative and the complete III.14 Pausanias reprise. The short
+argument/process trace is: a patient retains finger sensory loss while motion
+is preserved; the reported upper-back injury leads to an inferred proximal
+nerve-origin lesion; the same treatment type is retained while its application
+site changes from the fingers to the injured spinal region; the sensory deficit
+then reportedly resolves. The source therefore carries at least two directed
+dependencies: (1) history of the upper-back blow → nerve-origin inference →
+changed treatment site, and (2) prior medicine identity → relocated application
+site, with patient and sensory function persisting while site changes. The
+relative-correlative `ἃ ... φάρμακα, ταῦτ’ ...` in III.14 owns the second
+relation; exact dose and physical portion identity remain unknown.
+
+The semantic countermodels are concrete: a new drug at the original finger
+site loses the source’s appropriate-medicine judgment and explicit relocation;
+an unchanged local site leaves the causal history unexplained; conflating
+sensory loss with motor impairment contradicts preserved movement and the
+closing distinction between sensory and motor roots. These consequences are
+already recorded in IDEA000401 and its companion
+`GALEN_FAILED_APPLICATION_SUPPLY_20260920.md`.
+
+This source-owned anatomical relation differs from IDEA000402’s cabbage
+juice/retained-water effects, IDEA000396’s prognosis and delayed inquiry, and
+W97’s contradicted genealogy model. It does not identify a target participant,
+word, embryological reading, or Voynich source. No new target access, image
+inspection, decoder, experiment, ledger, route, refresh, commit, or publication
+was performed.
+
 ## Source audit record and public reproducibility
 
 All links below identify public sources; hashes bind bytes actually downloaded. Original source images were viewed through native image inspection. Images, browser captures, caches and absolute machine paths are not included in this dossier or its raw card. No Voynich transcription or image file, reserve, f84/f84r or f116v was opened. Registry metadata and primary result prose were used for duplicate/claim checks; their quoted historical target examples were not treated as new experiment data. No contact was made. Root owns publication, route and ledger changes.

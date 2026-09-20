@@ -1,0 +1,111 @@
+{
+  "decision": "RETAIN_WITH_UNRESOLVED_SOURCE_PREMISE",
+  "seams": {
+    "T18": "COMPATIBLE",
+    "T21": "UNRESOLVED"
+  },
+  "native_observations": {
+    "observer": "root native vision",
+    "observed_utc": "2026-09-20T14:17:31.793957+00:00",
+    "source_aware": true,
+    "prior_whole_image_exposure": true,
+    "views": [
+      "original full page",
+      "one exact paragraph crop",
+      "one exact crop per fixed target"
+    ],
+    "enhancement": false,
+    "targets": {
+      "T18": {
+        "localized": true,
+        "seam": "INTERNAL_LIKE",
+        "localization_note": "Opening of the third main prose paragraph under the long horizontal gallows crossbar; first low cluster after the descending gallows stroke, followed by the shocphedy cluster. Alignment uses complete18–24 sequence.",
+        "neighbor_whole_gaps": "The parchment interval after the entire proposed pdalshdy group before the following shocphedy cluster is conspicuously wider than the disputed inner interval.",
+        "internal_gaps": "The disputed interval after the low pdal part before the shdy cluster is narrow and comparable to the separations within the same compact low sequence. The long gallows crossbar above is not used as a word-boundary mark.",
+        "confidence": "Moderate for local internal-like spacing; high for manual paragraph and group alignment.",
+        "note": "Local physical compatibility with the ZL/RF joined reading. This does not verify every glyph or exclude an authorial word division without broad spacing."
+      },
+      "T21": {
+        "localized": true,
+        "seam": "UNCERTAIN",
+        "localization_note": "Fourth line of the same paragraph; after solkeedy qokedy otedy, the short sol-like cluster before chedy and then lkedy. The complete neighboring line fixes the candidate interval.",
+        "neighbor_whole_gaps": "The disputed break is visible but less conspicuous than the clearances around the entire solchedy span; the neighboring whole-group gaps themselves vary.",
+        "internal_gaps": "A modest parchment interval appears between the final l-like stroke of sol and the chedy run. Comparable irregular internal separations and varying curved stroke extents prevent a confident classification.",
+        "confidence": "High for the manual span alignment; insufficient for a firm split-versus-internal classification.",
+        "note": "Retain both readings at this seam. No image-enhancement or extra regrading round was used; the desired THEN/PAIR separation is not accepted from the proposed meaning."
+      }
+    }
+  },
+  "source_necessary_conditions": {
+    "ZL3b": {
+      "groups": 63,
+      "whole_paragraph_contract": true,
+      "strict_anchor_eligible": false,
+      "necessary_fixed_endpoint_patterns": "NOT_EXCLUDED_BY_THIS_RELAXATION",
+      "witnesses": [],
+      "unknown_groups": 0
+    },
+    "IT2a": {
+      "groups": 64,
+      "whole_paragraph_contract": true,
+      "strict_anchor_eligible": true,
+      "necessary_fixed_endpoint_patterns": "CONTRADICTED",
+      "witnesses": [
+        {
+          "required_clause": "INITIAL",
+          "position": 2,
+          "source_id": "IT2a|f83r.18|G002",
+          "raw": "shdy",
+          "known_value": "WITHOUT_HARM",
+          "required_values": [
+            "CARGOS"
+          ]
+        },
+        {
+          "required_clause": "INITIAL",
+          "position": 3,
+          "source_id": "IT2a|f83r.18|G003",
+          "raw": "shocphedy",
+          "known_value": "CARGOS",
+          "required_values": [
+            "COLOC"
+          ]
+        },
+        {
+          "required_clause": "INITIAL",
+          "position": 4,
+          "source_id": "IT2a|f83r.18|G004",
+          "raw": "otor",
+          "known_value": "COLOC",
+          "required_values": [
+            "M"
+          ]
+        },
+        {
+          "required_clause": "INITIAL",
+          "position": 5,
+          "source_id": "IT2a|f83r.18|G005",
+          "raw": "shedy",
+          "known_value": "M",
+          "required_values": [
+            "HOME"
+          ]
+        }
+      ],
+      "unknown_groups": 3
+    },
+    "RF1b": {
+      "groups": 63,
+      "whole_paragraph_contract": false,
+      "strict_anchor_eligible": false,
+      "necessary_fixed_endpoint_patterns": "NOT_EXCLUDED_BY_THIS_RELAXATION",
+      "witnesses": [],
+      "unknown_groups": 12
+    }
+  },
+  "registration_commit": "90fbf1e649d467b1cfa1710fc6f949e829ff9825",
+  "confirmed_words": 0,
+  "independent_meaning_capacity": 0,
+  "significance": false,
+  "visual_judgment_verified_by_software": false
+}
