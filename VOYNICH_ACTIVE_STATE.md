@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT987 FINITE CLOSURE: all148literal complete986equations exhausted; independent reverse enumeration confirms148/148,0timeouts. All109old computational unknowns now contradicted under the unchanged source/writers;166source unknowns retained;0full codes/words/independent. Original986receipts unchanged. Stop computation/repair on this source; next source-owned complete construction only. [Report](experiments/yolo/gdt987_anastasia_finite_word_proof/REPORT.md).
+
 GDT986 COMPLETE ANASTASIA:314fixed cases;38necessary contradictions+1solver contradiction independently certified after result,109computation unknown,166source unknown;0full witnesses/words/independent. Both tree writers and all12source lines unchanged;bounded search parked, no automatic repair or longer solver. [Report](experiments/yolo/gdt986_anastasia_complete_condition_trees/REPORT.md).
 
 BALNEIS SOURCE CHECKPOINT: all48lines VII/XI/XIX/XXXIII and four Bodmer135 native pages represented before target selection. Supply85/main relation397 unresolved; no full four-record compiler. XI retains attribution/digging, heat tolerance, removed/cooled overlap and distinct renewal objects; candidate for separate complete writing decision only. GDT967 unchanged;0words. Primary: research_registry/work_batches/ten_hours_20260915/BALNEIS_COMPLETE_CONTENT_20260920.md
