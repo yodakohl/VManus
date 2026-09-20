@@ -276,3 +276,123 @@ frequencies.
 
 Both cards remain `RAW_UNREVIEWED`; neither assigns a target word, image role,
 source name, or confirmed meaning.
+
+## F. Three bounded compositional-content hypotheses (IDEA429–IDEA431)
+
+These three cards remain `RAW_UNREVIEWED` and are deliberately different in the
+semantic field they vary. They use retained formal observations as constraints,
+not as evidence that any target component already means a state, relation, or
+scope. None opens target data or reserves, and none changes the frozen Cato
+source packet or GDT1001.
+
+### IDEA429 — productive-family substitution and one state slot
+
+A predeclared productive family frame fixes event, operation, participant, and
+ordered argument slots. A licensed substitution inside that family changes one
+state/property slot only; the exact whole-form residual remains an opaque record
+of the complete form. A three-clause passage therefore has one event chain,
+`state0 -> state1 -> state2`, while participant and argument order persist. A
+written order reversal swaps argument slots rather than silently retaining the
+forward relation.
+
+The falsifier is a complete passage with at least two licensed substitutions: a
+substitution that changes operation or participant without a written trigger,
+incompatible effects for the same family/context, or continuity requiring an
+unprinted event rejects the model. GDT608 and GDT437 support directed formal
+order, while GDT754 explicitly warns that productive prose cards have no
+component-exported meaning; that warning is the main failure risk. The card
+therefore requires a written complete-passage state contrast before selection.
+
+### IDEA430 — terminal r/l relation polarity
+
+For one predeclared known stem pair only, the stem supplies an opaque relation
+frame `R(A,B)`. A licensed terminal `r` is hypothesized to emit `EDGE(A,B)` and
+`l` to emit `EDGE(B,A)`; operation, participant slots, and nonterminal order stay
+fixed. A later clause consuming the edge then receives opposite source/recipient
+roles. The named rival preserves `EDGE(A,B)` and changes only a relation-state
+bit; an unstructured whole-residual rival has no reusable consequence.
+
+The falsifier is a complete passage containing both terminal variants of the
+predeclared pair: inconsistent edge direction in one context, a fixed downstream
+written role that preserves the old ordering, or any effect requiring an unseen
+pair rejects polarity. GDT915 supplies only limited known-stem co-variation;
+GDT916 explicitly did not establish unseen-pair concordance, and GDT981 remains
+inconclusive. Thus no global r/l gloss or target participant is claimed.
+
+### IDEA431 — context-selected local versus carried payload scope
+
+Each clause has an ordered payload `P(op,args,residual)`. A fixed entry-context
+selector returns exactly `LOCAL` or `CARRY`. `LOCAL` consumes all arguments at
+the clause boundary; `CARRY` leaves one typed active slot so the next compatible
+payload can update it, while an explicit reset or incompatible entry closes it.
+A complete passage with two compatible forms followed by a reset therefore has
+one carried update and no leakage into the final local clause. `ALWAYS_LOCAL`
+predicts independent payloads; `ALWAYS_CARRY` predicts a final-clause mutation.
+
+The falsifier is a predeclared complete passage with a compatible later payload
+and context change: the same context yielding both scopes, an update crossing a
+written reset, or a carried slot without a typed source argument rejects the
+model. GDT282/286/318/563 show formal wrapper/context and active-argument carry,
+but no semantic scope endpoint; without an independently visible boundary,
+LOCAL and CARRY may remain observationally equivalent. This card does not
+assume participant continuity and is distinct from IDEA428.
+
+The exact proposal bytes are:
+
+- `research_registry/proposals/raw_family_substitution_state_slot_20260920.json` (`IDEA000429`)
+- `research_registry/proposals/raw_terminal_rl_relation_polarity_20260920.json` (`IDEA000430`)
+- `research_registry/proposals/raw_context_selected_payload_scope_20260920.json` (`IDEA000431`)
+
+All three retain explicit missing target bindings, named rivals, fixed
+falsifiers, and the possibility that their observed formal predecessors do not
+support any semantic endpoint.
+
+## G. Bounded qok/ch transport component algebra (IDEA432)
+
+`IDEA000432` is `RAW_UNREVIEWED`, `NOT_SELECTED`. It addresses the specific
+GDT993 debt that its 47 whole forms, including 36 singletons among 41 new
+values, were never derived from parts. The proposal only reduces the small
+`qok/ch` family; all other frozen GDT993 outputs remain unchanged.
+
+The proposed evaluator reads components left to right. `q`, `o`, and `k` create
+a typed transport frame; each `e` increments a finite state counter; `ch` sets a
+`WITHOUT_AGENT` condition in that frame or seeds a cargo frame when no transport
+prefix exists; `a` selects joint-agent mode; `y`, `dy`, and `l` close typed
+states. The states are global and occurrence-independent:
+
+| Written form | Typed reduction | Frozen output |
+|---|---|---|
+| `qokedy` | `qok + e + dy`, one-e payload/reference state | `CargoRef(G)` |
+| `qokeey` | `qok + e + e + y`, two-e outward action | `TAKE_OUT : CargoRef -> Trip` |
+| `qokeedy` | `qok + e + e + dy`, two-e next-cargo action | `CONVEY_OUT_NEXT : CargoRef -> Trip` |
+| `qoky` | `qok + y`, zero-e ferry state | `FERRY : CargoRef -> Trip` |
+| `qokchedy` | `qok + ch + e + dy`, without-agent condition | `UNATTENDED : Pair -> SafetyCondition` |
+| `qokal` | `qok + a + l`, joint-agent close | `TRAVEL_TOGETHER : Agent x CargoRef -> Trip` |
+| `chedy` | `ch + e + dy`, cargo frame/index state | `CargoRef(C)` |
+
+Thus the same `qokedy` reference can be consumed by the frozen TAKE_OUT,
+RETURN_EXCLUDING, WITH_TRIP, and UNATTENDED contexts; `qokeey` and `qokeedy`
+share `qok+ee` but differ at the terminal reducer; and `qoky` is the zero-e
+transport branch. `cheey` is absent from both the RAW377 lexicon and the frozen
+GDT993 63-group stream, so it receives no invented output.
+
+The proposal's concrete application examples are
+`qokeey(qokedy)=TAKE_OUT(G)`, `qokeedy(chedy)=CONVEY_OUT_NEXT(C)`,
+`qoky(FIRST_CARGO)=FERRY(FIRST_CARGO)`, and
+`qokal(M,qokedy)=TRAVEL_TOGETHER(M,G)`. `qokchedy` supplies an
+`UNATTENDED` condition frame; its pair, modal, and unsafe arguments remain the
+separately written arguments in the frozen grammar. No component gets a Latin
+or phonetic gloss.
+
+The fixed falsifier is a complete occurrence-level check of these seven states:
+reject the algebra if a same typed state needs a different output, if qokeey and
+qokeedy diverge without a written component/state trigger, if qoky is not FERRY,
+if qokchedy is not the condition operator, or if qokal cannot consume its written
+agent/cargo order. A future same-state complete clause with a different output
+would reject the model; no occurrence-specific exception or whole-form alias is
+allowed. The strongest failure remains that GDT608 establishes formal directed
+composition only, while GDT993/RAW377 supply unconfirmed whole outputs. If no
+new complete clause exposes the same states, this is a compact hypothesis about
+old values rather than semantic confirmation.
+
+Proposal file: `research_registry/proposals/raw_qok_component_transport_algebra_20260920.json`.

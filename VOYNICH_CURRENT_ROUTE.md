@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;review semantic use of parts/context next.
-Latest decision: 1001all1108literal codes contradicted;1590sourceunknown;0words.
-Working files: experiments/yolo/gdt1001_cato_typed_complete_branch_code/REPORT.md
-Assumptions: 1001exactwriter closed;parts/context baseline retained;no Latin default.
-Resume: Publish1001;review427/428and primaries before a different semantic test.
-Running: Root1001closure;producer3–5diverse raw hypotheses,then bounded selection.
+Task: Ten-hour block to22:52:35UTC;GDT1002joint transport alternatives.
+Latest decision: 1001closed/public;1002all10pairs plus5paragraph system selected.
+Working files: experiments/yolo/gdt1002_transport_joint_alias_alternatives/DECISION.md
+Assumptions: 993/997lexicon+grammar fixed;no alias expansion or morphology claim.
+Resume: Register1002then solve all11systems;independent flow and world replays.
+Running: Root1002to19:13UTC;producer432algebra audit and2diverse raw proposals.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

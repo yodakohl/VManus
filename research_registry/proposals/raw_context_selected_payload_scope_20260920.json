@@ -1,0 +1,85 @@
+{
+  "title": "Entry context selects local versus carried scope for an ordered payload",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A productive ordered payload is interpreted under a binary scope selector derived from entry context: LOCAL applies its arguments only to the current clause, while CARRY permits a later compatible clause to update the active payload without repeating every argument. This is a scope hypothesis, not participant identity continuity and not a whole-form glossary.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "observations": [
+      "GDT282 finds opaque wrapper identity transfer across registers, but no lexical meaning; the present card uses only the transferable context signal.",
+      "GDT286 tests host-to-wrapper conditioning and reports a host/context effect without an accepted semantic endpoint; host times position is not treated as a solved meaning rule.",
+      "GDT318 reports a compact formal selector from line-start and preceding-DY state, with no semantic interpretation.",
+      "GDT563 carries active action/argument structure in a formal microphrase renderer, while GDT608 shows that exact whole-form residuals remain necessary."
+    ],
+    "mechanism": {
+      "frame": "Each clause has an ordered productive payload P(op,args,residual). A deterministic context function SCOPE(entry_context, wrapper_state) returns exactly LOCAL or CARRY before the payload is reduced.",
+      "rules": [
+        "LOCAL consumes all arguments in the current clause and closes the payload at the clause boundary.",
+        "CARRY leaves one typed active payload slot open; the next compatible payload may update that slot, but an incompatible entry or explicit reset closes it.",
+        "The whole-form residual identifies the occurrence and may distinguish payload variants, but it cannot invent a participant or bypass the scope selector."
+      ],
+      "chain": [
+        "Clause 1 establishes active payload P1 with an explicit argument under CARRY.",
+        "Clause 2 presents a compatible ordered form with one changed argument; CARRY updates P1 to P2 without silently creating a new event.",
+        "Clause 3 begins under LOCAL or an explicit reset, so its same-looking payload applies only to clause 3 and cannot alter P2."
+      ],
+      "rivals": [
+        "ALWAYS_LOCAL closes every payload after each clause.",
+        "ALWAYS_CARRY lets every compatible later form mutate the prior payload until an arbitrary analyst reset."
+      ]
+    },
+    "complete_reading_consequence": "For a complete multi-clause passage with a fixed entry-context pattern, the model predicts exactly one carried update between the first two compatible forms and no leakage into the later reset/local clause. ALWAYS_LOCAL predicts two independent payloads; ALWAYS_CARRY predicts a mutation of the final clause as well. The contrast concerns scope and update count, not an assumed identity for the participants.",
+    "falsifier": "Predeclare a complete passage with two compatible ordered payloads followed by a context change or explicit boundary. Reject the scoped model if the same entry context yields both LOCAL and CARRY without a written trigger, if an update crosses a declared reset, or if a carried slot has no typed source argument. Reject ALWAYS_LOCAL only if an independently repeated argument is omitted while the later form demonstrably updates the earlier operation; reject ALWAYS_CARRY if the reset clause demonstrably leaves the earlier payload unchanged.",
+    "strongest_failure": "GDT282/286/318/563 establish compressible formal context and state carry, not semantic scope. A wrapper or preceding-DY selector may be purely orthographic; without an independently observed boundary or omitted argument, LOCAL and CARRY remain observationally equivalent.",
+    "predecessors": [
+      {
+        "id": "GDT282",
+        "limit": "Opaque wrapper transfer only; no semantic payload scope."
+      },
+      {
+        "id": "GDT286",
+        "limit": "Host/context conditioning is formal and did not pass the host-position semantic gate."
+      },
+      {
+        "id": "GDT318",
+        "limit": "Entry-state compression only; no meaning or reset semantics."
+      },
+      {
+        "id": "GDT563",
+        "limit": "Formal active action/argument carry in a renderer, not an independently bound target operation."
+      },
+      {
+        "id": "IDEA000428",
+        "limit": "Wrapper-scoped participant continuity; this card leaves participant identity opaque and varies only local-versus-carried payload scope."
+      }
+    ],
+    "dependencies": [
+      "A finite predeclared entry-context selector and exact reset/boundary rule are required before fitting.",
+      "At least one complete passage must contain a compatible later payload with an omitted or changed argument and an independently visible context change.",
+      "Repeated spelling is not enough to identify the same participant or physical referent; active slots remain typed variables.",
+      "No target word gloss, Latin default, arbitrary nearest-reference rule, or post hoc reset is permitted."
+    ],
+    "access": "Retained GDT282/286/318/563/608 reports and bounded duplicate checks only; no target data/image, reserve, GDT1001, source packet, decoder, experiment, route, ledger, or push."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT282"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT318"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT563"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000428"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000427"
+    }
+  ]
+}

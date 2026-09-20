@@ -1,0 +1,168 @@
+{
+  "title": "Typed qok/ch component algebra for frozen transport operations and cargo references",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A small left-to-right finite-state algebra derives a nontrivial qok/ch family in the frozen GDT993 transport lexicon from reusable components and typed suffix states. It preserves the exact registered outputs for qokedy, qokeey, qokeedy, qoky, qokchedy, qokal and chedy, while leaving every other GDT993 whole form unchanged. No whole form is assigned as an opaque macro; the output is produced by prefix domain, counted e-state, condition flag and terminal function.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "observations": [
+      "GDT993 retains a conditionally coherent 63-group transport reading but assigns 41 new whole-form meanings, including 36 singleton meanings; its report explicitly says productive word composition is not explained.",
+      "RAW377 preserves the same six inherited hypotheses and records the exact qok/ch outputs and typed grammar, while stating that the qokeey/ qokeedy synonymy has no component explanation.",
+      "GDT608 finds directed formal component backoff and strong q-entry/right-closure profiles, but exact merge identity remains necessary and no component meaning is confirmed.",
+      "GDT997 and the GDT993 report retain the current whole outputs and do not license changing qokedy or splitting the transport paragraph."
+    ],
+    "mechanism": {
+      "scope": "Only the qok/ch family is reduced. All forms outside the listed family retain their frozen GDT993 outputs and are not silently treated as macros.",
+      "typed_components": {
+        "q": "seed TRANSPORT_FRAME(domain=transport, e_count=0, condition=none, mode=base)",
+        "o": "set the frame's transport domain; it cannot emit a participant or voyage by itself",
+        "k": "allocate the frame's typed argument/effect slot",
+        "ch": "in a transport frame set condition=WITHOUT_AGENT; in an empty frame seed CARGO_FRAME",
+        "e": "in a transport frame increment e_count; in a cargo frame set cargo-index mode",
+        "a": "set joint-agent mode on a transport frame",
+        "y": "terminal reducer whose result is selected by the typed frame state",
+        "dy": "terminal reducer whose result is selected by the typed frame state",
+        "l": "close joint-agent mode as a TRAVEL_TOGETHER operator"
+      },
+      "evaluation_order": [
+        "Read the written surface left to right; do not consult the later clause or a whole-form dictionary.",
+        "q, o and k create the transport frame. qok is therefore a reusable typed prefix, not an output value.",
+        "Each e increments one finite e_count. One e denotes payload/reference mode; two e symbols denote an outward-action mode.",
+        "ch toggles WITHOUT_AGENT in an existing qok frame, but seeds the CARGO_FRAME when no qok frame exists. This is a typed context rule shared by all occurrences.",
+        "a changes qok to joint-agent mode; l closes that mode. y or dy closes the remaining typed states according to the table below.",
+        "The resulting operator remains a typed function until following written arguments are consumed; no omitted argument is invented."
+      ],
+      "reduction_table": [
+        {
+          "surface": "qok + e + dy",
+          "state": "TRANSPORT_FRAME, e_count=1, condition=none, dy terminal",
+          "output": "CargoRef(G)",
+          "frozen_symbol": "G"
+        },
+        {
+          "surface": "qok + e + e + y",
+          "state": "TRANSPORT_FRAME, e_count=2, condition=none, y terminal",
+          "output": "TAKE_OUT : CargoRef -> Trip",
+          "frozen_symbol": "TAKE_OUT"
+        },
+        {
+          "surface": "qok + e + e + dy",
+          "state": "TRANSPORT_FRAME, e_count=2, condition=none, dy terminal",
+          "output": "CONVEY_OUT_NEXT : CargoRef -> Trip",
+          "frozen_symbol": "CONVEY_OUT"
+        },
+        {
+          "surface": "qok + y",
+          "state": "TRANSPORT_FRAME, e_count=0, condition=none, y terminal",
+          "output": "FERRY : CargoRef -> Trip",
+          "frozen_symbol": "FERRY"
+        },
+        {
+          "surface": "qok + ch + e + dy",
+          "state": "TRANSPORT_FRAME, e_count=1, condition=WITHOUT_AGENT, dy terminal",
+          "output": "UNATTENDED : Pair -> SafetyCondition",
+          "frozen_symbol": "UNATTENDED"
+        },
+        {
+          "surface": "qok + a + l",
+          "state": "TRANSPORT_FRAME, joint-agent mode, l terminal",
+          "output": "TRAVEL_TOGETHER : Agent x CargoRef -> Trip",
+          "frozen_symbol": "TRAVEL_TOGETHER"
+        },
+        {
+          "surface": "ch + e + dy",
+          "state": "CARGO_FRAME, cargo-index mode, dy terminal",
+          "output": "CargoRef(C)",
+          "frozen_symbol": "C"
+        }
+      ],
+      "argument_application": [
+        "qokeey(qokedy) = TAKE_OUT(G), matching S05's written operation and following cargo argument.",
+        "qokeedy(chedy) = CONVEY_OUT_NEXT(C), matching S13's next-cargo operation; NEXT is the typed mode, not a second guessed whole word.",
+        "qoky(FIRST_CARGO) = FERRY(FIRST_CARGO), matching S08's explicit first-cargo argument supplied by the surrounding frozen grammar.",
+        "qokchedy(qokedy, chckhdy, sar) supplies an UNATTENDED condition frame whose pair/unsafe/modal arguments remain the separately written arguments; the component algebra does not invent their identities.",
+        "qokal(M, qokedy) = TRAVEL_TOGETHER(M,G), matching S16's explicit Agent and cargo arguments.",
+        "chedy = C is reusable as a cargo argument in S11, S13 and S17; it does not become an operation when its context changes."
+      ],
+      "exact_existing_outputs": [
+        "qokedy (5 occurrences): CargoRef(G), inherited unconfirmed value retained.",
+        "qokeey (1 occurrence): TAKE_OUT operator, inherited frozen output retained.",
+        "qokeedy (1 occurrence): CONVEY_OUT_NEXT operator, inherited frozen output retained.",
+        "qoky (1 occurrence): FERRY operator, inherited frozen output retained.",
+        "qokchedy (1 occurrence): UNATTENDED condition operator, inherited frozen output retained.",
+        "qokal (1 occurrence): TRAVEL_TOGETHER operator, inherited frozen output retained.",
+        "chedy (3 occurrences): CargoRef(C), inherited unconfirmed value retained.",
+        "cheey: absent from the RAW377 lexicon and the frozen GDT993 63-group stream; no output is assigned."
+      ],
+      "nontrivial_consequence": "The algebra predicts shared typed behavior across seven surface forms: qokedy can be consumed as the same CargoRef by TAKE_OUT, RETURN_EXCLUDING, WITH_TRIP and UNATTENDED contexts; qokeey and qokeedy differ by the terminal y/dy after the same qok+ee prefix while retaining the same outward trip type; qoky is the zero-e form and therefore FERRY; qokal switches to joint-agent mode without a new whole-form alias. A new already-exposed complete transport clause containing a qok+e+dy form in a typed argument position must resolve to the same CargoRef(G), whereas a qok+ee+y form must remain an operation awaiting a cargo argument."
+    },
+    "falsifier": "Before fitting, fix the seven reduction states and the typed signatures. Reject the algebra if any complete frozen993 occurrence requires qokedy to be a different CargoRef, if qokeey and qokeedy require different unrelated operations without a written component/state trigger, if qoky requires a non-FERRY output, if qokchedy occurs outside the WITHOUT_AGENT typed condition, or if qokal cannot consume the same explicit Agent/Cargo argument order. Also reject it if an already-exposed complete extension containing the same component state yields a different output without a written context type; no occurrence-specific exceptions or whole-form aliases may be added.",
+    "strongest_failure": "The state table is a semantic hypothesis selected to reproduce a small inherited family. GDT608 only supports formal directed composition, while GDT993/RAW377 provide whole-form outputs that were not independently derived. The overloaded ch and dy terminals may be orthographic context effects, and qokeey/qokeedy could be unrelated synonyms. If the same typed component state is never observed in a new complete clause, the algebra is a compact restatement of old hypotheses rather than a decipherment result.",
+    "predecessors": [
+      {
+        "id": "GDT993",
+        "limit": "Conditional complete transport reading; 0 confirmed lexemes and whole-word meanings not derived from components."
+      },
+      {
+        "id": "IDEA000377",
+        "limit": "Raw transport lexicon predecessor; preserved six inherited values but no component writer."
+      },
+      {
+        "id": "GDT608",
+        "limit": "Directed formal backoff plus exact residual; no semantic component values."
+      },
+      {
+        "id": "IDEA000427",
+        "limit": "OPEN/UPDATE/CLOSE residual phase was only an annotation and did not compute transport outputs from qok/ch parts."
+      },
+      {
+        "id": "IDEA000428",
+        "limit": "Wrapper participant continuity was not an executable component content algebra."
+      },
+      {
+        "id": "IDEA000414",
+        "limit": "Balneis qok/che surface coverage lacked part-level semantic reduction and was explicitly blocked."
+      },
+      {
+        "id": "IDEA000416",
+        "limit": "Branch/merge tagger left component arguments and condition semantics ineffective; this proposal makes a smaller explicit typed state machine and exposes its cost."
+      }
+    ],
+    "dependencies": [
+      "The frozen GDT993 outputs and RAW377 inherited meanings remain unchanged; this card does not reopen or select that reading.",
+      "The qok/ch family segmentation is a proposed productive segmentation, not an observed parser; q, o, k, ch, e, a, y, dy and l receive no independent English gloss outside these typed transitions.",
+      "Argument identities still come from the frozen paragraph grammar where explicitly written; repeated spelling alone does not prove physical referent identity.",
+      "No Latin/phonetic default, new target access, reserve, decoder, source mutation, or root experiment change is used."
+    ],
+    "access": "Bounded reads of GDT993 REPORT/SPEC/SOURCE_PACKET, RAW377 complete lexicon, GDT608 and retained IDEA414/416/427/428 reviews; no new target data/image, reserve, GDT1001, decoder, route, ledger, source packet mutation, or experiment."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT993"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT608"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000377"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000427"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000428"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000414"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000416"
+    }
+  ]
+}

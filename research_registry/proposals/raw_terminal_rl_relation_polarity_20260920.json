@@ -1,0 +1,74 @@
+{
+  "title": "Licensed terminal r/l alternation changes relation polarity while preserving the stem frame",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A narrowly licensed terminal r/l alternation is treated as a relational polarity operator on an already framed pair, while the stem and ordered event frame remain fixed. The hypothesis tests edge direction against a rival state-only alternation; it does not assign a global r/l translation or extrapolate to unseen stem pairs.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "observations": [
+      "GDT915 reports positive but limited same-ending co-variation for 22 known odd-leaf stem pairs across three readings; the result is structural and includes mixed cells and operator exposure.",
+      "GDT916 is explicitly NEW_PAIR_CONCORDANCE_NOT_ESTABLISHED, so this hypothesis must remain restricted to predeclared known stem pairs.",
+      "GDT981 remains inconclusive for the proposed terminal relation and cannot be used as confirmation.",
+      "GDT608 shows directed component order and exact whole-form residuals can coexist, but it does not provide semantic values."
+    ],
+    "mechanism": {
+      "frame": "A predeclared known stem-pair frame supplies an opaque relation R(A,B) inside an ordered event frame; the stem identifies the frame and the whole-form residual identifies the complete occurrence.",
+      "operator": "For one licensed r/l pair only, terminal r is hypothesized to emit EDGE(A,B) and terminal l EDGE(B,A). The terminal choice is the sole relation-polarity change; participant identities, operation, and nonterminal argument order remain fixed.",
+      "rival": "A state-polarity model preserves EDGE(A,B) for both terminals and changes only a state/property bit on the relation. A second rival treats r/l as an unstructured whole-form residual with no reusable consequence.",
+      "chain": [
+        "Clause 1 introduces the known pair and emits EDGE(A,B) under the r form.",
+        "Clause 2 reuses the same licensed frame under l and must either reverse the edge to EDGE(B,A) or, under the rival, preserve the edge while changing only state.",
+        "Clause 3 applies a downstream operation whose argument order is determined by the edge; the two models therefore predict opposite recipient/source roles even though the stem frame is shared."
+      ]
+    },
+    "complete_reading_consequence": "In a complete passage containing both members of one predeclared known stem pair, a later operation consuming the relation must receive the reversed ordered pair under the polarity model. Under the state-only rival it receives the same ordered pair with a changed state, so a fixed written argument position or subsequent reciprocal clause would distinguish the models if independently observed.",
+    "falsifier": "Predeclare one known GDT915 pair and one complete passage containing both terminal variants. Reject polarity if the same r/l choice yields incompatible edge directions in the same frame/context, if the downstream clause preserves the original ordered roles where its written argument order is fixed, or if the proposed effect requires an unseen pair or an unprinted participant. Reject the state-only rival only if an independently bound downstream relation reverses roles while no state contrast is written.",
+    "strongest_failure": "GDT915 may reflect terminal morphology, register, or an editorial structural effect rather than relation polarity; no target participant or edge is independently known. The downstream written role needed to discriminate the rival may be absent, making this a bounded raw hypothesis rather than a meaning claim.",
+    "predecessors": [
+      {
+        "id": "GDT915",
+        "limit": "Positive limited known-stem co-variation, structural only; does not bind r/l to a relation."
+      },
+      {
+        "id": "GDT916",
+        "limit": "Unseen pair concordance not established; no extrapolation is permitted."
+      },
+      {
+        "id": "GDT981",
+        "limit": "Inconclusive terminal relation audit; not evidence for polarity."
+      },
+      {
+        "id": "IDEA000099",
+        "limit": "Continuation-direction family was broader and did not set this edge-vs-state rival on a predeclared known pair."
+      },
+      {
+        "id": "IDEA000427",
+        "limit": "Residual OPEN/UPDATE/CLOSE phase model; it does not make terminal r/l a relational operator."
+      }
+    ],
+    "dependencies": [
+      "A finite predeclared list of known stem pairs and exact terminal variants must be fixed before any fit.",
+      "A complete passage must independently expose an ordered downstream relation or reciprocal role; repeated spelling alone cannot identify the same physical pair.",
+      "The model is alternate-reader aware and makes no cross-reading equivalence claim.",
+      "No global r/l gloss, Latin default, unseen-pair transfer, or target participant assignment is allowed."
+    ],
+    "access": "Retained GDT915/916/981 reports and bounded duplicate checks only; no target data/image, reserve, GDT1001, source packet, decoder, experiment, route, ledger, or push."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT915"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT916"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000099"
+    },
+    {
+      "type": "distinct_from",
+      "target": "IDEA000427"
+    }
+  ]
+}
