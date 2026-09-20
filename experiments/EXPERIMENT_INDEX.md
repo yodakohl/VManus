@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **997**
-- Experiment-associated tracked files: **19,394** (1.8 GiB)
-- Structured GDT337+ experiments: **662**
+- Experiments indexed: **998**
+- Experiment-associated tracked files: **19,405** (1.8 GiB)
+- Structured GDT337+ experiments: **663**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT999 | typed pair frame transfer | `REGISTERED_UNSCORED` | — | 11 | 22.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT998 | GDT998_compositional_paradigm_features | `CONTRADICTED_COMPLETE_FEATURE_TABLES` | [report](../experiments/yolo/gdt998_compositional_paradigm_features/REPORT.md) | 22 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT997 | GDT997_transport_finite_completion_capacity | `RETAIN_COMPLETE_EXPOSED_EXTENSION` | [report](../experiments/yolo/gdt997_transport_finite_completion_capacity/REPORT.md) | 25 | 4.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT996 | GDT996 | `RETAIN_WITH_UNRESOLVED_SOURCE_PREMISE` | [report](../experiments/yolo/gdt996_f83r_candidate_seam_consequences/REPORT.md) | 23 | 4.7 MiB | 4 | STRUCTURED_YOLO |

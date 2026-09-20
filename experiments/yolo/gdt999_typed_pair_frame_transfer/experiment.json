@@ -1,0 +1,92 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Surface frame transfer only; no selected meanings or independently confirmed words.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt999_typed_pair_frame_transfer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt999_typed_pair_frame_transfer/src/validate.py"
+  },
+  "created": "2026-09-20",
+  "dependencies": [
+    "GDT928",
+    "GDT559",
+    "GDT817",
+    "GDT818"
+  ],
+  "experiment_id": "GDT999",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "fixed_input",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "a899cf56faeffa8fc5dabc9ca1662deb178147301446e7ecbf793dff52b340c9"
+    },
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "8e215451f2308d14aaded72950a22885ceb370811183981ef8afd7ac4f5b3077"
+    },
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "b45b0516afe140b612f439cd9cba59f5590a3e12f84b02a0c4d859fa81f528a2"
+    },
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/README.md",
+      "role": "source_or_artifact",
+      "sha256": "aedf52bcdd8766cc589cf8c9fc7865e5842a0640b8fb82564da21821b64718a6"
+    },
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/artifacts/PREFLIGHT.json",
+      "role": "source_or_artifact",
+      "sha256": "5fee263106d4abecd3b7dcb4b2ced9126d8491847f8d4b4af68c6a807a5b13da"
+    },
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "de92a8f57878b9535d9cb11982d6f5d816b411b0ae21db3100513c11b2086eb9"
+    },
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "cb58a7ab428fb1c12f1a64e7d1c040d475da39621ec2dbd7b6fac225c0e5ec08"
+    },
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "1ca328cec8f22f3fa7258abf62d944e4e905808b1c3b3cc911264489c330bd9b"
+    },
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "22228675fea6d04de04e4f556a7810b72b863d38bd10d5222d67df5bef8643fb"
+    },
+    {
+      "path": "experiments/yolo/gdt999_typed_pair_frame_transfer/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "0e116be380e8f6723efb417f61324f0c0f35c3360e21fff7d4f66adee7919d62"
+    }
+  ],
+  "question": "Does the fixed aiin-ykar-ain-cheedy construction transfer to other stems and exposed physical leaves?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "typed_pair_frame_transfer",
+  "status": "REGISTERED_UNSCORED",
+  "title": "typed pair frame transfer",
+  "updated": "2026-09-20",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
