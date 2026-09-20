@@ -1,0 +1,22 @@
+{
+  "title": "f80v.8-.9 repeated application under one condition",
+  "summary": "RAW_UNREVIEWED. A two-line already exposed process record applies one operation twice in sequence, retains an intermediate state, conditions the second application, then carries the output through an ordered path to one repeated target and closes.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "target": {
+      "records": [
+        {"locus": "f80v.8", "raw": "olteedy qokaiin shedy qokain sheol qokchdy qokchdy qoty dy"},
+        {"locus": "f80v.9", "raw": "tchdy qol tol tal taldain chckhy qokal dol checthy qokal ly"}
+      ],
+      "ownership": "Existing exposed report-owned W56 complete-line excerpt; no new target access."
+    },
+    "rule": "qokchdy applies one OP to the current item and the repeated qokchdy consumes that output; qoty supplies a condition; qokaiin and qokain are input/output typed values; qokal introduces one target reused on repetition; dy/ly close. Remaining groups are ordered path/check fields, not free singleton glosses.",
+    "worked_content": "An input item is acted on; its intermediate state is retained. The same operation is applied again under a condition. The resulting item follows an ordered path to one target, is checked, and the record closes.",
+    "rival": "Occurrence-independent entry model treats repeated qokchdy as two unrelated operations and repeated qokal as two unrelated targets.",
+    "consequence": "A later complete exposed clause with the same repeated operation and an explicit intermediate/result field should preserve sequential state carry under this rule; the rival predicts independent entries. No held semantic observation currently tests this.",
+    "predecessors": ["IDEA000382", "GDT412", "GDT769", "GDT792"],
+    "limits": "Operation, input/output, condition, path, target and check remain unbound content variables; same-form identity is assumed within clause and is not independently observed. No material, vessel, quantity, treatment or source gloss is inherited.",
+    "access": "Existing exposed excerpts and predecessor reports only; no images, reserves, sealed folios, decoder, route, ledger or publication."
+  }
+}

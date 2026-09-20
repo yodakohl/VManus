@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;GDT999 typed-pair frame transfer.
-Latest decision: Four constructions fixed;all literal ykar contexts mandatory.
-Working files: experiments/yolo/gdt999_typed_pair_frame_transfer/METHOD.md
-Assumptions: All data exposed;frame recurrence cannot identify containment.
-Resume: Publish999registration,run full census,independently validate and close.
-Running: Root999;producer develops418state semantics until17:45UTC.
+Task: Ten-hour block to22:52:35UTC;develop content beyond isolated frame guesses.
+Latest decision: 999onlyseed/2readers;0otherstem/leaf,all-ykar writer contradicted.
+Working files: experiments/yolo/gdt999_typed_pair_frame_transfer/REPORT.md
+Assumptions: Local417unverified;repeated forms do not identify physical referents.
+Resume: Publish999closure;assess418actual content and observable consequences.
+Running: Root closure/review;producer418semantic construction until17:45UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

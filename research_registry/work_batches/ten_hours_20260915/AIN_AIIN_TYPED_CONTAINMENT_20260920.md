@@ -162,3 +162,22 @@ complete clause using the same `qokaiin–ykar–qokain–cheedy` contract would
 to produce the same container/content edge types, and a qokain occurrence in
 the container slot would be rejected. No independently observed semantic
 fact currently tests that consequence, so it remains an unexecuted prediction.
+
+## Root review and registered follow-up, 20 September2026
+
+Original raw proposal and V2 above remain unchanged. V2 introduces a discourse
+referent, calls it a physically empty container, then conflates ASSERT_CONTAINS
+with a physical filling mutation. An assertion need not perform the asserted
+physical change; absence of stored assertions need not mean physical emptiness.
+No historical observation chooses either semantics. These are undeclared
+content assumptions, not manuscript contradictions.
+
+GDT999 separately froze four literal stem-frame candidates and two distinct
+claims (local recognition versus universal ykar writer), then inspected every
+ykar in1349 complete exposed paragraphs. All62cases/248candidate decisions
+were independently validated. Only the original qok frame matches, once per
+reader; no new stem or other-leaf instance. All four universal writers are
+contradicted. The original optional local interpretation remains unverified,
+with no additional transfer capacity. Meanings CONTAINS/SUITABLE_FOR/FILLED_WITH/
+WHOLE_HAS_PORTION remain indistinguishable. No automatic relaxed-distance or
+spelling repair. See experiments/yolo/gdt999_typed_pair_frame_transfer/REPORT.md.

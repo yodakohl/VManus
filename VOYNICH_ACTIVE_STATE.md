@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT999 FRAME CAPACITY STOP: all62ykar contexts in1349whole exposed paragraphs checked;only original qokaiin-ykar-qokain-cheedy matches in both readers,0newstem/otherleaf. All4universal writers contradicted;local417unverified,not general containment refutation.0independentmeaning/words. [Report](experiments/yolo/gdt999_typed_pair_frame_transfer/REPORT.md).
+
 IDEA414 COMPONENT REVIEW: V2 exactly assembles24forms/33positions with29atomicparts,22new. Part semantics, written-order binding and source conditional scopes are still undeclared; surface correction retained,not a manuscript contradiction. No fixed test or word claim. [Review](research_registry/work_batches/ten_hours_20260915/BALNEIS_414_F83R2530_COMPOSITION_AUDIT_20260920.md).
 
 GDT998 FEATURE-TABLE STOP: all6925 complete18-group windows contradict shared stem/person/tense length additivity under both traversals;13850 certificates independently verified,0local/pairedcodes/unknowns/words. Exact semantic-feature table writer only;900literal failure unchanged,no allomorph/table repair or independent confirmation. [Report](experiments/yolo/gdt998_compositional_paradigm_features/REPORT.md).
