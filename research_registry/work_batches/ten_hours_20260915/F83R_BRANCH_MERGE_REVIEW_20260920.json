@@ -1,0 +1,37 @@
+{
+  "record_id": "IDEA000416",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root",
+  "assessment_basis": "exact_script_execution_and_complete_component_semantics_review",
+  "reason": "The program deterministically annotates33groups/24forms/29parts;severaldeclaredparts are not semantically composed. It has no executedbranch/merge,conditiontruth,completearityoroccurrence-reference semantics;P2is exposed exploratorycoverage,notprospective meaningconfirmation.",
+  "blockers": [
+    {
+      "code": "missing_executable_content_semantics",
+      "detail": "Need part reduction,complete arguments,event identity,and scope/branch/condition execution,not only first-part operation tags and frame names.",
+      "evidence": [
+        "research_registry/work_batches/ten_hours_20260915/F83R_BRANCH_MERGE_CONSTRUCTOR_20260920.md",
+        "research_registry/work_batches/ten_hours_20260915/f83r_branch_merge_constructor.py"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "complete_content_reduction",
+        "change": "new_design",
+        "detail": "A full typed compositional constructor with every declared part effective,all arguments and references owned,and complete target content evaluated under stated rules.",
+        "evidence": [
+          "research_registry/work_batches/ten_hours_20260915/F83R_BRANCH_MERGE_CONSTRUCTOR_20260920.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Exact spelling segmentation or deterministic tag outputs",
+      "Generated participant/register counts treated as drawing identities",
+      "Exposed P2 residual counts called independent prediction confirmation"
+    ]
+  },
+  "relations": []
+}

@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;select a complete shared content constructor.
-Latest decision: 998published;414V2surface complete,semantic derivation still missing.
-Working files: research_registry/work_batches/ten_hours_20260915/BALNEIS_414_REVIEW_20260920.json
-Assumptions: 997local positives retained;no portable lexicon or confirmed meanings.
-Resume: Publish414review;select finite shared-content question from primary evidence.
-Running: Root selection;producer one executable proposal,to17:05UTC.
+Task: Ten-hour block to22:52:35UTC;test the typed-pair proposal's portability.
+Latest decision: 416executes tags,not complete semantic composition;417unselected.
+Working files: research_registry/work_batches/ten_hours_20260915/AIN_AIIN_TYPED_CONTAINMENT_20260920.md
+Assumptions: AIN/AIIN roles hypothetical;assertion is not a physical filling action.
+Resume: Publish416review;freeze417scope and consequences before corpus inspection.
+Running: Root candidate review;bounded independent idea producer until17:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -1,0 +1,673 @@
+{
+  "lines": [
+    {
+      "locus": "f83r.25",
+      "raw": "qokeedy qolchey qokeey qokedy chedy otal",
+      "groups": [
+        {
+          "token": "qokeedy",
+          "parts": [
+            "qok",
+            "e",
+            "edy"
+          ],
+          "roles": [
+            "UPDATE",
+            "EXPLICIT_ARG",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "UPDATE",
+            "input": "ROOT",
+            "output": "u0",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qolchey",
+          "parts": [
+            "qol",
+            "chey"
+          ],
+          "roles": [
+            "RELATE",
+            "LINK_FRAME"
+          ],
+          "event": {
+            "op": "RELATE",
+            "source": "u0",
+            "frame": "LINK_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qokeey",
+          "parts": [
+            "qok",
+            "e",
+            "ey"
+          ],
+          "roles": [
+            "UPDATE",
+            "EXPLICIT_ARG",
+            "OUTCOME_FRAME"
+          ],
+          "event": {
+            "op": "UPDATE",
+            "input": "RELATE",
+            "output": "u1",
+            "frame": "OUTCOME_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qokedy",
+          "parts": [
+            "qok",
+            "edy"
+          ],
+          "roles": [
+            "UPDATE",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "UPDATE",
+            "input": "UPDATE",
+            "output": "u2",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "chedy",
+          "parts": [
+            "che",
+            "dy"
+          ],
+          "roles": [
+            "EFFECT",
+            "COMPLETE_FRAME"
+          ],
+          "event": {
+            "op": "EFFECT",
+            "target": "u2",
+            "frame": "COMPLETE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "otal",
+          "parts": [
+            "ot",
+            "al"
+          ],
+          "roles": [
+            "GUARD",
+            "TARGET_FRAME"
+          ],
+          "event": {
+            "op": "GUARD",
+            "scope": 1,
+            "target": "EFFECT",
+            "frame": "TARGET_FRAME"
+          },
+          "residual": null
+        }
+      ]
+    },
+    {
+      "locus": "f83r.26",
+      "raw": "otchey qokeey qoky tol shedy qokylddy",
+      "groups": [
+        {
+          "token": "otchey",
+          "parts": [
+            "ot",
+            "chey"
+          ],
+          "roles": [
+            "GUARD",
+            "LINK_FRAME"
+          ],
+          "event": {
+            "op": "GUARD",
+            "scope": 2,
+            "target": "GUARD",
+            "frame": "LINK_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qokeey",
+          "parts": [
+            "qok",
+            "e",
+            "ey"
+          ],
+          "roles": [
+            "UPDATE",
+            "EXPLICIT_ARG",
+            "OUTCOME_FRAME"
+          ],
+          "event": {
+            "op": "UPDATE",
+            "input": "GUARD",
+            "output": "u3",
+            "frame": "OUTCOME_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qoky",
+          "parts": [
+            "qok",
+            "y"
+          ],
+          "roles": [
+            "UPDATE",
+            "CONTINUE_FRAME"
+          ],
+          "event": {
+            "op": "CONTINUE_UPDATE",
+            "input": "UPDATE",
+            "output": "u4",
+            "frame": "CONTINUE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "tol",
+          "parts": [
+            "t",
+            "ol"
+          ],
+          "roles": [
+            "LOCATION",
+            "OWNER"
+          ],
+          "event": {
+            "op": "LOCATE",
+            "target": "u4",
+            "frame": "OPAQUE"
+          },
+          "residual": null
+        },
+        {
+          "token": "shedy",
+          "parts": [
+            "sh",
+            "edy"
+          ],
+          "roles": [
+            "PARTICIPANT",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "BIND",
+            "participant": "p0",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qokylddy",
+          "parts": [
+            "qok",
+            "y",
+            "l",
+            "ddy"
+          ],
+          "roles": [
+            "UPDATE",
+            "CONTINUE_FRAME",
+            "SCOPE",
+            "GUARDED_COMPLETE"
+          ],
+          "event": {
+            "op": "GUARDED_UPDATE",
+            "input": "BIND",
+            "output": "u5",
+            "frame": "CONTINUE_FRAME"
+          },
+          "residual": null
+        }
+      ]
+    },
+    {
+      "locus": "f83r.27",
+      "raw": "dain chedy qokeedy shckhedy shckhedy",
+      "groups": [
+        {
+          "token": "dain",
+          "parts": [
+            "da",
+            "in"
+          ],
+          "roles": [
+            "ORDER",
+            "ORDER_ARG"
+          ],
+          "event": {
+            "op": "ORDER",
+            "branch": 1,
+            "frame": "ORDER_ARG"
+          },
+          "residual": null
+        },
+        {
+          "token": "chedy",
+          "parts": [
+            "che",
+            "dy"
+          ],
+          "roles": [
+            "EFFECT",
+            "COMPLETE_FRAME"
+          ],
+          "event": {
+            "op": "EFFECT",
+            "target": "u5",
+            "frame": "COMPLETE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qokeedy",
+          "parts": [
+            "qok",
+            "e",
+            "edy"
+          ],
+          "roles": [
+            "UPDATE",
+            "EXPLICIT_ARG",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "UPDATE",
+            "input": "EFFECT",
+            "output": "u6",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "shckhedy",
+          "parts": [
+            "sh",
+            "ckh",
+            "edy"
+          ],
+          "roles": [
+            "PARTICIPANT",
+            "LIST_ITEM",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "BIND",
+            "participant": "p1",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "shckhedy",
+          "parts": [
+            "sh",
+            "ckh",
+            "edy"
+          ],
+          "roles": [
+            "PARTICIPANT",
+            "LIST_ITEM",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "BIND",
+            "participant": "p2",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        }
+      ]
+    },
+    {
+      "locus": "f83r.28",
+      "raw": "saiin cheeky sheey qokedy shedy oldy",
+      "groups": [
+        {
+          "token": "saiin",
+          "parts": [
+            "sa",
+            "iin"
+          ],
+          "roles": [
+            "REFERENCE",
+            "ATTRIBUTE_ARG"
+          ],
+          "event": {
+            "op": "REFERENCE",
+            "target": "u6",
+            "frame": "ATTRIBUTE_ARG"
+          },
+          "residual": null
+        },
+        {
+          "token": "cheeky",
+          "parts": [
+            "che",
+            "e",
+            "ky"
+          ],
+          "roles": [
+            "EFFECT",
+            "EXPLICIT_ARG",
+            "DEGREE"
+          ],
+          "event": {
+            "op": "EFFECT",
+            "target": "u6",
+            "frame": "DEGREE"
+          },
+          "residual": null
+        },
+        {
+          "token": "sheey",
+          "parts": [
+            "sh",
+            "e",
+            "ey"
+          ],
+          "roles": [
+            "PARTICIPANT",
+            "EXPLICIT_ARG",
+            "OUTCOME_FRAME"
+          ],
+          "event": {
+            "op": "BIND",
+            "participant": "p3",
+            "frame": "OUTCOME_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qokedy",
+          "parts": [
+            "qok",
+            "edy"
+          ],
+          "roles": [
+            "UPDATE",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "UPDATE",
+            "input": "BIND",
+            "output": "u7",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "shedy",
+          "parts": [
+            "sh",
+            "edy"
+          ],
+          "roles": [
+            "PARTICIPANT",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "BIND",
+            "participant": "p4",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "oldy",
+          "parts": [
+            "ol",
+            "dy"
+          ],
+          "roles": [
+            "OWNER",
+            "COMPLETE_FRAME"
+          ],
+          "event": {
+            "op": "OWNER_REFERENCE",
+            "target": "u7",
+            "frame": "COMPLETE_FRAME"
+          },
+          "residual": null
+        }
+      ]
+    },
+    {
+      "locus": "f83r.29",
+      "raw": "salchedy cheey qody kesd oldy",
+      "groups": [
+        {
+          "token": "salchedy",
+          "parts": [
+            "sa",
+            "l",
+            "che",
+            "dy"
+          ],
+          "roles": [
+            "REFERENCE",
+            "SCOPE",
+            "EFFECT",
+            "COMPLETE_FRAME"
+          ],
+          "event": {
+            "op": "REFERENCE",
+            "target": "u7",
+            "frame": "COMPLETE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "cheey",
+          "parts": [
+            "che",
+            "ey"
+          ],
+          "roles": [
+            "EFFECT",
+            "OUTCOME_FRAME"
+          ],
+          "event": {
+            "op": "EFFECT",
+            "target": "u7",
+            "frame": "OUTCOME_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qody",
+          "parts": [
+            "qo",
+            "dy"
+          ],
+          "roles": [
+            "STATE_REFERENCE",
+            "COMPLETE_FRAME"
+          ],
+          "event": {
+            "op": "STATE_REFERENCE",
+            "target": "u7",
+            "frame": "COMPLETE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "kesd",
+          "parts": [
+            "kes",
+            "d"
+          ],
+          "roles": [
+            "NEGATE",
+            "NEGATIVE"
+          ],
+          "event": {
+            "op": "NEGATE",
+            "target": "STATE_REFERENCE",
+            "frame": "NEGATIVE"
+          },
+          "residual": null
+        },
+        {
+          "token": "oldy",
+          "parts": [
+            "ol",
+            "dy"
+          ],
+          "roles": [
+            "OWNER",
+            "COMPLETE_FRAME"
+          ],
+          "event": {
+            "op": "OWNER_REFERENCE",
+            "target": "u7",
+            "frame": "COMPLETE_FRAME"
+          },
+          "residual": null
+        }
+      ]
+    },
+    {
+      "locus": "f83r.30",
+      "raw": "s okeedy qokeedy qoky saii",
+      "groups": [
+        {
+          "token": "s",
+          "parts": [
+            "s"
+          ],
+          "roles": [
+            "TOPIC"
+          ],
+          "event": {
+            "op": "OPEN_TOPIC",
+            "arg": "topic0"
+          },
+          "residual": null
+        },
+        {
+          "token": "okeedy",
+          "parts": [
+            "o",
+            "ke",
+            "edy"
+          ],
+          "roles": [
+            "RENEW",
+            "MATERIAL",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "RENEW",
+            "target": "u7",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qokeedy",
+          "parts": [
+            "qok",
+            "e",
+            "edy"
+          ],
+          "roles": [
+            "UPDATE",
+            "EXPLICIT_ARG",
+            "DECLARE_FRAME"
+          ],
+          "event": {
+            "op": "UPDATE",
+            "input": "RENEW",
+            "output": "u8",
+            "frame": "DECLARE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "qoky",
+          "parts": [
+            "qok",
+            "y"
+          ],
+          "roles": [
+            "UPDATE",
+            "CONTINUE_FRAME"
+          ],
+          "event": {
+            "op": "CONTINUE_UPDATE",
+            "input": "UPDATE",
+            "output": "u9",
+            "frame": "CONTINUE_FRAME"
+          },
+          "residual": null
+        },
+        {
+          "token": "saii",
+          "parts": [
+            "sa",
+            "ii"
+          ],
+          "roles": [
+            "REFERENCE",
+            "CLOSE_FRAME"
+          ],
+          "event": {
+            "op": "REFERENCE",
+            "target": "u9",
+            "frame": "CLOSE_FRAME"
+          },
+          "residual": null
+        }
+      ]
+    }
+  ],
+  "component_counts": {
+    "qok": 10,
+    "e": 7,
+    "edy": 10,
+    "qol": 1,
+    "chey": 2,
+    "ey": 4,
+    "che": 5,
+    "dy": 6,
+    "ot": 2,
+    "al": 1,
+    "y": 3,
+    "t": 1,
+    "ol": 3,
+    "sh": 5,
+    "l": 2,
+    "ddy": 1,
+    "da": 1,
+    "in": 1,
+    "ckh": 2,
+    "sa": 3,
+    "iin": 1,
+    "ky": 1,
+    "qo": 1,
+    "kes": 1,
+    "d": 1,
+    "s": 1,
+    "o": 1,
+    "ke": 1,
+    "ii": 1
+  },
+  "residuals": {},
+  "register_count": 10,
+  "participant_count": 5,
+  "branch_count": 1
+}

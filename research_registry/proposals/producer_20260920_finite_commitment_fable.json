@@ -1,0 +1,78 @@
+{
+  "status": "RAW_UNSCREENED",
+  "title": "Finite commitment-and-causality constructor for a complete rebuttal narrative",
+  "summary": "RAW_UNSCREENED. A fixed typed constructor separates located participants, reported allegations, source-endorsed rebuttals, temporal existence, introduced kinship and a later action. A small Phaedrus example is executable and yields a counterfactual consequence beyond the fitted fable.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNSCREENED_NOT_SELECTED",
+    "created_utc": "2026-09-20",
+    "distinctness": "IDEA000397 supplies the complete fable relations but leaves the constructor executable only in prose. This proposal fixes a finite typed AST, explicit truth/commitment states, arities and a generated counterfactual record. It is unrelated to IDEA000398's rule species/correlative endings and IDEA000128's chamber-table morphism.",
+    "source": {
+      "work": "Phaedrus, Fabulae I.1, Lupus et Agnus, complete 15-line fable",
+      "dossier": "research_registry/work_batches/ten_hours_20260915/DISCOURSE_CONSTRAINT_RAW_SUPPLY_20260920.md",
+      "packet": "research_registry/work_batches/ten_hours_20260915/DISCOURSE_CONSTRAINT_RAW_SOURCES_20260920.json",
+      "url": "https://www.intratext.com/IXT/LAT0092/_P1.HTM",
+      "html_sha256": "ca55a34d8f6cab0a9ea90b29a58c8ab21992e517acd51c8e9ab6ade503714019",
+      "text_sha256": "5be84335369371bb737f6e3f92a66d4b74f66bb7101ed45d96a06e6513eb55a4",
+      "limits": "Digital Latin witness ancestry is uncollated; no medieval manuscript or Voynich source relation is claimed. The father allegation remains unverified."
+    },
+    "typed_context": {
+      "participants": ["WOLF", "LAMB", "FATHER", "NARRATOR"],
+      "places": ["STREAM", "WOLF_DRINKING_PLACE", "LAMB_DRINKING_PLACE"],
+      "times": ["NOW", "SIX_MONTHS_BEFORE_NOW", "LAMB_BIRTH"],
+      "commitments": ["ASSERTED", "REPORTED", "REBUTTED", "UNVERIFIED"],
+      "relations": ["ABOVE", "BELOW", "FLOWS_FROM", "PARENT_OF", "EXISTS_AT"]
+    },
+    "finite_constructor": {
+      "DECL": "LOCATE(x,place,relation) | INTRODUCE(x,type,scope)",
+      "REPORT": "ALLEGES(speaker,agent,act,recipient,time) | ASSERTS(speaker,proposition)",
+      "CHECK": "FLOW(place,from,to) | EXISTS_AT(x,time) | PARENT_OF(parent,child)",
+      "REASON": "REBUTS(speaker,claim,reason) | ENDORSES(speaker,reason)",
+      "ACT": "DOES(agent,patient,act,status)",
+      "MORAL": "GENERALIZES(speaker,story,rule)",
+      "evaluation": "ALLEGES is REPORTED and does not update world truth. REBUTS evaluates a claim from typed facts: an upstream-fouling claim fails when water flows from accused downstream participant to accuser; an earlier-offense claim fails when the alleged agent does not EXIST_AT the alleged time. DOES remains executable after REBUTS."
+    },
+    "worked_example": {
+      "context": [
+        "LOCATE(WOLF,STREAM,ABOVE)",
+        "LOCATE(LAMB,STREAM,BELOW)",
+        "FLOW(STREAM,WOLF_DRINKING_PLACE,LAMB_DRINKING_PLACE)",
+        "EXISTS_AT(LAMB,LAMB_BIRTH)",
+        "LAMB_BIRTH > SIX_MONTHS_BEFORE_NOW",
+        "PARENT_OF(FATHER,LAMB)"
+      ],
+      "ordered_statements": [
+        "ALLEGES(WOLF,LAMB,MUDDY_WATER,WOLF_DRINKING_PLACE,NOW)",
+        "REBUTS(LAMB,MUDDY_WATER,UPSTREAM_FLOW_CHECK)",
+        "ENDORSES(NARRATOR,UPSTREAM_FLOW_CHECK)",
+        "ALLEGES(WOLF,LAMB,VERBAL_OFFENSE,WOLF,SIX_MONTHS_BEFORE_NOW)",
+        "REBUTS(LAMB,VERBAL_OFFENSE,NOT_YET_BORN_CHECK)",
+        "ALLEGES(WOLF,FATHER,VERBAL_OFFENSE,WOLF,SIX_MONTHS_BEFORE_NOW)",
+        "DOES(WOLF,LAMB,KILL,COMPLETED_UNJUST)",
+        "GENERALIZES(NARRATOR,STORY,OPPRESS_INNOCENT_WITH_INVENTED_CAUSES)"
+      ],
+      "derived_trace": [
+        "MUDDY_WATER: REPORTED, REBUTTED, not world-true under FLOW.",
+        "LAMB_VERBAL_OFFENSE: REPORTED, REBUTTED because LAMB did not exist at the alleged time.",
+        "FATHER_VERBAL_OFFENSE: REPORTED, UNVERIFIED; PARENT_OF does not prove the act.",
+        "KILL: COMPLETED despite both earlier rebuttals; outcome does not promote either allegation to truth."
+      ]
+    },
+    "observable_counterfactual": "Generate the same typed record with FLOW reversed to LAMB_DRINKING_PLACE -> WOLF_DRINKING_PLACE. The constructor then no longer rejects the muddy-water allegation. Separately set LAMB_BIRTH earlier than SIX_MONTHS_BEFORE_NOW; the temporal rebuttal then disappears. The final DOES(KILL) remains a separate action in both variants. A flat true-event list, a rebuttal-blocks-action rule, or an outcome-implies-truth rule predicts a different result.",
+    "rivals": [
+      "Every ALLEGES proposition is asserted world truth: predicts muddy water and the lamb's offense despite both typed rebuttals.",
+      "REBUTS blocks later DOES: predicts no killing, contrary to the source's completed unjust killing.",
+      "A completed DOES validates its prior ALLEGES: predicts the rejected charges become true, contrary to the moral.",
+      "FATHER is an alias for LAMB: erases the new parent relation and changes the third allegation's argument type."
+    ],
+    "smallest_discriminator": "A held complete record with the same allegation/action inventory but reversed FLOW or changed EXISTS_AT must change only the corresponding rebuttal truth, while a completed action remains independent. The nearest flat-list and outcome-entails-truth rivals cannot make that selective change.",
+    "likely_failure": "The source grammar may be historically irrelevant to the manuscript, and no independently owned target passage currently binds these constructors. The source's father allegation remains UNVERIFIED; treating it as a proven event would invalidate the account.",
+    "predecessors": [
+      {"id": "IDEA000397", "retained": "Complete Phaedrus content and commitment distinctions; this proposal adds an executable finite constructor and counterfactual trace."},
+      {"id": "IDEA000398", "retained": "Read complete source dossier; its rule-species/correlative mechanism is a different architecture."},
+      {"id": "IDEA000128", "retained": "GDT882 rank/scope stop remains; no ten-letter chamber morphism or table copy is reused."},
+      {"id": "GDT608", "retained": "Directed composition and whole-form context remain structural background, not meanings."}
+    ],
+    "access": "Existing route, source dossiers and registry only. No new target access, image, reserve, f84/f84r/f116v, decoder, experiment, ledger, route update or publication."
+  }
+}

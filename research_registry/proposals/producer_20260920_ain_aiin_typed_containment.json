@@ -1,0 +1,50 @@
+{
+  "title": "AIN/AIIN whole-form types: content and container-for-content",
+  "summary": "RAW_UNREVIEWED. In the already exposed complete ZL3b f106r.42-47 paragraph, qokain and qokaiin co-occur with ykar and cheedy in f106r.46, while qokain repeats in .43 and .47. A finite global typed constructor treats qokain as CONTENT and qokaiin as CONTAINER_FOR(content), yielding one explicit containment edge without importing the old water, air or vessel glosses.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "created_utc": "2026-09-20",
+    "phase": "Bounded concept/source review; no experiment or decoder.",
+    "epistemic_boundary": "The AIN/AIIN ending contrast is only a whole-form family hypothesis. The type labels are opaque working roles, not confirmed meanings or a target translation.",
+    "access": "Existing exposed W80 report-owned text and existing GDT/W94-W96 reports only. No new target data, image, reserve, sealed folio, mixed TSV, contact, route, ledger or publication.",
+    "target": {
+      "paragraph": "ZL3b f106r.42-f106r.47, six complete report-owned lines from research_registry/proposals/translation_programs_20260912/work/W80/READING.md.",
+      "relation_line": "f106r.46 sotchdaiin shodaiin otedy qokeedy qokaiin ykar qokain cheedy lol",
+      "repeated_form_context": "qokain also occurs in f106r.43 and f106r.47 under the same proposed CONTENT type; all six lines remain in scope.",
+      "source_hashes": {
+        "reading": "049ba86d835168322243e2eb0a81220898f06fc887b12b578529fb80a4d184ed",
+        "paragraphs": "85a81f23a765c24c38454d9ecad3b522a7a2d932d482242d918ffedbf218677e"
+      }
+    },
+    "global_constructor": {
+      "qokain": "CONTENT(x)",
+      "qokaiin": "CONTAINER_FOR(x)",
+      "ykar": "BIND(container, content)",
+      "cheedy": "CONTAINS(container, content)",
+      "local_reduction": "PREFACE_A(sotchdaiin) PREFACE_B(shodaiin) ORIGIN(otedy) ASSERT(qokeedy) CONTAINER(qokaiin) BIND(ykar) CONTENT(qokain) CONTAINS(cheedy) CLOSE(lol)",
+      "scope_rule": "The relation consumes the co-present typed endpoints in f106r.46; no nearest-line lookup, unprinted object or filler group is added. Other paragraph groups remain constraints rather than silently deleted meanings."
+    },
+    "consequence": "The declared constructor predicts CONTAINS(qokaiin, qokain) at f106r.46. Swapping the forms or assigning both the same content type breaks the typed edge while preserving surface spelling. Repeated qokain in .43/.47 must retain CONTENT globally.",
+    "rivals": [
+      "GDT559 carrier rival: AIN=ANTEIL and AIIN=WERT are interchangeable argument values and imply no containment edge.",
+      "GDT818 vapour/basin rival: solkeey and chedy carry the becomes/contains distinction; qokaiin is used in an air/conditional tail, not typed as qokain's container in f106r.",
+      "Orthographic-only rival: qokain/qokaiin have no stable type difference; this removes the predicted typed relation."
+    ],
+    "predecessors": [
+      "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+      "experiments/yolo/gdt817_solkeey_external_content/REPORT.md",
+      "experiments/yolo/gdt818_fixed_material_container_relation/REPORT.md",
+      "research_registry/proposals/translation_programs_20260912/work/W94/REPORT.md",
+      "research_registry/proposals/translation_programs_20260912/work/W95/REPORT.md",
+      "research_registry/proposals/translation_programs_20260912/work/W96/REPORT.md"
+    ],
+    "limits": [
+      "qokain/qokaiin may be independent values under another grammar; no independent container anchor exists.",
+      "cheedy may not be a containment predicate and ykar may not bind the two endpoints.",
+      "Singleton framing roles remain opaque and are not evidence for English words.",
+      "The proposal supplies no source-to-target meaning binding and cannot be selected without a second complete exposed paragraph obeying the same types."
+    ],
+    "distinctness": "This is a typed whole-form relation in f106r.42-47, distinct from GDT559's carrier-value grammar, GDT818's solkeey/chedy vapour-basin matrix, and W94-W96's mass/grade/identity branches. It does not adopt qokain=water, qokaiin=air or qokaiin=vessel."
+  }
+}
