@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;GDT1000 complete joint recipe writer.
-Latest decision: 22/33atom recipes and shared numeral frames fixed;preflights PASS.
-Working files: experiments/yolo/gdt1000_trotula_joint_quantity_code/METHOD.md
-Assumptions: Source meanings provisional;no2/5mixture;all1349paragraphs exposed.
-Resume: Publish1000 registration,run all pair cases,validate and close by19:00UTC.
-Running: Root registration;bounded independent raw idea producer until18:20UTC.
+Task: Ten-hour block to22:52:35UTC;close1000 then select a different content route.
+Latest decision: All531724literal1000pairs contradicted;source unknowns retained.
+Working files: experiments/yolo/gdt1000_trotula_joint_quantity_code/REPORT.md
+Assumptions: 0words;no2/5;987alreadyclosed986literalunknowns;no decoder repairs.
+Resume: Publish1000closure;review425complete Cato source against prior content tests.
+Running: Root closure;bounded producer completed425source audit;no solver running.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

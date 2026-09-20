@@ -1,0 +1,30 @@
+{
+  "title": "Cato De Agri Cultura 133 attached layering and basket transplant constructor",
+  "summary": "RAW_UNREVIEWED. Cato 133 gives a complete cultivation mechanism in which a scion remains attached while rooting, then is cut and transplanted; an on-tree perforated basket branch preserves attachment, age, root state, cut boundary, and container through planting. This is distinct from seed extraction and graft compatibility.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Cato, De Agri Cultura 133",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cato/De_Agricultura/H%2A.html",
+    "source_span": "complete layering, on-tree basket, and vine timing instructions; accessed page lines 32-34",
+    "source_limit": "public-domain Loeb translation page; no claim about a target Vorlage or modern horticultural efficacy"
+  },
+  "constructor": {
+    "types": ["PARENT", "SCION", "SHOOT", "TIP", "SOIL", "ROOTED", "CONTAINER", "AGE", "CUT_BOUNDARY", "ORIENTATION", "PLANTED"],
+    "steps": [
+      "ATTACH scion to parent; PRESS_INTO_SOIL while TIP remains outside",
+      "ROOT scion while attachment persists",
+      "DIG at proper time and TRANSPLANT_VERTICAL as a planted individual",
+      "For careful propagation THREAD shoot through perforated container, PACK with earth, and LEAVE_ATTACHED on tree",
+      "At the source's age branch CUT_BELOW and PLANT_WITH_CONTAINER; vine branch changes waiting age only"
+    ]
+  },
+  "consequence": "The same propagule has states ATTACHED_AND_ROOTING then DETACHED_AND_PLANTED; parent remains a separate participant and the basket can persist into planting.",
+  "rivals": {
+    "R-CUT": "Detach first and root later; predicts no on-tree waiting state or persistent parent relation.",
+    "R-GRAFT": "Fuse donor and stock; predicts merged identity rather than a rooted shoot retaining its container."
+  },
+  "predecessors": ["IDEA000321", "IDEA000368", "IDEA000189"],
+  "missing_target_binding": "No target word is assigned to parent, scion, attachment, root, age, cut, container, orientation, or planting.",
+  "likely_failure": "If a future target lacks globally reusable attachment/root/age/cut/container relations, the constructor cannot discriminate its rivals and remains raw."
+}

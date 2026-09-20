@@ -1,0 +1,31 @@
+{
+  "title": "Justinian consensual sale constructor with pre-delivery risk and exchange rival",
+  "summary": "RAW_UNREVIEWED. Institutes III.22-23 gives a finite bilateral sale state: fixed price creates the contract before delivery, accidental risk can shift to the buyer while title/action rights remain with the vendor, and exchange is distinguished from sale. Writing, earnest, third-party price, condition, and safe-keeping branches alter later states.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Justinian, Institutes III.22-23",
+    "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/just3_Moyle.htm",
+    "source_span": "complete consensual-contract and purchase/sale sections, especially clauses corresponding to the accessed page's lines 347-369",
+    "source_limit": "public translation; no claim about a specific medieval legal witness or target Vorlage"
+  },
+  "constructor": {
+    "types": ["BUYER", "VENDOR", "OBJECT", "PRICE", "CONSENT", "WRITING", "EARNEST", "DELIVERY", "RISK", "TITLE", "CONDITION", "ACTION"],
+    "steps": [
+      "AGREE(buyer,vendor,object,fixed_price) creates a bilateral consensual sale",
+      "A written-formalities gate permits withdrawal before completion; earnest changes withdrawal consequence",
+      "A third-party price either closes sale with payment+delivery or leaves it void",
+      "After price agreement, accidental risk belongs to buyer before delivery; vendor may retain title/action rights and an express custody promise can reverse the loss assignment",
+      "Conditional sale waits for its future condition; object status/fraud changes remedy",
+      "Object-for-object exchange remains a distinct contract rather than an arbitrary sale direction"
+    ]
+  },
+  "consequence": "PRICE_AGREED + NOT_DELIVERED can yield RISK=BUYER while TITLE=VENDOR; explicit safe custody yields RISK=VENDOR for the covered loss. Later delivery closes the remaining title/action relation.",
+  "rivals": {
+    "R-S": "Delivery perfects the sale and vendor bears accidental loss before delivery.",
+    "R-X": "Every exchange is collapsed into a sale with an arbitrary buyer/price direction."
+  },
+  "predecessors": ["IDEA000395", "IDEA000372", "IDEA000333", "IDEA000400"],
+  "missing_target_binding": "No target word is assigned to consent, price, delivery, risk, title, exchange, or legal action.",
+  "likely_failure": "Without an independently bound target relation for price/consent/delivery/risk, the state machine is untestable and must not receive invented field assignments."
+}

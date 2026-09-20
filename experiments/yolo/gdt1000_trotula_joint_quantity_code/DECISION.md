@@ -47,3 +47,16 @@ No reserve confirmation or automatic broader decoder follows.
 This is not a new blind cipher control. GDT995's conditional recovery remains
 useful, but another control-only implementation would currently leave the
 Voynich content choice unchanged; no such implementation is selected here.
+
+Actual completion: registration/publication preceded the target run; all six numeric-compatible pairs failed, with no computational unknown. All-source closure is limited by795 source-unknown paragraphs. Preparation began17:32:51UTC; report/independent validation completed by17:56:02UTC. Publication follows within the original19:00UTC checkpoint. No expansion was authorized by the result.
+
+## Predecessor-status correction at closure
+
+The selection note cited GDT986's original109computational unknowns without
+following its completed GDT987 sequel. GDT987 had already exhaustively
+contradicted all148literal986cases, including those109unknowns; its166source
+unknowns remain. The original986receipts still correctly record the original
+run, but they are not the latest combined route status. No986/987case was
+reopened here. This correction does not change GDT1000's independently fixed
+source, writer, population or results. Retain the stronger987stop.
+Primary: ../gdt987_anastasia_finite_word_proof/REPORT.md.

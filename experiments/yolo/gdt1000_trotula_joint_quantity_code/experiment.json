@@ -13,6 +13,7 @@
     "GDT928",
     "GDT904",
     "GDT986",
+    "GDT987",
     "GDT988",
     "GDT971",
     "GDT998",
@@ -40,7 +41,7 @@
     {
       "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/DECISION.md",
       "role": "source_or_artifact",
-      "sha256": "9dae68ba000dfae8f2ade663611a016726f8e82337b2a9c224aaf7b511f1e13f"
+      "sha256": "551e9b7a9a82eef39dd03c1bafde0330b6b64ade3d061cb4dc2d49ea886ff7ed"
     },
     {
       "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/METHOD.md",
@@ -63,14 +64,79 @@
       "sha256": "e87d469bcc4fe28b4465a5146e5e2ba42dd619d19fe7ca83af606fae10dd14fe"
     },
     {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/REPORT.md",
+      "role": "primary_report",
+      "sha256": "4f7ca71f2ecff6b55d9e37146b7e3bc49f39b5c134f7d455cd5d11318b0558d6"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/CANDIDATES.tsv",
+      "role": "source_or_artifact",
+      "sha256": "98e5b3136354d6652e1ae9023db37ea1d7d14be5f00b53889b8dbb8a88f34882"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/EXECUTION_RECEIPT.json",
+      "role": "source_or_artifact",
+      "sha256": "13994f2ce0a03c186da91b4c59e31801b5bcfcd6e06a7766888ef29b425af676"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/INDEPENDENT_SOLVER_REPLAY.json",
+      "role": "source_or_artifact",
+      "sha256": "725e8f36608a72f2e5f6acc56411f4c7fc553616fcd82958e03f6e48dc9ea8e5"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/JOINT_CASES.json",
+      "role": "source_or_artifact",
+      "sha256": "ee4448880fd95637deec4d2fbeb5c965560483ad45fe65602e0a66a10118c7ed"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/PAIR_DECISIONS.tsv.gz",
+      "role": "source_or_artifact",
+      "sha256": "4757a2488d5b228953cf652fe67d62379cf58b502e74e47cbd210b405844e8b6"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/PARAGRAPH_CASES.json",
+      "role": "source_or_artifact",
+      "sha256": "d819a116adce642f3d8e11b63ae17dcb63dff4a78258035f3a897318ed651130"
+    },
+    {
       "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/PREFLIGHT.json",
       "role": "source_or_artifact",
       "sha256": "ce5e603de0396cc0619293787b13d0d4e0cdb308505deca55cd1d3b2359aa24f"
     },
     {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/PUBLIC_REGISTRATION.json",
+      "role": "source_or_artifact",
+      "sha256": "5c812e8233816dbaebfbb022fe52e030c902bd794d42dc6960dd4eca76fdcb9f"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/READINGS.md",
+      "role": "source_or_artifact",
+      "sha256": "1047050b81506c0ba0e69a8dc050f53cc6dd06c3be7fdc024537edeb697683fb"
+    },
+    {
       "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "a58837cf784e2e0971d760951f2d6ac1c74e9555e3db2d64801b4ccec1d5912b"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "e5219cd395bc3f14f287e3c02d25db725af0391649c58d656194464ca377fefa"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/REVIEW.json",
+      "role": "source_or_artifact",
+      "sha256": "42a9514a5279184648231c0e798a386bbeb46cf63e147a9a2120669e6003fbde"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/SHORT_CONTRADICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "2e1f864935fb9f21d509371e8e18f58a15d86c082d2390caf52015438f6bcba7"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "793c0bb2d354b902d02e4035f2b2ce306710ac614276212d5e45598c3a4754c0"
     },
     {
       "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/VALIDATOR_PREFLIGHT.json",
@@ -95,7 +161,12 @@
     {
       "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/bind.py",
       "role": "source_or_artifact",
-      "sha256": "c2f782a31a781a6284d975b68543f292450a0dec0f4a17d7faf375f744c73c8b"
+      "sha256": "b9b705945ea9ebb9d65b846efaa3cf9ca425cab9b93136088952b82c1d09bac3"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/explain.py",
+      "role": "source_or_artifact",
+      "sha256": "5c744b4102e45cdba51f25d72526a085a1821e0e0da7aa4ae13b3659d48823a4"
     },
     {
       "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/model.py",
@@ -120,11 +191,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "trotula_joint_quantity_code",
-  "status": "REGISTERED_UNSCORED",
+  "status": "NO_LITERAL_JOINT_FIT_SOURCE_UNCERTAINTY_RETAINED",
   "title": "trotula joint quantity code",
   "updated": "2026-09-20",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
