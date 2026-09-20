@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Source-only intake of Averyanov2026 workshop cipher; compare GDT603/604.
-Latest decision: 985 role remains conditional and single-locus;370 draft unselected;0words.
-Working files: experiments/yolo/gdt985_f75v_source_availability_continuation/FOLLOWUP_REVIEW.md
-Assumptions: New publication is no reopening evidence;no foreign target data;reserves closed.
-Resume: Obtain public paper/generator definitions only;decide if content can be recovered.
-Running: Root source intake/publication;producer idle;block earliestend09:05:26UTC.
+Task: Construct complete Balneis condition-content model before target selection.
+Latest decision: 371 retained/no result binding;Averyanov no content test;967 unchanged;0words.
+Working files: research_registry/work_batches/ten_hours_20260915/BALNEIS_COMPLETE_GUARD_DECISION_20260920.md
+Assumptions: Source claims/conditions,not executed trajectories;no default Latin;reserves closed.
+Resume: Read all VII/XI/XIX/XXXIII clauses;draft complete shared content by01:20UTC.
+Running: Root source construction;bounded producer active;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
