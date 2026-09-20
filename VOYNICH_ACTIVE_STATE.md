@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1001 TYPED WRITER STOP: all1108literal whole-paragraph cases contradicted independently;1590source-unknown cases,0computeunknown/code/word.192atom fullCato tree,96types;PREFIXrequires nine initialSEQcodes,absent in all554literal paragraphs. Serialization failure does not exclude cultivation or contextual morphology. No automatic writer/source repair. [Report](experiments/yolo/gdt1001_cato_typed_complete_branch_code/REPORT.md).
+
 GDT1000 RECIPE WRITER STOP: all531724fully literal different-leaf pair cases contradicted. Six shared-quantity pairs force QD1=daiin twice where IV15 predicts once; cvc5/Z3 and ground count agree.795source-unknown paragraphs/930037unknown pairs retained;0computation unknown/shared code/words. Different readings not independent; no2/5fraction or numeral meaning. GDT987 closure of986unknowns retained. [Report](experiments/yolo/gdt1000_trotula_joint_quantity_code/REPORT.md).
 
 GDT999 FRAME CAPACITY STOP: all62ykar contexts in1349whole exposed paragraphs checked;only original qokaiin-ykar-qokain-cheedy matches in both readers,0newstem/otherleaf. All4universal writers contradicted;local417unverified,not general containment refutation.0independentmeaning/words. [Report](experiments/yolo/gdt999_typed_pair_frame_transfer/REPORT.md).

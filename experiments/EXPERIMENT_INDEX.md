@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1000**
-- Experiment-associated tracked files: **19,462** (1.8 GiB)
+- Experiment-associated tracked files: **19,474** (1.8 GiB)
 - Structured GDT337+ experiments: **665**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1001 | cato typed complete branch code | `REGISTERED_UNSCORED` | — | 18 | 103.0 KiB | 8 | STRUCTURED_YOLO |
+| GDT1001 | GDT1001_cato_typed_complete_branch_code | `NO_LITERAL_TYPED_CODE_SOURCE_UNCERTAINTY_RETAINED` | [report](../experiments/yolo/gdt1001_cato_typed_complete_branch_code/REPORT.md) | 30 | 7.7 MiB | 8 | STRUCTURED_YOLO |
 | GDT1000 | GDT1000_trotula_joint_quantity_code | `NO_LITERAL_JOINT_FIT_SOURCE_UNCERTAINTY_RETAINED` | [report](../experiments/yolo/gdt1000_trotula_joint_quantity_code/REPORT.md) | 30 | 13.3 MiB | 8 | STRUCTURED_YOLO |
 | GDT999 | GDT999_typed_pair_frame_transfer | `NO_OTHER_LEAF_FRAME_TRANSFER` | [report](../experiments/yolo/gdt999_typed_pair_frame_transfer/REPORT.md) | 20 | 371.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT998 | GDT998_compositional_paradigm_features | `CONTRADICTED_COMPLETE_FEATURE_TABLES` | [report](../experiments/yolo/gdt998_compositional_paradigm_features/REPORT.md) | 22 | 2.1 MiB | 5 | STRUCTURED_YOLO |

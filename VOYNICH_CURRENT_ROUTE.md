@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;GDT1001 complete Cato typed tree code.
-Latest decision: 1000closed/published;1001new full-source/context-type writer selected.
-Working files: experiments/yolo/gdt1001_cato_typed_complete_branch_code/DECISION.md
-Assumptions: Full Cato133;no earlier word needed;no source success or Latin default.
-Resume: Register root-corrected192atom/96type tree;run both writers on all1349paragraphs.
-Running: Root1001registration/test to19:15UTC;producer3–5diverse raw hypotheses.
+Task: Ten-hour block to22:52:35UTC;review semantic use of parts/context next.
+Latest decision: 1001all1108literal codes contradicted;1590sourceunknown;0words.
+Working files: experiments/yolo/gdt1001_cato_typed_complete_branch_code/REPORT.md
+Assumptions: 1001exactwriter closed;parts/context baseline retained;no Latin default.
+Resume: Publish1001;review427/428and primaries before a different semantic test.
+Running: Root1001closure;producer3–5diverse raw hypotheses,then bounded selection.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
