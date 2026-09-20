@@ -1,5 +1,7 @@
-# GDT998 — compositional paradigm features
+# GDT998 — complete compositional grammatical tables
 
-Status: `REGISTERED_UNSCORED`
+Status: `CONTRADICTED_COMPLETE_FEATURE_TABLES`.
 
-See `METHOD.md` and `experiment.json`.
+All6,925 complete18-group windows fail both table traversals; all13,850
+length certificates independently verified. No code or meaning identified.
+See [REPORT](REPORT.md), [METHOD](METHOD.md), and [all candidates](artifacts/CANDIDATES.tsv).

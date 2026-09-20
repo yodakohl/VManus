@@ -1,0 +1,72 @@
+{
+  "title": "RAW_UNREVIEWED: Balneis state/effect clauses with a shared stem-and-suffix writer",
+  "summary": "A source-only De balneis state/effect account is paired with an explicit qok/che stem-and-suffix writer over the already exposed complete f83r.25-30 paragraph. Repeated components must preserve state, effect and scope roles; no target meaning is claimed.",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "scope": "semantic",
+  "created_utc": "2026-09-20",
+  "design": {
+    "distinctness": "A new component-level writer hypothesis, not a whole-word alias extension and not the f83r unweaving or transport reading. It uses a complete historical water-state/effect account and tests whether two recurring target stem families can carry different clause roles under one suffix grammar.",
+    "source": {
+      "work": "De balneis, ALIM553, XI 122-134 with the bounded counterexamples VII 74-85, XIX 219-228 and XXXIII 393-404",
+      "path": "research_registry/work_batches/ten_hours_20260915/BALNEIS_OPERATOR_GRAMMAR_SUPPLY.md",
+      "source_cache": "research_registry/work_batches/ten_hours_20260915/balneis_cache/ALIM553.txt",
+      "sha256": "397968f02fc5faf54161f2c0df9e755f96d36e649a27a140e64c2cfe0c69ecd",
+      "content_boundary": "XI 122-134 complete fresh-at-source, removed, cooled, renewed-water sequence; VII, XIX and XXXIII are complete contrast records retained for source-side guard checking.",
+      "content": "XI: water fresh at its source removes symptoms; after removal from the source it has no utility; when cooled it gives weak aid; after renewal it gives aid. VII, XIX and XXXIII preserve recipient/condition contrasts: hydrops may be harmed while an injured lung is helped; healthy recipients may be harmed while diseased bodies are helped; hydrops is helped under thick phlegm.",
+      "source_limit": "Abstract roles are source-content labels, not Voynich translations or medical advice. The source does not license a target word, patient, water portion or modern clinical claim."
+    },
+    "target": {
+      "boundary": "f83r.25-f83r.30 complete report-owned paragraph",
+      "path": "research_registry/proposals/translation_programs_20260912/work/P28/READING_N2.md",
+      "alternate_scope": "Use every existing ZL/IT/RF record in the cited complete paragraph; no new target rows, image or mixed TSV is opened.",
+      "recurring_forms": {
+        "qokeedy": ["f83r.25", "f83r.26", "f83r.30"],
+        "qokeey": ["f83r.25", "f83r.26"],
+        "qokedy": ["f83r.25", "f83r.26"],
+        "qoky": ["f83r.26", "f83r.30"],
+        "chedy": ["f83r.25"],
+        "cheey": ["f83r.29"]
+      }
+    },
+    "component_writer": {
+      "segmentation": [
+        "qokeedy := qok + e + edy",
+        "qokeey := qok + e + ey",
+        "qokedy := qok + edy",
+        "qoky := qok + y",
+        "chedy := che + dy",
+        "cheey := che + ey"
+      ],
+      "shared_components": {
+        "qok": "state/update predicate stem; abstract role only",
+        "che": "effect/result predicate stem; abstract role only",
+        "edy": "state-frame suffix",
+        "ey": "updated-state or outcome suffix",
+        "y": "continuation/reference suffix",
+        "dy": "effect/completion suffix",
+        "e": "optional linker retained in the proposed surface packing"
+      },
+      "word_rule": "WORD := ROOT + optional LINK + ROLE_SUFFIX. ROOT and ROLE_SUFFIX are globally reused; a form may not receive a new root or suffix sense at a later occurrence. The segmentation is a hypothesis and does not follow from EVA resemblance.",
+      "clause_rule": "RECORD := INTRODUCE(SOURCE) ; STATE(SOURCE,FRESH_AT_SOURCE) ; EFFECT(RECIPIENT,REMOVE) ; STATE(SOURCE,REMOVED) ; EFFECT(RECIPIENT,NONE) ; STATE(SOURCE,COOLED) ; EFFECT(RECIPIENT,WEAK_HELP) ; STATE(SOURCE,RENEWED) ; EFFECT(RECIPIENT,HELP). Guarded variants add CONDITION and SIGN without changing ROOT or suffix roles.",
+      "argument_policy": "SOURCE, STATE, RECIPIENT, CONDITION and EFFECT are typed arguments. The same SOURCE may persist across state updates; a recipient change or explicit condition may change SIGN. No nearest-noun carry or silent water replacement is allowed."
+    },
+    "unavoidable_target_prediction": "Across the complete f83r.25-30 paragraph, every qok-family occurrence must preserve the qok state/update stem and its suffix role. qokeedy cannot become a new local predicate in .30, and qokeey cannot become an unrelated noun in .26. If the proposed suffix contrast is active, switching qokeedy/qokedy to qokeey/qoky must change the state/reference class while chedy/cheey remains in the effect family. A complete target writer would therefore reject any reading that assigns the same state role to all four qok forms but still claims the suffixes are compositional.",
+    "source_consequence": "The state-aware writer predicts that the same recipient can receive different effects when SOURCE/STATE changes, while VII/XIX/XXXIII require an explicit recipient or CONDITION guard for a sign reversal. A condition-free body-to-effect lexicon predicts one fixed sign and cannot represent XI removal/cooling/renewal or the hydrops/healthy exceptions under one clause grammar.",
+    "rival": {
+      "name": "free stem or local whole-form reading",
+      "rule": "Treat qokeedy, qokeey, qokedy and qoky as unrelated whole predicates, and let chedy/cheey switch effect or argument scope per occurrence.",
+      "different_consequence": "The rival can assign help, no utility, or harm after any state without a written state or recipient condition. It loses the source-required fresh/removed/cooled/renewed order and permits arbitrary sign changes on the same target paragraph."
+    },
+    "predecessors_and_stops": [
+      {"id": "GDT608", "retained": "Directed composition and whole-form residuals are structural evidence only; no semantic stem is inherited."},
+      {"id": "GDT915", "retained": "Known phrase co-variation does not establish a productive new stem-pair grammar."},
+      {"id": "GDT916", "retained": "New stem-pair concordance is not established."},
+      {"id": "GDT930/GDT949", "retained": "Missing grouping and failed adjacency are not repaired by assigning these proposed stems."},
+      {"id": "GDT986/GDT987", "retained": "The Anastasia PREFIX/POSTFIX atom writers were closed/refuted for their registered conjunction; this proposal changes source, component inventory and target consequence."},
+      {"id": "IDEA000378", "retained": "The existing f83r unweaving card uses whole-form hypotheses and remains an incompatible content rival, not a source of qok/che meanings."}
+    ],
+    "strongest_failure": "No independently owned target evidence currently says qok and che are semantic stems or that edy/ey/y/dy are role suffixes. The complete f83r paragraph may have different boundaries, the source may not be the target content, and the suffix segmentation may be wrong. If the repeated forms expose only recurrence without state, recipient, condition or scope markers, the writer is underdetermined rather than supported.",
+    "selection_debt": "Before any fit, freeze the complete f83r.25-30 records, this segmentation, all source clauses, a rival and a finite surface realization. A source match alone cannot select a target meaning; no word, patient, water state or language is confirmed.",
+    "access": "Existing route/topic/primary reports and already exposed report-owned paragraph only. No new target access, image, mixed TSV, reserve, sealed folio, decoder, experiment, ledger, route, refresh, commit or publication."
+  }
+}

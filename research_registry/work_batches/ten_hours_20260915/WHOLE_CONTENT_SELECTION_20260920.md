@@ -652,3 +652,18 @@ Other reviews retained:963/978full code unresolved,984weak projection stopped;
 fixed narrow role rules contradicted. No new morphology claim follows from their
 fluent English/German renderings. Latest producer380/381/382shortlist remains
 raw: source-owned content plus whole-word guesses is not yet a shared writer.
+
+### GDT998executed15:46UTC
+
+Registered4760273b0before target. All6925windows/13850traversal cases fail the
+necessary length rectangle;no local or paired code,0unknowns. Independent
+all-case validationPASS15:46:19UTC. Six field orders and six channel labels
+are covered by each negative certificate,not independent statistical tries.
+GDT900unchanged;no table/allomorph/row repair. Whole-word similarities didnot
+extend to this explicit shared-feature construction. Full sourcepredicate
+renaming ambiguity was declared before the result and remains a ceiling.
+
+Next414is raw and undergoing complete-passage construction by the producer.
+Its initial source sketch must retain the existing BALNEIS_COMPLETE_CONTENT
+corrections:attribution/digging,heat tolerance,removed/cooled overlap and
+distinct renewal objects. No target experiment or feature meanings selected.

@@ -1,0 +1,197 @@
+{
+  "selection": "First existing case in each panel/traversal after full result; illustrative only, no extra test",
+  "examples": [
+    {
+      "panel": "IT2a",
+      "layout": "ROW_MAJOR",
+      "window_id": "G807-P0006@0",
+      "row": 1,
+      "column": 1,
+      "positions": [
+        "IT2a|f3r.11|G001",
+        "IT2a|f3r.11|G002",
+        "IT2a|f3r.11|G004",
+        "IT2a|f3r.11|G005"
+      ],
+      "words": [
+        "pcheol",
+        "shol",
+        "sheol",
+        "shey"
+      ],
+      "lengths": [
+        6,
+        4,
+        5,
+        4
+      ],
+      "equation": "length(r,c)=length(r,0)+length(0,c)-length(0,0)",
+      "certificate": {
+        "column": 1,
+        "expected": 3,
+        "observed": 4,
+        "row": 1
+      }
+    },
+    {
+      "panel": "IT2a",
+      "layout": "COLUMN_MAJOR",
+      "window_id": "G807-P0006@0",
+      "row": 1,
+      "column": 1,
+      "positions": [
+        "IT2a|f3r.11|G001",
+        "IT2a|f3r.12|G002",
+        "IT2a|f3r.11|G002",
+        "IT2a|f3r.12|G003"
+      ],
+      "words": [
+        "pcheol",
+        "qokchor",
+        "shol",
+        "qoschodam"
+      ],
+      "lengths": [
+        6,
+        7,
+        4,
+        9
+      ],
+      "equation": "length(r,c)=length(r,0)+length(0,c)-length(0,0)",
+      "certificate": {
+        "column": 1,
+        "expected": 5,
+        "observed": 9,
+        "row": 1
+      }
+    },
+    {
+      "panel": "RF1b",
+      "layout": "ROW_MAJOR",
+      "window_id": "G807-P0009@0",
+      "row": 1,
+      "column": 1,
+      "positions": [
+        "RF1b|f3v.1|G001",
+        "RF1b|f3v.1|G002",
+        "RF1b|f3v.1|G004",
+        "RF1b|f3v.1|G005"
+      ],
+      "words": [
+        "koaiin",
+        "cphor",
+        "sha",
+        "ckhol"
+      ],
+      "lengths": [
+        6,
+        5,
+        3,
+        5
+      ],
+      "equation": "length(r,c)=length(r,0)+length(0,c)-length(0,0)",
+      "certificate": {
+        "column": 1,
+        "expected": 2,
+        "observed": 5,
+        "row": 1
+      }
+    },
+    {
+      "panel": "RF1b",
+      "layout": "COLUMN_MAJOR",
+      "window_id": "G807-P0009@0",
+      "row": 1,
+      "column": 1,
+      "positions": [
+        "RF1b|f3v.1|G001",
+        "RF1b|f3v.1|G007",
+        "RF1b|f3v.1|G002",
+        "RF1b|f3v.1|G008"
+      ],
+      "words": [
+        "koaiin",
+        "s",
+        "cphor",
+        "oly"
+      ],
+      "lengths": [
+        6,
+        1,
+        5,
+        3
+      ],
+      "equation": "length(r,c)=length(r,0)+length(0,c)-length(0,0)",
+      "certificate": {
+        "column": 1,
+        "expected": 0,
+        "observed": 3,
+        "row": 1
+      }
+    },
+    {
+      "panel": "ZL3b",
+      "layout": "ROW_MAJOR",
+      "window_id": "G807-P0005@0",
+      "row": 1,
+      "column": 1,
+      "positions": [
+        "ZL3b|f3r.1|G001",
+        "ZL3b|f3r.1|G002",
+        "ZL3b|f3r.1|G004",
+        "ZL3b|f3r.1|G005"
+      ],
+      "words": [
+        "tsheos",
+        "qopal",
+        "cthol",
+        "daimg"
+      ],
+      "lengths": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "equation": "length(r,c)=length(r,0)+length(0,c)-length(0,0)",
+      "certificate": {
+        "column": 1,
+        "expected": 4,
+        "observed": 5,
+        "row": 1
+      }
+    },
+    {
+      "panel": "ZL3b",
+      "layout": "COLUMN_MAJOR",
+      "window_id": "G807-P0005@0",
+      "row": 1,
+      "column": 2,
+      "positions": [
+        "ZL3b|f3r.1|G001",
+        "ZL3b|f3r.3|G003",
+        "ZL3b|f3r.1|G002",
+        "ZL3b|f3r.3|G004"
+      ],
+      "words": [
+        "tsheos",
+        "chol",
+        "qopal",
+        "daiin"
+      ],
+      "lengths": [
+        6,
+        4,
+        5,
+        5
+      ],
+      "equation": "length(r,c)=length(r,0)+length(0,c)-length(0,0)",
+      "certificate": {
+        "column": 2,
+        "expected": 3,
+        "observed": 5,
+        "row": 1
+      }
+    }
+  ]
+}

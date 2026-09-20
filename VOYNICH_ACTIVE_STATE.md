@@ -1,5 +1,12 @@
 # Voynich active state — structural reset baseline
 
+GDT998 FEATURE-TABLE STOP: all6925 complete18-group windows contradict shared stem/person/tense length additivity under both traversals;13850 certificates independently verified,0local/pairedcodes/unknowns/words. Exact semantic-feature table writer only;900literal failure unchanged,no allomorph/table repair or independent confirmation. [Report](experiments/yolo/gdt998_compositional_paradigm_features/REPORT.md).
+
+GDT997 QUALIFIED EXTENSION: all1349whole paragraphs evaluated;five new local coherent witnesses retained,all1cargo/1trip/nohazardpairs. Four use0old words,oneuses1;allfour saved-witness pairs with shared new spellings conflict.1173grammar exclusions,143unknowns;original positive retained,not jointmodelUNSAT or portable meaning. [Report](experiments/yolo/gdt997_transport_finite_completion_capacity/REPORT.md).
+
+GDT996 SOURCE PREMISE: aware native inspection supports joined initial pdalshdy;sol/chedy remains uncertain. IT initial split forces four known-position conflicts even with arbitrary unknown fills. No repaired transcription/993model or independent meaning. [Report](experiments/yolo/gdt996_f83r_candidate_seam_consequences/REPORT.md).
+
+
 GDT995 CONDITIONAL CONTROL RECOVERY: full mandatory inverse rejects all48old837keys;45fixed role/L/W maps admit24suffix assignments each and unchanged language score selects34/34active values,192991/192991held words,13828/13828sentences. Three maps have no suffix-only completion;all24priority orders remain equivalent. Independent direct-forward validator PASS. Retrospective known architecture,not fresh blind recovery or Voynich language;837strictfailure unchanged,0words. [Report](experiments/yolo/gdt995_conditional_suffix_inverse/REPORT.md).
 
 GDT994 TRANSFER CAPACITY STOP: all1349complete paragraphs checked;only the fitted63-group ZL original is inside993s frozen47-word inventory. All1348other reader-dependent rows lack words;0additional full readings,not1348semantic contradictions. Four original variants reproduce;full-row independent implementation PASS;90exposedleaves,0meaning confirmation/words. Park unchanged transfer without extra singleton glosses. [Report](experiments/yolo/gdt994_frozen_transport_whole_transfer/REPORT.md).

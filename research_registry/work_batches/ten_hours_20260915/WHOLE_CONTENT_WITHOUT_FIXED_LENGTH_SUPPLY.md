@@ -461,6 +461,153 @@ regulators, a marked tongue/point relation, hydraulic inlet and receiving
 vessel, opposed motion, and a cyclic state; generic apparatus resemblance is
 insufficient. No new raw card was added.
 
+### Bounded shortlist after GDT997: full clauses plus reusable composition (2026-09-20)
+
+The published GDT997 transport result is excluded from this shortlist; no
+transport alias extension or `THEN` repair is proposed. A review of the existing
+raw surplus found three already registered, mutually distinct whole-content
+constructions. Each has an exposed complete target paragraph, a source-owned
+full account, repeated whole-form hypotheses, and a prospective shared
+root/argument/scope grammar. All remain `RAW_UNREVIEWED`; no new card was
+added.
+
+**IDEA000380 — Fibonacci net contribution, f77r.25–37.** The exact target
+boundary is the complete paragraph `f77r.25–f77r.37` in
+`experiments/yolo/gdt811_four_page_content_synthesis/artifacts/FOUR_PAGES_FULL_TEXT.md`,
+with ZL3b, IT2a and RF1b alternate readings retained. Its source boundary is
+the complete *Liber abbaci* meal/reward account from “De duobus hominibus
+habentibus panes” through the final `bizantij4`/`bizantius1` result and margin
+table, before the perfect-number problem, as recorded in
+`research_registry/proposals/raw_contribution_elements_burden_context_20260920.md:21–63`.
+The shared whole-form candidates are `shedy` (bread/shared food amount),
+`qokeedy` (consume), `qokaiin`/`qokain` (persistent owners A/B), `lchedy`
+(guest), and `chedy` (allocation/share). The clause inventory must keep A, B,
+and G across possession, equal eating, invitation, departure, reported gross
+3/2 allocation, rejection, net supply, and final 4/1 payment; `REJECT` must
+scope over the reported proposition rather than act as a free polarity.
+
+Its binding consequence is arithmetic plus argument identity: 3−5/3 and
+2−5/3 yield a 4:1 contribution ratio, while gross 3/2 also conserves the five
+coins. If repeated `qokeedy` changes from `CONSUME` to a new local predicate,
+or `qokaiin`/`qokain` changes owner between the self-consumption and guest-
+supply clauses, the 4/1 result no longer follows from one shared account. The
+source's fountain, invitation, courtesy, departure and rejected opinion must
+remain in the unknown spans; they cannot be replaced by arithmetic filler.
+Primary stops already checked are IDEA000363's missing target/writer contract
+and GDT817's incompatible water/becomes draft; the card also retains the
+GDT969/970/979 fixed-code contradictions and W91/W94 identity debts. This is
+not a confirmed numeral or participant reading.
+
+**IDEA000381 — Timaeus typed reassembly, f77r.38–48.** The exact target
+boundary is the complete paragraph `f77r.38–f77r.48` in the same GDT811
+FOUR_PAGES_FULL_TEXT source, with all alternate readings retained. The source
+boundary is the full Timaeus 54a–56e change account: the 56d–e transformation
+subsection plus its 54–55 component prerequisites, explicitly excluding the
+earlier probability/size/mobility discussion and the fifth cosmic figure. The
+owned source details are in `raw_f77r_typed_element_reassembly.json` and
+`raw_f77r_timaeus_source_detail_20260920.md`.
+
+The shared whole-form candidates are `qokeedy` (fire-kind), `qotedy`
+(air-kind), `qotaiin` (water-kind), `shedy` (earth-kind), `qol` (break apart),
+and `cheey` (reassemble). A single finite grammar must pack typed material
+arguments, component multisets, `SURROUNDS`, `BREAKS`, `DEFEATS`, `MEETS`,
+`REASSEMBLES`, and explicit `IF/CANNOT/BECAUSE/LIKELY` scope. It cannot treat
+the four repeated forms as isolated element labels.
+
+Its changed consequence is a coproduct and type guard: water decomposition
+produces one fire plus two air, and a further air decomposition gives two fire,
+so the complete chain carries five fire products. An untyped scalar account
+that drops the first fire gives four; an earth→fire reassignment can preserve
+scalar count 24 while violating the source's distinct component type. Changing
+the shared `qol` argument order or allowing `qotaiin` to switch material role
+between .40 and .43 destroys those consequences. The exact guards, motion,
+reunion, relative enclosure and probable-status clauses remain source debts;
+unknown target groups are not filler. Primary stops are IDEA000352's source
+algebra without a target, GDT964's failed universal one-edit element rule, and
+GDT817's warning that material names do not supply an unprinted transformation.
+
+**IDEA000382 — Babrius salt/sponge expectation, f82r.20–33.** The exact target
+boundary is the complete paragraph `f82r.20–f82r.33` in the report-owned
+`research_registry/proposals/translation_programs_20260912/work/P28/READING_N2.md`.
+The source is the complete Babrius Fable CXI, “The Ass Carrying Salt,”
+including the moral: accidental salt loss, deliberate successful salt
+repetition, deliberate sponge-loaded repetition, and the final changed
+expectation. The source boundary, witness limitations and all target rows are
+in `raw_f82r_salt_sponge_expectation.json`.
+
+The shared whole-form candidates are `shedy` (salt load), `lchedy` (sponge
+load), `qokaiin` (ass/carrier), `cheey` (merchant), `qokeedy`
+(fall/immerse), and `qokeey` (burden/weight). One grammar must keep the carrier
+and immersion action across all three episodes while separately scoping
+`ACCIDENTAL`, `PURPOSEFUL`, `EXPECTS`, and `ACTUAL`; `LOADS` introduces a fresh
+material batch rather than silently changing the old one.
+
+Its changed consequence is material-dependent: salt dissolves and lightens the
+load, but a sponge absorbs water and increases the carried burden, so the same
+deliberate maneuver succeeds in the second episode and fails after the material
+change. If `lchedy` is reassigned as another salt load, or `qokeedy` changes
+event type between episodes, the source's expectation failure disappears. An
+operation-only rule predicts lighter loads throughout and is therefore a
+different whole-content account. The source moral, purchase reason, merchant's
+decision and double-bale expression remain required. Primary stops are
+IDEA000377's capacity/safe-transport narrative, IDEA000378's actual unweaving
+mechanism, and GDT785's C0 `sal=salt` result; none supplies a target word.
+
+These three candidates are complementary: typed participant/proposition scope,
+typed coproduct and material identity, and persistent-action/material-response
+scope. Their common limitation is the same explicit one: source truth does not
+bind a target word, and the proposed root packing, clause boundaries and
+unknown groups remain unreviewed. No new target rows, mixed TSV, image, reserve,
+sealed folio, decoder, statistic, route, ledger, curation or publication was
+used.
+
+### Producer batch: one genuinely compositional alternative after the writer-contract review (2026-09-20)
+
+The bounded writer-contract review found one additional construction that meets
+the requested component-level standard without reopening the 380/381/382
+families. **IDEA000414** is retained `RAW_UNREVIEWED` in
+`research_registry/proposals/producer_20260920_balneis_component_writer.json`.
+It is not a whole-word alias extension, and it does not reuse GDT997's
+transport or `THEN` construction.
+
+The source is *De balneis* ALIM553 XI 122–134, with VII 74–85, XIX 219–228
+and XXXIII 393–404 as complete counterexamples. The bounded source dossier is
+`BALNEIS_OPERATOR_GRAMMAR_SUPPLY.md`; its source content keeps one water
+reference through fresh-at-source, removed, cooled and renewed states, with
+effects removal, no utility, weak help and help. The counterexamples require
+recipient/condition guards for harm versus help. The already exposed target
+boundary is the complete report-owned `f83r.25–f83r.30` paragraph in
+`research_registry/proposals/translation_programs_20260912/work/P28/READING_N2.md`.
+
+The proposed writer is explicit. It segments recurring forms as
+`qokeedy=qok+e+edy`, `qokeey=qok+e+ey`, `qokedy=qok+edy`, `qoky=qok+y`,
+`chedy=che+dy`, and `cheey=che+ey`. `qok` is one abstract state/update stem;
+`che` is one abstract effect/result stem. `edy`, `ey`, `y`, and `dy` are
+globally reused role suffixes for state frame, updated state/outcome,
+continuation/reference, and effect/completion. The complete clause constructor
+is:
+
+`INTRODUCE(SOURCE) → STATE(SOURCE,FRESH) → EFFECT(RECIPIENT,REMOVE) →
+STATE(SOURCE,REMOVED) → EFFECT(RECIPIENT,NONE) → STATE(SOURCE,COOLED) →
+EFFECT(RECIPIENT,WEAK_HELP) → STATE(SOURCE,RENEWED) → EFFECT(RECIPIENT,HELP)`.
+
+`SOURCE`, `STATE`, `RECIPIENT`, `CONDITION` and `EFFECT` are typed arguments;
+the same source persists across state updates, and a sign change requires a
+written recipient or condition guard. On the complete f83r paragraph, every
+qok-family recurrence must retain the qok stem and suffix role: qokeedy cannot
+become a new local predicate in `.30`, and qokeey cannot become an unrelated
+noun in `.26`. A free whole-form rival can assign help, no utility or harm at
+any occurrence, so it loses the Balneis state order and counterexample guards.
+
+The hardest failure is direct: no target evidence independently establishes
+qok/che segmentation or assigns edy/ey/y/dy semantic roles; the paragraph may
+not contain the proposed clause boundaries, and the source need not be the
+target content. GDT608 supplies directed structural composition only; GDT915/
+916 do not establish productive new stem-pair grammar; GDT930/GDT949 retain
+grouping/adjacency debt. GDT986/987, Geniza GDT966, and Alloy R1/R2 were treated
+as closed or refuted predecessor contracts rather than silently reopened. The
+new card therefore remains unreviewed and source-to-target binding is unknown.
+
 ## Source audit record and public reproducibility
 
 All links below identify public sources; hashes bind bytes actually downloaded. Original source images were viewed through native image inspection. Images, browser captures, caches and absolute machine paths are not included in this dossier or its raw card. No Voynich transcription or image file, reserve, f84/f84r or f116v was opened. Registry metadata and primary result prose were used for duplicate/claim checks; their quoted historical target examples were not treated as new experiment data. No contact was made. Root owns publication, route and ledger changes.
