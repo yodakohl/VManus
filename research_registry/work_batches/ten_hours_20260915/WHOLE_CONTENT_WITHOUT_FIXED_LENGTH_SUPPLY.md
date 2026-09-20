@@ -117,7 +117,110 @@ The surface language remains **unfrozen**. This dossier does not present a compl
 
 **Selection recommendation:** retain this architecture as raw source supply, but start no decoder from this dossier. No currently admitted Voynich figure was inspected in this task, and no exact prospective consequence on such a figure has been specified. The outcome is an underdefined candidate, not a declaration that no such consequence exists. Do not start another unchanged missing-input audit or broaden a closed graph endpoint automatically. The next decision belongs with a concrete whole-reading proposal, using the existing admission and predecessor contracts.
 
+### Bounded producer audit: RAW348 source distinction (2026-09-20)
+
+The proposed distinction is already fully represented by `IDEA000348` and the
+paired source inventory above, so no new raw card is added. Direct reinspection
+of the owned Greenwood/Woodcroft 1851 e-text confirms two complete traces:
+
+* **§37, pp.57–58:** the shared setup uses altar, globe, bent siphon, hinges,
+  opposed chains and pulleys, suspended vessel NX, lead weight and a half-filled
+  globe. Heating expands altar air; air entering the globe drives liquid through
+  the siphon into NX. NX gains mass and **descends**, tightening the chains to
+  open the doors. On extinguishing, the siphon draws liquid back, NX lightens,
+  and the lead weight predominates and descends to shut the doors. The optional
+  quicksilver substitution changes the transfer medium and weight, not the
+  endpoint contract.
+* **§38, pp.59–60:** the prior temple/base/altar and hinge-chain arrangement is
+  explicitly reused, but the actuator is an airtight leather bag K with weight
+  L. Heating sends expanded air through FGH into the bag; the bag rises with L
+  and opens the doors. When the fire is extinguished, air leaves, the bag and L
+  descend, and the chains close the doors. The source permits self-opening or a
+  counterbalancing opening weight, an explicit branch that must remain separate
+  from the main trace.
+
+Thus a small shared inventory can be source-valid: condition (fire on/off),
+altar/air expansion, hinge-chain/pulley coupling, actuator, motion, open/close
+state and reset. Global renaming cannot erase the source difference because the
+opening motion and transfer graph differ: §37 transfers liquid into a suspended
+vessel that descends, while §38 inflates an elastic bag that rises with its
+weight. Their reset operations also differ (liquid return versus air release).
+The common endpoint alone would admit both; the typed actuator, transfer and
+motion consequences separate them.
+
+This is a source result, not a target result. The target-side fields that would
+carry component identity, operation, motion sign and reset are independently
+unknown. GDT214's hydraulic component-key comparison found historical format
+support but no Voynich key prediction; GDT885 closed only a fixed three-state
+common-endpoint machine; GDT903 left unrestricted reversible endpoint actions
+compatible without a writing rule. GDT209 likewise supplied broad apparatus
+ecology without an exact homolog. None exhausts the typed causal distinction,
+but none supplies the missing target binding. Keep `IDEA000348` raw and
+unselected; do not duplicate it as a generic UP/LOW or causal-chain proposal.
+
 The single new raw architecture is retained in [complete conditional mechanism programs](../../proposals/complete_conditional_mechanism_programs.json). Heraldry remains a source comparison with IDEA000111 and music remains source support for IDEA000142; no new genre variants are added just to increase the queue.
+
+### Bounded paired-source shortlist: reused inventory, changed relation (2026-09-20)
+
+A further bounded review found three already-owned source mechanisms that meet
+the requested paired-trace shape. All three already have raw cards, so no new
+idea was added. They are source comparisons only; none identifies a target
+field, word, or writer.
+
+**IDEA000389 — Saint Albans counterchanged tinctures.** The two complete
+adjacent 1486 items on page 195 reuse the small inventory `Field(partition,
+color-pair)`, `Chevron`, and the backward reference `de dictis coloribus
+transmutatis`. Trace A uses a quarterly sable/silver field; trace B uses a
+per-pale gold/red field. In both, the same reference assigns the opposite
+member of the declared pair to each charge region. The relation therefore
+changes with the field region while a uniform charge color fails. Global color
+renaming preserves the rule; arbitrary per-region colors destroy it. The
+omissions are material: this is a 1486 witness later than the manuscript date
+range, the second shield is monochrome so gold/red are text-only assertions,
+and the two examples change both partition and palette. The source and exact
+Latin traces are in `REFERENCE_ROLE_SOURCE_SUPPLY_20260920.md` and
+`raw_counterchanged_tincture_reference_1486.json`. GDT980 closed a tautological
+whole-query semantics, not this explicit backward-reference constructor.
+
+**IDEA000352 / IDEA000381 — Timaeus typed transformations.** The complete
+54a–56e source uses a small inventory of material kinds, typed elementary
+constituents, breaking, surrounding, reunion and transformation. One trace
+states that water broken by fire or air yields one fire corpuscle plus two air
+corpuscles; another states that dissolved air yields two fire corpuscles, while
+earth fragments reunite as earth and cannot cross into another type. The
+coproduct and the earth type guard change the relational consequence even when
+scalar counts are preserved. Consistent renaming of abstract carriers leaves
+the distinction intact; an untyped scalar reassignment erases it. The source
+is a qualified probable account in Lamb 1925; surrounding/defeat conditions,
+motion and reunion remain source obligations, and no specific pre-1450 witness
+was collated. Evidence is in `raw_global_typed_element_transformations.json`
+and `raw_f77r_timaeus_source_detail_20260920.md`. GDT964 rejected a uniform
+single-edit element-class rule over a target family; that does not exhaust this
+source typed-coproduct mechanism.
+
+**IDEA000402 — Galen II.44 cabbage preparation.** The complete five-paragraph
+entry reuses cabbage, juice/body, first cooking water, replacement hot water,
+boiling and transfer. Trace A retains the first water with cabbage for the
+purging outcome; trace B pours away the former water, immediately transfers
+the cabbage into other hot water, and boils it again for the drying outcome.
+The later passage repeats the former/replacement-water reference and says that
+air or cold water defeats softening. The relational change is constituent
+retention/replacement, not a free polarity word. Global renaming of material
+roles preserves it; treating the two waters as one or independently relabeling
+each recurrence breaks the trace. No amount, temperature, loss rate, or exact
+second-water serving instruction is written; the two alternatives are not one
+physical serving undergoing both treatments. The complete Greek source packet
+and omissions are in `GALEN_CABBAGE_OPPOSED_EFFECTS_SUPPLY_20260920.md` and
+`GALEN_CABBAGE_COMPLETE_SOURCE_20260920.json`. IDEA334, GDT625 and GDT768 were
+checked as nearest predecessors; none binds a target meaning for this source
+relation.
+
+These three are the strongest current choices for later source review: Saint
+Albans supplies region-conditioned reference, Timaeus supplies typed
+coproduct/type exclusion, and Galen supplies retained-versus-replaced
+constituent identity. Their common debt is a target-side field contract. No
+Voynich access, decoder, ledger, route update or experiment follows from this
+shortlist.
 
 ## Source audit record and public reproducibility
 

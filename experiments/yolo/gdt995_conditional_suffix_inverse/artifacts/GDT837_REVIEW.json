@@ -1,0 +1,43 @@
+{
+  "record_id": "GDT837",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root",
+  "assessment_basis": "primary_reports_and_complete_independent_replay",
+  "reason": "Original48fit experiment remains STRICT_RECOVERY_FAIL: all6selections33/34active outputs and no W-priority recovery gain. The false ae-to-a map has a higher frozen score but violates the complete deterministic inverse not implemented then. GDT995 separately shows retrospective conditional recovery with fixed old non-suffix maps; it does not supersede the original decision.",
+  "blockers": [
+    {
+      "code": "original_exact_active_recovery_failed",
+      "detail": "33/34active output pairs; GDT995 has a different conditional inverse contract.",
+      "evidence": [
+        "experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md",
+        "experiments/yolo/gdt995_conditional_suffix_inverse/REPORT.md",
+        "experiments/yolo/gdt995_conditional_suffix_inverse/METHOD.md",
+        "experiments/yolo/gdt995_conditional_suffix_inverse/artifacts/RESULT.json",
+        "experiments/yolo/gdt995_conditional_suffix_inverse/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_full_recovery_design",
+        "change": "new_design",
+        "detail": "Separate bounded fresh full-key recovery design with complete inverse active, source and decision relevance fixed before outcomes.",
+        "evidence": [
+          "experiments/yolo/gdt995_conditional_suffix_inverse/REPORT.md",
+          "experiments/yolo/gdt995_conditional_suffix_inverse/METHOD.md",
+          "experiments/yolo/gdt995_conditional_suffix_inverse/artifacts/RESULT.json",
+          "experiments/yolo/gdt995_conditional_suffix_inverse/artifacts/VALIDATION.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Restart agreement",
+      "This conditional completion used as a fresh recovery pass",
+      "Default Latin or target decoder permission"
+    ]
+  },
+  "relations": []
+}

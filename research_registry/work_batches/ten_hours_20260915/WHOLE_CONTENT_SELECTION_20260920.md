@@ -385,3 +385,26 @@ None authorizes a Voynich decoder or confirms Latin. No automatic further repair
 Assumptions: mandatory abbreviation, supplied atoms/words,26L4S8Wroles/counts,
 fixed fitted L/W values, retrospective known error. Three keys share one source.
 Zero independent meaning capacity,0translated words;837strictfailure unchanged.
+
+### GDT995 actual closure13:36UTC
+
+Public19648e498preceded the13:28:56–13:29:07discovery run. All48old maps
+fail candidate-owned inverse;45fixed role/L/W maps admit24suffix maps each,
+3admitnone. All45conditional score winners match34/34active values and all
+192991heldwords/13828sentences;all6original selected identities included.
+570240nominal assignments accounted for;1080feasible completions retained.
+Independent forward/scoring/truth validator PASS;11invented fixtures PASS.
+24priorityorders remain equivalent;the inverse identifies the four-value deck,
+not its permutation. Source/role/L/W assumptions and837strictfailure retained.
+
+The first validator invocation preceded RESULT.json and stopped for missing
+file;the unchanged validator passed after completion. No scientific repair.
+Manifest command-schema correction was made before publication and recorded
+inPREREG_LOCK. A separate post-result reporting check verifies all48original
+violation totals by direct encoding. The result is a genuine conditional control
+positive,not Voynich meaning or fresh full-key recovery. No automatic decoder
+implementation follows. Review typed whole mechanisms next,including214/885/903
+primaries before any target nomination;the source producer found no new distinct
+mechanism beyond retained348/389/352/381/402. Those cards remain unselected.
+Preparation13:16through completed core validation13:34was about18minutes;
+publication is still pending here and stays inside the14:05inclusive checkpoint.
