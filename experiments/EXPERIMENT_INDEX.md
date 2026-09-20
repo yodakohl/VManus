@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **986**
-- Experiment-associated tracked files: **19,122** (1.7 GiB)
-- Structured GDT337+ experiments: **651**
+- Experiments indexed: **987**
+- Experiment-associated tracked files: **19,137** (1.7 GiB)
+- Structured GDT337+ experiments: **652**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT988 | Two complete typed proof-conversion records | `REGISTERED_UNSCORED` | — | 15 | 41.4 KiB | 3 | STRUCTURED_YOLO |
 | GDT987 | GDT987_anastasia_finite_word_proof | `ALL_LITERAL_FIXED_CODES_CONTRADICTED` | [report](../experiments/yolo/gdt987_anastasia_finite_word_proof/REPORT.md) | 22 | 584.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT986 | GDT986_anastasia_complete_condition_trees | `BOUNDED_LITERAL_SEARCH_UNRESOLVED` | [report](../experiments/yolo/gdt986_anastasia_complete_condition_trees/REPORT.md) | 26 | 1.1 MiB | 3 | STRUCTURED_YOLO |
 | GDT985 | GDT985_post_result_sheolo_scope | `SINGLE_KNOWN_LOCUS` | [report](../experiments/yolo/gdt985_f75v_source_availability_continuation/FOLLOWUP_REVIEW.md) | 32 | 517.6 KiB | 7 | STRUCTURED_YOLO |

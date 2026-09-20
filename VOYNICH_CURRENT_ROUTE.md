@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Select a complete-content candidate with attested repeated-reference notation.
-Latest decision: Trotula43source units retained;f82r/f83r do not bind odors/branches.
-Working files: research_registry/proposals/raw_reference_assembly_observation_context_20260920.md
-Assumptions: No inherited gloss;complete source content and exposed whole paragraphs required.
-Resume: Review reference grammar candidates and their primary stops before choosing a test.
-Running: Root selection;bounded notation-source producer active;earliestend09:05:26UTC.
+Task: GDT988 complete typed proof-conversion records on exposed whole paragraphs.
+Latest decision: Two source-owned proofs;fixed10/22group serializers;no inherited glosses.
+Working files: experiments/yolo/gdt988_sherwood_typed_conversion_records/METHOD.md
+Assumptions: Shared typed codes;nonempty classes;source text is not the serializer.
+Resume: Publish preregistration;run all cases and separate validator;checkpoint03:30UTC.
+Running: Root GDT988;bounded source producer active;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

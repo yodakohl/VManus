@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "historical_source": {
+    "author": "William of Sherwood",
+    "work": "Introductiones in logicam",
+    "edition": "Grabmann1937",
+    "url": "https://publikationen.badw.de/de/011720359/011720359.pdf",
+    "sha256": "c0c7434f09d950bc5489f67f7b897d9361024d077e4389fdaa42500d4bccd53e",
+    "native_pages": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "selected_content": "Complete eighth and ninth first-figure indirect reductions, printed53:16-30",
+    "date": "13th century; later1937 edition"
+  },
+  "source_status": "Operations and propositions attested; serialized execution records are our new hypothesis, not attested source layout or a Latin plaintext.",
+  "known_source_conflicts": [
+    "campestres p disagrees with its prose reduction; not normalized",
+    "printed b+r reductio rule retained; not used as a general decoder",
+    "printed third-figure negative-major prohibition conflicts with examples; not used",
+    "fapesmo converted-major printed quod interpreted as particular from explicit per-accidens rule; no silent quotation emendation"
+  ],
+  "proposition_semantics": {
+    "A": "S subset P",
+    "E": "S intersect P empty",
+    "I": "S intersect P nonempty",
+    "O": "S minus P nonempty"
+  },
+  "class_domain": "Each class is nonempty; this is an explicit model assumption, not an extra written premise. Empty classes invalidate per-accidens and are checked as a scope counterexample.",
+  "operations": {
+    "P": "Convert preceding original major A(S,P) to I(P,S)",
+    "S": "Convert specified original E/I premise by exchanging its two arguments",
+    "SWAP": "Exchange the converted premises",
+    "FERIO": "From E(M,P) and I(S,M), conclude O(S,P)"
+  },
+  "record_slot_roles": [
+    "original_major",
+    "original_minor",
+    "proposed_conclusion",
+    "major_conversion",
+    "converted_major",
+    "minor_conversion",
+    "converted_minor",
+    "exchange",
+    "inference",
+    "repeated_conclusion"
+  ],
+  "traces": {
+    "FAPESMO": [
+      [
+        "Q:A",
+        "T:HUMAN",
+        "T:ANIMAL"
+      ],
+      [
+        "Q:E",
+        "T:STONE",
+        "T:HUMAN"
+      ],
+      [
+        "Q:O",
+        "T:ANIMAL",
+        "T:STONE"
+      ],
+      [
+        "OP:P"
+      ],
+      [
+        "Q:I",
+        "T:ANIMAL",
+        "T:HUMAN"
+      ],
+      [
+        "OP:S"
+      ],
+      [
+        "Q:E",
+        "T:HUMAN",
+        "T:STONE"
+      ],
+      [
+        "OP:SWAP"
+      ],
+      [
+        "OP:FERIO"
+      ],
+      [
+        "Q:O",
+        "T:ANIMAL",
+        "T:STONE"
+      ]
+    ],
+    "FRISESOMORUM": [
+      [
+        "Q:I",
+        "T:LION",
+        "T:ANIMAL"
+      ],
+      [
+        "Q:E",
+        "T:HUMAN",
+        "T:LION"
+      ],
+      [
+        "Q:O",
+        "T:ANIMAL",
+        "T:HUMAN"
+      ],
+      [
+        "OP:S"
+      ],
+      [
+        "Q:I",
+        "T:ANIMAL",
+        "T:LION"
+      ],
+      [
+        "OP:S"
+      ],
+      [
+        "Q:E",
+        "T:LION",
+        "T:HUMAN"
+      ],
+      [
+        "OP:SWAP"
+      ],
+      [
+        "OP:FERIO"
+      ],
+      [
+        "Q:O",
+        "T:ANIMAL",
+        "T:HUMAN"
+      ]
+    ]
+  },
+  "writers": [
+    "FUSED",
+    "SEPARATE"
+  ],
+  "expected_groups": {
+    "FUSED": 10,
+    "SEPARATE": 22
+  },
+  "limits": {
+    "nodes_per_case": 100000,
+    "seconds_per_case": 2,
+    "maximum_complete_local_assignments": 10000,
+    "joint_pairs": 1000000
+  },
+  "input_paragraphs": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "meaning_ceiling": "All class names and proposition/operation meanings remain assumptions; no independent meaning confirmation."
+}
