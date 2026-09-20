@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: fixed_test
 Status: active
-Task: Ten-hour block to22:52:35UTC;publish1011complete original meaning census.
-Latest decision: 1800maps exhausted;36valid;6conditional roles fixed;f114closed,f50open.
-Working files: experiments/yolo/gdt1011_transport_factored_layout_meanings/REPORT.md
-Assumptions: Source conditional;all47values free;0word confirmation;f50samples not exhaustion.
-Resume: Publish1011;review necessary bank-direction consequence on both f50r readers.
-Running: No solver;source-only producer bounded to22:40UTC.
+Task: Ten-hour block to22:52:35UTC;1012necessary bank sequence on both fullf50rreaders.
+Latest decision: 1011public1722a1f1a;36complete original codes;f114closed,f50open.
+Working files: experiments/yolo/gdt1012_transport_necessary_bank_sequence/DECISION.md
+Assumptions: Unchanged words/source/world;startL,goalR;all72cases;0independent meaning.
+Resume: Publish1012prereg;run72bank queries;full-check allsaved maps;publish complete table.
+Running: Preflight PASS68transitions/36originalcodes;no target solve;checkpoint22:47UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

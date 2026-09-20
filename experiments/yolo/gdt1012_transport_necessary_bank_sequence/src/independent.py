@@ -1,0 +1,49 @@
+"""Independent cvc5 boundary-flow existence encoding; no primary solver import."""
+import json,sys
+from cvc5 import pythonic as c
+import cvc5
+
+def bank_rule(before,after,kind):
+    if kind in ('EXCLUDE','WITH_RETURN','ALONE'):return c.And(before==1,after==0)
+    if kind in ('CONVEY','FINAL_TRIP','WITH_OUT'):return c.And(before==0,after==1)
+    if kind=='FERRY':return before+after==1
+    return after==before
+
+def check(ps,lex,g,timeout=20000,blocked=None):
+    alphabet=set(lex.values())
+    for pat in g['patterns'].values():
+        for t in pat:alphabet.update(g['types'][t[1:]] if t.startswith('@') else [t])
+    alphabet=sorted(alphabet);n={a:i for i,a in enumerate(alphabet)}
+    words=set()
+    for p in ps:words.update(p['words'])
+    vs={w:c.Int('a'+str(i)) for i,w in enumerate(sorted(words-lex.keys()))}
+    s=c.Solver();s.set('tlimit-per',timeout);edge_variables={}
+    for x in vs.values():s.add(x>=0,x<len(alphabet))
+    def total(xs):return sum(xs,c.IntVal(0))
+    for pi,p in enumerate(ps):
+        raw=p['words'];banks=[c.Int('shore'+str(pi)+'_'+str(j)) for j in range(len(raw)+1)]
+        for state in banks:s.add(c.Or(state==0,state==1))
+        s.add(banks[0]==0,banks[-1]==1)
+        incoming=[[] for _ in range(len(raw)+1)];outgoing=[[] for _ in incoming];kinds={k:[] for k in g['patterns']}
+        for start in range(len(raw)):
+            for kind,pat in g['patterns'].items():
+                end=start+len(pat)
+                if end>len(raw) or (start==0 and kind!='INITIAL') or (kind=='INITIAL' and start!=0) or (end==len(raw) and kind!='CONCLUSION') or (kind=='CONCLUSION' and end!=len(raw)):continue
+                allowed=[g['types'][t[1:]] if t.startswith('@') else [t] for t in pat]
+                if any(w in lex and lex[w] not in allowed[j] for j,w in enumerate(raw[start:end])):continue
+                b=c.Bool('p'+str(pi)+'_'+str(start)+'_'+kind);edge_variables[(pi,start,end,kind)]=b;q=c.If(b,1,0);outgoing[start].append(q);incoming[end].append(q);kinds[kind].append(q)
+                s.add(c.Implies(b,bank_rule(banks[start],banks[end],kind)))
+                for j,w in enumerate(raw[start:end]):
+                    if w not in lex:
+                        choices=[vs[w]==n[v] for v in allowed[j]]
+                        s.add(c.Implies(b,choices[0] if len(choices)==1 else c.Or(*choices)))
+        s.add(total(outgoing[0])==1,total(incoming[-1])==1)
+        for pos in range(1,len(raw)):s.add(total(incoming[pos])==total(outgoing[pos]),total(incoming[pos])<=1)
+        for k in ('INITIAL','GOAL','SAFETY','CAPACITY','CONCLUSION'):s.add(total(kinds[k])==1)
+    if blocked:
+        disj=[vs[w]!=n[v] for w,v in blocked['aliases'].items()]
+        disj += [c.Not(edge_variables[(pi,node['start'],node['end'],node['kind'])]) for pi,parsed in enumerate(blocked['parses']) for node in parsed]
+        s.add(disj[0] if len(disj)==1 else c.Or(*disj))
+    return dict(status=str(s.check()),solver='cvc5',version=cvc5.__version__)
+if __name__=='__main__':
+    job=json.load(sys.stdin);print(json.dumps(check(job['paragraphs'],job['lexicon'],job['grammar'],job.get('timeout',20000),job.get('blocked'))))
