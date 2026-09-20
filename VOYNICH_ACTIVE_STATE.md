@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT986 COMPLETE ANASTASIA:314fixed cases;38necessary contradictions+1solver contradiction independently certified after result,109computation unknown,166source unknown;0full witnesses/words/independent. Both tree writers and all12source lines unchanged;bounded search parked, no automatic repair or longer solver. [Report](experiments/yolo/gdt986_anastasia_complete_condition_trees/REPORT.md).
+
 BALNEIS SOURCE CHECKPOINT: all48lines VII/XI/XIX/XXXIII and four Bodmer135 native pages represented before target selection. Supply85/main relation397 unresolved; no full four-record compiler. XI retains attribution/digging, heat tolerance, removed/cooled overlap and distinct renewal objects; candidate for separate complete writing decision only. GDT967 unchanged;0words. Primary: research_registry/work_batches/ten_hours_20260915/BALNEIS_COMPLETE_CONTENT_20260920.md
 
 GDT985: Under NEW same-portion/current-source assumptions, full f75v40–42 is consistent and sheolo must carry B→A; three tables remain. All old viable process readings survive; 0 words or independent confirmation. Do not export a verb or expand global state tests without a whole source/participant construction. [Report](experiments/yolo/gdt985_f75v_source_availability_continuation/REPORT.md).

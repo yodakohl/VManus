@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "scope": "Post-result independent finite replay of all reported solver UNSAT cases, same author; no rescan or meaning validation",
+  "original_validator_preserved": true,
+  "solver_cases_checked": 1,
+  "input_sha256": {
+    "src/SOURCE.json": "1d0a9b78a0c23bfa15c15e5f64702c6eae38bc3f1faca1fd016c24a11577397a",
+    "artifacts/CASES.json": "049d0833a57838168ac1254d679ba821c9c943e7f6f90484c3e0a064084aee90"
+  },
+  "certificates": [
+    {
+      "edition": "IT2a",
+      "paragraph": "f80v|f80v.19-f80v.22",
+      "writer": "PREFIX",
+      "source_counts": {
+        "BATH": 17,
+        "WATER_OF": 15
+      },
+      "necessary_domains": {
+        "BATH": [
+          "o"
+        ],
+        "WATER_OF": [
+          "o",
+          "y"
+        ]
+      },
+      "forced_by_injectivity": {
+        "BATH": "o",
+        "WATER_OF": "y"
+      },
+      "disjoint_source_pair_starts": [
+        14,
+        23,
+        36,
+        44,
+        48,
+        51,
+        59,
+        62,
+        69,
+        72,
+        75,
+        83,
+        86,
+        103,
+        109
+      ],
+      "required_yo": 15,
+      "maximum_yo": 1,
+      "conclusion": "CONTRADICTION"
+    }
+  ]
+}

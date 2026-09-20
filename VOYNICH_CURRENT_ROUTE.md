@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: fixed_test
 Status: active
-Task: GDT986 complete Anastasia assertion trees against whole bath paragraphs.
-Latest decision: Nine trees/all12lines;two fixed writers;111atoms/47types;no target fit yet.
-Working files: experiments/yolo/gdt986_anastasia_complete_condition_trees/PREREGISTRATION.md
-Assumptions: Hypothetical semantic code;word seams retained;exposed data;reserves closed.
-Resume: Publish registration,run16workers,validate every case;no source/order repair.
-Running: Root registration;producer379done;checkpoint02:10UTC;earliestend09:05:26UTC.
+Task: Publish GDT986 whole-content result and retain all unresolved cases.
+Latest decision: 314cases;39contradictions,109compute/166source unknown;0witnesses.
+Working files: experiments/yolo/gdt986_anastasia_complete_condition_trees/REPORT.md
+Assumptions: Fixed semantic trees/writers;exposed data;no confirmed meanings;reserves closed.
+Resume: Bind,index,refresh,review,check and publish;then select next complete-content question.
+Running: Root closure;bounded RAW producer active;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
