@@ -1,0 +1,163 @@
+{
+  "title": "Repeated chor chol daiin as an owned completion condition and a later recipe input",
+  "summary": "RAW_UNREVIEWED. Read the complete f21r.12 and f32v.10 with one shared material specification chor chol daiin, first under an explicit completion clause and then as the input of trituration. The repeated chor inside f21r.12 must retain its physical owner; a ready second batch cannot complete the first batch’s instruction. This is a provisional whole-line content and control hypothesis, not an identified until-word or an extension of the paused W89 recipe lexicon.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "created_utc": "2026-09-20",
+    "targets": [
+      {
+        "locus": "f21r.12",
+        "complete_line": "ykeey chor sheey ysheol chor chol daiin chkaiin",
+        "complete_draft": "Take flowers; spread them out until a prescribed amount of those flowers is dry and ready.",
+        "alignment": [
+          "ykeey=take",
+          "chor=flowers",
+          "sheey=spread out",
+          "ysheol=until",
+          "chor=flowers, same batch inside the goal",
+          "chol=dry",
+          "daiin=prescribed amount C·U",
+          "chkaiin=ready"
+        ],
+        "parse": "[TAKE FLOWERS_A] [SPREAD_A UNTIL [FLOWERS_A DRY AMOUNT_C READY]]"
+      },
+      {
+        "locus": "f32v.10",
+        "complete_line": "sho keol chor chol daiin cpho l cthol da ar",
+        "complete_draft": "Liquid oil and a prescribed amount of dry flowers: triturate to one portion of paste.",
+        "alignment": [
+          "sho=liquid",
+          "keol=oil",
+          "chor=flowers",
+          "chol=dry",
+          "daiin=prescribed amount C·U",
+          "cpho=triturate",
+          "l=to",
+          "cthol=paste",
+          "da=one",
+          "ar=portion"
+        ],
+        "parse": "[LIQUID OIL_B] [FLOWERS_C DRY AMOUNT_C] [TRITURATE_B,C TO [PASTE_D ONE PORTION]]"
+      }
+    ],
+    "observed_repetition_not_meaning": [
+      "chor occurs at f21r.12:2, f21r.12:5 and f32v.10:3.",
+      "chol occurs at f21r.12:6 and f32v.10:4.",
+      "daiin occurs at f21r.12:7 and f32v.10:5.",
+      "The exact three-word phrase chor chol daiin occurs in both lines; GDT629 reports it in ZL3b, IT2a and RF1b at both physical loci. The three readings are not independent witnesses.",
+      "These are two complete written lines in different paragraphs, not one physically continuous recipe. Type compatibility across them never means that the same material was transported between folios."
+    ],
+    "exact_whole_word_lexicon": {
+      "ykeey": "TAKE",
+      "chor": "FLOWERS",
+      "sheey": "SPREAD_OUT",
+      "ysheol": "UNTIL",
+      "chol": "DRY",
+      "daiin": "AMOUNT_C",
+      "chkaiin": "READY",
+      "sho": "LIQUID",
+      "keol": "OIL",
+      "cpho": "TRITURATE",
+      "l": "TO",
+      "cthol": "PASTE",
+      "da": "ONE",
+      "ar": "PORTION"
+    },
+    "lexical_debt": {
+      "counts": "18 written groups, 14 distinct whole forms. Seven values reuse unconfirmed P05-style hypotheses: chor, chol, daiin, sho, keol, cpho and ar. Seven values are newly proposed here: ykeey, sheey, ysheol, chkaiin, l, cthol and da. No value is confirmed; retaining an earlier guess is not evidence.",
+      "changes": "sheey=spread out differs from the old wetting hypothesis; ykeey=take differs from reheating; ysheol=until is a grammatical function instead of one of W44’s five state values; chkaiin=ready and cthol=paste replace older quality/material guesses. These are prospective rival assignments, not repairs of those fixed experiments.",
+      "numerals": "daiin is one shared unknown positive prescription C in a shared unknown unit U; it is not three. da=one counts output portions, not a mass unit. Combining two inputs into one paste portion imposes no invented mass equality and says nothing about the oil amount.",
+      "scope": "Whole words only. No y-prefix, chol/cthol derivation, fixed decimal code, universal case affix or hidden filler is inferred. Similar and uncertain forms stay distinct."
+    },
+    "finite_local_writer_contract": {
+      "productions": [
+        "MaterialNP := Material [Quality] [Amount]",
+        "Goal := MaterialNP READY",
+        "Preparation := TAKE MaterialNP SPREAD_OUT UNTIL Goal",
+        "Coingredient := LIQUID OIL",
+        "Product := PASTE ONE PORTION",
+        "Trituration := Coingredient MaterialNP TRITURATE TO Product"
+      ],
+      "optional_slots": "The two bracketed MaterialNP slots are exactly the finite presence/absence choices declared here. No arbitrary other words, null emissions, reordered words or extra lexical senses are allowed.",
+      "owner_rule": "TAKE introduces one batch A. SPREAD_OUT takes A. UNTIL binds the explicit following material NP to A, requiring the same material type; it does not introduce a fresh batch. READY checks the same A, its DRY predicate and AMOUNT_C requirement. In a separate line, TRITURATE consumes its two written ingredient NPs jointly and produces its written product.",
+      "adjective_rule": "chol is a predicate of its MaterialNP, not a separate drying command. LIQUID modifies the following OIL. Juxtaposition of the oil NP and flower NP introduces exactly two coingredients; this coordination is an explicit syntax assumption.",
+      "control_rule": "SPREAD_OUT establishes exposure but does not by itself assert successful drying. UNTIL prevents completion before the goal holds; it neither guarantees eventual success nor inserts an unwritten drying event. Environmental drying is a possible physical evolution, not another decoded command.",
+      "limits": "This finite local grammar writes the two complete provisional sentences and analogous typed programs. It has not been shown to parse a whole Voynich paragraph or the other occurrences of these words. Line boundaries are a proposed local sentence boundary, not an established manuscript grammar."
+    },
+    "coupled_content_consequences": [
+      "Inside f21r.12, both chor mentions refer to the same physical batch A under the explicit goal-binding rule. Ready dry flowers B elsewhere cannot discharge A’s goal.",
+      "The same chor chol daiin NP fixes material kind, dryness and prescription in both complete sentences. Within this hypothesis a batch returned by the first instruction is an eligible flower ingredient of the second; wet flowers or a different prescribed amount are not. This is type compatibility, not evidence that the texts form a historical two-step recipe.",
+      "The f32v.10 output is a paste formed from both written inputs, not an unchanged dry-flower specimen. A rival inventory of independent dry flowers and oil does not entail that both are constituents of that output.",
+      "No ingredient or product may be silently replaced to avoid a failed precondition. The same whole-word values must later face the rest of both paragraphs, including repeated chol/daiin and all sho/sheey contexts."
+    ],
+    "concrete_rivals_and_witness": {
+      "status": "Illustrative conditional worlds, not observed states, measurements or computed target results.",
+      "world": "There are two flower batches of the required amount: A is spread out but still wet and not ready; B is already dry and ready. Oil B2 is available separately.",
+      "owned_goal": "f21r.12 cannot finish using B as its goal witness. A cannot yet serve as the flower input of the f32v.10 trituration.",
+      "fresh_inventory_rival": "Treat the second chor NP as a new independent material declaration. The dry-ready claim can be true of B while A remains wet. This permits an inventory containing both batches but does not show completion of the first instruction.",
+      "state_assertion_rival": "If ysheol introduces a present state assertion rather than UNTIL, the wet-A assertion is false now instead of an instruction that remains pending. On a fully dry final snapshot, assertion and UNTIL may coincide; no final-state success alone identifies the operator.",
+      "mixture_rival": "If cpho is descriptive rather than a two-input action, the line does not require oil and flowers to enter the same output portion. The proposed program does.",
+      "gauge_and_limits": "Batch names may be jointly renamed and C/U rescaled without changing the argument. The owner relation, physical quality and syntax are all hypotheses. Merely inventing a compatible state history or generating a parse cannot select this reading."
+    },
+    "primary_review": [
+      "IDEA000290 and GDT629: the repeated three-word phrase and the grade/amount ambiguity already exist. No new claim of discovering that repetition, identifying three or confirming dry degree follows. The new proposal is the complete control/ingredient embedding, not an extra number-axis test.",
+      "W44 primary: wet and warm remain compatible under its frozen old history; dry and cold conflict there. That result is untouched. W44 explicitly leaves grammatical functions outside its five-state comparison untested.",
+      "W45 primary: exactly one ysheol locus in the admitted census. ZL ykeey, IT ykeea, RF ykee@222; and @222;sheol must not be normalized. This draft aligns the printed ZL line only; TAKE for ykeea is not licensed. There is no extra independent ysheol occurrence.",
+      "P05 primary supplies the complete f32v.10 and the inherited hypothetical nouns. Its full surrounding lines and unresolved roles are retained. The present interpretation is not the old P05 recipe certified by new prose.",
+      "P14 primary: quantity/grade/ratio remain different unconfirmed dimensions; its C-squared chain has no written closure. Here C and U are explicitly global assumptions for the shared NP, not recovered values or a reopening of the ratio route.",
+      "P12 primary: repeated type words do not establish individual reuse; FRESH and REUSE leave its role counters unchanged. This proposal makes ownership a substantive grammar premise and displays the B-for-A countermodel instead of counting type matches as identity evidence.",
+      "GDT625 primary: state order alone does not prove an operation and f29v splits more naturally into different carriers under that draft. The present hypothesis therefore states its operator and owner rule rather than claiming a dry/wet sequence is an observed verb.",
+      "W89 primary: automatic recipe extension remains paused; its 10 versus 63 role counts do not choose the descriptive rival. Its sheey shey and sheey chol countercases remain. No sheey antecedent rule is retroactively inserted into W89. Any selection of this separate full-clause hypothesis must face those occurrences without per-occurrence senses.",
+      "Current route, recipe/composition context, bounded ideas search/duplicates and route-check were used. Empty postcondition search is navigation only, not absence of prior research."
+    ],
+    "strongest_objection": "The difficult words and all clause/identity boundaries are still guessed. The shared three-word phrase constrains this proposal more than a wholly free sentence, but cannot itself establish completion syntax, drying, flowers, a common unit or mixing. The rival can also describe coherent objects. Seven new meanings and a locally chosen sentence grammar may amount to invented prose; no recommendation to run another source-only simulation follows.",
+    "prospective_selection_question": "Whether this exact whole-line operator/goal parse can be retained consistently across already exposed complete contexts is unknown. A future fixed comparison would have to preserve all written groups and these meanings, expose failed ownership/role requirements, and distinguish a substantive content contradiction from mere missing translation. No new target reading or expanded search was performed here.",
+    "retained_stops": "W89, W97 and GDT913/914/915/916/925/928/930/947/949/970/979/980/981/983/984 remain unchanged. No experiment, decoder, reserve test or current IDEA369 evaluation is selected or altered.",
+    "source_evidence": {
+      "path": "research_registry/proposals/translation_programs_20260912/work/W44/REPORT.md",
+      "line": 26,
+      "quote": "ykeey chor sheey ysheol chor chol daiin chkaiin",
+      "sha256": "8ee935dfeeb68e1585ae11bb4ab1fb626037ead71d6d51efb76fbffa7678f9dc"
+    },
+    "additional_evidence": [
+      {
+        "path": "research_registry/proposals/translation_programs_20260912/work/P05/PRODUCER_DRAFT.md",
+        "line": 132,
+        "quote": "`sho keol chor chol daiin cpho l cthol da ar`",
+        "sha256": "fa0cbee493aa8d0cdbf05be0d34111c07dd9248ecbd86336d04d88f8f655d956"
+      },
+      {
+        "path": "experiments/yolo/gdt629_part_quality_degree_clause/REPORT.md",
+        "line": 20,
+        "quote": "| f21r.12 | `chor chol daiin` | `chor chol daiin` | `chor chol daiin` |",
+        "sha256": "d12d80e7f1651063e8c3b1b381abea92ea5ab5587717b139051ca4bc0443ae53"
+      },
+      {
+        "path": "research_registry/proposals/translation_programs_20260912/work/W45/REPORT.md",
+        "line": 17,
+        "quote": "IT2a: ykeea chor sheey ysheol chor chol daiin chkaiin",
+        "sha256": "5d583672a842a44b8b53312eea6c68489448872707d9bbe9e0ad8b1cfc28ae44"
+      },
+      {
+        "path": "research_registry/proposals/translation_programs_20260912/work/P12/REPORT.md",
+        "line": 74,
+        "quote": "## Identitätssensitivität: gleiche Form ist nicht derselbe Gegenstand",
+        "sha256": "cc5b1db50000bb811d2180be999c498d3460a890fbe45c71ddf3a0f42fe162d2"
+      },
+      {
+        "path": "research_registry/proposals/translation_programs_20260912/work/P14/REPORT.md",
+        "line": 48,
+        "quote": "Die dritte Relation steht nicht als gebundene Schlussgleichung im Text. Sie ist eine prüfbare Konsequenz der angesetzten beiden Beziehungen. Das Verhältnisnetz hat sieben Kanten ohne Zyklus. Exakte Elimination der Materialgrößen ergibt null nichttriviale Gleichungen für A/B/C. Ein unabhängiger Wald-Nachweis im Validator zeigt ebenfalls: Jede positive Wahl der Werte kann durch passende Materialmassen erfüllt werden. Kein Zahlenwert, keine Rangordnung und kein Mengenverhältnis ist damit empirisch festgestellt. [Abgeleitete Kette](RATIO_CHAINS.tsv), [Elimination](RATIO_ELIMINATION_RECORD.json).",
+        "sha256": "6254858b89bdd4ef73f304e9f121570c0b5f692a9e4e78223b7b69ad895b4c0f"
+      },
+      {
+        "path": "research_registry/proposals/translation_programs_20260912/work/W89/REPORT.md",
+        "line": 63,
+        "quote": "1. **Die automatische Fortsetzung der Rezeptglossen endet hier.** Kein cheor-Ausbau, keine neuen Mischpartner allein zum Füllen von Rollen und keine Fortsetzung derselben Fehlerbehebungskette.",
+        "sha256": "94ad7787310d928267da364fa3fec9714f639fcd1313ef297e8548eafe97d8d5"
+      }
+    ],
+    "access": "Only existing primary reports and proposal records were inspected. No new raw target/cache, image, source acquisition, admission, reserve, contact, experiment or decoder. No existing bytes, route, ledger, metadata or curation edited. RAW retention only."
+  }
+}

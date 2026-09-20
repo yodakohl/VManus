@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: GDT984 closed; review complete f80r.14 mirror RAW draft before selection.
-Latest decision: 8256/8986 name rows survive;91.9%triggers prefix-projection stop;0words.
-Working files: experiments/yolo/gdt984_name_code_remainder_prefix_capacity/REPORT.md
-Assumptions: Whole-code unknowns unchanged;new mirror glosses unconfirmed;reserves closed.
-Resume: Register raw_f80r_plane_mirror_assertions.json;read GDT943 and full target context.
-Running: Root publication;producer finished;ten-hour block earliest end Sep20 09:05:26UTC.
+Task: GDT985 conditional same-portion continuation on complete f75v40-42.
+Latest decision: 984 published; freeze all shared word-effect domains for 985.
+Working files: experiments/yolo/gdt985_f75v_source_availability_continuation/METHOD.md
+Assumptions: ol/or=current-source checks;one portion;all effects unconfirmed;reserves closed.
+Resume: Publish registration;run 985 runner and independent finite-domain validator.
+Running: Root registration;bounded producer;checkpoint00:40UTC;blockends>=09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
