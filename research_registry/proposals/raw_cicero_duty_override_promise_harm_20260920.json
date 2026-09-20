@@ -1,0 +1,49 @@
+{
+  "title": "Cicero duty override binds a promise to recipient and common-good harm",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Cicero De officiis III.95 gives a compact nested condition: a promise or entrusted object is normally returned, but the obligation is suspended when the recipient is insane or the entrusted money would support war against the common country; coercion and deceit also void the promise. A finite evaluator binds promise, recipient, public-good status, and coercion/deceit flags, producing WITHHOLD or PERFORM. An unconditional-promise rival yields the opposite outcome on the source examples.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Cicero, De officiis III.95",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2007.01.0048%3Abook%3Dpos%3D3%3Asection%3D95",
+    "source_span": "Complete bounded argument: promises/trusts can cease to bind when circumstances change; a sword left by a sane person is not returned when he is insane, and entrusted money is not returned when the recipient would wage war against the common country.",
+    "provenance": "Perseus provides the Latin/English De officiis III.95 passage and identifies the 1913 Miller edition. The examples are source claims, not a general modern ethics rule or target Vorlage."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000028 generic modal obligation; IDEA000335 Benedict fault/re-entry; IDEA000446 Pliny rescript policy cursor; route-check obligation/condition.",
+    "difference": "This is a parameterized exception to an existing promise, with two independently bound harm dimensions and an explicit priority rule. It does not model monastic status, administrative reply, or a record lifecycle."
+  },
+  "constructor": {
+    "types": [
+      "PROMISE",
+      "RECIPIENT",
+      "TRUSTED_OBJECT",
+      "HARM_TO_RECIPIENT",
+      "HARM_TO_COMMON_GOOD",
+      "COERCION",
+      "DECEIT",
+      "DUTY_RESULT"
+    ],
+    "operators": [
+      "MAKE_PROMISE(actor, recipient, object) -> PROMISE",
+      "ASSESS_RECIPIENT(recipient, condition) -> HARM_TO_RECIPIENT",
+      "ASSESS_COMMON_GOOD(object, use) -> HARM_TO_COMMON_GOOD",
+      "OVERRIDE(promise, harm_recipient, harm_common, coercion, deceit) -> DUTY_RESULT"
+    ],
+    "rules": [
+      "First reject coercion or deceit: the promise is VOID.",
+      "Otherwise, if returning the object harms its recipient OR the common good, return WITHHOLD.",
+      "Only when both harm flags are false does the normal promise result become PERFORM."
+    ],
+    "python": "def duty(p):\n    if p[\"coerced\"] or p[\"deceived\"]:\n        return \"VOID\"\n    if p[\"harm_to_recipient\"] or p[\"harm_to_common_good\"]:\n        return \"WITHHOLD\"\n    return \"PERFORM\"\n\ncases = {\n  \"sword_insane\": {\"coerced\":False,\"deceived\":False,\"harm_to_recipient\":True,\"harm_to_common_good\":False},\n  \"money_war\": {\"coerced\":False,\"deceived\":False,\"harm_to_recipient\":False,\"harm_to_common_good\":True},\n  \"ordinary_return\": {\"coerced\":False,\"deceived\":False,\"harm_to_recipient\":False,\"harm_to_common_good\":False}\n}\nresult = {name:duty(value) for name,value in cases.items()}",
+    "python_result": {
+      "sword_insane": "WITHHOLD",
+      "money_war": "WITHHOLD",
+      "ordinary_return": "PERFORM"
+    },
+    "rival": "ALWAYS_PERFORM returns PERFORM for all three cases; it cannot represent Cicero's changed duty when the bound recipient/common-good parameter changes.",
+    "observable_consequence": "Changing only the bound harm parameter flips the result from PERFORM to WITHHOLD while preserving the same promise/object frame. The two source examples therefore share one obligation rule but differ in which parameter triggers the override.",
+    "falsifier": "Reject if the same harm parameter must both preserve and suspend a promise under one declared context, or if the evaluator needs an unlisted recipient/object to decide. The source does not quantify harm or identify any target form.",
+    "target_binding_limit": "No target gloss or source-to-target promise mapping is claimed."
+  }
+}

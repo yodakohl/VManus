@@ -944,3 +944,55 @@ where the predecessor was already the same mechanism.
 
 Both cards remain `RAW_UNREVIEWED_NOT_SELECTED`, with target binding explicitly
 unknown. Primary checks: [Hippocratic De natura pueri 12.1](https://eulogikon.org/works/hippocrates-nature-child-bww-ad) and [Aristotle De memoria](https://classics.mit.edu/Aristotle/memory.html). No target, reserve, root experiment, route, ledger, or frozen source file was changed.
+
+## Q. Two executable parameter/condition candidates
+
+After refreshing the live route and composition topic, targeted duplicate and
+route checks screened the existing obligation, Benedict chapter 43, Pliny
+rescript, and generic conditional-marker cards. Two new cards were added; both
+contain compact evaluated examples and remain `RAW_UNREVIEWED_NOT_SELECTED`.
+
+* `IDEA000451` —
+  `raw_cicero_duty_override_promise_harm_20260920.json`. Cicero *De officiis*
+  III.95 binds one promise/object frame to recipient harm, common-good harm,
+  coercion, and deceit. The executable priority is `VOID` for coercion/deceit,
+  otherwise `WITHHOLD` when either harm parameter is true, otherwise
+  `PERFORM`. The source examples evaluate the sword left by an insane owner and
+  money that would fund war as `WITHHOLD`; an ordinary return is `PERFORM`.
+  The rival unconditional-promise rule gives the opposite outputs.
+
+* `IDEA000452` —
+  `raw_benedict_pilgrim_guest_nested_admission_20260920.json`. Benedict chapter
+  61 binds guest origin/consent, conduct, criticism mode, worthiness, and
+  stability request. The executable gate first rejects a monk from a known
+  monastery without consent or letter, then handles vicious conduct, then
+  reasonable humble criticism, then worthy stability and rank. The examples
+  produce `GUEST`, `ADMIT_HIGHER_RANK`, `DENY_EXTERNAL_MONK`, and `ASK_LEAVE`.
+  This is distinct from IDEA335 chapter 43's late-arrival demotion/re-entry.
+
+The strongest limits are explicit: source policies leave harm scales and rank
+scales underdefined, and no target component or word is bound. No target,
+reserve, route, ledger, or root experiment file was changed.
+
+## R. One parameter-bound classification candidate
+
+The live route, composition topic, targeted duplicate search, and route-check
+were refreshed before this addition. One genuinely new card survived; no second
+card was forced from the existing obligation, Benedict, geometry, memory, or
+transport families.
+
+* `IDEA000453` —
+  `raw_aristotle_politics_constitution_parameter_binding_20260920.json`. Aristotle
+  *Politics* III.1279a–b binds sovereign count (one/few/many), advantage scope
+  (common/private), and beneficiary class (monarch/wealthy/needy). The included
+  executable classifier yields KINGSHIP, ARISTOCRACY, POLITY, TYRANNY,
+  OLIGARCHY, or DEMOCRACY. Its `wealthy_majority` and `needy_minority` cases
+  preserve the source's counterexample showing that count alone is insufficient;
+  changing beneficiary or common/private scope changes the result. The source
+  uses Greek text from the Ross edition; the machine translation was used only
+  for navigation.
+
+The card is `RAW_UNREVIEWED_NOT_SELECTED`. It does not assign target political
+words and leaves mixed private beneficiaries unresolved rather than inventing an
+extra category. No target, reserve, root experiment, route, ledger, or frozen
+source file was changed.

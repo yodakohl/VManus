@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;free original transport word roles in GDT1006.
-Latest decision: 1005public:all1440literalbundlesfail;1003/4conditional positives stay.
-Working files: experiments/yolo/gdt1006_transport_unfixed_original_lexicon/DECISION.md
-Assumptions: 47roles free;17source clauses retained;3cargos/2hazards/7trips assumed;0words.
-Resume: Publish1006 registration, then run both free-code families and validate coverage.
-Running: Pinned/stress preflightPASS;no free-code job yet;checkpoint21:20UTC.
+Task: Ten-hour block to22:52:35UTC;close1006 and select a distinct meaning consequence.
+Latest decision: 1006validated:36bijective tuples exhausted,66functional open;8invariants syntax-only.
+Working files: experiments/yolo/gdt1006_transport_unfixed_original_lexicon/REPORT.md
+Assumptions: 17source clauses retained;chedy name/FIRST both viable;0words;reserves closed.
+Resume: Publish1006 closure;review a different whole-context discriminator, no cap extension.
+Running: No solver active;1006closure publication pending;producer453finished.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

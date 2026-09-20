@@ -1,0 +1,52 @@
+{
+  "title": "Benedict pilgrim guest nested admission and consent conditions",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Rule of Benedict chapter 61 composes guest conduct, criticism mode, worthiness, desire for stability, and consent from a known monastery. A finite evaluator distinguishes quiet guest, reasonable humble critic, exacting/vicious guest, worthy applicant, and external monk without consent. The outputs are GUEST, REVIEW, ADMIT_HIGHER_RANK, or ASK_LEAVE; a nearest-condition or unconditional-admission rival changes the source consequences.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Regula Benedicti, chapter 61, De monachis peregrinis qualiter suscipiantur",
+    "url": "https://la.wikisource.org/wiki/Regula_sancti_Benedicti",
+    "source_span": "Complete bounded chapter 61: receive a content non-disruptive pilgrim; let the abbot assess reasonable humble criticism; deny and ask an exacting/vicious guest to leave; receive a worthy applicant seeking stability and potentially rank him higher; require the known monastery's consent or letter before accepting one of its monks.",
+    "provenance": "The linked Latin Wikisource text contains chapter 61 immediately after chapters 58–60. This card uses the source rule structure, not a claim about a target monastic vocabulary."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000335 Rule of Benedict chapter 43 fault/demotion/re-entry; IDEA000361 permission-debt card; IDEA000446 Pliny policy cursor; route-check nested admission/condition.",
+    "difference": "Chapter 61 is a guest-status and external-consent classifier with a nested rank decision. It does not reuse chapter 43's late-arrival penance or a general permission-debt operator."
+  },
+  "constructor": {
+    "types": [
+      "GUEST",
+      "ORIGIN_STATUS",
+      "CONSENT",
+      "CONDUCT",
+      "CRITICISM_MODE",
+      "WORTHINESS",
+      "STABILITY_REQUEST",
+      "ADMISSION_RESULT",
+      "RANK"
+    ],
+    "operators": [
+      "CLASSIFY_ORIGIN(guest, known_monastery, consent_or_letter) -> ORIGIN_STATUS",
+      "CLASSIFY_CONDUCT(guest, content_non_disturbing, exacting_or_vicious) -> CONDUCT",
+      "CLASSIFY_CRITICISM(guest, reasonable_humble) -> CRITICISM_MODE",
+      "DECIDE_GUEST(origin, conduct, criticism, worthy, wants_stability) -> ADMISSION_RESULT"
+    ],
+    "rules": [
+      "First reject a monk from a known monastery when consent or a commendatory letter is absent.",
+      "Otherwise ask an exacting or vicious guest to leave.",
+      "Otherwise a reasonable humble criticism opens abbot REVIEW; if the guest is worthy and seeks stability, the result can be ADMIT_HIGHER_RANK.",
+      "Otherwise content and non-disruptive conduct yields GUEST, or ADMIT_ORDINARY_RANK when stability is requested without the higher-rank condition."
+    ],
+    "python": "def decide(g):\n    if g[\"known_monastery\"] and not g[\"consent_or_letter\"]:\n        return \"DENY_EXTERNAL_MONK\"\n    if g[\"exacting_or_vicious\"]:\n        return \"ASK_LEAVE\"\n    if g[\"reasonable_humble_criticism\"]:\n        if not g[\"worthy\"]:\n            return \"REVIEW_THEN_DENY\"\n        if g[\"wants_stability\"]:\n            return \"ADMIT_HIGHER_RANK\"\n        return \"GUEST_REVIEW\"\n    if g[\"content_and_non_disturbing\"]:\n        if g[\"wants_stability\"]:\n            return \"ADMIT_HIGHER_RANK\" if g[\"worthy\"] else \"ADMIT_ORDINARY_RANK\"\n        return \"GUEST\"\n    return \"REVIEW\"",
+    "python_result": {
+      "quiet_guest": "GUEST",
+      "worthy_pilgrim": "ADMIT_HIGHER_RANK",
+      "known_without_consent": "DENY_EXTERNAL_MONK",
+      "vicious_guest": "ASK_LEAVE"
+    },
+    "rival": "NEAREST_CONDITION applies only the last observed conduct flag and therefore admits the external monk or a vicious guest if the prior content flag was true; ALWAYS_ADMIT erases both expulsion and consent gates.",
+    "observable_consequence": "Changing only consent, conduct, or worthiness changes the final status while the guest identity remains fixed. In particular, a worthy pilgrim can receive a higher rank, while the same apparent guest frame without external consent is denied before rank is evaluated.",
+    "falsifier": "Reject if rank can be assigned before the external-consent gate, if a reasonable humble criticism has no review state, or if the same conduct flags yield contradictory results without a source reset. The source leaves the exact rank scale unspecified.",
+    "target_binding_limit": "No target guest, consent marker, or rank word is independently identified."
+  }
+}

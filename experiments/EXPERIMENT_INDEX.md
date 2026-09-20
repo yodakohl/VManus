@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1005**
-- Experiment-associated tracked files: **19,618** (1.8 GiB)
+- Experiment-associated tracked files: **19,640** (1.8 GiB)
 - Structured GDT337+ experiments: **670**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1006 | transport unfixed original lexicon | `REGISTERED_UNSCORED` | — | 23 | 73.8 KiB | 6 | STRUCTURED_YOLO |
+| GDT1006 | GDT1006 | `SUPPORTED_LIMITED` | [report](../experiments/yolo/gdt1006_transport_unfixed_original_lexicon/REPORT.md) | 45 | 17.0 MiB | 6 | STRUCTURED_YOLO |
 | GDT1005 | GDT1005_cennini_lossless_context_records | `ALL_LITERAL_RECORD_WRITERS_CONTRADICTED_SOURCE_UNKNOWNS_RETAINED` | [report](../experiments/yolo/gdt1005_cennini_lossless_context_records/REPORT.md) | 32 | 6.1 MiB | 8 | STRUCTURED_YOLO |
 | GDT1004 | GDT1004_transport_content_added_relations | `FOUR_MARGINAL_AND_FOURTEEN_TUPLE_CONTENT_RESTRICTIONS` | [report](../experiments/yolo/gdt1004_transport_content_added_relations/REPORT.md) | 30 | 317.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT1003 | GDT1003_transport_joint_world_domains | `TWO_JOINT_COHERENT_SYSTEMS_24_SHARED_TUPLES_NO_MEANING_CONFIRMATION` | [report](../experiments/yolo/gdt1003_transport_joint_world_domains/REPORT.md) | 30 | 613.0 KiB | 4 | STRUCTURED_YOLO |

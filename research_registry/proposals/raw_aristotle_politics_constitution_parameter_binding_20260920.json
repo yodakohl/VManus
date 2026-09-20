@@ -1,0 +1,49 @@
+{
+  "title": "Aristotle Politics constitution classifier with ruler-count and beneficiary binding",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Aristotle Politics III.1279a-b binds two distinct parameters: whether one, few, or many hold sovereign power, and whether rule aims at common advantage or the private advantage of a monarch, wealthy class, or needy class. A finite classifier yields kingship/aristocracy/polity for common-good cases and tyranny/oligarchy/democracy for deviant cases. Its worked counterexample shows why a count-only rival misclassifies wealthy majorities and needy minorities.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Aristotle, Politics III, 1279a–1279b (chapters 6–7)",
+    "url": "https://reader.humanitext.ai/en/read/urn:cts:greekLit:tlg0086.tlg035.humanitext-grc2:3.1279b",
+    "source_span": "The complete bounded classification and its difficulty: sovereign power is one/few/many; common advantage yields the correct forms; private advantage yields deviations; wealth and poverty, rather than ruler count alone, distinguish oligarchy and democracy in the counterexamples.",
+    "provenance": "Humanitext displays the Greek text from Ross, Aristotelis Politica (1957), with a machine translation used only for navigation. The card follows the Greek parameter relations and makes no claim that a target uses Greek political terms."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000444 Aristotle Poetics; IDEA000450 Aristotle memory; IDEA000423 Aristotle Physics; route-check condition/reference/binding results.",
+    "difference": "This is a two-parameter classification with an explicit source counterexample to count-only reading. It is not plot causality, memory search, natural-purpose reasoning, or a target political lexicon."
+  },
+  "constructor": {
+    "types": [
+      "SOVEREIGN_COUNT",
+      "BENEFICIARY",
+      "ADVANTAGE_SCOPE",
+      "CONSTITUTION"
+    ],
+    "operators": [
+      "SOVEREIGN(count) -> SOVEREIGN_COUNT",
+      "AIMS_AT(scope) -> ADVANTAGE_SCOPE",
+      "BENEFITS(class) -> BENEFICIARY",
+      "CLASSIFY(count, scope, beneficiary) -> CONSTITUTION"
+    ],
+    "rules": [
+      "If scope=COMMON, count ONE/F EW/MANY yields KINGSHIP/ARISTOCRACY/POLITY respectively.",
+      "If scope=PRIVATE and count=ONE with beneficiary MONARCH, yield TYRANNY.",
+      "If scope=PRIVATE and beneficiary WEALTHY, yield OLIGARCHY; if beneficiary NEEDY, yield DEMOCRACY, regardless of whether that class is numerically few or many.",
+      "If scope=PRIVATE but the beneficiary class is absent or mixed, return UNRESOLVED rather than inventing a sixth form."
+    ],
+    "python": "def classify(count, scope, beneficiary=None):\n    if scope == \"COMMON\":\n        return {\"ONE\":\"KINGSHIP\", \"FEW\":\"ARISTOCRACY\", \"MANY\":\"POLITY\"}[count]\n    if count == \"ONE\" and beneficiary == \"MONARCH\":\n        return \"TYRANNY\"\n    if beneficiary == \"WEALTHY\":\n        return \"OLIGARCHY\"\n    if beneficiary == \"NEEDY\":\n        return \"DEMOCRACY\"\n    return \"UNRESOLVED\"\n\ncases = {\n  \"one_common\": classify(\"ONE\", \"COMMON\"),\n  \"few_common\": classify(\"FEW\", \"COMMON\"),\n  \"many_common\": classify(\"MANY\", \"COMMON\"),\n  \"wealthy_majority\": classify(\"MANY\", \"PRIVATE\", \"WEALTHY\"),\n  \"needy_minority\": classify(\"FEW\", \"PRIVATE\", \"NEEDY\"),\n  \"private_monarch\": classify(\"ONE\", \"PRIVATE\", \"MONARCH\")\n}\nresult = cases",
+    "python_result": {
+      "one_common": "KINGSHIP",
+      "few_common": "ARISTOCRACY",
+      "many_common": "POLITY",
+      "wealthy_majority": "OLIGARCHY",
+      "needy_minority": "DEMOCRACY",
+      "private_monarch": "TYRANNY"
+    },
+    "rival": "COUNT_ONLY maps all MANY cases to democracy and all FEW cases to oligarchy, so it reverses Aristotle's explicit wealthy-majority and needy-minority counterexamples.",
+    "observable_consequence": "Changing only BENEFICIARY from WEALTHY to NEEDY changes MANY/PRIVATE from OLIGARCHY to DEMOCRACY; changing SCOPE to COMMON changes the same MANY sovereign arrangement to POLITY. Thus count, scope, and beneficiary each affect the output.",
+    "falsifier": "Reject if one parameter can vary without changing any classification where the source makes it operative, or if a private mixed-beneficiary case is silently forced into a named form. The source does not license target political terms or a universal modern classification.",
+    "target_binding_limit": "No target word, group, or semantic participant is identified; this remains a source-grounded exploratory algebra."
+  }
+}

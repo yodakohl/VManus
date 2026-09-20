@@ -1,5 +1,3 @@
-# GDT1006 — transport unfixed original lexicon
+# GDT1006
 
-Status: `REGISTERED_UNSCORED`
-
-See `METHOD.md` and `experiment.json`.
+See [REPORT.md](REPORT.md), [registered method](METHOD.md), and [complete candidate readings](artifacts/READINGS.md).
