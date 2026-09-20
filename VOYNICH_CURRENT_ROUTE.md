@@ -4,10 +4,10 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Finish ten-hour block report at22:52:35UTC;1011/1012results published.
+Task: Ten-hour block closing at22:52:35UTC;1011/1012results published.
 Latest decision: 36original codes/sixclasses;qokedycentral;f50open;bank test nonseparating.
 Working files: experiments/yolo/gdt1012_transport_necessary_bank_sequence/FULL_CONTENT_FOLLOWUP.md
-Assumptions: 0words;NEXTorder untested,433not selected;1003world solver short-only.
+Assumptions: 0words;f50only4old positions,75/71new types;433not selected;1003short-only.
 Resume: Assess/register20full-content cases withPAIR/COPY/RECENT;not another weak projection.
 Running: No solver or agent;20inputs prepared,zero full-content queries;reserves closed.
 

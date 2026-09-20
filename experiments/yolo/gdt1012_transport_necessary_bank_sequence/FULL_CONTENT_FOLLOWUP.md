@@ -46,3 +46,11 @@ full world encodings and unchanged executors,not another component/word sample.
 Before implementation it needs a separate registered decision,fixtures covering
 PAIR/COPY/safety/RECENT,and an inclusive budget. This file is a scoped proposal,
 not permission to repair the frozen experiments or consume reserves.
+
+Capacity caveat for the next decision: each f50rreader contains only four
+inherited word positions,one per shared spelling. ZL requires values for 75 new
+whole spellings and IT for 71. A full SATresult must report those new aliases
+and any repeated THEN/non-action clauses; it does not explain word formation
+or become an independently confirmed word. Do not add a post-result ban on
+awkward clauses to favor one reading. Weigh this limited semantic return before
+substantial new solver implementation.
