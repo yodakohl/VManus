@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Evaluate complete Galen split-material content as a whole reading.
-Latest decision: Cennini exact homography withdrawn;992closed;no new writer selected.
-Working files: research_registry/work_batches/ten_hours_20260915/WHOLE_CONTENT_SELECTION_20260920.md
-Assumptions: Separate solid/juice is new;985single-portion finding is not evidence.
-Resume: Decide one complete candidate or park source by07:40UTC.
-Running: Bounded source producer;no target solver;earliest end09:05:26UTC.
+Task: Complete993fixed transport audit after overdue preparation checkpoint.
+Latest decision: Six synthetic checks PASS;register32variants before target execution.
+Working files: experiments/yolo/gdt993_complete_transport_consequence_audit/METHOD.md
+Assumptions: 403is invented63group reading;no words;original08:25deadline missed.
+Resume: Publish registration,run32cases,validate and publish by13:00UTC.
+Running: Bounded reading producer to12:55;no target solver;time gap not active work.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

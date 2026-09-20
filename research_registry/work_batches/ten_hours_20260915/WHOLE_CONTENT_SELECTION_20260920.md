@@ -155,3 +155,101 @@ eight historical600/953 issues plus four occurrences of that public URL
 (three source records and the explicit allowlist in the newer checker). These
 four are inspected public-source false positives, not private paths. No global
 PASS is claimed and no legacy checker is altered. Completed07:30UTC.
+
+## Whole Galen target candidate not selected; transport development next
+
+The source review is complete, and no whole Galen-to-target construction has
+been stated. Park402as source-only; do not start another full-source prefix-code
+matcher or general constituent statistics. This decision was reached before
+the07:40checkpoint, not after exhausting another decoder budget. The body/juice
+distinction is useful new source content, but supplies no missing Voynich
+participant or causal clause. Source material and correction published in
+d0e96e02b; remote main push confirmed.
+
+Root now examines the prospective complete RAW377 transport draft produced
+under its unchanged six whole-word hypotheses. W91 and915 reports reread
+completely; mixed r/l phrases remain counterexamples to universal agreement,
+and W91's failed sol implication is not used. A new conjunction or other sol
+hypothesis would be an explicit new whole reading, not a repair ofW91.
+
+Source check07:32UTC opened only the already-admitted915discovery JSON snapshots
+and928paragraph cache forf83r.18–24. All63ZL groups match377exactly, but the
+sol/chedy boundary at.21:4–5 is UNCERTAIN_SMALL_SPACE;928therefore marks that
+line ineligible for its strict anchor criterion. IT2a has64groups, definite
+spaces throughout: initial pdal shdy instead of pdalshdy, qokedal instead of
+qokedol, and sor at.19:1 instead ofsar. Its .20–.24whole forms matchZL. RF1b
+has raw entities, l chedy, solchedy and no complete-paragraph boundary contract.
+No entity, join, spelling or separator is normalized. These are alternative
+readings of one previously exposed physical leaf, not independent confirmation.
+
+Exploration may retain a provisional63-group reading while showing its source
+uncertainty. This does not change928's fixed eligibility rule or justify a
+claim of independent reliable word boundaries. Any executable whole-candidate
+check will state its chosen source and all alternative-reader debts beforehand.
+
+## Selected bounded consequence audit of403 (07:40UTC)
+
+The complete403draft is frozen (source JSON12c3751c78408b0738595523dd550cbd2e040a6db3305a15cf7d0372dc191200).
+It supplies a real new complete63-position construction:18clauses,seven written
+trips,closed lexical types,first-mentioned reference and an explicit copied
+two-argument assertion. This pays the earlier missing written-bindings debt as
+a hypothesis. It costs41new values/36new singleton meanings; it is not an
+independently discovered translation and does not explain productive morphology.
+
+Unknown to test: whether the actual full source can be parsed under the stated
+grammar and whether all fixed reference/loading variants yield the claimed
+consistent trajectory; which distinctions remain identical; whether safety
+adds discrimination beyond participant availability. Full33/63source forecasts
+are not an observed meaning. Read344andW91complete: neither failed transferable
+event paths nor failed proof roles are reopened.
+
+Smallest adequate test: one finite parser for the fixed whole grammar, no
+unknown-word learning or decoder. Audit all32predeclared combinations of five
+binary readings: excluding/with forcheeety;first/recent forsaiin;other/first
+forotchedy;goal/current bank forotaiin;copy-first/copy-second forschedair.
+Freeze details before execution. Retain all63ZLgroups and its uncertain seam;
+IT64group initial differences get no new meanings, RF lacks wholeparagraph
+contract. No alternate reading is independent confirmation.
+
+Outcomes change only403's status: a parse or physical conflict rejects the
+proposed complete construction as stated; a consistent trace retains it as
+an explicit conditional whole reading. Equivalent variants remain unselected.
+Separate hazard-graph/relabeling diagnostics examine assumption dependence,
+not additional complete manuscript readings or significance. Do not claim a
+new animal word by fixing its source identity in advance. No scored empirical
+relation evidence, holdout use or GDT388meaning credit.
+
+Inclusive preparation/implementation/validation/publication checkpoint08:25UTC.
+If the fixed calculation is incomplete, publish UNKNOWN rather than extending
+implementation. All source/model settings will be publicly registered before
+the actual consequence enumeration. No repair of403after its outcome.
+
+Native image inspection before this selection: official admitted f83rcanvas
+1006224,hashdc353557586906cbe4210f503cc57af58599a3948517fb45b1d222760be96729,
+viewed from existing cache. Three left figures/vessel-like structures and
+the lower paired assembly are visible; no independently identifiable wolf,
+goat,cabbage or narrated seven-crossing scene is established. GDT791's panel
+assignment placesP3beside the third left dripping figure. This supplies no
+animal-name confirmation. It does not alone refute unrelated accompanying
+prose; no literal illustration relation was claimed by403. No new imageaccess.
+
+## Overdue checkpoint and explicit reassessment12:38UTC
+
+The next observed clock after the implementation work was12:37:36UTC, beyond
+the08:25inclusive checkpoint. A user continuation message intervened. No
+actual paragraph consequence runner or public registration had occurred; no
+runner receipt licenses describing that interval as computation or research.
+Do not infer an active ten-hour duration from this timestamp gap. The new
+experiment remained unregistered/unevaluated, with a failed small synthetic
+preflight. Source403and all older tests remain unchanged.
+
+The bounded diagnosis12:38found a mechanical list-nesting bug in the independent
+regex-parser output: it returns the same seven synthetic clauses nested rather
+than flat. The primary parser returns the intended flat sequence. This is not
+a manuscript failure or a semantic-model adjustment. After the user's renewed
+continue instruction, choose one explicit short resumption: fix that output
+assembly only, finish the existing finite32-case audit with the unchanged
+source/lexicon/variants, independently check and publish. New inclusive
+checkpoint13:00UTC. No new candidate search, grammar expansion or source repair.
+If further substantive model changes are needed, stop without a translation
+claim. Previous08:25checkpoint was missed and is not silently rewritten.

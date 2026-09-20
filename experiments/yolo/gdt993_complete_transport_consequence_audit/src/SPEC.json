@@ -1,0 +1,163 @@
+{
+  "patterns": {
+    "INITIAL": [
+      "INIT",
+      "CARGOS",
+      "COLOC",
+      "@Agent",
+      "HOME"
+    ],
+    "GOAL": [
+      "GOAL",
+      "FAR_BANK",
+      "WITHOUT_HARM",
+      "HARM"
+    ],
+    "SAFETY": [
+      "UNSAFE",
+      "PAIRS",
+      "FORBIDDEN",
+      "WHEN",
+      "WITHOUT_AGENT",
+      "@Agent"
+    ],
+    "CAPACITY": [
+      "AT_MOST_ONE",
+      "BESIDES",
+      "@Agent",
+      "EXAMPLE",
+      "@Cargo"
+    ],
+    "WITH_OUT": [
+      "WITH_TRIP",
+      "@Vehicle",
+      "TAKE_OUT",
+      "@CargoRef"
+    ],
+    "THEN": [
+      "THEN"
+    ],
+    "EXCLUDE": [
+      "RETURN_EXCLUDING",
+      "@CargoRef"
+    ],
+    "FERRY": [
+      "FERRY",
+      "@CargoRef"
+    ],
+    "WITH_RETURN": [
+      "WITH_TRIP",
+      "@Cargo",
+      "RETURN"
+    ],
+    "PAIR": [
+      "@CargoRef",
+      "PAIRED_WITH",
+      "UNATTENDED",
+      "@CargoRef",
+      "WOULD_BE",
+      "UNSAFE"
+    ],
+    "COPY": [
+      "LIKEWISE",
+      "OTHER_CARGO"
+    ],
+    "CONVEY": [
+      "CONVEY_OUT",
+      "NEXT",
+      "@CargoRef"
+    ],
+    "STAY": [
+      "LEAVE",
+      "THERE"
+    ],
+    "ALONE": [
+      "RETURN",
+      "ALONE"
+    ],
+    "FINAL_TRIP": [
+      "FINALLY",
+      "OUTWARD",
+      "TRAVEL_TOGETHER",
+      "@Agent",
+      "@CargoRef"
+    ],
+    "RESULT": [
+      "JOINING_RESULT",
+      "REST_CARGO",
+      "COLOC",
+      "@CargoRef"
+    ],
+    "CONCLUSION": [
+      "THUS",
+      "ALL",
+      "UNHARMED",
+      "THERE",
+      "ATTENDED_BY",
+      "@Agent"
+    ]
+  },
+  "types": {
+    "Agent": [
+      "M"
+    ],
+    "Vehicle": [
+      "B"
+    ],
+    "Cargo": [
+      "W",
+      "G",
+      "C"
+    ],
+    "CargoRef": [
+      "W",
+      "G",
+      "C",
+      "FIRST_CARGO",
+      "OTHER_CARGO"
+    ]
+  },
+  "variants": {
+    "exclude": [
+      "EXCLUDING",
+      "WITH"
+    ],
+    "first": [
+      "FIRST",
+      "RECENT"
+    ],
+    "other": [
+      "OTHER",
+      "FIRST"
+    ],
+    "there": [
+      "GOAL",
+      "CURRENT"
+    ],
+    "copy": [
+      "FIRST",
+      "SECOND"
+    ]
+  },
+  "source_draft": "research_registry/work_batches/ten_hours_20260915/TRANSPORT_RAW377_COMPLETE_EXPLORATORY_READING_20260920.json",
+  "source_prefix": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_",
+  "paragraph_cache": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "page": "f83r",
+  "line_numbers": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "inclusive_deadline_utc": "2026-09-20T08:25:00Z",
+  "claims": {
+    "confirmed_words": 0,
+    "significance": false,
+    "independent_meaning_capacity": 0,
+    "historical_grammar_unique": false
+  },
+  "resumed_completion_deadline_utc": "2026-09-20T13:00:00Z"
+}

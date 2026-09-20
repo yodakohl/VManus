@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **991**
-- Experiment-associated tracked files: **19,256** (1.8 GiB)
-- Structured GDT337+ experiments: **656**
+- Experiments indexed: **992**
+- Experiment-associated tracked files: **19,272** (1.8 GiB)
+- Structured GDT337+ experiments: **657**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT993 | GDT993_complete_transport_registration | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt993_complete_transport_consequence_audit/METHOD.md) | 16 | 125.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT992 | GDT992_complete_sunzi_closure | `NO_LITERAL_COMPLETE_READING` | [report](../experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md) | 28 | 1.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT991 | GDT991_complete_role_form_closure | `STOP_UNRESOLVED_PATTERN_SEARCH` | [report](../experiments/yolo/gdt991_smaragdina_complete_form_pattern/REPORT.md) | 32 | 5.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT990 | GDT990_smaragdina_interrupted_recovery | `INTERRUPTED_FULL_EQUATION_RESULTS_UNRETAINED` | [report](../experiments/yolo/gdt990_smaragdina_complete_role_frames/REPORT.md) | 23 | 4.9 MiB | 9 | STRUCTURED_YOLO |
