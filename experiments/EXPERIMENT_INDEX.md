@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **998**
-- Experiment-associated tracked files: **19,414** (1.8 GiB)
-- Structured GDT337+ experiments: **663**
+- Experiments indexed: **999**
+- Experiment-associated tracked files: **19,430** (1.8 GiB)
+- Structured GDT337+ experiments: **664**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1000 | trotula joint quantity code | `REGISTERED_UNSCORED` | — | 16 | 62.8 KiB | 7 | STRUCTURED_YOLO |
 | GDT999 | GDT999_typed_pair_frame_transfer | `NO_OTHER_LEAF_FRAME_TRANSFER` | [report](../experiments/yolo/gdt999_typed_pair_frame_transfer/REPORT.md) | 20 | 371.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT998 | GDT998_compositional_paradigm_features | `CONTRADICTED_COMPLETE_FEATURE_TABLES` | [report](../experiments/yolo/gdt998_compositional_paradigm_features/REPORT.md) | 22 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT997 | GDT997_transport_finite_completion_capacity | `RETAIN_COMPLETE_EXPOSED_EXTENSION` | [report](../experiments/yolo/gdt997_transport_finite_completion_capacity/REPORT.md) | 25 | 4.3 MiB | 3 | STRUCTURED_YOLO |

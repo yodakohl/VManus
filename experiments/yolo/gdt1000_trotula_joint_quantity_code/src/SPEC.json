@@ -1,0 +1,25 @@
+{
+  "input": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "input_sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+  "writers": [
+    "FORWARD",
+    "REVERSE_ATOMS"
+  ],
+  "source_ids": [
+    "IV15",
+    "V19"
+  ],
+  "literal_pattern": "[a-z]+",
+  "workers": 32,
+  "solver_seconds": 3,
+  "worker_wall_seconds": 12,
+  "max_joint_jobs": 4096,
+  "job_order": "sha256(edition|IV15_id|V19_id|writer), then literal identifiers",
+  "alternative_code_seconds": 1,
+  "quantity_codes_distinct": true,
+  "nonquantity_prefix_free": true,
+  "quantity_words_reserved": true,
+  "independent_meaning_capacity": 0,
+  "reserve_accesses": 0,
+  "confirmed_words": 0
+}

@@ -1,0 +1,80 @@
+{
+  "status": "SOURCE_ONLY_TYPED_PACKET_NOT_TARGET_READING",
+  "source": {
+    "path": "research_registry/work_batches/ten_hours_20260915/TROTULA_COMPLETE_CONTENT_20260920.json",
+    "report_path": "research_registry/work_batches/ten_hours_20260915/TROTULA_COMPLETE_CONTENT_20260920.md",
+    "edition": "Experimentarius medicinae, 1544, BSB bsb10197839, printed page 8",
+    "image_provenance": "cached BSB bsb10197839 printed page 8 image; local path intentionally omitted",
+    "image_sha256": "5d9ce0a3a738fd8286b0fc270ae900983ec7013b3a6502e6ad29d85be316623e",
+    "report_sha256": "0fe2184cd0365f595ec5beda8f98be768bca8dadae6cbdf67e48f9b2b89b1c54",
+    "pre1420_wording_verified": false
+  },
+  "transcription": {
+    "iv15": "Vel Recipe castorei, piperis albi, costi, menthæ, apii, ana drac. i. terantur, & distemperentur cum vino albo vel dulci, & da sero drach. ij.",
+    "v19": "Experimentum probatissimum ad Matricem egressam. Recipe pulveris de corde cervi, foliorum lauri, ana drach. i, myrrhæ, scrup. i. distemperentur trita cum vino, & dentur potanda; & sic Matrix revertetur in suum locum.",
+    "surface_policy": "Line-break hyphens are expanded; abbreviations and punctuation retained. The printed i/j numeral forms are represented as i and ij. No botanical or medical modernization.",
+    "uncertainties": [
+      "apii final i/j letterform is normalized in the transcription.",
+      "ana scope in V19 covers the heart-powder and laurel-leaf pair; myrrh has separate scruple amount, but exact punctuation scope is an editorial reading.",
+      "trita scope and grammatical attachment remain uncertain.",
+      "distemperentur means a broad temper/mix instruction, not a forced modern chemical process.",
+      "IV15 wine quantity and whether two drachms refers to dry or finished preparation are unstated.",
+      "V19 wine type, wine quantity, dose and administration time are unstated.",
+      "probatissimum is retained as source rhetoric, not verified efficacy."
+    ]
+  },
+  "typed_ast": {
+    "units": {
+      "D": "one drachm source unit",
+      "S": "one scruple source unit",
+      "wine": "administration medium with quantity unknown"
+    },
+    "iv15": {
+      "kind": "ALTERNATIVE_RECIPE",
+      "alternative_marker": "Vel",
+      "antecedent_scope": "prior evening prescription, exact discourse boundary retained as source context",
+      "ingredients": [
+        {"name":"castoreum", "amount":"D", "amount_relation":"ana"},
+        {"name":"white pepper", "amount":"D", "amount_relation":"ana"},
+        {"name":"costus", "amount":"D", "amount_relation":"ana"},
+        {"name":"mint", "amount":"D", "amount_relation":"ana"},
+        {"name":"apium", "amount":"D", "amount_relation":"ana"}
+      ],
+      "dry_subtotal": "5D",
+      "operations": ["GRIND_OR_POUND(terantur)", "MIX_OR_TEMPER(distemperentur)"],
+      "medium": {"choice":["white_wine", "sweet_wine"], "amount":"UNKNOWN"},
+      "administration": {"amount":"2D", "time":"EVENING", "route":"UNKNOWN_DRINK_SCOPE"},
+      "forbidden_inference": "dose_fraction=2/5; wine=0; per-ingredient two-drachm dose"
+    },
+    "v19": {
+      "kind": "NAMED_EXPERIMENT",
+      "heading": {
+        "latin":"Experimentum probatissimum ad Matricem egressam",
+        "roles":["MOST_PROVEN_CLAIM", "CONDITION_EMERGED_MATRIX"]
+      },
+      "ingredients": [
+        {"name":"powder from deer heart", "amount":"D", "amount_relation":"ana_pair"},
+        {"name":"laurel leaves", "amount":"D", "amount_relation":"ana_pair"},
+        {"name":"myrrh", "amount":"S", "amount_relation":"separate_scruple"}
+      ],
+      "quantified_base":"2D+S",
+      "operations":["GRIND_SCOPE_UNKNOWN(trita)", "MIX_OR_TEMPER(distemperentur)"],
+      "medium":{"kind":"wine", "type":"UNKNOWN", "amount":"UNKNOWN"},
+      "administration":{"route":"DRINK", "amount":"UNKNOWN", "time":"UNKNOWN"},
+      "asserted_outcome":"Matrix revertetur in suum locum",
+      "outcome_status":"SOURCE_ASSERTED_NOT_INDEPENDENTLY_VERIFIED"
+    }
+  },
+  "inventory": {
+    "iv15_source_nodes":["alternative marker", "five named ingredients", "ana one-drachm each", "grind", "temper/mix", "white-or-sweet wine", "evening", "two-drachm administration"],
+    "v19_source_nodes":["most-proven experiment heading", "emerged-matrix condition", "deer-heart powder", "laurel leaves", "ana one-drachm pair", "myrrh one scruple", "trita uncertainty", "wine", "drink administration", "asserted return to own place"],
+    "not_source_nodes":["wine quantity", "scruple conversion", "finished-mixture mass", "V19 dose", "V19 time", "verified medical result"]
+  },
+  "scope_correction": {
+    "safe_equation":"IV15 dry_subtotal = D+D+D+D+D = 5D",
+    "not_licensed":"IV15 dose_fraction = 2/5",
+    "reason":"wine amount and dose referent are unstated"
+  },
+  "target_policy": "No target selection or access. Exploratory joint hypotheses may use the packet without prior independent target translation, but any fixed writer must preserve the complete typed AST and expose all unknown scopes.",
+  "medical_status": "Historical source report only; no medical recommendation or factual efficacy claim."
+}

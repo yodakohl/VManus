@@ -1,0 +1,130 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The deterministic compressed pair table and complete paragraph/provenance records retain the entire declared search, including failures and unknowns; no positive-only sample substitutes for them.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete conditional compatibility only; no confirmed words, source identity, units, names, or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1000_trotula_joint_quantity_code/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1000_trotula_joint_quantity_code/src/validate.py"
+  },
+  "created": "2026-09-20",
+  "dependencies": [
+    "GDT928",
+    "GDT904",
+    "GDT986",
+    "GDT988",
+    "GDT971",
+    "GDT998",
+    "GDT999"
+  ],
+  "experiment_id": "GDT1000",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "fixed_input",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_V19_SOURCE_PACKET_20260920.json",
+      "role": "fixed_input",
+      "sha256": "74cbf03f424bb4f63d370fba306d4600e7f15ca7321b603757c79f8cb43cbb3d"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_V19_SOURCE_PACKET_20260920.md",
+      "role": "fixed_input",
+      "sha256": "d4624cbfa797c57514e823122831856cbe1650f1c9e05859bcc9c1a1fc30655f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/DECISION.md",
+      "role": "source_or_artifact",
+      "sha256": "9dae68ba000dfae8f2ade663611a016726f8e82337b2a9c224aaf7b511f1e13f"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "996f22eb34d41380ac8ba43f144aa52a5b1173497009628b22789f4d786f76d1"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "bdead496470dd6afb32bf3116c840d42bea3bf8d67b50ceccb4b498d6f9abf39"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "5bbdbd34e4c98efdddef4f477ffa74ab48c6ed4aef33f9aa1e29c8001fdfc816"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/README.md",
+      "role": "source_or_artifact",
+      "sha256": "e87d469bcc4fe28b4465a5146e5e2ba42dd619d19fe7ca83af606fae10dd14fe"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/PREFLIGHT.json",
+      "role": "source_or_artifact",
+      "sha256": "ce5e603de0396cc0619293787b13d0d4e0cdb308505deca55cd1d3b2359aa24f"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "a58837cf784e2e0971d760951f2d6ac1c74e9555e3db2d64801b4ccec1d5912b"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/artifacts/VALIDATOR_PREFLIGHT.json",
+      "role": "source_or_artifact",
+      "sha256": "7b81e05194fb4bc35f2478bf9532887fe567df3437eee7c62dd9913b6155153c"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/requirements.txt",
+      "role": "source_or_artifact",
+      "sha256": "193d7d4baeb8f1a617b2434cd608c38b8bb0de5a20ce7f06460e87f6ec825699"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/SOURCE.json",
+      "role": "source_or_artifact",
+      "sha256": "923f2dd611705408fd5c48e5f4a20a7c6a692e4b4573e48100f994f6aac2b1a2"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "2864f455c02af8b730d7183d8f98e62abadbee3a381ad664b88fcb4615945433"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "c2f782a31a781a6284d975b68543f292450a0dec0f4a17d7faf375f744c73c8b"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/model.py",
+      "role": "source_or_artifact",
+      "sha256": "e7b56aff3dd5e385fa4792a59c60b277cab8cae2b2570763ad09f9fbfb9ff19b"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "aabd3aba302835422d7594bd0fb3a389268b12d4060c3946c3ecdd1183513008"
+    },
+    {
+      "path": "experiments/yolo/gdt1000_trotula_joint_quantity_code/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "2ce974044ce0b3082084492f354fbc25edd10795faba9333d97c8b4a1370f509"
+    }
+  ],
+  "question": "Can two complete Trotula recipe contents share a compositional word code and repeated-count quantity words on different exposed leaves?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "trotula_joint_quantity_code",
+  "status": "REGISTERED_UNSCORED",
+  "title": "trotula joint quantity code",
+  "updated": "2026-09-20",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

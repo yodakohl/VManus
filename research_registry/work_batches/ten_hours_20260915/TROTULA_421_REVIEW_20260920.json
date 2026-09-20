@@ -1,0 +1,49 @@
+{
+  "record_id": "IDEA000421",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root",
+  "assessment_basis": "native_source_scope_review_before_separate_joint_writer",
+  "reason": "Source supports5D quantified dry subtotal, not2/5 finished mixture; per-ingredient dosing is added, not equally supported. GDT1000 separately freezes corrected complete IV15/V19 joint writer; prior translated target roles are not prerequisites for permitted exploration.",
+  "blockers": [
+    {
+      "code": "source_scope_correction",
+      "detail": "Unquantified wine prevents asserted finished-mixture denominator; source quantities/identities remain hypotheses for target.",
+      "evidence": [
+        "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_DOSE_SCOPE_AUDIT_20260920.md",
+        "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_V19_SOURCE_PACKET_20260920.md",
+        "experiments/yolo/gdt1000_trotula_joint_quantity_code/METHOD.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "Retain all source content and unknown dose/medium scopes in an explicit complete writer; GDT1000 supplies one separately registered candidate, not a tested raw2/5 claim.",
+        "evidence": [
+          "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_DOSE_SCOPE_AUDIT_20260920.md",
+          "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_V19_SOURCE_PACKET_20260920.md",
+          "experiments/yolo/gdt1000_trotula_joint_quantity_code/METHOD.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treating dry subtotal as total mixture",
+      "Requiring a confirmed word before every exploratory fit",
+      "Changing amount rules after target results"
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT1000",
+      "evidence": [
+        "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_DOSE_SCOPE_AUDIT_20260920.md",
+        "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_V19_SOURCE_PACKET_20260920.md",
+        "experiments/yolo/gdt1000_trotula_joint_quantity_code/METHOD.md"
+      ]
+    }
+  ]
+}

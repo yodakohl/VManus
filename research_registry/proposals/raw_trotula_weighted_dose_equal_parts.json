@@ -1,0 +1,89 @@
+{
+  "title": "Trotula dose-total versus equal-parts mixture relations",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. The cached complete Trotula IV–VI source contains a five-ingredient one-drachm recipe with a two-drachm total dose, a distinct one-drachm/one-scruple alternative, a four-ingredient two-ounce base, and an equal-parts mixture reduced by boiling. A finite typed arithmetic account distinguishes total-dose, per-ingredient-dose, equal-initial-parts, and consumed-volume operations without assigning any target numeral word.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "created_utc": "2026-09-20",
+    "access": "Existing cached source dossier and already report-owned f82r/f83r comparison only; no new target corpus, image, reserve, f84/f84r/f116v, decoder, contact, global edit or experiment.",
+    "source": {
+      "path": "research_registry/work_batches/ten_hours_20260915/TROTULA_COMPLETE_CONTENT_20260920.json",
+      "report": "research_registry/work_batches/ten_hours_20260915/TROTULA_COMPLETE_CONTENT_20260920.md",
+      "report_sha256": "0fe2184cd0365f595ec5beda8f98be768bca8dadae6cbdf67e48f9b2b89b1c54",
+      "edition": "Experimentarius medicinae, Trotula chapters IV–VI, Strasbourg/Schott 1544, Bayerische Staatsbibliothek bsb10197839",
+      "source_status": "Complete bounded printed IV–VI account; pre-1420 wording and order are not verified by the owned witness.",
+      "native_pages": [7, 8, 9],
+      "manifest_sha256": "685fddf6ebe102a6318041dc53fde71fedb7976a7692ef686e7b0b8e11663633",
+      "owned_rows": ["IV15", "IV16", "V10", "V11", "V19", "VI05"],
+      "quoted_rows": {
+        "IV15": "castoreum, white pepper, costus, mint and apium, one drachm each; grind and mix with white or sweet wine; give two drachms in the evening.",
+        "IV16": "dried cumin: one drachm or two spoonfuls as a drink; the alternatives are not silently equated.",
+        "V10": "if it has emerged, mix aromatics with absinthium juice and anoint the belly using a feather.",
+        "V11": "take equal parts ruta, castoreum and arthemisia; boil in wine until two parts are consumed, then administer as a drink; starting volume is unstated.",
+        "V19": "deer heart and laurel leaves, one drachm each, and myrrh, one scruple; grind, mix with wine and give to drink.",
+        "VI05": "deer marrow, goose fat, red wax and butter, two ounces each; add foenumgraecum and linseed, cook in water until fully cooked, and introduce by pessary."
+      }
+    },
+    "finite_arithmetic_semantics": {
+      "positive_units": ["D=drachm", "S=scruple", "O=ounce", "H=spoonful"],
+      "unknown_conversions": ["rho_S=S/D > 0", "rho_O=O/D > 0", "rho_H=H/D > 0"],
+      "operations": [
+        "DOSE_TOTAL(preparation, amount)",
+        "DOSE_PER_COMPONENT(component, amount)",
+        "EQUAL_INITIAL_PARTS(component_list, ratio_vector)",
+        "CONSUME_VOLUME(start, consumed, final)",
+        "MIX(component_amounts, preparation)",
+        "ALTERNATIVE(choice_a, choice_b)"
+      ],
+      "equations": {
+        "IV15": ["amount(castoreum)=amount(pepper)=amount(costus)=amount(mint)=amount(apium)=D", "MIX total=5D", "DOSE_TOTAL=2D", "dose_fraction=2/5 of the stated five-D preparation"],
+        "V19": ["amount(deer_heart)=amount(laurel)=D", "amount(myrrh)=S=rho_S*D", "stated quantified base=(2+rho_S)D", "no total dose is supplied"],
+        "VI05": ["amount(marrow)=amount(goose_fat)=amount(red_wax)=amount(butter)=2O", "quantified base=8O=8*rho_O*D", "foenumgraecum and linseed are unquantified additions"],
+        "V11": ["initial ingredient ratio ruta:castoreum:arthemisia=1:1:1", "final_volume=initial_volume-consumed_volume", "consumed_volume=2u only if the source's two-parts unit u is made explicit", "initial volume and final volume are not numerically fixed"],
+        "IV16": ["ALTERNATIVE(1D, 2H)", "no equality 1D=2H is licensed by the word or"]
+      },
+      "shared_unknown_numerals": "D is a shared unit variable across the explicitly quantified recipes; rho_S, rho_O and rho_H remain positive unknown conversions. No target character, ain/i-count family, decimal base or conventional historical conversion is imported.",
+      "source_observable_consequence": "The same semantic inventory must distinguish a total dose after a MIX (IV15), equal initial ingredient shares followed by a CONSUME_VOLUME operation (V11), and an unquantified alternative dose (IV16). Treating all numeric-looking statements as one quantity role loses these written operation differences."
+    },
+    "rivals": [
+      {
+        "name": "PER_COMPONENT_DOSE",
+        "prediction": "IV15's two drachms apply to each of five ingredients, yielding 10D rather than a 2D total dose and dose_fraction 2 instead of 2/5.",
+        "why_distinct": "It changes the mixture's total while preserving every printed numeral and ingredient name."
+      },
+      {
+        "name": "EQUAL_FINAL_PORTIONS",
+        "prediction": "V11's equal parts describe final administered portions and ignore the preceding boil/reduction, rather than fixing an initial 1:1:1 ingredient vector followed by volume consumption.",
+        "why_distinct": "It predicts equality after processing and cannot preserve a separate consumed-volume event."
+      },
+      {
+        "name": "FORCED_UNIT_CONVERSION",
+        "prediction": "IV16's one drachm and two spoonfuls are treated as equal, and V19's scruple is assigned a fixed drachm fraction without an explicit source conversion.",
+        "why_distinct": "It collapses an explicit alternative and adds a unit equation absent from the source."
+      }
+    ],
+    "symmetries_and_degeneracies": [
+      "Uniform scale D -> lambda*D, S -> lambda*S, O -> lambda*O, H -> lambda*H preserves every dimensionless ratio.",
+      "rho_S, rho_O and rho_H are free positive values; the source unit labels do not identify their numerical conversion here.",
+      "The five one-D ingredients in IV15 are permutable without changing its arithmetic; ingredient names are source roles, not target identities.",
+      "V11's equal-parts vector has free total scale; boiling adds another free initial-volume/consumption pair unless a starting volume is written.",
+      "Zero solutions are excluded for explicitly positive dose/unit amounts, but unquantified VI05 additions remain unconstrained rather than set to zero.",
+      "A target renaming of preparation, ingredient and unit roles preserves the equations unless an independent written binding breaks it."
+    ],
+    "target_coverage": {
+      "already_owned": "The existing Trotula dossier records report-owned f82r/f83r whole-page comparison. It found no independently visible dose, weight, ingredient-count, or equal-parts binding; this proposal does not reopen those images.",
+      "status": "NO_TARGET_ARITHMETIC_BINDING",
+      "candidate_scope": "If later selected, compare only already recorded complete f82r/f83r configurations for a predeclared repeated ingredient/mixture relation; no f84/f84r/f116v/reserve or new image is authorized.",
+      "missing_binding": ["target preparation owner", "target ingredient roles", "target dose-total versus per-component operator", "target unit conversion", "target equal-parts and consumption relation", "surface realization of arithmetic arguments"]
+    },
+    "closest_predecessors": [
+      {"id": "GDT759/GDT760", "primary": "experiments/yolo/gdt759_quantity_part_state_construction_atlas/REPORT.md; experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md", "limit": "Their provisional drachm/ain/i-count overlays are not reused; no confirmed unit or target quantity meaning is imported."},
+      {"id": "W94/W95/W96", "primary": "research_registry/proposals/translation_programs_20260912/work/W94/REPORT.md", "limit": "The parked f2v mass/grade identity branch remains closed; this proposal does not reuse its nine-position assumptions."},
+      {"id": "GDT971", "primary": "experiments/yolo/gdt971_alloy_numeral_binding_control/REPORT.md", "limit": "Known-role decimal source control has no target binding; this card uses typed dose operations and unit symmetries instead of digit permutation."},
+      {"id": "GDT988", "primary": "experiments/yolo/gdt988_sherwood_typed_conversion_records/REPORT.md", "limit": "Fixed proof-record serializers had no fit; no serializer or Latin conversion code is reopened."},
+      {"id": "IDEA000350", "primary": "research_registry/proposals/raw_global_alloy_composition.json", "limit": "Fibonacci alloy fineness/grade conservation is a different source system; this proposal tests prescription dose scope and processing reduction, not silver/copper grade."}
+    ],
+    "strongest_failure": "The source gives no explicit drachm-to-scruple/ounce/spoonful conversion, no starting volume for V11, and no independently bound target arithmetic owner. A target fit could therefore absorb the relations through free unit scales or omit unquantified additions. The source arithmetic is useful only as a predeclared typed relation, not as evidence for a target unit or numeral.",
+    "required_next_binding": "Before any target experiment, a report-owned complete target passage must independently expose at least one total-dose versus per-component contrast and one processing relation whose participants and unit scope are fixed without importing ain/i-count values. Otherwise retain this card RAW and do not fit it."
+  }
+}

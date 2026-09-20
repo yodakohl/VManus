@@ -1,0 +1,30 @@
+{
+  "title": "Aristotle Physics II.8 regular-purpose versus incidental-result constructor",
+  "summary": "RAW_UNREVIEWED. Physics II.8 gives a complete causal content system distinguishing a regular natural series toward an end from an incidental result, with material necessity, impediment and agent-capacity conditions retained. The same broad rain/result chain changes relation without changing names.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Aristotle, Physics II.8",
+    "bekker_span": "198b10-199b33",
+    "url": "https://classics.mit.edu/Aristotle/physics.2.ii.html",
+    "source_span": "chapter 8: rain/crop objection, teeth challenge, regularity rebuttal, natural means/end examples, failure and impediment qualifications",
+    "source_limit": "public English translation; no claim about a target language, medieval witness, or modern natural law"
+  },
+  "constructor": {
+    "types": ["SERIES", "END", "MATERIAL_CONDITION", "REGULARITY", "INTERFERENCE", "AGENT_CAPACITY", "RESULT", "CAUSE_KIND"],
+    "steps": [
+      "REGISTER natural series, candidate end, material chain and result",
+      "CLASSIFY result as regular/usual or incidental and record impediment",
+      "IF regular and unimpeded, emit FOR_END(series,end)",
+      "IF end-like result is incidental, emit INCIDENTAL(result,cause); use CHANCE only when the source's deliberating-agent condition is met, otherwise SPONTANEOUS",
+      "IF a purposive sequence fails, emit FAILED_ATTEMPT(series,intended_end) while retaining the intended end",
+      "Keep material conditions as ENABLES(material,product), not automatically as final cause"
+    ]
+  },
+  "consequence": "Ordinary regular rain-to-crop growth can receive FOR_END while a one-off spoiled crop remains INCIDENTAL under the same broad event family. A result-is-purpose rival cannot preserve both source cases; an all-chance rival loses regularity.",
+  "rival": "R-II8-result-purpose: every observed result is treated as the event's purpose; alternate R-II8-all-chance marks every natural sequence incidental.",
+  "symmetries": ["renaming of series and participants", "equivalent paraphrase of typed cause labels"],
+  "missing_target_binding": "No target word is assigned to purpose, chance, nature, material, regularity, or impediment. A future writer must expose all these arguments globally; no generic connector is credited.",
+  "predecessors": ["IDEA000030", "IDEA000322", "IDEA000327"],
+  "likely_failure": "Without independently bound regularity, impediment and cause-kind fields, the constructor degenerates into arbitrary post-hoc labels and has no discriminating force."
+}

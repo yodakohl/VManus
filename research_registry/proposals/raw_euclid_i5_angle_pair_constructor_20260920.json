@@ -1,0 +1,29 @@
+{
+  "title": "Euclid I.5 angle-pair constructor with shared endpoint identities",
+  "summary": "RAW_UNREVIEWED. Euclid I.5 supplies a complete finite construction in which equal sides, an auxiliary cut and two SAS congruences derive both equal interior base angles and equal exterior angles. This is distinct from the retained I.1 equilateral construction.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Euclid, Elements I.5",
+    "url": "https://www.euclids-elements.org/elements/books/bookI/propositions/propI5/",
+    "source_span": "complete proposition statement and demonstration; source page lines 5-37 in the accessed HTML",
+    "source_limit": "public translated edition; no claim about a specific medieval witness or target Vorlage"
+  },
+  "constructor": {
+    "types": ["POINT", "SEGMENT", "ANGLE", "TRIANGLE", "EQUAL", "EXTEND", "CUT_EQUAL", "JOIN", "SAS_CONGRUENCE", "WHOLE_MINUS_REMAINDER", "CONCLUDE"],
+    "steps": [
+      "GIVEN triangle ABC with AB=AC; EXTEND AB to D and AC to E",
+      "CHOOSE F on BD; CUT AG from AE with AG=AF; JOIN FC and GB",
+      "SAS(AFC,AGB) derives FC=GB, ACF=ABG, AFC=AGB",
+      "WHOLE_MINUS_REMAINDER derives BF=CG",
+      "SAS(BFC,CGB) using BF=CG, FC=GB, common BC derives FBC=GCB and BCF=CBG",
+      "SUBTRACT equal inner pieces from equal whole angles to derive ABC=ACB; retain FBC=GCB"
+    ]
+  },
+  "consequence": "One shared equal-side input must yield both interior and exterior angle equalities through the same auxiliary endpoint identities. A flat equal-side classifier can predict the interior result but cannot derive the exterior result.",
+  "rival": "R-I5-flat: AB=AC -> base-angle equality with exterior equality left unbound.",
+  "symmetries": ["global point renaming", "reflection", "scale"],
+  "missing_target_binding": "No target point, segment, angle, or diagram meaning is claimed. A later writer would need all auxiliary roles globally visible and no nearest-point repairs.",
+  "predecessors": ["IDEA000383", "IDEA000125", "GDT608"],
+  "likely_failure": "No independently owned target relation may expose the auxiliary cut, two congruence steps, and paired interior/exterior conclusions; this is then an untestable exploratory constructor, not a source failure."
+}
