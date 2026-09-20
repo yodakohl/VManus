@@ -408,3 +408,61 @@ primaries before any target nomination;the source producer found no new distinct
 mechanism beyond retained348/389/352/381/402. Those cards remain unselected.
 Preparation13:16through completed core validation13:34was about18minutes;
 publication is still pending here and stays inside the14:05inclusive checkpoint.
+
+995closure ca9c061d7pushed and confirmed13:39:58UTC,about24minutes from
+preparation,inside14:05budget. Exact staged privacy/scope PASS;global audit
+retains only the known8old600/953failures. Generated runtime reference tables
+were removed from staging before publication;published bytes are source,
+registration,results,validators and explicit live-memory changes.
+
+## Next exploratory choice13:40UTC: whole typed mechanism nomination
+
+Read pictures/data topics,IDEA348whole proposal,214/885/903complete reports,
+936complete report and current visual admission contracts.214exactlabel/prose
+reuse unsupported;885small common endpoint excluded;903large free endpoint
+compatiblewithoutmeaning;936motion/rest sentences are fitted guesses with
+unknownparticipants. None identifies a component,water,heat ormotion word.
+
+Smallest useful exploratory task through14:25including recording/publication:
+review existing admittedf77r/f83rfull originals for an actual typed attachment
+consequence that could separate complete mechanisms sharing their endpoints.
+Do not reread images merely for another general orientation report. The needed
+new proposal must nominate a whole figure/prose unit and an observable relation
+that constrains component identity and survives global renaming,with possible
+countermodels. If the pictures cannot discriminate relevant types/attachments,
+retain that missing design and do not build another conditional engine.
+No source count equated with word count,no inherited936/697glosses, no new visual
+admission. Both pictures fully exposed earlier;0independentconfirmation.
+
+
+### Typed mechanism nomination closed without a new engine
+
+Root inspected already admitted Yale images f77r(930's2000px rendering,hash
+6bcedcaccc8107da32d6d1ca950b96708b529538d7902a2108398a3c0b9327df)
+and f83r(original2753x3745,dc353557586906cbe4210f503cc57af58599a3948517fb45b1d222760be96729).
+Visible curved connections,vessels and outlet-like ends do not securely identify
+the suspended weights,pulleys,elastic bag,rigid pressure chamber or moving/reset
+states needed to distinguish Hero37/38. No specific whole typed mechanism was
+nominated. This is missing discriminatory visual typing,not a refutation of
+mechanical content. Earlier936motion words remain guesses. No new decoder.
+The earlier selection note said full originals;f77r was specifically the already
+owned reduced Yale rendering,not the full/full file. f83r was full/full.
+
+### Selected GDT996 source consequence,about14:11UTC
+
+Before a wildcard extension of993,the known IT opening is a countercase worth
+checking: pdal shdy places the already guessed WITHOUT_HARM at slot2,where the
+fixed INITIAL production requires CARGOS. Missing pdal vocabulary cannot fix
+that known-token mismatch. The seven-line ZL construction also depends on a
+split sol/chedy seam that RF joins. Instead of implementing a corpus wildcard
+solver,register direct native comparison of those two exact physical premises
+and explicit necessary-condition witnesses for allthree source streams.
+
+Positive:993fullycoherent conditional reading exists;994found no additional
+fullycovered paragraph. Unknown:which seam representations have local physical
+support? Strong countercases852/864show spacing alone is not a lexical meaning.
+All old meanings and productions unchanged. Outcome changes the exact tokenized
+candidate's source status,not its hypothetical content truth. Existingf83rwhole
+image and expected outcomes already known. One aware native viewer,0independent
+meaning capacity. Inclusive preparation,validation,publication deadline14:35UTC.
+No new corpus rollout,grammar repair or return to unchanged missing-input audit.

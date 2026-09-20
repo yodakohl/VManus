@@ -222,6 +222,82 @@ constituent identity. Their common debt is a target-side field contract. No
 Voynich access, decoder, ledger, route update or experiment follows from this
 shortlist.
 
+### Producer batch: paraphrase-tolerant partial relation supply (2026-09-20)
+
+One new raw card was added as **IDEA000411**, after route-check and duplicate
+screening. It does not assign a word meaning. It treats repeated whole forms as
+latent variables and jointly constrains only a small relation signature across
+several already exposed complete-reading candidates: argument arity,
+input/output polarity, participant persistence across an intervening group,
+contrast/complement status, and scope endpoint. Clause order or source-specific
+explanation may vary, but a repeated form cannot silently change its signature
+between complete readings. This directly addresses the paraphrase-versus-free-
+fit boundary without copying historical prose.
+
+The source-owned distinction behind the card is renaming-invariant: the Saint
+Albans `de dictis coloribus transmutatis` reference applies one relation to
+different field regions, while Pacioli's complete posting uses contextual
+`per` with opposite host/account roles. Color, account, and page names may be
+renamed consistently without changing the relation. The corresponding source
+packets are `REFERENCE_ROLE_SOURCE_SUPPLY_20260920.md` /
+`raw_counterchanged_tincture_reference_1486.json` and
+`ISNAD_LEDGER_CONTEXTUAL_SUPPLY_20260920.md` /
+`raw_pacioli_reciprocal_posting_context.json`.
+
+The strongest countercases were retained explicitly. GDT980 shows that a
+grammar-complete account using every atom can remain true in all comparison
+scenes; coverage alone is therefore not a discriminator. GDT903 shows that
+unrestricted reversible endpoint actions can be compatible without identifying
+a writing rule. GDT995's published inverse is a known-control result only and
+does not supply Voynich or Latin semantics. IDEA000411 therefore requires a
+held relation contrast whose edge signatures differ; a missing target field is
+recorded as debt rather than counted as a failure.
+
+Three diverse retained raw review choices remain available without adding
+duplicates: **IDEA000389** for context-indexed reference, **IDEA000391** for
+group-bound contextual value, and **IDEA000400** for cross-record host/reference
+inversion. Each still lacks a target owner and writer. The practical next
+review choice is IDEA000411 only after root nominates a complete target set and
+one explicit preserve-versus-replace or context-free-versus-indexed rival;
+otherwise these cards remain source supply. No target access, decoder, ledger,
+route, refresh, commit, or publication was performed.
+
+### Producer batch: multilingual feature-bundle alternative (2026-09-20)
+
+One further raw card was added as **IDEA000412**, after bounded duplicate and
+primary review. It addresses the current 41-singleton debt with a concrete
+source-owned content relation while keeping GDT993's 17 productions and 47
+retained values frozen. Unknown whole forms receive only existential
+person/number and tense/aspect feature bundles; no new production or English
+gloss is assigned. Repeated forms must preserve their bundle across complete
+readings, while a marked person or tense change must remain visible.
+
+The source is the complete six-person present and imperfect paradigm in the
+Kuun1880 *Codex Cumanicus* on printed page 1, aligned across Latin, Persian,
+and Cuman. Its distinction survives global renaming because the typed
+person/number and present/imperfect oppositions remain even when every lexical
+cell is renamed. This is deliberately different from the already excluded
+GDT900/IDEA000134 lexical-cell-copying model, and from IDEA000317's nominated
+Y-AIIN-Y pattern. IDEA000122's shared-script multilingual architecture is also
+retained as a neighboring but different source family: IDEA000412 does not
+assume a shared cipher key or paragraph language switch.
+
+The explicit rival is row-position-only tagging: it can assign arbitrary local
+labels and silently change person/tense content between readings. The feature
+model predicts preserved bundles and a held marked contrast. The strongest
+failure is absent target capacity for a finite person/number or tense
+opposition; arbitrary feature assignment would then add no discrimination.
+That remains source/target binding debt, not a failure of the source relation.
+
+Three existing raw cards already own other useful alternatives and were not
+duplicated: **IDEA000396** (Hippocratic history-qualified prognosis and delayed
+repeat inquiry), **IDEA000397** (Phaedrus reported accusations versus endorsed
+rebuttals and non-entailing outcome), and **IDEA000334** (Dioscorides branching
+preparations with an explicitly adverse excess branch). Their complete source
+content and explicit rivals remain available for later review. No target rows,
+images, reserves, decoder, production change, ledger, route, refresh, commit,
+or publication was performed.
+
 ## Source audit record and public reproducibility
 
 All links below identify public sources; hashes bind bytes actually downloaded. Original source images were viewed through native image inspection. Images, browser captures, caches and absolute machine paths are not included in this dossier or its raw card. No Voynich transcription or image file, reserve, f84/f84r or f116v was opened. Registry metadata and primary result prose were used for duplicate/claim checks; their quoted historical target examples were not treated as new experiment data. No contact was made. Root owns publication, route and ledger changes.

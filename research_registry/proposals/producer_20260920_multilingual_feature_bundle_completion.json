@@ -1,0 +1,37 @@
+{
+  "title": "RAW_UNREVIEWED: multilingual inflectional feature bundles constrain singleton completions without lexical cell copying",
+  "summary": "A source-owned trilingual paradigm supplies person/number and tense oppositions while its Latin, Persian and Cuman cells remain different words. Under a frozen target production inventory, existential unknown-word completions would receive only shared feature bundles, preserving all old values and adding no production or singleton gloss.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "source_example": "Kuun1880 Codex Cumanicus p.1 contains complete six-person present and imperfect tables aligned across Latin, Persian and Cuman. The source supplies row/tense content relations; it does not license copying any source cell into a target word.",
+    "source_primary": "experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/REPORT.md",
+    "mechanism": "Keep the frozen target productions and all 47 retained values unchanged. For each unknown whole form in a predeclared complete reading, assign an existential feature bundle only: person/number, tense or aspect contrast, and paradigm-slot participation. Repeated forms retain one bundle; distinct forms may realize distinct bundles. A complete candidate must cover a declared finite opposition set, such as six person/number slots in one present frame and the corresponding imperfect frame, without requiring identical lexical strings across language-like channels.",
+    "joint_content_consequence": "A repeated unknown whole that occupies the same participant slot across two complete readings must preserve its feature bundle, while a marked tense or person change must produce the corresponding relational contrast. This constrains several singleton completions jointly through a finite opposition inventory, without assigning English words or changing known productions.",
+    "explicit_rivals": [
+      {
+        "name": "lexical-cell copying",
+        "consequence": "Requires exact source-cell equality or one shared written key across the trilingual tables; this is the already closed GDT900 conjunction and is not reopened."
+      },
+      {
+        "name": "row-position-only tags",
+        "consequence": "Treats each row position as an arbitrary local label, allowing a form to change person/tense content between complete readings; it predicts no preserved feature bundle or marked contrast."
+      }
+    ],
+    "source_owned_distinction": "The content distinction survives global renaming: Latin, Persian and Cuman forms can all be renamed while the six-person and present/imperfect opposition remains. A row-order-only account loses this typed opposition; exact cell copying imposes a stronger lexical identity that the source does not require.",
+    "strongest_likely_failure": "If the exposed complete target passages do not independently expose a finite person/number or tense contrast, feature bundles can be assigned arbitrarily and the proposal earns no discrimination. If the target is not multilingual or inflectional, the source analogy supplies no bridge.",
+    "falsifier": "After freezing the complete target set and opposition inventory, no existential assignment preserves repeated-form bundles across readings, or the feature model makes exactly the same predictions as row-position-only tags for every held contrast. A failure cannot be repaired by changing productions, adding singleton meanings, or relabeling known values.",
+    "nearest_predecessors": [
+      "IDEA000134 / GDT900: complete trilingual lexical-cell copying was exhaustively excluded; this proposal removes that equality premise and changes the tested consequence to typed feature opposition.",
+      "IDEA000317: existing Cumanicus person/time proposal targets a specific Y-AIIN-Y pattern; this card keeps the source feature inventory abstract and does not nominate that target form.",
+      "IDEA000122: shared-script multilingual architecture; this card does not posit a shared cipher key or paragraph language switch."
+    ],
+    "assumptions": [
+      "Unknown target forms remain whole-space units; no EVA substring values are inferred.",
+      "All known target values and the 17 frozen productions remain fixed.",
+      "The complete target set, row boundaries and held opposition contrast must be frozen before any fit.",
+      "Codex Cumanicus is a source analogue for content relations only; it does not identify a target language or participant role."
+    ],
+    "selection_debt": "No target field, writer, language, or source-to-target bridge is currently bound. This remains raw and unselected; a future review must name the complete target records and a held feature contrast before implementation."
+  }
+}

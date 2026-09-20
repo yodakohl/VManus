@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour block to22:52:35UTC;close995 then review typed whole mechanisms.
-Latest decision: 995conditional45/48exact;837failure unchanged;0Voynich words.
-Working files: research_registry/work_batches/ten_hours_20260915/WHOLE_CONTENT_SELECTION_20260920.md
-Assumptions: 995known-control inverse is not a Voynich rule;whole singleton debt remains.
-Resume: Publish995;read IDEA348 and214/885/903before whole-figure nomination.
-Running: none;995validated;source producer completed bounded paired-source review.
+Task: Ten-hour block to22:52:35UTC;996two candidate seam checks to14:35.
+Latest decision: Typed mechanism nomination lacks visible type separation;995published.
+Working files: experiments/yolo/gdt996_f83r_candidate_seam_consequences/METHOD.md
+Assumptions: 993means are hypotheses;single aware viewer;f83rfully exposed.
+Resume: Publish996registration,inspect fixed seams,retain all source alternatives.
+Running: root996;bounded producer supplies source-owned relational candidates.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

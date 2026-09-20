@@ -1,0 +1,31 @@
+{
+  "title": "RAW_UNREVIEWED: partial relation signatures constrain repeated unknown wholes across complete readings",
+  "summary": "A joint whole-reading model keeps lexical values unknown while requiring repeated whole forms to preserve a finite relation signature across several complete passages. It allows paraphrase and reordered clauses, but rejects occurrence-specific role changes unless an independently marked context licenses them.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "known_passage_set": [
+      "Existing complete source-owned target candidate P1/P2 cards IDEA000374 and IDEA000379",
+      "Existing complete f77r P3 candidate retained in IDEA000381; no new target text or image was opened"
+    ],
+    "mechanism": "Represent every repeated whole form as one latent variable whose value is not named. Infer only a relation signature from complete passage structure: argument arity, input/output polarity, participant persistence across an intervening group, contrast/complement status, and scope endpoint. A candidate reading may leave all lexical values unbound, but the same form cannot silently change its signature from one complete passage to another.",
+    "joint_constraint": "Build one partial constraint graph for several complete readings. Each reading may paraphrase, reorder clauses, or omit a source-specific surface explanation, but any retained relation edge must map to the same latent whole-form signature. A valid partial solution is a nonempty domain of signatures shared by all readings; it is not a translation and cannot promote a singleton gloss.",
+    "source_owned_distinction": "Two already-owned source mechanisms motivate the renaming-safe signature: Saint Albans' `de dictis coloribus transmutatis` applies one backward reference to each field region, while Pacioli's complete posting uses the same contextual `per` relation with opposite host/account roles. Renaming colors, accounts, or pages preserves the relation; assigning a context-free value destroys it. These sources motivate relational constraints, not copied prose or a target key.",
+    "discriminating_consequence": "Compare a preserve-participant model with a replace-participant model, or a context-indexed relation with a context-free label, over the same complete passage set. The models may share every lexical value domain, yet predict different edge signatures and different scope endpoints. Retain both if the current exposed records do not distinguish them.",
+    "strongest_likely_failure": "If complete target records expose only recurrence and adjacency, without independently bound argument slots, scope boundaries, or participant persistence, the partial graph admits arbitrary completions. This is a missing target binding, not an empirical failure of the source relation.",
+    "falsifier": "The shared-signature model has no nonempty completion once all complete passages and alternate readings are retained, or it makes the same relation prediction as the context-free and occurrence-specific rivals for every declared held contrast. A later model may not rescue this by assigning a new local word meaning.",
+    "nearest_closed_countercases": [
+      "GDT980: a grammar-complete account using every atom remains true in all comparison scenes; syntactic coverage alone is therefore not a discriminator.",
+      "GDT903: unrestricted reversible endpoint actions remain compatible without a writing rule; endpoint existence is not semantic identification.",
+      "GDT995: a published inverse control recovers a known control key under held words, but is conditional control evidence and not a Voynich or Latin meaning result."
+    ],
+    "why_distinct_from_retained_raw_cards": "IDEA000409 fixes one successor relation and IDEA000410 fixes one same-result relation. This card fixes neither relation content nor a source genre; it supplies a partial, multi-reading signature contract that tests paraphrase tolerance while delaying lexical assignment. It is not a singleton family fill, exact historical prose copy, decoder, or consistency-only replay.",
+    "assumptions": [
+      "Whole-form identity is retained at the spaces level; no EVA substring meanings are inferred.",
+      "The complete passage set and boundary alternatives are frozen before any partial graph fit.",
+      "Relation signatures are abstract structural hypotheses and must not be reported as confirmed target participant roles.",
+      "A source analogue can constrain which relation distinctions are worth preserving, but cannot identify a target field."
+    ],
+    "selection_debt": "No target field, word, writer, or independently owned source-to-target bridge is currently bound. The card remains raw and unselected; a future review must name the smallest complete target set and a rival whose edge signatures differ before any implementation."
+  }
+}
