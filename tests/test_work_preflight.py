@@ -7,7 +7,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from tools.work_preflight import INDEX_PATH, run
+from tools.work_preflight import INDEX_PATH, REVIEWED_PUBLIC_SOURCE_URLS, run
 
 
 class WorkPreflightTests(unittest.TestCase):
@@ -112,6 +112,35 @@ class WorkPreflightTests(unittest.TestCase):
         self.git("add", ".")
         self.write("tools/fixture.py", "api" + "_key = unstaged-fixture\n")
         self.assertEqual(self.check(includes=("tools/fixture.py",))["errors"], [])
+
+    def test_reviewed_public_source_url_is_not_a_local_path(self) -> None:
+        url = REVIEWED_PUBLIC_SOURCE_URLS[0].decode()
+        self.write("tools/fixture.py", url + "\n")
+        self.git("add", ".")
+        self.assertEqual(self.check(includes=("tools/fixture.py",))["errors"], [])
+
+    def test_public_source_exception_keeps_adjacent_paths_and_credentials(self) -> None:
+        url = REVIEWED_PUBLIC_SOURCE_URLS[0].decode()
+        for suffix, error_text in (
+            ("\n/" + "home" + "/private/fixture\n", "private/local absolute path"),
+            ("\napi" + "_key = fixture-not-a-secret\n", "credential/private-key"),
+            ("/" + "home" + "/private/fixture", "private/local absolute path"),
+        ):
+            with self.subTest(error_text=error_text, suffix=suffix):
+                self.write("tools/fixture.py", url + suffix)
+                self.git("add", ".")
+                errors = self.check(includes=("tools/fixture.py",))["errors"]
+                self.assertTrue(any(error_text in error for error in errors))
+
+    def test_public_source_exception_is_not_a_domain_or_path_exception(self) -> None:
+        url = REVIEWED_PUBLIC_SOURCE_URLS[0].decode()
+        for changed in (url.replace("RICOTTA", "OTHER"),
+                        url.replace("www.memofonte.it", "example.invalid")):
+            with self.subTest(changed=changed):
+                self.write("tools/fixture.py", changed)
+                self.git("add", ".")
+                errors = self.check(includes=("tools/fixture.py",))["errors"]
+                self.assertTrue(any("private/local absolute path" in error for error in errors))
 
     def test_deletions_and_renames_are_scoped(self) -> None:
         self.git("rm", "tools/fixture.py")

@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Close992and review unresolved whole-passage content obligations.
-Latest decision: All1108readable Sunzi cases contradicted;1590source unknown;0words.
-Working files: experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md
-Assumptions: No source/writer repair;whole hypothetical readings remain permitted.
-Resume: Publish992closure;review932/933/947 and complete target obligations.
-Running: Bounded source producer;no target search;earliest end09:05:26UTC.
+Task: Evaluate complete Galen split-material content as a whole reading.
+Latest decision: Cennini exact homography withdrawn;992closed;no new writer selected.
+Working files: research_registry/work_batches/ten_hours_20260915/WHOLE_CONTENT_SELECTION_20260920.md
+Assumptions: Separate solid/juice is new;985single-portion finding is not evidence.
+Resume: Decide one complete candidate or park source by07:40UTC.
+Running: Bounded source producer;no target solver;earliest end09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

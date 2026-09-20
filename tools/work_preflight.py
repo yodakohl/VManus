@@ -31,6 +31,19 @@ from tools.vmanus_experiment import validate_manifest_data
 EXPERIMENT_PATH = re.compile(r"^experiments/yolo/gdt(\d{3,})_[a-z0-9][a-z0-9_-]*/")
 EXPERIMENT_ID = re.compile(r"GDT\d{3,}\Z")
 INDEX_PATH = "experiments/EXPERIMENT_INDEX.tsv"
+# Reviewed public source, verified as an openly served PDF on 2026-09-20.
+# The legacy path regex mistakes its web path for a local home directory.
+# This exception is exact, applies only to path scanning, and does not exempt
+# the host generally or affect credential/private-key scanning.
+REVIEWED_PUBLIC_SOURCE_URLS = (
+    b"https://www.memofonte.it/home/files/pdf/XV_2015_RICOTTA.pdf",
+)
+
+
+def contains_private_local_path(blob: bytes) -> bool:
+    for public_url in REVIEWED_PUBLIC_SOURCE_URLS:
+        blob = blob.replace(public_url, b"[reviewed-public-source-url]")
+    return any(pattern.search(blob) for pattern in LOCAL_PATH_PATTERNS)
 
 
 def safe_relative(path: str) -> bool:
@@ -202,7 +215,7 @@ def run(*, root: Path = REPOSITORY_ROOT, experiments: tuple[str, ...] = (),
             blob = tree.read(path)
             if any(pattern.search(blob) for pattern in CREDENTIAL_PATTERNS):
                 errors.append(f"credential/private-key pattern in staged file: {path}")
-            if any(pattern.search(blob) for pattern in LOCAL_PATH_PATTERNS):
+            if contains_private_local_path(blob):
                 errors.append(f"private/local absolute path in staged file: {path}")
         except ValueError as exc:
             errors.append(str(exc))
