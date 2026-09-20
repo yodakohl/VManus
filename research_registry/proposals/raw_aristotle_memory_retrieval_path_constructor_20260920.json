@@ -1,0 +1,59 @@
+{
+  "title": "Aristotle memory versus recollection retrieval-path constructor",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Aristotle De memoria distinguishes a past memory from present perception and future expectation, then defines recollection as an active search through ordered movements. The search may start from sequence, similarity, contrast or contiguity and must reach a desired prior presentation from within the chain. A finite constructor therefore separates MEMORY(token,time) from RECOLLECT(seed,relation,path), with a concrete wrong-name and middle-point consequence under a nearest-reference or unordered-bag rival.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Aristotle, De memoria et reminiscentia / On Memory and Reminiscence, parts 1–2",
+    "url": "https://classics.mit.edu/Aristotle/memory.html",
+    "source_span": "Complete bounded argument from the past/present/future distinction through the recollection search rule and the examples of milk -> white -> mist -> moist -> Autumn and the middle-point sequence.",
+    "provenance": "The linked Internet Classics Archive supplies J. I. Beare's English translation and identifies the treatise and date. The card uses its source-owned distinctions, not a Latin default or a claim about target language."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000444 Aristotle Poetics; IDEA000411 partial relation signatures; IDEA000397/415 accusation and rebuttal chains; route-check reference/state results.",
+    "difference": "This card models a retrieval search with temporal typing and four source-stated relation kinds. It is not plot causality, an accusation narrative, or a generic backward nearest-reference rule."
+  },
+  "constructor": {
+    "types": [
+      "PRESENTATION",
+      "TIME_STATUS",
+      "MEMORY_TOKEN",
+      "RELATION",
+      "PATH",
+      "TARGET_PRESENTATION",
+      "RETRIEVAL_RESULT"
+    ],
+    "operators": [
+      "PERCEIVE(presentation, PRESENT) -> PRESENTATION",
+      "EXPECT(presentation, FUTURE) -> PRESENTATION",
+      "STORE(presentation, PAST) -> MEMORY_TOKEN",
+      "LINK(a, relation, b) -> PATH_EDGE",
+      "SEARCH(seed, relation_set, path) -> RETRIEVAL_RESULT",
+      "REMEMBER(token) -> PAST_PRESENTATION",
+      "RECOLLECT(seed, target, path) -> TARGET_PRESENTATION"
+    ],
+    "component_functions": {
+      "TIME_STATUS": "assigns PRESENT to perception, FUTURE to expectation, and PAST to memory; the same presentation cannot be two statuses in one clause.",
+      "STORE": "creates a memory token only after the source event and elapsed time; it does not mean immediate perception.",
+      "LINK": "adds one ordered relation: SEQUENCE, SIMILARITY, CONTRAST or CONTIGUITY.",
+      "SEARCH": "walks the declared path from a seed until the target follows by the source rule; it may branch where the source allows several directions.",
+      "REMEMBER/RECOLLECT": "keep passive retained memory separate from active retrieval; recollection implies memory but memory does not imply a search.",
+      "WHOLE_RESIDUAL": "selects STORE, LINK, SEARCH or RESULT within the cognitive frame; it cannot replace the path with an arbitrary target name."
+    },
+    "worked_example": [
+      "p0 = PERCEIVE(white, PRESENT); p1 = STORE(p0, PAST)",
+      "path = LINK(milk, SIMILARITY, white) -> LINK(white, CONTIGUITY, mist) -> LINK(mist, CONTIGUITY, moist) -> LINK(moist, SEQUENCE, Autumn)",
+      "r1 = RECOLLECT(milk, Autumn, path) -> Autumn",
+      "middle = [A,B,G,D,E,Z,I,H,O]; r2 = SEARCH(E, {SEQUENCE,reverse}, middle) -> D or Z first; if target=O, continue E->Z->I->H->O or reverse branch according to declared path.",
+      "wrong = SEARCH(seed, nearest_only, path) is invalid whenever the desired target is reached through a non-nearest relation; it cannot be silently repaired."
+    ],
+    "observable_consequence": "The same seed can yield different retrieval outcomes when the declared relation or path direction changes, while a present perception cannot be emitted as a memory until time has elapsed. An unordered-bag or nearest-previous model predicts no milk-white-mist-moist-Autumn chain and cannot represent the middle-point bidirectionality.",
+    "rivals": [
+      "NEAREST_REFERENCE: always chooses the closest prior presentation and ignores sequence/similarity/contrast/contiguity.",
+      "UNORDERED_ASSOCIATION_BAG: stores related items without path order, so it cannot predict which target follows a seed.",
+      "ALL_PRESENTATIONS_MEMORY: labels present perception and future expectation as memory, contradicting the source temporal partition."
+    ],
+    "falsifier": "Reject if a fixed path returns different targets under the same seed/relation/context, if a recollection can succeed without a prior memory token, or if present/future clauses are admitted as past memory. The source does not identify target tokens or a universal human cognitive law.",
+    "target_binding_limit": "No target word or reference direction is claimed. This is a source-only exploratory constructor whose prediction is the typed path consequence."
+  }
+}

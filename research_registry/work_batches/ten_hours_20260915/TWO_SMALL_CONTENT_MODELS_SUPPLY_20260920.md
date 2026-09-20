@@ -911,3 +911,36 @@ are source-grounded constructor hypotheses, not target readings or tested result
 All three cards name the strongest source or target-binding failure and leave
 unknown target word meanings unresolved. No target data, reserves, root
 experiment files, route, ledger, or frozen source packet were changed.
+
+## P. Two bounded non-transport, non-record-writer candidates
+
+The updated route and composition/variant topics were read first. Targeted idea
+and route-check searches screened the nearby Fiore, music, calendar, astronomy,
+Hippocratic prognosis, Aristotle vessel, and existing reference cards. Two cards
+survived as materially different finite mechanisms; no third card was forced
+where the predecessor was already the same mechanism.
+
+* `IDEA000449` —
+  `raw_hippocratic_embryo_feedback_loop_20260920.json`. De natura pueri 12.1
+  gives a compact recurrent process: mixed generative material heats, holds
+  breath, opens a passage, expels warm air, draws cool air back, and repeats.
+  The same ordered cycle is explicitly extended to heated wood, leaves, foods,
+  and drinks. The worked constructor keeps one embryo and one channel across
+  two cycles and predicts a different result from one-way maturation or a new
+  object per cycle. It is distinct from the Aristotle vessel and Hippocratic
+  prognosis cards because the discriminating content is feedback-loop order and
+  cross-domain analogy.
+
+* `IDEA000450` —
+  `raw_aristotle_memory_retrieval_path_constructor_20260920.json`. De memoria
+  separates present perception, future expectation, and past memory, then gives
+  recollection as an active ordered search through sequence, similarity,
+  contrast, or contiguity. The worked example computes
+  milk -> white -> mist -> moist -> Autumn and a bidirectional middle-point
+  search. A nearest-reference or unordered-bag rival cannot produce those
+  path-dependent outcomes. This is distinct from the existing Poetics,
+  accusation, and generic reference cards because its operator is typed memory
+  status plus path search.
+
+Both cards remain `RAW_UNREVIEWED_NOT_SELECTED`, with target binding explicitly
+unknown. Primary checks: [Hippocratic De natura pueri 12.1](https://eulogikon.org/works/hippocrates-nature-child-bww-ad) and [Aristotle De memoria](https://classics.mit.edu/Aristotle/memory.html). No target, reserve, root experiment, route, ledger, or frozen source file was changed.

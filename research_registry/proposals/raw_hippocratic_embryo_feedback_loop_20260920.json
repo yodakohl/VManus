@@ -1,0 +1,63 @@
+{
+  "title": "Hippocratic embryonic heat-air feedback loop",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. De natura pueri 12 describes a complete recurrent mechanism: male and female generative material mixes, thickens and heats; heated material holds breath, makes a central passage, expels warm air, then draws cooler air back through the opening, repeating through time. A finite loop operator carries one embryo identity through HEAT, VENT, DRAW and NOURISH cycles, while the same rule is extended by analogy to heated wood, leaves, foods and drinks. A one-way maturation rival predicts no repeated return-flow or cross-domain analogy.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Hippocratic Corpus, De natura pueri / On the Nature of the Child, section 12.1",
+    "url": "https://eulogikon.org/works/hippocrates-nature-child-bww-ad",
+    "source_span": "The complete bounded section 12.1 on mixed generative material, heating, breath passage, warm-air exit, cool-air intake and the stated analogy to heated wood, leaves, foods and drinks.",
+    "provenance": "Eulogikon identifies the work as an anonymous late-fifth- or fourth-century BCE Ionic treatise and displays the Greek section 12.1. This card models the source claim and does not treat its physiology as present medical fact or a target Vorlage."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000322 Aristotle vessel-development source; IDEA000438 Hippocratic prognosis; prior transformation and state-delta cards.",
+    "difference": "The proposed content is a recurrent feedback loop with a source-written cross-domain analogy. It does not assign vessel counts, diagnose a patient, or merely record sparse field updates."
+  },
+  "constructor": {
+    "types": [
+      "EMBRYO",
+      "SEED_MIX",
+      "HEAT_STATE",
+      "AIR_CHANNEL",
+      "AIR_FLOW",
+      "NOURISHMENT",
+      "ANALOGUE_DOMAIN"
+    ],
+    "operators": [
+      "MIX(male_seed, female_seed) -> SEED_MIX",
+      "HEAT(mixture) -> HEAT_STATE",
+      "VENT_OPEN(heat_state) -> AIR_CHANNEL",
+      "EXPEL(channel, warm_air) -> AIR_FLOW",
+      "DRAW(channel, cool_air) -> AIR_FLOW",
+      "FEED(embryo, drawn_air) -> NOURISHMENT",
+      "ITERATE(embryo, channel, cycle_index) -> embryo_state",
+      "ANALOGIZE(heat_cycle, domain) -> ANALOGOUS_PROCESS"
+    ],
+    "component_functions": {
+      "MIX": "opens one embryo-associated mixture from two source contributions; it does not name either contributor as the later embryo.",
+      "HEAT": "changes mixture condition and enables the channel rule.",
+      "VENT": "creates the central passage once; subsequent cycles reuse it.",
+      "EXPEL/DRAW": "are ordered opposites in one cycle, not interchangeable synonyms.",
+      "FEED": "binds the drawn cool air to the continuing embryo process; it does not create a new embryo.",
+      "ANALOGIZE": "reuses the same heat-air cycle for the source-listed heated wood, leaves, foods and drinks as separate analogue domains.",
+      "WHOLE_RESIDUAL": "selects MIX, VENT_LOOP, or ANALOGY within this process family; it cannot insert an unmentioned organ or developmental stage."
+    },
+    "worked_example": [
+      "e0 = MIX(male_seed, female_seed)",
+      "e1 = HEAT(e0)",
+      "ch = VENT_OPEN(e1)",
+      "cycle1 = EXPEL(ch, warm_air); cycle1b = DRAW(ch, cool_air); e2 = FEED(e1, cycle1b)",
+      "cycle2 = EXPEL(ch, warm_air); cycle2b = DRAW(ch, cool_air); e3 = FEED(e2, cycle2b)",
+      "analogy = ANALOGIZE(HEAT->VENT->EXPEL->DRAW, {heated_wood, leaves, foods, drinks})",
+      "close = retain embryo=e3 and channel=ch; no silent new participant is created by either repeat."
+    ],
+    "observable_consequence": "A complete reading under this constructor must preserve one continuing embryo and a reusable central passage across at least two cycles, while allowing the same ordered cycle to be stated for the listed non-embryonic heated materials. A one-way heat-to-growth rival cannot produce the repeated warm-out/cool-in alternation or the explicit cross-domain analogy.",
+    "rivals": [
+      "ONE_WAY_MATURATION: heat changes the mixture once and growth proceeds without a reusable air channel.",
+      "NEW_OBJECT_PER_CYCLE: every warm/cool pair starts a new embryo or passage, losing source continuity.",
+      "ANALOGY_AS_DECORATION: treats the wood/leaf/food clause as an unrelated list instead of applying the same declared cycle."
+    ],
+    "falsifier": "Reject if the same written cycle needs incompatible input/output types, if the second cycle requires a fresh channel without a source reset, or if the analogy can change operation order. The source does not establish modern embryological truth and does not identify target words.",
+    "target_binding_limit": "No target word, embryo, organ, or air-flow token is identified. This is an exploratory finite source mechanism only."
+  }
+}

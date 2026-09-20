@@ -1,0 +1,45 @@
+{
+  "grammar": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/SPEC.json",
+  "source_packet": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/SOURCE_PACKET.json",
+  "source_draft": "research_registry/work_batches/ten_hours_20260915/TRANSPORT_RAW377_COMPLETE_EXPLORATORY_READING_20260920.json",
+  "old_cases": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/CASES.json",
+  "model": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/model.py",
+  "independent_model": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/validate.py",
+  "binding_checker": "experiments/yolo/gdt994_frozen_transport_whole_transfer/src/validate.py",
+  "source_decision": "research_registry/work_batches/ten_hours_20260915/TRANSPORT_UNFIXED_LEXICON_DECISION_20260920.md",
+  "families": [
+    "FUNCTIONAL",
+    "BIJECTIVE"
+  ],
+  "pattern_counts": "EACH_ONCE_EXCEPT_THEN_TWICE",
+  "projection": "ALL_REPEATED_FORMS_PLUS_SIX_INHERITED_HYPOTHESES",
+  "inherited_hypothesis_forms": [
+    "qokedy",
+    "shedy",
+    "lchedy",
+    "chedy",
+    "otedy",
+    "qoteedy"
+  ],
+  "variants": "ALL_32_ORIGINAL_VARIANTS",
+  "primary_query_ms": 10000,
+  "seconds_per_family": 600,
+  "max_positive_tuples": 64,
+  "independent_query_ms": 30000,
+  "outer_worker_seconds": 650,
+  "workers": 2,
+  "inclusive_checkpoint_utc": "2026-09-20T21:20:00Z",
+  "confirmed_words": 0,
+  "independent_meaning_capacity": 0,
+  "significance": false,
+  "source_world_requirements": {
+    "named_cargos": 3,
+    "distinct_hazard_pairs": 2,
+    "complete_voyages": 7
+  },
+  "final_exhaustion_probe_at_count_cap": true,
+  "max_syntactic_maps": 2048,
+  "projection_includes_all_five_variant_settings": true,
+  "positive_tuple_cap_checked_between_complete_maps": true,
+  "independent_replay": "experiments/yolo/gdt1006_transport_unfixed_original_lexicon/src/bit_replay.py"
+}
