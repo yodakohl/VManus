@@ -1,0 +1,64 @@
+{
+  "title": "Dionysius Thrax conjunction scope binds two clause arguments",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Dionysius Thrax defines a sentence as a combination making complete sense and classifies conjunctions as copulative, disjunctive, conjunctive/sequence, causative, dubitative, inferential, and others. A finite source-grounded constructor binds two opaque clauses through the selected connector class: AND, OR, SEQUENCE, CAUSE, or INFER. Changing only the connector changes the complete proposition while preserving both clause arguments.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Dionysius Thrax, Techne grammatike, sections 13 and 25",
+    "url": "https://www.hs-augsburg.de/~harsch/graeca/Chronologia/S_ante02/DionysiosThrax/dio_tech.html",
+    "translation_url": "https://en.wikisource.org/wiki/The_grammar_of_Dionysios_Thrax",
+    "source_span": "Section 13 defines a sentence as a combination of words making complete sense; section 25 classifies conjunctions as copulative, disjunctive, sequence-bearing, causative, dubitative, inferential, and expletive.",
+    "provenance": "The Greek text is the Uhlig 1883 edition shown by Bibliotheca Augustana. The English Wikisource translation was used for navigation; no target language or Latin default is assumed."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000042 generic conditional applicability; IDEA000024 role-by-argument position; GDT933/GDT937 fixed target condition/reference audits.",
+    "difference": "This card is a source-attested multi-class connector algebra. It binds the same two clause arguments under distinct relation scopes (copulation, disjunction, sequence, causation, inference), rather than proposing one generic conditional marker or an occurrence-specific reference rule."
+  },
+  "constructor": {
+    "types": [
+      "CLAUSE",
+      "CONNECTOR_CLASS",
+      "RELATION",
+      "COMPLETION"
+    ],
+    "operators": [
+      "CLAUSE(value) -> CLAUSE",
+      "CONNECT(left, connector, right) -> COMPLETION"
+    ],
+    "connector_rules": {
+      "COPULATIVE": "AND(left,right)",
+      "DISJUNCTIVE": "OR(left,right)",
+      "CONJUNCTIVE_SEQUENCE": "SEQUENCE(left,right)",
+      "CAUSATIVE": "CAUSE(left,right)",
+      "INFERENTIAL": "INFER(left,right)",
+      "DUBITATIVE": "QUESTION(left,right)"
+    },
+    "python": "def compose(left, connector, right):\n    relation = {\n      \"COPULATIVE\":\"AND\",\n      \"DISJUNCTIVE\":\"OR\",\n      \"CONJUNCTIVE_SEQUENCE\":\"SEQUENCE\",\n      \"CAUSATIVE\":\"CAUSE\",\n      \"INFERENTIAL\":\"INFER\",\n      \"DUBITATIVE\":\"QUESTION\"\n    }[connector]\n    return (relation, left, right)\n\ncases = {\n  \"copulative\": compose(\"A\", \"COPULATIVE\", \"B\"),\n  \"disjunctive\": compose(\"A\", \"DISJUNCTIVE\", \"B\"),\n  \"causative\": compose(\"A\", \"CAUSATIVE\", \"B\"),\n  \"sequence\": compose(\"A\", \"CONJUNCTIVE_SEQUENCE\", \"B\")\n}\nresult = cases",
+    "python_result": {
+      "copulative": [
+        "AND",
+        "A",
+        "B"
+      ],
+      "disjunctive": [
+        "OR",
+        "A",
+        "B"
+      ],
+      "causative": [
+        "CAUSE",
+        "A",
+        "B"
+      ],
+      "sequence": [
+        "SEQUENCE",
+        "A",
+        "B"
+      ]
+    },
+    "observable_consequence": "With A=heat and B=airflow, CAUSE yields heat-causes-airflow, SEQUENCE yields only ordered heat-then-airflow, and DISJUNCTIVE yields an alternative between the two. Every clause argument remains bound while the connector changes the complete content.",
+    "rival": "ALWAYS_SEQUENCE collapses every connector to ordered adjacency and therefore cannot preserve the source distinction between cause, alternative, conjunction, and inference.",
+    "falsifier": "Reject if a connector class produces the same relation under all bound clause pairs, or if the constructor silently drops one clause argument. The source does not identify target connector forms or claim that the manuscript is Greek.",
+    "target_binding_limit": "No target word or grammatical class is identified; this is a source-side semantic relation hypothesis only."
+  }
+}

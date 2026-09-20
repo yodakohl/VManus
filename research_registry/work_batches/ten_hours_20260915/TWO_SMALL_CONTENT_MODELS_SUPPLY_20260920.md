@@ -996,3 +996,23 @@ The card is `RAW_UNREVIEWED_NOT_SELECTED`. It does not assign target political
 words and leaves mixed private beneficiaries unresolved rather than inventing an
 extra category. No target, reserve, root experiment, route, ledger, or frozen
 source file was changed.
+
+## S. One source-grounded connector-scope candidate
+
+The current route, composition topic, targeted idea search, and route-check were
+refreshed before this addition. Existing generic conditional, target-reference,
+and grammar-adjacent cards were screened; only one genuinely new card survived.
+
+* `IDEA000454` —
+  `raw_dionysius_thrax_conjunction_scope_constructor_20260920.json`. Dionysius
+  Thrax defines a complete sentence and distinguishes copulative, disjunctive,
+  sequence-bearing, causative, inferential, and dubitative conjunction classes.
+  The executable example binds the same opaque clauses A and B while producing
+  AND, OR, CAUSE, SEQUENCE, INFER, or QUESTION. With A=heat and B=airflow,
+  changing only the connector changes the complete relation; an
+  ALWAYS_SEQUENCE rival loses that distinction. This is a bounded source
+  relation example, not a claim that any target connector is Greek or Latin.
+
+The card remains `RAW_UNREVIEWED_NOT_SELECTED`; source coverage and target
+binding are deliberately narrow. No target, reserve, root experiment, route,
+ledger, or frozen source file was changed.

@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour block to22:52:35UTC;close1006 and select a distinct meaning consequence.
-Latest decision: 1006validated:36bijective tuples exhausted,66functional open;8invariants syntax-only.
-Working files: experiments/yolo/gdt1006_transport_unfixed_original_lexicon/REPORT.md
-Assumptions: 17source clauses retained;chedy name/FIRST both viable;0words;reserves closed.
-Resume: Publish1006 closure;review a different whole-context discriminator, no cap extension.
-Running: No solver active;1006closure publication pending;producer453finished.
+Task: Ten-hour block to22:52:35UTC;test1006role projections in120whole chedy contexts.
+Latest decision: 1006public4197b7707:36bijective tuples,66functional open;0words.
+Working files: experiments/yolo/gdt1007_transport_projected_reference_contexts/METHOD.md
+Assumptions: 11roles pinned;other36originalroles free;necessary screen only;reserves closed.
+Resume: Publish1007preregistration, run4440queries and independent whole-context validation.
+Running: 1007preflight72PASS;no target solver started;checkpoint21:50UTC;producer454done.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
