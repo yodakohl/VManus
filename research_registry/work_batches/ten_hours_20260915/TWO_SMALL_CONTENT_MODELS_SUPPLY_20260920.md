@@ -1044,3 +1044,30 @@ language, or target word; a future application would need independently bound
 proposition identity and scope. The card remains
 `RAW_UNREVIEWED_NOT_SELECTED`; no target, reserve, root experiment, route,
 ledger, or frozen source file was changed.
+
+## U. One complete nature-dependent control/reference candidate
+
+The live route was refreshed first. Composition and transfer topics, the bounded
+route-check, and targeted card searches screened the existing Justinian sale,
+Cato cultivation, Hippocratic feedback, Cicero duty, and generic reference
+models. One new source mechanism survived; it uses an actual shared operator
+across several complete legal examples rather than a sentence macro.
+
+* `IDEA000456` —
+  `raw_justinian_wild_control_nature_scope_20260920.json`. Justinian,
+  *Institutes* II.12–16, gives a connected ownership account for wild animals,
+  wounded animals, bees, returning tame-wild animals, and domestic chickens and
+  geese. The finite `CONTROL_LOSS` operator receives source-bound `NATURE`,
+  visibility, pursuit difficulty, enclosure, and return-intention fields. The
+  same escape beyond sight yields `FIRST_OCCUPANT` for a wild animal but leaves
+  the original owner in control for domestic fowl, with a later profitable taker
+  marked theft. The wounded case keeps the adopted “no ownership until actual
+  seizure” rule separate from Trebatius' explicitly retained rival; bee swarms
+  and returning deer supply additional control boundaries.
+
+The card accounts for the land-entry prohibition, custody, natural-freedom
+criterion, competing wounded-animal opinions, hive enclosure, honey, swarm
+pursuit, return habit, domestic escape, and theft consequence. It remains
+`RAW_UNREVIEWED_NOT_SELECTED`: no target word, target operator, or Voynich
+participant role is claimed. No target, reserve, root experiment, route, ledger,
+or frozen source file was changed.

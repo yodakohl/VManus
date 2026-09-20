@@ -1,0 +1,209 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete shared maps, parses and all32meaning replays retained for every sampled positive, without dropping failed variants.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete shared grammar capacity and at most two semantic witness samples; no word confirmation, source identity or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/validate.py"
+  },
+  "created": "2026-09-20",
+  "dependencies": [
+    "GDT993",
+    "GDT994",
+    "GDT1002",
+    "GDT1003",
+    "GDT1006",
+    "GDT1007"
+  ],
+  "experiment_id": "GDT1008",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1006_transport_unfixed_original_lexicon/artifacts/PANEL.json",
+      "role": "fixed_input",
+      "sha256": "c0a7d53447a750a4ebef3a8a5a7c2c40179c253ca24bdadc796a7b3904c09608"
+    },
+    {
+      "path": "experiments/yolo/gdt1007_transport_projected_reference_contexts/artifacts/PANEL.json",
+      "role": "fixed_input",
+      "sha256": "e1e82fd30cbf84f1ada7e89f8d181b197fd3b3498660ef3794816c239e2decbb"
+    },
+    {
+      "path": "experiments/yolo/gdt1007_transport_projected_reference_contexts/artifacts/ROWS.json",
+      "role": "fixed_input",
+      "sha256": "70ad9d4ca502ca5063298047c87b107559698323ece959d4cd3f6ff58530c654"
+    },
+    {
+      "path": "experiments/yolo/gdt1007_transport_projected_reference_contexts/artifacts/VALIDATION.json",
+      "role": "fixed_input",
+      "sha256": "85c080451bed1762617c492b1cac4a5a9a133e3efab6aa81b84c9ee6d121df9f"
+    },
+    {
+      "path": "experiments/yolo/gdt1006_transport_unfixed_original_lexicon/artifacts/VALIDATION.json",
+      "role": "fixed_input",
+      "sha256": "ce2f9fad325c5fcb5f89a478301e4a0bc24a522d408401238e05f0cff2adacbf"
+    },
+    {
+      "path": "experiments/yolo/gdt1006_transport_unfixed_original_lexicon/artifacts/FAMILY_BIJECTIVE.json",
+      "role": "fixed_input",
+      "sha256": "6a601f3fbaf200020099ce12dacfda3b26aa8f5ca1f7951531a3159d8fda39dd"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/SPEC.json",
+      "role": "fixed_input",
+      "sha256": "d452ad3b4f8ec9b49de3f4a638e5eac377cb10f32a50981e9989135af1d416dc"
+    },
+    {
+      "path": "experiments/yolo/gdt1002_transport_joint_alias_alternatives/src/solver.py",
+      "role": "fixed_input",
+      "sha256": "6da284ba82bafb434201b345dfe2ee5cd45439ac24a3665a9da6d21e2f8c9e6f"
+    },
+    {
+      "path": "experiments/yolo/gdt1002_transport_joint_alias_alternatives/src/independent.py",
+      "role": "fixed_input",
+      "sha256": "3e0d0e92e86d866b37f7eca685a07714bc307027befb6832d549661eb3469c86"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/model.py",
+      "role": "fixed_input",
+      "sha256": "98fd7c5132f9b9d463596a1c31ac061f1f489b13b91f899e34753209298bd247"
+    },
+    {
+      "path": "experiments/yolo/gdt1006_transport_unfixed_original_lexicon/src/bit_replay.py",
+      "role": "fixed_input",
+      "sha256": "3bea4bfad296ad691eb54f20fcf7d248da180051126bcf18bebb1695a29754ae"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/src/validate.py",
+      "role": "fixed_input",
+      "sha256": "8db70187d3de8507f6b79a0a529e71179dd33abdb5028670b58a29025b306a4b"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/TRANSPORT_COMPLETE_SHARED_DECISION_20260920.md",
+      "role": "fixed_input",
+      "sha256": "9ee209eaaaf3ff0fc19a517c49c25dd88b1ad138dd0659e166123d16071c5c44"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/DECISION.md",
+      "role": "source_or_artifact",
+      "sha256": "9ee209eaaaf3ff0fc19a517c49c25dd88b1ad138dd0659e166123d16071c5c44"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "c263aeba7ddb7f5dec79b1ad9903331c86c4c0dce8bcd5fae97c101c496c4324"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "6cb9bb2ccdc2e62c6d16d66093bfb2c1ed06a42347523385af0b521b703dfc28"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "dbc65c996daa0919aecb5c232a252df565818ca46d85dfedfbb0641ecacc5dd1"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/README.md",
+      "role": "source_or_artifact",
+      "sha256": "6a89d7aa4395c31900fb7b9eb4ca9ba304b9812c25b4ad012b3101b1153e7cdf"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/artifacts/ENCODING_CHANGES.json",
+      "role": "source_or_artifact",
+      "sha256": "8f10b0299b596d1a4865987f5ec396ce77ee39b3e28d82dc33bb3636bd6cd183"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/artifacts/KNOWN_COUNTERCASE.json",
+      "role": "source_or_artifact",
+      "sha256": "ab40e32a32b28f56acb0a32e043becc4397042080c3e6d7e68f0870a5a5699b8"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/artifacts/PANEL.json",
+      "role": "source_or_artifact",
+      "sha256": "d9cd54750cb05f1a456f1d6e0b5b984e65ff9b6a70ff839bb3044c9eaecc5f61"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/artifacts/PREDICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "c5e270faf6de49e4835c3c1fc0f5a2f27b57bd99ce75f89f60b4234c176e4943"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/artifacts/PREFLIGHT.json",
+      "role": "source_or_artifact",
+      "sha256": "10ab4a544bb864c3d415929d0ceda1439c6544c2274074c79f5f2567983714ff"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/requirements.txt",
+      "role": "source_or_artifact",
+      "sha256": "e761dc02ce4bf95075b97d2b7ddfb8491b44cb349070eae45ecf95c22675094e"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "b37bcca7af8e0f828bb4f54b6d73bfd84a0ee408bc674cb543c083135c01cd6c"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "55cf4cd11054c9ca0263efb61477b7a6f15120f1fec99c179d655d80264a7bbb"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/common.py",
+      "role": "source_or_artifact",
+      "sha256": "27e017cee97d9ebf31b7d3d906aaa363bd60af6866f6eb90e0495739cb033318"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/independent.py",
+      "role": "source_or_artifact",
+      "sha256": "f13b53f9031201aed1b15550beda4a10144a3b2563360a99c83b0b8a53c8eec2"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/preflight.py",
+      "role": "source_or_artifact",
+      "sha256": "aa5287208b1da179bf8d2d4b4bc8461911de967b4a56a164f3057529b3cfb7c4"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/prepare.py",
+      "role": "source_or_artifact",
+      "sha256": "8835515eb6fe4a451a224374e3c1f24484439a4877f91bdc483242c44c53e53d"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "32e3a86dfb093b2d745e03d4fac7c7044033f02014afa72178005f147b4f68e9"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/solver.py",
+      "role": "source_or_artifact",
+      "sha256": "fa2166857015659f7beb8b9b59f5dec0288fb8c5b707306e31bd89f0a3a9a8e1"
+    },
+    {
+      "path": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "4a425eb08f71c9dcac310f9caab624972af7f2ef238716ff1c6947993ede034a"
+    }
+  ],
+  "question": "Can any complete unfixed dictionary jointly read the original full17clause inventory and either/both projected positive contexts?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "transport_complete_shared_lexicon",
+  "status": "REGISTERED_UNSCORED",
+  "title": "transport complete shared lexicon",
+  "updated": "2026-09-20",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

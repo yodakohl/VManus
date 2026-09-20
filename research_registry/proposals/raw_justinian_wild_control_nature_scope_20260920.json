@@ -1,0 +1,104 @@
+{
+  "title": "Justinian Institutes wild-control operator with nature-dependent reference scope",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Justinian Institutes II.12–16 gives a connected ownership account for wild animals, wounded animals, bees, returning tame-wild animals, and domestic chickens/geese. One finite CONTROL_LOSS operator resolves the same visible escape/pursuit context differently according to the source-bound NATURE and RETURN_INTENT fields: a wild animal that recovers natural freedom goes to the first occupant, while a domestic fowl remains its owner's property even out of sight. The constructor also preserves the source's adopted rule that wounding without actual capture does not create ownership.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Justinian, Institutes, Book II, sections 12–16",
+    "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/just2_Scott.htm",
+    "parallel_digest_url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/D41_Scott.htm",
+    "source_span": "II.12 wild capture, custody, escape and first occupant; II.13 wounded animal and competing opinions; II.14 bees, hive and swarm; II.15 peacocks, pigeons and tame deer; II.16 domestic chickens and geese.",
+    "provenance": "Scott's public English translation of the Institutes is used as the source-owned clause witness; the Digest Book 41 parallel is checked for the same wild-animal and pursuit distinctions. No Latin target vocabulary or specific manuscript witness is claimed."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000395/IDEA000400 Justinian sale and contract state; IDEA000425 Cato attached propagation; IDEA000449 Hippocratic feedback; IDEA000451 Cicero conditional duty; prior wild-animal/possession searches and route-check.",
+    "difference": "The retained Justinian card concerns sale price, delivery, title, and accidental risk. This card concerns a single control-loss operator whose reference target changes with legal nature, visibility, pursuit difficulty, enclosure, and return intention; it includes a same-surface escape contrast between wild and domestic animals."
+  },
+  "source_account": {
+    "presuppositions": [
+      "An animal's legal nature is a source-bound field: wild, tame-wild with a return habit, bee, or domestic fowl.",
+      "Ownership can persist through custody, visibility/pursuit, or return intention, but these are not the same physical identity condition.",
+      "First occupant means the first later person who secures the animal after the source-defined loss of the prior owner's control.",
+      "Wounding severe enough to permit capture is not the same source event as actual seizure; the adopted opinion rejects ownership before seizure.",
+      "Entry on another person's land can be prohibited even where taking the wild animal would otherwise create ownership."
+    ],
+    "clauses": [
+      {"id":"C01","span":"II.12","content":"Wild beasts, birds, and fish become the captor's property when taken; natural law gives an ownerless thing to the first possessor.","ast":["ACQUIRE",["NATURE","WILD"],["EVENT","CAPTURE"],["OWNER","CAPTOR"]]},
+      {"id":"C02","span":"II.12","content":"The place of capture, the hunter's own land or another's, does not change acquisition, but the landowner may forbid entry when aware of the intended hunt.","ast":["AND",["INVARIANT","CAPTURE_PLACE"],["IF",["AWARE","LANDOWNER"],["FORBID","ENTRY_FOR_HUNT"]]]},
+      {"id":"C03","span":"II.12","content":"After capture, ownership lasts while custody is retained; escape plus recovery of natural freedom ends it and gives the animal to the first later captor.","ast":["STATE_RULE",["CONTROL","RETAINED"],["OWNER","ORIGINAL_CAPTOR"],["CONTROL","ESCAPED_NATURAL_FREEDOM"],["OWNER","FIRST_OCCUPANT"]]},
+      {"id":"C04","span":"II.12","content":"Natural freedom is recognized when the animal leaves sight, or remains visible but becomes difficult to pursue.","ast":["OR",["NOT","VISIBLE"],["PURSUIT","DIFFICULT"],["STATE","NATURAL_FREEDOM"]]},
+      {"id":"C05","span":"II.13","content":"A severely wounded animal that can be captured raises two opinions: Trebatius grants ownership while pursuit continues and removes it when pursuit stops; the confirmed opinion grants no ownership until actual seizure because intervening events may prevent capture.","ast":["DISPUTE",["RIVAL","WOUND_PLUS_PURSUIT","OWNER_WHILE_PURSUING"],["ADOPTED","WOUND_WITHOUT_SEIZURE","NO_OWNER_UNTIL_CAPTURE"],["REASON","MANY_EVENTS_CAN_BLOCK_CAPTURE"]]},
+      {"id":"C06","span":"II.14","content":"Bees are wild; settling on a tree does not make them the tree owner's property until enclosed in a hive, and another person who encloses them becomes owner.","ast":["IF",["SETTLED_ON_TREE","BEE"],["OWNER","NONE_UNTIL_HIVE"],["IF",["ENCLOSED_BY","SECOND_PERSON"],["OWNER","SECOND_PERSON"]]]},
+      {"id":"C07","span":"II.14","content":"Honey made by bees may be taken without theft, subject to the landowner's right to forbid entry; a swarm escaped from a hive remains the owner's while visible and not difficult to pursue, otherwise the first occupant owns it.","ast":["AND",["HONEY","TAKE_WITHOUT_THEFT"],["IF",["ENTRY_ON_OTHER_LAND"],["FORBID","LANDOWNER"]],["SWARM_ESCAPE_RULE","VISIBLE_AND_EASY_PURSUIT","ORIGINAL_OWNER","OTHERWISE","FIRST_OCCUPANT"]]},
+      {"id":"C08","span":"II.15","content":"Peacocks, pigeons, and tame deer remain wild by nature; for an animal accustomed to depart and return, ownership lasts while it intends to return, and ends when it abandons that habit.","ast":["STATE_RULE",["NATURE","TAME_WILD"],["RETURN_INTENT","YES"],["OWNER","ORIGINAL_OWNER"],["RETURN_INTENT","NO"],["OWNER","FIRST_OCCUPANT"]]},
+      {"id":"C09","span":"II.16","content":"Chickens and geese are domestic rather than wild; if frightened and flying beyond sight, they remain their owner's property, and a profitable taker commits theft.","ast":["AND",["NATURE","DOMESTIC"],["ESCAPED_BEYOND_SIGHT","YES"],["OWNER","ORIGINAL_OWNER"],["IF",["TAKER_PURPOSE","PROFIT"],["OFFENSE","THEFT"]]]}
+    ],
+    "complete_examples": [
+      {
+        "id":"WILD_ESCAPE",
+        "input":{"nature":"WILD","captured":true,"escaped":true,"visible":false,"pursuit_easy":false,"original_owner":"ALICE","first_occupant":"BOB"},
+        "output":"BOB_OWNS_AS_FIRST_OCCUPANT",
+        "reference_change":"The later first-occupant reference replaces the original captor after natural freedom; the original animal identity remains continuous."
+      },
+      {
+        "id":"DOMESTIC_ESCAPE",
+        "input":{"nature":"DOMESTIC","captured":true,"escaped":true,"visible":false,"pursuit_easy":false,"original_owner":"ALICE","first_occupant":"BOB","taker_purpose":"PROFIT"},
+        "output":"ALICE_RETAINS_AND_BOB_COMMITS_THEFT",
+        "reference_change":"The same out-of-sight escape does not redirect ownership because domestic nature changes the control-loss rule; the later taker is an offender, not the new owner."
+      },
+      {
+        "id":"WOUNDED_UNSEIZED",
+        "input":{"nature":"WILD","wounded":true,"pursuing":true,"captured":false,"original_owner":"ALICE","first_occupant":"BOB"},
+        "output":"NO_OWNER_UNDER_CONFIRMED_RULE",
+        "reference_change":"Pursuit after wounding does not supply the adopted seizure event; Trebatius' owner-while-pursuing rival would output ALICE."
+      },
+      {
+        "id":"BEE_SWARM",
+        "input":{"nature":"BEE","escaped":true,"visible":true,"pursuit_easy":true,"original_owner":"ALICE","first_occupant":"BOB"},
+        "output":"ALICE_RETAINS_SWARM"
+      }
+    ]
+  },
+  "constructor": {
+    "types": ["ANIMAL", "NATURE", "CONTROL_STATE", "VISIBILITY", "PURSUIT", "RETURN_INTENT", "OWNER", "OCCUPANT", "OFFENSE", "CONDITION"],
+    "operators": [
+      "CAPTURE(animal,person) -> CONTROLLED",
+      "ESCAPE(animal) -> CONTROL_LOST_CANDIDATE",
+      "NATURAL_FREEDOM(visible,pursuit_easy) -> BOOL",
+      "CONTROL_LOSS(nature,visibility,pursuit,return_intent) -> OWNER_RULE",
+      "SEIZE(animal,person) -> OWNER",
+      "WOUND(animal) -> WOUNDED_NOT_SEIZED",
+      "ENCLOSE(bee,person) -> OWNER",
+      "THEFT(taker,animal) -> OFFENSE"
+    ],
+    "global_rules": [
+      "If nature=WILD and the animal is captured, claimant owns while custody is retained; if it escapes and is no longer visible or pursuit is difficult, FIRST_OCCUPANT becomes owner.",
+      "If nature=WILD and wounded but not seized, the adopted Justinian rule yields NO_OWNER_UNTIL_CAPTURE; the Trebatius pursuit rule is retained only as a named rival.",
+      "If nature=BEE, tree settlement alone yields no ownership; enclosure yields ownership, and escaped swarms use visibility plus pursuit difficulty as the loss boundary.",
+      "If nature=TAME_WILD, departure does not end ownership while RETURN_INTENT remains true; abandoning the return habit redirects ownership to FIRST_OCCUPANT.",
+      "If nature=DOMESTIC, escape beyond sight does not redirect ownership; a profitable later taker triggers THEFT instead.",
+      "Land-entry permission is a separate constraint on the acquisition event and cannot be silently folded into ownership identity."
+    ],
+    "python": "def resolve(case):\n    nature = case['nature']\n    if nature == 'WILD':\n        if case.get('wounded') and not case.get('captured'):\n            return 'NO_OWNER_UNDER_CONFIRMED_RULE'\n        if case.get('captured') and not case.get('escaped'):\n            return case['original_owner'] + '_OWNS_IN_CUSTODY'\n        natural_freedom = (not case.get('visible', True)) or (not case.get('pursuit_easy', True))\n        if case.get('escaped') and natural_freedom:\n            return case['first_occupant'] + '_OWNS_AS_FIRST_OCCUPANT'\n        return case['original_owner'] + '_RETAINS'\n    if nature == 'BEE':\n        if case.get('settled_on_tree') and not case.get('enclosed'):\n            return 'NO_OWNER_UNTIL_HIVE'\n        if case.get('escaped'):\n            if case.get('visible', False) and case.get('pursuit_easy', False):\n                return case['original_owner'] + '_RETAINS_SWARM'\n            return case['first_occupant'] + '_OWNS_AS_FIRST_OCCUPANT'\n        if case.get('enclosed'):\n            return case['encloser'] + '_OWNS_BEES'\n    if nature == 'TAME_WILD':\n        return case['original_owner'] + ('_RETAINS' if case.get('return_intent') else '_LOSES_TO_FIRST_OCCUPANT')\n    if nature == 'DOMESTIC':\n        if case.get('escaped'):\n            return case['original_owner'] + ('_RETAINS_AND_THEFT' if case.get('taker_purpose') == 'PROFIT' else '_RETAINS')\n        return case['original_owner'] + '_OWNS'\n    raise ValueError('unknown nature')\n\nexamples = {\n  'wild_escape': resolve({'nature':'WILD','captured':True,'escaped':True,'visible':False,'pursuit_easy':False,'original_owner':'ALICE','first_occupant':'BOB'}),\n  'domestic_escape': resolve({'nature':'DOMESTIC','captured':True,'escaped':True,'visible':False,'pursuit_easy':False,'original_owner':'ALICE','first_occupant':'BOB','taker_purpose':'PROFIT'}),\n  'wounded_unseized': resolve({'nature':'WILD','wounded':True,'pursuing':True,'captured':False,'original_owner':'ALICE','first_occupant':'BOB'}),\n  'bee_swarm': resolve({'nature':'BEE','escaped':True,'visible':True,'pursuit_easy':True,'original_owner':'ALICE','first_occupant':'BOB'})\n}\nresult = examples",
+    "python_result": {
+      "wild_escape": "BOB_OWNS_AS_FIRST_OCCUPANT",
+      "domestic_escape": "ALICE_RETAINS_AND_THEFT",
+      "wounded_unseized": "NO_OWNER_UNDER_CONFIRMED_RULE",
+      "bee_swarm": "ALICE_RETAINS_SWARM"
+    },
+    "observable_consequence": "The same visible context—capture followed by escape beyond sight—produces a changed owner/reference when NATURE changes from WILD to DOMESTIC. The wounded case independently changes the result when WOUND is present without SEIZE: adopted law yields no owner, while the named Trebatius rival assigns the pursuing claimant. Bees and returning tame-wild animals require distinct control boundaries rather than a free nearest-reference rule."
+  },
+  "rivals": {
+    "R_ANY_ESCAPE_LOSES": "Every escaped animal becomes the first occupant's property; this contradicts domestic fowl and visible/easy-pursuit swarms.",
+    "R_WOUND_OWNS": "Severe wounding plus continued pursuit creates ownership before seizure; this is the rejected Trebatius opinion, not the confirmed Institutes rule.",
+    "R_CONTROL_ONLY": "All ownership follows visibility/pursuit regardless of animal nature; this loses the source's wild/domestic and return-intention distinctions."
+  },
+  "falsifier": "Reject the constructor if a complete source passage uses one escape/pursuit rule without the source's nature, enclosure, or return-intention distinctions, or if the adopted no-ownership-before-seizure rule cannot be kept separate from Trebatius' explicitly rejected opinion. A target application would require independently bound nature, control event, and later occupant roles; assigning them occurrence by occurrence would remove the proposed discriminator.",
+  "dependencies": [
+    "Animal names and owner names are opaque source variables; no target word or manuscript meaning is assigned.",
+    "Physical identity of the animal is preserved across escape; ownership/reference changes are event-scoped, not new animal creation.",
+    "The source's legal nature categories are assumed as typed fields for this exploratory constructor; they are not claimed to be manuscript categories.",
+    "The complete source account includes all clauses in II.12–16, including land-entry prohibition, honey, hive enclosure, return habit, and theft consequence."
+  ],
+  "access": "No Voynich target rows, images, reserves, f84/f84r/f116v, root experiment files, route, ledger, or frozen source packet were opened or changed."
+}
