@@ -93,3 +93,49 @@ numeral spelling and script realization are all unbound. No old word gloss is
 imported. All previously exposed manuscript data retain their exposure; no new
 admission, reserve, f84/f84r access, outside contact, significance claim or
 independent meaning confirmation occurred. Confirmed words remain0.
+
+## C1 checkpoint,20September04:24UTC
+
+The target-blind producer completed
+[C1](RUPESCISSA_CONTENT_LANGUAGE_C1_20260920.md), with its
+[closed symbolic inventory](RUPESCISSA_CONTENT_LANGUAGE_C1_20260920.json),
+within the30-minute specification allocation. Root read the whole symbolic
+program, grammar signatures, semantic policies and source-coverage limits.
+All29source positions have an explicit representation. There are48local
+bindings, including13aliquot bindings and12generated output stocks.
+
+The important refinement is **stock provenance versus returned quantity**.
+The instruction selects from the first extracted stock; it does not state a
+lossless return of its entire mass. C1 leaves each actual amount unspecified
+unless the written4:1prescription constrains it. Consequently two different
+positive aliquots from that stock are still equivalent under the source;
+replacing it with independently supplied water is not the same source reference.
+
+C1 uses20syntax heads,67predicates and58constant types.43predicates and31
+constants occur once. These counts describe this particular notation, not a
+lower bound on all possible languages or proof that the chapter is unencodable.
+The notation preserves more content than a bare action list, but supplies no
+script code, word packing, morphological mechanism or independently constrained
+values for those many meanings. Physical execution is also untested: vessel
+contents, selected aliquots, availability and unexpanded external calls would
+still need a consistent operational realization.
+
+**Decision: retain C1 as a complete source-content draft; do not build its target
+decoder.** No source or alchemical reading is empirically refuted. The positive
+outcome required for the next target step—a full shared script realization with
+different observable predictions—is not yet supplied. The finite grammar's
+acceptance of its own source is not a translation result. The older fixed tests
+and unknowns are unchanged.
+
+A possible later relative-reference writer must state what it counts. Distances
+between explicit *discourse bindings* can ignore unmentioned internal procedure
+objects by definition; physical stock-creation distances cannot silently do so.
+Neither convention is selected or attributed to Voynich here. Likewise the
+chosen UP-before-LOW ledger order is editorial, not historical evidence.
+
+The inclusive checkpoint ends with publication of this closure and C1; no
+simulation, new control corpus, target matching or numeric-key search was
+started. Next source candidate: the complete short Tabula text with reciprocal
+predicates and changing roles, separately collated against a medieval witness.
+This is a different complete-passage proposal, not reopening RAW327's unchanged
+f66r visual-before/after obligation.

@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Construct complete Rupescissa content with explicit portion references.
-Latest decision: Medieval first-distillate return attested;Voynich writer unbound.
-Working files: research_registry/work_batches/ten_hours_20260915/RUPESCISSA_CONTENT_DECISION_20260920.md
-Assumptions: Concurrent fractions/nested vessels;no inherited word meanings.
-Resume: Review bounded source-only complete writer;no automatic decoder or985 extension.
-Running: Independent source producer;root review;earliestend09:05:26UTC.
+Task: Review complete medieval Tabula content and a shared writing hypothesis.
+Latest decision: Rupescissa C1 retained as source draft;no target decoder.
+Working files: research_registry/work_batches/ten_hours_20260915/SMARAGDINA_CONTENT_DECISION_20260920.md
+Assumptions: Whole content including non-process clauses;no inherited glosses.
+Resume: Freeze medieval collation;decide complete writing contract by05:09UTC.
+Running: Source-only producer until04:52UTC;root;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
