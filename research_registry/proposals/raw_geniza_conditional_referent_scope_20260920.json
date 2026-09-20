@@ -1,0 +1,53 @@
+{
+  "title": "Geniza persistent fruit with typed juice-bulk and conditional override",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. The complete cached Judaeo-Arabic fruit source supports a finite constructor in which one named fruit persists through base description, sour/sweet/unripe conditional effects, and a typed juice-versus-body split. Known component order supplies the predicate frame, the whole-form residual selects the extension kind, and entry context carries the named subject and current subreferent. This is not a target gloss or a prefix-code claim.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "PGP40129 restricted generated Judaeo-Arabic fruit paragraph source",
+    "packet": "research_registry/work_batches/ten_hours_20260915/PGP40129_SOURCE.json",
+    "spec": "research_registry/work_batches/ten_hours_20260915/GENIZA_CONSTRUCTIVE_SPEC.json",
+    "scope": "Complete generated source family: PEACH, APRICOT and POMEGRANATE heads, base predicates, SOUR/SWEET/UNRIPE conditional extensions, JUICE_BODY comparison, and BEFORE_AFTER paired condition.",
+    "source_limit": "The packet is a bounded source-owned constructive grammar; its generated products are not a historical Voynich decipherment and do not bind target words."
+  },
+  "constructor": {
+    "types": ["FRUIT", "PREDICATE", "CONDITION", "JUICE", "BODY", "EFFECT", "TIME", "CLAUSE"],
+    "atoms_and_roles": {
+      "head": "HEAD(h) opens one persistent fruit referent h and cannot silently replace it inside a clause.",
+      "known_parts": "A productive ordered part frame fills PREDICATE and EFFECT slots; the exact whole residual chooses one licensed extension operator.",
+      "context": "ENTRY(h, state) carries h and the current referent view (WHOLE, JUICE, or BODY) into the next clause; paragraph reset closes it.",
+      "residual": "EXT(sour|sweet|unripe|juice_body|before_after) is the only selector for extension kind; no nearest-noun repair is allowed."
+    },
+    "operators": [
+      "BASE(h,p) -> CLAUSE(h,WHOLE,p)",
+      "COND(h,c,e) -> CLAUSE(h,WHOLE,IF(c,e)) and leaves h open",
+      "SPLIT(h) -> (h,JUICE(h),BODY(h))",
+      "COMPARE(h,juice_effect,body_effect) -> CLAUSE(h,JUICE_BODY,RELATES(juice(h),body(h)))",
+      "WHEN(h,t,e) -> CLAUSE(h,WHOLE,IF(t,e)) and preserves h for the paired alternative",
+      "RETURN(h) -> WHOLE(h), only after a written close/return operator"
+    ],
+    "complete_source_trace": [
+      "HEAD(PEACH) ; BASE(PEACH,p0) ; COND(PEACH,SOUR,e_sour) ; COND(PEACH,SWEET,e_sweet)",
+      "HEAD(PEACH) ; SPLIT(PEACH) ; COMPARE(PEACH,e_juice,e_body) ; WHEN(PEACH,BEFORE_FOOD,e_before) ; WHEN(PEACH,AFTER_FOOD,e_after) ; RETURN(PEACH)"
+    ],
+    "consequence": "The same fruit identity survives every conditional branch, while JUICE_BODY changes only the active subreferent. A later whole-fruit clause must refer to PEACH rather than silently creating a second fruit; a juice effect cannot be copied onto the bulk unless the written comparison explicitly licenses it.",
+    "rival": "R-RESET treats each extension as a fresh unnamed fruit and R-COLLAPSE treats juice and body as one referent. It predicts that a later return cannot restore the earlier fruit and that a juice-only effect automatically applies to the whole fruit.",
+    "falsifier": "Reject if a complete source-owned continuation requires a conditional extension to replace the fruit head, if JUICE_BODY has no distinct juice/body argument, or if BEFORE_AFTER changes the subject rather than only the condition/effect. On target material the proposal would require an already owned repeated frame and context boundary; absent that binding it remains untestable."
+  },
+  "predecessors": [
+    {"id": "IDEA000411", "limit": "Relation signatures constrain argument types but do not supply persistent fruit/subreferent identity."},
+    {"id": "IDEA000431", "limit": "Scope/carry is a structural hypothesis; this card adds a typed JUICE/BODY split and conditional override consequence."},
+    {"id": "IDEA000390", "limit": "Theophilus named references/layers; it does not test conditional fruit predicates or subreferent splitting."}
+  ],
+  "dependencies": [
+    "Fruit identity and juice/body identity are explicit assumptions, not inferred from repeated spelling.",
+    "All source extensions and their compatibility restrictions remain; no source product is silently dropped.",
+    "Known parts, whole residual and context must each be fixed before any target evaluation; no one-gloss-per-whole repair is allowed.",
+    "No target data, image, reserve, decoder, experiment, route, ledger, or root file was accessed or changed."
+  ],
+  "relations": [
+    {"type": "related_to", "target": "GDT608"},
+    {"type": "distinct_from", "target": "IDEA000411"},
+    {"type": "distinct_from", "target": "IDEA000390"}
+  ]
+}

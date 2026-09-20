@@ -418,3 +418,201 @@ Its complete-reading consequence is that S11's safety clause can assert `WOULD_B
 Both new cards remain `RAW_UNREVIEWED` and are distinct from IDEA432, IDEA403, IDEA427, and each other. Neither opens target data, reserves, or root experiment files.
 
 Root publication note: the separate432audit was renamed to IDEA432_TRANSPORT_COMPONENT_AUDIT_20260920.md before publication because a GDT993-prefixed file outside its experiment directory triggers the layout scanner. Audit content and original432proposal bytes are unchanged.
+
+## I. Three diverse finite content constructors (IDEA435-437)
+
+These three cards are `RAW_UNREVIEWED`, `NOT_SELECTED`, and source/constructor
+supply only. They were added after bounded route/topic, duplicate, and primary
+predecessor checks. They do not reopen GDT1002's two transport pairs and do not
+use transport, quantity, geometry, source-prefix, target, reserve, decoder,
+route, ledger, or root-experiment data.
+
+### IDEA435 — persistent fruit with juice/bulk split and conditional override
+
+The cached Geniza constructive source in
+`GENIZA_CONSTRUCTIVE_SPEC.json` has named heads, base predicates, SOUR/SWEET/
+UNRIPE conditional extensions, JUICE_BODY, and BEFORE_AFTER. The proposed
+finite operators are `BASE(h,p)`, `COND(h,c,e)`, `SPLIT(h)`,
+`COMPARE(h,juice,body)`, `WHEN(h,t,e)`, and `RETURN(h)`. A known component
+frame fills the predicate/effect slots; the whole residual selects the
+extension kind; entry context carries the same fruit and current view
+(`WHOLE`, `JUICE`, or `BODY`).
+
+The worked source trace keeps one PEACH through base, sour and sweet branches,
+then splits it into juice/body for a comparison and returns to the whole-fruit
+view. Its concrete consequence is that a juice-only effect cannot silently
+become a bulk-fruit effect, and the later return cannot create a fresh fruit.
+The named rival resets every extension to a new fruit and collapses juice/body.
+The strongest failure is that these are source-grammar and referent
+assumptions: without independently bound subject/context fields they become
+labels. The raw card is
+`research_registry/proposals/raw_geniza_conditional_referent_scope_20260920.json`
+(`IDEA000435`). It is distinct from IDEA411's relation signatures, IDEA431's
+generic carry scope, and IDEA390's named color/layer references.
+
+### IDEA436 — destructive form with surviving cast/image
+
+The complete cached Theophilus I.1-I.9 packet separates material preparation,
+form/boundary, filling material, destruction of an outer form, and a resulting
+image/cast. The finite sequence is `PREPARE -> FORM_NEGATIVE -> FILL -> BREAK
+-> CAST -> APPLY`; context carries shell and candidate identities. It preserves
+method or boundary recurrence without conflating physical batches.
+
+The consequence is a polarity change: before `BREAK`, the boundary belongs to a
+removable shell; after it, the later image/cast survives. The rival fuses shell,
+filling, and cast as one batch and predicts that destruction removes the only
+result. This is different from IDEA390's named color/reference/layer model and
+from broad transformation cards because it requires a written destruction edge
+and a survivor. The strongest failure is source/target absence of a genuine
+shell/cast distinction. The raw card is
+`research_registry/proposals/raw_theophilus_form_polarity_survivor_20260920.json`
+(`IDEA000436`).
+
+### IDEA437 — permission changes location without erasing obligation
+
+The complete Rule of Benedict chapter 43 source has lateness triggers, demotion
+or separation, public satisfaction, an abbot-permission exception, repeated
+table-lateness thresholds, and refusal with later satisfaction. The finite
+operators are `LATE`, `PENANCE`, `PERMIT`, `REENTER`, `COUNT`, and `REFUSE`, with
+separate `LOCATION` and `DEBT` state. The worked trace allows `PERMIT` to put an
+actor back in choir while debt remains, after which satisfaction closes it.
+
+The nontrivial consequence is non-commutation: `PERMIT` then `PENANCE` is
+defined, while permission without a prior fault is not an exception and
+permission does not itself erase the later obligation. The rival clears debt at
+permission and predicts no subsequent satisfaction. This is narrower than
+IDEA335's broad status machine: it tests the non-erasing permission invariant.
+The strongest failure is that no target passage may independently expose actor,
+location, and obligation as distinct fields. The raw card is
+`research_registry/proposals/raw_benedict_permission_fault_ledger_20260920.json`
+(`IDEA000437`), based on the complete chapter at the OSB source page.
+
+All three cards retain explicit source limits, assumptions, missing target
+bindings, named rivals, and fixed falsifiers. A source mechanism is not evidence
+that any target word has the corresponding meaning.
+
+## J. Complete-source audit and strongest account
+
+This audit preserves the three raw proposal bytes. It checks source ownership,
+provenance, and whether the claimed operator chain is actually present in the
+referenced source. No target text, image, AST-to-string writer, reserve, or root
+experiment was opened.
+
+### IDEA435 — complete packet, generated rather than historical
+
+The owned Princeton Geniza packet is complete for its bounded preserved records:
+PEACH, POMEGRANATE, and QUINCE, with the SOUR, SWEET, UNRIPE, JUICE_BODY, and
+BEFORE_AFTER extensions. The packet explicitly excludes an APRICOT entry that
+begins before the preserved face and an APPLE entry that continues beyond the
+preserved verso. Therefore the raw card's phrase “PEACH, APRICOT and
+POMEGRANATE” is inaccurate: the complete retained head inventory is PEACH,
+POMEGRANATE, and QUINCE. This is a correction receipt only; the raw card is
+unchanged.
+
+The provenance is the Princeton Geniza Project displayed transcription,
+editorial date 2022, with the catalogue only inferring a post-tenth-century date
+and no secure pre-1420 date in the packet. `GENIZA_CONSTRUCTIVE_SPEC.json`
+labels the products `generated_new_proposition`; its claim ceiling excludes a
+source language, plant identity, historical code, or confirmed word. Thus the
+JUICE/BODY and conditional operators are fully owned by the generated source
+specification, but they are not a medieval primary account. `RETURN` and the
+entry reset in IDEA435 remain writer assumptions rather than source-written
+operators.
+
+### IDEA436 — source conflation found; no complete form/cast account
+
+The cited Theophilus packet owns nine contiguous chapters I.1–I.9 in Hendrie's
+1847 edition. Its complete content is color preparation and application: named
+recipes such as membrina, prasinus, posc, rosa, lumina and veneda; non-nearest
+recipe references; material-state changes such as heating, grinding, dissolving,
+straining and mixing; and body-image loci. The packet's historical note places
+the work in the twelfth century while warning that I.1–I.9 were not directly
+collated against a medieval folio.
+
+Those chapters do not own the proposed `FORM_NEGATIVE`, `FILL`, `BREAK`, or
+`CAST` chain. The raw card has conflated a different mold/casting mechanism with
+this color section. Its “surviving cast” consequence is therefore unsupported
+by the referenced complete source. IDEA436 remains raw and unchanged, but it
+cannot serve as the strongest complete source account without a different,
+explicitly owned primary.
+
+### IDEA437 — strongest complete source account: Rule Benedict 43
+
+The full OSB chapter 43 page covers the opening signal and priority of the
+Divine Office, Night Office lateness, day-Hour lateness, table lateness and
+repetition, absence from the post-meal verse, and refusal of an offered item.
+The page is Leonard J. Doyle's English translation/adaptation, copyright 1948
+and 2001, presented by the Order of Saint Benedict; the underlying Rule is a
+sixth-century monastic work traditionally associated with Benedict. This is a
+complete translated chapter witness, not a newly collated Latin manuscript.
+Primary page: <https://archive.osb.org/rb/text/rbemjo2.html>.
+
+The finite source account below makes every actor, object, condition, state and
+result explicit. `A` is an account-local actor variable; it is not a claim that
+the generic “anyone/he” in separate examples denotes one historical monk.
+`Abbot` is the authority in the permission branch. `Office`, `Psalm94`,
+`Choir`, `Table`, `WinePortion`, and `OfferedItem` are distinct source objects.
+An account may instantiate the same `A` across its own clauses only as an
+explicit hypothesis; cross-domain identity between the chapter's examples is
+not source-established.
+
+#### Typed state and operators
+
+`STATE(A)` contains four independent fields: `location`, `debt`,
+`satisfaction`, and a per-domain `count`. `debt` records the source's stated
+fault/obligation; `location` records where participation occurs. Neither field
+is allowed to overwrite the other.
+
+1. `SIGNAL(A,Office)` opens the duty. `ABANDON_TASK(A)` and
+   `HASTEN_SERIOUSLY(A)` are instructions, not reports that A actually did so.
+   `PRIORITY(Office)` records that nothing should be placed before the Office.
+2. `NIGHT_LATE(A, after=Gloria(Psalm94))` sets `location=LAST_OR_APART`,
+   retains `debt=OFFICE_FAULT`, and keeps A there until `OfficeComplete`.
+   `PUBLIC_SATISFACTION(A)` is then required. `ENTER_ORATORY(A)` avoids loss of
+   the whole Office and carries the future-amendment purpose; remaining outside
+   is a conditional risk of sleep or idle talk, not an observed event.
+3. `DAY_LATE(A, after=VerseAndGloria(FirstPsalm))` sets
+   `location=LAST_OR_APART` and retains `debt=DAY_OFFICE_FAULT`.
+   `JOIN_CHOIR(A)` is blocked until `SATISFY(A)`, except that
+   `PARDON(Abbot,A)` plus `PERMIT(Abbot,A,Choir)` changes the current location
+   while leaving `debt` and the required satisfaction intact.
+4. `TABLE_LATE(A, before=VerseAndPrayer)` increments
+   `count(A,table)`. For the first and second occurrences the result is
+   `CORRECT(A)`; if A still does not amend after the allowed second correction,
+   `TABLE_EXCLUSION(A)` sets `location=ALONE`, removes `CommonTable`, and
+   sets `WinePortion=WITHHELD` until both `SATISFY(A)` and `AMEND(A)`.
+5. `POST_MEAL_VERSE_ABSENCE(A)` invokes the same table-penalty result, but is a
+   separate trigger object; it must not be silently merged with lateness.
+6. `REFUSE(A,OfferedItem,Superior)` creates `debt=REFUSAL_FAULT`. If A later
+   requests `OfferedItem` or another item, `RECEIVE(A,item)` is blocked until
+   `PROPER_SATISFACTION(A)`.
+
+#### Complete finite traces and changed rival
+
+The day-Hour exception is the strongest compact trace:
+
+`SIGNAL -> DAY_LATE(A) -> LAST_OR_APART(A) -> PARDON(Abbot,A) ->
+PERMIT(Abbot,A,Choir) -> JOIN_CHOIR(A) -> PUBLIC_SATISFACTION(A) ->
+SATISFIED(A)`.
+
+After `PERMIT`, the state is explicitly `location=Choir` and
+`debt=DAY_OFFICE_FAULT`; permission changes access/location, not obligation.
+The table trace is independent and retains its own object and threshold:
+
+`TABLE_LATE(A)^1 -> CORRECT; TABLE_LATE(A)^2 -> CORRECT; TABLE_LATE(A)^3
+without AMEND -> TABLE_EXCLUSION(A) -> ALONE(A) + WITHHELD(WinePortion) ->
+SATISFY(A) + AMEND(A) -> eligible for common table`.
+
+The named rival `R-CLEAR` makes permission erase debt. It predicts that the
+permitted Choir state has no later satisfaction edge. `R-CLEAR` also cannot
+represent the chapter's explicit distinction between current location and the
+continuing fault. These are source-prescribed normative and conditional
+consequences, not observations that anyone actually arrived late, refused a
+thing, or completed satisfaction.
+
+The account's hardest binding cost is actor identity: the chapter's generic
+examples do not prove that one actor spans Night Office, day Hours, table, and
+refusal. A target application would have to expose that identity and the
+location/debt split independently. Without those bindings, this remains a
+source-complete exploratory constructor rather than evidence for any target
+meaning.

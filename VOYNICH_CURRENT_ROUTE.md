@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;GDT1002joint transport alternatives.
-Latest decision: 1002five-way excluded;2overlapping pairs remain semantically open.
-Working files: experiments/yolo/gdt1002_transport_joint_alias_alternatives/REPORT.md
-Assumptions: 993/997lexicon+grammar fixed;no alias expansion or morphology claim.
-Resume: Publish1002;review fullworld constraint for2pairs and432part-algebra audit.
-Running: Root1002closure;producer432audit plus2raw ideas;no other target run.
+Task: Ten-hour block to22:52:35UTC;1003joint content and shared-word domains.
+Latest decision: 1002closed/public;1003world-constrained2pair test selected18:59UTC.
+Working files: experiments/yolo/gdt1003_transport_joint_world_domains/DECISION.md
+Assumptions: 993meanings fixed;PAIR impossible under38groups;no morphology claim.
+Resume: Publish1003freeze;run190queries and complete shared tuples;validate worlds.
+Running: Root1003to20:09UTC;producer bounded raw batch;no target1003run.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

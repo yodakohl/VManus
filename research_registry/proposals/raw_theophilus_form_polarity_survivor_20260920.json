@@ -1,0 +1,48 @@
+{
+  "title": "Theophilus negative-form destruction and surviving cast constructor",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. The complete cached Theophilus I.1-I.9 source distinguishes material preparation, a form or mold, a newly introduced filling material, destruction of the outer form, and a surviving image/cast. A finite constructor can therefore preserve method continuity while changing physical identity. This is materially different from named color/layer reference and does not assign any target word.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Theophilus, De diversis artibus, Liber I, chapters I.1-I.9",
+    "packet": "research_registry/work_batches/ten_hours_20260915/THEOPHILUS_I1_I9_SOURCE_CONTENT.json",
+    "edition": "Robert Hendrie 1847, bounded connected source section; exact edition and witness limits remain those recorded in the packet.",
+    "source_limit": "The source describes painting preparation and image-making operations; it is not claimed as a Voynich Vorlage or as proof of a target material identity."
+  },
+  "constructor": {
+    "types": ["MATERIAL", "STATE", "FORM", "SHELL", "FILL", "IMAGE", "CAST", "LOCUS"],
+    "operators": [
+      "PREPARE(m, state) -> MATERIAL(m,state)",
+      "FORM_NEGATIVE(batch, boundary) -> FORM(form_id, shell=batch, cavity=boundary)",
+      "FILL(form_id, new_batch) -> IMAGE(candidate_id, material=new_batch, boundary=form_id.cavity)",
+      "BREAK(form_id) -> DESTROYED(form_id) while preserving candidate_id",
+      "CAST(candidate_id, metal) -> CAST_ID(candidate_id, metal)",
+      "APPLY(image, locus) -> DEPOSIT(image,locus)"
+    ],
+    "evaluation_order": "PREPARE -> FORM_NEGATIVE -> FILL -> BREAK -> CAST -> APPLY. The same method or boundary may recur, but a method recurrence never merges batch, shell and cast identities.",
+    "complete_source_trace": [
+      "PREPARE(batch1,soft) ; FORM_NEGATIVE(batch1,outline1) ; FILL(form1,batch2) ; BREAK(form1) ; CAST(candidate1,metal1)",
+      "PREPARE(color,transformed) ; APPLY(color,face_or_body_locus)"
+    ],
+    "consequence": "The outer form can be destroyed while the later image/cast remains available for application or inspection. Thus a repeated operation can preserve boundary or method but must change physical identity from SHELL to CAST; a later reference to the surviving result cannot refer back to the destroyed shell without an explicit identity edge.",
+    "rival": "R-FUSE identifies form, filling and final cast as one persistent batch. It predicts that BREAK removes the only result and that a later cast reference cannot survive destruction. R-LAYER, the nearest named-color/layer reading, treats every recurrence as a deposited pigment layer and has no destructive shell consequence.",
+    "falsifier": "Reject if the complete owned source trace lacks a destruction step, if the supposed cast is only a second layer with no separate physical identity, or if the target-side construction needs a shell/cast distinction that no written component, whole residual or context can carry. Unknown material names remain variables; no target form is assigned a metal or image.",
+    "source_content_consequence": "The operator system predicts an observable polarity change: before BREAK the boundary belongs to a removable shell; after BREAK it belongs to the surviving cast/image. This differs from a same-material layer model even when method and locus names recur."
+  },
+  "predecessors": [
+    {"id": "IDEA000390", "limit": "Theophilus named color/reference and deposited-layer structure, but it does not model destructive form versus surviving cast identity."},
+    {"id": "IDEA000068", "limit": "Generic transformation identity does not provide the shell-destruction and survivor operator sequence."},
+    {"id": "IDEA000052", "limit": "Material transformation remains a broad predecessor; this card adds a typed physical polarity and explicit destruction consequence."}
+  ],
+  "dependencies": [
+    "The source packet's chapter boundary and edition limitations remain binding.",
+    "Known component order fills operation and argument slots; whole residual selects FORM, FILL, BREAK or CAST only within a predeclared finite family.",
+    "Context must carry shell/candidate identity; repeated spelling alone cannot establish identity.",
+    "No target data, image, reserve, decoder, experiment, route, ledger, or root file was accessed or changed."
+  ],
+  "relations": [
+    {"type": "related_to", "target": "GDT608"},
+    {"type": "distinct_from", "target": "IDEA000390"},
+    {"type": "distinct_from", "target": "IDEA000068"}
+  ]
+}

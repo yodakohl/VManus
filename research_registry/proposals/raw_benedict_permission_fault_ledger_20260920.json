@@ -1,0 +1,49 @@
+{
+  "title": "Rule Benedict chapter 43 permission with non-erasing fault ledger",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Rule Benedict chapter 43 supplies a complete actor-state system in which lateness causes demotion or separation, satisfaction repairs the fault, and an abbot's permission can restore participation while leaving satisfaction due. A finite constructor separates current location from outstanding obligation and tests an exception that does not erase its cause.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Regula Benedicti, chapter 43, On those who come late to the Work of God or to table",
+    "url": "https://archive.osb.org/rb/text/rbemjo2.html",
+    "source_span": "Complete chapter: night office, day Hours, table lateness, repeated failure, refusal and satisfaction/permission clauses.",
+    "source_limit": "The accessed page is Leonard J. Doyle's modern English translation/adaptation of the Latin; it is a source-owned content mechanism, not a target-language identification."
+  },
+  "constructor": {
+    "types": ["ACTOR", "TRIGGER", "LOCATION", "FAULT", "PERMISSION", "SATISFACTION", "THRESHOLD", "STATE"],
+    "states": ["PARTICIPATING", "DEMOTED", "PERMITTED_WITH_DEBT", "SATISFIED"],
+    "operators": [
+      "LATE(actor,domain,threshold) -> DEMOTED(actor,domain) + DEBT(actor,domain)",
+      "PENANCE(actor,public_scope) -> SATISFIED(actor,domain) only after the written fault is present",
+      "PERMIT(actor,authority) -> PERMITTED_WITH_DEBT(actor,domain); location changes but DEBT remains",
+      "REENTER(actor,location) -> PARTICIPATING(actor,location) only after permission or satisfaction according to the branch",
+      "COUNT(actor,domain,n) -> THRESHOLD_STATE(actor,excluded) when the source's repeated-lateness condition is met",
+      "REFUSE(actor,offered_item) -> DEBT(actor,refusal_domain) with the same satisfaction requirement"
+    ],
+    "evaluation_order": "LATE or REFUSE opens a debt; PERMIT may change current location; PENANCE/SATISFACTION closes the debt; REENTER records current participation. No operator may delete DEBT merely by changing LOCATION.",
+    "complete_source_trace": [
+      "LATE(A,day_hour,after_gloria) ; PERMIT(A,abbot) ; REENTER(A,choir) ; PENANCE(A,public) -> SATISFIED(A,day_hour)",
+      "LATE(A,table,repeated) ; COUNT(A,table,n) ; REENTER(A,alone) ; PENANCE(A,public)"
+    ],
+    "consequence": "A single actor can be in the permitted choir while still owing satisfaction. Later satisfaction remains required, and repeated table lateness changes common participation to separation. The model therefore predicts a cross-clause state where LOCATION=choir and DEBT=true coexist.",
+    "rival": "R-CLEAR treats permission as erasing the fault: PERMIT(actor,authority) directly yields PARTICIPATING with no debt. It predicts no later satisfaction obligation after permitted re-entry and cannot preserve the chapter's exception wording.",
+    "falsifier": "Reject if the complete source branch makes permission erase the duty of satisfaction, if repeated table lateness has no threshold/state change, or if a target-side complete passage cannot carry actor, location and obligation as distinct typed fields. A repeated word is not credited as the same actor without an explicit context/identity rule.",
+    "source_content_consequence": "The distinctive test is non-commutation: PERMIT then PENANCE is defined, while PENANCE before LATE is undefined and PERMIT without a preceding debt is not an exception. This is an obligation-persistence consequence, not a generic OPEN/UPDATE/CLOSE label."
+  },
+  "predecessors": [
+    {"id": "IDEA000335", "limit": "The parent card models broad demotion, repair and permission transitions; this card isolates the non-erasing permission/debt invariant and its non-commutation."},
+    {"id": "IDEA000034", "limit": "Exception/scope relations are a broad predecessor without this actor-location/debt separation."},
+    {"id": "IDEA000066", "limit": "Administrative scope is a nearby rival; this card requires a persistent obligation across domains."}
+  ],
+  "dependencies": [
+    "The source's translated wording and chapter boundary remain explicit limitations.",
+    "Known component order, whole residual and context must independently supply actor, domain and exception roles; no arbitrary status tags may be fitted after outcome.",
+    "This is distinct from the closed transport/quantity/source-prefix families and does not reopen IDEA000335.",
+    "No target data, image, reserve, decoder, experiment, route, ledger, or root file was accessed or changed."
+  ],
+  "relations": [
+    {"type": "related_to", "target": "IDEA000335"},
+    {"type": "distinct_from", "target": "IDEA000034"},
+    {"type": "distinct_from", "target": "IDEA000066"}
+  ]
+}
