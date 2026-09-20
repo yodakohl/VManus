@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT985 conditional same-portion continuation on complete f75v40-42.
-Latest decision: 984 published; freeze all shared word-effect domains for 985.
-Working files: experiments/yolo/gdt985_f75v_source_availability_continuation/METHOD.md
-Assumptions: ol/or=current-source checks;one portion;all effects unconfirmed;reserves closed.
-Resume: Publish registration;run 985 runner and independent finite-domain validator.
-Running: Root registration;bounded producer;checkpoint00:40UTC;blockends>=09:05:26UTC.
+Task: Review IDEA370 shared material specification across complete paragraphs.
+Latest decision: 985 conditional sheolo B-to-A role;3tables;no meaning selected;0words.
+Working files: research_registry/proposals/raw_shared_ingredient_goal_contract.json
+Assumptions: All glosses guessed;W89 pause retained;no cross-leaf batch identity;reserves closed.
+Resume: Read W44/W45/P05 and both whole contexts;select only a new content consequence.
+Running: Root985publication;bounded producer;ten-hour block earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

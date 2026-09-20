@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **984**
-- Experiment-associated tracked files: **19,054** (1.7 GiB)
+- Experiment-associated tracked files: **19,069** (1.7 GiB)
 - Structured GDT337+ experiments: **649**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT985 | Conditional source availability in the complete f75v continuation | `REGISTERED_UNEXECUTED` | — | 12 | 38.9 KiB | 7 | STRUCTURED_YOLO |
+| GDT985 | GDT985_f75v_source_availability_continuation | `CONDITIONAL_ROLE_LEAD` | [report](../experiments/yolo/gdt985_f75v_source_availability_continuation/REPORT.md) | 27 | 493.9 KiB | 7 | STRUCTURED_YOLO |
 | GDT984 | GDT984_name_code_remainder_prefix_capacity | `PREFIX_PROJECTION_WEAK` | [report](../experiments/yolo/gdt984_name_code_remainder_prefix_capacity/REPORT.md) | 28 | 2.6 MiB | 6 | STRUCTURED_YOLO |
 | GDT983 | GDT983_qo_reduplication_expansion | `NO_CONTEXT_SUPPORT` | [report](../experiments/yolo/gdt983_qo_reduplication_expansion/REPORT.md) | 23 | 774.1 KiB | 8 | STRUCTURED_YOLO |
 | GDT982 | GDT982_reciprocal_flow_clause_readings | `COMPLETE_TRIAL_READINGS_NO_INDEPENDENT_MEANING_SELECTION` | [report](../experiments/yolo/gdt982_reciprocal_flow_clause_readings/REPORT.md) | 30 | 459.2 KiB | 9 | STRUCTURED_YOLO |
