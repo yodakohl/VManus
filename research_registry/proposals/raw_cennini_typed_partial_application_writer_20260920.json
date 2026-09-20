@@ -1,0 +1,61 @@
+{
+  "title": "Typed partial-application writer for context-bound process operators",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A finite subword algebra composes typed operators and arguments before a shared residual closes the event. It distinguishes REUSE(FORM1), MEDIUM_BY_STATUS and BREAK_SHELL by argument type and evaluation order, so repeated parts carry a real identity relation rather than serving as phase labels or whole-word aliases.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Cennino Cennini, Trattato della pittura / Libro dell'arte, CLXIII-CLXVI",
+    "packet": "research_registry/work_batches/ten_hours_20260915/CENNINI_PROCESS_PRODUCT_SOURCE_20260920.json",
+    "complete_account": "research_registry/work_batches/ten_hours_20260915/CENNINI_COMPLETE_FINITE_SOURCE_ACCOUNT_20260920.json",
+    "provenance": "The 1821 printed wording is owned. Its headings are editorial additions and are not treated as medieval exact-form evidence; the 1437 Laurenziana witness supports work attribution, not every 1821 spelling."
+  },
+  "design": {
+    "positive_basis": [
+      "Directed composition and whole-form/context residuals are retained by GDT608 and GDT282/286/318.",
+      "Cennini supplies distinct typed participants and a real identity chain: MODEL, FORM1, FIRST_MEDIUM, second fill, shell and EFFIGY.",
+      "The contract differs from OPEN/UPDATE/CLOSE tag annotation: every operator has a declared input/output type and must consume an argument."
+    ],
+    "types": ["MODEL", "STATUS", "MEDIUM", "FORM", "FILL", "TOOL", "PHASE", "RESULT", "OPTION"],
+    "operators": {
+      "SELECT": {"arity": 2, "signature": "STATUS x MODEL -> MODEL"},
+      "MEDIUM_BY_STATUS": {"arity": 1, "signature": "STATUS -> MEDIUM"},
+      "MIX": {"arity": 2, "signature": "MATERIAL x MEDIUM -> FILL"},
+      "POUR": {"arity": 2, "signature": "FILL x FORM_BOUNDARY -> PHASE"},
+      "REUSE": {"arity": 1, "signature": "FORM -> FORM_REFERENCE"},
+      "RELEASE": {"arity": 2, "signature": "MODEL x FORM -> FORM"},
+      "REFILL": {"arity": 2, "signature": "FILL x FORM_REFERENCE -> PHASE"},
+      "BREAK_SHELL": {"arity": 2, "signature": "TOOL x FORM_REFERENCE -> RESULT"},
+      "CAST": {"arity": 2, "signature": "OPTION x RESULT -> RESULT"}
+    },
+    "reduction_law": "Read a component sequence as a left-associated partial application. A component can introduce an operator, a typed argument, or a residual closure. APPLY(f,x) reduces only when x has the next declared type; the result becomes the next available argument. A closure residual is legal only when the operator's arity is filled. The current context carries MODEL, STATUS and FORM1; it may supply a declared omitted argument once, but never invents a new participant. Any unused component or type mismatch rejects the parse.",
+    "surface_contract": "A reusable operator component is shared across forms; value components are shared by type. The whole-form residual chooses among the declared operators only after partial application has supplied their arguments. No residual may directly name a complete event, and no per-form alias is permitted.",
+    "worked_trace": [
+      {"source": "C02", "surface_roles": ["SELECT", "STATUS_HIGH", "MODEL_YOUNG"], "reduction": "APPLY(APPLY(SELECT,STATUS_HIGH),MODEL_YOUNG) -> MODEL_YOUNG"},
+      {"source": "C11-C14", "surface_roles": ["MEDIUM_BY_STATUS", "STATUS_HIGH", "MIX", "GYPSUM", "POUR", "FORM_BOUNDARY"], "reduction": "MEDIUM_BY_STATUS(STATUS_HIGH)->ROSE_WATER; MIX(GYPSUM,ROSE_WATER)->FIRST_FILL; POUR(FIRST_FILL,FORM_BOUNDARY)->FIRST_MASK"},
+      {"source": "C16-C18", "surface_roles": ["RELEASE", "MODEL_YOUNG", "REUSE(FORM1)"], "reduction": "RELEASE(MODEL_YOUNG,FORM1)->PRESERVED_FORM1; the result is stored under FORM1, not renamed to a new form"},
+      {"source": "C19-C25", "surface_roles": ["REUSE(FORM1)", "MIX", "GYPSUM2", "REFILL", "BREAK_SHELL", "HAMMER"], "reduction": "REUSE(FORM1)->FORM_REFERENCE; MIX(GYPSUM2,ordinary_warm_water)->SECOND_FILL; REFILL(SECOND_FILL,FORM_REFERENCE)->REFILLED_FORM; BREAK_SHELL(HAMMER,FORM_REFERENCE)->EFFIGY"},
+      {"source": "C28-C29", "surface_roles": ["CAST", "BRONZE", "EFFIGY"], "reduction": "CAST(BRONZE,EFFIGY)->OPTIONAL_BRONZE_CAST; competent founder remains an external source condition, not a hidden operator"}
+    ],
+    "observable_consequence": "The same FORM1 value component has two different legal roles only through declared type: REUSE(FORM1) supplies REFILL's second argument and BREAK_SHELL's second argument, while MEDIUM_BY_STATUS consumes STATUS before MIX. A rival positional macro that treats repeated FORM as a fresh object predicts a new form at REFILL or makes BREAK_SHELL destroy the only result. A rival that applies status after the first mix predicts no status-conditioned medium.",
+    "smallest_discriminator": "A future complete passage containing a shared component in both a medium operation and an identity-preserving reference must parse with the same typed component inventory and different argument positions. The model predicts a type error for a component moved into the wrong position; a whole-form alias or untyped phase tag can still accept it, so the two outcomes are separable without knowing the English values.",
+    "inverse": "Given a proposed typed source tree, enumerate only the finite operator signatures and component sequences permitted by the current context. Unify each observed component with an operator or typed value, reduce left to right, and emit the unique tree whose final residual has arity zero. Inversion fails on omitted arguments, duplicate participants, unconsumed components or a final result with an open type.",
+    "inverse_symmetries": [
+      "Consistent renaming of opaque typed values and operator surface components.",
+      "Permutation among equivalent ordinary-water values when the source scope does not distinguish them.",
+      "No symmetry may identify FORM1 with EFFIGY or FIRST_MEDIUM with SECOND_FILL; those identities are part of the source contract."
+    ],
+    "strongest_failure": "The source does not identify target component boundaries or prove that any repeated written part is an operator. If a complete exposed target passage requires the same component to have incompatible input/output types under one context, the algebra fails; adding a context-specific overloaded operator would be an ad hoc repair. The model also remains exploratory because Cennini's practical mechanics and later-cast antecedent are partly unresolved."
+  },
+  "predecessors_and_limits": [
+    {"id": "IDEA000439", "limit": "The source process is retained, but this card supplies a typed partial-application writer rather than a source-only state map."},
+    {"id": "IDEA000427", "limit": "The older phase-operator proposal permits opaque OPEN/UPDATE/CLOSE labels; this card requires actual typed arguments and arity-complete reductions."},
+    {"id": "IDEA000428", "limit": "The prior state/context card does not establish a subword operator algebra; no old glosses are inherited."},
+    {"id": "GDT608", "limit": "Directed composition and whole residual are formal observations only; they do not confirm these semantic operators."},
+    {"id": "HIST:8ffe6cd81cddd1f2", "limit": "Editorial 1821 headings are excluded; no medieval exact homography claim is made."}
+  ],
+  "dependencies": [
+    "No target text, image, reserve, f84/f84r/f116v, decoder, experiment, route, ledger or root file was accessed or changed.",
+    "This is RAW_UNREVIEWED and does not assert a Voynich reading, a source Vorlage or independent word meanings.",
+    "The source account remains complete in the existing JSON; this proposal is a finite writer hypothesis with declared abstractions and failure conditions."
+  ]
+}

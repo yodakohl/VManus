@@ -706,3 +706,162 @@ source's red-cross entry and opposed pes pause/repeat rules. This source
 specialization remains raw and unselected, with no claim that its content is
 novel historical evidence. IDEA439 had no same-declared-design idea result;
 its provenance and source limits remain the principal novelty qualification.
+
+## L. Complete Cennini finite source account for IDEA439
+
+The complete audited account is in
+`CENNINI_COMPLETE_FINITE_SOURCE_ACCOUNT_20260920.json`. It owns the continuous
+CLXIII–CLXVI span, not only the shell-release fragment, and retains all C01–C29
+source inventory items. The account separates explicit text, analytical
+inference, and unresolved wording. The 1821 headings are excluded from medieval
+ownership; the underlying work is witnessed by Laurenziana Plut.78.23 copied in
+1437, so the selected witness is later than 1420. The packet supports a
+pre-1450 work attribution, but not a pre-1420 witness or exact pre-1420 wording.
+
+### Complete finite process
+
+The source starts by introducing imprinting as a useful likeness practice
+(C01), selects a man/woman/young/old model and addresses beard/hair constraints
+(C02), prepares face, oil, brush and cap (C03), routes and sews a measured cloth
+boundary with cotton in the ears (C04–C05), and sets a toothed iron ring held by
+an assistant at a stated clearance (C06–C08). The ring, cloth, face and assistant
+are separate participants; no practical identity is collapsed.
+
+The goldsmith makes two brass-or-silver perforated tubes fitted to the nostrils
+and joined below (C09–C10). The model lies back, inserts and holds them (C11).
+Fresh cooked sifted Bolognese or Volterran gypsum is mixed quickly with warm
+water in a basin, at a neither-too-fluid-nor-too-stiff consistency (C12), then
+poured evenly around the face with eyes covered last and mouth/eyes naturally
+closed (C13). The fill rises one finger above the nose and rests until set
+(C14).
+
+C15 is an explicit branch: a high-status model (lord, king, pope, emperor) gets
+warm rose water; other people may use warm fountain, well, or river water. This
+changes the medium field only. It does not establish efficacy or alter model,
+form, or later representation identity.
+
+After drying, cloth is cut with one of three tools and tubes removed (C16). The
+model's rise/handling and face release from the mask/form are textually
+difficult, so both transmitted and editorially conjectured readings remain
+(C17). The first form is put away and preserved (C18), surrounded by a new baby
+band (C19), and its cavity is oiled with any oil to avoid failure (C20). The
+second gypsum preparation repeats the earlier method and may include crushed
+brick powder (C21), is poured into the earlier form with glass and bowl on a
+bench (C22), and bench tapping is prescribed to distribute the fill and avoid
+bubbles/blisters (C23). The filled form rests half a day or at most a day (C24).
+
+The outer crust, explicitly the first form, is carefully broken while the nose
+and the new representation remain intact (C25). If breaking is difficult, the
+outside may be sawn before filling without cutting through (C26). The result is
+called effigy, likeness, or imprint (C27). The source then permits later casting
+in copper, metal, bronze, gold, silver, lead, or any desired metal, but the exact
+physical antecedent of the later “first form” reference remains unresolved
+(C28); competent melting/casting masters are required and no full foundry
+workflow is given (C29).
+
+### Writer consequence and limits
+
+The source supports a finite context-sensitive relation contract: a reusable
+imprint family must distinguish operation-on-face, prospective product, final
+effigy, and later-cast representation by grammatical context; repeated form
+references must preserve the first form through banding, cavity oiling, refill,
+and shell break; “earlier method” reuses an operation schema without identifying
+the same physical gypsum portion; and status selects only the water medium. A
+writer using this contract needs no arbitrary terminal for each whole word: known
+component order opens typed slots, the whole residual selects one declared phase,
+and entry context carries model/form/material identity. Missing bindings remain
+unknown.
+
+The negative-mold/positive-effigy polarity, causal interpretation of bench
+tapping, and practical mechanics are analytical abstractions. The source states
+the operations, purposes, and preservation conditions; it does not supply a
+modern engineering explanation or a target writing key. IDEA439 remains raw and
+unselected, and the original proposal bytes are unchanged.
+
+## M. Cennini V1 correction audit and two writer candidates
+
+This section corrects the finite-account representation without overwriting
+`CENNINI_COMPLETE_FINITE_SOURCE_ACCOUNT_20260920.json` or the original IDEA439
+card. The duplicate screen returned the curated correction
+`HIST:8ffe6cd81cddd1f2`: both exact finite `impronta` heading examples are
+1821 editorial additions. The four chapter bodies remain owned source content;
+the headings are retained only as edition metadata and are excluded from any
+medieval exact-homography claim. The 1437 witness and 1859 dating preface do not
+make every 1821 spelling a pre-1420 reading.
+
+The first correction concerns C15. In the 1821 body, the rose-water versus
+ordinary warm-water choice is made while preparing the first gypsum compound,
+before the first face release. It is therefore a `FIRST_MEDIUM` or `WATER1`
+branch, not a second-fill medium. The label `WATER2` in the V1 inventory must
+not be read as a second fill; this audit leaves V1 byte-identical and records the
+correct scope for later construction. C06 covers the face, cloth and toothed
+ring enclosure. The breathing tubes belong to C09–C11 and are not C06 nodes.
+
+The actor inventory also needs identity discipline. `MODEL_SELF` is the same
+person as `MODEL`, who holds the tubes; it is not a sixth independent person.
+The direct instructional voice is the workshop instructor. The goldsmith and
+the competent founders are role or capability requirements in the source, not a
+separate `CRAFT_WORKER` addressee or second speaker. The assistant holding the
+ring remains a distinct participant because the text explicitly assigns that
+holding action to a companion.
+
+C26 requires a textual-variant correction. The 1821 wording `E s’è per trovare
+la detta forma più fievole a rompere` can be read conditionally, but the 1859
+CLXXXIV wording `E sì, per trovare ... più fiebole` supports a purpose reading:
+the exterior is sawn in advance to make the later break easier. The checked 1859
+chapter is [Wikisource CLXXXIV](https://it.wikisource.org/wiki/Il_libro_dell%27arte/Capitolo_CLXXXIV),
+lines 119–121 in its current text. The common source-owned content is exterior
+preweakening before filling, without sawing through; the conditional-versus-
+purpose attachment remains an edition alternative. V1's stronger “if weak or
+difficult” condition is therefore not treated as settled. The release passage
+and the later `poichè hai la prima` metal-cast antecedent remain uncertain as
+already recorded.
+
+Two raw writer candidates were added for bounded review. They are not source
+claims or target readings:
+
+* `raw_cennini_sparse_state_delta_writer_20260920.json` proposes guarded sparse
+  field changes with a lossless inverse. It predicts that C15 changes only the
+  first mixture's medium while MODEL, FORM1 and EFFIGY remain carried values;
+  reset or universal-medium rivals make a different prediction.
+* `raw_cennini_typed_partial_application_writer_20260920.json` proposes
+  typed partial application. `REUSE(FORM1)`, `MEDIUM_BY_STATUS` and
+  `BREAK_SHELL` have distinct signatures and must consume declared arguments;
+  an untyped phase label or whole-form alias cannot satisfy the same inverse.
+
+Both cards retain unknown target bindings, keep all C01–C29 source ownership,
+and state their strongest failure. They do not inherit GDT345 formal deltas or
+GDT569's assumed semantic roots. They remain `RAW_UNREVIEWED_NOT_SELECTED`.
+
+## N. Three non-Cennini raw constructor candidates
+
+This bounded replenishment screened the live route, composition/reference
+route-checks, and targeted idea duplicates before adding three distinct raw
+cards. None opens target data or changes the Cennini source construction.
+
+* `IDEA000443` —
+  `raw_benedict18_cursor_reference_writer_20260920.json`. The complete Rule of
+  Benedict chapter18 is represented as typed `PSALM`, `SECTION`, `HOUR` and
+  `REFERENCE` operations. `residua`, `idem`, `per easdem horas` and `sicut
+  supra` resolve to a typed cursor or prior schedule unit. Splitting preserves
+  one psalm identity while joining changes the performance unit. Resetting the
+  cursor or treating every psalm as indivisible produces a different complete
+  weekly schedule. This is distinct from IDEA393's broad coverage invariant.
+* `IDEA000444` —
+  `raw_aristotle_poetics_reversal_recognition_constructor_20260920.json`. The
+  complete Poetics VII–XI block supplies typed action, incident, causal-link,
+  reversal, recognition and pathos operators. A later recognition or reversal
+  scopes over the same prior action; one-sided versus two-sided recognition and
+  post hoc versus probable/necessary linkage yield different plot outcomes.
+  This is distinct from syllogistic proof and accusation/rebuttal cards.
+* `IDEA000445` —
+  `raw_ptolemy_atmospheric_state_until_next_aspect_20260920.json`. Tetrabiblos
+  II.13 supplies an atmospheric state opened at sunrise or sunset and carried
+  until the next Sun–Moon aspect, with new/full Moon and planetary qualifiers
+  kept in separate branches. A nearest-observation rival creates extra state
+  resets; the source constructor predicts one shared window and one expiry.
+  This does not reuse Vitruvius's clock mechanism or a zodiac dictionary.
+
+All three are explicitly `RAW_UNREVIEWED_NOT_SELECTED`, retain source and target
+limitations, name rivals and smallest future discriminators, and avoid a new
+prefix/postfix serialization scheme or one-gloss-per-whole proposal.

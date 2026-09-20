@@ -1,0 +1,61 @@
+{
+  "title": "Benedict18 cursor and identity references for a complete weekly schedule",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A finite schedule writer separates psalm identity, section identity, hour, and weekly coverage. Long-scope expressions such as residua, idem, per easdem horas and sicut supra update a shared cursor or repeat a prior slot without creating a new psalm. This differs from the existing Benedict18 coverage card by making reference resolution and split/join identity the primary constructor.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "id": "BENEDICT18",
+    "work": "Regula Benedicti, chapter 18, verses 1-25",
+    "packet": "research_registry/work_batches/ten_hours_20260915/CONTEXTUAL_FULL_CONTENT_RAW_SOURCES_20260920.json",
+    "packet_sha256": "72a93568f698c0b8da628d2cf3967d2ee6d98abcfa20cc96f3e3873436b95d44",
+    "url": "https://bkv.unifr.ch/en/works/cpl-1852/compare/die-regel-des-hl-benedikt-bkv/20/regula-benedicti",
+    "source_limit": "Sixth-century rule in a digital Latin edition, not a newly collated medieval manuscript. The Latin primus/secundus/sextus branch is retained where the accompanying translation differs."
+  },
+  "design": {
+    "positive_basis": [
+      "The live structural baseline supports directed reusable parts, whole-form residuals and entry context, but does not identify meanings.",
+      "The source explicitly reuses previous sections and hours, splits long psalms, joins adjacent psalms, repeats groups at the same hours, and requires whole-week coverage.",
+      "IDEA000393 owns the broad allocation/coverage mechanism; this card changes the semantic focus to cursor/reference resolution and identity-preserving split/join operations."
+    ],
+    "types": ["PSALM", "SECTION", "HOUR", "DAY", "SCHEDULE_CURSOR", "REFERENCE", "PERFORMANCE", "COVERAGE"],
+    "operators": {
+      "INIT": {"arity": 1, "signature": "PSALM -> SCHEDULE_CURSOR"},
+      "PART": {"arity": 2, "signature": "PSALM x integer -> SECTION_LIST"},
+      "ADVANCE": {"arity": 2, "signature": "SCHEDULE_CURSOR x PSALM -> SCHEDULE_CURSOR"},
+      "USE_REMAINDER": {"arity": 2, "signature": "REFERENCE(residua) x CURSOR -> SECTION_LIST"},
+      "REPEAT_AT": {"arity": 3, "signature": "SECTION_LIST x HOUR x DAY_RANGE -> PERFORMANCE_LIST"},
+      "SPLIT": {"arity": 2, "signature": "PSALM x HOUR -> SECTION_LIST"},
+      "JOIN": {"arity": 2, "signature": "PSALM x PSALM -> PSALM_UNIT"},
+      "COVER": {"arity": 2, "signature": "PERFORMANCE_LIST x integer -> COVERAGE_ASSERTION"}
+    },
+    "reference_law": "A long-scope reference resolves to the most recent source-declared cursor or named schedule unit of the required type. residua means the unconsumed sections of the current psalm cursor; idem and per easdem horas repeat the same identity and hour slot; sicut supra retrieves the earlier non-psalm service template. A split preserves one PSALM identity across multiple SECTION values; JOIN creates one performance unit while retaining both source PSALM identities. No nearest-word or fresh identity is allowed when the reference has a declared type.",
+    "complete_trace": [
+      "INIT(118); PART(118,4) at Sunday Prime; REPEAT_AT(PARTS(118),lesser_hours,Sunday)",
+      "ADVANCE(cursor,1); ADVANCE(cursor,2); ADVANCE(cursor,6); ADVANCE(cursor,7); ADVANCE(cursor,8); SPLIT(9,Prime); ADVANCE through 19; SPLIT(17,Prime); INIT(20) for Sunday vigil",
+      "USE_REMAINDER(residua,cursor(118)) at Monday third/sixth/ninth; REPEAT_AT(the same three-part list,the same hours,Monday)",
+      "REPEAT_AT(PSALMS(119..127),the same hours,Tuesday through Sunday)",
+      "Vespers select 109..147 after the explicit exclusions; SPLIT(138), SPLIT(143), SPLIT(144), JOIN(115,116); REPEAT(4,90,133) at Compline",
+      "Divide remaining psalms among seven vigils, splitting longer psalms and assigning twelve per night; COVER(all weekly performances,150 distinct psalms)"
+    ],
+    "worked_consequence": "If the cursor is reset before residua, Monday lesser hours reuse Sunday sections of 118 instead of the nine unconsumed sections, violating the stated two-day exhaustion. If SPLIT creates new psalm identities, the weekly coverage count changes; if JOIN erases both identities, the explicit 115+116 construction is lost. The same source identity can therefore occupy several sections while performance units and slot references change.",
+    "rivals": [
+      {"id": "R_RESET_EVERY_DAY", "difference": "Resets the current psalm/section cursor at each day and cannot resolve residua or per easdem horas."},
+      {"id": "R_ATOMIC_PSALMS", "difference": "Treats every psalm as one indivisible performance unit and fails the explicit splits and 115+116 join."},
+      {"id": "R_EVENT_COUNT_150", "difference": "Equates weekly identity coverage with exactly 150 utterances and cannot retain repeated daily groups."}
+    ],
+    "surface_composition_link": "A future shared word grammar would need reusable components for PSALM, SECTION, HOUR and REFERENCE, with whole-form/context selecting INIT, ADVANCE, REPEAT, SPLIT or JOIN. The target consequence is a long-scope identity relation and coverage invariant, not one gloss per source word.",
+    "smallest_discriminator": "On one complete future passage, freeze whether a repeated later group refers to an earlier identity, its unconsumed remainder, or a new unit. The cursor model predicts different output for each typed reference; a local list rival predicts no cross-clause identity or split/join constraint.",
+    "strongest_failure": "A target may have no independently bound canonical identities, section boundaries or weekly repetition. Then cursor carry can be imposed on arbitrary prose and has no force. The source schedule also invokes external psalm texts and prior office templates; this card owns chapter18's instructions, not all 150 psalm contents.",
+    "symmetries": ["global renaming of PSALM identifiers", "equivalent naming of SECTION slices", "permutation of ordinary hour labels only where the source does not distinguish them"]
+  },
+  "predecessors": [
+    {"id": "IDEA000393", "limit": "Broad Benedict18 allocation and weekly coverage are already raw; this card adds typed cursor/reference and split/join identity consequences."},
+    {"id": "IDEA000335", "limit": "Benedict43 tracks fault/permission debt, a different source chapter and state system."},
+    {"id": "IDEA000115", "limit": "Alphita is a global headword graph; this card concerns schedule cursors and canonical section identity, not glossary mapping."}
+  ],
+  "dependencies": [
+    "No target text, image, reserve, f84/f84r/f116v, decoder, experiment, route, ledger or root file was accessed or changed.",
+    "No Latin or liturgical target meaning is asserted. This remains RAW_UNREVIEWED and source-owned only.",
+    "The proposal does not reuse an old source-prefix or postfix serialization scheme."
+  ]
+}

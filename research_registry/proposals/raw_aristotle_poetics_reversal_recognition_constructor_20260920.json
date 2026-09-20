@@ -1,0 +1,56 @@
+{
+  "title": "Aristotle Poetics reversal-recognition constructor with causal plot scope",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Poetics VII-XI defines a complete plot constructor in which one action has beginning, middle and end, incidents are linked by probability or necessity, and reversal plus recognition alter the same prior action and its outcome. The model distinguishes causal scope from mere event adjacency and does not reuse the syllogistic proof cards.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Aristotle, Poetics, chapters VII-XI, 1450b-1453b",
+    "url": "https://classics.mit.edu/Aristotle/poetics.1.1.html",
+    "primary_scope": "Complete action/plot definitions, unity, causal sequence, reversal, recognition and suffering; English public-domain translation used for source relations, not target vocabulary.",
+    "source_limit": "The target-independent account is a theory of plot structure, not a claim that the manuscript contains Greek drama or uses Greek lexical categories."
+  },
+  "design": {
+    "positive_basis": [
+      "GDT608 retains directed order plus whole-form residual; GDT282/286/318 retain entry/context effects. This card gives those formal observations a distinct narrative relation hypothesis.",
+      "The source explicitly requires one whole action with beginning/middle/end and says displacement of an organic incident disturbs the whole.",
+      "IDEA000127 covers syllogistic proof registers; this card is narrative event causality and two-sided recognition, not premise/conclusion logic."
+    ],
+    "types": ["ACTION", "AGENT", "INCIDENT", "CAUSE_LINK", "FORTUNE", "KNOWLEDGE", "REVERSAL", "RECOGNITION", "PATHOS", "PLOT"],
+    "operators": {
+      "BEGIN": {"arity": 1, "signature": "ACTION -> PLOT_OPEN"},
+      "FOLLOW": {"arity": 3, "signature": "INCIDENT x INCIDENT x CAUSE_LINK -> PLOT_MIDDLE"},
+      "REVERSE": {"arity": 2, "signature": "INCIDENT x FORTUNE -> REVERSAL"},
+      "RECOGNIZE": {"arity": 3, "signature": "AGENT x KNOWLEDGE x AGENT -> RECOGNITION"},
+      "COINCIDE": {"arity": 2, "signature": "REVERSAL x RECOGNITION -> COMPLEX_TURN"},
+      "SUFFER": {"arity": 2, "signature": "AGENT x PAINFUL_ACTION -> PATHOS"},
+      "END": {"arity": 2, "signature": "PLOT_MIDDLE x OUTCOME -> PLOT_COMPLETE"}
+    },
+    "scope_law": "Every FOLLOW edge points to an earlier or current incident in the same PLOT and is labelled PROBABILITY, NECESSITY or POST_HOC. REVERSE changes the fortune value of the same action; it does not introduce a new action. RECOGNIZE changes an agent's knowledge state and can be one-sided or two-sided. COINCIDE may combine the two on the same turn. END closes only after the whole action has a complete causal chain; unrelated episodic incidents cannot be silently inserted.",
+    "complete_source_trace": [
+      "BEGIN(ACTION); FOLLOW(begin,middle,PROBABILITY_OR_NECESSITY); FOLLOW(middle,end,PROBABILITY_OR_NECESSITY); END(plot,outcome)",
+      "Oedipus-style trace: incident messenger_arrives -> RECOGNIZE(agent,identity,agent) and REVERSE(fortune,alarm_to_relief_or_opposite); COINCIDE(reversal,recognition) -> PATHOS(pity_or_fear)",
+      "Lynceus-style rival outcome: Danaus intends_to_kill Lynceus, but the preceding incident reverses the expected result; the same action chain yields Danaus_dead and Lynceus_saved",
+      "Iphigenia example: letter reveals Iphigenia to Orestes; a second RECOGNIZE is required for Iphigenia to know Orestes, preserving one-sided versus two-sided recognition"
+    ],
+    "worked_consequence": "A list of the same incidents without a causal edge can match participants and order but cannot derive whether a later event is a reversal, a recognition, or mere post hoc adjacency. Under the constructor, coincident reversal and recognition produce a complex turn and affective consequence; a simple plot or post-hoc rival leaves the fortune and knowledge fields separate. Moving one incident can therefore change whether the complete plot remains one action.",
+    "rivals": [
+      {"id": "R_EVENT_LIST", "difference": "Stores ordered incidents without a typed causal edge or persistent knowledge state."},
+      {"id": "R_ALL_POST_HOC", "difference": "Treats every later event as after-the-fact and cannot distinguish a probable/necessary chain from coincidence."},
+      {"id": "R_ONE_SIDED_ONLY", "difference": "Allows only one recognition direction and fails the Iphigenia/Orestes two-recognition consequence."}
+    ],
+    "surface_composition_link": "A prospective shared grammar would reuse ACTION/AGENT/INCIDENT components across clauses. Whole residual and entry context would select FOLLOW, REVERSE, RECOGNIZE or END only after typed arguments are present; no terminal may encode an entire plot turn.",
+    "smallest_discriminator": "A future complete passage must contain two linked events and a later state change. Freeze whether the later change is causal, a reversal, recognition of one or both agents, or merely adjacent. The constructor predicts different downstream result fields without knowing the English names of the agents.",
+    "strongest_failure": "Without independently marked event boundaries, knowledge changes and causal relations, this model can describe almost any narrative after the fact. The source theory is also a general literary abstraction; it cannot independently identify manuscript genre or target word meanings.",
+    "symmetries": ["renaming agents and incidents", "swapping equivalent probability/necessity paraphrases where no contrast is source-owned", "global reversal of opaque surface codes only after typed roles are fixed"]
+  },
+  "predecessors": [
+    {"id": "IDEA000127", "limit": "Syllogistic proof register; this card uses narrative action causality and recognition state, not premise/conclusion validity."},
+    {"id": "IDEA000397", "limit": "Wolf-and-lamb accusation/rebuttal narrative; this card does not reuse its fable-specific allegations or outcome."},
+    {"id": "IDEA000415", "limit": "Phaedrus commitment/rebuttal constructor; this card's differentiator is reversal/recognition co-occurrence and plot unity."}
+  ],
+  "dependencies": [
+    "No target text, image, reserve, f84/f84r/f116v, decoder, experiment, route, ledger or root file was accessed or changed.",
+    "No Greek-to-Voynich mapping or independent narrative meaning is asserted; this is RAW_UNREVIEWED source mechanism supply.",
+    "The source translation's terms are analyst type labels for bounded relations, not target glosses."
+  ]
+}

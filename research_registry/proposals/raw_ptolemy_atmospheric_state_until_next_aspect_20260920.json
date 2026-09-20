@@ -1,0 +1,57 @@
+{
+  "title": "Ptolemy atmospheric state with long-scope aspect expiry",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Tetrabiblos II.13 defines a bounded state-carry system: sunrise or sunset opens a diurnal/nocturnal atmospheric state, a Sun-Moon aspect determines its longer duration, and the state persists until the next aspect. The constructor separates a state reference from a new local observation and predicts a concrete expiry consequence.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Claudius Ptolemy, Tetrabiblos II.13, Of the Significance of Atmospheric Signs",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/2C%2A.html",
+    "secondary_public_copy": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html",
+    "source_scope": "Complete chapter-level weather-sign procedure: rising/setting observation, Sun-Moon aspect duration, new/full Moon timing, planetary/sign configurations and atmospheric effects.",
+    "source_limit": "Public-domain English translations of a second-century astrological text; this is not evidence for target astronomy, astrology or a source language."
+  },
+  "design": {
+    "positive_basis": [
+      "The live baseline permits context carry and whole-form residuals as formal observations while denying confirmed meanings.",
+      "The source itself gives a long-scope reference rule: the atmospheric state opened by an observation continues until a later aspect, with shorter local observations at rising/setting.",
+      "This is distinct from existing zodiac-name, house-register and Vitruvius-clock cards: it tests state expiry and nested temporal scope, not a zodiac dictionary or mechanical clock."
+    ],
+    "types": ["ATMOSPHERIC_STATE", "OBSERVATION", "TIME_WINDOW", "SUN", "MOON", "ASPECT", "SIGN", "PLANET_EVENT", "EXPIRY"],
+    "operators": {
+      "OPEN_DAY": {"arity": 2, "signature": "SUN_RISING x OBSERVATION -> ATMOSPHERIC_STATE"},
+      "OPEN_NIGHT": {"arity": 2, "signature": "SUN_SETTING x OBSERVATION -> ATMOSPHERIC_STATE"},
+      "EXTEND_UNTIL": {"arity": 2, "signature": "ATMOSPHERIC_STATE x ASPECT -> TIME_WINDOW"},
+      "UPDATE": {"arity": 2, "signature": "TIME_WINDOW x OBSERVATION -> ATMOSPHERIC_STATE"},
+      "QUALIFY": {"arity": 2, "signature": "ATMOSPHERIC_STATE x PLANET_EVENT -> ATMOSPHERIC_STATE"},
+      "EXPIRE": {"arity": 1, "signature": "ASPECT -> EXPIRY"}
+    },
+    "scope_law": "SUN_RISING opens a day state and SUN_SETTING opens a night state. A Sun-Moon ASPECT attaches a duration bound to the currently open state; the state remains active until the next aspect, not merely until the next written clause. A new aspect updates or expires the previous state. New/full Moon observations and planetary/sign configurations are qualifiers of the relevant state window, not free independent states.",
+    "complete_source_trace": [
+      "OPEN_DAY(sun_rising,weather_observation); EXTEND_UNTIL(day_state,next_sun_moon_aspect); QUALIFY(day_state,sign_or_planet_configuration)",
+      "OPEN_NIGHT(sun_setting,weather_observation); EXTEND_UNTIL(night_state,next_sun_moon_aspect); UPDATE(atmospheric_state,new_aspect)",
+      "At a seasonal quarter, select the source-declared preceding new/full Moon branch, carry it to the relevant quarter, and then apply the configuration of Moon and planets; do not merge new-Moon and full-Moon paths",
+      "When the next aspect arrives, EXPIRE(old_state) and open the next state; a local cloud or sign observation does not by itself erase the carried duration"
+    ],
+    "worked_consequence": "If two observations occur between one Sun-Moon aspect and the next, both belong to the same carried atmospheric window unless the source declares a new opening. A nearest-clause rival creates two states and predicts two independent expiries; an immediate-reset rival expires the first state at the next written observation. The source constructor predicts one shared state with one aspect-bounded expiry.",
+    "rivals": [
+      {"id": "R_NEAREST_OBSERVATION", "difference": "Every later observation starts a new local state and loses the aspect-bounded duration."},
+      {"id": "R_FIXED_DAY_ONLY", "difference": "Day/night state lasts to a fixed clock boundary rather than the next aspect."},
+      {"id": "R_ALL_ASPECTS_SAME_SCOPE", "difference": "New/full Moon and Sun-Moon aspect branches are merged, erasing the source's separate timing paths."}
+    ],
+    "surface_composition_link": "A prospective writer would reuse SUN/MOON/ASPECT/STATE components across observations. A whole residual or entry context selects OPEN, QUALIFY, UPDATE or EXPIRE after typed arguments are present; the long-scope state reference is the semantic consequence, not an arbitrary whole-word alias.",
+    "smallest_discriminator": "On a future complete passage with two observations before a declared aspect boundary, freeze whether the second observation inherits the first state or opens a new one. The model and nearest-observation rival produce different state counts and expiry points without requiring fixed planet-name glosses.",
+    "strongest_failure": "Astrological weather prose may not resemble the target register, and no target independently marks aspect boundaries or state windows. Without such markers, state carry can be imposed on ordinary sequential text and has no selection force.",
+    "symmetries": ["renaming opaque state and aspect values", "global rotation of sign labels when only relational aspect is used", "equivalent day/night wording where source scope does not contrast them"]
+  },
+  "predecessors": [
+    {"id": "IDEA000126", "limit": "Astronomical arithmetic registers use numeric calculation and table operations; this card tests atmospheric state expiry and long-scope reference."},
+    {"id": "IDEA000133", "limit": "House-register programs encode conditional paragraphs; this card has no house-block or planet-house mapping."},
+    {"id": "IDEA000423", "limit": "Aristotle Physics uses regular versus incidental causation; this card instead has an explicit temporal state carried until a typed event boundary."},
+    {"id": "raw_vitruvius_clock_state_reference_20260920", "limit": "Vitruvius models a mechanical clock's physical state; this card does not reuse its wheel, water or day-mark fields."}
+  ],
+  "dependencies": [
+    "No target text, image, reserve, f84/f84r/f116v, decoder, experiment, route, ledger or root file was accessed or changed.",
+    "No astrology or weather meaning is assigned to any target form. This remains RAW_UNREVIEWED source mechanism supply.",
+    "The primary text's historical claims are represented as source content, not as modern atmospheric facts."
+  ]
+}

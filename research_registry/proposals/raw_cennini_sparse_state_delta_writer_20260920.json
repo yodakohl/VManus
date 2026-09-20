@@ -1,0 +1,65 @@
+{
+  "title": "Lossless sparse state-delta writer with preserved process fields",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A finite writer represents a complete process as guarded sparse changes to a shared typed state. It carries MODEL and FORM1 identities across Cennini's two fills, puts the status-conditioned water on the first mixture, and reconstructs every clause by field ownership rather than assigning one terminal to each whole form.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Cennino Cennini, Trattato della pittura / Libro dell'arte, CLXIII-CLXVI",
+    "packet": "research_registry/work_batches/ten_hours_20260915/CENNINI_PROCESS_PRODUCT_SOURCE_20260920.json",
+    "complete_account": "research_registry/work_batches/ten_hours_20260915/CENNINI_COMPLETE_FINITE_SOURCE_ACCOUNT_20260920.json",
+    "provenance": "The owned wording is the 1821 Tambroni edition; the work is witnessed by a Laurenziana copy dated 1437. The 1821 chapter headings are editorial and excluded from medieval exact-form evidence. This is source content, not a claimed Voynich Vorlage."
+  },
+  "design": {
+    "positive_basis": [
+      "GDT608 reports directed component order plus a whole-form residual; GDT282/286/318 retain entry-context effects.",
+      "Cennini has a written identity chain FORM1 -> refill -> outer-shell break -> EFFIGY and a status branch that changes the first mixture's water medium.",
+      "GDT569's action/argument carry is only a prior annotation result; this proposal makes field ownership, guards and inverse reconstruction explicit rather than inheriting its meanings."
+    ],
+    "state_schema": {
+      "MODEL": "persistent selected sitter identity",
+      "FORM1": "first hardened face form, preserved as a distinct object",
+      "FIRST_FILL": "first gypsum compound",
+      "FIRST_MEDIUM": "warm rose water for high status, otherwise warm fountain/well/river water",
+      "ENCLOSURE": "cloth/ring/face boundary",
+      "TOOLS": "tubes, cloth-cutting tools, saw, hammer, glass, bowl, bench",
+      "PHASE": "selected, prepared, poured, set, released, refilled, resting, broken, available",
+      "EFFIGY": "second representation released after breaking the outer first form",
+      "CAST_OPTION": "later metal choice, optional and unresolved in physical antecedent"
+    },
+    "records": [
+      "SET(field,value,guard)",
+      "REUSE(field,guard)",
+      "BRANCH(field,condition,value_a,value_b)",
+      "ADVANCE(phase,guard)",
+      "EMIT(result,guard)"
+    ],
+    "surface_contract": "A written group is a fixed ordered component sequence FIELD + OP + VALUE, with the whole-form residual closing the record type. FIELD and OP components are globally reused; VALUE is a typed value code, not a per-clause terminal. A record is rejected if its guard does not match the carried state, if a field is written twice without an explicit branch, or if any group is unconsumed.",
+    "inverse": "Scan groups left to right. Decode the shared FIELD and OP components, unify the VALUE with the declared field type, check the guard against the current state, apply the patch, and carry the resulting state. REUSE(FORM1) must resolve to the earlier FORM1 identity; it cannot create a new object. The inverse returns the unique patch list when all guards and types pass, otherwise failure with the first unbound field or guard.",
+    "worked_trace": [
+      {"source": "C02", "records": ["SET(MODEL,PERSON_YOUNG,UNSET)", "ADVANCE(PREPARED,MODEL_SET)"]},
+      {"source": "C11-C14", "records": ["SET(TOOLS,TUBES_PLACED,PREPARED)", "SET(FIRST_FILL,GYPSUM_COMPOUND,PREPARED)", "BRANCH(FIRST_MEDIUM,STATUS_HIGH,ROSE_WATER,ORDINARY_WARM_WATER)", "SET(FIRST_FILL,POURED_AROUND_FACE,FIRST_MEDIUM_SET)", "ADVANCE(SET,FIRST_FILL_POURED)"]},
+      {"source": "C16-C18", "records": ["SET(PHASE,RELEASED,SET)", "REUSE(FORM1,RELEASED)", "EMIT(FORM1_PRESERVED,FORM1_REUSED)"]},
+      {"source": "C19-C25", "records": ["REUSE(FORM1,PRESERVED)", "SET(TOOLS,CAVITY_OILED,FORM1_REUSED)", "SET(FIRST_FILL,SECOND_GYPSUM,FORM1_REUSED)", "SET(PHASE,REFILLED,SECOND_GYPSUM_SET)", "ADVANCE(RESTING,REFILLED)", "EMIT(EFFIGY,FORM1_REUSED_AND_SHELL_BROKEN)"]},
+      {"source": "C28-C29", "records": ["SET(CAST_OPTION,METAL_CHOICE,EFFIGY_EMITTED)", "EMIT(COMPETENT_FOUNDER_REQUIRED,CAST_OPTION_SET)"]}
+    ],
+    "observable_consequence": "Changing STATUS changes exactly FIRST_MEDIUM in the C11-C14 trace. It cannot change MODEL, FORM1, or EFFIGY. A reset-on-new-clause rival predicts a fresh form at C22 or loses the FORM1-to-EFFIGY identity chain; a universal-medium rival predicts no status-conditioned field change.",
+    "smallest_discriminator": "On any already-owned complete passage chosen later, compare two occurrences with the same reusable field/value components but different entry status. The writer predicts a single field change with all carried identities held constant. A reset or whole-alias rival changes the carried object or emits an unconstrained new terminal.",
+    "inverse_symmetries": [
+      "Consistent renaming of opaque field and value codes.",
+      "A permutation of equivalent ordinary-water values unless the source distinguishes spring, well and river in the selected scope.",
+      "Global reversal of a code's surface spelling is not allowed once component order is fixed."
+    ],
+    "strongest_failure": "No target writer follows from Cennini alone: target field boundaries, component-to-field bindings and any semantic value codes remain unknown. If complete exposed paragraphs require a field patch with no source-owned guard or if identical written components occur with incompatible field types, the model fails without adding a per-form exception."
+  },
+  "predecessors_and_limits": [
+    {"id": "IDEA000439", "limit": "Owns the Cennini source process but does not specify a lossless field-delta inverse; this card is a distinct writer hypothesis and leaves IDEA439 unchanged."},
+    {"id": "GDT569", "limit": "Action/argument carry was annotation-level and did not independently establish semantic fields; no old meanings are inherited."},
+    {"id": "GDT345", "limit": "Local formal deltas do not establish semantic carry; this proposal adds typed guards and identity continuity as a falsifiable contract."},
+    {"id": "HIST:8ffe6cd81cddd1f2", "limit": "The exact homography claim was withdrawn because the examples were 1821 editorial headings; no heading is used here."}
+  ],
+  "dependencies": [
+    "No target text, image, reserve, f84/f84r/f116v, decoder, experiment, route, ledger or root file was accessed or changed.",
+    "This is a RAW_UNREVIEWED exploratory writer; it makes no independent meaning claim and does not select Cennini as a Voynich source.",
+    "All source clauses remain available in the complete account; the state trace is a proposed abstraction, not native Cennini terminology."
+  ]
+}

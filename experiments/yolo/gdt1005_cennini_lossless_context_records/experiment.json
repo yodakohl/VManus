@@ -1,0 +1,155 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete all-bundle census and full source predictions preserve every tested candidate; large JSON files, if any, are needed to audit omitted-fit claims without resampling.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional source-record codes only; all meanings and source identity assumed, no independent meaning confirmation or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1005_cennini_lossless_context_records/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1005_cennini_lossless_context_records/src/validate.py"
+  },
+  "created": "2026-09-20",
+  "dependencies": [
+    "GDT345",
+    "GDT569",
+    "GDT928",
+    "GDT989",
+    "GDT1001",
+    "GDT1003",
+    "GDT1004"
+  ],
+  "experiment_id": "GDT1005",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "fixed_input",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/CENNINI_SOURCE_FACTS_20260920.json",
+      "role": "fixed_input",
+      "sha256": "6f598a6573e6ff5c7b433963cdb0ee31faca382a8f07cd79a89bfa7d0e1db0b2"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/build_cennini_source_facts_20260920.py",
+      "role": "fixed_input",
+      "sha256": "593b8efe762becb674365a9cd6a336e51c1dca81ea1f1faa8bb430af86389d06"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/CENNINI_PROCESS_PRODUCT_SOURCE_20260920.json",
+      "role": "fixed_input",
+      "sha256": "fec4fbf73be07c164e495e4bdefdcd528cd23e0e3a2071c787698999624241a5"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/CENNINI_DELTA_RECORD_DECISION_20260920.md",
+      "role": "fixed_input",
+      "sha256": "a4a28bf1b5fdee1f8d8dd3f1d55376c5962b758511ae4913b5f45c42ffd193d5"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/CENNINI_SOURCE_FACTS_AUDIT_20260920.md",
+      "role": "fixed_input",
+      "sha256": "a4a5b5562e98449ad520a3d99f0be0453a1a6b0f012f4712c3b5b4380ada7313"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/DECISION.md",
+      "role": "source_or_artifact",
+      "sha256": "a4a28bf1b5fdee1f8d8dd3f1d55376c5962b758511ae4913b5f45c42ffd193d5"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "3ec0460cdc6836fbb00f64e530fb6ff2f969ebe182d5e3310f62851d7d0c733e"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "12fb214952c51f893c4d08ecd1ca0abe3bb0e186ea528b93137bd7d5af390eae"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "50bcc9efb45cfa319fc2871cbd3541e0692b734788a76b177337859623a0c285"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/README.md",
+      "role": "source_or_artifact",
+      "sha256": "8f4d3ee0df051380fbde2297713c11e1f240f89926e478df13471f6ec534c840"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/artifacts/PREDICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "d60770fed4e726ceefe0b8b3d1bf55147b1fd0e2e759013efe805dafcead5cc1"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/artifacts/PREFLIGHT.json",
+      "role": "source_or_artifact",
+      "sha256": "55b40ef9ae86fa1d87b2f3ab15ff954da9e9b88625b50a89bb5aa58654033c67"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "384c14c21d454be0c1754899e7c864917033cca337b28628cc5ed3d0301d9a54"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "59f791e0c246b24a99380b422de79bf5ad5ea91af8d7e033126629412926b748"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/src/finite.py",
+      "role": "source_or_artifact",
+      "sha256": "cb6f2778f139d9a16b76c4c98654dba438dacf32b0fca73e7542554f3f592090"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/src/independent.py",
+      "role": "source_or_artifact",
+      "sha256": "28f0f79ffc17c22ff67137e19bb4a2260f57bb6b2ce1297b42bbb878f27d683b"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/src/preflight.py",
+      "role": "source_or_artifact",
+      "sha256": "12680da8c0259e57a09bae6c3ed75cf5b91dbd90d95f7632e0b9a75355b55e78"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/src/records.py",
+      "role": "source_or_artifact",
+      "sha256": "29be745e53a9ae46c7a405ac48e5d2f379fcdcba966cf8ffd7256c5ec22095b8"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/src/reverse.py",
+      "role": "source_or_artifact",
+      "sha256": "3b4bb0d5faf6ab2c32f54102c12871108168eba0ab084cb89833f9a4976a4f70"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "bc4e0ba59ab12b9e9ff2c15b3d3bbda626d96d8fbabb49f2dc6f287172ee3eee"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "06ac23257617582dab06b1533686f0ac5efc22d76a0fee8ba4100e0c53771437"
+    }
+  ],
+  "question": "Does a complete fixed Cennini content account admit a globally shared reversible full/delta field code on any whole admitted1\u20134paragraph bundle?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "cennini_lossless_context_records",
+  "status": "REGISTERED_UNSCORED",
+  "title": "cennini lossless context records",
+  "updated": "2026-09-20",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

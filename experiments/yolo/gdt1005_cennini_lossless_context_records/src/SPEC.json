@@ -1,0 +1,49 @@
+{
+  "input": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "source_facts": "research_registry/work_batches/ten_hours_20260915/CENNINI_SOURCE_FACTS_20260920.json",
+  "source_builder": "research_registry/work_batches/ten_hours_20260915/build_cennini_source_facts_20260920.py",
+  "source_primary": "research_registry/work_batches/ten_hours_20260915/CENNINI_PROCESS_PRODUCT_SOURCE_20260920.json",
+  "source_decision": "research_registry/work_batches/ten_hours_20260915/CENNINI_DELTA_RECORD_DECISION_20260920.md",
+  "fields": [
+    "scope",
+    "modality",
+    "subject",
+    "predicate",
+    "object"
+  ],
+  "writers": [
+    "FULL",
+    "DELTA"
+  ],
+  "bundle_sizes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "records_per_word": [
+    1,
+    2
+  ],
+  "field_orders": "ALL_120_PERMUTATIONS",
+  "within_value_namespace": "nonempty_global_prefix_free",
+  "within_mask_namespace": "nonempty_prefix_free",
+  "between_namespaces": "overlap_allowed",
+  "context_reset": "ONCE_BEFORE_COMPLETE_SOURCE_ONLY",
+  "literal_pattern": "[a-z]+",
+  "workers": 32,
+  "seconds_per_bundle": 5,
+  "max_nodes_per_order": 50000,
+  "max_total_nodes_per_bundle": 500000,
+  "max_solutions": 2,
+  "independent_seconds_per_bundle": 5,
+  "independent_max_total_nodes": 500000,
+  "max_exact_jobs": 256,
+  "job_order": "sha256(edition,page,paragraph_ids,writer)",
+  "inclusive_checkpoint_utc": "2026-09-20T20:50:00Z",
+  "confirmed_words": 0,
+  "independent_meaning_capacity": 0,
+  "significance": false,
+  "gap_policy": "UNKNOWN_GAP_IF_BETWEEN_PARAGRAPH_LOCI_NONCONSECUTIVE",
+  "outer_seconds_per_job": 15
+}

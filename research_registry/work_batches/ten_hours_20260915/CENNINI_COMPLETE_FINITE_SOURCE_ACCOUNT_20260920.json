@@ -1,0 +1,173 @@
+{
+  "schema": "cennini_complete_finite_source_account.v1",
+  "status": "SOURCE_ONLY_AUDITED_RAW_UNREVIEWED_NO_TARGET_WRITER",
+  "source": {
+    "work": "Cennino Cennini, Trattato della pittura / Libro dell'arte, continuous chapters CLXIII-CLXVI",
+    "owned_span": "Tambroni 1821 printed pages 147-151, PDF pages 203-207; CLXIII opening through CLXVI final requirement for competent melting/casting masters.",
+    "packet": "research_registry/work_batches/ten_hours_20260915/CENNINI_PROCESS_PRODUCT_SOURCE_20260920.json",
+    "pdf_url": "https://archive.org/download/dicenninocennini00cenn/dicenninocennini00cenn.pdf",
+    "pdf_sha256": "5404f9767fcc5651484c5752f2b819bfa2663f7f5ea0176e0c32a6991a0f95c3",
+    "provenance": {
+      "owned_wording": "Giuseppe Tambroni, Rome 1821 printed edition; all four continuous chapters are retained.",
+      "medieval_witness": "Laurenziana Plut.78.23, copied 1437, as documented by the packet and its Milanesi/Ricotta dating notes.",
+      "pre1420_status": "Not established. The selected witness is later than 1420; the packet supports a pre-1450 work attribution more strongly than a pre-1420 witness or every medieval spelling.",
+      "heading_status": "All four chapter headings were supplied editorially after the manuscript stopped supplying headings; they are excluded from medieval source ownership and are not used as exact-form evidence.",
+      "witness_limit": "Two locator images of BML Plut.78.23 ff.80r/81r were viewed but did not locate the selected passage; no direct diplomatic collation of the 1437 folios is claimed."
+    }
+  },
+  "epistemic_separation": {
+    "explicit_source": [
+      "The text instructs, asks, conditions, references, preserves, breaks, names results, and lists possible metals.",
+      "The source explicitly says warm rose water is for a high-status model and warm fountain, well, or river water suffices for other people.",
+      "The source explicitly calls the outer shell the first form and says the nose and other parts of the new representation must not break.",
+      "The source gives practical reasons or purposes for speed, consistency, avoiding bubbles, avoiding failure, and preserving the result."
+    ],
+    "analytical_inference": [
+      "FORM1 as a hardened negative mold, CAST2 as the later solid likeness, and SHELL versus EFFIGY polarity are typed identities inferred from order and survival, not native technical labels.",
+      "Material reuse of the earlier method does not prove physical reuse of GYPSUM1; the second preparation is kept as GYPSUM2.",
+      "The model's face and the later effigy are linked as representation, but they are not the same physical object.",
+      "The chapter heading's breathing interpretation is not imported as a main-text causal claim; the main text only owns the tubes, their construction, placement, and handling."
+    ],
+    "unresolved": [
+      "The difficult clause about the model rising and holding the confection has both transmitted and editorially conjectured readings; neither is silently selected.",
+      "The phrase after breaking the first form that says 'after you have the first' does not uniquely identify a physical antecedent for every later metal casting.",
+      "Exact dimensions and consistency instructions are retained as source constraints, not converted into target quantities or modern engineering equations.",
+      "The source says an optional brick-powder addition is better, but supplies no measured causal comparison."
+    ]
+  },
+  "actors": [
+    {"id": "INSTRUCTOR", "source_role": "speaker giving the practical instructions"},
+    {"id": "MODEL", "source_role": "man, woman, young person, or old person whose face is imprinted"},
+    {"id": "ASSISTANT", "source_role": "companion holding the toothed iron ring clear of the face"},
+    {"id": "GOLDSMITH", "source_role": "orafo who makes the two breathing tubes"},
+    {"id": "FOUNDER_MASTERS", "source_role": "competent makers who understand melting and casting"},
+    {"id": "MODEL_SELF", "source_role": "the model holds the tubes by hand in the later step"}
+  ],
+  "objects_and_materials": [
+    {"id": "FACE", "kind": "body_region", "owner": "MODEL"},
+    {"id": "BEARD_HAIR", "kind": "appearance_constraint", "owner": "MODEL"},
+    {"id": "ROSE_OIL", "kind": "material", "property": "scented"},
+    {"id": "VAYO_BRUSH", "kind": "tool", "property": "coarse squirrel-hair brush"},
+    {"id": "CAP", "kind": "cover", "alternatives": ["beretta", "cappuccio"]},
+    {"id": "CLOTH", "kind": "boundary_material", "properties": ["one-span wide", "shoulder-length"]},
+    {"id": "COTTON", "kind": "protective_material", "location": "ear openings"},
+    {"id": "RING", "kind": "boundary_frame", "material": "iron", "properties": ["one-or-two-finger width", "saw-like teeth", "two-or-three-finger clearance beyond face"]},
+    {"id": "TUBES", "kind": "paired_apparatus", "materials": ["brass", "silver"], "properties": ["light", "trumpet-shaped", "perforated", "joined below"]},
+    {"id": "GYPSUM1", "kind": "first_wet_compound", "alternatives": ["Bolognese", "Volterran"], "properties": ["cooked", "fresh", "sifted"]},
+    {"id": "WATER1", "kind": "first_medium", "property": "warm"},
+    {"id": "FORM1", "kind": "first_preserved_form", "analytical_polarity": "negative_mold_inferred"},
+    {"id": "BAND2", "kind": "second_boundary", "property": "baby swaddling band extending beyond form edge"},
+    {"id": "OIL2", "kind": "cavity_release_medium", "source_value": "any oil"},
+    {"id": "GYPSUM2", "kind": "second_wet_compound", "optional_additive": "crushed brick powder"},
+    {"id": "WATER2", "kind": "status_conditioned_medium", "alternatives": ["warm rose water", "warm fountain water", "warm well water", "warm river water"]},
+    {"id": "GLASS", "kind": "pouring_vessel"},
+    {"id": "BOWL", "kind": "handling_vessel"},
+    {"id": "BENCH", "kind": "support_surface"},
+    {"id": "SHELL1", "kind": "outer_scored_shell", "reference": "first form"},
+    {"id": "EFFIGY", "kind": "result_representation", "source_names": ["effigia", "filosomia", "impronta"]},
+    {"id": "METAL_CAST", "kind": "optional_later_representation", "alternatives": ["copper", "metal", "bronze", "gold", "silver", "lead", "any desired metal"]},
+    {"id": "TOOLS_RELEASE", "kind": "cutting_tools", "alternatives": ["temperatojo", "knife", "scissors"]},
+    {"id": "HAMMER", "kind": "breaking_tool"},
+    {"id": "SAW", "kind": "optional_preweakening_tool"}
+  ],
+  "states": [
+    "UNSELECTED_ART_OF_IMPRINTING",
+    "MODEL_SELECTED",
+    "FACE_PREPARED",
+    "CLOTH_AND_RING_ENCLOSURE_READY",
+    "TUBES_READY",
+    "MODEL_BREATHING_ASSEMBLY_PLACED",
+    "GYPSUM1_WET",
+    "MASK1_SET",
+    "FORM1_PRESERVED",
+    "FORM1_OILED_AND_BANDED",
+    "GYPSUM2_WET",
+    "FORM1_FILLED_AND_RESTING",
+    "SHELL1_BROKEN",
+    "EFFIGY_AVAILABLE",
+    "OPTIONAL_METAL_CAST_AVAILABLE"
+  ],
+  "operators": [
+    {"id": "ANNOUNCE", "arity": 1, "source_result": "imprinting is introduced as a useful likeness practice"},
+    {"id": "SELECT_MODEL", "arity": 2, "source_result": "MODEL with age/sex/condition choice"},
+    {"id": "PREPARE_FACE", "arity": 4, "source_result": "FACE oiled, covered, and beard condition addressed"},
+    {"id": "SEW_CLOTH_BOUNDARY", "arity": 5, "source_result": "CLOTH routed around CAP, ears protected, seam returned to its head"},
+    {"id": "SET_RING", "arity": 3, "source_result": "ASSISTANT holds RING outside FACE with stated clearance"},
+    {"id": "MAKE_TUBES", "arity": 3, "source_result": "GOLDSMITH produces paired TUBES with nostril fit, perforations and lower join"},
+    {"id": "PLACE_TUBES", "arity": 3, "source_result": "MODEL lies back, inserts TUBES and holds them"},
+    {"id": "MIX", "arity": 4, "source_result": "wet compound with stated material, medium, speed and consistency constraints"},
+    {"id": "POUR_AROUND_FACE", "arity": 5, "source_result": "compound fills the enclosure around FACE; eyes covered last"},
+    {"id": "SET_AND_REST", "arity": 2, "source_result": "compound becomes set enough for release or later fill"},
+    {"id": "MEDIUM_BY_STATUS", "arity": 2, "source_result": "ROSE_WATER for high-status MODEL, otherwise one warm ordinary-water alternative"},
+    {"id": "RELEASE_AND_PRESERVE", "arity": 5, "source_result": "CLOTH and TUBES removed; FACE released; FORM1 put away and preserved"},
+    {"id": "BAND_AND_OIL_CAVITY", "arity": 3, "source_result": "BAND2 surrounds FORM1 and OIL2 treats its cavity"},
+    {"id": "REFILL", "arity": 5, "source_result": "GYPSUM2 enters FORM1 using GLASS/BOWL on BENCH"},
+    {"id": "TAP_TO_DISTRIBUTE", "arity": 3, "source_result": "bench tapping is prescribed to make fill reach all places and avoid bubbles"},
+    {"id": "BREAK_SHELL", "arity": 4, "source_result": "SHELL1/first form is broken while nose and other new representation are preserved"},
+    {"id": "REPORT_EFFIGY", "arity": 2, "source_result": "EFFIGY is the result named by the source"},
+    {"id": "OPTIONAL_CAST", "arity": 3, "source_result": "EFFIGY may be cast in listed metals by competent masters"}
+  ],
+  "complete_clause_ownership": [
+    {"id": "C01", "chapter": "CLXIII", "kind": "announcement", "nodes": ["ANNOUNCE", "IMPRINTING"], "content": "The earlier coloring discussion is declared sufficient and a useful natural-likeness practice called imprinting is introduced.", "actuality": "instructional discourse, not a report of an executed event"},
+    {"id": "C02", "chapter": "CLXIV", "kind": "selection_and_condition", "nodes": ["SELECT_MODEL", "MODEL", "BEARD_HAIR"], "content": "Choose a man's or woman's face and a young, woman, or old model; beard/hair is difficult and the beard is to be shaved.", "condition": "model class", "result": "MODEL_SELECTED"},
+    {"id": "C03", "chapter": "CLXIV", "kind": "preparation", "nodes": ["PREPARE_FACE", "ROSE_OIL", "VAYO_BRUSH", "CAP"], "content": "Oil the face with scented rose oil using the coarse brush and place a cap/beretta/cappuccio.", "result": "FACE_PREPARED"},
+    {"id": "C04", "chapter": "CLXIV", "kind": "boundary_preparation", "nodes": ["SEW_CLOTH_BOUNDARY", "CLOTH", "CAP"], "content": "Prepare a shoulder-length, one-span cloth and sew it around the cap from ear to ear.", "result": "CLOTH_BOUNDARY_STARTED"},
+    {"id": "C05", "chapter": "CLXIV", "kind": "reference_and_routing", "nodes": ["COTTON", "CLOTH"], "content": "Put cotton in both ear openings, route and sew the cloth at collar, shoulders and front buttons, and return to the cloth head.", "reference": "the said cloth", "result": "CLOTH_BOUNDARY_CLOSED"},
+    {"id": "C06", "chapter": "CLXIV", "kind": "orientation_and_frame", "nodes": ["MODEL", "RING", "TUBES"], "content": "Turn the model onto a carpet/table/board and prepare a toothed iron ring with the stated relative dimensions.", "result": "FRAME_READY"},
+    {"id": "C07", "chapter": "CLXIV", "kind": "actor_binding", "nodes": ["ASSISTANT", "RING", "CLOTH", "FACE"], "content": "The companion holds the ring clear; the free cloth edge is fixed to its teeth, leaving the stated face clearance for the expected paste imprint.", "condition": "clearance chosen according to desired imprint", "result": "ENCLOSURE_READY"},
+    {"id": "C08", "chapter": "CLXIV", "kind": "prospective_pour", "nodes": ["GYPSUM1", "ENCLOSURE"], "content": "The prepared enclosure is where the paste is to be poured.", "actuality": "prospective instruction; no material quantity is specified", "result": "READY_FOR_FIRST_FILL"},
+    {"id": "C09", "chapter": "CLXV", "kind": "fabrication", "nodes": ["GOLDSMITH", "TUBES"], "content": "Have a goldsmith make two light brass or silver tubes, trumpet-shaped, with stated approximate length and thickness.", "result": "TUBES_READY"},
+    {"id": "C10", "chapter": "CLXV", "kind": "fit_and_safety", "nodes": ["TUBES", "FACE"], "content": "Shape lower ends to fit the nostrils without opening the nose; perforate the upper halves and join the tubes below while respecting the space between nostrils.", "result": "BREATHING_ASSEMBLY_READY"},
+    {"id": "C11", "chapter": "CLXVI", "kind": "placement", "nodes": ["MODEL", "TUBES", "MODEL_SELF"], "content": "The model lies back, places the tubes in the nostrils and holds them by hand.", "result": "MODEL_BREATHING_ASSEMBLY_PLACED"},
+    {"id": "C12", "chapter": "CLXVI", "kind": "material_preparation", "nodes": ["GYPSUM1", "WATER1", "BASIN"], "content": "Use cooked, fresh, sifted Bolognese or Volterran gypsum with warm water in a basin; mix quickly because it sets quickly and keep it neither too fluid nor too stiff.", "stated_reason": "rapid setting", "result": "GYPSUM1_WET"},
+    {"id": "C13", "chapter": "CLXVI", "kind": "pour_and_body_state", "nodes": ["GLASS", "GYPSUM1", "FORM1", "FACE"], "content": "Pour the compound evenly around the face, cover the eyes last, and have mouth and eyes closed naturally rather than by force.", "result": "FIRST_FILL_COMPLETE"},
+    {"id": "C14", "chapter": "CLXVI", "kind": "fill_level_and_rest", "nodes": ["GYPSUM1", "FACE"], "content": "Fill the space to one finger above the nose and let it rest until sufficiently set.", "result": "MASK1_SET"},
+    {"id": "C15", "chapter": "CLXVI", "kind": "conditional_medium", "nodes": ["MODEL", "MEDIUM_BY_STATUS", "WATER2"], "content": "For a high-status person such as lord, king, pope or emperor use warm rose water; for other people warm fountain, well or river water is enough.", "condition": "social status of MODEL", "result": "STATUS_CONDITIONED_MIX"},
+    {"id": "C16", "chapter": "CLXVI", "kind": "release_tools", "nodes": ["TOOLS_RELEASE", "CLOTH", "TUBES"], "content": "After drying, cut away the sewn cloth with a temperatojo, knife or scissors and gently remove the tubes.", "result": "BOUNDARY_REMOVED"},
+    {"id": "C17", "chapter": "CLXVI", "kind": "ambiguous_release", "nodes": ["MODEL", "GYPSUM1", "FORM1", "FACE"], "content": "The model is instructed to rise or stand under a difficult transmitted clause, holding the compound or being held by it, and the face is gently freed from the mask/form.", "uncertainty": "transmitted and editorially conjectured posture/hand readings both retained", "result": "FACE_RELEASED"},
+    {"id": "C18", "chapter": "CLXVI", "kind": "preservation", "nodes": ["FORM1"], "content": "Put away and carefully preserve the first mask/form.", "reference": "the form just used", "result": "FORM1_PRESERVED"},
+    {"id": "C19", "chapter": "CLXVI", "kind": "new_boundary", "nodes": ["FORM1", "BAND2"], "content": "Surround the same form with a baby band extending two fingers beyond its edge.", "reference": "this same form", "result": "FORM1_BANDED"},
+    {"id": "C20", "chapter": "CLXVI", "kind": "cavity_preparation", "nodes": ["OIL2", "FORM1"], "content": "Oil the cavity carefully with any chosen oil so the work does not fail.", "stated_purpose": "avoid failure; no stronger physical mechanism asserted", "result": "FORM1_RELEASE_PREPARED"},
+    {"id": "C21", "chapter": "CLXVI", "kind": "second_material_preparation", "nodes": ["GYPSUM2"], "content": "Prepare more gypsum by the earlier method; optionally mix in crushed brick powder, which the source says is better.", "reference": "the aforesaid method and gypsum", "result": "GYPSUM2_WET"},
+    {"id": "C22", "chapter": "CLXVI", "kind": "refill", "nodes": ["GLASS", "BOWL", "GYPSUM2", "FORM1", "BENCH"], "content": "Take the second gypsum with glass and bowl, put it over the form, and hold the form on a bench.", "reference": "the said form", "result": "FORM1_REFILL_STARTED"},
+    {"id": "C23", "chapter": "CLXVI", "kind": "distribution", "nodes": ["BENCH", "GYPSUM2", "FORM1"], "content": "Tap the bench gently with the other hand so the gypsum enters every place like wax in a seal and makes no bubbles or blisters.", "stated_purpose": "uniform entry and absence of bubbles/blisters", "result": "FORM1_FILLED_UNIFORMLY"},
+    {"id": "C24", "chapter": "CLXVI", "kind": "rest_condition", "nodes": ["FORM1", "GYPSUM2"], "content": "After filling, let the form rest half a day, or at most a day.", "condition": "rest duration alternative", "result": "SECOND_FILL_SET"},
+    {"id": "C25", "chapter": "CLXVI", "kind": "destructive_release", "nodes": ["HAMMER", "SHELL1", "FORM1", "EFFIGY"], "content": "Tap and break the outer crust, explicitly the first form, while ensuring that neither the nose nor anything else is broken.", "result": "SHELL1_BROKEN_EFFIGY_PRESERVED"},
+    {"id": "C26", "chapter": "CLXVI", "kind": "conditional_preweakening", "nodes": ["SAW", "SHELL1"], "content": "If the form proves weak or difficult to break, before filling saw the outside in several places but never through it; then a small hammer blow can break it.", "condition": "form difficult to break", "result": "WEAKENED_SHELL_SAFE_BREAK"},
+    {"id": "C27", "chapter": "CLXVI", "kind": "result_naming", "nodes": ["EFFIGY", "MODEL"], "content": "The result is the model's effigy, likeness, or imprint; the source then refers to a great lord as the example of the result.", "result": "EFFIGY_AVAILABLE", "reference": "the model represented by the effigy"},
+    {"id": "C28", "chapter": "CLXVI", "kind": "optional_downstream_process", "nodes": ["EFFIGY", "METAL_CAST", "FORM1"], "content": "After the first form, the said imprint may be cast in copper, metal, bronze, gold, silver, lead, or any desired metal.", "uncertainty": "the exact physical antecedent of 'this form/first form' in the metal-casting possibility is unresolved", "result": "OPTIONAL_METAL_CAST_AVAILABLE"},
+    {"id": "C29", "chapter": "CLXVI", "kind": "actor_requirement", "nodes": ["FOUNDER_MASTERS", "METAL_CAST"], "content": "Competent masters who understand melting and casting are required; the text does not give a full foundry procedure.", "result": "CASTING_CAPABILITY_REQUIRED"}
+  ],
+  "references": [
+    {"written_reference": "detta benda/pezza", "target": "CLOTH", "scope": "CLXIV routing"},
+    {"written_reference": "questo cerchio", "target": "RING", "scope": "CLXIV assistant-held frame"},
+    {"written_reference": "queste cannelle", "target": "TUBES", "scope": "CLXVI placement"},
+    {"written_reference": "questa tale forma / detta forma / la prima forma", "target": "FORM1", "scope": "CLXVI preservation, refill and break; exact later metal antecedent remains open"},
+    {"written_reference": "per lo sopraddetto modo / sopraddetto gesso", "target": "earlier preparation method and gypsum class", "scope": "method recurrence without physical-portion identity"},
+    {"written_reference": "questa tal impronta / la detta impronta", "target": "EFFIGY or representation product", "scope": "CLXVI result and optional metal casting"}
+  ],
+  "context_sensitive_writer_contract": {
+    "shared_form_relations": [
+      "A repeated source-form family equivalent to IMPRINT must be typed by grammatical context: operation on FACE, prospective product, final EFFIGY, or representation used for later CAST.",
+      "A repeated FORM reference must preserve FORM1 through preservation, banding, cavity oiling and refill; it cannot silently become GYPSUM2 or EFFIGY.",
+      "The source's earlier-method recurrence predicts reuse of an operation schema, while distinct material identity predicts that GYPSUM2 is a new preparation.",
+      "A status context must select the WATER2 branch without changing MODEL, FORM1, or EFFIGY identity.",
+      "The residual/context pair must distinguish the optional pre-fill SAW condition from the later HAMMER break; strict surface order alone cannot move C26 before C22 without the written condition."
+    ],
+    "no_arbitrary_terminal_rule": "No new terminal per full word is permitted. The writer would assign only a finite typed role to a reusable component/frame and use whole residual plus entry context to select the already declared operator. Any group that cannot supply an actor, object, condition or result remains an unknown, not a new terminal alias.",
+    "observable_consequence": "A complete repeated process frame must preserve the relation FORM1 -> GYPSUM2 refill -> SHELL1 break -> EFFIGY, while a status-conditioned medium changes only WATER2. A universal-medium or form-fusion rival predicts a different identity/branch trace.",
+    "symmetries": ["renaming MODEL and material variables", "global transposition of any hypothetical target code", "unresolved modern duration/quantity or exact metal process"],
+    "target_binding_debt": "No target passage, word, component, paragraph boundary, or language is bound. Formal GDT608 composition evidence motivates this contract but does not establish any Cennini role in the manuscript."
+  },
+  "rivals": [
+    {"id": "R_UNIVERSAL_ROSE_WATER", "difference": "Uses rose water for all models, erasing the source's explicit status condition."},
+    {"id": "R_FORM_FUSION", "difference": "Treats first form, second fill, shell and effigy as one physical identity, contradicting preservation and destructive release."},
+    {"id": "R_STRICT_NARRATED_ORDER", "difference": "Does not allow the explicit before-filling saw condition to scope over later filling; it loses C26's conditional timing."}
+  ],
+  "limitations": [
+    "The 1821 edition is later than the desired pre-1420 threshold; no pre-1420 witness is supplied.",
+    "The headings are editorial and cannot be used as medieval exact-form evidence.",
+    "The body text is practical instruction, but the constructor's negative/positive polarity and causal mechanics are analytical abstractions.",
+    "No source equivalence to a Voynich target or writing system is asserted, and no target data were opened."
+  ]
+}
