@@ -200,3 +200,9 @@ This is still a writing-consequence test, not new historical evidence for the
 Tabula. All targets were exposed. Zero independent meaning capacity and confirmed
 words; no reserve or new admission. Source uncertainty and possible inverse
 ambiguity stay as declared in990. No GDT388-scored relation or significance claim.
+
+## GDT991 observed closure,06:08UTC
+
+Public registration b74970689 preceded the05:48:03.974507target start. All1980primary jobs finished in201.741seconds; all1407reverse checks were retained by06:01:29.171848, within the shared15-minute cap. Primary reports1407exhaustions/573limits; reverse corroborates108 and limits on1299. Final conservative accounting retains1872/1980open(94.545%), so the registered90%stop applies. Zero pattern witnesses, original fullcodes, translated words or independent meaning capacity. No algorithm/frame/source expansion is selected. All32376original rows, inherited11316contradictions and19080source unknowns remain explicit. See GDT991 REPORT and full candidate table. The separate saved-table audit passes without new matching. The motivating IT f75v.38–42 minimum-length contradiction is inherited990evidence, not a new991selection.
+
+The next decision must concern a genuinely different whole-content construction, not another projection of this source. Unknown computation is not a source-family refutation. Reserved pages remain closed; the user's active minimum block still runs until09:05:26UTC.

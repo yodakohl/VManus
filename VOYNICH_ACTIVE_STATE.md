@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-GDT991 REGISTERED: all1980open990cases receive complete role-form pattern checks;all32376rows retained.24source signatures,5100small/24whole controls PASS. Shared15-minute target/reverse cap;90percent unresolved stop. No target fit yet;original990bytes/status unchanged;0words/independent/reserves. [Decision](experiments/yolo/gdt991_smaragdina_complete_form_pattern/DECISION.md).
+GDT991 PATTERN STOP: all1980open cases tested;1407primary exhaustions/573limits. Reverse corroborates108, limits on1299;1872open(94.545%) triggers90percent stop. All32376rows retained,0pattern/fullcode witnesses/words/independent;no third algorithm or source/frame repair. Original990interruption unchanged. [Report](experiments/yolo/gdt991_smaragdina_complete_form_pattern/REPORT.md).
 
 GDT990 INTERRUPTED: exit143 before solver case files; cause unknown. Complete32376-row deterministic recovery independently agrees:11316necessary contradictions,19080source unknown,1980full equations unretained/unresolved. Last console checkpoint96jobs, no case/status inventory inferred. Sixbranches/fourwriters parked without retry;0retained witnesses/words/independent. Original public lock unchanged;no reserve. [Report](experiments/yolo/gdt990_smaragdina_complete_role_frames/REPORT.md).
 

@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Test the complete Tabula root/slot equality pattern on all1980open cases.
-Latest decision: GDT991 source/control preflight PASS;no new target match yet.
-Working files: experiments/yolo/gdt991_smaragdina_complete_form_pattern/DECISION.md
-Assumptions: Original990source/frames unchanged;pattern positives need full factoring.
-Resume: Publish991registration, execute once, reverse-check negatives;close by06:24UTC.
-Running: No target process yet;RAW supply;earliest end09:05:26UTC.
+Task: Select a different complete-content construction after991stop.
+Latest decision: GDT991108corroborated contradictions;1872open(94.545%);0codes.
+Working files: experiments/yolo/gdt991_smaragdina_complete_form_pattern/REPORT.md
+Assumptions: Conditional process roles unconfirmed;no source/frame or solver repair.
+Resume: Publish991closure;review a distinct whole-content reading and its inverse.
+Running: Bounded RAW producer;no matcher;earliest user end09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
