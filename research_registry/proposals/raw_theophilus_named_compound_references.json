@@ -1,0 +1,176 @@
+{
+  "title": "Theophilus named compound colors with explicit nonnearest recipe reference and layer roles",
+  "summary": "RAW_UNREVIEWED. Complete contiguous Theophilus I.1–9 defines named compound paints and explicitly resumes posc after intervening mixtures. Added ingredients and earlier/later paint layers constrain the reused reference; recipe identity, physical portion and deposited layer remain distinct. No Voynich writer or gloss.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "created_utc": "2026-09-20",
+    "scope_limit": "One source mechanism and a complete connected historical section only. No target hypothesis, fixed test, decoder, reserve, new manuscript admission, refresh or commit.",
+    "source_evidence": {
+      "path": "research_registry/work_batches/ten_hours_20260915/THEOPHILUS_NAMED_MIXTURE_REFERENCE_SUPPLY_20260920.md",
+      "line": 8,
+      "quote": "## Result and exact ownership",
+      "sha256": "0b24d47db8ee55b3e30c77b7b678d5c890e67b72eda3b5011e34c002b6c88f2c"
+    },
+    "full_source_inventory": {
+      "path": "research_registry/work_batches/ten_hours_20260915/THEOPHILUS_I1_I9_SOURCE_CONTENT.json",
+      "sha256": "1b65a924686633322bc7be73fa8723d97a04174361b062ae892502c28fe248bb",
+      "coverage": "Complete Latin of chapters I–IX, every ingredient/qualification/carrier/application/reference and source uncertainty; no omitted intervening chapter."
+    },
+    "source": {
+      "author": "Theophilus Presbyter",
+      "work": "De diversis artibus",
+      "scope": "Liber I, chapters I–IX inclusive",
+      "date": "Early twelfth-century work; early medieval witnesses conventionally dated approximately 1130. Exact bounded wording follows Hendrie1847 rather than a newly collated medieval folio.",
+      "edition": "Robert Hendrie,1847",
+      "printed_pages": [
+        "[2]",
+        "4",
+        "6",
+        "8 (chapter IX only)"
+      ],
+      "pdf_pages": [
+        68,
+        70,
+        72,
+        74
+      ],
+      "pdf_url": "https://archive.org/download/theophiliquietru00theouoft/theophiliquietru00theouoft.pdf",
+      "pdf_sha256": "5291887ed692c5ebf2d7469b416b7b187b9fdb0e2b759dcd8412be6d455fbe55",
+      "chapter_index": "https://www.tha.de/~harsch/Chronologia/Lspost12/Theophilus/the_0000.html",
+      "native_status": "All four relevant printed pages viewed natively and collated with the university HTML; three medieval witness-page images also viewed, but they show the prologue/later chapters rather than I–IX. No direct medieval I–IX diplomatic collation claimed.",
+      "image_relation": "Instructions specify painted faces, eyes, hands, feet and detailed application regions. No complete surviving painting is claimed as this section's owned drawn endpoint."
+    },
+    "target": {
+      "owner": null,
+      "status": "NO_TARGET_NOMINATION_NO_GLOSS",
+      "writer": "UNBOUND"
+    },
+    "attested_writing_mechanism": [
+      "Introduce a named preparation by actually describing its ingredients and making it: membrina, posc, rosa, lumina and veneda.",
+      "Resume a specified earlier preparation by name and explicit backward wording: posc, de quo supra dictum est. It is not the last introduced mixture.",
+      "Use simple membrina after derived mixtures, then add stated ingredients to define further named colors.",
+      "Use a named color in different argument roles: cum rosa as input paint and super rosam as an applied color layer. The form difference is ordinary source-language case, not an invented target encoding.",
+      "Refer to earlier material/application states with anterior, anterioris coloris and super priorem, while preserving their local interpretive limits."
+    ],
+    "coupled_content": [
+      {
+        "source": "I.1 + I.3 + I.7",
+        "whole_claim": "Membrina is defined and applied; prasinum, red from ochre and a little cenobrium make posc; the explicitly resumed posc receives additional prasinum/red to become a shadow of the earlier color.",
+        "consequence": "The modified preparation inherits the earlier recipe rather than beginning from the immediately preceding veneda. Its exact amounts and initial complexion variant remain unspecified."
+      },
+      {
+        "source": "I.1 + I.4 + I.8",
+        "whole_claim": "Simple membrina with cenobrium/minium makes rosa; later cenobrium is mixed with rosa and applied over prior rosa, leaving earlier color visible above and below.",
+        "consequence": "Both recipe lineage and an earlier/later layer relation must be represented. The input paint and deposited layer are related but not one physical portion."
+      },
+      {
+        "source": "I.1 + I.5 + I.9",
+        "whole_claim": "Simple membrina with ground cerosa makes lumina; only if the dark face needs more highlighting is additional white added and fine strokes placed over the earlier highlight.",
+        "consequence": "A mandatory unconditional second stage would erase a written condition; a latest-mixture rule would resume rosa instead of the named highlight family."
+      },
+      {
+        "source": "I.2 + I.6",
+        "whole_claim": "Prasinus has its own water/straining preparation and fresh-wall use. Veneda is made from black/little white, increased with white for eye regions, separated by plain white and washed with water.",
+        "consequence": "These intervening chapters remain present. They cannot be silently deleted to make every relevant reference local."
+      }
+    ],
+    "distinct_rivals": [
+      {
+        "rival": "Always reuse the latest named mixture.",
+        "different_consequence": "I.7 takes veneda where the source explicitly names posc; I.4/I.5 also fail to return to simple membrina."
+      },
+      {
+        "rival": "Each color mention is a new primitive material with independent composition.",
+        "different_consequence": "It drops inherited base ingredients and stated additions, even if a plausible final shade can be assigned."
+      },
+      {
+        "rival": "The later rose application simply replaces the entire earlier layer.",
+        "different_consequence": "It cannot preserve the earlier color visible above and below as required in I.8."
+      },
+      {
+        "rival": "Every reference must repeat the complete earlier written name unchanged.",
+        "different_consequence": "Actual rosa/rosam case variation and compressed local references contradict a universal literal-recurrence rule in this source; no old target model is thereby rescued."
+      }
+    ],
+    "no_modern_program_language": "The proposal owns the historical named-definition/backreference construction itself. It supplies no synthetic opcode alphabet, arbitrary per-word dictionary, parser-generated carrier defaults, fixed source-count serializer or free modern program grammar.",
+    "entity_distinctions": [
+      "recipe/color type",
+      "particular batch or portion",
+      "transformed material state",
+      "deposited paint layer",
+      "image-region application locus",
+      "written mention"
+    ],
+    "source_debts_and_symmetries": [
+      "The source does not decide whether an earlier mixture is saved stock or freshly made equivalent recipe. Type continuity is not individual-portion identity or mass conservation.",
+      "Amounts are mostly qualitative and I.1 explicitly permits discretionary complexion-dependent mixtures; no numeric ratio or unique spectral prediction follows.",
+      "Prasinus is described and processed but its full chemical composition is not given.",
+      "No general oil, egg or glue binder is written in I–IX; water has only the locally specified roles.",
+      "Some pronoun and predecessor-layer scopes require contextual interpretation; they are not all as explicit as posc, de quo supra dictum est.",
+      "A simultaneous renaming of all material families preserves much of the dependency structure; no literal human-language names are identified by structure alone.",
+      "The whole source section and its actual source-language inflection do not supply a finite target writing contract. No EVA=Latin or suffix assignment is assumed.",
+      "The relevant medieval chapter pages were not directly collated; native print/HTML conflicts are preserved, and pre-1450 work identity is distinct from exact1847edition wording."
+    ],
+    "collation_conflicts": [
+      {
+        "chapter": "I.1",
+        "print": "rubeas facies",
+        "html": "rubeas facias",
+        "policy": "Native print controls source record; both retained."
+      },
+      {
+        "chapter": "I.2",
+        "print": "recenti muro",
+        "html": "lecenti muro",
+        "policy": "Native print controls source record; both retained."
+      },
+      {
+        "chapter": "I.1 footnote",
+        "reading": "Vel sinopidem, ex C. R.",
+        "policy": "Editorial alternative preserved separately; no silent ingredient addition or substitution."
+      }
+    ],
+    "predecessors": [
+      {
+        "id": "IDEA000038 / GDT559",
+        "primary": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+        "review": "research_registry/decisions/ib_root_semantic_contract_review.json",
+        "retained": "157/157 successors inherited their labels upstream. Value-class reuse differs from individual referent identity; no manuscript ellipsis confirmation follows.",
+        "difference": "The source actually writes the named definitions and a nonnearest return, and it prescribes changes to the defined compound."
+      },
+      {
+        "id": "GDT933",
+        "primary": "experiments/yolo/gdt933_paragraph_participant_reference_contrast/REPORT.md",
+        "retained": "Typed backward drafts remain conditional across unread spans; matching prior participant types did not confirm meanings or portions."
+      },
+      {
+        "id": "GDT947",
+        "primary": "experiments/yolo/gdt947_ol_content_reference_direction/REPORT.md",
+        "retained": "Fixed overt reference conjunctions remain rejected; no ol/q gloss reused."
+      },
+      {
+        "id": "GDT952",
+        "primary": "experiments/yolo/gdt952_wind_named_reference_network/REPORT.md",
+        "retained": "Original enum invalid; corrected IT contradicted, ZL/RF unresolved, no definite observed name references. Historical case variation is not a rescue."
+      },
+      {
+        "id": "GDT214",
+        "primary": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+        "retained": "Historical component-key format did not establish the Voynich key/reuse prediction."
+      },
+      {
+        "id": "GDT213",
+        "primary": "GDT213_READABLE_MEDICAL_DIAGRAM_COMPARATOR_REPORT.md",
+        "retained": "Architecture match supplies no text-object ownership bridge."
+      },
+      {
+        "id": "IDEA000115",
+        "retained": "Existing unreviewed Alphita headword-reference-graph proposal; not treated as executed or refuted.",
+        "difference": "Theophilus supplies compound inheritance, explicit modification and successive painted layers, not only headword crosslinks."
+      }
+    ],
+    "structural_baseline": "Directed word composition, hierarchy at spaces, whole-form residuals and entry effects remain structural knowledge. Nothing here identifies their atoms as source meanings.",
+    "prohibited_scope": "No target passage chosen, no old dictionary imported, no new images/admissions/reserves, no external contact, no decoder or statistical test."
+  }
+}

@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Select a content-bearing contextual-reference hypothesis after GDT988.
-Latest decision: GDT988 two fixed proof serializers fail;0codes;source unknowns retained.
-Working files: experiments/yolo/gdt988_sherwood_typed_conversion_records/REPORT.md
-Assumptions: Attested source notation alone cannot bind Voynich meanings or boundaries.
-Resume: Review contextual-reference proposals and exact prior stops;no988repair.
-Running: Root source selection;bounded producer active;earliestend09:05:26UTC.
+Task: GDT989: all nine Theophilus stage/name headers, both orientations.
+Latest decision: Complete I.1–9 source fixed; necessary header test only;0words.
+Working files: experiments/yolo/gdt989_theophilus_three_stage_headers/METHOD.md
+Assumptions: Compact first-group header is hypothetical; all target leaves exposed.
+Resume: Publish989registration, enumerate every bundle, validate and close.
+Running: Root989;bounded source producer;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
