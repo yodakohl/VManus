@@ -379,6 +379,88 @@ physical dose identity, or causal efficacy is made. No GDT experiment, root
 route, ledger, decoder, refresh, commit, publication, new image, reserve, or
 other target row was accessed.
 
+### Producer batch: finite whole-clause constructor nomination (2026-09-20)
+
+The bounded source review nominates the already retained raw card **IDEA000394**,
+not a new card: *Vitruvius, De architectura* IX.8.8–15, the complete
+Anaporica/water-clock account. This is source-only and target-independent. The
+owned text is the Gwilt translation excerpt in
+`CONTEXTUAL_FULL_CONTENT_RAW_SOURCES_20260920.json`, source id
+`VITRUVIUS_IX8_8_15`, excerpt SHA-256
+`56f3089ee2c941cee1e33baaee2eb64fc3387dce38a13dfbb017898690ad8149`.
+Its boundary is section 8 (“Other kinds of winter-dials...”) through section
+15 (“...complete this Treatise on Architecture.”). The public source locator
+and edition limits are already recorded in
+`research_registry/proposals/raw_vitruvius_clock_state_reference.json`.
+
+The decisive source passage is the connected chain: the water-raised phellos
+raises while its equal sand counterpoise descends and turns the axis and zodiac
+wheel; the movable tympanum's tongue advances through the fixed tympanum's
+365 day points; at Capricornus the flow is fast and the receiving vessel fills
+soon, producing short winter hours; through Aquarius and the eighth of Aries
+the flow slows to equinoctial hours; at Cancer it is slowest and produces
+solstitial hours; descent through Libra returns to equinoctial hours and the
+eighth of Capricornus returns to the winter result. This is a whole source
+argument, not a list of component names.
+
+The source's own mechanical hinge is explicit: “as the phellos ascends by the
+action of the water, the counterpoise of sand descends and turns the axis”;
+its seasonal endpoint is “the winter hours are produced.”
+
+The compact finite constructor is:
+
+`CLOCK_STATE(analemma, dial_rods, month_circles, zodiac_wheel, axis_chain,
+float, counterpoise, sun_index, day_mark, cistern, fixed_tympanum,
+movable_tympanum, tongue, flow_hole, annual_position)`
+`=> MOVE(float↑, counterpoise↓, axis→wheel);`
+`REGULATE(annual_position, tongue, flow_hole, flow_rate, fill_time);`
+`REPORT(flow_rate, fill_time, hour_class);`
+`RETURN(annual_position, hour_class)`.
+
+Its arguments are typed by the source: `annual_position` is the ordered
+Capricornus→Aquarius→Aries(1/8)→Cancer→Libra(1/8)→Capricornus cycle;
+`day_mark` is one of the 365 fixed outer points; `fixed_tympanum` and
+`movable_tympanum` are distinct nested bodies even though the technical noun
+is repeated; `tongue` selects the day point; `flow_hole` controls `flow_rate`;
+`fill_time` and `hour_class` are linked outcomes; and `float`/`counterpoise`
+are an opposed-motion pair. No numeric dimensions or unrecorded daily values
+are supplied. Repeated technical words therefore remain constrained
+parameters of one finite clause family rather than free singleton glosses.
+
+The nontrivial consequence is a joint one: preserving the same nested parts
+while changing only `annual_position` must produce both opposed mechanical
+motion and the stated hour sequence, including two equinoctial positions and
+the annual return to the winter state. A precise rival keeps the same parts
+but reverses the flow relation (`flow_rate↑ => fill_time↑ => longer winter
+hours`). It predicts the opposite Capricornus/Aquarius/Cancer consequences,
+so it differs on a source-written result rather than on a renamed noun. A
+second rival that assigns each date an independent apparatus loses the fixed
+versus movable tympanum relation and the return state.
+
+This nomination is genuinely different from IDEA000413's medical case
+relations: it is a mechanical state cycle with nested part identity and
+repeated seasonal outcomes, not a remedy/participant reading. It also remains
+distinct from IDEA000391's context-dependent note durations. GDT214 remains a
+closed warning that historical component names do not identify target words;
+GDT885 and GDT903 close formal reversible-action routes, so this source
+constructor is not proposed as a decoder or action machine. The historical
+translation's Latin/edition variants, the prerequisite analemma, exact
+dimensions, and any target binding remain unknown. No target text, image,
+reserve, new experiment, ledger, route, refresh, commit, or publication was
+used. Because IDEA000394 already owns this source mechanism, no duplicate raw
+idea was added.
+
+The requested source-only worked account is now standalone in
+`VITRUVIUS_CLOCK_WORKED_ACCOUNT_20260920.md`. It expands every ordered clause
+from sections 8–15, names all constructor arguments and scope conditions, and
+keeps phellos displacement, counterpoise displacement, flow rate, fill time,
+day length, and hour length as separate fields. Its fixed rival reverses only
+the flow-to-fill/hour relation and therefore predicts long rather than short
+winter hours at Capricornus. Binding requirements include nested fixed/movable
+regulators, a marked tongue/point relation, hydraulic inlet and receiving
+vessel, opposed motion, and a cyclic state; generic apparatus resemblance is
+insufficient. No new raw card was added.
+
 ## Source audit record and public reproducibility
 
 All links below identify public sources; hashes bind bytes actually downloaded. Original source images were viewed through native image inspection. Images, browser captures, caches and absolute machine paths are not included in this dossier or its raw card. No Voynich transcription or image file, reserve, f84/f84r or f116v was opened. Registry metadata and primary result prose were used for duplicate/claim checks; their quoted historical target examples were not treated as new experiment data. No contact was made. Root owns publication, route and ledger changes.

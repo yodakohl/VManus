@@ -559,3 +559,40 @@ script inF83R_JOINT_MEDICAL_REVIEW_20260920.md.933's typed-carry stop checked;
 no new reference engine or blanket stative interpretation of unknowns selected.
 Keeprawpartialhypothesis;no newGDTorwordconfirmation. Nextchoicepending;do not
 repeatthismissingconstructionauditwithoutactualnewcontentbindings.
+
+## 2026-09-20 14:59 — bounded finite completion of the complete transport construction
+
+Primary993/994reports and993model were read;996retains four definite known-role
+conflicts in the IToriginal INITIAL clause even when every unknown is arbitrary.
+963/978/984do not license a runtime-only rerun. Zodiac/number dictionaries remain
+closed;381still lacks its actual quantitative/guard constructor. No new decision
+is inferred from those unchanged missing inputs.
+
+The genuinely unknown question: can ANY additional complete exposed paragraph
+be a grammatical extension of993when previously unseen whole forms can denote
+only existing terminals, with one value per spelling?994only tested dictionary
+coverage and did not decide this. We retain all47old whole meanings,17productions,
+4survivingvariants,and the complete INITIAL/GOAL/SAFETY/CAPACITY/CONCLUSION scope.
+This is a declared stronger consequence test of shared content across complete
+paragraphs, not a rescue of994's unchanged dictionary or a new free glossary.
+
+Smallest adequate test: all1,349previously owned complete928paragraphs, first
+exact necessary endpoint constraints, then full finite parse feasibility with
+shared unknown assignments for every surviving row. Unknown words cannot invent
+new predicates, reference rules or a new content domain. All source groups and
+reader distinctions retained. A SAT syntactic completion is not yet a coherent
+world reading; actual candidates need993replay and complete conflict reporting.
+Alternative spellings may be semantic aliases in this new hypothesis only;
+there is no new EVA split, morphology rule, normalization or spelling correction.
+
+Positive outcome nominates an actual full additional content reading plus its
+new lexical debt for a joint review. Exhaustive failure closes this particular
+finite-alias extension, without refuting the original story or all transport
+content. Timeouts remain unknown; no nearly-covered fragment is cherry-picked.
+A generic prefix/carry repair would not answer this question and is not selected.
+
+Inclusive preparation/implementation/validation/publication budget:14:59–15:49UTC.
+Root may stop at the necessary consequence if it decides all additional cases;
+no automatic grammar growth, extra terminal, corpus expansion or longer solver.
+All physical leaves exposed;0independent meaning capacity;f84/f84r/reservesclosed.
+The user permits explicit hypothetical meanings; no existing word is confirmed.

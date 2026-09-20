@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour block to22:52:35UTC;publish partial medical review,select next content.
-Latest decision: IDEA413partial,223/310groups unread;failure-order debt retained.
-Working files: research_registry/work_batches/ten_hours_20260915/WHOLE_CONTENT_SELECTION_20260920.md
-Assumptions: Remedy type is not dose;literal previous form is not bound reference.
-Resume: Publish413review;select a complete content construction against live stops.
-Running: Root closure/publication;bounded idea producer idle after413delivery.
+Task: Ten-hour block to22:52:35UTC;GDT997finite completion checkpoint15:49.
+Latest decision: 413partial review published799533237;997registered before target fit.
+Working files: experiments/yolo/gdt997_transport_finite_completion_capacity/
+Assumptions: 47old meanings hypothetical;new spellings only existing terminal values.
+Resume: Publish997contract,run all1349whole paragraphs;validate every consequence.
+Running: Root997registration;bounded producer writes source-only clock account.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

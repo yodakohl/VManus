@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-09-20T15:07:01.878940+00:00",
+  "fixtures": [
+    {
+      "name": "complete_minimal_scope",
+      "endpoint": true,
+      "relaxed": true,
+      "shared": "SHARED_SAT",
+      "independent": "sat"
+    },
+    {
+      "name": "contradictory_shared_endpoints",
+      "endpoint": false,
+      "relaxed": true,
+      "shared": "SHARED_UNSAT",
+      "independent": "unsat"
+    },
+    {
+      "name": "interior_same_spelling_two_roles",
+      "endpoint": true,
+      "relaxed": true,
+      "shared": "SHARED_UNSAT",
+      "independent": "unsat"
+    },
+    {
+      "name": "known_value_blocks_required_clause",
+      "endpoint": true,
+      "relaxed": false,
+      "shared": "SHARED_UNSAT",
+      "independent": "unsat"
+    },
+    {
+      "name": "missing_required_clause",
+      "endpoint": false,
+      "relaxed": false,
+      "shared": "SHARED_UNSAT",
+      "independent": "unsat"
+    },
+    {
+      "name": "duplicate_required_clause",
+      "endpoint": true,
+      "relaxed": false,
+      "shared": "SHARED_UNSAT",
+      "independent": "unsat"
+    },
+    {
+      "name": "repeated_consistent_unknown",
+      "endpoint": true,
+      "relaxed": true,
+      "shared": "SHARED_SAT",
+      "independent": "sat"
+    }
+  ],
+  "manuscript_data_read": false
+}
