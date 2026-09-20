@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Specify one complete Anastasia content/writing hypothesis before target fitting.
-Latest decision: All48Balneis lines covered;85/397 unresolved;four-record compiler stopped;0words.
-Working files: research_registry/work_batches/ten_hours_20260915/BALNEIS_COMPLETE_CONTENT_20260920.md
-Assumptions: Claims,not executed water trajectory;source variants separate;reserves closed.
-Resume: Freeze all12XI lines,argument owners and writing contract;no selected target yet.
-Running: Root closes source work by01:20UTC;producer5RAW pending;earliestend09:05:26UTC.
+Task: GDT986 complete Anastasia assertion trees against whole bath paragraphs.
+Latest decision: Nine trees/all12lines;two fixed writers;111atoms/47types;no target fit yet.
+Working files: experiments/yolo/gdt986_anastasia_complete_condition_trees/PREREGISTRATION.md
+Assumptions: Hypothetical semantic code;word seams retained;exposed data;reserves closed.
+Resume: Publish registration,run16workers,validate every case;no source/order repair.
+Running: Root registration;producer379done;checkpoint02:10UTC;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
