@@ -1,0 +1,113 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional complete feature-table fit only; source identity and feature meanings assumed, no independent semantic confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt998_compositional_paradigm_features/src/run.py",
+    "validate": "python3 experiments/yolo/gdt998_compositional_paradigm_features/src/validate.py"
+  },
+  "created": "2026-09-20",
+  "dependencies": [
+    "GDT900",
+    "GDT419",
+    "GDT608",
+    "GDT892",
+    "GDT997"
+  ],
+  "experiment_id": "GDT998",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/artifacts/TARGET_INPUT.json",
+      "role": "fixed_input",
+      "sha256": "dfb5f1981b609fadaf4c93c406ad86042d928f60296d8010a022fe303033df6a"
+    },
+    {
+      "path": "experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/artifacts/SOURCE_INPUT.json",
+      "role": "fixed_input",
+      "sha256": "7647eb754fd68d939d041d7a6a35e1711d1783f936f316a5f669b0f58f39846c"
+    },
+    {
+      "path": "experiments/yolo/gdt900_cumanicus_complete_trilingual_tables/artifacts/TARGET_VALIDATION.json",
+      "role": "fixed_input",
+      "sha256": "94bcd3e0fde3f6375818cdc952a84a9e2603beb958d5eb05849bf2717f6e2e1d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "7e5c6288130cfaba802fffb1454e692ba2c973bb5572d30a0828af007b10dfd1"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "edcc5c87da364e425e8f022fc5107d89ef18971f3ef59e041fc7fdf7ddc1180f"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "18c7c33e1704cebf08a2b3cc9389a84ca8b50bd9e75a613de59c7c576955248d"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/README.md",
+      "role": "source_or_artifact",
+      "sha256": "58ef3eaea6a732d6d7520618b375f4ee7c2c55be57e1e71955061840d5153418"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/artifacts/PREFLIGHT.json",
+      "role": "source_or_artifact",
+      "sha256": "489903b9a4ebf874a76657293309bf1508716fcc1b8581e8ff07b5e541da08d8"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "58b39222bac5644c976c954aba00b556c2823b2eb039953df0ebc5d84101b4fb"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "6839ade88700fa012fd2d9576fd952721940756ac8ab52606c2e3a7193be08df"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/src/core.py",
+      "role": "source_or_artifact",
+      "sha256": "b8252557fc3ce11afb649481c99ac295d1f11c415ca8fa5eb32d8d34c59bc321"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/src/preflight.py",
+      "role": "source_or_artifact",
+      "sha256": "765d0be829886fab88e99d0660dac61fcb951a276b107160bfb500c03caf69fe"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "6583001879d92bff5442d061ca9991e1ff2e5422fdf0cf59d4c8e125f7d5ce5c"
+    },
+    {
+      "path": "experiments/yolo/gdt998_compositional_paradigm_features/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "a522b639a31a0bd1e98ee0f82f055a465c95d9af175c0d393ae92b2efc2a9483"
+    }
+  ],
+  "question": "Can both complete trilingual six-person tense tables share one exact concatenative stem/person/tense writer in all exposed whole-window candidates?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "compositional_paradigm_features",
+  "status": "REGISTERED_UNSCORED",
+  "title": "compositional paradigm features",
+  "updated": "2026-09-20",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

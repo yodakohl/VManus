@@ -622,3 +622,33 @@ Producer394source-only Vitruvius worked account retained,not a target nomination
 Root read complete cached source and worked account; prompted corrections to
 unlicensed1/8signnotation and conflated display/month holes vs regulator365marks.
 These source clarifications do not open a clock route or establish target parts.
+
+### Selection15:38UTC: complete feature-table writer
+
+GDT997closure and index correction are public at659e53eb9/73da2ba2e.
+Postclosure review reread900source/METHOD/REPORT,892REPORT,418/419REPORT,
+317and412raw proposals.412cannot use993unchanged productions: they contain
+no person/tense feature terminals. That raw sketch is not an executable model.
+
+GDT998 therefore states a separate, explicitly new hypothesis: the full two
+6-by-3 grammatical tables are represented by shared concatenated stem,
+person-number and tense strings. Source cell spellings are not copied; no
+Latin glyph code or old lexical gloss is inherited. All36cells are mandatory.
+This differs from900literal letters/disjoint pairs and from317selected triples.
+The concrete consequence is a single component dictionary across both whole
+tables, not independent assignments to each cell. Full details and the bounded
+algorithm are in998METHOD. Preparation through publication checkpoint16:20UTC;
+no automatic allomorphs, dropped cells, row permutations or larger targetscope.
+
+The grammatical-table/source identity itself remains assumed, including the
+hearing predicate and language-channel roles. Any verb with the same paradigm
+could replace hearing without changing predictions; a positive fit therefore
+cannot confirm that lexical meaning. Empty grammatical exponents are allowed
+under the fixed contract; arbitrary whole-cell exceptions are not. Readings
+remain alternatives of one exposed manuscript; no independent meaning capacity.
+
+Other reviews retained:963/978full code unresolved,984weak projection stopped;
+936/939/944whole glosses do not establish productive subword meanings,945/946
+fixed narrow role rules contradicted. No new morphology claim follows from their
+fluent English/German renderings. Latest producer380/381/382shortlist remains
+raw: source-owned content plus whole-word guesses is not yet a shared writer.

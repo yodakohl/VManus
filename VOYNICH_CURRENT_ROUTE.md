@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour block to22:52:35UTC;997closure,then next shared-content nomination.
-Latest decision: 997five local fits retained;all shared-word witness pairs conflict.
-Working files: experiments/yolo/gdt997_transport_finite_completion_capacity/
-Assumptions: Four fits share no old word;one shares1;all1cargo/1trip;0meaning proof.
-Resume: Publish997full tables,qualified positive and143unknowns;select next route.
-Running: Root997closure;bounded producer completed source-only clock account.
+Task: Ten-hour block to22:52:35UTC;998complete feature-table construction.
+Latest decision: 997published;998tests shared stem/person/tense parts across36cells.
+Working files: experiments/yolo/gdt998_compositional_paradigm_features/
+Assumptions: Hypothetical feature code,not literal Latin;0confirmed meanings.
+Resume: Freeze998writer and exhaustive scope,publish before target evaluation.
+Running: Root998preparation;bounded producer adds source/part constructions.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
