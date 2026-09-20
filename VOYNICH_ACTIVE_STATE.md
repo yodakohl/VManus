@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1003 JOINT CONTENT POSITIVE: both overlapping pairs admit complete coherent worlds;8and16shared-value tuples exhausted independently,190queries/0unknowns.10representatives include2cargos/3trips. shodol=M inheritedsyntax;61–62newaliases,0hazardpairs/words/independentmeaning. Retain all24tuples, no glossary/repair. [Report](experiments/yolo/gdt1003_transport_joint_world_domains/REPORT.md).
+
 GDT1002 JOINT ALTERNATIVES: all5transport extensions cannot share997code;2of4overlapping pairs UNSAT independently (oty placement;chor=M/UNHARMED). Other2pairs SATgrammar,semantic alternatives unresolved after2samples. All6disjoint inherited positive pairs retained,0lexical-transfer capacity.0words;no source/grammar repair. [Report](experiments/yolo/gdt1002_transport_joint_alias_alternatives/REPORT.md).
 
 GDT1001 TYPED WRITER STOP: all1108literal whole-paragraph cases contradicted independently;1590source-unknown cases,0computeunknown/code/word.192atom fullCato tree,96types;PREFIXrequires nine initialSEQcodes,absent in all554literal paragraphs. Serialization failure does not exclude cultivation or contextual morphology. No automatic writer/source repair. [Report](experiments/yolo/gdt1001_cato_typed_complete_branch_code/REPORT.md).
