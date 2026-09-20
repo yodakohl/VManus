@@ -1,0 +1,131 @@
+{
+  "title": "Franco contextual note values: complete bounded groups change the same lozenge duration",
+  "summary": "RAW_UNREVIEWED. Franco chapterV gives a complete five-note3|2 teaching example whose same-shaped semibreves have durations1,1,1,1,2 under explicit group rules. Equal-total rivals preserve note counts and even group totals but move onsets. Complete IV–V source, witness differences and missing target writer retained; no music-decoder reopening.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED",
+    "source_evidence": {
+      "path": "research_registry/work_batches/ten_hours_20260915/FRANCO_CONTEXTUAL_DURATION_SUPPLY_20260920.md",
+      "line": 5,
+      "quote": "## Result and exact ownership",
+      "sha256": "7376e6c0492cea846e67a91f9d1ebac9f7c01e4e7808134099534aa67f951e4b"
+    },
+    "full_source_inventory": {
+      "path": "research_registry/work_batches/ten_hours_20260915/FRANCO_CONTEXTUAL_DURATION_SOURCE_20260920.json",
+      "sha256": "3ce3337abb1fdb4c389e2b48f517b73f49f92b652b627f60fe966d6c9df5a3c2",
+      "coverage": "Entire main-text chaptersIV–V,17 explicit figure links, complete selected five-note exemplar, all rule variables and timing consequences; not a complete song or apparatus."
+    },
+    "source": {
+      "work": "Ars cantus mensurabilis, attributed to Franco of Cologne",
+      "date": "Thirteenth-century work; exact selected witness is Coussemaker1864main text, not directly collated medieval manuscript.",
+      "locus": "ChapterV,p122,CSI122,4,Quid plura cedit; prerequisites IV,p119 and entireV,p119–123.",
+      "public_scan": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10801093_00154/full/full/0/default.jpg",
+      "scan_sha256": "dd0ba575dd9acb359c9c0e28e5946a612e2aa617b335a21b410cc1125e3e5028"
+    },
+    "target": {
+      "owner": null,
+      "writer": "UNBOUND",
+      "status": "NO_TARGET_NOMINATION_NO_GLOSS"
+    },
+    "historically_fixed_realization": {
+      "scope": "Source note forms only, not an invented target code.",
+      "known_state": [
+        "higher unit recta brevis",
+        "complete group length2 or3",
+        "within-group position",
+        "explicit division between unequal adjacent group sizes"
+      ],
+      "rules": [
+        "Three semibreves representing a recta are all minor.",
+        "Two representing a recta are minor then major; major equals two minors.",
+        "The same lozenge shape represents both.",
+        "The separator partitions groups without adding sounded time."
+      ],
+      "finite_function": "duration(k,j)=2u if k=2 and j=2; otherwise u for k in{2,3} and1<=j<=k.",
+      "actual_full_example": {
+        "type_sequence": [
+          "S",
+          "S",
+          "S",
+          "D",
+          "S",
+          "S"
+        ],
+        "durations_in_u": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "onsets_in_u": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "end_in_u": 6
+      },
+      "symbols": "S,D,u,k,j are our bookkeeping; none is an EVA or historical letter value."
+    },
+    "distinct_consequences": [
+      {
+        "rival": "One context-independent duration for the lozenge",
+        "difference": "Cannot make the actual2-note and3-note groups have the same recta duration under a single value."
+      },
+      {
+        "rival": "Long-first pair with the same observed grouping",
+        "difference": "Durations1,1,1,2,1 preserve every group total and total6 but delay the last onset from4 to5; directly contradicts first-minor/second-major."
+      },
+      {
+        "rival": "Counterfactually move the divider to2|3",
+        "difference": "Durations1,2,1,1,1 and onsets0,1,3,4,5 preserve total6 but change exact event realization. This is not claimed to be the actual printed marker."
+      }
+    ],
+    "source_symmetries_and_debts": [
+      "This is complete as a printed teaching excerpt, not a full song or lyric translation.",
+      "Two rectae and one altera share total duration; total closure alone cannot identify the larger semantic label.",
+      "Absolute tempo and transposition remain free.",
+      "Same note shape is not the same complete pitched musical sign: staff position separately represents pitch.",
+      "Main five-note example differs from longer D/F apparatus branches; these are preserved as conflicts, not merged.",
+      "No direct medieval example collation; only native1864primary edition and text/figure transcriptions.",
+      "No target grouping, higher-unit ownership, spacing rule, code alphabet or finite word realization is fixed.",
+      "Many nonmusical timing systems satisfy related equations; source-only identifiability is not manuscript meaning."
+    ],
+    "predecessors": [
+      {
+        "id": "GDT901",
+        "primary": "experiments/yolo/gdt901_solmization_joint_relational_lexicon/REPORT.md",
+        "retained": "All ten complete22pitch fixed-role models UNSAT, independent count/head confirmation. No heading/source/alias repair."
+      },
+      {
+        "id": "GDT970",
+        "primary": "experiments/yolo/gdt970_rota_whole_part_conjugacy/REPORT.md",
+        "retained": "Fixed literal whole-pes code contradicted. No new Reading Rota duration choice or paragraph repair."
+      },
+      {
+        "id": "IDEA000142",
+        "retained": "Inconclusive music-content proposal, documentary timing and target binding unresolved."
+      },
+      {
+        "id": "IDEA000364",
+        "retained": "Unreviewed concurrent-performance instructions; not treated as executed or failed.",
+        "difference": "Historical same-shape duration rule with explicit bounded grouping, not arbitrary separate voice clocks."
+      },
+      {
+        "id": "HIST:91e3bd9eac342c5f",
+        "primary": "experiments/yolo/sidequest_historical_compositional_analogue_search/R3_LULL_CIPHER_TECHNICAL_ANALOGUE.md",
+        "retained": "Mensural context dependence is already known as a structural analogue.",
+        "difference": "Owns a full concrete older source rule/example, exact same-total counterfactuals and witness conflicts; no generic novelty claim."
+      },
+      {
+        "id": "HIST:32a55baee9c59536",
+        "primary": "experiments/yolo/sidequest_semantic_historical_workshop_model/HISTORICAL_ARCHITECTURE_REPORT.md",
+        "retained": "Generic mensural-grade analogy and hypothetical role suggestions are not imported as meanings."
+      }
+    ],
+    "next_step_if_selected": "Specify a whole-passage ownership and shared writing rule before any target fit; require an observable ordered consequence stronger than equal total/count. No such test selected here.",
+    "scope_limits": "No target accesses, new Voynich admission, reserve, contact, decoder, statistics, metadata refresh or commit. Independent of GDT989."
+  }
+}

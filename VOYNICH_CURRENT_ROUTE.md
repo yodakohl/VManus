@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Select a whole-content contextual construction after GDT989.
-Latest decision: GDT989 both nine-header writers fail;82unknown bundles retained;0codes.
-Working files: experiments/yolo/gdt989_theophilus_three_stage_headers/REPORT.md
-Assumptions: Historical reference/stage notation does not supply target meanings.
-Resume: Review a different whole-content candidate and its exact prior stops.
-Running: Root selection;bounded source producer;earliestend09:05:26UTC.
+Task: Construct complete Rupescissa content with explicit portion references.
+Latest decision: Medieval first-distillate return attested;Voynich writer unbound.
+Working files: research_registry/work_batches/ten_hours_20260915/RUPESCISSA_CONTENT_DECISION_20260920.md
+Assumptions: Concurrent fractions/nested vessels;no inherited word meanings.
+Resume: Review bounded source-only complete writer;no automatic decoder or985 extension.
+Running: Independent source producer;root review;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

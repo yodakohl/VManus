@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+RUPESCISSA SOURCE IDENTITY: native1443f9v explicitly returns generated distillate over retained residue; complete printed chapter requires concurrent fractions and nested vessels, with later4:1identity and witness conflicts unresolved. Source-side complete writing proposal only; no automatic985 extension or target selection.0words/reserves. [Decision](research_registry/work_batches/ten_hours_20260915/RUPESCISSA_CONTENT_DECISION_20260920.md).
+
 GDT989 HEADER STOP: all132readable nine-paragraph bundles contradict both fixed Theophilus name/stage writers;77header unknown+5gap bundles retained.0codes/words/independent;11exposed leaves. Only the compact first-group header model; no body/source-family rejection or repair. [Report](experiments/yolo/gdt989_theophilus_three_stage_headers/REPORT.md).
 
 GDT988 PROOF RECORD STOP: all2216literal cases contradict two fixed typed10/22group serializers;3180source unknowns retained.24count-matching cases separately replayed,0codes/words/independent. Not all logical content; no post-result serialization repair. Next attested contextual-reference candidate only. [Report](experiments/yolo/gdt988_sherwood_typed_conversion_records/REPORT.md).
