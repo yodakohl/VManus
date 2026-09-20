@@ -1097,3 +1097,56 @@ sample selection, and vineyard signs. It remains
 `RAW_UNREVIEWED_NOT_SELECTED`; no target term or local register is claimed.
 No target, reserve, root experiment, route, ledger, or frozen source file was
 changed.
+
+## W. One two-observation material-use candidate
+
+The live route was read first. Targeted composition/transfer and route checks
+screened the retained Vitruvius clock, Palladius soil, Cato, Hero, and material
+cards. One new card survived because two different source observations converge
+on one mortar judgment while later application context changes the result.
+
+* `IDEA000458` —
+  `raw_vitruvius_sand_test_application_register_20260920.json`. Vitruvius,
+  *De architectura* II.4, introduces a SAND_SAMPLE and tests it by rubbing for
+  a grating sound or by shaking it from white cloth. The first yields
+  BEST_SAND and mortar fitness; the second accepts an earthy sample as
+  FIT_MORTAR while preserving that it is not the best quality. The same sample
+  register is then scoped by use and age: sea sand is rejected for vaulting,
+  old exposed sand loses heavy-load binding, and pit/river application rules
+  differ for mortar and plaster.
+
+The source account retains all chapter clauses, including fallback source
+locations, drying/load constraints, the salt/plaster wording caveat, aging,
+and application distinctions. It remains `RAW_UNREVIEWED_NOT_SELECTED`; no
+target term or material meaning is claimed. No target, reserve, root
+experiment, route, ledger, or frozen source file was changed.
+
+## X. Repetition audit: no source-owned intermediate constructor
+
+This bounded source-only audit checked whether Palladius I.V.3 and Vitruvius
+II.4 naturally repeat a written intermediate expression across the sequence
+Probe -> Observation -> Judgment -> Use. They do not provide one. The
+repetitions below are useful constraints on a future hypothesis, but turning
+them into a reusable observation register would be an analyst convention.
+
+| Source | Natural repetition | What the source actually binds | Missing link |
+|---|---|---|---|
+| Palladius I.V.1–4 | `gleba`/earth recurs in the clod, pit, and taste contexts; `pinguis`/fertility and `dulcedo`/sweetness recur as properties; `si` marks several conditions | The clod and pit clauses give different tests and the pit has explicit surplus/deficit/equal outcomes. The taste clause selects the part of the field that displeases most and reports sweetness. | The prose never says that one written `FAT` or `OBSERVATION` record is carried from clod/pit into taste or vineyard use. Repeated earth words do not establish physical-portion identity. Condition scopes are local. |
+| Vitruvius II.4 | `arena`/sand recurs; `fit`/fitness recurs in test and application contexts; pit, river, and sea sand are repeatedly named; demonstratives such as “those/which/that also” carry local references | Rubbing gives the grating observation and the cloth test handles an earthy sample; later clauses distinguish sea, old, pit, and river sand by drying, load, mortar, and plaster use. | The prose does not write a reusable `OBSERVED_SAND` record consumed by each later use. “Fit” is scoped to the stated purpose, and source category is not an intermediate result shared across all applications. |
+
+The resulting debt is specific. A complete writer would need a source-owned
+rule that turns the written test phrase into a typed observation, carries its
+referent into a later judgment, and then restricts the judgment by the stated
+use. Neither chapter supplies that rule as repeated wording. The existing
+IDEA000457 and IDEA000458 constructors currently accept named findings such as
+`SURPLUS`, `GRATING_SOUND`, or `FIT_MORTAR`; replacing those arguments with
+an `OBSERVATION` field would therefore be a new analyst model, not a source
+clarification. This audit adds no new raw card and does not select either
+proposal. Both remain `RAW_UNREVIEWED_NOT_SELECTED`.
+
+Primary navigation used for this audit: Palladius, *Opus agriculturae* I.V.1–4
+[Latin Wikisource](https://la.wikisource.org/wiki/Opus_agriculturae/I) and
+[Perseus CTS Latin witness](https://atlas.perseus.tufts.edu/library/urn%3Acts%3AlatinLit%3Astoa0218.stoa002.nd-dlc-lat1/);
+Vitruvius, *De architectura* II.4, [LacusCurtius translation](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/2%2A.html)
+and [Latin.it text](https://www.latin.it/autore/vitruvio/de_architectura/%2102%21liber_ii/04.lat).
+These are source references only; they do not provide target meanings.

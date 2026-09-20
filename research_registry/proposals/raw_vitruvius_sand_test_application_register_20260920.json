@@ -1,0 +1,103 @@
+{
+  "title": "Vitruvius sand-test register with shared mortar judgment and use scope",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Vitruvius De architectura II.4 introduces a sand sample and applies two distinct observations to it: a grating sound when rubbed identifies the best sand, while an earthy sample that leaves only a removable stain or particles on white cloth is still fit for mortar. The same source then changes the result by application context: sea sand is unsuitable for heavily loaded or vaulted walls, old pit sand loses binding, and the pit/river distinction matters for mortar versus plaster. A finite constructor therefore shares one FIT_MORTAR judgment across two tests but preserves use-specific scope.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Vitruvius, De architectura, Book II, chapter 4",
+    "translation_url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/2%2A.html",
+    "latin_url": "https://www.latin.it/autore/vitruvio/de_architectura/%2102%21liber_ii/04.lat",
+    "parallel_url": "https://lexundria.com/vitr/2.4/gw",
+    "source_span": "Complete chapter II.4: sand types and two suitability observations; river/sifted-gravel/sea fallback; sea-sand drying and load/vault restrictions; new pit sand and salt/plaster caveat; aged sand loss of binding; pit versus river application contexts.",
+    "provenance": "The LacusCurtius English translation and Latin.it text were used as primary navigation witnesses. The wording around new pit sand and plaster is retained as a source/translation caveat rather than silently normalized. No target language or manuscript Vorlage is claimed."
+  },
+  "duplicate_screen": {
+    "checked": "IDEA000394 Vitruvius clock constructor; IDEA000457 Palladius soil probes; IDEA000425 Cato propagation; existing Hero material tests; geometry and source-only material cards returned by route-check.",
+    "difference": "The Palladius card classifies soil by a pit residual and taste axis. This Vitruvius card requires two different observations to converge on one mortar-suitability judgment, then scopes that judgment by construction use and sand age. It is not a generic input classifier or a clock/mechanism writer."
+  },
+  "source_account": {
+    "presuppositions": [
+      "A SAND_SAMPLE is introduced before its color, texture, rubbing, cloth, age, and source-location observations.",
+      "FIT_MORTAR, BEST_SAND, FIT_PLASTER, and FIT_HEAVY_OR_VAULTED_WALL are distinct typed judgments; one does not imply all others.",
+      "The source's two early observations can converge on mortar suitability even though one identifies best quality and the other accepts an earthy but usable sample.",
+      "Sea-sand and aged-sand restrictions are application/age conditions, not new sand identities.",
+      "The translation's pit-sand/plaster wording is retained as unresolved source scope where the accessible English text is internally awkward."
+    ],
+    "clauses": [
+      {"id":"C01","span":"II.4.1","content":"For rubble walls, first determine sand fit for lime and free from earth; the named colors are black, white, deep red, and bright red.","ast":["SEQ",["INTRODUCE","SAND_SAMPLE",["COLOR_CLASS","BLACK_WHITE_DEEP_RED_BRIGHT_RED"]],["REQUIRE","MORTAR_MIX","NO_EARTH_ADMIXTURE"]]},
+      {"id":"C02","span":"II.4.1","content":"Among the named sorts, the best is the sample that makes a grating sound when rubbed between the fingers.","ast":["SEQ",["TEST","SAND_SAMPLE","RUB_BETWEEN_FINGERS"],["IF","GRATING_SOUND","JUDGMENT_BEST_SAND"],["IMPLIES","FIT_MORTAR"]]},
+      {"id":"C03","span":"II.4.1","content":"An earthy sample lacking the named roughness is nevertheless fit if it leaves only a stain or earth particles on white cloth that can easily be brushed away.","ast":["SEQ",["TEST","SAND_SAMPLE","WHITE_CLOTH_SHAKE"],["IF",["REMOVABLE_STAIN_OR_PARTICLES","SAND_SAMPLE"],["JUDGMENT_FIT_MORTAR"]],["PRESERVE","EARTHY_QUALITY"]]},
+      {"id":"C04","span":"II.4.2","content":"If no sand pits exist, use river sand or sifted gravel; sea sand is a fallback but dries slowly.","ast":["SEQ",["IF",["NO_SAND_PIT"],["SOURCE_FALLBACK","RIVER_SAND_OR_SIFTED_GRAVEL"],["SOURCE_FALLBACK","SEA_SAND"]],["PROPERTY","SEA_SAND","DRIES_SLOWLY"]]},
+      {"id":"C05","span":"II.4.2","content":"Walls using sea sand should not be heavily loaded unless built in small portions; sea sand is not fit for walls intended to receive vaulting.","ast":["SEQ",["IF",["SAND_SOURCE","SEA_SAND"],["LIMIT","LOAD","HEAVY_UNLESS_SMALL_PORTIONS"]],["REJECT","VAULTING_WALL"]]},
+      {"id":"C06","span":"II.4.2–3","content":"The chapter retains its salt/plaster warning and then says fresh pit or river contexts behave differently; the accessible translation's repeated pit-sand wording is kept as a source ambiguity rather than repaired.","ast":["SEQ",["PRESERVE_SOURCE_CAVEAT","SALT_PLASTER_SCOPE"],["NO_SILENT_NORMALIZATION","PIT_OR_RIVER_LABEL"]]},
+      {"id":"C07","span":"II.4.3","content":"Sand dug long ago and exposed to sun, moon, and rain loses binding, cannot hold rubble stones against sliding, and is unfit for walls supporting great weights.","ast":["SEQ",["IF",["AGE","OLD_EXPOSED"],["PROPERTY","LOSES_BINDING"]],["REJECT","HEAVY_LOAD_WALL"]]},
+      {"id":"C08","span":"II.4.3","content":"Pit sand is excellent for mortar but unfit for plaster because its strength causes cracking; river sand, when beaten, makes hard plaster like cement.","ast":["SEQ",["APPLICATION_RULE","PIT_SAND","MORTAR","FIT"],["APPLICATION_RULE","PIT_SAND","PLASTER","UNFIT"],["APPLICATION_RULE","RIVER_SAND","PLASTER","FIT_AFTER_TEMPERING"]]}
+    ],
+    "complete_examples": [
+      {
+        "id":"RUB_TEST_MORTAR",
+        "input":{"sample":"S1","color":"BLACK","method":"RUB_BETWEEN_FINGERS","grating_sound":true,"use":"MORTAR"},
+        "output":"BEST_SAND_AND_FIT_MORTAR",
+        "reference_resolution":"The same introduced S1 carries the rubbing observation into the mortar-use judgment; no second sample is invented."
+      },
+      {
+        "id":"CLOTH_TEST_MORTAR",
+        "input":{"sample":"S2","color":"EARTHY","method":"WHITE_CLOTH_SHAKE","removable_stain_or_particles":true,"use":"MORTAR"},
+        "output":"FIT_MORTAR_BUT_NOT_BEST_SAND",
+        "reference_resolution":"S2 reaches the same mortar judgment through the cloth test while retaining its earthy quality; it is not silently upgraded to BEST_SAND."
+      },
+      {
+        "id":"SEA_VAULT_CONTEXT",
+        "input":{"sample":"S3","source":"SEA_SAND","use":"VAULTING_WALL"},
+        "output":"REJECT_VAULTING_WALL",
+        "reference_resolution":"The same general suitability question is narrowed by the use register; sea-sand fallback does not license vaulted walls."
+      },
+      {
+        "id":"OLD_PIT_HEAVY_CONTEXT",
+        "input":{"sample":"S4","source":"PIT_SAND","age":"OLD_EXPOSED","use":"HEAVY_LOAD_WALL"},
+        "output":"REJECT_HEAVY_LOAD_WALL",
+        "reference_resolution":"Age and application scope override an earlier generic mortar suitability; the sample identity remains S4."
+      }
+    ]
+  },
+  "constructor": {
+    "types": ["SAND_SAMPLE", "COLOR", "TEST_METHOD", "OBSERVATION", "QUALITY", "SOURCE_LOCATION", "AGE", "APPLICATION", "JUDGMENT", "CAVEAT"],
+    "operators": [
+      "INTRODUCE(kind, id) -> REGISTER",
+      "RUB(sample) -> OBSERVATION",
+      "CLOTH_SHAKE(sample) -> OBSERVATION",
+      "CLASSIFY(observation, case_table) -> JUDGMENT",
+      "SCOPE(sample, source_location, age, application) -> JUDGMENT",
+      "PRESERVE_CAVEAT(span, unresolved_scope) -> CAVEAT"
+    ],
+    "global_rules": [
+      "RUB(S1) with GRATING_SOUND yields BEST_SAND and FIT_MORTAR; BEST_SAND is stronger than the generic fit judgment.",
+      "CLOTH_SHAKE(S2) with only REMOVABLE_STAIN_OR_PARTICLES yields FIT_MORTAR while preserving EARTHY quality; it does not yield BEST_SAND.",
+      "SEA_SAND is a fallback source with DRIES_SLOWLY and is rejected for VAULTING_WALL or heavy load unless the source's small-portion condition is retained.",
+      "OLD_EXPOSED sand loses binding and is rejected for HEAVY_LOAD_WALL even if a different earlier test made fresh material fit for mortar.",
+      "PIT_SAND and RIVER_SAND have distinct application rules for mortar and plaster; the accessible translation's awkward salt/plaster wording remains a caveat, not a free branch.",
+      "Every later reference to a sample resolves to the locally introduced SAND_SAMPLE register; a new sample requires an explicit INTRODUCE operation."
+    ],
+    "python": "def classify(case):\n    sample = case['sample']\n    method = case['method']\n    if method == 'RUB_BETWEEN_FINGERS' and case.get('grating_sound'):\n        quality = 'BEST_SAND'\n        mortar = True\n    elif method == 'WHITE_CLOTH_SHAKE' and case.get('removable_stain_or_particles'):\n        quality = 'EARTHY_BUT_USABLE'\n        mortar = True\n    else:\n        raise ValueError('source test does not license fit')\n    if case['use'] == 'MORTAR':\n        return quality + '_AND_FIT_MORTAR' if quality == 'BEST_SAND' else 'FIT_MORTAR_BUT_NOT_BEST_SAND'\n    if case['source'] == 'SEA_SAND' and case['use'] == 'VAULTING_WALL':\n        return 'REJECT_VAULTING_WALL'\n    if case.get('age') == 'OLD_EXPOSED' and case['use'] == 'HEAVY_LOAD_WALL':\n        return 'REJECT_HEAVY_LOAD_WALL'\n    if case['source'] == 'PIT_SAND' and case['use'] == 'PLASTER':\n        return 'UNFIT_PLASTER'\n    if case['source'] == 'RIVER_SAND' and case['use'] == 'PLASTER':\n        return 'FIT_PLASTER_AFTER_TEMPERING'\n    return 'USE_SCOPE_UNRESOLVED'\n\nresult = {\n  'rub_test_mortar': classify({'sample':'S1','method':'RUB_BETWEEN_FINGERS','grating_sound':True,'use':'MORTAR','source':'PIT_SAND'}),\n  'cloth_test_mortar': classify({'sample':'S2','method':'WHITE_CLOTH_SHAKE','removable_stain_or_particles':True,'use':'MORTAR','source':'EARTHY_SAND'}),\n  'sea_vault_context': classify({'sample':'S3','method':'WHITE_CLOTH_SHAKE','removable_stain_or_particles':True,'use':'VAULTING_WALL','source':'SEA_SAND'}),\n  'old_pit_heavy_context': classify({'sample':'S4','method':'RUB_BETWEEN_FINGERS','grating_sound':True,'use':'HEAVY_LOAD_WALL','source':'PIT_SAND','age':'OLD_EXPOSED'})\n}",
+    "python_result": {
+      "rub_test_mortar": "BEST_SAND_AND_FIT_MORTAR",
+      "cloth_test_mortar": "FIT_MORTAR_BUT_NOT_BEST_SAND",
+      "sea_vault_context": "REJECT_VAULTING_WALL",
+      "old_pit_heavy_context": "REJECT_HEAVY_LOAD_WALL"
+    },
+    "observable_consequence": "Two different observation methods converge on FIT_MORTAR while preserving a quality distinction; later source context changes the complete judgment without changing sample identity. An all-tests-equal or all-uses-fit rival cannot retain both convergence and the sea/age/use restrictions."
+  },
+  "rivals": {
+    "R_ONE_TEST": "Only grating sound is meaningful; the cloth example cannot produce the source's shared FIT_MORTAR judgment.",
+    "R_ALL_USES_FIT": "Any sand fit for mortar is automatically fit for plaster, vaulting, and heavy walls; this loses the source's application scope.",
+    "R_NEW_SAMPLE_ON_SCOPE": "Every later application clause creates a new material instead of updating the locally introduced sample's age/use state."
+  },
+  "falsifier": "Reject the constructor if the complete chapter cannot preserve both mortar-converging tests, the distinct BEST versus FIT quality, the sea-sand/vault restrictions, the aged-sand loss of binding, and the pit/river application distinction. The wording ambiguity around salt and plaster must remain a debt; resolving it by adding an unowned branch would invalidate the source account.",
+  "dependencies": [
+    "SAND_SAMPLE and application registers are source-side abstractions; no target word or manuscript operator is assigned.",
+    "The shared FIT_MORTAR judgment is source-attested, while modern material science explanations are excluded.",
+    "The accessible English translation's repeated pit-sand wording in the salt/plaster passage is preserved as unresolved; no silent correction is imported from another edition.",
+    "The complete source scope is Book II chapter 4 only; Book II chapter 5 ratios and later material chapters are not used to repair this card."
+  ],
+  "access": "No Voynich target rows, images, reserves, f84/f84r/f116v, root experiment files, route, ledger, or frozen source packet were opened or changed."
+}

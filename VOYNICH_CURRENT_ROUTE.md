@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;test remaining118FUNCTIONAL joint contexts in1009.
-Latest decision: 1008public:b28125923;120bijection contexts closed;FUNCTIONAL118open.
-Working files: experiments/yolo/gdt1009_transport_functional_complete_context_census/DECISION.md
-Assumptions: Same grammar, free47values, aliases allowed;no projection or reserve use.
-Resume: Freeze/publicly register1009,run118whole pairs,validate;checkpoint22:20UTC.
-Running: No solver yet;bounded source-only idea producer active.
+Task: Ten-hour block to22:52:35UTC;close1009 then source-owned composition review.
+Latest decision: 1009validated:all120whole FUNCTIONAL contexts fail;aliases do not rescue.
+Working files: experiments/yolo/gdt1009_transport_functional_complete_context_census/REPORT.md
+Assumptions: Original local worlds retained;both dictionary families fail bounded transfer.
+Resume: Publish1009;review Palladius/Vitruvius shared test-to-judgment construction.
+Running: No solver;1009publication pending;bounded source-only producer active.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

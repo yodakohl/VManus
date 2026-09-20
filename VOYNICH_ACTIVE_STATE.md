@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1009 FUNCTIONAL TRANSFER STOP: all118remaining whole-context pairs UNSAT in both unchanged encodings;with1008all120bounded contexts closed even allowing aliases and freeing all47old values. Also closes BIJECTIVE without needing projection exhaustion. Local worlds retained;original-only functional enumeration still incomplete but irrelevant to this closure.0words/meaning. [Report](experiments/yolo/gdt1009_transport_functional_complete_context_census/REPORT.md).
+
 GDT1008 FULL SHARED STOP: all6original-plus-context systems UNSAT independently,all47values free.1006/7/8close all120bounded BIJECTIVE chedy contexts;FUNCTIONAL onlytwoextensions closed,original remainder retained. Original local worlds/projection positives stay;0words/meaning. No role/seam/budget repair. [Report](experiments/yolo/gdt1008_transport_complete_shared_lexicon/REPORT.md).
 
 GDT1007 PROJECTED CONTEXTS: all36original role/settings candidates survive same2of120whole contexts;72candidateSAT/4248UNSAT,4440totalqueries independently agree. Both name/reference alternatives remain;34free assignments per witness,all saved maps conflict with original nonprojected words. Full joint alternatives untested;0words/meaning. [Report](experiments/yolo/gdt1007_transport_projected_reference_contexts/REPORT.md).

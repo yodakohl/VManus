@@ -1,4 +1,3 @@
 # GDT1009 — complete functional context census
 
-See PREREGISTRATION.md, METHOD.md and the candidate table in artifacts.
-The existing source grammar and all word values are retained as hypotheses.
+All120registered comparison contexts fail the full shared dictionary model, including aliases. See [REPORT.md](REPORT.md) and [complete candidate table](artifacts/CONTEXT_CLOSURE.tsv). Local hypothetical worlds remain; zero confirmed words.
