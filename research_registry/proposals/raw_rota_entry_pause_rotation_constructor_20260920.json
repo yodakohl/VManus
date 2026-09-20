@@ -1,0 +1,58 @@
+{
+  "title": "Harley rota constructor with cross entry, written pauses and reversed pes",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. The complete Harley MS978 rota packet binds four upper singers, two pes parts, a red cross entry point, written pauses and two opposite pes instructions. A finite operator system lets known repeated event classes carry note relations while whole residual and stave context select delayed entry, terminal pause, middle pause, or immediate repeat. It is distinct from GDT970's closed literal whole-part code test and does not claim target music.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Rota notation and operative instructions, British Library Harley MS978 f11v",
+    "packet": "research_registry/work_batches/ten_hours_20260915/ROTA_SOURCE_EVENTS.json",
+    "scope": "Complete current written note/rest event inventory, two pes parts, six main pauses, red cross marker, and rules R01-R07; lyrics and syllable alignment are outside scope.",
+    "provenance_limit": "The packet records the owning folio and source rules but does not claim a fully settled manuscript date or complete historical rhythm. Duration branches remain explicit conditional readings."
+  },
+  "constructor": {
+    "types": ["VOICE", "PES", "NOTE_EVENT", "PAUSE", "CROSS", "PART", "ENTRY", "REPETITION"],
+    "composition_contract": {
+      "known_parts": "Repeated note/ligature classes carry event identity and pitch relation; no class is translated into a word or phoneme.",
+      "whole_residual": "The complete residual selects START, DELAY_TO_CROSS, WRITTEN_PAUSE, REPEAT_END, or REPEAT_MIDDLE rather than treating every part as an independent note name.",
+      "entry_context": "Physical stave, part (main/upper pes/lower pes), current event ordinal and red-cross ownership determine which operator consumes the repeated event frame.",
+      "identity_rule": "A voice, pes part, note event and pause are distinct records. Repeated pitch or visible mark class does not prove one physical event or one singer."
+    },
+    "operators": [
+      "START(pes_upper,pes_lower,voice1) -> simultaneous_start",
+      "DELAY_TO_CROSS(voice_i,CROSS_AFTER_MAIN_EVENT_9) -> START(voice_i+1)",
+      "PAUSE_WRITTEN(part,pause_locus) -> REST(part,one_written_longa)",
+      "REPEAT_END(upper_pes) -> REPEAT(part,terminal_pause)",
+      "REPEAT_MIDDLE(lower_pes) -> PAUSE_AFTER_MIDDLE + REPEAT_FROM_PRINCIPIUM",
+      "ROTATE(upper_sequence,lower_sequence) -> AB/BA paired pes relation"
+    ],
+    "complete_source_plan": [
+      "R01-R03: four companions may sing; fewer than three or at least two are restricted as written; one begins with the two pes while others are silent.",
+      "R04: when the current singer reaches the first note after the red cross, another begins, and the rule repeats for the others.",
+      "R05: each singer pauses only at written pauses for the source's one-longa instruction; modern beat values remain unresolved.",
+      "R06: one pes repeats as often as needed and ends with a pause.",
+      "R07: the other pes pauses in the middle, not at the end, and immediately repeats its beginning.",
+      "Event inventory: retain all 73 main notes, 6 main pauses, 8 upper-pes notes plus pause, 8 lower-pes notes plus pause, and the documented ligature/erasure uncertainties."
+    ],
+    "worked_trace": "START(PES_A,PES_B,VOICE1) ; DELAY_TO_CROSS(VOICE1,CROSS_AFTER_MN009) -> START(VOICE2) ; PAUSE_WRITTEN(MAIN,MR01) ; REPEAT_END(PES_A) ; REPEAT_MIDDLE(PES_B) -> AB/BA with different pause endpoints. Rival fixed-stagger entry starts each voice at equal time, while rival pause-swap exchanges the terminal and middle pause consequences.",
+    "consequence": "The same event relation yields successive voice entry only at the written cross and preserves opposite pes behavior: one ends with a pause, the other repeats immediately after a middle pause. A fixed stagger or reversed-pause rival predicts a different complete event order without changing pitch names.",
+    "rival": "R-FIXED-STAGGER ignores the cross and starts voices at equal intervals; R-PAUSE-SWAP gives both pes the same terminal pause; R-REVERSE swaps the AB/BA event order. Each disagrees with at least one source-owned rule.",
+    "falsifier": "Reject if the complete source event account cannot derive the cross-delayed entry and the two distinct pes pause/repetition outcomes from fixed context and residual roles, or if the same repeated event class requires occurrence-specific meaning. No target application may treat formal note-shape recurrence as evidence for a musical lexeme.",
+    "duration_symmetry": "Global transposition and unresolved modern duration assignment remain symmetries. C0-C3 packet branches must remain separate; no branch is selected because it gives a convenient target fit."
+  },
+  "predecessors": [
+    {"id": "GDT970", "limit": "Closed literal whole-part conjugacy test; this card is a source-side event/relation constructor and does not reopen that code hypothesis."},
+    {"id": "GDT578", "limit": "Event-keyed renderer preserves a known score's slots; it does not test the cross-delayed entry and opposed pes rules as semantic relations."},
+    {"id": "GDT609", "limit": "Historical notation prior concerns abbreviation families, not a complete musical event/state consequence."}
+  ],
+  "dependencies": [
+    "The packet's current pitch readings, pause classifications and C0-C3 duration alternatives remain conditional.",
+    "The source says four may sing and gives lower bounds; it does not prove an absolute maximum or a universal modern tempo.",
+    "No lyric, syllable, target glyph or language identity is inferred.",
+    "No target data, reserve, image, decoder, experiment, route, ledger, or root file was accessed or changed."
+  ],
+  "relations": [
+    {"type": "related_to", "target": "GDT970"},
+    {"type": "distinct_from", "target": "GDT578"},
+    {"type": "distinct_from", "target": "GDT609"}
+  ]
+}

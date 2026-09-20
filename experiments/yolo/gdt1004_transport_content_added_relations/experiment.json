@@ -1,0 +1,186 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Finite syntax versus world projection attribution; all transport meanings assumed, no independent translation, morphology or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1004_transport_content_added_relations/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1004_transport_content_added_relations/src/validate.py"
+  },
+  "created": "2026-09-20",
+  "dependencies": [
+    "GDT993",
+    "GDT1002",
+    "GDT1003"
+  ],
+  "experiment_id": "GDT1004",
+  "inputs": [
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/TRANSPORT_RAW377_COMPLETE_EXPLORATORY_READING_20260920.json",
+      "role": "fixed_input",
+      "sha256": "12c3751c78408b0738595523dd550cbd2e040a6db3305a15cf7d0372dc191200"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/SPEC.json",
+      "role": "fixed_input",
+      "sha256": "d452ad3b4f8ec9b49de3f4a638e5eac377cb10f32a50981e9989135af1d416dc"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/model.py",
+      "role": "fixed_input",
+      "sha256": "98fd7c5132f9b9d463596a1c31ac061f1f489b13b91f899e34753209298bd247"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/CASES.json",
+      "role": "fixed_input",
+      "sha256": "c193a9929d0bc14a457be115ec58319f945821fdef05527cd39eb00a5900c0c0"
+    },
+    {
+      "path": "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/PANEL.json",
+      "role": "fixed_input",
+      "sha256": "26dd79ab089acdefa2a52aaa6b0eb18ac12baf56d7ea82b373fb2464c9a898ff"
+    },
+    {
+      "path": "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/PREDICTIONS.json",
+      "role": "fixed_input",
+      "sha256": "f640bab9a0a693dfc43a60524cc1d44c93243f8b399ba9053cd7ae450928879e"
+    },
+    {
+      "path": "experiments/yolo/gdt1002_transport_joint_alias_alternatives/artifacts/ROWS.json",
+      "role": "fixed_input",
+      "sha256": "c9eb6bde87eb58a02abc2faae7013f8e32231957b78446fc434144316e8fa51a"
+    },
+    {
+      "path": "experiments/yolo/gdt1003_transport_joint_world_domains/artifacts/PREDICTIONS.json",
+      "role": "fixed_input",
+      "sha256": "4517287e724dbe27e2a6b951c81e058fe123f3559883adcb072be9dab63d95cb"
+    },
+    {
+      "path": "experiments/yolo/gdt1003_transport_joint_world_domains/artifacts/ROWS.json",
+      "role": "fixed_input",
+      "sha256": "24cf6df8d5c7ea3ef7ea794996415316699129d5ea7d6916cefec56415c143d2"
+    },
+    {
+      "path": "experiments/yolo/gdt1003_transport_joint_world_domains/artifacts/VALIDATION.json",
+      "role": "fixed_input",
+      "sha256": "e4d15245cf95512f49ea8cd39a757a1cc76b0aa75e71fc5a6e203220c7521407"
+    },
+    {
+      "path": "experiments/yolo/gdt1002_transport_joint_alias_alternatives/src/solver.py",
+      "role": "fixed_input",
+      "sha256": "6da284ba82bafb434201b345dfe2ee5cd45439ac24a3665a9da6d21e2f8c9e6f"
+    },
+    {
+      "path": "experiments/yolo/gdt1002_transport_joint_alias_alternatives/src/independent.py",
+      "role": "fixed_input",
+      "sha256": "3e0d0e92e86d866b37f7eca685a07714bc307027befb6832d549661eb3469c86"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/validate.py",
+      "role": "fixed_input",
+      "sha256": "f72a69349a4d6faf33d4495b8a72e10681f58fcb3b431fa5edec0f7fbe09e29d"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/src/validate.py",
+      "role": "fixed_input",
+      "sha256": "8db70187d3de8507f6b79a0a529e71179dd33abdb5028670b58a29025b306a4b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/DECISION.md",
+      "role": "source_or_artifact",
+      "sha256": "dca91790b319387009be4fe3a24147512dca7291ba27a89df7cd133432e20c03"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "ed25e5cb10c86bb14ac4dc21b76f03a4a077a9bb4c68eec3912d013ba9807d3a"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "c570867e3bf4ccce5bd616de5346937fdbe092b8d46df6036cff2d3e1736718f"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "526a7cfafec8f397ea1d8172871bed2be175e02862cfe10a7149e8755015af4e"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/README.md",
+      "role": "source_or_artifact",
+      "sha256": "73b41ab408270d9d44003b236fde39d6685094441140681ab8ba9c9544a8095e"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/artifacts/PREDICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "4517287e724dbe27e2a6b951c81e058fe123f3559883adcb072be9dab63d95cb"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/artifacts/PREFLIGHT.json",
+      "role": "source_or_artifact",
+      "sha256": "c6b90bec2feafe4554ee10bf59136c505b60f296b5472cae4f09be5f899f7c5e"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "bc5040fc6dff6a2d0acade0fd4c1c4f476fe5fd23cdd95112af4aeabda20e4ae"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/requirements.txt",
+      "role": "source_or_artifact",
+      "sha256": "193d7d4baeb8f1a617b2434cd608c38b8bb0de5a20ce7f06460e87f6ec825699"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "be0cc02981e1991ec02c08f46726bd05279f34953d623707ea5a518b72d22c96"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "d637f70a83df9cb573c58a492812f37a5e3672858680b65bfa4217b3c16f4261"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/src/grammar.py",
+      "role": "source_or_artifact",
+      "sha256": "d81e3c4b3fde819e2fec1f1987bef49a9781e1b62dfb0a02493310cf589c54f5"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/src/independent.py",
+      "role": "source_or_artifact",
+      "sha256": "cab0514752a3067f3c155e68aef01fffe80845ef8b195f119b3218c33bed69c4"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/src/preflight.py",
+      "role": "source_or_artifact",
+      "sha256": "b1ab1b0d7f0e75b10210c320d519956fee847a5e6398247e54fb7256cf586f67"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "6e1d303d61d3802622525ec655c08c3662db15dbe48bdce45882964cf3d2a436"
+    },
+    {
+      "path": "experiments/yolo/gdt1004_transport_content_added_relations/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "9ce263076ae79c219baa02da1efaed927b1a3c1b2d67d2f0e11a511ca9a46c5f"
+    }
+  ],
+  "question": "Which shared-value relations are imposed by complete transport semantics beyond the unchanged whole-paragraph grammar?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "transport_content_added_relations",
+  "status": "REGISTERED_UNSCORED",
+  "title": "transport content added relations",
+  "updated": "2026-09-20",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

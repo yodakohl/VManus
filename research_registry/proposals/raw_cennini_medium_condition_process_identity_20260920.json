@@ -1,0 +1,63 @@
+{
+  "title": "Cennini face-imprint constructor with status-conditioned medium",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Cennini's complete CLXIII-CLXVI account supplies a finite face-imprint process with a persistent model, cloth/ring enclosure, first mask, second fill, shell break, surviving effigy and optional metal cast. A written status condition changes the water medium while preserving process and form identity. This corrects the source family behind the unsupported Theophilus cast card without modifying that raw card.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Cennino Cennini, Trattato della pittura / Libro dell'arte, CLXIII-CLXVI",
+    "packet": "research_registry/work_batches/ten_hours_20260915/CENNINI_PROCESS_PRODUCT_SOURCE_20260920.json",
+    "edition": "Giuseppe Tambroni, Rome 1821, complete continuous printed chapters; source packet retains every C01-C29 content item.",
+    "provenance": "The medieval work is witnessed by Laurenziana Plut.78.23, copied 1437. The owned wording is the 1821 edition; no direct diplomatic collation of the selected chapter folios is claimed. This supports a pre-1450 work attribution, not every 1821 spelling."
+  },
+  "constructor": {
+    "types": ["MODEL", "ASSISTANT", "FORM", "CLOTH", "TUBE", "MATERIAL", "MEDIUM", "SHELL", "EFFIGY", "METAL", "STATUS"],
+    "composition_contract": {
+      "known_parts": "An ordered process frame consumes actor, enclosure, fill, release and result arguments; reusable components preserve the current FORM and MODEL slots.",
+      "whole_residual": "The complete residual selects MEDIUM_BY_STATUS, POUR, SET, RELEASE, REFILL, BREAK_SHELL or CAST rather than assigning a free noun to each operation.",
+      "entry_context": "Context carries the same MODEL and first FORM through the second fill; status context selects warm rose water for the high-status branch versus warm spring/well/river water for others.",
+      "identity_rule": "MODEL, first hardened MASK, second representation/EFFIGY and optional METAL_CAST are distinct entities. Material continuity is never inferred merely from the repeated word form or method."
+    },
+    "operators": [
+      "SELECT_MODEL(model,age_or_sex_class) -> MODEL",
+      "PREPARE_ENCLOSURE(model,cloth,cap,ring,assistant) -> FORM1",
+      "PREPARE_TUBES(model,metal_tubes) -> BREATHING_ASSEMBLY",
+      "MEDIUM_BY_STATUS(status) -> ROSE_WATER if high_status, otherwise SPRING_OR_WELL_OR_RIVER_WATER",
+      "MIX_GYPSUM(source,water,consistency) -> FILL_MATERIAL",
+      "POUR(FILL_MATERIAL,FORM1,glass,bowl) -> MASK1",
+      "SET(MASK1,short_rest) -> HARD_MASK",
+      "RELEASE(model,cloth,tubes,HARD_MASK) -> PRESERVED_FORM1 + freed_face",
+      "REFILL(FORM1,new_fill) -> REPRESENTATION2",
+      "BREAK_OUTER_SHELL(FORM1) -> DESTROYED_SHELL + EFFIGY(model)",
+      "CAST(EFFIGY,metal_choice) -> OPTIONAL_METAL_CAST"
+    ],
+    "complete_source_plan": [
+      "C01-C02: introduce imprinting as a useful likeness art and select a human model; shaving/appearance constraints remain.",
+      "C03-C08: oil and cover the model, sew the cloth, prepare toothed ring and assistant-held clearance, and pour the first casting enclosure.",
+      "C09-C11: make and place the paired perforated nose tubes; preserve model, tube and assistant roles.",
+      "C12-C15: prepare fresh sifted gypsum; use warm water; pour evenly around the face; retain the high-status rose-water versus ordinary-source-water condition and set level.",
+      "C16-C18: cut cloth, remove tubes, free the face from the first mask and preserve that form.",
+      "C19-C24: surround the same form, oil the cavity, prepare further gypsum with optional brick powder, refill, tap to remove bubbles and rest half to one day.",
+      "C25-C29: break the outer first form while preserving the new likeness, retain the effigy, list copper/metal/bronze/gold/silver/lead casting options, and require competent founders."
+    ],
+    "worked_trace": "SELECT_MODEL(A,high_status) ; PREPARE_ENCLOSURE(A,CLOTH,RING,assistant) ; MEDIUM_BY_STATUS(high_status)=ROSE_WATER ; POUR(MIX_GYPSUM(gypsum,ROSE_WATER,proper),FORM1) ; PRESERVE(FORM1) ; REFILL(FORM1,new_gypsum) ; BREAK_OUTER_SHELL(FORM1) -> EFFIGY(A) ; CAST(EFFIGY,bronze). The ordinary-status rival substitutes warm spring/well/river water while preserving FORM1 and EFFIGY.",
+    "consequence": "Status changes the medium branch but not model identity, enclosure ownership or the later shell-to-effigy transition. A universal-rosewater rival predicts no medium contrast; a form-fuse rival predicts that breaking the first shell destroys the result rather than leaving EFFIGY available for metal casting.",
+    "rival": "R-UNIVERSAL-MEDIUM uses rose water for every model and R-FUSE merges first form, second fill and effigy into one material object. Both disagree with the source-owned condition and identity chain.",
+    "falsifier": "Reject if a complete source account cannot preserve C01-C29, if the status branch changes MODEL or FORM identity, if the first form is not preserved before refill, or if shell break removes rather than releases the effigy. A target application would need a repeated process frame, a context-conditioned medium slot and an independently bound identity transition; absent these, the model is only source architecture."
+  },
+  "predecessors": [
+    {"id": "IDEA000436", "limit": "Theophilus I.1-I.9 was audited and found not to contain a mold/cast sequence; this card uses the complete Cennini source that actually owns it, while leaving 436 bytes unchanged."},
+    {"id": "IDEA000390", "limit": "Theophilus named color/reference/layer relations, not status-conditioned medium and preserved-form identity."},
+    {"id": "IDEA000425", "limit": "Cato layering preserves attached plant/root state; this card concerns an artificial form, medium branch and shell/effigy transition."}
+  ],
+  "dependencies": [
+    "Cennini's 1821 wording, 1437 witness provenance and textual uncertainties remain explicit.",
+    "Rose water versus ordinary water is a status-conditioned source branch, not a claim about target substances or medical efficacy.",
+    "Exact dimensions and water amounts are not silently converted into target quantities.",
+    "No target data, reserve, image, decoder, experiment, route, ledger, or root file was accessed or changed."
+  ],
+  "relations": [
+    {"type": "related_to", "target": "IDEA000436"},
+    {"type": "distinct_from", "target": "IDEA000390"},
+    {"type": "distinct_from", "target": "IDEA000425"}
+  ]
+}

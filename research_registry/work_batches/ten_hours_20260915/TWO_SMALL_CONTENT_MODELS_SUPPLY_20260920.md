@@ -616,3 +616,93 @@ refusal. A target application would have to expose that identity and the
 location/debt split independently. Without those bindings, this remains a
 source-complete exploratory constructor rather than evidence for any target
 meaning.
+
+## K. Three composition-linked raw candidates (IDEA438-440)
+
+These cards are `RAW_UNREVIEWED`, `NOT_SELECTED`. They were added after route
+and targeted predecessor checks while GDT1003 ran. Each makes known component
+order, whole-form residual, and entry context do separate work in a finite
+content contract. None assigns a target lexeme, reopens transport, quantities,
+source-prefix writing, or the closed GDT616 contract.
+
+### IDEA438 — cause/time scope changes prognosis
+
+The complete bounded Hippocratic Prognostic passage owns one adverse appearance,
+an inquiry into sleep/bowels/food, a day-and-night clarification interval, a
+later third/fourth-day repeat inquiry, and distinct severity claims. The proposed
+operators are `OBSERVE`, `ASK`, `EXPLAINED_BY`, `WAIT`,
+`UNEXPLAINED_AND_PERSISTENT`, and `REPEAT_INQUIRY`. A known ordered component
+frame opens observation/query slots; the whole residual selects explained versus
+unexplained scope; entry context selects onset versus later disease stage and
+the patient's own healthy baseline versus comparison with other healthy people.
+
+Its concrete consequence is that the same appearance can yield reduced danger
+when an admitted prior cause explains it, but an imminent-death prognosis when
+no cause is reported and the appearance persists after the written interval.
+The sign-dictionary rival cannot retain this scope change; the cause-erases-
+danger rival turns reduced danger into safety. The packet's Boolean and
+translation ambiguities remain open. Proposal:
+`research_registry/proposals/raw_hippocrates_prognosis_scope_constructor_20260920.json`
+(`IDEA000438`).
+
+### IDEA439 — Cennini status-conditioned medium with preserved form identity
+
+The complete Cennini CLXIII–CLXVI packet owns the model, assistant, cloth/ring
+enclosure, tubes, gypsum, water, first mask, preserved form, second fill,
+outer-shell break, effigy and optional metal cast. `MEDIUM_BY_STATUS` selects
+warm rose water for the high-status model and warm spring/well/river water for
+others, while the process frame and `FORM1` remain stable. The residual selects
+medium, pour, set, release, refill, break, or cast; context carries the model
+and form through the two fills.
+
+The distinguishing consequence is a medium branch without an identity reset:
+status changes water, while the same form is preserved, refilled, and broken to
+release a surviving effigy. Universal-rosewater and form-fusion rivals predict
+different complete traces. This is deliberately separate from IDEA436: its
+Theophilus I.1–I.9 source was audited as lacking any mold/cast chain, whereas
+Cennini's packet explicitly owns C01–C29. Proposal:
+`research_registry/proposals/raw_cennini_medium_condition_process_identity_20260920.json`
+(`IDEA000439`). The 1821 edition/1437-witness provenance and exact textual
+uncertainties remain binding.
+
+### IDEA440 — rota cross-entry and opposed pause/repeat relations
+
+The complete Harley MS978 packet owns 73 main notes, six main pauses, two eight-
+note pes parts, the red cross, and rules R01–R07. `START`, `DELAY_TO_CROSS`,
+`PAUSE_WRITTEN`, `REPEAT_END`, `REPEAT_MIDDLE`, and `ROTATE` operate over note,
+voice, pes, and pause records. Repeated note/ligature classes provide the part
+frame; the whole residual selects entry/pause/repeat phase; stave and part
+context select the current event owner.
+
+The source consequence is relational: one voice begins with the two pes, later
+voices enter at the written cross, one pes repeats with a terminal pause, and
+the other pauses in the middle before immediately repeating its beginning. A
+fixed-stagger, pause-swap, or reversed-pes rival changes the complete event
+order. This is distinct from GDT970's closed literal whole-part conjugacy code
+test and does not infer music from target forms. Proposal:
+`research_registry/proposals/raw_rota_entry_pause_rotation_constructor_20260920.json`
+(`IDEA000440`). Duration branches and global transposition remain explicit
+symmetries.
+
+All three cards retain source provenance, complete-content ownership plans,
+named rivals, and the strongest missing-binding failure. Positive formal
+composition results from GDT608 remain structural only; they do not establish
+that any component carries the proposed semantic operator.
+
+### Duplicate-screen receipt
+
+The bounded `ideas duplicates` screen returned **IDEA000396** for the
+Hippocratic source. IDEA438 is retained only as an explicitly narrower
+composition contract: its observation/query slots, residual-selected
+explained-versus-persistent branch, and onset-versus-day3/4 context are the
+proposed changed design. The source mechanism itself is not new, and IDEA438
+must not be treated as independent source evidence or selected without a
+separate review.
+
+The same screen returned **IDEA000364** and **IDEA000373** near IDEA440. IDEA364
+is a generic persistent-voice-clock architecture and IDEA373 is a target-side
+f83r performance hypothesis; IDEA440 is restricted to the complete Harley
+source's red-cross entry and opposed pes pause/repeat rules. This source
+specialization remains raw and unselected, with no claim that its content is
+novel historical evidence. IDEA439 had no same-declared-design idea result;
+its provenance and source limits remain the principal novelty qualification.

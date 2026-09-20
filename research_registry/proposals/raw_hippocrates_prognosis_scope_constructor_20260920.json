@@ -1,0 +1,63 @@
+{
+  "title": "Hippocratic prognosis constructor with cause and time scope",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. A complete Hippocratic Prognostic passage keeps one observed facial appearance while changing its prognostic consequence according to an explicitly queried prior cause and a day-and-night interval. Known component order supplies observation and query frames, the whole residual selects explained versus unexplained scope, and entry context selects onset versus later disease stage. This is a finite semantic contract, not a target gloss or medical claim.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Hippocratic Prognostic, Part 2, complete bounded passage",
+    "packet": "research_registry/work_batches/ten_hours_20260915/DISCOURSE_CONSTRAINT_RAW_SOURCES_20260920.json",
+    "url": "https://classics.mit.edu/Hippocrates/prognost.2.2.html",
+    "witness": "Francis Adams English translation tradition, institutional MIT digital text; no Greek manuscript or medieval Latin witness is claimed.",
+    "historical_limit": "The host conventionally dates the work around 400 BCE, but precise authorship/date and the exact print exemplar are unresolved in the packet. Historical prognoses are source assertions, not present medical advice."
+  },
+  "constructor": {
+    "types": ["PATIENT", "APPEARANCE", "SITE", "BASELINE", "CAUSE", "TIME_WINDOW", "INQUIRY", "PROGNOSIS"],
+    "composition_contract": {
+      "known_parts": "An ordered part frame creates OBSERVE(feature, site, baseline) and ASK(cause) argument slots; no part receives an English lexeme.",
+      "whole_residual": "The complete residual selects SAME_APPEARANCE, CAUSE_QUERY, EXPLAINED, PERSISTENT, or PROGNOSIS rather than serving as an arbitrary symptom name.",
+      "entry_context": "Context carries the same patient and observed appearance while distinguishing disease ONSET from DAY3_OR4 review and distinguishes the patient's own healthy baseline from comparison with other healthy people.",
+      "scope_rule": "A confessed cause lowers danger for the observed appearance; it does not assert survival. Missing cause plus persistence after the written interval enters the severe branch."
+    },
+    "operators": [
+      "COMPARE(feature,HEALTHY_PEOPLE) -> FAVORABLE_BASELINE",
+      "COMPARE(feature,PATIENT_OWN_HEALTHY) -> MORE_FAVORABLE_BASELINE",
+      "OBSERVE(patient,appearance,site,stage) -> FINDING",
+      "ASK(patient,[SLEEP,BOWELS,FOOD]) -> INQUIRY",
+      "EXPLAINED_BY(finding,admitted_cause) -> REDUCED_DANGER",
+      "WAIT(finding,DAY_AND_NIGHT) -> CAUSE_ORIGIN_CLARIFIED",
+      "UNEXPLAINED_AND_PERSISTENT(finding,interval) -> IMMINENT_DEATH_PROGNOSIS",
+      "REPEAT_INQUIRY(patient,DAY3_OR4) -> SAME_QUERY_FRAME_PLUS_NEW_SIGNS"
+    ],
+    "complete_source_plan": [
+      "H01: examine the countenance first; compare it with healthy people and more strongly with the patient's own healthy appearance.",
+      "H02: retain every adverse face/eye/ear/temple/forehead/color feature as one appearance bundle, not one guessed target noun per feature.",
+      "H03: at onset, if the appearance is not otherwise accounted for, ask about prolonged sleeplessness, loose bowels and lack of food.",
+      "H04: admission of any such cause lowers danger; preserve the day-and-night clarification interval without turning it into a cure.",
+      "H05: retain both later conditions and their unresolved connective scope: none of the causes reported, and symptoms not subsiding in the stated interval.",
+      "H06: at the third or fourth day, repeat the earlier inquiry and add signs on face, body and eyes.",
+      "H07-H10: retain all later eye, eyelid, lip and nose signs, their source severity distinctions, the sleep-eye exclusions, and the final mortal-lips assertion."
+    ],
+    "worked_trace": "OBSERVE(A,FACE_BUNDLE,COUNTENANCE,ONSET) ; ASK(A,[SLEEP,BOWELS,FOOD]) ; EXPLAINED_BY(FACE_BUNDLE,SLEEP) ; WAIT(FACE_BUNDLE,DAY_AND_NIGHT) -> REDUCED_DANGER. Rival branch: UNEXPLAINED_AND_PERSISTENT(FACE_BUNDLE,DAY_AND_NIGHT) -> IMMINENT_DEATH_PROGNOSIS.",
+    "consequence": "The same appearance has different source-prescribed outcomes depending on whether the queried antecedent is admitted and whether it persists after the interval. A complete writer must preserve the inquiry and time scope rather than assigning one fixed prognosis to the appearance.",
+    "rival": "R-SIGN-DICTIONARY maps the appearance directly to one fatal or nonfatal outcome; R-CAUSE-ERASES treats an admitted cause as proof of safety. Both lose the source's reduced-danger qualification, interval check, and later repeat inquiry.",
+    "falsifier": "Reject if a complete source-equivalent account allows the same appearance to receive its severe branch without the written absence/persistence conditions, if the cause query changes the patient identity, or if the later DAY3_OR4 clause cannot repeat the same inquiry frame while adding new signs. A target application would fail if components/context cannot expose observation, cause, scope and time as distinct roles."
+  },
+  "predecessors": [
+    {"id": "IDEA000363", "limit": "Opinion/acceptance changes a contribution claim; this card instead tests one observed sign under cause and time conditions."},
+    {"id": "IDEA000325", "limit": "Conditional treatment has an ordered opposite-treatment sequence; this card has diagnostic inquiry and prognostic scope, not treatment."},
+    {"id": "IDEA000411", "limit": "Shared relation signatures delay lexical values; this card supplies a concrete observation/query/prognosis operator family and a severity rival."},
+    {"id": "GDT608", "limit": "Directed composition and whole residual are formal observations only; they motivate the contract but do not identify target roles."
+    }
+  ],
+  "dependencies": [
+    "The two later if-clauses and the sleep-eye and purgation exclusions retain their source ambiguity; no Boolean repair is fitted.",
+    "Patient identity is account-local; repeated pronouns do not prove one historical patient across separate source cases.",
+    "No source medical claim is promoted to modern efficacy or target meaning.",
+    "No target data, reserve, image, decoder, experiment, route, ledger, or root file was accessed or changed."
+  ],
+  "relations": [
+    {"type": "related_to", "target": "GDT608"},
+    {"type": "distinct_from", "target": "IDEA000363"},
+    {"type": "distinct_from", "target": "IDEA000325"}
+  ]
+}

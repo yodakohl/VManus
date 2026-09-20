@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "unique",
+      "queries": [
+        {
+          "id": "exists"
+        }
+      ],
+      "expected": [
+        "sat"
+      ],
+      "primary": [
+        "sat"
+      ],
+      "independent": [
+        {
+          "id": "exists",
+          "status": "sat"
+        }
+      ]
+    },
+    {
+      "name": "shared_compatible",
+      "queries": [
+        {
+          "id": "exists"
+        }
+      ],
+      "expected": [
+        "sat"
+      ],
+      "primary": [
+        "sat"
+      ],
+      "independent": [
+        {
+          "id": "exists",
+          "status": "sat"
+        }
+      ]
+    },
+    {
+      "name": "shared_conflict",
+      "queries": [
+        {
+          "id": "exists"
+        }
+      ],
+      "expected": [
+        "unsat"
+      ],
+      "primary": [
+        "unsat"
+      ],
+      "independent": [
+        {
+          "id": "exists",
+          "status": "unsat"
+        }
+      ]
+    },
+    {
+      "name": "alternatives",
+      "queries": [
+        {
+          "id": "exists"
+        },
+        {
+          "id": "T",
+          "word": "x",
+          "value": "T"
+        },
+        {
+          "id": "U",
+          "word": "x",
+          "value": "U"
+        },
+        {
+          "id": "M",
+          "word": "x",
+          "value": "M"
+        },
+        {
+          "id": "exhausted",
+          "blocked_tuples": [
+            {
+              "x": "T"
+            },
+            {
+              "x": "U"
+            }
+          ]
+        }
+      ],
+      "expected": [
+        "sat",
+        "sat",
+        "sat",
+        "unsat",
+        "unsat"
+      ],
+      "primary": [
+        "sat",
+        "sat",
+        "sat",
+        "unsat",
+        "unsat"
+      ],
+      "independent": [
+        {
+          "id": "exists",
+          "status": "sat"
+        },
+        {
+          "id": "T",
+          "status": "sat"
+        },
+        {
+          "id": "U",
+          "status": "sat"
+        },
+        {
+          "id": "M",
+          "status": "unsat"
+        },
+        {
+          "id": "exhausted",
+          "status": "unsat"
+        }
+      ]
+    },
+    {
+      "name": "joint_alternative",
+      "queries": [
+        {
+          "id": "T",
+          "word": "x",
+          "value": "T"
+        },
+        {
+          "id": "U",
+          "word": "x",
+          "value": "U"
+        },
+        {
+          "id": "not_exhausted",
+          "blocked_tuples": [
+            {
+              "x": "T"
+            },
+            {
+              "x": "U"
+            }
+          ]
+        }
+      ],
+      "expected": [
+        "sat",
+        "sat",
+        "sat"
+      ],
+      "primary": [
+        "sat",
+        "sat",
+        "sat"
+      ],
+      "independent": [
+        {
+          "id": "T",
+          "status": "sat"
+        },
+        {
+          "id": "U",
+          "status": "sat"
+        },
+        {
+          "id": "not_exhausted",
+          "status": "sat"
+        }
+      ]
+    }
+  ],
+  "scope": "Synthetic unchanged shared grammar and marginal/tuple query interfaces, not manuscript meaning"
+}
