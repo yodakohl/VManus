@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;1004content-added shared relations.
-Latest decision: 1003two joint positives,24tuples;1004compares complete grammar worlds.
-Working files: experiments/yolo/gdt1004_transport_content_added_relations/DECISION.md
-Assumptions: 993meanings fixed;1003shodol=M inheritedsyntax;0independentmeaning.
-Resume: Publish1004freeze;enumerate syntax domains/tuples;compare unchanged1003worlds.
-Running: Root1004to19:54UTC;producer Cennini complete-source audit;no1004targetrun.
+Task: Ten-hour block to22:52:35UTC;retain complete1003/1004content consequences.
+Latest decision: 1004worlds remove14of38syntax tuples;conditional s=dcheor if bothcargo.
+Working files: experiments/yolo/gdt1004_transport_content_added_relations/REPORT.md
+Assumptions: Cargo status unproved;shodol=M syntax;61–62aliases;0independentmeaning.
+Resume: Publish1004closure;review complete Cennini source/constructor before selection.
+Running: Root1004publication;producer Cennini source audit;no other target job.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

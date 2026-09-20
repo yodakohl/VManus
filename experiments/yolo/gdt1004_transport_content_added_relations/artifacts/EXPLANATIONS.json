@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "Post-run exact set comparison and short logical consequences; no new fit",
+  "syntax_tuples": 38,
+  "content_excluded_tuples": 14,
+  "certificates": [
+    {
+      "id": "FINAL_RETURN",
+      "systems": [
+        "P0-3",
+        "P2-4"
+      ],
+      "conditions": [
+        "okaiin=ALONE",
+        "okaiin=RETURN",
+        "dcheor=ALONE"
+      ],
+      "argument": "These values force a return ending immediately before the mandatory conclusion, on f24 or f100. No later trip exists. Agent ends L, but complete goal requires R."
+    },
+    {
+      "id": "TWO_CARGO_CAPACITY",
+      "system": "P2-4",
+      "condition": "dcheor and s are distinct members of W/G/C",
+      "argument": "Both explicitly named cargoes on f96 belong to the initial inventory. At least3voyages are needed to move two cargoes and agent R; mandatory26 plus minimum6voyage groups requires32, exceeding30. All6unequal pairs are impossible."
+    },
+    {
+      "id": "STAY_SLOT",
+      "system": "P2-4",
+      "condition": "dcheor=THERE; s in W/G/C",
+      "argument": "THERE at20 forces STAY19\u201320 because CONCLUSION THERE is28. Mandatory26+STAY2 leaves2groups, exactly one minimum voyage with noTHEN. A cargo at17 must then end CAPACITY13\u201317 or FERRY/EXCLUDE16\u201317. Position18 is uncovered before STAY19, requiring at leastone additional group. Thus no complete coherent layout fits30groups."
+    }
+  ],
+  "conditional_relation": "If s and dcheor both name cargoes, they name the same cargo in this fixed two-paragraph model. Their cargo status itself is not established."
+}

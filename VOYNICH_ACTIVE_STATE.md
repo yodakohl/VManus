@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1004 CONTENT CONTRIBUTION: complete grammar allows38sharedtuples, worlds24;14exclusions independently verified. If s/dcheor bothcargo then samecargo;cargo status itself unproved. shodol=M inheritedsyntax;0words/meaning/independentedge. Retain1003worlds, close ablation without alias repairs. [Report](experiments/yolo/gdt1004_transport_content_added_relations/REPORT.md).
+
 GDT1003 JOINT CONTENT POSITIVE: both overlapping pairs admit complete coherent worlds;8and16shared-value tuples exhausted independently,190queries/0unknowns.10representatives include2cargos/3trips. shodol=M inheritedsyntax;61–62newaliases,0hazardpairs/words/independentmeaning. Retain all24tuples, no glossary/repair. [Report](experiments/yolo/gdt1003_transport_joint_world_domains/REPORT.md).
 
 GDT1002 JOINT ALTERNATIVES: all5transport extensions cannot share997code;2of4overlapping pairs UNSAT independently (oty placement;chor=M/UNHARMED). Other2pairs SATgrammar,semantic alternatives unresolved after2samples. All6disjoint inherited positive pairs retained,0lexical-transfer capacity.0words;no source/grammar repair. [Report](experiments/yolo/gdt1002_transport_joint_alias_alternatives/REPORT.md).
