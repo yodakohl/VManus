@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **989**
-- Experiment-associated tracked files: **19,190** (1.7 GiB)
+- Experiment-associated tracked files: **19,196** (1.7 GiB)
 - Structured GDT337+ experiments: **654**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT990 | GDT990_smaragdina_role_frames_registration | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt990_smaragdina_complete_role_frames/DECISION.md) | 17 | 1.1 MiB | 9 | STRUCTURED_YOLO |
+| GDT990 | GDT990_smaragdina_interrupted_recovery | `INTERRUPTED_FULL_EQUATION_RESULTS_UNRETAINED` | [report](../experiments/yolo/gdt990_smaragdina_complete_role_frames/REPORT.md) | 23 | 4.9 MiB | 9 | STRUCTURED_YOLO |
 | GDT989 | GDT989_theophilus_three_stage_headers | `NO_READABLE_NINE_HEADER_FIT` | [report](../experiments/yolo/gdt989_theophilus_three_stage_headers/REPORT.md) | 25 | 2.6 MiB | 6 | STRUCTURED_YOLO |
 | GDT988 | GDT988_sherwood_typed_conversion_records | `NO_LITERAL_COMPLETE_RECORD_FIT` | [report](../experiments/yolo/gdt988_sherwood_typed_conversion_records/REPORT.md) | 26 | 2.6 MiB | 3 | STRUCTURED_YOLO |
 | GDT987 | GDT987_anastasia_finite_word_proof | `ALL_LITERAL_FIXED_CODES_CONTRADICTED` | [report](../experiments/yolo/gdt987_anastasia_finite_word_proof/REPORT.md) | 22 | 584.0 KiB | 2 | STRUCTURED_YOLO |

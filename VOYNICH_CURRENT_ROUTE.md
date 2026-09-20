@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: fixed_test
 Status: active
-Task: Test complete Tabula content under shared terminal-argument frames.
-Latest decision: GDT990 source/contract fixed;source-only checks pass;no target fit yet.
-Working files: experiments/yolo/gdt990_smaragdina_complete_role_frames/DECISION.md
-Assumptions: Six source branches/four writers;all1349paragraphs;no old glosses.
-Resume: Publish locked990,run all cases,validate and publish by06:24UTC.
-Running: Root990;bounded RAW source supply;earliestend09:05:26UTC.
+Task: Close GDT990 recovery, then select a content-discriminating whole reading.
+Latest decision: GDT99011316necessary contradictions;1980equations unresolved.
+Working files: experiments/yolo/gdt990_smaragdina_complete_role_frames/REPORT.md
+Assumptions: Original public lock unchanged; no solver retry or inferred case outcomes.
+Resume: Publish recovered32376-row table; review RAW content mechanisms.
+Running: No solver; bounded RAW supply; earliest end09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

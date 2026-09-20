@@ -1,0 +1,24 @@
+{
+  "record_id": "GDT990",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root",
+  "assessment_basis": "primary_reports",
+  "reason": "Execution terminated with exit143 before individual outcomes were saved. Deterministic reconstruction covers all32376cases with11316necessary contradictions,19080source unknowns and1980unretained/unresolved equations; separate necessary-condition implementations agree. No conclusion about all full equations or original SAT count. Zero retained witnesses, words or independent meaning capacity.",
+  "relations": [],
+  "blockers": [{
+    "code": "interrupted_unretained_full_equations",
+    "detail": "Progress reports identify only latest status at checkpoints32/64/96, not individual completed cases. Full-code outcomes cannot be inferred; original fixed implementation and source remain unchanged.",
+    "evidence": ["experiments/yolo/gdt990_smaragdina_complete_role_frames/REPORT.md", "experiments/yolo/gdt990_smaragdina_complete_role_frames/INTERRUPTION_NOTE.md"]
+  }],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [{
+      "id": "substantive_new_decision",
+      "change": "new_design",
+      "detail": "Separately registered bounded design with a substantive falsifier and retained case evidence; preserve original interrupted execution and all source/writer uncertainty. No automatic retry or parameter repair.",
+      "evidence": ["experiments/yolo/gdt990_smaragdina_complete_role_frames/INTERRUPTION_NOTE.md"]
+    }],
+    "not_sufficient": ["Assuming every unrecorded case timed out", "Treating absent saved SAT rows as a proof of no code", "Longer automatic solver runtime", "Changing frames or source branches after target exposure"]
+  }
+}
