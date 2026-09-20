@@ -1,0 +1,19 @@
+{
+  "title": "Two complete source paths converge on one downstream destination",
+  "summary": "RAW_UNREVIEWED. A complete passage contains two independently described inputs or preparation paths that converge on one later destination. The semantic consequence is a shared destination relation across nonadjacent whole forms, with directed composition determining which path contributes which role.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "mechanism": "parallel path composition with a single occurrence-scoped destination",
+    "structural_basis": "GDT282/GDT286/GDT318 show transferable opaque wrapper and entry-state structure, while GDT608 shows that whole-form residual identity remains necessary after directed component backoff. This proposal asks for a passage-level convergence consequence, not wrapper translation.",
+    "passage_contract": "Each source must explicitly describe two paths or contributors and one later shared recipient/result. Candidate target passages must contain both path groups and the destination group within a complete bounded record or paragraph; no line adjacency assumption is allowed.",
+    "prediction": "The same destination role is selected by both paths, but path-specific whole forms preserve distinct contribution/order roles. Removing either path should make the destination relation incomplete; a free singleton glossary or nearest-neighbor rule should not reproduce the two-path pattern.",
+    "smallest_test": "Predeclare one source-bound convergence narrative and a bounded target candidate family. Record both path-to-destination edges and path order before scoring; compare against a destination-only and shuffled-path null that preserves complete-form frequencies.",
+    "strongest_likely_failure": "The destination is merely a repeated noun or paragraph endpoint, while the two preceding paths are independent facts. A shared endpoint can therefore mimic convergence without any directed composition.",
+    "falsifier": "Destination-only or shuffled-path controls match the observed two-edge pattern, or the source does not force a single shared result, or no candidate preserves both path roles under one destination.",
+    "source_binding": "Required: a complete independently fixed narrative with two explicit contributors/paths and one shared recipient or result, including the order or conditions under which each contribution reaches it. A source with only repeated nouns is ineligible.",
+    "prior_distinctions": ["GDT697's repeated shared destination is one local microrecord, not two independently described paths", "GDT747's local whole-word supports do not require convergence", "IDEA000341 frames an opener/pivot/closer field rather than two source paths", "No generic count or consistency-only replay is sufficient"],
+    "access": "Already admitted exposed sources only; mixed TSVs must be queried through selector-first vmanus-exp query-tsv. f84, f84r, f116v and reserves remain closed.",
+    "selection_status": "raw_unreviewed; no meaning confirmation or independent blind result"
+  }
+}

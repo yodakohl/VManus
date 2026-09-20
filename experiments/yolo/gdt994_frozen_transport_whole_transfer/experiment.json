@@ -1,0 +1,135 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed inventory/grammar transfer capacity and conditional consistency only;no translated word,independent confirmation,source identification or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt994_frozen_transport_whole_transfer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt994_frozen_transport_whole_transfer/src/validate.py"
+  },
+  "created": "2026-09-20",
+  "dependencies": [
+    "GDT928",
+    "GDT993"
+  ],
+  "experiment_id": "GDT994",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "fixed_input",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/METHOD.md",
+      "role": "fixed_input",
+      "sha256": "b97f6278d0d8ef59c547a6440158be3a8501bde85ab202b34f0d7d807a81e314"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/REPORT.md",
+      "role": "fixed_input",
+      "sha256": "bf1c8e05e28acc6f18286a5ad33a9f6bf839226a6b7308a2eb0a2dea98d6d5dd"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/PREREG_LOCK.json",
+      "role": "fixed_input",
+      "sha256": "7c71ddfe8adba37a2466756b7d6bb8824f7df0f624b8655d4ec4a5c66c05db96"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/SPEC.json",
+      "role": "fixed_input",
+      "sha256": "d452ad3b4f8ec9b49de3f4a638e5eac377cb10f32a50981e9989135af1d416dc"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/model.py",
+      "role": "fixed_input",
+      "sha256": "98fd7c5132f9b9d463596a1c31ac061f1f489b13b91f899e34753209298bd247"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/validate.py",
+      "role": "fixed_input",
+      "sha256": "f72a69349a4d6faf33d4495b8a72e10681f58fcb3b431fa5edec0f7fbe09e29d"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/CASES.json",
+      "role": "fixed_input",
+      "sha256": "c193a9929d0bc14a457be115ec58319f945821fdef05527cd39eb00a5900c0c0"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/RESULT.json",
+      "role": "fixed_input",
+      "sha256": "6fd89c8144eb47ae8cde90e6ad4bb67a23a916c08eb7c90149952e59508901f8"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/VALIDATION.json",
+      "role": "fixed_input",
+      "sha256": "f6e05d350bf22671982dee6459a9718a8a72982a502d179fd4b599af5aa2e5d3"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/TRANSPORT_RAW377_COMPLETE_EXPLORATORY_READING_20260920.json",
+      "role": "fixed_input",
+      "sha256": "12c3751c78408b0738595523dd550cbd2e040a6db3305a15cf7d0372dc191200"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "c63e96a3fee323c46662e31d4dd35d2aa8cb49a87aa0ccc35031083fc1a9df47"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "248f33dadf9438be5083c37f9341ca8f0e7eaf2273c9830edd28ad949e5cbed9"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "17edbff3a1c3d73583cb36646b416616d09a0cde1f894faa183089c0d49b39c7"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/README.md",
+      "role": "source_or_artifact",
+      "sha256": "8204c96fc44fd8ba64f845b4092eb4e1e1aebe72e72216f79cb0bf926e1ed335"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/REPORT.md",
+      "role": "primary_report",
+      "sha256": "7d31ba6cb4222b2003af9aa492270d85de54d5c907fa682248d0814351363831"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "169555414085212e368ae3ecab3f1daa4eae4db16c6445be8bfc8ce22829624d"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "a219830fbdd3663bb0a104cb51405de12911ae0bcf73398e904f60d5deead7d2"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "8db70187d3de8507f6b79a0a529e71179dd33abdb5028670b58a29025b306a4b"
+    }
+  ],
+  "question": "Does the unchanged GDT993 lexicon and finite grammar read any additional complete already exposed paragraph?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "frozen_transport_whole_transfer",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Frozen transport reading: complete-paragraph transfer capacity",
+  "updated": "2026-09-20",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

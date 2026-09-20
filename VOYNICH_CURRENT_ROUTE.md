@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: Retain993conditional reading;select a consequence outside the fitted paragraph.
-Latest decision: 4/32consistent,28contradicted;one surviving class;validator PASS.
-Working files: experiments/yolo/gdt993_complete_transport_consequence_audit/REPORT.md
-Assumptions: 41new meanings;uncertain ZL seam;IT no full reading;0words/independent.
-Resume: Propose one whole exposed transfer with frozen403meanings;404cannotconfirm.
-Running: None;bounded producer404complete;time gap not counted as active work.
+Phase: fixed_test
+Status: active
+Task: Ten-hour block12:52:35-22:52:35UTC;frozen993whole-transfer capacity first.
+Latest decision: 993retained;no grammar or gloss repair;all928paragraphs scoped.
+Working files: research_registry/work_batches/ten_hours_20260915/WHOLE_CONTENT_SELECTION_20260920.md
+Assumptions: 41new meanings;uncertain ZL seam;0words/independent;all sources exposed.
+Resume: Publish994registration,run/validate all1349paragraphs;close by13:20UTC.
+Running: Bounded Luna idea supply to13:35;root prepares fixed whole-transfer test.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

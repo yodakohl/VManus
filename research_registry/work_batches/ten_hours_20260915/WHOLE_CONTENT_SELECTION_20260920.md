@@ -283,3 +283,46 @@ introduced. A fresh consistency replay of404alone would again merely verify
 stipulations and would not distinguish manuscript meanings; no such solver is
 selected. Further selection must specify a new empirical consequence and
 bounded source/primary review.993closed variants and all older failures remain.
+
+
+## New user-requested ten-hour block:12:52:35–22:52:35UTC
+
+The user explicitly requested another ten hours on2026-09-20. Root began at
+12:52:35UTC; earliest intended checkpoint22:52:35UTC. This is a fresh work block,
+not a claim that the earlier unobserved timestamp gap was active research.
+The old tool-level three-hour goal is usageLimited and is not falsely completed
+or silently resumed. Route and this existing dossier carry the live work.
+No new time-tracking system, reserve admission or outside contact.
+
+First selection: frozen403/GDT993 whole-reading transfer capacity. Relevant
+composition baseline,993,261,344,792,928 and403assessed review read.261's failed
+adjacent component specificity,344's uncalibrated event instrument,792's
+unselected otedy/okal meanings and928's zero multi-anchor capacity remain.
+The new input is the actual47whole-value/17production frozen993inventory, not
+another general literal-anchor, component-address or event-path search.
+
+Genuine unknown: does that exact inventory and finite grammar cover ANY complete
+additional paragraph already admitted in928? A candidate with a complete parse
+can then have all four993survivors executed without new guesses. If no candidate
+exists, park unchanged transfer and do not select a nearly covered fragment or
+invent more singleton glosses. This does not refute the47meanings or any larger
+unspecified grammar: lexical incompleteness, fixed-fragment parse failure and
+semantic contradiction are separate outcomes.
+
+Smallest adequate fixed check: every paragraph in928's three-reader cache;
+retain each raw group/uncertain boundary and complete paragraph ownership.
+Report all rows partitioned by original source paragraph,other same physical
+leaf83 and other already exposed leaves. No new independent holdout:capacity0.
+Check literal lexicon membership first; unknown whole forms never normalized.
+Only fully covered paragraphs enter the unchanged993parser; only complete
+compiled parses enter its exact executor with V00,V02,V04,V06. RF has no complete
+paragraphs and remains capacity-missing. No partial clause or favorable phrase
+is promoted as a translated passage. All positives/unknowns/failures retained.
+
+Inclusive preparation/run/validation/publication budget: through13:20UTC.
+No new decoder, learned dictionary, altered clause model or retry expansion.
+An independently written recognizer/inventory checker verifies full-row coverage;
+the existing independently implemented993replay checks executable cases. Same
+author and previously exposed source, no semantic independence or significance.
+A bounded Luna producer independently supplies raw proposals by13:35 while root
+executes this selected question; supply is not unreviewed scientific selection.
