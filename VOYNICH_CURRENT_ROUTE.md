@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Construct complete Balneis condition-content model before target selection.
-Latest decision: 371 retained/no result binding;Averyanov no content test;967 unchanged;0words.
-Working files: research_registry/work_batches/ten_hours_20260915/BALNEIS_COMPLETE_GUARD_DECISION_20260920.md
-Assumptions: Source claims/conditions,not executed trajectories;no default Latin;reserves closed.
-Resume: Read all VII/XI/XIX/XXXIII clauses;draft complete shared content by01:20UTC.
-Running: Root source construction;bounded producer active;earliestend09:05:26UTC.
+Task: Specify one complete Anastasia content/writing hypothesis before target fitting.
+Latest decision: All48Balneis lines covered;85/397 unresolved;four-record compiler stopped;0words.
+Working files: research_registry/work_batches/ten_hours_20260915/BALNEIS_COMPLETE_CONTENT_20260920.md
+Assumptions: Claims,not executed water trajectory;source variants separate;reserves closed.
+Resume: Freeze all12XI lines,argument owners and writing contract;no selected target yet.
+Running: Root closes source work by01:20UTC;producer5RAW pending;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

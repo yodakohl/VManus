@@ -1,0 +1,306 @@
+{
+  "schema": "balneis-complete-content-coverage-v1",
+  "status": "SOURCE_DRAFT_NO_TARGET_CONTRACT",
+  "source_path": "research_registry/work_batches/ten_hours_20260915/balneis_cache/ALIM553.txt",
+  "source_sha256": "397968f02fc5faf54161f2c0df9e7557f96d36e649a27a140e64c2cfe0c69ecd",
+  "interpretation_path": "research_registry/work_batches/ten_hours_20260915/BALNEIS_COMPLETE_CONTENT_20260920.md",
+  "interpretation_sha256": "a7cdf6dbaa8d8ada9ecc3efb091aa640a72d0e3abbbba67a9af1315566491c01",
+  "covered_source_lines": 48,
+  "semantic_resolution_complete": false,
+  "unresolved_main_relation_lines": [
+    85,
+    397
+  ],
+  "target_accesses": 0,
+  "confirmed_voynich_words": 0,
+  "rows": [
+    {
+      "source_line": 74,
+      "source_exact": "VII. [Foris Cripte] - Limpha foris cripte iuxta maris edita litus",
+      "content_obligation": "The named water emerges/is situated beside the sea shore.",
+      "representation_scope": "`LOCATE(W,NEAR(sea_shore))`; introduction of the named bath/water. “edita” retains emergence versus situation as a lexical nuance."
+    },
+    {
+      "source_line": 75,
+      "source_exact": "A stomacho pellit debilitatis onus.",
+      "content_obligation": "It removes the burden of weakness from the stomach.",
+      "representation_scope": "`AFFECT(W,stomach,REMOVE(weakness))`; burden metaphor retained in the wording, not a separate measured load."
+    },
+    {
+      "source_line": 76,
+      "source_exact": "Sed nocet ydropicis, cum sit dulcissima potu:",
+      "content_obligation": "It harms dropsical recipients although very sweet to drink.",
+      "representation_scope": "`CONTRAST(ATTRIBUTE(W,sweet,drink,very),AFFECT(W,P[hydrops],harm))`; sweetness is no positive-effect entailment."
+    },
+    {
+      "source_line": 77,
+      "source_exact": "Vim consumendi non habet, unde nocet",
+      "content_obligation": "It lacks a consuming/reducing power; that explains the harm.",
+      "representation_scope": "`CAUSE(NEGATE(HAS_POWER(W,consume)),harm76)`; object of “consume” is not supplied by the line. Do not silently insert a particular humour."
+    },
+    {
+      "source_line": 78,
+      "source_exact": "Leniter ignitos assueta refrigerat artus.",
+      "content_obligation": "It is accustomed to cool heated limbs gently.",
+      "representation_scope": "`HABITUAL(AFFECT(W,limbs[heated],cool,gently))`; ALIM ignitos versus native inignitos/ignitos reading noted below."
+    },
+    {
+      "source_line": 79,
+      "source_exact": "Pulmonem lesum sanat et inde Jecur.",
+      "content_obligation": "It heals an injured lung and then/also the liver.",
+      "representation_scope": "Two owned effects on lung and liver; `inde` leaves temporal versus connective nuance open. Injury is explicit for lung, not automatically copied to liver."
+    },
+    {
+      "source_line": 80,
+      "source_exact": "Pectoris antidotum, tussis medicamen amicum.",
+      "content_obligation": "It is a remedy for the chest and a friendly remedy for cough.",
+      "representation_scope": "Two benefit descriptions, chest and cough; “friendly” evaluative modifier retained. They are not two identical claims about one organ."
+    },
+    {
+      "source_line": 81,
+      "source_exact": "Desiccata febris caumate membra rigat",
+      "content_obligation": "It moistens limbs dried by the burning heat of fever.",
+      "representation_scope": "`AFFECT(W,limbs[DRIED_BY(heat[fever])],moisten)`; causal qualification belongs to the patient's limbs."
+    },
+    {
+      "source_line": 82,
+      "source_exact": "Ip[s]a per occultos telluris ducta meatus",
+      "content_obligation": "That water is led through hidden passages of the earth.",
+      "representation_scope": "`PASSAGE(W,hidden(earth_channels))`; same referent as next line, not a new independent application command."
+    },
+    {
+      "source_line": 83,
+      "source_exact": "Subuenit egrotis est quibus egra cutis.",
+      "content_obligation": "It helps sick people whose skin is diseased.",
+      "representation_scope": "`AFFECT(W,P[sick AND diseased(skin)],benefit)`; the skin condition is retained."
+    },
+    {
+      "source_line": 84,
+      "source_exact": "Ut dicunt veteres: satis est mirabile dictu.",
+      "content_obligation": "The ancients are cited; the stated matter is remarkable to tell.",
+      "representation_scope": "`REPORT(ancients,claim85)` plus `EVALUATE(claim85,remarkable)` is the provisional forward scope; a wider closing scope remains possible."
+    },
+    {
+      "source_line": 85,
+      "source_exact": "Ipsa foris cripte bulla ministrat aquam.",
+      "content_obligation": "A water-supply relation involving Foris Cripte and Bulla.",
+      "representation_scope": "`SUPPLY(source,destination,water)` with unresolved orientation across witnesses; no fixed Bulla-to-Foris edge is licensed from this collation."
+    },
+    {
+      "source_line": 123,
+      "source_exact": "Ascribunt homines tibi, nastasia, lauacrum",
+      "content_obligation": "People attribute/dedicate this bath to Anastasia.",
+      "representation_scope": "`ATTRIBUTE(people,B,Anastasia)`; an attribution statement, not merely an arbitrary bath-name token."
+    },
+    {
+      "source_line": 124,
+      "source_exact": "Usibus humanis comoda multa facit.",
+      "content_obligation": "It provides many advantages for human use.",
+      "representation_scope": "`AFFECT(B,human_use,benefit,many)`; general evaluative introduction."
+    },
+    {
+      "source_line": 125,
+      "source_exact": "Corporis ingrati recreatos efficit artus.",
+      "content_obligation": "It refreshes the limbs of the “ingratus” body.",
+      "representation_scope": "`AFFECT(W,limbs(body[ingratus]),refresh)`; sick/unpleasant/ungrateful nuance is not resolved into a new clinical diagnosis."
+    },
+    {
+      "source_line": 126,
+      "source_exact": "Virtutes eciam corporis unda novat.",
+      "content_obligation": "The water also renews the body's powers.",
+      "representation_scope": "`AFFECT(W,powers(body),renew)`; renewal here concerns bodily powers, not replacement of the water in134."
+    },
+    {
+      "source_line": 127,
+      "source_exact": "Res miranda quidem quicunq[u]e cauabit arenam,",
+      "content_obligation": "A remarkable fact: whoever digs the sand…",
+      "representation_scope": "`EVALUATE(claim128,remarkable)` and `CONDITION(DIG(P,sand),claim128)`; not a completed event in one patient's biography."
+    },
+    {
+      "source_line": 128,
+      "source_exact": "In medio fosse feruida manat aqua.",
+      "content_obligation": "…hot water flows in the middle of the hole.",
+      "representation_scope": "`FLOW(W[hot],AT(middle(hole_from127)))`; owner of the hole is the digging clause."
+    },
+    {
+      "source_line": 129,
+      "source_exact": "Illa recens in fonte suo sinthomata tollit,",
+      "content_obligation": "That water, fresh in its own spring, removes symptoms…",
+      "representation_scope": "`AFFECT(W[fresh AND at(own_spring)],P,REMOVE(symptoms))`, under130."
+    },
+    {
+      "source_line": 130,
+      "source_exact": "Languidus ardorem si paciatur aque.",
+      "content_obligation": "…if the sick person can endure the water's heat.",
+      "representation_scope": "`CONDITION(ENDURE(P[sick],heat(W)),claim129)`; this is a recipient guard, not a guarantee for every user."
+    },
+    {
+      "source_line": 131,
+      "source_exact": "Fonte relicta suo nichil affert utilitatis;",
+      "content_obligation": "Removed from its spring, it brings no utility.",
+      "representation_scope": "`AFFECT(W[removed_from(own_spring)],P,utility,none)`; **not** “water left at its source”."
+    },
+    {
+      "source_line": 132,
+      "source_exact": "Hec eadem prodest frigida facta parum.",
+      "content_obligation": "The same water, made cold, is of little benefit.",
+      "representation_scope": "`AFFECT(W[cooled],P,benefit,little)`; same kind/referent is stated, but no executed cooling event or location is fixed."
+    },
+    {
+      "source_line": 133,
+      "source_exact": "Qui petit ergo sui bene de langore iuuari,",
+      "content_obligation": "Whoever seeks good relief from their illness…",
+      "representation_scope": "`SEEK(P,RELIEF(own_illness,well))`; native witness says cito, quickly, in place of ALIM bene, well."
+    },
+    {
+      "source_line": 134,
+      "source_exact": "Senciet auxilium, si renouabit aquam.",
+      "content_obligation": "…will experience help if they renew the water.",
+      "representation_scope": "`CONDITION(RENEW(P,W),AFFECT(W,P,benefit))`; antecedent P comes from133. Water replacement versus refreshing is a lexical uncertainty, not automatic physical identity conservation."
+    },
+    {
+      "source_line": 219,
+      "source_exact": "XIX. [Culma] - Inter aquas alias mirabile culma lauacrum.",
+      "content_obligation": "Culma is remarkable among other baths/waters.",
+      "representation_scope": "`COMPARE(B,other_baths,remarkable)`; an introduction and evaluation."
+    },
+    {
+      "source_line": 220,
+      "source_exact": "Huius ad accessum non via recta patet.",
+      "content_obligation": "Its approach has no straight path.",
+      "representation_scope": "`NEGATE(STRAIGHT(path_to(B)))`; concerns access, not water flow."
+    },
+    {
+      "source_line": 221,
+      "source_exact": "Ymo per obliquum medicis accreditur undis;",
+      "content_obligation": "Instead the waters are reached by a winding/oblique route.",
+      "representation_scope": "`APPROACH(P,W,oblique_path)`; ALIM medicis versus native apparent modicas is left as a source variant."
+    },
+    {
+      "source_line": 222,
+      "source_exact": "Monstrat iter dubium preuia flamma tibi.",
+      "content_obligation": "A flame going ahead shows the uncertain way to you.",
+      "representation_scope": "`SHOW(preceding_flame,path[uncertain],P)`; an access aid, not a written heating operation on the water."
+    },
+    {
+      "source_line": 223,
+      "source_exact": "Unda lateris intus sudorem prouocat intus.",
+      "content_obligation": "The interior/hidden water provokes sweating within.",
+      "representation_scope": "`AFFECT(W,P,CAUSE(sweating))`; native latens versus ALIM lateris changes the description of W and is retained."
+    },
+    {
+      "source_line": 224,
+      "source_exact": "Et facit ad neruos quos graue flegma grauat.",
+      "content_obligation": "It helps nerves weighed down by heavy phlegm/rheum.",
+      "representation_scope": "`AFFECT(W,nerves[BURDENED_BY(heavy(humour))],benefit)`; the two witnesses use flegma/reuma. No automatic modern diagnostic equivalence."
+    },
+    {
+      "source_line": 225,
+      "source_exact": "Luminibus lumen reddit, vestigia claudis,",
+      "content_obligation": "It restores sight to eyes and steps to the lame…",
+      "representation_scope": "Two restoration effects: vision and walking; guard226 provisionally scopes both."
+    },
+    {
+      "source_line": 226,
+      "source_exact": "Passio ni fuerit inueterata diu.",
+      "content_obligation": "…unless the ailment has been established for a long time.",
+      "representation_scope": "`CONDITION(NOT(longstanding(D)),effects225)`; not an unconditional cure. A broader backward scope would be a different source analysis."
+    },
+    {
+      "source_line": 227,
+      "source_exact": "Rem loquitur certam non est incognita multis:",
+      "content_obligation": "The assertion is called certain and known to many.",
+      "representation_scope": "`REPORT(speaker,certainty(claim228))` and `KNOWN_TO(claim228,many)`; provisional forward scope, not independent clinical evidence."
+    },
+    {
+      "source_line": 228,
+      "source_exact": "Culma nocet sanis, morbida membra iuuat.",
+      "content_obligation": "Culma harms the healthy and helps diseased limbs.",
+      "representation_scope": "Two recipient-conditioned effects of opposite polarity; generic “helps” does not erase the specific chronicity guard on225."
+    },
+    {
+      "source_line": 229,
+      "source_exact": "Hac igitur caueat ui non eget arte medendi;",
+      "content_obligation": "Therefore one who does not need treatment should avoid it.",
+      "representation_scope": "`ADVISE(P[NOT(need_treatment)],AVOID(B))`; a recommendation with a recipient condition."
+    },
+    {
+      "source_line": 230,
+      "source_exact": "Quam si forte peti, nitet in amne moram.",
+      "content_obligation": "One who nevertheless seeks it should avoid lingering in the water.",
+      "representation_scope": "Native `uitet … moram` supports `ADVISE(visitor,AVOID(long_stay_in_water))`; ALIM's nitet/peti wording is not silently replaced. Antecedent scope, all visitors versus the preceding healthy person, remains explicitly open."
+    },
+    {
+      "source_line": 393,
+      "source_exact": "XXXIII. [De Cruce] - Hoc lauacrum Crucis satis est laudabilis unda.",
+      "content_obligation": "The water/bath of the Cross is strongly praised.",
+      "representation_scope": "`EVALUATE(W_of_Cross,praiseworthy,very)`; witness rubric says Sancta Lucia while the body says Crucis. Keep both identities, not a silent equation."
+    },
+    {
+      "source_line": 394,
+      "source_exact": "Quibus podagra iam indurata fuit.",
+      "content_obligation": "The praise/benefit concerns people whose gout is already hardened/has dominated.",
+      "representation_scope": "`RECIPIENT(P[podagra AND established])` attached to393; ALIM iam indurata and native condominata differ."
+    },
+    {
+      "source_line": 395,
+      "source_exact": "Confortata neruos et fleuma expellit ab ip[s]is",
+      "content_obligation": "It strengthens nerves and expels phlegm from them.",
+      "representation_scope": "`AFFECT(W,nerves,strengthen)` and `EXPEL(W,phlegm,FROM(nerves))`; them has an explicit local owner."
+    },
+    {
+      "source_line": 396,
+      "source_exact": "Prodest ydropicis qui exfleumate grosso.",
+      "content_obligation": "It helps dropsical recipients with a specified phlegmatic cause.",
+      "representation_scope": "`AFFECT(W,P[hydrops CAUSED_BY(phlegm[qualifier])],benefit)`; qualifier ALIM grosso, native salso. Do not remove this condition to manufacture an exact counterpart to VII."
+    },
+    {
+      "source_line": 397,
+      "source_exact": "Consueuit eam splene tumente Jecur.",
+      "content_obligation": "A clause mentioning consumption, a swollen spleen and liver.",
+      "representation_scope": "ALIM Consueuit eam versus native Ipsam consumit: syntax/argument direction unresolved. No definite cure or consumption triple is asserted. This blocks a fully resolved four-record compiler."
+    },
+    {
+      "source_line": 398,
+      "source_exact": "Proficit et ventris qui ypocondri grauat.",
+      "content_obligation": "It benefits a belly suffering a hypochondrial burden.",
+      "representation_scope": "`AFFECT(W,belly[BURDENED_BY(hypochondrial_condition)],benefit)`; source grammar differs across witnesses. Preserve the historical category, not a modern psychiatric meaning."
+    },
+    {
+      "source_line": 399,
+      "source_exact": "Ad guttam frigidam que est imbita neruis",
+      "content_obligation": "For cold gout lodged in the nerves…",
+      "representation_scope": "`RECIPIENT(P[cold_gout AT(nerves)])`, governing advice400."
+    },
+    {
+      "source_line": 400,
+      "source_exact": "Frequentant aquam que euacuata crescit.",
+      "content_obligation": "…frequent the water, which grows as it is emptied.",
+      "representation_scope": "`ADVISE(P,REPEAT(visit(W)))` and `RELATION(emptying(W),increase(W))`; not an unbounded physical law or self-replicating volume."
+    },
+    {
+      "source_line": 401,
+      "source_exact": "Vidi quendam ego ad balneum sepe balneare",
+      "content_obligation": "The speaker saw someone repeatedly bathe/visit here.",
+      "representation_scope": "`WITNESS(speaker,REPEAT(visit(P0,B)))`; an explicitly introduced individual."
+    },
+    {
+      "source_line": 402,
+      "source_exact": "Qui minime poterat ad os porrigere manum",
+      "content_obligation": "That person had been unable to bring a hand/hands to the mouth.",
+      "representation_scope": "`NEGATE(ABLE(P0,BRING(hand,TO(mouth))))`; same P0, not a new generic patient."
+    },
+    {
+      "source_line": 403,
+      "source_exact": "Tempore in breui aque virtute fluendi",
+      "content_obligation": "After a short time, through enjoyment of the water's power…",
+      "representation_scope": "`TEMPORAL(short_interval,claim404)` and `CAUSE(power(W),claim404)` are attributed by the speaker, not independently established."
+    },
+    {
+      "source_line": 404,
+      "source_exact": "Teste michi multo cito discessit sanus.",
+      "content_obligation": "…the person departed/returned healthy, under an explicit witness formula.",
+      "representation_scope": "`BECOME(P0,healthy)` plus return/departure and `WITNESS(...)`; ALIM many witnesses versus native Christ as witness are different claims, retained separately."
+    }
+  ]
+}

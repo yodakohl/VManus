@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+BALNEIS SOURCE CHECKPOINT: all48lines VII/XI/XIX/XXXIII and four Bodmer135 native pages represented before target selection. Supply85/main relation397 unresolved; no full four-record compiler. XI retains attribution/digging, heat tolerance, removed/cooled overlap and distinct renewal objects; candidate for separate complete writing decision only. GDT967 unchanged;0words. Primary: research_registry/work_batches/ten_hours_20260915/BALNEIS_COMPLETE_CONTENT_20260920.md
+
 GDT985: Under NEW same-portion/current-source assumptions, full f75v40–42 is consistent and sheolo must carry B→A; three tables remain. All old viable process readings survive; 0 words or independent confirmation. Do not export a verb or expand global state tests without a whole source/participant construction. [Report](experiments/yolo/gdt985_f75v_source_availability_continuation/REPORT.md).
 
 GDT984 PREFIX-PROJECTION STOP: all607 non-name slots must be prefix-incomparable with both fixed names;8256/8986 active rows survive(91.8763%),730new contradictions;1207classes,52IRIS/136XIPHIONvalues. All441530localcases independently replayed;all1207stored boundary examples fail repeated-atom equality,not full codes. Registered90%stop;no serial projection/automatic963/978 restart. Original four977 exclusions and unknowns unchanged;0words/independent. Next review complete f80r.14 mirror RAW proposal against943 and whole context before selection. Primary: experiments/yolo/gdt984_name_code_remainder_prefix_capacity/REPORT.md
