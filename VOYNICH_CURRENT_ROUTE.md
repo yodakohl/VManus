@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour block to22:52:35UTC;close1010 and test finite-layout meaning route.
-Latest decision: 1010validated:278long exclusions;4grammar candidates,8failed samples.
-Working files: experiments/yolo/gdt1010_transport_long_complete_contexts/REPORT.md
-Assumptions: Full semantic alternatives open;8saved original layouts225maps each need proof.
-Resume: Publish1010;register layout-completeness/factored meaning test if adequate.
-Running: No solver;1010publication pending;bounded source producer completed RAW459.
+Task: Ten-hour block to22:52:35UTC;1011finite layout/content test for4long systems.
+Latest decision: 1010public:200d55056;4grammar spaces open;8saved layouts bound1800maps.
+Working files: experiments/yolo/gdt1011_transport_factored_layout_meanings/DECISION.md
+Assumptions: Must prove8layout completeness before1800map census;all source rules fixed.
+Resume: Register1011;coverage proof,all maps/settings,all surviving-code extensions.
+Running: No solver yet;checkpoint22:42UTC;source-only producer finished no new card.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

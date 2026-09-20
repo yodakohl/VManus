@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1009**
-- Experiment-associated tracked files: **19,784** (1.8 GiB)
-- Structured GDT337+ experiments: **674**
+- Experiments indexed: **1010**
+- Experiment-associated tracked files: **19,811** (1.8 GiB)
+- Structured GDT337+ experiments: **675**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1011 | transport factored layout meanings | `REGISTERED_UNSCORED` | — | 27 | 88.1 KiB | 9 | STRUCTURED_YOLO |
 | GDT1010 | GDT1010 | `278_LONG_SYSTEMS_EXCLUDED_FOUR_GRAMMAR_CANDIDATES_OPEN` | [report](../experiments/yolo/gdt1010_transport_long_complete_contexts/REPORT.md) | 36 | 1.3 MiB | 8 | STRUCTURED_YOLO |
 | GDT1009 | GDT1009 | `ALL_120_COMPLETE_FUNCTIONAL_CONTEXTS_EXCLUDED` | [report](../experiments/yolo/gdt1009_transport_functional_complete_context_census/REPORT.md) | 34 | 316.0 KiB | 7 | STRUCTURED_YOLO |
 | GDT1008 | GDT1008 | `REFUTED_SPECIFIC_MODEL` | [report](../experiments/yolo/gdt1008_transport_complete_shared_lexicon/REPORT.md) | 35 | 107.6 KiB | 6 | STRUCTURED_YOLO |
