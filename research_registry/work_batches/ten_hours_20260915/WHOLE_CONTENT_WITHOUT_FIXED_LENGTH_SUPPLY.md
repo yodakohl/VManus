@@ -608,6 +608,38 @@ grouping/adjacency debt. GDT986/987, Geniza GDT966, and Alloy R1/R2 were treated
 as closed or refuted predecessor contracts rather than silently reopened. The
 new card therefore remains unreviewed and source-to-target binding is unknown.
 
+### IDEA000414 bounded f83r.25–30 composition audit (2026-09-20)
+
+The complete source checkpoint was read before attempting the requested writer:
+`BALNEIS_COMPLETE_CONTENT_20260920.md` covers all 48 physical lines in VII,
+XI, XIX and XXXIII. Its XI passage keeps fresh-at-source, heat tolerance,
+removal, cooling and renewal distinct, and separately distinguishes renewal of
+bodily powers from renewal of water. It also retains the removed/cooled overlap
+and unresolved clauses and witness variants in the other three records. Thus
+the four-state sequence in RAW 414 is an explicit working abstraction, not an
+executed conserved-water trajectory.
+
+The exact six report-owned target lines were checked in
+`translation_programs_20260912/work/P12/READING_L1.md` (the raw card's P28
+path is left unchanged). A separate audit at
+`BALNEIS_414_F83R2530_COMPOSITION_AUDIT_20260920.md` first records the original
+414-only gap and the mechanically invalid V1, then supplies V2 with exact
+surface assembly and explicit argument consumption. V2 assigns one global
+function to all 33 groups, including the repeated `shckhedy` list-item frame,
+and keeps `cheey=che+ey` without inventing an explicit-recipient `e`. The
+source constructor now includes Anastasia attribution, many advantages,
+digging, hot water in the hole's middle, heat tolerance, and the distinct
+renewal objects. The raw card's malformed 63-character digest and f83r.26
+locus mismatch are documented without repair.
+
+Root review corrects the completion claim: all24distinct forms/33positions
+assemble exactly, but the29atomicparts (22new) do not yet derive the claimed
+whole outputs or conditional/reference scopes. The complete source list is
+not an executed parse of written order. The source-binding debt is additional
+to this constructor gap. Surface correction is retained; IDEA414 is reviewed
+as not tested, with no manuscript incompatibility or impossibility claim.
+See the root review appended to the audit and `BALNEIS_414_REVIEW_20260920.json`.
+
 ## Source audit record and public reproducibility
 
 All links below identify public sources; hashes bind bytes actually downloaded. Original source images were viewed through native image inspection. Images, browser captures, caches and absolute machine paths are not included in this dossier or its raw card. No Voynich transcription or image file, reserve, f84/f84r or f116v was opened. Registry metadata and primary result prose were used for duplicate/claim checks; their quoted historical target examples were not treated as new experiment data. No contact was made. Root owns publication, route and ledger changes.

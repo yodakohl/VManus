@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+IDEA414 COMPONENT REVIEW: V2 exactly assembles24forms/33positions with29atomicparts,22new. Part semantics, written-order binding and source conditional scopes are still undeclared; surface correction retained,not a manuscript contradiction. No fixed test or word claim. [Review](research_registry/work_batches/ten_hours_20260915/BALNEIS_414_F83R2530_COMPOSITION_AUDIT_20260920.md).
+
 GDT998 FEATURE-TABLE STOP: all6925 complete18-group windows contradict shared stem/person/tense length additivity under both traversals;13850 certificates independently verified,0local/pairedcodes/unknowns/words. Exact semantic-feature table writer only;900literal failure unchanged,no allomorph/table repair or independent confirmation. [Report](experiments/yolo/gdt998_compositional_paradigm_features/REPORT.md).
 
 GDT997 QUALIFIED EXTENSION: all1349whole paragraphs evaluated;five new local coherent witnesses retained,all1cargo/1trip/nohazardpairs. Four use0old words,oneuses1;allfour saved-witness pairs with shared new spellings conflict.1173grammar exclusions,143unknowns;original positive retained,not jointmodelUNSAT or portable meaning. [Report](experiments/yolo/gdt997_transport_finite_completion_capacity/REPORT.md).

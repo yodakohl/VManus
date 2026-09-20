@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;998closure,then complete component reading.
-Latest decision: 998all13850feature-table cases contradict;no table/code/word.
-Working files: experiments/yolo/gdt998_compositional_paradigm_features/
-Assumptions: Exact table writer only;997local positives retained;0meanings confirmed.
-Resume: Publish998full certificates;review414complete constructor and source guards.
-Running: Root998closure;producer414whole-passage development,to16:25UTC.
+Task: Ten-hour block to22:52:35UTC;select a complete shared content constructor.
+Latest decision: 998published;414V2surface complete,semantic derivation still missing.
+Working files: research_registry/work_batches/ten_hours_20260915/BALNEIS_414_REVIEW_20260920.json
+Assumptions: 997local positives retained;no portable lexicon or confirmed meanings.
+Resume: Publish414review;select finite shared-content question from primary evidence.
+Running: Root selection;producer one executable proposal,to17:05UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
