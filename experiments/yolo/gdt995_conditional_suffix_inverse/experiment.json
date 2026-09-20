@@ -1,0 +1,467 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Retrospective conditional known-architecture control only; no fresh blind recovery, Voynich language or word.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt995_conditional_suffix_inverse/src/run.py audit",
+    "validate": "python3 experiments/yolo/gdt995_conditional_suffix_inverse/src/validate.py"
+  },
+  "created": "2026-09-20",
+  "dependencies": [
+    "GDT832",
+    "GDT835",
+    "GDT836",
+    "GDT837"
+  ],
+  "experiment_id": "GDT995",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/prepare.py",
+      "role": "frozen_control_input",
+      "sha256": "a8ca27308ab3f1fbeda1eef756c71081b602020b8b59350ba8661efd79536b77"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/reference_model.py",
+      "role": "frozen_control_input",
+      "sha256": "8b91713a350a30dcb824334ebe7cb4407afeeaddbb9fc1bdb4129786a9d873b2"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/METHOD.md",
+      "role": "frozen_control_input",
+      "sha256": "7c2d1e7422c0cfc2194f5b4157c0eba89215e6c166271b69551c0dde10c50e3a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md",
+      "role": "frozen_control_input",
+      "sha256": "62b6a8ea15ef9693509eac82b155494a383389fa7ee49918e2b565f85e716a78"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/FIT_LOCK.json",
+      "role": "frozen_control_input",
+      "sha256": "e25befd85b812a33c5ef600b5de4383367164a35f105409a53c3cfba9f8ff4a9"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/RESULT.json",
+      "role": "frozen_control_input",
+      "sha256": "61bd4a1ef8ae5ddf082c4c330f09ca8a835f137ae61268a24de195e9caf441f0"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_selected.json",
+      "role": "frozen_control_input",
+      "sha256": "c1d03ebb423b1cebea52b79e78d64863221be39c6fd0381b4796c04d93c94a74"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start0.json",
+      "role": "frozen_control_input",
+      "sha256": "c1d03ebb423b1cebea52b79e78d64863221be39c6fd0381b4796c04d93c94a74"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start1.json",
+      "role": "frozen_control_input",
+      "sha256": "f2e2495b660f2a85ba685559d6b0f8eadb9ae85784f46cb0e31da1c4f5dc1446"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start2.json",
+      "role": "frozen_control_input",
+      "sha256": "a17024dcbe878cee95694ebb8cbbf1691180f566279d9c72843e8b792a93c51b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start3.json",
+      "role": "frozen_control_input",
+      "sha256": "074058fa86dc7e98f376ff1db2929d414b5624d277f26495b30a53c13cbe3535"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start4.json",
+      "role": "frozen_control_input",
+      "sha256": "d812c1570cd3f7151a4e16b83cd47b9d1f5534e55d3bf0c711c4ea7b078990a3"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start5.json",
+      "role": "frozen_control_input",
+      "sha256": "71d6a61aa15d97b9c06387caa97f8cae995e0c2cfabc2390fb867b4076bf0a6b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start6.json",
+      "role": "frozen_control_input",
+      "sha256": "e0767c2d3bc83a1ed7189870076694f024c810710a2ae457cdcd807e7a5838fd"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start7.json",
+      "role": "frozen_control_input",
+      "sha256": "5d5759cf850a0112d8d92379573d122928ad331253a09b1ab2d9362546d7cd14"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_selected.json",
+      "role": "frozen_control_input",
+      "sha256": "63de6e0119117221707a16cb6ea7535f9578a177751076249e2305a1b982b4e0"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start0.json",
+      "role": "frozen_control_input",
+      "sha256": "63de6e0119117221707a16cb6ea7535f9578a177751076249e2305a1b982b4e0"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start1.json",
+      "role": "frozen_control_input",
+      "sha256": "58f543dee71d15a456d8cd86e967e18d77aca3852b67b944c2cf55572c63443e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start2.json",
+      "role": "frozen_control_input",
+      "sha256": "a0e14c29dff72c44c6334a875a5ecc10895f127a62e724adf778c9c761b68e1e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start3.json",
+      "role": "frozen_control_input",
+      "sha256": "0564541f5741219c1d86e91f52bc808c2ec0ae7707892818d10b6e6e7647130d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start4.json",
+      "role": "frozen_control_input",
+      "sha256": "586120bfea70243ad52b81119b6f6e79fef340d8b9ba4f3238d5b1c59019b5b5"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start5.json",
+      "role": "frozen_control_input",
+      "sha256": "0b3d6ef7f9fa76a0ac43f4a16b830d37847ecaa985fef2033226eedd264b0fb7"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start6.json",
+      "role": "frozen_control_input",
+      "sha256": "1488cc7070289e3f87e2f48a7e6ccd6828ee85779d309482b3dc3690c0ff4448"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start7.json",
+      "role": "frozen_control_input",
+      "sha256": "07bb3a54ee4648a2de855839599a75b99538b2a6ae1693c799b78a725f4d521a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_selected.json",
+      "role": "frozen_control_input",
+      "sha256": "7f2032ac540f958875d40a999fcd5322881cb0d2afe108a665ecaf2e0c6081f7"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start0.json",
+      "role": "frozen_control_input",
+      "sha256": "7f2032ac540f958875d40a999fcd5322881cb0d2afe108a665ecaf2e0c6081f7"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start1.json",
+      "role": "frozen_control_input",
+      "sha256": "2328e3f1e3d4d4031f2954f5b2add20e617b5ed20c07bd43b643bff45a6d7d0f"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start2.json",
+      "role": "frozen_control_input",
+      "sha256": "9274c6cc7ee9af3d0c88533f19ca4b0ad486bad5f035e9775b02c0e52d6eceeb"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start3.json",
+      "role": "frozen_control_input",
+      "sha256": "00e37fcbec7322aca01c96fa2799cbc4ba34ca01c19fbf7630886be506e94a56"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start4.json",
+      "role": "frozen_control_input",
+      "sha256": "08f5d3865676ccfd986187c429faa9af778926129bb54604cd1dc3b2451610b1"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start5.json",
+      "role": "frozen_control_input",
+      "sha256": "19363101a570de2d88de9c2dabb649c5a5a6e59b682fefc0b82103bc0e0427d6"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start6.json",
+      "role": "frozen_control_input",
+      "sha256": "3be5437862f325e417518e07ebcbe13d117cb9b472ec91a30010a1430519c698"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start7.json",
+      "role": "frozen_control_input",
+      "sha256": "1170d437475bdb344537195f6b24e6b44d1eda5ceb40adc3ba71893d9ae1b61b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_selected.json",
+      "role": "frozen_control_input",
+      "sha256": "d7a1c30b2bcab9d22ebbf59a9015e40d9fe8285e9a6db33712df30b25934146d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start0.json",
+      "role": "frozen_control_input",
+      "sha256": "d7a1c30b2bcab9d22ebbf59a9015e40d9fe8285e9a6db33712df30b25934146d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start1.json",
+      "role": "frozen_control_input",
+      "sha256": "d139df4da195beb3dc53928814b1c32467e6562cc9e6a6668762d8aca74e4dc4"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start2.json",
+      "role": "frozen_control_input",
+      "sha256": "5d2471a256b365b25392f0bd9b7aecd21bfc4f79899395354f83924cd54bb044"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start3.json",
+      "role": "frozen_control_input",
+      "sha256": "ae7404f9c02aea3be748584aa1d03e12b71157ec4a4da4d71fc8507846a0130a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start4.json",
+      "role": "frozen_control_input",
+      "sha256": "d6ad638847548653af0064130ef4ae07cc87a8039119cfd562eca2b78ae8a92c"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start5.json",
+      "role": "frozen_control_input",
+      "sha256": "93af6a71bc2f62b6b9615ae864e127a7349845fd033d55a97e9b54316e41ef7e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start6.json",
+      "role": "frozen_control_input",
+      "sha256": "611f508ab6eb1619cd84536d4bfbf41e2f220c86a9888f5c6c3f31dac56e199e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start7.json",
+      "role": "frozen_control_input",
+      "sha256": "faf0a5a0f269d3dc1c98490613ea339b32522668ebe7af51703f84135d6fa749"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_selected.json",
+      "role": "frozen_control_input",
+      "sha256": "caa1a4f657fb492840d072e76f11ab8a3ea9de0a39dc12cbaaedd2de370f5fbc"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start0.json",
+      "role": "frozen_control_input",
+      "sha256": "caa1a4f657fb492840d072e76f11ab8a3ea9de0a39dc12cbaaedd2de370f5fbc"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start1.json",
+      "role": "frozen_control_input",
+      "sha256": "5662ddc9fc733283704245134eb3381ca6ab37ebb9f7626ea8e340f3b271759a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start2.json",
+      "role": "frozen_control_input",
+      "sha256": "7c12d5439bb99f307269834bed582548c0d59ab2ffb1ad6e9f28fe1b0f9be496"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start3.json",
+      "role": "frozen_control_input",
+      "sha256": "9140c4f41bcbcd3b7ce3bb62aed2d2cf3175fca92dee60fb6d7a0870dba23879"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start4.json",
+      "role": "frozen_control_input",
+      "sha256": "2b6ead74154f9298e8ae28bd05527d0b3d7ad14218d719271639feef983870ce"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start5.json",
+      "role": "frozen_control_input",
+      "sha256": "e0c94ca9e8fe157d8c4c9b95237f0f203828f348d4f4013741931c43f2551fdf"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start6.json",
+      "role": "frozen_control_input",
+      "sha256": "255a64be525ac84829ebb340fd0c4d1ee920ef998441181d0582a03bf22c3959"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start7.json",
+      "role": "frozen_control_input",
+      "sha256": "9bae9e673ffff6ea2643520da6dfc3b3dc04bf87b37a957bf15854fe1c9d5464"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_selected.json",
+      "role": "frozen_control_input",
+      "sha256": "c5b9bfbe505962db146eafede3db10f962ee1361fc77c8eb1c7c0d689efba69d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start0.json",
+      "role": "frozen_control_input",
+      "sha256": "c5b9bfbe505962db146eafede3db10f962ee1361fc77c8eb1c7c0d689efba69d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start1.json",
+      "role": "frozen_control_input",
+      "sha256": "8d7428c146e092b85627beb86ae8e126e5f05c074b3515529e2019c3307ccfe7"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start2.json",
+      "role": "frozen_control_input",
+      "sha256": "f11b6546cb5f7fceadd20938a7ad54ed2976770254b8eed1155a1d7a5505ca11"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start3.json",
+      "role": "frozen_control_input",
+      "sha256": "51b299b06c7c997eb50ecf2dc52b298b0ad0a9059eed30b7af5d5c5414ae8a8c"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start4.json",
+      "role": "frozen_control_input",
+      "sha256": "cb775e4e0bab0104a96342049d9f6c22ee19abf66dac7e3ca76657f717842f5c"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start5.json",
+      "role": "frozen_control_input",
+      "sha256": "c192563ecebda071eef2d56e4ea0ce4bb9a94e261e5c974a3d67b39795bbae16"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start6.json",
+      "role": "frozen_control_input",
+      "sha256": "437fa61b00d51c77d800cbc88f7b5e03e86601f81b6c16f72fc95ccacdf7e7ea"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start7.json",
+      "role": "frozen_control_input",
+      "sha256": "6e50053df950c1f9c1375b1119e4980eee4cfc85c87d2a618797f1eeff34903f"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/confirmation/source_truth.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "730a32626de008f8ad7e7f4ecdede94296db1192973d58155d756dc607bd7d1a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/confirmation/world_83701_truth.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "7d16daedc006f4aec560464c769697b73a7a2c7dc4a97904f22db9b2656c255b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/confirmation/world_83702_truth.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "d0ba4d5318a1cbb44f01da09f44d00ecb338af7be4dd99882e2e625011e1ca9e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/confirmation/world_83703_truth.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "93ab823b23960a3cc5f87bca3c153b1d3a4ffef4039a5dcd24afda5ac30c07f6"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/candidates.json",
+      "role": "frozen_control_input",
+      "sha256": "66d920e39056d6136a92c8a4509bb0d24c0d9ca9c1e01fdb9794d2f3ce663e86"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/families.json",
+      "role": "frozen_control_input",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/reference.jsonl",
+      "role": "frozen_control_input",
+      "sha256": "dc9c57b32779b4be64911c042d8ad468f090ebbebcd9686d71a7ba422263b3e1"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83701_discovery.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "13606af149ff1dde79fe4122f174223546c01939bb05a32ba6bb35090cd0b39a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83701_held.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "c1c0febe7bab429a434486891c01bd10e0c9abf30fc66accf8e3a958dc927fde"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83702_discovery.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "ff410953d8ddc248a7d18b5e305916f4611561058bf1c6f743bed6db6ad10d04"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83702_held.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "1ace21419300234422abadfdb10f1d67c63b0980cd255cba16303b411565d265"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83703_discovery.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "443dd1eed607f06fc83ab70d1982fc752c27e5714fa965269eea8618712c16eb"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83703_held.json.gz",
+      "role": "frozen_control_input",
+      "sha256": "ade93c0f967a1cf13daa2ddb56e59719240147b03af7e4dda6094fc857588fa2"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/ENCODER_SPEC.json",
+      "role": "frozen_control_input",
+      "sha256": "c65f4be132c8d273d97cfc568fd080bf8c33cc60f19da6dc453fba74a2e2e46b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/PREREG_LOCK.json",
+      "role": "frozen_control_input",
+      "sha256": "4abc3a794f2d070f2560f8d0319f7043de670f32d2488cc886eb05b12f365d8b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/SPEC.json",
+      "role": "frozen_control_input",
+      "sha256": "34ff4f5ec08544605379c7bb506b59eb01fe3c8d83cc7115eaf5d91f3e53cb14"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "25cdae7d58e2385d82943cb0ad2ca35d7ed560ad3b58ad8c7c6ec903fb9c5ae9"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "22d1c9e08470e69ba86c49336f2098a829c5064470f454ce1b0cf1d3a60e35c0"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "1fdcf7cb9be8ed3029453b8c1afff441154df2a155624307973946a87093acb7"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/README.md",
+      "role": "source_or_artifact",
+      "sha256": "1b94cc7be111cba59fb54ff625ed40f62542089a0f25f8fc531423351ee10d72"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/REPORT.md",
+      "role": "primary_report",
+      "sha256": "038ca6edcf1fa1102d3abf15f13d579a1b45f3e3b7bf4048cc346e597a57c09f"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "2d9519839231b41e14eaa3235fc39e433aae58698e0a2ad75bef6e1c344f8aef"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "2a89ccae6fcbdb2dae8817bcd2d264d1265d3f49f70e016d007c1f9a69e46c8f"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/src/test_inverse.py",
+      "role": "source_or_artifact",
+      "sha256": "f6109c47f845c410203f44af90cecdddb22cd19d6f6f2bc6aa56c7f2a3fffd8b"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "7ec7de271d01d69d1cf0577d2bc84a4b36691000ceb212a4ff8501f2f86001eb"
+    }
+  ],
+  "question": "Does complete forward compatibility constrain all frozen keys and their finite suffix-only completions?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "conditional_suffix_inverse",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Conditional full suffix inverse on frozen GDT837 keys",
+  "updated": "2026-09-20",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

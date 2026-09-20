@@ -344,3 +344,44 @@ must not be inherited as independently identified manuscript action meanings.
 Producer was explicitly tasked to verify that boundary and supply source-owned
 complete examples. New GDT608form order likewise does not identify a semantic
 transformer. No new target fit or conceptual semantic winner is selected yet.
+
+## GDT995 bounded selection: conditional full suffix inverse
+
+Preparation began about13:16UTC; inclusive preparation, implementation, validation
+and publication checkpoint14:05UTC. Read controls topic,835/836/837primaries,
+837METHOD/ENCODER_SPEC and832logical_encode_word, searched duplicates and later
+registry references. The exact previously omitted suffix inverse is explicitly
+untested in837. The generic837-840stop in an unrelated root-parser review does
+not describe a suffix experiment;840is a label/prose contrast. No target route
+or old strict failure is reopened by this retrospective control audit.
+
+Positive used: all six837selections recover every active literal/wholeword
+value and role;their sole active error is ae->a. Countercase: the frozen
+language objective prefers that wrong key by31589nats, and no48restart is fully
+correct.835found the analogous omitted wholeword priority on a different
+panel;836integrated it,837stillfailed. More restarts are not the intervention.
+
+Genuine unknown: does the full candidate-owned mandatory W-before-S-before-L
+forward contract reject these saved keys, and, with EACH saved role/L/W map
+fixed, what are ALL compatible injective assignments of four suffixes from
+the unchanged12-value pool? Can the unchanged language objective select an
+exact active map within that finite conditional space? This is retrospective
+conditional inference using a known architecture, not blind full-key recovery.
+
+Smallest adequate test: all48saved keys;11,880nominal suffix assignments each;
+all discovery words; all possible global suffix priority orders where overlap
+matters. No per-word priority switch. Lock enumeration and discovery-only
+score selections before joining already-public truth and held words. Validate
+with a separately written direct forward encoder, not the constraint graph.
+Do not retain correct old suffix values by consulting truth. Do not change
+L/W outputs, roles, source, spelling, score, boundaries or original outcomes.
+
+Outcomes change decisions: surviving wrong old keys leave the omitted-inverse
+explanation insufficient; empty conditional spaces expose fixed non-suffix debt;
+compatible wrong score winners preserve an objective failure; exact conditional
+winners show that inverse-consistent selection can resolve this specific known
+control error, warranting at most a separately chosen fresh recovery control.
+None authorizes a Voynich decoder or confirms Latin. No automatic further repair.
+Assumptions: mandatory abbreviation, supplied atoms/words,26L4S8Wroles/counts,
+fixed fitted L/W values, retrospective known error. Three keys share one source.
+Zero independent meaning capacity,0translated words;837strictfailure unchanged.

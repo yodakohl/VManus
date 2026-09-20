@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;seek jointly constrained complete content.
+Task: Ten-hour block to22:52:35UTC;GDT995 conditional inverse audit to14:05.
 Latest decision: 994no extra whole reading;1348outside inventory;993unchanged.
 Working files: research_registry/work_batches/ten_hours_20260915/WHOLE_CONTENT_SELECTION_20260920.md
 Assumptions: Whole singleton fits do not identify meaning;697roles conditional;0words.
-Resume: Publish994;review RAW405/407 source-owned constraints and prior failures.
-Running: Luna source producer to13:35;root closes994 and reviews next candidate.
+Resume: Register995;test all48 old control keys and exact four-suffix completions.
+Running: Luna shared-content producer to14:00;root prepares995,not target fitting.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

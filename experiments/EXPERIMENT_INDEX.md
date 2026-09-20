@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **993**
-- Experiment-associated tracked files: **19,296** (1.8 GiB)
-- Structured GDT337+ experiments: **658**
+- Experiments indexed: **994**
+- Experiment-associated tracked files: **19,307** (1.8 GiB)
+- Structured GDT337+ experiments: **659**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT995 | GDT995_conditional_inverse_registration | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt995_conditional_suffix_inverse/METHOD.md) | 11 | 63.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT994 | GDT994_frozen_whole_transfer_closure | `PARK_UNCHANGED_WHOLE_TRANSFER` | [report](../experiments/yolo/gdt994_frozen_transport_whole_transfer/REPORT.md) | 16 | 3.9 MiB | 2 | STRUCTURED_YOLO |
 | GDT993 | GDT993_complete_transport_closure | `CONDITIONAL_READING_RETAINED_NONUNIQUE` | [report](../experiments/yolo/gdt993_complete_transport_consequence_audit/REPORT.md) | 24 | 465.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT992 | GDT992_complete_sunzi_closure | `NO_LITERAL_COMPLETE_READING` | [report](../experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md) | 28 | 1.5 MiB | 5 | STRUCTURED_YOLO |
