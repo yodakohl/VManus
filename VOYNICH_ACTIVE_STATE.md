@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1010 LONG CONTEXTS:278of282full joint FUNCTIONAL systems UNSAT independently;fourSAT onf114r/f50r acrossZL/IT. All8saved maps256settings fail full meanings;other maps remain open. Eightold layouts225maps each only preflight bound,not exhaustion.0words. [Report](experiments/yolo/gdt1010_transport_long_complete_contexts/REPORT.md).
+
 GDT1009 FUNCTIONAL TRANSFER STOP: all118remaining whole-context pairs UNSAT in both unchanged encodings;with1008all120bounded contexts closed even allowing aliases and freeing all47old values. Also closes BIJECTIVE without needing projection exhaustion. Local worlds retained;original-only functional enumeration still incomplete but irrelevant to this closure.0words/meaning. [Report](experiments/yolo/gdt1009_transport_functional_complete_context_census/REPORT.md).
 
 GDT1008 FULL SHARED STOP: all6original-plus-context systems UNSAT independently,all47values free.1006/7/8close all120bounded BIJECTIVE chedy contexts;FUNCTIONAL onlytwoextensions closed,original remainder retained. Original local worlds/projection positives stay;0words/meaning. No role/seam/budget repair. [Report](experiments/yolo/gdt1008_transport_complete_shared_lexicon/REPORT.md).

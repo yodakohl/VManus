@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;test282long complete shared contexts in1010.
-Latest decision: 1009public:07458a79d;120short contexts closed;long hazard-capable scope open.
-Working files: experiments/yolo/gdt1010_transport_long_complete_contexts/DECISION.md
-Assumptions: Same source/grammar,free47values,aliases;long scope can contain hazard pairs.
-Resume: Freeze/register1010;all282jointqueries and checks;checkpoint22:35UTC.
-Running: No solver yet;bounded source-only producer preparing RAW Palladius AST.
+Task: Ten-hour block to22:52:35UTC;close1010 and test finite-layout meaning route.
+Latest decision: 1010validated:278long exclusions;4grammar candidates,8failed samples.
+Working files: experiments/yolo/gdt1010_transport_long_complete_contexts/REPORT.md
+Assumptions: Full semantic alternatives open;8saved original layouts225maps each need proof.
+Resume: Publish1010;register layout-completeness/factored meaning test if adequate.
+Running: No solver;1010publication pending;bounded source producer completed RAW459.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

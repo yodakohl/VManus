@@ -1,0 +1,516 @@
+{
+  "title": "Palladius I.V.3 source-owned typed AST for clod, pit, and taste tests",
+  "summary": "RAW_UNREVIEWED source account only. A complete I.V.3 AST preserves the recognition sentence, small-clod fresh-water/kneading test, pit refill comparison with three computed branches, and worst-field-part taste test in a single n-ary sequence. It computes observations from operations and measurements instead of taking FAT, LEAN, or SWEETNESS as input labels.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Palladius, Opus agriculturae, Book I, chapter V, section 3 (I.V.3)",
+    "latin_url": "https://la.wikisource.org/wiki/Opus_agriculturae/I",
+    "perseus_url": "https://atlas.perseus.tufts.edu/library/urn%3Acts%3AlatinLit%3Astoa0218.stoa002.nd-dlc-lat1/",
+    "source_span": "I.V.3 only: Pinguem sic agnosces through Dulcendo autem cognoscitur ... iudicio saporis explores.",
+    "latin_text": "Pinguem sic agnosces. Glebam paruulam dulci aqua consparges et subiges: si glutinosa est et adhaeret, constat illi inesse pinguedinem. Item scrobe effossa et repleta, si superauerit terra, pinguis est, si defuerit, exilis, si conuenerit aequata, mediocris. Dulcendo autem cognoscitur, si ex ea parte agri, quae magis displicet, glebam fictili uase dulci aqua madefactam iudicio saporis explores.",
+    "provenance": "The Latin Wikisource page and Perseus CTS Latin witness were checked as source navigation witnesses. This packet makes no claim that Palladius is a target Vorlage and no claim that source terms identify manuscript fields."
+  },
+  "source_account": {
+    "scope_boundary": "Only I.V.3 is represented. I.V.1, I.V.2, I.V.4, vineyard signs, and general soil lists are excluded.",
+    "water_encoding": "The source phrase is dulci aqua. Per the bounded task, the typed constant is FRESH_WATER rather than an English sweetened-water gloss. This is an encoding convention; it does not settle the Latin adjective's physical interpretation.",
+    "entities": {
+      "FIELD_1": "the field whose part is selected in the sweetness clause",
+      "PART_WORST_1": "the part of FIELD_1 that most displeases, selected by the source's superlative relation",
+      "CLOD_FAT_1": "the small clod introduced for the fatness test",
+      "PIT_1": "the pit introduced for dig/refill comparison",
+      "PIT_SOIL_1": "the soil associated with PIT_1",
+      "CLOD_TASTE_1": "the clod taken from PART_WORST_1 for the sweetness test",
+      "VESSEL_1": "the earthen vessel used in the sweetness test",
+      "E_EARTH_RETURNED_1": "earth returned when PIT_1 is refilled",
+      "E_PIT_CAPACITY_1": "the excavated capacity against which returned earth is compared"
+    },
+    "constants": {
+      "SMALL": "parvula; size qualifier of CLOD_FAT_1 only",
+      "FRESH_WATER": "typed water value required by this task's representation of dulci aqua",
+      "EARTHEN_VESSEL": "fictile vas",
+      "PROPERTY_FATNESS": "pinguedo",
+      "PROPERTY_LEANNESS": "exilis",
+      "PROPERTY_MODERATE": "mediocris",
+      "PROPERTY_SWEETNESS": "dulcedo",
+      "VOLUME": "quantity dimension used for the pit comparison",
+      "GREATER": "computed comparison result",
+      "LESS": "computed comparison result",
+      "EQUAL": "computed comparison result"
+    },
+    "references": {
+      "R_FIELD": "FIELD_1",
+      "R_WORST_PART": "PART_WORST_1",
+      "R_FAT_CLOD": "CLOD_FAT_1",
+      "R_PIT": "PIT_1",
+      "R_PIT_SOIL": "PIT_SOIL_1",
+      "R_TASTE_CLOD": "CLOD_TASTE_1",
+      "R_VESSEL": "VESSEL_1",
+      "R_RETURNED": "E_EARTH_RETURNED_1",
+      "R_CAPACITY": "E_PIT_CAPACITY_1",
+      "R_CLOD_GLUE_EVENT": "E_CLOD_GLUE_1",
+      "R_PIT_COMPARE_EVENT": "E_PIT_COMPARE_1",
+      "R_TASTE_EVENT": "E_TASTE_1",
+      "R_STICKY_OBS": "E_STICKY_1",
+      "R_ADHERENCE_OBS": "E_ADHERENCE_1",
+      "R_PIT_REFILL_EVENT": "E_PIT_REFILL_1",
+      "R_TASTE_MEASUREMENT": "E_TASTE_SWEETNESS_MEASURE_1",
+      "R_SWEETNESS_INFERENCE": "E_SWEETNESS_INFERENCE_1",
+      "R_RETURNED_MEASURE": "E_RETURNED_VOLUME_1",
+      "R_CAPACITY_MEASURE": "E_CAPACITY_VOLUME_1"
+    },
+    "operator_signatures": {
+      "SEQ": "arity n>=1; all children are evaluated in source order and the explicit arity is retained per occurrence",
+      "RECOGNIZE": "arity 2: property, method-reference",
+      "INTRODUCE": "arity 3: entity, kind, owner-or-context-reference",
+      "QUALIFY": "arity 3: entity-reference, qualifier, value",
+      "SPRINKLE": "arity 2: entity-reference, water-reference",
+      "KNEAD": "arity 1: entity-reference",
+      "OBSERVE": "arity 4: output-observation-reference, entity-reference, observable-predicate, observation-state",
+      "AND": "arity 2: predicate, predicate",
+      "IMPLIES": "arity 2: condition, consequence",
+      "ATTRIB": "arity 2: entity-reference, property",
+      "DIG": "arity 2: pit-reference, field-reference",
+      "REFILL": "arity 4: output-refill-reference, pit-reference, returned-earth-reference, capacity-reference",
+      "MEASURE": "arity 3: output-measurement-reference, event-or-entity-reference, dimension",
+      "COMPARE": "arity 3: output-comparison-reference, measured-value, measured-value",
+      "BRANCH": "arity 7: selector, condition1, consequence1, condition2, consequence2, condition3, consequence3",
+      "SELECT_SUPERLATIVE": "arity 4: collection-reference, relation, extremum, output-reference",
+      "TAKE_FROM": "arity 2: sample-reference, region-reference",
+      "PLACE_IN": "arity 2: sample-reference, vessel-reference",
+      "MOISTEN": "arity 2: sample-reference, water-reference",
+      "TASTE": "arity 2: sample-reference, vessel-reference",
+      "INFER": "arity 3: output-inference-reference, evidence-reference, property",
+      "REF": "arity 1: declared reference name"
+    },
+    "ast": [
+      "SEQ",
+      [
+        "RECOGNIZE",
+        "PROPERTY_FATNESS",
+        [
+          "REF",
+          "R_CLOD_GLUE_EVENT"
+        ]
+      ],
+      [
+        "INTRODUCE",
+        [
+          "REF",
+          "R_FAT_CLOD"
+        ],
+        "CLOD",
+        [
+          "REF",
+          "R_FIELD"
+        ]
+      ],
+      [
+        "QUALIFY",
+        [
+          "REF",
+          "R_FAT_CLOD"
+        ],
+        "SIZE",
+        "SMALL"
+      ],
+      [
+        "SPRINKLE",
+        [
+          "REF",
+          "R_FAT_CLOD"
+        ],
+        "FRESH_WATER"
+      ],
+      [
+        "KNEAD",
+        [
+          "REF",
+          "R_FAT_CLOD"
+        ]
+      ],
+      [
+        "OBSERVE",
+        [
+          "REF",
+          "R_STICKY_OBS"
+        ],
+        [
+          "REF",
+          "R_FAT_CLOD"
+        ],
+        "STICKINESS",
+        "OBSERVED"
+      ],
+      [
+        "OBSERVE",
+        [
+          "REF",
+          "R_ADHERENCE_OBS"
+        ],
+        [
+          "REF",
+          "R_FAT_CLOD"
+        ],
+        "ADHERENCE",
+        "OBSERVED"
+      ],
+      [
+        "INFER",
+        [
+          "REF",
+          "R_CLOD_GLUE_EVENT"
+        ],
+        [
+          "AND",
+          [
+            "REF",
+            "R_STICKY_OBS"
+          ],
+          [
+            "REF",
+            "R_ADHERENCE_OBS"
+          ]
+        ],
+        "PROPERTY_FATNESS"
+      ],
+      [
+        "DIG",
+        [
+          "REF",
+          "R_PIT"
+        ],
+        [
+          "REF",
+          "R_FIELD"
+        ]
+      ],
+      [
+        "REFILL",
+        [
+          "REF",
+          "R_PIT_REFILL_EVENT"
+        ],
+        [
+          "REF",
+          "R_PIT"
+        ],
+        [
+          "REF",
+          "R_RETURNED"
+        ],
+        [
+          "REF",
+          "R_CAPACITY"
+        ]
+      ],
+      [
+        "MEASURE",
+        [
+          "REF",
+          "R_RETURNED_MEASURE"
+        ],
+        [
+          "REF",
+          "R_RETURNED"
+        ],
+        "VOLUME"
+      ],
+      [
+        "MEASURE",
+        [
+          "REF",
+          "R_CAPACITY_MEASURE"
+        ],
+        [
+          "REF",
+          "R_CAPACITY"
+        ],
+        "VOLUME"
+      ],
+      [
+        "COMPARE",
+        [
+          "REF",
+          "R_PIT_COMPARE_EVENT"
+        ],
+        [
+          "REF",
+          "R_RETURNED_MEASURE"
+        ],
+        [
+          "REF",
+          "R_CAPACITY_MEASURE"
+        ]
+      ],
+      [
+        "BRANCH",
+        [
+          "REF",
+          "R_PIT_COMPARE_EVENT"
+        ],
+        "GREATER",
+        [
+          "ATTRIB",
+          [
+            "REF",
+            "R_PIT_SOIL"
+          ],
+          "PROPERTY_FATNESS"
+        ],
+        "LESS",
+        [
+          "ATTRIB",
+          [
+            "REF",
+            "R_PIT_SOIL"
+          ],
+          "PROPERTY_LEANNESS"
+        ],
+        "EQUAL",
+        [
+          "ATTRIB",
+          [
+            "REF",
+            "R_PIT_SOIL"
+          ],
+          "PROPERTY_MODERATE"
+        ]
+      ],
+      [
+        "SELECT_SUPERLATIVE",
+        [
+          "REF",
+          "R_FIELD"
+        ],
+        "DISPLEASES",
+        "MAX",
+        [
+          "REF",
+          "R_WORST_PART"
+        ]
+      ],
+      [
+        "INTRODUCE",
+        [
+          "REF",
+          "R_TASTE_CLOD"
+        ],
+        "CLOD",
+        [
+          "REF",
+          "R_WORST_PART"
+        ]
+      ],
+      [
+        "INTRODUCE",
+        [
+          "REF",
+          "R_VESSEL"
+        ],
+        "VESSEL",
+        [
+          "REF",
+          "R_WORST_PART"
+        ]
+      ],
+      [
+        "MOISTEN",
+        [
+          "REF",
+          "R_TASTE_CLOD"
+        ],
+        "FRESH_WATER"
+      ],
+      [
+        "PLACE_IN",
+        [
+          "REF",
+          "R_TASTE_CLOD"
+        ],
+        [
+          "REF",
+          "R_VESSEL"
+        ]
+      ],
+      [
+        "TASTE",
+        [
+          "REF",
+          "R_TASTE_EVENT"
+        ],
+        [
+          "REF",
+          "R_TASTE_CLOD"
+        ],
+        [
+          "REF",
+          "R_VESSEL"
+        ]
+      ],
+      [
+        "MEASURE",
+        [
+          "REF",
+          "R_TASTE_MEASUREMENT"
+        ],
+        [
+          "REF",
+          "R_TASTE_EVENT"
+        ],
+        "SWEETNESS"
+      ],
+      [
+        "INFER",
+        [
+          "REF",
+          "R_SWEETNESS_INFERENCE"
+        ],
+        [
+          "REF",
+          "R_TASTE_MEASUREMENT"
+        ],
+        "PROPERTY_SWEETNESS"
+      ]
+    ],
+    "ast_notes": [
+      "SEQ is one n-ary node with 22 children here; it is not encoded as a left-associated binary chain.",
+      "The recognition sentence is represented by RECOGNIZE with an explicit forward reference to the clod-glue inference, preserving its method-introduction order without using a sentence macro.",
+      "The clod branch computes two observation events from SPRINKLE, KNEAD, STICKINESS, and ADHERENCE. FATNESS is the consequence of their conjunction, not an input field.",
+      "The pit branch computes GREATER, LESS, or EQUAL by comparing measured returned earth with measured pit capacity. FATNESS, LEANNESS, and MODERATE are consequences, not supplied result labels.",
+      "The taste branch selects the most-displeasing field part, takes a distinct clod from it, moistens it, places it in an earthen vessel, and measures the taste event for sweetness. SWEETNESS is not asserted before TASTE.",
+      "CLOD_FAT_1 and CLOD_TASTE_1 are distinct references. The AST does not infer that repeated clod vocabulary means the same physical portion.",
+      "Output references are explicit for observations, inferences, measurements, refill, and comparison; no out-of-tree named finding is supplied as an input."
+    ]
+  },
+  "source_ownership": [
+    {
+      "source_span": "Pinguem sic agnosces.",
+      "nodes": [
+        "RECOGNIZE",
+        "PROPERTY_FATNESS",
+        "R_CLOD_GLUE_EVENT"
+      ]
+    },
+    {
+      "source_span": "Glebam paruulam dulci aqua consparges et subiges:",
+      "nodes": [
+        "R_FAT_CLOD",
+        "SMALL",
+        "FRESH_WATER",
+        "SPRINKLE",
+        "KNEAD"
+      ]
+    },
+    {
+      "source_span": "si glutinosa est et adhaeret, constat illi inesse pinguedinem.",
+      "nodes": [
+        "STICKINESS",
+        "ADHERENCE",
+        "AND",
+        "IMPLIES",
+        "INFER",
+        "PROPERTY_FATNESS"
+      ]
+    },
+    {
+      "source_span": "Item scrobe effossa et repleta,",
+      "nodes": [
+        "R_PIT",
+        "DIG",
+        "REFILL"
+      ]
+    },
+    {
+      "source_span": "si superauerit terra, pinguis est, si defuerit, exilis, si conuenerit aequata, mediocris.",
+      "nodes": [
+        "MEASURE",
+        "COMPARE",
+        "GREATER",
+        "LESS",
+        "EQUAL",
+        "PROPERTY_FATNESS",
+        "PROPERTY_LEANNESS",
+        "PROPERTY_MODERATE"
+      ]
+    },
+    {
+      "source_span": "Dulcendo autem cognoscitur, si ex ea parte agri, quae magis displicet,",
+      "nodes": [
+        "PROPERTY_SWEETNESS",
+        "R_FIELD",
+        "SELECT_SUPERLATIVE",
+        "R_WORST_PART"
+      ]
+    },
+    {
+      "source_span": "glebam fictili uase dulci aqua madefactam",
+      "nodes": [
+        "R_TASTE_CLOD",
+        "R_VESSEL",
+        "FRESH_WATER",
+        "MOISTEN",
+        "PLACE_IN"
+      ]
+    },
+    {
+      "source_span": "iudicio saporis explores.",
+      "nodes": [
+        "TASTE",
+        "MEASURE",
+        "INFER",
+        "PROPERTY_SWEETNESS"
+      ]
+    }
+  ],
+  "worked_evaluation": {
+    "case_id": "I.V.3_source_trace_1",
+    "bindings": {
+      "FIELD_1": "F1",
+      "PART_WORST_1": "F1.part_max_displeasure",
+      "CLOD_FAT_1": "C1",
+      "PIT_1": "P1",
+      "PIT_SOIL_1": "P1.soil",
+      "CLOD_TASTE_1": "C2",
+      "VESSEL_1": "V1",
+      "E_EARTH_RETURNED_1": "P1.returned_earth",
+      "E_PIT_CAPACITY_1": "P1.capacity"
+    },
+    "derived_trace": [
+      "C1 is small, receives FRESH_WATER, is kneaded, and yields E_STICKY_1=STICKINESS(C1) and E_ADHERENCE_1=ADHERENCE(C1).",
+      "E_CLOD_GLUE_1 is inferred from the conjunction of E_STICKY_1 and E_ADHERENCE_1; its property is PROPERTY_FATNESS.",
+      "P1 is dug and refilled; E_RETURNED_VOLUME_1 and E_CAPACITY_VOLUME_1 are measured, then E_PIT_COMPARE_1 is computed as GREATER, LESS, or EQUAL.",
+      "The BRANCH derives exactly one of ATTRIB(P1.soil, PROPERTY_FATNESS), ATTRIB(P1.soil, PROPERTY_LEANNESS), or ATTRIB(P1.soil, PROPERTY_MODERATE).",
+      "C2 is taken from F1.part_max_displeasure, moistened with FRESH_WATER, placed in V1, and tasted; E_TASTE_SWEETNESS_MEASURE_1 is the observation from which E_SWEETNESS_INFERENCE_1 derives PROPERTY_SWEETNESS."
+    ],
+    "branch_examples": [
+      {
+        "returned_vs_capacity": "GREATER",
+        "derived_property": "PROPERTY_FATNESS"
+      },
+      {
+        "returned_vs_capacity": "LESS",
+        "derived_property": "PROPERTY_LEANNESS"
+      },
+      {
+        "returned_vs_capacity": "EQUAL",
+        "derived_property": "PROPERTY_MODERATE"
+      }
+    ]
+  },
+  "assumptions_and_limits": [
+    "The typed names PROPERTY_FATNESS, PROPERTY_LEANNESS, PROPERTY_MODERATE, and PROPERTY_SWEETNESS are source-account labels for Latin predicates, not target word glosses.",
+    "FRESH_WATER is required by the task representation; the Latin dulci aqua is retained verbatim and its physical interpretation is not resolved here.",
+    "VOLUME comparison and an explicit pit capacity are formal representations of the source's returned-earth comparison; no numeric measurement is supplied by I.V.3.",
+    "The source gives positive consequences for the three pit relations but does not state an else behavior for failed clod adhesion or an unsensed taste; the AST therefore does not invent one.",
+    "No claim is made that the clod in the fatness test and the clod in the taste test are the same object."
+  ],
+  "duplicate_screen": {
+    "closest": [
+      "IDEA000457"
+    ],
+    "difference": "IDEA000457 is a broader I.V.1–4 working card with named-input Python functions. This packet is a source-only I.V.3 AST that removes I.V.1/2/4, expands every operation and reference, uses n-ary SEQ, and computes observations from written operations.",
+    "not_a_target_reading": true
+  },
+  "status_note": "RAW_UNREVIEWED_NOT_SELECTED; exploratory source representation only."
+}

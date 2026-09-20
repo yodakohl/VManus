@@ -1150,3 +1150,72 @@ Primary navigation used for this audit: Palladius, *Opus agriculturae* I.V.1–4
 Vitruvius, *De architectura* II.4, [LacusCurtius translation](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/2%2A.html)
 and [Latin.it text](https://www.latin.it/autore/vitruvio/de_architectura/%2102%21liber_ii/04.lat).
 These are source references only; they do not provide target meanings.
+
+## Y. Palladius I.V.3 typed source AST
+
+The route was refreshed before this source-only construction. A separate raw
+card, `IDEA000459`, now records a complete typed AST for Palladius I.V.3 only:
+`raw_palladius_iv3_typed_source_ast_20260920.json`. It remains
+`RAW_UNREVIEWED_NOT_SELECTED` and has no target binding.
+
+The AST uses one explicit 22-child n-ary `SEQ`, with fixed-arity operators and
+named reference variables. It preserves the source order and content:
+
+* `Pinguem sic agnosces` is a recognition-method introduction that refers
+  forward to the clod-glue inference.
+* A distinct small clod is sprinkled with the typed constant `FRESH_WATER`,
+  kneaded, and evaluated for the two separate predicates STICKINESS and
+  ADHERENCE. Their conjunction infers the source property `pinguedo`; that
+  property is not supplied as an input result.
+* A pit is dug and refilled. Measured returned-earth volume is compared with
+  measured pit capacity, and the computed GREATER, LESS, or EQUAL branch
+  derives `pinguis`, `exilis`, or `mediocris` respectively.
+* A distinct clod is selected from the field part that most displeases, placed
+  in an explicitly earthen vessel, moistened with `FRESH_WATER`, tasted, and
+  measured for sweetness. The taste operation produces the evidence from which
+  sweetness is inferred; sweetness is not asserted beforehand.
+
+`FRESH_WATER` is the requested typed representation of the source phrase
+`dulci aqua`; the Latin wording and this encoding uncertainty are both
+retained. The AST does not identify the two clods as one physical portion, add
+an unmentioned numeric volume, or import I.V.1, I.V.2, or I.V.4. The JSON also
+records source-span ownership, output references for observations and
+inferences, three pit branch examples, and the absence of an invented else
+branch. This is a source representation for later review, not a translation or
+decipherment result.
+
+## Z. Arithmetic construction duplicate stop
+
+The final bounded arithmetic screen did not justify another raw card. The
+closest positive predecessor, `IDEA000350`, already owns a complete primary
+example: Fibonacci, *Liber abbaci* XI.6, the three-coin subsection on printed
+pp.152–154 of the Boncompagni 1857 witness. Its source-only grammar and exact
+rational verifier are retained in `ALLOY_FINITE_GRAMMAR.md`,
+`ALLOY_SOURCE_EQUATIONS.json`, and `alloy_finite_grammar.py`.
+
+It satisfies the requested construction more directly than a new card would:
+
+* The same nested `MUL`/`DIV` pattern produces different results when its
+  written argument changes: `20*2/16 = 2 1/2`, `20*5/16 = 6 1/4`, and
+  `20*9/16 = 11 1/4`.
+* Two distinct written paths converge: the residual path
+  `20 - 2 1/2 - 6 1/4` and the direct path `20*9/16` both produce `11 1/4`.
+  The equal output does not make the expressions identical; their operation
+  trees and source roles remain different.
+* Two distinct standard mixtures independently yield grade 5: `(1*3 + 2*6)/3`
+  and `(1*4 + 1*6)/2`. The shared grade result does not identify the same
+  component weights or production history.
+
+The primary chapter opening confirms the source's typed distinctions between
+silver/copper content, target fineness, and mixing methods in [Fibonacci,
+*Liber abbaci* XI](https://www.tha.de/~harsch/Chronologia/Lspost13/Fibonacci/fib_la11.html).
+The complete worked subsection is already source-owned and hash-bound in the
+alloy dossier to the Boncompagni scan
+([PDF](https://archive.org/download/bub_gb_CrdUBgtAZFoC/bub_gb_CrdUBgtAZFoC.pdf),
+SHA-256 `e0617041071d181ae61a5109fc21ad48b8503927ed9f8f2a1378575de797ed1a`).
+
+No new arithmetic RAW card is registered: adding this as a fresh proposal
+would duplicate `IDEA000350` and its completed source grammar. The remaining
+limits are already explicit there: global quantity scaling, grade-scale
+symmetries, no target owner, and no evidence that any manuscript form writes
+these arithmetic operators. GDT969, GDT995, and GDT1000 were not reopened.
