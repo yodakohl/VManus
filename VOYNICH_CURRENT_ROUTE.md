@@ -4,12 +4,12 @@ Updated: 2026-09-20. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: fixed_test
 Status: active
-Task: Publish GDT986 whole-content result and retain all unresolved cases.
-Latest decision: 314cases;39contradictions,109compute/166source unknown;0witnesses.
-Working files: experiments/yolo/gdt986_anastasia_complete_condition_trees/REPORT.md
-Assumptions: Fixed semantic trees/writers;exposed data;no confirmed meanings;reserves closed.
-Resume: Bind,index,refresh,review,check and publish;then select next complete-content question.
-Running: Root closure;bounded RAW producer active;earliestend09:05:26UTC.
+Task: GDT987 finite proof of unchanged complete986equations;no new content code.
+Latest decision: 5100small controls/two full unpinned fixtures pass;target not run.
+Working files: experiments/yolo/gdt987_anastasia_finite_word_proof/PREREGISTRATION.md
+Assumptions: All986source/writer/seam rules fixed;exposed panel;no meaning confirmation.
+Resume: Publish registration,run all148literal cases,independently replay exhaustion.
+Running: Root registration;producer382done;checkpoint02:35UTC;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
