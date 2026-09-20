@@ -326,3 +326,21 @@ the existing independently implemented993replay checks executable cases. Same
 author and previously exposed source, no semantic independence or significance.
 A bounded Luna producer independently supplies raw proposals by13:35 while root
 executes this selected question; supply is not unreviewed scientific selection.
+
+
+### Actual GDT994 outcome13:00:33UTC
+
+Public registrationa5a1f9e59 preceded enumeration. All1349rows checked;only the
+original63-group ZL paragraph has every frozen value and a full parse. All1348
+others lack word values;four original cases reproduce and independent checker
+passes all source rows,partitions,parses and paths. No semantic negative is
+assigned to missing vocabulary.90exposed physical leaves;0independent meaning.
+Park unchanged transfer;no nearly complete subset chosen or new-word repair.
+This is a capacity limit,not new translation evidence. Full table/report in994.
+
+New RAW405–408are unreviewed supply. Root read their complete proposals and
+697/698primary reports. Their renderer-based serial output/destination claims
+must not be inherited as independently identified manuscript action meanings.
+Producer was explicitly tasked to verify that boundary and supply source-owned
+complete examples. New GDT608form order likewise does not identify a semantic
+transformer. No new target fit or conceptual semantic winner is selected yet.

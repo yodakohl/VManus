@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT994 TRANSFER CAPACITY STOP: all1349complete paragraphs checked;only the fitted63-group ZL original is inside993s frozen47-word inventory. All1348other reader-dependent rows lack words;0additional full readings,not1348semantic contradictions. Four original variants reproduce;full-row independent implementation PASS;90exposedleaves,0meaning confirmation/words. Park unchanged transfer without extra singleton glosses. [Report](experiments/yolo/gdt994_frozen_transport_whole_transfer/REPORT.md).
+
 GDT993 CONDITIONAL WHOLE READING: all63ZLgroups parsed under the frozen grammar;4/32variants safe and goal-consistent,28contradicted;one surviving consequence class,8classes overall. Safety distinguishes8physical/goal-compatible from4fully consistent. IT lacks frozen whole coverage,RF lacks paragraph contract;uncertain ZL seam,41new meanings/36singletons,0words/independent. Retain the complete hypothesis without repairs; no animal names identified. [Report](experiments/yolo/gdt993_complete_transport_consequence_audit/REPORT.md).
 
 GDT992 COMPLETE SOURCE STOP: all1108readable whole paragraph/writer cases contradict the18-unit Sunzi content;reverse corroborates1108/1108,0limits/conflicts/codes.1590source unknowns retained;0words/independent. Both fixed contextual tree writers closed without repair;not all mathematical content. [Report](experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md).

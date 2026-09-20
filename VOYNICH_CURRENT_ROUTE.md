@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Ten-hour block12:52:35-22:52:35UTC;frozen993whole-transfer capacity first.
-Latest decision: 993retained;no grammar or gloss repair;all928paragraphs scoped.
+Task: Ten-hour block to22:52:35UTC;seek jointly constrained complete content.
+Latest decision: 994no extra whole reading;1348outside inventory;993unchanged.
 Working files: research_registry/work_batches/ten_hours_20260915/WHOLE_CONTENT_SELECTION_20260920.md
-Assumptions: 41new meanings;uncertain ZL seam;0words/independent;all sources exposed.
-Resume: Publish994registration,run/validate all1349paragraphs;close by13:20UTC.
-Running: Bounded Luna idea supply to13:35;root prepares fixed whole-transfer test.
+Assumptions: Whole singleton fits do not identify meaning;697roles conditional;0words.
+Resume: Publish994;review RAW405/407 source-owned constraints and prior failures.
+Running: Luna source producer to13:35;root closes994 and reviews next candidate.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
