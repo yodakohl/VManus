@@ -1,0 +1,345 @@
+{
+  "hazard_graphs": [
+    {
+      "bits": [
+        0,
+        0,
+        0
+      ],
+      "hazards": [],
+      "violations": [],
+      "consistent_with_trace": true,
+      "scope": "ASSUMPTION_DIAGNOSTIC_NOT_FULL_READING"
+    },
+    {
+      "bits": [
+        0,
+        0,
+        1
+      ],
+      "hazards": [
+        [
+          "W",
+          "C"
+        ]
+      ],
+      "violations": [
+        {
+          "after": "S05",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "L"
+        },
+        {
+          "after": "S15",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "R"
+        }
+      ],
+      "consistent_with_trace": false,
+      "scope": "ASSUMPTION_DIAGNOSTIC_NOT_FULL_READING"
+    },
+    {
+      "bits": [
+        0,
+        1,
+        0
+      ],
+      "hazards": [
+        [
+          "G",
+          "C"
+        ]
+      ],
+      "violations": [],
+      "consistent_with_trace": true,
+      "scope": "ASSUMPTION_DIAGNOSTIC_NOT_FULL_READING"
+    },
+    {
+      "bits": [
+        0,
+        1,
+        1
+      ],
+      "hazards": [
+        [
+          "G",
+          "C"
+        ],
+        [
+          "W",
+          "C"
+        ]
+      ],
+      "violations": [
+        {
+          "after": "S05",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "L"
+        },
+        {
+          "after": "S15",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "R"
+        }
+      ],
+      "consistent_with_trace": false,
+      "scope": "ASSUMPTION_DIAGNOSTIC_NOT_FULL_READING"
+    },
+    {
+      "bits": [
+        1,
+        0,
+        0
+      ],
+      "hazards": [
+        [
+          "W",
+          "G"
+        ]
+      ],
+      "violations": [],
+      "consistent_with_trace": true,
+      "scope": "ASSUMPTION_DIAGNOSTIC_NOT_FULL_READING"
+    },
+    {
+      "bits": [
+        1,
+        0,
+        1
+      ],
+      "hazards": [
+        [
+          "W",
+          "G"
+        ],
+        [
+          "W",
+          "C"
+        ]
+      ],
+      "violations": [
+        {
+          "after": "S05",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "L"
+        },
+        {
+          "after": "S15",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "R"
+        }
+      ],
+      "consistent_with_trace": false,
+      "scope": "ASSUMPTION_DIAGNOSTIC_NOT_FULL_READING"
+    },
+    {
+      "bits": [
+        1,
+        1,
+        0
+      ],
+      "hazards": [
+        [
+          "W",
+          "G"
+        ],
+        [
+          "G",
+          "C"
+        ]
+      ],
+      "violations": [],
+      "consistent_with_trace": true,
+      "scope": "ASSUMPTION_DIAGNOSTIC_NOT_FULL_READING"
+    },
+    {
+      "bits": [
+        1,
+        1,
+        1
+      ],
+      "hazards": [
+        [
+          "W",
+          "G"
+        ],
+        [
+          "G",
+          "C"
+        ],
+        [
+          "W",
+          "C"
+        ]
+      ],
+      "violations": [
+        {
+          "after": "S05",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "L"
+        },
+        {
+          "after": "S15",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "R"
+        }
+      ],
+      "consistent_with_trace": false,
+      "scope": "ASSUMPTION_DIAGNOSTIC_NOT_FULL_READING"
+    }
+  ],
+  "animal_permutations": [
+    {
+      "mapping": {
+        "W": "wolf",
+        "G": "goat",
+        "C": "cabbage"
+      },
+      "violations": [],
+      "consistent_with_trace": true,
+      "scope": "SOURCE_NAME_DIAGNOSTIC_NOT_LEXICAL_CONFIRMATION"
+    },
+    {
+      "mapping": {
+        "W": "wolf",
+        "G": "cabbage",
+        "C": "goat"
+      },
+      "violations": [
+        {
+          "after": "S05",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "L"
+        },
+        {
+          "after": "S15",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "R"
+        }
+      ],
+      "consistent_with_trace": false,
+      "scope": "SOURCE_NAME_DIAGNOSTIC_NOT_LEXICAL_CONFIRMATION"
+    },
+    {
+      "mapping": {
+        "W": "goat",
+        "G": "wolf",
+        "C": "cabbage"
+      },
+      "violations": [
+        {
+          "after": "S05",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "L"
+        },
+        {
+          "after": "S15",
+          "pair": [
+            "W",
+            "C"
+          ],
+          "bank": "R"
+        }
+      ],
+      "consistent_with_trace": false,
+      "scope": "SOURCE_NAME_DIAGNOSTIC_NOT_LEXICAL_CONFIRMATION"
+    },
+    {
+      "mapping": {
+        "W": "goat",
+        "G": "cabbage",
+        "C": "wolf"
+      },
+      "violations": [
+        {
+          "after": "S05",
+          "pair": [
+            "C",
+            "W"
+          ],
+          "bank": "L"
+        },
+        {
+          "after": "S15",
+          "pair": [
+            "C",
+            "W"
+          ],
+          "bank": "R"
+        }
+      ],
+      "consistent_with_trace": false,
+      "scope": "SOURCE_NAME_DIAGNOSTIC_NOT_LEXICAL_CONFIRMATION"
+    },
+    {
+      "mapping": {
+        "W": "cabbage",
+        "G": "wolf",
+        "C": "goat"
+      },
+      "violations": [
+        {
+          "after": "S05",
+          "pair": [
+            "C",
+            "W"
+          ],
+          "bank": "L"
+        },
+        {
+          "after": "S15",
+          "pair": [
+            "C",
+            "W"
+          ],
+          "bank": "R"
+        }
+      ],
+      "consistent_with_trace": false,
+      "scope": "SOURCE_NAME_DIAGNOSTIC_NOT_LEXICAL_CONFIRMATION"
+    },
+    {
+      "mapping": {
+        "W": "cabbage",
+        "G": "goat",
+        "C": "wolf"
+      },
+      "violations": [],
+      "consistent_with_trace": true,
+      "scope": "SOURCE_NAME_DIAGNOSTIC_NOT_LEXICAL_CONFIRMATION"
+    }
+  ]
+}

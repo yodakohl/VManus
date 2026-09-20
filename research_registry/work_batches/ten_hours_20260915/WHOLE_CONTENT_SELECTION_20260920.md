@@ -253,3 +253,33 @@ source/lexicon/variants, independently check and publish. New inclusive
 checkpoint13:00UTC. No new candidate search, grammar expansion or source repair.
 If further substantive model changes are needed, stop without a translation
 claim. Previous08:25checkpoint was missed and is not silently rewritten.
+
+
+## GDT993 actual consequence closure (12:46UTC)
+
+Registration3d3b6f24a was pushed before execution. All32full variants executed;
+4consistent,28contradicted,8consequence classes,4members each. Independent
+regex/bit-position implementation corroborated all32cases,3reader parses and
+14diagnostics. No source/meaning/grammar changes after outcomes.63predicted
+clause positions match;IT has no frozen whole coverage,RF no paragraph contract.
+
+The positive is an executable full63group conditional reading with all seven
+voyages and an explicit safety distinction:8physical/goal-compatible cases
+become4with hazards. It is not manuscript meaning evidence.41new values and
+36new singletons,uncertain seam,0independent capacity remain. Full candidate,
+clause,trajectory and ambiguity tables are in993/REPORT.md. Exact staged gate
+passed registration; global check retained the known eight600/953failures.
+
+Bounded producer supplied404before its12:55deadline;root read the full dossier.
+It assigns all33groups of adjacent f83r.25-30 while preserving seven prior
+unweaving guesses,17new values/16singletons. Stored RAW_UNREVIEWED,not selected.
+Source omissions and invented row-by-row/daytime-pledge details remain explicit.
+Do not treat it as exact Homer encoding or independently confirmed meaning.
+
+Next scientific decision: review whole-paragraph transfer with one unchanged
+lexicon/construction inventory, retaining conflicts.403and404are incompatible
+at least on qokedy/shedy/chedy. No generic polysemy or paragraph switch is
+introduced. A fresh consistency replay of404alone would again merely verify
+stipulations and would not distinguish manuscript meanings; no such solver is
+selected. Further selection must specify a new empirical consequence and
+bounded source/primary review.993closed variants and all older failures remain.

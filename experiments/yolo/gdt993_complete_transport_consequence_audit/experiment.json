@@ -75,7 +75,27 @@
     {
       "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/REPORT.md",
       "role": "primary_report",
-      "sha256": "0413bfdddf8850018492f24958da9a03e6271e6fc66d7c277eab254610cb03e7"
+      "sha256": "bf1c8e05e28acc6f18286a5ad33a9f6bf839226a6b7308a2eb0a2dea98d6d5dd"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/CANDIDATES.tsv",
+      "role": "source_or_artifact",
+      "sha256": "de541ed4544952bc84a0eb5b681148e828f3366c50f583b1c44168f5e4b74426"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/CASES.json",
+      "role": "source_or_artifact",
+      "sha256": "c193a9929d0bc14a457be115ec58319f945821fdef05527cd39eb00a5900c0c0"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/DIAGNOSTICS.json",
+      "role": "source_or_artifact",
+      "sha256": "a500d290a2e51db7fd98d41d66d2cc22b2c23bcc748c43985054be0057789b39"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/PARSES.json",
+      "role": "source_or_artifact",
+      "sha256": "4803ba0d9cc2db1beec0baecd7ccf385b1a029b453d88eb0d2bd6804ef1840c6"
     },
     {
       "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/PRE_RUN_FIXTURES.json",
@@ -83,14 +103,29 @@
       "sha256": "441ee1cf262ce282f55b29727c2c54c8cf7af3330685e3d7c9c1d13f08ed0588"
     },
     {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/PUBLIC_REGISTRATION.json",
+      "role": "source_or_artifact",
+      "sha256": "830cd4f577777cc117b49a107193802c7f3dbe79c8477d81919d91f8d524dd04"
+    },
+    {
       "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
     },
     {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "6fd89c8144eb47ae8cde90e6ad4bb67a23a916c08eb7c90149952e59508901f8"
+    },
+    {
       "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/SOURCE_PACKET.json",
       "role": "source_or_artifact",
       "sha256": "ba06ddecde0570dcf1142978e9c1de1680ab8549f294c02cf89ee912fc39a6df"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "f6e05d350bf22671982dee6459a9718a8a72982a502d179fd4b599af5aa2e5d3"
     },
     {
       "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/SPEC.json",
@@ -118,6 +153,11 @@
       "sha256": "00299f5fe8977111e20ca4e716d5035675f700095c7e9040d2efb65671ba6642"
     },
     {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/render_report.py",
+      "role": "source_or_artifact",
+      "sha256": "82e51765f13951baf92393e18288b81be7daffc0dae950eb434f3a8a76a15cd5"
+    },
+    {
       "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/run.py",
       "role": "source_or_artifact",
       "sha256": "d1f6bfb214c98d69a9705ffe70db246bbe1b5dfba9821b397887ff2dc3e594e0"
@@ -135,11 +175,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "complete_transport_consequence_audit",
-  "status": "REGISTERED_UNSCORED",
+  "status": "CONDITIONAL_READING_RETAINED_NONUNIQUE",
   "title": "Complete hypothetical transport reading: finite consequence audit",
   "updated": "2026-09-20",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt993_complete_transport_consequence_audit/artifacts/VALIDATION.json"
   }
 }
