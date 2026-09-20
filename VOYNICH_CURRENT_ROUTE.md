@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Review complete medieval Tabula content and a shared writing hypothesis.
-Latest decision: Rupescissa C1 retained as source draft;no target decoder.
-Working files: research_registry/work_batches/ten_hours_20260915/SMARAGDINA_CONTENT_DECISION_20260920.md
-Assumptions: Whole content including non-process clauses;no inherited glosses.
-Resume: Freeze medieval collation;decide complete writing contract by05:09UTC.
-Running: Source-only producer until04:52UTC;root;earliestend09:05:26UTC.
+Task: Test complete Tabula content under shared terminal-argument frames.
+Latest decision: GDT990 source/contract fixed;source-only checks pass;no target fit yet.
+Working files: experiments/yolo/gdt990_smaragdina_complete_role_frames/DECISION.md
+Assumptions: Six source branches/four writers;all1349paragraphs;no old glosses.
+Resume: Publish locked990,run all cases,validate and publish by06:24UTC.
+Running: Root990;bounded RAW source supply;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
