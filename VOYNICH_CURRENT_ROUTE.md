@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Ten-hour block to22:52:35UTC;GDT997finite completion checkpoint15:49.
-Latest decision: 413partial review published799533237;997registered before target fit.
+Task: Ten-hour block to22:52:35UTC;997closure,then next shared-content nomination.
+Latest decision: 997five local fits retained;all shared-word witness pairs conflict.
 Working files: experiments/yolo/gdt997_transport_finite_completion_capacity/
-Assumptions: 47old meanings hypothetical;new spellings only existing terminal values.
-Resume: Publish997contract,run all1349whole paragraphs;validate every consequence.
-Running: Root997registration;bounded producer writes source-only clock account.
+Assumptions: Four fits share no old word;one shares1;all1cargo/1trip;0meaning proof.
+Resume: Publish997full tables,qualified positive and143unknowns;select next route.
+Running: Root997closure;bounded producer completed source-only clock account.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

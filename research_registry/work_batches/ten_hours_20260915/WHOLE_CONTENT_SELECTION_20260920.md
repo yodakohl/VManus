@@ -596,3 +596,29 @@ Root may stop at the necessary consequence if it decides all additional cases;
 no automatic grammar growth, extra terminal, corpus expansion or longer solver.
 All physical leaves exposed;0independent meaning capacity;f84/f84r/reservesclosed.
 The user permits explicit hypothetical meanings; no existing word is confirmed.
+
+### 2026-09-20 GDT997 executed closure
+
+Public registration0d7ebd667;target15:08:53–15:09:25;independent validation
+15:10:19. All1349complete rows:963endpoint/scopefail,165relaxedfullpathfail,
+45shared-aliasUNSAT,143UNKNOWN,27syntacticfirstwitnesseswithfailedreplays,
+6coherent(includingoriginal). All45UNSATand33SATindependentlyfinite-solverchecked,
+132replayschecked. Preserve registered RETAIN_COMPLETE_EXPOSED_EXTENSION.
+
+The five new complete witnesses are ZLf112v45–47/f9v5–12 andITf100r12–15/
+f24v1–5/f96r9–13. Fourhave0oldknownwords;onehasqokeey=TAKE_OUTplus34newaliases.
+All have1cargo/1trip/0instantiatedhazards,not original3cargo/7trip problem.
+THENoccurrences1/18/6/3/0;no posthocgrammarrulebans inserted. Post-result all10pair
+comparison:the4pairswithsharednewspellingsallconflict,theother6havedisjointnew
+vocabulary. 178positionsfullyrendered. Incompatiblefirstwitnessesdonotprove
+jointmodelUNSAT;143UNKNOWNremainunknown. Noportablewordorindependentmeaning.
+
+Decision:retainexactformalpositivesandtheirqualifiedceiling,noautomatic
+synonymexpansion,THENpatchorlongersearch. All17otherleaf83wholeparagraphs now
+failnecessarygrammar evenwithnewwords,notmerelylackdictionarycoverage.
+0confirmedwords. Budgetincludespublicationto15:49;researchblockcontinuesto22:52:35.
+
+Producer394source-only Vitruvius worked account retained,not a target nomination.
+Root read complete cached source and worked account; prompted corrections to
+unlicensed1/8signnotation and conflated display/month holes vs regulator365marks.
+These source clarifications do not open a clock route or establish target parts.

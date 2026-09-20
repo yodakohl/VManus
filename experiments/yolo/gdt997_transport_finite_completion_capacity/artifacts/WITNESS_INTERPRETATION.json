@@ -1,0 +1,260 @@
+{
+  "status": "POST_RESULT_SAVED_WITNESS_AUDIT",
+  "candidates": [
+    {
+      "id": "ZL3b|f112v|f112v.45-f112v.47",
+      "groups": 31,
+      "known_groups": 0,
+      "known_values": [],
+      "new_types": 30,
+      "then_occurrences": 1,
+      "then_distinct_aliases": 1,
+      "cargo": [
+        "C"
+      ],
+      "hazards": [],
+      "voyages": 1,
+      "strict_anchor_eligible": false,
+      "alternate_same_boundaries": [],
+      "independent_meaning_capacity": 0
+    },
+    {
+      "id": "ZL3b|f9v|f9v.5-f9v.12",
+      "groups": 48,
+      "known_groups": 0,
+      "known_values": [],
+      "new_types": 43,
+      "then_occurrences": 18,
+      "then_distinct_aliases": 13,
+      "cargo": [
+        "C"
+      ],
+      "hazards": [],
+      "voyages": 1,
+      "strict_anchor_eligible": false,
+      "alternate_same_boundaries": [
+        {
+          "id": "IT2a|f9v|f9v.5-f9v.12",
+          "status": "UNKNOWN_SEARCH_LIMIT",
+          "groups": 47,
+          "partition": "OTHER_EXPOSED_LEAF"
+        }
+      ],
+      "independent_meaning_capacity": 0
+    },
+    {
+      "id": "IT2a|f100r|f100r.12-f100r.15",
+      "groups": 36,
+      "known_groups": 1,
+      "known_values": [
+        {
+          "raw": "qokeey",
+          "symbol": "TAKE_OUT"
+        }
+      ],
+      "new_types": 34,
+      "then_occurrences": 6,
+      "then_distinct_aliases": 5,
+      "cargo": [
+        "C"
+      ],
+      "hazards": [],
+      "voyages": 1,
+      "strict_anchor_eligible": true,
+      "alternate_same_boundaries": [
+        {
+          "id": "ZL3b|f100r|f100r.12-f100r.15",
+          "status": "SYNTACTIC_EXTENSION_SEMANTICS_UNRESOLVED",
+          "groups": 35,
+          "partition": "OTHER_EXPOSED_LEAF"
+        }
+      ],
+      "independent_meaning_capacity": 0
+    },
+    {
+      "id": "IT2a|f24v|f24v.1-f24v.5",
+      "groups": 33,
+      "known_groups": 0,
+      "known_values": [],
+      "new_types": 33,
+      "then_occurrences": 3,
+      "then_distinct_aliases": 3,
+      "cargo": [
+        "C"
+      ],
+      "hazards": [],
+      "voyages": 1,
+      "strict_anchor_eligible": true,
+      "alternate_same_boundaries": [
+        {
+          "id": "ZL3b|f24v|f24v.1-f24v.5",
+          "status": "SYNTACTIC_EXTENSION_SEMANTICS_UNRESOLVED",
+          "groups": 35,
+          "partition": "OTHER_EXPOSED_LEAF"
+        }
+      ],
+      "independent_meaning_capacity": 0
+    },
+    {
+      "id": "IT2a|f96r|f96r.9-f96r.13",
+      "groups": 30,
+      "known_groups": 0,
+      "known_values": [],
+      "new_types": 30,
+      "then_occurrences": 0,
+      "then_distinct_aliases": 0,
+      "cargo": [
+        "C"
+      ],
+      "hazards": [],
+      "voyages": 1,
+      "strict_anchor_eligible": false,
+      "alternate_same_boundaries": [],
+      "independent_meaning_capacity": 0
+    }
+  ],
+  "pairs": [
+    {
+      "left": "ZL3b|f112v|f112v.45-f112v.47",
+      "right": "ZL3b|f9v|f9v.5-f9v.12",
+      "shared_words": [
+        "oty"
+      ],
+      "conflicts": [
+        {
+          "raw": "oty",
+          "left": "ATTENDED_BY",
+          "right": "C"
+        }
+      ],
+      "compatible": false
+    },
+    {
+      "left": "ZL3b|f112v|f112v.45-f112v.47",
+      "right": "IT2a|f100r|f100r.12-f100r.15",
+      "shared_words": [],
+      "conflicts": [],
+      "compatible": true
+    },
+    {
+      "left": "ZL3b|f112v|f112v.45-f112v.47",
+      "right": "IT2a|f24v|f24v.1-f24v.5",
+      "shared_words": [
+        "okaiin"
+      ],
+      "conflicts": [
+        {
+          "raw": "okaiin",
+          "left": "WITH_TRIP",
+          "right": "THEN"
+        }
+      ],
+      "compatible": false
+    },
+    {
+      "left": "ZL3b|f112v|f112v.45-f112v.47",
+      "right": "IT2a|f96r|f96r.9-f96r.13",
+      "shared_words": [],
+      "conflicts": [],
+      "compatible": true
+    },
+    {
+      "left": "ZL3b|f9v|f9v.5-f9v.12",
+      "right": "IT2a|f100r|f100r.12-f100r.15",
+      "shared_words": [
+        "chol",
+        "chor",
+        "daiin",
+        "otal"
+      ],
+      "conflicts": [
+        {
+          "raw": "chol",
+          "left": "THEN",
+          "right": "THERE"
+        },
+        {
+          "raw": "chor",
+          "left": "M",
+          "right": "UNHARMED"
+        },
+        {
+          "raw": "otal",
+          "left": "WITH_TRIP",
+          "right": "EXAMPLE"
+        }
+      ],
+      "compatible": false
+    },
+    {
+      "left": "ZL3b|f9v|f9v.5-f9v.12",
+      "right": "IT2a|f24v|f24v.1-f24v.5",
+      "shared_words": [],
+      "conflicts": [],
+      "compatible": true
+    },
+    {
+      "left": "ZL3b|f9v|f9v.5-f9v.12",
+      "right": "IT2a|f96r|f96r.9-f96r.13",
+      "shared_words": [],
+      "conflicts": [],
+      "compatible": true
+    },
+    {
+      "left": "IT2a|f100r|f100r.12-f100r.15",
+      "right": "IT2a|f24v|f24v.1-f24v.5",
+      "shared_words": [],
+      "conflicts": [],
+      "compatible": true
+    },
+    {
+      "left": "IT2a|f100r|f100r.12-f100r.15",
+      "right": "IT2a|f96r|f96r.9-f96r.13",
+      "shared_words": [
+        "dcheor",
+        "s",
+        "shodol"
+      ],
+      "conflicts": [
+        {
+          "raw": "dcheor",
+          "left": "THEN",
+          "right": "C"
+        },
+        {
+          "raw": "s",
+          "left": "THEN",
+          "right": "BESIDES"
+        }
+      ],
+      "compatible": false
+    },
+    {
+      "left": "IT2a|f24v|f24v.1-f24v.5",
+      "right": "IT2a|f96r|f96r.9-f96r.13",
+      "shared_words": [],
+      "conflicts": [],
+      "compatible": true
+    }
+  ],
+  "maximal_compatible_saved_subsets": [
+    [
+      "IT2a|f100r|f100r.12-f100r.15",
+      "ZL3b|f112v|f112v.45-f112v.47"
+    ],
+    [
+      "IT2a|f96r|f96r.9-f96r.13",
+      "ZL3b|f112v|f112v.45-f112v.47"
+    ],
+    [
+      "IT2a|f100r|f100r.12-f100r.15",
+      "IT2a|f24v|f24v.1-f24v.5"
+    ],
+    [
+      "IT2a|f24v|f24v.1-f24v.5",
+      "IT2a|f96r|f96r.9-f96r.13",
+      "ZL3b|f9v|f9v.5-f9v.12"
+    ]
+  ],
+  "limits": "No joint refit;incompatible first witnesses do not exclude alternative shared dictionaries;0confirmedwords,no probability,no grammar repair"
+}
