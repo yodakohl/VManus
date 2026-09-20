@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT988 complete typed proof-conversion records on exposed whole paragraphs.
-Latest decision: Two source-owned proofs;fixed10/22group serializers;no inherited glosses.
-Working files: experiments/yolo/gdt988_sherwood_typed_conversion_records/METHOD.md
-Assumptions: Shared typed codes;nonempty classes;source text is not the serializer.
-Resume: Publish preregistration;run all cases and separate validator;checkpoint03:30UTC.
-Running: Root GDT988;bounded source producer active;earliestend09:05:26UTC.
+Task: Select a content-bearing contextual-reference hypothesis after GDT988.
+Latest decision: GDT988 two fixed proof serializers fail;0codes;source unknowns retained.
+Working files: experiments/yolo/gdt988_sherwood_typed_conversion_records/REPORT.md
+Assumptions: Attested source notation alone cannot bind Voynich meanings or boundaries.
+Resume: Review contextual-reference proposals and exact prior stops;no988repair.
+Running: Root source selection;bounded producer active;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

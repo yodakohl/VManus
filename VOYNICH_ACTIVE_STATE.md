@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT988 PROOF RECORD STOP: all2216literal cases contradict two fixed typed10/22group serializers;3180source unknowns retained.24count-matching cases separately replayed,0codes/words/independent. Not all logical content; no post-result serialization repair. Next attested contextual-reference candidate only. [Report](experiments/yolo/gdt988_sherwood_typed_conversion_records/REPORT.md).
+
 GDT987 FINITE CLOSURE: all148literal complete986equations exhausted; independent reverse enumeration confirms148/148,0timeouts. All109old computational unknowns now contradicted under the unchanged source/writers;166source unknowns retained;0full codes/words/independent. Original986receipts unchanged. Stop computation/repair on this source; next source-owned complete construction only. [Report](experiments/yolo/gdt987_anastasia_finite_word_proof/REPORT.md).
 
 GDT986 COMPLETE ANASTASIA:314fixed cases;38necessary contradictions+1solver contradiction independently certified after result,109computation unknown,166source unknown;0full witnesses/words/independent. Both tree writers and all12source lines unchanged;bounded search parked, no automatic repair or longer solver. [Report](experiments/yolo/gdt986_anastasia_complete_condition_trees/REPORT.md).
