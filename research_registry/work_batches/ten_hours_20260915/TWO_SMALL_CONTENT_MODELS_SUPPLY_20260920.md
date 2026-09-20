@@ -1219,3 +1219,120 @@ would duplicate `IDEA000350` and its completed source grammar. The remaining
 limits are already explicit there: global quantity scaling, grade-scale
 symmetries, no target owner, and no evidence that any manuscript form writes
 these arithmetic operators. GDT969, GDT995, and GDT1000 were not reopened.
+
+## AA. Reflection-order source stop
+
+The final noncommutative-geometry screen did not justify a new raw card. The
+closest retained cards are `IDEA000351` (plane-reflection content versus a
+half-turn), `IDEA000125` (straightedge-and-compass construction),
+`IDEA000383` (Euclid I.1 proof/reference composition), and the generic
+unselected `producer_20260920_ordered_state_swap`. None owns the missing
+source-level sequential transformation rule.
+
+The primary *Catoptrics* material does own a reflection operation: Proposition
+1 states the equal-angle law for plane, convex, and concave mirrors, and §28
+works through complete ray/image configurations with changed eye placement.
+The [Mendell translation of Proposition 1](https://web.calstatela.edu/faculty/hmendel/Ancient%20Mathematics/Euclid/Catoptrics/Catoptrics%201/EuclidCatoptrics.1.html)
+and the [Greek/translation witness for §28](https://reader.humanitext.ai/read/urn:cts:greekLit:tlg1799.tlg011.humanitext-grc1:28)
+were checked. They do not state two sequential mirror operators whose order
+changes a point, nor do they state the involution `R_m(R_m(P)) = P` as a
+written repeated procedure. The Humanitext work also flags its translation as
+machine-generated and the attribution as an edited source witness.
+
+Thus the tempting construction
+`R_m(R_n(P)) != R_n(R_m(P))` with `R_m(R_m(P)) = P` is a valid modern
+derivation from a reflection function, but its composition and cancellation
+rules would be supplied by the analyst. Registering it as a source-owned raw
+idea would overstate the primary. The concrete debt is therefore retained:
+find a primary passage that actually composes two directed transformations and
+states a repeated undoing consequence. No new card was registered; GDT963,
+GDT978, and GDT984 remain closed, and no target or reserve material was opened.
+
+## AB. Interacting-operation duplicate stop
+
+The final source-only screen found one strong complete mechanism, but it is
+already owned by the retained raw card
+`raw_hippocratic_embryo_feedback_loop_20260920.json` and therefore receives no
+new proposal ID. *De natura pueri* 12.1 gives the exact interaction:
+
+`MIX(male,female) -> HEAT -> OPEN_PASSAGE -> EXPEL(warm_air) -> DRAW(cool_air) -> FEED`,
+with the same passage reused through time. A small worked trace is two cycles:
+
+```text
+e0 = MIX(male, female)
+e1 = HEAT(e0)
+c  = OPEN_PASSAGE(e1)
+e2 = FEED(e1, DRAW(c, EXPEL(c, warm_air)))
+e3 = FEED(e2, DRAW(c, EXPEL(c, warm_air)))
+```
+
+The source also applies the same ordered mechanism to heated wood, leaves,
+foods, and drinks. This creates a real dependency: removing `OPEN_PASSAGE`
+blocks both cycles, replacing `DRAW` with a second `EXPEL` removes the stated
+cool-air nourishment, and creating a new channel on cycle two loses the
+source's continuity. The retained card's one-way maturation, new-object-per-
+cycle, and decorative-analogy rivals already express the changed consequences.
+
+The complete Greek section is source-owned at [Eulogikon, *On the Nature of the
+Child* 12.1](https://eulogikon.org/works/hippocrates-nature-child-bww-ad),
+which records the mixed generative material, heating, passage, warm-air exit,
+cool-air intake, repetition through time, and cross-domain analogy. It also
+identifies the work as an anonymous Hippocratic-Corpus treatise rather than
+securely authored by Hippocrates. This is a source mechanism only, not a
+medical fact or target reading. No new card was registered; no target, reserve,
+experiment, route, ledger, or decoder file was changed.
+
+## AC. Hippocratic source trace: two recurrent cycles
+
+This is a development of the retained raw card
+`raw_hippocratic_embryo_feedback_loop_20260920.json`, not a new proposal or a
+target reading. The primary's explicit statements are narrower than the
+typed trace. Section 12.1 says that generative material from both parents
+mixes, gathers, thickens, and heats; the heated material holds breath; the
+breath makes a path through the middle and goes out warm; once the path exists,
+the material **again** draws another cool breath through the rupture, “from
+which it is nourished,” and this continues through all time. The passage then
+extends the same heat/air account to heated wood, leaves, foods, and drinks.
+
+The following trace makes the recurrence executable while marking its analyst
+choices. `M0` is one continuing mixed generative material; `H0` is its heated
+state; `P0` is the central path; `W1/W2` are expelled warm-air events; and
+`C1/C2` are drawn cool-air events. The source supplies these roles and their
+direction. It does not itself number cycles or define a programming-language
+state tuple.
+
+```text
+M0  = MIX(MALE_SOURCE, FEMALE_SOURCE)
+H0  = HEAT(M0)
+P0  = MAKE_PATH(H0)
+W1  = EXPEL_WARM(P0, H0)
+C1  = DRAW_COOL(P0, H0)
+M1  = NOURISH(H0, C1)       # source: from the cool breath it is nourished
+W2  = EXPEL_WARM(P0, M1)
+C2  = DRAW_COOL(P0, M1)
+M2  = NOURISH(M1, C2)
+```
+
+The first cycle's state is `(material=M0, path=P0, input=H0)` and the second
+is `(material=M1, path=P0, input=M1)`. Reusing `P0` follows the source's one
+path plus “again”/“through all time” wording; retaining `M0 -> M1 -> M2` is an
+analyst identity convention needed to make nourishment persist. The source
+does not claim modern embryological truth, name an organ, or provide a numeric
+cycle count.
+
+The strongest source-level rivals have distinct consequences:
+
+| Rival | Changed consequence |
+|---|---|
+| One-way heating | `H0` may expel once, but no `C1`/`C2` return-flow or continuing nourishment is generated. |
+| New path per cycle | `P1` replaces `P0` on the second cycle; the source's continuing path is lost and the two cycles no longer share a channel. |
+| Air movement without nourishment | `C1` and `C2` enter but do not update the material; this drops the explicit “from which it is nourished” relation. |
+
+The exact Greek and source metadata are preserved at [Eulogikon, *On the
+Nature of the Child* 12.1](https://eulogikon.org/works/hippocrates-nature-child-bww-ad).
+Eulogikon identifies the work as an anonymous late-fifth- or fourth-century
+BCE Hippocratic-Corpus treatise whose surviving text is in the medieval
+manuscript stream. The typed cycle boundaries and state names above are our
+finite reconstruction, not additional source wording. The card remains
+`RAW_UNREVIEWED_NOT_SELECTED`; no manuscript, target, reserve, experiment,
+route, ledger, or decoder file was changed.

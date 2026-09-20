@@ -1,4 +1,3 @@
-# GDT1012 — necessary bank sequence
+# GDT1012 — bank sequence non-separating
 
-Registered all72original-code × whole-f50r-reader cases. See [method](METHOD.md)
-and [predictions](artifacts/PREDICTIONS.json). No target result before execution.
+[Report](REPORT.md): all72cases SAT independently;all144saved full maps fail meaning. Bothf50rspaces stay open;0words. [Candidate table](artifacts/CANDIDATES.tsv), [complete original reading families in German](artifacts/ORIGINAL_READING_FAMILIES.md), [validation](artifacts/VALIDATION.json).
