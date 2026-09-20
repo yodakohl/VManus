@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Select a different complete-content construction after991stop.
-Latest decision: GDT991108corroborated contradictions;1872open(94.545%);0codes.
-Working files: experiments/yolo/gdt991_smaragdina_complete_form_pattern/REPORT.md
-Assumptions: Conditional process roles unconfirmed;no source/frame or solver repair.
-Resume: Publish991closure;review a distinct whole-content reading and its inverse.
-Running: Bounded RAW producer;no matcher;earliest user end09:05:26UTC.
+Task: Test the complete Sunzi count/reconstruction under two frozen writers.
+Latest decision: Source review and full controls PASS;992locking before target fit.
+Working files: experiments/yolo/gdt992_sunzi_complete_contextual_count/METHOD.md
+Assumptions: Typed REF and positional decimal are declared writing hypotheses.
+Resume: Publish992registration, execute all2698cases, reverse-check, close by07:35UTC.
+Running: Bounded RAW producer;target not started;earliest end09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

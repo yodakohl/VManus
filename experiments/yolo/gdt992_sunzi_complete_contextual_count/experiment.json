@@ -1,0 +1,178 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional complete source writing only; no identified language, word, unique key or independently confirmed meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt992_sunzi_complete_contextual_count/src/run.py",
+    "validate": "python3 experiments/yolo/gdt992_sunzi_complete_contextual_count/src/validate.py"
+  },
+  "created": "2026-09-20",
+  "dependencies": [
+    "GDT928",
+    "GDT969",
+    "GDT971",
+    "GDT987",
+    "GDT991"
+  ],
+  "experiment_id": "GDT992",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "fixed_input",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "experiments/yolo/gdt987_anastasia_finite_word_proof/METHOD.md",
+      "role": "fixed_input",
+      "sha256": "a3a4a2e6aa7466085b93b3f6b9422ef14653c877ed508ba790c94520e6194f61"
+    },
+    {
+      "path": "experiments/yolo/gdt987_anastasia_finite_word_proof/src/finite.py",
+      "role": "fixed_input",
+      "sha256": "47d9e2510978c99b5049b629388d9a6df0cdc7694f90d000cbecd74e09a5d1e7"
+    },
+    {
+      "path": "experiments/yolo/gdt987_anastasia_finite_word_proof/src/validate.py",
+      "role": "fixed_input",
+      "sha256": "e7010d28efdfa74753a1ec5f1d5658a4a0372a0aeb9f580e4202d167aedf7602"
+    },
+    {
+      "path": "experiments/yolo/gdt987_anastasia_finite_word_proof/artifacts/PRE_RUN_FIXTURES.json",
+      "role": "fixed_input",
+      "sha256": "686d3ee8e006af70c1095cce74eb72c4a4870d291cc761a76eeebdfa23b84c54"
+    },
+    {
+      "path": "experiments/yolo/gdt969_fibonacci_generated_root_trace/REPORT.md",
+      "role": "fixed_input",
+      "sha256": "d17481d19b64733bd4f46edc8e885e12da242cd1f73b590eacb793fea78f3ea8"
+    },
+    {
+      "path": "experiments/yolo/gdt971_alloy_numeral_binding_control/REPORT.md",
+      "role": "fixed_input",
+      "sha256": "b6ed35a0d271c936c0bf3454d94f4c4fb688ac63ee90be8e13e58d56e8ba470a"
+    },
+    {
+      "path": "experiments/yolo/gdt991_smaragdina_complete_form_pattern/REPORT.md",
+      "role": "fixed_input",
+      "sha256": "3d6b1b3649aadfb03c6943ae425dd0e33857b98d15ca5217c682cf25c003e5a5"
+    },
+    {
+      "path": "research_registry/proposals/raw_global_simultaneous_grouping.json",
+      "role": "fixed_input",
+      "sha256": "efb641bd8dbfec28562b54941ce6aa15900c9b128874d584f40a07599236b3d1"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/SUNZI_SECTION26_SOURCE_AUDIT_20260920.md",
+      "role": "fixed_input",
+      "sha256": "de96a37458ef0c068122ef949d96716dfb91f8e5a6a4dc0fcd21dfc795730825"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/SOURCE_TREE_REVIEW_20260920.md",
+      "role": "fixed_input",
+      "sha256": "667bf949004ef6a00b799b690df8ca18ac47312f09cffd1f45683c1f01262296"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/SUNZI_WHOLE_CONTENT_DECISION_20260920.md",
+      "role": "fixed_input",
+      "sha256": "d9bbfc3b8fe7a01ba86fbde07a532313801386868db1599ccf37db56ef04f6ae"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "958f9d0c78c479a10d637e98947912834e35da9b7deb52dbfbfa3aee2980f97c"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "b4a2725cbbd0f2953063454c6161815cf6fb5f48ea250f0d9472b3336018400f"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "ce56721abfc06e1548ed34610b8efd4a4bc19893f019a1b4b66aa3a5e4acbcae"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/README.md",
+      "role": "source_or_artifact",
+      "sha256": "bceba5ef4cb08ee80bb59a417e6dc3e4509840f7d27e07044dd79e3cd4889123"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md",
+      "role": "primary_report",
+      "sha256": "9fec805e46f16dd7b9d0cc0ef4b5e57b8608e0c1bb047149b5cc3b35603dd733"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/PRE_RUN_FIXTURES.json",
+      "role": "source_or_artifact",
+      "sha256": "b62879c45a399b4f6914a8a33e0fa4d89cf60ef47d08415dff991b5976891cd7"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/SOURCE_PREDICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "d628c77258b0f9fdc1e992195ab6129701446464abb2332a80b41ce2b0e9bd47"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/artifacts/WORKER_IO_FIXTURES.json",
+      "role": "source_or_artifact",
+      "sha256": "23b7ea7de0cb1993ba3be1500d04787ca1f4e56728e44a0d265695cc60e1e392"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/src/SOURCE.json",
+      "role": "source_or_artifact",
+      "sha256": "5e5bf2da2ad22af0c60aae9ef250e00649c2d6b37454ffbfacde5ee4689e24ef"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "d0c50d52f1da9852647b73d569aba639d4c56a3ed2e775c0c21e3f6fac75c909"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/src/build_source.py",
+      "role": "source_or_artifact",
+      "sha256": "731286421411c09e0fcdb55705c766841c119fd057ffb6f3c23bed56e4995d4b"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/src/preflight.py",
+      "role": "source_or_artifact",
+      "sha256": "0fc2a7d517a4eed743dd9e38bcb0d1317f26bd8b5c18e11fb47d8a74b7b07cfd"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "9037b05645ec4087b8848e1c3b3eb52f6e1ee519232dd42321ff231b77fce7c3"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/src/shared.py",
+      "role": "source_or_artifact",
+      "sha256": "6c02f46468c125e6ac912047a8d8047bc44528889a0b55b569124bae3a3ce400"
+    },
+    {
+      "path": "experiments/yolo/gdt992_sunzi_complete_contextual_count/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "255989ed8b3acac9b0c730eb4dd63e4dd7b2fd4d44a0e69d8ebc0f07d44fd4ee"
+    }
+  ],
+  "question": "Can the full Sunzi question/answer/method/general-rule content fit any whole admitted paragraph under either fixed contextual tree code?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "sunzi_complete_contextual_count",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Complete contextual grouping and reconstruction source reading",
+  "updated": "2026-09-20",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

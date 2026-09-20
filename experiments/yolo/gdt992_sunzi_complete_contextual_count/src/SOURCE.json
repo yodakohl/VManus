@@ -1,0 +1,730 @@
+{
+  "experiment": "GDT992",
+  "source_hypothesis": "Complete Sunzi unknown-count problem, not identified as a Voynich quotation",
+  "source_urls": [
+    "https://yawnoc.github.io/sun-tzu/iii/26",
+    "https://archive.org/download/02094034.cn/02094034.cn.pdf"
+  ],
+  "source_pdf_sha256": "a377aadf78f8e61f4dffbe84fb115913dfee8ff229be8a841491791457976e8e",
+  "owned_edition_html_sha256": "53467207d549a770d50a58403cabd702fb590b3809190024d95e07fc808c4910",
+  "source_policy": "Owned modern Chinese edition; source-only native numerical/content check, not a diplomatic character transcription or dated pre1450 witness.",
+  "clauses": [
+    {
+      "id": "S01",
+      "source_text": "今有物",
+      "tree": [
+        "PRESENT",
+        "OBJECTS"
+      ],
+      "meaning": "Introduce objects in the problem situation.",
+      "scope": "specific"
+    },
+    {
+      "id": "S02",
+      "source_text": "不知其數",
+      "tree": [
+        "UNKNOWN",
+        [
+          "COUNT",
+          "REF"
+        ]
+      ],
+      "meaning": "Their number is unknown; no named knower.",
+      "scope": "specific"
+    },
+    {
+      "id": "S03",
+      "source_text": "三三數之賸二",
+      "tree": [
+        "LEAVES",
+        [
+          "GROUP",
+          "REF",
+          "DIGIT_3"
+        ],
+        "DIGIT_2"
+      ],
+      "meaning": "Grouping those objects by three leaves two.",
+      "scope": "specific"
+    },
+    {
+      "id": "S04",
+      "source_text": "五五數之賸三",
+      "tree": [
+        "LEAVES",
+        [
+          "GROUP",
+          "REF",
+          "DIGIT_5"
+        ],
+        "DIGIT_3"
+      ],
+      "meaning": "Grouping the same objects by five leaves three.",
+      "scope": "specific"
+    },
+    {
+      "id": "S05",
+      "source_text": "七七數之賸二",
+      "tree": [
+        "LEAVES",
+        [
+          "GROUP",
+          "REF",
+          "DIGIT_7"
+        ],
+        "DIGIT_2"
+      ],
+      "meaning": "Grouping the same objects by seven leaves two.",
+      "scope": "specific"
+    },
+    {
+      "id": "S06",
+      "source_text": "問物幾何",
+      "tree": [
+        "ASK",
+        [
+          "COUNT",
+          "OBJECTS"
+        ]
+      ],
+      "meaning": "Ask how many objects there are.",
+      "scope": "specific"
+    },
+    {
+      "id": "S07",
+      "source_text": "答曰、二十三",
+      "tree": [
+        "ANSWER",
+        [
+          "DECIMAL_APPEND",
+          "DIGIT_2",
+          "DIGIT_3"
+        ]
+      ],
+      "meaning": "The answer states twenty-three; no least qualifier.",
+      "scope": "specific"
+    },
+    {
+      "id": "S08",
+      "source_text": "術曰",
+      "tree": "METHOD_BEGIN",
+      "meaning": "Introduce the worked method.",
+      "scope": "specific"
+    },
+    {
+      "id": "S09",
+      "source_text": "三三數之賸二、置一百四十",
+      "tree": [
+        "WHEN",
+        [
+          "LEAVES",
+          [
+            "GROUP",
+            "REF",
+            "DIGIT_3"
+          ],
+          "DIGIT_2"
+        ],
+        [
+          "PLACE",
+          [
+            "DECIMAL_APPEND",
+            [
+              "DECIMAL_APPEND",
+              "DIGIT_1",
+              "DIGIT_4"
+            ],
+            "DIGIT_0"
+          ]
+        ]
+      ],
+      "meaning": "In the three/remainder-two case, place140.",
+      "scope": "specific"
+    },
+    {
+      "id": "S10",
+      "source_text": "五五數之賸三、置六十三",
+      "tree": [
+        "WHEN",
+        [
+          "LEAVES",
+          [
+            "GROUP",
+            "REF",
+            "DIGIT_5"
+          ],
+          "DIGIT_3"
+        ],
+        [
+          "PLACE",
+          [
+            "DECIMAL_APPEND",
+            "DIGIT_6",
+            "DIGIT_3"
+          ]
+        ]
+      ],
+      "meaning": "In the five/remainder-three case, place63.",
+      "scope": "specific"
+    },
+    {
+      "id": "S11",
+      "source_text": "七七數之賸二、置三十",
+      "tree": [
+        "WHEN",
+        [
+          "LEAVES",
+          [
+            "GROUP",
+            "REF",
+            "DIGIT_7"
+          ],
+          "DIGIT_2"
+        ],
+        [
+          "PLACE",
+          [
+            "DECIMAL_APPEND",
+            "DIGIT_3",
+            "DIGIT_0"
+          ]
+        ]
+      ],
+      "meaning": "In the seven/remainder-two case, place30.",
+      "scope": "specific"
+    },
+    {
+      "id": "S12",
+      "source_text": "并之、得二百三十三",
+      "tree": [
+        "RESULT",
+        [
+          "COMBINE",
+          "REF"
+        ],
+        [
+          "DECIMAL_APPEND",
+          [
+            "DECIMAL_APPEND",
+            "DIGIT_2",
+            "DIGIT_3"
+          ],
+          "DIGIT_3"
+        ]
+      ],
+      "meaning": "Combine the placed values and obtain233.",
+      "scope": "specific"
+    },
+    {
+      "id": "S13",
+      "source_text": "以二百一十減之、即得",
+      "tree": [
+        "DONE",
+        [
+          "SUBTRACT",
+          [
+            "DECIMAL_APPEND",
+            [
+              "DECIMAL_APPEND",
+              "DIGIT_2",
+              "DIGIT_1"
+            ],
+            "DIGIT_0"
+          ],
+          "REF"
+        ]
+      ],
+      "meaning": "Subtract210 from the current sum and obtain the answer.",
+      "scope": "specific"
+    },
+    {
+      "id": "S14",
+      "source_text": "凡",
+      "tree": "GENERAL_BEGIN",
+      "meaning": "Begin generic rules; do not retain the special object count23.",
+      "scope": "general"
+    },
+    {
+      "id": "S15",
+      "source_text": "三三數之賸一、則置七十",
+      "tree": [
+        "WHEN",
+        [
+          "LEAVES",
+          [
+            "GROUP",
+            "REF",
+            "DIGIT_3"
+          ],
+          "DIGIT_1"
+        ],
+        [
+          "PLACE",
+          [
+            "DECIMAL_APPEND",
+            "DIGIT_7",
+            "DIGIT_0"
+          ]
+        ]
+      ],
+      "meaning": "In a generic three/remainder-one case, place70.",
+      "scope": "general"
+    },
+    {
+      "id": "S16",
+      "source_text": "五五數之賸一、則置二十一",
+      "tree": [
+        "WHEN",
+        [
+          "LEAVES",
+          [
+            "GROUP",
+            "REF",
+            "DIGIT_5"
+          ],
+          "DIGIT_1"
+        ],
+        [
+          "PLACE",
+          [
+            "DECIMAL_APPEND",
+            "DIGIT_2",
+            "DIGIT_1"
+          ]
+        ]
+      ],
+      "meaning": "In a generic five/remainder-one case, place21.",
+      "scope": "general"
+    },
+    {
+      "id": "S17",
+      "source_text": "七七數之賸一、則置十五",
+      "tree": [
+        "WHEN",
+        [
+          "LEAVES",
+          [
+            "GROUP",
+            "REF",
+            "DIGIT_7"
+          ],
+          "DIGIT_1"
+        ],
+        [
+          "PLACE",
+          [
+            "DECIMAL_APPEND",
+            "DIGIT_1",
+            "DIGIT_5"
+          ]
+        ]
+      ],
+      "meaning": "In a generic seven/remainder-one case, place15.",
+      "scope": "general"
+    },
+    {
+      "id": "S18",
+      "source_text": "一百六以上、以一百五減之、即得",
+      "tree": [
+        "WHEN",
+        [
+          "AT_LEAST",
+          [
+            "DECIMAL_APPEND",
+            [
+              "DECIMAL_APPEND",
+              "DIGIT_1",
+              "DIGIT_0"
+            ],
+            "DIGIT_6"
+          ]
+        ],
+        [
+          "DONE",
+          [
+            "SUBTRACT",
+            [
+              "DECIMAL_APPEND",
+              [
+                "DECIMAL_APPEND",
+                "DIGIT_1",
+                "DIGIT_0"
+              ],
+              "DIGIT_5"
+            ],
+            "REF"
+          ]
+        ]
+      ],
+      "meaning": "If the contextually applicable current value is at least106, subtract105 once and obtain a result.",
+      "scope": "general"
+    }
+  ],
+  "arities": {
+    "PRESENT": 1,
+    "OBJECTS": 0,
+    "UNKNOWN": 1,
+    "COUNT": 1,
+    "REF": 0,
+    "LEAVES": 2,
+    "GROUP": 2,
+    "DIGIT_3": 0,
+    "DIGIT_2": 0,
+    "DIGIT_5": 0,
+    "DIGIT_7": 0,
+    "ASK": 1,
+    "ANSWER": 1,
+    "DECIMAL_APPEND": 2,
+    "METHOD_BEGIN": 0,
+    "WHEN": 2,
+    "PLACE": 1,
+    "DIGIT_1": 0,
+    "DIGIT_4": 0,
+    "DIGIT_0": 0,
+    "DIGIT_6": 0,
+    "RESULT": 2,
+    "COMBINE": 1,
+    "DONE": 1,
+    "SUBTRACT": 2,
+    "GENERAL_BEGIN": 0,
+    "AT_LEAST": 1
+  },
+  "streams": {
+    "PREFIX": {
+      "atoms": [
+        "PRESENT",
+        "OBJECTS",
+        "UNKNOWN",
+        "COUNT",
+        "REF",
+        "LEAVES",
+        "GROUP",
+        "REF",
+        "DIGIT_3",
+        "DIGIT_2",
+        "LEAVES",
+        "GROUP",
+        "REF",
+        "DIGIT_5",
+        "DIGIT_3",
+        "LEAVES",
+        "GROUP",
+        "REF",
+        "DIGIT_7",
+        "DIGIT_2",
+        "ASK",
+        "COUNT",
+        "OBJECTS",
+        "ANSWER",
+        "DECIMAL_APPEND",
+        "DIGIT_2",
+        "DIGIT_3",
+        "METHOD_BEGIN",
+        "WHEN",
+        "LEAVES",
+        "GROUP",
+        "REF",
+        "DIGIT_3",
+        "DIGIT_2",
+        "PLACE",
+        "DECIMAL_APPEND",
+        "DECIMAL_APPEND",
+        "DIGIT_1",
+        "DIGIT_4",
+        "DIGIT_0",
+        "WHEN",
+        "LEAVES",
+        "GROUP",
+        "REF",
+        "DIGIT_5",
+        "DIGIT_3",
+        "PLACE",
+        "DECIMAL_APPEND",
+        "DIGIT_6",
+        "DIGIT_3",
+        "WHEN",
+        "LEAVES",
+        "GROUP",
+        "REF",
+        "DIGIT_7",
+        "DIGIT_2",
+        "PLACE",
+        "DECIMAL_APPEND",
+        "DIGIT_3",
+        "DIGIT_0",
+        "RESULT",
+        "COMBINE",
+        "REF",
+        "DECIMAL_APPEND",
+        "DECIMAL_APPEND",
+        "DIGIT_2",
+        "DIGIT_3",
+        "DIGIT_3",
+        "DONE",
+        "SUBTRACT",
+        "DECIMAL_APPEND",
+        "DECIMAL_APPEND",
+        "DIGIT_2",
+        "DIGIT_1",
+        "DIGIT_0",
+        "REF",
+        "GENERAL_BEGIN",
+        "WHEN",
+        "LEAVES",
+        "GROUP",
+        "REF",
+        "DIGIT_3",
+        "DIGIT_1",
+        "PLACE",
+        "DECIMAL_APPEND",
+        "DIGIT_7",
+        "DIGIT_0",
+        "WHEN",
+        "LEAVES",
+        "GROUP",
+        "REF",
+        "DIGIT_5",
+        "DIGIT_1",
+        "PLACE",
+        "DECIMAL_APPEND",
+        "DIGIT_2",
+        "DIGIT_1",
+        "WHEN",
+        "LEAVES",
+        "GROUP",
+        "REF",
+        "DIGIT_7",
+        "DIGIT_1",
+        "PLACE",
+        "DECIMAL_APPEND",
+        "DIGIT_1",
+        "DIGIT_5",
+        "WHEN",
+        "AT_LEAST",
+        "DECIMAL_APPEND",
+        "DECIMAL_APPEND",
+        "DIGIT_1",
+        "DIGIT_0",
+        "DIGIT_6",
+        "DONE",
+        "SUBTRACT",
+        "DECIMAL_APPEND",
+        "DECIMAL_APPEND",
+        "DIGIT_1",
+        "DIGIT_0",
+        "DIGIT_5",
+        "REF"
+      ],
+      "atom_count": 122,
+      "types": 27,
+      "frequencies": {
+        "ANSWER": 1,
+        "ASK": 1,
+        "AT_LEAST": 1,
+        "COMBINE": 1,
+        "COUNT": 2,
+        "DECIMAL_APPEND": 16,
+        "DIGIT_0": 6,
+        "DIGIT_1": 9,
+        "DIGIT_2": 8,
+        "DIGIT_3": 10,
+        "DIGIT_4": 1,
+        "DIGIT_5": 5,
+        "DIGIT_6": 2,
+        "DIGIT_7": 4,
+        "DONE": 2,
+        "GENERAL_BEGIN": 1,
+        "GROUP": 9,
+        "LEAVES": 9,
+        "METHOD_BEGIN": 1,
+        "OBJECTS": 2,
+        "PLACE": 6,
+        "PRESENT": 1,
+        "REF": 13,
+        "RESULT": 1,
+        "SUBTRACT": 2,
+        "UNKNOWN": 1,
+        "WHEN": 7
+      }
+    },
+    "POSTFIX": {
+      "atoms": [
+        "OBJECTS",
+        "PRESENT",
+        "REF",
+        "COUNT",
+        "UNKNOWN",
+        "REF",
+        "DIGIT_3",
+        "GROUP",
+        "DIGIT_2",
+        "LEAVES",
+        "REF",
+        "DIGIT_5",
+        "GROUP",
+        "DIGIT_3",
+        "LEAVES",
+        "REF",
+        "DIGIT_7",
+        "GROUP",
+        "DIGIT_2",
+        "LEAVES",
+        "OBJECTS",
+        "COUNT",
+        "ASK",
+        "DIGIT_2",
+        "DIGIT_3",
+        "DECIMAL_APPEND",
+        "ANSWER",
+        "METHOD_BEGIN",
+        "REF",
+        "DIGIT_3",
+        "GROUP",
+        "DIGIT_2",
+        "LEAVES",
+        "DIGIT_1",
+        "DIGIT_4",
+        "DECIMAL_APPEND",
+        "DIGIT_0",
+        "DECIMAL_APPEND",
+        "PLACE",
+        "WHEN",
+        "REF",
+        "DIGIT_5",
+        "GROUP",
+        "DIGIT_3",
+        "LEAVES",
+        "DIGIT_6",
+        "DIGIT_3",
+        "DECIMAL_APPEND",
+        "PLACE",
+        "WHEN",
+        "REF",
+        "DIGIT_7",
+        "GROUP",
+        "DIGIT_2",
+        "LEAVES",
+        "DIGIT_3",
+        "DIGIT_0",
+        "DECIMAL_APPEND",
+        "PLACE",
+        "WHEN",
+        "REF",
+        "COMBINE",
+        "DIGIT_2",
+        "DIGIT_3",
+        "DECIMAL_APPEND",
+        "DIGIT_3",
+        "DECIMAL_APPEND",
+        "RESULT",
+        "DIGIT_2",
+        "DIGIT_1",
+        "DECIMAL_APPEND",
+        "DIGIT_0",
+        "DECIMAL_APPEND",
+        "REF",
+        "SUBTRACT",
+        "DONE",
+        "GENERAL_BEGIN",
+        "REF",
+        "DIGIT_3",
+        "GROUP",
+        "DIGIT_1",
+        "LEAVES",
+        "DIGIT_7",
+        "DIGIT_0",
+        "DECIMAL_APPEND",
+        "PLACE",
+        "WHEN",
+        "REF",
+        "DIGIT_5",
+        "GROUP",
+        "DIGIT_1",
+        "LEAVES",
+        "DIGIT_2",
+        "DIGIT_1",
+        "DECIMAL_APPEND",
+        "PLACE",
+        "WHEN",
+        "REF",
+        "DIGIT_7",
+        "GROUP",
+        "DIGIT_1",
+        "LEAVES",
+        "DIGIT_1",
+        "DIGIT_5",
+        "DECIMAL_APPEND",
+        "PLACE",
+        "WHEN",
+        "DIGIT_1",
+        "DIGIT_0",
+        "DECIMAL_APPEND",
+        "DIGIT_6",
+        "DECIMAL_APPEND",
+        "AT_LEAST",
+        "DIGIT_1",
+        "DIGIT_0",
+        "DECIMAL_APPEND",
+        "DIGIT_5",
+        "DECIMAL_APPEND",
+        "REF",
+        "SUBTRACT",
+        "DONE",
+        "WHEN"
+      ],
+      "atom_count": 122,
+      "types": 27,
+      "frequencies": {
+        "ANSWER": 1,
+        "ASK": 1,
+        "AT_LEAST": 1,
+        "COMBINE": 1,
+        "COUNT": 2,
+        "DECIMAL_APPEND": 16,
+        "DIGIT_0": 6,
+        "DIGIT_1": 9,
+        "DIGIT_2": 8,
+        "DIGIT_3": 10,
+        "DIGIT_4": 1,
+        "DIGIT_5": 5,
+        "DIGIT_6": 2,
+        "DIGIT_7": 4,
+        "DONE": 2,
+        "GENERAL_BEGIN": 1,
+        "GROUP": 9,
+        "LEAVES": 9,
+        "METHOD_BEGIN": 1,
+        "OBJECTS": 2,
+        "PLACE": 6,
+        "PRESENT": 1,
+        "REF": 13,
+        "RESULT": 1,
+        "SUBTRACT": 2,
+        "UNKNOWN": 1,
+        "WHEN": 7
+      }
+    }
+  },
+  "references": {
+    "GROUP/COUNT:REF": "problem objects in specific scope; a generic object collection parameter in general scope",
+    "COMBINE:REF": "the three placed specific computational terms, as an ordered bundle with order not fixing summation association",
+    "SUBTRACT:REF": "specific computed233 in S13; unspecified current numeric quantity x in generic S18",
+    "AT_LEAST": "unary condition on the current numeric quantity x; implicit subject is a declared contextual choice"
+  },
+  "writing_assumptions": [
+    "Each primitive has one nonempty globally injective prefix-free code per complete case.",
+    "Root codes may pack inside a target group; no code crosses a word seam; every target character is consumed.",
+    "Prefix and postfix traversal retain the same frozen child order; clause order is source order.",
+    "Canonical modern positional decimal uses digit terminals and binary DECIMAL_APPEND(a,d)=10*a+d. Zero is not a Chinese-written glyph here.",
+    "No new actor, smallest-answer clause, hidden product, loop, extra sum or general algorithm is inserted.",
+    "METHOD_BEGIN and GENERAL_BEGIN preserve the discourse shifts. Generic conditional clauses are rule templates, not one execution on the specific23.",
+    "REF is one shared written atom whose antecedent follows the declared typed operator and section context; not nearest preceding surface word."
+  ],
+  "remaining_ambiguity": [
+    "Object identity and material are unspecified.",
+    "Remainder facts alone permit23+105k; explicit answer chooses23 without claiming uniqueness.",
+    "A generic current x at least106 maps to x-105 once; no automatic repetition or special23 result.",
+    "Semantic renamings preserving this typed arithmetic can share all written predictions.",
+    "Decimal rather than Chinese additive numerals and both tree writers are modern hypotheses, not attested Voynich mechanisms."
+  ]
+}

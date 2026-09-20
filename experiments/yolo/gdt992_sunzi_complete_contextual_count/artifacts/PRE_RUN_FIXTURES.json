@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "source_units": 18,
+  "source_numeric_clauses_checked": 18,
+  "atoms": 122,
+  "types": 27,
+  "source_arithmetic": "specific and stated general-step consequences agree; not a supplied complete general algorithm",
+  "controls": [
+    {
+      "writer": "PREFIX",
+      "control": "one_atom_per_word",
+      "primary": "SAT",
+      "reverse": "SAT_REPLAY"
+    },
+    {
+      "writer": "PREFIX",
+      "control": "packed",
+      "primary": "SAT",
+      "reverse": "SAT_REPLAY"
+    },
+    {
+      "writer": "PREFIX",
+      "control": "changed_second_reference",
+      "primary": "UNSAT_FINITE",
+      "reverse": "UNSAT_REPLAY"
+    },
+    {
+      "writer": "POSTFIX",
+      "control": "one_atom_per_word",
+      "primary": "SAT",
+      "reverse": "SAT_REPLAY"
+    },
+    {
+      "writer": "POSTFIX",
+      "control": "packed",
+      "primary": "SAT",
+      "reverse": "SAT_REPLAY"
+    },
+    {
+      "writer": "POSTFIX",
+      "control": "changed_second_reference",
+      "primary": "UNSAT_FINITE",
+      "reverse": "UNSAT_REPLAY"
+    }
+  ],
+  "scope": "source/engineering only, no target/meaning finding",
+  "inherited_small_control": "GDT987 5100 exhaustive oracle cases; implementation unchanged, not rerun here"
+}

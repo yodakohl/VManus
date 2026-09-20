@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "worker subprocess protocol on small synthetic data only",
+  "cases": [
+    {
+      "script": "run.py",
+      "words": [
+        "ab",
+        "cd",
+        "ab"
+      ],
+      "status": "SAT"
+    },
+    {
+      "script": "run.py",
+      "words": [
+        "ab",
+        "cd",
+        "cd"
+      ],
+      "status": "UNSAT_FINITE"
+    },
+    {
+      "script": "validate.py",
+      "words": [
+        "ab",
+        "cd",
+        "ab"
+      ],
+      "status": "SAT_REPLAY"
+    },
+    {
+      "script": "validate.py",
+      "words": [
+        "ab",
+        "cd",
+        "cd"
+      ],
+      "status": "UNSAT_REPLAY"
+    }
+  ]
+}
