@@ -2,14 +2,14 @@
 Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT989: all nine Theophilus stage/name headers, both orientations.
-Latest decision: Complete I.1–9 source fixed; necessary header test only;0words.
-Working files: experiments/yolo/gdt989_theophilus_three_stage_headers/METHOD.md
-Assumptions: Compact first-group header is hypothetical; all target leaves exposed.
-Resume: Publish989registration, enumerate every bundle, validate and close.
-Running: Root989;bounded source producer;earliestend09:05:26UTC.
+Task: Select a whole-content contextual construction after GDT989.
+Latest decision: GDT989 both nine-header writers fail;82unknown bundles retained;0codes.
+Working files: experiments/yolo/gdt989_theophilus_three_stage_headers/REPORT.md
+Assumptions: Historical reference/stage notation does not supply target meanings.
+Resume: Review a different whole-content candidate and its exact prior stops.
+Running: Root selection;bounded source producer;earliestend09:05:26UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

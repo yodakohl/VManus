@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT989 HEADER STOP: all132readable nine-paragraph bundles contradict both fixed Theophilus name/stage writers;77header unknown+5gap bundles retained.0codes/words/independent;11exposed leaves. Only the compact first-group header model; no body/source-family rejection or repair. [Report](experiments/yolo/gdt989_theophilus_three_stage_headers/REPORT.md).
+
 GDT988 PROOF RECORD STOP: all2216literal cases contradict two fixed typed10/22group serializers;3180source unknowns retained.24count-matching cases separately replayed,0codes/words/independent. Not all logical content; no post-result serialization repair. Next attested contextual-reference candidate only. [Report](experiments/yolo/gdt988_sherwood_typed_conversion_records/REPORT.md).
 
 GDT987 FINITE CLOSURE: all148literal complete986equations exhausted; independent reverse enumeration confirms148/148,0timeouts. All109old computational unknowns now contradicted under the unchanged source/writers;166source unknowns retained;0full codes/words/independent. Original986receipts unchanged. Stop computation/repair on this source; next source-owned complete construction only. [Report](experiments/yolo/gdt987_anastasia_finite_word_proof/REPORT.md).
