@@ -2,14 +2,14 @@
 Updated: 2026-09-21. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Crossleaf music extension: review whole f76v.37-41 with71 meanings fixed.
-Latest decision: GDT1025 shared DIRECT coherent; reversed conflicts only with assumed same V/sole phase.
-Working files: experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md
-Assumptions: No confirmed words; fixed-music crossleaf55groups reuse18types/32positions; scope open.
-Resume: Publish1025; review IDEA000490 and bounded full f76v proposal before selection.
-Running: root publication/review; bounded_semantic_route drafts full f76v by05:38; end11:11:33 UTC.
+Task: GDT1026 full crossleaf music account; all71 old meanings frozen.
+Latest decision: RAW491 selected:55new groups,18old types/32positions; IT two lines conflict.
+Working files: experiments/yolo/gdt1026_rota_crossleaf_frozen_meanings/DECISION.md
+Assumptions: 20new values/11clauses/10bindings; same performance; N2 ending vacuous;0 words.
+Resume: Publish registration, run24 fixed cases, independently validate and publish by06:10UTC.
+Running: root1026; bounded_semantic_route seeks distinct full extension by06:00; end11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
