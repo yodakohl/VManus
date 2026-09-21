@@ -1,0 +1,116 @@
+{
+  "title": "Cennini: one contact-copy constructor applied to the face and then to its mould",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Concretizes IDEA000439/442 with one shared local contact-copy rule in the complete Cennini CLXIII–CLXVI source: FACE → FORM1 → EFFIGY. The two applications preserve model provenance, use distinct gypsum portions and reverse nonflat relief polarity twice. No target paragraph, dictionary or writer is selected; this is an incomplete content hypothesis, not a Voynich interpretation.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_INCOMPLETE_TARGET_BINDING",
+  "created_utc": "2026-09-21",
+  "source_bindings": [
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/CENNINI_PROCESS_PRODUCT_SOURCE_20260920.json",
+      "sha256": "fec4fbf73be07c164e495e4bdefdcd528cd23e0e3a2071c787698999624241a5"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/CENNINI_COMPLETE_FINITE_SOURCE_ACCOUNT_20260920.json",
+      "sha256": "15f0e780c274c8cec930abf10217b5f9ec7130228436e44d84f547ec4e10e25c"
+    },
+    {
+      "path": "research_registry/proposals/raw_cennini_medium_condition_process_identity_20260920.json",
+      "sha256": "49ab5ffd0f8727f73a6be689ac8bb532d3a5237bc10d7f180526fde298c0ce26"
+    },
+    {
+      "path": "research_registry/proposals/raw_cennini_typed_partial_application_writer_20260920.json",
+      "sha256": "4aa7d35bf523be2020e44c823559561b6fe715d48668644666322e80e327d51b"
+    },
+    {
+      "path": "experiments/yolo/gdt1005_cennini_lossless_context_records/REPORT.md",
+      "sha256": "16d028de3c0bd6e42b620113e5223d6623c729948cf91bce8fd001ae5c140b4a"
+    }
+  ],
+  "proposal_kind": "Concretization of an existing complete source candidate. No newly acquired source and no substitute literal writer.",
+  "fixed_source_scope": {
+    "whole": "All four complete chapters and all C01–C29 source obligations remain in scope, including introduction, model selection, shaving, oil, cloth, ring, assistant, breathing tubes, mixtures, medium/status condition, timing, guards, result and optional metal/founder clauses.",
+    "two_source_operations": "CLXVI first pours the gypsum preparation around the actual face, sets it, frees the face and preserves this first form. The later passage oils the cavity of that same form, prepares further gypsum, fills the form, waits and breaks the first outer form while protecting the resulting nose and likeness.",
+    "actual_references": [
+      "C11–C18 bind first preparation, face contact, setting, release and preserved FORM1.",
+      "C19–C24 explicitly resume FORM1, oil its cavity and introduce a further gypsum preparation.",
+      "C25 identifies the broken outside crust with the first form and distinguishes it from the protected nose/result.",
+      "C26 puts optional exterior sawing before filling despite its later textual position."
+    ],
+    "wording_limit": "The owned wording is Tambroni 1821. Its chapter headings are editorial additions. The 1437 witness supports work attribution, not exact collation of these printed clauses. No medieval exact-form claim is added."
+  },
+  "shared_content_constructor": {
+    "domain": "Only the contact interface of a nonflat face feature, exemplified by the source-mentioned nose. This is local relief polarity, not page mirroring, a complement of an entire solid, or a numerical surface reconstruction.",
+    "arguments": "CONTACT_SET(new_gypsum_portion, existing_contact_surface, preparation_guards) returns the hardened product interface. The surrounding source still carries pour, rest, release, tools, containers and all other arguments; this core does not replace them with one silent macro.",
+    "carrier": "Each relevant interface has physical_portion_id, ultimate_model_reference, local_relief_polarity in {RAISED, RECESSED}, and material_state. The two gypsum portions and the living model are distinct physical portions.",
+    "law": "Under the explicitly assumed ideal contact-copy interpretation, CONTACT_SET preserves ultimate_model_reference and switches RAISED ↔ RECESSED. It assigns the result to the new gypsum portion, never to the physical identity of its input surface. The same two-cell polarity law applies at both source operations.",
+    "composition": "The output interface of the first application is the input interface of the second. Therefore F(F(polarity)) = polarity, while output physical identity changes on each application. Destroying the first form affects its own physical portion and does not identify it with the second product.",
+    "guard_scope": "Only successful source-prescribed contact and setting are modeled. Incomplete filling, adhesion or damage are not silently claimed impossible. Oil, tapping, adequate setting, careful release and breaking retain their stated source roles. Optional later metal casting is not treated as a third known invocation: its antecedent and missing foundry operations remain uncertain.",
+    "new_assumptions": [
+      "Interpret the face-to-mould and mould-to-product contacts as applications of one idealized local relief-copy operation. The source does not explicitly state an involution or measure fidelity.",
+      "Carry one selected feature correspondence through both operations. This does not imply exact dimensions, absence of shrinkage, or a full measured geometric isomorphism.",
+      "Use a stable model provenance distinct from physical material identity. The preexisting source account already distinguishes model, first form and second result."
+    ],
+    "freedom_count": "One fixed binary polarity carrier and one fixed shared two-cell switch law, applied twice; three source-bound physical portions and one model provenance. No operation-specific polarity table, free output label, learned code value or assigned Voynich word is introduced. Selecting this idealization is a modeling assumption. A future target code has not been specified and its unknown freedom must not be counted as zero."
+  },
+  "two_actual_applications_and_consequences": [
+    {
+      "source": "C11–C18",
+      "input": "GYPSUM1 against MODEL_FACE_NOSE, provisionally RAISED",
+      "output": "FORM1 cavity interface, RECESSED, with the same model provenance and GYPSUM1 material identity",
+      "consequence": "The first preserved form is a contact negative under this model, not already the surviving positive effigy."
+    },
+    {
+      "source": "C19–C27",
+      "input": "GYPSUM2 against the preserved FORM1 cavity interface, RECESSED",
+      "output": "EFFIGY nose interface, RAISED, with the same model provenance and GYPSUM2 material identity",
+      "consequence": "The second operation restores the original relief polarity. FORM1 is then explicitly breakable while EFFIGY survives."
+    }
+  ],
+  "serious_competing_bindings": [
+    {
+      "rival": "The second contact argument resolves to the original face again, rather than to FORM1.",
+      "different_prediction": "The shared contact law makes another recessed face negative, not the twice-copied raised effigy. This is a reference/operand rival with the same operator and materials, not a static word-list rival.",
+      "limit": "Whether a Voynich passage offers these competing reference parses is unknown until a complete target binding exists."
+    },
+    {
+      "rival": "Both written filling events are arbitrary output constructors with unrelated relief consequences.",
+      "different_prediction": "This can assign a desired final product but does not entail double reversal or constrain the second input by the first output. It is more permissive; survival alone would not establish the shared constructor."
+    },
+    {
+      "rival": "FORM1 and EFFIGY are one physical object.",
+      "different_prediction": "Destroying the explicitly first outer form would destroy the claimed surviving result. This is an already documented predecessor countercase, retained here, not new evidence."
+    }
+  ],
+  "strongest_countercases_and_limits": [
+    "The source never writes negative/positive polarity as a formal law. Both polarities are analytical inferences already disclosed in the complete account. This proposal shares them through a constructor; it does not upgrade them to independent manuscript truth.",
+    "C28 optional casting has an unresolved antecedent and no full foundry procedure. Applying the same toggle automatically to metal casting would manufacture a third constraint; prohibited.",
+    "The C15 status/medium clause and C17 posture wording retain their documented scope/textual uncertainties. Old cards differ in their simplified medium placement; this proposal does not adjudicate or silently repair them.",
+    "GDT1005 contradicts all literal gap-free whole bundles under its exact FULL/DELTA contracts. That result remains closed. Shared contact semantics does not authorize removing masks, seams, fields, clauses or changing bundle sizes.",
+    "IDEA000442 has an incomplete full-source type/writer contract; its worked trace is not an executable complete parse. No part of this proposal certifies that writer."
+  ],
+  "smallest_decision_changing_next_step": {
+    "now": "Review this as a bounded semantic constraint for the existing source candidate, not an experiment. A complete target binding is still missing; do not build a decoder or run a source-only demonstration.",
+    "required_before_test": "Nominate an already-admitted whole target and give a complete fixed parse preserving C01–C29 and uncertainties, with one shared written realization of CONTACT_SET and explicit first-output/second-input reference. Enumerate all competitor bindings before inspecting outcomes; retain true word boundaries and alternate readings separately.",
+    "decisive_comparison": "Hold the full parse and shared contact law fixed. Compare the source-owned second operand FORM1 with the original-face competitor. They imply opposite final local relief polarity and different source ownership; a valid whole target parse must preserve the owned input chain. If complete target parses cannot distinguish the operand, the new constraint has no target capacity and no semantic promotion follows.",
+    "falsifier": "Reject a nominated complete reading if its fixed repeated operator requires incompatible polarity behavior, if its second contact consumes the wrong physical interface, or if its reference chain makes shell destruction remove EFFIGY. Do not invent an overloaded contact law or new hidden form to rescue it.",
+    "budget": "At most 30 minutes for the first complete-binding feasibility review once a concrete already-owned target reading is supplied. Stop without implementation if the missing whole parse cannot be supplied."
+  },
+  "duplicate_review": {
+    "commands": "Targeted ideas search/show, ideas duplicates and route-check were used; lexical hits are navigation only.",
+    "reviewed_primaries": [
+      "IDEA000439 source constructor",
+      "IDEA000442 typed partial-application proposal",
+      "Complete Cennini source packet and finite account",
+      "GDT1005 REPORT"
+    ],
+    "increment": "Existing cards already preserve mould identity and source process. The new contribution is a single explicitly assumed contact-copy polarity law reused over the two linked applications, with a second-operand swap giving an opposite consequence. No new historical source or already-confirmed meaning is claimed."
+  },
+  "missing_bindings": [
+    "No complete Voynich target owner or parse.",
+    "No written component boundaries or recurrence bound to CONTACT_SET.",
+    "No complete type/grammar/writer/inverse contract.",
+    "No independent target observation distinguishing positive from negative relief.",
+    "No resolution of optional casting, C15 scope or C17 source uncertainty."
+  ],
+  "access": "Only already-owned source/proposal files and pre-GDT1017 primaries read. No reserve, f84/f84r/f116v, new image, contact, target test, experiment file modification, route, ledger or refresh. Mandatory route read exposed a compact 1017 status; no 1017-or-later primary/result was opened or used."
+}

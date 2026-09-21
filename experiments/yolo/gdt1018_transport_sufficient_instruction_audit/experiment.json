@@ -1,7 +1,7 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "",
-    "max_inline_bytes": 5000000
+    "max_inline_bytes": 10000000,
+    "large_artifact_justification": "ROWS.json retains every complete parse, unchanged alias dictionary and full eligible-prefix state/counterexample evidence for all677registered original,saved and lifted cases. Its compact JSON is7.02MB. Truncating duplicate-looking lifts would remove directly checked whole-candidate consequences; the human review tables are separate compact artifacts."
   },
   "claim_ceiling": "Conditional fixed-witness instruction adequacy; no full extension-space exclusion, independent meaning or significance.",
   "commands": {
@@ -97,8 +97,28 @@
     },
     {
       "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md",
-      "sha256": "b47a89c490f49ecc4672cc7a3d743a8fb512ce8ce625154da15acfd3f983257e",
+      "sha256": "1adc439cc580d1c5cbd6a9978c376368b56c8aadb69185b256ede904c469b45e",
       "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/ALL_WORD_ASSIGNMENTS.tsv",
+      "sha256": "3247b2963bf8a381b6dc2d4e7e22a415de6ea903536ecb3edfc03fc4e8229694",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/CANDIDATES.tsv",
+      "sha256": "fbc1916de431d174b785f866efde6e33b6f4834729ec7dc8eb67fa97464cef3f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/EXECUTION_RECEIPT.json",
+      "sha256": "3e5e2b57150a3cd59c450801699769da36603b04ead67d92a90ca98dd7da1af4",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/INDEPENDENT.json",
+      "sha256": "880910455ad7dbe67c82d2255e742472e670282ee20b86471c65d074e402d491",
+      "role": "source_or_artifact"
     },
     {
       "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/PREFLIGHT.json",
@@ -106,8 +126,43 @@
       "role": "source_or_artifact"
     },
     {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/PUBLIC_REGISTRATION.json",
+      "sha256": "94cc7973bfb6cc6ea9266f25b6df3e2effdab227e59d95c29bea6bf6cc3a83f4",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/READINGS.md",
+      "sha256": "62cf5a8e973fcfc8336c4af64fda2fe3594626dd3ab6d168db64b52bdc4d22b6",
+      "role": "source_or_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/README.md",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/RESULT.json",
+      "sha256": "51b3d991cd119041e27780cf3a7c058a0f3f638b82a406f6a2ce9d85f60498fd",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/REVIEW.json",
+      "sha256": "a4dc40a2f738e5b4a1b61fc3055618a26dee11f02f6ce20e8d767bf38364fa42",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/ROWS.json",
+      "sha256": "e8f79ddffee6f584cdd1a8a31baef22c720787f5873e04a3f27e24f9f9f88c45",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/SAVED_WITNESSES.tsv",
+      "sha256": "08b28dae7fbaee07f338d3b99c1469d2dd8dd186e6234a51156a75799634dc8d",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/VALIDATION.json",
+      "sha256": "078dac8d942c7791efb9ef89dca1acc6a9b1436a25f8eacf984d1f4cba54a466",
       "role": "source_or_artifact"
     },
     {
@@ -146,6 +201,11 @@
       "role": "source_or_artifact"
     },
     {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/render.py",
+      "sha256": "910b70ad198e354cac77740f2600c717910fe156efc228aa6ecfb031db86550b",
+      "role": "source_or_artifact"
+    },
+    {
       "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/run.py",
       "sha256": "097be172856f43ec366a618102e5555f5508161f7483646467c3ebc9cd6dd4a9",
       "role": "source_or_artifact"
@@ -163,11 +223,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "transport_sufficient_instruction_audit",
-  "status": "REGISTERED_UNSCORED",
+  "status": "SUPPORTED_LIMITED_TWO_FIXED_SUFFICIENT_READINGS",
   "title": "transport sufficient instruction audit",
   "updated": "2026-09-21",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/VALIDATION.json"
   }
 }

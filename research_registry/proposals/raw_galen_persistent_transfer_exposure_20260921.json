@@ -1,0 +1,127 @@
+{
+  "title": "Galen cabbage: preserve transfer-exposure history through a second hot boil",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Concretizes the complete source in IDEA000402 with one persistent exposure flag distinct from present heat: an unexposed item and an exposed-then-reheated item can both be in hot replacement water, yet the source assigns different proper-softening consequences. All five paragraphs and 25 content obligations remain in scope. No complete Voynich target, dictionary, grammar or writer is supplied.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_INCOMPLETE_TARGET_BINDING",
+  "created_utc": "2026-09-21",
+  "proposal_kind": "Finite content-state refinement of an already-owned whole source, not a new source or a new temperature word list.",
+  "source_bindings": [
+    {
+      "path": "research_registry/proposals/raw_galen_cabbage_juice_body_opposition.json",
+      "sha256": "4ac4c6b056aab73cc968daa9feee3e1f617e78dcc4e5c57aedfcb40748d9b2eb"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/GALEN_CABBAGE_COMPLETE_SOURCE_20260920.json",
+      "sha256": "8bc3c51306fe27a9f4d6366e569b93b03f5fe760b0fb99e0fbfdae06cf975a97"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/GALEN_CABBAGE_OPPOSED_EFFECTS_SUPPLY_20260920.md",
+      "sha256": "159542686746017d3dac21632d9a27f3786620f2b0e705d4844da2d403df71e0"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/WORKING_THEORY.md",
+      "sha256": "d4b0b29c93112d4ec99c2a9aab88a70abc73057f8b610969aa5bccb0edaae0e8"
+    }
+  ],
+  "fixed_whole_source": {
+    "work": "Galen, De alimentorum facultatibus II.44, all five Greek paragraphs, Helmreich 1923 pp311–313, with the already-owned full semantic translation and K01–K25 inventory.",
+    "coverage": "Preserve relish/medical uses, prior-work references, opposed juice/body effects, evacuation preparation, oil and fish-sauce/salt alternative, drying preparation, discarded first and other hot water, boiling/juice-loss relation, lentil comparison, twice-boiled name and analogues, exposure condition and repeated transfer instruction, sight exception, nourishment contrast, urinary uncertainty, and final ancient/current naming dispute.",
+    "operative_source_claims": [
+      {
+        "positions": "K07–K09 / 2.44.2",
+        "claim": "For the drying purpose: moderately boil the cabbage, discard the former water, immediately put the same item into other hot water and thoroughly boil it until soft."
+      },
+      {
+        "positions": "K15–K16 / 2.44.3",
+        "claim": "The twice-boiled item must touch neither air nor cold water; otherwise it no longer becomes properly soft, even with very prolonged boiling."
+      },
+      {
+        "positions": "K17 / 2.44.3",
+        "claim": "The former-water/ready-hot-water instruction resumes the already-described transfer. It is not an unconditionally commanded third boil."
+      }
+    ],
+    "historical_status": "These are Galen’s claims as preserved in the owned source, not asserted chemical or medical efficacy."
+  },
+  "new_finite_content_hypothesis": {
+    "identity": "Within a drying-preparation branch, one physical vegetable portion is retained across the first water, transfer and second water. First and replacement water are distinct portions. Alternative goal branches are generic alternatives, not proof that one serving underwent both.",
+    "state": "For the relevant portion, carry (recipe_phase, current_contact_medium, transfer_exposed). transfer_exposed is Boolean history, initially false at entry to this modeled transfer. The complete reading must carry the other source content separately; this three-field state is not claimed to encode all five paragraphs.",
+    "shared_update": "During the source-scoped transfer, CONTACT_AIR or CONTACT_COLD_WATER sets transfer_exposed := true. Any later transfer into hot replacement water updates current_contact_medium but preserves transfer_exposed. Repeated exposure remains true. Neither boiling longer nor present hotness resets the flag.",
+    "shared_consequence": "At the second-boil outcome, transfer_exposed=true excludes PROPERLY_SOFT even for prolonged boiling. For transfer_exposed=false, successful completion of the other prescribed clean-transfer and thorough-boiling conditions gives the source’s SOFT outcome. The absence of exposure alone does not promise immediate softening or supply omitted guards.",
+    "limited_scope": "The flag records the prohibited exposure in the twice-boiling transfer context. It does not claim that an uncooked plant’s earlier ordinary contact with air permanently prevents cooking. The source supplies no quantitative exposure duration or temperature threshold; none is fitted.",
+    "new_assumptions": [
+      "Compress the source’s relevant exposure history into one Boolean flag while retaining the named plant portion and recipe context.",
+      "Treat air and cold-water exposure as two distinct causes of the same retained softening restriction, not as synonyms for cooling.",
+      "Use the same second-boil consequence rule for a clean and an exposed portion once each is in replacement hot water. This is an explicit source-modeling law, not an inferred Voynich operator."
+    ],
+    "freedom_count": "One Boolean history variable, two fixed setting events, fixed identity-preserving hot-transfer update, and one fixed softening restriction. No learned transition entries, clause-specific outcome labels, numerical durations, heat levels or juice masses. The variable name is arbitrary. No target-code values are supplied; the freedom of a future complete written binding remains uncounted and unresolved."
+  },
+  "actual_reused_inputs_and_different_consequences": [
+    {
+      "source": "2.44.2 K07–K09 with resumed transfer K17",
+      "input_to_shared_second_boil": "Same locally prepared vegetable portion, in replacement HOT water, transfer_exposed=false; all prescribed clean-transfer and thorough-boiling conditions satisfied.",
+      "consequence": "SOFT, as instructed by the complete drying branch.",
+      "link": "Current hot water and BOIL are shared with the prolonged-boiling counterbranch; portion identity persists from first to second water."
+    },
+    {
+      "source": "2.44.3 K15–K16, air-exposure case",
+      "input_to_shared_second_boil": "Prepared portion has contacted AIR during the modeled transfer, then is again in hot replacement water and boiled for a long time; transfer_exposed=true.",
+      "consequence": "NOT_PROPERLY_SOFT, despite restored present heat.",
+      "link": "The history bit survives the same transfer-to-hot and boiling operations."
+    },
+    {
+      "source": "2.44.3 K15–K16, cold-water case",
+      "input_to_shared_second_boil": "Prepared portion has contacted COLD_WATER during the modeled transfer, then is again in hot replacement water and boiled for a long time; transfer_exposed=true.",
+      "consequence": "NOT_PROPERLY_SOFT.",
+      "link": "Cold-water exposure and air exposure remain different events but yield the same retained restriction; no separate outcome is assigned for each clause."
+    }
+  ],
+  "serious_competing_state_bindings": [
+    {
+      "rival": "Current heat is the entire cooking state; reheating overwrites earlier cold/air history.",
+      "different_prediction": "After returning to hot replacement water, exposed and clean portions become identical inputs and cannot receive different proper-softening outcomes from one shared deterministic consequence rule.",
+      "scope": "This is a concrete competing content model, not claimed to be an existing complete Voynich interpretation. The source favors history dependence, but a target distinction is still unbound."
+    },
+    {
+      "rival": "The later former/that-water passage starts a new physical item or new unrelated preparation rather than resuming the first transfer.",
+      "different_prediction": "The prohibited event can be detached from the portion that later boils; the stated persistent consequence disappears. A full reading must instead preserve the named portion and first/other water chain."
+    },
+    {
+      "rival": "Two arbitrary BOIL outcome labels are attached to two clause positions.",
+      "different_prediction": "This reproduces the stated cases but has no common update law predicting that AIR then HOT and COLD_WATER then HOT retain the restriction. Survival of a more permissive labeling is not evidence against the source content, but does not supply the proposed shared constraint."
+    }
+  ],
+  "strongest_countercases_and_no_invention": [
+    "IDEA000402 already retains the air/cold-water failure condition and its prolonged-boiling scope. The refinement here is the explicit minimal history/current-state separation, not a newly discovered source fact or new efficacy finding.",
+    "The passage does not state the exposed item’s gut effect. Failure to soften must not be converted into retained purgative effect, failed drying, poison or any other unmentioned outcome.",
+    "The source supplies no exact air-exposure allowance, cooling threshold, boiling duration or chemical mechanism. A numerical thermal model or a measured irreversible reaction is unsupported.",
+    "The idealized clean transfer is a textual instruction; this proposal does not establish empirical executability or modern physical truth. It also does not turn every earlier encounter with air into the scoped violation.",
+    "More boiling loses more juice, but no exact conservation law or loss rate follows. No boiling retains all juice, and the second water’s disposal is not specified.",
+    "K19 is an exception to dulled sight, not an explicit promise of improved sight. K23 is uncertainty about urination, not proof of zero effect. K25’s other plant is unnamed; no plant identity may be invented.",
+    "GDT818’s complete local cold-air clause is a provisional target reading with guessed values and attachment debt, not evidence that chealy means cold or sheedy means if. No GDT818 word meaning, old dy binding, METHOD flag or supplied temperature assignment is inherited.",
+    "No nominated whole target currently preserves K01–K25 under a fixed shared code. This remains the central missing binding; a source-state demonstration would not resolve it."
+  ],
+  "smallest_decision_changing_next_step": {
+    "now": "Retain as a concrete content constraint for the existing whole-source candidate. Do not run a source-only automaton or build another decoder merely to verify the truth table stipulated here.",
+    "required_before_test": "Supply one already-admitted whole target reading, complete in all K01–K25 obligations, which gives written ownership to the same portion, first/replacement water, the exposure condition and the resumed second boil. Freeze all readings, repeated component/operator bindings, word boundaries, uncertainty and competitors before a test.",
+    "minimum_comparison": "On that fixed whole reading, compare the shared persistent-history binding with the current-state overwrite binding on BOTH air and cold-water routes. They must lead to the actual same written second-boil construction while retaining distinct exposure history; a clause-specific free outcome cannot count as reuse.",
+    "falsifier": "Reject the proposed complete reading if returning to hot water necessarily clears the exposure condition, if the later boil concerns a newly introduced unrelated portion, or if the same fixed construction cannot preserve both clean-soft and exposed-not-properly-soft outcomes without extra unbound exceptions. If no actual target recurrence owns this distinction, record no target capacity rather than a negative manuscript fact.",
+    "decision": "Only a complete written witness would justify selecting this refinement for a registered meaning test. Failure of the whole binding closes that nominated reading; absence of a whole binding leaves IDEA000402’s missing-complete-target gate unchanged.",
+    "budget": "At most 30 minutes for an initial complete-binding feasibility review after a specific already-owned target reading is supplied; no implementation if that precondition remains unmet."
+  },
+  "duplicate_review": {
+    "reviewed_primaries": [
+      "IDEA000402 full proposal and complete Galen II.44 source packet",
+      "GDT818 WORKING_THEORY"
+    ],
+    "navigation": "Targeted topic retrieval, ideas search/show, ideas duplicates and route-check were used. Broad lexical matches did not establish duplicate identity or authorize a rerun.",
+    "increment": "An explicit one-bit persistent history rule joins the source’s positive preparation and two failure causes while keeping current heat separate. This is a narrower modeling elaboration of IDEA000402, not a new genre/source or discovery of a manuscript temperature operator."
+  },
+  "missing_bindings": [
+    "No whole Voynich target owner or complete K01–K25 parse.",
+    "No independently bound repeated BOIL or transfer construction in target text.",
+    "No written distinction between present heat and exposure history.",
+    "No complete grammar, renderer, inverse or code-capacity account.",
+    "No target confirmation or empirical validation of Galen’s physical assertion."
+  ],
+  "access": "Only existing source/proposal and pre-GDT1017 primary files read. No reserve, f84/f84r/f116v, image, admission, external contact, test, experiment modification, route, ledger or refresh. Mandatory route read exposed a compact 1017 status; no 1017-or-later primary/result was opened or used."
+}

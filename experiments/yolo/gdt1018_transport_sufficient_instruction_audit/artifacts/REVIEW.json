@@ -1,0 +1,49 @@
+{
+  "record_id": "GDT1018",
+  "scope": "semantic",
+  "verdict": "supported_limited",
+  "reviewer": "root registered all-prefix audit plus independent prefix-trie validation",
+  "reason": "All156originals remain sufficient;2of29unchanged saved extensions sufficient,27insufficient;30positive492memberlifts;282of312member fullspaces remain open. No new aliases or decoder.",
+  "assessment_basis": "registered_complete_fixed_witness_adequacy",
+  "evidence": [
+    "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md",
+    "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/RESULT.json",
+    "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/CANDIDATES.tsv"
+  ],
+  "blockers": [
+    {
+      "code": "no_independent_meaning",
+      "detail": "Imperative no-lookahead assumption unconfirmed;positive added readings need75newaliases and24/26THENpositions;no original dictionary exclusion.",
+      "evidence": [
+        "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "different_content_or_binding",
+        "change": "new_design",
+        "detail": "A separately selected exact whole-reading consequence or genuinely different binding;no automatic full solver or fitted choice policy.",
+        "evidence": [
+          "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Failure of a saved map as whole extension-space UNSAT",
+      "New restarts",
+      "Claiming named cargo or instruction markers from internal adequacy"
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT1013",
+      "evidence": [
+        "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md"
+      ]
+    }
+  ]
+}
