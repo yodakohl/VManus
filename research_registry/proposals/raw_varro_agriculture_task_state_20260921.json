@@ -1,0 +1,58 @@
+{
+  "title": "Varro agriculture task-state constructor with worker/tool ownership",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Varro De re rustica I opens a complete agricultural planning dialogue and distinguishes the work's land, season, tools, workers, crop arrangement and profit conditions. A task-state constructor keeps one farm identity while changing operation ownership and timing; a static crop list is the rival.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Varro, De re rustica, Book I",
+    "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/varro/de_re_rustica/1%2A.html",
+    "source_span": "I.1–2 programme and interlocutors; I.8–11 agricultural domains and aids; I.32 cultivation form/quincunx example",
+    "source_facts": [
+      "Varro announces separate books for agriculture, animal husbandry, and the steading, and identifies which subjects belong to agriculture proper.",
+      "The dialogue assigns questions to people with different practical expertise and lists aids such as land, tools, labour and timing.",
+      "I.32 discusses orchard arrangement in regular quincunx rows and connects cultivation form with profit rather than treating plant names as isolated labels."
+    ]
+  },
+  "duplicate_screen": {
+    "checked": "ideas search/duplicates Varro agriculture/task state and route-check cultivation/graft/recipe; Cato133 and Palladius graft cards excluded",
+    "difference": "The proposed mechanism is dialogue-owned task/worker/tool scope and profit consequence, not Cato's attached scion state, graft direction, or a preparation branch."
+  },
+  "constructor": {
+    "types": [
+      "FARM",
+      "TASK",
+      "WORKER",
+      "TOOL",
+      "SEASON",
+      "LAYOUT",
+      "PROFIT"
+    ],
+    "operators": [
+      "ASSIGN(task,worker,tool)->OWNED_TASK",
+      "SCHEDULE(task,season)->TIMED_TASK",
+      "LAYOUT(orchard,quincunx,spacing)->CULTIVATION_STATE",
+      "EVALUATE(state,labour,tool,layout)->PROFIT_CONSEQUENCE",
+      "SHIFT_DOMAIN(task,animal_or_stead)->NEW_SCOPE"
+    ],
+    "worked_examples": [
+      "FARM_X: ASSIGN(orchard_layout,worker,tools); SCHEDULE(pruning,suitable_season); LAYOUT(quincunx,moderate_spacing)->orchard_state; EVALUATE->profit_condition",
+      "same named crop under a different task owner/tool or domain shifts the result; moving the task into animal husbandry changes scope rather than plant identity"
+    ],
+    "consequence": "A shared farm identity can carry different task domains and operators while the layout/worker/tool state changes the profit consequence. A static catalogue predicts no difference between the same crop under different task ownership or timing.",
+    "smallest_test": "Require two complete agricultural passages sharing a farm/material referent but changing task domain or operator owner, with a downstream profit/cultivation consequence.",
+    "rival": "The dialogue is a list of crop facts; speaker, tool, season and domain headings are metadata with no semantic effect.",
+    "assumptions": [
+      "The dialogue's expertise assignments are treated as typed task ownership.",
+      "Profit is retained as a source claim, not measured or modernized."
+    ],
+    "failure_modes": [
+      "Varro's opening programme may be expository rather than an operational farm record.",
+      "The quincunx example does not quantify profit, so output is qualitative.",
+      "No target binding for worker, farm or season exists."
+    ]
+  },
+  "dependencies": [
+    "Source-owned dialogue and cultivation example; no target page or crop label is consulted."
+  ],
+  "access": "Source-only; no target, reserve, image, experiment, route, ledger, decoder, or root file access."
+}

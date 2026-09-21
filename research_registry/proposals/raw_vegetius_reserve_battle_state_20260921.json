@@ -1,0 +1,61 @@
+{
+  "title": "Vegetius battle-line reserve constructor with local failure repair",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Vegetius Epitoma rei militaris III.16–22 binds line spacing, centre wedge, cavalry wings, reserves behind the line, withdrawal and partial-flight responses. A persistent battle-line state lets a local flank pressure consume reserve or shorten the line without resetting the army; a catalogue rival misses the resource tradeoff.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Vegetius, Epitoma rei militaris, Book III",
+    "url": "https://readancienttexts.com/vegetius/epitoma_rei_militaris_libri/3",
+    "source_span": "III.15–22 spacing, battle-line arrangement, reserves, commander positions, resistance, withdrawal and partial/whole flight",
+    "source_facts": [
+      "The battle line has ordered spacing between men and ranks.",
+      "The centre can form a wedge; cavalry and light infantry protect or encircle wings.",
+      "Reserves are stationed behind the line; if one enemy mass presses a sector, removing troops to defend it strips another sector, while shortening the line and using reserves is advised.",
+      "Withdrawal and partial flight have separate responses."
+    ]
+  },
+  "duplicate_screen": {
+    "checked": "ideas search/duplicates Vegetius reserve/battle line and route-check transport/sequence/state; old transport cards excluded",
+    "difference": "This is a local resource-preserving battle state with reserve consumption and partial-failure repair, not a cargo transport chain or generic event phase label."
+  },
+  "constructor": {
+    "types": [
+      "ARMY_STATE",
+      "LINE",
+      "SECTOR",
+      "RESERVE",
+      "PRESSURE",
+      "WITHDRAWAL",
+      "FLIGHT"
+    ],
+    "operators": [
+      "DEPLOY(line,spacing,centre,wings,reserve)->ARMY_STATE",
+      "PRESSURE(state,sector)->THREAT",
+      "REPAIR(state,sector)->{MOVE_TROOPS,SHORTEN_LINE,USE_RESERVE}",
+      "WEDGE(centre)->BREAK_LINE",
+      "WITHDRAW(state)->ORDERED_EXIT",
+      "PARTIAL_FLIGHT(state,sector)->LOCAL_REPAIR"
+    ],
+    "worked_examples": [
+      "DEPLOY(L0,spacing,centre_wedge,wings,reserve_R)->S0",
+      "PRESSURE(S0,left_wing)->THREAT(left); USE_RESERVE(S0,R,left)->S1 while right remains staffed",
+      "if no reserve, SHORTEN_LINE(S0)->S2; moving ordinary troops from right to left changes right-sector coverage"
+    ],
+    "consequence": "The same army identity survives a local threat, but choosing reserve use versus troop removal changes the unprotected sector and later battle state. A list rival predicts only that reserves exist and cannot distinguish local from whole-army flight.",
+    "smallest_test": "Require two complete battle instructions with one shared deployment and opposite sector pressure, then test reserve use, line shortening, and partial-flight scope.",
+    "rival": "Static inventory of formations where all mentioned troops remain available everywhere and order/sector consequences are ignored.",
+    "assumptions": [
+      "Reserve and sector are typed state fields; no numeric troop count is invented.",
+      "The source's advice is normative military instruction, not a report of one battle."
+    ],
+    "failure_modes": [
+      "The text is prescriptive and examples may not define one executable battle history.",
+      "No exact reserve size or timing is supplied.",
+      "A target could reuse a sequence marker for stylistic reasons without encoding resource state."
+    ]
+  },
+  "dependencies": [
+    "No target military gloss or visual interpretation is made."
+  ],
+  "access": "Source-only; no target, reserve, image, experiment, route, ledger, decoder, or root file access."
+}

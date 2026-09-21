@@ -1,0 +1,58 @@
+{
+  "title": "Augustine sign-to-action constructor with natural versus conventional reference",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Augustine De doctrina christiana II.1–3 separates a thing from what it signifies, natural signs from conventional signs, and a trumpet signal whose action depends on the battle context. One finite sign operator preserves the observable sign while changing its inferred referent or required action by sign type and context.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Augustine, De doctrina christiana, Book II, chapters 1–3",
+    "url": "https://faculty.georgetown.edu/jod/augustine/ddc2.html",
+    "parallel_latin_url": "https://la.wikisource.org/wiki/De_Doctrina_Christiana/II",
+    "source_span": "II.1 definition of sign; footprint→animal, smoke→fire, voice→mental state, trumpet→advance/retreat; II.2–3 natural and conventional signs",
+    "source_facts": [
+      "A footprint brings the passed animal to mind and smoke indicates fire.",
+      "A trumpet is a conventional signal whose required movement depends on the state of battle.",
+      "Words and other conventional signs signify by an established usage rather than by their physical form."
+    ]
+  },
+  "duplicate_screen": {
+    "checked": "ideas search/duplicates for Augustine sign, natural/conventional sign, reference scope; route-check for sign/context/reference/operator",
+    "difference": "This is a source-owned typed distinction between natural inference and conventional action dispatch, not a generic deictic reset, a Latin word glossary, or a target sign classifier."
+  },
+  "constructor": {
+    "types": [
+      "SIGN",
+      "SIGN_TYPE",
+      "REFERENT",
+      "CONTEXT",
+      "ACTION"
+    ],
+    "operators": [
+      "NATURAL_INFER(sign)->referent",
+      "CONVENTIONAL_LOOKUP(sign,convention)->referent",
+      "CONTEXT_ACTION(sign,convention,battle_state)->action",
+      "THING_AS_SIGN(thing,referent)->sign_relation"
+    ],
+    "worked_examples": [
+      "NATURAL_INFER(footprint)->ANIMAL_PASSED",
+      "NATURAL_INFER(smoke)->FIRE_PRESENT",
+      "CONTEXT_ACTION(trumpet,advance_retreat_code,enemy_state)->ADVANCE or RETREAT"
+    ],
+    "consequence": "The same surface signal can produce different action outputs only in the conventional branch, while a natural sign keeps its inferred physical source. A flat-label rival predicts one fixed referent/action per form and cannot represent the trumpet's state-dependent choice.",
+    "smallest_test": "Require two complete passages reusing one signal form with two explicit contexts, while separately retaining a natural evidence chain; test whether one shared signal operator plus context yields the distinct actions.",
+    "rival": "Every repeated sign is a lexical label or an unscoped command; context is descriptive commentary and never changes the output.",
+    "assumptions": [
+      "The source's natural/conventional distinction is represented as typed metadata, not guessed phonetic content.",
+      "The trumpet example is a genuine action consequence; no universal sign theory is projected onto the manuscript."
+    ],
+    "failure_modes": [
+      "The passage is pedagogical classification rather than an executable procedure.",
+      "Without independently bound context and sign type, the operator can fit arbitrary referents.",
+      "The source does not supply a complete finite vocabulary of conventional signs."
+    ]
+  },
+  "dependencies": [
+    "No manuscript form or target row is assigned a sign meaning.",
+    "Source facts are Augustine's examples; the operator and types are analyst additions."
+  ],
+  "access": "Source-only; no target, reserve, image, experiment, route, ledger, decoder, or root file access."
+}

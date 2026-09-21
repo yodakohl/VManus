@@ -1,0 +1,59 @@
+{
+  "packet_status": "SOURCE_ONLY_COMPLETE_BOUNDED_PACKET",
+  "source": {
+    "work": "Augustine, De doctrina christiana, Book II, chapters 1–3, paragraphs 1–4",
+    "url": "https://faculty.georgetown.edu/jod/augustine/ddc2.html",
+    "parallel_latin": "https://la.wikisource.org/wiki/De_Doctrina_Christiana/II",
+    "retrieved_utc": "2026-09-21",
+    "retrieved_bytes": 101639,
+    "retrieved_sha256": "8ba0310d338b01a9618755a36aad5a742f589bd2632a2607c6558853af664742",
+    "license": "The Georgetown page does not state a license; translation licensing is therefore recorded as unknown. The Latin parallel is public-domain text, but no byte hash was used here.",
+    "owned_span": "II.1.1–II.3.4: definition of sign; natural signs; conventional signs; human visual/auditory signs and words."
+  },
+  "complete_paraphrase": [
+    {
+      "span": "II.1.1",
+      "content": "A sign is a thing that, beyond its sensory appearance, brings another thing to mind. Footprint indicates an animal has passed; smoke indicates fire; a living voice indicates mental feeling; a trumpet tells soldiers to advance, retreat, or perform what the battle requires."
+    },
+    {
+      "span": "II.2.2",
+      "content": "Natural signs lead to knowledge of another thing without intention: smoke/fire, footprint/passed animal, and countenance/mental emotion. The work notes this class but sets it aside for the present discussion."
+    },
+    {
+      "span": "II.2.3",
+      "content": "Conventional signs are exchanged by living beings to convey perceptions, thoughts, or feelings. Animal calls are given as examples: a cock signals food to a hen and doves call mates. Whether every animal cry is intentional is left outside the present scope."
+    },
+    {
+      "span": "II.3.4",
+      "content": "Human signs address sight or hearing: nods, hand/body movements, military standards and flags, bugle/flute/lyre, and especially words. The sensory channel and convention determine how a sign communicates."
+    }
+  ],
+  "typed_distinctions": {
+    "natural": [
+      "SIGN",
+      "PHYSICAL_REFERENT",
+      "INFERENCE"
+    ],
+    "conventional": [
+      "SIGN",
+      "SIGNALER",
+      "AUDIENCE",
+      "CONVENTION",
+      "MENTAL_CONTENT",
+      "ACTION_CONTEXT"
+    ],
+    "scope_rule": "A natural sign maps through observed cause/effect; a conventional sign maps through shared use and may require audience context.",
+    "reused_operation": "SIGN(sign) -> referent/content is reused across footprint, smoke, voice, trumpet, animal calls, flags, and words, but its argument type changes from physical cause to convention/audience."
+  },
+  "worked_consequence": {
+    "source_case_a": "SMOKE -> FIRE_PRESENT; no intentional signaler is required.",
+    "source_case_b": "TRUMPET + battle_state -> ADVANCE or RETREAT; the physical sound is insufficient without conventional context.",
+    "serious_rival": "Treat natural/conventional as descriptive metadata only and route every sign through one context-independent label lookup. This keeps the source examples but makes trumpet action fixed and erases the natural-cause/conventional-use distinction.",
+    "smallest_later_test": "A complete later passage would need one reused sign operation with a physical-cause context and a conventional audience/action context, then a changed result under the latter while preserving the former."
+  },
+  "limits": [
+    "This is a pedagogical semiotic taxonomy, not a report of one historical event.",
+    "The source excludes whether some animal calls are intentional, so that branch is not filled.",
+    "No manuscript sign or word meaning is supplied."
+  ]
+}

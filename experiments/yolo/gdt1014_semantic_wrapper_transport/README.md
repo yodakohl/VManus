@@ -1,7 +1,10 @@
-# GDT1014: semantic wrapper transport
+# GDT1014: shared semantic wrapper test
 
-Registered52completecases covering312originaldictionary/setting/reader cases.
-[Decision](DECISION.md), [method](METHOD.md), [registration](PREREGISTRATION.md).
-All36old dictionaries pass the limited original-only precursor;28of29old saved
-extensions contradict the stronger law,onepasses. New alternatives not yet queried.
-0confirmedwords;f84/f84rsealed;noindependentmeaningcapacity.
+[Report](REPORT.md) · [Registration](PREREGISTRATION.md) · [Method](METHOD.md)
+[Every candidate](artifacts/CANDIDATES.tsv) · [Full readings](artifacts/READINGS.md)
+[Function values](artifacts/FUNCTIONS.tsv) · [Validation](artifacts/VALIDATION.json)
+
+All52classes312member cases admit complete readings under the partial wrapper
+law;96witnesses576lifts verified. Independent search44SAT8UNKNOWN.
+No original candidate separated;functions seldom reuse semantic inputs.
+0confirmedwords or independentmeaning;old unconstrained positives retained.

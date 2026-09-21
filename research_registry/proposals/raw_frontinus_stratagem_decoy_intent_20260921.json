@@ -1,0 +1,59 @@
+{
+  "title": "Frontinus stratagem decoy constructor with hidden-intent outcome",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Frontinus Strategemata I.1–4 gives complete examples where a visible action has a deceptive surface purpose and a hidden strategic intent: cutting poppy heads communicates an unspoken command, a released horse creates a false flight for reconnaissance, and a portent is reframed to induce attack. A finite constructor separates observed action, claimed intent and downstream enemy response.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Frontinus, Strategemata, Book I",
+    "url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Frontinus/Strategemata/1%2A.html",
+    "source_span": "I.1–4 preface and examples; especially Tarquin/Gabii poppy signal, horse decoy for reconnaissance, and Chabrias' portent speech",
+    "source_facts": [
+      "The preface presents stratagems as tested examples intended to generate similar prudent plans.",
+      "Tarquin communicates a command through cutting the tallest poppy heads rather than stating it openly.",
+      "A horse is released and chased to create a false appearance while observers inspect a camp.",
+      "Chabrias reframes a lightning event as divine support to alter soldiers' willingness to fight."
+    ]
+  },
+  "duplicate_screen": {
+    "checked": "ideas search/duplicates Frontinus stratagem/decoy/hidden intent and route-check deception/sequence; Vegetius reserve card kept separate as resource-state mechanism",
+    "difference": "This card is an intent/reference split in which one visible operation produces a second-party inference and response; it is not a battle-line reserve, transport sequence, or generic hidden state."
+  },
+  "constructor": {
+    "types": [
+      "VISIBLE_EVENT",
+      "ACTOR",
+      "INTENT",
+      "OBSERVER_MODEL",
+      "DECOY",
+      "RESPONSE"
+    ],
+    "operators": [
+      "DISPLAY(actor,event)->VISIBLE_EVENT",
+      "HIDE_INTENT(event,actual_goal)->DECOY",
+      "INFER(observer,visible_event,belief)->BELIEF",
+      "ACT_ON(observer,belief)->RESPONSE",
+      "REPAIR(decoy_failure)->NEW_DISPLAY"
+    ],
+    "worked_examples": [
+      "DISPLAY(TARQUIN,cut_tallest_poppies)->OBSERVER_INFER(secret_execution_order)",
+      "DISPLAY(FABII,release_and_chase_horse)->OBSERVER_INFER(flight); actual_goal=RECONNAISSANCE",
+      "DISPLAY(CHABRIAS,lightning_before_battle)->BELIEF(divine_support)->ATTACK_NOW"
+    ],
+    "consequence": "The same visible event can yield different downstream responses when observer belief or hidden intent changes; a literal-action rival predicts only cutting, horse movement, or lightning with no strategic response. A failed decoy would leave the visible action but remove the intended response.",
+    "smallest_test": "Require two complete source anecdotes sharing a visible operation type but differing in observer inference and outcome, with hidden intent kept distinct from physical event.",
+    "rival": "Every event means exactly its visible physical action; audience belief and strategic intent are omitted or treated as decorative narrative.",
+    "assumptions": [
+      "The anecdotes are used as complete source examples of a compositional relation, not as a universal theory of deception.",
+      "Observer belief is an explicit analyst type derived from the source's stated response."
+    ],
+    "failure_modes": [
+      "Frontinus is a curated catalogue of anecdotes rather than one continuous process.",
+      "The same surface action may not recur with enough source-owned structural sameness.",
+      "Without an independently bound observer and response, hidden intent is unfalsifiable."
+    ]
+  },
+  "dependencies": [
+    "Source-only military examples; no target phrase or visual clue is assigned strategic meaning."
+  ],
+  "access": "Source-only; no target, reserve, image, experiment, route, ledger, decoder, or root file access."
+}

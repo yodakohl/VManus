@@ -1,0 +1,59 @@
+{
+  "title": "Cicero De inventione issue-router with mutually exclusive case scope",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Cicero De inventione I.8–14 defines constitutio and routes a legal case through conjectural fact, definition, quality/justice, or translatio/jurisdiction questions. The same case identity persists while the question type changes the admissible argument/result; a catalogue rival loses that scope.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Cicero, De inventione I.8–14",
+    "url": "https://documentacatholicaomnia.eu/03d/-106_-043%2C_Cicero._De_Inventione%2C_LT.pdf",
+    "alternate_url": "https://www.thelatinlibrary.com/cicero/inventione1.shtml",
+    "source_span": "I.8–10 constitutio and status; I.11–14 conjectural, definitive, juridicial/qualitative and translative cases",
+    "source_facts": [
+      "A case's constitutio is the central issue formed by conflicting assertions.",
+      "Conjectural asks whether an act occurred; definitive asks what the act is; juridicial asks whether it was just or unjust; translative asks whether the proceeding belongs in this forum.",
+      "The same cause can have primary and subordinate constitutions, but one question controls each argumentative layer."
+    ]
+  },
+  "duplicate_screen": {
+    "checked": "ideas search/duplicates Cicero constitution/status and route-check argument scope; IDEA451 duty override excluded as different promise recipient rule",
+    "difference": "This card models type-directed issue routing and scope over one case, not a legal ownership duty, generic condition marker, or sentence parser."
+  },
+  "constructor": {
+    "types": [
+      "CASE",
+      "ASSERTION",
+      "ISSUE_TYPE",
+      "ARGUMENT_LAYER",
+      "FORUM",
+      "VERDICT"
+    ],
+    "operators": [
+      "ASSERT(case,claim)->CONFLICT",
+      "ROUTE(conjectural,case)->FACT_ISSUE",
+      "ROUTE(definitive,case)->DEFINITION_ISSUE",
+      "ROUTE(juridicial,case)->JUSTICE_ISSUE",
+      "ROUTE(translative,case)->FORUM_ISSUE",
+      "SUBORDINATE(case,parent_issue)->SCOPED_LAYER"
+    ],
+    "worked_examples": [
+      "CASE_X: DID_ACT? -> FACT_ISSUE; if yes, WHAT_ACT? -> DEFINITION_ISSUE; then WAS_IT_JUST? -> JUSTICE_ISSUE",
+      "same CASE_X with translative issue -> FORUM_ISSUE, which changes admissible conclusion without changing the alleged act"
+    ],
+    "consequence": "Changing the issue type changes which argument/result is licensed while preserving case identity. A flat rival permits fact, definition, justice and forum arguments in any order and predicts no scope-sensitive conclusion.",
+    "smallest_test": "Require two complete source cases sharing a case anchor but entering different issue types, with subordinate issue order fixed; test whether the operator emits distinct argument classes rather than one undifferentiated legal result.",
+    "rival": "All issue words are co-present labels in a list; no central question scopes the following argument layer.",
+    "assumptions": [
+      "Primary/secondary constitution nesting is represented as a typed stack.",
+      "No Latin legal words are assigned to manuscript forms."
+    ],
+    "failure_modes": [
+      "Rhetorical taxonomy may describe analysis rather than an event process.",
+      "The source permits subordinate constitutions, so a shallow one-issue model can overstate exclusivity.",
+      "Without independently bound case and issue fields, the constructor is underdetermined."
+    ]
+  },
+  "dependencies": [
+    "Source classification only; no target paragraph or legal translation is proposed."
+  ],
+  "access": "Source-only; no target, reserve, image, experiment, route, ledger, decoder, or root file access."
+}

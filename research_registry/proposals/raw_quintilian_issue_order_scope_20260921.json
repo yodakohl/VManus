@@ -1,0 +1,58 @@
+{
+  "title": "Quintilian subsidiary-question order constructor",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Quintilian Institutio oratoria VII.2 and VII.5–10 insists that a complex case be divided into ordered questions: first the governing legal interpretation, then subsidiary questions, with each argument attached to its proper issue. A scope-stack constructor predicts different conclusions when issue order is changed.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Quintilian, Institutio oratoria, Book VII",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/7B%2A.html",
+    "chapters_url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/7D%2A.html",
+    "source_span": "VII.2 definite questions; VII.5–10 division and order of complex legal questions",
+    "source_facts": [
+      "A definite question can concern what has been done, is being done, or is likely to be done.",
+      "Quintilian gives a complex example in which whether to follow the letter or intention of a law must precede subsidiary questions about reward, property, marriage and the particular claimant.",
+      "He compares proper arrangement to parts of a body: later questions depend on the earlier division."
+    ]
+  },
+  "duplicate_screen": {
+    "checked": "ideas search/duplicates Quintilian argument order/scope and route-check rhetorical issue; Cicero status card kept as a different issue-type router",
+    "difference": "Cicero routes a case by constitutio; this card specifically models ordered subdivision and scope inheritance among subsidiary questions, not type selection alone."
+  },
+  "constructor": {
+    "types": [
+      "CASE",
+      "LAW_TEXT",
+      "INTERPRETATION_MODE",
+      "QUESTION",
+      "SUBQUESTION",
+      "ARGUMENT_SCOPE"
+    ],
+    "operators": [
+      "OPEN_CASE(case)->QUESTION_SCOPE",
+      "CHOOSE_MODE(letter_or_intention)->PARENT_RULE",
+      "SPLIT(parent,subquestion)->CHILD_SCOPE",
+      "ORDER(q1,q2)->DEPENDENCY",
+      "ANSWER(child,parent_state)->QUALIFIED_CONCLUSION"
+    ],
+    "worked_examples": [
+      "OPEN_CASE(reward_claim)->CHOOSE_MODE(letter_or_intention); only then SPLIT into property, marriage, and claimant questions",
+      "reordering property before the letter/intention question changes which interpretation governs the subsidiary answer"
+    ],
+    "consequence": "The same later question has different admissible outputs under a changed parent interpretation, while the case identity remains. A flat list rival lets all questions answer independently and predicts order-insensitive conclusions.",
+    "smallest_test": "Require two complete source cases with the same subsidiary question but opposite parent interpretation/order, and test whether the downstream answer changes.",
+    "rival": "A set of independent legal questions with no scope stack; order is rhetorical presentation only.",
+    "assumptions": [
+      "Question scope is represented explicitly; no target conjunction is presumed.",
+      "The legal example is source-owned and not evidence for manuscript genre."
+    ],
+    "failure_modes": [
+      "Quintilian is prescribing rhetoric, so the constructor may describe exposition rather than an underlying event.",
+      "The text permits multiple questions, making exact arity uncertain.",
+      "Without independent parent/child markers, scope is not identifiable."
+    ]
+  },
+  "dependencies": [
+    "Source-only rhetorical construction; no target text, word values, or Latin cipher is used."
+  ],
+  "access": "Source-only; no target, reserve, image, experiment, route, ledger, decoder, or root file access."
+}

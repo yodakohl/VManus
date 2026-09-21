@@ -1336,3 +1336,282 @@ manuscript stream. The typed cycle boundaries and state names above are our
 finite reconstruction, not additional source wording. The card remains
 `RAW_UNREVIEWED_NOT_SELECTED`; no manuscript, target, reserve, experiment,
 route, ledger, or decoder file was changed.
+
+## AD. Three multi-operation source candidates screened
+
+This bounded screen found three source-owned multi-operation mechanisms, but all
+are already retained raw proposals, so no new card was registered.
+
+| Existing card | Source-owned chain and concrete consequence | Analyst addition and strongest failure |
+|---|---|---|
+| `IDEA000334` / `raw_dioscorides_preparation_branch_adverse_result.json` | Dioscorides I.3 reuses one root material through boiling-with-water or unboiled pounding, drinking, honey/electuary, hip bath, and plaster branches. Excess decoction drunk produces headache. The same material therefore enters different preparation/route/result operators, with a conditional adverse branch. | A typed `MATERIAL -> PREPARE -> ROUTE -> EFFECT` graph and explicit excess guard are analyst structure. The Greek/English edition leaves scope, exact route, and excess threshold partly unresolved; a flat catalogue can mimic adjacency. Primary note: [DIOSCORIDES_MEUM_SOURCE.md](DIOSCORIDES_MEUM_SOURCE.md). |
+| `IDEA000402` / `raw_galen_cabbage_juice_body_opposition.json` | Galen II.44 separates cabbage juice's purgative effect from the plant body’s drying effect; one goal retains juice while another pours off former water, transfers to other hot water, and boils again. Later demonstratives resume the former/other water chain, and a no-air/cold-water condition blocks softening. | Typed water identities, constituent retention/removal, and a state transition are analyst bindings. The source gives no quantities or complete second-water disposal instruction; alternative-use scope and historical physiology can remain ambiguous. Primary pages and hashes are recorded in `GALEN_CABBAGE_OPPOSED_EFFECTS_SUPPLY_20260920.md`. |
+| `IDEA000325` / `raw_f83r_diagnosis_fallback_aftercare.json` | Celsus IV.15 distinguishes acute/chronic signs, starts ordinary treatment, licenses black hellebore only if ordinary measures fail, then orders restraining and warming/dispersing interventions followed by a final preparation and seasonal water rule. Changing the intervention order changes the source instruction even when names are unchanged. | A condition/state machine and recommendation-versus-execution distinction are analyst structure. The target-independent source architecture does not bind any manuscript condition, carrier, or endpoint; an inventory of remedies can mimic the chain. |
+
+These candidates are materially different from the arithmetic, reflection, and
+literal record-writer screens, but they are not new supply: each already has a
+source-owned dossier, explicit rival, and `RAW_UNREVIEWED` status. No source
+selection, target gloss, experiment, reserve access, route/ledger update, or
+decoder work follows from this screen.
+
+## AE. Galen II.44: shared constituent, changed operational result
+
+This is a source-only development of retained `IDEA000402`, not a new card or
+selection. It is the strongest AD candidate because the source does more than
+list two cabbage effects: it makes the plant's constituent distinction drive
+two preparation paths, and later written references preserve the path's water
+identities.
+
+The smallest source-owned argument graph is:
+
+```text
+CABBAGE_1 -> {JUICE_1, BODY_1}
+JUICE_1 --purges--> EVACUATION_EFFECT
+BODY_1  --dries-->  DRYING_EFFECT
+
+EVACUATE:
+  serve(CABBAGE_1, cooking_water, oil/fish_sauce | salt)
+  retain_as_much(JUICE_1); avoid_thorough_boiling
+
+DRY_MOIST_BELLY:
+  W0 = former_water
+  moderate_boil(BODY_1, W0)
+  discard(W0)
+  W1 = other_hot_water
+  transfer(BODY_1, W1)
+  boil_until_soft(BODY_1, W1)
+
+REPRISE:
+  draw_from(W0) -> transfer_into(W1)
+```
+
+`CABBAGE_1` is a shared **material argument type** for the two alternatives;
+this does not assert that one physical serving was used for both. The result
+channel is deliberately different: `JUICE_1` supplies the purging/evacuation
+effect, while `BODY_1` supplies the drying effect. `W0` and `W1` are separate
+water references. The reprise can therefore reuse the former-to-other transfer
+without inventing a third boil or silently identifying the two waters.
+
+Two complete readings of the same five-paragraph entry have different
+consequences. The source-supported **constituent-and-goal reading** dispatches
+on the desired result: retaining juice and avoiding thorough boiling predicts
+the evacuation route; discarding former water and reboiling in other hot water
+predicts the drying/softening route. It also predicts that replacing `W1` by
+`W0` breaks the written transfer chain, and that the air/cold-water condition
+blocks the stated softening process. The named **flat-cabbage rival** uses one
+generic boiling operation and one fixed plant effect, treating former/other
+water as a single undifferentiated medium. It predicts no effect switch when
+the goal changes and cannot preserve the source's retained-juice versus
+discard-and-replace distinction.
+
+The following are analyst conventions needed for a finite constructor, not
+claims about Galen's notation: a typed state
+`(material, juice, body, water_refs, goal)`, a goal-conditioned path choice,
+and physical identity for `JUICE_1`, `W0`, and `W1`. The source does not give
+amounts, temperatures beyond the stated hot/moderate conditions, durations,
+loss rates, or an explicit disposal of `W1` before serving. It also presents
+alternative uses rather than narrating one batch that undergoes both outcomes.
+Historical efficacy is reported as Galen's claim, not adopted as a medical
+fact. Thus this supplies a real argument/result contrast while leaving the
+target binding wholly unknown; it is explicitly unselected and
+`RAW_UNREVIEWED`.
+
+## AF. Three source-owned refinements, no new cards
+
+This bounded comparison develops three already retained raw proposals. It
+adds no idea ID and does not select a source or target reading.
+
+### AF.1 Galen II.44: one preparation operator, two material-dependent outputs
+
+The new consequence beyond AE is a cross-material control. Galen says that
+cabbage and lentil soup can both produce the drying result through the same
+twice-boiled procedure: boil in the former water, discard it, transfer to
+other hot water, and boil again until soft. He then keeps their outputs
+different: lentil gives much, thick, melancholic nourishment, while cabbage
+gives little, moister nourishment; both dull sight except when the whole eye is
+abnormally moist. The no-air/cold-water prohibition applies to the shared
+softening process, not to an asserted identical nutrition profile.
+
+The source-grounded constructor is therefore:
+
+```text
+TWICE_BOIL(x):
+  W0 := former_water; moderate_boil(x, W0); discard(W0)
+  W1 := other_hot_water; transfer(x, W1); boil_until_soft(x, W1)
+  require(no_air(x) and no_cold_water(x))
+
+TWICE_BOIL(CABBAGE) -> DRYING + MOIST_VEGETABLE_NOURISHMENT
+TWICE_BOIL(LENTIL)  -> DRYING + THICK_MELANCHOLIC_NOURISHMENT
+```
+
+The operation shares its ordered water/state argument but not the material
+property result. A **process-dominant rival** makes the twice-boil operation
+itself determine all outputs and treats the cabbage/lentil difference as
+neighboring description. It predicts identical nourishment and no stable
+material-dependent output after the same operation. The smallest later test
+would require two complete passages with the same ordered operation and
+different, explicitly attached result fields; prerequisites are an independent
+operation anchor, material continuity, and a result relation. The source does
+not supply quantities, chemical conservation, or proof that the analogy is one
+physical batch, so those remain failure modes.
+
+### AF.2 Dioscorides I.3: convergent preparations, divergent routes, scoped harm
+
+The Meum entry gives roots as one material argument. Boiling the roots with
+water and pounding them fine without boiling are distinct preparation
+operators whose administration is drinking and whose stated disease/result
+cluster is the same. Pounding with honey changes the preparation and serves a
+rheumatic chest; boiling for a sitz bath draws menstrual blood; a plaster on
+children's pubic/lower-belly region induces urination. The final clause says
+that drinking more decoction than needed causes headache.
+
+The compact source-owned route is:
+
+```text
+R := MEUM_ROOTS
+DRINK(BOIL_WITH_WATER(R))       -> URINARY/GAS/GRIPING_RESULT_CLUSTER
+DRINK(POUND_FINE_NO_BOIL(R))    -> URINARY/GAS/GRIPING_RESULT_CLUSTER
+DRINK(HONEY_ELECTUARY(R))       -> RHEUMATIC_CHEST_HELP
+SITZ_BATH(BOIL(R))              -> MENSTRUAL_FLOW
+PLASTER(R, CHILD_PUBIC_REGION)  -> URINE_MOVEMENT
+EXCESS(BOILED_DECOCTION, DRINK) -> HEADACHE
+```
+
+This is a **join-and-scope** mechanism: two unlike preparations converge on a
+result family, while route changes produce different result types, and the
+adverse edge is scoped to excess decoction taken by mouth. The rival treats
+the entry as a static list and the headache as a detached warning. It predicts
+no required convergence of the two drink preparations and no attachment of the
+excess condition to a preparation/administration pair. The smallest later test
+would need one recurring material relation in two preparation contexts, a
+shared downstream result, and an independently marked excess/negative branch.
+The Greek/English scope still leaves the exact affected decoction and dose
+threshold uncertain; neither is silently fixed here. This refines
+`IDEA000334` and its source dossier without creating a duplicate card.
+
+### AF.3 Celsus IV.15: persistent case identity with conditional branch quarantine
+
+Celsus first distinguishes acute and chronic signs, then orders bloodletting
+and bowel-moving treatment. Black hellebore is licensed only if the ordinary
+measure does not act. The later external treatment has an order (repressing,
+then hot/dispersing, then a final malagma), followed by the food/drink and
+seasonal water instructions. The source is an instruction sequence; it does
+not say that every mentioned remedy was administered in one realized history.
+
+The source-grounded operational reading is:
+
+```text
+C0 := one diagnosed case
+S0 := DIAGNOSE(C0, observed_signs)
+S1 := FIRST_MEASURE(S0)
+if ordinary_measure_failed(S1): S2 := BLACK_HELLEBORE(S1)
+else:                          S2 := S1
+S3 := REPRESS(S2); S4 := HOT_DISPERSING(S3)
+S5 := FINAL_MALAGMA(S4); S6 := REGIMEN(S5, season)
+```
+
+The shared argument is the continuing case state `C0`; the fallback consumes
+the failure condition and changes the intermediate state, while aftercare
+preserves the case identity. The rival is an all-items catalogue in which
+ordinary treatment, black hellebore, repressing and dispersing remedies are
+co-present properties with no conditional scope. It predicts identical
+outputs for success and failure and permits reordering the external stages
+without changing the content. The smallest later test would require two
+complete cases with the same diagnosis and aftercare but opposite fallback
+license, plus a written order for the two external stages. The source does not
+bind any manuscript participant, condition marker, or endpoint; its prose may
+be general recommendation rather than a single patient's timeline. This is a
+refinement of `IDEA000325`, not a new source or target claim.
+
+All three remain source-only `RAW_UNREVIEWED` material. Their strongest likely
+failure is underdetermination of the later writing relation: a target could
+reuse components for ordinary formal reasons without preserving the source
+operator, argument identity, or result attachment. No target, reserve,
+experiment, route, ledger, or decoder file was opened or changed here.
+
+## AG. Nine diverse source-owned raw proposals
+
+This bounded producer batch created nine new source-only cards after route,
+topic, ideas search/duplicate checks, and primary-source checks. All are
+`UNTESTED_PROPOSAL` / `RAW_UNREVIEWED_NOT_SELECTED`; none assigns a manuscript
+meaning. Each card contains a complete short source span, typed intermediate
+state, rival, smallest later test, prerequisites, and failure modes.
+
+| ID | Source mechanism | Distinguishing consequence and nearest failure |
+|---|---|---|
+| `IDEA000460` | Augustine, *De doctrina christiana* II.1–3: natural sign inference versus conventional sign-to-action dispatch. | Footprint/smoke preserve physical inference, while one trumpet form selects advance or retreat from battle context. A flat sign-label model cannot change the conventional action; the source is pedagogical rather than an executable record. |
+| `IDEA000461` | Frontinus, *De aquaeductu* I–II: water source → route/elevation → castellum → legal allocation. | One water identity reaches different recipients through authorised castella; illicit direct drawing changes the legal result without creating a new source. Administrative quantities and legal scope may not form a process grammar. |
+| `IDEA000462` | Archimedes, *On Floating Bodies* I: pressure, resting-fluid surface, displacement, equilibrium, stability. | The same pressure/equilibrium operator yields different state outputs when body, fluid, or submerged portion changes. A presence-only geometry list cannot distinguish stable equilibrium; the deductive source may not be a narrative constructor. |
+| `IDEA000463` | Cicero, *De inventione* I.8–14: one case routed through conjectural, definitive, juridicial, or translative issue layers. | Changing issue type changes the admissible conclusion while preserving case identity. A co-present legal catalogue loses central-question scope; subordinate constitutions make exact exclusivity uncertain. |
+| `IDEA000464` | Vegetius, *Epitoma rei militaris* III.15–22: deployment, sector pressure, reserve use/line shortening, withdrawal and partial flight. | A local threat consumes reserve or strips another sector while the army identity persists. A static formation list has no resource consequence; the source is normative advice, not one battle history. |
+| `IDEA000465` | Varro, *De re rustica* I.1–11, 32: farm/task/worker/tool/season domain and orchard layout. | The same farm/material under another task owner, tool, season, or domain changes the cultivation/profit state. A crop catalogue ignores speaker/task scope; the quincunx example lacks numerical profit data. |
+| `IDEA000466` | Seneca, *Naturales quaestiones* II: thunder/lightning event decomposition with competing causal models. | One observed phenomenon retains identity while dry/moist material and escape/fracture explanations change the qualified result. A single-cause weather label cannot preserve the rival scope; the passage is exposition rather than a process log. |
+| `IDEA000467` | Quintilian, *Institutio oratoria* VII.2, 5–10: parent legal interpretation scopes ordered subsidiary questions. | The same later question changes output when “letter versus intention” is resolved first. An unordered question list predicts order-insensitive answers; the text prescribes arrangement rather than reporting events. |
+| `IDEA000468` | Frontinus, *Strategemata* I.1–4: visible act, hidden intent, observer inference, and strategic response. | Cutting poppies, releasing/chasing a horse, or reframing a portent has an outcome through observer belief rather than physical action alone. A literal-action rival omits intent; the source is a curated anecdote catalogue and needs independently bound observers. |
+
+The cards deliberately span sign interpretation, administrative allocation,
+hydrostatics, rhetoric, military resources, agriculture, natural-philosophy
+causation, legal-question scope, and strategic deception. They are not a joint
+lexicon and should not be combined. Exploratory complete target hypotheses are
+permitted without independently bound arguments; independent argument/result
+binding and a complete source-compatible writer are required before
+confirmation or selection. No target, result artifact, image, reserve, route,
+ledger, refresh, commit, or root experiment was accessed or changed.
+
+## AH. Scope correction and three complete source packets
+
+The AG wording that “each card contains a complete short source span” was too
+broad. The nine cards all contain a source pointer and a bounded hypothesis,
+but only the three packets below have now been collation-checked as complete
+short spans with every selected clause represented. `IDEA000461` still points
+to a broad Frontinus Books I–II programme, `IDEA000462` to a broad Floating
+Bodies Book I family including later propositions, and `IDEA000463`–`IDEA000465`
+and `IDEA000468` likewise remain raw broad pointers until their exact owned
+spans are separately packeted. Their raw JSON bytes are unchanged.
+
+### AH.1 Augustine II.1–3 — sign type and context
+
+Packet: [AUGUSTINE_DDC_II1_3_SOURCE_PACKET_20260921.json](AUGUSTINE_DDC_II1_3_SOURCE_PACKET_20260921.json).
+The owned boundary is II.1.1–II.3.4: definition of a sign; footprint, smoke,
+voice and trumpet examples; natural signs; conventional animal and human
+signals; visual/auditory channels and words. The retrieval witness is the
+Georgetown English page (101,639 bytes, SHA-256
+`8ba0310d338b01a9618755a36aad5a742f589bd2632a2607c6558853af664742`); its
+license is unstated. The packet records a serious rival that keeps the
+natural/conventional split as metadata but routes every sign through one fixed
+label, thereby losing the trumpet's battle-context action. The source reuses
+the sign-to-referent operation across natural evidence and conventional
+signals; the typed distinction and context dispatch are analyst additions.
+
+### AH.2 Seneca II.12 — observation, agreement, and competing cause
+
+Packet: [SENECA_QN_II12_SOURCE_PACKET_20260921.json](SENECA_QN_II12_SOURCE_PACKET_20260921.json).
+The exact boundary is *Naturales quaestiones* II.12.1–6: the three phenomena,
+agreed cloud/fiery observations, disputed fire origin, the dry/moist
+exhalation account, cloud pressure, sound variation, and flash-before-sound
+timing. The Latin Library retrieval witness is 61,807 bytes, SHA-256
+`8869bbac44d01cd04b7f8dccffe5edd78a7deae339c18df11e1c98c9fab2a624`; the
+page states no license. The packet keeps resident-fire and fire-produced-on-
+emission as competing source models over the same observed phenomenon. Its
+serious rival is a universal one-cause label that erases the explicit
+agreement/dispute boundary; the material/state cause graph is analyst
+structure, not modern physics.
+
+### AH.3 Quintilian VII.5–7 — parent question scopes subsidiary questions
+
+Packet: [QUINTILIAN_IO_VII5_7_SOURCE_PACKET_20260921.json](QUINTILIAN_IO_VII5_7_SOURCE_PACKET_20260921.json).
+The owned boundary is VII.5.5–13 plus VII.7.1–2: case subdivision and order,
+the hero/reward/property/marriage example, whole-case evidence order, internal
+cohesion, and contrary-law letter/intention conflicts. The LacusCurtius witness
+is 68,912 bytes, SHA-256
+`3639d9020ef778e79dabf4e69a2017376a355d861187a363ac72e52bcd26a69e`; its page
+states that the one-asterisk URL and 1920 Loeb text are public domain. The
+source reuses an arrangement operation over parent and subsidiary questions;
+the unordered-catalogue rival predicts order-insensitive conclusions. Exact
+case-specific order and the scope stack remain analyst formalizations.
+
+These three packets are source-only and unselected. Exploratory complete
+hypotheses remain permitted without independently bound target arguments;
+independent argument/result binding is required before confirmation or a
+selection claim. No target, result, image, reserve, root file, route, ledger,
+refresh, commit, or contact was accessed or changed.

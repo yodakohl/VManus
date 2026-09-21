@@ -1,0 +1,64 @@
+{
+  "packet_status": "SOURCE_ONLY_COMPLETE_BOUNDED_PACKET",
+  "source": {
+    "work": "Quintilian, Institutio oratoria, Book VII, chapter 5 sections 5–13 and chapter 7 sections 1–2",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/7D*.html",
+    "parallel_chapter_2": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/7B*.html",
+    "retrieved_utc": "2026-09-21",
+    "retrieved_bytes": 68912,
+    "retrieved_sha256": "3639d9020ef778e79dabf4e69a2017376a355d861187a363ac72e52bcd26a69e",
+    "license": "The LacusCurtius page states that a one-asterisk URL is public domain and that the 1920 Loeb text/translation was proofread. This packet retains that page-level provenance.",
+    "owned_span": "VII.5.5–13: arrangement and order of a complex case; VII.7.1–2: contrary laws and letter/intention conflict."
+  },
+  "complete_paraphrase": [
+    {
+      "span": "VII.5.5–7",
+      "content": "A case must be analysed into topics and questions and those subdivisions arranged appropriately. In the example involving a hero's reward, property and marriage claims, the first question is whether the letter or intention of the law governs; subsidiary questions follow in natural order rather than as they happen to occur."
+    },
+    {
+      "span": "VII.5.8–10",
+      "content": "The teacher must demonstrate the natural order across many cases; arrangement depends on the specific case. The source uses analogies of painter, vase-maker and physician to distinguish general principles from case-specific skill."
+    },
+    {
+      "span": "VII.5.11–13",
+      "content": "Whole-case arrangement decides whether to use an exordium, continuous or subdivided facts, opponent or own arguments, strong or weak proofs, law or equity first, and which evidence/documents are read at each stage."
+    },
+    {
+      "span": "VII.5.16–17",
+      "content": "Parts must have internal order and cohesion; words should fit their positions and connect to what precedes and follows, producing continuity rather than a congeries."
+    },
+    {
+      "span": "VII.7.1–2",
+      "content": "Contrary laws raise letter and intention bases. Conflicting laws can be compared by time, quality, or the specific dispute; the source gives the hero/deserter and tyrannicide/woman examples."
+    }
+  ],
+  "typed_distinctions": {
+    "case": [
+      "CASE",
+      "TOPIC",
+      "QUESTION",
+      "SUBQUESTION",
+      "EVIDENCE",
+      "ORDER"
+    ],
+    "scope": [
+      "PARENT_QUESTION",
+      "INTERPRETATION_MODE",
+      "CHILD_QUESTION",
+      "ARGUMENT_RESULT"
+    ],
+    "reused_operation": "ARRANGE(case,question_sequence) -> scoped argument order is reused across the reward/property/marriage example and the broader list of evidence/order choices.",
+    "critical_identity": "The same CASE remains active while parent law-interpretation and subsidiary question slots change; order is an argument to the conclusion, not mere presentation."
+  },
+  "worked_consequence": {
+    "source_case_a": "LETTER_OR_INTENTION(law) must be resolved before the hero's reward/property/marriage subquestions; changing that parent result changes the admissible child arguments.",
+    "source_case_b": "In contrary-law examples, the same case identity is instead routed through time, quality, or which law suffers less by contravention; the conclusion changes even when the claimant names remain.",
+    "serious_rival": "Treat all questions as an unordered catalogue and treat arrangement as rhetoric only. This rival retains the same topics but predicts order-insensitive child conclusions, contrary to Quintilian's explicit dependency.",
+    "smallest_later_test": "A complete later passage would need two occurrences of a shared question/result operator with distinct parent scope, plus a downstream consequence that changes when the parent question is reordered or resolved differently."
+  },
+  "limits": [
+    "Quintilian prescribes rhetorical arrangement; the packet does not claim an event history.",
+    "The source says exact arrangement depends on the particular case, so no universal order beyond the worked example is assumed.",
+    "No target clause, marker, or word meaning is bound."
+  ]
+}

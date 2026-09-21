@@ -1,0 +1,59 @@
+{
+  "title": "Seneca natural-questions evidence chain with competing causal models",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Seneca Naturales quaestiones II distinguishes observed thunder/lightning phenomena, material elements in clouds, escape/fracture conditions, and competing explanations. A finite evidence chain preserves phenomenon identity while switching causal model and confidence; a single-cause weather label is the rival.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Seneca, Naturales quaestiones, Book II",
+    "url": "https://readancienttexts.com/seneca/quaestiones_naturales/2",
+    "parallel_url": "https://bcs.fltr.ucl.ac.be/SEN/QNII.html",
+    "source_span": "II.1–12 programme and air; II.12 lightning/thunder distinction and moist/dry elements; later Book II discussion of competing explanations",
+    "source_facts": [
+      "Seneca distinguishes lightning, thunderbolt and thunder by observable effect/timing.",
+      "The account separates moist and dry exhalations, cloud enclosure, escape, fracture and the sound of thunder.",
+      "The text preserves disagreement among explanations and sometimes argues from a shared phenomenon to different causal models rather than collapsing them into one observation."
+    ]
+  },
+  "duplicate_screen": {
+    "checked": "ideas search/duplicates Seneca thunder/causal explanation and route-check observation/cause; Hippocratic prognosis and Pliny observation cards excluded as different health/evidence mechanisms",
+    "difference": "This card preserves competing causal hypotheses over one phenomenon and their scope, rather than a single observed sign, medical prognosis, or Pliny's attributed correction."
+  },
+  "constructor": {
+    "types": [
+      "PHENOMENON",
+      "MATERIAL_STATE",
+      "CAUSE_MODEL",
+      "OBSERVATION",
+      "EXPLANATION",
+      "CONFIDENCE"
+    ],
+    "operators": [
+      "OBSERVE(event)->PHENOMENON",
+      "DECOMPOSE(phenomenon)->MATERIAL_STATE",
+      "EXPLAIN(phenomenon,model)->CAUSE_CHAIN",
+      "COMPARE(model_a,model_b,evidence)->QUALIFIED_RESULT",
+      "DISTINGUISH(lightning,thunderbolt,thunder)->EVENT_TYPE"
+    ],
+    "worked_examples": [
+      "OBSERVE(thunder_sound_after_flash)->{LIGHTNING,THUNDER}",
+      "DECOMPOSE(thunder)->dry_smoky_particles + cloud_enclosure + escape/fracture",
+      "COMPARE(friction_model,internal_escape_model,evidence)->qualified rival explanations, not one fixed label"
+    ],
+    "consequence": "One observed event retains identity while the causal explanation and confidence branch differ; a model that swaps dry/moist material or fracture/gradual escape changes the predicted sound/force relation. A single-cause rival predicts every thunder-like observation has one fixed explanation.",
+    "smallest_test": "Require two complete natural-history passages sharing an event type but explicitly contrasting causal models, with a preserved observation-to-explanation scope.",
+    "rival": "All atmospheric terms are independent labels and the causal alternatives are decorative, so no evidence changes the output.",
+    "assumptions": [
+      "The source's competing explanations are represented as alternatives, not modernized as true physics.",
+      "Phenomenon identity is distinct from causal model identity."
+    ],
+    "failure_modes": [
+      "The surviving translation is editorial and technical terms may not preserve Greek scope.",
+      "The passage may be argumentative exposition, not a process record.",
+      "Without independently fixed evidence and model markers, the constructor can fit arbitrary explanations."
+    ]
+  },
+  "dependencies": [
+    "Source-only natural-philosophy account; no target meteorological meaning is proposed."
+  ],
+  "access": "Source-only; no target, reserve, image, experiment, route, ledger, decoder, or root file access."
+}

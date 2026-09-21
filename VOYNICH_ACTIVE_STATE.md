@@ -1,8 +1,10 @@
 # Voynich active state — structural reset baseline
 
+GDT1014 WRAPPER WORLDS: all52classes312cases retain complete worlds under one function perliteralprefix/suffix.96witnesses576lifts verify;independent44SAT8UNKNOWN.28old saved maps failbut alternativesexist for everycandidate.41–47functioninputcells only0–4reused;no candidate separation or productive meaning;0words. Close freewrapperdiscriminator,no automatic rule tightening. [Report](experiments/yolo/gdt1014_semantic_wrapper_transport/REPORT.md).
+
 GDT1013 COMPLETE SHARED WORLDS: all20classes312original-setting/f50r cases positive;29witnesses492lifts verified by both frozen executors. Independent search9SAT11UNKNOWN. All36original codes156settings survive;71–75newaliases and17–39THENpositions pernewparagraph. Original qokedy centrality does not generalize to saved added hazards.0words/independent meaning. Existence question closed positively;no automatic sampling/state repair. [Report](experiments/yolo/gdt1013_transport_complete_long_worlds/REPORT.md).
 
-NEXT SCOPE: seek a distinct whole-composition or content-rival commitment after predecessor review; current transport existence fit does not select meanings. User ten-hour session2026-09-21 01:11:33–11:11:33UTC. IDEA433not selected: NEXTorder discriminator absent from fixed executor. [433review](research_registry/decisions/transport_curry_433_preflight_20260920.json).
+NEXT SCOPE: seek a distinct content commitment after predecessor review;1013existence and1014freewrapperfits do not select meanings. User ten-hour session2026-09-21 01:11:33–11:11:33UTC. IDEA433not selected: NEXTorder discriminator absent from fixed executor. [433review](research_registry/decisions/transport_curry_433_preflight_20260920.json).
 
 GDT1012 BANK PROJECTION NONSEPARATING: all72cases SAT independently;all144saved full maps fail. Neitherf50reader space closed. The36original codes form6cargo-renamingclasses with full German paragraph renderings;0words. No automatic added-state/sample loop. [Report](experiments/yolo/gdt1012_transport_necessary_bank_sequence/REPORT.md).
 

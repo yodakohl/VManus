@@ -1,0 +1,59 @@
+{
+  "title": "Frontinus aqueduct source-to-allocation chain with legal scope",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Frontinus De aquaeductu I.1–2 and II describe each water's source, route and elevation, modules, castella, distributions to public/private uses, reserved imperial supply, and legal limits on drawing water. A finite source-identity chain distinguishes allocation from mere water-name recurrence.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Frontinus, De aquaeductu urbis Romae, Books I–II",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Frontinus/De_Aquis/Rodgers/1%2A%2A.html",
+    "parallel_url": "https://readancienttexts.com/frontinus/de_aquaeductu_urbis_romae/1",
+    "source_span": "I.1–2 programme and quantities; II distribution through castella, private/public drawing and legal restrictions",
+    "source_facts": [
+      "The report separates source, distance, underground/substructure/arch route and elevation.",
+      "It records how much each water distributes outside/inside Rome and how castella feed public works, baths, street basins, Caesar, and private users.",
+      "Private users must draw from authorised castella; illicit holes or unlicensed drawing violate the allocation regime."
+    ]
+  },
+  "duplicate_screen": {
+    "checked": "ideas search/duplicates Frontinus aqueduct/allocation/castellum and route-check distribution/source identity",
+    "difference": "No retained card owns this full source-to-route-to-castellum-to-recipient chain; it is a typed distribution mechanism, not a transport lexicon or quantity-only table."
+  },
+  "constructor": {
+    "types": [
+      "WATER_SOURCE",
+      "ROUTE",
+      "ELEVATION",
+      "CASTELLUM",
+      "ALLOCATION",
+      "RECIPIENT",
+      "LEGAL_RIGHT"
+    ],
+    "operators": [
+      "CONDUCT(source,route)->ARRIVAL",
+      "MEASURE(water,elevation,module)->CAPACITY",
+      "DIVERT(arrival,castellum,allocation)->DISTRIBUTION",
+      "AUTHORIZE(recipient,right,castellum)->PERMITTED_DRAW",
+      "VIOLATE(draw_event)->ILLICIT_EVENT"
+    ],
+    "worked_examples": [
+      "AQUA_X -> ROUTE_X -> CASTELLUM_X -> {PUBLIC_WORKS,PRIVATE_A} with authorised shares",
+      "same source identity preserved through a different castellum allocation; unauthorised direct channel yields ILLEGAL_DRAW rather than a new water source"
+    ],
+    "consequence": "A repeated water source can reach different recipients while retaining source identity, and the same recipient can be permitted only through a named castellum. A flat list rival predicts no source/allocation continuity and treats direct illicit diversion as ordinary supply.",
+    "smallest_test": "Require two complete distribution records sharing one source but differing in authorised recipient, with one explicit legal exception; test source identity, route stage, and allocation scope jointly.",
+    "rival": "Independent inventory of water names, quantities and destinations with no intermediate castellum or legal operator.",
+    "assumptions": [
+      "Quantities are relational capacity fields, not digit meanings.",
+      "A source identity persists through routing; this is a source-model convention, not a target claim."
+    ],
+    "failure_modes": [
+      "Frontinus is an administrative report whose tables may not encode an executable sequence.",
+      "Missing measurements make source and allocation gauges.",
+      "A target could reuse forms by register rather than preserving legal scope."
+    ]
+  },
+  "dependencies": [
+    "Primary Latin/English report is source-owned; no target water gloss or access is proposed."
+  ],
+  "access": "Source-only; no target, reserve, image, experiment, route, ledger, decoder, or root file access."
+}

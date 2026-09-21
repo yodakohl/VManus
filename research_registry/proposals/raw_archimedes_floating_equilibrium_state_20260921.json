@@ -1,0 +1,59 @@
+{
+  "title": "Archimedes floating-body equilibrium constructor with fluid-state transitions",
+  "summary": "RAW_UNREVIEWED, NOT SELECTED. Archimedes On Floating Bodies I begins from a fluid-pressure postulate, derives the spherical surface of a resting fluid, and continues to floating-body equilibrium and stability. The same body/fluid argument must preserve density, submerged portion, and vertical equilibrium; a boundary change produces a different state.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Archimedes, On Floating Bodies, Book I",
+    "url": "https://www.cambridge.org/core/books/abs/works-of-archimedes/on-floating-bodies-book-i/256198AE9365D4B099BF23A7BBD50D41",
+    "auxiliary_prop_url": "https://web.calstatela.edu/faculty/hmendel/Ancient%20Mathematics/Archimedes/Floating%20Bodies/FB_I_5/FB_I_5.html",
+    "source_span": "Postulate 1; Propositions 1–2 on a spherical resting-fluid surface; later Book I floating-body equilibrium propositions",
+    "source_facts": [
+      "The postulate relates pressure among continuous fluid parts.",
+      "Propositions 1–2 derive the spherical surface of a fluid at rest around the earth's centre.",
+      "The book applies fluid equilibrium to floating bodies and distinguishes equilibrium position/stability from mere presence in fluid."
+    ]
+  },
+  "duplicate_screen": {
+    "checked": "ideas search/duplicates Archimedes floating/equilibrium and route-check geometry/physical state; prior reflection/arithmetic cards inspected",
+    "difference": "This is a fluid-state and stability constructor with a shared body/fluid argument, not a reflection composition, compass construction, or numerical quantity decoder."
+  },
+  "constructor": {
+    "types": [
+      "FLUID",
+      "BODY",
+      "SURFACE",
+      "SUBMERGED_PART",
+      "EQUILIBRIUM_STATE",
+      "STABILITY"
+    ],
+    "operators": [
+      "PRESSURE(fluid,level)->FORCE_RELATION",
+      "REST_SURFACE(fluid,centre)->SPHERICAL_SURFACE",
+      "SUBMERGE(body,fluid,portion)->DISPLACEMENT_STATE",
+      "BALANCE(weight,buoyant_relation)->EQUILIBRIUM",
+      "PERTURB(equilibrium)->STABLE_or_UNSTABLE"
+    ],
+    "worked_examples": [
+      "REST_SURFACE(WATER,EARTH_CENTRE)->SPHERE",
+      "SUBMERGE(BODY_X,WATER,portion_X)->displaced_fluid_X; BALANCE(weight_X,buoyant_X)->equilibrium_X",
+      "a changed submerged portion changes the balance state; a stable orientation is not identical to any floating position"
+    ],
+    "consequence": "Changing the body/fluid or submerged-portion argument changes the equilibrium/stability output while retaining the same pressure operator. A presence-only rival predicts one generic FLOAT result and cannot distinguish stable equilibrium from an arbitrary immersion.",
+    "smallest_test": "Require two complete source passages or propositions sharing the pressure/equilibrium operator but changing body/fluid or submerged state, with a predicted stable/unstable contrast.",
+    "rival": "A static geometry catalogue in which circles, bodies and water are listed independently and no state transition links pressure to equilibrium.",
+    "assumptions": [
+      "Modern type names describe source relations, not source vocabulary.",
+      "The later stability details are retained as a source-family consequence; no target diagram is consulted."
+    ],
+    "failure_modes": [
+      "The source is deductive mathematics, so a target prose system may not have analogous proof-state fields.",
+      "Exact stability boundaries and density comparisons require propositions not yet transcribed into this card.",
+      "Geometric identities may collapse distinct states without a metric anchor."
+    ]
+  },
+  "dependencies": [
+    "No target image or geometric fragment is opened; source text only."
+  ],
+  "access": "Source-only; no target, reserve, image, experiment, route, ledger, decoder, or root file access."
+}

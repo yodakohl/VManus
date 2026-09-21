@@ -1,0 +1,68 @@
+{
+  "packet_status": "SOURCE_ONLY_COMPLETE_BOUNDED_PACKET",
+  "source": {
+    "work": "Seneca, Naturales quaestiones, Book II, chapter 12, sections 1–6",
+    "url": "https://www.thelatinlibrary.com/sen/sen.qn2.shtml",
+    "parallel_translation": "https://naturalesquaestiones.blogspot.com/2009/08/book-ii-tr-john-clarke.html",
+    "retrieved_utc": "2026-09-21",
+    "retrieved_bytes": 61807,
+    "retrieved_sha256": "8869bbac44d01cd04b7f8dccffe5edd78a7deae339c18df11e1c98c9fab2a624",
+    "license": "The Latin Library page does not state a license. This packet uses its Latin text as a retrieval witness and does not assert a particular edition license.",
+    "owned_span": "II.12.1–6: three phenomena, agreed observations, disputed fire residence/origin, Aristotelian dry/moist exhalation account, cloud pressure and sound/flash timing."
+  },
+  "complete_paraphrase": [
+    {
+      "span": "II.12.1",
+      "content": "Lightning-flash, lightning-bolt, and thunder occur together, but thunder is heard later. Flash reveals fire; bolt sends it out. The first is threat/feint without impact, the second strike with impact."
+    },
+    {
+      "span": "II.12.2",
+      "content": "There is agreement that the phenomena occur in and issue from clouds, and that both kinds of lightning are fiery or appear fiery. Other matters are disputed."
+    },
+    {
+      "span": "II.12.3",
+      "content": "Some hold that fire already resides in clouds; others that it is produced only when emitted. Proposed origins include recurrent sun rays, while Anaxagoras derives it from ether and sparks retained by clouds."
+    },
+    {
+      "span": "II.12.4",
+      "content": "Aristotle rejects long prior accumulation and says fire bursts out as it is formed. Dry earth vapour produces wind, thunder, and lightning; moist water breath produces rain and snow."
+    },
+    {
+      "span": "II.12.5",
+      "content": "Accumulated dry vapour is pressed laterally when condensed into clouds, strikes adjacent clouds, and produces reverberating thunder. The author compares the effect with moist wood crackling as enclosed air bursts through flame."
+    },
+    {
+      "span": "II.12.6",
+      "content": "Sound varies with the size of cloud cavities and the kind of impact. Air driven out becomes sheet lightning; the flash is seen before its sound is heard."
+    }
+  ],
+  "typed_distinctions": {
+    "observation": [
+      "PHENOMENON",
+      "CO_OCCURRENCE",
+      "TIME_ORDER",
+      "VISIBLE_EFFECT",
+      "AUDIBLE_EFFECT"
+    ],
+    "cause": [
+      "CAUSE_MODEL",
+      "MATERIAL_EXHALATION",
+      "CLOUD_STATE",
+      "PRESSURE_ORIGIN",
+      "ESCAPE_EVENT"
+    ],
+    "epistemic_scope": "Agreement about cloud location and fiery appearance is separated from disputed origin and causal mechanism.",
+    "reused_operation": "EXPLAIN(phenomenon,model) -> causal chain is reused for competing fire-origin models; the same observed flash/thunder identity receives different model branches."
+  },
+  "worked_consequence": {
+    "source_case_a": "OBSERVE(flash_before_sound) -> {LIGHTNING_REVEALS_FIRE, THUNDER_LATER}; dry vapour/cloud pressure supplies one causal chain.",
+    "source_case_b": "The resident-fire model and the fire-produced-on-emission model preserve the same observation but differ on whether FIRE_STATE precedes CLOUD_ESCAPE.",
+    "serious_rival": "Treat the disputed explanations as independent labels and choose one universal cause from the observed event. This loses the source's explicit agreement/dispute boundary and predicts no changed intermediate state.",
+    "smallest_later_test": "A complete later content passage would need a repeated phenomenon operator with a fixed observation output and at least two explicitly scoped causal models whose intermediate material/state differs."
+  },
+  "limits": [
+    "This is an argumentative natural-philosophy chapter, not a process log.",
+    "The packet records ancient models as source claims, not modern physics.",
+    "The Latin witness's edition/license metadata is not independently certified here; translation wording is not used as target vocabulary."
+  ]
+}
