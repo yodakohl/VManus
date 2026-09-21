@@ -23887,3 +23887,5 @@ GDT1022: complete 62-group projected music account coherent in all 12 cases, all
 GDT1023: both complete projected amulet branches coherent, image/material and quoted/executed enclosure preserved; all ten diagnostic outcomes match. 71 guessed values, nine fitted productions, three raw ZL forms unbound; 0 words. [Whole account](experiments/yolo/gdt1023_amulet_complete_typed_assembly/REPORT.md).
 
 GDT1024: two complete projected music paragraphs jointly coherent in12cases without changing53old meanings; actual reuse six types/nine positions,18new guesses. Four ZL gaps and fixed IT solchedy conflict remain;0words. [Joint result](experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/REPORT.md).
+
+GDT1025: shared96group unweaving DIRECT coherent, REVERSED conflicts on sole V phase; removing only V3=V restores both. Seven old types reused at17positions,40new guesses;0words, standalone1020both retained. [Full identity dependence](experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md).

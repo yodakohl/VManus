@@ -1,0 +1,57 @@
+{
+  "record_id": "GDT1025",
+  "scope": "semantic",
+  "verdict": "supported_limited",
+  "reviewer": "root registered complete joint assertion graph and independent relational verification",
+  "reason": "DIRECT shared96group account coherent; REVERSED shared variant has sole-phase contradiction. Both remain coherent with separate V3, exposing dependence on guessed activity identity. All24 old denotations retained.",
+  "assessment_basis": "registered_complete_joint_graph_with_identity_diagnostic",
+  "evidence": [
+    "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md",
+    "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/artifacts/RESULT.json",
+    "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/artifacts/CANDIDATES.tsv"
+  ],
+  "blockers": [
+    {
+      "code": "meanings_and_shared_frame_unconfirmed",
+      "detail": "40 new guessed values,11 fitted productions,7 binding conventions; no independent identification of V3=V or sole phase. Raw gaps/IT limits remain.",
+      "evidence": [
+        "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "distinct_complete_fixed_context",
+        "change": "new_design",
+        "detail": "Complete distinct context retaining denotations with fewer new binding assumptions or a separately justified shared activity.",
+        "evidence": [
+          "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Repeating the same phase equality",
+      "Source resemblance",
+      "Treating separate-V as a repaired shared candidate",
+      "Changing old words"
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT1020",
+      "evidence": [
+        "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "IDEA000488",
+      "evidence": [
+        "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md"
+      ]
+    }
+  ]
+}

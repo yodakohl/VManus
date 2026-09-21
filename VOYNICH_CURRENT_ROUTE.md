@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1025 complete unweaving pair and dependence on shared activity identity.
-Latest decision: GDT1024 both music paragraphs coherent; six old types reused, IT conflict retained.
-Working files: experiments/yolo/gdt1025_unweaving_two_paragraph_identity/DECISION.md
-Assumptions: 24 old values fixed;40 new guesses; same V/Z and sole phase are new assumptions.
-Resume: Register1025; execute direct/reversed shared and separate-V cases; budget05:45 UTC.
-Running: root1025; bounded_semantic_route drafts full f76v music paragraph; end11:11:33 UTC.
+Task: Crossleaf music extension: review whole f76v.37-41 with71 meanings fixed.
+Latest decision: GDT1025 shared DIRECT coherent; reversed conflicts only with assumed same V/sole phase.
+Working files: experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md
+Assumptions: No confirmed words; fixed-music crossleaf55groups reuse18types/32positions; scope open.
+Resume: Publish1025; review IDEA000490 and bounded full f76v proposal before selection.
+Running: root publication/review; bounded_semantic_route drafts full f76v by05:38; end11:11:33 UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
