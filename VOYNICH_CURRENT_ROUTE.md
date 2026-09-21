@@ -2,14 +2,14 @@
 Updated: 2026-09-21. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT1026 full crossleaf music account; all71 old meanings frozen.
-Latest decision: RAW491 selected:55new groups,18old types/32positions; IT two lines conflict.
-Working files: experiments/yolo/gdt1026_rota_crossleaf_frozen_meanings/DECISION.md
-Assumptions: 20new values/11clauses/10bindings; same performance; N2 ending vacuous;0 words.
-Resume: Publish registration, run24 fixed cases, independently validate and publish by06:10UTC.
-Running: root1026; bounded_semantic_route seeks distinct full extension by06:00; end11:11:33UTC.
+Task: Publish GDT1026; review producer's distinct complete amulet extension.
+Latest decision: Music150groups/71old values fixed;18types reused; positive8contra,4vacuous.
+Working files: experiments/yolo/gdt1026_rota_crossleaf_frozen_meanings/REPORT.md
+Assumptions: 20new values/11clauses/10bindings; IT sar and lolsaiiin conflicts;0words/meaning.
+Resume: Close1026; then inspect completed f108r.45-47 proposal before selecting a new test.
+Running: root publication; bounded_semantic_route drafts alternative by06:00; end11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

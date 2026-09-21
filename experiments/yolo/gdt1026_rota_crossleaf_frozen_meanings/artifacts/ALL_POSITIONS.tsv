@@ -1,0 +1,151 @@
+locus	group	word	clause	tag	meaning	status
+f83r.25	1	qokeedy	D01	INITIAL_ONSET	the initial onset time T0 of the current performance; one time reference at all three occurrences	FROZEN_OLD_PROJECTED
+f83r.25	2	qolchey	D01	AT_TIME	bind the preceding time reference to the following initial-entry declaration	FROZEN_OLD_PROJECTED
+f83r.25	3	qokeey	D01	SOLE_STARTER	the single rota singer assigned the initial entry; a role reference explicitly identified with LEADER in the next clause	FROZEN_OLD_PROJECTED
+f83r.25	4	qokedy	D01	CO_ONSET	require equality of the first onset times of its two explicit event sets; preserve distinct performers and parts	FROZEN_OLD_PROJECTED
+f83r.25	5	chedy	D01	ENTER	enter the performance	FROZEN_OLD_PROJECTED
+f83r.25	6	otal	D01	BEGIN_BOTH_PES	declare initial part starts for both members U,L of the existing ordered accompaniment pair; this is not ENTER applied to pes	FROZEN_OLD_PROJECTED
+f83r.26	1	otchey	D02	INITIAL_RULE	scope the following role/silence declaration at the already named initial onset T0	FROZEN_OLD_PROJECTED
+f83r.26	2	qokeey	D02	SOLE_STARTER	the single rota singer assigned the initial entry; a role reference explicitly identified with LEADER in the next clause	FROZEN_OLD_PROJECTED
+f83r.26	3	qoky	D02	OTHERS_SILENT	all not-yet-entered rota singers are silent	FROZEN_OLD_PROJECTED
+f83r.26	4	tol	D02	IDENTICAL_ROLE	assert identity of the named human-role referents	FROZEN_OLD_PROJECTED
+f83r.26	5	shedy	D02	LEADER	the leading singer role	FROZEN_OLD_PROJECTED
+f83r.26	6	qokylddy	D02	SAME_PERFORMANCE_REFERENCE	bind this paragraph to the performance of the next explicit ROTA declaration in the fixed paired block; all role/part/cue identities are shared	FROZEN_OLD_PROJECTED
+f83r.27	1	dain	D03	RESTATE_SAME_STARTER	restate the first entry of the just identified sole starter; the repeated ENTER names that same first event, not another entry	FROZEN_OLD_PROJECTED
+f83r.27	2	chedy	D03	ENTER	enter the performance	FROZEN_OLD_PROJECTED
+f83r.27	3	qokeedy	D03	INITIAL_ONSET	the initial onset time T0 of the current performance; one time reference at all three occurrences	FROZEN_OLD_PROJECTED
+f83r.27	4	shckhedy	D03	START_NEXT_PES	consume the next member of the existing ordered pair [U,L] and return its first part-start event; same iterator operation at both adjacent occurrences	FROZEN_OLD_PROJECTED
+f83r.27	5	shckhedy	D03	START_NEXT_PES	consume the next member of the existing ordered pair [U,L] and return its first part-start event; same iterator operation at both adjacent occurrences	FROZEN_OLD_PROJECTED
+f83r.28	1	saiin	D04	UPPER_PES	the performer assigned P1; distinct from a note or motif	FROZEN_OLD_PROJECTED
+f83r.28	2	cheeky	D04	TERMINAL_REST	the written rest at the terminal position of the named performer's assigned part; a part property, not an instruction to rest at the initial onset	FROZEN_OLD_PROJECTED
+f83r.28	3	sheey	D04	FIRST_PART_START	the initial start of the named performer's assigned part; later cycle restarts are distinct from this event	FROZEN_OLD_PROJECTED
+f83r.28	4	qokedy	D04	CO_ONSET	require equality of the first onset times of its two explicit event sets; preserve distinct performers and parts	FROZEN_OLD_PROJECTED
+f83r.28	5	shedy	D04	LEADER	the leading singer role	FROZEN_OLD_PROJECTED
+f83r.28	6	oldy	D04	PRESERVE_OWN_CYCLE	preserve that performer's own complete assigned note/rest cycle and local phase through other singers' entries; do not replace or restart the part	FROZEN_OLD_PROJECTED
+f83r.29	1	salchedy	D05	LOWER_PES_REFERENCE	the same performer L assigned P2 in RAW485; no new singer or role exchange	FROZEN_OLD_PROJECTED
+f83r.29	2	cheey	D05	INTERNAL_REST	a written rest internal to the named performer's assigned part, not necessarily its arithmetic midpoint	FROZEN_OLD_PROJECTED
+f83r.29	3	qody	D05	WITHOUT_TERMINAL_REST	the named complete assigned part has no terminal rest event; retain every internal written rest and do not remove or relocate events	FROZEN_OLD_PROJECTED
+f83r.29	4	kesd	D05	IMMEDIATE_CYCLE_RESTART	restart the same completed part without an added end delay, while the inherited common performance need continues	FROZEN_OLD_PROJECTED
+f83r.29	5	oldy	D05	PRESERVE_OWN_CYCLE	preserve that performer's own complete assigned note/rest cycle and local phase through other singers' entries; do not replace or restart the part	FROZEN_OLD_PROJECTED
+f83r.30	1	s	D06	PES	the accompaniment role pair, with distinct assigned parts P1 and P2	FROZEN_OLD_PROJECTED
+f83r.30	2	okeedy	D06	COMPANIONS	distinct human performers of the rota part	FROZEN_OLD_PROJECTED
+f83r.30	3	qokeedy	D06	INITIAL_ONSET	the initial onset time T0 of the current performance; one time reference at all three occurrences	FROZEN_OLD_PROJECTED
+f83r.30	4	qoky	D06	OTHERS_SILENT	all not-yet-entered rota singers are silent	FROZEN_OLD_PROJECTED
+f83r.30	5	saii	D06	DISTINCT_GROUPS	assert that the two named performer groups are disjoint: the accompaniment pair and rota companions; no performer changes group	FROZEN_OLD_PROJECTED
+f83r.31	1	techedy	C01	ROTA	the rota/performance being prescribed	FROZEN_OLD_PROJECTED
+f83r.31	2	qotchedy	C01	FOUR	four rota singers are a permitted realization; not an upper bound	FROZEN_OLD_PROJECTED
+f83r.31	3	okeedy	C01	COMPANIONS	distinct human performers of the rota part	FROZEN_OLD_PROJECTED
+f83r.31	4	ldy	C01	MAY_SING	permission to perform the named musical object	FROZEN_OLD_PROJECTED
+f83r.32	1	cheol	C02	SAME_MELODY	the same defined main melody M	FROZEN_OLD_PROJECTED
+f83r.32	2	qokchedy	C02	EACH	universal quantifier over the following role expression	FROZEN_OLD_PROJECTED
+f83r.32	3	lchedy	C02	FOLLOWER	a following singer role; repetition alone introduces no fresh person	FROZEN_OLD_PROJECTED
+f83r.32	4	qokey	C02	REPEAT	repeat the defined musical part	FROZEN_OLD_PROJECTED
+f83r.33	1	sy	C03	TWO	two distinct performers	FROZEN_OLD_PROJECTED
+f83r.33	2	s	C03	PES	the accompaniment role pair, with distinct assigned parts P1 and P2	FROZEN_OLD_PROJECTED
+f83r.33	3	aiin	C03	TOGETHER	common onset for the subject set in the current clause; does not merge their clocks or part positions	FROZEN_OLD_PROJECTED
+f83r.33	4	sheekchy	C03	AS_NEEDED	repeat while the common performance need continues; no source stopping time	FROZEN_OLD_PROJECTED
+f83r.33	5	qokey	C03	REPEAT	repeat the defined musical part	FROZEN_OLD_PROJECTED
+f83r.33	6	sain	C03	THEIR_PART	each member keeps its own assigned part; not the same part for both	FROZEN_OLD_PROJECTED
+f83r.34	1	shky	C04	ALL	universal quantifier over the following role expression	FROZEN_OLD_PROJECTED
+f83r.34	2	lchedy	C04	FOLLOWER	a following singer role; repetition alone introduces no fresh person	FROZEN_OLD_PROJECTED
+f83r.34	3	dolshed	C04	PAUSE_ONLY	use rests only at the specified positions of the assigned part	FROZEN_OLD_PROJECTED
+f83r.34	4	qokchy	C04	WRITTEN_PAUSES	the written rest-position set in the assigned main part	FROZEN_OLD_PROJECTED
+f83r.35	1	saiin	C05	UPPER_PES	the performer assigned P1; distinct from a note or motif	FROZEN_OLD_PROJECTED
+f83r.35	2	cheky	C05	PAUSE	a rest event located in the named part	FROZEN_OLD_PROJECTED
+f83r.35	3	okeeol	C05	END	the end location of that part	FROZEN_OLD_PROJECTED
+f83r.35	4	okain	C05	LOWER_PES	the performer assigned P2	FROZEN_OLD_PROJECTED
+f83r.35	5	chdy	C05	MIDDLE	an internal location, not an arithmetic midpoint	FROZEN_OLD_PROJECTED
+f83r.36	1	sor	C06	INITIALLY	the initial start of this performance	FROZEN_OLD_PROJECTED
+f83r.36	2	aiin	C06	TOGETHER	common onset for the subject set in the current clause; does not merge their clocks or part positions	FROZEN_OLD_PROJECTED
+f83r.36	3	shy	C06	ONE	one rota singer, resolved to the leading role rather than a new unnamed singer	FROZEN_OLD_PROJECTED
+f83r.36	4	shey	C06	SING	sing the assigned part	FROZEN_OLD_PROJECTED
+f83r.36	5	lshedy	C06	WITH_PES	include both already introduced accompaniment performers in the onset set	FROZEN_OLD_PROJECTED
+f83r.36	6	qoky	C06	OTHERS_SILENT	all not-yet-entered rota singers are silent	FROZEN_OLD_PROJECTED
+f83r.37	1	sol	C07	WHEN	when the stated cue is reached	FROZEN_OLD_PROJECTED
+f83r.37	2	lkedy	C07	CROSS_CUE	the first note after the defined cross X, bound here to MN010	FROZEN_OLD_PROJECTED
+f83r.37	3	lchedy	C07	FOLLOWER	a following singer role; repetition alone introduces no fresh person	FROZEN_OLD_PROJECTED
+f83r.37	4	qokol	C07	AFTER_CUE_OF	the following role takes the named preceding performer as cue owner	FROZEN_OLD_PROJECTED
+f83r.37	5	shedy	C07	LEADER	the leading singer role	FROZEN_OLD_PROJECTED
+f83r.38	1	or	C08	AND_NEXT	extend the preceding entry rule to later members of the ordered rota group	FROZEN_OLD_PROJECTED
+f83r.38	2	chey	C08	NEXT_FOLLOWER	the remaining followers in their entry order	FROZEN_OLD_PROJECTED
+f83r.38	3	qockhey	C08	IMMEDIATE_PREDECESSOR	the immediately preceding rota singer for each current follower	FROZEN_OLD_PROJECTED
+f83r.38	4	dairydy	C08	SAME_RULE	reuse the immediately preceding cue-ownership rule, with the explicit new participant arguments	FROZEN_OLD_PROJECTED
+f83r.39	1	qokain	C09	OTHER_MEMBER	the second member of the most recently introduced ordered accompaniment pair: lower pes	FROZEN_OLD_PROJECTED
+f83r.39	2	shey	C09	SING	sing the assigned part	FROZEN_OLD_PROJECTED
+f83r.39	3	kain	C09	NO_END_PAUSE	no rest added at the end of the assigned part	FROZEN_OLD_PROJECTED
+f83r.39	4	chckhal	C09	IMMEDIATE_RESTART	restart that same part immediately at its cycle boundary	FROZEN_OLD_PROJECTED
+f83r.40	1	solchedy	C10	EACH_ROTA_SINGER	every member of the rota group, including its leader	FROZEN_OLD_PROJECTED
+f83r.40	2	olchedy	C10	WRITTEN_PAUSE	the written pauses of the selected rota singer	FROZEN_OLD_PROJECTED
+f83r.40	3	chedaiin	C10	ONE_LONG_NOTE	one written longa as a rest duration; modern numerical realization remains branch-dependent	FROZEN_OLD_PROJECTED
+f83r.41	1	solkey	C11	GROUP_INCLUDING	the already introduced rota group including the specified following role	FROZEN_OLD_PROJECTED
+f83r.41	2	lchedy	C11	FOLLOWER	a following singer role; repetition alone introduces no fresh person	FROZEN_OLD_PROJECTED
+f83r.41	3	qolkain	C11	THREE_OR_AT_LEAST_TWO	the source lower-count qualification: three, or at least two; retained as one explicitly large whole-word guess	FROZEN_OLD_PROJECTED
+f83r.41	4	dal	C11	EXCLUDING_PES	exclude the accompaniment pair from the preceding rota-singer count	FROZEN_OLD_PROJECTED
+f83r.42	1	sol	C12	WHEN	when the stated cue is reached	FROZEN_OLD_PROJECTED
+f83r.42	2	ol	C12	THAT	the unique named cue X from the entry-rule context	FROZEN_OLD_PROJECTED
+f83r.42	3	chcthdy	C12	REACH	attain the named event in the cue owner's local part	FROZEN_OLD_PROJECTED
+f83r.42	4	l	C12	PREDECESSOR	the cue-owning predecessor selected by the preceding entry rules	FROZEN_OLD_PROJECTED
+f83r.42	5	chedy	C12	ENTER	enter the performance	FROZEN_OLD_PROJECTED
+f83r.42	6	lchdy	C12	NEXT	the next not-yet-entered rota singer, if one exists	FROZEN_OLD_PROJECTED
+f83r.43	1	daiin	C13	NOT	prohibit the following entry relation	FROZEN_OLD_PROJECTED
+f83r.43	2	sheol	C13	BEFORE	strict temporal precedence	FROZEN_OLD_PROJECTED
+f83r.43	3	chedy	C13	ENTER	enter the performance	FROZEN_OLD_PROJECTED
+f83r.43	4	qotal	C13	CUE_ATTAINMENT	the assigned predecessor's first attainment of X	FROZEN_OLD_PROJECTED
+f83r.43	5	sar	C13	ANY_ROTA_SINGER	universal range over the rota group, not the pes performers	FROZEN_OLD_PROJECTED
+f83r.44	1	skar	C14	EXCEPT	remove the named role from the immediately preceding prohibition	FROZEN_OLD_PROJECTED
+f83r.44	2	shedy	C14	LEADER	the leading singer role	FROZEN_OLD_PROJECTED
+f76v.37	1	qoeedy	F01	FOR_EACH	Universal quantification over the explicitly following performer-role predicate; it does not introduce new singers.	NEW_GUESS
+f76v.37	2	lchedy	F01	FOLLOWER	a following singer role; repetition alone introduces no fresh person	REUSED_OLD
+f76v.37	3	chees	F01	ASSIGN_ENTRY_CUE	Bind the named cue kind to the current follower's existing entry-dependency record; cue ownership is a separate field.	NEW_GUESS
+f76v.37	4	ol	F01	THAT	the unique named cue X from the entry-rule context	REUSED_OLD
+f76v.37	5	oiiin	F01	AFTER_COMPLETION	Make completion of the explicitly specified current part cycle the guard for the following operation.	NEW_GUESS
+f76v.37	6	chchky	F01	CURRENT_CYCLE	The complete current instance of the current performer's own assigned part, including its rests; no chosen prefix.	NEW_GUESS
+f76v.37	7	shekeey	F01	IMMEDIATELY	Give the guarded next operation zero added delay after the stated completion boundary.	NEW_GUESS
+f76v.37	8	qokey	F01	REPEAT	repeat the defined musical part	REUSED_OLD
+f76v.37	9	qoky	F02	OTHERS_SILENT	all not-yet-entered rota singers are silent	REUSED_OLD
+f76v.37	10	saiin	F03	UPPER_PES	the performer assigned P1; distinct from a note or motif	REUSED_OLD
+f76v.37	11	sy	F03	TWO	two distinct performers	REUSED_OLD
+f76v.38	1	saiin	F04	UPPER_PES	the performer assigned P1; distinct from a note or motif	REUSED_OLD
+f76v.38	2	chedy	F04	ENTER	enter the performance	REUSED_OLD
+f76v.38	3	shedy	F04	LEADER	the leading singer role	REUSED_OLD
+f76v.38	4	qokeedy	F04	INITIAL_ONSET	the initial onset time T0 of the current performance; one time reference at all three occurrences	REUSED_OLD
+f76v.38	5	lol	F05	CONTINUE	Preserve the supplied part's existing local phase and event sequence through the specified other performer's entry; do not restart or exchange it.	NEW_GUESS
+f76v.38	6	saiiin	F05	ASSIGNED_PART	Return the complete part assigned to the following named performer; not a newly chosen melody.	NEW_GUESS
+f76v.38	7	qokain	F05	OTHER_MEMBER	the second member of the most recently introduced ordered accompaniment pair: lower pes	REUSED_OLD
+f76v.38	8	chey	F05	NEXT_FOLLOWER	the remaining followers in their entry order	REUSED_OLD
+f76v.38	9	r	F05	FIRST_ENTRY_EVENT	Reference the unique first ENTER event of the explicitly bound rota performer; no second execution or pes entry.	NEW_GUESS
+f76v.38	10	al	F05	IMMEDIATE_PREDECESSOR_ROLE	Return the immediate preceding rota performer of the current follower in the established entry order.	NEW_GUESS
+f76v.38	11	r	F05	FIRST_ENTRY_EVENT	Reference the unique first ENTER event of the explicitly bound rota performer; no second execution or pes entry.	NEW_GUESS
+f76v.38	12	aiin	F05	TOGETHER	common onset for the subject set in the current clause; does not merge their clocks or part positions	REUSED_OLD
+f76v.38	13	dl	F05	POSTPOSED_NOT	Prohibit the immediately preceding entry-onset equality relation, with the already specified actors unchanged.	NEW_GUESS
+f76v.39	1	sshey	F06	RECALL	Restate the supplied existing initial-start relation without executing another start.	NEW_GUESS
+f76v.39	2	lshedy	F06	WITH_PES	include both already introduced accompaniment performers in the onset set	REUSED_OLD
+f76v.39	3	qokaiin	F06	FIRST_ENTRY_TIME	Return the time of that rota performer's unique first ENTER event. The pointwise lifting over an explicitly written role pair is a declared construction, not a different word value.	NEW_GUESS
+f76v.39	4	shedy	F06	LEADER	the leading singer role	REUSED_OLD
+f76v.39	5	okedy	F07	BIND	Bind the explicit entry-rule record to the following cue and owner terms.	NEW_GUESS
+f76v.39	6	san	F07	ENTRY_RULE	The existing entry-dependency record of the current follower; no new action or new performer.	NEW_GUESS
+f76v.39	7	ol	F07	THAT	the unique named cue X from the entry-rule context	REUSED_OLD
+f76v.39	8	keedy	F07	PREDECESSOR_REFERENCE	The immediate preceding rota performer of the current follower; openly co-denotes the new al function and the old predecessor convention.	NEW_GUESS
+f76v.39	9	sor	F08	INITIALLY	the initial start of this performance	REUSED_OLD
+f76v.39	10	qoky	F08	OTHERS_SILENT	all not-yet-entered rota singers are silent	REUSED_OLD
+f76v.39	11	dedy	F08	UNTIL_OWN_FIRST_ENTRY	Keep the just specified initial pending-silence constraint through each such follower's waiting interval, ending at that follower's first entry.	NEW_GUESS
+f76v.40	1	sol	F09	WHEN	when the stated cue is reached	REUSED_OLD
+f76v.40	2	shedy	F09	LEADER	the leading singer role	REUSED_OLD
+f76v.40	3	qoky	F09	OTHERS_SILENT	all not-yet-entered rota singers are silent	REUSED_OLD
+f76v.40	4	daiin	F10	NOT	prohibit the following entry relation	REUSED_OLD
+f76v.40	5	shedy	F10	LEADER	the leading singer role	REUSED_OLD
+f76v.40	6	chey	F10	NEXT_FOLLOWER	the remaining followers in their entry order	REUSED_OLD
+f76v.40	7	qokaiin	F10	FIRST_ENTRY_TIME	Return the time of that rota performer's unique first ENTER event. The pointwise lifting over an explicitly written role pair is a declared construction, not a different word value.	NEW_GUESS
+f76v.40	8	cheedy	F10	AT_TIME	Relate the explicit first-entry time references to the following bound time variable.	NEW_GUESS
+f76v.40	9	qo	F10	ANY	Bind a time variable inside the containing entry-relation assertion; under NOT the prohibition denies the existence of such a common time.	NEW_GUESS
+f76v.40	10	char	F10	TIME	The time sort/variable position used by the explicit ANY-time construction; no numeric value or duration.	NEW_GUESS
+f76v.40	11	aiin	F10	TOGETHER	common onset for the subject set in the current clause; does not merge their clocks or part positions	REUSED_OLD
+f76v.41	1	sol	F11	WHEN	when the stated cue is reached	REUSED_OLD
+f76v.41	2	shey	F11	SING	sing the assigned part	REUSED_OLD
+f76v.41	3	chedy	F11	ENTER	enter the performance	REUSED_OLD
+f76v.41	4	qokedy	F11	CO_ONSET	require equality of the first onset times of its two explicit event sets; preserve distinct performers and parts	REUSED_OLD
+f76v.41	5	chedy	F11	ENTER	enter the performance	REUSED_OLD
+f76v.41	6	qol	F11	IDENTIFIED_BY	Identify the preceding entry-event term with the following typed event reference, preserving one event identity.	NEW_GUESS
+f76v.41	7	r	F11	FIRST_ENTRY_EVENT	Reference the unique first ENTER event of the explicitly bound rota performer; no second execution or pes entry.	NEW_GUESS
+f76v.41	8	aiin	F11	TOGETHER	common onset for the subject set in the current clause; does not merge their clocks or part positions	REUSED_OLD
+f76v.41	9	shedy	F11	LEADER	the leading singer role	REUSED_OLD

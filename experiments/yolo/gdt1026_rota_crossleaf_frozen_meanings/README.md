@@ -1,5 +1,5 @@
-# GDT1026 — rota crossleaf frozen meanings
+# GDT1026 — complete crossleaf music hypothesis
 
-Status: `REGISTERED_UNSCORED`
+Status: `SUPPORTED_LIMITED_CROSSLEAF_FIXED71_PROHIBITIVE`
 
-See `METHOD.md` and `experiment.json`.
+See [REPORT.md](REPORT.md), [all candidates](artifacts/CANDIDATES.tsv) and [all150 positions](artifacts/ALL_POSITIONS.tsv).

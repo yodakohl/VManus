@@ -1,0 +1,763 @@
+[
+  {
+    "n": 2,
+    "clauses": [
+      {
+        "id": "F01",
+        "production": "FollowerCueAndRepeat",
+        "start": 0,
+        "end": 8,
+        "tags": [
+          "FOR_EACH",
+          "FOLLOWER",
+          "ASSIGN_ENTRY_CUE",
+          "THAT",
+          "AFTER_COMPLETION",
+          "CURRENT_CYCLE",
+          "IMMEDIATELY",
+          "REPEAT"
+        ]
+      },
+      {
+        "id": "F02",
+        "production": "PendingSilenceInvariant",
+        "start": 8,
+        "end": 9,
+        "tags": [
+          "OTHERS_SILENT"
+        ]
+      },
+      {
+        "id": "F03",
+        "production": "UpperWithinTwoPes",
+        "start": 9,
+        "end": 11,
+        "tags": [
+          "UPPER_PES",
+          "TWO"
+        ]
+      },
+      {
+        "id": "F04",
+        "production": "UpperInitialReference",
+        "start": 11,
+        "end": 15,
+        "tags": [
+          "UPPER_PES",
+          "ENTER",
+          "LEADER",
+          "INITIAL_ONSET"
+        ]
+      },
+      {
+        "id": "F05",
+        "production": "LowerContinuityAndDistinctLaterEntries",
+        "start": 15,
+        "end": 24,
+        "tags": [
+          "CONTINUE",
+          "ASSIGNED_PART",
+          "OTHER_MEMBER",
+          "NEXT_FOLLOWER",
+          "FIRST_ENTRY_EVENT",
+          "IMMEDIATE_PREDECESSOR_ROLE",
+          "FIRST_ENTRY_EVENT",
+          "TOGETHER",
+          "POSTPOSED_NOT"
+        ]
+      },
+      {
+        "id": "F06",
+        "production": "RecallInitialPesGroup",
+        "start": 24,
+        "end": 28,
+        "tags": [
+          "RECALL",
+          "WITH_PES",
+          "FIRST_ENTRY_TIME",
+          "LEADER"
+        ]
+      },
+      {
+        "id": "F07",
+        "production": "BindExistingCueOwner",
+        "start": 28,
+        "end": 32,
+        "tags": [
+          "BIND",
+          "ENTRY_RULE",
+          "THAT",
+          "PREDECESSOR_REFERENCE"
+        ]
+      },
+      {
+        "id": "F08",
+        "production": "InitialWaitingSilence",
+        "start": 32,
+        "end": 35,
+        "tags": [
+          "INITIALLY",
+          "OTHERS_SILENT",
+          "UNTIL_OWN_FIRST_ENTRY"
+        ]
+      },
+      {
+        "id": "F09",
+        "production": "LeaderCuePendingSilence",
+        "start": 35,
+        "end": 38,
+        "tags": [
+          "WHEN",
+          "LEADER",
+          "OTHERS_SILENT"
+        ]
+      },
+      {
+        "id": "F10",
+        "production": "ProhibitLeaderLaterCommonEntry",
+        "start": 38,
+        "end": 46,
+        "tags": [
+          "NOT",
+          "LEADER",
+          "NEXT_FOLLOWER",
+          "FIRST_ENTRY_TIME",
+          "AT_TIME",
+          "ANY",
+          "TIME",
+          "TOGETHER"
+        ]
+      },
+      {
+        "id": "F11",
+        "production": "CueProcessAndSameFirstEvents",
+        "start": 46,
+        "end": 55,
+        "tags": [
+          "WHEN",
+          "SING",
+          "ENTER",
+          "CO_ONSET",
+          "ENTER",
+          "IDENTIFIED_BY",
+          "FIRST_ENTRY_EVENT",
+          "TOGETHER",
+          "LEADER"
+        ]
+      }
+    ],
+    "raw_roundtrip": [
+      "qoeedy",
+      "lchedy",
+      "chees",
+      "ol",
+      "oiiin",
+      "chchky",
+      "shekeey",
+      "qokey",
+      "qoky",
+      "saiin",
+      "sy",
+      "saiin",
+      "chedy",
+      "shedy",
+      "qokeedy",
+      "lol",
+      "saiiin",
+      "qokain",
+      "chey",
+      "r",
+      "al",
+      "r",
+      "aiin",
+      "dl",
+      "sshey",
+      "lshedy",
+      "qokaiin",
+      "shedy",
+      "okedy",
+      "san",
+      "ol",
+      "keedy",
+      "sor",
+      "qoky",
+      "dedy",
+      "sol",
+      "shedy",
+      "qoky",
+      "daiin",
+      "shedy",
+      "chey",
+      "qokaiin",
+      "cheedy",
+      "qo",
+      "char",
+      "aiin",
+      "sol",
+      "shey",
+      "chedy",
+      "qokedy",
+      "chedy",
+      "qol",
+      "r",
+      "aiin",
+      "shedy"
+    ],
+    "bindings": {
+      "leader": "R0",
+      "upper": "U",
+      "lower": "L",
+      "followers": [
+        "R1"
+      ],
+      "later": [],
+      "predecessor": {
+        "R1": "R0"
+      },
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "cue": "MN010",
+      "same_performance": true,
+      "r_calls": [],
+      "qokaiin_roles": {
+        "F06": [
+          "R0"
+        ],
+        "F10": []
+      },
+      "F11_event_pairs": []
+    }
+  },
+  {
+    "n": 3,
+    "clauses": [
+      {
+        "id": "F01",
+        "production": "FollowerCueAndRepeat",
+        "start": 0,
+        "end": 8,
+        "tags": [
+          "FOR_EACH",
+          "FOLLOWER",
+          "ASSIGN_ENTRY_CUE",
+          "THAT",
+          "AFTER_COMPLETION",
+          "CURRENT_CYCLE",
+          "IMMEDIATELY",
+          "REPEAT"
+        ]
+      },
+      {
+        "id": "F02",
+        "production": "PendingSilenceInvariant",
+        "start": 8,
+        "end": 9,
+        "tags": [
+          "OTHERS_SILENT"
+        ]
+      },
+      {
+        "id": "F03",
+        "production": "UpperWithinTwoPes",
+        "start": 9,
+        "end": 11,
+        "tags": [
+          "UPPER_PES",
+          "TWO"
+        ]
+      },
+      {
+        "id": "F04",
+        "production": "UpperInitialReference",
+        "start": 11,
+        "end": 15,
+        "tags": [
+          "UPPER_PES",
+          "ENTER",
+          "LEADER",
+          "INITIAL_ONSET"
+        ]
+      },
+      {
+        "id": "F05",
+        "production": "LowerContinuityAndDistinctLaterEntries",
+        "start": 15,
+        "end": 24,
+        "tags": [
+          "CONTINUE",
+          "ASSIGNED_PART",
+          "OTHER_MEMBER",
+          "NEXT_FOLLOWER",
+          "FIRST_ENTRY_EVENT",
+          "IMMEDIATE_PREDECESSOR_ROLE",
+          "FIRST_ENTRY_EVENT",
+          "TOGETHER",
+          "POSTPOSED_NOT"
+        ]
+      },
+      {
+        "id": "F06",
+        "production": "RecallInitialPesGroup",
+        "start": 24,
+        "end": 28,
+        "tags": [
+          "RECALL",
+          "WITH_PES",
+          "FIRST_ENTRY_TIME",
+          "LEADER"
+        ]
+      },
+      {
+        "id": "F07",
+        "production": "BindExistingCueOwner",
+        "start": 28,
+        "end": 32,
+        "tags": [
+          "BIND",
+          "ENTRY_RULE",
+          "THAT",
+          "PREDECESSOR_REFERENCE"
+        ]
+      },
+      {
+        "id": "F08",
+        "production": "InitialWaitingSilence",
+        "start": 32,
+        "end": 35,
+        "tags": [
+          "INITIALLY",
+          "OTHERS_SILENT",
+          "UNTIL_OWN_FIRST_ENTRY"
+        ]
+      },
+      {
+        "id": "F09",
+        "production": "LeaderCuePendingSilence",
+        "start": 35,
+        "end": 38,
+        "tags": [
+          "WHEN",
+          "LEADER",
+          "OTHERS_SILENT"
+        ]
+      },
+      {
+        "id": "F10",
+        "production": "ProhibitLeaderLaterCommonEntry",
+        "start": 38,
+        "end": 46,
+        "tags": [
+          "NOT",
+          "LEADER",
+          "NEXT_FOLLOWER",
+          "FIRST_ENTRY_TIME",
+          "AT_TIME",
+          "ANY",
+          "TIME",
+          "TOGETHER"
+        ]
+      },
+      {
+        "id": "F11",
+        "production": "CueProcessAndSameFirstEvents",
+        "start": 46,
+        "end": 55,
+        "tags": [
+          "WHEN",
+          "SING",
+          "ENTER",
+          "CO_ONSET",
+          "ENTER",
+          "IDENTIFIED_BY",
+          "FIRST_ENTRY_EVENT",
+          "TOGETHER",
+          "LEADER"
+        ]
+      }
+    ],
+    "raw_roundtrip": [
+      "qoeedy",
+      "lchedy",
+      "chees",
+      "ol",
+      "oiiin",
+      "chchky",
+      "shekeey",
+      "qokey",
+      "qoky",
+      "saiin",
+      "sy",
+      "saiin",
+      "chedy",
+      "shedy",
+      "qokeedy",
+      "lol",
+      "saiiin",
+      "qokain",
+      "chey",
+      "r",
+      "al",
+      "r",
+      "aiin",
+      "dl",
+      "sshey",
+      "lshedy",
+      "qokaiin",
+      "shedy",
+      "okedy",
+      "san",
+      "ol",
+      "keedy",
+      "sor",
+      "qoky",
+      "dedy",
+      "sol",
+      "shedy",
+      "qoky",
+      "daiin",
+      "shedy",
+      "chey",
+      "qokaiin",
+      "cheedy",
+      "qo",
+      "char",
+      "aiin",
+      "sol",
+      "shey",
+      "chedy",
+      "qokedy",
+      "chedy",
+      "qol",
+      "r",
+      "aiin",
+      "shedy"
+    ],
+    "bindings": {
+      "leader": "R0",
+      "upper": "U",
+      "lower": "L",
+      "followers": [
+        "R1",
+        "R2"
+      ],
+      "later": [
+        "R2"
+      ],
+      "predecessor": {
+        "R1": "R0",
+        "R2": "R1"
+      },
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "cue": "MN010",
+      "same_performance": true,
+      "r_calls": [
+        {
+          "follower": "R2",
+          "first": "ENTER:R2",
+          "second": "ENTER:R1",
+          "final": "ENTER:R0"
+        }
+      ],
+      "qokaiin_roles": {
+        "F06": [
+          "R0"
+        ],
+        "F10": [
+          [
+            "R0",
+            "R2"
+          ]
+        ]
+      },
+      "F11_event_pairs": [
+        [
+          "ENTER:R2",
+          "ENTER:R0"
+        ]
+      ]
+    }
+  },
+  {
+    "n": 4,
+    "clauses": [
+      {
+        "id": "F01",
+        "production": "FollowerCueAndRepeat",
+        "start": 0,
+        "end": 8,
+        "tags": [
+          "FOR_EACH",
+          "FOLLOWER",
+          "ASSIGN_ENTRY_CUE",
+          "THAT",
+          "AFTER_COMPLETION",
+          "CURRENT_CYCLE",
+          "IMMEDIATELY",
+          "REPEAT"
+        ]
+      },
+      {
+        "id": "F02",
+        "production": "PendingSilenceInvariant",
+        "start": 8,
+        "end": 9,
+        "tags": [
+          "OTHERS_SILENT"
+        ]
+      },
+      {
+        "id": "F03",
+        "production": "UpperWithinTwoPes",
+        "start": 9,
+        "end": 11,
+        "tags": [
+          "UPPER_PES",
+          "TWO"
+        ]
+      },
+      {
+        "id": "F04",
+        "production": "UpperInitialReference",
+        "start": 11,
+        "end": 15,
+        "tags": [
+          "UPPER_PES",
+          "ENTER",
+          "LEADER",
+          "INITIAL_ONSET"
+        ]
+      },
+      {
+        "id": "F05",
+        "production": "LowerContinuityAndDistinctLaterEntries",
+        "start": 15,
+        "end": 24,
+        "tags": [
+          "CONTINUE",
+          "ASSIGNED_PART",
+          "OTHER_MEMBER",
+          "NEXT_FOLLOWER",
+          "FIRST_ENTRY_EVENT",
+          "IMMEDIATE_PREDECESSOR_ROLE",
+          "FIRST_ENTRY_EVENT",
+          "TOGETHER",
+          "POSTPOSED_NOT"
+        ]
+      },
+      {
+        "id": "F06",
+        "production": "RecallInitialPesGroup",
+        "start": 24,
+        "end": 28,
+        "tags": [
+          "RECALL",
+          "WITH_PES",
+          "FIRST_ENTRY_TIME",
+          "LEADER"
+        ]
+      },
+      {
+        "id": "F07",
+        "production": "BindExistingCueOwner",
+        "start": 28,
+        "end": 32,
+        "tags": [
+          "BIND",
+          "ENTRY_RULE",
+          "THAT",
+          "PREDECESSOR_REFERENCE"
+        ]
+      },
+      {
+        "id": "F08",
+        "production": "InitialWaitingSilence",
+        "start": 32,
+        "end": 35,
+        "tags": [
+          "INITIALLY",
+          "OTHERS_SILENT",
+          "UNTIL_OWN_FIRST_ENTRY"
+        ]
+      },
+      {
+        "id": "F09",
+        "production": "LeaderCuePendingSilence",
+        "start": 35,
+        "end": 38,
+        "tags": [
+          "WHEN",
+          "LEADER",
+          "OTHERS_SILENT"
+        ]
+      },
+      {
+        "id": "F10",
+        "production": "ProhibitLeaderLaterCommonEntry",
+        "start": 38,
+        "end": 46,
+        "tags": [
+          "NOT",
+          "LEADER",
+          "NEXT_FOLLOWER",
+          "FIRST_ENTRY_TIME",
+          "AT_TIME",
+          "ANY",
+          "TIME",
+          "TOGETHER"
+        ]
+      },
+      {
+        "id": "F11",
+        "production": "CueProcessAndSameFirstEvents",
+        "start": 46,
+        "end": 55,
+        "tags": [
+          "WHEN",
+          "SING",
+          "ENTER",
+          "CO_ONSET",
+          "ENTER",
+          "IDENTIFIED_BY",
+          "FIRST_ENTRY_EVENT",
+          "TOGETHER",
+          "LEADER"
+        ]
+      }
+    ],
+    "raw_roundtrip": [
+      "qoeedy",
+      "lchedy",
+      "chees",
+      "ol",
+      "oiiin",
+      "chchky",
+      "shekeey",
+      "qokey",
+      "qoky",
+      "saiin",
+      "sy",
+      "saiin",
+      "chedy",
+      "shedy",
+      "qokeedy",
+      "lol",
+      "saiiin",
+      "qokain",
+      "chey",
+      "r",
+      "al",
+      "r",
+      "aiin",
+      "dl",
+      "sshey",
+      "lshedy",
+      "qokaiin",
+      "shedy",
+      "okedy",
+      "san",
+      "ol",
+      "keedy",
+      "sor",
+      "qoky",
+      "dedy",
+      "sol",
+      "shedy",
+      "qoky",
+      "daiin",
+      "shedy",
+      "chey",
+      "qokaiin",
+      "cheedy",
+      "qo",
+      "char",
+      "aiin",
+      "sol",
+      "shey",
+      "chedy",
+      "qokedy",
+      "chedy",
+      "qol",
+      "r",
+      "aiin",
+      "shedy"
+    ],
+    "bindings": {
+      "leader": "R0",
+      "upper": "U",
+      "lower": "L",
+      "followers": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "later": [
+        "R2",
+        "R3"
+      ],
+      "predecessor": {
+        "R1": "R0",
+        "R2": "R1",
+        "R3": "R2"
+      },
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "R3": "ENTER:R3",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "cue": "MN010",
+      "same_performance": true,
+      "r_calls": [
+        {
+          "follower": "R2",
+          "first": "ENTER:R2",
+          "second": "ENTER:R1",
+          "final": "ENTER:R0"
+        },
+        {
+          "follower": "R3",
+          "first": "ENTER:R3",
+          "second": "ENTER:R2",
+          "final": "ENTER:R0"
+        }
+      ],
+      "qokaiin_roles": {
+        "F06": [
+          "R0"
+        ],
+        "F10": [
+          [
+            "R0",
+            "R2"
+          ],
+          [
+            "R0",
+            "R3"
+          ]
+        ]
+      },
+      "F11_event_pairs": [
+        [
+          "ENTER:R2",
+          "ENTER:R0"
+        ],
+        [
+          "ENTER:R3",
+          "ENTER:R0"
+        ]
+      ]
+    }
+  }
+]
