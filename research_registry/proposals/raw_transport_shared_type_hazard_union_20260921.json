@@ -1,0 +1,106 @@
+{
+  "title": "Complete transport readings with a shared positive hazard relation on cargo types",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED. The same W/G/C terminal values may denote common cargo TYPES across the complete original f83r and added f50r readings, while each paragraph has its own physical individuals. If danger is stable for these types, every positively written PAIR/COPY edge constrains both paragraphs wherever BOTH endpoint types are locally introduced. The existing FULL15 witness supplies a concrete bidirectional countercase: original C-G danger invalidates its S04/S26 states, while added G-W danger invalidates the original first voyage. No new test has been run; old paragraph-local positives remain unchanged.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source_bindings": [
+    {
+      "path": "experiments/yolo/gdt1011_transport_factored_layout_meanings/REPORT.md",
+      "sha256": "03d4dcdf3bff7e664be0cccbb678e839b516abf71661e047d4e2b47b2ce81005"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/REPORT.md",
+      "sha256": "095a69fd7c8bb0e02336bb727ae3162da94f82c875ff29816593d9b6c204c06b"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/src/world.py",
+      "sha256": "6215d453b699bc8d32a6d8d58bec050e9461b23c99aca86d3fe47b28d928cbd5"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/src/common.py",
+      "sha256": "27e017cee97d9ebf31b7d3d906aaa363bd60af6866f6eb90e0495739cb033318"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/artifacts/ROWS.json",
+      "sha256": "5c919b674b77e955fbce4522c334297ea3560eaad6656fe22b7097620088b3d3"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/artifacts/PANEL.json",
+      "sha256": "645541f6861d9121e662f4f01de175164e1ba0351e156ef7ab9dfcb7057330a6"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/artifacts/ORIGINAL_CANDIDATES.json",
+      "sha256": "007fa5b93353f9d32b41a1ab2e33688411160d1eb6fce31f1d3d3d559e906e5d"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/SPEC.json",
+      "sha256": "d452ad3b4f8ec9b49de3f4a638e5eac377cb10f32a50981e9989135af1d416dc"
+    },
+    {
+      "path": "research_registry/proposals/raw_global_transport_safety.json",
+      "sha256": "37603fbd5b386bacab1c4b9656fad5ca73edf16ac2b90855e41615b4a690d2ca"
+    }
+  ],
+  "retained_scope": {
+    "complete_population": "All 36 retained original dictionaries and all 156 original dictionary/settings, paired separately with each complete ZL3b93-group and IT2a89-group f50r.1-10 paragraph: the existing GDT1013 population of312 member cases in20 complete-content classes. All original63groups, all addedgroups, all17grammar constructions and all references, movements, local participant inventories and final goals stay represented.",
+    "reader_rule": "ZL3b and IT2a are alternate readings of one physical paragraph. Form each original-plus-one-reader pair separately. Do not union hazard assertions from rival ZL/IT decodings into an extra third narrative.",
+    "predecessor_contract": "GDT1013 enforced each paragraph safely under its own complete PAIR/COPY-derived hazard set. The code in src/world.py creates causes for the paragraph supplied to build(), then fixes each hazard Boolean to the OR of that paragraph's causes. GDT1013's phrase global hazard pairs is global over the full single narrative, not already this cross-paragraph type-stability constraint.",
+    "remaining_freedom": "Old full dictionaries and their valid settings remain fixed. In a later selected full search, the same existing new whole-form alias variables and complete grammar may still range over their original domains. A failed saved witness is not an exclusion of all alternative extension dictionaries/parses.",
+    "source_limit": "Retain the uncertain original ZL seam and the existing f50r source uncertainty. No source normalization, new boundary, new passage or independent witness is introduced."
+  },
+  "new_assumptions": [
+    "W/G/C are shared cargo TYPES under the shared dictionary, not merely unrelated local role labels. The specimens in different paragraphs are distinct physical individuals. Each paragraph keeps its own agent, vehicle, shores, states and event history.",
+    "An undirected danger assertion is intrinsic or otherwise stable for this pair of cargo types across these two narratives. It does not depend on unrepresented training, enclosure, amounts, species instance, location, purpose or other paragraph context. Shared word values alone do not establish this assumption.",
+    "PAIR and COPY retain their existing explicit positive danger meaning and ordered local reference resolution. They do not merely describe one situational episode. Missing PAIR/COPY assertions do not assert safety.",
+    "The existing monosemous code and reference setting provide the proposed type alignment. No additional independent per-paragraph permutation is allowed after inspecting outcomes; consistent simultaneous cargo renaming remains a symmetry."
+  ],
+  "shared_content_operation": {
+    "inputs": "For each complete paragraph p: introduced local cargo-type set C_p, its locally resolved positive unordered edges H_p from every PAIR/COPY clause, and every existing world state s_p,t. Resolve FIRST_CARGO, OTHER_CARGO and COPY inside their original paragraph using the frozen setting before type-level projection. No reference crosses paragraphs.",
+    "constructor": "H_req = H_original UNION H_added. For each p, derive H_req,p = {{a,b} in H_req : a in C_p AND b in C_p}. Every existing state s_p,t must satisfy NOT(loc_p,t(a)=loc_p,t(b) AND loc_p,t(a)!=loc_p,t(agent)) for every edge in H_req,p.",
+    "local_introduction": "C_p is exactly the existing paragraph model's actually introduced cargo inventory, recovered from its written literal cargo introductions and existing reference contract. A mere foreign edge does not introduce either endpoint. In particular, an added two-cargo paragraph does not acquire a third object because the original uses three. The rule must gate foreign edges on BOTH local endpoint types.",
+    "positive_open_world_scope": "H_req is the lower bound supplied by all positive assertions, not a declaration that every other pair is safe. No hidden hazard choices or negative assertions are fitted. Passing this lower-bound check means that no written positive hazard contradicts a state under type stability; it does not establish safety of unasserted pairs in an unknown fuller world.",
+    "exact_bidirectionality": "Apply original-to-added edges and added-to-original edges, through the same union and the same all-state rule. Neither direction may be omitted after outcomes. Keep every locally asserted edge and all local safety checks.",
+    "new_freedom_count": "Zero new lexical values, zero new grammar productions, zero new cargo types, zero free hazard bits, zero fitted thresholds and zero per-occurrence exceptions. H_req has at most three unordered pairs and is determined by the two full readings. The new semantic commitments are shared type identity and context-independent positive danger. Existing71/75new aliases per added reading and the existing parse/reference choices remain substantial free capacity.",
+    "why_beyond_wrapper_law": "This relates the content of distinct complete assertions and their derived world consequences. It does not constrain the spelling, prefix/suffix function table or mere frequency of any word."
+  },
+  "actual_reused_inputs_and_competing_outputs": [
+    {
+      "cell": "Danger({C,G}) with the same type pair reused in two paragraphs",
+      "owner": "GDT1011 full original census fixes qokedy as the central cargo of both original danger pairs. In GDT1013 FULL15 canonical code qokedy=C, so the corresponding original graph is {C-W,C-G}.",
+      "added_state": "FULL15 primary saved successful path, S04 after transporting W: M=R,B=R,C=L,G=L,W=R. The same C/G configuration is repeated on the opposite bank at S26: M=L,B=L,C=R,G=R,W=L.",
+      "old_output": "The saved added world is safe under its own H_added={C-W,G-W}. It makes no positive C-G danger assertion.",
+      "new_prediction": "The original positive C-G edge must be applied at both added states, making them unsafe under the new stable-type assumption. This uses one imported relation twice without adding a new movement or participant."
+    },
+    {
+      "cell": "Danger({G,W}) with the same type pair reused in the opposite paragraph direction",
+      "owner": "FULL15 explicit PAIR at zero-based groups[49,55): C PAIRED_WITH UNATTENDED W WOULD_BE UNSAFE; COPY at[56,58): LIKEWISE OTHER_CARGO. Its frozen copy=FIRST and other=OTHER setting resolves OTHER_CARGO=G atS32, so the positive added edges are {C-W,G-W}.",
+      "original_state": "The corresponding original three-cargo graph is {C-W,C-G}. Its complete safe route first carries central C, leaving G and W together on the departure shore with the agent opposite. This first-load consequence follows from the retained initial co-location and one-cargo capacity as well as the original complete reading.",
+      "old_output": "That original state is safe under its own two positively stated edges.",
+      "new_prediction": "The added positive G-W edge must also govern the original state, making it unsafe. Applying only original-to-added constraints would miss this second consequence."
+    }
+  ],
+  "known_countercases_and_limits": {
+    "strongest_saved_case": "FULL15/primary is a complete3cargo,11voyage,2hazard positive under the original contract. Its hazard center is W while original qokedy=C is central. The union is the complete three-edge triangle, so with all three cargos initially together and capacity one, any first voyage leaves a hazardous pair behind. FULL15 is retained as a known countercase to this added conjunction; no cargo relabeling local to one paragraph, edge deletion, hidden supervisor or rewritten assertion rescues it.",
+    "exposure": "Both FULL15 and original-centrality results were read before this proposal. Their contradictions are disclosed motivating examples, not a blinded confirmation or an exhaustive new result. No new search or replay was executed for this card.",
+    "most_serious_semantic_rival": "The same cargo word can name a shared type while danger remains contextual, or a cargo terminal can be a local problem role instead of a stable type. Under either rival, paragraph-local hazard graphs are appropriate and FULL15 remains coherent. A smaller candidate set under this law would be conditional on the new semantic assumptions, not independent evidence against the rival.",
+    "nonseparation_risk": "Many saved added worlds assert zero or one hazard, and the71/75new aliases can alter a future complete parse. The minimal union may therefore leave every original class satisfiable. The19zero-edge witnesses cannot be discarded because missing assertions are not contrary safety claims; their full traces must be checked against imported original edges when both types occur.",
+    "symmetry_and_scope": "All six simultaneous cargo-name permutations remain equivalent. No wolf/goat/cabbage identification follows. The graph-center role in one narrative is not automatically a universal name; only this new type-stability hypothesis links the roles.",
+    "prior_work": "IDEA000349 proposed complete transport semantics with global safety inside narratives but nominated no full target/writer. GDT1013 supplied the complete paired target readings but kept separately derived paragraph hazard sets. This card adds exactly their cross-paragraph positive type-relation consequence; it does not reopen the source-only card as if it had already tested this law.",
+    "meaning_ceiling": "Confirmed words remain0. All values and type bindings are hypothetical. A coherent shared graph does not identify manuscript entities or establish a historical transport subject."
+  },
+  "smallest_decision_changing_test": {
+    "first": "If root selects the candidate, freeze the union/type/local-introduction contract and inspect the existing complete retained worlds. Produce explicit assertion provenance and state counterexamples in both directions for every saved witness, including two-cargo cases. This checks implementation and proposal coherence, not complete candidate exclusion.",
+    "gate": "Only after preserving the known FULL15 countercase and validating both directions, consider a registered complete search over the unchanged36dictionaries/156settings and both f50r readings. Reuse the existing content-class symmetries only after showing the new law preserves their lifting; otherwise retain all312member obligations. Do not silently use the20class reduction without this check.",
+    "minimal_full_integration": "Original H_original is fixed for each old dictionary/setting. Constrain every added state by its original positive edges whose endpoints are introduced locally; constrain every candidate added positive edge by every complete original state where both endpoints occur. Preserve all existing local clauses and final goals. A direct original-state conflict can forbid that added edge without an additional lexical mechanism. Use an independent trace-level union checker to validate positives.",
+    "decision_map": {
+      "all_original_classes_still_have_complete_extensions": "Close this type-stability strengthening as nonseparating within the exposed model; retain its complete positive witnesses and do not add further edge laws automatically.",
+      "proper_nonempty_subset_of_original_classes_survives": "Record a conditional reduction attributable specifically to shared positive type-danger. Publish exact conflicting edges/states for exclusions, retaining SAT/UNSAT/UNKNOWN separately. No word translation claim.",
+      "no_complete_pair_survives": "Reject the conjunction of existing transport readings and this new type-stable danger hypothesis on the fixed two-paragraph scope. Do not retroactively invalidate GDT1013's paragraph-local worlds.",
+      "only_saved_witnesses_fail_or_search_is_unknown": "Retain the limited witness result; do not infer full candidate exclusions."
+    },
+    "budget_minutes": 60,
+    "budget_scope": "Inclusive preparation, registration, a small content-law integration, independent full trace validation and publication; no general decoder or extra corpus. Root owns experiment selection."
+  },
+  "duplicate_review": "Bounded ideas search for global hazard graph across paragraphs; ideas duplicates shared hazard graph across paragraphs cargo identity open world union; route-check shared hazard relation cargo types cross paragraph union. Returned raw349,475 and older transport/translation cards were distinguished using exact349proposal,993SPEC,1011report and1013report/world/common plus the FULL15 saved trace. Lexical search does not prove novelty. No GDT1016files or results were inspected.",
+  "access": "Proposal and ideas registry only. No experiment, tests, route, ledger, metadata refresh, new target/image, reserved material, f84/f84r/f116v or external contact. No historical source substituted. Original source and result bytes remain unchanged."
+}
