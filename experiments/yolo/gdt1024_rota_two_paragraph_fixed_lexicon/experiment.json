@@ -1,0 +1,213 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Two projected paragraphs only; 18 new guesses and six fitted productions; four raw ZL gaps, IT conflict, no independent meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/validate.py"
+  },
+  "created": "2026-09-21",
+  "dependencies": [
+    "GDT928",
+    "GDT940",
+    "GDT947",
+    "GDT970",
+    "GDT1022"
+  ],
+  "experiment_id": "GDT1024",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/raw_f83r_rota_complete_persistent_voices_20260921.json",
+      "sha256": "4b5439d8bcdb44a6ee28607cf57318aef7c157fae045a67665737b40c217b99d",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/proposals/raw_f83r_rota_entry_instructions.json",
+      "sha256": "969790fd6760d4073aa2a565b366256834342b660e0ad4f1cf58438c6ff67791",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/P12/READING_L1.md",
+      "sha256": "806658aff934443495fc923fa12a272d44d8af6fd602013d247c66571944ed09",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/ROTA_SOURCE_EVENTS.md",
+      "sha256": "6c6b13a4b0e957573e8a7159817be4feb7eddce3f8fd7144b86e014874205b10",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/ROTA_SOURCE_EVENTS.json",
+      "sha256": "3923d12c26de3d309bef06cfbd1732985ae8d5ba133adc21f1633ff56fb8f34a",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt970_rota_whole_part_conjugacy/REPORT.md",
+      "sha256": "f774644bff7de1fc2b8baa58410000d1ccdf0d9a03ab701c7049cfc680db0703",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt947_ol_content_reference_direction/REPORT.md",
+      "sha256": "9f5b872a56f64624b18098a3673334365ec24cd4ebd251230abc85ed8eb3d74c",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/proposals/raw_f83r_rota_second_paragraph_frozen53_20260921.json",
+      "sha256": "e7337a22488c9e54c4065352a1f850c9d74c761389f8abb70fcf32a571ac0fe9",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1022_rota_complete_persistent_performance/src/model.py",
+      "sha256": "c1ef03a99a53e6ebb765fe950664c199f7c95efc9e22b2b83d8ea16da691cd12",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1022_rota_complete_persistent_performance/src/independent.py",
+      "sha256": "28e3265b7a97eca312ab1ffaa66bd9d00f6f3a4c8cfe56bd9567b30c2db2cd19",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1022_rota_complete_persistent_performance/src/SOURCE.json",
+      "sha256": "4b5439d8bcdb44a6ee28607cf57318aef7c157fae045a67665737b40c217b99d",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1022_rota_complete_persistent_performance/artifacts/GRAPHS.json",
+      "sha256": "c0061614fc0c8fe98a7d842f3ca5db349f80046baaa4645d95d1e24815bdc93b",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1022_rota_complete_persistent_performance/artifacts/PERFORMANCES.json",
+      "sha256": "75628ce80360df8baea9d66ee713c862c2dce666ec0ae12cdfde9dd1e294b7c9",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md",
+      "sha256": "af70413e08e7e0cbe2fe40a838be336b8a1d7f6544c14412b77bcb7202719563",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1022_rota_complete_persistent_performance/PREREG_LOCK.json",
+      "sha256": "8cc4337f03d3bade3906649658b2a65a351fb7a2b42cba611940efaf78f6ed0b",
+      "role": "fixed_input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/DECISION.md",
+      "sha256": "6a33d7a8b2a92e396ff2dfbe6c3e793a02658b799c6b55eb3ba1db55156a2599",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/METHOD.md",
+      "sha256": "03a1beb6fd564462bcaee221b6caadd9cf53970a2951fade8c8db648d7848089",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/PREREGISTRATION.md",
+      "sha256": "9991fe0354923522656f8e7d7b0d299ef1b6aaa0f9ad4ced7927474a415ff5e6",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/PREREG_LOCK.json",
+      "sha256": "2d90fc27190e643ba34af6622113074a8ad841df937f4ff33a8c617b02464076",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/README.md",
+      "sha256": "96357b8780f1c05c13736c388b3b64654bc3d29a8f8e84f453a27beade358587",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/REPORT.md",
+      "sha256": "a91f15bbfa383000364a6bfdc45b17100b57afd911c9e6157beefeb52ea1b129",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/artifacts/PREDICTIONS.tsv",
+      "sha256": "a5281edfe924aef4623a55d72ccf44091fbe1e46d4734564f37ca0f1ed7c4ee7",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/artifacts/PREFLIGHT.json",
+      "sha256": "a54783e02b9d7795c3c5c2e7c6c4251fa6dbd9995b2e498db3d9c88942fdd601",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/artifacts/SOURCE_SCOPE_AUDIT.json",
+      "sha256": "93f7fd4901241641ad73158a0838ff96379b9a90da53eccea28bd38a72d42993",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/SOURCE.json",
+      "sha256": "e7337a22488c9e54c4065352a1f850c9d74c761389f8abb70fcf32a571ac0fe9",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/SPEC.json",
+      "sha256": "9f6e046b2705f243e1dc245945507d28545f0fa526fc2883135ff728ffeb9e23",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/bind.py",
+      "sha256": "e88a690c6d447329ce2c11c4447023b566d68c169157383a10b2ea4b15810970",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/common.py",
+      "sha256": "d5566a7787ad41c92147741c0fa4378e63c474b146df3c259f2151af9fc89468",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/independent.py",
+      "sha256": "5e381c323dee391ece359f9f7006fdc65767bbc2de199c2c659ffa0bbe80a656",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/model.py",
+      "sha256": "c72fa14d14c100a4cba4cb0c223ba7887a1002e6f2354c2cf9c870c5a970835e",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/preflight.py",
+      "sha256": "811b1c2de530051aa861107dbf4b69c52eb4dba93a4fd4c92128881d3cdf4104",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/run.py",
+      "sha256": "3211ae698adcdf001514e85d94fe7e905e7da3bee4b0adee8e25e31422fcefc7",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/src/validate.py",
+      "sha256": "c0bdffcc3238ebcec05a3d6609995de2e38f370084af388934e133bca57a1655",
+      "role": "source_or_artifact"
+    }
+  ],
+  "question": "Can a complete second projected paragraph retain all 53 music meanings and constrain the same full performances without duplicate entry, role merger or phase reset?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "rota_two_paragraph_fixed_lexicon",
+  "status": "REGISTERED_UNSCORED",
+  "title": "rota two paragraph fixed lexicon",
+  "updated": "2026-09-21",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

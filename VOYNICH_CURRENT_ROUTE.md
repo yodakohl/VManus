@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Review fixed-music-vocabulary extension after full amulet execution.
-Latest decision: GDT1023 both full amulet branches coherent; 71 guesses, three raw gaps remain.
-Working files: experiments/yolo/gdt1023_amulet_complete_typed_assembly/REPORT.md
-Assumptions: No semantic confirmation; complete hypotheses still use many new guessed words.
-Resume: Publish 1023; review IDEA000487 fixed53 music extension before selection.
-Running: root publication/review; bounded_semantic_route drafts fixed-unweaving extension; end 11:11:33 UTC.
+Task: GDT1024 two complete paragraphs with all53 music meanings fixed.
+Latest decision: GDT1023 both amulet variants coherent; 71 guessed meanings remain.
+Working files: experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/DECISION.md
+Assumptions: Six old types reused; 18 new guesses, six constructions; four ZL gaps, IT conflict.
+Resume: Register1024 then constrain all12 complete old performances; inclusive budget05:40 UTC.
+Running: root1024; bounded_semantic_route drafts crossleaf fixed-music extension; end11:11:33 UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
