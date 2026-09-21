@@ -1,15 +1,15 @@
 # Voynich current route
-Updated: 2026-09-20. This is the sole live resume point; replace, never append history.
+Updated: 2026-09-21. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: Ten-hour block closing at22:52:35UTC;1011/1012results published.
-Latest decision: 36original codes/sixclasses;qokedycentral;f50open;bank test nonseparating.
-Working files: experiments/yolo/gdt1012_transport_necessary_bank_sequence/FULL_CONTENT_FOLLOWUP.md
-Assumptions: 0words;f50only4old positions,75/71new types;433not selected;1003short-only.
-Resume: Assess/register20full-content cases withPAIR/COPY/RECENT;not another weak projection.
-Running: No solver or agent;20inputs prepared,zero full-content queries;reserves closed.
+Phase: fixed_test
+Status: active
+Task: GDT1013full content on20classes covering312original-setting/f50rcases.
+Latest decision: Preflight1152cases agrees;36original codes/sixclasses retained;f50open.
+Working files: experiments/yolo/gdt1013_transport_complete_long_worlds/DECISION.md
+Assumptions: 0words;f50only4old positions,75/71newtypes;fullPAIR/COPY/RECENT,unchanged source.
+Resume: Publish1013prereg;run20full cases;validate/lift every witness;publish all decisions.
+Running: No target solve yet;inclusive checkpoint01:32UTC;source producer finished3duplicates.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
