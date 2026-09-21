@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Publish GDT1026; review producer's distinct complete amulet extension.
-Latest decision: Music150groups/71old values fixed;18types reused; positive8contra,4vacuous.
-Working files: experiments/yolo/gdt1026_rota_crossleaf_frozen_meanings/REPORT.md
-Assumptions: 20new values/11clauses/10bindings; IT sar and lolsaiiin conflicts;0words/meaning.
-Resume: Close1026; then inspect completed f108r.45-47 proposal before selecting a new test.
-Running: root publication; bounded_semantic_route drafts alternative by06:00; end11:11:33UTC.
+Task: Seek full additional content beyond already implied music/amulet consequences.
+Latest decision: GDT1026 crossleaf conditional reading retained; RAW492 complete but not test-selected.
+Working files: research_registry/work_batches/ten_hours_20260915/F108R_AMULET_COMMENTARY_REVIEW_20260921.md
+Assumptions: RAW492 adds17values/4clauses/11bindings, no new physical consequence;0words.
+Resume: Publish492 review; then review producer's new-content alternatives and exact primary sources.
+Running: root492 publication/source review; bounded_semantic_route drafts by06:25; end11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
