@@ -1,0 +1,173 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional fixed-witness instruction adequacy; no full extension-space exclusion, independent meaning or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/validate.py"
+  },
+  "created": "2026-09-21",
+  "dependencies": [
+    "GDT993",
+    "GDT994",
+    "GDT1006",
+    "GDT1011",
+    "GDT1013"
+  ],
+  "experiment_id": "GDT1018",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/SPEC.json",
+      "sha256": "d452ad3b4f8ec9b49de3f4a638e5eac377cb10f32a50981e9989135af1d416dc",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/model.py",
+      "sha256": "98fd7c5132f9b9d463596a1c31ac061f1f489b13b91f899e34753209298bd247",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1006_transport_unfixed_original_lexicon/src/bit_replay.py",
+      "sha256": "3bea4bfad296ad691eb54f20fcf7d248da180051126bcf18bebb1695a29754ae",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/src/validate.py",
+      "sha256": "8db70187d3de8507f6b79a0a529e71179dd33abdb5028670b58a29025b306a4b",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/artifacts/PREDICTIONS.json",
+      "sha256": "7acf2309cfb0002727dc29b062a0af3e93ad803558f2108da53d71a54f60ebde",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/artifacts/ORIGINAL_CANDIDATES.json",
+      "sha256": "007fa5b93353f9d32b41a1ab2e33688411160d1eb6fce31f1d3d3d559e906e5d",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/artifacts/ROWS.json",
+      "sha256": "5c919b674b77e955fbce4522c334297ea3560eaad6656fe22b7097620088b3d3",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/artifacts/INDEPENDENT.json",
+      "sha256": "420f0ae66c07152b1dca1f962aa80ccc986e8c92635f2ed2f19c27cfdb7c9425",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/artifacts/PANEL.json",
+      "sha256": "645541f6861d9121e662f4f01de175164e1ba0351e156ef7ab9dfcb7057330a6",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/proposals/raw_transport_sufficient_instruction_choices_20260921.json",
+      "sha256": "009361623d6d198abf1811532365bbb567c5edd381781e1fa30b97a078a1acf9",
+      "role": "fixed_input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/DECISION.md",
+      "sha256": "d5365ad75193f1776b1559bb219f7712cee98f35f8b2c7e6ec9e664eae30ab58",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/METHOD.md",
+      "sha256": "82d05c75109bca51a6cf858304c456be88fddc8f0755cacc85ce8377752005d9",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/PREREGISTRATION.md",
+      "sha256": "10b959a3a005e379b953458d7841aef67d5d9dac3623f9c4f1ee65f6de20686a",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/PREREG_LOCK.json",
+      "sha256": "e17c840d3e7c08ec834945eb28cedce5e2425e93ab23a9ba883c450c206f0aa1",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/README.md",
+      "sha256": "21694ec8486208cd895f99bc44b7e52648d776e54bb2d6d75190e5c0a671b68f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md",
+      "sha256": "b47a89c490f49ecc4672cc7a3d743a8fb512ce8ce625154da15acfd3f983257e",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/PREFLIGHT.json",
+      "sha256": "5df40613b749c2e95e1152a069c13ad9c554177cfb51210caf658ccd894b4595",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/SPEC.json",
+      "sha256": "aff8517af651d1a030c2d88096064f5b31f7e6051cfb72027b3390dd87f98492",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/bind.py",
+      "sha256": "d0d553202e23512bc9810349aaed09fcac72f6c3e982775fa8546de1d9cd1870",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/common.py",
+      "sha256": "6952c49b088f280c31f3caa0e4bf21b2f050efe21d672f6a8a35cad9910ce514",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/independent.py",
+      "sha256": "8014c0cedd215cc4d1ee0a928ae0feeb929e166d1f57c512318e8369219f0199",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/population.py",
+      "sha256": "e5d789a595528d51854b1220d7035b9774b461ce8ecb9e0a7f9a28aec87eaa84",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/preflight.py",
+      "sha256": "f45d8510cb50e4aed4a34be33c91f6f9c7c53c0a66447357c612053cb7d6ab2e",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/primary.py",
+      "sha256": "07ec7b76f1ec49d726c0fe75ce62a6cf2d40e0f09ff87fdc946adb1894538118",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/run.py",
+      "sha256": "097be172856f43ec366a618102e5555f5508161f7483646467c3ebc9cd6dd4a9",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/src/validate.py",
+      "sha256": "8c246df5cca1c8040b5557bfbe4b3817c0cdb1c39581d7c6df8e07553a9b510b",
+      "role": "source_or_artifact"
+    }
+  ],
+  "question": "Which complete saved transport readings give sufficient instructions under every locally safe permitted load choice?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "transport_sufficient_instruction_audit",
+  "status": "REGISTERED_UNSCORED",
+  "title": "transport sufficient instruction audit",
+  "updated": "2026-09-21",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

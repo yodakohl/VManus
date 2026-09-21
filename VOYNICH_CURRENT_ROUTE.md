@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Publish GDT1017;select a distinct content commitment after primary review.
-Latest decision: 1017all20classes312members positive;26/29oldmaps fail;37newmaps624pairedlifts verify.
-Working files: experiments/yolo/gdt1017_transport_shared_type_hazards/REPORT.md
-Assumptions: 0words;type-stable danger assumed;all36codes156settings survive;71–75newaliases.
-Resume: Publish1017;review existing RAW476sol/other proposals;no automatic hazard/wrapper tightening.
-Running: bounded_semantic_route bounded idea supply;root closure;session ends11:11:33UTC.
+Task: Register and execute GDT1018 complete saved-instruction audit.
+Latest decision: 1017published c703b88ac;all20classes312members retain shared-type hazards.
+Working files: experiments/yolo/gdt1018_transport_sufficient_instruction_audit/DECISION.md
+Assumptions: 0words;new all-safe-choice adequacy;47oldvalues fixed;no1016/17law inherited.
+Resume: Publish1018registration;check156originals29savedmaps492lifts;no new solver.
+Running: bounded_semantic_route source idea supply;root1018;04:10checkpoint;session ends11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

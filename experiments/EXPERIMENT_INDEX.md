@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1016**
-- Experiment-associated tracked files: **20,074** (1.9 GiB)
-- Structured GDT337+ experiments: **681**
+- Experiments indexed: **1017**
+- Experiment-associated tracked files: **20,092** (1.9 GiB)
+- Structured GDT337+ experiments: **682**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1018 | transport sufficient instruction audit | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md) | 18 | 128.8 KiB | 5 | STRUCTURED_YOLO |
 | GDT1017 | GDT1017 | `SUPPORTED_LIMITED_SHARED_TYPE_HAZARDS_NONSEPARATING` | [report](../experiments/yolo/gdt1017_transport_shared_type_hazards/REPORT.md) | 46 | 3.4 MiB | 7 | STRUCTURED_YOLO |
 | GDT1016 | GDT1016 | `REFUTED_PARTICIPANT_NEUTRAL_UNARY_WRAPPERS` | [report](../experiments/yolo/gdt1016_transport_name_blind_wrappers/REPORT.md) | 36 | 819.2 KiB | 8 | STRUCTURED_YOLO |
 | GDT1015 | GDT1015 | `SUPPORTED_LIMITED_NORMALIZED_WORKING_COPY` | [report](../experiments/yolo/gdt1015_coupled_hour_day_reading/SCOPE_CORRECTION.md) | 33 | 698.3 KiB | 5 | STRUCTURED_YOLO |
