@@ -1,0 +1,92 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory complete hypothetical reading and conditional consequence check only;no independently confirmed word,number,planet or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1015_coupled_hour_day_reading/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1015_coupled_hour_day_reading/src/validate.py"
+  },
+  "created": "2026-09-21",
+  "dependencies": [
+    "GDT608",
+    "GDT951",
+    "GDT1013",
+    "GDT1014"
+  ],
+  "experiment_id": "GDT1015",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/raw_f82r_hour_day_ruler_explanation.json",
+      "role": "fixed_input",
+      "sha256": "ff1c589c18325011780a6d66f48c4f4961c35b18471dae8f56bc26173f8c18ec"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/P28/READING_N2.md",
+      "role": "fixed_input",
+      "sha256": "fc72b0e39e9b4b7f1be48f75e6a13c119c857a4d6a02d3312ba4209baff4a3f1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/DECISION.md",
+      "role": "source_or_artifact",
+      "sha256": "8a4ec3e9d3c1f3489a9262e3d2528cfb6441386ae40c0fb315600ebbc7fbb5f2"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/EXPLORATORY_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "f4eac643ee40ff29e20070626a3874cfc96858b71e43c930f592023838d4bc00"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "cd02ce1bac2aff51e81da0598b6cd4a919e154584a59ebb9ba896048681e8a3e"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "a24be7a47d086a0c3f2f209f7fd752e6f378d229437411b16570fd35dbf67bb2"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/README.md",
+      "role": "source_or_artifact",
+      "sha256": "6a0de4c23d42a447871d6257b85e92a3377abe4fa9529989199926389f9455ac"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/src/SOURCE.json",
+      "role": "source_or_artifact",
+      "sha256": "0f153227137654abf67b5c7465ebe445fb31f7e1f52a883e6148afa8878ac076"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    }
+  ],
+  "question": "Can the complete80group f82r paragraph express two coupled hour/day derivations with one declared lexicon and explicit scope?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "coupled_hour_day_reading",
+  "status": "EXPLORATORY_REGISTERED_NOT_DRAFTED",
+  "title": "coupled hour day reading",
+  "updated": "2026-09-21",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1013**
-- Experiment-associated tracked files: **19,959** (1.9 GiB)
-- Structured GDT337+ experiments: **678**
+- Experiments indexed: **1014**
+- Experiment-associated tracked files: **19,969** (1.9 GiB)
+- Structured GDT337+ experiments: **679**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1015 | coupled hour day reading | `EXPLORATORY_REGISTERED_NOT_DRAFTED` | — | 10 | 13.7 KiB | 4 | STRUCTURED_YOLO |
 | GDT1014 | GDT1014 | `SUPPORTED_LIMITED_WRAPPER_WORLDS_NONSEPARATING` | [report](../experiments/yolo/gdt1014_semantic_wrapper_transport/REPORT.md) | 46 | 5.3 MiB | 12 | STRUCTURED_YOLO |
 | GDT1013 | GDT1013 | `SUPPORTED_LIMITED_COMPLETE_SHARED_WORLDS` | [report](../experiments/yolo/gdt1013_transport_complete_long_worlds/REPORT.md) | 41 | 7.2 MiB | 11 | STRUCTURED_YOLO |
 | GDT1012 | GDT1012 | `BANK_PROJECTION_NONSEPARATING` | [report](../experiments/yolo/gdt1012_transport_necessary_bank_sequence/REPORT.md) | 43 | 8.3 MiB | 11 | STRUCTURED_YOLO |

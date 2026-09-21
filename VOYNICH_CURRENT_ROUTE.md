@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour research01:11:33–11:11:33UTC;close1014,select distinct content commitment.
-Latest decision: 1014all52classes312cases retain worlds;freewrapper law separates none.
-Working files: experiments/yolo/gdt1014_semantic_wrapper_transport/REPORT.md
-Assumptions: 0words;71–75aliases;41–47functioncells only0–4reused;96maps576lifts verified.
-Resume: Publish1014;review source/complete-writing candidates with repeated predictions.
-Running: No solver;bounded source-only producer refines3of9new rawcards through02:10UTC.
+Task: GDT1015full80group f82r hour/day argument;preservefive RAW379hypotheses.
+Latest decision: 1014allcasespositivebutnonseparating;newcoupledcontentdraftnotyetcomplete.
+Working files: experiments/yolo/gdt1015_coupled_hour_day_reading/DECISION.md
+Assumptions: 0words;sourceH^24=H^3 not observedtarget;allnewglossesmustbeexplicit.
+Resume: Publish exploratoryscope;write complete80groupreading/rival,thenlockandcheck.
+Running: Source-only Dio37.18–19producer;rootdraft;03:10UTC checkpoint;sessionends11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
