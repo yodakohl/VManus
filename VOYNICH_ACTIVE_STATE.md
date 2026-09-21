@@ -1,6 +1,8 @@
 # Voynich active state — structural reset baseline
 
-NEXT SCOPE:1012post-result quotient prepares20complete-content inputs covering312original-setting/f50r cases;zero new queries.1003short-only world solver cannot coverlongPAIR/COPY/RECENT. IDEA433not selected: NEXTorder discriminator absent from fixed executor. [Scope](experiments/yolo/gdt1012_transport_necessary_bank_sequence/FULL_CONTENT_FOLLOWUP.md), [433review](research_registry/decisions/transport_curry_433_preflight_20260920.json).
+GDT1013 COMPLETE SHARED WORLDS: all20classes312original-setting/f50r cases positive;29witnesses492lifts verified by both frozen executors. Independent search9SAT11UNKNOWN. All36original codes156settings survive;71–75newaliases and17–39THENpositions pernewparagraph. Original qokedy centrality does not generalize to saved added hazards.0words/independent meaning. Existence question closed positively;no automatic sampling/state repair. [Report](experiments/yolo/gdt1013_transport_complete_long_worlds/REPORT.md).
+
+NEXT SCOPE: seek a distinct whole-composition or content-rival commitment after predecessor review; current transport existence fit does not select meanings. User ten-hour session2026-09-21 01:11:33–11:11:33UTC. IDEA433not selected: NEXTorder discriminator absent from fixed executor. [433review](research_registry/decisions/transport_curry_433_preflight_20260920.json).
 
 GDT1012 BANK PROJECTION NONSEPARATING: all72cases SAT independently;all144saved full maps fail. Neitherf50reader space closed. The36original codes form6cargo-renamingclasses with full German paragraph renderings;0words. No automatic added-state/sample loop. [Report](experiments/yolo/gdt1012_transport_necessary_bank_sequence/REPORT.md).
 
