@@ -23885,3 +23885,5 @@ GDT1021: both complete 23-group graft accounts coherent; summer split permission
 GDT1022: complete 62-group projected music account coherent in all 12 cases, all four rhythm branches retained; startup/cue/pause/persistent clocks verified. 53 guessed values, 14 fitted productions, 4 external score referents, 2 ZL forms unbound; 0 words. [Full account](experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md).
 
 GDT1023: both complete projected amulet branches coherent, image/material and quoted/executed enclosure preserved; all ten diagnostic outcomes match. 71 guessed values, nine fitted productions, three raw ZL forms unbound; 0 words. [Whole account](experiments/yolo/gdt1023_amulet_complete_typed_assembly/REPORT.md).
+
+GDT1024: two complete projected music paragraphs jointly coherent in12cases without changing53old meanings; actual reuse six types/nine positions,18new guesses. Four ZL gaps and fixed IT solchedy conflict remain;0words. [Joint result](experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/REPORT.md).

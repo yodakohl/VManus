@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1023**
-- Experiment-associated tracked files: **20,296** (1.9 GiB)
+- Experiment-associated tracked files: **20,309** (1.9 GiB)
 - Structured GDT337+ experiments: **688**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1024 | rota two paragraph fixed lexicon | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/REPORT.md) | 20 | 132.5 KiB | 5 | STRUCTURED_YOLO |
+| GDT1024 | GDT1024 | `SUPPORTED_LIMITED_TWO_PROJECTED_PARAGRAPHS_FIXED53` | [report](../experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/REPORT.md) | 33 | 349.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT1023 | GDT1023 | `SUPPORTED_LIMITED_COMPLETE_PROJECTED_AMULET_ACCOUNT` | [report](../experiments/yolo/gdt1023_amulet_complete_typed_assembly/REPORT.md) | 31 | 404.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT1022 | GDT1022 | `SUPPORTED_LIMITED_COMPLETE_PROJECTED_ROTA_ACCOUNT` | [report](../experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md) | 33 | 3.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT1021 | GDT1021 | `SUPPORTED_LIMITED_TWO_SCOPED_GRAFT_READINGS` | [report](../experiments/yolo/gdt1021_graft_complete_scoped_instructions/REPORT.md) | 32 | 185.5 KiB | 5 | STRUCTURED_YOLO |

@@ -1,0 +1,3116 @@
+[
+  {
+    "n": 2,
+    "mode": "BASELINE",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1"
+      ],
+      "silent_at_initial": [
+        "R1"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=2"
+  },
+  {
+    "n": 2,
+    "mode": "COMPANIONS_AS_PES",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "U",
+        "L"
+      ],
+      "silent_at_initial": [
+        "R1"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "L"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=2"
+  },
+  {
+    "n": 2,
+    "mode": "EVERY_MENTION_EXECUTES",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1"
+      ],
+      "silent_at_initial": [
+        "R1"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=2"
+  },
+  {
+    "n": 2,
+    "mode": "DUPLICATE_PES_CURSOR",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:U:P1"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "U"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1"
+      ],
+      "silent_at_initial": [
+        "R1"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=2"
+  },
+  {
+    "n": 2,
+    "mode": "CO_ONSET_EVERY_MAIN_CYCLE",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1"
+      ],
+      "silent_at_initial": [
+        "R1"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=2"
+  },
+  {
+    "n": 3,
+    "mode": "BASELINE",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1",
+          "R2"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=3"
+  },
+  {
+    "n": 3,
+    "mode": "COMPANIONS_AS_PES",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "U",
+        "L"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "L"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=3"
+  },
+  {
+    "n": 3,
+    "mode": "EVERY_MENTION_EXECUTES",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1",
+          "R2"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=3"
+  },
+  {
+    "n": 3,
+    "mode": "DUPLICATE_PES_CURSOR",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:U:P1"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "U"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1",
+          "R2"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=3"
+  },
+  {
+    "n": 3,
+    "mode": "CO_ONSET_EVERY_MAIN_CYCLE",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1",
+          "R2"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=3"
+  },
+  {
+    "n": 4,
+    "mode": "BASELINE",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "R3": "ENTER:R3",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1",
+          "R2",
+          "R3"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=4"
+  },
+  {
+    "n": 4,
+    "mode": "COMPANIONS_AS_PES",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "R3": "ENTER:R3",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "U",
+        "L"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "L"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=4"
+  },
+  {
+    "n": 4,
+    "mode": "EVERY_MENTION_EXECUTES",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "R3": "ENTER:R3",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1",
+          "R2",
+          "R3"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=4"
+  },
+  {
+    "n": 4,
+    "mode": "DUPLICATE_PES_CURSOR",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "R3": "ENTER:R3",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:U:P1"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "U"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1",
+          "R2",
+          "R3"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=4"
+  },
+  {
+    "n": 4,
+    "mode": "CO_ONSET_EVERY_MAIN_CYCLE",
+    "new_graph": {
+      "clauses": [
+        {
+          "id": "D01",
+          "production": "TimedCoEntry",
+          "start": 0,
+          "end": 6,
+          "tags": [
+            "INITIAL_ONSET",
+            "AT_TIME",
+            "SOLE_STARTER",
+            "CO_ONSET",
+            "ENTER",
+            "BEGIN_BOTH_PES"
+          ]
+        },
+        {
+          "id": "D02",
+          "production": "InitialIdentityAndSilence",
+          "start": 6,
+          "end": 12,
+          "tags": [
+            "INITIAL_RULE",
+            "SOLE_STARTER",
+            "OTHERS_SILENT",
+            "IDENTICAL_ROLE",
+            "LEADER",
+            "SAME_PERFORMANCE_REFERENCE"
+          ]
+        },
+        {
+          "id": "D03",
+          "production": "ReiteratedEntryAndPesEnumeration",
+          "start": 12,
+          "end": 17,
+          "tags": [
+            "RESTATE_SAME_STARTER",
+            "ENTER",
+            "INITIAL_ONSET",
+            "START_NEXT_PES",
+            "START_NEXT_PES"
+          ]
+        },
+        {
+          "id": "D04",
+          "production": "UpperPartStartAndPersistence",
+          "start": 17,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "TERMINAL_REST",
+            "FIRST_PART_START",
+            "CO_ONSET",
+            "LEADER",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D05",
+          "production": "LowerPartRestAndPersistence",
+          "start": 23,
+          "end": 28,
+          "tags": [
+            "LOWER_PES_REFERENCE",
+            "INTERNAL_REST",
+            "WITHOUT_TERMINAL_REST",
+            "IMMEDIATE_CYCLE_RESTART",
+            "PRESERVE_OWN_CYCLE"
+          ]
+        },
+        {
+          "id": "D06",
+          "production": "DistinctGroupsAtStartup",
+          "start": 28,
+          "end": 33,
+          "tags": [
+            "PES",
+            "COMPANIONS",
+            "INITIAL_ONSET",
+            "OTHERS_SILENT",
+            "DISTINCT_GROUPS"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal",
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy",
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy",
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy",
+        "salchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy",
+        "s",
+        "okeedy",
+        "qokeedy",
+        "qoky",
+        "saii"
+      ],
+      "case_binding": "next explicit ROTA: f83r.31",
+      "parent_roles": {
+        "rota": [
+          "R0",
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "pes": [
+          "U",
+          "L"
+        ],
+        "leader": "R0"
+      },
+      "sole_starter": "R0",
+      "event_bank": {
+        "R0": "ENTER:R0",
+        "R1": "ENTER:R1",
+        "R2": "ENTER:R2",
+        "R3": "ENTER:R3",
+        "U": "FIRST_PART_START:U:P1",
+        "L": "FIRST_PART_START:L:P2"
+      },
+      "onset_declarations": [
+        {
+          "clause": "D01",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "INITIAL"
+        },
+        {
+          "clause": "D03",
+          "events": [
+            "ENTER:R0",
+            "FIRST_PART_START:U:P1",
+            "FIRST_PART_START:L:P2"
+          ],
+          "kind": "RESTATE"
+        }
+      ],
+      "pes_enumeration": [
+        "U",
+        "L"
+      ],
+      "cursor_final": 2,
+      "upper": "U",
+      "lower": "L",
+      "companions": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "silent_at_initial": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "co_onset_pairs": [
+        [
+          "R0",
+          "U",
+          "L"
+        ],
+        [
+          "U",
+          "R0"
+        ]
+      ],
+      "preserve_cycles": [
+        "U",
+        "L"
+      ],
+      "group_disjoint": [
+        [
+          "U",
+          "L"
+        ],
+        [
+          "R0",
+          "R1",
+          "R2",
+          "R3"
+        ]
+      ]
+    },
+    "parent_graph_reference": "GDT1022/artifacts/GRAPHS.json n=4"
+  }
+]

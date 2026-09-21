@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1024 two complete paragraphs with all53 music meanings fixed.
-Latest decision: GDT1023 both amulet variants coherent; 71 guessed meanings remain.
-Working files: experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/DECISION.md
-Assumptions: Six old types reused; 18 new guesses, six constructions; four ZL gaps, IT conflict.
-Resume: Register1024 then constrain all12 complete old performances; inclusive budget05:40 UTC.
-Running: root1024; bounded_semantic_route drafts crossleaf fixed-music extension; end11:11:33 UTC.
+Task: Review second complete unweaving context and crossleaf music binding gaps.
+Latest decision: GDT1024 joint95group music account coherent; six old types reused, IT conflict remains.
+Working files: experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/REPORT.md
+Assumptions: All71 music values guessed; same-leaf reuse, four ZL gaps; no independent meaning.
+Resume: Publish1024; review IDEA000488 whole unweaving extension before selection.
+Running: root publication/review; bounded_semantic_route supplies crossleaf music contexts; end11:11:33 UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
