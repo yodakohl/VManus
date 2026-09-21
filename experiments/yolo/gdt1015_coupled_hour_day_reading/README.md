@@ -1,5 +1,8 @@
-# GDT1015: coupled hours and days, exploratory draft
+# GDT1015 complete hour/day hypothetical reading
 
-[Decision](DECISION.md), [exploratory registration](PREREGISTRATION.md),
-[complete fixed source](src/SOURCE.json). No complete draft or target result yet.
-0confirmedwords;all80groupspreviouslyexposed;f84/f84rsealed.
+Full exploratory v01 draft and seven candidates frozen before execution.
+See READING_v01.md, MODEL_v01.json and TEST_CONTRACT.md. No confirmed word.
+
+Run: `python3 experiments/yolo/gdt1015_coupled_hour_day_reading/src/run.py`
+
+Validate: `python3 experiments/yolo/gdt1015_coupled_hour_day_reading/src/validate.py`
