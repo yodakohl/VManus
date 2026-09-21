@@ -1,0 +1,1253 @@
+{
+  "title": "Euclid I.5 complete two-SAS and subtraction constructor: capacity preflight",
+  "summary": "RAW_UNREVIEWED complete I.5 constructor: 395 atoms/39 types passes the two word-capacity bounds on fixed80-group f82r block. The inherited globally distinct-code writer requires at least417 characters on its17-character alphabet, exceeding408; no target fit or repair.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "url": "https://www.euclids-elements.org/elements/books/bookI/propositions/propI5/",
+    "predecessor": "research_registry/proposals/raw_euclid_i5_angle_pair_constructor_20260920.json",
+    "predecessor_sha256": "53a11a80dccc9c33ba831025233793b4e106569e85e931a69f6056eb33af6c40",
+    "reviewed": "2026-09-21; primary proposition statement/proof only; editorial guide not inherited as source evidence.",
+    "source_coverage": "Initial general theorem, given triangle and two extensions, repeated goal, arbitraryF, equal cutAG, both joins, side correspondences/common angle, firstSAS and all its stated projections, segment subtraction, repeated equal sides/commonBC, secondSAS and projections, angle subtraction, inner/outer locations, repeated general conclusion."
+  },
+  "target": {
+    "file": "experiments/yolo/gdt1015_coupled_hour_day_reading/src/SOURCE.json",
+    "sha256": "0f153227137654abf67b5c7465ebe445fb31f7e1f52a883e6148afa8878ac076",
+    "scope": "Unchanged supplied f82r.11-19 complete80-group working block; diplomatic source/seam verification still belongs to root.",
+    "group_count": 80,
+    "distinct_types": 60,
+    "characters": 408,
+    "no_old_glosses": true
+  },
+  "program": {
+    "ast": [
+      "SEQ31",
+      [
+        "STATE",
+        [
+          "IMPLIES",
+          [
+            "AND",
+            [
+              "NONDEGENERATE",
+              [
+                "TRI",
+                "A",
+                "B",
+                "C"
+              ]
+            ],
+            [
+              "EQ",
+              [
+                "SEG",
+                "A",
+                "B"
+              ],
+              [
+                "SEG",
+                "A",
+                "C"
+              ]
+            ]
+          ],
+          [
+            "AND",
+            [
+              "EQ",
+              [
+                "ANG",
+                "A",
+                "B",
+                "C"
+              ],
+              [
+                "ANG",
+                "A",
+                "C",
+                "B"
+              ]
+            ],
+            [
+              "IMPLIES",
+              [
+                "AND",
+                [
+                  "EXTENDED",
+                  "A",
+                  "B",
+                  "D"
+                ],
+                [
+                  "EXTENDED",
+                  "A",
+                  "C",
+                  "E"
+                ]
+              ],
+              [
+                "EQ",
+                [
+                  "ANG",
+                  "C",
+                  "B",
+                  "D"
+                ],
+                [
+                  "ANG",
+                  "B",
+                  "C",
+                  "E"
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "GIVEN",
+        [
+          "AND",
+          [
+            "NONDEGENERATE",
+            [
+              "TRI",
+              "A",
+              "B",
+              "C"
+            ]
+          ],
+          [
+            "EQ",
+            [
+              "SEG",
+              "A",
+              "B"
+            ],
+            [
+              "SEG",
+              "A",
+              "C"
+            ]
+          ]
+        ]
+      ],
+      [
+        "EXTEND",
+        "A",
+        "B",
+        "D"
+      ],
+      [
+        "EXTEND",
+        "A",
+        "C",
+        "E"
+      ],
+      [
+        "GOAL",
+        [
+          "AND",
+          [
+            "EQ",
+            [
+              "ANG",
+              "A",
+              "B",
+              "C"
+            ],
+            [
+              "ANG",
+              "A",
+              "C",
+              "B"
+            ]
+          ],
+          [
+            "EQ",
+            [
+              "ANG",
+              "C",
+              "B",
+              "D"
+            ],
+            [
+              "ANG",
+              "B",
+              "C",
+              "E"
+            ]
+          ]
+        ]
+      ],
+      [
+        "CHOOSE_ON",
+        "F",
+        [
+          "SEG",
+          "B",
+          "D"
+        ]
+      ],
+      [
+        "CUT_EQUAL",
+        "G",
+        [
+          "SEG",
+          "A",
+          "E"
+        ],
+        [
+          "SEG",
+          "A",
+          "F"
+        ]
+      ],
+      [
+        "JOIN",
+        "F",
+        "C"
+      ],
+      [
+        "JOIN",
+        "G",
+        "B"
+      ],
+      [
+        "SINCE",
+        [
+          "AND",
+          [
+            "EQ",
+            [
+              "SEG",
+              "A",
+              "F"
+            ],
+            [
+              "SEG",
+              "A",
+              "G"
+            ]
+          ],
+          [
+            "EQ",
+            [
+              "SEG",
+              "A",
+              "B"
+            ],
+            [
+              "SEG",
+              "A",
+              "C"
+            ]
+          ]
+        ]
+      ],
+      [
+        "RESTATE",
+        [
+          "AND",
+          [
+            "EQ",
+            [
+              "SEG",
+              "F",
+              "A"
+            ],
+            [
+              "SEG",
+              "G",
+              "A"
+            ]
+          ],
+          [
+            "EQ",
+            [
+              "SEG",
+              "A",
+              "C"
+            ],
+            [
+              "SEG",
+              "A",
+              "B"
+            ]
+          ]
+        ]
+      ],
+      [
+        "COMMON_ANGLE",
+        [
+          "ANG",
+          "F",
+          "A",
+          "G"
+        ]
+      ],
+      [
+        "APPLY_SAS",
+        "P1",
+        [
+          "TRI",
+          "A",
+          "F",
+          "C"
+        ],
+        [
+          "TRI",
+          "A",
+          "G",
+          "B"
+        ]
+      ],
+      [
+        "PROJECT_SIDE",
+        "P1",
+        [
+          "SEG",
+          "F",
+          "C"
+        ],
+        [
+          "SEG",
+          "G",
+          "B"
+        ]
+      ],
+      [
+        "PROJECT_TRIANGLE",
+        "P1",
+        [
+          "TRI",
+          "A",
+          "F",
+          "C"
+        ],
+        [
+          "TRI",
+          "A",
+          "G",
+          "B"
+        ]
+      ],
+      [
+        "PROJECT_ANGLE",
+        "P1",
+        [
+          "ANG",
+          "A",
+          "C",
+          "F"
+        ],
+        [
+          "ANG",
+          "A",
+          "B",
+          "G"
+        ]
+      ],
+      [
+        "PROJECT_ANGLE",
+        "P1",
+        [
+          "ANG",
+          "A",
+          "F",
+          "C"
+        ],
+        [
+          "ANG",
+          "A",
+          "G",
+          "B"
+        ]
+      ],
+      [
+        "SUBTRACT_EQUALS",
+        [
+          "EQ",
+          [
+            "SEG",
+            "A",
+            "F"
+          ],
+          [
+            "SEG",
+            "A",
+            "G"
+          ]
+        ],
+        [
+          "EQ",
+          [
+            "SEG",
+            "A",
+            "B"
+          ],
+          [
+            "SEG",
+            "A",
+            "C"
+          ]
+        ],
+        [
+          "EQ",
+          [
+            "SEG",
+            "B",
+            "F"
+          ],
+          [
+            "SEG",
+            "C",
+            "G"
+          ]
+        ]
+      ],
+      [
+        "RECALL",
+        [
+          "EQ",
+          [
+            "SEG",
+            "F",
+            "C"
+          ],
+          [
+            "SEG",
+            "G",
+            "B"
+          ]
+        ]
+      ],
+      [
+        "RESTATE",
+        [
+          "AND",
+          [
+            "EQ",
+            [
+              "SEG",
+              "B",
+              "F"
+            ],
+            [
+              "SEG",
+              "C",
+              "G"
+            ]
+          ],
+          [
+            "EQ",
+            [
+              "SEG",
+              "F",
+              "C"
+            ],
+            [
+              "SEG",
+              "G",
+              "B"
+            ]
+          ]
+        ]
+      ],
+      [
+        "RECALL",
+        [
+          "EQ",
+          [
+            "ANG",
+            "B",
+            "F",
+            "C"
+          ],
+          [
+            "ANG",
+            "C",
+            "G",
+            "B"
+          ]
+        ]
+      ],
+      [
+        "COMMON_SIDE",
+        [
+          "SEG",
+          "B",
+          "C"
+        ]
+      ],
+      [
+        "APPLY_SAS",
+        "P2",
+        [
+          "TRI",
+          "B",
+          "F",
+          "C"
+        ],
+        [
+          "TRI",
+          "C",
+          "G",
+          "B"
+        ]
+      ],
+      [
+        "PROJECT_TRIANGLE",
+        "P2",
+        [
+          "TRI",
+          "B",
+          "F",
+          "C"
+        ],
+        [
+          "TRI",
+          "C",
+          "G",
+          "B"
+        ]
+      ],
+      [
+        "PROJECT_ANGLE",
+        "P2",
+        [
+          "ANG",
+          "F",
+          "B",
+          "C"
+        ],
+        [
+          "ANG",
+          "G",
+          "C",
+          "B"
+        ]
+      ],
+      [
+        "PROJECT_ANGLE",
+        "P2",
+        [
+          "ANG",
+          "B",
+          "C",
+          "F"
+        ],
+        [
+          "ANG",
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      [
+        "SUBTRACT_EQUALS",
+        [
+          "EQ",
+          [
+            "ANG",
+            "A",
+            "B",
+            "G"
+          ],
+          [
+            "ANG",
+            "A",
+            "C",
+            "F"
+          ]
+        ],
+        [
+          "EQ",
+          [
+            "ANG",
+            "C",
+            "B",
+            "G"
+          ],
+          [
+            "ANG",
+            "B",
+            "C",
+            "F"
+          ]
+        ],
+        [
+          "EQ",
+          [
+            "ANG",
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "ANG",
+            "A",
+            "C",
+            "B"
+          ]
+        ]
+      ],
+      [
+        "LOCATE",
+        "BASE",
+        [
+          "EQ",
+          [
+            "ANG",
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "ANG",
+            "A",
+            "C",
+            "B"
+          ]
+        ]
+      ],
+      [
+        "RECALL",
+        [
+          "EQ",
+          [
+            "ANG",
+            "F",
+            "B",
+            "C"
+          ],
+          [
+            "ANG",
+            "G",
+            "C",
+            "B"
+          ]
+        ]
+      ],
+      [
+        "LOCATE",
+        "UNDER_BASE",
+        [
+          "EQ",
+          [
+            "ANG",
+            "F",
+            "B",
+            "C"
+          ],
+          [
+            "ANG",
+            "G",
+            "C",
+            "B"
+          ]
+        ]
+      ],
+      [
+        "CONCLUDE",
+        [
+          "IMPLIES",
+          [
+            "AND",
+            [
+              "NONDEGENERATE",
+              [
+                "TRI",
+                "A",
+                "B",
+                "C"
+              ]
+            ],
+            [
+              "EQ",
+              [
+                "SEG",
+                "A",
+                "B"
+              ],
+              [
+                "SEG",
+                "A",
+                "C"
+              ]
+            ]
+          ],
+          [
+            "AND",
+            [
+              "EQ",
+              [
+                "ANG",
+                "A",
+                "B",
+                "C"
+              ],
+              [
+                "ANG",
+                "A",
+                "C",
+                "B"
+              ]
+            ],
+            [
+              "IMPLIES",
+              [
+                "AND",
+                [
+                  "EXTENDED",
+                  "A",
+                  "B",
+                  "D"
+                ],
+                [
+                  "EXTENDED",
+                  "A",
+                  "C",
+                  "E"
+                ]
+              ],
+              [
+                "EQ",
+                [
+                  "ANG",
+                  "C",
+                  "B",
+                  "D"
+                ],
+                [
+                  "ANG",
+                  "B",
+                  "C",
+                  "E"
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "arities": {
+      "SEQ31": 31,
+      "STATE": 1,
+      "IMPLIES": 2,
+      "AND": 2,
+      "NONDEGENERATE": 1,
+      "TRI": 3,
+      "EQ": 2,
+      "SEG": 2,
+      "ANG": 3,
+      "EXTENDED": 3,
+      "GIVEN": 1,
+      "EXTEND": 3,
+      "GOAL": 1,
+      "CHOOSE_ON": 2,
+      "CUT_EQUAL": 3,
+      "JOIN": 2,
+      "SINCE": 1,
+      "RESTATE": 1,
+      "COMMON_ANGLE": 1,
+      "APPLY_SAS": 3,
+      "PROJECT_SIDE": 3,
+      "PROJECT_TRIANGLE": 3,
+      "PROJECT_ANGLE": 3,
+      "SUBTRACT_EQUALS": 3,
+      "RECALL": 1,
+      "COMMON_SIDE": 1,
+      "LOCATE": 2,
+      "CONCLUDE": 1
+    },
+    "preorder_atoms": [
+      "SEQ31",
+      "STATE",
+      "IMPLIES",
+      "AND",
+      "NONDEGENERATE",
+      "TRI",
+      "A",
+      "B",
+      "C",
+      "EQ",
+      "SEG",
+      "A",
+      "B",
+      "SEG",
+      "A",
+      "C",
+      "AND",
+      "EQ",
+      "ANG",
+      "A",
+      "B",
+      "C",
+      "ANG",
+      "A",
+      "C",
+      "B",
+      "IMPLIES",
+      "AND",
+      "EXTENDED",
+      "A",
+      "B",
+      "D",
+      "EXTENDED",
+      "A",
+      "C",
+      "E",
+      "EQ",
+      "ANG",
+      "C",
+      "B",
+      "D",
+      "ANG",
+      "B",
+      "C",
+      "E",
+      "GIVEN",
+      "AND",
+      "NONDEGENERATE",
+      "TRI",
+      "A",
+      "B",
+      "C",
+      "EQ",
+      "SEG",
+      "A",
+      "B",
+      "SEG",
+      "A",
+      "C",
+      "EXTEND",
+      "A",
+      "B",
+      "D",
+      "EXTEND",
+      "A",
+      "C",
+      "E",
+      "GOAL",
+      "AND",
+      "EQ",
+      "ANG",
+      "A",
+      "B",
+      "C",
+      "ANG",
+      "A",
+      "C",
+      "B",
+      "EQ",
+      "ANG",
+      "C",
+      "B",
+      "D",
+      "ANG",
+      "B",
+      "C",
+      "E",
+      "CHOOSE_ON",
+      "F",
+      "SEG",
+      "B",
+      "D",
+      "CUT_EQUAL",
+      "G",
+      "SEG",
+      "A",
+      "E",
+      "SEG",
+      "A",
+      "F",
+      "JOIN",
+      "F",
+      "C",
+      "JOIN",
+      "G",
+      "B",
+      "SINCE",
+      "AND",
+      "EQ",
+      "SEG",
+      "A",
+      "F",
+      "SEG",
+      "A",
+      "G",
+      "EQ",
+      "SEG",
+      "A",
+      "B",
+      "SEG",
+      "A",
+      "C",
+      "RESTATE",
+      "AND",
+      "EQ",
+      "SEG",
+      "F",
+      "A",
+      "SEG",
+      "G",
+      "A",
+      "EQ",
+      "SEG",
+      "A",
+      "C",
+      "SEG",
+      "A",
+      "B",
+      "COMMON_ANGLE",
+      "ANG",
+      "F",
+      "A",
+      "G",
+      "APPLY_SAS",
+      "P1",
+      "TRI",
+      "A",
+      "F",
+      "C",
+      "TRI",
+      "A",
+      "G",
+      "B",
+      "PROJECT_SIDE",
+      "P1",
+      "SEG",
+      "F",
+      "C",
+      "SEG",
+      "G",
+      "B",
+      "PROJECT_TRIANGLE",
+      "P1",
+      "TRI",
+      "A",
+      "F",
+      "C",
+      "TRI",
+      "A",
+      "G",
+      "B",
+      "PROJECT_ANGLE",
+      "P1",
+      "ANG",
+      "A",
+      "C",
+      "F",
+      "ANG",
+      "A",
+      "B",
+      "G",
+      "PROJECT_ANGLE",
+      "P1",
+      "ANG",
+      "A",
+      "F",
+      "C",
+      "ANG",
+      "A",
+      "G",
+      "B",
+      "SUBTRACT_EQUALS",
+      "EQ",
+      "SEG",
+      "A",
+      "F",
+      "SEG",
+      "A",
+      "G",
+      "EQ",
+      "SEG",
+      "A",
+      "B",
+      "SEG",
+      "A",
+      "C",
+      "EQ",
+      "SEG",
+      "B",
+      "F",
+      "SEG",
+      "C",
+      "G",
+      "RECALL",
+      "EQ",
+      "SEG",
+      "F",
+      "C",
+      "SEG",
+      "G",
+      "B",
+      "RESTATE",
+      "AND",
+      "EQ",
+      "SEG",
+      "B",
+      "F",
+      "SEG",
+      "C",
+      "G",
+      "EQ",
+      "SEG",
+      "F",
+      "C",
+      "SEG",
+      "G",
+      "B",
+      "RECALL",
+      "EQ",
+      "ANG",
+      "B",
+      "F",
+      "C",
+      "ANG",
+      "C",
+      "G",
+      "B",
+      "COMMON_SIDE",
+      "SEG",
+      "B",
+      "C",
+      "APPLY_SAS",
+      "P2",
+      "TRI",
+      "B",
+      "F",
+      "C",
+      "TRI",
+      "C",
+      "G",
+      "B",
+      "PROJECT_TRIANGLE",
+      "P2",
+      "TRI",
+      "B",
+      "F",
+      "C",
+      "TRI",
+      "C",
+      "G",
+      "B",
+      "PROJECT_ANGLE",
+      "P2",
+      "ANG",
+      "F",
+      "B",
+      "C",
+      "ANG",
+      "G",
+      "C",
+      "B",
+      "PROJECT_ANGLE",
+      "P2",
+      "ANG",
+      "B",
+      "C",
+      "F",
+      "ANG",
+      "C",
+      "B",
+      "G",
+      "SUBTRACT_EQUALS",
+      "EQ",
+      "ANG",
+      "A",
+      "B",
+      "G",
+      "ANG",
+      "A",
+      "C",
+      "F",
+      "EQ",
+      "ANG",
+      "C",
+      "B",
+      "G",
+      "ANG",
+      "B",
+      "C",
+      "F",
+      "EQ",
+      "ANG",
+      "A",
+      "B",
+      "C",
+      "ANG",
+      "A",
+      "C",
+      "B",
+      "LOCATE",
+      "BASE",
+      "EQ",
+      "ANG",
+      "A",
+      "B",
+      "C",
+      "ANG",
+      "A",
+      "C",
+      "B",
+      "RECALL",
+      "EQ",
+      "ANG",
+      "F",
+      "B",
+      "C",
+      "ANG",
+      "G",
+      "C",
+      "B",
+      "LOCATE",
+      "UNDER_BASE",
+      "EQ",
+      "ANG",
+      "F",
+      "B",
+      "C",
+      "ANG",
+      "G",
+      "C",
+      "B",
+      "CONCLUDE",
+      "IMPLIES",
+      "AND",
+      "NONDEGENERATE",
+      "TRI",
+      "A",
+      "B",
+      "C",
+      "EQ",
+      "SEG",
+      "A",
+      "B",
+      "SEG",
+      "A",
+      "C",
+      "AND",
+      "EQ",
+      "ANG",
+      "A",
+      "B",
+      "C",
+      "ANG",
+      "A",
+      "C",
+      "B",
+      "IMPLIES",
+      "AND",
+      "EXTENDED",
+      "A",
+      "B",
+      "D",
+      "EXTENDED",
+      "A",
+      "C",
+      "E",
+      "EQ",
+      "ANG",
+      "C",
+      "B",
+      "D",
+      "ANG",
+      "B",
+      "C",
+      "E"
+    ],
+    "atom_occurrences": 395,
+    "atom_types": 39,
+    "counts": {
+      "A": 50,
+      "AND": 11,
+      "ANG": 35,
+      "APPLY_SAS": 2,
+      "B": 57,
+      "BASE": 1,
+      "C": 56,
+      "CHOOSE_ON": 1,
+      "COMMON_ANGLE": 1,
+      "COMMON_SIDE": 1,
+      "CONCLUDE": 1,
+      "CUT_EQUAL": 1,
+      "D": 7,
+      "E": 7,
+      "EQ": 26,
+      "EXTEND": 2,
+      "EXTENDED": 4,
+      "F": 25,
+      "G": 24,
+      "GIVEN": 1,
+      "GOAL": 1,
+      "IMPLIES": 4,
+      "JOIN": 2,
+      "LOCATE": 2,
+      "NONDEGENERATE": 3,
+      "P1": 5,
+      "P2": 4,
+      "PROJECT_ANGLE": 4,
+      "PROJECT_SIDE": 1,
+      "PROJECT_TRIANGLE": 2,
+      "RECALL": 3,
+      "RESTATE": 2,
+      "SEG": 32,
+      "SEQ31": 1,
+      "SINCE": 1,
+      "STATE": 1,
+      "SUBTRACT_EQUALS": 2,
+      "TRI": 11,
+      "UNDER_BASE": 1
+    }
+  },
+  "semantic_law": {
+    "endpoint_constructors": "SEG(a,b) is an unoriented segment length, ANG(a,b,c) is the smaller geometric angle at b, TRI(a,b,c) is an ordered triangle. Surface endpoint order remains written even when denotations coincide. EQ is typed and cannot compare lengths to angles.",
+    "sas": "APPLY_SAS(proof_id,TRI(a,b,c),TRI(d,e,f)) accepts only established equalities ab=de,ac=df and included angles bac=edf, under the ordered correspondence a->d,b->e,c->f. It returns one congruence proof whose PROJECT_SIDE/TRIANGLE/ANGLE operations must follow that SAME endpoint correspondence; they cannot return preassigned equalities.",
+    "subtraction": "SUBTRACT_EQUALS(EQ(x,y),EQ(u,v),EQ(r,s)) accepts only already established same-dimension equalities plus decompositionx=u+r,y=v+s and derivesr=s. It is one polymorphic numerical law, invoked for segment lengths and angle magnitudes. Endpoint arrangement must justify each decomposition.",
+    "geometry": "EXTEND and CHOOSE_ON record ordered collinear points. CUT_EQUAL requiresAE>AF and choosesG onAE withAG=AF. SAME-RAY equivalence comes only from those declared collinearities; it justifies the included common angle and the later BFC/CGB recall. No nearest-point replacement or guessed equality is allowed.",
+    "claims": "STATE/GOAL describe intended propositions; GIVEN is the only axiom source besides declared constructions and standard Euclidean equality/SAS rules. SINCE,RECALL andRESTATE must retrieve facts already justified. CONCLUDE requires proof of both goals; it may not simply emit the theorem AST.",
+    "source_model_assumptions": [
+      "AE must be long enough for the explicitly required cut; source order supplies the construction precondition, not measured values.",
+      "The final general statement is universal closure of the same nondegenerate triangle variables; empirical random-coordinate checks do not prove universal correctness.",
+      "Generic subtraction is a mathematical abstraction of CommonNotion3, not a known Voynich morpheme."
+    ]
+  },
+  "rival": {
+    "change": "In the second APPLY_SAS only, replace orderedTRI(C,G,B) withTRI(G,C,B) while retaining all complete source claims and final goals.",
+    "effect": "This changes the correspondence B->C,F->G,C->B intoB->G,F->C,C->B. Generic isosceles constructions do not supply its required sides/included angle; all later projections must fail if the writer preserves those identities. It is a correspondence rival, not a list of outcomes with one omitted.",
+    "caveat": "A fixed-code failure would remain conditional. If code fitting were ever reached, the whole rival requires its own complete code search to expose global point-renaming symmetries."
+  },
+  "writer": "Prospective same one-code-per-atom, nonempty no-cross-seam preorder contract as the preceding draft. Nothing is fit here; target execution cannot begin unless both elementary counts AND total-character capacity pass. No whole-triangle, whole-assertion or event macros may be introduced after a capacity failure.",
+  "preflight": {
+    "atoms_at_least_groups": true,
+    "type_plus_excess_at_least_target_types": true,
+    "type_plus_excess": 354,
+    "atoms_no_more_than_target_characters": true,
+    "meaning": "Necessary capacity only; not a semantic or target-code fit.",
+    "target_literal_alphabet_size": 17,
+    "target_literal_alphabet": "acdehiklmnopqrsty",
+    "distinct_code_minimum_characters": 417,
+    "globally_distinct_code_character_capacity": false,
+    "global_distinct_code_bound": "WithT distinct nonempty code strings and onlyA target characters, at mostA codes can have length1, so at leastT-A have length>=2 and occur at leastonce. Thus total encoded length>=N+max(0,T-A). This is weaker than a weighted-frequency/prefix bound but sufficient when it exceedsC."
+  },
+  "prior_countercases": [
+    "GDT1001 and GDT992 literal source writer failures remain; a different source alone is not positive evidence.",
+    "IDEA000383 I.1 scope/guessed five whole words are not inherited.",
+    "GDT1014 free wrapper compatibility does not establish an executable geometric constructor."
+  ],
+  "access": "Only existing proposal/source copy and primary external Euclid text read. No target images, new folios, reserves, f84/f84r/f116v, contacts, root route, ledger or experiments touched.",
+  "decision": "Do not run a target solver under the inherited globally distinct atom-code contract: although both requested word-capacity conditions pass, the total-character lower bound already exceeds the fixed408-character target. No change to type-local coding, deleted proof references or shorter source representation follows automatically.",
+  "semantic_review_correction": {
+    "original_draft_law": "APPLY_SAS(proof_id,TRI(a,b,c),TRI(d,e,f)) accepts only established equalities ab=de,ac=df and included angles bac=edf, under the ordered correspondence a->d,b->e,c->f. It returns one congruence proof whose PROJECT_SIDE/TRIANGLE/ANGLE operations must follow that SAME endpoint correspondence; they cannot return preassigned equalities.",
+    "correction": "The initial law wording accidentally restricted SAS to the first listed vertex, which would leave the second source application unjustified. The corrected single generic SAS rule checks all three corresponding pivots against existing facts. This changes no AST atom, code count, target data or417>408 writer obstruction.",
+    "status": "WITHDRAWN_UNSELECTED_REPAIR. Root independently found the same defect and instructed retaining it as a scope limit, not repairing the rule. The original first-vertex SAS law is restored as the active RAW draft. The attempted generic-pivot alternative is retained only as history and is not part of the selected writer or semantic model.",
+    "attempted_replacement_law": "APPLY_SAS(proof_id,TRI(a,b,c),TRI(d,e,f)) preserves the ordered correspondence a->d,b->e,c->f. It checks corresponding pivots1,2,3 in that fixed order and accepts only a pivot whose two incident side equalities and included-angle equality are already established. It returns one congruence proof, from which every PROJECT operation must follow that SAME endpoint correspondence. The first source application is justified at pivot1(A/A); the second at pivot2(F/G). No supplied equality conclusion is accepted as an input fact."
+  },
+  "semantic_execution_scope_limit": {
+    "status": "UNVALIDATED_AND_CIRCULAR_SECOND_SAS_UNDER_ORIGINAL_RULE",
+    "derivation": "The original rule requires sides ab/ac and included angle bac at the first listed vertex. For APPLY_SAS(P2,TRI(B,F,C),TRI(C,G,B)), this requires BF=CG,BC=CB and FBC=GCB. The last equality is a later source conclusion, not an available premise. The historical source proof instead applies SAS at F/G, the middle vertices.",
+    "decision": "No complete executable source-proof claim is valid for this RAW draft. Do not repair the AST/rule as part of the closed capacity review. The independent417>408 string-capacity contradiction remains valid for the unchanged atom tree."
+  }
+}

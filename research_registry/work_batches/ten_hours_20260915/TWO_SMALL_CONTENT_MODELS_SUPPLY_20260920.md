@@ -1656,3 +1656,117 @@ rivals are insufficient for a future content-selection claim. Source ownership,
 exact source claims and a complete executable construction still require review
 before either card can be selected for a manuscript test. No target consequence
 has been tested from these cards.
+
+## AK. Two repeatable input-derived source constructions
+
+This bounded batch added two new `RAW_UNREVIEWED_NOT_SELECTED` cards after route/topic screening, targeted duplicate checks, and primary-source retrieval. Each uses a small fixed operation whose declared inputs produce more than one downstream consequence; neither is a target reading or a tested decoder.
+
+### AK.1 IDEA000471 — Caesar I.59–60 adaptive threat-response
+
+Card: [raw_caesar_civil_wars_adaptive_response_20260921.json](../../proposals/raw_caesar_civil_wars_adaptive_response_20260921.json), SHA-256 `9cd00c93d976830525f49463a02c7552e98d057385050e468f9bacda520e0618`.
+
+The complete owned span is *Civil Wars* I.59.1–I.60.1, from bridge completion and cavalry exposure through route/pack/timing changes, community grain commitments, pack-horse delivery, cohort defection, and wider alliance change. The LacusCurtius 1914 Loeb witness is public domain and carefully proofread; retrieved page size is 51,687 bytes, SHA-256 `276d1f39c03b496d0bdb7f8408c9b8c6340447263afc2cbfddc8fa79c284c697`.
+
+`OBSERVE_CAVALRY` feeds route, pack, and forage fields; persistence changes forage timing; `REQUEST_SUPPLY` plus pack-horse availability changes grain state; community intention separately licenses cohort defection; the combined alliance update requires all declared inputs. The worked reduction was executed. The rival’s static-event or single-threat label cannot derive those coupled state changes. The source is military narrative, and the formal causal edges remain analyst reconstruction of its ordered prose.
+
+### AK.2 IDEA000472 — Livy I.59.1–6 oath-to-mobilization
+
+Card: [raw_livy_oath_mobilization_20260921.json](../../proposals/raw_livy_oath_mobilization_20260921.json), SHA-256 `4975e9be093d48e615617f1c82eb78fadfb6fabc783fc91565ebcccecae7c99d`.
+
+The complete owned span is *Ab Urbe Condita* I.59.1–6: displayed wound, oath, repeated oath by named companions, grief-to-wrath change, Forum complaints, volunteers, Collatia guards, Rome marchers, and public interpretation of armed leadership. The Perseus witness is Rev. Canon Roberts (1912), with the page’s Creative Commons Attribution-ShareAlike 3.0 notice; retrieved page size is 74,691 bytes, SHA-256 `d364f2c4e69ccbc98550c2d60ef0da1985e28132ccbbd1c03037992a70f3cd88`.
+
+`SWEAR` consumes a displayed witness and produces both commitment and emotional change; `PUBLIC_APPEAL` consumes the body, complaints, and leader instruction; `PARTITION_FORCE` derives separate guard and march sets; `INTERPRET_DISPLAY` changes audience belief only when leading men are visible. The worked reduction was executed. The rival’s oath-only or static-grievance reading cannot derive the source’s force partition and audience-state transition. The immediately preceding injury is retained as an explicit input, not silently re-created.
+
+Both cards remain exploratory source mechanisms. No manuscript group, target participant, or English gloss is assigned; no conclusion follows about source lineage. The strongest likely failure is that the narrative ordering may support analyst reconstruction without a corresponding productive written operator system.
+
+## AL. Root selection review after GDT1015 (2026-09-21)
+
+No new experiment is selected by this note. GDT1015 is published at bf5d29983;
+its full argument is conditionally coherent, with 55 new whole values and twelve
+one-off constructions. A next test needs a shared content operation with actual
+consequences, not another successful arbitrary lexicon.
+
+The following predecessor checks are now completed for this selection, so they
+need not be repeated after a context switch:
+
+- GDT561/GDT569 are complete renderings under inherited root meanings and
+  carried contexts. Their coverage is not independent semantic evidence.
+- GDT930/GDT932 retain unresolved label ownership, source/goal direction and
+  incomplete participant bindings. In particular f77r.26/.42 remain liabilities,
+  not places to repair with invisible objects. GDT812's whole f100v layout has
+  thirteen local inscription loci with uncertain component ownership; f101r has
+  none. GDT881 admits the f99v source-nominated interface observation and finds
+  no shared writing/anatomy strokes; its old inside-body claim is quarantined.
+  The additional image keys therefore do not themselves establish a new
+  plant-part contrast. No image was newly viewed in this review.
+- PLC001 has six root-only and eighteen leaf-bearing human-comment owners with
+  zero within-folio opposite-state pairs of matching group lengths. PHF001
+  has zero exact label repeats. No unchanged capacity audit was rerun and no
+  looser ownership gate is proposed.
+- GDT1005 closes its complete FULL/DELTA record writers. RAW442's partial-
+  application idea remains incomplete: types such as MATERIAL/FORM_BOUNDARY
+  and FORM_REFERENCE are not fully declared, and its RELEASE trace supplies a
+  FORM_REFERENCE where its signature says FORM. This does not justify an
+  automatic writer repair or removal of masks/word seams.
+- Naibbe is already covered by GDT601–604; the recovered control does not rescue
+  the target's language-model-driven pseudotext. No fresh Naibbe work selected.
+
+Within GDT1015, literal l+chedy and l+chey would require DAYLIGHT→NIGHT and
+FROM→NOT. A usual same-type semantic complement does not deliver both under
+those glosses. Likewise e insertion gives DAY→HOUR, FROM→NEXT_MEMBER and
+FIRST→WHOLE in different pairs. This is a warning for any future proposed
+component algebra, not a contradiction of GDT1015, which explicitly leaves
+all forms opaque. Its English labels are not an independently established
+semantic type system. No morpheme has been assigned by this comparison.
+
+RAW459 (Palladius I.V.3) was read completely as another possible bounded source.
+Its source-only AST is not yet a complete executable account: TASTE's signature
+has arity two but its AST has three arguments; the ownership table mentions
+IMPLIES while the clod INFER appears without that guard; EARTHEN_VESSEL is listed
+but not used by the vessel introduction; OBSERVED is a supplied observation
+state, not a derived measurement. Interpreting magis displicet as a unique MAX
+also requires an explicit assumption. The three pit comparisons themselves are
+meaningful source consequences, but the source supplies no numeric measurement
+or target alignment. These raw-design limits are not a new manuscript failure
+and are not, by themselves, a reason to build another source interpreter.
+
+The next bounded producer is independently looking for one executable content
+commitment with a real input/output distinction and lower freedom. Root retains
+all original source/proposal bytes and all prior experiment decisions. Research
+continues within the ten-hour session ending 11:11:33 UTC; this note is not a
+completed new experiment or a claim of absent possible research.
+
+
+## AM. Independent capacity preflights and source-scope correction
+
+Root reconstructed both proposal trees and all arities independently. The small
+reproduction is `research_registry/decisions/component_capacity_20260921.py`;
+its JSON binds the reviewed proposal hashes and target copy.
+
+| RAW | Atoms/types | Exact necessary consequence | Decision |
+|---|---:|---|---|
+| IDEA000473 Palladius | 84/46 |80groups permit at most46+(84−80)=50distinct words;target60 | Supplied writer impossible;no solver |
+| IDEA000474 Euclid I.5 |395/39 |17characters allow at most17distinct single-character codes;at least395+(39−17)=417characters needed;target408 | Supplied writer impossible;no solver |
+
+The first bound does not need injectivity or prefix freedom. The second uses
+the explicitly inherited global distinct-code requirement. Neither concerns all
+possible semantic writing systems. No source inflation, alternative target,
+seam relaxation or type-local recoding was selected. These are transparent
+post-draft preflights, not blind manuscript tests or new GDT experiments.
+
+Euclid's original SAS contract additionally fixes its pivot at the first vertex,
+but the second source application requires the middle vertex. Under that stated
+rule it needs the angle equality it is supposed to prove. The producer's briefly
+attempted generic-pivot repair is explicitly withdrawn and retained as history;
+no executable complete proof has been validated. The counting contradiction is
+independent of this additional semantic-model defect.
+
+Root then compared all nine f82r working lines to the owned GDT928 diplomatic
+paragraph. Seven match at group-string level; f82r.15/G4 `qokeedy` corresponds
+to `qok[ee:ch]dy`, and f82r.16/G11 `ra` to `ra{cty}`. Only three lines have the
+cache's anchor-eligible flag. GDT1015's frozen arithmetic remains valid for its
+normalized working copy, but its complete diplomatic coverage claim is withdrawn.
+The same narrow copy scope applies to both RAW capacity conclusions. Full
+reproduction and correction are in GDT1015 `SCOPE_CORRECTION.md` and
+`artifacts/SOURCE_SCOPE_AUDIT.json`. No target, first reading or result was repaired.
+No new page/image, reserve, outside contact or confirmed word.

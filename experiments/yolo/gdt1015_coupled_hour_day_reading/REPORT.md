@@ -1,5 +1,10 @@
 # GDT1015 — vollständige hypothetische Stunden-/Tageslesung
 
+**Nachträgliche Eingrenzung:** Die vollständige Deckung betrifft die normalisierte
+P28/RAW379-Arbeitskopie. Zwei Gruppen weichen vom diplomatischen Bestand ab;
+vollständige diplomatische Zeichendeckung ist nicht erreicht. Die eingefrorene
+Rechnung bleibt unverändert. Siehe [Quellenkorrektur](SCOPE_CORRECTION.md).
+
 **Ergebnis:** Für alle80Gruppen von f82r.11–19 liegt jetzt eine zusammenhängende,
 wortweise konsistente Arbeitslesung vor. Ihr Rechenkern ist stimmig. Sie benötigt
 55neue Wortwerte und zwölf eigens gesetzte Satzkonstruktionen;45der60Worttypen

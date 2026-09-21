@@ -1,0 +1,44 @@
+{
+  "chronology": "Independent post-draft preflight; no solver or blind preregistration claimed.",
+  "rows": [
+    {
+      "idea": "IDEA000473",
+      "proposal": "research_registry/proposals/raw_palladius_fixed_f82r_comparison_writer_20260921.json",
+      "proposal_sha256": "31d6d9f71cdeba588ca89fc6d8ed8df44eb629045a4970714b928f3093efa4cd",
+      "atoms": 84,
+      "atom_types": 46,
+      "groups": 80,
+      "word_types": 60,
+      "characters": 408,
+      "alphabet": 17,
+      "maximum_word_types": 50,
+      "minimum_distinct_code_characters": 113,
+      "word_capacity_ok": false,
+      "character_capacity_ok": true,
+      "status": "EXACT_SUPPLIED_WRITER_CONTRADICTED",
+      "diplomatic_scope": "Normalized working copy only; see GDT1015 SCOPE_CORRECTION.md"
+    },
+    {
+      "idea": "IDEA000474",
+      "proposal": "research_registry/proposals/raw_euclid_i5_fixed_f82r_capacity_20260921.json",
+      "proposal_sha256": "dce62da3066036208fb7cc6a055a40f4c05c6f5b08903bf3eb7f6f4e5d27684c",
+      "atoms": 395,
+      "atom_types": 39,
+      "groups": 80,
+      "word_types": 60,
+      "characters": 408,
+      "alphabet": 17,
+      "maximum_word_types": 354,
+      "minimum_distinct_code_characters": 417,
+      "word_capacity_ok": true,
+      "character_capacity_ok": false,
+      "status": "EXACT_SUPPLIED_WRITER_CONTRADICTED",
+      "diplomatic_scope": "Normalized working copy only; see GDT1015 SCOPE_CORRECTION.md"
+    }
+  ],
+  "solver_calls": 0,
+  "confirmed_words": 0,
+  "word_bound": "N atoms in W nonempty seam-preserving words allow at most N-W multiatom groups. At most T singleton strings plus N-W compound strings.",
+  "character_bound": "At most A distinct length-one codes exist over A characters; T-A remaining distinct nonempty codes add at least one character each.",
+  "decision": "Do not implement either exact writer; do not infer exclusion of source subjects or all compositional encodings."
+}

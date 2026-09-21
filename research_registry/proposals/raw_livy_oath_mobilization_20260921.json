@@ -1,0 +1,81 @@
+{
+  "title": "Livy Ab Urbe Condita I.59.1–6 oath-to-mobilization constructor",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED. A complete short Livy section turns a witnessed injury into a shared oath, changes grief to wrath, recruits volunteers, partitions guards from the marching force, and uses public display to alter Roman response. The same oath operation therefore affects emotion, commitment, force membership, security, and audience state; a grievance list cannot derive the sequence.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Titus Livius, Ab Urbe Condita, Book I, chapter 59, sections 1–6",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0026%3Abook%3D1%3Achapter%3D59",
+    "retrieved_utc": "2026-09-21",
+    "retrieved_bytes": 74691,
+    "retrieved_sha256": "d364f2c4e69ccbc98550c2d60ef0da1985e28132ccbbd1c03037992a70f3cd88",
+    "provenance": "Perseus public web witness, Rev. Canon Roberts 1912 English translation; the page identifies a Creative Commons Attribution-ShareAlike 3.0 license. The prior wound/body event is an input from the immediately preceding narrative and is not silently re-created here.",
+    "source_span": "I.59.1–6: Brutus oath, repeated oath by named companions, grief-to-wrath change, Forum appeal, volunteers and guards, march to Rome, and public interpretation of armed leadership."
+  },
+  "duplicate_screen": {
+    "checked": "Bounded route-check and proposal search found no Livy I.59 oath/mobilization card. Tacitus 469 and Plutarch 470 use different belief/kinship mechanisms; this card derives force and audience updates from an oath-plus-publicization operation.",
+    "difference": "The central operation carries a witnessed object into a shared commitment and then partitions a force; it is not a static obligation, a family appeal, or a generic rebellion label."
+  },
+  "complete_source_account": [
+    {
+      "span": "I.59.1",
+      "content": "Brutus draws the knife from Lucretia's wound, displays its blood, swears to drive out Tarquinius and the royal house, and invokes the gods as witnesses."
+    },
+    {
+      "span": "I.59.2",
+      "content": "He hands the knife to Collatinus, Lucretius, and Valerius; they swear as directed. Their grief changes to wrath and they follow Brutus in summoning abolition of the monarchy."
+    },
+    {
+      "span": "I.59.3–4",
+      "content": "They carry Lucretia's body to the Forum, gather a crowd, hear individual complaints against the royal house, and Brutus redirects lament into a call to act and take up arms."
+    },
+    {
+      "span": "I.59.5",
+      "content": "Young men volunteer armed service; others follow. Part of the force remains to hold Collatia, guards block news from reaching the king, and the remainder marches to Rome under Brutus."
+    },
+    {
+      "span": "I.59.6",
+      "content": "The armed arrival spreads panic and confusion; when the people see leading men at the front, they understand the movement as serious."
+    }
+  ],
+  "constructor": {
+    "types": [
+      "WITNESS_OBJECT",
+      "WITNESS_SET",
+      "OATH",
+      "EMOTION_STATE",
+      "COMMITMENT",
+      "FORCE_MEMBER",
+      "GUARD",
+      "MARCH",
+      "AUDIENCE_BELIEF"
+    ],
+    "operators": {
+      "DISPLAY_WOUND": "DISPLAY_WOUND(object,audience) -> WITNESS_SET",
+      "SWEAR": "SWEAR(agent,witness_set,target,penalty) -> OATH",
+      "PROPAGATE_OATH": "PROPAGATE_OATH(oath,agents) -> COMMITMENT",
+      "PUBLIC_APPEAL": "PUBLIC_APPEAL(body,complaints,leader) -> AUDIENCE_BELIEF",
+      "PARTITION_FORCE": "PARTITION_FORCE(commitment,security_need,destination) -> (GUARD_SET,MARCH_SET)",
+      "INTERPRET_DISPLAY": "INTERPRET_DISPLAY(march_set,leaders,audience) -> AUDIENCE_BELIEF"
+    },
+    "rules": [
+      "SWEAR requires a displayed witness object and yields both a target/penalty commitment and a changed shared emotional state; the knife is not a free slogan.",
+      "PROPAGATE_OATH preserves agent identity while extending commitment to the named companions; it does not automatically recruit every observer.",
+      "PUBLIC_APPEAL transforms the body, complaints, and leader instruction into a decision to arm rather than merely repeating the complaints.",
+      "PARTITION_FORCE consumes commitment and a security need, yielding guards at Collatia and a separate march set for Rome.",
+      "INTERPRET_DISPLAY changes audience belief only when armed leaders are visible; armed bodies without that cue remain a different state."
+    ],
+    "worked_python": "def mobilize(wound_displayed=True, complaints=True, leaders_visible=True):\n    s={'emotion':'grief','commitment':None,'volunteers':0,'guards':0,'marchers':0,'audience':'uncertain'}\n    if wound_displayed:\n        s['commitment']=('abolish_monarchy','royal_house')\n        s['emotion']='wrath'\n    if complaints and s['commitment']:\n        s['volunteers']=1; s['guards']=1; s['marchers']=1\n    if leaders_visible and s['marchers']:\n        s['audience']='serious_movement'\n    return s\nfull=mobilize()\nassert full['emotion']=='wrath'\nassert full['guards']==1 and full['marchers']==1\nassert full['audience']=='serious_movement'\nassert mobilize(wound_displayed=False)['commitment'] is None\nassert mobilize(leaders_visible=False)['audience']=='uncertain'\nprint(full)"
+  },
+  "rival": {
+    "name": "STATIC_GRIEVANCE_OR_OATH_ONLY",
+    "rule": "Treat the wound, complaints, oath, armed men, and panic as independent labels, or let the oath alone produce a complete armed movement without witness, public appeal, force partition, and visible leadership.",
+    "changed_consequence": "The rival cannot derive grief-to-wrath conversion, the split between Collatia guards and Rome marchers, or the audience's shift to seriousness only after leading men become visible.",
+    "smallest_test": "Two complete episodes with the same complaints but without the displayed witness, or with armed volunteers but hidden leaders, must retain different emotion/commitment/audience states."
+  },
+  "limits": [
+    "This is a literary-historical narrative, not a technical writer.",
+    "The source reports a causal sequence in its narrative; the constructor does not assert that the event is historically independently verified.",
+    "No target token, participant, or manuscript meaning is assigned."
+  ]
+}

@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Select next meaning constraint after complete GDT1015 hypothetical hour/day reading.
-Latest decision: 1015primary coherent;three rivals fail;night/reference ambiguity;55new guesses.
-Working files: experiments/yolo/gdt1015_coupled_hour_day_reading/REPORT.md
-Assumptions: 0words;1015numbers/12templates guessed;no independent meaning or new reserve.
-Resume: Publish1015;review genuinely constraining transfer/composition before next selection.
-Running: Root closure/selection;bounded source producer idle;session ends11:11:33UTC.
+Task: Select a repeated content operation after bounded source-writer preflights.
+Latest decision: 473/474draft writers fail capacity;1015covers normalized copy,two diplomatic differences.
+Working files: research_registry/work_batches/ten_hours_20260915/TWO_SMALL_CONTENT_MODELS_SUPPLY_20260920.md#am
+Assumptions: 0words;1015numbers/templates guessed;357replays retained,no full diplomatic coverage.
+Resume: Publish scope correction/preflights;review new shared-content proposals against primaries.
+Running: bounded_semantic_route produces3bounded ideas;root closes audits;ends11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

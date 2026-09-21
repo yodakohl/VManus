@@ -1,0 +1,73 @@
+{
+  "title": "Caesar Civil Wars I.59–60 adaptive threat-response and alliance state",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED. A complete short Caesar passage repeats one response operation over bridge completion, cavalry exposure, local-state decisions, and supply access. The operation changes enemy route, pack, timing, allied identity, and food state from explicit inputs; a static military-event list cannot derive those coupled changes.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Julius Caesar, Civil Wars, Book I, chapters 59–60",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/1C%2A.html",
+    "retrieved_utc": "2026-09-21",
+    "retrieved_bytes": 51687,
+    "retrieved_sha256": "276d1f39c03b496d0bdb7f8408c9b8c6340447263afc2cbfddc8fa79c284c697",
+    "provenance": "LacusCurtius reproduction of the 1914 Loeb, public-domain and carefully proofread according to the page.",
+    "source_span": "I.59.1–I.60.1: completed bridge and enemy adaptations; envoys, grain request, pack-horses, cohort defection, and the linked change in political and supply state."
+  },
+  "duplicate_screen": {
+    "checked": "Bounded route-check and proposal search found no Caesar bridge/adaptation card. Existing transport and withdrawal cards model other source mechanisms; this card uses repeated threat observation and explicit alliance/supply updates.",
+    "difference": "One typed response consumes a threat observation and produces multiple coupled fields; it is not a count, rotation, transport-NEXT repair, or static source-event record."
+  },
+  "complete_source_account": [
+    {
+      "span": "I.59.1",
+      "content": "When the bridge is completed, the enemy becomes less free and audacious because of the cavalry. They remain nearer camp for faster retreat and forage more narrowly; when circling wider they avoid outposts and pickets; after loss or sight of cavalry they break off, throw away packs, and flee; finally they stop action for days and forage by night."
+    },
+    {
+      "span": "I.60.1",
+      "content": "Osca and associated Calagurris send envoys and promise obedience; Tarraco, Lacetani, Ausetani, and later Illurgavonenses follow. Caesar asks for grain; the communities promise, gather available pack-horses, and bring grain to camp. An Illurgavonenses cohort defects after learning its state's intention and transfers its standards."
+    },
+    {
+      "span": "I.60.1 conclusion",
+      "content": "The source then reports a linked change of fortune: the bridge is complete, five important states have changed side, grain supply is easy, rumors of Pompeian auxiliaries are suppressed, and more distant communities desert Afranius for Caesar."
+    }
+  ],
+  "constructor": {
+    "types": [
+      "INFRASTRUCTURE_STATE",
+      "THREAT_SIGNAL",
+      "ENEMY_ROUTE",
+      "FORAGE_SCHEDULE",
+      "PACK_STATE",
+      "COMMUNITY",
+      "SUPPLY_STATE",
+      "COHORT_LOYALTY",
+      "RUMOR_STATE"
+    ],
+    "operators": {
+      "OBSERVE_CAVALRY": "OBSERVE_CAVALRY(enemy,visibility,loss) -> THREAT_SIGNAL",
+      "ADAPT_FORAGE": "ADAPT_FORAGE(threat_signal,enemy_route,pack_state) -> (enemy_route,pack_state,forage_schedule)",
+      "REQUEST_SUPPLY": "REQUEST_SUPPLY(community,grain_need) -> community_commitment",
+      "DELIVER_SUPPLY": "DELIVER_SUPPLY(community,commitment,pack_horses) -> SUPPLY_STATE",
+      "DEFECT": "DEFECT(cohort,state_intention) -> COHORT_LOYALTY",
+      "UPDATE_ALLIANCE": "UPDATE_ALLIANCE(bridge,supply,defections,rumor_state) -> political_state"
+    },
+    "rules": [
+      "If cavalry is visible or causes loss, ADAPT_FORAGE narrows route or switches to avoidance; loss additionally permits PACK_STATE=discarded and FLEE.",
+      "If threat persists for several days, FORAGE_SCHEDULE changes from ordinary timing to night forage.",
+      "REQUEST_SUPPLY creates a commitment only for the addressed community; DELIVER_SUPPLY requires that commitment and available pack-horses.",
+      "A cohort DEFECTS only after the community intention is known; community political change and cohort loyalty are distinct fields.",
+      "UPDATE_ALLIANCE combines bridge, supply, rumor, and defection fields; it cannot invent a side change from bridge completion alone."
+    ],
+    "worked_python": "def response(threat='cavalry_visible', loss=False, persistent=True, community_intention=True):\n    s={'route':'ordinary','packs':'carried','forage':'day','grain':'scarce','cohort':'loyal','alliance':'unchanged'}\n    if threat=='cavalry_visible': s['route']='avoid_pickets'; s['forage']='narrow_limits'\n    if loss: s.update(route='break_off', packs='discarded', forage='flee')\n    if persistent: s['forage']='night'\n    if community_intention:\n        s['grain']='delivered_by_pack_horses'; s['cohort']='defected_after_state_intention'; s['alliance']='more_communities_side_with_Caesar'\n    return s\nfull=response()\nassert full['packs']=='carried'  # no loss was supplied\nassert full['forage']=='night'\nassert full['grain']=='delivered_by_pack_horses'\nassert response(loss=True)['packs']=='discarded'\nassert response(community_intention=False)['alliance']=='unchanged'\nprint(full)"
+  },
+  "rival": {
+    "name": "STATIC_EVENT_OR_SINGLE_THREAT_LABEL",
+    "rule": "Store bridge, cavalry, grain, envoys, and defection as co-present labels, or let one generic threat flag produce one outcome without route, pack, timing, supply, and loyalty arguments.",
+    "changed_consequence": "The rival cannot derive the source order: cavalry visibility changes route and pack behavior, persistence changes forage timing, community commitment changes grain and cohort loyalty, and rumor suppression changes the wider alliance state.",
+    "smallest_test": "Two complete passages with the same bridge but differing cavalry loss/persistence and community intention must produce distinct route/pack/timing/alliance states under the constructor."
+  },
+  "limits": [
+    "This is a narrated military history, not a writing manual.",
+    "The card formalizes causal links present in the passage; it does not claim every consequence is an independently verified historical mechanism.",
+    "No target token, participant, or manuscript meaning is assigned."
+  ]
+}
