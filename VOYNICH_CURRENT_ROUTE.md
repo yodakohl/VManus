@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Publish GDT1020;review new complete grafting proposal after source/primary checks.
-Latest decision: 1020both full33group unweaving schedules coherent;24guesses;2diplomaticforms unbound.
-Working files: experiments/yolo/gdt1020_unweaving_complete_assertion_graph/REPORT.md
-Assumptions: 0words;all content hypothetical;transport/unweaving dictionaries incompatible rivals.
-Resume: Publish1020;review raw_f17r_graft_complete_guarded_account_20260921.json before selection.
-Running: bounded_semantic_route awaits RAWgraft registration after refresh;root closure;end11:11:33UTC.
+Task: GDT1021 complete graft account; two seasonal scopes, all 23 groups.
+Latest decision: GDT1020 retains two coherent unweaving readings; zero confirmed words.
+Working files: experiments/yolo/gdt1021_graft_complete_scoped_instructions/DECISION.md
+Assumptions: 23 guessed whole values; all singleton; uncertain ZL retained; IT unbound.
+Resume: Lock/publicly register 1021, execute both scopes and all scenarios; budget 05:00 UTC.
+Running: root 1021; bounded_semantic_route proposes another domain; session ends 11:11:33 UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
