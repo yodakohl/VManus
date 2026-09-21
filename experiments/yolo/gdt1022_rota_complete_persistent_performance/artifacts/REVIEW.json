@@ -1,0 +1,64 @@
+{
+  "record_id": "GDT1022",
+  "scope": "semantic",
+  "verdict": "supported_limited",
+  "reviewer": "root registered complete graph/performance audit and independent arithmetic replay",
+  "reason": "All 12 full projected instruction realizations coherent across C0-C3; references, startup, pauses and persistent clocks verified. Wrong-owner model differs in 8 cases, reset in 12; serial startup impossible. All meanings and score bindings remain assumed.",
+  "assessment_basis": "registered_complete_projected_instruction_execution",
+  "evidence": [
+    "experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md",
+    "experiments/yolo/gdt1022_rota_complete_persistent_performance/artifacts/RESULT.json",
+    "experiments/yolo/gdt1022_rota_complete_persistent_performance/artifacts/CANDIDATES.tsv"
+  ],
+  "blockers": [
+    {
+      "code": "meaning_source_and_writer_unresolved",
+      "detail": "53 guessed whole values, 14 fitted productions, 4 external score referents; two raw ZL forms unbound, IT whole paragraph uncovered; no independent meaning.",
+      "evidence": [
+        "experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "new_complete_shared_binding",
+        "change": "new_design",
+        "detail": "Separately selected complete context/construction reusing fixed meanings with distinct consequences, preserving every source branch and uncertainty.",
+        "evidence": [
+          "experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Another perturbation of the known score",
+      "Fluency or inverse rendering",
+      "Selecting a convenient source-duration branch",
+      "New unbounded per-occurrence meanings"
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "IDEA000373",
+      "evidence": [
+        "experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "IDEA000364",
+      "evidence": [
+        "experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "IDEA000485",
+      "evidence": [
+        "experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md"
+      ]
+    }
+  ]
+}

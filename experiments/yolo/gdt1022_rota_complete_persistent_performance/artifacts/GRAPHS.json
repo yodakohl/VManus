@@ -1,0 +1,986 @@
+[
+  {
+    "n": 2,
+    "graph": {
+      "clauses": [
+        {
+          "id": "C01",
+          "production": "Permission",
+          "start": 0,
+          "end": 4,
+          "tags": [
+            "ROTA",
+            "FOUR",
+            "COMPANIONS",
+            "MAY_SING"
+          ]
+        },
+        {
+          "id": "C02",
+          "production": "UniversalRepeat",
+          "start": 4,
+          "end": 8,
+          "tags": [
+            "SAME_MELODY",
+            "EACH",
+            "FOLLOWER",
+            "REPEAT"
+          ]
+        },
+        {
+          "id": "C03",
+          "production": "ConcurrentRepeat",
+          "start": 8,
+          "end": 14,
+          "tags": [
+            "TWO",
+            "PES",
+            "TOGETHER",
+            "AS_NEEDED",
+            "REPEAT",
+            "THEIR_PART"
+          ]
+        },
+        {
+          "id": "C04",
+          "production": "UniversalPauseRestriction",
+          "start": 14,
+          "end": 18,
+          "tags": [
+            "ALL",
+            "FOLLOWER",
+            "PAUSE_ONLY",
+            "WRITTEN_PAUSES"
+          ]
+        },
+        {
+          "id": "C05",
+          "production": "PairedLocation",
+          "start": 18,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "PAUSE",
+            "END",
+            "LOWER_PES",
+            "MIDDLE"
+          ]
+        },
+        {
+          "id": "C06",
+          "production": "Startup",
+          "start": 23,
+          "end": 29,
+          "tags": [
+            "INITIALLY",
+            "TOGETHER",
+            "ONE",
+            "SING",
+            "WITH_PES",
+            "OTHERS_SILENT"
+          ]
+        },
+        {
+          "id": "C07",
+          "production": "FirstCueOwner",
+          "start": 29,
+          "end": 34,
+          "tags": [
+            "WHEN",
+            "CROSS_CUE",
+            "FOLLOWER",
+            "AFTER_CUE_OF",
+            "LEADER"
+          ]
+        },
+        {
+          "id": "C08",
+          "production": "RecursiveCueOwner",
+          "start": 34,
+          "end": 38,
+          "tags": [
+            "AND_NEXT",
+            "NEXT_FOLLOWER",
+            "IMMEDIATE_PREDECESSOR",
+            "SAME_RULE"
+          ]
+        },
+        {
+          "id": "C09",
+          "production": "AssignedPartContinuation",
+          "start": 38,
+          "end": 42,
+          "tags": [
+            "OTHER_MEMBER",
+            "SING",
+            "NO_END_PAUSE",
+            "IMMEDIATE_RESTART"
+          ]
+        },
+        {
+          "id": "C10",
+          "production": "RestDuration",
+          "start": 42,
+          "end": 45,
+          "tags": [
+            "EACH_ROTA_SINGER",
+            "WRITTEN_PAUSE",
+            "ONE_LONG_NOTE"
+          ]
+        },
+        {
+          "id": "C11",
+          "production": "GroupCount",
+          "start": 45,
+          "end": 49,
+          "tags": [
+            "GROUP_INCLUDING",
+            "FOLLOWER",
+            "THREE_OR_AT_LEAST_TWO",
+            "EXCLUDING_PES"
+          ]
+        },
+        {
+          "id": "C12",
+          "production": "ConditionalEntry",
+          "start": 49,
+          "end": 55,
+          "tags": [
+            "WHEN",
+            "THAT",
+            "REACH",
+            "PREDECESSOR",
+            "ENTER",
+            "NEXT"
+          ]
+        },
+        {
+          "id": "C13",
+          "production": "EntryProhibition",
+          "start": 55,
+          "end": 60,
+          "tags": [
+            "NOT",
+            "BEFORE",
+            "ENTER",
+            "CUE_ATTAINMENT",
+            "ANY_ROTA_SINGER"
+          ]
+        },
+        {
+          "id": "C14",
+          "production": "ScopedException",
+          "start": 60,
+          "end": 62,
+          "tags": [
+            "EXCEPT",
+            "LEADER"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "techedy",
+        "qotchedy",
+        "okeedy",
+        "ldy",
+        "cheol",
+        "qokchedy",
+        "lchedy",
+        "qokey",
+        "sy",
+        "s",
+        "aiin",
+        "sheekchy",
+        "qokey",
+        "sain",
+        "shky",
+        "lchedy",
+        "dolshed",
+        "qokchy",
+        "saiin",
+        "cheky",
+        "okeeol",
+        "okain",
+        "chdy",
+        "sor",
+        "aiin",
+        "shy",
+        "shey",
+        "lshedy",
+        "qoky",
+        "sol",
+        "lkedy",
+        "lchedy",
+        "qokol",
+        "shedy",
+        "or",
+        "chey",
+        "qockhey",
+        "dairydy",
+        "qokain",
+        "shey",
+        "kain",
+        "chckhal",
+        "solchedy",
+        "olchedy",
+        "chedaiin",
+        "solkey",
+        "lchedy",
+        "qolkain",
+        "dal",
+        "sol",
+        "ol",
+        "chcthdy",
+        "l",
+        "chedy",
+        "lchdy",
+        "daiin",
+        "sheol",
+        "chedy",
+        "qotal",
+        "sar",
+        "skar",
+        "shedy"
+      ],
+      "rota": [
+        "R0",
+        "R1"
+      ],
+      "followers": [
+        "R1"
+      ],
+      "pes": [
+        "U",
+        "L"
+      ],
+      "assigned": {
+        "R0": "M",
+        "R1": "M",
+        "U": "P1",
+        "L": "P2"
+      },
+      "repeat": {
+        "R1": "C02",
+        "U": "C03",
+        "L": "C03+C09",
+        "R0": "source cyclic-rota assumption"
+      },
+      "startup": [
+        "R0",
+        "U",
+        "L"
+      ],
+      "triggers": {
+        "R1": {
+          "owner": "R0",
+          "cue": "MN010",
+          "source": "C07+C12"
+        }
+      },
+      "early_forbidden": [
+        "R1"
+      ],
+      "leader_exception": "R0",
+      "rest_only": {
+        "R1": "M written rests"
+      },
+      "pause_locations": {
+        "U": "END",
+        "L": "INTERNAL"
+      },
+      "no_added_end_rest": [
+        "L"
+      ],
+      "main_rests_longa": [
+        "R0",
+        "R1"
+      ],
+      "count_scope": [
+        "R0",
+        "R1"
+      ],
+      "count_excludes": [
+        "U",
+        "L"
+      ],
+      "known_permitted_count": 4,
+      "minimum_count": 2,
+      "maximum_count": null,
+      "source_referents": {
+        "main": "M",
+        "upper": "P1",
+        "lower": "P2",
+        "cue": "MN010"
+      }
+    }
+  },
+  {
+    "n": 3,
+    "graph": {
+      "clauses": [
+        {
+          "id": "C01",
+          "production": "Permission",
+          "start": 0,
+          "end": 4,
+          "tags": [
+            "ROTA",
+            "FOUR",
+            "COMPANIONS",
+            "MAY_SING"
+          ]
+        },
+        {
+          "id": "C02",
+          "production": "UniversalRepeat",
+          "start": 4,
+          "end": 8,
+          "tags": [
+            "SAME_MELODY",
+            "EACH",
+            "FOLLOWER",
+            "REPEAT"
+          ]
+        },
+        {
+          "id": "C03",
+          "production": "ConcurrentRepeat",
+          "start": 8,
+          "end": 14,
+          "tags": [
+            "TWO",
+            "PES",
+            "TOGETHER",
+            "AS_NEEDED",
+            "REPEAT",
+            "THEIR_PART"
+          ]
+        },
+        {
+          "id": "C04",
+          "production": "UniversalPauseRestriction",
+          "start": 14,
+          "end": 18,
+          "tags": [
+            "ALL",
+            "FOLLOWER",
+            "PAUSE_ONLY",
+            "WRITTEN_PAUSES"
+          ]
+        },
+        {
+          "id": "C05",
+          "production": "PairedLocation",
+          "start": 18,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "PAUSE",
+            "END",
+            "LOWER_PES",
+            "MIDDLE"
+          ]
+        },
+        {
+          "id": "C06",
+          "production": "Startup",
+          "start": 23,
+          "end": 29,
+          "tags": [
+            "INITIALLY",
+            "TOGETHER",
+            "ONE",
+            "SING",
+            "WITH_PES",
+            "OTHERS_SILENT"
+          ]
+        },
+        {
+          "id": "C07",
+          "production": "FirstCueOwner",
+          "start": 29,
+          "end": 34,
+          "tags": [
+            "WHEN",
+            "CROSS_CUE",
+            "FOLLOWER",
+            "AFTER_CUE_OF",
+            "LEADER"
+          ]
+        },
+        {
+          "id": "C08",
+          "production": "RecursiveCueOwner",
+          "start": 34,
+          "end": 38,
+          "tags": [
+            "AND_NEXT",
+            "NEXT_FOLLOWER",
+            "IMMEDIATE_PREDECESSOR",
+            "SAME_RULE"
+          ]
+        },
+        {
+          "id": "C09",
+          "production": "AssignedPartContinuation",
+          "start": 38,
+          "end": 42,
+          "tags": [
+            "OTHER_MEMBER",
+            "SING",
+            "NO_END_PAUSE",
+            "IMMEDIATE_RESTART"
+          ]
+        },
+        {
+          "id": "C10",
+          "production": "RestDuration",
+          "start": 42,
+          "end": 45,
+          "tags": [
+            "EACH_ROTA_SINGER",
+            "WRITTEN_PAUSE",
+            "ONE_LONG_NOTE"
+          ]
+        },
+        {
+          "id": "C11",
+          "production": "GroupCount",
+          "start": 45,
+          "end": 49,
+          "tags": [
+            "GROUP_INCLUDING",
+            "FOLLOWER",
+            "THREE_OR_AT_LEAST_TWO",
+            "EXCLUDING_PES"
+          ]
+        },
+        {
+          "id": "C12",
+          "production": "ConditionalEntry",
+          "start": 49,
+          "end": 55,
+          "tags": [
+            "WHEN",
+            "THAT",
+            "REACH",
+            "PREDECESSOR",
+            "ENTER",
+            "NEXT"
+          ]
+        },
+        {
+          "id": "C13",
+          "production": "EntryProhibition",
+          "start": 55,
+          "end": 60,
+          "tags": [
+            "NOT",
+            "BEFORE",
+            "ENTER",
+            "CUE_ATTAINMENT",
+            "ANY_ROTA_SINGER"
+          ]
+        },
+        {
+          "id": "C14",
+          "production": "ScopedException",
+          "start": 60,
+          "end": 62,
+          "tags": [
+            "EXCEPT",
+            "LEADER"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "techedy",
+        "qotchedy",
+        "okeedy",
+        "ldy",
+        "cheol",
+        "qokchedy",
+        "lchedy",
+        "qokey",
+        "sy",
+        "s",
+        "aiin",
+        "sheekchy",
+        "qokey",
+        "sain",
+        "shky",
+        "lchedy",
+        "dolshed",
+        "qokchy",
+        "saiin",
+        "cheky",
+        "okeeol",
+        "okain",
+        "chdy",
+        "sor",
+        "aiin",
+        "shy",
+        "shey",
+        "lshedy",
+        "qoky",
+        "sol",
+        "lkedy",
+        "lchedy",
+        "qokol",
+        "shedy",
+        "or",
+        "chey",
+        "qockhey",
+        "dairydy",
+        "qokain",
+        "shey",
+        "kain",
+        "chckhal",
+        "solchedy",
+        "olchedy",
+        "chedaiin",
+        "solkey",
+        "lchedy",
+        "qolkain",
+        "dal",
+        "sol",
+        "ol",
+        "chcthdy",
+        "l",
+        "chedy",
+        "lchdy",
+        "daiin",
+        "sheol",
+        "chedy",
+        "qotal",
+        "sar",
+        "skar",
+        "shedy"
+      ],
+      "rota": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "followers": [
+        "R1",
+        "R2"
+      ],
+      "pes": [
+        "U",
+        "L"
+      ],
+      "assigned": {
+        "R0": "M",
+        "R1": "M",
+        "R2": "M",
+        "U": "P1",
+        "L": "P2"
+      },
+      "repeat": {
+        "R1": "C02",
+        "R2": "C02",
+        "U": "C03",
+        "L": "C03+C09",
+        "R0": "source cyclic-rota assumption"
+      },
+      "startup": [
+        "R0",
+        "U",
+        "L"
+      ],
+      "triggers": {
+        "R1": {
+          "owner": "R0",
+          "cue": "MN010",
+          "source": "C07+C12"
+        },
+        "R2": {
+          "owner": "R1",
+          "cue": "MN010",
+          "source": "C08+C12"
+        }
+      },
+      "early_forbidden": [
+        "R1",
+        "R2"
+      ],
+      "leader_exception": "R0",
+      "rest_only": {
+        "R1": "M written rests",
+        "R2": "M written rests"
+      },
+      "pause_locations": {
+        "U": "END",
+        "L": "INTERNAL"
+      },
+      "no_added_end_rest": [
+        "L"
+      ],
+      "main_rests_longa": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "count_scope": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "count_excludes": [
+        "U",
+        "L"
+      ],
+      "known_permitted_count": 4,
+      "minimum_count": 2,
+      "maximum_count": null,
+      "source_referents": {
+        "main": "M",
+        "upper": "P1",
+        "lower": "P2",
+        "cue": "MN010"
+      }
+    }
+  },
+  {
+    "n": 4,
+    "graph": {
+      "clauses": [
+        {
+          "id": "C01",
+          "production": "Permission",
+          "start": 0,
+          "end": 4,
+          "tags": [
+            "ROTA",
+            "FOUR",
+            "COMPANIONS",
+            "MAY_SING"
+          ]
+        },
+        {
+          "id": "C02",
+          "production": "UniversalRepeat",
+          "start": 4,
+          "end": 8,
+          "tags": [
+            "SAME_MELODY",
+            "EACH",
+            "FOLLOWER",
+            "REPEAT"
+          ]
+        },
+        {
+          "id": "C03",
+          "production": "ConcurrentRepeat",
+          "start": 8,
+          "end": 14,
+          "tags": [
+            "TWO",
+            "PES",
+            "TOGETHER",
+            "AS_NEEDED",
+            "REPEAT",
+            "THEIR_PART"
+          ]
+        },
+        {
+          "id": "C04",
+          "production": "UniversalPauseRestriction",
+          "start": 14,
+          "end": 18,
+          "tags": [
+            "ALL",
+            "FOLLOWER",
+            "PAUSE_ONLY",
+            "WRITTEN_PAUSES"
+          ]
+        },
+        {
+          "id": "C05",
+          "production": "PairedLocation",
+          "start": 18,
+          "end": 23,
+          "tags": [
+            "UPPER_PES",
+            "PAUSE",
+            "END",
+            "LOWER_PES",
+            "MIDDLE"
+          ]
+        },
+        {
+          "id": "C06",
+          "production": "Startup",
+          "start": 23,
+          "end": 29,
+          "tags": [
+            "INITIALLY",
+            "TOGETHER",
+            "ONE",
+            "SING",
+            "WITH_PES",
+            "OTHERS_SILENT"
+          ]
+        },
+        {
+          "id": "C07",
+          "production": "FirstCueOwner",
+          "start": 29,
+          "end": 34,
+          "tags": [
+            "WHEN",
+            "CROSS_CUE",
+            "FOLLOWER",
+            "AFTER_CUE_OF",
+            "LEADER"
+          ]
+        },
+        {
+          "id": "C08",
+          "production": "RecursiveCueOwner",
+          "start": 34,
+          "end": 38,
+          "tags": [
+            "AND_NEXT",
+            "NEXT_FOLLOWER",
+            "IMMEDIATE_PREDECESSOR",
+            "SAME_RULE"
+          ]
+        },
+        {
+          "id": "C09",
+          "production": "AssignedPartContinuation",
+          "start": 38,
+          "end": 42,
+          "tags": [
+            "OTHER_MEMBER",
+            "SING",
+            "NO_END_PAUSE",
+            "IMMEDIATE_RESTART"
+          ]
+        },
+        {
+          "id": "C10",
+          "production": "RestDuration",
+          "start": 42,
+          "end": 45,
+          "tags": [
+            "EACH_ROTA_SINGER",
+            "WRITTEN_PAUSE",
+            "ONE_LONG_NOTE"
+          ]
+        },
+        {
+          "id": "C11",
+          "production": "GroupCount",
+          "start": 45,
+          "end": 49,
+          "tags": [
+            "GROUP_INCLUDING",
+            "FOLLOWER",
+            "THREE_OR_AT_LEAST_TWO",
+            "EXCLUDING_PES"
+          ]
+        },
+        {
+          "id": "C12",
+          "production": "ConditionalEntry",
+          "start": 49,
+          "end": 55,
+          "tags": [
+            "WHEN",
+            "THAT",
+            "REACH",
+            "PREDECESSOR",
+            "ENTER",
+            "NEXT"
+          ]
+        },
+        {
+          "id": "C13",
+          "production": "EntryProhibition",
+          "start": 55,
+          "end": 60,
+          "tags": [
+            "NOT",
+            "BEFORE",
+            "ENTER",
+            "CUE_ATTAINMENT",
+            "ANY_ROTA_SINGER"
+          ]
+        },
+        {
+          "id": "C14",
+          "production": "ScopedException",
+          "start": 60,
+          "end": 62,
+          "tags": [
+            "EXCEPT",
+            "LEADER"
+          ]
+        }
+      ],
+      "raw_roundtrip": [
+        "techedy",
+        "qotchedy",
+        "okeedy",
+        "ldy",
+        "cheol",
+        "qokchedy",
+        "lchedy",
+        "qokey",
+        "sy",
+        "s",
+        "aiin",
+        "sheekchy",
+        "qokey",
+        "sain",
+        "shky",
+        "lchedy",
+        "dolshed",
+        "qokchy",
+        "saiin",
+        "cheky",
+        "okeeol",
+        "okain",
+        "chdy",
+        "sor",
+        "aiin",
+        "shy",
+        "shey",
+        "lshedy",
+        "qoky",
+        "sol",
+        "lkedy",
+        "lchedy",
+        "qokol",
+        "shedy",
+        "or",
+        "chey",
+        "qockhey",
+        "dairydy",
+        "qokain",
+        "shey",
+        "kain",
+        "chckhal",
+        "solchedy",
+        "olchedy",
+        "chedaiin",
+        "solkey",
+        "lchedy",
+        "qolkain",
+        "dal",
+        "sol",
+        "ol",
+        "chcthdy",
+        "l",
+        "chedy",
+        "lchdy",
+        "daiin",
+        "sheol",
+        "chedy",
+        "qotal",
+        "sar",
+        "skar",
+        "shedy"
+      ],
+      "rota": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "followers": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "pes": [
+        "U",
+        "L"
+      ],
+      "assigned": {
+        "R0": "M",
+        "R1": "M",
+        "R2": "M",
+        "R3": "M",
+        "U": "P1",
+        "L": "P2"
+      },
+      "repeat": {
+        "R1": "C02",
+        "R2": "C02",
+        "R3": "C02",
+        "U": "C03",
+        "L": "C03+C09",
+        "R0": "source cyclic-rota assumption"
+      },
+      "startup": [
+        "R0",
+        "U",
+        "L"
+      ],
+      "triggers": {
+        "R1": {
+          "owner": "R0",
+          "cue": "MN010",
+          "source": "C07+C12"
+        },
+        "R2": {
+          "owner": "R1",
+          "cue": "MN010",
+          "source": "C08+C12"
+        },
+        "R3": {
+          "owner": "R2",
+          "cue": "MN010",
+          "source": "C08+C12"
+        }
+      },
+      "early_forbidden": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "leader_exception": "R0",
+      "rest_only": {
+        "R1": "M written rests",
+        "R2": "M written rests",
+        "R3": "M written rests"
+      },
+      "pause_locations": {
+        "U": "END",
+        "L": "INTERNAL"
+      },
+      "no_added_end_rest": [
+        "L"
+      ],
+      "main_rests_longa": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "count_scope": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "count_excludes": [
+        "U",
+        "L"
+      ],
+      "known_permitted_count": 4,
+      "minimum_count": 2,
+      "maximum_count": null,
+      "source_referents": {
+        "main": "M",
+        "upper": "P1",
+        "lower": "P2",
+        "cue": "MN010"
+      }
+    }
+  }
+]
