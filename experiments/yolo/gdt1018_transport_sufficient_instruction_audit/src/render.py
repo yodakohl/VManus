@@ -4,7 +4,7 @@ import csv,collections
 
 def table(name,fields,rows):
     with (A/name).open('w') as f:
-        w=csv.DictWriter(f,fieldnames=fields,delimiter='\t');w.writeheader();w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=fields,delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(rows)
 
 def main():
     rows=read(A/'ROWS.json');originals={r['id']:r for r in rows if r['scope']=='original'}
