@@ -1,0 +1,205 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional96group projected account;40 new guesses,11 clauses,7 binding conventions; no independent meaning, source identity or confirmed word.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/validate.py"
+  },
+  "created": "2026-09-21",
+  "dependencies": [
+    "GDT928",
+    "GDT1020"
+  ],
+  "experiment_id": "GDT1025",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/raw_f83r_unweaving_explicit_reference_grammar.json",
+      "sha256": "58fdee36e768098230adfeeef4942338844da94e29abe585c1f3c08324b2adad",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/proposals/raw_unweaving404_complete_assertion_execution_20260921.json",
+      "sha256": "376f4178104ccef0469b4066de531bfc68a786c08c6a414eb9f85ed6edd48786",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/proposals/raw_f83r_concealed_unweaving_narrative.json",
+      "sha256": "7d36bc7e5d1aa7c9c10254f78a66b16ec08c98fa60a0659af5b3e6a52a02940b",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/P12/READING_L1.md",
+      "sha256": "806658aff934443495fc923fa12a272d44d8af6fd602013d247c66571944ed09",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/proposals/raw_transport_weaving_hours_context_20260920.md",
+      "sha256": "38529a12f0fdb33f1a24af76584fb68943d4424f90c09251091cebbe65b3e601",
+      "role": "fixed_input"
+    },
+    {
+      "path": "research_registry/proposals/raw_f83r_unweaving_second_paragraph_frozen24_20260921.json",
+      "sha256": "555108f937b92c6cce484d3a041a01e41335359bb866196d3335fee22ec8ca3d",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1020_unweaving_complete_assertion_graph/src/common.py",
+      "sha256": "daab7b3c1cae94203f8578abeaa36efc79a7e6a571e24695929c787e9355f523",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1020_unweaving_complete_assertion_graph/src/model.py",
+      "sha256": "a556de3503a7464bc86863920cabeb9b7021d7e3de7b4770a3e2fbd560912321",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1020_unweaving_complete_assertion_graph/src/independent.py",
+      "sha256": "e5d8a786c0df6c8b3339946d38f11a00ea4abf2f8ff7e6384b359ae7aba0d85d",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1020_unweaving_complete_assertion_graph/src/SOURCE.json",
+      "sha256": "3075d9f4fb84128ccfc47f627ae2c26b22642f8e0d6ca635d7f1329fc9dff3b5",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1020_unweaving_complete_assertion_graph/src/SPEC.json",
+      "sha256": "6b7b40000c01583ee2f9c4515e590ed9ec9270be99757996ea7cd4983eb340a0",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1020_unweaving_complete_assertion_graph/artifacts/ROWS.json",
+      "sha256": "478edd6113087219eca4769086bb49d1e06973e4dafb94a38a81adb1fe14b176",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1020_unweaving_complete_assertion_graph/REPORT.md",
+      "sha256": "92de60ac19935bfb0addda4c691f9c6f9952d20fe1e82274f29340845fa90fc9",
+      "role": "fixed_input"
+    },
+    {
+      "path": "experiments/yolo/gdt1020_unweaving_complete_assertion_graph/PREREG_LOCK.json",
+      "sha256": "62122ccc3ebf153b14b26a2c8a76933bcd8d599184903ecc04c02b67ea861ade",
+      "role": "fixed_input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/DECISION.md",
+      "sha256": "cec0b2a646d1fda6e6cad519330e47e32e4810a77767729324a9f116da08dfa9",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/METHOD.md",
+      "sha256": "11d3ddf61ce51e34e70b5fda86043065eae6d0d82094a8561b2e65daafbd9ae7",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/PREREGISTRATION.md",
+      "sha256": "c28775b4d6fc46b32607a6851fc6b9f812cc16aaa13f045048185e8ab9a61c6c",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/PREREG_LOCK.json",
+      "sha256": "103ef7d36dcec51c000057ab58c5fdc8ca22e45d5a60a202a438685d31fd05fe",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/README.md",
+      "sha256": "ef2ba3773d2f69ecdfba79152984d36359aa6de0e547d74a2a4a15300b7b57cb",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md",
+      "sha256": "5cbb9fed87dc4518dfadc5c1272f11850d3e0df254caf168cd0c8789424e08b4",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/artifacts/PREDICTIONS.tsv",
+      "sha256": "8c7c8db67b7b3dde22b93ef7270b75acd00d2dac39fd4887b0878150a2e7e4b9",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/artifacts/PREFLIGHT.json",
+      "sha256": "74529d78332b759cad3d543b99b7709b53cf07287d493eb671f809fad4c49a03",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/artifacts/SOURCE_SCOPE_AUDIT.json",
+      "sha256": "92673d0a297dc36da8f0aa508b9dac39034120346e38991fc736cf56b4ef43c4",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/SOURCE.json",
+      "sha256": "555108f937b92c6cce484d3a041a01e41335359bb866196d3335fee22ec8ca3d",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/SPEC.json",
+      "sha256": "1a9ef41e6840dc1b642cd468ce49d41342f2969572e60f18d2ee1673d83d8262",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/bind.py",
+      "sha256": "79b8e8bd9070563fbea99f7ee5dd9f9256a0110b1be462006d2d51725b2b0b81",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/common.py",
+      "sha256": "9ebb16f1d617b5c8f498ae0378d02dad20f5b72f95c2f4811cfe06a128947fad",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/independent.py",
+      "sha256": "06d79334517f901a55b35f9c19ba8e90f4e2e0d82ff2213f296ea9c038802a35",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/model.py",
+      "sha256": "b0f6d77304961644aaa63d3314f2085317f504f7317514d5b676072bff51258c",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/preflight.py",
+      "sha256": "f0555026cfe1fd75ebc5a68bfcd6cd330ed8fa9c563dbf97d58f529022d47849",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/run.py",
+      "sha256": "ad0f0d7a6c0741b51f08cf8399b3f3da5e6b8252f429184932fa34a36481e532",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1025_unweaving_two_paragraph_identity/src/validate.py",
+      "sha256": "ec3557ee330f34004470a98265f0c2698409e517f135b580a9786e6a400b1c3b",
+      "role": "source_or_artifact"
+    }
+  ],
+  "question": "Can the complete fixed unweaving summary and original paragraph share all24 old meanings, state scopes and activity identities, and does their explicit shared-frame assumption distinguish the old two schedules?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "unweaving_two_paragraph_identity",
+  "status": "REGISTERED_UNSCORED",
+  "title": "unweaving two paragraph identity",
+  "updated": "2026-09-21",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

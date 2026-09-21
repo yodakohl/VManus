@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1023**
-- Experiment-associated tracked files: **20,309** (1.9 GiB)
-- Structured GDT337+ experiments: **688**
+- Experiments indexed: **1024**
+- Experiment-associated tracked files: **20,329** (1.9 GiB)
+- Structured GDT337+ experiments: **689**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1025 | unweaving two paragraph identity | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md) | 20 | 133.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1024 | GDT1024 | `SUPPORTED_LIMITED_TWO_PROJECTED_PARAGRAPHS_FIXED53` | [report](../experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/REPORT.md) | 33 | 349.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT1023 | GDT1023 | `SUPPORTED_LIMITED_COMPLETE_PROJECTED_AMULET_ACCOUNT` | [report](../experiments/yolo/gdt1023_amulet_complete_typed_assembly/REPORT.md) | 31 | 404.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT1022 | GDT1022 | `SUPPORTED_LIMITED_COMPLETE_PROJECTED_ROTA_ACCOUNT` | [report](../experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md) | 33 | 3.3 MiB | 3 | STRUCTURED_YOLO |
