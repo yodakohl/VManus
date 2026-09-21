@@ -2,14 +2,14 @@
 Updated: 2026-09-21. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Find complete additional content that constrains fixed shared meanings.
-Latest decision: GDT1028 conditional Galen reading retained; all12 semantic rivals share physical traces.
-Working files: experiments/yolo/gdt1028_galen_whole_preparation_and_desire/REPORT.md
-Assumptions: 36guesses/5productions/15bindings+B16; ownership/ideal rebindings; IT51unbound;0words.
-Resume: Review RAW497 whole-extension gaps and primaries before choosing another complete binding.
-Running: GDT1028 publication; producer comparative/epistemic draft by07:55; session end11:11:33UTC.
+Task: Test95group paired Galen II/III reading with separate adequate-softness and reference scopes.
+Latest decision: RAW500 selected as GDT1029; strict36 extension incomplete, qoky broadening explicit.
+Working files: experiments/yolo/gdt1029_galen_paired_endpoint_and_reference/DECISION.md
+Assumptions: 35old values literal; qoky1 broadened;31new/6discontinuous productions/26bindings;0words.
+Resume: Publicly register fixed87 predictions, then execute with228 unchanged parent replays.
+Running: root1029 deadline08:28:28; producer whole clock continuation by08:20; end11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
