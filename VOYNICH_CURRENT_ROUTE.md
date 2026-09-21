@@ -2,14 +2,14 @@
 Updated: 2026-09-21. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour research01:11:33–11:11:33UTC;publish1013,select a meaning discriminator.
-Latest decision: 1013all20classes312cases have full shared worlds;all original codes survive.
-Working files: experiments/yolo/gdt1013_transport_complete_long_worlds/REPORT.md
-Assumptions: 0words;71–75newaliases17–39THENpositions;9independentSAT11UNKNOWN,all witnesses replay.
-Resume: Finish1013publication;review complete composition/content rivals before new selection.
-Running: Root closes1013;bounded source-only producer through01:39UTC;no target solve.
+Task: GDT1014same wrapper acts on same semantic input;52classes312original/f50cases.
+Latest decision: 1013all casespositive;1014precursor36pass,28of29old witnessmaps violate law.
+Working files: experiments/yolo/gdt1014_semantic_wrapper_transport/DECISION.md
+Assumptions: 0words;partial law only;17/15wrappers cover54/49words;whole residuals unproved.
+Resume: Publish1014registration;run52complete cases;validate/lift;report everyoutcome.
+Running: No new target solve;02:37UTC checkpoint;ten-hour block through11:11:33UTC;producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
