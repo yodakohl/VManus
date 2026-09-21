@@ -2,14 +2,14 @@
 Updated: 2026-09-21. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Evaluate whole49group Galen preparation/desire reading with explicit source-goal bridge.
-Latest decision: RAW496 selected as GDT1028; base goal gap and serious ownership/scope rivals retained.
-Working files: experiments/yolo/gdt1028_galen_whole_preparation_and_desire/DECISION.md
-Assumptions: 36new values/5productions/15bindings; B16 optional; liquor3/ideal1 rebindings;0words.
-Resume: Publish locked228 predictions, then execute all36 whole graphs and independent validator.
-Running: root1028 deadline07:55:20; producer comparative/epistemic draft by07:55; end11:11:33UTC.
+Task: Find complete additional content that constrains fixed shared meanings.
+Latest decision: GDT1028 conditional Galen reading retained; all12 semantic rivals share physical traces.
+Working files: experiments/yolo/gdt1028_galen_whole_preparation_and_desire/REPORT.md
+Assumptions: 36guesses/5productions/15bindings+B16; ownership/ideal rebindings; IT51unbound;0words.
+Resume: Review RAW497 whole-extension gaps and primaries before choosing another complete binding.
+Running: GDT1028 publication; producer comparative/epistemic draft by07:55; session end11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
