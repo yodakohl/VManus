@@ -1,0 +1,51 @@
+{
+  "erratum_status": "CORRECTION_ONLY_ORIGINAL_PACKET_UNCHANGED",
+  "packet": "CASSIUS_DIO_XXXVII18_19_SOURCE_PACKET_20260921.json",
+  "original_packet_sha256": "0ae3c8dec3c6f00ac970ecb29de0babd2fd521b0feffc9ed027e2df8d8b1ae57",
+  "issue": "The stored RIVAL_A_EXCLUSIVE_FOURTH worked_output omitted the modular phase update correctly for entries after the first.",
+  "incorrect_stored_output": [
+    "Saturn",
+    "Venus",
+    "Mercury",
+    "Moon",
+    "Jupiter",
+    "Mars",
+    "Sun"
+  ],
+  "corrected_output": [
+    "Saturn",
+    "Venus",
+    "Jupiter",
+    "Mercury",
+    "Mars",
+    "Moon",
+    "Sun"
+  ],
+  "rule": "D_alt[i] = H[(4*i) mod 7] for i=0..6, with H=(Saturn,Jupiter,Mars,Sun,Venus,Mercury,Moon).",
+  "first_transition": "Saturn -> Venus",
+  "validation": {
+    "inclusive_skip_two": [
+      "Saturn",
+      "Sun",
+      "Moon",
+      "Mars",
+      "Mercury",
+      "Jupiter",
+      "Venus"
+    ],
+    "hourly_24": [
+      "Sun",
+      "Moon"
+    ],
+    "exclusive_fourth": [
+      "Saturn",
+      "Venus",
+      "Jupiter",
+      "Mercury",
+      "Mars",
+      "Moon",
+      "Sun"
+    ]
+  },
+  "interpretation": "The rival remains an ordinal/indexing alternative and remains directly challenged by XXXVII.19.2; only its seven-cycle worked output was corrected. No source or target claim changes."
+}

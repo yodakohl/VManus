@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1015 COMPLETE HYPOTHETICAL ARGUMENT: all80groups covered with60whole values,55new guesses and12supplied templates. Primary hour/day argument coherent;three index/repetition rivals fail;night reversal/reset each retains3unbound daylight counts;final reference remains ambiguous.357independent replays;0meaning capacity/words. Keep as exploratory reading, no automatic free-gloss expansion. [Report](experiments/yolo/gdt1015_coupled_hour_day_reading/REPORT.md).
+
 GDT1014 WRAPPER WORLDS: all52classes312cases retain complete worlds under one function perliteralprefix/suffix.96witnesses576lifts verify;independent44SAT8UNKNOWN.28old saved maps failbut alternativesexist for everycandidate.41–47functioninputcells only0–4reused;no candidate separation or productive meaning;0words. Close freewrapperdiscriminator,no automatic rule tightening. [Report](experiments/yolo/gdt1014_semantic_wrapper_transport/REPORT.md).
 
 GDT1013 COMPLETE SHARED WORLDS: all20classes312original-setting/f50r cases positive;29witnesses492lifts verified by both frozen executors. Independent search9SAT11UNKNOWN. All36original codes156settings survive;71–75newaliases and17–39THENpositions pernewparagraph. Original qokedy centrality does not generalize to saved added hazards.0words/independent meaning. Existence question closed positively;no automatic sampling/state repair. [Report](experiments/yolo/gdt1013_transport_complete_long_worlds/REPORT.md).

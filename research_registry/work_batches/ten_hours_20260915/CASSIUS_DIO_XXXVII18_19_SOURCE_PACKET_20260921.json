@@ -1,0 +1,176 @@
+{
+  "packet_status": "SOURCE_ONLY_COMPLETE_BOUNDED_PACKET",
+  "source": {
+    "work": "Cassius Dio, Roman History, Book XXXVII, chapters 18–19",
+    "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/37%2A.html",
+    "anchors": {
+      "start": "#18",
+      "end_main_text": "#19.3",
+      "editorial_note": "#note11"
+    },
+    "retrieved_utc": "2026-09-21",
+    "retrieved_bytes": 116602,
+    "retrieved_sha256": "711cacbaf717c9a3057afd979ae0cd62f1a4b6b634a3eff380731a2749c9acda",
+    "edition": "Hosted reproduction of Vol. III of the Loeb Classical Library, 1914; the page states the text is public domain and has not yet been proofread.",
+    "owned_span": "Main text XXXVII.18.1–19.3, ending at “This, then, is the tradition”; editorial note 11 attached there, included separately as note evidence.",
+    "source_boundary": "XXXVII.17.3 supplies the preceding Saturn-day context but is not part of this packet; XXXVII.20 begins after the requested span and is excluded."
+  },
+  "source_clause_inventory": [
+    {
+      "span": "XXXVII.18.1",
+      "owner": "Dio main text",
+      "content": "The custom of referring days to the seven stars called planets is attributed to the Egyptians; Dio says it is now widespread, comparatively recent, and not understood by the ancient Greeks as far as he knows."
+    },
+    {
+      "span": "XXXVII.18.2",
+      "owner": "Dio main text",
+      "content": "Because the practice is fashionable among mankind and Romans, Dio will explain briefly how it was arranged. He has heard two explanations; they are comprehensible but involve theories."
+    },
+    {
+      "span": "XXXVII.18.3",
+      "owner": "Dio main text",
+      "content": "First explanation: apply the musical principle of the tetrachord to the planets, treating the heavens as divided into regular intervals in the order of orbital revolution and beginning at Saturn, the outer orbit."
+    },
+    {
+      "span": "XXXVII.18.4",
+      "owner": "Dio main text",
+      "content": "In that order, omit the next two and name the lord of the fourth; then pass over two more to reach the seventh; repeat the operation with the orbits and their ruling divinities, assigning the selected rulers to successive days. The result is described as a musical connection between days and the heavens."
+    },
+    {
+      "span": "XXXVII.19.1",
+      "owner": "Dio main text",
+      "content": "Second explanation: begin at the first hour and count hours through day and night. Assign successive hours to Saturn, Jupiter, Mars, Sun, Venus, Mercury, and Moon, following the Egyptian cycle, and repeat the sequence."
+    },
+    {
+      "span": "XXXVII.19.2",
+      "owner": "Dio main text",
+      "content": "Under that repeated hourly sequence, the first hour of the following day is assigned to the Sun."
+    },
+    {
+      "span": "XXXVII.19.3",
+      "owner": "Dio main text",
+      "content": "Continuing the same operation through the next twenty-four hours assigns the first hour of the third day to the Moon; continuing similarly gives each day its appropriate god. Dio closes by calling this the tradition."
+    },
+    {
+      "span": "Editorial note 11",
+      "owner": "Loeb/editorial note, not Dio main text",
+      "content": "The note identifies the planetary order in both explanations by relative distance from Earth under the Ptolemaic system: Saturn, Jupiter, Mars, Sun, Venus, Mercury, Moon. It reconstructs the tetrachord daily order as Saturn, Sun, Moon, Mars, Mercury, Jupiter, Venus, and explains that in the hourly account the god of the first hour names the day."
+    }
+  ],
+  "typed_source_facts": {
+    "planetary_cycle_H": [
+      "Saturn",
+      "Jupiter",
+      "Mars",
+      "Sun",
+      "Venus",
+      "Mercury",
+      "Moon"
+    ],
+    "tetrachord_daily_cycle_D": [
+      "Saturn",
+      "Sun",
+      "Moon",
+      "Mars",
+      "Mercury",
+      "Jupiter",
+      "Venus"
+    ],
+    "entities": [
+      "PLANETARY_RULER",
+      "HOUR",
+      "DAY",
+      "NIGHT",
+      "DAY_NIGHT_SPAN",
+      "ORBIT_ORDER",
+      "DAY_ASSIGNMENT",
+      "HOUR_ASSIGNMENT"
+    ],
+    "operations_explicit_or_reconstructed": {
+      "skip_two_then_select": "From a current member, skip two following members and select the fourth position counting the current member; repeat around H. This inclusive reading is what yields the note-11 daily sequence.",
+      "hour_repeat": "Assign H cyclically to successive hours spanning day and night; the first hour of each day receives the day name.",
+      "day_transition": "A full next-day span is represented by 24 successive hourly assignments in XXXVII.19.3; the modular reduction to 24 mod 7 is analyst notation."
+    }
+  },
+  "explicit_vs_inferred": {
+    "explicit_main_text": [
+      "Two explanations are reported.",
+      "The first begins with Saturn, skips two, selects the fourth, then skips two and reaches the seventh, repeating for days.",
+      "The second assigns the seven-name hourly order beginning Saturn and explicitly gives Sun for the next day and Moon for the third day.",
+      "The second explanation explicitly counts the day and night and then the next twenty-four hours."
+    ],
+    "editorial_not_dio": [
+      "The Ptolemaic relative-distance rationale and the complete daily list are in note 11, not the main prose.",
+      "The note’s statement that the first-hour god names the day is an editorial clarification of the main explanation."
+    ],
+    "analyst_reduction": [
+      "Representing the seven names as a cyclic function H and writing D=H^3 are modern finite-state notation.",
+      "Treating “lord of the fourth” as inclusive counting is an interpretation of the words, checked against the explicitly stated Sun and Moon outcomes.",
+      "Equal clock-hour lengths, a sunrise boundary, astronomical causal truth, Greek manuscript wording, and any target-writing mapping are not supplied."
+    ]
+  },
+  "executable_derivations": [
+    {
+      "id": "DIO_TETRACHORD_SKIP_TWO_INCLUSIVE",
+      "source_basis": "XXXVII.18.3–4 plus editorial note 11",
+      "rule": "For each current index i in H, select H[(i+3) mod 7]: current member counts as first, two following members are omitted, and the fourth is selected. Repeat from the selected index.",
+      "python": "H = ('Saturn','Jupiter','Mars','Sun','Venus','Mercury','Moon')\nD = tuple(H[(3*i) % len(H)] for i in range(len(H)))\nassert D == ('Saturn','Sun','Moon','Mars','Mercury','Jupiter','Venus')\nprint(D)",
+      "expected_output": [
+        "Saturn",
+        "Sun",
+        "Moon",
+        "Mars",
+        "Mercury",
+        "Jupiter",
+        "Venus"
+      ],
+      "observable_consequence": "The ruler of the following day from Saturn is Sun; the third day is Moon when the same three-step transition is repeated."
+    },
+    {
+      "id": "DIO_HOURLY_24_STEP",
+      "source_basis": "XXXVII.19.1–3 plus editorial note 11",
+      "rule": "Assign H cyclically to each successive hour. The first day begins at H[0]=Saturn; after 24 assignments the next first-hour index is 24 mod 7 = 3, and after 48 assignments it is 6.",
+      "python": "H = ('Saturn','Jupiter','Mars','Sun','Venus','Mercury','Moon')\ndef first_hour_after(start_index, elapsed_hours):\n    return H[(start_index + elapsed_hours) % len(H)]\nassert first_hour_after(0, 24) == 'Sun'\nassert first_hour_after(0, 48) == 'Moon'\nprint(first_hour_after(0, 24), first_hour_after(0, 48))",
+      "expected_output": [
+        "Sun",
+        "Moon"
+      ],
+      "observable_consequence": "The first hours of the first three days are Saturn, Sun, Moon, matching the main-text claims; the algebraic relation is H^24 = H^3 on a seven-member cycle."
+    }
+  ],
+  "serious_coherent_rivals": [
+    {
+      "id": "RIVAL_A_EXCLUSIVE_FOURTH",
+      "rule": "Treat “lord of the fourth” as four advances after the starting planet rather than the fourth position including it, giving D_alt[i]=H[(i+4) mod 7]. Keep the same seven-name cycle and repeat rule.",
+      "worked_output": [
+        "Saturn",
+        "Venus",
+        "Mercury",
+        "Moon",
+        "Jupiter",
+        "Mars",
+        "Sun"
+      ],
+      "different_observable_relationship": "From a Saturn start, the tetrachord route predicts Venus for the following day rather than Sun. This is an ordinal/indexing rival, not a flat list, and it is directly challenged by XXXVII.19.2."
+    },
+    {
+      "id": "RIVAL_B_INDEPENDENT_DAY_TABLE",
+      "rule": "Treat the tetrachord day assignment and the hourly Egyptian cycle as two independently stated conventions. Preserve the editorial daily table D and hourly H, but do not impose D[i+1]=H[(first_hour_index+24) mod 7] as a semantic identity; a changed hourly phase or order changes hourly results without changing the day table.",
+      "worked_output": {
+        "day_table_next_from_Saturn": "Sun",
+        "hourly_next_under_H": "Sun",
+        "required_relation": "none"
+      },
+      "different_observable_relationship": "The coupled account predicts that any 24-hour continuation must produce the day-table successor, whereas this rival predicts only the separately listed day label. A later written case that preserves a day transition while changing the hourly phase distinguishes them; no such later target case is claimed here. The rival remains compatible with the first examples by coincidence, which is why the relation itself must be tested rather than inferred from one match."
+    }
+  ],
+  "ambiguities_and_limits": [
+    "The main text does not itself print the complete seven-day list; that list is in editorial note 11.",
+    "The phrase “fourth” can be indexed inclusively or as four advances; only the inclusive reading agrees with the explicit following-day Sun in the second explanation.",
+    "The text says day and night and then twenty-four hours but does not define a sunrise boundary, civil-day boundary, equal hour lengths, or whether “hour” is seasonal/astronomical.",
+    "The source reports two explanations and says they involve theories; it does not prove a modern algebraic identity or describe a writing system.",
+    "The hosted electronic text is explicitly unproofread. This packet does not collate Greek, manuscript transmission, or another translation.",
+    "No target token, word, line, paragraph, glyph, or manuscript meaning is included or implied by this source packet."
+  ],
+  "source_only_status": "RAW_SOURCE_PACKET_UNSELECTED; this packet supplies a primary-owned example and executable source derivations, not a Voynich result or confirmation."
+}

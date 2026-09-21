@@ -1,0 +1,78 @@
+{
+  "title": "Tacitus Annals I.28–30 omen-mediated mutiny reversal",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED. A complete Tacitus episode models a collective camp state changing through omen interpretation, targeted persuasion, conditional concession, leader punishment, and faction withdrawal. The same camp identity persists while belief, discipline, delegation, and legion membership change. A static grievance list or physical-omen-only account predicts no ordered restoration.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Tacitus, Annals, Book I, chapters 28.1–30.1",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/1B*.html",
+    "retrieved_utc": "2026-09-21",
+    "retrieved_bytes": 40880,
+    "retrieved_sha256": "039e0e92a78fe30c88cba9d970904a5303750198b7d681b0343ac46153db89e2",
+    "provenance": "LacusCurtius reproduction of Tacitus, Annals, Vol. III of the Loeb Classical Library, 1931. The page states the text is public domain and carefully proofread.",
+    "source_span": "I.28.1 through I.30.1 inclusive: eclipse omen, Drusus-directed persuasion and restoration of standards, conditional petition/delegation, execution of two ringleaders, surrender or flight of others, and the three-legion withdrawal."
+  },
+  "duplicate_screen": {
+    "checked": "Bounded route-check for omen/delegation/discipline; rg over retained proposals found no Tacitus or Pannonian card. Existing GDT718 withdrawal and GDT932/947 obligation results are controls, not this source mechanism.",
+    "difference": "This is a collective belief-to-discipline state transition with a conditional delegation and persistent camp identity, not a transport withdrawal, a static obligation label, or a generic reference classifier."
+  },
+  "complete_source_account": [
+    {
+      "span": "I.28.1",
+      "content": "During a threatening night, an eclipse appears. The soldiers interpret the fading moon as an omen of their struggle and possible restored fortune; gongs, horns, and cries follow as the moon brightens or darkens. Clouds hide it, and they fear divine anger and their crimes."
+    },
+    {
+      "span": "I.28.1 continued",
+      "content": "Drusus treats this change as an opportunity. Clemens and popular officers circulate through watches, patrols, and gates, urging that the factions and ringleaders cannot provide pay, land, or sovereignty. Mutual suspicion separates recruit from veteran and legion from legion; the soldiers abandon the gates and restore the standards to their proper places."
+    },
+    {
+      "span": "I.29.1",
+      "content": "At daybreak Drusus convenes the soldiers, condemns the past, and offers to write to his father if they return to duty and speak as suppliants. They ask him to do so and send three named deputies. Officers disagree between temporary leniency and removing the mutiny authors; Drusus summons Percennius and Vibulenus and orders their execution, while the source preserves disagreement about the bodies' placement."
+    },
+    {
+      "span": "I.30.1",
+      "content": "Other ringleaders are pursued: some flee and are killed, others are handed over by their companies as proof of loyalty. Winter rain and flood worsen the camp and reinforce the omen interpretation. The eighth and fifteenth legions depart; the ninth waits for Tiberius' letter, then follows when isolated. Drusus returns after affairs are sufficiently settled."
+    }
+  ],
+  "constructor": {
+    "types": [
+      "CAMP",
+      "FACTION",
+      "BELIEF_STATE",
+      "CONDITION",
+      "PETITION",
+      "DELEGATION",
+      "DISCIPLINE_STATE",
+      "LEGION",
+      "EVIDENCE"
+    ],
+    "operators": {
+      "INTERPRET_OMEN": "OMEN(signal,group) -> BELIEF_STATE",
+      "PERSUADE": "PERSUADE(speaker,audience,arguments) -> BELIEF_STATE",
+      "RESTORE": "RESTORE(group,standard,discipline_condition) -> DISCIPLINE_STATE",
+      "PETITION": "PETITION(group,condition,requested_action) -> PETITION",
+      "DELEGATE": "DELEGATE(petition,representatives) -> DELEGATION",
+      "PUNISH": "PUNISH(authority,leader,evidence) -> DISCIPLINE_STATE",
+      "WITHDRAW": "WITHDRAW(legion,trigger,camp_state) -> CAMP_STATE"
+    },
+    "global_rules": [
+      "The camp identity persists across belief, discipline, punishment, and withdrawal; the state fields are not new camps.",
+      "An omen affects the camp only through the soldiers' interpreted belief and the officers' deliberate use of it; physical moon visibility alone does not restore standards.",
+      "The conditional petition requires a return-to-duty condition before the promised letter; delegation and execution are separate operations.",
+      "Company surrender and legion withdrawal update different state fields: loyalty evidence versus unit departure.",
+      "The same operators must account for the complete I.28–30 sequence; no clause may be a sentence macro or discarded filler."
+    ],
+    "worked_python": "def run_episode(eclipse_visible=True, persuasion=True):\n    s={'belief':'mutiny','standards':'grouped','factions':'united','petition':None,'delegates':None,'leaders':'active','legions':['8th','9th','15th']}\n    if eclipse_visible:\n        s['belief']='divine_anger_and_possible_restoration'\n    if persuasion and s['belief']=='divine_anger_and_possible_restoration':\n        s['factions']='separated'; s['standards']='proper_places'\n    s['petition']=('RETURN_TO_DUTY','DRUSUS_WRITES_TIBERIUS')\n    s['delegates']=('BLAESUS','APONIUS','CATONIUS')\n    s['leaders']='Percennius_and_Vibulenus_executed'\n    s['legions']=['8th_departed','9th_departed_after_isolation','15th_departed']\n    return s\nassert run_episode()['standards']=='proper_places'\nassert run_episode()['petition'][0]=='RETURN_TO_DUTY'\nassert run_episode()['legions'][1]=='9th_departed_after_isolation'\nprint(run_episode())"
+  },
+  "rival": {
+    "name": "STATIC_GRIEVANCE_OR_PHYSICAL_OMEN_ONLY",
+    "rule": "Keep grievances, eclipse, punishments, and departures as co-present labels without a belief-mediated persuasion step, conditional petition, faction separation, or unit-specific withdrawal order.",
+    "changed_consequence": "The rival cannot derive why standards are restored before the petition, why only named leaders are executed, or why the eighth/fifteenth and then isolated ninth depart in sequence; it predicts order-insensitive camp output.",
+    "smallest_test": "Two complete episodes with the same eclipse and grievance inventory but different persuasion/return-to-duty conditions must yield different standard and legion states under the constructor."
+  },
+  "limits": [
+    "Tacitus is a narrated historical account, not a technical writing manual.",
+    "The source preserves disagreement about the executed bodies' location; that uncertainty remains a branch.",
+    "No target token, target participant, or manuscript meaning is assigned."
+  ]
+}

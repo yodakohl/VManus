@@ -1,0 +1,82 @@
+{
+  "title": "Plutarch Coriolanus XXXIII–XXXVI kinship-mediated war-state reversal",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED. A complete Plutarch episode keeps the same commander, mother, wife, children, Roman city, and Volscian army while a kinship-mediated appeal changes the war from attack to withdrawal. The constructor distinguishes public embassy formation, recognition, competing obligations, speech scope, and resulting military action. A static emotional catalogue cannot derive the changed war state.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source": {
+    "work": "Plutarch, Life of Coriolanus, chapters 33.1–36.5",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Coriolanus%2A.html",
+    "retrieved_utc": "2026-09-21",
+    "retrieved_bytes": 146975,
+    "retrieved_sha256": "a751d4f4f31de6a6f7a39bb5409c330e644db4330058b7219cec199e523e7bde",
+    "provenance": "LacusCurtius public-domain reproduction of Plutarch, Life of Coriolanus, with the 1914 Loeb translation; the page is the retrieved public witness.",
+    "source_span": "XXXIII.1–XXXVI.5 inclusive: Valeria gathers women, the women approach Volumnia, the family delegation reaches Marcius, Volumnia states the mutually conflicting obligations, Marcius yields, and the Volscians withdraw."
+  },
+  "duplicate_screen": {
+    "checked": "Bounded route-check for Coriolanus/kinship/embassy/withdrawal; rg over retained proposals found no Coriolanus or Volumnia card. Existing GDT718 withdrawal is a formal control, not this kinship-mediated source mechanism.",
+    "difference": "The source constructor binds identity and obligation across a family delegation and changes a military state through a speech-conditioned decision; it is not a simple withdrawal label or the prior accusation/rebuttal/fable family."
+  },
+  "complete_source_account": [
+    {
+      "span": "XXXIII.1–2",
+      "content": "Women in Rome make supplications. Valeria, moved by the situation, gathers the women and goes to Volumnia, Marcius' mother, who is with Vergilia and Marcius' children."
+    },
+    {
+      "span": "XXXIII.3–6",
+      "content": "Valeria explains that the women come without senatorial or consular command, asks Volumnia and Vergilia to approach Marcius, and frames the request as possible salvation for both sides. Volumnia replies that exile has made their family miserable and agrees to go even if they can do nothing beyond supplication."
+    },
+    {
+      "span": "XXXIV.1–2",
+      "content": "Volumnia, Vergilia, and the children reach the Volscian camp. Their appearance creates reverence and silence among the enemy. Marcius recognizes his mother, abandons his tribunal, embraces her, his wife, and children, and is overcome by emotion."
+    },
+    {
+      "span": "XXXV.1–5",
+      "content": "Marcius brings the Volscian councillors to hear Volumnia. She presents the conflict between country and son, mother and commander, Roman safety and Volscian trust, then asks for a settlement beneficial to both parties. She states that victory would make him his country's destroyer and defeat would make him the cause of disaster to his benefactors."
+    },
+    {
+      "span": "XXXVI.1–5",
+      "content": "Volumnia presses the appeal through gratitude and her final bodily supplication with wife and children. Marcius yields, says his mother is victorious while he is defeated, privately confers with her and his wife, sends them to Rome, and leads the Volscians away next morning. The source records disagreement among the Volscians about his action but says they follow, chiefly from admiration rather than authority."
+    }
+  ],
+  "constructor": {
+    "types": [
+      "PERSON",
+      "KINSHIP_EDGE",
+      "CITY",
+      "ARMY",
+      "EMBASSY",
+      "OBLIGATION",
+      "EMOTION_STATE",
+      "SPEECH",
+      "DECISION",
+      "MILITARY_OUTCOME"
+    ],
+    "operators": {
+      "GATHER": "GATHER(leader,women,reason) -> EMBASSY",
+      "RECOGNIZE": "RECOGNIZE(commander,kin_group) -> EMOTION_STATE",
+      "PRESENT_CONFLICT": "PRESENT_CONFLICT(speaker,obligation_a,obligation_b,consequence) -> SPEECH",
+      "CONFER": "CONFER(decider,advisers) -> DECISION",
+      "YIELD": "YIELD(decider,appeal,decision_condition) -> DECISION",
+      "WITHDRAW_ARMY": "WITHDRAW_ARMY(commander,army,decision) -> MILITARY_OUTCOME"
+    },
+    "global_rules": [
+      "The same Marcius, Volumnia, Vergilia, children, Roman city, and Volscian army persist across the whole episode; kinship edges do not create duplicate persons.",
+      "Recognition changes the commander's emotional state before the explicit argument is heard; the speech then supplies competing obligations and consequences.",
+      "The appeal is not a generic peace command: the decision is YIELD only after family recognition, typed conflict, and private conference.",
+      "The military output is withdrawal of the Volscian army, while disagreement among its members is a separate post-decision state.",
+      "All source clauses remain owned by GATHER, RECOGNIZE, PRESENT_CONFLICT, CONFER, YIELD, or WITHDRAW_ARMY; no sentence macro is used."
+    ],
+    "worked_python": "def corialanus_episode(family_appeal=True):\n    s={'army':'Volscian_army_at_Rome','commander':'Marcius','emotion':'implacable','embassy':None,'obligations':None,'decision':'attack'}\n    s['embassy']=('Valeria','Volumnia','Vergilia','children')\n    if family_appeal:\n        s['emotion']='recognized_kinship_and_grief'\n        s['obligations']=('Roman_country','Volscian_trust','family_life')\n        s['decision']='withdraw_after_private_conference'\n    s['military_outcome']='Volscian_army_withdraws' if s['decision'].startswith('withdraw') else 'attack_continues'\n    return s\nassert corialanus_episode()['emotion']=='recognized_kinship_and_grief'\nassert corialanus_episode()['military_outcome']=='Volscian_army_withdraws'\nassert corialanus_episode(False)['military_outcome']=='attack_continues'\nprint(corialanus_episode())"
+  },
+  "rival": {
+    "name": "STATIC_EMOTION_OR_PUBLIC_COMMAND_ONLY",
+    "rule": "Record women, family, grief, and peace as co-present labels, or let only a public political command change the army, without typed recognition, competing obligations, or private conference.",
+    "changed_consequence": "The rival predicts either withdrawal whenever family appears or continued attack whenever public command is absent; it cannot derive the source sequence in which recognition precedes argument, Marcius yields, and the army withdraws despite mixed Volscian reactions.",
+    "smallest_test": "Two complete appeals with the same army and family inventory but different obligation speech must yield different decisions; recognition alone must not count as the final military command."
+  },
+  "limits": [
+    "Plutarch narrates a literary-historical episode, not a source code or technical grammar.",
+    "The final Volscian reaction is internally mixed and must remain mixed.",
+    "No target token, target participant, or manuscript meaning is assigned."
+  ]
+}

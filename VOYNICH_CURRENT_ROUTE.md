@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1015full80group f82r hour/day argument;preservefive RAW379hypotheses.
-Latest decision: 1015complete80groupdraft;55newvalues,12templates,7candidates;notexecuted.
-Working files: experiments/yolo/gdt1015_coupled_hour_day_reading/DECISION.md
-Assumptions: 0words;sourceH^24=H^3 not observedtarget;allnewglossesmustbeexplicit.
-Resume: Publish actualcandidate lock;check51settings,then independent replay and full disclosure.
-Running: Source-only Dio correction/ideas;rootchecks;03:10UTC checkpoint;sessionends11:11:33UTC.
+Task: Select next meaning constraint after complete GDT1015 hypothetical hour/day reading.
+Latest decision: 1015primary coherent;three rivals fail;night/reference ambiguity;55new guesses.
+Working files: experiments/yolo/gdt1015_coupled_hour_day_reading/REPORT.md
+Assumptions: 0words;1015numbers/12templates guessed;no independent meaning or new reserve.
+Resume: Publish1015;review genuinely constraining transfer/composition before next selection.
+Running: Root closure/selection;bounded source producer idle;session ends11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

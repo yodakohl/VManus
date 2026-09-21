@@ -1615,3 +1615,44 @@ hypotheses remain permitted without independently bound target arguments;
 independent argument/result binding is required before confirmation or a
 selection claim. No target, result, image, reserve, root file, route, ledger,
 refresh, commit, or contact was accessed or changed.
+
+## AI. Cassius Dio XXXVII.18–19 complete source packet
+
+Packet: [CASSIUS_DIO_XXXVII18_19_SOURCE_PACKET_20260921.json](CASSIUS_DIO_XXXVII18_19_SOURCE_PACKET_20260921.json), SHA-256 `0ae3c8dec3c6f00ac970ecb29de0babd2fd521b0feffc9ed027e2df8d8b1ae57`.
+
+This packet owns the exact primary boundary XXXVII.18.1–19.3, ending with Dio's statement that the tradition continues similarly; editorial note 11 is represented separately rather than folded into Dio's clauses. The retrieval witness is the LacusCurtius reproduction of the 1914 Loeb, Vol. III, at [Cassius Dio, Book XXXVII](https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/37%2A.html). The page states that the text is public domain and has not yet been proofread. Retrieved HTML was 116,602 bytes, SHA-256 `711cacbaf717c9a3057afd979ae0cd62f1a4b6b634a3eff380731a2749c9acda`.
+
+The full clause inventory retains: the Egyptian and recent/widespread attribution; Dio's purpose and report of two theoretical explanations; the tetrachord operation beginning at Saturn; omitting two, selecting the fourth, passing two, reaching the seventh, and repeating over days; the hourly order Saturn–Jupiter–Mars–Sun–Venus–Mercury–Moon; repetition through day and night; the following-day Sun; the next-twenty-four-hour/third-day Moon; and the continuation/tradition conclusion. Note 11 separately supplies the Ptolemaic distance rationale, the complete daily order Saturn–Sun–Moon–Mars–Mercury–Jupiter–Venus, and its editorial clarification that the first-hour god names the day.
+
+Two executable source-faithful reductions are included. The inclusive skip-two/fourth rule advances three positions in the seven-member hourly order and outputs the note's daily sequence. The hourly rule advances 24 positions, hence three modulo seven, and outputs Sun then Moon for the second and third first hours. The packet labels `D=H^3`, inclusive indexing, and modular arithmetic as analyst notation checked against the explicit Sun/Moon outcomes, not historical formulas.
+
+Two serious rivals are also explicit: an exclusive-fourth reading advances four positions and predicts Venus after Saturn, while an independent-day-table reading preserves the daily table without requiring the 24-hour sequence to be its generator. The former is directly challenged by XXXVII.19.2; the latter agrees with the first listed outputs but differs on the observable cross-unit relation under a changed hourly phase/order. The packet records unresolved day-boundary, equal-hour, seasonal-hour, Greek-transmission, and unproofread-witness limits. It supplies no target alignment, token meaning, or confirmation. RAW379 and its source pointer remain byte-unchanged; this is a source packet, not a new selected idea.
+
+### AI.1 Dio Rival A arithmetic correction
+
+The original packet is byte-identical (SHA-256 `0ae3c8dec3c6f00ac970ecb29de0babd2fd521b0feffc9ed027e2df8d8b1ae57`). Its `RIVAL_A_EXCLUSIVE_FOURTH` output had an arithmetic transcription error after the first transition. For `H=(Saturn,Jupiter,Mars,Sun,Venus,Mercury,Moon)`, the stated rule is `D_alt[i]=H[(4*i) mod 7]`, so the complete output is `Saturn, Venus, Jupiter, Mercury, Mars, Moon, Sun`, not `Saturn, Venus, Mercury, Moon, Jupiter, Mars, Sun`. The first transition remains Saturn → Venus, and the rival remains directly challenged by XXXVII.19.2's Saturn → Sun result.
+
+The correction is isolated in [CASSIUS_DIO_XXXVII18_19_SOURCE_PACKET_20260921_ERRATUM.json](CASSIUS_DIO_XXXVII18_19_SOURCE_PACKET_20260921_ERRATUM.json), SHA-256 `9590feeb1db288a0e1a2626801ee0178b81d84937d105be70eae717133ca6645`. Both original executable derivations still validate: inclusive skip-two gives `Saturn, Sun, Moon, Mars, Mercury, Jupiter, Venus`; the 24-hour derivation gives `Sun, Moon`.
+
+## AJ. Two additional complete source-owned RAW proposals
+
+Two genuinely distinct source-only cards were prepared after bounded route-checks and proposal-file searches; neither opens target data or changes a root experiment. Both remain explicitly `RAW_UNREVIEWED_NOT_SELECTED`.
+
+- `research_registry/proposals/raw_tacitus_annals_pannonian_mutiny_20260921.json`: Tacitus, *Annals* I.28.1–30.1, LacusCurtius 1931 Loeb witness (40,880 bytes; SHA-256 `039e0e92a78fe30c88cba9d970904a5303750198b7d681b0343ac46153db89e2`). The complete bounded account carries eclipse interpretation through faction separation, standard restoration, conditional petition/delegation, named-leader punishment, company evidence, and ordered legion withdrawal. Its rival removes the belief-mediated and conditional links and therefore cannot derive the written order or unit-specific outcomes.
+- `research_registry/proposals/raw_plutarch_coriolanus_kinship_withdrawal_20260921.json`: Plutarch, *Life of Coriolanus* XXXIII.1–XXXVI.5, LacusCurtius public-domain witness (146,975 bytes; SHA-256 `a751d4f4f31de6a6f7a39bb5409c330e644db4330058b7219cec199e523e7bde`). The complete account carries the women’s gathering, family recognition, competing Roman/Volscian obligations, private conference, Marcius’s yield, and army withdrawal, while preserving mixed Volscian reactions. Its rival cannot derive the source’s recognition → speech → decision → withdrawal sequence.
+
+Each card contains typed operators, a worked Python reduction, a serious rival, a smallest discriminator, and source limits. The worked reductions were executed successfully. `./vmanus-work ideas add` was attempted for both files but refused both with `stale imported source: experiments/EXPERIMENT_INDEX.tsv; run ideas refresh`. No refresh was run because this bounded task forbids metadata refresh; the files therefore remain unregistered RAW supply pending an authorized refresh. No source claim is a Voynich meaning claim.
+
+### AJ.1 Root registration receipt and executable-scope limitation
+
+After the metadata refresh, the unchanged cards were registered as IDEA000469
+(Tacitus) and IDEA000470(Plutarch). They remain RAW, unreviewed and unselected.
+Their Python snippets are hand-coded episode illustrations, not complete source
+interpreters: Tacitus assigns the petition, punishment and withdrawals without
+checking their stated conditions; Plutarch reduces the whole causal chain to one
+Boolean. A successful assertion of those chosen outputs does not test the full
+source mechanism or distinguish a serious competing account. The static-list
+rivals are insufficient for a future content-selection claim. Source ownership,
+exact source claims and a complete executable construction still require review
+before either card can be selected for a manuscript test. No target consequence
+has been tested from these cards.
