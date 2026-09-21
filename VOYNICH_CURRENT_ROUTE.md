@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Register and execute GDT1019 fresh completed-episode reference.
-Latest decision: 1018published;two unchanged adequate f50maps;282member fullspaces unsearched.
-Working files: experiments/yolo/gdt1019_transport_completed_episode_reference/DECISION.md
-Assumptions: 0words;THEN certifies new written trips;old47values otherwise fixed;no othernewlaw.
-Resume: Publish1019registration;156original/125savedcensus;gate20fullcases then paired lifts.
-Running: bounded_semantic_route operationalizes untestedRAW404;root1019;04:35checkpoint;end11:11:33UTC.
+Task: Publish GDT1019;review RAW404 complete unweaving model and new operationalization.
+Latest decision: 1019fresh-episode THEN fails all20classes312members;156originalsettings pass.
+Working files: experiments/yolo/gdt1019_transport_completed_episode_reference/REPORT.md
+Assumptions: 0words;old1013/14/17/18positives retained;RAW404projection differs in2rawforms.
+Resume: Publish1019;inspect RAW404fullsource/scope and new card before selection;no marker repairs.
+Running: bounded_semantic_route prepares untestedRAW404card;root closure;session ends11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
