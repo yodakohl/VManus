@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1016 participant-neutral unary wrappers;register before target-law tests.
-Latest decision: Selected same17/15joint inventories;625algebra fixtures pass;0target queries.
-Working files: experiments/yolo/gdt1016_transport_name_blind_wrappers/DECISION.md
-Assumptions: 0words;new unary name/context blindness;1013/1014positives and source limits retained.
-Resume: Publish lock;run36x2original-cell precursor;proper nonempty subset gates52full cases.
-Running: bounded_semantic_route supplies2ideas;root registers1016;checkpoint03:47,end11:11:33UTC.
+Task: Close GDT1016;review proposed shared cargo-type hazards across whole paragraphs.
+Latest decision: 1016all36originals fail both joint inventories;0fullworldqueries;registeredstop.
+Working files: experiments/yolo/gdt1016_transport_name_blind_wrappers/REPORT.md
+Assumptions: 0words;1013/1014free-function worlds retained;no unary/context repair.
+Resume: Publish1016;read producer hazard-union card and primaries before separate selection.
+Running: bounded_semantic_route prepares shared-type hazard proposal;root closure;ends11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

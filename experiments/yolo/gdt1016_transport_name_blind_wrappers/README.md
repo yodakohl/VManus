@@ -1,11 +1,16 @@
-# GDT1016 — participant-neutral wrapper operations
+# GDT1016 — participant-neutral unary wrappers
 
-Registered conditional test of all36 retained original codes and, if the fixed
-precursor gate permits, all52 complete original-plus-f50r cases. See DECISION,
-METHOD and PREREGISTRATION. Confirmed translated words:0.
+All36fixed original lexicons fail the registered law in both joint inventories.
+72direct original checks;52full-system/312member consequences proved by fixed
+cells;zero full-world solver calls. Older1013/1014positive laws remain intact.
 
-Commands: `python3 src/preflight.py` (algebra fixtures only), `python3 src/precursor.py`,
-`python3 src/run.py`, `python3 src/validate.py`, `python3 src/summarize.py`, all
-from this directory. The scientific commands require the public registration.
+[Report](REPORT.md) · [all predictions](artifacts/ORIGINAL_PREDICTIONS.tsv) ·
+[all candidates](artifacts/CANDIDATES.tsv) · [certificates](artifacts/CONTRADICTION_CERTIFICATES.json)
 
-Use Python with both pinned packages from requirements.txt installed. Local environment paths are not part of the experiment. Algebra preflight:625 exact partial assignments agree with exhaustive total-function enumeration and both encodings;world models are byte-identical to1014. No target-law test yet.
+Reproduce with Python and requirements.txt packages installed:
+`python3 experiments/yolo/gdt1016_transport_name_blind_wrappers/src/preflight.py`,
+then `src/precursor.py` and `src/validate_precursor.py` using the same experiment
+prefix. The full-world run/validate scripts are preserved preregistered branches;
+the observed precursor closes their gate. Do not run them as a new search.
+
+Confirmed words0;independent meaning capacity0;no significance.
