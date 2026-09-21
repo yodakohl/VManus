@@ -2,14 +2,14 @@
 Updated: 2026-09-21. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Test95group paired Galen II/III reading with separate adequate-softness and reference scopes.
-Latest decision: RAW500 selected as GDT1029; strict36 extension incomplete, qoky broadening explicit.
-Working files: experiments/yolo/gdt1029_galen_paired_endpoint_and_reference/DECISION.md
-Assumptions: 35old values literal; qoky1 broadened;31new/6discontinuous productions/26bindings;0words.
-Resume: Publicly register fixed87 predictions, then execute with228 unchanged parent replays.
-Running: root1029 deadline08:28:28; producer whole clock continuation by08:20; end11:11:33UTC.
+Task: Review the complete clock continuation as next bounded content hypothesis.
+Latest decision: GDT1029 all87 predictions matched;35old literal/1broadened; six physical-equivalent rivals.
+Working files: experiments/yolo/gdt1029_galen_paired_endpoint_and_reference/REPORT.md
+Assumptions: 95groups/31new guesses/6discontinuous productions/26bindings; IT gaps;0words.
+Resume: Publish1029; review whole clock source/proposal and predecessors before selecting next test.
+Running: producer clock proposal by08:20; root1029 publication; session ends11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
