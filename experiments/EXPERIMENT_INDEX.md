@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1018**
-- Experiment-associated tracked files: **20,149** (1.9 GiB)
-- Structured GDT337+ experiments: **683**
+- Experiments indexed: **1019**
+- Experiment-associated tracked files: **20,168** (1.9 GiB)
+- Structured GDT337+ experiments: **684**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1020 | unweaving complete assertion graph | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1020_unweaving_complete_assertion_graph/REPORT.md) | 19 | 58.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT1019 | GDT1019 | `REFUTED_FRESH_COMPLETED_EPISODE_REFERENCE` | [report](../experiments/yolo/gdt1019_transport_completed_episode_reference/REPORT.md) | 45 | 942.6 KiB | 8 | STRUCTURED_YOLO |
 | GDT1018 | GDT1018 | `SUPPORTED_LIMITED_TWO_FIXED_SUFFICIENT_READINGS` | [report](../experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md) | 30 | 8.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT1017 | GDT1017 | `SUPPORTED_LIMITED_SHARED_TYPE_HAZARDS_NONSEPARATING` | [report](../experiments/yolo/gdt1017_transport_shared_type_hazards/REPORT.md) | 46 | 3.4 MiB | 7 | STRUCTURED_YOLO |
