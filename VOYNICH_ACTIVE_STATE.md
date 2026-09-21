@@ -23891,3 +23891,5 @@ GDT1024: two complete projected music paragraphs jointly coherent in12cases with
 GDT1025: shared96group unweaving DIRECT coherent, REVERSED conflicts on sole V phase; removing only V3=V restores both. Seven old types reused at17positions,40new guesses;0words, standalone1020both retained. [Full identity dependence](experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md).
 
 GDT1026: whole150group music account spans f83r/f76v with71old meanings fixed;18types reused at32positions,20new guesses. Prohibitive12coherent; positive8contradicted,4vacuous. IT sar and lolsaiiin conflicts retained;0words/independent meaning. [Crossleaf consequences](experiments/yolo/gdt1026_rota_crossleaf_frozen_meanings/REPORT.md).
+
+GDT1027: new37group seed-rite family coherent under quantity/knowledge scopes; main requires two people only under added same-object knowledge. Rival permits self and changes one macro; recipient-purity contrasts omit source actor purity. 30guesses/26singletons/5productions/11bindings; IT35unbound;0words. [Complete consequences](experiments/yolo/gdt1027_seed_rite_scope_and_identity/REPORT.md).

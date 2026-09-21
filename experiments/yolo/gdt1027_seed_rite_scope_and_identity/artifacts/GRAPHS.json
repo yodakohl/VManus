@@ -1,0 +1,2082 @@
+[
+  {
+    "status": "COMPLETE",
+    "candidate": {
+      "id": "TOTAL_SAME_OBJECT_ACTOR",
+      "quantity": "TOTAL",
+      "knowledge": "SAME_OBJECT",
+      "purity": "ACTOR"
+    },
+    "clauses": [
+      {
+        "id": "C01",
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "words": [
+          "keedey",
+          "qofchedy",
+          "shee",
+          "s",
+          "aiin",
+          "qokee@149;",
+          "chepakeo"
+        ],
+        "tags": [
+          "TAKE",
+          "RAISINS",
+          "FOUR",
+          "THE",
+          "GRAPE_SEEDS",
+          "CONTAINING",
+          "THEREFORE"
+        ]
+      },
+      {
+        "id": "C02",
+        "positions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "words": [
+          "dcheey",
+          "daiin",
+          "okeedy",
+          "qokees",
+          "s",
+          "aiin",
+          "shekeey",
+          "qef"
+        ],
+        "tags": [
+          "EXTRACT",
+          "YOU",
+          "FINGERNAILS",
+          "USING",
+          "THE",
+          "GRAPE_SEEDS",
+          "NOT_USING",
+          "MOUTH"
+        ]
+      },
+      {
+        "id": "C03",
+        "positions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "words": [
+          "qokeey",
+          "chey",
+          "daiin",
+          "qokeey",
+          "[s:r]air",
+          "chekey"
+        ],
+        "tags": [
+          "KNOWS",
+          "THIS_RITE",
+          "YOU",
+          "KNOWS",
+          "RECIPIENT",
+          "NOT"
+        ]
+      },
+      {
+        "id": "C04",
+        "positions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "words": [
+          "s",
+          "aiin",
+          "da?",
+          "qotar",
+          "chy",
+          "dar",
+          "lo",
+          "r"
+        ],
+        "tags": [
+          "THE",
+          "GRAPE_SEEDS",
+          "PLACE",
+          "CLOTH",
+          "IN",
+          "NECK",
+          "ON",
+          "BIND"
+        ]
+      },
+      {
+        "id": "C05",
+        "positions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "words": [
+          "ar",
+          "cheey",
+          "keeol",
+          "chedy",
+          "qokey",
+          "daiin",
+          "sheeody",
+          "qokeor"
+        ],
+        "tags": [
+          "PURE",
+          "BEING",
+          "WHILE",
+          "ATTRIBUTED_CLAIM",
+          "BY_GRACE",
+          "YOU",
+          "RELEASE",
+          "GOD"
+        ]
+      }
+    ],
+    "consumed": 37,
+    "seed_references": [
+      {
+        "position": 5,
+        "reference": "G"
+      },
+      {
+        "position": 13,
+        "reference": "G"
+      },
+      {
+        "position": 23,
+        "reference": "G"
+      }
+    ],
+    "actor_references": [
+      {
+        "position": 9,
+        "reference": "A"
+      },
+      {
+        "position": 18,
+        "reference": "A"
+      },
+      {
+        "position": 35,
+        "reference": "A"
+      }
+    ],
+    "knowledge": [
+      {
+        "position": 16,
+        "person": "A",
+        "object": "P_rite",
+        "time": "t_bind",
+        "value": true
+      },
+      {
+        "position": 19,
+        "person": "W",
+        "object": "P_rite",
+        "time": "t_bind",
+        "value": false
+      }
+    ],
+    "purity": {
+      "person": "A",
+      "time": "t_bind"
+    },
+    "actions": [
+      {
+        "op": "TAKE",
+        "actor": "A",
+        "object": "R"
+      },
+      {
+        "op": "EXTRACT",
+        "actor": "A",
+        "object": "G",
+        "source": "R",
+        "using": "NAILS(A)",
+        "forbidden": "MOUTH(A)"
+      },
+      {
+        "op": "PLACE",
+        "actor": "A",
+        "object": "G",
+        "destination": "C"
+      },
+      {
+        "op": "BIND",
+        "actor": "A",
+        "object": "C",
+        "destination": "NECK(W)"
+      },
+      {
+        "op": "CLAIM",
+        "actor": "A",
+        "recipient": "W",
+        "condition": "Q",
+        "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+        "kind": "SOURCE_ATTRIBUTED_ONLY"
+      }
+    ],
+    "references": {
+      "R": "selected raisins",
+      "G": "all seed identities from R",
+      "C": "cloth",
+      "A": "YOU same person",
+      "W": "RECIPIENT",
+      "Q": "source-context quartan reference"
+    },
+    "reference_macro_cost": "chey=P_rite"
+  },
+  {
+    "status": "COMPLETE",
+    "candidate": {
+      "id": "TOTAL_SAME_OBJECT_RECIPIENT",
+      "quantity": "TOTAL",
+      "knowledge": "SAME_OBJECT",
+      "purity": "RECIPIENT"
+    },
+    "clauses": [
+      {
+        "id": "C01",
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "words": [
+          "keedey",
+          "qofchedy",
+          "shee",
+          "s",
+          "aiin",
+          "qokee@149;",
+          "chepakeo"
+        ],
+        "tags": [
+          "TAKE",
+          "RAISINS",
+          "FOUR",
+          "THE",
+          "GRAPE_SEEDS",
+          "CONTAINING",
+          "THEREFORE"
+        ]
+      },
+      {
+        "id": "C02",
+        "positions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "words": [
+          "dcheey",
+          "daiin",
+          "okeedy",
+          "qokees",
+          "s",
+          "aiin",
+          "shekeey",
+          "qef"
+        ],
+        "tags": [
+          "EXTRACT",
+          "YOU",
+          "FINGERNAILS",
+          "USING",
+          "THE",
+          "GRAPE_SEEDS",
+          "NOT_USING",
+          "MOUTH"
+        ]
+      },
+      {
+        "id": "C03",
+        "positions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "words": [
+          "qokeey",
+          "chey",
+          "daiin",
+          "qokeey",
+          "[s:r]air",
+          "chekey"
+        ],
+        "tags": [
+          "KNOWS",
+          "THIS_RITE",
+          "YOU",
+          "KNOWS",
+          "RECIPIENT",
+          "NOT"
+        ]
+      },
+      {
+        "id": "C04",
+        "positions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "words": [
+          "s",
+          "aiin",
+          "da?",
+          "qotar",
+          "chy",
+          "dar",
+          "lo",
+          "r"
+        ],
+        "tags": [
+          "THE",
+          "GRAPE_SEEDS",
+          "PLACE",
+          "CLOTH",
+          "IN",
+          "NECK",
+          "ON",
+          "BIND"
+        ]
+      },
+      {
+        "id": "C05",
+        "positions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "words": [
+          "ar",
+          "cheey",
+          "keeol",
+          "chedy",
+          "qokey",
+          "daiin",
+          "sheeody",
+          "qokeor"
+        ],
+        "tags": [
+          "PURE",
+          "BEING",
+          "WHILE",
+          "ATTRIBUTED_CLAIM",
+          "BY_GRACE",
+          "YOU",
+          "RELEASE",
+          "GOD"
+        ]
+      }
+    ],
+    "consumed": 37,
+    "seed_references": [
+      {
+        "position": 5,
+        "reference": "G"
+      },
+      {
+        "position": 13,
+        "reference": "G"
+      },
+      {
+        "position": 23,
+        "reference": "G"
+      }
+    ],
+    "actor_references": [
+      {
+        "position": 9,
+        "reference": "A"
+      },
+      {
+        "position": 18,
+        "reference": "A"
+      },
+      {
+        "position": 35,
+        "reference": "A"
+      }
+    ],
+    "knowledge": [
+      {
+        "position": 16,
+        "person": "A",
+        "object": "P_rite",
+        "time": "t_bind",
+        "value": true
+      },
+      {
+        "position": 19,
+        "person": "W",
+        "object": "P_rite",
+        "time": "t_bind",
+        "value": false
+      }
+    ],
+    "purity": {
+      "person": "W",
+      "time": "t_bind"
+    },
+    "actions": [
+      {
+        "op": "TAKE",
+        "actor": "A",
+        "object": "R"
+      },
+      {
+        "op": "EXTRACT",
+        "actor": "A",
+        "object": "G",
+        "source": "R",
+        "using": "NAILS(A)",
+        "forbidden": "MOUTH(A)"
+      },
+      {
+        "op": "PLACE",
+        "actor": "A",
+        "object": "G",
+        "destination": "C"
+      },
+      {
+        "op": "BIND",
+        "actor": "A",
+        "object": "C",
+        "destination": "NECK(W)"
+      },
+      {
+        "op": "CLAIM",
+        "actor": "A",
+        "recipient": "W",
+        "condition": "Q",
+        "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+        "kind": "SOURCE_ATTRIBUTED_ONLY"
+      }
+    ],
+    "references": {
+      "R": "selected raisins",
+      "G": "all seed identities from R",
+      "C": "cloth",
+      "A": "YOU same person",
+      "W": "RECIPIENT",
+      "Q": "source-context quartan reference"
+    },
+    "reference_macro_cost": "chey=P_rite"
+  },
+  {
+    "status": "COMPLETE",
+    "candidate": {
+      "id": "TOTAL_DIFFERENT_OBJECTS_ACTOR",
+      "quantity": "TOTAL",
+      "knowledge": "DIFFERENT_OBJECTS",
+      "purity": "ACTOR"
+    },
+    "clauses": [
+      {
+        "id": "C01",
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "words": [
+          "keedey",
+          "qofchedy",
+          "shee",
+          "s",
+          "aiin",
+          "qokee@149;",
+          "chepakeo"
+        ],
+        "tags": [
+          "TAKE",
+          "RAISINS",
+          "FOUR",
+          "THE",
+          "GRAPE_SEEDS",
+          "CONTAINING",
+          "THEREFORE"
+        ]
+      },
+      {
+        "id": "C02",
+        "positions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "words": [
+          "dcheey",
+          "daiin",
+          "okeedy",
+          "qokees",
+          "s",
+          "aiin",
+          "shekeey",
+          "qef"
+        ],
+        "tags": [
+          "EXTRACT",
+          "YOU",
+          "FINGERNAILS",
+          "USING",
+          "THE",
+          "GRAPE_SEEDS",
+          "NOT_USING",
+          "MOUTH"
+        ]
+      },
+      {
+        "id": "C03",
+        "positions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "words": [
+          "qokeey",
+          "chey",
+          "daiin",
+          "qokeey",
+          "[s:r]air",
+          "chekey"
+        ],
+        "tags": [
+          "KNOWS",
+          "THIS_RITE",
+          "YOU",
+          "KNOWS",
+          "RECIPIENT",
+          "NOT"
+        ]
+      },
+      {
+        "id": "C04",
+        "positions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "words": [
+          "s",
+          "aiin",
+          "da?",
+          "qotar",
+          "chy",
+          "dar",
+          "lo",
+          "r"
+        ],
+        "tags": [
+          "THE",
+          "GRAPE_SEEDS",
+          "PLACE",
+          "CLOTH",
+          "IN",
+          "NECK",
+          "ON",
+          "BIND"
+        ]
+      },
+      {
+        "id": "C05",
+        "positions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "words": [
+          "ar",
+          "cheey",
+          "keeol",
+          "chedy",
+          "qokey",
+          "daiin",
+          "sheeody",
+          "qokeor"
+        ],
+        "tags": [
+          "PURE",
+          "BEING",
+          "WHILE",
+          "ATTRIBUTED_CLAIM",
+          "BY_GRACE",
+          "YOU",
+          "RELEASE",
+          "GOD"
+        ]
+      }
+    ],
+    "consumed": 37,
+    "seed_references": [
+      {
+        "position": 5,
+        "reference": "G"
+      },
+      {
+        "position": 13,
+        "reference": "G"
+      },
+      {
+        "position": 23,
+        "reference": "G"
+      }
+    ],
+    "actor_references": [
+      {
+        "position": 9,
+        "reference": "A"
+      },
+      {
+        "position": 18,
+        "reference": "A"
+      },
+      {
+        "position": 35,
+        "reference": "A"
+      }
+    ],
+    "knowledge": [
+      {
+        "position": 16,
+        "person": "A",
+        "object": "P_attach",
+        "time": "t_bind",
+        "value": true
+      },
+      {
+        "position": 19,
+        "person": "W",
+        "object": "P_purpose",
+        "time": "t_bind",
+        "value": false
+      }
+    ],
+    "purity": {
+      "person": "A",
+      "time": "t_bind"
+    },
+    "actions": [
+      {
+        "op": "TAKE",
+        "actor": "A",
+        "object": "R"
+      },
+      {
+        "op": "EXTRACT",
+        "actor": "A",
+        "object": "G",
+        "source": "R",
+        "using": "NAILS(A)",
+        "forbidden": "MOUTH(A)"
+      },
+      {
+        "op": "PLACE",
+        "actor": "A",
+        "object": "G",
+        "destination": "C"
+      },
+      {
+        "op": "BIND",
+        "actor": "A",
+        "object": "C",
+        "destination": "NECK(W)"
+      },
+      {
+        "op": "CLAIM",
+        "actor": "A",
+        "recipient": "W",
+        "condition": "Q",
+        "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+        "kind": "SOURCE_ATTRIBUTED_ONLY"
+      }
+    ],
+    "references": {
+      "R": "selected raisins",
+      "G": "all seed identities from R",
+      "C": "cloth",
+      "A": "YOU same person",
+      "W": "RECIPIENT",
+      "Q": "source-context quartan reference"
+    },
+    "reference_macro_cost": "chey=P_attach; recipient implicit object=P_purpose; one changed macro value"
+  },
+  {
+    "status": "COMPLETE",
+    "candidate": {
+      "id": "TOTAL_DIFFERENT_OBJECTS_RECIPIENT",
+      "quantity": "TOTAL",
+      "knowledge": "DIFFERENT_OBJECTS",
+      "purity": "RECIPIENT"
+    },
+    "clauses": [
+      {
+        "id": "C01",
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "words": [
+          "keedey",
+          "qofchedy",
+          "shee",
+          "s",
+          "aiin",
+          "qokee@149;",
+          "chepakeo"
+        ],
+        "tags": [
+          "TAKE",
+          "RAISINS",
+          "FOUR",
+          "THE",
+          "GRAPE_SEEDS",
+          "CONTAINING",
+          "THEREFORE"
+        ]
+      },
+      {
+        "id": "C02",
+        "positions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "words": [
+          "dcheey",
+          "daiin",
+          "okeedy",
+          "qokees",
+          "s",
+          "aiin",
+          "shekeey",
+          "qef"
+        ],
+        "tags": [
+          "EXTRACT",
+          "YOU",
+          "FINGERNAILS",
+          "USING",
+          "THE",
+          "GRAPE_SEEDS",
+          "NOT_USING",
+          "MOUTH"
+        ]
+      },
+      {
+        "id": "C03",
+        "positions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "words": [
+          "qokeey",
+          "chey",
+          "daiin",
+          "qokeey",
+          "[s:r]air",
+          "chekey"
+        ],
+        "tags": [
+          "KNOWS",
+          "THIS_RITE",
+          "YOU",
+          "KNOWS",
+          "RECIPIENT",
+          "NOT"
+        ]
+      },
+      {
+        "id": "C04",
+        "positions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "words": [
+          "s",
+          "aiin",
+          "da?",
+          "qotar",
+          "chy",
+          "dar",
+          "lo",
+          "r"
+        ],
+        "tags": [
+          "THE",
+          "GRAPE_SEEDS",
+          "PLACE",
+          "CLOTH",
+          "IN",
+          "NECK",
+          "ON",
+          "BIND"
+        ]
+      },
+      {
+        "id": "C05",
+        "positions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "words": [
+          "ar",
+          "cheey",
+          "keeol",
+          "chedy",
+          "qokey",
+          "daiin",
+          "sheeody",
+          "qokeor"
+        ],
+        "tags": [
+          "PURE",
+          "BEING",
+          "WHILE",
+          "ATTRIBUTED_CLAIM",
+          "BY_GRACE",
+          "YOU",
+          "RELEASE",
+          "GOD"
+        ]
+      }
+    ],
+    "consumed": 37,
+    "seed_references": [
+      {
+        "position": 5,
+        "reference": "G"
+      },
+      {
+        "position": 13,
+        "reference": "G"
+      },
+      {
+        "position": 23,
+        "reference": "G"
+      }
+    ],
+    "actor_references": [
+      {
+        "position": 9,
+        "reference": "A"
+      },
+      {
+        "position": 18,
+        "reference": "A"
+      },
+      {
+        "position": 35,
+        "reference": "A"
+      }
+    ],
+    "knowledge": [
+      {
+        "position": 16,
+        "person": "A",
+        "object": "P_attach",
+        "time": "t_bind",
+        "value": true
+      },
+      {
+        "position": 19,
+        "person": "W",
+        "object": "P_purpose",
+        "time": "t_bind",
+        "value": false
+      }
+    ],
+    "purity": {
+      "person": "W",
+      "time": "t_bind"
+    },
+    "actions": [
+      {
+        "op": "TAKE",
+        "actor": "A",
+        "object": "R"
+      },
+      {
+        "op": "EXTRACT",
+        "actor": "A",
+        "object": "G",
+        "source": "R",
+        "using": "NAILS(A)",
+        "forbidden": "MOUTH(A)"
+      },
+      {
+        "op": "PLACE",
+        "actor": "A",
+        "object": "G",
+        "destination": "C"
+      },
+      {
+        "op": "BIND",
+        "actor": "A",
+        "object": "C",
+        "destination": "NECK(W)"
+      },
+      {
+        "op": "CLAIM",
+        "actor": "A",
+        "recipient": "W",
+        "condition": "Q",
+        "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+        "kind": "SOURCE_ATTRIBUTED_ONLY"
+      }
+    ],
+    "references": {
+      "R": "selected raisins",
+      "G": "all seed identities from R",
+      "C": "cloth",
+      "A": "YOU same person",
+      "W": "RECIPIENT",
+      "Q": "source-context quartan reference"
+    },
+    "reference_macro_cost": "chey=P_attach; recipient implicit object=P_purpose; one changed macro value"
+  },
+  {
+    "status": "COMPLETE",
+    "candidate": {
+      "id": "EACH_SAME_OBJECT_ACTOR",
+      "quantity": "EACH",
+      "knowledge": "SAME_OBJECT",
+      "purity": "ACTOR"
+    },
+    "clauses": [
+      {
+        "id": "C01",
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "words": [
+          "keedey",
+          "qofchedy",
+          "shee",
+          "s",
+          "aiin",
+          "qokee@149;",
+          "chepakeo"
+        ],
+        "tags": [
+          "TAKE",
+          "RAISINS",
+          "FOUR",
+          "THE",
+          "GRAPE_SEEDS",
+          "CONTAINING",
+          "THEREFORE"
+        ]
+      },
+      {
+        "id": "C02",
+        "positions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "words": [
+          "dcheey",
+          "daiin",
+          "okeedy",
+          "qokees",
+          "s",
+          "aiin",
+          "shekeey",
+          "qef"
+        ],
+        "tags": [
+          "EXTRACT",
+          "YOU",
+          "FINGERNAILS",
+          "USING",
+          "THE",
+          "GRAPE_SEEDS",
+          "NOT_USING",
+          "MOUTH"
+        ]
+      },
+      {
+        "id": "C03",
+        "positions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "words": [
+          "qokeey",
+          "chey",
+          "daiin",
+          "qokeey",
+          "[s:r]air",
+          "chekey"
+        ],
+        "tags": [
+          "KNOWS",
+          "THIS_RITE",
+          "YOU",
+          "KNOWS",
+          "RECIPIENT",
+          "NOT"
+        ]
+      },
+      {
+        "id": "C04",
+        "positions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "words": [
+          "s",
+          "aiin",
+          "da?",
+          "qotar",
+          "chy",
+          "dar",
+          "lo",
+          "r"
+        ],
+        "tags": [
+          "THE",
+          "GRAPE_SEEDS",
+          "PLACE",
+          "CLOTH",
+          "IN",
+          "NECK",
+          "ON",
+          "BIND"
+        ]
+      },
+      {
+        "id": "C05",
+        "positions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "words": [
+          "ar",
+          "cheey",
+          "keeol",
+          "chedy",
+          "qokey",
+          "daiin",
+          "sheeody",
+          "qokeor"
+        ],
+        "tags": [
+          "PURE",
+          "BEING",
+          "WHILE",
+          "ATTRIBUTED_CLAIM",
+          "BY_GRACE",
+          "YOU",
+          "RELEASE",
+          "GOD"
+        ]
+      }
+    ],
+    "consumed": 37,
+    "seed_references": [
+      {
+        "position": 5,
+        "reference": "G"
+      },
+      {
+        "position": 13,
+        "reference": "G"
+      },
+      {
+        "position": 23,
+        "reference": "G"
+      }
+    ],
+    "actor_references": [
+      {
+        "position": 9,
+        "reference": "A"
+      },
+      {
+        "position": 18,
+        "reference": "A"
+      },
+      {
+        "position": 35,
+        "reference": "A"
+      }
+    ],
+    "knowledge": [
+      {
+        "position": 16,
+        "person": "A",
+        "object": "P_rite",
+        "time": "t_bind",
+        "value": true
+      },
+      {
+        "position": 19,
+        "person": "W",
+        "object": "P_rite",
+        "time": "t_bind",
+        "value": false
+      }
+    ],
+    "purity": {
+      "person": "A",
+      "time": "t_bind"
+    },
+    "actions": [
+      {
+        "op": "TAKE",
+        "actor": "A",
+        "object": "R"
+      },
+      {
+        "op": "EXTRACT",
+        "actor": "A",
+        "object": "G",
+        "source": "R",
+        "using": "NAILS(A)",
+        "forbidden": "MOUTH(A)"
+      },
+      {
+        "op": "PLACE",
+        "actor": "A",
+        "object": "G",
+        "destination": "C"
+      },
+      {
+        "op": "BIND",
+        "actor": "A",
+        "object": "C",
+        "destination": "NECK(W)"
+      },
+      {
+        "op": "CLAIM",
+        "actor": "A",
+        "recipient": "W",
+        "condition": "Q",
+        "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+        "kind": "SOURCE_ATTRIBUTED_ONLY"
+      }
+    ],
+    "references": {
+      "R": "selected raisins",
+      "G": "all seed identities from R",
+      "C": "cloth",
+      "A": "YOU same person",
+      "W": "RECIPIENT",
+      "Q": "source-context quartan reference"
+    },
+    "reference_macro_cost": "chey=P_rite"
+  },
+  {
+    "status": "COMPLETE",
+    "candidate": {
+      "id": "EACH_SAME_OBJECT_RECIPIENT",
+      "quantity": "EACH",
+      "knowledge": "SAME_OBJECT",
+      "purity": "RECIPIENT"
+    },
+    "clauses": [
+      {
+        "id": "C01",
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "words": [
+          "keedey",
+          "qofchedy",
+          "shee",
+          "s",
+          "aiin",
+          "qokee@149;",
+          "chepakeo"
+        ],
+        "tags": [
+          "TAKE",
+          "RAISINS",
+          "FOUR",
+          "THE",
+          "GRAPE_SEEDS",
+          "CONTAINING",
+          "THEREFORE"
+        ]
+      },
+      {
+        "id": "C02",
+        "positions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "words": [
+          "dcheey",
+          "daiin",
+          "okeedy",
+          "qokees",
+          "s",
+          "aiin",
+          "shekeey",
+          "qef"
+        ],
+        "tags": [
+          "EXTRACT",
+          "YOU",
+          "FINGERNAILS",
+          "USING",
+          "THE",
+          "GRAPE_SEEDS",
+          "NOT_USING",
+          "MOUTH"
+        ]
+      },
+      {
+        "id": "C03",
+        "positions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "words": [
+          "qokeey",
+          "chey",
+          "daiin",
+          "qokeey",
+          "[s:r]air",
+          "chekey"
+        ],
+        "tags": [
+          "KNOWS",
+          "THIS_RITE",
+          "YOU",
+          "KNOWS",
+          "RECIPIENT",
+          "NOT"
+        ]
+      },
+      {
+        "id": "C04",
+        "positions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "words": [
+          "s",
+          "aiin",
+          "da?",
+          "qotar",
+          "chy",
+          "dar",
+          "lo",
+          "r"
+        ],
+        "tags": [
+          "THE",
+          "GRAPE_SEEDS",
+          "PLACE",
+          "CLOTH",
+          "IN",
+          "NECK",
+          "ON",
+          "BIND"
+        ]
+      },
+      {
+        "id": "C05",
+        "positions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "words": [
+          "ar",
+          "cheey",
+          "keeol",
+          "chedy",
+          "qokey",
+          "daiin",
+          "sheeody",
+          "qokeor"
+        ],
+        "tags": [
+          "PURE",
+          "BEING",
+          "WHILE",
+          "ATTRIBUTED_CLAIM",
+          "BY_GRACE",
+          "YOU",
+          "RELEASE",
+          "GOD"
+        ]
+      }
+    ],
+    "consumed": 37,
+    "seed_references": [
+      {
+        "position": 5,
+        "reference": "G"
+      },
+      {
+        "position": 13,
+        "reference": "G"
+      },
+      {
+        "position": 23,
+        "reference": "G"
+      }
+    ],
+    "actor_references": [
+      {
+        "position": 9,
+        "reference": "A"
+      },
+      {
+        "position": 18,
+        "reference": "A"
+      },
+      {
+        "position": 35,
+        "reference": "A"
+      }
+    ],
+    "knowledge": [
+      {
+        "position": 16,
+        "person": "A",
+        "object": "P_rite",
+        "time": "t_bind",
+        "value": true
+      },
+      {
+        "position": 19,
+        "person": "W",
+        "object": "P_rite",
+        "time": "t_bind",
+        "value": false
+      }
+    ],
+    "purity": {
+      "person": "W",
+      "time": "t_bind"
+    },
+    "actions": [
+      {
+        "op": "TAKE",
+        "actor": "A",
+        "object": "R"
+      },
+      {
+        "op": "EXTRACT",
+        "actor": "A",
+        "object": "G",
+        "source": "R",
+        "using": "NAILS(A)",
+        "forbidden": "MOUTH(A)"
+      },
+      {
+        "op": "PLACE",
+        "actor": "A",
+        "object": "G",
+        "destination": "C"
+      },
+      {
+        "op": "BIND",
+        "actor": "A",
+        "object": "C",
+        "destination": "NECK(W)"
+      },
+      {
+        "op": "CLAIM",
+        "actor": "A",
+        "recipient": "W",
+        "condition": "Q",
+        "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+        "kind": "SOURCE_ATTRIBUTED_ONLY"
+      }
+    ],
+    "references": {
+      "R": "selected raisins",
+      "G": "all seed identities from R",
+      "C": "cloth",
+      "A": "YOU same person",
+      "W": "RECIPIENT",
+      "Q": "source-context quartan reference"
+    },
+    "reference_macro_cost": "chey=P_rite"
+  },
+  {
+    "status": "COMPLETE",
+    "candidate": {
+      "id": "EACH_DIFFERENT_OBJECTS_ACTOR",
+      "quantity": "EACH",
+      "knowledge": "DIFFERENT_OBJECTS",
+      "purity": "ACTOR"
+    },
+    "clauses": [
+      {
+        "id": "C01",
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "words": [
+          "keedey",
+          "qofchedy",
+          "shee",
+          "s",
+          "aiin",
+          "qokee@149;",
+          "chepakeo"
+        ],
+        "tags": [
+          "TAKE",
+          "RAISINS",
+          "FOUR",
+          "THE",
+          "GRAPE_SEEDS",
+          "CONTAINING",
+          "THEREFORE"
+        ]
+      },
+      {
+        "id": "C02",
+        "positions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "words": [
+          "dcheey",
+          "daiin",
+          "okeedy",
+          "qokees",
+          "s",
+          "aiin",
+          "shekeey",
+          "qef"
+        ],
+        "tags": [
+          "EXTRACT",
+          "YOU",
+          "FINGERNAILS",
+          "USING",
+          "THE",
+          "GRAPE_SEEDS",
+          "NOT_USING",
+          "MOUTH"
+        ]
+      },
+      {
+        "id": "C03",
+        "positions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "words": [
+          "qokeey",
+          "chey",
+          "daiin",
+          "qokeey",
+          "[s:r]air",
+          "chekey"
+        ],
+        "tags": [
+          "KNOWS",
+          "THIS_RITE",
+          "YOU",
+          "KNOWS",
+          "RECIPIENT",
+          "NOT"
+        ]
+      },
+      {
+        "id": "C04",
+        "positions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "words": [
+          "s",
+          "aiin",
+          "da?",
+          "qotar",
+          "chy",
+          "dar",
+          "lo",
+          "r"
+        ],
+        "tags": [
+          "THE",
+          "GRAPE_SEEDS",
+          "PLACE",
+          "CLOTH",
+          "IN",
+          "NECK",
+          "ON",
+          "BIND"
+        ]
+      },
+      {
+        "id": "C05",
+        "positions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "words": [
+          "ar",
+          "cheey",
+          "keeol",
+          "chedy",
+          "qokey",
+          "daiin",
+          "sheeody",
+          "qokeor"
+        ],
+        "tags": [
+          "PURE",
+          "BEING",
+          "WHILE",
+          "ATTRIBUTED_CLAIM",
+          "BY_GRACE",
+          "YOU",
+          "RELEASE",
+          "GOD"
+        ]
+      }
+    ],
+    "consumed": 37,
+    "seed_references": [
+      {
+        "position": 5,
+        "reference": "G"
+      },
+      {
+        "position": 13,
+        "reference": "G"
+      },
+      {
+        "position": 23,
+        "reference": "G"
+      }
+    ],
+    "actor_references": [
+      {
+        "position": 9,
+        "reference": "A"
+      },
+      {
+        "position": 18,
+        "reference": "A"
+      },
+      {
+        "position": 35,
+        "reference": "A"
+      }
+    ],
+    "knowledge": [
+      {
+        "position": 16,
+        "person": "A",
+        "object": "P_attach",
+        "time": "t_bind",
+        "value": true
+      },
+      {
+        "position": 19,
+        "person": "W",
+        "object": "P_purpose",
+        "time": "t_bind",
+        "value": false
+      }
+    ],
+    "purity": {
+      "person": "A",
+      "time": "t_bind"
+    },
+    "actions": [
+      {
+        "op": "TAKE",
+        "actor": "A",
+        "object": "R"
+      },
+      {
+        "op": "EXTRACT",
+        "actor": "A",
+        "object": "G",
+        "source": "R",
+        "using": "NAILS(A)",
+        "forbidden": "MOUTH(A)"
+      },
+      {
+        "op": "PLACE",
+        "actor": "A",
+        "object": "G",
+        "destination": "C"
+      },
+      {
+        "op": "BIND",
+        "actor": "A",
+        "object": "C",
+        "destination": "NECK(W)"
+      },
+      {
+        "op": "CLAIM",
+        "actor": "A",
+        "recipient": "W",
+        "condition": "Q",
+        "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+        "kind": "SOURCE_ATTRIBUTED_ONLY"
+      }
+    ],
+    "references": {
+      "R": "selected raisins",
+      "G": "all seed identities from R",
+      "C": "cloth",
+      "A": "YOU same person",
+      "W": "RECIPIENT",
+      "Q": "source-context quartan reference"
+    },
+    "reference_macro_cost": "chey=P_attach; recipient implicit object=P_purpose; one changed macro value"
+  },
+  {
+    "status": "COMPLETE",
+    "candidate": {
+      "id": "EACH_DIFFERENT_OBJECTS_RECIPIENT",
+      "quantity": "EACH",
+      "knowledge": "DIFFERENT_OBJECTS",
+      "purity": "RECIPIENT"
+    },
+    "clauses": [
+      {
+        "id": "C01",
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "words": [
+          "keedey",
+          "qofchedy",
+          "shee",
+          "s",
+          "aiin",
+          "qokee@149;",
+          "chepakeo"
+        ],
+        "tags": [
+          "TAKE",
+          "RAISINS",
+          "FOUR",
+          "THE",
+          "GRAPE_SEEDS",
+          "CONTAINING",
+          "THEREFORE"
+        ]
+      },
+      {
+        "id": "C02",
+        "positions": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "words": [
+          "dcheey",
+          "daiin",
+          "okeedy",
+          "qokees",
+          "s",
+          "aiin",
+          "shekeey",
+          "qef"
+        ],
+        "tags": [
+          "EXTRACT",
+          "YOU",
+          "FINGERNAILS",
+          "USING",
+          "THE",
+          "GRAPE_SEEDS",
+          "NOT_USING",
+          "MOUTH"
+        ]
+      },
+      {
+        "id": "C03",
+        "positions": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "words": [
+          "qokeey",
+          "chey",
+          "daiin",
+          "qokeey",
+          "[s:r]air",
+          "chekey"
+        ],
+        "tags": [
+          "KNOWS",
+          "THIS_RITE",
+          "YOU",
+          "KNOWS",
+          "RECIPIENT",
+          "NOT"
+        ]
+      },
+      {
+        "id": "C04",
+        "positions": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "words": [
+          "s",
+          "aiin",
+          "da?",
+          "qotar",
+          "chy",
+          "dar",
+          "lo",
+          "r"
+        ],
+        "tags": [
+          "THE",
+          "GRAPE_SEEDS",
+          "PLACE",
+          "CLOTH",
+          "IN",
+          "NECK",
+          "ON",
+          "BIND"
+        ]
+      },
+      {
+        "id": "C05",
+        "positions": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "words": [
+          "ar",
+          "cheey",
+          "keeol",
+          "chedy",
+          "qokey",
+          "daiin",
+          "sheeody",
+          "qokeor"
+        ],
+        "tags": [
+          "PURE",
+          "BEING",
+          "WHILE",
+          "ATTRIBUTED_CLAIM",
+          "BY_GRACE",
+          "YOU",
+          "RELEASE",
+          "GOD"
+        ]
+      }
+    ],
+    "consumed": 37,
+    "seed_references": [
+      {
+        "position": 5,
+        "reference": "G"
+      },
+      {
+        "position": 13,
+        "reference": "G"
+      },
+      {
+        "position": 23,
+        "reference": "G"
+      }
+    ],
+    "actor_references": [
+      {
+        "position": 9,
+        "reference": "A"
+      },
+      {
+        "position": 18,
+        "reference": "A"
+      },
+      {
+        "position": 35,
+        "reference": "A"
+      }
+    ],
+    "knowledge": [
+      {
+        "position": 16,
+        "person": "A",
+        "object": "P_attach",
+        "time": "t_bind",
+        "value": true
+      },
+      {
+        "position": 19,
+        "person": "W",
+        "object": "P_purpose",
+        "time": "t_bind",
+        "value": false
+      }
+    ],
+    "purity": {
+      "person": "W",
+      "time": "t_bind"
+    },
+    "actions": [
+      {
+        "op": "TAKE",
+        "actor": "A",
+        "object": "R"
+      },
+      {
+        "op": "EXTRACT",
+        "actor": "A",
+        "object": "G",
+        "source": "R",
+        "using": "NAILS(A)",
+        "forbidden": "MOUTH(A)"
+      },
+      {
+        "op": "PLACE",
+        "actor": "A",
+        "object": "G",
+        "destination": "C"
+      },
+      {
+        "op": "BIND",
+        "actor": "A",
+        "object": "C",
+        "destination": "NECK(W)"
+      },
+      {
+        "op": "CLAIM",
+        "actor": "A",
+        "recipient": "W",
+        "condition": "Q",
+        "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+        "kind": "SOURCE_ATTRIBUTED_ONLY"
+      }
+    ],
+    "references": {
+      "R": "selected raisins",
+      "G": "all seed identities from R",
+      "C": "cloth",
+      "A": "YOU same person",
+      "W": "RECIPIENT",
+      "Q": "source-context quartan reference"
+    },
+    "reference_macro_cost": "chey=P_attach; recipient implicit object=P_purpose; one changed macro value"
+  }
+]
