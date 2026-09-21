@@ -1,0 +1,256 @@
+[
+  {
+    "candidate": "DIRECT",
+    "status": "VERIFIED_CONDITIONAL_READING",
+    "events": {
+      "events": [
+        {
+          "id": "C3:HABIT",
+          "kind": "HABIT",
+          "action": "UNRAVEL",
+          "worker": "WOMAN",
+          "cloth": "CURRENT_CLOTH",
+          "phase": "NIGHT",
+          "concealed": true,
+          "audience": "WOOERS"
+        },
+        {
+          "id": "C4:PLEDGE",
+          "kind": "PLEDGE",
+          "worker": "WOMAN",
+          "phase": "DAY",
+          "content": "C2:PREREQUISITE",
+          "audience": "WOOERS"
+        },
+        {
+          "id": "C5:HABIT",
+          "kind": "HABIT",
+          "action": "WEAVE",
+          "worker": "WOMAN",
+          "cloth": "CURRENT_CLOTH",
+          "phase": "DAY",
+          "concealed": false,
+          "endpoint": "C5:ENDPOINT",
+          "distribution": [
+            "ROW_OF_WOVEN_WORK",
+            2
+          ]
+        },
+        {
+          "id": "C7:INFORM",
+          "kind": "INFORM",
+          "speaker": "HANDMAID",
+          "audience": "WOOERS",
+          "content": "C3:HABIT"
+        },
+        {
+          "id": "C7:DISCOVER",
+          "kind": "DISCOVER",
+          "subject": "WOOERS",
+          "phase": "NIGHT",
+          "content": "C3:HABIT"
+        },
+        {
+          "id": "C8:BOUNDED_ACTION",
+          "kind": "BOUNDED_ACTION",
+          "action": "WEAVE",
+          "worker": "WOMAN",
+          "cloth": "CURRENT_CLOTH",
+          "compulsion": "UNDER_COMPULSION",
+          "endpoint": "C5:ENDPOINT",
+          "asserted_state": [
+            "FINISHED",
+            "CURRENT_CLOTH"
+          ],
+          "phase": null
+        }
+      ],
+      "prerequisites": [
+        {
+          "id": "C2:PREREQUISITE",
+          "predicate": "FINISHED",
+          "cloth": "CURRENT_CLOTH",
+          "social_act": "MARRIAGE",
+          "worker": "WOMAN"
+        }
+      ],
+      "endpoints": [
+        {
+          "id": "C5:ENDPOINT",
+          "predicate": "FINISHED",
+          "action": "WEAVE",
+          "worker": "WOMAN",
+          "cloth": "CURRENT_CLOTH"
+        }
+      ],
+      "action_pairs": [
+        [
+          "WEAVE",
+          "UNRAVEL",
+          "CURRENT_CLOTH"
+        ]
+      ],
+      "temporal_edges": [
+        [
+          "C7:INFORM",
+          "C7:DISCOVER",
+          false
+        ],
+        [
+          "C3:HABIT",
+          "C7:DISCOVER",
+          true
+        ],
+        [
+          "C4:PLEDGE",
+          "C7:DISCOVER",
+          true
+        ],
+        [
+          "C5:HABIT",
+          "C7:DISCOVER",
+          true
+        ],
+        [
+          "C7:DISCOVER",
+          "C8:BOUNDED_ACTION",
+          true
+        ]
+      ],
+      "audience": "WOOERS"
+    },
+    "whole_positions": 33,
+    "computed_habit_phases": {
+      "UNRAVEL": "NIGHT",
+      "WEAVE": "DAY"
+    },
+    "independent_meaning_capacity": 0
+  },
+  {
+    "candidate": "REVERSED",
+    "status": "VERIFIED_CONDITIONAL_READING",
+    "events": {
+      "events": [
+        {
+          "id": "C3:HABIT",
+          "kind": "HABIT",
+          "action": "UNRAVEL",
+          "worker": "WOMAN",
+          "cloth": "CURRENT_CLOTH",
+          "phase": "DAY",
+          "concealed": true,
+          "audience": "WOOERS"
+        },
+        {
+          "id": "C4:PLEDGE",
+          "kind": "PLEDGE",
+          "worker": "WOMAN",
+          "phase": "DAY",
+          "content": "C2:PREREQUISITE",
+          "audience": "WOOERS"
+        },
+        {
+          "id": "C5:HABIT",
+          "kind": "HABIT",
+          "action": "WEAVE",
+          "worker": "WOMAN",
+          "cloth": "CURRENT_CLOTH",
+          "phase": "NIGHT",
+          "concealed": false,
+          "endpoint": "C5:ENDPOINT",
+          "distribution": [
+            "ROW_OF_WOVEN_WORK",
+            2
+          ]
+        },
+        {
+          "id": "C7:INFORM",
+          "kind": "INFORM",
+          "speaker": "HANDMAID",
+          "audience": "WOOERS",
+          "content": "C3:HABIT"
+        },
+        {
+          "id": "C7:DISCOVER",
+          "kind": "DISCOVER",
+          "subject": "WOOERS",
+          "phase": "NIGHT",
+          "content": "C3:HABIT"
+        },
+        {
+          "id": "C8:BOUNDED_ACTION",
+          "kind": "BOUNDED_ACTION",
+          "action": "WEAVE",
+          "worker": "WOMAN",
+          "cloth": "CURRENT_CLOTH",
+          "compulsion": "UNDER_COMPULSION",
+          "endpoint": "C5:ENDPOINT",
+          "asserted_state": [
+            "FINISHED",
+            "CURRENT_CLOTH"
+          ],
+          "phase": null
+        }
+      ],
+      "prerequisites": [
+        {
+          "id": "C2:PREREQUISITE",
+          "predicate": "FINISHED",
+          "cloth": "CURRENT_CLOTH",
+          "social_act": "MARRIAGE",
+          "worker": "WOMAN"
+        }
+      ],
+      "endpoints": [
+        {
+          "id": "C5:ENDPOINT",
+          "predicate": "FINISHED",
+          "action": "WEAVE",
+          "worker": "WOMAN",
+          "cloth": "CURRENT_CLOTH"
+        }
+      ],
+      "action_pairs": [
+        [
+          "WEAVE",
+          "UNRAVEL",
+          "CURRENT_CLOTH"
+        ]
+      ],
+      "temporal_edges": [
+        [
+          "C7:INFORM",
+          "C7:DISCOVER",
+          false
+        ],
+        [
+          "C3:HABIT",
+          "C7:DISCOVER",
+          true
+        ],
+        [
+          "C4:PLEDGE",
+          "C7:DISCOVER",
+          true
+        ],
+        [
+          "C5:HABIT",
+          "C7:DISCOVER",
+          true
+        ],
+        [
+          "C7:DISCOVER",
+          "C8:BOUNDED_ACTION",
+          true
+        ]
+      ],
+      "audience": "WOOERS"
+    },
+    "whole_positions": 33,
+    "computed_habit_phases": {
+      "UNRAVEL": "DAY",
+      "WEAVE": "NIGHT"
+    },
+    "independent_meaning_capacity": 0
+  }
+]

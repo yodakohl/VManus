@@ -23877,3 +23877,5 @@ GDT893 completed within budget with partial search knowledge: ZL77/RF125/consens
 GDT1018: all156originalsettings adequate;2unchanged savedf50ZL maps universally adequate,27not;30of312member cases constructively retained,282fullspaces unsearched/open. No original dictionary exclusion. 75newaliases/positive and24/26THENpositions;0words. [Whole result](experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md).
 
 GDT1019: fresh completed-episode THENconjunction has no fullf50extension;bothencodings20classes312members UNSAT,original156pass. Close exactlaw;olderno-op/adequateinstruction worlds retained.0words. [Decision](experiments/yolo/gdt1019_transport_completed_episode_reference/REPORT.md).
+
+GDT1020: RAW404nowexecutable on unchanged33groupP12projection;DIRECT/REVERSED schedules both coherent,24guesses unchanged. Two diplomatic forms remainunbound;0words/no sourceidentity. [Complete graphs](experiments/yolo/gdt1020_unweaving_complete_assertion_graph/REPORT.md).
