@@ -1,0 +1,90 @@
+{
+  "title": "Transport sol as a reusable certificate of newly completed voyages",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED. Replace the current no-op THEN meaning by an explicit completion-reference operation: each occurrence certifies at least one real voyage since the preceding certificate. Original sol at groups25 and33 invokes the same operation after voyage1 and voyage4. This creates a trace obligation for every existing THEN alias; familiar repeated-THEN witnesses are retained as known countercases, not banned as bad style.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source_bindings": [
+    {
+      "path": "experiments/yolo/gdt1013_transport_complete_long_worlds/REPORT.md",
+      "sha256": "095a69fd7c8bb0e02336bb727ae3162da94f82c875ff29816593d9b6c204c06b"
+    },
+    {
+      "path": "experiments/yolo/gdt1014_semantic_wrapper_transport/REPORT.md",
+      "sha256": "60fc7621ffdfe8b0fc762d1e397df4fa515a13e4b56828158824ebc6a78dc8b6"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/SPEC.json",
+      "sha256": "d452ad3b4f8ec9b49de3f4a638e5eac377cb10f32a50981e9989135af1d416dc"
+    },
+    {
+      "path": "experiments/yolo/gdt993_complete_transport_consequence_audit/src/model.py",
+      "sha256": "98fd7c5132f9b9d463596a1c31ac061f1f489b13b91f899e34753209298bd247"
+    },
+    {
+      "path": "experiments/yolo/gdt1014_semantic_wrapper_transport/artifacts/PANEL.json",
+      "sha256": "645541f6861d9121e662f4f01de175164e1ba0351e156ef7ab9dfcb7057330a6"
+    },
+    {
+      "path": "experiments/yolo/gdt1014_semantic_wrapper_transport/artifacts/ORIGINAL_CANDIDATES.json",
+      "sha256": "007fa5b93353f9d32b41a1ab2e33688411160d1eb6fce31f1d3d3d559e906e5d"
+    }
+  ],
+  "retained_scope": "All original63-group f83r and two complete f50r readings from1013/1014, their full frozen47-value original dictionaries, grammar17 constructions, references, hazards, physical states and final goals. All source/seam uncertainty stays. Existing THEN terminal is reinterpreted in a separate new candidate; the old no-op readings remain valid under their own contracts.",
+  "new_meaning": "THEN denotes a completed-episode anaphor, approximately after that has been accomplished. It consumes a fresh prior voyage interval, rather than contributing a new unrepresented trip or a pure no-op. This is a new unconfirmed content assumption, not a grammatical truth about ordinary English then.",
+  "shared_operation": {
+    "input": "The complete already derived chronological TRIP trace prefix, and the index of the last voyage previously certified by a THEN in this paragraph. Initially the certified index is0.",
+    "effect": "Let n be the number of actual successful interbank TRIP events before this token and c the preceding certified index. Require n>c, return a certificate for the nonempty contiguous interval(c,n], and set c=n. All effects are derived from the existing trace; no hidden clock, extra physical state or invented action is introduced.",
+    "uniform_scope": "Apply at every node whose frozen terminal is THEN, regardless of its spelling. Start c=0 at the complete paragraph INITIAL. Do not reset after hazards, new clauses or line breaks. Declarations, references, THEN itself and failed attempts are not TRIP events. A round trip may return to an old physical state but still consists of two real events; no monotonic goal-distance rule is imposed.",
+    "nondeletion": "Every original group stays in the parse. Consecutive THEN certificates cannot share the same unmodified event prefix. No marker is ignored, merged into emphasis or assigned an occurrence exception under this candidate.",
+    "two_observed_cells": [
+      {
+        "word": "sol",
+        "source_group": 25,
+        "preceding_written_operation": "WITH_OUT at groups21-24",
+        "n": 1,
+        "c": 0,
+        "prediction": "certify voyage1 and setc=1"
+      },
+      {
+        "word": "sol",
+        "source_group": 33,
+        "preceding_written_operations": "EXCLUDE,FERRY,WITH_RETURN at groups26-32",
+        "n": 4,
+        "c": 1,
+        "prediction": "certify voyages2-4 and setc=4"
+      }
+    ],
+    "distinct_rival_predictions": "A no-op connective leavesc untouched and accepts another THEN on the same trace prefix. The certificate operator rejects that second use unless an actual intervening written voyage occurred. It neither rejects identical completed paths nor asserts that sol itself moves a cargo."
+  },
+  "known_capacity_and_countercases": {
+    "original": "The two motivating exact sol occurrences certify different nonempty intervals under the retained original trace. They are two uses of one operator, not two fitted closure rules. The hypothesis was developed after seeing both positions.",
+    "gdt1013": "Saved witnesses have17-39 THEN positions,14-28 distinct new THEN spellings and runs2-11. Those runs are direct countercases to a certificate reading of those SAME saved parses. This is already visible from the primary report and is not a new exhaustive exclusion.",
+    "gdt1014": "Saved witnesses retain9-31 THEN positions,6-24 new spellings and runs2-9. Wrapper compatibility does not remove the content issue.",
+    "extra_voyages": "An added f50r world can have more voyages than the original seven; FULL15 already has eleven. A prospective full search may reorganize the new aliases and add only those voyages explicitly supplied by its complete grammar. Therefore THEN counts alone do not exclude a dictionary, and no arbitrary maximum-voyage count is introduced.",
+    "ordinary_language_countercase": "A writer may repeat a discourse connective without referring to a distinct episode. If that is the actual meaning, this certificate hypothesis is false; repetition cannot simply be declared malformed manuscript language.",
+    "scientific_ceiling": "Even a reduced surviving model set would support only the stipulated completion reading. No independent meaning or segmentation is added."
+  },
+  "smallest_decision_changing_test": {
+    "first": "Freeze this trace predicate, then replay the two complete old parses and every saved1013/1014 witness, retaining each marker with its preceding certified interval. This is a bounded candidate precheck, not a new count-statistics study and not proof that alternatives are absent.",
+    "full_search_gate": "Only if root selects the meaning and the precheck is coherent on original worlds, register the same complete original-plus-f50r population with this predicate. Keep all old dictionaries/settings and permit only existing extension alias variables and full grammar; no additional word, schema or hidden voyage. Include all cases and distinguish SAT,provedUNSAT,UNKNOWN.",
+    "decision": "If all classes still admit complete readings, close this stronger completion meaning as nonseparating. If some are excluded, report exact intervals and exhausted whole-world obligations. If originals fail, close this conjunction immediately. Do not automatically vary certificate span or exempt repeated spellings.",
+    "budget_minutes": 60,
+    "scope": "Inclusive preparation, small predicate integration, complete validation and publication; reuse current physical executors."
+  },
+  "predecessors": [
+    {
+      "id": "GDT1013",
+      "limit": "Whole worlds are coherent under THEN as no-op; this new meaning cannot retroactively invalidate them."
+    },
+    {
+      "id": "GDT1014",
+      "limit": "A shared free wrapper law leaves many repeated THEN markers; current content law is not an added arbitrary wrapper condition."
+    },
+    {
+      "id": "IDEA000433",
+      "limit": "A NEXT marker previously had no independent ordering effect. Here the precise certificate interval and a repeated-marker failure are specified before implementation."
+    }
+  ],
+  "duplicate_review": "Bounded ideas searches/duplicates for THEN completion certificate and sol completed voyage; route-check THEN empty event progress sequence marker. Exact993 SPEC/model and1013/1014reports inspected. No existing assessed completion-certificate contract was found in those returned primaries; lexical search alone does not prove novelty.",
+  "access": "Proposal/registry only; no experiment, route, ledger, new text/image, reserve, f84/f84r/f116v or contact."
+}

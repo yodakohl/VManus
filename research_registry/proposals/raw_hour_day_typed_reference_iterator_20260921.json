@@ -1,0 +1,141 @@
+{
+  "title": "Constructor-local typed reference iterator for the complete1015 hour/day argument",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED. Replace1015s separately stipulated antecedent choices by one explicit typed iterator: within a complete constructor, fetch the most recent completed matching referent not already used by that constructor. C07 dy/dy then selects DAY and HOUR; C12 METHOD/METHOD selects B thenA. C11 SAME can see only completed methodA whileB remains open. This is a new limited reference grammar, not a recovered meaning or a repair to947.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source_bindings": [
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/READING_v01.md",
+      "sha256": "9d96ef4198c8623183e25724331559c9bc2bad3b159fcdabcaee07ebb26f7840"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/MODEL_v01.json",
+      "sha256": "07fdeb0b6f53fad8d9f2a253c585699c8c5d248c9206d4599d43e3ceaf5171c7"
+    },
+    {
+      "path": "experiments/yolo/gdt1015_coupled_hour_day_reading/REPORT.md",
+      "sha256": "f067ae4313f4e3b155bcdf524e6ae578fceab0e28d8227a80a8e0da7e1810f34"
+    },
+    {
+      "path": "experiments/yolo/gdt933_paragraph_participant_reference_contrast/REPORT.md",
+      "sha256": "06ae0aa0037f0a221a563f7071c51a597fec1f2799a52f44fe5b500686c71cdd"
+    },
+    {
+      "path": "experiments/yolo/gdt947_ol_content_reference_direction/REPORT.md",
+      "sha256": "9f5b872a56f64624b18098a3673334365ec24cd4ebd251230abc85ed8eb3d74c"
+    }
+  ],
+  "fixed_model": "All60 hypothesized word values, all80 supplied groups,12 original constructor boundaries, arithmetic, nonreference operands, cyclic successor, unit repetition and rival numeric settings remain unchanged. Work is over the complete model account; a manuscript-level literal claim remains barred until root resolves its diplomatic transcription/seam audit. No source reading is normalized by this proposal.",
+  "new_assumptions": [
+    "A completed constructor opens a new local used-reference setU; the reset boundary is exactly the existing12-clause model boundary, not an inferred punctuation sign.",
+    "Backward antecedent choices share one most-recent-unused-by-type algorithm. Distinct ordinary METHOD operands are therefore a consequence of consuming two references in one constructor, not a bespoke second-slot previous-distinct rule.",
+    "An in-progress calculation can use its local result, but is added to the discourse method/result registry only after its whole constructor, including any equality assertion, closes.",
+    "Types, referent creation, completedness and the supplied constructor boundaries are all model assumptions. No claim that one short target form independently spells this iterator."
+  ],
+  "operation": {
+    "signature": "FETCH(T,completed_registry,U) -> (referent,UplusReferent)",
+    "rule": "Traverse completed referents in decreasing last-mention/creation order. Select the first with required typeT whose identity is not inU. Add that identity toU. Fail when no such referent exists. The choice cannot inspect the desired equality outcome, target word, clause index or intended antecedentID.",
+    "identity": "A later mention of the same DAY or HOUR unit updates recency but does not manufacture a fresh referent. MethodA andMethodB are two explicitly introduced computations. The local used set blocks referent identity, not spelling; it does not delete objects from the discourse registry.",
+    "publication": "C10 registers methodA and its ruler-result at closure. C11 opens methodB, evaluates its own local result, resolves SAME against completed result history, checks equality, and only then registers methodB/result. C12 starts with both completed methods. No registry update is inferred solely from the desired final agreement.",
+    "declared_antecedent_choice_sites": [
+      {
+        "constructor": "C04",
+        "slot": "subject",
+        "type": "DAY",
+        "old_choice": "most recentDAY",
+        "new_choice": "FETCH(DAY)"
+      },
+      {
+        "constructor": "C07",
+        "word_position": 40,
+        "type": "DAY",
+        "old_choice": "DAY mention36",
+        "new_choice": "FETCH(DAY)"
+      },
+      {
+        "constructor": "C07",
+        "word_position": 43,
+        "type": "HOUR_UNIT",
+        "old_choice": "HOUR mention37",
+        "new_choice": "FETCH(HOUR_UNIT)"
+      },
+      {
+        "constructor": "C09",
+        "slot": "day_count",
+        "type": "DAY_COUNT",
+        "old_choice": "C07 count",
+        "new_choice": "FETCH(DAY_COUNT)"
+      },
+      {
+        "constructor": "C11",
+        "word_position": 75,
+        "type": "RULER_RESULT",
+        "old_choice": "methodAresult",
+        "new_choice": "FETCH(RULER_RESULT)"
+      },
+      {
+        "constructor": "C12",
+        "word_position": 76,
+        "type": "METHOD",
+        "old_choice": "most recentmethodB",
+        "new_choice": "FETCH(METHOD)"
+      },
+      {
+        "constructor": "C12",
+        "word_position": 78,
+        "type": "METHOD",
+        "old_choice": "precedingdistinctmethodA",
+        "new_choice": "FETCH(METHOD)"
+      }
+    ],
+    "scope_limit": "These are the supplied model fields that choose among prior discourse referents. Direct constant bindings, function arguments, initial-phase identity and the C08 following-hour variable remain the unchanged declared constructors; this is not a complete universal reference/parser law. Before selection, root must confirm this list has not omitted another genuinely choosing backward-reference field. Omission is a design failure, not permission for a per-slot exception."
+  },
+  "two_reused_compositions": [
+    {
+      "context": "C07 THIS24CONSISTS_OFTHIS",
+      "input": "completed DAYD and HOUR_UNITU from the explicit C06 mentions; localused={}",
+      "calls": [
+        "FETCH(DAY)->D;used={D}",
+        "FETCH(HOUR_UNIT)->U;used={D,U}"
+      ],
+      "different_prediction": "An untyped latest-mention rule would select the more recentRULER mention39 and fail the DAY/HOUR argument types. The shared typed iterator preservesD/U without choosing antecedentIDs in code."
+    },
+    {
+      "context": "C12 METHODAGREES_INMETHODHOURRULERSHIP",
+      "input": "completed methodsA thenB; localused={}",
+      "calls": [
+        "FETCH(METHOD)->B;used={B}",
+        "FETCH(METHOD)->A;used={B,A}"
+      ],
+      "different_prediction": "The nonconsuming typed-recency rival returnsB twice and makes the comparison tautological. The consuming iterator requires two distinct completed methods and does not consult whether their results agree."
+    }
+  ],
+  "cross_scope_obligation": {
+    "context": "C11 SAME and subsequentC12",
+    "input": "A completed;B open atSAME75",
+    "prediction": "C11 selects Aresult and compares it to localBresult. After closure,B becomes available and C12 selects B thenA. An eager-publication rival makes B visible atSAME and may select its own result; a paragraph-global used set may incorrectly consumeA for laterC12. Both are explicit alternative scope laws, not data-driven exceptions."
+  },
+  "rivals": [
+    "NONCONSUMING_TYPED: choose latest compatible referent withoutU; same word meanings and whole scope, but C12 can returnB/B.",
+    "UNTYPED_RECENT: choose latest mention regardless of type; C07 has a concrete expected-type conflict.",
+    "EAGER_PUBLISH: register an open method result before its comparison closes; C11 can become self-comparison.",
+    "GLOBAL_CONSUMPTION: never resetU between constructors; earlier references can wrongly exhaust later reusable entities."
+  ],
+  "known_countercases_and_ceiling": [
+    "GDT1015 already supplied the desiredD/U andB/A bindings. This iterator is a post-exposure factorization of those choices, not independently learned syntax; its main result may only restate the primary model.",
+    "GDT1015 retainsSAME_METHOD_REFERENCE as a coherent rival. A success here excludes it only under the newly assumed consumption discipline, never as a manuscript reading generally.",
+    "Reflexive comparisons and repeated anaphoric references are legitimate possibilities. The no-reuse rule is a narrow candidate convention, not an argument that real language must avoid them.",
+    "GDT933 showed that typed recency can fill participants by presuming unread intervals. This proposal uses a fully assigned hypothetical account, but the guessed words/types and clause boundaries replace neither independent evidence nor source verification.",
+    "GDT947s exact ol backward/forward rules remain contradicted. No ol-prefix reinterpretation, relaxed prior core requirement or new occurrence census is proposed.",
+    "No productive subword meaning is supplied by this reference factorization. All singleton glosses, night/reversal alternatives and seven-cycle label symmetry remain."
+  ],
+  "smallest_decision_changing_test": {
+    "first": "Manually enumerate the seven declared calls and every referent creation/publication in the unchanged full12-constructor reading. Freeze this trace and the one generic algorithm before implementing it; specifically check C11 beforeC12, not only two attractive isolated pairs.",
+    "evaluation": "Replay the full primary and the four explicit reference rivals with the same word values. Report chosen IDs, input types, scope, empty domains and which final comparisons become self-comparisons. Do not rerun arithmetic except where changed reference targets change the comparison.",
+    "decision": "Keep the iterator only if every declared backward selection follows the single rule with no desired-ID lookup. If another choosing field or real repeated-reference requirement breaks it, close this specific reference discipline; do not add clause-specific reset or reuse exceptions. Passing provides a smaller conditional binding account, not a selected translation.",
+    "budget_minutes": 35,
+    "scope": "Inclusive manual trace, minimal replay/check, report and publication; no general discourse decoder or new historical source."
+  },
+  "duplicate_review": "Bounded ideas duplicates constructor local unused typed reference iteration completed methods; route-check reference typed recent distinct consume cursor; exact1015 READING/REPORT and933/947 reports inspected.",
+  "access": "Proposal/registry only. No experiments, route, ledger, new target data/image, reserve, f84/f84r/f116v or contacts."
+}

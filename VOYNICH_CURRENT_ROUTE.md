@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Select a repeated content operation after bounded source-writer preflights.
-Latest decision: 473/474draft writers fail capacity;1015covers normalized copy,two diplomatic differences.
-Working files: research_registry/work_batches/ten_hours_20260915/TWO_SMALL_CONTENT_MODELS_SUPPLY_20260920.md#am
-Assumptions: 0words;1015numbers/templates guessed;357replays retained,no full diplomatic coverage.
-Resume: Publish scope correction/preflights;review new shared-content proposals against primaries.
-Running: bounded_semantic_route produces3bounded ideas;root closes audits;ends11:11:33UTC.
+Task: GDT1016 participant-neutral unary wrappers;register before target-law tests.
+Latest decision: Selected same17/15joint inventories;625algebra fixtures pass;0target queries.
+Working files: experiments/yolo/gdt1016_transport_name_blind_wrappers/DECISION.md
+Assumptions: 0words;new unary name/context blindness;1013/1014positives and source limits retained.
+Resume: Publish lock;run36x2original-cell precursor;proper nonempty subset gates52full cases.
+Running: bounded_semantic_route supplies2ideas;root registers1016;checkpoint03:47,end11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
