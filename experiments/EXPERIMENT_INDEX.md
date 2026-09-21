@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1025**
-- Experiment-associated tracked files: **20,374** (1.9 GiB)
-- Structured GDT337+ experiments: **690**
+- Experiments indexed: **1026**
+- Experiment-associated tracked files: **20,392** (1.9 GiB)
+- Structured GDT337+ experiments: **691**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1027 | seed rite scope and identity | `REGISTERED_UNSCORED` | — | 18 | 117.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1026 | GDT1026 | `SUPPORTED_LIMITED_CROSSLEAF_FIXED71_PROHIBITIVE` | [report](../experiments/yolo/gdt1026_rota_crossleaf_frozen_meanings/REPORT.md) | 33 | 320.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT1025 | GDT1025 | `SUPPORTED_LIMITED_SHARED_DIRECT_REVERSED_CONTRADICTED` | [report](../experiments/yolo/gdt1025_unweaving_two_paragraph_identity/REPORT.md) | 32 | 241.5 KiB | 2 | STRUCTURED_YOLO |
 | GDT1024 | GDT1024 | `SUPPORTED_LIMITED_TWO_PROJECTED_PARAGRAPHS_FIXED53` | [report](../experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/REPORT.md) | 33 | 349.2 KiB | 5 | STRUCTURED_YOLO |

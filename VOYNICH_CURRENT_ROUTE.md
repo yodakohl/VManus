@@ -2,14 +2,14 @@
 Updated: 2026-09-21. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Seek full additional content beyond already implied music/amulet consequences.
-Latest decision: GDT1026 crossleaf conditional reading retained; RAW492 complete but not test-selected.
-Working files: research_registry/work_batches/ten_hours_20260915/F108R_AMULET_COMMENTARY_REVIEW_20260921.md
-Assumptions: RAW492 adds17values/4clauses/11bindings, no new physical consequence;0words.
-Resume: Publish492 review; then review producer's new-content alternatives and exact primary sources.
-Running: root492 publication/source review; bounded_semantic_route drafts by06:25; end11:11:33UTC.
+Task: Test the complete37-group seed rite under eight fixed scope variants.
+Latest decision: RAW493 selected as new family; different-object rival changes one macro value.
+Working files: experiments/yolo/gdt1027_seed_rite_scope_and_identity/PREREGISTRATION.md
+Assumptions: 30guesses/5productions/11bindings; source actor purity; same/different knowledge objects.
+Resume: Publish locked GDT1027; execute run.py and validate.py; retain all variants and failures.
+Running: root1027 registration; producer Galen full-target draft by07:10; session ends11:11:33UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

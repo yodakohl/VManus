@@ -1,0 +1,100 @@
+{
+  "selected_utc": "2026-09-21T06:20:52.888011+00:00",
+  "deadline_utc": "2026-09-21T07:20:52.888011+00:00",
+  "seed_cases": [
+    [],
+    [
+      4
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "candidates": [
+    {
+      "id": "TOTAL_SAME_OBJECT_ACTOR",
+      "quantity": "TOTAL",
+      "knowledge": "SAME_OBJECT",
+      "purity": "ACTOR"
+    },
+    {
+      "id": "TOTAL_SAME_OBJECT_RECIPIENT",
+      "quantity": "TOTAL",
+      "knowledge": "SAME_OBJECT",
+      "purity": "RECIPIENT"
+    },
+    {
+      "id": "TOTAL_DIFFERENT_OBJECTS_ACTOR",
+      "quantity": "TOTAL",
+      "knowledge": "DIFFERENT_OBJECTS",
+      "purity": "ACTOR"
+    },
+    {
+      "id": "TOTAL_DIFFERENT_OBJECTS_RECIPIENT",
+      "quantity": "TOTAL",
+      "knowledge": "DIFFERENT_OBJECTS",
+      "purity": "RECIPIENT"
+    },
+    {
+      "id": "EACH_SAME_OBJECT_ACTOR",
+      "quantity": "EACH",
+      "knowledge": "SAME_OBJECT",
+      "purity": "ACTOR"
+    },
+    {
+      "id": "EACH_SAME_OBJECT_RECIPIENT",
+      "quantity": "EACH",
+      "knowledge": "SAME_OBJECT",
+      "purity": "RECIPIENT"
+    },
+    {
+      "id": "EACH_DIFFERENT_OBJECTS_ACTOR",
+      "quantity": "EACH",
+      "knowledge": "DIFFERENT_OBJECTS",
+      "purity": "ACTOR"
+    },
+    {
+      "id": "EACH_DIFFERENT_OBJECTS_RECIPIENT",
+      "quantity": "EACH",
+      "knowledge": "DIFFERENT_OBJECTS",
+      "purity": "RECIPIENT"
+    }
+  ],
+  "knowledge_propositions": [
+    "P_rite",
+    "P_attach",
+    "P_purpose"
+  ],
+  "worlds": "All Boolean assignments for KNOWS(person,proposition,t_bind) and PURE(person,t_bind), for either one person A=W or two people A!=W. 16 self worlds and256 two-person worlds, not a prior distribution. No duplicated contradictory same-person input facts.",
+  "different_objects_cost": "In the explicit RAW493 rival chey supplies P_attach rather than the full P_rite. Count this as one changed reference-macro value, plus the implicit recipient object P_purpose; only29 of30 whole-form values are literally shared with the main candidate. KNOWS and all participant values stay unchanged. This is frozen before execution, not an assertion of30-value invariance.",
+  "countercases": [
+    "MOUTH",
+    "SUBSTITUTE_SEEDS",
+    "DROP_SEED",
+    "EXTRA_SEED",
+    "BIND_BEFORE_PLACE",
+    "PURITY_ONLY_EARLIER"
+  ],
+  "countercase_world": "Two persons; A knows all3 propositions, W knows none; both pure at binding except PURITY_ONLY_EARLIER; one raisin with4 seeds. These are stipulated compliance countercases, not observations of the manuscript or clinical outcomes.",
+  "trace_policy": "Store complete state traces for one positive witness per candidate, all six countercases per candidate, and one same-person witness for each different-object candidate. All15232 declarative cases have an explicit evaluation row including all violated constraints; executable traces replay every case in memory and compare with a separate declarative validator.",
+  "predicted_total_rows": 15232,
+  "predicted_success_total": 660,
+  "meaning_confirmation_capacity": 0
+}
