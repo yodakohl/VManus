@@ -23883,3 +23883,5 @@ GDT1020: RAW404nowexecutable on unchanged33groupP12projection;DIRECT/REVERSED sc
 GDT1021: both complete 23-group graft accounts coherent; summer split permission separates guessed scopes, no target evidence selects either. All 23 values singleton guesses; uncertain ZL retained, IT unbound, 0 words. [Whole consequences](experiments/yolo/gdt1021_graft_complete_scoped_instructions/REPORT.md).
 
 GDT1022: complete 62-group projected music account coherent in all 12 cases, all four rhythm branches retained; startup/cue/pause/persistent clocks verified. 53 guessed values, 14 fitted productions, 4 external score referents, 2 ZL forms unbound; 0 words. [Full account](experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md).
+
+GDT1023: both complete projected amulet branches coherent, image/material and quoted/executed enclosure preserved; all ten diagnostic outcomes match. 71 guessed values, nine fitted productions, three raw ZL forms unbound; 0 words. [Whole account](experiments/yolo/gdt1023_amulet_complete_typed_assembly/REPORT.md).

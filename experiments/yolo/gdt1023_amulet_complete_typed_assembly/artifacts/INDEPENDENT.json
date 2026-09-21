@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "branch": "E",
+      "mode": "BASELINE",
+      "status": "PASS",
+      "executed_operations": 12,
+      "unexecuted_operations": 0,
+      "first_failure": [],
+      "content_mismatches": []
+    },
+    {
+      "branch": "E",
+      "mode": "CHOICE_IN_IMAGE",
+      "status": "PASS",
+      "executed_operations": 12,
+      "unexecuted_operations": 0,
+      "first_failure": [],
+      "content_mismatches": []
+    },
+    {
+      "branch": "E",
+      "mode": "EARLY_ENCLOSE",
+      "status": "PASS",
+      "executed_operations": 3,
+      "unexecuted_operations": 10,
+      "first_failure": [
+        "INCOMPLETE_COMPONENTS",
+        "MISSING_HOSTED_IMAGE",
+        "MISSING_UNDER:G",
+        "MISSING_UNDER:P"
+      ],
+      "content_mismatches": []
+    },
+    {
+      "branch": "E",
+      "mode": "IMAGE_AS_PART",
+      "status": "PASS",
+      "executed_operations": 5,
+      "unexecuted_operations": 7,
+      "first_failure": [
+        "NOT_LOOSE_AVAILABLE:I",
+        "NOT_MATERIAL:I"
+      ],
+      "content_mismatches": []
+    },
+    {
+      "branch": "E",
+      "mode": "BOTH_BRANCHES",
+      "status": "PASS",
+      "executed_operations": 7,
+      "unexecuted_operations": 6,
+      "first_failure": [
+        "NOT_LOOSE_AVAILABLE:G",
+        "NOT_LOOSE_AVAILABLE:P",
+        "WRONG_PART_KIND"
+      ],
+      "content_mismatches": []
+    },
+    {
+      "branch": "H",
+      "mode": "BASELINE",
+      "status": "PASS",
+      "executed_operations": 11,
+      "unexecuted_operations": 0,
+      "first_failure": [],
+      "content_mismatches": []
+    },
+    {
+      "branch": "H",
+      "mode": "CHOICE_IN_IMAGE",
+      "status": "PASS",
+      "executed_operations": 12,
+      "unexecuted_operations": 0,
+      "first_failure": [],
+      "content_mismatches": [
+        "C03_C05_IMAGE_NOT_E",
+        "C06_C07_PART_CHOICE_WRONG"
+      ]
+    },
+    {
+      "branch": "H",
+      "mode": "EARLY_ENCLOSE",
+      "status": "PASS",
+      "executed_operations": 3,
+      "unexecuted_operations": 9,
+      "first_failure": [
+        "INCOMPLETE_COMPONENTS",
+        "MISSING_HOSTED_IMAGE",
+        "MISSING_UNDER:G",
+        "MISSING_UNDER:P"
+      ],
+      "content_mismatches": []
+    },
+    {
+      "branch": "H",
+      "mode": "IMAGE_AS_PART",
+      "status": "PASS",
+      "executed_operations": 5,
+      "unexecuted_operations": 6,
+      "first_failure": [
+        "MISSING_POSE:I",
+        "NOT_BIRD_PART:I",
+        "NOT_LOOSE_AVAILABLE:I",
+        "NOT_MATERIAL:I"
+      ],
+      "content_mismatches": []
+    },
+    {
+      "branch": "H",
+      "mode": "BOTH_BRANCHES",
+      "status": "PASS",
+      "executed_operations": 6,
+      "unexecuted_operations": 7,
+      "first_failure": [
+        "WRONG_PART_KIND"
+      ],
+      "content_mismatches": []
+    }
+  ],
+  "implementation": "Separate fact transition representation; same root author and exposed inputs."
+}
