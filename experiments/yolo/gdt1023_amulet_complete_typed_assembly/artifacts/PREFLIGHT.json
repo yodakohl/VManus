@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "executed_utc": "2026-09-21T04:40:22.427089+00:00",
+  "invented_complete_programs": [
+    {
+      "branch": "E",
+      "mode": "BASELINE",
+      "status": "COMPLETE",
+      "mismatches": [],
+      "failure": []
+    },
+    {
+      "branch": "E",
+      "mode": "CHOICE_IN_IMAGE",
+      "status": "COMPLETE",
+      "mismatches": [],
+      "failure": []
+    },
+    {
+      "branch": "E",
+      "mode": "EARLY_ENCLOSE",
+      "status": "BLOCKED",
+      "mismatches": [],
+      "failure": [
+        "INCOMPLETE_COMPONENTS",
+        "MISSING_HOSTED_IMAGE",
+        "MISSING_UNDER:G",
+        "MISSING_UNDER:P"
+      ]
+    },
+    {
+      "branch": "E",
+      "mode": "IMAGE_AS_PART",
+      "status": "BLOCKED",
+      "mismatches": [],
+      "failure": [
+        "NOT_LOOSE_AVAILABLE:I",
+        "NOT_MATERIAL:I"
+      ]
+    },
+    {
+      "branch": "E",
+      "mode": "BOTH_BRANCHES",
+      "status": "BLOCKED",
+      "mismatches": [],
+      "failure": [
+        "NOT_LOOSE_AVAILABLE:G",
+        "NOT_LOOSE_AVAILABLE:P",
+        "WRONG_PART_KIND"
+      ]
+    },
+    {
+      "branch": "H",
+      "mode": "BASELINE",
+      "status": "COMPLETE",
+      "mismatches": [],
+      "failure": []
+    },
+    {
+      "branch": "H",
+      "mode": "CHOICE_IN_IMAGE",
+      "status": "COMPLETE",
+      "mismatches": [
+        "C03_C05_IMAGE_NOT_E",
+        "C06_C07_PART_CHOICE_WRONG"
+      ],
+      "failure": []
+    },
+    {
+      "branch": "H",
+      "mode": "EARLY_ENCLOSE",
+      "status": "BLOCKED",
+      "mismatches": [],
+      "failure": [
+        "INCOMPLETE_COMPONENTS",
+        "MISSING_HOSTED_IMAGE",
+        "MISSING_UNDER:G",
+        "MISSING_UNDER:P"
+      ]
+    },
+    {
+      "branch": "H",
+      "mode": "IMAGE_AS_PART",
+      "status": "BLOCKED",
+      "mismatches": [],
+      "failure": [
+        "MISSING_POSE:I",
+        "NOT_BIRD_PART:I",
+        "NOT_LOOSE_AVAILABLE:I",
+        "NOT_MATERIAL:I"
+      ]
+    },
+    {
+      "branch": "H",
+      "mode": "BOTH_BRANCHES",
+      "status": "BLOCKED",
+      "mismatches": [],
+      "failure": [
+        "WRONG_PART_KIND"
+      ]
+    }
+  ],
+  "missing_input_cases": [
+    {
+      "loose": [
+        "G",
+        "P"
+      ],
+      "failure": [
+        "NOT_LOOSE_AVAILABLE:S"
+      ]
+    },
+    {
+      "loose": [
+        "P",
+        "S"
+      ],
+      "failure": [
+        "NOT_LOOSE_AVAILABLE:G"
+      ]
+    },
+    {
+      "loose": [
+        "G",
+        "S"
+      ],
+      "failure": [
+        "NOT_LOOSE_AVAILABLE:P"
+      ]
+    },
+    {
+      "loose": [
+        "S"
+      ],
+      "failure": [
+        "NOT_LOOSE_AVAILABLE:G"
+      ]
+    },
+    {
+      "missing_pose": "G",
+      "failure": [
+        "MISSING_POSE:G"
+      ]
+    },
+    {
+      "missing_pose": "P",
+      "failure": [
+        "MISSING_POSE:P"
+      ]
+    }
+  ],
+  "missing_clause_terminal_cases": 9,
+  "scope": "Invented terminals; no target parse or target execution."
+}

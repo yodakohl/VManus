@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Publish GDT1022; review complete amulet proposal and fixed-vocabulary extensions.
-Latest decision: Music account coherent in all 12 cases; 53 guesses, four score referents.
-Working files: experiments/yolo/gdt1022_rota_complete_persistent_performance/REPORT.md
-Assumptions: Zero words; complete fitted accounts remain rivals; raw source gaps retained.
-Resume: Publish 1022; inspect RAW384 amulet descendant before selection, then shared meanings.
-Running: bounded_semantic_route drafts amulet account; root closure; session ends 11:11:33 UTC.
+Task: GDT1023 complete amulet account; image/material and quoted/executed enclosure.
+Latest decision: GDT1022 music account coherent across 12 cases; 53 guesses remain.
+Working files: experiments/yolo/gdt1023_amulet_complete_typed_assembly/DECISION.md
+Assumptions: 71 guessed values, nine fitted clauses; three ZL forms unbound; no efficacy.
+Resume: Register 1023, execute both branches and all fixed diagnostics; budget 05:25 UTC.
+Running: root 1023; bounded_semantic_route drafts fixed-music-lexicon extension; end 11:11:33 UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
