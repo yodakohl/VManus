@@ -23879,3 +23879,5 @@ GDT1018: all156originalsettings adequate;2unchanged savedf50ZL maps universally 
 GDT1019: fresh completed-episode THENconjunction has no fullf50extension;bothencodings20classes312members UNSAT,original156pass. Close exactlaw;olderno-op/adequateinstruction worlds retained.0words. [Decision](experiments/yolo/gdt1019_transport_completed_episode_reference/REPORT.md).
 
 GDT1020: RAW404nowexecutable on unchanged33groupP12projection;DIRECT/REVERSED schedules both coherent,24guesses unchanged. Two diplomatic forms remainunbound;0words/no sourceidentity. [Complete graphs](experiments/yolo/gdt1020_unweaving_complete_assertion_graph/REPORT.md).
+
+GDT1021: both complete 23-group graft accounts coherent; summer split permission separates guessed scopes, no target evidence selects either. All 23 values singleton guesses; uncertain ZL retained, IT unbound, 0 words. [Whole consequences](experiments/yolo/gdt1021_graft_complete_scoped_instructions/REPORT.md).

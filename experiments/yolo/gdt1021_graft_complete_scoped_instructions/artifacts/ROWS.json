@@ -1,0 +1,2062 @@
+[
+  {
+    "candidate": "GROUPED",
+    "graph": {
+      "mode": "GROUPED",
+      "clauses": [
+        {
+          "kind": "selection",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "kind": "preparation",
+          "start": 4,
+          "end": 9
+        },
+        {
+          "kind": "method_account",
+          "start": 9,
+          "end": 18
+        },
+        {
+          "kind": "refusal_rule",
+          "start": 18,
+          "end": 23
+        }
+      ],
+      "plants": {
+        "A": "stock",
+        "B": "donor"
+      },
+      "ordered_pair": [
+        "A",
+        "B"
+      ],
+      "preparation": {
+        "owner": "A",
+        "part": "receiving_part",
+        "means": "CUT",
+        "modality": "instruction"
+      },
+      "methods": [
+        {
+          "name": "SPLIT",
+          "receiver": "A",
+          "donor": "B",
+          "material": "S",
+          "origin": "B",
+          "material_kind": "shoot",
+          "interface": "split",
+          "seasons": [
+            "SPRING"
+          ]
+        },
+        {
+          "name": "INNER_BARK",
+          "receiver": "A",
+          "donor": "B",
+          "material": "S",
+          "origin": "B",
+          "material_kind": "shoot",
+          "interface": "inner_bark_wood",
+          "seasons": [
+            "SPRING"
+          ]
+        },
+        {
+          "name": "BUD",
+          "receiver": "A",
+          "donor": "B",
+          "material": "T",
+          "origin": "B",
+          "material_kind": "bark_piece_with_bud",
+          "interface": "budding_site",
+          "seasons": [
+            "SUMMER"
+          ]
+        }
+      ],
+      "rule": {
+        "quantifier": "each_method_case_E",
+        "subject": "A",
+        "antecedent": "REFUSES(A,E)",
+        "consequent": "NOT PRODUCT_OF(E)"
+      },
+      "actual_grafts": [],
+      "actual_refusals": [],
+      "actual_products": []
+    },
+    "scenarios": [
+      {
+        "season": "SPRING",
+        "method": "SPLIT",
+        "refuses": false,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "SPLIT",
+        "refuses": true,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "INNER_BARK",
+        "refuses": false,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "INNER_BARK",
+        "refuses": true,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "BUD",
+        "refuses": false,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "T",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "BUD",
+        "refuses": true,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "T",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "SPLIT",
+        "refuses": false,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "SPLIT",
+        "refuses": true,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "INNER_BARK",
+        "refuses": false,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "INNER_BARK",
+        "refuses": true,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "BUD",
+        "refuses": false,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "T",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "BUD",
+        "refuses": true,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "T",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      }
+    ],
+    "valuations": [
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      }
+    ],
+    "roundtrip": [
+      "tcho@154;",
+      "shol",
+      "qokol",
+      "qor",
+      "olaiin",
+      "opydg",
+      "som",
+      "ypchy",
+      "ypaim",
+      "ychekchy",
+      "cthy",
+      "chor",
+      "shor",
+      "cphor",
+      "cphaldy",
+      "dair",
+      "cthey",
+      "qody",
+      "tsho",
+      "qof",
+      "cho",
+      "qokcheor",
+      "cheteg"
+    ],
+    "status": "COHERENT_CONDITIONAL_INSTRUCTIONS"
+  },
+  {
+    "candidate": "NEAREST",
+    "graph": {
+      "mode": "NEAREST",
+      "clauses": [
+        {
+          "kind": "selection",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "kind": "preparation",
+          "start": 4,
+          "end": 9
+        },
+        {
+          "kind": "method_account",
+          "start": 9,
+          "end": 18
+        },
+        {
+          "kind": "refusal_rule",
+          "start": 18,
+          "end": 23
+        }
+      ],
+      "plants": {
+        "A": "stock",
+        "B": "donor"
+      },
+      "ordered_pair": [
+        "A",
+        "B"
+      ],
+      "preparation": {
+        "owner": "A",
+        "part": "receiving_part",
+        "means": "CUT",
+        "modality": "instruction"
+      },
+      "methods": [
+        {
+          "name": "SPLIT",
+          "receiver": "A",
+          "donor": "B",
+          "material": "S",
+          "origin": "B",
+          "material_kind": "shoot",
+          "interface": "split",
+          "seasons": null
+        },
+        {
+          "name": "INNER_BARK",
+          "receiver": "A",
+          "donor": "B",
+          "material": "S",
+          "origin": "B",
+          "material_kind": "shoot",
+          "interface": "inner_bark_wood",
+          "seasons": [
+            "SPRING"
+          ]
+        },
+        {
+          "name": "BUD",
+          "receiver": "A",
+          "donor": "B",
+          "material": "T",
+          "origin": "B",
+          "material_kind": "bark_piece_with_bud",
+          "interface": "budding_site",
+          "seasons": [
+            "SUMMER"
+          ]
+        }
+      ],
+      "rule": {
+        "quantifier": "each_method_case_E",
+        "subject": "A",
+        "antecedent": "REFUSES(A,E)",
+        "consequent": "NOT PRODUCT_OF(E)"
+      },
+      "actual_grafts": [],
+      "actual_refusals": [],
+      "actual_products": []
+    },
+    "scenarios": [
+      {
+        "season": "SPRING",
+        "method": "SPLIT",
+        "refuses": false,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "SPLIT",
+        "refuses": true,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "INNER_BARK",
+        "refuses": false,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "INNER_BARK",
+        "refuses": true,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "BUD",
+        "refuses": false,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "T",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SPRING",
+        "method": "BUD",
+        "refuses": true,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "T",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "SPLIT",
+        "refuses": false,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "SPLIT",
+        "refuses": true,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "INNER_BARK",
+        "refuses": false,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "INNER_BARK",
+        "refuses": true,
+        "instruction_licensed": false,
+        "receiver": "A",
+        "donor": "B",
+        "material": "S",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "BUD",
+        "refuses": false,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "T",
+        "origin": "B",
+        "graft_product_options": [
+          false,
+          true
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      },
+      {
+        "season": "SUMMER",
+        "method": "BUD",
+        "refuses": true,
+        "instruction_licensed": true,
+        "receiver": "A",
+        "donor": "B",
+        "material": "T",
+        "origin": "B",
+        "graft_product_options": [
+          false
+        ],
+        "stock_own_product_options": [
+          false,
+          true
+        ]
+      }
+    ],
+    "valuations": [
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": false
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": true
+        },
+        "stock_own_product": true
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": false
+      },
+      {
+        "refused": {
+          "SPLIT": true,
+          "INNER_BARK": true,
+          "BUD": true
+        },
+        "graft_products": {
+          "SPLIT": false,
+          "INNER_BARK": false,
+          "BUD": false
+        },
+        "stock_own_product": true
+      }
+    ],
+    "roundtrip": [
+      "tcho@154;",
+      "shol",
+      "qokol",
+      "qor",
+      "olaiin",
+      "opydg",
+      "som",
+      "ypchy",
+      "ypaim",
+      "ychekchy",
+      "cthy",
+      "chor",
+      "shor",
+      "cphor",
+      "cphaldy",
+      "dair",
+      "cthey",
+      "qody",
+      "tsho",
+      "qof",
+      "cho",
+      "qokcheor",
+      "cheteg"
+    ],
+    "status": "COHERENT_CONDITIONAL_INSTRUCTIONS"
+  }
+]

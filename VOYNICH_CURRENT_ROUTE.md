@@ -4,12 +4,12 @@ Updated: 2026-09-21. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1021 complete graft account; two seasonal scopes, all 23 groups.
-Latest decision: GDT1020 retains two coherent unweaving readings; zero confirmed words.
-Working files: experiments/yolo/gdt1021_graft_complete_scoped_instructions/DECISION.md
-Assumptions: 23 guessed whole values; all singleton; uncertain ZL retained; IT unbound.
-Resume: Lock/publicly register 1021, execute both scopes and all scenarios; budget 05:00 UTC.
-Running: root 1021; bounded_semantic_route proposes another domain; session ends 11:11:33 UTC.
+Task: Publish GDT1021; review complete musical-account proposal when supplied.
+Latest decision: Both 23-group graft readings coherent; season scope unresolved; 23 guesses.
+Working files: experiments/yolo/gdt1021_graft_complete_scoped_instructions/REPORT.md
+Assumptions: Zero confirmed words; singleton fit is no vocabulary test; old stops retained.
+Resume: Publish 1021; inspect full music proposal and source/primary countercases before selection.
+Running: bounded_semantic_route drafts RAW373 music descendant; root closure; end 11:11:33 UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
