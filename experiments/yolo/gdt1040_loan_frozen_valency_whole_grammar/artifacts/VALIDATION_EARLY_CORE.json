@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "models": {
+    "PROJECTED_ZL": {
+      "status": "UNSAT",
+      "floor": 26,
+      "scope": "Post-result explanation of the already registered longest-prefix diagnostic; not a new falsifier",
+      "core_minimality": "Greedy inclusion-minimal within initially returned core; minimum cardinality not claimed",
+      "core": [
+        {
+          "id": "constraint_15",
+          "kind": "category_domain",
+          "word": "lchedy",
+          "allowed": [
+            -1
+          ]
+        },
+        {
+          "id": "constraint_29",
+          "kind": "category_domain",
+          "word": "qokaiin",
+          "allowed": [
+            -1
+          ]
+        },
+        {
+          "id": "constraint_102",
+          "kind": "debt_domain",
+          "model": "PROJECTED_ZL",
+          "boundary": 23
+        },
+        {
+          "id": "constraint_223",
+          "kind": "ordered_token",
+          "model": "PROJECTED_ZL",
+          "position": 22,
+          "word": "chey",
+          "source_id": "PROJECTED|f83r.3|G004"
+        },
+        {
+          "id": "constraint_224",
+          "kind": "ordered_token",
+          "model": "PROJECTED_ZL",
+          "position": 23,
+          "word": "daiin",
+          "source_id": "PROJECTED|f83r.3|G005"
+        },
+        {
+          "id": "constraint_225",
+          "kind": "ordered_token",
+          "model": "PROJECTED_ZL",
+          "position": 24,
+          "word": "chey",
+          "source_id": "PROJECTED|f83r.3|G006"
+        },
+        {
+          "id": "constraint_226",
+          "kind": "ordered_token",
+          "model": "PROJECTED_ZL",
+          "position": 25,
+          "word": "lchedy",
+          "source_id": "PROJECTED|f83r.3|G007"
+        },
+        {
+          "id": "constraint_227",
+          "kind": "ordered_token",
+          "model": "PROJECTED_ZL",
+          "position": 26,
+          "word": "qokaiin",
+          "source_id": "PROJECTED|f83r.3|G008"
+        },
+        {
+          "id": "constraint_prefix_floor",
+          "kind": "post_result_prefix_floor",
+          "model": "PROJECTED_ZL",
+          "minimum": 26
+        }
+      ],
+      "replay_smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(declare-fun cat_15 () Int)\n(declare-fun cat_29 () Int)\n(declare-fun debt_0_23 () Int)\n(declare-fun debt_0_21 () Int)\n(declare-fun debt_0_22 () Int)\n(declare-fun cat_8 () Int)\n(declare-fun length_0 () Int)\n(declare-fun cat_11 () Int)\n(declare-fun debt_0_24 () Int)\n(declare-fun debt_0_25 () Int)\n(declare-fun debt_0_26 () Int)\n(assert\n (let (($x121 (= cat_15 (- 1))))\n (or $x121)))\n(assert\n (let (($x175 (= cat_29 (- 1))))\n (or $x175)))\n(assert\n (let (($x502 (<= debt_0_23 2)))\n (let (($x501 (>= debt_0_23 0)))\n (and $x501 $x502))))\n(assert\n (let (($x93 (= cat_8 (- 1))))\n (let (($x1063 (= debt_0_22 cat_8)))\n (let (($x1062 (>= cat_8 0)))\n (let (($x492 (= debt_0_21 0)))\n (let (($x1064 (and $x492 $x1062 $x1063)))\n (let (($x1070 (or $x1064 (and (> debt_0_21 0) $x93 (= debt_0_22 (- debt_0_21 1))))))\n (=> (> length_0 21) $x1070))))))))\n(assert\n (let (($x105 (= cat_11 (- 1))))\n (let (($x1073 (= debt_0_23 cat_11)))\n (let (($x1072 (>= cat_11 0)))\n (let (($x499 (= debt_0_22 0)))\n (let (($x1074 (and $x499 $x1072 $x1073)))\n (let (($x1080 (or $x1074 (and (> debt_0_22 0) $x105 (= debt_0_23 (- debt_0_22 1))))))\n (=> (> length_0 22) $x1080))))))))\n(assert\n (let (($x93 (= cat_8 (- 1))))\n (let (($x1082 (= debt_0_24 cat_8)))\n (let (($x1062 (>= cat_8 0)))\n (let (($x506 (= debt_0_23 0)))\n (let (($x1083 (and $x506 $x1062 $x1082)))\n (let (($x1089 (or $x1083 (and (> debt_0_23 0) $x93 (= debt_0_24 (- debt_0_23 1))))))\n (=> (> length_0 23) $x1089))))))))\n(assert\n (let (($x121 (= cat_15 (- 1))))\n (let (($x1091 (>= cat_15 0)))\n (let (($x513 (= debt_0_24 0)))\n (let (($x1093 (and $x513 $x1091 (= debt_0_25 cat_15))))\n (let (($x1099 (or $x1093 (and (> debt_0_24 0) $x121 (= debt_0_25 (- debt_0_24 1))))))\n (=> (> length_0 24) $x1099)))))))\n(assert\n (let (($x175 (= cat_29 (- 1))))\n (let (($x940 (>= cat_29 0)))\n (let (($x520 (= debt_0_25 0)))\n (let (($x1102 (and $x520 $x940 (= debt_0_26 cat_29))))\n (let (($x1108 (or $x1102 (and (> debt_0_25 0) $x175 (= debt_0_26 (- debt_0_25 1))))))\n (=> (> length_0 25) $x1108)))))))\n(assert\n (>= length_0 26))\n(check-sat)\n"
+    },
+    "DIPLOMATIC_ZL3b": {
+      "status": "UNSAT",
+      "floor": 26,
+      "scope": "Post-result explanation of the already registered longest-prefix diagnostic; not a new falsifier",
+      "core_minimality": "Greedy inclusion-minimal within initially returned core; minimum cardinality not claimed",
+      "core": [
+        {
+          "id": "constraint_15",
+          "kind": "category_domain",
+          "word": "lchedy",
+          "allowed": [
+            -1
+          ]
+        },
+        {
+          "id": "constraint_prefix_floor",
+          "kind": "post_result_prefix_floor",
+          "model": "DIPLOMATIC_ZL3b",
+          "minimum": 26
+        },
+        {
+          "id": "constraint_102",
+          "kind": "debt_domain",
+          "model": "DIPLOMATIC_ZL3b",
+          "boundary": 23
+        },
+        {
+          "id": "constraint_29",
+          "kind": "category_domain",
+          "word": "qokaiin",
+          "allowed": [
+            -1
+          ]
+        },
+        {
+          "id": "constraint_224",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_ZL3b",
+          "position": 23,
+          "word": "daiin",
+          "source_id": "ZL3b|f83r.3|G005"
+        },
+        {
+          "id": "constraint_225",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_ZL3b",
+          "position": 24,
+          "word": "chey",
+          "source_id": "ZL3b|f83r.3|G006"
+        },
+        {
+          "id": "constraint_227",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_ZL3b",
+          "position": 26,
+          "word": "qokaiin",
+          "source_id": "ZL3b|f83r.3|G008"
+        },
+        {
+          "id": "constraint_223",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_ZL3b",
+          "position": 22,
+          "word": "chey",
+          "source_id": "ZL3b|f83r.3|G004"
+        },
+        {
+          "id": "constraint_226",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_ZL3b",
+          "position": 25,
+          "word": "lchedy",
+          "source_id": "ZL3b|f83r.3|G007"
+        }
+      ],
+      "replay_smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(declare-fun cat_15 () Int)\n(declare-fun length_0 () Int)\n(declare-fun debt_0_23 () Int)\n(declare-fun cat_29 () Int)\n(declare-fun debt_0_22 () Int)\n(declare-fun cat_11 () Int)\n(declare-fun debt_0_24 () Int)\n(declare-fun cat_8 () Int)\n(declare-fun debt_0_25 () Int)\n(declare-fun debt_0_26 () Int)\n(declare-fun debt_0_21 () Int)\n(assert\n (let (($x121 (= cat_15 (- 1))))\n (or $x121)))\n(assert\n (>= length_0 26))\n(assert\n (let (($x502 (<= debt_0_23 2)))\n (let (($x501 (>= debt_0_23 0)))\n (and $x501 $x502))))\n(assert\n (let (($x175 (= cat_29 (- 1))))\n (or $x175)))\n(assert\n (let (($x105 (= cat_11 (- 1))))\n (let (($x1073 (= debt_0_23 cat_11)))\n (let (($x1072 (>= cat_11 0)))\n (let (($x499 (= debt_0_22 0)))\n (let (($x1074 (and $x499 $x1072 $x1073)))\n (let (($x1080 (or $x1074 (and (> debt_0_22 0) $x105 (= debt_0_23 (- debt_0_22 1))))))\n (=> (> length_0 22) $x1080))))))))\n(assert\n (let (($x93 (= cat_8 (- 1))))\n (let (($x1082 (= debt_0_24 cat_8)))\n (let (($x1062 (>= cat_8 0)))\n (let (($x506 (= debt_0_23 0)))\n (let (($x1083 (and $x506 $x1062 $x1082)))\n (let (($x1089 (or $x1083 (and (> debt_0_23 0) $x93 (= debt_0_24 (- debt_0_23 1))))))\n (=> (> length_0 23) $x1089))))))))\n(assert\n (let (($x175 (= cat_29 (- 1))))\n (let (($x940 (>= cat_29 0)))\n (let (($x520 (= debt_0_25 0)))\n (let (($x1102 (and $x520 $x940 (= debt_0_26 cat_29))))\n (let (($x1108 (or $x1102 (and (> debt_0_25 0) $x175 (= debt_0_26 (- debt_0_25 1))))))\n (=> (> length_0 25) $x1108)))))))\n(assert\n (let (($x93 (= cat_8 (- 1))))\n (let (($x1063 (= debt_0_22 cat_8)))\n (let (($x1062 (>= cat_8 0)))\n (let (($x492 (= debt_0_21 0)))\n (let (($x1064 (and $x492 $x1062 $x1063)))\n (let (($x1070 (or $x1064 (and (> debt_0_21 0) $x93 (= debt_0_22 (- debt_0_21 1))))))\n (=> (> length_0 21) $x1070))))))))\n(assert\n (let (($x121 (= cat_15 (- 1))))\n(let (($x1091 (>= cat_15 0)))\n(let (($x513 (= debt_0_24 0)))\n(let (($x1093 (and $x513 $x1091 (= debt_0_25 cat_15))))\n(let (($x1099 (or $x1093 (and (> debt_0_24 0) $x121 (= debt_0_25 (- debt_0_24 1))))))\n(=> (> length_0 24) $x1099)))))))\n(check-sat)\n"
+    },
+    "DIPLOMATIC_IT2a": {
+      "status": "UNSAT",
+      "floor": 26,
+      "scope": "Post-result explanation of the already registered longest-prefix diagnostic; not a new falsifier",
+      "core_minimality": "Greedy inclusion-minimal within initially returned core; minimum cardinality not claimed",
+      "core": [
+        {
+          "id": "constraint_15",
+          "kind": "category_domain",
+          "word": "lchedy",
+          "allowed": [
+            -1
+          ]
+        },
+        {
+          "id": "constraint_29",
+          "kind": "category_domain",
+          "word": "qokaiin",
+          "allowed": [
+            -1
+          ]
+        },
+        {
+          "id": "constraint_prefix_floor",
+          "kind": "post_result_prefix_floor",
+          "model": "DIPLOMATIC_IT2a",
+          "minimum": 26
+        },
+        {
+          "id": "constraint_223",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_IT2a",
+          "position": 25,
+          "word": "lchedy",
+          "source_id": "IT2a|f83r.3|G007"
+        },
+        {
+          "id": "constraint_224",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_IT2a",
+          "position": 26,
+          "word": "qokaiin",
+          "source_id": "IT2a|f83r.3|G008"
+        },
+        {
+          "id": "constraint_222",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_IT2a",
+          "position": 24,
+          "word": "chey",
+          "source_id": "IT2a|f83r.3|G006"
+        },
+        {
+          "id": "constraint_220",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_IT2a",
+          "position": 22,
+          "word": "chey",
+          "source_id": "IT2a|f83r.3|G004"
+        },
+        {
+          "id": "constraint_221",
+          "kind": "ordered_token",
+          "model": "DIPLOMATIC_IT2a",
+          "position": 23,
+          "word": "daiin",
+          "source_id": "IT2a|f83r.3|G005"
+        },
+        {
+          "id": "constraint_101",
+          "kind": "debt_domain",
+          "model": "DIPLOMATIC_IT2a",
+          "boundary": 23
+        }
+      ],
+      "replay_smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(declare-fun cat_15 () Int)\n(declare-fun cat_29 () Int)\n(declare-fun length_0 () Int)\n(declare-fun debt_0_24 () Int)\n(declare-fun debt_0_25 () Int)\n(declare-fun debt_0_26 () Int)\n(declare-fun debt_0_23 () Int)\n(declare-fun cat_8 () Int)\n(declare-fun debt_0_21 () Int)\n(declare-fun debt_0_22 () Int)\n(declare-fun cat_11 () Int)\n(assert\n (let (($x121 (= cat_15 (- 1))))\n (or $x121)))\n(assert\n (let (($x175 (= cat_29 (- 1))))\n (or $x175)))\n(assert\n (>= length_0 26))\n(assert\n (let (($x121 (= cat_15 (- 1))))\n (let (($x1091 (>= cat_15 0)))\n (let (($x513 (= debt_0_24 0)))\n (let (($x1093 (and $x513 $x1091 (= debt_0_25 cat_15))))\n (let (($x1099 (or $x1093 (and (> debt_0_24 0) $x121 (= debt_0_25 (- debt_0_24 1))))))\n (=> (> length_0 24) $x1099)))))))\n(assert\n (let (($x175 (= cat_29 (- 1))))\n (let (($x940 (>= cat_29 0)))\n (let (($x520 (= debt_0_25 0)))\n (let (($x1102 (and $x520 $x940 (= debt_0_26 cat_29))))\n (let (($x1108 (or $x1102 (and (> debt_0_25 0) $x175 (= debt_0_26 (- debt_0_25 1))))))\n (=> (> length_0 25) $x1108)))))))\n(assert\n (let (($x93 (= cat_8 (- 1))))\n (let (($x1082 (= debt_0_24 cat_8)))\n (let (($x1062 (>= cat_8 0)))\n (let (($x506 (= debt_0_23 0)))\n (let (($x1083 (and $x506 $x1062 $x1082)))\n (let (($x1089 (or $x1083 (and (> debt_0_23 0) $x93 (= debt_0_24 (- debt_0_23 1))))))\n (=> (> length_0 23) $x1089))))))))\n(assert\n (let (($x93 (= cat_8 (- 1))))\n (let (($x1063 (= debt_0_22 cat_8)))\n (let (($x1062 (>= cat_8 0)))\n (let (($x492 (= debt_0_21 0)))\n (let (($x1064 (and $x492 $x1062 $x1063)))\n (let (($x1070 (or $x1064 (and (> debt_0_21 0) $x93 (= debt_0_22 (- debt_0_21 1))))))\n (=> (> length_0 21) $x1070))))))))\n(assert\n (let (($x105 (= cat_11 (- 1))))\n (let (($x1073 (= debt_0_23 cat_11)))\n (let (($x1072 (>= cat_11 0)))\n (let (($x499 (= debt_0_22 0)))\n (let (($x1074 (and $x499 $x1072 $x1073)))\n (let (($x1080 (or $x1074 (and (> debt_0_22 0) $x105 (= debt_0_23 (- debt_0_22 1))))))\n (=> (> length_0 22) $x1080))))))))\n(assert\n (let (($x502 (<= debt_0_23 2)))\n(let (($x501 (>= debt_0_23 0)))\n(and $x501 $x502))))\n(check-sat)\n"
+    }
+  },
+  "validator_code_unchanged": "fd8e8b0bbd2166dd779ac28f0a8c3f9dc0ffece505797d60aab80108268b18b6"
+}

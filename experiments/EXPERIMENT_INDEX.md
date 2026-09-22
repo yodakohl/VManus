@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1039**
-- Experiment-associated tracked files: **20,683** (1.9 GiB)
+- Experiment-associated tracked files: **20,692** (1.9 GiB)
 - Structured GDT337+ experiments: **704**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1040 | GDT1040 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md) | 13 | 95.1 KiB | 2 | STRUCTURED_YOLO |
+| GDT1040 | GDT1040 | `REFUTED_FIXED_PREFIX_VALENCY` | [report](../experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md) | 22 | 233.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT1039 | GDT1039 | `SUPPORTED_CONDITIONAL_REFERENCE_INTERACTION` | [report](../experiments/yolo/gdt1039_hour_day_reference_composition/REPORT.md) | 18 | 2.1 MiB | 3 | STRUCTURED_YOLO |
 | GDT1038 | GDT1038 | `LIMITED_WHOLE_EXTENSION_REPRESENTATION_FIT` | [report](../experiments/yolo/gdt1038_amulet_atomic_binary_packing/REPORT.md) | 22 | 516.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT1037 | GDT1037 | `REFUTED_FIXED_CONTEXT_JOIN` | [report](../experiments/yolo/gdt1037_galen_fixed_entry_context_join/REPORT.md) | 18 | 524.5 KiB | 6 | STRUCTURED_YOLO |

@@ -1,0 +1,637 @@
+{
+  "status": "PASS",
+  "public_commit": "d8e885987580ae9b9a199bdc65e590d17136210d",
+  "oracle": "Z3 sequential remaining-argument constraints",
+  "z3_version": "4.15.3",
+  "source_group_counts": {
+    "PROJECTED_ZL": 72,
+    "DIPLOMATIC_ZL3b": 72,
+    "DIPLOMATIC_IT2a": 71
+  },
+  "models": {
+    "PROJECTED_ZL": {
+      "status": "FULL_UNSAT",
+      "n_groups": 72,
+      "n_types": 54,
+      "recurrent_unknowns": [
+        "chey",
+        "daiin",
+        "qoky",
+        "qotal"
+      ],
+      "assignments_checked": 81,
+      "total_full_paths": 0,
+      "max_prefix": 25,
+      "best_recurrent_assignment": {
+        "chey": -1,
+        "daiin": 2,
+        "qoky": -1,
+        "qotal": -1
+      },
+      "best_prefix_lengths": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        1,
+        2,
+        1,
+        3,
+        2,
+        3
+      ],
+      "whole_constraint_result": {
+        "status": "UNSAT",
+        "core_replayed": true,
+        "core": [
+          {
+            "id": "constraint_272",
+            "kind": "ordered_token",
+            "model": "PROJECTED_ZL",
+            "position": 71,
+            "word": "chedy",
+            "source_id": "PROJECTED|f83r.8|G005"
+          },
+          {
+            "id": "constraint_254",
+            "kind": "ordered_token",
+            "model": "PROJECTED_ZL",
+            "position": 53,
+            "word": "chedy",
+            "source_id": "PROJECTED|f83r.6|G006"
+          },
+          {
+            "id": "constraint_273",
+            "kind": "ordered_token",
+            "model": "PROJECTED_ZL",
+            "position": 72,
+            "word": "chary",
+            "source_id": "PROJECTED|f83r.8|G006"
+          },
+          {
+            "id": "constraint_4",
+            "kind": "category_domain",
+            "word": "chedy",
+            "allowed": [
+              0
+            ]
+          },
+          {
+            "id": "constraint_255",
+            "kind": "ordered_token",
+            "model": "PROJECTED_ZL",
+            "position": 54,
+            "word": "qokeedy",
+            "source_id": "PROJECTED|f83r.6|G007"
+          },
+          {
+            "id": "constraint_15",
+            "kind": "category_domain",
+            "word": "lchedy",
+            "allowed": [
+              -1
+            ]
+          },
+          {
+            "id": "constraint_1",
+            "kind": "category_domain",
+            "word": "chary",
+            "allowed": [
+              -1,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "constraint_274",
+            "kind": "require_whole_unit",
+            "model": "PROJECTED_ZL",
+            "groups": 72
+          },
+          {
+            "id": "constraint_201",
+            "kind": "complete_prefix_end",
+            "model": "PROJECTED_ZL",
+            "boundary": 72
+          },
+          {
+            "id": "constraint_32",
+            "kind": "category_domain",
+            "word": "qokeedy",
+            "allowed": [
+              1
+            ]
+          },
+          {
+            "id": "constraint_256",
+            "kind": "ordered_token",
+            "model": "PROJECTED_ZL",
+            "position": 55,
+            "word": "lchedy",
+            "source_id": "PROJECTED|f83r.6|G008"
+          }
+        ],
+        "core_minimality": "Not claimed; tracked constraint subset rechecked UNSAT."
+      },
+      "assignment_rows_verified": 81,
+      "unparsed_source_ids": [
+        "PROJECTED|f83r.3|G008",
+        "PROJECTED|f83r.3|G009",
+        "PROJECTED|f83r.3|G010",
+        "PROJECTED|f83r.4|G001",
+        "PROJECTED|f83r.4|G002",
+        "PROJECTED|f83r.4|G003",
+        "PROJECTED|f83r.4|G004",
+        "PROJECTED|f83r.4|G005",
+        "PROJECTED|f83r.4|G006",
+        "PROJECTED|f83r.4|G007",
+        "PROJECTED|f83r.4|G008",
+        "PROJECTED|f83r.4|G009",
+        "PROJECTED|f83r.5|G001",
+        "PROJECTED|f83r.5|G002",
+        "PROJECTED|f83r.5|G003",
+        "PROJECTED|f83r.5|G004",
+        "PROJECTED|f83r.5|G005",
+        "PROJECTED|f83r.5|G006",
+        "PROJECTED|f83r.5|G007",
+        "PROJECTED|f83r.5|G008",
+        "PROJECTED|f83r.5|G009",
+        "PROJECTED|f83r.5|G010",
+        "PROJECTED|f83r.6|G001",
+        "PROJECTED|f83r.6|G002",
+        "PROJECTED|f83r.6|G003",
+        "PROJECTED|f83r.6|G004",
+        "PROJECTED|f83r.6|G005",
+        "PROJECTED|f83r.6|G006",
+        "PROJECTED|f83r.6|G007",
+        "PROJECTED|f83r.6|G008",
+        "PROJECTED|f83r.6|G009",
+        "PROJECTED|f83r.7|G001",
+        "PROJECTED|f83r.7|G002",
+        "PROJECTED|f83r.7|G003",
+        "PROJECTED|f83r.7|G004",
+        "PROJECTED|f83r.7|G005",
+        "PROJECTED|f83r.7|G006",
+        "PROJECTED|f83r.7|G007",
+        "PROJECTED|f83r.7|G008",
+        "PROJECTED|f83r.7|G009",
+        "PROJECTED|f83r.7|G010",
+        "PROJECTED|f83r.8|G001",
+        "PROJECTED|f83r.8|G002",
+        "PROJECTED|f83r.8|G003",
+        "PROJECTED|f83r.8|G004",
+        "PROJECTED|f83r.8|G005",
+        "PROJECTED|f83r.8|G006"
+      ]
+    },
+    "DIPLOMATIC_ZL3b": {
+      "status": "FULL_UNSAT",
+      "n_groups": 72,
+      "n_types": 54,
+      "recurrent_unknowns": [
+        "chey",
+        "daiin",
+        "qoky",
+        "qotal"
+      ],
+      "assignments_checked": 81,
+      "total_full_paths": 0,
+      "max_prefix": 25,
+      "best_recurrent_assignment": {
+        "chey": -1,
+        "daiin": 2,
+        "qoky": -1,
+        "qotal": -1
+      },
+      "best_prefix_lengths": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        1,
+        2,
+        1,
+        3,
+        2,
+        3
+      ],
+      "whole_constraint_result": {
+        "status": "UNSAT",
+        "core_replayed": true,
+        "core": [
+          {
+            "id": "constraint_273",
+            "kind": "ordered_token",
+            "model": "DIPLOMATIC_ZL3b",
+            "position": 72,
+            "word": "chary",
+            "source_id": "ZL3b|f83r.8|G006"
+          },
+          {
+            "id": "constraint_5",
+            "kind": "category_domain",
+            "word": "chedy",
+            "allowed": [
+              0
+            ]
+          },
+          {
+            "id": "constraint_1",
+            "kind": "category_domain",
+            "word": "chary",
+            "allowed": [
+              -1,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "constraint_256",
+            "kind": "ordered_token",
+            "model": "DIPLOMATIC_ZL3b",
+            "position": 55,
+            "word": "lchedy",
+            "source_id": "ZL3b|f83r.6|G008"
+          },
+          {
+            "id": "constraint_32",
+            "kind": "category_domain",
+            "word": "qokeedy",
+            "allowed": [
+              1
+            ]
+          },
+          {
+            "id": "constraint_272",
+            "kind": "ordered_token",
+            "model": "DIPLOMATIC_ZL3b",
+            "position": 71,
+            "word": "chedy",
+            "source_id": "ZL3b|f83r.8|G005"
+          },
+          {
+            "id": "constraint_274",
+            "kind": "require_whole_unit",
+            "model": "DIPLOMATIC_ZL3b",
+            "groups": 72
+          },
+          {
+            "id": "constraint_255",
+            "kind": "ordered_token",
+            "model": "DIPLOMATIC_ZL3b",
+            "position": 54,
+            "word": "qokeedy",
+            "source_id": "ZL3b|f83r.6|G007"
+          },
+          {
+            "id": "constraint_201",
+            "kind": "complete_prefix_end",
+            "model": "DIPLOMATIC_ZL3b",
+            "boundary": 72
+          },
+          {
+            "id": "constraint_15",
+            "kind": "category_domain",
+            "word": "lchedy",
+            "allowed": [
+              -1
+            ]
+          }
+        ],
+        "core_minimality": "Not claimed; tracked constraint subset rechecked UNSAT."
+      },
+      "assignment_rows_verified": 81,
+      "unparsed_source_ids": [
+        "ZL3b|f83r.3|G008",
+        "ZL3b|f83r.3|G009",
+        "ZL3b|f83r.3|G010",
+        "ZL3b|f83r.4|G001",
+        "ZL3b|f83r.4|G002",
+        "ZL3b|f83r.4|G003",
+        "ZL3b|f83r.4|G004",
+        "ZL3b|f83r.4|G005",
+        "ZL3b|f83r.4|G006",
+        "ZL3b|f83r.4|G007",
+        "ZL3b|f83r.4|G008",
+        "ZL3b|f83r.4|G009",
+        "ZL3b|f83r.5|G001",
+        "ZL3b|f83r.5|G002",
+        "ZL3b|f83r.5|G003",
+        "ZL3b|f83r.5|G004",
+        "ZL3b|f83r.5|G005",
+        "ZL3b|f83r.5|G006",
+        "ZL3b|f83r.5|G007",
+        "ZL3b|f83r.5|G008",
+        "ZL3b|f83r.5|G009",
+        "ZL3b|f83r.5|G010",
+        "ZL3b|f83r.6|G001",
+        "ZL3b|f83r.6|G002",
+        "ZL3b|f83r.6|G003",
+        "ZL3b|f83r.6|G004",
+        "ZL3b|f83r.6|G005",
+        "ZL3b|f83r.6|G006",
+        "ZL3b|f83r.6|G007",
+        "ZL3b|f83r.6|G008",
+        "ZL3b|f83r.6|G009",
+        "ZL3b|f83r.7|G001",
+        "ZL3b|f83r.7|G002",
+        "ZL3b|f83r.7|G003",
+        "ZL3b|f83r.7|G004",
+        "ZL3b|f83r.7|G005",
+        "ZL3b|f83r.7|G006",
+        "ZL3b|f83r.7|G007",
+        "ZL3b|f83r.7|G008",
+        "ZL3b|f83r.7|G009",
+        "ZL3b|f83r.7|G010",
+        "ZL3b|f83r.8|G001",
+        "ZL3b|f83r.8|G002",
+        "ZL3b|f83r.8|G003",
+        "ZL3b|f83r.8|G004",
+        "ZL3b|f83r.8|G005",
+        "ZL3b|f83r.8|G006"
+      ]
+    },
+    "DIPLOMATIC_IT2a": {
+      "status": "FULL_UNSAT",
+      "n_groups": 71,
+      "n_types": 53,
+      "recurrent_unknowns": [
+        "chey",
+        "daiin",
+        "qoky",
+        "qotal"
+      ],
+      "assignments_checked": 81,
+      "total_full_paths": 0,
+      "max_prefix": 25,
+      "best_recurrent_assignment": {
+        "chey": -1,
+        "daiin": 2,
+        "qoky": -1,
+        "qotal": -1
+      },
+      "best_prefix_lengths": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        1,
+        2,
+        1,
+        3,
+        2,
+        3
+      ],
+      "whole_constraint_result": {
+        "status": "UNSAT",
+        "core_replayed": true,
+        "core": [
+          {
+            "id": "constraint_269",
+            "kind": "ordered_token",
+            "model": "DIPLOMATIC_IT2a",
+            "position": 71,
+            "word": "chary",
+            "source_id": "IT2a|f83r.8|G006"
+          },
+          {
+            "id": "constraint_268",
+            "kind": "ordered_token",
+            "model": "DIPLOMATIC_IT2a",
+            "position": 70,
+            "word": "chedy",
+            "source_id": "IT2a|f83r.8|G005"
+          },
+          {
+            "id": "constraint_15",
+            "kind": "category_domain",
+            "word": "lchedy",
+            "allowed": [
+              -1
+            ]
+          },
+          {
+            "id": "constraint_4",
+            "kind": "category_domain",
+            "word": "chedy",
+            "allowed": [
+              0
+            ]
+          },
+          {
+            "id": "constraint_253",
+            "kind": "ordered_token",
+            "model": "DIPLOMATIC_IT2a",
+            "position": 55,
+            "word": "lchedy",
+            "source_id": "IT2a|f83r.6|G008"
+          },
+          {
+            "id": "constraint_32",
+            "kind": "category_domain",
+            "word": "qokeedy",
+            "allowed": [
+              1
+            ]
+          },
+          {
+            "id": "constraint_252",
+            "kind": "ordered_token",
+            "model": "DIPLOMATIC_IT2a",
+            "position": 54,
+            "word": "qokeedy",
+            "source_id": "IT2a|f83r.6|G007"
+          },
+          {
+            "id": "constraint_198",
+            "kind": "complete_prefix_end",
+            "model": "DIPLOMATIC_IT2a",
+            "boundary": 71
+          },
+          {
+            "id": "constraint_270",
+            "kind": "require_whole_unit",
+            "model": "DIPLOMATIC_IT2a",
+            "groups": 71
+          },
+          {
+            "id": "constraint_1",
+            "kind": "category_domain",
+            "word": "chary",
+            "allowed": [
+              -1,
+              1,
+              2
+            ]
+          }
+        ],
+        "core_minimality": "Not claimed; tracked constraint subset rechecked UNSAT."
+      },
+      "assignment_rows_verified": 81,
+      "unparsed_source_ids": [
+        "IT2a|f83r.3|G008",
+        "IT2a|f83r.3|G009",
+        "IT2a|f83r.3|G010",
+        "IT2a|f83r.4|G001",
+        "IT2a|f83r.4|G002",
+        "IT2a|f83r.4|G003",
+        "IT2a|f83r.4|G004",
+        "IT2a|f83r.4|G005",
+        "IT2a|f83r.4|G006",
+        "IT2a|f83r.4|G007",
+        "IT2a|f83r.4|G008",
+        "IT2a|f83r.4|G009",
+        "IT2a|f83r.5|G001",
+        "IT2a|f83r.5|G002",
+        "IT2a|f83r.5|G003",
+        "IT2a|f83r.5|G004",
+        "IT2a|f83r.5|G005",
+        "IT2a|f83r.5|G006",
+        "IT2a|f83r.5|G007",
+        "IT2a|f83r.5|G008",
+        "IT2a|f83r.5|G009",
+        "IT2a|f83r.5|G010",
+        "IT2a|f83r.6|G001",
+        "IT2a|f83r.6|G002",
+        "IT2a|f83r.6|G003",
+        "IT2a|f83r.6|G004",
+        "IT2a|f83r.6|G005",
+        "IT2a|f83r.6|G006",
+        "IT2a|f83r.6|G007",
+        "IT2a|f83r.6|G008",
+        "IT2a|f83r.6|G009",
+        "IT2a|f83r.7|G001",
+        "IT2a|f83r.7|G002",
+        "IT2a|f83r.7|G003",
+        "IT2a|f83r.7|G004",
+        "IT2a|f83r.7|G005",
+        "IT2a|f83r.7|G006",
+        "IT2a|f83r.7|G007",
+        "IT2a|f83r.7|G008",
+        "IT2a|f83r.7|G009",
+        "IT2a|f83r.8|G001",
+        "IT2a|f83r.8|G002",
+        "IT2a|f83r.8|G003",
+        "IT2a|f83r.8|G004",
+        "IT2a|f83r.8|G005",
+        "IT2a|f83r.8|G006"
+      ]
+    }
+  },
+  "claim_ceiling": "Necessary syntax only; no new meanings or independent confirmation.",
+  "joint": {
+    "status": "UNSAT",
+    "core_replayed": true,
+    "core": [
+      {
+        "id": "constraint_5",
+        "kind": "category_domain",
+        "word": "chedy",
+        "allowed": [
+          0
+        ]
+      },
+      {
+        "id": "constraint_46",
+        "kind": "category_domain",
+        "word": "qoteedy",
+        "allowed": [
+          0
+        ]
+      },
+      {
+        "id": "constraint_18",
+        "kind": "category_domain",
+        "word": "lchedy",
+        "allowed": [
+          -1
+        ]
+      },
+      {
+        "id": "constraint_38",
+        "kind": "category_domain",
+        "word": "qokeedy",
+        "allowed": [
+          1
+        ]
+      },
+      {
+        "id": "constraint_1",
+        "kind": "category_domain",
+        "word": "chary",
+        "allowed": [
+          -1,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "constraint_703",
+        "kind": "ordered_token",
+        "model": "DIPLOMATIC_IT2a",
+        "position": 55,
+        "word": "lchedy",
+        "source_id": "IT2a|f83r.6|G008"
+      },
+      {
+        "id": "constraint_702",
+        "kind": "ordered_token",
+        "model": "DIPLOMATIC_IT2a",
+        "position": 54,
+        "word": "qokeedy",
+        "source_id": "IT2a|f83r.6|G007"
+      },
+      {
+        "id": "constraint_208",
+        "kind": "complete_prefix_end",
+        "model": "PROJECTED_ZL",
+        "boundary": 72
+      },
+      {
+        "id": "constraint_279",
+        "kind": "ordered_token",
+        "model": "PROJECTED_ZL",
+        "position": 71,
+        "word": "chedy",
+        "source_id": "PROJECTED|f83r.8|G005"
+      },
+      {
+        "id": "constraint_281",
+        "kind": "require_whole_unit",
+        "model": "PROJECTED_ZL",
+        "groups": 72
+      },
+      {
+        "id": "constraint_280",
+        "kind": "ordered_token",
+        "model": "PROJECTED_ZL",
+        "position": 72,
+        "word": "chary",
+        "source_id": "PROJECTED|f83r.8|G006"
+      },
+      {
+        "id": "constraint_701",
+        "kind": "ordered_token",
+        "model": "DIPLOMATIC_IT2a",
+        "position": 53,
+        "word": "chedy",
+        "source_id": "IT2a|f83r.6|G006"
+      },
+      {
+        "id": "constraint_720",
+        "kind": "require_whole_unit",
+        "model": "DIPLOMATIC_IT2a",
+        "groups": 71
+      }
+    ],
+    "core_minimality": "Not claimed; tracked constraint subset rechecked UNSAT.",
+    "primary_status": "FULL_UNSAT_BY_CONTAINMENT"
+  },
+  "validator_sha256": "fd8e8b0bbd2166dd779ac28f0a8c3f9dc0ffece505797d60aab80108268b18b6"
+}

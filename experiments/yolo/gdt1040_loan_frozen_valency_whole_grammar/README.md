@@ -1,5 +1,5 @@
 # GDT1040 — loan frozen valency whole grammar
 
-Status: `REGISTERED_UNSCORED`
+Status: `REFUTED_FIXED_PREFIX_VALENCY`; independent validation PASS.
 
-See `METHOD.md` and `experiment.json`.
+See `REPORT.md`, complete candidate/group tables and the frozen `METHOD.md`.

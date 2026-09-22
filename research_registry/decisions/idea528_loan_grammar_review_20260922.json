@@ -1,0 +1,41 @@
+{
+  "record_id": "IDEA000528",
+  "scope": "semantic",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root and independent Z3 validator",
+  "assessment_basis": "public_registered_whole_source_exhaustive_category_test",
+  "reason": "All81 recurrent assignments in each of three whole sources are UNSAT; independent full validation PASS. Common five-group obstruction fixes maximum complete prefix25. Necessary syntax only; no denotations assigned or meaning confirmation.",
+  "evidence": [
+    "experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md",
+    "experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/artifacts/RESULT.json",
+    "experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/artifacts/VALIDATION.json"
+  ],
+  "blockers": [
+    {
+      "code": "fixed_grammar_contradiction",
+      "detail": "chey at22 and24 must be the same category, while fixed noun positions25/26 force24 binary and22 to require24 noun.",
+      "evidence": [
+        "experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/artifacts/VALIDATION_EARLY_CORE.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_grounded_construction",
+        "change": "new_binding",
+        "detail": "An independently motivated different construction with a new predeclared falsifier, preserving this exact failure and all fixed-source distinctions.",
+        "evidence": [
+          "experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Adding zero-valent unknowns after failure",
+      "Silent postfix/implicit-argument repair",
+      "Only displaying a parseable prefix",
+      "Changing old noun assignments"
+    ]
+  }
+}
