@@ -93,8 +93,13 @@ Die126 Einträge wurden vollständig gelesen. Alle3953 möglichen A/B-Paare sind
 darunter absichtlich zu großzügige NOT/NO/NO_LONGER-, FOR/TO-, DESIRE/INSIST-
 und weitere Verbindungen.51 B-Wertklassen wurden vorsorglich zu46 Pools reduziert.
 
-Diese semantische Übermenge ist eine explizite menschlich beurteilte Annahme.
-Der Computer beweist ihre inhaltliche Vollständigkeit nicht. Lexikalische
+Diese semantische Übermenge ist eine explizite inhaltlich beurteilte Annahme.
+Der Computer beweist ihre inhaltliche Vollständigkeit nicht. Sämtliche
+Quellen- und Codeprüfungen erfolgten durch KI-Agenten; es gab keine menschlichen
+Gutachter oder Außenkontakte. „Menschlich“ beziehungsweise „human semantic review“
+in den eingefrorenen Vorbereitungsdateien war eine ungenaue Bezeichnung für
+die interpretative, nicht formal bewiesene Voraussetzung. Die registrierten
+Dateien bleiben unverändert; diese Herkunftsklarstellung ändert kein Resultat. Lexikalische
 Denotationen werden vor Referenzauflösung verglichen: ein Kohl rückverweisendes
 Wort ist nicht allein deshalb der Artname CABBAGE. Ganze Makros, Modalität und
 Typbedingungen werden nicht entfernt. Source-only-Kritiken, alle Einträge,

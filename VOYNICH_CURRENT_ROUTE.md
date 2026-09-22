@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Close1034; review511 meaning-preserving spelling-choice consequence and its predecessor.
-Latest decision: 1034 raw joint code fails chey5_3/maxA4; literal lines undecided; no restart.
-Working files: experiments/yolo/gdt1034_galen_shared_code_capacity/REPORT.md
-Assumptions: Fixed whole source atoms; generous compatibility covers;0confirmed words.
-Resume: Recover IL008 primary before511 promotion; do not rerun1031 capacity audit.
-Running: bounded511 predecessor reviewer;root publication. Five-hour minimum14:47:48UTC.
+Task: Select a distinct content consequence from bounded producer proposals.
+Latest decision: 511 whole rewritings conserve assumed meaning; IL008 primary missing, untested.
+Working files: research_registry/decisions/raw511_development_writer_selection_20260922.md
+Assumptions: 1034 rawjointcode closed/literalundecided;511notfailed;0confirmedwords.
+Resume: Review new producer proposals against their linked primaries; no511/1031 rerun.
+Running: boundedidea producer and compositional-content critic;root. Minimum14:47:48UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
