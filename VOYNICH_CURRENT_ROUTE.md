@@ -3,13 +3,13 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: active
-Task: Finish full German working reading of the fixed V2 powder pair and review its limits.
-Latest decision: GDT1037 fails even literal lines:4same-context conflicts; no feature repair.
-Working files: research_registry/proposals/raw370_german_whole_working_reading_20260922.md
-Assumptions: 65guessed values; V2conditional coherence is not meaning confirmation.
-Resume: Review all82positions/rivals against frozen V2, publish with explicit f4r failure boundary.
-Running: German author/critic; root closes1037; minimum14:47:48UTC.
+Status: checkpoint
+Task: Five-hour result: complete hypothetical powder pair retained; no confirmed word.
+Latest decision: 1037contextjoin fails; f4r extension incomplete; no further test selected.
+Working files: research_registry/decisions/five_hour_meaning_research_20260922.md
+Assumptions: 65guessed values/56singletons; model coherence and prose are not meaning evidence.
+Resume: Read whole result and retained rivals; require a distinct complete content commitment before new target work.
+Running: None. Five-hour research completed; no unattended work or external contact.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
