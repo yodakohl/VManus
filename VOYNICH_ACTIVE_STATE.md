@@ -1,6 +1,8 @@
 # Voynich active state — structural reset baseline
 
-GDT1036 COMPLETE CAPACITY CENSUS: unchanged65+15inventory across1349whole rows selects only f4r.1-4 in both readers (31groups;17/18fixed positions;13/12newtypes). Whole leaves21/32excluded; source flags retained; both selected paragraphs uncertain. One complete exploratory extension next, no replacement target after failure. [Report](experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md).
+IDEA516 f4r WHOLE EXTENSION: sole GDT1036 target preserved31+31positions with old65+15values/18schemas/V2effects fixed;13new forms. FINALLY/DECANT story lacks complete result, Q, rinse and carrier-water bindings. Listed9costs are NOT a proved >8 lower bound; no universal contradiction. Stop serial patching, retain explicit unfinished whole draft and rivals;0words. [Closure](research_registry/decisions/powder_f4r_whole_extension_closure_20260922.md).
+
+GDT1036 COMPLETE CAPACITY CENSUS: unchanged65+15inventory across1349whole rows selects only f4r.1-4 in both readers (31groups;17/18fixed positions;13/12newtypes). Whole leaves21/32excluded; source flags retained; both selected paragraphs uncertain. The sole complete extension was attempted and remains incomplete; no replacement target. [Report](experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md).
 
 IDEA516 EXPLORATORY POWDER PAIR: complete82ZLgroups/238reader positions annotated under65primary values; conditional repeated-Q contradiction, FRESH and two-portions rivals retained. V1 lacks complete wet-GRIND/type postconditions; explicit V2 development separate. GDT1036 inventories unchanged65+15values for one entire cross-leaf extension; no meanings tested. [Primary critique](research_registry/decisions/raw370_whole_powder_partition_primary_review_20260922.md).
 
