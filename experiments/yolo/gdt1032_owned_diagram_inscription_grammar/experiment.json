@@ -1,0 +1,95 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Qualitative historical inscription reading only; no calibrated probability, target score or Voynich word.",
+  "commands": {
+    "run": "python experiments/yolo/gdt1032_owned_diagram_inscription_grammar/src/run.py",
+    "validate": "python experiments/yolo/gdt1032_owned_diagram_inscription_grammar/src/validate.py"
+  },
+  "created": "2026-09-22",
+  "dependencies": [
+    "GDT213",
+    "GDT214"
+  ],
+  "experiment_id": "GDT1032",
+  "inputs": [
+    {
+      "path": "gdt213_ashmole_source_manifest.tsv",
+      "role": "frozen_external_source",
+      "sha256": "910fc07adebf185f2d8c758c1689eb84f0821a30f4b83ae93ef7e32d988f74dd"
+    },
+    {
+      "path": "gdt214_aljazari_source_manifest.tsv",
+      "role": "frozen_external_source",
+      "sha256": "ca46d005085f8faa756dd5eb1ca68f94e59807f437154f84762881ebd6806da2"
+    },
+    {
+      "path": "GDT213_READABLE_MEDICAL_DIAGRAM_SOURCE_AUDIT.md",
+      "role": "frozen_external_source",
+      "sha256": "632b163901fd6f90e49219a0a4e1ce16668357f893296fc0460f568e73289574"
+    },
+    {
+      "path": "GDT214_HYDRAULIC_COMPONENT_KEY_SOURCE_AUDIT.md",
+      "role": "frozen_external_source",
+      "sha256": "af503b68c2af2a4b31bb8c9bc1b9c4f54e2e7a1c14066741468ee72b94b40062"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/METHOD.md",
+      "role": "registered_source",
+      "sha256": "62ce821ae60ee376dddf52d64f4f7310a055d4ac55f62e1149d1689feb6d9bfe"
+    },
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/PREREGISTRATION.md",
+      "role": "registered_source",
+      "sha256": "bd9622387d233cba5ff8f3b75d154f15a2c2220b0ad87eaecd45292f55b1f2df"
+    },
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/PREREG_LOCK.json",
+      "role": "registered_source",
+      "sha256": "a80d6090b0b05d8eeb79bd70ae7aced8b2a12f7c93123dab3e29a48414799935"
+    },
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/README.md",
+      "role": "registered_source",
+      "sha256": "8b285ba6b68b6d477bdf8a01f626daea538881049af9ebda0554c7f75b77718f"
+    },
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/artifacts/README.md",
+      "role": "registered_source",
+      "sha256": "dca40ba60e36b0c085324d80f0a767831f6f8d8affedf8227d39892982fe66b1"
+    },
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/src/SOURCE.json",
+      "role": "registered_source",
+      "sha256": "7fd15efffa2944a909a296be835820d6a7d4032766e81f8c80916782a4291684"
+    },
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/src/run.py",
+      "role": "registered_source",
+      "sha256": "2c87806b1d210384fda67af063393ecaa3a3189dda6239928facb396e296d503"
+    },
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/src/validate.py",
+      "role": "registered_source",
+      "sha256": "304136d93d251ccbdf08871882972e869aaa7246efab3975883e4eb5a95e2a48"
+    }
+  ],
+  "question": "What grammatical kinds are actually readable in the four already-owned historical diagram images, before applying any soft label prior to guessed Voynich words?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "owned_diagram_inscription_grammar",
+  "status": "REGISTERED_UNOPENED",
+  "title": "owned diagram inscription grammar",
+  "updated": "2026-09-22",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
