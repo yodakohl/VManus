@@ -5,11 +5,11 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Four-hour content research; 2026-09-22 16:21:07–20:21:07UTC minimum.
-Latest decision: 1040fixed6production grammar UNSAT all3units, validatorPASS;520V2 under full review.
-Working files: experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md
+Latest decision: 1040fixed grammar refuted;520V2 incomplete with fixed-value errors;529binding check active.
+Working files: research_registry/proposals/f83r_unweaving_p5_whole_extension_20260922/REPORT.md
 Assumptions: 520old64values;529all4caption obligation exposed; producer f84r incident excluded;0words.
-Resume: Close520by18:28UTC; review529physical-role bridge and all captions before any music selection.
-Running: Root1040publication, independent520review; producer529delivered. Minimum end20:21:07UTC.
+Resume: Publish520closureby18:28;529all4captions/12rolemap checkby18:28; new supplyby18:36.
+Running: Rootclosure/newroute research; independent529check; boundedproducer. Minimum end20:21:07UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
