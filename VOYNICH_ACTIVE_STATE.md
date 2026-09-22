@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1037 FIXED CONTEXT JOIN: all183positions preserve A/B values; line start plus literal preceding dy leaves13colliding cells at11forms, and4cells at4forms even on65literal positions. Close this exact join, retain311/318formal results and each separate hypothetical family; no context-feature repair,0words. [Report](experiments/yolo/gdt1037_galen_fixed_entry_context_join/REPORT.md).
+
 IDEA516 f4r WHOLE EXTENSION: sole GDT1036 target preserved31+31positions with old65+15values/18schemas/V2effects fixed;13new forms. FINALLY/DECANT story lacks complete result, Q, rinse and carrier-water bindings. Listed9costs are NOT a proved >8 lower bound; no universal contradiction. Stop serial patching, retain explicit unfinished whole draft and rivals;0words. [Closure](research_registry/decisions/powder_f4r_whole_extension_closure_20260922.md).
 
 GDT1036 COMPLETE CAPACITY CENSUS: unchanged65+15inventory across1349whole rows selects only f4r.1-4 in both readers (31groups;17/18fixed positions;13/12newtypes). Whole leaves21/32excluded; source flags retained; both selected paragraphs uncertain. The sole complete extension was attempted and remains incomplete; no replacement target. [Report](experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md).

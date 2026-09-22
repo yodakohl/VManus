@@ -1,5 +1,7 @@
-# GDT1037 — galen fixed entry context join
+# GDT1037 — fixed Galen entry-context join
 
-Status: `REGISTERED_UNSCORED`
+Status: `REFUTED_FIXED_CONTEXT_JOIN`.
 
-See `METHOD.md` and `experiment.json`.
+[Complete result and all13 shared forms](REPORT.md); [registered contract](METHOD.md).
+
+183positions,11colliding forms; literal-line subset retains4. No confirmed meanings.

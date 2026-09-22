@@ -2,14 +2,14 @@
 Updated: 2026-09-22. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT1037 fixed entry-context join of complete Galen A/B readings; no new values.
-Latest decision: RAW517 necessary head rules conflict with f4r; full ACCESS remains untested.
-Working files: experiments/yolo/gdt1037_galen_fixed_entry_context_join/METHOD.md
-Assumptions: Literal line-start/PREVDY is a new semantic selector; no318meaning inference.
-Resume: Publicly lock both programs; execute all183positions, independently verify and publish.
-Running: Root, independent runner/validator;1037budget14:34UTC;minimum14:47:48UTC.
+Task: Finish full German working reading of the fixed V2 powder pair and review its limits.
+Latest decision: GDT1037 fails even literal lines:4same-context conflicts; no feature repair.
+Working files: research_registry/proposals/raw370_german_whole_working_reading_20260922.md
+Assumptions: 65guessed values; V2conditional coherence is not meaning confirmation.
+Resume: Review all82positions/rivals against frozen V2, publish with explicit f4r failure boundary.
+Running: German author/critic; root closes1037; minimum14:47:48UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
