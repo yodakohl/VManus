@@ -1,0 +1,71 @@
+{
+  "record_id": "GDT1030",
+  "scope": "semantic",
+  "verdict": "supported_limited",
+  "reviewer": "root whole clock consequence test",
+  "reason": "Complete40-group conditional graph matches all216 fixed predictions; normal coupled motion separates from calendar actuation/completion. Equal duration is unit-compatible but full-source contradictory. No word identified.",
+  "assessment_basis": "registered_complete_reading_consequences",
+  "evidence": [
+    "experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md",
+    "experiments/yolo/gdt1030_clock_whole_reference_consequences/artifacts/RESULT.json",
+    "experiments/yolo/gdt1030_clock_whole_reference_consequences/artifacts/CANDIDATES.tsv"
+  ],
+  "blockers": [
+    {
+      "code": "unconfirmed_values_and_reference_grammar",
+      "detail": "33 guesses/27 singleton types/4 productions/3 discontinuous/20 bindings, plus temporal witness convention. IT42 unbound,0 independent meaning capacity.",
+      "evidence": [
+        "experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "fixed_complete_extension_or_independent_meaning",
+        "change": "new_design",
+        "detail": "Complete additional content with unchanged shared denotations or independently admitted meaning binding that separates surviving consequences.",
+        "evidence": [
+          "experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More unchanged invented clock worlds",
+      "Water closure alone as calendar automation",
+      "Unit-only equal-duration fit despite full-parent counterexample",
+      "Altered meanings or silently repaired IT forms"
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "IDEA000503",
+      "evidence": [
+        "experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "IDEA000498",
+      "evidence": [
+        "experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "IDEA000394",
+      "evidence": [
+        "experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "GDT214",
+      "evidence": [
+        "experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md"
+      ]
+    }
+  ]
+}

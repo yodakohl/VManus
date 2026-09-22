@@ -2,14 +2,14 @@
 Updated: 2026-09-22. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Check complete40group clock reference hypothesis against216 fixed consequences.
-Latest decision: RAW503 selected as GDT1030;33guesses/20bindings; prior1029 published unchanged.
-Working files: experiments/yolo/gdt1030_clock_whole_reference_consequences/PREREGISTRATION.md
-Assumptions: Whole§9/3discontinuous productions; temporal witness convention; no calendar-rate inference.
-Resume: Publish fixed predictions before target execution; retain full-source duration counterexample.
-Running: root1030 deadline2026-09-22 09:31:19UTC; producer source-only alternatives until09:30.
+Task: Review existing complete Galen IV/V pair with frozen shared values before further testing.
+Latest decision: GDT1030 conditional40group graph passed; RAW504 frozen33 continuation incomplete.
+Working files: experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md
+Assumptions: 33clock guesses/20bindings; water motion not calendar automation;0words, no independent meaning.
+Resume: Publish1030/504 review; inspect RAW499/501 whole primaries and retained counterexamples.
+Running: producer source-only alternatives by09:30UTC; root review; resumed active research08:43UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
