@@ -3,13 +3,13 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: IDEA479 whole reference audit closed;360 remains an unselected source-only candidate.
-Latest decision: S441 rejects added same-bath strict entry;S442 keeps FROM/TO;599PASS unchanged.
-Working files: research_registry/decisions/idea479_reference_closure_20260922.md
-Assumptions: Discourse identity not physical bath/time; rival meanings unselected; exposed leaf81;0words.
-Resume: Topic numbers, ideas360/duplicates,969primaries and existing source dossier before any selection.
-Running: None; root and independent audit complete; no decoder or between-turn work.
+Status: active
+Task: Four-hour content research; 2026-09-22 16:21:07–20:21:07UTC minimum.
+Latest decision: Select477 as GDT1039: whole reference-policy interaction;60 guesses stay unconfirmed.
+Working files: experiments/yolo/gdt1039_hour_day_reference_composition/DECISION.md
+Assumptions: Seven dynamic selections only; supplied globals/types; normalized source;0words.
+Resume: Publish frozen six-policy contract/code, execute full357-pair replay, independently validate.
+Running: Root registration; independent runner/validator; bounded idea producer. No final before20:21:07UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

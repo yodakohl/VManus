@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "experiment": "GDT1039",
+  "claim_ceiling": "Conditional frozen reference-model audit only; no translated word, recovered grammar, or complete coherence claim.",
+  "inputs": {
+    "source": "experiments/yolo/gdt1015_coupled_hour_day_reading/src/SOURCE.json",
+    "model": "experiments/yolo/gdt1015_coupled_hour_day_reading/MODEL_v01.json",
+    "rows": "experiments/yolo/gdt1015_coupled_hour_day_reading/artifacts/ROWS.json",
+    "report": "experiments/yolo/gdt1015_coupled_hour_day_reading/REPORT.md",
+    "scope_correction": "experiments/yolo/gdt1015_coupled_hour_day_reading/SCOPE_CORRECTION.md",
+    "reading": "experiments/yolo/gdt1015_coupled_hour_day_reading/READING_v01.md",
+    "raw477": "research_registry/proposals/raw477_full_reference_trace_review_20260922.md",
+    "independent_preflight": "research_registry/decisions/idea477_independent_reference_preflight_20260922.md",
+    "decision": "experiments/yolo/gdt1039_hour_day_reference_composition/DECISION.md",
+    "method": "experiments/yolo/gdt1039_hour_day_reference_composition/METHOD.md",
+    "preregistration": "experiments/yolo/gdt1039_hour_day_reference_composition/PREREGISTRATION.md",
+    "spec": "experiments/yolo/gdt1039_hour_day_reference_composition/src/SPEC.json",
+    "runner": "experiments/yolo/gdt1039_hour_day_reference_composition/src/run.py"
+  },
+  "frozen_contract": {
+    "constructions": 12,
+    "old_numeric_rows": 357,
+    "source_positions": 80,
+    "fetches": 7,
+    "local_reset": "before each construction for all policies except GLOBAL_CONSUMPTION",
+    "record_identity": "RA and RB remain provenance-distinct even when values coincide",
+    "selection_inputs_only": ["required_type", "recency", "used"],
+    "forbidden_selection_inputs": ["desired_id", "clause_id", "expected_truth", "expected_value"],
+    "first_stops": {"UNTYPED_RECENT": "C04", "GLOBAL_CONSUMPTION": "C07"},
+    "old_reference_override": "SAME_METHOD_REFERENCE is retained as an inherited row label only; this resolver always applies the declared policy to F6/F7."
+  },
+  "record_types": ["DAY", "HOUR_UNIT", "RULER", "DAY_COUNT", "METHOD", "RULER_RESULT"],
+  "policies": [
+    {"id": "DEFERRED_CONSUMING", "publication": "deferred", "consuming": true, "typed": true, "reset": "local"},
+    {"id": "DEFERRED_NONCONSUMING", "publication": "deferred", "consuming": false, "typed": true, "reset": "local"},
+    {"id": "EAGER_CONSUMING", "publication": "eager", "consuming": true, "typed": true, "reset": "local"},
+    {"id": "EAGER_NONCONSUMING", "publication": "eager", "consuming": false, "typed": true, "reset": "local"},
+    {"id": "UNTYPED_RECENT", "publication": "deferred", "consuming": true, "typed": false, "reset": "local"},
+    {"id": "GLOBAL_CONSUMPTION", "publication": "deferred", "consuming": true, "typed": true, "reset": "global"}
+  ],
+  "registry": {
+    "records": [
+      {"id": "D", "type": "DAY", "create": "C01", "position": 2, "eligible": true},
+      {"id": "H", "type": "CYCLE", "create": "C02", "position": 13, "eligible": false, "global": true},
+      {"id": "U", "type": "HOUR_UNIT", "create": "C03", "position": 19, "eligible": true},
+      {"id": "R_init", "type": "RULER", "create": "C05", "position": 32, "eligible": true},
+      {"id": "R_hour", "type": "RULER", "create": "C06", "position": 39, "eligible": true},
+      {"id": "N", "type": "DAY_COUNT", "create": "C07", "position": 43, "eligible": true},
+      {"id": "A", "type": "METHOD", "create": "C10", "position": 63, "eligible": true},
+      {"id": "RA", "type": "RULER_RESULT", "create": "C10", "position": 63, "eligible": true},
+      {"id": "B", "type": "METHOD", "create": "C11", "position": 74, "eligible": true, "publication": ["eager", "deferred"]},
+      {"id": "RB", "type": "RULER_RESULT", "create": "C11", "position": 74, "eligible": true, "publication": ["eager", "deferred"]}
+    ],
+    "touches": [
+      {"construction": "C06", "position": 36, "record": "D"},
+      {"construction": "C06", "position": 37, "record": "U"},
+      {"construction": "C06", "position": 39, "record": "R_hour"},
+      {"construction": "C07", "position": 40, "record": "D"},
+      {"construction": "C07", "position": 43, "record": "U"},
+      {"construction": "C08", "position": 44, "record": "U"},
+      {"construction": "C08", "position": 46, "record": "U"},
+      {"construction": "C09", "position": 54, "record": "N"},
+      {"construction": "C10", "position": 60, "record": "D"},
+      {"construction": "C10", "position": 62, "record": "U"},
+      {"construction": "C12", "position": 79, "record": "U"}
+    ]
+  },
+  "fetches": [
+    {"id": "F1", "construction": "C04", "position": 25, "required_type": "DAY"},
+    {"id": "F2", "construction": "C07", "position": 40, "required_type": "DAY"},
+    {"id": "F3", "construction": "C07", "position": 43, "required_type": "HOUR_UNIT"},
+    {"id": "F4", "construction": "C09", "position": 54, "required_type": "DAY_COUNT"},
+    {"id": "F5", "construction": "C11", "position": 75, "required_type": "RULER_RESULT"},
+    {"id": "F6", "construction": "C12", "position": 76, "required_type": "METHOD"},
+    {"id": "F7", "construction": "C12", "position": 78, "required_type": "METHOD"}
+  ],
+  "event_inventory": [
+    {"id": "E01", "construction": "C01", "position": 2, "op": "publish", "record": "D"},
+    {"id": "E02", "construction": "C02", "position": 13, "op": "publish", "record": "H"},
+    {"id": "E03", "construction": "C03", "position": 19, "op": "publish", "record": "U"},
+    {"id": "E04", "construction": "C04", "position": 25, "op": "fetch", "fetch": "F1"},
+    {"id": "E05", "construction": "C05", "position": 32, "op": "publish", "record": "R_init"},
+    {"id": "E06", "construction": "C06", "position": 36, "op": "touch", "record": "D"},
+    {"id": "E07", "construction": "C06", "position": 37, "op": "touch", "record": "U"},
+    {"id": "E08", "construction": "C06", "position": 39, "op": "publish", "record": "R_hour"},
+    {"id": "E09", "construction": "C07", "position": 40, "op": "fetch", "fetch": "F2"},
+    {"id": "E10", "construction": "C07", "position": 43, "op": "fetch", "fetch": "F3"},
+    {"id": "E11", "construction": "C07", "position": 43, "op": "publish", "record": "N"},
+    {"id": "E12", "construction": "C08", "position": 44, "op": "touch", "record": "U"},
+    {"id": "E13", "construction": "C08", "position": 46, "op": "touch", "record": "U"},
+    {"id": "E14", "construction": "C09", "position": 54, "op": "fetch", "fetch": "F4"},
+    {"id": "E15", "construction": "C10", "position": 60, "op": "touch", "record": "D"},
+    {"id": "E16", "construction": "C10", "position": 62, "op": "touch", "record": "U"},
+    {"id": "E17", "construction": "C10", "position": 63, "op": "publish", "record": "A"},
+    {"id": "E18", "construction": "C10", "position": 63, "op": "publish", "record": "RA"},
+    {"id": "E19", "construction": "C11", "position": 64, "op": "prepare", "record": "B"},
+    {"id": "E20", "construction": "C11", "position": 74, "op": "prepare", "record": "RB"},
+    {"id": "E21", "construction": "C11", "position": 75, "op": "publish_eager_or_fetch", "fetch": "F5"},
+    {"id": "E22", "construction": "C11", "position": 75, "op": "publish_deferred", "record": "B"},
+    {"id": "E23", "construction": "C11", "position": 75, "op": "publish_deferred", "record": "RB"},
+    {"id": "E24", "construction": "C12", "position": 76, "op": "fetch", "fetch": "F6"},
+    {"id": "E25", "construction": "C12", "position": 78, "op": "fetch", "fetch": "F7"},
+    {"id": "E26", "construction": "C12", "position": 79, "op": "touch", "record": "U"}
+  ],
+  "predicted_reference_traces": {
+    "DEFERRED_CONSUMING": ["D", "D", "U", "N", "RA", "B", "A"],
+    "DEFERRED_NONCONSUMING": ["D", "D", "U", "N", "RA", "B", "B"],
+    "EAGER_CONSUMING": ["D", "D", "U", "N", "RB", "B", "A"],
+    "EAGER_NONCONSUMING": ["D", "D", "U", "N", "RB", "B", "B"],
+    "UNTYPED_RECENT": [null, null, null, null, null, null, null],
+    "GLOBAL_CONSUMPTION": ["D", null, null, null, null, null, null]
+  },
+  "predicted_stops": {
+    "UNTYPED_RECENT": {"construction": "C04", "fetch": "F1", "selected": "U", "required_type": "DAY", "reason": "TYPE_CONFLICT"},
+    "GLOBAL_CONSUMPTION": {"construction": "C07", "fetch": "F2", "selected": null, "required_type": "DAY", "reason": "UNBOUND"}
+  },
+  "truth_table": {
+    "equal": {
+      "DEFERRED_CONSUMING": {"c11": true, "c12": true, "joint": true},
+      "DEFERRED_NONCONSUMING": {"c11": true, "c12": true, "joint": true},
+      "EAGER_CONSUMING": {"c11": true, "c12": true, "joint": true},
+      "EAGER_NONCONSUMING": {"c11": true, "c12": true, "joint": true},
+      "UNTYPED_RECENT": {"c11": null, "c12": null, "joint": null},
+      "GLOBAL_CONSUMPTION": {"c11": null, "c12": null, "joint": null}
+    },
+    "unequal": {
+      "DEFERRED_CONSUMING": {"c11": false, "c12": false, "joint": false},
+      "DEFERRED_NONCONSUMING": {"c11": false, "c12": true, "joint": false},
+      "EAGER_CONSUMING": {"c11": true, "c12": false, "joint": false},
+      "EAGER_NONCONSUMING": {"c11": true, "c12": true, "joint": true},
+      "UNTYPED_RECENT": {"c11": null, "c12": null, "joint": null},
+      "GLOBAL_CONSUMPTION": {"c11": null, "c12": null, "joint": null}
+    }
+  },
+  "outputs": {
+    "directory": "experiments/yolo/gdt1039_hour_day_reference_composition/artifacts",
+    "event_traces": "EVENT_TRACES.json",
+    "comparison_table": "COMPARISON_TABLE.json",
+    "result": "RESULT.json",
+    "coverage": "SOURCE_COVERAGE.json"
+  },
+  "coverage": {"required_source_positions": 80, "source_key": "source.records[].raw", "inherited": true},
+  "execution_gate": {
+    "flag": "--execute",
+    "lock": "experiments/yolo/gdt1039_hour_day_reference_composition/PREREG_LOCK.json",
+    "lock_status": "REGISTERED_BEFORE_EXECUTION",
+    "public_registration": "experiments/yolo/gdt1039_hour_day_reference_composition/artifacts/PUBLIC_REGISTRATION.json",
+    "require_public_registration": true,
+    "require_locked_hashes": true
+  }
+}

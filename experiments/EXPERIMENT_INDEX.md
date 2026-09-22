@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1037**
-- Experiment-associated tracked files: **20,652** (1.9 GiB)
-- Structured GDT337+ experiments: **702**
+- Experiments indexed: **1038**
+- Experiment-associated tracked files: **20,662** (1.9 GiB)
+- Structured GDT337+ experiments: **703**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1039 | Whole hour/day reference-policy composition | `REGISTERED_UNSCORED` | — | 10 | 64.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT1038 | GDT1038 | `LIMITED_WHOLE_EXTENSION_REPRESENTATION_FIT` | [report](../experiments/yolo/gdt1038_amulet_atomic_binary_packing/REPORT.md) | 22 | 516.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT1037 | GDT1037 | `REFUTED_FIXED_CONTEXT_JOIN` | [report](../experiments/yolo/gdt1037_galen_fixed_entry_context_join/REPORT.md) | 18 | 524.5 KiB | 6 | STRUCTURED_YOLO |
 | GDT1036 | GDT1036 | `ONE_COMPLETE_EXTENSION_TARGET` | [report](../experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md) | 20 | 4.8 MiB | 2 | STRUCTURED_YOLO |
