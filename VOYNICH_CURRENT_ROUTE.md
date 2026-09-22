@@ -3,13 +3,13 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: Retain GDT1038 complete IT108r packing fit; choose a new whole-content discriminator.
-Latest decision: 32ITgroups yield fixed33terms once; originalraw83 fails; q exact decomposition absent.
-Working files: experiments/yolo/gdt1038_amulet_atomic_binary_packing/REPORT.md
-Assumptions: 88guesses/13authoredpatterns,0meaning; ZLflags/RFabsence; f4r and1037stops retained.
-Resume: Read1038DECISION plus518/492reviews; select only a new complete consequence, no local repair.
-Running: None; GDT1038 complete and independently checked; no next experiment selected.
+Status: active
+Task: IDEA512 complete first f37v paragraph with frozen powder values and ROOT/LEAF endpoint.
+Latest decision: f37v1–7 passes metadata scope29/30groups;513has4paragraphs over3cap, no words opened.
+Working files: research_registry/decisions/idea512_f37v_whole_development_decision_20260922.md
+Assumptions: Terminal depiction new; old65+15/V2 fixed; source-kind not specimen; 0meaning confirmation.
+Resume: Freeze owned source packet; author all29ZLgroups with≤6productions/8bindings, preserve IT/RF.
+Running: Root source/content review, bounded author and idea producer; inclusive stop16:17UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
