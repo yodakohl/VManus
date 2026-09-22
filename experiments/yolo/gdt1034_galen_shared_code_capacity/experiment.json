@@ -1,0 +1,142 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Necessary source-inventory constraints only; no common reading, confirmed words or source identity from noncontradiction.",
+  "commands": {
+    "run": "python experiments/yolo/gdt1034_galen_shared_code_capacity/src/run.py",
+    "validate": "python experiments/yolo/gdt1034_galen_shared_code_capacity/src/validate.py --execute"
+  },
+  "created": "2026-09-22",
+  "dependencies": [
+    "GDT928",
+    "GDT901",
+    "GDT1008",
+    "GDT1029"
+  ],
+  "experiment_id": "GDT1034",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/raw_galen_2442_target_development_20260921.json",
+      "role": "fixed_source_or_postexposure_contract",
+      "sha256": "de31c91a90662287c011ee1356e02ce08ba0a617edd197c7be2b920183fb8f39"
+    },
+    {
+      "path": "research_registry/proposals/raw_galen_2443_specific_transfer_extension_20260921.json",
+      "role": "fixed_source_or_postexposure_contract",
+      "sha256": "f433f72f5e45f2f428d4e62d836cf937201c195f9b30d1628c4f40e32303d907"
+    },
+    {
+      "path": "research_registry/proposals/raw_galen_2444_comparison_epistemic_target_20260921.json",
+      "role": "fixed_source_or_postexposure_contract",
+      "sha256": "4503a7acdf058f6d75297916e7f08aebc92442f2c3aec7bf25ef0945f29e4862"
+    },
+    {
+      "path": "research_registry/proposals/raw_galen_2445_frozen38_extension_20260921.json",
+      "role": "fixed_source_or_postexposure_contract",
+      "sha256": "de9c602901a0d893e0d913f0086781a64357982f3c89c9157e160fa8d579a4bb"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "fixed_source_or_postexposure_contract",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/GALEN_CABBAGE_COMPLETE_SOURCE_20260920.json",
+      "role": "fixed_source_or_postexposure_contract",
+      "sha256": "8bc3c51306fe27a9f4d6366e569b93b03f5fe760b0fb99e0fbfdae06cf975a97"
+    },
+    {
+      "path": "research_registry/decisions/galen_joint_incidence_feasibility_contract_review_20260922.md",
+      "role": "fixed_source_or_postexposure_contract",
+      "sha256": "e3d6e6f9c0f036ffa50ac259717550ea94527f3439da448bb559a7997e643d37"
+    },
+    {
+      "path": "research_registry/decisions/galen_joint_source_compatibility_superset_critic_20260922.json",
+      "role": "fixed_source_or_postexposure_contract",
+      "sha256": "73bc822e3af1eaf3b78514e3b21597406ca8ed85ed10ca0d121822f992cb8c4f"
+    },
+    {
+      "path": "research_registry/decisions/galen_shared_word_B_pool_cover_critic_20260922.json",
+      "role": "fixed_source_or_postexposure_contract",
+      "sha256": "f5c5f9c9e48bf45d1e3918172a4f2f7ec1a1f3b3036f1d98d5f258ef26911d1f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/METHOD.md",
+      "role": "source_or_registration",
+      "sha256": "865d1a25e385b21f8080379541b934c84e73d34c2f44495d29c278cf0bb8b39d"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/PREREGISTRATION.md",
+      "role": "source_or_registration",
+      "sha256": "98968020a645ae4dd6b5961ee56262605c6858075ac1011ad835121c1bf98c8b"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/PREREG_LOCK.json",
+      "role": "source_or_registration",
+      "sha256": "3e3eaee4074a336743989e3d6bbf9843a7d7dfcf09c5f81aeb0c7ecb9944779b"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/README.md",
+      "role": "source_or_registration",
+      "sha256": "abe20d3d517f527468a3f52ed87c6dac6b2df323a60a00b4802beb90348e104d"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/artifacts/PREFLIGHT.json",
+      "role": "source_or_registration",
+      "sha256": "d48884f96cf08bdb0a4be82d4fb0b024471a27147365449e0ec390ae3cb082c1"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/artifacts/README.md",
+      "role": "source_or_registration",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/src/B_POOLS.json",
+      "role": "source_or_registration",
+      "sha256": "f5c5f9c9e48bf45d1e3918172a4f2f7ec1a1f3b3036f1d98d5f258ef26911d1f"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/src/COMPATIBILITY.json",
+      "role": "source_or_registration",
+      "sha256": "c6df169432c58ff46475391faf0b16ddc7f38fa9102fe05e43139e6ea5c01937"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/src/ENTRIES.json",
+      "role": "source_or_registration",
+      "sha256": "8cdaecb1adc859d687f18a9ee51397ddd40e937db2c153eac747783aef79f1fb"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/src/SPEC.json",
+      "role": "source_or_registration",
+      "sha256": "2ae3a4af2570791cc06a4be8b4cb60a226f9b020a334b80385a806b31d0333d3"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/src/run.py",
+      "role": "source_or_registration",
+      "sha256": "abb6ed2e8841ad1edaf7763d06f70e08d480fb2b8a60bf29e04047220833dafb"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/src/validate.py",
+      "role": "source_or_registration",
+      "sha256": "d94fe533c64f1738ac2b057bc9793a3340aff2f41250ad846d1fffdd80cb0c5b"
+    }
+  ],
+  "question": "Can any new context-free single-value code realize all four fixed Galen inventories, with unlimited synonyms, under conservative source compatibility capacity bounds?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "galen_shared_code_capacity",
+  "status": "REGISTERED_UNSCORED",
+  "title": "galen shared code capacity",
+  "updated": "2026-09-22",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

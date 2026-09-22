@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Review complete shared-code feasibility before more rare local constructions.
-Latest decision: GDT1033 NO_CAPACITY: all59predicate events lack fixed frame; no repair.
-Working files: experiments/yolo/gdt1033_galen_negated_food_slot/REPORT.md
-Assumptions: Galen families remain separate; source deictic captions known;0translated words.
-Resume: Review bounded joint-incidence proposal against887/888/901/1006-1008 before any census.
-Running: joint-code primary critic; root closure. Five-hour09:47:48–14:47:48UTC minimum.
+Task: GDT1034 source-compatibility bound for one shared Galen code; aliases unrestricted.
+Latest decision: 1033 no frames;13old-map conflicts alone do not exclude new joint assignments.
+Working files: experiments/yolo/gdt1034_galen_shared_code_capacity/METHOD.md
+Assumptions: 183fixed slots; full denotations before reference; semantic edge overapproximation.
+Resume: Seal source edges and independent validator, publish before new target counts.
+Running: source-edge critic; certificate validator;root. Budget11:54;five-hour minimum14:47:48UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

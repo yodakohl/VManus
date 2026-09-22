@@ -1,0 +1,1094 @@
+{
+  "status": "SOURCE_ONLY_B_DENOTATION_POOL_COVER_FOR_NECESSARY_SINGLE_WORD_DOMAIN",
+  "created_utc": "2026-09-22T11:33:00Z",
+  "entry_coverage": 59,
+  "base_value_class_count": 51,
+  "pool_count": 46,
+  "source_binding": {
+    "semantic_entries_path": "research_registry/decisions/galen_joint_source_compatibility_superset_critic_20260922.json",
+    "original_source_files": [
+      {
+        "path": "research_registry/proposals/raw_galen_2442_target_development_20260921.json",
+        "sha256": "de31c91a90662287c011ee1356e02ce08ba0a617edd197c7be2b920183fb8f39"
+      },
+      {
+        "path": "research_registry/proposals/raw_galen_2443_specific_transfer_extension_20260921.json",
+        "sha256": "f433f72f5e45f2f428d4e62d836cf937201c195f9b30d1628c4f40e32303d907"
+      },
+      {
+        "path": "research_registry/proposals/raw_galen_2444_comparison_epistemic_target_20260921.json",
+        "sha256": "4503a7acdf058f6d75297916e7f08aebc92442f2c3aec7bf25ef0945f29e4862"
+      },
+      {
+        "path": "research_registry/proposals/raw_galen_2445_frozen38_extension_20260921.json",
+        "sha256": "de9c602901a0d893e0d913f0086781a64357982f3c89c9157e160fa8d579a4bb"
+      }
+    ],
+    "fields_used": "B_rows: form,value,type,denotation. No positions or target frequency vectors."
+  },
+  "claim_ceiling": "This is a conservative pool cover for a necessary inequality, not a complete semantic equality logic or a quotient of the frozen denotations. Added pooling only weakens the test. A pooled pair must never be cited as an established synonym, changed source atom, or equality after reference resolution.",
+  "mathematical_audit": {
+    "condition": "For every shared exact word w, there must exist at least one B pool P with b_P >= b_w and a_P >= a_w.",
+    "b_P": "Count all B source realization POSITIONS belonging to any B entry in P, counting each source position once.",
+    "a_P": "Count the UNION of A source realization positions whose whole A entry has any allowed compatibility edge to any B entry in P. An A position with several qualifying edges counts once.",
+    "proof": "In a hypothetical shared context-free wordmap, all B realizations of w have one unchanged full denotation v. A pool covering every possibly identical B entry of v therefore contains all b_w B positions. Every one of the a_w A source positions realizing w has that same v and hence an allowed edge to the relevant B entry in this pool. Both capacity inequalities follow. Aliases do not affect the argument.",
+    "relaxations": "A neighbors may retain different full values from one another; all B values in a pool need not actually be equal; different words may independently reuse the same capacity in this necessary check. No A quotient, joint allocation, transitivity or injectivity is asserted.",
+    "precondition": "A genuine full identity must not be split across every available pool. The listed deliberately broad pools protect the identified B-internal ambiguities. All other separation retains explicit whole-content/reference conditions.",
+    "outputs": "An empty domain for any shared word excludes the frozen complete one-word/one-denotation realization contract if both source covers are accepted. Nonempty domains for all words are only NO_DECISION; no shared map, clause grammar or translation follows."
+  },
+  "pools": [
+    {
+      "id": "BP01",
+      "label": "DRY_SIMILARLY",
+      "forms": [
+        "qoeedy"
+      ],
+      "values": [
+        "DRY_SIMILARLY"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "The whole includes a two-food drying similarity relation, not merely DRY or generic effect."
+    },
+    {
+      "id": "BP02",
+      "label": "EXPLANATORY_RELATION",
+      "forms": [
+        "lchedy",
+        "dl"
+      ],
+      "values": [
+        "CAUSES",
+        "BECAUSE"
+      ],
+      "kind": "CONSERVATIVE_CROSS_VALUE_POOL_NOT_EQUALITY",
+      "reason": "Conservative common explanation/cause pool: causal direction, quoted explanandum and reason placement are not formalized as incompatible full operators. This pool does not assert identity or permit altering the entries."
+    },
+    {
+      "id": "BP03",
+      "label": "DULL",
+      "forms": [
+        "chees"
+      ],
+      "values": [
+        "DULL"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "The whole is dulling of the supplied faculty; a generic bad quality or urinary effect has different content."
+    },
+    {
+      "id": "BP04",
+      "label": "TO",
+      "forms": [
+        "ol"
+      ],
+      "values": [
+        "TO"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Directed effect/output-recipient relation differs from ownership/profile OF and causal relation; no common denotation is licensed by having two arguments."
+    },
+    {
+      "id": "BP05",
+      "label": "SIGHT",
+      "forms": [
+        "oiiin"
+      ],
+      "values": [
+        "SIGHT"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Visual faculty is explicitly distinct from a physical eye and nourishment."
+    },
+    {
+      "id": "BP06",
+      "label": "UNLESS",
+      "forms": [
+        "chchky"
+      ],
+      "values": [
+        "UNLESS"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Guarded exception qualifies a claim; it is not unary NOT, copular application, or assertion of the opposite result."
+    },
+    {
+      "id": "BP07",
+      "label": "WHOLE_EYE",
+      "forms": [
+        "shekeey"
+      ],
+      "values": [
+        "WHOLE_EYE"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Whole physical eye referent differs from visual faculty and human body; its whole-object scope is retained."
+    },
+    {
+      "id": "BP08",
+      "label": "UNNATURALLY",
+      "forms": [
+        "qokey"
+      ],
+      "values": [
+        "UNNATURALLY"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Modifier of abnormal attribution is not generic BAD, MOIST or an opposite-nature operator."
+    },
+    {
+      "id": "BP09",
+      "label": "IS",
+      "forms": [
+        "qoky",
+        "r"
+      ],
+      "values": [
+        "IS"
+      ],
+      "kind": "EXPLICIT_EXISTING_SYNONYM_CLASS",
+      "reason": "The second copula is explicitly an exact synonym with subject supplied by syntax."
+    },
+    {
+      "id": "BP10",
+      "label": "MOIST",
+      "forms": [
+        "saiin"
+      ],
+      "values": [
+        "MOIST"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "A moisture attribute; comparison, abnormality and nourishment are separate arguments/values."
+    },
+    {
+      "id": "BP11",
+      "label": "BOTH_FOODS",
+      "forms": [
+        "sy"
+      ],
+      "values": [
+        "BOTH_FOODS"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Topic food pair, not logical conjunction or either individual named food."
+    },
+    {
+      "id": "BP12",
+      "label": "FOOD_CONSEQUENCE_PROFILE",
+      "forms": [
+        "chedy",
+        "saiiin",
+        "san"
+      ],
+      "values": [
+        "EFFECT",
+        "NOURISHMENT"
+      ],
+      "kind": "CONSERVATIVE_CROSS_VALUE_POOL_NOT_EQUALITY",
+      "reason": "Deliberately broad safety pool. EFFECT explicitly is not identical to NOURISHMENT: one is a generic domain-selected consequence/profile and the other a nourishment profile. Pooling them is an intentional extra relaxation of this necessary capacity condition, not an assertion that their full denotations coincide or that their atoms may change."
+    },
+    {
+      "id": "BP13",
+      "label": "CABBAGE",
+      "forms": [
+        "shedy"
+      ],
+      "values": [
+        "CABBAGE"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Named food-kind constant remains separate from all deictic/predicate references before application."
+    },
+    {
+      "id": "BP14",
+      "label": "MORE",
+      "forms": [
+        "qokeedy"
+      ],
+      "values": [
+        "MORE"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Strict comparison differs from bare MANY/MUCH amount, second-comparator completion, and general relation."
+    },
+    {
+      "id": "BP15",
+      "label": "THAN",
+      "forms": [
+        "lol"
+      ],
+      "values": [
+        "THAN"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Comparison completion with a comparator is not the full strict-comparison operator."
+    },
+    {
+      "id": "BP16",
+      "label": "LENTIL",
+      "forms": [
+        "qokain",
+        "okedy"
+      ],
+      "values": [
+        "LENTIL"
+      ],
+      "kind": "EXPLICIT_EXISTING_SYNONYM_CLASS",
+      "reason": "Both entries explicitly denote the same lentil/lentil-soup food kind."
+    },
+    {
+      "id": "BP17",
+      "label": "OF",
+      "forms": [
+        "chey"
+      ],
+      "values": [
+        "OF"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Dependent profile/food ownership relation; directed recipient TO is a different semantic role."
+    },
+    {
+      "id": "BP18",
+      "label": "LITTLE",
+      "forms": [
+        "al"
+      ],
+      "values": [
+        "LITTLE"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Low nourishment amount contrasts with MUCH; no numerical thresholds or new identification are added."
+    },
+    {
+      "id": "BP19",
+      "label": "FOOD_NOMINAL_REFERENCE",
+      "forms": [
+        "aiin",
+        "qokopy",
+        "dal"
+      ],
+      "values": [
+        "VEGETABLE",
+        "THIS_VEGETABLE",
+        "THIS_FOOD"
+      ],
+      "kind": "CONSERVATIVE_CROSS_VALUE_POOL_NOT_EQUALITY",
+      "reason": "THIS_FOOD and THIS_VEGETABLE are deictic food references with a restriction difference. VEGETABLE expressly allows nominal use identifying the active vegetable. Pool all three conservatively despite predicate/reference and restriction differences. Do not merge the bare CABBAGE constant after resolving C."
+    },
+    {
+      "id": "BP20",
+      "label": "NOT",
+      "forms": [
+        "sshey",
+        "sol",
+        "oltydy",
+        "or"
+      ],
+      "values": [
+        "NOT"
+      ],
+      "kind": "EXPLICIT_EXISTING_SYNONYM_CLASS",
+      "reason": "All four entries explicitly denote ordinary propositional NOT as exact synonyms; occurrence scope is construction-specific."
+    },
+    {
+      "id": "BP21",
+      "label": "SOLID_FOOD",
+      "forms": [
+        "lshedy"
+      ],
+      "values": [
+        "SOLID_FOOD"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Food-category predicate explicitly contrasted with vegetable status in the same source claim."
+    },
+    {
+      "id": "BP22",
+      "label": "AND",
+      "forms": [
+        "qokaiin"
+      ],
+      "values": [
+        "AND"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Binary propositional conjunction, not the food-pair reference or a universal quantifier over a supplied group."
+    },
+    {
+      "id": "BP23",
+      "label": "BODY",
+      "forms": [
+        "keedy"
+      ],
+      "values": [
+        "BODY"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Human recipient body is explicitly not the eye alone or a food body."
+    },
+    {
+      "id": "BP24",
+      "label": "MUCH",
+      "forms": [
+        "sor"
+      ],
+      "values": [
+        "MUCH"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Considerable nourishment amount differs from LITTLE and from the relational strict-comparison MORE."
+    },
+    {
+      "id": "BP25",
+      "label": "THICK_AND_MELANCHOLIC",
+      "forms": [
+        "dedy"
+      ],
+      "values": [
+        "THICK_AND_MELANCHOLIC"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Paid two-property compound, not generic BAD or either latent adjective in isolation."
+    },
+    {
+      "id": "BP26",
+      "label": "GOOD_JUICED",
+      "forms": [
+        "daiin"
+      ],
+      "values": [
+        "GOOD_JUICED"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Whole good-intrinsic-juice predicate, not a generic good value, nourishment or the negation operator."
+    },
+    {
+      "id": "BP27",
+      "label": "BAD",
+      "forms": [
+        "cheedy"
+      ],
+      "values": [
+        "BAD"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Generic bound entity/profile bad-quality predicate, not specific urinary harm, smell, or Boolean negation."
+    },
+    {
+      "id": "BP28",
+      "label": "FOUL_SMELLING",
+      "forms": [
+        "qo"
+      ],
+      "values": [
+        "FOUL_SMELLING"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Smell predicate, not generic BAD or an effect on the body."
+    },
+    {
+      "id": "BP29",
+      "label": "LETTUCE",
+      "forms": [
+        "char",
+        "cheey"
+      ],
+      "values": [
+        "LETTUCE"
+      ],
+      "kind": "EXPLICIT_EXISTING_SYNONYM_CLASS",
+      "reason": "The second entry explicitly preserves the same lettuce food kind."
+    },
+    {
+      "id": "BP30",
+      "label": "CAN_STATE_MANIFEST",
+      "forms": [
+        "shey"
+      ],
+      "values": [
+        "CAN_STATE_MANIFEST"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Reportability capacity includes author, proposition and manifest-result qualification; SPEAK alone lacks those conditions."
+    },
+    {
+      "id": "BP31",
+      "label": "URINARY_BENEFIT",
+      "forms": [
+        "qokedy"
+      ],
+      "values": [
+        "URINARY_BENEFIT"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Manifest beneficial urinary consequence is a whole specific predicate, not generic profile selection or arbitrary good quality."
+    },
+    {
+      "id": "BP32",
+      "label": "URINARY_HARM",
+      "forms": [
+        "qol"
+      ],
+      "values": [
+        "URINARY_HARM"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Manifest harmful urinary consequence differs from the explicitly opposed urinary benefit and generic BAD."
+    },
+    {
+      "id": "BP33",
+      "label": "DESCRIBED_OR_ANAPHORIC_PEDANTS",
+      "forms": [
+        "psheoldy",
+        "dchedy"
+      ],
+      "values": [
+        "PEDANTS_SHAM_LEARNING",
+        "PEDANTS"
+      ],
+      "kind": "CONSERVATIVE_CROSS_VALUE_POOL_NOT_EQUALITY",
+      "reason": "Conservative group-reference safety pool: described human group P versus anaphoric P. Their lexical descriptive/antecedent requirements remain different; the pool is not justified as proven equality merely by their eventual reference to P."
+    },
+    {
+      "id": "BP34",
+      "label": "INSIST_CALL",
+      "forms": [
+        "dkshey"
+      ],
+      "values": [
+        "INSIST_CALL"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Paid composite advocated naming content with group/plant/Name arguments; neither INSIST nor USE_NAME alone preserves the whole."
+    },
+    {
+      "id": "BP35",
+      "label": "RHAPHANOS",
+      "forms": [
+        "ror"
+      ],
+      "values": [
+        "RHAPHANOS"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Name constant t, not the active-antecedent SAME_NAME operation or the plant to which a group applies that name."
+    },
+    {
+      "id": "BP36",
+      "label": "AS_IF",
+      "forms": [
+        "[o:a]por"
+      ],
+      "values": [
+        "AS_IF"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Nonfactual rhetorical comparison, not factual cause, ordinary negation, or customary practice."
+    },
+    {
+      "id": "BP37",
+      "label": "SPEAK",
+      "forms": [
+        "olpo{ikh}y"
+      ],
+      "values": [
+        "SPEAK"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Speaking relation does not include reportability, advocacy, or the specific three-place naming content of USE_NAME."
+    },
+    {
+      "id": "BP38",
+      "label": "CURRENT_GREEKS",
+      "forms": [
+        "ysheeyqorar",
+        "y"
+      ],
+      "values": [
+        "CURRENT_GREEKS"
+      ],
+      "kind": "EXPLICIT_EXISTING_SYNONYM_CLASS",
+      "reason": "Both entries explicitly preserve the same source-present community G at tau0."
+    },
+    {
+      "id": "BP39",
+      "label": "ATHENIANS",
+      "forms": [
+        "okaiin"
+      ],
+      "values": [
+        "ATHENIANS"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Time-indexed A(t), not source-present Greek community G; overlap of persons would not identify the full values."
+    },
+    {
+      "id": "BP40",
+      "label": "SIX_HUNDRED_YEARS_AGO",
+      "forms": [
+        "tar"
+      ],
+      "values": [
+        "SIX_HUNDRED_YEARS_AGO"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Fixed source-relative interval/deictic modifier, not a group referent or unspecific time reference."
+    },
+    {
+      "id": "BP41",
+      "label": "ALL",
+      "forms": [
+        "kain"
+      ],
+      "values": [
+        "ALL"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Universal claim over a supplied group and predicate, not a two-place conjunction or a pair referent."
+    },
+    {
+      "id": "BP42",
+      "label": "SAME_NAME",
+      "forms": [
+        "okal"
+      ],
+      "values": [
+        "SAME_NAME"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Requires an active Name antecedent; do not replace this full operation by its evaluated RHAPHANOS result."
+    },
+    {
+      "id": "BP43",
+      "label": "CUSTOMARILY",
+      "forms": [
+        "rchey"
+      ],
+      "values": [
+        "CUSTOMARILY"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Customary practice claim is not the explicitly contrasted advocated practice of INSIST or bare USE_NAME content."
+    },
+    {
+      "id": "BP44",
+      "label": "USE_NAME",
+      "forms": [
+        "qokal"
+      ],
+      "values": [
+        "USE_NAME"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Structured name-use content; actuality and advocacy are supplied outside it. Distinct from INSIST_CALL and generic SPEAK."
+    },
+    {
+      "id": "BP45",
+      "label": "OTHER_PLANT",
+      "forms": [
+        "olor"
+      ],
+      "values": [
+        "OTHER_PLANT"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Contextual R distinct from C, not a chosen named constant or a food/vegetable deixis; edibility is unasserted."
+    },
+    {
+      "id": "BP46",
+      "label": "INSIST",
+      "forms": [
+        "otam"
+      ],
+      "values": [
+        "INSIST"
+      ],
+      "kind": "SINGLE_VALUE_CLASS_RETAINED",
+      "reason": "Advocatory operator on a proposition, not actual customary usage or the composite INSIST_CALL."
+    }
+  ],
+  "B_value_class_audit": [
+    {
+      "value": "DRY_SIMILARLY",
+      "forms": [
+        "qoeedy"
+      ],
+      "pool_id": "BP01",
+      "reason": "The whole includes a two-food drying similarity relation, not merely DRY or generic effect."
+    },
+    {
+      "value": "CAUSES",
+      "forms": [
+        "lchedy"
+      ],
+      "pool_id": "BP02",
+      "reason": "Conservative common explanation/cause pool: causal direction, quoted explanandum and reason placement are not formalized as incompatible full operators. This pool does not assert identity or permit altering the entries."
+    },
+    {
+      "value": "DULL",
+      "forms": [
+        "chees"
+      ],
+      "pool_id": "BP03",
+      "reason": "The whole is dulling of the supplied faculty; a generic bad quality or urinary effect has different content."
+    },
+    {
+      "value": "TO",
+      "forms": [
+        "ol"
+      ],
+      "pool_id": "BP04",
+      "reason": "Directed effect/output-recipient relation differs from ownership/profile OF and causal relation; no common denotation is licensed by having two arguments."
+    },
+    {
+      "value": "SIGHT",
+      "forms": [
+        "oiiin"
+      ],
+      "pool_id": "BP05",
+      "reason": "Visual faculty is explicitly distinct from a physical eye and nourishment."
+    },
+    {
+      "value": "UNLESS",
+      "forms": [
+        "chchky"
+      ],
+      "pool_id": "BP06",
+      "reason": "Guarded exception qualifies a claim; it is not unary NOT, copular application, or assertion of the opposite result."
+    },
+    {
+      "value": "WHOLE_EYE",
+      "forms": [
+        "shekeey"
+      ],
+      "pool_id": "BP07",
+      "reason": "Whole physical eye referent differs from visual faculty and human body; its whole-object scope is retained."
+    },
+    {
+      "value": "UNNATURALLY",
+      "forms": [
+        "qokey"
+      ],
+      "pool_id": "BP08",
+      "reason": "Modifier of abnormal attribution is not generic BAD, MOIST or an opposite-nature operator."
+    },
+    {
+      "value": "IS",
+      "forms": [
+        "qoky",
+        "r"
+      ],
+      "pool_id": "BP09",
+      "reason": "The second copula is explicitly an exact synonym with subject supplied by syntax."
+    },
+    {
+      "value": "MOIST",
+      "forms": [
+        "saiin"
+      ],
+      "pool_id": "BP10",
+      "reason": "A moisture attribute; comparison, abnormality and nourishment are separate arguments/values."
+    },
+    {
+      "value": "BOTH_FOODS",
+      "forms": [
+        "sy"
+      ],
+      "pool_id": "BP11",
+      "reason": "Topic food pair, not logical conjunction or either individual named food."
+    },
+    {
+      "value": "EFFECT",
+      "forms": [
+        "chedy"
+      ],
+      "pool_id": "BP12",
+      "reason": "Deliberately broad safety pool. EFFECT explicitly is not identical to NOURISHMENT: one is a generic domain-selected consequence/profile and the other a nourishment profile. Pooling them is an intentional extra relaxation of this necessary capacity condition, not an assertion that their full denotations coincide or that their atoms may change."
+    },
+    {
+      "value": "CABBAGE",
+      "forms": [
+        "shedy"
+      ],
+      "pool_id": "BP13",
+      "reason": "Named food-kind constant remains separate from all deictic/predicate references before application."
+    },
+    {
+      "value": "MORE",
+      "forms": [
+        "qokeedy"
+      ],
+      "pool_id": "BP14",
+      "reason": "Strict comparison differs from bare MANY/MUCH amount, second-comparator completion, and general relation."
+    },
+    {
+      "value": "THAN",
+      "forms": [
+        "lol"
+      ],
+      "pool_id": "BP15",
+      "reason": "Comparison completion with a comparator is not the full strict-comparison operator."
+    },
+    {
+      "value": "NOURISHMENT",
+      "forms": [
+        "saiiin",
+        "san"
+      ],
+      "pool_id": "BP12",
+      "reason": "Deliberately broad safety pool. EFFECT explicitly is not identical to NOURISHMENT: one is a generic domain-selected consequence/profile and the other a nourishment profile. Pooling them is an intentional extra relaxation of this necessary capacity condition, not an assertion that their full denotations coincide or that their atoms may change."
+    },
+    {
+      "value": "LENTIL",
+      "forms": [
+        "qokain",
+        "okedy"
+      ],
+      "pool_id": "BP16",
+      "reason": "Both entries explicitly denote the same lentil/lentil-soup food kind."
+    },
+    {
+      "value": "OF",
+      "forms": [
+        "chey"
+      ],
+      "pool_id": "BP17",
+      "reason": "Dependent profile/food ownership relation; directed recipient TO is a different semantic role."
+    },
+    {
+      "value": "LITTLE",
+      "forms": [
+        "al"
+      ],
+      "pool_id": "BP18",
+      "reason": "Low nourishment amount contrasts with MUCH; no numerical thresholds or new identification are added."
+    },
+    {
+      "value": "VEGETABLE",
+      "forms": [
+        "aiin"
+      ],
+      "pool_id": "BP19",
+      "reason": "THIS_FOOD and THIS_VEGETABLE are deictic food references with a restriction difference. VEGETABLE expressly allows nominal use identifying the active vegetable. Pool all three conservatively despite predicate/reference and restriction differences. Do not merge the bare CABBAGE constant after resolving C."
+    },
+    {
+      "value": "BECAUSE",
+      "forms": [
+        "dl"
+      ],
+      "pool_id": "BP02",
+      "reason": "Conservative common explanation/cause pool: causal direction, quoted explanandum and reason placement are not formalized as incompatible full operators. This pool does not assert identity or permit altering the entries."
+    },
+    {
+      "value": "NOT",
+      "forms": [
+        "sshey",
+        "sol",
+        "oltydy",
+        "or"
+      ],
+      "pool_id": "BP20",
+      "reason": "All four entries explicitly denote ordinary propositional NOT as exact synonyms; occurrence scope is construction-specific."
+    },
+    {
+      "value": "SOLID_FOOD",
+      "forms": [
+        "lshedy"
+      ],
+      "pool_id": "BP21",
+      "reason": "Food-category predicate explicitly contrasted with vegetable status in the same source claim."
+    },
+    {
+      "value": "AND",
+      "forms": [
+        "qokaiin"
+      ],
+      "pool_id": "BP22",
+      "reason": "Binary propositional conjunction, not the food-pair reference or a universal quantifier over a supplied group."
+    },
+    {
+      "value": "BODY",
+      "forms": [
+        "keedy"
+      ],
+      "pool_id": "BP23",
+      "reason": "Human recipient body is explicitly not the eye alone or a food body."
+    },
+    {
+      "value": "MUCH",
+      "forms": [
+        "sor"
+      ],
+      "pool_id": "BP24",
+      "reason": "Considerable nourishment amount differs from LITTLE and from the relational strict-comparison MORE."
+    },
+    {
+      "value": "THICK_AND_MELANCHOLIC",
+      "forms": [
+        "dedy"
+      ],
+      "pool_id": "BP25",
+      "reason": "Paid two-property compound, not generic BAD or either latent adjective in isolation."
+    },
+    {
+      "value": "GOOD_JUICED",
+      "forms": [
+        "daiin"
+      ],
+      "pool_id": "BP26",
+      "reason": "Whole good-intrinsic-juice predicate, not a generic good value, nourishment or the negation operator."
+    },
+    {
+      "value": "BAD",
+      "forms": [
+        "cheedy"
+      ],
+      "pool_id": "BP27",
+      "reason": "Generic bound entity/profile bad-quality predicate, not specific urinary harm, smell, or Boolean negation."
+    },
+    {
+      "value": "FOUL_SMELLING",
+      "forms": [
+        "qo"
+      ],
+      "pool_id": "BP28",
+      "reason": "Smell predicate, not generic BAD or an effect on the body."
+    },
+    {
+      "value": "LETTUCE",
+      "forms": [
+        "char",
+        "cheey"
+      ],
+      "pool_id": "BP29",
+      "reason": "The second entry explicitly preserves the same lettuce food kind."
+    },
+    {
+      "value": "CAN_STATE_MANIFEST",
+      "forms": [
+        "shey"
+      ],
+      "pool_id": "BP30",
+      "reason": "Reportability capacity includes author, proposition and manifest-result qualification; SPEAK alone lacks those conditions."
+    },
+    {
+      "value": "URINARY_BENEFIT",
+      "forms": [
+        "qokedy"
+      ],
+      "pool_id": "BP31",
+      "reason": "Manifest beneficial urinary consequence is a whole specific predicate, not generic profile selection or arbitrary good quality."
+    },
+    {
+      "value": "URINARY_HARM",
+      "forms": [
+        "qol"
+      ],
+      "pool_id": "BP32",
+      "reason": "Manifest harmful urinary consequence differs from the explicitly opposed urinary benefit and generic BAD."
+    },
+    {
+      "value": "PEDANTS_SHAM_LEARNING",
+      "forms": [
+        "psheoldy"
+      ],
+      "pool_id": "BP33",
+      "reason": "Conservative group-reference safety pool: described human group P versus anaphoric P. Their lexical descriptive/antecedent requirements remain different; the pool is not justified as proven equality merely by their eventual reference to P."
+    },
+    {
+      "value": "INSIST_CALL",
+      "forms": [
+        "dkshey"
+      ],
+      "pool_id": "BP34",
+      "reason": "Paid composite advocated naming content with group/plant/Name arguments; neither INSIST nor USE_NAME alone preserves the whole."
+    },
+    {
+      "value": "THIS_VEGETABLE",
+      "forms": [
+        "qokopy"
+      ],
+      "pool_id": "BP19",
+      "reason": "THIS_FOOD and THIS_VEGETABLE are deictic food references with a restriction difference. VEGETABLE expressly allows nominal use identifying the active vegetable. Pool all three conservatively despite predicate/reference and restriction differences. Do not merge the bare CABBAGE constant after resolving C."
+    },
+    {
+      "value": "RHAPHANOS",
+      "forms": [
+        "ror"
+      ],
+      "pool_id": "BP35",
+      "reason": "Name constant t, not the active-antecedent SAME_NAME operation or the plant to which a group applies that name."
+    },
+    {
+      "value": "AS_IF",
+      "forms": [
+        "[o:a]por"
+      ],
+      "pool_id": "BP36",
+      "reason": "Nonfactual rhetorical comparison, not factual cause, ordinary negation, or customary practice."
+    },
+    {
+      "value": "SPEAK",
+      "forms": [
+        "olpo{ikh}y"
+      ],
+      "pool_id": "BP37",
+      "reason": "Speaking relation does not include reportability, advocacy, or the specific three-place naming content of USE_NAME."
+    },
+    {
+      "value": "CURRENT_GREEKS",
+      "forms": [
+        "ysheeyqorar",
+        "y"
+      ],
+      "pool_id": "BP38",
+      "reason": "Both entries explicitly preserve the same source-present community G at tau0."
+    },
+    {
+      "value": "ATHENIANS",
+      "forms": [
+        "okaiin"
+      ],
+      "pool_id": "BP39",
+      "reason": "Time-indexed A(t), not source-present Greek community G; overlap of persons would not identify the full values."
+    },
+    {
+      "value": "SIX_HUNDRED_YEARS_AGO",
+      "forms": [
+        "tar"
+      ],
+      "pool_id": "BP40",
+      "reason": "Fixed source-relative interval/deictic modifier, not a group referent or unspecific time reference."
+    },
+    {
+      "value": "ALL",
+      "forms": [
+        "kain"
+      ],
+      "pool_id": "BP41",
+      "reason": "Universal claim over a supplied group and predicate, not a two-place conjunction or a pair referent."
+    },
+    {
+      "value": "SAME_NAME",
+      "forms": [
+        "okal"
+      ],
+      "pool_id": "BP42",
+      "reason": "Requires an active Name antecedent; do not replace this full operation by its evaluated RHAPHANOS result."
+    },
+    {
+      "value": "CUSTOMARILY",
+      "forms": [
+        "rchey"
+      ],
+      "pool_id": "BP43",
+      "reason": "Customary practice claim is not the explicitly contrasted advocated practice of INSIST or bare USE_NAME content."
+    },
+    {
+      "value": "USE_NAME",
+      "forms": [
+        "qokal"
+      ],
+      "pool_id": "BP44",
+      "reason": "Structured name-use content; actuality and advocacy are supplied outside it. Distinct from INSIST_CALL and generic SPEAK."
+    },
+    {
+      "value": "OTHER_PLANT",
+      "forms": [
+        "olor"
+      ],
+      "pool_id": "BP45",
+      "reason": "Contextual R distinct from C, not a chosen named constant or a food/vegetable deixis; edibility is unasserted."
+    },
+    {
+      "value": "INSIST",
+      "forms": [
+        "otam"
+      ],
+      "pool_id": "BP46",
+      "reason": "Advocatory operator on a proposition, not actual customary usage or the composite INSIST_CALL."
+    },
+    {
+      "value": "PEDANTS",
+      "forms": [
+        "dchedy"
+      ],
+      "pool_id": "BP33",
+      "reason": "Conservative group-reference safety pool: described human group P versus anaphoric P. Their lexical descriptive/antecedent requirements remain different; the pool is not justified as proven equality merely by their eventual reference to P."
+    },
+    {
+      "value": "THIS_FOOD",
+      "forms": [
+        "dal"
+      ],
+      "pool_id": "BP19",
+      "reason": "THIS_FOOD and THIS_VEGETABLE are deictic food references with a restriction difference. VEGETABLE expressly allows nominal use identifying the active vegetable. Pool all three conservatively despite predicate/reference and restriction differences. Do not merge the bare CABBAGE constant after resolving C."
+    }
+  ],
+  "important_nonmerges": [
+    {
+      "values": [
+        "CABBAGE",
+        "THIS_FOOD",
+        "THIS_VEGETABLE",
+        "VEGETABLE"
+      ],
+      "reason": "The latter three are conservatively pooled with each other, but the named cabbage constant is not substituted for a deictic or nominal-predicate operation before reference resolution."
+    },
+    {
+      "values": [
+        "RHAPHANOS",
+        "SAME_NAME"
+      ],
+      "reason": "Name t and a function requiring an active Name antecedent remain distinct. No evidence of full lexical identity beyond the evaluated same referent."
+    },
+    {
+      "values": [
+        "BOTH_FOODS",
+        "AND"
+      ],
+      "reason": "Pair reference versus proposition conjunction; no type lifting or component extraction."
+    },
+    {
+      "values": [
+        "INSIST_CALL",
+        "INSIST",
+        "USE_NAME"
+      ],
+      "reason": "The whole macro includes advocacy plus structured naming; the two simple entries compose it but are not individually the same full denotation."
+    },
+    {
+      "values": [
+        "LITTLE",
+        "MUCH",
+        "MORE",
+        "THAN"
+      ],
+      "reason": "Low amount, considerable amount, strict comparison, and comparison completion are different complete functions/properties."
+    },
+    {
+      "values": [
+        "EFFECT",
+        "NOURISHMENT",
+        "URINARY_BENEFIT",
+        "URINARY_HARM"
+      ],
+      "reason": "The first two receive a deliberate additional safety pool. The urinary compounds add named domain and valence/manifest-result content and remain separate. The safety pool is not an asserted general equality of all consequences."
+    },
+    {
+      "values": [
+        "PEDANTS_SHAM_LEARNING",
+        "PEDANTS"
+      ],
+      "reason": "These are conservatively pooled, despite description/antecedent differences. This is not a general rule merging constants and anaphors after resolution."
+    }
+  ],
+  "execution_receipt": {
+    "target_counts_computed": false,
+    "A_neighbor_capacity_computed": false,
+    "B_position_capacity_computed": false,
+    "target_or_image_access": false,
+    "shared_registry_modified": false
+  }
+}
