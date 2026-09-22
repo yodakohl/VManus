@@ -1,0 +1,99 @@
+{
+  "status": "NO_CAPACITY",
+  "reason": "The exact selected target exceeds the new whole-value cap before semantic construction.",
+  "target_positions": 64,
+  "parent_positions": 37,
+  "continuation_positions": 27,
+  "cap_new_whole_values": 14,
+  "readers": {
+    "ZL3b": {
+      "groups": 27,
+      "types": 24,
+      "inherited_exact_forms": [
+        "aiin",
+        "chedy"
+      ],
+      "inherited_exact_count": 2,
+      "new_exact_count": 22,
+      "new_exact_forms": [
+        "[s:r]",
+        "checkhey",
+        "checthy",
+        "cheda",
+        "cheod",
+        "cheol",
+        "chep[o:a]s",
+        "daiir",
+        "dal",
+        "ldy",
+        "okeol",
+        "qokedy",
+        "qokeody",
+        "qotedy",
+        "saiin",
+        "shcthey",
+        "shedy",
+        "sheeo",
+        "sheol",
+        "tshokeody",
+        "ykeedar",
+        "ykeedy"
+      ]
+    },
+    "IT2a": {
+      "groups": 27,
+      "types": 23,
+      "inherited_exact_forms": [
+        "aiin",
+        "chedy",
+        "r"
+      ],
+      "inherited_exact_count": 3,
+      "new_exact_count": 20,
+      "new_exact_forms": [
+        "checkhey",
+        "checthy",
+        "cheod",
+        "cheol",
+        "chepar",
+        "daiir",
+        "dal",
+        "ldy",
+        "okeol",
+        "qokedy",
+        "qokeody",
+        "qotedy",
+        "saiin",
+        "shcthey",
+        "shedy",
+        "sheeo",
+        "sheol",
+        "tshokeody",
+        "ykeedar",
+        "ykeedy"
+      ]
+    }
+  },
+  "gate": {
+    "ZL3b": "FAIL:22 new exact forms >14",
+    "IT2a": "FAIL:20 new exact forms >14"
+  },
+  "action": "Stop without semantic assignment, aliases, packing, fallback paragraph, or cap increase. Preserve exact reader/source inventory and all eight parent candidates.",
+  "capacity_gate_missing": {
+    "required_qokeey_KNOWS": true,
+    "present_by_reader": {
+      "ZL3b": false,
+      "IT2a": false
+    },
+    "required_old_person_or_proposition_forms": [
+      "daiin",
+      "[s:r]air",
+      "chey"
+    ],
+    "present_by_reader_old_term": {
+      "ZL3b": [],
+      "IT2a": []
+    },
+    "conclusion": "Both readers fail the nomination gate independently of the value-cap arithmetic."
+  }
+}
