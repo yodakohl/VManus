@@ -1,0 +1,112 @@
+{
+  "experiment": "GDT1031",
+  "proposal_id": "IDEA000509",
+  "proposal_path": "research_registry/proposals/raw_galen_synonym_recurrence_shortening_20260922.json",
+  "proposal_sha256": "924e12bff809e688365d12ee275d8b4e0a90654e81b4d4e4a8debbca885765b5",
+  "parent": {
+    "id": "IDEA000501",
+    "path": "research_registry/proposals/raw_galen_2445_frozen38_extension_20260921.json",
+    "sha256": "de9c602901a0d893e0d913f0086781a64357982f3c89c9157e160fa8d579a4bb",
+    "json_locations": [
+      "frozen_parent_lexicon",
+      "new_lexicon"
+    ],
+    "entries": 59
+  },
+  "packet": {
+    "id": "GDT928",
+    "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+    "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+    "scope": "Use its already admitted complete paragraph records only. No source TSV, image, reserve, absent RF paragraph, alternative source or newly assembled span may be fetched."
+  },
+  "readers": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "families": [
+    {
+      "value": "IS",
+      "forms_and_raw_lengths": {
+        "qoky": 4,
+        "r": 1
+      },
+      "basis": "r explicitly has the exact copular denotation of qoky."
+    },
+    {
+      "value": "LENTIL",
+      "forms_and_raw_lengths": {
+        "qokain": 6,
+        "okedy": 5
+      },
+      "basis": "okedy explicitly has the same food-kind L denotation as qokain."
+    },
+    {
+      "value": "NOURISHMENT",
+      "forms_and_raw_lengths": {
+        "saiiin": 6,
+        "san": 3
+      },
+      "basis": "san explicitly has the same food-kind-to-nourishment-profile denotation as saiiin."
+    },
+    {
+      "value": "NOT",
+      "forms_and_raw_lengths": {
+        "sshey": 5,
+        "sol": 3,
+        "oltydy": 6,
+        "or": 2
+      },
+      "basis": "All four explicitly share propositional negation before argument application. The propositions negated may differ; the rule tracks lexical-denotation recurrence, not repeated propositions."
+    },
+    {
+      "value": "LETTUCE",
+      "forms_and_raw_lengths": {
+        "char": 4,
+        "cheey": 5
+      },
+      "basis": "Both explicitly denote the same food-kind T."
+    },
+    {
+      "value": "CURRENT_GREEKS",
+      "forms_and_raw_lengths": {
+        "ysheeyqorar": 11,
+        "y": 1
+      },
+      "basis": "y explicitly denotes the same source-present community G at tau0 as ysheeyqorar."
+    }
+  ],
+  "exclude_leaves": [
+    76,
+    80
+  ],
+  "forbidden_prefix": "f84",
+  "forbidden_exact": [
+    "f116v"
+  ],
+  "whole_literal_only": true,
+  "beta": "ln(3)",
+  "null_worlds": 4095,
+  "seed": 2026092201,
+  "dp_state_cap": 100000,
+  "capacity": {
+    "blocks": 20,
+    "positions": 40,
+    "leaves": 5,
+    "families": 3,
+    "family_blocks": 4,
+    "family_leaves": 3
+  },
+  "support": {
+    "tail_upper": 0.05,
+    "positive_leaf_fraction": 0.6,
+    "positive_powered_families": 3
+  },
+  "tail_tolerance": 1e-12,
+  "budget_started_utc": "2026-09-22T09:59:12Z",
+  "budget_deadline_utc": "2026-09-22T10:34:12Z",
+  "scoring_readers": "Only readers meeting every capacity gate; failed readers retain full census and are not scored; RF empty is explicit missing data. RNG traverses capacity-passing readers in listed order and their mobile blocks in sorted order each world. No score if none passes.",
+  "block_order": "paragraph_id, family array index, edge class lexicographically, prev_dy bool, current_dy bool",
+  "uncertainty": "all lines anchor_eligible exactly true; otherwise entire paragraph source uncertain, no payload-derived ranks or scores",
+  "claim_ceiling": "Conditional fixed spelling model only; no independent meaning, anaphora, source identification, significance of whole search, or reserve confirmation."
+}

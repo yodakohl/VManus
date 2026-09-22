@@ -1,0 +1,97 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional fixed spelling model only; no independent meaning, anaphora, source identification, significance of whole search, or reserve confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1031_synonym_recurrence_shortening/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1031_synonym_recurrence_shortening/src/validate.py"
+  },
+  "created": "2026-09-22",
+  "dependencies": [
+    "GDT928",
+    "GDT910",
+    "GDT318",
+    "GDT608"
+  ],
+  "experiment_id": "GDT1031",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/raw_galen_synonym_recurrence_shortening_20260922.json",
+      "role": "fixed_existing_input",
+      "sha256": "924e12bff809e688365d12ee275d8b4e0a90654e81b4d4e4a8debbca885765b5"
+    },
+    {
+      "path": "research_registry/proposals/raw_galen_2445_frozen38_extension_20260921.json",
+      "role": "fixed_existing_input",
+      "sha256": "de9c602901a0d893e0d913f0086781a64357982f3c89c9157e160fa8d579a4bb"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "fixed_existing_input",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/METHOD.md",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "0af4e2f8c89c85a9aa44be4a4c308053868d1d8370eafdfb6b7148a478264a98"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/PREREGISTRATION.md",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "a67f3ce13a63b7cb31db12eabb60f3efef4b8915e04173a708036d21a8809d11"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/PREREG_LOCK.json",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "3e1d87ccf6d132d441677e7360546391d6bb12be9f84381832b2a9ad32e91c32"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/README.md",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "da9813cbf8d60cf9650b347c03f3ec4cb5e7d4775b1403b708f1b1f89446ffe4"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/PREFLIGHT.json",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "803a3111cf4baf3ebba078af3ef9cc8067c8eecef2697fc9cd49b986e57113a0"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/README.md",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/src/SPEC.json",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "0e1d9dc9024a7bf175759a15017c8ebab1543a0be8480ce2c1915981e5a49d79"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/src/run.py",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "92d082ee454e64c852af6b2619d20b384c4e985cac93e46118ccbd640abdf38f"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/src/validate.py",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "bf1967ecbd788c8c072c46daac97305baab9f3a01b700e3506e8af1418ab5361"
+    }
+  ],
+  "question": "Do six frozen guessed Galen synonym families favor shorter later occurrences on other whole physical leaves after fixed layout/dy conditioning?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "synonym_recurrence_shortening",
+  "status": "REGISTERED_UNSCORED",
+  "title": "synonym recurrence shortening",
+  "updated": "2026-09-22",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
