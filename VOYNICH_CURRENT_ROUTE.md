@@ -5,11 +5,11 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Four-hour content research; 2026-09-22 16:21:07–20:21:07UTC minimum.
-Latest decision: Select477 as GDT1039: whole reference-policy interaction;60 guesses stay unconfirmed.
-Working files: experiments/yolo/gdt1039_hour_day_reference_composition/DECISION.md
-Assumptions: Seven dynamic selections only; supplied globals/types; normalized source;0words.
-Resume: Publish frozen six-policy contract/code, execute full357-pair replay, independently validate.
-Running: Root registration; independent runner/validator; bounded idea producer. No final before20:21:07UTC.
+Latest decision: GDT1039 conditional seven-reference factoring; joint rival erases both comparisons;0words.
+Working files: experiments/yolo/gdt1039_hour_day_reference_composition/REPORT.md
+Assumptions: All60 values/global bindings remain guesses; no new source or reserve; whole extensions only.
+Resume: Review whole f82r P1 as fixed60-value extension;28/72 known positions,42newforms still debt.
+Running: Root publication then next content draft; bounded producer. No final before20:21:07UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

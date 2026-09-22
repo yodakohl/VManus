@@ -1,0 +1,3687 @@
+{
+  "DEFERRED_CONSUMING": {
+    "policy": "DEFERRED_CONSUMING",
+    "stop": null,
+    "fetches": [
+      {
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "eligible": [
+          "U"
+        ],
+        "registry_before": [
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F3",
+        "required_type": "HOUR_UNIT",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "FETCHED",
+        "used_before": [
+          "D"
+        ],
+        "used_after": [
+          "D",
+          "U"
+        ]
+      },
+      {
+        "eligible": [
+          "N"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 13
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 11
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F4",
+        "required_type": "DAY_COUNT",
+        "selected": "N",
+        "selected_type": "DAY_COUNT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "N"
+        ]
+      },
+      {
+        "eligible": [
+          "RA"
+        ],
+        "registry_before": [
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F5",
+        "required_type": "RULER_RESULT",
+        "selected": "RA",
+        "selected_type": "RULER_RESULT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "RA"
+        ]
+      },
+      {
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 20
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 19
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F6",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "B"
+        ]
+      },
+      {
+        "eligible": [
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 22
+          },
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 19
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F7",
+        "required_type": "METHOD",
+        "selected": "A",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [
+          "B"
+        ],
+        "used_after": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "event": "E01",
+        "operation": "publish",
+        "record": "D",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E02",
+        "operation": "publish",
+        "record": "H",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E03",
+        "operation": "publish",
+        "record": "U",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E04",
+        "operation": "fetch",
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "event": "E05",
+        "operation": "publish",
+        "record": "R_init",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E06",
+        "operation": "touch",
+        "record": "D",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E07",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E08",
+        "operation": "publish",
+        "record": "R_hour",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E09",
+        "operation": "fetch",
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "event": "E10",
+        "operation": "fetch",
+        "eligible": [
+          "U"
+        ],
+        "registry_before": [
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F3",
+        "required_type": "HOUR_UNIT",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "FETCHED",
+        "used_before": [
+          "D"
+        ],
+        "used_after": [
+          "D",
+          "U"
+        ]
+      },
+      {
+        "event": "E11",
+        "operation": "publish",
+        "record": "N",
+        "status": "PUBLISHED",
+        "used": [
+          "D",
+          "U"
+        ]
+      },
+      {
+        "event": "E12",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E13",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E14",
+        "operation": "fetch",
+        "eligible": [
+          "N"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 13
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 11
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F4",
+        "required_type": "DAY_COUNT",
+        "selected": "N",
+        "selected_type": "DAY_COUNT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "N"
+        ]
+      },
+      {
+        "event": "E15",
+        "operation": "touch",
+        "record": "D",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E16",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E17",
+        "operation": "publish",
+        "record": "A",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E18",
+        "operation": "publish",
+        "record": "RA",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E19",
+        "operation": "prepare",
+        "record": "B",
+        "status": "PRIVATE"
+      },
+      {
+        "event": "E20",
+        "operation": "prepare",
+        "record": "RB",
+        "status": "PRIVATE"
+      },
+      {
+        "event": "E21",
+        "operation": "fetch",
+        "eligible": [
+          "RA"
+        ],
+        "registry_before": [
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F5",
+        "required_type": "RULER_RESULT",
+        "selected": "RA",
+        "selected_type": "RULER_RESULT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "RA"
+        ]
+      },
+      {
+        "event": "E22",
+        "operation": "publish",
+        "record": "B",
+        "status": "PUBLISHED",
+        "used": [
+          "RA"
+        ]
+      },
+      {
+        "event": "E23",
+        "operation": "publish",
+        "record": "RB",
+        "status": "PUBLISHED",
+        "used": [
+          "RA"
+        ]
+      },
+      {
+        "event": "E24",
+        "operation": "fetch",
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 20
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 19
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F6",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "B"
+        ]
+      },
+      {
+        "event": "E25",
+        "operation": "fetch",
+        "eligible": [
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 22
+          },
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 19
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F7",
+        "required_type": "METHOD",
+        "selected": "A",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [
+          "B"
+        ],
+        "used_after": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "event": "E26",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "selected": {
+      "F1": "D",
+      "F2": "D",
+      "F3": "U",
+      "F4": "N",
+      "F5": "RA",
+      "F6": "B",
+      "F7": "A"
+    },
+    "complete": true
+  },
+  "DEFERRED_NONCONSUMING": {
+    "policy": "DEFERRED_NONCONSUMING",
+    "stop": null,
+    "fetches": [
+      {
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "U"
+        ],
+        "registry_before": [
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F3",
+        "required_type": "HOUR_UNIT",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "N"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 13
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 11
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F4",
+        "required_type": "DAY_COUNT",
+        "selected": "N",
+        "selected_type": "DAY_COUNT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "RA"
+        ],
+        "registry_before": [
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F5",
+        "required_type": "RULER_RESULT",
+        "selected": "RA",
+        "selected_type": "RULER_RESULT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 20
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 19
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F6",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 22
+          },
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 19
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F7",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      }
+    ],
+    "events": [
+      {
+        "event": "E01",
+        "operation": "publish",
+        "record": "D",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E02",
+        "operation": "publish",
+        "record": "H",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E03",
+        "operation": "publish",
+        "record": "U",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E04",
+        "operation": "fetch",
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E05",
+        "operation": "publish",
+        "record": "R_init",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E06",
+        "operation": "touch",
+        "record": "D",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E07",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E08",
+        "operation": "publish",
+        "record": "R_hour",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E09",
+        "operation": "fetch",
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E10",
+        "operation": "fetch",
+        "eligible": [
+          "U"
+        ],
+        "registry_before": [
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F3",
+        "required_type": "HOUR_UNIT",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E11",
+        "operation": "publish",
+        "record": "N",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E12",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E13",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E14",
+        "operation": "fetch",
+        "eligible": [
+          "N"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 13
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 11
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F4",
+        "required_type": "DAY_COUNT",
+        "selected": "N",
+        "selected_type": "DAY_COUNT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E15",
+        "operation": "touch",
+        "record": "D",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E16",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E17",
+        "operation": "publish",
+        "record": "A",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E18",
+        "operation": "publish",
+        "record": "RA",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E19",
+        "operation": "prepare",
+        "record": "B",
+        "status": "PRIVATE"
+      },
+      {
+        "event": "E20",
+        "operation": "prepare",
+        "record": "RB",
+        "status": "PRIVATE"
+      },
+      {
+        "event": "E21",
+        "operation": "fetch",
+        "eligible": [
+          "RA"
+        ],
+        "registry_before": [
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F5",
+        "required_type": "RULER_RESULT",
+        "selected": "RA",
+        "selected_type": "RULER_RESULT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E22",
+        "operation": "publish",
+        "record": "B",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E23",
+        "operation": "publish",
+        "record": "RB",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E24",
+        "operation": "fetch",
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 20
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 19
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F6",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E25",
+        "operation": "fetch",
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 22
+          },
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 19
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F7",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E26",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      }
+    ],
+    "selected": {
+      "F1": "D",
+      "F2": "D",
+      "F3": "U",
+      "F4": "N",
+      "F5": "RA",
+      "F6": "B",
+      "F7": "B"
+    },
+    "complete": true
+  },
+  "EAGER_CONSUMING": {
+    "policy": "EAGER_CONSUMING",
+    "stop": null,
+    "fetches": [
+      {
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "eligible": [
+          "U"
+        ],
+        "registry_before": [
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F3",
+        "required_type": "HOUR_UNIT",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "FETCHED",
+        "used_before": [
+          "D"
+        ],
+        "used_after": [
+          "D",
+          "U"
+        ]
+      },
+      {
+        "eligible": [
+          "N"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 13
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 11
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F4",
+        "required_type": "DAY_COUNT",
+        "selected": "N",
+        "selected_type": "DAY_COUNT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "N"
+        ]
+      },
+      {
+        "eligible": [
+          "RB",
+          "RA"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 20
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 19
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F5",
+        "required_type": "RULER_RESULT",
+        "selected": "RB",
+        "selected_type": "RULER_RESULT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "RB"
+        ]
+      },
+      {
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 19
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F6",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "B"
+        ]
+      },
+      {
+        "eligible": [
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 22
+          },
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F7",
+        "required_type": "METHOD",
+        "selected": "A",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [
+          "B"
+        ],
+        "used_after": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "event": "E01",
+        "operation": "publish",
+        "record": "D",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E02",
+        "operation": "publish",
+        "record": "H",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E03",
+        "operation": "publish",
+        "record": "U",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E04",
+        "operation": "fetch",
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "event": "E05",
+        "operation": "publish",
+        "record": "R_init",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E06",
+        "operation": "touch",
+        "record": "D",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E07",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E08",
+        "operation": "publish",
+        "record": "R_hour",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E09",
+        "operation": "fetch",
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "event": "E10",
+        "operation": "fetch",
+        "eligible": [
+          "U"
+        ],
+        "registry_before": [
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F3",
+        "required_type": "HOUR_UNIT",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "FETCHED",
+        "used_before": [
+          "D"
+        ],
+        "used_after": [
+          "D",
+          "U"
+        ]
+      },
+      {
+        "event": "E11",
+        "operation": "publish",
+        "record": "N",
+        "status": "PUBLISHED",
+        "used": [
+          "D",
+          "U"
+        ]
+      },
+      {
+        "event": "E12",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E13",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E14",
+        "operation": "fetch",
+        "eligible": [
+          "N"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 13
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 11
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F4",
+        "required_type": "DAY_COUNT",
+        "selected": "N",
+        "selected_type": "DAY_COUNT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "N"
+        ]
+      },
+      {
+        "event": "E15",
+        "operation": "touch",
+        "record": "D",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E16",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E17",
+        "operation": "publish",
+        "record": "A",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E18",
+        "operation": "publish",
+        "record": "RA",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E19",
+        "operation": "prepare",
+        "record": "B",
+        "status": "PRIVATE"
+      },
+      {
+        "event": "E20",
+        "operation": "prepare",
+        "record": "RB",
+        "status": "PRIVATE"
+      },
+      {
+        "event": "E21",
+        "operation": "publish",
+        "record": "B",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E21",
+        "operation": "publish",
+        "record": "RB",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E21",
+        "operation": "fetch",
+        "eligible": [
+          "RB",
+          "RA"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 20
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 19
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F5",
+        "required_type": "RULER_RESULT",
+        "selected": "RB",
+        "selected_type": "RULER_RESULT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "RB"
+        ]
+      },
+      {
+        "event": "E22",
+        "operation": "publish_deferred",
+        "status": "NOT_APPLICABLE"
+      },
+      {
+        "event": "E23",
+        "operation": "publish_deferred",
+        "status": "NOT_APPLICABLE"
+      },
+      {
+        "event": "E24",
+        "operation": "fetch",
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 19
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F6",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "B"
+        ]
+      },
+      {
+        "event": "E25",
+        "operation": "fetch",
+        "eligible": [
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 22
+          },
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F7",
+        "required_type": "METHOD",
+        "selected": "A",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [
+          "B"
+        ],
+        "used_after": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "event": "E26",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "selected": {
+      "F1": "D",
+      "F2": "D",
+      "F3": "U",
+      "F4": "N",
+      "F5": "RB",
+      "F6": "B",
+      "F7": "A"
+    },
+    "complete": true
+  },
+  "EAGER_NONCONSUMING": {
+    "policy": "EAGER_NONCONSUMING",
+    "stop": null,
+    "fetches": [
+      {
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "U"
+        ],
+        "registry_before": [
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F3",
+        "required_type": "HOUR_UNIT",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "N"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 13
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 11
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F4",
+        "required_type": "DAY_COUNT",
+        "selected": "N",
+        "selected_type": "DAY_COUNT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "RB",
+          "RA"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 20
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 19
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F5",
+        "required_type": "RULER_RESULT",
+        "selected": "RB",
+        "selected_type": "RULER_RESULT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 19
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F6",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 22
+          },
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F7",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      }
+    ],
+    "events": [
+      {
+        "event": "E01",
+        "operation": "publish",
+        "record": "D",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E02",
+        "operation": "publish",
+        "record": "H",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E03",
+        "operation": "publish",
+        "record": "U",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E04",
+        "operation": "fetch",
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E05",
+        "operation": "publish",
+        "record": "R_init",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E06",
+        "operation": "touch",
+        "record": "D",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E07",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E08",
+        "operation": "publish",
+        "record": "R_hour",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E09",
+        "operation": "fetch",
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E10",
+        "operation": "fetch",
+        "eligible": [
+          "U"
+        ],
+        "registry_before": [
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F3",
+        "required_type": "HOUR_UNIT",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E11",
+        "operation": "publish",
+        "record": "N",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E12",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E13",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E14",
+        "operation": "fetch",
+        "eligible": [
+          "N"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 13
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 11
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 9
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F4",
+        "required_type": "DAY_COUNT",
+        "selected": "N",
+        "selected_type": "DAY_COUNT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E15",
+        "operation": "touch",
+        "record": "D",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E16",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      },
+      {
+        "event": "E17",
+        "operation": "publish",
+        "record": "A",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E18",
+        "operation": "publish",
+        "record": "RA",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E19",
+        "operation": "prepare",
+        "record": "B",
+        "status": "PRIVATE"
+      },
+      {
+        "event": "E20",
+        "operation": "prepare",
+        "record": "RB",
+        "status": "PRIVATE"
+      },
+      {
+        "event": "E21",
+        "operation": "publish",
+        "record": "B",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E21",
+        "operation": "publish",
+        "record": "RB",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E21",
+        "operation": "fetch",
+        "eligible": [
+          "RB",
+          "RA"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 20
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 19
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F5",
+        "required_type": "RULER_RESULT",
+        "selected": "RB",
+        "selected_type": "RULER_RESULT",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E22",
+        "operation": "publish_deferred",
+        "status": "NOT_APPLICABLE"
+      },
+      {
+        "event": "E23",
+        "operation": "publish_deferred",
+        "status": "NOT_APPLICABLE"
+      },
+      {
+        "event": "E24",
+        "operation": "fetch",
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 19
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F6",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E25",
+        "operation": "fetch",
+        "eligible": [
+          "B",
+          "A"
+        ],
+        "registry_before": [
+          {
+            "id": "B",
+            "type": "METHOD",
+            "recency": 22
+          },
+          {
+            "id": "RB",
+            "type": "RULER_RESULT",
+            "recency": 21
+          },
+          {
+            "id": "RA",
+            "type": "RULER_RESULT",
+            "recency": 18
+          },
+          {
+            "id": "A",
+            "type": "METHOD",
+            "recency": 17
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 16
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 15
+          },
+          {
+            "id": "N",
+            "type": "DAY_COUNT",
+            "recency": 14
+          },
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F7",
+        "required_type": "METHOD",
+        "selected": "B",
+        "selected_type": "METHOD",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E26",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": []
+      }
+    ],
+    "selected": {
+      "F1": "D",
+      "F2": "D",
+      "F3": "U",
+      "F4": "N",
+      "F5": "RB",
+      "F6": "B",
+      "F7": "B"
+    },
+    "complete": true
+  },
+  "UNTYPED_RECENT": {
+    "policy": "UNTYPED_RECENT",
+    "stop": "C04",
+    "fetches": [
+      {
+        "eligible": [
+          "U",
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "STOP_WRONG_TYPE",
+        "stop_reason": "TYPE_CONFLICT",
+        "used_before": [],
+        "used_after": []
+      }
+    ],
+    "events": [
+      {
+        "event": "E01",
+        "operation": "publish",
+        "record": "D",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E02",
+        "operation": "publish",
+        "record": "H",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E03",
+        "operation": "publish",
+        "record": "U",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E04",
+        "operation": "fetch",
+        "eligible": [
+          "U",
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "U",
+        "selected_type": "HOUR_UNIT",
+        "status": "STOP_WRONG_TYPE",
+        "stop_reason": "TYPE_CONFLICT",
+        "used_before": [],
+        "used_after": []
+      },
+      {
+        "event": "E05",
+        "operation": "publish",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E06",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E07",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E08",
+        "operation": "publish",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E09",
+        "operation": "fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E10",
+        "operation": "fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E11",
+        "operation": "publish",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E12",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E13",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E14",
+        "operation": "fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E15",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E16",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E17",
+        "operation": "publish",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E18",
+        "operation": "publish",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E19",
+        "operation": "prepare",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E20",
+        "operation": "prepare",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E21",
+        "operation": "publish_eager_or_fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E22",
+        "operation": "publish_deferred",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E23",
+        "operation": "publish_deferred",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E24",
+        "operation": "fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E25",
+        "operation": "fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E26",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      }
+    ],
+    "selected": {},
+    "complete": false
+  },
+  "GLOBAL_CONSUMPTION": {
+    "policy": "GLOBAL_CONSUMPTION",
+    "stop": "C07",
+    "fetches": [
+      {
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "eligible": [],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": null,
+        "status": "STOP_UNBOUND",
+        "stop_reason": "UNBOUND",
+        "used_before": [
+          "D"
+        ],
+        "used_after": [
+          "D"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "event": "E01",
+        "operation": "publish",
+        "record": "D",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E02",
+        "operation": "publish",
+        "record": "H",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E03",
+        "operation": "publish",
+        "record": "U",
+        "status": "PUBLISHED",
+        "used": []
+      },
+      {
+        "event": "E04",
+        "operation": "fetch",
+        "eligible": [
+          "D"
+        ],
+        "registry_before": [
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 3
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 1
+          }
+        ],
+        "fetch": "F1",
+        "required_type": "DAY",
+        "selected": "D",
+        "selected_type": "DAY",
+        "status": "FETCHED",
+        "used_before": [],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "event": "E05",
+        "operation": "publish",
+        "record": "R_init",
+        "status": "PUBLISHED",
+        "used": [
+          "D"
+        ]
+      },
+      {
+        "event": "E06",
+        "operation": "touch",
+        "record": "D",
+        "status": "TOUCHED",
+        "used": [
+          "D"
+        ]
+      },
+      {
+        "event": "E07",
+        "operation": "touch",
+        "record": "U",
+        "status": "TOUCHED",
+        "used": [
+          "D"
+        ]
+      },
+      {
+        "event": "E08",
+        "operation": "publish",
+        "record": "R_hour",
+        "status": "PUBLISHED",
+        "used": [
+          "D"
+        ]
+      },
+      {
+        "event": "E09",
+        "operation": "fetch",
+        "eligible": [],
+        "registry_before": [
+          {
+            "id": "R_hour",
+            "type": "RULER",
+            "recency": 8
+          },
+          {
+            "id": "U",
+            "type": "HOUR_UNIT",
+            "recency": 7
+          },
+          {
+            "id": "D",
+            "type": "DAY",
+            "recency": 6
+          },
+          {
+            "id": "R_init",
+            "type": "RULER",
+            "recency": 5
+          }
+        ],
+        "fetch": "F2",
+        "required_type": "DAY",
+        "selected": null,
+        "status": "STOP_UNBOUND",
+        "stop_reason": "UNBOUND",
+        "used_before": [
+          "D"
+        ],
+        "used_after": [
+          "D"
+        ]
+      },
+      {
+        "event": "E10",
+        "operation": "fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E11",
+        "operation": "publish",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E12",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E13",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E14",
+        "operation": "fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E15",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E16",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E17",
+        "operation": "publish",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E18",
+        "operation": "publish",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E19",
+        "operation": "prepare",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E20",
+        "operation": "prepare",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E21",
+        "operation": "publish_eager_or_fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E22",
+        "operation": "publish_deferred",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E23",
+        "operation": "publish_deferred",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E24",
+        "operation": "fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E25",
+        "operation": "fetch",
+        "status": "SKIPPED_AFTER_STOP"
+      },
+      {
+        "event": "E26",
+        "operation": "touch",
+        "status": "SKIPPED_AFTER_STOP"
+      }
+    ],
+    "selected": {
+      "F1": "D"
+    },
+    "complete": false
+  }
+}
