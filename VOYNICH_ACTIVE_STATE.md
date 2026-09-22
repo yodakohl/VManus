@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+DEV516 q COMPOSITION: all65+15forms/238positions preserved. One shared partition relation plus3new typed lifts yields an exploratory SIEVE obligation on f32v.8 and partition-plus-LIFT_OUT subacts on f32v.9, not exact old whole-value derivation. qotey remains unbound; no65→62 reduction, no new corpus/decoder or meaning. Frozen offer has explicit counterframe correction in [closure](research_registry/decisions/powder_q_partition_closure_20260922.md).
+
+
 GDT1037 FIXED CONTEXT JOIN: all183positions preserve A/B values; line start plus literal preceding dy leaves13colliding cells at11forms, and4cells at4forms even on65literal positions. Close this exact join, retain311/318formal results and each separate hypothetical family; no context-feature repair,0words. [Report](experiments/yolo/gdt1037_galen_fixed_entry_context_join/REPORT.md).
 
 IDEA516 f4r WHOLE EXTENSION: sole GDT1036 target preserved31+31positions with old65+15values/18schemas/V2effects fixed;13new forms. FINALLY/DECANT story lacks complete result, Q, rinse and carrier-water bindings. Listed9costs are NOT a proved >8 lower bound; no universal contradiction. Stop serial patching, retain explicit unfinished whole draft and rivals;0words. [Closure](research_registry/decisions/powder_f4r_whole_extension_closure_20260922.md).

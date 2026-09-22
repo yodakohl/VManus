@@ -3,13 +3,13 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: Five-hour result: complete hypothetical powder pair retained; no confirmed word.
-Latest decision: 1037contextjoin fails; f4r extension incomplete; no further test selected.
-Working files: research_registry/decisions/five_hour_meaning_research_20260922.md
-Assumptions: 65guessed values/56singletons; model coherence and prose are not meaning evidence.
-Resume: Read whole result and retained rivals; require a distinct complete content commitment before new target work.
-Running: None. Five-hour research completed; no unattended work or external contact.
+Status: active
+Task: Review IDEA518 whole atomic/binary lexical packing before any census.
+Latest decision: q adds sieve/subact assumptions but cannot derive all old whole values; qotey open.
+Working files: research_registry/decisions/powder_q_partition_closure_20260922.md
+Assumptions: 0words; q costs explicit; GDT1023/492fixed tag streams are not general grammar.
+Resume: Bind all whole readers and 88values/13patterns; preregister before any packing enumeration.
+Running: Root closure publication; bounded author/source review and idea producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
