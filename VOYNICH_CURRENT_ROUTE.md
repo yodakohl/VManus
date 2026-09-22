@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Review existing complete Galen IV/V pair with frozen shared values before further testing.
-Latest decision: GDT1030 conditional40group graph passed; RAW504 frozen33 continuation incomplete.
-Working files: experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md
-Assumptions: 33clock guesses/20bindings; water motion not calendar automation;0words, no independent meaning.
-Resume: Publish1030/504 review; inspect RAW499/501 whole primaries and retained counterexamples.
-Running: producer source-only alternatives by09:30UTC; root review; resumed active research08:43UTC.
+Task: Review concrete word-building constraints on existing whole-reading hypotheses.
+Latest decision: Galen8/8 local TO/OF endpoints factor; scopes and Q-NAME lexicalization remain free.
+Working files: research_registry/decisions/reading_prediction_capacity_20260922.md
+Assumptions: 59guessed values;88groups exposed;0words; no independent meaning or reserve use.
+Resume: Assess RAW507/508 full contracts; primaries787/929/915/916 read; no new gloss fitting.
+Running: none; bounded agents complete; root closes publication.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

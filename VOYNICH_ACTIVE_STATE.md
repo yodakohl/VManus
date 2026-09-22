@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+RAW499/501 GALEN REVIEW: 55+33groups/59guessed values;38 parent entries literal but8oldtypes/10newpositions only. All8 TO/OF local endpoints factor under an explicit typed persistent-view rule; AS_IF/aside/INSIST scopes remain unbound by that rule. Positive lettuce reportability and naming projections remain added assumptions. Preserve conditional whole drafts; no further simulator or target search on this incomplete grammar. Manual review,0words/independent meaning. [Decision](research_registry/decisions/reading_prediction_capacity_20260922.md), [primary critic](research_registry/decisions/galen_499_501_primary_critic_20260922.md).
+
 GDT1017 SHARED TYPE-HAZARD WORLDS: all20classes312members positive under bidirectional positive-edge union;26of29saved oldmaps fail,37newwitnesses624pairedlifts pass. Independent17SAT3UNKNOWN. All36oldcodes156settings survive;71–75newaliases,12–41THENpositions. New type-stability assumption,0words/meaning;close as nonseparating,no automatic extra edge/alias law. [Report](experiments/yolo/gdt1017_transport_shared_type_hazards/REPORT.md).
 
 GDT1016 UNARY NAME-BLIND WRITER STOP: all36fixed originals fail both joint inventories;72direct checks,52canonical/312member necessary contradictions;0fullworldqueries. ched/chedy or chedy/lchedy selects a named cargo from an invariant descriptor. Both independently replayed;1013/1014positive laws retained. No affix/context repair;0words. [Report](experiments/yolo/gdt1016_transport_name_blind_wrappers/REPORT.md).

@@ -1,0 +1,323 @@
+{
+  "title": "RAW complete Justinian II.1.26: former-owner reference survives accession while thief and maker may differ",
+  "summary": "RAW_UNREVIEWED_SOURCE_ONLY. Concretizes existing395 with the entire purple-accession paragraph. A fixed historical-owner relation carries the original purple owner through accession into two later claims against its thief; an explicit same/other branch allows the thief to differ from the garment maker. Updating title cannot retarget the claimant, and loss of vindication cannot erase condiction. Eight literal obligation blocks retained, including higher-value purple and the unspecified subset of other possessors. No target, word values, test or decoder.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_SOURCE_ONLY_INCOMPLETE_TARGET_BINDING",
+  "created_utc": "2026-09-22T09:06:29.496330+00:00",
+  "proposal_kind": "Bounded content refinement of existing IDEA000395; not a new source/family and not a rewrite of that card.",
+  "design": {
+    "mechanism": "A historical owner-of relation remains bound to the same purple through accession, while current title and distinct remedy/defendant relations are evaluated separately.",
+    "unit": "The entire owned InstitutesII.1.26 paragraph, Si tamen alienam purpuram... through ...quibusdam aliis possessoribus possunt.",
+    "contrast": "Former owner versus overwritten current owner; thief versus necessarily-identical garment maker; condiction surviving versus erased alongside vindication.",
+    "prediction": "Both same-maker and different-thief branches retain the same original-owner claimant and purple reference; changing thief identity changes the defendant, not the accession outcome or claimant.",
+    "scope": "Source-only, unexecuted incomplete Voynich hypothesis; no new legal, historical or manuscript fact."
+  },
+  "source": {
+    "work": "Justinian Institutes II.1.26, complete purple-accession paragraph within ownedII.1.25–28",
+    "text": "Si tamen alienam purpuram quis intexuit suo vestimento, licet pretiosior est purpura, accessionis vice cedit vestimento: et qui dominus fuit purpurae, adversus eum qui subripuit habet furti actionem et condictionem, sive ipse est qui vestimentum fecit, sive alius. nam extinctae res licet vindicari non possint, condici tamen a furibus et a quibusdam aliis possessoribus possunt.",
+    "text_sha256": "314c3ab00cd8c9d8b81502bf23f33b8554c91b4de7eeefc02ef84e8fff327274",
+    "packet": "research_registry/work_batches/ten_hours_20260915/CONTEXTUAL_FULL_CONTENT_RAW_SOURCES_20260920.json",
+    "packet_sha256": "72a93568f698c0b8da628d2cf3967d2ee6d98abcfa20cc96f3e3873436b95d44",
+    "owned_complete_block_sha256": "968851aeb8e770579facea8629680dd5078ada3952da1abad76a6b4ca9756278",
+    "source_id": "JUSTINIAN_II1_25_28",
+    "boundary": "From Si tamen alienam purpuram through possunt. Entire paragraph, including nam explanatory sentence. No cherry-picked claim fragment.",
+    "historical_limit": "Sixth-century Institutes, promulgated533; owned Latin is the public digital transcription, whose print-edition genealogy is not established here. Not a newly inspected medieval witness.",
+    "edition_limit": "Read in the browser primary-text page; direct HTML request was rejected. This hash therefore owns the copied text below, not the inaccessible HTML response. Source spellings utram and dominoram are retained; section boundaries25–28 are conventional edition locators. No current legal advice.",
+    "context_read": "Complete surroundingII.1.25–28 already read. Reducibility, maker contribution and mixture rules remain neighboring cases, not extra rules silently used to decide this paragraph.",
+    "hash_scope_note": "text_sha256 owns only the complete§26paragraph; owned_complete_block_sha256 owns the largerII.1.25–28source. Different hashes are expected, not a source correction."
+  },
+  "full_source_obligations": [
+    {
+      "id": "J01",
+      "literal": "Si tamen alienam purpuram quis intexuit suo vestimento",
+      "character_span": [
+        0,
+        54
+      ],
+      "complete_obligation": "A person W weaves another person’s purple P into W’s own garment G. Keep actor-relative foreign/own and both objects; do not assume that garment maker M is necessarily the weaving actor W."
+    },
+    {
+      "id": "J02",
+      "literal": "licet pretiosior est purpura",
+      "character_span": [
+        56,
+        84
+      ],
+      "complete_obligation": "Purple is the more valuable material in this case. Value superiority does not reverse the following accession claim."
+    },
+    {
+      "id": "J03",
+      "literal": "accessionis vice cedit vestimento",
+      "character_span": [
+        86,
+        119
+      ],
+      "complete_obligation": "Purple follows the garment by accession. This is a historical legal-source assertion, not physical disappearance or a statement of modern law."
+    },
+    {
+      "id": "J04",
+      "literal": "et qui dominus fuit purpurae",
+      "character_span": [
+        121,
+        149
+      ],
+      "complete_obligation": "The next claimant is the person O who WAS owner of the purple. The historical relation to P survives the changed title description."
+    },
+    {
+      "id": "J05",
+      "literal": "adversus eum qui subripuit habet furti actionem et condictionem",
+      "character_span": [
+        151,
+        214
+      ],
+      "complete_obligation": "O has both the theft action and condiction against the person T who stole it. Two remedy kinds, one explicitly typed defendant role, same purple reference."
+    },
+    {
+      "id": "J06",
+      "literal": "sive ipse est qui vestimentum fecit, sive alius",
+      "character_span": [
+        216,
+        263
+      ],
+      "complete_obligation": "T may be the garment maker M or someone else. These are alternative identity branches, not two separate claimants or two purple items."
+    },
+    {
+      "id": "J07",
+      "literal": "nam extinctae res licet vindicari non possint",
+      "character_span": [
+        265,
+        310
+      ],
+      "complete_obligation": "The explanatory general rule says extinct things cannot be vindicated. Extinct is not silently rendered as destruction of physical material."
+    },
+    {
+      "id": "J08",
+      "literal": "condici tamen a furibus et a quibusdam aliis possessoribus possunt.",
+      "character_span": [
+        312,
+        379
+      ],
+      "complete_obligation": "Condiction can nevertheless concern thieves and certain other possessors. The subset of other possessors is not enumerated; do not make all possessors liable."
+    }
+  ],
+  "participants_and_identity_costs": {
+    "roles": {
+      "O": "Owner of purple before accession; source qui dominus fuit.",
+      "W": "Person weaving purple into W’s own garment.",
+      "M": "Person who made the garment; source garment-maker role.",
+      "T": "Person who stole purple."
+    },
+    "objects": {
+      "P": "The same purple material, followed across the paragraph.",
+      "G": "The receiving garment."
+    },
+    "identity_constraints": [
+      "O and W are distinct under the actor-relative alienam/suo setup.",
+      "T=M or T differs from M are explicitly separate source branches.",
+      "Whether M=W is not resolved merely by naming both roles; no extra equality assumed.",
+      "No fresh P or O is introduced when title or remedy changes."
+    ],
+    "time_scope": "Only before versus after incorporation is needed for historical-owner reference. No dates, elapsed duration, order of litigation, damages or chronology of garment creation is invented.",
+    "count": "4 role slots,2 object slots,1 before/after relation,1 explicit T=M/T!=M branch. These are source-semantic roles, not4/2 target words."
+  },
+  "shared_content_relations": [
+    {
+      "name": "OWNER_AT",
+      "arguments": [
+        "person",
+        "thing",
+        "stage"
+      ],
+      "meaning": "Ownership relation indexed to an explicitly supplied before/after stage; retain the same definition at each use."
+    },
+    {
+      "name": "FORMER_OWNER",
+      "arguments": [
+        "thing",
+        "earlier_owner_relation"
+      ],
+      "meaning": "Reference to the person in the earlier OWNER_AT relation; no late lookup of current title and no whole remedy clause hidden."
+    },
+    {
+      "name": "ACCESSION",
+      "arguments": [
+        "included_material",
+        "receiving_object"
+      ],
+      "meaning": "The source’s following-the-receiving-object relation; it does not itself erase claims or supply a claimant."
+    },
+    {
+      "name": "THIEF_OF",
+      "arguments": [
+        "person",
+        "thing"
+      ],
+      "meaning": "The explicitly described thief relation, with same/different garment-maker identity separately supplied."
+    },
+    {
+      "name": "CLAIM_AGAINST",
+      "arguments": [
+        "claimant",
+        "defendant",
+        "thing",
+        "remedy_kind"
+      ],
+      "meaning": "One fixed claim relation, reused with FURTI_ACTIO and CONDICTIO; all four arguments must remain explicit."
+    },
+    {
+      "name": "MAY_VINDICATE",
+      "arguments": [
+        "thing",
+        "extinct_status"
+      ],
+      "meaning": "Source explanatory vindication availability; no full litigation procedure supplied."
+    }
+  ],
+  "multi_statement_chain": [
+    {
+      "step": 1,
+      "source": [
+        "J01",
+        "J02",
+        "J03"
+      ],
+      "content": "P belongs to O before W incorporates it into own garmentG. P is more valuable but followsG by accession.",
+      "carried_reference": "Keep the earlier OWNER_AT(O,P,before) relation; do not overwrite it when describing accession."
+    },
+    {
+      "step": 2,
+      "source": [
+        "J04",
+        "J05"
+      ],
+      "content": "FORMER_OWNER(P,earlier relation)=O becomes claimant in CLAIM_AGAINST(O,T,P,FURTI_ACTIO) and CLAIM_AGAINST(O,T,P,CONDICTIO).",
+      "carried_reference": "The P and O of step1 persist; current garment title is not the claimant lookup key."
+    },
+    {
+      "step": 3,
+      "source": [
+        "J06"
+      ],
+      "content": "Evaluate the two source role possibilities T=M and T!=M.",
+      "new_consequence": "O remains claimant and P remains the claim object; only who fills defendantT changes. A maker-only interpretation misses the other-person branch."
+    },
+    {
+      "step": 4,
+      "source": [
+        "J07",
+        "J08"
+      ],
+      "content": "The explanatory extinct-thing rule blocks vindication while retaining condiction against thieves and a qualified subset of other possessors.",
+      "new_consequence": "One lost remedy does not delete every claim relation. The unspecified other-possessor subclass remains a source debt, not a universal liability rule."
+    }
+  ],
+  "concrete_competing_whole_bindings": [
+    {
+      "id": "R_CURRENT_OWNER_LOOKUP",
+      "change": "Interpret the later owner expression by looking up whoever owns the completed garment/result now.",
+      "consequence": "Can substitute W for O as claimant after accession, despite qui dominus fuit purpurae. Keeps physical objects and apparent source order but changes the historical reference."
+    },
+    {
+      "id": "R_THIEF_EQUALS_MAKER",
+      "change": "UnifyT andM in all cases.",
+      "consequence": "Cannot represent sivealius while retaining the same theft/claim relation. No new thief is created per remedy."
+    },
+    {
+      "id": "R_ONE_RECOVERY_FLAG",
+      "change": "Collapse vindication and condiction into a single recovery-possible flag.",
+      "consequence": "Extinct-thing clause then either removes the expressly retained condiction or preserves the expressly unavailable vindication."
+    },
+    {
+      "id": "R_ALL_POSSESSORS",
+      "change": "Treat quibusdam aliis possessoribus as every other holder.",
+      "consequence": "Adds a universality not supplied by the owned paragraph. A complete later truth table cannot use that shortcut."
+    }
+  ],
+  "strongest_known_countercase": {
+    "source_literal": "nam extinctae res licet vindicari non possint, condici tamen a furibus et a quibusdam aliis possessoribus possunt.",
+    "retained_force": "Loss of a separate thing/recovery route is not loss of every remedy. The same owned paragraph also explicitly allows a thief other than the maker. These countercases already occur in395’s source; they are not new historical discoveries.",
+    "candidate_limit": "The paragraph does not name the eligible other possessors or define all conditions of theft/condiction. A total executable liability classifier would therefore invent law. This proposal stays partial exactly there."
+  },
+  "increment_over_parent": {
+    "already_present": "395 already distinguishes title/possession/remedy and notes purple accession with theft claims.",
+    "added_here": "Whole§26 literal ownership is broken into eight complete obligations; qui dominus fuit fixes a historical rather than current-owner binder; T/M alternatives yield a defendant-only change while claimant/object persist. Separate vindication/condiction outputs and the undefined other-possessor subset are exposed as concrete obligations.",
+    "not_claimed": "Not an independent new legal family or confirmed translation; broad semantic content was already supplied by395.",
+    "related424": "424separates sale risk/title before delivery. This card adds no sale/risk rule: it explicitly fixes the past-owner claimant and same/other thief under whole§26. Both retain distinct title/remedy concepts; no target lexicon is inherited."
+  },
+  "costs_and_dependencies": [
+    "Every target participant and lexical realization is missing; do not report zero fitting freedom because no writer exists.",
+    "A future complete parse needs a written past-owner reference, distinct current title and two claim kinds, plus the same/other defendant branch; no entire clause in a word.",
+    "The two claim outputs share claimant,defendant and object under one relation signature. No dictionary value may change between them.",
+    "Legal source relations are historical assertions. This is not contemporary legal advice or a factual ownership determination.",
+    "No figure/paragraph owner, source-order cipher, canonical name list or numeric mapping is implied.",
+    "No meanings from clock,recipe,amulet,transport or other target lexicons are borrowed."
+  ],
+  "smallest_later_selection_gate": {
+    "requires": [
+      "A bounded complete already-admitted target unit, chosen under a separate frozen rule before its content is used; not nominated here.",
+      "A whole raw reading preservingJ01–J08, all groups/variants, one globally shared word denotation per exact form and explicit role arguments.",
+      "At least one concrete alternative target parse must differ specifically in former/current-owner binding or T/M identity, while all other meanings remain fixed.",
+      "Retain the unknown other-possessor class as unknown; no total legal simulator."
+    ],
+    "decision": "If no whole reading can expose these shared references, retain this source-only card and stop. If one can, separately freeze the whole alternative parses before any consequence check. Source fit alone cannot choose manuscript meaning.",
+    "minimum_future_falsifier": "A fixed whole reading that turns O intoW after accession, changesP between remedies, forcesT=M in both branches or merges the two recovery kinds fails its own declared content contract.",
+    "budget": "At most25minutes for a later whole-binding feasibility review, including primary check and handoff; no decoder or target search authorized by this card."
+  },
+  "review_status": {
+    "route_topics": "Fresh route,closure,composition,genealogy read; current1030 files/results excluded.",
+    "primaries": [
+      "research_registry/proposals/raw_justinian_material_identity_rights.json",
+      "research_registry/proposals/raw_justinian_sale_risk_exchange_constructor_20260920.json",
+      "research_registry/work_batches/ten_hours_20260915/CONTEXTUAL_FULL_CONTENT_RAW_SOURCES_20260920.json"
+    ],
+    "navigation": "Exact route-check for Justinian purple former owner thief produced lexical owner routes only; no old route reopened. Source-specific primary395 governs.",
+    "registry": "Bounded searchesJustinian purple former owner andpurpura; exactshowIDEA000395/393; proposalduplicates completed after root refresh. Empty purpura search is not absence because395and its primary source are directly read."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "IDEA000395"
+    },
+    {
+      "type": "related_to",
+      "target": "IDEA000424"
+    }
+  ],
+  "scope_receipts": [
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/CONTEXTUAL_FULL_CONTENT_RAW_SOURCES_20260920.json",
+      "sha256": "72a93568f698c0b8da628d2cf3967d2ee6d98abcfa20cc96f3e3873436b95d44"
+    },
+    {
+      "path": "research_registry/proposals/raw_justinian_material_identity_rights.json",
+      "sha256": "a085f75ad5754c73455f6fd324659e0f5549a3eb3290473584e69a2816166ce1"
+    }
+  ],
+  "access": "Only already-owned source and proposal files plus current route/topic/registry navigation. No target inventory,text,image,reserve,f84/f84r/f116v,new source,contact,semantic test,decoder,experiment,route,ledger,index or refresh written/read beyond permitted navigation. No root1030 primary/result.",
+  "document_verification": {
+    "status": "PASS_DOCUMENT_INTEGRITY_ONLY",
+    "verified_utc": "2026-09-22T09:11:57.881027+00:00",
+    "checks": [
+      "The entire selected source text is an exact substring/unit of the owned packet and its text SHA256 matches.",
+      "Every complete obligation literal matches its recorded character span.",
+      "All cited source/proposal hashes match; predecessors remain byte-unchanged.",
+      "Own RAW JSON contains no absolute local paths, common credential tokens or private-key markers."
+    ],
+    "not_claimed": "No semantic test,legal/schedule simulation,whole target parse,proof of manuscript meaning or independent confirmation."
+  },
+  "duplicate_check": {
+    "status": "BOUNDED_SCREEN_COMPLETE_CANDIDATES_ONLY",
+    "command": "./vmanus-work ideas duplicates --proposal research_registry/proposals/raw_justinian_ii126_former_owner_defendant_reference_20260922.json",
+    "same_declared_design": [],
+    "registry_status": "Initial stale-source block retained; root performed the regular refresh, after which bounded search/show and final duplicates completed. Producer did not refresh or change shared metadata.",
+    "source_family_review": "Direct full source/proposal review governs; broad lexical duplicate output is not a novelty or reopening verdict.",
+    "meaning": "Explicit complement/refinement of already registered source-family ideas. No replacement or assessed scientific decision is written."
+  },
+  "completed_utc": "2026-09-22T09:11:57.881040+00:00",
+  "work_budget_receipt": {
+    "start_utc": "2026-09-22T08:58:50+00:00",
+    "deadline_utc": "2026-09-22T09:30:00+00:00",
+    "scope": "At most2source-only refinements; both complete before deadline. Preparation,source/duplicate review,writing anddocumentchecks included.",
+    "automatic_continuation": "NONE"
+  }
+}
