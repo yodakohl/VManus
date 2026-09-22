@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1033 LOCAL FOOD FRAME: all59 exact lshedy occurrences outside development leaves76/80 lack both fixed LONG andSHORT;42literal/17uncertain, all1349metadata checked independently. NO_CAPACITY, not compatibility or contradiction. Close without new gap/anchor/N. [Report](experiments/yolo/gdt1033_galen_negated_food_slot/REPORT.md).
+
 GDT1032 SOURCE GRAMMAR: independent native reads of old Ashmole f13v retain three similiter hic locations, beside nominal and uncertain clause captions. Universal noun-only label premise has a counterexample; no calibrated AND/HOURS preference. Both Met downloads hash-mismatch and stayed unopened.0Voynich words. [Report](experiments/yolo/gdt1032_owned_diagram_inscription_grammar/REPORT.md).
 
 GALEN JOINT LIMIT: II/III67 and IV/V59 values are explicitly separate families; all13shared forms have conflicting fixed denotations. No unchanged113-word chapter dictionary; no refutation of each separate draft or all polysemy. [Complete table](research_registry/decisions/galen_1029_501_complete_lexicon_intersection_20260922.md).

@@ -166,3 +166,58 @@ vollständigen Atlaszensus, Gegenprüfung und Kurzbericht; höchstens weitere
 Bildbytes oder unlesbare Beschriftungen beenden nur diese Kontrollstufe. Dann
 bleibt der deklarierte qualitative Vergleich möglich. Keine neue Quelle,
 kein Kontrollkorpusbau, kein Parser und keine Änderung der Legacy-Dateien.
+
+## Nachtrag nach GDT1032: AND allein bindet noch keine lokale Argumentzahl
+
+2026-09-22, begrenzte Nachprüfung ab 10:50UTC; weiterhin kein Atlas- oder
+Zielbildzugriff. Entscheidung: **keine zusätzliche rohe Arity-/Scope-Idee
+registrieren.** Das obige qualitative Angebot bleibt erhalten. Aus dem festen
+AND-Wert plus den ausdrücklich zugelassenen Ellipsen-/Indexalternativen folgt
+derzeit keine weitere überprüfbare lokale Bedingung für die 216 Inschriften.
+
+[GDT1032](../../experiments/yolo/gdt1032_owned_diagram_inscription_grammar/REPORT.md)
+liest auf Ashmole399 f13v dreimal `similiter hic`, teils abgekürzt, daneben
+`collum matric[?]` und unsichere satzartige Stellen. Das bindet eine tatsächlich
+geschriebene deiktische Beschriftung. **Es belegt kein alleinstehendes AND und
+keine allgemeine Erlaubnis, beliebige Operatorargumente auszulassen.** Die
+unterschiedlichen Regioneneinteilungen liefern auch keine kalibrierte
+Grammatikverteilung. Die beiden hashabweichenden Met-Antworten blieben ungeöffnet.
+
+Die feste Typisierung `AND: proposition × proposition → conjunction` verlangt
+zwei semantische Argumentplätze. Sie bestimmt nicht deren schriftliche
+Realisierung. Die naheliegenden konkreten Folgerungen tragen deshalb nicht:
+
+| Versuchte neue Manuskriptfolge | Warum sie aus dem vorhandenen Vertrag nicht folgt |
+| --- | --- |
+| Zwei weitere Gruppen in derselben Inschrift | Beide Aussagen könnten nach der schon zugelassenen Ellipsenalternative aus gemeinsamem Kontext stammen. Es gibt bisher keine festgelegte Höchstzahl ausgelassener Aussagen. |
+| Zwei verschiedene nahe Bildobjekte | Zwei Aussagen können denselben Gegenstand betreffen; zwei Argumentplätze sind keine zwei Objektidentitäten. Auch `P AND P` ist durch den AND-Wert allein nicht verboten. |
+| Konnektor zwischen zwei Nachbaretiketten, nie am Anfang/Ende | Die Operandzuordnung und die Reihenfolge sind zusätzliche Konstruktionen. [GDT392](../../experiments/yolo/gdt392_special_circle_start_direction_census/REPORT.md) fand sechs mögliche Starts, aber keine unabhängige Richtung und keine zugelassene gerichtete Arrayrelation. |
+| Viele Einzelgruppen überfordern einen gemeinsamen Antezedenten | Ein einmal gesetztes Aussagenpaar kann in beliebig vielen lokalen Wiederaufnahmen verwendet werden. Die gegenwärtige Alternative enthält weder Verbrauch noch eine feste Wiederverwendungsgrenze. |
+| Ein Indexgebrauch muss eine bestimmte Stellung haben | Für den bereits erlaubten Index-/Erwähnungsmodus fehlt ein vom Zielwort unabhängiger sichtbarer Auslöser. Dessen Zuordnung kann daher derzeit jede bloße Positionszählung umgehen. |
+
+Das ist eine konkrete Unterbestimmung: Schon **ein** unverändert bleibendes
+Paar abstrakter Aussagen `P,Q` im gemeinsamen Kontext kann alle nackten
+qokaiin-Etiketten einer hypothetischen Anordnung mit Argumenten versorgen.
+Das ist keine angebotene Voynich-Lesung und kein Beleg für solche Aussagen,
+sondern ein Gegenmodell zur Behauptung, Wortzahl oder Auftretenszahl messe
+automatisch AND-Arity. Bei mehrgruppigen Inschriften wären zusätzlich deren
+Grammatik und Argumentzuordnung zu binden; die 59 Wortwerte erledigen das nicht.
+
+Der direkte Vorgänger [GDT810](../../experiments/yolo/gdt810_quality_arity_value_run/REPORT.md)
+zeigt denselben konkreten Unterschied für eine andere Hypothese: zwei
+vermutete Qualitäten erzwingen nicht zwei geschriebene Grade; ein Grad kann
+beide betreffen. Seine ursprüngliche negative Entscheidung bleibt erhalten.
+[IDEA38s Primärbewertung](ib_root_semantic_contract_review.json) verhindert
+zusätzlich, eine selbst programmierte Antezedentenvererbung als beobachtete
+Manuskriptbindung zu zählen. Keiner der beiden Befunde widerlegt AND.
+
+Die kleinste sinnvolle neue **Zusatzhypothese** wäre hier eine obligatorische
+Realisierungsregel: welcher sichtbare Beschriftungstyp mindestens einen
+propositionalen Operanden ausdrücklich schreiben muss, wo dessen Grenze liegt
+und welcher unabhängig erkennbare Typ stattdessen den Index-/Ellipsenmodus
+zulässt. Ein bloß gesetztes Limit „höchstens ein fehlendes Argument“ oder
+„höchstens eine Indexausnahme pro Array“ würde zwar einen endlichen Test
+erzeugen, hätte aber im geprüften Material keinen konkreten Grund. Es wird
+deshalb nicht als neue source-bound Idee eingereicht. Der nächste Atlaszensus
+kann das obige qualitative Verwendungsprofil liefern; er kann diese noch
+freie Realisierungsregel nicht aus seinen eigenen qokaiin-Treffern begründen.

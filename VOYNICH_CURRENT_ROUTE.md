@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Test content-specific manuscript consequences of fixed whole reading hypotheses.
-Latest decision: GDT1032 reads historical deictic captions; no noun-only law. Galen13shared conflicts.
-Working files: experiments/yolo/gdt1032_owned_diagram_inscription_grammar/REPORT.md
-Assumptions: fixed Galen families separate; caption references allowed;0translated words.
-Resume: Review RAW510 typed food slot, then register its complete local-frame census before access.
-Running: source finding publication; no target run. Five-hour09:47:48–14:47:48UTC minimum.
+Task: Review complete shared-code feasibility before more rare local constructions.
+Latest decision: GDT1033 NO_CAPACITY: all59predicate events lack fixed frame; no repair.
+Working files: experiments/yolo/gdt1033_galen_negated_food_slot/REPORT.md
+Assumptions: Galen families remain separate; source deictic captions known;0translated words.
+Resume: Review bounded joint-incidence proposal against887/888/901/1006-1008 before any census.
+Running: joint-code primary critic; root closure. Five-hour09:47:48–14:47:48UTC minimum.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

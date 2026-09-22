@@ -1,0 +1,85 @@
+{
+  "experiment": "GDT1033",
+  "status": "PASS",
+  "independent_implementation": true,
+  "primary_code_read_or_imported": false,
+  "scope_paragraphs": 1349,
+  "events": 59,
+  "files_compared": [
+    "SCOPE.json",
+    "EVENTS.json",
+    "RESULT.json"
+  ],
+  "lock_files_verified": 8,
+  "validator_sha256": "4ef8dc8cf8efe18fb04cc06534e3a639d0a38a7e9c79331254a1313736479d0f",
+  "packet_sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+  "reconstructed_result": {
+    "experiment": "GDT1033",
+    "status": "NO_CAPACITY",
+    "readers": {
+      "ZL3b": {
+        "paragraphs": 659,
+        "development_paragraphs": 22,
+        "scope_paragraphs": 637,
+        "events": 29,
+        "primary_events": 13,
+        "source_uncertain_events": 16,
+        "primary_long": 0,
+        "primary_short": 0,
+        "primary_outside": 13,
+        "counts": {
+          "SOURCE_UNCERTAIN": 16,
+          "OUTSIDE_CONTRACT": 13
+        },
+        "long_leaves": [],
+        "status": "NO_CAPACITY"
+      },
+      "IT2a": {
+        "paragraphs": 690,
+        "development_paragraphs": 23,
+        "scope_paragraphs": 667,
+        "events": 30,
+        "primary_events": 29,
+        "source_uncertain_events": 1,
+        "primary_long": 0,
+        "primary_short": 0,
+        "primary_outside": 29,
+        "counts": {
+          "OUTSIDE_CONTRACT": 29,
+          "SOURCE_UNCERTAIN": 1
+        },
+        "long_leaves": [],
+        "status": "NO_CAPACITY"
+      },
+      "RF1b": {
+        "paragraphs": 0,
+        "development_paragraphs": 0,
+        "scope_paragraphs": 0,
+        "events": 0,
+        "primary_events": 0,
+        "source_uncertain_events": 0,
+        "primary_long": 0,
+        "primary_short": 0,
+        "primary_outside": 0,
+        "counts": {},
+        "long_leaves": [],
+        "status": "NO_OWNED_PARAGRAPH_DATA"
+      }
+    },
+    "confirmed_words": 0,
+    "independent_meaning_confirmation": 0,
+    "significance_claim": false
+  },
+  "synthetic": {
+    "status": "PASS",
+    "exhaustive59x4": 236,
+    "short4": true,
+    "unknown": true,
+    "flags": true,
+    "seams": true,
+    "unrelated_uncertain_line": true,
+    "poison_guards": true,
+    "outcome_hierarchy": true
+  },
+  "claim_limit": "Formal local-frame/type validation; no confirmed meanings or independent manuscript witness."
+}
