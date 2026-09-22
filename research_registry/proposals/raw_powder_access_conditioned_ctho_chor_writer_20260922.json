@@ -1,0 +1,189 @@
+{
+  "title": "RAW frozen powder synonym choice by material access state, with explicit mention-order and construction rivals",
+  "summary": "RAW_UNREVIEWED_NOT_EXECUTED. In the complete frozen V2 powder reading, ctho/cthodaiin expresses a prospective powder goal or a still-contained bulk component, whereas chor names free selected powder. Add one deterministic writing-choice constraint: nonfree powder mention uses ctho, free powder mention uses chor. All65+15old values remain identical. The five exposed development mentions also fit a first-mention/later-mention rule and an opaque construction-class rule; no meaning is confirmed. A future crossed whole reading can distinguish mention order from availability, while V2 alone cannot distinguish availability from its equivalent construction classes.",
+  "review": "UNREVIEWED",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "created_utc": "2026-09-22T13:53:47.972925+00:00",
+  "design": {
+    "mechanism": "A postsemantic writer chooses between already synonymous POWDER heads using the referent-access state independently computed by the frozen whole V2 material account. A goal description creates no physical stock; a component of a not-yet-separated bulk is not a free stock; retrieved, ingredient and selected sieve-output powder are free at their respective binding times.",
+    "unit": "Every POWDER semantic-head mention in an independently frozen entire paragraph reading. For current development this is all of f21r.8–12 and f32v.7–11, in all three retained alternate readings; never an isolated convenient token.",
+    "contrast": "ACCESS: ctho if not free, chor if free. MENTION: ctho on the first POWDER mention of a paragraph, chor on every later mention. CONSTRUCTION: ctho in prospective-goal and pre-separation-inventory constructions, chor in retrieval, kneading-input and selected-output constructions. UNRESTRICTED_SYNONYMY permits either head everywhere and predicts no systematic distinction.",
+    "prediction": "A fully bound first POWDER mention that already introduces or refers to free powder requires chor under ACCESS but ctho under MENTION. A later POWDER mention that is a prospective goal or a contained component requires ctho under ACCESS but chor under MENTION. An actual ctho on an unequivocally free referent, or chor on a nonfree/goal reference, contradicts ACCESS with the unchanged full reading. Unknown state or binding is not a counterexample.",
+    "ceiling": "This constrains a complete guessed reading and its writing policy. It does not independently identify POWDER, physical processing, a language, word components or an imperative rather than a process description."
+  },
+  "frozen_inputs": [
+    {
+      "path": "research_registry/proposals/raw370_two_paragraph_powder_partition_offer_20260922.json",
+      "sha256": "4654afe0414d85f431371c799df6189b73b2cd4ace6adfc7eae833a51bf837da"
+    },
+    {
+      "path": "research_registry/proposals/raw370_powder_partition_v2_material_contract_20260922.json",
+      "sha256": "7676250faf7adabc2fd240635a520852c65c2d7a2f8070fb82717351a8ab6d78"
+    },
+    {
+      "path": "research_registry/proposals/raw370_powder_partition_v2_material_contract_20260922.md",
+      "sha256": "c90de002dde795dc35502e7d32692515459859e49e323fc51865b7fcf4110a61"
+    }
+  ],
+  "immutable_values": {
+    "ctho": "POWDER, MaterialKindReference",
+    "chor": "POWDER, MaterialKindReference",
+    "cthodaiin": "POWDER_MASS_Q; parent explicitly hypothesizes ctho+daiin",
+    "all_others": "All65primary values,15alternate-form hypotheses,18surface productions, the exact V2material/access effects and all whole raw alignments remain unchanged. No values from P05, old degree dictionaries, Galen, clocks or transport are imported.",
+    "not_a_component_key": "No cth/ch/or/o phoneme, morpheme or alphabet value is inferred. This is a choice among fixed whole heads, plus the already offered ctho+daiin compound; not a parser of other cth-forms."
+  },
+  "all_development_mentions": [
+    {
+      "locus": "f21r.8",
+      "role": "FOR_OUTPUT prospective goal",
+      "state": "NO_PHYSICAL_NODE",
+      "free": false,
+      "observed_head": "ctho",
+      "raw": "cthodaiin",
+      "source_group_ids": [
+        "ZL3b|f21r.8|G007",
+        "IT2a|f21r.8|G006",
+        "RF1b|f21r.8|G006"
+      ]
+    },
+    {
+      "locus": "f21r.12 firstPOWDER",
+      "role": "RETRIEVE input after prior partition and storage",
+      "state": "FREE_P",
+      "free": true,
+      "observed_head": "chor",
+      "source_group_ids": [
+        "ZL3b|f21r.12|G002",
+        "IT2a|f21r.12|G002",
+        "RF1b|f21r.12|G002"
+      ]
+    },
+    {
+      "locus": "f21r.12 secondPOWDER",
+      "role": "UNTIL selected sieve output",
+      "state": "FREE_U_IN_POSTSTATE",
+      "free": true,
+      "observed_head": "chor",
+      "source_group_ids": [
+        "ZL3b|f21r.12|G005",
+        "IT2a|f21r.12|G005",
+        "RF1b|f21r.12|G005"
+      ]
+    },
+    {
+      "locus": "f32v.8",
+      "role": "measured powder component before SEPARATE",
+      "state": "CONTAINED_P_IN_B_OR_FRESH_E_PRESTATE",
+      "free": false,
+      "observed_head": "ctho",
+      "raw_by_reader": {
+        "ZL3b": "ctho",
+        "IT2a": "ctho",
+        "RF1b": "cthodaiin"
+      },
+      "source_group_ids": [
+        "ZL3b|f32v.8|G004",
+        "IT2a|f32v.8|G004",
+        "RF1b|f32v.8|G004"
+      ]
+    },
+    {
+      "locus": "f32v.10",
+      "role": "POWDER ingredient before KNEAD consumes it",
+      "state": "FREE_P_OR_FREE_FRESH_P_PRIME_PRESTATE",
+      "free": true,
+      "observed_head": "chor",
+      "source_group_ids": [
+        "ZL3b|f32v.10|G003",
+        "IT2a|f32v.10|G003",
+        "RF1b|f32v.10|G003"
+      ]
+    }
+  ],
+  "development_limit": "Five physical mention sites on two fully exposed development leaves, fifteen alternate-reader positions. Agreement here was noticed after those readings were offered; it is neither a new transfer test nor fifteen independent confirmations. Every parent POWDER head in the two complete paragraphs is included.",
+  "operational_contract_without_future_spelling": [
+    "Input is the complete frozen semantic clause tree and material/reference ledger, not a token string to decode. Replace both exact ctho and chor meanings by the common abstract POWDER symbol before computing state. Replace the explicitly declared cthodaiin representation by POWDER+MASS_UNIT_Q in the semantic representation only; retain its original one-group raw alignment and reader seam.",
+    "Compute each NP binding from the already fixed full clause construction, scope and material states. Do not inspect whether the raw POWDER head was ctho or chor. No unknown word may acquire a new effect to make the desired access class fit.",
+    "For FOR_OUTPUT, the NP is an intensional description with NO_PHYSICAL_NODE. This is nonfree even if another powder stock happens to exist; the parent goal does not refer to that stock or create new inventory.",
+    "For a measured inventory directly before SEPARATE, evaluate its powder component in the pre-separation bulk. In CARRY this is B; in the parent FRESH alternative the input list supplies a new composite E before that separation. Its powder is a component of this aggregate, not yet a separately free stock.",
+    "For RETRIEVE and KNEAD input NPs, use the uniquely resolved compatible free input before the action consumes or moves it. A missing or ambiguous referent yields MISSING_BINDING, never a spelling-based choice.",
+    "For UNTIL, use the already fixed designated output handle of its own operation in that operation poststate. The state comes from the complete semantic action/condition, not from any later surface word. On f21r the selected sieve output U is a free stock; the future goal recorded at .8 is not substituted for U.",
+    "For any other already licensed POWDER NP role, use its frozen V2evaluation state. If the role/evaluation time is not specified, stop UNDEFINED_SCOPE rather than add a location-specific rule.",
+    "Only after those labels are frozen emit the head choice: FREE=>chor; CONTAINED or NO_PHYSICAL_NODE=>ctho. A consumed inaccessible stock is an invalid reference, not permission to emit ctho. Preserve the original parent packing alternatives separately; do not invent chordaiin or merge/split raw groups to obtain a match.",
+    "This is a local postsemantic realization constraint on a complete reading, not a claimed complete reversible manuscript encoder or an online decoder. Computing an operation postcondition from its full semantic AST does not inspect a future manuscript spelling."
+  ],
+  "rival_and_countercase_account": {
+    "mention_order": "Reset only at the full native paragraph boundary. Count every POWDER head, including the declared head inside cthodaiin and goals/components; amounts and alternate-reader records do not add extra mentions. First=>ctho,later=>chor. It exactly matches allfive development sites. No switch to page-level history after a counterexample.",
+    "opaque_construction": "Give the five frozen construction classes exactly the same head choices listed in design.contrast without any material meanings. On every current V2POWDER slot these classes imply the same free/nonfree distinction. Therefore no existing V2development case selects ACCESS over this opaque grammar. A later paragraph with these same tightly typed constructions may falsify both, but cannot confirm material semantics by matching them.",
+    "prospective_vs_postcondition": "A generic rule that every future-oriented POWDER phrase must use ctho would mispredict the offered chor in the UNTIL postcondition. ACCESS explicitly uses parent G1goal-as-description versus G2designated-output bindings, not a vague future tense distinction.",
+    "independent_binding_needed": "To prefer a material-process interpretation over a process-description or opaque grammar, one still needs a separately grounded referent/access endpoint or a legitimately licensed crossed construction with differing access. Neither is supplied here. Cennini shows real retained products but supplies no Voynich ctho/chor choice.",
+    "other_parent_rivals": "CARRY and FRESH, and ADD versus TWO_EQUAL_PORTIONS, produce the same five access choices under their offered V2ledgers. This rule does not choose those rivals or rescue REITERATED_QUANTITY_ASSERTION."
+  },
+  "future_capacity_and_decision": {
+    "no_new_target_selection": "This card selects no target and authorizes no corpus census. Any later whole paragraph must be nominated independently with an explicit admission/boundary/cost contract before its content is opened for this rule. Neither an absent ctho/chor nor a failed parse licenses target replacement.",
+    "minimum_discrimination": "At least one completely bound POWDER slot on another physical leaf where ACCESS and MENTION predict opposite forms. One such countercase can reject a hard rule conditional on the whole reading; one match cannot independently confirm it. A case where both rules predict the same form adds compatibility only.",
+    "scope_preservation": "Retain the entire selected paragraph and all alternative readers, all unknowns, all POWDER slots and every input/output binding. A parent-complete comparison must account for all those slots; no scored fragment or preferred-reader majority.",
+    "masking": "Freeze the entire reading and its states with ctho/chor collapsed to POWDER before comparison. Historical exposure cannot be undone; masking reduces direct circular use but does not manufacture an independent holdout.",
+    "outcomes": [
+      "NO_POWDER_OR_NO_CROSSED_SLOT: no discrimination capacity; no repair",
+      "MISSING_BINDING_OR_UNDEFINED_SCOPE: preserve unfinished full reading; no contradiction",
+      "KNOWN_ACCESS_OPPOSITE_SURFACE: reject ACCESS with that frozen whole interpretation, not POWDER alone",
+      "ACCESS_AND_MENTION_AGREE: non-discriminating compatibility",
+      "ACCESS_MATCHES_MENTION_FAILS: conditional writing-choice difference only; opaque-construction rival remains"
+    ],
+    "bounded_review_minutes": 15,
+    "cost": "Zero new word meanings and zero new semantic productions in this card. One binary access partition, one direction for two heads, the parent pre/post binding times, the already declared compound analysis and a per-paragraph recency rival are explicit assumptions. No fitted probability, corpus classifier, control generation or free exception list."
+  },
+  "predecessors": [
+    {
+      "id": "IDEA000305/P22",
+      "relation": "different follow-up, keep separate",
+      "difference": "Same ctho+daiin split/fused observation is old. P22object marking left both powder NPs ungoverned. This card inherits a later fully offered G1/P2binding and adds a whole-head choice; it does not reassert an object-case result."
+    },
+    {
+      "id": "IDEA000290/GDT629",
+      "relation": "retain repeated phrase, not meaning",
+      "difference": "The known chor chol daiin repetition supplied a quantity/grade contrast, not a free/contained head-choice consequence."
+    },
+    {
+      "id": "IDEA000179/P05",
+      "relation": "retain all old failures",
+      "difference": "Old whole material genealogy and nominal rivals remain; its word values are not mixed into V2."
+    },
+    {
+      "id": "GDT766",
+      "relation": "related role-conditioned whole forms, distinct exact inventory",
+      "difference": "Prior chor/pchor/schor/lchor distribution did not compare ctho/chor under fixed material states. It confirms no POWDER meaning and supplies no new component key."
+    },
+    {
+      "id": "IDEA000509/GDT1031",
+      "relation": "not a repair",
+      "difference": "No shorter-form or frequency/recurrence score; ctho and chor each have four EVA letters. The Galen minimum-capacity stop remains. MENTION is an explicit untested deterministic rival, not a rescued shortening test."
+    },
+    {
+      "id": "IDEA000511",
+      "relation": "not a repair",
+      "difference": "No local similarity, edit metric or IL008test. No missing primary is bypassed. This card uses V2access-state predictions and states their grammar equivalence explicitly."
+    },
+    {
+      "id": "W89/GDT813/IDEA000392",
+      "relation": "preserve external-meaning limitation",
+      "difference": "Fluent content, typed reference and an actual historical return do not independently select manuscript physical process versus description. No new source writer or simulator is selected."
+    }
+  ],
+  "access_and_exposure": {
+    "new_manuscript_target_opened": false,
+    "new_images_sources_reserves_contacts": false,
+    "current_target_full_text_seen": false,
+    "incidental_prior_report_exposure": "While reading GDT813REPORT as the requested powder/case predecessor, the producer encountered its pre-existing two-word note f4r.3: otchol chol ... . No GDT1036SELECTEDartifact, complete f4r source or ongoing extension was opened. The ctho/chor proposal had already been sent to root before this incidental exposure; it does not use that fragment. Absolute blindness to all f4rcontent is not claimed.",
+    "forbidden": [
+      "f84",
+      "f84r",
+      "f116v"
+    ],
+    "corpus_census_performed": false,
+    "only_development_enumeration": "Listed the15already offered ctho/chor/cthodaiin positions from the hash-bound complete parent alignment; no other paragraph inventory was accessed."
+  },
+  "claim_ceiling": "An explicitly extra, falsifiable writer constraint on an already hypothetical complete reading. Current development data do not choose it over mention order or opaque construction allomorphy.0confirmedwords,0independentmeaningtests,notselected."
+}

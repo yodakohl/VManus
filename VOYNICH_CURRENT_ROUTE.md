@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Close whole f4r attempt; select a distinct owned-content consequence after review.
-Latest decision: f4r entire62position draft lacks bindings; no global impossibility or meaning PASS.
-Working files: research_registry/decisions/powder_f4r_whole_extension_closure_20260922.md
-Assumptions: Old65+15values/V2fixed; new13values hypothetical;0words; reserves closed.
-Resume: No f4r patch chain; review bounded new content proposals against primaries.
-Running: Root closure and bounded idea producer; minimum14:47:48UTC.
+Task: Assess RAW517 fixed ctho/chor choice against whole offered readings and rivals.
+Latest decision: f4r draft incomplete; native differences remain; external labels lack meaning binding.
+Working files: research_registry/proposals/raw_powder_access_conditioned_ctho_chor_writer_20260922.json
+Assumptions: No complete ACCESS test without whole bindings;0words; reserves closed.
+Resume: Separate necessary head-choice conflicts from untested material-state predictions.
+Running: Root, independent critic and bounded idea producer; minimum14:47:48UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
