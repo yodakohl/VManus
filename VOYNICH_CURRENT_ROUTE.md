@@ -2,14 +2,14 @@
 Updated: 2026-09-22. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Assess RAW517 fixed ctho/chor choice against whole offered readings and rivals.
-Latest decision: f4r draft incomplete; native differences remain; external labels lack meaning binding.
-Working files: research_registry/proposals/raw_powder_access_conditioned_ctho_chor_writer_20260922.json
-Assumptions: No complete ACCESS test without whole bindings;0words; reserves closed.
-Resume: Separate necessary head-choice conflicts from untested material-state predictions.
-Running: Root, independent critic and bounded idea producer; minimum14:47:48UTC.
+Task: GDT1037 fixed entry-context join of complete Galen A/B readings; no new values.
+Latest decision: RAW517 necessary head rules conflict with f4r; full ACCESS remains untested.
+Working files: experiments/yolo/gdt1037_galen_fixed_entry_context_join/METHOD.md
+Assumptions: Literal line-start/PREVDY is a new semantic selector; no318meaning inference.
+Resume: Publicly lock both programs; execute all183positions, independently verify and publish.
+Running: Root, independent runner/validator;1037budget14:34UTC;minimum14:47:48UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
