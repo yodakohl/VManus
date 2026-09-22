@@ -1,0 +1,746 @@
+{
+  "experiment": "GDT1032",
+  "review": "INDEPENDENT_NATIVE_VISION",
+  "reviewer": "galen_pair_critic",
+  "preregistration_public_commit": "7eb1bd802",
+  "method": "Read PREREGISTRATION.md and SOURCE.json before native view_image. Viewed only the two authorized Bodleian full images. No root observations, root reading artifact, future output, other source, OCR or manuscript target consulted.",
+  "literal_conventions": {
+    "...": "Untranscribed/unreadable span; not a claim that nothing is present.",
+    "[?]": "One or more uncertain visible letters.",
+    "[abbr]": "Visible abbreviation ending/mark described without silently supplying expanded letters.",
+    "/": "Observed line break when shown.",
+    "u_v": "Literal strings retain u/v where the native reading permits; normalized candidates are separate."
+  },
+  "images": [
+    {
+      "id": "BODLEIAN_ASHMOLE399_F13V",
+      "status": "HASH_VERIFIED_OPENED_NATIVE_FULL_FRAME",
+      "sha256": "48f79d1e003bf384ab4e0d7bef50aecdfa44a6ae2dc09ff567894cee260cf93a",
+      "view": "native full original image; no crops, rotation, resizing, OCR, or image edits performed",
+      "regions": [
+        {
+          "id": "13V-S01",
+          "box_xyxy_relative": [
+            0.045,
+            0.085,
+            0.176,
+            0.139
+          ],
+          "location": "Upper-left oblique red branch; text along its outer edge",
+          "classification": "SENTENCE_OR_RELATIONAL_EXPRESSION",
+          "literal_visible": "similiter hic",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "Two adverbs: similiter = similarly, hic = here. This is a short relational/deictic direction, not an ordinary noun phrase. No elided verb is supplied.",
+          "uncertainty": "The writing is oblique; the ordinary expansion is not used to add an object or action."
+        },
+        {
+          "id": "13V-S02",
+          "box_xyxy_relative": [
+            0.717,
+            0.067,
+            0.927,
+            0.185
+          ],
+          "location": "Upper-right oblique red branch, text following the branch",
+          "classification": "UNREADABLE",
+          "literal_visible": "similit[?] ...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "A possible repetition of a relational cue is visible, but the whole inscription is not securely read.",
+          "uncertainty": "Several following words and the exact beginning/end remain unreadable. No completion from S01."
+        },
+        {
+          "id": "13V-S03",
+          "box_xyxy_relative": [
+            0.427,
+            0.026,
+            0.469,
+            0.111
+          ],
+          "location": "Vertical writing above/left of the central figure enclosure",
+          "classification": "UNREADABLE",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "No reliable complete grammatical expression.",
+          "uncertainty": "Orientation and abbreviation prevent a secure reading; relation to the curved inscription below is uncertain."
+        },
+        {
+          "id": "13V-S04",
+          "box_xyxy_relative": [
+            0.425,
+            0.096,
+            0.601,
+            0.226
+          ],
+          "location": "Curving inscription around the central small human figure, including both flanks and lower arc",
+          "classification": "UNREADABLE",
+          "literal_visible": "... hic ...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "CURVED_INSCRIPTION_SEGMENTATION_UNCERTAIN",
+          "grammar_rationale": "The full run cannot be securely segmented or assigned nominal/sentential grammar.",
+          "uncertainty": "hic is only tentative in this region; do not merge confidently with S03 or infer anatomy from the depicted figure."
+        },
+        {
+          "id": "13V-S05",
+          "box_xyxy_relative": [
+            0.052,
+            0.184,
+            0.228,
+            0.216
+          ],
+          "location": "Short horizontal line left of the upper left rounded compartment",
+          "classification": "AMBIGUOUS_REGION",
+          "literal_visible": "ad ... delendas",
+          "expansion_candidates": [
+            {
+              "expanded": "ad ... delendas",
+              "confidence": "LOW",
+              "note": "No omitted noun supplied."
+            }
+          ],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "If read correctly, ad with a gerundival expression indicates purpose; the missing head prevents a full grammatical reading.",
+          "uncertainty": "Could be a prose rubric or a separate short instruction rather than an anatomical label; middle word unreadable."
+        },
+        {
+          "id": "13V-S06",
+          "box_xyxy_relative": [
+            0.775,
+            0.162,
+            0.934,
+            0.219
+          ],
+          "location": "Short three/four-line block outside the upper right main compartment",
+          "classification": "AMBIGUOUS_REGION",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "A compact prose fragment is visible, but no reliable complete clause is transcribed.",
+          "uncertainty": "Uncertain boundary between a separate annotation and nearby prose; retained without counting its lines as labels."
+        },
+        {
+          "id": "13V-S07",
+          "box_xyxy_relative": [
+            0.877,
+            0.218,
+            0.944,
+            0.301
+          ],
+          "location": "Fainter short marginal writing down the right side above the small circle",
+          "classification": "AMBIGUOUS_REGION",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "Not readable enough for grammar.",
+          "uncertainty": "Several short lines, different/fainter writing; a separate note, continuation, and label cannot be distinguished securely."
+        },
+        {
+          "id": "13V-S08",
+          "box_xyxy_relative": [
+            0.885,
+            0.304,
+            0.973,
+            0.384
+          ],
+          "location": "Writing following top/right circumference of the upper small circle at right",
+          "classification": "UNREADABLE",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "No secure noun or finite predicate.",
+          "uncertainty": "Circular orientation; the circle interior appears blank. Words are not inferred from the connected tube."
+        },
+        {
+          "id": "13V-S09",
+          "box_xyxy_relative": [
+            0.801,
+            0.372,
+            0.932,
+            0.533
+          ],
+          "location": "Oblique inscription along the narrow connector between the two small circles at right",
+          "classification": "UNREADABLE",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "There is a multiword text run, but no secure grammatical classification.",
+          "uncertainty": "Text is rotated and partly crowded; no anatomical referent assigned."
+        },
+        {
+          "id": "13V-S10",
+          "box_xyxy_relative": [
+            0.732,
+            0.497,
+            0.808,
+            0.54
+          ],
+          "location": "Three-line inscription inside the lower small right circle",
+          "classification": "SENTENCE_OR_RELATIONAL_EXPRESSION",
+          "literal_visible": "hic ... / ... unde / fluit seme[?]",
+          "expansion_candidates": [
+            {
+              "expanded": "hic ... / ... unde / fluit semen",
+              "confidence": "MEDIUM",
+              "note": "Final nasal expansion/ending tentative; intervening words unexpanded."
+            }
+          ],
+          "reading_confidence": "MEDIUM",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "Tentative but visible fluit is a finite verb; unde is relational and hic is deictic. On this reading the inscription contains a clause, even though its full wording is uncertain.",
+          "uncertainty": "Do not treat the whole inscription or semen ending as securely transcribed. The middle line cannot be completed."
+        },
+        {
+          "id": "13V-S11",
+          "box_xyxy_relative": [
+            0.479,
+            0.381,
+            0.514,
+            0.471
+          ],
+          "location": "Vertical short writing in the centre above the rounded cap of the long central stem",
+          "classification": "SENTENCE_OR_RELATIONAL_EXPRESSION",
+          "literal_visible": "hec est uia ...",
+          "expansion_candidates": [
+            {
+              "expanded": "haec est via ...",
+              "confidence": "MEDIUM",
+              "note": "Normalized ae and v/u separated from the visible reading; final word not supplied."
+            }
+          ],
+          "reading_confidence": "MEDIUM",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "Visible est suggests a copular clause: this is a/the way ...; subject/referent and final complement remain unresolved.",
+          "uncertainty": "The last word is not confidently readable. No particular bodily fluid or channel asserted."
+        },
+        {
+          "id": "13V-S12",
+          "box_xyxy_relative": [
+            0.443,
+            0.474,
+            0.578,
+            0.495
+          ],
+          "location": "Short horizontal writing across the rounded top/cap of the long central stem",
+          "classification": "UNREADABLE",
+          "literal_visible": "... et ...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "Possible et is insufficient to recover the whole expression or to establish that et is an isolated label.",
+          "uncertainty": "Some writing crosses/abuts the cap contour; no ownership is assigned solely by proximity."
+        },
+        {
+          "id": "13V-S13",
+          "box_xyxy_relative": [
+            0.465,
+            0.501,
+            0.556,
+            0.518
+          ],
+          "location": "Horizontal inscription immediately under the cap inside the central stem",
+          "classification": "SENTENCE_OR_RELATIONAL_EXPRESSION",
+          "literal_visible": "hic co[?]prim[?]tu[?]",
+          "expansion_candidates": [
+            {
+              "expanded": "hic comprimitur",
+              "confidence": "LOW",
+              "note": "Tentative candidate only; not a resolved diplomatic reading."
+            }
+          ],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "hic is legible; the remaining word may be a finite passive verb. Relational/sentential classification is provisional and must not be counted as a secure clause.",
+          "uncertainty": "Several medial and final letters uncertain; comprimitur is a reading candidate, not established text."
+        },
+        {
+          "id": "13V-S14",
+          "box_xyxy_relative": [
+            0.236,
+            0.511,
+            0.325,
+            0.565
+          ],
+          "location": "Small outlined circle to the left of the central stem",
+          "classification": "SENTENCE_OR_RELATIONAL_EXPRESSION",
+          "literal_visible": "similit[abbr] hic",
+          "expansion_candidates": [
+            {
+              "expanded": "similiter hic",
+              "confidence": "HIGH",
+              "note": "Abbreviation ending expanded separately."
+            }
+          ],
+          "reading_confidence": "HIGH",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "Similarly here: adverbial/deictic direction; no noun phrase and no inferred finite verb.",
+          "uncertainty": "Exact abbreviation glyph is represented descriptively as [abbr], not replaced silently by expanded letters."
+        },
+        {
+          "id": "13V-S15",
+          "box_xyxy_relative": [
+            0.072,
+            0.61,
+            0.183,
+            0.641
+          ],
+          "location": "Rounded header of the long left outer vertical band",
+          "classification": "SENTENCE_OR_RELATIONAL_EXPRESSION",
+          "literal_visible": "similit[abbr] hic.",
+          "expansion_candidates": [
+            {
+              "expanded": "similiter hic",
+              "confidence": "HIGH",
+              "note": "Abbreviation ending expanded separately."
+            }
+          ],
+          "reading_confidence": "HIGH",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "Adverbial/deictic expression, with no lexical noun. Its spatial isolation is clear.",
+          "uncertainty": "The final abbreviation stroke is not given a Unicode facsimile."
+        },
+        {
+          "id": "13V-S16",
+          "box_xyxy_relative": [
+            0.811,
+            0.587,
+            0.939,
+            0.621
+          ],
+          "location": "Rounded header of the long right outer vertical band",
+          "classification": "NOMINAL_EXPRESSION",
+          "literal_visible": "collum matric[?]",
+          "expansion_candidates": [
+            {
+              "expanded": "collum matricis",
+              "confidence": "MEDIUM",
+              "note": "Final letters/abbreviation resolution less secure than collum."
+            }
+          ],
+          "reading_confidence": "MEDIUM",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "collum is a noun; matricis, if the tentative ending is right, is a dependent genitive: neck of the womb. This is nominal grammar, not an identification of the neighboring drawn object by location alone.",
+          "uncertainty": "Complete ending of the second word is not secure; no broader anatomical claim is supplied."
+        },
+        {
+          "id": "13V-S17",
+          "box_xyxy_relative": [
+            0.254,
+            0.706,
+            0.31,
+            0.777
+          ],
+          "location": "Short curving writing in the green rim of the lower left red/green pointed oval",
+          "classification": "UNREADABLE",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "No secure complete word.",
+          "uncertainty": "Do not name the drawn body part from its shape or symmetry."
+        },
+        {
+          "id": "13V-S18",
+          "box_xyxy_relative": [
+            0.689,
+            0.674,
+            0.772,
+            0.738
+          ],
+          "location": "Short curving/faint writing on the green rim of the lower right red/green pointed oval",
+          "classification": "UNREADABLE",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "No secure complete word.",
+          "uncertainty": "Possible corresponding label to S17, but no inferred repetition or translation."
+        },
+        {
+          "id": "13V-S19",
+          "box_xyxy_relative": [
+            0.369,
+            0.826,
+            0.443,
+            0.914
+          ],
+          "location": "Oblique writing on the lower-left diagonal outlined band",
+          "classification": "SENTENCE_OR_RELATIONAL_EXPRESSION",
+          "literal_visible": "similit[?] hic",
+          "expansion_candidates": [
+            {
+              "expanded": "similiter hic",
+              "confidence": "MEDIUM",
+              "note": "Tail of first word uncertain."
+            }
+          ],
+          "reading_confidence": "MEDIUM",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "Likely the repeated adverbial/deictic direction; this region is retained as its own visible occurrence.",
+          "uncertainty": "Reading is less secure than S01/S14/S15; no collapse of repetitions into one region."
+        },
+        {
+          "id": "13V-S20",
+          "box_xyxy_relative": [
+            0.587,
+            0.799,
+            0.771,
+            0.965
+          ],
+          "location": "Long oblique text run on the lower-right diagonal outlined band",
+          "classification": "UNREADABLE",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ELONGATED_INSCRIPTION",
+          "grammar_rationale": "Text is spatially separated but cannot be reliably read at full-frame native view.",
+          "uncertainty": "No inferred relation or anatomical term. May contain more than one local phrase."
+        },
+        {
+          "id": "13V-S21",
+          "box_xyxy_relative": [
+            0.454,
+            0.846,
+            0.478,
+            0.929
+          ],
+          "location": "Vertical writing along left edge of the lower central stem beside the lower circle",
+          "classification": "UNREADABLE",
+          "literal_visible": "similit[?] ...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "Possible repeated direction, but too uncertain for a secure relational classification.",
+          "uncertainty": "No completion from other occurrences; exact last word unreadable."
+        },
+        {
+          "id": "13V-S22",
+          "box_xyxy_relative": [
+            0.474,
+            0.878,
+            0.567,
+            0.926
+          ],
+          "location": "Two-line writing inside the lower central circular compartment",
+          "classification": "AMBIGUOUS_REGION",
+          "literal_visible": "la[?]u[?] clau / sus",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "clau/sus may form clausus, a participle/adjective, but the preceding word is unresolved, so a full noun phrase is not established.",
+          "uncertainty": "Could be a nominal or predicative expression. No normalization to a guessed anatomical term."
+        },
+        {
+          "id": "13V-S23",
+          "box_xyxy_relative": [
+            0.552,
+            0.842,
+            0.588,
+            0.979
+          ],
+          "location": "Vertical/curving writing to right of lower central circle and below it",
+          "classification": "UNREADABLE",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "INSCRIPTION_RUN_SEGMENTATION_UNCERTAIN",
+          "grammar_rationale": "No complete grammatical unit secured.",
+          "uncertainty": "May comprise more than one adjoining inscription; lower portion is crowded/truncated at image edge."
+        },
+        {
+          "id": "13V-S24",
+          "box_xyxy_relative": [
+            0.474,
+            0.937,
+            0.511,
+            0.978
+          ],
+          "location": "Short vertical visible text below the bottom central ellipse, left side",
+          "classification": "UNREADABLE",
+          "literal_visible": "...",
+          "expansion_candidates": [],
+          "reading_confidence": "LOW",
+          "segmentation": "ISOLATED_SHORT_INSCRIPTION",
+          "grammar_rationale": "No readable complete word.",
+          "uncertainty": "Partly cut off at the lower photographed page edge; kept separate from right-side S23."
+        },
+        {
+          "id": "13V-P01",
+          "box_xyxy_relative": [
+            0.07,
+            0.067,
+            0.458,
+            0.178
+          ],
+          "location": "Upper-left triangular prose field, including its ornamental initial",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Multiple connected lines of running Latin prose; region retained but not split into labels or fully transcribed/translated.",
+          "uncertainty": "Geometric region boundary approximate; isolated circle/cap inscriptions are separately inventoried where visible."
+        },
+        {
+          "id": "13V-P02",
+          "box_xyxy_relative": [
+            0.566,
+            0.056,
+            0.904,
+            0.151
+          ],
+          "location": "Upper-right triangular prose field above red branch",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Multiple connected lines of running Latin prose; region retained but not split into labels or fully transcribed/translated.",
+          "uncertainty": "Geometric region boundary approximate; isolated circle/cap inscriptions are separately inventoried where visible."
+        },
+        {
+          "id": "13V-P03",
+          "box_xyxy_relative": [
+            0.166,
+            0.211,
+            0.445,
+            0.464
+          ],
+          "location": "Large left rounded compartment of continuous prose",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Multiple connected lines of running Latin prose; region retained but not split into labels or fully transcribed/translated.",
+          "uncertainty": "Geometric region boundary approximate; isolated circle/cap inscriptions are separately inventoried where visible."
+        },
+        {
+          "id": "13V-P04",
+          "box_xyxy_relative": [
+            0.564,
+            0.194,
+            0.879,
+            0.384
+          ],
+          "location": "Large right rounded compartment of continuous prose",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Multiple connected lines of running Latin prose; region retained but not split into labels or fully transcribed/translated.",
+          "uncertainty": "Geometric region boundary approximate; isolated circle/cap inscriptions are separately inventoried where visible."
+        },
+        {
+          "id": "13V-P05",
+          "box_xyxy_relative": [
+            0.057,
+            0.412,
+            0.293,
+            0.595
+          ],
+          "location": "Lower-left external multi-line prose block",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Multiple connected lines of running Latin prose; region retained but not split into labels or fully transcribed/translated.",
+          "uncertainty": "Geometric region boundary approximate; isolated circle/cap inscriptions are separately inventoried where visible."
+        },
+        {
+          "id": "13V-P06",
+          "box_xyxy_relative": [
+            0.171,
+            0.466,
+            0.453,
+            0.682
+          ],
+          "location": "Narrowing/widening central-left continuation of multi-line prose around circle and stem",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Multiple connected lines of running Latin prose; region retained but not split into labels or fully transcribed/translated.",
+          "uncertainty": "Geometric region boundary approximate; isolated circle/cap inscriptions are separately inventoried where visible."
+        }
+      ],
+      "whole_frame_note": "All visually detected separated inscription runs retained, including unreadable, curved, repeated and edge-truncated runs. Geometry does not establish ownership. Region division is an independent approximate inventory, not a word census."
+    },
+    {
+      "id": "BODLEIAN_ASHMOLE399_F22V",
+      "status": "HASH_VERIFIED_OPENED_NATIVE_FULL_FRAME",
+      "sha256": "4d98f9bb3ebd3095f7b994aa05f58f7b734c8487ce0f22cb33bb0230eb58b7c2",
+      "view": "native full original image; no crops, rotation, resizing, OCR, or image edits performed",
+      "regions": [
+        {
+          "id": "22V-P01",
+          "box_xyxy_relative": [
+            0.151,
+            0.221,
+            0.538,
+            0.46
+          ],
+          "location": "Upper-left prose under the broad colored roof/bar and around the left diagonal branch",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Connected lines of running text. Ornamental initials and short residual lines belong to the prose flow, not independently isolated diagram labels.",
+          "uncertainty": "Boxes approximate and may overlap at prose continuations; P07 is adjacent-page material rather than an inscription on the principal diagram."
+        },
+        {
+          "id": "22V-P02",
+          "box_xyxy_relative": [
+            0.563,
+            0.235,
+            0.944,
+            0.452
+          ],
+          "location": "Upper-right prose under roof/bar and around the right diagonal branch",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Connected lines of running text. Ornamental initials and short residual lines belong to the prose flow, not independently isolated diagram labels.",
+          "uncertainty": "Boxes approximate and may overlap at prose continuations; P07 is adjacent-page material rather than an inscription on the principal diagram."
+        },
+        {
+          "id": "22V-P03",
+          "box_xyxy_relative": [
+            0.358,
+            0.341,
+            0.538,
+            0.631
+          ],
+          "location": "Narrow prose field between left diagonal branch and central vertical stem",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Connected lines of running text. Ornamental initials and short residual lines belong to the prose flow, not independently isolated diagram labels.",
+          "uncertainty": "Boxes approximate and may overlap at prose continuations; P07 is adjacent-page material rather than an inscription on the principal diagram."
+        },
+        {
+          "id": "22V-P04",
+          "box_xyxy_relative": [
+            0.561,
+            0.346,
+            0.756,
+            0.635
+          ],
+          "location": "Narrow prose field between central stem and right diagonal branch",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Connected lines of running text. Ornamental initials and short residual lines belong to the prose flow, not independently isolated diagram labels.",
+          "uncertainty": "Boxes approximate and may overlap at prose continuations; P07 is adjacent-page material rather than an inscription on the principal diagram."
+        },
+        {
+          "id": "22V-P05",
+          "box_xyxy_relative": [
+            0.137,
+            0.625,
+            0.537,
+            0.882
+          ],
+          "location": "Lower-left continuing prose column, including colored initials and final continuation",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Connected lines of running text. Ornamental initials and short residual lines belong to the prose flow, not independently isolated diagram labels.",
+          "uncertainty": "Boxes approximate and may overlap at prose continuations; P07 is adjacent-page material rather than an inscription on the principal diagram."
+        },
+        {
+          "id": "22V-P06",
+          "box_xyxy_relative": [
+            0.558,
+            0.628,
+            0.948,
+            0.883
+          ],
+          "location": "Lower-right continuing prose column, including decorated final initial",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Connected lines of running text. Ornamental initials and short residual lines belong to the prose flow, not independently isolated diagram labels.",
+          "uncertainty": "Boxes approximate and may overlap at prose continuations; P07 is adjacent-page material rather than an inscription on the principal diagram."
+        },
+        {
+          "id": "22V-P07",
+          "box_xyxy_relative": [
+            0.966,
+            0.043,
+            0.999,
+            0.777
+          ],
+          "location": "Narrow visible strip of running text on the adjacent page at the extreme right frame edge",
+          "classification": "CONTINUOUS_PROSE",
+          "literal_visible": "",
+          "expansion_candidates": [],
+          "reading_confidence": "HIGH",
+          "segmentation": "CONTINUOUS_PROSE_REGION",
+          "grammar_rationale": "Connected lines of running text. Ornamental initials and short residual lines belong to the prose flow, not independently isolated diagram labels.",
+          "uncertainty": "Boxes approximate and may overlap at prose continuations; P07 is adjacent-page material rather than an inscription on the principal diagram."
+        }
+      ],
+      "whole_frame_note": "No securely isolated short textual inscription found in the principal diagram. Top geometric ornaments, top central oval, both concentric wheels, lower central circle and terminal shape appear without readable labels. Prose surrounds/fills intervening spaces. Decorative initials are not treated as independent indices."
+    },
+    {
+      "id": "MET_551211_OBVERSE",
+      "status": "HASH_MISMATCH_DO_NOT_OPEN",
+      "status_provenance": "Task message from root; no image inspected or fetched by this reviewer",
+      "regions": []
+    },
+    {
+      "id": "MET_551211_REVERSE",
+      "status": "HASH_MISMATCH_DO_NOT_OPEN",
+      "status_provenance": "Task message from root; no image inspected or fetched by this reviewer",
+      "regions": []
+    }
+  ],
+  "assessment": {
+    "secure_minimum": "F13V contains spatially isolated adverbial/deictic similiter hic readings (including abbreviated occurrences), so at least these inscriptions are not ordinary noun phrases. No finite verb is invented to turn them into full sentences.",
+    "nominal_evidence": "F13V collum matric[?], tentatively expanded collum matricis, supports a nominal-expression candidate with a less secure second-word ending.",
+    "sentence_evidence": "Several additional regions may contain copular/finite clauses (hec est uia..., fluit..., hic ...), but their confidence differs and incomplete words remain explicit. They are not all secure translations.",
+    "f22v_capacity": "No isolated short inscription securely identified; running prose inside/around a diagram does not itself establish label grammar.",
+    "index_capacity": "No secure independent SINGLE_SIGN_OR_INDEX region detected on the opened Bodleian frames; no Arabic material opened. This is absence of a detected example in these frames, not a universal claim.",
+    "claim_limit": "These two selected external images establish neither a calibrated grammar distribution nor any Voynich word. Relation-like short inscriptions prevent a universal nominal-only rule; they do not identify AND, HOURS or any target meaning.",
+    "independence_limit": "Same-model machine native vision, not an expert paleographic reading or independent historical confirmation. Do not resolve disagreements by majority vote."
+  },
+  "confirmed_voynich_words": 0,
+  "no_new_target_or_reserve": true,
+  "no_image_bytes_published": true,
+  "completed_utc": "2026-09-22T10:43:34.062521+00:00",
+  "document_bindings": [
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/PREREGISTRATION.md",
+      "sha256": "bd9622387d233cba5ff8f3b75d154f15a2c2220b0ad87eaecd45292f55b1f2df"
+    },
+    {
+      "path": "experiments/yolo/gdt1032_owned_diagram_inscription_grammar/src/SOURCE.json",
+      "sha256": "7fd15efffa2944a909a296be835820d6a7d4032766e81f8c80916782a4291684"
+    }
+  ]
+}

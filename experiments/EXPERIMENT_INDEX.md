@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1031**
-- Experiment-associated tracked files: **20,529** (1.9 GiB)
+- Experiment-associated tracked files: **20,536** (1.9 GiB)
 - Structured GDT337+ experiments: **696**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1032 | owned diagram inscription grammar | `REGISTERED_UNOPENED` | — | 9 | 13.7 KiB | 2 | STRUCTURED_YOLO |
+| GDT1032 | GDT1032 | `QUALITATIVE_MIXED_HISTORICAL_INSCRIPTION_GRAMMAR` | [report](../experiments/yolo/gdt1032_owned_diagram_inscription_grammar/REPORT.md) | 16 | 74.1 KiB | 2 | STRUCTURED_YOLO |
 | GDT1031 | GDT1031 | `NO_CAPACITY_FIXED_SYNONYM_RECURRENCE` | [report](../experiments/yolo/gdt1031_synonym_recurrence_shortening/REPORT.md) | 20 | 1.0 MiB | 4 | STRUCTURED_YOLO |
 | GDT1030 | GDT1030 | `SUPPORTED_LIMITED_WHOLE_CLOCK_REFERENCE_ACCOUNT` | [report](../experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md) | 32 | 847.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT1029 | GDT1029 | `SUPPORTED_LIMITED_PAIRED_GALEN_WITH_ONE_BROADENING` | [report](../experiments/yolo/gdt1029_galen_paired_endpoint_and_reference/REPORT.md) | 33 | 931.8 KiB | 2 | STRUCTURED_YOLO |

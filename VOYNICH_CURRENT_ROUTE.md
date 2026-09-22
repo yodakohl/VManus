@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Find a content-specific manuscript consequence of fixed whole reading hypotheses.
-Latest decision: GDT1031 NO_CAPACITY; IT16blocks/34positions/2families,ZL0; no scores or repairs.
-Working files: experiments/yolo/gdt1031_synonym_recurrence_shortening/REPORT.md
-Assumptions: 59 Galen values remain guesses; labels need independently warranted roles;0words.
-Resume: Review bounded label/construction proposals against primary predecessors before selection.
-Running: producer and label critic active; root closes1031. Five-hour09:47:48–14:47:48UTC minimum.
+Task: Test content-specific manuscript consequences of fixed whole reading hypotheses.
+Latest decision: GDT1032 reads historical deictic captions; no noun-only law. Galen13shared conflicts.
+Working files: experiments/yolo/gdt1032_owned_diagram_inscription_grammar/REPORT.md
+Assumptions: fixed Galen families separate; caption references allowed;0translated words.
+Resume: Review RAW510 typed food slot, then register its complete local-frame census before access.
+Running: source finding publication; no target run. Five-hour09:47:48–14:47:48UTC minimum.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

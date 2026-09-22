@@ -1,5 +1,9 @@
 # Voynich active state — structural reset baseline
 
+GDT1032 SOURCE GRAMMAR: independent native reads of old Ashmole f13v retain three similiter hic locations, beside nominal and uncertain clause captions. Universal noun-only label premise has a counterexample; no calibrated AND/HOURS preference. Both Met downloads hash-mismatch and stayed unopened.0Voynich words. [Report](experiments/yolo/gdt1032_owned_diagram_inscription_grammar/REPORT.md).
+
+GALEN JOINT LIMIT: II/III67 and IV/V59 values are explicitly separate families; all13shared forms have conflicting fixed denotations. No unchanged113-word chapter dictionary; no refutation of each separate draft or all polysemy. [Complete table](research_registry/decisions/galen_1029_501_complete_lexicon_intersection_20260922.md).
+
 GDT1031 SYNONYM WRITING RULE: all1349paragraphs checked; ZL0mobile,IT16blocks34positions12leaves and only2poweredfamilies,RFnone. NO_CAPACITY under frozen gate; no model scores/nulls and no direction conclusion. Whole development leaves76/80 excluded, remaining data previously exposed. Independent full census PASS,0words. Close unchanged rule without threshold/feature repairs. [Report](experiments/yolo/gdt1031_synonym_recurrence_shortening/REPORT.md).
 
 RAW499/501 GALEN REVIEW: 55+33groups/59guessed values;38 parent entries literal but8oldtypes/10newpositions only. All8 TO/OF local endpoints factor under an explicit typed persistent-view rule; AS_IF/aside/INSIST scopes remain unbound by that rule. Positive lettuce reportability and naming projections remain added assumptions. Preserve conditional whole drafts; no further simulator or target search on this incomplete grammar. Manual review,0words/independent meaning. [Decision](research_registry/decisions/reading_prediction_capacity_20260922.md), [primary critic](research_registry/decisions/galen_499_501_primary_critic_20260922.md).
