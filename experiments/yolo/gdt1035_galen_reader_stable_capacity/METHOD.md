@@ -1,0 +1,13 @@
+# GDT1035 — exact reader-stable capacity
+
+The selection note is research_registry/decisions/galen_reader_stability_selection_20260922.md. Budget12:13–12:38UTC. This is a postexposure sensitivity test; the known chey5A/3B versus max4A motivated selection. No blind confirmation is claimed.
+
+Use exactly all four whole paragraphs listed in unchanged GDT1034 SPEC, with exactly matching paragraph IDs and line loci in the owned GDT928 packet. Select paragraphs by metadata before words. Reject f84 prefixes and f116v. Retain every ZL and IT raw group, uncertainty flag and source ID. Missing or ambiguous paragraph/line ownership is INVALID, never permission to substitute a neighbor. RF1b has no records in this packet. No external acquisition.
+
+Per whole line compute ALL maximum exact-whole-token LCS correspondences. A ZL occurrence qualifies only if deleting it lowers the maximum LCS length, exactly one IT index can partner it in any maximum alignment, and the complete raw form matches ^[a-z]+$. Uncertain raw groups participate unchanged in alignment but cannot qualify as literal words. Output all183 reference positions including every rejection and all IT groups. No boundary normalization, morphological identity, best-alignment choice or cherry-picked token.
+
+Three panels: all literal a–z groups in ZL; all literal a–z groups in IT; unique-forced common exact occurrences. Counts are lower requirements against ALL183 unchanged source positions, regardless of how many target groups are omitted. Record every union word including zero counts and all shared-word pool domains. Matching bound21 and all46 pool capacities are inherited with exact hashes from independently validated1034. The source semantic compatibility superset remains an explicit assumption; reader agreement does not validate it.
+
+A panel is REFUTED_FIXED_SHARED_CODE iff its required matching K=sum min(Aw,Bw) exceeds21, or some word with both counts positive has no source pool with Acap>=Aw and Bcap>=Bw. Otherwise NO_DECISION, not a successful dictionary. The primary interpretive panel is UNIQUE_FORCED_COMMON; raw-reader panels are sensitivity results. No adjusted source atoms, pools, thresholds or new decoder follow.
+
+A full-code model must accommodate every retained occurrence, so a contradiction in any such subset is necessary, never a complete decoding. Reader agreement means compatibility of these two existing transcriptions under this correspondence rule; both may be wrong together. No new manuscript page, native image, independent meaning test, significance claim or confirmed word. Original1034 RAW_EXACT and LITERAL_LINES decisions are untouched.

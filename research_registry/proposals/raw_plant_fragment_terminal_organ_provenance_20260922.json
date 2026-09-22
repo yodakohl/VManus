@@ -1,0 +1,151 @@
+{
+  "review": "UNREVIEWED",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED",
+  "created_utc": "2026-09-22T12:18:00Z",
+  "access": {
+    "new_target_content_opened": false,
+    "new_images_opened": false,
+    "new_sources_acquired": false,
+    "sealed_exclusions": [
+      "f84",
+      "f84r",
+      "f116v"
+    ],
+    "rule": "No census, score, decoder or diagram reconstruction was performed. Any later selection is a separate root decision. Existing historical exposure remains; alternate transcriptions are not independent witnesses."
+  },
+  "claim_ceiling": "A proposed joint meaning constraint, not an observed text reading, translated word, independently validated referent, historical source identity or completed test.",
+  "title": "RAW illustrated plant fragment as a terminal organ inventory of a complete preparation reading",
+  "summary": "RAW_UNREVIEWED_INCOMPLETE. The owned JSP2025_05 observation links f37v with the root-and-leaf fragment at f102r1 row3/item1. Hypothesize that the latter depicts the final retained material of a complete preparation paragraph about the former. A globally fixed REMOVE_ALL_LEAVES followed only by organ-preserving processing cannot end in this leaf-bearing fragment. This specializes IDEA124/096 with an actual positive organ endpoint, while the crucial final-state binding and full text reading remain hypothetical. No target prose, label string or new image was opened.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A complete paragraph denotes ordered operations on one source plant. Detachment preserves origin while deletion changes retained organs. The nominated pharmaceutical drawing depicts the final retained material, rather than the initial specimen or an arbitrary intermediate stage.",
+    "unit": "One complete already-admitted native paragraph on f37v, plus the already recorded JSP2025_05 fragment observation. No isolated line or cropped clause can be the unit.",
+    "contrast": "Final-material depiction with persistent provenance versus identification-only depiction of the same plant kind. Also retain the initial-specimen depiction rival; it permits leaf removal later and therefore differs from the terminal hypothesis.",
+    "prediction": "The final depicted output must retain at least ROOT and LEAF from the linked plant. A complete reading that deletes every LEAF from this same retained material, subsequently uses only organ-preserving steps and finally stores or presents it contradicts the terminal-depiction hypothesis. A whole reading that keeps the root-and-leaf portion through detachment and preparation is compatible but not independently confirmed.",
+    "scope": "Exploratory full-reading development on one fixed cross-section relation, not a repeat of catchword recovery, a ROOT/LEAF label classifier, or a general claim that all pharmaceutical drawings show outputs."
+  },
+  "observed_input": {
+    "relation_id": "JSP2025_05",
+    "herbal_page": "f37v",
+    "pharma_page": "f102r1",
+    "row": 3,
+    "item": 1,
+    "label_locus": "f102r1.2",
+    "positive_facts": [
+      "The cached human relation identifies the fragment as a root-and-leaf copy of f37v.",
+      "Native image review provisionally assigns the inscription inside the fragment pale neck with no local competing fragment."
+    ],
+    "not_inferred": [
+      "flower_copied=false is not certified physical absence of a flower.",
+      "No exact root or leaf count, botanical species, specimen identity, cutting event, storage event or chronological relationship is observed.",
+      "The label is not assumed to name a plant, an organ, a process or a state. Its surface was not read in this pass."
+    ]
+  },
+  "finite_semantic_contract": {
+    "objects": [
+      "source plant P",
+      "retained material M with source-kind provenance P",
+      "qualitative organ-presence bits ROOT and LEAF; exact counts unspecified"
+    ],
+    "operations": {
+      "TAKE_ROOT_AND_LEAF(P,M)": "Initialize M from a portion of P containing ROOT and LEAF; establishes provenance(M)=P.",
+      "REMOVE_ALL_LEAVES(M)": "Set LEAF(M)=false; preserve provenance and any ROOT. Scope must be this M, not the unselected mother plant.",
+      "PRESERVE_PROCESS(M)": "Declared washing/drying/handling class only; leaves both presence bits and provenance unchanged. A chemical extraction or disintegration may not be silently admitted here.",
+      "STORE_OR_PRESENT(M)": "Select the final retained output without changing its organ bits.",
+      "EXPLICIT_ADD_OR_REGROW(M)": "Not supplied by default. It may appear only if the entire later clause receives a fixed literal reading and its new material/provenance is explicitly named; such a draft must be reported as a different declared action inventory before evaluation."
+    },
+    "composition": "Carry the same M through every clause with an explicit binding table. No entity reset, object swap, unexpressed return to the mother plant or stage change is allowed to restore LEAF.",
+    "whole_paragraph_requirement": "Every raw group and scope-bearing clause must have one fixed whole-reading contribution. Unknowns remain visible. If any unknown can introduce leaves, switch the material or move the pictured stage, the result is MISSING_BINDING, not a contradiction.",
+    "counterexample": "TAKE_ROOT_AND_LEAF(P,M); REMOVE_ALL_LEAVES(M); PRESERVE_PROCESS(M); STORE_OR_PRESENT(M) entails no LEAF at the nominated terminal stage, contrary to the positive recorded LEAF endpoint. This is a model-level adverse example, not a Voynich reading that has been found."
+  },
+  "degrees_of_freedom": [
+    "The main new assumption is final-output depiction; it is frozen here and cannot become initial/intermediate depiction after a conflict.",
+    "Biological provenance denotes source kind, not numerical identity of the pictured specimen.",
+    "The whole lexicon, word-part segmentation if any, productions and participant bindings remain undeveloped and must be frozen before any evaluation. No old Galen, clock, transport, recipe or amulet value may change.",
+    "Allowed operation inventory, processing class, paragraph boundaries and actor/material scope must be explicit; no one-word sentence macros or hidden participant list.",
+    "No exact word-reuse, shared-root, substring, label-length, organ-name or caption-arity requirement follows from the mechanism.",
+    "Only positive ROOT/LEAF presence is used. Absence of unmentioned organs and floral content is not available as evidence."
+  ],
+  "future_selection_recipe": {
+    "before_any_target_read": "Check current admission and metadata only. The sole nominated development unit is the FIRST physical paragraph on f37v in source order; do not skip it to find a better later paragraph. It must be fully owned and have literal boundaries for the chosen reader. No new target is nominated here by content.",
+    "capacity": "Require 20 to 100 complete raw groups and no more than 45 previously unassigned whole types in that first paragraph; failure stops this recipe with no replacement. These are development-cost bounds, not evidence thresholds.",
+    "reader_policy": "Develop one explicitly named complete ZL or IT paragraph only after root choice. Preserve the complete other two reader versions and uncertain groups as counterversions; never vote across readers. A nonliteral whole paragraph remains SOURCE_UNCERTAIN rather than dropping single groups.",
+    "cost": "At most one new complete reading, 45 new type values, six productions and eight explicit participant/scope bindings. Charge an operation extension separately; no automatic generic compiler or corpus search.",
+    "budget_minutes_including_review": 35,
+    "outcomes": {
+      "incompatible_full_reading": "Reject that complete reading under final-output depiction; retain initial/identification rivals.",
+      "compatible_full_reading": "Retain exploratory conditional reading only; one known visual endpoint fitted in development is not meaning confirmation.",
+      "no_complete_binding_or_capacity": "Preserve the unfinished full draft and exact missing clause or source boundary. Do not search another paragraph or weaker threshold."
+    }
+  },
+  "predecessors": [
+    {
+      "id": "IDEA000124",
+      "relation": "specializes, does not replace",
+      "difference": "Adds an actual owned positive ROOT+LEAF terminal inventory candidate; its status as a terminal inventory remains an explicit new assumption, not newly observed chronology. The original strict confirmation gates remain."
+    },
+    {
+      "id": "IDEA000096",
+      "relation": "specializes",
+      "difference": "Conservation becomes a specific retained-organ/provenance obligation with an adverse remove-all-leaves consequence; no conserved quantity is claimed."
+    },
+    {
+      "id": "IDEA000052",
+      "relation": "related, separate",
+      "difference": "No transformation-versus-transport diagnosis from invariant material alone."
+    },
+    {
+      "id": "S99/S100/FPR001/five-pair ordered-root",
+      "relation": "preserve old decisions",
+      "difference": "No catchword or parsed-root recovery rerun. The old parser/capacity stops do not become passes."
+    },
+    {
+      "id": "PLC001",
+      "relation": "preserve stop",
+      "difference": "No root-only versus leaf-bearing label association or lowered length/folio matching gate."
+    },
+    {
+      "id": "GDT352",
+      "relation": "known adverse case",
+      "difference": "A real repeated fragment has no exact label or source-family recurrence on its source Herbal page; reference identity does not entail literal spelling reuse."
+    }
+  ],
+  "known_blockers": [
+    "The image does not establish final-output depiction or the missing operation sequence.",
+    "A complete first-paragraph reading and its globally fixed writer are not yet available.",
+    "The single linked picture is development evidence, not independent confirmation.",
+    "The source-kind relation could support a catalogue illustration with no manufacturing chronology."
+  ],
+  "sources": [
+    {
+      "path": "experiments/semantic_assumptions/results/f102r1_fifth_repeated_plant_label_native_visual_ownership.json",
+      "sha256": "04c81c69e4ca249201ea02a337978a544c698655f3c63192c302df605089fe59",
+      "claim": "Actual positive root-and-leaf relation, source and ownership limits."
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/f102r1_fifth_repeated_plant_label_native_visual_ownership_report.md",
+      "sha256": "baad375a14a6b7ae6646a034f7c4f8ee5886dda37373a3d7e2bbb99932ff9988",
+      "claim": "Native primary; no part or word identity follows."
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/plc001_pharma_root_leaf_capacity_report.md",
+      "sha256": "2dc9ac9b30285961393bb41ae7dbaa886f9b344a9be9f6a61fd01b268eade2b4",
+      "claim": "Closed root/leaf association capacity."
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/five_pair_ordered_multiroot_capacity_report.md",
+      "sha256": "ad29310bd223c4b5496c372a81a663225e8fb6807b4ac419b47a97fdbac478d3",
+      "claim": "All-reading parser incompleteness and historical exposure."
+    },
+    {
+      "path": "experiments/yolo/gdt352_singular_fragment_query/REPORT.md",
+      "sha256": "a611f52586df53b5d69ee0151d8bd95b611713f9ee2d528c351f94fe22a37993",
+      "claim": "Exact spelling/source-family counterexample."
+    },
+    {
+      "path": "research_registry/work_batches/luna_throughput_20260914/REPORT.md",
+      "sha256": "0ffae119ad99f9077aa9de380d5137cffdc4ff8dd96d4d6811b09c53eda5d04b",
+      "claim": "Primary review of IDEA124/096/052 and unchanged confirmation gates."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional shared-code bound, no independent readers, no correct palaeography or meaning claim; 0 confirmed words; original1034 unchanged.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1035_galen_reader_stable_capacity/src/run.py",
+    "validate": "python experiments/yolo/gdt1035_galen_reader_stable_capacity/src/validate.py --execute"
+  },
+  "created": "2026-09-22",
+  "dependencies": [
+    "GDT1034",
+    "GDT792",
+    "GDT928"
+  ],
+  "experiment_id": "GDT1035",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/PREREG_LOCK.json",
+      "role": "unchanged_parent_or_owned_packet",
+      "sha256": "3e3eaee4074a336743989e3d6bbf9843a7d7dfcf09c5f81aeb0c7ecb9944779b"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/artifacts/CERTIFICATE.json",
+      "role": "unchanged_parent_or_owned_packet",
+      "sha256": "3c7c701ff64bb77fc51c89455f21aa4650e2c61e3234f2d4ba362a19377e7af5"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/artifacts/WORD_DOMAINS.json",
+      "role": "unchanged_parent_or_owned_packet",
+      "sha256": "5eb8483ede9128fb4bd3953817d64a75b439e3997da413d34c7baf0fd76ef29a"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/src/SPEC.json",
+      "role": "unchanged_parent_or_owned_packet",
+      "sha256": "2ae3a4af2570791cc06a4be8b4cb60a226f9b020a334b80385a806b31d0333d3"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "unchanged_parent_or_owned_packet",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "experiments/yolo/gdt1034_galen_shared_code_capacity/artifacts/SCOPE.json",
+      "role": "unchanged_parent_or_owned_packet",
+      "sha256": "521a1b8785a178922e26b32b81bc8ddb00eb9114e86484d6f465b17c29e2e5a0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/METHOD.md",
+      "role": "source_or_registration",
+      "sha256": "af45be6c8674e964b6b0968e200725386cf55f28bddef0ba498919f88398a539"
+    },
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/PREREGISTRATION.md",
+      "role": "source_or_registration",
+      "sha256": "a1b809646914756872201c8e20e9cb899ee25e07df0477644d96d7f9383f6f19"
+    },
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/PREREG_LOCK.json",
+      "role": "source_or_registration",
+      "sha256": "bb6e8384ebd12b1538d720a9a317c1082f674ff06569219dc9bc210a7d30d50c"
+    },
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/README.md",
+      "role": "source_or_registration",
+      "sha256": "c45221c5def148b945f2192ceaffc4b8e75489b1ee9895a4f9b95cee0b9e3bef"
+    },
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/REPORT.md",
+      "role": "primary_report",
+      "sha256": "509ce263a752230ddadcbc7de93c738322d311e0db1effe65b14b29ec24d77a1"
+    },
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/artifacts/PREFLIGHT.json",
+      "role": "source_or_registration",
+      "sha256": "b30d0ebdaa602145b8a7f2e428af63a05829b89ce5c21f4dbd1d2a818495591f"
+    },
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/artifacts/README.md",
+      "role": "source_or_registration",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/src/SPEC.json",
+      "role": "source_or_registration",
+      "sha256": "a9720313faa6e07c72420115e695ddad5dc070e98406a4bdf1e19fb8746c6bc8"
+    },
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/src/run.py",
+      "role": "source_or_registration",
+      "sha256": "8f2654b1589fafdfde418ac1763ef9efb649013ed57b87efd88bc477622d4b68"
+    },
+    {
+      "path": "experiments/yolo/gdt1035_galen_reader_stable_capacity/src/validate.py",
+      "role": "source_or_registration",
+      "sha256": "468a2e6db7442123d7e913942a7d6445e40b049cfcc17a1580f5212a1db96f61"
+    }
+  ],
+  "question": "Does the fixed GDT1034 source-code contradiction survive the complete uniquely forced exact ZL/IT occurrence intersection?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "galen_reader_stable_capacity",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Galen shared-code consequence on reader-stable exact occurrences",
+  "updated": "2026-09-22",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
