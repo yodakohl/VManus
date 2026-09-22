@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Fix a manuscript test of shortening among six existing guessed synonym sets.
-Latest decision: RAW507 lacks output meanings;508s symmetric toggle conflicts, directed rivals remain.
-Working files: research_registry/decisions/galen_composition_507_508_review_20260922.md
-Assumptions: 59guesses; exclude development leaves76/80; layout controls required;0words.
-Resume: Review producer contract and910/373/374/318 predecessors before registration or target census.
-Running: three bounded agents; root review. Five-hour session09:47:48–14:47:48UTC minimum.
+Task: Find a content-specific manuscript consequence of fixed whole reading hypotheses.
+Latest decision: GDT1031 NO_CAPACITY; IT16blocks/34positions/2families,ZL0; no scores or repairs.
+Working files: experiments/yolo/gdt1031_synonym_recurrence_shortening/REPORT.md
+Assumptions: 59 Galen values remain guesses; labels need independently warranted roles;0words.
+Resume: Review bounded label/construction proposals against primary predecessors before selection.
+Running: producer and label critic active; root closes1031. Five-hour09:47:48–14:47:48UTC minimum.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

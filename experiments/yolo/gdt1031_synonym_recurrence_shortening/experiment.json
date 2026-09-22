@@ -6,7 +6,7 @@
   "claim_ceiling": "Conditional fixed spelling model only; no independent meaning, anaphora, source identification, significance of whole search, or reserve confirmation.",
   "commands": {
     "run": "python3 experiments/yolo/gdt1031_synonym_recurrence_shortening/src/run.py",
-    "validate": "python3 experiments/yolo/gdt1031_synonym_recurrence_shortening/src/validate.py"
+    "validate": "python3 experiments/yolo/gdt1031_synonym_recurrence_shortening/src/validate.py --execute"
   },
   "created": "2026-09-22",
   "dependencies": [
@@ -36,47 +36,97 @@
   "outputs": [
     {
       "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/METHOD.md",
-      "role": "preregistered_source_or_preflight",
+      "role": "source_or_compact_result",
       "sha256": "0af4e2f8c89c85a9aa44be4a4c308053868d1d8370eafdfb6b7148a478264a98"
     },
     {
       "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/PREREGISTRATION.md",
-      "role": "preregistered_source_or_preflight",
+      "role": "source_or_compact_result",
       "sha256": "a67f3ce13a63b7cb31db12eabb60f3efef4b8915e04173a708036d21a8809d11"
     },
     {
       "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/PREREG_LOCK.json",
-      "role": "preregistered_source_or_preflight",
+      "role": "source_or_compact_result",
       "sha256": "3e1d87ccf6d132d441677e7360546391d6bb12be9f84381832b2a9ad32e91c32"
     },
     {
       "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/README.md",
-      "role": "preregistered_source_or_preflight",
+      "role": "source_or_compact_result",
       "sha256": "da9813cbf8d60cf9650b347c03f3ec4cb5e7d4775b1403b708f1b1f89446ffe4"
     },
     {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/REPORT.md",
+      "role": "primary_report",
+      "sha256": "e4d4e9ee16a9002adcb0259af1559255dfbfb81a09660afd74d5e60fbf2de6ec"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/BLOCKS.json",
+      "role": "source_or_compact_result",
+      "sha256": "c92fefdf3aa7fccd4f37ffd8b01973a5827aea2317bbb16318ebc877526a1ec2"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/CANDIDATES.csv",
+      "role": "source_or_compact_result",
+      "sha256": "f27bf9f97a4cadc3709baa03c0d8c7b52085eb5dd9ec53c66fb82149198015ac"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/CAPACITY.json",
+      "role": "source_or_compact_result",
+      "sha256": "2d2a0f470731f0e19b029f4cf53df501ec54d6118f99e6e063220b9cb6225766"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/LIKELIHOODS.json",
+      "role": "source_or_compact_result",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/NULL.json",
+      "role": "source_or_compact_result",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/OCCURRENCES.json",
+      "role": "source_or_compact_result",
+      "sha256": "681bb18e80ac7e8c25daae7b6c482bc09521f8b98dae32a68fce277c56e71711"
+    },
+    {
       "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/PREFLIGHT.json",
-      "role": "preregistered_source_or_preflight",
+      "role": "source_or_compact_result",
       "sha256": "803a3111cf4baf3ebba078af3ef9cc8067c8eecef2697fc9cd49b986e57113a0"
     },
     {
       "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/README.md",
-      "role": "preregistered_source_or_preflight",
+      "role": "source_or_compact_result",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
     },
     {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/RESULT.json",
+      "role": "source_or_compact_result",
+      "sha256": "2af252ae423ad19def8928679d56db2ffd3bcb9c54973ac06aa85da50d886e23"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/SCOPE.json",
+      "role": "source_or_compact_result",
+      "sha256": "8197775e6b734beaafdf94f2924993073073afa551e9f2b5963ebc2706238ed8"
+    },
+    {
+      "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/VALIDATION.json",
+      "role": "source_or_compact_result",
+      "sha256": "24ea05698a381c58465233dbb17acd92642fa86dee9555af3951ff3f110d577b"
+    },
+    {
       "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/src/SPEC.json",
-      "role": "preregistered_source_or_preflight",
+      "role": "source_or_compact_result",
       "sha256": "0e1d9dc9024a7bf175759a15017c8ebab1543a0be8480ce2c1915981e5a49d79"
     },
     {
       "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/src/run.py",
-      "role": "preregistered_source_or_preflight",
+      "role": "source_or_compact_result",
       "sha256": "92d082ee454e64c852af6b2619d20b384c4e985cac93e46118ccbd640abdf38f"
     },
     {
       "path": "experiments/yolo/gdt1031_synonym_recurrence_shortening/src/validate.py",
-      "role": "preregistered_source_or_preflight",
+      "role": "source_or_compact_result",
       "sha256": "bf1967ecbd788c8c072c46daac97305baab9f3a01b700e3506e8af1418ab5361"
     }
   ],
@@ -87,11 +137,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "synonym_recurrence_shortening",
-  "status": "REGISTERED_UNSCORED",
+  "status": "EXECUTED_NO_CAPACITY",
   "title": "synonym recurrence shortening",
   "updated": "2026-09-22",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt1031_synonym_recurrence_shortening/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
