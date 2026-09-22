@@ -1,0 +1,88 @@
+{
+  "title": "RAW clock-family IX.8.8 frozen-vocabulary exploratory extension: preinspection selection contract",
+  "status": "FROZEN_BEFORE_IX88_SOURCE_AND_TARGET_CONTENT_INSPECTION",
+  "created_utc": "2026-09-22T08:47:20.514125+00:00",
+  "phase": "exploratory reading; no semantic test or decoder",
+  "parent": {
+    "id": "IDEA000503",
+    "path": "research_registry/proposals/raw_vitruvius_ix89_complete_continuation_20260921.json",
+    "sha256": "70fec54332ab45655b4c7a134895d9c79349b8a217cfd9a7cca7b5f6caea4ddd",
+    "whole_denotations_to_preserve": 33,
+    "confirmed_words": 0
+  },
+  "source": {
+    "path": "research_registry/work_batches/ten_hours_20260915/CONTEXTUAL_FULL_CONTENT_RAW_SOURCES_20260920.json",
+    "sha256": "72a93568f698c0b8da628d2cf3967d2ee6d98abcfa20cc96f3e3873436b95d44",
+    "selection": "Exactly the entire owned Vitruvius IX.8.8 paragraph, including every descriptive clause. No substitute later paragraph if difficult. Read the complete owned VIII-paragraph clock excerpt for context, preserve all defects; do not expand source."
+  },
+  "target": {
+    "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+    "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+    "reader": "ZL3b",
+    "selection": "Complete GDT928 records only, no subparagraph/window; retain complete corresponding IT2a/RF1b records with matching selector and identical first/last loci if available; retain unavailable/mismatched boundaries explicitly.",
+    "exclusions": [
+      "physical leaf f111 (parent)",
+      "f84",
+      "f84r",
+      "f116v"
+    ],
+    "max_groups": 100,
+    "min_distinct_old_exact_forms": 8,
+    "max_distinct_new_exact_forms": 40,
+    "max_candidates": 3,
+    "different_physical_leaves": true,
+    "physical_leaf_rule": "Leading f plus manuscript number is the physical leaf; all r/v/panel suffixes share it.",
+    "eligibility": "Only packet records marked complete; preserve uncertain raw groups without repair. Group and exact-form counts use complete ZL3b raw groups.",
+    "rank": [
+      "distinct old exact forms descending",
+      "distinct new exact forms ascending",
+      "raw group count descending",
+      "selector natural numeric then lexical",
+      "first locus numeric then lexical",
+      "last locus numeric then lexical",
+      "full record id lexical"
+    ],
+    "selection_execution": "Compute inventories without printing any paragraph content. From sorted eligible list select first record, then first from a different physical leaf, then first from another physical leaf. Freeze all three IDs and inventories before printing any selected paragraph content. Inspect/author strictly in this order; no fourth, no threshold/ranking repair. At most one may become a complete draft."
+  },
+  "question": "Can one entire additional owned apparatus paragraph be represented on one different physical leaf while all 33 parent whole-word denotations remain verbatim, with every old occurrence explicitly bound and all added words/grammar/participants charged?",
+  "unknown_after_predecessors": "503 supplies a complete but fitted 40-group IX.8.9 reading. Its 33 meanings, 4 productions/3 discontinuous and20 bindings are unconfirmed. GDT928 found no two disjoint exact paragraph anchors; GDT214 supplied no Voynich part dictionary. This task asks only whether a complete frozen-lexicon continuation can be authored; it does not reopen those tests.",
+  "outcomes": {
+    "complete_draft": "Retain one RAW descendant for a separately authorized fixed review; no confirmation or reserve access.",
+    "incomplete": "Retain all inspected attempts and exact missing obligations/arguments; do not vary old meanings or try extra candidates.",
+    "capacity_none": "Record no eligible target under this fixed authoring contract, not no clock reading."
+  },
+  "freedoms_and_stops": [
+    "Every33 parent form/value/type/denotation remains byte-equivalent; occurrence positions from the parent remain historical metadata, new occurrence lists separate.",
+    "One new unconfirmed whole-form value per new exact form; no borrowed meanings from Galen, music, amulet, transport or any other family.",
+    "No sentence macro or concealed participant list; each relation has explicit source/target argument ownership, source literal, and scope. Grammar may be fitted only if explicitly counted and no whole clause hidden in a word.",
+    "All raw groups of an inspected candidate remain, including unresolved ones. No trimming, unrecorded failed sketches, source-clause omission, alias or reader repair.",
+    "No new source/image/reserve/contact; no root ongoing result or semantic code; no semantic execution.",
+    "End after one complete draft or three incomplete attempts or deadline; no automatic continuation."
+  ],
+  "budget": {
+    "deadline_utc": "2026-09-22T09:25:00+00:00",
+    "total_minutes_from_start": 40,
+    "allocation_minutes": {
+      "route_parent_primary_selection": 10,
+      "source_and_bounded_authoring": 22,
+      "document_checks_registry_and_handoff": 8
+    }
+  },
+  "assumptions": [
+    "Parent same apparatus identities are inherited working hypotheses, never confirmed.",
+    "All target material previously exposed; different physical leaves do not supply an independent holdout.",
+    "§8 supplies contextual apparatus description; §9 motion/calendar values cannot be weakened into generic part labels.",
+    "Inherited not-yet-complete wording in503 is498 history, not present status."
+  ],
+  "primary_review": [
+    "VOYNICH_CURRENT_ROUTE.md directly",
+    "AGENTS.md directly",
+    "context topic transfer and variants; unknown clock resolved through targeted ideas lookup",
+    "ideas search/show394/498/503 and two bounded duplicates/route-check queries",
+    "503 exact full lexicon,20 bindings and4 productions; old unfinished attempts retained by parent hash",
+    "GDT928 REPORT.md complete",
+    "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md complete",
+    "relevant returned closed zodiac/calendar family rows retain their own stops; no cyclic/image/count route selected"
+  ],
+  "allowed_writes": "Only own new RAW files and ideas duplicates/add; no shared route,ledger,index,refresh or experiments."
+}

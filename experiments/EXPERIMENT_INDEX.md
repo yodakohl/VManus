@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1028**
-- Experiment-associated tracked files: **20,468** (1.9 GiB)
-- Structured GDT337+ experiments: **693**
+- Experiments indexed: **1029**
+- Experiment-associated tracked files: **20,488** (1.9 GiB)
+- Structured GDT337+ experiments: **694**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1030 | clock whole reference consequences | `REGISTERED_UNSCORED` | — | 20 | 239.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT1029 | GDT1029 | `SUPPORTED_LIMITED_PAIRED_GALEN_WITH_ONE_BROADENING` | [report](../experiments/yolo/gdt1029_galen_paired_endpoint_and_reference/REPORT.md) | 33 | 931.8 KiB | 2 | STRUCTURED_YOLO |
 | GDT1028 | GDT1028 | `SUPPORTED_LIMITED_WHOLE_GALEN_CONDITIONAL_GOAL_BRIDGE` | [report](../experiments/yolo/gdt1028_galen_whole_preparation_and_desire/REPORT.md) | 31 | 1.6 MiB | 2 | STRUCTURED_YOLO |
 | GDT1027 | GDT1027 | `SUPPORTED_LIMITED_WHOLE_SEED_RITE_SCOPE_DEPENDENT` | [report](../experiments/yolo/gdt1027_seed_rite_scope_and_identity/REPORT.md) | 30 | 1.9 MiB | 2 | STRUCTURED_YOLO |

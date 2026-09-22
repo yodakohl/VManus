@@ -1,15 +1,15 @@
 # Voynich current route
-Updated: 2026-09-21. This is the sole live resume point; replace, never append history.
+Updated: 2026-09-22. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Review the complete clock continuation as next bounded content hypothesis.
-Latest decision: GDT1029 all87 predictions matched;35old literal/1broadened; six physical-equivalent rivals.
-Working files: experiments/yolo/gdt1029_galen_paired_endpoint_and_reference/REPORT.md
-Assumptions: 95groups/31new guesses/6discontinuous productions/26bindings; IT gaps;0words.
-Resume: Publish1029; review whole clock source/proposal and predecessors before selecting next test.
-Running: producer clock proposal by08:20; root1029 publication; session ends11:11:33UTC.
+Task: Check complete40group clock reference hypothesis against216 fixed consequences.
+Latest decision: RAW503 selected as GDT1030;33guesses/20bindings; prior1029 published unchanged.
+Working files: experiments/yolo/gdt1030_clock_whole_reference_consequences/PREREGISTRATION.md
+Assumptions: Whole§9/3discontinuous productions; temporal witness convention; no calendar-rate inference.
+Resume: Publish fixed predictions before target execution; retain full-source duration counterexample.
+Running: root1030 deadline2026-09-22 09:31:19UTC; producer source-only alternatives until09:30.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

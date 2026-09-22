@@ -1,0 +1,86 @@
+{
+  "experiment": "GDT1030",
+  "candidates": [
+    {
+      "id": "MAIN",
+      "actuator": "OPEN",
+      "duration": "OPEN",
+      "change": "NONE",
+      "rebound": []
+    },
+    {
+      "id": "MANUAL_INDEX",
+      "actuator": "MANUAL",
+      "duration": "OPEN",
+      "change": "NONE",
+      "rebound": []
+    },
+    {
+      "id": "AUTO_INDEX",
+      "actuator": "AUTO",
+      "duration": "OPEN",
+      "change": "NONE",
+      "rebound": []
+    },
+    {
+      "id": "EQUAL_DURATION",
+      "actuator": "OPEN",
+      "duration": "EQUAL",
+      "change": "NONE",
+      "rebound": []
+    },
+    {
+      "id": "REVERSED_WEIGHT",
+      "actuator": "OPEN",
+      "duration": "OPEN",
+      "change": "WEIGHT_UP",
+      "rebound": [
+        "kar"
+      ]
+    },
+    {
+      "id": "SECOND_WHEEL",
+      "actuator": "OPEN",
+      "duration": "OPEN",
+      "change": "SECOND_WHEEL",
+      "rebound": [
+        "char"
+      ]
+    },
+    {
+      "id": "EACH_STEP_COMPLETES",
+      "actuator": "OPEN",
+      "duration": "OPEN",
+      "change": "EACH_STEP",
+      "rebound": [
+        "chcthydain"
+      ]
+    },
+    {
+      "id": "OTHER_MONTH_DAYS",
+      "actuator": "OPEN",
+      "duration": "OPEN",
+      "change": "OTHER_MONTH",
+      "rebound": [
+        "chckhy"
+      ]
+    },
+    {
+      "id": "ALWAYS_SOLAR_INDEX",
+      "actuator": "OPEN",
+      "duration": "OPEN",
+      "change": "ALWAYS_SUN",
+      "rebound": [
+        "yshe"
+      ]
+    }
+  ],
+  "whole_groups": 40,
+  "whole_types": 33,
+  "assumptions": 20,
+  "additional_test_convention": "Completion means reaching the supplied month-end marker; a whole history and individual steps have separate endpoints. Markers order events, not days/hours/numerals in the manuscript.",
+  "causal_scope": "Positive Horn consequences only; absent derivation is not negation. Normal mechanism applies only to declared normal episodes with water-driven float rise. Index motion is a separate history.",
+  "automatic_extra": "A controller can trigger one local index step when both wheel rotation and a separately supplied advance-due flag hold; no daily rate or month completion derived.",
+  "source_context": "Full parent10/13-15 rules out equal physical hour durations for the same source-hour kind; this is contextual, not a newly translated clause.",
+  "meaning_capacity": 0
+}
