@@ -1,0 +1,150 @@
+{
+  "status": "GUARDED_OWNED_SOURCE_RECEIPT",
+  "selected_utc": "2026-09-22 16:12 UTC",
+  "decision_path": "research_registry/decisions/idea479_reference_decision_20260922.md",
+  "decision_sha256": "7a3102dad9e52623ad602cab697f7a920881985304332a4c1a6787b47789ddbd",
+  "raw_path": "research_registry/proposals/raw_body_bath_strict_entry_reference_20260921.json",
+  "raw_sha256": "7023ac1b365d43b56b6106d94cda0b8db10272aee6e9369ad17dc3278d32fc86",
+  "raw_source_bindings": [
+    {
+      "path": "experiments/yolo/gdt599_remaining_action_object_completion/REPORT.md",
+      "sha256": "f35262262894381380bd224fc90cbb829d4f98570e9c8a539e0235c6d22ee008"
+    },
+    {
+      "path": "experiments/yolo/gdt599_remaining_action_object_completion/METHOD.md",
+      "sha256": "e974ce05ab58a73d914c50c35cbd32c64e23612ae535930c8c09ef8827058e93"
+    },
+    {
+      "path": "experiments/yolo/gdt599_remaining_action_object_completion/src/model.py",
+      "sha256": "9b62ea3bbb928acbac7f691bbd9be94619e26d0dae09323a808761f3f13476f8"
+    },
+    {
+      "path": "experiments/yolo/gdt599_remaining_action_object_completion/artifacts/GDT599_COMPLETE_OBJECT_READER.md",
+      "sha256": "9b4e5ffb6dfe02a1338533ff11d351e72cb8bfc4573252947d56da2fb7792acd"
+    },
+    {
+      "path": "experiments/yolo/gdt599_remaining_action_object_completion/artifacts/gdt599_1443_complete_action_edition.tsv",
+      "sha256": "7f430e61dee99a5b7a87b701a0db761e7d308e190e4a55a8354da65af431fe23"
+    },
+    {
+      "path": "experiments/yolo/gdt599_remaining_action_object_completion/artifacts/gdt599_313_complete_statements.tsv",
+      "sha256": "a347128f5aba4ba9fdacff1fe69519dbcf55f016040779b1ef687a0804682263"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/REPORT.md",
+      "sha256": "db2b32d000fa8fc93059251a2bc04a428b7ee7b9fcb58f6a913b1e9aaeb40cdd"
+    },
+    {
+      "path": "experiments/yolo/gdt590_focused_bath_body_station_adjudication/REPORT.md",
+      "sha256": "4a7e02c40e14295dccae781ecff231c5e1d6032a7a1c4c67cccc68b9a5e88ac5"
+    },
+    {
+      "path": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+      "sha256": "85bc1d98666014d6c0ca230d0260f9b9ff892b389e53b16fb192a4a5c02980ec"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/W43/REPORT.md",
+      "sha256": "9a29fa1c38f375f73cf910e590361a5edf7c4793f9d7223651024400733d9f4c"
+    }
+  ],
+  "replays": [
+    {
+      "source_path": "experiments/yolo/gdt599_remaining_action_object_completion/artifacts/gdt599_2272_complete_host_edition.tsv",
+      "source_sha256": "40fdcdeca6d00426593082caf46c32a6b2f91e64d60f0137ab0de4a83d5c0167",
+      "output_path": "research_registry/proposals/raw479_complete_hosts_20260922.tsv",
+      "output_sha256": "f09df572568c0303303b8a969cce42c67659b2975dc3a046de4ca45508c2c913",
+      "selector": "statement_id",
+      "allow": [
+        "G407-S402",
+        "G407-S441",
+        "G407-S442"
+      ],
+      "columns": [
+        "host_ordinal_global",
+        "statement_id",
+        "host_ordinal_in_statement",
+        "physical_page",
+        "register",
+        "owner_id",
+        "primary_governor_key",
+        "anchor_event_id",
+        "action_root",
+        "action_slot_id",
+        "gdt584_rule_id",
+        "paragraph_boundary",
+        "integration_status",
+        "completion_layer",
+        "written_carrier_count",
+        "written_carrier_roots",
+        "written_carrier_lemmas_de",
+        "object_class",
+        "object_lemma_de",
+        "rendered_object_np_de",
+        "typing_card_id",
+        "reference_scope_card_id",
+        "reference_mode",
+        "source_pointer",
+        "gdt584_upstream_clause_de",
+        "gdt598_integrated_clause_de",
+        "clause_changed",
+        "guard",
+        "gdt599_complete_clause_de",
+        "gdt599_clause_changed_from_gdt598",
+        "gdt599_completion_status"
+      ],
+      "guard_stats": {
+        "selected": 14,
+        "skipped_forbidden": 0,
+        "skipped_not_allowed": 2258
+      }
+    },
+    {
+      "source_path": "experiments/yolo/gdt599_remaining_action_object_completion/artifacts/gdt599_1443_complete_action_edition.tsv",
+      "source_sha256": "7f430e61dee99a5b7a87b701a0db761e7d308e190e4a55a8354da65af431fe23",
+      "output_path": "research_registry/proposals/raw479_complete_actions_20260922.tsv",
+      "output_sha256": "f096ae63a16f588ffc849adc251e986b9a152ae9d505478c7d02c7ef28705226",
+      "selector": "statement_id",
+      "allow": [
+        "G407-S402",
+        "G407-S441",
+        "G407-S442"
+      ],
+      "columns": [
+        "complete_action_ordinal",
+        "host_ordinal_global",
+        "statement_id",
+        "host_ordinal_in_statement",
+        "physical_page",
+        "primary_governor_key",
+        "anchor_event_id",
+        "action_slot_id",
+        "action_root",
+        "gdt584_rule_id",
+        "completion_layer",
+        "written_carrier_count",
+        "written_carrier_roots",
+        "object_class",
+        "object_lemma_de",
+        "rendered_object_np_de",
+        "typing_card_id",
+        "reference_scope_card_id",
+        "reference_mode",
+        "source_pointer",
+        "gdt584_upstream_clause_de",
+        "gdt599_complete_clause_de",
+        "gdt599_new_completion"
+      ],
+      "guard_stats": {
+        "selected": 10,
+        "skipped_forbidden": 0,
+        "skipped_not_allowed": 1433
+      }
+    }
+  ],
+  "failed_direct_statement_query": {
+    "source": "experiments/yolo/gdt599_remaining_action_object_completion/artifacts/gdt599_313_complete_statements.tsv",
+    "outcome": "Guard rejected a short physical TSV row at line3; source contains multiline rendered fields. No bypass or full-row parse. Empty attempted output is not an evidence packet.",
+    "replacement": "All 14 whole-host rows reconstruct the exact three complete renderings; corroborated at reader headings S402/S441/S442. No target or content scope changed."
+  },
+  "scope": "GDT599 artifacts own six already admitted pages, not a mixed sealed transcription; exact three statement selectors yield only f81r/f81v. No new images/pages or reserves; full prior exposure."
+}

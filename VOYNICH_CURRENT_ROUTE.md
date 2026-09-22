@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: IDEA512 whole f37v account closed; next candidate479 remains unselected.
-Latest decision: 29ZL groups covered;20new values; organ/DRY gaps; terminal picture not supported.
-Working files: research_registry/decisions/idea512_whole_reading_closure_20260922.md
-Assumptions: Same Q/paste lineage conditional; IT2/RF4unknown; known image not independent;0words.
-Resume: Read479 via topics/route-check and599primaries; check wholeS402/S441/S442 before selection.
-Running: None; bounded512 development/review complete; no between-turn execution.
+Task: IDEA479 whole reference audit closed;360 remains an unselected source-only candidate.
+Latest decision: S441 rejects added same-bath strict entry;S442 keeps FROM/TO;599PASS unchanged.
+Working files: research_registry/decisions/idea479_reference_closure_20260922.md
+Assumptions: Discourse identity not physical bath/time; rival meanings unselected; exposed leaf81;0words.
+Resume: Topic numbers, ideas360/duplicates,969primaries and existing source dossier before any selection.
+Running: None; root and independent audit complete; no decoder or between-turn work.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
