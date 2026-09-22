@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1036 census for one whole extension of the frozen65+15 powder vocabulary.
-Latest decision: 516 covers82groups; repeated-Q rival fails conditionally; V1postconditions open.
-Working files: experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/PREREGISTRATION.md
-Assumptions: All meanings fitted; V2carrier completion separate;511untested;0words.
-Resume: Publish lock, execute all1349rows, independently validate and retain sole selected pair.
-Running: Root1036; independent runner/validator;author V2. Minimum14:47:48UTC.
+Task: Finish explicit powder-model V2, then attempt only the selected whole f4r.1-4 pair.
+Latest decision: 1036 all1349rows selects solef4r pair;31groups17/18fixed positions,13/12newtypes.
+Working files: experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md
+Assumptions: V1postconditions open;65+15values stay fixed;prior exposure;0words.
+Resume: Freeze V2 before inspecting selected text; attempt complete extension, no replacement.
+Running: Author V2;root publishes1036 then continues. Minimum14:47:48UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

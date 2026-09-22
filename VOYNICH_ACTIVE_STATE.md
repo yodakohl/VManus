@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1036 COMPLETE CAPACITY CENSUS: unchanged65+15inventory across1349whole rows selects only f4r.1-4 in both readers (31groups;17/18fixed positions;13/12newtypes). Whole leaves21/32excluded; source flags retained; both selected paragraphs uncertain. One complete exploratory extension next, no replacement target after failure. [Report](experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md).
+
 IDEA516 EXPLORATORY POWDER PAIR: complete82ZLgroups/238reader positions annotated under65primary values; conditional repeated-Q contradiction, FRESH and two-portions rivals retained. V1 lacks complete wet-GRIND/type postconditions; explicit V2 development separate. GDT1036 inventories unchanged65+15values for one entire cross-leaf extension; no meanings tested. [Primary critique](research_registry/decisions/raw370_whole_powder_partition_primary_review_20260922.md).
 
 GDT1035 READER-COMMON FOLLOWUP: all8chey occurrences survive unique-forced exact ZL/IT line alignment; common161positions82A79B still need5A/3B versus max4A. Fixed shared Galen code fails even this subset;1034 original decisions unchanged. Agreement is not independent palaeographic/semantic truth;0words. [Report](experiments/yolo/gdt1035_galen_reader_stable_capacity/REPORT.md).

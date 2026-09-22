@@ -1,0 +1,38 @@
+{
+  "record_id": "GDT1036",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root and independent reconstruction validator",
+  "assessment_basis": "registered_complete_exact_inventory_census",
+  "reason": "All1349complete paragraphs and749whole-locus groups retain exactlyone qualifying pairf4r.1-4. This is a deterministic developmental target, not a semantic test;13/12newtypes remain;alloldvaluesfixed. Both readers/sourceflags retained.0words.",
+  "evidence": [
+    "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md"
+  ],
+  "blockers": [
+    {
+      "code": "missing_complete_extension_reading",
+      "detail": "Whole selected31group paragraph not yet assigned its missing values under a completed shared model.",
+      "evidence": [
+        "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/artifacts/SELECTED.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "whole_selected_extension",
+        "change": "new_design",
+        "detail": "Complete only the selected entire pair under fixedoldvalues and explicitly declared construction/material rules, preserving uncertainty and counterversions.",
+        "evidence": [
+          "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Another identical coverage census",
+      "Replacing the chosen paragraph after an inconvenient outcome",
+      "Calling surface coverage independent meaning evidence"
+    ]
+  }
+}
