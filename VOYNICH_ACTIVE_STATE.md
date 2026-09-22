@@ -1,5 +1,8 @@
 # Voynich active state — structural reset baseline
 
+GDT1038 COMPLETE PACKING: one uniform atomic-or-binary rule maps all32 IT108r groups to the old33-terminal stream, exactly one path, with qokeedy split on46 and atomic on47. All88values/13authored patterns fixed; originalprojected and ZLextension preserved, originaldiplomatic ZL/IT still incomplete3/9unknowns. All316groups/5units/4models independently reconstructed; no meaning confirmation,0words. [Report](experiments/yolo/gdt1038_amulet_atomic_binary_packing/REPORT.md). No automatic aliases/thirdparts/newtargets; old1023/492stops remain.
+
+
 DEV516 q COMPOSITION: all65+15forms/238positions preserved. One shared partition relation plus3new typed lifts yields an exploratory SIEVE obligation on f32v.8 and partition-plus-LIFT_OUT subacts on f32v.9, not exact old whole-value derivation. qotey remains unbound; no65→62 reduction, no new corpus/decoder or meaning. Frozen offer has explicit counterframe correction in [closure](research_registry/decisions/powder_q_partition_closure_20260922.md).
 
 

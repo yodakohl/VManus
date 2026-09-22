@@ -2,14 +2,14 @@
 Updated: 2026-09-22. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: fixed_test
-Status: active
-Task: GDT1038 whole atomic/binary packing over 88fixed values and five complete reader units.
-Latest decision: q exact decomposition not obtained;518selected as fixed-tag compatibility, not grammar.
-Working files: experiments/yolo/gdt1038_amulet_atomic_binary_packing/METHOD.md
-Assumptions: All88meanings/13patterns authored; exposed units; RF absent; 0confirmation capacity.
-Resume: Publish code/input lock, freeze every lexical alternative, fit all4models, independently validate.
-Running: Root registration/main; independent validator; inclusive stop15:50UTC.
+Phase: exploration
+Status: checkpoint
+Task: Retain GDT1038 complete IT108r packing fit; choose a new whole-content discriminator.
+Latest decision: 32ITgroups yield fixed33terms once; originalraw83 fails; q exact decomposition absent.
+Working files: experiments/yolo/gdt1038_amulet_atomic_binary_packing/REPORT.md
+Assumptions: 88guesses/13authoredpatterns,0meaning; ZLflags/RFabsence; f4r and1037stops retained.
+Resume: Read1038DECISION plus518/492reviews; select only a new complete consequence, no local repair.
+Running: None; GDT1038 complete and independently checked; no next experiment selected.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
