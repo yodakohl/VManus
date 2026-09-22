@@ -2,14 +2,14 @@
 Updated: 2026-09-22. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Review IDEA518 whole atomic/binary lexical packing before any census.
-Latest decision: q adds sieve/subact assumptions but cannot derive all old whole values; qotey open.
-Working files: research_registry/decisions/powder_q_partition_closure_20260922.md
-Assumptions: 0words; q costs explicit; GDT1023/492fixed tag streams are not general grammar.
-Resume: Bind all whole readers and 88values/13patterns; preregister before any packing enumeration.
-Running: Root closure publication; bounded author/source review and idea producer.
+Task: GDT1038 whole atomic/binary packing over 88fixed values and five complete reader units.
+Latest decision: q exact decomposition not obtained;518selected as fixed-tag compatibility, not grammar.
+Working files: experiments/yolo/gdt1038_amulet_atomic_binary_packing/METHOD.md
+Assumptions: All88meanings/13patterns authored; exposed units; RF absent; 0confirmation capacity.
+Resume: Publish code/input lock, freeze every lexical alternative, fit all4models, independently validate.
+Running: Root registration/main; independent validator; inclusive stop15:50UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
