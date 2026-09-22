@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1035 fixed reader-stability check; develop whole two-paragraph alternative.
-Latest decision: 1034rawsharedcode fails; test whether forced ZL/IT occurrences suffice.
-Working files: experiments/yolo/gdt1035_galen_reader_stable_capacity/METHOD.md
-Assumptions: Same1034source/pools;readeragreement nottruth;511untested;0words.
-Resume: Lock/publish1035 before alignment; then inspect whole370-derived proposal.
-Running: Root1035;independent validator;whole-reading author;idea producer. Until14:47:48UTC.
+Task: Review complete two-paragraph material/quantity proposal under one shared lexicon.
+Latest decision: 1035 retains all8chey in161reader-common positions; shared Galen code fails.
+Working files: research_registry/decisions/composition_to_whole_meaning_next_step_review_20260922.md
+Assumptions: New370-derived values exploratory;no confirmed amounts/parts;511untested;0words.
+Resume: Obtain complete author proposal; check all82groups, bindings, variants and consequences.
+Running: Whole-reading author and bounded historical-content producer;root. Minimum14:47:48UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

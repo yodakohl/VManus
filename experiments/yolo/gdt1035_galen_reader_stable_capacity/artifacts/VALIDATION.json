@@ -1,0 +1,75 @@
+{
+  "experiment": "GDT1035",
+  "status": "PASS",
+  "independent_implementation": true,
+  "primary_read_or_imported": false,
+  "lcs_method": "memoized suffix DP; unions and intersections of all optimal branches; separate mandatory-reference-index intersection",
+  "input_hashes_verified": 6,
+  "lock_files_verified": 12,
+  "parent_lock_files_verified": 17,
+  "validator_sha256": "468a2e6db7442123d7e913942a7d6445e40b049cfcc17a1580f5212a1db96f61",
+  "reference_positions": 183,
+  "reconstructed_result": {
+    "experiment": "GDT1035",
+    "reference_positions": 183,
+    "qualifying_positions": 161,
+    "panels": {
+      "ZL_ALL_LITERAL_GROUPS": {
+        "A_positions": 94,
+        "B_positions": 86,
+        "shared_types": 13,
+        "required_pairs": 20,
+        "capacity": 21,
+        "empty_domains": [
+          "chey"
+        ],
+        "decision": "REFUTED_FIXED_SHARED_CODE"
+      },
+      "IT_ALL_LITERAL_GROUPS": {
+        "A_positions": 98,
+        "B_positions": 87,
+        "shared_types": 13,
+        "required_pairs": 21,
+        "capacity": 21,
+        "empty_domains": [
+          "aiin",
+          "al",
+          "chey"
+        ],
+        "decision": "REFUTED_FIXED_SHARED_CODE"
+      },
+      "UNIQUE_FORCED_COMMON": {
+        "A_positions": 82,
+        "B_positions": 79,
+        "shared_types": 11,
+        "required_pairs": 18,
+        "capacity": 21,
+        "empty_domains": [
+          "chey"
+        ],
+        "decision": "REFUTED_FIXED_SHARED_CODE"
+      }
+    },
+    "confirmed_words": 0,
+    "independent_readers": false,
+    "independent_meaning_capacity": 0,
+    "significance_claim": false
+  },
+  "artifacts_compared": [
+    "SCOPE.json",
+    "ALIGNMENTS.json",
+    "CANDIDATES.json",
+    "CANDIDATES.csv",
+    "RESULT.json"
+  ],
+  "synthetic": {
+    "status": "PASS",
+    "all_optimal_oracle_pairs": 225,
+    "forced_multiple": true,
+    "optional_duplicates": true,
+    "uncertain_raw_alignment": true,
+    "complete_panel_union": true,
+    "domain_decision": true,
+    "selector_poison": true
+  }
+}
