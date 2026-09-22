@@ -1,0 +1,81 @@
+{
+  "experiment": "GDT1034",
+  "status": "PASS",
+  "independent_implementation": true,
+  "primary_runner_read_or_imported": false,
+  "own_matching_solver_used": false,
+  "locks_verified": 17,
+  "validator_sha256": "d94fe533c64f1738ac2b057bc9793a3340aff2f41250ad846d1fffdd80cb0c5b",
+  "source_entries": {
+    "A": 67,
+    "B": 59
+  },
+  "source_nodes": {
+    "A": 95,
+    "B": 88
+  },
+  "allowed_occurrence_edges": 71,
+  "matching_size": 21,
+  "vertex_cover_size": 21,
+  "certificate_proof": "Feasible matching lower bound equals a vertex cover that covers every allowed edge; weak duality certifies maximum cardinality.",
+  "artifacts_compared": [
+    "CERTIFICATE.json",
+    "SCOPE.json",
+    "ALL_WORD_COUNTS.json",
+    "WORD_DOMAINS.json",
+    "RESULT.json"
+  ],
+  "reconstructed_result": {
+    "experiment": "GDT1034",
+    "panels": {
+      "RAW_EXACT": {
+        "A_positions": 95,
+        "B_positions": 88,
+        "shared_types": 13,
+        "required_pairs": 20,
+        "source_capacity": 21,
+        "deficit": 0,
+        "empty_word_domains": 1,
+        "decision": "REFUTED_FIXED_SHARED_CODE"
+      },
+      "LITERAL_LINES": {
+        "A_positions": 40,
+        "B_positions": 25,
+        "shared_types": 5,
+        "required_pairs": 6,
+        "source_capacity": 21,
+        "deficit": 0,
+        "empty_word_domains": 0,
+        "decision": "NO_DECISION"
+      }
+    },
+    "source_positions": {
+      "A": 95,
+      "B": 88
+    },
+    "allowed_entry_pairs": 33,
+    "B_pools": 46,
+    "confirmed_words": 0,
+    "independent_meaning_capacity": 0,
+    "significance_claim": false
+  },
+  "synthetic": {
+    "status": "PASS",
+    "checks": [
+      "perfect_cover_A",
+      "perfect_cover_B",
+      "empty_graph",
+      "seven_invalid_certificates",
+      "nonmaximum_greedy_rejected",
+      "complete_min_counts_and_zeros",
+      "selector_poison",
+      "literal_flag_identity",
+      "full_occurrence_expansion",
+      "decision_boundary_and_literal_relaxation",
+      "single_word_domain_empty_without_matching_deficit",
+      "all_shared_alias_domains",
+      "A_neighbor_union"
+    ]
+  },
+  "claim_limit": "Registered semantic compatibility is an input assumption. This validator checks complete reconstruction and the combinatorial certificate, not historical meanings or a translation."
+}

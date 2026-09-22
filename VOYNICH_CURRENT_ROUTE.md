@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1034 source-compatibility bound for one shared Galen code; aliases unrestricted.
-Latest decision: 1033 no frames;13old-map conflicts alone do not exclude new joint assignments.
-Working files: experiments/yolo/gdt1034_galen_shared_code_capacity/METHOD.md
-Assumptions: 183fixed slots; full denotations before reference; semantic edge overapproximation.
-Resume: Seal source edges and independent validator, publish before new target counts.
-Running: source-edge critic; certificate validator;root. Budget11:54;five-hour minimum14:47:48UTC.
+Task: Close1034; review511 meaning-preserving spelling-choice consequence and its predecessor.
+Latest decision: 1034 raw joint code fails chey5_3/maxA4; literal lines undecided; no restart.
+Working files: experiments/yolo/gdt1034_galen_shared_code_capacity/REPORT.md
+Assumptions: Fixed whole source atoms; generous compatibility covers;0confirmed words.
+Resume: Recover IL008 primary before511 promotion; do not rerun1031 capacity audit.
+Running: bounded511 predecessor reviewer;root publication. Five-hour minimum14:47:48UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+GDT1034 SHARED GALEN CODE: all new global assignments excluded on the full raw183-slot inventories under fixed conservative semantic covers: chey requires5A/3B, every compatible pool has at most4A. Unlimited aliases allowed; total matching20<=21 itself does NOT exclude. Literal-line panel40/25positions remains NO_DECISION. Conditional raw closure only, not a universal source/transcription exclusion;0words. [Report](experiments/yolo/gdt1034_galen_shared_code_capacity/REPORT.md).
+
 GDT1033 LOCAL FOOD FRAME: all59 exact lshedy occurrences outside development leaves76/80 lack both fixed LONG andSHORT;42literal/17uncertain, all1349metadata checked independently. NO_CAPACITY, not compatibility or contradiction. Close without new gap/anchor/N. [Report](experiments/yolo/gdt1033_galen_negated_food_slot/REPORT.md).
 
 GDT1032 SOURCE GRAMMAR: independent native reads of old Ashmole f13v retain three similiter hic locations, beside nominal and uncertain clause captions. Universal noun-only label premise has a counterexample; no calibrated AND/HOURS preference. Both Met downloads hash-mismatch and stayed unopened.0Voynich words. [Report](experiments/yolo/gdt1032_owned_diagram_inscription_grammar/REPORT.md).
