@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Review complete two-paragraph material/quantity proposal under one shared lexicon.
-Latest decision: 1035 retains all8chey in161reader-common positions; shared Galen code fails.
-Working files: research_registry/decisions/composition_to_whole_meaning_next_step_review_20260922.md
-Assumptions: New370-derived values exploratory;no confirmed amounts/parts;511untested;0words.
-Resume: Obtain complete author proposal; check all82groups, bindings, variants and consequences.
-Running: Whole-reading author and bounded historical-content producer;root. Minimum14:47:48UTC.
+Task: GDT1036 census for one whole extension of the frozen65+15 powder vocabulary.
+Latest decision: 516 covers82groups; repeated-Q rival fails conditionally; V1postconditions open.
+Working files: experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/PREREGISTRATION.md
+Assumptions: All meanings fitted; V2carrier completion separate;511untested;0words.
+Resume: Publish lock, execute all1349rows, independently validate and retain sole selected pair.
+Running: Root1036; independent runner/validator;author V2. Minimum14:47:48UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

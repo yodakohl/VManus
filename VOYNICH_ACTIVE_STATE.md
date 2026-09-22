@@ -1,5 +1,7 @@
 # Voynich active state — structural reset baseline
 
+IDEA516 EXPLORATORY POWDER PAIR: complete82ZLgroups/238reader positions annotated under65primary values; conditional repeated-Q contradiction, FRESH and two-portions rivals retained. V1 lacks complete wet-GRIND/type postconditions; explicit V2 development separate. GDT1036 inventories unchanged65+15values for one entire cross-leaf extension; no meanings tested. [Primary critique](research_registry/decisions/raw370_whole_powder_partition_primary_review_20260922.md).
+
 GDT1035 READER-COMMON FOLLOWUP: all8chey occurrences survive unique-forced exact ZL/IT line alignment; common161positions82A79B still need5A/3B versus max4A. Fixed shared Galen code fails even this subset;1034 original decisions unchanged. Agreement is not independent palaeographic/semantic truth;0words. [Report](experiments/yolo/gdt1035_galen_reader_stable_capacity/REPORT.md).
 
 GDT1034 SHARED GALEN CODE: all new global assignments excluded on the full raw183-slot inventories under fixed conservative semantic covers: chey requires5A/3B, every compatible pool has at most4A. Unlimited aliases allowed; total matching20<=21 itself does NOT exclude. Literal-line panel40/25positions remains NO_DECISION. Conditional raw closure only, not a universal source/transcription exclusion;0words. [Report](experiments/yolo/gdt1034_galen_shared_code_capacity/REPORT.md).

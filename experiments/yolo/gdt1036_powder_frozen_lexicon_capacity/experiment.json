@@ -1,0 +1,105 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Development capacity only; no semantic test, meaning likelihood, independent confirmation or significance;0confirmedwords.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/src/validate.py --execute"
+  },
+  "created": "2026-09-22",
+  "dependencies": [
+    "GDT928",
+    "GDT994"
+  ],
+  "experiment_id": "GDT1036",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/raw370_two_paragraph_powder_partition_offer_20260922.json",
+      "role": "fixed_whole_vocabulary",
+      "sha256": "4654afe0414d85f431371c799df6189b73b2cd4ace6adfc7eae833a51bf837da"
+    },
+    {
+      "path": "research_registry/proposals/raw370_whole_paragraph_source_packet_20260922.json",
+      "role": "owned_development_source",
+      "sha256": "d35fb71297447b47c1111d6eeac85455d27fff8b8d24b228ee0058cdf4078b98"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "owned_exposed_population",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/METHOD.md",
+      "role": "source_or_preregistration",
+      "sha256": "86f3e62612c3d4188806777cf3bd807ee136ebf2ed1c89463f610e93a919f97e"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/PREREGISTRATION.md",
+      "role": "source_or_preregistration",
+      "sha256": "945efe519d190af740eb37808db248ae53c05995648585ebb3e15e01730330d8"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/PREREG_LOCK.json",
+      "role": "source_or_preregistration",
+      "sha256": "7cf018a007ba8d0690de61027191ffd4a4caedae1f0dbc5d012b19f269227146"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/README.md",
+      "role": "source_or_preregistration",
+      "sha256": "212c5d8ebab7d52b5f474778896b31318b7f9a01c0104e9aec650beedc5374b6"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md",
+      "role": "source_or_preregistration",
+      "sha256": "45938f7637f29640cf277b978e6f052b1a62560022e1f0b70958df0fdfcf6534"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/artifacts/PREFLIGHT.json",
+      "role": "source_or_preregistration",
+      "sha256": "5856da61884c016a2a41bc29eb4c2ad50b8ef2acdf63eb9a3cbcdb72ad0d41c1"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/artifacts/README.md",
+      "role": "source_or_preregistration",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/src/SOURCE.json",
+      "role": "source_or_preregistration",
+      "sha256": "40d3caca3b8df526df6de4546c0e6c5ed2673e894d90931f2e05dcf37205cf5a"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/src/SPEC.json",
+      "role": "source_or_preregistration",
+      "sha256": "4fd3c04e7b066569b6279fb83fb3a4da38eac22c11ead054b7157b4602c68497"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/src/run.py",
+      "role": "source_or_preregistration",
+      "sha256": "872e49004e4efd85ffc7be1f957a351b7fc84f6d112c82272b7e0a05d88b6304"
+    },
+    {
+      "path": "experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/src/validate.py",
+      "role": "source_or_preregistration",
+      "sha256": "d4a9cfe8dc467f383390db401c1c2adb69dfaf5589045fcfd683080c3e0033b3"
+    }
+  ],
+  "question": "Does the frozen65+15 powder inventory cover enough of one entire additional ZL/IT paragraph pair for a bounded shared extension?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "powder_frozen_lexicon_capacity",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Frozen powder vocabulary capacity for one complete cross-leaf continuation",
+  "updated": "2026-09-22",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

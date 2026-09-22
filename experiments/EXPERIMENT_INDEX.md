@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1034**
-- Experiment-associated tracked files: **20,592** (1.9 GiB)
-- Structured GDT337+ experiments: **699**
+- Experiments indexed: **1035**
+- Experiment-associated tracked files: **20,604** (1.9 GiB)
+- Structured GDT337+ experiments: **700**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1036 | Frozen powder vocabulary capacity for one complete cross-leaf continuation | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md) | 12 | 50.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT1035 | GDT1035 | `READER_COMMON_GALEN_CODE_REFUTED` | [report](../experiments/yolo/gdt1035_galen_reader_stable_capacity/REPORT.md) | 17 | 250.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT1034 | GDT1034_PROVENANCE | `AUTHORSHIP_WORDING_CLARIFIED_NO_SCIENTIFIC_CHANGE` | [report](../experiments/yolo/gdt1034_galen_shared_code_capacity/REPORT.md) | 23 | 340.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT1033 | GDT1033 | `NO_CAPACITY_FIXED_GALEN_ATOMIC_FOOD_FRAME` | [report](../experiments/yolo/gdt1033_galen_negated_food_slot/REPORT.md) | 16 | 591.6 KiB | 3 | STRUCTURED_YOLO |
