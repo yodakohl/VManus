@@ -1,0 +1,96 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One added local grammar/type constraint only, no confirmed words or source identity.",
+  "commands": {
+    "run": "python experiments/yolo/gdt1033_galen_negated_food_slot/src/run.py",
+    "validate": "python experiments/yolo/gdt1033_galen_negated_food_slot/src/validate.py --execute"
+  },
+  "created": "2026-09-22",
+  "dependencies": [
+    "GDT928",
+    "GDT373",
+    "GDT608"
+  ],
+  "experiment_id": "GDT1033",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/raw_galen_negated_food_slot_writer_20260922.json",
+      "role": "fixed_existing_source",
+      "sha256": "e1dec9ef39039e55b1692161c6a55202f86dd3a53e2d05aa3062f64df824fd34"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "fixed_existing_source",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "research_registry/proposals/raw_galen_2445_frozen38_extension_20260921.json",
+      "role": "fixed_existing_source",
+      "sha256": "de9c602901a0d893e0d913f0086781a64357982f3c89c9157e160fa8d579a4bb"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1033_galen_negated_food_slot/METHOD.md",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "81e9ef0236882653692ca79ca029deb0e28265f59f9c689e34e414220fbd22d1"
+    },
+    {
+      "path": "experiments/yolo/gdt1033_galen_negated_food_slot/PREREGISTRATION.md",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "cdf93ea15e3d567a8adcbc126906f40c702d8390c4e5fa35cd35e3aa4e3246e9"
+    },
+    {
+      "path": "experiments/yolo/gdt1033_galen_negated_food_slot/PREREG_LOCK.json",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "6009dac98482a74445284086e97a9344d0821f11c73bba84a26adea6cbed34e4"
+    },
+    {
+      "path": "experiments/yolo/gdt1033_galen_negated_food_slot/README.md",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "68244b7135668b39b71381e31211251ac82f7faf4bffeddf295e846bda251d40"
+    },
+    {
+      "path": "experiments/yolo/gdt1033_galen_negated_food_slot/artifacts/PREFLIGHT.json",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "76508d8610408d435257c91f82845fdbe0594c8556a08a6b638a06ef83731d60"
+    },
+    {
+      "path": "experiments/yolo/gdt1033_galen_negated_food_slot/artifacts/README.md",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "e87c39f7b96db332bb6e68cddb7a092b67d79bb5ae853db312114e309cfd8c9b"
+    },
+    {
+      "path": "experiments/yolo/gdt1033_galen_negated_food_slot/src/SPEC.json",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "c43d32fe42a17cf8daec73e0de02a42381df46c7dc07bab6f23d82caf7c89a1d"
+    },
+    {
+      "path": "experiments/yolo/gdt1033_galen_negated_food_slot/src/run.py",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "a8b6c2b0d26597792dc8f3b88ba862e4ef60a0f32499ce89764688324b8a9b69"
+    },
+    {
+      "path": "experiments/yolo/gdt1033_galen_negated_food_slot/src/validate.py",
+      "role": "preregistered_source_or_preflight",
+      "sha256": "4ef8dc8cf8efe18fb04cc06534e3a639d0a38a7e9c79331254a1313736479d0f"
+    }
+  ],
+  "question": "Do all literal N X lshedy frames outside development leaves accept the one-atomic-food type fixed by the59-value Galen hypothesis?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "galen_negated_food_slot",
+  "status": "REGISTERED_UNSCORED",
+  "title": "galen negated food slot",
+  "updated": "2026-09-22",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

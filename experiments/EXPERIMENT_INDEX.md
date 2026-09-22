@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1031**
-- Experiment-associated tracked files: **20,536** (1.9 GiB)
-- Structured GDT337+ experiments: **696**
+- Experiments indexed: **1032**
+- Experiment-associated tracked files: **20,546** (1.9 GiB)
+- Structured GDT337+ experiments: **697**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1033 | galen negated food slot | `REGISTERED_UNSCORED` | — | 10 | 33.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT1032 | GDT1032 | `QUALITATIVE_MIXED_HISTORICAL_INSCRIPTION_GRAMMAR` | [report](../experiments/yolo/gdt1032_owned_diagram_inscription_grammar/REPORT.md) | 16 | 74.1 KiB | 2 | STRUCTURED_YOLO |
 | GDT1031 | GDT1031 | `NO_CAPACITY_FIXED_SYNONYM_RECURRENCE` | [report](../experiments/yolo/gdt1031_synonym_recurrence_shortening/REPORT.md) | 20 | 1.0 MiB | 4 | STRUCTURED_YOLO |
 | GDT1030 | GDT1030 | `SUPPORTED_LIMITED_WHOLE_CLOCK_REFERENCE_ACCOUNT` | [report](../experiments/yolo/gdt1030_clock_whole_reference_consequences/REPORT.md) | 32 | 847.8 KiB | 4 | STRUCTURED_YOLO |
