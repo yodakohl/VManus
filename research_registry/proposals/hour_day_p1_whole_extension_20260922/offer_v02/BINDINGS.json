@@ -1,0 +1,109 @@
+{
+  "status": "V2_EXPLICIT_BINDING_CONTRACT",
+  "count": 6,
+  "bindings": [
+    {
+      "id": "B01_DAY_ENDPOINT_COMPARISON",
+      "kind": "reference",
+      "scope": [
+        "C01",
+        "C08"
+      ],
+      "variables": {
+        "S0": "C01.interval_start=qokeol",
+        "N_frame": "C01.frame_count=daiin#1=24",
+        "N_return": "C01.return_count=daiin#2=24",
+        "E_frame": "step(S0,N_frame,count_step=shckhy)",
+        "E_return": "step(S0,N_return,sequence=shey)"
+      },
+      "function": "E_frame = step(S0,24,shckhy); E_return = step(S0,24,shey); conditional comparison E_frame == E_return only when both terminal counts are interpreted over the C01 frame.",
+      "consequence": "The two 24 units yield the same formal endpoint under the declared frame; this is a typed comparison, not a physical astronomy claim.",
+      "comparison_contract": {
+        "same_frame_case": "If FRAME_UNITS and RETURN_UNITS are two roles over the same C01 sequence, compare E_frame=step(S0,24,FRAME_UNITS) with E_return=return_to(S0,24,shey); the declared consequence is E_frame==E_return.",
+        "alternative_case": "If the roles use different unit domains, the equality is unbound and remains an explicit rival; repeated daiin spelling cannot decide it.",
+        "scope_limit": "Formal endpoint comparison only; no physical duration, sunrise, absolute hour or P2 identity is inferred."
+      }
+    },
+    {
+      "id": "B02_TWO_24_ROLES",
+      "kind": "scope",
+      "scope": [
+        "C01"
+      ],
+      "statement": "daiin#1 is FRAME_UNITS consumed by P1_FRAME_COUNT; daiin#2 is RETURN_UNITS consumed by the return slot. They share value 24 but are distinct written arguments; neither occurrence is collapsed."
+    },
+    {
+      "id": "B03_RULER_SUCCESSOR_TYPE",
+      "kind": "reference",
+      "scope": [
+        "C03",
+        "C04",
+        "C07",
+        "C08"
+      ],
+      "statement": "cheey/sheky successor arguments belong to RULER or member transitions; DAY succession is a separate type and is never substituted for H.",
+      "ruler_identity_map": {
+        "C03.qokaiin": "R_C03",
+        "C04.qokaiin": "R_C04",
+        "C09.qokaiin[1]": "R_C09a",
+        "C09.qokaiin[2]": "R_C09b"
+      },
+      "unbound": "No cross-clause ruler identity equality is asserted."
+    },
+    {
+      "id": "B04_DERIVED_PHASE_SCOPE",
+      "kind": "reference",
+      "scope": [
+        "C02",
+        "C05",
+        "C09"
+      ],
+      "statement": "P1_PHASE_DERIVATION passes a typed phase argument from the C02 day/hour boundary through the C05 threshold to the C09 closing phase; the IT split remains unresolved.",
+      "derivation_sources": {
+        "C02.qokal": "qokeedy + dchedy + qokain",
+        "C04.qokal": "chkeey + qokaiin + qoky",
+        "C05.qokal[1]": "qokeedy + lkchedy",
+        "C05.qokal[2]": "qoteedy + chedy"
+      }
+    },
+    {
+      "id": "B05_NIGHT_SCOPE",
+      "kind": "scope",
+      "scope": [
+        "C02",
+        "C05",
+        "C08"
+      ],
+      "statement": "NightSpan/NightReference/NightBeginning are arguments inside one Day scope; no second day or reset is introduced.",
+      "directional_includes": "C08 qotal INCLUDES has whole=qokedy DAY and included=chedy DAYLIGHT; direction is retained."
+    },
+    {
+      "id": "B06_READER_BRANCH",
+      "kind": "reader",
+      "scope": [
+        "C01",
+        "C06",
+        "C08",
+        "C09"
+      ],
+      "statement": "ZL3b and IT2a are separate terminal branches. IT qocseedy, sor, lchor, sshol and shecthy remain unknown; IT C08 qokeey is inherited FIRST while ZL qekeey is new SECOND_START.",
+      "source_differences": [
+        "C01 qocseedy vs qosheedy",
+        "C06 sor vs sar",
+        "C08 IT qokeey FIRST vs ZL qekeey SECOND_START",
+        "C08 IT lchor vs ZL lcho + r",
+        "C09 IT sshol + shecthy vs ZL ssholshecthy"
+      ]
+    }
+  ],
+  "unbound_nodes": [
+    "U01 C01 successor base member and unit identity are not written",
+    "U02 C08 successor base member and order are not written",
+    "U03 IT qocseedy semantic value",
+    "U04 IT sor semantic value",
+    "U05 IT lchor semantic value",
+    "U06 IT C09 sshol/shecthy split semantic value",
+    "U07 IT C08 omitted THEREFORE premise/conclusion",
+    "U08 whether formal endpoint equality corresponds to physical duration"
+  ]
+}

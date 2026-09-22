@@ -5,11 +5,11 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Four-hour content research; 2026-09-22 16:21:07–20:21:07UTC minimum.
-Latest decision: GDT1039 closed conditional; select IDEA519 whole f82r P1 extension with60values fixed.
-Working files: research_registry/decisions/hour_day_p1_whole_extension_decision_20260922.md
-Assumptions: 72ZL/72ITP1 plus old80P2;42newvalues/4productions/6bindings caps; no reserves;0words.
-Resume: Review full519 draft and written consequence by18:00UTC; no simulator for an unfinished contract.
-Running: Whole-reading author, root source/content critique, bounded idea producer. Minimum end20:21:07UTC.
+Latest decision: Close519 incomplete grammar/endpoint;521whole pair exceeds8new-value cap. No replay.
+Working files: research_registry/proposals/f37v_stored_material_continuation_20260922/CONTENT_STOP.md
+Assumptions: 522whole25ZL/23ITsource;12new-value cap; oldpowder/material debts fixed; no reserves;0words.
+Resume: Independently verify522capacity, publish519/521; review existing wholeloan construction next.
+Running: Root synthesis/publication,522critic, bounded idea producer. Minimum end20:21:07UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

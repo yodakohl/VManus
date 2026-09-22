@@ -1,0 +1,199 @@
+{
+  "status": "INHERITED_P2_CONTRACT_ACCOUNT",
+  "source": "experiments/yolo/gdt1015_coupled_hour_day_reading/MODEL_v01.json",
+  "old_value_count": 60,
+  "old_values_used_in_p1": 15,
+  "old_values_not_seen_in_p1": 45,
+  "old_exact_constructions": 12,
+  "constructions": [
+    {
+      "id": "C01",
+      "start": 1,
+      "end": 8,
+      "kind": "DAY_DEFINITION",
+      "pattern": [
+        "DEFINE",
+        "DAY",
+        "SPAN",
+        "COMPLETE",
+        "RETURN_INTERVAL",
+        "INCLUDES",
+        "DAYLIGHT",
+        "BOUNDARY"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C02",
+      "start": 9,
+      "end": 16,
+      "kind": "CYCLE_DEFINITION",
+      "pattern": [
+        "ORDER",
+        "SEVEN",
+        "SUCCESSIVE",
+        "MEMBER",
+        "CYCLIC",
+        "RETURN_START",
+        "AFTER",
+        "LAST_MEMBER"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C03",
+      "start": 17,
+      "end": 24,
+      "kind": "HOUR_TRANSITION",
+      "pattern": [
+        "WHEN",
+        "START",
+        "HOUR",
+        "ADVANCE",
+        "BY",
+        "NEXT_MEMBER",
+        "NOT",
+        "RESET"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C04",
+      "start": 25,
+      "end": 29,
+      "kind": "NAME_RULE",
+      "pattern": [
+        "THEREFORE",
+        "NAME",
+        "DERIVED",
+        "FROM",
+        "INITIAL_POINT"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C05",
+      "start": 30,
+      "end": 33,
+      "kind": "INITIAL_RULER",
+      "pattern": [
+        "SELECT",
+        "FIRST",
+        "RULER",
+        "START"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C06",
+      "start": 34,
+      "end": 39,
+      "kind": "NIGHT_INCLUDED",
+      "pattern": [
+        "COUNT_WITH",
+        "NIGHT",
+        "DAY",
+        "HOUR",
+        "ASSIGNED_TO",
+        "RULER"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C07",
+      "start": 40,
+      "end": 43,
+      "kind": "DAY_LENGTH",
+      "pattern": [
+        "THIS",
+        "TWENTY_FOUR",
+        "CONSISTS_OF",
+        "THIS"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C08",
+      "start": 44,
+      "end": 47,
+      "kind": "NIGHT_SUCCESSION",
+      "pattern": [
+        "HOUR",
+        "NIGHT",
+        "HOUR",
+        "NEXT_MEMBER"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C09",
+      "start": 48,
+      "end": 55,
+      "kind": "REDUCTION",
+      "pattern": [
+        "THEREFORE",
+        "REDUCE",
+        "REMOVE",
+        "CYCLE",
+        "THREE",
+        "FROM",
+        "DAY_COUNT",
+        "REMAINDER"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C10",
+      "start": 56,
+      "end": 63,
+      "kind": "METHOD_A",
+      "pattern": [
+        "NOW",
+        "COUNT_THROUGH",
+        "DAYLIGHT",
+        "WHOLE",
+        "DAY",
+        "UNTIL",
+        "HOUR",
+        "AFTER_LAST_HOUR"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C11",
+      "start": 64,
+      "end": 75,
+      "kind": "METHOD_B",
+      "pattern": [
+        "OTHER_METHOD",
+        "SKIP",
+        "ONE_MEMBER",
+        "ONE_MEMBER",
+        "THEN_AFTER",
+        "BY",
+        "FIRST",
+        "UNSKIPPED",
+        "IN",
+        "CYCLE",
+        "REACH",
+        "SAME"
+      ],
+      "p1_reuse": "none"
+    },
+    {
+      "id": "C12",
+      "start": 76,
+      "end": 80,
+      "kind": "METHOD_COMPARISON",
+      "pattern": [
+        "METHOD",
+        "AGREES_IN",
+        "METHOD",
+        "HOUR",
+        "RULERSHIP"
+      ],
+      "p1_reuse": "none"
+    }
+  ],
+  "policy": "All twelve old P2 patterns, argument orders and meanings remain fixed for the old 80-position account. V2 uses old lexical terminals only; it does not borrow any P2 pattern as a free P1 template. The four P1 patterns are separately declared in CONSTRUCTIONS.json."
+}

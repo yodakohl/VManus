@@ -1,0 +1,517 @@
+{
+  "status": "V2_TYPED_CONSTRUCTION_CONTRACT",
+  "source": "SOURCE.json",
+  "productions": [
+    {
+      "id": "P1_FRAME_COUNT",
+      "result_type": "TemporalFrame",
+      "reusable_across": [
+        "ZL3b:C01",
+        "IT2a:C01"
+      ],
+      "ordered_arguments": [
+        {
+          "name": "prior_interval",
+          "type": "Interval",
+          "terminal": "qosheedy|qocseedy"
+        },
+        {
+          "name": "interval_start",
+          "type": "Point",
+          "terminal": "qokeol"
+        },
+        {
+          "name": "frame_count",
+          "type": "Count[24]",
+          "terminal": "daiin#1"
+        },
+        {
+          "name": "count_step",
+          "type": "CountingStep",
+          "terminal": "shckhy"
+        },
+        {
+          "name": "division",
+          "type": "IntervalDivision",
+          "terminal": "okeeor"
+        },
+        {
+          "name": "successor",
+          "type": "MemberSuccessor",
+          "terminal": "cheey"
+        },
+        {
+          "name": "return_count",
+          "type": "Count[24]",
+          "terminal": "daiin#2"
+        },
+        {
+          "name": "sequence",
+          "type": "Sequence",
+          "terminal": "shey"
+        }
+      ],
+      "constructor": "Frame(prior_interval, interval_start, frame_count, count_step, division, successor, return_count, sequence)",
+      "well_formedness": "frame_count.value=24; return_count.value=24; frame_count and return_count are distinct roles over the same explicit sequence; no unit is silently omitted."
+    },
+    {
+      "id": "P1_PHASE_DERIVATION",
+      "result_type": "DerivedPhase",
+      "reusable_across": [
+        "ZL3b:C02",
+        "IT2a:C02",
+        "ZL3b:C05",
+        "IT2a:C05",
+        "ZL3b:C09",
+        "IT2a:C09"
+      ],
+      "templates": [
+        {
+          "clause": "C02",
+          "ordered_arguments": [
+            [
+              "day_segment",
+              "DaySegment",
+              "dchedy"
+            ],
+            [
+              "night_span",
+              "NightSpan",
+              "qolchedy"
+            ],
+            [
+              "initial_point",
+              "Point",
+              "qokain"
+            ],
+            [
+              "deictic",
+              "This<Point>(antecedent=initial_point)",
+              "dy"
+            ],
+            [
+              "hour",
+              "Hour",
+              "qokeedy"
+            ],
+            [
+              "derived",
+              "DerivedMark",
+              "qokal"
+            ],
+            [
+              "night_boundary",
+              "Boundary",
+              "lcheckhy"
+            ],
+            [
+              "night_end",
+              "Endpoint",
+              "lched"
+            ]
+          ],
+          "relation": "derived = derive(hour, day_segment, initial_point); dy = This<Point>(antecedent=qokain)"
+        },
+        {
+          "clause": "C05",
+          "ordered_arguments": [
+            [
+              "cycle",
+              "Cycle",
+              "sol"
+            ],
+            [
+              "night_reference",
+              "NightReference",
+              "lkchedy"
+            ],
+            [
+              "hour",
+              "Hour",
+              "qokeedy"
+            ],
+            [
+              "derived_in",
+              "DerivedMark",
+              "qokal"
+            ],
+            [
+              "threshold",
+              "Threshold",
+              "cthol"
+            ],
+            [
+              "daylight",
+              "Daylight",
+              "chedy"
+            ],
+            [
+              "duration",
+              "Duration",
+              "qoteedy"
+            ],
+            [
+              "derived_out",
+              "DerivedMark",
+              "qokal"
+            ]
+          ],
+          "relations": [
+            "derived_in = derive(hour, night_reference)",
+            "derived_out = derive(duration, daylight)"
+          ]
+        },
+        {
+          "clause": "C09",
+          "ordered_arguments": [
+            [
+              "closing_phase",
+              "ClosingPhase",
+              "ZL:ssholshecthy|IT:sshol + shecthy (two terminals)"
+            ],
+            [
+              "ruler_in",
+              "Ruler",
+              "qokaiin#1"
+            ],
+            [
+              "order_limit",
+              "OrderLimit",
+              "chkedy"
+            ],
+            [
+              "source_sequence",
+              "SequenceSource",
+              "rchey"
+            ],
+            [
+              "derived_position",
+              "DerivedPosition",
+              "dairchey"
+            ],
+            [
+              "ruler_out",
+              "Ruler",
+              "qokaiin#2"
+            ]
+          ],
+          "relations": [
+            "closing_phase is branch terminal only",
+            "ruler identities are R_C09a and R_C09b; no equality is silently added"
+          ],
+          "branch_terminal_parts": {
+            "ZL3b": [
+              "ssholshecthy"
+            ],
+            "IT2a": [
+              "sshol",
+              "shecthy"
+            ]
+          }
+        }
+      ],
+      "constructor": "DerivedPhase(arguments in the clause template order)",
+      "well_formedness": "dy is a typed backward This<Point> whose antecedent is the immediately prior qokain INITIAL_POINT in C02; it does not borrow a later HOUR or DAY. Every DERIVED mark names its source arguments in its template relation."
+    },
+    {
+      "id": "P1_RULER_SUCCESSION",
+      "result_type": "RulerTransition",
+      "reusable_across": [
+        "ZL3b:C03",
+        "IT2a:C03",
+        "ZL3b:C04",
+        "IT2a:C04",
+        "ZL3b:C07",
+        "IT2a:C07"
+      ],
+      "templates": [
+        {
+          "clause": "C03",
+          "ordered_arguments": [
+            [
+              "first",
+              "Ordinal",
+              "qokeey"
+            ],
+            [
+              "night_successor",
+              "NightSuccessor",
+              "lcheckhedy"
+            ],
+            [
+              "derived_sequence",
+              "DerivedSequence",
+              "qokaly"
+            ],
+            [
+              "ruler_cycle",
+              "RulerCycle",
+              "solkaiin"
+            ],
+            [
+              "phase_change",
+              "PhaseChange",
+              "chckhy"
+            ],
+            [
+              "ruler_out",
+              "Ruler",
+              "qokaiin"
+            ]
+          ],
+          "relations": [
+            "FIRST is selected over ruler_cycle=solkaiin; ruler_out identity R_C03"
+          ]
+        },
+        {
+          "clause": "C04",
+          "ordered_arguments": [
+            [
+              "ruler_in",
+              "Ruler",
+              "qokaiin"
+            ],
+            [
+              "order_mark",
+              "OrderMark",
+              "octheol"
+            ],
+            [
+              "prior_member",
+              "Member",
+              "chkeey"
+            ],
+            [
+              "time_point",
+              "Point",
+              "ldy"
+            ],
+            [
+              "arrange",
+              "Arrangement",
+              "oteey"
+            ],
+            [
+              "derived",
+              "DerivedMark",
+              "qokal"
+            ],
+            [
+              "ruler_step",
+              "RulerStep",
+              "sheckhy"
+            ],
+            [
+              "target",
+              "Point",
+              "qoky"
+            ]
+          ],
+          "relations": [
+            "ruler_in identity R_C04; derived = derive(prior_member, ruler_in, target)"
+          ]
+        },
+        {
+          "clause": "C07",
+          "ordered_arguments": [
+            [
+              "now",
+              "TemporalDeictic",
+              "dshedy"
+            ],
+            [
+              "start_count",
+              "CountStart",
+              "sotaiin"
+            ],
+            [
+              "origin",
+              "Origin",
+              "qokar"
+            ],
+            [
+              "member",
+              "Member",
+              "shedy"
+            ],
+            [
+              "unit_sequence",
+              "UnitSequence",
+              "solshedy"
+            ],
+            [
+              "first",
+              "Ordinal",
+              "qokeey"
+            ],
+            [
+              "target",
+              "Point",
+              "qoky"
+            ],
+            [
+              "within_cycle",
+              "CycleScope",
+              "ls"
+            ],
+            [
+              "successor",
+              "MemberSuccessor",
+              "cheey"
+            ]
+          ],
+          "relations": [
+            "FIRST is selected over unit_sequence=solshedy; successor base=shedy member and order=solshedy"
+          ]
+        }
+      ],
+      "constructor": "RulerTransition(arguments in the clause template order)",
+      "well_formedness": "FIRST always has a declared domain; qokaiin occurrences carry distinct occurrence identities unless a listed binding equates them. cheey is a successor only where a base member is supplied."
+    },
+    {
+      "id": "P1_SCOPE_TRANSITION",
+      "result_type": "ScopedTransition",
+      "reusable_across": [
+        "ZL3b:C06",
+        "IT2a:C06",
+        "ZL3b:C08",
+        "IT2a:C08"
+      ],
+      "templates": [
+        {
+          "clause": "C06",
+          "ordered_arguments": [
+            [
+              "segment",
+              "Segment",
+              "sar|sor"
+            ],
+            [
+              "member",
+              "Member",
+              "shedy"
+            ],
+            [
+              "link",
+              "Link",
+              "qol"
+            ],
+            [
+              "unit_count",
+              "UnitCount",
+              "shedaiin"
+            ],
+            [
+              "ruler_step",
+              "RulerStep",
+              "sheckhy"
+            ],
+            [
+              "after",
+              "ScopeRelation",
+              "okal"
+            ],
+            [
+              "successor",
+              "MemberSuccessor",
+              "sheky"
+            ],
+            [
+              "count",
+              "Count",
+              "qotaiin"
+            ],
+            [
+              "closure",
+              "Closure",
+              "chedol"
+            ]
+          ],
+          "relations": [
+            "after = ordered_after(previous=ruler_step, current=successor, domain=member_sequence)"
+          ]
+        },
+        {
+          "clause": "C08",
+          "ordered_arguments": [
+            [
+              "start_ordinal",
+              "Ordinal",
+              "ZL:qekeey SECOND_START|IT:qokeey FIRST"
+            ],
+            [
+              "applied_unit",
+              "AppliedUnit",
+              "sheedy"
+            ],
+            [
+              "day",
+              "Day",
+              "qokedy"
+            ],
+            [
+              "night_beginning",
+              "NightBeginning",
+              "ZL:lcho|IT:lchor"
+            ],
+            [
+              "therefore",
+              "Connector",
+              "ZL:r|IT:omitted at source seam"
+            ],
+            [
+              "successor",
+              "MemberSuccessor",
+              "cheey"
+            ],
+            [
+              "selected",
+              "Member",
+              "qokey"
+            ],
+            [
+              "includes",
+              "ScopeRelation",
+              "qotal"
+            ],
+            [
+              "daylight",
+              "Daylight",
+              "chedy"
+            ],
+            [
+              "endpoint",
+              "Endpoint",
+              "qoteor"
+            ]
+          ],
+          "relations": [
+            "includes = Includes(whole=day, included=daylight), preserving direction",
+            "ZL r = Therefore(premise=night_beginning, conclusion=successor_selection); IT r is absent at the source seam",
+            "ZL lcho and IT lchor are branch terminals"
+          ]
+        }
+      ],
+      "constructor": "ScopedTransition(arguments in the clause template order; optional therefore is an explicit source omission in IT)",
+      "well_formedness": "IT C08 preserves FIRST=qokeey and lchor as distinct branch facts; it is not normalized to ZL SECOND_START/lcho. The ZL THEREFORE slot has an explicit premise and conclusion; the IT branch is incomplete at that slot."
+    }
+  ],
+  "clause_assignment": {
+    "C01": "P1_FRAME_COUNT",
+    "C02": "P1_PHASE_DERIVATION",
+    "C03": "P1_RULER_SUCCESSION",
+    "C04": "P1_RULER_SUCCESSION",
+    "C05": "P1_PHASE_DERIVATION",
+    "C06": "P1_SCOPE_TRANSITION",
+    "C07": "P1_RULER_SUCCESSION",
+    "C08": "P1_SCOPE_TRANSITION",
+    "C09": "P1_PHASE_DERIVATION"
+  },
+  "all_clauses_accounted": true,
+  "inherited_pattern_policy": {
+    "old_source": "experiments/yolo/gdt1015_coupled_hour_day_reading/MODEL_v01.json",
+    "old_productions_fixed": 12,
+    "p1_old_production_reuse": 0,
+    "rule": "The four P1 productions below are new exact patterns for this packet. No old P2 pattern is treated as a free template; old P2 patterns remain byte-frozen and are accounted in INHERITED_CONTRACT.json."
+  }
+}
