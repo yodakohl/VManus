@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Review concrete word-building constraints on existing whole-reading hypotheses.
-Latest decision: Galen8/8 local TO/OF endpoints factor; scopes and Q-NAME lexicalization remain free.
-Working files: research_registry/decisions/reading_prediction_capacity_20260922.md
-Assumptions: 59guessed values;88groups exposed;0words; no independent meaning or reserve use.
-Resume: Assess RAW507/508 full contracts; primaries787/929/915/916 read; no new gloss fitting.
-Running: none; bounded agents complete; root closes publication.
+Task: Fix a manuscript test of shortening among six existing guessed synonym sets.
+Latest decision: RAW507 lacks output meanings;508s symmetric toggle conflicts, directed rivals remain.
+Working files: research_registry/decisions/galen_composition_507_508_review_20260922.md
+Assumptions: 59guesses; exclude development leaves76/80; layout controls required;0words.
+Resume: Review producer contract and910/373/374/318 predecessors before registration or target census.
+Running: three bounded agents; root review. Five-hour session09:47:48–14:47:48UTC minimum.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
