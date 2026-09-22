@@ -5,11 +5,11 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Four-hour content research; 2026-09-22 16:21:07–20:21:07UTC minimum.
-Latest decision: GDT1039 conditional seven-reference factoring; joint rival erases both comparisons;0words.
-Working files: experiments/yolo/gdt1039_hour_day_reference_composition/REPORT.md
-Assumptions: All60 values/global bindings remain guesses; no new source or reserve; whole extensions only.
-Resume: Review whole f82r P1 as fixed60-value extension;28/72 known positions,42newforms still debt.
-Running: Root publication then next content draft; bounded producer. No final before20:21:07UTC.
+Latest decision: GDT1039 closed conditional; select IDEA519 whole f82r P1 extension with60values fixed.
+Working files: research_registry/decisions/hour_day_p1_whole_extension_decision_20260922.md
+Assumptions: 72ZL/72ITP1 plus old80P2;42newvalues/4productions/6bindings caps; no reserves;0words.
+Resume: Review full519 draft and written consequence by18:00UTC; no simulator for an unfinished contract.
+Running: Whole-reading author, root source/content critique, bounded idea producer. Minimum end20:21:07UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
