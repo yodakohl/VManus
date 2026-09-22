@@ -1,0 +1,58 @@
+{
+  "status": "CONDITIONAL_STATE_LEDGER_NO_TARGET_EXECUTION",
+  "incoming_from_RAW512": {
+    "lineage": "same original plant-material lineage M",
+    "carrier": "T, stored paste carrier",
+    "plant_solid_mass": "Q",
+    "grade": {
+      "uncomminuted": 0,
+      "coarse": 0,
+      "fine": "Q"
+    },
+    "retained_water_physical": 0,
+    "dry_state_boolean": "UNKNOWN",
+    "root_visible": "UNKNOWN_AFTER_CRUSH_GRIND_PASTE",
+    "leaf_visible": "UNKNOWN_AFTER_CRUSH_GRIND_PASTE",
+    "free_powder": "NONE",
+    "fresh_plant_stock": "NONE",
+    "condition": "Only conditional on completion of RAW512 prerequisites; hydration adequacy and DRY_STATE update remain unresolved."
+  },
+  "target_known_terminals": {
+    "chor": "POWDER",
+    "sho": "WATER",
+    "daiin": "MASS_UNIT_Q",
+    "cthol": "PASTE",
+    "sheaiin": "OVERNIGHT",
+    "shey": "THEN_IT_ONLY",
+    "dor": "UNTIL_RETAINED_RAW512"
+  },
+  "continuation_rival": {
+    "id": "CARRY_STORED",
+    "contract": "Any compatible target material reference consumes or describes the existing T/M lineage; no new stock is created. A withdrawal, transformation and resulting state must be written by a complete construction.",
+    "current_status": "UNRESOLVED_BECAUSE_19_EXACT_TARGET_FORMS_EXCEED_CAP"
+  },
+  "fresh_stock_rival": {
+    "id": "NEW_RECIPE",
+    "contract": "A new paragraph can begin a separate preparation only with an explicit input constructor and complete initial quantity/state; paragraph adjacency does not supply either.",
+    "current_status": "RETAINED_RIVAL_NOT_SELECTED"
+  },
+  "type_description_rival": {
+    "id": "TYPE_DESCRIPTION",
+    "contract": "The target may assert a preparation kind without withdrawing material, but requires one reusable assertion construction and cannot silently satisfy material operations.",
+    "current_status": "RETAINED_RIVAL_NOT_SELECTED"
+  },
+  "known_constraints": [
+    "chor POWDER and cthol PASTE are distinct inherited kinds; no silent conversion.",
+    "sho WATER is an inherited external supply kind; its presence does not prove an operation or add free water.",
+    "daiin is one Q unit; repeated written occurrences cannot be counted as independent stocks.",
+    "RAW512 DRY physically removes retained water only conditionally; it does not establish DRY_STATE truth or organ recovery."
+  ],
+  "unbound_nodes": [
+    "all 19 exact target forms outside inherited/retained values",
+    "scope/operation governed by dor UNTIL in target line .9",
+    "whether target chor/sho/daiin references stored T, an extracted portion, or fresh stock",
+    "whether cthol PASTE is a state assertion or operation output",
+    "all ROOT_VISIBLE/LEAF_VISIBLE transitions",
+    "any complete target clause production within the 12-value cap"
+  ]
+}

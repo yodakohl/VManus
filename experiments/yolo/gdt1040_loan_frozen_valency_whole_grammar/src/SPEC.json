@@ -1,0 +1,70 @@
+{
+  "id": "GDT1040",
+  "idea": "IDEA000528",
+  "stage": "necessary_syntax_capacity_not_denotational_reading",
+  "selected_unit": "f83r|f83r.1-f83r.8",
+  "models": [
+    "PROJECTED_ZL",
+    "DIPLOMATIC_ZL3b",
+    "DIPLOMATIC_IT2a"
+  ],
+  "missing_model": "RF1b_NO_WHOLE_READER",
+  "categories": {
+    "NOUN": -1,
+    "P0": 0,
+    "P1": 1,
+    "P2": 2
+  },
+  "fixed": {
+    "shedy": -1,
+    "qokaiin": -1,
+    "lchedy": -1,
+    "chedy": 0,
+    "qokeedy": 1,
+    "qokedy": 0,
+    "qoteedy": 0
+  },
+  "unknown_category_options": [
+    -1,
+    1,
+    2
+  ],
+  "productions": [
+    "N -> NOUN",
+    "CLAUSE -> P0",
+    "CLAUSE -> P1 N",
+    "CLAUSE -> P2 N N",
+    "TEXT -> CLAUSE",
+    "TEXT -> CLAUSE TEXT"
+  ],
+  "line_boundaries_are_clause_boundaries": false,
+  "all_source_groups_required": true,
+  "same_whole_form_same_category": true,
+  "literal_uncertainty_policy": "Preserve uncertain entities/groups as distinct literal whole forms; syntactic decisions are conditional on this exact surface, not adjudicated palaeography.",
+  "argument_sort_relaxation": "NOUN type only. No new denotation, argument sort or referent is fitted. Unknown noun following qokeedy is syntactically admissible with recipient identity unbound; known wrong recipients would block complete semantics, but no semantic evaluation is run. UNSAT of this broader necessary syntax suffices; SAT never proves full offer.",
+  "primary_algorithm": "Enumerate every assignment of NOUN/P1/P2 to unknown forms recurrent within each complete unit. For each assignment use dynamic programming over all1/2/3-group clause partitions. Singleton choices are local because each exact form occurs once. Count every complete path, save each repeated assignment and maximal reachable prefix.",
+  "primary_assignment_cap": 1000000,
+  "primary_cap_outcome": "UNKNOWN_CAP; never UNSAT",
+  "joint_policy": "If any complete unit is UNSAT, a common dictionary is UNSAT by containment. If all are SAT, the independent shared-category constraint solver decides joint syntax; primary reports JOINT_REQUIRES_SHARED_SOLVER, not a guessed joint PASS.",
+  "independent_algorithm": "One category variable per exact form and remaining-noun-argument states along each whole sequence; start/end debt0, head opens0/1/2 slots, argument mustNOUN and consumesone. Exact SAT solver audits each unit and shared categories across allunits.",
+  "partial_diagnostic": "Longest contiguous complete-clause prefix with no skipped group or boundary reset. Tie-break by lexicographically smallest recurrent assignment (-1,1,2), then lexicographically smallest sequence of clause lengths. Retain every later group as UNPARSED; never execute partial semantics.",
+  "expected": "Root predicts all full fits fail, with firstqoky requiredhead after qokeedy+lchedy but lastqoky beforeP0chedy unable to head a clause. Diplomatic result remains to be executed.",
+  "no_repairs": [
+    "new rules",
+    "new P0",
+    "NULL",
+    "aliases",
+    "packing",
+    "word order changes",
+    "per occurrence types",
+    "deletion",
+    "line resets",
+    "semantic outcome based parse selection"
+  ],
+  "sealed": [
+    "f84",
+    "f84r"
+  ],
+  "independent_meaning_confirmation_capacity": 0,
+  "additional_manual_forecast": "Independent reviewer also predicts final projected chedy(P0)+chary(unknown nonP0) blocks complete closure. Postexposure manual forecast, no target algorithm yet."
+}

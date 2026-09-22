@@ -1,0 +1,140 @@
+{
+  "status": "LEXICAL_CAPACITY_STOP",
+  "target": "f37v|f37v.8-f37v.13",
+  "source": "SOURCE.json",
+  "whole_form_policy": "Every exact new target form counts separately; no alias, packing, split, or normalization is introduced.",
+  "reader_type_counts": {
+    "ZL3b": 22,
+    "IT2a": 20
+  },
+  "known_inherited_or_retained": {
+    "ZL3b": [
+      "chor",
+      "cthol",
+      "daiin",
+      "dor",
+      "sheaiin",
+      "sho"
+    ],
+    "IT2a": [
+      "chor",
+      "cthol",
+      "daiin",
+      "dor",
+      "sheaiin",
+      "shey",
+      "sho"
+    ]
+  },
+  "known_value_records": {
+    "old": {
+      "chor": {
+        "value": "POWDER",
+        "type": "MaterialKindReference",
+        "gloss": "Pulver"
+      },
+      "cthol": {
+        "value": "PASTE",
+        "type": "TransformationProductKind",
+        "gloss": "Paste"
+      },
+      "daiin": {
+        "value": "MASS_UNIT_Q",
+        "type": "MassUnitToken",
+        "gloss": "eine Masseneinheit Q"
+      },
+      "sheaiin": {
+        "value": "OVERNIGHT",
+        "type": "DurationAdjunct",
+        "gloss": "über Nacht"
+      },
+      "shey": {
+        "value": "THEN",
+        "type": "Sequence",
+        "gloss": "danach"
+      },
+      "sho": {
+        "value": "WATER",
+        "type": "ExternalSupplyKind",
+        "gloss": "Wasser"
+      }
+    },
+    "retained_RAW512_new": {
+      "dor": {
+        "value": "UNTIL",
+        "type": "GoalScopeMarker",
+        "gloss": "bis",
+        "new_assumption": "Same controlled-output construction G2; binds the immediately preceding complete operation.",
+        "status": "NEW_UNCONFIRMED_EXACT_WHOLE_FORM_GUESS"
+      }
+    }
+  },
+  "unassigned_exact_forms": {
+    "ZL3b": [
+      "chetchy",
+      "chey",
+      "choiin",
+      "choror",
+      "daiiin",
+      "do",
+      "koiin",
+      "o",
+      "qotoiin",
+      "qotor",
+      "sh[y:o]ly",
+      "soiin",
+      "sotoiiin",
+      "tody",
+      "tom",
+      "{ch'}ey"
+    ],
+    "IT2a": [
+      "chetchy",
+      "chey",
+      "choiin",
+      "choror",
+      "daiiin",
+      "dotody",
+      "otoiin",
+      "qotoiin",
+      "qotor",
+      "sholy",
+      "soiin",
+      "sotoiiin",
+      "tom"
+    ]
+  },
+  "unassigned_counts": {
+    "ZL3b": 16,
+    "IT2a": 13
+  },
+  "union_unassigned_exact_forms": [
+    "chetchy",
+    "chey",
+    "choiin",
+    "choror",
+    "daiiin",
+    "do",
+    "dotody",
+    "koiin",
+    "o",
+    "otoiin",
+    "qotoiin",
+    "qotor",
+    "sh[y:o]ly",
+    "sholy",
+    "soiin",
+    "sotoiiin",
+    "tody",
+    "tom",
+    "{ch'}ey"
+  ],
+  "union_unassigned_count": 19,
+  "cap": {
+    "max_new_exact_whole_values": 12,
+    "new_exact_values_needed_ZL3b": 16,
+    "new_exact_values_needed_IT2a": 13,
+    "union_new_exact_values_needed": 19
+  },
+  "decision": "Stop before assigning any target unknown form or increasing productions/bindings. Preserve complete source and inherited values; no semantic whole reading can be claimed under the frozen cap."
+}
