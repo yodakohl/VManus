@@ -3,13 +3,13 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: active
-Task: IDEA512 complete first f37v paragraph with frozen powder values and ROOT/LEAF endpoint.
-Latest decision: f37v1–7 passes metadata scope29/30groups;513has4paragraphs over3cap, no words opened.
-Working files: research_registry/decisions/idea512_f37v_whole_development_decision_20260922.md
-Assumptions: Terminal depiction new; old65+15/V2 fixed; source-kind not specimen; 0meaning confirmation.
-Resume: Freeze owned source packet; author all29ZLgroups with≤6productions/8bindings, preserve IT/RF.
-Running: Root source/content review, bounded author and idea producer; inclusive stop16:17UTC.
+Status: checkpoint
+Task: IDEA512 whole f37v account closed; next candidate479 remains unselected.
+Latest decision: 29ZL groups covered;20new values; organ/DRY gaps; terminal picture not supported.
+Working files: research_registry/decisions/idea512_whole_reading_closure_20260922.md
+Assumptions: Same Q/paste lineage conditional; IT2/RF4unknown; known image not independent;0words.
+Resume: Read479 via topics/route-check and599primaries; check wholeS402/S441/S442 before selection.
+Running: None; bounded512 development/review complete; no between-turn execution.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
