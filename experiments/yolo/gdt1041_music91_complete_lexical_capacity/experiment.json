@@ -1,0 +1,121 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact lexicalcapacity only; no portablegrammar or semanticexecution, no meanings or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1041_music91_complete_lexical_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1041_music91_complete_lexical_capacity/src/validate.py"
+  },
+  "created": "2026-09-22",
+  "dependencies": [
+    "GDT928",
+    "GDT994",
+    "GDT1026"
+  ],
+  "experiment_id": "GDT1041",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/f83r_embedded_music_pair_20260922/FROZEN_LEXICON.json",
+      "sha256": "06d70911d4392c2b2881df7b297670ce767f2792a42f1b8bb38879d482197d32",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+      "role": "source_or_result"
+    },
+    {
+      "path": "research_registry/proposals/raw_music91_zero_extension_complete_units_20260922.json",
+      "sha256": "0dece59c45c88969f9bd42816fd3190bdacdbab58a9ad2a1efc01932bf999e3c",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt994_frozen_transport_whole_transfer/REPORT.md",
+      "sha256": "ee5e428edceb94aa2bbaa04033b1bc8a012debee522632004c4011010dc72b49",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/src/run.py",
+      "sha256": "9838c29bc6dbbe57952604b12dd6b009fe55762cd3ede37d2291246207c1c11a",
+      "role": "source_or_result"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/DECISION.md",
+      "sha256": "97980cf89e7a393cd3232e11b2d3d99d9011137e5353ada7d59feae85a481ac0",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/METHOD.md",
+      "sha256": "66a1e675cdf42f3253e89cef52ec225907dcbbf890a598b8cd1a268c63b008ec",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/PREREGISTRATION.md",
+      "sha256": "0d5ca33812fe54e7939b0b57173b0e36c2ee41738c622df75dda925cb59ed867",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/PREREG_LOCK.json",
+      "sha256": "4f2cfddc7b7aca1ba573311e7d5ca801f5f7f54ad4867e81fb6f9185e37fefcc",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/README.md",
+      "sha256": "64c14d28dbef038f850f36429c804df6d6b5a061c0f755bfdd02ed4c4d3c8e56",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/REPORT.md",
+      "sha256": "87f321de8031a080b7b6ce1e27c48ef4ac396c04ab3d29fb69dba5c3eff80886",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/src/ADMITTED_SELECTORS.json",
+      "sha256": "a21e58ba3ae914ea850f32acff0b60d9665f5a509a502977677f019a1098543b",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/src/SPEC.json",
+      "sha256": "ee03cf2badeb2eda6d6c841792b763aff828dd93043318786794fd3532a97eae",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/src/run.py",
+      "sha256": "7c78b81829cad11ba71d2df462edf41f8ff6325ae43200dddb55c92c0016325e",
+      "role": "source_or_result"
+    },
+    {
+      "path": "experiments/yolo/gdt1041_music91_complete_lexical_capacity/src/validate.py",
+      "sha256": "128491807f1c2d1d69f3934425c865e31445613c396e1a64d3fdf978ed82ab21",
+      "role": "source_or_result"
+    }
+  ],
+  "question": "Does any complete native paragraph outside whole development leaves76/83 use only the unchanged91hypothetical music whole forms?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "music91_complete_lexical_capacity",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Fixed91 music vocabulary: every complete admitted paragraph",
+  "updated": "2026-09-22",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
