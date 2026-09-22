@@ -1,0 +1,3123 @@
+{
+  "title": "RAW370 development V2: closed material/carrier compatibility and global comminution effects",
+  "status": "RAW_UNREVIEWED_EXPLORATORY_REVISION_NO_EXECUTED_PASS",
+  "base_offer": "research_registry/proposals/raw370_two_paragraph_powder_partition_offer_20260922.json",
+  "base_offer_sha256": "4654afe0414d85f431371c799df6189b73b2cd4ace6adfc7eae833a51bf837da",
+  "author_clarification": "research_registry/proposals/raw370_author_clarification_20260922.md",
+  "author_clarification_sha256": "3217926632a6cbbf21139c3a8ad6189a2d90f2042538f20328c6437c96d804de",
+  "human_contract_and_complete_manual_state_ledgers": "research_registry/proposals/raw370_powder_partition_v2_material_contract_20260922.md",
+  "human_contract_sha256": "c90de002dde795dc35502e7d32692515459859e49e323fc51865b7fcf4110a61",
+  "unchanged_inherited_blocks": {
+    "lexicon": {
+      "fcho": {
+        "value": "ACQUIRE",
+        "type": "InputIntroduction",
+        "gloss": "nimm als Ausgangsstoff auf"
+      },
+      "kshy": {
+        "value": "ROOT_MATERIAL",
+        "type": "MaterialKind",
+        "gloss": "Wurzelmaterial"
+      },
+      "otor": {
+        "value": "FRESH",
+        "type": "MaterialProperty",
+        "gloss": "frisch"
+      },
+      "sheol": {
+        "value": "DRY",
+        "type": "Operation",
+        "gloss": "trockne"
+      },
+      "ocphal": {
+        "value": "CRUSH",
+        "type": "Operation",
+        "gloss": "zerkleinere"
+      },
+      "opsheas": {
+        "value": "FOR_OUTPUT",
+        "type": "ProspectiveGoalBinder",
+        "gloss": "für das herzustellende Ergebnis"
+      },
+      "cthodaiin": {
+        "value": "POWDER_MASS_Q",
+        "type": "MeasuredMaterialNP",
+        "gloss": "Pulver, eine Masseneinheit Q",
+        "composition": [
+          "ctho",
+          "daiin"
+        ]
+      },
+      "oty": {
+        "value": "DRY_STATE",
+        "type": "MaterialProperty",
+        "gloss": "trocken"
+      },
+      "okaiin": {
+        "value": "RINSE",
+        "type": "OperationWithSupply",
+        "gloss": "spüle"
+      },
+      "sho": {
+        "value": "WATER",
+        "type": "ExternalSupplyKind",
+        "gloss": "Wasser"
+      },
+      "tshaiin": {
+        "value": "UNTIL",
+        "type": "OutputConditionBinder",
+        "gloss": "bis"
+      },
+      "chkaiin": {
+        "value": "CLEAN",
+        "type": "MaterialProperty",
+        "gloss": "gereinigt"
+      },
+      "sh": {
+        "value": "THEN",
+        "type": "Sequence",
+        "gloss": "danach"
+      },
+      "cthey": {
+        "value": "SPREAD",
+        "type": "Operation",
+        "gloss": "breite aus"
+      },
+      "cthody": {
+        "value": "THINLY",
+        "type": "Manner",
+        "gloss": "dünn"
+      },
+      "cthy": {
+        "value": "PLANT_MATERIAL",
+        "type": "MaterialSupertypeReference",
+        "gloss": "Pflanzenmaterial"
+      },
+      "s": {
+        "value": "EVENLY",
+        "type": "Manner",
+        "gloss": "gleichmäßig"
+      },
+      "totchy": {
+        "value": "DRY",
+        "type": "Operation",
+        "gloss": "trockne"
+      },
+      "keor": {
+        "value": "IN_SUN",
+        "type": "LocationAdjunct",
+        "gloss": "in der Sonne"
+      },
+      "chy": {
+        "value": "GRIND",
+        "type": "Operation",
+        "gloss": "vermahle"
+      },
+      "ky": {
+        "value": "COARSELY",
+        "type": "Manner",
+        "gloss": "grob"
+      },
+      "qotaiin": {
+        "value": "SEPARATE_BY_GRADE",
+        "type": "PartitionOperation",
+        "gloss": "trenne nach Feinheit"
+      },
+      "qotchol": {
+        "value": "COARSE_PART",
+        "type": "PartitionPartReference",
+        "gloss": "grober Anteil"
+      },
+      "ty": {
+        "value": "FROM",
+        "type": "PartitionContrast",
+        "gloss": "von"
+      },
+      "ctheey": {
+        "value": "FINE_PART",
+        "type": "PartitionPartReference",
+        "gloss": "feiner Anteil"
+      },
+      "otaiin": {
+        "value": "WITH_SIEVE",
+        "type": "ToolAdjunct",
+        "gloss": "mit einem Sieb"
+      },
+      "shol": {
+        "value": "KEEP",
+        "type": "PreservationOperation",
+        "gloss": "bewahre auf"
+      },
+      "chol": {
+        "value": "FINE",
+        "type": "MaterialProperty",
+        "gloss": "fein"
+      },
+      "tchol": {
+        "value": "COARSE",
+        "type": "MaterialProperty",
+        "gloss": "grob"
+      },
+      "chcthy": {
+        "value": "WITH_CLOTH",
+        "type": "ToolAdjunct",
+        "gloss": "mit einem Tuch"
+      },
+      "otyky": {
+        "value": "COVER",
+        "type": "Operation",
+        "gloss": "decke ab"
+      },
+      "shey": {
+        "value": "THEN",
+        "type": "Sequence",
+        "gloss": "danach"
+      },
+      "yteol": {
+        "value": "STORE_SEPARATELY",
+        "type": "PreservationOperation",
+        "gloss": "lagere getrennt"
+      },
+      "shody": {
+        "value": "RESIDUE",
+        "type": "PartitionPartReference",
+        "gloss": "Rückstand"
+      },
+      "ykeey": {
+        "value": "RETRIEVE",
+        "type": "ExistingMaterialOperation",
+        "gloss": "nimm das bereits verfügbare Material"
+      },
+      "chor": {
+        "value": "POWDER",
+        "type": "MaterialKindReference",
+        "gloss": "Pulver"
+      },
+      "sheey": {
+        "value": "SIEVE",
+        "type": "PartitionOperation",
+        "gloss": "siebe"
+      },
+      "ysheol": {
+        "value": "UNTIL",
+        "type": "OutputConditionBinder",
+        "gloss": "bis"
+      },
+      "daiin": {
+        "value": "MASS_UNIT_Q",
+        "type": "MassUnitToken",
+        "gloss": "eine Masseneinheit Q"
+      },
+      "ksho": {
+        "value": "ROOT_MATERIAL",
+        "type": "MaterialKind",
+        "gloss": "Wurzelmaterial"
+      },
+      "cpho[s:r]": {
+        "value": "CRUSH",
+        "type": "UnresolvedReadingWithSameHypothesizedOperation",
+        "gloss": "zerkleinere",
+        "raw_ambiguity_retained": true,
+        "alternatives": [
+          "cphos",
+          "cphor"
+        ]
+      },
+      "she": {
+        "value": "DRY",
+        "type": "Operation",
+        "gloss": "trockne"
+      },
+      "sheaiin": {
+        "value": "OVERNIGHT",
+        "type": "DurationAdjunct",
+        "gloss": "über Nacht"
+      },
+      "otshcho": {
+        "value": "IN_SHADE",
+        "type": "LocationAdjunct",
+        "gloss": "im Schatten"
+      },
+      "r": {
+        "value": "THEN",
+        "type": "Sequence",
+        "gloss": "danach"
+      },
+      "dain": {
+        "value": "THOROUGHLY",
+        "type": "Manner",
+        "gloss": "gründlich"
+      },
+      "shckhy": {
+        "value": "MIX",
+        "type": "Operation",
+        "gloss": "durchmische"
+      },
+      "odan": {
+        "value": "PREPARED_BULK",
+        "type": "ExistingMaterialReference",
+        "gloss": "die vorbereitete Gesamtmenge"
+      },
+      "otchol": {
+        "value": "COARSE_GRIST",
+        "type": "MaterialKindReference",
+        "gloss": "grobes Mahlgut"
+      },
+      "ctho": {
+        "value": "POWDER",
+        "type": "MaterialKindReference",
+        "gloss": "Pulver"
+      },
+      "otchy": {
+        "value": "LIFT_OUT",
+        "type": "PartitionFocusOperation",
+        "gloss": "hebe heraus"
+      },
+      "d": {
+        "value": "DEFINITE",
+        "type": "DefiniteReference",
+        "gloss": "den bereits vorhandenen"
+      },
+      "shan": {
+        "value": "COARSE_FRACTION",
+        "type": "PartitionPartReference",
+        "gloss": "groben Anteil"
+      },
+      "qotchy": {
+        "value": "SORT",
+        "type": "PartitionOperation",
+        "gloss": "sortiere"
+      },
+      "cfhy": {
+        "value": "WITH_SIEVE",
+        "type": "ToolAdjunct",
+        "gloss": "mit einem Sieb"
+      },
+      "skey": {
+        "value": "KEEP",
+        "type": "PreservationOperation",
+        "gloss": "bewahre auf"
+      },
+      "chocthy": {
+        "value": "FIBRES",
+        "type": "PartitionProductKind",
+        "gloss": "Faserstücke"
+      },
+      "cthaiin": {
+        "value": "GRANULES",
+        "type": "PartitionProductKind",
+        "gloss": "Körnchen"
+      },
+      "keol": {
+        "value": "OIL",
+        "type": "ExternalSupplyKind",
+        "gloss": "Öl"
+      },
+      "cpho": {
+        "value": "KNEAD",
+        "type": "JointInputTransformation",
+        "gloss": "verknete"
+      },
+      "l": {
+        "value": "TO_RESULT",
+        "type": "ResultBinder",
+        "gloss": "zu"
+      },
+      "cthol": {
+        "value": "PASTE",
+        "type": "TransformationProductKind",
+        "gloss": "Paste"
+      },
+      "da": {
+        "value": "ONE",
+        "type": "PortionCount",
+        "gloss": "eine"
+      },
+      "ar": {
+        "value": "PORTION",
+        "type": "CountUnit",
+        "gloss": "Portion"
+      },
+      "ol": {
+        "value": "WITH_MEDIUM",
+        "type": "ExistingMediumBinder",
+        "gloss": "unter Verwendung des bereits enthaltenen Mediums"
+      }
+    },
+    "alternative_reading_values": {
+      "fchokshy": {
+        "composition": [
+          "fcho",
+          "kshy"
+        ],
+        "value": "ACQUIRE(ROOT_MATERIAL)",
+        "status": "Explicit compound hypothesis for alternative grouping; not transcription normalization"
+      },
+      "cheol": {
+        "same_hypothesized_value_as": "sheol"
+      },
+      "opcheas": {
+        "same_hypothesized_value_as": "opsheas"
+      },
+      "shcthey": {
+        "composition": [
+          "sh",
+          "cthey"
+        ],
+        "value": "THEN(SPREAD)"
+      },
+      "ykeea": {
+        "same_hypothesized_value_as": "ykeey"
+      },
+      "ykee@222;": {
+        "same_hypothesized_value_as": "ykeey",
+        "entity_unresolved": true
+      },
+      "@222;sheol": {
+        "same_hypothesized_value_as": "ysheol",
+        "entity_unresolved": true
+      },
+      "chyky": {
+        "composition": [
+          "chy",
+          "ky"
+        ],
+        "value": "GRIND(COARSELY)"
+      },
+      "cphos": {
+        "same_hypothesized_value_as": "ocphal"
+      },
+      "cphor": {
+        "same_hypothesized_value_as": "ocphal"
+      },
+      "otshchor": {
+        "composition": [
+          "otshcho",
+          "r"
+        ],
+        "value": "IN_SHADE;THEN"
+      },
+      "daii": {
+        "same_hypothesized_value_as": "dain"
+      },
+      "shar": {
+        "same_hypothesized_value_as": "shan"
+      },
+      "@152;": {
+        "same_hypothesized_value_as": "d",
+        "entity_unresolved": true
+      },
+      "cphol": {
+        "composition": [
+          "cpho",
+          "l"
+        ],
+        "value": "KNEAD_TO_RESULT"
+      }
+    },
+    "source_packet": "research_registry/proposals/raw370_whole_paragraph_source_packet_20260922.json",
+    "source_packet_sha256": "d35fb71297447b47c1111d6eeac85455d27fff8b8d24b228ee0058cdf4078b98",
+    "complete_positional_alignment": [
+      {
+        "edition": "ZL3b",
+        "page": "f21r",
+        "paragraph_status": "COMPLETE_PARAGRAPH_FROM_NATIVE_START_END_FLAGS",
+        "lines": [
+          {
+            "locus": "f21r.8",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f21r.8|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "fcho",
+                "left_separator": "LINE_START",
+                "right_separator": "UNCERTAIN_SMALL_SPACE",
+                "hypothesized_value": "ACQUIRE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.8|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "kshy",
+                "left_separator": "UNCERTAIN_SMALL_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "ROOT_MATERIAL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.8|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "otor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FRESH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.8|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "sheol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "DRY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.8|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "ocphal",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "CRUSH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.8|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "opsheas",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FOR_OUTPUT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.8|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "cthodaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER_MASS_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.8|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "oty",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "DRY_STATE",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.9",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f21r.9|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "okaiin",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "RINSE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.9|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "sho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WATER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.9|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "tshaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "UNTIL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.9|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "chkaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "CLEAN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.9|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "sh",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "UNCERTAIN_SMALL_SPACE",
+                "hypothesized_value": "THEN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.9|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cthey",
+                "left_separator": "UNCERTAIN_SMALL_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SPREAD",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.9|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "cthody",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THINLY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.9|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "cthy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "PLANT_MATERIAL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.9|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "s",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "EVENLY",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.10",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f21r.10|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "totchy",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "DRY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.10|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "keor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "IN_SUN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.10|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "chy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "UNCERTAIN_SMALL_SPACE",
+                "hypothesized_value": "GRIND",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.10|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "ky",
+                "left_separator": "UNCERTAIN_SMALL_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSELY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.10|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "qotaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SEPARATE_BY_GRADE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.10|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "qotchol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSE_PART",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.10|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "ty",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FROM",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.10|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "ctheey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE_PART",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.10|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "otaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "WITH_SIEVE",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.11",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f21r.11|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "shol",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KEEP",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.11|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "chol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.11|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "shol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KEEP",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.11|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "tchol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.11|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "chcthy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WITH_CLOTH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.11|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "otyky",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COVER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.11|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "shey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THEN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.11|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "yteol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "STORE_SEPARATELY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.11|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "shody",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "RESIDUE",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.12",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f21r.12|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "ykeey",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "RETRIEVE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.12|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "chor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.12|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "sheey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SIEVE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.12|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "ysheol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "UNTIL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.12|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "chor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.12|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "chol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.12|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f21r.12|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "chkaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "CLEAN",
+                "value_source": "lexicon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "edition": "ZL3b",
+        "page": "f32v",
+        "paragraph_status": "COMPLETE_PARAGRAPH_FROM_NATIVE_START_END_FLAGS",
+        "lines": [
+          {
+            "locus": "f32v.7",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f32v.7|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "ksho",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "ROOT_MATERIAL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.7|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "cpho[s:r]",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "CRUSH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.7|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "she",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "DRY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.7|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "sheaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "OVERNIGHT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.7|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "otshcho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "IN_SHADE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.7|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "r",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THEN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.7|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "dain",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "THOROUGHLY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.7|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "shckhy",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MIX",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.7|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "s",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "EVENLY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.7|G010",
+                "source_group_index": "10",
+                "ivtff_group_raw": "odan",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "PREPARED_BULK",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.8",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f32v.8|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "otchol",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSE_GRIST",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.8|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.8|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.8|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "ctho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "UNCERTAIN_SMALL_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.8|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "UNCERTAIN_SMALL_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.8|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "qotaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "SEPARATE_BY_GRADE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.8|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "otchy",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "LIFT_OUT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.8|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "d",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "DEFINITE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.8|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "shan",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "COARSE_FRACTION",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.9",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f32v.9|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "qotchy",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SORT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.9|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "cfhy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WITH_SIEVE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.9|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "skey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KEEP",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.9|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "chocthy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FIBRES",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.9|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.9|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cthaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "GRANULES",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.9|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.10",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f32v.10|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "sho",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WATER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.10|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "keol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "OIL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.10|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "chor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.10|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "chol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.10|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.10|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cpho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "UNCERTAIN_SMALL_SPACE",
+                "hypothesized_value": "KNEAD",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.10|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "l",
+                "left_separator": "UNCERTAIN_SMALL_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "TO_RESULT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.10|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "cthol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "PASTE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.10|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "da",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "ONE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.10|G010",
+                "source_group_index": "10",
+                "ivtff_group_raw": "ar",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "PORTION",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.11",
+            "groups": [
+              {
+                "source_group_id": "ZL3b|f32v.11|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "ol",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WITH_MEDIUM",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.11|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "sho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WATER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "ZL3b|f32v.11|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "chy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "GRIND",
+                "value_source": "lexicon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "edition": "IT2a",
+        "page": "f21r",
+        "paragraph_status": "COMPLETE_PARAGRAPH_FROM_NATIVE_START_END_FLAGS",
+        "lines": [
+          {
+            "locus": "f21r.8",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f21r.8|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "fchokshy",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "ACQUIRE(ROOT_MATERIAL)",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "IT2a|f21r.8|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "otor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FRESH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.8|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "cheol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "DRY",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "IT2a|f21r.8|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "ocphal",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "CRUSH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.8|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "opcheas",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FOR_OUTPUT",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "IT2a|f21r.8|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cthodaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER_MASS_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.8|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "oty",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "DRY_STATE",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.9",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f21r.9|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "okaiin",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "RINSE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.9|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "sho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WATER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.9|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "tshaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "UNTIL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.9|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "chkaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "CLEAN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.9|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "shcthey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THEN(SPREAD)",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "IT2a|f21r.9|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cthody",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THINLY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.9|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "cthy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "PLANT_MATERIAL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.9|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "s",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "EVENLY",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.10",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f21r.10|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "totchy",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "DRY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.10|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "keor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "IN_SUN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.10|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "chy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "GRIND",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.10|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "ky",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSELY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.10|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "qotaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SEPARATE_BY_GRADE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.10|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "qotchol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSE_PART",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.10|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "ty",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FROM",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.10|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "ctheey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE_PART",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.10|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "otaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "WITH_SIEVE",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.11",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f21r.11|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "shol",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KEEP",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.11|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "chol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.11|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "shol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KEEP",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.11|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "tchol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.11|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "chcthy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WITH_CLOTH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.11|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "otyky",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COVER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.11|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "shey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THEN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.11|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "yteol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "STORE_SEPARATELY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.11|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "shody",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "RESIDUE",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.12",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f21r.12|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "ykeea",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "RETRIEVE",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "IT2a|f21r.12|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "chor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.12|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "sheey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SIEVE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.12|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "ysheol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "UNTIL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.12|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "chor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.12|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "chol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.12|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f21r.12|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "chkaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "CLEAN",
+                "value_source": "lexicon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "edition": "IT2a",
+        "page": "f32v",
+        "paragraph_status": "COMPLETE_PARAGRAPH_FROM_NATIVE_START_END_FLAGS",
+        "lines": [
+          {
+            "locus": "f32v.7",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f32v.7|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "ksho",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "ROOT_MATERIAL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.7|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "cphor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "CRUSH",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "IT2a|f32v.7|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "she",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "DRY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.7|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "sheaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "OVERNIGHT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.7|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "otshchor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "IN_SHADE;THEN",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "IT2a|f32v.7|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "dain",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "THOROUGHLY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.7|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "shckhy",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MIX",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.7|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "s",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "EVENLY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.7|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "odan",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "PREPARED_BULK",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.8",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f32v.8|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "otchol",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSE_GRIST",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.8|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.8|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.8|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "ctho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.8|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.8|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "qotaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "SEPARATE_BY_GRADE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.8|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "otchy",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "LIFT_OUT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.8|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "d",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "DEFINITE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.8|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "shar",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "COARSE_FRACTION",
+                "value_source": "alternative_reading_values"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.9",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f32v.9|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "qotchy",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SORT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.9|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "cfhy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WITH_SIEVE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.9|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "skey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KEEP",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.9|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "chocthy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FIBRES",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.9|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.9|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cthaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "GRANULES",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.9|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.10",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f32v.10|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "sho",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WATER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.10|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "keol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "OIL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.10|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "chor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.10|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "chol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.10|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.10|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cphol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KNEAD_TO_RESULT",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "IT2a|f32v.10|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "cthol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "PASTE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.10|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "da",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "ONE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.10|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "ar",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "PORTION",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.11",
+            "groups": [
+              {
+                "source_group_id": "IT2a|f32v.11|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "ol",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WITH_MEDIUM",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.11|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "sho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WATER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "IT2a|f32v.11|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "chy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "GRIND",
+                "value_source": "lexicon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "edition": "RF1b",
+        "page": "f21r",
+        "paragraph_status": "CORRESPONDING_PRESELECTED_LINE_SPAN_NO_RF_PARAGRAPH_BOUNDARIES",
+        "lines": [
+          {
+            "locus": "f21r.8",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f21r.8|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "fchokshy",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "ACQUIRE(ROOT_MATERIAL)",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "RF1b|f21r.8|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "otor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FRESH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.8|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "sheol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "DRY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.8|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "ocphal",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "CRUSH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.8|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "opsheas",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FOR_OUTPUT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.8|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cthodaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER_MASS_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.8|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "oty",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "DRY_STATE",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.9",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f21r.9|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "okaiin",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "RINSE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.9|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "sho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WATER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.9|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "tshaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "UNTIL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.9|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "chkaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "CLEAN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.9|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "sh",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THEN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.9|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cthey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SPREAD",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.9|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "cthody",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THINLY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.9|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "cthy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "PLANT_MATERIAL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.9|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "s",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "EVENLY",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.10",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f21r.10|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "totchy",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "DRY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.10|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "keor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "IN_SUN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.10|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "chyky",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "GRIND(COARSELY)",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "RF1b|f21r.10|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "qotaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SEPARATE_BY_GRADE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.10|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "qotchol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSE_PART",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.10|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "ty",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FROM",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.10|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "ctheey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE_PART",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.10|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "otaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "WITH_SIEVE",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.11",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f21r.11|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "shol",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KEEP",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.11|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "chol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.11|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "shol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KEEP",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.11|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "tchol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.11|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "chcthy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WITH_CLOTH",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.11|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "otyky",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COVER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.11|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "shey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THEN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.11|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "yteol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "STORE_SEPARATELY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.11|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "shody",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "RESIDUE",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f21r.12",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f21r.12|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "ykee@222;",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "RETRIEVE",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "RF1b|f21r.12|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "chor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.12|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "sheey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SIEVE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.12|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "@222;sheol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "UNTIL",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "RF1b|f21r.12|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "chor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.12|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "chol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.12|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f21r.12|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "chkaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "CLEAN",
+                "value_source": "lexicon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "edition": "RF1b",
+        "page": "f32v",
+        "paragraph_status": "CORRESPONDING_PRESELECTED_LINE_SPAN_NO_RF_PARAGRAPH_BOUNDARIES",
+        "lines": [
+          {
+            "locus": "f32v.7",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f32v.7|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "ksho",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "ROOT_MATERIAL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.7|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "cphos",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "CRUSH",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "RF1b|f32v.7|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "she",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "DRY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.7|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "sheaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "OVERNIGHT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.7|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "otshcho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "IN_SHADE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.7|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "r",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "THEN",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.7|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "daii",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "THOROUGHLY",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "RF1b|f32v.7|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "shckhy",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MIX",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.7|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "s",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "EVENLY",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.7|G010",
+                "source_group_index": "10",
+                "ivtff_group_raw": "odan",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "PREPARED_BULK",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.8",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f32v.8|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "otchol",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "COARSE_GRIST",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.8|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.8|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.8|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "cthodaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER_MASS_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.8|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "qotaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "SEPARATE_BY_GRADE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.8|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "otchy",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "LIFT_OUT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.8|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "@152;",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "DEFINITE",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "RF1b|f32v.8|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "shan",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "COARSE_FRACTION",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.9",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f32v.9|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "qotchy",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "SORT",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.9|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "cfhy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WITH_SIEVE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.9|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "skey",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KEEP",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.9|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "chocthy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FIBRES",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.9|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.9|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cthaiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "GRANULES",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.9|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.10",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f32v.10|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "sho",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WATER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.10|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "keol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "OIL",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.10|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "chor",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "POWDER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.10|G004",
+                "source_group_index": "4",
+                "ivtff_group_raw": "chol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "FINE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.10|G005",
+                "source_group_index": "5",
+                "ivtff_group_raw": "daiin",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "MASS_UNIT_Q",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.10|G006",
+                "source_group_index": "6",
+                "ivtff_group_raw": "cphol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "KNEAD_TO_RESULT",
+                "value_source": "alternative_reading_values"
+              },
+              {
+                "source_group_id": "RF1b|f32v.10|G007",
+                "source_group_index": "7",
+                "ivtff_group_raw": "cthol",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "PASTE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.10|G008",
+                "source_group_index": "8",
+                "ivtff_group_raw": "da",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DRAWING_INTERRUPTION",
+                "hypothesized_value": "ONE",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.10|G009",
+                "source_group_index": "9",
+                "ivtff_group_raw": "ar",
+                "left_separator": "DRAWING_INTERRUPTION",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "PORTION",
+                "value_source": "lexicon"
+              }
+            ]
+          },
+          {
+            "locus": "f32v.11",
+            "groups": [
+              {
+                "source_group_id": "RF1b|f32v.11|G001",
+                "source_group_index": "1",
+                "ivtff_group_raw": "ol",
+                "left_separator": "LINE_START",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WITH_MEDIUM",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.11|G002",
+                "source_group_index": "2",
+                "ivtff_group_raw": "sho",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "DEFINITE_SPACE",
+                "hypothesized_value": "WATER",
+                "value_source": "lexicon"
+              },
+              {
+                "source_group_id": "RF1b|f32v.11|G003",
+                "source_group_index": "3",
+                "ivtff_group_raw": "chy",
+                "left_separator": "DEFINITE_SPACE",
+                "right_separator": "LINE_END",
+                "hypothesized_value": "GRIND",
+                "value_source": "lexicon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "primary_whole_readings": [
+      {
+        "locus": "f21r.8",
+        "draft": "Nimm frisches Wurzelmaterial; trockne und zerkleinere es für ein herzustellendes Ergebnis von einer Masseneinheit trockenem Pulver.",
+        "clauses": [
+          "ACQUIRE ROOT_MATERIAL FRESH",
+          "DRY",
+          "CRUSH",
+          "FOR_OUTPUT [POWDER Q DRY_STATE]"
+        ]
+      },
+      {
+        "locus": "f21r.9",
+        "draft": "Spüle mit Wasser, bis das Material gereinigt ist; danach breite das Pflanzenmaterial dünn und gleichmäßig aus.",
+        "clauses": [
+          "RINSE WATER UNTIL CLEAN",
+          "THEN SPREAD THINLY PLANT_MATERIAL EVENLY"
+        ]
+      },
+      {
+        "locus": "f21r.10",
+        "draft": "Trockne in der Sonne; vermahle grob; trenne mit einem Sieb den groben vom feinen Anteil.",
+        "clauses": [
+          "DRY IN_SUN",
+          "GRIND COARSELY",
+          "SEPARATE_BY_GRADE COARSE_PART FROM FINE_PART WITH_SIEVE"
+        ]
+      },
+      {
+        "locus": "f21r.11",
+        "draft": "Bewahre den feinen Anteil auf; bewahre den groben Anteil auf. Decke den groben Anteil mit einem Tuch ab; danach lagere diesen Rückstand getrennt.",
+        "clauses": [
+          "KEEP FINE",
+          "KEEP COARSE",
+          "WITH_CLOTH COVER",
+          "THEN STORE_SEPARATELY RESIDUE"
+        ]
+      },
+      {
+        "locus": "f21r.12",
+        "draft": "Nimm das verfügbare Pulver; siebe, bis der gewonnene Pulveranteil fein und gereinigt ist und eine Masseneinheit umfasst.",
+        "clauses": [
+          "RETRIEVE POWDER",
+          "SIEVE UNTIL [POWDER FINE Q CLEAN]"
+        ]
+      },
+      {
+        "locus": "f32v.7",
+        "draft": "Wurzelmaterial: zerkleinere es; trockne über Nacht im Schatten; danach durchmische die vorbereitete Gesamtmenge gründlich und gleichmäßig.",
+        "clauses": [
+          "INTRODUCE ROOT_MATERIAL; CRUSH",
+          "DRY OVERNIGHT IN_SHADE",
+          "THEN THOROUGHLY MIX EVENLY PREPARED_BULK"
+        ]
+      },
+      {
+        "locus": "f32v.8",
+        "draft": "Im vorbereiteten Material: zwei Masseneinheiten grobes Mahlgut und eine Masseneinheit Pulver. Trenne diese Teile; hebe den vorhandenen groben Anteil heraus.",
+        "clauses": [
+          "INVENTORY [COARSE_GRIST Q Q] [POWDER Q]",
+          "SEPARATE_BY_GRADE",
+          "LIFT_OUT DEFINITE COARSE_FRACTION"
+        ]
+      },
+      {
+        "locus": "f32v.9",
+        "draft": "Sortiere diesen groben Anteil mit einem Sieb; bewahre eine Masseneinheit Faserstücke und eine Masseneinheit Körnchen auf.",
+        "clauses": [
+          "SORT WITH_SIEVE",
+          "KEEP [FIBRES Q] [GRANULES Q]"
+        ]
+      },
+      {
+        "locus": "f32v.10",
+        "draft": "Wasser und Öl sowie eine Masseneinheit des verfügbaren feinen Pulvers: verknete diese Zutaten zu einer Portion Paste.",
+        "clauses": [
+          "INGREDIENTS WATER OIL [POWDER FINE Q]",
+          "KNEAD TO_RESULT [PASTE ONE PORTION]"
+        ]
+      },
+      {
+        "locus": "f32v.11",
+        "draft": "Vermahle diese Paste mit dem bereits darin enthaltenen Wasser.",
+        "clauses": [
+          "WITH_MEDIUM WATER GRIND"
+        ]
+      }
+    ],
+    "schematic_productions": {
+      "status": "A manually offered finite construction inventory, shared by both paragraphs; no claim of a discovered or uniquely parsed grammar.",
+      "rules": [
+        {
+          "id": "N1",
+          "schema": "MaterialNP := Kind Property* [UnitRun] Property*",
+          "semantics": "Conjoin compatible explicit properties and one mass amount on one referent; properties may precede or follow the unit run. No hidden kind."
+        },
+        {
+          "id": "N2",
+          "schema": "UnitRun := MASS_UNIT_Q | MASS_UNIT_Q MASS_UNIT_Q",
+          "semantics": "Q or2Q in CARRY; the fixed reiterated-assertion rival changes only the second alternative to Q asserted twice."
+        },
+        {
+          "id": "N3",
+          "schema": "PortionNP := ProductKind ONE PORTION",
+          "semantics": "One product batch; no mass equivalence to Q."
+        },
+        {
+          "id": "I1",
+          "schema": "ParagraphInitialInput := Kind | ACQUIRE MaterialNP",
+          "semantics": "Introduce the initial source stock and source-owner preparation frame."
+        },
+        {
+          "id": "A1",
+          "schema": "UnaryClause := Adjunct* UnaryOperation Adjunct* [ExistingMaterialNP] Adjunct*",
+          "semantics": "The explicit object must resolve to the current preparation stock or available compatible material; otherwise the active stock is the object. Adjuncts attach to the operation in this clause, never create material."
+        },
+        {
+          "id": "A2",
+          "schema": "SupplyAction := RINSE ExternalSupplyNP",
+          "semantics": "Use the explicitly named first-mentioned supply on the active plant patient. The supply does not become the patient; a following UNTIL property still tests the patient/output."
+        },
+        {
+          "id": "T1",
+          "schema": "SequenceClause := THEN Clause",
+          "semantics": "Evaluate the next complete clause after the previous complete clause; no reset."
+        },
+        {
+          "id": "G1",
+          "schema": "ProspectiveGoal := FOR_OUTPUT MaterialNP",
+          "semantics": "Constrain the selected eventual product of the current source preparation, retaining ancestry. Do not create physical inventory."
+        },
+        {
+          "id": "G2",
+          "schema": "ControlledClause := OperationClause UNTIL (Property | MaterialNP)",
+          "semantics": "Constrain the selected output of that operation; properties apply to that output, and a repeated material kind is an output reference, not fresh input."
+        },
+        {
+          "id": "P1",
+          "schema": "ExplicitSeparation := SEPARATE_BY_GRADE CoarsePartNP FROM FinePartNP ToolAdjunct",
+          "semantics": "Produce two disjoint branches from the active bulk and associate the written references with those outputs."
+        },
+        {
+          "id": "P2",
+          "schema": "MeasuredSeparation := MaterialNP MaterialNP SEPARATE_BY_GRADE",
+          "semantics": "Two measured disjoint components exhaust the current prepared bulk in CARRY; physically separate them. The FRESH rival instead supplies a new bulk of the written input portions."
+        },
+        {
+          "id": "R1",
+          "schema": "SelectPart := LIFT_OUT DEFINITE PartNP",
+          "semantics": "Select one existing branch and move it to the work position without discarding or duplicating it."
+        },
+        {
+          "id": "P3",
+          "schema": "SortedPreservation := SORT ToolAdjunct KEEP MaterialNP MaterialNP",
+          "semantics": "The named measured products are two disjoint exhaustive outputs of the active source, both retained. Their names do not by themselves establish disjointness; the construction does."
+        },
+        {
+          "id": "K1",
+          "schema": "KeepSelection := KEEP Property",
+          "semantics": "Select the corresponding existing partition branch by its grade and store it; property nominalization is licensed only in this construction."
+        },
+        {
+          "id": "K2",
+          "schema": "StoreClause := STORE_SEPARATELY ExistingMaterialNP",
+          "semantics": "Retain the referenced existing branch separately; no input or transformation."
+        },
+        {
+          "id": "R2",
+          "schema": "RetrieveClause := RETRIEVE MaterialNP",
+          "semantics": "Select an existing available matching material; a missing referent fails rather than creating supply."
+        },
+        {
+          "id": "J1",
+          "schema": "JointTransformation := MaterialNP+ KNEAD TO_RESULT PortionNP",
+          "semantics": "Jointly consume the listed ingredients into the specified product. CARRY reuses an existing compatible solid and allows first-mentioned WATER/OIL supplies. FRESH introduces new listed inputs."
+        },
+        {
+          "id": "M1",
+          "schema": "MediumClause := WITH_MEDIUM SupplyKind UnaryOperation",
+          "semantics": "Use that already-contained material as medium of the active product; there is no addition or second supply."
+        }
+      ],
+      "parsing_limit": "The supplied complete clause trees select intended scope within this finite offer; ambiguity and competing parses have not been exhaustively searched. No raw group is silently omitted or interpreted only as a line-number instruction."
+    },
+    "fixed_rival": {
+      "id": "FRESH_INPUT_LISTS",
+      "unchanged": "All lexical values, operations, goal scopes, written amounts, source strings and alternative-reading assumptions remain as in CARRY.",
+      "single_changed_rule": "Each unmarked material list immediately before a new separation or kneading clause introduces fresh input portions, including an already-mentioned material kind. Explicit DEFINITE, RETRIEVE, KEEP and UNTIL bindings are unchanged.",
+      "f32v_8_consequence": "The two measured coarse units and one powder unit are newly supplied; the .7 prepared bulk is not thereby identified with them and remains unused by the written later clauses.",
+      "f32v_9_consequence": "The new coarse2Q still partitions into fibresQ and granulesQ. The new powderQ remains available.",
+      "f32v_10_consequence": "The written chor chol daiin introduces another fine powderQ for the paste. It requires an additional available powder supply and leaves the powderQ from .8 unconsumed. CARRY instead consumes that .8 powder; neither spelling nor ordinary recipe plausibility alone selects these reference conventions.",
+      "f21r_consequence": "No relevant unmarked separation-input or kneading-input list occurs here; explicit RETRIEVE still returns to the prepared powder branch and FOR_OUTPUT remains a prospective source-owned goal.",
+      "interpretation": "A coherent rival with different material prerequisites and leftover stocks, not a defeated reading. No unprinted ALL/NOTHING-LEFT condition is introduced to reject it."
+    },
+    "quantity_diagnostic_rival": {
+      "id": "REITERATED_QUANTITY_ASSERTION",
+      "scope": "Same complete lexicon, source-owner references, disjoint partitions, exhaustive lossless SORT and all other constructions; change only the repeated quantity-run interpretation.",
+      "changed_rule": "Two adjacent daiin assert massQ twice of the same one material, instead of adding to2Q.",
+      "local_written_consequence": "The coarse material in f32v.8 then has Q, while its two disjoint stored products in f32v.9 each have Q; conservation requires Q=Q+Q, impossible for Q>0.",
+      "decision": "This repeated-assertion interpretation conflicts with the NEW common partition contract. It does not refute old P14 M, which did not assert this same partition and ownership graph.",
+      "escape_costs": [
+        "Allow overlapping product descriptions rather than disjoint FIBRES/GRANULES fractions.",
+        "Allow an additional named or unnamed coarse input, gain of tracked plant solid, or nonexhaustive reassignment of .9 to another stock.",
+        "Change one or more fixed Q values."
+      ],
+      "limits": "Those would be different complete contracts. The two printed product names alone do not prove disjointness. No calibrated preference for the additive contract or decoded number follows.",
+      "loss_robustness": "The local contradiction does not require exact zero loss: with nonnegative loss L it would require Q=2Q+L, impossible for Q>0. No net addition of tracked plant solid remains essential."
+    },
+    "quantity_individuals_rival": {
+      "id": "TWO_EQUAL_PORTIONS",
+      "changed_rule": "Each daiin in an adjacent run denotes its own allotted portion of the same material kind, each of massQ, rather than one 2Q portion. Other reference and transformation rules are unchanged.",
+      "aggregate_consequence": "The two coarse portions together still have2Q. SEPARATE groups all coarse material into its coarse branch while preserving the identities of any constituent portions. LIFT_OUT DEFINITE COARSE_FRACTION can therefore refer to that collective branch, and the same3Q balance remains possible.",
+      "what_is_not_selected": "The mass equation cannot distinguish one coarse portion2Q from a collective of two coarse portionsQ+Q. No claim that ADD has been selected over this allocation is justified.",
+      "identity_cost": "If COARSE_FRACTION were required to pick one indivisible portion, two equal candidates would cause an ambiguity and onlyQ would be active; that stricter singular reference is not a fact about the word and is not silently imposed. No later source group in this offer identifies either original portion individually."
+    }
+  },
+  "unchanged_block_sha256": {
+    "lexicon": "60a13664a3b9888d7609f66bff790ba7d0c3c6db0b9e6cc6652bb7e3ea2fb18d",
+    "alternative_reading_values": "1450119d82942c319f7cfd79c4c47db39249a43d272ffaa15fab13b5a46d2804",
+    "source_packet": "40257af3bdeb8faafc29e7a30b67b22f049b6779bf44354a8412eea564cae47c",
+    "source_packet_sha256": "e8879127e499f44994944eac7d214f811df3f873d97dee85f807a0bdb4bd946e",
+    "complete_positional_alignment": "63bb838728c83d9d1035ca8bb6efcb3e9e5c3098ed170932e03884047682758c",
+    "primary_whole_readings": "7486ee2a196e9bad1ae92327ea77ddca873d28c956f04e93006e482dd4a80eeb",
+    "schematic_productions": "0f63a79cc55b3fc48873e8a9f24c9ab11fcaafb7788ee8c716454409a5186261",
+    "fixed_rival": "3d8b9cbfc58f46b64496818680597f4eca5f6ad0c88d008428f51cc581d7cdbc",
+    "quantity_diagnostic_rival": "4b9dcd6e8705debe3f7721476c78aa34f1723d41531c60df5b6602a58f797876",
+    "quantity_individuals_rival": "78c853a798a5cbfa15021bc0e891d0be6791719b4ae2fa029407f7e5bd3643ff"
+  },
+  "revision_scope": {
+    "lexical_entries_unchanged": 65,
+    "reader_alternatives_unchanged": 15,
+    "surface_productions_unchanged": 18,
+    "raw_groups_unchanged": 238,
+    "primary_raw_groups": 82,
+    "changes": [
+      "Replace V1 contract6 universal generation of coarse and powder material by global non-coarsening comminution.",
+      "Distinguish aggregate carriers, contained components, free stocks and consumed-parent provenance.",
+      "Close the type/role compatibility table and explicitly exclude coarse products and whole paste from POWDER references.",
+      "Complete final GRIND as a constituent operation preserving the enclosing paste and its water/oil, globally for mixed carriers."
+    ],
+    "not_claimed": "Keeping the lexical symbol GRIND does not make its revised operational denotation an unchanged V1 rule. This is not an exception naming f32v.11 or rescue after a successful target test."
+  },
+  "node_model": {
+    "fields": [
+      "source_ancestry",
+      "physical_carrier",
+      "plant_solid_mass",
+      "water_components",
+      "oil_components",
+      "particle_grade_distribution",
+      "form_class",
+      "properties",
+      "availability",
+      "partition_parent"
+    ],
+    "availability": [
+      "free",
+      "contained",
+      "consumed_as_separate_stock"
+    ],
+    "goal": "A typed description only; no physical material node.",
+    "mass_rule": "Parent and descendants are not simultaneous independent masses. Incorporation preserves component identities but removes their free-stock status.",
+    "particle_grades": [
+      "uncomminuted",
+      "coarse",
+      "fine"
+    ],
+    "plant_mass_scope": "Q measures desired plant dry solid. Carrier water/oil and removed extraneous dirt are not silently counted as Q; no absolute unit is identified."
+  },
+  "nominal_compatibility": {
+    "ROOT_MATERIAL": "root-stock form at the initial source introduction",
+    "PLANT_MATERIAL": "pure plant stock A/B/C/P/F/G, permitting retained rinse water but not a whole oil/water paste",
+    "PREPARED_BULK": "the current prepared particulate parent aggregate before it is spent into separate branches, irrespective of whether one or both grade classes are nonzero",
+    "COARSE_GRIST": "standalone coarse-grist form, not fine powder",
+    "COARSE_PART_COARSE_FRACTION": "coarse branch of the relevant grade partition",
+    "RESIDUE": "coarse branch of that grade partition, not any arbitrary later remainder",
+    "POWDER": "standalone all-fine powder form; whole paste, fibres, granules and coarse grist excluded",
+    "FINE_PART": "fine branch of the relevant partition",
+    "KEEP_COARSE_KEEP_FINE": "the corresponding existing branch of the relevant grade partition, also subject to free-stock access",
+    "FINE_COARSE_properties": "mutually exclusive particle-grade predicates; these are separate from DRY/CLEAN and from the whole carrier kind",
+    "FIBRES": "sorted fibres product form",
+    "GRANULES": "sorted granules product form",
+    "PASTE": "enclosing kneaded paste aggregate",
+    "WATER": "water component under its role-specific access",
+    "OIL": "oil component under its role-specific access",
+    "default": "No other compatibility edge. Matching uses class/property/partition records, not literal ledger letters or folio/locus keys. A prepared aggregate may simultaneously satisfy the PREPARED_BULK role and an all-fine/coarse form predicate."
+  },
+  "access_by_role": {
+    "ordinary_material_reuse_retrieve_keep_kneading": "free compatible nodes only",
+    "pre_separate_inventory": "the disjoint coarse/powder components of the current prepared bulk, even before physically freed",
+    "partition_reference": "the branch of the explicitly relevant partition frame",
+    "until_goal": "the designated selected output of that operation, never a fresh matching object",
+    "with_medium": "a directly contained water component of the active aggregate; does not free or add it",
+    "prospective_goal": "no inventory lookup or stock creation",
+    "external_material": "only original source/input rules and explicit WATER/OIL supply roles; FRESH changes only its frozen unmarked-input-list rule",
+    "default": "no access to contained, consumed or merely intended material outside these roles"
+  },
+  "global_effects": {
+    "CRUSH": "Eliminate uncomminuted material into coarse and/or fine sizes without increasing sizes already coarse/fine; preserve desired plant mass and enclosing carrier components. No mandatory positive amount in both size classes.",
+    "GRIND": "Act on the plant-solid constituent, monotonically toward equal or smaller particle size, preserving plant mass, water/oil component identities/amounts and an enclosing paste carrier. For c,p: c_next=c-a,p_next=p+a,0<=a<=c. If c=0, no coarse material is created. Changes within a size bin remain unmeasured.",
+    "FORM_UPDATE": "For a standalone solid, update form class from the resulting distribution: all-fine becomes a powder stock, coarse/fine mixture a prepared bulk. A whole paste remains PASTE while its plant constituent changes. Matching remains subject to free/contained access.",
+    "DRY": "Remove retained carrier water from the active preparation while preserving plant solid and oil; do not identify FINE with DRY.",
+    "RINSE": "Use the written water supply; preserve desired plant solid and particle grade, remove extraneous dirt as required by CLEAN. Retained water is bounded by previous water plus supply; any remainder is drainage, not newly created plant material.",
+    "MIX": "Redistribute current prepared bulk, no new ingredient or mass.",
+    "SEPARATE_BY_GRADE": "Free disjoint coarse and fine branches of the current bulk; positive masses come from the explicit written inventory/named outputs, not universal grinding.",
+    "LIFT_OUT": "Select and move the existing branch, no disposal.",
+    "SORT": "Partition selected input into the two explicitly named disjoint products. Feasibility of the physical sorting discriminator is an unverified condition; no universal common sieve cut is assumed.",
+    "KEEP_COVER_STORE": "Retain/select/cover/store existing material; preserve mass and identity.",
+    "RETRIEVE": "Select existing free compatible material; absence/tie fails.",
+    "SIEVE": "Create designated passing fraction plus disjoint unselected remainder; their combined plant mass equals input. Refining fine input may leave both outputs fine under the previous grade threshold. Zero unnamed remainder creates no node.",
+    "KNEAD": "Incorporate chosen powder and written W/O into one paste aggregate; components are retained but no longer free.",
+    "WITH_MEDIUM": "Use contained water as medium of the active aggregate; no input event."
+  },
+  "unbound_physical_parameters": [
+    "Initial native moisture and desired plant amount before later inventory constraints.",
+    "Comminution distributions and within-bin size changes.",
+    "Grade threshold, individual sieve identities, mesh size/shape and sorting discriminator.",
+    "Water/oil amounts and rinse drainage; duration does not prove drying efficacy.",
+    "Success of each conditional instruction under actual physical material properties."
+  ],
+  "sieve_limit": "Two successive binary separations of a coarse residue cannot both yield positive pass/retain products under one unchanged perfect cut without a relevant material change. V1 did not assert that common cut; V2 likewise leaves tool/discriminator parameters explicit and does not claim physical validation.",
+  "rival_settings": [
+    "CARRY_ADD",
+    "FRESH_INPUT_LISTS",
+    "REITERATED_QUANTITY_ASSERTION",
+    "TWO_EQUAL_PORTIONS"
+  ],
+  "manual_review_outcomes": {
+    "f21_all_rivals": "Same full operation ledger; feasible conditional on c1>0,p1>=Q,M=c1+p1, with selected final U=Q and optional V=p1-Q. Goal never becomes stock. M>Q remains a consequence.",
+    "f32_carry_add": "Written inventory fixes3Q; coarse2Q partitions into F=Q and G=Q, untouched P=Q goes into T. Final GRIND preserves T.W,T.O and fine plant amountQ, producing no coarse or free powder.",
+    "f32_fresh": "Earlier prepared B:N remains; new measured3Q is introduced at.8 and another Pprime:Q at.10. Final free/aggregate account B:N+oldP:Q+F:Q+G:Q+Tsolid:Q=N+4Q. Coherent with extra prerequisites/stocks.",
+    "f32_reiterated": "Inventory gives coarseQ+powderQ. SORT/KEEP asks two disjoint Q outputs from coarseQ: Q>=2Q impossible with any nonnegative loss. Stop at that postcondition; later complete source is retained but not falsely reported as executed.",
+    "f32_two_portions": "C consists of C1=Q,C2=Q collectively2Q. F/G may mix contributions with a in[0,Q]; no later word identifies either original portion. Same mass account as ADD; unselected."
+  },
+  "withdrawn_claims": [
+    "V1 already completely specified the final carrier/material type.",
+    "Every GRIND necessarily produces positive coarse and powder fractions.",
+    "Object disjointness alone is a complete nominal subtype matrix."
+  ],
+  "retained_conditional_consequences": [
+    "Local repeated-assertion contradiction, robust to nonnegative loss.",
+    "Global2Q versus3Q contradiction only with exhaustive inventory, no fresh plant supply and three disjoint still-live terminal stocks.",
+    "ADD requires zero net loss over the fixed3Q interval.",
+    "CARRY and FRESH differ in prerequisites and leftovers.",
+    "ADD and TWO have equal aggregate mass.",
+    "f21 output goal is source-owned and prospective; final powder must be physically produced."
+  ],
+  "execution_status": {
+    "simulator_run": false,
+    "new_target_opening": false,
+    "new_corpus_search": false,
+    "images_or_reserves": false,
+    "semantic_pass": false,
+    "meaning_confirmation": 0,
+    "manual_state_ledger": "Every operation/binding and every rival continuation is written explicitly in the linked MD; no computed physical trace is substituted."
+  },
+  "version": {
+    "label": "development_v2_for_primary_review",
+    "created_utc": "2026-09-22 13:03:30 UTC"
+  },
+  "record_identity_note": "A/B/C/P labels in the manual ledger denote successive or related material records, not hardcoded nominal lookup keys. Updating a form label does not create free material. Consumed parents remain only provenance records.",
+  "water_bound_note": "On f21r the first DRY leaves zero retained water before RINSE, so the later retained amount satisfies0<=h1<=w; w-h1 is drainage. No water is created by renaming the carrier.",
+  "global_frame_and_water_accounting": {
+    "frame": "Preserve ancestry, component amounts and properties except explicitly changed fields. Entry assertions apply at their written step; FRESH need not remain true after processing. DRY, FINE and CLEAN are separate. No unmodeled contamination.",
+    "water_sinks": "DRY sends removed water to an external vapor register; RINSE drainage enters a spent-water register. Neither is free ingredient stock. GRIND removes neither water nor oil."
+  },
+  "freeze_utc": "2026-09-22 13:12:45 UTC"
+}

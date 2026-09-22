@@ -4,12 +4,12 @@ Updated: 2026-09-22. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Finish explicit powder-model V2, then attempt only the selected whole f4r.1-4 pair.
-Latest decision: 1036 all1349rows selects solef4r pair;31groups17/18fixed positions,13/12newtypes.
-Working files: experiments/yolo/gdt1036_powder_frozen_lexicon_capacity/REPORT.md
-Assumptions: V1postconditions open;65+15values stay fixed;prior exposure;0words.
-Resume: Freeze V2 before inspecting selected text; attempt complete extension, no replacement.
-Running: Author V2;root publishes1036 then continues. Minimum14:47:48UTC.
+Task: Attempt only the complete selected f4r.1-4 pair with frozen V2 and65+15word values.
+Latest decision: V2globalcarrier/type rules explicit; alllexicalblocks fixed; FRESH/TWOremain.
+Working files: research_registry/decisions/powder_f4r_whole_extension_decision_20260922.md
+Assumptions: All meanings hypothetical; DRYderivation open;prior exposure;0words.
+Resume: Open selected whole pair;40min full extension/review/publication, no target replacement.
+Running: Root and whole-reading author;minimum14:47:48UTC. No reserved pages.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
