@@ -1,0 +1,111 @@
+{
+  "title": "RAW recipient-conditioned products with a separate preformed-constituent provenance contract",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. A whole Galen honey argument reuses a food KIND across recipient cases while separating product assertions, claimed outcome contrast and product provenance. Selective release of pre-existing constituents can reproduce the outcome cases; only an additional written origin/change claim can distinguish it from generation in the body. No physical input-token identity, exclusive product or clinical success is assumed.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-26",
+    "mechanism": "Compose a recipient-conditioned production relation with a separately written part/precursor provenance relation. Ingredient-kind reuse does not become individual identity, and a result of a different kind from the whole ingredient does not by itself prove transformation of its constituents.",
+    "unit": "One complete source argument and a prospective complete four-block f85r2 account. This is a source-content construction, not a supplied word-by-word reading.",
+    "contrast": "Kind formation along an explicitly bound material lineage versus recipient-selective release of an already typed constituent; a mixed account is also retained. A recipient-invariant release law is a stronger separate rival, not the definition of all release.",
+    "prediction": "Two cases can reuse the same food-kind value and the same production relation yet assert different recipient-dependent outcomes. That contrast alone selects neither generation nor selective release. For a particular written output, pure release requires a pre-event constituent of that output kind and a no-kind-change lineage; an explicit negation of that provenance witness or an explicit kind change on that same lineage is incompatible with pure release.",
+    "source": {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Galen/Natural_Faculties/2%2A.html",
+      "unit": "Natural Faculties II.8, final11 complete paragraphs, pp191–195: from the overcooking question beginning 'Who, in fact, does not know' through the final digression/authority paragraph, ending before II.9.",
+      "boundary_clarification": "End immediately before the heading9 in BookII, after the paragraph attributing the discussed view to Aristotle/Praxagoras and Hippocrates/Plato. No part of BookIII is adopted by this card. Selection was declared in the parent handoff before authoring this construction.",
+      "edition": "The already exposed 1916 English translation reproduced by LacusCurtius; its page says it is not proofread. No new manuscript image or medieval exemplar is identified.",
+      "obligations_in_order": [
+        "Overcooking: salty then bitter; boiled honey becomes bitter.",
+        "Honey already has heat associated with sweetness.",
+        "Added heat helps insufficiently warm substances but becomes excess for honey; honey turns bitter sooner.",
+        "Warm constitution/prime: bile before blood; cold constitution/life-period: blood.",
+        "Hippocrates' avoidance advice for the bilious.",
+        "Medical benefit/harm claims: old/young and bilious/phlegmatic; reasoning and experience are distinguished.",
+        "Warm-body causes: nature, disease, age, season, locality, occupation; opposite circumstances give blood.",
+        "Contrasting products are used to argue for generation within the body.",
+        "Preformed-only counterfactual: uniform bodily results, with bitter/sweet food expectations.",
+        "Other sweet substances also readily become bile in the specified warm bodies.",
+        "Digression acknowledged; Aristotle/Praxagoras are credited with expounding Hippocrates/Plato."
+      ],
+      "source_claim_limit": "These are the author's historical claims, not verified clinical effects. The boiling argument, dietary assertions, quoted counterfactual and authority attribution all remain duties of a future complete account."
+    },
+    "formal_scope": {
+      "role_types": "InputPortion and ProductPortion are roles of the common MaterialPortion sort, not disjoint entity classes. FoodKind and ProductKind are roles of MaterialKind, not types whose inequality proves change. Identity is neither asserted nor denied merely by using two roles. SWEET_FOOD is a class predicate Sweet(k) on MaterialKind, not an additional atomic ingredient.",
+      "input_kind_not_individual": "H denotes honey as a FoodKind. Independent cases bind their own input portions x1,x2 and recipients p1,p2. Equal kind does not assert x1=x2, identical composition, equal dose, equal clinical conditions, p1=p2, or a single patient's time series. Neither equality nor inequality is imposed until the writing supplies it.",
+      "conditional_profiles": "W and O name the source's warm-body and opposite-circumstance profiles as separate proposed condition descriptions. O is not silently Boolean NOT(W), a complete clinical diagnosis, or the automatic value of every old person. Mixed age/disease/season circumstances receive no invented precedence rule.",
+      "positive_outputs": "Product(c,y,r) asserts a product of kind r in case c. It does not assert that r is the sole product, give its quantity, or negate another product. In particular, bile/blood contrast is not expanded into zero amounts of the other humour.",
+      "separate_comparison_claim": "The author's claimed difference of outcomes is a separately scoped Contrast(c1,c2) assertion. It is not inferred merely from two positive Product statements; both cases could otherwise contain both products.",
+      "separate_clinical_claims": "Benefit/harm/avoidance assertions remain attributed claims with their own recipient conditions. A Product assertion is not a successful treatment, and a blood/bile name does not automatically supply benefit or harm.",
+      "whole_source_modal_scope": "The preformed-only account is a counterfactual premise under discussion. Its positive existence commitments do not become narrator-endorsed ingredient facts. Advice, reported observation, causal assertion and authority attribution remain different claim roles."
+    },
+    "reusable_relation_schema": {
+      "Case": "Case(c,k,x,p,sigma,t0,t1) binds food kind k, input portion x, recipient p, condition sigma and relevant before/after times. Kind(x,k,t0) is required; no other case inherits its token variables.",
+      "Production": "Product(c,y,r) links one asserted output y and its kind r to that case. One case can have several products. This relation is shared by both source profiles and by the further sweet-food claim, quantified over k with Sweet(k) and k≠HONEY.",
+      "PartAndKind": "PartAt(z,x,t0) and Kind(z,r,t0) describe a constituent at a particular time. Kind(x,H,t0) for the whole food does not exclude an embedded constituent of another kind.",
+      "Lineage": "Lineage(z,y,c) is an explicitly asserted precursor relation. It is not identity z=y, equality with the whole ingredient, conservation of amount, or a model of chemistry.",
+      "Change": "KindChange(z,y,c) and NoKindChange(z,y,c) are incompatible claims about the same declared lineage during the same case. Mere equality of endpoint kind labels is not a proof that no intermediate change occurred.",
+      "PreformedWitness": "For output Product(c,y,r), a preformed witness is a written z with PartAt(z,x,t0), Kind(z,r,t0), Lineage(z,y,c), and NoKindChange(z,y,c). All share the x,t0,c of that Case.",
+      "GenerationClaim": "A claim that this output kind is generated by alteration requires a written precursor lineage and KindChange on that lineage. It does not require a newly created physical individual or that the ingredient contains no pre-existing quantity of that kind elsewhere.",
+      "ClaimScope": "Claims(s,phi,mode) records who commits to phi and whether it is asserted, advised, reported, or assumed within a counterfactual. These modes are not assigned to any target word by this card."
+    },
+    "source_reuse_cases": [
+      {"case": "C_W", "kind": "HONEY", "recipient_profile": "W", "positive_product": "YELLOW_BILE", "limits": "No unique output or amount; the earlier-than-blood qualification belongs to its source clause."},
+      {"case": "C_O", "kind": "HONEY", "recipient_profile": "O", "positive_product": "BLOOD", "limits": "Same input KIND as C_W, no same portion/patient/composition assumption."},
+      {"case": "C_SWEET", "kind": "Other members of SWEET_FOOD", "recipient_profile": "W", "positive_product": "YELLOW_BILE", "limits": "A quantified further class claim. No cold/opposite-profile result for every other sweet food is filled in."}
+    ],
+    "three_causal_accounts": {
+      "GENERATION": "For the outputs explicitly claimed to arise by alteration, supply a precursor and KindChange in the body. The recipient-conditioned product clauses remain the same, with no guarantee of clinical benefit.",
+      "PREFORMED_SELECTIVE": "For each output under a pure-release claim, supply a PreformedWitness. A single shared selection relation may depend on the recipient condition; release is not inherently recipient-invariant.",
+      "MIXED": "Some named output lineages change kind while other constituents are released. Keep distinct lineages and claim scopes. Finding a preformed constituent somewhere does not refute all generation, and finding one changed lineage does not refute all release."
+    },
+    "uniformity_bridge": {
+      "what_the_author_uses": "The preformed-only causal hypothesis is paired with an asserted bridge to uniform results across recipients. This bridge is extra causal content. It is not entailed by the logical definition of containment or by sharing a food-kind name.",
+      "logical_form": "Let P be the preformed-only hypothesis, U its asserted recipient-invariance bridge, and D the separately asserted outcome contrast. P AND U implies NOT(D). With D one can reject P AND U; rejecting P alone requires retaining U as an additional premise.",
+      "not_free": "No inference to D from positive bile and blood outputs alone. No inference to U from same kind alone. No inference that all honey portions have the same composition. No retrospective universal quantifier or clinical-state identity may supply these premises.",
+      "serious_rival": "Selective release rejects U while retaining preformed constituents. It is therefore not eliminated merely by the source's paired outcomes. The source author's generation assertion and this rival disagree in causal/provenance content, even where their positive outcome descriptions agree."
+    },
+    "manual_countermodel_not_a_test": {
+      "shared_setup": "Choose two distinct portions xW,xO of the same honey kind and two recipients in profiles W,O. This is a possible witness, not a source claim of distinctness. No dose or composition identity is assumed by the main construction.",
+      "selective_release_witness": "For a deliberately stronger countermodel, stipulate the SAME hypothetical constituent-kind inventory {YELLOW_BILE,BLOOD} for both portions. In W the shared selector releases a bile constituent; in O it releases a blood constituent. The output remains linked to a pre-existing constituent without kind change. This invented stock is disclosed as a rival assumption, not observed honey chemistry or a decoded statement.",
+      "generation_witness": "Use the same food-kind and recipient-condition cases, but bind the selected outputs through kind-changing precursor relations. No output token is identified with its input whole; no quantity is assigned.",
+      "result": "Both accounts can meet the positive product cases and a claimed difference in selected outcomes. Output contrast does not identify origin. The additional sweet-food warm case can also be represented by either account; it is not an automatic fourth-cell prediction. No program was run."
+    },
+    "independently_checkable_constraints_for_a_future_whole_reading": [
+      "Every shared input-kind form retains one FoodKind denotation across all recipient cases; it may not become a blood/bile product name only where that makes a branch fit. Input portions and recipient conditions must be bound by a fixed written construction.",
+      "The product and its alleged precursor must be tied by writing independently of choosing GENERATION or PREFORMED_SELECTIVE. Retyping the whole honey portion as a preformed bile constituent is not a valid witness without the required part/whole relation.",
+      "A completed account asserting an output, explicitly excluding a preformed witness for that output, and asserting its precursor/body origin defeats pure selective release for that output. Missing preformed information is not such a negation.",
+      "A completed account explicitly giving a preformed constituent, the same output lineage and NoKindChange defeats a claim of KindChange on THAT lineage. It does not defeat generation of another output or elsewhere in the case.",
+      "If a whole argument rejects P solely from D, its derivation must own U in the correct asserted or attributed scope. A merely hypothetical premise cannot silently become a narrator fact. The same graph without U must retain selective release as a countermodel.",
+      "All11 source obligations and all target groups must be accounted for before any full-reading verdict. A construction that only reproduces the three product cells has not read the whole argument."
+    ],
+    "scope_and_costs": {
+      "prospective_target": "Existing1042 f85r2 N.2–6,E.7–11,S.12–17,W.18–23, every108/107/109 group in separate ZL/IT/RF readings. Repeated assigned forms on the rest of the existing24-locus surface remain consistency obligations if a later draft assigns them. No target query or scoring was done here.",
+      "known_reuse_input": "Only prior report facts are used: aiin occurs in all four blocks, oteey in E/S, daiin in N/E, and chedy/ain/or in S/W. None is assigned honey, a recipient, a product, a causal operation, or a logical scope here.",
+      "new_target_whole_values": 0,
+      "new_target_component_values": 0,
+      "target_grammar_productions_supplied": 0,
+      "target_binding_status": "Unbound full architecture, not a completed target reading. The positive new input is the explicit whole source argument and its branching/provenance/attribution structure; no confirmed word is required to retain it.",
+      "core_source_sort_choices": ["MaterialKind", "MaterialPortion", "Recipient", "ConditionProfile", "Case", "Time", "ClaimSource", "ClaimMode"],
+      "core_relation_choices": ["Case", "Kind", "Sweet", "Product", "PartAt", "Lineage", "KindChange", "NoKindChange", "Contrast", "Claims"],
+      "derived_relation": "PreformedWitness is expanded into the declared constituent, kind, lineage and no-change obligations; it is not one free lexical macro.",
+      "source_atom_inventory": "HONEY and SWEET_FOOD; YELLOW_BILE and BLOOD; W and O; six warm-body cause classes; old/young/bilious/phlegmatic claim guards; boiling and salty/bitter/sweet descriptions; four named authorities. These are source concepts, not assigned Voynich values. A full source AST and target writer would still have to enumerate each use and scope; this card claims neither is complete.",
+      "added_model_assumptions": "Explicit case/lineage representation; keeping input kind separate from token and composition; scoped claims; pure-release and generation accounts restricted to named outputs. Uniformity, a fixed hidden stock and recipient selection are separate declared rival assumptions, not automatic parts of the main model.",
+      "no_hidden_fills": "No same-dose or equal-condition assumption, numeric threshold, temperature, mass fraction, efficacy, exclusive product, total thermal precedence rule, single patient, or one-word sentence macro. No values or faculty constructors from564 or550 are inherited."
+    },
+    "smallest_next_decision": "If selected later, author one complete fixed four-block argument with the shared food-kind cases and at least one separately written provenance or counterfactual-uniformity assertion; freeze all word values, composition, references and source departures before testing. The case/product clauses and that assertion must be derived separately so neither causal model can simply invent its desired origin witness. If no such assertion is owned, retain both causal accounts with an incomplete reading; do not build a new simulator merely to confirm the definitions. This card selects no experiment.",
+    "predecessors": [
+      "IDEA000052 full ix_material_conservation and iz intake correction: transport and transformation can coexist; kind identity differs from token identity. The old confirmation contract is not silently relaxed, and no original failure is repaired.",
+      "IDEA000068 full kg_identity_persistence: already proposed persistent item identity. This descendant does not assume that identity; it separates common food KIND from a separately written precursor/constituent lineage.",
+      "GDT827 fullREPORT and WORKING_THEORY: coordinated gloss substitutions gave equal transformation/flow coverage. This card supplies distinct provenance and causal-premise obligations, not another fluent substitution or coverage claim.",
+      "IDEA000542: nearby fever causal argument remains separate; the selected honey argument includes external boiling, recipient products, dietary assertions and a preformed-only counterfactual.",
+      "IDEA000532/343 recipient-dependent benefit/harm and541 direction reversal remain distinct: this proposal asks where the product kind comes from, not only the sign of an effect or direction of a channel.",
+      "GDT817's old becomes/or failures, GDT884's fixed source-writing stop and the failed f57 bridge remain. No old structural tag becomes an English meaning here."
+    ],
+    "checks_and_access": {
+      "navigation": "Currentroute; compositiontopic; bounded honey/recipient/provenance duplicate search and route-check; relevant ideas052/068 and linked primary reports. Lexical searches are not novelty certification.",
+      "primary_reads": "Full ix and iz material-conservation proposals, kg_identity_persistence, GDT827 REPORT/WORKING_THEORY, full Luna throughputREPORT; existing BookII primary's selected11-paragraph unit. No mixed observationsJSON was opened.",
+      "not_done": "No new Voynich query/image/page, reserve, contact, semantic execution, decoder, global state, source image, or change to old cards. No target values taken from another family."
+    },
+    "proposal_path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/35_honey_recipient_and_product_provenance.json"
+  }
+}

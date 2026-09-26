@@ -8646,6 +8646,20 @@ restrictions on the hypothesis, not inherited manuscript meaning laws.
 Next consider only a separately specified content-bearing construction,
 with its sort changes and source ownership made explicit.
 
+**2026-09-26 faculty-construction consequence:** [GDT1046](experiments/yolo/gdt1046_f85_faculty_nominalizer_consequences/REPORT.md)
+checks all81 E groups and16 free ar. RAW564's strict ProcessFrame-to-FacultySpec
+rule fails at IT/RF's ar/ar in one .24 span. Its second ar cannot consume the
+first result under the fixed reductions. Two informed native observers leave
+the final aram/ar-am division unresolved; ZL has no literal adjacent pair.
+Park that all-reader extension, without casts or another dictionary fill.
+ZL whole E is incomplete, not proved impossible; the original S/E seeds and
+1045 remain unchanged. Zero words. Full III.9 includes the residue analogy:
+[boundary correction](research_registry/proposals/laufenberg_f85r2_20260926/FRAME_FACULTY_SOURCE_ROOT_REVIEW.md).
+A separate complete Albertus chapter supplies a real faculty-to-quality link,
+with overlapping aids and cold's per-accidens role, not a four-box seasonal
+mapping: [source bridge](research_registry/proposals/laufenberg_f85r2_20260926/FACULTIES_TRADITION_BRIDGE_REPORT.md).
+Next review a different concrete source-content mechanism, not repair NOM.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
