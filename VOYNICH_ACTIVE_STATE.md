@@ -8537,6 +8537,16 @@ sequence and physician, with seasons named in surrounding text; the doctor's
 textual placement varies across witnesses. These are related-source findings,
 not independent Voynich semantics. [Native continuation](research_registry/proposals/laufenberg_f85r2_20260926/COSMIC_CONTINUATION_NATIVE.md).
 
+**2026-09-26 related-source comparison:** Cgm5185 has a complete element/air-region/
+sphere exposition and an actual Aer inscription between cloud and fire bands.
+Elements16 is now provisionally read “by the fire”, correcting the initial
+heaven gloss; its apparent ordinal remains uncertain. Mercury-with-urinal and
+whole-diagram ring statements have separate concrete comparators, but no single
+source supplies the joint target layout or an explicit physician-to-cosmos
+argument. [Root source review](research_registry/proposals/laufenberg_f85r2_20260926/CGM5185_ROOT_REVIEW.md).
+IDEA560 source-respect premises are supported; target values/reference and the
+fire qualification remain exploratory authoring, with no meaning selection.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
