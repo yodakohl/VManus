@@ -8529,7 +8529,8 @@ GDT1044 retains the disputed ZL seed's native ambiguity. No word is confirmed. S
 and [558audit](research_registry/proposals/laufenberg_f85r2_20260926/QUANTIFIER_DRAFT_ROOT_REVIEW.md).
 
 **2026-09-26 source continuation:** Karlsruhe88v explicitly links a wavy tenth
-heaven to cold/moist water properties; the fiery eleventh is said not to burn.
+heaven to cold/moist water properties; the eleventh’s fiery name is not explained
+by burning. Categorical nonburning is a stronger contextual interpretation.
 Thus celestial and watery associations can coexist in this tradition. Neither
 circle matches the target's blue lobed border or four plumes. MunichCgm377's
 blank-image instructions independently preserve the work's planned female-age
@@ -8543,9 +8544,15 @@ Elements16 is now provisionally read “by the fire”, correcting the initial
 heaven gloss; its apparent ordinal remains uncertain. Mercury-with-urinal and
 whole-diagram ring statements have separate concrete comparators, but no single
 source supplies the joint target layout or an explicit physician-to-cosmos
-argument. [Root source review](research_registry/proposals/laufenberg_f85r2_20260926/CGM5185_ROOT_REVIEW.md).
-IDEA560 source-respect premises are supported; target values/reference and the
-fire qualification remain exploratory authoring, with no meaning selection.
+argument. The later fixed14rv check adds actual dietary/medical closure before
+the uncaptioned doctor, still without an explicit picture reference. [Root source review](research_registry/proposals/laufenberg_f85r2_20260926/CGM5185_ROOT_REVIEW.md).
+IDEA560 now has a typed five-group ZL fire/light/nonburning hypothesis at the cost
+of3newwholevalues; twoot-initial entries remain atomic. G034 and whole35 are open.
+The source’s reason-negation does not alone entail categorical NOTBURNS; both
+rivals share that stronger premise. No meaning is selected. See
+[560audit](research_registry/proposals/laufenberg_f85r2_20260926/RESEMBLANCE_FIRE_ROOT_REVIEW.md),
+[source scope](research_registry/proposals/laufenberg_f85r2_20260926/SOURCE_NEGATION_QUALIFICATION.md),
+[14rv context](research_registry/proposals/laufenberg_f85r2_20260926/CGM_PHYSICIAN_PREDECESSOR_ROOT_READING.md).
 
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing

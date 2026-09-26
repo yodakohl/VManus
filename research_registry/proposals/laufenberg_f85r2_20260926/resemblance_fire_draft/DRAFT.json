@@ -1,0 +1,198 @@
+{
+  "schema": "idea560_local_fire_authoring_v1",
+  "strict_baseline_status": "UNEXTENDED_RAW560_INCOMPLETE: G010 lacks a RespectSet value; G011/G012 lack the written negative operator and property; ot(odar) is ill-typed. New syntax alone cannot supply missing LIGHT/BURNS/polarity meanings.",
+  "status": "C0_LOCAL_FIVE_GROUP_HYPOTHESIS_PROPOSED_FOR_REVIEW_NOT_SELECTED",
+  "whole_line_or_page_complete": false,
+  "confirmed_meanings": 0,
+  "boundary": "Root explicitly authorized openly added, frozen whole bindings as exploratory authoring. This proposed completion adds three explicitly guessed whole-form entries. It is not derivable from the raw card's twelve entries alone. The strict unextended raw grammar remains INCOMPLETE. Review B's objection concerns treating a free LIGHT assignment as already licensed/source-proved, not a ban on declaring a new C0 guess; a formal parse does not validate that guess.",
+  "input_hashes": {
+    "ideas/30_resemblance_respect_subject_reference.json": "47f0876b32281e14e9947259716f4ee0be343c2ed24298010a8b793d9d33b94a",
+    "RESEMBLANCE_SELECTION_REVIEW_B.md": "7ae07f8e8f8d9b18b51069f10f7f8c18499afc6c3a3da6977031ac520e6d0741",
+    "RESEMBLANCE_SOURCE_CHECK.md": "df4d426083092e2cb52a9df6b2ee7e09e02b67175bbd4199ec34e2a030a7478a",
+    "GDT1042/artifacts/native_groups.tsv": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c"
+  },
+  "target": {
+    "reader": "ZL3b",
+    "locus": "f85r2.1",
+    "groups": ["G008", "G009", "G010", "G011", "G012"],
+    "literal": "otar chepaiin otodar otodaiin opaiin",
+    "within_span_separators": "all DEFINITE_SPACE",
+    "boundary_status": "G008 and G012 are interior to the 35-group locus; two local constituent boundaries are authorial hypotheses, not punctuation or recovered sentence boundaries",
+    "new_pixels_or_transcription": false
+  },
+  "types": {
+    "PrototypeKind": "The distinct FIRE, WATER and CRYSTAL kind constants only",
+    "Subject": "An explicitly written subject constant; never a property or prototype kind",
+    "PropertyName": "A coordinate in the existing COLD/MOIST/LIGHT/BURNS profile vocabulary; no truth value by itself",
+    "RespectSet": "A nonempty finite set of PropertyName coordinates",
+    "SubjectPackage": "Pair (explicit subject, inherited assertion set)",
+    "ComparisonRecord": "Record containing subject, prototype, respects and accumulated assertions; existing record structure is preserved",
+    "NegativeQualification": "ComparisonRecord x PropertyName -> ComparisonRecord"
+  },
+  "frozen_twelve_whole_entries": {
+    "ar": {"type": "PrototypeKind", "meaning": "FIRE"},
+    "aiin": {"type": "PrototypeKind", "meaning": "WATER"},
+    "chedy": {"type": "PrototypeKind", "meaning": "CRYSTAL"},
+    "chepaiin": {"type": "Subject", "meaning": "ELEVENTH_HEAVEN"},
+    "olkaiin": {"type": "Subject", "meaning": "TENTH_HEAVEN"},
+    "qotedaiin": {"type": "Subject", "meaning": "the fixed comparison exemplar of ordinary WATER, not the WATER kind itself"},
+    "odar": {"type": "RespectSet", "meaning": ["COLD", "MOIST"]},
+    "aloees": {"type": "RespectSet", "meaning": ["MOIST"]},
+    "qopchas": {"type": "ComparisonRecord -> SubjectPackage", "meaning": "Return the explicitly written subject of the embedded comparison, carrying every embedded assertion into the containing comparison. No latest-mention search, dropped premise or conversion of a predicate to an entity."},
+    "otar": {"type": "SubjectPackage -> RespectSet -> ComparisonRecord", "meaning": "ot(ar)"},
+    "otaiin": {"type": "SubjectPackage -> RespectSet -> ComparisonRecord", "meaning": "ot(aiin)"},
+    "otchedy": {"type": "SubjectPackage -> RespectSet -> ComparisonRecord", "meaning": "ot(chedy)"}
+  },
+  "frozen_ot": {
+    "type": "PrototypeKind -> (SubjectPackage -> RespectSet -> ComparisonRecord)",
+    "law": "For prototype kind K, written subject package (x,A), and NONEMPTY respect set R, create a record with subject x, prototype K, respects R, and obligations A union {for every q in R, Value(x,q)=PrototypeValue(K,q)}. This asserts agreement only on the written selected respects. It does not assert material membership, identity, part-of, possession of every property, a prescription, or a change of state.",
+    "domain": ["FIRE", "WATER", "CRYSTAL"],
+    "licensed_literal_derivations_only": {"otar": "ot(ar)", "otaiin": "ot(aiin)", "otchedy": "ot(chedy)"},
+    "forbidden_extension": "ot(odar) is ill-typed because odar is RespectSet, not PrototypeKind. The new otodar whole entry below is explicitly lexical, not a new ot application. otodaiin is also not parsed by this ot constructor."
+  },
+  "new_whole_entries": {
+    "otodar": {
+      "type": "RespectSet",
+      "meaning": ["LIGHT"],
+      "status": "NEW_UNCONFIRMED_INDEPENDENT_WHOLE_BINDING",
+      "literal_internal_parse": null,
+      "cost": "One atomic whole entry and one assigned respect payload. Its ot-initial spelling is not explained by the frozen three-member constructor. Source plausibility does not bind this exact string."
+    },
+    "otodaiin": {
+      "type": "NegativeQualification",
+      "meaning": "Given the explicitly supplied left ComparisonRecord c and right PropertyName p, return the same record fields and all inherited assertions plus Value(c.subject,p)=false.",
+      "status": "NEW_UNCONFIRMED_INDEPENDENT_OPERATOR_BINDING",
+      "argument_order": "left ComparisonRecord, right PropertyName",
+      "semantic_operations": ["project c.subject", "negate the named property at that subject", "preserve and extend c.assertions"],
+      "guard": "Both operands must be written constituents. No preceding-mention search, default heaven, prototype owner, inferred subject, or missing property is licensed.",
+      "literal_internal_parse": null,
+      "cost": "One whole operator entry with three declared semantic operations; it explicitly carries the subject-reference burden. Its ot-initial spelling is not explained by the frozen constructor."
+    },
+    "opaiin": {
+      "type": "PropertyName",
+      "meaning": "BURNS",
+      "status": "NEW_UNCONFIRMED_INDEPENDENT_WHOLE_BINDING",
+      "truth_status": "Names the coordinate only; it does not independently assert burning or nonburning.",
+      "repetition_obligation": "Exactly the same PropertyName at ZL .1 G034. That occurrence's governing construction is unparsed in this bounded task; no new owner or polarity is supplied there."
+    }
+  },
+  "profile": {
+    "retained": {
+      "WATER": {"COLD": true, "MOIST": true},
+      "CRYSTAL": {"COLD": true, "MOIST": true},
+      "water_exemplar_rule": "The named WATER_EXEMPLAR receives the WATER prototype's COLD and MOIST cells."
+    },
+    "newly_bound": {"FIRE": {"LIGHT": true}},
+    "still_unbound": ["FIRE.BURNS", "every other unassigned prototype cell"],
+    "source_plausibility": "Root's source check reads H11 as shining like clear fire, with an explicit denial of burning. The FIRE.LIGHT=true literary comparison profile is a declared prototype premise consistent with that simile, not a claim about every possible physical fire.",
+    "no_heaven_preload": "Neither H11.LIGHT nor H11.BURNS is preloaded as a target-semantic premise. They must be consequences of the authored words."
+  },
+  "grammar": {
+    "old_productions_unchanged": [
+      "Kind := ar | aiin | chedy",
+      "Respect := odar | aloees",
+      "SubjectTerm := chepaiin | olkaiin | qotedaiin | qopchas Comparison",
+      "Head := otar | otaiin | otchedy",
+      "Comparison := Head SubjectTerm Respect"
+    ],
+    "old_evaluation_unchanged": "Named subjects are uniformly packaged with empty inherited assertions. qopchas returns the written embedded subject with all embedded assertions. A Comparison adds only its selected-respect agreement obligations.",
+    "added_productions": [
+      "Respect := otodar",
+      "Qualifier := otodaiin",
+      "Property := opaiin",
+      "QualifiedComparison := Comparison Qualifier Property"
+    ],
+    "new_production_count": 4,
+    "new_combinatory_schema_count": 1,
+    "terminal_extension_count": 3,
+    "qualified_evaluation": "Evaluate the complete left Comparison c and written right Property p, then apply the written middle Qualifier to (c,p). Commit all resulting record assertions. Existing ot output remains ComparisonRecord; there is no predicate/entity cast.",
+    "universality": "The rule is identical for any well-typed Comparison and admitted Property, regardless of particular kind, subject, respect, position or source story. No exception for H11. It currently has only this proposed token attestation.",
+    "scope_limit": "This is a local five-group grammar extension, not a full program grammar or claimed unique global parse. The raw card's old nested examples remain unchanged."
+  },
+  "all_five_occurrences": [
+    {"id": "ZL3b|f85r2.1|G008", "raw": "otar", "type": "SubjectPackage -> RespectSet -> ComparisonRecord", "meaning": "Compare against FIRE on a written respect", "owner": "Comparison head", "arguments": ["G009", "G010"]},
+    {"id": "ZL3b|f85r2.1|G009", "raw": "chepaiin", "type": "Subject", "meaning": "ELEVENTH_HEAVEN", "owner": "written subject of G008; later explicitly projected by G011"},
+    {"id": "ZL3b|f85r2.1|G010", "raw": "otodar", "type": "RespectSet", "meaning": ["LIGHT"], "owner": "respect argument of G008"},
+    {"id": "ZL3b|f85r2.1|G011", "raw": "otodaiin", "type": "NegativeQualification", "meaning": "append denial of written property for the left comparison's written subject", "owner": "qualified-comparison operator", "arguments": ["Comparison G008-G010", "G012"]},
+    {"id": "ZL3b|f85r2.1|G012", "raw": "opaiin", "type": "PropertyName", "meaning": "BURNS", "owner": "property argument of G011"}
+  ],
+  "parse": {
+    "tree": ["QualifiedComparison", ["Comparison", "otar", "chepaiin", "otodar"], "otodaiin", "opaiin"],
+    "typed_formula": "NegativeQualification(Compare(FIRE,(H11,empty),{LIGHT}),BURNS)",
+    "assertions": ["Value(H11,LIGHT)=PrototypeValue(FIRE,LIGHT)", "Value(H11,BURNS)=false"],
+    "with_frozen_profile": ["Value(H11,LIGHT)=true", "Value(H11,BURNS)=false"],
+    "english": "The eleventh heaven resembles fire in light, while that same written heaven does not burn.",
+    "inserted_translation_words": "English articles, copula and while render the explicit subject term, comparison and qualification operations. They are not additional target tokens, temporal conditions, hidden event times or inferred source owners.",
+    "all_tokens_owned_once": true
+  },
+  "designation_only_rival": {
+    "name": "D: designation by prototype in a named respect",
+    "same": ["all fifteen whole entries except the declared rival meaning of ot-derived heads", "all source/prototype cells", "all subject-reference operations", "all grammar productions", "the exact five-group parse", "all argument ownership", "all retained forms and occurrence obligations"],
+    "only_ot_change": "ot_D(K)((x,A))(R) returns ComparisonRecord(x,K,R,A union {DescribedBy(x,K,R)}). DescribedBy is a designation relation and has no axiom entailing Value equality or a positive property of x.",
+    "formula": "NegativeQualification(Designate(FIRE,(H11,empty),{LIGHT}),BURNS)",
+    "entailed": ["DescribedBy(H11,FIRE,{LIGHT})", "Value(H11,BURNS)=false"],
+    "not_entailed": ["Value(H11,LIGHT)=true", "Value(H11,LIGHT)=false"],
+    "strongest_defense": "The source explicitly says the heaven is called fiery. A designation in the respect LIGHT can be true in a model in which H11 actually shines, without the designation itself asserting that fact. Thus the rival can be source-consistent and satisfy nonburning with exactly the same added words. It is not falsified merely because its entailments are weaker.",
+    "concrete_countermodel_to_light_entailment": "Keep FIRE.LIGHT=true, DescribedBy(H11,FIRE,{LIGHT}) true, and H11.BURNS=false, but choose H11.LIGHT=false. The rival's target assertions hold; the source's positive shining proposition does not. Therefore this five-group designation reading does not by itself recover the whole selected source account.",
+    "what_would_change_it": "A separate written positive LIGHT assertion could complete D later; none is authorized or manufactured in this five-group task. Adding a rule that every designation asserts its selected properties changes designation-only semantics and must be separately costed. Source background alone must not be counted as target recovery.",
+    "verdict": "SOURCE_COVERAGE_INCOMPLETE_NOT_FALSE; no selection or confirmed ot meaning"
+  },
+  "source_coverage": {
+    "shining": {"main": "entailed conditional on the three new entries, new syntax and FIRE.LIGHT premise", "designation_rival": "consistent but not entailed"},
+    "not_burning": {"main": "entailed by written G011 plus G012 with G009 as explicitly projected owner", "designation_rival": "equally entailed"},
+    "called_fiery": {"main": "fiery resemblance is expressed; the speech/designation event itself is not asserted", "designation_rival": "directly represented by DescribedBy"},
+    "scope_note": "The requested local fire/light/not-burning account is structurally complete under the proposed additions. If exact coverage requires an independent NAMED predicate as well, main retains that additional source nuance as unexpressed. No claim that every source grammatical feature is recovered."
+  },
+  "strict_raw_gap": {
+    "status": "INCOMPLETE_NOT_UNSAT",
+    "at_G010": "After otar chepaiin, the raw grammar requires a RespectSet. otodar has no declared raw value. ot(odar) is prohibited and ill-typed.",
+    "at_G011_G012": "Raw otodaiin and opaiin have no values, no written negation/property application and no declared subject-sharing construction.",
+    "why_new_syntax_alone_is_insufficient": "The frozen raw terminal meanings supply COLD and MOIST respect payloads only; no rule may silently inject LIGHT, BURNS or false polarity. A truth-conditionally complete extension must pay for written new semantic carriers or remain incomplete.",
+    "limit": "The proposed three-entry completion exposes one such paid route; it does not prove those meanings, exclude competing completions, or justify a general ot-prefix parser."
+  },
+  "costs": {
+    "inherited_whole_types": 12,
+    "inherited_independent_whole_entries": 9,
+    "inherited_ot_constructor": 1,
+    "inherited_derived_wholes": 3,
+    "new_independent_whole_entries": 3,
+    "new_total_whole_types": 15,
+    "new_prototype_profile_cells": 1,
+    "new_grammar_productions": 4,
+    "new_combinatory_schemata": 1,
+    "new_terminal_extensions": 3,
+    "new_operator_semantic_operations": 3,
+    "new_authorial_local_boundaries": 2,
+    "new_unexplained_ot_initial_atomic_entries": 2,
+    "new_synonyms_for_old_values": 0,
+    "new_zero_token_owners": 0,
+    "new_aliases": 0,
+    "new_lexical_independent_confirmations": 0,
+    "compression_claim": false
+  },
+  "alternates": {
+    "IT2a": {"literal": "otar chepaiin otadar otodaiin opoiin", "unbound": {"G010": "otadar", "G012": "opoiin"}, "status": "INCOMPLETE; no alias to either new ZL entry"},
+    "RF1b": {"literal": "otar chepaiin ot@221;dar otodaiin opaiin", "unbound": {"G010": "ot@221;dar"}, "status": "INCOMPLETE; entity-marked form is retained exactly"},
+    "independence": "Alternate readings of one manuscript, not additional witnesses or replications"
+  },
+  "other_occurrence_obligations": {
+    "exact_inventory_file": "ASSIGNED_OCCURRENCES.tsv",
+    "new_forms_complete_inventory": {
+      "otodar": ["ZL3b|f85r2.1|G010"],
+      "otodaiin": ["ZL3b|f85r2.1|G011", "IT2a|f85r2.1|G011", "RF1b|f85r2.1|G011"],
+      "opaiin": ["ZL3b|f85r2.1|G012", "ZL3b|f85r2.1|G034", "RF1b|f85r2.1|G012"]
+    },
+    "unresolved_ZL_repetition": "G034 opaiin is BURNS:PropertyName, never a second convenient meaning or an implicit assertion. Its local operator/owner remains unknown. Do not fill G031-G035 before separate review.",
+    "old_repetitions": "Every exact raw ar/aiin/chedy stays PrototypeKind; every exact otar/otaiin/otchedy stays the frozen head type; old respect and subject entries keep their types. E.8 otchedy and remaining old occurrences are obligations, not completed parses.",
+    "new_type_counts_from_exact_inventory": {"ZL3b": 3, "IT2a": 1, "RF1b": 2}
+  },
+  "falsifiers": [
+    "A future parse requires any of the fifteen exact forms to change type or meaning.",
+    "G034 opaiin cannot occupy a PropertyName role under a separately frozen whole-line grammar.",
+    "A required otodar=ot(odar) derivation is imposed: the frozen ot law then rejects it rather than allowing an overload.",
+    "The qualification attaches to a prototype or inferred other subject rather than the written left record's subject.",
+    "The source light/nonburning account is claimed without the stated LIGHT profile premise, written negator, property name, or declared construction.",
+    "IT/RF gaps are erased by aliasing or reader combination."
+  ],
+  "stops": ["No full35 authoring", "No decoder or semantic execution code", "No new target pixels or target source", "No registry or other proposal edits", "No edits to frozen537/558 packets"]
+}

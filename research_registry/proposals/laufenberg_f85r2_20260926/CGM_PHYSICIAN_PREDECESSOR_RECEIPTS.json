@@ -1,0 +1,65 @@
+{
+  "schema": "bounded_native_source_check_receipts_v1",
+  "created_utc": "2026-09-26",
+  "task_scope": "Cgm 5185 immediate predecessor gap only; folios 14r–14v; native source image inspection after preregistered decision note.",
+  "decision_before_pixels": "CGM_PHYSICIAN_PREDECESSOR_DECISION.md",
+  "official_catalogue": {
+    "title": "KdiH 11.4.32, München, Bayerische Staatsbibliothek, Cgm 5185",
+    "url": "https://kdih.badw.de/datenbank/handschrift/11/4/32",
+    "accessed": "2026-09-26",
+    "relevant_catalogue_mapping": "Zodiac text 7v–14v; twelve zodiac pictures 7v–14r; physician image 15r without text; Fortune 15v. Catalogue reports 1486 attribution and old foliation 215–231; not newly established by this bounded image check."
+  },
+  "manifest": {
+    "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00003708/manifest",
+    "cached_path": "external_cache/cgm5185_manifest.json",
+    "sha256": "17e44dae4086834f17b766370379ff1be490b9d0a011c9abbb9865efced268e0",
+    "canvas_labels_are_folios": false,
+    "crosswalk": "Canvas 51 visibly has handwritten folio 14 and a zodiac image; canvas 52 is the consecutive next surface before existing canvas53/15r crosswalk. Assigned 14r/14v from those native and sequence anchors, not numerical canvas label."
+  },
+  "images": [
+    {
+      "canvas": 51,
+      "folio": "14r",
+      "manifest_label": "(0051)",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00003708_00051/full/full/0/default.jpg",
+      "cached_path": "external_cache/cgm5185_canvas51_full.jpg",
+      "sha256": "5af78e5819ec52fd311871b48cbae3ab1b73fbfbbce5ea723af4f01ab3b34321",
+      "dimensions": [
+        2445,
+        3452
+      ],
+      "native_observation": "Handwritten 14 at upper right; zodiac circle at lower page; verse block above it ends with a stomach-salving/recovery imperative."
+    },
+    {
+      "canvas": 52,
+      "folio": "14v",
+      "manifest_label": "(0052)",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00003708_00052/full/full/0/default.jpg",
+      "cached_path": "external_cache/cgm5185_canvas52_full.jpg",
+      "sha256": "4f946df152da09ef81e7593058d0638d33cc2c01e5475a8337d2ab40112a795d",
+      "dimensions": [
+        2468,
+        3457
+      ],
+      "native_observation": "Consecutive verso, no clear folio number; complete visible verse block with its own large initial, complexion/body descriptions and uncertain possible `artz` form."
+    }
+  ],
+  "inspection_operations": "Viewed the official full-resolution cached images directly; temporary unenhanced crops from the same pixels were used only as reading viewports and not retained as source artifacts. No OCR, sharpening, recoloring, rotation, or additional surface fetch.",
+  "result_summary": {
+    "medical_treatment_instruction": "Present: `Salb den magen so bist genesen` is visually supported as an approximate reading and direct stomach-remedy imperative with recovery claim.",
+    "regimen_or_diet": "Medical remedy present; no secure named food/drink instruction read.",
+    "doctor_reference": "Possible `artz` on 14v, uncertain letters and syntax; not counted as a secure explicit bridge.",
+    "urine_reference": "No secure urine/urinalysis wording found on selected pages.",
+    "physician_image_connection": "The remedy immediately precedes the uncaptioned 15r physician in the work's page sequence; this supports a possible thematic/regimen junction, not a caption or explicit grammatical connection."
+  },
+  "scope_compliance": {
+    "folios_opened": [
+      "14r",
+      "14v"
+    ],
+    "earlier_text_extended": false,
+    "voynich_target_accessed": false,
+    "idea560_draft_accessed": false,
+    "new_surfaces_fetched_beyond_fixed_pair": false
+  }
+}

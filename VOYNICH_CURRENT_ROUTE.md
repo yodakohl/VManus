@@ -5,11 +5,11 @@ Updated: 2026-09-26. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Ten-hour research block 2026-09-26 17:34:57 to09-27 03:34:57UTC; f85 source-bound meanings.
-Latest decision: 558partial;1044ambiguous. Cgm air/spheres and source restricted likeness retained.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/RESEMBLANCE_SOURCE_CHECK.md.
-Assumptions: Source analogy only;1043panel admitted;884/f57 stops unchanged;0confirmed words.
-Resume: Review560 five-group fire draft and same-form debts; publish related-source packet.
-Running: root source review;560author;bounded Cgm mechanism producer.559deferred;525parked.
+Latest decision: 560local typed hypothesis only;2otexceptions;source reason-negation qualification.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/RESEMBLANCE_FIRE_ROOT_REVIEW.md.
+Assumptions: Source analogy only;1043panel admitted;884/f57 stops;0words.561future-capacity only.
+Resume: Finish Hippocratic/Laufenberg heat source gate, then select complete typed target scope.
+Running: root publishes560/medical source;heat source author.559deferred;525parked.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
