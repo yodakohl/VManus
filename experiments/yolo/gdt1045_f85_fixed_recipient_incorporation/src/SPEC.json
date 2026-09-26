@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "status": "FROZEN_BEFORE_FOLLOWUP_ROW_READ",
+  "freeze_utc": "2026-09-26 22:27:32 UTC",
+  "deadline_utc": "2026-09-26 22:47:00 UTC",
+  "source": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/guarded_projection.tsv",
+  "source_sha256": "489c3960116c88f76de39187eef3d2f9d3dd68d3c2e514f54abe7a2294d185e9",
+  "draft": "research_registry/proposals/laufenberg_f85r2_20260926/until_s_draft/DRAFT.json",
+  "draft_sha256": "f72399c29226bd673cdfa9b858a4219554fb96cfe378577ba6858e69cee32b19",
+  "editions": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "all_loci": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "blocks": {
+    "OUTER_1": [
+      1
+    ],
+    "N": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "E": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "S": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "W": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "OUTER_24": [
+      24
+    ]
+  },
+  "selection": "every literal ivtff_group_raw starting with qod, with no stripping or normalization",
+  "candidates": [
+    "Q_RECIPIENT",
+    "Q_LOC_OWNER"
+  ],
+  "type_rules": {
+    "aiin": {
+      "fixed_type": "RecipientRef",
+      "Q_RECIPIENT": "TYPED",
+      "Q_LOC_OWNER": "TYPED",
+      "goal": "r"
+    },
+    "ain": {
+      "fixed_type": "LocativeRelation",
+      "Q_RECIPIENT": "TYPE_ERROR",
+      "Q_LOC_OWNER": "TYPED_WITH_LOC_OWNER",
+      "goal": "owner(AT(r))=r"
+    }
+  },
+  "other_remainders": "UNBOUND_COMPONENT; do not add meanings",
+  "licensed_frame": {
+    "block": "S",
+    "predicate_locus": 16,
+    "required_tokens": {
+      "nutriment_intro": [
+        12,
+        "otchs"
+      ],
+      "recipient_intro": [
+        12,
+        "shedor"
+      ],
+      "faculty": [
+        16,
+        "oteey"
+      ],
+      "theme_reference": [
+        16,
+        "odain"
+      ],
+      "external_goal": [
+        16,
+        "an"
+      ]
+    },
+    "rule": "all exact listed forms at listed loci; roles inherited from authored S binder, not inferred from frequency or mere presence"
+  },
+  "binding_statuses": [
+    "AUTHORED_S_GOAL_AGREEMENT",
+    "MISSING_EXACT_S_FRAME",
+    "NO_LICENSED_TRANSFER_FRAME",
+    "NO_TYPED_OUTPUT"
+  ],
+  "outside_frame": "No S participant binding or new one inferred in another block; complete context and all unassigned forms retained",
+  "alternative_segmentation": "qo|daiin has unbound component meanings; some factorizations equivalent; never a tested loser",
+  "forbidden": [
+    "new whole senses",
+    "aliases",
+    "new source or corpus data",
+    "new target image",
+    "reserve access",
+    "new unseen-folio claim",
+    "semantic significance",
+    "new decoder"
+  ],
+  "disclosed_prior_exposure": "All1042rows exposed historically, several qodain contexts and wholeS values known; type effects anticipated in composition review; current all-case enumeration not yet read",
+  "result_ceiling": "Fixed conditional type/ref availability, not a meaning validation, complete W parse, productive morpheme or wholeS translation",
+  "outputs": [
+    "artifacts/CASES.tsv",
+    "artifacts/CONTEXTS.tsv",
+    "artifacts/RESULT.json"
+  ]
+}

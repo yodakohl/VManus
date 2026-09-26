@@ -1,0 +1,106 @@
+{
+  "title": "RAW process-frame nominalization with a written faculty realization role",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. A separate descendant tests qod|aiin as recipient application and qod|ar / qok|ar as one generic faculty nominalization. It adds explicit frame/specification/instance distinctions and a resident-faculty realization obligation; it does not repair the frozen QOD recipient-only contract or merge the old families automatically.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-26",
+    "mechanism": "Two typed application directions over process frames, plus a written realization relation connecting a faculty specification, its acting instance, its bearer and the process host.",
+    "unit": "Future whole E f85r2.7–11 jointly with whole S f85r2.12–17; every occurrence elsewhere in the existing all24-locus projection remains a consistency obligation. No target query or semantic execution performed for this card.",
+    "contrast": "A generic nominalizer retaining the process relation and its host role versus opaque Faculty labels whose instances may be assigned unrelated activities or delegated to a different recipient. A different-organ discourse remains a compatible rival until written references distinguish it.",
+    "prediction": "A written realization of the specification denoted by qodar must use the attraction frame; a written realization of qokar must use the alteration frame. In the explicitly restricted resident-faculty model, the realization's written organ bearer must equal its written process host. Neither faculty possession nor nominalization asserts that an event occurred.",
+    "source": {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Galen/Natural_Faculties/3%2A.html",
+      "units": ["III.1 in full, pp223–225", "III.9 opening complete paragraph, p277"],
+      "edition_limit": "Existing public-domain 1916 English edition as reproduced by LacusCurtius, whose page warns it is not proofread. This is not a newly identified medieval exemplar or independent word evidence.",
+      "complete_argument_summary": "III.1 names alterative and attractive faculties by their activities. A part receives suitable nutriment through attraction; presentation is its goal. Adhesion precedes assimilation, which takes time. Continued departure prevents both; a resident retentive faculty is needed, under the stated purposeful-Nature premise. III.9 extends attraction of the appropriate, rejection of the foreign, and powers of retaining and altering all that is attracted to the spleen, liver, veins, arteries, heart and any nourished part; all four faculties are necessary. The proposal must eventually express this entire scope, not merely list four names.",
+      "not_inherited": "III.9's following residue-comparison paragraph and adjacent III.2–8/10–12 are not adopted. Browser display exposed neighbouring text but did not enlarge the selected source units.",
+      "source_omissions": "The source does not identify Voynich roots, application direction, a common physical organ across E/S, a unique faculty token per organ, or cessation exactly at assimilation. Possession is not current activity or sufficient nourishment."
+    },
+    "parents_preserved": {
+      "S": "All24 current S whole-form meanings remain proposed output constraints, including aiin=RecipientRef r, qodaiin=AttractionPredicate a(f,x,r), oteey=the attractive faculty f, dar=OF and the separate ain locative relation. No S reference is silently rebound outside its written scope.",
+      "E": "All6 RAW553 whole meanings remain proposed output constraints: ytchedy nourishment; qodar attractive faculty; qotedar retentive faculty; qokar alterative faculty; qotchd expulsive faculty; qotom the old arity-five necessity relation. The old Faculty sort has not distinguished kind from instance. Its elaboration below is an added descendant assumption, not something already fixed by RAW553.",
+      "no_automatic_join": "The two parents contain 24+6 proposed exact-type entries, with no overlap between these two assigned dictionaries. Shared meaning is a hypothesis; no joint complete reading is supplied. No values from RAW532/537/554/556 or other families enter this descendant.",
+      "frozen_contract_limit": "Under the current forward-only QOD:Recipient→(Faculty×Substance→AttractionPredicate), any accepted suffix input still gives a predicate, never RAW553's Faculty output. That contract remains unchanged. The following Frame representation and backward application are a different grammar, not an extra ar value or a repair after a result. GDT1045 results were not read."
+    },
+    "proposed_types": {
+      "ProcessFrame": "A typed record with process relation, named host role, faculty argument and material argument. It denotes a relation, not an event or an assertion that it occurs.",
+      "FacultySpec": "A faculty specification retaining its originating ProcessFrame. This elaborates the generic faculty names in E; it is not an acting individual.",
+      "FacultyInstance": "A faculty referent such as S f. A written assertion can associate it with a specification and an organ bearer. No globally unique instance or disjoint physical object for each faculty name is assumed.",
+      "Realizes": "A relation taking a written event/predication e, faculty instance f, faculty specification s and organ bearer b. It does not itself introduce any of these arguments."
+    },
+    "component_assignments": {
+      "qod": "Frame A, whose semantic kernel is A.eval(r)(f,x)=ATTRACT(f,x,r); its host is the recipient/goal r. The kernel agrees with the old qodaiin output, while its packaging as a Frame is new.",
+      "qok": "Frame L, with L.eval(r)(f,x)=ALTER(f,x,r), alteration of the material with respect to the recipient part. This is a new frame value constrained only by the old qokar faculty meaning; it supplies neither complete assimilation nor a successful nourishment endpoint.",
+      "ar": "The single generic function NOM:ProcessFrame→FacultySpec. NOM(F) retains F's process relation and named host role. It is never a RecipientRef, an assertion, or the acting faculty f."
+    },
+    "application_rules": [
+      "Forward case: a written Frame immediately followed by a written RecipientRef r yields F.eval(r). In qod|aiin this is the old attraction predicate awaiting f and x; the old separate goal argument must agree with r.",
+      "Backward case: a written Frame immediately followed by NOM yields NOM(F). The result's process relation and host role are inherited from that same Frame, not selected by the spelling of the whole word.",
+      "The backward rule is identical inside a licensed compound and across a real word boundary. A standalone ar therefore needs an immediately preceding complete written Frame expression; it cannot retrieve an unspoken frame or serve as a noun by itself.",
+      "Only the three compound cuts qod|aiin, qod|ar and qok|ar are licensed here. No arbitrary substring deletion, opposite-direction fallback, silent LOC_OWNER conversion or segmentation of every ar-ending word is licensed."
+    ],
+    "actual_reuse_cells": [
+      {"form": "qodaiin", "existing_scope": "S.16 G002 in ZL/RF; the IT exact form is different", "derivation": "Forward(A,aiin=r)=ATTRACT(_,_,r)", "reused_input": "Same Frame A as qodar"},
+      {"form": "qodar", "existing_scope": "E.10 G002 in ZL/IT; RF qo@152;ar is not an alias", "derivation": "Backward(A,ar=NOM)=NOM(A)", "reused_input": "Same NOM as qokar, same A as qodaiin"},
+      {"form": "qokar", "existing_scope": "E.10 G004 in each reader", "derivation": "Backward(L,ar=NOM)=NOM(L)", "reused_input": "Same NOM, a second process frame"}
+    ],
+    "additional_content_law": {
+      "scope": "Only a proposed realization explicitly read as the resident natural faculty of the nourished part in these two Galen arguments. It is not a universal law for all attraction, external agents, instruments, diseases or every possible faculty.",
+      "law": "Realizes(e,f,NOM(F),b) requires a written faculty-instance/specification/bearer association for (f,NOM(F),b), requires e to instantiate F's process relation, and requires HOST_F(e)=b. These are constraints on a proposed model, not a change to the denotation ATTRACT(f,x,r).",
+      "no_free_witness": "E's necessity statement supplies no named instance f. An existential faculty at an organ does not identify S's oteey. Same kind never entails same physical instance, and an E organ is not automatically S's recipient.",
+      "no_event_creation": "NOM(F), possession of NOM(F), or qotom's necessity claim never entails existence of a realized event. Actual realization must be asserted by a separate whole-clause construction.",
+      "no_functional_monopoly": "A faculty referent may have several explicitly stated specifications. Realizing NOM(L) cannot be silently replaced by realizing NOM(A); a different declared specification would be an additional assertion, not a rescue by unspecified multifunctionality."
+    },
+    "concrete_discriminators": [
+      "Given explicitly written Realizes(e,f,qodar,b), an event that is only alteration and not attraction cannot discharge that assertion. Given Realizes(e,f,qokar,b), an event that is only attraction cannot discharge it. The nominalizer is reused; distinct relation kernels force distinct content obligations, without counting four labels.",
+      "Given a written resident-faculty association at b, a written qodaiin event of the same f with recipient r and an explicit b≠r contradicts this restricted host law. A delegated-faculty model allows it. Without written b, r and the same-f link there is no observed contradiction.",
+      "All four faculty specifications may be possessed while no nourishment event occurs. This preserves RAW553's earlier necessity-only consequence; it is not claimed as the new contribution."
+    ],
+    "serious_rivals": [
+      {"name": "Delegated realization", "law": "Keep the same frame-derived specifications and actual processes but permit a faculty borne by b to act toward a distinct r. It differs from the restricted resident model only when the written bearer and host are separately bound. It is a coherent general process model, not a malformed arity control."},
+      {"name": "Different-organ discourse", "law": "E speaks of a faculty of one organ or a universally required kind; S describes an event at another organ. This remains compatible with both full source arguments. Neither common work, common kind, repeated spelling nor figure proximity refutes it."},
+      {"name": "Independent faculty names", "law": "Keep RAW553's whole faculty names and the S attraction predicate as independent lexical hypotheses. No common root or ar projection is asserted. An observed complete reading must actually exercise the shared relation or host constraints to distinguish this rival; rerendering the three old glosses is insufficient."}
+    ],
+    "known_countercases_and_limits": [
+      "qotchd is an already assigned faculty with no ar; qotedar is an already assigned retentive faculty whose qoted base has not been assigned. Both remain atomic under this limited proposal. This is not an exhaustive faculty-noun morphology.",
+      "S dar is OF, ytedar is before-adhesion, and oldar is presentation completion. Their ar substrings do not become NOM by deletion of arbitrary remainders. They defeat an unsupported claim that every ar substring is a faculty suffix, not this explicitly limited segmentation.",
+      "The old RAW554 report already lists standalone ar at 4 ZL,6 IT,6 RF positions across .1/.20/.22/.24. Every one would retain NOM and owe its preceding written Frame. None has been bound or tested here. A bound-only ar allomorph would be a different costly contract, not an automatic escape.",
+      "All outside-S aiin occurrences remain reference-scope obligations. An E aiin is not silently assigned an organ and then identified with S r; a new counted binder and scope rule are needed.",
+      "GDT686 competing qod/qo boundaries and i-run readings remain; ain is not aiin. No output or result of the current qod-family test was consulted.",
+      "Forward Frame–Recipient and backward Frame–NOM are two grammar cases. A single written order does not prove this type-dependent reversal, and a finite type dispatch can still overfit a small family.",
+      "Source naming by activity motivates a nominalization hypothesis but supplies no target morpheme. Old conditional UNTIL cessation and source-goal qualifications in550 are not repaired."
+    ],
+    "cost_and_binding_debt": {
+      "confirmed_values": 0,
+      "proposed_new_component_values": 3,
+      "component_breakdown": "2 frame assignments (qod,qok) and1 generic operator assignment (ar). The old qodaiin kernel constrains qod; qok has only its faculty-name constraint so far.",
+      "new_compound_licenses": 3,
+      "application_cases": 2,
+      "cross_word_application_license": 1,
+      "new_type_elaborations": "Frame, FacultySpec, FacultyInstance and explicit Realizes relation; recipient/material types remain the old proposed sorts. No claim of zero-cost nominalization.",
+      "new_model_laws": "One frame-preserving specification law and one restricted resident-realization law; no unique-token or successful-event assumption.",
+      "new_whole_word_values_written_here": 1,
+      "whole_value_detail": "Standalone ar receives the same new NOM value as compound ar. qod and qok receive component values; no standalone occurrences of those strings are newly inspected or assigned here. No unknown E remainder is filled.",
+      "E_whole_debt": "RAW553 has E27groups/27types per reader: six ZL seeds leave21 types unassigned; IT qtchedy and RF qo@152;ar remain unknown. This is the old E-only seed count, not the count after combining S values. A complete joint coverage count and whole E derivation have not been performed.",
+      "full_source_debt": "Whole III.9 must retain all named/generic organs, appropriate/foreign material, retention/alteration/rejection and necessity with a written organ scope. Whole III.1 obligations and its theological premise remain. Neither E's organ quantifier nor cross-clause faculty references are supplied by the six-word seed.",
+      "target_debt": "Write all E/S groups, every actual argument, faculty kind/instance distinction, scope and realization assertion, then account for every repeated assigned form in the fixed all24-locus scope and exact alternate readings. No figure supplies an owner. No new complete passage is authored here.",
+      "economy": "No compression or current independent semantic capacity claimed. The generic law constrains hypothetical additional contexts, while present output examples remain fitted old meanings."
+    },
+    "smallest_next_decision": "Before any executor, a bounded whole-E authoring decision would have to freeze the entire source-to-E argument and the shared S/E type/reference contract, including every bare ar obligation. If no written specification/instance/host relation is supplied, retain this as an incomplete construction; do not run a simulator that merely confirms NOM's definition. If the complete account supplies such relations, compare all resulting realizations against both delegated and different-organ rivals without changing the old meanings. This card makes no experimental selection.",
+    "predecessors": [
+      "IDEA000553: necessity-versus-activity already proposed;6 whole guesses, no complete E or organ binder.",
+      "S_COMPOSITION_CONSTRAINT_REVIEW and QOD_FIXED_CONSEQUENCE_DECISION: current recipient incorporation; no Faculty output under the fixed forward-only signature.",
+      "IDEA000432 and IDEA000442 full primaries read: typed context/partial-application proposals already exist; small finite tables and missing complete writer/type contracts are not new semantic evidence. This card adds a proposed common process-to-faculty projection and resident realization relation, not a claim that typed application itself is novel.",
+      "IDEA000554/556: incompatible ar/aiin quality meanings are not inherited; their complete published occurrence inventories provide the disclosed bare-form obligations.",
+      "GDT817/GDT891 limitations retained through the previously read primary reports and CONTENT_OPERATION_SUPPLY: faculty labels and fourfold source structure establish no target meaning."
+    ],
+    "access_and_checks": {
+      "read": "Current route; composition topic; full553,432,442,554,556 primaries; currentScomposition review and preregistered QOD decision; bounded ideas/route navigation; existing Galen III source URL for the two already-owned units.",
+      "target_access": "No target file query, image, new surface or sealed data. Target strings/counts here are from the named existing safe proposal/review primaries only.",
+      "not_done": "No GDT1045 result access, semantic test, executor, new image/source adoption, contact, shared state/Git/ledger change or mutation of parent cards.",
+      "navigation_limit": "Search and duplicate candidates are lexical navigation, not certified novelty. The continued existence of missing bindings is not itself a reason to forbid an explicitly unconfirmed RAW construction."
+    },
+    "proposal_path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/34_attraction_frame_faculty_nominalization.json"
+  }
+}

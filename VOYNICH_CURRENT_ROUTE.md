@@ -5,11 +5,11 @@ Updated: 2026-09-26. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Ten-hour block09-26 17:34:57 to09-27 03:34:57UTC; f85 source-bound meanings.
-Latest decision: Arundel4ages/10episodes;Egertoncollective;550conditional;0meaningselected.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/UNTIL_S_TYPED_ROOT_REVIEW.md.
-Assumptions: Source-stage bridge guessed;noindependentwords;884/f57stops;noreserves.
-Resume: Publishsourceprograms;review550composition and discourse content candidates.
-Running: rootpublication;boundedRAWproducer;Scompositionreview;Edinburghaccesscomplete.
+Latest decision: 1045LOC_OWNER types8/10;onlySbound;Wopen;parkautomaticQOD;0words.
+Working files: experiments/yolo/gdt1045_f85_fixed_recipient_incorporation/REPORT.md.
+Assumptions: 24Swholevalueshypothetical;cut/liftadded;884/f57stops;noreserves.
+Resume: Publish1045;reviewseparateframe/facultykind proposal withwhole-sourceobligations.
+Running: rootpublication;boundedQODcontentproducer;1045independentreplaycomplete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

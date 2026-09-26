@@ -8632,6 +8632,20 @@ binding. [Qualification](research_registry/proposals/laufenberg_f85r2_20260926/D
 Next: constrain the existing whole-S draft by actually reused composition,
 not more free synonyms or another unchanged missing-input audit.
 
+**2026-09-26 fixed word-family follow-up:** [GDT1045](experiments/yolo/gdt1045_f85_fixed_recipient_incorporation/REPORT.md)
+checks all10literal qod-family records at4loci with two fixed constructions.
+Recipient-only gives5typed/3type-error/2unbound records; the explicit AT-owner
+lift gives8typed/2unbound. That includes a new conditional derived qodain
+prediction, despite0new atomic dictionary entries. All S results concern one
+already authored sentence; five typed W records have no licensed reference
+frame. Park automatic QOD expansion; no word or morpheme identified. The
+[full composition review](research_registry/proposals/laufenberg_f85r2_20260926/S_COMPOSITION_CONSTRAINT_REVIEW.md)
+retains nine literal whole-form containments and shows why NOT/DETACH alone
+do not derive the fixed nonadhering-departure case. These are conditional
+restrictions on the hypothesis, not inherited manuscript meaning laws.
+Next consider only a separately specified content-bearing construction,
+with its sort changes and source ownership made explicit.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
