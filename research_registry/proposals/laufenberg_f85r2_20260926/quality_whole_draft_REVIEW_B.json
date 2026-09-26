@@ -1,0 +1,81 @@
+{
+  "status": "PASS_COVERAGE_AND_REPEATED_FORM_CONSISTENCY; NO_A_CONTRADICTION; B_GAP_IS_SPECIFIC_AND_NOT_DECISIVE",
+  "reviewed_date": "2026-09-26",
+  "scope": "Independent read-only content audit of the frozen IDEA000537 whole-draft packet. No author contact, registry edits, source changes, or new target access.",
+  "reviewed_inputs": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "QUALITY_DRAFT_DECISION.md",
+    "quality_whole_draft/FREEZE_RECEIPT.json",
+    "quality_whole_draft/LEXICON.json",
+    "quality_whole_draft/ALL_OCCURRENCES.json",
+    "quality_whole_draft/ALTERNATE_GAPS.json",
+    "quality_whole_draft/ASSUMPTIONS.md",
+    "quality_whole_draft/READING.md",
+    "quality_whole_draft/SELF_CHECK.json",
+    "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv"
+  ],
+  "freeze_integrity": {
+    "status": "PASS",
+    "receipt_status": "FROZEN_BEFORE_SEMANTIC_HANDOFF_TO_ROOT",
+    "receipt_packet_hashes_recomputed": "All six hashes match the frozen receipt.",
+    "receipt_sha256": "4f4e0fbc1f4f82dead0f0431f1b2f7bde3c9ce49d4a18730570891c988097deb"
+  },
+  "coverage_and_form_audit": {
+    "status": "PASS",
+    "source_artifact": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+    "source_artifact_sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "scope": "ZL3b, loci f85r2.2–f85r2.23, blocks N/E/S/W only.",
+    "ordered_all_field_matches": {
+      "ZL3b": {"expected_groups": 108, "packet_groups": 108, "exact_order_and_all_source_fields_match": true},
+      "IT2a": {"expected_groups": 107, "packet_groups": 107, "exact_order_and_all_source_fields_match": true},
+      "RF1b": {"expected_groups": 109, "packet_groups": 109, "exact_order_and_all_source_fields_match": true}
+    },
+    "ZL_exact_forms": {
+      "unique_source_forms": 85,
+      "lexicon_entries": 85,
+      "sets_equal": true,
+      "each_occurrence_uses_its_exact_lexicon_type_value_and_gloss": true,
+      "repeated_forms_keep_one_A_type_and_value": true,
+      "marked_forms_preserved": ["chok{co}m", "chz[s:r]", "ckhed[a:y]", "qose?y"],
+      "repeated_form_counts": {"or": 7, "aiin": 5, "chol": 2, "daiin": 2, "oteey": 2, "ol": 3, "chey": 2, "shedy": 4, "chedy": 2, "qodaiin": 2, "ain": 2, "qokal": 2}
+    },
+    "clause_accounting": {
+      "clauses": 27,
+      "unique_group_ids_across_clauses": 108,
+      "occurrences": 108,
+      "every_group_assigned_once": true,
+      "declared_grammar_rules": 15,
+      "rule_references": 79,
+      "new_whole_form_bindings": 81,
+      "seed_values": 2,
+      "derived_whole_types": 2,
+      "A_reading_uses_placeholders": false,
+      "claim_limit": "Completeness is authored atomic medical fiction with fitted role/grammar choices; it is not a target-confirmed translation or independent fit."
+    },
+    "alternate_readings": {
+      "lines": {"IT2a": 22, "RF1b": 22},
+      "statuses": {"IT2a_RAW_FORMS_EQUAL": 12, "IT2a_UNREPAIRED_SURFACE_CHANGE_NO_ALIAS": 10, "RF1b_RAW_FORMS_EQUAL": 8, "RF1b_UNREPAIRED_SURFACE_CHANGE_NO_ALIAS": 14},
+      "all_alternate_groups_preserve_order_raw_forms_and_separator_fields": true,
+      "no_alias_or_repair_detected": true
+    }
+  },
+  "logical_and_typed_reading_audit": {
+    "A_status": "No actual same-owner, same-state HOT/NOT_HOT or MOIST/NOT_MOIST contradiction found in the frozen A reading.",
+    "earliest_apparent_quality_opposition": {
+      "earlier": "N3: FEELS(SKIN, PROPERTY_COORD(SOFT, MOIST), T)",
+      "later": "E6: NOT(HOT(URINE,T))",
+      "finding": "Different predicates and owners; not a contradiction. The later explicit HOT anchor is S5: HOT(HEART,T), still distinct from E6's URINE. Moisture claims are likewise assigned to SKIN/NOURISHMENT, FLESH and DIET, with no shared owner carrying both MOIST and NOT_MOIST."
+    },
+    "explicit_ownership_and_state": "Static predicates are assigned T; every proposed quality clause names an owner. Agents, patients, result owners and objects are named in binary clauses, except where the B comparison declares gaps. Process predicates are separately typed.",
+    "typed_grammar": "The 27 A clauses are internally consistent with the declared 15-rule grammar on inspection. G13 makes each block an authored asyndetic sequence; this is an explicit fitted choice, not evidence that source lines are sentence boundaries.",
+    "source_limit": "The Karlsruhe/printed medical analogies support a broad external topic only; they bind none of the 85 Voynich forms, participant roles, clauses, block labels, or element/season correspondences."
+  },
+  "fixed_B_rival_audit": {
+    "frozen_packet_result": "The packet records E6, S6 and W6 as B argument gaps; qodar occurs once and qodaiin twice. It correctly states that this incomplete B supplies no discriminator and does not prefer A.",
+    "earliest_gap": "E6, ZL3b|f85r2.10|G002 (`qodar`): the frozen strict B formalization requires a separate treatment/action a and patient x in INTENDS(a, REDUCE(HOT,x)); the clause contains written URINE as quality owner but no separately marked treatment/action argument.",
+    "fairness_caveat": "This gap result is specific to the packet's sharpened B specification. The selected IDEA's rival says qo means CORRECTS(property) as an intended regimen effect, and the selection review requires written patient/state plus action or goal support. The later packet formalizes B as INTENDS(a, REDUCE(P,x)) with separate written a and x. Since qo itself denotes intended correction, it can plausibly provide the action/goal; the written owner URINE/FLESH/DIET could plausibly be x under a different typed mapping. Those alternatives are not licensed by the packet's strict role rules, but neither are they ruled out by the higher-level correction idea. Do not treat the strict gaps as evidence against correction semantics generally or as a target-level preference for A.",
+    "state_scope": "T is explicit for static A predicates; the contrast is not blocked by an absent time index in this packet. It remains true that the draft supplies no independent target-level correction/action binding.",
+    "audit_conclusion": "No complete B parse or genuine consequence test is present. Retain B as unresolved underbinding; its exact strict arity failure is a property of this authored scaffold."
+  },
+  "overall_conclusion": "Coverage, source conservation, and exact-form consistency pass. The complete A scenario is syntactically typed and has no internal quality contradiction, but 81 of its 85 values are new free bindings and the 15-rule grammar is heavily fitted. Zero confirmed meanings follow. B is incomplete only under the packet's explicit separate-action/patient formalization; its broader corrective rival remains unresolved. No semantic experiment or preference is supported by this audit."
+}

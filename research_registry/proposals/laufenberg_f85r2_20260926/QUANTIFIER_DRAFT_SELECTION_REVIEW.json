@@ -1,0 +1,41 @@
+{
+  "record_id": "IDEA000558",
+  "scope": "semantic",
+  "verdict": "untested",
+  "reviewer": "root afterindependent554-556plus558 comparison",
+  "assessment_basis": "RAW558;fullsourceprintunit;IDEA411primaryandGDT884/624/812retained;actual1042targetandreaderdifferences",
+  "reason": "Selectedonlyforboundedsource-constrainedall24locusdraft. Universalcommonmembership andfailureofuniversalbenefit have distinctsourceconsequences; completingallsourceclausesandtargetgroupsremainsrequired.",
+  "evidence": [
+    "research_registry/proposals/laufenberg_f85r2_20260926/QUANTIFIER_DRAFT_DECISION.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/REVIEW_554_556.json",
+    "research_registry/proposals/laufenberg_f85r2_20260926/ideas/28_common_membership_regimen_quantifiers.json"
+  ],
+  "blockers": [
+    {
+      "code": "missing_complete_semantic_account",
+      "detail": "7values/2frames only;W.20tail,allotheror/aiin/ainoccurrences,mostsourceargumentandalternatebindingsopen.",
+      "evidence": [
+        "research_registry/proposals/laufenberg_f85r2_20260926/QUANTIFIER_DRAFT_DECISION.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "source_and_target_complete",
+        "change": "new_binding",
+        "detail": "Frozencompleteall24locuscandidate withfixedvalues,typedarguments,fullsourcecoverageanddifferentscopeconsequences.",
+        "evidence": [
+          "research_registry/proposals/laufenberg_f85r2_20260926/QUANTIFIER_DRAFT_DECISION.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Twoisolatedseedclauses",
+      "Sourcefidelityasindependenttargetmeaning",
+      "AliasingIT/RFZLdifferences"
+    ]
+  },
+  "relations": []
+}

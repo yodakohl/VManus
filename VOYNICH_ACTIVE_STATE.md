@@ -8514,6 +8514,18 @@ panel, then incidentally exposed root to a neighboring strip; the final bounded
 region excludes it. Separate initial observations are not blind semantic
 confirmation. See [GDT1043](experiments/yolo/gdt1043_f85r2_native_attribute_binding/REPORT.md).
 
+**2026-09-26 source argument and whole draft:** The complete1491 unit distinguishes
+all-element membership from predominance/naming and constitution-sensitive
+regimen. Native Karlsruhe87v/88r and Tübingen322v support cosmic rings and an
+explicit moving-heaven context, without identifying target plumes or words.
+IDEA537 now has a frozen complete108-group A draft, but81additional atomic
+bindings and different quality owners leave its planned rival discriminator
+absent; B's stricter argument gaps do not refute corrective meanings generally.
+Do not extend that unchanged freely authored scaffold. IDEA558 is selected
+only for a complete source-constrained draft; no word is confirmed. See
+[draft audit](research_registry/proposals/laufenberg_f85r2_20260926/QUALITY_DRAFT_ROOT_REVIEW.md)
+and [next contract](research_registry/proposals/laufenberg_f85r2_20260926/QUANTIFIER_DRAFT_DECISION.md).
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a

@@ -42,7 +42,7 @@ Rubric: `… mensch[en?] natur … vier complexion[en?]`.
 1. `Das wasser blut vñ für hitz[e?]. Erd[e?] fleisch vñ bein; luft …`
 2. `Doch selbs [??] … natur …`
 3. `Nach der natur … [??] …`
-4. `… [??] …` 
+4. `… [??] …`
 5. `Das wasser … [??] …`
 6. `… wasser … [??] …`
 7. `… [??] …`
