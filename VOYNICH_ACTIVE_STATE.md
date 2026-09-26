@@ -8563,11 +8563,22 @@ uncertain. The complete following speech adds help/harm dependence on time and
 person. These are source findings, not meanings. Planetary and Schermar controls
 retain Mercury's urinal and outer evangelist wings as nonexclusive alternatives,
 without a combined source program. [Source review](research_registry/proposals/laufenberg_f85r2_20260926/HEAT_SOURCE_ROOT_REVIEW.md).
-IDEA550's whole26-group S authoring is now selected with fixed3seed values,
-explicit participant/guard ownership and an unchanged AFTER rival. Strict
-cessation is an additional premise; no completed reading or test is yet claimed.
+IDEA550 now supplies all26ZLgroups with3seed+21newwholevalues and written
+nutrient/recipient topics;125assigned positions are fully inventoried. Event
+identity, modality, ordered rules and endpoint composition remain incomplete.
+No semantic PASS or two formal AFTER contradictions;391checks are integrity only.
+Author's manually entered20:33freeze time is withdrawn; hashes remain frozen.
+Stop unchanged free-word expansion. [550review](research_registry/proposals/laufenberg_f85r2_20260926/UNTIL_S_ROOT_REVIEW.md).
 549/557 local frames remain possible but known `ol ol` and `chol chol` block
 their unchanged global rules. [Selection](research_registry/proposals/laufenberg_f85r2_20260926/PIPELINE_NEXT_SELECTION.md).
+
+**2026-09-26 source identification:** The distinctive Freudenthal-cover caption
+connects strongly to CavaCod3, published199r, with seasonal/elemental owners in
+Obrist's study. Spring=earth and autumn=air are witness-specific; no named
+philosophers. Exact cover identity and199r/203rconcordance remain unverified.
+The selected thumbnail unexpectedly included two reproductions; exposure is
+disclosed, without target transfer. Cava wind198v was already known.
+[Source identification](research_registry/proposals/laufenberg_f85r2_20260926/PHILOSOPHER_SOURCE_ID_REPORT.md).
 
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing

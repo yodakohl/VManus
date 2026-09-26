@@ -1,0 +1,99 @@
+{
+  "schema": "bounded_exploratory_whole_paragraph_draft_v1",
+  "status": "UNREVIEWED_EXPLORATORY_DRAFT_NOT_EXECUTED_NOT_TRANSLATION",
+  "target": {
+    "source_artifact": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/guarded_projection.tsv",
+    "projection_sha256": "489c3960116c88f76de39187eef3d2f9d3dd68d3c2e514f54abe7a2294d185e9",
+    "edition_authored": "ZL3b",
+    "block": "f85r2.S.12-17",
+    "groups": 26,
+    "types": 24,
+    "scope": "S-only development reading; all exact assigned forms are inventoried with raw context in all 24 projected loci (including the two OUTSIDE records) and all three alternate transcriptions. No new ownership or image relation."
+  },
+  "fixed_idea550_bindings": {
+    "chey": {
+      "type": "Event -> TemporalGuard",
+      "meaning": "strictly before completion of the supplied event, with cessation at that event"
+    },
+    "sorain": {
+      "type": "Event",
+      "meaning": "completion of assimilation of the explicitly bound nutrient"
+    },
+    "orar": {
+      "type": "Event",
+      "meaning": "arrival/presentation of the explicitly bound nutrient to the explicitly bound recipient"
+    }
+  },
+  "new_whole_form_values": {
+    "otchs": {"type": "Substance", "meaning": "the nutriment (x)"},
+    "shedor": {"type": "Recipient", "meaning": "the receiving bodily part (r)"},
+    "or": {"type": "SubstanceRef", "meaning": "that same nutriment x"},
+    "shedy": {"type": "Predicate", "meaning": "adheres/remains attached (of x at r)"},
+    "tedy": {"type": "LocativeRelation", "meaning": "at/in the recipient"},
+    "sodaiiin": {"type": "RecipientRef", "meaning": "that same receiving part r"},
+    "chy": {"type": "ClauseCoordinator", "meaning": "and; coordinates the following explicit clause"},
+    "ytedar": {"type": "TemporalModifier", "meaning": "earlier than the adhesion event"},
+    "chz[s:r]": {"type": "SubstanceRef", "meaning": "that same nutriment x (binding conditional on this uncertain literal ZL transcription)"},
+    "aiin": {"type": "RecipientRef", "meaning": "that same receiving part r"},
+    "arody": {"type": "EventPredicate", "meaning": "was presented (nutriment x to recipient r)"},
+    "ypshedy": {"type": "EventNoun", "meaning": "continued withdrawal/flowing away"},
+    "dar": {"type": "CaseRelation", "meaning": "of; introduces the departing nutriment"},
+    "chedy": {"type": "SourceRelation", "meaning": "away from that same recipient r"},
+    "am": {"type": "Predicate", "meaning": "prevents adhesion and complete assimilation"},
+    "oteey": {"type": "Agent", "meaning": "the attractive faculty"},
+    "qodaiin": {"type": "Predicate", "meaning": "draws/attracts"},
+    "odain": {"type": "SubstanceRef", "meaning": "that same nutriment x"},
+    "an": {"type": "GoalRelation", "meaning": "toward that same recipient r"},
+    "oldar": {"type": "EventModifier", "meaning": "completion of the arrival/presentation event"},
+    "ain": {"type": "LocativeRelation", "meaning": "at that same recipient r"}
+  },
+  "grammar_and_binders": [
+    "S.12 otchs + shedor explicitly introduce x and recipient r as dislocated topics; S.13 resumes them with or and sodaiiin.",
+    "A fronted chey + event phrase may scope forward across a physical line break to an explicitly written predicate in the same S paragraph. The first guard attaches to shedy (adhesion), not to itself or a hidden process.",
+    "Participant binders bind x to the initial nutriment and r to the initial recipient; explicit anaphoric forms are used in each later clause. No default or image-selected owner is supplied.",
+    "The final qodaiin event is an explicit attraction process; its chey guard attaches to that event and is followed by the explicit orar event phrase.",
+    "The trailing chy in S.13 coordinates the following written presentation clause; it is not silent punctuation."
+  ],
+  "zl3b_parse": [
+    {"locus": "f85r2.12", "surface": "otchs shedor chey sorain", "groups": ["G001 otchs: Substance(x)", "G002 shedor: Recipient(r)", "G003 chey: Event→TemporalGuard", "G004 sorain: assimilation-completion Event"], "parse": "x; r; UNTIL(completion of assimilation) [fronted guard/topic frame for the written adhesion event in .13]"},
+    {"locus": "f85r2.13", "surface": "or shedy tedy sodaiiin chy", "groups": ["G001 or: SubstanceRef(x)", "G002 shedy: Predicate(adhere)", "G003 tedy: LocativeRelation(at)", "G004 sodaiiin: RecipientRef(r)", "G005 chy: ClauseCoordinator(and)"], "parse": "x adheres at r; and [coordinate the following clause]"},
+    {"locus": "f85r2.14", "surface": "ytedar chz[s:r] aiin arody", "groups": ["G001 ytedar: TemporalModifier(earlier-than-adhesion)", "G002 chz[s:r]: SubstanceRef(x; uncertain literal form)", "G003 aiin: RecipientRef(r)", "G004 arody: presentation EventPredicate"], "parse": "Earlier than adhesion, the same x at r was presented."},
+    {"locus": "f85r2.15", "surface": "ypshedy dar chedy or am", "groups": ["G001 ypshedy: EventNoun(continued-withdrawal)", "G002 dar: CaseRelation(of)", "G003 chedy: SourceRelation(away-from-r)", "G004 or: SubstanceRef(x)", "G005 am: Predicate(prevents-adhesion-and-assimilation)"], "parse": "Continued withdrawal of x away from r prevents adhesion and complete assimilation."},
+    {"locus": "f85r2.16-f85r2.17", "surface": "oteey qodaiin odain an chey orar oldar ain", "groups": [".16 G001 oteey: Agent(attractive-faculty)", ".16 G002 qodaiin: Predicate(draws)", ".16 G003 odain: SubstanceRef(x)", ".16 G004 an: GoalRelation(toward-r)", ".16 G005 chey: Event→TemporalGuard", ".17 G001 orar: arrival/presentation Event", ".17 G002 oldar: EventModifier(completion)", ".17 G003 ain: LocativeRelation(at-r)"], "parse": "The attractive faculty draws x toward r UNTIL the arrival/presentation at r completes."}
+  ],
+  "complete_working_reading": "Nutriment x at receiving part r remains adherent until assimilation completes. It adheres at that part, and it had been presented there before the adhesion. Its continued withdrawal away from that part prevents adhesion and full assimilation. The attractive faculty draws that same nutriment toward that same part until presentation/arrival there completes.",
+  "source_obligation_coverage": [
+    {"galen_iii_1_obligation": "Nutrition is alteration/assimilation of nutriment to its receiving part; each part has an alterative/nutritive faculty.", "target_status": "PARTIAL: assimilation completion is named; alteration and the general nutritive faculty are not expressed."},
+    {"galen_iii_1_obligation": "An attractive faculty supplies proper juice; presentation to the part is the goal/end of attraction.", "target_status": "PARTIAL: an attractive faculty draws the same nutrient to the same part and presentation is named; propriety/juice is not specified."},
+    {"galen_iii_1_obligation": "Presentation precedes adhesion; adhesion precedes assimilation; both adhesion and assimilation require time.", "target_status": "PARTIAL: target explicitly orders presentation earlier than adhesion and gives an assimilation endpoint; no duration/minimum time is stated."},
+    {"galen_iii_1_obligation": "A presented nutrient that repeatedly leaves does not adhere or completely assimilate at any part.", "target_status": "PARTIAL: departure of the same x away from r prevents adhesion and full assimilation at r; repeated position-shifting and any other recipient are omitted."},
+    {"galen_iii_1_obligation": "A retentive faculty resident in the nourished part is needed for prolonged stay.", "target_status": "NOT REPRESENTED: no explicit retentive faculty or resident location is assigned."},
+    {"galen_iii_1_obligation": "The inference that Nature must possess that faculty depends on the premise that Nature is artistic and solicitous for animal welfare.", "target_status": "NOT REPRESENTED: neither faculty inference nor teleological premise is present."}
+  ],
+  "assumption_ledger": {
+    "new_whole_form_values": 21,
+    "fixed_whole_form_values": 3,
+    "inherited_values": 0,
+    "morphological_rules": 0,
+    "participant_binders": 2,
+    "additional_grammar_constructions": 3,
+    "source_departures": [
+      "The target's strict UNTIL guard is read as cessation at the assimilation/presentation boundary. Galen III.1 does not explicitly state that retention ceases exactly at assimilation, and the presentation-as-goal statement alone does not establish the same strict target operator.",
+      "The target supplies no written teleological argument; the source's purposeful-Nature premise is not imported into the paragraph.",
+      "The uncertain ZL string chz[s:r] receives a provisional exact-form value. IT/RF alternatives ch?s and ch@152;s are not aliases and remain unassigned."
+    ],
+    "counting_note": "Twenty-one additional exact whole-form values cover the other twenty-one ZL types. This is a maximally costly exploratory lexicon, not evidence of lexical economy. Same exact values are preserved globally wherever those exact literal forms recur."
+  },
+  "rival_after_chey": {
+    "changed_item_only": "chey is AFTER the completion of the same supplied event, with all other values, participants and attachments held fixed.",
+    "before_consequence": "The adhesion event is constrained to finish at assimilation completion; the attraction/drawing event is constrained to finish at presentation/arrival completion.",
+    "after_consequence": "The same adhesion event is placed after assimilation completion, and the same attraction event is placed after presentation/arrival completion.",
+    "comparison": "In the proposed source-constrained model, AFTER reverses both temporal boundary consequences and conflicts with III.1's stage ordering/presentation-as-goal account. These are consequences of fixed assumed meanings, not an observed Voynich time contrast; the target strings do not independently reveal the event order."
+  },
+  "known_global_contexts": {
+    "method": "Exact literal matches only in the already-admitted guarded projection; no aliases, fuzzy matching, segmentation, or meaning transfer. Every such occurrence is listed with complete raw locus context in ASSIGNED_OCCURRENCES.tsv.",
+    "surface_inventory_rows": 125,
+    "scope": "All assigned whole forms across all 24 projected loci, all three separate transcriptions; .1 and .24 are included as raw-context obligations but are not interpreted or parsed as part of S."
+  },
+  "execution": "NOT_RUN: no semantic executor or fit is claimed. This is a fixed draft for root review, not evidence or translation."
+}
