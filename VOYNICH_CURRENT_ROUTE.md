@@ -5,11 +5,11 @@ Updated: 2026-09-26. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: Ten-hour block09-26 17:34:57 to09-27 03:34:57UTC; f85 source-bound meanings.
-Latest decision: 1046 strict NOM fails IT/RF ar-ar; native split open; ZL incomplete;0words.
-Working files: experiments/yolo/gdt1046_f85_faculty_nominalizer_consequences/REPORT.md.
-Assumptions: Old S/E guesses fixed; no NOM repair;884/f57 stops; no reserves.
-Resume: Review RAW565 whole-source provenance construction and its strongest rival.
-Running: root publishing1046; replay complete; RAW565 producer complete.
+Latest decision: 1046 strict NOM fails IT/RF ar-ar; ZL incomplete; published;0words.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/HONEY_WHOLE_DECISION.md.
+Assumptions: RAW565 separate family; no S/E inheritance;884/f57 stops; no reserves.
+Resume: Review whole honey draft: reused written rules, source scope, release rival.
+Running: root publishing source findings;565 author; bounded recipient-role producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

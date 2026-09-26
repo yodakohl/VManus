@@ -1,0 +1,123 @@
+{
+  "title": "RAW one digestive stage across sites, with separately bound stage kinds and episodes",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. Albertus separates the first digestion's mouth beginning from its stomach completion and describes later assimilation in individual members. A uniform site-facet constructor preserves stage identity across locations without equating a repeated stage kind with one physical episode. No target words, forms or fourfold mapping are selected.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-26",
+    "mechanism": "A written stage-episode binder and a uniform LOCATE_FACET constructor compose subactivities at named sites into one stage episode. Stage kind, episode identity, bodily owner and site are separate arguments. A site change alone neither completes the stage nor advances its ordinal kind.",
+    "unit": "Source-first choice: the complete consecutive digestion subsection of the owned Albertus De anima II.2.VIII, from Digestiva autem through et ideo ventre non indigent, including the plant comparison. The complete chapter was read for context. This is a whole subsection, not a claim to render all chapter content.",
+    "contrast": "A stage-indexed process account versus a sequence of site-indexed activities whose broader stage grouping is expressed elsewhere. Also compare local member episodes with one distributed episode; both can share the same stage kind.",
+    "prediction": "The same location constructor can describe a beginning and completion at different sites while retaining one declared stage episode. Conversely, repeating a stage-kind term in separately bound cases does not identify their episodes. There is no bijection between sites, stages, written groups or figures.",
+    "source": {
+      "url": "https://reader.lombardpress.org/text/albertusdeanima/admda-l2t2c8",
+      "author_work": "Albertus Magnus, De anima, Liber II, Tractatus II, caput VIII",
+      "whole_chapter_checked": true,
+      "selected_consecutive_unit": "Four complete electronic paragraphs, currently browser lines31-34; starts Digestiva autem, ut diximus and ends et ideo ventre non indigent. Display line numbers are not stable manuscript foliation.",
+      "literal_core": "prima digestio in ore incipit, et in stomacho perficitur",
+      "content_obligations": [
+        "Heat/moisture, alteration, maturation, assimilation and stated stage organization.",
+        "Oral alteration, chewed versus pounded wheat, gastric separation, and the explicit mouth/stomach grouping.",
+        "Liver and blood colour; vein-end whitening; the urine-bearing/non-urine-bearing animal distinction.",
+        "Assimilation in individual members; plants' lack of stomach, earth serving its role, root uptake and rejected coarse matter."
+      ],
+      "counting_precision": "The text first calls oral activity one and gastric activity another, then endorses grouping both as the first digestion. It does not provide a complete rival five-stage table. That table must not be invented. The opening chapter's four faculties are a different enumeration.",
+      "limits": "Historical claims, not demonstrated physiology. No quantities, durations, specific patient, feeding episode, material-token identity, or f85 correspondence is supplied. Same source text is not independent manuscript evidence.",
+      "existing_report": "research_registry/proposals/laufenberg_f85r2_20260926/FACULTIES_TRADITION_BRIDGE_REPORT.md",
+      "report_sha256": "b2b7e876be40a4f58eeb547cce7d53e6dfed686f3d84435edba3ebb699c46b0a",
+      "existing_receipts": "research_registry/proposals/laufenberg_f85r2_20260926/FACULTIES_TRADITION_BRIDGE_RECEIPTS.json",
+      "receipts_sha256": "c0eba335c6d3d2b9fa786bb502e5e87e8b6fc27eff53e4d0c023c3425e69c2a8"
+    },
+    "formal_contract": {
+      "status": "Exploratory content grammar, not a decoder or a complete formalization of all source clauses.",
+      "sorts": ["StageKind", "StageEpisode", "Subactivity", "Site", "BodilyOwner", "Case", "FacetRole"],
+      "facet_roles": ["BEGIN", "OCCUR", "COMPLETE"],
+      "DECLARE": "StageEpisode x StageKind x BodilyOwner x Case -> EpisodeRecord. The episode identifier is a written argument, not the unique event automatically created by a stage name, organ or paragraph.",
+      "LOCATE_FACET": "EpisodeRecord x Subactivity x Site x FacetRole -> EpisodeRecord. Preserve the record's episode, kind, owner and case; append an assertion that this subactivity is part of that episode at that site with the stated role. No argument is recovered by nearest-noun or default-owner guessing.",
+      "EACH_MEMBER": "BodilyOwner x explicitly scoped member-domain x body -> Proposition. Its body binds the member variable and any local episode variable explicitly. No fixed number or hidden list of members is supplied.",
+      "composition_law": "LOCATE_FACET(LOCATE_FACET(DECLARE(e,k,b,c),a,s,BEGIN),z,t,COMPLETE) retains ONE e and ONE k even when s != t. Both subactivity assertions survive. This asserts stage boundaries under the selected source account; it does not make a bodily move, infer a material transfer, or prove successful nutrition.",
+      "noncollapse_law": "DECLARE(e1,k,b1,c1) and DECLARE(e2,k,b2,c2) sharing k do not entail e1=e2, b1=b2 or c1=c2. Conversely, different sites attached to one explicit e do not imply different stage episodes.",
+      "many_to_many_limit": "A functional stage may span sites and a site may participate in several stages. This model permits the latter but does not claim this subsection independently enumerates two stages at one identical site. Neither ordinal progression nor site naming identifies the organism or the material.",
+      "completion_scope": "COMPLETE concerns the declared stage episode only. Completing a local subactivity does not close its parent unless a COMPLETE facet explicitly scopes it to that parent. Completion of one stage does not complete the whole nutritional account. No Galenic goal is silently converted to a cessation time.",
+      "no_material_shortcut": "Stage continuity is not physical conservation of one unchanged portion. A material argument, its lineage, changes and branching would require separate written content. No RAW565 provenance rule is imported.",
+      "additional_costs": "Three proposed grammar schemas, explicit episode references and facet scopes. They are not each automatically one morpheme or one word. Temporal boundary semantics and stage-kind classification are new analytical choices; no timed simulator is specified."
+    },
+    "finite_input_cases": [
+      {
+        "id": "FIRST_DISTRIBUTED",
+        "bindings": "eFirst : StageEpisode; kFirst : StageKind; b : BodilyOwner; c : Case; aOral/aGastric : Subactivity; sMouth/sStomach : Site",
+        "expression": "LOCATE_FACET(LOCATE_FACET(DECLARE(eFirst,kFirst,b,c),aOral,sMouth,BEGIN),aGastric,sStomach,COMPLETE)",
+        "consequence": "The two written site inputs preserve one stage record. Any parser rule advancing the stage merely because the site changes conflicts with this particular account. Two physical organs are not counted as two digestive stages by default.",
+        "debt": "This is a generic source schema. The body, case and any target material have not been identified. The oral evidence clause and gastric separation must remain separate content, not hidden inside BEGIN/COMPLETE."
+      },
+      {
+        "id": "MEMBER_DISTRIBUTION",
+        "bindings": "A written member variable p ranges over an explicitly bound body's members; kMember is shared across the instantiated body clauses.",
+        "expression": "EACH_MEMBER(b,P, DECLARE(e_p,kMember,b,c) with LOCATE_FACET(...,a_p,p,OCCUR))",
+        "consequence": "The same stage-kind denotation applies at varying member sites. Repeating that kind does not settle whether e_p is one distributed episode or separately scoped local episodes.",
+        "local_variant": "Each member body introduces its own episode variable; explicit inequality would be an additional claim, not implied merely by fresh variable names. No event is inferred a priori unique.",
+        "collective_variant": "One episode eMember is bound outside EACH_MEMBER and receives facets at its members. This remains a serious source-compatible account.",
+        "debt": "The target must express the member scope and choose the episode binder's scope before a fixed test. The source's each-member wording alone does not settle event individuation, and no COMPLETE facet is invented for this case."
+      }
+    ],
+    "rivals": [
+      {
+        "id": "R_SITE_SEQUENCE",
+        "contract": "Site names head locally owned activities; an independent sentence groups some activities into one digestive stage. Generic organ names can recur across many bodies and episodes.",
+        "difference": "A candidate stage-binding constructor would carry e/k across a site change; a site-list construction alone would not. But the rival can state the grouping elsewhere and preserve identical physiology. Only whole written ownership can distinguish these lexical/construction analyses."
+      },
+      {
+        "id": "R_FINE_ACTIVITY_COUNT",
+        "contract": "The account enumerates oral and gastric activities separately while also reporting their coarser grouping. Fine activities and coarse stages are different counting domains.",
+        "difference": "Explicit counting/ordinal scope matters. It is not a violation to have two activities inside one stage. No source-attested five-stage rival or target number is claimed."
+      },
+      {
+        "id": "R_COLLECTIVE_MEMBER_EPISODE",
+        "contract": "A body-wide later stage has several member-local facets within one episode; the local-episode variant instead introduces episode variables inside member scope.",
+        "difference": "A shared episode reference under two member clauses versus separate scoped declarations changes which event later completion or continuation refers to. Source alone leaves both open; identical labels cannot choose one."
+      }
+    ],
+    "plant_boundary": "The plant paragraph remains inside the selected complete unit. Ground serving the stomach's function does not make it an anatomical organ or a bodily part, and roots are not silently renamed mouth. The animal site/stage record cannot be copied to plants without an explicitly written functional correspondence and declared limits. That additional construction remains unbuilt; it is full-reading debt, not grounds to delete the paragraph.",
+    "falsifier_and_smallest_step": {
+      "fixed_descendant_failure": "Fail a chosen full reading if its unchanged episode binder must switch e or k solely at the mouth/stomach site change; if a shared stage-kind word secretly changes into a unique episode ID or organ noun; if a local COMPLETE closes an unmentioned larger whole; or if plant scope is forced through an anatomical-owner cast without a declared construction.",
+      "decision_changing_output": "A complete written pair carrying one stage episode through different sites would constrain the stage-binder rival. A complete member clause would then test whether the same grammar handles kind reuse without automatic event identity. Neither a stage count nor the source quotation alone supplies this target consequence.",
+      "minimum_next_work": "Before any interpreter, author one predeclared complete admitted unit containing the connected first-stage account and a separately scoped member account, while preserving all selected-source clauses and alternatives. If the only reusable item is an arbitrary stage name and all binding is supplied in prose outside the text, retain RAW without execution.",
+      "limit": "All target binding is currently absent. This is permitted exploratory source-grounded content, not present semantic capacity or a fully finished hypothetical reading."
+    },
+    "target_and_freedom": {
+      "scope": "Only already admitted1042 f85r2 projection may be considered later. No target form, block, segmentation, reading order or figure correspondence is selected now.",
+      "new_target_values": 0,
+      "inherited_target_values": 0,
+      "target_constructions_assigned": 0,
+      "analytical_sorts": 7,
+      "analytical_constructor_schemas": 3,
+      "facet_constants": 3,
+      "finite_source_case_frames": 2,
+      "unbound": "Every word and ordered terminal derivation, bodily owner, case, episode key, material lineage, anatomical relation, attribution and plant functional comparison. All exact reader variants and complete native boundaries remain owed by any descendant.",
+      "not_fourfold": "No four figures, four blocks, four faculties or numeric values are matched to the historical stage count. No permutation or inventory search."
+    },
+    "predecessor_checks": [
+      "RAW531 and536 complete cards: domain correspondence and part/whole relations already proposed; a new ground/stomach resemblance card alone would be weak novelty.",
+      "RAW560 relevant comparison constructor and rivals: restricted respects already prevent full property transfer. No ot values or frozen fire draft are inherited; the stage/site construction is different.",
+      "RAW539 complete card: phase membership and exhaustive partitions already proposed. This card does not claim novelty for partitioning; new input is explicit same-stage continuity across sites and separately scoped member distribution.",
+      "RAW540 complete card: arrival, retention and assimilation remain distinct; no end/goal-to-cessation shortcut or old meanings are inherited.",
+      "RAW563 complete card: nested episodes with a shared life subject already exist. Here site change can leave the same stage episode intact, while stage-kind recurrence leaves token identity open.",
+      "IDEA000039 original plus root review: object nouns can denote kinds shared by owners. No straw model gives every organ name a unique individual.",
+      "RAW566 is separate causal-path reasoning; this candidate supplies no natural-heat sign, mediated benefit or net-effect calculation. RAW564/565 current tests and author drafts were not read."
+    ],
+    "navigation": [
+      "Current route, context topic Wortzusammensetzung, live guide already read in the immediately preceding task.",
+      "Bounded ideas searches: analogy functional substitute ground stomach plants; process stage location mouth digestion; part whole event stage aggregation; stage kind instance continuation first digestion.",
+      "route-check: analogy functional role plant ground stomach; stage process organ partition continuation. Lexical hits are navigation, not absence or novelty proof."
+    ],
+    "access": "Re-read complete already-owned external Latin chapter and named safe predecessor cards/reviews. An initial broad read of RAW560 returned embedded already-owned1042 rows and was truncated; later reading selected only its semantic fields. No new target source/query, pixels, reserve, contact, executor or semantic experiment. No target values were selected from the encountered old rows.",
+    "duplicate_screen": {
+      "same_declared_design": [],
+      "candidate_ids": ["IDEA000546", "IDEA000547", "IDEA000349", "IDEA000540", "IDEA000121", "IDEA000545"],
+      "decision": "CANDIDATES_ONLY_NO_AUTOMATIC_MERGE",
+      "limit": "Lexical candidates do not certify novelty. Relevant exact primary comparisons are separately documented; no predecessor verdict is changed."
+    },
+    "budget_if_selected_minutes": 40,
+    "proposal_path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/37_stage_episode_site_composition.json"
+  }
+}

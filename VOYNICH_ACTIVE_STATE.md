@@ -8660,6 +8660,15 @@ with overlapping aids and cold's per-accidens role, not a four-box seasonal
 mapping: [source bridge](research_registry/proposals/laufenberg_f85r2_20260926/FACULTIES_TRADITION_BRIDGE_REPORT.md).
 Next review a different concrete source-content mechanism, not repair NOM.
 
+**2026-09-26 honey source comparison:** the complete Greek Seth entry supports
+recipient-conditioned outcomes; [native edition review](research_registry/proposals/laufenberg_f85r2_20260926/HONEY_SETH_ROOT_REVIEW.md)
+corrects fermentation to boiling/skimming and leaves the winter-specific causal
+link unasserted. A separate [Laufenberg locator](research_registry/proposals/laufenberg_f85r2_20260926/HONEY_LAUFENBERG_LOCATOR_REPORT.md)
+finds little honey before mother's milk on HAB00306; all00303–00306 inspected,
+but the feeding section's postpartum caveat continues outside that range.
+This is no located Galenic hot/cold comparison or target word. RAW565 whole
+exploration keeps its original GalenII8 source and inherits no old S/E glosses.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
