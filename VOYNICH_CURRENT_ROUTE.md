@@ -3,13 +3,13 @@ Updated: 2026-09-26. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: Completed f85r2/Laufenberg source comparison and complete exposed spatial text inventory.
-Latest decision: 1042 independent replay PASS; Herbst staff+beads defeats exclusive Winter binding.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/REPORT.md (links1042tables).
-Assumptions: Source analogy only; no new targetimage; prior884/f57 failures unchanged;0words.
-Resume: Retain source analogy; meaning followup needs a discriminating source/target construction.
-Running: none.1041executed/unpublished;525draft/powder parked; no old timer running.
+Status: active
+Task: Ten-hour research block 2026-09-26 17:34:57 to09-27 03:34:57UTC; f85 source-bound meanings.
+Latest decision: 1043plant/staff-strand/flask lead; no exclusive seasons;1041music91 extension0.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/SOURCE_CLAUSE_BRIDGE.md.
+Assumptions: Source analogy only;1043f85r2panel admitted; prior884/f57 failures unchanged;0words.
+Resume: Source doctor rubric names4complexions; read full element passage, then bind complete rivals.
+Running: Root publication/reading; source-prose reader; raw producer.525/powder parked.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
@@ -37,9 +37,9 @@ Other closed families remain in the existing registry; no automatic reopening.
 ## Access and operating boundaries
 f84 and f84r remain sealed. f116v not admitted. Reserves stay closed until a nearly
 complete plausible overall reading. Prior exposure cannot be erased by a new model.
-179 text selectors;50 visual keys/56 selectors, no slot remains. f1r margins only;
+179 text selectors;51 visual keys/57 selectors, no slot remains. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
-[VOYNICH_DATA_SCOPE](docs/VOYNICH_DATA_SCOPE.md). No outside contacts or expert review.
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [base](docs/VOYNICH_DATA_SCOPE.md). No outside contacts or expert review.
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs ONLY via selector-first `vmanus-exp query-tsv`; new scored relation packets
 require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).

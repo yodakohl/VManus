@@ -1,0 +1,42 @@
+{
+  "experiment": "GDT1043",
+  "reviewer": "observer_B_integrity_review",
+  "status": "PASS_WITH_EDITORIAL_CAVEAT",
+  "reviewed_utc": "2026-09-26T17:59:04Z",
+  "scope": "Read-only report and artifact integrity review. No new target access; no frozen observer packet changed.",
+  "reviewed_files": [
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/REPORT.md",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/src/run.py",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/src/validate.py",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/src/PREREG_LOCK.json",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/experiment.json",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/DECISIONS.json",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/RESULT.json",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/VALIDATION.json",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/SOURCE_FINAL.json",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/DETAIL_SOURCES_B.json",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/OBSERVER_B_INITIAL.json",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/OBSERVER_B.json",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/INITIAL_REGION_CAPACITY.md",
+    "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/ROOT_SW_CORRECTION.json"
+  ],
+  "checks": {
+    "preregistration": "PASS — METHOD.md and PAGE_ADMISSIONS.tsv hashes match PREREG_LOCK.json; the lock records target_pixels_opened=false.",
+    "original_packet_bytes": "PASS — OBSERVER_B_INITIAL.json SHA256 is f66d1604ca6a25d353f73fe979aa3e84906744991bc0a6a2dc3765ac007d336b, matching the pre-detail freeze. Bounded observations are a separate follow-up packet.",
+    "existing_receipts_and_validation": "PASS — all 13 RESULT receipts matched current file bytes; RESULT hash matched VALIDATION.json; the 6 decision cells and 10 image receipts passed a read-only check.",
+    "scope": "PASS — final panel plus all nine listed detail renditions lie within [0,0,3000,3890]; their local bytes match recorded SHA256 values. The first southwest detail is explicitly marked clipped and superseded by its corrected in-bound rendition.",
+    "six_registered_attributes": "PASS — the report and decisions cover attributes 1–6. Every cell retains alternatives and has binding=false; no semantic or source-role binding is asserted.",
+    "four_outer_forms": "PASS — NW, NE, SW, and SE are all named in the report's fifth cell and described separately in B's detail packet. The corrected southwest region is the stated basis for that view.",
+    "observer_uncertainty": "PASS — the report preserves B's uncertainty about south support count/attachment, east vessel interpretation and grip location, whole-panel text ownership, and the absence of an established source identity. The broader full-panel packet preserves initial uncertainty before detail viewing.",
+    "grip_disagreement": "PASS — the report explicitly distinguishes root's view of support near the bulb/base from B's view of a grip nearer the narrow neck. This is consistent with B's detail record that the hand appears to grip the narrow part. The root packet was not reopened for this review.",
+    "scope_error_transparency": "PASS — the report describes the clipped first navigation view and wider rendition's neighboring strip, records their non-use, and distinguishes them from the final admitted region. It also reports the initial clipped southwest crop and corrected crop.",
+    "claim_ceiling": "PASS — report describes a provisional composite iconographic lead, retains rivals, rejects exclusive four-season/wind naming, and states that no word, source text, or independent meaning confirmation is established. The validator itself expressly checks integrity, not visual truth."
+  },
+  "caveats": [
+    "REPORT.md says ‘nine official detail renditions’ support the lead. The B manifest lists nine detail captures, but one is the clipped initial southwest crop, superseded for judgment; there are eight unique usable figure/corner views including the corrected southwest view. Clarify the sentence as nine captures including the clipped-and-superseded view if readers could count usable coverage from it.",
+    "The report summarizes the four outer forms collectively in one table cell. Their separate NW/NE/SW/SE descriptions are in OBSERVER_B.json; retain that link when publishing the report so the aggregate statement has a visible audit trail.",
+    "B recorded the east hand as gripping the narrow part of the vessel. ‘Nearer the neck’ is the report's relative paraphrase; preserve that as an observer difference, not a precise anatomical measurement.",
+    "After this review artifact is added, rerun the root receipt packager and integrity validator so REVIEW_B.json is included in RESULT receipts and the validation result hash is refreshed."
+  ],
+  "validation_command_not_run": "The existing integrity script rewrites VALIDATION.json; it was not run here so the root can rerun the packager after this review artifact is final."
+}

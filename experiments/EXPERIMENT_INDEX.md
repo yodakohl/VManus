@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1041**
-- Experiment-associated tracked files: **20,723** (1.9 GiB)
-- Structured GDT337+ experiments: **706**
+- Experiments indexed: **1042**
+- Experiment-associated tracked files: **20,755** (1.9 GiB)
+- Structured GDT337+ experiments: **707**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,8 +20,9 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1043 | GDT1043 | `PROVISIONAL_COMPOSITE_ICONOGRAPHIC_LEAD_NO_MEANING_BINDING` | [report](../experiments/yolo/gdt1043_f85r2_native_attribute_binding/REPORT.md) | 26 | 66.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT1042 | GDT1042 | `COMPLETE_DESCRIPTIVE_CENSUS_NO_MEANING_BINDING` | [report](../experiments/yolo/gdt1042_f85r2_source_program_surface_census/REPORT.md) | 19 | 240.7 KiB | 2 | STRUCTURED_YOLO |
-| GDT1041 | GDT1041 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1041_music91_complete_lexical_capacity/REPORT.md) | 12 | 31.8 KiB | 3 | STRUCTURED_YOLO |
+| GDT1041 | GDT1041 | `STOP_UNCHANGED_MUSIC91_EXTENSION_CAPACITY` | [report](../experiments/yolo/gdt1041_music91_complete_lexical_capacity/REPORT.md) | 18 | 3.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT1040 | GDT1040 | `REFUTED_FIXED_PREFIX_VALENCY` | [report](../experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md) | 22 | 233.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT1039 | GDT1039 | `SUPPORTED_CONDITIONAL_REFERENCE_INTERACTION` | [report](../experiments/yolo/gdt1039_hour_day_reference_composition/REPORT.md) | 18 | 2.1 MiB | 3 | STRUCTURED_YOLO |
 | GDT1038 | GDT1038 | `LIMITED_WHOLE_EXTENSION_REPRESENTATION_FIT` | [report](../experiments/yolo/gdt1038_amulet_atomic_binary_packing/REPORT.md) | 22 | 516.2 KiB | 2 | STRUCTURED_YOLO |

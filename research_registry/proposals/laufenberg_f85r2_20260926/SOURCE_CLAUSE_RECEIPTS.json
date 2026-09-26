@@ -1,0 +1,128 @@
+{
+  "recorded_utc": "2026-09-26",
+  "purpose": "Bounded external-source prose bridge for the Karlsruhe Laufenberg Regimen witness; no Voynich data or materials consulted.",
+  "sources": {
+    "karlsruhe_platform_91r": {
+      "institution": "Badische Landesbibliothek",
+      "shelfmark": "Cod. K 2790",
+      "platform_label": "91r",
+      "canvas_id": "5967405",
+      "canvas_url": "https://digital.blb-karlsruhe.de/i3f/v20/5956460/canvas/5967405",
+      "page_url": "https://digital.blb-karlsruhe.de/blbhs/content/pageview/5967405",
+      "consulted_rendition": {
+        "url": "https://digital.blb-karlsruhe.de/i3f/v20/5967405/full/2200,/0/default.jpg",
+        "sha256": "4e01469cc24c6ff22ee4452544b8c4a4febf3793b503c9a1686f82c8cb139ffb",
+        "bytes": 1140243,
+        "dimensions_px": [2200, 2715],
+        "local_receipt_path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/karlsruhe_91r_2200.jpg"
+      },
+      "provenance": "Official institution-served image rendition, inspected natively."
+    },
+    "karlsruhe_platform_91v": {
+      "institution": "Badische Landesbibliothek",
+      "shelfmark": "Cod. K 2790",
+      "platform_label": "91v",
+      "canvas_id": "5967406",
+      "canvas_url": "https://digital.blb-karlsruhe.de/i3f/v20/5956460/canvas/5967406",
+      "page_url": "https://digital.blb-karlsruhe.de/blbhs/content/pageview/5967406",
+      "cached_rendition": {
+        "url": "https://digital.blb-karlsruhe.de/download/webcache/1000/5967406",
+        "sha256": "0a2b606e81606dc506983d1de2ebf4e85b416bc214cb6f64baf08b552dc75ab6",
+        "bytes": 215538,
+        "dimensions_px": [1000, 1284],
+        "local_receipt_path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/karlsruhe_91v.jpg"
+      },
+      "higher_resolution_rendition_consulted": {
+        "url": "https://digital.blb-karlsruhe.de/i3f/v20/5967406/full/2200,/0/default.jpg",
+        "sha256": "21b34cc792b001d0228a9c7fa36b9c8918823e9f581dc8e75446a464ab9eb269",
+        "bytes": 1057117,
+        "dimensions_px": [2200, 2715],
+        "local_receipt_path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/karlsruhe_91v_2200.jpg"
+      },
+      "provenance": "Official institution-served image renditions, inspected natively. Institution platform label is 91v; KdiH manuscript entry labels the urine-inspection doctor 92v. Both are retained without reconciliation."
+    },
+    "kdih_work_entry": {
+      "title": "Heinrich Laufenberg, Regimen, KdiH 87.3",
+      "editor": "Pia Rudolph",
+      "url": "https://kdih.badw.de/datenbank/untergruppe/87/3",
+      "source_type": "Scholarly catalog description, not a manuscript transcription",
+      "relevant_claims": [
+        "The chapter treats four life ages in connection with four seasons, then the four temperaments.",
+        "The urine-inspection image introduces the temperament section; the doctor raises the urine glass to determine the patient's temperament."
+      ]
+    },
+    "kdih_karlsruhe_entry": {
+      "title": "Karlsruhe, Badische Landesbibliothek, Cod. K 2790, KdiH 87.3.4",
+      "editor": "Pia Rudolph",
+      "url": "https://kdih.badw.de/datenbank/handschrift/87/3/4",
+      "source_type": "Scholarly manuscript catalog description, not a transcription",
+      "relevant_claims": [
+        "KdiH lists four life-age images at 90r–91r, the urine-inspection doctor at 92v with an additional urine glass, and temperament images at 92r–93r.",
+        "The manuscript's platform folio labels and KdiH references are preserved separately because their numbering differs."
+      ]
+    }
+  },
+  "transcription_notes": {
+    "basis": "Visual transcription from official BLB image renditions; not OCR and not a critical edition.",
+    "platform_91r_upper_red_rubric": {
+      "reading_fragment": "Das dritt(e) alt … herbst",
+      "uncertain": ["ending of dritt(e)", "connecting words before herbst", "case ending/article"],
+      "high_confidence_tokens": ["alt", "herbst"]
+    },
+    "platform_91r_lower_red_rubric": {
+      "reading_fragment": "Das vierd(e) alt … winter",
+      "uncertain": ["ending of vierd(e)", "connecting words before winter", "case ending/article"],
+      "high_confidence_tokens": ["alt", "winter"]
+    },
+    "platform_91v_red_rubric": {
+      "reading_fragment": "… mensch[en?] natur … vier complexion[?]",
+      "tentative_full_reading": "[Wie?] d[es?] menschen natur ist nach d[en?] vier complexion[en?]",
+      "high_confidence_tokens": ["mensch[en?]", "natur", "vier", "complexion[?]"],
+      "uncertainty": "The opening words, abbreviated article forms, and ending of complexion are not secure; quote only the legible fragments."
+    }
+  },
+  "proposition_evidence": [
+    {
+      "id": "P1",
+      "claim": "On the same platform folio 91r, red headings associate the third age with Autumn and the fourth age with Winter; image attributes differ between figures.",
+      "evidence": ["karlsruhe_platform_91r"],
+      "type": "direct manuscript image observation with cautious partial transcription"
+    },
+    {
+      "id": "P2",
+      "claim": "The physician figure stands with a urine flask raised near eye level, and a second flask outline appears separately in the margin.",
+      "evidence": ["karlsruhe_platform_91v"],
+      "type": "direct manuscript image observation"
+    },
+    {
+      "id": "P3",
+      "claim": "The rubric beside the physician includes human nature and four complexions; no season term is readable in the rubric.",
+      "evidence": ["karlsruhe_platform_91v"],
+      "type": "direct manuscript image observation with uncertain partial transcription"
+    },
+    {
+      "id": "P4",
+      "claim": "KdiH relates the life ages to the four seasons and interprets urine inspection as introducing the temperament material and determining a patient's temperament.",
+      "evidence": ["kdih_work_entry"],
+      "type": "catalog interpretation, not direct transcription"
+    },
+    {
+      "id": "P5",
+      "claim": "The manuscript page labels diverge: the institution's page is 91v/canvas 5967406 while KdiH locates the urine-inspection doctor at 92v.",
+      "evidence": ["karlsruhe_platform_91v", "kdih_karlsruhe_entry"],
+      "type": "provenance/foliation comparison"
+    },
+    {
+      "id": "P6",
+      "claim": "The physician belongs to a complexion/temperament and urine-inspection context; neither the image nor rubric makes him a seasonal personification or identifies a named disease.",
+      "evidence": ["karlsruhe_platform_91r", "karlsruhe_platform_91v", "kdih_work_entry", "kdih_karlsruhe_entry"],
+      "type": "bounded synthesis; the absence of a disease name is limited to the inspected image/rubric, not a claim about the whole work"
+    }
+  ],
+  "gaps": [
+    "The verse body adjacent to the physician was not fully transcribed; its words are not used to extend the catalog's interpretation.",
+    "KdiH's work-level diagnostic purpose is not independently reconstructed from a critical edition in this note.",
+    "The relation between institutional and manuscript foliation remains unresolved.",
+    "No claim is made about Voynich content, shared authorship, copying, geographic origin, or word meaning."
+  ]
+}

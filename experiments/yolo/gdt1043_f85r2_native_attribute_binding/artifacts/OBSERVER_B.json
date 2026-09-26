@@ -1,0 +1,60 @@
+{
+  "experiment": "GDT1043",
+  "observer": "B",
+  "packet_status": "APPENDED_BOUNDED_DETAIL_OBSERVATIONS; INITIAL_FREEZE_PRESERVED_SEPARATELY",
+  "initial_packet": {
+    "path": "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/OBSERVER_B_INITIAL.json",
+    "sha256": "f66d1604ca6a25d353f73fe979aa3e84906744991bc0a6a2dc3765ac007d336b",
+    "note": "Exact full-panel packet bytes frozen before any detail inspection; preserved as a separate file."
+  },
+  "bounded_detail_followup": {
+    "source_manifest": "experiments/yolo/gdt1043_f85r2_native_attribute_binding/artifacts/DETAIL_SOURCES_B.json",
+    "observation_scope": "Four official IIIF figure subregions supplied by the root observer after the full-panel packet was frozen. All are inside the admitted final region. Rotations are server-rendered IIIF display orientation; pixels were not locally edited.",
+    "figure_observations": {
+      "north": "The raised hand is clearly extended to the figure's right with one long, pointed finger. I do not see a distinct stem or flower held separately from the finger/hand. The apparent point is more consistent with a pointing gesture than with holding an object; a tiny contour at the fingertip remains too small to classify.",
+      "east": "The figure raises a hand toward a separate small object. The object has an enclosed rounded/bulb-like outline with a narrow neck or stem and a small rounded top. The hand appears to grip the narrow part. The figure's face is turned toward the object, with gaze direction broadly consistent with looking at it. This is a strong visual flask/container match, although fine closure details are still limited by the original drawing.",
+      "south": "The rotated figure wears a pale, long garment with a blue area and reclines or leans beside a shallow curved line. A distinct chain-like sequence of small rounded/looped units descends beside the figure; it is visually separable from the main garment outline, though its exact hand or clothing attachment is not entirely clear. I can identify at most one continuous support-like curved line under/along the figure; I do not see two distinct support posts with clear body contact. The page's pale diagonal sector rules are not counted as supports.",
+      "west": "The figure holds a long, narrow stem in an extended hand. At the far end, the stem branches into several small curled/lobed tips, visibly forming a plant- or flower-like object. The hand-to-stem connection is clear. The figure's profile is turned generally toward the held object."
+    },
+    "outer_form_detail_observations": {
+      "northwest": "Several nested, curved, tapering strokes fan out toward the upper-left. Dotted or short colored marks lie along some curves. No human head, eye, nose, open mouth, or distinct wing anatomy is visible in the supplied detail.",
+      "northeast": "A nested fan of long curved strokes arcs toward the upper-right, with scattered dots and small marks on or near the curves. There is no resolved human face or mouth at the narrow end and no visible jet issuing from a mouth.",
+      "southwest": "In the corrected, unclipped view, a complete set of nested curved/tapering strokes with sparse dotted blue-green marks forms a fan/plume-like sweep. The previously clipped upper curl is visible. No human face, mouth, or anatomically distinct head is resolved in the corrected region.",
+      "southeast": "Nested curved strokes form a fan-like sweep at the outer corner, with sparse dotted blue-green marks. No human face, open mouth, or mouth-originating jet is visible."
+    },
+    "attribute_comparison_update": {
+      "north_hand": "The pointed hand gesture is visible, while the pointer-plus-flower combination is not: no separate flower/object is established in the north hand.",
+      "west_item": "A hand-attached branching, flower-like item is clearly visible. This matches the specified Spring/Summer plant attribute more directly than an unidentified tool, without assigning a season or semantic role.",
+      "south_supports_and_hanging_item": "Bead/chain-like linked units are visible beside the figure and appear distinct from the principal garment. A single curved support-like line is discernible; a two-support Winter reading is not visually supported in this crop. Exact attachment and even the status of the line as a support remain uncertain, so the one-support comparison is provisional.",
+      "east_container_and_gaze": "A hand-attached, bulb-like closed-form vessel with a narrow neck is raised toward and apparently inspected by the figure. This is a strong match to the stated uroscopy attribute. Generic held-object interpretation remains possible at the level of the drawing, but no clear incompatibility with a flask is visible.",
+      "outer_faces_or_plumes": "All four supplied corner regions show repeated fan/plume-like curved strokes with scattered dots or colored marks. None clearly depicts a face or open mouth emitting a jet. The direction of the marks and any attachment to the four figure sectors remain uncertain; the visual count of four does not establish wind identity.",
+      "panel_boundaries_and_text": "The close views show diagonal boundaries meeting the raised figures near the central circular enclosure, but they do not establish four independent full-text entries. Retain the initial inventory of central annular, upper/lower curved, side-sector multiline, and outer/oblique text zones; do not infer ownership from proximity."
+    },
+    "limits": "Detail follow-up strengthens the descriptive matches for the west plant-like object and east flask-like vessel, but these remain visual attributes only. The south support count/attachment remains partially unresolved. The corrected corner regions show plume-like forms without a resolved face or mouth; no wind identity follows. No seasonal, humoral, linguistic, or word-level assignment follows. No absence inference is drawn from the clipped initial southwest crop.",
+    "southwest_capture_correction": {
+      "initial_region": [
+        650,
+        2700,
+        1000,
+        1100
+      ],
+      "initial_region_path": "experiments/yolo/gdt1043_f85r2_native_attribute_binding/runtime/DETAIL_B_SW.jpg",
+      "initial_limit": "The initial crop clipped the upper curl at its boundary. It cannot support an absence judgment for that clipped segment.",
+      "corrected_region": [
+        650,
+        2400,
+        1000,
+        1200
+      ],
+      "corrected_region_path": "experiments/yolo/gdt1043_f85r2_native_attribute_binding/runtime/DETAIL_B_SW_CORRECTED.jpg",
+      "corrected_sha256": "44dfa0e7c0a1b2632ee960a37fc3b3fb4032cdd73e37e04d109095ffbd42fcbc",
+      "observation_basis": "Southwest description below is based on the corrected full form."
+    }
+  },
+  "exposure_and_limits": {
+    "known_source_question": "Before viewing, I knew the fixed comparison questions and source contrasts from METHOD.md, including Spring pointer/flower, Summer plant, Karlsruhe Autumn one support plus beads versus Winter two supports, uroscopy flask inspection, and the Tuebingen wind-head comparisons.",
+    "other_prior_exposure": "I had already completed a separate text-only GDT1042 assignment concerning the same f85r2 page. I did not use that census to make an image reading, and this observer is not blinded to the page, requested attributes, or source hypotheses. I have not read the root observer's packet.",
+    "resolution_limit": "At the full-panel rendition, small object-hand contours, support junctions, and face/mouth details are unresolved; these are recorded as uncertain, not absent.",
+    "claim_ceiling": "Native visual description and comparison only. No semantic word assignment, fixed translation, seasonal identity, language claim, or independent confirmation claim."
+  }
+}

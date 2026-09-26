@@ -8499,10 +8499,20 @@ GDT1042 inventories all four exposed spatial blocks without semantic labels:
 or aiin is a repeated bigram in ZL/RF with reader/spacing differences, not IT.
 No repeated trigram and no meaning binding. All tables and limits are in
 [GDT1042](experiments/yolo/gdt1042_f85r2_source_program_surface_census/REPORT.md).
-No new Voynich image or reserve was opened. GDT884's exact crib exclusion and
+GDT1042 opened no new Voynich image or reserve. GDT884's exact crib exclusion and
 the historical F85B001 nonconfirmation remain unchanged; source-role ambiguity
 does not retroactively rescue either fixed test. The following dated prior
 interpretation is retained as history, subject to this qualification.
+
+**GDT1043 native follow-up:** The newly admitted f85r2 panel and bounded details
+support a hand-held branching plant-like item, a separate linked strand and at
+most one visible south support (observer uncertainty retained), and an east
+raised bulb/neck vessel facing the holder. No clear faces or mouth-jets appear
+in the four outer plumes. This strengthens the composite image-program lead,
+not a four-season identification or any word. Initial navigation clipped the
+panel, then incidentally exposed root to a neighboring strip; the final bounded
+region excludes it. Separate initial observations are not blind semantic
+confirmation. See [GDT1043](experiments/yolo/gdt1043_f85r2_native_attribute_binding/REPORT.md).
 
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
