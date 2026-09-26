@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1042**
-- Experiment-associated tracked files: **20,755** (1.9 GiB)
-- Structured GDT337+ experiments: **707**
+- Experiments indexed: **1043**
+- Experiment-associated tracked files: **20,775** (1.9 GiB)
+- Structured GDT337+ experiments: **708**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1044 | GDT1044 | `AMBIGUITY_RETAINED_SEED_READER_SPECIFIC` | [report](../experiments/yolo/gdt1044_f85r2_quantifier_seed_native_audit/REPORT.md) | 20 | 57.8 KiB | 2 | STRUCTURED_YOLO |
 | GDT1043 | GDT1043 | `PROVISIONAL_COMPOSITE_ICONOGRAPHIC_LEAD_NO_MEANING_BINDING` | [report](../experiments/yolo/gdt1043_f85r2_native_attribute_binding/REPORT.md) | 26 | 66.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT1042 | GDT1042 | `COMPLETE_DESCRIPTIVE_CENSUS_NO_MEANING_BINDING` | [report](../experiments/yolo/gdt1042_f85r2_source_program_surface_census/REPORT.md) | 19 | 240.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT1041 | GDT1041 | `STOP_UNCHANGED_MUSIC91_EXTENSION_CAPACITY` | [report](../experiments/yolo/gdt1041_music91_complete_lexical_capacity/REPORT.md) | 18 | 3.3 MiB | 3 | STRUCTURED_YOLO |

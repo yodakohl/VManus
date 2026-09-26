@@ -1,0 +1,219 @@
+{
+  "status": "PARTIAL_SOURCE_CONSTRAINED_SEMANTIC_ACCOUNT",
+  "all_eight_obligations_mentioned": true,
+  "all_eight_obligations_semantically_completed": false,
+  "full_target_glossing": true,
+  "full_target_typed_parse": false,
+  "confirmed_meanings": 0,
+  "source": "research_registry/proposals/laufenberg_f85r2_20260926/PRINT_ELEMENT_PASSAGE_ROOT.md",
+  "source_unit": "HAB167-9Poet175rubric–178beforeSangwineus",
+  "obligations": [
+    {
+      "id": "O1",
+      "obligation": "Fourfold year/human-nature analogy; domains distinct",
+      "source_location": "175 body1–6;rubric",
+      "required_source_formula": "FOURFOLD(HumanNature) & FOURFOLD(YearPartition) & ANALOGOUS(HumanNature,YearPartition); not identity",
+      "target_clauses": [
+        "N3",
+        "S14"
+      ],
+      "candidate_formulas": [
+        "FOURFOLD(HumanNature) & ANALOGOUS_TO(HumanNature,PARTITION(Year,4))",
+        "CLASSIFICATION(P,C) & CARDINALITY(C)=4"
+      ],
+      "status": "EXPLICIT_CANDIDATE_FORMULAS",
+      "remaining": [
+        "Typed comparison and fourfold modifiers are invented bindings. No diagram owner or season identification."
+      ]
+    },
+    {
+      "id": "O2",
+      "obligation": "Elemental composition of living bodies; all humans mixed",
+      "source_location": "175 body9–176 body6;176 body10–13",
+      "required_source_formula": "Living bodies are constituted through E; forall p in P forall e in E COMPONENT(e,p)",
+      "target_clauses": [
+        "O1a",
+        "N2",
+        "W22b23",
+        "E11",
+        "S15"
+      ],
+      "candidate_formulas": [
+        "forall b in LivingBodies (COMPOSITE(b) & ELEMENTAL(b,E))",
+        "forall e in E forall p in P COMPONENT(e,p)",
+        "forall p in P MIXED(p)"
+      ],
+      "status": "CORE_EXPLICIT_CANDIDATE_FORMULAS",
+      "remaining": [
+        "E11 domain-composition paraphrase remains unresolved and does not manufacture N2. The living-body sentence does not itself derive a four-member component count without the Element-domain assumption."
+      ]
+    },
+    {
+      "id": "O3",
+      "obligation": "Complete four-element/material-effect roster",
+      "source_location": "176 body7–9",
+      "required_source_formula": "SUPPLIES(FIRE,WARMTH); SUPPLIES(WATER,BLOOD); SUPPLIES(WATER,MOISTURE); SUPPLIES(EARTH,FLESH); SUPPLIES(EARTH,BONE); SUPPLIES(AIR,BREATH)",
+      "target_clauses": [
+        "O1b",
+        "O1c",
+        "O1d",
+        "E8a"
+      ],
+      "candidate_formulas": [
+        "WARMTH in CONTRIBUTION(FIRE)",
+        "SUPPLIES(WATER,BLOOD) & SUPPLIES(WATER,MOISTURE)",
+        "SUPPLIES(EARTH,FLESH) & SUPPLIES(EARTH,BONE)",
+        "SUPPLIES(AIR,BREATH)"
+      ],
+      "status": "EXPLICIT_COMPLETE_CANDIDATE_ROSTER",
+      "remaining": [
+        "These model source physiology, not present medical facts. Contribution membership is nonexhaustive. Every target element/effect value is an invented binding."
+      ]
+    },
+    {
+      "id": "O4",
+      "obligation": "Different predominance despite common membership",
+      "source_location": "176 body14–18,with176 body10–13",
+      "required_source_formula": "All four elements have differing predominant profiles across people; forall e,p COMPONENT(e,p); predominance is not exclusivity",
+      "target_clauses": [
+        "N56",
+        "E7",
+        "N2",
+        "N4",
+        "E9"
+      ],
+      "candidate_formulas": [
+        "PROPOSED: forall e in E exists p in P PREDOMINATES(e,p)",
+        "exists e in E exists p,q in P SHARE(e,p) != SHARE(e,q)",
+        "forall e in E forall p in P COMPONENT(e,p)"
+      ],
+      "status": "PARTIAL_DISTRIBUTION_UNRESOLVED",
+      "remaining": [
+        "N56 each-element/existing-person distribution is an added scope assumption. E7 variation alone does not fill all four dominance profiles. Strictness or uniqueness of predominance is not decoded."
+      ]
+    },
+    {
+      "id": "O5",
+      "obligation": "Hot/cold and dry/moist opposition; possible harm from conflict",
+      "source_location": "176 body19–23;177 body1–4",
+      "required_source_formula": "COUNTER_TO(COLD,HEAT) & COUNTER_TO(DRYNESS,MOISTURE); actual conflict may cause harm and eventual death",
+      "target_clauses": [
+        "E8b",
+        "E10a",
+        "E10b",
+        "S12",
+        "S16"
+      ],
+      "candidate_formulas": [
+        "COUNTER_TO(COLD,HEAT)",
+        "COUNTER_TO(DRYNESS,MOISTURE)",
+        "POSSIBLE(CAUSE(CONFLICT,HARM)) & POSSIBLE(CAUSE(CONFLICT,DEATH))"
+      ],
+      "status": "CORE_EXPLICIT_CANDIDATE_FORMULAS",
+      "remaining": [
+        "S16 event reification must not turn mere contrary-quality co-presence into an actual harmful conflict. HARM is broad; no extra disease is invented."
+      ]
+    },
+    {
+      "id": "O6",
+      "obligation": "Naming and inclination by predominance, with all elements retained",
+      "source_location": "177 body5–10",
+      "required_source_formula": "forall p in P NAME_BASIS(p,DOMINANT(p)) & INCLINATION_BASIS(p,DOMINANT(p)) & forall e in E COMPONENT(e,p)",
+      "target_clauses": [
+        "N4",
+        "W19",
+        "W22a",
+        "W22b23",
+        "S13",
+        "S14",
+        "N2"
+      ],
+      "candidate_formulas": [
+        "GROUNDS(PredominanceAttribute,InclinationAttribute)",
+        "ARISE_FROM(ConstitutionNameDomain,PredominantElementContributionAttribute)",
+        "FOLLOW(NameDomain,PredominanceAttribute)",
+        "forall c in C INCLINES_TOWARD(c,PREDOMINANT_ELEMENT(c))",
+        "forall e in E forall p in P COMPONENT(e,p)"
+      ],
+      "status": "PARTIAL_SCHEMA_OWNER_GAP",
+      "remaining": [
+        "Attribute/domain schemas do not automatically yield the required pointwise person-level statements. Person-versus-Constitution ownership needs a bridge, not a covert inserted patient. W22 coordination needs a common datum type for the two domain sorts."
+      ]
+    },
+    {
+      "id": "O7",
+      "obligation": "Constitution-sensitive regimen; failure of universal benefit",
+      "source_location": "177 body11–18;175 body7–8",
+      "required_source_formula": "Suitability must consider constitutional inclination; NOT(forall p in P forall t in T BENEFIT(p,t))",
+      "target_clauses": [
+        "W18",
+        "W20",
+        "S17",
+        "O1e",
+        "O24"
+      ],
+      "candidate_formulas": [
+        "NOT(forall p in P forall t in T BENEFIT(p,t))",
+        "PROPOSED: RELEVANT_CRITERION(ConstitutionalInclination,IMAGE(Regimen,P))",
+        "PROPOSED: P0 & RELEVANT_CRITERION(C,P0)",
+        "GUIDES_SELECTION(ConstitutionAttribute,TreatmentDomain)"
+      ],
+      "status": "EXACT_LOCAL_SCOPE_BUT_WHOLE_OBLIGATION_PARTIAL",
+      "remaining": [
+        "The six-word benefit seed is intact, but qokal shedy and the other criterion frames require typed review. O24 common-membership-as-regimen-criterion is an inference, not an express source instruction."
+      ]
+    },
+    {
+      "id": "O8",
+      "obligation": "Qualified contrary conduct, with final syntax uncertainty retained",
+      "source_location": "177 body19–178 body3",
+      "required_source_formula": "Weak possibility of conduct/will contrary to inclination; exact agency, scope and control remain uncertain",
+      "target_clauses": [
+        "W21"
+      ],
+      "candidate_formulas": [
+        "POSSIBLE(COUNTER_TO(VoluntaryConduct,ConstitutionDomain))"
+      ],
+      "status": "WEAK_MODAL_SCHEMA_ONLY_OWNER_UNBOUND",
+      "remaining": [
+        "No universally successful self-control or achieved correction is asserted. This does not bind a person to that person’s particular constitution. No new actor is supplied by the image or a covert owner."
+      ]
+    }
+  ],
+  "logical_scope_rival": {
+    "P0": "NOT(forall p forall t BENEFIT(p,t))",
+    "R1": "forall p forall t NOT BENEFIT(p,t)",
+    "R2": "forall p NOT(forall t BENEFIT(p,t))",
+    "countermodel": {
+      "Persons": [
+        "P",
+        "Q"
+      ],
+      "Treatments": [
+        "A",
+        "B"
+      ],
+      "true_pairs": [
+        [
+          "P",
+          "A"
+        ],
+        [
+          "P",
+          "B"
+        ],
+        [
+          "Q",
+          "B"
+        ]
+      ]
+    },
+    "truth_values": {
+      "P0": true,
+      "R1": false,
+      "R2": false
+    },
+    "limit": "Declared logic only; not target observations, treatment data, a semantic experiment or independent source confirmation."
+  },
+  "decision": "Freeze exact partial semantic account. Word coverage is not complete source reading. Missing bindings are not UNSAT."
+}

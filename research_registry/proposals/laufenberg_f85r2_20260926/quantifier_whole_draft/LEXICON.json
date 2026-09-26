@@ -1,0 +1,2587 @@
+{
+  "status": "ALL_TOKEN_GLOSSED_DRAFT__TYPED_SOURCE_COMPLETION_UNRESOLVED",
+  "idea": "IDEA000558",
+  "scope": "All 24 owned f85r2 loci; ZL primary, IT/RF separate.",
+  "target_input": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+  "target_input_sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+  "confirmed_meanings": 0,
+  "accounting": {
+    "ZL_groups": 156,
+    "ZL_types": 115,
+    "seed_bindings": 7,
+    "new_whole_bindings": 108,
+    "hand_authored_clauses": 29,
+    "clauses_with_explicit_unresolved_obligations": 14,
+    "seed_constructions": 4,
+    "new_numbered_grammar_proposals": 18,
+    "new_distinct_grammar_licenses": 21,
+    "compound_entries": 11,
+    "compound_combinations": 11,
+    "alternate_groups": {
+      "IT2a": 157,
+      "RF1b": 160
+    },
+    "hapax_types": 92
+  },
+  "no_semantic_confirmation": "All words are invented C0 bindings, including source-topic words. Counts establish coverage only.",
+  "fixed_seed_assignments": {
+    "sain": {
+      "type": "Domain(Element)",
+      "meaning": "the four source elements, as a domain, not four concealed target names"
+    },
+    "or": {
+      "type": "Domain(T) -> GeneralizedQuantifier(T)",
+      "meaning": "ALL, the same universal quantifier at each type"
+    },
+    "aiin": {
+      "type": "Domain(Person)",
+      "meaning": "human persons"
+    },
+    "opchdy": {
+      "type": "Element x Person -> Proposition",
+      "meaning": "IS_COMPONENT_OF: the element is a constituent of that person"
+    },
+    "ain": {
+      "type": "Domain(Treatment)",
+      "meaning": "candidate treatments/regimen items; explicit source narrowing"
+    },
+    "ckhed[a:y]": {
+      "type": "Person x Treatment -> Proposition",
+      "meaning": "IS_BENEFITED_BY"
+    },
+    "olchey": {
+      "type": "Proposition -> Proposition",
+      "meaning": "NOT; fixed broad scope over the completed double-universal proposition"
+    }
+  },
+  "entries": [
+    {
+      "id": "L001",
+      "raw_form": "sain",
+      "type": "Domain(Element)",
+      "value": "ELEMENTS",
+      "gloss": "the four elements",
+      "status": "FIXED_RAW558",
+      "raw_seed_record": {
+        "type": "Domain(Element)",
+        "meaning": "the four source elements, as a domain, not four concealed target names"
+      },
+      "new_binding_cost": 0,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.2|G001"
+      ],
+      "source_obligations": [
+        "O2"
+      ]
+    },
+    {
+      "id": "L002",
+      "raw_form": "or",
+      "type": "Domain(T)->GeneralizedQuantifier(T)",
+      "value": "ALL",
+      "gloss": "all",
+      "status": "FIXED_RAW558",
+      "raw_seed_record": {
+        "type": "Domain(T) -> GeneralizedQuantifier(T)",
+        "meaning": "ALL, the same universal quantifier at each type"
+      },
+      "new_binding_cost": 0,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.2|G002",
+        "ZL3b|f85r2.2|G003",
+        "ZL3b|f85r2.13|G001",
+        "ZL3b|f85r2.15|G004",
+        "ZL3b|f85r2.20|G001",
+        "ZL3b|f85r2.20|G004",
+        "ZL3b|f85r2.22|G006",
+        "ZL3b|f85r2.24|G009"
+      ],
+      "source_obligations": [
+        "O2",
+        "O3",
+        "O4",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "id": "L003",
+      "raw_form": "aiin",
+      "type": "Domain(Person)",
+      "value": "PERSONS",
+      "gloss": "human persons",
+      "status": "FIXED_RAW558",
+      "raw_seed_record": {
+        "type": "Domain(Person)",
+        "meaning": "human persons"
+      },
+      "new_binding_cost": 0,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G030",
+        "ZL3b|f85r2.2|G004",
+        "ZL3b|f85r2.11|G002",
+        "ZL3b|f85r2.14|G003",
+        "ZL3b|f85r2.20|G002",
+        "ZL3b|f85r2.22|G007"
+      ],
+      "source_obligations": [
+        "O1",
+        "O2",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "id": "L004",
+      "raw_form": "opchdy",
+      "type": "Element x Person -> Proposition",
+      "value": "IS_COMPONENT_OF",
+      "gloss": "is a component of",
+      "status": "FIXED_RAW558",
+      "raw_seed_record": {
+        "type": "Element x Person -> Proposition",
+        "meaning": "IS_COMPONENT_OF: the element is a constituent of that person"
+      },
+      "new_binding_cost": 0,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.2|G005"
+      ],
+      "source_obligations": [
+        "O2"
+      ]
+    },
+    {
+      "id": "L005",
+      "raw_form": "ain",
+      "type": "Domain(Treatment)",
+      "value": "TREATMENTS",
+      "gloss": "candidate treatments",
+      "status": "FIXED_RAW558",
+      "raw_seed_record": {
+        "type": "Domain(Treatment)",
+        "meaning": "candidate treatments/regimen items; explicit source narrowing"
+      },
+      "new_binding_cost": 0,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.17|G003",
+        "ZL3b|f85r2.20|G005"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L006",
+      "raw_form": "ckhed[a:y]",
+      "type": "Person x Treatment -> Proposition",
+      "value": "IS_BENEFITED_BY",
+      "gloss": "is benefited by",
+      "status": "FIXED_RAW558",
+      "raw_seed_record": {
+        "type": "Person x Treatment -> Proposition",
+        "meaning": "IS_BENEFITED_BY"
+      },
+      "new_binding_cost": 0,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.20|G003"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L007",
+      "raw_form": "olchey",
+      "type": "Proposition -> Proposition",
+      "value": "NOT",
+      "gloss": "not",
+      "status": "FIXED_RAW558",
+      "raw_seed_record": {
+        "type": "Proposition -> Proposition",
+        "meaning": "NOT; fixed broad scope over the completed double-universal proposition"
+      },
+      "new_binding_cost": 0,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.20|G006"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L008",
+      "raw_form": "qotor",
+      "type": "Concept",
+      "value": "HUMAN_NATURE",
+      "gloss": "human nature",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "HUMAN",
+        "NATURE"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.3|G001"
+      ],
+      "source_obligations": [
+        "O1"
+      ]
+    },
+    {
+      "id": "L009",
+      "raw_form": "sheedy",
+      "type": "Property(Partition)",
+      "value": "FOURFOLD",
+      "gloss": "fourfold",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.3|G002"
+      ],
+      "source_obligations": [
+        "O1"
+      ]
+    },
+    {
+      "id": "L010",
+      "raw_form": "shodaiin",
+      "type": "Concept x Concept -> Proposition",
+      "value": "ANALOGOUS_TO",
+      "gloss": "analogous to",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.3|G003"
+      ],
+      "source_obligations": [
+        "O1"
+      ]
+    },
+    {
+      "id": "L011",
+      "raw_form": "olfar",
+      "type": "Concept",
+      "value": "YEAR",
+      "gloss": "year",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.3|G004"
+      ],
+      "source_obligations": [
+        "O1"
+      ]
+    },
+    {
+      "id": "L012",
+      "raw_form": "ary",
+      "type": "Concept -> Partition",
+      "value": "FOUR_DIVISIONS",
+      "gloss": "four divisions",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "FOUR",
+        "DIVISION"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.3|G005"
+      ],
+      "source_obligations": [
+        "O1"
+      ]
+    },
+    {
+      "id": "L013",
+      "raw_form": "dair",
+      "type": "Attribute(Person,Element)",
+      "value": "PREDOMINANCE",
+      "gloss": "predominance",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.4|G001"
+      ],
+      "source_obligations": [
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "id": "L014",
+      "raw_form": "sheo",
+      "type": "Attribute x Attribute -> Proposition",
+      "value": "GROUNDS",
+      "gloss": "grounds",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.4|G002"
+      ],
+      "source_obligations": [
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "id": "L015",
+      "raw_form": "oraiin",
+      "type": "Attribute(Person,Inclination)",
+      "value": "INCLINATION",
+      "gloss": "inclination",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.4|G003"
+      ],
+      "source_obligations": [
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "id": "L016",
+      "raw_form": "chol",
+      "type": "Coordinator(T)",
+      "value": "AND",
+      "gloss": "and",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.4|G004",
+        "ZL3b|f85r2.23|G003"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "id": "L017",
+      "raw_form": "daiin",
+      "type": "Attribute(Person,Constitution)",
+      "value": "CONSTITUTION",
+      "gloss": "constitution",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G026",
+        "ZL3b|f85r2.4|G005",
+        "ZL3b|f85r2.9|G001"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "id": "L018",
+      "raw_form": "ockhdar",
+      "type": "DistributionModifier",
+      "value": "DIFFERENT",
+      "gloss": "different",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.5|G001"
+      ],
+      "source_obligations": [
+        "O4"
+      ]
+    },
+    {
+      "id": "L019",
+      "raw_form": "olkar",
+      "type": "Domain(Element)",
+      "value": "ELEMENTS",
+      "gloss": "elements",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.5|G002"
+      ],
+      "source_obligations": [
+        "O4"
+      ]
+    },
+    {
+      "id": "L020",
+      "raw_form": "shoral",
+      "type": "Element x Person -> Proposition",
+      "value": "PREDOMINATES_IN",
+      "gloss": "predominates in",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.5|G003"
+      ],
+      "source_obligations": [
+        "O4"
+      ]
+    },
+    {
+      "id": "L021",
+      "raw_form": "roseer",
+      "type": "Domain(Person)",
+      "value": "PERSONS",
+      "gloss": "persons",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.6|G001"
+      ],
+      "source_obligations": [
+        "O4"
+      ]
+    },
+    {
+      "id": "L022",
+      "raw_form": "okees",
+      "type": "Attribute(Person,Regimen)",
+      "value": "REGIMEN",
+      "gloss": "regimen",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.18|G001",
+        "ZL3b|f85r2.24|G001"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "id": "L023",
+      "raw_form": "olaiin",
+      "type": "Domain(Person)",
+      "value": "PERSONS",
+      "gloss": "persons",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G024",
+        "ZL3b|f85r2.18|G002"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L024",
+      "raw_form": "qokal",
+      "type": "Datum x Criterion -> QualifiedDatum",
+      "value": "RELATIVE_TO",
+      "gloss": "relative to",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.18|G003",
+        "ZL3b|f85r2.20|G007"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L025",
+      "raw_form": "chdy",
+      "type": "Attribute(Person,Inclination)",
+      "value": "INCLINATION",
+      "gloss": "inclination",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.18|G004"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L026",
+      "raw_form": "sary",
+      "type": "AttributeModifier",
+      "value": "CONSTITUTIONAL",
+      "gloss": "constitutional",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.18|G005"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L027",
+      "raw_form": "qokshedy",
+      "type": "Domain(Name)",
+      "value": "CONSTITUTION_NAMES",
+      "gloss": "constitution names",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "CONSTITUTION",
+        "NAME"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.19|G001"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L028",
+      "raw_form": "qodain",
+      "type": "Datum x Datum -> Proposition",
+      "value": "ARISE_FROM",
+      "gloss": "arise from",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.19|G002"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L029",
+      "raw_form": "chckhy",
+      "type": "AttributeModifier",
+      "value": "PREDOMINANT",
+      "gloss": "predominant",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.19|G003"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L030",
+      "raw_form": "ykeedy",
+      "type": "Domain(Element)",
+      "value": "ELEMENTS",
+      "gloss": "elements",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.19|G004"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L031",
+      "raw_form": "chedy",
+      "type": "Attribute(Element,Set(Effect))",
+      "value": "CONTRIBUTION",
+      "gloss": "contribution",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.15|G003",
+        "ZL3b|f85r2.19|G005"
+      ],
+      "source_obligations": [
+        "O2",
+        "O3",
+        "O6"
+      ]
+    },
+    {
+      "id": "L032",
+      "raw_form": "shedy",
+      "type": "Domain(Constitution)",
+      "value": "CONSTITUTIONS",
+      "gloss": "constitutions",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.13|G002",
+        "ZL3b|f85r2.20|G008",
+        "ZL3b|f85r2.21|G004",
+        "ZL3b|f85r2.22|G003"
+      ],
+      "source_obligations": [
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "id": "L033",
+      "raw_form": "qokeody",
+      "type": "ActivityKind",
+      "value": "CONDUCT",
+      "gloss": "conduct",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.21|G001"
+      ],
+      "source_obligations": [
+        "O8"
+      ]
+    },
+    {
+      "id": "L034",
+      "raw_form": "qoekedy",
+      "type": "ActivityModifier",
+      "value": "VOLUNTARY",
+      "gloss": "voluntary",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.21|G002"
+      ],
+      "source_obligations": [
+        "O8"
+      ]
+    },
+    {
+      "id": "L035",
+      "raw_form": "dody",
+      "type": "Proposition -> ModalProposition",
+      "value": "MAY",
+      "gloss": "may",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.21|G003"
+      ],
+      "source_obligations": [
+        "O8"
+      ]
+    },
+    {
+      "id": "L036",
+      "raw_form": "qodaiin",
+      "type": "Concept x Concept -> Proposition",
+      "value": "COUNTER_TO",
+      "gloss": "goes against",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.16|G002",
+        "ZL3b|f85r2.21|G005"
+      ],
+      "source_obligations": [
+        "O5",
+        "O8"
+      ]
+    },
+    {
+      "id": "L037",
+      "raw_form": "los",
+      "type": "Domain(Name)",
+      "value": "NAMES",
+      "gloss": "names",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.22|G001"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L038",
+      "raw_form": "ar",
+      "type": "Coordinator(T)",
+      "value": "AND",
+      "gloss": "and",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G004",
+        "ZL3b|f85r2.22|G002",
+        "ZL3b|f85r2.24|G008",
+        "ZL3b|f85r2.24|G012"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "id": "L039",
+      "raw_form": "qokshey",
+      "type": "Datum x Datum -> Proposition",
+      "value": "FOLLOW",
+      "gloss": "follow",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.22|G004"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L040",
+      "raw_form": "qose?y",
+      "type": "Attribute(Person,Element)",
+      "value": "PREDOMINANCE",
+      "gloss": "predominance",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.22|G005"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L041",
+      "raw_form": "og",
+      "type": "DiscourseConnector",
+      "value": "NEVERTHELESS",
+      "gloss": "nevertheless",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.22|G008"
+      ],
+      "source_obligations": [
+        "O2",
+        "O6"
+      ]
+    },
+    {
+      "id": "L042",
+      "raw_form": "ol",
+      "type": "Copula",
+      "value": "IS",
+      "gloss": "is",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G027",
+        "ZL3b|f85r2.8|G005",
+        "ZL3b|f85r2.23|G001",
+        "ZL3b|f85r2.23|G004"
+      ],
+      "source_obligations": [
+        "O2",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "id": "L043",
+      "raw_form": "lcheol",
+      "type": "Property(Person)",
+      "value": "MIXED",
+      "gloss": "mixed",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.23|G002"
+      ],
+      "source_obligations": [
+        "O2",
+        "O6"
+      ]
+    },
+    {
+      "id": "L044",
+      "raw_form": "sheoly",
+      "type": "Property(Person)",
+      "value": "INCLINED",
+      "gloss": "inclined",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.23|G005"
+      ],
+      "source_obligations": [
+        "O2",
+        "O6"
+      ]
+    },
+    {
+      "id": "L045",
+      "raw_form": "pchedeey",
+      "type": "Attribute(Element x Person,Amount)",
+      "value": "SHARE",
+      "gloss": "share",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.7|G001"
+      ],
+      "source_obligations": [
+        "O4"
+      ]
+    },
+    {
+      "id": "L046",
+      "raw_form": "olkey",
+      "type": "ArgumentMarker",
+      "value": "OF",
+      "gloss": "of",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.7|G002"
+      ],
+      "source_obligations": [
+        "O4"
+      ]
+    },
+    {
+      "id": "L047",
+      "raw_form": "qokedy",
+      "type": "Domain(Element)",
+      "value": "ELEMENTS",
+      "gloss": "elements",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.7|G003"
+      ],
+      "source_obligations": [
+        "O4"
+      ]
+    },
+    {
+      "id": "L048",
+      "raw_form": "sheos",
+      "type": "Attribute x Domain -> Proposition",
+      "value": "VARY_AMONG",
+      "gloss": "vary among",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.7|G004"
+      ],
+      "source_obligations": [
+        "O4"
+      ]
+    },
+    {
+      "id": "L049",
+      "raw_form": "fcheey",
+      "type": "Domain(Person)",
+      "value": "PERSONS",
+      "gloss": "persons",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.7|G005"
+      ],
+      "source_obligations": [
+        "O4"
+      ]
+    },
+    {
+      "id": "L050",
+      "raw_form": "otchedy",
+      "type": "Element x Effect -> Proposition",
+      "value": "SUPPLIES",
+      "gloss": "supplies",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G015",
+        "ZL3b|f85r2.1|G019",
+        "ZL3b|f85r2.8|G001"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L051",
+      "raw_form": "chotey",
+      "type": "Element",
+      "value": "AIR",
+      "gloss": "air",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.8|G002"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L052",
+      "raw_form": "qocthey",
+      "type": "Effect",
+      "value": "BREATH",
+      "gloss": "breath",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.8|G003"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L053",
+      "raw_form": "oteey",
+      "type": "Quality",
+      "value": "COLD",
+      "gloss": "cold",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.8|G004",
+        "ZL3b|f85r2.16|G001"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L054",
+      "raw_form": "oloqorain",
+      "type": "Property(Quality)",
+      "value": "HEAT_OPPOSING",
+      "gloss": "opposing heat",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "COUNTER_TO",
+        "HEAT"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.8|G006"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L055",
+      "raw_form": "qotaiin",
+      "type": "Datum x Datum -> Proposition",
+      "value": "DEPENDS",
+      "gloss": "depends",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.9|G002"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "id": "L056",
+      "raw_form": "tchedy",
+      "type": "OwnerScopeMarker",
+      "value": "WITHIN",
+      "gloss": "within",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.9|G003"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "id": "L057",
+      "raw_form": "otedy",
+      "type": "Domain(LivingBody)",
+      "value": "LIVING_BODIES",
+      "gloss": "living bodies",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G002",
+        "ZL3b|f85r2.9|G004"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "id": "L058",
+      "raw_form": "qotchdy",
+      "type": "ArgumentMarker",
+      "value": "ON",
+      "gloss": "on",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.9|G005"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "id": "L059",
+      "raw_form": "chckhey",
+      "type": "Attribute(Person,Element)",
+      "value": "PREDOMINANCE",
+      "gloss": "predominance",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.9|G006"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "id": "L060",
+      "raw_form": "ytchedy",
+      "type": "Quality",
+      "value": "DRYNESS",
+      "gloss": "dryness",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.10|G001"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L061",
+      "raw_form": "qodar",
+      "type": "Concept x Concept -> Proposition",
+      "value": "COUNTER_TO",
+      "gloss": "opposes",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.10|G002"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L062",
+      "raw_form": "qotedar",
+      "type": "Quality",
+      "value": "MOISTURE",
+      "gloss": "moisture",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.10|G003"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L063",
+      "raw_form": "qokar",
+      "type": "EventKind",
+      "value": "CONFLICT",
+      "gloss": "conflict",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.10|G004"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L064",
+      "raw_form": "qotchd",
+      "type": "Event x Effect -> ModalProposition",
+      "value": "CAN_CAUSE",
+      "gloss": "can cause",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "POSSIBLE",
+        "CAUSE"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.10|G005"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L065",
+      "raw_form": "qotom",
+      "type": "Effect",
+      "value": "HARM",
+      "gloss": "harm",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.10|G006"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L066",
+      "raw_form": "soiis",
+      "type": "Domain x Domain -> Proposition",
+      "value": "COMPOSITION",
+      "gloss": "composition",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.11|G001"
+      ],
+      "source_obligations": [
+        "O2"
+      ]
+    },
+    {
+      "id": "L067",
+      "raw_form": "shedaiin",
+      "type": "ArgumentMarker",
+      "value": "OF",
+      "gloss": "of",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G023",
+        "ZL3b|f85r2.11|G003"
+      ],
+      "source_obligations": [
+        "O2",
+        "O7"
+      ]
+    },
+    {
+      "id": "L068",
+      "raw_form": "chok{co}m",
+      "type": "Domain(Element)",
+      "value": "ELEMENTS",
+      "gloss": "elements",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.11|G004"
+      ],
+      "source_obligations": [
+        "O2"
+      ]
+    },
+    {
+      "id": "L069",
+      "raw_form": "otchs",
+      "type": "EventKind",
+      "value": "CONFLICT",
+      "gloss": "conflict",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.12|G001"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L070",
+      "raw_form": "shedor",
+      "type": "Event x Effect -> ModalProposition",
+      "value": "CAN_CAUSE",
+      "gloss": "can cause",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "POSSIBLE",
+        "CAUSE"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.12|G002"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L071",
+      "raw_form": "chey",
+      "type": "Effect",
+      "value": "HARM",
+      "gloss": "harm",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.12|G003",
+        "ZL3b|f85r2.16|G005"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L072",
+      "raw_form": "sorain",
+      "type": "Effect",
+      "value": "DEATH",
+      "gloss": "death",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.12|G004"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L073",
+      "raw_form": "tedy",
+      "type": "Constitution x Element -> Proposition",
+      "value": "INCLINES",
+      "gloss": "inclines",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.13|G003"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L074",
+      "raw_form": "sodaiiin",
+      "type": "ArgumentMarker",
+      "value": "TOWARD",
+      "gloss": "toward",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.13|G004"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L075",
+      "raw_form": "chy",
+      "type": "Attribute(Constitution,Element)",
+      "value": "PREDOMINANT_ELEMENT",
+      "gloss": "predominant element",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "PREDOMINANT",
+        "ELEMENT"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.13|G005"
+      ],
+      "source_obligations": [
+        "O6"
+      ]
+    },
+    {
+      "id": "L076",
+      "raw_form": "ytedar",
+      "type": "Domain(Constitution)",
+      "value": "CONSTITUTIONS",
+      "gloss": "constitutions",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.14|G001"
+      ],
+      "source_obligations": [
+        "O1",
+        "O6"
+      ]
+    },
+    {
+      "id": "L077",
+      "raw_form": "chz[s:r]",
+      "type": "Domain x Domain -> Proposition",
+      "value": "CLASSIFIES",
+      "gloss": "classifies",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.14|G002"
+      ],
+      "source_obligations": [
+        "O1",
+        "O6"
+      ]
+    },
+    {
+      "id": "L078",
+      "raw_form": "arody",
+      "type": "CardinalityModifier",
+      "value": "FOUR_WAYS",
+      "gloss": "four ways",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.14|G004"
+      ],
+      "source_obligations": [
+        "O1",
+        "O6"
+      ]
+    },
+    {
+      "id": "L079",
+      "raw_form": "ypshedy",
+      "type": "Concept",
+      "value": "HUMAN_MIXTURE",
+      "gloss": "human mixture",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "HUMAN",
+        "MIXTURE"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.15|G001"
+      ],
+      "source_obligations": [
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "id": "L080",
+      "raw_form": "dar",
+      "type": "SourceMarker",
+      "value": "FROM",
+      "gloss": "from",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G032",
+        "ZL3b|f85r2.15|G002"
+      ],
+      "source_obligations": [
+        "O2",
+        "O3",
+        "O7"
+      ]
+    },
+    {
+      "id": "L081",
+      "raw_form": "am",
+      "type": "Domain(Element)",
+      "value": "ELEMENTS",
+      "gloss": "elements",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.15|G005"
+      ],
+      "source_obligations": [
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "id": "L082",
+      "raw_form": "odain",
+      "type": "Quality",
+      "value": "HEAT",
+      "gloss": "heat",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.16|G003"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L083",
+      "raw_form": "an",
+      "type": "Event x Effect -> ModalProposition",
+      "value": "CAN_CAUSE",
+      "gloss": "can cause",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "POSSIBLE",
+        "CAUSE"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.16|G004"
+      ],
+      "source_obligations": [
+        "O5"
+      ]
+    },
+    {
+      "id": "L084",
+      "raw_form": "orar",
+      "type": "Attribute(Person,Constitution)",
+      "value": "CONSTITUTION",
+      "gloss": "constitution",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.17|G001"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L085",
+      "raw_form": "oldar",
+      "type": "Criterion x Domain -> Proposition",
+      "value": "GUIDES",
+      "gloss": "guides",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.17|G002"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L086",
+      "raw_form": "odeedy",
+      "type": "Domain(T)->GeneralizedQuantifier(T)",
+      "value": "ALL",
+      "gloss": "all",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G001"
+      ],
+      "source_obligations": [
+        "O2"
+      ]
+    },
+    {
+      "id": "L087",
+      "raw_form": "opaees",
+      "type": "Property(LivingBody)",
+      "value": "COMPOSITE",
+      "gloss": "composite",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G003"
+      ],
+      "source_obligations": [
+        "O2"
+      ]
+    },
+    {
+      "id": "L088",
+      "raw_form": "chcthy",
+      "type": "Property(LivingBody)",
+      "value": "ELEMENTAL",
+      "gloss": "elemental",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "COMPOSITION",
+        "ELEMENTS"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G005"
+      ],
+      "source_obligations": [
+        "O2"
+      ]
+    },
+    {
+      "id": "L089",
+      "raw_form": "otchdy",
+      "type": "Element",
+      "value": "FIRE",
+      "gloss": "fire",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G006"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L090",
+      "raw_form": "otody",
+      "type": "Attribute(Element,Set(Effect))",
+      "value": "CONTRIBUTION",
+      "gloss": "contribution",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G007",
+        "ZL3b|f85r2.24|G005"
+      ],
+      "source_obligations": [
+        "O2",
+        "O3",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "id": "L091",
+      "raw_form": "otar",
+      "type": "Effect",
+      "value": "WARMTH",
+      "gloss": "warmth",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G008"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L092",
+      "raw_form": "chepaiin",
+      "type": "Element",
+      "value": "WATER",
+      "gloss": "water",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G009"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L093",
+      "raw_form": "otodar",
+      "type": "Element x Effect -> Proposition",
+      "value": "SUPPLIES",
+      "gloss": "supplies",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G010"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L094",
+      "raw_form": "otodaiin",
+      "type": "Effect",
+      "value": "BLOOD",
+      "gloss": "blood",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G011"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L095",
+      "raw_form": "opaiin",
+      "type": "Coordinator(T)",
+      "value": "AND",
+      "gloss": "and",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G012",
+        "ZL3b|f85r2.1|G034"
+      ],
+      "source_obligations": [
+        "O3",
+        "O7"
+      ]
+    },
+    {
+      "id": "L096",
+      "raw_form": "otaiin",
+      "type": "Effect",
+      "value": "MOISTURE",
+      "gloss": "moisture",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G013"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L097",
+      "raw_form": "qopchas",
+      "type": "Element",
+      "value": "EARTH",
+      "gloss": "earth",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G014"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L098",
+      "raw_form": "olkaiin",
+      "type": "Effect",
+      "value": "FLESH",
+      "gloss": "flesh",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G016"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L099",
+      "raw_form": "odar",
+      "type": "Coordinator(T)",
+      "value": "AND",
+      "gloss": "and",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G017",
+        "ZL3b|f85r2.1|G021"
+      ],
+      "source_obligations": [
+        "O3",
+        "O7"
+      ]
+    },
+    {
+      "id": "L100",
+      "raw_form": "aloees",
+      "type": "Element",
+      "value": "EARTH",
+      "gloss": "earth",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G018"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L101",
+      "raw_form": "qotedaiin",
+      "type": "Effect",
+      "value": "BONE",
+      "gloss": "bone",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G020"
+      ],
+      "source_obligations": [
+        "O3"
+      ]
+    },
+    {
+      "id": "L102",
+      "raw_form": "octhody",
+      "type": "Concept -> Study",
+      "value": "STUDY",
+      "gloss": "study",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G022"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L103",
+      "raw_form": "olfor",
+      "type": "Study x Criterion -> Proposition",
+      "value": "EXPLAINS",
+      "gloss": "explains",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G025"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L104",
+      "raw_form": "lkech[ch:?]",
+      "type": "Property(Study)",
+      "value": "NECESSARY",
+      "gloss": "necessary",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G028"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L105",
+      "raw_form": "os",
+      "type": "PurposeMarker",
+      "value": "FOR",
+      "gloss": "for",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G029"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L106",
+      "raw_form": "oteedy",
+      "type": "Attribute(Person,Regimen)",
+      "value": "REGIMEN",
+      "gloss": "regimen",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G031"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L107",
+      "raw_form": "otees",
+      "type": "Attribute(Person,Inclination)",
+      "value": "INCLINATION",
+      "gloss": "inclination",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G033",
+        "ZL3b|f85r2.24|G011"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "id": "L108",
+      "raw_form": "chcphdar",
+      "type": "Attribute(Person,Constitution)",
+      "value": "CONSTITUTION",
+      "gloss": "constitution",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.1|G035"
+      ],
+      "source_obligations": [
+        "O7"
+      ]
+    },
+    {
+      "id": "L109",
+      "raw_form": "ochar",
+      "type": "Regimen x Datum -> ModalProposition",
+      "value": "SHOULD_CONSIDER",
+      "gloss": "should consider",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [
+        "SHOULD",
+        "CONSIDER"
+      ],
+      "compound_combination_cost": 1,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.24|G002"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "id": "L110",
+      "raw_form": "oted[o:a]r",
+      "type": "AttributeModifier",
+      "value": "PREDOMINANT",
+      "gloss": "predominant",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.24|G003"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "id": "L111",
+      "raw_form": "ochedy",
+      "type": "Domain(Element)",
+      "value": "ELEMENTS",
+      "gloss": "elements",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.24|G004"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "id": "L112",
+      "raw_form": "olchedy",
+      "type": "AttributeModifier",
+      "value": "COMMON",
+      "gloss": "common",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.24|G006"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "id": "L113",
+      "raw_form": "oteedo",
+      "type": "Attribute(Person,Domain(Element))",
+      "value": "MEMBERSHIP",
+      "gloss": "membership",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.24|G007"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "id": "L114",
+      "raw_form": "airol",
+      "type": "Domain(Person)",
+      "value": "PERSONS",
+      "gloss": "persons",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.24|G010"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "id": "L115",
+      "raw_form": "aram",
+      "type": "Attribute(Person,Nature)",
+      "value": "NATURE",
+      "gloss": "nature",
+      "status": "NEW_AUTHOR_BINDING",
+      "raw_seed_record": null,
+      "new_binding_cost": 1,
+      "compound_components": [],
+      "compound_combination_cost": 0,
+      "source_basis": "A concept or grammatical role in the selected source argument; no target lexical identity follows.",
+      "occurrence_ids": [
+        "ZL3b|f85r2.24|G013"
+      ],
+      "source_obligations": [
+        "O2",
+        "O4",
+        "O7"
+      ]
+    }
+  ],
+  "synonym_costs": [
+    {
+      "type": "Domain(Element)",
+      "value": "ELEMENTS",
+      "raw_forms": [
+        "sain",
+        "olkar",
+        "ykeedy",
+        "qokedy",
+        "chok{co}m",
+        "am",
+        "ochedy"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Domain(T)->GeneralizedQuantifier(T)",
+      "value": "ALL",
+      "raw_forms": [
+        "or",
+        "odeedy"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Domain(Person)",
+      "value": "PERSONS",
+      "raw_forms": [
+        "aiin",
+        "roseer",
+        "olaiin",
+        "fcheey",
+        "airol"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Attribute(Person,Element)",
+      "value": "PREDOMINANCE",
+      "raw_forms": [
+        "dair",
+        "qose?y",
+        "chckhey"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Attribute(Person,Inclination)",
+      "value": "INCLINATION",
+      "raw_forms": [
+        "oraiin",
+        "chdy",
+        "otees"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Coordinator(T)",
+      "value": "AND",
+      "raw_forms": [
+        "chol",
+        "ar",
+        "opaiin",
+        "odar"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Attribute(Person,Constitution)",
+      "value": "CONSTITUTION",
+      "raw_forms": [
+        "daiin",
+        "orar",
+        "chcphdar"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Attribute(Person,Regimen)",
+      "value": "REGIMEN",
+      "raw_forms": [
+        "okees",
+        "oteedy"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "AttributeModifier",
+      "value": "PREDOMINANT",
+      "raw_forms": [
+        "chckhy",
+        "oted[o:a]r"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Attribute(Element,Effect)",
+      "value": "CONTRIBUTION",
+      "raw_forms": [
+        "chedy",
+        "otody"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Domain(Constitution)",
+      "value": "CONSTITUTIONS",
+      "raw_forms": [
+        "shedy",
+        "ytedar"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Concept x Concept -> Proposition",
+      "value": "COUNTER_TO",
+      "raw_forms": [
+        "qodaiin",
+        "qodar"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "ArgumentMarker",
+      "value": "OF",
+      "raw_forms": [
+        "olkey",
+        "shedaiin"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Element x Effect -> Proposition",
+      "value": "SUPPLIES",
+      "raw_forms": [
+        "otchedy",
+        "otodar"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "EventKind",
+      "value": "CONFLICT",
+      "raw_forms": [
+        "qokar",
+        "otchs"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Event x Effect -> ModalProposition",
+      "value": "CAN_CAUSE",
+      "raw_forms": [
+        "qotchd",
+        "shedor",
+        "an"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Effect",
+      "value": "HARM",
+      "raw_forms": [
+        "qotom",
+        "chey"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    },
+    {
+      "type": "Element",
+      "value": "EARTH",
+      "raw_forms": [
+        "qopchas",
+        "aloees"
+      ],
+      "status": "MULTIPLE_FREE_BINDINGS_NOT_ALIASES"
+    }
+  ]
+}

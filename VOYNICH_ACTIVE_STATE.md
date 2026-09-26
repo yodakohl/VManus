@@ -8521,10 +8521,21 @@ explicit moving-heaven context, without identifying target plumes or words.
 IDEA537 now has a frozen complete108-group A draft, but81additional atomic
 bindings and different quality owners leave its planned rival discriminator
 absent; B's stricter argument gaps do not refute corrective meanings generally.
-Do not extend that unchanged freely authored scaffold. IDEA558 is selected
-only for a complete source-constrained draft; no word is confirmed. See
+Do not extend that unchanged freely authored scaffold. IDEA558 now conserves all156groups but remains semantically partial:108new
+values and21licenses do not supply the pointwise owner/type bridges; the full
+six-relation effect roster is internally consistent, not independent evidence.
+GDT1044 retains the disputed ZL seed's native ambiguity. No word is confirmed. See
 [draft audit](research_registry/proposals/laufenberg_f85r2_20260926/QUALITY_DRAFT_ROOT_REVIEW.md)
-and [next contract](research_registry/proposals/laufenberg_f85r2_20260926/QUANTIFIER_DRAFT_DECISION.md).
+and [558audit](research_registry/proposals/laufenberg_f85r2_20260926/QUANTIFIER_DRAFT_ROOT_REVIEW.md).
+
+**2026-09-26 source continuation:** Karlsruhe88v explicitly links a wavy tenth
+heaven to cold/moist water properties; the fiery eleventh is said not to burn.
+Thus celestial and watery associations can coexist in this tradition. Neither
+circle matches the target's blue lobed border or four plumes. MunichCgm377's
+blank-image instructions independently preserve the work's planned female-age
+sequence and physician, with seasons named in surrounding text; the doctor's
+textual placement varies across witnesses. These are related-source findings,
+not independent Voynich semantics. [Native continuation](research_registry/proposals/laufenberg_f85r2_20260926/COSMIC_CONTINUATION_NATIVE.md).
 
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing

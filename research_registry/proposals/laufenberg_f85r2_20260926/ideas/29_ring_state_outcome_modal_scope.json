@@ -1,0 +1,751 @@
+{
+  "title": "RAW four-form state/outcome ring with fixed modal scope and dominance",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. Derive otar/otaiin and otodar/otodaiin from two state predicates and shared o/t/d operators. ALL-outcome versus SOME-outcome interpretations produce different same-owner collisions; all ownership and feasible-profile gaps remain explicit.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-26",
+    "author_role": "bounded independent RAW producer; no active537 frozen lexicon, draft, author or results accessed",
+    "source": {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/PRINT_ELEMENT_PASSAGE_ROOT.md",
+      "whole_unit": "1491 Augsburg HAB167-9Poet scans00175–00178, root's native working transcript of the complete element/complexion argument.",
+      "attested_input": "The unit distinguishes common mixture, prevailing quality/element, contrary-quality conflict, and suitability of regimen to constitution; conduct need not follow inclination deterministically.",
+      "not_attested": "No EVA value, possible-outcome set, guaranteed-versus-possible modal rule, nine-state model or treatment success is supplied by this source. All are explicit target-hypothesis assumptions.",
+      "historical_limits": [
+        "Later witness, not identified exemplar; Karlsruhe parallel is dependent.",
+        "Water/blood/moisture reading retained, no flowering-in-Spring claim.",
+        "Final will/conduct syntax remains uncertain; it is not evidence for a specific modal operator.",
+        "Historical causal/regimen statements are not present-day clinical claims."
+      ]
+    },
+    "primary_checks": {
+      "GDT788": {
+        "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+        "relevant": "Ten complete al/dal/ar/dar rows and40cells did not establish a freely transferable semantic d/dal remainder: SHIFT beats both controls2/10; CORE4/10. No new renderer license or component export. Same-locus internal splitting of reader-exact dal compounds absent.",
+        "preserve": "The new local ring hypothesis does not repair measured-material semantics, use additive vector transfer or turn the whole dal value into a morpheme."
+      },
+      "GDT624": {
+        "path": "experiments/yolo/gdt624_productive_quality_shell_grid/REPORT.md",
+        "relevant": "48 observed surface cells; quality and state-binding slots are working meanings, not independent semantic anchors. Its t=cold and d=state-closure defaults remain a different family.",
+        "preserve": "No old meaning is imported or overwritten. The current candidate counts its t and d values anew."
+      },
+      "GDT631": {
+        "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+        "relevant": "Productive ch/sh+cth family and some genuine boundary alternation; dry/moist orientation remains provisional with technical-class countercases.",
+        "preserve": "An observed split elsewhere does not prove any ring word's internal segmentation."
+      },
+      "GDT752": {
+        "path": "experiments/yolo/gdt752_q_base_microfield_role_audit/REPORT.md",
+        "relevant": "No exact q-quality/base-preparation role split in the complete fields; the one strong field is symmetric. q component value remains unexported.",
+        "preserve": "No q/o/qo equivalence or state/preparation repair. qo and or remain unbound whole prefixes/forms here."
+      },
+      "other": [
+        "VOYNICH_CURRENT_ROUTE.md",
+        "context topic Wortzusammensetzung",
+        "RAW554 property-noun lifting and RAW556 two SUPPLIES forms: incompatible, not inherited",
+        "GDT812 scalar/intensity family and old GDT884/f57 failures remain unchanged"
+      ]
+    },
+    "navigation": [
+      "ideas search modal outcome all some causal effect negation (5)",
+      "route-check odar otodar otodaiin dal al ar dar",
+      "Targeted lookup788/752 and direct primary reports624/631/752/788. Lexical navigation does not establish novelty."
+    ],
+    "scope": {
+      "artifact": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+      "owned_extent": "All24 f85r2 loci and all473rows, each of three alternate readers separate. Four blocks and outside lines counted separately.",
+      "full_account_requirement": "A future semantic test needs all groups of the entire f85r2.1 line at minimum, plus consistent treatment of every assigned form across the other23loci. Other target forms stay unbound in this RAW; no selected fragment is a complete reading.",
+      "forbidden": "No other target data, target pixels, reserves, normalization, decoder, global edits or contacts."
+    },
+    "finite_semantic_model": {
+      "quality_axis_names": [
+        "HEAT",
+        "MOISTURE"
+      ],
+      "axis_state_cases": [
+        {
+          "present": false,
+          "dominant": false
+        },
+        {
+          "present": true,
+          "dominant": false
+        },
+        {
+          "present": true,
+          "dominant": true
+        }
+      ],
+      "axis_state_meaning": "These are three logical combinations of two Boolean predicates with dominant=>present, not three numeric degrees or medical measurements. Dominance means that quality prevails over its contrary on its own axis; presence alone does not entail dominance.",
+      "state_universe": "S is the Cartesian product of the two axis case sets:9 abstract states. Opposite qualities are not separately named target values, and absent HEAT is not automatically a written COLD value.",
+      "profile_universe": "R is a NONEMPTY subset of S, denoting the admissible outcome states for one written regimen, recipient and time horizon. There are511 abstract profiles. No profile is asserted to be observed or actually clinically possible.",
+      "types": {
+        "StatePred": "S -> Bool",
+        "RegimenPred": "R -> Bool"
+      },
+      "base_atoms": {
+        "ar": {
+          "type": "StatePred",
+          "denotation": "P_H(s)=HEAT is present in state s"
+        },
+        "aiin": {
+          "type": "StatePred",
+          "denotation": "P_M(s)=MOISTURE is present in state s"
+        }
+      },
+      "constructors": {
+        "d": {
+          "type": "partial StatePred -> StatePred",
+          "domain": [
+            "P_H",
+            "P_M"
+          ],
+          "finite_cases": {
+            "P_H": "D_H(s)=HEAT dominates its contrary in s",
+            "P_M": "D_M(s)=MOISTURE dominates its contrary in s"
+          },
+          "invariant": "D_H implies P_H and D_M implies P_M. No application d(NOT(P)), d(d(P)) or arbitrary unnamed state predicate is licensed."
+        },
+        "o": {
+          "type_schema": "Pred(X) -> Pred(X), X restricted to exactly S or R",
+          "law": "o_X(F)(x)=NOT F(x)",
+          "cost": "Two explicit type instantiations of the same Boolean complement; not two adjustable denotations. No synonymy with qo or or."
+        },
+        "t": {
+          "type": "StatePred -> RegimenPred",
+          "law": "t_ALL(P)(R)=for every s in R, P(s)",
+          "interpretation": "The declared outcome profile guarantees that state property. It does not claim actual success, a causal mechanism or an observed outcome."
+        }
+      }
+    },
+    "literal_derivations": {
+      "ar": "P_H",
+      "aiin": "P_M",
+      "dar": "d(P_H)=D_H",
+      "daiin": "d(P_M)=D_M",
+      "odar": "o_S(d(P_H))=NOT D_H",
+      "otar": "o_R(t_ALL(P_H)) = NOT(all outcomes have HEAT)",
+      "otaiin": "o_R(t_ALL(P_M)) = NOT(all outcomes have MOISTURE)",
+      "otodar": "o_R(t_ALL(o_S(d(P_H)))) = some admissible outcome has dominant HEAT",
+      "otodaiin": "o_R(t_ALL(o_S(d(P_M)))) = some admissible outcome has dominant MOISTURE"
+    },
+    "writer_contract": {
+      "segments": "Literal left-to-right prefixes denote right-nested function application: o t o d ar = o_R(t(o_S(d(ar)))); all characters remain, none is deleted or substituted.",
+      "exact_whitelist": [
+        "ar",
+        "aiin",
+        "dar",
+        "daiin",
+        "odar",
+        "otar",
+        "otaiin",
+        "otodar",
+        "otodaiin"
+      ],
+      "scope": "Only these9 exact full forms receive derivations. Five bounded shape licenses: base Q; dQ; odar; otQ; otodQ, Q in{ar,aiin}. No unattested whole odaiin is promoted because its internal expression occurs in otodaiin.",
+      "word_boundaries": "Each ring form is one complete source group with definite outer spaces; no internal morpheme boundary is observed. This is an explicit segmentation hypothesis, not a diplomatic split.",
+      "unbound_alternates": [
+        "IT otadar",
+        "RF ot@221;dar",
+        "RF @221;iin",
+        "IT aiinog"
+      ],
+      "strict_unmerged": [
+        "qodar",
+        "qodaiin",
+        "or",
+        "oraiin",
+        "orar",
+        "odain",
+        "otedy",
+        "otody",
+        "otchedy"
+      ]
+    },
+    "actual_ring_input": {
+      "ZL": "f85r2.1 G008 otar; G010 otodar; G011 otodaiin; G013 otaiin",
+      "IT": "G008 otar; G010 otadar UNBOUND; G011 otodaiin; G013 otaiin",
+      "RF": "G008 otar; G010 ot@221;dar UNBOUND; G011 otodaiin; G013 otaiin",
+      "limit": "These are four tokens in a full35/35/35-group line, with intervening words, not a contiguous four-word clause or a written participant list."
+    },
+    "same_owner_condition": "The collision below is relevant ONLY if a complete written grammar asserts both members of a quality pair about the SAME regimen, recipient, horizon and outcome profile. Same line is not that binding. Rebinding to different patients/plans or interpreting a word as quoted/denied must be written and counted, not invented after seeing a collision.",
+    "serious_rival": {
+      "name": "t_SOME instead of t_ALL, keeping every other atom, constructor and segmentation fixed",
+      "law": "t_SOME(P)(R)=some s in R has P(s)",
+      "ring_consequences": {
+        "otar": "all outcomes lack HEAT",
+        "otaiin": "all outcomes lack MOISTURE",
+        "otodar": "all outcomes have dominant HEAT",
+        "otodaiin": "all outcomes have dominant MOISTURE"
+      },
+      "distinction": "A possible effect versus a guaranteed effect is a substantive regimen distinction. Neither is stated by the source or established in the target; both are predeclared interpretations of the same nested morphology."
+    },
+    "composition_falsifier": {
+      "main_ALL": "Each pair otar+otodar, or otaiin+otodaiin, can both hold on one nondeterministic profile: at least one outcome lacks P and at least one has dominant P.",
+      "rival_SOME": "The same pair cannot both hold on any nonempty profile, because it would require all outcomes NOT P and all outcomes D(P), while D(P) implies P.",
+      "explicit_logical_witness": {
+        "profile": [
+          "s0: neither HEAT nor MOISTURE present; neither dominates",
+          "s1: HEAT and MOISTURE both present and each dominant on its own axis"
+        ],
+        "consequence": "Under t_ALL all four ring predicates hold. Under t_SOME neither pair can jointly hold. This is a stipulated algebraic witness, not an executed test or historically verified physical outcome."
+      },
+      "single_outcome_countercase": "If every profile has exactly one outcome, t_ALL=t_SOME and both pairs are incompatible. Therefore the proposed discrimination REQUIRES more than one admissible outcome for at least one same-owner profile; changing profiles after a conflict would be a repair.",
+      "source_feasibility_countercase": "The two-state witness is not source-attested. If a source-faithful complete model restricts relevant living-person outcomes so that HEAT or MOISTURE is always present, the corresponding main-pair witness can disappear. Do not invent a temperature threshold, redefine presence as excess, or add an unmentioned dead/other recipient to rescue it.",
+      "decision_gate": "First complete whole-line ownership and polarity. If same-owner joint assertions are absent, this card has no collision-based discriminating capacity. If they are present but only singleton/always-present profiles are licensed, retain that conflict rather than broadening the model silently."
+    },
+    "additional_fixed_consequences": [
+      "odar is a STATE predicate NOT dominant HEAT, never an effect or a regimen. Its two .1 occurrences must take written state owners.",
+      "dar/daiin are dominance predicates; plain ar/aiin are presence predicates. Any complete reading must preserve this distinction at every occurrence.",
+      "No conclusion about NOT-HOT=COLD, quality correction, actual treatment efficacy, universal t semantics elsewhere, or target language follows."
+    ],
+    "freedom": {
+      "new_base_meanings": 2,
+      "new_shared_constructor_meanings": 3,
+      "d_input_cases": 2,
+      "o_type_instantiations": 2,
+      "t_type_cases": 1,
+      "exact_whole_form_licenses": 9,
+      "shape_licenses": 5,
+      "added_logical_state_model": 1,
+      "nonempty_outcome_profile_model": 1,
+      "same_owner_grammar": "not supplied",
+      "multistate_physical_or_epistemic_feasibility": "not supplied",
+      "other_word_values_assigned": 0,
+      "confirmed_words": 0,
+      "compression_limit": "Deriving9 forms from2 base values and3 constructors constrains the meanings, but adds substantial typing, segmentation, state-model and ownership assumptions. It is not a demonstrated economy or translation."
+    },
+    "why_distinct": "RAW556 guessed only ot as SUPPLIES over two quality nouns and left the nested ring unbound. This proposal instead types every repeated o/t/d occurrence in all four ring forms, keeps state versus regimen predicates separate, and predicts a two-input modal-scope collision. It does not extend556's denotations or repair537.",
+    "minimum_next_step": "No solver. Attempt a full .1 argument/polarity grammar while preserving all other occurrences. Stop if the quartet cannot receive written same-owner binding or physically/epistemically admissible profile multiplicity; a whole-content author may instead preserve the precise incomplete hypothesis.",
+    "budget_if_selected_minutes": 35,
+    "proposal_path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/29_ring_state_outcome_modal_scope.json",
+    "receipts": {
+      "target_sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+      "source_transcript_sha256": "e92a6846cc022b6c2f50e205115c3b5aea23adad7b6010fe952f940cf62dc02b",
+      "target_rows": 473
+    },
+    "literal_inventory": {
+      "ZL3b": {
+        "all24_loci": {
+          "positions": 156,
+          "types": 115,
+          "assigned_positions": 21,
+          "assigned_types": 9,
+          "unbound_positions": 135,
+          "unbound_types": 106
+        },
+        "four_blocks": {
+          "positions": 108,
+          "types": 85,
+          "assigned_positions": 9,
+          "assigned_types": 4,
+          "unbound_positions": 99,
+          "unbound_types": 81
+        },
+        "outside_lines": {
+          "positions": 48,
+          "types": 41,
+          "assigned_positions": 12,
+          "assigned_types": 9,
+          "unbound_positions": 36,
+          "unbound_types": 32
+        },
+        "whole_line_1": {
+          "positions": 35,
+          "types": 32,
+          "assigned_positions": 10,
+          "assigned_types": 9,
+          "unbound_positions": 25,
+          "unbound_types": 23
+        },
+        "all_exact_assigned_occurrences": {
+          "aiin": [
+            "ZL3b|f85r2.1|G030",
+            "ZL3b|f85r2.2|G004",
+            "ZL3b|f85r2.11|G002",
+            "ZL3b|f85r2.14|G003",
+            "ZL3b|f85r2.20|G002",
+            "ZL3b|f85r2.22|G007"
+          ],
+          "ar": [
+            "ZL3b|f85r2.1|G004",
+            "ZL3b|f85r2.22|G002",
+            "ZL3b|f85r2.24|G008",
+            "ZL3b|f85r2.24|G012"
+          ],
+          "daiin": [
+            "ZL3b|f85r2.1|G026",
+            "ZL3b|f85r2.4|G005",
+            "ZL3b|f85r2.9|G001"
+          ],
+          "dar": [
+            "ZL3b|f85r2.1|G032",
+            "ZL3b|f85r2.15|G002"
+          ],
+          "odar": [
+            "ZL3b|f85r2.1|G017",
+            "ZL3b|f85r2.1|G021"
+          ],
+          "otaiin": [
+            "ZL3b|f85r2.1|G013"
+          ],
+          "otar": [
+            "ZL3b|f85r2.1|G008"
+          ],
+          "otodaiin": [
+            "ZL3b|f85r2.1|G011"
+          ],
+          "otodar": [
+            "ZL3b|f85r2.1|G010"
+          ]
+        },
+        "unassigned_comparison_forms": {
+          "odaiin": [],
+          "otadar": [],
+          "ot@221;dar": [],
+          "qodar": [
+            "ZL3b|f85r2.10|G002"
+          ],
+          "qodaiin": [
+            "ZL3b|f85r2.16|G002",
+            "ZL3b|f85r2.21|G005"
+          ],
+          "or": [
+            "ZL3b|f85r2.2|G002",
+            "ZL3b|f85r2.2|G003",
+            "ZL3b|f85r2.13|G001",
+            "ZL3b|f85r2.15|G004",
+            "ZL3b|f85r2.20|G001",
+            "ZL3b|f85r2.20|G004",
+            "ZL3b|f85r2.22|G006",
+            "ZL3b|f85r2.24|G009"
+          ],
+          "oraiin": [
+            "ZL3b|f85r2.4|G003"
+          ],
+          "orar": [
+            "ZL3b|f85r2.17|G001"
+          ],
+          "odain": [
+            "ZL3b|f85r2.16|G003"
+          ]
+        },
+        "whole_line_1_raw_groups": [
+          "odeedy",
+          "otedy",
+          "opaees",
+          "ar",
+          "chcthy",
+          "otchdy",
+          "otody",
+          "otar",
+          "chepaiin",
+          "otodar",
+          "otodaiin",
+          "opaiin",
+          "otaiin",
+          "qopchas",
+          "otchedy",
+          "olkaiin",
+          "odar",
+          "aloees",
+          "otchedy",
+          "qotedaiin",
+          "odar",
+          "octhody",
+          "shedaiin",
+          "olaiin",
+          "olfor",
+          "daiin",
+          "ol",
+          "lkech[ch:?]",
+          "os",
+          "aiin",
+          "oteedy",
+          "dar",
+          "otees",
+          "opaiin",
+          "chcphdar"
+        ],
+        "whole_line_1_reference": "Ordered source IDs ZL3b|f85r2.1|G001 through G035 in the hash-bound artifact; both separators are retained there, without normalization.",
+        "ring_outer_boundaries": [
+          {
+            "source_group_id": "ZL3b|f85r2.1|G008",
+            "ivtff_group_raw": "otar",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          },
+          {
+            "source_group_id": "ZL3b|f85r2.1|G010",
+            "ivtff_group_raw": "otodar",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          },
+          {
+            "source_group_id": "ZL3b|f85r2.1|G011",
+            "ivtff_group_raw": "otodaiin",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          },
+          {
+            "source_group_id": "ZL3b|f85r2.1|G013",
+            "ivtff_group_raw": "otaiin",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          }
+        ]
+      },
+      "IT2a": {
+        "all24_loci": {
+          "positions": 157,
+          "types": 115,
+          "assigned_positions": 21,
+          "assigned_types": 8,
+          "unbound_positions": 136,
+          "unbound_types": 107
+        },
+        "four_blocks": {
+          "positions": 107,
+          "types": 86,
+          "assigned_positions": 9,
+          "assigned_types": 4,
+          "unbound_positions": 98,
+          "unbound_types": 82
+        },
+        "outside_lines": {
+          "positions": 50,
+          "types": 41,
+          "assigned_positions": 12,
+          "assigned_types": 8,
+          "unbound_positions": 38,
+          "unbound_types": 33
+        },
+        "whole_line_1": {
+          "positions": 35,
+          "types": 31,
+          "assigned_positions": 9,
+          "assigned_types": 8,
+          "unbound_positions": 26,
+          "unbound_types": 23
+        },
+        "all_exact_assigned_occurrences": {
+          "aiin": [
+            "IT2a|f85r2.1|G030",
+            "IT2a|f85r2.2|G004",
+            "IT2a|f85r2.11|G002",
+            "IT2a|f85r2.14|G003",
+            "IT2a|f85r2.20|G002"
+          ],
+          "ar": [
+            "IT2a|f85r2.1|G004",
+            "IT2a|f85r2.20|G001",
+            "IT2a|f85r2.22|G002",
+            "IT2a|f85r2.24|G008",
+            "IT2a|f85r2.24|G013",
+            "IT2a|f85r2.24|G014"
+          ],
+          "daiin": [
+            "IT2a|f85r2.1|G026",
+            "IT2a|f85r2.4|G005",
+            "IT2a|f85r2.9|G001"
+          ],
+          "dar": [
+            "IT2a|f85r2.1|G032",
+            "IT2a|f85r2.15|G002"
+          ],
+          "odar": [
+            "IT2a|f85r2.1|G017",
+            "IT2a|f85r2.1|G021"
+          ],
+          "otaiin": [
+            "IT2a|f85r2.1|G013"
+          ],
+          "otar": [
+            "IT2a|f85r2.1|G008"
+          ],
+          "otodaiin": [
+            "IT2a|f85r2.1|G011"
+          ],
+          "otodar": []
+        },
+        "unassigned_comparison_forms": {
+          "odaiin": [],
+          "otadar": [
+            "IT2a|f85r2.1|G010"
+          ],
+          "ot@221;dar": [],
+          "qodar": [
+            "IT2a|f85r2.10|G002"
+          ],
+          "qodaiin": [
+            "IT2a|f85r2.21|G005"
+          ],
+          "or": [
+            "IT2a|f85r2.2|G002",
+            "IT2a|f85r2.2|G003",
+            "IT2a|f85r2.13|G001",
+            "IT2a|f85r2.15|G004",
+            "IT2a|f85r2.20|G004",
+            "IT2a|f85r2.22|G006",
+            "IT2a|f85r2.24|G009"
+          ],
+          "oraiin": [
+            "IT2a|f85r2.4|G003"
+          ],
+          "orar": [
+            "IT2a|f85r2.17|G001"
+          ],
+          "odain": [
+            "IT2a|f85r2.16|G003"
+          ]
+        },
+        "whole_line_1_raw_groups": [
+          "odchdy",
+          "otedy",
+          "opoees",
+          "ar",
+          "chcthy",
+          "otchdy",
+          "otedy",
+          "otar",
+          "chepaiin",
+          "otadar",
+          "otodaiin",
+          "opoiin",
+          "otaiin",
+          "qopchchs",
+          "otchedy",
+          "olkaiin",
+          "odar",
+          "aloees",
+          "otchedy",
+          "qotedaiin",
+          "odar",
+          "octhody",
+          "shedaiin",
+          "olaiin",
+          "olfor",
+          "daiin",
+          "ol",
+          "lkech?",
+          "os",
+          "aiin",
+          "otchdy",
+          "dar",
+          "otees",
+          "ofaiin",
+          "chcphdar"
+        ],
+        "whole_line_1_reference": "Ordered source IDs IT2a|f85r2.1|G001 through G035 in the hash-bound artifact; both separators are retained there, without normalization.",
+        "ring_outer_boundaries": [
+          {
+            "source_group_id": "IT2a|f85r2.1|G008",
+            "ivtff_group_raw": "otar",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          },
+          {
+            "source_group_id": "IT2a|f85r2.1|G010",
+            "ivtff_group_raw": "otadar",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          },
+          {
+            "source_group_id": "IT2a|f85r2.1|G011",
+            "ivtff_group_raw": "otodaiin",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          },
+          {
+            "source_group_id": "IT2a|f85r2.1|G013",
+            "ivtff_group_raw": "otaiin",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          }
+        ]
+      },
+      "RF1b": {
+        "all24_loci": {
+          "positions": 160,
+          "types": 123,
+          "assigned_positions": 21,
+          "assigned_types": 8,
+          "unbound_positions": 139,
+          "unbound_types": 115
+        },
+        "four_blocks": {
+          "positions": 109,
+          "types": 88,
+          "assigned_positions": 10,
+          "assigned_types": 4,
+          "unbound_positions": 99,
+          "unbound_types": 84
+        },
+        "outside_lines": {
+          "positions": 51,
+          "types": 44,
+          "assigned_positions": 11,
+          "assigned_types": 7,
+          "unbound_positions": 40,
+          "unbound_types": 37
+        },
+        "whole_line_1": {
+          "positions": 35,
+          "types": 33,
+          "assigned_positions": 8,
+          "assigned_types": 7,
+          "unbound_positions": 27,
+          "unbound_types": 26
+        },
+        "all_exact_assigned_occurrences": {
+          "aiin": [
+            "RF1b|f85r2.2|G004",
+            "RF1b|f85r2.11|G002",
+            "RF1b|f85r2.14|G003",
+            "RF1b|f85r2.20|G002",
+            "RF1b|f85r2.22|G008"
+          ],
+          "ar": [
+            "RF1b|f85r2.1|G004",
+            "RF1b|f85r2.20|G001",
+            "RF1b|f85r2.22|G002",
+            "RF1b|f85r2.24|G009",
+            "RF1b|f85r2.24|G014",
+            "RF1b|f85r2.24|G015"
+          ],
+          "daiin": [
+            "RF1b|f85r2.1|G026",
+            "RF1b|f85r2.4|G005",
+            "RF1b|f85r2.9|G001"
+          ],
+          "dar": [
+            "RF1b|f85r2.1|G032",
+            "RF1b|f85r2.15|G002"
+          ],
+          "odar": [
+            "RF1b|f85r2.1|G017",
+            "RF1b|f85r2.1|G021"
+          ],
+          "otaiin": [
+            "RF1b|f85r2.1|G013"
+          ],
+          "otar": [
+            "RF1b|f85r2.1|G008"
+          ],
+          "otodaiin": [
+            "RF1b|f85r2.1|G011"
+          ],
+          "otodar": []
+        },
+        "unassigned_comparison_forms": {
+          "odaiin": [],
+          "otadar": [],
+          "ot@221;dar": [
+            "RF1b|f85r2.1|G010"
+          ],
+          "qodar": [],
+          "qodaiin": [
+            "RF1b|f85r2.16|G002",
+            "RF1b|f85r2.21|G005"
+          ],
+          "or": [
+            "RF1b|f85r2.2|G002",
+            "RF1b|f85r2.2|G003",
+            "RF1b|f85r2.13|G001",
+            "RF1b|f85r2.15|G004",
+            "RF1b|f85r2.20|G004",
+            "RF1b|f85r2.22|G007",
+            "RF1b|f85r2.24|G010"
+          ],
+          "oraiin": [
+            "RF1b|f85r2.4|G003"
+          ],
+          "orar": [
+            "RF1b|f85r2.17|G001"
+          ],
+          "odain": [
+            "RF1b|f85r2.16|G003"
+          ]
+        },
+        "whole_line_1_raw_groups": [
+          "odee@152;y",
+          "otedy",
+          "opoees",
+          "ar",
+          "chcthy",
+          "otchdy",
+          "oto@152;y",
+          "otar",
+          "chepaiin",
+          "ot@221;dar",
+          "otodaiin",
+          "opaiin",
+          "otaiin",
+          "qopchas",
+          "otche@152;y",
+          "olkaiin",
+          "odar",
+          "aloees",
+          "otchedy",
+          "qotedaiin",
+          "odar",
+          "octhody",
+          "shedaiin",
+          "olaiin",
+          "olfor",
+          "daiin",
+          "ol",
+          "lkechch",
+          "os",
+          "@221;iin",
+          "otchdy",
+          "dar",
+          "otees",
+          "ofaiin",
+          "chcph@152;ar"
+        ],
+        "whole_line_1_reference": "Ordered source IDs RF1b|f85r2.1|G001 through G035 in the hash-bound artifact; both separators are retained there, without normalization.",
+        "ring_outer_boundaries": [
+          {
+            "source_group_id": "RF1b|f85r2.1|G008",
+            "ivtff_group_raw": "otar",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          },
+          {
+            "source_group_id": "RF1b|f85r2.1|G010",
+            "ivtff_group_raw": "ot@221;dar",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          },
+          {
+            "source_group_id": "RF1b|f85r2.1|G011",
+            "ivtff_group_raw": "otodaiin",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          },
+          {
+            "source_group_id": "RF1b|f85r2.1|G013",
+            "ivtff_group_raw": "otaiin",
+            "left_separator": "DEFINITE_SPACE",
+            "right_separator": "DEFINITE_SPACE"
+          }
+        ]
+      }
+    },
+    "inventory_limit": "All nine exact assigned forms inventoried across every owned locus; odaiin absence is recorded without admitting an invented whole. Counted strings are neither a semantic parse nor independent reading evidence. Full .1 rows preserve every intervening group and outer separator.",
+    "dominance_regimen_limit": "A possible dominant quality is not automatically a desirable goal or an instruction to produce it. The source says sustained contrary-quality victory can harm. A complete hypothesis must write whether these effect predicates describe a risk, possibility, caution or intended end; it cannot silently convert the predicates into prescriptions.",
+    "duplicate_screen": {
+      "command": "./vmanus-work ideas duplicates --proposal research_registry/proposals/laufenberg_f85r2_20260926/ideas/29_ring_state_outcome_modal_scope.json --limit 4",
+      "same_declared_design": [],
+      "candidate_ids": [
+        "IDEA000556",
+        "IDEA000555",
+        "IDEA000554",
+        "IDEA000552"
+      ],
+      "decision": "CANDIDATES_ONLY_NO_AUTOMATIC_MERGE",
+      "limit": "Nearest older seeds are explicitly distinguished; no certified novelty or automatic selection."
+    }
+  }
+}
