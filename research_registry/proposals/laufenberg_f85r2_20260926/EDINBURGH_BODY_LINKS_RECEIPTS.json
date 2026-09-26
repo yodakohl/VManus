@@ -1,0 +1,59 @@
+{
+  "schema": "bounded-source-access-receipt-v1",
+  "task": "EDINBURGH_BODY_LINKS",
+  "status": "CATALOGUE_DESCRIPTION_RETAINED_IMAGE_UNAVAILABLE",
+  "started_utc": "2026-09-26 22:08:12 UTC",
+  "completed_utc": "2026-09-26 22:12:18 UTC",
+  "decision": "research_registry/proposals/laufenberg_f85r2_20260926/EDINBURGH_BODY_LINKS_DECISION.md",
+  "paths_predeclared": [
+    {
+      "id": 1,
+      "url": "https://kdih.badw.de/datenbank/handschrift/87/2/5",
+      "role": "Exact public catalogue record for Edinburgh Royal Observatory Cr.4.6 (olim 9.14.5.14).",
+      "result": "HTTP 200; record verified shelfmark and f.121v catalogue description.",
+      "local_cache": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/edinburgh_body_links_kdih.html",
+      "sha256": "6965065d50b7b330b3c904afcbc6bd0c48be48035971f772013c10a978ff6940",
+      "bytes": 42461,
+      "image": false
+    },
+    {
+      "id": 2,
+      "url": "https://dc.lib.unc.edu/cdm/landingpage/collection/mackinney",
+      "role": "Public UNC MacKinney collection discovery route linked from KdiH.",
+      "result": "Browser request timed out. The KdiH-linked old CDM search URL was also inaccessible through the browser. Prior UNC API-shell attempt noted from earlier source packet; not repeated.",
+      "image": false
+    },
+    {
+      "id": 3,
+      "url": "https://archives.collections.ed.ac.uk/",
+      "role": "Public University of Edinburgh Archives and Special Collections catalogue search route.",
+      "result": "Gateway error (502); no item-level result.",
+      "image": false
+    }
+  ],
+  "within_path_1_linked_bibliography": {
+    "url": "https://kdih.badw.de/datenbank/literatur/3892",
+    "result": "Public bibliographic record for Blume/Haffner/Metzger (2016); no f.121v image supplied.",
+    "image": false
+  },
+  "prior_metadata_cache_not_reused_as_new_fetch": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/regional_edinburgh.html",
+    "sha256": "6965065d50b7b330b3c904afcbc6bd0c48be48035971f772013c10a978ff6940"
+  },
+  "scope": {
+    "voynich_access": 0,
+    "manuscript_images_fetched": 0,
+    "manuscript_images_viewed": 0,
+    "neighboring_leaves": 0,
+    "guessed_image_urls": 0,
+    "contacts": 0,
+    "authentication_bypass": false,
+    "new_search_routes": 0
+  },
+  "catalogue_observation": {
+    "folio": "121v",
+    "summary": "KdiH describes a centered person with red and black lines linking body points to planets and zodiac signs.",
+    "native_pixel_confirmation": false
+  },
+  "decision_timing_clarification": "The pre-access decision was written after reviewing the locally retained KdiH metadata record to identify exact paths, and before all new external requests and any image access."
+}

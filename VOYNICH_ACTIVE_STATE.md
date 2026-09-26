@@ -8617,6 +8617,21 @@ whole conditional S reading, not a chosen temporal word or global parser.
 Original550 decision,52outside positions, IT2/RF3 gaps and0words stay intact.
 [Typed review](research_registry/proposals/laufenberg_f85r2_20260926/UNTIL_S_TYPED_ROOT_REVIEW.md).
 
+**2026-09-26 source discourse follow-up:** Arundel126v now has an official
+whole-painting view: four age labels, ten local episode inscriptions and a
+separate central voice. The physician is an actor in the illness scene;
+no target word or same-person identity is thereby identified. The regional
+11-object roster adds one native planetary book/flower page and catalogued
+countercases to automatic image/text proximity. Edinburgh121v remains a
+catalogued body/celestial network without accessible verified pixels.
+[Arundel](research_registry/proposals/laufenberg_f85r2_20260926/ARUNDEL_WHOLE_LABELS_ROOT_REVIEW.md),
+[regional programs](research_registry/proposals/laufenberg_f85r2_20260926/REGIONAL_COMPOSITE_ROOT_REVIEW.md).
+The discourse audit finds no current target discriminator; independent meaning
+is required for confirmation, not for authoring an explicit hypothetical
+binding. [Qualification](research_registry/proposals/laufenberg_f85r2_20260926/DISCOURSE_CONSEQUENCE_ROOT_QUALIFICATION.md).
+Next: constrain the existing whole-S draft by actually reused composition,
+not more free synonyms or another unchanged missing-input audit.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
