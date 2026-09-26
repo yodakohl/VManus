@@ -8554,6 +8554,21 @@ rivals share that stronger premise. No meaning is selected. See
 [source scope](research_registry/proposals/laufenberg_f85r2_20260926/SOURCE_NEGATION_QUALIFICATION.md),
 [14rv context](research_registry/proposals/laufenberg_f85r2_20260926/CGM_PHYSICIAN_PREDECESSOR_ROOT_READING.md).
 
+**2026-09-26 seasonal argument clarified:** Complete printed Winter169–171
+permits more food from cold/moist season and warming consumables, with necessity,
+availability, health and moderation qualifications. No explicit innate-body-heat
+intermediate; HippocratesI13–15 stays separate. Root's post-parallel Karlsruhe
+reinspection withdraws the provisional three-meals reading; other letters stay
+uncertain. The complete following speech adds help/harm dependence on time and
+person. These are source findings, not meanings. Planetary and Schermar controls
+retain Mercury's urinal and outer evangelist wings as nonexclusive alternatives,
+without a combined source program. [Source review](research_registry/proposals/laufenberg_f85r2_20260926/HEAT_SOURCE_ROOT_REVIEW.md).
+IDEA550's whole26-group S authoring is now selected with fixed3seed values,
+explicit participant/guard ownership and an unchanged AFTER rival. Strict
+cessation is an additional premise; no completed reading or test is yet claimed.
+549/557 local frames remain possible but known `ol ol` and `chol chol` block
+their unchanged global rules. [Selection](research_registry/proposals/laufenberg_f85r2_20260926/PIPELINE_NEXT_SELECTION.md).
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
