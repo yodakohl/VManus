@@ -1,0 +1,95 @@
+{
+  "recorded_date": "2026-09-26",
+  "purpose": "Bounded visual transcription of the Karlsruhe elements/complexion passage under the physician rubric through the next red section heading; no Voynich materials accessed.",
+  "sources": {
+    "karlsruhe_platform_91v": {
+      "institution": "Badische Landesbibliothek",
+      "shelfmark": "Cod. K 2790",
+      "platform_label": "91v",
+      "canvas_id": "5967406",
+      "image_url": "https://digital.blb-karlsruhe.de/i3f/v20/5967406/full/2200,/0/default.jpg",
+      "sha256": "21b34cc792b001d0228a9c7fa36b9c8918823e9f581dc8e75446a464ab9eb269",
+      "bytes": 1057117,
+      "dimensions_px": [2200, 2715],
+      "repository_relative_cached_copy": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/karlsruhe_91v_2200.jpg",
+      "provenance": "Official institution-served image rendition, inspected natively. Six short prose lines follow the rubric to the right of the physician, and six lines continue below the image."
+    },
+    "karlsruhe_platform_92r": {
+      "institution": "Badische Landesbibliothek",
+      "shelfmark": "Cod. K 2790",
+      "platform_label": "92r",
+      "canvas_id": "5967407",
+      "image_url": "https://digital.blb-karlsruhe.de/i3f/v20/5967407/full/2200,/0/default.jpg",
+      "sha256": "4d5a7a4fe6c3311f065630e094d9e141619958832775ebd27fd116762a279e05",
+      "bytes": 1131274,
+      "dimensions_px": [2200, 2715],
+      "provenance": "Official institution-served image rendition, inspected natively. Counted 21 prose baselines before the next red rubric, Die erste complexion Sanguinea."
+    },
+    "augsburg_1491_scan_00172": {
+      "institution": "Herzog August Bibliothek Wolfenbüttel",
+      "work": "Regimen sanitatis, 1491, HAB shelfmark 167-9 Poet.",
+      "image_url": "https://diglib.hab.de/inkunabeln/167-9-poet/00172.jpg",
+      "sha256": "c279cb591134efa58b09f2f151f74075e1d16a1744b4ffb50f72c79e203b848a",
+      "bytes": 134140,
+      "dimensions_px": [1024, 1516],
+      "use": "Separate printed witness consulted as a reading/context aid. Its verse after the doctor-and-flask image says the year has four kinds of nature according to its state and that bodies likewise change their natures. It was not used to fill missing Karlsruhe readings."
+    },
+    "augsburg_1491_scan_00176": {
+      "institution": "Herzog August Bibliothek Wolfenbüttel",
+      "work": "Regimen sanitatis, 1491, HAB shelfmark 167-9 Poet.",
+      "image_url": "https://diglib.hab.de/inkunabeln/167-9-poet/00176.jpg",
+      "sha256": "4b9c6b08217537b4ac34cab9666866fa15e7759a011144562de88f2cc3cb924a",
+      "bytes": 151514,
+      "dimensions_px": [1024, 1516],
+      "use": "Separate print witness inspected as parallel context. It explicitly lists bodily materials alongside elements, including water/blood/moisture and earth/flesh/bone. Not used to silently restore Karlsruhe text."
+    },
+    "augsburg_1491_scan_00171": {
+      "institution": "Herzog August Bibliothek Wolfenbüttel",
+      "work": "Regimen sanitatis, 1491, HAB shelfmark 167-9 Poet.",
+      "image_url": "https://diglib.hab.de/inkunabeln/167-9-poet/00171.jpg",
+      "sha256": "8c79d71ee0e1e9a7a0bac01e5d1e913790715fb32422fc235916a41364469773",
+      "bytes": 137472,
+      "dimensions_px": [1024, 1516],
+      "use": "Adjacent preceding scan checked only to locate the same chapter sequence and the transition to the following illustrated passage."
+    },
+    "legacy_pointer": {
+      "experiment": "GDT884",
+      "pointer": "experiments/yolo/gdt884_laufenberg_fixed_passage_equation/artifacts/SOURCE_INTRO.json",
+      "use": "Located the official 1491 HAB scan sequence. The legacy pointer was read-only; its frozen files were not changed."
+    }
+  },
+  "transcription_scope": {
+    "method": "Visual reading from the official institution-served images; no OCR. Original spelling is retained selectively. Square brackets flag uncertain or unreadable letters/words.",
+    "complete_coverage": {
+      "platform_91v": 12,
+      "platform_92r_before_next_red_rubric": 21,
+      "next_red_rubric": "Die erste complexion Sanguinea."
+    },
+    "independently_secure_karlsruhe_fragments": [
+      "mensch[en?]",
+      "natur",
+      "vier",
+      "complexion[?]",
+      "menschlich nature",
+      "elemente[n?]",
+      "Naturen elemente sind",
+      "den vier elementen",
+      "Die erste complexion Sanguinea."
+    ],
+    "tentative_92r_line_1_best_read": "Das wasser blut vñ für hitz[e?]. Erd[e?] fleisch vñ bein; luft …",
+    "correction_history": [
+      {
+        "earlier_draft_reading": "Das wasser blüet am frühling",
+        "status": "withdrawn after native reinspection of the official 2200 px page 92r image",
+        "revised_best_read": "Das wasser blut vñ für hitz[e?]. Erd[e?] fleisch vñ bein; luft …",
+        "reason": "The visible line is an element/body-material sequence; the earlier reading mistook strokes for blüet/am frühling. Do not retain spring/flowering semantics."
+      }
+    ],
+    "limits": [
+      "Not every line supports a complete reading; uncertain and unreadable lines remain marked rather than silently filled.",
+      "The Karlsruhe manuscript's complete element/body list and any season mapping were not established from this bounded reading.",
+      "The Augsburg print is a distinct witness, not a surrogate transcript of the Karlsruhe copy.",
+      "Catalog descriptions are not used as manuscript transcriptions."
+    ]
+  }
+}

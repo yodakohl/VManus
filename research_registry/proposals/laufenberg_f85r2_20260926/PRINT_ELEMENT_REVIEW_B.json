@@ -1,0 +1,75 @@
+{
+  "review_date": "2026-09-26",
+  "review_scope": "Independent visual check of PRINT_ELEMENT_PASSAGE_ROOT.md against the cited official Augsburg scan sequence and the cached Karlsruhe 91v witness image. No Voynich target material accessed.",
+  "source_integrity": {
+    "official_hab_scans_175_178": {
+      "result": "PASS",
+      "checked_files": [
+        {
+          "scan": "00175",
+          "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/augsburg1491_00175.jpg",
+          "sha256_matches_receipt": true
+        },
+        {
+          "scan": "00176",
+          "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/augsburg1491_00176.jpg",
+          "sha256_matches_receipt": true
+        },
+        {
+          "scan": "00177",
+          "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/augsburg1491_00177.jpg",
+          "sha256_matches_receipt": true
+        },
+        {
+          "scan": "00178",
+          "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/augsburg1491_00178.jpg",
+          "sha256_matches_receipt": true
+        }
+      ],
+      "note": "All four images were visually inspected at original resolution. The 00172 scan was independently retrieved from the official HAB URL because it was listed in the source receipt but not present in the local cache; its SHA-256 matches the recorded receipt. Karlsruhe 91v was inspected from the official BLB rendition whose hash is recorded in SOURCE_CLAUSE_RECEIPTS.json."
+    }
+  },
+  "claim_review": [
+    {
+      "claim": "The passage treats people as constituted from all four elements, while allowing one element to predominate and give the person a corresponding complexion/name.",
+      "verdict": "SUPPORTED",
+      "visual_evidence": "00175 rubric says all people are natured according to the four elements and called the four complexions. On 00176, the text says no human is born without the elements mixed in, then says one has more fire, another more water, a third more earth, and a fourth more air. On 00177, it asks which element one takes most from, says one is then named accordingly although one has them all, and describes the strongest inclination in one's complexion.",
+      "importance": "This correctly preserves common membership in all four and distinguishes it from predominance; it does not imply one-element-only human types."
+    },
+    {
+      "claim": "The four body/material correspondences are fire/warmth, water/blood and moisture, earth/flesh and bone, and air/breath.",
+      "verdict": "SUPPORTED_WITH_NORMAL_TRANSCRIPTION_UNCERTAINTY",
+      "visual_evidence": "00176 lines visibly give fire as the source of warmth, water as blood and moisture, earth as flesh and bone, and air carrying breath (printed as a form resembling 'ote').",
+      "importance": "These are the four source correspondences; the review found no reversal or omission that would alter their meaning."
+    },
+    {
+      "claim": "Not everything is wholesome or agreeable for everyone, so regimen should be individualized.",
+      "verdict": "SUPPORTED",
+      "visual_evidence": "00177 says one must learn to nourish oneself with medicine, then states that all things cannot be healthy and agreeable to all; it introduces teaching how to recognize what is healthy for each person.",
+      "importance": "The report correctly describes a person-specific suitability claim, not a universal prescription."
+    },
+    {
+      "claim": "The ending qualifies deterministic constitution by saying nature may be quieted through one's own will, while leaving the exact syntax/scope uncertain.",
+      "verdict": "SUPPORTED_AS_CAUTIOUSLY_STATED",
+      "visual_evidence": "The end of 00177 and top of 00178 visibly read across the page break as 'Vnd mag naturen stillen / mit seinem eygen willen', followed by 'Als ich dir vor auch han geseit / von der zaichen vnderscheit'. The preceding couplet is difficult to parse securely.",
+      "importance": "The will phrase is present. The report appropriately labels the scope uncertain and does not claim the passage cancels the predominance rule or gives a settled doctrine of free will."
+    },
+    {
+      "claim": "The 1491 printed physician image belongs to a seasonal-regimen transition, while Karlsruhe places its physician at the complexion rubric.",
+      "verdict": "SUPPORTED_WITH_WITNESS_AND_SEQUENCE_CAVEAT",
+      "visual_evidence": "HAB 00172 shows a seated doctor raising a flask, with text immediately below about the year having four natures and bodies changing their natures. Scans 00173-00174 continue the regimen/seasonal material; 00175 begins the separate rubric about all people and the four elements/complexions. The cached BLB Karlsruhe platform 91v image shows the flask-holding doctor in the same page context as the red rubric containing readable fragments for human nature and four complexions.",
+      "importance": "The placement distinction is real in these witnesses. It supports caution that the image alone does not pin down one exact accompanying proposition. It does not establish that the witnesses are otherwise identical or that the print is an exemplar."
+    }
+  ],
+  "transcription_caveats": [
+    "The root transcript is a working reading, not a diplomatic or critical edition. Several endings and function words are uncertain, as its brackets indicate.",
+    "At 00175 the tail after 'vier complexion' includes a partially visible 'schö…' at the line end; this is not represented cleanly in the body line transcript. It appears inflectional/descriptive and does not alter the four-element argument.",
+    "At 00176 the transcript's 'stüre' (the element named as having more of it) is a difficult print reading; the following lines enumerate water, earth, and air, and the passage's four-way contrast is visible. Avoid using this one word as standalone lexical proof.",
+    "At 00177-00178 the couplet beginning 'Doch weist es nieman eygent' is not transparently parsed by this review. The report's caution about exact scope is warranted; its bounded statement that the ending permits some counteraction of inclination is plausible from the clear 'dawider leben' and 'mit seinem eygen willen' wording, but should remain qualified."
+  ],
+  "overall_result": "PASS_WITH_MINOR_TRANSCRIPTION_CAVEATS",
+  "scope_limits": [
+    "This review verifies the historical source reading and witness placement only.",
+    "It provides no Voynich word assignment, source-identification proof, or semantic confirmation."
+  ]
+}
