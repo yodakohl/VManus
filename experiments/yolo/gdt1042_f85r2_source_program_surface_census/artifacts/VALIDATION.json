@@ -1,0 +1,265 @@
+{
+  "experiment": "GDT1042",
+  "status": "PASS_INDEPENDENT_REPLAY",
+  "method_sha256": "f000b1524f1fa3c9d522cdc030cabaee3855ac5be085af6cc5500e7c0a84baf8",
+  "guarded_projection_sha256": "489c3960116c88f76de39187eef3d2f9d3dd68d3c2e514f54abe7a2294d185e9",
+  "guarded_query": "./vmanus-exp query-tsv experiments/semantic_assumptions/results/source_separator_transcription.tsv --selector page --allow f85r2 --columns source_group_id,edition,locus,page,source_group_index,source_group_count,paragraph_start,paragraph_end,left_separator,right_separator,ivtff_group_raw",
+  "guard_stats": {
+    "selected": 473,
+    "skipped_forbidden": 2122,
+    "skipped_not_allowed": 112875
+  },
+  "projection_rows": 473,
+  "unique_source_group_ids": 473,
+  "complete_line_instances": 72,
+  "spatial_line_instances": 66,
+  "outside_line_instances": 6,
+  "line_index_completeness": "Every edition/locus group index is exactly 1..declared source_group_count.",
+  "independent_distance_algorithm": "Unit-cost Levenshtein dynamic program with insertion, deletion, and substitution only; every unordered pair of distinct clean ASCII-letter whole forms was enumerated.",
+  "tables": {
+    "native_groups.tsv": {
+      "rows": 473,
+      "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+      "exact_rows": true
+    },
+    "block_counts.tsv": {
+      "rows": 15,
+      "sha256": "0194ae8b89e69cb057c71702649fc23555182720b71f5e8c48c234e9035b7003",
+      "exact_rows": true
+    },
+    "repeated_forms.tsv": {
+      "rows": 38,
+      "sha256": "0af26c60faae65f8b4e96d0d622e1b78f0a31edd6212c3589dc03edaa3b9018c",
+      "exact_rows": true
+    },
+    "block_intersections.tsv": {
+      "rows": 51,
+      "sha256": "bb71f10fb3936e2e5755bbefd38019870c9219f2522a3141a1dc608859e9810c",
+      "exact_rows": true
+    },
+    "repeated_ngrams.tsv": {
+      "rows": 3,
+      "sha256": "0c40a79e12010b2afc56ac84e3e1e9d9c62609f5fd8ce962defa583202c5d258",
+      "exact_rows": true
+    },
+    "literal_edit1_pairs.tsv": {
+      "rows": 120,
+      "sha256": "e78af311dd6121546c97751e050c0025391aa6086e087fdee6f985d5557a6225",
+      "exact_rows": true
+    },
+    "line_first_last.tsv": {
+      "rows": 72,
+      "sha256": "5f17776a2027e90f7228796af32c4ff0db0a4a414f78a45e38f4b06de0377f47",
+      "exact_rows": true
+    }
+  },
+  "all_six_block_pair_intersections_per_reader": [
+    {
+      "edition": "ZL3b",
+      "block_a": "N",
+      "block_b": "E",
+      "shared_forms": [
+        "aiin",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "block_a": "N",
+      "block_b": "S",
+      "shared_forms": [
+        "aiin",
+        "or"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "block_a": "N",
+      "block_b": "W",
+      "shared_forms": [
+        "aiin",
+        "chol",
+        "or"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "block_a": "E",
+      "block_b": "S",
+      "shared_forms": [
+        "aiin",
+        "oteey"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "block_a": "E",
+      "block_b": "W",
+      "shared_forms": [
+        "aiin",
+        "ol"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "block_a": "S",
+      "block_b": "W",
+      "shared_forms": [
+        "aiin",
+        "ain",
+        "chedy",
+        "or",
+        "qodaiin",
+        "shedy"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "block_a": "N",
+      "block_b": "E",
+      "shared_forms": [
+        "aiin",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "block_a": "N",
+      "block_b": "S",
+      "shared_forms": [
+        "aiin",
+        "or"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "block_a": "N",
+      "block_b": "W",
+      "shared_forms": [
+        "aiin",
+        "chol",
+        "or"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "block_a": "E",
+      "block_b": "S",
+      "shared_forms": [
+        "aiin",
+        "oteey"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "block_a": "E",
+      "block_b": "W",
+      "shared_forms": [
+        "aiin",
+        "ol"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "block_a": "S",
+      "block_b": "W",
+      "shared_forms": [
+        "aiin",
+        "ain",
+        "chedy",
+        "or",
+        "qodain",
+        "shedy"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "block_a": "N",
+      "block_b": "E",
+      "shared_forms": [
+        "aiin",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "block_a": "N",
+      "block_b": "S",
+      "shared_forms": [
+        "aiin",
+        "or"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "block_a": "N",
+      "block_b": "W",
+      "shared_forms": [
+        "aiin",
+        "chol",
+        "or"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "block_a": "E",
+      "block_b": "S",
+      "shared_forms": [
+        "aiin",
+        "oteey"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "block_a": "E",
+      "block_b": "W",
+      "shared_forms": [
+        "aiin",
+        "ol"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "block_a": "S",
+      "block_b": "W",
+      "shared_forms": [
+        "aiin",
+        "ain",
+        "chedy",
+        "or",
+        "qodaiin",
+        "{ch'}edy"
+      ]
+    }
+  ],
+  "edit1_diagnostics": {
+    "ZL3b": {
+      "spatial_group_occurrences": 108,
+      "distinct_surface_forms": 85,
+      "clean_ascii_letter_forms": 81,
+      "excluded_nonclean_distinct_forms": 4,
+      "excluded_nonclean_occurrences": 4,
+      "candidate_unordered_clean_form_pairs": 3240,
+      "distance_one_pairs": 45
+    },
+    "IT2a": {
+      "spatial_group_occurrences": 107,
+      "distinct_surface_forms": 86,
+      "clean_ascii_letter_forms": 85,
+      "excluded_nonclean_distinct_forms": 1,
+      "excluded_nonclean_occurrences": 1,
+      "candidate_unordered_clean_form_pairs": 3570,
+      "distance_one_pairs": 43
+    },
+    "RF1b": {
+      "spatial_group_occurrences": 109,
+      "distinct_surface_forms": 88,
+      "clean_ascii_letter_forms": 74,
+      "excluded_nonclean_distinct_forms": 14,
+      "excluded_nonclean_occurrences": 15,
+      "candidate_unordered_clean_form_pairs": 2701,
+      "distance_one_pairs": 32
+    }
+  },
+  "limitations": "Descriptive surface replay only; no semantic interpretation or independence claim. ZL3b, IT2a, and RF1b are alternate readings of one manuscript."
+}

@@ -8482,6 +8482,28 @@ meaning, plaintext, or translation follows.
 
 ### f85r2 and the Laufenberg medical-regimen image program
 
+**2026-09-26 source qualification:** Fresh native inspection of Karlsruhe
+Cod.K2790 platform91r distinguishes an explicitly rubricated **Autumn** figure
+with one support and hanging beads from a separate **Winter** figure with two
+supports. Spring on90r has both a flower and pointing gesture. The historical
+exclusive Winter/old-age binding below is therefore not retained as an
+identified target role; Herbst/Winter and seasonal versus introductory roles
+remain unresolved. The source physician is platform91v/canvas5967406; catalog
+92v is a disclosed foliation discrepancy. TübingenMd2 **43r** has four outer
+winged wind heads, distinct from the twelve-wind13v and season/age23r diagrams.
+These are source comparisons, not Voynich object identities. See
+[source audit](research_registry/proposals/laufenberg_f85r2_20260926/REPORT.md).
+
+GDT1042 inventories all four exposed spatial blocks without semantic labels:
+108/107/109 native groups in ZL/IT/RF; only aiin is shared across all four;
+or aiin is a repeated bigram in ZL/RF with reader/spacing differences, not IT.
+No repeated trigram and no meaning binding. All tables and limits are in
+[GDT1042](experiments/yolo/gdt1042_f85r2_source_program_surface_census/REPORT.md).
+No new Voynich image or reserve was opened. GDT884's exact crib exclusion and
+the historical F85B001 nonconfirmation remain unchanged; source-role ambiguity
+does not retroactively rescue either fixed test. The following dated prior
+interpretation is retained as history, subject to this qualification.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a

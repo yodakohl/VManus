@@ -1,15 +1,15 @@
 # Voynich current route
-Updated: 2026-09-22. This is the sole live resume point; replace, never append history.
+Updated: 2026-09-26. This is the sole live resume point; replace, never append history.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: Four-hour content research; 2026-09-22 16:21:07–20:21:07UTC minimum.
-Latest decision: 529/527closed published;1041fixed91whole-unit census registering;525ZLdraft active.
-Working files: experiments/yolo/gdt1041_music91_complete_lexical_capacity/DECISION.md
-Assumptions: 91music values fixed/hypothetical;525ZL14newcap/IT15gap;producer incident excluded;0words.
-Resume: Publish/execute1041by18:48;525fullZLdraftby18:55;powderall-parse offerby18:51.
-Running: Root1041; independentvalidator;525author;powdergrammar producer. Minimum end20:21:07UTC.
+Status: checkpoint
+Task: Completed f85r2/Laufenberg source comparison and complete exposed spatial text inventory.
+Latest decision: 1042 independent replay PASS; Herbst staff+beads defeats exclusive Winter binding.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/REPORT.md (links1042tables).
+Assumptions: Source analogy only; no new targetimage; prior884/f57 failures unchanged;0words.
+Resume: Retain source analogy; meaning followup needs a discriminating source/target construction.
+Running: none.1041executed/unpublished;525draft/powder parked; no old timer running.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
