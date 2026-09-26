@@ -8600,6 +8600,23 @@ Cava's full-leaf follow-up failed before pixels; no new attribute absence is
 claimed. Source-level help/harm and constructor proposals still lack new written
 target ownership.562's hidden-condition stirring is retained raw, not selected.
 
+
+**2026-09-26 further content distinction:** Egerton2572 51v has now been viewed
+separately: four humoral rubrics, three purses, one supported figure and shared
+banners. Its text gives a collective definition, not four first-person speeches;
+exact sentence count and some words remain unresolved. The source's physical
+recto/verso linkage is scholarly, not verified by the low-resolution mark.
+This offers a distributed-explanation alternative without a Voynich order or
+owner assignment. [Native follow-up](research_registry/proposals/laufenberg_f85r2_20260926/EGERTON_VERSO_ROOT_REVIEW.md),
+[banner ownership](research_registry/proposals/laufenberg_f85r2_20260926/EGERTON_SENTENCE_OWNERSHIP.md).
+550's separate typed descendant keeps24senses/26groups and now declares the
+reference/event/endpoint rules. Both temporal readings have abstract witnesses;
+only an extra source-stage bridge rejects AFTER adhesion. A later counterworld
+clarification adds intensional roles and keeps PREVENTS primitive. Retain a
+whole conditional S reading, not a chosen temporal word or global parser.
+Original550 decision,52outside positions, IT2/RF3 gaps and0words stay intact.
+[Typed review](research_registry/proposals/laufenberg_f85r2_20260926/UNTIL_S_TYPED_ROOT_REVIEW.md).
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a

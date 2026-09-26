@@ -1,0 +1,336 @@
+{
+  "schema": "bounded-native-source-audit-v1",
+  "task": "EGERTON_VERSO",
+  "date": "2026-09-26",
+  "status": "NATIVE_COMPOSITION_AUDITED__INSCRIPTION_TRANSCRIPTION_PARTIAL",
+  "started_utc": "2026-09-26 21:27:04 UTC",
+  "deadline_utc": "2026-09-26 22:12:04 UTC",
+  "frozen_utc": "2026-09-26 21:38:12 UTC",
+  "scope": {
+    "manuscript": "British Library Egerton2572",
+    "folio": "51v",
+    "max_access_paths": 3,
+    "access_paths_used": 3,
+    "new_leaf_images": 1,
+    "original_image_fetches": 1,
+    "new_recto_image_fetches": 0,
+    "new_target_queries": 0,
+    "new_target_images": 0,
+    "reserve_access": 0,
+    "contacts": 0,
+    "registry_state_git_mutations": 0,
+    "confirmed_meanings_added": 0
+  },
+  "prereads": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "./vmanus-work context topic pictures",
+    "./vmanus-work ideas search Egerton temperaments four humours",
+    "./vmanus-exp route-check Egerton temperaments four humours",
+    "./vmanus-work ideas search Egerton2572",
+    "targeted primary lookup in COMPOSITE_SOURCE_SEARCH_REPORT.md and RECEIPTS.json"
+  ],
+  "access_paths": [
+    {
+      "order": 1,
+      "record_url": "https://www.wga.hu/html/zgothic/miniatur/1451-500/4other/25_1451.html",
+      "metadata": "Browser text uniquely identifies Egerton2572 f51v. Ordinary urllib HTML retrieval HTTP403.",
+      "image_attempts": 0,
+      "outcome": "NO_DIRECT_IMAGE_LINK_OBTAINED; no guessing of image endpoint"
+    },
+    {
+      "order": 2,
+      "record_url": "https://www.cambridge.org/core/books/abs/guild-book-of-the-barbers-and-surgeons-of-york-british-library-egerton-ms-2572/plate-section/DC5D908DCB7F644489A34FA0686C88EA",
+      "doi": "10.1017/9781800102729.008",
+      "metadata": "Public plate-section description. Only first-page preview and Get access; retained list identifies chosen f51v as plate14/p173, while first page is plate1/f48r.",
+      "image_attempts": 0,
+      "outcome": "CHOSEN_PLATE_NOT_OPENLY_ACCESSED; no wrong-leaf preview or access workaround"
+    },
+    {
+      "order": 3,
+      "record_url": "https://www.alamy.com/the-four-humours-guild-book-of-the-barber-surgeons-of-york-york-1486-with-additions-to-1768-whole-folio-four-male-figures-representing-the-four-humours-melancholic-man-sanguine-man-phlegmatic-man-and-choleric-man-with-the-head-of-christ-at-the-centre-image-taken-from-guild-book-of-the-barber-surgeons-of-york-originally-publishedproduced-in-york-1486-with-additions-to-1768-source-egerton-2572-f51v-language-english-and-latin-image226908290.html",
+      "image_id": "R54FRE",
+      "credit": "Album / British Library",
+      "metadata": "Exactf51v and whole-folio description. Browser refetch429; ordinary HTML retrieval succeeded and supplied public og:image.",
+      "metadata_cache": "external_cache/egerton_verso_alamy_record.html",
+      "metadata_sha256": "5f8669b97532c6b03159dbff408495bf13ac94acc7a16494c7f67193a3ed4c21",
+      "image_url": "https://c7.alamy.com/comp/R54FRE/the-four-humours-guild-book-of-the-barber-surgeons-of-york-york-1486-with-additions-to-1768-whole-folio-four-male-figures-representing-the-four-humours-melancholic-man-sanguine-man-phlegmatic-man-and-choleric-man-with-the-head-of-christ-at-the-centre-image-taken-from-guild-book-of-the-barber-surgeons-of-york-originally-publishedproduced-in-york-1486-with-additions-to-1768-source-egerton-2572-f51v-language-english-and-latin-R54FRE.jpg",
+      "image_attempts": 1,
+      "outcome": "SUCCESS_PUBLIC_WATERMARKED_PREVIEW"
+    }
+  ],
+  "image": {
+    "path": "external_cache/egerton_verso_51v_alamy_R54FRE.jpg",
+    "sha256": "2b034fbb082f504b393860ad0ccff91f9116ef58bfce79c2fb91a054b2c10601",
+    "bytes": 208101,
+    "dimensions": [
+      917,
+      1390
+    ],
+    "native_view_clock_utc": "2026-09-26 21:29:42 UTC",
+    "coverage": "All four figures, centre and banners visible; rightmost rubric clipped; no guarantee of complete parchment margins; bottom agency credit band.",
+    "attribution_cross_checks": [
+      "Boxer2021 figure1.21 explicitly Egerton2572 f51v",
+      "Wragg2021 plate14 explicitly Egerton2572 f51v",
+      "WGA exactfolio metadata",
+      "Alamy institution-credit exactfolio metadata"
+    ],
+    "limits": [
+      "watermarks over faces/arms/text",
+      "some exact letterforms and abbreviations unresolved",
+      "mechanical linkage not verified by tiny mark",
+      "no OCR or generative manipulation"
+    ]
+  },
+  "derived_views": [
+    {
+      "name": "crop_upper_left",
+      "box": [
+        35,
+        40,
+        487,
+        704
+      ],
+      "rotation": 0,
+      "pixel_repeat": 1,
+      "path": "external_cache/egerton_verso_crop_upper_left.png",
+      "sha256": "c7a16ce27c27d4604711745ccfd598fd965ef5910a79c2e9dc6335228383fefd"
+    },
+    {
+      "name": "crop_upper_right",
+      "box": [
+        480,
+        38,
+        917,
+        709
+      ],
+      "rotation": 0,
+      "pixel_repeat": 1,
+      "path": "external_cache/egerton_verso_crop_upper_right.png",
+      "sha256": "4d6e6a55eb7c296511e4ce55aa292bb964751fed5532e119cdd11802c21427ae"
+    },
+    {
+      "name": "crop_lower_left",
+      "box": [
+        30,
+        638,
+        459,
+        1288
+      ],
+      "rotation": 0,
+      "pixel_repeat": 1,
+      "path": "external_cache/egerton_verso_crop_lower_left.png",
+      "sha256": "c890d99994c11854220fff9fdbe38add734e08e06dacee9c34c245c622ff310d"
+    },
+    {
+      "name": "crop_lower_right",
+      "box": [
+        374,
+        628,
+        906,
+        1288
+      ],
+      "rotation": 0,
+      "pixel_repeat": 1,
+      "path": "external_cache/egerton_verso_crop_lower_right.png",
+      "sha256": "1bedb9ed8fda5a5ea432c489e457a7082c54300df30795d034eca499e1a365a8"
+    },
+    {
+      "name": "detail_labels_top",
+      "box": [
+        30,
+        38,
+        917,
+        111
+      ],
+      "rotation": 0,
+      "pixel_repeat": 2,
+      "path": "external_cache/egerton_verso_detail_labels_top.png",
+      "sha256": "d972c40b403054dd6b153eab43c2f6e8e1065b39ea62543851918fb07089376f"
+    },
+    {
+      "name": "detail_label_lower_left",
+      "box": [
+        34,
+        702,
+        173,
+        758
+      ],
+      "rotation": 0,
+      "pixel_repeat": 2,
+      "path": "external_cache/egerton_verso_detail_label_lower_left.png",
+      "sha256": "aec30c0600a88867a4ee881535ace9619c3987fb19fa1bc2be79ca7e8fe2c42f"
+    },
+    {
+      "name": "detail_label_lower_right",
+      "box": [
+        757,
+        709,
+        889,
+        772
+      ],
+      "rotation": 0,
+      "pixel_repeat": 2,
+      "path": "external_cache/egerton_verso_detail_label_lower_right.png",
+      "sha256": "93e901ea7251839a3f279fb3bd4f45431466e404499da75c8f8e906ddbb8f062"
+    },
+    {
+      "name": "detail_upper_right_scroll",
+      "box": [
+        472,
+        43,
+        650,
+        644
+      ],
+      "rotation": 90,
+      "pixel_repeat": 2,
+      "path": "external_cache/egerton_verso_detail_upper_right_scroll.png",
+      "sha256": "99d687548de5def6cee44469bb408ef9cbbc2bbb2026c29f5dad087204f07c9c"
+    },
+    {
+      "name": "detail_lower_left_scroll",
+      "box": [
+        260,
+        621,
+        459,
+        1260
+      ],
+      "rotation": 90,
+      "pixel_repeat": 2,
+      "path": "external_cache/egerton_verso_detail_lower_left_scroll.png",
+      "sha256": "0dde3d49b9620c86d7dd1febeb32bc014b53ff411963e4397b0f38264a18250e"
+    },
+    {
+      "name": "detail_lower_right_scroll",
+      "box": [
+        374,
+        628,
+        653,
+        1130
+      ],
+      "rotation": 90,
+      "pixel_repeat": 2,
+      "path": "external_cache/egerton_verso_detail_lower_right_scroll.png",
+      "sha256": "d7c1d0db7d902c2cd2114c043a15f5df8980dc2a65494072558a023d9ce8c15c"
+    },
+    {
+      "name": "detail_lower_left_scroll_upright",
+      "box": [
+        260,
+        621,
+        459,
+        1260
+      ],
+      "rotation": 270,
+      "pixel_repeat": 2,
+      "path": "external_cache/egerton_verso_detail_lower_left_scroll_upright.png",
+      "sha256": "b5b939ffbd6dbacd5564f72d6fe88cef1ee567d953de2b67514e77d8b817cab9"
+    },
+    {
+      "name": "detail_lower_right_scroll_upright",
+      "box": [
+        374,
+        628,
+        653,
+        1130
+      ],
+      "rotation": 270,
+      "pixel_repeat": 2,
+      "path": "external_cache/egerton_verso_detail_lower_right_scroll_upright.png",
+      "sha256": "20066cc7b66a9d78a0db1b27bb5e92394797dd6365edb876ea1ad257ede9e87e"
+    },
+    {
+      "name": "detail_lr_hands",
+      "box": [
+        543,
+        746,
+        843,
+        1039
+      ],
+      "rotation": 0,
+      "pixel_repeat": 3,
+      "path": "external_cache/egerton_verso_detail_lr_hands.png",
+      "sha256": "45d213e42f132e84764897002a017b6d56cd16141101e042818aab810b4340dc"
+    },
+    {
+      "name": "detail_ur_purse",
+      "box": [
+        626,
+        267,
+        815,
+        416
+      ],
+      "rotation": 0,
+      "pixel_repeat": 3,
+      "path": "external_cache/egerton_verso_detail_ur_purse.png",
+      "sha256": "1d2fd1c718ceed0175f74d586e7e108137e77c01d88069b6685ca6fce71dc076"
+    },
+    {
+      "name": "detail_ul_label",
+      "box": [
+        34,
+        56,
+        190,
+        105
+      ],
+      "rotation": 0,
+      "pixel_repeat": 3,
+      "path": "external_cache/egerton_verso_detail_ul_label.png",
+      "sha256": "ab34ec3189a1bb342ea4a355f42119066be32f34b25158509ebd26561e6c4f81"
+    },
+    {
+      "name": "detail_centre",
+      "box": [
+        360,
+        495,
+        554,
+        758
+      ],
+      "rotation": 0,
+      "pixel_repeat": 3,
+      "path": "external_cache/egerton_verso_detail_centre.png",
+      "sha256": "b6bd90f37435c15f47a8b017d1f28e75ab792b6dfd0dc9d5e982aee80a017154"
+    }
+  ],
+  "text_units_accounted": [
+    "upper-left rubric",
+    "upper-right rubric, clipped",
+    "lower-left rubric",
+    "lower-right rubric",
+    "upper-left banner complete with provisional letterforms",
+    "upper-right banner including folded final ns",
+    "lower-left banner including unresolved final word",
+    "lower-right banner including uncertain initial pronoun, verb and final abbreviation",
+    "centre checked: no separate verbal inscription found"
+  ],
+  "native_findings": [
+    "Three differentiated purse-like objects across upper-left, upper-right and lower-right figures.",
+    "Lower-right figure has one covered hand at staff and other near face; do not repeat scholarly plural hands-on-cane unqualified.",
+    "Three figures directly engage banners; lower-right banner loops at staff without a visible hand grasp.",
+    "Readable banners name humours and complexions and refer to four elements; no readable seasonal or age labels newly established.",
+    "Central nimbus is not the recto volvelle; no verso urine flask, medicine box, sickbed or separately held flower identified."
+  ],
+  "scholarly_limits": {
+    "Boxer_p89_to_opening_p91": "Original humoral-figures discussion read completely through change of argument; native check not blind. Uncertain hus and row-order/clockwise tension retained.",
+    "Boxer_p261_262": "Complete Egerton paragraph sequence read. Physical volvelle matrix linkage through Christ hair part and theological interpretation recorded as scholarly, not independently native-confirmed.",
+    "Harrold_p150_n408": "Retained predecessor attribution concerns recto Cosmas/Damian only.",
+    "Wragg": "Cached introduction/list and public appendix/plate metadata only; no claim to have read inaccessible complete chapter/edition."
+  },
+  "input_hashes": {
+    "external_cache/composite_boxer_thesis.pdf": "03d93adfcd8b80e2456218b90fa537bd9b5cdfae860f26e2c7847fd8ff53aeb1",
+    "external_cache/composite_boxer_thesis.txt": "08d87575e153e581984f222fd98c689e8ee37c5e0d4beec8c7285b4b44ffff5a",
+    "external_cache/composite_harrold_thesis.pdf": "8f5d9d80fae2695602e5821d8bf1c5a0e4ab8b206d6c6c80afabbc6f0c764380",
+    "external_cache/composite_wragg_preview.pdf": "176ed9000155c4c4f0f7d8be0cf1cac1b1e7f09593d7b46c364893c9b9ec1614",
+    "external_cache/composite_wragg_preview.txt": "2d1713cfb9d7280cf13e3e39be3256d933dbe627573dd9bce111c9f1e6fee54f"
+  },
+  "predecessor_hashes": {
+    "COMPOSITE_SOURCE_SEARCH_DECISION.md": "27904aaeb8247b550f141e76ddb343a168826208a6bbe68e4812091564e265b9",
+    "COMPOSITE_SOURCE_SEARCH_REPORT.md": "930649ede1f26875fbc43c84a4ece6f5ed4ee01bc599ee7e4e8c0892744faab0",
+    "COMPOSITE_SOURCE_SEARCH_RECEIPTS.json": "0a9726550346bfef0fd256971dde0325d811332703bde1c5c087ef1ceec0c6b9"
+  },
+  "packet_hashes_excluding_receipt": {
+    "EGERTON_VERSO_DECISION.md": "a96efce8f92a44fce86c28992a87b7b7677c07ab63758f7020743f2c387b5f87",
+    "EGERTON_VERSO_REPORT.md": "f0cea126f54b56c5c2158dd9c551c276fb3587e4cfb7e41579ab58a36f75bd70"
+  },
+  "publish_policy": "Only EGERTON_VERSO_DECISION.md, REPORT.md and RECEIPTS.json. All external_cache files, including agency preview and crops, remain local; do not publish modern PDFs or credited images.",
+  "freeze_convention": "Receipt hashes decision/report, source image, derivatives and retained input bytes; receipt SHA256 emitted after serialization."
+}

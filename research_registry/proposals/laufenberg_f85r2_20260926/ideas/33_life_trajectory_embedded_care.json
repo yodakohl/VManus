@@ -1,0 +1,143 @@
+{
+  "title": "RAW a life trajectory embeds a medical episode without turning the physician into a life stage",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. Arundel83II126v motivates an entire-program graph: one explicitly bound life subject passes through age/dependency and illness episodes, with a distinct physician acting inside the illness episode. The model predicts cross-episode identity and event nesting, not four figure names. No target meanings or reference chains are assigned; Egerton2572 provides a serious attribute-only countermodel.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-26",
+    "author_role": "bounded independent idea producer; root owns selection",
+    "mechanism": "An explicit trajectory binder supplies one subject to separate stage episodes; a nested care episode introduces a second person as physician without rebinding the trajectory subject. A stage transition changes the subject's episode, not its identity. This is a proposed discourse architecture, not a decoded operator or an automatic visual anaphor.",
+    "unit": "All already owned f85r2.1-24, with four complete blocks N.2-6, E.7-11, S.12-17, W.18-23 and the two complete outside loci .1/.24. The latter are not newly declared native paragraphs. No position is assigned a stage in this RAW, no rotation/permutation is searched, and no target image is inspected.",
+    "contrast": "R_TRAJECTORY preserves a written subject across age and illness episodes. R_EXEMPLARS represents different persons at different ages, each with its own locally owned event. R_SAINT_ATTRIBUTE treats a named vessel bearer as a saintly owner beside an instrument, not as an event involving a patient's specimen. These are separate serious alternatives, not arity-violating translations.",
+    "prediction": "Only after explicit bindings are authored, the trajectory identifies the person dependent in one episode with the patient visited in a later one, while the visiting physician remains a distinct participant. If the account also states a terminal episode for that trajectory subject, its patient is the person to whom terminality applies. Neither an independent-exemplar account nor saint-plus-instrument ownership alone entails those cross-episode consequences.",
+    "source_program": {
+      "manuscript": "British Library Arundel83 II f126v, De Lisle Psalter prefatory program, catalogued c1310-c1339",
+      "whole_unit": "The complete visible ten-scene wheel and its four outer figures in the already inspected 666x693 reproduction. The reproduction crops outer content; the full leaf inscriptions are not transcribed. This proposal does not claim a complete textual edition of the source.",
+      "source_report": "research_registry/proposals/laufenberg_f85r2_20260926/COMPOSITE_SOURCE_SEARCH_REPORT.md",
+      "root_review": "research_registry/proposals/laufenberg_f85r2_20260926/COMPOSITE_SOURCE_ROOT_REVIEW.md",
+      "attested_program": [
+        "A ten-age wheel includes supports, a smaller assisting figure, a sickbed scene with a physician and raised vessel, and a tomb; they are distinct scenes within one pictured program.",
+        "The scholarly source identifies the physician's urine examination in the eighth episode. This is stronger than an isolated flask attribute, but does not supply a diagnosis, remedy, prognosis or cure.",
+        "The centre is a bearded human head, not an established Sun. Four outer figures and their partly cropped labels remain unaudited. The separately catalogued spheres table f123v is not part of this leaf."
+      ],
+      "new_model_assumptions": [
+        "One generic person's life trajectory rather than independent age exemplars is chosen for the exploratory model. The source program motivates this, but literal identity of every pictured human is not established by the report.",
+        "At least an age/dependency episode and an illness episode share the trajectory subject. Exact numerical ages, a ten-entry Voynich list and a complete target order are not inferred from the source count.",
+        "If a terminal episode is eventually authored, it applies to the same trajectory subject. The source does not license death caused by the examination or failed treatment, a death-time interval, or reincarnation from circular layout.",
+        "Specimen ownership, if asserted, needs a further explicit written patient-to-specimen relation. A physician holding a vessel does not itself establish its contents' origin."
+      ],
+      "full_program_debt": "The child/adult, mounted and crowned scenes, remaining scenes, central figure, outer figures and inscriptions cannot be silently dropped from any future claim to explain the whole source. Their exact proposition content is not supplied by this RAW. The source's ten-stage program must not be compressed into four target titles and then called an exact correspondence.",
+      "links": [
+        "https://searcharchives.bl.uk/catalog/041-002405144",
+        "https://era.ed.ac.uk/server/api/core/bitstreams/8f425cda-3361-4cfd-b2dc-ee0c32016e31/content"
+      ],
+      "native_status": "Source report and informed root follow-up had viewed the reproduction. This producer task reread those reports only, not pixels or a newly fetched primary. Smith thesis printedp34/figure1p36 attribution is inherited from the source report and kept distinct from a fresh transcription."
+    },
+    "finite_relational_contract": {
+      "sorts": ["Person", "LifeTrajectory", "Episode", "Time", "Vessel"],
+      "relations": {
+        "SUBJECT": "LifeTrajectory x Person -> Proposition",
+        "PART": "Episode x LifeTrajectory -> Proposition",
+        "AT": "Episode x Time -> Proposition",
+        "BEFORE": "Time x Time -> Proposition",
+        "BEARER": "Episode x Person -> Proposition",
+        "VISITS": "Person x Person x Episode -> Proposition",
+        "EXAMINES": "Person x Vessel x Episode -> Proposition"
+      },
+      "law": "For the two explicitly marked stage episodes eA and eI only: SUBJECT(l,p) and PART(eA,l) and PART(eI,l) require BEARER(eA,p) and BEARER(eI,p). With AT(eA,tA), AT(eI,tI), BEFORE(tA,tI), VISITS(d,p,eI), EXAMINES(d,v,eI), and d != p, the later visit is to the earlier stage bearer, while the physician is a separate participant. PART alone is not a universal rule making every person in every nested scene the life subject.",
+      "minimal_case": "p is the older/dependent bearer at eA. At eI the same p is the sickbed patient; d visits p and examines vessel v. No conclusion about v's owner or p's recovery follows. A later explicitly stated terminal episode would be a further proposition about p, not a consequence of EXAMINES.",
+      "not_a_semantic_execution": "These formulas specify desired content and argument obligations. They are not parsed from Voynich tokens and no truth table, solver or interpreter is built."
+    },
+    "written_ownership_obligations": [
+      "Introduce trajectory l and subject p, with a written binder or a fully declared lexical reference construction. A repeated generic noun alone does not identify a physical individual.",
+      "Give two whole episodes their own written content and scope; explicitly bind eA/eI to l and the episode bearers to p. A paragraph boundary cannot manufacture a new time or restore an old subject.",
+      "Introduce physician d and patient p distinctly in the complete care passage. The same person-reference mechanism must allow p to remain the stage bearer while d owns the examination action.",
+      "Bind the examined vessel v to d's action; add specimen-to-patient ownership only if actually written. Do not insert an invisible urinalysis inference or treatment.",
+      "Supply the written temporal relation if BEFORE is claimed. Circular placement alone licenses neither event chronology nor a reset.",
+      "If a peripheral locus is assigned the trajectory frame, bind its actual expressions to at least two whole stage episodes. Neither a nearby ring nor an isolated noun supplies that scope.",
+      "Every remaining group and uncertain separation in every reader remains owed; alternatives cannot be normalized to obtain the preferred role split."
+    ],
+    "target_binding_status": {
+      "source_of_counts": "Existing GDT1042 census and previously read RAW cards; no new target query in this task.",
+      "groups_ZL_IT_RF_four_blocks": [108,107,109],
+      "groups_ZL_IT_RF_all24_loci": [156,157,160],
+      "types_ZL_IT_RF_all24_loci": [115,115,123],
+      "assigned_values": 0,
+      "assigned_positions": 0,
+      "bound_persons_episodes_times": 0,
+      "all_types_unassigned": true,
+      "already_known_reuse_obligations": [
+        "aiin occurs in all four blocks: it would need one denotation, but is not assigned PERSON, PATIENT or pronoun here.",
+        "oteey recurs in E/S; chol recurs in N/W; neither receives an event/identity meaning from that incidence.",
+        "okees at W.18 and outside.24 and otchedy outside.1/E remain possible frame/body obligations, not demonstrated cross-references."
+      ],
+      "selection_cost": "No target allocation has been chosen. Choosing which complete units express which episodes, and which outside locus supplies any frame, would be additional explicit authoring decisions. No permutation search or post-fit preferred alignment is authorized by this card."
+    },
+    "freedom_accounting": {
+      "new_whole_form_values": 0,
+      "new_target_constructor_values": 0,
+      "semantic_sorts": 5,
+      "semantic_relation_symbols": 7,
+      "minimum_distinct_referents": "Two persons p/d, one trajectory l, two episodes eA/eI, two times tA/tI, one vessel v: eight variables, all presently unbound.",
+      "additional_constraints": "One same-subject trajectory choice, one episode ordering and one doctor/patient inequality. These are model costs, not three observed manuscript facts.",
+      "grammar_cost": "At least trajectory introduction, episode scope, and role/reference binding must be explicitly authored. Their number of productions and word values is not known; this is not a low-degree fully bound model. The seven relations specify only linking structure: age, dependence, illness and any terminal predicates are additional unbound content obligations, not secretly counted inside PART or BEARER.",
+      "independent_semantic_capacity": 0
+    },
+    "rivals_and_real_consequences": [
+      {
+        "name": "R_EXEMPLARS",
+        "contract": "Different stage episodes have different designated persons pA and pI. The local physician and sickbed relation stays intact. This is a legitimate typological cycle, not a malformed narrative.",
+        "difference": "An explicit patient reference to the earlier age/dependency subject conflicts with this restricted distinct-person contract. A generic age or patient word does not. A broader typological model allowing one person as an example can coexist with the trajectory; no unique win is claimed without written identity/exclusion."
+      },
+      {
+        "name": "R_SAINT_ATTRIBUTE",
+        "contract": "Named holy persons own identifying objects around a calendar/astronomical instrument, as on Egerton2572 f51r. A vessel bearer need not introduce a patient or procedural observation.",
+        "difference": "A completed passage explicitly relating a distinct examiner to a patient's specimen or visit would add event content that attribute ownership alone does not entail. A saint can also be a physician and act in a narrative, so the two categories are not intrinsically disjoint. Names alone cannot reject the narrative, and a flask alone cannot reject the saintly program."
+      },
+      {
+        "name": "R_PATIENT_RESET",
+        "contract": "The care passage introduces a new patient, while another person owns the earlier dependent-age episode; both remain ordinary medical content.",
+        "difference": "The same explicit discourse binder carried through both whole passages would change whose earlier state and later outcome are being asserted. Without that binder, both remain available; no hidden continuity default is permitted."
+      }
+    ],
+    "predecessors": [
+      {"id":"IDEA000531","finding":"The year/life analogy already separates two domains. This proposal instead nests an additional agent's action inside one subject's trajectory; no annual correspondence is required or inherited."},
+      {"id":"IDEA000533","finding":"The diagnostic account already requires examiner, specimen and patient. New obligation is cross-episode life-subject continuity plus nested agent distinction, not another color-to-disease rule. The old missing specimen/target bindings remain."},
+      {"id":"IDEA000534","finding":"Overview/body cross-reference is already proposed. A ring or outside locus still cannot act as a free invisible scope binder; this model would have to give it explicit event-reference content."},
+      {"id":"IDEA000538","finding":"Speaker/personified-role alternatives remain. A life bearer, narrator and physician are not automatically the same person, and no old SELF gloss is inherited."},
+      {"id":"IDEA000561","finding":"The mortality projection has no written output observation. This card does not reuse its or law; a terminal event is a separately written proposition, not an operator-identity test."},
+      {"id":"GDT213","finding":"A medical diagram can mix captions and prose, but ownership does not transfer from a readable comparator to nearby target text."},
+      {"id":"GDT591","finding":"The old bath-episode reader already carries working participants across formal hosts. Its report explicitly confirms no patient, diagnosis or chronology. No old owner/default or carrier meaning is imported."},
+      {"id":"IDEA000036","finding":"Person identity, patient role and process stage can coincide. The primary review demands genuinely different predictions; this card still has no independent label/state binding and does not reopen that gate."},
+      {"id":"IDEA000492","finding":"Rechecking identity already imposed by an old assembly plan did not justify an executor. Here the new source adds a distinct person's embedded action within a life trajectory; nonetheless no executor is justified while all target bindings are absent."}
+    ],
+    "smallest_next_step_if_selected": "Author a single explicit full-page discourse outline and all group obligations before assigning large vocabularies. It must retain a whole care unit and a whole other-stage unit plus their written frame/reference mechanism; E alone would merely repeat533. Freeze one spatial allocation in advance, with all unbound content and reader alternatives, then assess whether a shared written binding actually excludes a rival. Stop if the only distinction is an author-supplied p=p assertion with no further reused grammatical obligation. No source-image similarity score or parser is proposed now.",
+    "falsifier": "A frozen complete account fails its own trajectory hypothesis if its unchanged reference construction binds the earlier bearer to a different person from the care patient, if it silently turns the physician into the life bearer, if required event/time arguments remain unexpressed under its own grammar, or if a claimed source consequence depends on a cure, diagnosis, patient-specimen origin or circular rebirth absent from the declared source. Failure would apply to that account, not all life-cycle readings or the manuscript.",
+    "known_limits": [
+      "No confirmed words, no complete hypothetical translation and no independent meaning test.",
+      "The strongest source is ten scenes with four additional outer figures, not four interchangeable seasonal portraits. Full inscriptions and outer program are incomplete in the retained reproduction.",
+      "Arundel and Egerton are different historical programs. Their attributes cannot be combined into one invented source or source-derived target allocation.",
+      "GDT884 literal-source/code and f57 root-transfer/ordinal stops remain unchanged; no literal source writer, rotation, alias or global semantic extension is proposed.",
+      "Identities are explicitly open; this RAW is a source-grounded architecture with a new event-nesting obligation, not a claim to have solved the missing-owner problem."
+    ],
+    "access_log": "Read route, pictures/composition topics, bounded searches and route-checks, named source/root reports and selected proposal/review primaries. One overly broad read of the existing RAW561 returned embedded already-owned1042 rows and was truncated; no unknown surface or mixed sealed data was opened. No fresh target query, images, source download, reserve, contact, experiment, shared-state edit or automatic selection.",
+    "proposal_path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/33_life_trajectory_embedded_care.json",
+    "duplicate_screen": {
+      "command": "./vmanus-work ideas duplicates --proposal research_registry/proposals/laufenberg_f85r2_20260926/ideas/33_life_trajectory_embedded_care.json --limit 5",
+      "same_declared_design": [],
+      "candidate_ids": ["IDEA000550","IDEA000539","IDEA000531","IDEA000536","IDEA000538"],
+      "decision": "CANDIDATES_ONLY_NO_AUTOMATIC_MERGE",
+      "comparison": "531 and538 primary distinctions are listed above. 539 already proposes phase membership/coverage; this card does not claim novelty for PART, exhaustive partition or chronology. Its extra obligation is a distinct person's action nested within a life subject's stage, with two explicit participant bindings. 550's temporal/event-arity gap remains a warning against calling this graph a complete grammar. 536 is a lexical candidate, not newly adjudicated here. No certified novelty or gate reopening is claimed."
+    },
+    "receipts": {
+      "research_registry/proposals/laufenberg_f85r2_20260926/COMPOSITE_SOURCE_SEARCH_REPORT.md": "930649ede1f26875fbc43c84a4ece6f5ed4ee01bc599ee7e4e8c0892744faab0",
+      "research_registry/proposals/laufenberg_f85r2_20260926/COMPOSITE_SOURCE_ROOT_REVIEW.md": "2b9f6c200350bb5a0491c682ff7f72285930fc9b03bfb2e59c674606970f2ac1",
+      "research_registry/proposals/laufenberg_f85r2_20260926/COMPOSITE_SOURCE_SEARCH_RECEIPTS.json": "0a9726550346bfef0fd256971dde0325d811332703bde1c5c087ef1ceec0c6b9",
+      "research_registry/proposals/laufenberg_f85r2_20260926/ideas/01_typed_year_life_analogy.json": "de3f6adf011e3e240a91c86fed8e7c24887a358d5e4f446f59af6dbc139b1163",
+      "research_registry/proposals/laufenberg_f85r2_20260926/ideas/03_urine_diagnostic_inference.json": "7142b0f5410f8a6da48584c8682902124abe15764e98fac6ac20f102c0d30ddc",
+      "research_registry/proposals/laufenberg_f85r2_20260926/ideas/04_compendium_frame_crossreference.json": "8249be245e705bc4c05aba021719e0c1af1144cb055de20772ab972ca849e071",
+      "research_registry/proposals/laufenberg_f85r2_20260926/ideas/08_personified_speaker_scope.json": "770732eb96a6943f654a82da33c3a7cab719f3d73174900dcd59fa00786a6cad",
+      "GDT213_READABLE_MEDICAL_DIAGRAM_COMPARATOR_REPORT.md": "f4852a333ea2a11f3567809df86bd972dd7d049888902492289ea013236a6a84"
+    }
+  }
+}
