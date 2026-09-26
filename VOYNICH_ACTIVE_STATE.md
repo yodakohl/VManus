@@ -8580,6 +8580,26 @@ The selected thumbnail unexpectedly included two reproductions; exposure is
 disclosed, without target transfer. Cava wind198v was already known.
 [Source identification](research_registry/proposals/laufenberg_f85r2_20260926/PHILOSOPHER_SOURCE_ID_REPORT.md).
 
+
+**2026-09-26 source-program qualification:** Eight complete print scans separate
+self-naming two-line picture captions from third-person seasonal teaching bodies.
+Spring/Summer/Autumn woodcuts all hold flowers. The full Autumn ending is now
+individually read in a separate six-verse extension; the initial packet remains
+partial. Karlsruhe's four directly labelled complexions show instrument, sword,
+reclining figure and book/lectern, not a four-doctor sequence. These are source
+findings, not Voynich words. [Voice review](research_registry/proposals/laufenberg_f85r2_20260926/PERSONIFIED_SPEECH_ROOT_REVIEW.md),
+[Autumn](research_registry/proposals/laufenberg_f85r2_20260926/AUTUMN_CLOSE_REPORT.md),
+[complexions](research_registry/proposals/laufenberg_f85r2_20260926/COMPLEXION_FIGURES_REPORT.md).
+A bounded eight-source search adds two actually viewed joint programs:
+Arundel83II126v puts doctor/urinal and old-age supports inside a ten-stage life
+wheel; Egerton2572 51r puts named saints, including Cosmas with urinal, around a
+calendar volvelle. Distinct portraits, adjacent leaves and whole-codex topics
+remain separate. The Arundel reproduction is cropped; Egerton51v was not in this
+packet. No target alignment or significance follows. [Comparison](research_registry/proposals/laufenberg_f85r2_20260926/COMPOSITE_SOURCE_ROOT_REVIEW.md).
+Cava's full-leaf follow-up failed before pixels; no new attribute absence is
+claimed. Source-level help/harm and constructor proposals still lack new written
+target ownership.562's hidden-condition stirring is retained raw, not selected.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a

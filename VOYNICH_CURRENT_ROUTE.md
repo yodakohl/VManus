@@ -4,12 +4,12 @@ Updated: 2026-09-26. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour research block 2026-09-26 17:34:57 to09-27 03:34:57UTC; f85 source-bound meanings.
-Latest decision: 550wholeS wording complete;event grammar open. Cava3seasonal source identified.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/UNTIL_S_ROOT_REVIEW.md.
-Assumptions: 550cessation extra;Cava199r/203r unresolved;884/f57 stops;0words.560local only.
-Resume: Review Cava source ownership;select physician consequence with whole written contexts.
-Running: root550publication;physician consequence supply.559deferred;561capacity;525parked.
+Task: Ten-hour block09-26 17:34:57 to09-27 03:34:57UTC; f85 source-bound meanings.
+Latest decision: Two joint age/medicine/sky source programs;caption/body voices differ;0words.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/COMPOSITE_SOURCE_ROOT_REVIEW.md.
+Assumptions: Source role alternatives;550event grammar open;884/f57 stops;no reserve use.
+Resume: Publish source follow-ups;review Egerton51v owners and select complete content consequence.
+Running: root source publication;Egerton source audit;source validation;bounded RAW producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
