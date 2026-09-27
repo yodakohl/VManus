@@ -12,6 +12,9 @@ def main(argv: list[str] | None = None) -> int:
     if arguments and arguments[0] == 'context':
         from tools.work_context import main as context_main
         return context_main(arguments[1:])
+    if arguments and arguments[0] == 'words':
+        from tools.word_evidence import main as words_main
+        return words_main(arguments[1:])
     if arguments and arguments[0] == 'priorities':
         remaining = arguments[1:]
         if '--sources' in remaining:
@@ -40,6 +43,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog='vmanus-work')
     commands = parser.add_subparsers(dest='command', required=True)
     commands.add_parser('context', help='bounded startup, resume fields and topic excerpts from live documentation')
+    commands.add_parser('words', help='admitted exact-word profiles, scoped prior evidence and conditional candidate checks')
     commands.add_parser('priorities', help='bounded hypothesis groups and conditional research priorities')
     commands.add_parser('ideas', help='scalable research memory: search, duplicates, reconsider, show')
     commands.add_parser('identity-inputs', help='read-only manifest membership/hash receipt; no semantic verdict')

@@ -68,6 +68,21 @@ W96's SAME/NEW comparison cannot be ranked by raw conflict counts. Do not silent
 repair frozen readings. No new generic statistics or decoder stage without a
 consequence for the reading decision.
 
+Before preferring a new word meaning, use `./vmanus-work words profile FORM...`
+to retrieve admitted exact-form frequencies, dispersion, positions, repetition,
+neighbours and scoped prior evidence. `words evidence ID` opens each curated
+entry's full dependencies, limits and primary links. The catalog is a small
+reviewed subset; the embedded existing registry search remains navigation, not
+an exhaustive audit. Missing entries never mean absent previous research.
+State how the reading accounts for those observations before a source-fit
+writer assigns more glosses. `words review CONTRACT.json --fail-unready`
+checks explicit finite surface conditions over their full declared scope and
+flags missing accounts. It does not infer a part of speech, interpret an
+account's prose as verified evidence, or rank meanings by a made-up probability.
+A failed grammatical condition rejects only its declared model and assumptions;
+a local compatible result does not select a translation. See the
+[implemented word-selection audit](proposals/laufenberg_f85r2_20260926/WORD_SELECTION_REPORT.md).
+
 Use the existing primary reader and source packet when adequate. Check exact
 loci, source layer and whole form before inheriting an example from an idea
 sketch: P02 corrects its sketch's f32v reference to f21r. Share one bounded

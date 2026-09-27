@@ -2,14 +2,14 @@
 Updated: 2026-09-27. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: Post-block meaning assessment;no new experiment selected.
-Latest decision: Free source fits do not select meanings;no automatic606writer.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/POST_BLOCK_REASSESSMENT_20260927.md.
-Assumptions: Knownwordstructure;0words;oldfailuresandreservesunchanged.
-Resume: Seek changed readable K2790 92r input under60minplan;not same-image context audit.
-Running: none;critics stopped;source acquisition recommended,not executed.
+Phase: workflow
+Status: complete
+Task: Word-selection tools and first candidate audit complete.
+Latest decision: Word profiles before glosses; seasonal bases ungrounded, not refuted.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/WORD_SELECTION_REPORT.md.
+Assumptions: Knownwordstructure;0words;observations are not meanings;reserves closed.
+Resume: Profile next candidate forms, read linked primaries, then bind whole-scope consequences.
+Running: none; word tools and audit validated.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

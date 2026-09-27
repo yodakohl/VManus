@@ -1,0 +1,102 @@
+[
+  {
+    "schema_version": 1,
+    "id": "CONTROL_PHYSICAL_END_ONLY",
+    "purpose": "ENGINEERING_CONTROL_NOT_MANUSCRIPT_DISCOVERY",
+    "scope": {
+      "pages": "all_admitted",
+      "kinds": [
+        "P"
+      ]
+    },
+    "assignments": [
+      {
+        "form": "daiin",
+        "meaning": "UNINTERPRETED_CONTROL"
+      }
+    ],
+    "predictions": [
+      {
+        "id": "CONTROL_PHYSICAL_END_ONLY",
+        "form": "daiin",
+        "rule": "allowed_positions",
+        "strength": "necessary",
+        "basis": "Engineering control selected after knowing exposed counts; not a historical meaning hypothesis.",
+        "assumptions": [
+          "Exact raw daiin is the counted unit.",
+          "A physical source locus, not a sentence, is the declared boundary."
+        ],
+        "values": [
+          "end"
+        ]
+      }
+    ],
+    "reviewed_evidence_ids": []
+  },
+  {
+    "schema_version": 1,
+    "id": "CONTROL_ONE_PER_PHYSICAL_LINE",
+    "purpose": "ENGINEERING_CONTROL_NOT_MANUSCRIPT_DISCOVERY",
+    "scope": {
+      "pages": "all_admitted",
+      "kinds": [
+        "P"
+      ]
+    },
+    "assignments": [
+      {
+        "form": "daiin",
+        "meaning": "UNINTERPRETED_CONTROL"
+      }
+    ],
+    "predictions": [
+      {
+        "id": "CONTROL_ONE_PER_PHYSICAL_LINE",
+        "form": "daiin",
+        "rule": "max_per_locus",
+        "strength": "necessary",
+        "basis": "Engineering control selected after knowing exposed counts; not a historical meaning hypothesis.",
+        "assumptions": [
+          "Exact raw daiin is the counted unit.",
+          "A physical source locus, not a sentence, is the declared boundary."
+        ],
+        "maximum": 1
+      }
+    ],
+    "reviewed_evidence_ids": []
+  },
+  {
+    "schema_version": 1,
+    "id": "CONTROL_LOCAL_ONE_PER_PHYSICAL_LINE",
+    "purpose": "ENGINEERING_CONTROL_NOT_MANUSCRIPT_DISCOVERY",
+    "scope": {
+      "pages": [
+        "f85r2"
+      ],
+      "kinds": [
+        "P"
+      ]
+    },
+    "assignments": [
+      {
+        "form": "daiin",
+        "meaning": "UNINTERPRETED_CONTROL"
+      }
+    ],
+    "predictions": [
+      {
+        "id": "CONTROL_LOCAL_ONE_PER_PHYSICAL_LINE",
+        "form": "daiin",
+        "rule": "max_per_locus",
+        "strength": "necessary",
+        "basis": "Engineering control selected after knowing exposed counts; not a historical meaning hypothesis.",
+        "assumptions": [
+          "Exact raw daiin is the counted unit.",
+          "A physical source locus, not a sentence, is the declared boundary."
+        ],
+        "maximum": 1
+      }
+    ],
+    "reviewed_evidence_ids": []
+  }
+]
