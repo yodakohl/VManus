@@ -4,14 +4,13 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Seek an independent content contrast.
-Latest decision: GDT1056 finds no visible repair at f75v.44 joined qolchedy;
-GDT852 local spacing stands, but meaning remains unbound.
-Working files: GDT1056 REPORT; GDT1055 correction.
-Assumptions: f75v image resolution limits; GDT822/823 fire/source guesses C0;
-W52/W53 no secure word owner/flow;0 confirmed words.
-Resume: Do not infer semantic alternation from f75v spacing. Seek a genuinely
-independent content owner; avoid GDT1055 recurrence and visual-repair reruns.
+Task: Seek an independently bound content contrast.
+Latest decision: GDT1056 no visible repair; local layout pressure possible.
+Harley2375 is a catalog-only genre parallel, not a word key.
+Working files: GDT1056 REPORT; Laufenberg EXTERNAL_SOURCES.
+Assumptions: GDT822/823 fire/source C0; f85r2 season/age C0;0 confirmed words.
+Resume: Seek an author-visible text/referent link with contrasting values;
+avoid GDT1055 recurrence, f75v repair rerun and thematic-only source matching.
 Running: None. Ideas610/611 parked;612 tested;613 raw unreviewed.
 
 ## Structural baseline

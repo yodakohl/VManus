@@ -61,6 +61,27 @@ The following descriptions are **native image observations**, with exact image U
 
 **Zürich, Zentralbibliothek, Ms. C 54**, the Schürstab codex, c.1470, **Nuremberg**: [KdiH](https://kdih.badw.de/datenbank/handschrift/87/1/18), [institutional digitization](https://www.e-codices.unifr.ch/de/list/one/zbz/C0054). The catalog places its iatromathematical housebook at3r–55v, with calendrical/medical illustration. No pixels inspected. This supplies a concrete caution against treating the wider housebook genre as exclusively Upper Rhine. It does not exclude an Upper Rhine origin for any particular work or manuscript.
 
+## Additional catalog-only single-codex comparator (2026-09-27)
+
+The [British Library catalogue for Harley MS 2375](https://searcharchives.bl.uk/catalog/040-002048206)
+documents a fifteenth-century medical/astrological compilation in which f.36
+contains a Latin concordance of elements, seasons, humours and life ages. Its
+catalogued incipit assigns childhood cold and moist qualities and a duration
+to age fourteen. In the **same physical codex**, ff.30–32v contain uroscopy,
+ff.33–34 waters and recipes, ff.36v–48v laxatives, ff.48v–55 herbal material,
+ff.89–94 medical astrology, and ff.94v–105v humoral symptom material. This
+independently documents the *cohabitation of these subject domains in one
+fifteenth-century book*, not a shared Voynich word, page order or exemplar.
+The f.36 text and diagrams have **not** been inspected: this is catalog-level
+evidence only. GDT1042's four f85r2 blocks do not provide a bound age term,
+quality pair, duration number or clause correspondence for the f.36 statement.
+No target data, new manuscript image, or reserve was opened for this comparison.
+
+The source is useful as a concrete genre comparator but does not alter the
+decision below or license another season-word assignment. A future literal
+parallel claim would first need the actual f.36 text and an independent
+target-side phrase/figure ownership rule; thematic overlap cannot supply it.
+
 ## Limits and usable next comparison
 
 The source-side bundle supports a **testable iconographic analogy**, not demonstrated copying, common authorship, a geographic attribution of the Voynich manuscript, or any word meaning. Native inspection of the target under its own registered scope would have to compare exact posture, number of supports, object geometry, arrangement and accompanying text independently of the desired season assignments. A three-seasons-plus-doctor selection, if proposed, must openly account for omitted Winter; neither Karlsruhe nor the general tradition supplies that omission automatically. The source physician belongs to a separate topic, which also constrains any presumed text order.
