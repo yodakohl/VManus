@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: New10hblock03:37:01-13:37:01UTC;581closed;review exact four-pair o hypothesis.
-Latest decision: 581actual local reuse66/156;90unparsed;0words;582source cause retained.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/CONTEXT_SYNOPSIS_ROOT_REVIEW.md.
-Assumptions: Whole156ZL/473all;no4blockmap/fixedpatient;0words;reservesclosed.
-Resume: Publish581closure;read family primaries;approve bounded first contract only if useful.
-Running: A finishes family RAW;B/C idle;root closure and next selection.
+Task: New10hblock03:37:01-13:37:01UTC;583four-family whole attempt05:53-07:23.
+Latest decision: 583local62groups coherent;whole authorized;high costs/source links owed.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/DEFAULT_CONTEXT_FIRST_CONTRACT_DECISION.md.
+Assumptions: Whole156ZL/473all;fourpairs oneO;no581glosses;reservesclosed.
+Resume: Awholefreeze06:58;root/B audit07:13;publication07:23;no rule repairs.
+Running: A583whole;B waits frozen packet;C exact source-witness lead;rootpublication.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
