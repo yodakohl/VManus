@@ -5,8 +5,8 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: checkpoint
 Task: Seek an independently bound content contrast.
-Latest decision: GDT1058 splits thermal sign: all-safe k=hot, Herbal t=hot.
-Working files: GDT1057 and GDT1058 reports.
+Latest decision: GDT1058 splits k/t sign; entry-opposition rate lacks matched units.
+Working files: GDT1058 report; within-entry capacity decision.
 Assumptions: ch=dry provisional; k/t hot sign unresolved;0 confirmed words.
 Resume: Find an author-visible text/referent contrast;
 avoid grade-first plant naming and source-only fitting.
