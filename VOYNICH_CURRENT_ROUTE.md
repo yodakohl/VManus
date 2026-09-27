@@ -5,9 +5,9 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: checkpoint
 Task: Seek an independently bound content contrast.
-Latest decision: whole-source quality control retains dry majority; no word binding.
-Working files: GDT1057 report and quality-source decision note.
-Assumptions: ch=dry still provisional; f85r2 season/age C0;0 confirmed words.
+Latest decision: GDT1058 splits thermal sign: all-safe k=hot, Herbal t=hot.
+Working files: GDT1057 and GDT1058 reports.
+Assumptions: ch=dry provisional; k/t hot sign unresolved;0 confirmed words.
 Resume: Find an author-visible text/referent contrast;
 avoid grade-first plant naming and source-only fitting.
 Running: None. IDEA614 untested;610/611 parked;612 tested;613 raw.
