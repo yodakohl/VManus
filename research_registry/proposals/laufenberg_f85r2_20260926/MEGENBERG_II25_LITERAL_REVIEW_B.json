@@ -1,0 +1,64 @@
+{
+  "review": "Independent source extraction completeness review B",
+  "date": "2026-09-27",
+  "scope": "Literal/source-boundary verification only. No source interpretation, C notes, target, or target result accessed.",
+  "files_reviewed": [
+    "MEGENBERG_THUNDER_SOURCE_DECISION.md",
+    "EXTRACT_MEGENBERG_II25.py",
+    "MEGENBERG_THUNDER_SOURCE_RECEIPT.json",
+    "external_cache/megenberg_titus_metadata_20260927.html",
+    "MEGENBERG_II25_SOURCE.txt"
+  ],
+  "hashes": {
+    "cached_titus_html": {
+      "bytes": 11679174,
+      "sha256": "e6fbf4806c01415a848a6be173b2dfc82862dca9fb5c5732aaa8945559e03dbc",
+      "matches_receipt": true
+    },
+    "published_source_text": {
+      "bytes": 9287,
+      "sha256": "c3f9442fe6b2134f3d93f6efa8f65b45d57bdcfc65e8c2a0e31071a2855cd61b",
+      "matches_receipt_and_expected_extractor_output": true
+    }
+  },
+  "independent_extraction": {
+    "method": "Raw UTF-8 byte slice from exact chapter-25 anchor start tag to exact chapter-26 anchor start tag, then independent stdlib HTMLParser data-node extraction with entity conversion and display-whitespace normalization.",
+    "exact_start_tag_matches": 1,
+    "exact_end_tag_matches": 1,
+    "start_precedes_end": true,
+    "selected_raw_html_bytes": 106649,
+    "selected_fragment_tag_count": 4392,
+    "selected_fragment_entity_reference_count": 666,
+    "reconstructed_text_bytes": 9287,
+    "reconstructed_text_sha256": "c3f9442fe6b2134f3d93f6efa8f65b45d57bdcfc65e8c2a0e31071a2855cd61b",
+    "byte_identical_to_published_source_text": true,
+    "text_missed_from_nested_tags_or_entities": false,
+    "note": "Naive substring counts are not unique because word-anchor names use the II.25/II.26 anchor names as prefixes; exact name-attribute matching uniquely locates the boundaries."
+  },
+  "coverage": {
+    "opening": "Chapter number 25 at inner location anchor printed p.91 l.11; explicit extracted line sequence starts with empty line 12, then chapter title at line 13.",
+    "explicit_line_ranges": {
+      "91": "12-34",
+      "92": "1-36",
+      "93": "1-36",
+      "94": "1-36",
+      "95": "1-12"
+    },
+    "explicit_line_label_count": 143,
+    "all_ranges_continuous": true,
+    "literal_page91_label_present": false,
+    "page91_start_anchor_present": true,
+    "ending_95_12_preserved": true
+  },
+  "next_chapter_boundary": {
+    "terminal_label_preserved": "Chapter / Strophe: 26",
+    "label_precedes_exact_chapter26_anchor": true,
+    "chapter26_subtitle_and_body_excluded": true
+  },
+  "finding": "No literal extraction, hash, boundary, or line-coverage discrepancy found.",
+  "limits": [
+    "This verifies the electronic TITUS/Pfeiffer1861 text only.",
+    "No collation against printed pages or medieval manuscript witness was performed.",
+    "No semantic validation was performed."
+  ]
+}
