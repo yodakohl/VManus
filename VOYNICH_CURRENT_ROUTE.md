@@ -4,13 +4,13 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Seek an independently bound content contrast.
-Latest decision: GDT1059: TCH follows29/87 other Herbal-A heads;
-kooiin/TCH recurrence lacks specific meaning force; rootstock vs generic open.
-Working files: GDT1059 report; quality-reader dependency correction.
+Task: Select a different owned content contrast.
+Latest decision: f2v/f29v whole texts already W96/GDT809; native f2v/f29v/f3v
+shows horizontal underground axes, but kooiin rootstock vs generic stays open.
+Working files: kooiin visual/whole-context decision; GDT1059.
 Assumptions: ch=dry provisional; k/t sign open; dair root unexportable;0 words.
-Resume: Require an independent referent or full-reading consequence for
-kooiin; do not mine another nearby q-code as rootstock evidence.
+Resume: Seek a new owned referent or a genuinely different full-reading
+consequence; do not repeat kooiin morphology/quality/paragraph comparisons.
 Running: None. IDEA614 untested;610/611 parked;612 tested;613 raw.
 
 ## Structural baseline
