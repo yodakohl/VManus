@@ -76,6 +76,14 @@ Read one relevant report section at a time; a clipped search card or truncated
 batch output is navigation, not completed review of omitted material. Fetch
 the missing claim-bearing section before relying on it.
 
+For source-only discovery, search the bounded registry and exact known report
+files. Do not recursively search proposal JSON or raw-data-bearing files with
+bare catalogue numbers: numeric hits can emit whole transcription records.
+Select filenames before searching content; keep target access inside its owned
+projection/guard. Truncated output is not proof that sealed content was absent.
+The [27September2026 incident](proposals/laufenberg_f85r2_20260926/FACULTY_PERSONIFICATION_SUPPLY.md)
+remains an exposure caveat, not a new admission or scientific input.
+
 At the declared total-work checkpoint, report the concrete new reading
 consequence, its assumptions, unresolved alternatives and next decision.
 Record elapsed preparation/implementation/check/publication time in the same

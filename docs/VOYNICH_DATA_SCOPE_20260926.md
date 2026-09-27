@@ -74,3 +74,22 @@ frühere Einzelverträge bleiben unverändert.
 Die bis zum Audit geltende Route ist [bytegleich archiviert](../research_registry/decisions/documentation_audit_20260914/ROUTE_BEFORE.md).
 Neue tatsächliche Zulassungen müssen diese Tabelle und die Route synchron
 aktualisieren; historische Erörterungen dürfen ihren Umfang nicht erweitern.
+
+## Unbeabsichtigte Suchausgabe am27September2026
+
+Eine begleitende Quellensuche durch Markdown/JSON im Vorschlagsverzeichnis
+traf mit einer unbeschränkten numerischen Alternative auch ältere Absatzdaten.
+Die Ausgabe war stark gekürzt; ihr vollständiger Expositionsumfang und die
+Abwesenheit gesperrter Seiten können daraus nicht bescheinigt werden. Der Lauf
+wurde gestoppt, die Ausgabe nicht erneut geöffnet und von wissenschaftlicher
+Verwendung ausgeschlossen. Der [Vorfallsbericht](../research_registry/proposals/laufenberg_f85r2_20260926/FACULTY_PERSONIFICATION_SUPPLY.md)
+enthält nur bekannte Suchmetadaten, keine reproduzierten Transkriptionsdaten.
+
+Keine neue Zulassung folgt daraus. f84/f84r bleiben gesperrt; dieser normative
+Status ist keine Behauptung vollständiger historischer Nichtexposition. Die
+laufenden568/572-Pakete verwenden ausschließlich ihre schon festgelegte
+f85r2-Projektion; kein Reservetest oder unabhängiger Bedeutungsbeleg folgt aus
+dem Vorfall. Künftige Quellensuchen müssen bekannte Berichte oder den Register-
+Index gezielt auswählen; rekursive JSON-Suchen mit bloßen Zahlen sind dafür
+ungeeignet. Eine nachträgliche Freigabe oder Rekonstruktion der Ausgabe wurde
+nicht vorgenommen.

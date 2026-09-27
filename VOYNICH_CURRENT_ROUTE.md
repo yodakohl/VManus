@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block09-26 17:34:57 to09-27 03:34:57UTC;572whole f85 reading.
-Latest decision: 569formal gaps retained;572selected for two-layer composition.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/PLANET_CHILD_ROOT_AUTHORING_DECISION.md.
-Assumptions: Md2wholeconclusion fixed;Berlinvariant separate;oldglosses/reservesclosed.
-Resume: Freeze572components then whole4blocks;review/publish by03:04UTC.
-Running: 572author due02:39;rootreview;boundednext-mechanismproducer.
+Task: Ten-hour minimum03:34:57UTC;568whole recipient-restriction reading.
+Latest decision: 572partial:two-level uses,8unparsedgroups,typeinterfacesopen.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/RECIPIENT_RESTRICTION_ROOT_DECISION.md.
+Assumptions: WholeGalenIII.9;freshvalues;same-witnessorigin;reservesclosed.
+Resume: Freeze568predicate/modifiercontract;wholeauthor35min,review by03:42UTC.
+Running: 568author;rootreview/publication;sourceproducerstoppedafterexposure.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
@@ -40,6 +40,7 @@ complete plausible overall reading. Prior exposure cannot be erased by a new mod
 179 text selectors;51 visual keys/57 selectors, no slot remains. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [base](docs/VOYNICH_DATA_SCOPE.md). No outside contacts or expert review.
+09-27 incidental search exposure is caveated in the scope note; no admission.
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs ONLY via selector-first `vmanus-exp query-tsv`; new scored relation packets
 require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
