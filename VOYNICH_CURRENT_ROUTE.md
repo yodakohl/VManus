@@ -3,13 +3,13 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: active
-Task: Ten-hour closure; minimum03:34:57UTC, publication ceiling03:42UTC.
-Latest decision: 568localA/B+same-witnesscoherent;source/reader gaps,0words.
+Status: checkpoint
+Task: Ten-hour block complete;10candidate decisions,0confirmedwords.
+Latest decision: 568localA/B+same-witnesscoherent;source/reader gaps remain.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/TEN_HOUR_RESULT.md.
 Assumptions: 77newwholevalues;named/constant-D rivals;reviewexposure;reservesclosed.
-Resume: Finish final table audit, registry/privacy checks and publish; no writer repair.
-Running: Rootclosure/publication;bounded final report audit;sourceproducerstopped.
+Resume: Read568decision;screen III.13pp311-313 against IDEA541/GDT946 before anywriter.
+Running: none;all packets frozen;no unattended research.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

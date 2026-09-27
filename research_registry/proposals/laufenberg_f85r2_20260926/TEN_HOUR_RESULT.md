@@ -1,8 +1,11 @@
-# Laufender Zehnstundenblock: Kandidaten und tatsächlich geprüfte Folgen
+# Zehnstundenblock: Kandidaten und tatsächlich geprüfte Folgen
 
-**Zwischenstand; der Arbeitsblock ist noch aktiv.** Beginn26September2026,
-17:34:57UTC; frühestes Ende27September2026,03:34:57UTC. Die zehn Kandidatenprüfungen sind abgeschlossen; die Veröffentlichung und
-Endzeit dieses Arbeitsblocks werden noch ergänzt.
+**Forschungs- und Prüfblock abgeschlossen.** Beginn26September2026,
+17:34:57UTC; Abschluss27September2026,03:35:30UTC: 10Stunden,
+0Minuten,33Sekunden verstrichene Blockzeit. Zehn Kandidatenprüfungen und
+die begrenzte Anschlussprüfung sind dokumentiert; dies ist keine CPU-Laufzeit.
+Die abschließende Veröffentlichung folgt unmittelbar nach der Prüfung des
+genau vorgemerkten Dateibaums.
 
 Wir haben konkrete Lesungshypothesen formuliert und ihre wiederholten
 Konstruktionen geprüft. Keine davon hat bislang ein Voynich-Wort unabhängig
@@ -130,6 +133,31 @@ Wortwerte und die erhaltenen Rivalen verhindern eine Bedeutungsentscheidung.
 Die drei Organzuordnungen sind eine getestete Anfangswahl aus sechs möglichen
 Permutationen, nicht sechs nachgewiesene Lösungen und nicht bestätigte Wörter.
 
+Eine abschließende, begrenzte Anschlussprüfung las die vorhandenen Karten343,
+541 und567 sowie deren benannte Quellenunterlagen; keine weitere Zielstelle
+wurde geöffnet und kein elfter Lesungsversuch ausgewählt.343 behandelt mehrere
+Bäder und Empfängerbedingungen,567 Verdauungsstadien an verschiedenen Orten.
+Das sind keine bereits nachgewiesenen Anwendungen des568-Operators auf eine
+zweite Herkunft.541 nennt gegenläufigen Transport durch dieselben Gefäße.
+
+Im bereits gespeicherten vollständigen GalenIII.13 wurde zudem die Passage
+p311–313 gelesen: Bei Nahrungsmangel zieht der Magen aus den Venen in der Leber.
+Die Quelle unterscheidet den Saft in deren Hohlraum vom Organleib und von
+Nährstoff, dessen Anhaftung/Assimilation bereits stattfindet;
+anschließend ist die Milz eine weitere Herkunft für Stoffzufuhr zu verbundenen
+Organen, einschließlich des Magens. [Quellentext](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Galen/Natural_Faculties/3%2A.html).
+Das ist ein konkreter möglicher Anschluss mit Herkunfts- und
+Kompartimentunterscheidung. Transportherkunft ist jedoch nicht automatisch
+die RESIDUE_FROM-Relation des568-Vertrags. Die Passage wurde nicht als neuer
+Fund im Gesamtprojekt oder als bereits zugelassener Zieltest bewertet. Vor
+einer Auswahl bleiben der gezielte Primärvergleich mit früheren Galen-Versuchen
+und ein vollständiger Quellenvertrag nötig. Keine neue Wortglosse folgt daraus.
+Cachebeleg: `external_cache/galen3_frame_source.html`, SHA256
+`1d0f8547ae087a7c97d36f7600cee05dbb1b3321beb973b3065bba2ea8b0ad24`;
+III.13 wurde vollständig gelesen, die erwähnte Anschlussstelle liegt innerhalb
+dieses Kapitels. Moderne Übersetzung und überlieferungsgeschichtliche Grenze
+bleiben unverändert.
+
 Die abschließende568-Nachprüfung ist keine blinde Bedeutungsbestätigung:
 Der zweite Prüfer sah vor seinem Abschluss kurze Ausschnitte der bereits
 eingefrorenen Root-Erstbewertung. Die technische Reproduktion ist getrennt
@@ -141,5 +169,6 @@ einer neuen inhaltlichen Folge, die die verbliebenen Rivalen nicht ohnehin
 erzeugen. Der bislang einzige Herkunftseingang D0 unterscheidet insbesondere
 keine produktive Beschreibungseinschränkung von einer dort gleich ausfallenden
 festen Stoffbenennung. Reserveseiten werden dafür noch nicht geöffnet.
-**Bestätigt übersetzte Wörter:0.** Die Endzeit des Arbeitsblocks folgt nach
-Abschluss der Veröffentlichung.
+**Bestätigt übersetzte Wörter:0.** Die abschließende Quellen-Anschlussprüfung
+wurde von Root durchgeführt und gehört nicht zur zuvor eingefrorenen
+Tabellenprüfung des zweiten Prüfers.
