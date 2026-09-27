@@ -1,0 +1,9 @@
+# Bounded owned-source supply D decision
+
+Start2026-09-27 11:32:36 UTC; maximum30minutes inclusive, stop by12:02:36 UTC. Read the current route first and the recipes topic. This pass supplies possible RAW content, not a selection, experiment, repair of595, or new claim of decipherment.
+
+Unknown: whether a complete already-owned source unit still supplies one or two materially different multi-step consequences after the retained seasonal, thunder, perception, temporal-property and planetary-motion offers. Smallest adequate work: bounded metadata navigation; source-only predecessor fields; exact whole local arguments within the previously owned chapter/report context. A genuine source dependency with a concrete contrary consequence may be retained UNREVIEWED with missing meaning anchors. Exact overlap or insufficient source relations yields a bounded no-new-card result, not a replacement story.
+
+Initial candidate families for screening are material-dependent joining/protection versus mixture damage in the complete Steele chapterI, and remaining nutritional-causal distinctions in the already owned Albertus De anima II.2.VIII. These are leads, not promised results. Source ownership/provenance must be established from existing receipts before cache access. No new HTTP, image, OCR, target row, reserve, contact, decoder or corpus/control task. Recent595 audit and all earlier project exposures persist; the source-only pass is informed, not blinded.
+
+Own only NEXT_BOUNDED_SUPPLY_D_* and any next unused idea files. Coordinate with root before at most2 ideas-add mutations; no route, ledger, state, existing review, refresh or Git mutation. The full source obligations, rivals, source counterexamples and missing semantic anchor travel with any retained RAW. No novelty certification from an empty search or different source title.
