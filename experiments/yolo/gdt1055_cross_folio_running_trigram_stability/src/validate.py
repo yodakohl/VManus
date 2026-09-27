@@ -2,6 +2,7 @@
 import csv
 import hashlib
 import json
+import re
 from collections import defaultdict
 from itertools import combinations
 from pathlib import Path
@@ -17,6 +18,12 @@ ROOT = find_repo_root(Path(__file__).resolve())
 HERE = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'experiments/yolo/gdt874_raw_multigroup_record_bridge/runtime/ATLAS.tsv'
 SOURCE_SHA256 = '3b303196be0f3411de7b26d348f858cdda27c847a13c73d058292b3bce306bea'
+
+
+def physical_leaf(page: str) -> str:
+    match = re.match(r'^(f\d+)[rv]', page)
+    assert match, page
+    return match.group(1)
 
 
 def main() -> int:
@@ -56,7 +63,7 @@ def main() -> int:
     for reader in reader_names:
         for (width, words), locations in word_index[reader].items():
             for a, b in combinations(sorted(set(locations)), 2):
-                if a[0] != b[0]:
+                if physical_leaf(a[0]) != physical_leaf(b[0]):
                     expected[reader].append({'n': width, 'groups': list(words), 'left': list(a), 'right': list(b)})
         expected[reader].sort(key=lambda row: (row['n'], row['groups'], row['left'], row['right']))
         assert result['opportunities'][reader] == counts[reader]

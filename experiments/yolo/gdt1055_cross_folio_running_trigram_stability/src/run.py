@@ -3,6 +3,7 @@ import csv
 import hashlib
 import itertools
 import json
+import re
 import subprocess
 from collections import defaultdict
 from pathlib import Path
@@ -19,6 +20,12 @@ HERE = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'experiments/yolo/gdt874_raw_multigroup_record_bridge/runtime/ATLAS.tsv'
 SOURCE_SHA256 = '3b303196be0f3411de7b26d348f858cdda27c847a13c73d058292b3bce306bea'
 READERS = ('ZL3b', 'IT2a', 'RF1b')
+
+
+def physical_leaf(page: str) -> str:
+    match = re.match(r'^(f\d+)[rv]', page)
+    assert match, page
+    return match.group(1)
 
 
 def inventory(rows: list[dict]) -> tuple[dict, dict, dict]:
@@ -50,7 +57,7 @@ def cross_page_pairs(patterns: dict) -> dict:
         pairs = []
         for (n, gram), occurrences in patterns[reader].items():
             for left, right in itertools.combinations(sorted(set(occurrences)), 2):
-                if left[0] != right[0]:
+                if physical_leaf(left[0]) != physical_leaf(right[0]):
                     pairs.append({'n': n, 'groups': list(gram), 'left': list(left), 'right': list(right)})
         output[reader] = sorted(pairs, key=lambda r: (r['n'], r['groups'], r['left'], r['right']))
     return output

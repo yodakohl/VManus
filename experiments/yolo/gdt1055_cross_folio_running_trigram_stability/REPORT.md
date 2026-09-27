@@ -14,7 +14,10 @@ a significance claim.
 ## Complete result
 
 Windows contain 3–6 exact raw groups separated by definite spaces on one P
-line, and each pair lies on different physical leaves. An offset is one-based
+line, and each pair lies on different physical leaves (`fNN` identity; recto,
+verso and subpage sections of a leaf are treated together). The post-publication
+code correction from selector comparison to this leaf comparison left every
+reported count and match unchanged. An offset is one-based
 within that transcription's line. `all` means the same raw triple and exact
 locus/offset pair occurs in ZL3b, IT2a and RF1b. These are alternate readings
 of **one** manuscript, not three confirmations.
