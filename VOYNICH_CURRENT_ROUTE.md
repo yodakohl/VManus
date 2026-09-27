@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1051 complete frozen grammar replay of rings and f89v1.
-Latest decision: okoaiin has oko host; okaiin/qokaiin/chokaiin have ok.
-Working files: experiments/yolo/gdt1051_frozen_grammar_local_application/REPORT.md.
-Assumptions: Two formal parsers differ; no gloss or independent confirmation.
-Resume: Require concrete content account of oko/ok across both contexts.
-Running: None after review. Prior ten-hour block remains interrupted.
+Task: f88r.15 okol visual owner checked on admitted image.
+Latest decision: Material-near label; exact owner unknown; LIGHT not preferred.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/F88R_OKOL_VISUAL_RESULT_20260927.md.
+Assumptions: Earlier W90/GDT791 exposure; no confirmed word or image owner.
+Resume: Need a source-owned relation discriminating SUN/material rivals.
+Running: None. Prior ten-hour block remains interrupted.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
