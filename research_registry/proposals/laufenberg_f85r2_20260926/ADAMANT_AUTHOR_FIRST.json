@@ -1,0 +1,1336 @@
+{
+  "idea": "IDEA000605",
+  "stage": "FIRST_CONSTRUCTION_ONLY_AWAITING_ROOT",
+  "status": "ONE_COMPLETE_CONNECTED_ZL_GENERIC_CONDITIONAL_CONCESSION_FRAME; IT_RF_INCOMPLETE; WHOLE_UNREAD",
+  "selected_utc": "2026-09-27T12:50:27.753390+00:00",
+  "first_actual_tool_clock_utc": "2026-09-27 12:50:49 UTC",
+  "first_deadline_utc": "2026-09-27T13:03:27.753390+00:00",
+  "inclusive_ceiling_utc": "2026-09-27T13:43:27.753390+00:00",
+  "source": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/NEXT_AFTER602_SUPPLY_D_ID097.txt",
+    "sha256": "22ffe9fe50dfaee208021a63a14f99bd08daf322010edb189b203ae4a342ec36",
+    "unit": "complete85-word id00097, all6duties",
+    "interpretation": "selected D: conceded generic magnet disposition, conditional Adamant countereffect; later intended stone antecedent Adamant, not grammatically certain",
+    "status": "historical anthology claim, not modern mineral identification or efficacy"
+  },
+  "scope": {
+    "file": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+    "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "rows": 473,
+    "original_fields": [
+      "edition",
+      "block",
+      "locus",
+      "source_group_id",
+      "source_group_index",
+      "source_group_count",
+      "within_line_position",
+      "paragraph_start",
+      "paragraph_end",
+      "left_separator",
+      "right_separator",
+      "ivtff_group_raw"
+    ],
+    "display_order": "numeric loci/groups paid assumption; no historical ordering result",
+    "readers": "alternate readings of one witness"
+  },
+  "lexicon": {
+    "otar": {
+      "type": "ConditionalOpen",
+      "value": "IF",
+      "payloads": [
+        "conditional scope opener"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "chepaiin": {
+      "type": "ActorNoun",
+      "value": "ADAMANT",
+      "payloads": [
+        "adamant as source names it"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "otodar": {
+      "type": "PlacementPredicate",
+      "value": "SET_BY",
+      "payloads": [
+        "placement",
+        "spatial by, not contact"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "otodaiin": {
+      "type": "PatientNoun",
+      "value": "IRON",
+      "payloads": [
+        "iron"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "opaiin": {
+      "type": "ConsequentBoundary",
+      "value": "THEN",
+      "payloads": [
+        "antecedent/consequent boundary; no temporal then"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "otaiin": {
+      "type": "ConcessionOperator",
+      "value": "THOUGH",
+      "payloads": [
+        "positive concession"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "qopchas": {
+      "type": "DispositionOperator",
+      "value": "DISPOSITION",
+      "payloads": [
+        "generic disposition; not active event"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "otchedy": {
+      "type": "PatientNoun",
+      "value": "IRON",
+      "payloads": [
+        "iron; second paid whole expression"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "olkaiin": {
+      "type": "ActorNoun",
+      "value": "MAGNET",
+      "payloads": [
+        "magnet"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "odar": {
+      "type": "DrawingPredicate",
+      "value": "DRAW",
+      "payloads": [
+        "directed drawing influence"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "aloees": {
+      "type": "ReflexivePath",
+      "value": "TOWARD_LOCAL_ACTOR",
+      "payloads": [
+        "toward",
+        "local actor reflexive binding"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "qotedaiin": {
+      "type": "ActorNoun",
+      "value": "ADAMANT",
+      "payloads": [
+        "adamant; second paid whole expression"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "octhody": {
+      "type": "FromPath",
+      "value": "AWAY_FROM",
+      "payloads": [
+        "away/from reference direction"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "shedaiin": {
+      "type": "ActorNoun",
+      "value": "MAGNET",
+      "payloads": [
+        "magnet; second paid whole expression"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "olaiin": {
+      "type": "ConditionalClose",
+      "value": "END_IF",
+      "payloads": [
+        "conditional frame closure"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    }
+  },
+  "rules": [
+    {
+      "id": "A0",
+      "input": "exact full group in lexicon",
+      "output": "fixed lexical type/value",
+      "no_normalization": true
+    },
+    {
+      "id": "A1",
+      "input": "complete IF...THEN...END_IF construction",
+      "output": "one generic-case frame",
+      "binder": "first placement actor/patient names introduce roles by kind; subsequent matching names in this frame must resolve to those roles. A newly encountered different ActorNoun introduces a distinct actor role. The completed frame closes at written END_IF.",
+      "distinctness": "ADAMANT and MAGNET are different named actor roles a and m; IRON patient i has Patient type.",
+      "generic_limit": "one schematic case patient, not a conserved counted parcel or one physical stone across the later human claim; a new complete conditional frame need not reuse its numerical individuals.",
+      "failure": "incomplete/malformed frames give no asserted main conclusion; known local expressions may remain unscoped",
+      "interface": "Generic binding is a scope over the completed syntactic frame. Lexical name kinds can be parsed before role unification; no asserted event is required to introduce a variable. A tentative IF without all required parts produces no assertion."
+    },
+    {
+      "id": "A2",
+      "input": "ActorNoun or PatientNoun in the current generic-case frame",
+      "output": "its uniquely corresponding named role in that frame",
+      "patient_constraint": "all IRON mentions resolve to i, not new existential patients",
+      "ordinary_synonyms": "different whole literals with the same declared nominal value resolve to the same role; each lexical entry is separately paid, with no raw rewriting"
+    },
+    {
+      "id": "A3",
+      "input": [
+        "ActorNoun",
+        "PlacementPredicate",
+        "PatientNoun"
+      ],
+      "output": "SET_BY(a,i), filled from written named arguments",
+      "adjacent": true,
+      "status": "condition expression, no prior observed placement event inferred"
+    },
+    {
+      "id": "A4",
+      "input": [
+        "PatientNoun",
+        "ActorNoun",
+        "DrawingPredicate",
+        "ReflexivePath"
+      ],
+      "output": "DRAW(m,i,TOWARD(m)), filled from written arguments",
+      "adjacent": true,
+      "reflexive": "path endpoint is this relation's Actor argument, never its Patient; local actor is the explicit MAGNET here",
+      "status": "InfluenceExpression; no asserted occurrence without modal/conditional scope"
+    },
+    {
+      "id": "A5",
+      "input": [
+        "PatientNoun",
+        "ActorNoun",
+        "DrawingPredicate",
+        "FromPath",
+        "ActorNoun"
+      ],
+      "output": "DRAW(a,i,AWAY_FROM(m)), filled from written arguments",
+      "adjacent": true,
+      "roles": "first Actor is influence owner, last Actor is reference endpoint; not interchangeable",
+      "status": "InfluenceExpression; no asserted occurrence without enclosing scope"
+    },
+    {
+      "id": "A6",
+      "input": [
+        "DispositionOperator",
+        "InfluenceExpression"
+      ],
+      "output": "DISPOSITION(InfluenceExpression)",
+      "adjacent_expressions": true,
+      "scope": "generic disposition only; no same-context active force or achieved arrival"
+    },
+    {
+      "id": "A7",
+      "input": [
+        "ConcessionOperator",
+        "DispositionProposition",
+        "InfluenceExpression"
+      ],
+      "output": "ConcessionPair(conceded_disposition,main_influence)",
+      "adjacent_expressions": true,
+      "scope": "concession preserves the disposition; main influence awaits enclosing conditional assertion; no independent negation or second event"
+    },
+    {
+      "id": "A8",
+      "input": [
+        "ConditionalOpen",
+        "PlacementExpression",
+        "ConsequentBoundary",
+        "ConcessionPair",
+        "ConditionalClose"
+      ],
+      "output": "GenericCase(a,i,m): CONCEDE(DISPOSITION(DRAW(m,i,TOWARD(m)))) AND (SET_BY(a,i) => DRAW(a,i,AWAY_FROM(m)))",
+      "generic_schema": "CONCEDE(D) AND (C => E), where C,D,E are built by A3,A6,A5, not stored as primitive strings",
+      "scope_choice": "D is the conceded generic disposition; C guards the positive main E. D does not imply an active magnet event in C.",
+      "order": "A2 resolves names; A3/A4/A5 build relation expressions; A6 applies disposition; A7 assembles concession; A8 closes and asserts the guarded package.",
+      "boundaries": "No skipped group inside an expression or frame. Unknown groups prevent a complete frame."
+    }
+  ],
+  "type_interfaces": {
+    "PlacementExpression": "a two-place setting/spatial relation, not observed occurrence",
+    "InfluenceExpression": "actor/patient/direction reference tuple; no default modality",
+    "DispositionProposition": "generic tendency, not active-instance assertion",
+    "ConcessionPair": "disposition plus unasserted main expression awaiting A8",
+    "GenericCaseFrame": "one introduced i,a,m per complete construction, names resolved consistently inside it",
+    "assertion": "only complete A8; isolated words/subexpressions are not free assertions"
+  },
+  "clauses": [
+    {
+      "id": "PLACEMENT",
+      "locus": "f85r2.1",
+      "indices": [
+        9,
+        10,
+        11
+      ],
+      "raw": [
+        "chepaiin",
+        "otodar",
+        "otodaiin"
+      ],
+      "rule": "A3",
+      "result": "SET_BY(a,i); a:ADAMANT, i:IRON; antecedent only"
+    },
+    {
+      "id": "MAGNET_RELATION",
+      "locus": "f85r2.1",
+      "indices": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "raw": [
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees"
+      ],
+      "rule": "A4",
+      "result": "DRAW(m,i,TOWARD(m)); relation expression only"
+    },
+    {
+      "id": "MAGNET_DISPOSITION",
+      "locus": "f85r2.1",
+      "indices": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "raw": [
+        "qopchas",
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees"
+      ],
+      "rule": "A6",
+      "result": "DISPOSITION(DRAW(m,i,TOWARD(m)))"
+    },
+    {
+      "id": "ADAMANT_RELATION",
+      "locus": "f85r2.1",
+      "indices": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "raw": [
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin"
+      ],
+      "rule": "A5",
+      "result": "DRAW(a,i,AWAY_FROM(m)); relation expression until guarded"
+    },
+    {
+      "id": "CONCESSION_PAIR",
+      "locus": "f85r2.1",
+      "indices": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "raw": [
+        "otaiin",
+        "qopchas",
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin"
+      ],
+      "rule": "A7",
+      "result": "ConcessionPair(MAGNET_DISPOSITION,ADAMANT_RELATION)"
+    },
+    {
+      "id": "COMPLETE_FIRST_FRAME",
+      "locus": "f85r2.1",
+      "indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "raw": [
+        "otar",
+        "chepaiin",
+        "otodar",
+        "otodaiin",
+        "opaiin",
+        "otaiin",
+        "qopchas",
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin",
+        "olaiin"
+      ],
+      "rule": "A8",
+      "result": "CONCEDE(DISPOSITION(DRAW(m,i,TOWARD(m)))) AND (SET_BY(a,i) => DRAW(a,i,AWAY_FROM(m)))"
+    }
+  ],
+  "complete_tree": {
+    "rule": "A8",
+    "open": "otar:IF",
+    "frame": {
+      "a": "ADAMANT from chepaiin, reused by qotedaiin",
+      "i": "IRON from otodaiin, reused by both otchedy occurrences",
+      "m": "MAGNET from olkaiin, reused by shedaiin"
+    },
+    "condition": {
+      "rule": "A3",
+      "actor": "a",
+      "predicate": "SET_BY",
+      "patient": "i"
+    },
+    "boundary": "opaiin:THEN",
+    "concession": {
+      "rule": "A7",
+      "operator": "otaiin:THOUGH",
+      "conceded": {
+        "rule": "A6",
+        "operator": "qopchas:DISPOSITION",
+        "relation": {
+          "rule": "A4",
+          "patient": "i",
+          "actor": "m",
+          "predicate": "DRAW",
+          "path": {
+            "rule": "local reflexive",
+            "direction": "TOWARD",
+            "endpoint": "m"
+          }
+        }
+      },
+      "main": {
+        "rule": "A5",
+        "patient": "i",
+        "actor": "a",
+        "predicate": "DRAW",
+        "path": {
+          "direction": "AWAY_FROM",
+          "endpoint": "m"
+        }
+      }
+    },
+    "close": "olaiin:END_IF"
+  },
+  "variants": [
+    {
+      "clause": "PLACEMENT",
+      "edition": "ZL3b",
+      "ids": [
+        "ZL3b|f85r2.1|G009",
+        "ZL3b|f85r2.1|G010",
+        "ZL3b|f85r2.1|G011"
+      ],
+      "actual": [
+        "chepaiin",
+        "otodar",
+        "otodaiin"
+      ],
+      "literal_match": true,
+      "mismatches": [],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "PLACEMENT",
+      "edition": "IT2a",
+      "ids": [
+        "IT2a|f85r2.1|G009",
+        "IT2a|f85r2.1|G010",
+        "IT2a|f85r2.1|G011"
+      ],
+      "actual": [
+        "chepaiin",
+        "otadar",
+        "otodaiin"
+      ],
+      "literal_match": false,
+      "mismatches": [
+        {
+          "id": "IT2a|f85r2.1|G010",
+          "actual": "otadar",
+          "required": "otodar"
+        }
+      ],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "PLACEMENT",
+      "edition": "RF1b",
+      "ids": [
+        "RF1b|f85r2.1|G009",
+        "RF1b|f85r2.1|G010",
+        "RF1b|f85r2.1|G011"
+      ],
+      "actual": [
+        "chepaiin",
+        "ot@221;dar",
+        "otodaiin"
+      ],
+      "literal_match": false,
+      "mismatches": [
+        {
+          "id": "RF1b|f85r2.1|G010",
+          "actual": "ot@221;dar",
+          "required": "otodar"
+        }
+      ],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "MAGNET_RELATION",
+      "edition": "ZL3b",
+      "ids": [
+        "ZL3b|f85r2.1|G015",
+        "ZL3b|f85r2.1|G016",
+        "ZL3b|f85r2.1|G017",
+        "ZL3b|f85r2.1|G018"
+      ],
+      "actual": [
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees"
+      ],
+      "literal_match": true,
+      "mismatches": [],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "MAGNET_RELATION",
+      "edition": "IT2a",
+      "ids": [
+        "IT2a|f85r2.1|G015",
+        "IT2a|f85r2.1|G016",
+        "IT2a|f85r2.1|G017",
+        "IT2a|f85r2.1|G018"
+      ],
+      "actual": [
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees"
+      ],
+      "literal_match": true,
+      "mismatches": [],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "MAGNET_RELATION",
+      "edition": "RF1b",
+      "ids": [
+        "RF1b|f85r2.1|G015",
+        "RF1b|f85r2.1|G016",
+        "RF1b|f85r2.1|G017",
+        "RF1b|f85r2.1|G018"
+      ],
+      "actual": [
+        "otche@152;y",
+        "olkaiin",
+        "odar",
+        "aloees"
+      ],
+      "literal_match": false,
+      "mismatches": [
+        {
+          "id": "RF1b|f85r2.1|G015",
+          "actual": "otche@152;y",
+          "required": "otchedy"
+        }
+      ],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "MAGNET_DISPOSITION",
+      "edition": "ZL3b",
+      "ids": [
+        "ZL3b|f85r2.1|G014",
+        "ZL3b|f85r2.1|G015",
+        "ZL3b|f85r2.1|G016",
+        "ZL3b|f85r2.1|G017",
+        "ZL3b|f85r2.1|G018"
+      ],
+      "actual": [
+        "qopchas",
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees"
+      ],
+      "literal_match": true,
+      "mismatches": [],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "MAGNET_DISPOSITION",
+      "edition": "IT2a",
+      "ids": [
+        "IT2a|f85r2.1|G014",
+        "IT2a|f85r2.1|G015",
+        "IT2a|f85r2.1|G016",
+        "IT2a|f85r2.1|G017",
+        "IT2a|f85r2.1|G018"
+      ],
+      "actual": [
+        "qopchchs",
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees"
+      ],
+      "literal_match": false,
+      "mismatches": [
+        {
+          "id": "IT2a|f85r2.1|G014",
+          "actual": "qopchchs",
+          "required": "qopchas"
+        }
+      ],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "MAGNET_DISPOSITION",
+      "edition": "RF1b",
+      "ids": [
+        "RF1b|f85r2.1|G014",
+        "RF1b|f85r2.1|G015",
+        "RF1b|f85r2.1|G016",
+        "RF1b|f85r2.1|G017",
+        "RF1b|f85r2.1|G018"
+      ],
+      "actual": [
+        "qopchas",
+        "otche@152;y",
+        "olkaiin",
+        "odar",
+        "aloees"
+      ],
+      "literal_match": false,
+      "mismatches": [
+        {
+          "id": "RF1b|f85r2.1|G015",
+          "actual": "otche@152;y",
+          "required": "otchedy"
+        }
+      ],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "ADAMANT_RELATION",
+      "edition": "ZL3b",
+      "ids": [
+        "ZL3b|f85r2.1|G019",
+        "ZL3b|f85r2.1|G020",
+        "ZL3b|f85r2.1|G021",
+        "ZL3b|f85r2.1|G022",
+        "ZL3b|f85r2.1|G023"
+      ],
+      "actual": [
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin"
+      ],
+      "literal_match": true,
+      "mismatches": [],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "ADAMANT_RELATION",
+      "edition": "IT2a",
+      "ids": [
+        "IT2a|f85r2.1|G019",
+        "IT2a|f85r2.1|G020",
+        "IT2a|f85r2.1|G021",
+        "IT2a|f85r2.1|G022",
+        "IT2a|f85r2.1|G023"
+      ],
+      "actual": [
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin"
+      ],
+      "literal_match": true,
+      "mismatches": [],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "ADAMANT_RELATION",
+      "edition": "RF1b",
+      "ids": [
+        "RF1b|f85r2.1|G019",
+        "RF1b|f85r2.1|G020",
+        "RF1b|f85r2.1|G021",
+        "RF1b|f85r2.1|G022",
+        "RF1b|f85r2.1|G023"
+      ],
+      "actual": [
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin"
+      ],
+      "literal_match": true,
+      "mismatches": [],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "CONCESSION_PAIR",
+      "edition": "ZL3b",
+      "ids": [
+        "ZL3b|f85r2.1|G013",
+        "ZL3b|f85r2.1|G014",
+        "ZL3b|f85r2.1|G015",
+        "ZL3b|f85r2.1|G016",
+        "ZL3b|f85r2.1|G017",
+        "ZL3b|f85r2.1|G018",
+        "ZL3b|f85r2.1|G019",
+        "ZL3b|f85r2.1|G020",
+        "ZL3b|f85r2.1|G021",
+        "ZL3b|f85r2.1|G022",
+        "ZL3b|f85r2.1|G023"
+      ],
+      "actual": [
+        "otaiin",
+        "qopchas",
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin"
+      ],
+      "literal_match": true,
+      "mismatches": [],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "CONCESSION_PAIR",
+      "edition": "IT2a",
+      "ids": [
+        "IT2a|f85r2.1|G013",
+        "IT2a|f85r2.1|G014",
+        "IT2a|f85r2.1|G015",
+        "IT2a|f85r2.1|G016",
+        "IT2a|f85r2.1|G017",
+        "IT2a|f85r2.1|G018",
+        "IT2a|f85r2.1|G019",
+        "IT2a|f85r2.1|G020",
+        "IT2a|f85r2.1|G021",
+        "IT2a|f85r2.1|G022",
+        "IT2a|f85r2.1|G023"
+      ],
+      "actual": [
+        "otaiin",
+        "qopchchs",
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin"
+      ],
+      "literal_match": false,
+      "mismatches": [
+        {
+          "id": "IT2a|f85r2.1|G014",
+          "actual": "qopchchs",
+          "required": "qopchas"
+        }
+      ],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "CONCESSION_PAIR",
+      "edition": "RF1b",
+      "ids": [
+        "RF1b|f85r2.1|G013",
+        "RF1b|f85r2.1|G014",
+        "RF1b|f85r2.1|G015",
+        "RF1b|f85r2.1|G016",
+        "RF1b|f85r2.1|G017",
+        "RF1b|f85r2.1|G018",
+        "RF1b|f85r2.1|G019",
+        "RF1b|f85r2.1|G020",
+        "RF1b|f85r2.1|G021",
+        "RF1b|f85r2.1|G022",
+        "RF1b|f85r2.1|G023"
+      ],
+      "actual": [
+        "otaiin",
+        "qopchas",
+        "otche@152;y",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin"
+      ],
+      "literal_match": false,
+      "mismatches": [
+        {
+          "id": "RF1b|f85r2.1|G015",
+          "actual": "otche@152;y",
+          "required": "otchedy"
+        }
+      ],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "COMPLETE_FIRST_FRAME",
+      "edition": "ZL3b",
+      "ids": [
+        "ZL3b|f85r2.1|G008",
+        "ZL3b|f85r2.1|G009",
+        "ZL3b|f85r2.1|G010",
+        "ZL3b|f85r2.1|G011",
+        "ZL3b|f85r2.1|G012",
+        "ZL3b|f85r2.1|G013",
+        "ZL3b|f85r2.1|G014",
+        "ZL3b|f85r2.1|G015",
+        "ZL3b|f85r2.1|G016",
+        "ZL3b|f85r2.1|G017",
+        "ZL3b|f85r2.1|G018",
+        "ZL3b|f85r2.1|G019",
+        "ZL3b|f85r2.1|G020",
+        "ZL3b|f85r2.1|G021",
+        "ZL3b|f85r2.1|G022",
+        "ZL3b|f85r2.1|G023",
+        "ZL3b|f85r2.1|G024"
+      ],
+      "actual": [
+        "otar",
+        "chepaiin",
+        "otodar",
+        "otodaiin",
+        "opaiin",
+        "otaiin",
+        "qopchas",
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin",
+        "olaiin"
+      ],
+      "literal_match": true,
+      "mismatches": [],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "COMPLETE_FIRST_FRAME",
+      "edition": "IT2a",
+      "ids": [
+        "IT2a|f85r2.1|G008",
+        "IT2a|f85r2.1|G009",
+        "IT2a|f85r2.1|G010",
+        "IT2a|f85r2.1|G011",
+        "IT2a|f85r2.1|G012",
+        "IT2a|f85r2.1|G013",
+        "IT2a|f85r2.1|G014",
+        "IT2a|f85r2.1|G015",
+        "IT2a|f85r2.1|G016",
+        "IT2a|f85r2.1|G017",
+        "IT2a|f85r2.1|G018",
+        "IT2a|f85r2.1|G019",
+        "IT2a|f85r2.1|G020",
+        "IT2a|f85r2.1|G021",
+        "IT2a|f85r2.1|G022",
+        "IT2a|f85r2.1|G023",
+        "IT2a|f85r2.1|G024"
+      ],
+      "actual": [
+        "otar",
+        "chepaiin",
+        "otadar",
+        "otodaiin",
+        "opoiin",
+        "otaiin",
+        "qopchchs",
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin",
+        "olaiin"
+      ],
+      "literal_match": false,
+      "mismatches": [
+        {
+          "id": "IT2a|f85r2.1|G010",
+          "actual": "otadar",
+          "required": "otodar"
+        },
+        {
+          "id": "IT2a|f85r2.1|G012",
+          "actual": "opoiin",
+          "required": "opaiin"
+        },
+        {
+          "id": "IT2a|f85r2.1|G014",
+          "actual": "qopchchs",
+          "required": "qopchas"
+        }
+      ],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    },
+    {
+      "clause": "COMPLETE_FIRST_FRAME",
+      "edition": "RF1b",
+      "ids": [
+        "RF1b|f85r2.1|G008",
+        "RF1b|f85r2.1|G009",
+        "RF1b|f85r2.1|G010",
+        "RF1b|f85r2.1|G011",
+        "RF1b|f85r2.1|G012",
+        "RF1b|f85r2.1|G013",
+        "RF1b|f85r2.1|G014",
+        "RF1b|f85r2.1|G015",
+        "RF1b|f85r2.1|G016",
+        "RF1b|f85r2.1|G017",
+        "RF1b|f85r2.1|G018",
+        "RF1b|f85r2.1|G019",
+        "RF1b|f85r2.1|G020",
+        "RF1b|f85r2.1|G021",
+        "RF1b|f85r2.1|G022",
+        "RF1b|f85r2.1|G023",
+        "RF1b|f85r2.1|G024"
+      ],
+      "actual": [
+        "otar",
+        "chepaiin",
+        "ot@221;dar",
+        "otodaiin",
+        "opaiin",
+        "otaiin",
+        "qopchas",
+        "otche@152;y",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar",
+        "octhody",
+        "shedaiin",
+        "olaiin"
+      ],
+      "literal_match": false,
+      "mismatches": [
+        {
+          "id": "RF1b|f85r2.1|G010",
+          "actual": "ot@221;dar",
+          "required": "otodar"
+        },
+        {
+          "id": "RF1b|f85r2.1|G015",
+          "actual": "otche@152;y",
+          "required": "otchedy"
+        }
+      ],
+      "assertion_limit": "Only COMPLETE_FIRST_FRAME licenses the scoped first assertion; other items are subexpressions."
+    }
+  ],
+  "binding_table": {
+    "scope": "ZL.1G008 through G024 only",
+    "a": {
+      "kind": "ADAMANT",
+      "introducer": "ZL3b|f85r2.1|G009",
+      "reuses": [
+        "ZL3b|f85r2.1|G020"
+      ]
+    },
+    "i": {
+      "kind": "IRON",
+      "introducer": "ZL3b|f85r2.1|G011",
+      "reuses": [
+        "ZL3b|f85r2.1|G015",
+        "ZL3b|f85r2.1|G019"
+      ]
+    },
+    "m": {
+      "kind": "MAGNET",
+      "introducer": "ZL3b|f85r2.1|G016",
+      "reuses": [
+        "ZL3b|f85r2.1|G023"
+      ],
+      "reflexive_endpoint": "ZL3b|f85r2.1|G018 targets current relation Actor m"
+    }
+  },
+  "all_assigned_occurrences": {
+    "otar": [
+      "ZL3b|f85r2.1|G008",
+      "IT2a|f85r2.1|G008",
+      "RF1b|f85r2.1|G008"
+    ],
+    "chepaiin": [
+      "ZL3b|f85r2.1|G009",
+      "IT2a|f85r2.1|G009",
+      "RF1b|f85r2.1|G009"
+    ],
+    "otodar": [
+      "ZL3b|f85r2.1|G010"
+    ],
+    "otodaiin": [
+      "ZL3b|f85r2.1|G011",
+      "IT2a|f85r2.1|G011",
+      "RF1b|f85r2.1|G011"
+    ],
+    "opaiin": [
+      "ZL3b|f85r2.1|G012",
+      "ZL3b|f85r2.1|G034",
+      "RF1b|f85r2.1|G012"
+    ],
+    "otaiin": [
+      "ZL3b|f85r2.1|G013",
+      "IT2a|f85r2.1|G013",
+      "RF1b|f85r2.1|G013"
+    ],
+    "qopchas": [
+      "ZL3b|f85r2.1|G014",
+      "RF1b|f85r2.1|G014"
+    ],
+    "otchedy": [
+      "ZL3b|f85r2.1|G015",
+      "ZL3b|f85r2.1|G019",
+      "ZL3b|f85r2.8|G001",
+      "IT2a|f85r2.1|G015",
+      "IT2a|f85r2.1|G019",
+      "IT2a|f85r2.8|G001",
+      "RF1b|f85r2.1|G019"
+    ],
+    "olkaiin": [
+      "ZL3b|f85r2.1|G016",
+      "IT2a|f85r2.1|G016",
+      "RF1b|f85r2.1|G016"
+    ],
+    "odar": [
+      "ZL3b|f85r2.1|G017",
+      "ZL3b|f85r2.1|G021",
+      "IT2a|f85r2.1|G017",
+      "IT2a|f85r2.1|G021",
+      "RF1b|f85r2.1|G017",
+      "RF1b|f85r2.1|G021"
+    ],
+    "aloees": [
+      "ZL3b|f85r2.1|G018",
+      "IT2a|f85r2.1|G018",
+      "RF1b|f85r2.1|G018"
+    ],
+    "qotedaiin": [
+      "ZL3b|f85r2.1|G020",
+      "IT2a|f85r2.1|G020",
+      "RF1b|f85r2.1|G020"
+    ],
+    "octhody": [
+      "ZL3b|f85r2.1|G022",
+      "IT2a|f85r2.1|G022",
+      "RF1b|f85r2.1|G022"
+    ],
+    "shedaiin": [
+      "ZL3b|f85r2.1|G023",
+      "ZL3b|f85r2.11|G003",
+      "IT2a|f85r2.1|G023",
+      "IT2a|f85r2.11|G003",
+      "RF1b|f85r2.1|G023",
+      "RF1b|f85r2.11|G003"
+    ],
+    "olaiin": [
+      "ZL3b|f85r2.1|G024",
+      "ZL3b|f85r2.18|G002",
+      "IT2a|f85r2.1|G024",
+      "IT2a|f85r2.18|G002",
+      "RF1b|f85r2.1|G024"
+    ]
+  },
+  "counts": {
+    "all_rows": 473,
+    "whole_types": 15,
+    "assigned_rows": 54,
+    "unknown_rows": 419,
+    "by_reader": {
+      "ZL3b": {
+        "rows": 156,
+        "assigned": 21
+      },
+      "IT2a": {
+        "rows": 157,
+        "assigned": 17
+      },
+      "RF1b": {
+        "rows": 160,
+        "assigned": 16
+      }
+    },
+    "complete_scoped_frames": {
+      "ZL3b": 1,
+      "IT2a": 0,
+      "RF1b": 0
+    }
+  },
+  "costs": {
+    "whole_lookups": 15,
+    "payload_entries": 17,
+    "ordinary_nominal_kinds": 3,
+    "nominal_whole_expressions": 6,
+    "paid_synonym_pairs": [
+      [
+        "chepaiin",
+        "qotedaiin"
+      ],
+      [
+        "otodaiin",
+        "otchedy"
+      ],
+      [
+        "olkaiin",
+        "shedaiin"
+      ]
+    ],
+    "internal_cuts": 0,
+    "internal_morphology": null,
+    "construction_rules": [
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "binding_rules": [
+      "A1",
+      "A2"
+    ],
+    "scope_cost": "A8 keeps generic disposition conceded and guards only the main influence; A1 binds one role per named kind within written IF/END scope",
+    "no_alias_meaning": "No raw character/entity rewriting or collapsing a variant into another spelling. Synonyms are separate exact ordinary lexical entries, each charged."
+  },
+  "source_duties": [
+    {
+      "number": 1,
+      "duty": "Conditional setting: an adamant set by iron. Preserve by as the contextual spatial relation; do not replace it with contact or mixing.",
+      "first_status": "LOCAL ZL SUPPLIED: generic setting-by condition with explicit a/i, no contact/arrival claim. Whole target still incomplete."
+    },
+    {
+      "number": 2,
+      "duty": "Prevention: the iron is not suffered to come to the magnet. The source attributes prevention to adamant; it does not say the magnet ceases to have its described power.",
+      "first_status": "UNMET: no explicit prevention/coming-to-magnet relation yet."
+    },
+    {
+      "number": 3,
+      "duty": "Competing direction: the adamant draws the iron by a manner of violence from the magnet. Preserve the qualified manner phrase without inventing a numerical force.",
+      "first_status": "PARTIAL ZL: guarded Adamant draw-away with i/m; manner-of-violence qualification not supplied."
+    },
+    {
+      "number": 4,
+      "duty": "Explanatory concession: though the magnet draws iron to itself, adamant draws it away from magnet. Retain the magnet claim, patient sharing and opposite direction. The historical assertion is not a validated physical law.",
+      "first_status": "LOCAL ZL SUPPLIED under selected D: positive magnet disposition conceded, same i, reflexive m and opposed endpoint. No active simultaneous magnet event or second completed trajectory."
+    },
+    {
+      "number": 5,
+      "duty": "Naming: it is called a precious stone of reconciliation and love. Reported naming is distinct from the following claimed effect.",
+      "first_status": "UNMET: reported precious/reconciliation/love naming absent; selected Adamant topic antecedent remains a source interpretation for eventual whole."
+    },
+    {
+      "number": 6,
+      "duty": "Human conditional: if a woman is away from her husband OR trespasses against him, by virtue of the stone she is the sooner reconciled to have her husband's grace. Preserve the disjunction, same woman/husband, qualified sooner, causal attribution and purpose/result wording. No particular event, exact time, guaranteed immediate success or modern efficacy is asserted.",
+      "first_status": "UNMET: full woman/husband disjunction, same participants, stone influence, sooner and grace/purpose remain absent."
+    }
+  ],
+  "residuals": [
+    ".1G001–G007 and G025 onward are not integrated; entire156ZLgroups remain owed.",
+    "Repeated nominal words outside a complete frame retain kind values but have no asserted case role by default.",
+    "Repeated THEN, DRAW, END_IF elsewhere retain values; unscoped/malformed uses are unresolved, not ignored.",
+    "IT otadar/opoiin/qopchchs and RF ot@221;dar/otche@152;y remain exact unknowns where they block the frame; no fallback meaning.",
+    "Prevention and manner-of-violence are still missing even though guarded away-drawing is written.",
+    "Human/naming duties remain wholly open; the same physical stone, iron=woman and magnet=husband are not implied."
+  ],
+  "exposure": [
+    "Prior project,595,602first and604authorship exposure persists. Fresh605values; no old glossary adopted.",
+    "Only current selection/source-scope and owned source plus safe473table. No unfinished602packet, new data/image/source/reserve/contact.",
+    "No blind-confirmation claim."
+  ],
+  "rivals": [
+    "Two independent iron patients are forbidden by the fixed within-frame repeated-name unification but remain an alternative external grammar.",
+    "An active simultaneous magnet force would add unselected C; two completed opposite trajectories would add still more.",
+    "Treating TOWARD reflexive endpoint as iron or Adamant changes written role resolution.",
+    "Dropping condition/concession changes proposition modality; names alone do not supply the construction."
+  ],
+  "limitations": [
+    "No historical word confirmation, efficacy, modern force balance, contact, arrival, exact force or physical conservation.",
+    "A single ZL complete construction is not reader-independent confirmation or a whole source reading.",
+    "No semantic executor/decoder or broad search built.",
+    "Stop at first freeze; no further dictionary filling without root authorization."
+  ],
+  "input_receipts": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ADAMANT_ROOT_SELECTION.md",
+      "sha256": "459337d8df1c431257ab0b9f34343629dd3c8763d990e0d09b7dd9269d64f4c7"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ADAMANT_ROOT_PREPARATION.md",
+      "sha256": "fec8daef9332ca0c1980ef31d8af8cd1461e0e24df8a2e0b5c2a136d93e6edcd"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ADAMANT_SOURCE_SCOPE_D.md",
+      "sha256": "02760a7a9478d2a0480e125b90a0dc0b71ef9a5602770a5fdcc69a2c788cccbe"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ADAMANT_SOURCE_SCOPE_D_RECEIPT.json",
+      "sha256": "9296d96972744e66dac027417f8709c24b67c5d91af15a6c5db5c5c3d5368863"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/raw_adamant_shared_patient_context_20260927.json",
+      "sha256": "d958aed489c41919bec88cbef4ef7949b04b8b3c3ec235acf9303381fab47abc"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/NEXT_AFTER602_SUPPLY_D_ID097.txt",
+      "sha256": "22ffe9fe50dfaee208021a63a14f99bd08daf322010edb189b203ae4a342ec36"
+    },
+    {
+      "path": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+      "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c"
+    }
+  ],
+  "all_row_consequences": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/ADAMANT_AUTHOR_FIRST_473_CONSEQUENCES.tsv",
+    "sha256": "6875f272dcd670acd89274d0dafbe9c7997af961ba68c3136789cec880e79f0d",
+    "method": "literal serialization and manual tree/role inventory, not semantic execution"
+  },
+  "literal_validation": {
+    "checked_utc": "2026-09-27T13:00:22.873917+00:00",
+    "checks_passed": 1002,
+    "pattern_inventory": {
+      "A3": [
+        [
+          "ZL3b|f85r2.1|G009",
+          "ZL3b|f85r2.1|G010",
+          "ZL3b|f85r2.1|G011"
+        ]
+      ],
+      "A4": [
+        [
+          "ZL3b|f85r2.1|G015",
+          "ZL3b|f85r2.1|G016",
+          "ZL3b|f85r2.1|G017",
+          "ZL3b|f85r2.1|G018"
+        ],
+        [
+          "IT2a|f85r2.1|G015",
+          "IT2a|f85r2.1|G016",
+          "IT2a|f85r2.1|G017",
+          "IT2a|f85r2.1|G018"
+        ]
+      ],
+      "A5": [
+        [
+          "ZL3b|f85r2.1|G019",
+          "ZL3b|f85r2.1|G020",
+          "ZL3b|f85r2.1|G021",
+          "ZL3b|f85r2.1|G022",
+          "ZL3b|f85r2.1|G023"
+        ],
+        [
+          "IT2a|f85r2.1|G019",
+          "IT2a|f85r2.1|G020",
+          "IT2a|f85r2.1|G021",
+          "IT2a|f85r2.1|G022",
+          "IT2a|f85r2.1|G023"
+        ],
+        [
+          "RF1b|f85r2.1|G019",
+          "RF1b|f85r2.1|G020",
+          "RF1b|f85r2.1|G021",
+          "RF1b|f85r2.1|G022",
+          "RF1b|f85r2.1|G023"
+        ]
+      ]
+    },
+    "limits": "Literal/hash/tuple/value/type-pattern availability only. No semantic executor, whole parse, truth or historical meaning test."
+  }
+}
