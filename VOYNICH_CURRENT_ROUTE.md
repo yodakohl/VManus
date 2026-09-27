@@ -8,8 +8,8 @@ Task: New10hblock03:37:01-13:37:01UTC;581context-dependent regimen synopsis.
 Latest decision: Recipientcontrast source-supported;timebranch/omissions explicit;577closed.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/CONTEXT_SYNOPSIS_ROOT_DECISION.md.
 Assumptions: Whole156ZL/473all;no4blockmap/fixedpatient;0words;reservesclosed.
-Resume: Review A interfaceby05:05;then wholefreeze05:30;trialceiling05:50UTC.
-Running: A581contract;rootpublication;B Karlsruhecollation;C C54chapterproducer.
+Resume: A approved interface;wholefreeze05:30;root-first review then B;ceiling05:50UTC.
+Running: A581whole;root publication;B ready;C bounded LJS463 source producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
