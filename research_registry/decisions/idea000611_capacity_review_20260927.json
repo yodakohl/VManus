@@ -1,0 +1,42 @@
+{
+  "record_id": "IDEA000611",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root primary-source capacity review",
+  "reason": "GDT822/823 already tried the exact f81r.20/f82r.21 triple as a fire/material-source clause. W53's full-image review found a possible connected bathing system but no secure flow direction, material transfer, or word owner. A directed versus static comparison has no independently identified endpoints yet.",
+  "assessment_basis": "preselection_binding_capacity_audit",
+  "evidence": [
+    "experiments/yolo/gdt822_qokeey_physical_fire_context/REPORT.md",
+    "experiments/yolo/gdt823_qol_source_anaphor_trial/REPORT.md",
+    "research_registry/proposals/translation_programs_20260912/work/W53/REPORT.md",
+    "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/REPORT.md"
+  ],
+  "blockers": [
+    {
+      "code": "no_directed_endpoint_capacity",
+      "detail": "Existing native image review does not secure source, destination, flow direction or one word-to-scene attachment for both record owners.",
+      "evidence": [
+        "research_registry/proposals/translation_programs_20260912/work/W53/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "description": "Independently identified comparable directed endpoints at both owners, tied to the full text and not inferred from the target phrase."
+      }
+    ],
+    "not_sufficient": [
+      "The known literal triple alone",
+      "The three alternate transcriptions counted as independent witnesses",
+      "Reassigning fire or source glosses without a new referent"
+    ]
+  },
+  "relations": [
+    {"type": "related_to", "target": "GDT822"},
+    {"type": "related_to", "target": "GDT823"},
+    {"type": "related_to", "target": "GDT1055"}
+  ]
+}

@@ -4,14 +4,14 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Source-bound content test for repeated constructions.
-Latest decision: Two three-group strings recur across leaves in all readings;
-no longer repeat, semantic owner or translated word.
-Working files: experiments/yolo/gdt1055_cross_folio_running_trigram_stability/REPORT.md.
-Assumptions: GDT791 line owners broad; ZL/IT/RF one manuscript; no meaning binding.
-Resume: Seek a source-grounded contrast for `daiin chey lchedy` or
-`qol chedy qokeey`; recurrence alone gives no meaning.
-Running: None. No novel GDT874 local-label route.
+Task: Seek a bound content contrast beyond GDT1055.
+Latest decision: GDT1055 exact triples are text identities only; GDT822/823
+already tried the f81r.20/f82r.21 pair, and GDT1040 used the f83r.3 core.
+Working files: GDT1055 REPORT; registry decisions IDEA000610/611.
+Assumptions: W52/W53 no secure word owner or flow direction;0 confirmed words.
+Resume: Avoid semantic recycling of GDT1055; choose a new independently owned
+source contrast before a new meaning test. IDEA000610/611 need new binding.
+Running: None. Raw ideas 610–613 retained; 610/611 capacity-reviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

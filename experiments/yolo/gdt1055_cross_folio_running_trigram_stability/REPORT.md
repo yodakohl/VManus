@@ -11,6 +11,26 @@ meaning. No translated word follows. The two examples were seen before this
 registration; all counts below are a post-discovery descriptive audit, without
 a significance claim.
 
+### Prior-exposure correction (2026-09-27)
+
+The exact `qol chedy qokeey` recurrence at f81r.20/f82r.21 was **already
+explicit** in [GDT822](../gdt822_qokeey_physical_fire_context/REPORT.md) and
+[GDT823](../gdt823_qol_source_anaphor_trial/REPORT.md). Those studies tried
+`qokeey = physical fire?` and `qol = from that material?`, while retaining
+unresolved referents and conflicting possible transformations. GDT1055 must
+not be read as discovering that phrase or renewing either gloss. The f83r.3
+`chey daiin chey lchedy qokaiin` sequence also supplied the contradiction
+for the fixed loan grammar in
+[GDT1040](../gdt1040_loan_frozen_valency_whole_grammar/REPORT.md).
+GDT1055's incremental result is the bounded **complete exact n=3–6 census**
+and strict alternate-reading inventory, not a fresh semantic lead. Its two
+all-reader triples cannot by themselves prioritize a meaning test.
+The prior native image reviews [W52](../../../research_registry/proposals/translation_programs_20260912/work/W52/REPORT.md)
+and [W53](../../../research_registry/proposals/translation_programs_20260912/work/W53/REPORT.md)
+provide neither a word owner for the f83r scene nor a secure flow direction
+for f81r/f82r. The later raw proposals IDEA000610/611 therefore remain
+untested pending new independent binding; their repetition is not a new test.
+
 ## Complete result
 
 Windows contain 3–6 exact raw groups separated by definite spaces on one P

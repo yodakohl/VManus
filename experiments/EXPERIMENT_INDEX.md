@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1055 | GDT1055_leaf_rule_correction | `RESULT_UNCHANGED` | [report](../experiments/yolo/gdt1055_cross_folio_running_trigram_stability/REPORT.md) | 10 | 28.6 KiB | 4 | STRUCTURED_YOLO |
+| GDT1055 | GDT1055_predecessor_binding_audit | `NO_NEW_SEMANTIC_LEAD_FROM_EXACT_TRIPLES` | [report](../experiments/yolo/gdt1055_cross_folio_running_trigram_stability/REPORT.md) | 10 | 29.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT1054 | GDT1054 | `POST_SELECTED_OCCUPANCY_CALIBRATION_NO_MEANING` | [report](../experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/REPORT.md) | 9 | 19.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT1053 | GDT1053_capacity_diagnostic | `SPARSE_MIXED_CODE_CAPACITY` | [report](../experiments/yolo/gdt1053_chody_dry_local_baseline/REPORT.md) | 11 | 75.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT1052 | GDT1052 | `REJECTED_BY_PARAGRAPH_EDGE` | [report](../experiments/yolo/gdt1052_chody_source_frame_audit/REPORT.md) | 13 | 244.1 KiB | 6 | STRUCTURED_YOLO |

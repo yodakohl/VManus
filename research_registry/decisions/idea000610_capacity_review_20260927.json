@@ -1,0 +1,41 @@
+{
+  "record_id": "IDEA000610",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root primary-source capacity review",
+  "reason": "The exact pair is available, but f76r.42 is unillustrated and the f83r image review gives no single-word owner or independent operand identities. The proposal cannot yet distinguish a relation from a serial list or process.",
+  "assessment_basis": "preselection_binding_capacity_audit",
+  "evidence": [
+    "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/REPORT.md",
+    "experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md",
+    "research_registry/proposals/translation_programs_20260912/work/W52/REPORT.md",
+    "experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md"
+  ],
+  "blockers": [
+    {
+      "code": "missing_independent_operand_binding",
+      "detail": "The two complete strings and broad page owner do not identify comparable operands or select a chey relation.",
+      "evidence": [
+        "experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md",
+        "research_registry/proposals/translation_programs_20260912/work/W52/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "description": "Independent source-side operand roles tied to both complete lines or a genuinely different fixed falsifier."
+      }
+    ],
+    "not_sufficient": [
+      "Another exact recurrence scan of these two lines",
+      "Reusing the refuted GDT1040 loan syntax as a semantic anchor"
+    ]
+  },
+  "relations": [
+    {"type": "related_to", "target": "GDT1055"},
+    {"type": "related_to", "target": "GDT1040"}
+  ]
+}
