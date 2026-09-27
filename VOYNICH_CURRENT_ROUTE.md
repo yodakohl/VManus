@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: New10hblock03:37:01-13:37:01UTC;602quantityconstruction first proposal.
-Latest decision: 595public/incomplete;park nine-site reread;602complete source selected.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_ROOT_DECISION.md.
-Assumptions: Exposed473rows;freshvalues;all14periods;no unitconversion;0words;reservesclosed.
-Resume: Review frozen602first proposal before whole authorship;deadline in selection receipt.
-Running: A602firstproposal;rootreview/publication;Bsourcecritiqueclosed;C603604RAWregistered.
+Task: New10h03:37:01-13:37:01UTC;602whole planetary quantity account.
+Latest decision: 602first3periods supplied;whole authorized;specific scope concern withdrawn.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_FIRST_ROOT_REVIEW.md.
+Assumptions: Exposed473;first rules fixed;14periods/M01-12;0words;reservesclosed.
+Resume: Review602whole by12:35:50UTC;inclusive13:01:50;retain root scope correction.
+Running: Awhole;Breview ready;rootpublication;Drawsupply;Cclosed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

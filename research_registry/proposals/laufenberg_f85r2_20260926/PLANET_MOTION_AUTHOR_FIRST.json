@@ -1,0 +1,1623 @@
+{
+  "idea": "IDEA000602",
+  "stage": "first_quantity_contract",
+  "status": "CONSTRUCTION_AND_THREE_LOCAL_PERIOD_ASSERTIONS_PRESENT_WHOLE_INCOMPLETE",
+  "actual_author_start_utc": "2026-09-27T11:47:00Z",
+  "selection_utc": "2026-09-27T11:46:50.667762+00:00",
+  "first_deadline_utc": "2026-09-27T11:58:50.667762+00:00",
+  "scope": {
+    "file": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+    "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "original_fields": [
+      "edition",
+      "block",
+      "locus",
+      "source_group_id",
+      "source_group_index",
+      "source_group_count",
+      "within_line_position",
+      "paragraph_start",
+      "paragraph_end",
+      "left_separator",
+      "right_separator",
+      "ivtff_group_raw"
+    ],
+    "rows": 473,
+    "loci": 24,
+    "readers": {
+      "ZL3b": 156,
+      "IT2a": 157,
+      "RF1b": 160
+    },
+    "no_normalization": true,
+    "display_order": "numeric locus/group; assumed, not historical"
+  },
+  "components": [
+    {
+      "literal": "d",
+      "type": "NumberPrefix",
+      "value": 30
+    },
+    {
+      "literal": "qoted",
+      "type": "NumberPrefix",
+      "value": 2
+    },
+    {
+      "literal": "ar",
+      "type": "UnitSuffix",
+      "bare_type": "Unit",
+      "value": "YEAR"
+    },
+    {
+      "literal": "aiin",
+      "type": "UnitSuffix",
+      "bare_type": "Unit",
+      "value": "DAY"
+    }
+  ],
+  "derived_wholes": {
+    "dar": {
+      "cut": [
+        "d",
+        "ar"
+      ],
+      "value": {
+        "quantity": [
+          30,
+          "YEAR"
+        ]
+      }
+    },
+    "daiin": {
+      "cut": [
+        "d",
+        "aiin"
+      ],
+      "value": {
+        "quantity": [
+          30,
+          "DAY"
+        ]
+      }
+    },
+    "qotedar": {
+      "cut": [
+        "qoted",
+        "ar"
+      ],
+      "value": {
+        "quantity": [
+          2,
+          "YEAR"
+        ]
+      }
+    },
+    "qotedaiin": {
+      "cut": [
+        "qoted",
+        "aiin"
+      ],
+      "value": {
+        "quantity": [
+          2,
+          "DAY"
+        ]
+      }
+    }
+  },
+  "lexicon": {
+    "dar": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          30,
+          "YEAR"
+        ]
+      },
+      "status": "derived_G01",
+      "cut": [
+        "d",
+        "ar"
+      ]
+    },
+    "daiin": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          30,
+          "DAY"
+        ]
+      },
+      "status": "derived_G01",
+      "cut": [
+        "d",
+        "aiin"
+      ]
+    },
+    "qotedar": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          2,
+          "YEAR"
+        ]
+      },
+      "status": "derived_G01",
+      "cut": [
+        "qoted",
+        "ar"
+      ]
+    },
+    "qotedaiin": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          2,
+          "DAY"
+        ]
+      },
+      "status": "derived_G01",
+      "cut": [
+        "qoted",
+        "aiin"
+      ]
+    },
+    "ar": {
+      "type": "Unit",
+      "value": "YEAR",
+      "status": "whole_G02"
+    },
+    "aiin": {
+      "type": "Unit",
+      "value": "DAY",
+      "status": "whole_G02"
+    },
+    "ypshedy": {
+      "type": "Planet",
+      "value": "SATURN",
+      "status": "whole_G02"
+    },
+    "qodar": {
+      "type": "Planet",
+      "value": "MARS",
+      "status": "whole_G02"
+    },
+    "qotchdy": {
+      "type": "Planet",
+      "value": "SUN",
+      "status": "whole_G02"
+    },
+    "chedy": {
+      "type": "PeriodRole",
+      "value": "COURSE",
+      "status": "whole_G02"
+    },
+    "qokar": {
+      "type": "PeriodRole",
+      "value": "COURSE",
+      "status": "whole_G02"
+    },
+    "chckhey": {
+      "type": "PeriodRole",
+      "value": "EACH_SIGN_STAY",
+      "status": "whole_G02"
+    },
+    "qotaiin": {
+      "type": "QuantitySumConnector",
+      "value": "PLUS",
+      "status": "whole_G02"
+    },
+    "tchedy": {
+      "type": "Number",
+      "value": {
+        "numerator": 21,
+        "denominator": 2
+      },
+      "status": "whole_G02"
+    },
+    "otedy": {
+      "type": "Unit",
+      "value": "HOUR",
+      "status": "whole_G02"
+    }
+  },
+  "types": {
+    "QuantityExpr": "Quantity | Sum(QuantityExpr,QuantityExpr)",
+    "Quantity": "record Number x Unit",
+    "Planet": "constant named kind; no event or figure cast",
+    "PeriodRole": "Planet -> QuantityExpr -> Proposition",
+    "NumberPrefix": "internal component with magnitude field, not free binder",
+    "UnitSuffix": "internal component with unit tag, also explicit bare Unit constant"
+  },
+  "rules": [
+    {
+      "id": "G01",
+      "input": "entire_group = NumberPrefix UnitSuffix",
+      "domain": {
+        "prefix": [
+          "d",
+          "qoted"
+        ],
+        "suffix": [
+          "ar",
+          "aiin"
+        ]
+      },
+      "output": "Quantity(prefix.magnitude,suffix.unit)",
+      "recursive": false,
+      "exact_full_string": true
+    },
+    {
+      "id": "G02",
+      "input": "exact whole in lexicon",
+      "output": "its fixed value/type",
+      "may_override_G01": false
+    },
+    {
+      "id": "G03",
+      "input": [
+        "Number",
+        "Unit"
+      ],
+      "output": "Quantity(number,unit)",
+      "adjacent": true
+    },
+    {
+      "id": "G04",
+      "input": [
+        "QuantityExpr",
+        "PLUS",
+        "QuantityExpr"
+      ],
+      "output": "Sum(left,right)",
+      "adjacent_expressions": true
+    },
+    {
+      "id": "G05",
+      "input": [
+        "Planet",
+        "QuantityExpr",
+        "PeriodRole"
+      ],
+      "output": "role(planet,quantity)",
+      "adjacent_expressions": true
+    },
+    {
+      "id": "G06",
+      "input": [
+        "QuantityExpr",
+        "Planet",
+        "PeriodRole"
+      ],
+      "output": "role(planet,quantity)",
+      "adjacent_expressions": true
+    }
+  ],
+  "roles": {
+    "COURSE": {
+      "type": "Planet -> QuantityExpr -> Proposition",
+      "formula": "lambda p. lambda q. CompletedCoursePeriod(p,q)",
+      "payload_count": 1
+    },
+    "EACH_SIGN_STAY": {
+      "type": "Planet -> QuantityExpr -> Proposition",
+      "formula": "lambda p. lambda q. forall s:ZodiacSign, SignStayPeriod(p,s,q)",
+      "scope": "sign variable local only; explicit role supplies binder",
+      "payload_count": 3
+    }
+  },
+  "clauses": [
+    {
+      "id": "P1_SUN_STAY",
+      "raw": [
+        "daiin",
+        "qotaiin",
+        "tchedy",
+        "otedy",
+        "qotchdy",
+        "chckhey"
+      ],
+      "zl_source_ids": [
+        "ZL3b|f85r2.9|G001",
+        "ZL3b|f85r2.9|G002",
+        "ZL3b|f85r2.9|G003",
+        "ZL3b|f85r2.9|G004",
+        "ZL3b|f85r2.9|G005",
+        "ZL3b|f85r2.9|G006"
+      ],
+      "productions": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G06"
+      ],
+      "tree": {
+        "rule": "G06",
+        "quantity": {
+          "rule": "G04",
+          "left": {
+            "rule": "G01",
+            "parts": [
+              "d",
+              "aiin"
+            ],
+            "result": {
+              "quantity": [
+                30,
+                "DAY"
+              ]
+            }
+          },
+          "connector": "qotaiin",
+          "right": {
+            "rule": "G03",
+            "number": "tchedy",
+            "unit": "otedy",
+            "result": {
+              "quantity": [
+                {
+                  "numerator": 21,
+                  "denominator": 2
+                },
+                "HOUR"
+              ]
+            }
+          }
+        },
+        "planet": "qotchdy",
+        "role": "chckhey"
+      },
+      "formula": "forall s:ZodiacSign, SignStayPeriod(SUN,s,Sum(Quantity(30,DAY),Quantity(21/2,HOUR)))",
+      "source_entry": "SUN_SIGN_STAY",
+      "whole_line_complete": true,
+      "variants": {
+        "ZL3b": "computed",
+        "IT2a": "computed",
+        "RF1b": "incomplete: G004 ote@152;y has no Unit assignment"
+      }
+    },
+    {
+      "id": "P2_MARS_COURSE",
+      "raw": [
+        "qodar",
+        "qotedar",
+        "qokar"
+      ],
+      "zl_source_ids": [
+        "ZL3b|f85r2.10|G002",
+        "ZL3b|f85r2.10|G003",
+        "ZL3b|f85r2.10|G004"
+      ],
+      "productions": [
+        "G01",
+        "G02",
+        "G05"
+      ],
+      "tree": {
+        "rule": "G05",
+        "planet": "qodar",
+        "quantity": {
+          "rule": "G01",
+          "parts": [
+            "qoted",
+            "ar"
+          ],
+          "result": {
+            "quantity": [
+              2,
+              "YEAR"
+            ]
+          }
+        },
+        "role": "qokar"
+      },
+      "formula": "CompletedCoursePeriod(MARS,Quantity(2,YEAR))",
+      "source_entry": "MARS_COURSE",
+      "whole_line_complete": false,
+      "surrounding_unknown_groups": [
+        "G001 ytchedy",
+        "G005 qotchd",
+        "G006 qotom"
+      ],
+      "variants": {
+        "ZL3b": "computed_subspan",
+        "IT2a": "computed_subspan",
+        "RF1b": "incomplete: G002 qo@152;ar has no Planet assignment"
+      }
+    },
+    {
+      "id": "P3_SATURN_COURSE",
+      "raw": [
+        "ypshedy",
+        "dar",
+        "chedy"
+      ],
+      "zl_source_ids": [
+        "ZL3b|f85r2.15|G001",
+        "ZL3b|f85r2.15|G002",
+        "ZL3b|f85r2.15|G003"
+      ],
+      "productions": [
+        "G01",
+        "G02",
+        "G05"
+      ],
+      "tree": {
+        "rule": "G05",
+        "planet": "ypshedy",
+        "quantity": {
+          "rule": "G01",
+          "parts": [
+            "d",
+            "ar"
+          ],
+          "result": {
+            "quantity": [
+              30,
+              "YEAR"
+            ]
+          }
+        },
+        "role": "chedy"
+      },
+      "formula": "CompletedCoursePeriod(SATURN,Quantity(30,YEAR))",
+      "source_entry": "SATURN_COURSE",
+      "whole_line_complete": false,
+      "surrounding_unknown_groups": [
+        "G004 or",
+        "G005 am"
+      ],
+      "variants": {
+        "ZL3b": "computed_subspan",
+        "IT2a": "computed_subspan",
+        "RF1b": "incomplete: G001 yfshe@152;y has no Planet assignment"
+      }
+    }
+  ],
+  "all_assigned_occurrences": {
+    "dar": [
+      "ZL3b|f85r2.1|G032",
+      "ZL3b|f85r2.15|G002",
+      "IT2a|f85r2.1|G032",
+      "IT2a|f85r2.15|G002",
+      "RF1b|f85r2.1|G032",
+      "RF1b|f85r2.15|G002"
+    ],
+    "daiin": [
+      "ZL3b|f85r2.1|G026",
+      "ZL3b|f85r2.4|G005",
+      "ZL3b|f85r2.9|G001",
+      "IT2a|f85r2.1|G026",
+      "IT2a|f85r2.4|G005",
+      "IT2a|f85r2.9|G001",
+      "RF1b|f85r2.1|G026",
+      "RF1b|f85r2.4|G005",
+      "RF1b|f85r2.9|G001"
+    ],
+    "qotedar": [
+      "ZL3b|f85r2.10|G003",
+      "IT2a|f85r2.10|G003",
+      "RF1b|f85r2.10|G003"
+    ],
+    "qotedaiin": [
+      "ZL3b|f85r2.1|G020",
+      "IT2a|f85r2.1|G020",
+      "RF1b|f85r2.1|G020"
+    ],
+    "ar": [
+      "ZL3b|f85r2.1|G004",
+      "ZL3b|f85r2.22|G002",
+      "ZL3b|f85r2.24|G008",
+      "ZL3b|f85r2.24|G012",
+      "IT2a|f85r2.1|G004",
+      "IT2a|f85r2.20|G001",
+      "IT2a|f85r2.22|G002",
+      "IT2a|f85r2.24|G008",
+      "IT2a|f85r2.24|G013",
+      "IT2a|f85r2.24|G014",
+      "RF1b|f85r2.1|G004",
+      "RF1b|f85r2.20|G001",
+      "RF1b|f85r2.22|G002",
+      "RF1b|f85r2.24|G009",
+      "RF1b|f85r2.24|G014",
+      "RF1b|f85r2.24|G015"
+    ],
+    "aiin": [
+      "ZL3b|f85r2.1|G030",
+      "ZL3b|f85r2.2|G004",
+      "ZL3b|f85r2.11|G002",
+      "ZL3b|f85r2.14|G003",
+      "ZL3b|f85r2.20|G002",
+      "ZL3b|f85r2.22|G007",
+      "IT2a|f85r2.1|G030",
+      "IT2a|f85r2.2|G004",
+      "IT2a|f85r2.11|G002",
+      "IT2a|f85r2.14|G003",
+      "IT2a|f85r2.20|G002",
+      "RF1b|f85r2.2|G004",
+      "RF1b|f85r2.11|G002",
+      "RF1b|f85r2.14|G003",
+      "RF1b|f85r2.20|G002",
+      "RF1b|f85r2.22|G008"
+    ],
+    "ypshedy": [
+      "ZL3b|f85r2.15|G001",
+      "IT2a|f85r2.15|G001"
+    ],
+    "qodar": [
+      "ZL3b|f85r2.10|G002",
+      "IT2a|f85r2.10|G002"
+    ],
+    "qotchdy": [
+      "ZL3b|f85r2.9|G005",
+      "IT2a|f85r2.9|G005",
+      "RF1b|f85r2.9|G005"
+    ],
+    "chedy": [
+      "ZL3b|f85r2.15|G003",
+      "ZL3b|f85r2.19|G005",
+      "IT2a|f85r2.15|G003",
+      "IT2a|f85r2.19|G005",
+      "RF1b|f85r2.15|G003",
+      "RF1b|f85r2.19|G005"
+    ],
+    "qokar": [
+      "ZL3b|f85r2.10|G004",
+      "IT2a|f85r2.10|G004",
+      "RF1b|f85r2.10|G004"
+    ],
+    "chckhey": [
+      "ZL3b|f85r2.9|G006",
+      "IT2a|f85r2.9|G006",
+      "RF1b|f85r2.9|G006"
+    ],
+    "qotaiin": [
+      "ZL3b|f85r2.9|G002",
+      "IT2a|f85r2.9|G002",
+      "RF1b|f85r2.9|G002"
+    ],
+    "tchedy": [
+      "ZL3b|f85r2.9|G003",
+      "IT2a|f85r2.9|G003",
+      "RF1b|f85r2.9|G003"
+    ],
+    "otedy": [
+      "ZL3b|f85r2.1|G002",
+      "ZL3b|f85r2.9|G004",
+      "IT2a|f85r2.1|G002",
+      "IT2a|f85r2.1|G007",
+      "IT2a|f85r2.9|G004",
+      "RF1b|f85r2.1|G002"
+    ]
+  },
+  "non_G01_forms_with_literal_piece_substrings": [
+    {
+      "raw": "@221;laiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "RF1b|f85r2.18|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "aiin",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G030",
+        "ZL3b|f85r2.2|G004",
+        "ZL3b|f85r2.11|G002",
+        "ZL3b|f85r2.14|G003",
+        "ZL3b|f85r2.20|G002",
+        "ZL3b|f85r2.22|G007",
+        "IT2a|f85r2.1|G030",
+        "IT2a|f85r2.2|G004",
+        "IT2a|f85r2.11|G002",
+        "IT2a|f85r2.14|G003",
+        "IT2a|f85r2.20|G002",
+        "RF1b|f85r2.2|G004",
+        "RF1b|f85r2.11|G002",
+        "RF1b|f85r2.14|G003",
+        "RF1b|f85r2.20|G002",
+        "RF1b|f85r2.22|G008"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "aiinog",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.22|G007"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ar",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G004",
+        "ZL3b|f85r2.22|G002",
+        "ZL3b|f85r2.24|G008",
+        "ZL3b|f85r2.24|G012",
+        "IT2a|f85r2.1|G004",
+        "IT2a|f85r2.20|G001",
+        "IT2a|f85r2.22|G002",
+        "IT2a|f85r2.24|G008",
+        "IT2a|f85r2.24|G013",
+        "IT2a|f85r2.24|G014",
+        "RF1b|f85r2.1|G004",
+        "RF1b|f85r2.20|G001",
+        "RF1b|f85r2.22|G002",
+        "RF1b|f85r2.24|G009",
+        "RF1b|f85r2.24|G014",
+        "RF1b|f85r2.24|G015"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "aram",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.24|G013"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "arody",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.14|G004",
+        "IT2a|f85r2.14|G004",
+        "RF1b|f85r2.14|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ary",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.3|G005",
+        "IT2a|f85r2.3|G005",
+        "RF1b|f85r2.3|G005"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "chcph@152;ar",
+      "status": "unknown",
+      "source_group_ids": [
+        "RF1b|f85r2.1|G035"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "chcphdar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G035",
+        "IT2a|f85r2.1|G035"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "chdy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.18|G004",
+        "IT2a|f85r2.18|G004",
+        "RF1b|f85r2.18|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "chedy",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.15|G003",
+        "ZL3b|f85r2.19|G005",
+        "IT2a|f85r2.15|G003",
+        "IT2a|f85r2.19|G005",
+        "RF1b|f85r2.15|G003",
+        "RF1b|f85r2.19|G005"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "chepaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G009",
+        "IT2a|f85r2.1|G009",
+        "RF1b|f85r2.1|G009"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "chokcod",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.11|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ckhed[a:y]",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.20|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ckhedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.20|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "csedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.21|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "dair",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.4|G001",
+        "IT2a|f85r2.4|G001",
+        "RF1b|f85r2.4|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "dody",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.21|G003",
+        "IT2a|f85r2.21|G003",
+        "RF1b|f85r2.21|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ochar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.24|G002",
+        "IT2a|f85r2.24|G002",
+        "RF1b|f85r2.24|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ochedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.24|G004",
+        "IT2a|f85r2.24|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ockhdar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.5|G001",
+        "RF1b|f85r2.5|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ockhdor",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.5|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "octhody",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G022",
+        "IT2a|f85r2.1|G022",
+        "RF1b|f85r2.1|G022"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "odain",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.16|G003",
+        "IT2a|f85r2.16|G003",
+        "RF1b|f85r2.16|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "odar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G017",
+        "ZL3b|f85r2.1|G021",
+        "IT2a|f85r2.1|G017",
+        "IT2a|f85r2.1|G021",
+        "RF1b|f85r2.1|G017",
+        "RF1b|f85r2.1|G021"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "odchdy",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.1|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "odee@152;y",
+      "status": "unknown",
+      "source_group_ids": [
+        "RF1b|f85r2.1|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "odeedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ofaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.1|G034",
+        "RF1b|f85r2.1|G034"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ol@176;ar",
+      "status": "unknown",
+      "source_group_ids": [
+        "RF1b|f85r2.5|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "olaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G024",
+        "ZL3b|f85r2.18|G002",
+        "IT2a|f85r2.1|G024",
+        "IT2a|f85r2.18|G002",
+        "RF1b|f85r2.1|G024"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "olchedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.24|G006",
+        "IT2a|f85r2.24|G006"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "oldar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.17|G002",
+        "IT2a|f85r2.17|G002",
+        "RF1b|f85r2.17|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "olfar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.3|G004",
+        "IT2a|f85r2.3|G004",
+        "RF1b|f85r2.3|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "olkaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G016",
+        "IT2a|f85r2.1|G016",
+        "RF1b|f85r2.1|G016"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "olkar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.5|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "opaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G012",
+        "ZL3b|f85r2.1|G034",
+        "RF1b|f85r2.1|G012"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "opchdy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.2|G005",
+        "IT2a|f85r2.2|G005",
+        "RF1b|f85r2.2|G005"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "oraiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.4|G003",
+        "IT2a|f85r2.4|G003",
+        "RF1b|f85r2.4|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "orar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.17|G001",
+        "IT2a|f85r2.17|G001",
+        "RF1b|f85r2.17|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ot@221;dar",
+      "status": "unknown",
+      "source_group_ids": [
+        "RF1b|f85r2.1|G010"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otadar",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.1|G010"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G013",
+        "IT2a|f85r2.1|G013",
+        "RF1b|f85r2.1|G013"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G008",
+        "IT2a|f85r2.1|G008",
+        "RF1b|f85r2.1|G008"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otchdo",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.24|G007"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otchdy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G006",
+        "IT2a|f85r2.1|G006",
+        "IT2a|f85r2.1|G031",
+        "RF1b|f85r2.1|G006",
+        "RF1b|f85r2.1|G031"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otchedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G015",
+        "ZL3b|f85r2.1|G019",
+        "ZL3b|f85r2.8|G001",
+        "IT2a|f85r2.1|G015",
+        "IT2a|f85r2.1|G019",
+        "IT2a|f85r2.8|G001",
+        "RF1b|f85r2.1|G019"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "oted[o:a]r",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.24|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otedar",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.24|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otedas",
+      "status": "unknown",
+      "source_group_ids": [
+        "RF1b|f85r2.24|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otedy",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G002",
+        "ZL3b|f85r2.9|G004",
+        "IT2a|f85r2.1|G002",
+        "IT2a|f85r2.1|G007",
+        "IT2a|f85r2.9|G004",
+        "RF1b|f85r2.1|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "oteedo",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.24|G007",
+        "RF1b|f85r2.24|G008"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "oteedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G031"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otodaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G011",
+        "IT2a|f85r2.1|G011",
+        "RF1b|f85r2.1|G011"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otodar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G010"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "otody",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G007",
+        "ZL3b|f85r2.24|G005",
+        "IT2a|f85r2.24|G005",
+        "RF1b|f85r2.24|G005"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "pchedeey",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.7|G001",
+        "IT2a|f85r2.7|G001",
+        "RF1b|f85r2.7|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qo@152;ar",
+      "status": "unknown",
+      "source_group_ids": [
+        "RF1b|f85r2.10|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qodaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.16|G002",
+        "ZL3b|f85r2.21|G005",
+        "IT2a|f85r2.21|G005",
+        "RF1b|f85r2.16|G002",
+        "RF1b|f85r2.21|G005"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qodain",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.19|G002",
+        "IT2a|f85r2.16|G002",
+        "IT2a|f85r2.19|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qodar",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.10|G002",
+        "IT2a|f85r2.10|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qoekedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.21|G002",
+        "IT2a|f85r2.21|G002",
+        "RF1b|f85r2.21|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qokar",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.10|G004",
+        "IT2a|f85r2.10|G004",
+        "RF1b|f85r2.10|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qokedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.7|G003",
+        "IT2a|f85r2.7|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qokeody",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.21|G001",
+        "IT2a|f85r2.21|G001",
+        "RF1b|f85r2.21|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qokshedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.19|G001",
+        "IT2a|f85r2.19|G001",
+        "RF1b|f85r2.19|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qotaiin",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.9|G002",
+        "IT2a|f85r2.9|G002",
+        "RF1b|f85r2.9|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qotchd",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.10|G005",
+        "IT2a|f85r2.10|G005",
+        "RF1b|f85r2.10|G005"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qotchdy",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.9|G005",
+        "IT2a|f85r2.9|G005",
+        "RF1b|f85r2.9|G005"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "qtchedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "IT2a|f85r2.10|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "sary",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.18|G005",
+        "IT2a|f85r2.18|G005",
+        "RF1b|f85r2.18|G005"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "shedaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.1|G023",
+        "ZL3b|f85r2.11|G003",
+        "IT2a|f85r2.1|G023",
+        "IT2a|f85r2.11|G003",
+        "RF1b|f85r2.1|G023",
+        "RF1b|f85r2.11|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "shedor",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.12|G002",
+        "IT2a|f85r2.12|G002",
+        "RF1b|f85r2.12|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "shedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.13|G002",
+        "ZL3b|f85r2.20|G008",
+        "ZL3b|f85r2.21|G004",
+        "ZL3b|f85r2.22|G003",
+        "IT2a|f85r2.13|G002",
+        "IT2a|f85r2.20|G008",
+        "IT2a|f85r2.22|G003",
+        "RF1b|f85r2.21|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "sheedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.3|G002",
+        "IT2a|f85r2.3|G002",
+        "RF1b|f85r2.3|G002"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "shodaiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.3|G003",
+        "IT2a|f85r2.3|G003",
+        "RF1b|f85r2.3|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "sodaiiin",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.13|G004",
+        "IT2a|f85r2.13|G004",
+        "RF1b|f85r2.13|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "tchedy",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.9|G003",
+        "IT2a|f85r2.9|G003",
+        "RF1b|f85r2.9|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "tedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.13|G003",
+        "IT2a|f85r2.13|G003",
+        "RF1b|f85r2.13|G003"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ykeedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.19|G004",
+        "IT2a|f85r2.19|G004",
+        "RF1b|f85r2.19|G004"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ypshedy",
+      "status": "whole_G02",
+      "source_group_ids": [
+        "ZL3b|f85r2.15|G001",
+        "IT2a|f85r2.15|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ytchedy",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.10|G001",
+        "RF1b|f85r2.10|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "ytedar",
+      "status": "unknown",
+      "source_group_ids": [
+        "ZL3b|f85r2.14|G001",
+        "IT2a|f85r2.14|G001",
+        "RF1b|f85r2.14|G001"
+      ],
+      "not_claimed_morphological_segmentation": true
+    },
+    {
+      "raw": "{ch'}edy",
+      "status": "unknown",
+      "source_group_ids": [
+        "RF1b|f85r2.13|G002",
+        "RF1b|f85r2.20|G008"
+      ],
+      "not_claimed_morphological_segmentation": true
+    }
+  ],
+  "counts": {
+    "derived_types": 4,
+    "derived_occurrences": 21,
+    "derived_per_reader": {
+      "ZL3b": 7,
+      "IT2a": 7,
+      "RF1b": 7
+    },
+    "assigned_whole_types": 15,
+    "assigned_rows": 84,
+    "assigned_by_reader": {
+      "ZL3b": 28,
+      "IT2a": 30,
+      "RF1b": 26
+    },
+    "unknown_rows": 389,
+    "three_consumed_internal_quantities": [
+      "daiin",
+      "qotedar",
+      "dar"
+    ],
+    "local_source_entries_completed": 3
+  },
+  "costs": {
+    "independent_component_assignments": 4,
+    "cuts": 4,
+    "restricted_cartesian_domains": 1,
+    "additional_standalone_whole_assignments": 9,
+    "independent_value_assignments_including_components": 13,
+    "semantic_payloads_with_aliases": 15,
+    "payload_convention": "one per component/whole assignment, except EACH_SIGN_STAY counts EVERY, SIGN_CLASS, STAY_PERIOD separately; Course synonym counted twice",
+    "derived_whole_outputs_not_independently_assigned": 4,
+    "grammar_productions": 6,
+    "surface_clause_orders": 2,
+    "paid_whole_synonyms": [
+      [
+        "chedy",
+        "qokar"
+      ]
+    ],
+    "generic_sign_binders": 1,
+    "persistent_state_controls": 0,
+    "anaphoric_references": 0,
+    "quantity_conversions": 0,
+    "current_numeric_parameter_compression_claim": false
+  },
+  "first_stage_period_coverage": [
+    {
+      "entry": "SATURN_SIGN_STAY",
+      "source_quantity": "30 MONTH",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "SATURN_COURSE",
+      "source_quantity": "30 YEAR",
+      "status": "local ZL/IT proposition supplied; RF literal gap",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "JUPITER_SIGN_STAY",
+      "source_quantity": "1 YEAR",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "JUPITER_COURSE",
+      "source_quantity": "12 YEAR",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "MARS_SIGN_STAY",
+      "source_quantity": "45 DAY",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "MARS_COURSE",
+      "source_quantity": "2 YEAR",
+      "status": "local ZL/IT proposition supplied; RF literal gap",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "SUN_SIGN_STAY",
+      "source_quantity": "30 DAY + 10.5 HOUR",
+      "status": "local ZL/IT proposition supplied; RF literal gap",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "SUN_COURSE",
+      "source_quantity": "365 DAY + 6 HOUR",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "MERCURY_SIGN_STAY",
+      "source_quantity": "28 DAY + 6 HOUR",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "MERCURY_COURSE",
+      "source_quantity": "338 DAY",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "VENUS_SIGN_STAY",
+      "source_quantity": "29 DAY",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "VENUS_COURSE",
+      "source_quantity": "348 DAY",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "MOON_SIGN_STAY",
+      "source_quantity": "2.5 DAY + 6 HOUR; one BISSE less, attachment unresolved",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    },
+    {
+      "entry": "MOON_COURSE",
+      "source_quantity": "27 DAY + 8 HOUR",
+      "status": "unfulfilled",
+      "no_source_deletion": true
+    }
+  ],
+  "source_duties": {
+    "M01": "unfulfilled at first stage; retained for whole",
+    "M02": "unfulfilled at first stage; retained for whole",
+    "M03": "unfulfilled at first stage; retained for whole",
+    "M04": "partial: only 3 of14 entries; all others owed",
+    "M05": "unfulfilled at first stage; retained for whole",
+    "M06": "unfulfilled at first stage; retained for whole",
+    "M07": "unfulfilled at first stage; retained for whole",
+    "M08": "unfulfilled at first stage; retained for whole",
+    "M09": "unfulfilled at first stage; retained for whole",
+    "M10": "unfulfilled at first stage; retained for whole",
+    "M11": "unfulfilled at first stage; retained for whole",
+    "M12": "unfulfilled at first stage; retained for whole"
+  },
+  "remaining_obligations": [
+    "All outside/bare-unit occurrences, including IT/RF .24 ar ar, lack whole parses.",
+    "qotedaiin=2DAY at every exact occurrence; no Moon proposition yet and no silent missing half.",
+    "E.10 and S.15 surrounding unknown groups retained; only E.9 whole line supplied.",
+    "RF failed exact planet/hour ownership cannot be repaired by alias.",
+    "All M01-M12 and all14periods retained; no unit conversion or12-times-stay law.",
+    "BISSE attachment remains unresolved; no target assignment yet."
+  ],
+  "candidate_history": [
+    "d/qod magnitude prefixes considered and rejected before freeze; qodain would require additional handling or domain restriction.",
+    "d/ot magnitude prefixes considered and rejected before freeze; quantities would move to different annular positions.",
+    "Retained d/qoted rectangle is a selected exposed-data hypothesis, not identified morphology."
+  ],
+  "rival": "Four atomic duration names plus identical relational prose; currently observationally survives.",
+  "permissions": "STOP after first freeze; root must explicitly approve whole authorship; no registry/state/Git changes.",
+  "actual_author_start_precision": "minute approximation; first clock observation11:47:20UTC",
+  "all_row_consequences": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_AUTHOR_FIRST_473_CONSEQUENCES.tsv",
+    "sha256": "729b8b13cf760885e6a3236c5b14be2e1e4596ea6b598232bf9e897dc3e7f3db",
+    "rows": 473,
+    "original_fields_unchanged": 12,
+    "method": "literal serialization plus manual clause membership; no semantic executor"
+  },
+  "input_receipts": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_ROOT_DECISION.md",
+      "sha256": "eb2bcbeb83a5508e7e84ae30d23f3387a8226e545a120eb10dc9cca573a4ec5e"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_SELECTION_RECEIPT.json",
+      "sha256": "9249cda183ad1a41953911f4abbbfaadbcb29ba89ea6b65562427da9caaede03"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_SOURCE_GRAPH_ROOT.md",
+      "sha256": "a0b4fa528154cce3fedffe07be91f8de13fa9876a74ef9df4d5c0d0c917bc825"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_SOURCE_CONTRACT_B.md",
+      "sha256": "062cf726133bf45d40e9c1947c58b360b356bd1e5f37ea5bed4293efb764d1b5"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/OWNED_DISTINCT_NEXT_C_ID108.txt",
+      "sha256": "ef749f2923c30cc4d5ffaa9a777870ee8c6fa9057f394348f3ca2f9fcd984f49"
+    }
+  ]
+}
