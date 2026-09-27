@@ -4,11 +4,11 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1053 `chody` dry-prior calibration completed.
-Latest decision: Dry base-rate cannot anchor chody; local code contrast sparse; DRY weak.
-Working files: experiments/yolo/gdt1053_chody_dry_local_baseline/REPORT.md.
-Assumptions: Strict global FROM failed GDT1052; DRY not confirmed; SUN unbound.
-Resume: Seek independently bound whole-passage meaning; no chody dry/source shortcut.
+Task: Bounded f85r2 age/medical source comparison completed.
+Latest decision: Cambridge composite adds genre context, no target word owner.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/CAMBRIDGE_AGE_MEDICINE_COMPOSITE_20260927.md.
+Assumptions: GDT1043 target roles provisional; GDT1052/1053 do not bind chody.
+Resume: Seek an independently readable exact owner; do not score generic f85 analogies.
 Running: None. Prior ten-hour block remains interrupted.
 
 ## Structural baseline
