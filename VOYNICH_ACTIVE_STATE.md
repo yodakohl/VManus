@@ -8683,6 +8683,15 @@ the demonstrated G25 explicit-cause production. This is not globalUNSAT;
 SUPPOSE/YIELDscope and nativeqodsuffix remain unresolved. Park simple30-value
 fill; RAW566 may be authored separately for actual reused causal arguments.
 
+**2026-09-27 mediated-cold partial:** [complete review](research_registry/proposals/laufenberg_f85r2_20260926/MEDIATED_COLD_ROOT_REVIEW.md)
+retains all186S/Wgroups and28outsideassignedoccurrences. One hypothesizedqod
+operator preserves LOSS/ESCAPE arguments; IT S16 has a fixed Location versus
+ResourceAspect mismatch. Tenatomicvalues+onecomponent/twocompounds leave
+thecase/owner/support/guard construction unfinished: zero completeblocks,
+sourcecases orPATHs. Preserve constrainedpartial; stop automatic35-typefill,
+notglobalUNSAT. Next review distinct569observer-frame source before whole
+authoring; no oldgloss inheritance or reserve,0words.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
