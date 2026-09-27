@@ -1,0 +1,156 @@
+{
+  "title": "RAW warming capacity and locally qualified permission preserve the same reader and consumable",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. The owned Laufenberg Winter unit connects a consumable's possible warming of the reader with permission for that reader to consume it during those days, then gives a separately qualified food permission. Capacity, permission, actual consumption and actual warmth remain distinct; the wider prohibition scope is unresolved.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-27",
+    "author_role": "Bounded source producer; root owns exact predecessor review, source-scope adjudication and any later target selection.",
+    "question": "Can one written reference construction carry the same consumable and addressee from a possible effect into permission, while explicit local conditions remain attached to the permission they qualify?",
+    "source": {
+      "work": "Heinrich Laufenberg, Regimen/Versehung des leibs; Augsburg1491 print, HAB167-9Poet",
+      "complete_unit": "Official scans00169–00171: Winter rubric and image, two voice lines, all34 main verse lines; ends before the distinct physician/regimen rubric. Whole source report read, including its unresolved words and counterclaims.",
+      "report": "research_registry/proposals/laufenberg_f85r2_20260926/HEAT_WINTER_EXTENSION_REPORT.md",
+      "report_sha256": "e2b1dbf1ade8728bf5eb4458155a46dbd7c9d991aaff0f308e89cd8ed99e0458",
+      "receipts": "research_registry/proposals/laufenberg_f85r2_20260926/HEAT_WINTER_EXTENSION_RECEIPTS.json",
+      "receipt_sha256": "b5ba6254b94f4324e04af8951a4f05958aaae9763869481727fce60a247740a1",
+      "primary_urls": [
+        "https://diglib.hab.de/inkunabeln/167-9-poet/00169.jpg",
+        "https://diglib.hab.de/inkunabeln/167-9-poet/00170.jpg",
+        "https://diglib.hab.de/inkunabeln/167-9-poet/00171.jpg"
+      ],
+      "critical_loci": "W11–W13 on00170: possible warmth to dir, repeated das, magstu and die tag; W19–W24 across00170/171: availability and health/no-other-defect condition. W14–W16 prohibition/necessity qualification remains unresolved in object and exact attachment.",
+      "source_phrases": [
+        "W11: Vnd was dir werme bringen mag",
+        "W12: das magstu niessen die tag",
+        "W19: Hie magst du niessen ob du hast",
+        "W23–W24: Vnd des geleich ob du icht bist / gesund vn dir sunst nicht gebrist"
+      ],
+      "native_status": "Uses the already-owned complete provisional native transcript and source report. No image was reopened in this batch. Lightly expanded spelling and uncertain words remain as recorded, not silently repaired.",
+      "related_complete_speaker_unit": "research_registry/proposals/laufenberg_f85r2_20260926/HEAT_PRINT_PARALLEL_REPORT.md",
+      "historical_limits": "The1491 print is later than the manuscript dating window and is not an identified exemplar. Related Karlsruhe wording is not restored from the print. Historical regimen advice is content evidence, not modern medical guidance."
+    },
+    "full_unit_obligations": [
+      "Winter names itself and lasts until Spring returns; no imported saint-date calculation.",
+      "Its cold/moist complexion is linked to permission for more food, not an explicit increased innate-heat mechanism or physiological necessity.",
+      "The qualified animal-death clause remains separate; no invented causal bridge into the reader's food intake.",
+      "The warming permission, uncertain prohibition/necessity exception, murky water/air, qualified food advice, moderate bathing and warmth instruction remain together.",
+      "The adverse old-woman comparison closes Winter. A new rubric then opens the separate physician/regimen speech; the source program has Spring, Summer, Autumn, Winter and physician, not four medical-season actors."
+    ],
+    "unknown_after_source": "The local warmth-to-permission reference is readable, but the exact object/scope of the intervening prohibition and the later food adjective are not settled. No complete global permission policy follows. Every target term, reference, condition and boundary is unbound.",
+    "proposed_content_schema": {
+      "sorts": [
+        "Reader",
+        "Consumable",
+        "PossibleEffectDescription",
+        "ActionDescription",
+        "TimeScope",
+        "PermissionRecord",
+        "ConditionScope"
+      ],
+      "CAPABLE_OF_EFFECT": "CAPABLE_OF_EFFECT(x, WARM(reader)) describes a potential effect of consumable x on the explicit addressee. It does not assert that x is itself warm, that the reader is already warm, that anything was consumed or that warming occurred.",
+      "LOCAL_PERMISSION": "LOCAL_PERMISSION(CONSUME(reader,x), these_days, stated_basis) records the local offered permission. The repeated referent must remain the same x and the addressee the same reader through the capability and permitted action.",
+      "LOCAL_GUARD": "LOCAL_GUARD(permission_record, explicit_condition_scope) retains the action, reader, object and time while qualifying that particular permission. The later stated-food permission visibly includes availability and reader health/no-other-defect conditions; the source's uncertain food modifier remains unresolved rather than deleted.",
+      "composition": "The potential warming relation can supply the stated basis for a locally offered consumption permission. A separately scoped food permission carries its written availability/health conditions. Neither construction changes the action into an observed event or imposes its local guard on every other advice sentence automatically.",
+      "scope_status": "The source report supports the local W11–W13 reading. The relation between this permission and W14–W16 is an unresolved interpretive dependency, not a proven exception hierarchy. Any final judgement for an item possibly covered by that prohibition remains unresolved until its object/attachment is fixed.",
+      "strength_limit": "Failure to establish a permission under one rule is not a prohibition; permission is not obligation, performed consumption or guaranteed benefit. No unrestricted quantity or default-safe intervention is inferred.",
+      "time_limit": "These days is read in the source's Winter discourse frame. No target season, meal count, paragraph traversal or recurrence operator is assigned."
+    },
+    "connected_cases": [
+      {
+        "case": "WARMING_CONSUMABLE",
+        "input": "A consumable x can bring warmth to the explicitly addressed reader within the Winter discourse.",
+        "local_consequence": "The source offers that reader permission to consume the same x during those days. Actual consumption and actual warmth remain unasserted. Any possibly applicable intervening prohibition still prevents a complete final permission judgement."
+      },
+      {
+        "case": "SPECIFIED_FOOD_WITH_LOCAL_CONDITIONS",
+        "input": "One of the later specified foods, with availability and reader health/no-other-defect conditions explicitly supplied and the unresolved modifier retained.",
+        "local_consequence": "The conditions qualify this food permission. The passage does not thereby assert that every such food has the warming capacity of the earlier rule or that every prior permission has the same guard."
+      },
+      {
+        "case": "MISSING_AVAILABILITY_OR_UNCERTAIN_SCOPE",
+        "input": "The same food is not established as available, or its relation to the uncertain prohibition remains undecided.",
+        "local_consequence": "The corresponding complete permission cannot be concluded from these source clauses alone. This is unresolved licensing, not an automatic ban or a failed physiological prediction."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Capacity equals realized effect",
+        "contract": "Read the warming description as an already warm reader or completed warming event.",
+        "distinguishing_consequence": "It supplies occurrence/result content absent from the potential-effect clause and breaks the difference between a basis for advice and an observed outcome."
+      },
+      {
+        "name": "Reference switches consumable or recipient",
+        "contract": "The thing that can warm one person licenses consumption of an unrelated thing or by another person without a written reference.",
+        "distinguishing_consequence": "It loses the explicit repeated-object/addressee link at W11–W12. A whole descendant must write any change rather than obtaining it from proximity."
+      },
+      {
+        "name": "One global unconditional permission",
+        "contract": "Winter or warming potential permits all consumption with no local availability/health conditions or intervening qualification.",
+        "distinguishing_consequence": "It erases source conditions. Conversely hoisting every later guard across all advice is also not established by the local syntax; global scope must be argued independently."
+      },
+      {
+        "name": "Independent named advice clauses",
+        "contract": "Express each capacity, permission and condition independently with complete explicit references, without a reusable constructor.",
+        "distinguishing_consequence": "This can preserve all source content. Source facts alone cannot favor a particular target grammar; a complete repeated written construction is needed."
+      }
+    ],
+    "costs": {
+      "new_target_values": 0,
+      "inherited_target_values": 0,
+      "proposed_construction_schemas": 3,
+      "analytical_sorts": 7,
+      "unbound": "Every target consumable, reader, condition, time reference, modal value, clause boundary and ordered derivation. Global prohibition scope and the source food modifier remain unresolved inputs, not free repairs."
+    },
+    "predecessor_navigation": "Metadata-first screens found531/532 for year-life and season/constitution,538 for personified speech,558 for element membership/non-universal benefit,570 for predominance,070 for asserted/conditional procedures and437 for permission. No old target-card payload was read. Generic modal, guarded-advice and capability families may already cover this construction; exact primary review remains required.",
+    "novelty_status": "NOT_CERTIFIED. Retained as one raw source-attested construction with an explicit repeated-reader/consumable dependency and local-condition debt. No existing failure or missing-primary stop is reopened.",
+    "minimum_next_step": "Root first checks exact modal/guarded-advice predecessors and rereads W11–W24 with the whole Winter unit. If retained, author a complete admitted account with the same written reader/object across potential effect and permission, explicit local condition scope and the source uncertainty preserved. No executor until those bindings and any required global prohibition interpretation are fixed.",
+    "decision_changing_result": "A complete hypothetical passage preserving the same written consumable and reader while distinguishing capacity, permission and locally scoped conditions would constrain the account beyond seasonal labels. If all references or guards exist only in commentary, retain missing binding. A fixed descendant that turns capacity into occurrence or silently repairs prohibition scope is invalid for this proposal.",
+    "assumptions": [
+      "The potential-effect-to-permission analysis is interpretive semantic typing of the owned native wording, not a target translation.",
+      "Local grammatical linkage is distinct from a complete historical medical policy.",
+      "No four-role mapping, missing-Winter repair, innate-heat mechanism or source-copy assumption is made."
+    ],
+    "budget_if_selected_minutes": 30,
+    "budget_components_minutes": {
+      "primary_and_scope_review": 10,
+      "complete_exploratory_authorship": 10,
+      "validation_and_decision": 5,
+      "publication": 5
+    },
+    "stop_rule": "At the budget limit stop expansion. If critical source scope remains unresolved, keep that source gap distinct from missing target binding or failed fixed testing; no automatic image/decoder repair.",
+    "access": "Source reports and exact source receipts only in this batch; no target draft/table/query/pixels, new source images or external retrieval. Earlier accidental old-card f85r2 exposure persists. This is informed exploration, not blinded confirmation. f84/f84r sealed, f116v unadmitted, reserves closed, no contact.",
+    "proposal_path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/67_warming_capacity_scoped_permission.json",
+    "duplicate_screen": {
+      "command": [
+        "./vmanus-work",
+        "ideas",
+        "duplicates",
+        "--proposal",
+        "research_registry/proposals/laufenberg_f85r2_20260926/ideas/67_warming_capacity_scoped_permission.json",
+        "--limit",
+        "4"
+      ],
+      "metadata_candidates": [
+        {
+          "id": "IDEA000543",
+          "title": "RAW Hippocratic I.13–15: age, fasting endurance and nourishment"
+        },
+        {
+          "id": "IDEA000544",
+          "title": "RAW Hippocratic I.19–25: action guards, exception and patient tolerance"
+        },
+        {
+          "id": "HIST:7709ad0b410d56d1",
+          "title": "source_supply_known_cards_exposure"
+        },
+        {
+          "id": "IDEA000537",
+          "title": "RAW one quality complement over two actually exposed bases"
+        }
+      ],
+      "decision": "RAW_RETAINED_UNREVIEWED_NO_NOVELTY_CERTIFICATION",
+      "limit": "No returned payload was opened; root must review exact primaries before selecting."
+    }
+  }
+}

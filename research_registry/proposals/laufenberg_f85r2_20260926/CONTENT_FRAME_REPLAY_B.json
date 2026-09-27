@@ -1,0 +1,106 @@
+{
+  "literal_replay": "PASS",
+  "semantic_confirmation": "NOT_TESTED",
+  "inputs": {
+    "projection": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+    "projection_sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "draft": "CONTENT_FRAME_WHOLE_DRAFT.json",
+    "draft_sha256": "db9eecb5aa1c07eece39c2a42fa24b6648ccb01c08545a3d06f10ca6b7c8cef6",
+    "contract_sha256": "a1b4050417e7349a41fb32defc861735ab9b44dc9f2755fcede705fd76a6569c",
+    "report_sha256": "d1bf9a492f10d367c0d9450cc0e0e02a95439da0a99da6b691a588ff7332b673"
+  },
+  "native_row_count": 473,
+  "draft_row_count": 473,
+  "native_fields_checked": [
+    "edition",
+    "block",
+    "locus",
+    "source_group_id",
+    "source_group_index",
+    "source_group_count",
+    "within_line_position",
+    "paragraph_start",
+    "paragraph_end",
+    "left_separator",
+    "right_separator",
+    "ivtff_group_raw"
+  ],
+  "native_field_mismatch_count": 0,
+  "missing_ids": [],
+  "extra_ids": [],
+  "neighbor_mismatch_count": 0,
+  "lexical_index_mismatch_count": 0,
+  "occurrence_assignment_mismatch_count": 0,
+  "counts": {
+    "ZL3b": {
+      "groups": 156,
+      "types": 115,
+      "loci": 24,
+      "all_24_loci": true
+    },
+    "IT2a": {
+      "groups": 157,
+      "types": 115,
+      "loci": 24,
+      "all_24_loci": true
+    },
+    "RF1b": {
+      "groups": 160,
+      "types": 123,
+      "loci": 24,
+      "all_24_loci": true
+    }
+  },
+  "assignment_counts": {
+    "ZL3b": {
+      "distinct_types": 115,
+      "assigned_types": 47,
+      "unassigned_types": 68,
+      "assigned_occurrences": 80
+    },
+    "IT2a": {
+      "distinct_types": 115,
+      "assigned_types": 44,
+      "unassigned_types": 71,
+      "assigned_occurrences": 78
+    },
+    "RF1b": {
+      "distinct_types": 123,
+      "assigned_types": 41,
+      "unassigned_types": 82,
+      "assigned_occurrences": 69
+    }
+  },
+  "new_exploratory_ZL_types": 39,
+  "new_exploratory_ZL_occurrences": 59,
+  "derivation_reference_count": 48,
+  "derivation_bad_references": [],
+  "groups_reused_across_derivations": [],
+  "written_derivations": 4,
+  "source_obligations": 27,
+  "obligation_status_counts": {
+    "UNWRITTEN": 24,
+    "PARTIAL": 2,
+    "DESCRIPTIONS_ONLY": 1
+  },
+  "costs": {
+    "fixed_primitive_entries": 5,
+    "fixed_whole_forms": 8,
+    "fixed_cuts": 5,
+    "new_whole_entries": 39,
+    "new_ZL_occurrences": 59,
+    "assigned_ZL_types_total": 47,
+    "unassigned_ZL_types": 68,
+    "all_reader_types": 162,
+    "unassigned_all_reader_types": 115,
+    "new_semantic_payload_units": 51,
+    "listed_grammar_productions": 15,
+    "successful_SomeSupply_uses": 1,
+    "successful_two_supplier_requirement": false,
+    "realized_later_owner_phase_projections": 0,
+    "literal_lookup_is_not_a_semantic_executor": true,
+    "payload_count_convention": "One unit per listed primitive predicate, connective/constructor, captured reference, or fixed binder identity. Generic formal parameters are not counted again. Grammar productions and inherited interfaces are reported separately; this is bookkeeping, not a minimum-description-length score.",
+    "extra_spellings_in_explicit_same_value_sets": 9
+  },
+  "issues": []
+}
