@@ -1,0 +1,72 @@
+{
+  "review_status": "MECHANICAL_REPLAY_AND_MERGE_TREES_PASS",
+  "reviewer": "word_grammar_application_audit",
+  "reviewed_files": {
+    "src/run.py": "8fd6000574b289dd539e9a7b04c45e15a5a767871dae770fd454af91c7146ba2",
+    "artifacts/RESULT.json": "f060a87f602ed590bc6afdb1636f658cce02f5fa203f46083f2c0caa779c73dd",
+    "PREREGISTRATION.md": "0bbf89f878c61d106b8c1d78e4efa8f2c31f15c244f13592687366952529f679"
+  },
+  "checks": {
+    "saved_source_rows_reconstructed": 288,
+    "all_raw_fields_and_source_keys_match": true,
+    "all_source_indices_unique_and_contiguous": true,
+    "left_right_separators_agree": true,
+    "unchanged_wrapper_right_rules_independently_reimplemented": true,
+    "eligible_group_count": 269,
+    "hard_chunks_independently_reconstructed": 279,
+    "eligible_chunk_count": 260,
+    "all_64_bpe_merges_independently_reimplemented": true,
+    "collapse_and_all_final_units_match": true,
+    "collapsed_chunks_reconstruct_losslessly": true,
+    "all_unresolved_marked_groups_retained": true,
+    "all_input_hashes_match": true,
+    "focus_forms_and_all_reader_ring_openings_checked": true,
+    "semantic_validation_claim_absent": true,
+    "all_ordered_merge_trees_independently_reconstructed": true
+  },
+  "specific_findings": [
+    "okoaiin: wrapper NONE, pre-frame host oko, right aiin; BPE ok|o|aN.",
+    "okaiin/qokaiin/chokaiin: shared pre-frame host ok plus right aiin, distinct NONE/q/ch wrappers; BPE respectively okaN/qokaN/C|okaN.",
+    "Upper ring second group: ZL ok[a:?]r unresolved, IT okor intact in HPR pre-frame but BPE ok|or, RF okar parsed ok+ar and BPE ok|ar. Lower ring okoaiin stable across all3.",
+    "No O/OT learner was invoked; local-frame stage remains explicitly unavailable for current replay."
+  ],
+  "required_before_publication": [],
+  "limits": [
+    "Independent implementation review of saved exposed packets; not independent manuscript evidence.",
+    "No fresh raw TSV or image was opened during this review.",
+    "Does not validate meanings, morphology, true word boundaries, SUN hypothesis or a historical language.",
+    "Predecessor audit author and this mechanical reviewer are the same agent."
+  ],
+  "resolved_review_points": [
+    "Preregistered ordered merge trees were absent from first reviewed output; runner now saves them for every eligible chunk and every tree independently reconstructs via chronological merges.",
+    "METHOD.md is complete and final report retains explicit zero-meaning and no-significance scope.",
+    "Final report now identifies pre-O/OT hosts, removes unsupported first-use wording, and explicitly declines transfer of old okaiin glosses; METHOD clarifies unchanged stripping scope. All local links resolve."
+  ],
+  "final_claim_review": {
+    "status": "PASS_WITH_EXPLICIT_SEMANTIC_AND_MANIFEST_LIMITS",
+    "reviewed_files": {
+      "REPORT.md": "ff22322d8194c094525eae01e010d9e49d886db8a7018c95ac75074d8d1ccaa3",
+      "METHOD.md": "b33fe9797548c248aa6cef9d28f5011ac8f27a6acdc0d59dcb448a94aea30bb2",
+      "PREREGISTRATION.md": "0bbf89f878c61d106b8c1d78e4efa8f2c31f15c244f13592687366952529f679"
+    },
+    "numerical_tables_match_result": true,
+    "formal_only_and_semantic_limits_retained": true,
+    "scope_and_alternate_readings_explicit": true,
+    "broken_local_links": [],
+    "requested_corrections": [
+      "Identify reported host as pre-O/OT host, consistent with unavailable local-frame stage.",
+      "Remove unsupported project-wide first-use wording for complete-paragraph application.",
+      "Say old okaiin glosses are not transferred to okoaiin, rather than saying uncertainty is not transferred."
+    ],
+    "optional_clarification": "Registered No stripping means no newly introduced stripping beyond the explicitly registered unchanged functions; leave registration bytes unchanged.",
+    "manifest_note": "Final manifest binding is performed by root separately; this reviewer does not claim a final manifest validation.",
+    "pre_correction_reviewed_files": {
+      "REPORT.md": "ff22322d8194c094525eae01e010d9e49d886db8a7018c95ac75074d8d1ccaa3",
+      "METHOD.md": "b33fe9797548c248aa6cef9d28f5011ac8f27a6acdc0d59dcb448a94aea30bb2",
+      "PREREGISTRATION.md": "0bbf89f878c61d106b8c1d78e4efa8f2c31f15c244f13592687366952529f679"
+    },
+    "all_requested_corrections_applied": true,
+    "optional_clarification_applied_in_method": true,
+    "preregistration_bytes_unchanged": true
+  }
+}

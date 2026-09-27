@@ -1,0 +1,123 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Faithful formal replay and complete saved-packet coverage only; no morpheme, SUN meaning, historical language, probability or independent confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1051_frozen_grammar_local_application/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1051_frozen_grammar_local_application/src/validate.py"
+  },
+  "created": "2026-09-27",
+  "dependencies": [
+    "GDT012",
+    "GDT062",
+    "GDT282",
+    "GDT286",
+    "GDT318",
+    "GDT326",
+    "GDT605",
+    "GDT608",
+    "GDT915",
+    "GDT916"
+  ],
+  "experiment_id": "GDT1051",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/F68R_PAIRED_OPENINGS_SOURCE_20260927.json",
+      "role": "locked_prior_input",
+      "sha256": "31b07594e91dff42cb407549e6102e4bb18109b981683ab2e1dbd3c55ba4a7dc"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/F89V1_OKOAIIN_CONTEXT_SOURCE_20260927.json",
+      "role": "locked_prior_input",
+      "sha256": "ab632ea6e7d83b0707458e964f57b2d1a2e70726224525358f4225984a2841fd"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv",
+      "role": "locked_prior_input",
+      "sha256": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539"
+    },
+    {
+      "path": "run_gdt012_core_semantic_atlas.py",
+      "role": "locked_prior_input",
+      "sha256": "7db6d7eff0937e9fa67a77356a61e00a0e28a6cd73b2c62146844adea8b8fc1c"
+    },
+    {
+      "path": "run_gdt062_right_family_register_renderer.py",
+      "role": "locked_prior_input",
+      "sha256": "9c9e7a35278d59ace7dd88f3c1e0ca6112ec48cef29fdd86c4e5546c6ec9a665"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py",
+      "role": "locked_prior_input",
+      "sha256": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "7b481ccfb3274f36d72bab4738436ec6d36e9ef5d0730a3a9afa8e187d0a6ab0"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/METHOD.md",
+      "role": "reproducibility_artifact",
+      "sha256": "b33fe9797548c248aa6cef9d28f5011ac8f27a6acdc0d59dcb448a94aea30bb2"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/PREREGISTRATION.md",
+      "role": "reproducibility_artifact",
+      "sha256": "0bbf89f878c61d106b8c1d78e4efa8f2c31f15c244f13592687366952529f679"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/REPORT.md",
+      "role": "reproducibility_artifact",
+      "sha256": "ff22322d8194c094525eae01e010d9e49d886db8a7018c95ac75074d8d1ccaa3"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/artifacts/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "164334a01c934de4d08407038ca980119e8b40c19b4f17a69f8c1835993ac122"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/artifacts/RESULT.json",
+      "role": "reproducibility_artifact",
+      "sha256": "f060a87f602ed590bc6afdb1636f658cce02f5fa203f46083f2c0caa779c73dd"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/artifacts/VALIDATION.json",
+      "role": "reproducibility_artifact",
+      "sha256": "15dcd8d209b9708553b087c8f5d155111685c2a16c510798883b73b515b739c9"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/artifacts/REVIEW.json",
+      "role": "reproducibility_artifact",
+      "sha256": "83074a4d9408ac0687ace194019a7279d25bd1df5c43feeae411b657af2d778b"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/src/run.py",
+      "role": "reproducibility_artifact",
+      "sha256": "8fd6000574b289dd539e9a7b04c45e15a5a767871dae770fd454af91c7146ba2"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/src/validate.py",
+      "role": "reproducibility_artifact",
+      "sha256": "fa98a91dea007c64a81e588f9cae4174b85e0ac0152b4e980b8c5899c34ceb70"
+    }
+  ],
+  "question": "What distinctions do unchanged word-structure transformations preserve across both f68r2 rings and the complete saved f89v1.13–20 paragraph?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "frozen_grammar_local_application",
+  "status": "FORMAL_REPLAY__INTERNAL_O_AND_WRAPPER_DISTINCTIONS_RETAINED_NO_MEANING",
+  "title": "Frozen word structure on paired rings and outside paragraph",
+  "updated": "2026-09-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1051_frozen_grammar_local_application/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
