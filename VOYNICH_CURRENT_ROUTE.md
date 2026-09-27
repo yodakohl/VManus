@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block09-26 17:34:57 to09-27 03:34:57UTC;whole f85 reading.
-Latest decision: 569authored108groups;formal gaps/variant failures;no word confirmed.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/CELESTIAL_ROOT_REVIEW.md.
-Assumptions: 565/566/569frozen;newfamiliesinheritnoglosses;884/f57stops;noreserves.
-Resume: Review572whole planet-child source and productive-composition capacity.
-Running: root569publication;572selectioncritic;bounded-sourceproducer.
+Task: Ten-hour block09-26 17:34:57 to09-27 03:34:57UTC;572whole f85 reading.
+Latest decision: 569formal gaps retained;572selected for two-layer composition.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/PLANET_CHILD_ROOT_AUTHORING_DECISION.md.
+Assumptions: Md2wholeconclusion fixed;Berlinvariant separate;oldglosses/reservesclosed.
+Resume: Freeze572components then whole4blocks;review/publish by03:04UTC.
+Running: 572author;rootBerlin nativecheck;source-parallelproducer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
