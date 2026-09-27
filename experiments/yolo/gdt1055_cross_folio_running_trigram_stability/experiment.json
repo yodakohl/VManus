@@ -1,0 +1,92 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete post-discovery raw running-window inventory only; no semantic owner, significance or independent replication.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1055_cross_folio_running_trigram_stability/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1055_cross_folio_running_trigram_stability/src/validate.py"
+  },
+  "created": "2026-09-27",
+  "dependencies": [
+    "GDT791",
+    "GDT829",
+    "GDT874",
+    "GDT875"
+  ],
+  "experiment_id": "GDT1055",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/src/run.py",
+      "role": "tracked_guarded_projection_recipe",
+      "sha256": "f09abf3a893abfc3e41789b54c9f90f2509a9d2edb47ede5cf7dc6d2f8884882"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/src/SPEC.json",
+      "role": "tracked_guarded_projection_recipe",
+      "sha256": "e72346c35fc7e0e3d5d2b9ef557af1ef885d904f85c8d857e65c3dc279ced4f5"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "158129a7617f4edea659883aaead55826306e3d97611de72ec0b4cbcdcbcf7d6"
+    },
+    {
+      "path": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/METHOD.md",
+      "role": "reproducibility_artifact",
+      "sha256": "9c2a04f31d666323c574bec66bcf968181fc061ccc42247e9365889425901429"
+    },
+    {
+      "path": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/PREREGISTRATION.md",
+      "role": "reproducibility_artifact",
+      "sha256": "93ab07ace310e7fd5bcde7949334eebb80cbe5a4857df10a633ee9b31722b91f"
+    },
+    {
+      "path": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/REPORT.md",
+      "role": "reproducibility_artifact",
+      "sha256": "fc31fad8976bd135d9d63ed8be70a73a2b8d748f485adfe12cf76e38fbca9a0c"
+    },
+    {
+      "path": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/src/run.py",
+      "role": "reproducibility_artifact",
+      "sha256": "d5d35095a8313c930fe5e1a48fc5e11d973fee1f14912d7a3e1e83e43e7562ec"
+    },
+    {
+      "path": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/src/validate.py",
+      "role": "reproducibility_artifact",
+      "sha256": "ac3b14debec38b87d102cd7caae1564f19db9a7caee48bc3ec700426a86db051"
+    },
+    {
+      "path": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/artifacts/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "a73d2880fd0ece8cc3803a8cee3dd5598f8967d29cf1138f8a36d2b401a5c28e"
+    },
+    {
+      "path": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/artifacts/RESULT.json",
+      "role": "reproducibility_artifact",
+      "sha256": "6ef6b627ba0eaa977697d6d27bfc23ba938665a40e960baaf30d6bfd21531641"
+    },
+    {
+      "path": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/artifacts/VALIDATION.json",
+      "role": "reproducibility_artifact",
+      "sha256": "bafa557d2048921eb4d8f63a755b82613df932c44c1eedb66c8103882cb0924b"
+    }
+  ],
+  "question": "Which exact raw running-text sequences of three to six groups recur across physical pages of the fixed 30-page atlas, and which retain one locus pair in all alternate readings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "cross_folio_running_trigram_stability",
+  "status": "COMPLETE_TEXT_IDENTITY_ONLY",
+  "title": "cross folio running trigram stability",
+  "updated": "2026-09-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1055_cross_folio_running_trigram_stability/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
