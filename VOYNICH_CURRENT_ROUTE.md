@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block27Sep15:03:58--28Sep01:03:58UTC; source roster intake.
-Latest decision: GDT1048 needs24/22newvalues,cap18; no semantic execution.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/COMPLETE_SOURCE_ROSTER_DECISION.md.
+Task: Ten-hour block27Sep15:03:58--28Sep01:03:58UTC; select next meaning constraint.
+Latest decision: Three whole-source editions available; no conceptcounts or frequency bridge.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/COMPLETE_SOURCE_ROSTER_REPORT.md.
 Assumptions: Parent33guesses unchanged; no frequency likelihood;0words;reserves closed.
-Resume: Close1048 publication; finish3work source intake by16:36UTC before concept counts.
-Running: root Megenberg; source agent Galen/Dioscorides; bounded incidence-idea producer.
+Resume: Publish source roster; assess608pilot decision value before annotation.
+Running: Root closeout/selection; bounded producer; independent608design critic.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

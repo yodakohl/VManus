@@ -89,3 +89,9 @@ beside the complete resulting reading, costs, gaps and counterexamples.
 -15:51UTC: separate45mincomplete-source-roster intake registered; no newtarget
  access. Root checksMegenberg whileboundedagentchecksGalen/Dioscorides;
  607cachedfeasibility remainsclosed, no conceptcountingauthorizedbythisintake.
+
+-16:06UTC: three complete-work editions identified within the45minintake,
+ one new download/two existing complete caches. Edition gaps and boundaries
+ retained; no concept counts or Voynich inference. RAW608 added unreviewed;
+ root assesses whether a small sourceannotation pilot changes a reading
+ decision before authorizing it. Actual elapsed block about62minutes.
