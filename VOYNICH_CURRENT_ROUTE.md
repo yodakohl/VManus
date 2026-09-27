@@ -5,13 +5,12 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: checkpoint
 Task: Seek an independently bound content contrast.
-Latest decision: f17r Betony grade pair lacks image identity;
-IDEA614 thunder triad lacks independent Voynich target.
-Working files: F17R_GRADE_IMAGE_SCREEN; rr_thunder_sound_capacity_review.
-Assumptions: GDT822/823 fire/source C0; f85r2 season/age C0;0 confirmed words.
-Resume: Find author-visible text/referent contrast; avoid grade-first
-plant naming, thunder source-only fitting, geomancy list mining.
-Running: None. IDEA614 not tested;610/611 parked;612 tested;613 raw.
+Latest decision: whole-source quality control retains dry majority; no word binding.
+Working files: GDT1057 report and quality-source decision note.
+Assumptions: ch=dry still provisional; f85r2 season/age C0;0 confirmed words.
+Resume: Find an author-visible text/referent contrast;
+avoid grade-first plant naming and source-only fitting.
+Running: None. IDEA614 untested;610/611 parked;612 tested;613 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

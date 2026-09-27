@@ -1,0 +1,109 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Audited numbered entries support a dry-majority historical comparator and rank the inherited ch=dry orientation first in the eligible subset. Six missing numbered starts and 73 unpaired numbered entries limit full-source quadrant inference. This does not identify any Voynich word or confirm a translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1057_quality_full_source_orientation/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1057_quality_full_source_orientation/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT623"
+  ],
+  "experiment_id": "GDT1057",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt623_temperament_orientation_frequency/artifacts/ORIENTATION_FREQUENCY_COMPARISON.tsv",
+      "role": "frozen eight target-side assignments",
+      "sha256": "1ca8de4be20a5d40acba349129a956d846539b063657a242ba3fd09f55888a64"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/.gitignore",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "fdcd0183a4babd894e7cce83ec87bd24f385c424cc83571009ed07ab34722d9f"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/METHOD.md",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "fa5b6c4abb757c096576a1548ed9f2a361392c7fe60976f564b4d20d5b7abf59"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/PREREGISTRATION.md",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "40b196da1e2ca4375c0087cae09cddb3d4f351982d986fcdabb9bbcdcd6846dd"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/README.md",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "4ef9fe04241eb5e15fe76dc639e056100f10035c7d1f830eb648c6e8b3f2ae8e"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/REPORT.md",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "3d3d6ddb1c89f91cbce7d0aa78cd4f75651f2e273bc75950f41aa45972e39a1a"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/AUTO_CANDIDATES.tsv",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "62c71d4e0fd867e021f45d7dd5ed2e3370c64eed30b0b496191da10dc53e3364"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/MANUAL_AUDIT.tsv",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "c0fd4c7c71fdfadf1127574bafea1a6d04cef461648bad1246f2db65619fcf4f"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/ORIENTATION_RECHECK.tsv",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "f8f411c9bcd8871994a1e7b4b0b2cea332e39869d8ae6f171f2f8e35d39590d2"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/README.md",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "2d4db814dc6bac1bfd8146840e76a45a1d2aa04a938680485d0b981bc612c18f"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/RESULT.json",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "452ee678ce4e53532829cb28eaf6713f98d449e2806e76be388e271becafa310"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/SOURCE_ENTRIES.tsv",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "a764e68731edcaee5c7b9ddb15bd11828879bb0ff2dcd3b91d7f5f63503661ab"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/VALIDATION.json",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "0a2fcead6c2f80ff706cd56855d7dfbd56b197182da2bfa6bf0639d906e59f48"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/src/run.py",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "dbc9648a9ac038dce0118a35dec6271018bd55aad52da777ef21e5bd79134346"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/src/validate.py",
+      "role": "registered source, method, report or reproducibility artifact",
+      "sha256": "e8589cacf52cdafc7e2811803853dc9f6c5287b50f1c964a30524ce1fd8ea58d"
+    }
+  ],
+  "question": "Does the provisional ch=dry orientation from GDT623 survive an audited fixed-window census of all detected numbered entries in an independent 1415 materia medica?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "quality_full_source_orientation",
+  "status": "COMPLETE_NUMBERED_CENSUS_PARTIAL_SOURCE__DRY_DIRECTION_RETAINED__ZERO_CONFIRMED_LEXEMES",
+  "title": "Full-source historical quality orientation control",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
