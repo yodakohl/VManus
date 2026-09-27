@@ -8712,6 +8712,14 @@ period remains2[7/8?]days. C54's separate23-lineItem gives a shared celestial
 referent and sign-to-planet assignment; Moon/month and possible temporal
 measure wording remain qualified. These are source findings only.
 
+**2026-09-27 celestial synopsis569:** [closure](research_registry/proposals/laufenberg_f85r2_20260926/CELESTIAL_ROOT_REVIEW.md)
+retains108ZLgroups/23clauses and a324rowliteralreplay. FRAME is reused across
+event/class contexts, but84freewholevalues/32rules/onecut and mixed-class/history
+interface gaps preclude a formal derivation certificate. IT S4 and IT/RF W3
+fixedderivations fail; all149outsidegroups retain47assignedobligations, with a
+local G15 mismatch. C6 broadened/C7 restricted; no globalUNSAT or0-to1wordclaim.
+Stop automatic free-valuefill; inspect572whole-source composition separately.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
