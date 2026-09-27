@@ -1,0 +1,2226 @@
+{
+  "idea": "IDEA000602",
+  "status": "INCOMPLETE_WHOLE_EXPLORATION_LOCAL_CONTENT_RETAINED",
+  "author_start_utc_approx": "2026-09-27T12:06:20Z",
+  "first_clock_utc": "2026-09-27T12:06:46Z",
+  "deadline_utc": "2026-09-27T12:35:50.667762+00:00",
+  "first_contract_reference": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_AUTHOR_FIRST.json",
+    "sha256": "3712b68672709f4533057ec15fe7b011e0d391e402420c2b8bbbf5de70647774",
+    "unchanged": true
+  },
+  "source": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_ROOT_DECISION.md",
+      "sha256": "eb2bcbeb83a5508e7e84ae30d23f3387a8226e545a120eb10dc9cca573a4ec5e"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_SELECTION_RECEIPT.json",
+      "sha256": "9249cda183ad1a41953911f4abbbfaadbcb29ba89ea6b65562427da9caaede03"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_SOURCE_GRAPH_ROOT.md",
+      "sha256": "a0b4fa528154cce3fedffe07be91f8de13fa9876a74ef9df4d5c0d0c917bc825"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_SOURCE_CONTRACT_B.md",
+      "sha256": "062cf726133bf45d40e9c1947c58b360b356bd1e5f37ea5bed4293efb764d1b5"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/OWNED_DISTINCT_NEXT_C_ID108.txt",
+      "sha256": "ef749f2923c30cc4d5ffaa9a777870ee8c6fa9057f394348f3ca2f9fcd984f49"
+    }
+  ],
+  "scope": {
+    "file": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+    "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "original_fields": [
+      "edition",
+      "block",
+      "locus",
+      "source_group_id",
+      "source_group_index",
+      "source_group_count",
+      "within_line_position",
+      "paragraph_start",
+      "paragraph_end",
+      "left_separator",
+      "right_separator",
+      "ivtff_group_raw"
+    ],
+    "rows": 473,
+    "loci": 24,
+    "readers": {
+      "ZL3b": 156,
+      "IT2a": 157,
+      "RF1b": 160
+    },
+    "no_normalization": true,
+    "display_order": "numeric locus/group; assumed, not historical"
+  },
+  "first_components_unchanged": [
+    {
+      "literal": "d",
+      "type": "NumberPrefix",
+      "value": 30
+    },
+    {
+      "literal": "qoted",
+      "type": "NumberPrefix",
+      "value": 2
+    },
+    {
+      "literal": "ar",
+      "type": "UnitSuffix",
+      "bare_type": "Unit",
+      "value": "YEAR"
+    },
+    {
+      "literal": "aiin",
+      "type": "UnitSuffix",
+      "bare_type": "Unit",
+      "value": "DAY"
+    }
+  ],
+  "first_derived_wholes_unchanged": {
+    "dar": {
+      "cut": [
+        "d",
+        "ar"
+      ],
+      "value": {
+        "quantity": [
+          30,
+          "YEAR"
+        ]
+      }
+    },
+    "daiin": {
+      "cut": [
+        "d",
+        "aiin"
+      ],
+      "value": {
+        "quantity": [
+          30,
+          "DAY"
+        ]
+      }
+    },
+    "qotedar": {
+      "cut": [
+        "qoted",
+        "ar"
+      ],
+      "value": {
+        "quantity": [
+          2,
+          "YEAR"
+        ]
+      }
+    },
+    "qotedaiin": {
+      "cut": [
+        "qoted",
+        "aiin"
+      ],
+      "value": {
+        "quantity": [
+          2,
+          "DAY"
+        ]
+      }
+    }
+  },
+  "first_rules_unchanged": [
+    {
+      "id": "G01",
+      "input": "entire_group = NumberPrefix UnitSuffix",
+      "domain": {
+        "prefix": [
+          "d",
+          "qoted"
+        ],
+        "suffix": [
+          "ar",
+          "aiin"
+        ]
+      },
+      "output": "Quantity(prefix.magnitude,suffix.unit)",
+      "recursive": false,
+      "exact_full_string": true
+    },
+    {
+      "id": "G02",
+      "input": "exact whole in lexicon",
+      "output": "its fixed value/type",
+      "may_override_G01": false
+    },
+    {
+      "id": "G03",
+      "input": [
+        "Number",
+        "Unit"
+      ],
+      "output": "Quantity(number,unit)",
+      "adjacent": true
+    },
+    {
+      "id": "G04",
+      "input": [
+        "QuantityExpr",
+        "PLUS",
+        "QuantityExpr"
+      ],
+      "output": "Sum(left,right)",
+      "adjacent_expressions": true
+    },
+    {
+      "id": "G05",
+      "input": [
+        "Planet",
+        "QuantityExpr",
+        "PeriodRole"
+      ],
+      "output": "role(planet,quantity)",
+      "adjacent_expressions": true
+    },
+    {
+      "id": "G06",
+      "input": [
+        "QuantityExpr",
+        "Planet",
+        "PeriodRole"
+      ],
+      "output": "role(planet,quantity)",
+      "adjacent_expressions": true
+    }
+  ],
+  "first_types_unchanged": {
+    "QuantityExpr": "Quantity | Sum(QuantityExpr,QuantityExpr)",
+    "Quantity": "record Number x Unit",
+    "Planet": "constant named kind; no event or figure cast",
+    "PeriodRole": "Planet -> QuantityExpr -> Proposition",
+    "NumberPrefix": "internal component with magnitude field, not free binder",
+    "UnitSuffix": "internal component with unit tag, also explicit bare Unit constant"
+  },
+  "first_roles_unchanged": {
+    "COURSE": {
+      "type": "Planet -> QuantityExpr -> Proposition",
+      "formula": "lambda p. lambda q. CompletedCoursePeriod(p,q)",
+      "payload_count": 1
+    },
+    "EACH_SIGN_STAY": {
+      "type": "Planet -> QuantityExpr -> Proposition",
+      "formula": "lambda p. lambda q. forall s:ZodiacSign, SignStayPeriod(p,s,q)",
+      "scope": "sign variable local only; explicit role supplies binder",
+      "payload_count": 3
+    }
+  },
+  "additional_rules": [
+    {
+      "id": "G07",
+      "input": [
+        "Unit",
+        "Number"
+      ],
+      "output": "Quantity(number,unit)",
+      "note": "Additional reverse surface order; same quantity constructor, no unit conversion."
+    },
+    {
+      "id": "G08",
+      "input": [
+        "Proposition",
+        "AND",
+        "Proposition"
+      ],
+      "output": "Conjunction(left,right)",
+      "note": "Infix only. AND is not a first-class data expression."
+    },
+    {
+      "id": "G09",
+      "input": [
+        "QuantityExpr",
+        "AND",
+        "QuantityExpr"
+      ],
+      "output": "Sum(left,right)",
+      "note": "Infix only. Second explicit AND domain; quantity construction before G05/G06/G10 consumption, no maximality law."
+    },
+    {
+      "id": "G10",
+      "input": [
+        "QuantityExpr",
+        "PeriodRole",
+        "Planet"
+      ],
+      "output": "role(planet,quantity)",
+      "note": "Third explicitly paid clause order."
+    },
+    {
+      "id": "G11",
+      "input": [
+        "PlanetQuantifier",
+        "MotionSelector",
+        "Direction",
+        "MotionSelector",
+        "Direction"
+      ],
+      "output": "forall p:Planet, DirectionOf(selector1(p),direction1) AND DirectionOf(selector2(p),direction2)",
+      "note": "Quantifier consumes both selector/direction pairs; no implicit carrier except explicitly stored FIRMAMENT in paid selector. No day predicate or separately asserted opposition law."
+    },
+    {
+      "id": "G12",
+      "input": [
+        "Frequency",
+        "Carrier",
+        "CARRIES",
+        "Planet",
+        "Pole",
+        "Pole"
+      ],
+      "output": "CarriesAtFrequency(carrier,planet,Direction(from,to),frequency)",
+      "note": "Explicit recipient and both poles; does not universally distribute this single-planet instance."
+    },
+    {
+      "id": "G13",
+      "input": "nonempty sequence of complete Propositions",
+      "output": "Program of those assertions",
+      "note": "Unknown groups, standalone units, quantities, operators and roles are not silently admitted or skipped."
+    },
+    {
+      "id": "G14",
+      "input": "exact whole in the43additional lexical assignments",
+      "output": "its new fixed value/type",
+      "note": "Separate finite lexical table. Does not enlarge the first G02 table or override any first assignment."
+    }
+  ],
+  "lexicon": {
+    "dar": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          30,
+          "YEAR"
+        ]
+      },
+      "status": "derived_G01",
+      "cut": [
+        "d",
+        "ar"
+      ]
+    },
+    "daiin": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          30,
+          "DAY"
+        ]
+      },
+      "status": "derived_G01",
+      "cut": [
+        "d",
+        "aiin"
+      ]
+    },
+    "qotedar": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          2,
+          "YEAR"
+        ]
+      },
+      "status": "derived_G01",
+      "cut": [
+        "qoted",
+        "ar"
+      ]
+    },
+    "qotedaiin": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          2,
+          "DAY"
+        ]
+      },
+      "status": "derived_G01",
+      "cut": [
+        "qoted",
+        "aiin"
+      ]
+    },
+    "ar": {
+      "type": "Unit",
+      "value": "YEAR",
+      "status": "whole_G02"
+    },
+    "aiin": {
+      "type": "Unit",
+      "value": "DAY",
+      "status": "whole_G02"
+    },
+    "ypshedy": {
+      "type": "Planet",
+      "value": "SATURN",
+      "status": "whole_G02"
+    },
+    "qodar": {
+      "type": "Planet",
+      "value": "MARS",
+      "status": "whole_G02"
+    },
+    "qotchdy": {
+      "type": "Planet",
+      "value": "SUN",
+      "status": "whole_G02"
+    },
+    "chedy": {
+      "type": "PeriodRole",
+      "value": "COURSE",
+      "status": "whole_G02"
+    },
+    "qokar": {
+      "type": "PeriodRole",
+      "value": "COURSE",
+      "status": "whole_G02"
+    },
+    "chckhey": {
+      "type": "PeriodRole",
+      "value": "EACH_SIGN_STAY",
+      "status": "whole_G02"
+    },
+    "qotaiin": {
+      "type": "QuantitySumConnector",
+      "value": "PLUS",
+      "status": "whole_G02"
+    },
+    "tchedy": {
+      "type": "Number",
+      "value": {
+        "numerator": 21,
+        "denominator": 2
+      },
+      "status": "whole_G02"
+    },
+    "otedy": {
+      "type": "Unit",
+      "value": "HOUR",
+      "status": "whole_G02"
+    },
+    "odeedy": {
+      "type": "Number",
+      "value": 6,
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "opaees": {
+      "type": "Number",
+      "value": 1,
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "chcthy": {
+      "type": "Planet",
+      "value": "JUPITER",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "otchdy": {
+      "type": "PeriodRole",
+      "value": "EACH_SIGN_STAY",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 3
+    },
+    "los": {
+      "type": "Number",
+      "value": 12,
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "shedy": {
+      "type": "PeriodRole",
+      "value": "COURSE",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "qokshey": {
+      "type": "Planet",
+      "value": "JUPITER",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "ockhdar": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          30,
+          "MONTH"
+        ]
+      },
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "olkar": {
+      "type": "Planet",
+      "value": "SATURN",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "shoral": {
+      "type": "PeriodRole",
+      "value": "EACH_SIGN_STAY",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 3
+    },
+    "dair": {
+      "type": "Planet",
+      "value": "VENUS",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "sheo": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          29,
+          "DAY"
+        ]
+      },
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "oraiin": {
+      "type": "PeriodRole",
+      "value": "EACH_SIGN_STAY",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 3
+    },
+    "soiis": {
+      "type": "Number",
+      "value": 348,
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "shedaiin": {
+      "type": "Planet",
+      "value": "VENUS",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "chok{co}m": {
+      "type": "PeriodRole",
+      "value": "COURSE",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "ytedar": {
+      "type": "Planet",
+      "value": "MERCURY",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "chz[s:r]": {
+      "type": "Number",
+      "value": 338,
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "arody": {
+      "type": "PeriodRole",
+      "value": "COURSE",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "oteey": {
+      "type": "Planet",
+      "value": "MERCURY",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "qodaiin": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          28,
+          "DAY"
+        ]
+      },
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "odain": {
+      "type": "QuantitySumConnector",
+      "value": "PLUS",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "an": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          6,
+          "HOUR"
+        ]
+      },
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "chey": {
+      "type": "PeriodRole",
+      "value": "EACH_SIGN_STAY",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 3
+    },
+    "qokshedy": {
+      "type": "Planet",
+      "value": "MOON",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "qodain": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          27,
+          "DAY"
+        ]
+      },
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "chckhy": {
+      "type": "QuantitySumConnector",
+      "value": "PLUS",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "ykeedy": {
+      "type": "Quantity",
+      "value": {
+        "quantity": [
+          8,
+          "HOUR"
+        ]
+      },
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "or": {
+      "type": "ConjunctionOperator",
+      "value": "AND",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "ckhed[a:y]": {
+      "type": "Number",
+      "value": 365,
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "ain": {
+      "type": "Number",
+      "value": 6,
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "olchey": {
+      "type": "Unit",
+      "value": "HOUR",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "qokal": {
+      "type": "Planet",
+      "value": "SUN",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "pchedeey": {
+      "type": "PlanetQuantifier",
+      "value": "ALL_PLANETS",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "olkey": {
+      "type": "MotionSelector",
+      "value": "PROPER_OF_PLANET",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "qokedy": {
+      "type": "Direction",
+      "value": {
+        "from": "WEST",
+        "to": "EAST"
+      },
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "sheos": {
+      "type": "MotionSelector",
+      "value": {
+        "carried_planet": "argument",
+        "carrier": "FIRMAMENT"
+      },
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "fcheey": {
+      "type": "Direction",
+      "value": {
+        "from": "EAST",
+        "to": "WEST"
+      },
+      "status": "exploratory_whole_assignment",
+      "payload_count": 2
+    },
+    "otchedy": {
+      "type": "Frequency",
+      "value": "DAILY",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "chotey": {
+      "type": "Carrier",
+      "value": "FIRMAMENT",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "qocthey": {
+      "type": "TransportPredicate",
+      "value": "CARRIES",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "ol": {
+      "type": "Pole",
+      "value": "EAST",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    },
+    "oloqorain": {
+      "type": "Pole",
+      "value": "WEST",
+      "status": "exploratory_whole_assignment",
+      "payload_count": 1
+    }
+  },
+  "additional_lexical_assignments": [
+    "odeedy",
+    "opaees",
+    "chcthy",
+    "otchdy",
+    "los",
+    "shedy",
+    "qokshey",
+    "ockhdar",
+    "olkar",
+    "shoral",
+    "dair",
+    "sheo",
+    "oraiin",
+    "soiis",
+    "shedaiin",
+    "chok{co}m",
+    "ytedar",
+    "chz[s:r]",
+    "arody",
+    "oteey",
+    "qodaiin",
+    "odain",
+    "an",
+    "chey",
+    "qokshedy",
+    "qodain",
+    "chckhy",
+    "ykeedy",
+    "or",
+    "ckhed[a:y]",
+    "ain",
+    "olchey",
+    "qokal",
+    "pchedeey",
+    "olkey",
+    "qokedy",
+    "sheos",
+    "fcheey",
+    "otchedy",
+    "chotey",
+    "qocthey",
+    "ol",
+    "oloqorain"
+  ],
+  "all_assigned_occurrences": {
+    "dar": [
+      "ZL3b|f85r2.1|G032",
+      "ZL3b|f85r2.15|G002",
+      "IT2a|f85r2.1|G032",
+      "IT2a|f85r2.15|G002",
+      "RF1b|f85r2.1|G032",
+      "RF1b|f85r2.15|G002"
+    ],
+    "daiin": [
+      "ZL3b|f85r2.1|G026",
+      "ZL3b|f85r2.4|G005",
+      "ZL3b|f85r2.9|G001",
+      "IT2a|f85r2.1|G026",
+      "IT2a|f85r2.4|G005",
+      "IT2a|f85r2.9|G001",
+      "RF1b|f85r2.1|G026",
+      "RF1b|f85r2.4|G005",
+      "RF1b|f85r2.9|G001"
+    ],
+    "qotedar": [
+      "ZL3b|f85r2.10|G003",
+      "IT2a|f85r2.10|G003",
+      "RF1b|f85r2.10|G003"
+    ],
+    "qotedaiin": [
+      "ZL3b|f85r2.1|G020",
+      "IT2a|f85r2.1|G020",
+      "RF1b|f85r2.1|G020"
+    ],
+    "ar": [
+      "ZL3b|f85r2.1|G004",
+      "ZL3b|f85r2.22|G002",
+      "ZL3b|f85r2.24|G008",
+      "ZL3b|f85r2.24|G012",
+      "IT2a|f85r2.1|G004",
+      "IT2a|f85r2.20|G001",
+      "IT2a|f85r2.22|G002",
+      "IT2a|f85r2.24|G008",
+      "IT2a|f85r2.24|G013",
+      "IT2a|f85r2.24|G014",
+      "RF1b|f85r2.1|G004",
+      "RF1b|f85r2.20|G001",
+      "RF1b|f85r2.22|G002",
+      "RF1b|f85r2.24|G009",
+      "RF1b|f85r2.24|G014",
+      "RF1b|f85r2.24|G015"
+    ],
+    "aiin": [
+      "ZL3b|f85r2.1|G030",
+      "ZL3b|f85r2.2|G004",
+      "ZL3b|f85r2.11|G002",
+      "ZL3b|f85r2.14|G003",
+      "ZL3b|f85r2.20|G002",
+      "ZL3b|f85r2.22|G007",
+      "IT2a|f85r2.1|G030",
+      "IT2a|f85r2.2|G004",
+      "IT2a|f85r2.11|G002",
+      "IT2a|f85r2.14|G003",
+      "IT2a|f85r2.20|G002",
+      "RF1b|f85r2.2|G004",
+      "RF1b|f85r2.11|G002",
+      "RF1b|f85r2.14|G003",
+      "RF1b|f85r2.20|G002",
+      "RF1b|f85r2.22|G008"
+    ],
+    "ypshedy": [
+      "ZL3b|f85r2.15|G001",
+      "IT2a|f85r2.15|G001"
+    ],
+    "qodar": [
+      "ZL3b|f85r2.10|G002",
+      "IT2a|f85r2.10|G002"
+    ],
+    "qotchdy": [
+      "ZL3b|f85r2.9|G005",
+      "IT2a|f85r2.9|G005",
+      "RF1b|f85r2.9|G005"
+    ],
+    "chedy": [
+      "ZL3b|f85r2.15|G003",
+      "ZL3b|f85r2.19|G005",
+      "IT2a|f85r2.15|G003",
+      "IT2a|f85r2.19|G005",
+      "RF1b|f85r2.15|G003",
+      "RF1b|f85r2.19|G005"
+    ],
+    "qokar": [
+      "ZL3b|f85r2.10|G004",
+      "IT2a|f85r2.10|G004",
+      "RF1b|f85r2.10|G004"
+    ],
+    "chckhey": [
+      "ZL3b|f85r2.9|G006",
+      "IT2a|f85r2.9|G006",
+      "RF1b|f85r2.9|G006"
+    ],
+    "qotaiin": [
+      "ZL3b|f85r2.9|G002",
+      "IT2a|f85r2.9|G002",
+      "RF1b|f85r2.9|G002"
+    ],
+    "tchedy": [
+      "ZL3b|f85r2.9|G003",
+      "IT2a|f85r2.9|G003",
+      "RF1b|f85r2.9|G003"
+    ],
+    "otedy": [
+      "ZL3b|f85r2.1|G002",
+      "ZL3b|f85r2.9|G004",
+      "IT2a|f85r2.1|G002",
+      "IT2a|f85r2.1|G007",
+      "IT2a|f85r2.9|G004",
+      "RF1b|f85r2.1|G002"
+    ],
+    "odeedy": [
+      "ZL3b|f85r2.1|G001"
+    ],
+    "opaees": [
+      "ZL3b|f85r2.1|G003"
+    ],
+    "chcthy": [
+      "ZL3b|f85r2.1|G005",
+      "IT2a|f85r2.1|G005",
+      "RF1b|f85r2.1|G005"
+    ],
+    "otchdy": [
+      "ZL3b|f85r2.1|G006",
+      "IT2a|f85r2.1|G006",
+      "IT2a|f85r2.1|G031",
+      "RF1b|f85r2.1|G006",
+      "RF1b|f85r2.1|G031"
+    ],
+    "los": [
+      "ZL3b|f85r2.22|G001",
+      "IT2a|f85r2.22|G001",
+      "RF1b|f85r2.22|G001"
+    ],
+    "shedy": [
+      "ZL3b|f85r2.13|G002",
+      "ZL3b|f85r2.20|G008",
+      "ZL3b|f85r2.21|G004",
+      "ZL3b|f85r2.22|G003",
+      "IT2a|f85r2.13|G002",
+      "IT2a|f85r2.20|G008",
+      "IT2a|f85r2.22|G003",
+      "RF1b|f85r2.21|G004"
+    ],
+    "qokshey": [
+      "ZL3b|f85r2.22|G004",
+      "IT2a|f85r2.22|G004",
+      "RF1b|f85r2.22|G004"
+    ],
+    "ockhdar": [
+      "ZL3b|f85r2.5|G001",
+      "RF1b|f85r2.5|G001"
+    ],
+    "olkar": [
+      "ZL3b|f85r2.5|G002"
+    ],
+    "shoral": [
+      "ZL3b|f85r2.5|G003",
+      "IT2a|f85r2.5|G003",
+      "RF1b|f85r2.5|G003"
+    ],
+    "dair": [
+      "ZL3b|f85r2.4|G001",
+      "IT2a|f85r2.4|G001",
+      "RF1b|f85r2.4|G001"
+    ],
+    "sheo": [
+      "ZL3b|f85r2.4|G002",
+      "IT2a|f85r2.4|G002",
+      "RF1b|f85r2.4|G002"
+    ],
+    "oraiin": [
+      "ZL3b|f85r2.4|G003",
+      "IT2a|f85r2.4|G003",
+      "RF1b|f85r2.4|G003"
+    ],
+    "soiis": [
+      "ZL3b|f85r2.11|G001",
+      "IT2a|f85r2.11|G001",
+      "RF1b|f85r2.11|G001"
+    ],
+    "shedaiin": [
+      "ZL3b|f85r2.1|G023",
+      "ZL3b|f85r2.11|G003",
+      "IT2a|f85r2.1|G023",
+      "IT2a|f85r2.11|G003",
+      "RF1b|f85r2.1|G023",
+      "RF1b|f85r2.11|G003"
+    ],
+    "chok{co}m": [
+      "ZL3b|f85r2.11|G004"
+    ],
+    "ytedar": [
+      "ZL3b|f85r2.14|G001",
+      "IT2a|f85r2.14|G001",
+      "RF1b|f85r2.14|G001"
+    ],
+    "chz[s:r]": [
+      "ZL3b|f85r2.14|G002"
+    ],
+    "arody": [
+      "ZL3b|f85r2.14|G004",
+      "IT2a|f85r2.14|G004",
+      "RF1b|f85r2.14|G004"
+    ],
+    "oteey": [
+      "ZL3b|f85r2.8|G004",
+      "ZL3b|f85r2.16|G001",
+      "IT2a|f85r2.8|G004",
+      "IT2a|f85r2.16|G001",
+      "RF1b|f85r2.8|G004",
+      "RF1b|f85r2.16|G001"
+    ],
+    "qodaiin": [
+      "ZL3b|f85r2.16|G002",
+      "ZL3b|f85r2.21|G005",
+      "IT2a|f85r2.21|G005",
+      "RF1b|f85r2.16|G002",
+      "RF1b|f85r2.21|G005"
+    ],
+    "odain": [
+      "ZL3b|f85r2.16|G003",
+      "IT2a|f85r2.16|G003",
+      "RF1b|f85r2.16|G003"
+    ],
+    "an": [
+      "ZL3b|f85r2.16|G004",
+      "IT2a|f85r2.16|G004",
+      "RF1b|f85r2.16|G004"
+    ],
+    "chey": [
+      "ZL3b|f85r2.12|G003",
+      "ZL3b|f85r2.16|G005",
+      "IT2a|f85r2.12|G003",
+      "IT2a|f85r2.16|G005",
+      "RF1b|f85r2.12|G003",
+      "RF1b|f85r2.16|G005"
+    ],
+    "qokshedy": [
+      "ZL3b|f85r2.19|G001",
+      "IT2a|f85r2.19|G001",
+      "RF1b|f85r2.19|G001"
+    ],
+    "qodain": [
+      "ZL3b|f85r2.19|G002",
+      "IT2a|f85r2.16|G002",
+      "IT2a|f85r2.19|G002"
+    ],
+    "chckhy": [
+      "ZL3b|f85r2.19|G003",
+      "IT2a|f85r2.19|G003",
+      "RF1b|f85r2.19|G003"
+    ],
+    "ykeedy": [
+      "ZL3b|f85r2.19|G004",
+      "IT2a|f85r2.19|G004",
+      "RF1b|f85r2.19|G004"
+    ],
+    "or": [
+      "ZL3b|f85r2.2|G002",
+      "ZL3b|f85r2.2|G003",
+      "ZL3b|f85r2.13|G001",
+      "ZL3b|f85r2.15|G004",
+      "ZL3b|f85r2.20|G001",
+      "ZL3b|f85r2.20|G004",
+      "ZL3b|f85r2.22|G006",
+      "ZL3b|f85r2.24|G009",
+      "IT2a|f85r2.2|G002",
+      "IT2a|f85r2.2|G003",
+      "IT2a|f85r2.13|G001",
+      "IT2a|f85r2.15|G004",
+      "IT2a|f85r2.20|G004",
+      "IT2a|f85r2.22|G006",
+      "IT2a|f85r2.24|G009",
+      "RF1b|f85r2.2|G002",
+      "RF1b|f85r2.2|G003",
+      "RF1b|f85r2.13|G001",
+      "RF1b|f85r2.15|G004",
+      "RF1b|f85r2.20|G004",
+      "RF1b|f85r2.22|G007",
+      "RF1b|f85r2.24|G010"
+    ],
+    "ckhed[a:y]": [
+      "ZL3b|f85r2.20|G003"
+    ],
+    "ain": [
+      "ZL3b|f85r2.17|G003",
+      "ZL3b|f85r2.20|G005",
+      "IT2a|f85r2.17|G003",
+      "IT2a|f85r2.20|G005",
+      "RF1b|f85r2.17|G003",
+      "RF1b|f85r2.20|G005"
+    ],
+    "olchey": [
+      "ZL3b|f85r2.20|G006",
+      "IT2a|f85r2.20|G006",
+      "RF1b|f85r2.20|G006"
+    ],
+    "qokal": [
+      "ZL3b|f85r2.18|G003",
+      "ZL3b|f85r2.20|G007",
+      "IT2a|f85r2.18|G003",
+      "IT2a|f85r2.20|G007",
+      "RF1b|f85r2.18|G003",
+      "RF1b|f85r2.20|G007"
+    ],
+    "pchedeey": [
+      "ZL3b|f85r2.7|G001",
+      "IT2a|f85r2.7|G001",
+      "RF1b|f85r2.7|G001"
+    ],
+    "olkey": [
+      "ZL3b|f85r2.7|G002",
+      "IT2a|f85r2.7|G002",
+      "RF1b|f85r2.7|G002"
+    ],
+    "qokedy": [
+      "ZL3b|f85r2.7|G003",
+      "IT2a|f85r2.7|G003"
+    ],
+    "sheos": [
+      "ZL3b|f85r2.7|G004",
+      "IT2a|f85r2.7|G004"
+    ],
+    "fcheey": [
+      "ZL3b|f85r2.7|G005",
+      "IT2a|f85r2.7|G005",
+      "RF1b|f85r2.7|G005"
+    ],
+    "otchedy": [
+      "ZL3b|f85r2.1|G015",
+      "ZL3b|f85r2.1|G019",
+      "ZL3b|f85r2.8|G001",
+      "IT2a|f85r2.1|G015",
+      "IT2a|f85r2.1|G019",
+      "IT2a|f85r2.8|G001",
+      "RF1b|f85r2.1|G019"
+    ],
+    "chotey": [
+      "ZL3b|f85r2.8|G002",
+      "IT2a|f85r2.8|G002",
+      "RF1b|f85r2.8|G002"
+    ],
+    "qocthey": [
+      "ZL3b|f85r2.8|G003",
+      "IT2a|f85r2.8|G003",
+      "RF1b|f85r2.8|G003"
+    ],
+    "ol": [
+      "ZL3b|f85r2.1|G027",
+      "ZL3b|f85r2.8|G005",
+      "ZL3b|f85r2.23|G001",
+      "ZL3b|f85r2.23|G004",
+      "IT2a|f85r2.1|G027",
+      "IT2a|f85r2.8|G005",
+      "IT2a|f85r2.23|G001",
+      "IT2a|f85r2.23|G004",
+      "IT2a|f85r2.24|G011",
+      "RF1b|f85r2.1|G027",
+      "RF1b|f85r2.8|G005",
+      "RF1b|f85r2.23|G001",
+      "RF1b|f85r2.23|G004",
+      "RF1b|f85r2.24|G012"
+    ],
+    "oloqorain": [
+      "ZL3b|f85r2.8|G006",
+      "RF1b|f85r2.8|G006"
+    ]
+  },
+  "manual_derivations": [
+    {
+      "id": "P1_SUN_STAY",
+      "raw": [
+        "daiin",
+        "qotaiin",
+        "tchedy",
+        "otedy",
+        "qotchdy",
+        "chckhey"
+      ],
+      "zl_source_ids": [
+        "ZL3b|f85r2.9|G001",
+        "ZL3b|f85r2.9|G002",
+        "ZL3b|f85r2.9|G003",
+        "ZL3b|f85r2.9|G004",
+        "ZL3b|f85r2.9|G005",
+        "ZL3b|f85r2.9|G006"
+      ],
+      "productions": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G06"
+      ],
+      "formula": "forall s:ZodiacSign, SignStayPeriod(SUN,s,Sum(Quantity(30,DAY),Quantity(21/2,HOUR)))",
+      "source_entry": "SUN_SIGN_STAY",
+      "whole_line_complete": true,
+      "variants": {
+        "ZL3b": "computed",
+        "IT2a": "computed",
+        "RF1b": "incomplete: G004 ote@152;y has no Unit assignment"
+      },
+      "stage": "first_frozen",
+      "manual_tree": {
+        "rule": "G06",
+        "quantity": {
+          "rule": "G04",
+          "left": {
+            "rule": "G01",
+            "parts": [
+              "d",
+              "aiin"
+            ],
+            "result": {
+              "quantity": [
+                30,
+                "DAY"
+              ]
+            }
+          },
+          "connector": "qotaiin",
+          "right": {
+            "rule": "G03",
+            "number": "tchedy",
+            "unit": "otedy",
+            "result": {
+              "quantity": [
+                {
+                  "numerator": 21,
+                  "denominator": 2
+                },
+                "HOUR"
+              ]
+            }
+          }
+        },
+        "planet": "qotchdy",
+        "role": "chckhey"
+      },
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "source_entry_present",
+        "RF1b": "gap: ote@152;y not assigned HOUR"
+      }
+    },
+    {
+      "id": "P2_MARS_COURSE",
+      "raw": [
+        "qodar",
+        "qotedar",
+        "qokar"
+      ],
+      "zl_source_ids": [
+        "ZL3b|f85r2.10|G002",
+        "ZL3b|f85r2.10|G003",
+        "ZL3b|f85r2.10|G004"
+      ],
+      "productions": [
+        "G01",
+        "G02",
+        "G05"
+      ],
+      "formula": "CompletedCoursePeriod(MARS,Quantity(2,YEAR))",
+      "source_entry": "MARS_COURSE",
+      "whole_line_complete": false,
+      "surrounding_unknown_groups": [
+        "G001 ytchedy",
+        "G005 qotchd",
+        "G006 qotom"
+      ],
+      "variants": {
+        "ZL3b": "computed_subspan",
+        "IT2a": "computed_subspan",
+        "RF1b": "incomplete: G002 qo@152;ar has no Planet assignment"
+      },
+      "stage": "first_frozen",
+      "manual_tree": {
+        "rule": "G05",
+        "planet": "qodar",
+        "quantity": {
+          "rule": "G01",
+          "parts": [
+            "qoted",
+            "ar"
+          ],
+          "result": {
+            "quantity": [
+              2,
+              "YEAR"
+            ]
+          }
+        },
+        "role": "qokar"
+      },
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "source_entry_present",
+        "RF1b": "gap: qo@152;ar not assigned MARS"
+      }
+    },
+    {
+      "id": "P3_SATURN_COURSE",
+      "raw": [
+        "ypshedy",
+        "dar",
+        "chedy"
+      ],
+      "zl_source_ids": [
+        "ZL3b|f85r2.15|G001",
+        "ZL3b|f85r2.15|G002",
+        "ZL3b|f85r2.15|G003"
+      ],
+      "productions": [
+        "G01",
+        "G02",
+        "G05"
+      ],
+      "formula": "CompletedCoursePeriod(SATURN,Quantity(30,YEAR))",
+      "source_entry": "SATURN_COURSE",
+      "whole_line_complete": false,
+      "surrounding_unknown_groups": [
+        "G004 or",
+        "G005 am"
+      ],
+      "variants": {
+        "ZL3b": "computed_subspan",
+        "IT2a": "computed_subspan",
+        "RF1b": "incomplete: G001 yfshe@152;y has no Planet assignment"
+      },
+      "stage": "first_frozen",
+      "manual_tree": {
+        "rule": "G05",
+        "planet": "ypshedy",
+        "quantity": {
+          "rule": "G01",
+          "parts": [
+            "d",
+            "ar"
+          ],
+          "result": {
+            "quantity": [
+              30,
+              "YEAR"
+            ]
+          }
+        },
+        "role": "chedy"
+      },
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "source_entry_present",
+        "RF1b": "gap: yfshe@152;y not assigned SATURN"
+      }
+    },
+    {
+      "id": "P4_JUPITER_STAY",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.1|G003",
+        "ZL3b|f85r2.1|G004",
+        "ZL3b|f85r2.1|G005",
+        "ZL3b|f85r2.1|G006"
+      ],
+      "raw": [
+        "opaees",
+        "ar",
+        "chcthy",
+        "otchdy"
+      ],
+      "productions": [
+        "G14",
+        "G02",
+        "G03",
+        "G06"
+      ],
+      "manual_tree": {
+        "G06": [
+          {
+            "G03": [
+              "opaees",
+              "ar"
+            ]
+          },
+          "chcthy",
+          "otchdy"
+        ]
+      },
+      "formula": "forall s:ZodiacSign, SignStayPeriod(JUPITER,s,Quantity(1,YEAR))",
+      "source_entry": "JUPITER_SIGN_STAY",
+      "whole_line_complete": false,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "gap: opoees not assigned Number1",
+        "RF1b": "gap: opoees not assigned Number1"
+      }
+    },
+    {
+      "id": "P5_JUPITER_COURSE",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.22|G001",
+        "ZL3b|f85r2.22|G002",
+        "ZL3b|f85r2.22|G003",
+        "ZL3b|f85r2.22|G004"
+      ],
+      "raw": [
+        "los",
+        "ar",
+        "shedy",
+        "qokshey"
+      ],
+      "productions": [
+        "G14",
+        "G02",
+        "G03",
+        "G10"
+      ],
+      "manual_tree": {
+        "G10": [
+          {
+            "G03": [
+              "los",
+              "ar"
+            ]
+          },
+          "shedy",
+          "qokshey"
+        ]
+      },
+      "formula": "CompletedCoursePeriod(JUPITER,Quantity(12,YEAR))",
+      "source_entry": "JUPITER_COURSE",
+      "whole_line_complete": false,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "source_entry_present",
+        "RF1b": "gap: she@152;y not assigned COURSE"
+      }
+    },
+    {
+      "id": "P6_SATURN_STAY",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.5|G001",
+        "ZL3b|f85r2.5|G002",
+        "ZL3b|f85r2.5|G003"
+      ],
+      "raw": [
+        "ockhdar",
+        "olkar",
+        "shoral"
+      ],
+      "productions": [
+        "G14",
+        "G06"
+      ],
+      "manual_tree": {
+        "G06": [
+          "ockhdar",
+          "olkar",
+          "shoral"
+        ]
+      },
+      "formula": "forall s:ZodiacSign, SignStayPeriod(SATURN,s,Quantity(30,MONTH))",
+      "source_entry": "SATURN_SIGN_STAY",
+      "whole_line_complete": true,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "gaps: ockhdor,olkor",
+        "RF1b": "gap: ol@176;ar"
+      }
+    },
+    {
+      "id": "P7_VENUS_STAY",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.4|G001",
+        "ZL3b|f85r2.4|G002",
+        "ZL3b|f85r2.4|G003"
+      ],
+      "raw": [
+        "dair",
+        "sheo",
+        "oraiin"
+      ],
+      "productions": [
+        "G14",
+        "G05"
+      ],
+      "manual_tree": {
+        "G05": [
+          "dair",
+          "sheo",
+          "oraiin"
+        ]
+      },
+      "formula": "forall s:ZodiacSign, SignStayPeriod(VENUS,s,Quantity(29,DAY))",
+      "source_entry": "VENUS_SIGN_STAY",
+      "whole_line_complete": false,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "source_entry_present",
+        "RF1b": "source_entry_present"
+      }
+    },
+    {
+      "id": "P8_VENUS_COURSE",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.11|G001",
+        "ZL3b|f85r2.11|G002",
+        "ZL3b|f85r2.11|G003",
+        "ZL3b|f85r2.11|G004"
+      ],
+      "raw": [
+        "soiis",
+        "aiin",
+        "shedaiin",
+        "chok{co}m"
+      ],
+      "productions": [
+        "G14",
+        "G02",
+        "G03",
+        "G06"
+      ],
+      "manual_tree": {
+        "G06": [
+          {
+            "G03": [
+              "soiis",
+              "aiin"
+            ]
+          },
+          "shedaiin",
+          "chok{co}m"
+        ]
+      },
+      "formula": "CompletedCoursePeriod(VENUS,Quantity(348,DAY))",
+      "source_entry": "VENUS_COURSE",
+      "whole_line_complete": true,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "gap: chokcod",
+        "RF1b": "gap: chot{co}g"
+      }
+    },
+    {
+      "id": "P9_MERCURY_COURSE",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.14|G001",
+        "ZL3b|f85r2.14|G002",
+        "ZL3b|f85r2.14|G003",
+        "ZL3b|f85r2.14|G004"
+      ],
+      "raw": [
+        "ytedar",
+        "chz[s:r]",
+        "aiin",
+        "arody"
+      ],
+      "productions": [
+        "G14",
+        "G02",
+        "G03",
+        "G05"
+      ],
+      "manual_tree": {
+        "G05": [
+          "ytedar",
+          {
+            "G03": [
+              "chz[s:r]",
+              "aiin"
+            ]
+          },
+          "arody"
+        ]
+      },
+      "formula": "CompletedCoursePeriod(MERCURY,Quantity(338,DAY))",
+      "source_entry": "MERCURY_COURSE",
+      "whole_line_complete": true,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "gap: ch?s",
+        "RF1b": "gap: ch@152;s"
+      }
+    },
+    {
+      "id": "P10_MERCURY_STAY",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.16|G001",
+        "ZL3b|f85r2.16|G002",
+        "ZL3b|f85r2.16|G003",
+        "ZL3b|f85r2.16|G004",
+        "ZL3b|f85r2.16|G005"
+      ],
+      "raw": [
+        "oteey",
+        "qodaiin",
+        "odain",
+        "an",
+        "chey"
+      ],
+      "productions": [
+        "G14",
+        "G04",
+        "G05"
+      ],
+      "manual_tree": {
+        "G05": [
+          "oteey",
+          {
+            "G04": [
+              "qodaiin",
+              "odain",
+              "an"
+            ]
+          },
+          "chey"
+        ]
+      },
+      "formula": "forall s:ZodiacSign, SignStayPeriod(MERCURY,s,Sum(Quantity(28,DAY),Quantity(6,HOUR)))",
+      "source_entry": "MERCURY_SIGN_STAY",
+      "whole_line_complete": true,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "TYPE_VALID_SOURCE_CONFLICT: qodain=27DAY gives27DAY+6HOUR, source28DAY+6HOUR",
+        "RF1b": "source_entry_present"
+      }
+    },
+    {
+      "id": "P11_MOON_COURSE",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.19|G001",
+        "ZL3b|f85r2.19|G002",
+        "ZL3b|f85r2.19|G003",
+        "ZL3b|f85r2.19|G004",
+        "ZL3b|f85r2.19|G005"
+      ],
+      "raw": [
+        "qokshedy",
+        "qodain",
+        "chckhy",
+        "ykeedy",
+        "chedy"
+      ],
+      "productions": [
+        "G14",
+        "G02",
+        "G04",
+        "G05"
+      ],
+      "manual_tree": {
+        "G05": [
+          "qokshedy",
+          {
+            "G04": [
+              "qodain",
+              "chckhy",
+              "ykeedy"
+            ]
+          },
+          "chedy"
+        ]
+      },
+      "formula": "CompletedCoursePeriod(MOON,Sum(Quantity(27,DAY),Quantity(8,HOUR)))",
+      "source_entry": "MOON_COURSE",
+      "whole_line_complete": true,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "source_entry_present",
+        "RF1b": "gap: qo@152;ain"
+      }
+    },
+    {
+      "id": "P12_SUN_COURSE",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.20|G002",
+        "ZL3b|f85r2.20|G003",
+        "ZL3b|f85r2.20|G004",
+        "ZL3b|f85r2.20|G005",
+        "ZL3b|f85r2.20|G006",
+        "ZL3b|f85r2.20|G007",
+        "ZL3b|f85r2.20|G008"
+      ],
+      "raw": [
+        "aiin",
+        "ckhed[a:y]",
+        "or",
+        "ain",
+        "olchey",
+        "qokal",
+        "shedy"
+      ],
+      "productions": [
+        "G14",
+        "G02",
+        "G03",
+        "G07",
+        "G09",
+        "G06"
+      ],
+      "manual_tree": {
+        "G06": [
+          {
+            "G09": [
+              {
+                "G07": [
+                  "aiin",
+                  "ckhed[a:y]"
+                ]
+              },
+              "or",
+              {
+                "G03": [
+                  "ain",
+                  "olchey"
+                ]
+              }
+            ]
+          },
+          "qokal",
+          "shedy"
+        ]
+      },
+      "formula": "CompletedCoursePeriod(SUN,Sum(Quantity(365,DAY),Quantity(6,HOUR)))",
+      "source_entry": "SUN_COURSE",
+      "whole_line_complete": false,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "source_entry_present",
+        "IT2a": "gap: ckhedy",
+        "RF1b": "gaps: ckhe@152;y,{ch'}edy"
+      }
+    },
+    {
+      "id": "P13_TWO_MOTIONS",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.7|G001",
+        "ZL3b|f85r2.7|G002",
+        "ZL3b|f85r2.7|G003",
+        "ZL3b|f85r2.7|G004",
+        "ZL3b|f85r2.7|G005"
+      ],
+      "raw": [
+        "pchedeey",
+        "olkey",
+        "qokedy",
+        "sheos",
+        "fcheey"
+      ],
+      "productions": [
+        "G14",
+        "G11"
+      ],
+      "manual_tree": {
+        "G11": [
+          "pchedeey",
+          "olkey",
+          "qokedy",
+          "sheos",
+          "fcheey"
+        ]
+      },
+      "formula": "forall p:Planet, DirectionOf(ProperMotion(p),WEST_TO_EAST) AND DirectionOf(CarriedMotion(p,FIRMAMENT),EAST_TO_WEST)",
+      "source_entry": "M01_PARTIAL",
+      "whole_line_complete": true,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "partialM01_present",
+        "IT2a": "partialM01_present",
+        "RF1b": "gaps: qoke@152;y,{ch'}eos"
+      }
+    },
+    {
+      "id": "P14_MERCURY_CARRIED",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.8|G001",
+        "ZL3b|f85r2.8|G002",
+        "ZL3b|f85r2.8|G003",
+        "ZL3b|f85r2.8|G004",
+        "ZL3b|f85r2.8|G005",
+        "ZL3b|f85r2.8|G006"
+      ],
+      "raw": [
+        "otchedy",
+        "chotey",
+        "qocthey",
+        "oteey",
+        "ol",
+        "oloqorain"
+      ],
+      "productions": [
+        "G14",
+        "G12"
+      ],
+      "manual_tree": {
+        "G12": [
+          "otchedy",
+          "chotey",
+          "qocthey",
+          "oteey",
+          "ol",
+          "oloqorain"
+        ]
+      },
+      "formula": "CarriesAtFrequency(FIRMAMENT,MERCURY,Direction(EAST,WEST),DAILY)",
+      "source_entry": "M02_INSTANCE_ONLY",
+      "whole_line_complete": true,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "particular_instance_not_universalM02",
+        "IT2a": "gap: oloeorain",
+        "RF1b": "gap: otche@152;y"
+      }
+    },
+    {
+      "id": "P15_MOON_AND_SUN",
+      "stage": "whole_exploration",
+      "zl_source_ids": [
+        "ZL3b|f85r2.19|G001",
+        "ZL3b|f85r2.19|G002",
+        "ZL3b|f85r2.19|G003",
+        "ZL3b|f85r2.19|G004",
+        "ZL3b|f85r2.19|G005",
+        "ZL3b|f85r2.20|G001",
+        "ZL3b|f85r2.20|G002",
+        "ZL3b|f85r2.20|G003",
+        "ZL3b|f85r2.20|G004",
+        "ZL3b|f85r2.20|G005",
+        "ZL3b|f85r2.20|G006",
+        "ZL3b|f85r2.20|G007",
+        "ZL3b|f85r2.20|G008"
+      ],
+      "raw": [
+        "qokshedy",
+        "qodain",
+        "chckhy",
+        "ykeedy",
+        "chedy",
+        "or",
+        "aiin",
+        "ckhed[a:y]",
+        "or",
+        "ain",
+        "olchey",
+        "qokal",
+        "shedy"
+      ],
+      "productions": [
+        "G14",
+        "G08"
+      ],
+      "manual_tree": {
+        "G08": [
+          {
+            "reference_to_existing_tree": "P11_MOON_COURSE"
+          },
+          "ZL3b|f85r2.20|G001",
+          {
+            "reference_to_existing_tree": "P12_SUN_COURSE"
+          }
+        ]
+      },
+      "formula": "Conjunction(P11_MOON_COURSE,P12_SUN_COURSE)",
+      "source_entry": "reuse_of_two_existing_entries_not_new_coverage",
+      "whole_line_complete": true,
+      "whole_stage_literal_consequences": {
+        "ZL3b": "conjunction_present",
+        "IT2a": "gap: leading ar is YEAR instead of AND; alsoSun numeral gap",
+        "RF1b": "gap: leading ar is YEAR instead of AND; constituent gaps"
+      }
+    }
+  ],
+  "standalone_fragments": [
+    {
+      "ids": [
+        "ZL3b|f85r2.1|G001",
+        "ZL3b|f85r2.1|G002"
+      ],
+      "raw": [
+        "odeedy",
+        "otedy"
+      ],
+      "derivation": {
+        "G03": [
+          "odeedy",
+          "otedy"
+        ]
+      },
+      "value": {
+        "quantity": [
+          6,
+          "HOUR"
+        ]
+      },
+      "status": "UNOWNED_QUANTITY: no planet/period attached"
+    },
+    {
+      "ids": [
+        "ZL3b|f85r2.1|G020"
+      ],
+      "value": {
+        "quantity": [
+          2,
+          "DAY"
+        ]
+      },
+      "status": "FIRST_DERIVED_OUTPUT_NOT_MOON_PERIOD; half/hours/bisse unowned"
+    }
+  ],
+  "source_periods": [
+    {
+      "entry": "SATURN_SIGN_STAY",
+      "source_quantity": "30 MONTH",
+      "zl_status": "local_manual_tree",
+      "tree": "P6_SATURN_STAY",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "SATURN_COURSE",
+      "source_quantity": "30 YEAR",
+      "zl_status": "local_manual_tree",
+      "tree": "P3_SATURN_COURSE",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "JUPITER_SIGN_STAY",
+      "source_quantity": "1 YEAR",
+      "zl_status": "local_manual_tree",
+      "tree": "P4_JUPITER_STAY",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "JUPITER_COURSE",
+      "source_quantity": "12 YEAR",
+      "zl_status": "local_manual_tree",
+      "tree": "P5_JUPITER_COURSE",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "MARS_SIGN_STAY",
+      "source_quantity": "45 DAY",
+      "zl_status": "UNFULFILLED",
+      "tree": null,
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "MARS_COURSE",
+      "source_quantity": "2 YEAR",
+      "zl_status": "local_manual_tree",
+      "tree": "P2_MARS_COURSE",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "SUN_SIGN_STAY",
+      "source_quantity": "30 DAY + 10.5 HOUR",
+      "zl_status": "local_manual_tree",
+      "tree": "P1_SUN_STAY",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "SUN_COURSE",
+      "source_quantity": "365 DAY + 6 HOUR",
+      "zl_status": "local_manual_tree",
+      "tree": "P12_SUN_COURSE",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "MERCURY_SIGN_STAY",
+      "source_quantity": "28 DAY + 6 HOUR",
+      "zl_status": "local_manual_tree",
+      "tree": "P10_MERCURY_STAY",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "MERCURY_COURSE",
+      "source_quantity": "338 DAY",
+      "zl_status": "local_manual_tree",
+      "tree": "P9_MERCURY_COURSE",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "VENUS_SIGN_STAY",
+      "source_quantity": "29 DAY",
+      "zl_status": "local_manual_tree",
+      "tree": "P7_VENUS_STAY",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "VENUS_COURSE",
+      "source_quantity": "348 DAY",
+      "zl_status": "local_manual_tree",
+      "tree": "P8_VENUS_COURSE",
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "MOON_SIGN_STAY",
+      "source_quantity": "2.5 DAY + 6 HOUR; one BISSE less, attachment unresolved",
+      "zl_status": "UNFULFILLED",
+      "tree": null,
+      "complete_source_scope_retained": true
+    },
+    {
+      "entry": "MOON_COURSE",
+      "source_quantity": "27 DAY + 8 HOUR",
+      "zl_status": "local_manual_tree",
+      "tree": "P11_MOON_COURSE",
+      "complete_source_scope_retained": true
+    }
+  ],
+  "source_duties": {
+    "M01": {
+      "status": "PARTIAL",
+      "tree": "P13_TWO_MOTIONS",
+      "supplied": "generic properWE versus firmament-carriedEW descriptions with same explicit Planet binder",
+      "missing": "No separately written opposition-to-firmament-motion assertion; neither motion numerically converted."
+    },
+    "M02": {
+      "status": "INSTANCE_ONLY",
+      "tree": "P14_MERCURY_CARRIED",
+      "missing": "OnlyMERCURY is explicit; no unspoken distribution of daily predicate to all planets; neutral CARRIES does not separately express violence/ravishing."
+    },
+    "M03": {
+      "status": "UNFULFILLED",
+      "why": "No owned complete written source assertion in retained candidate"
+    },
+    "M04": {
+      "status": "PARTIAL_12_OF14",
+      "missing": [
+        "MARS_SIGN_STAY:45DAY",
+        "MOON_SIGN_STAY:2.5DAY+6HOUR,oneBISSEless attachment unresolved"
+      ]
+    },
+    "M05": {
+      "status": "UNFULFILLED",
+      "why": "No owned complete written source assertion in retained candidate"
+    },
+    "M06": {
+      "status": "UNFULFILLED",
+      "why": "No owned complete written source assertion in retained candidate"
+    },
+    "M07": {
+      "status": "UNFULFILLED",
+      "why": "No owned complete written source assertion in retained candidate"
+    },
+    "M08": {
+      "status": "UNFULFILLED",
+      "why": "No owned complete written source assertion in retained candidate"
+    },
+    "M09": {
+      "status": "UNFULFILLED",
+      "why": "No owned complete written source assertion in retained candidate"
+    },
+    "M10": {
+      "status": "UNFULFILLED",
+      "why": "No owned complete written source assertion in retained candidate"
+    },
+    "M11": {
+      "status": "UNFULFILLED",
+      "why": "No owned complete written source assertion in retained candidate"
+    },
+    "M12": {
+      "status": "UNFULFILLED",
+      "why": "No owned complete written source assertion in retained candidate"
+    }
+  },
+  "counts": {
+    "all_rows": 473,
+    "all_zl_groups": 156,
+    "all_zl_types": 115,
+    "assigned_whole_types": 58,
+    "new_whole_types": 43,
+    "assigned_rows": 255,
+    "assigned_by_reader": {
+      "ZL3b": 92,
+      "IT2a": 86,
+      "RF1b": 77
+    },
+    "unknown_by_reader": {
+      "ZL3b": 64,
+      "IT2a": 71,
+      "RF1b": 83
+    },
+    "derived_first_occurrences": 21,
+    "period_entries_in_local_zl_trees": 12,
+    "manual_trees": 15,
+    "new_whole_payloads": 63
+  },
+  "costs": {
+    "first_costs_unchanged": {
+      "independent_component_assignments": 4,
+      "cuts": 4,
+      "restricted_cartesian_domains": 1,
+      "additional_standalone_whole_assignments": 9,
+      "independent_value_assignments_including_components": 13,
+      "semantic_payloads_with_aliases": 15,
+      "payload_convention": "one per component/whole assignment, except EACH_SIGN_STAY counts EVERY, SIGN_CLASS, STAY_PERIOD separately; Course synonym counted twice",
+      "derived_whole_outputs_not_independently_assigned": 4,
+      "grammar_productions": 6,
+      "surface_clause_orders": 2,
+      "paid_whole_synonyms": [
+        [
+          "chedy",
+          "qokar"
+        ]
+      ],
+      "generic_sign_binders": 1,
+      "persistent_state_controls": 0,
+      "anaphoric_references": 0,
+      "quantity_conversions": 0,
+      "current_numeric_parameter_compression_claim": false
+    },
+    "new_whole_assignments": 43,
+    "new_internal_cuts": 0,
+    "new_quantity_primitives": [
+      "ockhdar",
+      "sheo",
+      "qodaiin",
+      "an",
+      "qodain",
+      "ykeedy"
+    ],
+    "new_quantity_primitive_cost": "2payloads each magnitude and unit; not planet plus period macros",
+    "new_semantic_payloads": 63,
+    "total_semantic_payloads_with_aliases": 78,
+    "additional_rules": 8,
+    "total_rule_headings": 14,
+    "exact_synonym_groups": [
+      [
+        "ypshedy",
+        "olkar"
+      ],
+      [
+        "qotchdy",
+        "qokal"
+      ],
+      [
+        "chedy",
+        "qokar",
+        "shedy",
+        "chok{co}m",
+        "arody"
+      ],
+      [
+        "chckhey",
+        "otchdy",
+        "shoral",
+        "oraiin",
+        "chey"
+      ],
+      [
+        "qotaiin",
+        "odain",
+        "chckhy"
+      ],
+      [
+        "otedy",
+        "olchey"
+      ],
+      [
+        "odeedy",
+        "ain"
+      ],
+      [
+        "chcthy",
+        "qokshey"
+      ],
+      [
+        "dair",
+        "shedaiin"
+      ],
+      [
+        "ytedar",
+        "oteey"
+      ]
+    ],
+    "exact_synonymous_wholes_beyond_one_per_group": 17,
+    "new_type_domains": [
+      "ConjunctionOperator",
+      "PlanetQuantifier",
+      "MotionSelector",
+      "Direction",
+      "Frequency",
+      "Carrier",
+      "TransportPredicate",
+      "Pole"
+    ],
+    "new_binder": "pchedeey bindsPlanet inG11 only; EACH_SIGN_STAY role retained local sign binder",
+    "extra_and_domains": [
+      "Proposition",
+      "QuantityExpr"
+    ],
+    "new_clause_order": "QuantityExpr PeriodRole Planet",
+    "unit_conversions": 0,
+    "new_source_or_target_access": 0
+  },
+  "earliest_unowned_content": {
+    "ids": [
+      "ZL3b|f85r2.1|G001",
+      "ZL3b|f85r2.1|G002"
+    ],
+    "description": "6HOUR has no named planet or temporal role; next known expression is a separate JUPITER1YEAR stay. No silent attachment to that Jupiter entry."
+  },
+  "direct_whole_extension_failure": {
+    "all_readers": [
+      [
+        "ZL3b|f85r2.2|G002",
+        "ZL3b|f85r2.2|G003"
+      ],
+      [
+        "IT2a|f85r2.2|G002",
+        "IT2a|f85r2.2|G003"
+      ],
+      [
+        "RF1b|f85r2.2|G002",
+        "RF1b|f85r2.2|G003"
+      ]
+    ],
+    "raw": [
+      "or",
+      "or"
+    ],
+    "types": [
+      "ConjunctionOperator",
+      "ConjunctionOperator"
+    ],
+    "rules": "G08 andG09 infix only; neither operator is a Proposition orQuantityExpr operand; no allowed quotation or null operand",
+    "scope": "Rejects this chosen whole extension. or was not first-frozen. Not a contradiction of the immutable quantity product or global UNSAT."
+  },
+  "source_conflicts": [
+    {
+      "reader": "IT2a",
+      "source_id": "IT2a|f85r2.16|G002",
+      "word": "qodain",
+      "value": {
+        "quantity": [
+          27,
+          "DAY"
+        ]
+      },
+      "formula": "SignStayPeriod(MERCURY,s,Sum(27DAY,6HOUR))",
+      "source_requires": "28DAY+6HOUR",
+      "status": "computed local source disagreement, not merely unknown"
+    }
+  ],
+  "prefreeze_choices_and_nonretained_attempts": [
+    "Tried placing Moon2DAY with adjacent half-day and6HOUR terms inannulus; did not obtain full owned half/hour/bisse expression. No value attached to an unknown merely to hide this.",
+    "Paid source-period aliases to obtain twelve explicitlocalentries; no claim that this is lexical compression.",
+    "Selected or as infixProposition AND/infixquantityaddition to join WestMoon/Sun content; full-page census exposes N.2 adjacent oror.",
+    "Considered prefix conjunction as a general alternative, but did not establish a complete all-occurrence parse under it; NOT retained and not offered as a repair.",
+    "No maximality rule, firstmeaning change, role-default owner or quotation rule introduced."
+  ],
+  "retained_scope_note": "First largerE9sum tree retained unchanged. Parent reports first shorter-final-parse criticism withdrawn after consumption correction. This author adds no first-rule repair and claims no globaluniqueness.",
+  "reading_boundary": "All473rows retained, but only listedmanualsubtrees are interpreted; source scope unchanged, unknowngroups never skipped for wholePASS.",
+  "all_row_consequences": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/PLANET_MOTION_AUTHOR_WHOLE_473_CONSEQUENCES.tsv",
+    "sha256": "3b705385459b78109edd35401e8614786ce13e506569612fe4c08b23e135d8ac",
+    "rows": 473,
+    "original12_fields_preserved": true
+  },
+  "outcome": "STOP_INCOMPLETE; sourcegeometry/wholeprogram unsupplied; firstquantityconstruction survives; no new word confirmed."
+}

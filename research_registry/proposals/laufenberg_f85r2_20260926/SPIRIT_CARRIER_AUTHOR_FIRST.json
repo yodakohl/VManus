@@ -1,0 +1,917 @@
+{
+  "idea": "IDEA000604",
+  "stage": "FIRST_CONSTRUCTION_ONLY_AWAITING_ROOT",
+  "status": "MANUAL_SHARED_CARRIER_TWO_SITE_AND_DISTINCT_PAYLOAD_CONSTRUCTION_ZL_IT; RF_INCOMPLETE; WHOLE_UNREAD",
+  "actual_first_tool_clock_utc": "2026-09-27 12:20:47 UTC",
+  "selected_utc": "2026-09-27T12:20:19.762233+00:00",
+  "first_deadline_utc": "2026-09-27T12:30:19.762233+00:00",
+  "inclusive_deadline_utc": "2026-09-27T13:10:19.762233+00:00",
+  "source": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/NEXT_BOUNDED_SUPPLY_D_ID090.txt",
+    "sha256": "0a28d53a1a6f946597e5879dcfccad5655da9e766c3db2035e32364809c2ac91",
+    "unit": "complete id00090; all nine duties remain mandatory",
+    "status": "edited English historical anthology, not modern physiology or original-language collation"
+  },
+  "scope": {
+    "file": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+    "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "original_fields": [
+      "edition",
+      "block",
+      "locus",
+      "source_group_id",
+      "source_group_index",
+      "source_group_count",
+      "within_line_position",
+      "paragraph_start",
+      "paragraph_end",
+      "left_separator",
+      "right_separator",
+      "ivtff_group_raw"
+    ],
+    "rows": 473,
+    "display_order": "numeric locus then group in each reader; assumed, not historical",
+    "readers": "alternate readings of one witness, not replication"
+  },
+  "lexicon": {
+    "ar": {
+      "type": "GenericBinder",
+      "value": "GEN",
+      "payloads": [
+        "generic introduction"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "chcthy": {
+      "type": "CarrierKind",
+      "value": "BODILY_SPIRIT",
+      "payloads": [
+        "bodily",
+        "spirit substance kind"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "otchedy": {
+      "type": "CarrierReference",
+      "value": "REF_CURRENT_GENERIC_CARRIER",
+      "payloads": [
+        "typed discourse reference"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "olkaiin": {
+      "type": "Site",
+      "value": "HEART",
+      "payloads": [
+        "heart"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "qotedaiin": {
+      "type": "Site",
+      "value": "BRAIN",
+      "payloads": [
+        "brain"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "odar": {
+      "type": "RefinementPredicate",
+      "value": "UNDERGO_REFINEMENT_AT",
+      "payloads": [
+        "refinement relation with carrier and site arguments"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "aloees": {
+      "type": "PropositionConnector",
+      "value": "AND",
+      "payloads": [
+        "conjunction"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "chotey": {
+      "type": "CarryingPredicate",
+      "value": "BEAR",
+      "payloads": [
+        "carrier-cargo relation"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "qocthey": {
+      "type": "CargoKind",
+      "value": "LIKENESS_PRINTS",
+      "payloads": [
+        "prints",
+        "likeness content"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "oteey": {
+      "type": "DepositionPredicate",
+      "value": "DEPOSIT_AT",
+      "payloads": [
+        "carrier-cargo-destination relation"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    },
+    "ol": {
+      "type": "Destination",
+      "value": "MEMORY",
+      "payloads": [
+        "memory destination"
+      ],
+      "status": "whole_lookup",
+      "cut": null
+    }
+  },
+  "types": {
+    "CarrierKind": "nominal bodily-substance kind, not soul",
+    "Carrier": "generic/collective discourse carrier in this account; no indivisible parcel or conserved amount",
+    "Site": "anatomical location argument",
+    "CargoKind": "nominal represented-content kind",
+    "Cargo": "generic likeness-print content, disjoint from Carrier",
+    "Destination": "storage/arrival place",
+    "Proposition": "asserted historical-content clause; not truth certification"
+  },
+  "rules": [
+    {
+      "id": "R0",
+      "input": "exact whole group in lexicon",
+      "output": "fixed typed value",
+      "no_normalization": true
+    },
+    {
+      "id": "R1",
+      "input": [
+        "GenericBinder",
+        "CarrierKind"
+      ],
+      "surface_order": "GEN K",
+      "output": "introduce c := GenericCarrier(K) into carrier discourse slot",
+      "adjacent": true,
+      "scope": "From complete binder to next complete R1 or end of numerically ordered selected unit; no line reset. A bare GEN does not bind or reset."
+    },
+    {
+      "id": "RREF",
+      "input": "CarrierReference with nonempty carrier slot",
+      "output": "the introduced c, with Carrier type",
+      "without_binder": "UNRESOLVED; not an implicit spirit constant",
+      "interface": "Surface productions list CarrierReference lexical type; RREF resolves it to a Carrier semantic argument before predicate application."
+    },
+    {
+      "id": "R2",
+      "input": [
+        "CarrierReference",
+        "Site",
+        "RefinementPredicate"
+      ],
+      "surface_order": "REF site Vrefine",
+      "output": "Vrefine(c,site)",
+      "adjacent": true,
+      "binding": "Resolve REF by RREF; subject remains c across different site values. No kind replacement."
+    },
+    {
+      "id": "R3",
+      "input": [
+        "CarrierReference",
+        "CarryingPredicate",
+        "CargoKind",
+        "DepositionPredicate",
+        "Destination"
+      ],
+      "surface_order": "REF Vbear cargo Vdeposit destination",
+      "output": "conjoin Vbear(c,p) and Vdeposit(c,p,destination), where p denotes the generic cargo supplied by CargoKind",
+      "adjacent": true,
+      "sharing": "same written subject and same written cargo are arguments of both predicates; c and p have disjoint types",
+      "temporal_force": "No independently encoded then, route or terminal-sink claim."
+    },
+    {
+      "id": "R4",
+      "input": [
+        "Proposition",
+        "PropositionConnector",
+        "Proposition"
+      ],
+      "surface_order": "P AND Q",
+      "output": "Conjunction(P,Q)",
+      "adjacent_completed_expressions": true,
+      "precedence": "R1/RREF/R2/R3 build their expressions before R4. No expression/operand duplication."
+    }
+  ],
+  "binder_contract": {
+    "c_domain": "generic/collective bodily spirit in the described physiology; not universal identical parcel on all branches",
+    "carrier_vs_cargo": "R3 retains c as bearer/depositor and p as deposited content; does not deposit or replace c",
+    "scope_cost": "one explicit discourse slot; persists across unfinished stretches, numeric unit order assumed; unknown groups remain untranslated, not asserted semantically empty",
+    "whole_extension_constraint": "must preserve these antecedent links; cannot insert an intervening carrier reset to reinterpret frozen references",
+    "outside_context": "a REF with no introduced Carrier is unresolved; not automatically BODILY_SPIRIT"
+  },
+  "clauses": [
+    {
+      "id": "BINDER",
+      "locus": "f85r2.1",
+      "indices": [
+        4,
+        5
+      ],
+      "raw": [
+        "ar",
+        "chcthy"
+      ],
+      "rule": "R1",
+      "tree": {
+        "rule": "R1",
+        "operator": "GEN",
+        "kind": "BODILY_SPIRIT",
+        "binds": "c:GenericCarrier(BODILY_SPIRIT)"
+      },
+      "result": "Introduce generic/collective bodily-carrier discourse referent c; not one material parcel."
+    },
+    {
+      "id": "HEART_REFINEMENT",
+      "locus": "f85r2.1",
+      "indices": [
+        15,
+        16,
+        17
+      ],
+      "raw": [
+        "otchedy",
+        "olkaiin",
+        "odar"
+      ],
+      "rule": "R2",
+      "tree": {
+        "rule": "R2",
+        "subject": {
+          "rule": "RREF",
+          "literal": "otchedy",
+          "antecedent": "BINDER",
+          "result": "c"
+        },
+        "site": "HEART",
+        "predicate": "UNDERGO_REFINEMENT_AT"
+      },
+      "result": "UNDERGO_REFINEMENT_AT(c,HEART)"
+    },
+    {
+      "id": "BRAIN_REFINEMENT",
+      "locus": "f85r2.1",
+      "indices": [
+        19,
+        20,
+        21
+      ],
+      "raw": [
+        "otchedy",
+        "qotedaiin",
+        "odar"
+      ],
+      "rule": "R2",
+      "tree": {
+        "rule": "R2",
+        "subject": {
+          "rule": "RREF",
+          "literal": "otchedy",
+          "antecedent": "BINDER",
+          "result": "c"
+        },
+        "site": "BRAIN",
+        "predicate": "UNDERGO_REFINEMENT_AT"
+      },
+      "result": "UNDERGO_REFINEMENT_AT(c,BRAIN)"
+    },
+    {
+      "id": "REFINEMENT_CONJUNCTION",
+      "locus": "f85r2.1",
+      "indices": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "raw": [
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar"
+      ],
+      "rule": "R4",
+      "tree": {
+        "rule": "R4",
+        "left": "HEART_REFINEMENT",
+        "operator": "AND",
+        "right": "BRAIN_REFINEMENT"
+      },
+      "result": "UNDERGO_REFINEMENT_AT(c,HEART) AND UNDERGO_REFINEMENT_AT(c,BRAIN)"
+    },
+    {
+      "id": "BEAR_AND_DEPOSIT",
+      "locus": "f85r2.8",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "raw": [
+        "otchedy",
+        "chotey",
+        "qocthey",
+        "oteey",
+        "ol"
+      ],
+      "rule": "R3",
+      "tree": {
+        "rule": "R3",
+        "subject": {
+          "rule": "RREF",
+          "literal": "otchedy",
+          "antecedent": "BINDER",
+          "result": "c"
+        },
+        "bear_predicate": "BEAR",
+        "cargo": {
+          "literal": "qocthey",
+          "value": "LIKENESS_PRINTS",
+          "referent": "p:GenericCargo(LIKENESS_PRINTS)"
+        },
+        "deposit_predicate": "DEPOSIT_AT",
+        "destination": "MEMORY"
+      },
+      "result": "BEAR(c,p) AND DEPOSIT_AT(c,p,MEMORY); c != p by Carrier/Cargo types."
+    }
+  ],
+  "variants": [
+    {
+      "clause": "BINDER",
+      "edition": "ZL3b",
+      "source_ids": [
+        "ZL3b|f85r2.1|G004",
+        "ZL3b|f85r2.1|G005"
+      ],
+      "actual": [
+        "ar",
+        "chcthy"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "BINDER",
+      "edition": "IT2a",
+      "source_ids": [
+        "IT2a|f85r2.1|G004",
+        "IT2a|f85r2.1|G005"
+      ],
+      "actual": [
+        "ar",
+        "chcthy"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "BINDER",
+      "edition": "RF1b",
+      "source_ids": [
+        "RF1b|f85r2.1|G004",
+        "RF1b|f85r2.1|G005"
+      ],
+      "actual": [
+        "ar",
+        "chcthy"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "HEART_REFINEMENT",
+      "edition": "ZL3b",
+      "source_ids": [
+        "ZL3b|f85r2.1|G015",
+        "ZL3b|f85r2.1|G016",
+        "ZL3b|f85r2.1|G017"
+      ],
+      "actual": [
+        "otchedy",
+        "olkaiin",
+        "odar"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "HEART_REFINEMENT",
+      "edition": "IT2a",
+      "source_ids": [
+        "IT2a|f85r2.1|G015",
+        "IT2a|f85r2.1|G016",
+        "IT2a|f85r2.1|G017"
+      ],
+      "actual": [
+        "otchedy",
+        "olkaiin",
+        "odar"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "HEART_REFINEMENT",
+      "edition": "RF1b",
+      "source_ids": [
+        "RF1b|f85r2.1|G015",
+        "RF1b|f85r2.1|G016",
+        "RF1b|f85r2.1|G017"
+      ],
+      "actual": [
+        "otche@152;y",
+        "olkaiin",
+        "odar"
+      ],
+      "literal_match": false,
+      "status": "incomplete literal interface",
+      "mismatches": [
+        {
+          "id": "RF1b|f85r2.1|G015",
+          "actual": "otche@152;y",
+          "required": "otchedy"
+        }
+      ]
+    },
+    {
+      "clause": "BRAIN_REFINEMENT",
+      "edition": "ZL3b",
+      "source_ids": [
+        "ZL3b|f85r2.1|G019",
+        "ZL3b|f85r2.1|G020",
+        "ZL3b|f85r2.1|G021"
+      ],
+      "actual": [
+        "otchedy",
+        "qotedaiin",
+        "odar"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "BRAIN_REFINEMENT",
+      "edition": "IT2a",
+      "source_ids": [
+        "IT2a|f85r2.1|G019",
+        "IT2a|f85r2.1|G020",
+        "IT2a|f85r2.1|G021"
+      ],
+      "actual": [
+        "otchedy",
+        "qotedaiin",
+        "odar"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "BRAIN_REFINEMENT",
+      "edition": "RF1b",
+      "source_ids": [
+        "RF1b|f85r2.1|G019",
+        "RF1b|f85r2.1|G020",
+        "RF1b|f85r2.1|G021"
+      ],
+      "actual": [
+        "otchedy",
+        "qotedaiin",
+        "odar"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "REFINEMENT_CONJUNCTION",
+      "edition": "ZL3b",
+      "source_ids": [
+        "ZL3b|f85r2.1|G015",
+        "ZL3b|f85r2.1|G016",
+        "ZL3b|f85r2.1|G017",
+        "ZL3b|f85r2.1|G018",
+        "ZL3b|f85r2.1|G019",
+        "ZL3b|f85r2.1|G020",
+        "ZL3b|f85r2.1|G021"
+      ],
+      "actual": [
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "REFINEMENT_CONJUNCTION",
+      "edition": "IT2a",
+      "source_ids": [
+        "IT2a|f85r2.1|G015",
+        "IT2a|f85r2.1|G016",
+        "IT2a|f85r2.1|G017",
+        "IT2a|f85r2.1|G018",
+        "IT2a|f85r2.1|G019",
+        "IT2a|f85r2.1|G020",
+        "IT2a|f85r2.1|G021"
+      ],
+      "actual": [
+        "otchedy",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "REFINEMENT_CONJUNCTION",
+      "edition": "RF1b",
+      "source_ids": [
+        "RF1b|f85r2.1|G015",
+        "RF1b|f85r2.1|G016",
+        "RF1b|f85r2.1|G017",
+        "RF1b|f85r2.1|G018",
+        "RF1b|f85r2.1|G019",
+        "RF1b|f85r2.1|G020",
+        "RF1b|f85r2.1|G021"
+      ],
+      "actual": [
+        "otche@152;y",
+        "olkaiin",
+        "odar",
+        "aloees",
+        "otchedy",
+        "qotedaiin",
+        "odar"
+      ],
+      "literal_match": false,
+      "status": "incomplete literal interface",
+      "mismatches": [
+        {
+          "id": "RF1b|f85r2.1|G015",
+          "actual": "otche@152;y",
+          "required": "otchedy"
+        }
+      ]
+    },
+    {
+      "clause": "BEAR_AND_DEPOSIT",
+      "edition": "ZL3b",
+      "source_ids": [
+        "ZL3b|f85r2.8|G001",
+        "ZL3b|f85r2.8|G002",
+        "ZL3b|f85r2.8|G003",
+        "ZL3b|f85r2.8|G004",
+        "ZL3b|f85r2.8|G005"
+      ],
+      "actual": [
+        "otchedy",
+        "chotey",
+        "qocthey",
+        "oteey",
+        "ol"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "BEAR_AND_DEPOSIT",
+      "edition": "IT2a",
+      "source_ids": [
+        "IT2a|f85r2.8|G001",
+        "IT2a|f85r2.8|G002",
+        "IT2a|f85r2.8|G003",
+        "IT2a|f85r2.8|G004",
+        "IT2a|f85r2.8|G005"
+      ],
+      "actual": [
+        "otchedy",
+        "chotey",
+        "qocthey",
+        "oteey",
+        "ol"
+      ],
+      "literal_match": true,
+      "status": "manual complete local construction",
+      "mismatches": []
+    },
+    {
+      "clause": "BEAR_AND_DEPOSIT",
+      "edition": "RF1b",
+      "source_ids": [
+        "RF1b|f85r2.8|G001",
+        "RF1b|f85r2.8|G002",
+        "RF1b|f85r2.8|G003",
+        "RF1b|f85r2.8|G004",
+        "RF1b|f85r2.8|G005"
+      ],
+      "actual": [
+        "otche@152;y",
+        "chotey",
+        "qocthey",
+        "oteey",
+        "ol"
+      ],
+      "literal_match": false,
+      "status": "incomplete literal interface",
+      "mismatches": [
+        {
+          "id": "RF1b|f85r2.8|G001",
+          "actual": "otche@152;y",
+          "required": "otchedy"
+        }
+      ]
+    }
+  ],
+  "all_assigned_occurrences": {
+    "ar": [
+      "ZL3b|f85r2.1|G004",
+      "ZL3b|f85r2.22|G002",
+      "ZL3b|f85r2.24|G008",
+      "ZL3b|f85r2.24|G012",
+      "IT2a|f85r2.1|G004",
+      "IT2a|f85r2.20|G001",
+      "IT2a|f85r2.22|G002",
+      "IT2a|f85r2.24|G008",
+      "IT2a|f85r2.24|G013",
+      "IT2a|f85r2.24|G014",
+      "RF1b|f85r2.1|G004",
+      "RF1b|f85r2.20|G001",
+      "RF1b|f85r2.22|G002",
+      "RF1b|f85r2.24|G009",
+      "RF1b|f85r2.24|G014",
+      "RF1b|f85r2.24|G015"
+    ],
+    "chcthy": [
+      "ZL3b|f85r2.1|G005",
+      "IT2a|f85r2.1|G005",
+      "RF1b|f85r2.1|G005"
+    ],
+    "otchedy": [
+      "ZL3b|f85r2.1|G015",
+      "ZL3b|f85r2.1|G019",
+      "ZL3b|f85r2.8|G001",
+      "IT2a|f85r2.1|G015",
+      "IT2a|f85r2.1|G019",
+      "IT2a|f85r2.8|G001",
+      "RF1b|f85r2.1|G019"
+    ],
+    "olkaiin": [
+      "ZL3b|f85r2.1|G016",
+      "IT2a|f85r2.1|G016",
+      "RF1b|f85r2.1|G016"
+    ],
+    "qotedaiin": [
+      "ZL3b|f85r2.1|G020",
+      "IT2a|f85r2.1|G020",
+      "RF1b|f85r2.1|G020"
+    ],
+    "odar": [
+      "ZL3b|f85r2.1|G017",
+      "ZL3b|f85r2.1|G021",
+      "IT2a|f85r2.1|G017",
+      "IT2a|f85r2.1|G021",
+      "RF1b|f85r2.1|G017",
+      "RF1b|f85r2.1|G021"
+    ],
+    "aloees": [
+      "ZL3b|f85r2.1|G018",
+      "IT2a|f85r2.1|G018",
+      "RF1b|f85r2.1|G018"
+    ],
+    "chotey": [
+      "ZL3b|f85r2.8|G002",
+      "IT2a|f85r2.8|G002",
+      "RF1b|f85r2.8|G002"
+    ],
+    "qocthey": [
+      "ZL3b|f85r2.8|G003",
+      "IT2a|f85r2.8|G003",
+      "RF1b|f85r2.8|G003"
+    ],
+    "oteey": [
+      "ZL3b|f85r2.8|G004",
+      "ZL3b|f85r2.16|G001",
+      "IT2a|f85r2.8|G004",
+      "IT2a|f85r2.16|G001",
+      "RF1b|f85r2.8|G004",
+      "RF1b|f85r2.16|G001"
+    ],
+    "ol": [
+      "ZL3b|f85r2.1|G027",
+      "ZL3b|f85r2.8|G005",
+      "ZL3b|f85r2.23|G001",
+      "ZL3b|f85r2.23|G004",
+      "IT2a|f85r2.1|G027",
+      "IT2a|f85r2.8|G005",
+      "IT2a|f85r2.23|G001",
+      "IT2a|f85r2.23|G004",
+      "IT2a|f85r2.24|G011",
+      "RF1b|f85r2.1|G027",
+      "RF1b|f85r2.8|G005",
+      "RF1b|f85r2.23|G001",
+      "RF1b|f85r2.23|G004",
+      "RF1b|f85r2.24|G012"
+    ]
+  },
+  "counts": {
+    "all_rows": 473,
+    "assigned_rows": 67,
+    "unknown_rows": 406,
+    "whole_types": 11,
+    "internal_compositions": 0,
+    "by_reader": {
+      "ZL3b": {
+        "rows": 156,
+        "assigned": 21
+      },
+      "IT2a": {
+        "rows": 157,
+        "assigned": 24
+      },
+      "RF1b": {
+        "rows": 160,
+        "assigned": 22
+      }
+    },
+    "R2_exact_applications": {
+      "ZL3b": 2,
+      "IT2a": 2,
+      "RF1b": 1
+    },
+    "R3_exact_applications": {
+      "ZL3b": 1,
+      "IT2a": 1,
+      "RF1b": 0
+    },
+    "generic_binder_exact_applications": {
+      "ZL3b": 1,
+      "IT2a": 1,
+      "RF1b": 1
+    }
+  },
+  "costs": {
+    "whole_lookups": 11,
+    "semantic_payload_entries": 13,
+    "internal_cuts": 0,
+    "morphological_law": null,
+    "across_word_rules": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "typed_reference_rule": "RREF",
+    "R2_reuse": "same rule/predicate and c, different explicit HEART/BRAIN site arguments",
+    "R3_cost": "paid serial-predicate construction shares explicit subject/cargo over two different predicate arities; not a full source clause stored as one word",
+    "binder_scope": "numeric cross-line discourse persistence; no historical boundary evidence",
+    "synonyms": 0
+  },
+  "whole_source_duties": [
+    {
+      "number": 1,
+      "duty": "Opening: bodily faculties require spirits for their operation; spirit is described as subtle/airy bodily substance generated through heat, not automatically the rational soul.",
+      "first_status": "UNMET: only the bodily-spirit kind is named; opening faculties, heat, subtle/airy body and effects are not written."
+    },
+    {
+      "number": 2,
+      "duty": "Physicians-attributed liver account: heat works on blood, boiling generates smoke, veins purify it into natural spirit; that spirit then makes blood subtle and moves/sends it to limbs. Preserve the mediator acting on its earlier source medium; no measured feedback law is supplied.",
+      "first_status": "UNMET: no liver/blood/smoke/generation or subsequent blood action written."
+    },
+    {
+      "number": 3,
+      "duty": "The same spirit travels toward the heart, is further purified through the described movement/smiting, and is called vital. Its spread to limbs and the works it governs remain distinct from a mere change of label.",
+      "first_status": "PARTIAL: refinement at HEART written with shared carrier; movement/smiting, comparative further refinement, vital naming, spread and governed works remain unmet."
+    },
+    {
+      "number": 4,
+      "duty": "Left-heart artery divides into downward and upward branches; downward supply serves lower limbs, upward divides into right arm, left arm and brain/higher parts. Retain all named branches and their recipients without assuming any corresponding manuscript picture/count.",
+      "first_status": "UNMET: no branch or recipient construction."
+    },
+    {
+      "number": 5,
+      "duty": "The same spirit enters brain cavities, is further refined and changed into animal spirit, generated in the foremost cavity. Some spreads to sensation limbs; some remains for common sense/common wit/imagination. No assertion that all incoming spirit is consumed or that one indivisible parcel occupies every branch.",
+      "first_status": "PARTIAL: refinement at BRAIN written with shared carrier; entry, cavities, relative subtlety/change, animal naming and partial distribution/retention remain unmet."
+    },
+    {
+      "number": 6,
+      "duty": "The account proceeds to the Logistic middle cavity for intellect/understanding; after informing intellect, it passes to memory bearing prints of likeness made in the other cavities and deposits them there. The carrier, carried representations, their provenance and storage destination are different roles.",
+      "first_status": "PARTIAL: bearer, separate likeness-prints and memory deposition written; Logistic/intellect-before-memory, provenance in other cavities and precise passage duties remain unmet."
+    },
+    {
+      "number": 7,
+      "duty": "From hindmost brain parts it passes through spinal marrow to moving sinews, for voluntary movement in lower parts. Keep this continuation as well as the memory sequence; memory deposition is not declared the terminal destination of all spirit.",
+      "first_status": "UNMET: no hindmost brain/spinal marrow/sinews/voluntary-movement continuation."
+    },
+    {
+      "number": 8,
+      "duty": "Closing explicitly calls it one and the same spirit named natural/vital/animal by liver/heart/head working. This is asserted continuity across processing/naming descriptions, not unchanged chemical composition or identity of every distributed portion.",
+      "first_status": "PARTIAL: generic carrier reference is preserved across two sites; full natural/vital/animal naming and liver/head distinction are not yet written."
+    },
+    {
+      "number": 9,
+      "duty": "The Augustine-attributed qualification denies that this spirit is the rational soul and calls it its car/instrument. Through it the soul is joined to the body; without its service no soul act is perfectly exercised in the body. Impairment/hindrance is then linked to disrupted accord and inhibited works, with historical mental-disorder examples. Preserve attribution and perfectly; no modern diagnosis or universal medical fact is established.",
+      "first_status": "UNMET: non-soul/instrument, attribution, perfectly qualified dependency, impairment and examples not written."
+    }
+  ],
+  "known_residuals": [
+    "ar outside BINDER remains a GenericBinder requiring an adjacent CarrierKind; ar ar does not bind.",
+    "oteey at .16 remains DEPOSIT_AT but has no complete frozen R3; not silently retyped.",
+    "ol occurrences elsewhere remain MEMORY and are unparsed as complete propositions.",
+    "RF otche@152;y is UNKNOWN, not aliased to otchedy: heart/refinement conjunction and memory relation remain incomplete.",
+    "No internal analysis of qotedaiin, olkaiin, otchedy or odar; similar wholes do not receive inherited values.",
+    "Full .1 contains untranslated text; .8 G006 remains unknown. No complete-line/full-paragraph reading claimed."
+  ],
+  "exposure": [
+    "All previous project, source, 595 and published602 first audit exposure persists; fresh 604 values, no old dictionary inherited.",
+    "Read permitted SOURCE_REVIEW_B source-only critique; no 602 unfinished whole packet or B/root target review.",
+    "Only safe admitted native_groups target; no image/new source/reserve/contact."
+  ],
+  "rival": "Independent substance subjects at HEART and BRAIN, or carrier identified with deposited content. Current written GEN/REF and disjoint subject/cargo slots distinguish these within the stipulated grammar, not by historical evidence.",
+  "limitations": [
+    "All values and constructions are explicit exploratory choices, not deciphered words.",
+    "Generic sameness does not establish physical parcel identity, unchanged composition, all-portion distribution or terminal memory sink.",
+    "Refinement predicates omit the comparative further qualification and mechanisms; these remain mandatory whole-stage duties.",
+    "The first stage cannot be treated as a full synopsis or fulfillment of all nine duties.",
+    "No executor, optimization, decoder, significance or automatic meaning test built."
+  ],
+  "input_receipts": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/SPIRIT_CARRIER_ROOT_PREPARATION.md",
+      "sha256": "e8013c8c751e9e31fbb3c1e68cea8aa95c8cbd4e1fd9dc525eee17acfd30bded",
+      "bytes": 7159
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/SPIRIT_CARRIER_SOURCE_REVIEW_B.md",
+      "sha256": "83f19a4c223852d6b14e4fb9d0603555923d93a7c30532729ff80611097c1d4a",
+      "bytes": 5247
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/SPIRIT_CARRIER_ROOT_SELECTION.md",
+      "sha256": "06ecd754861cbc18567d9bc49261ffb98dad7881924ae1b6b5d2a58c13ad8cd7",
+      "bytes": 2680
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/NEXT_BOUNDED_SUPPLY_D_ID090.txt",
+      "sha256": "0a28d53a1a6f946597e5879dcfccad5655da9e766c3db2035e32364809c2ac91",
+      "bytes": 4103
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/89_spirit_carrier_content_instrument.json",
+      "sha256": "d8f67b5718cc5e7320b788f3997aad6b3b2156d76b12285e0035c2bcc8b3de4b",
+      "bytes": 11447
+    },
+    {
+      "path": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+      "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+      "bytes": 41645
+    }
+  ],
+  "all_row_consequences": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/SPIRIT_CARRIER_AUTHOR_FIRST_473_CONSEQUENCES.tsv",
+    "sha256": "e743f0f29fd0e0a98f431f83b0c6a3e291ecc5de9aaa81c877f2540f53323870",
+    "method": "literal serialization and declared manual membership, not semantic execution"
+  }
+}
