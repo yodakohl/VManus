@@ -1,0 +1,109 @@
+{
+  "review": "IDEA000589 independent literal and accounting review B",
+  "review_date": "2026-09-27",
+  "review_start_utc": "2026-09-27T08:55:33Z",
+  "scope": "Mechanical source-row identity, hash, reader/clause accounting, occurrence-list, gap, span-string and declared-cut consistency. No semantic/source/grammar review.",
+  "exposure": "Reviewer has prior project and same-manuscript/catalogue exposure; not an independent meaning confirmation.",
+  "route_read": true,
+  "input_hashes": {
+    "GDT1042_native_groups.tsv": {
+      "path": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+      "expected_sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+      "verified": true
+    },
+    "AUTHOR_FREEZE_RECEIPT": {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/AUTUMN_SYNOPSIS_AUTHOR_FREEZE_RECEIPT.json",
+      "draft_json_sha256": "2c74bb81f169ad869ba6d729b48fdfe8cf5eefa8f158491a5b7adbaea6e61618",
+      "draft_json_bytes": 418028,
+      "draft_md_sha256": "f93f813942920b8a35ebd4ef4516b8f3c4658064bc0bdc741c328a32390449fa",
+      "draft_md_bytes": 15516,
+      "consequences_tsv_sha256": "ccd62897cf29d09c43853e0bb615262204b1702b813b92346b8e5256d5d2c071",
+      "consequences_tsv_bytes": 115189,
+      "author_report_sha256": "19582dc86845c67e75c028f47917934322bdbdb720506a3861fb8c61b1ce6704",
+      "author_report_bytes": 9744,
+      "all_four_files_verified": true
+    }
+  },
+  "identity": {
+    "source_rows": 473,
+    "source_columns": 12,
+    "source_ids_unique": 473,
+    "consequence_tsv_rows": 473,
+    "json_consequence_rows": 473,
+    "original_twelve_columns_identical_in_tsv_and_order": true,
+    "original_twelve_columns_identical_in_json_and_order": true,
+    "all_added_json_tsv_fields_reconcile_after_argument_separator_normalization": true,
+    "literal_neighbors_match_flattened_reader_order_including_line_boundaries": true
+  },
+  "reader_counts": {
+    "ZL3b": {
+      "all": 156,
+      "manual_local_derivation": 33,
+      "fixed_clause_span_with_literal_gap": 0,
+      "assigned_not_parsed": 31,
+      "unassigned_not_parsed": 92,
+      "fixed_value_occurrences": 64
+    },
+    "IT2a": {
+      "all": 157,
+      "manual_local_derivation": 14,
+      "fixed_clause_span_with_literal_gap": 19,
+      "assigned_not_parsed": 33,
+      "unassigned_not_parsed": 91,
+      "fixed_value_occurrences": 64
+    },
+    "RF1b": {
+      "all": 160,
+      "manual_local_derivation": 14,
+      "fixed_clause_span_with_literal_gap": 19,
+      "assigned_not_parsed": 30,
+      "unassigned_not_parsed": 97,
+      "fixed_value_occurrences": 58
+    },
+    "total": {
+      "all": 473,
+      "manual_local_derivation": 61,
+      "fixed_clause_span_with_literal_gap": 38,
+      "assigned_not_parsed": 94,
+      "unassigned_not_parsed": 280,
+      "fixed_value_occurrences": 186
+    }
+  },
+  "occurrence_lists": {
+    "dictionary_forms": 37,
+    "listed_occurrences": 186,
+    "unique_occurrences": 186,
+    "all_ids_exist_and_match_literal_value_type": true,
+    "all_fixed_rows_listed": true,
+    "all_listed_rows_fixed": true,
+    "declared_derived_forms": {
+      "dar": {"cut_concatenates": true, "raw_occurrence_count": 6, "listed_occurrence_count": 6},
+      "daiin": {"cut_concatenates": true, "raw_occurrence_count": 9, "listed_occurrence_count": 9},
+      "qodar": {"cut_concatenates": true, "raw_occurrence_count": 2, "listed_occurrence_count": 2},
+      "qodaiin": {"cut_concatenates": true, "raw_occurrence_count": 5, "listed_occurrence_count": 5},
+      "qodain": {"cut_concatenates": true, "raw_occurrence_count": 3, "listed_occurrence_count": 3}
+    }
+  },
+  "clauses": {
+    "C1": {"span": [[2, 1, 5], [3, 1, 5]], "groups": 10, "ZL_surface_and_ids_exact": true, "IT_RF_literal_sequence_exact": true},
+    "C2": {"span": [[7, 1, 5], [8, 1, 6]], "groups": 11, "ZL_surface_and_ids_exact": true, "IT_RF_literal_sequence_exact": false, "IT_unassigned_gaps": ["oloeorain"], "RF_unassigned_gaps": ["qoke@152;y", "{ch'}eos", "otche@152;y"]},
+    "C3": {"span": [[9, 1, 6], [10, 1, 2]], "groups": 8, "ZL_surface_and_ids_exact": true, "IT_RF_literal_sequence_exact": false, "IT_unassigned_gaps": ["qtchedy"], "RF_unassigned_gaps": ["ote@152;y", "qo@152;ar"]},
+    "C4": {"span": [[10, 3, 6]], "groups": 4, "ZL_surface_and_ids_exact": true, "IT_RF_literal_sequence_exact": true},
+    "all_four_AST_strings_parentheses_balanced": true
+  },
+  "earliest_gap": {
+    "id": "ZL3b|f85r2.1|G001",
+    "literal": "odeedy",
+    "unassigned_not_parsed": true,
+    "included_in_manual_clause": false,
+    "next_literals": ["otedy", "opaees", "ar"],
+    "author_claim_reconciles": true
+  },
+  "cost_note": "Independent whole-binding payloads sum to 36; the two one-payload component operators yield the stated lower bound 38. The same total appears in the draft cost object.",
+  "errors_found": [],
+  "limitations": [
+    "No assessment of source accuracy, medieval meanings, type soundness, grammar plausibility, or source-duty equivalence.",
+    "The fixed clause spans in IT2a and RF1b remain incomplete due to literal gaps.",
+    "No whole-page reading is supported by the counts or mechanical checks."
+  ]
+}
