@@ -8720,6 +8720,14 @@ fixedderivations fail; all149outsidegroups retain47assignedobligations, with a
 local G15 mismatch. C6 broadened/C7 restricted; no globalUNSAT or0-to1wordclaim.
 Stop automatic free-valuefill; inspect572whole-source composition separately.
 
+**2026-09-27 second planetary text witness:** [comparison](research_registry/proposals/laufenberg_f85r2_20260926/PLANET_CHILD_PARALLEL_COMPARISON.md)
+Berlin55722v–23r preserves the connected Md2planet-child argument, verified
+on two fullimages/41conclusionbaselines. Otherplanet donors are explicit;
+powerORrising and earlierpower-basednaming differ; Md2birth/day/hourtail is
+absent before Berlin's explicit ending. Stronger textual-tradition parallel,
+not independent textualorigin/VMSmeaning.572retains completeMd2 source and
+requires two reused compositionlayers with holder/donor/comparison ownership.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
