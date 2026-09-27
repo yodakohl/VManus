@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1050**
-- Experiment-associated tracked files: **20,892** (1.9 GiB)
-- Structured GDT337+ experiments: **715**
+- Experiments indexed: **1051**
+- Experiment-associated tracked files: **20,905** (1.9 GiB)
+- Structured GDT337+ experiments: **716**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1052 | GDT1052 | `REJECTED_BY_PARAGRAPH_EDGE` | [report](../experiments/yolo/gdt1052_chody_source_frame_audit/REPORT.md) | 13 | 244.1 KiB | 6 | STRUCTURED_YOLO |
 | GDT1051 | GDT1051 | `FORMAL_REPLAY__INTERNAL_O_AND_WRAPPER_DISTINCTIONS_RETAINED_NO_MEANING` | [report](../experiments/yolo/gdt1051_frozen_grammar_local_application/REPORT.md) | 11 | 302.2 KiB | 10 | STRUCTURED_YOLO |
 | GDT1050 | gdt1050_megenberg_four_cell_joining_capacity | `NO_REALIZATION_BOTH_FIXED_WRITERS` | [report](../experiments/yolo/gdt1050_megenberg_four_cell_joining_capacity/REPORT.md) | 21 | 520.2 KiB | 6 | STRUCTURED_YOLO |
 | GDT1049 | gdt1049_galen_season_concept_countercheck | `COMPLETE_SOURCE_PROFILE_NO_TARGET_FREQUENCY_BOUND` | [report](../experiments/yolo/gdt1049_galen_season_concept_countercheck/REPORT.md) | 22 | 352.0 KiB | 2 | STRUCTURED_YOLO |

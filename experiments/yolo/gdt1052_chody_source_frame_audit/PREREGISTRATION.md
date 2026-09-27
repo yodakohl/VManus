@@ -1,0 +1,3 @@
+# GDT1052 preregistration
+
+Before calculating any paragraph position of exact `chody`, fix the complete GDT928 ZL3b/IT2a paragraph universe, exact-group equality, in-paragraph X and Y nonempty requirement, rejection on **one** first/last paragraph hit, and the separate DRY rival as specified in [METHOD](METHOD.md). GDT928 and all target words were already development-exposed; this is a registered follow-up, not a blind holdout. f89v1.14 is a known favourable case and is not a selection criterion. Scope and frozen source SHA256 are in METHOD. Output and independent replay are required. No threshold change or meaning upgrade after results.

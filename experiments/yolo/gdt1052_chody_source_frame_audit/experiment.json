@@ -1,0 +1,109 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Positional capacity of this strict binary frame only; no DRY/FROM/SUN meaning, source ownership, independent confirmation or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1052_chody_source_frame_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1052_chody_source_frame_audit/src/validate.py"
+  },
+  "created": "2026-09-27",
+  "dependencies": [
+    "GDT623",
+    "GDT628",
+    "GDT663",
+    "GDT815",
+    "GDT928",
+    "GDT1051"
+  ],
+  "experiment_id": "GDT1052",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "locked_prior_input",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "locked_guarded_spotcheck_source",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "615f8d5a3a8d7003a7b1aefd3671ae7376ccfa1b233f47c61efdaa5bbb500dfc"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/METHOD.md",
+      "role": "reproducibility_artifact",
+      "sha256": "98800e0f1b32615dbb3ad04e553c1059ee0b6eae595797b52c0a40ed7e6d07f9"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/PREREGISTRATION.md",
+      "role": "reproducibility_artifact",
+      "sha256": "7176efbd5876e6cc91d1be2fde5a693f36c32fa19547bb2ffa96099c06ce5095"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/PREREG_LOCK.json",
+      "role": "reproducibility_artifact",
+      "sha256": "01e419040d2805db58bd51a0d688f8e09f3841923275670dd8890734968773f6"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/REPORT.md",
+      "role": "reproducibility_artifact",
+      "sha256": "ff819013ede99600bf07d055b7495243f94926398e96385752292ed75f04b016"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/artifacts/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "91ea326d5b9f71d53dc09fc1c1a1c2e6f6233159467789af097cc9a203d5ec41"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/artifacts/RESULT.json",
+      "role": "reproducibility_artifact",
+      "sha256": "d0ace2b417f0a1686c25f7fb8900556aa061ebc9e1ee5b862f7c671468c63ee9"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/artifacts/VALIDATION.json",
+      "role": "reproducibility_artifact",
+      "sha256": "cc54b2550d9f239e9b90661cd8c05b71fa54133e2ac4af6a1933b7a4afbf6b24"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/artifacts/EDGE_SPOTCHECK.tsv",
+      "role": "reproducibility_artifact",
+      "sha256": "da8aa87e532da59568d38499aaa51f1c732e724caaf54f166af3df1d2d452d6d"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/artifacts/GUARD.txt",
+      "role": "reproducibility_artifact",
+      "sha256": "e25c2d3278d483a858d1ab708c642a171635aedf8a6bc9ffb4123ee2e6c83e11"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/src/run.py",
+      "role": "reproducibility_artifact",
+      "sha256": "6724ae4a566fb4f002c9b8093d8ec50ffef5ee1a78159654bfcc0783aff49fb3"
+    },
+    {
+      "path": "experiments/yolo/gdt1052_chody_source_frame_audit/src/validate.py",
+      "role": "reproducibility_artifact",
+      "sha256": "3d33c31f3029ff458351178cfd97451e49967e8676b408c274d79717754cc6f3"
+    }
+  ],
+  "question": "Does the strict same-paragraph X chody Y source linker have an in-paragraph argument on both sides at every exact chody occurrence in complete exposed ZL3b/IT2a paragraphs?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "chody_source_frame_audit",
+  "status": "REJECTED_BY_PARAGRAPH_EDGE",
+  "title": "chody source frame audit",
+  "updated": "2026-09-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1052_chody_source_frame_audit/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

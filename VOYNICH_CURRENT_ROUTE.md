@@ -4,11 +4,11 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Check whole-form meaning capacity after f68/f89/f88 solar-material branch.
-Latest decision: `aiin`=III cannot transfer to `okoaiin`; SUN/LIGHT still unbound.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/F68R_AIIN_NUMERIC_TRANSFER_REVIEW_20260927.md.
-Assumptions: GDT729 zero component credit; f21r/f32v image-count trap already checked.
-Resume: Seek a new source-owned whole-form relation; do not recount f68 or inherit III.
+Task: GDT1052 fixed `chody` source-frame audit completed.
+Latest decision: Strict global X chody Y fails at f88v.20 paragraph end.
+Working files: experiments/yolo/gdt1052_chody_source_frame_audit/REPORT.md.
+Assumptions: DRY class remains a working rival, not a translated word; SUN unbound.
+Resume: Seek a whole-passage relation beyond strict FROM; keep f88v edge as countercase.
 Running: None. Prior ten-hour block remains interrupted.
 
 ## Structural baseline
