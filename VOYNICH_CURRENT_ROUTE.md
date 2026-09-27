@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block09-26 17:34:57 to09-27 03:34:57UTC; f85 source-bound meanings.
+Task: Ten-hour block09-26 17:34:57 to09-27 03:34:57UTC;569wholef85reading.
 Latest decision: 566partial hasITtypemismatch;noownedcase/PATH;notglobalUNSAT;0words.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/MEDIATED_COLD_ROOT_REVIEW.md.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/CELESTIAL_ROOT_AUTHORING_DECISION.md.
 Assumptions: 565/566frozen;newfamiliesinheritnoglosses;884/f57stops;noreserves.
-Resume: Close566replay/publication;review569wholeobserver-frame authoring decision.
-Running: root566review;independentreplay;569selectionreview;conservationproducer.
+Resume: Author569all4blocks/allC1-C8;freeze/review/publishby02:00UTC.
+Running: 569author;sourcecritic;rootreviews;boundedregional-sourceproducer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

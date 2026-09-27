@@ -1,0 +1,157 @@
+{
+  "title": "RAW C54 complexion support and predominance as separate projections of one profile",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. Source-specific successor: C54 permits two, three or four complexions in a person while one predominates. One profile keeps support, cardinality and predominant kind jointly, without silently importing all-four elemental membership or treating a type label as an exclusive ingredient. No target values assigned.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-27T01:05:27.834238+00:00",
+    "author_role": "bounded independent producer; source-content construction, not test selection",
+    "scope": "Source-first C54 local general complexion assertion; zero target forms, pages or values selected. No inheritance or repair of558/559.",
+    "source": {
+      "object": "Zuerich Zentralbibliothek Ms.C54,34r",
+      "unit": "Complete short black-prose general introduction following the four-complexion rubric and before the first melancholic article: four sorts; some people two, some three, some four; one takes the upper hand; none has only one. The rest of the temperament chapter is not owned complete.",
+      "image_url": "https://media.e-codices.ch/iip/zbz/zbz-C0054/zbz-C0054_034r.jp2/full/full/0/default.jpg",
+      "image_sha256": "7c7bfd8a5f067e254e41f1e264a69d7b94e9510aee00988b3714640f2f97b869",
+      "producer_report": {
+        "path": "research_registry/proposals/laufenberg_f85r2_20260926/SCHUERSTAB_CACHED_PRODUCER_NATIVE.md",
+        "sha256": "4b657f0ac473891ee59d1abe8d86edb6fe4aa048c3cfc52e1b3b13be541fba74"
+      },
+      "root_report": {
+        "path": "research_registry/proposals/laufenberg_f85r2_20260926/SCHUERSTAB_CACHED_ROOT_NATIVE.md",
+        "sha256": "9fb7eb6b058627f847e3d44230c596b95e39a0f2cca08236d351dd0bb0f059c3"
+      },
+      "limits": [
+        "Both reviewers inspected the same photograph with prior catalogue knowledge; agreement is not an independent witness.",
+        "This is a working native reading, not a diplomatic edition.",
+        "Complexion/nature membership is not automatically elemental material membership.",
+        "Neither the whole eight-surface program nor the whole four-type chapter was completed.",
+        "No quantities, threshold, treatment efficacy, patient identity or four-figure correspondence follows."
+      ]
+    },
+    "mechanism": "A typed PROFILE binds one person/context to a support set of complexions and one predominant member. Member queries, support count and predominant classification are projections of that same profile, not three independently filled fields.",
+    "types": [
+      "PersonRef",
+      "ComplexionKind",
+      "ProfileContext",
+      "Profile"
+    ],
+    "fixed_source_domain": [
+      "MELANCHOLIC",
+      "PHLEGMATIC",
+      "SANGUINE",
+      "CHOLERIC"
+    ],
+    "relations": {
+      "HAS_COMPLEXION": "PersonRef x ProfileContext x ComplexionKind -> proposition",
+      "PREDOMINATES_OVER": "PersonRef x ProfileContext x ComplexionKind x ComplexionKind -> proposition"
+    },
+    "constructor": {
+      "signature": "PROFILE(person,context,S,d) -> Profile",
+      "fixed_requirements": [
+        "S is a subset of the four ComplexionKind values; cardinality(S) is2,3or4.",
+        "d belongs to S.",
+        "For every k in S other than d, the profile asserts PREDOMINATES_OVER(person,context,d,k).",
+        "No lower-rank order, weights, proportions or absence of corresponding material elements is inferred.",
+        "The context is one explicitly co-referred description/occasion. Do not carry it across times or people without a written relation."
+      ],
+      "projections": {
+        "MEMBERS": "return S",
+        "COUNT": "return cardinality(S)",
+        "HEAD": "return d"
+      },
+      "state_count": "28 support-and-head configurations:6 two-member supports times2 heads,4 three-member supports times3 heads,1 four-member support times4 heads. This is a derived model capacity, not a manuscript count or semantic test.",
+      "extra_modeling_assumptions": [
+        "The source most/upper-hand wording is modeled as a unique head above all other present complexions.",
+        "An explicitly closed support set is stronger than an open list of mentioned types; closure must be written or separately hypothesized and counted.",
+        "A single profile context supplies the common owner/reference; no anonymous per-clause owner switch."
+      ]
+    },
+    "prospective_reuse_examples": [
+      {
+        "id": "P2",
+        "input": "PROFILE(p,c,{MELANCHOLIC,PHLEGMATIC},MELANCHOLIC)",
+        "outputs": "HEAD=MELANCHOLIC; COUNT=2; SANGUINE not in complexion support."
+      },
+      {
+        "id": "P3",
+        "input": "PROFILE(q,d,{MELANCHOLIC,PHLEGMATIC,SANGUINE},MELANCHOLIC)",
+        "outputs": "HEAD=MELANCHOLIC; COUNT=3; SANGUINE in complexion support."
+      },
+      {
+        "id": "P2_HEAD_CHANGE",
+        "input": "PROFILE(r,e,{MELANCHOLIC,PHLEGMATIC},PHLEGMATIC)",
+        "outputs": "Same support/count as P2; different HEAD."
+      }
+    ],
+    "example_status": "Declared logical witnesses, not people or mixtures explicitly named in C54 and not manuscript readings. Source supplies cardinal alternatives but not these exact member combinations.",
+    "contrast": [
+      {
+        "id": "R_EXCLUSIVE_LABEL",
+        "contract": "Each person is exhaustively one of four types; the classification label is the complete profile.",
+        "difference": "Cannot preserve an explicit same-person two/three-member assertion by relabeling the head alone."
+      },
+      {
+        "id": "R_FOUR_COMPLEXIONS_IN_EVERY_PERSON",
+        "contract": "The same ComplexionKind domain is universally present in every person; only dominance varies.",
+        "difference": "COUNT remains4, conflicting with literal closed2/3-support cases under the shared domain and context."
+      },
+      {
+        "id": "R_ALL_ELEMENTS_FEW_MANIFEST_COMPLEXIONS",
+        "contract": "All four material elements are present, while only2–4 complexions manifest or count as descriptions.",
+        "difference": "Potentially fully compatible. This is the strongest domain countercase; the card does not refute it or identify complexions with material ingredients."
+      },
+      {
+        "id": "R_OPEN_MENTION_LIST",
+        "contract": "Two/three types are mentioned but others remain unmentioned.",
+        "difference": "Same listed names, but no closed support or absence consequence. Main requires explicit list closure rather than treating mention as exhaustive."
+      }
+    ],
+    "prediction": "With a complete written owner/context and support closure, repeated PROFILE references must preserve MEMBERS,COUNT and HEAD jointly. Same HEAD does not entail same membership; same membership does not determine HEAD. An added head cannot be outside the written support.",
+    "falsifier": "For a prospectively fixed whole passage, a same-profile assertion requiring HEAD outside its closed support, support count1, contradictory counts, or unlicensed owner/context change defeats this contract. The serious all-element rival only differs if the relevant domains and counting convention are explicitly equated; otherwise report compatibility. No target test is currently defined or run.",
+    "target_binding_debt": [
+      "Choose a complete admitted unit only in a separately authorized selection.",
+      "Write the person/context binder, set membership and closure, predominance relation and at least two reused references.",
+      "Assign every remaining group without sentence macros, hidden enumerations or per-occurrence values.",
+      "Preserve reader alternatives and current source uncertainties; no numerical four inferred from figures."
+    ],
+    "freedom": {
+      "source_kind_constants": 4,
+      "new_relation_schemas": 2,
+      "new_profile_constructor": 1,
+      "derived_projection_operations": 3,
+      "source_cardinality_restriction": 1,
+      "unique_head_modeling_bridge": 1,
+      "support_closure_bridge_if_unwritten": 1,
+      "reference_context_schema": 1,
+      "numeric_weights": 0,
+      "target_whole_word_values": 0,
+      "target_component_values": 0,
+      "target_bindings_completed": 0,
+      "confirmed_words": 0
+    },
+    "predecessors": [
+      {
+        "id": "IDEA000558",
+        "path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/28_common_membership_regimen_quantifiers.json",
+        "relation": "Source/model fields reviewed. Its all-element mixture and not-universal treatment-benefit quantifiers remain separate and unchanged; its own source already distinguishes predominance from membership."
+      },
+      {
+        "id": "IDEA000559",
+        "path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/29_ring_state_outcome_modal_scope.json",
+        "relation": "Source/freedom fields reviewed; living-state feasibility and same-owner gaps are not repaired by allowing2–4 complexions."
+      },
+      {
+        "id": "IDEA000539",
+        "relation": "Bounded registry navigation: set/partition coverage already exists; no novelty certified merely for naming a set."
+      }
+    ],
+    "novelty_status": "Unreviewed source-specific successor, not certified novel logic. Changed positive input is the directly read C54 two/three/four restriction, unlike an all-four membership premise. There is no claimed new target capacity.",
+    "smallest_next_step": "If selected later, author one whole complete-unit hypothesis with explicit support closure and at least two same-profile references, then compare HEAD-only and all-four-same-domain readings. No executor or broad corpus is needed at RAW intake.",
+    "stops": [
+      "No new Voynich data, reserved access, target glossary or current569 draft.",
+      "No scalar quality table, literal Latin codebook, four-figure assignment or old route reopening.",
+      "Unconfirmed meanings are allowed for future exploration; absence of a confirmed anchor is not this card's intake barrier."
+    ],
+    "proposal_path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/40_complexion_support_and_predominance.json"
+  }
+}

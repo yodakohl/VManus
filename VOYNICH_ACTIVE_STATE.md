@@ -8692,6 +8692,16 @@ sourcecases orPATHs. Preserve constrainedpartial; stop automatic35-typefill,
 notglobalUNSAT. Next review distinct569observer-frame source before whole
 authoring; no oldgloss inheritance or reserve,0words.
 
+**2026-09-27 native Schürstab source:** [comparison and corrections](research_registry/proposals/laufenberg_f85r2_20260926/SCHUERSTAB_CACHED_COMPARISON.md)
+retain all four availability-fixed pages33v,34r,35r,35v, inspected in full by
+two reviewers before exchange. Explicit celestial/season/quality/type
+relations strengthen the connected-tradition hypothesis. Two/three/four
+complexions and one predominant nature are distinct; this does not establish
+absence of material elements. Collective rubrics and third-person exposition
+coexist. The initial root learning/application paraphrase is corrected;
+apparent spring-quality tension and uncertain lists remain. Original eight-page
+program incomplete; no annular f85r2 binding or word. RAW570 is unreviewed.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
