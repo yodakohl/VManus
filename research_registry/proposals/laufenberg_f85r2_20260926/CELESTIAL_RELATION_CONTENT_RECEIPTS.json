@@ -1,0 +1,66 @@
+{
+  "status": "SOURCE_RECEIPT_NOT_NATIVE_COLLATION",
+  "recorded_utc": "2026-09-27T00:20:15.692638+00:00",
+  "url": "https://www.ghtc.usp.br/server/Sacrobosco-1478.htm",
+  "edition": "Roberto de Andrade Martins, normalized electronic edition of provisionally Venice / Adam de Rottweil / circa1478 print",
+  "selected_unit": {
+    "work": "De sphaera",
+    "chapter": "I",
+    "heading": "Quod terra sit rotunda",
+    "next_heading_exclusive": "Quod acqua sit rotunda",
+    "electronic_folios": [
+      "4v",
+      "5r",
+      "5v"
+    ],
+    "end_boundary": "Final sentence about apparent flatness from great size, immediately before next heading."
+  },
+  "access": {
+    "discovery_queries": 1,
+    "query": "Sacrobosco Sphaera right sphere oblique sphere horizon translation chapter 3 text",
+    "historical_images": 0,
+    "native_collation": false,
+    "target_files_or_queries": 0,
+    "incidental_old_target_quotes_reread": [
+      "RAW549 complete proposal",
+      "RAW385 complete proposal",
+      "PIPELINE_NEXT_SELECTION.md report prose"
+    ],
+    "target_form_selection": false
+  },
+  "extraction": {
+    "decode": "windows-1252",
+    "parser": "Python standard-library HTMLParser(convert_charrefs=True)",
+    "main_cells": "td width attribute exactly 253 or 257; read text in source order",
+    "boundary": "after joining main-cell text and collapsing whitespace, inclusive first selected heading through exclusive next heading",
+    "spelling": "unchanged; no spelling corrections, Latin normalization or OCR performed by this task",
+    "accepted_projection": "external_cache/sacrobosco1478_earth_round_body253257_20260927.txt",
+    "rejected_projections": {
+      "external_cache/sacrobosco1478_earth_round_unit_20260927.txt": "Included marginal rubrics/page labels in linearized text.",
+      "external_cache/sacrobosco1478_earth_round_body_20260927.txt": "Omitted width253 continuation; never treated as the complete source."
+    }
+  },
+  "cache": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/sacrobosco1478_martins_20260927.html",
+      "bytes": 411966,
+      "sha256": "207b3e079c73512f1d038585828c3c76c4ebcf7d974bccc73b5f5ab544b2428f"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/sacrobosco1478_earth_round_unit_20260927.txt",
+      "bytes": 1956,
+      "sha256": "6aee177675f1931886e37ea9310b62bf848c75fd4eeeec184e2f94191c46047d"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/sacrobosco1478_earth_round_body_20260927.txt",
+      "bytes": 539,
+      "sha256": "2391d9525cde490c4c800335e8bd5d5fd40da87400d865ebaf55a914b70c9274"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/sacrobosco1478_earth_round_body253257_20260927.txt",
+      "bytes": 1747,
+      "sha256": "fe33becfd1f4fe44973e0c1840030834e1af61ca3895f49a861e067850e694ad"
+    }
+  ],
+  "publication": "Cache files are untracked and not intended for publication. Publish note, proposal and this receipt only. Content hashes identify the accessed electronic version; no server edition timestamp is inferred."
+}

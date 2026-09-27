@@ -1,0 +1,106 @@
+{
+  "title": "RAW observer-frame views preserve a celestial referent while local reports differ",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. A complete Sacrobosco subsection explicitly preserves one eclipse event and traveller/star references across changing stations. A hypothetical VIEW construction changes reporting frame without changing world referent; separate local-hour and cyclic-visibility channels remain typed. No target forms or meanings selected, and no numerical geometry is supplied.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-27",
+    "mechanism": "Construct a view of one world referent in an explicit reporting frame. Reframing replaces that frame, preserves the referent, and permits a typed report channel to yield another local description without asserting another event or physical transport.",
+    "unit": "Complete chapterI headed subsection Quod terra sit rotunda in the owned normalized electronic1478 De sphaera edition, electronic folios4v–5v; all C1–C8 obligations in the companion note. No target unit selected.",
+    "contrast": "Productive shared frame binding versus independently written context-dependent relations; secondarily, intrinsic observer-free labels or physical relocation accounts. The serious relational rival can preserve the complete source without the proposed constructor.",
+    "prediction": "One bound event may have different local reports without changing event identity. Comparing these as coordinates of one stage requires an additional explicit bridge. Reframing a stellar referent can change its cycle-relative visibility report without being physical transport. A fixed whole writer must write referents, frames, scopes and report types; source truth alone does not prefer VIEW over separate relations.",
+    "source": {
+      "url": "https://www.ghtc.usp.br/server/Sacrobosco-1478.htm",
+      "receipt": "research_registry/proposals/laufenberg_f85r2_20260926/CELESTIAL_RELATION_CONTENT_RECEIPTS.json",
+      "receipt_sha256": "f78c462dd99e0559af101496f630adfbabf9cb8f36e5e17d3cb3c6762f6df787",
+      "complete_claim_inventory": "research_registry/proposals/laufenberg_f85r2_20260926/CELESTIAL_RELATION_CONTENT_SUPPLY.md",
+      "complete_claim_inventory_sha256": "b3b916b947ddcbf247f96e6a46cf4f51697a05f5a957b9f4033cef5c44d56cdc",
+      "unit_status": "Complete selected headed subsection; normalized electronic primary text inspected, native print not inspected. No regional exemplar/provenance claim.",
+      "source_fixtures": "C2 preserves numerical event identity; C4/C5 preserve a traveller and stellar reference across a conditional journey. C6/C7 retain the entire local flatness counterfactuals. Fixture constants are not target evidence.",
+      "outside_scope": "Preceding size/vapour argument, following water argument, whole chapter, other editions and modern astronomical formulae."
+    },
+    "formal_contract": {
+      "status": "Explicit content schema with finite source cases, not a complete geometric theory, source parser or target grammar.",
+      "sorts": [
+        "WorldReferent[Event or Star]",
+        "StationFrame",
+        "ObservationScope[X]",
+        "View[WorldReferent]",
+        "LocalNightPhase",
+        "VisibilityAssertion"
+      ],
+      "VIEW": "WorldReferent[X] x StationFrame x ObservationScope[X] -> View[X]",
+      "REFERENT": "View[X] -> X; REFERENT(VIEW(x,f,c)) = x",
+      "REFRAME": "View[X] x StationFrame -> View[X]; REFRAME(VIEW(x,f,c),g) = VIEW(x,g,c)",
+      "compositional_laws": [
+        "REFERENT(REFRAME(v,g)) = REFERENT(v)",
+        "REFRAME(REFRAME(v,g),h) = REFRAME(v,h)",
+        "SCOPE(REFRAME(v,g)) = SCOPE(v)"
+      ],
+      "channel_1": "NIGHT_PHASE_REPORT: View[Event] -> set of LocalNightPhase assertions. They are approximate local-night descriptions, not elapsed duration, unique instants or global temporal ordering. Event identity alone does not fix the reported phase of an extended eclipse.",
+      "channel_2": "VISIBILITY_REPORT: View[Star] -> set of cycle-relative assertions. Within one explicitly compatible scope, ALWAYS_VISIBLE excludes HAS_SETTING, and NEVER_VISIBLE excludes HAS_VISIBILITY. This is not an instantaneous photograph predicate.",
+      "frame_content": "A declared observer station and its reporting conventions/horizon. Moving the station is distinct from moving the star or changing event identity. A view can be reported by different persons; event identity does not require one witness.",
+      "source_cases": [
+        "Eclipse fixture: shared event e under fUs and fEast, with the C2 different local descriptions. They are one event, not two events of the same eclipse kind. The source does not explicitly identify a contact/phase; identical comparison scope c requires the separately declared common-stage bridge.",
+        "Travel fixture: shared stellar referent s and observer a under initial and sufficiently displaced stations, with the C4 changed visibility regime under a compatible declared cycle scope. A second C5 stellar reference is not automatically the same star as s."
+      ],
+      "not_derived": "The two channels are separate primitive content relations. The source instances constrain them but do not supply an algorithm for arbitrary stations. REFRAME laws alone do not derive the source output contrasts.",
+      "no_hidden_casts": "An event view is not a star view; local phase is not duration; the observer is not the celestial object; frame replacement is not a temporal-world update. Context or regime changes beyond source-declared travel require explicit clauses.",
+      "SCOPE": "View[X] -> ObservationScope[X]; SCOPE(VIEW(x,f,c)) = c",
+      "observation_scope": "A written stage/reference scope for an event report, or a cyclic-motion/horizon regime for a stellar report. These are typed alternatives, not a universal hidden observation time. Reframing preserves the declared scope; replacing scope is a different operation not supplied here."
+    },
+    "costs": {
+      "new_target_values": 0,
+      "inherited_target_values": 0,
+      "target_forms_or_units_selected": 0,
+      "view_constructors": 1,
+      "reference_operations": 3,
+      "typed_report_channels": 2,
+      "primitive_source_case_families": 2,
+      "geometric_evaluator": null,
+      "extra_assumptions": [
+        "One common station-frame representation can support both channels; this is a proposed schema, not a source-proven target grammar.",
+        "The stellar visibility comparison holds a compatible cyclical-motion description fixed while varying station; no physical star-evolution story is silently substituted.",
+        "No unique eclipse date, calibrated hour duration, longitude, latitude, numerical threshold, travel speed or exact trajectory is supplied.",
+        "Source counterfactual premises and attributed explanations must remain written content, not background facts that erase conditional clauses.",
+        "Optional common-stage bridge: the two eclipse reports concern a corresponding stage/appearance, not arbitrary different times within one extended eclipse. The source preserves event identity but does not explicitly name that stage. No intrinsic-time contradiction follows from identity alone without this bridge."
+      ],
+      "view_constructor_arguments": 3
+    },
+    "strong_rivals": [
+      {
+        "id": "R_SEPARATE_RELATIONS",
+        "contract": "Explicit predicates independently relate the same event/star to stations and outputs, with ordinary reference.",
+        "consequence": "Preserves all source claims. Only a complete frozen written construction can favor shared VIEW; counting true source cells cannot."
+      },
+      {
+        "id": "R_CHANGING_WORLD",
+        "contract": "A fixed station observes successive celestial states or physical stellar motion.",
+        "consequence": "Can explain changing instantaneous appearances in general. To express this selected source it must additionally preserve the single eclipse and conditional traveller-owned station changes. Do not reject daily rotation itself, which can coexist with the main account."
+      },
+      {
+        "id": "R_INTRINSIC_LABEL",
+        "contract": "One event has one global hour value; a star has one observer-independent visibility regime.",
+        "consequence": "Under an explicit common-stage bridge, one unique global phase label cannot reproduce the two local labels. Without that bridge the eclipse contradiction is not established; an extended event can have reports at different times. A stable observer-free cyclic visibility regime still requires qualification to express the travel case. This weak rival is not the sole comparison."
+      }
+    ],
+    "full_source_and_target_debt": {
+      "source": "All C1–C8, including both directional counterfactuals and perceptual qualification, remain obligations. No isolated eclipse clause counts as the selected whole unit.",
+      "target": "All ordered terminal derivations, explicit station/observer/referent and observation-scope bindings, quantifiers, journey conditions, channel selectors, identities and causal/counterfactual scope are missing. The optional common-eclipse-stage bridge is not silently supplied. No target values assigned.",
+      "possible_scope": "A separately selected complete already-admitted unit only; no new data, figure map or current draft inherited. A whole hypothetical reading is allowed without independently confirmed words.",
+      "no_claim": "No manuscript translation, geometric discovery, Earth-image identification, provenance or statistical significance."
+    },
+    "smallest_decision_changing_step": "Before any executor, author one whole admitted unit under a fixed meaning/grammar budget whose repeated written frame construction has at least two differently typed source-appropriate report uses. Freeze ownership and compare with R_SEPARATE_RELATIONS using the same non-frame values. If neither construction distinguishes written ownership or full-source coverage, retain non-identifiability and stop; no numerical simulator or additional free paragraph.",
+    "falsifier_of_fixed_descendant": "Reject that descendant if it silently changes event identity to reconcile local labels, treats a phase label as a duration, changes the star when changing its observer frame, introduces an unmentioned frame/regime, conflates instantaneous visibility with cycle class, or leaves C1–C8 unowned. This is conditional model rejection, not a present target contradiction.",
+    "predecessors": [
+      "IDEA000351 full optical-appearance card: observer/object/image relation and point correspondence already proposed; its source-proof and diagram-reference limitations retained.",
+      "IDEA000068 full identity-persistence card: referent conservation is not novel by itself.",
+      "IDEA000346 plus complete ChaucerII25 source audit: latitude/zenith calculation is not this frame-report mechanism; known short-unit failures retained.",
+      "IDEA000385 complete observation-transfer card: instrument state and two outputs already proposed; no instrument writer or target values borrowed.",
+      "RAW547/549 complete cards: annual-course, phase and day-length distinctions retained; no global infix grammar or old gloss imported.",
+      "Existing scoped spatial-query compounds: explicit relational arguments already proposed; no PARENT/COLOR law borrowed."
+    ],
+    "access_disclosure": "No target file/query/pixels. Complete predecessor cards/review prose exposed their already-owned target quotations; not target-character blind. No such form or value selected. No current565/566 draft/results or reserves read.",
+    "readiness": "RAW only. Independent confirmation and present target binding capacity remain zero. The source graph is more specific than generic context dependence but is not a complete interpretation."
+  }
+}
