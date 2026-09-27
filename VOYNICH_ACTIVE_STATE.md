@@ -8702,6 +8702,16 @@ coexist. The initial root learning/application paraphrase is corrected;
 apparent spring-quality tension and uncertain lists remain. Original eight-page
 program incomplete; no annular f85r2 binding or word. RAW570 is unreviewed.
 
+**2026-09-27 Mercury text ownership:** [source comparison](research_registry/proposals/laufenberg_f85r2_20260926/MERCURY_LOCAL_TEXT_COMPARISON.md)
+reads all270v/271v,116baselines. The271rimage follows Mercury's270v
+character/arts text;271v opensMoon then concludes about allsevenplanets.
+Multiple contributing influences and naming by greatest share are explicit;
+sole power is rare,notforbidden. No explicit urine-medicine caption or
+f85r2figure/word follows. B's unsupported firstparaphrases are withdrawn;
+period remains2[7/8?]days. C54's separate23-lineItem gives a shared celestial
+referent and sign-to-planet assignment; Moon/month and possible temporal
+measure wording remain qualified. These are source findings only.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
