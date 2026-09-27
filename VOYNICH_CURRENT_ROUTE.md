@@ -4,14 +4,15 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Seek a bound content contrast beyond GDT1055.
-Latest decision: GDT1055 exact triples are text identities only; GDT822/823
-already tried the f81r.20/f82r.21 pair, and GDT1040 used the f83r.3 core.
-Working files: GDT1055 REPORT; registry decisions IDEA000610/611.
-Assumptions: W52/W53 no secure word owner or flow direction;0 confirmed words.
-Resume: Avoid semantic recycling of GDT1055; choose a new independently owned
-source contrast before a new meaning test. IDEA000610/611 need new binding.
-Running: None. Raw ideas 610–613 retained; 610/611 capacity-reviewed.
+Task: Seek an independent content contrast.
+Latest decision: GDT1056 finds no visible repair at f75v.44 joined qolchedy;
+GDT852 local spacing stands, but meaning remains unbound.
+Working files: GDT1056 REPORT; GDT1055 correction.
+Assumptions: f75v image resolution limits; GDT822/823 fire/source guesses C0;
+W52/W53 no secure word owner/flow;0 confirmed words.
+Resume: Do not infer semantic alternation from f75v spacing. Seek a genuinely
+independent content owner; avoid GDT1055 recurrence and visual-repair reruns.
+Running: None. Ideas610/611 parked;612 tested;613 raw unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
