@@ -1,0 +1,221 @@
+{
+  "reviewed_utc": "2026-09-27T18:27:20.751821+00:00",
+  "reviewer": "tenhour_idea_supply_0927",
+  "status": "PASS_WITH_EXPLICIT_VERIFICATION_LIMITS",
+  "reviewed_report_sha256": "9920b5024abb10be530c46dad5a53a3f2f21a0a3295b2ac48e6fa64f5a2f69e6",
+  "required_corrections": [],
+  "reviewed_artifacts": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/F68R_PAIRED_OPENINGS_RESULT_20260927.md",
+      "sha256": "9920b5024abb10be530c46dad5a53a3f2f21a0a3295b2ac48e6fa64f5a2f69e6"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/F68R_PAIRED_OPENINGS_SOURCE_20260927.json",
+      "sha256": "31b07594e91dff42cb407549e6102e4bb18109b981683ab2e1dbd3c55ba4a7dc"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/F68R_PAIRED_OPENINGS_PRIOR_20260927.md",
+      "sha256": "8e036efafbad458d751f1fb1e43c7f406796c71eb5ca453c44b068d13edfe487"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/F68R_ACTUAL_FORM_PROFILES_20260927.json",
+      "sha256": "34f4659e0af6eda73eb4d547d36ffc7aa27d5f7577a7c281d097439786bd99d9"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/F68R_PAIRED_OPENINGS_NATIVE_CHECK_20260927.md",
+      "sha256": "c2fdf67164c100246db6073b97e8d52d51092f0336aa0259d1e2b0e5468e8814"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/F68R_PAIRED_OPENINGS_DECISION_20260927.md",
+      "sha256": "e7ede217b0d9858dcfbd3e2fb5139f0d8b52801782c657ab95360da4ed74987d"
+    }
+  ],
+  "review_basis": "Bounded claim and internal consistency review of the saved report, six complete guarded group sequences, existing exact-form profiles, prior-evidence note, native reader correction, and registration. No new manuscript source query or image inspection.",
+  "independence": {
+    "author_of_prior_note_and_profile_companion": true,
+    "independent_of_that_component": false,
+    "independent_native_reading_performed": false,
+    "saved_guarded_source_packet_inspected": true,
+    "alternate_transcriptions_are_independent_semantic_confirmations": false,
+    "native_first_attribution_withdrawal_retained": true
+  },
+  "checks": [
+    {
+      "claim": "Only IT2a has the exact first group okeo in both rings",
+      "result": "PASS",
+      "evidence": [
+        {
+          "edition": "ZL3b",
+          "locus": "f68r2.6",
+          "first_three": [
+            "okeo",
+            "ok[a:?]r",
+            "ok[y:o]"
+          ]
+        },
+        {
+          "edition": "ZL3b",
+          "locus": "f68r2.31",
+          "first_three": [
+            "okey",
+            "okoaiin",
+            "okol"
+          ]
+        },
+        {
+          "edition": "IT2a",
+          "locus": "f68r2.6",
+          "first_three": [
+            "okeo",
+            "okor",
+            "oko"
+          ]
+        },
+        {
+          "edition": "IT2a",
+          "locus": "f68r2.31",
+          "first_three": [
+            "okeo",
+            "okoaiin",
+            "okol"
+          ]
+        },
+        {
+          "edition": "RF1b",
+          "locus": "f68r2.6",
+          "first_three": [
+            "okeo",
+            "okar",
+            "oko"
+          ]
+        },
+        {
+          "edition": "RF1b",
+          "locus": "f68r2.31",
+          "first_three": [
+            "okey",
+            "okoaiin",
+            "okol"
+          ]
+        }
+      ]
+    },
+    {
+      "claim": "Whole Sun second form is okoaiin, not okaiin; Moon second groups retain okar/okor/uncertain-ZL distinctions",
+      "result": "PASS",
+      "note": "No deletion of extra o, no transfer of the 200/198/187 okaiin counts, and no okoor claim."
+    },
+    {
+      "claim": "All six raw sequences retained, upper ring eight groups in each reader, lower twelve/eleven/eleven",
+      "result": "PASS",
+      "counts": [
+        {
+          "edition": "ZL3b",
+          "locus": "f68r2.6",
+          "count": 8
+        },
+        {
+          "edition": "ZL3b",
+          "locus": "f68r2.31",
+          "count": 12
+        },
+        {
+          "edition": "IT2a",
+          "locus": "f68r2.6",
+          "count": 8
+        },
+        {
+          "edition": "IT2a",
+          "locus": "f68r2.31",
+          "count": 11
+        },
+        {
+          "edition": "RF1b",
+          "locus": "f68r2.6",
+          "count": 8
+        },
+        {
+          "edition": "RF1b",
+          "locus": "f68r2.31",
+          "count": 11
+        }
+      ],
+      "note": "Raw separator groups include unreadable entities and the ZL uncertain small space; clean token counts are a different representation."
+    },
+    {
+      "claim": "Actual outside-corpus exact-form frequencies match saved profiles",
+      "result": "PASS",
+      "counts": {
+        "okoaiin": {
+          "ZL3b": 1,
+          "IT2a": 1,
+          "RF1b": 1
+        },
+        "okar": {
+          "ZL3b": 118,
+          "IT2a": 113,
+          "RF1b": 109
+        },
+        "okor": {
+          "ZL3b": 24,
+          "IT2a": 25,
+          "RF1b": 18
+        },
+        "okey": {
+          "ZL3b": 40,
+          "IT2a": 40,
+          "RF1b": 38
+        }
+      },
+      "note": "okeo 2/3/2 and distinct okaiin 200/198/187 are supported by the prior profile note. These are the 179 admitted selectors, excluding f68r."
+    },
+    {
+      "claim": "Single outside okoaiin is f89v1.14 group7 in each alternate reading",
+      "result": "PASS",
+      "note": "All three saved examples locate the same internal Pharma prose position. Complete outside passage interpretation has not been claimed."
+    },
+    {
+      "claim": "Native observation does not independently confirm exact EVA attribution",
+      "result": "PASS",
+      "note": "The report preserves and links the native first-attribution conflict and withdrawal; positional gap observations are distinguished from sentence boundaries."
+    },
+    {
+      "claim": "Lead remains exploratory and does not prove SUN/MOON word identities, minimal-pair equality, significance or independent semantic confirmation",
+      "result": "PASS",
+      "note": "One physical leaf, user cues, divergent complete continuations and retained rival roles are stated explicitly."
+    },
+    {
+      "claim": "Location correction and two-locus scope are disclosed",
+      "result": "PASS",
+      "note": "Saved registration records the initial mistaken paragraph location, correction and exact f68r2.6/f68r2.31 C-locus selection. This review checks documentation, not historical filesystem timestamps."
+    }
+  ],
+  "linked_files": [
+    {
+      "target": "F68R_PAIRED_OPENINGS_SOURCE_20260927.json",
+      "exists": true
+    },
+    {
+      "target": "F68R_PAIRED_OPENINGS_PRIOR_20260927.md",
+      "exists": true
+    },
+    {
+      "target": "F68R_ACTUAL_FORM_PROFILES_20260927.json",
+      "exists": true
+    },
+    {
+      "target": "F68R_PAIRED_OPENINGS_NATIVE_CHECK_20260927.md",
+      "exists": true
+    },
+    {
+      "target": "F68R_PAIRED_OPENINGS_DECISION_20260927.md",
+      "exists": true
+    }
+  ],
+  "limits": [
+    "This is a documentation and saved-artifact consistency review, not an independent reading of original pixels.",
+    "No new data collection, target admission, source acquisition, ledger edit or Git action was performed by this reviewer.",
+    "Guard receipts and source bindings are inspected as recorded; the raw mixed transcription files were not reopened.",
+    "No semantic candidate has passed a transfer or reserved-confirmation test; confirmed translated words remain zero."
+  ]
+}

@@ -4,11 +4,11 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Historical expectations and copying-signature intake complete.
-Latest decision: Source functions/layout retained; no wider witness crawl or word.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/HISTORICAL_EXPECTATIONS_RESULT_20260927.md.
-Assumptions: Old stops retained; no new admission; ten-hour block interrupted.
-Resume: Require a concrete new source-entry bridge before reopening copy search.
+Task: f68r2 paired-ring opening comparison complete.
+Latest decision: Near opening retained; actual okoaiin rare; no Sun/Moon gloss.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/F68R_PAIRED_OPENINGS_RESULT_20260927.md.
+Assumptions: User-cued;2localC-loci only;179unchanged;oneleaf,0meanings.
+Resume: If pursued, fix a whole-ring reading plus f89v1.14 context consequence.
 Running: none.
 
 ## Structural baseline

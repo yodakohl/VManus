@@ -106,3 +106,15 @@ Expositionsprüfung rekonstruiert. Es gab in diesem Auftrag keine neue
 Transkriptionsabfrage oder Bildzulassung; die neuen Rohideen573/574 sind weder
 ausgewählt noch getestet. Ihre etwaige Auswahl benötigt den üblichen
 Primärvergleich. Frühere Zugriffsvorfälle und Reservengrenzen bleiben bestehen.
+
+## 27September: ausdrücklicher Nutzerauftrag zu f68r
+
+Der Nutzer bittet um den Vergleich der Sonnen-/Mond-Anfänge. Die
+[Befundregistrierung](../research_registry/proposals/laufenberg_f85r2_20260926/F68R_PAIRED_OPENINGS_DECISION_20260927.md)
+begrenzt die Textprüfung nach nativer Ortsklärung auf die vollständigen
+Umschriften **f68r2.6 und f68r2.31**. Beide liegen auf dem bereits visuell
+zugelassenen Yale1006196-Original. Kein neuer Bildschlüssel;179-Text-Allowlist
+unverändert. Diese lokale Nutzerfreigabe ist keine allgemeine Textfreigabe
+aller f68r-Absätze oder Sternlabels. Bewachte Metadatenabfrage und die zwei
+Inhaltsloci sind im Quellpaket dokumentiert. Frühere Bild-/Textkenntnis bleibt
+Entwicklungsexposition; keine unabhängige Bestätigung oder Reserveöffnung.
