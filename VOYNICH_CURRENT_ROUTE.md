@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: New10hblock03:37:01-13:37:01UTC;Cgm349 complete;next582content selection.
-Latest decision: Cgm3499faces complete;586RAW;583closed;0words.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/CGM349_ROOT_NATIVE_REPORT.md.
+Task: New10hblock03:37:01-13:37:01UTC;582whole wind-prose synopsis.
+Latest decision: Cgm349published1dca24973;582selected exploratory;0words.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/WIND_TRANSIT_ROOT_DECISION.md.
 Assumptions: Same exposedVMS;0confirmedwords;no583repair;reservesclosed.
-Resume: Publish Cgm349;select bounded582contract from full Md2wind argument.
-Running: rootpublication/selection;Apreselectionfrozen;Cboundedsourceproducer;Bidle.
+Resume: A first contract whole west causal argument;review before whole continuation.
+Running: A582firstcontract20min;rootindependentcontentaudit;Csourceproducer;Bpending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
