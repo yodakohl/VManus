@@ -1,0 +1,112 @@
+{
+  "review": "IDEA000595 frozen semantic/type review B",
+  "review_date_utc": "2026-09-27",
+  "review_scope": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "SEASON_STAGE_ROOT_DECISION.md",
+    "SEASON_STAGE_SOURCE_GRAPH_ROOT.md K01-K10",
+    "MEGENBERG_II25_SOURCE.txt",
+    "SEASON_STAGE_AUTHOR_DRAFT.md",
+    "SEASON_STAGE_AUTHOR_DRAFT.json relevant declared types, lexicon, morphology, rules, clauses, token roles, source coverage, scopes, rivals and costs",
+    "SEASON_STAGE_AUTHOR_REPORT.md",
+    "SEASON_STAGE_AUTHOR_FREEZE_RECEIPT.json"
+  ],
+  "not_accessed": [
+    "root/C595 reviews",
+    "new target data or images",
+    "new source data",
+    "reserves"
+  ],
+  "frozen_hashes_verified": {
+    "SEASON_STAGE_AUTHOR_DRAFT.json": "986b5ca7ec08e3c9474abbad03875716f3cc53f69c806912895c81f79f875f7e",
+    "SEASON_STAGE_AUTHOR_DRAFT.md": "ffa9bc679f33a3845de4460ec138d4e3986b9058e91e1c457c593a483371515d",
+    "SEASON_STAGE_AUTHOR_REPORT.md": "e08960cdc7f18430d9260022b33a114902484cc8a91fa8b5f2e385a76925fc41"
+  },
+  "outcome": "Actual limited F applications are present in causal clauses, but the frozen manual reading has a concrete C01 type/interface gap. This is not a typed PASS, translation acceptance, or independent meaning confirmation.",
+  "positive_F_derivations": [
+    {
+      "clause": "C07",
+      "component_cut": "qo|dar",
+      "input": "dar=SUMMER",
+      "written_region": "qotedar at ZL3b|f85r2.10|G003 = EAST",
+      "computed_value": "HeatProfile(EAST,SUMMER)",
+      "causal_role": "The same profile is excessive, disperses vapour, and prevents thick-cloud formation in the reason for reported eastern-summer absence.",
+      "rule_ids": ["G13", "G14", "G15", "G16", "G17"]
+    },
+    {
+      "clause": "C09",
+      "component_cut": "qo|daiin",
+      "input": "daiin=WINTER",
+      "written_region": "odain at ZL3b|f85r2.16|G003 = opening r0",
+      "computed_value": "HeatProfile(r0,WINTER), equated to C08's explicitly selected winter profile",
+      "causal_role": "AN explicitly predicates this profile insufficient for the two requirements referenced from C08 and links the reason to that inability claim.",
+      "rule_ids": ["G13", "G14", "G19", "G20"],
+      "qualification": "The candidate additionally and openly asserts r0=US in C09; the source opening location is unspecified."
+    },
+    {
+      "clause": "C11",
+      "component_cut": "qo|daiin",
+      "input": "daiin=WINTER",
+      "written_region": "qokeody at ZL3b|f85r2.21|G001 = EAST",
+      "computed_value": "HeatProfile(EAST,WINTER), checked against both written shedy profile references",
+      "causal_role": "Under explicitly paid postfixed G26, gentle heat and qualitative US/SUMMER likeness supply the reason for reported eastern-winter thunder.",
+      "rule_ids": ["G13", "G23", "G25", "G26"]
+    }
+  ],
+  "concrete_type_gap": {
+    "clause": "C01",
+    "declared_interface": "G03: GIVEN(Prop) -> PremiseData[Prop]",
+    "declared_surface_ast": "GIVEN(otedy, INTRO(opaees, ar), REL(chcthy, otchdy, otody, KIND_AND(otar,chepaiin)), ASCENT(otodar, RANGE(otodaiin, BOTH(opaiin,otaiin,qopchas))))",
+    "actual_formula": "AND(Generates(V,THUNDER), Generates(V,LIGHTNING), GenericRises(V,WINTER), GenericRises(V,SUMMER)) is packaged as the GIVEN premise",
+    "problem": "otar coordinates two WeatherKind values only. No Prop coordinator appears between REL and ASCENT, and C01 cites no G04/G05 or other multi-Prop GIVEN construction. The trace says GIVEN packages plural premises, while the signature declares one Prop input.",
+    "review_status": "unresolved frozen interface/type gap; do not infer a universal impossibility or supply a repair"
+  },
+  "clause_audit": [
+    {"clause":"C01","production_ids":["G01","G03","G07"],"status":"K01 represented; missing declared combination for two Prop premises under GIVEN"},
+    {"clause":"C02","production_ids":["G02","G06"],"status":"Typed pattern comparator and nested considered-argument wrappers are explicitly declared"},
+    {"clause":"C03","production_ids":["G07","G08"],"status":"Typed discourse-topic restatement; added/redundant, not a source assertion"},
+    {"clause":"C04","production_ids":["G02","G04","G09"],"status":"Weather-kind and vapour-class alternatives are kept distinct; fire restriction stays local"},
+    {"clause":"C05","production_ids":["G10"],"status":"Anaphora targets C04 completed raising claim; restrictive output is not global negation"},
+    {"clause":"C06","production_ids":["G02","G11"],"status":"SOME_SAY owns eastern-summer absence"},
+    {"clause":"C07","production_ids":["G02","G07","G12","G13","G14","G15","G16","G17"],"status":"Explicit contexts, F application and distinct excessive/dispersal/cloud-prevention reason"},
+    {"clause":"C08","production_ids":["G02","G04","G05","G18","G19"],"status":"Two separate written raise requirements and separate inability outcomes"},
+    {"clause":"C09","production_ids":["G02","G04","G05","G13","G14","G20","G21"],"status":"F applied to written region; magnitude insufficiency reason links to C08; US opening-location addition disclosed"},
+    {"clause":"C10","production_ids":["G22","G23","G24"],"status":"Full winter account pattern compared with autumn and spring under rare exception"},
+    {"clause":"C11","production_ids":["G02","G04","G13","G23","G25","G26"],"status":"Written postfixed F application, profile identity checks, attributed reason preserved"},
+    {"clause":"C12","production_ids":["G02","G04","G07","G11","G27"],"status":"Late same-constituent SUMMER resolves west context; SOME_SAY extension and topic choice disclosed"},
+    {"clause":"C13","production_ids":["G04","G07","G28","G29"],"status":"Explicit same-material check and non-entailment recap; added, not source sentence or sufficiency claim"}
+  ],
+  "production_trace_limit": "G30 is not listed in any clause productions array despite use of its declared CONSIDER, RECAPITULATE and account-header interfaces. Specific wrappers are also covered by G06/G24/G28, so this is a trace/accounting omission rather than an independently established type failure.",
+  "source_qualification": {
+    "K01_to_K10_all_linked": true,
+    "anticipated_question_not_actual_dialogue": true,
+    "generic_vapour_not_single_cross_season_parcel": true,
+    "winter_raising_and_elevation_failures_distinct_from_eastern_summer_cloud_obstruction": true,
+    "autumn_spring_rare_exception_retained": true,
+    "some_say_attribution_retained_and_western_scope_extension_disclosed": true,
+    "eastern_winter_to_us_summer_comparison_qualitative": true,
+    "numeric_heat_threshold_or_necessary_sufficient_law_claimed": false,
+    "additional_source_departures": [
+      "C09 explicitly identifies initially unspecified r0 with US.",
+      "C03 discourse topic restatement and C13 logical non-entailment recap are added connective content.",
+      "C12 keeps the western comparison inside the SOME_SAY regional-report scope and adds vapour as topic only."
+    ]
+  },
+  "inventory_checks": {
+    "manual_constituents_examined": 13,
+    "ordered_ZL_roles": 156,
+    "role_ids_equal_source_ids_in_order": true,
+    "role_literal_value_type_matches_lexicon": true,
+    "ZL_lexicon_entries": 115,
+    "unused_ZL_lexicon_entries": 0,
+    "source_duty_labels": 10,
+    "all_source_duty_labels_linked": true,
+    "semantic_executor_used": false
+  },
+  "rivals_and_evidence_limits": [
+    "Separate whole entries for qodar and qodaiin reproduce the three fitted applications without a productive qo operator.",
+    "Ordinary context-qualified heat predication is a source-compatible rival.",
+    "The narrow two-root function, meanings, cuts and selected domain were chosen on exposed data; these are not held-out consequences.",
+    "No accepted translation, independent meaning confirmation, or transfer to another source unit follows."
+  ]
+}
