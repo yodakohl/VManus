@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: New10hblock03:37:01-13:37:01UTC;close583;next source-content selection.
-Latest decision: 58372local+10conditional/156;O2/O3open;O4profilepartial;stopfixedwhole.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/DEFAULT_CONTEXT_WHOLE_ROOT_REVIEW.md.
-Assumptions: 473rawobligations;0words;no583repairs/meaningtransfer;reservesclosed.
-Resume: Publish583then review582causalwind versus585trust before new authoring.
-Running: root583publication;A/Bdone;CnewCgm349source55r-59r through07:22:35.
+Task: New10hblock03:37:01-13:37:01UTC;Cgm349 complete;next582content selection.
+Latest decision: Cgm3499faces complete;586RAW;583closed;0words.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/CGM349_ROOT_NATIVE_REPORT.md.
+Assumptions: Same exposedVMS;0confirmedwords;no583repair;reservesclosed.
+Resume: Publish Cgm349;select bounded582contract from full Md2wind argument.
+Running: rootpublication/selection;Apreselectionfrozen;Cboundedsourceproducer;Bidle.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
