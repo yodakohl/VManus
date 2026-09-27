@@ -1,17 +1,17 @@
 # Voynich current route
-Updated: 2026-09-27. This is the sole live resume point; replace, never append history.
+Updated: 2026-09-28. This is the sole live resume point; replace, never append history.
 
 ## Current work
 Phase: exploration
 Status: checkpoint
 Task: Seek an independently bound content contrast.
-Latest decision: GDT957 post-hoc second-list screen lacks shared calculation;
-32 geomancy keys remain. GDT1056 spacing has no semantic binding.
-Working files: GDT957 REPORT; Laufenberg EXTERNAL_SOURCES.
+Latest decision: f17r Betony grade pair lacks image identity;
+IDEA614 thunder triad lacks independent Voynich target.
+Working files: F17R_GRADE_IMAGE_SCREEN; rr_thunder_sound_capacity_review.
 Assumptions: GDT822/823 fire/source C0; f85r2 season/age C0;0 confirmed words.
-Resume: Seek an author-visible text/referent link with contrasting values;
-avoid GDT1055 recurrence, f75v repair rerun, geomancy list mining.
-Running: None. Ideas610/611 parked;612 tested;613 raw unreviewed.
+Resume: Find author-visible text/referent contrast; avoid grade-first
+plant naming, thunder source-only fitting, geomancy list mining.
+Running: None. IDEA614 not tested;610/611 parked;612 tested;613 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
