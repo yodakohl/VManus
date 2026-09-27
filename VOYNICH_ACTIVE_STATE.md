@@ -8669,6 +8669,14 @@ but the feeding section's postpartum caveat continues outside that range.
 This is no located Galenic hot/cold comparison or target word. RAW565 whole
 exploration keeps its original GalenII8 source and inherits no old S/E glosses.
 
+**2026-09-26 concrete honey synopsis:** [root review](research_registry/proposals/laufenberg_f85r2_20260926/HONEY_WHOLE_ROOT_REVIEW.md)
+retains108ZLgroups/18clauses with actual qod/Product/predication reuse. This
+costs82independentwholevalues and26grammarentries;11IT/18RFgaps and47outside
+contexts remain. The stative chol rival survives; BY process typing is open.
+IT S16qodain givesIN_FOOD rather thanIN_BODY. No confirmed word or reserve.
+Next inspect all outside assigned contexts and all4physicalqod spans; do not
+choose a reader or add grammar to hide a consequence.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a

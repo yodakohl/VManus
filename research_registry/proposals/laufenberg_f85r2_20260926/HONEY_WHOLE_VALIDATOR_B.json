@@ -1,0 +1,339 @@
+{
+  "schema": "honey_whole_validator_b_v1",
+  "validation_scope": "Independent literal replay from GDT1042 artifacts/guarded_projection.tsv only; no producer import; no mixed source TSV read.",
+  "inputs": {
+    "projection": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/guarded_projection.tsv",
+    "projection_sha256": "489c3960116c88f76de39187eef3d2f9d3dd68d3c2e514f54abe7a2294d185e9",
+    "method": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/METHOD.md",
+    "method_sha256": "f000b1524f1fa3c9d522cdc030cabaee3855ac5be085af6cc5500e7c0a84baf8",
+    "lock": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/src/PREREG_LOCK.json",
+    "draft": "research_registry/proposals/laufenberg_f85r2_20260926/HONEY_WHOLE_DRAFT.json",
+    "draft_sha256": "30e20e160e20cdd09931e44135b36668afa6cd1885d04663c2190c496e7d30bc"
+  },
+  "result": "STRUCTURAL_PASS",
+  "failures": [],
+  "projection_rows": 473,
+  "reader_groups_by_projection": {
+    "ZL3b": 156,
+    "IT2a": 157,
+    "RF1b": 160
+  },
+  "expected_block_rows": 324,
+  "exact_block_row_mismatches": 0,
+  "edition_block_counts_reconstructed": {
+    "ZL3b": {
+      "groups": 108,
+      "assigned_by_exact_whole": 108,
+      "unassigned": 0
+    },
+    "IT2a": {
+      "groups": 107,
+      "assigned_by_exact_whole": 96,
+      "unassigned": 11
+    },
+    "RF1b": {
+      "groups": 109,
+      "assigned_by_exact_whole": 91,
+      "unassigned": 18
+    }
+  },
+  "ZL_clause_count": 18,
+  "ZL_clause_group_refs": 108,
+  "ZL_unique_clause_group_refs": 108,
+  "ZL_clause_literal_mismatches": [],
+  "assigned_whole_types": 85,
+  "all24_index_types": 85,
+  "all24_index_mismatches": [],
+  "expected_outside_assigned_occurrences": 47,
+  "outside_mismatches": [],
+  "reused_literal_spans": {
+    "qod_compounds": {
+      "qodar": [
+        {
+          "locus": "f85r2.10",
+          "index": 2,
+          "id": "ZL3b|f85r2.10|G002",
+          "left": "UNCERTAIN_SMALL_SPACE",
+          "right": "DEFINITE_SPACE"
+        }
+      ],
+      "qodaiin": [
+        {
+          "locus": "f85r2.16",
+          "index": 2,
+          "id": "ZL3b|f85r2.16|G002",
+          "left": "DEFINITE_SPACE",
+          "right": "DEFINITE_SPACE"
+        },
+        {
+          "locus": "f85r2.21",
+          "index": 5,
+          "id": "ZL3b|f85r2.21|G005",
+          "left": "DEFINITE_SPACE",
+          "right": "LINE_END"
+        }
+      ],
+      "qodain": [
+        {
+          "locus": "f85r2.19",
+          "index": 2,
+          "id": "ZL3b|f85r2.19|G002",
+          "left": "DEFINITE_SPACE",
+          "right": "DEFINITE_SPACE"
+        }
+      ]
+    },
+    "shedy_Product": [
+      {
+        "locus": "f85r2.13",
+        "index": 2,
+        "id": "ZL3b|f85r2.13|G002",
+        "raw": "shedy"
+      },
+      {
+        "locus": "f85r2.20",
+        "index": 8,
+        "id": "ZL3b|f85r2.20|G008",
+        "raw": "shedy"
+      },
+      {
+        "locus": "f85r2.21",
+        "index": 4,
+        "id": "ZL3b|f85r2.21|G004",
+        "raw": "shedy"
+      },
+      {
+        "locus": "f85r2.22",
+        "index": 3,
+        "id": "ZL3b|f85r2.22|G003",
+        "raw": "shedy"
+      }
+    ],
+    "chol_BECOME": [
+      {
+        "locus": "f85r2.4",
+        "index": 4,
+        "id": "ZL3b|f85r2.4|G004",
+        "raw": "chol"
+      },
+      {
+        "locus": "f85r2.23",
+        "index": 3,
+        "id": "ZL3b|f85r2.23|G003",
+        "raw": "chol"
+      }
+    ]
+  },
+  "all_safe_projection_contexts_for_reused_literals": {
+    "qodar": [
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.10",
+        "index": 2,
+        "source_group_id": "ZL3b|f85r2.10|G002",
+        "left_separator": "UNCERTAIN_SMALL_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f85r2.10",
+        "index": 2,
+        "source_group_id": "IT2a|f85r2.10|G002",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      }
+    ],
+    "qodaiin": [
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.16",
+        "index": 2,
+        "source_group_id": "ZL3b|f85r2.16|G002",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.21",
+        "index": 5,
+        "source_group_id": "ZL3b|f85r2.21|G005",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "LINE_END"
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f85r2.21",
+        "index": 5,
+        "source_group_id": "IT2a|f85r2.21|G005",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "LINE_END"
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f85r2.16",
+        "index": 2,
+        "source_group_id": "RF1b|f85r2.16|G002",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f85r2.21",
+        "index": 5,
+        "source_group_id": "RF1b|f85r2.21|G005",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "LINE_END"
+      }
+    ],
+    "qodain": [
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.19",
+        "index": 2,
+        "source_group_id": "ZL3b|f85r2.19|G002",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f85r2.16",
+        "index": 2,
+        "source_group_id": "IT2a|f85r2.16|G002",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f85r2.19",
+        "index": 2,
+        "source_group_id": "IT2a|f85r2.19|G002",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      }
+    ],
+    "shedy": [
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.13",
+        "index": 2,
+        "source_group_id": "ZL3b|f85r2.13|G002",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.20",
+        "index": 8,
+        "source_group_id": "ZL3b|f85r2.20|G008",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "LINE_END"
+      },
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.21",
+        "index": 4,
+        "source_group_id": "ZL3b|f85r2.21|G004",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.22",
+        "index": 3,
+        "source_group_id": "ZL3b|f85r2.22|G003",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f85r2.13",
+        "index": 2,
+        "source_group_id": "IT2a|f85r2.13|G002",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f85r2.20",
+        "index": 8,
+        "source_group_id": "IT2a|f85r2.20|G008",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "LINE_END"
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f85r2.22",
+        "index": 3,
+        "source_group_id": "IT2a|f85r2.22|G003",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f85r2.21",
+        "index": 4,
+        "source_group_id": "RF1b|f85r2.21|G004",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      }
+    ],
+    "chol": [
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.4",
+        "index": 4,
+        "source_group_id": "ZL3b|f85r2.4|G004",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "UNCERTAIN_SMALL_SPACE"
+      },
+      {
+        "edition": "ZL3b",
+        "locus": "f85r2.23",
+        "index": 3,
+        "source_group_id": "ZL3b|f85r2.23|G003",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f85r2.4",
+        "index": 4,
+        "source_group_id": "IT2a|f85r2.4|G004",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f85r2.23",
+        "index": 3,
+        "source_group_id": "IT2a|f85r2.23|G003",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f85r2.4",
+        "index": 4,
+        "source_group_id": "RF1b|f85r2.4|G004",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f85r2.23",
+        "index": 3,
+        "source_group_id": "RF1b|f85r2.23|G003",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      }
+    ]
+  },
+  "independent_manual_grammar_review": {
+    "qod": "All three cuts are explicitly licensed; qod is consistently a ContainerKind-to-LocativeExpression function and each suffix maps to recipient/body/food. The W19 food case is not interchangeable with body cases. No literal type clash found in those four uses.",
+    "shedy_Product": "The four listed occurrences are distinct written product constructions (S1, W2, W3, W4) with declared SVO/SOV/plural-lift rules. This is a large authored grammar and W4's set-valued plural lift is tailored, but it is declared and no single occurrence requires changing input/output roles. No literal type clash found.",
+    "chol_BECOME": "The two occurrences N4 and W5 use the same typed transition over a physical portion/property and discourse object/epistemic property, respectively. The domain extension is an explicit assumption and does not entail material KindChange. No literal type clash found.",
+    "prompted_followup_odain": "In S2 the literal sequence is am oteey qodaiin odain an chey ...; odain is declared BY(production,process), while an is a ChangePredicate/KIND_CHANGE relation with lineage endpoints. G12 uses the process-like wording 'by kind change' and types KindChange(z,y,c), but introduces no distinct Process/Event individual. If BY requires an entity of Process type, that argument is not supplied; if BY relates predicate/event descriptions at higher order, the coercion/type rule is underspecified. This is a formalization gap, not a forced contradiction, because that higher-order reading is possible but not explicitly declared.",
+    "semantic_limit": "Coverage and type-role checks do not validate guessed meanings, source identity, unique parsing, historical truth, or execution."
+  },
+  "row_discrepancy_examples": []
+}

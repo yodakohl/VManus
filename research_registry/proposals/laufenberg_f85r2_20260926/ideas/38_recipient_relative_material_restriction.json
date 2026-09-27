@@ -1,0 +1,124 @@
+{
+  "title": "RAW residue from one organ, suitable for another: recipient restriction preserves the material description",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. Full Galen III.9 joins faculty necessity to recipient-relative appropriateness. A shared description-restriction constructor preserves one material witness and its origin while adding a recipient argument; it does not turn classification into a transformation or an actual feeding event. No target words or forms selected.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-26",
+    "mechanism": "Apply one recipient-relative predicate to an existing material description by conjunction on the SAME bound material variable. The result retains the original description, including source/origin, rather than replacing it with a new material kind or a destination label.",
+    "unit": "The entire single HTML paragraph p277 comprising Galen On the Natural Faculties III.9, through the dogs/faeces and liver-residue comparisons; next paragraph begins III.10. The older faculty-only excerpt is not called the complete paragraph.",
+    "contrast": "One relational description with origin and recipient roles versus recipient-specific material names whose origin is supplied elsewhere; also a temporal transformation account that introduces a product rather than qualifying the existing description.",
+    "prediction": "Qualifying the same liver-residue description for spleen, gall-bladder and kidneys keeps its origin fixed while varying the recipient. It does not identify the witnesses across the three qualifications, erase their origin, or predict an actual transfer. A whole written account must express any additional token identity or event.",
+    "source": {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Galen/Natural_Faculties/3%2A.html",
+      "edition": "1916 Loeb English translation on LacusCurtius, with the site's not-proofread warning. No new Greek collation or medieval witness.",
+      "scope": "Exact owned HTML P element ID=p277, inclusive until the next P element introducing chapter10.",
+      "owned_cache_path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/galen3_frame_source.html",
+      "owned_cache_bytes": 102400,
+      "owned_cache_sha256": "1d0f8547ae087a7c97d36f7600cee05dbb1b3321beb973b3065bba2ea8b0ad24",
+      "paragraph_html_bytes": 800,
+      "paragraph_html_sha256": "79c952e0b031eef6253f5766fee7916b3355b53842938240335646611c0b4e2e",
+      "extraction_receipt": "Read-only standard-library HTML extraction selected the p277 start tag before the next P start tag. Complete text inspected; next paragraph opening checked. No source bytes edited, new download saved, or raw source copied into this proposal.",
+      "root_boundary_review": "research_registry/proposals/laufenberg_f85r2_20260926/FRAME_FACULTY_SOURCE_ROOT_REVIEW.md",
+      "root_boundary_review_sha256": "e14953bb770354fa4755eab55ab223fa4a30c3eabee8a0dbb513f7f9175ef699",
+      "whole_content": "Spleen and other nourished parts attract appropriate material and reject foreign material, with powers of retention and alteration; all four faculties are necessary. Human faeces please dogs; liver residues are appropriate to different named organs. The comparison is part of this paragraph, not a separate source unit.",
+      "qualifications": [
+        "Pleasingness in the dog comparison is not silently strengthened to actual nourishment or a therapeutic benefit.",
+        "Some residues suit spleen, others gall-bladder or kidneys. No universal suitability, exhaustive partition, mutually exclusive suitability sets or fixed identity of physical portions is stated here.",
+        "The paragraph appeals to prior demonstration. This backward reference is retained; the proof is not recreated from the paragraph alone.",
+        "Historical claims, not medical advice. Suitability, faculty possession, actual attraction, retention, alteration and successful nourishment remain different assertions."
+      ]
+    },
+    "formal_contract": {
+      "status": "Explicit hypothetical content construction, not a complete source parser or target grammar.",
+      "sorts": ["MaterialWitness", "MaterialDescription", "SourceRole", "RecipientRole", "Context"],
+      "MaterialDescription": "A predicate on material witnesses in an explicitly stated context. A witness may stand for a source-described kind/member under quantified discourse; it is not automatically an observed physical portion.",
+      "RESIDUE_FROM": "SourceRole x Context -> MaterialDescription; RESIDUE_FROM(a,c)(x) means that x has the stated residual-origin relation to a in c.",
+      "PROPER_FOR": "MaterialWitness x RecipientRole x Context -> Proposition; suitability in the historical nutritional frame. It is not an event or a synonym of residue, palatability, benefit or successful assimilation.",
+      "FOR_RECIPIENT": "RecipientRole x Context -> (MaterialDescription -> MaterialDescription)",
+      "law": "FOR_RECIPIENT(b,c)(D) = lambda x: D(x) AND PROPER_FOR(x,b,c). D and PROPER_FOR share the same x; the predicate's recipient argument b does not overwrite D's source argument a.",
+      "projection_law": "Any written witness of FOR_RECIPIENT(b,c)(RESIDUE_FROM(a,c)) still satisfies RESIDUE_FROM(a,c) and is proper for b. No new material witness, source reassignment, motion or transformation is generated by the constructor.",
+      "application_limit": "The source description must have a compatible context. A context mismatch cannot be repaired by an implicit time, patient or frame cast. No automatic anaphora or single unique material token is assumed.",
+      "open_world": "An unasserted suitability relation is unknown. The three named recipient qualifications need not be disjoint or exhaustive. Residue-from(a) alone does not imply foreign-to(a), unsuitable-for(a), or unsuitable-for-every-recipient.",
+      "no_temporal_inference": "Conjoining origin and suitability does not describe an executed journey from a to b or a before/after role change. A temporal account may coexist, but must supply its own event and lineage assertions.",
+      "polysemy_limit": "One constructor has one relational denotation at every use. Varying its explicit recipient is argument substitution, not a new lexical sense. Conversely, a word with distinct senses cannot be reclassified as this constructor merely because the resulting English sentences sound plausible."
+    },
+    "three_reused_inputs": [
+      "FOR_RECIPIENT(spleen,c)(RESIDUE_FROM(liver,c))",
+      "FOR_RECIPIENT(gall_bladder,c)(RESIDUE_FROM(liver,c))",
+      "FOR_RECIPIENT(kidneys,c)(RESIDUE_FROM(liver,c))"
+    ],
+    "witness_and_quantifier_policy": {
+      "source_preserving_minimum": "Retain a nonempty appropriate-residue description for each named recipient in the source's general account. Do not instantiate a physical sample, clinical case, quantity or exhaustive residual stock.",
+      "same_within_one_claim": "If a later reading explicitly introduces witness x under one qualification, both its origin and its suitability concern that same x. This is a logical shared argument, not independent evidence of material-token conservation.",
+      "across_claims": "Witnesses xS/xG/xK are not automatically identical or different. The source's some/others contrast remains visible, but stronger disjoint-class or token-inequality claims require separately declared interpretation and written ownership.",
+      "unknown_cells": "No cross-recipient exclusion table is supplied. The construction cannot acquire a unique solution by treating all other origin/suitability combinations as false. No source-derived finite quantity or three-object inventory."
+    },
+    "full_paragraph_obligations": [
+      "Spleen and extension to liver, veins, arteries, heart and other nourished parts; every generalized participant needs scope.",
+      "Appropriate versus foreign as recipient-relative descriptions, with attraction/rejection assertions preserved in their general rather than invented episode reading.",
+      "Retention/alteration powers over what is attracted, without silently asserting that every possible item has actually been attracted or assimilated.",
+      "Four faculties required for nutrition, no converse guarantee of actual successful nutrition; prior-demonstration and handmaid language retained as discourse content.",
+      "Dog/faeces comparison with pleasingness and human origin intact, plus the distinct organ-suitability relation. One generic PROPER_FOR cannot absorb both predicates without an additional declared bridge.",
+      "All three organ qualifications and their shared residual-origin description. No one-word macro for the complete paragraph or for all named organs."
+    ],
+    "serious_rivals": [
+      {
+        "id": "R_MATERIAL_NAMES",
+        "contract": "The text names different material kinds appropriate to different recipients, and expresses their liver origin elsewhere. Such names may denote classes and recur across many portions.",
+        "difference": "The proposed constructor would preserve source ownership inside the qualified description; the rival may state it through a separate relation. Both can reproduce the source. The distinction must be located in the written composition, not inferred from the presence of different recipients."
+      },
+      {
+        "id": "R_DESIGNATED_FOR",
+        "contract": "The expression records a destination or intended recipient, while a different clause asserts nutritional suitability.",
+        "difference": "Designation alone does not entail PROPER_FOR. A complete source-faithful reading could still state suitability elsewhere; no target rejection follows from the present source graph alone."
+      },
+      {
+        "id": "R_TRANSFORM_THEN_FIT",
+        "contract": "A residue undergoes a process and its product is suitable for a recipient. Such change can coexist with origin provenance.",
+        "difference": "This account adds an event/product or changed-state assertion that description restriction alone does not entail. It is not refuted simply because the source paragraph lacks that assertion. A fixed target reading would need to write the event and bind its material arguments."
+      }
+    ],
+    "smallest_consequence_and_falsifier": {
+      "positive_opportunity": "One unchanged qualification construction can take the same origin-bearing description with different recipient arguments. A later explicit reference to the qualified witness must preserve its source role while keeping the recipient distinct.",
+      "failure_of_fixed_descendant": "Reject a fixed descendant if its repeated constructor silently replaces the origin with the recipient, introduces a new product without written process content, requires a physical same-token identification across generic cases, converts unknown suitability to false, or omits a full-paragraph obligation.",
+      "decision_change": "Two whole written cases retaining both arguments under one construction would constrain a compound reading more than separate residue/food names. A third recipient case must use the same law without a new alias or special frame. A mere semantic table of proper recipients does not justify an executor.",
+      "not_ready": "No written realization or target case exists here. Exploratory authoring is permitted without confirmed meanings; the missing complete writer still prevents calling this a manuscript test or a finished reading."
+    },
+    "freedom_and_target_debt": {
+      "inherited_target_values": 0,
+      "new_target_values": 0,
+      "target_constructions_assigned": 0,
+      "target_forms_or_blocks_selected": 0,
+      "analytical_sorts": 5,
+      "description_constructor_schemas": 2,
+      "additional_primitive_suitability_predicate": 1,
+      "source_recipient_instantiations": 3,
+      "binding_debt": "All word values, morpheme cuts, owner introductions, recipient scope, contexts, existential/generic quantification, references, faculty argument structure, analogy and complete ordered terminal derivations remain unbound.",
+      "future_scope": "Only already-admitted1042 complete native units may be considered by a separately selected descendant. All reader differences and boundaries must be retained. No form selection, target query, figure map, inherited S/E dictionary, ordinal count fit or raw565 source substitution is made here."
+    },
+    "predecessors": [
+      "RAW550 complete seed card: its temporal guards and source-goal/cessation gap remain; no chey values or time scopes imported.",
+      "IDEA000052 original and corrected intake: flow and transformation may coexist, and kind identity is not necessarily physical-token identity. This proposal instead conjoins roles in a description without asserting either process.",
+      "IDEA000068 original: stable item identity across change is distinct from the same bound logical argument within a role-qualified description.",
+      "RAW532 and343 previously fully read: recipient-dependent benefit/harm is already proposed. Here the predicate is suitability of an origin-qualified material, not a treatment's sign or a clinical outcome.",
+      "IDEA000395 complete source proposal: role-relative own/foreign and legal title already exist. This card does not claim novelty for relative roles in general; its explicit construction preserves a material-description argument under recipient restriction and its three source instances.",
+      "GDT946 complete REPORT: old portion/material relation packages fail known-side obligations. No olal/olshedy or other old gloss is inherited; an unknown neighbor cannot hide an already fixed incompatible argument.",
+      "GDT887 complete REPORT: fixed Tacuinum compiler remains failed. The current RAW is not a replacement lexeme-to-whole-group source writer.",
+      "RAW565 provenance is separate: no creation/release law, hidden-stock assumption, product identity or current author/test result is imported."
+    ],
+    "navigation": [
+      "Current route; composition topic; bounded ideas searches for residue/nutriment/recipient roles and role-relative suitability; route-check residue nutriment recipient relative role.",
+      "A later ideas search reported a stale ledger snapshot. No refresh or global metadata repair was attempted. Parent subsequently reported its normal refresh/check PASS at6360 records; duplicates/add resumed after that release."
+    ],
+    "access": "No target query, target image, new source admission, reserve or contact. The web reopen timed out, so the exact already-owned external HTML was read locally. Only safe proposal/report predecessors were read; their old target excerpts are not new target data or form-selection inputs. No semantic execution or infrastructure built.",
+    "duplicate_screen": {
+      "same_declared_design": [],
+      "candidate_ids": ["IDEA000351", "IDEA000364", "IDEA000362", "IDEA000349", "HIST:c7982df90b430917", "IDEA000369"],
+      "decision": "CANDIDATES_ONLY_NO_AUTOMATIC_MERGE",
+      "limit": "Broad graph/description vocabulary dominates these lexical candidates; nearest actual content predecessors are listed and read above. No novelty certification or reopening decision."
+    },
+    "budget_if_selected_minutes": 40,
+    "proposal_path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/38_recipient_relative_material_restriction.json"
+  }
+}
