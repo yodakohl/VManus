@@ -4,11 +4,11 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: f88r.15 okol visual owner checked on admitted image.
-Latest decision: Material-near label; exact owner unknown; LIGHT not preferred.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/F88R_OKOL_VISUAL_RESULT_20260927.md.
-Assumptions: Earlier W90/GDT791 exposure; no confirmed word or image owner.
-Resume: Need a source-owned relation discriminating SUN/material rivals.
+Task: Check whole-form meaning capacity after f68/f89/f88 solar-material branch.
+Latest decision: `aiin`=III cannot transfer to `okoaiin`; SUN/LIGHT still unbound.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/F68R_AIIN_NUMERIC_TRANSFER_REVIEW_20260927.md.
+Assumptions: GDT729 zero component credit; f21r/f32v image-count trap already checked.
+Resume: Seek a new source-owned whole-form relation; do not recount f68 or inherit III.
 Running: None. Prior ten-hour block remains interrupted.
 
 ## Structural baseline
