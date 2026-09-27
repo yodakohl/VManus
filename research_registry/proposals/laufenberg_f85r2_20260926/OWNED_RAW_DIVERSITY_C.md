@@ -1,0 +1,38 @@
+# Owned RAW diversity: source supply C
+
+Registered **IDEA000590** and **IDEA000591**, both `UNTESTED_PROPOSAL` with explicit `RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED_NOT_NOVELTY_CERTIFIED` status. These are possible written content constructions, not source discoveries, novelty findings, target readings or repairs to a closed experiment. No third candidate was sought. Root released exactly two adds after publicationb4d9ebe94; the sequential additions ended at6437records, and registry ownership was released immediately.
+
+| RAW | Connected written relations | Consequence that must remain distinct |
+|---|---|---|
+|590 — `ideas/75_partial_concession_hidden_transfer.json`|Galen compares incoming/outgoing vessel sizes; disputes nourishment as a complete explanation; grants some nourishment for argument while retaining a disparity; infers additional transfer.|A concession is not a new observed quantity. An inferred communication is not a completely observed passage.|
+|591 — `ideas/76_anticipated_disclosure_preventive_order.json`|The glass narrative contrasts ordinary repair with an exceptional vial; forecasts a change in comparative value; explains a command through its purpose of preventing craft disclosure.|Forecast, command, intended prevention and accomplished result are different claims. The narrative does not report market change, completed killing or successful secrecy.|
+
+## Owned primary evidence
+
+For590, reread the complete already owned body of Galen *On the Natural Faculties* III.14–15 fromR14 through the book ending, including the final wine/arterial discussion. The cache is `external_cache/galen3_frame_source.html`, SHA256 `1d0f8547ae087a7c97d36f7600cee05dbb1b3321beb973b3065bba2ea8b0ad24`. The exact proposal locus isIII.15, pp321–323, in the [owned translation](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Galen/Natural_Faculties/3%2A.html#R15).
+
+The text explicitly says the extreme terminations of its supposed communications cannot actually be observed. It then offers teleological and vessel-size arguments. In the nourishment alternative, the author first invokes another supplying vein, then grants a certain amount for argument while saying the disparity remains too great. The concluding transfer is therefore an inference within the historical argument, not a directly traced route. The alternative's partial allowance and subsequent rejection as a complete explanation are the useful connected content.
+
+This does not validate the anatomy or the inference. Vessel-size words are qualitative; there are no measured flow quantities, numerical residual or conservation calculation. The cached English text has unresolved footnote markers and transcription defects, which remain uncorrected. The preceding claimed vascular-emptying observation, teleology, later attraction modes, local nutrition and mobile-fluid countercase stay separate grounds/content. No new animal experiment, physiological recommendation or modern proof is proposed. General inference may already be covered by another RAW; exact novelty comparison is still pending.
+
+For591, the source remains the wholly owned Steele *Mediaeval Lore from Bartholomew Anglicus* chapterI, anchors`id00045` inclusive through`id00109` exclusive. Its64blocks and ending were read in the earlier frozen source intake. This pass reread the entire glass paragraph`id00107` and neighboring already-owned context. The cached HTML SHA256 is `7e6bfd3104fbdcb32215716d3aa8866c7e4f9b25f73886cf263378873b745cf9`; exact whole-unit extraction SHA256 is `db38ff8124bd71cb411325fc5011e8074e74872004a9a27f3dc53849e3a50a22`.
+
+The [glass paragraph](https://www.gutenberg.org/cache/epub/6493/pg6493-images.html#id00107) first describes ordinary broken glass as requiring remelting, then narrates a vial that bends and is repaired with a hammer. It presents a conditional comparative valuation of nonbrittle glass vessels and an emperor's order intended to prevent the craft becoming known. The maker, observer/issuer of the command, craft, vial and projected values have distinct owners. The future valuation explains the prevention purpose; it is not an observed price change. The order does not establish execution, sole possession of the knowledge or successful suppression.
+
+This is a narrated anecdote, not verified history or an endorsement of the command. Steele's editorial selection and modernization remain; owning the anthology chapter does not own a complete medieval book or identify a manuscript exemplar. A bounded advisory child, already familiar with this chapter, checked this source-only relation and its limits. That is an informed second reading of the same source, not independent attestation. No new fetch, image, OCR, rendition or critical-edition collation occurred.
+
+## Remainder and predecessor checks
+
+The current route and differential topic were read first. The exact current/remainder reports read were `OWNED_DEPENDENCY_REMAINDER_C.md`, `PHYSICIAN_REMAINDER_SUPPLY_20260927.md` and `OWNED_RAW_RELATIONS_C.md`. The uncertain Cgm349 limb, illness and learning passages were not reopened. Existing physician directives, animal/human modality, adviser trust, mixture, observer-frame and sensory-order mechanisms remain retained. No proposal is justified merely by exchanging an organ, actor or material name.
+
+Bounded searches identified existing epistemic/knowledge relatives326,499,520 and disclosure relative527, in addition to known578/579 bodily mechanisms and584/585 directed-conduct proposals. The cards name these relationships; no target-bearing old card body was opened. Exact source-claim comparison for those metadata-only neighbors remains a selection obligation, not a reason to present them as absent. The own source-only Galen supply report/card already established the transport/locality/preparation scope of579; the complete primary reread here supplies the proposed argumentative contrast.
+
+Both new cards received `ideas duplicates --proposal ... --limit 5`. Card75 returned322,41,578,35,60; card76 returned441,61,587,579,138. These lexical neighbors do not settle duplicate identity. No existing RAW was merged, downgraded, reviewed or silently failed. Route navigation also returned broad historical IDs; only identifiers were emitted and no linked target primary was opened. Full commands and returned metadata are in the receipt.
+
+## Missing inputs and closure
+
+Every target participant, word value, scope marker, condition, concession, purpose, referent and whole-passage binding remains unassigned. A future selection would need precise predecessor review and a complete written account that distinguishes the proposed alternatives. Associated labels or an externally supplied paraphrase would not establish either construction. RAW retention requires no new primitive list, executor, quantified control or complete critical edition, but it also supplies no confirmed meaning.
+
+Prior project, old-card and incidental status exposures remain, as disclosed in the earlier source packets. This pass made no new agent-availability enumeration, target query, target packet read, source/image acquisition, reserve access or outside contact. It was informed source-only exploration, not blinded confirmation. Root's active autumn author/audit files were not read.
+
+Only the two authorized RAW adds mutated the registry. No refresh, ledger/state/route change, Git operation, decoder or research executor occurred. JSON and declared status/path checks passed before registration; candidate bytes were unchanged afterward. The prior source packets and their zero-card or qualified dispositions remain frozen. This packet ends the bounded producer pass and leaves the adequate RAW surplus for depth review.
