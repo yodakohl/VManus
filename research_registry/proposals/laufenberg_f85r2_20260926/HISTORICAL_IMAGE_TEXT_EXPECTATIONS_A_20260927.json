@@ -1,0 +1,202 @@
+{
+  "status": "TWO_COMPLETE_ENTRY_CASES_WITH_EXPLICIT_WITNESS_LIMITS",
+  "completed_utc": "2026-09-27T17:59:50.651300+00:00",
+  "purpose": "Historical expectations only: separate identification/morphology, material handling and medicinal/dietetic information; no target word selection or new experimental hypothesis.",
+  "report": "HISTORICAL_IMAGE_TEXT_EXPECTATIONS_A_20260927.md",
+  "predecessors_read": [
+    "GDT887 REPORT.md and src/SOURCE.json",
+    "GDT617 PREREGISTRATION.md",
+    "DIOSCORIDES_MEUM_SOURCE.md (navigation only, not an additional selected case)"
+  ],
+  "cases": [
+    {
+      "id": "M652_IRIS",
+      "work": "Dioscorides, alphabetic illustrated witness",
+      "witness": "Morgan Library MS M.652",
+      "institutional_date_place": "Mid tenth century, Istanbul",
+      "source_urls": [
+        "https://ica.themorgan.org/manuscript/page/118/143825",
+        "https://ica.themorgan.org/manuscript/page/119/143825"
+      ],
+      "entry_boundaries": {
+        "caption": "f66v red caption around the Iris picture; read across intervening picture, not down each visual half independently",
+        "name_block": "f66v black iris heading at root level plus following three synonym lines",
+        "main_text_start": "f66v below synonyms; red initial at approximately Aπο μεν της κατ ουρανον...",
+        "main_text_continuation": "f66v ends with cut roots; f67r starts with drying in shade and threading/storing",
+        "main_text_end": "f67r last line of top paragraph, μεθ υδρομελιτος; before the red Viola caption and next black ιον πορφυρουν name block",
+        "physical_main_text_lines_approx": {
+          "f66v": 4,
+          "f67r": 11
+        },
+        "complete_regions_inspected": true,
+        "verified_diplomatic_transcription": false
+      },
+      "native_observations": {
+        "image": "One rooted flowering plant on f66v, explicitly labelled iris; next image on f67r labelled ion porphyroun.",
+        "cross_image_word_splits": [
+          "ΜΑΚΕΔΩ | ΝΙΑ",
+          "ΛΙ | ΒΥΚΗ"
+        ],
+        "ownership_basis": [
+          "explicit iris caption and name block",
+          "continuous syntax across f66v/f67r",
+          "different next-item caption/name block"
+        ],
+        "nearest_image_counterexample": "The f67r upper paragraph continues Iris while immediately above the Viola image.",
+        "independent_semantic_verification": false
+      },
+      "content_functions": {
+        "name_synonyms": "PRESENT; Greek alternatives, Roman and Egyptian attributions",
+        "morphology": "PRESENT; comparative leaves, several flower colors, root form",
+        "habitat_origin_selection": "PRESENT",
+        "preparation_storage": "PRESENT; cut/dry/thread/store roots",
+        "properties": "PRESENT; heating",
+        "use": "PRESENT; short therapeutic tail, provisional local readings",
+        "dose": "RELATIVE_INGREDIENT_RATIO_READ; no fixed numeric drachm dose established on this witness",
+        "caution": "NO_SEPARATE_WARNING_RUBRIC_IDENTIFIED; destructive/abortifacient term retained as uncertain interpretation, not automatically a warning"
+      },
+      "uncertainties": [
+        "Full synonym spellings not diplomatically established.",
+        "Exact inflections in the therapeutic tail remain provisional.",
+        "The φθοροποιός interpretation is qualified; no modern diagnosis or treatment claim.",
+        "The complete Wellmann I.1 text must not be silently substituted for this shorter visible witness."
+      ],
+      "edition_comparator": {
+        "path": "research_registry/work_batches/ten_hours_20260915/dioscorides_cache/Wellmann_DMM.xml",
+        "sha256": "e2a2175c5ca1c1a2313c5816bc79c7fa1c9103766fcad193356d0c13ce6746bc",
+        "locator": "Book I chapter1 sections1–3; notes and editorial deletion/addition markup distinguished",
+        "role": "Complete critical text inspected as a contrast, not a transcription of M.652. No additional source image."
+      }
+    },
+    {
+      "id": "LAT9333_LACTUCE",
+      "work": "Tacuinum sanitatis",
+      "witness": "BnF Latin9333, f026r",
+      "institutional_date_place": "1445–1450 or earlier; possibly Swabia (MediManus)",
+      "source_url": "https://medimanus.chs.harvard.edu/app/en/pharmantica/tacuinum_sanitatis",
+      "entry_boundaries": {
+        "start_marker": "[026r] Lactuce",
+        "end_marker": "before [026v] Herba pireti / Herba piretri",
+        "complete_fields": [
+          "Complexio",
+          "Electio",
+          "Iuuamentum",
+          "Nocumentum",
+          "Remotio nocumenti",
+          "Quid generant",
+          "Conueniunt"
+        ],
+        "complete_transcription_read": true,
+        "all_fields_covered": true
+      },
+      "provenance": {
+        "existing_primary_path": "experiments/yolo/gdt887_tacuinum_joint_entry_reconstruction/src/SOURCE.json",
+        "existing_primary_sha256": "b5c6317d7b66d2e77ab48581f86b0b9a5bda69edc2167e1417fb05cc070e5c96",
+        "current_html_path": "external_cache/historical_expectations_A_20260927/tacuinum_current.html",
+        "current_html_sha256": "ebc8bcf7d4f86f66d14fcb1127a8ef36e5184c4f0455544b5b30998896cb6e3a",
+        "normalized_entry_body_matches_GDT887": true,
+        "bounded_current_text_sha256": "a5ac098cfdd79b9c37c1f48cce4b6fa561d7e659d785502c10c93ee7b2b4ba79"
+      },
+      "content_functions": {
+        "name_synonyms": "NAME_PRESENT; no synonym list in this entry",
+        "morphology": "BRIEF_VISUAL_SELECTION_ONLY",
+        "properties": "PRESENT",
+        "preparation_use": "MIXING_CORRECTIVE_PRESENT",
+        "dose": "NO_NUMERIC_DOSE_IN_COMPLETE_TRANSCRIPTION",
+        "caution": "EXPLICIT_HARM_AND_CORRECTIVE_FIELDS",
+        "suitability": "PERSON_AGE_SEASON_REGION"
+      },
+      "image_relationship": {
+        "illustrated_witness_identified": true,
+        "new_native_f026r_image_inspection": false,
+        "owned_basis": "Scholarly folio-specific text attribution; visual ownership not newly collated",
+        "unverified": "No particular depicted person, lettuce color, count, or scene action assigned to a text clause."
+      },
+      "access_history": {
+        "GDT887_original": "Gallica403, no original-folio collation claimed",
+        "this_task": "MediManus200; Gallica IIIF manifest403; no Tacuinum image opened"
+      }
+    }
+  ],
+  "new_external_folios_inspected": [
+    "Morgan M.652 f66v",
+    "Morgan M.652 f67r"
+  ],
+  "external_image_scope": "Two source folios only; lower-resolution and full-resolution versions plus same-image detail. No third image.",
+  "acquisition_receipts": [
+    {
+      "file": "morgan_iris_66v.jpg",
+      "url": "https://ica.themorgan.org/icaimages/6/m652.066v.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 131913,
+      "sha256": "cf6dd3c142dbb04ac0e7fb3cd689dfd4c37d378d0a4fa435006db7fe2376711a",
+      "retrieved_utc": "2026-09-27T17:52:06.710170+00:00"
+    },
+    {
+      "file": "tacuinum_manifest.json",
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b105072169/manifest.json",
+      "status": 403,
+      "content_type": "text/html; charset=iso-8859-1",
+      "bytes": 34,
+      "sha256": "116789db916f5e1f857ca2f19c3f76c19991252bb3c9fe37adaded94c93fa08c",
+      "retrieved_utc": "2026-09-27T17:52:06.900654+00:00"
+    },
+    {
+      "file": "tacuinum_current.html",
+      "url": "https://medimanus.chs.harvard.edu/app/en/pharmantica/tacuinum_sanitatis",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 426469,
+      "sha256": "ebc8bcf7d4f86f66d14fcb1127a8ef36e5184c4f0455544b5b30998896cb6e3a",
+      "retrieved_utc": "2026-09-27T17:52:08.472712+00:00"
+    },
+    {
+      "file": "morgan_iris_continuation_67r.jpg",
+      "url": "https://ica.themorgan.org/icaimages/6/m652.067r.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 143114,
+      "sha256": "3de2993918bf61e4d2f517a711bea2f44b41c87915fe930af5ff26e46cfae840",
+      "retrieved_utc": "2026-09-27T17:54:01.396646+00:00"
+    },
+    {
+      "file": "morgan_m652_066v.zif",
+      "url": "https://ica.themorgan.org/zoom/images/6/m652.066v.zif",
+      "status": 200,
+      "content_type": "image/zif",
+      "bytes": 11497970,
+      "sha256": "d53850ae267d51b1bf60b24afa39d702060d9db0fc9f442ba245cc8c28e61358",
+      "retrieved_utc": "2026-09-27T17:54:54.418956+00:00",
+      "dimensions": [
+        6900,
+        9146
+      ]
+    },
+    {
+      "file": "morgan_m652_067r.zif",
+      "url": "https://ica.themorgan.org/zoom/images/6/m652.067r.zif",
+      "status": 200,
+      "content_type": "image/zif",
+      "bytes": 12342472,
+      "sha256": "3218457834f6849d82e79051d79d4cd6022909a1f4203ae8afb1db155938b52e",
+      "retrieved_utc": "2026-09-27T17:54:58.203878+00:00",
+      "dimensions": [
+        6800,
+        9146
+      ]
+    }
+  ],
+  "scope_incident": {
+    "file": "experiments/yolo/sidequest_theory_candidates_v53/V53_R2_HISTORICAL_HERBAL_REPORT.md",
+    "event": "Historical filename search led to a mixed legacy report that displayed old target glosses/raw lines for f10r,f11r,f55v,f56r.",
+    "handling": "Immediately disclosed to root; not extracted, used or treated as new admission; no old gloss adopted."
+  },
+  "limits": [
+    "Purposively selected examples, not a frequency estimate or representative genre corpus.",
+    "Ten-century Greek and fifteenth-century Latin witnesses are not interchangeable with a hypothetical Voynich language or source.",
+    "M.652 entry visually bounded but not a complete certified diplomatic edition; ambiguous readings retained.",
+    "Raw institutional images, modern HTML and viewing derivatives stay in ignored local cache.",
+    "No target inspection undertaken for this task beyond the disclosed accidental legacy report exposure; no experiment, decoder, ledger/state/Git modification."
+  ]
+}

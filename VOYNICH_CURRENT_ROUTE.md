@@ -3,13 +3,13 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: active
-Task: Ten-hour block27Sep15:03:58--28Sep01:03:58UTC; select finitecontentnext.
-Latest decision: Two diagram sources add alternatives, no targetmeaningbinding.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/DIAGRAM_RELATION_SOURCE_INTAKE_RESULT_20260927.md.
-Assumptions: No ownedtargetrelations;oldstops retained;reserves closed;0words.
-Resume: Publish sourceintake; inspect bounded producer's nextmeaningcandidate.
-Running: Root closure/selection; bounded finite-meaning producer.
+Status: checkpoint
+Task: Historical expectations and copying-signature intake complete.
+Latest decision: Source functions/layout retained; no wider witness crawl or word.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/HISTORICAL_EXPECTATIONS_RESULT_20260927.md.
+Assumptions: Old stops retained; no new admission; ten-hour block interrupted.
+Resume: Require a concrete new source-entry bridge before reopening copy search.
+Running: none.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

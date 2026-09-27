@@ -112,3 +112,5 @@ beside the complete resulting reading, costs, gaps and counterexamples.
  no translations or automaticrepair. Publication completes the subtest.
 
 -17:27:53UTC: two-source intake analysiscomplete before17:47:26ceiling; bothfullimages inspected, independentMarcfirstpacketandclaimreview retained. Twoalternativeprogrammes but no targetwordbinding or fullattributeconjunction. GalenI13sourceinterventions likewise lack ownedtargetstates. Receiptvalidator14filesPASS; publication follows. No target/reserveaccess; block stillactive until01:03:58UTCminimum.
+
+-17:31:07UTC: USER STOP: "stopp das haben wir schon probiert". Current approach and bounded producer interrupted. No automatic continuation of the ten-hour block or repeated approach. Source intake was already published9445aa9af at17:30:17UTC. This records the user's repetition objection, not a new independently audited scientific failure. The ten-hour minimum was not completed; no confirmed translation.
