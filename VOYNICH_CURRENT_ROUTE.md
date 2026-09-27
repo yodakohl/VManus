@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: New10hblock03:37:01-13:37:01UTC;autumn synopsis whole authorship.
-Latest decision: 589A1-A4 authoring;Salzburg16faces sourceonly;0words.
+Task: New10hblock03:37:01-13:37:01UTC;review589frozen partial synopsis.
+Latest decision: 589frozen33ZLlocal;wholepagegap;rootreviewpending;0words.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/AUTUMN_SYNOPSIS_ROOT_DECISION.md.
 Assumptions: Same exposedVMS;numeric order assumed;0words;reservesclosed.
-Resume: Review frozen589all-occurrence packet by09:26UTC;no automatic repair.
-Running: A589author active;rootSalzburg publication;Csource592frozen.
+Resume: Check589actualderivations/all473rows by09:26UTC;no repair.
+Running: Root589content review;B473literalcheck active;C593source frozen.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

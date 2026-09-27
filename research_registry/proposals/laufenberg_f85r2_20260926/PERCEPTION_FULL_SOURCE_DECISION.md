@@ -1,0 +1,7 @@
+# Perception full source consequences: prospective preparation
+
+Start2026-09-27T08:46:09.474036+00:00; inclusive15-minute ceiling2026-09-27T09:01:09.474036+00:00. Source-only preparation for RAW588 while589 remains the only selected target reading. Prior PERCEPTION_NEXT_CONTENT_ROOT_REVIEW.md and its checked466/569 predecessors remain controlling. No new target/source retrieval, image, decoder, executor, or target meaning.
+
+Unknown: the complete obligation list for the already owned thunder paragraph, including what is asserted, analogical, temporally qualified, and unspecified in its cloud/vapour story. The earlier review fixed the two sensory comparisons but did not supply every paragraph proposition. A coherent connected content offer can remain a later candidate; if a connected interpretation requires invented links, record the gap and keep it out of any source-equivalence claim. Either result changes the permissible content of a later target offer; it does not change589 or select588.
+
+Smallest adequate work: reread entire exact id00088 in the already owned Steele chapterI HTML; write one complete proposition/ownership table with all uncertain antecedents and source-mode limits. No expansion to the original medieval work or a modern physical explanation. Budget5 minutes whole source reading,7 table/critique,3 validation/publication or include with the next ready publication. No automatic narrower daughter selection.
