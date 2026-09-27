@@ -3,13 +3,13 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: Ten-hour block complete;10candidate decisions,0confirmedwords.
-Latest decision: 568localA/B+same-witnesscoherent;source/reader gaps remain.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/TEN_HOUR_RESULT.md.
-Assumptions: 77newwholevalues;named/constant-D rivals;reviewexposure;reservesclosed.
-Resume: Read568decision;screen III.13pp311-313 against IDEA541/GDT946 before anywriter.
-Running: none;all packets frozen;no unattended research.
+Status: active
+Task: New10hblock03:37:01-13:37:01UTC;577whole-f85 content-frame hypothesis.
+Latest decision: 568origin parked;577selected for explicit whole-surface contract.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/CONTENT_FRAME_ROOT_DECISION.md.
+Assumptions: III13P15-22;156ZL/473all;source/site/status distinct;0words;reservesclosed.
+Resume: Review A contract before clauses;whole trial ceiling04:50UTC.
+Running: Rootreview/publication;A577contract;bounded iconographicidea producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

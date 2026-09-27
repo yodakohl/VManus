@@ -93,3 +93,16 @@ dem Vorfall. Künftige Quellensuchen müssen bekannte Berichte oder den Register
 Index gezielt auswählen; rekursive JSON-Suchen mit bloßen Zahlen sind dafür
 ungeeignet. Eine nachträgliche Freigabe oder Rekonstruktion der Ausgabe wurde
 nicht vorgenommen.
+
+## Bekannte Ideenkarten im folgenden Quellenauftrag
+
+Ein späterer, eng begrenzter Quellenauftrag las vier bereits bekannte
+Ideenkarten vollständig, bevor eine Feldbeschränkung nachgereicht wurde.
+Dadurch wurden dort gespeicherte ältere f85r2-Bindungen mit ausgegeben. Diese
+Produktion ist deshalb als informierte Exploration ausgewiesen, nicht als
+verblindete Quellenkontrolle. Der [separate Bericht](../research_registry/proposals/laufenberg_f85r2_20260926/SOURCE_REUSE_SUPPLY_20260927.md)
+dokumentiert die bekannten Zugriffe. Die Ausgabe wird nicht zur nachträglichen
+Expositionsprüfung rekonstruiert. Es gab in diesem Auftrag keine neue
+Transkriptionsabfrage oder Bildzulassung; die neuen Rohideen573/574 sind weder
+ausgewählt noch getestet. Ihre etwaige Auswahl benötigt den üblichen
+Primärvergleich. Frühere Zugriffsvorfälle und Reservengrenzen bleiben bestehen.
