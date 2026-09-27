@@ -1,0 +1,11 @@
+# Abgleich der angekündigten stabilen Fassung
+
+Nachricht zur 13:32-Fassung nach dem bereits erfolgten ersten Review-Freeze empfangen; erneuter gezielter Abgleich abgeschlossen **2026-09-27T13:34:09.123708+00:00**. Beginn des gesamten begrenzten Auftrags blieb 13:31:31 UTC, Grenze 13:35:31 UTC. Die vorherige eigene Reviewdatei und die 605-Hauptprüfung bleiben unverändert.
+
+**Die stabile Fassung SHA256 `a2dbb965240440a5bf2986f4d1f36a9628d985fa22d69bbf702bacbe5cd6106b` setzt die erforderlichen Statuskorrekturen um. Für die geprüften neuen 605-Ergänzungen bleibt kein Korrekturhinweis offen.** Der anfängliche Eindruck eines laufenden 605-Verfahrens ist ausdrücklich durch einen abgeschlossenen, begrenzten Entscheid ersetzt. Die 26 zugewiesenen ZL-Gruppen außerhalb vollständiger Aussagen werden jetzt im Entscheidungsabsatz genannt; eine zusätzliche Wiederholung derselben Zahl in der Kurzzeile ist nicht erforderlich.
+
+Die Bilanz 51 Gruppen in fünf vollständigen lokalen Aussagepaketen + 26 zugewiesene Restgruppen + 79 unbekannte Gruppen bleibt richtig. Die frühe ungebundene Fallreferenz, der Süd-/West-Absatzwechsel und die zwei unsicheren Spatien sind jetzt auch in der Synthese sichtbar. Der verlinkte Root-Bericht erläutert zutreffend, dass die Ordnungsannahme prospektiv erlaubt war: weder ein nachträgliches Verbot noch eine historisch bestätigte Absatzverbindung folgt daraus. Die 605-Vergleichswerte und die Beschränkung der Mehrdeutigkeit auf lokale Rechnungen bleiben korrekt.
+
+Die Einleitung trennt den Abschluss der zehn ausgewählten Hypothesen vom noch ausstehenden tatsächlichen Zehnstundenende 13:37:01 UTC. Sie behauptet vor dieser Uhrzeit keinen bereits beendeten Arbeitsblock. Ein späterer reiner Zeitnachweis verändert den hier geprüften Sachstand nicht; sein tatsächliches Datum muss separat belegt werden.
+
+Die Status-/26-Gruppen-Hinweise des vorherigen Reviews bezogen sich auf dessen älteren Hash und sind für diese stabile Fassung erledigt. Dies ist ein gesonderter Fassungsabgleich, keine Umschreibung eingefrorener Feststellungen. Frühere Autoren-/Reviewexposition und die vom Root-Bericht übernommenen räumlichen Hinweise bleiben wie im Haupttext dieses begrenzten Reviews offengelegt. Keine neuen Daten, Autorenänderungen, Registry-/Git- oder gemeinsamen Dateimutationen.
