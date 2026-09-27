@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour minimum03:34:57UTC;568whole recipient-restriction reading.
-Latest decision: 572partial:two-level uses,8unparsedgroups,typeinterfacesopen.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/RECIPIENT_RESTRICTION_ROOT_DECISION.md.
-Assumptions: WholeGalenIII.9;freshvalues;same-witnessorigin;reservesclosed.
-Resume: Freeze568predicate/modifiercontract;wholeauthor35min,review by03:42UTC.
-Running: 568author;rootreview/publication;sourceproducerstoppedafterexposure.
+Task: Ten-hour closure; minimum03:34:57UTC, publication ceiling03:42UTC.
+Latest decision: 568localA/B+same-witnesscoherent;source/reader gaps,0words.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/TEN_HOUR_RESULT.md.
+Assumptions: 77newwholevalues;named/constant-D rivals;reviewexposure;reservesclosed.
+Resume: Finish final table audit, registry/privacy checks and publish; no writer repair.
+Running: Rootclosure/publication;bounded final report audit;sourceproducerstopped.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

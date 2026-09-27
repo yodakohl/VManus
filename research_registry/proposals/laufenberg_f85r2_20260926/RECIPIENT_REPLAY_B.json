@@ -1,0 +1,64 @@
+{
+  "schema": "recipient_replay_b.v1",
+  "inputs": {
+    "projection": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+    "projection_sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "draft": "research_registry/proposals/laufenberg_f85r2_20260926/RECIPIENT_AUTHOR_DRAFT.json",
+    "draft_sha256": "16830c3b3f61b37f6e4ab396470641099b14ebb3f9fbf29f098cbd5fba846f98",
+    "contract_sha256": "bba51d28c245cb7287a42190c315c426dedacb13da6c72e658d48d641c47e23d"
+  },
+  "counts": {
+    "rows": 473,
+    "selected": 324,
+    "outside": 149,
+    "clauses": 18,
+    "lexical_types": 85,
+    "assigned_occurrences": 342,
+    "outside_assigned": {
+      "ZL3b": 14,
+      "IT2a": 18,
+      "RF1b": 15
+    },
+    "selected_unassigned": {
+      "ZL3b": 0,
+      "IT2a": 11,
+      "RF1b": 18
+    },
+    "assigned_by_edition": {
+      "ZL3b": 122,
+      "IT2a": 114,
+      "RF1b": 106
+    },
+    "unassigned_by_edition": {
+      "ZL3b": 34,
+      "IT2a": 43,
+      "RF1b": 54
+    }
+  },
+  "checks": {
+    "projection_hash_matches_frozen_input": true,
+    "contract_hash_matches_frozen_input": true,
+    "projection_has_473_rows": true,
+    "unique_projection_ids": true,
+    "occurrences_exact_projection_ids": true,
+    "all_projection_fields_match": true,
+    "unique_occurrence_ids": true,
+    "selected_outside_partition": true,
+    "edition_counts": true,
+    "selected_counts": true,
+    "18_unique_clause_labels": true,
+    "clauses_cover_selected_zl_once": true,
+    "clause_literal_spans_match_projection": true,
+    "clauses_do_not_cross_editions": true,
+    "85_unique_lexicon_forms": true,
+    "lexicon_occurrence_inventory_exact": true,
+    "each_lexicon_assignment_exact": true,
+    "alternate_and_outside_assignment_totals": true,
+    "outside47_and_selected_gaps": true,
+    "all_unassigned_occurrences_marked": true,
+    "meaning_or_grammar_semantically_executed": false,
+    "complete_source_equivalence_proven": false
+  },
+  "errors": [],
+  "scope": "Literal/index/reference-target bookkeeping replay only. Manual type/scope/source review is in RECIPIENT_REPLAY_B.md; this script is not a semantic parser or meaning validator."
+}
