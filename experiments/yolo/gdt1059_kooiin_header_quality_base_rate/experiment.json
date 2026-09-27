@@ -1,0 +1,106 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Descriptive capacity calibration only; neither rootstock meaning nor generic alternative selected, no p-value or confirmed word.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1059_kooiin_header_quality_base_rate/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1059_kooiin_header_quality_base_rate/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT623",
+    "GDT768",
+    "GDT1058"
+  ],
+  "experiment_id": "GDT1059",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt623_temperament_orientation_frequency/src/run.py",
+      "role": "unchanged guard and first-quality rule",
+      "sha256": "b719650be19b32aa8ab696d6b59683767ef0dadce682c1840dbcc026306c13e7"
+    },
+    {
+      "path": "experiments/yolo/gdt623_temperament_orientation_frequency/artifacts/HEADER_REPEAT_AUDIT.tsv",
+      "role": "published target and repeated-head predecessor",
+      "sha256": "be0764185cc4e9137b10b0b9eaab4b3b0fe6dfeb2d59ac90d79edd4f04f92588"
+    },
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "guarded admitted page inventory",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "mixed raw transcription queried only through selector guard",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/METHOD.md",
+      "role": "registered method, report, code or compact result",
+      "sha256": "069629bcdf19259b74542da15c379685ae3307f009bf42c935edcd249393d09d"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/PREREGISTRATION.md",
+      "role": "registered method, report, code or compact result",
+      "sha256": "0bcfaa34369f1200b50d611ae18e23c8594373c09cda791b08a44bb1923624a3"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/README.md",
+      "role": "registered method, report, code or compact result",
+      "sha256": "66034038496c9421cea08295d5a3a464bbf9b874d0f0fab35f3a0c897a7a3816"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/REPORT.md",
+      "role": "registered method, report, code or compact result",
+      "sha256": "d62bf4a8af2bc454dfa019e462b8ecf538eec6c27324653dcbf6620e385d75cc"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/artifacts/HEAD_CONTACTS.tsv",
+      "role": "registered method, report, code or compact result",
+      "sha256": "54132fede66b965af64d8629ae0fb41de7cbf03856471b1e12660f2e380bf904"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/artifacts/README.md",
+      "role": "registered method, report, code or compact result",
+      "sha256": "e5a7c8468a7c4403b1da715073a1d3ef0854ef14cf80eab31c31eb987bc23771"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/artifacts/RESULT.json",
+      "role": "registered method, report, code or compact result",
+      "sha256": "e817b2c95d70a83dee7f9d2bb0849449eb1e61704f28e431f6d99963d704f6e7"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/artifacts/VALIDATION.json",
+      "role": "registered method, report, code or compact result",
+      "sha256": "bf702b807b01436def531c0c92512170f9ef9417aeba186f9977b6e0a87888b7"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/src/run.py",
+      "role": "registered method, report, code or compact result",
+      "sha256": "ff4626119d9c0ff77a61d0bfc5e23b98523cb2f62a578506c9161718757277bc"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/src/validate.py",
+      "role": "registered method, report, code or compact result",
+      "sha256": "7f357b367bb87a57c5befc0b05c99b18739787be7159d03c9ce6bb663fe56b0e"
+    }
+  ],
+  "question": "Does the exact kooiin-to-TCH/TCH next-line agreement distinguish its rootstock-class reading from a generic Herbal entry head once all eligible Herbal-A heads are counted?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "kooiin_header_quality_base_rate",
+  "status": "DESCRIPTIVE_CAPACITY_ONLY__ROOTSTOCK_VS_GENERIC_OPEN__ZERO_LEXEMES",
+  "title": "kooiin header quality base rate",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
