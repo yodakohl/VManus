@@ -1,0 +1,97 @@
+{
+  "task": "Official catalog and digitization locator for a medieval German Megenberg II.25 witness",
+  "status": "STRONG_NATIVE_DIGITIZATION_LEAD; exact_II25_locus_requires_root_visual_index_navigation",
+  "preflight": {
+    "route_read": true,
+    "local_targeted_source_files": [
+      "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_THUNDER_SOURCE_DECISION.md",
+      "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_THUNDER_SOURCE_RECEIPT.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_THUNDER_COMPARISON.md",
+      "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_THUNDER_C_RECEIPTS.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/EXTERNAL_SOURCES.md",
+      "research_registry/proposals/laufenberg_f85r2_20260926/EXTERNAL_RECEIPTS.json"
+    ],
+    "known_before_task": "TITUS electronic transcription of Pfeiffer1861 complete II.25; optional Wellcome cataloged digitization of same edition, viewer blocked; no native medieval manuscript collation documented in these source records.",
+    "prior_candidate_relation": "Cgm 38 is not claimed independent of or genealogically separate from Pfeiffer1861."
+  },
+  "selected_candidate": {
+    "institution": "Bayerische Staatsbibliothek, Munich",
+    "shelfmark": "Cgm 38",
+    "work": "Konrad von Megenberg, Buch der Natur",
+    "catalogue_date": "Second half of the 14th century (BSB and KdiH claims)",
+    "catalogue_locality": {
+      "BSB_Bavarikon": "[S.l.] Raum Regensburg",
+      "KdiH": "Bayern",
+      "claim_limit": "Retain each catalog's wording and uncertainty; no inference for other manuscripts."
+    },
+    "catalogue_extent": "II + 210 + I leaves; parchment (KdiH); BSB digital metadata reports III + 209 leaves.",
+    "KdiH_contents_pointer": "Buch der Natur 1ra–5rb (register with folio references) and 9ra–209vb; Prolog 9ra; genealogical notes 5va–8v.",
+    "exact_II25_folios": null,
+    "chapter_boundary_status": "Not obtained from metadata; root must read register entry and then chapter through immediately before II.26 heading."
+  },
+  "institutional_urls": {
+    "BSB_MDZ_record": "https://www.digitale-sammlungen.de/de/view/bsb00043227",
+    "BSB_Bavarikon_record": "https://www.bavarikon.de/object/bav:BSB-HSS-00000BSB00043227",
+    "KdiH_catalogue": "https://kdih.badw.de/datenbank/handschrift/22/1/13",
+    "exact_manifest_published_by_MDZ_record": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00043227/manifest"
+  },
+  "manifest_request": {
+    "access_type": "One ordinary metadata GET to exact manifest URI published in official MDZ record; no redirects.",
+    "status": 200,
+    "final_url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00043227/manifest",
+    "content_type": "application/json",
+    "bytes": 413432,
+    "sha256": "32c2cbf692729b881957cbea6f1872ac3d9bd1552d2f84f42ea677f317cb0e74",
+    "presentation_version": 2,
+    "canvas_count": 429,
+    "register_canvas_start": {"folio_label": "1r (0007)", "zero_based_index": 6},
+    "register_canvas_end": {"folio_label": "5r (0015)", "zero_based_index": 14},
+    "intervening_recto_verso_canvases_present": true,
+    "service_metadata_only": true,
+    "pixel_requests": 0,
+    "image_availability_verified": false
+  },
+  "root_visual_navigation_if_selected": {
+    "start_leaf": "Cgm 38 f.1r; canvas label 1r (0007), index 6",
+    "bounded_register_sequence": "Read continuous register f.1r through f.5r, including intervening versos; KdiH gives 1ra–5rb as register with folio references.",
+    "then": "Use II.25 register entry to identify its actual start folio; inspect only the continuous II.25 text through the last line before heading II.26, and record native folio/column and canvas bounds.",
+    "images_opened_by_locator": false
+  },
+  "search_queries": [
+    "site:digitalesammlungen.de \"Konrad von Megenberg\" \"Buch der Natur\" Handschrift Cgm",
+    "site:opendigi.ub.uni-tuebingen.de \"Buch der Natur\" \"Megenberg\"",
+    "site:digi.ub.uni-heidelberg.de \"Konrad von Megenberg\" \"Buch der Natur\" Handschrift",
+    "site:manuscripta.at \"Konrad von Megenberg\" \"Buch der Natur\" Codex",
+    "site:digi.ub.uni-heidelberg.de/diglit/cpg300 \"Donr\" \"Kapitelverzeichnis Buch II\"",
+    "site:digi.ub.uni-heidelberg.de/diglit/cpg300 \"Von dem donr\"",
+    "site:digi.ub.uni-heidelberg.de/diglit/cpg311 \"Von dem donr\"",
+    "site:digi.ub.uni-heidelberg.de/diglit/cpg369 \"Von dem donr\"",
+    "site:digi.ub.uni-heidelberg.de \"Cod. Pal. germ. 300\" IIIF Manifest",
+    "site:digi.ub.uni-heidelberg.de/diglit/cpg300 \"Buch II\" \"Donr\"",
+    "site:digitalesammlungen.de/de/view/bsb \"Konrad von Megenberg\" \"Buch der Natur\" Handschrift",
+    "site:bsb-muenchen.de \"Buch der Natur\" Megenberg Handschrift digital Cgm",
+    "site:manuscripta.at \"Buch der Natur\" Megenberg \"Donner\"",
+    "site:digitale-sammlungen.de \"Konrad von Megenberg\" \"Kapitelverzeichnis\" \"Donr\"",
+    "\"Cgm 38\" \"Buch der Natur\" Megenberg BSB digital",
+    "site:digitalesammlungen.de/de/view \"Cgm 38\"",
+    "site:mdz-nbn-resolving.de \"Cgm 38\" Megenberg",
+    "site:opacplus.bsb-muenchen.de \"Cgm 38\" \"Buch der Natur\""
+  ],
+  "opened_catalogue_urls": [
+    {"url": "https://digi.ub.uni-heidelberg.de/diglit/cpg300/0764", "result": "web tool timeout; no further attempt"},
+    {"url": "https://digi.ub.uni-heidelberg.de/diglit/cpg300", "result": "institution site access-denied page; no bypass/retry"},
+    {"url": "https://digi.ub.uni-heidelberg.de/diglit/cpg369/0450?navmode=struct", "result": "institution site access-denied page; no bypass/retry"},
+    {"url": "https://kdih.badw.de/datenbank/handschrift/22/1/13", "result": "catalogue page opened; text/metadata only"},
+    {"url": "https://www.digitale-sammlungen.de/de/view/bsb00043227?q=%22garrot%22", "result": "official MDZ page opened; JavaScript/rendering error; no OCR/image retrieved"},
+    {"url": "https://www.bavarikon.de/object/bav:BSB-HSS-00000BSB00043227", "result": "official BSB-related portal access-denied page; metadata taken from indexed official catalog result; no bypass/retry"}
+  ],
+  "limits": {
+    "target_or_VMS_data_accessed": false,
+    "author_588_595_files_opened": false,
+    "contacts": 0,
+    "registry_or_Git_changes": false,
+    "Wellcome_j9a8dju5_retried": false,
+    "unpublished_or_guessed_endpoints_requested": false,
+    "source_genealogy_or_Voynich_genealogy_claim": false
+  }
+}

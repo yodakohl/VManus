@@ -5,11 +5,11 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: New10hblock03:37:01-13:37:01UTC;595whole season/heat account with internal reuse.
-Latest decision: 588content retained/typegaps;595selected10:35UTC,whole+2argument component.
+Latest decision: 595running;Cgm38wholechapterattested;588typegaps retained.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/SEASON_STAGE_ROOT_DECISION.md.
 Assumptions: Same exposedVMS;freshvalues;numeric order assumed;0words;reservesclosed.
-Resume: 595authorfreeze by11:40;review/publish by12:05UTC;retain allsource/473rows.
-Running: A595author;BnativeMegenberglocator;rootreview/publication;Csource601done.
+Resume: 595frozen11:09;review/publish by12:05UTC;retain allsource/473rows.
+Running: root595semanticreview;C595literalreview;Brelated-unitcapacity;Aidled.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

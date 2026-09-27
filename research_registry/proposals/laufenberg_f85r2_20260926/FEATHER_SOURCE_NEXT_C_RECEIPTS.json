@@ -1,0 +1,193 @@
+{
+  "status": "TWO_LOCATED_SOURCE_LEADS_NO_NEW_NATIVE_COMPARATOR_NO_RAW",
+  "start_utc": "2026-09-27T10:39:06Z",
+  "budget_seconds": 2100,
+  "deadline_utc": "2026-09-27T11:14:06Z",
+  "frozen_utc": "2026-09-27T10:51:52.292396+00:00",
+  "elapsed_seconds": 766.292396,
+  "source_leads": [
+    {
+      "witness": "Oxford StJohn17",
+      "desired_face": "40v",
+      "native_coverage": 0,
+      "limitation": "No verified whole-page image URL acquired; institutional project/archive and Digital Library delivery limits recorded."
+    },
+    {
+      "witness": "BnF Latin7028",
+      "desired_face": "156r",
+      "native_coverage": 0,
+      "limitation": "Wind incipit in official metadata; image locus in scholarly locator; official complete-manuscript manifest403; no canvas mapping."
+    }
+  ],
+  "web_search_queries": [
+    "medieval manuscript cosmological diagram winds feathers wings circle",
+    "manuscript diagram four winds feather headless cosmology library",
+    "\"Latin 7028\" \"156\" vents [BnF domains]",
+    "\"St John\" \"17\" \"40v\" winds [Oxford domains]",
+    "\"St John’s College\" \"17\" \"winds\" manuscript -voynich",
+    "\"latin 7028\" diagram -voynich"
+  ],
+  "query_count": 6,
+  "direct_witness_lead_count": 2,
+  "new_native_image_count": 0,
+  "new_whole_source_units_read": 0,
+  "new_raw_cards": 0,
+  "active_image_access_contracts": 0,
+  "metadata_access_receipts": {
+    "FEATHER_SOURCE_NEXT_C_METADATA_RECEIPTS.json": [
+      {
+        "name": "stjohn_digital_library",
+        "url": "https://stjohnscollegelibraryoxford.org/digital-library/",
+        "requested_utc": "2026-09-27T10:44:33.389587+00:00",
+        "timeout_seconds": 30,
+        "status": 200,
+        "final_url": "https://stjohnscollegelibraryoxford.wordpress.com/digital-library/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 7750,
+        "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/feather_stjohn_digital_library_metadata_20260927.html",
+        "sha256": "2bb9437cca1a1d9c980b4c9cba7e82d03137f436eb60f3071012d791ea434858"
+      },
+      {
+        "name": "bnf_mandragore_7028",
+        "url": "https://mandragore.bnf.fr/ark:/12148/cgfbt66128j",
+        "requested_utc": "2026-09-27T10:44:33.390053+00:00",
+        "timeout_seconds": 30,
+        "status": 200,
+        "final_url": "https://mandragore.bnf.fr/ark:/12148/cgfbt66128j",
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 57170,
+        "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/feather_bnf_mandragore_7028_metadata_20260927.html",
+        "sha256": "336ac8679ce7cdb4e6c957584b9bfe90b212768d725564737f1f86b48d1e22f5"
+      }
+    ],
+    "FEATHER_SOURCE_NEXT_C_CREATION_RECEIPT.json": {
+      "url": "https://mandragore.bnf.fr/mdgcd2337",
+      "provenance": "Exact creation-record link in previously received BnF record; transient jsessionid transport suffix omitted",
+      "requested_utc": "2026-09-27T10:46:31.675642+00:00",
+      "status": 200,
+      "final_url": "https://mandragore.bnf.fr/mdgcd2337",
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/feather_bnf_7028_creation_metadata_20260927.html",
+      "sha256": "8273af42684a644afd1c053463f705fe54f47a382ec0a1dd1ff6d7b9e1cc8302",
+      "bytes": 49274
+    },
+    "FEATHER_SOURCE_NEXT_C_VIEWER_RECEIPT.json": {
+      "url": "https://mandragore.bnf.fr/mirador/ark:/12148/btv1b79040751/f1",
+      "provenance": "Exact viewer link in received BnF metadata; web viewer returned HTML with zero extracted lines; this request reads metadata only",
+      "requested_utc": "2026-09-27T10:47:52.477745+00:00",
+      "status": 200,
+      "final_url": "https://mandragore.bnf.fr/mirador/ark:/12148/btv1b79040751/f1",
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/feather_bnf_7028_viewer_metadata_20260927.html",
+      "sha256": "580b24fa8be7c323041e601b6f1a774677aceb4eca3b08ec2b09d3c4fa658acd",
+      "bytes": 958
+    },
+    "FEATHER_SOURCE_NEXT_C_MANIFEST_RECEIPT.json": {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9067090j/manifest.json",
+      "provenance": "Exact official manifest URL explicitly linked by Wikidata Q124863859 reference/IIIF property, used only as locator; BnF manifest must verify manuscript identity and foliation",
+      "requested_utc": "2026-09-27T10:48:26.004023+00:00",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  },
+  "web_only_failures": [
+    {
+      "url": "https://portail.biblissima.fr/ark:/43093/mdata1221106cf307776f0f502b473f234c6eaf710132",
+      "result": "Anubis challenge; not retried/bypassed"
+    },
+    {
+      "url": "https://digital.library.mcgill.ca/ms-17",
+      "result": "Web tool reported500 after redirect to https://wayback.archive-it.org/22619/20250722193104/https://digital.library.mcgill.ca/ms-17/; non-retryable tool failure; no archive request"
+    },
+    {
+      "url": "https://mandragore.bnf.fr/ark:/12148/cgfbt66128j",
+      "result": "Web tool timeout before separately declared one HTTP metadata request succeeded"
+    },
+    {
+      "url": "https://stjohnscollegelibraryoxford.org/digital-library/",
+      "result": "Web extracted initial link then could not access WordPress redirect; one declared HTTP response200 was login page"
+    }
+  ],
+  "known_limits": [
+    "No headless-feather function established",
+    "No four-count assumption",
+    "Native inspection missing, not source absence",
+    "Modern article not independent manuscript-image inspection",
+    "Whole catalogue/work chronology uncollated",
+    "No novelty certification or reopened wind-name experiment"
+  ],
+  "exposure": "All prior project exposure persists. Broad source searches incidentally returned public Voynich-description snippets; no result page/image/transcription opened or used. Explicitly allowed GDT1043 report read. No595 or588 author packet, target row/image, reserve or contact.",
+  "registry_mutations": 0,
+  "global_state_mutations": 0,
+  "advisory_child": "Thread-limit rejection before child task; no result claimed",
+  "primary_receipts": [
+    {
+      "path": "VOYNICH_CURRENT_ROUTE.md",
+      "sha256": "f0b6b778d4751746a33149c8450f488320b85008f7bfbafbe831348039bac1e1"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/COSMIC_BANDS_ROOT_REVIEW.md",
+      "sha256": "993929a25147b4b4f5d73022ed06f1d066929648b2025e5e7179261a4b1fbeca"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/COSMIC_CONTINUATION_DECISION.md",
+      "sha256": "4b808e7921dc0cca079a8a50269f2b8248e15794395f9c117b9270abd8a35606"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/COSMIC_CONTINUATION_NATIVE.md",
+      "sha256": "bf06bb6a8043125f4ac27fcc91bfbe6f61a21535a64cd3d4ef88adb5b7ddb13b"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/COSMIC_CONTINUATION_REVIEW_B.json",
+      "sha256": "f4282e7f40b0c4fb0bc3a2a76b4e0646f711724c8a9d57aa257c45de86f3ca3a"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/COSMIC_CONTINUATION_RECEIPTS.json",
+      "sha256": "f297d931fcc85c4c0d43f5b187e79a2448b68ed83b0f2e7b88674cd562759026"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ROYAL_PROGRAM_NATIVE_ROOT_RESULT.md",
+      "sha256": "387c1be0d79c7dd3c4f808849322365033899036432a89145709e0690f9b6d34"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/CGM5185_ROOT_REVIEW.md",
+      "sha256": "df0f92f55da3c7e25301d7c5f648ef169b243b490420a40cc04714d74373cb67"
+    },
+    {
+      "path": "experiments/yolo/gdt1043_f85r2_native_attribute_binding/REPORT.md",
+      "sha256": "cdf2cb10acb6f368eb68c4c06d0e50d765c417b0978976b0edc09a9a47390cb3"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/haruna_2011_f67v2_twelve_wind_busts_report.md",
+      "sha256": "c6d2f4569c43c9e604606c13a468f4fcebc9fbb82cb93a9748e8f00479d8b509"
+    }
+  ],
+  "frozen_output_hashes": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/FEATHER_SOURCE_NEXT_C_DECISION.md",
+      "sha256": "17ef7c03991c9d7563dec9375fc6ced38ca82d8553d008ddc98c254b576f05d4"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/FEATHER_SOURCE_NEXT_C_METADATA_ACCESS.md",
+      "sha256": "13d001c5745e8a86f387f50926cbfe5da7772d643b70b631f0cac211242e01a4"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/FEATHER_SOURCE_NEXT_C_REPORT.md",
+      "sha256": "2a5e4e38ebef588edb3ed3c099b515984e483bab2a688107af4efed915647bc1"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/FEATHER_SOURCE_NEXT_C_METADATA_RECEIPTS.json",
+      "sha256": "17f2fe5509208ea63e3a32361eee5776c8ebba09e7a43c54e645af30df9192fd"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/FEATHER_SOURCE_NEXT_C_CREATION_RECEIPT.json",
+      "sha256": "f02263ed4d841b113238a9075c3a82cd097e6a64fa2262c17293331ac366cccb"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/FEATHER_SOURCE_NEXT_C_VIEWER_RECEIPT.json",
+      "sha256": "d3afbde520bfb9e32725ae4e1c1f0bbfc3ccafd9cd2a69506b4432849f15b1e6"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/FEATHER_SOURCE_NEXT_C_MANIFEST_RECEIPT.json",
+      "sha256": "49cb7b119cf79a96fb8f05605ea8714e47bc5eae56d77f427772a9b32d44b52a"
+    }
+  ],
+  "publication_note": "Runtime external_cache HTML contains transient institution session/delivery fields; do not stage raw HTML. Clean report/receipts contain no session suffix, private path or credentials."
+}
