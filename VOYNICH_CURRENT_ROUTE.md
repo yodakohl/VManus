@@ -2,14 +2,14 @@
 Updated: 2026-09-27. This is the sole live resume point; replace, never append history.
 
 ## Current work
-Phase: workflow
+Phase: exploration
 Status: complete
-Task: Word-selection tools and first candidate audit complete.
-Latest decision: Word profiles before glosses; seasonal bases ungrounded, not refuted.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/WORD_SELECTION_REPORT.md.
-Assumptions: Knownwordstructure;0words;observations are not meanings;reserves closed.
-Resume: Profile next candidate forms, read linked primaries, then bind whole-scope consequences.
-Running: none; word tools and audit validated.
+Task: Closed bounded K2790 resolution/edition acquisition.
+Latest decision: Service2160px; prior2200px already read; no changed text or meaning.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/KARLSRUHE_RELATION_ACQUISITION_REPORT.md.
+Assumptions: Source ownership unbound;0words;all Voynich reserves closed.
+Resume: Read report reopening criteria; no automatic image retry or free f85 writer.
+Running: none; next scientific candidate unselected.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
