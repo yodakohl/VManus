@@ -1,0 +1,9 @@
+# Owned Megenberg selective effects: bounded C decision
+
+Start: 2026-09-27 10:24:51 UTC. Budget: 20 minutes inclusive; stop/freeze by 10:44:51 UTC. Route read first. Root controls publication and any registry mutation window.
+
+Unknown: whether the already completely owned II25 account supplies distinct connected RAW content in (a) selective thunder/lightning effects on hard/soft, exterior/interior and surviving/lost objects and (b) its three thunder classes, beyond existing RAWs. The smallest adequate work is targeted context/metadata navigation, exact source-only predecessor checks, and bounded rereading of the whole relevant contiguous arguments in the already owned complete chapter. A useful distinct relation permits at most two RAW UNREVIEWED offers; exact overlap yields only pointers. Uncertain source wording remains a limitation, not permission to invent a consequence.
+
+Fixed source: MEGENBERG_II25_SOURCE.txt, complete Buch der Natur II25, Pfeiffer1861 electronic TITUS, printed91.13–95.12, SHA256 c3f9442fe6b2134f3d93f6efa8f65b45d57bdcfc65e8c2a0e31071a2855cd61b. Complete chapter was read during the earlier owned source pass. This task may reread exact contiguous spans and report those spans; no new critical-edition or manuscript-collation claim. No new external fetch, images, OCR, target text/image, IDEA588 packet, reserve, contact, decoder, legacy-file change, ledger/state/Git/refresh.
+
+Informed source-only work. Prior incidental old-card/target and parent-status exposures persist; no blinding claim. Advisory child may independently supply bounded metadata IDs/titles/status only, without old card or target payloads. Preserve current source bytes. Exact source scope, positive relations, rival interpretation, mandatory details and costs must precede prospective target selection; none is selected here.
