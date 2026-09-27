@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: f68r2 paired-ring opening comparison complete.
-Latest decision: Near opening retained; actual okoaiin rare; no Sun/Moon gloss.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/F68R_PAIRED_OPENINGS_RESULT_20260927.md.
-Assumptions: User-cued;2localC-loci only;179unchanged;oneleaf,0meanings.
-Resume: If pursued, fix a whole-ring reading plus f89v1.14 context consequence.
-Running: none.
+Task: Complete f89v1.13–20 context checked in all3readers.
+Latest decision: okoaiin/okaiin/qokaiin/chokaiin coexist; SUN unresolved.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/F89V1_OKOAIIN_CONTEXT_RESULT_20260927.md.
+Assumptions: Development text; spelling relations not meanings;179unchanged.
+Resume: Require a concrete ring+paragraph construction; none selected.
+Running: None. Context check complete; prior ten-hour block stays interrupted.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
