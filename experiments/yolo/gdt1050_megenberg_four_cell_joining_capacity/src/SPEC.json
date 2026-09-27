@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "primary": "ZL3b",
+  "alternate": "IT2a",
+  "no_capacity_reader": "RF1b",
+  "source_skeleton": {
+    "not_registered": true,
+    "no_target_evaluation_done": true,
+    "clause_sequence": [
+      {
+        "arg1": 0,
+        "arg2": 0,
+        "negative": true
+      },
+      {
+        "arg1": 1,
+        "arg2": 1,
+        "negative": true
+      },
+      {
+        "arg1": 1,
+        "arg2": 0,
+        "negative": false
+      },
+      {
+        "arg1": 0,
+        "arg2": 1,
+        "negative": false
+      }
+    ],
+    "negative_placement": [
+      "before_clause",
+      "after_clause"
+    ],
+    "inter_clause_gap_groups": 0,
+    "all_clauses_contiguous": true,
+    "use_whole_groups_only": true,
+    "ATOMIC14": {
+      "slots": [
+        "P",
+        "ARG1",
+        "ARG2"
+      ],
+      "slot_orders": [
+        [
+          "P",
+          "ARG1",
+          "ARG2"
+        ],
+        [
+          "P",
+          "ARG2",
+          "ARG1"
+        ],
+        [
+          "ARG1",
+          "P",
+          "ARG2"
+        ],
+        [
+          "ARG1",
+          "ARG2",
+          "P"
+        ],
+        [
+          "ARG2",
+          "P",
+          "ARG1"
+        ],
+        [
+          "ARG2",
+          "ARG1",
+          "P"
+        ]
+      ],
+      "distinct_form_variables": [
+        "P",
+        "N",
+        "A",
+        "B"
+      ],
+      "run_groups": 14,
+      "pattern_schemas": 12
+    },
+    "ROLE10": {
+      "ordered_bank": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/CANDIDATES.json",
+      "ordered_bank_sha256": "910d10010e4d55c8ba1328c60c3192a3680ba0fdb46ef94c4783d7141a9f961b",
+      "ordered_pair_count": 22,
+      "first_role_A_suffix": [
+        "r",
+        "l"
+      ],
+      "cross_role_alignment": [
+        "preserve_suffix",
+        "reverse_suffix"
+      ],
+      "positive_slots": [
+        "X_ARG1",
+        "Y_ARG2"
+      ],
+      "distinct_form_variables": [
+        "X_A",
+        "X_B",
+        "Y_A",
+        "Y_B",
+        "N"
+      ],
+      "run_groups": 10,
+      "raw_pattern_branches": 176,
+      "predicate_realization": "The same curried J constructor is realized in both X_A/X_B role forms, then applied to Y_ARG2; no standalone P group in this family."
+    },
+    "surface_equivalence": "Generate full slot patterns for every branch before canonicalization; report exact-equivalent patterns and their surviving semantic assignments, never count grouped patterns as independent evidence.",
+    "count_limit": "Only schema cardinalities are recorded here. No target matches or source concept incidence have been counted."
+  },
+  "clauses": [
+    {
+      "arg1": 0,
+      "arg2": 0,
+      "negative": true
+    },
+    {
+      "arg1": 1,
+      "arg2": 1,
+      "negative": true
+    },
+    {
+      "arg1": 1,
+      "arg2": 0,
+      "negative": false
+    },
+    {
+      "arg1": 0,
+      "arg2": 1,
+      "negative": false
+    }
+  ],
+  "allowed_selectors_spec": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+  "paragraphs": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "bank": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/CANDIDATES.json",
+  "raw_caches": [
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json"
+  ],
+  "window_lengths": [
+    10,
+    14
+  ],
+  "gap_groups": 0,
+  "normalization": null,
+  "significance_claim": false
+}
