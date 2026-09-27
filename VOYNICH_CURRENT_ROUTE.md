@@ -5,11 +5,12 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: checkpoint
 Task: Seek an independently bound content contrast.
-Latest decision: GDT1058 splits k/t sign; entry-opposition rate lacks matched units.
-Working files: GDT1058 report; within-entry capacity decision.
-Assumptions: ch=dry provisional; k/t hot sign unresolved;0 confirmed words.
-Resume: Find an author-visible text/referent contrast;
-avoid grade-first plant naming and source-only fitting.
+Latest decision: f23v hot/dry root-versus-flower sentence withdrawn;
+kooiin=rootstock-class remains a replaceable two-leaf hypothesis.
+Working files: quality-reader dependency correction; GDT1058 report.
+Assumptions: ch=dry provisional; k/t sign open; dair root unexportable;0 words.
+Resume: Seek an independent owner or a full-reading consequence separating
+kooiin rootstock class from generic Herbal entry head.
 Running: None. IDEA614 untested;610/611 parked;612 tested;613 raw.
 
 ## Structural baseline
