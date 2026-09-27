@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1047**
-- Experiment-associated tracked files: **20,838** (1.9 GiB)
-- Structured GDT337+ experiments: **712**
+- Experiments indexed: **1048**
+- Experiment-associated tracked files: **20,860** (1.9 GiB)
+- Structured GDT337+ experiments: **713**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1049 | gdt1049_galen_season_concept_countercheck | `COMPLETE_SOURCE_PROFILE_NO_TARGET_FREQUENCY_BOUND` | [report](../experiments/yolo/gdt1049_galen_season_concept_countercheck/REPORT.md) | 22 | 352.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1048 | gdt1048_clock_prelude_frozen_values | `FIXED_LEXICAL_CAPACITY_EXCEEDED_BOTH_READERS` | [report](../experiments/yolo/gdt1048_clock_prelude_frozen_values/REPORT.md) | 16 | 361.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT1047 | gdt1047_bare_value_left_host | `FAMILY_HOST_RULES_CONTRADICTED__AIIN_LEFT_COMPATIBLE__DAIIN_BOUNDARY_SENSITIVE` | [report](../experiments/yolo/gdt1047_bare_value_left_host/REPORT.md) | 16 | 3.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT1046 | GDT1046 | `STRICT_NOM_EXTENSION_FAILS_IT_RF_ZL_INCOMPLETE` | [report](../experiments/yolo/gdt1046_f85_faculty_nominalizer_consequences/REPORT.md) | 16 | 64.1 KiB | 3 | STRUCTURED_YOLO |

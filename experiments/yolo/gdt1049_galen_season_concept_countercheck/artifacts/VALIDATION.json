@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "validated_utc": "2026-09-27T16:28:01.002091+00:00",
+  "source_sha256": "d234a983f9c363828a8c71b9b7ae68569548c72cfe2b2691ad5c0409d3609590",
+  "independent_extraction": "stdlib HTMLParser DOM; no producer import",
+  "paragraphs": 266,
+  "chapters": 41,
+  "words": 42707,
+  "empty_editorial_paragraphs": 9,
+  "outside_authorial_text": 0,
+  "original_annotations_byte_frozen": true,
+  "original_and_reviewed_aggregations_exact": true,
+  "preregistered_file_hashes_verified": {
+    "experiments/yolo/gdt1049_galen_season_concept_countercheck/PREREGISTRATION.md": "19d890575d39dea86558266777b33ae3792186d9857e32bbaf547694f8157ea5",
+    "experiments/yolo/gdt1049_galen_season_concept_countercheck/METHOD.md": "9d40b7097affde1424fb80b82ea6648511a7e8d15f4bc9ebe50146e48f1294b6",
+    "research_registry/proposals/laufenberg_f85r2_20260926/GALEN_SEASON_COUNTERCHECK_DECISION.md": "e7c05185231b95134adc3d6ce729e05d915acb0bf52db8f7b402b6af5d3192be"
+  },
+  "registered_second_review_required": 82,
+  "reviewed_rows": 82,
+  "mutation_rejections": [
+    {
+      "case": "missing_annotation",
+      "rejected": true
+    },
+    {
+      "case": "wrong_paragraph_hash",
+      "rejected": true
+    },
+    {
+      "case": "changed_aggregate_count",
+      "rejected": true
+    },
+    {
+      "case": "changed_original_annotation_without_freeze_receipt",
+      "rejected": true
+    }
+  ],
+  "implementation_notes": [
+    "Initial validator comparison used document-order IDs while the result serializes incidence sets lexically; comparison now sorts those IDs, leaving all populations and counts unchanged.",
+    "DOM traversal includes the final empty page marker before the Greek heading; this adds one empty element to the extraction diagnostic but no authorial paragraph."
+  ],
+  "mechanical_claim_ceiling": "Source extraction, byte provenance, schema, coverage and arithmetic only; not semantic truth.",
+  "semantic_review": "Separate complete-context reading and limited frozen-annotation review in SECOND_REVIEW.json."
+}

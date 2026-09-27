@@ -1,0 +1,165 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Raw/full extracted public source stays in ignored local caches; public outputs contain only metadata, annotations and derived counts.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One edition concept profile only; no source-to-Voynich frequency bound or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1049_galen_season_concept_countercheck/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1049_galen_season_concept_countercheck/src/validate.py"
+  },
+  "created": "2026-09-27",
+  "dependencies": [
+    "GDT380",
+    "GDT749"
+  ],
+  "experiment_id": "GDT1049",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/GALEN_SEASON_COUNTERCHECK_DECISION.md",
+      "role": "source_or_decision",
+      "sha256": "e7c05185231b95134adc3d6ce729e05d915acb0bf52db8f7b402b6af5d3192be"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/COMPLETE_SOURCE_ROSTER_GALEN_DIOSCORIDES.json",
+      "role": "source_or_decision",
+      "sha256": "52ba4fee8390a9ad6b270acbdae3b1599a421dc5e0b1ba99c4afd8a6af72e106"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/DECISION_608_INDEPENDENT_CRITIQUE.md",
+      "role": "source_or_decision",
+      "sha256": "b08a733ba34fd8ce753aa2a4c5a8d61f1b0ffcade4676bb731dd70f7e12fac9e"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/REPORT.md",
+      "role": "source_or_decision",
+      "sha256": "788342289fa8634cc7e765f0f1ef45a28e51939e3a4458ff91870bdddc05e873"
+    },
+    {
+      "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+      "role": "source_or_decision",
+      "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/METHOD.md",
+      "role": "reproducibility_artifact",
+      "sha256": "9d40b7097affde1424fb80b82ea6648511a7e8d15f4bc9ebe50146e48f1294b6"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/PREREGISTRATION.md",
+      "role": "reproducibility_artifact",
+      "sha256": "19d890575d39dea86558266777b33ae3792186d9857e32bbaf547694f8157ea5"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "fec751e9aba9eeebe65fec3fade3bafb60e81853499befe6929394a6d7c55ae8"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/REPORT.md",
+      "role": "reproducibility_artifact",
+      "sha256": "60591a1520dda39982477210fe2dab913b2d9f6a4f49344b74f018d0e4976663"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/ANNOTATIONS_III.json",
+      "role": "reproducibility_artifact",
+      "sha256": "42cb7194e4a9339183b0d84c05d72370c82cd8afce0d5f2eff731f1193be0340"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/ANNOTATIONS_I_II.json",
+      "role": "reproducibility_artifact",
+      "sha256": "8795724bf3dc5b2724d5764bb012a903baf9d8d0b1149a157c4e020487185f0e"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/ANNOTATION_FREEZE.json",
+      "role": "reproducibility_artifact",
+      "sha256": "c91759b9c91d98f1ec5d73cfca8880e0af6420f3e8cc485bf1808f73942283e9"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/CORRECTIONS.json",
+      "role": "reproducibility_artifact",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/EXTRACTION_CORRECTION.json",
+      "role": "reproducibility_artifact",
+      "sha256": "ad7ad73b520c2bf9f38d997f85b2bf6ad2faf68e80ae6ad79fd58c53e918550b"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/INITIAL_SOURCE_UNITS.json",
+      "role": "reproducibility_artifact",
+      "sha256": "fe52d8580e8a0b85749381825af6b35d442a89a1548255592e31222dcbe2ddb8"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/READING_RECEIPT_I_II.json",
+      "role": "reproducibility_artifact",
+      "sha256": "8159b43ad9272ed8cbc76f7dbf9ed1114b4efcf7c85cdb347e6d4768889fecdd"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "783959c4ff4f4d6ec80863568c66b3563e49c9d3a87e51693ed22800d9a185d5"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/RESULT.json",
+      "role": "reproducibility_artifact",
+      "sha256": "a8375988da3af95e29e809f72fd8b4234d0615f1bbfae51dd232b33b6961bb58"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/ROOT_READING_RECEIPT.json",
+      "role": "reproducibility_artifact",
+      "sha256": "16d110eb23de7b8928515e79d8d0e8a6ec8cd26a2cb0a3e3f20cf4f5e8e7189e"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/SECOND_REVIEW.json",
+      "role": "reproducibility_artifact",
+      "sha256": "95bbb13a9fdfc1fdd0f806e2d93f803503ec28eee1db601dcbf2741817c0f217"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/SOURCE_UNITS.json",
+      "role": "reproducibility_artifact",
+      "sha256": "102b288230ec98dd15c6deab26a947c8eeba2932b7351bbc2cb73f767d0f9ed7"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/VALIDATION.json",
+      "role": "reproducibility_artifact",
+      "sha256": "63c84fe3e0a633860dfe0420260506a6c80fc90ea11c983f206d4131775a9e78"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/src/PREREG_LOCK.json",
+      "role": "reproducibility_artifact",
+      "sha256": "d47cdfb1861f14236faa74f59719e6e9fe8f0719f266213c29562a9d940a6aa5"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/src/SOURCE.json",
+      "role": "reproducibility_artifact",
+      "sha256": "bd1885276bbe9bbdf29e007d7ca8d288f681e6250ee86f483914955e1c4c183a"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/src/run.py",
+      "role": "reproducibility_artifact",
+      "sha256": "626e4299598d0ead1c2f3f9bac11748da6afe07829ef00ce7c4fafc07639a257"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/src/validate.py",
+      "role": "reproducibility_artifact",
+      "sha256": "393b34e8633d2cfbf472f9de10f1a7189d9161360f7525f64c4521a5d0cd0e0a"
+    }
+  ],
+  "question": "Does one complete physiological argument broadly invoke winter or summer, challenging the qualitative rarity expectation?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "galen_season_concept_countercheck",
+  "status": "COMPLETE_SOURCE_PROFILE_NO_TARGET_FREQUENCY_BOUND",
+  "title": "Complete Galen season-concept countercheck",
+  "updated": "2026-09-27",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/VALIDATION.json"
+  }
+}

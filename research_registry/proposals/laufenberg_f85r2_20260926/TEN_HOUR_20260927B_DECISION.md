@@ -95,3 +95,13 @@ beside the complete resulting reading, costs, gaps and counterexamples.
  retained; no concept counts or Voynich inference. RAW608 added unreviewed;
  root assesses whether a small sourceannotation pilot changes a reading
  decision before authorizing it. Actual elapsed block about62minutes.
+
+-16:11:57UTC: GDT1049 source-only countercheck registered,60mininclusive
+ ceiling17:11:57. Only complete GalenWINTER/SUMMER annotations, no targetbridge
+ or calibratedprior. Complete source roster publishedad18e7b2e.
+
+-16:28UTC: GDT1049 complete and independently validated in about16minutes
+ fromregistration.266paragraphs/41chapters, winter3-5/summer1-5localparagraphs;
+ originalannotationsunchangedafterfullsecondcontextread+82fixedreviewrows.
+ No targetfrequencybound/meaning; no automatic expansion. Publication follows.
+ Producer investigates a distinct ownedMegenbergfour-cellrelation, unselected.
