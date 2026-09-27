@@ -1,0 +1,69 @@
+{
+  "status": "PASS_LITERAL_AND_SPAN_REPLAY",
+  "inputs": {
+    "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "research_registry/proposals/laufenberg_f85r2_20260926/DEFAULT_CONTEXT_AUTHOR_CONTRACT.json": "b254870d081812cdb3d3afec63856f382eaaef251ab9a7f5b73d1ecbc4545e6f",
+    "research_registry/proposals/laufenberg_f85r2_20260926/DEFAULT_CONTEXT_WHOLE_DRAFT.json": "ed612bf7c690b0b93e19ba9bda2cd0961fcdab7bb21a3fbd07291502c53fc34c",
+    "research_registry/proposals/laufenberg_f85r2_20260926/DEFAULT_CONTEXT_WHOLE_REPORT.md": "9dfdec2a8fedc86028fa545cfb5f08e7f37e1b2d42c87fd7f3c853a070e1416e"
+  },
+  "method": "Independent exact comparison to the owned GDT1042 native_groups.tsv; exact old lexicon equality against frozen contract JSON; family IDs and values recomputed from literals; derivation spans reconstructed from numeric group IDs. No producer runner imported, no semantic executor.",
+  "checks": {
+    "473_rows": true,
+    "unique_ids": true,
+    "id_set": true,
+    "all_12_native_fields_match": true,
+    "first_contract_hash_and_bytes": true,
+    "66_frozen_bindings_unchanged": true,
+    "new_bindings_exactly_seven": true,
+    "lexicon_union_exact": true,
+    "row_bindings_match_frozen_lexicon": true,
+    "41_family_ids_exact": true,
+    "family_row_raw_exact": true,
+    "family_values_match_all_occurrences": true,
+    "reader_status_counts": true,
+    "ZL_type_counts": true,
+    "all_derivation_tokens_match_projection": true,
+    "spans_nonoverlap_and_correct_length": true,
+    "derived_status_matches_listed_spans": true,
+    "binding_and_payload_totals": true,
+    "reported_group_coverage_total": true
+  },
+  "errors": {},
+  "recomputed": {
+    "rows": 473,
+    "row_ids": 473,
+    "family_occurrences": 41,
+    "derived_span_groups": 82,
+    "reader_status_counts": {
+      "ZL3b": {
+        "LOCAL_DERIVED_COMPLETE_UNIT": 72,
+        "UNKNOWN_UNPARSED": 50,
+        "ASSIGNED_UNPARSED": 24,
+        "LOCAL_DERIVED_WITH_UNPARSED_INTERVENING_TEXT": 10
+      },
+      "IT2a": {
+        "UNKNOWN_UNPARSED": 61,
+        "ASSIGNED_UNPARSED": 96
+      },
+      "RF1b": {
+        "UNKNOWN_UNPARSED": 72,
+        "ASSIGNED_UNPARSED": 88
+      }
+    },
+    "old_bindings": 66,
+    "new_bindings": 7,
+    "whole_bindings": 73,
+    "independent_entries": 68,
+    "payload_sum": 78
+  },
+  "manual_findings": {
+    "N2": "sain receives the same DEREF(x) twice under the no-intervening-ar binder-write scope, returns BooleanScalar and EQUALS compares that scalar to opchdy TRUE. This is a tautological identity check, not context variation or evidence.",
+    "N3": "qotor(sheedy,shodaiin,olfar,ary) is a complete, typed positive proposition asserting distinct nonempty thermal-disposition profile sets for OLD and YOUNG, without ranking. It is an added profile model, not the source duty’s more direct response-under-COLD/HEAT relation; no link is made to c0/c1 or their conduct plans.",
+    "O4": "The report is right that N3 is an assertion rather than only the E comparison plan, and that general case-specific adjustment plans occur. But its own limitation remains material: old/young profile values are not identified with c0/c1, and profile-of-disposition inequality is not by itself an assertion about response to external cold versus heat. So O4 is only partly addressed unless the original source duty is narrowed to thermal profile variation plus generic context-specific adjustment. No particular source-to-target link is supplied.",
+    "O2": "Explicitly incomplete; same input is shown HARM at c1 and GOOD in .13 under default but no written distinct time fields or relation to YEAR.",
+    "O3": "Explicitly incomplete; c0/c1 ownership does not write distinct recipients or health class.",
+    "alternate_rows": "All IT/RF rows remain unparsed. Frozen c0/c1/d register and fixed argument debts are retained; they are direct-use constraints, not global impossibility. New packet does not repair them.",
+    "scope": "The 72 complete ZL groups (A1 35 + N.2/N.3 10 + E 27), ten conditional local groups (.13/.15), 24 assigned-unparsed and 50 unknown-unparsed total 156. No whole page reading."
+  },
+  "limitations": "Literal/span replay only; manual semantics are conditional on highly free authored values. No native image/source review, no confirmed meanings, no global UNSAT."
+}
