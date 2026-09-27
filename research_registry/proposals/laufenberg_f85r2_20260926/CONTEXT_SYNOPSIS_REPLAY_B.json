@@ -1,0 +1,165 @@
+{
+  "status": "PASS_LITERAL_REPLAY_WITH_MANUAL_CONTENT_LIMITS",
+  "inputs": {
+    "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/guarded_projection.tsv": "489c3960116c88f76de39187eef3d2f9d3dd68d3c2e514f54abe7a2294d185e9",
+    "research_registry/proposals/laufenberg_f85r2_20260926/CONTEXT_SYNOPSIS_WHOLE_DRAFT.json": "6d2036f350a5991042320bd1a370bde8ccd93334e9bd06ff2b5968c1352beaca",
+    "research_registry/proposals/laufenberg_f85r2_20260926/CONTEXT_SYNOPSIS_AUTHOR_CONTRACT.md": "612699d74615d33fd6e8fc6d373b7984b2796e884e7995d6122e1ed07e95a15c",
+    "research_registry/proposals/laufenberg_f85r2_20260926/CONTEXT_SYNOPSIS_WHOLE_REPORT.md": "58be4f2e467f225119ad2d08ac2970a2f0bb5e4ddda32b9c5e2361f0f5f79e27"
+  },
+  "method": "Direct independent comparison of all_occurrences to GDT1042 guarded_projection.tsv; recomputed exact-form indexes, per-row assignments/statuses, reader/block/line-position counts, and derivation span union. No producer run.py imported/read; no semantic executor.",
+  "checks": {
+    "source_group_count_473": true,
+    "unique_source_ids": true,
+    "source_id_set_equal": true,
+    "all_guarded_projection_fields_equal": true,
+    "scope_blocks_recomputed": true,
+    "line_positions_recomputed_from_separators": true,
+    "reader_row_counts": true,
+    "numeric_loci_1_to_24": true,
+    "exact_occurrence_indexes": true,
+    "binding_matches_same_literal_value": true,
+    "manual_spans_valid_nonoverlapping": true,
+    "derived_status_equals_span_union": true,
+    "derived_scope_count_66": true,
+    "assigned_unknown_derived_statuses": true,
+    "unknown_ZL_type_set": true,
+    "assigned_unique_ZL_form_count": true,
+    "critical_derivation_surface_sequences": true,
+    "headline_counts": true,
+    "source_coverage_has_four_duties": true
+  },
+  "errors": {},
+  "recomputed": {
+    "source_rows": 473,
+    "reader_rows": {
+      "ZL3b": 156,
+      "IT2a": 157,
+      "RF1b": 160
+    },
+    "loci": [
+      "f85r2.1",
+      "f85r2.2",
+      "f85r2.3",
+      "f85r2.4",
+      "f85r2.5",
+      "f85r2.6",
+      "f85r2.7",
+      "f85r2.8",
+      "f85r2.9",
+      "f85r2.10",
+      "f85r2.11",
+      "f85r2.12",
+      "f85r2.13",
+      "f85r2.14",
+      "f85r2.15",
+      "f85r2.16",
+      "f85r2.17",
+      "f85r2.18",
+      "f85r2.19",
+      "f85r2.20",
+      "f85r2.21",
+      "f85r2.22",
+      "f85r2.23",
+      "f85r2.24"
+    ],
+    "unique_source_ids": 473,
+    "ZL_derived_groups": 66,
+    "ZL_unowned_groups": 90,
+    "assigned_ZL_forms": 57,
+    "unknown_ZL_forms": 58,
+    "manual_spans": 27,
+    "ZL_source_coverage_duties": 4
+  },
+  "critical_span_surfaces": {
+    "A1_OPEN_KIND": [
+      "odeedy",
+      "otedy"
+    ],
+    "A1_OPEN_PAIR": [
+      "opaees",
+      "ar"
+    ],
+    "A1_OPEN_MODAL": [
+      "chcthy"
+    ],
+    "A1_DIFFER": [
+      "otchdy",
+      "otody",
+      "otar"
+    ],
+    "A1_JUDGE_INPUT": [
+      "chepaiin",
+      "otodar"
+    ],
+    "A1_AGE": [
+      "otodaiin",
+      "opaiin",
+      "otaiin",
+      "qopchas"
+    ],
+    "A1_GOOD": [
+      "otchedy",
+      "olkaiin",
+      "odar",
+      "aloees"
+    ],
+    "A1_HARM": [
+      "otchedy",
+      "qotedaiin",
+      "odar",
+      "octhody"
+    ],
+    "A1_CLOSE_MODAL": [
+      "shedaiin"
+    ],
+    "E_OPEN_KIND": [
+      "pchedeey",
+      "olkey"
+    ],
+    "E_OPEN_PAIR": [
+      "qokedy",
+      "sheos"
+    ],
+    "E_OPEN_MODAL": [
+      "fcheey"
+    ],
+    "E_GOOD": [
+      "otchedy",
+      "chotey",
+      "qocthey",
+      "oteey"
+    ],
+    "E_CONJOIN_HEAD": [
+      "oloqorain"
+    ],
+    "E_CYCLE_OPERANDS": [
+      "daiin",
+      "qotaiin"
+    ],
+    "E_HARM": [
+      "tchedy",
+      "otedy",
+      "qotchdy",
+      "chckhey"
+    ],
+    "E_CLOSE_MODAL": [
+      "shedaiin"
+    ],
+    "E_END": [
+      "chok{co}m"
+    ],
+    "S_AGE": [
+      "otchs",
+      "shedor",
+      "chey",
+      "sorain"
+    ]
+  },
+  "manual_semantic_assessment": {
+    "A1": "The spans instantiate one existential Kind and unordered sick/healthy Context pair, then one POSSIBILITY containing context-distinctness, input-needs-judgment, undirected age response-profile inequality across COLD/HEAT, and the two same-k GOOD/HARM Eval atoms; explicit shedaiin closes modal before three generic year/season/judgment atoms. The written AST aligns to the stated sequences and rules; all ontology/payloads remain authored guesses.",
+    "E": "Fresh Kind and unequal TimeSituation-pair binders and possibility. First otchedy uses chotey/qocthey/oteey. The next temporal harm is via explicitly charged tchedy partial application, checked otedy/qotchdy/chckhey. oloqorain takes YEAR, qotaiin (cycle predicate) and Eval harm as written operands; it does not hide its arguments. Possibility closes before END_UNIT. Temporal contexts are distinct generic AtTime contexts, but no predicate explicitly locates them within the YEAR cycle; YEAR variation and the two-context evaluation are conjoined, not explicitly linked. This limits O2’s stronger reading.",
+    "S12": "The four groups provide an unmodalized generic AGE_PAIR/COLD/HEAT response-profile inequality; remaining S duty content is unresolved.",
+    "source_duties": "O1, O3, O4 are represented at the declared synopsis level with stated generic/undirected limitations. O2 has same-k opposite GOOD/HARM at distinct generic temporal contexts under joint possibility, plus independent CycleVaries(YEAR); the temporal-to-year link is not lexically/model-wise supplied. Thus source-inspired selected synopsis is partial as a target page but its four preselected duties are addressed unevenly; O2 claim should be worded as juxtaposed temporal-context contrast with year variation, not a fully bound within-year changing regimen.",
+    "limits": "No semantics confirmed. Literal integrity passes do not validate any lexical assignment, typed derivation, plausibility of chosen synopsis, source interpretation, or meanings of unparsed rows. An independent reread of the 64-verse source text was not part of this replay; source cross-check is limited to the owned source result."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "status": "BOUNDED_PROVENANCE_NONFINDING_WITH_EXACT_CATALOGUE_SCOPE",
+  "task_start_utc": "2026-09-27T05:33:29Z",
+  "deadline_utc": "2026-09-27T05:53:29Z",
+  "frozen_utc": "2026-09-27T05:39:00.681403+00:00",
+  "decision_path": "research_registry/proposals/laufenberg_f85r2_20260926/MD2_WIND_TEXT_PROVENANCE_DECISION_C.md",
+  "decision_sha256": "f20e939d4fd082d706244a2737970e4bdcd0d44a3f13273d5e2661a23211f2af",
+  "report_path": "research_registry/proposals/laufenberg_f85r2_20260926/MD2_WIND_TEXT_PROVENANCE_C.md",
+  "report_sha256": "14fa615d889ca23afd9467f6a9a83fb78177ba062d9c03ce22457f10289cca43",
+  "limits": {
+    "max_queries": 6,
+    "queries_used": 6,
+    "max_direct_leads": 3,
+    "source_picture_batches": 0
+  },
+  "queries": [
+    "\"Md 2\" \"Winde\" \"13\"",
+    "\"Tübinger Hausbuch\" \"14r\" Winde",
+    "\"wester\" \"warme lant\"",
+    "\"wind\" \"von siner nature\" \"warm\"",
+    "\"Lucidarius\" \"wester\" \"warm\"",
+    "\"Buch der Natur\" \"wind\" \"warme lant\""
+  ],
+  "leads": [
+    {
+      "number": 1,
+      "name": "Owned Md2 institutional/catalogue context bundle",
+      "urls": [
+        "https://opendigi.ub.uni-tuebingen.de/opendigi/Md2",
+        "https://opendigi.ub.uni-tuebingen.de/opendigi/Md2/manifest",
+        "https://kdih.badw.de/datenbank/handschrift/11/4/43",
+        "https://www.inka.uni-tuebingen.de/cgi-bin/msst?si=md2",
+        "https://www.inka.uni-tuebingen.de/hand.php"
+      ],
+      "result": "Official wind-unit boundary and matching KdiH incipit; following Konrad von Eichstaett work separate; no wind-item parent author supplied. Legacy INKA item link redirects to generic form."
+    },
+    {
+      "number": 2,
+      "name": "CIMA63 primary manuscript-description publication, unofficial web transcription",
+      "url": "https://doczz.net/doc/6153932/cima-63-titel-inhalt",
+      "download_url": "https://doczz.net/download/6153932",
+      "result": "Initial response supplied publication identity and introductory context; indexed wind inventory flagged direction-label conflicts. Subsequent text navigation/direct fetch/download inaccessible or403; attribution notes not verified."
+    },
+    {
+      "number": 3,
+      "name": "Megenberg Buch der Natur intended primary-edition check",
+      "candidate_url": "https://de.wikisource.org/wiki/Das_Buch_der_Natur",
+      "pointer": "PartII chapter15, pp79-80, from an indexed older secondary study; exact cited edition not established here",
+      "result": "Web inaccessible; direct HTTP404. No primary edition text inspected, no exact causal verbal match verified."
+    }
+  ],
+  "secondary_navigation_only": [
+    {
+      "url": "https://dokumen.pub/die-briefe-und-predigten-des-mystikers-heinrich-seuse-gen-suso-nach-ihren-weltlichen-motiven-und-dichterischen-formeln-betrachtet-reprint-2021nbsped-9783112437728-9783112437711.html",
+      "use": "Search-result bibliographic pointer only, not primary evidence or adopted attribution."
+    }
+  ],
+  "cached_receipts": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/tuebingen_manifest.json",
+      "sha256": "f02936258d5c8daa92801d55fa11412ab009ad2bc954f4362a0d24e260ba3d2c",
+      "matches_original_external_receipt": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/md2_wind_inka_catalogue_c.html",
+      "sha256": "851da285cea3d79d72c68b83ca81ca26c8431520fac7dc98330bd8b8ed11842a",
+      "bytes": 174,
+      "meaning": "174-byte meta-refresh response only; no manuscript text"
+    }
+  ],
+  "new_source_images": 0,
+  "new_target_access": 0,
+  "new_raw_proposals": 0,
+  "idea_registry_mutation": false,
+  "prior_old_card_exposure_retained": true,
+  "publication": "Authored decision/report/receipt only; cached responses remain untracked."
+}

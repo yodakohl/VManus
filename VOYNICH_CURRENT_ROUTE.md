@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: New10hblock03:37:01-13:37:01UTC;581context-dependent regimen synopsis.
-Latest decision: Recipientcontrast source-supported;timebranch/omissions explicit;577closed.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/CONTEXT_SYNOPSIS_ROOT_DECISION.md.
+Task: New10hblock03:37:01-13:37:01UTC;581closed;review exact four-pair o hypothesis.
+Latest decision: 581actual local reuse66/156;90unparsed;0words;582source cause retained.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/CONTEXT_SYNOPSIS_ROOT_REVIEW.md.
 Assumptions: Whole156ZL/473all;no4blockmap/fixedpatient;0words;reservesclosed.
-Resume: A approved interface;wholefreeze05:30;root-first review then B;ceiling05:50UTC.
-Running: A581whole;root publication;B ready;C bounded LJS463 source producer.
+Resume: Publish581closure;read family primaries;approve bounded first contract only if useful.
+Running: A finishes family RAW;B/C idle;root closure and next selection.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
