@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1052**
-- Experiment-associated tracked files: **20,916** (1.9 GiB)
-- Structured GDT337+ experiments: **717**
+- Experiments indexed: **1053**
+- Experiment-associated tracked files: **20,925** (1.9 GiB)
+- Structured GDT337+ experiments: **718**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1054 | GDT1054 | `POST_SELECTED_OCCUPANCY_CALIBRATION_NO_MEANING` | [report](../experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/REPORT.md) | 9 | 19.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT1053 | GDT1053_capacity_diagnostic | `SPARSE_MIXED_CODE_CAPACITY` | [report](../experiments/yolo/gdt1053_chody_dry_local_baseline/REPORT.md) | 11 | 75.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT1052 | GDT1052 | `REJECTED_BY_PARAGRAPH_EDGE` | [report](../experiments/yolo/gdt1052_chody_source_frame_audit/REPORT.md) | 13 | 244.1 KiB | 6 | STRUCTURED_YOLO |
 | GDT1051 | GDT1051 | `FORMAL_REPLAY__INTERNAL_O_AND_WRAPPER_DISTINCTIONS_RETAINED_NO_MEANING` | [report](../experiments/yolo/gdt1051_frozen_grammar_local_application/REPORT.md) | 11 | 302.2 KiB | 10 | STRUCTURED_YOLO |

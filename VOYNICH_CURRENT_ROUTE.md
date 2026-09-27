@@ -4,12 +4,13 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Bounded f85r2 age/medical source comparison completed.
-Latest decision: Cambridge composite adds genre context, no target word owner.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/CAMBRIDGE_AGE_MEDICINE_COMPOSITE_20260927.md.
-Assumptions: GDT1043 target roles provisional; GDT1052/1053 do not bind chody.
-Resume: Seek an independently readable exact owner; do not score generic f85 analogies.
-Running: None. Prior ten-hour block remains interrupted.
+Task: GDT1054 post-selected f85r2 aiin four-block baseline complete.
+Latest decision: aiin recurrence is real but not a standalone meaning anchor.
+Working files: experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/REPORT.md.
+Assumptions: GDT1043 roles provisional; f85 text owner unbound; no confirmed lexeme.
+Resume: Seek a changed source-to-target binding; do not recycle f85 aiin, image
+analogy, Karlsruhe resolution or the parked f2v quantity route as a gloss.
+Running: None. Bounded idea producer returned no novel f85 card.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -8533,6 +8533,11 @@ GDT1042 inventories all four exposed spatial blocks without semantic labels:
 or aiin is a repeated bigram in ZL/RF with reader/spacing differences, not IT.
 No repeated trigram and no meaning binding. All tables and limits are in
 [GDT1042](experiments/yolo/gdt1042_f85r2_source_program_surface_census/REPORT.md).
+GDT1054's explicitly post-selected page-internal baseline finds that a complete
+form spans all four fixed blocks in 42.76–64.30% of whole-inventory shuffles;
+the observed `aiin` recurrence is therefore not a standalone meaning anchor.
+Its three reader fractions are alternate readings of one leaf, not independent
+replications. [GDT1054](experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/REPORT.md).
 GDT1042 opened no new Voynich image or reserve. GDT884's exact crib exclusion and
 the historical F85B001 nonconfirmation remain unchanged; source-role ambiguity
 does not retroactively rescue either fixed test. The following dated prior

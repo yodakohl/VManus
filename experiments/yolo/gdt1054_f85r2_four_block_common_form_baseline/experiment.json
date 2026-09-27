@@ -1,0 +1,79 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Post-selected within-page occupancy calibration only; no meaning, project-wide significance, or independent witness.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/src/validate.py"
+  },
+  "created": "2026-09-27",
+  "dependencies": [
+    "GDT1042"
+  ],
+  "experiment_id": "GDT1054",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+      "role": "frozen_exact_group_inventory",
+      "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "a2cc8596d425b257d765cca98b3e2dfd577e202c424dc690f914c663b2b456fa"
+    },
+    {
+      "path": "experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/METHOD.md",
+      "role": "reproducibility_artifact",
+      "sha256": "8a9b077c53c96e3ccacef0539628a338070da70d310f2f41cf0a4fbbb1d7e230"
+    },
+    {
+      "path": "experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/REPORT.md",
+      "role": "reproducibility_artifact",
+      "sha256": "080fd6a7e0c0a8f3f1fe1071237a2def5aec0f367c9d698c733dd4371cd33aa6"
+    },
+    {
+      "path": "experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/src/run.py",
+      "role": "reproducibility_artifact",
+      "sha256": "27cdb23439631090c39dbb1880b2538919c63d0ab42f1ff5ae2aa867b081f4a1"
+    },
+    {
+      "path": "experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/src/validate.py",
+      "role": "reproducibility_artifact",
+      "sha256": "c817b26c6dfda8ce31af48b715767b18f32164869df55fe573f5cf98e8baaccf"
+    },
+    {
+      "path": "experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/artifacts/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/artifacts/RESULT.json",
+      "role": "reproducibility_artifact",
+      "sha256": "2d07137d8bb66004c2195fb1dc2a49627b6bceb5c1011710ba14b69d774fb751"
+    },
+    {
+      "path": "experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/artifacts/VALIDATION.json",
+      "role": "reproducibility_artifact",
+      "sha256": "e33daa648375b978453b358d43c5ef0f7b9d1cbc2122554b180898755aeaeecb"
+    }
+  ],
+  "question": "Is aiin's four-block occurrence on f85r2 exceptional under its exact page count and a within-page whole-inventory shuffle?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f85r2_four_block_common_form_baseline",
+  "status": "POST_SELECTED_OCCUPANCY_CALIBRATION_NO_MEANING",
+  "title": "f85r2 four block common form baseline",
+  "updated": "2026-09-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1054_f85r2_four_block_common_form_baseline/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
