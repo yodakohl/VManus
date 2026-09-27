@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: New10hblock03:37:01-13:37:01UTC;close589;review588whole source next.
-Latest decision: 589retains33ZLlocal/4duties;412readerrowsoutside;0words.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/AUTUMN_SYNOPSIS_ROOT_RESULT.md.
+Task: New10hblock03:37:01-13:37:01UTC;588whole thunder/perception synopsis.
+Latest decision: 589partial closed;588all14source duties/all473rows selected.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/PERCEPTION_WHOLE_ROOT_DECISION.md.
 Assumptions: Same exposedVMS;numeric order assumed;0words;reservesclosed.
-Resume: Publish589 by09:26UTC;prospective588selection,notwordfilling.
-Running: Root589closure;A/Bidle;Cboundedowned-sourceidea supply.
+Resume: 588author freeze by10:19UTC;review/publish by10:44:34UTC.
+Running: Awholeauthor;root source/nextcontent;Cboundedsourceideas.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
