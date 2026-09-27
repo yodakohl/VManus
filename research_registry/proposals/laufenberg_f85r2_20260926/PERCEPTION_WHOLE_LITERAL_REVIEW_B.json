@@ -1,0 +1,71 @@
+{
+  "task": "Independent literal/accounting review of frozen IDEA000588 author packet",
+  "review_limit": "safe GDT1042 native_groups.tsv plus frozen PERCEPTION_WHOLE_AUTHOR files only; no target beyond safe table, no new source, semantic executor, registry, Git, image, reserve or contact",
+  "source_input": {
+    "path": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+    "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "rows": 473,
+    "original_fields": 12
+  },
+  "frozen_packet_hashes_confirmed": {
+    "PERCEPTION_WHOLE_AUTHOR_DRAFT.json": "9fdb98be7d5519896a8be5175cae55520b17ba646787b93c3973802942884e8c",
+    "PERCEPTION_WHOLE_AUTHOR_DRAFT.md": "9cf83006e9315550cd0ea8f68fc5ef3e98d26d046e52757c15d6dc224eb27e7b",
+    "PERCEPTION_WHOLE_AUTHOR_473_CONSEQUENCES.tsv": "e0893a2d53b7d5c6a1f8349775810b58574a16c988c4a1c4dedc578f84f6a56d",
+    "PERCEPTION_WHOLE_AUTHOR_REPORT.md": "288c9ca7061d663ccec48c3b246a055739fc676ac3998984b3839a42cf4b685f"
+  },
+  "checks": {
+    "all_473_rows_match_safe_table_first_12_fields_in_order": true,
+    "duplicate_group_ids": 0,
+    "safe_and_author_row_counts_by_edition": {"ZL3b": 156, "IT2a": 157, "RF1b": 160},
+    "loci_per_edition": 24,
+    "JSON_473_rows_exactly_match_TSV": true,
+    "previous_next_links_follow_per_edition_global_sequence": true,
+    "ZL_clause_count": 9,
+    "ZL_clause_group_sizes": {"C01": 11, "C02": 15, "C03": 9, "C04": 10, "C05": 14, "C06": 22, "C07": 26, "C08": 36, "C09": 13},
+    "ZL_group_ids_unique_and_complete": true,
+    "ZL_fragment_bounds_ids_literals_and_AST_literal_leaves_match_safe_table_in_order": true,
+    "lexicon_occurrence_lists_exactly_match_assigned_TSV_rows": true,
+    "all_assigned_values_and_types_match_exact_literal_lexicon": true,
+    "meaning_or_grammar_semantics_executed": false
+  },
+  "cost_accounting": {
+    "whole_form_entries": 115,
+    "distinct_type_labels": 78,
+    "declared_payload_units": 158,
+    "grammar_conventions": 38,
+    "scope_records": 8,
+    "retained_cuts": 0,
+    "retained_component_values": 0,
+    "terminology_note": "Receipt phrase '115 types bound' should be understood as 115 typed whole-form entries; only 78 distinct type labels occur."
+  },
+  "assigned_and_unassigned_counts": {
+    "assigned_total": 420,
+    "unassigned_total": 53,
+    "ZL3b": {"assigned": 156, "unassigned": 0, "status": "author_manual_whole_candidate"},
+    "IT2a": {
+      "assigned_literal_values_only": 136,
+      "full_reader_derivation": false,
+      "unassigned_literal_rows": 21,
+      "distinct_unassigned_forms": 21,
+      "unassigned_forms": ["aiinog", "air", "ch?s", "chokcod", "ckhedy", "csedy", "lkech?", "ockhdor", "odchdy", "ofaiin", "olkor", "oloeorain", "opoees", "opoiin", "otadar", "otchdo", "otedar", "qopchchs", "qoseey", "qtchedy", "sosees"]
+    },
+    "RF1b": {
+      "assigned_literal_values_only": 128,
+      "full_reader_derivation": false,
+      "unassigned_literal_rows": 32,
+      "distinct_unassigned_forms": 30,
+      "unassigned_forms": ["@221;iin", "@221;l", "@221;laiin", "air", "ch@152;s", "chcph@152;ar", "che@152;y", "chot{co}g", "ckhe@152;y", "eey", "lkechch", "oche@152;y", "odee@152;y", "ofaiin", "ol@176;ar", "opoees", "ot@221;dar", "otche@152;y", "ote@152;y", "otedas", "oto@152;y", "qo@152;ain", "qo@152;ar", "qoke@152;y", "qose", "she@152;y", "sosees", "yfshe@152;y", "{ch'}edy", "{ch'}eos"]
+    }
+  },
+  "fixed_template_obstacles_confirmed_as_separate_from_unknowns": [
+    {"reader": "IT2a", "locus": "f85r2.1", "group": "G007", "literal": "otedy", "assigned_value": "FIRST", "fixed_ZL_C01_position": "GENERATED"},
+    {"reader": "IT2a/RF1b", "locus": "f85r2.20", "group": "G001", "literal": "ar", "assigned_value": "GENITIVE", "fixed_ZL_C08_position": "COORDINATE (ZL literal or)"},
+    {"reader": "IT2a/RF1b", "locus": "f85r2.24", "literal_tail": "ar ar am", "assigned_values": ["GENITIVE", "GENITIVE", "BECAUSE"], "fixed_ZL_tail": "ar aram", "normalization_or_new_aram_meaning": false}
+  ],
+  "review_limitations": [
+    "Exact serialization and manual AST literal leaves do not establish semantic derivation validity.",
+    "No semantic grammar execution, source validation or historical meaning confirmation was performed.",
+    "The fixed-template clashes do not rule out wholly different alternate parses.",
+    "The three readers are variants of one manuscript, not independent witnesses."
+  ]
+}
