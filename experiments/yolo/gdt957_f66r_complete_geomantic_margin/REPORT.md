@@ -54,3 +54,38 @@ Alle65536 möglichen Mutterkombinationen wurden vollständig erzeugt. Jedes glei
 Die32 vollständigen Rechnungen werden als bedingte Lesungskandidaten behalten. **Keine Figurenzuordnung wird als Arbeitsübersetzung übernommen.** Eine Fortsetzung benötigt eine zusätzliche, separat festgelegte Konsequenz für gerade diese Wörter oder einen weiteren vollständig abgegrenzten Rechengang mit derselben Zuordnung. Eine weitere15er-Zählung, ein schöner formulierter Kandidat oder die Wahl nach Neustart-Einigkeit ändern die Entscheidung nicht. Die zunächst erwogene15-Wort-Absatzsuche wurde nicht durchgeführt.
 
 Die unabhängige Implementierung erzeugt alle65536 Rechnungen erneut mit Bitvektoren und prüft Quellprojektionen, sechs Fälle, sämtliche Kandidaten, Positionsmengen und komprimierte Tabellen: [VALIDATION.json](artifacts/VALIDATION.json), PASS ohne Abweichung. Auch die Umbenennungsinvarianz wurde kontrolliert. Diese Validierung prüft Rechen- und Datenkorrektheit, keine Manuskriptbedeutung. Ein einziges bereits exponiertes physisches Blatt bietet0 unabhängige Bestätigungsblätter; die drei Transkriptionen zählen nicht als Replikationen. Keine Signifikanzbehauptung, keine Reservenöffnung, keine Änderungen alter Experimente.
+
+## Nachträgliche Kapazitätsprüfung einer zweiten Liste (2026-09-27)
+
+Diese Prüfung wurde **nach** GDT957 und nach Kenntnis seiner15 Formen
+ausgewählt. Sie ist kein neuer registrierter Zieltest und ändert dessen
+ursprüngliche Entscheidung nicht. Eine zweite vollständig beschriftete
+Rechnung könnte die32 IT2a-Kandidaten nur dann durch gleiche Wortwerte
+einschränken, wenn hinreichend viele ihrer **ganzen** Figurenwörter erneut
+in einem erkennbaren Rechenregister vorkämen.
+
+`./vmanus-work words profile rary rals qor dara ykcol syly salf fary qotesy ykaly daoly raiin qokal qolsa raral --json`
+wertet den guarded aufgebauten179-Selektoren-Cache aus. In IT2a haben
+`rals`, `dara`, `ykcol`, `syly`, `salf`, `fary`, `qotesy`, `daoly` und
+`qolsa` dort jeweils **genau ein** Vorkommen: ihre f66r-Randposition.
+Die anderen sechs Formen kommen insgesamt4,22,5,71,177 und2 Mal vor
+(`rary`, `qor`, `ykaly`, `raiin`, `qokal`, `raral`). Jede der15 Formen
+hat im selben Cache genau **ein** L-Vorkommen, außer `qokal` mit zwei.
+Diese Zahlen sind getrennte IT2a-Befunde, keine Addition dreier Leser.
+
+Der bereits guarded publizierte [GDT791-Vorkommensatlas](../gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5866_OCCURRENCE_SPINE.tsv)
+zeigt in seiner ZL3b-Schicht zusätzlich verstreute lokale exakte Formen:
+`ykaly` f67r2.9 (Radialfeld), `raiin` f70v1.1 (Radialfeld) und
+`dara` f75r.49 (Becken-/Apparatseite). Die Atlas-Zuordnung gibt diesen
+Einträgen ausdrücklich null semantischen Export und nur Seitenkontext,
+keinen eindeutig benannten Figurenwert. Sie bilden auch keine zweite
+zusammenhängende15er-Rechnung. Die IT2a-Zählung und die ZL3b-Atlaszeilen
+sind verschiedene Sichten auf dieselbe Handschrift; ihr Unterschied wird
+nicht zu einem gemeinsamen exakten Treffer umgedeutet.
+
+Damit ist der konkrete Weg einer *zweiten beschrifteten Liste mit demselben
+Wortschlüssel* in den geprüften Beständen ohne Kapazität. Das widerlegt
+weder Geomantie als Inhalt noch jede semantische Verwendung einzelner Formen.
+Eine generische15-Wort-Absatzsuche wäre keine unabhängige zweite Rechnung;
+GDT957s ursprüngliche32 Zuordnungen bleiben ungewählt. f84/f84r und die
+Bestätigungsreserve blieben geschlossen.

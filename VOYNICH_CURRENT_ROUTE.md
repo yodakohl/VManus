@@ -5,12 +5,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: checkpoint
 Task: Seek an independently bound content contrast.
-Latest decision: GDT1056 no visible repair; local layout pressure possible.
-Harley2375 is a catalog-only genre parallel, not a word key.
-Working files: GDT1056 REPORT; Laufenberg EXTERNAL_SOURCES.
+Latest decision: GDT957 post-hoc second-list screen lacks shared calculation;
+32 geomancy keys remain. GDT1056 spacing has no semantic binding.
+Working files: GDT957 REPORT; Laufenberg EXTERNAL_SOURCES.
 Assumptions: GDT822/823 fire/source C0; f85r2 season/age C0;0 confirmed words.
 Resume: Seek an author-visible text/referent link with contrasting values;
-avoid GDT1055 recurrence, f75v repair rerun and thematic-only source matching.
+avoid GDT1055 recurrence, f75v repair rerun, geomancy list mining.
 Running: None. Ideas610/611 parked;612 tested;613 raw unreviewed.
 
 ## Structural baseline

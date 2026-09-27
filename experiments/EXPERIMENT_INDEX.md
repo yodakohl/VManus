@@ -119,7 +119,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT960 | GDT960_behenian_complete_plant_incidence | `COMPLETE_FIXED_PLANT_INCIDENCE_SCREEN` | [report](../experiments/yolo/gdt960_behenian_complete_plant_incidence/REPORT.md) | 28 | 1.8 MiB | 6 | STRUCTURED_YOLO |
 | GDT959 | GDT959_geomantic_element_remainder | `POST_EXPOSURE_LOCAL_CLASS_HYPOTHESIS_UNIDENTIFIED` | [report](../experiments/yolo/gdt959_geomantic_element_remainder/REPORT.md) | 23 | 2.0 MiB | 2 | STRUCTURED_YOLO |
 | GDT958 | GDT958_wind_fixed_form_variation | `NO_ADDED_REFERENCE_NO_MEANING_GAIN` | [report](../experiments/yolo/gdt958_wind_fixed_form_variation/REPORT.md) | 25 | 703.4 KiB | 5 | STRUCTURED_YOLO |
-| GDT957 | GDT957_f66r_complete_geomantic_margin | `COMPATIBLE_CONDITIONAL_READING_UNIDENTIFIED` | [report](../experiments/yolo/gdt957_f66r_complete_geomantic_margin/REPORT.md) | 22 | 710.2 KiB | 3 | STRUCTURED_YOLO |
+| GDT957 | GDT957_posthoc_second_list_capacity | `NO_SECOND_SHARED_CALCULATION_IN_CHECKED_CACHES` | [report](../experiments/yolo/gdt957_f66r_complete_geomantic_margin/REPORT.md) | 22 | 712.4 KiB | 3 | STRUCTURED_YOLO |
 | GDT956 | GDT956_f66r_contextual_marginal_reading | `CONTEXTUAL_HYPOTHESES_RETAINED_NO_COMPLETE_READING` | [report](../experiments/yolo/gdt956_f66r_contextual_marginal_reading/REPORT.md) | 17 | 38.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT955 | GDT955 | `R16_CONTRADICTED_BY_RECOVERED_LATER_WITNESSES__ARCHETYPE_UNKNOWN` | [report](../experiments/yolo/gdt955_picatrix_lacuna_external_witness/REPORT.md) | 17 | 36.7 KiB | 1 | STRUCTURED_YOLO |
 | GDT954 | GDT954 | `NO_SHARED_SEVEN_RECORD_REFRAIN__RF_NO_PARAGRAPH_CAPACITY` | [report](../experiments/yolo/gdt954_shared_invocation_refrain/REPORT.md) | 20 | 1.9 MiB | 2 | STRUCTURED_YOLO |
