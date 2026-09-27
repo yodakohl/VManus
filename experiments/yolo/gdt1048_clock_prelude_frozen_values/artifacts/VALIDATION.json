@@ -1,0 +1,147 @@
+{
+  "experiment_id": "GDT1048",
+  "status": "PASS",
+  "semantic_confirmation": false,
+  "independence": "Separate validator author; no runner source read or imported.",
+  "coverage": {
+    "complete_units": 2,
+    "target_positions": 63,
+    "unchanged_lexical_objects": 33,
+    "guarded_f111r_rows": 1855
+  },
+  "summary": [
+    {
+      "edition": "ZL3b",
+      "groups": 32,
+      "types": 28,
+      "old_types": [
+        "chckhy",
+        "lkeedy",
+        "qokaiin",
+        "qokeey"
+      ],
+      "old_positions": 6,
+      "new_types": [
+        "chckhal",
+        "cheal",
+        "chedy",
+        "cheekain",
+        "chepcham",
+        "daim",
+        "dcheey",
+        "k[ee:ei]l",
+        "keeey",
+        "keeor",
+        "l",
+        "lchedy",
+        "lfchy",
+        "lkal",
+        "lkeey",
+        "okeey",
+        "ol",
+        "poeokeey",
+        "qockhey",
+        "qokain",
+        "qokeedy",
+        "qokeeokain",
+        "shecthy",
+        "tedain"
+      ],
+      "new_type_count": 24,
+      "new_positions": 26,
+      "new_value_cap": 18,
+      "excess": 6,
+      "verdict": "FIXED_LEXICAL_CAPACITY_EXCEEDED"
+    },
+    {
+      "edition": "IT2a",
+      "groups": 31,
+      "types": 26,
+      "old_types": [
+        "chckhy",
+        "lkeedy",
+        "qokaiin",
+        "qokeey"
+      ],
+      "old_positions": 6,
+      "new_types": [
+        "chckhal",
+        "cheal",
+        "cheekain",
+        "chepcham",
+        "daim",
+        "dcheey",
+        "keeey",
+        "keel",
+        "keeor",
+        "lchedy",
+        "lfchy",
+        "lkal",
+        "lkeey",
+        "okeey",
+        "ol",
+        "poeokeey",
+        "qockhey",
+        "qokain",
+        "qokeedy",
+        "qokeeokain",
+        "shecthy",
+        "tedain"
+      ],
+      "new_type_count": 22,
+      "new_positions": 25,
+      "new_value_cap": 18,
+      "excess": 4,
+      "verdict": "FIXED_LEXICAL_CAPACITY_EXCEEDED"
+    }
+  ],
+  "alternate_reading_limits": {
+    "RF1b": "No matching whole cached unit",
+    "ZL3b_uncertain_whole": "k[ee:ei]l preserved; not collapsed to IT2a keel",
+    "segmentation": "ZL3b l + chedy remains distinct from IT2a lchedy",
+    "anchor_eligibility": "All original per-line eligibility flags retained without promotion"
+  },
+  "mutation_checks": [
+    "missing_position_rejected",
+    "collapsed_new_type_rejected",
+    "changed_old_value_rejected",
+    "normalized_uncertain_form_rejected"
+  ],
+  "parent_prior_profile_validation": {
+    "profile_reader_cells": 99,
+    "profiles": 33,
+    "verified_fields": [
+      "count",
+      "rank",
+      "pages_with_form",
+      "pages_total",
+      "positions",
+      "repetition",
+      "strata.kind",
+      "hypothesis_value",
+      "hypothesis_type"
+    ],
+    "not_reverified": [
+      "strata.section",
+      "strata.currier",
+      "strata.hand"
+    ],
+    "reason_for_limit": "Those metadata fields are absent from the existing GDT1047 projection; no broader source query was made.",
+    "profiles_sha256": "cd7ef6645c53809a425d1bd263a54ae25aafab7098377a6b1aacd3c94f8f840b",
+    "projection_sha256": "a57cfa8b396cbe05fe87fa6fb5a9b72d0dd336c23a6876c74a8576ac9135bbd9",
+    "projection_receipt_sha256": "28d5f2c3b44e02d18d712b2b6d21f79e2d6e0fdb4853dec26e7eb23ee3cd6ce0",
+    "meaning": "Independent descriptive recount, not a likelihood or semantic prior calibration."
+  },
+  "source10_sha256": "a589b8bda5b1c8e0497bfe2d36dd244d3a081d09071db8e8565dd95134d10af7",
+  "guarded_projection_sha256": "3260f964d60935baa2b2599954f95d038436c77a0b3b62f05a686a6237e182c4",
+  "registered_lock_sha256": "debe84c65d955ca0a32400b0449dedcb10aa19228809e79b68778f65499838c6",
+  "artifact_sha256": {
+    "TARGET.json": "aa0f4fc92c28b0a9177ec38c864932c6812367bd62aa94b88f1ea204e104aeb5",
+    "ALL_POSITIONS.json": "1974877d3b8f699d6668eb90a69718de1b5078bcda11aaaf9de12910a77b0b5c",
+    "FROZEN_LEXICON.json": "5d9b734aa44640170e169270d297399ee90caa036fdba4cf00fe5eb77747f4ed",
+    "SOURCE10.json": "81e53a69bdb46fda68d6eea9122ccafea075c05162fe50956eb1c3ebd8090800",
+    "RESULT.json": "ec6635ee5b31823a902108359108cf68220c6e4675f9249e25b18d82f8b69b61"
+  },
+  "validator_sha256": "097b1407ccfe77e421b3f1e1cca0fa0d83c70ca222dd5b901329b7f5fa7a3240",
+  "ceiling": "Verifies lexical development capacity only; no semantic execution, historical translation or global clock rejection."
+}

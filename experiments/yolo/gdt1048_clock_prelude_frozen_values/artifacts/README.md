@@ -1,0 +1,3 @@
+# Artifacts
+
+RESULT:completecapacity/sourceguardreceipt; TARGET:bothexactwholeGDT928records; ALL_POSITIONS:all63rawgroupswitholdvaluesorunknown; FROZEN_LEXICON:all33unchangedRAW503objects; SOURCE10:exactoldownedsourceoptionincludingitshistoricalstatus; VALIDATION:independentaccounting.
