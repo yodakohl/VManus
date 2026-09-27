@@ -1,0 +1,48 @@
+{
+  "record_id": "IDEA000612",
+  "scope": "method",
+  "verdict": "nonconfirming",
+  "reviewer": "root post-hoc line-position audit after GDT1056",
+  "reason": "The registered visible-repair decision remains nonconfirming. The later f75v.44 joined form is closer to line end than the split form, but a post-decision census of GDT850 saved hits shows no overall descriptive joined enrichment at tail <= 2. This does not rule out local layout pressure or establish semantic intent.",
+  "assessment_basis": "registered_aware_native_source_inspection_plus_declared_posthoc_saved_hit_audit",
+  "evidence": [
+    "experiments/yolo/gdt1056_f75v44_visible_repair_capacity/PREREGISTRATION.md",
+    "experiments/yolo/gdt1056_f75v44_visible_repair_capacity/REPORT.md",
+    "experiments/yolo/gdt1056_f75v44_visible_repair_capacity/artifacts/RESULT.json",
+    "experiments/yolo/gdt852_f75v_native_join_split_spacing/REPORT.md",
+    "experiments/yolo/gdt850_qolchedy_join_split_context_inventory/artifacts/HITS.json"
+  ],
+  "blockers": [
+    {
+      "code": "no_visible_repair_trace",
+      "detail": "No erasure, overwrite, insertion, ink break or displaced baseline was identifiable relative to same-line controls; silent copying variation remains untestable by this check.",
+      "evidence": [
+        "experiments/yolo/gdt1056_f75v44_visible_repair_capacity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_data",
+        "description": "A genuinely sharper or materially different physical source image revealing a correction trace at the fixed group."
+      }
+    ],
+    "not_sufficient": [
+      "Another inspection of unchanged pixels",
+      "Treating spacing difference alone as visible repair",
+      "Assuming different meaning from the absence of repair"
+    ]
+  },
+  "relations": [
+    {
+      "type": "tests",
+      "target": "GDT1056"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT852"
+    }
+  ]
+}
