@@ -9,7 +9,7 @@ Latest decision: 569formal gaps retained;572selected for two-layer composition.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/PLANET_CHILD_ROOT_AUTHORING_DECISION.md.
 Assumptions: Md2wholeconclusion fixed;Berlinvariant separate;oldglosses/reservesclosed.
 Resume: Freeze572components then whole4blocks;review/publish by03:04UTC.
-Running: 572author;rootBerlin nativecheck;source-parallelproducer.
+Running: 572author due02:39;rootreview;boundednext-mechanismproducer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
