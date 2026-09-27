@@ -1,0 +1,23 @@
+# IDEA000582: bounded check of outside fixed-interface occurrences
+
+I read the frozen first contract, the owned GDT1042 projection, and `WIND_TRANSIT_FIRST_ROOT_REVIEW.md` as explicitly directed. The specific `.13` observation below was supplied by root before my check, so this is an informed verification, not an independent discovery. I did not inspect new target data/images, change any author file, or make a global search. The accompanying `WIND_TRANSIT_OUTSIDE_BINDER_REF_B.tsv` lists all projected occurrences of the contract's wind/land/deictic binders and reference terminals.
+
+## Exact `.13` interface result
+
+For ZL3b and IT2a, f85r2.13 G001–G002 are the literal groups `or shedy`, both assigned by the frozen contract as `ASSERT_MARK` and `LAND_DESCRIPTION_REF`. The fixed interface gives `ASSERT_MARK : Assertable -> same sort`, with `Assertable = Proposition | PropertyClause | TraversalClause`. `LAND_DESCRIPTION_REF` has type `DescriptionRef[LandRegion]`. The second group therefore is not an argument in the declared domain of `or`. The sequence has no intervening pair constructor or other constructor that could consume the description reference.
+
+No G01–G22 context completion repairs this direct mismatch. G01 admits declarations/assertables as statements; G04/G14 build products only at an explicit infix/prefix product token; G10/G12 require a traversal constructor; G22 forbids unknown higher-order swallowing. Instantiating `or` as a function on `DescriptionRef`, treating the reference as function data, adding a cast, or changing `shedy`'s value would change the frozen interface. G22's allowance for later ordinary terminals in existing signatures does not alter these two fixed bindings or the argument domain. This is a definite failure of direct fixed-template composition at these two occurrences, not evidence that the source proposition is false and not a proof that every possible grammar/reading is impossible.
+
+RF1b does not supply `shedy` at `.13`; its group 2 is the unresolved raw form `{ch'}edy`, so I do not transfer the ZL/IT typed mismatch to RF. The opening `or` there remains assigned but unparsed; an unknown later value could be given an allowed ordinary signature in a prospective continuation, subject to the frozen grammar, but no such value or parse is established here.
+
+## Binder/reference availability in the alternate rows
+
+The occurrence table independently confirms that the only `INTRODUCE_LAND_HOLDER` occurrence is ZL3b `.20` G003 (`ckhed[a:y]`), while `LAND_DESCRIPTION_REF` is assigned at ZL `.13/.20/.21/.22`, IT `.13/.20/.22`, and RF `.21`. Under the frozen binder policy, IT and RF have no `ckhed[a:y]` occurrence to initialize the land-description register; their assigned `shedy` reads are therefore undefined under the fixed register semantics, independent of any cross-block ordering choice. ZL's `.13` reference may or may not be after the `.20` land introduction because numeric/spatial blocks do not establish page order; in either case it remains ill-typed as the operand to `or`.
+
+Likewise, `HERE_AMONG_US` (`qose?y`) occurs only in ZL `.22` G005. `US_REF` (`sheoly`) occurs in all three readers at `.23` G005. Thus IT/RF have no explicit binder for U/P under the frozen policy, and those fixed `US_REF` reads cannot be resolved there. Their `og`/wind-holder and wind-entity references are separately listed in the table; the explicit `okees` wind introductions occur in all readers at `.18` and `.24`, but no page-wide order is inferred from the block numbers. Missing fixed binder occurrences are direct consequences for these registers, not evidence that every whole-page account fails.
+
+## Consequence for a continuation
+
+The local ZL `.18–.23` west derivation is unaffected. A continuation under unchanged meanings/interface may record the `.13` ZL/IT mismatch and IT/RF missing-register reads as unparsed/undefined obligations. It cannot claim all assigned literals parse, nor use a newly invented operator/cast/register writer to erase them. Whether to continue the broader source synopsis is a scope decision, not a license to repair these known rows. The exact packet permits the fixed local application and does not permit a complete direct parse of these cited outside applications.
+
+The relevant exact inputs are the frozen contract JSON (`44544a0fe6718b805e97aa1b466228ce7c2c5d098cd5dc387bf4c4e7ddae5b31`), the safe projection (`e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c`), and frozen root review read after it was sent (`WIND_TRANSIT_FIRST_ROOT_REVIEW.md`). The first-contract replay files remain unchanged.

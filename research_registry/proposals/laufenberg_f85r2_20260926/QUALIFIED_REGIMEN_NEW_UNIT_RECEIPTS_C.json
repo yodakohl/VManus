@@ -1,0 +1,115 @@
+{
+  "status": "FROZEN_NEW_LOCATOR_NATIVE_ACCESS_GAP_ZERO_RAW",
+  "started_utc": "2026-09-27T07:21:16+00:00",
+  "frozen_utc": "2026-09-27T07:27:08.357713+00:00",
+  "deadline_utc": "2026-09-27T08:06:16+00:00",
+  "maximum_budget_seconds": 2700,
+  "elapsed_seconds": 352.357713,
+  "context": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "context topic pictures"
+  ],
+  "web_queries": [
+    {
+      "query": "site:ub.uni-heidelberg.de \"cpg226\" \"Gesundheit\"",
+      "result": "No search results; no absence inference."
+    },
+    {
+      "query": "site:ub.uni-heidelberg.de \"Hausbuch\" \"Tagesregimen\"",
+      "result": "No search results; no absence inference."
+    },
+    {
+      "query": "site:digi.ub.uni-heidelberg.de/diglit/cpg226 \"77r\"",
+      "result": "No useful exact226result; institutional575metadata returned and became second witness lead. Other unrelated hits ignored."
+    },
+    {
+      "query": "\"Cod. Pal. germ. 226\" site:digi.ub.uni-heidelberg.de/diglit",
+      "result": "No useful exact digitization result; unrelated hits not used."
+    }
+  ],
+  "direct_catalogue_open": "https://www.ub.uni-heidelberg.de/digi-pdf-katalogisate/sammlung2/werk/pdf/cpg226.pdf",
+  "catalogue_open_result": "Web-tool PDF text succeeded;8pages/470extracted lines. Native manuscript not viewed.",
+  "leads": [
+    {
+      "witness": "Cpg226",
+      "catalogue": "https://www.ub.uni-heidelberg.de/digi-pdf-katalogisate/sammlung2/werk/pdf/cpg226.pdf",
+      "viewer": "https://digi.ub.uni-heidelberg.de/diglit/cpg226",
+      "locator": "77r–78r Gesundheitsregimen attributed to Galienus; declared prospective faces77r,77v,78r",
+      "native_selected_if_official_delivery_established": true,
+      "native_acquired": false
+    },
+    {
+      "witness": "Cpg575",
+      "institutional_search_result": "https://digi.ub.uni-heidelberg.de/diglit/cpg575/0025?navmode=struct",
+      "locator": "76v–77r diet/bath/bloodletting material, search metadata only",
+      "native_selected": false,
+      "native_acquired": false
+    }
+  ],
+  "metadata_searches": [
+    {
+      "query": "Cpg226 Galienus nine health regimen",
+      "limit": 5,
+      "ids": [
+        "HIST:6c28a46d388d9844",
+        "IDEA000532",
+        "HIST:dee7e6a93fbc49af",
+        "HIST:5c00d83adb87d54b",
+        "IDEA000580"
+      ]
+    },
+    {
+      "query": "Cpg226 77r 78r",
+      "limit": 5,
+      "ids": []
+    }
+  ],
+  "cache_filename_check": {
+    "directory": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache",
+    "globs": [
+      "*226*",
+      "*575*",
+      "*heidelberg*"
+    ],
+    "result": "No matching filenames; no broader filesystem search."
+  },
+  "locator_receipt": {
+    "file": "research_registry/proposals/laufenberg_f85r2_20260926/QUALIFIED_REGIMEN_LOCATOR_RECEIPT_C.json",
+    "sha256": "b3782729f9241ddda8f53a4804df8c1fa84d9c0880e888708e6f81a76f0d437a",
+    "contains": "Exact heading/incipit/explicit as catalogue extraction, date/provenance locus, neighboring units, wording uncertainty, exactviewer URLs/denial messages and unknownHTTPstatus."
+  },
+  "counts": {
+    "targeted_web_queries": 4,
+    "witness_leads": 2,
+    "prospective_selected_native_units": 1,
+    "native_units_read": 0,
+    "source_image_batches_attempted": 0,
+    "source_images_fetched": 0,
+    "new_RAW": 0,
+    "candidate_files": 0,
+    "CLI_mutations": 0,
+    "target_payloads": 0,
+    "target_images": 0,
+    "executors": 0
+  },
+  "stop": "Both new institutional viewers returned Anubis access-denied HTML. No published manifest/image URL or already delivered manifest found within allowed scope. No retry, bypass, reverse proxy, extraquery/witness, guessedAPI/imagepath or source absence claim. Root requested no further request; respected.",
+  "scientific_disposition": "Exact new whole-unit locator retained; internal medical/conduct relation unread and unassessed. Source delivery gap, not failure or absence of suitable content and not a target test. No new primitive or target role mapping.",
+  "exposure": "Institutional catalogue and search/viewer metadata only plus route/topic and bounded idea IDs/titles. Prior project/old-card exposure persists. No WIND_TRANSIT author/audit packet or old target-card payload.",
+  "prior_files_changed": false,
+  "registry_lock": "Embargo respected, no CLIwindow requested because no source-backed card exists.",
+  "ledger_state_route_refresh_git": false,
+  "artifacts": [
+    {
+      "file": "research_registry/proposals/laufenberg_f85r2_20260926/QUALIFIED_REGIMEN_NEW_UNIT_DECISION_C.md",
+      "sha256": "edd6e3655a044d0718b97f525646adb1354a92a7ad1e8154a9eeabf5f117fef7"
+    },
+    {
+      "file": "research_registry/proposals/laufenberg_f85r2_20260926/QUALIFIED_REGIMEN_NEW_UNIT_C.md",
+      "sha256": "7f8577c26d99e3c14acb069a24b25c78b5a87e5da70ff92f7118eccb0d35cc73"
+    },
+    {
+      "file": "research_registry/proposals/laufenberg_f85r2_20260926/QUALIFIED_REGIMEN_LOCATOR_RECEIPT_C.json",
+      "sha256": "b3782729f9241ddda8f53a4804df8c1fa84d9c0880e888708e6f81a76f0d437a"
+    }
+  ]
+}
