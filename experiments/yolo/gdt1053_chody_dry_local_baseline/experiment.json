@@ -1,0 +1,97 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional descriptive calibration of the inherited DRY working gloss only; no independent semantic proof, significance, SUN, preparation, or translated word.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1053_chody_dry_local_baseline/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1053_chody_dry_local_baseline/src/validate.py"
+  },
+  "created": "2026-09-27",
+  "dependencies": [
+    "GDT623",
+    "GDT663",
+    "GDT928",
+    "GDT1052"
+  ],
+  "experiment_id": "GDT1053",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "locked_prior_complete_paragraph_bank",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "experiments/yolo/gdt623_temperament_orientation_frequency/artifacts/STATE_WORD_AUDIT.tsv",
+      "role": "inherited_chody_dry_claim_and_baseline",
+      "sha256": "fdefaf9a6948bfcc1230e5f5677dbfd206c01b029e23a19bed178e3a8399da46"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/METHOD.md",
+      "role": "reproducibility_artifact",
+      "sha256": "6876a058c7cbce0b26e8bf8160e991e64962222fc0e8f951244a763b0877847b"
+    },
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/PREREGISTRATION.md",
+      "role": "reproducibility_artifact",
+      "sha256": "89c3bdbeced0e39d077e434da701b55951ffb903e69141ea8cfa0c596477cb83"
+    },
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/PREREG_LOCK.json",
+      "role": "reproducibility_artifact",
+      "sha256": "7067f172f1be5cf3130692f2038a0f1d18108e109762c8bfd7183b00efa49b46"
+    },
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "823d8266ec438ba3fbb644b92bd80fa1003c99bbc4378cccb2c52a7dfde12556"
+    },
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/REPORT.md",
+      "role": "reproducibility_artifact",
+      "sha256": "d8bd40f15c8b1e49f12f322a89a7e39fc659db8630d8d4a708841bce22b60104"
+    },
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/artifacts/README.md",
+      "role": "reproducibility_artifact",
+      "sha256": "cebd5f56eca3f14d17de841b2d600786508407c9e78ca7e4ad028e439d7ead07"
+    },
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/artifacts/RESULT.json",
+      "role": "reproducibility_artifact",
+      "sha256": "f8272dd92e7d084a1a17f1d3c05094ccbd35e4ee0ea194884f2e23bddf485fca"
+    },
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/artifacts/VALIDATION.json",
+      "role": "reproducibility_artifact",
+      "sha256": "165ad03c67aeca2020985dddbe1ecf50326069320d2e3664aee99d1553b01947"
+    },
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/src/run.py",
+      "role": "reproducibility_artifact",
+      "sha256": "89cb1476ce8ec944c8d836cf16552e749ba069d1db68b2266ad020ef7ce25280"
+    },
+    {
+      "path": "experiments/yolo/gdt1053_chody_dry_local_baseline/src/validate.py",
+      "role": "reproducibility_artifact",
+      "sha256": "d0728baeb06a3a5993d67c2187d2e4bd3ccdfe79391a42bfd774a8c6c639fc5d"
+    }
+  ],
+  "question": "Does exact chody show a dry-code preference beyond same-paragraph five-character whole-word controls under the inherited strict quality-code assignment?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "chody_dry_local_baseline",
+  "status": "DOWNGRADE_TO_WEAK_CONTEXTUAL",
+  "title": "chody dry local baseline",
+  "updated": "2026-09-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1053_chody_dry_local_baseline/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

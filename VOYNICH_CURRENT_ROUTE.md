@@ -4,11 +4,11 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1052 fixed `chody` source-frame audit completed.
-Latest decision: Strict global X chody Y fails at f88v.20 paragraph end.
-Working files: experiments/yolo/gdt1052_chody_source_frame_audit/REPORT.md.
-Assumptions: DRY class remains a working rival, not a translated word; SUN unbound.
-Resume: Seek a whole-passage relation beyond strict FROM; keep f88v edge as countercase.
+Task: GDT1053 `chody` dry-prior calibration completed.
+Latest decision: Dry base-rate cannot anchor chody; local code contrast sparse; DRY weak.
+Working files: experiments/yolo/gdt1053_chody_dry_local_baseline/REPORT.md.
+Assumptions: Strict global FROM failed GDT1052; DRY not confirmed; SUN unbound.
+Resume: Seek independently bound whole-passage meaning; no chody dry/source shortcut.
 Running: None. Prior ten-hour block remains interrupted.
 
 ## Structural baseline
