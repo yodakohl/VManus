@@ -1,0 +1,112 @@
+{
+  "status": "FROZEN_EDITION_METADATA_AND_POSSIBLE_WITNESS_LOCATOR_ONLY",
+  "started_utc": "2026-09-27T06:13:50+00:00",
+  "finished_utc": "2026-09-27T06:18:11+00:00",
+  "elapsed_seconds": 261.0,
+  "budget_seconds": 1800,
+  "budget_includes": "decision, metadata, search, access, report, receipt; query/lead ceiling reached before wall-time ceiling",
+  "source_decision": "PHYSICIAN_EXACT_WITNESS_DECISION_C.md",
+  "source_report": "PHYSICIAN_EXACT_WITNESS_C.md",
+  "owned_source_reports": [
+    {
+      "file": "research_registry/proposals/laufenberg_f85r2_20260926/REGIMEN_CONTEXT_SOURCE_RESULT.md",
+      "sha256": "9f31a79bb38f16b5528716b2b44c52214ecc41d636e8aec6dd03b49c3b37b9b4"
+    },
+    {
+      "file": "research_registry/proposals/laufenberg_f85r2_20260926/REGIMEN_CONTEXT_ROOT_FIRST_NATIVE.md",
+      "sha256": "5d053fda07aecef3da5a3da3db81a13666da7a6f2b18ea77d4cfc5fe90ca63d0"
+    },
+    {
+      "file": "research_registry/proposals/laufenberg_f85r2_20260926/KARLSRUHE_CONTEXT_ROOT_CHECK.md",
+      "sha256": "8ab22d889e3401ee1232bf64298088867389affd414af7f0311aac85d5f2b9db"
+    }
+  ],
+  "metadata_navigation": [
+    {
+      "command": "./vmanus-work context topic composition",
+      "purpose": "retain structural/formal-role limits"
+    },
+    {
+      "command": "./vmanus-work ideas search 'Laufenberg physician edition temporal witness' --limit 6",
+      "handling": "navigation only; source reports read as specified, no old target-card bodies"
+    },
+    {
+      "command": "./vmanus-exp route-check 'Laufenberg physician edition temporal witness'",
+      "handling": "unrelated temporal/edition experiment titles not treated as relevant source predecessors"
+    }
+  ],
+  "web_queries": [
+    "\"Heinrich von Laufenberg\" \"Regimen sanitatis\" Edition",
+    "\"Das ander zeitte\" \"schade\"",
+    "\"Deinen mantel\" \"Laufenberg\"",
+    "\"Menge\" \"Regimen\" \"1976\" \"Laufenberg\" digital",
+    "\"Deinen mantel\" \"keren\"",
+    "\"C 102b\" site:e-codices.unifr.ch"
+  ],
+  "query_count": 6,
+  "direct_leads": [
+    {
+      "lead": "Heinz H. Menge1976 critical edition",
+      "primary_metadata_url": "https://katalog.slub-dresden.de/en/id/0-1605366439",
+      "bibliographic_result": "GAG184; ISBN3874523187; includes Regimen text",
+      "direct_open_result": "Internal Error from web tool",
+      "retries": 0,
+      "edition_text_accessed": false,
+      "exact_passage_locus": "NOT_OBTAINED"
+    },
+    {
+      "lead": "Zürich Ms.C102b / CIMA41 facsimile catalogue",
+      "url": "https://www.omifacsimiles.com/brochures/cima41.pdf",
+      "web_document_pages": 67,
+      "catalogue_open_count": 1,
+      "bounded_finds": [
+        "1800",
+        "Arzt",
+        "Winter",
+        "63r",
+        "2014",
+        "http"
+      ],
+      "loci_used": [
+        {
+          "printed_page": 6,
+          "pdf_zero_based_page": 5,
+          "claim": "Fiche1 includes63r–64v"
+        },
+        {
+          "printed_page": 45,
+          "pdf_zero_based_page": 44,
+          "claim": "Missing61–62 assigned1940–2013; physician image linked to M2016; complexion prologue64r at2071/72"
+        }
+      ],
+      "candidate_locator": "63r/v is an inference requiring actual text verification; catalogue picture/lacuna attachment retained unresolved",
+      "dependence": "Catalogue references and restorations depend on MunichCgm377 / Menge, not a newly independent text reading",
+      "native_images_accessed": 0,
+      "facsimile_or_edition_unit_accessed": false,
+      "digital_availability": "sixth query returned unrelated e-codices entries; no global unavailability claim"
+    }
+  ],
+  "limits": {
+    "direct_lead_count": 2,
+    "alternate_primary_passage_obtained": false,
+    "native_unit_preaccess_condition_satisfied": false,
+    "new_native_images": 0,
+    "old_native_images_reopened": 0,
+    "local_PDF_downloads": 0,
+    "OCR_runs": 0,
+    "delivery_retries": 0,
+    "new_target_values": 0,
+    "target_images": 0,
+    "raw_cards": 0,
+    "CLI_mutations": 0,
+    "old_files_edited": false
+  },
+  "incidental_exposure": {
+    "inherited": "Prior four-old-card exposure persists, not blind.",
+    "this_task": "Second web batch returned a Voynich-forum title and source-location snippet; body/images not opened, claimed verse locator not adopted, no target value used."
+  },
+  "retained_scientific_decision": "Existing generic recipient contrast retained; temporal dz/Das ownership and old/young cold/heat direction/intrinsic-quality account remain unresolved. No target selection or changed meaning claim.",
+  "stop": "Fixed six-query/two-lead scope exhausted; no third source, endpoint guessing, retry, picture census or new raw merely for a witness.",
+  "source_report_hash": "5e99e66dbd90ece8baa1264dc97a2f15d966dcdbc259de11a9b93a90edd4ef98",
+  "decision_hash": "a4c6fea176ca5f20965a576b8ce850a2327a3d0da1da723083da40574f7585f4"
+}

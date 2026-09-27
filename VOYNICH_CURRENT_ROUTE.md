@@ -5,11 +5,11 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: New10hblock03:37:01-13:37:01UTC;583four-family whole attempt05:53-07:23.
-Latest decision: 583local62groups coherent;whole authorized;high costs/source links owed.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/DEFAULT_CONTEXT_FIRST_CONTRACT_DECISION.md.
+Latest decision: 583local62groups;IT/RFregisterdebts explicit;whole resumed06:39.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/DEFAULT_CONTEXT_REGISTER_QUALIFICATION.md.
 Assumptions: Whole156ZL/473all;fourpairs oneO;no581glosses;reservesclosed.
 Resume: Awholefreeze06:58;root/B audit07:13;publication07:23;no rule repairs.
-Running: A583whole;B waits frozen packet;C exact source-witness lead;rootpublication.
+Running: A583whole;Bawaitsfreeze;Cboundedsourceideas;rootpublication.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
