@@ -1,0 +1,16 @@
+# Native visual check: four qod-family spans
+
+I checked the admitted full panel and the complete E, S, and W paragraph regions, then inspected coordinate-preserving crops around the written lines. The candidate readings were already known, so this is an exposed, non-blinded comparison. It tests only whether the surface visibly supports the proposed groupings and letter sequences; it does not test the honey hypothesis or assign a meaning.
+
+Across all four spans I can locate a separate written group in the expected line context. The initial looped/descending sequence is broadly compatible with the several `qo`/`qod` readings, but the small, crowded following strokes do not let me count every minim reliably. The cursive groups are angled with their paragraph lines, and local contrast is variable. A matching reading by several transcript editions is still a set of readings of one surface, not independent visual evidence.
+
+| Span | Reader alternatives recorded in the existing transcription | Grouping | Stroke-level observation |
+|---|---|---|---|
+| E.10 G002 | ZL `qodar`; IT `qodar`; RF `qo@152;ar` | Supported as one group within the six-group line. | The shared initial is compatible at broad shape level. The short terminal sequence is compatible with an `ar` reading; RF's marked initial uncertainty cannot be resolved from my view. I see no clear visual basis to reject the two unmarked readings, but do not certify the precise initial glyph. |
+| S.16 G002 | ZL `qodaiin`; IT `qodain`; RF `qodaiin` | Supported as one group within the five-group line. | The visible initial and final run are broadly compatible with both transcriptions. The distinction between the extra minim represented in `aiin` and the shorter `ain` is not secure in these strokes; I cannot select one spelling. |
+| W.19 G002 | ZL `qodain`; IT `qodain`; RF `qo@152;ain` | Supported as one group within the five-group line. | The initial is broadly compatible, with RF explicitly leaving a glyph uncertain. The ending is compatible with an `ain`-like short run, but individual minima are too compressed/soft to determine a unique count. |
+| W.21 G005 | ZL `qodaiin`; IT `qodaiin`; RF `qodaiin` | Supported as the final group in the five-group line. | The group is visually compatible with the shared reading at broad shape level. Agreement does not make the number of small ending strokes unambiguous; I do not independently certify every character. |
+
+These observations do not establish a stable suffix contrast across locations. In particular, the proposed `qodaiin`/`qodain` distinction at S.16 is not resolved by my inspection, and W.19's terminal minim count remains uncertain. I saw no clear contradiction that warrants declaring any supplied alternative visually impossible. That is an ambiguity finding, not a pass for the transcription family or a confirmation of its composition.
+
+The three paragraph views also show why line placement and exact word segmentation should remain separate: the writing follows sloped/radial bands and contains close token spacing. The recorded table retains the project’s existing group identities rather than proposing any new split. No meanings, participant roles, suffix morphemes, or canonical reader are selected here.

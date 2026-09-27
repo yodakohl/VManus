@@ -8677,6 +8677,12 @@ IT S16qodain givesIN_FOOD rather thanIN_BODY. No confirmed word or reserve.
 Next inspect all outside assigned contexts and all4physicalqod spans; do not
 choose a reader or add grammar to hide a consequence.
 
+**2026-09-27 whole-surface consequence:** [root decision](research_registry/proposals/laufenberg_f85r2_20260926/HONEY_EXTENSION_ROOT_DECISION.md)
+records all149outsidegroups/47assigned. Shared BENEFITS–EXISTS does not fit
+the demonstrated G25 explicit-cause production. This is not globalUNSAT;
+SUPPOSE/YIELDscope and nativeqodsuffix remain unresolved. Park simple30-value
+fill; RAW566 may be authored separately for actual reused causal arguments.
+
 A provenance-clean human-source audit gives f85r2 a new provisional page-role
 reading. The existing human catalogue fixes the four figures as North pointing
 with an empty hand, West holding a flower or ear of wheat, South leaning on a
