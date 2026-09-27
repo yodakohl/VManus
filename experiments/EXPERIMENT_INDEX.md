@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1045**
-- Experiment-associated tracked files: **20,806** (1.9 GiB)
-- Structured GDT337+ experiments: **710**
+- Experiments indexed: **1046**
+- Experiment-associated tracked files: **20,822** (1.9 GiB)
+- Structured GDT337+ experiments: **711**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1047 | gdt1047_bare_value_left_host | `FAMILY_HOST_RULES_CONTRADICTED__AIIN_LEFT_COMPATIBLE__DAIIN_BOUNDARY_SENSITIVE` | [report](../experiments/yolo/gdt1047_bare_value_left_host/REPORT.md) | 16 | 3.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT1046 | GDT1046 | `STRICT_NOM_EXTENSION_FAILS_IT_RF_ZL_INCOMPLETE` | [report](../experiments/yolo/gdt1046_f85_faculty_nominalizer_consequences/REPORT.md) | 16 | 64.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT1045 | GDT1045 | `FIXED_FAMILY_TYPE_AND_BINDING_CAPACITY_ONLY` | [report](../experiments/yolo/gdt1045_f85_fixed_recipient_incorporation/REPORT.md) | 15 | 117.4 KiB | 1 | STRUCTURED_YOLO |
 | GDT1044 | GDT1044 | `AMBIGUITY_RETAINED_SEED_READER_SPECIFIC` | [report](../experiments/yolo/gdt1044_f85r2_quantifier_seed_native_audit/REPORT.md) | 20 | 57.8 KiB | 2 | STRUCTURED_YOLO |

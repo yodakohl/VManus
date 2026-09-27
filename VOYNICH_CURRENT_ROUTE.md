@@ -3,13 +3,13 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 
 ## Current work
 Phase: exploration
-Status: complete
-Task: Closed bounded K2790 resolution/edition acquisition.
-Latest decision: Service2160px; prior2200px already read; no changed text or meaning.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/KARLSRUHE_RELATION_ACQUISITION_REPORT.md.
-Assumptions: Source ownership unbound;0words;all Voynich reserves closed.
-Resume: Read report reopening criteria; no automatic image retry or free f85 writer.
-Running: none; next scientific candidate unselected.
+Status: active
+Task: Ten-hour block27Sep15:03:58--28Sep01:03:58UTC; first test closed.
+Latest decision: GDT1047 family-host rules fail; aiin-left compatible; daiin boundary-sensitive.
+Working files: experiments/yolo/gdt1047_bare_value_left_host/REPORT.md.
+Assumptions: Necessary capacity only; RF no paragraph marks;0words;reserves closed.
+Resume: Publish1047/intake607; inspect524 predecessor record before any clock extension.
+Running: root closeout; bounded content-idea supplier.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

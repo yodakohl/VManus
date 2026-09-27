@@ -1,0 +1,65 @@
+{
+  "experiment_id": "GDT1047",
+  "status": "PASS",
+  "implementation_independence": "Separate validator author; runner source neither read nor imported.",
+  "semantic_confirmation": false,
+  "source_guard_replay": {
+    "sha256": "a57cfa8b396cbe05fe87fa6fb5a9b72d0dd336c23a6876c74a8576ac9135bbd9",
+    "bytes": 8413649,
+    "guard_stats": {
+      "selected": 96184,
+      "skipped_forbidden": 2122,
+      "skipped_not_allowed": 17164
+    }
+  },
+  "coverage": {
+    "projection_groups": 96184,
+    "reconstructed_P_blocks": 1677,
+    "runs": 5878,
+    "contradiction_blocks": 74,
+    "summary_cells": 18,
+    "directional_decisions": 18
+  },
+  "scope": {
+    "current": 179,
+    "old_overlap": 27,
+    "additional": 152,
+    "old_not_admitted": [
+      "f101r",
+      "f1r",
+      "f67r2",
+      "f68r1",
+      "f69v",
+      "f70v1",
+      "f70v2",
+      "f71v",
+      "f72r1",
+      "f72r2",
+      "f72r3",
+      "f89r2"
+    ]
+  },
+  "synthetic_and_mutation_checks": [
+    "maximal_family_run_cannot_host_itself",
+    "marked_singleton_both_directions",
+    "unmarked_fragment_is_unknown",
+    "new_start_does_not_invent_previous_end",
+    "non_P_breaks_scope",
+    "inventories_remain_separate",
+    "duplicate_source_id_rejected",
+    "incomplete_locus_rejected",
+    "changed_run_status_rejected",
+    "missing_contradiction_block_rejected",
+    "changed_paragraph_flag_rejected",
+    "changed_summary_count_rejected"
+  ],
+  "artifact_sha256": {
+    "RUNS.json": "14534620aebaa8c03c8b550bd7e9b6d577ddb5529b45779c7890c72902eb2373",
+    "BLOCKS.json": "31ad61a88f2292884e976343a5420f03531de5a79feef9996a5b334e094d4f32",
+    "RESULT.json": "28d5f2c3b44e02d18d712b2b6d21f79e2d6e0fdb4853dec26e7eb23ee3cd6ce0"
+  },
+  "prereg_lock_sha256": "32ffc924702a80a5369824df7e4d2b69e7f8fb431b5ff2ac511f5ae9d8ac2c21",
+  "scope_addendum_lock_sha256": "6a9dd6c88f2941b5511bfd223f28b3ff8fd501a53082c83381a1dba78927cc9c",
+  "validator_sha256": "26597713871e8e86722a5b45a8e0d1950004522b81dd7247271821dc79172120",
+  "limitation": "Verifies guarded source bookkeeping and fixed host-condition consequences; no native boundary authentication or meaning confirmation."
+}
