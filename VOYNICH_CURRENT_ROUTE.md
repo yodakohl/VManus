@@ -8,8 +8,8 @@ Task: New10hblock03:37:01-13:37:01UTC;588whole thunder/perception synopsis.
 Latest decision: 589partial closed;588all14source duties/all473rows selected.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/PERCEPTION_WHOLE_ROOT_DECISION.md.
 Assumptions: Same exposedVMS;numeric order assumed;0words;reservesclosed.
-Resume: 588author freeze by10:19UTC;review/publish by10:44:34UTC.
-Running: A588wholeauthor;root595source ready;C597/598RAW frozen.
+Resume: Close588with formal gaps/IT16conflict;publish by10:44:34UTC.
+Running: root588review;Royal18closed;Cboundedsourceoffer;A/Bidle.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

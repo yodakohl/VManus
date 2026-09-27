@@ -1,0 +1,5 @@
+# Royal MS 19 C I manifest availability decision
+
+Unknown: does the exact British Library catalogue-linked IIIF manifest expose a readable canvas list identifying coverage for ff. 34v–58v? An affirmative result would support proposing a smaller, catalogue-delimited source subunit for separate prospective registration; it would not establish new manuscript meaning or make the catalogue's six ages of the world into human ages. A negative result leaves the catalogue locator unchanged and stops image-based source consideration here.
+
+Smallest adequate check: one ordinary request to the exact published manifest URL, following only its normal redirects, and read its response metadata for canvas labels and coverage. Allow at most one diagnostic retry if a transient or parse/access error makes the first result inconclusive. Do not query image services, request pixels, use guessed mirrors, or inspect other manuscripts. Budget: 12 minutes inclusive for this note, the single manifest check and any warranted retry, and a short inspectable report/receipt. No target access or registry changes.

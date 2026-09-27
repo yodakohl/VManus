@@ -1,0 +1,61 @@
+{
+  "task": "Royal MS 19 C I exact catalogue-linked IIIF manifest metadata availability",
+  "decision_file": "research_registry/proposals/laufenberg_f85r2_20260926/ROYAL19CI_MANIFEST_DECISION_B.md",
+  "query_url": "https://bl.digirati.io/iiif/ark:/81055/vdc_100057740622.0x000001",
+  "request_count": 2,
+  "requests": [
+    {
+      "purpose": "normal manifest metadata request",
+      "status": 200,
+      "final_url": "https://bl.digirati.io/iiif/ark:/81055/vdc_100057740622.0x000001",
+      "content_type": "application/json",
+      "bytes": 1930532,
+      "sha256": "166aae40416f5eff4403374938ef3ea755bf8e03d6fb72292ca972c397f7e8fe"
+    },
+    {
+      "purpose": "single diagnostic retry because first console listing was truncated before bounded canvas labels could be assessed",
+      "status": 200,
+      "final_url": "https://bl.digirati.io/iiif/ark:/81055/vdc_100057740622.0x000001",
+      "content_type": "application/json",
+      "bytes": 1930532,
+      "sha256": "166aae40416f5eff4403374938ef3ea755bf8e03d6fb72292ca972c397f7e8fe"
+    }
+  ],
+  "manifest_type": "IIIF Presentation 3 Manifest",
+  "canvas_count": 529,
+  "catalogue_span_canvas_labels": {
+    "first": "f.34v",
+    "first_zero_based_index": 75,
+    "last": "f.58v",
+    "last_zero_based_index": 123,
+    "intervening_recto_verso_labels_present": true,
+    "canvas_count_inclusive": 49
+  },
+  "candidate_future_subunit": {
+    "scope": "ff. 50r–58v",
+    "first_label": "f.50r",
+    "first_zero_based_index": 106,
+    "last_label": "f.58v",
+    "last_zero_based_index": 123,
+    "canvas_count_inclusive": 18,
+    "catalogue_sequence": [
+      "50r spheres diagram",
+      "51r winds diagram",
+      "53r–53v daylight hours and weekday-planet diagram",
+      "54v seasons",
+      "55r–57r month occupations",
+      "58v six ages of the world"
+    ],
+    "status": "prospective catalogue-delimited bounds only; no images selected"
+  },
+  "image_service_metadata": {
+    "service_entries_present": true,
+    "api_profiles": ["IIIF Image API level 2, API 2 form", "IIIF Image API level 2, API 3 form"],
+    "pixels_requested": false,
+    "pixel_availability_verified": false
+  },
+  "other_urls_requested": [],
+  "raw_manifest_saved": false,
+  "unrelated_or_private_links_published": false,
+  "historical_caveat": "Six ages of the world is not evidence of human life ages, medical roles or humoral explanation. Prior source-only project exposure persists."
+}
