@@ -4,12 +4,12 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: active
-Task: Tenhoursfrom03:37:01UTC;604whole review;605first;close after13:37:01.
-Latest decision: 604wholepartial185assigned/288unknown;605sharedpatientselected;602closed.
+Task: Tenhoursfrom03:37:01UTC;605first;close block after13:37:01.
+Latest decision: 604localconnectedcontentretained/wholeincomplete;602closed;605first pending.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/ADAMANT_SELECTION_RECEIPT.json.
-Assumptions: Exposed473;605freshvalues/disposition;604firstfixed;0words;reservesclosed.
-Resume: Close604by13:10:19;605first13:03:27/inclusive13:43:27UTC;no deadline resets.
-Running: C605first;A604semantic;D604literal;rootreview/publication;all explicit receipts.
+Assumptions: Exposed473;605freshvalues/disposition;0words;reservesclosed.
+Resume: Review605first by13:03:27;inclusive13:43:27UTC;then final10hreport.
+Running: C605first;A boundedRAWproducer;Dreviewready;root604publication.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
