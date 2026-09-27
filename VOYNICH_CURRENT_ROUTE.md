@@ -5,11 +5,11 @@ Updated: 2026-09-27. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: active
 Task: New10hblock03:37:01-13:37:01UTC;577whole-f85 content-frame hypothesis.
-Latest decision: 568origin parked;577selected for explicit whole-surface contract.
+Latest decision: 577D/Qcontract frozen;whole156 authoring;568unchanged.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/CONTENT_FRAME_ROOT_DECISION.md.
 Assumptions: III13P15-22;156ZL/473all;source/site/status distinct;0words;reservesclosed.
-Resume: Review A contract before clauses;whole trial ceiling04:50UTC.
-Running: Rootreview/publication;A577contract;bounded iconographicidea producer.
+Resume: On A freeze(by04:30),root reads before B;trial ceiling04:50UTC.
+Running: A577whole;rootreview/publication;producer578/579batch completed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

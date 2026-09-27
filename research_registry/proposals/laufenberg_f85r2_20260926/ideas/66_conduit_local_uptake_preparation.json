@@ -1,0 +1,144 @@
+{
+  "title": "RAW conduit delivery composes with local uptake and explicitly mediated alteration",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED. Galen distinguishes conduit delivery over distance from nearby quality-dependent uptake, then describes contiguous relay and intermediate nutritive alteration. A long supply path need not be one remote attraction edge or a path carrying unchanged material.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+    "created_utc": "2026-09-27",
+    "author_role": "Bounded source producer; root owns exact predecessor review and any scientific selection.",
+    "source": {
+      "author_work": "Galen, On the Natural Faculties, Book III chapters14–15, cached English translation",
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/galen3_frame_source.html",
+      "sha256": "1d0f8547ae087a7c97d36f7600cee05dbb1b3321beb973b3065bba2ea8b0ad24",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Galen/Natural_Faculties/3%2A.html#R14",
+      "unit": "Complete body text from R14 through chapter15 and book end, including the closing wine/artery comparison. No external fetch. Footnote markers and cached textual defects were not independently resolved.",
+      "historical_limit": "Galen's historical physiological account, not modern physiological truth; no Greek collation, measured mechanism or identified target source."
+    },
+    "complete_unit_obligations": [
+      "Arterial motion, nearby sources and the evacuation analogy inIII14.",
+      "The two attraction modes, and the cavity/coats distinction at the opening ofIII15.",
+      "Historical arguments for vascular communications, including the unobserved terminal septal connections and teleological/inlet-outlet reasoning. These are claims in the source, not established anatomy.",
+      "The long-tube/nearby-quality distinction, garden channels, local nutrition, stored intermediate humours and the final wine comparison."
+    ],
+    "access": "No target table, form, image, old-card body, new external source, reserve, sealed material or contact. Earlier accidental exposure to old-card f85r2 bindings persists; see SOURCE_REUSE_SUPPLY_20260927.md. These proposals do not claim source blindness.",
+    "target_scope": "No target word, segmentation, participant, paragraph, reading order, figure relation or target rule selected. All whole-passage binding remains absent.",
+    "assessed_status": "No novelty certification, assessed review, fixed test or reopening. Metadata duplicate candidates require exact primary review before selection.",
+    "budget_if_selected_minutes": 30,
+    "budget_components_minutes": {
+      "predecessor_review": 8,
+      "complete_exploratory_authorship": 12,
+      "validation_and_decision": 5,
+      "publication": 5
+    },
+    "stop_rule": "Do not build a decoder or executor when the content remains only an external paraphrase. At the budget limit retain missing binding distinctly from fixed failure; no automatic repair or source expansion.",
+    "question": "Can a written account preserve distinct transport and local-uptake edges while an explicitly introduced intermediate preparation changes what a later tissue receives?",
+    "source_locus": "III15 long-tube/lodestone contrast and garden conduits through the closing local nutrition, marrow/humour and wine passages (pp325–331).",
+    "source_content": "Channels make supply locally available; neighbouring parts successively draw from what reaches them. Some tissues require further-altered intermediate nutritive material. The closing example also permits mobile fluid to pass through successive nearby parts toward the kidneys.",
+    "unknown_after_source": "No target channel, neighbour relation, product, intermediate, tissue, episode or transfer construction is assigned. It is unknown whether any complete admitted passage states the required route and preparation dependencies.",
+    "proposed_content_schema": {
+      "sorts": [
+        "SupplyPath",
+        "LocalSite",
+        "Receiver",
+        "MaterialDescription",
+        "PreparationDescription",
+        "UptakeDescription",
+        "Episode"
+      ],
+      "DELIVER_VIA": "DELIVER_VIA(supply_path, material_description, local_site, episode) asserts arrival by a stated conduit path. It does not itself assert local assimilation or qualitative suitability.",
+      "TAKE_LOCALLY": "TAKE_LOCALLY(receiver, explicitly_nearby_source, material_description, episode) states one local uptake relation under the described suitability conditions. Multiple such statements may form a relay; their endpoints and scopes must remain explicit.",
+      "PREPARE_FOR": "PREPARE_FOR(receiver, input_material_description, intermediate_description, episode) records an explicitly stated alteration needed for that receiver. It does not silently create a new product at every edge.",
+      "composition": "Conduit delivery may supply the source for local uptake. A separately written preparation can produce the intermediate description used in a later uptake. A path of local edges does not make its remote endpoints adjacent or turn all uptake into one long-distance quality-attraction event.",
+      "material_limit": "The source discusses distribution of nutritive quality and changing humours. No fixed portion identity, amount conservation, unchanged chemistry, flow rate or equality of intermediate and original material is inferred from path continuity.",
+      "use_transfer_limit": "Local use and onward availability must be distinguished in a complete account. No default rule consumes all incoming material at the first site, and no unexpressed split ratio is introduced to rescue a later transfer.",
+      "preparation_limit": "Greater substance difference motivates intermediate alteration in the source, but no universal number of stages or body-wide transformation table is supplied. Flesh/blood and bone/marrow are examples with their own content; they are not a complete anatomy."
+    },
+    "connected_cases": [
+      {
+        "case": "DISTRIBUTED_GARDEN_SUPPLY",
+        "input": "A large channel and smaller channels place moisture near intervening regions.",
+        "consequence": "The channel layout supplies local access. A remote region cannot be treated as directly within local uptake range merely because a conduit eventually reaches near it. The garden is the source's analogy, not identified target imagery."
+      },
+      {
+        "case": "LOCAL_RELAY_WITH_PREPARATION",
+        "input": "Contiguous uptake plus an explicitly stated tissue preparation, illustrated by blood/flesh versus marrow/bone.",
+        "consequence": "A later tissue may receive a prepared nutritive description rather than the unchanged earlier material. The connecting route does not delete the preparation or equate its input and product."
+      },
+      {
+        "case": "MOBILE_FLUID_COUNTERCASE",
+        "input": "The closing wine account relays mobile fluid through nearby parts toward vena cava and kidneys.",
+        "consequence": "The model cannot impose mandatory complete assimilation at every local edge. Transfer, local use, preparation and final selection need their own written scopes."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "One direct remote quality-attraction edge",
+        "contract": "Every conduit-linked remote source is directly near the final receiver for quality attraction.",
+        "distinguishing_consequence": "It removes the source's distinction between long conduit access and local uptake and makes the small-channel/relay account redundant by fiat."
+      },
+      {
+        "name": "Unchanged packet through every stage",
+        "contract": "Any connected supply path preserves one unchanged material value through every intermediate.",
+        "distinguishing_consequence": "It cannot express explicitly required intermediate alteration without restoring a preparation relation or product distinction."
+      },
+      {
+        "name": "Complete assimilation at every hop",
+        "contract": "Each local uptake consumes and fully transforms all arriving material before any next receiver can draw.",
+        "distinguishing_consequence": "It cannot retain the closing mobile-fluid relay without an explicit further account; no hidden bypass is supplied."
+      },
+      {
+        "name": "Independent complete route clauses",
+        "contract": "Describe each delivery, local uptake and preparation independently without reusable constructors.",
+        "distinguishing_consequence": "This can express the same physiology. Only a complete written recurrence with fixed argument ownership could favor the proposed composition."
+      }
+    ],
+    "costs": {
+      "new_target_values": 0,
+      "inherited_target_values": 0,
+      "proposed_construction_schemas": 3,
+      "analytical_sorts": 7,
+      "unbound": "All target paths, proximity claims, participant references, local-use/onward-transfer scopes, intermediate products, episode identities and ordered derivations."
+    },
+    "known_overlap": "IDEA000577 owner/compartment/supply-case and541 same-channel reversal remain separate and unchanged. Existing stage/site, provenance, causal-path and analogy families may already cover parts of this proposal; no novelty is certified. The proposed connected obligation is route plus local edge scope plus an explicitly changing nutritive intermediate.",
+    "minimum_next_step": "Compare exact path/provenance/analogy predecessors before selection. If retained, author a whole admitted unit carrying explicit endpoints through at least two local relations and a written preparation, while preserving the mobile-fluid countercase. No graph executor before those references exist.",
+    "decision_changing_result": "A complete written account that composes transport, local uptake and prepared material without collapsing their relations could constrain the hypothesis. If all paths, neighbours and intermediates are supplied only by outside commentary, retain missing binding. No source analogy or graph alone establishes manuscript meaning.",
+    "assumptions": [
+      "The historical conduit and nutritive account is possible content, not validated modern anatomy.",
+      "Contiguity is a local relation; its transitive closure is a path rather than physical adjacency.",
+      "Product change occurs only where written, while participant identity and quantity remain independently unbound.",
+      "No new figure ownership, animal dissection, target values or source-language default is introduced."
+    ],
+    "proposal_path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/66_conduit_local_uptake_preparation.json",
+    "duplicate_screen": {
+      "command": [
+        "./vmanus-work",
+        "ideas",
+        "duplicates",
+        "--proposal",
+        "research_registry/proposals/laufenberg_f85r2_20260926/ideas/66_conduit_local_uptake_preparation.json",
+        "--limit",
+        "4"
+      ],
+      "metadata_candidates": [
+        {
+          "id": "HIST:7709ad0b410d56d1",
+          "title": "source_supply_known_cards_exposure"
+        },
+        {
+          "id": "IDEA000522",
+          "title": "RAW whole f37v second paragraph as reuse of stored paste, with material ancestry and fresh-stock rival"
+        },
+        {
+          "id": "IDEA000574",
+          "title": "RAW processing history distinguished by a downstream capacity assay"
+        },
+        {
+          "id": "IDEA000576",
+          "title": "RAW excess moisture keeps its material role across animal-specific discharge branches"
+        }
+      ],
+      "decision": "RAW_RETAINED_UNREVIEWED_NO_NOVELTY_CERTIFICATION",
+      "limit": "No returned old-card body was opened; exact primary review remains required before selection."
+    }
+  }
+}
