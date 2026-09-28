@@ -1,0 +1,101 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Written next-initial association in fixed same-rest strata only; no phonetic sandhi, grammatical meaning, project-wide significance or translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1077_terminal_rl_next_initial_class/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1077_terminal_rl_next_initial_class/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT631",
+    "GDT915",
+    "GDT916"
+  ],
+  "experiment_id": "GDT1077",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "d250cabad12bbc0cd02b7c0e69361ede4f518663c696af351fb3343dd8878edd"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "75e20a0d26fb4d88fcbd5219c4f24e34969b06b9f92aa5e0b72348750283af2c"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/README.md",
+      "role": "reproducibility packet",
+      "sha256": "74ecd9c0850008ba36f0063814596b508e051a526c85be2c67d7083223f95618"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "c148c5d668bc15943b875af3d7fd58846001d14de72c221aa71818cd11a8f8c1"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/artifacts/EVENTS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "b94d3bdc25a084b0ec25e24a2357363ab0bce05da409c89f2f252fde5687e1b1"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "8b1f82b02034cd6ecb8d8ba9c048753fe8d69477b3fb3a04f71f95dd38b5c9e4"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "15fdab25878d72007642db3b157163542d4a3088751df227c450f76ab5a2224a"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/artifacts/STRATA.tsv",
+      "role": "reproducibility packet",
+      "sha256": "61ecd576de63cdd882469e224b1dae9324739a962b7b71d5476c586835071fc1"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "516d04c91519f670c7cddb64c0523b070782f46cb8ba9218e6be3cd720bdf0f3"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "371372dec2931ab4d8bc68f1a541189ca897135a6e4fd63cc31ef2006fa04124"
+    },
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "daaf3ed33b97f22846383093e8976ecc5b925dbdeec9d34ee4920ea935598df2"
+    }
+  ],
+  "question": "Within exact rest, section and hand, does terminal r versus l predict whether the next definite group begins a/e/i/o?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "terminal_rl_next_initial_class",
+  "status": "R_CONTEXT_LEAD",
+  "title": "terminal rl next initial class",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1074**
-- Experiment-associated tracked files: **21,135** (1.9 GiB)
-- Structured GDT337+ experiments: **739**
+- Experiments indexed: **1075**
+- Experiment-associated tracked files: **21,147** (1.9 GiB)
+- Structured GDT337+ experiments: **740**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -1094,3 +1094,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT001 | GDT001 | `UNREGISTERED` | [report](../GDT001_CURRENT_SUMMARY.md) | 305 | 76.2 MiB | 0 | LEGACY_ROOT |
 | GDT1075 | GDT1075 | `WITHIN_REGISTER_FORMAL_DIRECTION__NO_MEANING` | [report](../experiments/yolo/gdt1075_py_section_hand_confound/REPORT.md) | 12 | 31.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT1076 | GDT1076 | `NO_CAPACITY__SAME_BASE_FOLLOWER_CONTROL_MISSING` | [report](../experiments/yolo/gdt1076_py_same_base_follower_residual/REPORT.md) | 13 | 43.1 KiB | 5 | STRUCTURED_YOLO |
+| GDT1077 | GDT1077 | `R_CONTEXT_LEAD__NO_PHONETIC_OR_SEMANTIC_VALUE` | [report](../experiments/yolo/gdt1077_terminal_rl_next_initial_class/REPORT.md) | 12 | 1.2 MiB | 3 | STRUCTURED_YOLO |

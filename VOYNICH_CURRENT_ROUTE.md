@@ -4,16 +4,16 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Find independent meaning binding for a full word by 18:28 UTC.
-Latest decision: GDT1076 same-base follower test has no control capacity
-in B/hand2; H/hand1 `chor` ties zero. Do not normalize p/y from this.
-GDT1075: 3 ZL bases retain pX>yX paragraph-opening within section/hand;
-IT/RF sensitivity agrees. Formal only; GDT1073 RF metadata unscorable.
-Confirmed translated words: zero.
-Working files: GDT1076; GDT1075; source-binding queue.
-Assumptions: one manuscript/alternate readers; no p/y morpheme meaning.
-Resume: Screen distinct owned referent or within-text meaning constraint.
-Running: bounded idea producer complete, no viable source bridge yet.
+Task: Test boundary/position confounds of GDT1077 before 18:28 UTC.
+Latest decision: GDT1077 same-rest, section/hand r/l ending predicts next
+written a/e/i/o initial: ZL 87/117 cells, IT 120/148, RF 89/120;
+structural association, no phonetic or semantic value. GDT1076 same-base
+p/y follower gate lacked controls; GDT1075 pX opening direction retained.
+GDT1073 RF paragraph metadata unscorable. Translated words: zero.
+Working files: GDT1077; GDT1076; GDT1075.
+Assumptions: readers alternate; line position/lexical pairs may confound.
+Resume: Fixed strict-boundary and line-position robustness for r/l lead.
+Running: none.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
