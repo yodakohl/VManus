@@ -169,3 +169,16 @@ Expositionsgrenze. Der Vorfall ist **keine** neue Zulassung oder unabhängige
 Bestätigung. f84/f84r bleiben normativ gesperrt. Künftige
 Quellensuchen müssen bekannte Berichtspfade statt breiter rekursiver Suchen
 wählen.
+
+## 28 September: fremder Aufsatz mit unbestimmtem Voynich-Bildausschnitt
+
+Bei der Sichtung einer neu erschienenen, externen Pseudo-Apuleius-These wurde
+Seite 24 des PDF als Bild geöffnet. Dort steht ein beschnittener
+Voynich-Pflanzenausschnitt mit der Quellenbeschriftung „Page 78“; dessen
+Folio-/Panelidentität und Zulassungsstatus wurden vor der Ansicht nicht
+geklärt. Der Ausschnitt wird **nicht** für Pflanzenvergleich, Wortauswahl,
+Bildzulassung oder Bestätigung verwendet. Die Quellenbehauptung wird daraus
+nicht übernommen. Dies ist frühere Projektexposition unbestimmten Umfangs,
+keine neue Admission und kein unabhängiger Beleg. Weitere Abbildungen dieses
+Aufsatzes werden vor einer scope-geprüften Identifizierung nicht geöffnet;
+f84/f84r bleiben geschlossen.
