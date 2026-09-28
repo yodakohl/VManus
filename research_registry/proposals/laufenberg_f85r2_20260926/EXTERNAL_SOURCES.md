@@ -99,3 +99,53 @@ Access gaps: Berlin's attempted manifest `https://content.staatsbibliothek-berli
 The [Worcester Cathedral Library's publication of Q.41 fol. 76](https://worcestercathedrallibrary.wordpress.com/2018/02/10/the-four-temperaments-and-the-four-winds/) supplies a directly viewable original diagram. Its unmodified published full image (`temperaments-illustration.jpg`, SHA256 `4486849069feceb007a2761ffb7df24a69cbe31d702fd5bc3b3b7199d96174fe`, 503775 bytes) was inspected after the f85r2 hypothesis and all prior project comparisons were known. The central circle visibly reads `Homo`; four radial branches and concentric bands place qualities, elements, seasons, life stages, temperaments and named winds around it. The institutional explanation also identifies these systems. This is **one source witness**, not a new Voynich observation or a prospectively selected test. The library dates the parent medical codex to the thirteenth century but says the chart's addition is not securely dated; the blog comment only estimates mid-thirteenth century.
 
 This source makes a central-human medical microcosm a concrete rival to reading f85r2's central sunlike face simply as the Sun, and it demonstrates that four winds can be integrated into the same age/season/quality programme rather than needing a separate water interpretation for outer motifs. It does **not** copy f85r2's four torsos, raised vessel, staff and strand, or face-free plumes: Q.41 uses written sectors, not those attributes. Worcester also does not orient or own any Voynich text group. Oxford MS 17 fol. 7v already supplied a related conjunction, so this addition narrows the description of a live source-side rival but does not reopen GDT1042/1043, identify a target diagram centre, or translate a word. No new target image/text, reserve, or sealed material was opened for this source check.
+
+## Morgan M.721 fol. 13r: pre-image source decision (28 September)
+
+The [Morgan catalogue entry](https://ica.themorgan.org/manuscript/page/9/128486)
+describes personified Sun, four named wind faces and a wind wheel on fol. 13r
+of a later-fifteenth-century *La sfera*. Before inspecting its original image,
+the unknown is whether the Sun and four wind faces belong to **one connected
+fourfold picture**, as an analogy to f85r2's face/outer forms, or merely sit
+as separate diagrams on one page. The earlier Morgan M.721 fol. 1v/5v source
+check covered different folios and did not decide this. A connected topology
+would make a solar-plus-four-wind source model more specific; separate diagrams
+would supply topical cohabitation only. Neither outcome reads a Voynich word
+or proves the f85r2 plumes are winds. Smallest check: the Morgan institutional
+fol. 13r full image and its catalogue caption only, then record topology,
+word ownership, mismatches, date and hash. Budget 20 minutes including note,
+validation and publication; no Voynich target pixels or text beyond prior
+admissions, no reserve or sealed page, no new decoder.
+
+### Morgan original-image result
+
+The [institutional whole folio](https://ica.themorgan.org/icaimages/7/m721.013r.jpg)
+(SHA256 `46d84a7de65670d8b0ed6187b7620be6894a275e1d51115c4a9d574d30e44f88`,
+342982 bytes) and its three institutional detail images were inspected. The
+[upper zones](https://ica.themorgan.org/icaimages/7/m721.013ra.jpg)
+(`d316196c55c551ee1b4e14f6358f342f137697ad57c1d86f7e5becbc705caa49`),
+[four-faced winds](https://ica.themorgan.org/icaimages/7/m721.013rb.jpg)
+(`6593e32db56c97eff643fb1cd137dc0b8eeb1f548f166c93351fe643b32722ff`),
+and [wind-name wheel](https://ica.themorgan.org/icaimages/7/m721.013rc.jpg)
+(`f9b3b8d3a41ec88b367670930f688465a77d92a9b1d8a0a85241fe033832af2a`)
+are **three physically separate drawings** at the right of a verse column.
+The middle circle actually has four visible blowing faces at its cardinal
+points and written directional labels. They are part of one wind diagram,
+not four faces attached to a solar centre; the nearby zonal disc and named
+wind wheel have their own boundaries. At this rendition no unambiguous
+sun-plus-four-winds single picture appears. The catalogue also mentions a
+personified Sun; this image check does not identify such a figure inside the
+four-faced wind circle, and the catalogue wording cannot override the
+separate graphic owners.
+
+**Decision: separate-diagram cohabitation, not the sought connected topology.**
+The folio is a concrete later-fifteenth-century example of teaching earth
+zones, four directional wind personifications and a named wind wheel together.
+It does not explain the f85r2 joint central face/four human torsos/outer
+plumes, and the wind faces possess clear mouths and blowing strands missing
+from f85r2's plumes in GDT1043. Its written Italian direction names remain
+source-side labels; no Voynich item is independently matched to them. This
+source observation does not alter GDT1067's orientation ambiguity, identify
+f69r wind names, or translate a word. The Morgan date is catalogued as the
+second half of the fifteenth century, so direct descent in the other direction
+is not inferred. No new Voynich page, image or transcription was opened.
