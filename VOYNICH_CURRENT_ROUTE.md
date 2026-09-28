@@ -1,12 +1,12 @@
 # Voynich current route
-Updated: 2026-09-28. Live resume point.
+Updated: 2026-09-29. Live resume point.
 
 ## Current work
 Phase: exploration
 Status: active
 Task: Seek an independent content-to-word anchor; avoid known picture-only ties.
-Latest decision: f35v BnF f60r has separate Enula/Edera entries, no
-written oak/ivy relation. f4v/f95v source gates closed; no word bound.
+Latest decision: f95v1 Aconitum sources M652 f5r/M873 f66v fail
+fixed anatomy gate; f35v BnF Enula/Edera relation unwritten. No word bound.
 Working files: f35v source check; f95v comparison; GDT623.
 Source correction: f95v2=Yale1006242, f95v1=1006243; separate drawing
 owners. GDT866 applies to f95v1; GDT404's pooled owner is void.
@@ -14,7 +14,7 @@ Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
 Resume: Require a new externally owned referent and a discriminating text rule;
 check predecessor primaries before selection.
-Running: bounded idea producer; no target test.
+Running: no target test; idea producer found no novel eligible anchor.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

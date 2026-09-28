@@ -107,3 +107,28 @@ exclusivity nor the required same-plant/name rule follows. The observed
 recurrence does not resolve IDEA668's one-taxon/two-taxon alternatives. This
 was noticed after both panel texts had been exposed; no chance probability
 or independent confirmation is claimed.
+
+## Additional Aconitum source-only screen (2026-09-29)
+
+This is an adaptive exploratory comparison against the already viewed and
+admitted f95v1 image, not a new blind test. The institutional Morgan records
+name [M.652 f.5r](https://ica.themorgan.org/manuscript/page/8/143825)
+*akoniton heteron* (wolf's bane, *Aconitum napellus*) and
+[M.873 f.66v](https://ica.themorgan.org/manuscript/page/132/159345)
+*Napellus* (catalogued as possibly monkshood). Both complete source pictures
+were viewed; M.873 has four separately captioned pictures, and *Napellus* is
+the central broad-leaved plant, not the neighbouring long-leaved picture.
+
+| Fixed class | f95v1 | M.652 f.5r | M.873 f.66v central *Napellus* |
+| --- | --- | --- | --- |
+| Reproductive heads | Numerous round blue heads on paired long arms | One upright spike of small buds with long pointed side structures | Sparse slender branching sprays; no round blue heads |
+| Leaves | Multiple deeply palmate/lobed groups | Deeply toothed, irregular lobes | Three large broad, essentially unlobed leaves |
+| Stems | Two main arching flowering arms | One upright central stalk | One short central stalk with thin sprays |
+| Roots | Multiple massive reddish tuber-like arms | Small dark fork and fine roots | Narrow brown fibrous taper |
+
+The M.652 foliage offers a partial leaf-shape resemblance, but its heads,
+stem architecture and roots disagree. M.873 disagrees in all four classes.
+Neither source reaches the earlier three-of-four anatomy threshold. This
+does not refute all possible *Aconitum* iconography, but it leaves the
+species and `olteedy` unselected. The prior target exposure and adaptive
+source search supply no independent confirmation or search significance.
