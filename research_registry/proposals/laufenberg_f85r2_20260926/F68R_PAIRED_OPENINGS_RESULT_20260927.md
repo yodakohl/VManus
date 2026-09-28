@@ -120,3 +120,31 @@ Gates nicht. f84/f84r, f116v und Reserven bleiben geschlossen. Keine Kontakte.
 Bestätigte übersetzte Wörter:0. Der unterbrochene Zehnstundenblock bleibt
 unterbrochen. Die begleitende mechanische Prüfung kontrolliert nur die
 gespeicherten Abfragen, Gruppenfolgen und Dateibindungen, keine Bedeutung.
+
+## 28. September: früher Bild-Text-Vergleich, nur explorativ
+
+Nach dem bestehenden FDTW-Metadaten-No-Find wurde ein anderer institutioneller
+Primärzeuge gezielt angesehen: [Ghent, University Library, MS 92, ff. 91v–92r,
+*Liber Floridus*](https://adore.ugent.be/IIIF/manifests/archive.ugent.be%3A018970A2-B1E8-11DF-A2E0-A70579F64438),
+Canvas `ff.91v-92r` (Index 98 in diesem Manifest). Die benachbarte Rubrik
+lautet `DE CURSU SOLIS ET LUNE PER SIGNA XII`; auf 92r sitzen ein oben
+beschriftetes Sonnenmedaillon und ein unten dargestellter Mond an einem
+gemeinsamen, radial beschrifteten Zwölf-Zeichen-Kreis. Das ist ein **positiver
+Quellenbeleg für die gemeinsame Darstellung zweier Himmelskörper mit
+umgebender Schrift und Sternzeichen-Thema**, kein zufälliger alleinstehender
+Sonnenkopf.
+
+Der native Vergleich mit dem bereits zugelassenen Yale-Bild 1006196 zeigt
+aber entscheidende Unterschiede: f68r2 hat oben die Sichelfigur und unten
+die blau gerandete Figur; dazwischen liegt ein offenes Feld einzelner
+beschrifteter Sterne, kein gemeinsamer segmentierter Zwölf-Zeichen-Ring.
+Seine beiden kurzen Umschriften gehören jeweils einem eigenen Medaillon;
+das Ghenter Kreisdiagramm trägt einen gemeinsamen radialen Textkranz.
+Weder eine direkte Vorlage noch die Bedeutung einzelner Voynich-Gruppen
+folgt daraus. Insbesondere wäre `okoaiin = Sonne` weiterhin nur C0. Der
+Vergleich ändert die Themenpriorität zu einer konkreten Arbeitsalternative
+„Bewegung/Beziehung von Sonne und Mond zu Sternen oder Zeichen“, aber ohne
+einen unabhängig gebundenen Zwölfersatz, eine Richtung oder eine Quelle-
+zu-Ziel-Textkorrespondenz ist kein fester Lesetest möglich. Keine neue
+Voynich-Zulassung oder Reservenutzung; das Ghenter Bild ist ein historischer
+Vergleichszeuge, keine unabhängige Voynich-Bestätigung.
