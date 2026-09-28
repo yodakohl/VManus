@@ -154,14 +154,18 @@ Repository-Stamm folgenden Befehl aus:
 `rg -n -i 'f85r2|laufenberg|f85r|housebook|house-book|fourfold|four-part' experiments research_registry docs --glob '!*.jsonl' --glob '!*.png' --glob '!*.jpg'`
 
 Die massiv gekürzte Ausgabe enthielt neben Suchmetadaten auch
-transkriptionsartige f85r2-Inhalte. Zu den sichtbar genannten Pfaden gehörten
+transkriptionsartige f85r2-Inhalte. **f85r2 steht bereits in der verbindlichen
+179-Selektoren-Text-Allowlist**; GDT1043 ergänzte ausschließlich die
+Bildzulassung und nahm keinen neuen Text auf. Zu den sichtbar genannten Pfaden gehörten
 die Statuskarte, diese Scope-Datei, `experiments/EXPERIMENT_INDEX.tsv` und
 JSON-Dateien im `research_registry/work_batches/luna_pilot_20260914/`-Verzeichnis.
 Wegen der Kürzung lässt sich die vollständige Pfad- und Expositionsmenge nicht
 rekonstruieren; insbesondere wird keine Nichtexposition gesperrter Inhalte
 behauptet. Der Agent stoppte sofort, verwendete die Ausgabe nicht und änderte
 keine Dateien. Die Ausgabe wird nicht erneut geöffnet oder wissenschaftlich
-genutzt. Dieser Vorfall ist **keine** neue Textzulassung für f85r2 und keine
-unabhängige Bestätigung. f84/f84r bleiben normativ gesperrt. Künftige
+genutzt. Der bekannte f85r2-Anteil war also kein Text-Zugriffsübergriff;
+der unbestimmbare übrige Umfang des breiten Suchlaufs bleibt die
+Expositionsgrenze. Der Vorfall ist **keine** neue Zulassung oder unabhängige
+Bestätigung. f84/f84r bleiben normativ gesperrt. Künftige
 Quellensuchen müssen bekannte Berichtspfade statt breiter rekursiver Suchen
 wählen.
