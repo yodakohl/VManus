@@ -5,16 +5,16 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: active
 Task: Seek an independent content-to-word anchor; avoid known picture-only ties.
-Latest decision: f4v mandrake source gate lacks diagnostic common anatomy;
-target image unopened. f95v source check found no distinctive plant match.
-Working files: f4v source gate; f95v comparison/IDEA668 review; SNPL002.
+Latest decision: f35v BnF f60r has separate Enula/Edera entries, no
+written oak/ivy relation. f4v/f95v source gates closed; no word bound.
+Working files: f35v source check; f95v comparison; GDT623.
 Source correction: f95v2=Yale1006242, f95v1=1006243; separate drawing
 owners. GDT866 applies to f95v1; GDT404's pooled owner is void.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
 Resume: Require a new externally owned referent and a discriminating text rule;
 check predecessor primaries before selection.
-Running: source comparison closed; no active independent test.
+Running: bounded idea producer; no target test.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -41,7 +41,7 @@ controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primari
 Other closed families remain in the existing registry; no automatic reopening.
 
 ## Access and operating boundaries
-f84 and f84r remain sealed. f116v not admitted. Reserves closed until a nearly complete
+f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;52 visual keys/58 selectors. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
