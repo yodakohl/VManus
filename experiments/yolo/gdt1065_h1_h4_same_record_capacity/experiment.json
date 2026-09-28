@@ -1,0 +1,98 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "ZL3b structural capacity in 13 previously mapped records; four relaxed exact-body pairs, zero strict opener-to-field pairs; no meaning, lexeme or general H1/H4 body affinity.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1065_h1_h4_same_record_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1065_h1_h4_same_record_capacity/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT735",
+    "GDT736",
+    "GDT737",
+    "GDT790",
+    "GDT791"
+  ],
+  "experiment_id": "GDT1065",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/artifacts/OPAQUE_96_HEAD_BODY_GRID.tsv",
+      "role": "fixed admitted predecessor artifact",
+      "sha256": "3fde00498dfce188dbf4df00027bef5c5a8293cd173722f6b4cfb3ca024a1871"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5866_OCCURRENCE_SPINE.tsv",
+      "role": "fixed admitted predecessor artifact",
+      "sha256": "4075ffca8e7a8b9cefda62c9ec6997fb6c518dba8f86790f5309bfe2a8574707"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+      "role": "fixed admitted predecessor artifact",
+      "sha256": "13e4cc2f4373948c2772991f608d8f3b442cdf501b7fc685519dc6830f2f5216"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/PREREGISTRATION.md",
+      "role": "capacity screen and reproduction packet",
+      "sha256": "eb7647c7bdb3de38751f7989f8bb00a08b71779957d10de9e883badea4ce0587"
+    },
+    {
+      "path": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/METHOD.md",
+      "role": "capacity screen and reproduction packet",
+      "sha256": "d4dfdaebc9bd0137c56b5b6ae653700aa3fb03e8f3a00118606c23c6898a99ae"
+    },
+    {
+      "path": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/README.md",
+      "role": "capacity screen and reproduction packet",
+      "sha256": "a20c865875444d1af53cdb5137a639e3b91dd2a77fa659ee0c9d7c80407ea3a6"
+    },
+    {
+      "path": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/REPORT.md",
+      "role": "capacity screen and reproduction packet",
+      "sha256": "6070d761236dbf5e996aa2aa0c48c07b90792566e9dc9b92b5ea540f6e1b4716"
+    },
+    {
+      "path": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/src/run.py",
+      "role": "capacity screen and reproduction packet",
+      "sha256": "2260a76c5a982f49727486b1c5d1b79616a1cab590580b311624387805ae238f"
+    },
+    {
+      "path": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/src/validate.py",
+      "role": "capacity screen and reproduction packet",
+      "sha256": "69f61cc3e7f54601edeb781da127e039fc85473774ac0d315c792a96c79b86c1"
+    },
+    {
+      "path": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/artifacts/README.md",
+      "role": "capacity screen and reproduction packet",
+      "sha256": "2fbee99b41c4325f9016299ffab5959433c3ae0af7088e9ded9ba8f1fe495a8d"
+    },
+    {
+      "path": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/artifacts/RESULT.json",
+      "role": "capacity screen and reproduction packet",
+      "sha256": "6c634e7a78c838d476e8365d09d888f40f59567c401f5c63986f3170f2947107"
+    },
+    {
+      "path": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/artifacts/VALIDATION.json",
+      "role": "capacity screen and reproduction packet",
+      "sha256": "dca1b1d7b70d0b5b19d08ea50e51ba6c075222b34878571f3ece94e01482773b"
+    }
+  ],
+  "question": "Does any of the 13 fixed f77r/f82r/f83r physical records begin with H1+body and later contain H4+the exact same body at an internal line position?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "h1_h4_same_record_capacity",
+  "status": "ZERO_STRICT_CAPACITY_NO_MEANING_TEST",
+  "title": "H1/H4 exact-body same-record capacity on fixed deep pages",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1065_h1_h4_same_record_capacity/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

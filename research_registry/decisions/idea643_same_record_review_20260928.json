@@ -1,0 +1,32 @@
+{
+  "record_id": "IDEA000643",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root after fixed GDT1065 capacity screen and independent GDT790-line validation",
+  "reason": "Across the 13 fixed complete deep-page records, four ordered H1/H4 exact-body pairs occur, all from two nonopening H1 occurrences. Zero satisfy the predeclared record-opening H1 followed by line-internal H4 condition. GDT737's failed held H1/H4 body-affinity transfer remains, and no independent later property is bound.",
+  "assessment_basis": "predeclared_structural_capacity_screen_no_semantic_test",
+  "blockers": [
+    {
+      "code": "missing_complete_target_contract",
+      "detail": "No strict first-record-token H1 to later line-internal H4 same-body pair exists in the fixed 13-record frame; relaxed pairs cannot be promoted after inspection.",
+      "evidence": [
+        "experiments/yolo/gdt1065_h1_h4_same_record_capacity/REPORT.md",
+        "experiments/yolo/gdt1065_h1_h4_same_record_capacity/artifacts/RESULT.json",
+        "experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "new_owned_record_and_property",
+        "change": "new_data",
+        "detail": "Independently map a new complete physical record with a genuine opening H1 and later internal H4 exact-body pair, plus a separately constrained written property, before fixing a new whole-record semantic rival test.",
+        "evidence": ["experiments/yolo/gdt1065_h1_h4_same_record_capacity/REPORT.md"]
+      }
+    ],
+    "not_sufficient": ["Reinterpreting f82r.27 as a fresh opener, enlarging the 13-record frame after seeing zero, or using GDT736's failed body-affinity model as coreference evidence."]
+  },
+  "relations": []
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1063**
-- Experiment-associated tracked files: **21,042** (1.9 GiB)
-- Structured GDT337+ experiments: **728**
+- Experiments indexed: **1064**
+- Experiment-associated tracked files: **21,052** (1.9 GiB)
+- Structured GDT337+ experiments: **729**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,7 +20,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1064 | GDT1064_f9v_jacea_historical_synonym | `SOURCE_COMPATIBILITY_CORRECTION__NO_WORD_CONFIRMATION` | [report](../experiments/yolo/gdt1064_f9v_jacea_historical_synonym/REPORT.md) | 11 | 616.6 KiB | 3 | STRUCTURED_YOLO |
+| GDT1065 | GDT1065_IDEA643_same_record_capacity | `ZERO_STRICT_CAPACITY__NOT_TESTED_MEANING` | [report](../experiments/yolo/gdt1065_h1_h4_same_record_capacity/REPORT.md) | 10 | 22.2 KiB | 5 | STRUCTURED_YOLO |
+| GDT1064 | GDT1064_f9v_jacea_historical_synonym | `SOURCE_COMPATIBILITY_CORRECTION__NO_WORD_CONFIRMATION` | [report](../experiments/yolo/gdt1064_f9v_jacea_historical_synonym/REPORT.md) | 11 | 616.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT1063 | GDT1063_f9v_viola_visual_name_exploration | `EXPLORATORY_VIOLA_VISUAL_LEAD__FIRST_WORD_MEANING_OPEN` | [report](../experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/REPORT.md) | 11 | 18.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT1062 | GDT1062_schechter_plant_label_source_alignment | `SOURCE_POSITION_PASS_IT2A_23_OF_23__MEANINGS_UNBOUND` | [report](../experiments/yolo/gdt1062_schechter_plant_label_source_alignment/REPORT.md) | 12 | 22.3 KiB | 2 | STRUCTURED_YOLO |
 | GDT1061 | GDT1061_zfd_case_study_source_alignment | `SOURCE_CASE_STUDY_LINES_UNATTESTED_IN_THREE_CURRENT_READERS` | [report](../experiments/yolo/gdt1061_zfd_case_study_source_alignment/REPORT.md) | 12 | 19.9 KiB | 2 | STRUCTURED_YOLO |

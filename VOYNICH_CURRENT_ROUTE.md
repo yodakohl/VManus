@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Screen IDEA643 same-record H1/H4 exact-body capacity.
-Latest decision: IDEA641 Q1 left arch, Q2 lower outlet; shared cheol/sol do not
-own a handoff. Not tested; 0 words. IDEA637 also not tested.
-Working files: IDEA641 note; GDT735/736/737, GDT790.
-Assumptions: GDT737 held H1/H4 body-affinity transfer failed; position survives.
-Resume: Check same-record pair capacity before a new meaning test; retain
-GDT737 counterexample and every intervening group.
-Running: None. IDEA640/642–644 and 636/638/639/629 raw.
+Task: Inspect IDEA644 f72 class relation against GDT793 primary counterexamples.
+Latest decision: GDT1065/IDEA643 has 4 relaxed H1/H4 exact-body pairs in
+13 records, but 0 opening-to-internal pairs; not tested, 0 words.
+Working files: GDT1065 report/result; IDEA643 review; GDT793.
+Assumptions: GDT737 held H1/H4 body-affinity failed; no retroactive opener.
+Resume: Check if IDEA644 adds a genuinely different fixed falsifier beyond
+GDT793's four-owner conflict and ordinal cycle; do not rerun same test.
+Running: None. IDEA640/642/644 and 636/638/639/629 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
