@@ -5,9 +5,9 @@ Updated: 2026-09-29. Live resume point.
 Phase: exploration
 Status: active
 Task: Seek an independent content-to-word anchor; avoid known picture-only ties.
-Latest decision: f6v Eryngium/Ricinus sources split head versus leaf
-traits; f95v1 Aconitum fails. No botanical name or word bound.
-Working files: f6v/f95v source comparisons; GDT623.
+Latest decision: Laon MS422 f6v has 12 month sectors, not 4 season
+centres+8 month flanks; IDEA650 source role refuted. No word bound.
+Working files: IDEA650 source correction; f6v/f95v comparisons.
 Source correction: f95v2=Yale1006242, f95v1=1006243; separate drawing
 owners. GDT866 applies to f95v1; GDT404's pooled owner is void.
 Assumptions: three readers are one manuscript; proximity is no word meaning;

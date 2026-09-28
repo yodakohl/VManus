@@ -1,0 +1,53 @@
+{
+  "record_id": "IDEA000650",
+  "scope": "semantic",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root, source-image ownership correction; target unopened",
+  "reason": "The newly inspected traceable photograph of Laon MS422 f6v and its facsimile description identify all twelve radial sectors as months, three per season figure. The four season roles belong to four separate inner figures, not to the middle four of twelve radial labels. This refutes IDEA650’s specific Laon centre=season/flank=month source transfer before Voynich target access. No f68v2 word or image was newly admitted or tested; a different month-order hypothesis would need a new design and independent owner/phase.",
+  "assessment_basis": "source_wheel_centre_flank_role_correction_no_target_test",
+  "blockers": [
+    {
+      "code": "missing_data",
+      "detail": "f68v2 text and image still lack current admission; the old FQP001 claim-bearing primary remains unavailable.",
+      "evidence": [
+        "research_registry/decisions/idea650_f68v2_access_primary_capacity_20260928.md"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "detail": "Laon labels all twelve radial cells as months, not four season centres and eight month flanks; Voynich phase/direction also remains unbound.",
+      "evidence": [
+        "research_registry/decisions/idea650_f68v2_access_primary_capacity_20260928.md",
+        "experiments/yolo/gdt353_f68_nested_diagram_alignment/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "registered_access",
+        "change": "new_data",
+        "detail": "Explicitly admit the exact f68v2 text and image scope before target access.",
+        "evidence": [
+          "docs/VOYNICH_DATA_SCOPE_20260926.md"
+        ]
+      },
+      {
+        "id": "new_source_role_and_phase",
+        "change": "new_binding",
+        "detail": "An independently written source must explicitly distinguish centre and flank label meanings and fix a target owner/phase; the Laon four-by-three wheel cannot supply that distinction.",
+        "evidence": [
+          "research_registry/decisions/idea650_f68v2_access_primary_capacity_20260928.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "The unreviewed imported ledger summary",
+      "A four-by-three visual analogy",
+      "A favorable post-hoc rotation",
+      "Reinterpreting Laon middle month as a season label"
+    ]
+  },
+  "relations": []
+}
