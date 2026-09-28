@@ -4,13 +4,13 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Select a content contrast with independent target ownership.
-Latest decision: Aldebrandin seasons/ages share the same quality cycle;
-solar/flowering versus life-year limits differ but lack f85r2 word owners.
-Working files: Sloane2435 source note; GDT1042/1043; GDT1060.
+Task: Find an independently owned meaning relation for a complete reading.
+Latest decision: f85r2 exact GDT624 forms oppose East tch / West ksh;
+North/South have none. One exposed leaf, no four-core or word reading.
+Working files: f85r2 grid note; Sloane2435 note; GDT1042/1043.
 Assumptions: ch=dry provisional; k/t sign open; dair root unexportable;0 words.
-Resume: Leave f85r2 cycle untested; seek an independently owned content
-contrast elsewhere. No kooiin/exact-label rerun.
+Resume: Retain East/West as formal constraint; seek a meaning owner
+elsewhere. No f85r2 sector-count or kooiin/exact-label rerun.
 Running: None. IDEA614 untested;610/611 parked;612 tested;613 raw.
 
 ## Structural baseline
