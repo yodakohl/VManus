@@ -4,12 +4,13 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Find an independent meaning owner.
-Latest decision: f9v is sole Viola-like owner among14 admitted herbal images;
-`fochor` occurs once. 1485 Yacea cannot establish a c1420 name; no word.
-f68 paired-sky sources lack text ownership; f69r wind lacks orientation.
-Working files: f9v Jacea dossier; f68 source dossier; idea registry.
-Assumptions: image family is not a word map; readings are one manuscript.
+Task: Find an independent word owner.
+Latest decision: f9v sole Viola-like image of14; `fochor` singleton,
+name/address rival. BnF violet pair and Arsenal Trinité trifoliate show
+historical name ambiguity, no f9v link. Oxford MS17 season/age/wind
+conjunction is source-only; f68/f69/f85 labels remain unowned. Zero words.
+Working files: f9v source decisions; f68/f85 dossiers; idea registry.
+Assumptions: images are not lexical maps; readings are one manuscript.
 Resume: Seek a new owned relation; screen route and scope first.
 Running: None.
 
