@@ -4,16 +4,16 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Select next meaning-bearing route after complete GDT1083 native audit.
-Latest decision: GDT1083 checked all eight GDT1082 label/prose repeats on
-f75v/f99v: zero native singular owners (7 ambiguous, 1 none). Shaft labels
-`qokal`/`dal` remain positional, not meanings. GDT1071 `otor` unbound.
-Working files: GDT1083; GDT1071; IDEA623 parked.
+Task: Seek an independent semantic anchor after GDT1084's four-pair formal test.
+Latest decision: GDT1084 source-STA same-plant mapping fails all-reader unique-
+best gate (ZL/IT/RF p=5/24,4/24,5/24); only 2/4 own pairs hit.
+f18v.8 and f19r.11 rare motif cells are exploratory, not meanings.
+Working files: GDT1084; SNPL001; GDT1083; IDEA668/669 unreviewed.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
-Resume: Seek a genuinely discriminating semantic anchor beyond mere image
-proximity. Route-check, predecessor primaries, then smallest fixed test.
-Running: none.
+Resume: Review truly new image/text relation or stronger external named source;
+route-check and primary predecessors, then smallest fixed test.
+Running: bounded idea producer when testing.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

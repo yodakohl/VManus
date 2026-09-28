@@ -1,0 +1,84 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Four-pair manuscript-internal formal recurrence only; no plant name, lexeme, language, sound, plaintext, or translation",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1084_source_native_four_plant_bridge/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1084_source_native_four_plant_bridge/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT352"
+  ],
+  "experiment_id": "GDT1084",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/public_repeated_plant_source_native_capacity.json",
+      "role": "frozen source or prior",
+      "sha256": "a16700eafc88653c3b95f8fcd840a4c86a185ca240a0e19123e880a46373cb2e"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv",
+      "role": "frozen source or prior",
+      "sha256": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1084_source_native_four_plant_bridge/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "e4841b845838bea7f6149af16ce683a694ea329a687284f892a4ee0e746c4ab9"
+    },
+    {
+      "path": "experiments/yolo/gdt1084_source_native_four_plant_bridge/README.md",
+      "role": "reproducibility packet",
+      "sha256": "0db1c3717562fc09266c117e0cbfb819121c30447d537394041b088e88bd8dd0"
+    },
+    {
+      "path": "experiments/yolo/gdt1084_source_native_four_plant_bridge/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "bd466c6a51abc20ea9f7a6e8a9645d6c34e67d369aed14a396c3247cae1a7525"
+    },
+    {
+      "path": "experiments/yolo/gdt1084_source_native_four_plant_bridge/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1084_source_native_four_plant_bridge/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "e27029abf8ce9ced958a71572073a5b18ebc8384aa3d6dff8b352711a13fb757"
+    },
+    {
+      "path": "experiments/yolo/gdt1084_source_native_four_plant_bridge/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "af43df0999c76e6d504b45fdbc203030a82da56238e3a052dc1db8b7e43dd315"
+    },
+    {
+      "path": "experiments/yolo/gdt1084_source_native_four_plant_bridge/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "55a50c0e0b132ad63ed48406c31328accc3d090ad1d48b7a42bc6cbaa9267314"
+    },
+    {
+      "path": "experiments/yolo/gdt1084_source_native_four_plant_bridge/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "7ec2f92240a42465e5ef640de53b4474e6743c45f427d61bcda699a1e752e6b6"
+    }
+  ],
+  "question": "Do the four source-documented Herbal/pharmaceutical same-plant pairs share source-STA motifs more consistently than all 24 pairings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "source_native_four_plant_bridge",
+  "status": "COMPLETE",
+  "title": "source native four plant bridge",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1084_source_native_four_plant_bridge/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
