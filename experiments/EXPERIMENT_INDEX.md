@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1077**
-- Experiment-associated tracked files: **21,168** (1.9 GiB)
-- Structured GDT337+ experiments: **742**
+- Experiments indexed: **1079**
+- Experiment-associated tracked files: **21,220** (1.9 GiB)
+- Structured GDT337+ experiments: **744**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,14 +20,19 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1079 | f85 f68 luminary ring exact overlap | `NO_RARE_SUN_ONLY_EXACT_BRIDGE` | [report](../experiments/yolo/gdt1079_f85_f68_luminary_ring_exact_overlap/REPORT.md) | 9 | 51.8 KiB | 5 | STRUCTURED_YOLO |
+| GDT1080 | GDT1080 | `COMPLETE_NO_DIRECTIONAL_BINDING` | [report](../experiments/yolo/gdt1080_chor_shor_visual_direction/REPORT.md) | 10 | 28.6 KiB | 3 | STRUCTURED_YOLO |
+| GDT1079 | GDT1079 | `NO_RARE_SUN_ONLY_EXACT_BRIDGE` | [report](../experiments/yolo/gdt1079_f85_f68_luminary_ring_exact_overlap/REPORT.md) | 9 | 51.8 KiB | 5 | STRUCTURED_YOLO |
+| GDT1078 | GDT1078 | `SAME_FOLIO_R_CONTEXT_GATE_FAIL` | [report](../experiments/yolo/gdt1078_terminal_rl_same_folio_control/REPORT.md) | 12 | 1016.4 KiB | 3 | STRUCTURED_YOLO |
+| GDT1077 | GDT1077 | `R_CONTEXT_LEAD__NO_PHONETIC_OR_SEMANTIC_VALUE` | [report](../experiments/yolo/gdt1077_terminal_rl_next_initial_class/REPORT.md) | 12 | 1.2 MiB | 3 | STRUCTURED_YOLO |
+| GDT1076 | GDT1076 | `NO_CAPACITY__SAME_BASE_FOLLOWER_CONTROL_MISSING` | [report](../experiments/yolo/gdt1076_py_same_base_follower_residual/REPORT.md) | 13 | 43.1 KiB | 5 | STRUCTURED_YOLO |
+| GDT1075 | GDT1075 | `WITHIN_REGISTER_FORMAL_DIRECTION__NO_MEANING` | [report](../experiments/yolo/gdt1075_py_section_hand_confound/REPORT.md) | 12 | 31.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT1074 | GDT1074 | `ROBUST_FORMAL_DIRECTION_FIVE_BASES__NO_MEANING` | [report](../experiments/yolo/gdt1074_physical_paragraph_pair_robustness/REPORT.md) | 12 | 75.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT1073 | GDT1073 | `INVALID_RF_PARAGRAPH_METADATA__ZL_IT_DIRECTIONAL_DIAGNOSTIC` | [report](../experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/REPORT.md) | 11 | 27.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT1072 | GDT1072 | `CROSS_REGISTER_OCCURRENCES__STAR_EXCLUSIVE_DEFAULT_DISFAVORED__MEANING_OPEN` | [report](../experiments/yolo/gdt1072_otor_full_admitted_context/REPORT.md) | 11 | 25.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT1071 | GDT1071 | `ONE_LOCAL_STAR_LABEL_PROSE_CANDIDATE__MEANING_OPEN` | [report](../experiments/yolo/gdt1071_thirty_page_strict_label_prose_bridge/REPORT.md) | 13 | 92.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1070 | GDT1070 | `DESCRIPTIVE_80_OF89_SINGLETON_FOCHOR_UNIQUENESS_NONDISCRIMINATING` | [report](../experiments/yolo/gdt1070_first_head_collision_capacity/REPORT.md) | 11 | 16.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT1069 | GDT1069 | `DESCRIPTIVE_16_OF23_ALL_READER_EXACT_DEFINITE_NO_MEANING` | [report](../experiments/yolo/gdt1069_first_herbal_head_boundary/REPORT.md) | 11 | 26.2 KiB | 3 | STRUCTURED_YOLO |
-| GDT1068 | f67r2 f69r whole title overlap | `NO_COMPLETE_LITERAL_TITLE_TRANSFER` | [report](../experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/REPORT.md) | 10 | 19.7 KiB | 3 | STRUCTURED_YOLO |
+| GDT1068 | GDT1068_f67r2_f69r_whole_title_overlap | `NO_COMPLETE_LITERAL_TITLE_TRANSFER` | [report](../experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/REPORT.md) | 10 | 19.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT1067 | GDT1067_f69r_wind_polarity_identifiability | `POLARITY_NONIDENTIFIABLE_UNDER_EXISTING_GEOMETRY` | [report](../experiments/yolo/gdt1067_f69r_wind_polarity_identifiability/REPORT.md) | 11 | 20.5 KiB | 0 | STRUCTURED_YOLO |
 | GDT1066 | GDT1066_f81r_rare_opening_pair_control | `DESCRIPTIVE_ONE_OF_NINE_RARE_OPENING_PAIR_NO_MEANING` | [report](../experiments/yolo/gdt1066_f81r_rare_opening_pair_control/REPORT.md) | 10 | 19.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1065 | GDT1065_IDEA643_same_record_capacity | `ZERO_STRICT_CAPACITY__NOT_TESTED_MEANING` | [report](../experiments/yolo/gdt1065_h1_h4_same_record_capacity/REPORT.md) | 10 | 22.2 KiB | 5 | STRUCTURED_YOLO |
@@ -100,7 +105,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT998 | GDT998_compositional_paradigm_features | `CONTRADICTED_COMPLETE_FEATURE_TABLES` | [report](../experiments/yolo/gdt998_compositional_paradigm_features/REPORT.md) | 22 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT997 | GDT997_transport_finite_completion_capacity | `RETAIN_COMPLETE_EXPOSED_EXTENSION` | [report](../experiments/yolo/gdt997_transport_finite_completion_capacity/REPORT.md) | 25 | 4.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT996 | GDT996 | `RETAIN_WITH_UNRESOLVED_SOURCE_PREMISE` | [report](../experiments/yolo/gdt996_f83r_candidate_seam_consequences/REPORT.md) | 23 | 4.7 MiB | 4 | STRUCTURED_YOLO |
-| GDT995 | GDT995_conditional_inverse_closure | `RETROSPECTIVE_CONDITIONAL_RECOVERY_45_OF_48` | [report](../experiments/yolo/gdt995_conditional_suffix_inverse/REPORT.md) | 22 | 4.0 MiB | 5 | STRUCTURED_YOLO |
+| GDT995 | GDT995_conditional_inverse_closure | `RETROSPECTIVE_CONDITIONAL_RECOVERY_45_OF_48` | [report](../experiments/yolo/gdt995_conditional_suffix_inverse/REPORT.md) | 28 | 6.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT994 | GDT994_frozen_whole_transfer_closure | `PARK_UNCHANGED_WHOLE_TRANSFER` | [report](../experiments/yolo/gdt994_frozen_transport_whole_transfer/REPORT.md) | 16 | 3.9 MiB | 2 | STRUCTURED_YOLO |
 | GDT993 | GDT993_complete_transport_closure | `CONDITIONAL_READING_RETAINED_NONUNIQUE` | [report](../experiments/yolo/gdt993_complete_transport_consequence_audit/REPORT.md) | 24 | 465.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT992 | GDT992_complete_sunzi_closure | `NO_LITERAL_COMPLETE_READING` | [report](../experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md) | 28 | 1.5 MiB | 5 | STRUCTURED_YOLO |
@@ -171,10 +176,10 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT927 | GDT927 | `COMPLETE_FIXED_CONTINUATION_AUDIT` | [report](../experiments/yolo/gdt927_chor_continuation_full_context_audit/REPORT.md) | 20 | 658.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT926 | GDT926 | `COMPLETE_EXPOSED_CONTEXT_INVENTORY` | [report](../experiments/yolo/gdt926_repeated_context_continuation_atlas/REPORT.md) | 20 | 2.3 MiB | 1 | STRUCTURED_YOLO |
 | GDT925 | GDT925_whole_line_word_multiset_discovery | `COMPLETE_EXPLORATORY_CENSUS` | [report](../experiments/yolo/gdt925_whole_line_word_multiset_discovery/REPORT.md) | 14 | 110.1 KiB | 1 | STRUCTURED_YOLO |
-| GDT924 | GDT924_f106v_fixed_candidate_native_audit_final | `NATIVE_INPUT_UNRESOLVED` | [report](../experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md) | 22 | 3.1 MiB | 1 | STRUCTURED_YOLO |
+| GDT924 | GDT924_f106v_fixed_candidate_native_audit_final | `NATIVE_INPUT_UNRESOLVED` | [report](../experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md) | 24 | 6.1 MiB | 1 | STRUCTURED_YOLO |
 | GDT923 | GDT923_fixed_word_key_even_paragraph_compatibility_final | `NO_INFORMATIVE_COMPATIBILITY` | [report](../experiments/yolo/gdt923_fixed_word_key_even_paragraph_compatibility/REPORT.md) | 27 | 12.0 MiB | 3 | STRUCTURED_YOLO |
 | GDT922 | GDT922_identical_remainder_chsh_order_final | `ORDER_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt922_identical_remainder_chsh_order/REPORT.md) | 17 | 4.5 MiB | 1 | STRUCTURED_YOLO |
-| GDT921 | GDT921_royal_seasons_topology_final | `PARTIAL_SOURCE_TOPOLOGY_NO_OWNED_VALUES` | [report](../experiments/yolo/gdt921_royal_seasons_two_register_topology/REPORT.md) | 17 | 36.2 KiB | 0 | STRUCTURED_YOLO |
+| GDT921 | GDT921_royal_seasons_topology_final | `PARTIAL_SOURCE_TOPOLOGY_NO_OWNED_VALUES` | [report](../experiments/yolo/gdt921_royal_seasons_two_register_topology/REPORT.md) | 20 | 2.6 MiB | 0 | STRUCTURED_YOLO |
 | GDT920 | GDT920_paragraph_gallows_wholeform_bridge_final | `BRIDGE_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/REPORT.md) | 18 | 11.0 MiB | 1 | STRUCTURED_YOLO |
 | GDT919 | GDT919_complete_sator_word_equations | `NO_COMPLETE_SATOR_EQUATION_FIT` | [report](../experiments/yolo/gdt919_complete_sator_word_equations/REPORT.md) | 15 | 28.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT918 | GDT918_reciprocal_center_serial_transfer | `NOMINATION_CAPACITY_STOP_NO_EVALUATION` | [report](../experiments/yolo/gdt918_reciprocal_center_serial_transfer/REPORT.md) | 17 | 35.8 KiB | 1 | STRUCTURED_YOLO |
@@ -495,6 +500,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT603 | GDT603_naibbe_end_to_end_control | `END_TO_END_NAIBBE_CONTROL_RECOVERED_AT_PUBLIC_CAPACITY` | [report](../experiments/yolo/gdt603_naibbe_end_to_end_control/REPORT.md) | 13 | 1.0 MiB | 2 | STRUCTURED_YOLO |
 | GDT602 | GDT602_naibbe_blind_key_recovery | `NAIBBE_KEY_RECOVERED_CONDITIONAL_ON_ORACLE_SEGMENTATION` | [report](../experiments/yolo/gdt602_naibbe_blind_key_recovery/REPORT.md) | 11 | 42.7 KiB | 1 | STRUCTURED_YOLO |
 | GDT601 | GDT601_naibbe_literal_key_attack | `LITERAL_NAIBBE_KEY_REJECTED_ON_F84_FREE_91_FOLIO_CORPUS` | [report](../experiments/yolo/gdt601_naibbe_literal_key_attack/REPORT.md) | 11 | 40.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT600 | complete object surface grammar | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt600_complete_object_surface_grammar/REPORT.md) | 31 | 3.6 MiB | 2 | STRUCTURED_YOLO |
 | GDT599 | GDT599_remaining_action_object_completion | `PASS_793_REMAINING_OBJECTS__1443_OF_1443_ACTIONS_COMPLETE__313_OF_313_STATEMENTS_COMPLETE__11_LOCAL_WORKSHOP_DECISIONS__46_AIIN_QUANTITY_BINDINGS__9_Q_CIRCULAR_TARGETS_BLOCKED__0_UNFILLED` | [report](../experiments/yolo/gdt599_remaining_action_object_completion/REPORT.md) | 32 | 3.0 MiB | 6 | STRUCTURED_YOLO |
 | GDT598 | GDT598_six_page_object_statement_integration | `PASS_313_STATEMENTS__2272_HOSTS__1443_ACTIONS__650_OBJECT_COMPLETE__793_GAPS__71_COMPLETE__229_MIXED__13_GAP_ONLY__298_PARTICIPANT_PACKET__46_AIIN_ONLY__449_CARRIERLESS__36_MULTI_EVENTS__10_STRING_HAZARDS__0_SLOT_COLLISIONS` | [report](../experiments/yolo/gdt598_six_page_object_statement_integration/REPORT.md) | 22 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT597 | GDT597_nonsh_action_object_reference_phrasebook | `PASS_396_NONSH_ACTION_OBJECTS__219_WRITTEN__77_LEFT__4_RIGHT__96_DEFAULT__0_UNFILLED` | [report](../experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md) | 24 | 355.2 KiB | 7 | STRUCTURED_YOLO |
@@ -1093,7 +1099,3 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT003 | GDT003 | `UNREGISTERED` | [report](../GDT003_NESTED_HELDOUT_REPORT.md) | 43 | 19.4 MiB | 2 | LEGACY_ROOT |
 | GDT002 | GDT002_existing_annotation_route_synthesis | `CURRENT_EXISTING_ANNOTATION_GROUNDING_CAPACITY_EXHAUSTED` | [report](../experiments/yolo/GDT002_EXISTING_ANNOTATION_ROUTE_STATUS.md) | 98 | 11.8 MiB | 1 | LEGACY_ROOT |
 | GDT001 | GDT001 | `UNREGISTERED` | [report](../GDT001_CURRENT_SUMMARY.md) | 305 | 76.2 MiB | 0 | LEGACY_ROOT |
-| GDT1075 | GDT1075 | `WITHIN_REGISTER_FORMAL_DIRECTION__NO_MEANING` | [report](../experiments/yolo/gdt1075_py_section_hand_confound/REPORT.md) | 12 | 31.4 KiB | 4 | STRUCTURED_YOLO |
-| GDT1076 | GDT1076 | `NO_CAPACITY__SAME_BASE_FOLLOWER_CONTROL_MISSING` | [report](../experiments/yolo/gdt1076_py_same_base_follower_residual/REPORT.md) | 13 | 43.1 KiB | 5 | STRUCTURED_YOLO |
-| GDT1077 | GDT1077 | `R_CONTEXT_LEAD__NO_PHONETIC_OR_SEMANTIC_VALUE` | [report](../experiments/yolo/gdt1077_terminal_rl_next_initial_class/REPORT.md) | 12 | 1.2 MiB | 3 | STRUCTURED_YOLO |
-| GDT1078 | GDT1078 | `SAME_FOLIO_R_CONTEXT_GATE_FAIL` | [report](../experiments/yolo/gdt1078_terminal_rl_same_folio_control/REPORT.md) | 12 | 1016.4 KiB | 3 | STRUCTURED_YOLO |

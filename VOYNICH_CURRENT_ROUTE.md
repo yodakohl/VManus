@@ -4,18 +4,17 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Seek an independent meaning-binding consequence.
-Latest decision: GDT1079 finds zero exact f85r2/f68r2 ring group overlap
-in every reader; literal reuse fails. `okeo` has no ring-only gloss.
-f9v `chor`/`shor` cannot orient flower/fruit; GDT791 has no direct labels.
-`Jacea` names a pansy in 1485, but older glossaries differ: no circa-1420
-priority for `fochor`. M.941's urinal physician is prognostic; f85r2 stays open.
+Task: Find an independent word referent.
+Latest decision: GDT1080 tested all 32 admitted GDT364 flower/berry/none
+image pages for exact `chor`/`shor`. Aggregate flower/berry OR is 1.613
+in ZL3b, below its frozen 2.0 gate; f4 and f17 within-folio signs conflict.
+Flower/fruit direction stays tied. GDT1079 found zero f85r2/f68r2
+ring overlap; `okeo` has no ring gloss. f9v Jacea is C0; name/address open.
 GDT1078 r/l same-folio fails; GDT1074 p/y positions survive without glosses.
-Working files: GDT1079; f9v notes; f85 sources.
-Assumptions: alternate readers; `fochor≈pansy-like Viola` is C0; name
-versus generic address unresolved.
-Resume: Seek an independently owned word referent or fixed full-passage
-consequence that separates name from address.
+Working files: GDT1080; GDT768.
+Assumptions: alternate readers are one manuscript; image classes are not
+independent word referents; `fochor≈pansy-like Viola` remains C0.
+Resume: Audit a new referent or full-passage consequence; leave GDT364 closed.
 Running: none.
 
 ## Structural baseline
@@ -41,7 +40,7 @@ controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primari
 Other closed families remain in the existing registry; no automatic reopening.
 
 ## Access and operating boundaries
-f84 and f84r remain sealed. f116v not admitted. Reserves closed until a nearly complete
+f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves closed until a nearly complete
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;51 visual keys/57 selectors. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
