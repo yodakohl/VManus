@@ -148,3 +148,41 @@ einen unabhängig gebundenen Zwölfersatz, eine Richtung oder eine Quelle-
 zu-Ziel-Textkorrespondenz ist kein fester Lesetest möglich. Keine neue
 Voynich-Zulassung oder Reservenutzung; das Ghenter Bild ist ein historischer
 Vergleichszeuge, keine unabhängige Voynich-Bestätigung.
+
+## Bounded Morgan M.721 source check, selected before image inspection
+
+28 September 2026. A new institutional catalogue hit describes [Morgan
+M.721 f.1v](https://ica.themorgan.org/manuscript/page/2/128486) as a firmament
+diagram with personified Sun, crescent Moon and stars, while f.5v has named
+luminaries. Unknown after the Ghent and older f67/f68 homologue searches:
+whether this specific Italian *La sfera* witness gives **two separate
+personified Sun/Moon local registers in one open, individually labeled star
+field**, with a readable ownership relation that could distinguish shared
+versus individual f68r2 inscription scope. A single common wheel or generic
+cosmography would leave the existing decision unchanged. Smallest test:
+institutional catalogue and the two named folio images only, comparing
+topology and author-visible label ownership, with no new Voynich text or
+lexeme assignment. Budget: 20 minutes for access, inspection, decision and
+publication. Its catalogue dates the witness to the later fifteenth century,
+so even a good visual parallel would be a tradition comparator, not a direct
+early exemplar.
+
+### Result
+
+The [Morgan M.721 fol.1v primary image](https://ica.themorgan.org/icaimages/7/m721.001v.jpg)
+shows one blue firmament disk with a small sun at its upper edge, a crescent
+moon at its lower edge and scattered stars inside; a long Italian poem is
+written above, with no separate star names or distinct local texts around
+the two luminaries. The [fol.5v primary image](https://ica.themorgan.org/icaimages/7/m721.005v.jpg)
+shows the sun labelled `Sole`, day and night on an earth disk, and a crescent
+moon in a different diagram, again without the f68r2 open star field or two
+ring inscriptions. These visual descriptions agree with the [institutional
+folio metadata](https://ica.themorgan.org/manuscript/page/2/128486).
+
+Thus M.721 supplies an independently dated **blue firmament with Sun, Moon and
+stars** comparator, but fails the registered two-local-register and
+individually labelled-star topology. It cannot discriminate shared versus
+separate f68r2 text scope or identify `okoaiin`, `okor` or any other word.
+The Ghent source still gives the stronger explicit paired-course heading;
+neither is an exact owner homologue. The f68r2 celestial-topic working
+hypothesis remains plausible, and confirmed Voynich words remain zero.
