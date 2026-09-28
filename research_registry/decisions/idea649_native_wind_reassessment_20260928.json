@@ -1,0 +1,28 @@
+{
+  "record_id": "IDEA000649",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root after registered GDT1081 native f69r visual preflight",
+  "reason": "The newly admitted official f69r image was inspected across all sectors. It supplies neither a named compass bearing nor a singular text-to-bearing ink leader. GDT1067's paired polarity assignments remain; no wind-word meaning test was run.",
+  "assessment_basis": "new_image_capacity_check_both_registered_gates_fail",
+  "blockers": [
+    {
+      "code": "missing_meaning_binding",
+      "detail": "No independent authorial orientation or singular outer/radial written-item owner is visible; the old eight-map symmetry remains.",
+      "evidence": ["experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/REPORT.md", "experiments/yolo/gdt1067_f69r_wind_polarity_identifiability/REPORT.md"]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "orientation_and_owner",
+        "change": "new_binding",
+        "detail": "An independently documented named bearing and singular item-to-bearing owner, or a genuinely different prespecified asymmetric consequence; not another reinterpretation of this same image.",
+        "evidence": ["experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/REPORT.md"]
+      }
+    ],
+    "not_sufficient": ["The existing color classes", "An assumed page-top north", "Brushstroke taper as an arrow", "Another spelling relaxation of exposed labels"]
+  },
+  "relations": []
+}

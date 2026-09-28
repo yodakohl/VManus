@@ -1,0 +1,100 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Postexposure image-capacity result on one physical page; no direction word, significance or independent confirmation",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT1067",
+    "GDT1068"
+  ],
+  "experiment_id": "GDT1081",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1067_f69r_wind_polarity_identifiability/REPORT.md",
+      "role": "frozen orientation ambiguity",
+      "sha256": "b7f2428a0e6a2e1cf8dd4a61859755e6af3308592a2bf7d64f0081b4cd2f98fe"
+    },
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/REPORT.md",
+      "role": "frozen complete-title nontransfer",
+      "sha256": "fdf2d613ecdc1fa163572d5109fec5f81e06f5536990efafd5e4d5bdec09471f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "eb6b40e0dc88bb95e52e946834417b4ec41ececc5b71f010d458e16bb3831e17"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/README.md",
+      "role": "reproducibility packet",
+      "sha256": "ff41803b5bd0596e6234647b0d731e4b684c75dd4b9477b2605c3a4a7ab0097f"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "215eba2c361dc390f19dab5a8d17ce9fdf29a77567f23c886b5230ab376694ee"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "e0aaf77be020179f903f6c80a820a389f28966954f0f0af7a57dae15b0f979ba"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "e114331d073e7c8c19cc1007b4e4d8797efcaa830b942ed77bfdb87da013878c"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "ee99d3644f9848af43417fdcb6c075a5ef5049a8fa3e7af4f12c3ce0311548d6"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/src/OBSERVATIONS.json",
+      "role": "reproducibility packet",
+      "sha256": "18dac86522d83cd6b17a624c78fc09ab7bc071c3e4fdb83a013015c41078200a"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/src/PAGE_ADMISSIONS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "49b5e98ac98114898c2ad2c942545d55b53ad73f44c7fe45e8e8349c8afa22c9"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/src/SOURCE.json",
+      "role": "reproducibility packet",
+      "sha256": "62e850867fa51feae5377a1f4c6d615d8671115552bc598de84cdb31721cff2a"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "b6ae89f30ce2816798f85d675b0b9be4ad3da04650c66b109478a50ff8692749"
+    },
+    {
+      "path": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "71895b01ffdf74cb20e706a8b0f1509c4fa3f7206e59f73fe6effa8e569743e9"
+    }
+  ],
+  "question": "Does newly admitted native f69r show both an independent orientation cue and a singular visual label-to-bearing owner that break the GDT1067 wind-direction symmetry?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f69r_native_wind_owner_orientation",
+  "status": "NO_LEXICAL_REOPENING",
+  "title": "f69r native wind owner orientation",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

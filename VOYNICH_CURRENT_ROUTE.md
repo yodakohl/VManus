@@ -4,17 +4,16 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Find an independent word referent.
-Latest decision: GDT1080 tested all 32 admitted GDT364 flower/berry/none
-image pages for exact `chor`/`shor`. Aggregate flower/berry OR is 1.613
-in ZL3b, below its frozen 2.0 gate; f4 and f17 within-folio signs conflict.
-Flower/fruit direction stays tied. GDT1079 found zero f85r2/f68r2
-ring overlap; `okeo` has no ring gloss. f9v Jacea is C0; name/address open.
-GDT1078 r/l same-folio fails; GDT1074 p/y positions survive without glosses.
-Working files: GDT1080; GDT768.
+Task: Audit a new independently owned action/referent.
+Latest decision: GDT1081 native f69r: no independent compass bearing or
+singular ink text-to-wind owner across all16 outer sectors,12 spokes and22
+radial loci. GDT1067 polarity remains paired; no wind word. GDT1080's
+flower/fruit `chor`/`shor` direction stays tied (OR1.613 below gate).
+Working files: GDT1081; IDEA655; GDT790.
 Assumptions: alternate readers are one manuscript; image classes are not
 independent word referents; `fochor≈pansy-like Viola` remains C0.
-Resume: Audit a new referent or full-passage consequence; leave GDT364 closed.
+Resume: Read IDEA655/GDT790 primaries, inspect existing admitted action
+owners only; propose a fixed test only if action-to-text binding is new.
 Running: none.
 
 ## Structural baseline
@@ -42,9 +41,9 @@ Other closed families remain in the existing registry; no automatic reopening.
 ## Access and operating boundaries
 f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves closed until a nearly complete
 plausible reading. Prior exposure is not independent confirmation.
-179 text selectors;51 visual keys/57 selectors. f1r margins only;
+179 text selectors;52 visual keys/58 selectors, including GDT1081 f69r image only. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
-[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [base](docs/VOYNICH_DATA_SCOPE.md). No outside contacts.
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [update](docs/VOYNICH_DATA_SCOPE_20260928_WIND_IMAGE.md); [base](docs/VOYNICH_DATA_SCOPE.md). No outside contacts.
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r

@@ -1,0 +1,28 @@
+{
+  "record_id": "IDEA000661",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root after registered GDT1081 native f69r visual preflight",
+  "reason": "The f69r image is now specifically admitted, so the previous no-image-admission blocker is removed. Whole-panel inspection still finds no independent outer-to-radial item map or named orientation. The proposed relation meaning remains untestable, not refuted.",
+  "assessment_basis": "new_image_admission_capacity_check_no_independent_owner",
+  "blockers": [
+    {
+      "code": "missing_meaning_binding",
+      "detail": "Sixteen outer items, twenty-two radial loci and twelve colored bars are not singularly linked by visible authorial marks; same-wedge proximity was already nonconfirming in FXR001.",
+      "evidence": ["experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/REPORT.md", "research_registry/decisions/idea660_661_image_scope_correction_20260928.md"]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "f69r_independent_register_owner",
+        "change": "new_binding",
+        "detail": "A new author-visible or independently sourced singular map between outer and radial written items plus a bearing or a different fixed asymmetric whole-register consequence.",
+        "evidence": ["experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/REPORT.md"]
+      }
+    ],
+    "not_sufficient": ["The new image admission alone", "Angle proximity", "Twelve-plus-sixteen color geometry", "Repeating unchanged FXR001"]
+  },
+  "relations": []
+}
