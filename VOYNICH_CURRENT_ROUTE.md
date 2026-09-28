@@ -4,17 +4,17 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Find an independent semantic owner.
-Latest decision: IDEA655 bath gestures stay untested: admitted f77r/f82r/f83r
-panels have no singular actor/patient-to-word bridge. GDT1081 f69r has no
-bearing or singular text-to-wind owner; GDT1067 polarity remains paired.
-GDT1080 `chor`/`shor` flower/fruit direction stays tied.
-Working files: IDEA655 decision; GDT1063/1064; IDEA623.
-Assumptions: one manuscript, three readers; image class is no word meaning;
+Task: Audit eight nonstrict same-page label/prose overlaps.
+Latest decision: GDT1082's eleven later full-page admissions: 80 local ZL
+labels, eight exact same-page repeats, zero singular owners. GDT1071 `otor`
+remains unbound. IDEA655 bath action missing; GDT1081 wind unresolved.
+Working files: GDT1082; GDT852 f75v; GDT881 f99v; IDEA623 parked.
+Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
-Resume: Audit IDEA623's f9v source-trait route against first-head/Jacea
-countercases; require a complete reading that separates source models.
-Running: bounded f85r2 source comparison agent.
+Resume: Inspect all eight f75v/f99v native loci against existing owner reports.
+Register a visual test only for an author-visible singular leader; preserve
+GDT1082's fixed result.
+Running: none.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

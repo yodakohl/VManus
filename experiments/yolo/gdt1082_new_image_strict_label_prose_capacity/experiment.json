@@ -1,0 +1,150 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete changed-scope annotation capacity only; no new singular label/prose candidate, independent meaning, translation or significance",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT791",
+    "GDT1071"
+  ],
+  "experiment_id": "GDT1082",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1071_thirty_page_strict_label_prose_bridge/REPORT.md",
+      "role": "frozen prior or source",
+      "sha256": "32574ffc4c2ab656b39dc88722a27066e2e15b33e87ffefa69441d03c3d99e3c"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "frozen prior or source",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen prior or source",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv",
+      "role": "frozen prior or source",
+      "sha256": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "frozen prior or source",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv",
+      "role": "frozen prior or source",
+      "sha256": "1636a5868a86fca239156772119d41cca52ec8044b616f3110507289452fab0b"
+    },
+    {
+      "path": "experiments/yolo/gdt844_ychor_visual_subentry/src/PAGE_ADMISSIONS.tsv",
+      "role": "frozen prior or source",
+      "sha256": "2c4eb51f70bff562d70bc045ded0819b789abcb6b96e97c8e27649703c55cdf4"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/src/PAGE_ADMISSIONS.tsv",
+      "role": "frozen prior or source",
+      "sha256": "9e1e364483310c700690569692ad742f2c24ab34eb7fa4a6456d0455620aa86e"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/src/PAGE_ADMISSIONS.tsv",
+      "role": "frozen prior or source",
+      "sha256": "817f117c9c5e57fb5c2d33a644fdfc6624c17183929031927568894d85aec561"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/src/PAGE_ADMISSIONS.tsv",
+      "role": "frozen prior or source",
+      "sha256": "a53e12843ba78cf00f4a3be75bc5d26d1593ba30b13e8531693e89fe7cea91f3"
+    },
+    {
+      "path": "experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/src/PAGE_ADMISSIONS.tsv",
+      "role": "frozen prior or source",
+      "sha256": "e0bdfd3bf63834ff883cc8e8facdfa36a5fa64d55398f0cd2877146b4d88eed3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "d652ebe51db83fff0e8c950c555e614e3be5b4c5bc9dcb396432a6e4fb5376eb"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/README.md",
+      "role": "reproducibility packet",
+      "sha256": "87364598c51c121352392bf09d2876bdc52a6582e38d2369fb5d28935e6552b6"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "77eb39ddf243beed363d8d628073e59aaa971a146eabe13943ebbe9f21d0c31e"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/artifacts/GUARD.txt",
+      "role": "reproducibility packet",
+      "sha256": "021c141ca916acfd9177447e4eb20c25cb8ac0d3c3365ac79fc85c80dc2300bd"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/artifacts/LABELS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "b0ed34357eb28e9634a974df0179dbefdc95e99daf386529f6ceeee8a281c38c"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/artifacts/MATCHES.tsv",
+      "role": "reproducibility packet",
+      "sha256": "08e6ed9b246b783856224a74e5aa1dab4a2ab68866adb8cc98353aa26feed376"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "f05d8fec57478e10380cedc8c7777477dbb0b40019ef190f55b9fdb3bda76622"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "9e30d3bc29415085a79e2007ca0cc7d14cde63bf8f2beff86b05e3276b15b02f"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "937d6a00b109d9bc133390785b44c06c963591ad4c2b8e89c7df2d67adfd9211"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/src/SELECTORS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "f789a901626669f260993258b97e800c3b28fdc5c12eef583f3243f8866565d3"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "87e00d129de489a9df963f765a52239c539520372f2c4eaa3ccafd48d6e63767"
+    },
+    {
+      "path": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "513a55445353d399b4b59b9f2049a9a420c3cdc4a4d8a16da5ec43d9a390f4fe"
+    }
+  ],
+  "question": "Do all eleven later full-page image-and-text admissions contain a new locally singular exact same-page label/prose bridge absent from GDT1071?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "new_image_strict_label_prose_capacity",
+  "status": "NO_NEW_STRICT_SAME_PAGE_CANDIDATE",
+  "title": "Later-admitted strict local label/prose capacity",
+  "updated": "2026-09-28",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/artifacts/VALIDATION.json"
+  }
+}
