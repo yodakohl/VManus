@@ -155,3 +155,52 @@ closed; confirmed Voynich word meanings remain zero. Reopen only on a dated
 source entry that independently identifies the pictured *Viola*-like plant
 and supplies a contrastive written relation, or on an independent target-side
 name/address discriminator.
+
+### Fixed image-capacity check for IDEA621, declared before the contact sheet
+
+Unknown after GDT1063: whether any of the **fourteen already admitted Herbal
+image keys** f2r, f4r, f6v, f9v, f10r, f11r, f13r, f17r, f18r, f20v,
+f21r, f24v, f31r, f32v depicts a second plausible *Viola*-family owner.
+This can change only IDEA621's visual-owner capacity, not establish a word.
+The smallest check is one complete labeled contact sheet from the already
+cached Yale renditions, followed by targeted inspection of any image with
+individual five-petalled flowers **and** compatible simple leaves/stipules.
+No Voynich prose is opened until all fourteen image judgments are written.
+The known counterexample is GDT1059: `kooiin` heads visually different f2v
+and f29v, so even a repeated head would not prove a plant name. Also GDT1063
+has already found exact `fochor` only once in the 179-selector corpus: the
+literal-repeat form of IDEA621 has no current capacity, irrespective of
+visual findings. A productive change would require a predeclared, independently
+licensed whole-form relation rather than post hoc substring matching.
+Budget: 35 minutes for sheet, manual judgments, scope check, decision and
+publication; no new image admission, OCR, embedding search or classifier.
+
+#### Complete admitted-image result
+
+The fourteen cached, admitted folio images were inspected together in one
+labeled contact sheet; f10r, f11r and f24v were then viewed individually
+because their blue flowers are the nearest superficial alternatives. These
+are observations of drawn traits, not modern species identifications.
+
+| Image keys | Visible reason they do not supply a second f9v-like owner |
+| --- | --- |
+| f2r, f17r, f18r, f31r | Terminal clustered/spiky heads rather than the f9v separate five-petal blue-and-pale flowers. |
+| f4r, f21r | Tiny distributed branch structures, no corresponding showy five-petal flowers. |
+| f6v | Round dark heads with radiating green structures, no f9v corolla. |
+| f10r | One large blue composite-like head with a patterned centre and broad toothed leaves; not f9v's separate asymmetric flowers and lanceolate leaves. |
+| f11r | Dense mound of many small blue narrow-petalled flowers, multiple thick root stems; no f9v blue-and-pale flowers or its simple/stipule leaf combination. |
+| f13r | Large rounded leaves and a very small terminal blue structure; no repeated f9v-like individual flowers. |
+| f20v | Thin grasslike leaves and scattered small blue marks; the f9v leaf and flower combination is absent. |
+| f24v | Large blue funnel/irregular blossoms above round long-stalked leaves and tuberous roots; neither f9v's corolla form nor its leaf arrangement. |
+| f32v | Dark blue trumpet/star-like flowers and deeply lobed leaves; no f9v combination. |
+| f9v | The reference itself: several individual blue/pale flowers with five unequal petals and mixed simple/divided leaflike parts (GDT1063). |
+
+Within this **complete fixed fourteen-image set**, no second independently
+plausible *Viola*-like owner survives the declared two-trait screen. The
+screen has limited botanical resolution and says nothing about unadmitted
+images. More decisively for the literal form of IDEA621, `fochor` was already
+unique in all 179 admitted text selectors before the images were viewed; an
+exact shared-whole test is impossible with the current corpus. The scan
+therefore changes IDEA621's **capacity** to `NOT_TESTED_NO_SECOND_OWNER`, not
+the truth of the name hypothesis. The f9v C0 illustration/name reading
+remains replaceable; no Voynich word is confirmed.

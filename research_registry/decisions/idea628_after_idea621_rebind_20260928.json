@@ -1,0 +1,46 @@
+{
+  "record_id": "IDEA000628",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root, evidence rebind after separate IDEA621 complete image-capacity result",
+  "reason": "The five-witness source search supplies no independently identified pre-1450 wild-pansy entry with a contrastive relation. Carrara f94r is Viola odorata; Belluno index and Brussels/Roccabonella searches lack a target locator; Guarnerino 1441 f108r trinitas visibly has three-lobed leaves and blue star flowers, supporting a Hepatica-type homonym rather than Viola tricolor. The 1485 Mainz Yacea recipe remains unbound to any f9v lexeme; fochor name/address is open. The later fourteen-image check is a separate IDEA621 capacity result: no second f9v-like admitted owner and exact fochor is unique; it does not change IDEA628 source-owned relation or missing target binding.",
+  "assessment_basis": "bounded_exploratory_five_witness_source_capacity_review_no_fixed_target_test",
+  "blockers": [
+    {
+      "code": "insufficient_independent_data",
+      "detail": "The bounded pre-1450/mid-century five-witness search found no independently identified wild-pansy target/rival pair with an explicit written relation; Guarnerino trinitas is a botanical homonym.",
+      "evidence": [
+        "research_registry/decisions/f9v_jacea_full_entry_capacity_20260928.md",
+        "experiments/yolo/gdt1064_f9v_jacea_historical_synonym/REPORT.md"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "detail": "No term in the source's multi-step preparation is independently bound on f9v, and fochor can still be a name or an entry address.",
+      "evidence": [
+        "research_registry/decisions/f9v_jacea_full_entry_capacity_20260928.md",
+        "experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md",
+        "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "source_owned_distinctive_relation",
+        "change": "new_data",
+        "detail": "Obtain a dated, independently identified, preferably pre-1450 plant entry and explicit rival with a relation or exception capable of discriminating complete f9v readings before target scoring, or independently bind a target-side term in the whole entry.",
+        "evidence": [
+          "research_registry/decisions/f9v_jacea_full_entry_capacity_20260928.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A later alias and whole source recipe without an independent target binding",
+      "A single apparent quality match or shared chor substring after seeing f9v",
+      "A trinitas name without its visual taxon; the 1441 Guarnerino folio depicts a Hepatica-type plant"
+    ]
+  },
+  "relations": []
+}
