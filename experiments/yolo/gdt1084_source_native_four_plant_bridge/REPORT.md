@@ -1,5 +1,9 @@
 # GDT1084 result
 
+## Post-publication predecessor correction
+
+The exact predecessor [SNPL002](../../semantic_assumptions/results/snpl002_source_native_local_query_target.md) had already tested the **same four fixed relations, target pages, source-STA 4/5-member windows, and 24 assignments**. It reported `NO_SOURCE_NATIVE_LOCAL_REFERENCE_RECOVERY`, pooled p=5/24, and the same two true-pair recurrences amid wrong-pair matches. GDT1084 changes the weighting to a maximum rarity score, but this is not new data or a genuinely different meaning falsifier. Treat GDT1084 as a redundant computational sensitivity/reproduction, **not as a new scientific advance or a reopened route**. The negative decision and complete matrix below remain the executed record; the original SNPL002 decision has priority.
+
 Decision: **NO_FOUR_PAIR_FORMAL_SIGNAL**. The four source-described pairs were fixed before target-prose access in this pass.
 
 The two reproducible local hits are f102r2.21→f18v.8 (`B1 A3 C1 A1`, 2/92 background pages in ZL3b) and f102v1.17→f19r.11 (`B2 A1 B1 A2`, 7/92). The f89v2.6 label misses its proposed f48v page yet scores on f18v; f102r2.22 misses all four. This cross-hit and the two misses prevent the observed four-pair mapping from being uniquely best. The two successful cells remain exploratory loci, not plant-specific words.
