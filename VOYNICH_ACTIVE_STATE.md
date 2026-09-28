@@ -693,7 +693,9 @@ instead of loading the full historical ledger or idea backlog into context.
 
 Correction 2026-09-28: Yale1006243 is **f95v1**, while numbered seven-line
 Yale1006242 is **f95v2**. The two viewers' local topology decision survives
-for1006243 only; GDT866's f95v2 source attribution is withdrawn. See
+for1006243 only; GDT866's f95v2 source attribution is withdrawn. GDT404's
+single-drawing owner for both f95v panels, inherited by GDT407/413/416 and
+GDT581/582/586–589, is also withdrawn; text/parser counts remain. See
 `research_registry/decisions/f95v_panel_canvas_crosswalk_correction_20260928.md`.
 
 Primary: `experiments/yolo/gdt866_f95v2_upper_span_topology/REPORT.md`.

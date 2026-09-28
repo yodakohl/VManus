@@ -10,7 +10,7 @@ pairs; GDT1084 is a redundant negative reproduction, not new evidence.
 Two local f18v/f19r matches were also known in SNPL002; no word.
 Working files: SNPL002; GDT1084 correction; GDT1083; IDEA668/669 unreviewed.
 Source correction: f95v2=Yale1006242 (number95,7 lines), f95v1=1006243
-(13 lines). GDT866's image judgment survives for f95v1 only; see crosswalk note.
+(13 lines). GDT866 applies to f95v1; GDT404's shared drawing owner is void.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
 Resume: Check predecessor primaries before selecting a different content binding.

@@ -40,3 +40,23 @@ The two drawings are visibly distinct, but this crosswalk does not determine
 whether they portray different botanical subjects or one subject in different
 states. IDEA668 remains unreviewed and untested. Historic suggested plant
 names in catalogs are unverified guesses, not translations.
+
+## Downstream owner correction
+
+GDT404 `METHOD.md` §3 froze `f95v: eine Ganzpflanze für beide Textpaneele`,
+and its edition assigned the common visible-owner code `F95V_WHOLE_PLANT` to
+both panels. This is false as a **drawing owner**: the canvases contain two
+separate whole-plant drawings, one beside each panel. The correction does not
+show whether both drawings were intended as one botanical taxon. Each admitted
+f95v text panel can now be paired with its own image (`f95v1` with1006243,
+`f95v2` with1006242); any singular cross-panel owner or anaphoric claim needs
+new justification. The GDT404 line/event/statement counts and parser outcome
+are formal text measurements and remain intact.
+
+Downstream readable editions GDT407, GDT413, GDT416, GDT581/582 and
+GDT586–589 repeat the inherited `F95V_WHOLE_PLANT` owner label. Their old
+files and decisions are retained for reproducibility; the label must be read
+as an obsolete pooled placeholder, not evidence of one pictured object.
+IDEA668's missing panel crosswalk is now resolved, while its independent
+same-subject judgment and text-to-referent link remain unproved. No unchanged
+same-plant motif test is reopened.
