@@ -1,0 +1,45 @@
+{
+  "record_id": "IDEA000628",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root, primary-print capacity review after the complete Mainz 1485 chapter",
+  "reason": "The complete Yacea entry now supplies a specific multi-step source sequence, but f9v has no independently read word for its ingredients, disease, preparation, dose or bath. The 1485 print is also late relative to an early writing hypothesis and has a source-image mismatch. The name/address rival for fochor remains unresolved; no fixed whole-entry comparison is scoreable.",
+  "assessment_basis": "exploratory_primary_source_capacity_review_no_fixed_target_test",
+  "blockers": [
+    {
+      "code": "insufficient_independent_data",
+      "detail": "The complete 1485 entry is source-owned, but a pre-1450 independently identified target/rival pair for f9v is still missing.",
+      "evidence": [
+        "research_registry/decisions/f9v_jacea_full_entry_capacity_20260928.md",
+        "experiments/yolo/gdt1064_f9v_jacea_historical_synonym/REPORT.md"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "detail": "No term in the source's multi-step preparation is independently bound on f9v, and fochor can still be a name or an entry address.",
+      "evidence": [
+        "research_registry/decisions/f9v_jacea_full_entry_capacity_20260928.md",
+        "experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md",
+        "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "source_owned_distinctive_relation",
+        "change": "new_data",
+        "detail": "Obtain a dated, independently identified, preferably pre-1450 plant entry and explicit rival with a relation or exception capable of discriminating complete f9v readings before target scoring, or independently bind a target-side term in the whole entry.",
+        "evidence": [
+          "research_registry/decisions/f9v_jacea_full_entry_capacity_20260928.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A later alias and whole source recipe without an independent target binding",
+      "A single apparent quality match or shared chor substring after seeing f9v"
+    ]
+  },
+  "relations": []
+}
