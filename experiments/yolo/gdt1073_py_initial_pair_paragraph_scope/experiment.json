@@ -1,0 +1,97 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Seven supported ZL3b and eight IT2a pX/yX bases favor pX paragraph starts, but RF1b metadata cannot score the registered all-reader gate; no prefix or word meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT631",
+    "GDT756",
+    "GDT757",
+    "GDT914"
+  ],
+  "experiment_id": "GDT1073",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "c3573477a0f4fadec84319c5c5c91d7042042bcd1d4d1f384f6b080eb28334c2"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "90c34b7f6015f8e9e5cd93035ea9d8fbf6e619d607c662ae22f450777f0f1d72"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/README.md",
+      "role": "reproducibility packet",
+      "sha256": "0e72fae84c39808ac5575bc210110e90b29b91aa1a3d2a2b9a39c57d14dec413"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "15bd63b9cbd569607517775221cb56e152675acaf8fcdd0578101e1afeb61cb9"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/artifacts/PAIRS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "114719341ea3db9afe5d2a9fd93f038dbc93c0e0b350ef28949f31c72a18f841"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "07460fc732453873dcee90d9920dd753b551dab712eb14d6aecdef5d13575a30"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "a98b3297aa17b0faa52074b588302d62eaf1b76f267a1d8ba1234bee065416ef"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "8b45e577cd316724f72477bada7f8650902743138da3d42bfbf61063fc5a31ca"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "233245a7287f3d55b3a981189cf4137953c63e93acdd30c92593f2904f8c43fb"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "cee0cba740e425f67c54fc9606540821cdd0abf01313702aa924da7d4c6fb30f"
+    }
+  ],
+  "question": "Does the pchor/ychor paragraph-start contrast transfer to all eligible exact pX/yX line-initial complete-form pairs across bases and readers?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "py_initial_pair_paragraph_scope",
+  "status": "INVALID_RF_PARAGRAPH_METADATA__ZL_IT_DIRECTIONAL_DIAGNOSTIC",
+  "title": "py initial pair paragraph scope",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

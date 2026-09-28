@@ -4,14 +4,14 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Seek a new meaning-binding relation by 18:28 UTC.
-Latest decision: GDT1072 finds exact `otor` throughout 179 admitted selectors
-(ZL/IT/RF 33/38/29); its f68r1 star label/prose match is reading-sensitive.
-Star-exclusive gloss parked; no referent or translation. GDT1071's `cheody`
-tag match is group-owned. GDT1070: 80/89 Herbal heads singleton. Zero words.
-Working files: GDT1072; idea queue.
-Assumptions: image owner is not prose referent; readers are alternatives.
-Resume: Choose a discriminating source relation after route/primary screen.
+Task: Audit RF paragraph-boundary projection by 18:28 UTC.
+Latest decision: GDT1073: pX paragraph starts exceed yX for 7/7 supported
+ZL and 8/8 IT bases; all-reader gate unscorable (RF has no paragraph flags).
+No p/y meanings; GDT1072 parks star-exclusive `otor` after 33/38/29
+cross-register occurrences. GDT1070: 80/89 Herbal heads singleton. Zero words.
+Working files: GDT1073; GDT1072; idea queue.
+Assumptions: readers are alternatives; paragraph metadata is source-dependent.
+Resume: Register bounded physical-line RF projection and separator audit.
 Running: none.
 
 ## Structural baseline
