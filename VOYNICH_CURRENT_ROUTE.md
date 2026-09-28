@@ -41,7 +41,7 @@ complete plausible overall reading. Prior exposure cannot be erased by a new mod
 179 text selectors;51 visual keys/57 selectors, no slot remains. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [base](docs/VOYNICH_DATA_SCOPE.md). No outside contacts or expert review.
-09-27 incidental search exposure is caveated in the scope note; no admission.
+09-27/28 incidental source-search exposure is caveated in scope; no admission.
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs ONLY via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r
