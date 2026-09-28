@@ -97,6 +97,36 @@ bestandener Transfertest gemacht.
 
 ## Beobachtungsgrenzen und Reproduktion
 
+### Nachtrag 28. September: die seltene gemeinsame Form `okeo` außerhalb der Ringe
+
+Vor dieser Nachsuche war bekannt, dass `okeo` im freigegebenen Korpus nur
+2/3/2-mal (ZL3b/IT2a/RF1b) vorkommt; die konkreten Außenstellen waren in
+der obigen Profiltabelle noch nicht ausgeführt. Eine exakte Abfrage des
+bereits aus dem selektorbewachten 179-Seiten-Korpus erzeugten
+`word_profiles.sqlite` ergibt **ausschließlich laufende Prosa**: f26v.4
+Gruppe 9 bei allen drei Lesern; f99r.48 Gruppe 6/7 bei ZL/IT; f102v2.37
+Gruppe 9 bei IT beziehungsweise f102v2.23 Gruppe 2 bei RF. Die abweichende
+f102v2-Zeilengrenze ist keine zweite Handschriftbezeugung und macht die
+Position nicht gleich. ZL/RF haben dort keinen exakten `okeo`-Treffer.
+Die vollständigen jeweiligen Zeilen und getrennten Leserpositionen wurden
+aus der Cache-Tabelle `groups` nach `edition,locus,source_group_index`
+ausgegeben; die Cache-Quittung nennt den bewachten Roh-TSV
+SHA256 `4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0`
+und die 179-Selektoren-Liste
+`f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483`;
+beide Hashes wurden erneut am lokalen Original geprüft. f68r2 selbst liegt
+außerhalb dieses Korpus und ist nur in der oben dokumentierten lokal
+registrierten Ringprüfung enthalten.
+
+Damit ist eine **auf Kreisumschriften beschränkte** Lesung von `okeo` kein
+guter Standard: dieselbe Form steht auch in Herbal- und Pharma-Prosa. Eine
+übertragbare allgemeine Relation, Flexion oder Homographie bleibt möglich;
+keiner dieser Fälle bindet `okeo` an Sonne, Mond, Kreis oder ein deutsches
+Wort. Die Stellen sind aus demselben früher exponierten Manuskript und kein
+unabhängiger Bestätigungsblock. Dies ist eine gezielte, nach Kenntnis der
+Ringpaarung gewählte Exploration, kein Signifikanztest und keine Änderung der
+früheren Entscheidung.
+
 Der zusätzliche native Leser ordnete zunächst die Strich-/Schleifenmerkmale
 der zweiten Gruppen entgegengesetzt zu den vorhandenen Transkriptionen zu.
 Diese konkrete Zuordnung wurde zurückgenommen und die Erstnotiz unverändert
