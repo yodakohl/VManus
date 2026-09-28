@@ -5,11 +5,12 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 Phase: exploration
 Status: checkpoint
 Task: Select a different independently owned content contrast.
-Latest decision: GDT1060 f18r.8 boundary UNRESOLVED; GDT797 unchanged.
-Working files: GDT1060; GDT797/798; RRA001.
+Latest decision: Sloane2435 seasons/ages compare supports shared medical
+tradition, not a f85r2 word; GDT1060 boundary unresolved.
+Working files: Sloane2435 source note; GDT1042/1043; GDT1060.
 Assumptions: ch=dry provisional; k/t sign open; dair root unexportable;0 words.
-Resume: Seek a source-bound referent with an exclusive whole-reading
-consequence. No kooiin/exact-label rerun; GDT797 okaldy C0 cannot export.
+Resume: Seek a written source proposition with target ownership and an
+exclusive whole-reading consequence. No kooiin/exact-label rerun.
 Running: None. IDEA614 untested;610/611 parked;612 tested;613 raw.
 
 ## Structural baseline
