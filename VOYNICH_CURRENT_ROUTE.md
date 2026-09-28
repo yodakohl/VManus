@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Screen IDEA634 vessel-inspection relation against GDT1043 and primaries.
-Latest decision: IDEA632 lacks temporal plant binding; IDEA633 lacks paired
-Earth/observer eclipse ownership. Both reviewed not tested; 0 words.
-Working files: idea632_phenology_capacity; idea633_eclipse_capacity.
-Assumptions: chor/shor flower-fruit direction tied; Sun/Moon forms unglossed.
-Resume: Check whether f85r2 vessel has independent contents/inspector
-ownership and a source-owned rival before any text reading.
-Running: None. IDEA634–636 and IDEA629 raw/unreviewed.
+Task: Screen IDEA635 mixed versus sequential bathing for owned target relations.
+Latest decision: IDEA634 Cpg644 source owns diagnostic sequence; f85r2 east
+pose fits inspection but lacks contents/sign/judgment word links; not tested.
+Working files: idea634_vessel_inspection_capacity; GDT591; W88.
+Assumptions: f85r2 uroscopy remains a visual hypothesis; 0 confirmed words.
+Resume: Check GDT591 and W88 for independent target mixing/convergence
+ownership before seeking another historical source pair.
+Running: None. IDEA635–639 and IDEA629 raw/unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
