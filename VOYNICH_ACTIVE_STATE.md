@@ -8825,6 +8825,16 @@ either page-role homology and supplies no COLD, WINTER, OLD, WATER, PHLEGM,
 physician, season, root, lexeme, or clause translation. Do not inspect a
 favorable root subset or force f57's local `ot/y/f/p` code into f85 prose.
 
+2026-09-28 f85r2 quality-form correction: the inherited GDT624 48-form list
+has only `tch` hits in the East paragraph (3/3/2 ZL/IT/RF) and only `ksh`
+hits in West (2 per reading); North and South have none. This post-selected
+one-leaf opposition requires GDT624's wrapper-core assumption: the narrower
+GDT646 21-form ladder matches only East `tchedy`. Native radial boundaries
+place each figure at its same-direction paragraph sector; a one-sector shift
+to rescue the South-old/West-spring analogy has no visible connector. Retain
+the conditional formal contrast only; no four-quality cycle, figure meaning,
+component export or translated word. [Full note](research_registry/proposals/laufenberg_f85r2_20260926/F85R2_QUALITY_GRID_EXPLORATORY_20260928.md).
+
 ### Astrological-medical compendium document class
 
 An official-catalogue audit now gives the wider medieval
