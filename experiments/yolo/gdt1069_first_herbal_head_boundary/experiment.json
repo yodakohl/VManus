@@ -1,0 +1,34 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "DESCRIPTIVE_BOUNDARY_ELIGIBILITY_ONLY_NO_NAME_OR_MEANING",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1069_first_herbal_head_boundary/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1069_first_herbal_head_boundary/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": ["GDT1062", "GDT1063", "GDT1064"],
+  "experiment_id": "GDT1069",
+  "inputs": [
+    {"path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/src/claims.tsv", "role": "frozen 23 public candidate claims", "sha256": "8fff37db44c619c21b86422125e985d105bed5e2a6b6cd66e650390477c9d4f0"},
+    {"path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/artifacts/LABEL_RESULTS.tsv", "role": "frozen first prose loci and exact group matches", "sha256": "616e0813b249641eb2519fde9989a3efaff0cfb7d942880e66ba623c78dde4c3"},
+    {"path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv", "role": "mixed separator source via explicit locus allow-values", "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"}
+  ],
+  "outputs": [],
+  "question": "Are all 23 published Herbal first-group name candidates individually bounded by definite source separators in each alternate reading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "first_herbal_head_boundary",
+  "status": "REGISTERED_UNSCORED",
+  "title": "first herbal head boundary",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
