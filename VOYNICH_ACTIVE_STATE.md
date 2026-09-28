@@ -1,6 +1,8 @@
 # Voynich active state — structural reset baseline
 
-IDEA637 CAPACITY 2026-09-28: A genuine-versus-substitute drug assay requires two materials, a common test and opposite results. GDT735's four formal pharmacy heads remain unassigned; W89's content rivalry and GDT389/393's zero directed visual edges do not own that graph on an admitted target. IDEA637 assessed not tested; no source selected, 0 words. [Decision](research_registry/decisions/idea637_authenticity_assay_capacity_20260928.md). Next: prefer target-first proposals with independently visible contrasts over another free historical-source match.
+IDEA641 CAPACITY 2026-09-28: On the admitted f83r image/GDT790, Q1 is the left arch/end field and Q2 the lower left outlet, not two arch sides. Both full short notes repeat `cheol` and `sol`, which have broader line/record roles; no singular directed handoff or identified participant follows. IDEA641 assessed not tested, 0 words. [Decision](research_registry/decisions/idea641_f83r_embedded_handoff_capacity_20260928.md). Next: inspect IDEA643 same-record H1/H4 exact-body capacity while retaining GDT737's failed held body-affinity transfer.
+
+IDEA637 CAPACITY 2026-09-28: A genuine-versus-substitute drug assay requires two materials, a common test and opposite results. GDT735's four formal pharmacy heads remain unassigned; W89's content rivalry and GDT389/393's zero directed visual edges do not own that graph on an admitted target. IDEA637 assessed not tested; no source selected, 0 words. [Decision](research_registry/decisions/idea637_authenticity_assay_capacity_20260928.md).
 
 IDEA635 CAPACITY 2026-09-28: GDT591/GDT596 replay a coherent formal bath reader, but they do not independently establish two conditioned inputs converging into one vessel or a sequential rival; W88's possible mixing partners remain unidentified. IDEA635 assessed not tested, 0 words. [Decision](research_registry/decisions/idea635_bath_convergence_capacity_20260928.md).
 

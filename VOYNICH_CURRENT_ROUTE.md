@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Select a target-first contrast with independently visible owners.
-Latest decision: IDEA637 assay has no target-owned materials/test/results;
-not tested. IDEA634/635 also lacked role binding. 0 words.
-Working files: IDEA637 capacity note; GDT735, W89, GDT389/393.
-Assumptions: formal pharmacy heads unassigned; free source matches unscored.
-Resume: Review bounded raw target-first proposals against closed families and
-primary evidence; select only a contrast with a plausible fixed falsifier.
-Running: None. IDEA640–642 added raw; 636/638/639 and 629 unreviewed.
+Task: Screen IDEA643 same-record H1/H4 exact-body capacity.
+Latest decision: IDEA641 Q1 left arch, Q2 lower outlet; shared cheol/sol do not
+own a handoff. Not tested; 0 words. IDEA637 also not tested.
+Working files: IDEA641 note; GDT735/736/737, GDT790.
+Assumptions: GDT737 held H1/H4 body-affinity transfer failed; position survives.
+Resume: Check same-record pair capacity before a new meaning test; retain
+GDT737 counterexample and every intervening group.
+Running: None. IDEA640/642–644 and 636/638/639/629 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
