@@ -75,3 +75,42 @@ as the raw selector, all 179 allow-values from GDT631, output columns
 `surface,page,locus,paragraph_start,written_line_eva`, and `--forbid-prefix
 f84`: 79 selected, 0 forbidden, 0 outside the allowlist. The separate f9v
 query over GDT661 selected all twelve lines and no other page.
+
+## Bounded primary-print check, declared before opening chapter text
+
+Unknown after GDT1064 and the source study: the complete wording and internal
+consistency of chapter 432 in the Mainz 1485 print. If its full entry contains
+a distinctive, image-linked written relation, the source-capacity judgment for
+IDEA628 may change; if it is generic or conflicts with its own illustration,
+the existing no-target-binding decision stays. The smallest check is the
+chapter and its continuation only, from the institutional facsimile, without
+new Voynich access or OCR corpus building. Budget: 25 minutes total for image
+location, manual reading, decision, and publication; stop acquisition rather
+than expand to another edition at that limit. A source parallel alone cannot
+identify `fochor` or justify reading a Voynich passage.
+
+### Primary-print result
+
+Inspected the complete chapter in the [BSB Mainz 1485 facsimile,
+335v](https://api.digitale-sammlungen.de/iiif/image/v2/bsb00032739_00674/full/full/0/default.jpg)
+and [336r continuation](https://api.digitale-sammlungen.de/iiif/image/v2/bsb00032739_00675/full/full/0/default.jpg).
+The red terminal rule on 336r precedes the next illustrated chapter; the
+chapter is therefore bounded by these two pages, not just its image page.
+Manual reading, normalized only at the level of propositions:
+
+| Source order | Explicit content | Capacity for f9v |
+| --- | --- | --- |
+| Caption and morphology on 335v | `yacea` / `freyschem krut`; stiff stem, small pointed leaves, flowers in several colours including yellow, blue, white. | A historical alias and descriptive claims, but no Voynich lexeme independently assigned to either. |
+| Quality and first application on 335v | Hot and moist in third degree; wine and pressed herb/juice are said to drive out bad fluids and cramps associated with `freyschen`. | More specific than caption alone, but cannot be matched to f9v by a known quality, disease, ingredient, or action word. |
+| Continuation on 336r | For affected children, a little of the herb is put in porridge or its water given to drink; then a composite of chamomile, sanicle and this herb is boiled in wine, drunk for eight mornings, with bathing twice over eight days; the entry also mentions distilled water. | Multiple recipe clauses, but neither the f9v two-paragraph division nor `pchor` entails these exact ingredients, dosing, or bath. |
+
+This **does not reopen** IDEA628 as a fixed target test. The complete entry
+does supply a recognizable multi-step source sequence, which had been missing
+from our direct source inspection. It still has no independently bound f9v
+lexemes for chamomile, sanicle, wine, children, eight, bath, or distilled
+water. If an all-passage reading later yields such claims independently, this
+chapter can be an exploratory comparator, with its 1485 date and the prior
+source-image mismatch disclosed. The source is no confirmation of `fochor`
+and adds no translated Voynich word. The next sensible source route remains
+a specifically identified pre-1450 illustrated Viola/Yacea entry with a
+contrastive relation, or an independent target-side name/address discriminator.
