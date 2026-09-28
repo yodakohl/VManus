@@ -4,14 +4,14 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Seek a discriminating f9v reading for `fochor`.
-Latest decision: GDT1066 f81r alone has rare early ZL recurrence in nine
-fixed bath pairs; post-hoc and RF split, no meaning. IDEA650 lacks access.
-Working files: GDT1066, IDEA647/650; GDT1062/1063/1064 f9v primaries.
-Assumptions: f9v pansy-like Viola visual owner C0; historical Jacea also
-fits; `fochor` may be plant name or generic entry head. 0 confirmed words.
-Resume: Review f9v text and predecessor dictionaries; specify a whole-
-passage name-vs-generic consequence before new glosses or sources.
+Task: Find an independent meaning-bearing relation for a whole reading.
+Latest decision: f9v name-vs-address task duplicates reviewed IDEA630; no
+new referent link. GDT1066 f81r is structural only; near spellings do not
+bind meaning. See f9v duplicate-route correction. 0 confirmed words.
+Working files: f9v duplicate-route correction; IDEA630; GDT675/702/1066.
+Assumptions: C0 image/source fit is not translation; no new test selected.
+Resume: Find a primary with explicit referent and textual consequence,
+plus a complete admitted owner; screen closed families before selection.
 Running: None. IDEA638/642/649 raw.
 
 ## Structural baseline
