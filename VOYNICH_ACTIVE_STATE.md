@@ -691,6 +691,11 @@ instead of loading the full historical ledger or idea backlog into context.
 
 ### GDT866 f95v2 upper link without intervening group (2026-09-06)
 
+Correction 2026-09-28: Yale1006243 is **f95v1**, while numbered seven-line
+Yale1006242 is **f95v2**. The two viewers' local topology decision survives
+for1006243 only; GDT866's f95v2 source attribution is withdrawn. See
+`research_registry/decisions/f95v_panel_canvas_crosswalk_correction_20260928.md`.
+
 Primary: `experiments/yolo/gdt866_f95v2_upper_span_topology/REPORT.md`.
 Both native viewers localize the first-baseline upper-left extension on
 Yale1006243 and rate TWO_UPRIGHT_LINK with0complete intervening groups.

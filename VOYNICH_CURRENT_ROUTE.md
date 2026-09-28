@@ -9,10 +9,11 @@ Latest decision: SNPL002 already rejected the same four source-STA same-plant
 pairs; GDT1084 is a redundant negative reproduction, not new evidence.
 Two local f18v/f19r matches were also known in SNPL002; no word.
 Working files: SNPL002; GDT1084 correction; GDT1083; IDEA668/669 unreviewed.
+Source correction: f95v2=Yale1006242 (number95,7 lines), f95v1=1006243
+(13 lines). GDT866's image judgment survives for f95v1 only; see crosswalk note.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
-Resume: Check exact predecessor primaries for any proposed relation before
-implementation. Seek genuinely different content/source binding.
+Resume: Check predecessor primaries before selecting a different content binding.
 Running: bounded idea producer during testing.
 
 ## Structural baseline
@@ -27,7 +28,7 @@ Confirmed English lexemes: **0**. Hypothetical readings remain permitted.
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
-W89 recipe expansion paused; W93 naming: NO_CAPACITY.
+W89 paused; W93 naming: NO_CAPACITY.
 W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted.
 GDT913 contradicts all18 frozen IT2a lexicons; original GDT888 non-uniqueness retained.
 GDT914/925/928 fixed edit/literal-parallel tests closed, not all compositional meaning.
@@ -38,11 +39,11 @@ controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primari
 Other closed families remain in the existing registry; no automatic reopening.
 
 ## Access and operating boundaries
-f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves closed until a nearly complete
+f84 and f84r remain sealed. f116v not admitted. Reserves closed until a nearly complete
 plausible reading. Prior exposure is not independent confirmation.
-179 text selectors;52 visual keys/58 selectors, including GDT1081 f69r image only. f1r margins only;
+179 text selectors;52 visual keys/58 selectors. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
-[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [update](docs/VOYNICH_DATA_SCOPE_20260928_WIND_IMAGE.md); [base](docs/VOYNICH_DATA_SCOPE.md). No outside contacts.
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [update](docs/VOYNICH_DATA_SCOPE_20260928_WIND_IMAGE.md); [base](docs/VOYNICH_DATA_SCOPE.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r
@@ -50,12 +51,11 @@ page-query overreach is exposure only in the scope note. New scored relation pac
 require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Load only the next relevant layer
-`./vmanus-work context start` returns this route (<=4096 UTF-8 bytes).
+`./vmanus-work context start` returns this route.
 `./vmanus-work context topic Wortzusammensetzung` returns a bounded live excerpt.
-`context topics` lists eight broad topics; `context check` checks bounds and selectors.
+`context topics` lists eight topics; `context check` checks retrieval.
 Use `ideas search/show`, `lookup`, and `vmanus-exp route-check` before scientific choice.
-[Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and
-[topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md) are targeted references.
+[Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Update this resume block before a context switch. Store results and reopening terms
 in the existing dossier/review/ACTIVE_EXPERIMENT_LEDGER.tsv; update
