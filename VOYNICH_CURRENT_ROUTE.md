@@ -4,13 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Screen IDEA626/627/630 for a source-owned whole-entry relation.
-Latest decision: 1485/1543 Jacea profiles conflict; portable pchor does not
-distinguish name from address. 0 words.
-Working files: GDT1064/757/766; f9v_jacea_full_entry_capacity_20260928.md.
-Assumptions: f9v Viola-like; first-head function open; no 1420 alias proof.
-Resume: Check three ideas against primaries; route-check one relation before test.
-Running: None. IDEA628 reviewed not tested; 626/627/629/630 raw.
+Task: Screen IDEA632 seasonal part succession against GDT768 and W93.
+Latest decision: IDEA626/627/630 and IDEA631 reviewed not tested; f9v lacks
+name/address binding, dual-product proposal lacks an owned target triad.
+Working files: f9v_jacea_followup; idea631_dual_product_capacity.
+Assumptions: f9v name/address open; 1485 pansy alias is later evidence; 0 words.
+Resume: Check IDEA632 source-owned plant-stage order and rival, then target
+capacity before any test. Keep IDEA633 raw and f68 prior Sun/Moon work in view.
+Running: None. IDEA632/633 and IDEA629 raw/unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
