@@ -1,0 +1,38 @@
+{
+  "record_id": "IDEA000668",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root after native f95v crosswalk and labelled historical-image screen",
+  "reason": "The exact image crosswalk is now secure: f95v1=Yale1006243 and f95v2=Yale1006242. Each panel has its own whole-plant drawing and separate admitted text region; GDT404's pooled drawing owner is withdrawn. This supports two graphical entry owners, but does not decide same species in different states versus different species. The labelled Carrara/Morgan comparison yielded no distinctive species identity, and no text-to-botanical-subject binding was tested. Thus the IDEA668 discourse alternatives remain untested, with one old blocker resolved but no word meaning selected.",
+  "assessment_basis": "native_panel_identity_and_source_image_capacity_review_only",
+  "blockers": [
+    {
+      "code": "missing_meaning_binding",
+      "detail": "Neither panel has an independently established botanical taxon or an author-visible link from a complete written group to that taxon; the one-subject state versus two-species reading remains unresolved.",
+      "evidence": [
+        "research_registry/decisions/f95v_panel_canvas_crosswalk_correction_20260928.md",
+        "research_registry/decisions/f95v1_same_source_plant_comparison_20260928.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_referent_and_text_rule",
+        "change": "new_binding",
+        "detail": "A distinctive source-owned botanical or same-subject judgment plus a prospectively fixed complete-text relation that gives different consequences for the one-subject and two-entry accounts.",
+        "evidence": [
+          "research_registry/decisions/f95v1_same_source_plant_comparison_20260928.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Two different drawings alone",
+      "A first-position written group alone",
+      "A generic berry/root/leaf resemblance",
+      "Repeating the rejected four-pair source-STA motif test"
+    ]
+  },
+  "relations": []
+}
