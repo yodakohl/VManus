@@ -225,3 +225,19 @@ name. A pre-1450 same-name hunt now has a documented prior-capacity problem,
 in addition to this branch's five-witness result. The visual *Viola*-like
 f9v owner remains C0 and `fochor` remains equally compatible with an opaque
 entry address. No target word has gained a meaning.
+
+The same [study, pp. 183–187](https://www.researchgate.net/publication/304142518_Viola_jacea_Zur_botanischen_Fachsprache_in_der_Renaissance)
+supplies a positive earlier-name contrast: a fourteenth-century German
+Artemisia vocabulary glosses `iacea` with `cigenbein`, a regional cornflower
+name, and the fourteenth-century *Sinonoma Bartholomei* relates dark `Jacia`
+to knapweed-like names and white `Jacia` to scabious. These identifications
+are reported by Holtzegel; the source manuscripts were not independently
+verified in this check. They do not make every pre-1450 `Jacea` one botanical
+species. Holtzegel argues that several *Gart* synonyms and parts of its
+description retain a knapweed/scabious context even where the 1485
+illustration depicts pansy; the mechanism of that transfer is uncertain.
+Thus the 1485 image/name pairing establishes that a later compiler **used**
+`Yacea` for a pansy-like picture, but is weak evidence for a stable c.1420
+name convention. The admitted f2r drawing has thistle-like heads and remains
+only an unassigned *Centaurea*-type visual rival; neither it nor the source
+gloss assigns a Voynich head word.
