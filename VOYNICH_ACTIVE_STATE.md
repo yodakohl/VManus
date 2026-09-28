@@ -1,6 +1,8 @@
 # Voynich active state — structural reset baseline
 
-IDEA635 CAPACITY 2026-09-28: GDT591/GDT596 replay a coherent formal bath reader, but they do not independently establish two conditioned inputs converging into one vessel or a sequential rival; W88's possible mixing partners remain unidentified. IDEA635 assessed not tested, 0 words. [Decision](research_registry/decisions/idea635_bath_convergence_capacity_20260928.md). Next screen IDEA637 genuine-drug versus substitute assay for independent target ownership of opposite outcomes.
+IDEA637 CAPACITY 2026-09-28: A genuine-versus-substitute drug assay requires two materials, a common test and opposite results. GDT735's four formal pharmacy heads remain unassigned; W89's content rivalry and GDT389/393's zero directed visual edges do not own that graph on an admitted target. IDEA637 assessed not tested; no source selected, 0 words. [Decision](research_registry/decisions/idea637_authenticity_assay_capacity_20260928.md). Next: prefer target-first proposals with independently visible contrasts over another free historical-source match.
+
+IDEA635 CAPACITY 2026-09-28: GDT591/GDT596 replay a coherent formal bath reader, but they do not independently establish two conditioned inputs converging into one vessel or a sequential rival; W88's possible mixing partners remain unidentified. IDEA635 assessed not tested, 0 words. [Decision](research_registry/decisions/idea635_bath_convergence_capacity_20260928.md).
 
 IDEA634 CAPACITY 2026-09-28: Heidelberg Cpg644 100v supplies a genuine raised-flask, observed-urine, conditional-judgment source comparison for the f85r2 east figure, but GDT1043 sees no target contents or word connector and GDT1042's full four-sector inventory binds no observed sign or judgment. Inspection and emblem remain distinct whole-reading rivals; IDEA634 assessed not tested, 0 words. [Decision](research_registry/decisions/idea634_vessel_inspection_capacity_20260928.md).
 

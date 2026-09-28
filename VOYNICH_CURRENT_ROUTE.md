@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Screen IDEA637 genuine-drug versus substitute assay for target capacity.
-Latest decision: IDEA634 source uroscopy lacks target word roles; IDEA635 bath
-reader lacks independent two-input convergence; both not tested, 0 words.
-Working files: IDEA634/635 capacity notes and primaries.
-Assumptions: visual classes and working paraphrases are no word translations.
-Resume: Check whether an admitted complete target owns both assay materials,
-operation and opposite results before historical source search.
-Running: None. IDEA636–639 and IDEA629 raw/unreviewed.
+Task: Select a target-first contrast with independently visible owners.
+Latest decision: IDEA637 assay has no target-owned materials/test/results;
+not tested. IDEA634/635 also lacked role binding. 0 words.
+Working files: IDEA637 capacity note; GDT735, W89, GDT389/393.
+Assumptions: formal pharmacy heads unassigned; free source matches unscored.
+Resume: Review bounded raw target-first proposals against closed families and
+primary evidence; select only a contrast with a plausible fixed falsifier.
+Running: None. IDEA640–642 added raw; 636/638/639 and 629 unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
