@@ -5,14 +5,14 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: checkpoint
 Task: Find an independent meaning owner.
-Latest decision: IDEA653 not tested: f81v's two rows and two prose blocks
-lack a cross-block participant/time binding. GDT1064 allows historical
-Jacea=pansy but does not bind f9v `fochor`; GDT1051 retains `okoaiin` as
-unconfirmed SUN candidate. f69r 12+16 wind fit remains; 0 words.
-Working files: IDEA653 review; GDT1064 f9v correction; GDT1051 f68r2/f89v1.
+Latest decision: f9v 1485 Yacea woodcut is not a close image model;
+alleged petal writing yields no stable inscription in admitted Yale image.
+Historical Jacea=pansy remains; `fochor` name/address unresolved.
+GDT1051 `okoaiin`=SUN remains C0; f69r 12+16 wind fit; 0 words.
+Working files: f9v image/ink decision; GDT1064; IDEA656/657 raw.
 Assumptions: image family is not a word map; readings are one manuscript.
-Resume: Seek an independent lexical/participant owner changing a whole reading;
-row proximity, first-head position and rarity do not suffice.
+Resume: Seek independent lexical owner for a full reading; do not use
+f9v petal flecks, Gart woodcut as direct model or first-head rarity.
 Running: None.
 
 ## Structural baseline
