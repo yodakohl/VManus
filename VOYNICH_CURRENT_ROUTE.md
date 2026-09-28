@@ -4,15 +4,15 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Find an independent meaning-bearing relation for a whole reading.
-Latest decision: GDT1068: 0 full f67r2 titles in f69r's 16 outer/22 radial
-items, 1368 cells; only okar/chy parts. GDT1067: 180-degree wind polarity
-ambiguous. Positive 12+16 image fit remains; 0 confirmed words.
-Working files: GDT1068 report; GDT1067; IDEA649 review.
-Assumptions: image family is not a word map; three readings are one manuscript.
-Resume: Seek independent text ownership or orientation on admitted material;
-do not relax exposed titles or rerun the same geometry.
-Running: None. IDEA638 raw; IDEA642/649 reviewed not_tested.
+Task: Find one independent meaning-bearing whole-reading relation.
+Latest decision: GDT1067: 180-degree wind ambiguity; GDT1068: 0 full
+f67r2 titles in 1368 f69r cells. Royal 17 C XXXVIII f3r wind drawing is
+late 15th century. Positive 12+16 image fit; 0 confirmed words.
+Working files: GDT1067/1068; Royal date correction; IDEA651 raw.
+Assumptions: image family is not a word map; readings are one manuscript.
+Resume: Assess IDEA651 east-west anchor and frame transfer; if absent,
+select a different owned semantic contrast.
+Running: None; IDEA651 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
