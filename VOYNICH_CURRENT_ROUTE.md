@@ -4,15 +4,15 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Find one independent meaning-bearing whole-reading relation.
-Latest decision: GDT1067: 180-degree wind ambiguity; GDT1068: 0 full
-f67r2 titles in 1368 f69r cells. Royal 17 C XXXVIII f3r wind drawing is
-late 15th century. Positive 12+16 image fit; 0 confirmed words.
-Working files: GDT1067/1068; Royal date correction; IDEA651 raw.
+Task: Select a non-wind owned semantic contrast for a whole reading.
+Latest decision: IDEA651 not tested: no independent frame/outer-label
+transfer to f69r. GDT1067 polarity and GDT1068 zero full titles remain.
+Positive 12+16 wind fit remains; 0 confirmed words.
+Working files: IDEA651 review; GDT812 storage primary; IDEA652 raw.
 Assumptions: image family is not a word map; readings are one manuscript.
-Resume: Assess IDEA651 east-west anchor and frame transfer; if absent,
-select a different owned semantic contrast.
-Running: None; IDEA651 raw.
+Resume: IDEA652 repeats GDT812's rose-storage rival without a target owner;
+choose a different admitted whole-reading target with independent owner.
+Running: None; IDEA652 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
