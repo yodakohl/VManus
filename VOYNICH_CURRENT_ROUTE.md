@@ -5,9 +5,9 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: active
 Task: Find an independent word owner.
-Latest decision: f88r/f99v repeat `otaly` and `otoky` across all readings;
-whole-row blind organ ratings conflict or are unclear. No gloss. f9v Viola-like
-image but `fochor` name/address rival remains. f68/f69/f85 unowned. Zero words.
+Latest decision: GDT1069 retains 16/23 public Herbal heads as exact, definitely
+bounded in all readings; f9v `fochor` survives, name/address unresolved.
+f88r/f99v repeat `otaly`/`otoky` but owner ratings conflict. Zero words.
 Working files: f88r/f99v label decision; f9v decisions; idea registry.
 Assumptions: images are not lexical maps; readings are one manuscript.
 Resume: Seek independent singular owner; screen route and scope first.
@@ -21,7 +21,7 @@ alphabet. No default Latin or phonetic reading. General adjacency transfers acro
 Currier/section/hand; extra direction only across Currier. Known r/l families transfer,
 new stem-pair grammar does not follow (GDT915/916). Formal roles and reversible
 rendering are not confirmed meanings or historical sentence boundaries.
-Confirmed translated words: 0. Whole hypothetical readings remain permitted.
+Confirmed English lexemes: **0**. Hypothetical readings remain permitted.
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
@@ -36,7 +36,7 @@ controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primari
 Other closed families remain in the existing registry; no automatic reopening.
 
 ## Access and operating boundaries
-f84 and f84r remain sealed. f116v not admitted. Reserves stay closed until a nearly
+f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves stay closed until a nearly
 complete plausible overall reading. Prior exposure cannot be erased by a new model.
 179 text selectors;51 visual keys/57 selectors, no slot remains. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:

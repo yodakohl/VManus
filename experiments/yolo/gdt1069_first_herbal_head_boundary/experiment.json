@@ -9,14 +9,81 @@
     "validate": "python3 experiments/yolo/gdt1069_first_herbal_head_boundary/src/validate.py"
   },
   "created": "2026-09-28",
-  "dependencies": ["GDT1062", "GDT1063", "GDT1064"],
+  "dependencies": [
+    "GDT1062",
+    "GDT1063",
+    "GDT1064"
+  ],
   "experiment_id": "GDT1069",
   "inputs": [
-    {"path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/src/claims.tsv", "role": "frozen 23 public candidate claims", "sha256": "8fff37db44c619c21b86422125e985d105bed5e2a6b6cd66e650390477c9d4f0"},
-    {"path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/artifacts/LABEL_RESULTS.tsv", "role": "frozen first prose loci and exact group matches", "sha256": "616e0813b249641eb2519fde9989a3efaff0cfb7d942880e66ba623c78dde4c3"},
-    {"path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv", "role": "mixed separator source via explicit locus allow-values", "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"}
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/src/claims.tsv",
+      "role": "frozen 23 public candidate claims",
+      "sha256": "8fff37db44c619c21b86422125e985d105bed5e2a6b6cd66e650390477c9d4f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/artifacts/LABEL_RESULTS.tsv",
+      "role": "frozen first prose loci and exact group matches",
+      "sha256": "616e0813b249641eb2519fde9989a3efaff0cfb7d942880e66ba623c78dde4c3"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "mixed separator source via explicit locus allow-values",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    }
   ],
-  "outputs": [],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "45fe0b0b59238cc523ca7d9e67412503c7d877acba409dfb728aa64c311b13f5"
+    },
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "913539bb6768366a7a36a94d3f87104544f4cd711fc45a2d5618de864db2869c"
+    },
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/README.md",
+      "role": "reproducibility packet",
+      "sha256": "447ad45eab7f178759445edf667d8822d3089a7698f6b842b24026c3393e221c"
+    },
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "0844e48972f1e3b60cc0663eb43a9479ffee469b207e8006263ffa3ca5d9a3e7"
+    },
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "87cc39977b1bb097d3cc0f3c3477b9ff237fdd7994ea219bcdb9d559aa4009df"
+    },
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "17ecc7b6f7aa09e49c2a4037eb1f5659d7248dc7f189ac62f35bad032802f3fb"
+    },
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "b25b2c177a20b4cd7943cae00565fed03785c7a7e6949e8b20c6dfc19eae4a14"
+    },
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/artifacts/FIRST_HEAD_BOUNDARIES.tsv",
+      "role": "reproducibility packet",
+      "sha256": "4632ec4e1163c1298d7d366b4cf4a9982cbb6b4f75fe91d356cea6547f93dbe4"
+    },
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "b0641a0d15c184ac41fd6b88a3453a63476851fea2e2bb79b2a743c02c651127"
+    },
+    {
+      "path": "experiments/yolo/gdt1069_first_herbal_head_boundary/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "0fc316661fe978d88e9236f048dfadfb485a721cc043268675e9c813c803aab7"
+    }
+  ],
   "question": "Are all 23 published Herbal first-group name candidates individually bounded by definite source separators in each alternate reading?",
   "schema_version": 1,
   "sealed_data": {
@@ -24,11 +91,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "first_herbal_head_boundary",
-  "status": "REGISTERED_UNSCORED",
+  "status": "DESCRIPTIVE_16_OF23_ALL_READER_EXACT_DEFINITE_NO_MEANING",
   "title": "first herbal head boundary",
   "updated": "2026-09-28",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt1069_first_herbal_head_boundary/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

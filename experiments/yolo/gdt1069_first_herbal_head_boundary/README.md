@@ -1,5 +1,6 @@
 # GDT1069 — first herbal head boundary
 
-Status: `REGISTERED_UNSCORED`
+Status: `DESCRIPTIVE_BOUNDARY_ELIGIBILITY_ONLY`
 
-See `METHOD.md` and `experiment.json`.
+See [preregistration](PREREGISTRATION.md), [method](METHOD.md),
+[report](REPORT.md) and `experiment.json`.
