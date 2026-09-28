@@ -4,16 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Audit the f88r `okol` local label/prose bridge and its f89r2 label rival.
-Latest decision: IDEA639 observer graph absent in nominated f67v2/f68r2;
-IDEA645 f88r has `okol` .15/.19 but no two directed row transitions. Both
-not tested; zero words.
-Working files: IDEA639/645 decisions; GDT791 atlas.
-Assumptions: exact reuse is a string bridge, not material identity;
-three entries and one process remain rivals.
-Resume: Check f88r/f89r2 `okol` label ownership and three-reader stability;
-decide if any new independent object contrast can test a meaning.
-Running: None. Raw IDEA642/636.
+Task: Screen IDEA636 for one material with internal and external use.
+Latest decision: f89r2.10 is multiword and RF reads `otol`; f88r.15
+owner is nonbijective. IDEA646 lacks exact starless-figure label owner. 0 words.
+Working files: `okol` cross-page and IDEA646 decisions; GDT811/PHF001.
+Assumptions: f88r `okol` is an exact string bridge, not a flower name.
+Resume: Seek one independently owned plant with distinct written route and
+recipient constructions in admitted pharmacy/bath records before source search.
+Running: None. IDEA636/638/642 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
