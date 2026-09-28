@@ -6,7 +6,7 @@ Phase: exploration
 Status: active
 Task: Find an independent word owner.
 Latest decision: f88r/f99v repeat `otaly` and `otoky` across all readings;
-nearby plant-part owners differ or are ambiguous. No gloss. f9v Viola-like
+whole-row blind organ ratings conflict or are unclear. No gloss. f9v Viola-like
 image but `fochor` name/address rival remains. f68/f69/f85 unowned. Zero words.
 Working files: f88r/f99v label decision; f9v decisions; idea registry.
 Assumptions: images are not lexical maps; readings are one manuscript.

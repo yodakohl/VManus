@@ -22,3 +22,26 @@ The existing `vmanus-work words profile FORM --json --limit 1` census of all 179
 This audit was prompted by a claimed matching pair after the source was read. No whole-search countercontrol or blind pair-selection distribution was fixed. Therefore **no significance or independent confirmation** is claimed. Agreement among ZL3b/IT2a/RF1b supports only transcription robustness: they are alternate readings of the same manuscript, not three physical replications. On f88r two different strings can neighbour one W90 U5 drawing; on f99v their labels occur at different positions. A name, material, plant part, class marker and record address all remain plausible. `otaly` and `otoky` are useful candidates for a future independently anchored owner relation, not translated words.
 
 Decision: retain the two exact repetitions as a structural positive, reject promotion of the external visual-match claim to a meaning binding. Reopen only if an independent source supplies singular ownership or a predeclared, whole-array image-feature contrast that discriminates the word/part/address rivals across physical folios. Do not reopen RLO001's strict contract from proximity alone.
+
+## Complete top-row organ-nearness follow-up
+
+After seeing the four repeated labels, root noticed a possible *leaf-near versus root-near* alternative to the external brown-root claim. This was **postselected exploration**, not a frozen test. Two viewers were then independently shown only the two admitted top-row image crops, with no transcript, glyph identities, reports, target words or proposed organ contrast. They classified **every** visible plant label left-to-right (six on f88r, eight after the jar on f99v), retaining ambiguous boundaries. The table preserves the complete judgments, including disagreements; the ordinal map to transcript loci was applied only afterward.
+
+| Image label ordinal | Transcript locus | Viewer A nearest feature | Viewer B nearest feature |
+|---|---|---|---|
+| f88r 1 | .1 | root | root |
+| f88r 2 | .2 | stem | leaf/stem uncertain |
+| f88r 3 | .3 | stem | root |
+| f88r 4 | .4 | root | mixed root/stem |
+| f88r 5 | .5 `otoky` | stem | leaf |
+| f88r 6 | .6 `otaly` | stem | leaf |
+| f99v 1 | .2 | mixed root/stem, uncertain | mixed root/stem, uncertain |
+| f99v 2 | .3 | stem | root |
+| f99v 3 | .4 | root | root |
+| f99v 4 | .5 | leaf | leaf |
+| f99v 5 | .6 `otaly` | stem | mixed root/stem |
+| f99v 6 | .7 | root | root |
+| f99v 7 | .8 | root | root |
+| f99v 8 | .9 `otoky` | indeterminate | indeterminate |
+
+Neither repeated form has a stable nearest-organ class across the two folios or even across viewers. In particular, f88r's adjacent `otoky`/`otaly` cannot be cleanly split into root versus leaf, and f99v's right-edge `otoky` has no secure object association in the crop. This complete-row check gives **no leaf, root, or brown-root gloss**. It does not rule out a different, independently anchored referent; there is no whole-search control or significance claim.
