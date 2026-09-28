@@ -4,17 +4,17 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Seek an independent semantic anchor beyond repeated-plant motif scores.
-Latest decision: SNPL002 already rejected the same four source-STA same-plant
-pairs; GDT1084 is a redundant negative reproduction, not new evidence.
-Two local f18v/f19r matches were also known in SNPL002; no word.
-Working files: SNPL002; GDT1084 correction; GDT1083; IDEA668/669 unreviewed.
+Task: Seek an independent content-to-word anchor; avoid known picture-only ties.
+Latest decision: f95v source image check finds no distinctive historical plant
+match or word. GDT1084 duplicates SNPL002's rejected four-pair test.
+Working files: SNPL002; f95v image comparison; IDEA668/669 unreviewed.
 Source correction: f95v2=Yale1006242 (number95,7 lines), f95v1=1006243
 (13 lines). GDT866 applies to f95v1; GDT404's shared drawing owner is void.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
-Resume: Check predecessor primaries before selecting a different content binding.
-Running: bounded idea producer during testing.
+Resume: Require a new externally owned referent and a discriminating text rule;
+check predecessor primaries before selection.
+Running: source comparison closed; no active independent test.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
