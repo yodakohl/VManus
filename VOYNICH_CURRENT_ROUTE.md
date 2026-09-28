@@ -4,13 +4,13 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Select a different independently owned content contrast.
-Latest decision: Sloane2435 seasons/ages compare supports shared medical
-tradition, not a f85r2 word; GDT1060 boundary unresolved.
+Task: Select a content contrast with independent target ownership.
+Latest decision: Aldebrandin seasons/ages share the same quality cycle;
+solar/flowering versus life-year limits differ but lack f85r2 word owners.
 Working files: Sloane2435 source note; GDT1042/1043; GDT1060.
 Assumptions: ch=dry provisional; k/t sign open; dair root unexportable;0 words.
-Resume: Seek a written source proposition with target ownership and an
-exclusive whole-reading consequence. No kooiin/exact-label rerun.
+Resume: Leave f85r2 cycle untested; seek an independently owned content
+contrast elsewhere. No kooiin/exact-label rerun.
 Running: None. IDEA614 untested;610/611 parked;612 tested;613 raw.
 
 ## Structural baseline

@@ -58,3 +58,35 @@ target ownership and an outcome the rival cannot also explain. GDT1042's
 complete four-block surface inventory and GDT1043's native target observations
 remain unchanged; no further f85r2 word-frequency or fourfold-count test follows
 automatically. No reserve, f84/f84r or unadmitted Voynich image was opened.
+
+## Related text: what would actually distinguish the chapters?
+
+The [1911 Landouzy–Pépin edition of Aldebrandin's *Régime du corps*](https://fr.wikisource.org/wiki/Le_R%C3%A9gime_du_corps/Texte_entier)
+is based on Bibliothèque nationale and Arsenal witnesses, **not a transcription
+of Sloane MS 2435**. It can specify this textual tradition's content, but it
+cannot certify the exact wording or page layout of the Sloane witness. Its
+seasons chapter (printed pp. 62–63, digital text around lines 371–376)
+assigns spring hot/moist, summer hot/dry, autumn cold/dry, winter cold/moist.
+Its ages chapter (printed p. 79, digital text around lines 442–444) gives the
+**same ordered four quality-pairs** to the first through fourth ages. A future
+four-block match to that cycle would therefore be compatible with both chapter
+types; it cannot choose an exclusive *season* or *age* reading.
+
+| Written proposition in the related edition | Season chapter | Age chapter | Present f85r2 decision |
+|---|---|---|---|
+| Four ordered hot/cold and moist/dry qualities | Yes | Yes, same order | Non-discriminating even if quality signs were independently established. |
+| Solar passage through zodiac signs; flowering, falling leaves, annual cooling | Explicit | No corresponding four-age anchor in this passage | Potential discriminator only with a fixed target referent and textual owner; neither is known. |
+| Four ages with ends around 25/30, 40/45, 60 years and death; finer seven-age partition | No corresponding age limits in this passage | Explicit | Potential discriminator only with independently bound years/numbers and a textual owner; neither is known. |
+| Medical regimen for each phase | Yes | Yes | Generic care vocabulary is nonexclusive. |
+
+This is a **source-side discrimination audit**, not a target test. GDT1042
+already inventories all four f85r2 paragraphs: their starts differ, only
+`aiin` occurs as the same whole form in all four, and there is no common
+reader-stable repeated two- or three-token construction. GDT1043 fixes the
+visible figures but finds no word-to-object connector or prose order. No
+Voynich form can presently be designated as a year threshold, zodiac entry,
+flowering event or quality term merely because this source contains one.
+The diagram might combine seasons and ages in a correspondence rather than
+choose either chapter; that is a working possibility, not a reading. No new
+target pixels, sealed leaves or reserves were opened; independent target
+confirmation capacity remains zero and confirmed translated words remain zero.
