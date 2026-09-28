@@ -4,16 +4,15 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Audit eight nonstrict same-page label/prose overlaps.
-Latest decision: GDT1082's eleven later full-page admissions: 80 local ZL
-labels, eight exact same-page repeats, zero singular owners. GDT1071 `otor`
-remains unbound. IDEA655 bath action missing; GDT1081 wind unresolved.
-Working files: GDT1082; GDT852 f75v; GDT881 f99v; IDEA623 parked.
+Task: Select next meaning-bearing route after complete GDT1083 native audit.
+Latest decision: GDT1083 checked all eight GDT1082 label/prose repeats on
+f75v/f99v: zero native singular owners (7 ambiguous, 1 none). Shaft labels
+`qokal`/`dal` remain positional, not meanings. GDT1071 `otor` unbound.
+Working files: GDT1083; GDT1071; IDEA623 parked.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
-Resume: Inspect all eight f75v/f99v native loci against existing owner reports.
-Register a visual test only for an author-visible singular leader; preserve
-GDT1082's fixed result.
+Resume: Seek a genuinely discriminating semantic anchor beyond mere image
+proximity. Route-check, predecessor primaries, then smallest fixed test.
 Running: none.
 
 ## Structural baseline

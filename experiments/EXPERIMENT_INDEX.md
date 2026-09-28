@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1081**
-- Experiment-associated tracked files: **21,248** (1.9 GiB)
-- Structured GDT337+ experiments: **746**
+- Experiments indexed: **1082**
+- Experiment-associated tracked files: **21,259** (1.9 GiB)
+- Structured GDT337+ experiments: **747**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1083 | GDT1083 | `NO_NATIVE_SINGULAR_OWNER` | [report](../experiments/yolo/gdt1083_f75v_f99v_eight_label_native_owner/REPORT.md) | 11 | 18.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT1082 | GDT1082 | `NO_NEW_STRICT_SAME_PAGE_CANDIDATE` | [report](../experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/REPORT.md) | 13 | 41.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT1081 | GDT1081 | `NO_LEXICAL_REOPENING` | [report](../experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/REPORT.md) | 15 | 3.2 MiB | 2 | STRUCTURED_YOLO |
 | GDT1080 | GDT1080 | `COMPLETE_NO_DIRECTIONAL_BINDING` | [report](../experiments/yolo/gdt1080_chor_shor_visual_direction/REPORT.md) | 10 | 28.5 KiB | 3 | STRUCTURED_YOLO |
