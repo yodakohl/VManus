@@ -34,8 +34,21 @@ leaflike parts. The repeated broad rounded leaves are especially different.
 This limits a claim of direct picture copying from these six witnesses; it does
 not refute the broader f9v wild-pansy/*Viola* visual hypothesis or prove a
 different taxon. The six are a bounded convenience set, not a random sample
-or all surviving *Viola* images. Medieval `Viola` labels also do not fix a
-modern species.
+or all surviving *Viola* images; related copies in one image tradition are
+not six independent identifications. Medieval `Viola` labels also do not fix
+a modern species.
+
+**Species ceiling, added in the same exploratory pass.** The botanical
+[Flora of North America account of *V. tricolor* var. *tricolor*](https://efloras.org/florataxon.aspx?flora_id=1&taxon_id=250100968)
+states explicitly that this variety cannot be distinguished vegetatively from
+[*V. arvensis*](https://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=242417461).
+Both have divided, leaflike stipules and simple leaves. Their described petal
+colours overlap partly; the f9v painting does not resolve the diagnostic spur,
+style head, sepal and petal measurements. The strong visual claim is therefore
+a pansy-like *Viola* group, **not securely modern *V. tricolor***. This refines
+GDT1063's replaceable species-level C0 gloss without altering that original
+experiment or naming a Voynich word. It does not make the older round-leaved
+manuscript pictures close visual copies of f9v.
 
 No shared target text relation, caption or source-specific prediction was
 found. `fochor` remains a singleton and its plant-name versus generic-entry
