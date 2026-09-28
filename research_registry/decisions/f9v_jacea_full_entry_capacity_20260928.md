@@ -241,3 +241,15 @@ Thus the 1485 image/name pairing establishes that a later compiler **used**
 name convention. The admitted f2r drawing has thistle-like heads and remains
 only an unassigned *Centaurea*-type visual rival; neither it nor the source
 gloss assigns a Voynich head word.
+
+Chronology is a **prior constraint, not a hard exclusion**. The reported
+1404–1438 radiocarbon interval dates the manuscript's parchment, not the
+moment its script was written ([radiocarbon account](https://www.voynich.nu/extra/carbon.html);
+[Yale's manuscript description](https://beinecke.library.yale.edu/beinecke/collections/beinecke-cipher-voynich-manuscript)
+does not supply an independently dated Voynich text). The `c.1420` writer in
+this branch is a working historical scenario. A later use of older parchment
+is possible, though this branch has no evidence that the f9v text postdates
+the 1485 *Gart*. Therefore the *Gart* pairing is not a chronological
+contradiction of `fochor ≈ Yacea`, but cannot establish that Voynich usage
+either. The independently unresolved name-versus-entry-address distinction
+remains decisive.
