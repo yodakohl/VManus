@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Find an independently owned meaning relation for a complete reading.
-Latest decision: f85r2 East tch / West ksh contrast needs GDT624 wrappers;
-GDT646 finds only East tchedy. No visible sector shift or word reading.
-Working files: f85r2 grid note; Sloane2435 note; GDT1042/1043.
-Assumptions: ch=dry provisional; k/t sign open; dair root unexportable;0 words.
-Resume: Park f85r2 quality-cycle and f57 bridge; seek a meaning owner
-elsewhere. No f85r2 sector-count or kooiin/exact-label rerun.
-Running: None. IDEA614 untested;610/611 parked;612 tested;613 raw.
+Task: Seek a new meaning owner for a whole reading.
+Latest decision: f77r GDT932–935 already tried .14/.27, .25 bridge and
+.26 tail; R/T unselected. f85r2 E tch/W ksh needs GDT624 wrappers.
+Working files: GDT932–935; f85r2 grid note.
+Assumptions: ch=dry provisional; k/t open; dair unexportable;0 words.
+Resume: Screen changed meaning inputs. No repeat of f77r .25–26,
+f85r2 sector counts or exact-label search.
+Running: None. IDEA614 lacks acoustic target; IDEA613 structural only.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
