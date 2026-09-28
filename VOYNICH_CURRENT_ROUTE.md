@@ -5,14 +5,14 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: checkpoint
 Task: Find an independent meaning-bearing relation for a whole reading.
-Latest decision: IDEA642 f77r upper `otedy` label matches P2 opener, but
-no drawn cross-panel link or independent P2 participant; no meaning test.
-Earlier f9v route duplicates IDEA630; GDT1066 structural only. 0 words.
-Working files: IDEA642 capacity review; GDT790/791/792; IDEA630.
-Assumptions: C0 image/source fit is not translation; no new test selected.
-Resume: Find a primary with explicit referent and textual consequence,
-plus a complete admitted owner; screen closed families before selection.
-Running: None. IDEA638/642/649 raw.
+Latest decision: GDT1067 gives all eight exact f69r wind alignments 180-degree
+partners. IDEA649 polarity is unidentifiable without orientation and label
+ownership; 12+16 wind fit remains positive. IDEA642 owner absent. 0 words.
+Working files: GDT1067; IDEA649 review; f69r phase QC.
+Assumptions: wind-class fit is not label meaning; no new test selected.
+Resume: Seek explicit referent and textual consequence on an admitted owner;
+screen closed families before selection.
+Running: None. IDEA638 raw; IDEA642/649 reviewed not_tested.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

@@ -1,0 +1,24 @@
+{
+  "record_id": "IDEA000649",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root after f69r/Matthew phase primary and GDT1067 fixed symmetry calculation",
+  "reason": "All eight exact geometric alignments have an exact 180-degree partner, so source- and destination-bearing assignments cannot be distinguished without independent orientation and label ownership.",
+  "assessment_basis": "registered_32_map_geometry_identifiability_result_no_lexical_test",
+  "blockers": [{
+    "code": "missing_meaning_binding",
+    "detail": "The f69r inner colors neither orient a named compass bearing nor bind an outer text sector to one; the fixed polarity rival is exactly rotationally equivalent.",
+    "evidence": ["experiments/yolo/gdt1067_f69r_wind_polarity_identifiability/REPORT.md", "research_registry/decisions/idea649_f69r_wind_polarity_20260928.md"]
+  }],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [{
+      "id": "orientation_and_owner",
+      "change": "new_binding",
+      "detail": "Obtain an independent authorial orientation marker and an independently owned label-to-bearing relation, or a different predeclared consequence that breaks the eight-slot symmetry.",
+      "evidence": ["experiments/yolo/gdt1067_f69r_wind_polarity_identifiability/REPORT.md"]
+    }],
+    "not_sufficient": ["Another unlabeled wind-rose comparison", "The existing twelve-plus-sixteen color match", "A chosen compass rotation or handedness"]
+  },
+  "relations": []
+}
