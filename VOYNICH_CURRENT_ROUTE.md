@@ -4,15 +4,15 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Seek a second connected two-record bath pair for IDEA647.
-Latest decision: IDEA636 same-herb two-route graph absent. f81r basins join;
-two paragraphs have early `olpchedy` ZL/IT, RF splits lower. 0 words.
-Working files: IDEA636/647 decisions; GDT404/674/675/790/791.
-Assumptions: f81r form recurrence is post-hoc; no direction or participant.
-f75r/f82r/f83r provide no isolated binary comparator.
-Resume: Search other admitted visual-owner inventories text-blind for one
-connected two-record pair; if absent stop this route and select a new idea.
-Running: None. IDEA638/642 raw.
+Task: Find an independently owned semantic contrast, not a process graph.
+Latest decision: IDEA647 f81r connected, no second binary pool pair;
+IDEA648 f88r branch/chain lacks input and result owners. 0 words.
+Working files: IDEA647/648 decisions; GDT790/791; f69r phase QC.
+Assumptions: f81r `olpchedy` post-hoc (RF splits lower); no direction.
+IDEA649 wind polarity has eight-way phase ambiguity, no cardinal anchor.
+Resume: Screen new raw ideas against closed primaries for a meaning-binding
+contrast; do not reuse the f81r or f88r missing-owner route.
+Running: None. IDEA638/642/649 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
