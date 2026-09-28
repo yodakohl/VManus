@@ -1,0 +1,96 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Registered leaf-matched sign gate fails although mean remains positive; no portable ending rule, phonetic or semantic meaning or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1078_terminal_rl_same_folio_control/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1078_terminal_rl_same_folio_control/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT915",
+    "GDT916",
+    "GDT1077"
+  ],
+  "experiment_id": "GDT1078",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1077_terminal_rl_next_initial_class/artifacts/EVENTS.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "b94d3bdc25a084b0ec25e24a2357363ab0bce05da409c89f2f252fde5687e1b1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "067072ad2c45b44176ad7a3e874eeeb659331e00f3017695db3a6188df3c88d5"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "14d9537781276c13cc8b19253b5cc8c18e901a9c5b6549ccf4b99115868a4cb8"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/README.md",
+      "role": "reproducibility packet",
+      "sha256": "9ba2010426a244ca9fa42c3b69e6cc8fd42b2c3a1eb161ba14bf2e6eef09d973"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "62a9927e50429f8261260d03a62636cc39e7d0b40e55768e5af2f67793c7e317"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/artifacts/FOLIO_CELLS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "8aaf7a3e602c5734a99a1d643309a7e6a3fe5e0a8ffbee6ee172e0e1e52bcbf3"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/artifacts/POSITION_CELLS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "8bff3cddb2cf14c7e0f481b8254e84dfe60041db8b0fdc4bb3d93835e28015a9"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "e225bd4a51904c24b54df0c578b7d9cb7aec82c89e50b9e5f8d786e773dfebdb"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "3a4893a9415e89076be299a18d4d2b09ff18da4d3103f0781c105828c59508c8"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "97c280c84b351bef105e38b0a71e6bf71f496f17cc54e4a063027ee0f120637b"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "d34f7b47524cf2b66aedb5bd4e1a03d858b869eeaf398a14eac15555cc3783ff"
+    },
+    {
+      "path": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "3282fcab6a6534654a6d6349b7e29900f87d5ff71d0538556fb0de31da09ed78"
+    }
+  ],
+  "question": "Does GDT1077 r/l next-initial direction survive exact-rest same-physical-folio comparison?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "terminal_rl_same_folio_control",
+  "status": "SAME_FOLIO_R_CONTEXT_GATE_FAIL",
+  "title": "terminal rl same folio control",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

@@ -4,15 +4,15 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Test boundary/position confounds of GDT1077 before 18:28 UTC.
-Latest decision: GDT1077 same-rest, section/hand r/l ending predicts next
-written a/e/i/o initial: ZL 87/117 cells, IT 120/148, RF 89/120;
-structural association, no phonetic or semantic value. GDT1076 same-base
-p/y follower gate lacked controls; GDT1075 pX opening direction retained.
+Task: Seek an independent meaning-binding route by 18:28 UTC.
+Latest decision: GDT1078 same-folio r/l next-initial sign gate fails
+(96/162 ZL), though mean +0.155; do not infer portable rule.
+GDT1077 section/hand written-context lead (87/117 ZL) retained.
+GDT1076 p/y follower control no capacity; GDT1075 pX opening direction.
 GDT1073 RF paragraph metadata unscorable. Translated words: zero.
-Working files: GDT1077; GDT1076; GDT1075.
-Assumptions: readers alternate; line position/lexical pairs may confound.
-Resume: Fixed strict-boundary and line-position robustness for r/l lead.
+Working files: GDT1078; GDT1077; source-binding queue.
+Assumptions: alternate readers; positional and lexical confounds remain.
+Resume: Stop r/l expansion; seek independently owned semantic constraint.
 Running: none.
 
 ## Structural baseline
