@@ -1,17 +1,18 @@
 # Voynich current route
-Updated: 2026-09-28. This is the sole live resume point; replace, never append history.
+Updated: 2026-09-28. Live resume point.
 
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Screen IDEA636 for one material with internal and external use.
-Latest decision: f89r2.10 is multiword and RF reads `otol`; f88r.15
-owner is nonbijective. IDEA646 lacks exact starless-figure label owner. 0 words.
-Working files: `okol` cross-page and IDEA646 decisions; GDT811/PHF001.
-Assumptions: f88r `okol` is an exact string bridge, not a flower name.
-Resume: Seek one independently owned plant with distinct written route and
-recipient constructions in admitted pharmacy/bath records before source search.
-Running: None. IDEA636/638/642 raw.
+Task: Seek a second connected two-record bath pair for IDEA647.
+Latest decision: IDEA636 same-herb two-route graph absent. f81r basins join;
+two paragraphs have early `olpchedy` ZL/IT, RF splits lower. 0 words.
+Working files: IDEA636/647 decisions; GDT404/674/675/790/791.
+Assumptions: f81r form recurrence is post-hoc; no direction or participant.
+f75r/f82r/f83r provide no isolated binary comparator.
+Resume: Search other admitted visual-owner inventories text-blind for one
+connected two-record pair; if absent stop this route and select a new idea.
+Running: None. IDEA638/642 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

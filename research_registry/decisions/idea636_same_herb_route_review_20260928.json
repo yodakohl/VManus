@@ -1,0 +1,24 @@
+{
+  "record_id": "IDEA000636",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root after GDT169, GDT811, W89, GDT590 and GDT388 primaries",
+  "reason": "The nominated admitted inventories identify no same plant across two independently written internal and external route clauses with recipients. GDT169's five local queries have zero exact host/tuple matches, W89's action meanings are paused, and GDT590 bath roles lack plant and ingestion bindings. No historical source comparison was run.",
+  "assessment_basis": "exploratory_target_capacity_screen_no_fixed_semantic_test",
+  "blockers": [{
+    "code": "missing_meaning_binding",
+    "detail": "No independently identified common plant and two route/recipient constructions are available in the nominated complete target records.",
+    "evidence": ["research_registry/decisions/idea636_same_herb_route_capacity_20260928.md"]
+  }],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [{
+      "id": "independent_same_material_two_routes",
+      "change": "new_binding",
+      "detail": "An admitted complete record independently binds one material across two clauses with distinct written ingestion and external-application routes and recipients, before a historical source is selected.",
+      "evidence": ["research_registry/decisions/idea636_same_herb_route_capacity_20260928.md"]
+    }],
+    "not_sufficient": ["A generic medieval dual-use herb entry", "A same-page plant drawing", "An exact label/prose string alone", "Reusing W89 recipe verbs as independent anchors"]
+  },
+  "relations": []
+}
