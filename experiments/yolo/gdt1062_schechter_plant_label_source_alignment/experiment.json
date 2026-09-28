@@ -1,0 +1,100 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Source-position accuracy only; no botanical identity, deciphered plant name, independent meaning or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1062_schechter_plant_label_source_alignment/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1062_schechter_plant_label_source_alignment/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT1059",
+    "GDT1061"
+  ],
+  "experiment_id": "GDT1062",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/src/claims.tsv",
+      "role": "fixed public label subset",
+      "sha256": "8fff37db44c619c21b86422125e985d105bed5e2a6b6cd66e650390477c9d4f0"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "guarded three-reader source",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded P/L metadata",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/PREREGISTRATION.md",
+      "role": "registered result packet",
+      "sha256": "e793e60603a389b5ee651f9a1ed8cd6a820d50fdda129730f2814a4854c4535f"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/METHOD.md",
+      "role": "registered result packet",
+      "sha256": "4e14b98d4996e67132e3a567b9ef8e6e7ca1db0cf41e7e7af07b5c8f7d451f1e"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/README.md",
+      "role": "registered result packet",
+      "sha256": "0940b31c72bc2d107b91a34bec349bc2621f906d21949a6f3aee0eae41cca56d"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/REPORT.md",
+      "role": "registered result packet",
+      "sha256": "66308d938f83b6ed6071ca483e2e30b2cfd9badac2989a1931fc6933582fc1bf"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/src/run.py",
+      "role": "registered result packet",
+      "sha256": "fed9ea41f759f3cec54bf04c7dd9e70fa028487de4fbf3db0ef70a6e3083e8ce"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/src/validate.py",
+      "role": "registered result packet",
+      "sha256": "489b4ed4013a19d28383ad1fb92fe0be344d867536d29a3845faf09dd301b6ed"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/artifacts/README.md",
+      "role": "registered result packet",
+      "sha256": "805d10b098bbad3825395f55117d354b4784cca2466c6a35c68ff827706b6ec4"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/artifacts/LABEL_RESULTS.tsv",
+      "role": "registered result packet",
+      "sha256": "616e0813b249641eb2519fde9989a3efaff0cfb7d942880e66ba623c78dde4c3"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/artifacts/RESULT.json",
+      "role": "registered result packet",
+      "sha256": "52ee811814ce00cee63aa55f87b109b5272b42d89ef52ca52d69e8371981ee25"
+    },
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/artifacts/VALIDATION.json",
+      "role": "registered result packet",
+      "sha256": "dd454abf18b4a450a4822a70d28e946ab7fc56ca68284868794a8c041b234b83"
+    }
+  ],
+  "question": "Do all 23 admitted published page/EVA plant labels match the first prose group of the claimed folio in each current reading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "schechter_plant_label_source_alignment",
+  "status": "SOURCE_POSITION_PASS_IT2A_23_OF_23__MEANINGS_UNBOUND",
+  "title": "schechter plant label source alignment",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

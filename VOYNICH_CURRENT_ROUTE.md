@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Seek a new independently keyed meaning owner for a whole reading.
-Latest decision: Six ZFD Raw EVA case lines absent on named pages in all
-three readers; do not import their glosses. f77r GDT932–935 R/T unselected.
-Working files: GDT1061; GDT932–935; f85r2 grid note.
+Task: Test an independently keyed plant meaning, not just EVA position.
+Latest decision: GDT1062 finds 23/23 Schechter labels at first prose position
+in IT2a (19/23 ZL/RF); botanical meanings unbound. GDT1061 ZFD lines absent.
+Working files: GDT1062, GDT1061; GDT1059 f2v/f29v counter-obligation.
 Assumptions: ch=dry provisional; k/t open; dair unexportable;0 words.
-Resume: Screen changed meaning inputs; require actual keyed source lines.
-No repeat of f77r .25–26 or f85r2 sector counts.
-Running: None. IDEA614 lacks acoustic target; IDEA613 structural only.
+Resume: Bind one plant independently or test a whole-passage consequence.
+Source match is not meaning; no f77r/f85r2 repeat.
+Running: None. IDEA615–620 raw/unreviewed, require source and capacity.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
