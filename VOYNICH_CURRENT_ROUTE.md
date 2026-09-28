@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Test f9v `fochor`≈Viola against a generic-head rival.
-Latest decision: GDT1063 gives informed C0 Viola visual lead, no word proof;
-GDT1062:23/23 source heads in IT2a, plant names unbound. GDT1061 ZFD absent.
-Working files: GDT1063, GDT1062, GDT1059 f2v/f29v obligation.
-Assumptions: first head names plant unproven; ch=dry provisional;0 words.
-Resume: Seek an independent `fochor` lexical relation or distinguishing
-whole-passage consequence. No f77r/f85r2 repeat or early reserve use.
-Running: None. IDEA615–620 raw/unreviewed, need source/capacity.
+Task: Distinguish f9v name from entry address by whole reading.
+Latest decision: GDT1064: 1485 Yacea names pansy-like Freyschem krut;
+bare JACEA fits f9v, published "knapweed" does not. fochor≈Viola stays C0.
+Working files: GDT1064, GDT1063, GDT1059.
+Assumptions: f9v Viola-like; species and first-head function open;0 words.
+Resume: Seek a source-bound full f9v reading with distinct name/address
+predictions. No singleton-head or hot/dry re-gloss shortcut.
+Running: None. IDEA621–625 raw/unreviewed; source/capacity still required.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
