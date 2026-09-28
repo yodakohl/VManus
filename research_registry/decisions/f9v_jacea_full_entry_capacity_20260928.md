@@ -114,3 +114,44 @@ source-image mismatch disclosed. The source is no confirmation of `fochor`
 and adds no translated Voynich word. The next sensible source route remains
 a specifically identified pre-1450 illustrated Viola/Yacea entry with a
 contrastive relation, or an independent target-side name/address discriminator.
+
+### Next bounded source search, declared before inspecting new entries
+
+Unknown: whether one of five named pre-1450 or mid-century illustrated herbal
+witnesses (Carrara/Egerton 2020, Belluno/Add MS 41623, Roccabonella, the 1441
+Guarnerino herbal, Brussels IV 1024) has an institutionally identified
+Viola-tricolor-like entry with its own dated wording and a source-specific
+contrast. Finding such an entry could change IDEA628's source-ownership
+capacity, but without independent f9v word binding it would remain an
+exploratory comparator. No such entry, an identified *V. odorata* only, or a
+later marginal identification leaves the decision unchanged. Smallest check:
+catalogue/index search for these five named witnesses, then at most two
+relevant primary folios; no bulk OCR or new Voynich page. Wall-time budget:
+45 minutes including provenance, inspection, decision and publication. The
+known [BL Carrara catalogue](https://searcharchives.bl.uk/catalog/032-001982947)
+already explicitly identifies f.94r as sweet violet/*Viola odorata*, so it
+cannot by itself be counted as the sought wild-pansy witness.
+
+### Result of the bounded five-witness search
+
+The search located **no independently identified pre-1450 wild-pansy entry
+with a usable source-written relation**. These are different outcomes, not a
+claim that such an entry does not exist:
+
+| Witness | Located evidence | Consequence |
+| --- | --- | --- |
+| Carrara, BL Egerton 2020 | [BL catalogue](https://searcharchives.bl.uk/catalog/032-001982947) identifies f.94r `De la viola` as *Viola odorata*. | A documented violet, but the wrong species for a wild-pansy owner. |
+| Belluno, BL Add MS 41623 | [BL catalogue](https://searcharchives.bl.uk/catalog/032-002085314) dates it 1400–1440. The digitized index folios 142r and 145r were inspected; no unambiguous wild-pansy locator was found. | Incomplete index coverage prevents an absence claim; the bounded scan supplies no owner. |
+| Roccabonella herbal | A [Padua study](https://bupd.cultura.gov.it/wp-content/uploads/2023/07/0cd0b741de10d55bc025d869c46a93fd.pdf) reports image transmission from Carrara but no independently identified wild-pansy folio was located in this check. | A derived Viola image, even if located, would need its own taxon and written relation; none was established. |
+| Guarnerino, Bergamo MA 592 | The [holding library](https://www.bibliotecamai.org/iorestoacasa-erbario-guarnerino/) dates the signed herbal to 1441 and locates `trinitas` at f.108r. Its [BDL page 225](https://www.bdl.servizirl.it/bdl/bookreader/index.html?path=fe&cdOggetto=5145#page/225/mode/1up) timed out/returned a server error in direct image requests. An [archival reproduction of that same folio](https://www.giuliooraziobravi.it/pdf/Calendario.pdf), page 2, was inspected: three-lobed leaves and small blue, approximately six-petalled flowers are visible. | This morphology supports *Hepatica*-type `erba trinità`, not *Viola tricolor*. The homonymous name is **not** a wild-pansy witness. The reproduction is lower-quality than the inaccessible direct BDL image; the conclusion is visual exclusion at family level, not a definitive modern species identification. |
+| Brussels, KBR IV 1024 | Catalogue/search located the manuscript as a *Livre des simples médecines*, but no institutional wild-pansy locator or entry text was recovered within the bounded search. | Missing target entry, not evidence against its existence. |
+
+The Guarnerino image is a concrete warning against matching historical plant
+names without their pictured owners: `trinitas` can designate visually
+different plants. The 1485 Mainz Yacea chapter remains the only directly
+inspected source-written pansy-like entry in this branch. It still cannot
+assign `fochor` or any other f9v word. IDEA628's fixed-test decision stays
+closed; confirmed Voynich word meanings remain zero. Reopen only on a dated
+source entry that independently identifies the pictured *Viola*-like plant
+and supplies a contrastive written relation, or on an independent target-side
+name/address discriminator.
