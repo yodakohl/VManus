@@ -5,13 +5,12 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: active
 Task: Find an independent word owner.
-Latest decision: f9v sole Viola-like image of14; `fochor` singleton,
-name/address rival. BnF violet pair and Arsenal Trinité trifoliate show
-historical name ambiguity, no f9v link. Oxford MS17 season/age/wind
-conjunction is source-only; f68/f69/f85 labels remain unowned. Zero words.
+Latest decision: f9v sole Viola-like image of14; six named Viola pictures
+lack its combined traits; species unbound. `fochor` singleton, name/address
+rival. Maerlant Viola products source-only. f68/f69/f85 unowned. Zero words.
 Working files: f9v source decisions; f68/f85 dossiers; idea registry.
 Assumptions: images are not lexical maps; readings are one manuscript.
-Resume: Seek a new owned relation; screen route and scope first.
+Resume: Seek a new word-owning relation; screen route and scope first.
 Running: None.
 
 ## Structural baseline
