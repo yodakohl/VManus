@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1065**
-- Experiment-associated tracked files: **21,031** (1.9 GiB)
-- Structured GDT337+ experiments: **730**
+- Experiments indexed: **1066**
+- Experiment-associated tracked files: **21,041** (1.9 GiB)
+- Structured GDT337+ experiments: **731**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1068 | f67r2 f69r whole title overlap | `NO_COMPLETE_LITERAL_TITLE_TRANSFER` | [report](../experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/REPORT.md) | 10 | 19.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT1067 | GDT1067_f69r_wind_polarity_identifiability | `POLARITY_NONIDENTIFIABLE_UNDER_EXISTING_GEOMETRY` | [report](../experiments/yolo/gdt1067_f69r_wind_polarity_identifiability/REPORT.md) | 11 | 20.5 KiB | 0 | STRUCTURED_YOLO |
 | GDT1066 | GDT1066_f81r_rare_opening_pair_control | `DESCRIPTIVE_ONE_OF_NINE_RARE_OPENING_PAIR_NO_MEANING` | [report](../experiments/yolo/gdt1066_f81r_rare_opening_pair_control/REPORT.md) | 10 | 19.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1065 | GDT1065_IDEA643_same_record_capacity | `ZERO_STRICT_CAPACITY__NOT_TESTED_MEANING` | [report](../experiments/yolo/gdt1065_h1_h4_same_record_capacity/REPORT.md) | 10 | 22.2 KiB | 5 | STRUCTURED_YOLO |

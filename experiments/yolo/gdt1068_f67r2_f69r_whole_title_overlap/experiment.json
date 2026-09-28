@@ -1,0 +1,91 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "EXPLORATORY_LITERAL_TRANSFER_ONLY_NO_WIND_NAME_OR_MEANING",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT952",
+    "GDT958",
+    "GDT1067"
+  ],
+  "experiment_id": "GDT1068",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt958_wind_fixed_form_variation/artifacts/FROZEN_TITLE_VARIANTS.tsv",
+      "role": "frozen twelve-sector titles in each reading",
+      "sha256": "b0584eace80634a3c24df18f7dee0f3c8d0576e544f087b71165c1503999a47c"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "mixed source read only through selector-first f69r guard",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "7b804ebf17c83c42622db45ad595a64fa342d6aa1815c7479a4fb4b301db662a"
+    },
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "64f19dfd077236a531080c38113ac9d3c1fc1524c9085a7efd6c08b8e9ff81e6"
+    },
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/README.md",
+      "role": "reproducibility packet",
+      "sha256": "a9c9b2feaa0d8e9a3c44d86bc7328f8a0f2e32db60be5c65538211bd1756f7bc"
+    },
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "fdf2d613ecdc1fa163572d5109fec5f81e06f5536990efafd5e4d5bdec09471f"
+    },
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "72fc28f17369c971da71f8827196f161c006d1ba1a9805cf72b359e762899693"
+    },
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "c6d17703cb731c74e807f1f24b425401b3a93b9cd67a7016fccaf270e7efdd78"
+    },
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "3321c607d42db09da680309588685c0dc8bfe0df48d1a3e8d3876f4db1135e49"
+    },
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "d9e9bf36603c8ddb46d349268cd4f6b6d59923b307d38b9e3dca15863f21eb9e"
+    },
+    {
+      "path": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "7a2274e50481fa6c82569d364cc76bd778eedd226d4bf024fc58bacdcdd40dc7"
+    }
+  ],
+  "question": "Does an unchanged complete f67r2 title recur in any f69r outer or radial item in the same alternative reading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f67r2_f69r_whole_title_overlap",
+  "status": "NO_COMPLETE_LITERAL_TITLE_TRANSFER",
+  "title": "f67r2 f69r whole title overlap",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
