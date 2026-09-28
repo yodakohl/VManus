@@ -1,0 +1,9 @@
+# Detmold Mscr 70 f. 128r: early Viola text, no f9v image owner
+
+28 September 2026. Exploratory source comparison after the f9v Viola-like image and `fochor` name/address rival were known. This is not a prospective Voynich-word test.
+
+The [Lippische Landesbibliothek catalogue](https://digitale-sammlungen.llb-detmold.de/urn/urn:nbn:de:hbz:51:1-13729) dates its copy of Jacob van Maerlant's *Der naturen bloeme*, Mscr 70, to 1287–1290. The library's [herbal-section scan](https://digitale-sammlungen.llb-detmold.de/download/pdf/6345253.pdf), PDF page 13, shows fol. 128r. Root directly inspected the scan; the fetched 14-page PDF has SHA256 `f30374e062feb58785b1fe1f82720da652f41ec07f8099e8873364e64048affd`.
+
+In the right column a decorated initial begins the `Viola` entry. The written account describes two distinct violet products: a syrup made with water, straining and sugar, and an oil made from flowers boiled in oil and strained. The folio has decorated initials but no plant illustration or caption showing f9v's five blue/pale petals and mixed leaf forms. Thus this is a secure pre-1450 **Viola text and two-product contrast**, not an independently identified wild-pansy image or a named image/text pair. The medieval `Viola` need not denote modern *V. tricolor*.
+
+Admitted f9v has two paragraphs (lines 1–4 and 5–12). Their existence is compatible with many entry architectures; it does not specifically predict syrup then oil, and no f9v group independently means violet, water, sugar, oil, straining, or either product. `fochor` at the first opening remains a plant-name versus entry-address C0 rival. The source therefore adds a historically early, explicit multi-product model but supplies no target discriminator, no word confirmation and no reason to reopen IDEA623/624/628/630 without a new independently bound target relation. No Voynich image or text was newly accessed; f84/f84r and reserves remained closed.
