@@ -4,15 +4,16 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Select a non-wind owned semantic contrast for a whole reading.
-Latest decision: IDEA651 not tested: no independent frame/outer-label
-transfer to f69r. GDT1067 polarity and GDT1068 zero full titles remain.
-Positive 12+16 wind fit remains; 0 confirmed words.
-Working files: IDEA651 review; GDT812 storage primary; IDEA652 raw.
+Task: Find an independent meaning owner.
+Latest decision: IDEA653 not tested: f81v's two rows and two prose blocks
+lack a cross-block participant/time binding. GDT1064 allows historical
+Jacea=pansy but does not bind f9v `fochor`; GDT1051 retains `okoaiin` as
+unconfirmed SUN candidate. f69r 12+16 wind fit remains; 0 words.
+Working files: IDEA653 review; GDT1064 f9v correction; GDT1051 f68r2/f89v1.
 Assumptions: image family is not a word map; readings are one manuscript.
-Resume: IDEA652 repeats GDT812's rose-storage rival without a target owner;
-choose a different admitted whole-reading target with independent owner.
-Running: None; IDEA652 raw.
+Resume: Seek an independent lexical/participant owner changing a whole reading;
+row proximity, first-head position and rarity do not suffice.
+Running: None.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
