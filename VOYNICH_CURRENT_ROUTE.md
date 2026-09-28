@@ -4,14 +4,13 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Distinguish f9v name from entry address by whole reading.
-Latest decision: GDT1064: 1485 Yacea names pansy-like Freyschem krut;
-bare JACEA fits f9v, published "knapweed" does not. fochor≈Viola stays C0.
-Working files: GDT1064, GDT1063, GDT1059.
-Assumptions: f9v Viola-like; species and first-head function open;0 words.
-Resume: Seek a source-bound full f9v reading with distinct name/address
-predictions. No singleton-head or hot/dry re-gloss shortcut.
-Running: None. IDEA621–625 raw/unreviewed; source/capacity still required.
+Task: Screen IDEA626/627/630 for a source-owned whole-entry relation.
+Latest decision: 1485/1543 Jacea profiles conflict; portable pchor does not
+distinguish name from address. 0 words.
+Working files: GDT1064/757/766; f9v_jacea_full_entry_capacity_20260928.md.
+Assumptions: f9v Viola-like; first-head function open; no 1420 alias proof.
+Resume: Check three ideas against primaries; route-check one relation before test.
+Running: None. IDEA628 reviewed not tested; 626/627/629/630 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
