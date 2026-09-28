@@ -8,8 +8,8 @@ Task: Seek an independent content-to-word anchor; avoid known picture-only ties.
 Latest decision: f4v mandrake source gate lacks diagnostic common anatomy;
 target image unopened. f95v source check found no distinctive plant match.
 Working files: f4v source gate; f95v comparison/IDEA668 review; SNPL002.
-Source correction: f95v2=Yale1006242 (number95,7 lines), f95v1=1006243
-(13 lines). GDT866 applies to f95v1; GDT404's shared drawing owner is void.
+Source correction: f95v2=Yale1006242, f95v1=1006243; separate drawing
+owners. GDT866 applies to f95v1; GDT404's pooled owner is void.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
 Resume: Require a new externally owned referent and a discriminating text rule;
@@ -33,7 +33,9 @@ W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted
 GDT913 contradicts all18 frozen IT2a lexicons; original GDT888 non-uniqueness retained.
 GDT914/925/928 fixed edit/literal-parallel tests closed, not all compositional meaning.
 GDT616 failed; later diagnostic PASS does not rescue it.
-IDEA237 untested, no longer preferred; all30 programs have first passes, no P09 restart.
+f9v: GDT1064 corrects Jacea/Viola polysemy; `fochor` remains C0,
+with no second bound Viola owner (IDEA621).
+IDEA237 untested/not preferred; all30 programs first-passed, P09 closed.
 Details via `context topic NAME`: recipes, names, numbers, genealogy, variants,
 controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primaries.
 Other closed families remain in the existing registry; no automatic reopening.
