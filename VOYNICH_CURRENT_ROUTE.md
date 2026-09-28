@@ -4,15 +4,15 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Audit section/hand confounding of fixed p/y direction by 18:28 UTC.
-Latest decision: GDT1074 strict physical-line projection yields five fixed
-pX/yX bases with higher pX paragraph-start rate in all readings. Structural,
-not semantic; GDT1073 original RF-metadata stop retained. GDT1072 parks
-star-exclusive `otor`; GDT1070: 80/89 Herbal heads singleton. Zero words.
-Working files: GDT1074; GDT1073; idea queue.
-Assumptions: readers are alternatives; page/section confounding possible.
-Resume: Freeze five bases; test direction within sections/physical leaves.
-Running: none.
+Task: Seek a stronger within-text consequence of fixed p/y contrast by 18:28 UTC.
+Latest decision: GDT1075: three ZL3b bases retain pX>yX paragraph-opening
+fraction within section/hand; IT/RF sensitivity agrees. Formal only. GDT1074
+five-base direction retained; GDT1073 RF metadata remains unscorable.
+Confirmed translated words: zero.
+Working files: GDT1075; GDT1074; idea queue.
+Assumptions: one manuscript/alternate readers; folio/lexical effects remain.
+Resume: Screen same-physical-paragraph pX/yX ordering for distinct falsifier.
+Running: bounded idea producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
@@ -41,10 +41,9 @@ f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves stay cl
 complete plausible overall reading. Prior exposure cannot be erased by a new model.
 179 text selectors;51 visual keys/57 selectors, no slot remains. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
-[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [base](docs/VOYNICH_DATA_SCOPE.md). No outside contacts or expert review.
-09-27/28 incidental source-search exposure is caveated in scope; no admission.
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [base](docs/VOYNICH_DATA_SCOPE.md). No outside contacts.
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
-Mixed TSVs ONLY via selector-first `vmanus-exp query-tsv`; partial grants use
+Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r
 page-query overreach is exposure only in the scope note. New scored relation packets
 require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).

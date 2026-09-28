@@ -1,0 +1,107 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Within-section-and-hand paragraph-opening direction for three supported bases in ZL3b, with IT2a/RF1b sensitivity; no p/y morpheme meaning, word translation or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1075_py_section_hand_confound/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1075_py_section_hand_confound/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT631",
+    "GDT1073",
+    "GDT1074",
+    "GDT846"
+  ],
+  "experiment_id": "GDT1075",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/artifacts/EVENTS.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "6357927a1a0d4275e057e0bd06043061c5ec749d506dce4174c4924e6abef75f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "f573620871ac775a0fd636c5e6208c7bb0fbc4203eacee98d3dfa4de6bd2da41"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "cfe26e1742955ba900b5cfc5763781d50bfbf293339d0935c7053f7d062bed9a"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/README.md",
+      "role": "reproducibility packet",
+      "sha256": "cf0cde65c8b02d779a6460ecfab66b872420b3bb254369aadd9646346bddfdde"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "fc0894be0cc703a55954fb5895a400a26eca4b7868237ff4ba5cee7dcdae014a"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/artifacts/EVENTS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "6c0b9fd422054a7ece186506d06aa3fa4558a77ac75eefa40424a5b4560a594d"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "1d4c733c0308bc60bad03d64951f2c19055a4fd0457f7bebb5118df5c35bd629"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "ae5ed12231bee198ae91c105e256e62163efa8f184ed86f25166e0a24fdd90f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/artifacts/STRATA.tsv",
+      "role": "reproducibility packet",
+      "sha256": "224cf2088b5ebedc421bcff96a7e786ecd0f49623410592d198ebada82585ed7"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "54086d9233e05dece8019be1b86942fdf0501d7846a423835fe4f56bcdd6b2e3"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "a3ebaf8ffbbb0f8b2e6466edd4976d25004364145bd3a55aab25de161f4965ad"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "45449166433f8741b65e2f998af64fcc6b1dedc72c230f1e1e7634d570c1f0de"
+    }
+  ],
+  "question": "Does fixed pX/yX paragraph-opening contrast survive within section and hand?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "py_section_hand_confound",
+  "status": "WITHIN_REGISTER_FORMAL_DIRECTION",
+  "title": "py section hand confound",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1075_py_section_hand_confound/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
