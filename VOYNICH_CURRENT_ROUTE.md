@@ -4,14 +4,14 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Find an independently owned semantic contrast, not a process graph.
-Latest decision: IDEA647 f81r connected, no second binary pool pair;
-IDEA648 f88r branch/chain lacks input and result owners. 0 words.
-Working files: IDEA647/648 decisions; GDT790/791; f69r phase QC.
-Assumptions: f81r `olpchedy` post-hoc (RF splits lower); no direction.
-IDEA649 wind polarity has eight-way phase ambiguity, no cardinal anchor.
-Resume: Screen new raw ideas against closed primaries for a meaning-binding
-contrast; do not reuse the f81r or f88r missing-owner route.
+Task: Seek a discriminating f9v reading for `fochor`.
+Latest decision: GDT1066 f81r alone has rare early ZL recurrence in nine
+fixed bath pairs; post-hoc and RF split, no meaning. IDEA650 lacks access.
+Working files: GDT1066, IDEA647/650; GDT1062/1063/1064 f9v primaries.
+Assumptions: f9v pansy-like Viola visual owner C0; historical Jacea also
+fits; `fochor` may be plant name or generic entry head. 0 confirmed words.
+Resume: Review f9v text and predecessor dictionaries; specify a whole-
+passage name-vs-generic consequence before new glosses or sources.
 Running: None. IDEA638/642/649 raw.
 
 ## Structural baseline
