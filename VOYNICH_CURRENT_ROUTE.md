@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Screen IDEA635 mixed versus sequential bathing for owned target relations.
-Latest decision: IDEA634 Cpg644 source owns diagnostic sequence; f85r2 east
-pose fits inspection but lacks contents/sign/judgment word links; not tested.
-Working files: idea634_vessel_inspection_capacity; GDT591; W88.
-Assumptions: f85r2 uroscopy remains a visual hypothesis; 0 confirmed words.
-Resume: Check GDT591 and W88 for independent target mixing/convergence
-ownership before seeking another historical source pair.
-Running: None. IDEA635–639 and IDEA629 raw/unreviewed.
+Task: Screen IDEA637 genuine-drug versus substitute assay for target capacity.
+Latest decision: IDEA634 source uroscopy lacks target word roles; IDEA635 bath
+reader lacks independent two-input convergence; both not tested, 0 words.
+Working files: IDEA634/635 capacity notes and primaries.
+Assumptions: visual classes and working paraphrases are no word translations.
+Resume: Check whether an admitted complete target owns both assay materials,
+operation and opposite results before historical source search.
+Running: None. IDEA636–639 and IDEA629 raw/unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
