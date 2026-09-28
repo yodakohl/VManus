@@ -5,9 +5,9 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: active
 Task: Seek an independent content-to-word anchor; avoid known picture-only ties.
-Latest decision: f95v source image check finds no distinctive historical plant
-match or word. GDT1084 duplicates SNPL002's rejected four-pair test.
-Working files: SNPL002; f95v image comparison; IDEA668/669 unreviewed.
+Latest decision: f4v mandrake source gate lacks diagnostic common anatomy;
+target image unopened. f95v source check found no distinctive plant match.
+Working files: f4v source gate; f95v comparison/IDEA668 review; SNPL002.
 Source correction: f95v2=Yale1006242 (number95,7 lines), f95v1=1006243
 (13 lines). GDT866 applies to f95v1; GDT404's shared drawing owner is void.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
