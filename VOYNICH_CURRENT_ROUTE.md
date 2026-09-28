@@ -5,9 +5,9 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: active
 Task: Find an independent word owner.
-Latest decision: GDT1069 retains 16/23 public Herbal heads as exact, definitely
-bounded in all readings; f9v `fochor` survives, name/address unresolved.
-f88r/f99v repeat `otaly`/`otoky` but owner ratings conflict. Zero words.
+Latest decision: GDT1070: 80/89 Herbal heads are singletons; f9v `fochor`
+uniqueness does not decide name/address. GDT1069: 16/23 public heads are
+exact/definitely bounded in all readings. Zero words.
 Working files: f88r/f99v label decision; f9v decisions; idea registry.
 Assumptions: images are not lexical maps; readings are one manuscript.
 Resume: Seek independent singular owner; screen route and scope first.
