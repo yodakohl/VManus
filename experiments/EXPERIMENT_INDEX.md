@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1076**
-- Experiment-associated tracked files: **21,159** (1.9 GiB)
-- Structured GDT337+ experiments: **741**
+- Experiments indexed: **1077**
+- Experiment-associated tracked files: **21,168** (1.9 GiB)
+- Structured GDT337+ experiments: **742**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1079 | f85 f68 luminary ring exact overlap | `NO_RARE_SUN_ONLY_EXACT_BRIDGE` | [report](../experiments/yolo/gdt1079_f85_f68_luminary_ring_exact_overlap/REPORT.md) | 9 | 51.8 KiB | 5 | STRUCTURED_YOLO |
 | GDT1074 | GDT1074 | `ROBUST_FORMAL_DIRECTION_FIVE_BASES__NO_MEANING` | [report](../experiments/yolo/gdt1074_physical_paragraph_pair_robustness/REPORT.md) | 12 | 75.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT1073 | GDT1073 | `INVALID_RF_PARAGRAPH_METADATA__ZL_IT_DIRECTIONAL_DIAGNOSTIC` | [report](../experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/REPORT.md) | 11 | 27.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT1072 | GDT1072 | `CROSS_REGISTER_OCCURRENCES__STAR_EXCLUSIVE_DEFAULT_DISFAVORED__MEANING_OPEN` | [report](../experiments/yolo/gdt1072_otor_full_admitted_context/REPORT.md) | 11 | 25.5 KiB | 3 | STRUCTURED_YOLO |
