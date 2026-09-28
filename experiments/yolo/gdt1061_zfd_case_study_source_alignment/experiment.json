@@ -1,0 +1,100 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Source-example alignment only; no translation, no full-decoder refutation, no independent confirmation or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1061_zfd_case_study_source_alignment/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1061_zfd_case_study_source_alignment/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT784",
+    "GDT790"
+  ],
+  "experiment_id": "GDT1061",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/src/claims.tsv",
+      "role": "pinned public case strings",
+      "sha256": "53fd8db418a9e0ce713084510f14b19cdb4f6358699a7c33dfe8dd274d93dbbd"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "guarded three-reader source",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded P-locus metadata",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/PREREGISTRATION.md",
+      "role": "registered result packet",
+      "sha256": "d88f8b55f4099c01358346aedb9437b66f7e0194ade56e4cb198f29f9c481772"
+    },
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/METHOD.md",
+      "role": "registered result packet",
+      "sha256": "0527f0ff55352bfda02f9ba863e620df5a29a04b790f246064e93c1be1561421"
+    },
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/README.md",
+      "role": "registered result packet",
+      "sha256": "6dcd3580051b85a00129a4be006387345efe85e64efe87ab885e4c5588810ad7"
+    },
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/REPORT.md",
+      "role": "registered result packet",
+      "sha256": "cc636930d2bfe02f94148281478e35d2ed3518f4449b627466cd4ca3dc8b85c5"
+    },
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/src/run.py",
+      "role": "registered result packet",
+      "sha256": "7ac0227f1a4dad6df57633d2445c8b163795cdf45d12fa5cbf94065444dece26"
+    },
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/src/validate.py",
+      "role": "registered result packet",
+      "sha256": "13541cf62c4e3e54319d0e131cc354e883ad9054a8430d10891c01199b6336c7"
+    },
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/artifacts/README.md",
+      "role": "registered result packet",
+      "sha256": "f7017cbba045b96f76da88c3edffea9822b4620507af6de155fea8b5ae6c548b"
+    },
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/artifacts/CASE_RESULTS.tsv",
+      "role": "registered result packet",
+      "sha256": "c4631dddaa7c1c1037a20a5bba3d8f91508376989d27210fc046948f403370f1"
+    },
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/artifacts/RESULT.json",
+      "role": "registered result packet",
+      "sha256": "1a7c754ec4605d0d5fe6cbbcffc5841ec9762c30a31f7386506dc4887f9024c7"
+    },
+    {
+      "path": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/artifacts/VALIDATION.json",
+      "role": "validator result",
+      "sha256": "370b9e431980aab4e4a716795ad18b96b9f0fe4e408e855471bf9cf94c106fa0"
+    }
+  ],
+  "question": "Do the six pinned public ZFD Raw EVA examples occur on their claimed f56r/f88r/f77r pages as exact lines or contiguous group spans in any current reader?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "zfd_case_study_source_alignment",
+  "status": "SOURCE_CASE_STUDY_LINES_UNATTESTED_IN_THREE_CURRENT_READERS",
+  "title": "zfd case study source alignment",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1061_zfd_case_study_source_alignment/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

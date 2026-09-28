@@ -4,13 +4,13 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Seek a new meaning owner for a whole reading.
-Latest decision: f77r GDT932–935 already tried .14/.27, .25 bridge and
-.26 tail; R/T unselected. f85r2 E tch/W ksh needs GDT624 wrappers.
-Working files: GDT932–935; f85r2 grid note.
+Task: Seek a new independently keyed meaning owner for a whole reading.
+Latest decision: Six ZFD Raw EVA case lines absent on named pages in all
+three readers; do not import their glosses. f77r GDT932–935 R/T unselected.
+Working files: GDT1061; GDT932–935; f85r2 grid note.
 Assumptions: ch=dry provisional; k/t open; dair unexportable;0 words.
-Resume: Screen changed meaning inputs. No repeat of f77r .25–26,
-f85r2 sector counts or exact-label search.
+Resume: Screen changed meaning inputs; require actual keyed source lines.
+No repeat of f77r .25–26 or f85r2 sector counts.
 Running: None. IDEA614 lacks acoustic target; IDEA613 structural only.
 
 ## Structural baseline

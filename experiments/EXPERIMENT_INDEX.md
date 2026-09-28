@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1059**
-- Experiment-associated tracked files: **20,996** (1.9 GiB)
-- Structured GDT337+ experiments: **724**
+- Experiments indexed: **1060**
+- Experiment-associated tracked files: **21,008** (1.9 GiB)
+- Structured GDT337+ experiments: **725**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1061 | GDT1061_zfd_case_study_source_alignment | `SOURCE_CASE_STUDY_LINES_UNATTESTED_IN_THREE_CURRENT_READERS` | [report](../experiments/yolo/gdt1061_zfd_case_study_source_alignment/REPORT.md) | 12 | 19.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT1060 | GDT1060_f18r8_okaldy_visual_boundary | `UNRESOLVED__GDT797_SENSITIVITY_RETAINED` | [report](../experiments/yolo/gdt1060_f18r8_okaldy_visual_boundary/REPORT.md) | 10 | 9.9 KiB | 1 | STRUCTURED_YOLO |
 | GDT1059 | GDT1059_kooiin_header_quality_base_rate | `DESCRIPTIVE_CAPACITY_ONLY__ROOTSTOCK_VS_GENERIC_OPEN` | [report](../experiments/yolo/gdt1059_kooiin_header_quality_base_rate/REPORT.md) | 11 | 22.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT1058 | GDT1058_quality_scope_thermal_rescore | `POSTHOC_SCOPE_SPLIT_GLOBAL_THERMAL_SIGN_UNRESOLVED` | [report](../experiments/yolo/gdt1058_quality_scope_thermal_rescore/REPORT.md) | 12 | 23.3 KiB | 2 | STRUCTURED_YOLO |
