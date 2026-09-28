@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Screen IDEA632 seasonal part succession against GDT768 and W93.
-Latest decision: IDEA626/627/630 and IDEA631 reviewed not tested; f9v lacks
-name/address binding, dual-product proposal lacks an owned target triad.
-Working files: f9v_jacea_followup; idea631_dual_product_capacity.
-Assumptions: f9v name/address open; 1485 pansy alias is later evidence; 0 words.
-Resume: Check IDEA632 source-owned plant-stage order and rival, then target
-capacity before any test. Keep IDEA633 raw and f68 prior Sun/Moon work in view.
-Running: None. IDEA632/633 and IDEA629 raw/unreviewed.
+Task: Screen IDEA634 vessel-inspection relation against GDT1043 and primaries.
+Latest decision: IDEA632 lacks temporal plant binding; IDEA633 lacks paired
+Earth/observer eclipse ownership. Both reviewed not tested; 0 words.
+Working files: idea632_phenology_capacity; idea633_eclipse_capacity.
+Assumptions: chor/shor flower-fruit direction tied; Sun/Moon forms unglossed.
+Resume: Check whether f85r2 vessel has independent contents/inspector
+ownership and a source-owned rival before any text reading.
+Running: None. IDEA634–636 and IDEA629 raw/unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
