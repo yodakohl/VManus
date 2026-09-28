@@ -3,14 +3,14 @@ Updated: 2026-09-28. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: checkpoint
+Status: active
 Task: Find an independent meaning owner.
-Latest decision: f9v Jacea=pansy historically possible, `fochor`
-name/address unresolved; f69r wind system plausible, no direction word.
-GDT1051 `okoaiin`=SUN remains C0. Oxford marker image unavailable.
-Working files: f9v; IDEA660/661 correction; scope note.
+Latest decision: f9v is sole Viola-like owner among14 admitted herbal images;
+`fochor` occurs once. 1485 Yacea cannot establish a c1420 name; no word.
+f68 paired-sky sources lack text ownership; f69r wind lacks orientation.
+Working files: f9v Jacea dossier; f68 source dossier; idea registry.
 Assumptions: image family is not a word map; readings are one manuscript.
-Resume: Seek an authorial owner; respect partial scope.
+Resume: Seek a new owned relation; screen route and scope first.
 Running: None.
 
 ## Structural baseline
@@ -22,7 +22,6 @@ Currier/section/hand; extra direction only across Currier. Known r/l families tr
 new stem-pair grammar does not follow (GDT915/916). Formal roles and reversible
 rendering are not confirmed meanings or historical sentence boundaries.
 Confirmed translated words: 0. Whole hypothetical readings remain permitted.
-Legacy checker facts: Confirmed English lexemes: **0**; f84r is sealed;
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain

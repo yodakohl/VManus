@@ -204,3 +204,24 @@ exact shared-whole test is impossible with the current corpus. The scan
 therefore changes IDEA621's **capacity** to `NOT_TESTED_NO_SECOND_OWNER`, not
 the truth of the name hypothesis. The f9v C0 illustration/name reading
 remains replaceable; no Voynich word is confirmed.
+
+### Historical-name chronology check after the bounded source search
+
+Ute Holtzegel's [2016 specialist study, pp. 181–183](https://www.researchgate.net/publication/304142518_Viola_jacea_Zur_botanischen_Fachsprache_in_der_Renaissance)
+surveys the older *Circa instans* witnesses Egerton 747, Harley 270 and
+Sainte-Geneviève 3113, the older German Macer (Heidelberg Cpg 369),
+Megenberg, and selected ancient authorities. It reports no independently
+identifiable wild-pansy/Yacea entry there. It distinguishes Puff von
+Schrick's 1478 **unillustrated and undescribed** Freisam remedy from the
+1485 *Gart*'s first described/pictured Freisam entry; its direct analysis
+also notes that the *Gart* stem, leaves and color wording fit the pictured
+plant imperfectly. This is a **bounded scholarly survey**, not a proof of
+historical nonexistence or a new Voynich negative test.
+
+The consequence is chronological: the 1485 `yacea` alias demonstrates that
+the term *could* name a pansy-like illustration in a later German herbal, but
+cannot be projected back to a c.1420 Voynich writer as an inherited plant
+name. A pre-1450 same-name hunt now has a documented prior-capacity problem,
+in addition to this branch's five-witness result. The visual *Viola*-like
+f9v owner remains C0 and `fochor` remains equally compatible with an opaque
+entry address. No target word has gained a meaning.
