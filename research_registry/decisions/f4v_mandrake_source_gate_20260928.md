@@ -34,6 +34,14 @@ jointly visible description is only broad leaves above a branched root with
 round reproductive forms; the spatial anatomy and root motif vary sharply.
 That source-side union is too generic to be a discriminating f4v image rule.
 
+A separate, pre-existing [f4v catalogue description](https://www.voynich.nu/q01/index.html)
+lists *Ipomoea/scammony* guesses rather than mandrake and describes the upper
+parts as pompon-like and the root as unusual; a [second published description](https://ic.unicamp.br/~stolfi/voynich/Notes/040/html/f4v.htm)
+likewise notes two unlike leaf types and unnatural stems. These are secondary
+observations, not a new admission or an independent botanical determination,
+but they give no reason to override the failed source gate with a mandrake
+assumption.
+
 Decision: **source gate failed for a new f4v admission under this question**.
 Do not open f4v or select `pchooiin=mandrake` from its rare first position
 and the searched public glossary. A newly located source lineage with two
