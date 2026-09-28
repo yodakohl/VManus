@@ -5,13 +5,13 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: active
 Task: Seek an independent meaning-binding consequence.
-Latest decision: GDT1079 finds zero exact group overlap in every reader
-between f85r2 inner annulus and either f68r2 luminary ring; literal reuse
-fails, image identity and paraphrase remain open. Rare `okeo` also occurs
-in admitted Herbal/Pharma running prose; no ring-exclusive gloss.
-GDT1078 same-folio r/l gate fails (96/162 ZL) despite GDT1077 lead.
-GDT1074 p/y positions survive; `pchor`/`ychor` glosses do not.
-Working files: GDT1079; f68 dossier; GDT1063/1064.
+Latest decision: GDT1079 finds zero exact f85r2/f68r2 ring group overlap
+in every reader; literal reuse fails. `okeo` has no ring-only gloss.
+f9v `chor`/`shor` cannot orient flower/fruit; GDT791 has no direct labels.
+`Jacea` names a pansy in 1485, but older glossaries differ: no circa-1420
+priority for `fochor`. M.941's urinal physician is prognostic; f85r2 stays open.
+GDT1078 r/l same-folio fails; GDT1074 p/y positions survive without glosses.
+Working files: GDT1079; f9v notes; f85 sources.
 Assumptions: alternate readers; `fochor≈pansy-like Viola` is C0; name
 versus generic address unresolved.
 Resume: Seek an independently owned word referent or fixed full-passage
