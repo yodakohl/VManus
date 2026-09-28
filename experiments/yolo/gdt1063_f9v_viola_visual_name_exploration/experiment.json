@@ -1,0 +1,97 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Postselected C0 f9v Viola visual/name hypothesis only; structural validator does not certify human morphology; no confirmed translation or independent replication.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT1062",
+    "GDT1059",
+    "GDT844",
+    "GDT791"
+  ],
+  "experiment_id": "GDT1063",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/artifacts/LABEL_RESULTS.tsv",
+      "role": "existing registered structural source",
+      "sha256": "616e0813b249641eb2519fde9989a3efaff0cfb7d942880e66ba623c78dde4c3"
+    },
+    {
+      "path": "experiments/yolo/gdt1059_kooiin_header_quality_base_rate/artifacts/HEAD_CONTACTS.tsv",
+      "role": "existing registered structural source",
+      "sha256": "54132fede66b965af64d8629ae0fb41de7cbf03856471b1e12660f2e380bf904"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/PREREGISTRATION.md",
+      "role": "exploratory result packet",
+      "sha256": "fa9bf352a8c311dcfd098635462c65e2964d358dcd6f558fffcdfe8959748208"
+    },
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/METHOD.md",
+      "role": "exploratory result packet",
+      "sha256": "a78786d312fdb00aad5a670fc9ebe59f332705179f450da6e0f9fd922e4f4b87"
+    },
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/README.md",
+      "role": "exploratory result packet",
+      "sha256": "6e6ca88e8bd08334fd331ba152d75e6f9cbe7ae59adcda168e78cadb85d0d23b"
+    },
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/REPORT.md",
+      "role": "exploratory result packet",
+      "sha256": "47dbc9e276cacc6299697d2b838585c9c16fd38ed38d77ee04d4d3d135f52a2b"
+    },
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/src/VISUAL_RECORD.tsv",
+      "role": "exploratory result packet",
+      "sha256": "d5deb004da0f2a9a3530c86c4bd1dfc88cb17f7fe96b59058cb40032a2e54fb1"
+    },
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/src/run.py",
+      "role": "exploratory result packet",
+      "sha256": "5eb5655f26a836d16c6d0e22b67fc830e24ef77bf2f39fd48bf832c4feb34318"
+    },
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/src/validate.py",
+      "role": "exploratory result packet",
+      "sha256": "479c03d6cddbddd72a43ae5b6688bd300a6e60e94300df1d6847489d4a23fc4b"
+    },
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/artifacts/README.md",
+      "role": "exploratory result packet",
+      "sha256": "f00908cff9d9ce4bb88e8e40453f2c078e867faaed12379100f2fba37f1daaff"
+    },
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/artifacts/RESULT.json",
+      "role": "exploratory result packet",
+      "sha256": "0f1ca935ed1c60649a0df5268a5f8f2b8d485e5a637ce44f4d57640b7e10411a"
+    },
+    {
+      "path": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/artifacts/VALIDATION.json",
+      "role": "exploratory result packet",
+      "sha256": "f2b7b7bb92bf6533a8c233baab5291a9655d4270d80d1c021dcf94feb3fb620f"
+    }
+  ],
+  "question": "Does the already admitted f9v illustration favor Viola over published Jacea while retaining the first-word-as-name alternative and all four image-admitted public plant claims?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f9v_viola_visual_name_exploration",
+  "status": "EXPLORATORY_VIOLA_VISUAL_LEAD__FIRST_WORD_MEANING_OPEN",
+  "title": "f9v viola visual name exploration",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

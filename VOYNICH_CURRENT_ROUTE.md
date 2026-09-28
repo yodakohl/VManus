@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Test an independently keyed plant meaning, not just EVA position.
-Latest decision: GDT1062 finds 23/23 Schechter labels at first prose position
-in IT2a (19/23 ZL/RF); botanical meanings unbound. GDT1061 ZFD lines absent.
-Working files: GDT1062, GDT1061; GDT1059 f2v/f29v counter-obligation.
-Assumptions: ch=dry provisional; k/t open; dair unexportable;0 words.
-Resume: Bind one plant independently or test a whole-passage consequence.
-Source match is not meaning; no f77r/f85r2 repeat.
-Running: None. IDEA615–620 raw/unreviewed, require source and capacity.
+Task: Test f9v `fochor`≈Viola against a generic-head rival.
+Latest decision: GDT1063 gives informed C0 Viola visual lead, no word proof;
+GDT1062:23/23 source heads in IT2a, plant names unbound. GDT1061 ZFD absent.
+Working files: GDT1063, GDT1062, GDT1059 f2v/f29v obligation.
+Assumptions: first head names plant unproven; ch=dry provisional;0 words.
+Resume: Seek an independent `fochor` lexical relation or distinguishing
+whole-passage consequence. No f77r/f85r2 repeat or early reserve use.
+Running: None. IDEA615–620 raw/unreviewed, need source/capacity.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,

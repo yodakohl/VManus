@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1061**
-- Experiment-associated tracked files: **21,020** (1.9 GiB)
-- Structured GDT337+ experiments: **726**
+- Experiments indexed: **1062**
+- Experiment-associated tracked files: **21,031** (1.9 GiB)
+- Structured GDT337+ experiments: **727**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1063 | GDT1063_f9v_viola_visual_name_exploration | `EXPLORATORY_VIOLA_VISUAL_LEAD__FIRST_WORD_MEANING_OPEN` | [report](../experiments/yolo/gdt1063_f9v_viola_visual_name_exploration/REPORT.md) | 11 | 18.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT1062 | GDT1062_schechter_plant_label_source_alignment | `SOURCE_POSITION_PASS_IT2A_23_OF_23__MEANINGS_UNBOUND` | [report](../experiments/yolo/gdt1062_schechter_plant_label_source_alignment/REPORT.md) | 12 | 22.3 KiB | 2 | STRUCTURED_YOLO |
 | GDT1061 | GDT1061_zfd_case_study_source_alignment | `SOURCE_CASE_STUDY_LINES_UNATTESTED_IN_THREE_CURRENT_READERS` | [report](../experiments/yolo/gdt1061_zfd_case_study_source_alignment/REPORT.md) | 12 | 19.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT1060 | GDT1060_f18r8_okaldy_visual_boundary | `UNRESOLVED__GDT797_SENSITIVITY_RETAINED` | [report](../experiments/yolo/gdt1060_f18r8_okaldy_visual_boundary/REPORT.md) | 10 | 9.9 KiB | 1 | STRUCTURED_YOLO |
