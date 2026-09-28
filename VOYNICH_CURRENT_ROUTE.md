@@ -4,17 +4,17 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Audit a new independently owned action/referent.
-Latest decision: GDT1081 native f69r: no independent compass bearing or
-singular ink text-to-wind owner across all16 outer sectors,12 spokes and22
-radial loci. GDT1067 polarity remains paired; no wind word. GDT1080's
-flower/fruit `chor`/`shor` direction stays tied (OR1.613 below gate).
-Working files: GDT1081; IDEA655; GDT790.
-Assumptions: alternate readers are one manuscript; image classes are not
-independent word referents; `fochor≈pansy-like Viola` remains C0.
-Resume: Read IDEA655/GDT790 primaries, inspect existing admitted action
-owners only; propose a fixed test only if action-to-text binding is new.
-Running: none.
+Task: Find an independent semantic owner.
+Latest decision: IDEA655 bath gestures stay untested: admitted f77r/f82r/f83r
+panels have no singular actor/patient-to-word bridge. GDT1081 f69r has no
+bearing or singular text-to-wind owner; GDT1067 polarity remains paired.
+GDT1080 `chor`/`shor` flower/fruit direction stays tied.
+Working files: IDEA655 decision; GDT1063/1064; IDEA623.
+Assumptions: one manuscript, three readers; image class is no word meaning;
+`fochor≈Viola` is C0, first-head-as-name unproven.
+Resume: Audit IDEA623's f9v source-trait route against first-head/Jacea
+countercases; require a complete reading that separates source models.
+Running: bounded f85r2 source comparison agent.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
