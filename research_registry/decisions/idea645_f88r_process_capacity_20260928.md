@@ -1,0 +1,15 @@
+# IDEA645: f88r process-versus-three-entries capacity
+
+2026-09-28. Exploratory read of the admitted f88r page inventory and the GDT791 admitted-only line-owner atlas, not a fixed semantic test. The visual source records three vessel/plant-fragment rows and three prose blocks. GDT791 records 31 lines, 16 local label tokens and 134 running tokens; its owner tier is page-level, not a deep row-to-word binding. The old inventory's phrase that common preparation prose is the simplest reading is an interpretation, not an independently observed process relation.
+
+| Block | Lines | Exact local-label reuse in its prose | Cross-block prose reuse with another block |
+| --- | --- | --- | --- |
+| 1 | f88r.7–11 | none among labels .1–6 | with 2: `qokeol`, `cheol`, `s`, `aiin`, `daiin`; with 3: `cheom`, `chear`, `cheol`, `or`, `s`, `dal`, `dar`, `aiin` |
+| 2 | f88r.18–22 | `okol` at label f88r.15 and prose f88r.19 | with 3: `cheor`, `cheol`, `s`, `chol`, `aiin` |
+| 3 | f88r.26–31 | none among labels .23–25 | as above |
+
+These are complete-form intersections from the GDT791 atlas. In that 30-page admitted comparison set, `qokeol` occurs 8 times in running text, `cheom` 4, and `chear` 6; the shared `aiin`, `cheol`, `s` occur in all three blocks and cannot alone mark a participant. The single exact `okol` bridge is real and local. The same whole form also appears in other admitted prose and in the multi-token local label `okol shol dy` at f89r2.10, so it does not independently mean the depicted f88r fragment. The GDT791 exact-reference-edge table covers only its deeply annotated pages and has no f88r row; it is not a negative test of this newly tabulated local bridge.
+
+Decision: **not tested** as a process reading. One exact within-row label/prose reuse and cross-block lexical intersections do not identify a material transferred from row 1 to row 2 to row 3, its state change, or a directed operation. Three independent entries and a continuing process both fit these observations. Reopen if admitted image geometry identifies a repeated physical material across rows and a prospectively specified complete-text construction binds its directed carry or transformation across both row boundaries; test against the independent-entry rival and all three blocks. No meanings or word translations confirmed; no new image or restricted page opened.
+
+Primary evidence: [GDT791 report](../../experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md), [admitted page inventory](../../experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_30_PAGE_EVIDENCE_REGISTRY.tsv), [admitted line atlas](../../experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_1007_LINE_OWNER_ATLAS.tsv), [native visual inventory](../../experiments/yolo/sidequest_semantic_four_page_reality_check_nine_hundred_ninth/NINE_HUNDRED_NINTH_VISUAL_INVENTORY.tsv).

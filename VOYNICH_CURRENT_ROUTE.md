@@ -4,14 +4,16 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Screen IDEA639 for two independently owned observer sites on admitted diagrams.
-Latest decision: IDEA644 f72 has repeated classes but no directed prose
-operator; not tested. GDT1065 strict H1/H4 capacity 0; 0 words.
-Working files: IDEA644 note; GDT793/794; GDT1065 report.
-Assumptions: repeated labels do not identify members or a relation direction.
-Resume: Check exact observer/site/object geometry in visual primaries before
-source search; if absent, avoid another free historical analogy.
-Running: None. IDEA640/642 and 636/638/639/629 raw.
+Task: Audit the f88r `okol` local label/prose bridge and its f89r2 label rival.
+Latest decision: IDEA639 observer graph absent in nominated f67v2/f68r2;
+IDEA645 f88r has `okol` .15/.19 but no two directed row transitions. Both
+not tested; zero words.
+Working files: IDEA639/645 decisions; GDT791 atlas.
+Assumptions: exact reuse is a string bridge, not material identity;
+three entries and one process remain rivals.
+Resume: Check f88r/f89r2 `okol` label ownership and three-reader stability;
+decide if any new independent object contrast can test a meaning.
+Running: None. Raw IDEA642/636.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
