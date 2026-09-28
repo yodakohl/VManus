@@ -111,6 +111,13 @@ Reopen only if another provenance-clean human source supplies a second
 Voynich-script note physically under paint with an independently readable
 colour, or the same complete phrase under another green-painted part.
 
+The publicly released 2014 Lazarus Project multispectral set does not fill
+this specific gap. Its [primary publication and folio list](https://manuscriptroadtrip.wordpress.com/2024/09/08/multispectral-imaging-and-the-voynich-manuscript/)
+names f1r, f8r, f17r, f26r, f47r, f70v1, f71r, f93r, f102v1 and f116v;
+it does not include f2r, f9v or f99v. This is a source-availability check,
+not a new image reading or a claim that no other imaging exists. In
+particular, f116v remains outside the admitted data scope.
+
 ## Local evidence
 
 - `results/existing_human_page_annotations.tsv`: f1v and f2r human page notes.
