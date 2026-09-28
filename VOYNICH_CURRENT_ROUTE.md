@@ -5,10 +5,10 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: checkpoint
 Task: Find an independent meaning-bearing relation for a whole reading.
-Latest decision: f9v name-vs-address task duplicates reviewed IDEA630; no
-new referent link. GDT1066 f81r is structural only; near spellings do not
-bind meaning. See f9v duplicate-route correction. 0 confirmed words.
-Working files: f9v duplicate-route correction; IDEA630; GDT675/702/1066.
+Latest decision: IDEA642 f77r upper `otedy` label matches P2 opener, but
+no drawn cross-panel link or independent P2 participant; no meaning test.
+Earlier f9v route duplicates IDEA630; GDT1066 structural only. 0 words.
+Working files: IDEA642 capacity review; GDT790/791/792; IDEA630.
 Assumptions: C0 image/source fit is not translation; no new test selected.
 Resume: Find a primary with explicit referent and textual consequence,
 plus a complete admitted owner; screen closed families before selection.
