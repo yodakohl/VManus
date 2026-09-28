@@ -4,13 +4,12 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Select a different owned content contrast.
-Latest decision: f2v/f29v whole texts already W96/GDT809; native f2v/f29v/f3v
-shows horizontal underground axes, but kooiin rootstock vs generic stays open.
-Working files: kooiin visual/whole-context decision; GDT1059.
+Task: Select a different independently owned content contrast.
+Latest decision: GDT1060 f18r.8 boundary UNRESOLVED; GDT797 unchanged.
+Working files: GDT1060; GDT797/798; RRA001.
 Assumptions: ch=dry provisional; k/t sign open; dair root unexportable;0 words.
-Resume: Seek a new owned referent or a genuinely different full-reading
-consequence; do not repeat kooiin morphology/quality/paragraph comparisons.
+Resume: Seek a source-bound referent with an exclusive whole-reading
+consequence. No kooiin/exact-label rerun; GDT797 okaldy C0 cannot export.
 Running: None. IDEA614 untested;610/611 parked;612 tested;613 raw.
 
 ## Structural baseline
