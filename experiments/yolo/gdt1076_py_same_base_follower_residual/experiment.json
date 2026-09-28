@@ -1,0 +1,113 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Registered three-stratum follower gate lacks control capacity in one ZL3b stratum; no p/y identity, meaning, significance or translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1076_py_same_base_follower_residual/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1076_py_same_base_follower_residual/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT631",
+    "GDT756",
+    "GDT757",
+    "GDT920",
+    "GDT1075"
+  ],
+  "experiment_id": "GDT1076",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/artifacts/EVENTS.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "6c0b9fd422054a7ece186506d06aa3fa4558a77ac75eefa40424a5b4560a594d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "944bc66b99268ef5292f31b1ae00021faf718549d7a26f0940284b63d06c057e"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "ea235a50921351b1f4abbdad1876503c7ea3ee99b58d181f72198e7cc89590e4"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/README.md",
+      "role": "reproducibility packet",
+      "sha256": "2dadf09f1d00fc4f8f500d2e281732e1791dff64440f97d029dc8874335585e5"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "d4d4e1d5548a78dab898511604e0c4d8c7d5a541c18d745594cc4e0afaaa14b8"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/artifacts/FOLLOWERS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "de2521f21260a138da0a0360372260d9fb6f1009e28a61cedb1f5acdc3749b40"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/artifacts/P_SCORES.tsv",
+      "role": "reproducibility packet",
+      "sha256": "285ee848ed8b1ff7e024ebd52be939e13266ec85980ffcca0885b8045627bd31"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "306080769db24a8e86b96916a3e4e76b93cda866ced172b229daa233008ca387"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "d2280dafdfa8e0debd0e22b323fd66dab8078280690df06ff2cacdc4850e0ca5"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/artifacts/STRATA.tsv",
+      "role": "reproducibility packet",
+      "sha256": "b1231d06f64a5a8bd7afc23fbbac6534c949d4fc416242ba766b53350b8f1b48"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "e42985afbbee29a4e667b2eb23ec62afe3ed6afec8bb57461a67be12e09a6461"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "7d22d52b8475e3fcf6db38cce5329a475f99006a5b068238ddbff0c1c8b4f8f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1076_py_same_base_follower_residual/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "ac6658c062f1caaef61fa1e53cc9ec8682075006778280a112461cd2aad8d7fc"
+    }
+  ],
+  "question": "Do same-base pX/yX pairs retain more similar immediate exact followers than other-base pX/yY within the same section and hand?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "py_same_base_follower_residual",
+  "status": "NO_CAPACITY",
+  "title": "py same base follower residual",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1076_py_same_base_follower_residual/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

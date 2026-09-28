@@ -4,15 +4,16 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Seek a stronger within-text consequence of fixed p/y contrast by 18:28 UTC.
-Latest decision: GDT1075: three ZL3b bases retain pX>yX paragraph-opening
-fraction within section/hand; IT/RF sensitivity agrees. Formal only. GDT1074
-five-base direction retained; GDT1073 RF metadata remains unscorable.
+Task: Find independent meaning binding for a full word by 18:28 UTC.
+Latest decision: GDT1076 same-base follower test has no control capacity
+in B/hand2; H/hand1 `chor` ties zero. Do not normalize p/y from this.
+GDT1075: 3 ZL bases retain pX>yX paragraph-opening within section/hand;
+IT/RF sensitivity agrees. Formal only; GDT1073 RF metadata unscorable.
 Confirmed translated words: zero.
-Working files: GDT1075; GDT1074; idea queue.
-Assumptions: one manuscript/alternate readers; folio/lexical effects remain.
-Resume: Screen same-physical-paragraph pX/yX ordering for distinct falsifier.
-Running: bounded idea producer.
+Working files: GDT1076; GDT1075; source-binding queue.
+Assumptions: one manuscript/alternate readers; no p/y morpheme meaning.
+Resume: Screen distinct owned referent or within-text meaning constraint.
+Running: bounded idea producer complete, no viable source bridge yet.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
