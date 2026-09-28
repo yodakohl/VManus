@@ -5,12 +5,12 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: active
 Task: Find an independent word owner.
-Latest decision: f9v sole Viola-like image of14; six named Viola pictures
-lack its combined traits; species unbound. `fochor` singleton, name/address
-rival. Maerlant Viola products source-only. f68/f69/f85 unowned. Zero words.
-Working files: f9v source decisions; f68/f85 dossiers; idea registry.
+Latest decision: f88r/f99v repeat `otaly` and `otoky` across all readings;
+nearby plant-part owners differ or are ambiguous. No gloss. f9v Viola-like
+image but `fochor` name/address rival remains. f68/f69/f85 unowned. Zero words.
+Working files: f88r/f99v label decision; f9v decisions; idea registry.
 Assumptions: images are not lexical maps; readings are one manuscript.
-Resume: Seek a new word-owning relation; screen route and scope first.
+Resume: Seek independent singular owner; screen route and scope first.
 Running: None.
 
 ## Structural baseline
