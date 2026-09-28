@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1068**
-- Experiment-associated tracked files: **21,063** (1.9 GiB)
-- Structured GDT337+ experiments: **733**
+- Experiments indexed: **1069**
+- Experiment-associated tracked files: **21,076** (1.9 GiB)
+- Structured GDT337+ experiments: **734**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1071 | GDT1071 | `ONE_LOCAL_STAR_LABEL_PROSE_CANDIDATE__MEANING_OPEN` | [report](../experiments/yolo/gdt1071_thirty_page_strict_label_prose_bridge/REPORT.md) | 13 | 92.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1070 | GDT1070 | `DESCRIPTIVE_80_OF89_SINGLETON_FOCHOR_UNIQUENESS_NONDISCRIMINATING` | [report](../experiments/yolo/gdt1070_first_head_collision_capacity/REPORT.md) | 11 | 16.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT1069 | GDT1069 | `DESCRIPTIVE_16_OF23_ALL_READER_EXACT_DEFINITE_NO_MEANING` | [report](../experiments/yolo/gdt1069_first_herbal_head_boundary/REPORT.md) | 11 | 26.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT1068 | f67r2 f69r whole title overlap | `NO_COMPLETE_LITERAL_TITLE_TRANSFER` | [report](../experiments/yolo/gdt1068_f67r2_f69r_whole_title_overlap/REPORT.md) | 10 | 19.7 KiB | 3 | STRUCTURED_YOLO |

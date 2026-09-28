@@ -4,14 +4,14 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Find an independent word owner.
-Latest decision: GDT1070: 80/89 Herbal heads are singletons; f9v `fochor`
-uniqueness does not decide name/address. GDT1069: 16/23 public heads are
-exact/definitely bounded in all readings. Zero words.
-Working files: f88r/f99v label decision; f9v decisions; idea registry.
-Assumptions: images are not lexical maps; readings are one manuscript.
-Resume: Seek independent singular owner; screen route and scope first.
-Running: None.
+Task: Audit `otor` star-label/prose candidate on f68r1 by 18:28 UTC.
+Latest decision: GDT1071 finds local star label `otor` also in page prose;
+referent and meaning unbound. `cheody` tag match is group-owned. GDT1070:
+80/89 Herbal heads singleton, so `fochor` uniqueness is ordinary. Zero words.
+Working files: GDT1071; f68r1 source; f9v decision; idea registry.
+Assumptions: image owner is not prose referent; readers are alternatives.
+Resume: Register complete-context/alternate-reading `otor` audit; check scope.
+Running: none.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
