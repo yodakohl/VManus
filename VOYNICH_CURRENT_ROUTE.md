@@ -4,14 +4,14 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Audit RF paragraph-boundary projection by 18:28 UTC.
-Latest decision: GDT1073: pX paragraph starts exceed yX for 7/7 supported
-ZL and 8/8 IT bases; all-reader gate unscorable (RF has no paragraph flags).
-No p/y meanings; GDT1072 parks star-exclusive `otor` after 33/38/29
-cross-register occurrences. GDT1070: 80/89 Herbal heads singleton. Zero words.
-Working files: GDT1073; GDT1072; idea queue.
-Assumptions: readers are alternatives; paragraph metadata is source-dependent.
-Resume: Register bounded physical-line RF projection and separator audit.
+Task: Audit section/hand confounding of fixed p/y direction by 18:28 UTC.
+Latest decision: GDT1074 strict physical-line projection yields five fixed
+pX/yX bases with higher pX paragraph-start rate in all readings. Structural,
+not semantic; GDT1073 original RF-metadata stop retained. GDT1072 parks
+star-exclusive `otor`; GDT1070: 80/89 Herbal heads singleton. Zero words.
+Working files: GDT1074; GDT1073; idea queue.
+Assumptions: readers are alternatives; page/section confounding possible.
+Resume: Freeze five bases; test direction within sections/physical leaves.
 Running: none.
 
 ## Structural baseline

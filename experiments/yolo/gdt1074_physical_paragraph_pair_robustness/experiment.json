@@ -1,0 +1,107 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Five fixed pX/yX bases have higher pX paragraph-start fractions under strict boundaries in every alternate reading; same-manuscript structural tendency only, no morpheme or word meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1074_physical_paragraph_pair_robustness/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1074_physical_paragraph_pair_robustness/src/validate.py"
+  },
+  "created": "2026-09-28",
+  "dependencies": [
+    "GDT631",
+    "GDT756",
+    "GDT757",
+    "GDT1073"
+  ],
+  "experiment_id": "GDT1074",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/artifacts/PAIRS.tsv",
+      "role": "previously exposed frozen input",
+      "sha256": "114719341ea3db9afe5d2a9fd93f038dbc93c0e0b350ef28949f31c72a18f841"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "948c625693d198599433574fd1d065c8c2e8fa188745bd5089fc3f5bca5fd94b"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "90f7cb856931355387ae493dda8251ea3ad197a770bc1ccb5b19bba260063cc3"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/README.md",
+      "role": "reproducibility packet",
+      "sha256": "f3e48bf737484b760ce795dd82bfe27b48ce40d8170587c5792132d3be0aeac0"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "c99871e8e872f0a1b8efd2abf3011a5c74ff1a11038e05624cefb4d842e7fe54"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/artifacts/EVENTS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "6357927a1a0d4275e057e0bd06043061c5ec749d506dce4174c4924e6abef75f"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/artifacts/PAIRS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "fc04b5d50439e2f82c9fcd21a3e494caf22a1ba74205c4949641a687a2c61d6b"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "aa080a706db4df82d5124902c0887570023d268160eb025b96098f853984f5ca"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "21d31f348f88b248f70a243ec71c6f7015f75361bc20fa357eadf60329f1b791"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "39d0addfa0263ca42f04f5471a00ba16b1269f0bf399f00aebee29b892ebf185"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "0950a3d0e748e42eeedc9adf78821b1f9c7425c6483ca2aba782aa7d6598b8cc"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "c479614fdc371a092fccd7530b315c5762d3997df275742393b7f3ad31bfe40b"
+    }
+  ],
+  "question": "Do the fixed GDT1073 pX/yX paragraph-scope contrasts survive strict source boundaries and physical-line paragraph projection into RF1b?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "physical_paragraph_pair_robustness",
+  "status": "ROBUST_FORMAL_DIRECTION_FIVE_BASES__NO_MEANING",
+  "title": "physical paragraph pair robustness",
+  "updated": "2026-09-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
