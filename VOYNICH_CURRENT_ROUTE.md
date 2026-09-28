@@ -4,14 +4,14 @@ Updated: 2026-09-28. This is the sole live resume point; replace, never append h
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Inspect IDEA644 f72 class relation against GDT793 primary counterexamples.
-Latest decision: GDT1065/IDEA643 has 4 relaxed H1/H4 exact-body pairs in
-13 records, but 0 opening-to-internal pairs; not tested, 0 words.
-Working files: GDT1065 report/result; IDEA643 review; GDT793.
-Assumptions: GDT737 held H1/H4 body-affinity failed; no retroactive opener.
-Resume: Check if IDEA644 adds a genuinely different fixed falsifier beyond
-GDT793's four-owner conflict and ordinal cycle; do not rerun same test.
-Running: None. IDEA640/642/644 and 636/638/639/629 raw.
+Task: Screen IDEA639 for two independently owned observer sites on admitted diagrams.
+Latest decision: IDEA644 f72 has repeated classes but no directed prose
+operator; not tested. GDT1065 strict H1/H4 capacity 0; 0 words.
+Working files: IDEA644 note; GDT793/794; GDT1065 report.
+Assumptions: repeated labels do not identify members or a relation direction.
+Resume: Check exact observer/site/object geometry in visual primaries before
+source search; if absent, avoid another free historical analogy.
+Running: None. IDEA640/642 and 636/638/639/629 raw.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed,
