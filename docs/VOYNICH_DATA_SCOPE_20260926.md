@@ -118,3 +118,30 @@ unverändert. Diese lokale Nutzerfreigabe ist keine allgemeine Textfreigabe
 aller f68r-Absätze oder Sternlabels. Bewachte Metadatenabfrage und die zwei
 Inhaltsloci sind im Quellpaket dokumentiert. Frühere Bild-/Textkenntnis bleibt
 Entwicklungsexposition; keine unabhängige Bestätigung oder Reserveöffnung.
+
+## 28 September: f68r2-Abfrageübergriff
+
+Eine explorative Abfrage von `voynich_cross_transcription_lines.tsv` verwendete
+`--selector page --allow f68r2` statt der beiden zugelassenen Locus-Werte.
+Der Guard verwarf `f84*`, materialisierte aber alle 31 f68r2-Zeilen; die
+Ausgabe wurde auf Kopf plus `.1`–`.7` begrenzt, sodass `.1`–`.5` und `.7`
+zusätzlich im Arbeitskontext sichtbar wurden. Sie wurden für keine Deutung
+benutzt. Die spätere bloße Zählprüfung zeigt den korrekten selector-first-Weg:
+`--selector locus --allow f68r2.6 --allow f68r2.31 --count-only` selektiert
+genau zwei Zeilen, verwirft 98 `f84*`-Zeilen vor Materialisierung und alle
+übrigen Zielzeilen. Dieser Vorfall erweitert keine Textzulassung und schafft
+keine unabhängige Bestätigung. GDT1051 und seine festgelegten zwei Ringloci
+bleiben unverändert. f84/f84r wurden nicht geöffnet.
+
+Eine zweite explorative Abfrage verwendete `--selector page --allow f69r`
+und zeigte alle 49 Zeilen, obwohl f69r nicht in der 179-Selektoren-Allowlist
+steht. GDT1068 hatte f69r.5–.42 spezifisch für einen festgelegten
+Titelvergleich registriert und seine Software materialisierte damals ebenfalls
+49 Zeilen, wertete aber `.1`–`.4` und `.43`–`.49` nicht aus. Die aktuelle
+Anzeige dieser übrigen elf Zeilen ist zusätzliche Projektexposition, keine
+allgemeine Freigabe. Die einzig neu notierte geometrische `ar`-Beobachtung
+nutzt `.5`–`.20`, bleibt post-hoc und ohne Bedeutungsanspruch. Künftige
+Abfragen dürfen die spezifischen Loci nur mit wiederholtem `--allow` und
+`--selector locus` vor der restlichen Zeile auswählen. Die im vorigen
+Bericht gebrauchte Kurzform „f69r-Text zugelassen“ bedeutet höchstens die
+GDT1068-spezifischen `.5`–`.42`, nicht die ganze Seite.

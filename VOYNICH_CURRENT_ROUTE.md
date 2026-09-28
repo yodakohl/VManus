@@ -5,14 +5,12 @@ Updated: 2026-09-28. Live resume point.
 Phase: exploration
 Status: checkpoint
 Task: Find an independent meaning owner.
-Latest decision: f9v 1485 Yacea woodcut is not a close image model;
-alleged petal writing yields no stable inscription in admitted Yale image.
-Historical Jacea=pansy remains; `fochor` name/address unresolved.
-GDT1051 `okoaiin`=SUN remains C0; f69r 12+16 wind fit; 0 words.
-Working files: f9v image/ink decision; GDT1064; IDEA656/657 raw.
+Latest decision: f9v Jacea=pansy historically possible, `fochor`
+name/address unresolved; f69r wind system plausible, no direction word.
+GDT1051 `okoaiin`=SUN remains C0. Oxford marker image unavailable.
+Working files: f9v; IDEA660/661 correction; scope note.
 Assumptions: image family is not a word map; readings are one manuscript.
-Resume: Seek independent lexical owner for a full reading; do not use
-f9v petal flecks, Gart woodcut as direct model or first-head rarity.
+Resume: Seek an authorial owner; respect partial scope.
 Running: None.
 
 ## Structural baseline
@@ -46,7 +44,9 @@ f106v image fixed paragraph only. Register new access first. Full admission cont
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [base](docs/VOYNICH_DATA_SCOPE.md). No outside contacts or expert review.
 09-27 incidental search exposure is caveated in the scope note; no admission.
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
-Mixed TSVs ONLY via selector-first `vmanus-exp query-tsv`; new scored relation packets
+Mixed TSVs ONLY via selector-first `vmanus-exp query-tsv`; partial grants use
+`--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r
+page-query overreach is exposure only in the scope note. New scored relation packets
 require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Load only the next relevant layer
