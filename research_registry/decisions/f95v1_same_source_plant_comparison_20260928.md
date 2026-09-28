@@ -79,3 +79,31 @@ is a nearby named alternative with berry clusters but smooth heart-shaped
 leaves and a slender root. White bryony therefore remains only an unselected
 iconographic candidate for f95v2, not a plant identity or a reading of
 `tchody`.
+
+## Later bounded checks (not part of the fixed Carrara comparison)
+
+An independent source-only screen considered the blue-head and cut-leaf
+alternative *Eryngium*. The labelled Morgan M.652
+[f.57r (*E. campestre*)](https://ica.themorgan.org/manuscript/page/99/143825)
+has blue, spiky heads and cut foliage, but a single thin curved root rather
+than f95v1's massive red root arms. Its
+[f.84v (*E. maritimum*)](https://ica.themorgan.org/manuscript/page/150/143825)
+has one blue head and spiny lobed leaves, but one upright stalk and thin
+fibrous roots. The BL Egerton MS 2020
+[f.169r (*Matricaria/Tanacetum parthenium*)](https://bl.digirati.io/images/ark:/81055/vdc_100165354197.0x000151/canvas/c/348)
+has small pale heads, a single upright stalk and fine roots. These were
+post-decision exploratory comparisons, not a frozen search or a negative
+survey of all historical herbals. None adds a three-class match without a
+major contradiction; a bounded institutional search found no securely
+labelled pre-1500 *Echinops* image to judge.
+
+The already admitted GDT404 ZL3b lines show `tchody` at the beginning of
+f95v2.1 (a paragraph) and f95v1.3 (a non-initial line of f95v1's first
+paragraph). That is a real cross-panel exact-form recurrence, but not a
+shared paragraph head. The complete admitted-corpus word profile has eight
+ZL3b occurrences on eight selectors: four line-initial and four medial,
+all in the Herbal section; IT2a has seven and RF1b six. Thus neither panel
+exclusivity nor the required same-plant/name rule follows. The observed
+recurrence does not resolve IDEA668's one-taxon/two-taxon alternatives. This
+was noticed after both panel texts had been exposed; no chance probability
+or independent confirmation is claimed.
