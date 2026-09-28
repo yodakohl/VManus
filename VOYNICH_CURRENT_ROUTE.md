@@ -4,13 +4,14 @@ Updated: 2026-09-28. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Audit `otor` star-label/prose candidate on f68r1 by 18:28 UTC.
-Latest decision: GDT1071 finds local star label `otor` also in page prose;
-referent and meaning unbound. `cheody` tag match is group-owned. GDT1070:
-80/89 Herbal heads singleton, so `fochor` uniqueness is ordinary. Zero words.
-Working files: GDT1071; f68r1 source; f9v decision; idea registry.
+Task: Seek a new meaning-binding relation by 18:28 UTC.
+Latest decision: GDT1072 finds exact `otor` throughout 179 admitted selectors
+(ZL/IT/RF 33/38/29); its f68r1 star label/prose match is reading-sensitive.
+Star-exclusive gloss parked; no referent or translation. GDT1071's `cheody`
+tag match is group-owned. GDT1070: 80/89 Herbal heads singleton. Zero words.
+Working files: GDT1072; idea queue.
 Assumptions: image owner is not prose referent; readers are alternatives.
-Resume: Register complete-context/alternate-reading `otor` audit; check scope.
+Resume: Choose a discriminating source relation after route/primary screen.
 Running: none.
 
 ## Structural baseline
@@ -25,11 +26,11 @@ Confirmed English lexemes: **0**. Hypothetical readings remain permitted.
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
-W89 recipe expansion paused; description not confirmed. W93 naming: NO_CAPACITY.
+W89 recipe expansion paused; W93 naming: NO_CAPACITY.
 W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted.
 GDT913 contradicts all18 frozen IT2a lexicons; original GDT888 non-uniqueness retained.
 GDT914/925/928 fixed edit/literal-parallel tests closed, not all compositional meaning.
-GDT616 strict contract failed; later diagnostic PASS does not rescue it.
+GDT616 failed; later diagnostic PASS does not rescue it.
 IDEA237 untested, no longer preferred; all30 programs have first passes, no P09 restart.
 Details via `context topic NAME`: recipes, names, numbers, genealogy, variants,
 controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primaries.
