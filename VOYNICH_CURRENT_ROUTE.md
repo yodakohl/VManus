@@ -6,14 +6,14 @@ Phase: exploration
 Status: active
 Task: Test image-owned complete-word candidates with known grammar.
 Latest decision: GDT1087 fixed 23 public plant-name pages: 0 two-trait
-supports, 13 conflicts, 10 undecidable. Sole repeated head `tshor` on
-f15r/f53v conflicts with thyme on both; composite-like heads are exploratory.
+supports, 13 conflicts, 10 undecidable. IT2a repeats `tshor` on f15r/f53v;
+thyme conflicts, but RF fuses f53v and W84 already studied the two openings.
 GDT1086 f68v2 owner gate invalid; GDT1085 Trier stop retained.
 Working files: GDT1087, GDT1062-64, GDT1059, GDT765/766.
 Assumptions: three readers are one manuscript; `fochor≈Viola` remains C0;
 first-head-as-name and `tshor` class meaning unproved.
-Resume: All-occurrence `tshor` audit plus fixed 23-image composite-head
-base rate, with source/owner rivals; route-check and primaries before test.
+Resume: Seek a new meaning-bearing owner in admitted diagrams/images;
+screen idea pool and primaries. Do not rerun W84 or generic trait-name tests.
 No confirmed word.
 Running: none.
 

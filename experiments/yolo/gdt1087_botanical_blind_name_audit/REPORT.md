@@ -47,13 +47,26 @@ not human botanical judgments.
 The source's advertised highlights do not survive the fixed rule:
 f2v `kooiin=BORAGO` conflicts with the conspicuous organs, while f38r
 `tolor=CARDO` has only a possibly thistle-like blade and no second diagnostic
-feature or flower head. The exact `tshor` is assigned thyme on both f15r and
+feature or flower head. The exact IT2a `tshor` is assigned thyme on both f15r and
 f53v, yet both drawings visibly conflict with thyme and differ from each
 other in their flower heads. Both asserted hemlock pages (f24v/f42v) conflict.
 The two Morus pages are undecidable/conflicting; the two Meum pages are
 conflicting/undecidable. The mint spellings f14r/f28r remain undecidable.
 No duplicate-name pair has two visually supported owners, and the sole
-duplicate exact head has two conflicts.
+duplicate exact IT2a head has two conflicts.
+
+**Post-publication boundary clarification (2026-09-29).** This graphic
+intersection is not a newly discovered three-reader word pair. GDT1069
+already reports f15r `tshor` as a definite separate first group in all
+three readings, but f53v as ZL3b `tshor` with a weak following space,
+IT2a `tshor` with a definite space, and RF1b `tshorshey` as one whole.
+W84 already inventoried the two `tshor shey` openings and a third, medial
+`tshor` at f95v1.2, while leaving its meaning unbound. Prior native image
+work describes f95v1's multiple blue round heads but no confirmed botanical
+identity or group-to-organ pointer. Thus the new visual overlap nominates at
+most a C0 reproductive-head/material hypothesis. It does not establish a
+standalone `tshor` across readings, a shared taxon, or an independent third
+confirmation. No automatic repetition of W84 is warranted.
 
 The strongest botanical observation remains f9v's pansy-like *Viola*. The
 published claim explicitly expands *Jacea* to knapweed, which conflicts with
@@ -61,8 +74,8 @@ the image; GDT1064 separately showed that bare historical *Jacea* could also
 refer to a pansy. **`fochor` ≈ pansy/*Viola* remains a C0 complete-word
 hypothesis**, conditional on first-head-as-name. Its exact form occurs once
 on one page in each alternate reading of the 179-selector corpus; no second
-independently bound same-taxon slot exists. `tshor=thyme` is disfavored as a
-working gloss across its complete admitted contexts. The public source's
+independently bound same-taxon slot exists. `tshor=thyme` is disfavored at
+the two pictured headers, without a complete-text meaning judgment. The public source's
 positional mappings, vowel stripping and retrospective plant IDs are not
 validated by this audit. No confirmed name or decipherment follows.
 

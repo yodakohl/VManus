@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1087 | GDT1087 | `COMPLETE_DESCRIPTIVE_AUDIT__NO_SUPPORTED_PUBLIC_PLANT_NAME` | [report](../experiments/yolo/gdt1087_botanical_blind_name_audit/REPORT.md) | 16 | 58.2 KiB | 3 | STRUCTURED_YOLO |
+| GDT1087 | GDT1087_TSHOR_BOUNDARY_CLARIFICATION | `C0_VISUAL_OVERLAP__NO_NEW_LEXICAL_TEST` | [report](../experiments/yolo/gdt1087_botanical_blind_name_audit/REPORT.md) | 16 | 59.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT1086 | GDT1086 | `INVALID_OWNER_MAPPING__TEXT_ECHO_NOT_RUN` | [report](../experiments/yolo/gdt1086_f68v2_cardinal_side_reference/REPORT.md) | 10 | 21.9 KiB | 3 | STRUCTURED_YOLO |
 | GDT1085 | GDT1085_STAR_LABEL_CORRECTION | `FOUR_INTERLEAVED_LABELS_RETAINED_NO_SAME_LAYER_TWELVE_REGISTER` | [report](../experiments/yolo/gdt1085_trier_f68v2_native_owner_preflight/REPORT.md) | 13 | 27.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT1084 | GDT1084_PREDECESSOR_CORRECTION | `REDUNDANT_WITH_SNPL002_NO_NEW_DECISION` | [report](../experiments/yolo/gdt1084_source_native_four_plant_bridge/REPORT.md) | 9 | 41.2 KiB | 1 | STRUCTURED_YOLO |
