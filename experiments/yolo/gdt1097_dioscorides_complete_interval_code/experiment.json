@@ -124,7 +124,43 @@
       "role": "PREREG_LOCK.json"
     }
   ],
-  "outputs": [],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1097_dioscorides_complete_interval_code/REPORT.md",
+      "sha256": "4452c4aa774bba817df973d4d5c2c62993f8467f78092df5d5b1414fb726421f",
+      "role": "REPORT.md"
+    },
+    {
+      "path": "experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/ALL_CASES.json.gz",
+      "sha256": "e26d40bc21c3156ad2094a7c7b24779bae0d659ccc56aa74d4b3ddf8b671859e",
+      "role": "ALL_CASES.json.gz"
+    },
+    {
+      "path": "experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/CANDIDATES.tsv",
+      "sha256": "1dd9369b2ccf2ebafba410de79dc5be3def3a83ff7e1497214cb514d406f22c3",
+      "role": "CANDIDATES.tsv"
+    },
+    {
+      "path": "experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/EXECUTION_RECEIPT.json",
+      "sha256": "e12b80be129ae88ce2b08b5517625f227119338ff97f0427365434eb2a1069f5",
+      "role": "EXECUTION_RECEIPT.json"
+    },
+    {
+      "path": "experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/RESULT.json",
+      "sha256": "26038f98a83e31bea78562db40f1fe21b5de8b43b02e5f702398192271bc1806",
+      "role": "RESULT.json"
+    },
+    {
+      "path": "experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/SOLVER_RESULTS.json.gz",
+      "sha256": "a9c2a29941752267815b6e4105544c90d04468b0529ec9efed542321663491cd",
+      "role": "SOLVER_RESULTS.json.gz"
+    },
+    {
+      "path": "experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/VALIDATION.json",
+      "sha256": "7978f216bf7aee857b175d772294a7c700ab32d3e2a93c1df68a1c58bc611429",
+      "role": "VALIDATION.json"
+    }
+  ],
   "question": "Can any of all seven remaining literal Iris pages satisfy the complete unchanged GDT963 local prefix-code equation, including all singleton and prefix obligations?",
   "schema_version": 1,
   "sealed_data": {
@@ -132,11 +168,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "dioscorides_complete_interval_code",
-  "status": "REGISTERED_UNSCORED",
+  "status": "THREE_SOLVER_INFEASIBLE_FOUR_UNKNOWN_NO_COMPLETE_CODE",
   "title": "Complete content equations through exact suffix intervals",
   "updated": "2026-09-29",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/VALIDATION.json"
   }
 }

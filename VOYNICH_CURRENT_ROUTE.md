@@ -4,11 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1097 complete equations on all7 remaining Iris pages.
-Latest decision: exact interval encoding retains singletons/all prefix rules. GDT1096:38contradictions; IDEA764 partial C0.
-Working files: laufenberg_f85r2_20260926/DIOSCORIDES_COMPLETE_INTERVAL_DECISION_20260929.md; gdt1097_dioscorides_complete_interval_code.
-Assumptions: source, aliases, frames/code rules fixed; local fit conditional. No word-boundary restriction.
-Resume: controls, public registration, all7 cases, validation; checkpoint10:37UTC. No automatic extension.
+Task: review common grammar for complete existing C0 readings (producer M).
+Latest decision: GDT1097 all7Iris:3solver-INFEASIBLE,4UNKNOWN;0complete codes. Park runtime branch. IDEA764 remains partial C0.
+Working files: gdt1097_dioscorides_complete_interval_code/REPORT.md; laufenberg_f85r2_20260926/source_supply_20260929/M_*; GDT1026/1029.
+Assumptions: meanings remain hypothetical; shared constructions must replace local clause lists without changing fixed values. No automatic grammar repairs.
+Resume: publish1097; inspect M primaries/stops before selecting one full-context grammar consequence.
 Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer M35min. Reserves closed.
 
 ## Structural baseline

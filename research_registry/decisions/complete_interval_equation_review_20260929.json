@@ -1,0 +1,23 @@
+{
+  "record_id": "GDT1097",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root",
+  "assessment_basis": "preregistered_exact_equations_controls_and_complete_result_accounting",
+  "reason": "All7 remaining IT2a I.1 pages executed under the unchanged full local equation:3solver-INFEASIBLE,4UNKNOWN during presolve; no full local code. All1428parent rows and old uncertainty retained. The literal four-record conjunction is unresolved.",
+  "evidence": [
+    "experiments/yolo/gdt1097_dioscorides_complete_interval_code/REPORT.md",
+    "experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/RESULT.json",
+    "experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/VALIDATION.json"
+  ],
+  "blockers": [
+    {"code": "computational_unresolved", "detail": "f46r/f49v/f8r/f93r remain UNKNOWN; no full local or shared four-record code.", "evidence": ["experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/RESULT.json"]},
+    {"code": "negative_solver_not_independent_certificate", "detail": "Three exact-model INFEASIBLE reports are retained, but no independently replayable UNSAT proof was produced.", "evidence": ["experiments/yolo/gdt1097_dioscorides_complete_interval_code/artifacts/VALIDATION.json"]},
+    {"code": "missing_meaning_binding", "detail": "Unconfirmed source/channel hypothesis,0independent confirmation capacity,0confirmed words.", "evidence": ["experiments/yolo/gdt1097_dioscorides_complete_interval_code/REPORT.md"]}
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [{"id": "different_decisive_consequence", "change": "new_design", "detail": "Separate bounded decision grounded in primary predecessors identifies a decisive new consequence or genuinely changed legitimate input, beyond another resource or encoding adjustment.", "evidence": []}],
+    "not_sufficient": ["Longer presolve/runtime or more restarts", "Retesting unchanged cases", "Relaxed partial word/name witnesses", "Treating UNKNOWN as a negative", "Post-hoc source, alias or code-rule repairs"]
+  }
+}
