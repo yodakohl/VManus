@@ -1,0 +1,32 @@
+# AQ: water/reflux gain and corrected northern alternatives; source graph remains provisional
+
+Contract: [AQ_DECISION.md](AQ_DECISION.md), with source/display provenance in [AQ_DISPLAY_RECEIPT.json](AQ_DISPLAY_RECEIPT.json). Only the same source folio's two complete-column regions and four-line note were displayed at native pixels. No target data, acquisition, OCR, generated image or new witness. [AQ_DISPLAY.py](AQ_DISPLAY.py) reproduces/validates the declared pixel projections; its PASS is not a Latin reading test.
+
+The repeated `aq... copia` now supports **aquae copia** in both readings. Reflux and sending toward land are also visible. This materially corrects root's initial loose idea of two colliding named winds: the input participants are more plausibly water/reflux and the impacted land, while `ventus` is explicit as the result. The exact noun qualified by each eastern/western adjective remains incompletely recovered. The red wavy diagram border and Voynich blue structures receive no automatic water meaning.
+
+## Candidate/observation table
+
+| Candidate construction | Earlier provisional assignment | Native-display observation | Decision |
+|---|---|---|---|
+| Northern Aquilo branch | Root first AQ account put orientalis in the greater-flow condition. AO peer had not fixed its subject. | AQ peer reads abbreviated `occ... maior ... ori... impellit`, impact against northern land on its **eastern** side, named wind **Aquilo**. | Withdraw root's first subject assignment. Western subject/eastern object is the better proposed expansion; exact noun/suffixes remain assumptions. |
+| Northern Chorus branch | AO peer and root first AQ account provisionally put occidentalis in the greater-flow condition. | AQ peer reads fuller `orientalis maior ... occ... impel-let eum`, impact against northern land on its **western** side, named wind **Chorus**. | Material correction retained. No convenient compass normalization; output side is not simply the stronger participant's own side. |
+| Direct stronger-direction → same-side result | Would associate the greater eastern participant with eastern-side Aquilo and greater western participant with western-side Chorus. | Clearer proposed subject readings give the reverse assignment. | This provisional shortcut is unsupported and withdrawn; no target directional key was built. |
+| Stronger flow displaces the other, whose impact yields a named wind | N1: western [reflux] greater → pushes eastern counterpart → north-land east-side impact → Aquilo. N2: eastern [reflux] greater → pushes western counterpart → north-land west-side impact → Chorus. | Comparison, pushing, land/side and result words are visible; noun antecedents, some case endings and pronoun linkage are still incomplete. | A concrete **qualified source working hypothesis**, not a certified case graph, whole-page translation or Voynich reading. Costs below remain explicit. |
+| Circius conditional | Apparent southern-word condition before a northern-side impact. | Both readers retain the `merid...`-like abbreviation and later septentrionis. | Unresolved apparent mismatch retained. No scribal-error excuse or expected-system repair. |
+| Whole source page recovered? | All regions had been inventoried in AO. | AQ accounts for all16 prior prose/note regions, with remaining unread words and names. | **Zero complete certified conditional cases**, incomplete critical transcription. Original diagram disagreements and unparsed lower-right arguments survive. |
+
+The proposed paired northern reconstruction spends four kinds of source assumptions: (1) eastern/western adjectives bind to the earlier reflux/liquor setup; (2) the comparative's implicit counterpart is the other branch; (3) abbreviated grammatical endings assign the displaced object as proposed; (4) `eum` resumes that counterpart. This is enough for an explicitly hypothetical source account. It is not independent evidence selecting those attachments, and no target whole or morpheme receives a meaning.
+
+## Display boundary and review independence
+
+The peer reported a tall first-line ascender apparently clipped at the right display's top boundary, although no entire word is visibly absent. Root had said the first/last written lines were contained but did not notice this stroke-edge problem. Under AQ's strict no-text-edge rule, full conformity is **not assured**. The branch stops here; no rectangle repair, further crop or source expansion was made. This provenance/display defect is separate from the unresolved antecedents and does not erase the complete original folio or the qualified observations already made.
+
+Root's first AQ record is preserved in [AQ_ROOT_FIRST_READING.md](AQ_ROOT_FIRST_READING.md), including the now-withdrawn northern direction assignments. The peer did not read it; both already knew AO's partial source reading and the competing participant interpretations. This is a reinspection of the same pixels, not a new witness, physical-leaf confirmation or independent meaning test.
+
+## Decision and next use
+
+Close AQ as **SOURCE_PARTICIPANTS_CLEARER_DIRECTION_CORRECTED_GRAPH_PROVISIONAL_DISPLAY_STOP**. Do not extend the acquisition/transcription branch. The usable new content is the qualified competing-flow → displaced counterpart → land-side impact → named wind construction, with the actual contrary directions and unresolved branches retained. It may support an exploratory whole-passage hypothesis with paid bindings; independently confirmed anchors are not required to author one. It cannot select a word on its own.
+
+Next research should attempt a bounded, explicit whole-passage construction on already admitted/exposed text, if predecessor review identifies a genuinely different candidate; avoid a twelve-name allocation and avoid repairing the closed IDEA582 transit glossary. In particular, merely reassigning its failed `or shedy` interface or absent alternate-reader binders is not a new source-content hypothesis. No further image acquisition or generic statistics is automatically authorized by this result.
+
+Old stops, f84/f84r seals and reserve threshold remain. Confirmed Voynich words: **0**. No whole-search countercontrol was run, no significance claimed, and no independent meaning confirmation exists. Local publication preparation continues; remote authentication is unchanged and not retried. The long research request is still active, not completed by AQ.

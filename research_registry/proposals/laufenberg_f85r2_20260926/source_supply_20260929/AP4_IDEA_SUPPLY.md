@@ -1,0 +1,17 @@
+# AP4 bounded source-grounded idea screen
+
+Run: **2026-09-29 18:19:46–18:23:38 UTC** (3 min 52 sec of the 15-minute limit). Read `VOYNICH_CURRENT_ROUTE.md` first, then bounded `numbers`, `differential`, and `names` context; consulted bounded idea searches, duplicate screens, and route-checks. No raw proposal was added: each concrete retained source construction in the bounded slice already has a close existing card, and the remaining hypothetical routes would be generic role sketches or would repeat the prior plant / wind work. This is a bounded screen, not a claim that all historical sources or all ideas are exhausted.
+
+## Retained source routes already covered
+
+- **Bonaventure, *Lignum vitae*, Prologus 1–6.** The retained text is a 2011 bilingual-host Latin edition with references to *Opera omnia* VIII, 68–86, not a diplomatic transcription of Yale MS 416. The source text expressly says a single indivisible fruit is presented through twelve ordered tastes/aspects and maps the branch sequence across origin/life, Passion, and glory. The exact route already appears as IDEA000763, “one undivided referent displayed as twelve ordered fruits or aspects.” The duplicate screen returned this same card. Its corrected review also notes that the modern text is not an MS416 transcription and its printed-unit boundary required correction. I did not view the retained manuscript image.
+- **Calendar / luminary alternatives.** Bounded searches surfaced Censorinus calendar authority/correction (IDEA000448), solar/lunar obscuration (IDEA000633), lunar phase direction (IDEA000672), and calendar date/activity rivals (IDEA000710/724), alongside other existing cards. Route-checks led to closed calendar/counting and existing circular-label routes. No new source or target was opened to expand these.
+- **Other retained multi-step mechanisms.** The local Batch D source review already registers Vitruvius II.5 and VII.8–9 (IDEA000754–756), Theophrastus *De odoribus* 26 and 45–48 (IDEA000757–758), Benedict 36 and 39 (IDEA000759–760), and Pliny XX.51 (IDEA000761). Existing cards state their complete source span and branch distinction. The nearby medical condition / transition route families also include IDEA000336 and IDEA000344/345. Rewriting their source mechanisms would not be a distinct AP4 proposal.
+
+No unreviewed source was treated as evidence of absent scholarship. No experiment, target selection, word value, meaning confirmation, gate, or reopening decision was made. `f84/f84r` and all reserves remain closed; no contacts or Git/global changes.
+
+## Accidental target-bearing file exposure
+
+While listing retained source candidates, a single shell command accidentally ran `sed -n '1,100p'` on the relative path `research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/AD_COMPLETE_ACCOUNT.md`. Its output exposed a previously authored complete Voynich paragraph account containing target transcriptions/groupings and C0 glosses. That was outside AP4's explicit no-target constraint. I stopped reading it, did not consult it again, and did not use it to author, choose, or select any source route. This AP4 screen is not target-blind and must not be represented as such. This is an exposure record only, not a new admission, experiment, or scientific result.
+
+Elapsed: 3 min 52 sec. Added cards: **0**. Reason: bounded candidates checked here were already represented by materially close source-grounded cards; no distinct complete-source route cleared the no-filler threshold.

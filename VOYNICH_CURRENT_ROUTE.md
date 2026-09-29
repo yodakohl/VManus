@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: AO closed; next scope native-column display to recover actual source-case participants.
-Latest decision: AO has impact/generation and peer Auster zone-crossing;no complete case or target meaning.
-Working files: source_supply_20260929/AO_REPORT.md,AO_RESULT.json;AP2_IDEA_SUPPLY.md;gdt1099/REPORT.md.
-Assumptions: 0confirmed words;AO participants/roster uncertain;785partial;old12-slot and other stops retained.
-Resume: register a short display-only source attempt before any crop;retain whole page and all clauses.
-Running: extended10h29Sep17:16:12–30Sep03:16:12UTC;AO closing;agents stopped;push auth unavailable.
+Task: AQ closes;review a different whole-passage competing-flow/impact/result hypothesis on admitted text.
+Latest decision: AQ corrects source participants/directions;4source attachments remain;display stop,no word.
+Working files: source_supply_20260929/AQ_REPORT.md,AQ_RESULT.json;AP3_IDEA_SUPPLY.md;gdt1099/REPORT.md.
+Assumptions: 0confirmed words;AQ qualified source only;785partial;582/old12-slot and other stops retained.
+Resume: predecessor-check and cost next whole-passage authoring;no further crop or source acquisition chain.
+Running: extended10h29Sep17:16:12–30Sep03:16:12UTC;AQ closing;agents stopped;push auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
