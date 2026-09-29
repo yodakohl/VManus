@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: distinguish animal-as-danger from animal-as-consumer in historical plant pictures.
-Latest decision: GDT1094 accounts for all7 f25v lines; no full semantic reading. Prior text-access barrier corrected. GDT1093 strict owner absent; Plantago C0. GDT1091 ofchy fails; GDT1090 schor descriptive.
+Task: construct a conditional f25v reading with explicit animal/plant roles.
+Latest decision: GDT1094 published acec6bb00; no full reading. Sources distinguish danger cue and wounded plant-user; f25v role open. GDT1093 owner absent; Plantago C0. GDT1091 fails; GDT1090 descriptive.
 Working files: GDT1094 report; laufenberg_f85r2_20260926/source_supply_20260929; raw IDEA744–746.
 Assumptions: f25v already text-admitted and exposed; animal identity/role unknown. Conditional exploratory readings allowed.
-Resume: publish1094; inspect source744–746 and native mouth/contact geometry, retaining all actor/use rivals.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; idea producer source-witness search45min. Reserves closed.
+Resume: retain source-role contrast and GDT1047 boundary countercases in any proposed daiin reading; no new decoder.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer adds6–10 source ideas. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
