@@ -4,11 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: seek a written meaning relation with distinctive visual owner.
-Latest decision: GDT1093 Egerton747 has no fixed three-part f25v owner; correction adds omitted Plantago f77v/f78r near misses. Plantago fan/roots closer than Rabarbarum, but no touching animal; historical f25v Plantago IDs exist. GDT1092 Sloane dragon 0/4; GDT1091 ofchy fails; GDT1090 schor descriptive.
-Working files: GDT1093 report/correction; GDT1092 report; IDEA739 source note.
-Assumptions: f25v exposed; source motifs cannot bind a word; Plantago is C0.
-Resume: compare independently written Plantago witness on distinctive fan+animal relation, or find different written relation; keep GDT1093 fixed.
+Task: seek a discriminating historical meaning relation.
+Latest decision: GDT1093 Egerton747 strict f25v owner absent; correction adds Plantago f77v/f78r near miss. Leiden Plantago has similar fan/root and bite remedies: C0 context, not a word. Historical f25v Plantago IDs predate us. GDT1092 Sloane dragon 0/4; GDT1091 ofchy fails; GDT1090 schor descriptive.
+Working files: GDT1093 correction; f25v Plantago/bite source note; IDEA740–743 raw.
+Assumptions: f25v exposed; animal may mark use, not plant name; no source motif binds a word.
+Resume: seek a differentiating Voynich-side prediction before f25v text access; keep GDT1093 fixed.
 Running: no confirmed word; f84/f84r and reserves closed.
 
 ## Structural baseline
