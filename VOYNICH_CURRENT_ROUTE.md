@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: AR closed partial;shortlist genuinely different complete content after primary review.
-Latest decision: AR lone.22,71fixed-value rows reviewed;no strict clash,no whole candidate;AQ source retained.
-Working files: source_supply_20260929/AR_ROOT_REVIEW.md,AR_RESULT.json;AQ_REPORT.md;GDT1090report.
-Assumptions: 0confirmed words;AR8guesses4rules unpaid bindings;all old stops and seals retained.
-Resume: review retained positive visual/structural leads and candidate duplicates;no AR binder/alias repair.
-Running: extended10h deadline30Sep03:16:12UTC;AR closed within45min;agents done;push auth unavailable.
+Task: AS complete local C0 closed unselected;seek genuinely distinguishing bounded consequence.
+Latest decision: AS source W/B suspension unpaid;direct qokchy-oky reuse fails,global scope unknown;1090C1retained.
+Working files: source_supply_20260929/AS_ROOT_REVIEW.md,AS_RESULT.json,AS_AUTHOR.json;F_ROOT_RESULT.md.
+Assumptions: 0confirmed words;21values9rules no selection;no ASbinder/alias/type repair;all old stops/seals.
+Resume: inspect source/structural predecessor constraints before nextselection;no unchanged source-fit retry.
+Running: extended10h deadline30Sep03:16:12UTC;AS closed within60min;796raw;agents done;push auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

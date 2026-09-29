@@ -1,0 +1,309 @@
+{
+  "task": "AS root authored ONE whole exploratory candidate",
+  "frozen_utc": "2026-09-29T19:10:18.984261+00:00",
+  "blind": false,
+  "status": "complete_local_C0_construction_not_reviewed_or_selected",
+  "reading": "Dioscorides reportedly treats the specified wormlike creatures found in the middle/pith of the specified plant head as a remedy: bind the creatures in the specified pouch, hang that pouch on the wearer's neck or arm, for that wearer's quartan fever.",
+  "lexicon": [
+    {
+      "form": "pchaiin",
+      "value": "ATTRIBUTED_MEDICAL_EFFECT_REPORT",
+      "type": "operator",
+      "transparent_payload_components": 3,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "ofchy",
+      "value": "WORMLIKE_CREATURES",
+      "type": "material_class",
+      "transparent_payload_components": 2,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "daiin",
+      "value": "DEFINITE_REFERENCE",
+      "type": "reference_operator",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "cfhy",
+      "value": "FOUND_AT",
+      "type": "location_predicate",
+      "transparent_payload_components": 2,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "doroiin",
+      "value": "MIDDLE",
+      "type": "location_class",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "ypchol",
+      "value": "PITH",
+      "type": "location_class",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "sy",
+      "value": "OF",
+      "type": "genitive_operator",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "schor",
+      "value": "PLANT_HEAD_ORGAN",
+      "type": "organ_class",
+      "transparent_payload_components": 2,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "ol",
+      "value": "POUCH",
+      "type": "container_class",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "qokchy",
+      "value": "BOUND_IN",
+      "type": "binding_predicate",
+      "transparent_payload_components": 2,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "dar",
+      "value": "WEARER_PATIENT",
+      "type": "person_class",
+      "transparent_payload_components": 2,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "chor",
+      "value": "HUNG_ON",
+      "type": "placement_predicate",
+      "transparent_payload_components": 2,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "oldor",
+      "value": "NECK",
+      "type": "body_site_class",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "oky",
+      "value": "OR",
+      "type": "alternative_operator",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "y",
+      "value": "POSSESSIVE_REFERENCE",
+      "type": "ownership_operator",
+      "transparent_payload_components": 2,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "choldchy",
+      "value": "ARM",
+      "type": "body_site_class",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "chokshchy",
+      "value": "QUARTAN_FEVER",
+      "type": "disease_class",
+      "transparent_payload_components": 2,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "cth[eeb:een]",
+      "value": "DIOSCORIDES",
+      "type": "authority_person",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "ctheen",
+      "value": "DIOSCORIDES",
+      "type": "authority_person",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "ctheeb",
+      "value": "DIOSCORIDES",
+      "type": "authority_person",
+      "transparent_payload_components": 1,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    },
+    {
+      "form": "ycholdchy",
+      "value": "POSSESSIVE_ARM",
+      "type": "observed_fused_whole",
+      "transparent_payload_components": 3,
+      "confidence": "C0_UNCONFIRMED",
+      "unseen_component_export": false
+    }
+  ],
+  "rules": [
+    "G1: nouns denote classes. Postposed daiin selects a definite discourse instance of the current nominal term. Applying it again to the same reference is idempotent; this is an explicit hypothesis motivated before freeze by9cached adjacent pairs, not a new sense or numeral.",
+    "G2: pchaiin heads an attributed medical-effect record: material/location, intervention, person/site, indication, authority. The final disease and authority are typed argument fields. This is a paid serial record construction, not a recovered sentence grammar.",
+    "G3: cfhy relates the current study material to the following location phrase; doroiin ypchol are appositional location descriptions. sy scopes the following definite nominal head as their possessor. No source clause is assigned to a single token.",
+    "G4: ol daiin introduces container B. qokchy binds the retained study material W in B. The material slot survives the head/location qualifier; it does not switch to H by nearest-noun lookup.",
+    "G5: dar daiin introduces wearer/patient P. chor places current container B at the following body-site choice. Bare body-site classes inherit P only within this placement frame.",
+    "G6: oky selects a disjunctive choice between body-site terms. y is a possessive reference operator, using the current P and its following nominal term/reference; ARM and FEVER belong to/affect that same P. Context must supply P; no new binder is invented in unknown intervals.",
+    "G7: the complete placement is followed by a possessed disease as indication, then the authority. The reported medical-benefit relation is supplied by pchaiin, not inferred from the name or a free ending.",
+    "G8: only observed ycholdchy receives the explicit whole-value equivalent of y choldchy. ctheen and ctheeb are distinct observed whole aliases for the uncertain authority hypothesis. No general y-prefix, suffix, proper-name phonetics or stem rule is exported.",
+    "G9: raw line ends do not close constructions. ZL/IT paragraph4-6 is the proposed scope; RF uses the same physical comparison window with absent paragraph flags retained. No other paragraph scope is silently repaired."
+  ],
+  "program": {
+    "report": {
+      "head": "pchaiin",
+      "authority": "D",
+      "effect": "claimed_remedy_for"
+    },
+    "material": {
+      "id": "W",
+      "kind": "wormlike_creatures",
+      "named_by": "ofchy daiin"
+    },
+    "location": {
+      "predicate": "cfhy",
+      "subject": "W",
+      "middle_pith": {
+        "surface": "doroiin ypchol",
+        "source_alias_assumption": "medio seu medulla treated as appositional restatement",
+        "head": "H"
+      },
+      "head": {
+        "id": "H",
+        "kind": "plant_head_organ",
+        "named_by": "sy schor daiin"
+      }
+    },
+    "container": {
+      "id": "B",
+      "kind": "pouch",
+      "named_by": "ol daiin"
+    },
+    "binding": {
+      "predicate": "qokchy",
+      "material": "W",
+      "container": "B"
+    },
+    "wearer": {
+      "id": "P",
+      "kind": "person",
+      "named_by": "dar daiin"
+    },
+    "placement": {
+      "predicate": "chor",
+      "object": "B",
+      "wearer": "P",
+      "site": {
+        "operator": "oky",
+        "alternatives": [
+          {
+            "kind": "neck",
+            "surface": "oldor",
+            "implicit_owner": "P"
+          },
+          {
+            "kind": "arm",
+            "surface": "y choldchy",
+            "explicit_owner": "P"
+          }
+        ]
+      }
+    },
+    "indication": {
+      "surface": "y chokshchy",
+      "kind": "quartan_fever",
+      "affected_person": "P"
+    },
+    "authority": {
+      "id": "D",
+      "kind": "Dioscorides",
+      "surface_alternatives": [
+        "cth[eeb:een]",
+        "ctheen",
+        "ctheeb"
+      ]
+    }
+  },
+  "word_values_including_reader_aliases": 21,
+  "base_word_values": 18,
+  "reader_alias_values": 3,
+  "macro_rules": 9,
+  "transparent_payload_components_noncanonical": 33,
+  "source_assumptions": [
+    "medio seu medulla as restatement of one location",
+    "no verified medieval transmission;1551comparison only"
+  ],
+  "target_assumptions": [
+    "finite serial medical record schema",
+    "definite-instance reference and repeat idempotence",
+    "explicit retained material/container/person slots",
+    "implicit neck owner is declared P",
+    "wearer and indicated-fever patient are P",
+    "Dioscorides identity is a proper-name guess with no sound evidence",
+    "three paid observed reader whole aliases",
+    "appositional middle/pith target phrase",
+    "physical RF window is not a verified paragraph"
+  ],
+  "known_before_freeze": [
+    "daiin717/169selectors,136physicalline starts,9adjacentpairs;edges notsentence boundaries",
+    "y242/114selectors,including7y-daiin and7daiin-y neighbors;full reference expressions,notmandatory bare-noun operands",
+    "chor189/97selectors nominal-role prior remains pressure on a placement-verb guess",
+    "rare body sites and authority are assigned to singleton wholes;freq does not identify them"
+  ],
+  "source_duties": [
+    "creatures",
+    "middle/pith location",
+    "containing head distinct from material",
+    "bag binding",
+    "hanging",
+    "neck OR arm",
+    "quartan-fever claimed remedy",
+    "Dioscorides attribution"
+  ],
+  "outside_review_not_started": true,
+  "confirmed_words": 0,
+  "old_glosses_or_keys_imported": false,
+  "hashes": {
+    "AS_DECISION.md": "b11504db9e2634db799b822423793981a680c9a9ee522584a9bc2c4c4bc21ae3",
+    "AS_REGISTRATION.json": "d3e1fb05a4d32785e4b2581510497207dc2146c374dee09e0b308a68d845ecb8",
+    "AS_PARAGRAPH.tsv": "d3463ce1976f45f2d5ba69a19eb5b72e223e577c0b42ae7d17ef4387e1eeaa20",
+    "AS_PROFILES.json": "4f1f1a39251ba8325ac5677a9eb349185d5070fdafc335a1b01578e4af2e909e",
+    "F_COMPLETE_ENTRIES.md": "a6182510be56750077d458e1fabda73c6e1e291daa5dc42801550ee9be45bd94"
+  }
+}
