@@ -35,9 +35,80 @@
       "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/BLIND_VISUAL.tsv",
       "role": "frozen blind morphology",
       "sha256": "afe94a94a707ad28e74ada6d84a1b4df5ba17a641e31e9ed5f9d8aa83994933e"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/src/ASSESSMENTS.tsv",
+      "role": "frozen six-pair decisions",
+      "sha256": "24d7cfb221110def752417d1985ea0a25207d697a5c872ec0941d43be12a0b9c"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/BLIND_PAIR_SIMILARITY.tsv",
+      "role": "frozen 36 pair ratings",
+      "sha256": "72cbb4e6cce1498909939a61dcac93fec4ad6500466e941c60357a6ecdb1f7b2"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/BLIND_VISUAL_B.tsv",
+      "role": "independent corrective image inventory",
+      "sha256": "5d5bf910e9c445b6c5f8e98d5c54076c417fa7f8e490b1dc67cabf0adb57cdaa"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/ROOT_NATIVE_REVIEW.tsv",
+      "role": "prior-exposed root image review",
+      "sha256": "3b02570e41a33c548c99e9e4ad21159a3613178e10f424663e80d9d1cf8b9b6b"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/METHOD.md",
+      "role": "registered method and executable source",
+      "sha256": "e2a2cc3210cc166c33a536eff7a656bf0e17780c3c84f1c4e6022089400933b2"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/PREREGISTRATION.md",
+      "role": "registered method and executable source",
+      "sha256": "414a15cb3af902f7266e9b78162ed1dc04346a6d26b00c97a66ade6b3e520eb1"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/README.md",
+      "role": "registered method and executable source",
+      "sha256": "fd2a3143e75233372da214e25414a04536929cb5e1a49282bb5ce4ec12a797ab"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/src/run.py",
+      "role": "registered method and executable source",
+      "sha256": "c006df77bcbd86a25fd159d6d8c6cfdfb19742c245e5923445188c48de70280a"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/src/validate.py",
+      "role": "registered method and executable source",
+      "sha256": "256bd0e4fcee8039ac3ac4c96431298a5dd102a9941f31bbb9f20cabdde5d513"
     }
   ],
-  "outputs": [],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/PAIR_CENSUS.tsv",
+      "role": "complete fixed pair join",
+      "sha256": "98b9b5da71026e22e51c824bd0fb2c868f8dd95e636a7c17e2c09cbb1dc7157d"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/VALIDATION.json",
+      "role": "structural validation",
+      "sha256": "ff56047d911d3b81174000b22d7be740c73c23cc15f655b35fb4a6866be04199"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/RESULT.json",
+      "role": "decision and counts",
+      "sha256": "ce343af3c3c555634f9639773b22a90f1c809bf102632c3c48b37ce6abf56820"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/REPORT.md",
+      "role": "interpreted report",
+      "sha256": "c066bc7d358a70880a13d6fa1ee74dbdb39eae39530428d4374a46fd9252c7e6"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/POST_FREEZE_DIAGNOSTIC.md",
+      "role": "prompted observation diagnostic; not blind confirmation",
+      "sha256": "dba29a8840eb95cea861e1408951938ffd2f5a77441195a2ff359ccbd4227c5c"
+    }
+  ],
   "question": "Do all repeated exact Herbal-A first heads in the fixed GDT1070 population share independently visible plant or organ identities?",
   "schema_version": 1,
   "sealed_data": {
@@ -45,11 +116,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "repeated_head_visual_owner_audit",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_DESCRIPTIVE__NO_CONFIRMED_MEANING",
   "title": "Complete repeated Herbal first-head visual owner audit",
   "updated": "2026-09-29",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

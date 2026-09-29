@@ -2,17 +2,19 @@
 Updated: 2026-09-29. Live resume point.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Compare all four repeated Herbal-A first heads on nine complete images.
-Latest decision: GDT1087 rejects 13/23 public names, 10 undecidable,
-0 two-trait supports; one repeated-head overlap remains C0.
-GDT1070 fixes four repeated heads/six same-head page pairs; W84 unchanged.
-Working files: GDT1088 prereg/scope; GDT1070, GDT1087, W84.
+Task: Find independent semantic owner for a fixed contrast.
+Latest decision: GDT1088 all 4 exact repeated Herbal-A heads / 9 images /
+6 pairs: 0 taxon matches; pchor 1/3 root overlap,
+tshor 1/1 radiate-head overlap (known), kooiin lower form visible
+but organ semantics undecidable after observer disagreement. No meaning bound.
+Working files: GDT1088 report/result, GDT1087, GDT1070, W84.
 Assumptions: first head may be name, organ class, formula or address;
-three transcriptions are one manuscript; prior exposure is not a holdout.
-Resume: Publish GDT1088 registration, then resolve exact Yale canvases;
-freeze nine head-blind image rows before joining all six pairs.
+readings are one manuscript; prompted review is not confirmation.
+Resume: Check route/ideas and primary sources for an independent owner
+for a different admitted consequence; avoid re-viewing
+f2v/f29v. f84/f84r sealed.
 Running: none. No confirmed word.
 
 ## Structural baseline
