@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: close GDT1098 and review X/Y written constructions with their known counterexamples.
-Latest decision: 1098retains2.86m domain tuples;all4UNKNOWN Iris pages remain. No code;780partialC0.
-Working files: gdt1098_dioscorides_shared_domain_conjunction/REPORT.md; source_supply_20260929/X_*,Y_*.
-Assumptions: 0confirmed words.1097/1098parked;780partial;Xno new card. Old failures and reserves unchanged.
-Resume: review X/Y whole constructions and known doublets/labels;do not relaunch unchanged code projections.
-Running: 20h29Sep06:17:46–30Sep02:17:46UTC;1098publication;Yproducer35min. f84r is sealed;reserves closed.
+Task: review Z instruction/reference binding after closing X/Y construction drafts.
+Latest decision: X partial,no card;781partialC0,255of288groups unknown;native upper a/o unresolved.
+Working files: source_supply_20260929/XY_ROOT_REVIEW.md,Y_NATIVE_AR_OR_RESULT.md,Z_*;GDT1098 REPORT.
+Assumptions: 0confirmed words.1097/1098parked;780/781partial. Old failures and reserves unchanged.
+Resume: inspect Z's exact addressee/vocative/wearer bindings;avoid YOU=W relabeling and unchanged projections.
+Running: 20h29Sep06:17:46–30Sep02:17:46UTC;X/Ypublication;Zproducer30min. f84r is sealed;reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
