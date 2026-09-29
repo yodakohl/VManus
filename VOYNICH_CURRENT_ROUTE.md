@@ -6,7 +6,7 @@ Phase: fixed_test
 Status: active
 Task: Compare all four repeated Herbal-A first heads on nine complete images.
 Latest decision: GDT1087 rejects 13/23 public names, 10 undecidable,
-0 two-trait supports; `tshor` f15r/f53v only C0 broad head overlap.
+0 two-trait supports; one repeated-head overlap remains C0.
 GDT1070 fixes four repeated heads/six same-head page pairs; W84 unchanged.
 Working files: GDT1088 prereg/scope; GDT1070, GDT1087, W84.
 Assumptions: first head may be name, organ class, formula or address;
