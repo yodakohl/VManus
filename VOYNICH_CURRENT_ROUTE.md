@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review T complete-content reference proposals against primary stops.
-Latest decision: 772surface pair retained;whole f108v extension unbound (164groups). No DOM choice. 771/765partial;1097parked.
-Working files: laufenberg_f85r2_20260926/source_supply_20260929/CLOCK_DOM_EXTENSION*,T_*; GDT1027/1047.
-Assumptions: 0confirmed words;coherent authored content is not meaning evidence. No automatic aliases or identity.
-Resume: publish772extension; read T aiin/daiin actor-versus-recipient draft and full1027/1047 primaries.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer T40min. Reserves closed.
+Task: review U whole historical constructions for shared writing rules.
+Latest decision: 776local ALSO+OF draft retained,7grammarcosts;1047blocks global export. 772extension unbound;1097parked.
+Working files: laufenberg_f85r2_20260926/source_supply_20260929/T_PROVENANCE_*,U_*.
+Assumptions: 0confirmed words. New776C0 removes atomic saiin;316groups/3ZL9ITgaps retained; old tests unchanged.
+Resume: inspect U whole sources and predecessors; choose a new written consequence, not an old identity in new notation.
+Running: 20h 29 Sep06:17:46–30 Sep02:17:46 UTC; Uproducer to13:09UTC; root776closure to12:57UTC. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
