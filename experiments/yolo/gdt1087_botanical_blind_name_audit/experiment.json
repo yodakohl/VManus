@@ -1,0 +1,121 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory image/name plausibility and C0 word nominations only; no confirmed translation or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1087_botanical_blind_name_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1087_botanical_blind_name_audit/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT1062",
+    "GDT1063",
+    "GDT1064"
+  ],
+  "experiment_id": "GDT1087",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1062_schechter_plant_label_source_alignment/src/claims.tsv",
+      "role": "fixed public name table",
+      "sha256": "8fff37db44c619c21b86422125e985d105bed5e2a6b6cd66e650390477c9d4f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/src/PAGE_ADMISSIONS.tsv",
+      "role": "pre-image access contract",
+      "sha256": "11a7f948c78f24841e6775278538640bceed584a96a37b5fad00bf69280cc1cf"
+    },
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20260929_BOTANICAL_23.md",
+      "role": "visual scope contract",
+      "sha256": "c00455b4e1d47be042c0a6b7bf38cfde8dda18d947656d8b0e43ef21abc3f2e7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/README.md",
+      "role": "reproducibility packet",
+      "sha256": "c269324d287a106bd2e10aa7e61bf128ab2ec883cc1abe8e6ee88458c0a0b04d"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "f7974b2b16440a78d36aab7f6455e9101473b1e185a218a46c2a33cae13af741"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "72df557b4b813d9173bdd1c5e2371fc22a55aa98e16c340c6c7b319e4683b7e0"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "ec57375b96160d947b1726502b65cd9d2f7f1a2305d7d941c1cb68e554ba7582"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/src/BOTANICAL_REFERENCE.tsv",
+      "role": "reproducibility packet",
+      "sha256": "d7f32a4fc786ebd1dfbd65e45cd60b440a5a94d033defec3d4a8ec53d53ae835"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/src/ASSESSMENTS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "379825b96a564226a40b5c0cae871f2c09b229144e884919eb1d3a19814ac09d"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "db28fa840d146538118ddcffc6d3e9d6263c0e71372e98c179842c439e19b6e2"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "7cdf21ad468bf5649ae0cb3417b48d656b86fcd85e913393bfa40e02f5d5b909"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "cdc9dd2c8cd97e108a508b1c5e1709f09358619f0df5c40a424a2ff68316d01c"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/artifacts/SOURCE.tsv",
+      "role": "reproducibility packet",
+      "sha256": "636639660ded6b1da0e9bf7e127c7f9dc1d70ea28950f69d861af4256acd4f20"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/artifacts/BLIND_VISUAL.tsv",
+      "role": "reproducibility packet",
+      "sha256": "3a0c973f0522027c4d18dfdb745a868eee90d2cd3732538e765a1659dac2aed9"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/artifacts/RESULTS.tsv",
+      "role": "reproducibility packet",
+      "sha256": "00a42760cc1737a75ad181d4157162521960363e6909b1fcc567c2161f2ddd53"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "86ec8f2f7f3d87f03b07b45b832eb7a24b8f55849e534416ead32feb78f742ac"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "03c0a146160e3db378038811a464c57c899bdd9511d5b5a0392e79739b2931ee"
+    }
+  ],
+  "question": "Do all 23 GDT1062 public plant names fit the official manuscript images under a name-blind morphology inventory?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "botanical_blind_name_audit",
+  "status": "COMPLETE_DESCRIPTIVE_AUDIT__NO_SUPPORTED_PUBLIC_PLANT_NAME",
+  "title": "Fixed 23-page botanical image/name plausibility audit",
+  "updated": "2026-09-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1087_botanical_blind_name_audit/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

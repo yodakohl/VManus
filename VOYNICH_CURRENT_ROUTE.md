@@ -4,16 +4,17 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Find a source-owned word anchor with discriminating consequences.
-Latest decision: GDT1086 corrects f68v2: 4 many-star unlabelled sectors,
-4 one-star/two-inscription sectors, 8 boundary rays; registered W.73
-reference test invalid before text scoring. GDT1085 Trier stop retained.
-Working files: GDT1086, GDT1085, GDT353; IDEA673/674 raw.
-f95v1/2 are separate drawings (GDT866); GDT404 pooled owner void.
-Assumptions: three readers are one manuscript; proximity is no word meaning;
-`fochor≈Viola` is C0, first-head-as-name unproven.
-Resume: Screen IDEA673/674 for real independent target owners, then sources;
-route-check and primaries first. No eligible word test or confirmed word.
+Task: Test image-owned complete-word candidates with known grammar.
+Latest decision: GDT1087 fixed 23 public plant-name pages: 0 two-trait
+supports, 13 conflicts, 10 undecidable. Sole repeated head `tshor` on
+f15r/f53v conflicts with thyme on both; composite-like heads are exploratory.
+GDT1086 f68v2 owner gate invalid; GDT1085 Trier stop retained.
+Working files: GDT1087, GDT1062-64, GDT1059, GDT765/766.
+Assumptions: three readers are one manuscript; `fochor≈Viola` remains C0;
+first-head-as-name and `tshor` class meaning unproved.
+Resume: All-occurrence `tshor` audit plus fixed 23-image composite-head
+base rate, with source/owner rivals; route-check and primaries before test.
+No confirmed word.
 Running: none.
 
 ## Structural baseline
