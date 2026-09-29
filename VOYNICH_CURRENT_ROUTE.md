@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: BG four lunar-series faces retained;native captions clipped;0words.
-Latest decision: AJ phase-owner gate unmet;stop generic face acquisition;BB/W/Y unselected.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BG_RESULT.md.
-Assumptions: f68 lower owner open;body/phase/light/time distinct;all stops/seals.
-Resume: Read BG_RESULT;inspect IDEA796+AI_REVIEW for written causal relation capacity,not another face;GDT1102 closed.
-Running: extended10h deadline30Sep03:16:12UTC;BF/BG closed;none running;remote auth unavailable.
+Task: IDEA796 causal content not target-bound;schor/schol selection audit next;0words.
+Latest decision: no light/time choice;1090 schorC1 retained;ZL-only pair not all-reader inventory.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BI_ROOT_REVIEW.md.
+Assumptions: no organ pointer;782 portion/entry rival;799RAW URL corrected;all stops/seals.
+Resume: Read BI+IDEA782 AA_ROOT_REVIEW;bounded exact schor/schol/s chol contexts on8named admitted leaves;no image expansion.
+Running: extended10h deadline30Sep03:16:12UTC;BH/BI closed;none running;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
