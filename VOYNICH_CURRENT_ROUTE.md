@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: use741 organ-specific solar source to seek a complete written construction; AG authors alternatives.
-Latest decision: AE sources distinguish leaf-turn/flower-open/plant-close;no targetbinding. AC/AD no new rule;784raw.
-Working files: source_supply_20260929/AE_SOURCE_READING.md,AE_CLOSURE.json,AF_*,AG_*;AA_PUBLICATION_PENDING.json.
-Assumptions: 0confirmed words.1097/1098parked;780-783partial;native a/o unresolved;old stops unchanged.
-Resume: inspect whole780/781 context for actual organcycle binding;no free solarword or serialgloss extension.
-Running: 20h29Sep06:17:46–30Sep02:17:46UTC;AGproducer35min;push auth unavailable. f84r is sealed;reserves closed.
+Task: AJ/AI compare specific Sun/full-Moon owner alternative using existing f68 crops and named source diagrams.
+Latest decision: 785reciprocal head partialC0;296of401groups unknown.741source supported;no organwriter or word.
+Working files: source_supply_20260929/AG_ROOT_REVIEW.md,AH_TARGET_AUTHORING_NOTE.md,AJ_*,AI_*;AE_PUBLICATION_PENDING.json.
+Assumptions: 0confirmed words.1097/1098parked;780-783/785partial;native a/o unresolved;old stops unchanged.
+Resume: two native medallions under AJ contract,then complete AI source;no new glyph reading or free body-name gloss.
+Running: 20h29Sep06:17:46–30Sep02:17:46UTC;AIproducer35min;push auth unavailable. f84r is sealed;reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
