@@ -4,11 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: author whole f108v.7–11 with fixed clock values and C0 DOM/RANGE rule.
-Latest decision: 772surface-only: predicted shckhaiin exists; alolsheaiin absent. No meaning chosen. 771/765partial;1097parked.
-Working files: laufenberg_f85r2_20260926/source_supply_20260929/CLOCK_DOM_*,S_*,T_*; GDT1030 SOURCE.
-Assumptions: 0confirmed words;33clockvalues guessed. Three readers are one manuscript. No automatic aliases or identity.
-Resume: publish S/772; then whole f108v.7–11 scoped authoring, no single-word gloss expansion.
+Task: review T complete-content reference proposals against primary stops.
+Latest decision: 772surface pair retained;whole f108v extension unbound (164groups). No DOM choice. 771/765partial;1097parked.
+Working files: laufenberg_f85r2_20260926/source_supply_20260929/CLOCK_DOM_EXTENSION*,T_*; GDT1027/1047.
+Assumptions: 0confirmed words;coherent authored content is not meaning evidence. No automatic aliases or identity.
+Resume: publish772extension; read T aiin/daiin actor-versus-recipient draft and full1027/1047 primaries.
 Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer T40min. Reserves closed.
 
 ## Structural baseline
