@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: AJ/AI compare specific Sun/full-Moon owner alternative using existing f68 crops and named source diagrams.
-Latest decision: 785reciprocal head partialC0;296of401groups unknown.741source supported;no organwriter or word.
-Working files: source_supply_20260929/AG_ROOT_REVIEW.md,AH_TARGET_AUTHORING_NOTE.md,AJ_*,AI_*;AE_PUBLICATION_PENDING.json.
+Task: AK/AL author and check whole f75v.43–49 free-base continuation with785 transfer values fixed.
+Latest decision: AJ Sun/full-Moon unresolved;AI distinguishes heaven/body/light,not target words.785partialC0.
+Working files: source_supply_20260929/AK_DECISION.md,AL_*,AJ_RESULT.md,AG_ROOT_REVIEW.md;AG_PUBLICATION_PENDING.json.
 Assumptions: 0confirmed words.1097/1098parked;780-783/785partial;native a/o unresolved;old stops unchanged.
-Resume: two native medallions under AJ contract,then complete AI source;no new glyph reading or free body-name gloss.
-Running: 20h29Sep06:17:46–30Sep02:17:46UTC;AIproducer35min;push auth unavailable. f84r is sealed;reserves closed.
+Resume: whole owned free-base paragraph and inherited contracts,then AL argument account;no automatic added glossary.
+Running: 20h29Sep06:17:46–30Sep02:17:46UTC;ALproducer40min;rootAK45min;push auth unavailable. f84r sealed;reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
