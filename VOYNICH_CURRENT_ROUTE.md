@@ -2,20 +2,18 @@
 Updated: 2026-09-29. Live resume point.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Test image-owned complete-word candidates with known grammar.
-Latest decision: GDT1087 fixed 23 public plant-name pages: 0 two-trait
-supports, 13 conflicts, 10 undecidable. IT2a repeats `tshor` on f15r/f53v;
-thyme conflicts, but RF fuses f53v and W84 already studied the two openings.
-GDT1086 f68v2 owner gate invalid; GDT1085 Trier stop retained.
-Working files: GDT1087, GDT1062-64, GDT1059, GDT765/766.
-Assumptions: three readers are one manuscript; `fochor≈Viola` remains C0;
-first-head-as-name and `tshor` class meaning unproved.
-Resume: Seek a new meaning-bearing owner in admitted diagrams/images;
-screen idea pool and primaries. Do not rerun W84 or generic trait-name tests.
-No confirmed word.
-Running: none.
+Task: Compare all four repeated Herbal-A first heads on nine complete images.
+Latest decision: GDT1087 rejects 13/23 public names, 10 undecidable,
+0 two-trait supports; `tshor` f15r/f53v only C0 broad head overlap.
+GDT1070 fixes four repeated heads/six same-head page pairs; W84 unchanged.
+Working files: GDT1088 prereg/scope; GDT1070, GDT1087, W84.
+Assumptions: first head may be name, organ class, formula or address;
+three transcriptions are one manuscript; prior exposure is not a holdout.
+Resume: Publish GDT1088 registration, then resolve exact Yale canvases;
+freeze nine head-blind image rows before joining all six pairs.
+Running: none. No confirmed word.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

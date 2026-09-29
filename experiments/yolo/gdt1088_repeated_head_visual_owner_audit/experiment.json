@@ -1,0 +1,40 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory visual pair capacity and C0 nominations only; no confirmed meaning, plant name or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1088_repeated_head_visual_owner_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1088_repeated_head_visual_owner_audit/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT1059",
+    "GDT1070",
+    "GDT1087"
+  ],
+  "experiment_id": "GDT1088",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/src/PAGE_ADMISSIONS.tsv",
+      "role": "new visual admission list",
+      "sha256": "09c090e877dcf879f2247c306cdcd9403318ec986d2dfbdac5ec350a2f9fd281"
+    }
+  ],
+  "outputs": [],
+  "question": "Do all repeated exact Herbal-A first heads in the fixed GDT1070 population share independently visible plant or organ identities?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "repeated_head_visual_owner_audit",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Complete repeated Herbal first-head visual owner audit",
+  "updated": "2026-09-29",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

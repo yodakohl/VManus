@@ -1,0 +1,3 @@
+# Additive visual scope — GDT1088, 29 September 2026
+
+Before new pixel access, four exact Herbal folios are admitted for the complete repeated-first-head visual census: **f19r, f29v, f42r, f52v**. Admission is solely direct whole-plant morphology on each folio's official Yale canvas, not neighboring scans, text or other folios. The other five GDT1088 pages retain their earlier specific image admissions: f2v/f15r/f53v (GDT1087), f21r (GDT812), f56r (GDT791). The fixed head strings were already admitted in GDT1070. Publish image URLs, content hashes and compact observations; keep original pixels local. The reserve set, f84, f84r and f116v remain closed. Prior project image/name exposure is development exposure, not a fresh blind holdout.
