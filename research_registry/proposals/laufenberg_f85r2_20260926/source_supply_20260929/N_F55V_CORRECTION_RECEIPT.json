@@ -1,0 +1,19 @@
+{
+  "status": "HISTORICAL_DECISION_RECEIPT_NOT_NEW_IMAGE_FINDING",
+  "command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv",
+    "--selector",
+    "experiment",
+    "--allow",
+    "SIDEQUEST_scribe_workshop_f55v_image_column_correction",
+    "--allow",
+    "SIDEQUEST_scribe_workshop_predrawn_image_space_correction",
+    "--columns",
+    "date,experiment,status,live_scope,forbidden_inference,primary_report"
+  ],
+  "source_sha256": "c603b0360ae465943f1a400643dfca614719e485b4f7ebf83f5beeca5dcea0a4",
+  "guard_stdout": "date\texperiment\tstatus\tlive_scope\tforbidden_inference\tprimary_report\n2026-08-21\tSIDEQUEST_scribe_workshop_f55v_image_column_correction\tCROSS_DRAWING_SENTENCE_REJECTED_FOUR_LOCAL_TEXT_STREAMS_PROVISIONAL\tA thirty-second iteration directly inspects official Yale f55v canvas 1006183 and finds four text blocks around upper and lower plant zones; source DRAWING_INTERRUPTION on 11/12 lines separates left/right streams rather than licensing horizontally stitched sentences, so earlier two-linear-preparation readings are replaced by upper/lower zones each with at least two image-indexed note streams\tretain the image as a shared silent referent and local layout index only; plant-part ownership description preparation application dosage water and reading order remain invented, no f84/f84r source was accessed\texperiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_TRANSLATION_DRAFT.tsv\n2026-08-21\tSIDEQUEST_scribe_workshop_predrawn_image_space_correction\tLOCAL_IMAGE_SEMANTIC_OWNERSHIP_WITHDRAWN_LAYOUT_OBSTACLE_ONLY\tA thirty-third iteration adopts the simpler sidequest production assumption that plant illustrations preceded text and scribes filled remaining space; f55v/f10r drawing interruptions are therefore treated as geometric obstacles with unresolved row-wise column-wise or mixed reading order, and prior flower/root left/right preparation/application semantics are withdrawn\tretain only page-level depicted-plant reference plus text-space constraint; image-first chronology is assumed rather than proved, and no local visual ownership water meaning or f84/f84r source was accessed\texperiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_TRANSLATION_DRAFT.tsv\n",
+  "guard_stderr": "GUARD_STATS {\"selected\": 2, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 5051}\n"
+}

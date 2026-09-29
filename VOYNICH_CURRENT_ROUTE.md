@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: choose a new complete-content consequence after IDEA769 closure.
-Latest decision: IDEA769 gives local degree/quotation rules; whole causal/memory/reprise scope open. GDT1097:3solver-INFEASIBLE,4UNKNOWN;parked.
-Working files: laufenberg_f85r2_20260926/GALEN_SCOPE_RESULT_20260929.md; source_supply_20260929/N_*; existing picture/text primaries.
-Assumptions: 0new meanings; shared rules remain C0. No re-simulation, source/alias repair or automatic extra solver time.
-Resume: publish769; inspect N close and precise historical picture/action alternatives, retaining old binding/geometry stops.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer N35min. Reserves closed.
+Task: bounded primary inquiry into pictured atmospheric signs and forecasts.
+Latest decision: O extraction sketch adds no bound predicate; W06/GDT948 retained. GDT1097:3solver-INFEASIBLE,4UNKNOWN;parked.
+Working files: laufenberg_f85r2_20260926/ATMOSPHERIC_SIGNS_DECISION_20260929.md; source_supply_20260929/N_* and O_*.
+Assumptions: 0new meanings. Extraction and equal-mass daiin are unselected C0; no repair or extra solver time.
+Resume: finish Ptolemy source and at most3new illustrated witnesses by11:10UTC; no target test yet.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer P30min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

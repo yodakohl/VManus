@@ -1,0 +1,45 @@
+# O: one extraction relation for two complete paragraphs
+
+2026-09-29. **RAW_UNREVIEWED; authoring contract only, not a completed reading or target test.** Written after inspecting both previously exposed complete transcripts and before any second semantic draft. This is not a blind prediction. The proposed continuation belongs with IDEA286/737 and their exact predecessors; no existing scientific decision is changed.
+
+## Fixed common hypothesis
+
+Use exactly the complete units f22r.4–6 and f32r.1–5 in the saved F projection, retaining ZL3b/IT2a/RF1b and all uncertain readings.
+
+1. Hypothesize the complete word **schor** denotes the head/terminal organ H of the entry's plant. This starts from the retained F head-part possibility, not a confirmed meaning. No meaning of `chor`, `shor`, `dshor`, any prefix, or any other related spelling follows.
+2. Hypothesize the complete word **qokchy** expresses one operation E(H,M): **recover a pre-existing material M contained in a source H, leaving a distinguishable nonempty remainder R of that source**. In these two paragraphs H is the `schor` referent. This is a proposed physical relation, not the general word “prepare,” and it is not an instruction to use the entire head as the medicine. No grinding, heating, dissolution or worm identity is supplied implicitly. Other occurrences would require the same operation with explicitly bound sources; a local fit would not justify occurrence-specific senses.
+3. The operation's result becomes the current material for a subsequent unqualified material-value expression. Source H remains a separately recoverable referent. Switching a later modifier back to H needs an explicit binding under the first paragraph's declared rules; it cannot happen simply because the picture shows H.
+4. In the FIRST authoring unit, provisionally bind **ofchy** to M, the desired material named before the operation. This is a product-first instruction, not a claim that all second words name products. It gives f22r the proposed sequence: name desired material M → specify its source head H → recover M from H → continue the account. The remaining groups must supply the actual connective, scalar and later roles; none is silently skipped or given a gloss here.
+5. Do not assign a numeral or a meaning to **daiin** in this contract. Its repeated value-bearing use is an available hypothesis, to be declared consistently during first-unit authorship. The old III, HOT/COLD, dry/moist, and degree glosses are not inherited.
+
+This is ONE operation with one source/result distinction, not a menu of possible procedures. Choosing direct use of the whole head, making a material by grinding the whole head, or mixing two separate ingredients would be a different candidate, to be compared openly rather than substituted locally.
+
+## Consequences to carry into the second authoring unit
+
+The first full draft must declare exactly how an early material mention is bound to the later result and how source and result remain distinct across intervening words. Only then should the second full draft be authored. Both transcripts have already been read; the required ordering is a discipline on semantic decisions, not retrospective preregistration.
+
+- In f32r, `schor` occurs in .4 and `qokchy` in the final .5. Under E, this later operation must still recover content from that head. The paragraph contains **no exact ofchy**. A complete second draft must therefore supply a written result expression or a reference licensed by the FIRST draft's fixed rule. It may not equate `chor` with that output, choose the second word `shykeody` merely by position, or add a new unexpressed ingredient because the operation needs one. A result can be unnamed, but the same language rule must then license that implicit result in both complete accounts.
+- The final exact sequence is `qotchy qokchy daiin` in all readers. If `daiin` is authored as an unqualified material value and `qotchy` does not introduce another binder under the frozen rule, the terminal value belongs to extracted M, **not automatically to the source head H**. The earlier .4 sequence `schor dsh[o:a]r ytsho dain daiin choddal` must be read completely; it cannot be reduced to `schor daiin` by deleting its intervening groups. This is the second paragraph's new binding cost.
+- In f22r, both `ofchy daiin` and `schor daiin` are written. If the first draft interprets both as the same positive quantity in the same additive mass unit, the proposed extraction creates a concrete problem: M is a proper contained material and H includes a nonempty R, so mass(M) < mass(H). Equal quantities for those two participants cannot describe that physical relation at the same state. This conclusion does NOT require a numerical value III. It is conditional on amount, common unit, whole-head extent, positive remainder and same-state assumptions. Counting heads versus weighing content, a grade/class value, or differently scoped amounts does not produce this contradiction, but the author must state the chosen account and its written basis before the second draft. “Same word, therefore same referent” would instead collapse the very source/result distinction being proposed.
+
+These are authoring obligations and conditional deductions, not observed translations. Four recurrent words alone do not test E. Nothing yet establishes that `qokchy` is an operation or that `daiin` is a quantity.
+
+Root qualification during O: the common-mass reading is unsupported and must not become a reason to prefer or reject extraction. The mass inequality above is a stipulated model consequence, **not new manuscript information or decipherment progress**. It is retained solely to prevent a later fluent draft from silently identifying distinct participants or changing units. No quantity test is proposed.
+
+## Historical motivation and strongest rival
+
+The complete Lonitzer1551 Dipsacus entry in F_COMPLETE_ENTRIES.md describes a head, its interior worms, and their placement in a pouch followed by attachment to neck or arm. The source distinguishes the **head containing the medicinal material** from the material actually attached. This later comparative witness motivates the distinction; it does not name a target plant or show that the two target entries describe worms. Its other root/leaf/water procedures remain part of the complete source. The medieval lineage through Dioscorides is not a newly collated medieval target exemplar.
+
+More narrowly, the text says that the cut head contains worms and that the worms found within are bound in a pouch and attached. An intervening recovery/separation is inferred from these participant relations; a distinct imperative meaning “extract” is not quoted from the source. The source supplies no target verb.
+
+The strongest economical rival is a descriptive inventory of plant parts and their values, with no extraction event. It permits source/head and desired-material words to be class names or separate entries; it need not switch the current material after `qokchy`. A second serious rival uses the **whole** head as a drug. Either rival can reproduce repeated forms without the contained-component relation. E becomes useful only if a full author can bind its source, result, sequence and subsequent scope with fewer unmotivated exceptions than those rivals.
+
+No second full semantic draft, lexicon, source simulator or target test was created in O. Independent confirmation is not required to attempt authorship; uncertainty is retained instead of being replaced by an acquisition gate.
+
+## Existing qokchy rival is retained
+
+IDEA206 and the complete W02/W06 reports already propose `qokchy` as mixing, with unary homogenizing versus binary combining contracts. W06 leaves both global contracts unselected. Its f22v.15 case has two hypothetical written materials (`sho cthy ... qokchy`); f24r.12 has the complete `qokchy qotchy tol tod ckhy` sequence and a same-pair mix/separate account under explicit J/M attachment assumptions. E is a different lexical hypothesis, not a repair or reinterpretation of that unchanged W06 model. Those whole-context problems and the undecided global contract survive. A future complete E reading would owe those 63/66/62 current-cache occurrences an account; O has not supplied it.
+
+## Closure after the concrete GDT948 predecessor
+
+Root supplied GDT948 during closure; its full REPORT.md was then read. This check occurred **after** the O contract was drafted. GDT948 already aligned four whole HERB4 paragraphs with103 hypothetical whole-word values, separate material inputs/outputs and explicit separation versus inspection/descriptive rivals. The source/result distinctions and conditional physical requirements did not select a meaning. O therefore does not claim those modelling principles as new or the present three-role fragment as an improved full solution. Retain E as an unreviewed authoring possibility only. No further mass test, simulator or automatic full-draft continuation is recommended from this fragment alone.
