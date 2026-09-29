@@ -16,11 +16,14 @@ The drawing shows rounded/oval green leaves and a small dark-purplish flower,
 but does not securely show a bilaterally arranged five-petal pansy face,
 tricolour pattern, lower petal or diagnostic stipules.
 
-This **adds an early written-name-plus-image Viola witness** to the Detmold
-Mscr 70 f. 128r early written account, whose inspected folio has no plant
-picture. It corrects any broad impression that pre-1450 illustrated *Viola*
-is unavailable. It does not establish *Viola tricolor* or a close visual
-homologue of f9v. The source's generic violet caption cannot choose whether
+This adds a **seventh inspected written-name-plus-image *Viola* witness** to
+the [six previously compared source pictures](f9v_six_named_viola_images_20260928.md).
+Several of those were also pre-1450; the existence of an early illustrated
+*Viola* entry is therefore **not** newly established by this search. The
+separate Detmold Mscr 70 f. 128r has an early written account without a plant
+picture on the inspected folio. Add MS 11390 likewise does not establish
+*Viola tricolor* or a close visual homologue of f9v. Its generic violet
+caption cannot choose whether
 Voynich `fochor` is a plant name or an opaque entry address; neither source
 word is aligned to a Voynich group. No translated word or independent target
 confirmation follows. The existing need for a specific authorial text
