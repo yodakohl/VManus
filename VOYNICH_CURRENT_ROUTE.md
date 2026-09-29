@@ -2,13 +2,13 @@
 Updated: 2026-09-29. Live resume point.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT1091 blind image contrast: other `ofchy` leaves f26v/f39v versus four matched Herbal-B controls.
-Latest decision: GDT1090 `schor` 3/3 only for selected head union; 9/15 alternate code pairs also give some all-positive word. GDT1091 frozen before five new images; no new pixels yet.
-Working files: GDT1091 PREREG/METHOD; dated scope note; GDT765/GDT1090 reports.
-Assumptions: f22r has unlike cups and bead axes without text pointer; image co-presence is not meaning; prior exposure is not confirmation.
-Resume: publish bound registration; download only five admitted pages plus four prior references, deliver blind images to two readers; join after both freeze.
+Task: choose next owner-bound meaning test after GDT1091; no new access selected.
+Latest decision: GDT1091 PARTIAL_ONE_TARGET: f26v cup YES, f39v NO; two controls YES. Direct cup-to-ofchy argument retired. GDT1090 schor 3/3 remains C1 descriptive.
+Working files: GDT1091 REPORT/RESULT, GDT1090 REPORT, GDT765 primary; IDEA737/738 raw unreviewed.
+Assumptions: co-presence is not word-to-organ ownership; blind image codes are not semantic translations; prior root exposure is not confirmation.
+Resume: publish GDT1091 closure; then route-check and primary-review distinct owner-bound proposal with fixed discriminating consequence.
 Running: no confirmed word; f84/f84r and reserves closed.
 
 ## Structural baseline

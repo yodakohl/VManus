@@ -40,7 +40,7 @@
     {
       "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/README.md",
       "role": "directory reproducibility",
-      "sha256": "a6fd5187b201a5881689e8875fc615381cff082b1cd11621559a09927830f1c8"
+      "sha256": "8ca6ed1700a9cfc977cad0085c48b0a720c0c58ca98555d7a3f36705ec967e8c"
     },
     {
       "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/src/run.py",
@@ -51,9 +51,50 @@
       "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/src/validate.py",
       "role": "prewritten replay validator",
       "sha256": "fe893cb90b64f36c9553f53e0e7542e177eb2ba23662179d392880e68f7aa6d6"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/src/BLIND_MAP.tsv",
+      "role": "precommitted blind folio map",
+      "sha256": "1c2b7cf7d33caf92a179964e6c74e9498f1c6c8a3cf3c4d89a2f31e0d63ec170"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/src/SOURCE.tsv",
+      "role": "official Yale image provenance and file hashes",
+      "sha256": "aecef06966729035ec86aefa7146cd596b7651b375b1b4602312178a06a51a3f"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/artifacts/BLIND_A.tsv",
+      "role": "frozen blind reader A",
+      "sha256": "d665ca472c45d858dccb17d899d1f94e38d6be9acf6786378fd9d7a28b0a4665"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/artifacts/BLIND_B.tsv",
+      "role": "frozen blind reader B",
+      "sha256": "83b2c6c72f468c3247a188ecc18f55a6d8472058e4e0b1da0a011598f9d2cba9"
     }
   ],
-  "outputs": [],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/artifacts/JOINED.tsv",
+      "role": "complete nine-image joined code table",
+      "sha256": "b2ba81d9b015d71df504d7a22050d731daf2c0fc69663d576d3513ef6a6711d1"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/artifacts/RESULT.json",
+      "role": "registered fixed decision and all feature consensuses",
+      "sha256": "4d451d40e08f538ed489fa5def7cbd55095c06208f7af7b2be49660104bf2820"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/artifacts/VALIDATION.json",
+      "role": "full replay validation",
+      "sha256": "3ee7561cc174db8495393a378754b50368352853ffdcdf4d867afdbb94deee0f"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/REPORT.md",
+      "role": "complete result and interpretation",
+      "sha256": "ec9f9dc2f438fd2c6ac467e68892d8c57ef4e158347a165dda12b96648816018"
+    }
+  ],
   "question": "Do the other two all-reader exact ofchy Herbal-B folios share f22r-style blue fringed terminal cups beyond four metadata-matched controls and two schor-only references?",
   "schema_version": 1,
   "sealed_data": {
@@ -61,11 +102,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "ofchy_cup_spike_blind",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_PARTIAL_ONE_TARGET",
   "title": "ofchy cup spike blind",
   "updated": "2026-09-29",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/artifacts/VALIDATION.json"
   }
 }

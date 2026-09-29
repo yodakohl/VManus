@@ -1,6 +1,7 @@
 # GDT1091 — ofchy cup spike blind
 
-Status: `REGISTERED_UNSCORED`, images not yet opened.
+Status: `PARTIAL_ONE_TARGET`; fixed visual differential failed.
 
-See `PREREGISTRATION.md`, `METHOD.md`, the dated scope note and
-`experiment.json`.
+See `REPORT.md`, `PREREGISTRATION.md`, `METHOD.md`, the dated scope note and
+`experiment.json`. The image pixels were retrieved from Yale under blind IDs;
+their hashes and URLs, but not binaries, are preserved in `src/SOURCE.tsv`.
