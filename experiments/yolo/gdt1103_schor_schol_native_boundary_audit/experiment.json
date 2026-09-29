@@ -1,0 +1,111 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Documentary exact whole/spaced inventory only; no semantic word, anatomy pointer, global census, significance or independent confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1103_schor_schol_native_boundary_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1103_schor_schol_native_boundary_audit/src/validate.py"
+  },
+  "created": "2026-09-30",
+  "dependencies": [
+    "GDT631",
+    "GDT765",
+    "GDT1090"
+  ],
+  "experiment_id": "GDT1103",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BJ_DECISION.md",
+      "sha256": "a8d47c47a9a3148b52066700949c889c537544f633fcf93c08127000b315dbc4",
+      "role": "Frozen reproducibility input or output"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/CLOSURE.json",
+      "sha256": "158a36711225464e55cdb8194b7ff51b5ac2de28e08e066431ae60232d3ffd97",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/METHOD.md",
+      "sha256": "68c762f3a6791f44c7ab1a4f7097bc721fbb40be03f5d95810d99a1efb00e5ea",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/PREREGISTRATION.md",
+      "sha256": "ed95de3b29bf1a97d5c2f827259dc9500bd1d3f7ccbfeb8af9439b66abe9af80",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/README.md",
+      "sha256": "6035df7eb0c78a94ee584cb777abadefb51a8ea940e00ba03ccd5b15ddc36554",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/REPORT.md",
+      "sha256": "833ce5214ea5a0fe66d5f70bf51c5a2a2f921d7741b6bb8916c4fe03f01cdbc9",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/artifacts/CONTEXTS.json",
+      "sha256": "e85e5aa4b2729f42b2bb6ebbaceaeea7d28c44cf13dd02e6f7b2d78e20e7b9b5",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/artifacts/CONTEXTS.md",
+      "sha256": "b0b5ba202aa972792b47722c0276e658ece1a497f6bd0e868422e7072e064b76",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/artifacts/README.md",
+      "sha256": "4f64e35317eb27c13f71ebb8b1ef6cb2407f06591bc6ea597f24a2627857c42b",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/artifacts/RESULT.json",
+      "sha256": "f3e58f5926da37e0e89124eb9f4df93bf9e0925fac3dfabee6ba28df5cd6ca7a",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/artifacts/VALIDATION.json",
+      "sha256": "43e676d4cdf600bafe959f2c272b298a5b0153ff9a0b4155d0029c8bc1cb6b58",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/src/run.py",
+      "sha256": "9d53f263b568521b95f3bad9bc6dddbbe51bdbc79854e447e4580e013a9d1f36",
+      "role": "Frozen reproducibility input or output"
+    },
+    {
+      "path": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/src/validate.py",
+      "sha256": "eb5ef98654c7760c4400561b47d8ffa8dc4c8f790165b5d2df54fea5f4822bf3",
+      "role": "Frozen reproducibility input or output"
+    }
+  ],
+  "question": "Do all three native readers retain the same literal schor/schol versus spaced s chol inventory on eight predeclared admitted leaves?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "schor_schol_native_boundary_audit",
+  "status": "READER_DEPENDENT_WHOLE_SPLIT_INVENTORY",
+  "title": "Exact schor/schol whole/spaced inventory before an anatomical minimal-pair reading",
+  "updated": "2026-09-30",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1103_schor_schol_native_boundary_audit/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
