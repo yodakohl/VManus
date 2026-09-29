@@ -4,17 +4,17 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Seek an independent content-to-word anchor; avoid known picture-only ties.
-Latest decision: Laon MS422 f6v has 12 month sectors, not 4 season
-centres+8 month flanks; IDEA650 source role refuted. No word bound.
-Working files: IDEA650 source correction; f6v/f95v comparisons.
+Task: Find a source-owned word anchor with discriminating consequences.
+Latest decision: `otor` star-attached but widespread (GDT1071/1072); f85r2 East
+depends on common `or` (29 Sep dossier). Laon refutes IDEA650's 4+8 role.
+Working files: GDT1071/1072, f85r2 sensitivity, IDEA650.
 Source correction: f95v2=Yale1006242, f95v1=1006243; separate drawing
 owners. GDT866 applies to f95v1; GDT404's pooled owner is void.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
-Resume: Require a new externally owned referent and a discriminating text rule;
-check predecessor primaries before selection.
-Running: no target test; idea producer found no novel eligible anchor.
+Resume: New externally owned referent + discriminating text rule; primaries
+first. No eligible target test or confirmed word.
+Running: raw IDEA671/672 lack source and target capacity; no test.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
