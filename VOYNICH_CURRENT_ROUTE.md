@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review R f75v predication/compound proposal.
-Latest decision: 765 gives3local C0 constructors, no unselected semantic consequence. 398 source retained without target;852 spacing contrast retained;1097parked.
-Working files: research_registry/decisions/correlative_target_review_20260929.json; source_supply_20260929/R_*.
-Assumptions: 0confirmed words. Class recurrence is not identity; spacing contrast is not meaning. Reader uncertainty remains.
-Resume: publish398 review; inspect R whole f75v packet and shared rule against824/850/852/853 before test selection.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer R40min. Reserves closed.
+Task: review complete water-clock candidate via S supply.
+Latest decision: 771 partial: no shared continuation/phrase scope. 765partial;398source-only. Transport1008/1009stops retained;1097parked.
+Working files: laufenberg_f85r2_20260926/source_supply_20260929/R_REVIEW.md,S_*; GDT1039/1025reports.
+Assumptions: 0confirmed words. Coherent authored content is not meaning evidence. No automatic aliases or identity.
+Resume: publish R; read S water-clock primary and predecessors before selection.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer S40min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
