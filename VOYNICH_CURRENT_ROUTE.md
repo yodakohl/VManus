@@ -8,7 +8,7 @@ Task: AY source-body relations retained;AZ full-Moon face comparison closed;0wor
 Latest decision: Walters native fullphase has noface;Regio locator incomplete;AW C0 unselected.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/AZ_RESULT.md.
 Assumptions: AW/AS frozen;schorC1;AJ Sun/fullMoon unresolved;all stops/seals;no newgloss.
-Resume: IDEA796/AI/XY primaries read;check GDT1046/813 before selecting a lower-cost illumination construction;Y unchanged.
+Resume: 796/AI/XY/1046/813 read;next W_ROOT_RESULT primary before low-cost light/period C0;labels/doublets and Y unchanged.
 Running: extended10h deadline30Sep03:16:12UTC;AY/AZ closed;no agents;remote auth unavailable.
 
 ## Structural baseline
