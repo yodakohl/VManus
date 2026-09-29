@@ -1,0 +1,146 @@
+{
+  "task": "AR exploratory authoring",
+  "created_utc": "2026-09-29T18:46:00Z",
+  "status": "partial_c0_author_attempt_unreviewed",
+  "blind": false,
+  "prior_exposure": "AP4 accidental target-bearing AD_COMPLETE_ACCOUNT.md lines 1-100; documented, no reinspection for this construction",
+  "target": {
+    "block": "physical W18-23",
+    "safe_projection": "AR_W_PACKET.tsv",
+    "projection_sha256": "f452fe1b35bfdd2eed8fd13c7329e2475ff93794f567994612b3691bbedc4a10a",
+    "native_groups_sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+    "whole_block_rows": {
+      "ZL3b": 36,
+      "IT2a": 35,
+      "RF1b": 37,
+      "total": 108
+    },
+    "assigned_clause": "ZL3b f85r2.22, 8 groups",
+    "unassigned_zl_groups": 28,
+    "all_473_reader_group_complete": false,
+    "safe_projection_row_count": 108,
+    "obligation_corpus": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+    "obligation_corpus_rows": 473,
+    "outside_365_rows_inspected_before_freeze": false,
+    "outside_occurrence_review": "outstanding; do not infer absence; any assigned-form occurrence must receive frozen value/rule and be assessed as a counterexample if incompatible"
+  },
+  "source_versions": {
+    "N1_Aquilo": {
+      "candidate": "When the western branch has the greater stream, it drives the opposite branch's water toward an outcome.",
+      "participant_assignment": {
+        "ar": "west",
+        "or": "east"
+      },
+      "status": "partial; no north-land side-impact or named Aquilo result"
+    },
+    "N2_Chorus": {
+      "candidate": "When the eastern branch has the greater stream, it drives the opposite branch's water toward an outcome.",
+      "participant_assignment": {
+        "ar": "east",
+        "or": "west"
+      },
+      "status": "partial; no north-land side-impact or named Chorus result"
+    }
+  },
+  "entries": [
+    {
+      "form": "los",
+      "N1": "when / in the case that",
+      "N2": "when / in the case that",
+      "status": "new speculative C0",
+      "semantic_payload_open": true
+    },
+    {
+      "form": "ar",
+      "N1": "western participant",
+      "N2": "eastern participant",
+      "status": "new speculative C0; competing version assignment",
+      "semantic_payload_open": true
+    },
+    {
+      "form": "shedy",
+      "N1": "has the greater stream / exceeds",
+      "N2": "has the greater stream / exceeds",
+      "status": "new speculative C0",
+      "semantic_payload_open": true
+    },
+    {
+      "form": "qokshey",
+      "N1": "forcefully drives",
+      "N2": "forcefully drives",
+      "status": "new speculative C0",
+      "semantic_payload_open": true
+    },
+    {
+      "form": "qose?y",
+      "N1": "displaced counterpart",
+      "N2": "displaced counterpart",
+      "status": "new speculative C0, uncertain exact form",
+      "semantic_payload_open": true
+    },
+    {
+      "form": "or",
+      "N1": "eastern participant",
+      "N2": "western participant",
+      "status": "new speculative C0; competing version assignment",
+      "semantic_payload_open": true
+    },
+    {
+      "form": "aiin",
+      "N1": "water / stream",
+      "N2": "water / stream",
+      "status": "new speculative C0",
+      "semantic_payload_open": true
+    },
+    {
+      "form": "og",
+      "N1": "toward a resulting state",
+      "N2": "toward a resulting state",
+      "status": "new speculative C0",
+      "semantic_payload_open": true
+    }
+  ],
+  "new_lexical_values": 8,
+  "new_grammar_rules": 4,
+  "grammar_rules": [
+    "ar and or are whole-form contrastive participant labels; version controls east/west assignment",
+    "[participant] shedy predicates a greater stream/supply of that participant",
+    "qokshey qose?y [participant] aiin composes as drives the counterpart's water",
+    "los opens condition and og closes generic result; og does not encode a specific wind or location"
+  ],
+  "alias_and_segmentation_obligations": [
+    "IT2a qoseey vs ZL qose?y equivalence unresolved",
+    "RF1b qose eey vs ZL qose?y equivalence unresolved",
+    "IT2a aiinog vs ZL/RF aiin og segmentation unresolved"
+  ],
+  "source_duty_coverage": {
+    "competing_greater_flow": "partial for both branch versions",
+    "counterpart_displacement": "partial guessed C0 binder; no independent anchor",
+    "push": "partial guessed C0 verb; no independent anchor",
+    "north_land_side_impact": "uncovered",
+    "named_wind_output": "uncovered",
+    "four_source_attachment_assumptions": "not resolved by target",
+    "circius_mismatch": "retained unresolved"
+  },
+  "confirmation": {
+    "confirmed_words": 0,
+    "significance": false,
+    "gdt_regression_changed": false
+  },
+  "files_written": [
+    "AR_SOURCE_DUTIES.md",
+    "AR_SOURCE_DUTIES.json",
+    "AR_AUTHOR.md",
+    "AR_AUTHOR.json"
+  ],
+  "input_hashes": {
+    "AR_DECISION.md": "227ce609f65853359ddc6c4c1fb665aa1a0aa8d686a863548457c91a79c153a4",
+    "AR_SOURCE_DUTIES.md": "df465e4cbbd4863e34725cdc867719ab06d15918c75c68f08ac71eb1d83bac57",
+    "AQ_REPORT.md": "0d9047062e3415b938d8717974a64b270f3a42c613e901d506280248432ae6d7",
+    "AQ_PEER_READING.md": "5d54cd212ab2645f65216610acdb71ec607b9932ac84220f7e082472b82e10a9",
+    "AR_W_PACKET.tsv": "f452fe1b35bfdd2eed8fd13c7329e2475ff93794f567994612b3691bbedc4a10a",
+    "AR_WORD_PRIORS.tsv": "e72699590fdcdaeb14264374961b6aeb27b9bd4f42d4164fd32621092c598db5",
+    "AR_W_PROFILES.json": "93801de173a4d97a567d1f76d98f02eeb7faf45c1111811bb1832fae68e6cd54"
+  },
+  "scope": "Only AR_* author/duty files changed; no globals, registry, ledger, route, Git, contact, source/target acquisition, sealed or reserved data access."
+}
