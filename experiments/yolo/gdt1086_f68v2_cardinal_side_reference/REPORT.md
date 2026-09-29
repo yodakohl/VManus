@@ -40,3 +40,10 @@ This is recorded as historical exposure, not independent evidence or a
 retroactive access expansion. f84/f84r and all reserved leaves stayed closed.
 The source page is not an institutional image; Yale's native image supplies
 the visual cross-check. No significance or word meaning is claimed.
+
+This topology was **not newly discovered** here. An [8 August ledger row](../../../experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv)
+already described f68v2's four sparse star centres with eight surrounding
+boundaries in comparison with f68r3. Its cited detailed report is missing from
+the current tree, so the row is an exposure and predecessor warning, not
+claim-bearing validation. GDT1086's contribution is the explicit correction
+of the current GDT1085 owner error and the consequent registered stop.
