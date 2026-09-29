@@ -6,9 +6,10 @@ Phase: exploration
 Status: active
 Task: Find independent semantic owner for a fixed contrast.
 Latest decision: GDT1088 all 4 exact repeated Herbal-A heads / 9 images /
-6 pairs: 0 taxon matches; pchor 1/3 root overlap,
-tshor 1/1 radiate-head overlap (known), kooiin lower form visible
-but organ semantics undecidable after observer disagreement. No meaning bound.
+6 pairs: 0 taxon matches; organ YES 2/6 vs 2/30 off-head;
+pchor 1/3 root overlap,
+tshor 1/1 radiate overlap (known), kooiin lower form visible
+but organ undecidable after observer disagreement. No word bound.
 Working files: GDT1088 report/result, GDT1087, GDT1070, W84.
 Assumptions: first head may be name, organ class, formula or address;
 readings are one manuscript; prompted review is not confirmation.
