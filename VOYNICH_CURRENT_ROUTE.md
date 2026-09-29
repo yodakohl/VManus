@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1101 literal sy omission comparison closed;next grounded content consequence.
-Latest decision: 15ZL/29IT four-whole frames,0contrast pairs;1100 tie unchanged;no sy deletion.
-Working files: experiments/yolo/gdt1101_sy_literal_omission_capacity/REPORT.md;source_supply_20260929/AT_CONSEQUENCE_REVIEW.md.
-Assumptions: 0words;sy edge lead unselected;schorC1/AS frozen;all old stops/seals.
-Resume: read AT consequence review and GDT765 full f32r context for contact-withdrawal vs durable cure;not yet selected.
-Running: extended10h deadline30Sep03:16:12UTC;1101 closed;AV producer done,0newraw;push auth unavailable.
+Task: AW full-ZL contact/relief C0 closed unselected;stop local source codebook growth.
+Latest decision: 40newvalues8aliases;H/D binding unresolved;IT/RF incomplete;1101 zero literal pairs.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/AW_ROOT_REVIEW.md.
+Assumptions: 0words;AW/AS frozen;schorC1 retained;all old stops/seals;no sy deletion.
+Resume: read GDT343 primary before proposing joint shared-identity meaning transfer;no unchanged control/decoder or AW binder repair.
+Running: extended10h deadline30Sep03:16:12UTC;AW/1101 closed;agents done,797raw;push auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
