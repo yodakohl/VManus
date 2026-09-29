@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: seek dated text-picture evidence for named organ comparisons.
-Latest decision: G supports one-referent/many-aspect source mechanism, no target account. F schor C1 unchanged; composite botanical instruction not acquired.
-Working files: source_supply_20260929/G_ROOT_REVIEW.md, H_*; IDEA357; GDT963/976/977/978.
-Assumptions: analogical herbal descriptions already studied; H needs new source-image evidence. No common drawing scale or old gloss assumed.
-Resume: publish G corrected source packet; inspect H source and exact comparative predecessors before target choice.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer H source-only30min. Reserves closed.
+Task: develop source-based whole readings; review the Sloane age-treatment account.
+Latest decision: Aurora gives three-humidity union and musical warning; H owns organ comparisons, not composite assembly. No target meaning selected.
+Working files: laufenberg_f85r2_20260926/AURORA_TEXT_READING.md; source_supply_20260929/H_ROOT_REVIEW.md, I_*.
+Assumptions: source relations are conditional constraints, not target glosses; four pictured ages need not equal treatment thresholds.
+Resume: publish Aurora/H; review complete I and predecessors before selecting a target consequence.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; source producer I closure. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
