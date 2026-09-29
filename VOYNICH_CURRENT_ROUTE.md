@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: develop source-based whole readings; review the Sloane age-treatment account.
-Latest decision: Aurora gives three-humidity union and musical warning; H owns organ comparisons, not composite assembly. No target meaning selected.
-Working files: laufenberg_f85r2_20260926/AURORA_TEXT_READING.md; source_supply_20260929/H_ROOT_REVIEW.md, I_*.
-Assumptions: source relations are conditional constraints, not target glosses; four pictured ages need not equal treatment thresholds.
-Resume: publish Aurora/H; review complete I and predecessors before selecting a target consequence.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; source producer I closure. Reserves closed.
+Task: select a complete C0 reading with a new constrained shared-word consequence.
+Latest decision: Aurora/H/I sources clarified; no target gloss. Sloane treatment thresholds35/65 differ from four ages; f85 NOM/QOD stops unchanged.
+Working files: source_supply_20260929/I_ROOT_REVIEW.md, J_*; AURORA_TEXT_READING.md; GDT1045/1046.
+Assumptions: source content constrains an authored reading, not word ownership. No automatic AGE=aiin or four-block key.
+Resume: publish I; inspect J candidates and predecessors, then select the smallest executable test.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; bounded idea producer J25min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
