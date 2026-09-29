@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mandragore - Mirador</title>
+	
+		<style>
+			#myHeader {
+				height: 50px;
+				border-bottom: 2px solid #c2afe6;
+				width: 100%;
+				display: inline-flex;
+				align-items: center;
+			}
+			
+			#myHeader > a{
+				margin-left: 0.5rem;
+			}
+			
+			#viewer {
+				position: absolute;
+				top: 50px;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header id="myHeader">
+			<a id="logoBnF" href="https://www.bnf.fr/fr" title="Accès au site de la BnF" target="_blank">
+				<img src="/mirador/dist/images/logo-bnf.svg" alt="">
+			</a>
+			
+			<a id="logoMdg" href="#" title="Accès au site Mandragore">
+				<img src="/mirador/dist/images/logo-mdg.png" alt="">
+			</a>
+		</header>
+		
+		<div id="viewer"></div>
+	
+		<script type="text/javascript">
+			var arksDataList = [{"idDoc":"btv1b8101039h","numPage":1}];
+		</script>
+	
+		<script src="/mirador/dist/mirador-bundle.js"></script>
+	</body>
+</html>

@@ -1,0 +1,378 @@
+{
+  "status": "Independent native visual reading finalized: complete region inventory, incomplete textual recovery; no complete conditional case certified",
+  "started_utc": "2026-09-29T17:55:10Z",
+  "recorded_utc": "2026-09-29T18:07:15.129330+00:00",
+  "inclusive_budget_minutes": 30,
+  "source": {
+    "file": "AO_LAT18499_f26r_native.jpg",
+    "sha256": "70f2b6f814fce4e7f855c099f64f2386f0f294cf1225e83da24628161ca99fc0",
+    "identification_supplied_by_root": "BnF Latin 18499, folio 26r",
+    "dimensions_px": [
+      1920,
+      2952
+    ],
+    "scope": "Whole right folio; incidental facing-leaf strip excluded"
+  },
+  "method": {
+    "permitted_context_read": [
+      "VOYNICH_CURRENT_ROUTE.md",
+      "AO_DECISION.md",
+      "AO_NATIVE_INVENTORY_PLAN.md"
+    ],
+    "not_consulted": [
+      "AO_FIRST_NATIVE_INVENTORY.json",
+      "Root visual observations",
+      "Other agent interpretations",
+      "Catalogue inscription text beyond the limited expectation already stated in the authorized decision/plan",
+      "Web or corpus sources",
+      "Adjacent folios"
+    ],
+    "image_operations": "Original native image viewed without OCR, cropping, rotation, enhancement, other alteration or new acquisition. File identity checked with SHA-256.",
+    "independence_limit": "Authorized plan disclosed expectations of twelve names and four quality pairs, including the reported spelling frigius. Therefore this is an independent reading, not a blind discovery of that roster. No diagram spelling is filled from those expectations.",
+    "notation": "Square-bracket ellipses are unread spans. Macrons and abbreviations are schematic visual records, not a character-perfect diplomatic edition. Full words in provisional_expansion are proposed expansions, not claims that all those letters are written. Question marks are genuine uncertainty. Region entries cover all main prose and the full short marginal note; many individual words remain unresolved."
+  },
+  "page_inventory": {
+    "full_folio": true,
+    "foliation": "26 at upper right",
+    "main_text": "Two full main prose columns, with the last clause of the left continuing at the top of the right. Opening and closing prose continue beyond the present textual unit; no adjacent text supplied.",
+    "short_note": "Four-line smaller note below the left column.",
+    "diagram": "Circular figure at lower right: twelve radial sectors, four cardinal principal spokes, two circle boundaries, red scalloped arcs and red cardinal lines.",
+    "margins": "Broad margins visible. No additional securely legible textual unit identified beyond foliation, main columns, short note and diagram.",
+    "excluded": "Narrow facing-leaf text strip on the far left."
+  },
+  "prose_and_marginal_regions": [
+    {
+      "id": "P01",
+      "region": "Left column, opening continuation through the red Hii initial",
+      "visible_abbreviated_reading": "[…]ptionis. ex eius uiolē[…] ipsius aeris seq[…] / impetuosa motō. […] sic nasc[…] q[…] uēt[…] / q[…] d[…] septētrio siue boreas. fri[…] […] hic d[…] / aut[…] septētrio […] sub […] / maior[…] […] / […]",
+      "provisional_expansion": "[…]ptionis. Ex eius violentia(?) ipsius aeris sequitur(?) impetuosa motio. Et sic nascitur quidam ventus qui dicitur septentrio sive boreas. Fri[gidus?]. Hic dicitur autem septentrio […] sub […] maior[…] […].",
+      "literal_qualified_sense": "[…] From its force/violence(?) a violent motion of the air itself follows(?). Thus a certain wind arises which is called Septentrio or Boreas. The following explanation of the name is not securely read.",
+      "confidence": "High for impetuosa motio, air, sic nascitur, and septentrio sive boreas; lower for the first possessive causal phrase; low for the etymological tail.",
+      "relation": "An explicit wind-generation clause; the antecedent of eius is unavailable in this opening continuation. Septentrio and Boreas are expressly joined by sive, so this does not name two independent physical bodies."
+    },
+    {
+      "id": "P02",
+      "region": "Left column, Hii vero through the end of the collateral-wind introduction",
+      "visible_abbreviated_reading": "Hii u[…] s[…] uēti principales seu / cardinales […] […] / aer […] S[…] alii uēti collaterales / […] q[…] ex collat[…] allisiōe p[…]dicte reflu- / xionis proueniūt.",
+      "provisional_expansion": "Hii vero sunt venti principales seu cardinales […]. […] aer […]. Sunt alii venti collaterales […], qui ex collaterali allisione praedictae(?) refluxionis proveniunt.",
+      "literal_qualified_sense": "These are principal or cardinal winds. […] There are other collateral winds, which come about from a lateral impact of the aforesaid(?) reflux.",
+      "confidence": "High for the two wind classes, allisio, refluxionis and proveniunt; unresolved intervening justification of cardinales.",
+      "relation": "Taxonomic distinction plus an origin statement. The collateral label has a written connection with lateral impact; it is not merely a geometrical inference from the diagram."
+    },
+    {
+      "id": "P03",
+      "region": "Left column, first reflux explanation through eurus appellatur",
+      "visible_abbreviated_reading": "[…] refluxio aq[…] ad / oriē[…] […] maior[…] aq[…] copia[…] mittit / u[…] trā m[…]dia[…] […] collateralis fit allisio / in trā orientis a p[…]te m[…]die[…] […] / […] aq[…] copia[…] mittit u[…] trā septe- / trionis. Si […] maior[…] aq[…] copia[…] trans- / mittit u[…] trā m[…]die[…] collateralis fit / allisio in trā orientis a p[…]te m[…]die[…] […] sic / nasc[…] q[…] uēt[…] collateralis q[…] eurus ap- / pellat[…].",
+      "provisional_expansion": "[…] refluxio aquae ad orientem(?) […] maiorem aquae copiam mittit versus terram meridiei(?) […] collateralis fit allisio in terram orientis a parte meridiei(?) […] aquae copiam mittit versus terram septentrionis. Si […] maiorem aquae copiam transmittit versus terram meridiei(?), collateralis fit allisio in terram orientis a parte meridiei(?), et sic nascitur quidam ventus collateralis qui Eurus appellatur.",
+      "literal_qualified_sense": "A reflux of water toward the east(?) is discussed, with a greater quantity of water sent toward a southern(?) or northern land. In the clause ending in Eurus, a lateral impact takes place against the eastern land, from the southern side(?); thus a collateral wind arises which is called Eurus.",
+      "confidence": "High for repeated aquae copia, mittit/transmittit, versus terram, allisio, orientis, septentrionis, and the Eurus naming clause. The abbreviated meridiei readings and the syntax distinguishing the alternatives remain provisional.",
+      "relation": "Directed sending of water, a located lateral impact, and a resulting named wind. This binds water/flow and land-side participants, not a wind travelling to the next wind."
+    },
+    {
+      "id": "P04",
+      "region": "Left column, Si vero after Eurus through the name Vulturnus",
+      "visible_abbreviated_reading": "Si u[…] maior aq[…] copia […] / […] trā septē[…] collateralis fit alli- / sio in trā orientis a p[…]te septētrionis sic / nasc[…] q[…] uēt[…] q[…] d[…] uult[…]n[…].",
+      "provisional_expansion": "Si vero maior aquae copia […] [versus?] terram septentrionis, collateralis fit allisio in terram orientis a parte septentrionis; sic nascitur quidam ventus qui dicitur Vulturnus(?).",
+      "literal_qualified_sense": "If, on the other hand, the greater quantity of water […] toward(?) the northern land, a lateral impact takes place against the eastern land on the northern side; thus a wind called Vulturnus(?) arises.",
+      "confidence": "High for the eastern-land/northern-side impact phrase and wind-generation syntax; medium for the abbreviated final name; the first verb is not securely read.",
+      "relation": "A distinct conditional branch with a named outcome, not a continuation of Eurus moving onward."
+    },
+    {
+      "id": "P05",
+      "region": "Left column, Et occ… reflux… through the next southern/northern alternatives",
+      "visible_abbreviated_reading": "Et occ[…] / reflux[…] […] […] maior[…] aq[…] co- / pia[…] transmitt[…] u[…] trā m[…]die[…] […] / maior[…] u[…] trā septētrionis.",
+      "provisional_expansion": "Et occ[…] refluxus(?) […] maiorem aquae copiam transmittit versus terram meridiei(?) […] maiorem versus terram septentrionis.",
+      "literal_qualified_sense": "A further, apparently western, reflux is described as sending a greater quantity of water toward the southern(?) or northern land. The opening wording and exact alternative construction are unresolved.",
+      "confidence": "High for aquae copiam transmittit and the two directional-terrain expressions; low for the opening form and grammatical linkage.",
+      "relation": "Another directed-water-flow setup; not sufficiently secure for an exact complete participant graph."
+    },
+    {
+      "id": "P06",
+      "region": "Left column, Si … maiorem before the name Africus",
+      "visible_abbreviated_reading": "Si […] maio- / re[…] copia[…] aq[…] transmittit u[…] trā m[…]- / die[…] collateralis fit allisio in trā occ[…] a p[…]te / m[…]die[…] […] sic nasc[…] q[…] uēt[…] q[…] d[…] a- / fric[…].",
+      "provisional_expansion": "Si […] maiorem copiam aquae transmittit versus terram meridiei(?), collateralis fit allisio in terram occidentis a parte meridiei(?), et sic nascitur quidam ventus qui dicitur Africus.",
+      "literal_qualified_sense": "If a greater quantity of water is sent toward the southern land(?), a lateral impact takes place against the western land from the southern side(?); thus a certain wind called Africus arises.",
+      "confidence": "High for the causal frame and Africus; medium for occidentis and the expanded southern abbreviations.",
+      "relation": "Conditional directional flow and impact leading to a named wind."
+    },
+    {
+      "id": "P07",
+      "region": "Left column, Si vero after Africus through circius",
+      "visible_abbreviated_reading": "Si u[…] maior[…] aq[…] copia[…] transmi- / ttit u[…] trā m[…]die[…] collateralis fit al- / lisio in trā occ[…] a p[…]te septētrionis […] sic nasc[…] / q[…] uēt[…] q[…] d[…] circius.",
+      "provisional_expansion": "Si vero maiorem aquae copiam transmittit versus terram m[…]die[…] [possibly meridiei, NOT silently corrected], collateralis fit allisio in terram occidentis a parte septentrionis, et sic nascitur quidam ventus qui dicitur Circius.",
+      "literal_qualified_sense": "If the greater quantity of water is sent toward the named but uncertain land, a lateral impact takes place against the western land on the northern side; thus a wind called Circius arises.",
+      "confidence": "High for septentrionis and Circius; medium for occidentis; unresolved first directional word.",
+      "relation": "A further conditional branch. My visual reading of the first direction resembles the preceding southern abbreviation, despite the later northern side. That possible contradiction must remain open; no expected-system repair has been made."
+    },
+    {
+      "id": "P08",
+      "region": "Left column, Et … reflux… after Circius through the next named wind",
+      "visible_abbreviated_reading": "Et […] reflux[…] trans- / missa […] trā m[…] […] maior e[…] occ[…] et ead[…] p[…]te / transmitt[…] liq[…] Si […] maior fu[…] orient[…] / occ[…] uiolēt[…] impellit […] Et collateralis fit / allisio in trā m[…] a p[…]te occ[…] […] nasc[…] q[…]- / da[…] uēt[…] q[…] d[…] af[…].",
+      "provisional_expansion": "Et […] reflux[…] transmissa(?) […] terram m[…] […] maior est […] et eadem parte transmitt[…] […]. Si […] maior fuerit, orient[…] / occ[…] violenter impellit […]. Et collateralis fit allisio in terram meridiei(?) a parte occidentis(?), et nascitur quidam ventus qui dicitur af[…].",
+      "literal_qualified_sense": "The next explanation compares a greater flow with another and says that it forcefully drives/pushes [an unresolved participant]. A lateral impact against the southern land(?) from the western side(?) then produces a named wind, whose name I cannot securely complete.",
+      "confidence": "High for maior, violenter impellit, collateralis fit allisio and nascitur; low for subject/object assignment and the final name.",
+      "relation": "Explicit forceful displacement is present, but an exact claim about which branch pushes which other branch would outrun this reading."
+    },
+    {
+      "id": "P09",
+      "region": "Left column, Si vero after that name through noth…",
+      "visible_abbreviated_reading": "Si u[…] occ[…] maior fu- / erit orient[…] uiolēt[…] repellit […] Et collateralis / fit allisio in trā m[…] a p[…]te orient[…] […] sic na- / scit[…] q[…] uēt[…] q[…] d[…] noth[…].",
+      "provisional_expansion": "Si vero occ[…] maior fuerit, orient[…] violenter repellit […]. Et collateralis fit allisio in terram meridiei(?) a parte orientis, et sic nascitur quidam ventus qui dicitur Nothus(?).",
+      "literal_qualified_sense": "If the western(?) [flow] is greater, it forcefully repels/pushes the eastern(?) [flow]. A lateral impact against the southern land(?) on the eastern side yields a named wind, tentatively Nothus.",
+      "confidence": "High for the comparative condition, forceful pushing/repelling and birth syntax; medium for Nothus and directional expansions; unresolved nouns and pronouns.",
+      "relation": "An alternative competitive-flow mechanism. It does not itself state that the previously named wind changes into this wind."
+    },
+    {
+      "id": "P10",
+      "region": "Left-column final Et … reflux… continuing into right-column opening through chorus",
+      "visible_abbreviated_reading": "Et […] reflux[…] / transmissa in trā septētrionis […] maior e[…] / occ[…] ad eand[…] p[…]te[…] transmitt[…] liq[…] / […] maior fu[…] orient[…] uiolēt[…] impellit […] sic / collateralis fit allisio in trā septētrionis a p[…]te / orientis […] nasc[…] q[…] uēt[…] q[…] d[…] aquilo. Si / u[…] occidentalis maior fu[…] orient[…] uiolēt[…] impel- / lit eu[…] […] sic collateralis fit allisio in trā / septētrionis a p[…]te occidentis […] q[…] uēt[…] / q[…] d[…] chorus.",
+      "provisional_expansion": "Et […] reflux[…] transmissa(?) in terram septentrionis […] maior est […] ad eandem partem transmitt[…] […]. […] maior fuerit, orient[…] violenter impellit, et sic collateralis fit allisio in terram septentrionis a parte orientis, et nascitur quidam ventus qui dicitur Aquilo. Si vero occidentalis maior fuerit, orient[…] violenter impellit eum, et sic collateralis fit allisio in terram septentrionis a parte occidentis, et […] quidam ventus qui dicitur Chorus.",
+      "literal_qualified_sense": "The northern-land explanation again compares flows and describes forceful pushing. Impact against northern land on the eastern side is followed by the naming of Aquilo; the alternative impact on its western side is followed by Chorus. Exact assignment of the pushing subject and object remains uncertain.",
+      "confidence": "High for northern land, eastern/western side, the two names and forceful-pushing words; lower for the comparative-flow antecedents.",
+      "relation": "Two location-bound wind-generation alternatives, not an Aquilo-to-Chorus itinerary. The whole left-to-right column continuation is included."
+    },
+    {
+      "id": "P11",
+      "region": "Right column, Sunt alii after Chorus through flabello…",
+      "visible_abbreviated_reading": "S[…] alii p[…]dict[…] ex quoli[…] / allisiōib[…] […]ationib[…] proueniētes qui[…] / aliud […] p[…] uēto […] […] / […] inf[…] ex quoli[…] […] mo- / tu proueniētes ut ex flabello uel fla[…].",
+      "provisional_expansion": "Sunt alii p[…]dict[…] ex quoli[…] allisionibus, […]ationibus [perhaps exhalationibus] provenientes […]. […] ex quoli[…] motu provenientes, ut ex flabello vel fla[…].",
+      "literal_qualified_sense": "Other winds or air motions are said to arise from impacts and a second, uncertain kind of process. The text also mentions motions arising from movement, with a fan (flabellum) as an example. The classifications and connecting clauses are not fully legible to me.",
+      "confidence": "High for allisionibus, provenientes, motu and ex flabello; low for the other process and full taxonomy.",
+      "relation": "Additional production/origin language. It is unsafe to turn the uncertain second word into an established theory of exhalation or reflux."
+    },
+    {
+      "id": "P12",
+      "region": "Right column, subsolanus/favonius discussion through the first planetary or place explanation",
+      "visible_abbreviated_reading": "[…] subsolanus q[…] fauoni[…] oriāt[…] / […] plaga. cu[…] subsolan[…] iudicat[…] / calid[…] et sicc[…] fauoni[…] u[…] frigid[…] et humid[…] / ad hoc […] […] / calid[…] et sicc[…] […] generari. in occi- / dentali plaga […] humor planeta[…] fri- / […]",
+      "provisional_expansion": "[…] subsolanus […] Favonius oriantur(?) […] plaga. Cum subsolanus iudicatur(?) calidus et siccus, Favonius vero frigidus et humidus, ad hoc […] calidus et siccus […] generari; in occidentali plaga […] humor planeta[…] fri[…].",
+      "literal_qualified_sense": "Subsolanus is explicitly treated as hot and dry, whereas Favonius is cold and moist. The author goes on to offer an explanation involving generation and the western region, but I cannot safely reconstruct the complete question or answer.",
+      "confidence": "High for the named subjects and their paired qualities; medium/low for the surrounding syntax and proposed explanatory details.",
+      "relation": "The two quality pairs have explicit named owners in prose. This does not license distributing each pair to all three names in a diagram quadrant."
+    },
+    {
+      "id": "P13",
+      "region": "Right column, Ideoque/Nota passage ending subsolanus calidus … siccus",
+      "visible_abbreviated_reading": "Ideoq[…] […] ab […] zona / planeta[…] […] Nota […] plaga […] / […] planet[…] emanā[…] Ideoq[…] […] / […] uēto calidor[…] plane- / tar[…] subsolan[…] calid[…] e[…] uēt[…] et sicc[…].",
+      "provisional_expansion": "Ideoque […] ab […] zona planeta[…] […]. Nota […] plaga […] planet[…] emanant(?). Ideoque […] calidorum(?) planetarum(?), Subsolanus calidus est ventus et siccus.",
+      "literal_qualified_sense": "An explanatory passage, apparently mentioning a zone and planets, leads to the statement that Subsolanus is a hot and dry wind. The exact purported cause is unreadable in several places.",
+      "confidence": "High for the concluding Subsolanus predication; low for the planet/zone explanation.",
+      "relation": "A repeated explicit quality attribution. Planetary causation is only a tentative partial reading here, not a recovered complete claim."
+    },
+    {
+      "id": "P14",
+      "region": "Right column, next red initial through the zone/habitability discussion",
+      "visible_abbreviated_reading": "Et q[…] […] q[…] terra […] / […] zone […] una […] sub sole / […] æquinoct[…] semp[…] […] due ex- / treme frig[…] s[…] […] / s[…] inhabita[…] due aut[…] habitate […] pe- / […] Habitabiles in q[…] sup[…] / nos degim[…] […] infer[…] […] / […] Inferior terra […] […] boreas.",
+      "provisional_expansion": "Et q[…] […] terra […] zonae […] una […] sub sole […] aequinoct[…] semper […]; duae extremae frigidae sunt(?) […], sunt inhabitabiles(?); duae autem […] habitabiles […], in […] nos degimus […]. Inferior terra […] Boreas(?).",
+      "literal_qualified_sense": "This passage discusses terrestrial zones, a relation to the equinoctial sun, extreme cold zones, and inhabitable/uninhabitable regions, including where we live. I cannot supply a complete continuous reading. The familiar five-zone account must not be substituted for its missing words.",
+      "confidence": "Medium for the zone/habitability vocabulary; low for full sentence order and the tail.",
+      "relation": "Descriptive geographical or physical conditions; exact count and causal structure are not securely recovered in this block."
+    },
+    {
+      "id": "P15",
+      "region": "Right column, final Nota and Auster passage to the last written line",
+      "visible_abbreviated_reading": "Nota […] austro […] sicut ori[…] / auster […] boreas […] frigid[…] hic iu- / dicat[…] Et auster ubi ad nos uenit duas / p[…]transit zonas una[…] tēp[…]atā p[…]mā ca[…] / […] et in […] […] / […] […] / […] frig[…] semp[…] […] [remaining final words unreadable]",
+      "provisional_expansion": "Nota […] austro […] auster […] Boreas […] frigidus […] iudicatur. Et Auster [ubi?] ad nos venit, duas pertransit zonas, unam temperatam(?) […] […]. […] frigus(?) semper […] [the remainder and final words unresolved].",
+      "literal_qualified_sense": "Auster, when it comes to us, passes through two zones, one temperate(?). A preceding/following comparison involves Boreas and coldness, but its complete argument and final result cannot be safely restored.",
+      "confidence": "High for Auster, ad nos venit and duas pertransit zonas; ubi is tentative; medium for unam temperatam; low for the surrounding comparison and ending.",
+      "relation": "Actual written motion with a named wind, a destination expressed as us, and two intervening zones. This is the clearest travel statement on the folio. It is not a journey through the twelve radial names."
+    },
+    {
+      "id": "M01",
+      "region": "Short lower-left marginal note, all four lines",
+      "visible_abbreviated_reading": "Sunt subsolanus […] Eurus […] / […] meridia[…] noth[…] […] auster […] / […] occas[…] zephir[…] fauoni[…] […] / […] boreas […] chor[…] […] [remaining words unresolved]",
+      "provisional_expansion": "Sunt Subsolanus […] Eurus […]. […] meridia[…] Nothus(?) […] Auster […]. […] occas[…] Zephirus(?) / Favonius […]. […] Boreas […] Chorus(?) […].",
+      "literal_qualified_sense": "A short secondary note seems to list or group wind names by directional region. Several names and connectors are too small/unclear for a continuous reading. I cannot establish an action or sequence from this note.",
+      "confidence": "Medium for Subsolanus, Eurus, Auster, Favonius and Boreas; low for the other names, exact spelling, conjunctions and whole syntax.",
+      "relation": "No secure motion or causal clause recovered. All four physical lines are accounted for as a partially unread note, not silently omitted."
+    }
+  ],
+  "diagram": {
+    "outer_headings": [
+      {
+        "position": "top",
+        "reading": "oriens"
+      },
+      {
+        "position": "right",
+        "reading": "meridies(?)"
+      },
+      {
+        "position": "bottom",
+        "reading": "occidens"
+      },
+      {
+        "position": "left",
+        "reading": "septentrio"
+      }
+    ],
+    "radial_entries": [
+      {
+        "id": "D01",
+        "position": "Top principal spoke",
+        "visible": "Subsolanus […]",
+        "expansion": "Subsolanus; hot/dry quality wording appears in the same principal-spoke inscription but is too small for a confident full diplomatic transcription here.",
+        "confidence": "High name; medium physical quality association. Prose independently binds calidus/siccus."
+      },
+      {
+        "id": "D02",
+        "position": "Upper-right, adjacent to top spoke",
+        "visible": "Eurus",
+        "expansion": "Eurus",
+        "confidence": "High"
+      },
+      {
+        "id": "D03",
+        "position": "Upper-right, adjacent to right spoke",
+        "visible": "Nothus(?)",
+        "expansion": "Tentatively Nothus; spelling not secured.",
+        "confidence": "Low/medium"
+      },
+      {
+        "id": "D04",
+        "position": "Right principal spoke",
+        "visible": "Auster […]",
+        "expansion": "Auster; following small quality lettering unresolved in this reading.",
+        "confidence": "High name; incomplete qualities"
+      },
+      {
+        "id": "D05",
+        "position": "Lower-right, adjacent to right spoke",
+        "visible": "Aff[…]",
+        "expansion": "No complete expansion offered. The visible name must not be supplied from a conventional twelve-wind list.",
+        "confidence": "Low"
+      },
+      {
+        "id": "D06",
+        "position": "Lower-right, adjacent to bottom spoke",
+        "visible": "Africus(?)",
+        "expansion": "Tentatively Africus.",
+        "confidence": "Medium"
+      },
+      {
+        "id": "D07",
+        "position": "Bottom principal spoke",
+        "visible": "Fauonius […]",
+        "expansion": "Favonius; cold/moist quality wording appears in the same principal-spoke inscription but is not secured letter by letter here.",
+        "confidence": "High name; medium physical quality association. Prose independently binds frigidus/humidus."
+      },
+      {
+        "id": "D08",
+        "position": "Lower-left, adjacent to bottom spoke",
+        "visible": "Circius",
+        "expansion": "Circius",
+        "confidence": "High"
+      },
+      {
+        "id": "D09",
+        "position": "Lower-left, adjacent to left spoke",
+        "visible": "Chorus",
+        "expansion": "Chorus",
+        "confidence": "High"
+      },
+      {
+        "id": "D10",
+        "position": "Left principal spoke",
+        "visible": "Boreas […] si[…]",
+        "expansion": "Boreas with following quality lettering, plausibly cold/dry, but the exact frigius/frigidus spelling is not independently secured.",
+        "confidence": "High name; incomplete qualities"
+      },
+      {
+        "id": "D11",
+        "position": "Upper-left, adjacent to left spoke",
+        "visible": "Aquilo",
+        "expansion": "Aquilo",
+        "confidence": "High"
+      },
+      {
+        "id": "D12",
+        "position": "Upper-left, adjacent to top spoke",
+        "visible": "Uulturnus(?)",
+        "expansion": "Vulturnus, spelling provisional.",
+        "confidence": "Medium/high"
+      }
+    ],
+    "enumeration_warning": "D01-D12 are spatial clockwise inventory identifiers only, not source-imposed temporal order.",
+    "orientation": "Inscriptions turn with their radial positions. The bottom and right readings require changing reading orientation mentally; no unique narrative starting point is marked.",
+    "connectors": "Black radial lines meet at the centre and partition named sectors. Red cardinal lines and outer scalloped segments organize portions of the circle. No unambiguous arrowhead or directed route mark observed.",
+    "agents": "No twelve drawn bodies or independent physical agents. Names, aliases and principal-spoke descriptions must be counted separately from physical agents.",
+    "quality_ownership": "Small quality wording is associated with principal spoke inscriptions, not plainly written as predicates of all three members of a sector group. Prose securely assigns hot/dry to Subsolanus and cold/moist to Favonius. The other strings and literal frigius spelling are not secured by this reader."
+  },
+  "secure_relations": [
+    {
+      "id": "R01",
+      "evidence": [
+        "P01"
+      ],
+      "type": "generation and explicit aliasing",
+      "secure_claim": "A wind arises, called Septentrio sive Boreas.",
+      "unresolved": "Antecedent of eius and complete naming explanation."
+    },
+    {
+      "id": "R02",
+      "evidence": [
+        "P02"
+      ],
+      "type": "mechanical origin",
+      "secure_claim": "Collateral winds are connected in prose with lateral allisio of reflux.",
+      "unresolved": "Full immediately preceding definition of cardinal winds."
+    },
+    {
+      "id": "R03",
+      "evidence": [
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P10"
+      ],
+      "type": "conditional flow, impact, named outcome",
+      "secure_claim": "The text repeatedly sends aquae copia versus terram, locates allisio by land and side, then says sic nascitur a named ventus.",
+      "unresolved": "Some abbreviations, exact water-branch subjects and one apparently inconsistent direction remain unread or tentative."
+    },
+    {
+      "id": "R04",
+      "evidence": [
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "type": "forceful displacement",
+      "secure_claim": "Violenter impellit/repellit language is visibly present in greater-flow alternatives.",
+      "unresolved": "Complete subject/object graph is not secured."
+    },
+    {
+      "id": "R05",
+      "evidence": [
+        "P12",
+        "P13"
+      ],
+      "type": "quality predication",
+      "secure_claim": "Subsolanus is calidus et siccus; Favonius is frigidus et humidus.",
+      "unresolved": "Full explanatory mechanism and other diagram quality strings."
+    },
+    {
+      "id": "R06",
+      "evidence": [
+        "P15"
+      ],
+      "type": "motion across regions",
+      "secure_claim": "Auster […] ad nos venit, duas pertransit zonas; the intervening ubi reading is tentative.",
+      "unresolved": "The complete surrounding coldness/temperature argument, the intervening ubi(?) and final clause."
+    }
+  ],
+  "answer_to_source_question": "Yes. Actual prose contains generation, conditional impact, forceful displacement and a named wind crossing zones. The whole page is materially richer than a list of names and paired qualities. It does not thereby establish a sequential itinerary around the circular roster, transfer of one named wind into another, or carrying qualities from one wind to the next.",
+  "limits": [
+    "At the supplied 1920-pixel native width, this reader cannot securely recover one complete conditional case containing both flow participants, comparator/substance, collision location and named result without uncertain expansions. This is a limitation of this reading, not missing folio access or proof that the source lacks such a case.",
+    "Several full phrases, minor names and quality spellings remain unresolved at this resolution. This is not a complete critical transcription.",
+    "No full directional graph should be encoded from tentative abbreviations or repaired expected compass relations.",
+    "A source-only Latin observation establishes no target meaning or translation.",
+    "The secure travel statement concerns Auster crossing zones toward us; its full temperature consequence is not recovered here.",
+    "Absence of a recovered itinerary is not a proof that every unread word lacks dynamic content."
+  ],
+  "files_written": [
+    "AO_PEER_READING.md",
+    "AO_PEER_READING.json"
+  ],
+  "finished_utc": "2026-09-29T18:08:51.067337+00:00",
+  "capacity_limit": "At the supplied 1920-pixel native width, this reader cannot securely recover one complete conditional case containing both flow participants, comparator/substance, collision location and named result without uncertain expansions. This is a limitation of this reading, not missing folio access or proof that the source lacks such a case."
+}

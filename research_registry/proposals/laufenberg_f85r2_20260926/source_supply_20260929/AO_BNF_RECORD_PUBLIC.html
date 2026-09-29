@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Consultation | Mandragore</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+		<meta name="description" content="Catalogue Mandragore">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="referrer" content="strict-origin-when-cross-origin">
+		
+		<link rel="shortcut icon" href="/resources/images/favicon.ico" type="image/x-icon">
+		
+		<link type="text/css" rel="stylesheet" href="/resources/ext/jquery-ui/css/jquery-ui.min.css">
+		
+		<!-- Liens CSS -->
+		<link type="text/css" rel="stylesheet" href="/resources/css/common/font.css">
+		<link type="text/css" rel="stylesheet" href="/resources/css/common/common.css">
+		<link type="text/css" rel="stylesheet" href="/resources/css/recherche/rechercheSimple.css">
+		<link type="text/css" rel="stylesheet" href="/resources/css/recherche/rechercheAvancee.css">
+		<link type="text/css" rel="stylesheet" href="/resources/css/common/loadingSpinner.css">
+		<link type="text/css" rel="stylesheet" href="/resources/css/consultation/consultation.css">
+		
+		<!-- JAVASCRIPTS -->
+		<script type="text/javascript" src="/resources/ext/jquery/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="/resources/ext/jquery-ui/js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="/resources/js/override/jquery-ui.js"></script>
+		<script type="text/javascript" src="/resources/js/common.js"></script>
+		<script type="text/javascript" src="/resources/js/recherche/recherche.js"></script>
+		<script type="text/javascript" src="/resources/js/recherche/rechercheAvancee.js"></script>
+		<script type="text/javascript" src="/resources/js/recherche/index.js"></script>
+		
+		<!-- Xiti : ATInternet -->
+		<script src="//tag.aticdn.net/18798/smarttag.js"></script>
+		<script type="text/javascript">
+		
+		/**
+		 * Permet de tracer un click sur Xiti
+		 * @param clickName
+		 * @param niveau1
+		 * @param niveau2
+		 * @param niveau3
+		 * @param type : par défaut "navigation"
+		 * @returns
+		 */
+		function clickXiti(elem, clickName, niveau1, niveau2, niveau3, type) {
+			
+			
+			let xitiActivated = true;
+			let level = "29";
+			
+			
+			if(clickName === undefined || clickName === null) {
+				console.log("WARNING : clickName ne doit pas être null ou undefined !");
+				return false;
+			}
+			
+			if(type === undefined || type === null) {
+				type = "navigation";
+			}
+			else if(type !== "action" && type !== "navigation") {
+				console.log("WARNING : type doit être égal à 'action' ou 'navigation' !");
+				return false;
+			}
+			
+			if(xitiActivated === true) {
+			
+				if(niveau1 !== undefined && niveau1 !== null && niveau1.length > 0) {
+					
+					let json = {
+							elem: elem,
+							name: clickName,
+							chapter1: niveau1,
+							level2: level,
+							type: type
+						};
+					
+					if(niveau2 !== undefined && niveau2 !== null && niveau2.length > 0) {
+						
+						json["chapter2"] = niveau2;
+						
+						if(niveau3 !== undefined && niveau3 !== null && niveau3.length > 0) {
+							
+							json["chapter3"] = niveau3;
+						}
+					}
+					
+					tag.click.send(json);
+				} else {
+					console.log("WARNING : xitiBase ne doit pas être null ou vide !");
+				}
+				
+			} else {
+				console.log("ATInternet desactivé");
+			}
+
+			return true;
+		}
+	</script>
+		
+		<!-- Tarte au citron -->
+		<script src="https://tarteaucitron.io/load.js?domain=mandragore.bnf.fr&amp;uuid=91ba7c974c752a888f0a2765181efcbea3a33ef9"></script>
+		<link type="text/css" rel="stylesheet" href="/resources/css/common/tarteaucitron.css">
+
+		<script type="text/javascript">
+			function ActivateOptOut() {
+				tag.privacy.setVisitorOptout();
+				tag.privacy.getVisitorMode();
+			}
+			function DesactivateOptOut() {
+				tag.privacy.setVisitorMode('cnil', 'exempt');
+				tag.privacy.getVisitorMode();
+			}
+		</script>
+	</head>
+	
+	<body>
+		<header role="banner">
+		<section>
+			<div id="titre">
+				<a id="link_bnf" href="http://www.bnf.fr" title="Accès au site de la Bibliothèque nationale de France" target="_blank">
+					<img src="/resources/images/logo-bnf.svg" alt=""/>
+				</a>
+				
+				<h1>
+					<a href="/" style="margin-left:10px;" title="Retour à l'accueil">Mandragore</a>
+				</h1>
+			</div>
+			
+			<nav id="nav-recherche" role="navigation">
+				<ul>
+					<li id="li-toggle-simple">
+						<a class="btn-toggle" href="#" onclick="event.preventDefault(),toggleSearchDiv('toggle-simple', this.parentElement);">Recherche simple</a>
+					</li>
+					
+					<li id="li-toggle-avancee">
+						<a class="btn-toggle" href="#" onclick="event.preventDefault(),toggleSearchDiv('toggle-avancee', this.parentElement);">Recherche avancée</a>
+					</li>
+					
+					<li id="li-toggle-exploration">
+						<a class="btn-toggle" href="#" onclick="event.preventDefault(),toggleSearchDiv('toggle-exploration', this.parentElement);">Exploration</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<nav id="nav-aide">
+				<ul>
+					<li><a href="/notre-histoire" id="a-histoire">Notre histoire</a></li>
+					<li><a href="/aide" id="a-aide">Aide</a></li>
+					<li style="display:none;"><a href="#" id="a-langue">FR</a></li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+		<div id="div-toggle-search" class="blurred">
+			<!-- Recherche Simple -->
+			<div id="toggle-simple" style="display:none;">
+	
+		<form role="search" class="formSimple" method="GET" action="/recherche" onsubmit="return clickXiti(this, 'Recherche simple', 'Recherche', 'Simple', null, 'action');">
+		
+			<div class="divRechercheSimple">
+			
+				<div class="inputField">
+					<input type="text"  name="text" class="rechercheSimple" placeholder=" " aria-label="Que recherchez-vous ?"
+						title="Recherche simple" autocomplete="off" />
+						
+					<span>Que recherchez-vous ?</span>
+				</div>
+				
+				<button type="submit" class="btnSubmitSimple mdgButton-dark search">
+					<span>Rechercher</span>
+				</button>
+			</div>
+			
+		</form>
+		
+		<script>
+		
+			/**
+			* Listener sur l'autocompletion
+			*/
+			$(".rechercheSimple").catcomplete({
+				delay : 400,
+				minLength: 3,
+				position: {
+					my: "left top+16"
+				},
+				source : function (request, response) {
+					
+					// On récupère la chaîne de caractère tapée dans le champ de recherche
+					let startsWith = $(this.element).val();
+					
+					// Récupération des données de l'autocomplete via Ajax
+					let data = getAutocompleteData(startsWith);
+					
+					response(data);
+				},
+				select : function(event, ui) {
+					
+					// XITI
+					clickXiti(this, 'Recherche par autocomplétion', 'Recherche', 'Simple', null, 'action');
+					
+					// Lancement d'une recherche avancée au click
+					let selected = ui.item.label;
+					let criterion = ui.item.criterion;
+					
+					rechercheFromCriterion('UD', criterion, selected);
+				}
+			});
+			
+			/**
+			*	Fonction permettant la récupération des données d'autocompletion
+			*/
+			function getAutocompleteData(startsWith) {
+			
+				var dataTab = [];
+				
+				$.ajax({
+					type: 'GET',
+					url : "/recherche/autocomplete",
+					dataType : 'json',
+					data : {
+						startsWith : startsWith
+					},
+					async: false,
+					success : function(data) {
+						
+						/**
+						* Libellés des catégories de l'autocompletion
+						*/
+						
+						const sujetLibelle = "Sujet";
+						const conceptLibelle = "Mot-cl\u00E9";
+						const cotemssLibelle = "Cote du manuscrit";
+						const titremssLibelle = "Intitul\u00E9 du manuscrit";
+						const teAuteurLibelle = "Intervenant sur le texte";
+						const teLibelle = "Texte enlumin\u00E9";
+						
+						
+						if(data != null) {
+						
+							// SUJET
+							if(data.udSujet != null && data.udSujet.length > 0) {
+								addAutocompleteToList(data.udSujet, sujetLibelle, "UD_SUJET", dataTab, startsWith);
+							}
+							
+							// CONCEPTS
+							if(data.udConcept != null && data.udConcept.length > 0) {
+								addAutocompleteToList(data.udConcept, conceptLibelle, "UD_DESCRIPTEUR", dataTab, startsWith);
+							}
+							
+							// COTE
+							if(data.udCote != null && data.udCote.length > 0) {
+								addAutocompleteToList(data.udCote, cotemssLibelle, "UD_COTE", dataTab, startsWith);
+							}
+							
+							// TITRE
+							if(data.udTitre != null && data.udTitre.length > 0) {
+								addAutocompleteToList(data.udTitre, titremssLibelle, "UD_TITRE_MSS", dataTab, startsWith);
+							}
+							
+							// AUTEUR
+							if(data.udTexteEnlumineAuteur != null && data.udTexteEnlumineAuteur.length > 0) {
+								addAutocompleteToList(data.udTexteEnlumineAuteur, teAuteurLibelle, "UD_TEXTE_ENLUMINE_AUTEUR", dataTab, startsWith);
+							}
+							
+							// TEXTE ENLUMINEE
+							if(data.udTexteEnlumine != null && data.udTexteEnlumine.length > 0) {
+								addAutocompleteToList(data.udTexteEnlumine, teLibelle, "UD_TEXTE_ENLUMINE", dataTab, startsWith);
+							}
+						}
+					}
+				});
+				
+				return dataTab
+			}
+			
+			/**
+			*	Ajoute un résultat d'autocompletion à la liste qui sera affichée.
+			*/
+			function addAutocompleteToList(datas, category, criterion, dataTab, startsWith) {
+				
+				var count = 0;
+				
+				$(datas).each(function() {
+				
+					const dataMap = {
+							clickable : true,
+							label : this.value,
+							category : category,
+							criterion : criterion,
+							inputText : startsWith
+						};
+					
+					dataTab.push(dataMap);
+					
+					count++;
+				});
+				
+				if(count === 50) {
+					const endMap = {
+							clickable : false,
+							label : "...",
+							category : category
+						};
+					
+					dataTab.push(endMap);
+				}
+			}
+
+		</script>
+		
+	</div>
+			
+			<!-- Recherche Avancée -->
+			<div id="toggle-avancee" style="display:none;">
+		<section id="forms-avancee">
+	
+			<div id="boutonsForm">
+				<h1 class="shown-creation">Que cherchez-vous ?</h1>
+				<h1 class="shown-modification">Modifier la recherche</h1>
+				<p>Ce choix modifie le questionnaire ci-dessous. Pensez-y avant de le modifier !</p>
+				
+				<div class="div-btn-forms">
+					<button id="btn-form-ud" class="choose-btn selected" onclick="showForm('form-ud', this)"
+						title="Chercher des Unités de décor" aria-label="Chercher des Unités de décor">Unité de décor</button>
+					<img id="picto-form-ud" class="picto-form selected" alt="" src="/resources/images/pictos/arrow-bottom-lite.svg"/>
+				</div>
+				
+				<div class="div-btn-forms">
+					<button id="btn-form-cd" class="choose-btn" onclick="showForm('form-cd', this)"
+						title="Chercher des Unités de création" aria-label="Chercher des Unités de création">Unité de création</button>
+					<img id="picto-form-cd" class="picto-form" alt="" src="/resources/images/pictos/arrow-bottom-lite.svg"/>
+				</div>
+			</div>
+		
+			<!-- ### FORMULAIRE UD ### -->
+			<div id="form-ud" class="divFormAvancee">
+		<h2>Paramétrez votre recherche</h2>
+		
+		<form role="search" id="formUD" onsubmit="return buildValidateAndSubmit(event, this);">
+			<input type="hidden" class="formType" name="formType" value="UD"/>
+			
+			<div class="divFormField">
+			
+				<!-- Spécifique aux UD_DAOEXIST -->
+				<div id="divDaoExist">
+					<span>Périmètre de recherche : </span>
+					<input id="udDaoExist" type="checkbox" name="UD_DAOEXIST">
+					<label for="udDaoExist">Uniquement les unités de décor numérisées</label>
+				</div>
+			
+				<div id="udFormField-1" class="formField">
+					<select class="operators" aria-label="Choisir un opérateur" title="Choisir un opérateur">
+						<option value="AND" selected>et</option>
+						<option value="OR">ou</option>
+						<option value="NOT">sauf</option>
+					</select>
+					
+					<select class="criterialist" aria-label="Choisir un critère de recherche" title="Choisir un critère de recherche"
+						onchange="changeCriterionField(this);handleBtnIndex(this);">
+						<option value="" selected>Choisir</option>
+						<option value="ALL_CRITERIA">Tous les mots</option>
+						<option value="UD_SUJET">Sujet</option>
+						<option value="UD_DESCRIPTEUR">Mot-clé</option>
+						<option value="UD_COTE">Cote</option>
+						<option value="UD_TITRE_MSS">Intitulé du manuscrit</option>
+						<option value="UD_FEUILLET">Feuillet / Page</option>
+						<option value="UD_TEXTE_ENLUMINE">Texte enluminé</option>
+						<option value="UD_TEXTE_ENLUMINE_AUTEUR">Intervenant sur le texte</option>
+						<option value="UD_CD_ARTISTE">Artiste</option>
+						<option value="UD_CD_LIEU">Lieu</option>
+						<option value="UD_CD_DATE">Date libre</option>
+						<option value="UD_CD_DATE_ALL">Date exacte</option>
+						<option value="UD_CD_DATE_YEARS">Date (intervalle)</option>
+						<option value="UD_CD_DATE_SIECLES">Siècle</option>
+						<option value="UD_TECHNIQUE">Technique</option>
+						<option value="UD_DESCRIPTION">Description du contenu</option>
+					</select>				
+					
+					<input class="field singleField" type="text" name="" aria-label="" title="" placeholder="Saisir les mots-clés"/>
+					
+					<!-- Spécifique aux UD_CD_DATE_YEARS (from to) -->
+					<input class="field doubleField fieldFrom" type="number" step="1" name=""
+						placeholder="De" aria-label="De" title="De" style="display:none;"/>
+						
+					<input class="field doubleField fieldTo" type="number" step="1" name=""
+						placeholder="à" aria-label="à" title="à" style="display:none;"/>
+					
+					<label class="exacteBoxLabel">
+						<input class="exacteBox" type="checkbox" style="margin:5px;">Expression exacte
+					</label>
+					
+					<button type="button" class="mdgButton btnIndex" onclick="displayIndex(this)">Consulter l&#39;index</button>
+					
+					<button type="button" class="mdgButton btnAideCriterion" onclick="openAideCriterion(this);"
+						title="Consulter l&#39;aide du critère sélectionné" aria-label="Consulter l&#39;aide du critère sélectionné">?</button>
+					
+					<button type="button" class="btnRm" onclick="removeField(this)" title="Supprimer ce critère de recherche" aria-label="Supprimer ce critère de recherche">
+						<img alt="Supprimer ce critère de recherche" src="/resources/images/pictos/delete.svg"/>
+					</button>
+				</div>
+				
+				<!-- Ce bouton va cloner la div précédente -->
+				<button type="button" class="mdgButton addBtn" onclick="duplicateField('formUD')">Ajouter un critère</button>
+				
+				<!-- Ce bouton va ajouter tous les critères -->
+				<a href="#" class="addAllCriteria" onclick="event.preventDefault();javascript:seeAllFields('formUD');">Ajouter tous les critères</a>
+			</div>
+			
+			<div class="div-submit-reinit">
+				<div>
+					<button class="mdgButton shown-modification cancel-btn" type="button" onclick="hideSearchDiv();">Annuler les modifications</button>
+					
+					<button type="submit" class="submit-btn mdgButton-dark shown-creation">Lancer la recherche</button>
+					<button type="submit" class="maj-btn mdgButton-dark shown-modification">Mettre à jour la recherche</button>
+				</div>
+				
+				<a href="#" class="reinit-btn" type="reset" onclick="resetFields('formUD');">Réinitialiser</a>
+			</div>
+		</form>
+	</div>
+			
+			<!-- ### FORMULAIRE CD ### -->
+			<div id="form-cd" class="divFormAvancee">
+		<h2>Paramétrez votre recherche</h2>
+		
+		<form role="search" id="formCD" onsubmit="return buildValidateAndSubmit(event, this);">
+			<input type="hidden" class="formType" name="formType" value="CD"/>
+			
+			<div class="divFormField">
+				<div id="cdFormField-1" class="formField">
+					<select class="form-field operators" aria-label="Choisir un opérateur" title="Choisir un opérateur">
+						<option value="AND" selected>et</option>
+						<option value="OR">ou</option>
+						<option value="NOT">sauf</option>
+					</select>
+					
+					<select class="form-field criterialist" aria-label="Choisir un critère de recherche" title="Choisir un critère de recherche"
+						onchange="changeCriterionField(this);handleBtnIndex(this);">
+						<option value="" selected>Choisir</option>
+						<option value="ALL_CRITERIA">Tous les mots</option>
+						<option value="CD_COTE">Cote du manuscrit</option>
+						<option value="CD_TITRE_MSS">Intitulé du manuscrit</option>
+						<option value="CD_ARTISTE">Artiste</option>
+						<option value="CD_LIEU">Lieu</option>
+						<option value="CD_DATE">Date libre</option>
+						<option value="CD_DATE_ALL">Date exacte</option>
+						<option value="CD_DATE_YEARS">Date (intervalle)</option>
+						<option value="CD_DATE_SIECLES">Siècle</option>
+						<option value="CD_TEXTE_ENLUMINE">Texte enluminé</option>
+						<option value="CD_TEXTE_ENLUMINE_AUTEUR">Intervenant sur le texte</option>
+					</select>
+					
+					<input class="field singleField" type="text" name="" aria-label="" title="" placeholder="Saisir les mots-clés"/>
+					
+					<!-- Spécifique aux CD_DATE_YEARS (from to) -->
+					<input class="field doubleField fieldFrom" type="number" step="1" name=""
+						placeholder="De" aria-label="De" title="De" style="display:none;"/>
+						
+					<input class="field doubleField fieldTo" type="number" step="1" name=""
+						placeholder="à" aria-label="à" title="à" style="display:none;"/>
+					
+					<label class="exacteBoxLabel">
+						<input class="exacteBox" type="checkbox" style="margin:5px;">Expression exacte
+					</label>
+					
+					<button type="button" class="mdgButton btnIndex" onclick="displayIndex(this)">Consulter l&#39;index</button>
+					
+					<button type="button" class="mdgButton btnAideCriterion" onclick="openAideCriterion(this);"
+						title="Consulter l&#39;aide du critère sélectionné" aria-label="Consulter l&#39;aide du critère sélectionné">?</button>
+					
+					<button type="button" class="btnRm" onclick="removeField(this)" title="Supprimer ce critère de recherche" aria-label="Supprimer ce critère de recherche">
+						<img alt="Supprimer ce critère de recherche" src="/resources/images/pictos/delete.svg"/>
+					</button>
+				</div>
+				
+				<!-- Ce bouton va cloner la div précédente -->
+				<button type="button" class="mdgButton addBtn" onclick="duplicateField('formCD')">Ajouter un critère</button>
+				
+				<!-- Ce bouton va ajouter tous les critères -->
+				<a href="#" class="addAllCriteria" onclick="event.preventDefault();javascript:seeAllFields('formCD');">Ajouter tous les critères</a>
+			</div>
+			
+			<div class="div-submit-reinit">
+				<div>
+					<button class="mdgButton shown-modification cancel-btn" type="button" onclick="hideSearchDiv();">Annuler les modifications</button>
+					
+					<button type="submit" class="submit-btn mdgButton-dark shown-creation">Lancer la recherche</button>
+					<button type="submit" class="maj-btn mdgButton-dark shown-modification">Mettre à jour la recherche</button>
+				</div>
+				
+				<a href="#" class="reinit-btn" type="reset" onclick="resetFields('formCD');">Réinitialiser</a>
+			</div>
+		</form>
+	</div>
+		</section>
+		
+		<!-- ### BLOC INDEX / AIDE ### -->
+		<section id="aide-index">
+			<section id="aide">
+	
+		<button id="btn-close-aide" type="button" style="display:none;" onclick="hideAideCriterion();"
+			title="Fermer l&#39;aide" aria-label="Fermer l&#39;aide">
+			<img alt="Fermer l&#39;aide" src="/resources/images/pictos/cross_white.svg"/>
+		</button>
+	
+		<h1>Aide</h1>
+		
+		<div id="aide-gen">
+			<h2>Bienvenue dans la recherche avancée</h2>
+			<p>Commencez par choisir le type de notice recherché : unité de décor ou unité de création (voir ci-dessous). Sélectionnez ensuite les critères de recherche souhaités ou utilisez l'option « Ajouter tous les critères ». Cliquez sur le point d'interrogation en face de chaque critère pour obtenir davantage d'informations et n'hésitez pas à utiliser les index. Les opérateurs de troncature (*) et d'expression exacte (guillemets) peuvent également être utilisés. Un bouton en bas de formulaire vous permet de lancer ou de réinitialiser votre recherche.</p>
+			
+			<h2>Qu&#39;est-ce qu&#39;une unité de décor ?</h2>
+			<p>Chaque enluminure, dessin, schéma, sceau, décor de reliure, voire chaque partie d'une composition, constitue une unité de décor. Les unités de décor sont caractérisées par leur sujet et indexées par des mots-clés et, le cas échéant, localisées sur la page du manuscrit enluminé.</p>
+			<p>La recherche simple et l'exploration renvoient par défaut une liste d'unités de décor.</p>
+			
+			<h2>Qu&#39;est-ce qu&#39;une unité de création ?</h2>
+			<p>On appelle unité de création l'ensemble des interventions d'un même artiste à une même date en un même lieu sur un manuscrit ou une oeuvre donnés.</p>
+			<p>Un manuscrit peut être composé de plusieurs unités de création, par exemple lorsque plusieurs artistes se sont partagé l'exécution des enluminures ou lorsqu'un décor a été repris ou enrichi plusieurs années après sa réalisation.</p>
+			<p>Une unité de création peut couvrir plusieurs textes d'un même manuscrit.</p>			
+		</div>
+		
+		<div class="aide-criterion UD_DESCRIPTEUR" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;un mot-clé ?</h2>
+			<p>La plupart des unités de décor sont indexées par des mots-clés (appelés descripteurs dans la précédente version de Mandragore), qui identifient tout objet, personnage, lieu, concept, etc., visible sur l'image.</p>
+			<p>Ce vocabulaire d'indexation est propre à Mandragore ; il est possible de le parcourir en utilisant l'exploration par mot-clé.</p>
+			<p>Seules certaines unités de décor de nature ornementale (initiale ornée, bordures végétalisées…) ne sont indexées par aucun mot-clé.</p>
+			<p>Attention, les formes rejetées et les traductions des mots-clés ne sont pas encore utilisables dans la recherche avancée ; il est possible de les interroger depuis l'exploration par mot-clé.</p>
+			<p>Exemples de mots-clés :</p>
+			<ul>
+				<li>cadran solaire</li>
+				<li>obélisque</li>
+				<li>acrobate</li>
+				<li>Périclès</li>
+				<li>Édimbourg</li>
+				<li>crépuscule</li>
+				<li>trigonométrie</li>
+				<li>Hégire</li>
+				<li>armée</li>
+				<li>épidémie</li>
+				<li>marée</li>
+				<li>tamgha</li>
+				<li>calligramme</li>
+			</ul>
+		</div>
+		
+		<div class="aide-criterion UD_SUJET" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;un sujet ?</h2>
+			<p>Le sujet (appelé légende dans la précédente version de Mandragore) d'une unité de décor correspond à la scène principale représentée.</p>
+			<p>La formulation du sujet est normalisée : il est fortement recommandé d'en consulter l'index (également accessible depuis l'exploration par sujet).</p>
+			<p>Certains sujets sont regroupés par thème (flore, astronomie, liturgie…) ou en fonction du texte qu'ils illustrent (passage biblique, Enfer de Dante, fable...).</p>
+			<p>Le référentiel des sujets est en cours de révision et sera prochainement mis à jour.</p>
+			<p>Exemples de sujets :</p>
+			<ul>
+				<li>Saint Georges terrassant le dragon</li>
+				<li>Flore : asperge</li>
+				<li>Égypte, Saqqara : pyramide de Djoser</li>
+				<li>Kabbale : arbre des sefirot</li>
+				<li>Enfer de Dante : premier cercle</li>
+				<li>Shiva et Parvati au sommet de l'Himalaya</li>
+			</ul>
+		</div>
+		
+		<div class="aide-criterion UD_FEUILLET" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;un/une feuillet/page ?</h2>
+			<p>Il est possible de rechercher les unités de décor présentes sur un feuillet (ou page) numéroté précis d'un manuscrit. Ce critère est généralement à croiser avec la cote ou l'intitulé du manuscrit.</p>
+			<p>Les numéros de feuillets sont précédés de « f. » et suffixés de « r » (recto) ou « v » (verso). Les numéros de pages sont précédés de « p. ». D'autres numérotations existent : fragments, pièces, rouleaux, sceaux…</p>
+			<p>Exemples de feuillets / pages :</p>
+			<ul>
+				<li>f. 1r</li>
+				<li>p. 102</li>
+				<li>f. 15v-16r</li>
+				<li>f. 297bis v</li>
+				<li>f. [II]r</li>
+				<li>contreplat sup.</li>
+				<li>fragm. 31h</li>
+				<li>rouleau 3</li>
+				<li>bulle avers</li>
+				</ul>
+		</div>
+		
+		<div class="aide-criterion UD_TECHNIQUE" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;une technique ?</h2>
+			<p>Certaines notices d'unités de décor donnent une indication de technique ou de matériau. En 2022, seuls les décors de reliure et de sceaux ont été traités de façon quasi-systématique.</p>
+			<p>Le travail de signalement des autres types de techniques est amené à se poursuivre dans les années à venir.</p>
+			<p>Exemples de techniques :</p>
+			<ul>
+				<li>bulle</li>
+				<li>peinture sur bois</li>
+				<li>reliure (brodée)</li>
+				<li>reliure (estampage)</li>
+				<li>reliure (orfèvrerie)</li>
+			</ul>
+		</div>
+		
+		<div class="aide-criterion UD_DESCRIPTION" style="display:none;">
+			<h2>Qu&#39;est-ce que la description d&#39;un contenu ?</h2>
+			<p>Les notices des unités de décor peuvent contenir des éléments de contexte (mise en page, par exemple « pleine page », « vignette », « initiale », « page tapis »…), la rubrique du chapitre enluminé, les inscriptions textuelles lisibles sur l'unité de décor, par exemple sous forme de phylactères, ainsi que d'éventuelles notes historiographiques ou bibliographiques.</p>
+			<p>L'ensemble de ces éléments est interrogeable en plein texte avec le critère « description du contenu ». Il est recommandé d'utiliser les opérateurs de troncature (*) et d'expression exacte (guillemets).</p>
+		</div>
+		
+		<div class="aide-criterion CD_COTE UD_COTE" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;une cote ?</h2>
+			<p>Il est possible de rechercher l'ensemble des unités de décor ou des unités de création d'un manuscrit à partir de la cote de celui-ci.</p>
+			<p>La forme de référence de la cote, qui constitue l'identifiant d'un manuscrit, est celle utilisée dans le catalogue BnF Archives et Manuscrits.</p>
+			<p>Dans le cas d'un manuscrit composite, les différentes unités codicologiques peuvent être décrites séparément ; il est alors possible de faire une recherche sur une seule d'entre elles en précisant sa foliotation (l'utilisation de l'index est recommandée).</p>
+			<p>Il est également possible de parcourir fonds par fonds l'ensemble des manuscrits décrits dans Mandragore en utilisant l'exploration par cote.</p>
+			<p>Exemples de cotes :</p>
+			<ul>
+				<li>Latin 1</li>
+				<li>Ethiopien d'Abbadie 55</li>
+				<li>NAF 20437, 22-XVI-1, fol. 1</li>
+				<li>Syriaque 382, f. 6-1, 7-8</li>
+			</ul>
+		</div>
+		
+		<div class="aide-criterion CD_TITRE_MSS UD_TITRE_MSS" style="display:none;">
+			<h2>Qu&#39;est-ce que l&#39;intitulé du manuscrit ?</h2>
+			<p>Certains manuscrits exceptionnels sont connus par un intitulé (appelé titre d'usage dans la précédente version de Mandragore). Il est possible de rechercher l'ensemble des unités de décor ou des unités de création de ces manuscrits à partir de leur intitulé ; l'utilisation de l'index pour vérifier la forme est recommandée.</p>
+			<p>Attention, tous les manuscrits ne disposent pas d'un intitulé.</p>
+			<p>Exemples d'intitulés de manuscrits :</p>
+			<ul>
+				<li>Antiphonaire de Charles le Chauve</li>
+				<li>Atlas catalan</li>
+				<li>Livre des morts</li>
+				<li>Mapa Tlotzin</li>
+			</ul>
+		</div>
+		
+		<div class="aide-criterion CD_TEXTE_ENLUMINE_AUTEUR UD_TEXTE_ENLUMINE_AUTEUR" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;un intervenant sur un texte ?</h2>
+			<p>Chaque manuscrit est composé d'un ou de plusieurs textes, qui peuvent ou non être enluminés ou non. Chaque unité de décor est associée au texte au sein duquel elle prend place dans un manuscrit donné. Une unité de création peut couvrir un ou plusieurs textes d'un même manuscrit.</p>
+			<p>Deux critères permettent d'interroger les textes enluminés.</p>
+			<p>Le critère « texte enluminé » porte précisément sur l'intitulé de chaque texte, normalisé sous la forme « Auteur, titre, traducteur », dans la langue du texte. Il est recommandé d'utiliser l'index associé.</p>
+			<p>Le critère « intervenant sur le texte » permet de rechercher spécifiquement des auteurs et/ou traducteurs et d'afficher les unités de décor ou les unités de création associées aux manuscrits de leurs différentes œuvres. La forme du nom est rédigée dans la langue d'écriture de l'auteur ou du traducteur.</p>
+			<p>Exemples de textes enluminés :</p>
+			<ul>
+				<li>Guillaume de Machaut, Remède de Fortune</li>
+				<li>Henricus Suso, Horologium sapientiae</li>
+				<li>Haut livre du Graal</li>
+				<li>Al-Madjûsî, Kitâb al-Malakî, trad. Constantin l'Africain</li>
+				<li>Sûfî (al-), Kitâb suwar al-kawâkib al-thâbita, traduction anonyme abrégée</li>
+				<li>Mélanges de géométrie</li>
+			</ul>
+		</div>
+		
+		<div class="aide-criterion CD_TEXTE_ENLUMINE UD_TEXTE_ENLUMINE" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;un texte enluminé ?</h2>
+			<p>Chaque manuscrit est composé d'un ou de plusieurs textes, qui peuvent ou non être enluminés ou non. Chaque unité de décor est associée au texte au sein duquel elle prend place dans un manuscrit donné. Une unité de création peut couvrir un ou plusieurs textes d'un même manuscrit.</p>
+			<p>Deux critères permettent d'interroger les textes enluminés.</p>
+			<p>Le critère « texte enluminé » porte précisément sur l'intitulé de chaque texte, normalisé sous la forme « Auteur, titre, traducteur », dans la langue du texte. Il est recommandé d'utiliser l'index associé.</p>
+			<p>Le critère « intervenant sur le texte » permet de rechercher spécifiquement des auteurs et/ou traducteurs et d'afficher les unités de décor ou les unités de création associées aux manuscrits de leurs différentes œuvres. La forme du nom est rédigée dans la langue d'écriture de l'auteur ou du traducteur.</p>
+			<p>Exemple de textes enluminés :</p>
+			<ul>
+				<li>Guillaume de Machaut, Remède de Fortune</li>
+				<li>Henricus Suso, Horologium sapientiae</li>
+				<li>Haut livre du Graal</li>
+				<li>Al-Madjûsî, Kitâb al-Malakî, trad. Constantin l'Africain</li>
+				<li>Sûfî (al-), Kitâb suwar al-kawâkib al-thâbita, traduction anonyme abrégée</li>
+				<li>Mélanges de géométrie</li>
+			</ul>
+		</div>
+		
+		<div class="aide-criterion CD_ARTISTE UD_CD_ARTISTE" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;un artiste ?</h2>
+			<p>Il est possible de rechercher des unités de décor et des unités de création par artiste identifié (ou présumé). Il est conseillé d'utiliser l'index.</p>
+			<p>Chaque unité de création (et les unités de décor qui lui sont associées) peut avoir un ou plusieurs artistes, parfois identifiés par un nom de convention, ou seulement comme « atelier » ou « collaborateurs » d'un artiste connu. Elle peut aussi n'être associée qu'à un « artiste non identifié ».</p>
+			<p>Exemples d'artistes :</p>
+			<ul>
+				<li>groupe Liuthard</li>
+				<li>Frères de Limbourg</li>
+				<li>Jean Fouquet (atelier)</li>
+				<li>Mahmûd Muzahhib et collaborateurs</li>
+			</ul>
+		</div>
+		
+		<div class="aide-criterion CD_LIEU UD_CD_LIEU" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;un lieu ?</h2>
+			<p>Il est possible de rechercher des unités de décor et des unités de création par lieu de décor.</p>
+			<p>Une unité de création est associée au lieu le plus précis possible (par exemple, selon le cas : « Angers, Saint-Aubin (France) » ; « Angers (France) » ; « France (Ouest) » ; « France »), voire à plusieurs lieux lorsque la localisation précise est incertaine (par exemple : « France ou Angleterre »). Lorsque la localisation s'avère impossible, le lieu est donné comme « Origine inconnue ».</p>
+			<p>Attention, la recherche ne porte que sur l'expression exacte. Par exemple, une recherche formulée « France (Ouest) » ne renverra pas les unités de création rattachées à une localisation plus précise, comme « Angers (France) » ou « Bretagne ».</p>
+			<p>Il est conseillé d'utiliser l'index et/ou de recourir à la troncature (*).</p>
+		</div>
+		
+		<div class="aide-criterion CD_DATE_YEARS UD_CD_DATE_YEARS" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;une date par intervalle ?</h2>
+			<p>Il est possible de rechercher des unités de décor et des unités de création en fonction de la datation du décor. Plusieurs critères de recherche sont proposés : date libre (en toutes lettres), date exacte (année), intervalle de dates, ou siècles.</p>
+			<p>Les dates sont exprimées selon le calendrier grégorien proleptique ; les années antérieures à l'ère commune doivent être précédées du signe négatif (par exemple : -751).</p>
+		</div>
+		
+		<div class="aide-criterion CD_DATE_ALL UD_CD_DATE_ALL" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;une date exacte ?</h2>
+			<p>Il est possible de rechercher des unités de décor et des unités de création en fonction de la datation du décor. Plusieurs critères de recherche sont proposés : date libre (en toutes lettres), date exacte (année), intervalle de dates, ou siècles.</p>
+			<p>Les dates sont exprimées selon le calendrier grégorien proleptique ; les années antérieures à l'ère commune doivent être précédées du signe négatif (par exemple : -751).</p>
+		</div>
+		
+		<div class="aide-criterion CD_DATE_SIECLES UD_CD_DATE_SIECLES" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;une date par siècle ?</h2>
+			<p>Il est possible de rechercher des unités de décor et des unités de création en fonction de la datation du décor. Plusieurs critères de recherche sont proposés : date libre (en toutes lettres), date exacte (année), intervalle de dates, ou siècles.</p>
+			<p>Les dates sont exprimées selon le calendrier grégorien proleptique ; les années antérieures à l'ère commune doivent être précédées du signe négatif (par exemple : -751).</p>
+		</div>
+		
+		<div class="aide-criterion CD_DATE UD_CD_DATE" style="display:none;">
+			<h2>Qu&#39;est-ce qu&#39;une date libre ?</h2>
+			<p>Il est possible de rechercher des unités de décor et des unités de création en fonction de la datation du décor. Plusieurs critères de recherche sont proposés : date libre (en toutes lettres), date exacte (année), intervalle de dates, ou siècles.</p>
+			<p>Les dates sont exprimées selon le calendrier grégorien proleptique ; les années antérieures à l'ère commune doivent être précédées du signe négatif (par exemple : -751).</p>
+		</div>
+		
+	</section>
+			
+			<section id="index">
+		<div id="popupIndex">
+			<button id="btn-close-index" type="button" onclick="hideIndex();"
+				title="Fermer l&#39;index" aria-label="Fermer l&#39;index">
+				<img alt="Fermer l&#39;index" src="/resources/images/pictos/cross_white.svg"/>
+			</button>
+		
+			<h1>Index "<span class='indexTitre'></span>"</h1>
+			
+			<p>
+				Sélectionner une ou plusieurs entrée(s) dans la liste ci-dessous
+			</p>
+			
+			<form id="indexFilter" onsubmit="event.preventDefault();return refillIndex(this);">
+				<input type="text" name="filter" placeholder="Filtrer l&#39;index"
+					title="Filtrer index" aria-label="Filtrer index"/>
+				
+				<button type="submit" title="Filtrer l&#39;index" aria-label="Filtrer l&#39;index">
+					<img alt="Filtrer l&#39;index" src="/resources/images/pictos/loupe.svg"/>
+				</button>
+			</form>
+			
+			<div id="div-listIndexBox">
+				<table id="listIndexBox" role="presentation"></table>
+				
+				<div id="loadingIndex" class="spinner">
+					<div class="rect1"></div>
+					<div class="rect2"></div>
+					<div class="rect3"></div>
+					<div class="rect4"></div>
+					<div class="rect5"></div>
+					<span>Chargement en cours ...</span>
+				</div>
+				
+				<script type="text/javascript">
+					/**
+					* Ouvre la roue de chargement
+					*/
+					function showIndexLoadingSpinner() {
+						$('#loadingIndex').show();
+					}
+					
+					/**
+					* Ferme la roue de chargement
+					*/
+					function hideIndexLoadingSpinner() {
+						$('#loadingIndex').hide();
+					}
+				</script>
+			</div>
+			
+			<button id="btn-validate-index" type="button" onclick="indexToFormField();">Ajouter la sélection</button>
+			
+			<input type="hidden" id="currentDivId" value="" />
+			<input type="hidden" id="currentCriterion" value="" />
+		</div>
+	</section>
+		</section>
+		
+		<script>
+		
+			function alertErrorMessage() {
+				
+				const errorMessage = "Requ\u00EAte incompl\u00E8te : veuillez choisir un crit\u00E8re de recherche pour chaque champ du formulaire !"
+				
+				alert(errorMessage);
+			}
+			
+		</script>
+	</div>
+			
+			<!-- Exploration -->
+			<div id="toggle-exploration" style="display:none;">
+				<span>Par : </span>
+				<a href="/exploration/cote" class="mdgButton">Cote</a>
+				<a href="/exploration/sujet" class="mdgButton">Sujet</a>
+				<a href="/exploration/concept" class="mdgButton">Mot-clé</a>
+			</div>
+		</div>
+		
+		<main role="main">
+		
+			
+	
+			<section id="consultation">
+			
+				<section id="consult-infos">
+				
+					
+		
+		<section id="consult-titre">
+			<h1>f. 26r, Rose des vents</h1>
+			
+			<span id="consult-type" class="dark">Unité de décor</span>
+		</section>
+		
+		
+		
+		
+		
+	
+					
+					
+		
+		<section id="consult-links">
+		
+			<section id="links-ark-and-share">
+				
+					
+						<span id="ark">ark:/12148/cgfbt74042j</span>
+					
+				
+				
+				<button id="consult-links-share" onclick="togglePartage();">Partager</button>
+				<img class="fond" alt="" src="/resources/images/pictos/share.svg"/>
+			</section>
+			
+			<section id="links-search">
+				
+				
+				
+			</section>
+			
+			<div id="bloc-share">
+				<div id="bloc-share-entete">
+					<h2>Partager</h2>
+					
+					<button type="button" onclick="togglePartage();" title="Fermer le partage" aria-label="Fermer le partage">
+						<img class="fond" alt="Fermer le partage" src="/resources/images/pictos/cross_gold_2.svg"/>
+					</button>
+				</div>
+			
+				<div id="bloc-share-links">
+					<a type="button" href='javascript:shareOnTwitter()'
+							title="Partager sur Twitter" aria-label="Partager sur Twitter">
+						<img class="fond" alt="Partager sur Twitter" src="/resources/images/consultation/twitter.png"/>
+						<span>Twitter</span>
+					</a>
+					
+					<a type="button" href='javascript:shareOnFacebook()'
+							title="Partager sur Facebook" aria-label="Partager sur Facebook">
+						<img class="fond" alt="Partager sur Facebook" src="/resources/images/consultation/facebook.png"/>
+						<span>Facebook</span>
+					</a>
+					
+					<a type="button" href='javascript:shareOnPinterest()'
+							title="Partager sur Pinterest" aria-label="Partager sur Pinterest">
+						<img class="fond" alt="Partager sur Pinterest" src="/resources/images/consultation/pinterest.png"/>
+						<span>Pinterest</span>
+					</a>
+					
+<!-- 					<a type="button" href='javascript:shareOnInstagram()' -->
+<!-- 							th:title="|#{mdg.consult.share.on} Instagram|" th:aria-label="|#{mdg.consult.share.on} Instagram|"> -->
+<!-- 						<img class="fond" th:alt="|#{mdg.consult.share.on} Instagram|" th:src="@{/resources/images/consultation/instagram.png}"/> -->
+<!-- 						<span>Instagram</span> -->
+<!-- 					</a> -->
+					
+					<a type="button" href='javascript:shareOnMail("mailto:?body=")'
+							title="Partager sur Email" aria-label="Partager sur Email">
+						<img class="fond" alt="Partager sur Email" src="/resources/images/consultation/email.png"/>
+						<span>Email</span>
+					</a>
+					
+				</div>
+			</div>
+			
+			<div id="consult-links-border-bot"></div>
+		</section>
+		
+	
+					
+					<section id="consult-info-listes">
+		
+		
+			<!-- ### Unité de Décor ### -->
+		
+			<ul class="info-liste bordered">
+				
+					<li>
+						<h2>Manuscrit</h2>&nbsp;:&nbsp;
+						<a href="#" title="Lancer une nouvelle recherche" aria-label="Lancer une nouvelle recherche"
+							onclick="javascript:event.preventDefault(),rechercheFromCriterion(&#39;UD&#39;, &#39;UD_COTE&#39;, &#39;Latin 18499&#39;)">
+							Latin 18499
+							
+							
+						</a>
+						</li>
+				
+				
+				
+					<li>
+						<h2>Unité de création</h2>&nbsp;:&nbsp;
+						<a href="/mdgcd2615" title="Consulter la notice" aria-label="Consulter la notice" target="_blank">
+							
+							Latin 18499
+							
+							
+								-&nbsp;Artiste non identifié
+								
+								
+							
+							
+							
+								-&nbsp;Italie
+								
+								
+							
+							
+							
+								-&nbsp;XIIIe siècle
+							
+						</a>
+					</li>
+				
+				
+				
+					<li>
+						<h2>Texte enluminé</h2>&nbsp;:&nbsp;
+						<a href="#" title="Lancer une nouvelle recherche" aria-label="Lancer une nouvelle recherche"
+							onclick="javascript:event.preventDefault(),rechercheFromCriterion(&#39;UD&#39;, &#39;UD_TEXTE_ENLUMINE&#39;, &#39;Maurus Salernitanus, Glosulae isagoges johannitii&#39;)">
+							Maurus Salernitanus, Glosulae isagoges johannitii</a>
+					</li>
+				
+			</ul>
+				
+			<ul class="info-liste bordered">
+				
+					<li>
+						<h2>Feuillet / Page</h2>&nbsp;:&nbsp;
+						<span>f. 26r</span>
+					</li>
+				
+				
+				
+					<li>
+						<h2>Sujet</h2>&nbsp;:&nbsp;
+						<span>Rose des vents</span>
+					</li>
+				
+			</ul>
+				
+			<ul class="info-liste">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					<li>
+						<h2>Inscription</h2>&nbsp;:&nbsp;
+						<span>oriens - meridies - occidens - septentrio / subsolanus calidus siccus - eurus - nothus - auster calidus humidus - affricus - zephirus // favonius frigidus humidus - cirtius - chorus - boreas frigius siccus - aquilo - vulturnus</span>
+					</li>
+				
+				
+				
+			</ul>
+		
+		
+		
+		
+		
+		
+	</section>
+					
+					
+						<section id="consult-concept">
+							
+							<div class="consult-title-div">
+								<img alt="" id="feuille-gold" src="/resources/images/common/feuille_gold.svg" />
+								<h2><span class="main-title">Mots-clés</span>&nbsp;de l&#39;image</h2>
+								<span class="gold-dot"></span>&nbsp;
+								<span id="concept-count">2&nbsp;Mots-clés</span>
+							</div>
+							
+							<ul id="consult-concept-liste">
+								
+								<li>
+									
+									
+									<button class="mdgButton" onclick="javascript:rechercheFromCriterion(&#39;UD&#39;, &#39;UD_DESCRIPTEUR&#39;, &#39;rose des vents&#39;)"
+										title="Lancer une nouvelle recherche" aria-label="Lancer une nouvelle recherche">rose des vents</button>
+								</li>
+								
+								<li>
+									
+									
+									<button class="mdgButton" onclick="javascript:rechercheFromCriterion(&#39;UD&#39;, &#39;UD_DESCRIPTEUR&#39;, &#39;schéma&#39;)"
+										title="Lancer une nouvelle recherche" aria-label="Lancer une nouvelle recherche">schéma</button>
+								</li>
+							</ul>
+						</section>
+					
+				</section>
+				
+				
+					<section id="consult-zoneDao">
+						
+							<div id="consult-zoneDao-divImg">
+								<a href="https://mandragore.bnf.fr/mirador/ark:/12148/btv1b8101039h/f2" onclick="clickXiti(this, 'Mirador consultation image', 'Mirador', 'Simple', null, 'navigation');"
+										title="Ouvrir dans Mirador (nouvelle fenêtre)" aria-label="Ouvrir dans Mirador (nouvelle fenêtre)" target="_blank">
+									<img alt="Ouvrir dans Mirador (nouvelle fenêtre)" src="/iiif/ark:/12148/btv1b8101039h/f2.highres"/>
+								</a>
+							</div>
+							
+							<a id="btnMirador" class="mdgButton" href="https://mandragore.bnf.fr/mirador/ark:/12148/btv1b8101039h/f2"
+									onclick="clickXiti(this, 'Mirador consultation bouton', 'Mirador', 'Simple', null, 'navigation');" target="_blank">Ouvrir dans Mirador</a>
+						
+						
+						
+					</section>
+				
+			</section>
+			
+		</main>
+	
+		<div>
+			<div id="loadingDiv" class="spinner">
+				<div class="rect1"></div>
+				<div class="rect2"></div>
+				<div class="rect3"></div>
+				<div class="rect4"></div>
+				<div class="rect5"></div>
+				<span>Chargement en cours ...</span>
+			</div>
+			
+			<script type="text/javascript">
+				/**
+				* Ouvre la roue de chargement
+				*/
+				function showLoadingSpinner() {
+					$('#loadingDiv').show();
+				}
+				
+				/**
+				* Ferme la roue de chargement
+				*/
+				function hideLoadingSpinner() {
+					$('#loadingDiv').hide();
+				}
+			</script>
+		</div>
+		<footer role="contentinfo">
+		<section>
+			
+			
+			<nav id="footer-nav">
+				<ul>
+					<li><a href="/plan-du-site">Plan du site</a></li>
+					<li><a href="/accessibilite">Accessibilité : partiellement conforme</a></li>
+					<li><a href="/mentions-legales">Mentions légales</a></li>
+					<li><a href="/confidentialite">Politique de confidentialité</a></li>
+					<li><a href="/cgu">Conditions générales d&#39;utilisation</a></li>
+				</ul>
+				
+				<div>
+					<span>Version 1.4.0</span>
+				</div>
+			</nav>
+		</section>
+	</footer>
+		
+		<!-- JAVASCRIPTS -->
+		<script>
+			/**
+			 * Permet de relancer une recherche au click sur entrée
+			 */
+			function changePaginationOnInput(event, index) {
+				
+				var listConsultation = null;
+				
+				// Seulement quand on appuye sur la touche "entrée"
+				if(event.keyCode == 13) {
+					window.open("/" + listConsultation[index], "_self");
+					return false;
+				}
+			}
+			
+			/**
+			*	Afficher ou cache le bloc de partage
+			*/
+			function togglePartage() {
+				$("#bloc-share").toggle();
+			}
+			
+			/**
+			* Permet de lancer une recherche avancée sur les UD depuis la consultation d'un CD.
+			*/
+			function rebondCDtoUD(cdCote, cdArtiste, cdLieu, cdDate) {
+				
+				let criteriaArray = [];
+				
+				if(cdCote !== null && cdCote !== "") {
+					criteriaArray.push(["UD_COTE", cdCote, "AND"]);
+				}
+				
+				if(cdArtiste !== null && cdArtiste !== "") {
+					criteriaArray.push(["UD_CD_ARTISTE", cdArtiste, "AND"]);
+				}
+				
+				if(cdLieu !== null && cdLieu !== "") {
+					criteriaArray.push(["UD_CD_LIEU", cdLieu, "AND"]);
+				}
+				
+				if(cdDate !== null && cdDate !== "") {
+					criteriaArray.push(["UD_CD_DATE", cdDate, "AND"]);
+				}
+				
+				rechercheFromCriteria("UD", criteriaArray)
+			}
+			
+			function rechercheUdFromConceptLies() {
+				
+				const conceptLibelle = null;
+				const relationList = null;
+				var criteriaArray = [];
+				
+				if(relationList !== undefined && relationList !== null && relationList.length > 0) {
+					
+					criteriaArray.push(["UD_DESCRIPTEUR", conceptLibelle, "OR"]);
+					
+					$(relationList).each(function() {
+						criteriaArray.push(["UD_DESCRIPTEUR", this.libelle, "OR"]);
+					});
+					
+					rechercheFromCriteria("UD", criteriaArray)
+				}
+			}
+			
+			/**
+			*	Permet de partager sur un reseau via l'URL 'urlReseau'
+			*/
+			function shareOnTwitter() {
+				
+				const actualUrl = window.location.href;
+				const title = $("#consult-titre h1").text();
+				
+				const urlReseau = "https://twitter.com/intent/tweet?";
+				const toSend = "text=" + title + "&url=" + actualUrl;
+				
+				window.open(urlReseau + toSend, "_blank");
+			}
+			
+			function shareOnFacebook() {
+				
+				const actualUrl = window.location.href;
+				const title = $("#consult-titre h1").text();
+				
+				const urlReseau = "https://www.facebook.com/sharer.php?";
+				const toSend = "u=" + actualUrl + "&quote=" + title;
+				
+				window.open(urlReseau + toSend, "_blank");
+			}
+			
+			function shareOnPinterest() {
+				
+				const actualUrl = window.location.href;
+				const title = $("#consult-titre h1").text();
+				
+				const urlReseau = "https://pinterest.com/pin/create/button?";
+				const toSend = "url=" + actualUrl + "&description=" + title;
+				
+				window.open(urlReseau + toSend, "_blank");
+			}
+			
+// 			function shareOnInstagram() {
+				
+// 				const actualUrl = window.location.href;
+// 				const title = $("#consult-titre h1").text();
+				
+// 				const urlReseau = "https://www.instagram.com/accounts/login/?next=";
+// 				const toSend = ;
+				
+// 				window.open(urlReseau + toSend, "_blank");
+// 			}
+			
+			function shareOnMail() {
+				
+				const actualUrl = window.location.href;
+				const title = $("#consult-titre h1").text();
+				
+				const urlReseau = "mailto:?";
+				const toSend = "body=" + title + " : " + actualUrl;
+				
+				window.open(urlReseau + toSend, "_blank");
+			}
+			
+		</script>
+		
+		<!-- JAVASCRIPT XITI -->
+		<script type="text/javascript">
+		
+		function whenAvailable(name, callback) {
+			var interval = 10; // ms
+			window.setTimeout(function() {
+				if (window[name]) {
+					callback(window[name]);
+				} else {
+					whenAvailable(name, callback);
+				}
+			}, interval);
+		}
+
+		whenAvailable("tarteaucitron", function(t) {
+			
+			
+			let pageName = "Notice::UD";
+			let xitiActivated = true;
+			let level = "29";
+			
+			
+			if (xitiActivated === true) {
+				
+				tarteaucitron.reloadThePage=true;
+				tarteaucitron.user.atinternetSendData=false;
+				tarteaucitron.user.atMore = function () {
+					
+					var tag = new ATInternet.Tracker.Tag();
+					tag.privacy.extendIncludeBuffer('s2'); // Correspond au level2
+		
+					tag.page.set({
+						name : pageName,
+						level2 : level
+					});
+		
+					tag.dispatch();
+				};
+				
+				(tarteaucitron.job = tarteaucitron.job || []).push('atinternet');
+				
+			} else {
+				console.log("ATInternet desactivé");
+			}
+		});
+	</script>
+	</body>
+</html>

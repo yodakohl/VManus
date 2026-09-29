@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1099 closed scope census;review native BnFLat18499f26r source capacity before any wind reading.
-Latest decision: 1099 onlyf9v has p-head theny in one complete paragraph;no global reprise rule or word.
-Working files: gdt1099/REPORT.md;source_supply_20260929/AN_CLOSURE.json,AM_IDEA_SUPPLY.md,AC_REVIEW.md.
-Assumptions: 0confirmed words.1097/1098parked;780-783/785partial;native a/o unresolved;old stops unchanged.
-Resume: bounded BnFf26r duplicate/primary lookup;old evidence metadata-only,not a native inscription account.
-Running: extended10h29Sep17:16:12–30Sep03:16:12UTC;ANclosing;agentsdone;push auth unavailable.f84/f84rsealed.
+Task: AO closed; next scope native-column display to recover actual source-case participants.
+Latest decision: AO has impact/generation and peer Auster zone-crossing;no complete case or target meaning.
+Working files: source_supply_20260929/AO_REPORT.md,AO_RESULT.json;AP2_IDEA_SUPPLY.md;gdt1099/REPORT.md.
+Assumptions: 0confirmed words;AO participants/roster uncertain;785partial;old12-slot and other stops retained.
+Resume: register a short display-only source attempt before any crop;retain whole page and all clauses.
+Running: extended10h29Sep17:16:12–30Sep03:16:12UTC;AO closing;agents stopped;push auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

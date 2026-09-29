@@ -1,0 +1,21 @@
+# AP2 bounded raw idea supply
+
+Run: **2026-09-29 18:02:42–18:07:18 UTC** (4 min 36 sec of the 20-minute bound). I read `VOYNICH_CURRENT_ROUTE.md` first, then the bounded `Wortzusammensetzung` context topic, the GDT608 primary report and IDEA237 structural baseline, and the retained H source dossier. I also searched the idea registry and ran route-checks before adding anything. No target query, target text/image, source acquisition, external source, AO reading, contact, global state, ledger, or Git action was used.
+
+## One raw route added
+
+`IDEA000792` was added as `UNTESTED_PROPOSAL`, not selected or reviewed. Design: [AP2_01_comparator_vs_operation.json](AP2_01_comparator_vs_operation.json), SHA-256 `467a76d6cdaaf08b029fa3c8267e4c1d42afee2db6ceb6bfbc3ab951d777dec5`. The bounded source is [H_COMPLETE_ENTRIES.md](H_COMPLETE_ENTRIES.md), SHA-256 `d2d48cb61a65cfacc9350c5ab5d6e573f47fffa81c1a8ce7e6aadf4635d6be87`, specifically the complete critical-text unit Dioscorides II.162, Ptarmike. Its layer is the existing Wellmann 1907–1914 critical-edition XML cache, not a new diplomatic transcription. The retained dossier says the whole local Morgan M.652 f138r block was checked for these clauses but does not claim byte-identical wording.
+
+The concrete source-model route spends one provisional persistent-owner binding: **one Ptarmike plant** is described by comparison (branches like abrotonon; leaves like elaia; head like anthemis), then used in two distinct operations (**leaves plus flowers as a poultice for under-eye bruising; flowers alone to provoke sneezing**) and finally assigned a habitat (mountainous/rocky places). The comparators do not become recipe ingredients, and the two action frames remain separate. This is an explicit content construction, not a gloss of any Voynich form. No Voynich whole group or target owner was examined or assigned under this no-target-access task; target binding, form-to-role mapping, and event segmentation remain open.
+
+The smallest possible reading change, if a future authorized whole-unit reading fits, is to change one comparison-bearing whole form from ingredient to descriptive comparator while preserving the two different organ/action sets. A rival collapses the analogies into ingredient identities or splits the clauses between unrelated plants. A future account fails if it must silently add a second owner, move comparison material into a preparation, merge the poultice and flower-only action, or treat the habitat as another treatment.
+
+## Duplicate screen and retained limits
+
+The proposal-specific duplicate screen returned no same-declared-design match, while surfacing IDEA636 (internal/external routes), IDEA665 (flower-removal outcome), IDEA627, IDEA000023, and others as lexical neighbors. Route-check pointed to GDT744 (descriptive/prescriptive/pharmaceutical record channels), GDT754, and GDT784 (comparator boundaries), among other existing routes. These are retained predecessor/counterexample clues, not evidence of novelty or absence. The route is narrower and source-specific, but remains raw; reviewers may merge, redirect, or reject it after reading its primaries.
+
+The live composition evidence constrains any later mapping: GDT608 supports directional component backoff, yet the atomic whole-form identity beat direct component rules on all 23 held folios and on 51/64 merge types. GDT326 is a retained counterexample to free generalization over previously unseen core/coordinate combinations. Therefore this proposal assigns no stable meaning to a grapheme/component and cannot be tested by exporting a comparator/function label mechanically from the morphology of a word.
+
+No second distinct route was ready to add within this bounded screen: additional source candidates overlapped existing whole-unit vessel/storage, phase/residual, habitat/collection, or organ-route proposals, and would have required either a new source acquisition or an unpermitted target read to name their candidate construction. This is a scoped stop, not a claim that the registry is exhausted.
+
+`./vmanus-work ideas check`: PASS, 6922 records, no errors (schema/identity/source/review freshness only; not semantic validation). Added: one raw idea; zero Voynich lexemes, zero target bindings, zero experiments, zero confirmed meanings.
