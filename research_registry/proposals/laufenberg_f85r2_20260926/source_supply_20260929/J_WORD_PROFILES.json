@@ -1,0 +1,930 @@
+{
+  "source_receipt": {
+    "cache_role": "disposable descriptive cache; no semantic conclusions",
+    "guard_stats": {
+      "selected": 96184,
+      "skipped_forbidden": 2122,
+      "skipped_not_allowed": 17164
+    },
+    "inputs": {
+      "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "allowlist_sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "code": "tools/word_profiles.py",
+      "code_sha256": "1e9cb2017525e8ee3fd07b6a088e73b28b1e4fe4e7c9d17b83b892b94d0943c6",
+      "columns": [
+        "source_group_id",
+        "edition",
+        "page",
+        "locus",
+        "section",
+        "currier",
+        "hand",
+        "kind",
+        "source_group_index",
+        "source_group_count",
+        "ivtff_group_raw",
+        "left_separator",
+        "right_separator"
+      ],
+      "exposure": "previously exposed exploration; not independent confirmation",
+      "matching": "exact_raw_group",
+      "reader_policy": "alternate readings, never pooled",
+      "schema_version": 1,
+      "selector_count": 179,
+      "selectors": [
+        "f100r",
+        "f100v",
+        "f102r1",
+        "f102v1",
+        "f102v2",
+        "f103r",
+        "f103v",
+        "f104r",
+        "f104v",
+        "f105r",
+        "f105v",
+        "f106r",
+        "f106v",
+        "f107r",
+        "f107v",
+        "f108r",
+        "f108v",
+        "f10r",
+        "f10v",
+        "f111r",
+        "f111v",
+        "f112r",
+        "f112v",
+        "f113r",
+        "f113v",
+        "f114r",
+        "f114v",
+        "f115r",
+        "f115v",
+        "f116r",
+        "f11r",
+        "f11v",
+        "f13r",
+        "f13v",
+        "f14r",
+        "f14v",
+        "f15r",
+        "f15v",
+        "f16r",
+        "f16v",
+        "f17r",
+        "f17v",
+        "f18r",
+        "f18v",
+        "f19r",
+        "f19v",
+        "f20r",
+        "f20v",
+        "f21r",
+        "f21v",
+        "f22r",
+        "f22v",
+        "f23r",
+        "f23v",
+        "f24r",
+        "f24v",
+        "f25r",
+        "f25v",
+        "f26r",
+        "f26v",
+        "f27r",
+        "f28r",
+        "f28v",
+        "f29r",
+        "f29v",
+        "f2r",
+        "f2v",
+        "f30r",
+        "f30v",
+        "f31r",
+        "f32r",
+        "f32v",
+        "f33r",
+        "f33v",
+        "f34r",
+        "f34v",
+        "f35r",
+        "f35v",
+        "f36r",
+        "f36v",
+        "f37r",
+        "f37v",
+        "f38r",
+        "f38v",
+        "f39r",
+        "f39v",
+        "f3r",
+        "f3v",
+        "f40r",
+        "f40v",
+        "f41r",
+        "f41v",
+        "f42r",
+        "f42v",
+        "f43r",
+        "f43v",
+        "f44r",
+        "f44v",
+        "f45r",
+        "f45v",
+        "f46r",
+        "f46v",
+        "f47r",
+        "f47v",
+        "f48r",
+        "f48v",
+        "f49r",
+        "f49v",
+        "f4r",
+        "f4v",
+        "f50r",
+        "f50v",
+        "f51r",
+        "f51v",
+        "f52r",
+        "f52v",
+        "f53r",
+        "f53v",
+        "f54v",
+        "f55r",
+        "f55v",
+        "f56r",
+        "f56v",
+        "f58r",
+        "f58v",
+        "f5r",
+        "f5v",
+        "f66r",
+        "f66v",
+        "f6r",
+        "f6v",
+        "f75r",
+        "f75v",
+        "f76r",
+        "f76v",
+        "f77r",
+        "f77v",
+        "f78r",
+        "f78v",
+        "f79r",
+        "f79v",
+        "f7r",
+        "f7v",
+        "f80r",
+        "f80v",
+        "f81r",
+        "f81v",
+        "f82r",
+        "f82v",
+        "f83r",
+        "f83v",
+        "f85r1",
+        "f85r2",
+        "f86v3",
+        "f86v5",
+        "f86v6",
+        "f87r",
+        "f87v",
+        "f88r",
+        "f88v",
+        "f89r1",
+        "f89v1",
+        "f8r",
+        "f8v",
+        "f90r1",
+        "f93r",
+        "f93v",
+        "f94r",
+        "f94v",
+        "f95r1",
+        "f95r2",
+        "f95v1",
+        "f95v2",
+        "f96r",
+        "f96v",
+        "f99r",
+        "f99v",
+        "f9r",
+        "f9v"
+      ],
+      "source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "source_sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    }
+  },
+  "retention_note": "Descriptive output from vmanus-work words profile --json, twelve explicit forms; keep exact counts, ranks, selector dispersion, line positions and repetition only. No rebuild, new image, independent confirmation or inferred grammatical class. Full profiles are reproducible using this form list.",
+  "profiles": [
+    {
+      "form": "qokedy",
+      "editions": {
+        "ZL3b": {
+          "count": 248,
+          "rank": 15,
+          "pages_with_form": 58,
+          "pages_total": 179,
+          "positions": {
+            "start": 18,
+            "middle": 222,
+            "end": 8,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 210,
+            "repeated_lines": 32,
+            "adjacent_pairs": 15,
+            "max_per_line": 4
+          }
+        },
+        "IT2a": {
+          "count": 246,
+          "rank": 14,
+          "pages_with_form": 58,
+          "pages_total": 179,
+          "positions": {
+            "start": 18,
+            "middle": 220,
+            "end": 8,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 209,
+            "repeated_lines": 31,
+            "adjacent_pairs": 14,
+            "max_per_line": 4
+          }
+        },
+        "RF1b": {
+          "count": 164,
+          "rank": 22,
+          "pages_with_form": 45,
+          "pages_total": 179,
+          "positions": {
+            "start": 14,
+            "middle": 145,
+            "end": 5,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 142,
+            "repeated_lines": 20,
+            "adjacent_pairs": 8,
+            "max_per_line": 3
+          }
+        }
+      }
+    },
+    {
+      "form": "qokeedy",
+      "editions": {
+        "ZL3b": {
+          "count": 291,
+          "rank": 10,
+          "pages_with_form": 52,
+          "pages_total": 179,
+          "positions": {
+            "start": 30,
+            "middle": 258,
+            "end": 3,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 250,
+            "repeated_lines": 34,
+            "adjacent_pairs": 17,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 288,
+          "rank": 9,
+          "pages_with_form": 51,
+          "pages_total": 179,
+          "positions": {
+            "start": 30,
+            "middle": 255,
+            "end": 3,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 247,
+            "repeated_lines": 34,
+            "adjacent_pairs": 17,
+            "max_per_line": 3
+          }
+        },
+        "RF1b": {
+          "count": 209,
+          "rank": 16,
+          "pages_with_form": 47,
+          "pages_total": 179,
+          "positions": {
+            "start": 25,
+            "middle": 183,
+            "end": 1,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 182,
+            "repeated_lines": 24,
+            "adjacent_pairs": 11,
+            "max_per_line": 3
+          }
+        }
+      }
+    },
+    {
+      "form": "qokeey",
+      "editions": {
+        "ZL3b": {
+          "count": 280,
+          "rank": 11,
+          "pages_with_form": 70,
+          "pages_total": 179,
+          "positions": {
+            "start": 28,
+            "middle": 242,
+            "end": 10,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 247,
+            "repeated_lines": 29,
+            "adjacent_pairs": 12,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 280,
+          "rank": 11,
+          "pages_with_form": 69,
+          "pages_total": 179,
+          "positions": {
+            "start": 28,
+            "middle": 242,
+            "end": 10,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 249,
+            "repeated_lines": 27,
+            "adjacent_pairs": 12,
+            "max_per_line": 3
+          }
+        },
+        "RF1b": {
+          "count": 269,
+          "rank": 9,
+          "pages_with_form": 69,
+          "pages_total": 179,
+          "positions": {
+            "start": 27,
+            "middle": 230,
+            "end": 12,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 242,
+            "repeated_lines": 23,
+            "adjacent_pairs": 10,
+            "max_per_line": 3
+          }
+        }
+      }
+    },
+    {
+      "form": "shedy",
+      "editions": {
+        "ZL3b": {
+          "count": 388,
+          "rank": 5,
+          "pages_with_form": 64,
+          "pages_total": 179,
+          "positions": {
+            "start": 6,
+            "middle": 362,
+            "end": 20,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 345,
+            "repeated_lines": 40,
+            "adjacent_pairs": 9,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 379,
+          "rank": 5,
+          "pages_with_form": 65,
+          "pages_total": 179,
+          "positions": {
+            "start": 6,
+            "middle": 353,
+            "end": 20,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 339,
+            "repeated_lines": 37,
+            "adjacent_pairs": 8,
+            "max_per_line": 3
+          }
+        },
+        "RF1b": {
+          "count": 227,
+          "rank": 13,
+          "pages_with_form": 59,
+          "pages_total": 179,
+          "positions": {
+            "start": 3,
+            "middle": 211,
+            "end": 13,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 216,
+            "repeated_lines": 10,
+            "adjacent_pairs": 3,
+            "max_per_line": 3
+          }
+        }
+      }
+    },
+    {
+      "form": "chedy",
+      "editions": {
+        "ZL3b": {
+          "count": 466,
+          "rank": 2,
+          "pages_with_form": 73,
+          "pages_total": 179,
+          "positions": {
+            "start": 6,
+            "middle": 428,
+            "end": 32,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 416,
+            "repeated_lines": 46,
+            "adjacent_pairs": 8,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 465,
+          "rank": 2,
+          "pages_with_form": 75,
+          "pages_total": 179,
+          "positions": {
+            "start": 6,
+            "middle": 423,
+            "end": 36,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 415,
+            "repeated_lines": 47,
+            "adjacent_pairs": 9,
+            "max_per_line": 3
+          }
+        },
+        "RF1b": {
+          "count": 319,
+          "rank": 5,
+          "pages_with_form": 63,
+          "pages_total": 179,
+          "positions": {
+            "start": 5,
+            "middle": 288,
+            "end": 26,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 291,
+            "repeated_lines": 27,
+            "adjacent_pairs": 2,
+            "max_per_line": 3
+          }
+        }
+      }
+    },
+    {
+      "form": "saiin",
+      "editions": {
+        "ZL3b": {
+          "count": 108,
+          "rank": 48,
+          "pages_with_form": 64,
+          "pages_total": 179,
+          "positions": {
+            "start": 52,
+            "middle": 48,
+            "end": 7,
+            "single": 1
+          },
+          "repetition": {
+            "lines_with_form": 107,
+            "repeated_lines": 1,
+            "adjacent_pairs": 0,
+            "max_per_line": 2
+          }
+        },
+        "IT2a": {
+          "count": 126,
+          "rank": 39,
+          "pages_with_form": 69,
+          "pages_total": 179,
+          "positions": {
+            "start": 53,
+            "middle": 62,
+            "end": 11,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 125,
+            "repeated_lines": 1,
+            "adjacent_pairs": 1,
+            "max_per_line": 2
+          }
+        },
+        "RF1b": {
+          "count": 107,
+          "rank": 45,
+          "pages_with_form": 63,
+          "pages_total": 179,
+          "positions": {
+            "start": 50,
+            "middle": 44,
+            "end": 12,
+            "single": 1
+          },
+          "repetition": {
+            "lines_with_form": 106,
+            "repeated_lines": 1,
+            "adjacent_pairs": 0,
+            "max_per_line": 2
+          }
+        }
+      }
+    },
+    {
+      "form": "qody",
+      "editions": {
+        "ZL3b": {
+          "count": 15,
+          "rank": 303,
+          "pages_with_form": 13,
+          "pages_total": 179,
+          "positions": {
+            "start": 3,
+            "middle": 9,
+            "end": 3,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 15,
+            "repeated_lines": 0,
+            "adjacent_pairs": 0,
+            "max_per_line": 1
+          }
+        },
+        "IT2a": {
+          "count": 15,
+          "rank": 316,
+          "pages_with_form": 13,
+          "pages_total": 179,
+          "positions": {
+            "start": 3,
+            "middle": 9,
+            "end": 3,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 15,
+            "repeated_lines": 0,
+            "adjacent_pairs": 0,
+            "max_per_line": 1
+          }
+        },
+        "RF1b": {
+          "count": 12,
+          "rank": 359,
+          "pages_with_form": 11,
+          "pages_total": 179,
+          "positions": {
+            "start": 3,
+            "middle": 7,
+            "end": 2,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 12,
+            "repeated_lines": 0,
+            "adjacent_pairs": 0,
+            "max_per_line": 1
+          }
+        }
+      }
+    },
+    {
+      "form": "shor",
+      "editions": {
+        "ZL3b": {
+          "count": 89,
+          "rank": 58,
+          "pages_with_form": 61,
+          "pages_total": 179,
+          "positions": {
+            "start": 17,
+            "middle": 70,
+            "end": 2,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 84,
+            "repeated_lines": 5,
+            "adjacent_pairs": 3,
+            "max_per_line": 2
+          }
+        },
+        "IT2a": {
+          "count": 91,
+          "rank": 56,
+          "pages_with_form": 60,
+          "pages_total": 179,
+          "positions": {
+            "start": 17,
+            "middle": 72,
+            "end": 2,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 87,
+            "repeated_lines": 4,
+            "adjacent_pairs": 3,
+            "max_per_line": 2
+          }
+        },
+        "RF1b": {
+          "count": 84,
+          "rank": 58,
+          "pages_with_form": 56,
+          "pages_total": 179,
+          "positions": {
+            "start": 16,
+            "middle": 66,
+            "end": 2,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 80,
+            "repeated_lines": 4,
+            "adjacent_pairs": 2,
+            "max_per_line": 2
+          }
+        }
+      }
+    },
+    {
+      "form": "chor",
+      "editions": {
+        "ZL3b": {
+          "count": 189,
+          "rank": 24,
+          "pages_with_form": 97,
+          "pages_total": 179,
+          "positions": {
+            "start": 9,
+            "middle": 174,
+            "end": 5,
+            "single": 1
+          },
+          "repetition": {
+            "lines_with_form": 175,
+            "repeated_lines": 14,
+            "adjacent_pairs": 7,
+            "max_per_line": 2
+          }
+        },
+        "IT2a": {
+          "count": 196,
+          "rank": 21,
+          "pages_with_form": 103,
+          "pages_total": 179,
+          "positions": {
+            "start": 10,
+            "middle": 181,
+            "end": 5,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 184,
+            "repeated_lines": 12,
+            "adjacent_pairs": 6,
+            "max_per_line": 2
+          }
+        },
+        "RF1b": {
+          "count": 192,
+          "rank": 17,
+          "pages_with_form": 102,
+          "pages_total": 179,
+          "positions": {
+            "start": 9,
+            "middle": 177,
+            "end": 5,
+            "single": 1
+          },
+          "repetition": {
+            "lines_with_form": 183,
+            "repeated_lines": 9,
+            "adjacent_pairs": 5,
+            "max_per_line": 2
+          }
+        }
+      }
+    },
+    {
+      "form": "dair",
+      "editions": {
+        "ZL3b": {
+          "count": 73,
+          "rank": 73,
+          "pages_with_form": 57,
+          "pages_total": 179,
+          "positions": {
+            "start": 21,
+            "middle": 46,
+            "end": 6,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 71,
+            "repeated_lines": 1,
+            "adjacent_pairs": 1,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 77,
+          "rank": 67,
+          "pages_with_form": 57,
+          "pages_total": 179,
+          "positions": {
+            "start": 22,
+            "middle": 50,
+            "end": 5,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 75,
+            "repeated_lines": 1,
+            "adjacent_pairs": 1,
+            "max_per_line": 3
+          }
+        },
+        "RF1b": {
+          "count": 71,
+          "rank": 66,
+          "pages_with_form": 57,
+          "pages_total": 179,
+          "positions": {
+            "start": 18,
+            "middle": 46,
+            "end": 7,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 70,
+            "repeated_lines": 1,
+            "adjacent_pairs": 0,
+            "max_per_line": 2
+          }
+        }
+      }
+    },
+    {
+      "form": "aiin",
+      "editions": {
+        "ZL3b": {
+          "count": 423,
+          "rank": 4,
+          "pages_with_form": 100,
+          "pages_total": 179,
+          "positions": {
+            "start": 0,
+            "middle": 391,
+            "end": 32,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 381,
+            "repeated_lines": 38,
+            "adjacent_pairs": 0,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 390,
+          "rank": 4,
+          "pages_with_form": 97,
+          "pages_total": 179,
+          "positions": {
+            "start": 0,
+            "middle": 366,
+            "end": 24,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 354,
+            "repeated_lines": 34,
+            "adjacent_pairs": 0,
+            "max_per_line": 3
+          }
+        },
+        "RF1b": {
+          "count": 436,
+          "rank": 3,
+          "pages_with_form": 106,
+          "pages_total": 179,
+          "positions": {
+            "start": 0,
+            "middle": 407,
+            "end": 29,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 399,
+            "repeated_lines": 35,
+            "adjacent_pairs": 0,
+            "max_per_line": 3
+          }
+        }
+      }
+    },
+    {
+      "form": "char",
+      "editions": {
+        "ZL3b": {
+          "count": 74,
+          "rank": 71,
+          "pages_with_form": 50,
+          "pages_total": 179,
+          "positions": {
+            "start": 2,
+            "middle": 71,
+            "end": 1,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 73,
+            "repeated_lines": 1,
+            "adjacent_pairs": 0,
+            "max_per_line": 2
+          }
+        },
+        "IT2a": {
+          "count": 64,
+          "rank": 78,
+          "pages_with_form": 44,
+          "pages_total": 179,
+          "positions": {
+            "start": 2,
+            "middle": 60,
+            "end": 2,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 63,
+            "repeated_lines": 1,
+            "adjacent_pairs": 0,
+            "max_per_line": 2
+          }
+        },
+        "RF1b": {
+          "count": 66,
+          "rank": 71,
+          "pages_with_form": 46,
+          "pages_total": 179,
+          "positions": {
+            "start": 2,
+            "middle": 62,
+            "end": 2,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 65,
+            "repeated_lines": 1,
+            "adjacent_pairs": 0,
+            "max_per_line": 2
+          }
+        }
+      }
+    }
+  ]
+}

@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: publish GDT1096 and assess a next meaning-bearing consequence.
-Latest decision: 38 finite contradictions; IT Iris33to7pages. Remaining303domains are not whole readings. GDT978 unchanged.
-Working files: experiments/yolo/gdt1096_dioscorides_finite_recurrent_domains/REPORT.md; source_supply_20260929/J_*,K_*.
-Assumptions: fixed source/code hypothetical; 0complete witnesses. All1428cases retained; source-unknown is not refuted.
-Resume: publish verified1096; review J/K and new domain constraints before selecting another test.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; idea producer K25min. Reserves closed.
+Task: IDEA764 exploratory shared treatment-exception construction on complete f85 S/W.
+Latest decision: GDT1096 published:38 contradictions,303partial domains, no full code. J graft continuation lacks its declared ZL reuse.
+Working files: AGE_INTERVENTION_CONSTRUCTION_DECISION_20260929.md in laufenberg_f85r2_20260926; source_supply_20260929/K_*,L_*.
+Assumptions: new Sloane35/65 scope contrast; no inherited glosses or four-age key. Every residual group remains explicit.
+Resume: retain all saved groups; author one invariant exception construction; checkpoint09:55UTC.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; idea producer L30min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
