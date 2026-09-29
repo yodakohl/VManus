@@ -1,0 +1,9 @@
+# f68r2 external source screen: Morgan M.126 fol. 153v
+
+29 September 2026. This is a **source-only comparison**, not a Voynich lexical experiment or new target access. The target description and failed Ghent/Morgan M.721 comparators were fixed in `F68R_PAIRED_OPENINGS_RESULT_20260927.md` before this search. The source search asked for two separately inscribed Sun/Moon medallions within an open field of individually labelled stars; a generic shared wheel would leave the decision unchanged.
+
+The [Morgan institutional record](https://ica.themorgan.org/manuscript/page/53/77039) dates MS M.126 fol. 153v to England, perhaps London, ca. 1470 and explicitly identifies a blue-sky planetary system: personified `SOLIS` and `LUNA` plus five star-shaped, individually labelled planets `SATURNIS`, `IUBITER`, `MARS`, `MERCURIUM`, `VENUS`. The [primary image](https://ica.themorgan.org/icaimages/1/m126.153v.jpg) is a concrete multi-feature comparator: two named luminaries and separately named star-shaped bodies share one blue field. The five are **planets**, not an undifferentiated field of stars.
+
+This is closer to the broad f68r2 Sun/Moon-plus-labelled-lights topology than a plain two-body diagram, but fails the decisive registered relationship. The Morgan Sun and Moon are not each surrounded by their own written ring, its field has five named planets rather than f68r2's many individually labelled points, and its iconographic ordering/layout is different. There is no source-to-target line or title correspondence. The source is later than the Voynich parchment range and is a tradition comparator, not evidence of copying.
+
+**Decision:** retain a positive astronomical image-tradition parallel, with no new text owner, alignment or word value. In particular `okoaiin` remains C0 and is not read as Sun, planet, star or light. f84/f84r and reserves were not accessed; no external contact occurred.
