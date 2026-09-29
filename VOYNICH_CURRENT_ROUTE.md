@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review U whole historical constructions for shared writing rules.
-Latest decision: 776local ALSO+OF draft retained,7grammarcosts;1047blocks global export. 772extension unbound;1097parked.
-Working files: laufenberg_f85r2_20260926/source_supply_20260929/T_PROVENANCE_*,U_*.
-Assumptions: 0confirmed words. New776C0 removes atomic saiin;316groups/3ZL9ITgaps retained; old tests unchanged.
-Resume: inspect U whole sources and predecessors; choose a new written consequence, not an old identity in new notation.
-Running: 20h 29 Sep06:17:46–30 Sep02:17:46 UTC; Uproducer to13:09UTC; root776closure to12:57UTC. Reserves closed.
+Task: review V shared written constructions from existing whole target accounts.
+Latest decision: 777/778sources retained RAW,no target test;776local ALSO+OF draft has7grammarcosts and1047boundarylimit.
+Working files: laufenberg_f85r2_20260926/source_supply_20260929/U_ROOT_REVIEW.md,V_*; T_PROVENANCE_REPORT.md.
+Assumptions: 0confirmed words. No new gloss from status/phase sources;772extension unbound;1097parked. Old tests unchanged.
+Resume: V must supply one actual construction on2different written arguments in whole units; review primaries before selection.
+Running: 20h 29 Sep06:17:46–30 Sep02:17:46 UTC; Vproducer45min from12:50UTC; root Upublication. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
