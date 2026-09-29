@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: develop written relational consequences after W complete outside-context review.
-Latest decision: 780partialC0;12bareoko records/5positions/667groups yield only known okaroko RF echo;no body/time discriminator.
-Working files: laufenberg_f85r2_20260926/source_supply_20260929/W_ROOT_RESULT.md,W_ROOT_ACCOUNT.tsv,X_*.
-Assumptions: 0confirmed words.777/778RAW;779/780partial;772extension unbound;1097parked. Old tests unchanged.
-Resume: X must add an actual written relation with differing rival consequences;retain whole units,variants and known stops.
-Running: 20h 29Sep06:17:46–30Sep02:17:46UTC;Xproducer35min;root Wpublication. Reserves closed.
+Task: register GDT1098 finite cross-record domain conjunction; review X/Y constructions.
+Latest decision: 780partialC0;only known okaroko echo.1098joins all13shared source domains;no solver restart.
+Working files: gdt1098_dioscorides_shared_domain_conjunction; source_supply_20260929/X_*,Y_*; W_ROOT_RESULT.md.
+Assumptions: 0confirmed words.1097parked;1098necessary projection only;780partial. Old failures unchanged.
+Resume: publish1098registration before one run; validate all tuples and parent rows;review whole X/Y separately.
+Running: 20h 29Sep06:17:46–30Sep02:17:46UTC;1098inclusive checkpoint14:25UTC;Yproducer35min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -36,7 +36,7 @@ controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primari
 Other closed families remain in the existing registry; no automatic reopening.
 
 ## Access and operating boundaries
-f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
+f84 is sealed; f84r is sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;92 legacy image keys/98 selectors (F scope receipt). f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:

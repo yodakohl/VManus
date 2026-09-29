@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1096**
-- Experiment-associated tracked files: **21,804** (1.9 GiB)
-- Structured GDT337+ experiments: **761**
+- Experiments indexed: **1097**
+- Experiment-associated tracked files: **21,820** (1.9 GiB)
+- Structured GDT337+ experiments: **762**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1098 | Finite shared recurrent domains across all four Dioscorides records | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1098_dioscorides_shared_domain_conjunction/REPORT.md) | 16 | 322.4 KiB | 3 | STRUCTURED_YOLO |
 | GDT1097 | GDT1097 | `THREE_SOLVER_INFEASIBLE_FOUR_UNKNOWN_NO_COMPLETE_CODE` | [report](../experiments/yolo/gdt1097_dioscorides_complete_interval_code/REPORT.md) | 20 | 172.0 KiB | 5 | STRUCTURED_YOLO |
 | GDT1096 | GDT1096 | `38_FINITE_CONTRADICTIONS_COMPLETE_READING_UNRESOLVED` | [report](../experiments/yolo/gdt1096_dioscorides_finite_recurrent_domains/REPORT.md) | 19 | 1.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT1095 | GDT1095_F25V_HIGHRES_CONTACT_INPUT | `MISSING_REGISTERED_HIGHRES_INPUT` | [report](../experiments/yolo/gdt1095_f25v_native_contact_geometry/REPORT.md) | 13 | 15.0 KiB | 3 | STRUCTURED_YOLO |
