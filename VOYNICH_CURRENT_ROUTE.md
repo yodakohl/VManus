@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review common grammar for complete existing C0 readings (producer M).
-Latest decision: GDT1097 all7Iris:3solver-INFEASIBLE,4UNKNOWN;0complete codes. Park runtime branch. IDEA764 remains partial C0.
-Working files: gdt1097_dioscorides_complete_interval_code/REPORT.md; laufenberg_f85r2_20260926/source_supply_20260929/M_*; GDT1026/1029.
-Assumptions: meanings remain hypothetical; shared constructions must replace local clause lists without changing fixed values. No automatic grammar repairs.
-Resume: publish1097; inspect M primaries/stops before selecting one full-context grammar consequence.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer M35min. Reserves closed.
+Task: IDEA769 fixed-word Galen scope derivation, manual25min block.
+Latest decision: GDT1097 closed3solver-INFEASIBLE/4UNKNOWN,0codes; no extra runtime. Music768 operators have no old-unit reuse.
+Working files: laufenberg_f85r2_20260926/GALEN_SCOPE_DERIVATION_DECISION_20260929.md; GALEN_SCOPE_ALL_POSITIONS.tsv; GDT1028/1029/1034.
+Assumptions: all67values, qoky broadening and diplomatic gaps fixed; shared policy cannot use clause IDs. No meaning confirmation.
+Resume: derive all8operation mentions in complete95groups; preserve ambiguous scopes; stop expansion10:27UTC and publish.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer N35min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
