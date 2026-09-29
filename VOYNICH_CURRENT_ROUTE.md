@@ -4,16 +4,16 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: close/publish GDT1089; screen independently owned content contrast.
-Latest decision: GDT1089 inconclusive: newly covered image pairs 2/14
-YES vs controls 1/14; only two form-pair contrasts, below rule.
-Working files: GDT1089 REPORT/RESULT, two blind inventories; idea queue
-IDEA712–726 remains unreviewed.
-Assumptions: visual organ overlap is not word meaning; same manuscript
-readers and prior-exposed images cannot confirm semantics.
-Resume: validate/publish GDT1089; context topic, bounded idea search,
-route-check and linked primaries before choosing the next contrast.
-Running: no confirmation; f84/f84r and reserves closed; 0 words.
+Task: select source-owned contrast with an explicit target text owner.
+Latest decision: GDT1089 inconclusive (2/14 target vs1/14 control);
+IDEA687 f22r visual/text facts real, source relation and pointer missing.
+Working files: GDT1089 REPORT; F22R_TWO_ORGAN_SOURCE_CAPACITY_20260929;
+IDEA687 review. IDEA712–731 raw pool unreviewed.
+Assumptions: same-manuscript readers and prior-exposed images cannot
+confirm semantics; image co-presence is not text ownership.
+Resume: review candidate source/target bindings via topic, ideas,
+route-check and primaries; register only a contrast that changes meaning.
+Running: no confirmed word; f84/f84r and reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
