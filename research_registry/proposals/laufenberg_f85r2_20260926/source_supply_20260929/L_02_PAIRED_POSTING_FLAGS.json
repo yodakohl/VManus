@@ -1,0 +1,51 @@
+{
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "title": "RAW UNREVIEWED: paired X-daiin fields record separate completion of two linked postings",
+  "summary": "RAW_UNREVIEWED. Start from GDT877's real pchedal-qopchdy-daiin anchor and GDT764's adjacent chedy-daiin field, not a presumed numeral. In the complete f105v.5–7 paragraph, explore one context-bound POSTED predicate over two account roles. Pacioli's owned precious-stones example marks debit and credit separately, preserves their common transaction and value, then records opposed account references. One completed side does not complete the other; two equal scalar values alone do not establish this dependency.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A record binds a shared transaction; repeated FIELD(X,POSTED) constructions update separate posting obligations. The two account roles are distinct while the transaction/date/value remain shared, and later counterreferences must resolve the opposite role.",
+    "unit": "Complete already admitted f105v.5–7,30 literal groups in each reader. ZL and IT independently supply the same paragraph-start/end flags; RF is the complete corresponding spatial union, not an independently flagged paragraph. The exact source projection is retained as L_F105V_COMPLETE_PARAGRAPH.tsv.",
+    "contrast": "Two coupled completion flags versus two independent quantities/grades in a nominal list, or one global DONE flag that prematurely closes the transaction after its first completed entry.",
+    "prediction": "After the first field is marked, one posting remains due; after both, the posting pair is complete but its references must still name the correct opposed accounts. A wrong counteraccount can preserve equality of amounts while violating the reading. Replacing the repeated flag by one common amount does not produce either the pending-obligation state or the reciprocal ownership constraint.",
+    "actual_positive_referents": [
+      "GDT877 verifies pchedal qopchdy daiin at f105v.5 as three consecutive literal groups with definite internal gaps in all three readers. GDT764 retains the same complete opening as pchedal | qopchdy daiin | chedy daiin | ..., and withdraws an unsupported imperative for qopchdy at this location.",
+      "The selected complete paragraph contains the two fields in .5 and the later literal sequence dar aiin al dar ar in .6, in all three readings. That later sequence is a possible pair of reference-bearing expressions, not a discovered counterreference or a reading of dar.",
+      "GDT318's global entry-context effect supplies a real precedent for context-sensitive rendering, but no particular wrapper, transaction, nominal class or completion meaning. No part of pchedal is translated here.",
+      "IDEA400's complete owned Pacioli1494 teaching item gives stones debit on page3, capital credit on page2, a shared40/0/0/0 amount/date, two separate Journal marking acts, opposed page references and subsequent indexing. The source's informational identity is not physical transport or stock conservation."
+    ],
+    "additional_assumptions": [
+      "Within this explicitly nominated paired-field construction, daiin tentatively contributes POSTED rather than valueIII. This is one contextual semantic hypothesis; no universal daiin meaning is installed.",
+      "qopchdy and chedy are the two distinct account-role parameters A and B. Their actual names remain unknown; no stones/capital translations or character decomposition are assigned.",
+      "The initial H1 record supplies a transaction frame with two obligations. This binder is a proposed construction, not a semantic result of the existing H1 position statistics.",
+      "A later part of the complete paragraph must bind both account references and their shared transaction. The observed dar...dar string merely nominates where to attempt this; it does not supply its own arguments or permit an arbitrary silent address map."
+    ],
+    "finite_core": {
+      "frame": "T = (accountA, accountB, shared_value, shared_date, postedA=false, postedB=false).",
+      "field_rule": "X daiin -> POSTED(T,X) for an explicitly bound account role X. The same predicate applies to both fields.",
+      "sequence": "The first field changes only postedA; the second changes only postedB. Transaction-posting completion requires both. This is not a claim that every chronological act in Pacioli is encoded in these five groups.",
+      "reference_constraint": "A's counterreference resolves to B and B's to A, preserving the same T. The account-name/address map must be written or supplied by one explicit local binding rule before any success is claimed.",
+      "not_imported": "No40,3,2,November8,precious-stone name, debit glyph, credit glyph, s/q/d prefix translation, numeric additive code or old HOT/COLD value is mapped into the target.",
+      "unknowns": "Only two daiin positions receive a conditional contextual predicate; qopchdy and chedy are typed variables, not lexical identifications. The transaction binder, counterreferences, date/value and remaining26 positions are not translated. The whole30-position unit remains present.",
+      "scope": "The historical source is a full teaching item with layout, indexing and explanatory prose. This candidate borrows its linked-posting mechanism; it does not claim that the30 target groups translate that entire pedagogical item. A complete target reading still owes every target group and any chosen content beyond the core."
+    },
+    "strongest_known_countercase": "GDT764's value-field analysis already competes with this flag reading, and GDT877 validates only literal form/gaps. No target transaction or account is identified. Other saved daiin uses include the adjacent daiin-daiin on f32v.8; a later portable rule cannot pretend that these automatically name two different postings. W94/W95 show why repeated forms do not establish a common physical quantity, and analogous care is required for this proposed common transaction. RF lacks paragraph flags, and several literal groups in .5–7 remain reader-dependent.",
+    "smallest_next_step": "A single local authoring pass: preserve all30 groups, write the two FIELD scopes and their shared frame, then attempt a concrete counterreference account for all of .6–7 using at most one additional reference construction and no new named commodities. Compare the four posting-status states and both account orientations by hand. If only two unconstrained X slots and two completion labels can be written, the result is a partial hypothesis, not a bookkeeping reading. Do not start a global daiin census or numeric decoder.",
+    "novelty_and_dependencies": "IDEA400 owns the Pacioli source and generic reciprocal-reference mechanism. This card is a dependent application with an exact three-line target and a different local semantic rival: repeated completion status versus repeated numerical value. It does not claim to discover paired fields, ledger balancing, or that empty posted searches establish novelty. IDEA14's overt-single-material contract, the f22r apposition cards and GDT1040's fixed loan grammar are not reused or reopened.",
+    "source_layer": "Pacioli1494 is after1450. The owned complete local reading is Geijsbeek1914 English translation, with partial Italian-facsimile checks and recorded conflicts. It demonstrates a historical nonbotanical writing mechanism, not an early15th-century source identification.",
+    "predecessors": ["GDT318", "GDT764", "GDT877", "IDEA000400", "IDEA000014", "W94", "W95"],
+    "primaries": [
+      "experiments/yolo/gdt877_h1_raw_construction_fidelity/REPORT.md",
+      "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+      "GDT318_GLOBAL_WRAPPER_ENTRY_STATE_REPORT.md",
+      "research_registry/proposals/raw_pacioli_reciprocal_posting_context.json",
+      "research_registry/work_batches/ten_hours_20260915/ISNAD_LEDGER_CONTEXTUAL_SOURCE_20260920.json",
+      "research_registry/work_batches/ten_hours_20260915/ISNAD_LEDGER_CONTEXTUAL_SUPPLY_20260920.md",
+      "research_registry/proposals/translation_programs_20260912/work/W94/REPORT.md",
+      "research_registry/proposals/translation_programs_20260912/work/W95/REPORT.md",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_F105V_COMPLETE_PARAGRAPH.tsv",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_F105V_BOUNDARY_RECEIPT.json"
+    ],
+    "claim_ceiling": "RAW_UNREVIEWED. One small context-bound meaning hypothesis, not a complete ledger reading, confirmed numeral, portable predicate or independently scored relation. No image, source hunt, reserve or contact."
+  }
+}

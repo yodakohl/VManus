@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review L proposals grounded in prior positive constructions.
-Latest decision: IDEA764 has a partial ZL/IT set-scope draft, RF gap; age/priority/preference unread. GDT1096:38 contradictions,303partial cases.
-Working files: laufenberg_f85r2_20260926/AGE_INTERVENTION_RESULT_20260929.md; source_supply_20260929/L_*; GDT877/803/318/808.
-Assumptions: no new confirmed meanings; hypothetical readings allowed. No automatic filler-gloss, alias or solver expansion.
-Resume: publish764; read L core plus cited primary predecessors before selecting the next full-unit construction.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; idea producer L30min. Reserves closed.
+Task: GDT1097 complete equations on all7 remaining Iris pages.
+Latest decision: exact interval encoding retains singletons/all prefix rules. GDT1096:38contradictions; IDEA764 partial C0.
+Working files: laufenberg_f85r2_20260926/DIOSCORIDES_COMPLETE_INTERVAL_DECISION_20260929.md; gdt1097_dioscorides_complete_interval_code.
+Assumptions: source, aliases, frames/code rules fixed; local fit conditional. No word-boundary restriction.
+Resume: controls, public registration, all7 cases, validation; checkpoint10:37UTC. No automatic extension.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer M35min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
