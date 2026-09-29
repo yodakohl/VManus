@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1102 header lacks other-leaf capacity;BE lunar-body face retained;0words.
-Latest decision: Md2 79r blue frontal Moon portrait is not a full-phase label;AJ unchanged.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BE_RESULT.md.
-Assumptions: BB/W/Y unselected;Cancer house/body/phase distinct;all stops/seals.
-Resume: Read BE_RESULT+GDT1102 REPORT;select a different written relation or genuinely phase-owned face;no header/source-page expansion.
-Running: extended10h deadline30Sep03:16:12UTC;BD/BE/BC closed;none running;remote auth unavailable.
+Task: BG four lunar-series faces retained;native captions clipped;0words.
+Latest decision: AJ phase-owner gate unmet;stop generic face acquisition;BB/W/Y unselected.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BG_RESULT.md.
+Assumptions: f68 lower owner open;body/phase/light/time distinct;all stops/seals.
+Resume: Read BG_RESULT;inspect IDEA796+AI_REVIEW for written causal relation capacity,not another face;GDT1102 closed.
+Running: extended10h deadline30Sep03:16:12UTC;BF/BG closed;none running;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
