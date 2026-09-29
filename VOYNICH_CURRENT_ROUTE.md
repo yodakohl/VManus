@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Close AK/AL partial C0,then review a distinct written construction against its primary predecessors.
-Latest decision: AK adds a guessed first sentence,not a whole paragraph;145/225groups unassigned.0words.
-Working files: source_supply_20260929/AK_RESULT.md,AK_CLOSURE.json,AJ_RESULT.md,AG_ROOT_REVIEW.md.
+Task: GDT1099 closed scope census;review native BnFLat18499f26r source capacity before any wind reading.
+Latest decision: 1099 onlyf9v has p-head theny in one complete paragraph;no global reprise rule or word.
+Working files: gdt1099/REPORT.md;source_supply_20260929/AN_CLOSURE.json,AM_IDEA_SUPPLY.md,AC_REVIEW.md.
 Assumptions: 0confirmed words.1097/1098parked;780-783/785partial;native a/o unresolved;old stops unchanged.
-Resume: select next construction only after topic/idea/route and primary review;no automatic AL glossary repair.
-Running: 20h29Sep06:17:46–30Sep02:17:46UTC;ALdone;AKclosing;push auth unavailable.f84rsealed,reservesclosed.
+Resume: bounded BnFf26r duplicate/primary lookup;old evidence metadata-only,not a native inscription account.
+Running: extended10h29Sep17:16:12–30Sep03:16:12UTC;ANclosing;agentsdone;push auth unavailable.f84/f84rsealed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

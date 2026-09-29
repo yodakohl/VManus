@@ -1,0 +1,11 @@
+# AN: bounded p/y same-paragraph scope inspection
+
+Registered 2026-09-29T17:31:33.050876+00:00 before extracting paragraph relationships from the fixed GDT1075 event table. Root budget35minutes inclusive of primary checks, extraction, review and publication preparation. This is an exploratory scope/capacity inspection, not a word-meaning test. No new decoder or fitted glossary.
+
+Positive: GDT1075 retains a pX>yX paragraph-opening preference within section/hand and reports ten same-base/same-physical-leaf combinations in each reader. Unknown: how many of those actually provide an ordered same-paragraph pX introduction followed by yX, rather than two unrelated paragraphs or two sides of one leaf? GDT1076 lacks the registered exact-follower comparison capacity and remains unchanged. W08/W13 already account for all13 whole ychor paragraphs under additive, command and material readings; their word meanings and syntax are not inherited. GDT920 p/f-to-k/t whole-body bridge must also be checked before implementation.
+
+Inspect every member of the frozen same-base/same-physical-leaf roster, retaining starts, continuations, paragraphs, uncertain metadata and cross-side distinctions. No selected favourable example. First use owned GDT1074/1075 projected paragraph identifiers and underlying receipts. If existing files cannot establish actual paragraph identity, report that exact boundary limit; do not reconstruct it from line number alone or acquire more pages. RF projected flags remain dependent metadata.
+
+A robust same-paragraph ordered contrast would nominate complete already-exposed contexts for an explicit topic-reprise rival to Item/take, not prove shared denotation or p/y normalization. Absence would remove this proposed written scope support and prevent that authoring shortcut. Mixed outcomes restrict a future construction's full obligations. This block does not rerun1076 or solve word meanings by count. No significance or independent confirmation claim. All alternates are one manuscript, no new admission, f84/f84r and reserves closed.
+
+The user's additional at-least10hours is recorded at2026-09-29T17:16:12UTC; earliest end2026-09-30T03:16:12UTC, extending the prior20hour window. This records an active request, not a claim of elapsed or unattended work.
