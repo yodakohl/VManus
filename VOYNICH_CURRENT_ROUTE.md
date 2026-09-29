@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review AB whole-statement proposal; assess any decisive shared-code consequence before selection.
-Latest decision: 782partialC0:14operator contacts,243of277groups unknown;PORTION/ENTRY unselected. f106stopped.
-Working files: source_supply_20260929/AA_ROOT_REVIEW.md,AB_*,F106_AMULET_RESULT.md;GDT1097/1098 REPORTS.
-Assumptions: 0confirmed words.1097/1098parked;780/781/782partial;native a/o unresolved. Old stops unchanged.
-Resume: assess AB actual written reuse;no unchanged runtime/projection rerun or f106lexicon repair.
-Running: 20h29Sep06:17:46–30Sep02:17:46UTC;AApublication;ABproducer30min. f84r is sealed;reserves closed.
+Task: review AC concrete historical/written construction; AB whole assertion retained as partial C0.
+Latest decision: 783:11group draft,1142of1553groups unknown;REUSE/FRESH unselected. No new word.
+Working files: source_supply_20260929/AB_ROOT_REVIEW.md,AB_ROOT_CLOSURE.json,AC_*;AA_PUBLICATION_PENDING.json.
+Assumptions: 0confirmed words.1097/1098parked;780-783partial;native a/o unresolved;old stops unchanged.
+Resume: inspect AC exact primary/consequence;no serial glosses,reference counts or unchanged solver retry.
+Running: 20h29Sep06:17:46–30Sep02:17:46UTC;ACproducer25min;push auth unavailable. f84r is sealed;reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
