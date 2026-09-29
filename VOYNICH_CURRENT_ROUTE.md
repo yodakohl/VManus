@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: distinguish schor as a whole plant/drug class versus a reproductive part.
-Latest decision: SOL/gold source polysemy attested, f68/f89 readings unselected; no full construction. GDT1095 missing pixels; GDT1094 no reading; GDT1090 C1 retained.
-Working files: source_supply_20260929/E_ROOT_RESULT.md, F_ROOT_PREFLIGHT.md; GDT765/1090/1091.
-Assumptions: schor exact whole only; old quantity/quality glosses unconfirmed; three images exposed.
-Resume: publish E closure; inspect existing B04/B09/B05 and complete schor contexts against F source entries.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer F source-only30min. Reserves closed.
+Task: check source evidence for deliberately composite plant pictures.
+Latest decision: F retains schor C1 head-part possibility, no taxon or full reading. SOL/gold unselected; GDT1095 missing pixels. Admission totals corrected from contracts.
+Working files: source_supply_20260929/F_ROOT_RESULT.md, F_SCOPE_COUNT_CORRECTION.json, G_*; GDT1090.
+Assumptions: drawn parts need not name whole plants; a source must explicitly support any composite reading. No old gloss promoted.
+Resume: publish F closure; inspect G primary supply and predecessors before selecting a target account.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer G source-only30min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -38,7 +38,7 @@ Other closed families remain in the existing registry; no automatic reopening.
 ## Access and operating boundaries
 f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
-179 text selectors;54 visual keys/60 selectors. f1r margins only;
+179 text selectors;92 legacy image keys/98 selectors (F scope receipt). f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [detail](docs/VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md); [base](docs/VOYNICH_DATA_SCOPE.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
