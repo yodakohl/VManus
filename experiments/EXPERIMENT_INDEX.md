@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1094**
-- Experiment-associated tracked files: **21,765** (1.9 GiB)
-- Structured GDT337+ experiments: **759**
+- Experiments indexed: **1095**
+- Experiment-associated tracked files: **21,775** (1.9 GiB)
+- Structured GDT337+ experiments: **760**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1096 | Finite recurrent domains for unchanged Dioscorides content code | `REGISTERED_UNSCORED` | — | 10 | 37.3 KiB | 5 | STRUCTURED_YOLO |
 | GDT1095 | GDT1095_F25V_HIGHRES_CONTACT_INPUT | `MISSING_REGISTERED_HIGHRES_INPUT` | [report](../experiments/yolo/gdt1095_f25v_native_contact_geometry/REPORT.md) | 13 | 15.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1094 | GDT1094_F25V_SOURCE_PACKAGE_WHOLE_READING | `FULL_PASSAGE_ACCOUNTED_NO_COMPLETE_SEMANTIC_READING` | [report](../experiments/yolo/gdt1094_f25v_source_package_whole_reading/REPORT.md) | 19 | 424.6 KiB | 5 | STRUCTURED_YOLO |
 | GDT1093 | GDT1093_PLANTAGO_NATIVE_SHORTLIST_CORRECTION | `POST_PUBLICATION_NEAR_MISS_NO_STRICT_OWNER` | [report](../experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/CORRECTION_20260929.md) | 340 | 21.1 MiB | 2 | STRUCTURED_YOLO |

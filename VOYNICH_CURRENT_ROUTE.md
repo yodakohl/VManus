@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: select a complete C0 reading with a new constrained shared-word consequence.
-Latest decision: Aurora/H/I sources clarified; no target gloss. Sloane treatment thresholds35/65 differ from four ages; f85 NOM/QOD stops unchanged.
-Working files: source_supply_20260929/I_ROOT_REVIEW.md, J_*; AURORA_TEXT_READING.md; GDT1045/1046.
-Assumptions: source content constrains an authored reading, not word ownership. No automatic AGE=aiin or four-block key.
-Resume: publish I; inspect J candidates and predecessors, then select the smallest executable test.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; bounded idea producer J25min. Reserves closed.
+Task: GDT1096 finite repeated-code constraints for four unchanged Dioscorides records.
+Latest decision: new necessary-domain test after963/976/977/978/986 review; no decoder change. I published; J pending review.
+Working files: experiments/yolo/gdt1096_dioscorides_finite_recurrent_domains; source_supply_20260929/J_*,K_*.
+Assumptions: source order and prefix code remain hypotheses; nonempty domains are not a reading. Retain all1428cases.
+Resume: publish registration, run341literal cases, replay certificates; checkpoint09:43UTC.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; idea producer K25min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
