@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1085 | GDT1085 | `NO_CURRENT_LEXICAL_CAPACITY` | [report](../experiments/yolo/gdt1085_trier_f68v2_native_owner_preflight/REPORT.md) | 13 | 26.1 KiB | 4 | STRUCTURED_YOLO |
+| GDT1085 | GDT1085_STAR_LABEL_CORRECTION | `FOUR_INTERLEAVED_LABELS_RETAINED_NO_SAME_LAYER_TWELVE_REGISTER` | [report](../experiments/yolo/gdt1085_trier_f68v2_native_owner_preflight/REPORT.md) | 13 | 27.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT1084 | GDT1084_PREDECESSOR_CORRECTION | `REDUNDANT_WITH_SNPL002_NO_NEW_DECISION` | [report](../experiments/yolo/gdt1084_source_native_four_plant_bridge/REPORT.md) | 9 | 41.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT1083 | GDT1083 | `NO_NATIVE_SINGULAR_OWNER` | [report](../experiments/yolo/gdt1083_f75v_f99v_eight_label_native_owner/REPORT.md) | 11 | 18.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT1082 | GDT1082 | `NO_NEW_STRICT_SAME_PAGE_CANDIDATE` | [report](../experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/REPORT.md) | 13 | 41.9 KiB | 2 | STRUCTURED_YOLO |

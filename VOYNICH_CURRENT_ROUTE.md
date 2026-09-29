@@ -6,7 +6,7 @@ Phase: exploration
 Status: active
 Task: Find a source-owned word anchor with discriminating consequences.
 Latest decision: Trier f99r has cardinal-middle wind/month sectors; GDT1085
-f68v2 shows 4 star fields + 8 written rays, no 12-sector owner or phase.
+f68v2 has 4 star-label fields + 8 written rays, no 12-sector owner/phase.
 GDT1071/72 `otor` widespread; f85r2 East hinges on common `or`.
 Working files: GDT1085, Trier f99r, IDEA650, GDT1071/72.
 f95v1/2 are separate drawings (GDT866); GDT404 pooled owner void.
