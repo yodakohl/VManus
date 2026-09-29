@@ -5,10 +5,10 @@ Updated: 2026-09-29. Live resume point.
 Phase: exploration
 Status: active
 Task: seek a new meaning anchor with a written source relation and independent owner.
-Latest decision: GDT1092 f25v/Sloane dragon composite 0/4, source owner fails. GDT1091 ofchy cup contrast fails target/control; GDT1090 schor 3/3 remains descriptive only. IDEA739 named-copy owner missing after 235 Sloane canvases.
+Latest decision: GDT1092 f25v/Sloane dragon 0/4; Egerton f89r dragonblood tree also differs. GDT1091 ofchy cup contrast fails target/control; GDT1090 schor 3/3 descriptive only. IDEA739 named-copy owner missing after 235 Sloane canvases.
 Working files: GDT1092/1091/1090 reports; IDEA739 source note/review; IDEA737/738 raw.
 Assumptions: motif co-presence cannot bind source or word; prior root exposure is not confirmation.
-Resume: publish GDT1092; then primary-review a distinct source-first written-relation anchor before further image access.
+Resume: seek distinct source-first written-relation anchor; do not reopen f25v on another dragon motif.
 Running: no confirmed word; f84/f84r and reserves closed.
 
 ## Structural baseline
