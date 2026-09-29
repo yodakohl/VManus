@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: check source evidence for deliberately composite plant pictures.
-Latest decision: F retains schor C1 head-part possibility, no taxon or full reading. SOL/gold unselected; GDT1095 missing pixels. Admission totals corrected from contracts.
-Working files: source_supply_20260929/F_ROOT_RESULT.md, F_SCOPE_COUNT_CORRECTION.json, G_*; GDT1090.
-Assumptions: drawn parts need not name whole plants; a source must explicitly support any composite reading. No old gloss promoted.
-Resume: publish F closure; inspect G primary supply and predecessors before selecting a target account.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer G source-only30min. Reserves closed.
+Task: seek dated text-picture evidence for named organ comparisons.
+Latest decision: G supports one-referent/many-aspect source mechanism, no target account. F schor C1 unchanged; composite botanical instruction not acquired.
+Working files: source_supply_20260929/G_ROOT_REVIEW.md, H_*; IDEA357; GDT963/976/977/978.
+Assumptions: analogical herbal descriptions already studied; H needs new source-image evidence. No common drawing scale or old gloss assumed.
+Resume: publish G corrected source packet; inspect H source and exact comparative predecessors before target choice.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer H source-only30min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
