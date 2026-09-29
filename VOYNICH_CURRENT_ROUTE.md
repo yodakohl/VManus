@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: AS complete local C0 closed unselected;seek genuinely distinguishing bounded consequence.
-Latest decision: AS source W/B suspension unpaid;direct qokchy-oky reuse fails,global scope unknown;1090C1retained.
-Working files: source_supply_20260929/AS_ROOT_REVIEW.md,AS_RESULT.json,AS_AUTHOR.json;F_ROOT_RESULT.md.
-Assumptions: 0confirmed words;21values9rules no selection;no ASbinder/alias/type repair;all old stops/seals.
-Resume: inspect source/structural predecessor constraints before nextselection;no unchanged source-fit retry.
-Running: extended10h deadline30Sep03:16:12UTC;AS closed within60min;796raw;agents done;push auth unavailable.
+Task: GDT1100 sy arity tie closed;keep post-result physical-edge lead unselected.
+Latest decision: all52eligible sy medial;3architectures tied;AU location uncertain;AS/1090 unchanged.
+Working files: experiments/yolo/gdt1100_sy_genitive_closure/REPORT.md;source_supply_20260929/AU_SY_NATIVE_RESULT.md.
+Assumptions: 0words;sy placement posthoc,no s=sy or filler deletion;AS frozen;all old stops/seals.
+Resume: check GDT801 primary before selecting a typed whole-context consequence;no arity recount/AS repair/AU recrop.
+Running: extended10h deadline30Sep03:16:12UTC;1100/AU closed;AT agents done,0newraw;push auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

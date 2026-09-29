@@ -1,0 +1,44 @@
+{
+  "sources": [
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json"
+  ],
+  "allow_source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+  "paragraph_receipt": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "editions": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "clear_separators": [
+    "DEFINITE_SPACE",
+    "DRAWING_INTERRUPTION",
+    "LINE_START",
+    "LINE_END"
+  ],
+  "candidates": {
+    "A": {
+      "construction": "X sy Y; provisional binary OF/genitive",
+      "left": true,
+      "right": true
+    },
+    "B": {
+      "construction": "X sy; unspecified postposed unary qualifier",
+      "left": true,
+      "right": false
+    },
+    "C": {
+      "construction": "sy X; unspecified preposed unary qualifier",
+      "left": false,
+      "right": true
+    }
+  },
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1098**
-- Experiment-associated tracked files: **21,847** (1.9 GiB)
-- Structured GDT337+ experiments: **763**
+- Experiments indexed: **1099**
+- Experiment-associated tracked files: **21,865** (1.9 GiB)
+- Structured GDT337+ experiments: **764**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1100 | GDT1100 | `THREE_ARITY_PACKAGES_SURFACE_COMPATIBLE_UNSELECTED` | [report](../experiments/yolo/gdt1100_sy_genitive_closure/REPORT.md) | 18 | 2.8 MiB | 3 | STRUCTURED_YOLO |
 | GDT1099 | GDT1099_PY_SAME_PARAGRAPH_SCOPE | `ONE_HEADER_REPRISE_SCOPE_ONLY` | [report](../experiments/yolo/gdt1099_py_same_paragraph_scope/REPORT.md) | 16 | 71.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT1098 | GDT1098 | `SHARED_DOMAIN_CANDIDATES_REMAIN` | [report](../experiments/yolo/gdt1098_dioscorides_shared_domain_conjunction/REPORT.md) | 27 | 767.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1097 | GDT1097 | `THREE_SOLVER_INFEASIBLE_FOUR_UNKNOWN_NO_COMPLETE_CODE` | [report](../experiments/yolo/gdt1097_dioscorides_complete_interval_code/REPORT.md) | 20 | 172.0 KiB | 5 | STRUCTURED_YOLO |
