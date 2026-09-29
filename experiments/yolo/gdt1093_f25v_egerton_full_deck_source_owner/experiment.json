@@ -1,0 +1,90 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory visual source-owner capacity only; no Voynich word, plant identity, direct copy, or medical meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT1092",
+    "GDT618"
+  ],
+  "experiment_id": "GDT1093",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/PREREGISTRATION.md",
+      "role": "frozen target and decision",
+      "sha256": "aa50535feec642aa30d517753396272a5ae786348db738f71ee57b7d90836c88"
+    },
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/METHOD.md",
+      "role": "method and limits",
+      "sha256": "401120b96996f6342fb95fb5559291e0ffc4f06dc46af482a50a52fa448ca2a6"
+    },
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/README.md",
+      "role": "reproduction pointer",
+      "sha256": "125d251901f070ebf1577c53a4d386b481e2cf098a945f5fe4ef0c9789a6f4f2"
+    },
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/src/fetch_source_deck.py",
+      "role": "official source deck downloader",
+      "sha256": "3ccfaa612f355872dc0c39a2f14c9e2c02c6c9198c5abdf0adef0edd1b03b67b"
+    },
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/src/SOURCE_DECK.tsv",
+      "role": "all 309 official canvas receipts",
+      "sha256": "81d0cf997a330bfe7fdc0786d291f51b025b8b73e88640d98ef2b95e42d2e3b5"
+    },
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/src/NATIVE_SHORTLIST.tsv",
+      "role": "native visual observations",
+      "sha256": "77330cfd6844874c1d325e3df86f992dccec1837e818117272b03bd5d1da106f"
+    },
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/src/run.py",
+      "role": "fixed-rule replay",
+      "sha256": "3e74d1346b16834cf996b2cce1099af3aac3436dcf01498fb9af038676965a04"
+    },
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/src/validate.py",
+      "role": "decision validator",
+      "sha256": "d9ea339d309e23e39324448a0c041cafd60391960a71c9b2754b2accaeea2b3e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/REPORT.md",
+      "role": "interpretive report",
+      "sha256": "f3f995eb38352b9ffc1a89b412d3eaaa0d924f0532959cf0d13554d8bbedcefc"
+    },
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/artifacts/RESULT.json",
+      "role": "fixed-rule outcome",
+      "sha256": "500000caf99ddbc99a74c7babcf17630065cd4d9bd9ebee58dbfff9ddaa30742"
+    },
+    {
+      "path": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/artifacts/VALIDATION.json",
+      "role": "replay validation",
+      "sha256": "db0cbd6f101bb603487d8d2a5a1d7fbe7f5670693e1c592501b6a35882b8cecc"
+    }
+  ],
+  "question": "Does any named plant in the complete official BL Egerton 747 image deck share all three fixed unusual f25v visual features in one entry?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f25v_egerton_full_deck_source_owner",
+  "status": "COMPLETE_NO_THREE_PART_NAMED_SOURCE_OWNER",
+  "title": "f25v egerton full deck source owner",
+  "updated": "2026-09-29",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/artifacts/VALIDATION.json"
+  }
+}

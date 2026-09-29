@@ -4,11 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: seek a new meaning anchor with a written source relation and independent owner.
-Latest decision: GDT1092 f25v/Sloane dragon 0/4; Egerton f89r dragonblood tree also differs. GDT1091 ofchy cup contrast fails target/control; GDT1090 schor 3/3 descriptive only. IDEA739 named-copy owner missing after 235 Sloane canvases.
-Working files: GDT1092/1091/1090 reports; IDEA739 source note/review; IDEA737/738 raw.
-Assumptions: motif co-presence cannot bind source or word; prior root exposure is not confirmation.
-Resume: seek distinct source-first written-relation anchor; do not reopen f25v on another dragon motif.
+Task: seek a written historical meaning relation with distinctive visual owner.
+Latest decision: GDT1093 full 309-canvas Egerton747 deck has no fixed three-part named f25v owner. Egerton f84v Rabarbarum has only retrospective partial green-leaf/orange-root resemblance; GDT1092 Sloane dragon 0/4. GDT1091 ofchy fails; GDT1090 schor descriptive only.
+Working files: GDT1093/1092 reports; IDEA739 source note; GDT1090/1091 reports.
+Assumptions: motifs and botanical color alone cannot bind a plant or word; f25v exposed.
+Resume: examine independent rhubarb witnesses only as separately declared C0 comparison, or seek a different written relation; keep fixed Egerton result.
 Running: no confirmed word; f84/f84r and reserves closed.
 
 ## Structural baseline
