@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review V shared written constructions from existing whole target accounts.
-Latest decision: 777/778sources retained RAW,no target test;776local ALSO+OF draft has7grammarcosts and1047boundarylimit.
-Working files: laufenberg_f85r2_20260926/source_supply_20260929/U_ROOT_REVIEW.md,V_*; T_PROVENANCE_REPORT.md.
-Assumptions: 0confirmed words. No new gloss from status/phase sources;772extension unbound;1097parked. Old tests unchanged.
-Resume: V must supply one actual construction on2different written arguments in whole units; review primaries before selection.
-Running: 20h 29 Sep06:17:46–30 Sep02:17:46 UTC; Vproducer45min from12:50UTC; root Upublication. Reserves closed.
+Task: review W body versus period/visibility constructions in existing whole f68r2 rings.
+Latest decision: 779local division has4written pairs but no bound output;reverse orientation also gives1;22/30groups unknown.
+Working files: laufenberg_f85r2_20260926/source_supply_20260929/V_ROOT_REVIEW.md,W_*; E_ROOT_RESULT.md.
+Assumptions: 0confirmed words. 777/778RAW;776local only;772extension unbound;1097parked. Old tests unchanged.
+Resume: W must retain both whole rings,f89v1 and prior E limits; review actual written consequences before selection.
+Running: 20h 29 Sep06:17:46–30 Sep02:17:46 UTC; Wproducer35min; root Vpublication. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
