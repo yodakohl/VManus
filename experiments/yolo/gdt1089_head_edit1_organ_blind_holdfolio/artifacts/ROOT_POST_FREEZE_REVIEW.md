@@ -1,0 +1,7 @@
+# GDT1089 post-freeze root sensitivity, not a score change
+
+After both word-blind 38-image inventories were hashed, root viewed the official full-resolution images for f2v, f29v and f3v. This was prior-exposed review, not independent confirmation. f2v has a low horizontal run of successive rounded units; f3v has a low red horizontal axis with a small series of ring-separated units. Both inventories independently marked the fixed HORIZONTAL_BEADS code YES on f2v and f3v, explaining the previously covered P20 match. The drawing does not establish that the two basal structures have the same botanical anatomy, nor that either first head names them.
+
+f29v likewise has a conspicuous low horizontal, irregular root-like object, as noted in GDT1088's post-freeze diagnostic. Its outline contains lobes and fine laterals rather than the preregistered run of at least three **successive rounded/knobby segments**. Both present blind readers marked HORIZONTAL_BEADS NO on f29v. This is consistent with their literal code, although an alternative broader rootstock code might include it. Such a broader code was not registered and cannot alter P19 or the present decision. f29v's exact first head `kooiin` also occurs on f2v, so the difference is a retained counterexample to treating the P20 overlap as a whole-form organ meaning.
+
+No primary annotation, pair decision, or threshold was changed following this review.

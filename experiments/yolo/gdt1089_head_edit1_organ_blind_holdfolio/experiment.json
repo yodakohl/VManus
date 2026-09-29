@@ -53,7 +53,7 @@
     {
       "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/README.md",
       "role": "directory reproducibility",
-      "sha256": "0245b51b95f671f3a0597227ba9f5f3e385a52cdf587add25db12d50a0d39259"
+      "sha256": "571afa8e151e3ceeb3a4f9aa1cf7c7a5742575add621efa9b08d9e7bf4fbe0a6"
     },
     {
       "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/freeze_pairs.py",
@@ -83,15 +83,56 @@
     {
       "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/run.py",
       "role": "reserved executable; to be completed after image provenance freeze",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "sha256": "71712a5125aa63c11330dc4d8a461352b402c4f01145d7bac2e50d87f4a27f50"
     },
     {
       "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/validate.py",
       "role": "reserved executable; to be completed after image provenance freeze",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "sha256": "d979611a7cb26013856cfbea08fc74c053f070daf57839c8760f16b40d5d6783"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/SOURCE.tsv",
+      "role": "official image provenance",
+      "sha256": "87532cf08ffac09036708c9d9185366e472de76cc638d198a2f0c40d4898bffb"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/BLIND_A.tsv",
+      "role": "frozen word-blind visual inventory A",
+      "sha256": "7796e93125d113d1359dc4385a919fec0bff2a701b1bb8da31068ba5d8d5fc15"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/BLIND_B.tsv",
+      "role": "frozen word-blind visual inventory B",
+      "sha256": "f6f7bcb1115e8e2dd312d9818a6bcc094e79040b75934361c83ed48c5e5a5b2a"
     }
   ],
-  "outputs": [],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/PAIR_DECISIONS.tsv",
+      "role": "all 50 fixed target and control decisions",
+      "sha256": "1c00ea1561da28d544069694917350fa9979536114c2b933058099c08946c63d"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/RESULT.json",
+      "role": "decision and counts",
+      "sha256": "3b2acbe4fb3a10f44c0d9a6dd76d7028b408634a3e4d0fe44432652cbb2f3193"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/ROOT_POST_FREEZE_REVIEW.md",
+      "role": "prior-exposed sensitivity, no score change",
+      "sha256": "36e15b3ee94a01aefc002ed2843c17ee4095bc3eae806f73efaa4f4ba67c7086"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/VALIDATION.json",
+      "role": "structural validation receipt",
+      "sha256": "8217cbcc1859a7334777521031384c065d34b48fa65c03ef49084f7653cdb0c1"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/REPORT.md",
+      "role": "interpretation and complete pair table",
+      "sha256": "d902a3cd693b03d6578d1db35a35be7aa73f2bcdff3ee37b120ba483cb886ba9"
+    }
+  ],
   "question": "Do fixed one-edit first-head neighbours share specific drawn organ architecture on newly admitted physical pages more often than preselected same-anchor controls?",
   "schema_version": 1,
   "sealed_data": {
@@ -99,11 +140,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "head_edit1_organ_blind_holdfolio",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_INCONCLUSIVE_NO_MEANING",
   "title": "Blind organ architecture test for one-edit Herbal-A first heads",
   "updated": "2026-09-29",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/VALIDATION.json"
   }
 }

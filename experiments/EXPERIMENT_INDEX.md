@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1088**
-- Experiment-associated tracked files: **21,338** (1.9 GiB)
+- Experiment-associated tracked files: **21,346** (1.9 GiB)
 - Structured GDT337+ experiments: **753**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1089 | Blind organ architecture test for one-edit Herbal-A first heads | `REGISTERED_UNSCORED` | — | 12 | 18.1 KiB | 7 | STRUCTURED_YOLO |
+| GDT1089 | GDT1089 | `COMPLETE_INCONCLUSIVE__TWO_NEW_TARGET_ORGAN_MATCHES_VS_ONE_CONTROL` | [report](../experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/REPORT.md) | 20 | 55.8 KiB | 7 | STRUCTURED_YOLO |
 | GDT1088 | GDT1088_LOCAL_ALL_PAIR_BACKGROUND | `POSITIVE_DESCRIPTIVE_2_OF6_VS_2_OF30__NO_SIGNIFICANCE` | [report](../experiments/yolo/gdt1088_repeated_head_visual_owner_audit/REPORT.md) | 19 | 57.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT1087 | GDT1087_TSHOR_BOUNDARY_CLARIFICATION | `C0_VISUAL_OVERLAP__NO_NEW_LEXICAL_TEST` | [report](../experiments/yolo/gdt1087_botanical_blind_name_audit/REPORT.md) | 16 | 59.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT1086 | GDT1086 | `INVALID_OWNER_MAPPING__TEXT_ECHO_NOT_RUN` | [report](../experiments/yolo/gdt1086_f68v2_cardinal_side_reference/REPORT.md) | 10 | 21.9 KiB | 3 | STRUCTURED_YOLO |

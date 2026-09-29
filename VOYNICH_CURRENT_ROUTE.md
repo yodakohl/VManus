@@ -2,19 +2,18 @@
 Updated: 2026-09-29. Live resume point.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT1089 blind organ audit of 25 one-edit Herbal-A heads.
-Latest decision: GDT1088: same-head specific organ 2/6 versus
-2/30 off-head locally; no taxon/word. Observer misses on f2v/f29v.
-Working files: GDT1089 prereg, 38-page blind list, 25 pairs/controls;
-GDT1070, GDT1087/1088 source inventories.
-Assumptions: one-edit form may carry visual relation or none; readers
-are alternate transcriptions, not independent manuscripts.
-Resume: Publish GDT1089 registration and 11-image scope before pixels;
-resolve Yale canvases; two word-blind 38-page inventories; join only
-after both freeze. Prior exposure not independent. f84/f84r sealed.
-Running: GDT1089 registration. No confirmed word.
+Task: close/publish GDT1089; screen independently owned content contrast.
+Latest decision: GDT1089 inconclusive: newly covered image pairs 2/14
+YES vs controls 1/14; only two form-pair contrasts, below rule.
+Working files: GDT1089 REPORT/RESULT, two blind inventories; idea queue
+IDEA712–726 remains unreviewed.
+Assumptions: visual organ overlap is not word meaning; same manuscript
+readers and prior-exposed images cannot confirm semantics.
+Resume: validate/publish GDT1089; context topic, bounded idea search,
+route-check and linked primaries before choosing the next contrast.
+Running: no confirmation; f84/f84r and reserves closed; 0 words.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
