@@ -37,3 +37,8 @@ missed; the eight likely entries received native-scale inspection. The BL
 source deck is an external medieval herbal, not independent Voynich reserve
 data. Voynich f84/f84r and all reserved pages stayed closed. The original
 GDT1092 negative Sloane result remains unchanged.
+
+**Post-publication correction:** `CORRECTION_20260929.md` records two Egerton
+Plantago pages omitted from the native shortlist. Their fan and fibrous roots
+are a closer visual near miss than Rabarbarum, but still fail the fixed
+three-part owner rule. The original result and preregistration are unchanged.
