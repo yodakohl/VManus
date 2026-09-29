@@ -4,11 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: IDEA764 exploratory shared treatment-exception construction on complete f85 S/W.
-Latest decision: GDT1096 published:38 contradictions,303partial domains, no full code. J graft continuation lacks its declared ZL reuse.
-Working files: AGE_INTERVENTION_CONSTRUCTION_DECISION_20260929.md in laufenberg_f85r2_20260926; source_supply_20260929/K_*,L_*.
-Assumptions: new Sloane35/65 scope contrast; no inherited glosses or four-age key. Every residual group remains explicit.
-Resume: retain all saved groups; author one invariant exception construction; checkpoint09:55UTC.
+Task: review L proposals grounded in prior positive constructions.
+Latest decision: IDEA764 has a partial ZL/IT set-scope draft, RF gap; age/priority/preference unread. GDT1096:38 contradictions,303partial cases.
+Working files: laufenberg_f85r2_20260926/AGE_INTERVENTION_RESULT_20260929.md; source_supply_20260929/L_*; GDT877/803/318/808.
+Assumptions: no new confirmed meanings; hypothetical readings allowed. No automatic filler-gloss, alias or solver expansion.
+Resume: publish764; read L core plus cited primary predecessors before selecting the next full-unit construction.
 Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; idea producer L30min. Reserves closed.
 
 ## Structural baseline
