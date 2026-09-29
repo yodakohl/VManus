@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1100**
-- Experiment-associated tracked files: **21,881** (1.9 GiB)
-- Structured GDT337+ experiments: **765**
+- Experiments indexed: **1101**
+- Experiment-associated tracked files: **21,896** (1.9 GiB)
+- Structured GDT337+ experiments: **766**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1102 | GDT1102 | `NO_OTHER_LEAF_CAPACITY` | [report](../experiments/yolo/gdt1102_okol_chody_luminary_product/REPORT.md) | 15 | 39.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT1101 | GDT1101 | `NO_LITERAL_SY_PRESENCE_ABSENCE_COMPARISON` | [report](../experiments/yolo/gdt1101_sy_literal_omission_capacity/REPORT.md) | 16 | 55.8 KiB | 7 | STRUCTURED_YOLO |
 | GDT1100 | GDT1100 | `THREE_ARITY_PACKAGES_SURFACE_COMPATIBLE_UNSELECTED` | [report](../experiments/yolo/gdt1100_sy_genitive_closure/REPORT.md) | 18 | 2.8 MiB | 3 | STRUCTURED_YOLO |
 | GDT1099 | GDT1099_PY_SAME_PARAGRAPH_SCOPE | `ONE_HEADER_REPRISE_SCOPE_ONLY` | [report](../experiments/yolo/gdt1099_py_same_paragraph_scope/REPORT.md) | 16 | 71.1 KiB | 4 | STRUCTURED_YOLO |

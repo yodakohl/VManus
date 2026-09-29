@@ -1,15 +1,15 @@
 # Voynich current route
-Updated: 2026-09-29. Live resume point.
+Updated: 2026-09-30. Live resume point.
 
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: BB nominal-light C0 retained unselected;W/Y unchanged;0words.
-Latest decision: Nominal type owes no recipient;light/time tie,271/288unknown.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BB_RESULT.md.
-Assumptions: Two body guesses+LIGHT_OF;no hidden recipient;AJ owner unresolved;all stops/seals.
-Resume: Read BB_RESULT;next author bounded written time/light consumer on whole f89v1.13-20 before more atom values;no unchanged census.
-Running: extended10h deadline30Sep03:16:12UTC;BB/BA closed;none running;remote auth unavailable.
+Task: GDT1102 header lacks other-leaf capacity;BE lunar-body face retained;0words.
+Latest decision: Md2 79r blue frontal Moon portrait is not a full-phase label;AJ unchanged.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BE_RESULT.md.
+Assumptions: BB/W/Y unselected;Cancer house/body/phase distinct;all stops/seals.
+Resume: Read BE_RESULT+GDT1102 REPORT;select a different written relation or genuinely phase-owned face;no header/source-page expansion.
+Running: extended10h deadline30Sep03:16:12UTC;BD/BE/BC closed;none running;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
