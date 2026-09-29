@@ -9,7 +9,7 @@ Latest decision: 780partialC0;only known okaroko echo.1098joins all13shared sour
 Working files: gdt1098_dioscorides_shared_domain_conjunction; source_supply_20260929/X_*,Y_*; W_ROOT_RESULT.md.
 Assumptions: 0confirmed words.1097parked;1098necessary projection only;780partial. Old failures unchanged.
 Resume: publish1098registration before one run; validate all tuples and parent rows;review whole X/Y separately.
-Running: 20h 29Sep06:17:46–30Sep02:17:46UTC;1098inclusive checkpoint14:25UTC;Yproducer35min. Reserves closed.
+Running: 20h 29Sep06:17:46–30Sep02:17:46UTC;1098inclusive checkpoint14:25UTC;Yproducer35min. f84r is sealed; reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -36,7 +36,7 @@ controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primari
 Other closed families remain in the existing registry; no automatic reopening.
 
 ## Access and operating boundaries
-f84 is sealed; f84r is sealed. f116v not admitted. Reserves closed until near-complete
+f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;92 legacy image keys/98 selectors (F scope receipt). f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
