@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1100 sy arity tie closed;keep post-result physical-edge lead unselected.
-Latest decision: all52eligible sy medial;3architectures tied;AU location uncertain;AS/1090 unchanged.
-Working files: experiments/yolo/gdt1100_sy_genitive_closure/REPORT.md;source_supply_20260929/AU_SY_NATIVE_RESULT.md.
-Assumptions: 0words;sy placement posthoc,no s=sy or filler deletion;AS frozen;all old stops/seals.
-Resume: check GDT801 primary before selecting a typed whole-context consequence;no arity recount/AS repair/AU recrop.
-Running: extended10h deadline30Sep03:16:12UTC;1100/AU closed;AT agents done,0newraw;push auth unavailable.
+Task: GDT1101 literal sy omission comparison closed;next grounded content consequence.
+Latest decision: 15ZL/29IT four-whole frames,0contrast pairs;1100 tie unchanged;no sy deletion.
+Working files: experiments/yolo/gdt1101_sy_literal_omission_capacity/REPORT.md;source_supply_20260929/AT_CONSEQUENCE_REVIEW.md.
+Assumptions: 0words;sy edge lead unselected;schorC1/AS frozen;all old stops/seals.
+Resume: read AT consequence review and GDT765 full f32r context for contact-withdrawal vs durable cure;not yet selected.
+Running: extended10h deadline30Sep03:16:12UTC;1101 closed;AV producer done,0newraw;push auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
