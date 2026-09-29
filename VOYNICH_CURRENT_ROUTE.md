@@ -3,13 +3,13 @@ Updated: 2026-09-29. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: AY source-body relations retained;AZ full-Moon face comparison closed;0words.
-Latest decision: Walters native fullphase has noface;Regio locator incomplete;AW C0 unselected.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/AZ_RESULT.md.
-Assumptions: AW/AS frozen;schorC1;AJ Sun/fullMoon unresolved;all stops/seals;no newgloss.
-Resume: 796/AI/XY/1046/813 read;next W_ROOT_RESULT primary before low-cost light/period C0;labels/doublets and Y unchanged.
-Running: extended10h deadline30Sep03:16:12UTC;AY/AZ closed;no agents;remote auth unavailable.
+Status: checkpoint
+Task: BB nominal-light C0 retained unselected;W/Y unchanged;0words.
+Latest decision: Nominal type owes no recipient;light/time tie,271/288unknown.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BB_RESULT.md.
+Assumptions: Two body guesses+LIGHT_OF;no hidden recipient;AJ owner unresolved;all stops/seals.
+Resume: Read BB_RESULT;next author bounded written time/light consumer on whole f89v1.13-20 before more atom values;no unchanged census.
+Running: extended10h deadline30Sep03:16:12UTC;BB/BA closed;none running;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
