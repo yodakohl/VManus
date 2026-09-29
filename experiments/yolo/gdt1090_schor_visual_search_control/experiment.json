@@ -49,7 +49,7 @@
     {
       "path": "experiments/yolo/gdt1090_schor_visual_search_control/METHOD.md",
       "role": "implementation method",
-      "sha256": "68e92f2ab71093f5e8ab62fdd73dd2c739c262e60c9294bdfb6d81df0808212a"
+      "sha256": "bfdf4b4d67b353d39f389f807504fe49dbda9f163eadff2e076524f56c6829a5"
     },
     {
       "path": "experiments/yolo/gdt1090_schor_visual_search_control/README.md",
@@ -70,6 +70,21 @@
       "path": "experiments/yolo/gdt1090_schor_visual_search_control/src/validate.py",
       "role": "full replay validator",
       "sha256": "aca575189150165c94101ac9763e45c0be5b5d6243e27574f6e687cf7f121203"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/POST_RESULT_DIAGNOSTIC_NOTE.md",
+      "role": "post-result diagnostic scope and decision",
+      "sha256": "e7be12041c1af86eba32bc9510111b0f271d78e2b00d17138dab3f7fafb5f302"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/src/diagnostic_feature_family.py",
+      "role": "post-result all-code-family runner",
+      "sha256": "745af0cbffef9dc5b643c9b9b92e4f8c794310ebd79048052882012284499986"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/src/validate_feature_family.py",
+      "role": "post-result replay validator",
+      "sha256": "cec97a69b26c2e98b2efc393a8ed98321d2da341f74858fd540a3a30adab511b"
     }
   ],
   "outputs": [
@@ -101,7 +116,22 @@
     {
       "path": "experiments/yolo/gdt1090_schor_visual_search_control/REPORT.md",
       "role": "interpretation and limitations",
-      "sha256": "b139285b9646ac14628eaacead4cb9d76b4c73d3149590f1dd7ebc35b1c010bb"
+      "sha256": "fe6e8c288b21da08e3afb7cca3e438b29a5816c52e4d5020d3d57eec7b579f4c"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/FEATURE_FAMILY.tsv",
+      "role": "complete 21 feature-set diagnostic",
+      "sha256": "54aa3da2699295619d64b4c2dac672381473adcb1bde10390ec3bb22fdb034a0"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/FEATURE_FAMILY_RESULT.json",
+      "role": "post-result diagnostic summary",
+      "sha256": "e563e6ef5d6d09c9c94a40caf1ed9b81d556d039775aac4ea4933608f07709b6"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/FEATURE_FAMILY_VALIDATION.json",
+      "role": "post-result replay receipt",
+      "sha256": "6f96ddbacbad962a39d2cbb9c1481739ca0618f1c376403714f6ce7a02724e5e"
     }
   ],
   "question": "How many complete words share the retrospective 3/3 narrow reproductive-head image match of schor within all 38 blind-coded folios?",

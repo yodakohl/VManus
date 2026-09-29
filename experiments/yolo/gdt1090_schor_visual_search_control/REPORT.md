@@ -60,3 +60,19 @@ Next meaningful test needs a word-to-organ owner or a contrast that separates
 flowering from fruiting with a frozen prediction on eligible, unexamined
 physical leaves. Repeating the current selected images or widening the organ
 union cannot settle the word meaning.
+
+## Post-result feature-family sensitivity
+
+An explicitly **post-result** diagnostic, documented in
+[`POST_RESULT_DIAGNOSTIC_NOTE.md`](POST_RESULT_DIAGNOSTIC_NOTE.md), enumerated
+all six original singleton codes and all 15 two-code unions against the same
+169-word deck. No single code gives any word an all-positive image set of at
+least three folios. **Nine of the 15 pairs**, however, give at least one word
+an all-positive set. `schor` qualifies only for the originally selected
+`SPINY_ROUND_HEAD+MULTI_UNIT_SPIKE` pair. Among the five globally exact-three
+fair-deck words, only `schor` qualifies under any one- or two-code set.
+[`FEATURE_FAMILY.tsv`](artifacts/FEATURE_FAMILY.tsv) lists all 21 choices and
+their complete hits; source, result and replay validator are included. This
+shows why the selected-union rarity must not be read as search-wide rarity or
+statistical evidence. It does not change the positive selected-union 3/3 fact,
+the lack of a word-to-organ pointer, or the C1 working-gloss ceiling.

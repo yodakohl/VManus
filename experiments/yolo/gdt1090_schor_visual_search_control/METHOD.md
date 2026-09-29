@@ -11,3 +11,8 @@ each row, the input hashes, target page set and visual-union count.
 
 The outcome measures retrospective multiplicity. Word-to-organ ownership,
 independent semantic meaning and search-wide significance are outside scope.
+
+The later, post-result sensitivity is specified honestly in
+`POST_RESULT_DIAGNOSTIC_NOTE.md`. Run `src/diagnostic_feature_family.py` and
+`src/validate_feature_family.py` to reproduce its 21 singleton/pair choices;
+these outputs do not modify the registered primary deck or decision.

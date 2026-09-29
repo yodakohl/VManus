@@ -5,7 +5,7 @@ Updated: 2026-09-29. Live resume point.
 Phase: exploration
 Status: active
 Task: seek `schor` organ owner or flower/fruit contrast.
-Latest decision: GDT1090 finds `schor` alone 3/3 narrow-head among 169 words on >=3 blind-coded images; five global and 50 image frequency-matches. Retrospective C1 organ lead; no owned/literal meaning. f13r `torshor` radiate extension fails.
+Latest decision: GDT1090 `schor` alone 3/3 for selected narrow union among 169 words on >=3 blind-coded images (fair deck 5); post-result 9/15 other code pairs also yield an all-positive word. C1 organ lead only; no owned/literal meaning. f13r radiate extension fails.
 Working files: GDT1090 REPORT/PREREG; GDT765/1089; schor cross-check.
 Assumptions: image co-presence is not organ ownership; selected union/word and prior-exposed images cannot confirm semantics.
 Resume: seek a distinct source- or image-owned organ contrast; context topic, ideas, route-check, primaries before testing.
