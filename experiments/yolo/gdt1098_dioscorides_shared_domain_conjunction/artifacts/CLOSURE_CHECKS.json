@@ -1,0 +1,24 @@
+{
+  "task_staged_privacy_and_manifest": "PASS before final closure artifact; rerun required after staging closure",
+  "context_check": "PASS,4024bytes",
+  "ideas_check": "PASS",
+  "global_check": "FAIL_PREEXISTING_UNRELATED_10",
+  "global_failures": {
+    "GDT600": "seven unbound reproducibility files",
+    "GDT953": "missing large-artifact justification",
+    "GDT1042": "EXTERNAL_SOURCES.md hash mismatch",
+    "GDT1043": "EXTERNAL_SOURCES.md hash mismatch"
+  },
+  "external_sources_bytes_unchanged_since_before_this_experiment": {
+    "prior_commit": "206b87f0b",
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/EXTERNAL_SOURCES.md",
+    "sha256": "81d0f65dbdf88b75e393c96e6bfcbe375edd592ba36e53f40b2ce4d25a9c8aea"
+  },
+  "engineering_corrections": {
+    "initial_manifest": "Missing role fields corrected before registration publication; no target result existed.",
+    "route_literals": "Registration commit accidentally replaced a literal required by context check while satisfying a separate older checker. Route-only2ff3eb94c restored both before execution; scientific lock unchanged."
+  },
+  "global_pass_claim": false,
+  "target_runs": 1,
+  "meaning_confirmation": false
+}

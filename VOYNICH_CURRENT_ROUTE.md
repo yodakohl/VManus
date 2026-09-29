@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: register GDT1098 finite cross-record domain conjunction; review X/Y constructions.
-Latest decision: 780partialC0;only known okaroko echo.1098joins all13shared source domains;no solver restart.
-Working files: gdt1098_dioscorides_shared_domain_conjunction; source_supply_20260929/X_*,Y_*; W_ROOT_RESULT.md.
-Assumptions: 0confirmed words.1097parked;1098necessary projection only;780partial. Old failures unchanged.
-Resume: publish1098registration before one run; validate all tuples and parent rows;review whole X/Y separately.
-Running: 20h 29Sep06:17:46–30Sep02:17:46UTC;1098inclusive checkpoint14:25UTC;Yproducer35min. f84r is sealed; reserves closed.
+Task: close GDT1098 and review X/Y written constructions with their known counterexamples.
+Latest decision: 1098retains2.86m domain tuples;all4UNKNOWN Iris pages remain. No code;780partialC0.
+Working files: gdt1098_dioscorides_shared_domain_conjunction/REPORT.md; source_supply_20260929/X_*,Y_*.
+Assumptions: 0confirmed words.1097/1098parked;780partial;Xno new card. Old failures and reserves unchanged.
+Resume: review X/Y whole constructions and known doublets/labels;do not relaunch unchanged code projections.
+Running: 20h29Sep06:17:46–30Sep02:17:46UTC;1098publication;Yproducer35min. f84r is sealed;reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

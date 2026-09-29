@@ -1,5 +1,11 @@
-# GDT1098 — dioscorides shared domain conjunction
+# GDT1098 — shared recurrent-domain conjunction
 
-Status: `REGISTERED_UNSCORED`
+Status: `SHARED_DOMAIN_CANDIDATES_REMAIN`.
 
-See `METHOD.md` and `experiment.json`.
+See [REPORT.md](REPORT.md) for all candidate consequences and limits,
+[METHOD.md](METHOD.md) for the fixed finite projection, and
+[experiment.json](experiment.json) for hashes and reproduction commands.
+No complete dictionary or confirmed word.
+
+[Publication checks](artifacts/CLOSURE_CHECKS.json) retain ten unrelated
+global repository failures; the task check does not claim a global PASS.
