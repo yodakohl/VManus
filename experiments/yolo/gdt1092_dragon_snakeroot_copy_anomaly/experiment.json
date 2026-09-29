@@ -1,0 +1,90 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory visual source-owner capacity only; no Voynich word, plant identity, direct copy, or medical meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT618",
+    "GDT1091"
+  ],
+  "experiment_id": "GDT1092",
+  "inputs": [
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md",
+      "role": "single Yale f25v image admission",
+      "sha256": "81c35fb132bb961bbbfe8d9610e4b96d9927432de14880c6c06cbf6a40d45ed4"
+    },
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/PREREGISTRATION.md",
+      "role": "fixed historical signature and decision",
+      "sha256": "4d91ec029241fb8136277f91375076ff8776114d9e154e158d1bb15a502dc00c"
+    },
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/METHOD.md",
+      "role": "fixed comparison method",
+      "sha256": "51b026e7e581eff1082826b66275c9c4841dda09d7a1c2e493e8a50be892e095"
+    },
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/README.md",
+      "role": "reproduction pointer",
+      "sha256": "86eb4c45331b6bd70702d80d6d9edeb48be5b3802d22bd60b38a6669e3a28695"
+    },
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/src/SOURCE.tsv",
+      "role": "official source image provenance",
+      "sha256": "3f56f0f5f5d8c8101e1b66368f8ba6d210162da40b786f96d0a5c5c50f077d65"
+    },
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/src/OBSERVED.tsv",
+      "role": "complete visual judgments",
+      "sha256": "a6244dd4b2d1a9ffa13712faff8cad9c6da03fe165df0db3ca48777b2942e44a"
+    },
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/src/run.py",
+      "role": "deterministic decision replay",
+      "sha256": "3495d5418af01af66f30f65b4bf8c7e6067dffc7688194f9769b67ab976735b0"
+    },
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/src/validate.py",
+      "role": "replay validator",
+      "sha256": "0d74f872ac690636eeb42cf27a81f3c0e045c4da20c58d9fbdf23fbcf21e8cd2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/REPORT.md",
+      "role": "complete visual comparison and limits",
+      "sha256": "193ec4b52019399265e08f1189b3cbd16612939b18914529837042455936a08d"
+    },
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/artifacts/RESULT.json",
+      "role": "four-feature fixed decision",
+      "sha256": "e2ac885c04b19b418a2513d2e50b4e2a5ba4eec45f3482cffa98ab630093aeff"
+    },
+    {
+      "path": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/artifacts/VALIDATION.json",
+      "role": "decision replay check",
+      "sha256": "166a1050bcc118804d42c05106b1dc2d3c06d2c1dab4b86bd82cebfd6f8a6aa9"
+    }
+  ],
+  "question": "Does f25v share the entire rare dragon-and-snake plus plant-organ signature of the named Dragontea/serpentaria entry in Sloane MS 4016 f38r?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "dragon_snakeroot_copy_anomaly",
+  "status": "COMPLETE_NO_RARE_COPY_ANOMALY_MATCH",
+  "title": "dragon snakeroot copy anomaly",
+  "updated": "2026-09-29",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/artifacts/VALIDATION.json"
+  }
+}

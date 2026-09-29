@@ -4,11 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: choose next owner-bound meaning test after GDT1091; no new access selected.
-Latest decision: GDT1091 PARTIAL_ONE_TARGET: f26v cup YES, f39v NO; two controls YES. Direct cup-to-ofchy argument retired. GDT1090 schor 3/3 C1 descriptive; IDEA739 named-copy owner missing after 235-canvas source deck.
-Working files: GDT1091/GDT1090 reports; IDEA739 source note/review; IDEA737/738 raw.
-Assumptions: co-presence is not word-to-organ ownership; blind image codes are not semantic translations; prior root exposure is not confirmation.
-Resume: publish GDT1091 closure; then route-check and primary-review distinct owner-bound proposal with fixed discriminating consequence.
+Task: seek a new meaning anchor with a written source relation and independent owner.
+Latest decision: GDT1092 f25v/Sloane dragon composite 0/4, source owner fails. GDT1091 ofchy cup contrast fails target/control; GDT1090 schor 3/3 remains descriptive only. IDEA739 named-copy owner missing after 235 Sloane canvases.
+Working files: GDT1092/1091/1090 reports; IDEA739 source note/review; IDEA737/738 raw.
+Assumptions: motif co-presence cannot bind source or word; prior root exposure is not confirmation.
+Resume: publish GDT1092; then primary-review a distinct source-first written-relation anchor before further image access.
 Running: no confirmed word; f84/f84r and reserves closed.
 
 ## Structural baseline
@@ -38,9 +38,9 @@ Other closed families remain in the existing registry; no automatic reopening.
 ## Access and operating boundaries
 f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
-179 text selectors;53 visual keys/59 selectors. f1r margins only;
+179 text selectors;54 visual keys/60 selectors. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
-[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [update](docs/VOYNICH_DATA_SCOPE_20260929_F68V2_IMAGE.md); [base](docs/VOYNICH_DATA_SCOPE.md).
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md); [base](docs/VOYNICH_DATA_SCOPE.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1090**
-- Experiment-associated tracked files: **21,381** (1.9 GiB)
-- Structured GDT337+ experiments: **755**
+- Experiments indexed: **1091**
+- Experiment-associated tracked files: **21,393** (1.9 GiB)
+- Structured GDT337+ experiments: **756**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1092 | GDT1092_F25V_SLOANE_DRAGON_COMPOSITE | `NO_RARE_COPY_ANOMALY_MATCH` | [report](../experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/REPORT.md) | 12 | 13.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT1091 | GDT1091_OFCHY_CUP_SPIKE_BLIND | `PARTIAL_ONE_TARGET` | [report](../experiments/yolo/gdt1091_ofchy_cup_spike_blind/REPORT.md) | 16 | 27.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT1090 | GDT1090_POST_RESULT_FEATURE_FAMILY | `SELECTED_UNION_NOT_SEARCH_WIDE_RARE` | [report](../experiments/yolo/gdt1090_schor_visual_search_control/REPORT.md) | 19 | 77.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT1089 | GDT1089 | `COMPLETE_INCONCLUSIVE__TWO_NEW_TARGET_ORGAN_MATCHES_VS_ONE_CONTROL` | [report](../experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/REPORT.md) | 20 | 55.8 KiB | 7 | STRUCTURED_YOLO |
