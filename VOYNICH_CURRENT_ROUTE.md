@@ -4,11 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: IDEA769 fixed-word Galen scope derivation, manual25min block.
-Latest decision: GDT1097 closed3solver-INFEASIBLE/4UNKNOWN,0codes; no extra runtime. Music768 operators have no old-unit reuse.
-Working files: laufenberg_f85r2_20260926/GALEN_SCOPE_DERIVATION_DECISION_20260929.md; GALEN_SCOPE_ALL_POSITIONS.tsv; GDT1028/1029/1034.
-Assumptions: all67values, qoky broadening and diplomatic gaps fixed; shared policy cannot use clause IDs. No meaning confirmation.
-Resume: derive all8operation mentions in complete95groups; preserve ambiguous scopes; stop expansion10:27UTC and publish.
+Task: choose a new complete-content consequence after IDEA769 closure.
+Latest decision: IDEA769 gives local degree/quotation rules; whole causal/memory/reprise scope open. GDT1097:3solver-INFEASIBLE,4UNKNOWN;parked.
+Working files: laufenberg_f85r2_20260926/GALEN_SCOPE_RESULT_20260929.md; source_supply_20260929/N_*; existing picture/text primaries.
+Assumptions: 0new meanings; shared rules remain C0. No re-simulation, source/alias repair or automatic extra solver time.
+Resume: publish769; inspect N close and precise historical picture/action alternatives, retaining old binding/geometry stops.
 Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer N35min. Reserves closed.
 
 ## Structural baseline
