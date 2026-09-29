@@ -1,0 +1,5 @@
+# GDT1085 preregistration
+
+Question, scope, all twelve candidate loci, visual gates, exclusions, time budget and claim ceiling were frozen in [METHOD.md](METHOD.md) before retrieval of Yale f68v pixels. Source-side prior: [Trier f99r dossier](../../../research_registry/decisions/trier_1084_115_f99r_wind_month_source_20260929.md). Known counterexamples: GDT353 failed ordered title alignment; GDT952's corrected Walters wind-name network had no definite support and an IT2a contradiction; GDT1067/1081 left wind polarity/owner unresolved; Laon IDEA650 role transfer was source-refuted. Historical human f68v2 descriptions and title arrays are exposed, so this is not blind.
+
+Positive consequence: visible full twelve-item ownership and independent phase would change the decision from no eligible target text test to a registered full-register comparison. Negative/ambiguous consequence: do not admit or mine f68v2 text, and retain zero word meaning. No post-hoc relaxation for a compelling individual label.

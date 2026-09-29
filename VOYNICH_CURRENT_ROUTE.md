@@ -5,10 +5,10 @@ Updated: 2026-09-29. Live resume point.
 Phase: exploration
 Status: active
 Task: Find a source-owned word anchor with discriminating consequences.
-Latest decision: `otor` star-attached but widespread (GDT1071/1072); f85r2 East
-depends on common `or`. Laon refutes season-center; Trier f99r supplies
-cardinal-middle source but no target owner (29 Sep dossiers).
-Working files: GDT1071/1072, f85r2 sensitivity, IDEA650, Trier f99r.
+Latest decision: Trier f99r has cardinal-middle wind/month sectors; GDT1085
+f68v2 shows 4 star fields + 8 written rays, no 12-sector owner or phase.
+GDT1071/72 `otor` widespread; f85r2 East hinges on common `or`.
+Working files: GDT1085, Trier f99r, IDEA650, GDT1071/72.
 f95v1/2 are separate drawings (GDT866); GDT404 pooled owner void.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
@@ -43,9 +43,9 @@ Other closed families remain in the existing registry; no automatic reopening.
 ## Access and operating boundaries
 f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
-179 text selectors;52 visual keys/58 selectors. f1r margins only;
+179 text selectors;53 visual keys/59 selectors. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
-[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [update](docs/VOYNICH_DATA_SCOPE_20260928_WIND_IMAGE.md); [base](docs/VOYNICH_DATA_SCOPE.md).
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [update](docs/VOYNICH_DATA_SCOPE_20260929_F68V2_IMAGE.md); [base](docs/VOYNICH_DATA_SCOPE.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r
