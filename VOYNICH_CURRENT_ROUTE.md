@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: construct a conditional f25v reading with explicit animal/plant roles.
-Latest decision: GDT1094 published acec6bb00; no full reading. Sources distinguish danger cue and wounded plant-user; f25v role open. GDT1093 owner absent; Plantago C0. GDT1091 fails; GDT1090 descriptive.
-Working files: GDT1094 report; laufenberg_f85r2_20260926/source_supply_20260929; raw IDEA744–746.
-Assumptions: f25v already text-admitted and exposed; animal identity/role unknown. Conditional exploratory readings allowed.
-Resume: retain source-role contrast and GDT1047 boundary countercases in any proposed daiin reading; no new decoder.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer adds6–10 source ideas. Reserves closed.
+Task: seek a concrete SOL/LUNA metal-versus-celestial consequence.
+Latest decision: source animal-role contrast published b7c007d03; f25v unselected. GDT1095 detail unavailable, no observation. GDT1094 no full reading; GDT1092/1093 unchanged. GDT1090 schor remains C1.
+Working files: GDT1095; source_supply_20260929; F89V1_OKOAIIN_CONTEXT_RESULT_20260927.md; IDEA640.
+Assumptions: all target contexts exposed; celestial names and metal senses hypothetical. No new word or prefix rule.
+Resume: publish1095/RAW754–761; compare SOL/LUNA source operations with complete rings and outside paragraph.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer source-only SOL/LUNA30min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -40,7 +40,7 @@ f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-compl
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;54 visual keys/60 selectors. f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
-[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md); [base](docs/VOYNICH_DATA_SCOPE.md).
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [detail](docs/VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md); [base](docs/VOYNICH_DATA_SCOPE.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r

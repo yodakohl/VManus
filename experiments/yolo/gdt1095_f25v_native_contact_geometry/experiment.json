@@ -1,0 +1,101 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "No higher-resolution pixels obtained; zero visual observations, zero negative judgments, zero semantic tests or words.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1095_f25v_native_contact_geometry/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1095_f25v_native_contact_geometry/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT1092",
+    "GDT1093",
+    "GDT1094"
+  ],
+  "experiment_id": "GDT1095",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/PREREGISTRATION.md",
+      "role": "PREREGISTRATION.md",
+      "sha256": "4b2f2d039d69d91953aab7270b6d19f2d948e13d3e18c5c786c5f6612e91d30d"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/METHOD.md",
+      "role": "METHOD.md",
+      "sha256": "ef0ed349383fc1ad054c0df119e056166802a086b734a831f06a20106d8de8cd"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/README.md",
+      "role": "README.md",
+      "sha256": "c6cdbe5b0f40cdce61910a8615bdd0017a660f09ca45bfa0c937f6217fbe1119"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/src/PREREG_LOCK.json",
+      "role": "PREREG_LOCK.json",
+      "sha256": "2e396df9e8a1f510411768ef61cf67720561a52a867d3d688e78e4b0c6ce9d99"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/src/SOURCE.json",
+      "role": "SOURCE.json",
+      "sha256": "f8996562fe54de744162258646bedf894c50231ee6165c41c59b9a00e318699b"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/src/OBSERVED.json",
+      "role": "OBSERVED.json",
+      "sha256": "6d6bea39c531e466e1f0ac8d1d1fd647ef393b99547f68efab128cf85d6cf3b3"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/src/run.py",
+      "role": "run.py",
+      "sha256": "e358a9455b81ca8385946673d991950407df3ac88bcf207f7429596731f43b6d"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/src/validate.py",
+      "role": "validate.py",
+      "sha256": "ab53399b77fa4cf2d2e21f202b78b5d74b9bd7340f34cc780ec763586d7f48d2"
+    },
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md",
+      "role": "VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md",
+      "sha256": "bcf664a507154a4cf331d816905e7f6b44d52d6643e461b4df3f43090b5bfd28"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/REPORT.md",
+      "role": "REPORT.md",
+      "sha256": "fcd4fba849256e1e2c8dccddc7e6b764b801ba869b089bf4389b6777e5ecb3c2"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/artifacts/RESULT.json",
+      "role": "RESULT.json",
+      "sha256": "6fcd7c7b045a80a87eff66c025eea18db2fbdad27660b7c3797b4c1e23a2dfe4"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/artifacts/VALIDATION.json",
+      "role": "VALIDATION.json",
+      "sha256": "38203cd340b07022fcbc3817fc0e636fb29baeebb00508f9834d996b5a24eafb"
+    },
+    {
+      "path": "experiments/yolo/gdt1095_f25v_native_contact_geometry/artifacts/README.md",
+      "role": "README.md",
+      "sha256": "54ded9d3bb6976a89ab1d5af82cac2afbf45bb3221f34768050031aa177f92ed"
+    }
+  ],
+  "question": "Does finer sampling of the same admitted f25v photograph distinguish a leaf contact, separate shaft, tether, body continuity or second actor?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f25v_native_contact_geometry",
+  "status": "MISSING_REGISTERED_HIGHRES_INPUT",
+  "title": "f25v native contact geometry",
+  "updated": "2026-09-29",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1095_f25v_native_contact_geometry/artifacts/VALIDATION.json"
+  }
+}
