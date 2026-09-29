@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: AW full-ZL contact/relief C0 closed unselected;stop local source codebook growth.
-Latest decision: 40newvalues8aliases;H/D binding unresolved;IT/RF incomplete;1101 zero literal pairs.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/AW_ROOT_REVIEW.md.
-Assumptions: 0words;AW/AS frozen;schorC1 retained;all old stops/seals;no sy deletion.
-Resume: read GDT343 primary before proposing joint shared-identity meaning transfer;no unchanged control/decoder or AW binder repair.
-Running: extended10h deadline30Sep03:16:12UTC;AW/1101 closed;agents done,797raw;push auth unavailable.
+Task: AY body-relation source closed;AW C0 unselected;check full-Moon owner alternative.
+Latest decision: Ptolemy32members7rulers;governing/afflicting distinct;no target gloss;AW40freevalues.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/AY_RESULT.md.
+Assumptions: 0words;AW/AS frozen;schorC1;AJ Sun/fullMoon unresolved;all stops/seals.
+Resume: AJ primary read;only a named full-Moon face can reopen icon comparison;register bounded source check first.
+Running: extended10h deadline30Sep03:16:12UTC;AY closed;agents done,797raw;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
