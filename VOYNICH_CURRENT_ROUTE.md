@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: seek a concrete SOL/LUNA metal-versus-celestial consequence.
-Latest decision: source animal-role contrast published b7c007d03; f25v unselected. GDT1095 detail unavailable, no observation. GDT1094 no full reading; GDT1092/1093 unchanged. GDT1090 schor remains C1.
-Working files: GDT1095; source_supply_20260929; F89V1_OKOAIIN_CONTEXT_RESULT_20260927.md; IDEA640.
-Assumptions: all target contexts exposed; celestial names and metal senses hypothetical. No new word or prefix rule.
-Resume: publish1095/RAW754–761; compare SOL/LUNA source operations with complete rings and outside paragraph.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer source-only SOL/LUNA30min. Reserves closed.
+Task: distinguish schor as a whole plant/drug class versus a reproductive part.
+Latest decision: SOL/gold source polysemy attested, f68/f89 readings unselected; no full construction. GDT1095 missing pixels; GDT1094 no reading; GDT1090 C1 retained.
+Working files: source_supply_20260929/E_ROOT_RESULT.md, F_ROOT_PREFLIGHT.md; GDT765/1090/1091.
+Assumptions: schor exact whole only; old quantity/quality glosses unconfirmed; three images exposed.
+Resume: publish E closure; inspect existing B04/B09/B05 and complete schor contexts against F source entries.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer F source-only30min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
