@@ -4,11 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1096 finite repeated-code constraints for four unchanged Dioscorides records.
-Latest decision: new necessary-domain test after963/976/977/978/986 review; no decoder change. I published; J pending review.
-Working files: experiments/yolo/gdt1096_dioscorides_finite_recurrent_domains; source_supply_20260929/J_*,K_*.
-Assumptions: source order and prefix code remain hypotheses; nonempty domains are not a reading. Retain all1428cases.
-Resume: publish registration, run341literal cases, replay certificates; checkpoint09:43UTC.
+Task: publish GDT1096 and assess a next meaning-bearing consequence.
+Latest decision: 38 finite contradictions; IT Iris33to7pages. Remaining303domains are not whole readings. GDT978 unchanged.
+Working files: experiments/yolo/gdt1096_dioscorides_finite_recurrent_domains/REPORT.md; source_supply_20260929/J_*,K_*.
+Assumptions: fixed source/code hypothetical; 0complete witnesses. All1428cases retained; source-unknown is not refuted.
+Resume: publish verified1096; review J/K and new domain constraints before selecting another test.
 Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; idea producer K25min. Reserves closed.
 
 ## Structural baseline
