@@ -2,13 +2,13 @@
 Updated: 2026-09-29. Live resume point.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: seek `schor` organ owner or flower/fruit contrast.
-Latest decision: GDT1090 `schor` alone 3/3 for selected narrow union among 169 words on >=3 blind-coded images (fair deck 5); post-result 9/15 other code pairs also yield an all-positive word. C1 organ lead only; no owned/literal meaning. f13r radiate extension fails.
-Working files: GDT1090 REPORT/PREREG; GDT765/1089; schor cross-check.
-Assumptions: image co-presence is not organ ownership; selected union/word and prior-exposed images cannot confirm semantics.
-Resume: seek a distinct source- or image-owned organ contrast; context topic, ideas, route-check, primaries before testing.
+Task: GDT1091 blind image contrast: other `ofchy` leaves f26v/f39v versus four matched Herbal-B controls.
+Latest decision: GDT1090 `schor` 3/3 only for selected head union; 9/15 alternate code pairs also give some all-positive word. GDT1091 frozen before five new images; no new pixels yet.
+Working files: GDT1091 PREREG/METHOD; dated scope note; GDT765/GDT1090 reports.
+Assumptions: f22r has unlike cups and bead axes without text pointer; image co-presence is not meaning; prior exposure is not confirmation.
+Resume: publish bound registration; download only five admitted pages plus four prior references, deliver blind images to two readers; join after both freeze.
 Running: no confirmed word; f84/f84r and reserves closed.
 
 ## Structural baseline

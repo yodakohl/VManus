@@ -1,0 +1,71 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory two-field image compatibility only; no text-to-organ pointer, plant name, significance or translated word.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1091_ofchy_cup_spike_blind/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1091_ofchy_cup_spike_blind/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT765",
+    "GDT1080",
+    "GDT1089",
+    "GDT1090"
+  ],
+  "experiment_id": "GDT1091",
+  "inputs": [
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20260929_OFCHY_CUP_IMAGES.md",
+      "role": "five new image admissions",
+      "sha256": "988ca22880b18227da9993fba915f29a8b7369d1da7d5adeb6abcf95dfe9fe94"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/src/PAGE_ADMISSIONS.tsv",
+      "role": "five new official Yale canvases",
+      "sha256": "a6b39c32a7036ef6d5536b1724135c11f482193b3068a021a700b5c4fdf5aebd"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/PREREGISTRATION.md",
+      "role": "frozen roster, blind map commitment, rubric, decision",
+      "sha256": "58b748fba4af6cfe9dc633da2b1ae501eb605997c608815b6295076221e77140"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/METHOD.md",
+      "role": "fixed implementation",
+      "sha256": "5f345b680d0d6971aed7b0ba2cd05f95fb6035614ea900c5f9611fe4ceeb20e7"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/README.md",
+      "role": "directory reproducibility",
+      "sha256": "a6fd5187b201a5881689e8875fc615381cff082b1cd11621559a09927830f1c8"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/src/run.py",
+      "role": "prewritten fixed join",
+      "sha256": "766c18d1941144c63aa86920dc263fb89d87df49eeb982ffa009900dee7b38b8"
+    },
+    {
+      "path": "experiments/yolo/gdt1091_ofchy_cup_spike_blind/src/validate.py",
+      "role": "prewritten replay validator",
+      "sha256": "fe893cb90b64f36c9553f53e0e7542e177eb2ba23662179d392880e68f7aa6d6"
+    }
+  ],
+  "outputs": [],
+  "question": "Do the other two all-reader exact ofchy Herbal-B folios share f22r-style blue fringed terminal cups beyond four metadata-matched controls and two schor-only references?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "ofchy_cup_spike_blind",
+  "status": "REGISTERED_UNSCORED",
+  "title": "ofchy cup spike blind",
+  "updated": "2026-09-29",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
