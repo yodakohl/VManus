@@ -8,7 +8,7 @@ Task: GDT1103 native whole/split inventory closed;f56 consumer contrast next;0wo
 Latest decision: schol3/5/3+s chol2/0/2;stablecore stays;schorC1 not organ-confirmed.
 Working files: experiments/yolo/gdt1103_schor_schol_native_boundary_audit/REPORT.md.
 Assumptions: 782 portion/entry/compound rival;796 unselected;799/800RAW;all stops/seals.
-Resume: Read1103+AA_ROOT_REVIEW;lookup HIST:4a580fb4ee0cf224/HIST:7ddccd8c4ef9b3df primaries;f56r8/14 whole consumers,not count rerun.
+Resume: Read1103+BJ_PRIOR_REVIEW+AA_ROOT_REVIEW;old DAVON is C0;f56r8/14 fullparagraph consumers,not count rerun.
 Running: extended10h deadline30Sep03:16:12UTC;BK/BJ/1103 closed;none running;remote auth unavailable.
 
 ## Structural baseline
