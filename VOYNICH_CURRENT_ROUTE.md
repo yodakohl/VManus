@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: AY body-relation source closed;AW C0 unselected;check full-Moon owner alternative.
-Latest decision: Ptolemy32members7rulers;governing/afflicting distinct;no target gloss;AW40freevalues.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/AY_RESULT.md.
-Assumptions: 0words;AW/AS frozen;schorC1;AJ Sun/fullMoon unresolved;all stops/seals.
-Resume: AJ primary read;only a named full-Moon face can reopen icon comparison;register bounded source check first.
-Running: extended10h deadline30Sep03:16:12UTC;AY closed;agents done,797raw;remote auth unavailable.
+Task: AY source-body relations retained;AZ full-Moon face comparison closed;0words.
+Latest decision: Walters native fullphase has noface;Regio locator incomplete;AW C0 unselected.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/AZ_RESULT.md.
+Assumptions: AW/AS frozen;schorC1;AJ Sun/fullMoon unresolved;all stops/seals;no newgloss.
+Resume: no more generic source-image sweep;inspect IDEA796 complete primary for constrained illumination construction.
+Running: extended10h deadline30Sep03:16:12UTC;AY/AZ closed;no agents;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
