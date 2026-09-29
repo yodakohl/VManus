@@ -4,16 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: seek an owned lexical contrast beyond page-level image co-presence.
-Latest decision: all3 exact `schor` pages have narrow reproductive heads in
-blind inventories, but no word-owner pointer; C1 unchanged. f13r
-`torshor` contradicts narrow radiate-head extension. f22r source relation missing.
-Working files: SCHOR_THREE_FOLIO_BLIND_IMAGE_CROSSCHECK_20260929;
-GDT1089 REPORT; F22R_TWO_ORGAN_SOURCE_CAPACITY_20260929.
-Assumptions: same-manuscript readers and prior-exposed images cannot
-confirm semantics; image co-presence is not text ownership.
-Resume: seek singular organ owner or different source-bound meaning contrast;
-check topic, ideas, route-check, primaries before selecting any test.
+Task: seek `schor` organ owner or flower/fruit contrast.
+Latest decision: GDT1090 finds `schor` alone 3/3 narrow-head among 169 words on >=3 blind-coded images; five global and 50 image frequency-matches. Retrospective C1 organ lead; no owned/literal meaning. f13r `torshor` radiate extension fails.
+Working files: GDT1090 REPORT/PREREG; GDT765/1089; schor cross-check.
+Assumptions: image co-presence is not organ ownership; selected union/word and prior-exposed images cannot confirm semantics.
+Resume: seek a distinct source- or image-owned organ contrast; context topic, ideas, route-check, primaries before testing.
 Running: no confirmed word; f84/f84r and reserves closed.
 
 ## Structural baseline

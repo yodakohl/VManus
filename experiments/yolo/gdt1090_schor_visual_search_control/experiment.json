@@ -1,0 +1,121 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Retrospective search multiplicity only; no significance, word-to-organ owner, or confirmed meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1090_schor_visual_search_control/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1090_schor_visual_search_control/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT765",
+    "GDT1080",
+    "GDT1089"
+  ],
+  "experiment_id": "GDT1090",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "mixed admitted transcription, guarded selector-first",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "179 admitted selectors",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/BLIND_IMAGE_LIST.tsv",
+      "role": "38 frozen image folios",
+      "sha256": "c06ddd3b4e13d0cd3fa9d843b4732ddd307672181f65ea86e18e44b05f5c7c85"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/BLIND_A.tsv",
+      "role": "word-blind reader A",
+      "sha256": "7796e93125d113d1359dc4385a919fec0bff2a701b1bb8da31068ba5d8d5fc15"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/BLIND_B.tsv",
+      "role": "word-blind reader B",
+      "sha256": "f6f7bcb1115e8e2dd312d9818a6bcc094e79040b75934361c83ed48c5e5a5b2a"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/PREREGISTRATION.md",
+      "role": "frozen comparison and decision",
+      "sha256": "39473fbcaa6d52d250cc4d4ef73e4f830c6cae871187889e99e08d2a89c01a8c"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/METHOD.md",
+      "role": "implementation method",
+      "sha256": "68e92f2ab71093f5e8ab62fdd73dd2c739c262e60c9294bdfb6d81df0808212a"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/README.md",
+      "role": "directory reproducibility",
+      "sha256": "c888a0e4387d5f45b7f03486dc5c96a7367503a9802adb38d88b98e33aa9997b"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/README.md",
+      "role": "artifact directory documentation",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/src/run.py",
+      "role": "complete guarded search",
+      "sha256": "96f17067af763a81f241ddff79efbe64efdb312d33f2d3c04ed01af5accb9cf8"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/src/validate.py",
+      "role": "full replay validator",
+      "sha256": "aca575189150165c94101ac9763e45c0be5b5d6243e27574f6e687cf7f121203"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/ALL_WORDS.tsv",
+      "role": "full 169-word comparison deck",
+      "sha256": "5946e5fecb7a947a3de0ddc3779650a4df75586de5f3829ee05d3800139850bf"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/PRIMARY.tsv",
+      "role": "fair exact-three admitted folio deck",
+      "sha256": "e61c2860be3a62d748404f805f96b1a46c9659811b8ade45e4d150e0d1047d1f"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/SECONDARY.tsv",
+      "role": "exact-three image folio deck",
+      "sha256": "3ddb411578c6cb074f09690498f21190871d00ee2634af225a2f62e60adfb621"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/RESULT.json",
+      "role": "counts, guard and input hashes",
+      "sha256": "acf4ff71034194e04918b6bb524a479ee4853f3814e20e3487abf6a402262de0"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/VALIDATION.json",
+      "role": "replay validation",
+      "sha256": "5f2bafc4b85252b00f1f0120fc1fbc85d9f2010bebb1d7bc5ad46913d5e3b38b"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/REPORT.md",
+      "role": "interpretation and limitations",
+      "sha256": "b139285b9646ac14628eaacead4cb9d76b4c73d3149590f1dd7ebc35b1c010bb"
+    }
+  ],
+  "question": "How many complete words share the retrospective 3/3 narrow reproductive-head image match of schor within all 38 blind-coded folios?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "schor_visual_search_control",
+  "status": "COMPLETE_DESCRIPTIVE_UNIQUE_3OF3_NO_WORD_OWNER",
+  "title": "schor visual search control",
+  "updated": "2026-09-29",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/VALIDATION.json"
+  }
+}
