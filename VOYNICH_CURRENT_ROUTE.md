@@ -5,8 +5,8 @@ Updated: 2026-09-29. Live resume point.
 Phase: exploration
 Status: active
 Task: choose next owner-bound meaning test after GDT1091; no new access selected.
-Latest decision: GDT1091 PARTIAL_ONE_TARGET: f26v cup YES, f39v NO; two controls YES. Direct cup-to-ofchy argument retired. GDT1090 schor 3/3 remains C1 descriptive.
-Working files: GDT1091 REPORT/RESULT, GDT1090 REPORT, GDT765 primary; IDEA737/738 raw unreviewed.
+Latest decision: GDT1091 PARTIAL_ONE_TARGET: f26v cup YES, f39v NO; two controls YES. Direct cup-to-ofchy argument retired. GDT1090 schor 3/3 C1 descriptive; IDEA739 named-copy owner missing after 235-canvas source deck.
+Working files: GDT1091/GDT1090 reports; IDEA739 source note/review; IDEA737/738 raw.
 Assumptions: co-presence is not word-to-organ ownership; blind image codes are not semantic translations; prior root exposure is not confirmation.
 Resume: publish GDT1091 closure; then route-check and primary-review distinct owner-bound proposal with fixed discriminating consequence.
 Running: no confirmed word; f84/f84r and reserves closed.
