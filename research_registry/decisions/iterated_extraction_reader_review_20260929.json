@@ -1,0 +1,37 @@
+{
+  "record_id": "IDEA000766",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root",
+  "assessment_basis": "reader_attribution_correction_and_retained_construction_debt_no_target_test",
+  "reason": "Whole saved f29v units show the first literal chol pair in ZL/RF, while IT has schol chol. The old 2-of-3 count remains; the old attribution to RF was wrong. No source/residue/extract selector was authored or new test run. Original raw proposal preserved.",
+  "evidence": [
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/Q_COMPARE_AND_CONSTRUCTION.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/Q_COMPLETE_UNITS.tsv"
+  ],
+  "blockers": [
+    {
+      "code": "missing_written_product_reference",
+      "detail": "Distinct extracts and surviving source currently follow only from the proposed operation definition, not a written target selector.",
+      "evidence": [
+        "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/Q_COMPARE_AND_CONSTRUCTION.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "source_and_extract_written_selector",
+        "change": "new_design",
+        "detail": "One complete construction distinguishing the continuing source from separately addressable extracts, without deleting s in IT schol or inheriting W25 failed bindings.",
+        "evidence": []
+      }
+    ],
+    "not_sufficient": [
+      "An extraction simulator alone",
+      "Counting four literal chol actions in IT by dropping s",
+      "Repeating W25 with its unchanged failed wet/dry package"
+    ]
+  }
+}

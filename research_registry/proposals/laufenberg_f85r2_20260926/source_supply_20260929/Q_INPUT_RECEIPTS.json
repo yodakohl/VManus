@@ -1,0 +1,144 @@
+{
+  "started_utc": "2026-09-29 10:54:39 UTC",
+  "deadline_utc": "2026-09-29 11:29:39 UTC",
+  "queries": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_WHOLE_CONTEXT_TABLE.tsv",
+      "sha256": "2006d098c26210cd6546754850b048dc5217ed3314f233a980ae71580f0384da",
+      "argv": [
+        "./vmanus-exp",
+        "query-tsv",
+        "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_WHOLE_CONTEXT_TABLE.tsv",
+        "--selector",
+        "locus",
+        "--allow",
+        "f68r2.6",
+        "--allow",
+        "f68r2.31",
+        "--allow",
+        "f89v1.13",
+        "--allow",
+        "f89v1.14",
+        "--allow",
+        "f89v1.15",
+        "--allow",
+        "f89v1.16",
+        "--allow",
+        "f89v1.17",
+        "--allow",
+        "f89v1.18",
+        "--allow",
+        "f89v1.19",
+        "--allow",
+        "f89v1.20",
+        "--columns",
+        "edition,locus,group_index,raw_group"
+      ],
+      "guard_receipt": "GUARD_STATS {\"selected\": 288, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 0}",
+      "selected_rows": 288
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_F105V_COMPLETE_PARAGRAPH.tsv",
+      "sha256": "3b9542a43f37f8906bbaa2ca7872e41e34421b5cdb321235a447f34801b40d17",
+      "argv": [
+        "./vmanus-exp",
+        "query-tsv",
+        "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_F105V_COMPLETE_PARAGRAPH.tsv",
+        "--selector",
+        "locus",
+        "--allow",
+        "f105v.5",
+        "--allow",
+        "f105v.6",
+        "--allow",
+        "f105v.7",
+        "--columns",
+        "edition,locus,source_group_index,ivtff_group_raw,left_separator,right_separator"
+      ],
+      "guard_receipt": "GUARD_STATS {\"selected\": 90, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 0}",
+      "selected_rows": 90
+    },
+    {
+      "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_4_PARAGRAPH_LINES.tsv",
+      "sha256": "e72f41c21b3b6fed10a4e1c87bc9271b388c049a0521a21928a557edb3cd8686",
+      "argv": [
+        "./vmanus-exp",
+        "query-tsv",
+        "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_4_PARAGRAPH_LINES.tsv",
+        "--selector",
+        "locus",
+        "--allow",
+        "f29v.1",
+        "--allow",
+        "f29v.2",
+        "--allow",
+        "f29v.3",
+        "--allow",
+        "f29v.4",
+        "--columns",
+        "paragraph_id,page,locus,eva_clean,it2a_clean,rf1b_clean,whole_line_all_three_exact,token_count"
+      ],
+      "guard_receipt": "GUARD_STATS {\"selected\": 4, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 13}",
+      "selected_rows": 4
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/P_CLERUS_LATIN.html",
+      "sha256": "cbcc7ab7515c24aae3433e4ce7f9462ed270e42c0414768d551cdef37bd19ccc",
+      "sections": [
+        {
+          "section": "VIII",
+          "words_including_following_heading": 297
+        },
+        {
+          "section": "XXXII",
+          "words_including_following_heading": 1837
+        }
+      ],
+      "new_download": false
+    }
+  ],
+  "primary_hashes": {
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/K_02_INFLUENCE_RELATION.json": "fdaa50a34a95a7037f6cd50ced9ed9beec89871853ef2ec242a846413e28f196",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_01_ITERATED_EXTRACTION.json": "fd5e3e2ce380cdece07662edb7cd48dd426f0291d02c35e3ece1bacec16bb375",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_02_PAIRED_POSTING_FLAGS.json": "99496690eed422150ea86e07012e4af864dfa864b0e526e489a40f404782b4b6",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_COMPLETE_PASSAGES.md": "9acf8200d1e9ea35d38a47230cc9e2f39bfaee66530f9ed39ebb6fd8ab5765f5",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_WORD_PROFILES.json": "bf770cca17e2504d43fbf2e161ff902514e1ae6242370c0f5d50b7c48c8f590e",
+    "research_registry/proposals/laufenberg_f85r2_20260926/F89V1_OKOAIIN_CONTEXT_RESULT_20260927.md": "82f0d7260f5ff4e53459defb82568d790e756796bc2bed7c53e5ab55908cdecf",
+    "research_registry/proposals/laufenberg_f85r2_20260926/F88R_OKOL_VISUAL_RESULT_20260927.md": "d0ff7c0300a35d220bb17a74aecc03e5a4ce5c3f0254918e8c8415d2682c5c04",
+    "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144",
+    "experiments/yolo/gdt816_paragraph_content_models/REPORT.md": "74119c1116d8dfe06133fac4ae4a1a9b91f1beb0af159dfe0e4ab48a5676b214",
+    "experiments/yolo/gdt1051_frozen_grammar_local_application/REPORT.md": "ff22322d8194c094525eae01e010d9e49d886db8a7018c95ac75074d8d1ccaa3",
+    "experiments/yolo/gdt1052_chody_source_frame_audit/REPORT.md": "ff819013ede99600bf07d055b7495243f94926398e96385752292ed75f04b016",
+    "experiments/yolo/gdt1053_chody_dry_local_baseline/REPORT.md": "d8bd40f15c8b1e49f12f322a89a7e39fc659db8630d8d4a708841bce22b60104",
+    "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md": "4ff89651cd22e8d0605c2eded0f18895397d3d687fcc069345146c579b156649",
+    "experiments/yolo/gdt685_v58_ch_sh_t_ol_ansatz_dispatch/REPORT.md": "b4fc6d1fdfd393e2b42fb082c1f4dc8b0f0d6875799b7b208523c873f3d922c9",
+    "research_registry/proposals/translation_programs_20260912/work/W25/REPORT.md": "2c9600cc66d264a750fd2a2a5083ad31ac76e469f6655ecba37c2813dc34ef6e",
+    "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md": "e8d09a5c2f52d642f0bec2197c552ddcc61fa2fe2ea37abf85ce47e454abe472",
+    "experiments/yolo/gdt1005_cennini_lossless_context_records/REPORT.md": "16d028de3c0bd6e42b620113e5223d6623c729948cf91bce8fd001ae5c140b4a",
+    "research_registry/work_batches/ten_hours_20260915/CENNINI_FINE_DRY_FRACTIONS_SOURCE_OFFER_20260922.json": "fede18664e56c845ac2818949c9adbc61209b4378c916fd047c540ba8d8f4acd",
+    "research_registry/work_batches/ten_hours_20260915/CENNINI_LXII_NATIVE_SEPARATE_FRACTIONS_REVIEW_20260922.md": "bd45979854bec03c2f7e6267221c2715a3538542529ecd0c6e46469c44f07dfc",
+    "experiments/yolo/gdt877_h1_raw_construction_fidelity/REPORT.md": "0d5b12c82d885a4b88a43c044477f7d7f34e6409f4618067b9a3e512772a2c6c",
+    "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md": "04a16ba71959c74d1e43090724eb6d3727294f4e788987badd7f756861c56d67",
+    "research_registry/proposals/raw_pacioli_reciprocal_posting_context.json": "c75e792833cdfa61cf31a51e32b64c4f64d1a8635c0f890396a924b4cb156a2c",
+    "research_registry/work_batches/ten_hours_20260915/ISNAD_LEDGER_CONTEXTUAL_SOURCE_20260920.json": "07aef4a6b7795b472ff75e5e2d86652841c31dc94c1024728b027203a9c506f3",
+    "research_registry/work_batches/ten_hours_20260915/ISNAD_LEDGER_CONTEXTUAL_SUPPLY_20260920.md": "a6d2a46cfddc658d8bc54f5a6770fe7dfc7745ef3a5183639ed1af1579bc4594",
+    "research_registry/proposals/translation_programs_20260912/work/W94/REPORT.md": "ed70cb47a44512c35cc46d448da55feb1b92bbe30322ae91b28db17d66ea3aad",
+    "research_registry/proposals/translation_programs_20260912/work/W95/REPORT.md": "f2512d5377aab71a1a01719bbad8b5242da1094ac05336f012179d1ba5e25f30"
+  },
+  "complete_group_counts": {
+    "IDEA000765/IT2a": 97,
+    "IDEA000765/RF1b": 96,
+    "IDEA000765/ZL3b": 95,
+    "IDEA000766/IT2a": 39,
+    "IDEA000766/RF1b": 40,
+    "IDEA000766/ZL3b": 40,
+    "IDEA000767/IT2a": 30,
+    "IDEA000767/RF1b": 30,
+    "IDEA000767/ZL3b": 30
+  },
+  "raw_additions": 0,
+  "new_target_admissions": 0,
+  "new_target_images": 0,
+  "new_source_downloads": 0,
+  "scope": "Documentation and C0 authorship only; no scored target or semantic test."
+}

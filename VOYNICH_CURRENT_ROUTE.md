@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: select a substantive meaning construction from existing whole-unit proposals.
-Latest decision: Hildegard12winds/16stars are distinct source classes;8/8ray and3/1contact relations retained. No f69r allocation or word;1097parked.
-Working files: laufenberg_f85r2_20260926/source_supply_20260929/P_ROOT_REVIEW.md; Q_*.
-Assumptions: 0confirmed meanings. C0 constructions allowed; complete written scope and prior frequency/morphology constraints retained.
-Resume: publish P source packet; review Q shortlist and linked primaries before authoring one complete construction.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer Q35min. Reserves closed.
+Task: review IDEA398 correlative roles against Llull/morphism predecessors.
+Latest decision: IDEA765 has3local C0 constructors, no unselected semantic consequence. ZL dal/chdy boundary and RF marker open. Hildegard source unselected;1097parked.
+Working files: laufenberg_f85r2_20260926/INFLUENCE_CONSTRUCTION_REPORT_20260929.md; source_supply_20260929/R_*.
+Assumptions: 0confirmed words. Class recurrence is not physical identity; literal morphology and reader uncertainty remain.
+Resume: publish765/Q; inspect398 and128 primaries before selecting a construction; review R supply.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer R40min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
