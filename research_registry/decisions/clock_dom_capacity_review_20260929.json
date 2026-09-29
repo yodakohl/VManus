@@ -1,0 +1,39 @@
+{
+  "record_id": "IDEA000772",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root",
+  "assessment_basis": "prospective_exact_surface_capacity_lookup_no_meaning_test",
+  "reason": "One of two new exact counterpart predictions exists: shckhaiin f108v.10 in all3alternate readings. alolsheaiin is absent. This selects a complete next authoring unit, not DOM over RANGE or a translated meaning. Parent clock remains unchanged.",
+  "evidence": [
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CLOCK_DOM_DECISION.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CLOCK_DOM_REPORT.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CLOCK_DOM_RESULT.json"
+  ],
+  "blockers": [
+    {
+      "code": "missing_complete_fixed_value_extension",
+      "detail": "Whole f108v.7-11 is nominated but not yet authored; operator domain and shared predicates are unresolved. The observed spelling is shared by DOM and RANGE.",
+      "evidence": [
+        "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CLOCK_DOM_REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "whole_fixed_value_scope",
+        "change": "new_design",
+        "detail": "Author a complete literal f108v.7-11 account that preserves old33values and supplies actual scope/arguments for the derived operator without independent singleton reassignment.",
+        "evidence": []
+      }
+    ],
+    "not_sufficient": [
+      "Matching surface alone",
+      "Another clock-world simulation",
+      "Changing source or old glosses silently",
+      "Treating three transcriptions as independent confirmation"
+    ]
+  }
+}

@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review complete water-clock candidate via S supply.
-Latest decision: 771 partial: no shared continuation/phrase scope. 765partial;398source-only. Transport1008/1009stops retained;1097parked.
-Working files: laufenberg_f85r2_20260926/source_supply_20260929/R_REVIEW.md,S_*; GDT1039/1025reports.
-Assumptions: 0confirmed words. Coherent authored content is not meaning evidence. No automatic aliases or identity.
-Resume: publish R; read S water-clock primary and predecessors before selection.
-Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer S40min. Reserves closed.
+Task: author whole f108v.7–11 with fixed clock values and C0 DOM/RANGE rule.
+Latest decision: 772surface-only: predicted shckhaiin exists; alolsheaiin absent. No meaning chosen. 771/765partial;1097parked.
+Working files: laufenberg_f85r2_20260926/source_supply_20260929/CLOCK_DOM_*,S_*,T_*; GDT1030 SOURCE.
+Assumptions: 0confirmed words;33clockvalues guessed. Three readers are one manuscript. No automatic aliases or identity.
+Resume: publish S/772; then whole f108v.7–11 scoped authoring, no single-word gloss expansion.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer T40min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
