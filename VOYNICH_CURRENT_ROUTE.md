@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review Z instruction/reference binding after closing X/Y construction drafts.
-Latest decision: X partial,no card;781partialC0,255of288groups unknown;native upper a/o unresolved.
-Working files: source_supply_20260929/XY_ROOT_REVIEW.md,Y_NATIVE_AR_OR_RESULT.md,Z_*;GDT1098 REPORT.
-Assumptions: 0confirmed words.1097/1098parked;780/781partial. Old failures and reserves unchanged.
-Resume: inspect Z's exact addressee/vocative/wearer bindings;avoid YOU=W relabeling and unchanged projections.
-Running: 20h29Sep06:17:46–30Sep02:17:46UTC;X/Ypublication;Zproducer30min. f84r is sealed;reserves closed.
+Task: review AA multi-base written constructor after stopping fixed-value f106r amulet extension.
+Latest decision: f106r BY/type conflict survives both qokeedy analyses;44unknown each reader.774not tested.
+Working files: source_supply_20260929/F106_AMULET_RESULT.md,Z_REVIEW.md,AA_*;XY_ROOT_REVIEW.md.
+Assumptions: 0confirmed words.1097/1098parked;780/781partial;native upper a/o unresolved. Old stops unchanged.
+Resume: inspect AA whole s-N/bare-N contexts and explicit owner/part selection;no repair of f106r entries.
+Running: 20h29Sep06:17:46–30Sep02:17:46UTC;Z/f106publication;AAproducer30min. f84r is sealed;reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
