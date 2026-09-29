@@ -1,0 +1,45 @@
+{
+  "record_id": "IDEA000445",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root",
+  "assessment_basis": "complete_primary_chapter_source_qualification_not_target_test",
+  "reason": "II.13 gives aspect-bounded forecasts, not explicit identity of one day/night atmospheric state carried through every later observation. Quarter/month selection is in II.10\u201312. Two illustrated-source candidates gave no new pictured sign-to-forecast witness. Raw proposal preserved; no target constructor selected.",
+  "evidence": [
+    "research_registry/proposals/laufenberg_f85r2_20260926/ATMOSPHERIC_SIGNS_RESULT_20260929.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/ATMOSPHERIC_SIGNS_COMPLETE_SOURCE_20260929.json",
+    "research_registry/proposals/laufenberg_f85r2_20260926/ATMOSPHERIC_SIGNS_RECEIPTS_20260929.json"
+  ],
+  "blockers": [
+    {
+      "code": "added_state_identity_assumption",
+      "detail": "OPEN_DAY/EXTEND/UPDATE state identity is an authored inference, not an explicit source law. It may be explored if labelled as such.",
+      "evidence": [
+        "research_registry/proposals/laufenberg_f85r2_20260926/ATMOSPHERIC_SIGNS_RESULT_20260929.md"
+      ]
+    },
+    {
+      "code": "missing_target_construction",
+      "detail": "No complete Voynich forecast/time construction or independent depicted sign binding obtained.",
+      "evidence": [
+        "research_registry/proposals/laufenberg_f85r2_20260926/ATMOSPHERIC_SIGNS_RESULT_20260929.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "complete_forecast_scope_account",
+        "change": "new_design",
+        "detail": "A concrete complete admitted account that distinguishes observed sign, predicted consequence and time scope, with its identity assumptions explicit.",
+        "evidence": []
+      }
+    ],
+    "not_sufficient": [
+      "Simulating the raw state-carry law as though recovered from Ptolemy",
+      "Generic Sun/Moon or wind images",
+      "Recounting rings as halos without a written owner"
+    ]
+  }
+}

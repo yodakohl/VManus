@@ -4,11 +4,11 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: bounded primary inquiry into pictured atmospheric signs and forecasts.
-Latest decision: O extraction sketch adds no bound predicate; W06/GDT948 retained. GDT1097:3solver-INFEASIBLE,4UNKNOWN;parked.
-Working files: laufenberg_f85r2_20260926/ATMOSPHERIC_SIGNS_DECISION_20260929.md; source_supply_20260929/N_* and O_*.
-Assumptions: 0new meanings. Extraction and equal-mass daiin are unselected C0; no repair or extra solver time.
-Resume: finish Ptolemy source and at most3new illustrated witnesses by11:10UTC; no target test yet.
+Task: review Hildegard twelve-wind/sixteen-star source alternative.
+Latest decision: Atmospheric signs source: forecast scope differs from assumed persistent state; no target writer. O extraction unselected;1097parked.
+Working files: laufenberg_f85r2_20260926/ATMOSPHERIC_SIGNS_RESULT_20260929.md; source_supply_20260929/P_*.
+Assumptions: 0new meanings. Twelve/sixteen may be different object classes; no Voynich mapping or orientation inferred.
+Resume: publish source qualification; read complete P source and earlier Hildegard primaries before selecting target work.
 Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; producer P30min. Reserves closed.
 
 ## Structural baseline
