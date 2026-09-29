@@ -5,16 +5,16 @@ Updated: 2026-09-29. Live resume point.
 Phase: exploration
 Status: active
 Task: Find a source-owned word anchor with discriminating consequences.
-Latest decision: Trier f99r has cardinal-middle wind/month sectors; GDT1085
-f68v2 has 4 star-label fields + 8 written rays, no 12-sector owner/phase.
-GDT1071/72 `otor` widespread; f85r2 East hinges on common `or`.
-Working files: GDT1085, Trier f99r, IDEA650, GDT1071/72.
+Latest decision: GDT1086 corrects f68v2: 4 many-star unlabelled sectors,
+4 one-star/two-inscription sectors, 8 boundary rays; registered W.73
+reference test invalid before text scoring. GDT1085 Trier stop retained.
+Working files: GDT1086, GDT1085, GDT353; IDEA673/674 raw.
 f95v1/2 are separate drawings (GDT866); GDT404 pooled owner void.
 Assumptions: three readers are one manuscript; proximity is no word meaning;
 `fochor≈Viola` is C0, first-head-as-name unproven.
-Resume: New externally owned referent + discriminating text rule; primaries
-first. No eligible target test or confirmed word.
-Running: IDEA671/672 lack capacity; no test.
+Resume: Screen IDEA673/674 for real independent target owners, then sources;
+route-check and primaries first. No eligible word test or confirmed word.
+Running: none.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1084**
-- Experiment-associated tracked files: **21,281** (1.9 GiB)
-- Structured GDT337+ experiments: **749**
+- Experiments indexed: **1085**
+- Experiment-associated tracked files: **21,291** (1.9 GiB)
+- Structured GDT337+ experiments: **750**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1086 | GDT1086 | `INVALID_OWNER_MAPPING__TEXT_ECHO_NOT_RUN` | [report](../experiments/yolo/gdt1086_f68v2_cardinal_side_reference/REPORT.md) | 10 | 21.4 KiB | 3 | STRUCTURED_YOLO |
 | GDT1085 | GDT1085_STAR_LABEL_CORRECTION | `FOUR_INTERLEAVED_LABELS_RETAINED_NO_SAME_LAYER_TWELVE_REGISTER` | [report](../experiments/yolo/gdt1085_trier_f68v2_native_owner_preflight/REPORT.md) | 13 | 27.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT1084 | GDT1084_PREDECESSOR_CORRECTION | `REDUNDANT_WITH_SNPL002_NO_NEW_DECISION` | [report](../experiments/yolo/gdt1084_source_native_four_plant_bridge/REPORT.md) | 9 | 41.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT1083 | GDT1083 | `NO_NATIVE_SINGULAR_OWNER` | [report](../experiments/yolo/gdt1083_f75v_f99v_eight_label_native_owner/REPORT.md) | 11 | 18.8 KiB | 3 | STRUCTURED_YOLO |

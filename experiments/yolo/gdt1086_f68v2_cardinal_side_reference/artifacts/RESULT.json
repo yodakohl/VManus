@@ -1,0 +1,126 @@
+{
+  "experiment": "GDT1086",
+  "status": "INVALID_OWNER_MAPPING__TEXT_ECHO_NOT_RUN",
+  "registered_model": "four multi-star cardinal label fields, each referenced by two neighbouring radial titles",
+  "observed_image_topology": "eight alternating sectors: four multi-star clusters without local labels (9,8,9,9 stars) and four single stars with paired radial labels (one star each); eight radial title lines lie on sector boundaries",
+  "catalogue_source": "https://vib.tamagothi.de/index.php?id=f68v2&show=page",
+  "native_image_source": "https://collections.library.yale.edu/iiif/2/1006197/3300,500,2400,2500/full/0/default.jpg",
+  "native_image_sha256": "3bd53ba8b529913e2b357df2c22535351b1c1637f09436feee87818c59652e82",
+  "text_blind_inventory_sha256": "0800312871234a068668cb8120b8a07026b50c6f6a955a22ca8a237bf606019a",
+  "inventory_rows": [
+    {
+      "page": "f68v2",
+      "locus": "f68v2.18",
+      "unit": "E1",
+      "array_id": "SCARR011|f68v2|E1",
+      "slot_index": "1",
+      "unit_description": "Radial titles, outwards from points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.7",
+      "unit": "E1",
+      "array_id": "SCARR011|f68v2|E1",
+      "slot_index": "2",
+      "unit_description": "Radial titles, outwards from points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.9",
+      "unit": "E1",
+      "array_id": "SCARR011|f68v2|E1",
+      "slot_index": "3",
+      "unit_description": "Radial titles, outwards from points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.10",
+      "unit": "E1",
+      "array_id": "SCARR011|f68v2|E1",
+      "slot_index": "4",
+      "unit_description": "Radial titles, outwards from points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.12",
+      "unit": "E1",
+      "array_id": "SCARR011|f68v2|E1",
+      "slot_index": "5",
+      "unit_description": "Radial titles, outwards from points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.13",
+      "unit": "E1",
+      "array_id": "SCARR011|f68v2|E1",
+      "slot_index": "6",
+      "unit_description": "Radial titles, outwards from points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.15",
+      "unit": "E1",
+      "array_id": "SCARR011|f68v2|E1",
+      "slot_index": "7",
+      "unit_description": "Radial titles, outwards from points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.16",
+      "unit": "E1",
+      "array_id": "SCARR011|f68v2|E1",
+      "slot_index": "8",
+      "unit_description": "Radial titles, outwards from points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.17",
+      "unit": "S1",
+      "array_id": "SCARR012|f68v2|S1",
+      "slot_index": "1",
+      "unit_description": "Star labels in sectors between points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.8",
+      "unit": "S1",
+      "array_id": "SCARR012|f68v2|S1",
+      "slot_index": "2",
+      "unit_description": "Star labels in sectors between points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.11",
+      "unit": "S1",
+      "array_id": "SCARR012|f68v2|S1",
+      "slot_index": "3",
+      "unit_description": "Star labels in sectors between points of big central star."
+    },
+    {
+      "page": "f68v2",
+      "locus": "f68v2.14",
+      "unit": "S1",
+      "array_id": "SCARR012|f68v2|S1",
+      "slot_index": "4",
+      "unit_description": "Star labels in sectors between points of big central star."
+    }
+  ],
+  "query_command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/results/special_circle_text_blind_array_inventory.tsv",
+    "--selector",
+    "page",
+    "--allow",
+    "f68v2",
+    "--columns",
+    "page,locus,unit,array_id,slot_index,unit_description"
+  ],
+  "query_guard_stats": "GUARD_STATS {\"selected\": 12, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 492}",
+  "transcription_tsv_queried": false,
+  "transcription_content_scored": false,
+  "confirmed_lexemes": 0,
+  "sealed_f84_f84r": "CLOSED",
+  "prior_exposure": "GDT353 historical; GDT1085 image; VIB public page displayed unadmitted f68v2 P/C text after registration, excluded from analysis",
+  "decision": "Predeclared owner-check invalidates model before echo scoring; no posthoc sector reassignment."
+}

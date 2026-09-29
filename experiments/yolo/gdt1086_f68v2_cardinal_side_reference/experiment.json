@@ -1,0 +1,101 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Text-blind topology correction and invalid-owner stop only; no text echo, wind identity, orientation, significance or translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1086_f68v2_cardinal_side_reference/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1086_f68v2_cardinal_side_reference/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT353",
+    "GDT952",
+    "GDT1085"
+  ],
+  "experiment_id": "GDT1086",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/special_circle_text_blind_array_inventory.tsv",
+      "role": "frozen predecessor or source/access contract",
+      "sha256": "0800312871234a068668cb8120b8a07026b50c6f6a955a22ca8a237bf606019a"
+    },
+    {
+      "path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/METHOD.md",
+      "role": "frozen predecessor or source/access contract",
+      "sha256": "c63cc88da51063dab58077ff32daae53e0446a66e0ffd3ce11e658cb24a29c68"
+    },
+    {
+      "path": "experiments/yolo/gdt1085_trier_f68v2_native_owner_preflight/REPORT.md",
+      "role": "frozen predecessor or source/access contract",
+      "sha256": "6957692b72a79b84cc64e27899caa1904e1bbdbd421382bb3c1c365531d17bec"
+    },
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20260929_F68V2_TEXT_1086.md",
+      "role": "frozen predecessor or source/access contract",
+      "sha256": "6d7f6b486cd650c4983e9115196aca69f14bcecc33d8f7a6b9b5d9bfb9c1aff2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/METHOD.md",
+      "role": "reproducibility packet",
+      "sha256": "a36f9452efbdae17a507a4ea630aea21097a0b63a515c1b9ec74e48438bed9f2"
+    },
+    {
+      "path": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/PREREGISTRATION.md",
+      "role": "reproducibility packet",
+      "sha256": "22abf418f2ca81d42091761d77eb3c88f61babcc9cf27d6fe7eff6ec2f241f90"
+    },
+    {
+      "path": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/README.md",
+      "role": "reproducibility packet",
+      "sha256": "28baf54a8b1a6709fed1f07895c9e22c5e8e7aa5051f812b61968c705ad183ad"
+    },
+    {
+      "path": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/REPORT.md",
+      "role": "reproducibility packet",
+      "sha256": "f7634e7c20f5c28014976573653849394ec92be047428afe344f84fc905705e1"
+    },
+    {
+      "path": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/artifacts/README.md",
+      "role": "reproducibility packet",
+      "sha256": "39acfb543fccc6d3ec0c73c9938e0afa1c3e43461d8f5462f5d1374bcf13cbc6"
+    },
+    {
+      "path": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/artifacts/RESULT.json",
+      "role": "reproducibility packet",
+      "sha256": "3750aa054b03ff08309154cd89494442d2b2a009a7bb11f7a4bf86a11bef5761"
+    },
+    {
+      "path": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/artifacts/VALIDATION.json",
+      "role": "reproducibility packet",
+      "sha256": "01cf6d33c9b30648b448a03b6d2ab79ce1ac6e76622832fcdda986675f9d75d6"
+    },
+    {
+      "path": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/src/run.py",
+      "role": "reproducibility packet",
+      "sha256": "08822689421d27899eccee4075ad12c188aecc2e479c35955700a4036f694cd3"
+    },
+    {
+      "path": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/src/validate.py",
+      "role": "reproducibility packet",
+      "sha256": "f3aabddef9a32a5beee28852368cb37c3b4bf3a1f7cb9cc0b3a760b5218c537b"
+    }
+  ],
+  "question": "Does a four-star-field/eight-ray W.73-style local name-reference model survive the native f68v2 owner mapping before text-echo scoring?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f68v2_cardinal_side_reference",
+  "status": "INVALID_OWNER_MAPPING__TEXT_ECHO_NOT_RUN",
+  "title": "f68v2 cardinal side reference",
+  "updated": "2026-09-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1086_f68v2_cardinal_side_reference/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
