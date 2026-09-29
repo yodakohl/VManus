@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: AK/AL author and check whole f75v.43–49 free-base continuation with785 transfer values fixed.
-Latest decision: AJ Sun/full-Moon unresolved;AI distinguishes heaven/body/light,not target words.785partialC0.
-Working files: source_supply_20260929/AK_DECISION.md,AL_*,AJ_RESULT.md,AG_ROOT_REVIEW.md;AG_PUBLICATION_PENDING.json.
+Task: Close AK/AL partial C0,then review a distinct written construction against its primary predecessors.
+Latest decision: AK adds a guessed first sentence,not a whole paragraph;145/225groups unassigned.0words.
+Working files: source_supply_20260929/AK_RESULT.md,AK_CLOSURE.json,AJ_RESULT.md,AG_ROOT_REVIEW.md.
 Assumptions: 0confirmed words.1097/1098parked;780-783/785partial;native a/o unresolved;old stops unchanged.
-Resume: whole owned free-base paragraph and inherited contracts,then AL argument account;no automatic added glossary.
-Running: 20h29Sep06:17:46–30Sep02:17:46UTC;ALproducer40min;rootAK45min;push auth unavailable. f84r sealed;reserves closed.
+Resume: select next construction only after topic/idea/route and primary review;no automatic AL glossary repair.
+Running: 20h29Sep06:17:46–30Sep02:17:46UTC;ALdone;AKclosing;push auth unavailable.f84rsealed,reservesclosed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
