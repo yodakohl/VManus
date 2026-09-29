@@ -1,0 +1,109 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory form-to-image association only; no significance, morpheme, plant name, word meaning or translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT1070",
+    "GDT1087",
+    "GDT1088",
+    "GDT768",
+    "GDT766",
+    "GDT1080",
+    "GDT360"
+  ],
+  "experiment_id": "GDT1089",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1070_first_head_collision_capacity/artifacts/HEAD_MULTIPLICITIES.tsv",
+      "role": "fixed 89-page head roster",
+      "sha256": "b81ab0bbf5edb8f0870f3a1d795d304401392c43e39b65ddc8a42517f9f50af5"
+    },
+    {
+      "path": "experiments/yolo/gdt1087_botanical_blind_name_audit/artifacts/BLIND_VISUAL.tsv",
+      "role": "previous visual page inventory",
+      "sha256": "3a0c973f0522027c4d18dfdb745a868eee90d2cd3732538e765a1659dac2aed9"
+    },
+    {
+      "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/artifacts/BLIND_VISUAL.tsv",
+      "role": "previous visual page inventory",
+      "sha256": "afe94a94a707ad28e74ada6d84a1b4df5ba17a641e31e9ed5f9d8aa83994933e"
+    },
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20260929_HEAD_EDIT1_IMAGES.md",
+      "role": "new image admission",
+      "sha256": "0492c5e88f8dba9ae26e65cce96d8b45e1485b94f0751a1ad8094a13f13c6f05"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/PREREGISTRATION.md",
+      "role": "registered decision rule",
+      "sha256": "640607c6d15734e7f12016cf93c9c1327eb66485c737af2b67937a2736a25cc8"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/METHOD.md",
+      "role": "registered method",
+      "sha256": "3be82b111d4004602b3e98654a70c0991a65e72bc2d2be9a72f54d0e35d0bdda"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/README.md",
+      "role": "directory reproducibility",
+      "sha256": "0245b51b95f671f3a0597227ba9f5f3e385a52cdf587add25db12d50a0d39259"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/freeze_pairs.py",
+      "role": "frozen roster generator",
+      "sha256": "be1180b2084d7f6a1af1b42596f5429b4a350e89b2a2c39797531b6685bef455"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/FIXED_EDIT1_PAIRS.tsv",
+      "role": "all 25 one-edit pairs",
+      "sha256": "2e3714cd02ad92a0aedabdc2396e5d4eb04277d97a74c9ff455157cdfe8b91e6"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/FIXED_CONTROLS.tsv",
+      "role": "fixed matched controls",
+      "sha256": "b0175992d535a73edb5d6530ce1c0f858da9ea67b88aedb3e3e3268f41068a6c"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/BLIND_IMAGE_LIST.tsv",
+      "role": "38 image folios",
+      "sha256": "c06ddd3b4e13d0cd3fa9d843b4732ddd307672181f65ea86e18e44b05f5c7c85"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/NEW_IMAGE_ADMISSIONS.tsv",
+      "role": "eleven new official image folios",
+      "sha256": "6b5c6bbb7878de5bdfe686374c7a0ef40fccf55b521f93064d15623474b68290"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/run.py",
+      "role": "reserved executable; to be completed after image provenance freeze",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/validate.py",
+      "role": "reserved executable; to be completed after image provenance freeze",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    }
+  ],
+  "outputs": [],
+  "question": "Do fixed one-edit first-head neighbours share specific drawn organ architecture on newly admitted physical pages more often than preselected same-anchor controls?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "head_edit1_organ_blind_holdfolio",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Blind organ architecture test for one-edit Herbal-A first heads",
+  "updated": "2026-09-29",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

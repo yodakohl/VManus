@@ -2,21 +2,19 @@
 Updated: 2026-09-29. Live resume point.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Find independent semantic owner for a fixed contrast.
-Latest decision: GDT1088 all 4 exact repeated Herbal-A heads / 9 images /
-6 pairs: 0 taxon matches; organ YES 2/6 vs 2/30 off-head;
-pchor 1/3 root overlap,
-tshor 1/1 radiate overlap (known), kooiin lower form visible
-but organ undecidable after observer disagreement. No word bound.
-Working files: GDT1088 report/result, GDT1087, GDT1070, W84.
-Assumptions: first head may be name, organ class, formula or address;
-readings are one manuscript; prompted review is not confirmation.
-Resume: Check route/ideas and primary sources for an independent owner
-for a different admitted consequence; avoid re-viewing
-f2v/f29v. f84/f84r sealed.
-Running: none. No confirmed word.
+Task: GDT1089 blind organ audit of 25 one-edit Herbal-A heads.
+Latest decision: GDT1088: same-head specific organ 2/6 versus
+2/30 off-head locally; no taxon/word. Observer misses on f2v/f29v.
+Working files: GDT1089 prereg, 38-page blind list, 25 pairs/controls;
+GDT1070, GDT1087/1088 source inventories.
+Assumptions: one-edit form may carry visual relation or none; readers
+are alternate transcriptions, not independent manuscripts.
+Resume: Publish GDT1089 registration and 11-image scope before pixels;
+resolve Yale canvases; two word-blind 38-page inventories; join only
+after both freeze. Prior exposure not independent. f84/f84r sealed.
+Running: GDT1089 registration. No confirmed word.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
