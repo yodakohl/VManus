@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review AC concrete historical/written construction; AB whole assertion retained as partial C0.
-Latest decision: 783:11group draft,1142of1553groups unknown;REUSE/FRESH unselected. No new word.
-Working files: source_supply_20260929/AB_ROOT_REVIEW.md,AB_ROOT_CLOSURE.json,AC_*;AA_PUBLICATION_PENDING.json.
+Task: use741 organ-specific solar source to seek a complete written construction; AG authors alternatives.
+Latest decision: AE sources distinguish leaf-turn/flower-open/plant-close;no targetbinding. AC/AD no new rule;784raw.
+Working files: source_supply_20260929/AE_SOURCE_READING.md,AE_CLOSURE.json,AF_*,AG_*;AA_PUBLICATION_PENDING.json.
 Assumptions: 0confirmed words.1097/1098parked;780-783partial;native a/o unresolved;old stops unchanged.
-Resume: inspect AC exact primary/consequence;no serial glosses,reference counts or unchanged solver retry.
-Running: 20h29Sep06:17:46–30Sep02:17:46UTC;ACproducer25min;push auth unavailable. f84r is sealed;reserves closed.
+Resume: inspect whole780/781 context for actual organcycle binding;no free solarword or serialgloss extension.
+Running: 20h29Sep06:17:46–30Sep02:17:46UTC;AGproducer35min;push auth unavailable. f84r is sealed;reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
