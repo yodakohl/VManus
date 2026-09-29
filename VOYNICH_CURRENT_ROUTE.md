@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: review AA multi-base written constructor after stopping fixed-value f106r amulet extension.
-Latest decision: f106r BY/type conflict survives both qokeedy analyses;44unknown each reader.774not tested.
-Working files: source_supply_20260929/F106_AMULET_RESULT.md,Z_REVIEW.md,AA_*;XY_ROOT_REVIEW.md.
-Assumptions: 0confirmed words.1097/1098parked;780/781partial;native upper a/o unresolved. Old stops unchanged.
-Resume: inspect AA whole s-N/bare-N contexts and explicit owner/part selection;no repair of f106r entries.
-Running: 20h29Sep06:17:46–30Sep02:17:46UTC;Z/f106publication;AAproducer30min. f84r is sealed;reserves closed.
+Task: review AB whole-statement proposal; assess any decisive shared-code consequence before selection.
+Latest decision: 782partialC0:14operator contacts,243of277groups unknown;PORTION/ENTRY unselected. f106stopped.
+Working files: source_supply_20260929/AA_ROOT_REVIEW.md,AB_*,F106_AMULET_RESULT.md;GDT1097/1098 REPORTS.
+Assumptions: 0confirmed words.1097/1098parked;780/781/782partial;native a/o unresolved. Old stops unchanged.
+Resume: assess AB actual written reuse;no unchanged runtime/projection rerun or f106lexicon repair.
+Running: 20h29Sep06:17:46–30Sep02:17:46UTC;AApublication;ABproducer30min. f84r is sealed;reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
