@@ -5,10 +5,10 @@ Updated: 2026-09-29. Live resume point.
 Phase: exploration
 Status: active
 Task: select source-owned contrast with an explicit target text owner.
-Latest decision: GDT1089 inconclusive (2/14 target vs1/14 control);
-IDEA687 f22r visual/text facts real, source relation and pointer missing.
-Working files: GDT1089 REPORT; F22R_TWO_ORGAN_SOURCE_CAPACITY_20260929;
-IDEA687 review. IDEA712–731 raw pool unreviewed.
+Latest decision: GDT1089 inconclusive; postselected f13r `torshor` has
+no radiate head in two blind inventories. f22r source relation/pointer missing.
+Working files: GDT1089 REPORT; SHOR_RADIATE_F13R_DIAGNOSTIC_20260929;
+F22R_TWO_ORGAN_SOURCE_CAPACITY_20260929. IDEA712–731 raw pool unreviewed.
 Assumptions: same-manuscript readers and prior-exposed images cannot
 confirm semantics; image co-presence is not text ownership.
 Resume: review candidate source/target bindings via topic, ideas,
