@@ -1,0 +1,37 @@
+{
+  "title": "RAW UNREVIEWED: Vitruvius three tanks: side overflow feeds the public branch while uses remain distinct",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. The source separates three water tanks and recipient uses, with end-tank overflow going to the middle tank and restrictions intended to protect public water. A conditional overflow edge joins otherwise distinct allocation branches. The same water can reach the public branch through overflow without making private and public draws interchangeable.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "source": {
+    "url": "https://www.gutenberg.org/cache/epub/20239/pg20239-images.html",
+    "span": "De architectura VIII.6.1-2",
+    "observed_content": "The source separates three water tanks and recipient uses, with end-tank overflow going to the middle tank and restrictions intended to protect public water.",
+    "layer": "Modern edition/translation of an ancient primary work; source-only exploratory input, not a newly collated medieval witness"
+  },
+  "potential_admitted_target": "Already-admitted f81r connected-basin unit is a possible minimal owner check; it is not presumed to contain three tanks. Existing f77r/f82r/f83r owner maps are possible alternatives only within their existing admissions.",
+  "design": {
+    "mechanism": "A conditional overflow edge joins otherwise distinct allocation branches. The same water can reach the public branch through overflow without making private and public draws interchangeable.",
+    "unit": "Complete two-paragraph source unit and a target with at least three independently owned reservoir/recipient nodes if one already exists.",
+    "contrast": "Simple serial flow makes every destination share one obligatory route; independent parallel supplies omit the conditional side-to-middle edges.",
+    "prediction": "A complete target reading must distinguish normal outlet allocation from overflow into the middle recipient and preserve all three owners. Two visible basins or a repeated opening form cannot alone satisfy the graph.",
+    "scope": "Source-only raw proposal; no selected manuscript content, assigned glosses or executed experiment"
+  },
+  "predecessor_ids": [
+    "IDEA000461",
+    "GDT1066",
+    "GDT818"
+  ],
+  "execution_requirements": [
+    "Find an owned three-node target relation in existing admitted owner maps before text authoring; absent capacity is not a negative semantic result.",
+    "Collate exact source direction and its public/private rationale in a medieval witness; do not silently assume modern pipe priority.",
+    "Freeze an edge packet and serious serial/parallel nulls; GDT388 gates must pass before scoring."
+  ],
+  "assumptions_and_limits": [
+    "No Voynich word receives a meaning from this proposal.",
+    "An ancient work in a modern edition supplies historical content, not a medieval manuscript owner or independent Voynich binding.",
+    "The named target is a potential already-admitted locus, not a claim that its image or text contains the required roles. Root must verify the exact admission and ownership before selection.",
+    "A new scored relation packet requires capacity, held-folio, provenance and mobile-null gates; no reserve or f84/f84r access."
+  ],
+  "producer": "authorized_bounded_idea_supply_20260929"
+}

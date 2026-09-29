@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1092**
-- Experiment-associated tracked files: **21,733** (1.9 GiB)
-- Structured GDT337+ experiments: **757**
+- Experiments indexed: **1093**
+- Experiment-associated tracked files: **21,752** (1.9 GiB)
+- Structured GDT337+ experiments: **758**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1094 | GDT1094_F25V_SOURCE_PACKAGE_WHOLE_READING | `FULL_PASSAGE_ACCOUNTED_NO_COMPLETE_SEMANTIC_READING` | [report](../experiments/yolo/gdt1094_f25v_source_package_whole_reading/REPORT.md) | 19 | 424.6 KiB | 5 | STRUCTURED_YOLO |
 | GDT1093 | GDT1093_PLANTAGO_NATIVE_SHORTLIST_CORRECTION | `POST_PUBLICATION_NEAR_MISS_NO_STRICT_OWNER` | [report](../experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/CORRECTION_20260929.md) | 340 | 21.1 MiB | 2 | STRUCTURED_YOLO |
 | GDT1092 | GDT1092_F25V_SLOANE_DRAGON_COMPOSITE | `NO_RARE_COPY_ANOMALY_MATCH` | [report](../experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/REPORT.md) | 12 | 13.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT1091 | GDT1091_OFCHY_CUP_SPIKE_BLIND | `PARTIAL_ONE_TARGET` | [report](../experiments/yolo/gdt1091_ofchy_cup_spike_blind/REPORT.md) | 16 | 27.0 KiB | 4 | STRUCTURED_YOLO |

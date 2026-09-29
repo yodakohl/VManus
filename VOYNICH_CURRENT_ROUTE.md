@@ -4,12 +4,12 @@ Updated: 2026-09-29. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: seek a discriminating historical meaning relation.
-Latest decision: GDT1093 Egerton747 strict f25v owner absent; correction adds Plantago f77v/f78r near miss. Leiden Plantago has similar fan/root and bite remedies: C0 context, not a word. Historical f25v Plantago IDs predate us. GDT1092 Sloane dragon 0/4; GDT1091 ofchy fails; GDT1090 schor descriptive.
-Working files: GDT1093 correction; f25v Plantago/bite source note; IDEA740–743 raw.
-Assumptions: f25v exposed; animal may mark use, not plant name; no source motif binds a word.
-Resume: seek a differentiating Voynich-side prediction before f25v text access; keep GDT1093 fixed.
-Running: no confirmed word; f84/f84r and reserves closed.
+Task: distinguish animal-as-danger from animal-as-consumer in historical plant pictures.
+Latest decision: GDT1094 accounts for all7 f25v lines; no full semantic reading. Prior text-access barrier corrected. GDT1093 strict owner absent; Plantago C0. GDT1091 ofchy fails; GDT1090 schor descriptive.
+Working files: GDT1094 report; laufenberg_f85r2_20260926/source_supply_20260929; raw IDEA744–746.
+Assumptions: f25v already text-admitted and exposed; animal identity/role unknown. Conditional exploratory readings allowed.
+Resume: publish1094; inspect source744–746 and native mouth/contact geometry, retaining all actor/use rivals.
+Running: requested20h 29 Sep06:17:46–30 Sep02:17:46 UTC; idea producer source-witness search45min. Reserves closed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

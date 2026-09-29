@@ -1,0 +1,163 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory complete text accounting and existing formal replay; zero complete semantic candidates, zero fixed semantic tests, no source refutation or confirmed word.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/validate.py"
+  },
+  "created": "2026-09-29",
+  "dependencies": [
+    "GDT1093",
+    "GDT1092",
+    "GDT1051",
+    "GDT605",
+    "GDT764"
+  ],
+  "experiment_id": "GDT1094",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/PREREGISTRATION.md",
+      "role": "PREREGISTRATION.md",
+      "sha256": "358e8c1b9eb30673c3f233e5fe091516ca1ce983160822e8d884ab8a78c9ad71"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/METHOD.md",
+      "role": "METHOD.md",
+      "sha256": "4ef72d8f6cdbb4969671b9278bceeb625b4790c5af123eee5b2aaa7487c3f09e"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/README.md",
+      "role": "README.md",
+      "sha256": "ba395a2342b2b9f4d84ee21afa0bfe75bd070c95619a25a1b2e11da3c183a8ca"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/run.py",
+      "role": "src/run.py",
+      "sha256": "91a8181a9c73d0ed06989020f988606977464e21507473ac4a20591ec210b51d"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/validate.py",
+      "role": "src/validate.py",
+      "sha256": "8f712fa555b0b4763b74c10016a898ef0669c0dbf20ef3f3c412b592be746145"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/TARGET_RAW.tsv",
+      "role": "src/TARGET_RAW.tsv",
+      "sha256": "320cd0ff38a58aa1050a4f3b7e8c4be5813703cecb883ef40bf04440f09e4263"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/GUARD_STATS.txt",
+      "role": "src/GUARD_STATS.txt",
+      "sha256": "30d6f7372375969d7b9154f4edbf30a2cabe7a73e87b6d963713b4d09a724626"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/WORD_PROFILES.json",
+      "role": "src/WORD_PROFILES.json",
+      "sha256": "f92a6ab4b86ab192b67cfc88a082f84b3523f8ccfadeeb5ae6054c1096b187b0"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/PACKAGES.json",
+      "role": "src/PACKAGES.json",
+      "sha256": "2918121f84f227de6a50c70fbd6e0e9631c718882e78fd33584fb7cdefc28c98"
+    },
+    {
+      "path": "research_registry/decisions/f25v_plantago_source_packages_20260929.md",
+      "role": "source-only package",
+      "sha256": "e78cf229836dd8b754c38e66a6f9fc3173339cc1f525cbb104c74a743f1ba911"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "unchanged admitted text contract",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1051_frozen_grammar_local_application/src/run.py",
+      "role": "unchanged formal adapter",
+      "sha256": "8fd6000574b289dd539e9a7b04c45e15a5a767871dae770fd454af91c7146ba2"
+    },
+    {
+      "path": "run_gdt012_core_semantic_atlas.py",
+      "role": "unchanged wrapper transform",
+      "sha256": "7db6d7eff0937e9fa67a77356a61e00a0e28a6cd73b2c62146844adea8b8fc1c"
+    },
+    {
+      "path": "run_gdt062_right_family_register_renderer.py",
+      "role": "unchanged host transform",
+      "sha256": "9c9e7a35278d59ace7dd88f3c1e0ca6112ec48cef29fdd86c4e5546c6ec9a665"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py",
+      "role": "unchanged merge transform",
+      "sha256": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv",
+      "role": "unchanged64 merges",
+      "sha256": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/CANDIDATES.tsv",
+      "role": "CANDIDATES.tsv",
+      "sha256": "46609c15efab50f3dbcbbfef2402d3475e13decde90ba829333c96804fd008e1"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/FORMAL_REPLAY.json",
+      "role": "FORMAL_REPLAY.json",
+      "sha256": "692eb2a4542c24168dfec90e5ff97e98dfdc74fa2a8c750e185104de9bdde9c3"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/FORM_INVENTORY.tsv",
+      "role": "FORM_INVENTORY.tsv",
+      "sha256": "cbcfad571427e54c097ec76519a8a5dbd313a4bfcbf6b8373e91ef7417fe27fb"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/FULL_PASSAGE.tsv",
+      "role": "FULL_PASSAGE.tsv",
+      "sha256": "a179de44cd51a800b018f992f808cf1a6ae340d9f0bfe3d1ffe7bd55731cbd94"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/PROFILE_SUMMARY.tsv",
+      "role": "PROFILE_SUMMARY.tsv",
+      "sha256": "905d3a3bce0f0a67d2bf34951c9f96854b5a12207ddb1eb044961e6b593b6269"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/README.md",
+      "role": "README.md",
+      "sha256": "9f57eda6f80171317c1c70bcdff37a219a1cefdfccfe96fcdcade2a271ca0609"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/RESULT.json",
+      "role": "RESULT.json",
+      "sha256": "404a5d1d690412407580d0765e43df303c123b0edd57c481087b53789065bf7b"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/VALIDATION.json",
+      "role": "VALIDATION.json",
+      "sha256": "4a0a2191a81f2507296fab34ad5b619d79b2e806af1fc213c8d739b014a84e9d"
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/REPORT.md",
+      "role": "interpretive report",
+      "sha256": "f9c9da6ce4bd81a6c97cb38155a31069980fcf1fb9526b0559248d42fcf276c7"
+    }
+  ],
+  "question": "Can three fixed historical Plantago treatment packages support an exploratory coherent complete f25v reading under existing word-structure and frequency constraints?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f25v_source_package_whole_reading",
+  "status": "FULL_PASSAGE_ACCOUNTED_NO_COMPLETE_SEMANTIC_READING",
+  "title": "f25v source package whole reading",
+  "updated": "2026-09-29",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/VALIDATION.json"
+  }
+}
