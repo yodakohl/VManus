@@ -1,0 +1,206 @@
+{
+  "task": "Bounded formal within-paragraph comparison of CHEEY/QOCHEEY and CHTEEY/CHOTEEY",
+  "started_utc": "2026-09-30T21:50:44Z",
+  "frozen_utc": "2026-09-30T21:53:00Z",
+  "elapsed_seconds": 136.095,
+  "budget_seconds": 120,
+  "deadline_utc": "2026-09-30T21:53:00Z",
+  "status": "FORMAL_CONTRASTS_OBSERVED_NO_PARSER_OR_MEANING_EXPORT",
+  "scope": {
+    "input": "transcription/voynich_zl3b_lines.tsv",
+    "selectors": [
+      "f68r1.1",
+      "f68r1.2",
+      "f68r1.3",
+      "f68r1.4",
+      "f68r1.26"
+    ],
+    "edition": "ZL3b",
+    "upper_native_paragraph_groups": 28,
+    "label_groups": 1,
+    "images": false,
+    "other_target_sources": false,
+    "author_critic_packets_read": false,
+    "other_agents": false,
+    "Git_or_registry_mutation": false,
+    "guard": "./vmanus-exp query-tsv transcription/voynich_zl3b_lines.tsv --selector locus --allow f68r1.1 --allow f68r1.2 --allow f68r1.3 --allow f68r1.4 --allow f68r1.26 --columns page,locus,kind,paragraph_start,paragraph_end,token_count,eva_clean,ivtff_raw",
+    "guard_stats": {
+      "selected": 5,
+      "skipped_forbidden": 98,
+      "skipped_not_allowed": 5282
+    },
+    "previously_exposed_development": true
+  },
+  "navigation": {
+    "context_topic": "composition",
+    "bounded_ideas_searches": [
+      "qocheey choteey",
+      "q base carrier shell"
+    ],
+    "exact_card": "GDT751",
+    "lookups": [
+      "GDT751",
+      "GDT916",
+      "GDT752"
+    ],
+    "route_check": "qocheey cheey chteey choteey",
+    "empty_search_policy": "Empty literal search was navigation only; exact named primary predecessors were inspected.",
+    "route_result_limit": "GDT929 returned lexically for cheey; its l/ch/sh square is not the requested qo/internal-o contrast and was not selected."
+  },
+  "whole_guarded_rows": [
+    {
+      "locus": "f68r1.1",
+      "kind": "P",
+      "paragraph_start": 1,
+      "paragraph_end": 0,
+      "token_count": 9,
+      "eva_clean": "shokchy chteey choteey cphol cheor opcheeol otor choctheeey okchoal",
+      "ivtff_raw": "<%>shokchy.chteey.choteey.cphol.cheor.opcheeol.otor.choctheeey.okchoal"
+    },
+    {
+      "locus": "f68r1.2",
+      "kind": "P",
+      "paragraph_start": 0,
+      "paragraph_end": 0,
+      "token_count": 9,
+      "eva_clean": "tochso otchl qokeeedy cheey cheeteey yteody chpor cheokorchey chod",
+      "ivtff_raw": "tochso.otchl.qokeeedy.cheey.cheeteey.yteody.chpor.cheokorchey.chod"
+    },
+    {
+      "locus": "f68r1.3",
+      "kind": "P",
+      "paragraph_start": 0,
+      "paragraph_end": 0,
+      "token_count": 8,
+      "eva_clean": "ykor shey qocheey chokal okeey ror eckhear daram",
+      "ivtff_raw": "ykor.shey.qocheey.chokal<->okeey.ror.eckhear.daram"
+    },
+    {
+      "locus": "f68r1.4",
+      "kind": "P",
+      "paragraph_start": 0,
+      "paragraph_end": 1,
+      "token_count": 2,
+      "eva_clean": "dchor okaiiin",
+      "ivtff_raw": "dchor.okaiiin<$>"
+    },
+    {
+      "locus": "f68r1.26",
+      "kind": "L",
+      "paragraph_start": 0,
+      "paragraph_end": 0,
+      "token_count": 1,
+      "eva_clean": "otor",
+      "ivtff_raw": "otor"
+    }
+  ],
+  "observed_form_contrasts": [
+    {
+      "pair": [
+        "cheey",
+        "qocheey"
+      ],
+      "occurrences": [
+        {
+          "locus": "f68r1.2",
+          "group_1based": 4,
+          "paragraph_group_1based": 13
+        },
+        {
+          "locus": "f68r1.3",
+          "group_1based": 3,
+          "paragraph_group_1based": 21
+        }
+      ],
+      "counts_each": 1,
+      "literal_string_relation": "qocheey = qo + cheey",
+      "prefix_added": "qo",
+      "is_qX_X_pair_with_X_cheey": false,
+      "alternative_literal_partition": "q + ocheey; ocheey is not a written whole group in this bounded unit.",
+      "context_relation": "Same native paragraph, different lines, seven intervening written groups. Not adjacent and not independently bound to the same subject or predicate.",
+      "parser_status": "Exact string decomposition only; no established qo or q/o morphemes."
+    },
+    {
+      "pair": [
+        "chteey",
+        "choteey"
+      ],
+      "occurrences": [
+        {
+          "locus": "f68r1.1",
+          "group_1based": 2,
+          "paragraph_group_1based": 2
+        },
+        {
+          "locus": "f68r1.1",
+          "group_1based": 3,
+          "paragraph_group_1based": 3
+        }
+      ],
+      "counts_each": 1,
+      "literal_string_relation": "chteey = ch + teey; choteey = ch + o + teey",
+      "inserted_string": "o",
+      "context_relation": "Two complete adjacent groups in the observed order CHTEEY then CHOTEEY on the same line.",
+      "parser_status": "Shared literal left ch and right teey with internal o difference does not establish semantic insertion, morpheme boundary, shared referent, or universal order."
+    }
+  ],
+  "raw_conservation": [
+    "Paragraph start is .1 and end .4; .5-.7 were not opened or absorbed.",
+    "The .3 raw chokal<->okeey drawing interruption is retained, not normalized into a definite semantic relation.",
+    "OTOR .1G7 exactly matches the .26 label; this is literal recurrence, not a confirmed star name or relation to the compared forms.",
+    "CHEETE EY/CHOCTHEEEY and other neighboring spellings remain exact unknown whole groups; no normalization or telescoping into compared forms."
+  ],
+  "primary_predecessors": [
+    {
+      "id": "GDT751",
+      "positive": "Clean qX/X whole-form pairing and enriched direct contacts are formal evidence worth retaining.",
+      "limit": "The earlier position effect is not q-specific against non-q controls. Old preserved quality/stage and preparation axes are inherited renderer assumptions, not independent meaning. No q component value is exported.",
+      "application": "Our CHEEY/QOCHEEY relation is qo+CHEEY, so it is not even the exact q+CHEEY/base instance of that test. No q=carrier/entry/quality rule may be imported."
+    },
+    {
+      "id": "GDT752",
+      "positive": "Whole-form q/base relation retained.",
+      "limit": "The independently bounded outward microfields give zero exact q-quality/base-preparation splits; the ten earlier preparation-carrier cards stay hypotheses, not translated evidence.",
+      "application": "A carrier, preparation, quality or grammar difference cannot be assigned to these local forms from prefix resemblance."
+    },
+    {
+      "id": "GDT916",
+      "positive": "Known GDT915 r/l phrase association remains unchanged; compositional hierarchy is not abandoned.",
+      "limit": "Primary new ordered stem-pair concordance had adequate capacity but was not established; alternate transcriptions cannot replace its primary result. This is not a universal rejection of morphology.",
+      "application": "Do not transfer a learned relation or operator automatically to a new stem pair or new qo/internal-o configuration. This local o pair was not itself the r/l experiment and is not refuted by it."
+    }
+  ],
+  "forbidden_inferences": [
+    "qo means a star subtype, article, case, negation, prefix, preparation carrier or quality operator",
+    "qocheey is q+cheey with a free ignored o",
+    "internal o in choteey has the same meaning or parser role as o in qocheey",
+    "cheey or chteey inherits an ES clarity, thermal, botanical or lexical meaning",
+    "adjacency of chteey/choteey proves an adjective-noun pair, comparative, synonym, derivation or shared subject",
+    "a learned parser or known phrase result generalizes automatically to this previously unbound pair",
+    "the label recurrence confirms a specific fixed star or links RAW826 lunar/solar relations to these forms"
+  ],
+  "allowed_research_consequence": "Any prospective whole-reading author must account for two distinct complete adjacent forms CHTEEY/CHOTEEY and the distinct nonadjacent CHEEY/QOCHEEY forms without erasing qo or internal o. It may explicitly hypothesize a compositional relation, but must pay its parser, role and whole-residual assumptions and retain unknowns. These observations constrain authorship; they do not choose a meaning candidate.",
+  "selection_changed": "No semantic route selected or reopened. Prevent importing q-specific carrier rules or automatic new-stem parser transfer into the EV content author. Formal relation is retained as an explicit unresolved obligation.",
+  "claim_ceiling": {
+    "confirmed_meanings": 0,
+    "independent_confirmation_capacity": 0,
+    "new_parser_rule_established": false,
+    "scored_relation": false
+  },
+  "primary_sha256": {
+    "VOYNICH_CURRENT_ROUTE.md": "5612563d734fac9078d6f4b2eeae63a133c7854c7f41e57d66211d0c396f16ef",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EV_CONTENT_SCOPE.md": "56dad15292ff0402b0fa6712cadf9021d5e9daa0cb9fe1b39b05bc7cb88d376e",
+    "experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md": "1cc862db584a1873e800677ed36da65a700528af316964557f3dd668d42c8de9",
+    "experiments/yolo/gdt752_q_base_microfield_role_audit/REPORT.md": "471e4c3ae19b98b7fc0d9df25313db133af457d302eeeabbdc6d246f53b49cca",
+    "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md": "d2957851cc00b97b29c11ca358e6a657704d1636ddf4ae8a44b7e3e7a9a0ceb3"
+  },
+  "guarded_rows_sha256_convention": "sha256(json.dumps(whole_guarded_rows,ensure_ascii=False,sort_keys=True,separators=(comma,colon)).encode(UTF-8)); no trailing newline",
+  "guarded_rows_sha256": "a675c6fc99fc05800a142b3c37c3876a87f88484144b70ce88927a21b4dec4cd",
+  "validation": {
+    "json_parses": true,
+    "native_count_28": true,
+    "label_count_1": true,
+    "exact_pairs_each_observed_once": true,
+    "only_owned_file_written": true
+  }
+}

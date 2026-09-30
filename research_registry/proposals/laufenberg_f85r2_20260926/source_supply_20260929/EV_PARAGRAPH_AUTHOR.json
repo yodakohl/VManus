@@ -1,0 +1,418 @@
+{
+  "schema": "EV_PARAGRAPH_AUTHOR_v1",
+  "phase": "Separate exploratory author phase after independent source freeze",
+  "started_utc": "2026-09-30T21:48:32Z",
+  "finished_utc": "2026-09-30T21:51:53.741695+00:00",
+  "authorization": "Parent explicitly authorized exact ZL3b f68r1.1–.4 + .26 content following EV_CONTENT_SCOPE and EV_METADATA_SCOPE; no other text or image",
+  "source_events_sha256_unchanged": "263e27a3827bef504ee41545481fbd39afa9ea5dcd399a24e8977fd81ddcc08e",
+  "input_receipt": {
+    "guard_command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "transcription/voynich_zl3b_lines.tsv",
+      "--selector",
+      "locus",
+      "--allow",
+      "f68r1.1",
+      "--allow",
+      "f68r1.2",
+      "--allow",
+      "f68r1.3",
+      "--allow",
+      "f68r1.4",
+      "--allow",
+      "f68r1.26",
+      "--columns",
+      "page,locus,kind,paragraph_start,paragraph_end,token_count,eva_clean,ivtff_raw"
+    ],
+    "guard_stdout_sha256": "a41a0ad34cf2f2010d47c8e55eff3b7cd56e953d09bc8874e3347cd903a1aaef",
+    "guard_stats": "GUARD_STATS {\"selected\": 5, \"skipped_forbidden\": 98, \"skipped_not_allowed\": 5282}",
+    "selected_rows": [
+      {
+        "page": "f68r1",
+        "locus": "f68r1.1",
+        "kind": "P",
+        "paragraph_start": "1",
+        "paragraph_end": "0",
+        "token_count": "9",
+        "eva_clean": "shokchy chteey choteey cphol cheor opcheeol otor choctheeey okchoal",
+        "ivtff_raw": "<%>shokchy.chteey.choteey.cphol.cheor.opcheeol.otor.choctheeey.okchoal"
+      },
+      {
+        "page": "f68r1",
+        "locus": "f68r1.2",
+        "kind": "P",
+        "paragraph_start": "0",
+        "paragraph_end": "0",
+        "token_count": "9",
+        "eva_clean": "tochso otchl qokeeedy cheey cheeteey yteody chpor cheokorchey chod",
+        "ivtff_raw": "tochso.otchl.qokeeedy.cheey.cheeteey.yteody.chpor.cheokorchey.chod"
+      },
+      {
+        "page": "f68r1",
+        "locus": "f68r1.3",
+        "kind": "P",
+        "paragraph_start": "0",
+        "paragraph_end": "0",
+        "token_count": "8",
+        "eva_clean": "ykor shey qocheey chokal okeey ror eckhear daram",
+        "ivtff_raw": "ykor.shey.qocheey.chokal<->okeey.ror.eckhear.daram"
+      },
+      {
+        "page": "f68r1",
+        "locus": "f68r1.4",
+        "kind": "P",
+        "paragraph_start": "0",
+        "paragraph_end": "1",
+        "token_count": "2",
+        "eva_clean": "dchor okaiiin",
+        "ivtff_raw": "dchor.okaiiin<$>"
+      },
+      {
+        "page": "f68r1",
+        "locus": "f68r1.26",
+        "kind": "L",
+        "paragraph_start": "0",
+        "paragraph_end": "0",
+        "token_count": "1",
+        "eva_clean": "otor",
+        "ivtff_raw": "otor"
+      }
+    ],
+    "unit": "Native ZL3b P f68r1.1–f68r1.4, 9+9+8+2=28 groups",
+    "label": "f68r1.26 otor, separately retained; not absorbed as group29"
+  },
+  "decision": "NO_COHERENT_COMPLETE_PARAGRAPH_READING_AUTHORED; explicit local reusable C0 visibility-state construction proposed with a serious positional-motion rival",
+  "whole_context_application": {
+    "what_was_actually_done": "Every group in the complete 28-group paragraph was inspected and accounted for; the proposed construction was applied to all seven forms in its declared family, including forms that retain unknown stems/modifiers. It is a local construction hypothesis inside a fully inventoried paragraph, not a translation of the paragraph.",
+    "local_connected_reading": "At f68r1.1 positions2–3, chteey choteey is proposed to express opposed visibility transitions: becoming visible and becoming invisible. This content is invented as a prospective C0 interpretation. The same lexical root and event nominal form are prospectively reused for cheey at f68r1.2 position4 and qocheey at f68r1.3 position3; the latter retains qo as unknown.",
+    "exact_construction": {
+      "semantic_atoms": {
+        "ch": "visibility / being seen",
+        "t": "onset or becoming",
+        "o": "negative polarity, ONLY in the declared ch-o-t-eey construction",
+        "eey": "event/state nominal formation"
+      },
+      "productive_patterns": [
+        "ch + t + eey => visibility onset",
+        "ch + o + t + eey => onset of nonvisibility",
+        "ch + eey => visibility event/state",
+        "qo + ch + eey => UNKNOWN(qo) modification of visibility",
+        "ch + ee + t + eey => UNKNOWN(ee) modification of visibility onset",
+        "X + eey => event/state nominal of UNKNOWN(X), only for listed forms"
+      ],
+      "segmentation_status": "Authored hypothesis; no uniquely proved parser or phonetic/Latin reading. In particular, shared written eey may be a different segmentation or structural allomorph."
+    },
+    "costs": {
+      "new_semantic_atoms": 4,
+      "new_confirmed_meanings": 0,
+      "new_grammar_and_scope_commitments": [
+        "Concatenative root/modifier/nominal rule for listed forms",
+        "o as negative specifically between ch and t, not every o in the text",
+        "t as an onset operator rather than an independent word",
+        "Exact eey as common suffix in the seven listed forms"
+      ],
+      "new_unbound_morphemes_or_stems": [
+        "qo",
+        "ee",
+        "chocthe",
+        "ok"
+      ],
+      "complete_proposed_group_values": 3,
+      "partially_proposed_groups": 4,
+      "wholly_unassigned_groups": 21,
+      "groups_accounted_for": 28,
+      "whole_independent_word_glosses_introduced": 0,
+      "new_group_specific_stem_glosses_for_partial_forms": 0,
+      "actor_glosses_introduced": 0,
+      "solar_anchor_or_hour_glosses_introduced": 0
+    }
+  },
+  "otor_ownership_alternatives": {
+    "specific_fixed_star_name": "Possible because the exact token labels a local star; not established, and the actual named fixed star is unknown. If so the prose occurrence could name that star, but the local visibility pair has no demonstrated attachment to it.",
+    "general_star_class": "Possible; the local single label supplies no proof of plural/class meaning.",
+    "shared_property_or_index": "Possible; prose and label can share an index or descriptive property without either being a noun naming a body.",
+    "unrelated_homonym_or_prose_use": "Possible; no rule currently forbids unrelated use in the paragraph.",
+    "chosen": "None is selected. otor at f68r1.1 position7 stays unassigned, avoiding ownership by convenience."
+  },
+  "serious_rival": {
+    "id": "R_POSITIONAL_MOTION",
+    "same_local_word_pair": "chteey choteey",
+    "proposed_atoms": {
+      "ch": "elevation or upward direction",
+      "t": "change or reaching",
+      "o": "opposed direction in this construction",
+      "eey": "event/state nominal formation"
+    },
+    "reading": "ascent and descent, rather than becoming visible and invisible",
+    "cost_comparison": "Same four semantic-atom count and local compositional pattern; neither reading has independently bound actors, solar conditions or observer relations.",
+    "actual_observed_comparison": "Both fit the one inserted-o contrast. Reusing ch/eey in cheey and qocheey does not distinguish them. No claim of better fit or source confirmation."
+  },
+  "real_conditional_consequences": [
+    {
+      "if": "The declared visibility construction is adopted prospectively as C0",
+      "then": "cheey must retain the visibility family meaning wherever this particular reading is applied; qocheey must preserve that meaning with an additional unknown qo modifier. It cannot be freely glossed as an unrelated astronomical object or quantity to complete a Pliny paragraph. This is an actual cross-line constraint over the present whole paragraph."
+    },
+    {
+      "if": "A future complete reading assigns a solar-arrival/departure relation to this pair under the visibility C0",
+      "then": "The pair describes observer-visible loss/return, not stellar physical horizon crossing. Solar actor and relation ownership must be separately assigned and paid for; they do not follow from otor or the source."
+    },
+    {
+      "if": "The same future context requires a common positional-motion interpretation for chteey/choteey/cheey/qocheey without visibility",
+      "then": "That interpretation supports R_POSITIONAL_MOTION and contradicts the retained ch visibility value. One cannot repair this by allowing ch to change meaning at each occurrence."
+    },
+    {
+      "if": "A future full context merely has generic rising/setting with no independently authored observer/visibility content",
+      "then": "It remains unable to discriminate these rival C0 constructions; source terminology alone provides no winner."
+    }
+  ],
+  "whole_group_accounting": [
+    {
+      "locus": "f68r1.1",
+      "position": 1,
+      "token": "shokchy",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.1",
+      "position": 2,
+      "token": "chteey",
+      "status": "PROPOSED_UNCONFIRMED_COMPLETE_LOCAL_VALUE",
+      "proposed_value": "becoming visible / visibility onset",
+      "parse": [
+        "ch",
+        "t",
+        "eey"
+      ]
+    },
+    {
+      "locus": "f68r1.1",
+      "position": 3,
+      "token": "choteey",
+      "status": "PROPOSED_UNCONFIRMED_COMPLETE_LOCAL_VALUE",
+      "proposed_value": "becoming invisible / visibility loss",
+      "parse": [
+        "ch",
+        "o",
+        "t",
+        "eey"
+      ]
+    },
+    {
+      "locus": "f68r1.1",
+      "position": 4,
+      "token": "cphol",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.1",
+      "position": 5,
+      "token": "cheor",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.1",
+      "position": 6,
+      "token": "opcheeol",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.1",
+      "position": 7,
+      "token": "otor",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.1",
+      "position": 8,
+      "token": "choctheeey",
+      "status": "PROPOSED_UNCONFIRMED_PARTIAL",
+      "proposed_value": "UNKNOWN(chocthe) event nominal",
+      "parse": [
+        "chocthe",
+        "eey"
+      ]
+    },
+    {
+      "locus": "f68r1.1",
+      "position": 9,
+      "token": "okchoal",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.2",
+      "position": 1,
+      "token": "tochso",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.2",
+      "position": 2,
+      "token": "otchl",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.2",
+      "position": 3,
+      "token": "qokeeedy",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.2",
+      "position": 4,
+      "token": "cheey",
+      "status": "PROPOSED_UNCONFIRMED_COMPLETE_LOCAL_VALUE",
+      "proposed_value": "visibility / being seen",
+      "parse": [
+        "ch",
+        "eey"
+      ]
+    },
+    {
+      "locus": "f68r1.2",
+      "position": 5,
+      "token": "cheeteey",
+      "status": "PROPOSED_UNCONFIRMED_PARTIAL",
+      "proposed_value": "visibility onset with UNKNOWN(ee) modifier",
+      "parse": [
+        "ch",
+        "ee",
+        "t",
+        "eey"
+      ]
+    },
+    {
+      "locus": "f68r1.2",
+      "position": 6,
+      "token": "yteody",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.2",
+      "position": 7,
+      "token": "chpor",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.2",
+      "position": 8,
+      "token": "cheokorchey",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.2",
+      "position": 9,
+      "token": "chod",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.3",
+      "position": 1,
+      "token": "ykor",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.3",
+      "position": 2,
+      "token": "shey",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.3",
+      "position": 3,
+      "token": "qocheey",
+      "status": "PROPOSED_UNCONFIRMED_PARTIAL",
+      "proposed_value": "UNKNOWN(qo) modifying visibility",
+      "parse": [
+        "qo",
+        "ch",
+        "eey"
+      ]
+    },
+    {
+      "locus": "f68r1.3",
+      "position": 4,
+      "token": "chokal",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.3",
+      "position": 5,
+      "token": "okeey",
+      "status": "PROPOSED_UNCONFIRMED_PARTIAL",
+      "proposed_value": "UNKNOWN(ok) event nominal; initial o is not automatically the negation operator",
+      "parse": [
+        "ok",
+        "eey"
+      ]
+    },
+    {
+      "locus": "f68r1.3",
+      "position": 6,
+      "token": "ror",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.3",
+      "position": 7,
+      "token": "eckhear",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.3",
+      "position": 8,
+      "token": "daram",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.4",
+      "position": 1,
+      "token": "dchor",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    },
+    {
+      "locus": "f68r1.4",
+      "position": 2,
+      "token": "okaiiin",
+      "status": "UNASSIGNED",
+      "proposed_value": null
+    }
+  ],
+  "raw_uncertainty": {
+    "f68r1.3": "Raw chokal<->okeey retains the <-> boundary marker. The clean tokenization has separate chokal and okeey groups; no punctuation, attachment or erased material is reconstructed from that marker.",
+    "paragraph_end": "Raw okaiiin<$> confirms native end; no .5 continuation is added."
+  },
+  "source_consequence_limits": [
+    "Source dual-event contrast supplied inspiration, not evidence that these glyphs encode it.",
+    "No solar-arrival or departure token, observer, day qualifier, fractional hour or fixed-star ownership has been authored in the rest of this paragraph.",
+    "The local visibility C0 cannot be presented as the complete Pliny XVIII.218–219 reading.",
+    "No old Celestial gloss, ET medical lexicon, target-auditor output, image, alternate reader, reserve or new admission was used.",
+    "No relation packet, score, significance claim or independent semantic confirmation."
+  ],
+  "confirmed_voynich_meanings": 0,
+  "validation": {
+    "all_declared_parses_concatenate_to_original_tokens": true,
+    "group_count": 28,
+    "source_frozen_hash_unchanged": true
+  }
+}

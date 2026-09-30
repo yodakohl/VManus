@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: EU sourcebearer contrast applied;no newmeaning.
-Latest decision: RAW825 notET/ESdiscriminator;ESseed retained.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EU_REPORT.md.
-Assumptions: 59/61C0 fixed;root/juice/clinicalbindings unbound.
-Resume: Review RAW826 primary+678/743/closedroutes first.
-Running: None;3GPT6.1Sol agents done;RAW826 unreviewed.
+Task: EV whole28 astralP localconstruction reviewed.
+Latest decision: visibility/position C0 unselected;826 nottested.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EV_REPORT.md.
+Assumptions: 4newatoms;3full/4partial/21unknown;ES CHEEY differs.
+Resume: Complete sharedclause/argument reading on same28;no engine.
+Running: None;3GPT6.1Sol threads done;RAW827 unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

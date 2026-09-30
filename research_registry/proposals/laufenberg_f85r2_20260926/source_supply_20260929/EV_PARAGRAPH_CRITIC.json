@@ -1,0 +1,158 @@
+{
+  "task": "Independent bounded EV complete paragraph rival check",
+  "started_utc": "2026-09-30T21:48:19Z",
+  "completed_utc": "2026-09-30T21:50:34.783169+00:00",
+  "deadline_utc": "2026-09-30T21:53:00Z",
+  "scope_read": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EV_METADATA_SCOPE.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EV_CONTENT_SCOPE.md"
+  ],
+  "source": "transcription/voynich_zl3b_lines.tsv",
+  "guarded_command": "./vmanus-exp query-tsv transcription/voynich_zl3b_lines.tsv --selector locus --allow f68r1.1 --allow f68r1.2 --allow f68r1.3 --allow f68r1.4 --allow f68r1.26 --columns page,locus,kind,paragraph_start,paragraph_end,token_count,eva_clean,ivtff_raw --forbid-prefix f84",
+  "guard_receipt": {
+    "selected": 5,
+    "skipped_forbidden": 98,
+    "skipped_not_allowed": 5282
+  },
+  "rows": [
+    {
+      "locus": "f68r1.1",
+      "kind": "P",
+      "paragraph_start": 1,
+      "paragraph_end": 0,
+      "groups": [
+        "shokchy",
+        "chteey",
+        "choteey",
+        "cphol",
+        "cheor",
+        "opcheeol",
+        "otor",
+        "choctheeey",
+        "okchoal"
+      ],
+      "raw": "<%>shokchy.chteey.choteey.cphol.cheor.opcheeol.otor.choctheeey.okchoal"
+    },
+    {
+      "locus": "f68r1.2",
+      "kind": "P",
+      "paragraph_start": 0,
+      "paragraph_end": 0,
+      "groups": [
+        "tochso",
+        "otchl",
+        "qokeeedy",
+        "cheey",
+        "cheeteey",
+        "yteody",
+        "chpor",
+        "cheokorchey",
+        "chod"
+      ],
+      "raw": "tochso.otchl.qokeeedy.cheey.cheeteey.yteody.chpor.cheokorchey.chod"
+    },
+    {
+      "locus": "f68r1.3",
+      "kind": "P",
+      "paragraph_start": 0,
+      "paragraph_end": 0,
+      "groups": [
+        "ykor",
+        "shey",
+        "qocheey",
+        "chokal",
+        "okeey",
+        "ror",
+        "eckhear",
+        "daram"
+      ],
+      "raw": "ykor.shey.qocheey.chokal<->okeey.ror.eckhear.daram"
+    },
+    {
+      "locus": "f68r1.4",
+      "kind": "P",
+      "paragraph_start": 0,
+      "paragraph_end": 1,
+      "groups": [
+        "dchor",
+        "okaiiin"
+      ],
+      "raw": "dchor.okaiiin<$>"
+    },
+    {
+      "locus": "f68r1.26",
+      "kind": "L",
+      "paragraph_start": 0,
+      "paragraph_end": 0,
+      "groups": [
+        "otor"
+      ],
+      "raw": "otor"
+    }
+  ],
+  "completeness": {
+    "status": "COMPLETE_NATIVE_ZL_PARAGRAPH_BY_TRANSCRIPTION_BOUNDARIES",
+    "start": "f68r1.1 paragraph_start=1 and raw <%>",
+    "end": "f68r1.4 paragraph_end=1 and raw <$>",
+    "prose_group_counts": [
+      9,
+      9,
+      8,
+      2
+    ],
+    "prose_groups": 28,
+    "distinct_prose_wholes": 28,
+    "line3_source_marker": "chokal<->okeey preserved; no silent removal, joining or semantic reading of the marker.",
+    "neighboring_material": "No .5-.7 content opened or silently absorbed; their scope registration describes them separately.",
+    "limit": "No new image inspection; completeness is certified for the registered ZL transcription unit, not independently remeasured manuscript ink boundaries. IT/RF own paragraph contracts were not opened."
+  },
+  "concrete_positive": "otor is prose .1 group7 and the complete one-group local star label .26. The known GDT1071 attachment grounds the label on one star, while prose ownership remains page-level. Every selected source group is retained.",
+  "rivals": [
+    {
+      "rival": "specific star name",
+      "verdict": "POSSIBLE_C0__SIMPLE_STAR_EXCLUSIVITY_PRIOR_DISFAVORED",
+      "reason": "One labelled star and one prose reuse can share a hypothetical name. The prose gives no independently known pointing device or grammatical referent link. The retained GDT1072 cross-register counterexamples require an account of reused names, homonymy or broader referents; they do not logically exclude the local name hypothesis.",
+      "distinct_requirement": "A whole reading must preserve one otor value in label and prose and explicitly bind which entity the prose clauses concern. No local attachment licenses an automatic Sun or event value elsewhere."
+    },
+    {
+      "rival": "general star class",
+      "verdict": "LIVE_C0",
+      "reason": "A class/property label on an individual star can also occur in a general stellar paragraph. The observed exact reuse does not require a proper name. No interpreted plural/class marker is already supplied by this paragraph.",
+      "distinct_requirement": "Declare whether the prose binder selects a class or an individual and whether predicates apply to all, some or one member. RAW826 single fixed-star consequences cannot be silently applied to a mixed class."
+    },
+    {
+      "rival": "shared property or index/address",
+      "verdict": "LIVE_C0",
+      "reason": "The label could express a property, number or address; the prose could discuss the same property or cite the address. This explains the exact shared form without identifying a star name. Neither visible rays nor prose position reads the value.",
+      "distinct_requirement": "Specify the property/index type and any selection operation needed to turn it into a fixed stellar referent. Preserve numeric/address alternatives instead of inferring them from the six-point visual feature."
+    },
+    {
+      "rival": "unconnected reuse or homonym",
+      "verdict": "LIVE_NULL_OWNERSHIP_RIVAL",
+      "reason": "No author-visible link connects the page-level prose occurrence to the singularly attached label. The known cross-register distribution permits unrelated reuse or homonymy. Exactly matching one form is an observation, not a proof of shared reference.",
+      "distinct_requirement": "A whole reading should predict whether otor keeps one referent/value across both uses or purchases a context-sensitive/homonym rule. Any such rule is an explicit cost, not an invisible repair."
+    }
+  ],
+  "RAW826_consequence": {
+    "status": "WHOLE_C0_AUTHORSHIP_NOW_HAS_COMPLETE_INPUT__NO_CURRENT_DISCRIMINATING_DERIVATION",
+    "finding": "The new complete 28-group unit resolves the earlier uncertainty about whole-context availability. It does not itself select daily Sun-concealment/emergence versus first/last-visible-day events. No whole candidate lexicon, grammar or formulas were supplied within this critic scope; their absence is an unauthored hypothesis, not an invalid tested model or proof of absent meaning.",
+    "source_comparison_limit": "Only the RAW826 contrast retained in the task/scope was used. The independent source-reader file and root candidate drafts were not read.",
+    "smallest_useful_authorship": "Root can prospectively assign every group and explicit grammar for this paragraph plus local label, fixing one stellar referent/type, solar actor, event subtype and temporal scope. C0 does not require prior proof of word meanings. Charge every whole value, new rule, reference law, scope commitment and any homonym/context rule; retain all four rivals.",
+    "required_differential": "Freeze at least one target statement whose typed derivation or truth conditions differ between daily repeated visibility tied to Sun arrival/departure and a first/last-visible day with its source-prescribed solar interval. A generic rise/set or visible/hidden paraphrase is shared by both and cannot discriminate. Keep actor identity and interval kind fixed when applying the rival; do not reinterpret tokens retrospectively.",
+    "available_literal_obligation": "If the model claims label/prose reference identity, both written otor occurrences must receive the same declared value/reference through an explicit law. All 28 prose wholes are singleton types within this unit, so there is no second repeated whole-form relation inside the paragraph that independently fixes a dual-event grammar. This limits local constraint strength but does not make prospective compositional C0 authorship impossible.",
+    "no_extra_access_required_for_first_ZL_candidate": true,
+    "semantic_confirmation": false,
+    "scored_test_ready": false
+  },
+  "independence": {
+    "root_candidate_files_read": false,
+    "EV_SOURCE_EVENTS_read": false,
+    "shared_files_changed": false,
+    "old_word_glosses_adopted": false,
+    "new_image_views": 0,
+    "other_loci_opened": false,
+    "holdout_claim": false
+  },
+  "decision": "Keep the complete upper ZL paragraph as a finite fresh authoring input. No particular name/class/property value or RAW826 subtype is selected by this rival check. Do not rerun the otor census or add a visibility engine. The next material action is a complete prospectively declared C0 candidate with a differential consequence, if root selects it."
+}

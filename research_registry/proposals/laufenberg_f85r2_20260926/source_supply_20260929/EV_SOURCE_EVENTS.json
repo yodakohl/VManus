@@ -1,0 +1,185 @@
+{
+  "schema": "EV_SOURCE_EVENTS_v1",
+  "role": "independent source-only Latin reading",
+  "started_utc": "2026-09-30T21:37:15Z",
+  "frozen_utc": "2026-09-30T21:39:31.962284+00:00",
+  "scope": {
+    "read": [
+      "VOYNICH_CURRENT_ROUTE.md",
+      "EV_DECISION.md",
+      "U_COMPLETE_SOURCE_READINGS.md selected Pliny block, lines 164–228",
+      "U_PLINY_COMPLETE_PASSAGES.json provenance and selected XVIII.218–219"
+    ],
+    "target_model_or_word_profiles_read": false,
+    "manuscript_images_read": false,
+    "reserves_read": false,
+    "git_operations": false,
+    "confirmed_voynich_meanings": 0,
+    "RAW826_interpretation_used_as_truth": false
+  },
+  "provenance": {
+    "cached_json": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/U_PLINY_COMPLETE_PASSAGES.json",
+    "cached_json_sha256": "f4b3b37c453a126f2b2f8767fccfec028982736a56b3a9954b5fc0d81c53c1c9",
+    "readings_md": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/U_COMPLETE_SOURCE_READINGS.md",
+    "readings_md_sha256": "22e9e349f62ad0e8c52ec07b274b705c7d3fd8a555691c49002881da28dc853c",
+    "original_source_url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Pliny_the_Elder/18*.html",
+    "downloaded_utc": "2026-09-29T12:33:49.067751+00:00",
+    "recorded_raw_response_sha256": "3787351a18cce1dd4553fda1a0fffd0e0e99fae5fc3d5ece544d6acd7359d37a",
+    "provider_layer": "Electronic Latin edition; no manuscript-date or illustration claim. Public-domain ancient Latin; retain spelling/editorial text of this provider.",
+    "following_heading_excluded": "lix",
+    "hash_limitation": "Original HTTP-response hash is cached provenance, not independently redownloaded/verified during this read."
+  },
+  "sections": {
+    "218": {
+      "latin": "Omnis autem ratio observata est tribus modis, exortu siderum occasuque et ipsorum temporum cardinibus. exortus occasusque binis modis intelleguntur. aut enim adventu solis occultantur stellae et conspici desinunt aut eiusdem abscessu proferunt se, ut emersum hoc melius quam exortum consuetudo dixisset et illud occultationem potius quam occasum.",
+      "sha256_utf8": "2ae7ee08813db7f4af41bcf9b380ded66359daa4143dee1c401f2ac6fe0f9c7f",
+      "source_json_pointer": "/1/parts/0/latin",
+      "reading_md_lines": 189
+    },
+    "219": {
+      "latin": "alio modo, quo die incipiunt apparere vel desinunt oriente sole aut occidente, matutini vespertinive cognominati, prout alteruter eorum mane vel crepusculo contingit. dodrantes horarum, cum minimum, intervalla ea desiderant ante solis ortum vel post occasum, ut aspici possint. praeterea bis quaedam exoriuntur et occidunt, omnisque sermo de iis est stellis, quas adhaerere caelo diximus.",
+      "sha256_utf8": "82ce110e2164ec02b3bb489911ffefe724b9ce323a9bbb4dab6335bc3c6d2cd0",
+      "source_json_pointer": "/1/parts/1/latin",
+      "reading_md_lines": 191
+    }
+  },
+  "connected_reading": "The account classifies astronomical seasonal reference points by rising, setting, and turning points of times. The stellar rising/setting terms have two senses. One describes solar-conditioned concealment and disclosure: Sun arrival hides stars from view and Sun departure allows them to show themselves, so emergence/concealment are more appropriate names. The other marks the day stars first begin or cease being visible around solar rising/setting, with morning/evening designation. Visibility requires a minimum three-quarter-hour interval before solar rising or after solar setting. Some objects rise/set twice, and this discussion is explicitly confined to fixed stars.",
+  "constraints": [
+    {
+      "id": "A",
+      "type": "classification",
+      "content": "The account uses three reference classes: stellar rising, stellar setting, and the hinges of the times/seasons. Rising and setting themselves admit two senses. This taxonomic preface is not a list of named stars or measured dates.",
+      "evidence": [
+        {
+          "section": 218,
+          "latin": "Omnis autem ratio observata est tribus modis, exortu siderum occasuque et ipsorum temporum cardinibus.",
+          "start_char_in_section": 0,
+          "end_char_exclusive": 102
+        },
+        {
+          "section": 218,
+          "latin": "exortus occasusque binis modis intelleguntur.",
+          "start_char_in_section": 103,
+          "end_char_exclusive": 148
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "type": "solar_conditioned_stellar_visibility_loss",
+      "event_owner": "stars",
+      "conditioning_owner": "Sun",
+      "content": "At the Sun's arrival, stars are concealed and cease to be seen. The source describes visibility loss, not a demonstrated stellar descent through the physical horizon. The ordinary daily interpretation is compatible with this language, but the selected text contains no explicit every-day/every-star quantifier.",
+      "evidence": [
+        {
+          "section": 218,
+          "latin": "adventu solis occultantur stellae et conspici desinunt",
+          "start_char_in_section": 158,
+          "end_char_exclusive": 212
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "type": "solar_conditioned_stellar_visibility_return",
+      "event_owner": "stars",
+      "conditioning_owner": "same Sun",
+      "content": "At the same Sun's departure, stars present themselves. The referent of eiusdem is the Sun. Hoc points to this appearance and illud to the preceding concealment. Pliny judges emergence and concealment better terminology than rising and setting. This is explicit criticism of the conventional labels, not two additional bodily motions.",
+      "evidence": [
+        {
+          "section": 218,
+          "latin": "eiusdem abscessu proferunt se",
+          "start_char_in_section": 217,
+          "end_char_exclusive": 246
+        },
+        {
+          "section": 218,
+          "latin": "ut emersum hoc melius quam exortum consuetudo dixisset et illud occultationem potius quam occasum.",
+          "start_char_in_section": 248,
+          "end_char_exclusive": 346
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "type": "day_of_first_or_last_visibility",
+      "event_owner": "stars appearing or ceasing to appear; morning/evening designation belongs to the rising/setting event classes",
+      "conditioning_owner": "Sun rising or setting",
+      "content": "In the other sense, the relevant day is when stars begin to appear or cease appearing with the Sun rising or setting. The events are called morning or evening according as either occurs at morning or twilight. Quo die gives a day-level onset/cessation reference; the text supplies no named calendar date, observer, latitude, year, named fixed star, or empirical observation log. An annual/calendar-event interpretation fits this distinction but annual frequency is not explicitly quantified in the selected clause.",
+      "evidence": [
+        {
+          "section": 219,
+          "latin": "alio modo, quo die incipiunt apparere vel desinunt oriente sole aut occidente, matutini vespertinive cognominati, prout alteruter eorum mane vel crepusculo contingit.",
+          "start_char_in_section": 0,
+          "end_char_exclusive": 166
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "type": "minimum_relative_solar_interval_for_visibility",
+      "content": "These intervals require at least three quarters of an hour before solar rising or after solar setting so that the stars can be seen. Dodrantes is plural and horarum genitive: a fractional hour quantity, not three hours, a clock hour, a date, a fixed visibility duration, or an exact equality. The wording is a minimum separation criterion anchored to solar rising/setting. Treat 45 modern minutes only as a conversion requiring an additional equal-hour convention; the passage itself does not establish that convention or modern observational validity.",
+      "quantity": {
+        "numerator": 3,
+        "denominator": 4,
+        "unit": "source hora",
+        "operator": "at least",
+        "qualifier": "cum minimum",
+        "anchors": [
+          "ante solis ortum",
+          "post occasum"
+        ],
+        "purpose": "ut aspici possint"
+      },
+      "evidence": [
+        {
+          "section": 219,
+          "latin": "dodrantes horarum, cum minimum, intervalla ea desiderant ante solis ortum vel post occasum, ut aspici possint.",
+          "start_char_in_section": 167,
+          "end_char_exclusive": 277
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "type": "restricted_repeat_and_object_class",
+      "content": "Some also rise and set twice. Quaedam restricts this to some objects; no time span or count of all objects is specified here. All the discussion concerns stars described as adhering to the sky: fixed stars. A moving planet, Venus/Lucifer/Vesper, or a generic solar/lunar object cannot be substituted under this statement. No named fixed star is supplied in XVIII.218–219.",
+      "evidence": [
+        {
+          "section": 219,
+          "latin": "praeterea bis quaedam exoriuntur et occidunt",
+          "start_char_in_section": 278,
+          "end_char_exclusive": 322
+        },
+        {
+          "section": 219,
+          "latin": "omnisque sermo de iis est stellis, quas adhaerere caelo diximus.",
+          "start_char_in_section": 324,
+          "end_char_exclusive": 388
+        }
+      ]
+    }
+  ],
+  "ambiguities_to_preserve": [
+    "The selected passage does not explicitly quantify daily repetition or annual period; those are contextual interpretations of its two senses.",
+    "Matutini/vespertini are masculine, consistent with implied exortus/occasus event classes, not direct gender agreement with feminine stellae. Do not turn these adjectives into new names for two bodies.",
+    "The text does not supply a one-to-one table matching incipiunt/desinunt to both morning/evening alternatives, nor observer-specific dates; do not invent one.",
+    "The solar interval does not identify which Voynich token is a number, an hour, a comparison, or a solar anchor.",
+    "The source's final twice clause leaves its period and subset unnamed in this selected block.",
+    "Physical horizon crossing for the stars is not asserted by the explicit visibility explanation. Solar rising/setting are named interval anchors, whose geometry is not developed here."
+  ],
+  "observable_semantic_difference_without_bound_lexemes": {
+    "content_difference": "Generic physical rising describes an object reaching or crossing a positional boundary; visible emergence describes an object becoming visible when the solar condition changes, without asserting a new physical ascent. The passage explicitly prefers the latter description for its first sense. Its second sense additionally requires a first/last day and a minimum solar-relative viewing interval.",
+    "possible_manuscript_discriminator": "An already admitted connected context would need independently declared astronomical object ownership plus a visibility/observer predicate and solar-conditioned disappearance/return, or first/last-day and relative-interval content. Such an entire interpretation could be proposed prospectively as C0 with costs. Identifying those content relations from unlabeled recurrence alone is unavailable.",
+    "non_discriminator": "Two repeated words, two stars in an illustration, a direction pair, or a generic rise/set gloss alone do not distinguish visibility from positional motion or day-level onset from ordinary solar masking.",
+    "status": "Source contrast is real; this source-only read establishes no target discriminator and no Voynich translation."
+  },
+  "lexical_verification": {
+    "work": "Lewis and Short, A Latin Dictionary (1879), dodrans entry",
+    "url": "https://alatius.com/ls/index.php?l=dodrantem",
+    "checked_utc": "2026-09-30T21:37:46Z",
+    "result": "The temporal sense is a three-quarter-hour quantity; entry cites Pliny XVIII.219 directly. No new comparator witness acquired.",
+    "quote_words": 0
+  },
+  "decision": "RETAIN_SOURCE_CONTRAST_ONLY; horizon crossing, target mapping, named-star/planet substitution, and confirmed meanings are unsupported."
+}

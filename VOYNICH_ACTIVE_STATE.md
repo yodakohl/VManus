@@ -1,3 +1,17 @@
+<!-- 2026-09-30 EV fixed-star source and complete astral paragraph -->
+PlinyXVIII218–219 visibility/day/solarinterval sourcecontrast established, nottargettemplate.
+NativeZL f68r1.1–.4 whole28 +.26localotor registered/queried;28distinctforms.
+OTOR bridge known1071/72;name/class/property/unconnected rivals retained.
+LocalC0 CHTEEY/CHOTEEY visibilityonset/loss vs equal-atom ascent/descent;
+3full/4partial/21unknown;7exactparses;4atoms+scope debts, no actor/day/hour.
+CHEEYvisibility differs oldESclear;separateunselectedbranch, no silent synonym.
+751/752qo limits and916newstemfailure retained;all oldmodelsbytefixed.
+RAW826not_tested meaning;no semanticwinner/confirmedword/independentleaf.
+3GPT6.1Sol threads source/author,critic,formalprior;priorcapoverrun16.095sec disclosed.
+No newimage/admission/reserve/contact/decoder;RAW827unreviewed notselected.
+Next whole28sharedclauses/args, no visibilityengine or freewordfill.
+[EV report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EV_REPORT.md).
+
 <!-- 2026-09-30 EU source-bearer contrast actual application -->
 DioscoridesII164 root→juice/thickening→explicitroot effects sourceconstraint established.
 Juice has ownuses; rootgrammar notchemicalexclusion. SourceJSON retains XMLdeletedphrase;
