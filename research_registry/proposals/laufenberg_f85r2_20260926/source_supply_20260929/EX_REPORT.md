@@ -1,0 +1,17 @@
+# EX: phase and endpoint meanings separated
+
+1October2026 local. Registered inclusive UTC budget: 22:28:38–22:48:38. Publication remained unfinished at 22:51:06 UTC, so the total budget was exceeded; no within-budget completion is claimed. Previous EW goal turn completed wholeauthorship and concrete model failures; no deciphermentgain. Original EW packets remain bytefixed.
+
+A new prospective full28 contract now explicitly declares a three-phase path: middle→lower→upper→middle. It preserves the29unit-definition strings and28exactparses, but changes semantic types, argument bindings and phase/reference laws through11additional assumptions. Its downward region becomes the union of two separated phases; this replaces the original single-interval type. ReturnPath is expanded to encode the path itself. Consequently this is a new constructed C0, not an unchanged successful EW derivation or evidence of economy.
+
+The DARAM END equality is now present in the whole conjunction and binds the post-ascent descent D1. Temporal beginning/end heights are both the middle level. Coordinate extrema are the distinct upper/lower pair. The final okaiiin is prospectively given the latter pair interpretation; no numeral or oldokaiin equivalence is introduced.
+
+The actual four-case consequences appear in EX_CONSEQUENCE_TABLE.tsv. Temporalstart/end=(hi,lo) plusreturnedheight contradicts hi≠lo. Coordinateextrema=(hi,lo) can coexist withreturnedheight. A closed timeinterval alone doesnotimplyheightreturn. For the independent two-phase account, initialheight h0 is unspecified: temporal(h0,hi), extrema(max(h0,hi),lo); claiming extrema(hi,lo) additionally needs h0≤hi. The new three-phase endpoint assignments provide a different prospective account.
+
+These are implications of declared hypotheses, not observed Voynich meanings. Allwordvalues, threephases, initialmiddle position, label/prose coidentity andselectedextrema meaning remain invented/unranked. OriginalEW omittedDARAM contribution andundefinedcycle interface are not repaired or superseded. No semanticwinner, independentmeaningcheck, significance, directsourcecopy or confirmedword follows.
+
+The independent reviewer delivered useful algebra in agentmessages but its artifact-write guard failed after213seconds against180; EX_ENDPOINT_REVIEW.json doesnotexist and is not claimed. Root read those messages and independently checked the elementary equalities above. Phaseauthor254.789/240seconds, overrun14.789; producerproposal/add inside120seconds butreceipt1.666seconds late. Timing failures are disclosed, no furtherexpansion followed.
+
+Root executed originalhash, exact28parse/29definition-string conservation andDARAM whole-conjunction checks. EX_ROOT_REVIEW.json records them as literal/reconciliation only; changedtypes mean definition-string equality is not semantic identity. There is no semanticPASS. No newmanuscriptdata/image/sourcewitness/reserve/f84/f84r/f116v/contact/engine/fixture/scoredpacket. Independentconfirmation0leaves;confirmedwords0. Source826 still lacks solar/day/hour meanings.
+
+Decision: retain this wholethree-phase draft as unselected exploratory content, stop furthercycle-only repairs. Merelyadding definitions cannot rank these meanings. Nextreview RAW829 andits809/800predecessorprimaries for a genuinelydifferent content-bearing route before selection. RAW829 is one separatelyqueued cultivation/thorn hypothesis, unreviewed/unselected/untested; no botanicalname or manuscriptfinding follows.

@@ -1,3 +1,13 @@
+<!-- 2026-10-01 EX prospective phase/endpoint meanings -->
+New3phase c→lo→hi→c;29definitionstrings/28parses retained,11newtype/ref laws.
+DARAM end equality now innewwholeconjunction;EW originalfailure unchanged.
+Temporal(c,c) differs extrema(hi,lo);temporal(hi,lo)+heightreturn conditionalconflict.
+Closedinterval≠heightreturn;coherence bought,notmeaningconfirmation.
+Authoroverrun14.789sec;reviewerfile unwritten213/180;producerreceipt+1.666 disclosed.
+Stop furthercycle-only repairs;next RAW829+809/800 primarybeforeselection.
+0words0capacity;no newdata/image/reserve/contact/engine;source826stillnot_tested.
+[EX report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EX_REPORT.md).
+
 <!-- 2026-10-01 EW whole28 independent authorship and actual model failures -->
 V wholevisibility attemptfailsqokeeedy exactparts (qokeedy);no after-resultrepair.
 OriginalV3full4partial21unknown preserved;localcapoverrun59.483sec disclosed.

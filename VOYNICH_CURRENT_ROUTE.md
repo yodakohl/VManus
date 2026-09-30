@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: EW whole28 positionalC0 andV failure reviewed.
-Latest decision: R prose retained;C5/cycle unbound;V notfull.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EW_REPORT.md.
-Assumptions: R29units12rules;daram equality omitted;0words.
-Resume: ProspectiveR phase/endpoint contract onwhole28 first.
-Running: None;3GPT6.1Sol threads done;RAW828 unreviewed.
+Task: EX prospective3phase endpointC0 reviewed.
+Latest decision: 11assumptions buycoherence;stopcycle repairchain.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EX_REPORT.md.
+Assumptions: 29labels same,types changed;0confirmedwords.
+Resume: Review RAW829+809/800 primarybefore newselection.
+Running: None;3threads stopped;reviewerfile missingdisclosed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
