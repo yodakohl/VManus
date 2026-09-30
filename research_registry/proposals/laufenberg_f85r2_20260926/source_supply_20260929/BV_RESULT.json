@@ -1,0 +1,134 @@
+{
+  "schema": "bv-existing-grammar-audit-v1",
+  "forms": [
+    "qotchs",
+    "qotol",
+    "qotchy",
+    "qotain"
+  ],
+  "formal_replays": [
+    {
+      "surface": "qotchs",
+      "wrapper": "q",
+      "residual_host": "otchs",
+      "dy_closure": 0,
+      "page_host_before_local_frame": "otchs",
+      "b3": 0,
+      "right_family": "NONE",
+      "inner_d": 0,
+      "local_frame": "NOT_FROZEN_FOR_NEW_INPUT",
+      "collapsed": "qotCs",
+      "bpe_units": [
+        "qot",
+        "C",
+        "s"
+      ]
+    },
+    {
+      "surface": "qotol",
+      "wrapper": "q",
+      "residual_host": "otol",
+      "dy_closure": 0,
+      "page_host_before_local_frame": "otol",
+      "b3": 0,
+      "right_family": "NONE",
+      "inner_d": 0,
+      "local_frame": "NOT_FROZEN_FOR_NEW_INPUT",
+      "collapsed": "qotol",
+      "bpe_units": [
+        "qot",
+        "ol"
+      ]
+    },
+    {
+      "surface": "qotchy",
+      "wrapper": "q",
+      "residual_host": "otchy",
+      "dy_closure": 0,
+      "page_host_before_local_frame": "otchy",
+      "b3": 0,
+      "right_family": "NONE",
+      "inner_d": 0,
+      "local_frame": "NOT_FROZEN_FOR_NEW_INPUT",
+      "collapsed": "qotCy",
+      "bpe_units": [
+        "qot",
+        "Cy"
+      ]
+    },
+    {
+      "surface": "qotain",
+      "wrapper": "q",
+      "residual_host": "otain",
+      "dy_closure": 0,
+      "page_host_before_local_frame": "ot",
+      "b3": 0,
+      "right_family": "ain",
+      "inner_d": 0,
+      "local_frame": "NOT_FROZEN_FOR_NEW_INPUT",
+      "collapsed": "qotaI",
+      "bpe_units": [
+        "qot",
+        "aI"
+      ]
+    }
+  ],
+  "inputs": {
+    "run_gdt012_core_semantic_atlas.py": "7db6d7eff0937e9fa67a77356a61e00a0e28a6cd73b2c62146844adea8b8fc1c",
+    "run_gdt062_right_family_register_renderer.py": "9c9e7a35278d59ace7dd88f3c1e0ca6112ec48cef29fdd86c4e5546c6ec9a665",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539",
+    "experiments/yolo/gdt748_complete_whole_serial_paradigm_census/artifacts/SURFACE_PREDICTION_CENSUS.tsv": "7643c0da60e0cc5fb65cfe83aa483a23ee593e4d433eb0babbd3fd7fc2a8712b",
+    "experiments/yolo/gdt751_q_base_carrier_shell_audit/artifacts/Q_BASE_51_PAIR_DECK.tsv": "3dd17782eea2cee6fc3bf77e1eb794b4fe959685744280349701429a238f4246"
+  },
+  "queries": [
+    {
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "experiments/yolo/gdt751_q_base_carrier_shell_audit/artifacts/Q_BASE_51_PAIR_DECK.tsv",
+        "--selector",
+        "prefix_surface",
+        "--allow",
+        "qotchs",
+        "--allow",
+        "qotol",
+        "--allow",
+        "qotchy",
+        "--allow",
+        "qotain",
+        "--columns",
+        "pair_id,prefix_surface,base_surface,prefix_canonical_axes,base_canonical_axes,quality_stage_exactly_preserved,preparation_relation,prefix_reader_exact_occurrences,base_reader_exact_occurrences,confirmed_lexeme,component_export_credit"
+      ],
+      "stdout": "pair_id\tprefix_surface\tbase_surface\tprefix_canonical_axes\tbase_canonical_axes\tquality_stage_exactly_preserved\tpreparation_relation\tprefix_reader_exact_occurrences\tbase_reader_exact_occurrences\tconfirmed_lexeme\tcomponent_export_credit\nG751-Q036\tqotain\totain\tCOLD|LEVEL_II|PREPARATION\tCOLD|LEVEL_II|PREPARATION\t1\tBOTH\t60\t88\t0\t0\nG751-Q047\tqotol\totol\tCOLD|MATERIAL\tCOLD|PREPARATION\t1\tBASE_ONLY\t40\t56\t0\t0\n",
+      "stderr": "GUARD_STATS {\"selected\": 2, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 49}\n"
+    },
+    {
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "experiments/yolo/gdt748_complete_whole_serial_paradigm_census/artifacts/SURFACE_PREDICTION_CENSUS.tsv",
+        "--selector",
+        "target_surface",
+        "--allow",
+        "qotchs",
+        "--allow",
+        "qotol",
+        "--allow",
+        "qotchy",
+        "--allow",
+        "qotain",
+        "--columns",
+        "target_surface,position_evidence_units,pages,minimum_whole_edit_distance,serial_consensus_axes,dimension_conflicts,serial_status,role_decision,automatic_working_default_de,target_axes_before_counts,evidence_loci,confirmed_lexeme,component_export_credit"
+      ],
+      "stdout": "target_surface\tposition_evidence_units\tpages\tminimum_whole_edit_distance\tserial_consensus_axes\tdimension_conflicts\tserial_status\trole_decision\tautomatic_working_default_de\ttarget_axes_before_counts\tevidence_loci\tconfirmed_lexeme\tcomponent_export_credit\n",
+      "stderr": "GUARD_STATS {\"selected\": 0, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 122}\n"
+    }
+  ],
+  "decision": "FORMAL_FAMILY_ONLY_NO_COMMON_MEANING_EXPORT_BT_UNSELECTED",
+  "confirmed_words": 0,
+  "independent_meaning_confirmation_capacity": 0,
+  "reserves_opened": false,
+  "images_opened": false,
+  "new_decoder": false
+}
