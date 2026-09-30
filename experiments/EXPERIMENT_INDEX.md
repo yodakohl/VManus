@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1109**
-- Experiment-associated tracked files: **22,047** (2.0 GiB)
-- Structured GDT337+ experiments: **774**
+- Experiments indexed: **1110**
+- Experiment-associated tracked files: **22,064** (2.0 GiB)
+- Structured GDT337+ experiments: **775**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1111 | GDT1111 | `NO_LABEL_OWNER_OR_WRITTEN_MEANING_DISCRIMINATOR` | [report](../experiments/yolo/gdt1111_okeey_label_argument_review/REPORT.md) | 17 | 196.9 KiB | 9 | STRUCTURED_YOLO |
 | GDT1110 | GDT1110 | `NO_UNIVERSAL_INTAKE_OUTPUT_DIRECTION` | [report](../experiments/yolo/gdt1110_patient_intake_output_order/REPORT.md) | 17 | 935.3 KiB | 8 | STRUCTURED_YOLO |
 | GDT1109 | GDT1109_fixed_units_joint_botanical_graph | `NO_FIXED_COMPLETE_CHUNK_UNIT_GRAPH` | [report](../experiments/yolo/gdt1109_fixed_units_joint_botanical_graph/REPORT.md) | 20 | 896.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT1108 | GDT1108_md2_named_luminary_contrast | `NO_NATIVE_PORTRAIT_OWNER_BINDING__TARGET_UNRANKED` | [report](../experiments/yolo/gdt1108_md2_named_luminary_contrast/REPORT.md) | 15 | 1.4 MiB | 1 | STRUCTURED_YOLO |

@@ -1,0 +1,356 @@
+# Complete scoped raw reader and conditional candidates
+
+All raw groups retained. `|` below marks group boundaries, not punctuation; exact separator values are in src/SOURCE.tsv.
+D/F annotations are stipulated alternatives, not observed meanings. All other groups are UNKNOWN. Labels are separate from prose.
+
+- IT2a f75v.51 L: okeey | lol
+  - D: draught/dose | UNKNOWN
+  - F: fluid | UNKNOWN
+- IT2a f76r.1 P: potchokar | chcfhdy | opshdy | qolp | chcphy | chcphdy | opshey | qofshy | opchdy | sain | ?sy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.2 P: dshedy | qotddyar | cthar | chep | dain | okain | qokeor | shedy | qol | ain | sheols | qokeey
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | drink
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | flows
+- IT2a f76r.3 P: yshey | qokeey | qokey | qokeed | okedy | shky | qotedy | otedy | shol | qoty | ol | chedy | aiiny
+  - D: UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.4 L: s
+  - D: UNKNOWN
+  - F: UNKNOWN
+- IT2a f76r.5 P: qokedy | qokchy | orar | or | chkarol | otey | qokedy | lkedy | chdy | qokchdy | qokal | chdam
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.6 P: solchedy | qokeedy | qopchedy | qokeeo | sol | shedy | qokedy | sheey | okees | al | al | chedain | dar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.7 L: d
+  - D: UNKNOWN
+  - F: UNKNOWN
+- IT2a f76r.8 P: qoaiin | ches | okeedal | qoked | qokeey | shedy | chey | lkeedy | okey | dar | oiin | chekain | oldy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.9 P: shed | al | shckhy | sain | chcphedy | ain | olkeey | lkar | ain | otchy | lkain | chedy | dar | daly
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.10 L: q
+  - D: UNKNOWN
+  - F: UNKNOWN
+- IT2a f76r.11 P: qotedshedy | qorain | oteedy | chedy | ol | chdy | raiiin | chekain | dain | chckhy | sal | oty
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.12 P: sol | shedy | qool | qctheed | shdy | qo | ol | keey | dain | saiin | sar | shedy | qokeor | okeedy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.13 P: qokeedy | checthy | chckhey | okol | okaiin | sheckhey | okeedy | otey | dal | ykal | chedy | sar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.14 L: s
+  - D: UNKNOWN
+  - F: UNKNOWN
+- IT2a f76r.15 P: chor | shedy | qoked | okees | al | ar | aiin | ar | ain | chckheed | lchedy | shedy | qolair | chedy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.16 P: qotes | chedy | shckhy | qokeey | okeey | kain | checkhy | qokeedy | qotey | qotain | chekear
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | drink | draught/dose | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | flows | fluid | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.17 P: chey | chckh | shey | qeeey | chol | lkain | shedy | qokeedy | okain | chedy | okeed | qokaloro
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.18 L: o
+  - D: UNKNOWN
+  - F: UNKNOWN
+- IT2a f76r.19 P: dcheedy | qolchey | qokeey | qokeey | chedy | qokar | shedy | shedy | lshedy | qolchedy | otedyl
+  - D: UNKNOWN | UNKNOWN | drink | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | flows | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.20 P: dshedy | qo | chedy | lchedy | qokey | qolchey | qotain | chckhy | shckhy | lchar | okar | alchdy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.21 P: qokchsdy | okeey | lchedy | qo | olain | otshedy | qotaly | dar | sain | shedy | oleeed
+  - D: UNKNOWN | draught/dose | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | fluid | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.22 L: l
+  - D: UNKNOWN
+  - F: UNKNOWN
+- IT2a f76r.23 P: sheedy | qokedy | chedy | chedy | qokain | chckhy | olchy | l | ain | shedy | olain | chedy | qokey
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.24 P: dalshedy | qol | sheedy | qokaldy | chepy | dain | alolor | olain | chedy | shecthy | qokeey | lor
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | drink | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | flows | UNKNOWN
+- IT2a f76r.25 P: qaloin | chey | qokeey | lchedy | chckhy | chey | ky | chey | qolal | lkl | chey | lchedy | chey | llaiiry
+  - D: UNKNOWN | UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.26 P: shedal | shey | qokey | qolchedy | qolain | ain | chey | qokaiin | okain | cheedy | lchey | loly | sy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.27 L: k
+  - D: UNKNOWN
+  - F: UNKNOWN
+- IT2a f76r.28 P: soin | sheey | chear | ol | aiin | chodaiin | qokaiin | chey | qokalchey | dal | chdy | dal | ytal
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.29 P: qokar | shedy | shedy | qokar | shedy | qokain | dar | shey | lshcthy | okar | okain | ylaiin | y
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.30 P: darchey | cheolchey | shcthy | chedy | qo | qokey | dalaiin | sheeky | qokain | olky | sain | chy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.31 L: r
+  - D: UNKNOWN
+  - F: UNKNOWN
+- IT2a f76r.32 P: cheor | ain | okaiin | dain | chey | dal | shedy | qokaiin | cheol | shy | chedy | rain | chedy | shy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.33 P: qokedy | lkey | kal | shedy | qopchey | qol | pchedy | okchy | chckhy | shey | lol | ral | sheey | dar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.34 P: cheor | shey | qoolkal | shedy | shedy | shey | shedy | ollchy | shlches | shcthy | sain | oly
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.35 P: saiin | shedy | lshey | qokal | chcthy | okeolor | cheol | otar | chedy | qol | chcthy | chckhy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.36 P: qokal | shedy | sheol | cheal | alshy | chol | chdy | talor | olalor | chol | okeyr | ar | oly
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- IT2a f76r.37 L: s
+  - D: UNKNOWN
+  - F: UNKNOWN
+- IT2a f76r.38 P: oteey | lchey | chey | olsheol | qokal | chal
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f75v.51 L: okeey | lol
+  - D: draught/dose | UNKNOWN
+  - F: fluid | UNKNOWN
+- RF1b f76r.1 P: potchokor | chcfhdy | opshdy | qolp | chcphy | chcphdy | opshey | qopshy | opchdy | sain | asy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.2 P: dshedy | qotddyar | cthar | chep | dain | okain | qokeor | shedy | qol | ain | sheals | qokeey
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | drink
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | flows
+- RF1b f76r.3 P: yshey | qokeey | qokey | qokeed | okedy | shky | qotedy | otedy | shol | qoty | ol | che@152;y | aiiny
+  - D: UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.4 L: s
+  - D: UNKNOWN
+  - F: UNKNOWN
+- RF1b f76r.5 P: qokedy | qokee@222; | or | ar | or | chk@221;rol | otey | qokedy | lkedy | chdy | qokch@152;y | qokal | chdam
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.6 P: solchedy | qokeedy | qopchedy | qokeeo | sol | shedy | qokedy | sheey | okees | al | al | chedain | dar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.7 L: d
+  - D: UNKNOWN
+  - F: UNKNOWN
+- RF1b f76r.8 P: qoaiin | ches | okeedal | qoke@152; | qokee@222; | shedy | chey | lkeed@222; | @221;key | dar | aiin | chekain | @221;ldy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.9 P: shed | al | {ch'}ckhy | sain | chcphedy | ain | olkeey | lkar | ain | oteey | lkain | chedy | @152;ar | daly
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.10 L: q
+  - D: UNKNOWN
+  - F: UNKNOWN
+- RF1b f76r.11 P: qotedshedy | qorain | oteedy | chedy | ol | chdy | r | aiiin | chekain | dain | chckhy | sal | oty
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.12 P: solshedy | qool | qctheed | shdy | q@221; | ol | teey | @152;ain | saiin | s | ar | shedy | qokeor | okee@152;@222;
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.13 P: qokeedy | checthy | chckhey | okal | okaiin | sheckhey | okeedy | otey | dal | ykal | chedy | sar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.14 L: s
+  - D: UNKNOWN
+  - F: UNKNOWN
+- RF1b f76r.15 P: chorshedy | qoked | okees | al | ar | aiin | ar | ain | chckheedlched@222; | shedy | qolair | chedy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.16 P: qotes | chedy | shckhy | qokeey | okeey | kain | checkhy | qokeed@222; | qotey | qotain | chekear
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | drink | draught/dose | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | flows | fluid | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.17 P: chey | chckh | shey | qeeey | chol | lkain | shedy | qokeedy | okain | chedy | okeed | qokaloro
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.18 L: o
+  - D: UNKNOWN
+  - F: UNKNOWN
+- RF1b f76r.19 P: dcheedy | qolchey | qokeey | qokee@222; | chedy | qokar | shedy | she@152;y | lshedy | qolchedy | otedyl
+  - D: UNKNOWN | UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.20 P: @152;shedy | qo | che@152;y | lchedy | qokey | qolchey | qotain | chckhy | shckhy | lchar | okar | alchdy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.21 P: qokch@206;dy | okeey | lchedy | qo | olain | ot | {ch'}edy | qotaly | dar | sain | shedy | oleeed
+  - D: UNKNOWN | draught/dose | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | fluid | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.22 L: l
+  - D: UNKNOWN
+  - F: UNKNOWN
+- RF1b f76r.23 P: sheedy | qokedy | chedy | che@152;y | qokain | chckhy | olchy | l | ain | shedy | olaiin | chedy | qokey
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.24 P: dalshedy | qol{ch'}eedy | qokaldy | chepy | dain | alolor | olain | chedy | shecthy | qokey | lar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.25 P: qal@221;in | chey | qokeey | lchedy | chcthy | cheyky | chey | qolal | lkl | chey | lchedy | chey | llaiiry
+  - D: UNKNOWN | UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.26 P: shedal | shey | qoke@222; | qolche@152;y | qolain | ain | chey | qotaiin | okain | cheedy | lcheyloly | dy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.27 L: k
+  - D: UNKNOWN
+  - F: UNKNOWN
+- RF1b f76r.28 P: s@221;in | shee@222; | chear | ol | aiin | chodaiin | qokaiin | chey | qokalchey | dal | chdy | dal | ytal
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.29 P: qokar | {ch'}edy | shedy | qokar | she@152;y | qokain | d@221;r | {ch'}ey | lshcthy | okar | okain | ylaiiny
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.30 P: darchey | cheolchey | shcth@222; | chedy | qo | qokey | dalaiin | sheeky | qokain | olky | sain | chy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.31 L: r
+  - D: UNKNOWN
+  - F: UNKNOWN
+- RF1b f76r.32 P: chear | ain | okaiin | dain | chey | dalshedy | qokaiin | che@221;l | shy | chedy | @206;ain | che@152;y | {ch'}y
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.33 P: qokedy | lkey | kal | she@152;y | qopchey | qol | pchedy | okchy | chckhy | shey | lol | r | al | sheey | dar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.34 P: chear | {ch'}ey | qo@221;lkal | shedy | shedy | shey | shedy | ollchy | shlches | shcthy | sain | oly
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.35 P: sain | {ch'}edy | lshey | qokal | chcthy | okeolor | cheol | otar | chedy | qol | chcthy | chckhy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.36 P: qokal | {ch'}edy | {ch'}eol | cheal | alshy | cholchdy | talor | ol | alor | chol | oke@221;r | ar | o | ol@222;
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- RF1b f76r.37 L: s
+  - D: UNKNOWN
+  - F: UNKNOWN
+- RF1b f76r.38 P: otee@222; | lchey | chey | olsheol | qokal | chal
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f75v.51 L: okeey | lol
+  - D: draught/dose | UNKNOWN
+  - F: fluid | UNKNOWN
+- ZL3b f76r.1 P: potchokor | chcfhdy | opshdy | qolp | chcphy | chcphdy | opshey | qofshy | opchdy | sain | as | y
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.2 P: dshedy | qotddyar | cthar | chep | dain | okain | qokeor | shedy | qol | ain | sheals | qokeey
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | drink
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | flows
+- ZL3b f76r.3 P: yshey | qokeey | qokey | qokeed | okedy | shky | qotedy | otedy | shol | qoty | ol | chedy | aiiny
+  - D: UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.4 L: s
+  - D: UNKNOWN
+  - F: UNKNOWN
+- ZL3b f76r.5 P: qokedy | qokeey | or | or | or | chkorol | otey | qokedy | lkedy | chdy | qokchdy | qokal | chdam
+  - D: UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.6 P: solchedy | qokeedy | qopchedy | qokeeo | rol | shedy | qokedy | sheey | okees | al | al | chedain | dar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.7 L: d
+  - D: UNKNOWN
+  - F: UNKNOWN
+- ZL3b f76r.8 P: qoaiin | ches | okeedal | qoked | qokeey | shedy | chey | lkeedy | okey | dar | aiin | chekain | oldy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.9 P: shed | al | shckhy | [r:s] | ain | chcphedy | ain | olkeey | lkar | ain | otchy | lkain | chedy | dar | daly
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.10 L: q
+  - D: UNKNOWN
+  - F: UNKNOWN
+- ZL3b f76r.11 P: qotedshedy | qorain | oteedy | chedy | ol | chdy | raiiin | chekain | dain | chckhy | sal | oty
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.12 P: solshedy | qool | qctheed | shdy | qa | ol | keey | dain | saiin | s | ar | shedy | qokeor | okeedy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.13 P: qokeedy | checthy | chckhey | okal | okaiin | sheckhey | okeedy | otey | dal | y | kal | chedy | sar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.14 L: s
+  - D: UNKNOWN
+  - F: UNKNOWN
+- ZL3b f76r.15 P: chorshedy | qoked | okees | al | ar | aiin | ar | ain | chckheed | lchedy | shedy | qolair | chedy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.16 P: qotes | chedy | shckhy | qokeey | okeey | kain | checkhy | qokeedy | qotey | qotain | chekair
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | drink | draught/dose | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | flows | fluid | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.17 P: chey | chckh | shey | qeeey | chol | lkain | shedy | qokeedy | okain | chedy | okeed | qokaloro
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.18 L: o
+  - D: UNKNOWN
+  - F: UNKNOWN
+- ZL3b f76r.19 P: dcheedy | qolchey | qokeey | qokeey | chedy | qokar | shedy | shedy | lshedy | qolchedy | otedyl
+  - D: UNKNOWN | UNKNOWN | drink | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | flows | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.20 P: dshedy | qo | chedy | lchedy | qokey | qolchey | qotain | chckhy | shckhy | lchar | okar | alchdy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.21 P: qokch[s:?]dy | okeey | lchedy | qo | olain | ot | shedy | qotaly | dar | sain | shedy | oleeed
+  - D: UNKNOWN | draught/dose | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | fluid | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.22 L: l
+  - D: UNKNOWN
+  - F: UNKNOWN
+- ZL3b f76r.23 P: sheedy | qokedy | chedy | chedy | qokain | chckhy | olchy | l | ain | shedy | olaiin | chedy | qokey
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.24 P: dalshedy | qol | sheedy | qokaldy | chepy | dain | alolor | olain | chedy | shecthy | qokey | lor
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.25 P: qoloin | chey | qokeey | lchedy | chckhy | chey | ky | chey | qolal | lklchey | lchedy | chey | llaiir | y
+  - D: UNKNOWN | UNKNOWN | drink | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | flows | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.26 P: shedal | shey | qokey | qolchedy | qolain | ain | chey | qokaiin | okain | cheedy | lchey | l | oly | dy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.27 L: k
+  - D: UNKNOWN
+  - F: UNKNOWN
+- ZL3b f76r.28 P: soin | sheey | chear | ol | aiin | chodaiin | qokaiin | chey | qokalchey | dal | chdy | dal | ytal
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.29 P: qokar | shedy | shedy | qokar | shedy | qokain | dar | shey | lshcthy | okar | okain | y | laiin | y
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.30 P: darchey | cheolchey | shcthy | chedy | qo | qokey | dalaiin | sheeky | qokain | olky | sain | chy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.31 L: r
+  - D: UNKNOWN
+  - F: UNKNOWN
+- ZL3b f76r.32 P: che[o:a] | r | ain | okaiin | dain | chey | dalshedy | qokaiin | che[o:a]l | shy | chedy | rain | chedy | shy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.33 P: qokedy | lkey | kal | shedy | qopchey | qo | l | pchedy | okchy | chckhy | shey | lol | r | ol | sheey | dar
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.34 P: cheor | shey | qoolkal | shedy | shedy | shey | shedy | ollchy | shlches | shcthy | sain | oly
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.35 P: sain | shedy | lshey | qokal | chcthy | okeolor | cheol | otar | chedy | qol | chcthy | chckhy
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.36 P: qok[a:o]l | shedy | sheol | cheol | alshy | chol | chdy | talor | ol | alor | chol | okeor | ar | o | oly
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- ZL3b f76r.37 L: s
+  - D: UNKNOWN
+  - F: UNKNOWN
+- ZL3b f76r.38 P: oteey | lchey | chey | olsheol | qokal | chal
+  - D: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - F: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
