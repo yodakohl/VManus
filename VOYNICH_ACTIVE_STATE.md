@@ -1,3 +1,15 @@
+<!-- 2026-09-30 EU source-bearer contrast actual application -->
+DioscoridesII164 root→juice/thickening→explicitroot effects sourceconstraint established.
+Juice has ownuses; rootgrammar notchemicalexclusion. SourceJSON retains XMLdeletedphrase;
+qualifycriticaltext, section3rootunaffected. RAW435 APRICOT differs generatedPEACH heads.
+ActualET82IT/86ZL +ES17IT/36ZL, bothG/I;RF98own groups;59/61values unchanged.
+RETURN/JUICE-CARRY unbound;no currentroot/juice/consistency/clinicalbearerbinding.
+RAW825 notselectedET/ESdiscriminator;no newownershipengine orunchanged audit.
+No manuscriptmeaninggain;0words0capacity;prior1117/BT/1028/939/965/966 limits retained.
+3freshGPT6.1Sol agents done;producer addedRAW826 stellarvisibility dualevents unreviewed.
+Next RAW826primary+678/743/closedroutes reviewbeforetargetselection.
+[EU report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EU_REPORT.md).
+
 <!-- 2026-09-30 ET exact-LK extension application -->
 Two new C0 outputs frozen before current-unit full111rP: LKEEDY using-flow,
 LKEDY using-pulsed-flow; retained ES LKEEEDY using-continuous-flow.
