@@ -1,0 +1,141 @@
+{
+  "status": "SOURCE_AUDIT_COMPLETE_NO_TARGET_SELECTION_NO_EXECUTION",
+  "candidate": "IDEA000829",
+  "question": "Does cultivation/thorn contrast offer a meaning consequence beyond the already retained botanical type taxonomy?",
+  "decision": "Retain as a source-grounded refinement and counterexample to collapsed cultivation/thorn/name rules. General variant classification is already present; neither novelty nor a discriminating Voynich meaning consequence is established.",
+  "scope": {
+    "budget_minutes": 8,
+    "mode": "Bounded cached-source review",
+    "access": "Current route, bounded live context and registry navigation, named cached source and source-review documents only. No manuscript text, image or TSV was accessed; no external source page, contact or Git operation.",
+    "writes": [
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EY_SOURCE_REVIEW.json"
+    ],
+    "confirmed_voynich_meanings": 0,
+    "registry_review_or_ledger_written": false,
+    "owner_of_selection": "root"
+  },
+  "source": {
+    "work": "Adam Lonitzer, Naturalis historiae opus novum, Tomus I, 1551",
+    "complete_entry": "Carduus, ff71r–72r, includes cultivated forms, Columella verse, Greek distinction, separate wild form, temperament, uses and closing Fiera poem; stops before Anonis.",
+    "readable_file": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/F_COMPLETE_ENTRIES.md",
+    "readable_sha256": "a6182510be56750077d458e1fabda73c6e1e291daa5dc42801550ee9be45bd94",
+    "retained_json": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/F_COMPLETE_ENTRIES.json",
+    "retained_json_sha256": "b1a582025556bfa25693843e0ad9747d8f76d12d3be8aa9577b52e639bcae9c9",
+    "layer": "Complete CAMENA human-typed edition; acknowledged errors. Prior selected native checks recorded in F_NATIVE_COLLATION.json, which was read. No new native/image verification; not a complete diplomatic edition.",
+    "date_limit": "1551 comparator; not evidence of transmission to, or copying by, the earlier manuscript.",
+    "taxonomy_limit": "Historical local nomenclature and attributions; no modern species identification."
+  },
+  "source_evidence": [
+    {
+      "locator": "F_COMPLETE_ENTRIES.md:37",
+      "span": "Duo traduntur huius genera, alterum aculeatum, alterum minime, hortense utrumque.",
+      "consequence": "Two described types both have cultivated status while thorn status differs. Cultivated does not entail thornless."
+    },
+    {
+      "locator": "F_COMPLETE_ENTRIES.md:40",
+      "span": "Altera species priori ex omniparte similis est, nisi quod aculeis caret. Ad cibos plus quam altera expetitur.",
+      "consequence": "The second type lacks thorns and is more sought for food. Shared cultivation, thorn difference and comparative food preference must remain separate predicates."
+    },
+    {
+      "locator": "F_COMPLETE_ENTRIES.md:40",
+      "span": "Hanc Tragus Cinaram facit Columellae.",
+      "consequence": "Tragus identifies this counterpart as Columella's Cinara; this is an attributed naming claim, not a universal uncontested alias."
+    },
+    {
+      "locator": "F_COMPLETE_ENTRIES.md:41–48",
+      "span": "Utrumque genus ... Columella; Hispida ponatur Cinara; spinisque ... horret.",
+      "consequence": "Lonitzer presents the following Columella verse as embracing both types. The verse itself uses Cinara with prickly imagery; it cautions against making every Cinara occurrence mean thornless. It does not independently establish modern type identity."
+    },
+    {
+      "locator": "F_COMPLETE_ENTRIES.md:49",
+      "span": "Graeci hoc faciunt discrimen, quod scolymos est ferus et silvester, Cinara vero domita cultu, ruditate mitior et altilis.",
+      "consequence": "The distinction is explicitly attributed to Greeks: wild Scolymos versus Cinara tamed by cultivation. It states no thornless equivalence and does not erase the opening use of Scolymos in a cultivated account."
+    },
+    {
+      "locator": "F_COMPLETE_ENTRIES.md:51",
+      "span": "Praeterea silvestris est quaedam Cardui species ... foliis aculeatis ... capitulis aculeatis ... flore in quibusdam purpureo, in quibusdam albo, in quibusdam puniceo.",
+      "consequence": "A wild type is separately introduced, with thorny leaves/heads and multiple stated flower colors. Wild occurrence is not the owner of every earlier naming/use clause."
+    },
+    {
+      "locator": "F_COMPLETE_ENTRIES.md:53–64",
+      "span": "Silvestris ... idem temperamentum; Radices ... hieme eduntur; Radix illita ... emendat; Carduus hortensis cui spina est mollior arte.",
+      "consequence": "Wild and preceding Scolymon share temperament, so that quality does not separate them here. Root food/topical uses and the Fiera poem do not independently attach to each of the opening two cultivated variants; the softened-thorn poem does not describe an observed temporal conversion of one specimen."
+    }
+  ],
+  "retained_counterexamples": [
+    "Carduus cultivated-and-thorny directly contradicts CULTIVATED implies NOT_THORNY.",
+    "Carduus cultivated thornless counterpart contradicts any whole-class rule requiring all Carduus subjects to carry the same thorn status.",
+    "Dipsacus cultivated heads are MORE prickly than spontaneous heads (complete entry lines10–12); a global wild-implies-more-prickly polarity is false in this retained source comparison.",
+    "Carduus wild flower colors include white and purple as well as red; the Dipsacus white-cultivated/purple-spontaneous color pairing is not a transferable universal cultivation code.",
+    "Scolymos appears at the opening cultivated Carduus account as well as in the Greek-attributed wild distinction; a global Scolymos-implies-wild assignment discards authority/context.",
+    "The certified lower71v illustration belongs to the separate wild discussion. It is not certified as the spineless cultivated counterpart; prior native record only, no image opened."
+  ],
+  "predecessors": [
+    {
+      "id": "IDEA000809",
+      "primary": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CK_01_DIPSAKUS_TYPE_QUALITY.json",
+      "complete_source": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/F_COMPLETE_ENTRIES.md:5–18",
+      "review": "Read the complete proposal and Dipsacus source. It already keeps cultivated/spontaneous owner branches apart and attaches color independently. RAW829 repeats that general mechanism; its source-specific increment is that both thorn variants share cultivated status and names carry attributed scopes. Both remain untested target hypotheses."
+    },
+    {
+      "id": "IDEA000800",
+      "primary": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BK_01_CARDUUS_ROOT_ROUTE.json",
+      "assessed_primary": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BO_CARDUUS_REVIEW.md",
+      "review": "Read both and the curated registry decision. Root culinary/topical distinction is valid; urine part-owner unresolved and odor bearers differ. RAW829 supplies neither the missing joint target use/effect binding nor independent evidence for root glosses. The existing not-tested decision stays unchanged."
+    },
+    {
+      "id": "IDEA000324",
+      "review": "Registry metadata identifies named variant classes with independent diagnostic features and exceptions. The already-read source primary F_PRODUCER_REPORT.md expressly supplied Carduus cultivated prickly/spineless forms and Dipsacus feature contrasts to this predecessor on29September. Thus even the cultivated-thorn counterexample is previously retained source content. Its target-bearing proposal was not opened under this source-only boundary; root must review it before selection."
+    },
+    {
+      "id": "IDEA000027",
+      "review": "Curated registry keeps missing independent part/mention opportunities and meaning binding distinct from a cached-source label. RAW829 does not resolve either. Linked target-design primaries were not opened."
+    },
+    {
+      "id": "IDEA000737",
+      "review": "Registry metadata and F_PRODUCER_REPORT.md retain a missing pair of head-specific procedures. Whole-type taxonomy and source attributions supply no such pair."
+    }
+  ],
+  "available_meaning_consequences": [
+    {
+      "contrast": "Independent cultivation and thorn predicates versus one collapsed polarity",
+      "source_discriminator": "The cultivated thorny type must be expressible without contradiction. Both cultivated variants must share the cultivation value while differing in thorn value.",
+      "ceiling": "A source-constrained hypothesis; no target form, owner or construction currently binds these values."
+    },
+    {
+      "contrast": "Authority/context-scoped nomenclature versus global synonym substitution",
+      "source_discriminator": "Opening local Scolymos, Tragus's Cinara assignment and Greek wild-Scolymos/cultivated-Cinara contrast must coexist with their scopes.",
+      "ceiling": "A meaningful difference only if the prospective whole target account independently writes or explicitly hypothesizes an attribution/context distinction; source attribution cannot be manufactured by relabeling glyphs after a fit."
+    },
+    {
+      "contrast": "Botanical subtype comparison versus a specimen changing over time",
+      "source_discriminator": "The first two types coexist as reported genera; no operation or before/after same-specimen chain is stated.",
+      "ceiling": "This can reject an exact-copy temporal account, but cannot reject an unrelated broader manuscript process hypothesis."
+    },
+    {
+      "contrast": "Uniform catalogue or generic property assignment versus constrained owner/preference relations",
+      "source_discriminator": "Thornless type has greater food preference than the other, yet both are cultivated; wild type is separately described and shares temperament.",
+      "ceiling": "Comparative preference is an extra source relation, not a confirmed target value or a bound medicine outcome."
+    }
+  ],
+  "missing_binding": [
+    "No nominated complete admitted target unit or owned target observations were examined.",
+    "No written target binding for type identity, shared cultivation, opposite thorn values, attribution scope or comparative food preference is supplied.",
+    "No independent meaning discriminator between a coherent botanical variant reading and an opaque catalogue/general comparison rival is established.",
+    "An exploratory C0 account may be authored with explicit assumptions and zero confirmed anchors; confirmation requires independent evidence. Lack of a confirmed anchor alone is not a bar to authoring.",
+    "No global biological rule, modern species equivalence or source-to-manuscript transmission may be inherited from these comparator passages."
+  ],
+  "navigation_limit": {
+    "context": "Unknown botanical topic was followed by topic listing and bounded names excerpt; not treated as absent research.",
+    "bounded_search": "Cultivated/wild/taxonomy and duplicate queries returned809,800 and other metadata; no same-declared-design hit is no proof of novelty.",
+    "route_check": "Carduus Cinara Scolymos cultivated thorny authority taxonomy returned no rows. This is navigation only; cached F primary itself identifies relevant324/027/737 predecessors.",
+    "broad_search_caveat": "An initial source-dossier text search was overly broad and truncated; none of its omitted material is claimed reviewed. Claim evidence uses the named complete files read afterward."
+  },
+  "smallest_worthwhile_next_action": {
+    "action": "Root should read the exact IDEA000324 predecessor primary and existing target proposal before selecting829. If it already carries independent variant predicates, add the cultivated-thorny and authority-scope source constraints to that existing exploratory account, retaining the unchanged target assignments. State one prospective consequence that differs from its catalogue rival; if none exists, keep829 as source refinement and stop.",
+    "budget_minutes": 10,
+    "no_new_acquisition_needed": true,
+    "no_decoder_or_control_work_needed": true,
+    "outcomes": "A genuinely differing consequence warrants one bounded prospective exploratory reading; unchanged assignments/equivalent rivals warrant source retention without a new semantic test."
+  }
+}
