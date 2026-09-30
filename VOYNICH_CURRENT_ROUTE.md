@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1109 fixedunits jointgraph0/357cases;0words.
-Latest decision: 624usejoins lack commonpart comparisons;completechunk codeclosed.
-Working files: experiments/yolo/gdt1109_fixed_units_joint_botanical_graph/REPORT.md.
-Assumptions: 605formalunits notmorphemes;1107/962 andBB/W original limits.
-Resume: Review794 protocol priors;author samepatient/heat/output reading,no graphrepair.
-Running: None;1109 main verifiede0288ac8c07:34UTC.
+Task: 794 source review; no target test or translated word.
+Latest decision: 1109 closed; patient/room/output not one heat field.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CT_ROOT_RECEIPT.md.
+Assumptions: 794 C0;595/596 authored roles;1058 polarity unresolved.
+Resume: Author whole794 reading with distinct predictions; no graph repair.
+Running: None; main9a376432 verified; CT push pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
