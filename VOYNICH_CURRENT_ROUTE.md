@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: DB source verified in part; DC qot priors recovered.
-Latest decision: Stop source images;0words; old values are not anchors.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/DC_QOT_PRIOR_TABLE.md.
-Assumptions: 794 C0;BT living/stock open;1058 unresolved.
-Resume: Author connected C0 in whole BT f115v8-10; retain counters.
-Running: None; DB/DC main98fcd6705 verified; receipt closure.
+Task: 1112 connected C0 cores authored; strict types contradicted.
+Latest decision: ZLf113r14 chol-asU fails all3; no meaning selected;0words.
+Working files: experiments/yolo/gdt1112_connected_cleansing_recipient/REPORT.md.
+Assumptions: 794 C0;BT open;1058 unresolved; no type/raw repair.
+Resume: Review RAW813 full E source and condensation predecessors; distinct obligation.
+Running: None;1112 publication pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

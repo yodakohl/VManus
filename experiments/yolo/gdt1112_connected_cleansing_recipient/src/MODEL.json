@@ -1,0 +1,196 @@
+{
+  "phase": "EXPLORATORY_C0_WITH_FIXED_CONDITIONAL_CONSEQUENCE",
+  "frozen_utc": "2026-09-30T10:25:25.417335+00:00",
+  "input_hashes": {
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BT_SOURCE.json": "393ab6a428bb40ca927907e37ab2d8b84351ce3332d032db7e0f07ef889bb62a",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/DD_WORD_PROFILES.json": "31f314af559f60d0547f81c8b648ce950cb8ea4f78df2ead734d709c7f25faf6",
+    "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+    "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+  },
+  "candidates": {
+    "BODY": {
+      "lexicon": {
+        "qokchy": {
+          "gloss": "einnehmen/verabreichen",
+          "type": "INTAKE_PREDICATE"
+        },
+        "chotol": {
+          "gloss": "äußere Anwendung",
+          "type": "USAGE"
+        },
+        "chody": {
+          "gloss": "innere Anwendung",
+          "type": "USAGE"
+        },
+        "chol": {
+          "gloss": "Arzneimaterial",
+          "type": "DRUG_STOCK"
+        },
+        "schol": {
+          "gloss": "Teil/Posten Arzneimaterial; Bezug offen",
+          "type": "DRUG_STOCK"
+        },
+        "qotchy": {
+          "gloss": "reinigende/ausscheidende Wirksamkeit",
+          "type": "EFFICACY"
+        },
+        "qotain": {
+          "gloss": "zubereitetes Arzneimittel",
+          "type": "DRUG_PREPARATION"
+        },
+        "lkchey": {
+          "gloss": "entzieht/entfernt U aus P",
+          "type": "REMOVAL_RELATION"
+        },
+        "lchey": {
+          "gloss": "lebender Körper/Empfänger",
+          "type": "LIVING_PATIENT"
+        },
+        "ror": {
+          "gloss": "auszuscheidende schädliche Körpermaterie",
+          "type": "BODILY_MATERIAL"
+        }
+      },
+      "slot_types": {
+        "Q": [
+          "DRUG_PREPARATION",
+          "DRUG_STOCK"
+        ],
+        "P": [
+          "LIVING_PATIENT"
+        ],
+        "U": [
+          "BODILY_MATERIAL"
+        ]
+      },
+      "f115_core_reading": "Das reinigend wirkende Mittel zur inneren Anwendung entzieht dem Körper schädliche Materie."
+    },
+    "STOCK": {
+      "lexicon": {
+        "qokchy": {
+          "gloss": "einnehmen/verabreichen",
+          "type": "INTAKE_PREDICATE"
+        },
+        "chotol": {
+          "gloss": "äußere Anwendung",
+          "type": "USAGE"
+        },
+        "chody": {
+          "gloss": "innere Anwendung",
+          "type": "USAGE"
+        },
+        "chol": {
+          "gloss": "Arzneimaterial",
+          "type": "DRUG_STOCK"
+        },
+        "schol": {
+          "gloss": "Teil/Posten Arzneimaterial; Bezug offen",
+          "type": "DRUG_STOCK"
+        },
+        "qotchy": {
+          "gloss": "gereinigter/abgetrennter Arzneimaterialzustand",
+          "type": "MATERIAL_STATE"
+        },
+        "qotain": {
+          "gloss": "zubereitetes Arzneimittel",
+          "type": "DRUG_PREPARATION"
+        },
+        "lkchey": {
+          "gloss": "entzieht/entfernt U aus P",
+          "type": "REMOVAL_RELATION"
+        },
+        "lchey": {
+          "gloss": "zu reinigender Arzneistoff",
+          "type": "DRUG_STOCK"
+        },
+        "ror": {
+          "gloss": "abzutrennender Rückstand/Verunreinigung",
+          "type": "STOCK_IMPURITY"
+        }
+      },
+      "slot_types": {
+        "Q": [
+          "DRUG_PREPARATION",
+          "DRUG_STOCK"
+        ],
+        "P": [
+          "DRUG_STOCK"
+        ],
+        "U": [
+          "STOCK_IMPURITY"
+        ]
+      },
+      "f115_core_reading": "Die gereinigte Zubereitung zur inneren Anwendung entzieht anderem Arzneistoff Verunreinigungen."
+    },
+    "DOSE": {
+      "lexicon": {
+        "qokchy": {
+          "gloss": "einnehmen/verabreichen",
+          "type": "INTAKE_PREDICATE"
+        },
+        "chotol": {
+          "gloss": "äußere Anwendung",
+          "type": "USAGE"
+        },
+        "chody": {
+          "gloss": "innere Anwendung",
+          "type": "USAGE"
+        },
+        "chol": {
+          "gloss": "Arzneimaterial",
+          "type": "DRUG_STOCK"
+        },
+        "schol": {
+          "gloss": "Teil/Posten Arzneimaterial; Bezug offen",
+          "type": "DRUG_STOCK"
+        },
+        "qotchy": {
+          "gloss": "reinigende/ausscheidende Wirksamkeit",
+          "type": "EFFICACY"
+        },
+        "qotain": {
+          "gloss": "Menge des zu verabreichenden Mittels; kein Zahlenwert",
+          "type": "AMOUNT"
+        },
+        "lkchey": {
+          "gloss": "richtet sich nach/relativ zu",
+          "type": "CONDITION_RELATION"
+        },
+        "lchey": {
+          "gloss": "Zustand/Beschaffenheit von U",
+          "type": "CONDITION"
+        },
+        "ror": {
+          "gloss": "Empfänger/Patient",
+          "type": "LIVING_PATIENT"
+        }
+      },
+      "slot_types": {
+        "Q": [
+          "AMOUNT"
+        ],
+        "P": [
+          "CONDITION"
+        ],
+        "U": [
+          "LIVING_PATIENT"
+        ]
+      },
+      "f115_core_reading": "Die Menge des reinigend wirkenden Mittels zur inneren Anwendung richtet sich nach dem Zustand des Empfängers."
+    }
+  },
+  "construction": "Q lkchey P U: immediately preceding group and two succeeding groups in the same complete native paragraph",
+  "nominal_attachment": "Only exact qotchy chody qotain attaches efficacy/state and internal-use to that qotain; no carry",
+  "rules": [
+    "Unknown lexical groups are UNBOUND, never semantic contradictions",
+    "Known assigned word in a slot outside its allowed types is a conditional TYPE_CONTRADICTION",
+    "Missing left or second right same-paragraph group is an ARITY_CONTRADICTION",
+    "All native ZL/IT paragraphs with exact lkchey in frozen GDT928; expected complete-marker coverage must equal admitted profiles8perreader",
+    "RF1b has no native paragraph test; retain its BT whole same-locus windows only",
+    "Retain all22BTunits; merge only identical complete native units by exact source-id sequence",
+    "No meaning assigned to qotchs or free qot/q/k/t/ain/endings; unknown prelude retained"
+  ],
+  "confirmation_capacity": 0,
+  "scored_relation_evidence": false,
+  "confirmed_words": 0
+}

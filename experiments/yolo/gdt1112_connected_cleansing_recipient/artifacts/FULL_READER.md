@@ -1,0 +1,975 @@
+# Complete raw units and three partial C0 readings
+All glosses are hypotheses; UNKNOWN groups are retained. No claimed sentence boundary or translation.
+
+## ZL3b|f56r|A (native)
+- f56r.1: o@167;chal | chchs@168;y | oty | esedy | chy | ychocphy | chorchy | chy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.2: chokchey | ch[o:a]l | choly | korchy | chykey | choty | shokaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.3: olchey | chokchol | chey | keey | qokeey | chokeey | choksy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.4: qot | chor | chor | chokor | chkor | chy | okar | chdy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.5: chochor | cho | chodaly | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.6: ykch[o:a] | dy | dchey | keey | daiin | y
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.7: sho | kchol | otchor | choky | dal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.8: schol | choy | choky | cheeckhody
+  - BODY: Teil/Posten Arzneimaterial; Bezug offen | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: Teil/Posten Arzneimaterial; Bezug offen | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: Teil/Posten Arzneimaterial; Bezug offen | UNKNOWN | UNKNOWN | UNKNOWN
+## ZL3b|f56r|B (native)
+- f56r.9: tchoky | kchol | shol | chotchey | tchol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.10: yt | chor | otchy | chok | y | t | chey | r | okaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.11: shy | kcheey | daiin | cthol | chos | chokor
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.12: sh | cho | kchey | qokokchy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.13: okchy | chokcheo | kchal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.14: s | chol | chotol | qotchy
+  - BODY: Teil/Posten von (nur s chol) | Arzneimaterial | äußere Anwendung | reinigende/ausscheidende Wirksamkeit
+  - STOCK: Teil/Posten von (nur s chol) | Arzneimaterial | äußere Anwendung | gereinigter/abgetrennter Arzneimaterialzustand
+  - DOSE: Teil/Posten von (nur s chol) | Arzneimaterial | äußere Anwendung | reinigende/ausscheidende Wirksamkeit
+- f56r.15: tcho | tchol | chol | cthy
+  - BODY: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN
+- f56r.16: qotchy | chody | ctho | r | chey | kch[a:o]rg
+  - BODY: reinigende/ausscheidende Wirksamkeit | innere Anwendung | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: gereinigter/abgetrennter Arzneimaterialzustand | innere Anwendung | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: reinigende/ausscheidende Wirksamkeit | innere Anwendung | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.17: chokeey | qokcheey | schey | d | aiin | dy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.18: sho | chokchy | kchoar | sotodan
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.19: otchey | keol | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|f56r|A (native)
+- f56r.1: otchal | chchsty | oty | esedy | chy | ycho | cphy | chor | chy | chy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.2: chokchey | chol | choly | kor | chy | chykey | choty | sho | kaiin
+  - BODY: UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.3: olchey | chokchol | chey | keey | qokeey | chokeey | choksy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.4: qotchor | chor | chokor | chkar | chy | okar | chdy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.5: chochor | cho | chodaly | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.6: ykcho | dy | dchey | keey | daiin | y
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.7: sho | kchol | otchor | choky | dal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.8: schol | choy | choky | cheeckhody
+  - BODY: Teil/Posten Arzneimaterial; Bezug offen | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: Teil/Posten Arzneimaterial; Bezug offen | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: Teil/Posten Arzneimaterial; Bezug offen | UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|f56r|B (native)
+- f56r.9: tchoky | kchol | shol | chotcheytchol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.10: ytchor | otchy | chokyt | chey | r | okaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.11: shy | kcheey | daiin | cthol | chor | chokor
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.12: sh | cho | kchey | qokokchy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.13: okchy | chokcheo | kchal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.14: schol | chotol | qotchy
+  - BODY: Teil/Posten Arzneimaterial; Bezug offen | äußere Anwendung | reinigende/ausscheidende Wirksamkeit
+  - STOCK: Teil/Posten Arzneimaterial; Bezug offen | äußere Anwendung | gereinigter/abgetrennter Arzneimaterialzustand
+  - DOSE: Teil/Posten Arzneimaterial; Bezug offen | äußere Anwendung | reinigende/ausscheidende Wirksamkeit
+- f56r.15: tchotchol | chol | cthy
+  - BODY: UNKNOWN | Arzneimaterial | UNKNOWN
+  - STOCK: UNKNOWN | Arzneimaterial | UNKNOWN
+  - DOSE: UNKNOWN | Arzneimaterial | UNKNOWN
+- f56r.16: qotchy | chody | cthor | chey | kchar | m
+  - BODY: reinigende/ausscheidende Wirksamkeit | innere Anwendung | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: gereinigter/abgetrennter Arzneimaterialzustand | innere Anwendung | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: reinigende/ausscheidende Wirksamkeit | innere Anwendung | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.17: chokeey | qokcheey | schey | daiin | dy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.18: sho | chokchy | kchoar | sotodan
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.19: otchey | keol | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+## RF1b|f56r|A (unmarked RF window)
+- f56r.1: o@167;chal | chchs@168;y | oty | esedy | chy | ychocphy | chorchy | chy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.2: chokchey | ch@221;l | choly | kor | chy | chykey | choty | shokaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.3: olchey | chokchol | chey | keey | qo | keey | chokeey | choksy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.4: qot | chor | chor | chokor | chkorchy | okar | chdy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.5: chochor | cho | chodaly | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.6: ykcho | dy | dchey | keey | daiin | y
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.7: sho | kchol | otchor | choky | dal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.8: schol | choy | choky | cheeckhody
+  - BODY: Teil/Posten Arzneimaterial; Bezug offen | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: Teil/Posten Arzneimaterial; Bezug offen | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: Teil/Posten Arzneimaterial; Bezug offen | UNKNOWN | UNKNOWN | UNKNOWN
+## RF1b|f56r|B (unmarked RF window)
+- f56r.9: tchoky | kchol | shol | chotcheytchol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.10: ytchor | otchy | chok | yt | chey | r | ok | aiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.11: shykcheey | daiin | cthol | chor | chokor
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.12: sh | cho | kchey | qokokchy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.13: okchy | chokcheo | kchal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.14: s | chol | chotol | qotchy
+  - BODY: Teil/Posten von (nur s chol) | Arzneimaterial | äußere Anwendung | reinigende/ausscheidende Wirksamkeit
+  - STOCK: Teil/Posten von (nur s chol) | Arzneimaterial | äußere Anwendung | gereinigter/abgetrennter Arzneimaterialzustand
+  - DOSE: Teil/Posten von (nur s chol) | Arzneimaterial | äußere Anwendung | reinigende/ausscheidende Wirksamkeit
+- f56r.15: tchotchol | chol | cthy
+  - BODY: UNKNOWN | Arzneimaterial | UNKNOWN
+  - STOCK: UNKNOWN | Arzneimaterial | UNKNOWN
+  - DOSE: UNKNOWN | Arzneimaterial | UNKNOWN
+- f56r.16: qotchy | chody | cthor | chey | kch@221;rg
+  - BODY: reinigende/ausscheidende Wirksamkeit | innere Anwendung | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: gereinigter/abgetrennter Arzneimaterialzustand | innere Anwendung | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: reinigende/ausscheidende Wirksamkeit | innere Anwendung | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.17: chokeey | qokcheey | schey | d | aiin | dy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.18: sho | chokchy | kchoar | sotodan
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f56r.19: otchey | keol | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+## ZL3b|f32r|f32r.1-f32r.5 (native)
+- f32r.1: fchaiin | shykeody | daiiody | dain | sho | tchy | oty | qopy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.2: okor | okchor | sheor | ckhy | dal | dshodar | qotchol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.3: qokchor | chor | cthol | chol | dol | dcheodain | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.4: schor | dsh[o:a]r | ytsho | dain | daiin | choddal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.5: qotchy | qokchy | daiin
+  - BODY: reinigende/ausscheidende Wirksamkeit | einnehmen/verabreichen | UNKNOWN
+  - STOCK: gereinigter/abgetrennter Arzneimaterialzustand | einnehmen/verabreichen | UNKNOWN
+  - DOSE: reinigende/ausscheidende Wirksamkeit | einnehmen/verabreichen | UNKNOWN
+## ZL3b|f22r|f22r.4-f22r.6 (native)
+- f22r.4: pchaiin | ofchy | daiin | cfhy | doroiin | ypchol | sy | schor | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f22r.5: ol | daiin | qokchy | dar | daiin | chor | oldor | oky | y | choldchy
+  - BODY: UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f22r.6: y | chokshchy | cth[eeb:een]
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+## ZL3b|f24r|f24r.1-f24r.20 (native)
+- f24r.1: por | or | y | chor | opchar | she | cheol | daiin | or
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.2: qotaiin | char | odaiin | okai{ikh}al | oky
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.3: ycthar | cthal | okol | qotar | ckhy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.4: or | chckhaly | cthar | eeor | chees | da
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.5: qodar | cho | r | chey | cthy | cthe | keom
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.6: oeeeos | cthor | otal | qocthol | qoky
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.7: q@145;kar | chtar | s | cheor | cthol | qodol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.8: ychor | s | om | qoear | daiin | qokeol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.9: odaiin | ckham | qodai{ikh}y | dol | dal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.10: q[?:e]or | cfhar | chor | s | am | chotaiin | dy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.11: sar | cheoiees | okeem | cheor | qokain
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.12: qokchy | qotchy | tol | tod | ckhy
+  - BODY: einnehmen/verabreichen | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: einnehmen/verabreichen | gereinigter/abgetrennter Arzneimaterialzustand | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: einnehmen/verabreichen | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.13: oees | ol | s | chey | chcth | s | ar
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.14: qor | cheey | qod | char | cthal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.15: ockhoees | oeees | ol | dal | s
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.16: sham | okeal | dal | dam | dal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.17: sshey | otam | sham | cthoj | oky
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.18: ycheol | chol | daiin | chol | s
+  - BODY: UNKNOWN | Arzneimaterial | UNKNOWN | Arzneimaterial | UNKNOWN
+  - STOCK: UNKNOWN | Arzneimaterial | UNKNOWN | Arzneimaterial | UNKNOWN
+  - DOSE: UNKNOWN | Arzneimaterial | UNKNOWN | Arzneimaterial | UNKNOWN
+- f24r.19: yol | kol | chol | shom | otacphy
+  - BODY: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN
+- f24r.20: sam | chorly
+  - BODY: UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN
+## IT2a|f32r|f32r.1-f32r.5 (native)
+- f32r.1: fchoiin | shykeody | daiiody | dain | sho | tchy | oty | qopy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.2: okor | okchor | sheor | ckhy | dal | dshodar | qotchol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.3: qokchor | chor | cthol | chol | dol | dcheodain | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.4: schor | dshor | ytsho | dain | daiin | choddal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.5: qotchy | qokchy | daiin
+  - BODY: reinigende/ausscheidende Wirksamkeit | einnehmen/verabreichen | UNKNOWN
+  - STOCK: gereinigter/abgetrennter Arzneimaterialzustand | einnehmen/verabreichen | UNKNOWN
+  - DOSE: reinigende/ausscheidende Wirksamkeit | einnehmen/verabreichen | UNKNOWN
+## IT2a|f22r|f22r.4-f22r.6 (native)
+- f22r.4: pchaiin | ofchy | daiin | cfhy | doroiin | ypchol | sy | schor | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f22r.5: ol | daiin | qokchy | dar | daiin | chor | oldor | oky | y | choldchy
+  - BODY: UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f22r.6: y | chokshchy | ctheen
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|f24r|f24r.1-f24r.19 (native)
+- f24r.1: porory | chor | opchar | she | cheol | daiin | or
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.2: qotaiin | char | odain | okaiikhal | oky
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.3: y | cthar | cthal | okol | qotar | ckhy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.4: or | chckhaly | cthar | eeor | chees | da
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.5: qodar | cho | r | chey | cthy | cthckeom
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.6: oeeeos | eteor | otal | qocthol | qoky
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.7: qekar | chtar | s | cheor | cthol | qodol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.8: ychor | s | om | qoear | daiin | qokeol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.9: odaiin | ckham | qodaiikhy | dol | dal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.10: q?or | cfhar | chor | s | am | chotaiin | dy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.11: sar | cheoiees | okeer | cheor | qokain
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.12: qokchy | qotchy | tol | tod | ckhy
+  - BODY: einnehmen/verabreichen | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: einnehmen/verabreichen | gereinigter/abgetrennter Arzneimaterialzustand | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: einnehmen/verabreichen | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.13: oees | ol | s | chey | chcth | sar
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.14: qor | cheey | qod | char | cthal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.15: ockhoees | oeees | ol | dal | s
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.16: sham | okeal | dal | dam | dal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.17: sshey | otam | sham | cthom | oky
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.18: y | cheol | chol | daiin | chol | s
+  - BODY: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | Arzneimaterial | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | Arzneimaterial | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | Arzneimaterial | UNKNOWN
+- f24r.19: yol | tol | chol | shom | otaiphy
+  - BODY: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN
+## IT2a|f24r|f24r.20-f24r.20 (native)
+- f24r.20: samchorly
+  - BODY: UNKNOWN
+  - STOCK: UNKNOWN
+  - DOSE: UNKNOWN
+## RF1b|f32r|f32r.1-f32r.5 (unmarked RF window)
+- f32r.1: fchaiin | shykeody | daiiody | dain | sho | tchy | oty | qopy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.2: okor | okchor | sheor | ckhy | dal | dshodar | qotchol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.3: qokchor | chor | cthol | chol | dol | dcheodain | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.4: schor | dshar | ytsho | dain | daiin | choddal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f32r.5: qotchy | qokchy | daiin
+  - BODY: reinigende/ausscheidende Wirksamkeit | einnehmen/verabreichen | UNKNOWN
+  - STOCK: gereinigter/abgetrennter Arzneimaterialzustand | einnehmen/verabreichen | UNKNOWN
+  - DOSE: reinigende/ausscheidende Wirksamkeit | einnehmen/verabreichen | UNKNOWN
+## RF1b|f22r|f22r.4-f22r.6 (unmarked RF window)
+- f22r.4: pchaiin | ofchy | daiin | cfhy | doroiin | ypchol | sy | schor | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f22r.5: ol | daiin | qokchy | dar | daiin | chor | oldor | oky | ycholdchy
+  - BODY: UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f22r.6: y | chokshchy | ctheeb
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+## RF1b|f24r|unmarked1-20 (unmarked RF window)
+- f24r.1: porory | chor | opchar | she | cheol | daiin | or
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.2: qotaiin | char | odaiin | okai{ikh}@221;l | oky
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.3: ycthar | cthal | okol | qotar | ckhy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.4: or | chckhaly | cthar | eeor | chees | da
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.5: qodar | cho | r | chey | cthy | {ct}ee | keom
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.6: oeeeos | cthor | otal | qocthol | qoky
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.7: q@145;kar | chtar | s | cheor | cthol | qodol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.8: ychor | s | om | qoear | daiin | qokeol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.9: odaiin | ckham | qodai{ikh}y | dol | dal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.10: q@145;@221;r | cfhar | chor | s | am | chotaiin | @152;y
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.11: sar | cheoeees | okeem | che@221;r | qokain
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.12: qokchy | qotchy | tol | tod | ckho
+  - BODY: einnehmen/verabreichen | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: einnehmen/verabreichen | gereinigter/abgetrennter Arzneimaterialzustand | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: einnehmen/verabreichen | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.13: oees | ol | s | chey | chcth | s | @221;r
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.14: qor | cheey | qod | char | cthal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.15: ockhoees | oeees | ol | dal | s
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.16: sham | okeal | dal | dam | dal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.17: sshey | otam | sham | cthom | oky
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f24r.18: ycheol | chol | daiin | chol | s
+  - BODY: UNKNOWN | Arzneimaterial | UNKNOWN | Arzneimaterial | UNKNOWN
+  - STOCK: UNKNOWN | Arzneimaterial | UNKNOWN | Arzneimaterial | UNKNOWN
+  - DOSE: UNKNOWN | Arzneimaterial | UNKNOWN | Arzneimaterial | UNKNOWN
+- f24r.19: yol | kol | chol | shom | otacphy
+  - BODY: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN
+- f24r.20: sam | chorly
+  - BODY: UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN
+## ZL3b|f29v|1-4 (native)
+- f29v.1: kooiin | shor | chetchy | ol | ls | shytchy | cthy | shy | cho | shy | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f29v.2: qotcheaiin | s | chol | chol | cthy | chey | cthold | ytchor | dary
+  - BODY: UNKNOWN | Teil/Posten von (nur s chol) | Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | Teil/Posten von (nur s chol) | Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | Teil/Posten von (nur s chol) | Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f29v.3: chol | chol | kor | shey | odaiin | qotchy | taiin | s | she | otey | sy
+  - BODY: Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | gereinigter/abgetrennter Arzneimaterialzustand | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f29v.4: ysho | otshy | okaiin | cthy | oltchy | {cto}s | shot | sho | okaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|f29v|1-4 (native)
+- f29v.1: kooiin | shor | chetchy | olals | shytchy | cth | y | shy | cho | shy | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f29v.2: qotcheaiin | schol | chol | cthy | chey | cthold | ytchor | dary
+  - BODY: UNKNOWN | Teil/Posten Arzneimaterial; Bezug offen | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | Teil/Posten Arzneimaterial; Bezug offen | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | Teil/Posten Arzneimaterial; Bezug offen | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f29v.3: chol | chol | kor | shey | odaiin | qotchy | taiin | s | she | otey | sy
+  - BODY: Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | gereinigter/abgetrennter Arzneimaterialzustand | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f29v.4: ysho | otshy | okaiin | cthy | oltchy | ctos | shot | sho | okaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## RF1b|f29v|1-4 (unmarked RF window)
+- f29v.1: kooiin | shor | chetchy | ol | als | shytchy | cthyshy | cho | shy | daiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f29v.2: qotcheaiin | s | chol | chol | cthy | chey | cthold | ytchor | dary
+  - BODY: UNKNOWN | Teil/Posten von (nur s chol) | Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | Teil/Posten von (nur s chol) | Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | Teil/Posten von (nur s chol) | Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f29v.3: chol | chol | kor | {ch'}ey | o@152;aiin | qotchy | taiin | s | {ch'}e | otey | sy
+  - BODY: Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | gereinigter/abgetrennter Arzneimaterialzustand | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: Arzneimaterial | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f29v.4: ysho | otshy | okaiin | cthy | oltchy | {cto}s | shot | sho | okaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## ZL3b|f115v|f115v.8-f115v.10 (native)
+- f115v.8: tchoros | sheol | qotchs | olchees | otchdy | qotol | lpchedy | okar | lkechedy | pchdam
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f115v.9: ychees | chdaiin | chotain | cholkeedy | qotchy | chody | qotain | lkchey | lchey | ror
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | innere Anwendung | zubereitetes Arzneimittel | entzieht/entfernt U aus P | lebender Körper/Empfänger | auszuscheidende schädliche Körpermaterie
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | gereinigter/abgetrennter Arzneimaterialzustand | innere Anwendung | zubereitetes Arzneimittel | entzieht/entfernt U aus P | zu reinigender Arzneistoff | abzutrennender Rückstand/Verunreinigung
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | innere Anwendung | Menge des zu verabreichenden Mittels; kein Zahlenwert | richtet sich nach/relativ zu | Zustand/Beschaffenheit von U | Empfänger/Patient
+- f115v.10: saiin | sho | sheody | okaiin | dalchedy | oteeo | chedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|f115v|f115v.8-f115v.10 (native)
+- f115v.8: tchosos | sheol | qotchs | olchees | otchdy | qotol | lpchedy | okar | lkechedy | pchdam
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f115v.9: ychees | chdaiin | chotain | cholkeedy | qotchy | chody | qotain | lkchey | lchey | ror
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | innere Anwendung | zubereitetes Arzneimittel | entzieht/entfernt U aus P | lebender Körper/Empfänger | auszuscheidende schädliche Körpermaterie
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | gereinigter/abgetrennter Arzneimaterialzustand | innere Anwendung | zubereitetes Arzneimittel | entzieht/entfernt U aus P | zu reinigender Arzneistoff | abzutrennender Rückstand/Verunreinigung
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | innere Anwendung | Menge des zu verabreichenden Mittels; kein Zahlenwert | richtet sich nach/relativ zu | Zustand/Beschaffenheit von U | Empfänger/Patient
+- f115v.10: saiin | sho | sheody | okaiin | dalchedy | oteeo | chedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## RF1b|f115v|unmarked8-10 (unmarked RF window)
+- f115v.8: tchosos | sheol | qotchs | olchees | otchdy | qotol | lpchedy | akar | lkechedy | pchdam
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f115v.9: ychees | chdaiin | chotain | cholkeedy | qotchy | chody | qotain | lkchey | lchey | ror
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | innere Anwendung | zubereitetes Arzneimittel | entzieht/entfernt U aus P | lebender Körper/Empfänger | auszuscheidende schädliche Körpermaterie
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | gereinigter/abgetrennter Arzneimaterialzustand | innere Anwendung | zubereitetes Arzneimittel | entzieht/entfernt U aus P | zu reinigender Arzneistoff | abzutrennender Rückstand/Verunreinigung
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | reinigende/ausscheidende Wirksamkeit | innere Anwendung | Menge des zu verabreichenden Mittels; kein Zahlenwert | richtet sich nach/relativ zu | Zustand/Beschaffenheit von U | Empfänger/Patient
+- f115v.10: saiin | sho | sheody | okaiin | dalchedy | oteeo | chedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## ZL3b|928|f113r|f113r.8-f113r.9 (native)
+- f113r.8: pchosos | cheoarkeeol | qokeey | lkchey | qokar | chos | shey | qopchy | rchsy | chykeor | otal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.9: dchos | aiin | oteey | qokaiin | cho | okaiin | cheodaiin | [a:?]ky | le | chody | chotaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | innere Anwendung | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | innere Anwendung | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | innere Anwendung | UNKNOWN
+## ZL3b|928|f113r|f113r.13-f113r.15 (native)
+- f113r.13: polchor | cheody | qotedy | lkeches | l | keeol | lkcheol | lkchedy | kotchy | lpchedy | qopchedy | ro
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.14: ycheo | lkchey | l | chol | oiiin | qoksheoy | qokcheody | lcheo | l | kchedy | chokchy | okchdar | al
+  - BODY: UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.15: chol | chs | s | aiin | chaiiin
+  - BODY: Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: Arzneimaterial | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## ZL3b|928|f113r|f113r.22-f113r.24 (native)
+- f113r.22: tchoar | sheeodaiin | chkaiin | otchod | okchedy | qokaiin | cho[k:t]ain | sheor | qokchy | qopam
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN
+- f113r.23: ykeoeshy | qokaiin | chal | kiin | chckhey | lkchey | qokal | chocthy | lkchor | lkchedy | lkaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.24: dair | chor | chopchey | araiin | or | ral | arody
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## ZL3b|928|f113r|f113r.45-f113r.51 (native)
+- f113r.45: tchodairos | or | chey | qotaiin | opchey | chtaiir | shedy | qotor | sheol | qotody | tedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.46: oaiin | cheokeeas | lkaiin | chkal | kar | cheeody | qokeeody | qokeey | chos | araiinol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.47: y | sheol | keechey | cholkeedy | qokaiin | chedal | l | kches | ar | okain | qokaiin | oram
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.48: tcho | arorshy | qokaiin | shey | ch{ckhh}y | sheolkchy | qokeol | kaiin | checkhy | ralchs
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.49: sain | cheeey | cheo | kcheey | qokeey | lkeeey | okeeey | lkchey | lcho | r | aiin | otain | al
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.50: tchedy | okeey | cheeos | lkaiin | chey | otain | cheeody | qokeeody | okaiin | oteedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.51: ykeeol | qokaiin | olkal | airody | okaiin | okalal | loary
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## ZL3b|928|f113v|f113v.25-f113v.27 (native)
+- f113v.25: tokary | lkchey | lkeedy | otey | pcheol | qopchey | cthol | opaiin | ol | keeor | opshedy | qotam
+  - BODY: UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113v.26: okiin | al | keechy | qoteeol | otar | ar | otchey | otaiin | al | otaiin | otol | qotody | loty
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113v.27: y | cheeo | l | cheeo | alkeedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## ZL3b|928|f115v|f115v.37-f115v.40 (native)
+- f115v.37: tshar | shor | sh{ckhh}y | olkeeo | lkeedol | ltchdy | chkaidararal | lkeedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f115v.38: oiiin | chees | otairos | loedy | cheo | keeo | llchs | o | l | r | aiiin | chkain | sham
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f115v.39: dairal | chain | ykeedy | qokedy | qokain | lkaiin | lkchey | lkain | lror
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN
+- f115v.40: ycheeol | kaiin | shedain | s | cho | r | okas | cheos | qokchy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen
+## ZL3b|928|f77v|f77v.29-f77v.42 (native)
+- f77v.29: tch[a:y]dchy | lshedy | daly | dal | dsheedy | pcheol | lfol | ol | cheedy | qoty
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.30: shey | ol | sheey | qokedy | lchedy | qokaiin | dal | daiin | chedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.31: qoa[s:r] | shedy | qokaiin | shcthy | qotedy | rchr | oltedy | lchy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.32: ycheey | qolshedy | qokalchedy | qokaiin | checkhy | qokal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.33: qokaiin | cheky | rar | chedy | qokal | dar | y | qotal | dal | rain
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.34: solkchedy | shar | ytal | dy | dychedy | lkchey | qokedy | rched
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN
+- f77v.35: tcho[r:s] | sheey | qokain | qokain | sheol | qokeedy | qokal | dary
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.36: qotchy | qokal | shedy | qokedy | lchedy | qokedy | qol | raiin | chey
+  - BODY: reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: gereinigter/abgetrennter Arzneimaterialzustand | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.37: schedy | qotar | sarolsheedy | qokain | cheey | roiin | daiin | shey
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.38: toldal | shedy | qokedy | qokain | dolcheedy | [r:s]olchedy | qokedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.39: dcheol | kchedy | so{ikh}ey | qokal | qokal | shedy | sholdy | qotal | dar
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.40: qokeey | rol | chdor | cheey | qokaiin | saiin | shedy | qokeedy | qokam
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.41: chedy | lchedy | lkaiin | dy | qokal | dar | chdain | ldchey | ol | raiin | oldy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.42: tcheey | qokeey | qokal | lchedy | cheolkaiin | okol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|928|f113r|f113r.8-f113r.9 (native)
+- f113r.8: pchosos | cheoar | keeol | qokeey | lkchey | qokar | chos | shey | qopchy | rchsy | chykeor | otal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.9: dchos | aiin | oteey | qokaiin | cho | okaiin | cheo | daiin | chky | le | chody | chotaiin
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | innere Anwendung | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | innere Anwendung | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | innere Anwendung | UNKNOWN
+## IT2a|928|f113r|f113r.22-f113r.24 (native)
+- f113r.22: tchoar | sheeodaiin | chkaiin | otchod | okchedy | qokaiin | chokain | sheor | qokchy | qopam
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen | UNKNOWN
+- f113r.23: ykeoeshy | qokaiin | chol | kiin | chckhey | lkchey | qokal | chocthy | lkchor | lkchedy | lkaiin
+  - BODY: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | Arzneimaterial | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.24: dair | chor | chopchey | araiin | or | sal | arody
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|928|f113r|f113r.39-f113r.41 (native)
+- f113r.39: pcheockhy | lkchey | qofsheeey | lkeody | kcheodaiin | por | sheed | qopoeey | pokeey | rair | aly
+  - BODY: UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.40: tarar | cheey | cheokeol | chcheey | cthes | aiin | ctheey | ctharad | shee | qotchey | taram
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.41: dsheo | ain | okaiin | cheey | taiin | lkeechey | okain | sheey | qoees | okeeody
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|928|f113r|f113r.45-f113r.51 (native)
+- f113r.45: tchodairos | ar | chey | qotaiin | opchey | chtaiir | shedy | qotor | sheol | qotody | tedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.46: oaiin | cheokeeos | lkaiin | chkal | kar | cheeody | qokeeody | qokeey | chos | ar | aiin | ol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.47: y | sheol | keechey | cholkeedy | qokaiin | chedal | lkches | ar | okain | qokaiin | oriim
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.48: tchoarorshy | qokaiin | shey | chckhhy | sheolkchy | qokeol | kaiin | checkhy | ralchs
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.49: sain | cheeey | cheo | kcheey | qokeey | lkeeey | okeeey | lkchey | lchor | aiin | otain | al
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.50: tchedy | okeey | cheeos | lkaiin | chey | otain | cheeody | qokeeody | okaiin | oteedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113r.51: ykeeol | qokaiin | olkal | airody | okaiin | okalal | loary
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|928|f113v|f113v.25-f113v.27 (native)
+- f113v.25: tokary | lkchey | lkeedy | otey | pcheol | qopchey | cthol | opaiin | ol | keeor | opshedy | qotam
+  - BODY: UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113v.26: okiin | al | keechy | qoteeol | otar | ar | otchey | otaiin | al | otaiin | otol | qotody | loty
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f113v.27: ycheeol | cheeo | alkeedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN
+## IT2a|928|f115v|f115v.37-f115v.40 (native)
+- f115v.37: tshar | shor | shckhhy | olkeeo | lkeedol | ltchdy | chkaidararal | lkeedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f115v.38: oiiin | chees | otainos | losdy | cheokeeo | llchs | olr | aiiin | chkain | sham
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f115v.39: dairal | chain | ykeedy | qokedy | qokain | lkaiin | lkchey | lkain | lror
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN
+- f115v.40: ycheealkaiin | shedain | or | chor | okas | cheos | qokchy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | einnehmen/verabreichen
+## IT2a|928|f77v|f77v.29-f77v.42 (native)
+- f77v.29: tcho | dchy | lshedy | daly | dal | dsheedy | pcheol | lfol | ol | cheedy | qoty
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.30: shey | ol | sheey | qokedy | lchedy | qokaiin | dal | daiin | chedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.31: qoar | shedy | qokaiin | shcthy | qotedy | rchr | oltedy | lchy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.32: ycheey | qolshedy | qokal | chedy | qokaiin | checkhy | qokal
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.33: qokaiin | cheky | rar | chedy | qokal | dary | qotal | dal | rain
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.34: solkchedy | shar | ytal | dy | dychedy | lkchey | qokedy | rched
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | entzieht/entfernt U aus P | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | richtet sich nach/relativ zu | UNKNOWN | UNKNOWN
+- f77v.35: tchor | sheey | qokain | qokain | sheol | qokeedy | qokal | dary
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.36: qotchy | qokal | shedy | qokedy | lchedy | qokedy | qol | raiin | chey
+  - BODY: reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: gereinigter/abgetrennter Arzneimaterialzustand | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: reinigende/ausscheidende Wirksamkeit | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.37: schedy | qotar | sarol | sheedy | qokain | cheey | raiin | daiin | shey
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.38: toldal | shedy | qokedy | qotain | dolcheedy | rolchedy | qokedy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | zubereitetes Arzneimittel | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | zubereitetes Arzneimittel | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | Menge des zu verabreichenden Mittels; kein Zahlenwert | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.39: dcheol | kchedy | sockhey | qokal | qokal | shedy | sholdy | qokal | dar
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.40: qokeey | rol | chdor | cheey | qokaiin | saiin | shedy | qokeedy | qokam
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.41: chedy | lchedy | lkaiin | dy | qokal | dar | chdain | ldchey | ol | raiin | oldy
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+- f77v.42: tcheey | qokeey | qokol | lchedy | cheol | kaiin | okol
+  - BODY: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - STOCK: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
+  - DOSE: UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN
