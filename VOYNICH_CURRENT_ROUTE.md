@@ -9,7 +9,7 @@ Latest decision: ZLf113r14 chol-asU fails all3; no meaning selected;0words.
 Working files: experiments/yolo/gdt1112_connected_cleansing_recipient/REPORT.md.
 Assumptions: 794 C0;BT open;1058 unresolved; no type/raw repair.
 Resume: Review RAW813 full E source and condensation predecessors; distinct obligation.
-Running: None;1112 publication pending.
+Running: None;1112 main ca9f1ac1c verified.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
