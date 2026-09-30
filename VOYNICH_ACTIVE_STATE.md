@@ -1,3 +1,13 @@
+<!-- 2026-09-30 GDT1118 joint preparation C0 checkpoint -->
+N is a third26wholevalue tuple: OKAIIN liquid, SHEDY moist preparation,
+QOKEEDY flows; full6group77r27 sentence and partial14/34/35phrases authored.
+Compound/genitive/subject identity assumed, no new meaning bound. M/V parent
+overrides explicit;10nativeP753groups2259alignments, allcomplete readers inspected.
+104carrier remainsUNBOUND;1117right-patient counter and1112-1116failures retained.
+11515/27 and775/8 hypothetical coverage unchanged. No confirmed words.
+Next compare934whole bridge with actual N25–26 before any reference carry.
+[GDT1118](experiments/yolo/gdt1118_liquid_preparation_joint_reading/REPORT.md).
+
 <!-- 2026-09-30 GDT1117 finite operation/efficacy checkpoint -->
 Finite pchedy/lpchedy/lkechedy purification/efficacy C0 branches remain unselected.
 Strict CAUS + immediate right patient + qokeedy FLOWS fails at f104r43,

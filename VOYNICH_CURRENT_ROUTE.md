@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1117 operation/efficacy C0 unselected;15/27 groups.
-Latest decision: CAUS+next patient fails104r43; flow value also C0.
-Working files: experiments/yolo/gdt1117_purification_operation_efficacy/REPORT.md.
-Assumptions: 12focal115 and3focal77groups unread; no word bound.
-Resume: Bind carrier/scope in whole104r43 paragraph before a new head rule.
-Running: None;1112-1116 failures retained; no confirmed word.
+Task: 1118 N liquid/preparation C0;77r27 all6groups guessed.
+Latest decision: Compound/identity unpaid;104carrier unbound;1117fail retained.
+Working files: experiments/yolo/gdt1118_liquid_preparation_joint_reading/REPORT.md.
+Assumptions: All26values C0;11515/27 and775/8; no meaning bound.
+Resume: Compare934whole bridge with N25-26 before reference carry.
+Running: None; prior1112-1117failures retained; no confirmed word.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1116**
-- Experiment-associated tracked files: **22,180** (2.0 GiB)
-- Structured GDT337+ experiments: **781**
+- Experiments indexed: **1117**
+- Experiment-associated tracked files: **22,198** (2.0 GiB)
+- Structured GDT337+ experiments: **782**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1118 | GDT1118_liquid_preparation_joint_reading | `NEW_JOINT_PREPARATION_C0_UNSELECTED` | [report](../experiments/yolo/gdt1118_liquid_preparation_joint_reading/REPORT.md) | 18 | 763.0 KiB | 13 | STRUCTURED_YOLO |
 | GDT1117 | GDT1117_purification_operation_efficacy | `C0_UNSELECTED_CAUS_RIGHT_PATIENT_CONTRADICTED` | [report](../experiments/yolo/gdt1117_purification_operation_efficacy/REPORT.md) | 18 | 3.6 MiB | 10 | STRUCTURED_YOLO |
 | GDT1116 | GDT1116_joint_state_recipient_chain | `C0_LIQ_PRIORITY_TWO_CONSTRUCTIONS_CONTRADICTED` | [report](../experiments/yolo/gdt1116_joint_state_recipient_chain/REPORT.md) | 23 | 855.2 KiB | 10 | STRUCTURED_YOLO |
 | GDT1115 | GDT1115_final_formation_predication | `FULL_FINAL_C0_SENTENCES_UNRANKED` | [report](../experiments/yolo/gdt1115_final_formation_predication/REPORT.md) | 15 | 179.5 KiB | 7 | STRUCTURED_YOLO |
