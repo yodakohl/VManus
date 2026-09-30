@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: EO shared/separate scopes;QOKARhead package declined.
-Latest decision: Purified≠PURE;32G/I intact;no new word selected.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EO_REPORT.md.
-Assumptions: Entity/event links C0;causal purification and heads unpaid.
-Resume: Author full77r28–31 continuation;no adjacenthead repair.
-Running: None;IDEA819screen declined;RAW817/818 unreviewed.
+Task: EP two77r28–31 C0content drafts;no semantic winner.
+Latest decision: 14newvalues each unselected;29known cases unbound.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EP_REPORT.md.
+Assumptions: 32G/I intact;filtrate needs priorhistory;imperative C0.
+Resume: Freeze25–31 materialhistory;explain CHEEOL/QOKEEY/FLOWS family.
+Running: None;3agents completed;RAW820/821 unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

@@ -1,3 +1,14 @@
+<!-- 2026-09-30 EP complete focus content drafts, no semantic selection -->
+Two14-newwholevalue C0drafts77r28–31: separation/clothfiltrate versusdose/mixing.
+All32G/I and184wholePsourcegroups retained;ITfocus23/23assigned,ZL22/24SA/IINunknown.
+All15QOLKAIN+14LOM readerpositions screened over179alreadyexposedselectors;
+15nativeZL/ITP plusRFownlines: no boundcontradiction, no semanticPASS/winner.
+FILTRATE29requirespriorfiltrationhistory; imperativeSEPARATE30doesnotcompleteit.
+CHEEOL9vsQOKEEY280(ZL/IT)same-noungloss remainsunexplained;no freeDY/OL rule.
+Next fixed25–31 materialhistory andjointfamilyaccountbeforefurtherglossgrowth.
+0words0independentmeaning;RAW820/821unreviewed;no reserve/sourceadmission.
+[EP report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EP_REPORT.md).
+
 <!-- 2026-09-30 EO argument authorship and known-side screen -->
 Whole77r25–37 retained184groups;shared/separate identity/event accounts C0,
 notfullytranslated. OriginalauthorPUREfromPURIFIED mistake explicitlycorrected:
