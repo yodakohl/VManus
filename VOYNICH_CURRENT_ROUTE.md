@@ -9,7 +9,7 @@ Latest decision: All3sites arelabels;f75 dokal/darol owner ambiguous;no syexport
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BX_LABEL_READING_REPORT.md.
 Assumptions: 1104/1052/782/BV stops;name/opening/deixis rivals;seals.
 Resume: ReadBX;check caption-array primaries before dokal/darol construction. No repeated proximity test or unconstrained glossary.
-Running: extended10h deadline30Sep03:16:12UTC;BX/BW closed;GitHub SSH available;publication underway.
+Running: extended10h deadline30Sep03:16:12UTC;BX/BW closed;GitHub main synced;none running.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
