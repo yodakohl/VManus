@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1104/BP802 source-head package rejected;new content draft next;0words.
-Latest decision: f29v12 s y lacks H;AA.4 cleaned s is raw{cto}s/ctos;one-argument unselected.
-Working files: experiments/yolo/gdt1104_source_head_consumer_contrast/REPORT.md.
-Assumptions: 636/782/019 unchanged;schorC1;no s=sy or head-direction rescue;all stops.
-Resume: Read1104+WORKING_READING;IDEA801+AF full source,790/791 priors;author joint preparation/graded-effect draft,not source-only audit.
-Running: extended10h deadline30Sep03:16:12UTC;1104/BO/BN closed;none running;remote auth unavailable.
+Task: BR four partial preparation/scalar drafts;strength-dose tie;801 not_tested;0words.
+Latest decision: No milk/bowel/shared-material branch;knownf24 reversepair stops strict chronology only.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BR_JOINT_READING_REPORT.md.
+Assumptions: 1104/782 stops;no guessed branch nouns or old numerals;schorC1;all seals.
+Resume: ReadBR;reviewBQ/IDEA803+AF seed/husk same-effect route with topic/route-check priors;select only a new joint relation,not another scalar census.
+Running: extended10h deadline30Sep03:16:12UTC;BR closed;none running;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
