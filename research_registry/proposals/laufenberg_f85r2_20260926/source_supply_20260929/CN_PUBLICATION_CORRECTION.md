@@ -1,0 +1,7 @@
+# CN publication correction
+
+The first staged layout check correctly rejected CN_GDT1107_REVIEW.json outside the GDT1107 experiment directory. The orchestrated tool sequence failed to stop after that error and committed/pushed09ca0108e anyway. This was an execution/publication sequencing error, not a scientific finding. The review artifact is renamed CN_REVIEW.json with identical bytes; original scientific files, registration and results are unchanged. The full staged privacy scan completed without a credential/local-path finding before the layout assertion; compressed-artifact inspection was skipped by that assertion and is explicitly completed on the correction tree.
+
+The focused staged check also flags deletion of the former bad filename as an outside-layout changed path. For this one removal only, the corrective publication verifies exact old/new-byte identity, final absence of the illegal path, complete staged scope/privacy including decompressed data, selected manifest/hash/seal/index gates and no other scan error. This narrow documented deletion exception allows removing the original violation; it does not waive a surviving illegal filename or any privacy check. No automatic approval or scientific result is inferred.
+
+The scheduled inclusive06:10UTC checkpoint was exceeded during this publication repair. Scientific enumeration/validation was already complete around06:00UTC; no further target search or model expansion followed. The report’s prospective before06:10 publication statement is superseded by this actual closure receipt.

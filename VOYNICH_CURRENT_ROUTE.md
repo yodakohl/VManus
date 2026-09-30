@@ -8,8 +8,8 @@ Task: GDT1107 description/use graph0fullbindings;0words.
 Latest decision: 3312short use joins lack sharedpart comparisons;13wholeform writer closed.
 Working files: experiments/yolo/gdt1107_descriptive_use_graph/REPORT.md.
 Assumptions: ExposedC0source/pageowner;initialemptyPASS invalid;1106closed unchanged.
-Resume: Read608/915 wholeform/family primaries before357constituent writer;no literalwindow/synonym repair.
-Running: 1107/CMclosed;none;publication pending.
+Resume: Read608/915 wholeform constraints before357writer;no synonym/window repair.
+Running: 1107closed;none;publication correction pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
