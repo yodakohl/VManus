@@ -1,0 +1,44 @@
+{
+  "status": "MECHANICAL_PASS",
+  "clock_start_utc": "2026-09-30T17:39:53+00:00",
+  "clock_end_utc": "2026-09-30T17:41:22.271988+00:00",
+  "budget_seconds": 180,
+  "validated_artifact": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EN_ROOT_DEPENDENCY_TABLE.json",
+  "validated_artifact_sha256": "0b8cccc0fbf009346c4e9d1a20cfb06244322c90b2fde6e2820a361347059780",
+  "parent_hashes": {
+    "experiments/yolo/gdt1120_extract_purity_purpose_tail/src/SOURCE.json": "71b3459d574c6dda0786962ae0adf0c515108544a10e39d61868e848e0341f6d",
+    "experiments/yolo/gdt1120_extract_purity_purpose_tail/src/MODEL.json": "f0204a44334291c06510b2f2f3162aa92a630b95f953cf753a78aeba3542354c"
+  },
+  "checks": [
+    "Both frozen parent hashes match current source/model bytes",
+    "Three full native paragraphs reconstructed with all34lines, preserving reader boundaries and variants",
+    "Every raw group/sourceID/fixed32 projection/exact-family position/unknown count matches independently",
+    "390groups,82fixedC0,22familypositions; exactCTHYabsent",
+    "Fixed32 lexical projection contains no named extraction/heating or independently written same-input/output binding; unknowns remain unassigned"
+  ],
+  "native_paragraphs": 3,
+  "lines_per_reader": 17,
+  "groups": 390,
+  "fixed32_C0_groups": 82,
+  "unknown_groups": 308,
+  "family_positions": 22,
+  "family_counts": {
+    "chcthy": 6,
+    "shecthy": 8,
+    "shcthy": 4,
+    "checthy": 4
+  },
+  "exact_cthy_count": 0,
+  "consequence_review": {
+    "marc_versus_pressate": "Raw twoSHCTHYmentions per reader verified. Solid/liquid output relation and pressing not supplied by fixed32 projection. Broad roles are unselected, not refuted by unknown context or flows.",
+    "EN_J1": "Raw11familypositions per reader verified. Same-material separation is required by the narrative but not independently bound by this table. Attribution alone does not prove stage conversion.",
+    "EN_J2": "Raw4SHECTHY+2CHECTHYpositions per reader verified. Prior heating is a hypothetical entailment with no heating gloss in current fixed32 projection. This does NOT exclude heating described by unknown words."
+  },
+  "operation_absence_scope": "Stipulated vocabulary projection only: no fixed32 heating/extraction verb or independently established input-output identity in this table. No claim that manuscript passage contains no such operation. Unconfirmed process meanings and unknowns cannot be semantically validated mechanically.",
+  "semantic_validation": false,
+  "semantic_selection": null,
+  "independent_meaning_capacity": 0,
+  "confirmed_words": 0,
+  "registered_experiment_failures_added": false,
+  "source_claim": "Exposed source; alternate readers not independent confirmations"
+}

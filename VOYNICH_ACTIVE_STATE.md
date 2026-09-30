@@ -1,3 +1,13 @@
+<!-- 2026-09-30 EN CTH joint-family audit, not new experiment -->
+631/632/633 ordered formal family retained; four shared content drafts unselected.
+All80r11–27 nativeP:390groups82fixedC0,308unknown;22familypositions; no fixed32
+heating/extraction operation or independentinput/outputidentity. Unknown text may
+supply operations; this is not a refutation. Extra constant-reader implementation stopped.
+1120G/I and1119S/H unselected; no newmeaningcapacity or confirmed word.
+Next whole77r25–37 shared-event vs separate-description scopes, explicitmaterial/
+portion/residue IDs;934different-valued bridges and342graphgate failure retained.
+[EN report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EN_REPORT.md).
+
 <!-- 2026-09-30 GDT1120 extract quality/purpose C0 checkpoint -->
 Whole77r26 authored with CHCTHY extract, LCHEDY purified(G)/purification-intended(I),
 QOKALY into-basin; all29Sparent values fixed,32permodel. Forwardgenitive toextract,

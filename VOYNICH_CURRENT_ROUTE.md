@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1120 whole77r26 extract;purified G/intended I;32values C0.
-Latest decision: No meaning winner;localgenitive/apposition assumed;Hopen.
-Working files: experiments/yolo/gdt1120_extract_purity_purpose_tail/REPORT.md.
-Assumptions: 29Sparent intact;CTHmeaning/identity and purpose unpaid.
-Resume: Compare631/633 CTHfamily duties before more extract glosses.
-Running: None;1112-1117failures retained; no confirmed word.
+Task: EN CTHfamily jointdrafts; no extension selected.
+Latest decision: 1120 G/I intact; no extra reader for compatibility.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EN_REPORT.md.
+Assumptions: 32C0;material identity, E/Omeaning and event scopes unpaid.
+Resume: Author whole77r25–37 shared-event vs separate-scope graphs.
+Running: None;934/342 predecessors checked;0confirmed words.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
