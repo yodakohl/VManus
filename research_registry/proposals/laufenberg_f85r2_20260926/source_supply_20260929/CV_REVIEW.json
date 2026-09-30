@@ -1,0 +1,35 @@
+{
+  "record_id": "GDT1110",
+  "scope": "semantic",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root",
+  "reason": "Both opposed patient intake/discharge maps contradict universal complete-protocol first-phase ordering: A25countercases, B22,40missingphase each. No lexical orientation or source roles identified.",
+  "assessment_basis": "all29current-admitted complete exposed blocks \u00d73readings; fixed necessary-order test, not independent meaning",
+  "evidence": [
+    "experiments/yolo/gdt1110_patient_intake_output_order/REPORT.md",
+    "experiments/yolo/gdt1110_patient_intake_output_order/PREREGISTRATION.md",
+    "experiments/yolo/gdt1110_patient_intake_output_order/artifacts/RESULT.json"
+  ],
+  "blockers": [
+    {
+      "code": "universal_complete_protocol_order_countercases",
+      "detail": "A25/B22 contrary cases; role bindings absent",
+      "evidence": [
+        "experiments/yolo/gdt1110_patient_intake_output_order/artifacts/CANDIDATE_TABLE.tsv"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Drop paragraphs, reorder clauses, normalize near-spellings, open reserves or add fluid carry defaults"
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "IDEA000794"
+    }
+  ]
+}

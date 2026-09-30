@@ -1,0 +1,3 @@
+# CU root receipt
+
+Original producer files preserved unchanged. Actual07:50:21–07:51:21 interval is60seconds, not54seconds printed in CU_IDEA_SUPPLY.md; the message to root correctly reported60seconds. No proposal added. Sloane73's florin-transfer source was already represented by IDEA000762. Source-only ownership was compromised by an unintended first25-line view of AA_COMPLETE_UNITS.md containing already exposed f22r text; the producer disclosed it and stopped target reading. This is not a new admission, independent confirmation or target interpretation. No semantic evidence is attributed to CU.

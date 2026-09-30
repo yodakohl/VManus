@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 794 source review; no target test or translated word.
-Latest decision: 1109 closed; patient/room/output not one heat field.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CT_ROOT_RECEIPT.md.
-Assumptions: 794 C0;595/596 authored roles;1058 polarity unresolved.
-Resume: Author whole794 reading with distinct predictions; no graph repair.
-Running: None; CT mainfc70a305f verified; receipt follows.
+Task: 1110 intake/output phase bridge fails both maps;0words.
+Latest decision: A25/B22 contrary cases; no patient/input/output binding.
+Working files: experiments/yolo/gdt1110_patient_intake_output_order/REPORT.md.
+Assumptions: 794 C0; paragraph boundaries not protocol starts;1058 unresolved.
+Resume: Bind written argument-role in whole reading; no phase/graph repair.
+Running: None;1110 publication pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

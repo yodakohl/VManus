@@ -1,0 +1,156 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional surface order only; patient/material/heat roles unbound;0 confirmed meanings, significance or independent confirmation",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1110_patient_intake_output_order/src/publish.py",
+    "validate": "python3 experiments/yolo/gdt1110_patient_intake_output_order/src/validate.py"
+  },
+  "created": "2026-09-30",
+  "dependencies": [
+    "GDT608",
+    "GDT631",
+    "GDT751",
+    "GDT752",
+    "GDT822",
+    "GDT933",
+    "GDT993",
+    "GDT1058"
+  ],
+  "experiment_id": "GDT1110",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CV_INTAKE_OUTPUT_DECISION.md",
+      "sha256": "37aaa85aa6d06411addefdee40d905048703252c504d7baff7ec6312c28be511",
+      "role": "frozen current scope/source or prospective decision"
+    },
+    {
+      "path": "experiments/yolo/gdt822_qokeey_physical_fire_context/artifacts/BLOCKS.tsv",
+      "sha256": "c850e055481c7be43ea89dae6c84014fc3f75333186b8c8bddcb1aa4fbf2075b",
+      "role": "frozen current scope/source or prospective decision"
+    },
+    {
+      "path": "experiments/yolo/gdt822_qokeey_physical_fire_context/artifacts/CONTEXTS.tsv",
+      "sha256": "1e355595156b871838666943f25e4b21908611365673d930ee23445378a3c773",
+      "role": "frozen current scope/source or prospective decision"
+    },
+    {
+      "path": "experiments/yolo/gdt822_qokeey_physical_fire_context/artifacts/SOURCE_GROUPS.tsv",
+      "sha256": "a5a288b97a14ad746dc4217bf619e85b1936ae5dc30b639437edcdaa9ec9e4cd",
+      "role": "frozen current scope/source or prospective decision"
+    },
+    {
+      "path": "experiments/yolo/gdt822_qokeey_physical_fire_context/artifacts/RESULT.json",
+      "sha256": "7bf584be8b9208f0a6dbd8f2c342452022161dcd7f205aced0e72e5908bc5bf9",
+      "role": "frozen current scope/source or prospective decision"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "frozen current scope/source or prospective decision"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/H_COMPLETE_ENTRIES.md",
+      "sha256": "d2d48cb61a65cfacc9350c5ab5d6e573f47fffa81c1a8ce7e6aadf4635d6be87",
+      "role": "frozen current scope/source or prospective decision"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/CLOSURE.json",
+      "sha256": "307e24c4c681b9b61af76f595abf4a260299b310d29a6300a705b870c018a859",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/IMPLEMENTATION_LOCK.json",
+      "sha256": "87ed69057992866f5e904cfb58706d327bb3c48169c77a69f426779148e8c269",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/METHOD.md",
+      "sha256": "5eeacec02f8b78bafb518c348d37b735b9dc65ddb0da13cc8923f1ae2040c131",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/PREREGISTRATION.md",
+      "sha256": "8fb35a6b72874146c77dbd47c13bc5e27116972379bf8701793d391171221a77",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/README.md",
+      "sha256": "5f9b32ccb62707edae01ac7e932b2ff80b7b64315b3b54880fa3c93989718f07",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/REPORT.md",
+      "sha256": "cbd7c8810eb0f57cff51b8ca0ab22996a0567c239226151c599697c599ac5b75",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/artifacts/CANDIDATE_TABLE.tsv",
+      "sha256": "5cc8aa9c3883bb45cb7ae9814e9d72bf28e92930f70c25a0e96e5c4360589760",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/artifacts/CASES.json",
+      "sha256": "6024593e8dad7a98c0bb1df3c0dbbb1513411d9910c93cb49e8b34e12115d484",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/artifacts/FULL_READER.md",
+      "sha256": "746ee2c6297624e5affbaf2b14b15e7ea5807878253cd622792c40afab6595af",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/artifacts/README.md",
+      "sha256": "f2fa2cc8719bec76bede307bd309a6681459b085057de8a03c517f3b589a2045",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/artifacts/RESULT.json",
+      "sha256": "62a46fb4a8f39a89c17642b2a5ff3bcc02168c3a2fa523ed3fdd70df01ce4b6c",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/artifacts/VALIDATION.json",
+      "sha256": "8bfc4d3d51a33cfc2145aa8f797301ec9aacd73326712777753a14eb9ef47f2d",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/src/MODEL.json",
+      "sha256": "13d8f4300f0733b4817d3a4cfb73fb5c75c90486b689c33826dd23795e6baeae",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/src/publish.py",
+      "sha256": "070ba049fb708d42fb05965a33c1d7d865c1b0735af31e91b945d2827e0d843b",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/src/run.py",
+      "sha256": "f755060e1148e6842daada982909b2d4b0058c05ef879d5f3e501c3f45c62c90",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    },
+    {
+      "path": "experiments/yolo/gdt1110_patient_intake_output_order/src/validate.py",
+      "sha256": "cbdc4534dc4dc9d70aac7f747b2a35d38e5275b204bab8b3091bc8cf8e0b8de2",
+      "role": "candidate, complete consequence accounting or reproducibility"
+    }
+  ],
+  "question": "Do either of two opposed patient intake/discharge whole maps preserve a universal intake-before-discharge bridge across all current-admitted complete GDT822 P blocks?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "patient_intake_output_order",
+  "status": "NO_UNIVERSAL_INTAKE_OUTPUT_DIRECTION",
+  "title": "patient intake output order",
+  "updated": "2026-09-30",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1110_patient_intake_output_order/artifacts/VALIDATION.json"
+  }
+}

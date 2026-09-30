@@ -1,0 +1,5 @@
+# Method
+
+The runner checks bound source hashes, obtains current179 safe selector values from the metadata-only PAGE_ALLOWLIST, then projects GDT822 BLOCKS/CONTEXTS/SOURCE_GROUPS through query-tsv with explicit page allow-values and columns. It preserves every complete P block admitted under that intersection and all its interleaved labels. Three editions remain alternatives. Positions are exact source groups in source order, not English words or sentence boundaries. Candidate A/B maps only two exact forms. All other groups remain untranslated.
+
+For each block and edition, retain all mapped positions and counts, including repeated adjacent forms. If either phase is absent, status MISSING_PHASE. Otherwise compare the FIRST intake/discharge; INTAKE_FIRST is necessary-order compatible, DISCHARGE_FIRST contradicts the stronger universal complete-protocol bridge. No event or material identities are inferred. The independent validator reconstructs positions from source-group IDs and checks every case and rendering separately. Its PASS certifies accounting, not semantics. No free subject, drink, sweat, blanket or room is inserted into literal text.

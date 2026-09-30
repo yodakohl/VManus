@@ -1,0 +1,3 @@
+# CV publication scope
+
+The GDT1110 independent accounting validator and context/registry checks pass for their narrow computational/documentation scopes, not meanings. This publication includes exact1110 files, bound candidates/whole reader/validator, route, one ledger row and metadata, plus the bounded CU producer originals and correction. Unrelated modified/untracked files stay excluded. All staged bytes receive credential/private-key/local-path and exact task-scope scanning before commit. No global repository PASS is claimed; the historical GDT1042/1043/GDT600/GDT953 failures previously disclosed in CS_PUBLICATION_CHECK.md were not repaired or cleared. No compression is present in the selected new artifacts.

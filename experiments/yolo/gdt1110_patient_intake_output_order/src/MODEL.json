@@ -1,0 +1,35 @@
+{
+  "experiment_id": "GDT1110",
+  "phase": "fixed necessary-order diagnostic of exposed exploratory meanings",
+  "input_hashes": {
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CV_INTAKE_OUTPUT_DECISION.md": "37aaa85aa6d06411addefdee40d905048703252c504d7baff7ec6312c28be511",
+    "experiments/yolo/gdt822_qokeey_physical_fire_context/artifacts/BLOCKS.tsv": "c850e055481c7be43ea89dae6c84014fc3f75333186b8c8bddcb1aa4fbf2075b",
+    "experiments/yolo/gdt822_qokeey_physical_fire_context/artifacts/CONTEXTS.tsv": "1e355595156b871838666943f25e4b21908611365673d930ee23445378a3c773",
+    "experiments/yolo/gdt822_qokeey_physical_fire_context/artifacts/SOURCE_GROUPS.tsv": "a5a288b97a14ad746dc4217bf619e85b1936ae5dc30b639437edcdaa9ec9e4cd",
+    "experiments/yolo/gdt822_qokeey_physical_fire_context/artifacts/RESULT.json": "7bf584be8b9208f0a6dbd8f2c342452022161dcd7f205aced0e72e5908bc5bf9",
+    "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/H_COMPLETE_ENTRIES.md": "d2d48cb61a65cfacc9350c5ab5d6e573f47fffa81c1a8ce7e6aadf4635d6be87"
+  },
+  "start_utc": "2026-09-30T07:49:56Z",
+  "deadline_utc": "2026-09-30T08:24:56Z",
+  "forms": [
+    "qokeey",
+    "qokeedy"
+  ],
+  "candidates": {
+    "A": {
+      "qokeey": "INTAKE_BY_PATIENT",
+      "qokeedy": "DISCHARGE_BY_PATIENT"
+    },
+    "B": {
+      "qokeey": "DISCHARGE_BY_PATIENT",
+      "qokeedy": "INTAKE_BY_PATIENT"
+    }
+  },
+  "rule": "in each complete P block containing both exact wholes, first INTAKE strictly precedes first DISCHARGE",
+  "unknowns": "Every other raw group is UNKNOWN; patient,input,output,room,clothing all unbound; no morphology exported",
+  "sealed_data": [
+    "f84",
+    "f84r"
+  ]
+}
