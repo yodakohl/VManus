@@ -9,7 +9,7 @@ Latest decision: Hs694 references observed; C8 chain not verified;0words.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/DA_SOURCE_REVIEW.md.
 Assumptions: 794 C0;1110 closed;1058 unresolved;f76 signs unbound.
 Resume: Locate actual Hs694 p203/216/243 before proposing any code mapping.
-Running: None; DA closes source expansion; publication receipt pending.
+Running: None; DA main e9c1df3f5 verified; receipt closure.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

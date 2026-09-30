@@ -1,0 +1,34 @@
+{
+  "result_commit": "e9c1df3f5b1c04f583436e6f00b12047ac1a0a31",
+  "remote_main_verified_utc": "2026-09-30T09:46:57.104013+00:00",
+  "inclusive_budget_seconds": 2100,
+  "elapsed_to_result_verification_seconds": 2165,
+  "result_publication_overrun_seconds": 65,
+  "overrun_explanation": "Capture/page mismatch recording and closure/publication exceeded checkpoint; source acquisition stopped. Receipt publication is additional closure time.",
+  "scope": "source-only review; no new target access, experiment or translation",
+  "checks": [
+    "three original source image bytes/hashes match receipts",
+    "context format PASS",
+    "ideas metadata check PASS",
+    "exact staged privacy/scope PASS",
+    "git diff cached check PASS",
+    "remote main equals result commit"
+  ],
+  "not_validated": [
+    "C8 native chain",
+    "authority legend",
+    "Voynich sign function",
+    "meaning"
+  ],
+  "producer": {
+    "accepted_ideas": 0,
+    "actual_seconds": 128,
+    "cap_seconds": 90,
+    "overrun_seconds": 38,
+    "failures": "two literal source-quote validator failures; originals retained",
+    "file_sha256": {
+      "CZ_SOURCE_IDEA.json": "b8ddc49b5356e744e3680bdd71df91aa8e099b6283b00ac9208dc8a46125aed8",
+      "CZ_IDEA_SUPPLY.md": "79161413a19a55774e495cf055155efab0a0e94de5761c93b3f51a26ef1dae2a"
+    }
+  }
+}
