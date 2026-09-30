@@ -9,7 +9,7 @@ Latest decision: M3humoral-degree still conflicts;3/4bearers unread;no1073rerun.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CE_REPORT.md.
 Assumptions: 5wholeguesses;noRFsplit;extra5unbound;W02/83/89&1073unchanged.
 Resume: Read f9v3–4 bearer construction and otaiin/cthy primaries. No implicit subject or extra heating.
-Running: CE/CD closed;none;deadline04:10UTC;publish and verify main.
+Running: CE/CD closed;none;deadline04:10UTC;main verified7283c9bc7.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
