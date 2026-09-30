@@ -9,7 +9,7 @@ Latest decision: Pair-split permits tail-only;bare-y absent;46fieldsunbound.
 Working files: experiments/yolo/gdt1105_dual_temperature_scope/REPORT.md.
 Assumptions: Noun/thermal/scope C0;1058k/t unresolved;CE/CF/W02/83/89 unchanged.
 Resume: Profile ky/ty and primaries;only unchanged written-bearer scope tests the absent cell. No noun fill.
-Running: 1105/CIclosed;none;publication pending;05:15UTC.
+Running: 1105/CIclosed;none;main verifiedb1a6defdd.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
