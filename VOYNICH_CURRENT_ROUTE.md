@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1103 native whole/split inventory closed;f56 consumer contrast next;0words.
-Latest decision: schol3/5/3+s chol2/0/2;stablecore stays;schorC1 not organ-confirmed.
-Working files: experiments/yolo/gdt1103_schor_schol_native_boundary_audit/REPORT.md.
-Assumptions: 782 portion/entry/compound rival;796 unselected;799/800RAW;all stops/seals.
-Resume: Read1103+BJ_PRIOR_REVIEW+AA_ROOT_REVIEW;old DAVON is C0;f56r8/14 fullparagraph consumers,not count rerun.
-Running: extended10h deadline30Sep03:16:12UTC;BK/BJ/1103 closed;none running;remote auth unavailable.
+Task: BM full f56r consumer reading closed;0words;no reference-policy repair.
+Latest decision: 301groups/2paras;later B chol allowed byAA;no typed consumer selects782.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BM_F56_CONSUMER_READING.md.
+Assumptions: 782 portion/entry/whole/DAVON unselected;schorC1;all stops/seals unchanged.
+Resume: Read BM+948;review IDEA000800,BK+F full Carduus source for a joint two-use proposal,not more antecedent counting.
+Running: extended10h deadline30Sep03:16:12UTC;BM/BL closed;none running;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
