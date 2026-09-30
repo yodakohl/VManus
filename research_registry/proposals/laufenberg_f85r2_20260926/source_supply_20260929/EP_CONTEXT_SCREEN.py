@@ -45,7 +45,7 @@ def run():
         'confirmed_words': 0, 'known_before_collection': 'All QOLKAIN lines and several LOM contexts already exposed; no blind preregistration.'}
     (D / 'EP_CONTEXT_CASES.json').write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n')
     with (D / 'EP_CONTEXT_CASES.tsv').open('w', newline='') as f:
-        w = csv.writer(f, delimiter='\t'); w.writerow(['form','edition','locus','target_source_id','whole_raw_line','separation_fixed_values','mixing_fixed_values'])
+        w = csv.writer(f, delimiter='\t', lineterminator='\n'); w.writerow(['form','edition','locus','target_source_id','whole_raw_line','separation_fixed_values','mixing_fixed_values'])
         for c in cases:
             a = [' | '.join(z['G'] or 'UNREAD:'+z['raw'] for z in app['annotations']) for app in c['applications']]
             t = c['target'];w.writerow([c['form'],t['edition'],t['locus'],t['source_group_id'],' '.join(r['ivtff_group_raw'] for r in c['whole_line']),*a])
