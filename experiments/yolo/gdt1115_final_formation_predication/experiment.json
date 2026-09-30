@@ -1,0 +1,160 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory sentence hypotheses with unbound roles/meanings; technical reconstruction only",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1115_final_formation_predication/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1115_final_formation_predication/src/validate.py"
+  },
+  "created": "2026-09-30",
+  "dependencies": [
+    "GDT810",
+    "GDT813",
+    "GDT819",
+    "GDT928",
+    "GDT932",
+    "GDT938",
+    "GDT1114"
+  ],
+  "experiment_id": "GDT1115",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+      "role": "read primary or frozen source/profile/decision"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EH_WORD_PROFILES.json",
+      "sha256": "cf043cbad0d3906d2f0e8a45fcb464deafefe937a571ed2cebfa0171faa90c89",
+      "role": "read primary or frozen source/profile/decision"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EH_DECISION.md",
+      "sha256": "463f8aa73bbe9907ea4a9953149745abfeb858c85fb6c5cfd07808d78e1daaa5",
+      "role": "read primary or frozen source/profile/decision"
+    },
+    {
+      "path": "experiments/yolo/gdt1114_clause_quantity_material/REPORT.md",
+      "sha256": "d27eb2513fcc569495d3b760d5cf0d4695b8be8c6dbd00b9510e5eee94586c70",
+      "role": "read primary or frozen source/profile/decision"
+    },
+    {
+      "path": "experiments/yolo/gdt938_outflow_clarity_material_readings/REPORT.md",
+      "sha256": "72682f98d7f82ee9a8068cf7b33ed75bed8dad1e3c2fb99405034080c4bf84d2",
+      "role": "read primary or frozen source/profile/decision"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md",
+      "sha256": "d945b7e02bb21be92767a7f12eb2e7597eebfac7647d19bdbd08f55d00e4d92e",
+      "role": "read primary or frozen source/profile/decision"
+    },
+    {
+      "path": "experiments/yolo/gdt810_quality_arity_value_run/HISTORY.md",
+      "sha256": "706b19f2b615158bdab72b89e0c2bcb7808d368c9f662cc10821cc0e8af351bb",
+      "role": "read primary or frozen source/profile/decision"
+    },
+    {
+      "path": "experiments/yolo/gdt819_written_predicate_boundary_review/REPORT.md",
+      "sha256": "ab8ea4327ac2744543fced3a439a092e36b239d7abc99ed4d354338146707792",
+      "role": "read primary or frozen source/profile/decision"
+    },
+    {
+      "path": "experiments/yolo/gdt700_v73_action_output_state_checkpoint_carry/REPORT.md",
+      "sha256": "158fb3f5880dd70f0aa0a526f4ece5105c14efb604b4e45c10360ba7745d3ec8",
+      "role": "read primary or frozen source/profile/decision"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_COMPLETE_PASSAGES.md",
+      "sha256": "9acf8200d1e9ea35d38a47230cc9e2f39bfaee66530f9ed39ebb6fd8ab5765f5",
+      "role": "read primary or frozen source/profile/decision"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/AUTHORSHIP.md",
+      "sha256": "6a3c19ad9cb061b3e2928cdd7cf29f34d9368870c78ca90b436ec4e7269f95d8",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/METHOD.md",
+      "sha256": "443235ee0214b290c71c1059eccb8fb0d6e35edcff153b75950ff80c49bd0166",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/README.md",
+      "sha256": "1c7a36c4646173c8c7d57c744dc1d5fc341e9d33ae1296a1d45514e5f5fc57cc",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/REPORT.md",
+      "sha256": "816e16fed0ffb110e3833bd6cd14c7daf0c8c9d8535aeb91cd5f8372af60ad25",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/artifacts/ALIGNMENT.json",
+      "sha256": "cdc172fc9c47d4c55047ab4a26c6f0f6ca851c238a181aba5b65a53ec61bfaeb",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/artifacts/FULL_READER.md",
+      "sha256": "72899315ad90086a06d27a8215923c4844d8172abf1ec1563f63656de804dcb5",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/artifacts/GRAPHS.json",
+      "sha256": "a4d080e02c7169982ca1f704b196e409fc9db095bb5980aa24edaa8fc510d7cb",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/artifacts/README.md",
+      "sha256": "1c3563d79d95471a42181d88f943ad2bb64ed1af97378208b19e3cc54ac03964",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/artifacts/RESULT.json",
+      "sha256": "5e08c725d135d077246101ba06aa7d7e6cbaf03d67d092c3aa18beec89c4a6b0",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/artifacts/VALIDATION.json",
+      "sha256": "fd1fff516c8027fdc78227a2f3e2fccc075d924c732eb70101d29a4c9736abf6",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/src/MODEL.json",
+      "sha256": "4a43587ec932227567fbcc3f55bc8aa560882b40987d3d4e9c904328fbbd18d1",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/src/SOURCE.json",
+      "sha256": "25e3802ea88054e0b9061f2aff43804db02730d338d28ee8ce239e7a57998771",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/src/run.py",
+      "sha256": "265ec654deab76080f33c4391f61688b2588f2f41556832c20cd39b76933f0f8",
+      "role": "authorship/raw source/alignment/reconstruction"
+    },
+    {
+      "path": "experiments/yolo/gdt1115_final_formation_predication/src/validate.py",
+      "sha256": "06a2b8ba5f8c747aa1ae887b8505c6217522911164cd553a3407c905baf65282",
+      "role": "authorship/raw source/alignment/reconstruction"
+    }
+  ],
+  "question": "Can two concrete seven-group final-line constructions distinguish formed-state assertion from transformation with an explicit prior result on f115v10?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "final_formation_predication",
+  "status": "FULL_FINAL_LINE_C0_FORMATION_ALTERNATIVES_UNRANKED",
+  "title": "Final formed-state and written-prior-result transformation hypotheses",
+  "updated": "2026-09-30",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1115_final_formation_predication/artifacts/VALIDATION.json"
+  }
+}

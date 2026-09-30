@@ -1,3 +1,10 @@
+<!-- 2026-09-30 GDT1115 exploratory sentence checkpoint -->
+Two complete C0 seven-group f115v10 sentences now compare formed-state assertion
+with source/result before a final transformation predicate. Neither selected.
+The whole paragraph's20 earlier groups remain unread; dalchedy/chedy composition
+and input/output identity are unbound. [GDT1115](experiments/yolo/gdt1115_final_formation_predication/REPORT.md).
+Zero confirmed words;1112/1113/1114 fixed failures retained.
+
 <!-- 2026-09-30 GDT1114 exploratory checkpoint -->
 Two partial f77r36 quantity-manner/material-subject constructions are explicit and unranked.
 The separate post-reader diagnostic finds final chedy at f115v10 in both native readers;

@@ -1,0 +1,95 @@
+{
+  "phase": "EXPLORATORY_AUTHORSHIP_NOT_FIXED_MEANING_TEST",
+  "registered_utc": "2026-09-30T13:04:11.035333+00:00",
+  "input_hashes": {
+    "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EH_WORD_PROFILES.json": "cf043cbad0d3906d2f0e8a45fcb464deafefe937a571ed2cebfa0171faa90c89",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EH_DECISION.md": "463f8aa73bbe9907ea4a9953149745abfeb858c85fb6c5cfd07808d78e1daaa5",
+    "experiments/yolo/gdt1114_clause_quantity_material/REPORT.md": "d27eb2513fcc569495d3b760d5cf0d4695b8be8c6dbd00b9510e5eee94586c70",
+    "experiments/yolo/gdt938_outflow_clarity_material_readings/REPORT.md": "72682f98d7f82ee9a8068cf7b33ed75bed8dad1e3c2fb99405034080c4bf84d2",
+    "experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md": "d945b7e02bb21be92767a7f12eb2e7597eebfac7647d19bdbd08f55d00e4d92e",
+    "experiments/yolo/gdt810_quality_arity_value_run/HISTORY.md": "706b19f2b615158bdab72b89e0c2bcb7808d368c9f662cc10821cc0e8af351bb",
+    "experiments/yolo/gdt819_written_predicate_boundary_review/REPORT.md": "ab8ea4327ac2744543fced3a439a092e36b239d7abc99ed4d354338146707792",
+    "experiments/yolo/gdt700_v73_action_output_state_checkpoint_carry/REPORT.md": "158fb3f5880dd70f0aa0a526f4ece5105c14efb604b4e45c10360ba7745d3ec8",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_COMPLETE_PASSAGES.md": "9acf8200d1e9ea35d38a47230cc9e2f39bfaee66530f9ed39ebb6fd8ab5765f5"
+  },
+  "source": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "selection_loci": [
+    "f115v.10",
+    "f77r.35"
+  ],
+  "editions": [
+    "ZL3b",
+    "IT2a"
+  ],
+  "focal": "f115v.10",
+  "candidates": {
+    "FORM": {
+      "dictionary": {
+        "saiin": "then",
+        "sho": "moist-preparation",
+        "sheody": "separates",
+        "okaiin": "liquid",
+        "dalchedy": "unmixed",
+        "oteeo": "portion",
+        "chedy": "is-formed"
+      },
+      "focal_c0": "Danach trennt sich der feuchte Ansatz; die unvermischte Flüssigkeitsportion ist gebildet.",
+      "subject_positions": [
+        4,
+        5,
+        6
+      ],
+      "result_positions": [],
+      "predicate_position": 7,
+      "claim": "formed-state assertion about one written qualified portion"
+    },
+    "TRANS": {
+      "dictionary": {
+        "saiin": "then",
+        "sho": "moist-preparation",
+        "sheody": "separates",
+        "okaiin": "liquid",
+        "dalchedy": "unmixed",
+        "oteeo": "portion",
+        "chedy": "becomes"
+      },
+      "focal_c0": "Danach trennt sich der feuchte Ansatz; die Flüssigkeit wird zu einer unvermischten Portion.",
+      "subject_positions": [
+        4
+      ],
+      "result_positions": [
+        5,
+        6
+      ],
+      "predicate_position": 7,
+      "claim": "source-to-result transformation with result before final predicate"
+    }
+  },
+  "new_whole_guesses": [
+    "saiin=then",
+    "sheody=separates",
+    "oteeo=portion",
+    "chedy=is-formed inFORM"
+  ],
+  "inherited_C0": [
+    "sho=moist-preparation from810 provenance; old component origin, not new evidence",
+    "okaiin=liquid from932 V, not a chosen noun",
+    "dalchedy=unmixed from938, not confirmed",
+    "chedy=becomes from818 inTRANS"
+  ],
+  "assumptions": [
+    "Every lexical meaning, clause cut and nominal attachment is a C0 guess.",
+    "No universal final-SOV rule is asserted; TRANS is a new local written-front-result construction, not a pass for the failed right-result rule.",
+    "FORM has one qualified nominal subject; TRANS has written source and result expressions whose physical identity/subset relation remains unbound.",
+    "Opening separates has sho as assumed patient; its relation to the later liquid/portion is unbound.",
+    "No source-copy identity, fixed amount or decoded conjunction.",
+    "Whole dalchedy/unmixed versus chedy formed/becomes composition remains unexplained; no free dal negation or ain numeral."
+  ],
+  "fixed_semantic_test": null,
+  "confirmed_words": 0,
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}

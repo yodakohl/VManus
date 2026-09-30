@@ -1,0 +1,5 @@
+# Scope and procedure
+
+Select all complete ZL/IT native GDT928 paragraphs containing f115v10 or f77r35. Preserve every raw entity, space, source id and line. Generate two complete constant C0 readers/alignments and assumed final-line graphs. FORM takes4–6 as one qualified subject, predicate7; TRANS takes4 as source,5–6 as result, predicate7. The opening1–3 is an authored temporal separation clause. No general parser, corpus rank, immediate-slot rule or new decoder is implemented.
+
+Reconstruction checks exact source selection and ids, full rendering coverage and specified graphs independently of runner. It cannot assess word meanings, formation/separation, nominal grouping, aspect or physical identity. No fixed distinguishing semantic test, significance, held-reserve confirmation or GDT388-ready relation packet. Raw final-chedy edge and older all-dy/nominal claims do not decide these meanings. If no independently bound consequence exists, retain unranked hypotheses; do not launch a terminal census or repair the strict right-result writer.
