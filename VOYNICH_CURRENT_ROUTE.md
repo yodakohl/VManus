@@ -8,8 +8,8 @@ Task: 1110 intake/output phase bridge fails both maps;0words.
 Latest decision: A25/B22 contrary cases; no patient/input/output binding.
 Working files: experiments/yolo/gdt1110_patient_intake_output_order/REPORT.md.
 Assumptions: 794 C0; paragraph boundaries not protocol starts;1058 unresolved.
-Resume: Bind written argument-role in whole reading; no phase/graph repair.
-Running: None;1110 publication pending.
+Resume: Read wholef76r qokeey/okeey action-argument rivals; no q export.
+Running: None;1110 main850cee85f verified; receipt follows.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
