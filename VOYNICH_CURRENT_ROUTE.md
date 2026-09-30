@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: BR four partial preparation/scalar drafts;strength-dose tie;801 not_tested;0words.
-Latest decision: No milk/bowel/shared-material branch;knownf24 reversepair stops strict chronology only.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BR_JOINT_READING_REPORT.md.
-Assumptions: 1104/782 stops;no guessed branch nouns or old numerals;schorC1;all seals.
-Resume: ReadBR;reviewBQ/IDEA803+AF seed/husk same-effect route with topic/route-check priors;select only a new joint relation,not another scalar census.
-Running: extended10h deadline30Sep03:16:12UTC;BR closed;none running;remote auth unavailable.
+Task: BT qotchy body-efficacy/material-state C0s unselected;803 not_tested;0words.
+Latest decision: Fullf115v8-10 has qotchy chody qotain;f56 cthor/ctho r;no endpoint binding.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BT_RECIPIENT_READING_REPORT.md.
+Assumptions: 1104/1052/782 stops;no seed/husk/blood gloss;partialstate≠performedevent;seals.
+Resume: ReadBT;topic composition then qotchs/qotol/qotchy/qotain priors and748/751/915/916 primaries;audit justified role links before any new reading or decoder.
+Running: extended10h deadline30Sep03:16:12UTC;BT/BS closed;none running;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
