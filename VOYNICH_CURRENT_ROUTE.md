@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: BM full f56r consumer reading closed;0words;no reference-policy repair.
-Latest decision: 301groups/2paras;later B chol allowed byAA;no typed consumer selects782.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BM_F56_CONSUMER_READING.md.
-Assumptions: 782 portion/entry/whole/DAVON unselected;schorC1;all stops/seals unchanged.
-Resume: Read BM+948;review IDEA000800,BK+F full Carduus source for a joint two-use proposal,not more antecedent counting.
-Running: extended10h deadline30Sep03:16:12UTC;BM/BL closed;none running;remote auth unavailable.
+Task: BO800 source review closed;source-head rival authoring next;0words.
+Latest decision: root-food/applied source valid;urine/skin not one bearer;800 not_tested.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BO_CARDUUS_REVIEW.md.
+Assumptions: 636/782/019 original decisions hold;no borrowed root/verb meanings;all stops.
+Resume: Read BO+BM+AA;author s(N) plus actual next head as genitive/source rival;retain dy and same-base head costs.
+Running: extended10h deadline30Sep03:16:12UTC;BO/BN closed;none running;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
