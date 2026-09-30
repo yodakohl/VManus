@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1110 intake/output phase bridge fails both maps;0words.
-Latest decision: A25/B22 contrary cases; no patient/input/output binding.
+Task: Wholef76r qokeey/okeey rivals; no new map selected.
+Latest decision: 1110 A25/B22 countercases;0words; CW0ideas.
 Working files: experiments/yolo/gdt1110_patient_intake_output_order/REPORT.md.
 Assumptions: 794 C0; paragraph boundaries not protocol starts;1058 unresolved.
-Resume: Read wholef76r qokeey/okeey action-argument rivals; no q export.
-Running: None;1110 main850cee85f verified; receipt follows.
+Resume: Bind written arguments in wholef76r rivals; no q/thermal export.
+Running: None; maina797d434d verified; CW publication.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -53,7 +53,7 @@ require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTI
 `./vmanus-work context start` returns this route.
 `./vmanus-work context topic Wortzusammensetzung` returns a bounded live excerpt.
 `context topics` lists eight topics; `context check` checks retrieval.
-Use `ideas search/show`, `lookup`, and `vmanus-exp route-check` before scientific choice.
+Use `ideas search/show`, `lookup`, `vmanus-exp route-check` before selection.
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Update this resume block before a context switch. Store results and reopening terms
