@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: DA source-only review; no Voynich map selected.
-Latest decision: Hs694 references observed; C8 chain not verified;0words.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/DA_SOURCE_REVIEW.md.
-Assumptions: 794 C0;1110 closed;1058 unresolved;f76 signs unbound.
-Resume: Locate actual Hs694 p203/216/243 before proposing any code mapping.
-Running: None; DA main e9c1df3f5 verified; receipt closure.
+Task: DB source verified in part; DC qot priors recovered.
+Latest decision: Stop source images;0words; old values are not anchors.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/DC_QOT_PRIOR_TABLE.md.
+Assumptions: 794 C0;BT living/stock open;1058 unresolved.
+Resume: Author connected C0 in whole BT f115v8-10; retain counters.
+Running: None; DB/DC publication pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
