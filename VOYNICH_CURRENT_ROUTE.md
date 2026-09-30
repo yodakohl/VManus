@@ -9,7 +9,7 @@ Latest decision: Prior twin-fan no-mirror-key stop retained;field roles unselect
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BZ_CAPTION_REPORT.md.
 Assumptions: Whole-form/context baseline;ITsplit retained;no owner key;reserves sealed.
 Resume: Review RAW807/778 and U source before a name/reference construction. No f75 mirror/suffix reopening without a new written key.
-Running: BZ/BY closed;none running. Extended checkpoint30Sep03:16:12UTC;Verify Git push before handoff.
+Running: BZ/BY closed;none running. Findings published and main verified0c17f4343;checkpoint30Sep03:16:12UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
