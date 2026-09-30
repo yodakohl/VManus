@@ -1,0 +1,671 @@
+{
+  "candidate": "EW_R_POSITIONAL_COMPLETE_28_C0",
+  "started_utc": "2026-09-30T22:01:41Z",
+  "frozen_utc": "2026-09-30T22:09:23.416623+00:00",
+  "inclusive_budget_seconds": 480,
+  "hard_stop_utc": "2026-09-30T22:09:41Z",
+  "status": "COMPLETE_AUTHORED_C0__UNSELECTED__NO_TRANSLATION_CONFIRMATION",
+  "input": "EV_ACTUAL_CONTEXT.tsv ZL3b f68r1.1-.4 plus .26 only",
+  "positions": [
+    {
+      "locus": "f68r1.1",
+      "group_index": 1,
+      "raw_group": "shokchy",
+      "parse": [
+        "sh",
+        "ok",
+        "ch",
+        "y"
+      ],
+      "clause": "C1",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Bind x,H and reference boundary b for current case",
+      "formula_contribution": "BIND(x,H,b,I); subject(x)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.1",
+      "group_index": 2,
+      "raw_group": "chteey",
+      "parse": [
+        "ch",
+        "t",
+        "eey"
+      ],
+      "clause": "C1",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Event of beginning upward change in height",
+      "formula_contribution": "U=ONSET(INCREASE(H(x,tau)))",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.1",
+      "group_index": 3,
+      "raw_group": "choteey",
+      "parse": [
+        "ch",
+        "o",
+        "t",
+        "eey"
+      ],
+      "clause": "C1",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Event of beginning downward change in height",
+      "formula_contribution": "D=ONSET(DECREASE(H(x,tau)))",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.1",
+      "group_index": 4,
+      "raw_group": "cphol",
+      "parse": [
+        "cph",
+        "ol"
+      ],
+      "clause": "C1",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Pair the two motions as branches of one traversal",
+      "formula_contribution": "PARTITION(I,I_up,I_down); U@I_up; D@I_down",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.1",
+      "group_index": 5,
+      "raw_group": "cheor",
+      "parse": [
+        "ch",
+        "e",
+        "or"
+      ],
+      "clause": "C2",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Measured height of indexed referent",
+      "formula_contribution": "h_r(tau)=H(RESOLVE(r),tau); extent scale a",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.1",
+      "group_index": 6,
+      "raw_group": "opcheeol",
+      "parse": [
+        "o",
+        "p",
+        "ch",
+        "ee",
+        "ol"
+      ],
+      "clause": "C2",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Opposed primary branch with extended height range",
+      "formula_contribution": "OPPOSITE_BRANCH(I_primary,I_other); RANGE(H,I_other,EXTEND(a))",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.1",
+      "group_index": 7,
+      "raw_group": "otor",
+      "parse": [
+        "otor"
+      ],
+      "clause": "C2",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Index r of the selected object; generic local identifier",
+      "formula_contribution": "INDEX(r,x); label(.26,r); RESOLVE(r)=x",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.1",
+      "group_index": 8,
+      "raw_group": "choctheeey",
+      "parse": [
+        "chocthe",
+        "eey"
+      ],
+      "clause": "C2",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "State/event of traversing the return track",
+      "formula_contribution": "RETURN_PATH(x,I,b_hi,b_lo)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.1",
+      "group_index": 9,
+      "raw_group": "okchoal",
+      "parse": [
+        "ok",
+        "ch",
+        "o",
+        "al"
+      ],
+      "clause": "C2",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Lower boundary of height on opposed branch",
+      "formula_contribution": "H(x,end(I_down))=b_lo",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.2",
+      "group_index": 1,
+      "raw_group": "tochso",
+      "parse": [
+        "t",
+        "o",
+        "ch",
+        "so"
+      ],
+      "clause": "C3",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Introduce the descending onset and its phase time",
+      "formula_contribution": "D@tau_D; BEGIN(I_down)=tau_D",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.2",
+      "group_index": 2,
+      "raw_group": "otchl",
+      "parse": [
+        "o",
+        "t",
+        "ch",
+        "l"
+      ],
+      "clause": "C3",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Descending branch of the same event",
+      "formula_contribution": "DECREASE(H(x,tau)) on I_down",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.2",
+      "group_index": 3,
+      "raw_group": "qokeeedy",
+      "parse": [
+        "qo",
+        "k",
+        "eee",
+        "dy"
+      ],
+      "clause": "C3",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Reference condition: completion at outermost location",
+      "formula_contribution": "AT(x,b_lo,tau_end_down); OUTER_EXTENT(b_lo); END(I_down)=tau_end_down",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.2",
+      "group_index": 4,
+      "raw_group": "cheey",
+      "parse": [
+        "ch",
+        "eey"
+      ],
+      "clause": "C4",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Height state, same H and x",
+      "formula_contribution": "STATE(H(x,tau))",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.2",
+      "group_index": 5,
+      "raw_group": "cheeteey",
+      "parse": [
+        "ch",
+        "ee",
+        "t",
+        "eey"
+      ],
+      "clause": "C4",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Onset of extended upward change",
+      "formula_contribution": "U_ext=ONSET(INCREASE(H(x,tau)),extent=EXTEND(a))",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.2",
+      "group_index": 6,
+      "raw_group": "yteody",
+      "parse": [
+        "y",
+        "t",
+        "e",
+        "o",
+        "dy"
+      ],
+      "clause": "C4",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "For this case, opposite change begins after completion",
+      "formula_contribution": "tau_U=END(I_down); U_ext@tau_U; orientation(U_ext)=-orientation(D)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.2",
+      "group_index": 7,
+      "raw_group": "chpor",
+      "parse": [
+        "ch",
+        "p",
+        "or"
+      ],
+      "clause": "C4",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Primary height trace for the indexed referent",
+      "formula_contribution": "PRIMARY_TRACE(H(RESOLVE(r),tau))",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.2",
+      "group_index": 8,
+      "raw_group": "cheokorchey",
+      "parse": [
+        "ch",
+        "e",
+        "ok",
+        "or",
+        "ch",
+        "ey"
+      ],
+      "clause": "C4",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Compare its height at a reference boundary with that trace",
+      "formula_contribution": "H(x,end(I_up))=b_hi; EQUAL(H(RESOLVE(r),end(I_up)),b_hi)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.2",
+      "group_index": 9,
+      "raw_group": "chod",
+      "parse": [
+        "ch",
+        "o",
+        "d"
+      ],
+      "clause": "C4",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Completed opposite height branch",
+      "formula_contribution": "COMPLETE(I_down); endpoint height b_lo",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.3",
+      "group_index": 1,
+      "raw_group": "ykor",
+      "parse": [
+        "y",
+        "k",
+        "or"
+      ],
+      "clause": "C5",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Carry same case and index to location comparison",
+      "formula_contribution": "CARRY(x,r,I); LOCATION_OF(RESOLVE(r))",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.3",
+      "group_index": 2,
+      "raw_group": "shey",
+      "parse": [
+        "sh",
+        "ey"
+      ],
+      "clause": "C5",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Introduce equality condition for following locations",
+      "formula_contribution": "LET_EQUALITY_CONTEXT(C_ref)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.3",
+      "group_index": 3,
+      "raw_group": "qocheey",
+      "parse": [
+        "qo",
+        "ch",
+        "eey"
+      ],
+      "clause": "C5",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Reference-conditioned height state",
+      "formula_contribution": "BASE_HEIGHT(x,H,C_ref)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.3",
+      "group_index": 4,
+      "raw_group": "chokal",
+      "parse": [
+        "ch",
+        "ok",
+        "al"
+      ],
+      "clause": "C5",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Height at lower boundary",
+      "formula_contribution": "h_low=H(x,end(I_down))=b_lo",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.3",
+      "group_index": 5,
+      "raw_group": "okeey",
+      "parse": [
+        "ok",
+        "eey"
+      ],
+      "clause": "C5",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Boundary state, upper counterpart of the fixed boundary pair",
+      "formula_contribution": "BOUNDARY_STATE(b_hi)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.3",
+      "group_index": 6,
+      "raw_group": "ror",
+      "parse": [
+        "r",
+        "or"
+      ],
+      "clause": "C5",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Return to the same index, without a new actor",
+      "formula_contribution": "RETURN_REFERENCE(r); SAME_ACTOR(x)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.3",
+      "group_index": 7,
+      "raw_group": "eckhear",
+      "parse": [
+        "e",
+        "ckh",
+        "e",
+        "ar"
+      ],
+      "clause": "C5",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "The two extents are compared about a common center over interval",
+      "formula_contribution": "CENTER(c,H,I); DIST(c,b_lo)=DIST(c,b_hi)=a_outer",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.3",
+      "group_index": 8,
+      "raw_group": "daram",
+      "parse": [
+        "d",
+        "ar",
+        "am"
+      ],
+      "clause": "C5",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Complete the entire paired traversal interval",
+      "formula_contribution": "CLOSED(I); END(I)=END(I_down_after_up)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.4",
+      "group_index": 1,
+      "raw_group": "dchor",
+      "parse": [
+        "d",
+        "ch",
+        "or"
+      ],
+      "clause": "C6",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Completed height traversal of indexed referent",
+      "formula_contribution": "COMPLETE_HEIGHT_CYCLE(RESOLVE(r),H,I)",
+      "confirmed": false
+    },
+    {
+      "locus": "f68r1.4",
+      "group_index": 2,
+      "raw_group": "okaiiin",
+      "parse": [
+        "ok",
+        "aiiin"
+      ],
+      "clause": "C6",
+      "status": "EXPLICIT_C0_FULL_CONTRIBUTION",
+      "meaning": "Collect both reference boundaries as cycle endpoints",
+      "formula_contribution": "ENDPOINT_PAIR(I)=(b_hi,b_lo)",
+      "confirmed": false
+    }
+  ],
+  "shared_four_atoms": {
+    "ch": "height coordinate H; default positive orientation",
+    "t": "onset of oriented change",
+    "o": "reverse orientation or select opposite branch, according to declared type",
+    "eey": "typed state/event nominalization"
+  },
+  "new_local_units": {
+    "sh": "case/scope binder",
+    "ok": "reference boundary",
+    "y": "carry current case actor/reference",
+    "cph": "paired opposition",
+    "ol": "traversal branch",
+    "e": "extent parameter",
+    "or": "resolve current local index",
+    "p": "primary trace/branch selector",
+    "ee": "extend extent relative to baseline e",
+    "otor": "generic index r, one paid opaque whole value",
+    "chocthe": "return-track predicate, one paid opaque residual",
+    "al": "lower member of boundary pair",
+    "so": "introduce onset phase time",
+    "l": "event branch nominalizer",
+    "qo": "base/reference-condition operator, indivisible local atom",
+    "k": "location",
+    "eee": "outermost extent grade, separate paid grade value",
+    "dy": "event completion time",
+    "d": "completion aspect",
+    "ey": "equality/comparison context",
+    "r": "return to same reference",
+    "ckh": "common middle of coordinate extent",
+    "ar": "traversal interval",
+    "am": "whole/closed interval",
+    "aiiin": "collect ordered pair of reference endpoints"
+  },
+  "retained_seven_exact_form_parses": {
+    "chteey": [
+      "ch",
+      "t",
+      "eey"
+    ],
+    "choteey": [
+      "ch",
+      "o",
+      "t",
+      "eey"
+    ],
+    "cheey": [
+      "ch",
+      "eey"
+    ],
+    "qocheey": [
+      "qo",
+      "ch",
+      "eey"
+    ],
+    "cheeteey": [
+      "ch",
+      "ee",
+      "t",
+      "eey"
+    ],
+    "choctheeey": [
+      "chocthe",
+      "eey"
+    ],
+    "okeey": [
+      "ok",
+      "eey"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "R1",
+      "rule": "The first binder establishes x,H,b,I. The delayed INDEX at .1G7 identifies the same x throughout this paragraph. This is a paid paragraph-scope law, not a visible prose-to-star pointer."
+    },
+    {
+      "id": "R2",
+      "rule": "Core ch+t+eey returns Event[positive height derivative]; ch+o+t+eey returns Event[negative height derivative]; ch+eey returns State[height]. Nominalization has a declared tagged sum State|Event and no mixed-class cast."
+    },
+    {
+      "id": "R3",
+      "rule": "Typed o flips orientation of a change, or selects the opposite member of an explicit branch pair. Prefix o+t+ch+l and t+o+ch+so are separately paid local realizations of the descending-event template. No unregistered rearrangement or general spelling law."
+    },
+    {
+      "id": "R4",
+      "rule": "Within each listed exact group, parts fill its declared typed template. The 21 new parses are prospective local hypotheses, not outputs of a universal parser. All residual spellings remain literal."
+    },
+    {
+      "id": "R5",
+      "rule": "Rows assigned to a clause form an ordered attribute bundle; bound x,H,r,I carry within the paragraph only. Complete formula is the conjunction of those bundles, not independent word-gloss substitution."
+    },
+    {
+      "id": "R6",
+      "rule": "Text line order presents definitions, branch descriptions and a closing comparison; it is not claimed to be a literal temporal itinerary. C3 descent precedes C4 ascent in the narrated cycle, while C1 names both abstract branch types."
+    },
+    {
+      "id": "R7",
+      "rule": "The reference-condition qo forms use the current base coordinate. This is not q morpheme export or an identification of qo with an independently known prefix."
+    },
+    {
+      "id": "R8",
+      "rule": "ee is an extended baseline extent and eee the outermost grade. No letter-count-to-number law, numerical unit or source-hour equivalence is declared."
+    },
+    {
+      "id": "R9",
+      "rule": "C5 introduces the common-midpoint equality constraint; b_lo and b_hi are the two already declared endpoints. The otherwise ambiguous okeey selects the upper member here by this paid complementary-boundary rule."
+    },
+    {
+      "id": "R10",
+      "rule": "Completion dy supplies end time, d completion aspect, and am closure of whole interval. These are separate new units; their relation is explicit, not historical suffix knowledge."
+    },
+    {
+      "id": "R11",
+      "rule": "The label .26 receives exactly the same generic index r as prose otor. Local label/prose reference identity is a C0 ownership commitment, with an unrelated/homonym rival retained."
+    },
+    {
+      "id": "R12",
+      "rule": "Clauses and type arguments are exactly those itemized here; no unmentioned Sun, observer, calendar, named star, hour, period length, field-wide object identity or event frequency is supplied."
+    }
+  ],
+  "clauses": [
+    {
+      "id": "C1",
+      "positions": "f68r1.1 G1-G4",
+      "reading": "Consider the marked object’s height relative to a reference boundary: beginning ascent and beginning descent are the opposed branches of its traversal.",
+      "formula": "BIND(x,H,b,I) AND UpOnset(U,x,H,I_up) AND DownOnset(D,x,H,I_down) AND Partition(I,I_up,I_down)"
+    },
+    {
+      "id": "C2",
+      "positions": "f68r1.1 G5-G9",
+      "reading": "The index otor belongs to this height trace. Its opposed branch covers the extended range, follows the return track and reaches the lower boundary.",
+      "formula": "INDEX(r,x) AND Opposite(I_primary,I_other) AND Range(H,I_other,Extend(a)) AND ReturnPath(x,I,b_hi,b_lo) AND H(x,end(I_down))=b_lo"
+    },
+    {
+      "id": "C3",
+      "positions": "f68r1.2 G1-G3",
+      "reading": "Descent begins at its phase time and continues along the descending branch to the outermost lower location, where that branch completes.",
+      "formula": "begin(I_down)=tau_D AND Downward(H,x,I_down) AND end(I_down)=tau_end_down AND At(x,b_lo,tau_end_down)"
+    },
+    {
+      "id": "C4",
+      "positions": "f68r1.2 G4-G9",
+      "reading": "Its height then begins an extended ascent, reversing the completed descending motion. The primary trace of the same index reaches the upper reference height.",
+      "formula": "tau_U=end(I_down) AND UpOnset(U_ext,x,H,I_up,Extend(a)) AND PrimaryTrace(H,r) AND H(x,end(I_up))=b_hi AND Complete(I_down)"
+    },
+    {
+      "id": "C5",
+      "positions": "f68r1.3 G1-G8",
+      "reading": "For that same indexed object, compare the lower height and the upper boundary state: both are equidistant from one middle point over the traversal interval, which closes as a whole.",
+      "formula": "Carry(x,r,I) AND BaseHeight(x,H,C_ref) AND h_low=b_lo AND BoundaryState(b_hi) AND SameReference(r) AND Dist(c,b_lo)=Dist(c,b_hi)=a_outer AND Closed(I)"
+    },
+    {
+      "id": "C6",
+      "positions": "f68r1.4 G1-G2",
+      "reading": "The indexed height traversal is complete; the two reference boundaries are its paired endpoints.",
+      "formula": "CompleteHeightCycle(x,H,I) AND EndpointPair(I)=(b_hi,b_lo)"
+    }
+  ],
+  "whole_reading": "Consider the marked object’s height relative to a reference boundary. Ascent and descent form opposed parts of one traversal. The index otor refers to that height trace: its opposed branch covers the extended range and returns to the lower limit. Descent begins, follows its branch and completes at the outermost lower point. Height then begins an extended ascent, reversing the completed fall and reaching the upper reference height. For the same index, the lower and upper limits stand at equal distances from a common middle point. The interval closes as one complete height traversal between the paired limits.",
+  "types": {
+    "x": "Object, hypothesized plotted point; not an established fixed star",
+    "H": "Object x Time -> ordered Height",
+    "r": "generic LocalIndex",
+    "I,I_up,I_down": "bounded time/traversal intervals",
+    "b_lo,b_hi,c,a,a_outer": "coordinate parameters, with b_lo<c<b_hi and positive extent",
+    "U,D,U_ext": "Event[oriented height change]",
+    "State": "height or boundary State, explicitly distinguished from Event"
+  },
+  "actor_predicate_time_reference": {
+    "actor": "shokchy binds x; otor indexes it; y/or/qo carry it through exact declared templates",
+    "predicates": "upward/downward height onset, location, track completion, comparison",
+    "time": "so onset phase; dy end time; ar entire traversal interval; no source-hour value",
+    "reference": "or resolves r, otor gives r, ror returns to r; .26 gets same index by an explicit ownership assumption"
+  },
+  "costs": {
+    "shared_atom_slots": 4,
+    "new_unit_values": 25,
+    "total_unit_values": 29,
+    "opaque_new_whole_values": [
+      "otor"
+    ],
+    "opaque_new_residual_values": [
+      "chocthe"
+    ],
+    "existing_seven_form_parses_retained": 7,
+    "new_local_word_parses": 21,
+    "explicit_grammar_scope_reference_rules": 12,
+    "clause_bundles": 6,
+    "group_positions_assigned": 28,
+    "unassigned_groups": 0,
+    "unit_count_limit": "Counts are inventories, not elementary degrees of freedom or minimum-description-length evidence. eee, cph, ckh, aiiin-like spelling are paid values; no confirmed numeral/morpheme follows.",
+    "comparison": "The original three-form core costs the same four atom slots as the visibility core. Full paragraph completion adds 25 units and 12 rules; equal full-model cost against V is not claimed."
+  },
+  "unknowns_and_debts": [
+    "All semantic units are invented C0 values. Literal exact decomposition is not morpheme validation.",
+    "No Sun, observer, solar masking, first/last calendar day, named stellar referent, source hour or quantified periodic frequency is independently bound.",
+    "H origin is a reference boundary/center chosen by the candidate; it is not silently identified with the horizon.",
+    "Local label/prose identity, equal midpoint extents and complementary upper selection are paid commitments; they are not author-visible relations already established.",
+    "The completion vocabulary and aggregate endpoint unit aiiin are new hypothetical units; okaiiin retains its exact spelling and extra i.",
+    "All 28 whole types are singleton prose forms; most compositional reuse is at the hypothesized part level, with whole-form residuals and explicit local templates. No derivation probability or preference follows.",
+    "This ZL candidate has no IT/RF transfer claim. A future alternate-reading derivation must retain own boundaries and failed/missing statuses."
+  ],
+  "differential_consequence": {
+    "versus_visibility": "With fixed bindings, chteey predicts a positive height-change onset and choteey a negative height-change onset. A visibility reading instead predicts visibility onset/loss. Neither coordinate derivative implies visibility change without another occlusion/observer relation.",
+    "concrete_countercase": "A point ascending while remaining obscured satisfies the R ascent predicate while a visibility-onset predicate is false; a continuously visible descending point satisfies R descent while visibility-loss is false. These are hypothetical semantic countercases, not observed manuscript events or new control data.",
+    "same_written_obligation": "The same cheey must denote the H state and feed both onset templates; t/o retain one typed orientation rule. A later reading cannot replace H with visibility only in a favorable clause.",
+    "RAW826": "Pliny is source inspiration only. This positional candidate does not supply the source’s solar arrival/departure or first/last-visible-day interval statements and therefore is not an exact RAW826 rendering. No identity/copying proof follows.",
+    "next_actual_test": "Root should compare full typed clauses and paid ownership assumptions against the independently authored V draft, rather than selecting by fluent paraphrase. To distinguish meaning on manuscript evidence, a separately admitted/owned positional-versus-visibility relation would be needed; this candidate itself introduces no reserve or engine action."
+  },
+  "retained_limits": [
+    "GDT1072: otor is not star-exclusive; generic index here is intentional C0, with homonym/unrelated and property/class rivals retained.",
+    "GDT751/752: no q export; qo is a separately declared local atom.",
+    "GDT916: no successful transfer for newly invented stem pairs; this paragraph does not claim such transfer.",
+    "Global k/t polarity unresolved; no global decoding or Latin phonetics.",
+    "No old569 or medicalES glosses adopted."
+  ],
+  "independence": {
+    "EV_PARAGRAPH_AUTHOR_read": false,
+    "EW_VISIBILITY_AUTHOR_read": false,
+    "other_V_working_files_read": false,
+    "allowed_public_prior": "EV_REPORT plus parent message containing seven frozen form parses",
+    "new_raw_TSV_queries": 0,
+    "new_images": 0,
+    "new_sources": 0,
+    "shared_files_changed": false,
+    "git_actions": false
+  },
+  "validation": {
+    "literal_28_positions": "PASS",
+    "exact_part_concatenation": "PASS",
+    "all_28_status_and_formula_contributions": "PASS",
+    "raw_chokal_marker": "Original EV_ACTUAL_CONTEXT.tsv left unchanged; chokal<->okeey is a source marker across .3G4/G5, not deleted or translated.",
+    "native_scope": "28-group upper native ZL unit retained; no neighboring .5-.7 absorption",
+    "semantic_type_validation": "Manual declared typed interfaces only; no executor/scorer or semantic proof."
+  }
+}

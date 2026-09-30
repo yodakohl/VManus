@@ -1,3 +1,17 @@
+<!-- 2026-10-01 EW whole28 independent authorship and actual model failures -->
+V wholevisibility attemptfailsqokeeedy exactparts (qokeedy);no after-resultrepair.
+OriginalV3full4partial21unknown preserved;localcapoverrun59.483sec disclosed.
+R all28exactparts/contributions,6clauses;29units25new+12grammar/scopelaws.
+Conditionaldescent→ascent,indexcarry,midpointcomparison retainedC0,notmeaningwinner.
+R5 requiresallwordcontributions;C5 omitsdaram END(I)=END(I_down_after_up).
+After-up phase unbound;ReturnPath/CompleteHeightCycle/EndpointPair interfaces missing.
+No unconditionalUNSAT/empiricalmeaningcontradiction;fullcycle notderived.
+CHEEYheight andRORreference differoldESclear/stockimpurity;branchesnotmerged.
+NextprospectiveRtime/endpointcontract onwhole28 beforetransfer;oldbytesfixed.
+0words0independentleaves;no newdata/image/reserve/contact/decoder/score.
+3GPT6.1Sol threads;producerRAW828unreviewednotselected;source826stillnot_tested.
+[EW report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EW_REPORT.md).
+
 <!-- 2026-09-30 EV fixed-star source and complete astral paragraph -->
 PlinyXVIII218–219 visibility/day/solarinterval sourcecontrast established, nottargettemplate.
 NativeZL f68r1.1–.4 whole28 +.26localotor registered/queried;28distinctforms.
