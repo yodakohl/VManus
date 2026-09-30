@@ -5,7 +5,7 @@ Updated: 2026-10-01. Live resume point.
 Phase: exploration
 Status: checkpoint
 Task: EY source/predecessor audit completed with3Sol agents.
-Latest decision:829not_tested;830rawrolecontrast;0confirmedwords.
+Latest decision: 829not_tested;830rawrolecontrast;0confirmedwords.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EY_REPORT.md.
 Assumptions: ASfixed;source roles not target meanings;exposure disclosed.
 Resume: Nominate complete two-case C0 for830;keep ASfixed,paidroles.
