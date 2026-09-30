@@ -1,3 +1,14 @@
+<!-- 2026-09-30 GDT1119 residue predicate C0 checkpoint -->
+S deposits/H contains an impure residue: local77r25 groups3-8 proposed,
+all26N values unchanged,3newwholeguesses.223nativeP15318groups358targets;
+allSHEDAR/DARORnativecontexts;8globalQOKALunscored per ZL/IT.
+Root all330targetlines+6completeDARORP+104counter inspected; mechanismPASS,
+meaningselectionnull and capacity0.26tail3unread,104carrierUNBOUND;
+1112-1117failures retained. No confirmed words or new reserve use.
+Next review existing935/936tail/family constraints before any new N26 hypothesis;
+no unchanged residue audit or reference selector repair.
+[GDT1119](experiments/yolo/gdt1119_preparation_residue_predicate/REPORT.md).
+
 <!-- 2026-09-30 GDT1118 joint preparation C0 checkpoint -->
 N is a third26wholevalue tuple: OKAIIN liquid, SHEDY moist preparation,
 QOKEEDY flows; full6group77r27 sentence and partial14/34/35phrases authored.
