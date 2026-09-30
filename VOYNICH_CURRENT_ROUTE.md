@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1105 domain/owner test;16conditional/8groups;0words.
-Latest decision: Pair-split permits tail-only;bare-y absent;46fieldsunbound.
-Working files: experiments/yolo/gdt1105_dual_temperature_scope/REPORT.md.
-Assumptions: Noun/thermal/scope C0;1058k/t unresolved;CE/CF/W02/83/89 unchanged.
-Resume: Profile ky/ty and primaries;only unchanged written-bearer scope tests the absent cell. No noun fill.
-Running: 1105/CIclosed;none;main verifiedb1a6defdd.
+Task: GDT1106 all16 frozen1105 candidates contradicted;0words.
+Latest decision: f114v31/37 same-cell opposite poles;110bare fields allunbound.
+Working files: experiments/yolo/gdt1106_frozen_domain_transfer/REPORT.md.
+Assumptions: C0 package closed;1105original/1058/CE/CF/W02/83/89 unchanged.
+Resume: Review independently grounded semantic relations;no noun/owner/time repair or bare-y census. CK809RAW.
+Running: 1106/CKclosed;none;publication pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
