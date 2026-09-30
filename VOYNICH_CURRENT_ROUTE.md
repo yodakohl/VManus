@@ -9,7 +9,7 @@ Latest decision: f9reverse pair sameleaf;f50IT-only/nocthy;f9v4bearer unread.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CF_REPORT.md.
 Assumptions: Leaf/herb and cold/amount C0;CE5guesses;noRFalias;W02/83/89unchanged.
 Resume: Read qotal/otal primaries;assess whole f50r7 kaiin otaiin scopes. No old glosses as evidence or census rerun.
-Running: CF/CHclosed;none;deadline04:42UTC;publication pending.
+Running: CF/CHclosed;none;main verified613c9638c.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
