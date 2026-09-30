@@ -1,0 +1,163 @@
+{
+  "task": "ET prospective exact LK instrumental motion-frame prediction",
+  "status": "FROZEN_EXPLORATORY_C0_BEFORE_CURRENT_UNIT_FULL_F111R_PARAGRAPH_ACCESS",
+  "clock": {
+    "task_start_utc": "2026-09-30 20:45:09 UTC",
+    "prediction_frozen_utc": "2026-09-30T20:46:39.429828+00:00",
+    "budget_seconds": 720
+  },
+  "parent_ES_sha256": "0cfd8207dbd23755a6a1b8a9c71a4edcb4897fbc1d6700968066ac7bf3035986",
+  "unchanged_parent_values": {
+    "parent32": {
+      "G": {
+        "dictionary": {
+          "saiin": "then",
+          "sho": "moist-preparation",
+          "sheody": "helps",
+          "oteeo": "becomes",
+          "qotchy": "purging/cleansing-efficacy",
+          "chody": "internal-use",
+          "qotain": "prepared-medicine",
+          "lkchey": "removes-U-from-P",
+          "chol": "drug-stock",
+          "okaiin": "liquid",
+          "dalchedy": "impure",
+          "chedy": "pure",
+          "lchey": "drug-stock",
+          "ror": "stock-impurity",
+          "dshedy": "moist-preparation",
+          "qokeedy": "flows",
+          "pchedy": "cleansing",
+          "lpchedy": "using-cleansing-preparation",
+          "lkechedy": "using-purified-preparation",
+          "solchedy": "here",
+          "qokain": "is",
+          "qokaiin": "of-liquid",
+          "shedy": "moist-preparation",
+          "qotedy": "from-mouth",
+          "otedy": "mouth",
+          "qoteedy": "portion",
+          "qokal": "in-basin",
+          "shedar": "deposits",
+          "daror": "residue",
+          "chcthy": "drug-extract",
+          "lchedy": "purified",
+          "qokaly": "into-basin"
+        }
+      },
+      "I": {
+        "dictionary": {
+          "saiin": "then",
+          "sho": "moist-preparation",
+          "sheody": "helps",
+          "oteeo": "becomes",
+          "qotchy": "purging/cleansing-efficacy",
+          "chody": "internal-use",
+          "qotain": "prepared-medicine",
+          "lkchey": "removes-U-from-P",
+          "chol": "drug-stock",
+          "okaiin": "liquid",
+          "dalchedy": "impure",
+          "chedy": "pure",
+          "lchey": "drug-stock",
+          "ror": "stock-impurity",
+          "dshedy": "moist-preparation",
+          "qokeedy": "flows",
+          "pchedy": "cleansing",
+          "lpchedy": "using-cleansing-preparation",
+          "lkechedy": "using-purified-preparation",
+          "solchedy": "here",
+          "qokain": "is",
+          "qokaiin": "of-liquid",
+          "shedy": "moist-preparation",
+          "qotedy": "from-mouth",
+          "otedy": "mouth",
+          "qoteedy": "portion",
+          "qokal": "in-basin",
+          "shedar": "deposits",
+          "daror": "residue",
+          "chcthy": "drug-extract",
+          "lchedy": "purification-intended",
+          "qokaly": "into-basin"
+        }
+      }
+    },
+    "EQ14": {
+      "olchey": "receiving-liquid",
+      "qotey": "at-rest",
+      "olcheedy": "charged",
+      "sar": "batch",
+      "lom": "remains",
+      "cheeol": "mixture",
+      "qotal": "into-receiver",
+      "chckhey": "dose",
+      "qolkain": "mix",
+      "cheeky": "carefully",
+      "lol": "with-liquid",
+      "chckhy": "ready",
+      "qokeey": "flow-capable-liquid",
+      "qotary": "of-receiver"
+    },
+    "ES13": {
+      "pchdaiin": "preparation-charge",
+      "otaiin": "in-vessel",
+      "cheedy": "clarified",
+      "qokeeey": "continuous-flow-capable-liquid",
+      "lkeeedy": "using-continuous-flow",
+      "cheey": "clear",
+      "lor": "fraction",
+      "eeedy": "flows-continuously",
+      "ychedal": "subsequently",
+      "checkhey": "dose-characterized",
+      "checkhy": "ready-characterized",
+      "qoteosam": "into",
+      "chos": "receiving-vessel"
+    }
+  },
+  "new_whole_outputs": {
+    "lkeedy": "using-flow",
+    "lkedy": "using-pulsed-flow"
+  },
+  "fixed_member": {
+    "lkeeedy": "using-continuous-flow"
+  },
+  "shared_typed_frame": "INSTRUMENT(E_host,e,x,i): USING(E_host,e) AND actual FLOW(x,e,i). Same material x/event e/phase i arguments for all three members. Host must be an event, not merely a static noun.",
+  "scope_exact": [
+    "lkedy",
+    "lkeedy",
+    "lkeeedy"
+  ],
+  "grade_map": {
+    "E": "PULSE(e,i): at least two periods of positive flow separated by an interval of zero flow within the full assigned handling phase i. New unconfirmed primitive, not old brief/heat/number default.",
+    "EE": "No flow-pattern constraint beyond actual FLOW; no automatic long-duration meaning.",
+    "EEE": "CONT(e,i): actual flow never stops during the full assigned handling phase. Retains exact ES semantics."
+  },
+  "common_aspect": "DY is actual ongoing/occurred flow in this exact motion frame; neither completion, closing, stopped flow nor full material arrival follows.",
+  "argument_policy": "Material x and host E_host may be written elsewhere within a declared clause or explicitly unbound. No universal nearest-head, no creation of a new lexical patient from an unknown word.",
+  "phase_policy": "Phase i must cover the complete parsed handling episode, with boundaries grounded in that content parse. It cannot shrink to a convenient uninterrupted piece. Source line order alone does not establish time or identical phases.",
+  "same_phase_exclusion": "LKEDY pulsed and LKEEEDY continuous cannot denote the same actual flow e over the same full i. They may describe different episodes/phases; that is an explicit graph choice rather than a postfailure repair. LKEEDY unmarked is compatible with either pattern but does not establish identity.",
+  "cost_account": {
+    "new_content_primitives": 1,
+    "new_whole_outputs": 2,
+    "new_grade_mapping_choices": 2,
+    "inherited_frame_choices": "ES LK/actual-flow/material/event/USING frame retained; extending its exact domain to two wholes is one additional scope-generalization debt.",
+    "prospective_parser_uncertainty": [
+      "LK+E+DY versus historical L+E+CLOSE cannot be settled by spelling alone.",
+      "All three must be treated as declared exact LK-frame members, not a canonical morpheme parser.",
+      "Host-event attachment and phase/identity bindings remain separate grammatical assumptions."
+    ],
+    "semantic_operator_decisions_total_new": 4
+  },
+  "prior_review": {
+    "GDT663": "LKEDY heated wood-drug/middle/finished family default, with L_WOOD/K_HOT/E_MIDDLE/DY_FINISHED analysis supplied in ET note; concrete old labels unconfirmed.",
+    "sidequest_exception_anatomy": "LKEDY L+E+CLOSE, briefly lead away and close; mutually different parser/operation from V40.",
+    "sidequest511": "LKEDY feed-route briefly hold and close; actual full primary read.",
+    "GDT718": "Rejected shared withdrawal family for OTEED/KEEOD/KCHOD learned wholes, not a global prohibition of new LK C0 frames.",
+    "GDT534/GDT558": "Formal graded families and carrier-bound scope provide architecture constraints; historical grades do not identify this PULSE primitive."
+  },
+  "exposure": "Known111r37 was seen in prior ER/ES. Current-unit full native111r paragraphs have not been opened before this prediction. This is a prospective extension on exposed development data, not a blind holdout.",
+  "necessary_content_prediction": "A bound LKEDY use requires actual interrupted flow, whereas LKEEEDY requires uninterrupted flow throughout its assigned phase. Same-e/same-i assignment refutes the package; absence of anchored episodes is unbound, not semantic success.",
+  "confirmed_words": 0,
+  "independent_meaning_capacity": 0,
+  "semantic_pass": null
+}

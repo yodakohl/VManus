@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: ES joint112v17 C0;threefamilies;no wordproved.
-Latest decision: Scontinuityseed;Ctransferpartial;no winner.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/ES_REPORT.md.
-Assumptions: 32/EQ14 fixed;16semantic+7grammar+history debts.
-Resume: Whole111rPwith37:LK/EEEframes+QOKEEY;predict first.
-Running: None;3agents done;RAW825 unreviewed.
+Task: ET exactLK C0 applied;no meaning identified.
+Latest decision: Pulse/nested/restart unselected;ESseed.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/ET_REPORT.md.
+Assumptions: 32/EQ14/ES13 fixed;hosts/streams/phases unbound.
+Resume: Review RAW825 primary+1028/792/804 before selection.
+Running: None;3agents done;producer0ideas;RAW825 unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

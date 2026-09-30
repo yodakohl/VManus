@@ -1,3 +1,16 @@
+<!-- 2026-09-30 ET exact-LK extension application -->
+Two new C0 outputs frozen before current-unit full111rP: LKEEDY using-flow,
+LKEDY using-pulsed-flow; retained ES LKEEEDY using-continuous-flow.
+Actual partial story IT82/ZL86,22glossgroups each;RF81own groups;175allnewpositions.
+Four f76r uses lack nativeP; ownlines kept. Independent mechanicalPASS only.
+Separate continuous/pulsed streams, hosts and whole-phase identities unbound;
+same-event/full-phase pulse+continuity conditional contradiction, notobservedfailure.
+Blind nested/onset-middle and restart rivals unselected; no canonicalDY/E proof.
+32/EQ14/ES13 unchanged;0words0capacity. Review39.7sec overlocalcap disclosed.
+Retain ET unselectedvariant;ESseed. No unchanged grade/host expansion.
+Next review RAW825 source/effect-bearer primary+1028/792/804 before selection.
+[ET report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/ET_REPORT.md).
+
 <!-- 2026-09-30 ES joint-family content and component consequences -->
 CompleteIT112v17C0 descriptivecontent: clarity/result, actualcontinuousflow/frame,
 CKHattribution couple7outputs;6residualroots,16semantic+7grammar+history debts.
