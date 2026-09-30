@@ -9,7 +9,7 @@ Latest decision: 1109 closed; patient/room/output not one heat field.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CT_ROOT_RECEIPT.md.
 Assumptions: 794 C0;595/596 authored roles;1058 polarity unresolved.
 Resume: Author whole794 reading with distinct predictions; no graph repair.
-Running: None; main9a376432 verified; CT push pending.
+Running: None; CT mainfc70a305f verified; receipt follows.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
