@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Publish CG raw idea;CE f9v C0/M2–M4 tied;0confirmedwords.
-Latest decision: No new meaning;CE artifacts verified on main.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CE_REPORT.md;CG_IDEA_SUPPLY.md.
-Assumptions: CG808 unreviewed;CE5guesses;noRFsplit;W02/83/89&1073unchanged.
-Resume: Read f9v3–4 bearer construction and otaiin/cthy primaries. No implicit subject or extra heating.
-Running: CE/CD/CG closed;none;CE main verifiedb416674b3.
+Task: CF cthy/otaiin four C0 drafts tied;0confirmedwords.
+Latest decision: f9reverse pair sameleaf;f50IT-only/nocthy;f9v4bearer unread.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CF_REPORT.md.
+Assumptions: Leaf/herb and cold/amount C0;CE5guesses;noRFalias;W02/83/89unchanged.
+Resume: Read qotal/otal primaries;assess whole f50r7 kaiin otaiin scopes. No old glosses as evidence or census rerun.
+Running: CF/CHclosed;none;deadline04:42UTC;publication pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
