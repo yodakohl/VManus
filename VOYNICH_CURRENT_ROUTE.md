@@ -4,18 +4,19 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: CF cthy/otaiin four C0 drafts tied;0confirmedwords.
-Latest decision: f9reverse pair sameleaf;f50IT-only/nocthy;f9v4bearer unread.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CF_REPORT.md.
-Assumptions: Leaf/herb and cold/amount C0;CE5guesses;noRFalias;W02/83/89unchanged.
-Resume: Read qotal/otal primaries;assess whole f50r7 kaiin otaiin scopes. No old glosses as evidence or census rerun.
-Running: CF/CHclosed;none;main verified613c9638c.
+Task: GDT1105 domain/owner test;16conditional/8groups;0words.
+Latest decision: Pair-split permits tail-only;bare-y absent;46fieldsunbound.
+Working files: experiments/yolo/gdt1105_dual_temperature_scope/REPORT.md.
+Assumptions: Noun/thermal/scope C0;1058k/t unresolved;CE/CF/W02/83/89 unchanged.
+Resume: Profile ky/ty and primaries;only unchanged written-bearer scope tests the absent cell. No noun fill.
+Running: 1105/CIclosed;none;publication pending;05:15UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
 whole-form residuals and entry context matter (GDT608/282/286/318).
 Segmentations are not one proven parser; 98 learned units are no alphabet.
-No default Latin/phonetic reading. General adjacency transfers across
+No default Latin/phonetic reading. Global k/t polarity is unresolved (1058).
+General adjacency transfers across
 Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
 reversible rendering are not confirmed meanings or sentence boundaries.
