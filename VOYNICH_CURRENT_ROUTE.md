@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: f77r36 participant audit; no new fixed test.
-Latest decision: no meaning selected; transfer-card PASS is not meaning;0words.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EF_PARTICIPANT_AUDIT.md.
-Assumptions: nominal/action,amount/material open; uncertain singleton dolchl.
-Resume: Author36 amount/material alternatives; do not repeat census.
-Running: None; EF main4a5a87a3b verified;1113 failure retained.
+Task: 1114 two partial36 constructions; right-result diagnostic counter.
+Latest decision: finalchedy115v10 blocks strict rightresult; no meaning choice.
+Working files: experiments/yolo/gdt1114_clause_quantity_material/REPORT.md.
+Assumptions: all C0; result/tail unread; diagnostic exposed;0words.
+Resume: Read whole115v8-10 final state vs transformation; do not name36result.
+Running: None;1113 inverse-last failure retained.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

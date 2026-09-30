@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1112**
-- Experiment-associated tracked files: **22,107** (2.0 GiB)
-- Structured GDT337+ experiments: **777**
+- Experiments indexed: **1113**
+- Experiment-associated tracked files: **22,124** (2.0 GiB)
+- Structured GDT337+ experiments: **778**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1114 | GDT1114_clause_quantity_material | `C0_UNRANKED_RIGHT_RESULT_DIAGNOSTIC_COUNTER` | [report](../experiments/yolo/gdt1114_clause_quantity_material/REPORT.md) | 17 | 351.4 KiB | 8 | STRUCTURED_YOLO |
 | GDT1113 | GDT1113 | `OVERT_INVERSE_LAST_WRITER_CONTRADICTED` | [report](../experiments/yolo/gdt1113_condensation_cycle_obligations/REPORT.md) | 23 | 2.2 MiB | 13 | STRUCTURED_YOLO |
 | GDT1112 | GDT1112_scope_wording | `CLARIFY_COMPLETE_UNITS_NOT_ALL_NATIVE_PARAGRAPHS` | [report](../experiments/yolo/gdt1112_connected_cleansing_recipient/REPORT.md) | 20 | 827.8 KiB | 12 | STRUCTURED_YOLO |
 | GDT1111 | GDT1111 | `NO_LABEL_OWNER_OR_WRITTEN_MEANING_DISCRIMINATOR` | [report](../experiments/yolo/gdt1111_okeey_label_argument_review/REPORT.md) | 17 | 196.9 KiB | 9 | STRUCTURED_YOLO |

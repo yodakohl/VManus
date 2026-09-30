@@ -1,3 +1,11 @@
+<!-- 2026-09-30 GDT1114 exploratory checkpoint -->
+Two partial f77r36 quantity-manner/material-subject constructions are explicit and unranked.
+The separate post-reader diagnostic finds final chedy at f115v10 in both native readers;
+a considered universal written-right-result grammar fails, not every becomes meaning.
+Next: actual whole f115v8–10 final predication, before naming the unknown f77r36 result.
+[GDT1114 report](experiments/yolo/gdt1114_clause_quantity_material/REPORT.md).
+Zero confirmed words; GDT1113 inverse-last result remains unchanged.
+
 <!-- 2026-09-30 EF checkpoint: no new fixed experiment, no preferred meaning. -->
 For the next route, use the whole f77r36 amount/material alternatives in
 [the participant audit](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EF_PARTICIPANT_AUDIT.md).
