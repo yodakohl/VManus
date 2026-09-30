@@ -18,3 +18,14 @@ Use GDT852's exact Yale1006209 full/full image response, SHA256
 2868×3735. Different bytes stay closed in this task. No OCR or enhancement.
 No new text selector, f84/f84r, f116v or reserve access. Root's BX proposal
 records outcomes and unchanged stop conditions; this grant is not semantic gold.
+
+## BZ additional exploratory use, 2026-09-30 03:02 UTC
+
+Before broader native interpretation, extend the same exact image's use to the
+complete upper-pond N1 caption array, loci18–37: all ten hanging fields, their
+immediate figures, and the upper radiating structure insofar as it connects to
+those fields. Retain ambiguous connections; no Sun/Moon/water identities are
+granted by this scope. All ten text pairs were already exposed in the admitted
+BX source. BZ_CAPTION_DECISION.md declares that exposure and the role question.
+Same Yale1006209 bytes/hash; no new image key, new acquisition, reserve or
+independent holdout. Lower-pond interpretation remains outside this extension.

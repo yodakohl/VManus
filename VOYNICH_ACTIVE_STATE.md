@@ -1,3 +1,5 @@
+30Sep BZ: all10 f75caption pairs retained;ZL/RF daldyL3L8 repetition has ITsplit,global17/16/8 uses. Prior twin-fan no-mirror-key stop recovered,not superseded;no fieldrole/word selected. BX C0 unchanged;BY807 source-only RAW. [Table and decision](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BZ_CAPTION_REPORT.md).
+
 30Sep BX: darol=influx/darolsy=emission C0 after3native label sites;notselected. f75v21 is two-line dokal/darol caption,notprose;ownerfield/figure uncertain. Fourf83labels/710groups retained;no syexport or score-readyedge.697 not_tested;BW806 RAW. [Report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BX_LABEL_READING_REPORT.md).
 
 30Sep BV: unchanged605 merges share formal qot in4forms;012/062 split q,onlyqotain yields ain. Currentqotain0Herbal vsqotchy47/52/49Herbal;751axes inherited,748predictiondeck0rows not evidenceabsence. BTmeanings stillunselected;no qotgloss export. Review diverse retained candidates before another source-fit draft;BU805 RAW. [Audit](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BV_GRAMMAR_REPORT.md).

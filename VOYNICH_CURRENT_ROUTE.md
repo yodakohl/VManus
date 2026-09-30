@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: BX darol influx/darolsy emission C0 unselected;697 not_tested;0words.
-Latest decision: All3sites arelabels;f75 dokal/darol owner ambiguous;no syexport.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BX_LABEL_READING_REPORT.md.
-Assumptions: 1104/1052/782/BV stops;name/opening/deixis rivals;seals.
-Resume: ReadBX;check caption-array primaries before dokal/darol construction. No repeated proximity test or unconstrained glossary.
-Running: extended10h deadline30Sep03:16:12UTC;BX/BW closed;GitHub main synced;none running.
+Task: BZ ten-caption audit closed;BX meanings C0;0 confirmed words.
+Latest decision: Prior twin-fan no-mirror-key stop retained;field roles unselected.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BZ_CAPTION_REPORT.md.
+Assumptions: Whole-form/context baseline;ITsplit retained;no owner key;reserves sealed.
+Resume: Review RAW807/778 and U source before a name/reference construction. No f75 mirror/suffix reopening without a new written key.
+Running: BZ/BY closed;none running. Extended checkpoint30Sep03:16:12UTC;Verify Git push before handoff.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
