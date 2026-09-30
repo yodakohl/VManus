@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: EQ materialhistory and finiteFLOWfamily C0 drafts.
-Latest decision: MIXTURE≠mixevent;14/32 intact;no meaningwinner.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EQ_REPORT.md.
-Assumptions: QOKEEYfluid C0;history/POS/collection unbound.
-Resume: Author112v IT25–26/ZL23–26;genericfluid+mixture C0.
-Running: None;3agents completed;RAW822 unreviewed.
+Task: ER full112v IT17 C0;family revision not achieved.
+Latest decision: 13freevalues≠jointconstructor;no meaningwinner.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/ER_REPORT.md.
+Assumptions: 32/EQ14 fixed;clarity pair C0;copula grammar unbound.
+Resume: JointEE/EEE/frame content for112v+104v6/106r46;count debts.
+Running: None;3agents done;RAW823/824 unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
