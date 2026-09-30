@@ -9,7 +9,7 @@ Latest decision: Stop source images;0words; old values are not anchors.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/DC_QOT_PRIOR_TABLE.md.
 Assumptions: 794 C0;BT living/stock open;1058 unresolved.
 Resume: Author connected C0 in whole BT f115v8-10; retain counters.
-Running: None; DB/DC publication pending.
+Running: None; DB/DC main98fcd6705 verified; receipt closure.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
