@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1112 connected C0 cores authored; strict types contradicted.
-Latest decision: ZLf113r14 chol-asU fails all3; no meaning selected;0words.
-Working files: experiments/yolo/gdt1112_connected_cleansing_recipient/REPORT.md.
-Assumptions: 794 C0;BT open;1058 unresolved; no type/raw repair.
-Resume: Review RAW813 full E source and condensation predecessors; distinct obligation.
-Running: None;1112 main ca9f1ac1c verified.
+Task: 1113 connected return clause tested; overt inverse writer fails.
+Latest decision: 102native counters;37binds36,not35; no meaning selected;0words.
+Working files: experiments/yolo/gdt1113_condensation_cycle_obligations/REPORT.md.
+Assumptions: all C0;raw entities kept;12global cache omissions; no repair.
+Resume: Read whole f77r36 participants before another cycle; no new cold census.
+Running: None;1113 publication pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
