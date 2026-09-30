@@ -1,0 +1,3 @@
+# CP producer root receipt
+
+IDEA000812 remains RAW_UNREVIEWED, unselected and untested. Root read CP_SOURCE_IDEA.json and the complete retained F entry. The ATRACTYLIS owner really contains both `radicem tenuem et inutilem` and the following folia/coma/semen formulation. This is a local source relation, not a Voynich word or evidence that roots never have a use. Original producer files remain unchanged. The actual 06:52:55–06:54:08 interval is 73 seconds; CP_IDEA_SUPPLY.md states 65 seconds in error. The proposal has a source hash and owner-bound quotations in its design, but does not implement the requested structured `design.source_evidence` schema; selection would still require primary and novelty review.

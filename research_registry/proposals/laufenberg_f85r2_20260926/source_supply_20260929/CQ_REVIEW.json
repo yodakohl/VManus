@@ -1,0 +1,35 @@
+{
+  "record_id": "GDT1108",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root; complete native external page and fixed AJ inventory comparison",
+  "reason": "Native portrait owner gate absent on complete Md2 41r; modern Sun/Moon attribution retained separately. All four shape comparisons leave lower target Sun/full-Moon unranked; no target lexical test. Prior BG generic-source stop recovered late and unchanged.",
+  "assessment_basis": "source ownership/capacity screen, not manuscript falsification",
+  "evidence": [
+    "experiments/yolo/gdt1108_md2_named_luminary_contrast/REPORT.md",
+    "experiments/yolo/gdt1108_md2_named_luminary_contrast/PREREGISTRATION.md",
+    "experiments/yolo/gdt1108_md2_named_luminary_contrast/artifacts/RESULT.json"
+  ],
+  "blockers": [
+    {
+      "code": "native_portrait_ownership_unbound",
+      "detail": "Moon-course running text does not identify either face; no native Sun/full-phase label.",
+      "evidence": [
+        "experiments/yolo/gdt1108_md2_named_luminary_contrast/artifacts/MANUAL_OBSERVATIONS.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Previously located complete source with explicit native portrait and phase ownership plus a written consumer distinguishing whole target readings."
+      }
+    ],
+    "not_sufficient": [
+      "Another similar face, modern caption, adjacent-page expansion or cosmetic border reinterpretation"
+    ]
+  },
+  "relations": []
+}

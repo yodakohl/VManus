@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Grammar audited;CO811 sourceowner error;0words.
-Latest decision: 811 nottested: comparison/recipe differentplants;1107 unchanged.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CO_ENTRY_CORRECTION.md.
-Assumptions: Existing grammar constraints;f68 exactokeo ITonly.
-Resume: Check samewitness named Sun/Moon contrast duplicates/primaries;unselected.
-Running: None;CO correction on main verified3a671dba506:51UTC.
+Task: 1108 wholeMd2 41r compared;portraitowner unbound;0words.
+Latest decision: Fourpairs leave lowerSun/fullMoon unranked;stop genericface sources.
+Working files: experiments/yolo/gdt1108_md2_named_luminary_contrast/REPORT.md.
+Assumptions: AJ/BE/BG nativeownership/phase limits;BB light/period unselected.
+Resume: Read1051/1052/1053 consumer primaries;author written discriminator,not images.
+Running: 1108 closed;none;publication pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -38,7 +38,7 @@ controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primari
 Other closed families remain in the existing registry; no automatic reopening.
 
 ## Access and operating boundaries
-f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
+f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;92 legacy image keys/98 selectors (F scope receipt). f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:

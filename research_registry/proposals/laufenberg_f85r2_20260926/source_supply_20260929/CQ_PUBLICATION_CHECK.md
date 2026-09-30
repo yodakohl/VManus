@@ -1,0 +1,5 @@
+# CQ publication check scope
+
+The selected GDT1108 staged tree and exact continuity/producer/review files passed tools.work_preflight.run: all changed privacy/scope checks, GDT1108 schema, both sealed selectors, index membership, dependency existence, pinned bytes and reproducibility files. The independent GDT1108 artifact validator and context/registry checks also passed within their stated scopes. No meaning was validated.
+
+The strict repository-wide `vmanus-exp check --require-staged` did not pass: the route lacked the checker's exact literal `f84r is sealed` despite stating both selectors sealed, old GDT1042/1043 EXTERNAL_SOURCES bindings differ, untracked GDT600 has unbound reproducibility files, and old GDT953 has a large artifact without its required justification. The route literal was corrected without changing access; the unrelated old experiment bytes were not changed or included. This scoped publication does not clear those global failures or claim repository-wide PASS. No automatic continuation after a failed task check: final publication must separately require the explicit selected staged-tree PASS.
