@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1102**
-- Experiment-associated tracked files: **21,909** (1.9 GiB)
-- Structured GDT337+ experiments: **767**
+- Experiments indexed: **1103**
+- Experiment-associated tracked files: **21,928** (1.9 GiB)
+- Structured GDT337+ experiments: **768**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,7 +20,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1103 | Exact schor/schol whole/spaced inventory before an anatomical minimal-pair reading | `READER_DEPENDENT_WHOLE_SPLIT_INVENTORY` | [report](../experiments/yolo/gdt1103_schor_schol_native_boundary_audit/REPORT.md) | 13 | 88.0 KiB | 3 | STRUCTURED_YOLO |
+| GDT1104 | GDT1104 | `SOURCE_HEAD_FIXED_PACKAGE_CONTRADICTED` | [report](../experiments/yolo/gdt1104_source_head_consumer_contrast/REPORT.md) | 19 | 2.2 MiB | 5 | STRUCTURED_YOLO |
+| GDT1103 | GDT1103 | `READER_DEPENDENT_WHOLE_SPLIT_INVENTORY` | [report](../experiments/yolo/gdt1103_schor_schol_native_boundary_audit/REPORT.md) | 13 | 88.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1102 | GDT1102 | `NO_OTHER_LEAF_CAPACITY` | [report](../experiments/yolo/gdt1102_okol_chody_luminary_product/REPORT.md) | 15 | 39.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT1101 | GDT1101 | `NO_LITERAL_SY_PRESENCE_ABSENCE_COMPARISON` | [report](../experiments/yolo/gdt1101_sy_literal_omission_capacity/REPORT.md) | 16 | 55.8 KiB | 7 | STRUCTURED_YOLO |
 | GDT1100 | GDT1100 | `THREE_ARITY_PACKAGES_SURFACE_COMPATIBLE_UNSELECTED` | [report](../experiments/yolo/gdt1100_sy_genitive_closure/REPORT.md) | 18 | 2.8 MiB | 3 | STRUCTURED_YOLO |

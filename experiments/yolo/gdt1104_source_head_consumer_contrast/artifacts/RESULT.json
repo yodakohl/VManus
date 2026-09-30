@@ -1,0 +1,93 @@
+{
+  "experiment": "GDT1104",
+  "status": "FIXED_CAPACITY_NOT_MEANING",
+  "registered_utc": "2026-09-30T00:34:57.761484+00:00",
+  "queried_groups": 2312,
+  "native_units_by_reader": {
+    "ZL3b": 20,
+    "IT2a": 20,
+    "RF1b": 0
+  },
+  "occurrences_by_reader": {
+    "ZL3b": 15,
+    "IT2a": 14,
+    "RF1b": 13
+  },
+  "physical_loci": 15,
+  "physical_leaves": 8,
+  "excluded_nonprose": 0,
+  "candidates": {
+    "ONE_ARGUMENT": {
+      "by_reader": {
+        "ZL3b": {
+          "CAPACITY_COMPATIBLE": 15
+        },
+        "IT2a": {
+          "CAPACITY_COMPATIBLE": 14
+        },
+        "RF1b": {
+          "NOT_TESTABLE": 13
+        }
+      },
+      "contradictions": [],
+      "decision": "NO_SURFACE_REFUTATION_MEANING_UNSELECTED"
+    },
+    "SOURCE_HEAD": {
+      "by_reader": {
+        "ZL3b": {
+          "CAPACITY_COMPATIBLE": 14,
+          "CONTRADICTION": 1
+        },
+        "IT2a": {
+          "CAPACITY_COMPATIBLE": 13,
+          "CONTRADICTION": 1
+        },
+        "RF1b": {
+          "NOT_TESTABLE": 13
+        }
+      },
+      "contradictions": [
+        {
+          "source_group_id": "IT2a|f29v.12|G003",
+          "edition": "IT2a",
+          "page": "f29v",
+          "locus": "f29v.12",
+          "source_group_index": "3",
+          "ivtff_group_raw": "s",
+          "unit_id": "IT2a|f29v|f29v.10-f29v.12",
+          "unit_position": 15,
+          "available_right": 1,
+          "whole_line": "qekeochor otchey s y",
+          "candidate": "SOURCE_HEAD",
+          "required_right": 2,
+          "right_ids": "IT2a|f29v.12|G004",
+          "right_raw": "y",
+          "outcome": "CONTRADICTION",
+          "meaning_binding": "UNRESOLVED"
+        },
+        {
+          "source_group_id": "ZL3b|f29v.12|G003",
+          "edition": "ZL3b",
+          "page": "f29v",
+          "locus": "f29v.12",
+          "source_group_index": "3",
+          "ivtff_group_raw": "s",
+          "unit_id": "ZL3b|f29v|f29v.10-f29v.12",
+          "unit_position": 15,
+          "available_right": 1,
+          "whole_line": "qekeochor otchey s y",
+          "candidate": "SOURCE_HEAD",
+          "required_right": 2,
+          "right_ids": "ZL3b|f29v.12|G004",
+          "right_raw": "y",
+          "outcome": "CONTRADICTION",
+          "meaning_binding": "UNRESOLVED"
+        }
+      ],
+      "decision": "REJECT_FIXED_PACKAGE"
+    }
+  },
+  "confirmed_words": 0,
+  "independent_confirmation_leaves": 0,
+  "significance_claim": false
+}

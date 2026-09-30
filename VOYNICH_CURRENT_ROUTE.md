@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: BO800 source review closed;source-head rival authoring next;0words.
-Latest decision: root-food/applied source valid;urine/skin not one bearer;800 not_tested.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BO_CARDUUS_REVIEW.md.
-Assumptions: 636/782/019 original decisions hold;no borrowed root/verb meanings;all stops.
-Resume: Read BO+BM+AA;author s(N) plus actual next head as genitive/source rival;retain dy and same-base head costs.
-Running: extended10h deadline30Sep03:16:12UTC;BO/BN closed;none running;remote auth unavailable.
+Task: GDT1104/BP802 source-head package rejected;new content draft next;0words.
+Latest decision: f29v12 s y lacks H;AA.4 cleaned s is raw{cto}s/ctos;one-argument unselected.
+Working files: experiments/yolo/gdt1104_source_head_consumer_contrast/REPORT.md.
+Assumptions: 636/782/019 unchanged;schorC1;no s=sy or head-direction rescue;all stops.
+Resume: Read1104+WORKING_READING;IDEA801+AF full source,790/791 priors;author joint preparation/graded-effect draft,not source-only audit.
+Running: extended10h deadline30Sep03:16:12UTC;1104/BO/BN closed;none running;remote auth unavailable.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
