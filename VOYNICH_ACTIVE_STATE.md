@@ -1,3 +1,13 @@
+<!-- 2026-09-30 GDT1116 connected C0 checkpoint -->
+Thirteen groups of115v8-10 connect purging/purifying to recipient/stock state;
+14remain unread. Joint chedy/dalchedy health or purity is stipulated, not proven.
+Both universal explicit later-positive constructions fail; exposed diagnostic
+MED+direct nominal qualification fails at qotain chedy77r36. LIQ typed cases
+compatible, so conditional development priority, not a translated pure lexeme.
+Next whole77r36 under fixed LIQ, joint pchedy/lpchedy/lkechedy; no new product name.
+[GDT1116](experiments/yolo/gdt1116_joint_state_recipient_chain/REPORT.md).
+Zero confirmed words;1112/1113/1114 original failures retained.
+
 <!-- 2026-09-30 GDT1115 exploratory sentence checkpoint -->
 Two complete C0 seven-group f115v10 sentences now compare formed-state assertion
 with source/result before a final transformation predicate. Neither selected.

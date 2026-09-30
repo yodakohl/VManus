@@ -1,0 +1,128 @@
+{
+  "phase": "EXPOSED_EXPLORATORY_JOINT_STATE_WITH_FIXED_EXTENSION",
+  "registered_utc": "2026-09-30T13:32:04.062237+00:00",
+  "source": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "input_hashes": {
+    "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EI_DECISION.md": "f465fe358c7ada87ac1492ee7875e25c3e2f018f84f620b032c2b9f1e77ba5c3",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EI_WORD_PROFILES.json": "d56367d9982c0e53752ac6387c28ffa45f347ff6783c209faafcf02b3420a4a2",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EH_WORD_PROFILES.json": "cf043cbad0d3906d2f0e8a45fcb464deafefe937a571ed2cebfa0171faa90c89",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_COMPLETE_PASSAGES.md": "9acf8200d1e9ea35d38a47230cc9e2f39bfaee66530f9ed39ebb6fd8ab5765f5",
+    "experiments/yolo/gdt1115_final_formation_predication/REPORT.md": "816e16fed0ffb110e3833bd6cd14c7daf0c8c9d8535aeb91cd5f8372af60ad25",
+    "experiments/yolo/gdt1112_connected_cleansing_recipient/REPORT.md": "b105369aaeae8f43431663dde06df6bd2b11e72e68c92e860dcdc822c0fe09b2",
+    "experiments/yolo/gdt934_bridge_content_joint_readings/REPORT.md": "b20d69bf23312d950dd62cbf2856b21ca92a28d8ca0ef930e8dde28ee0944f66",
+    "experiments/yolo/gdt850_qolchedy_join_split_context_inventory/REPORT.md": "aed20548a1de762ceb4f56a204830e599878f6b5320579eda167355de91e30a0",
+    "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+  },
+  "editions": [
+    "ZL3b",
+    "IT2a"
+  ],
+  "negative_joined": "dalchedy",
+  "negative_split": [
+    "dal",
+    "chedy"
+  ],
+  "include_counter_locus": "f113r.14",
+  "candidates": {
+    "MED": {
+      "dictionary": {
+        "saiin": "then",
+        "sho": "moist-preparation",
+        "sheody": "helps",
+        "oteeo": "becomes",
+        "qotchy": "purging/cleansing-efficacy",
+        "chody": "internal-use",
+        "qotain": "prepared-medicine",
+        "lkchey": "removes-U-from-P",
+        "chol": "drug-stock",
+        "okaiin": "recipient",
+        "dalchedy": "not-healthy",
+        "chedy": "healthy",
+        "lchey": "living-recipient",
+        "ror": "unwanted-body-matter"
+      },
+      "joint_positive": "healthy",
+      "joint_negative": "not-healthy",
+      "focal_middle_C0": "Das reinigend wirkende Mittel zur inneren Anwendung entzieht dem Körper schädliche Materie.",
+      "focal_final_C0": "Danach hilft der feuchte Ansatz: Der nicht gesunde Empfänger wird gesund.",
+      "carrier_assumed": "living recipient"
+    },
+    "LIQ": {
+      "dictionary": {
+        "saiin": "then",
+        "sho": "moist-preparation",
+        "sheody": "helps",
+        "oteeo": "becomes",
+        "qotchy": "purging/cleansing-efficacy",
+        "chody": "internal-use",
+        "qotain": "prepared-medicine",
+        "lkchey": "removes-U-from-P",
+        "chol": "drug-stock",
+        "okaiin": "liquid",
+        "dalchedy": "impure",
+        "chedy": "pure",
+        "lchey": "drug-stock",
+        "ror": "stock-impurity"
+      },
+      "joint_positive": "pure",
+      "joint_negative": "impure",
+      "focal_middle_C0": "Die reinigend wirkende Zubereitung zur inneren Anwendung entzieht einem Arzneistoff Verunreinigungen.",
+      "focal_final_C0": "Danach hilft der feuchte Ansatz: Die unreine Flüssigkeit wird rein.",
+      "carrier_assumed": "liquid medicinal stock"
+    }
+  },
+  "finite_family_constructor": {
+    "POS": "exact chedy only",
+    "NEG_POS": "exact joined dalchedy OR exact consecutive raw dal chedy only; NOT_POS(C)",
+    "outside": "dal alone unassigned; no free prefix, segmentation or semantic export"
+  },
+  "extension": {
+    "name": "EVERY_NEGATIVE_REQUIRES_LATER_BARE_POSITIVE_IN_SAME_NATIVE_PARAGRAPH",
+    "predicted_for_each_negative": "At least one exact later chedy group outside the negative expression in the same complete native paragraph",
+    "absence": "CONDITIONAL_CONSTRUCTION_CONTRADICTION",
+    "presence": "RAW_CAPACITY_ONLY_CARRIER_AND_MEANING_UNBOUND",
+    "evaluation": "For both candidates retain every negative and every later positive source id; no compound repair, line/paragraph boundary change, or exception",
+    "meaning_boundary": "Failure rejects the declared universal progress construction, not independently proving or disproving the C0 dictionary"
+  },
+  "focal_graph": {
+    "middle_locus": "f115v.9",
+    "final_locus": "f115v.10",
+    "medicine_source": 7,
+    "removal_predicate": 8,
+    "removal_patient": 9,
+    "removed_material": 10,
+    "preparation_reprise": 2,
+    "final_patient": 4,
+    "negative_state": 5,
+    "transition": 6,
+    "positive_state": 7,
+    "assumed_identities": [
+      [
+        "f115v.9#7",
+        "f115v.10#2"
+      ],
+      [
+        "f115v.9#9",
+        "f115v.10#4"
+      ]
+    ],
+    "status": "ASSUMED_NOT_BOUND"
+  },
+  "exposure": "All focal text and complete selected negative paragraphs inspected before registration; not a blind/preregistered semantic experiment. Consequence frozen before executable audit.",
+  "assumptions": [
+    "All whole-word values and phrase attachments C0",
+    "Two local assumed physical identities, not guaranteed by shared class or textual adjacency",
+    "Source Q1 motivates bodily purgation and restoration; Q4 does not demonstrate pure liquid or identify this paragraph",
+    "Same positive conceptual property used in exact joined and split negatives by stipulation",
+    "Generic helps is a new guess, not source-discovered verb",
+    "14 of27 focal groups not assigned; lpchedy/lkechedy compositional debt remains",
+    "GDT1112 global raw slot/type failure and1113/1114 strict failures retained"
+  ],
+  "confirmed_words": 0,
+  "independent_meaning_confirmation_capacity": 0,
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}

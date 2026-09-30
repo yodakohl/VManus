@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1115 two complete C0 final115v10 sentences; unranked.
-Latest decision: formed-state/front-result both unbound;20prior groups unread.
-Working files: experiments/yolo/gdt1115_final_formation_predication/REPORT.md.
-Assumptions: all C0; dalchedy/chedy composition and carrier identity unpaid.
-Resume: Connect whole115v8-10 input/output; joint dalchedy/chedy, no new census.
-Running: None;1112/1113/1114 original failures retained.
+Task: 1116 connected13/27 C0 groups; LIQ conditional priority.
+Latest decision: Both progress rules fail; MED+direct nominal fails77r36.
+Working files: experiments/yolo/gdt1116_joint_state_recipient_chain/REPORT.md.
+Assumptions: Purity, negation, medicine and attachment C0;14groups unread.
+Resume: Read whole77r36 LIQ; joint pchedy/lpchedy/lkechedy, no product name.
+Running: None;1112-14 failures retained; no confirmed word.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
