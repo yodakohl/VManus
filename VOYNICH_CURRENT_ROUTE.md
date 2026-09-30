@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: BZ ten-caption audit closed;BX meanings C0;0 confirmed words.
-Latest decision: Prior twin-fan no-mirror-key stop retained;field roles unselected.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BZ_CAPTION_REPORT.md.
-Assumptions: Whole-form/context baseline;ITsplit retained;no owner key;reserves sealed.
-Resume: Review RAW807/778 and U source before a name/reference construction. No f75 mirror/suffix reopening without a new written key.
-Running: BZ/BY closed;none running. Findings published and main verified0c17f4343;checkpoint30Sep03:16:12UTC.
+Task: CB807 source ownership corrected;no target meaning;0words.
+Latest decision: Shared name explicit;head-bread waste link unbound;807 not_tested.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CB_SOURCE_REVIEW.md.
+Assumptions: Parts/whole-form baseline;1064polysemy not target proof;stops/seals retained.
+Resume: Use differential topic and shortlist for a complete target consequence. No lotus/polysemy extensions or f75 mirror tests.
+Running: CB/CA closed;none running;extended checkpoint03:16:12UTC. Publish review and verify main.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
