@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1108 wholeMd2 41r compared;portraitowner unbound;0words.
-Latest decision: Fourpairs leave lowerSun/fullMoon unranked;stop genericface sources.
-Working files: experiments/yolo/gdt1108_md2_named_luminary_contrast/REPORT.md.
-Assumptions: AJ/BE/BG nativeownership/phase limits;BB light/period unselected.
-Resume: Read1051/1052/1053 consumer primaries;author written discriminator,not images.
-Running: None;1108 main verified672a2f39a07:06UTC.
+Task: 1109 fixedunits jointgraph0/357cases;0words.
+Latest decision: 624usejoins lack commonpart comparisons;completechunk codeclosed.
+Working files: experiments/yolo/gdt1109_fixed_units_joint_botanical_graph/REPORT.md.
+Assumptions: 605formalunits notmorphemes;1107/962 andBB/W original limits.
+Resume: Review794 protocol priors;author samepatient/heat/output reading,no graphrepair.
+Running: 1109 closed;none;publication pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

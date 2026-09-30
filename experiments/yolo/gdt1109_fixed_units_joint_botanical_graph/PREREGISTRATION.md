@@ -1,0 +1,21 @@
+# GDT1109 — fixed-unit joint botanical description/use code
+
+Registered before new target unit/carrier computation. Overall preparation began07:07:36 UTC; inclusive30-minute budget ends07:37:36 UTC including navigation, authoring, run, independent verification, records and GitHub push. Do not widen at the checkpoint. Previous turn published source evidence and stopped an unsupported image chain; no word translated.
+
+## Why this different fixed falsifier
+
+Full1051/1052/1053, W, BB, BI and1102 primaries were read. They do not bind a shared light/duration consumer; no new chody header or repeated census is justified. That branch stays unselected. Move instead to a jointly tied description/use semantic hypothesis: the complete Dioscorides II.162 source has three comparisons, head-induces-sneeze, leaf-with-flower-applied-to-bruising and flower-induces-sneeze. GDT1107's13whole-raw-form realization found0graphs and remains closed. This is a different predeclared necessary code: each clause fits one complete existing GDT605 hard chunk and its role values are final units inside that chunk, not three/five raw words. No changed merge, key, prefix, name, transcription or source semantic graph.
+
+Full GDT962 rejects its fixed Behenian incidence/single-unit plant names; it is not rescued here. GDT754 warns that 172 old composed meanings were analyst-built. GDT608's directed formal composition and whole-form residuals do NOT license semantic morphemes. Here source roles are explicit C0 code guesses, not existing English unit values. A positive common code must retain all whole chunks and contexts; it cannot erase residuals or become a confirmed plant name.
+
+## Frozen scope, representation and graph
+
+All kindP/H rows in the existing admitted GDT1106 SOURCE.tsv.gz, every complete physical source line and edition/page unit, same357page-reader cases/119selectors/61exposed physical leaves as1107. Verify nonempty selection and counts. f84/f84r, f116v, reserves and all new images/contacts closed. Source-only prior exposure and all target-page prior exposure disclosed; no independent holdout or scoredGDT388edge.
+
+Use unchanged GDT605 separator_crossing collapse/apply_bpe with its64 rank-ordered merges. The original right separator UNCERTAIN_SMALL_SPACE joins adjacent raw groups within a physical line exactly as1051/GDT962 do; other separators end a hard chunk. If any raw group is not lowercase a-z, mark the complete chunk UNKNOWN, not repaired. Never cross physical lines or hard separators. Preserve all raw groups, IDs, boundaries and final-unit sequence. No internal tree nodes or selected substrings. Only a complete hard chunk of exactly3 final units may realize a comparison/induce clause; only a whole exactly5-unit chunk may realize a use clause. No extra/silent unit, partial chunk or dropped ending.
+
+Keep1107's same6comparison,6induce,120use permutations,4320globally shared orientation contracts.13roles map injectively to13exact final-unit identities within one page/reader, with source order3comparisons(any order),head-induce-sneeze,leaf-with-flower-apply-bruise,flower-induce-sneeze. Reuse head/leaf/flower/induce/sneeze identities. Six selected chunks must be disjoint in original source-group IDs. Persistent plant owner per page is stipulated C0; native paragraph boundaries unavailable. Other names, modifiers, source habitat/naming rationale and all unmatched target groups remain untranslated obligations.
+
+## Decision and smallest implementation
+
+Adapter only plus unchanged finite join topology;8CPU workers allowed, no new decoder/control corpus. Count all cases, source groups/chunks, marked omissions, exact3/5carriers and every compatible13-role code/orientation/physical locus. Publish complete candidate and contract tables, not favorable single clauses. Zero closes this exact complete-chunk unit code; no tree-node/subspan/window repairs. Nonzero publishes all and nominates only C0 joint hypotheses pending complete context and meaning review; no uniqueness from restarts or reader unanimity. No full-search countercontrol, hence no significance/probability. Without independent meaning, no confirmed part, plant, like/with/apply/sneeze or translation. Artifact PASS is not meaning validation. Runtime growth or budget expiry produces incomplete enumeration, not absence or success, and must be disclosed.
