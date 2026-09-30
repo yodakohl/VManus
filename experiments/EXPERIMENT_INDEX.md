@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1105**
-- Experiment-associated tracked files: **21,967** (2.0 GiB)
-- Structured GDT337+ experiments: **770**
+- Experiments indexed: **1106**
+- Experiment-associated tracked files: **21,996** (2.0 GiB)
+- Structured GDT337+ experiments: **771**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1107 | GDT1107_descriptive_use_graph | `NO_FIXED_DESCRIPTIVE_USE_GRAPH` | [report](../experiments/yolo/gdt1107_descriptive_use_graph/REPORT.md) | 29 | 677.7 KiB | 8 | STRUCTURED_YOLO |
 | GDT1106 | GDT1106_frozen_domain_transfer | `ALL_ORIGINAL_SURVIVORS_CONTRADICTED` | [report](../experiments/yolo/gdt1106_frozen_domain_transfer/REPORT.md) | 23 | 1.7 MiB | 4 | STRUCTURED_YOLO |
 | GDT1105 | GDT1105_dual_temperature_scope | `CONDITIONAL_FAMILY_CONSTRAINED_NO_MEANING_SELECTED` | [report](../experiments/yolo/gdt1105_dual_temperature_scope/REPORT.md) | 16 | 1.3 MiB | 6 | STRUCTURED_YOLO |
 | GDT1104 | GDT1104 | `SOURCE_HEAD_FIXED_PACKAGE_CONTRADICTED` | [report](../experiments/yolo/gdt1104_source_head_consumer_contrast/REPORT.md) | 19 | 2.2 MiB | 5 | STRUCTURED_YOLO |
