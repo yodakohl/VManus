@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1116 connected13/27 C0 groups; LIQ conditional priority.
-Latest decision: Both progress rules fail; MED+direct nominal fails77r36.
-Working files: experiments/yolo/gdt1116_joint_state_recipient_chain/REPORT.md.
-Assumptions: Purity, negation, medicine and attachment C0;14groups unread.
-Resume: Read whole77r36 LIQ; joint pchedy/lpchedy/lkechedy, no product name.
-Running: None;1112-14 failures retained; no confirmed word.
+Task: 1117 operation/efficacy C0 unselected;15/27 groups.
+Latest decision: CAUS+next patient fails104r43; flow value also C0.
+Working files: experiments/yolo/gdt1117_purification_operation_efficacy/REPORT.md.
+Assumptions: 12focal115 and3focal77groups unread; no word bound.
+Resume: Bind carrier/scope in whole104r43 paragraph before a new head rule.
+Running: None;1112-1116 failures retained; no confirmed word.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

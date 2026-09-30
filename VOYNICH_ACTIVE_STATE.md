@@ -1,3 +1,13 @@
+<!-- 2026-09-30 GDT1117 finite operation/efficacy checkpoint -->
+Finite pchedy/lpchedy/lkechedy purification/efficacy C0 branches remain unselected.
+Strict CAUS + immediate right patient + qokeedy FLOWS fails at f104r43,
+one physical locus in two alternate readers; EFF nonassertions are not passes.
+Whole115v8-10 has15/27 hypothetical groups,12unread;77r36 has5/8,3unread
+and unbound flow carrier. Native75P5366groups; one globalPCHEDY per ZL/IT
+outside native cache, unscored. No independent meaning capacity or confirmed word.
+Next actual carrier/scope binding in complete104r paragraph before any new rule;
+retain1112-1116 original failures. [GDT1117](experiments/yolo/gdt1117_purification_operation_efficacy/REPORT.md).
+
 <!-- 2026-09-30 GDT1116 connected C0 checkpoint -->
 Thirteen groups of115v8-10 connect purging/purifying to recipient/stock state;
 14remain unread. Joint chedy/dalchedy health or purity is stipulated, not proven.

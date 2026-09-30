@@ -1,0 +1,163 @@
+{
+  "phase": "EXPOSED_EXPLORATORY_FINITE_FAMILY_WITH_FIXED_CAUSATIVE_CONJUNCTION",
+  "registered_utc": "2026-09-30T14:08:25.119017+00:00",
+  "source": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+  "input_hashes": {
+    "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+    "experiments/yolo/gdt1116_joint_state_recipient_chain/src/MODEL.json": "6342c58d284589aed0621e8901b41aa145ff70abe5ff790ec637ecc10a62f5cf",
+    "experiments/yolo/gdt1116_joint_state_recipient_chain/REPORT.md": "512c39b5a5dd153a5d32e083fda0f2b571bde20557384151fb4a1a187c1d5174",
+    "experiments/yolo/gdt1114_clause_quantity_material/REPORT.md": "d27eb2513fcc569495d3b760d5cf0d4695b8be8c6dbd00b9510e5eee94586c70",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EJ_DECISION.md": "a72faf0c5744a323896f8923d38770e607c6971a8d72527350774b3c0fa793f7",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EJ_WORD_PROFILES.json": "3bd7eaf17f26dc1a6caf93006f19a769e59a955df02d71e2ed9e765b7f36a0e4",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EF_PARTICIPANT_AUDIT.md": "4a39ec6f6eb7a184fe61ce875219c3f6cc46af3db3e7b5197534ead628141aa7",
+    "experiments/yolo/gdt932_joint_flow_participant_reading/REPORT.md": "12d28a81bdc38be248644efb732dfb0bd3ed635904e82ab7dfd873b2091332e8",
+    "experiments/yolo/gdt1065_h1_h4_same_record_capacity/REPORT.md": "6070d761236dbf5e996aa2aa0c48c07b90792566e9dc9b92b5ea540f6e1b4716",
+    "experiments/yolo/gdt703_v76_all_action_finished_result_census/REPORT.md": "20b92653f58fb1e54a5863588b09565ae52f11dd1c9a66d27445709c1da75a3e",
+    "experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/REPORT.md": "15bd63b9cbd569607517775221cb56e152675acaf8fcdd0578101e1afeb61cb9"
+  },
+  "editions": [
+    "ZL3b",
+    "IT2a"
+  ],
+  "target_wholes": [
+    "pchedy",
+    "lpchedy",
+    "lkechedy"
+  ],
+  "candidates": {
+    "CAUS": {
+      "dictionary": {
+        "saiin": "then",
+        "sho": "moist-preparation",
+        "sheody": "helps",
+        "oteeo": "becomes",
+        "qotchy": "purging/cleansing-efficacy",
+        "chody": "internal-use",
+        "qotain": "prepared-medicine",
+        "lkchey": "removes-U-from-P",
+        "chol": "drug-stock",
+        "okaiin": "liquid",
+        "dalchedy": "impure",
+        "chedy": "pure",
+        "lchey": "drug-stock",
+        "ror": "stock-impurity",
+        "dshedy": "moist-preparation",
+        "qokeedy": "flows",
+        "pchedy": "purify",
+        "lpchedy": "using-purification",
+        "lkechedy": "using-purified-preparation"
+      },
+      "focal_first4": "Feuchter Ansatz: Reinige das Arzneipräparat bis zum reinen Zustand.",
+      "pchedy_role": "CAUSE_PURE(patient)",
+      "lpchedy_role": "USING(CAUSE_PURE)",
+      "lkechedy_role": "USING(PURIFIED_PREPARATION)",
+      "event_committed": true
+    },
+    "EFF": {
+      "dictionary": {
+        "saiin": "then",
+        "sho": "moist-preparation",
+        "sheody": "helps",
+        "oteeo": "becomes",
+        "qotchy": "purging/cleansing-efficacy",
+        "chody": "internal-use",
+        "qotain": "prepared-medicine",
+        "lkchey": "removes-U-from-P",
+        "chol": "drug-stock",
+        "okaiin": "liquid",
+        "dalchedy": "impure",
+        "chedy": "pure",
+        "lchey": "drug-stock",
+        "ror": "stock-impurity",
+        "dshedy": "moist-preparation",
+        "qokeedy": "flows",
+        "pchedy": "cleansing",
+        "lpchedy": "using-cleansing-preparation",
+        "lkechedy": "using-purified-preparation"
+      },
+      "focal_first4": "Feuchter Ansatz mit reinigender Wirkung; reines Arzneipräparat.",
+      "pchedy_role": "CAPABLE_CAUSE_PURE(preparation,patient_unbound)",
+      "lpchedy_role": "USING(CAPABLE_CAUSE_PURE_PREPARATION)",
+      "lkechedy_role": "USING(PURIFIED_PREPARATION)",
+      "event_committed": false
+    }
+  },
+  "types_CAUS": {
+    "qotain": "NOMINAL",
+    "okaiin": "NOMINAL",
+    "lchey": "NOMINAL",
+    "chol": "NOMINAL",
+    "sho": "NOMINAL",
+    "dshedy": "NOMINAL",
+    "ror": "NOMINAL",
+    "qokeedy": "OPERATION",
+    "sheody": "OPERATION",
+    "lkchey": "OPERATION",
+    "oteeo": "OPERATION",
+    "pchedy": "OPERATION",
+    "chedy": "PROPERTY",
+    "dalchedy": "PROPERTY",
+    "lpchedy": "RELATION",
+    "lkechedy": "RELATION",
+    "chody": "USAGE",
+    "qotchy": "EFFICACY",
+    "saiin": "TEMPORAL"
+  },
+  "registered_consequence": {
+    "applies_to": "CAUS_PLUS_IMMEDIATE_RIGHT_PATIENT_ONLY",
+    "test": "For every exact bare pchedy, next raw group in SAME original complete native paragraph is its patient. Missing group fails raw arity; assigned nonnominal fails declared type; assigned nominal is C0 compatible; unknown unbound.",
+    "EFF": "No universal direct right nominal rule registered; no automatic EFF selection from CAUS-conjunction failure.",
+    "forbidden_repairs": [
+      "Following action retyped as substance",
+      "Skipped unknown head",
+      "Clause break changing registered immediate patient",
+      "Different sense or free P imperative added after results"
+    ]
+  },
+  "finite_constructor": {
+    "chedy": "PURE property inherited1116 C0",
+    "dalchedy": "NOT_PURE finite whole inherited1116 C0",
+    "pchedy": "CAUSE(PURE) or CAPABLE(CAUSE(PURE))",
+    "lpchedy": "USING event or cleansing preparation, in same selected P branch",
+    "lkechedy": "USING purified preparation; intermediate KE node is latent interpretation, not independently attested morpheme",
+    "export": "Only these exact wholes; no p/l/ke semantics for other forms"
+  },
+  "focal_graphs": {
+    "f77r.36": {
+      "source_group1": "topical moist preparation",
+      "pchedy_group2": "operation on3 inCAUS or cleansing efficacy of1 inEFF",
+      "qotain_group3": "prepared medicine",
+      "chedy_group4": "pure property",
+      "assumed_identity": [
+        "group1",
+        "group3"
+      ],
+      "tail_group5": "RAW_UNREAD;ZL d[o:a]lchl,IT dolchl",
+      "tail_group6": "flows, carrier UNBOUND",
+      "tail_groups7_8": "RAW_UNREAD destination/relation; no product/receiver name"
+    },
+    "f115v.8": {
+      "lpchedy_group7": "USING selected P branch",
+      "lkechedy_group9": "USING purified preparation",
+      "arguments": "qotol,okar,pchdam and other surrounding words UNREAD; no implicit material identity"
+    }
+  },
+  "coverage_boundary": "Every target-bearing native paragraph retained; root reviews all target-bearing lines and complete focal/counterparagraphs, not every unknown word in all75readerunits",
+  "assumptions": [
+    "All values C0 and1116 conditional nouns/attachment retained, not validated",
+    "dshedy shares moist-preparation with sho by guess; D/SH composition unpaid",
+    "qokeedy flows from932M/1114 unselected alternative; continuation alternative remains unchanged",
+    "First4focal sense requires explicit topical/result or appositional grouping; no decoded until/copula",
+    "Purity state/property at positiveCHEDY is not a general finite verb",
+    "LP/LKE source/argument identities unbound; no free KE product or L instrumental morpheme",
+    "Neither EFF efficacy nor CAUS requires a newly fabricated disjoint physical patient class",
+    "Original1112/1113/1114/1116 failures unchanged",
+    "No R/dolchl product name or tailplace guesses"
+  ],
+  "confirmed_words": 0,
+  "independent_meaning_confirmation_capacity": 0,
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}
