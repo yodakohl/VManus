@@ -9,7 +9,7 @@ Latest decision: 811 nottested: comparison/recipe differentplants;1107 unchanged
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CO_ENTRY_CORRECTION.md.
 Assumptions: Existing grammar constraints;f68 exactokeo ITonly.
 Resume: Check samewitness named Sun/Moon contrast duplicates/primaries;unselected.
-Running: None;main verified3d8f6a54706:46UTC;CO push pending.
+Running: None;CO correction on main verified3a671dba506:51UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
