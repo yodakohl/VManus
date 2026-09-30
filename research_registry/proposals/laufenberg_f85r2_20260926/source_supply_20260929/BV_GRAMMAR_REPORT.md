@@ -119,3 +119,9 @@ SSH access to the configured public repository succeeded; main was fetched
 without changing research inputs. Prior remote-authentication blockage no longer
 applies. Scan the full unpublished commit range as well as the current staged
 files before pushing. GitHub CLI remains unauthenticated; SSH publication is available.
+
+Publication succeeded02:01UTC: all30 unpublished commits, including BV, pushed
+to public GitHub main. Remote main independently queried after the push equals
+776940621797e3747764ae2611c91870adfcaa34. Privacy scan covered the29 prior
+commits (470paths/637distinct blobs) plus all17 current staged files; zero findings.
+This receipt and the updated resume point are included in the final follow-up push.

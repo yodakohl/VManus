@@ -9,7 +9,7 @@ Latest decision: 605 qot unit≠meaning;012/062 q+hosts;onlyqotain ain;751axes i
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BV_GRAMMAR_REPORT.md.
 Assumptions: 1104/1052/782 stops;no qot/ain/seed/husk gloss;BT/803 unselected;seals.
 Resume: ReadBV;shortlist diverse retained raw relations with an explicit bound consequence;check primaries before selection. Do not repeat qot export or309/931/933.
-Running: extended10h deadline30Sep03:16:12UTC;BV/BU closed;GitHub SSH available;publication on explicit request.
+Running: extended10h deadline30Sep03:16:12UTC;BV/BU closed;GitHub main synced;SSH available;none running.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
