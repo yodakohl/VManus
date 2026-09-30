@@ -1,0 +1,44 @@
+{
+  "record_id": "HIST:1b01227d78aded86",
+  "scope": "semantic",
+  "verdict": "inconclusive",
+  "reviewer": "root",
+  "reason": "Pass295 implementation validator checks canonical cards and derived surface bookkeeping, not independent manuscript transfer meaning. Its input/output glosses cannot bind f77r36 participants; original implementation PASS retained.",
+  "assessment_basis": "Full report, manual, twenty-card table and validator read; related GDT737 and GDT1065 primary counterlimits inspected.",
+  "evidence": [
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EF_PARTICIPANT_AUDIT.md",
+    "experiments/yolo/sidequest_semantic_transfer_core_two_hundred_ninety_fifth/TWO_HUNDRED_NINETY_FIFTH_REPORT.md",
+    "experiments/yolo/sidequest_semantic_transfer_core_two_hundred_ninety_fifth/TWO_HUNDRED_NINETY_FIFTH_TRANSFER_CORE_MANUAL.md",
+    "experiments/yolo/sidequest_semantic_transfer_core_two_hundred_ninety_fifth/TWO_HUNDRED_NINETY_FIFTH_20_TRANSFER_CORE_CARDS.tsv",
+    "experiments/yolo/sidequest_semantic_transfer_core_two_hundred_ninety_fifth/validate_two_hundred_ninety_fifth.py"
+  ],
+  "blockers": [
+    {
+      "code": "meaning_binding",
+      "detail": "Canonical transfer labels have no independent semantic test in this validator.",
+      "evidence": [
+        "experiments/yolo/sidequest_semantic_transfer_core_two_hundred_ninety_fifth/validate_two_hundred_ninety_fifth.py",
+        "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EF_PARTICIPANT_AUDIT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Independent whole-context consequence distinguishing transfer from retained non-transfer roles",
+        "evidence": []
+      }
+    ],
+    "not_sufficient": [
+      "Card consistency PASS or relaxed same-body recurrence"
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT1065"
+    }
+  ]
+}

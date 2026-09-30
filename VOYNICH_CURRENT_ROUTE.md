@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1113 connected return clause tested; overt inverse writer fails.
-Latest decision: 102native counters;37binds36,not35; no meaning selected;0words.
-Working files: experiments/yolo/gdt1113_condensation_cycle_obligations/REPORT.md.
-Assumptions: all C0;raw entities kept;12global cache omissions; no repair.
-Resume: Audit/read whole f77r36 participants; no cold census or inverse repair.
-Running: None;1113 main 4431a89da verified.
+Task: f77r36 participant audit; no new fixed test.
+Latest decision: no meaning selected; transfer-card PASS is not meaning;0words.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EF_PARTICIPANT_AUDIT.md.
+Assumptions: nominal/action,amount/material open; uncertain singleton dolchl.
+Resume: Author36 amount/material alternatives; do not repeat census.
+Running: None;1113 inverse-last failure retained.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

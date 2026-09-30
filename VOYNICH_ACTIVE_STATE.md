@@ -1,3 +1,10 @@
+<!-- 2026-09-30 EF checkpoint: no new fixed experiment, no preferred meaning. -->
+For the next route, use the whole f77r36 amount/material alternatives in
+[the participant audit](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EF_PARTICIPANT_AUDIT.md).
+The dshedy/pchedy positional asymmetry does not prove part of speech. Pass295
+transfer-card consistency and GDT1065 relaxed pairs do not bind participants.
+GDT1113 inverse-last failure remains unchanged; confirmed words remain zero.
+
 30Sep GDT1113: new C0 vessel/warm-water/ascent/again/inverse closing clause fails strictlast-chedy constructor;102native counters, intervening36blocks35→37. Two added cold contexts unbound; no complete Q2binding or words. No repair; next read whole36participants before any new cycle. [Report](experiments/yolo/gdt1113_condensation_cycle_obligations/REPORT.md).
 
 30Sep GDT1112: three connected clinical/material/dose C0 cores on f115v9 actually authored; all3strictglobalQ-lkchey-P-U conjunctions fail ZLf113r14 chol-asU under retainedchol stockguess.36units/1662groups/51cases;13native meaningsunbound permap,0words. No rawfusion/type/carry repair; next review RAW813 source/dependencies for distinctobligation. [Report](experiments/yolo/gdt1112_connected_cleansing_recipient/REPORT.md).
