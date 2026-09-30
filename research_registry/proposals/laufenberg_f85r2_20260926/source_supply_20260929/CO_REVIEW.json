@@ -1,0 +1,35 @@
+{
+  "record_id": "IDEA000811",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root; complete retained source entry ownership check",
+  "reason": "The seed form comparison belongs to CARDUUS, but the seed preparation belongs to ATRACTYLIS. Original same-entry binding is false; no target selected or tested. Preserve original raw proposal and reject this selection basis. Revision corrects the correction receipt timestamp to the observed clock; ownership and decision are unchanged.",
+  "assessment_basis": "source ownership correction, not manuscript falsification",
+  "evidence": [
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CO_ENTRY_CORRECTION.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CO_ENTRY_CORRECTION.json",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/F_COMPLETE_ENTRIES.md"
+  ],
+  "blockers": [
+    {
+      "code": "different_source_entry_owners",
+      "detail": "Comparison CARDUUS ff71r–72r versus preparation ATRACTYLIS ff68r–68v.",
+      "evidence": [
+        "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CO_ENTRY_CORRECTION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "A retained complete source must explicitly bind both relations to the same plant-part owner."
+      }
+    ],
+    "not_sufficient": [
+      "Shared seed token, Cnicus reference, or adjacent entries"
+    ]
+  },
+  "relations": []
+}

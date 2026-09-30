@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1107 description/use graph0fullbindings;0words.
-Latest decision: 3312short use joins lack sharedpart comparisons;13wholeform writer closed.
-Working files: experiments/yolo/gdt1107_descriptive_use_graph/REPORT.md.
-Assumptions: ExposedC0source/pageowner;initialemptyPASS invalid;1106closed unchanged.
-Resume: Read608/915 wholeform constraints before357writer;no synonym/window repair.
-Running: 1107closed;none;main verified3abcb25ff06:12UTC.
+Task: Grammar audited;CO811 sourceowner error;0words.
+Latest decision: 811 nottested: comparison/recipe differentplants;1107 unchanged.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CO_ENTRY_CORRECTION.md.
+Assumptions: Existing grammar constraints;f68 exactokeo ITonly.
+Resume: Check samewitness named Sun/Moon contrast duplicates/primaries;unselected.
+Running: None;main verified3d8f6a54706:46UTC;CO push pending.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
