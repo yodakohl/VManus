@@ -9,7 +9,7 @@ Latest decision: Shared name explicit;head-bread waste link unbound;807 not_test
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CB_SOURCE_REVIEW.md.
 Assumptions: Parts/whole-form baseline;1064polysemy not target proof;stops/seals retained.
 Resume: Use differential topic and shortlist for a complete target consequence. No lotus/polysemy extensions or f75 mirror tests.
-Running: CB/CA closed;none running;extended checkpoint03:16:12UTC. Publish review and verify main.
+Running: CB/CA closed;none running;main verified2f1ebe244. Checkpoint passed;publication overrun74s.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
