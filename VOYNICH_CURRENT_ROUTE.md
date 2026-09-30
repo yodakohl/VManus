@@ -9,7 +9,7 @@ Latest decision: no meaning selected; transfer-card PASS is not meaning;0words.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EF_PARTICIPANT_AUDIT.md.
 Assumptions: nominal/action,amount/material open; uncertain singleton dolchl.
 Resume: Author36 amount/material alternatives; do not repeat census.
-Running: None;1113 inverse-last failure retained.
+Running: None; EF main4a5a87a3b verified;1113 failure retained.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
