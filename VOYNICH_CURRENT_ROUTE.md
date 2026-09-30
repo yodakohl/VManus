@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: BV formal qot-family audit closed;BT efficacy/material-state C0s unselected;0words.
-Latest decision: 605 qot unit≠meaning;012/062 q+hosts;onlyqotain ain;751axes inherited.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BV_GRAMMAR_REPORT.md.
-Assumptions: 1104/1052/782 stops;no qot/ain/seed/husk gloss;BT/803 unselected;seals.
-Resume: ReadBV;shortlist diverse retained raw relations with an explicit bound consequence;check primaries before selection. Do not repeat qot export or309/931/933.
-Running: extended10h deadline30Sep03:16:12UTC;BV/BU closed;GitHub main synced;SSH available;none running.
+Task: BX darol influx/darolsy emission C0 unselected;697 not_tested;0words.
+Latest decision: All3sites arelabels;f75 dokal/darol owner ambiguous;no syexport.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BX_LABEL_READING_REPORT.md.
+Assumptions: 1104/1052/782/BV stops;name/opening/deixis rivals;seals.
+Resume: ReadBX;check caption-array primaries before dokal/darol construction. No repeated proximity test or unconstrained glossary.
+Running: extended10h deadline30Sep03:16:12UTC;BX/BW closed;GitHub SSH available;publication underway.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -40,7 +40,7 @@ f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-compl
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;92 legacy image keys/98 selectors (F scope receipt). f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:
-[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [detail](docs/VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md); [base](docs/VOYNICH_DATA_SCOPE.md).
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [detail](docs/VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md); [base](docs/VOYNICH_DATA_SCOPE.md); [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r
