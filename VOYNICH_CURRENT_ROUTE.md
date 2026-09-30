@@ -4,11 +4,11 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 1119 S deposits/H contains impure residue;77r25 sixgroup C0.
-Latest decision: No semantic selection;26tail unread;104carrier unbound.
-Working files: experiments/yolo/gdt1119_preparation_residue_predicate/REPORT.md.
-Assumptions: 29values C0;26N intact;local25frame/identity unpaid.
-Resume: Inspect935/936tail and family duties before new N26 hypothesis.
+Task: 1120 whole77r26 extract;purified G/intended I;32values C0.
+Latest decision: No meaning winner;localgenitive/apposition assumed;Hopen.
+Working files: experiments/yolo/gdt1120_extract_purity_purpose_tail/REPORT.md.
+Assumptions: 29Sparent intact;CTHmeaning/identity and purpose unpaid.
+Resume: Compare631/633 CTHfamily duties before more extract glosses.
 Running: None;1112-1117failures retained; no confirmed word.
 
 ## Structural baseline

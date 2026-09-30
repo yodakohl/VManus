@@ -1,3 +1,16 @@
+<!-- 2026-09-30 GDT1120 extract quality/purpose C0 checkpoint -->
+Whole77r26 authored with CHCTHY extract, LCHEDY purified(G)/purification-intended(I),
+QOKALY into-basin; all29Sparent values fixed,32permodel. Forwardgenitive toextract,
+appositiontoportion and quality/goal assumed; no same25identity. Hparent unselected.
+Three shortcopular cores80r14/30,111v39 proposed,not wholelines or confirmation.
+276nativeP17496groups393targets; root379targetlines+8wholefocalP inspected.
+Globaltail gaps4CHCTHY/6LCHEDY/2QOKALY perZL/IT; RF0native. No meaningwinner,
+capacity0 and0confirmedwords;1112-1117failures retained. QOKALYglobal17/18/17,
+old935selectedpacketonlyone; EMaudit singletonerror appended correction.
+Next compare631/633 wholeCTHfamily obligations before more extract glosses;
+no unchanged audit, freeCH/L/Y or patient/carry repair.
+[GDT1120](experiments/yolo/gdt1120_extract_purity_purpose_tail/REPORT.md).
+
 <!-- 2026-09-30 GDT1119 residue predicate C0 checkpoint -->
 S deposits/H contains an impure residue: local77r25 groups3-8 proposed,
 all26N values unchanged,3newwholeguesses.223nativeP15318groups358targets;
