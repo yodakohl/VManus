@@ -9,7 +9,7 @@ Latest decision: 624usejoins lack commonpart comparisons;completechunk codeclose
 Working files: experiments/yolo/gdt1109_fixed_units_joint_botanical_graph/REPORT.md.
 Assumptions: 605formalunits notmorphemes;1107/962 andBB/W original limits.
 Resume: Review794 protocol priors;author samepatient/heat/output reading,no graphrepair.
-Running: 1109 closed;none;publication pending.
+Running: None;1109 main verifiede0288ac8c07:34UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
