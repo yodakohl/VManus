@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: EY source/predecessor audit completed with3Sol agents.
-Latest decision: 829not_tested;830rawrolecontrast;0confirmedwords.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EY_REPORT.md.
-Assumptions: ASfixed;source roles not target meanings;exposure disclosed.
-Resume: Nominate complete two-case C0 for830;keep ASfixed,paidroles.
-Running: None;3agents finished;EXpublication budget exceeded.
+Task: EZtwo-role wholecontext reviewed;nomination stopped.
+Latest decision: PaidcoreC0;wholepartial/E3conflict;ASunchanged.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EZ_REPORT.md.
+Assumptions: 75newvalues10rules;ITRF20unknowns;0confirmedwords.
+Resume: Audit831source+GDT899/571/826primaries before selection.
+Running: None;threeSolthreads finished;noauthor repair.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

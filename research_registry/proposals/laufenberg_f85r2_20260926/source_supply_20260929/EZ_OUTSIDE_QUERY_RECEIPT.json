@@ -1,0 +1,30 @@
+{
+  "command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "--selector",
+    "locus",
+    "--allow",
+    "f39v.1",
+    "--allow",
+    "f39v.2",
+    "--allow",
+    "f39v.3",
+    "--allow",
+    "f39v.4",
+    "--allow",
+    "f39v.5",
+    "--allow",
+    "f39v.6",
+    "--columns",
+    "source_group_id,edition,locus,page,source_group_index,source_group_count,paragraph_start,paragraph_end,left_separator,right_separator,ivtff_group_raw",
+    "--forbid-prefix",
+    "f84",
+    "--forbid-prefix",
+    "f84r"
+  ],
+  "guard": "GUARD_STATS {\"selected\": 211, \"skipped_forbidden\": 2122, \"skipped_not_allowed\": 113137}",
+  "scope": "complete firstZL/IT f39v.1-6 paragraph,RFsamephysicalwindow; afterauthorfreeze",
+  "excluded": "f39v.7-14content unopened"
+}

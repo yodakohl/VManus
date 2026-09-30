@@ -1,5 +1,8 @@
 <!-- 2026-10-01 EX prospective phase/endpoint meanings -->
 
+<!-- EZ 2026-10-01 -->
+EZ: ONEfullf26v.1-9ZL93group C0attempt frozen;75newvalues10rules,AS21/9unchanged. Paid leafjuice-killing-earcreature core coherent; whole connectedaccount partial andE3modifier/rendering conflict retained. Fullf39v.1-6/all4OFCHYloci actually reviewed;f39roles unbound,opchyunaliased,ITRF20unknowns. Stopnomination withoutrepair;830not_tested forindependentmeaning;831rawnextsourceaudit.0confirmedwords. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EZ_REPORT.md.
+
 <!-- EY 2026-10-01 -->
 EY: three GPT-6.1 Sol agents completed source/predecessor/producer work.829 reviewed not_tested: cultivated-thorny source fact already retained, authority scope kept without target binding.830 raw role contrast: head creatures carried versus ear creatures killed; AS and820 related, novelty unconfirmed. Producer full Y/V/R target packet exposure disclosed, no new admission or independence. Original AS/800/1001 unchanged;0confirmedwords. Detailed result: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EY_REPORT.md.
 New3phase c→lo→hi→c;29definitionstrings/28parses retained,11newtype/ref laws.

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "--selector",
+    "page",
+    "--allow",
+    "f26v",
+    "--columns",
+    "source_group_id,edition,locus,page,source_group_index,source_group_count,paragraph_start,paragraph_end,left_separator,right_separator,ivtff_group_raw",
+    "--forbid-prefix",
+    "f84",
+    "--forbid-prefix",
+    "f84r"
+  ],
+  "guard": "GUARD_STATS {\"selected\": 275, \"skipped_forbidden\": 2122, \"skipped_not_allowed\": 113073}",
+  "scope": "admittedf26v all9lines all3readers; no images/reserves"
+}
