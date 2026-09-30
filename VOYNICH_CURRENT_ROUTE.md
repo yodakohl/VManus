@@ -9,7 +9,7 @@ Latest decision: f114v31/37 same-cell opposite poles;110bare fields allunbound.
 Working files: experiments/yolo/gdt1106_frozen_domain_transfer/REPORT.md.
 Assumptions: C0 package closed;1105original/1058/CE/CF/W02/83/89 unchanged.
 Resume: Review independently grounded semantic relations;no noun/owner/time repair or bare-y census. CK809RAW.
-Running: 1106/CKclosed;none;publication pending.
+Running: 1106/CKclosed;none;main verified475d96666.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
