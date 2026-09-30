@@ -1,0 +1,15 @@
+# FA: source-scoped similarity versus global identity
+
+Inclusive root budget2026-09-30 23:31:55–23:51:55UTC,20minutes including preparation, review, validation and publication. Previous goalturn is PROGRESS: completed one full93group C0attempt, observed actual fixed grammar/rendering mismatch and unbound wholecontext, inspected all4OFCHYloci, stoppedthatnomination withoutrepair. It is not deciphermentprogress or a confirmedword.
+
+Unknown after source831card/producer and boundedlivebaseline: does its Mercury/Venus restricted similarity provide a genuinely different owned written consequence, rather than repeat prior astrologicalcondition/visibility/planet-code routes? Source all36–39paragraphs were read before newselection. Precise medievaltransmission and source numeral quality are not assumed.
+
+Navigation correction: liveEZresume's899/571/826was ambiguous. Relevant predecessor is IDEA000571 (Mercurycompany-qualifiedcharacter), NOT GDT571 (oldtwo-slotoperator renderer). GDT899andIDEA000826are distinct IDs. No result of GDT571 is scientific evidence for831. Root will update route explicitly; no legacybytes change.
+
+Smallest adequate work: independent complete-source duties/quantity ownership review and targeted primary predecessor audit. Check restricted similarity, two explicit excluded dimensions, lowercircle, relative nine-day orbit comparison and owner-specific solarbounds. Retain XIIas provider reading unless source verification demonstrates a different witness; do not substitute modern values. If source variation matters, preserve both witnesses/uncertainty before anytargetnumericassignment. No new decoder/control/engine or targettranscription/image access in this unit.
+
+Outcomes: materiallydifferent owned relation with a concrete actual target consequence => one prospective whole-context nomination for a later fixed author phase. Repeatedmechanism/unknownnumeral/unsupportedtarget => retainsource constraints and marknot_tested, do not build another arbitrary numericdictionary or repeatunchangedtargetcapacitycensus. An existingmodel failure remains narrow; newraw ID does not reopen it. HypotheticalC0withoutconfirmedanchors remains permitted, but fullfreewordmaps do not rank meanings.
+
+Three GPT-6.1 Solagents: source review6minutes, predecessor audit6minutes, source-only producer4minutes (atmost1genuinely useful raw idea, gaps allowed). Root adjudicates source/primary claims and publication. Preserve independence: no newtargetcontent to source reviewer/producer; no otheragent's conclusions until each freezes. Scope: alreadycachedhistoricalsourceunits, boundedregistrynavigation, claimedprimaryreports and optional primarysource-pageverification only. No personcontacts, sealed/reserved f84/f84r/f116v or image/TSVquery. All previousAS/EW/EZvalues/rules remainunchanged.
+
+Assumptions: ancientprovider edition is not a medievalwrittenkey; solarparts are historicalassertions not modern angularcalibration; sharedcomparison does not establishsameplanet; exclusionscope and sourceattribution must be paid; no existingprobabilitymodel selectsnew meanings.

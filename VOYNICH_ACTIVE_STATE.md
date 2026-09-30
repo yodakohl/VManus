@@ -1,3 +1,6 @@
+<!-- FA 2026-10-01 -->
+FA:831restricted two-planet similarity retained as source constraint; no actual target consequence selected, not_tested. Cached/liveXII versus PHIXXII verified and preserved; relative9days and separate Sun upper bounds are not absolute values.899UNKNOWN/908specific exclusion/941missing capacity remain distinct;AS/EZ unchanged.832raw oil-owned application continuation next primary review with795/825.0confirmedwords,0independentleaves;no new target/image/reserve/contact. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FA_REPORT.md.
+
 <!-- 2026-10-01 EX prospective phase/endpoint meanings -->
 
 <!-- EZ 2026-10-01 -->

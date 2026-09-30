@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: EZtwo-role wholecontext reviewed;nomination stopped.
-Latest decision: PaidcoreC0;wholepartial/E3conflict;ASunchanged.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EZ_REPORT.md.
-Assumptions: 75newvalues10rules;ITRF20unknowns;0confirmedwords.
-Resume: Audit831source+GDT899/571/826primaries before selection.
-Running: None;threeSolthreads finished;noauthor repair.
+Task: FA831 source/primary review complete; no target selected.
+Latest decision: Restricted similarity retained; XII/XXII unresolved;831not_tested.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FA_REPORT.md.
+Assumptions: No new meanings; AS/EZ fixed;0confirmedwords.
+Resume: Review832+IDEA795/825 primaries; compare owned continuation with831.
+Running: None;three Sol tasks frozen;no decoder or author repair.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
