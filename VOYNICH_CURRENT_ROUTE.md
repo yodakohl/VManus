@@ -8,8 +8,8 @@ Task: 1114 two partial36 constructions; right-result diagnostic counter.
 Latest decision: finalchedy115v10 blocks strict rightresult; no meaning choice.
 Working files: experiments/yolo/gdt1114_clause_quantity_material/REPORT.md.
 Assumptions: all C0; result/tail unread; diagnostic exposed;0words.
-Resume: Read whole115v8-10 final state vs transformation; do not name36result.
-Running: None;1113 inverse-last failure retained.
+Resume: Author whole115v8-10 final state/transform alternatives; no36noun guesses.
+Running: None;1114 maine09ebd5c0 verified;1113 failure retained.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
