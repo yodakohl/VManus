@@ -3,13 +3,13 @@ Updated: 2026-10-01. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: FA831 source/primary review complete; no target selected.
-Latest decision: Restricted similarity retained; XII/XXII unresolved;831not_tested.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FA_REPORT.md.
-Assumptions: No new meanings; AS/EZ fixed;0confirmedwords.
-Resume: Review832+IDEA795/825 primaries; compare owned continuation with831.
-Running: None;three Sol tasks frozen;no decoder or author repair.
+Status: active
+Task: FBwhole111r C0 authoring;source/primaries frozen.
+Latest decision: Paidroot/oil/apply roles attempted;oldET61/history fixed.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FB_NOMINATION.md.
+Assumptions: Sourceinspired only;0confirmedwords;0independentleaves.
+Resume: Freezeauthor;checkall82IT+86ZL+81RF andsourceargumentbindings.
+Running: Solauthor10min+prior3min;root review/publication by00:16:14UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

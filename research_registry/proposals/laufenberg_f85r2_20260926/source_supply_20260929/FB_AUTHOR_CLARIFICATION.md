@@ -1,0 +1,7 @@
+# FB pre-author clarification2026-09-30 23:56UTC
+
+Original ET physical graph/history must be copied and remain unchanged as the original branch, with all positive stream/episode/attachment/coidentity/purity commitments inherited by the newbranch. Its statements that unknown words have not decoded extra processes or that relations are unbound describe original epistemic coverage, not independent negative evidence that no preparation/application exists. Newbranch may explicitly assign formerlyunknownwords and refine these unbound roles as prospectively declared in the nomination, paying every added assertion in a separate augmented graph. No existing positive commitment may be altered. Do not present added role as newlyobservedtruth or a rescue of originalET. If an actual positivecommitment conflicts, stop withoutrepair.
+
+Source reviewer froze131.414sec afteractual renewedstart23:52:51; originaldispatch didnotexecute. Root confirmed Greek: root boiled up in/witholdoil;oil explicitlyapplied; headsores/chilblains strongestlocalindicationcarry bycoordination/ellipsis, not separatelyrepeatedoil-specificsite/patient. Wholeaccount may retain thatsource ellipsis as paidhypothesis but not inventsourcepatientidentity orrootremoval/filtration.
+
+This clarification predates the new author artifact/result. It doesnot change61maps, oldsource/author bytes ornominationdata. Source-specificC0 meanings remainfreehypotheses; oldformalcounts arecompatibilityonly. Nominalfrequency/profiles to be supplied separately cannotrank root/oilwithoutmeaning anchors.
