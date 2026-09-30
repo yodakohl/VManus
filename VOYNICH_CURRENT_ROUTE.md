@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: CB807 source ownership corrected;no target meaning;0words.
-Latest decision: Shared name explicit;head-bread waste link unbound;807 not_tested.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CB_SOURCE_REVIEW.md.
-Assumptions: Parts/whole-form baseline;1064polysemy not target proof;stops/seals retained.
-Resume: Use differential topic and shortlist for a complete target consequence. No lotus/polysemy extensions or f75 mirror tests.
-Running: CB/CA closed;none running;main verified2f1ebe244. Checkpoint passed;publication overrun74s.
+Task: CE f9v two-temp C0;M2/M4 tied;0confirmedwords.
+Latest decision: M3humoral-degree still conflicts;3/4bearers unread;no1073rerun.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CE_REPORT.md.
+Assumptions: 5wholeguesses;noRFsplit;extra5unbound;W02/83/89&1073unchanged.
+Resume: Read f9v3–4 bearer construction and otaiin/cthy primaries. No implicit subject or extra heating.
+Running: CE/CD closed;none;deadline04:10UTC;publish and verify main.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -19,7 +19,8 @@ No default Latin/phonetic reading. General adjacency transfers across
 Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
 reversible rendering are not confirmed meanings or sentence boundaries.
-Confirmed English lexemes: **0**. Hypothetical readings remain permitted.
+pX/yX paragraph contrast is broader (ZL7/IT8 supported bases;RF unscorable,1073);
+layout does not translate pchor/ychor. Confirmed English lexemes: **0**. Hypothetical readings remain permitted.
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain

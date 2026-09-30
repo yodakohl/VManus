@@ -1,3 +1,5 @@
+30Sep CE: explicitf9v11 C0 separates naturalcool/moist prep fromactualwarmth;M2dose/M4physicallevel compatible,neitherselected;M3humoralwarmdegree stillcontrad. Bothparas/253groups retained,16assumed237unread;5extra3/4positionsunbound;RFwholeokykaiin notsplit.1073broaderp/ycontrast recovered,no duplicate1105. [Draft and consequences](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CE_REPORT.md).
+
 30Sep CB:807 shared tree/herb name source-compatible; bread-process residue attribution notstated,root/waste account separate;807 not_tested,no target/word. CA0newideas. Stop polysemy-permission extensions;next select a whole target consequence. [Review](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CB_SOURCE_REVIEW.md).
 
 30Sep BZ: all10 f75caption pairs retained;ZL/RF daldyL3L8 repetition has ITsplit,global17/16/8 uses. Prior twin-fan no-mirror-key stop recovered,not superseded;no fieldrole/word selected. BX C0 unchanged;BY807 source-only RAW. [Table and decision](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BZ_CAPTION_REPORT.md).
