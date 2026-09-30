@@ -1,3 +1,15 @@
+<!-- 2026-09-30 EQ histories, finite FLOW family and presupposition correction -->
+Both184-role histories preserve32G/I andEP14values;newQOKEEYgenericfluid versus
+recoveredoutput prospectiveC0only, CHEEOLspecificfluidtype notspellingalias.
+MIXTURE impliescomposite materialstate, NOT separatecompletedHMIX;FILTRATE needs
+filterprovenance. Rootchallenge/independentreview explicitlycorrectoriginalauthor/
+validationoverstatement withbytes/hashes preserved. ONLY30firstcreation declines
+conditionallyforactualsameF29/localITTHENorder, notZL30SA/IIN or manuscriptchronology.
+Known689OK+EE+Y/DY usedformally;647scopedPASS notuniversal-DYfailure;0words0capacity.
+Nextwhole112vIT25–26/ownZL23–26 genericfluid+mixturedevelopmentfirst; heuristicnotmeaningchoice.
+RAW822unreviewed;no newGDT/decoder/contacts/data/reserveopening.
+[EQ report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EQ_REPORT.md).
+
 <!-- 2026-09-30 EP complete focus content drafts, no semantic selection -->
 Two14-newwholevalue C0drafts77r28–31: separation/clothfiltrate versusdose/mixing.
 All32G/I and184wholePsourcegroups retained;ITfocus23/23assigned,ZL22/24SA/IINunknown.
