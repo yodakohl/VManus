@@ -4,12 +4,12 @@ Updated: 2026-09-30. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: EN CTHfamily jointdrafts; no extension selected.
-Latest decision: 1120 G/I intact; no extra reader for compatibility.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EN_REPORT.md.
-Assumptions: 32C0;material identity, E/Omeaning and event scopes unpaid.
-Resume: Author whole77r25–37 shared-event vs separate-scope graphs.
-Running: None;934/342 predecessors checked;0confirmed words.
+Task: EO shared/separate scopes;QOKARhead package declined.
+Latest decision: Purified≠PURE;32G/I intact;no new word selected.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EO_REPORT.md.
+Assumptions: Entity/event links C0;causal purification and heads unpaid.
+Resume: Author full77r28–31 continuation;no adjacenthead repair.
+Running: None;IDEA819screen declined;RAW817/818 unreviewed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

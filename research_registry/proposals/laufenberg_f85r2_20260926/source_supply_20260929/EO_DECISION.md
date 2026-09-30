@@ -1,0 +1,15 @@
+# EO — gemeinsame Argumente im vollständigen f77r-Absatz
+
+Inklusive Arbeitseinheit: 2026-09-30 17:50:17 bis 18:25:17 UTC, 35 Minuten einschließlich Abruf, Autoren, kleinster Prüfung und Veröffentlichung. Voriger Turn: Fortschritt durch eine tatsächlich ausgeführte, publizierte Familienprüfung, die die nächste Handlung änderte; kein Bedeutungsfortschritt.
+
+Exponierte Exploration, keine Blind-Präregistrierung. Vorhersagen und Identitätsannahmen werden vor einer etwaigen Konsequenzprüfung festgelegt. Nicht erneut einen mechanischen Ganzwortleser bauen, der nur C0-Verträglichkeit meldet.
+
+Die ganze Quelle ist f77r.25–37, jeweils ein nativer Absatz mit 92 Rohgruppen in ZL und IT; alle 26 Zeilen behalten. Beides ist ein physisches Blatt, keine zwei Bestätigungen. Die 32 G/I-Werte aus1120 bleiben unverändert; S-Erweiterung ist kein Sieg über1119H. Die ersten drei Zeilen haben20 Gruppen,18 feste Ganzwortwerte; zusätzlich wird nur das bereits festgelegte genaue DAL CHEDY-Negationspaar angewandt. QOKAR/QOKOR bleibt unbekannt, OTEDY auf25 erhält nicht unbemerkt einen Satzanschluss.
+
+Unbekannt ist die gemeinsame Stoff-/Ereignisidentität: SHEDY auf25 und27, Auszug/Anteil auf26, DAROR-Rückstand und weitere Stoffstellen34–37. GDT934 hat örtliche/zeitliche/Beschaffenheitsbrücken unter anderen Bedeutungen, GDT946 scheiterte an expliziten Typenpflichten und Unbekannt-als-Zensur, GDT1113 an letztem exaktem Wandel. GDT342/343 liefern keine kalibrierte Graphsuche. Keine dieser Routen wird mit neuen Namen wiederholt.
+
+Kleinster adequate Schritt: Zwei konkret ausformulierte Argumentkonten mit exakten Quell-IDs erstellen: gemeinsame Charge mit Teil-/Rückstandsbeziehung versus getrennte Beschreibungen. Eigenschaften gehören zu ihren angenommenen Trägern und Zeiten; Wortwiederholung allein ist keine Identität. Jeder zur Satzlesung ergänzte Anschluss bleibt eine Annahme. Eigenschaft NOT(PURE) auf25 betrifft im1120-Elternkern DAROR, nicht SHEDY. Ein Absetzen ist nicht allein Reinigung. G-PURIFIED darf hypothetisch einen vorherigen Vorgang verlangen, zählt ihn aber nicht als unabhängige Beobachtung. I verlangt keine Vollendung.
+
+Entscheidungen: Falls ein neu fixiertes Argumentkonto mit einer bereits zugeordneten geschriebenen Rolle kollidiert, nur dieses konkrete Konto zurückweisen; keine neue automatische Carry-, Rechtsnachbar- oder Unsichtbar-Operation-Regel. Liefert ein Konto eine neue bestimmte textuelle Konsequenz, diese klein und vollständig an allen deklarierten Fällen testen. Bleiben beide bloß kompatibel, keine neue Experimentnummer oder Leserzählung für dieselbe Lücke; stattdessen die tatsächlich verschiedenen Argumentpflichten und nächsten notwendigen Ganzsatzinhalte dokumentieren. Dies stoppt nicht explorative Bedeutungsentwicklung und verlangt keinen schon bestätigten Wortanker.
+
+Keine neuen Voynich-Zugänge, Bilder, reservierten Blätter, f84/f84r, f116v, Kontakte oder unabhängige Bedeutungskapazität. Alle unbekannten Gruppen und alle bisherigen Fehler bleiben bestehen.

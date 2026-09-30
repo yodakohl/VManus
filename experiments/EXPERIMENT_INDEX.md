@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1120 | GDT1120 | `EN_FAMILY_EXTENSION_UNSELECTED_IMPLEMENTATION_STOP` | [report](../research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EN_REPORT.md) | 18 | 13.1 MiB | 13 | STRUCTURED_YOLO |
+| GDT1120 | GDT1120 | `EO_ARGUMENT_ACCOUNTS_C0_UNSELECTED_PROPERTY_CORRECTION` | [report](../research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EO_REPORT.md) | 18 | 13.1 MiB | 13 | STRUCTURED_YOLO |
 | GDT1119 | GDT1119 | `DOC_POINTER_AND_REVIEW_FRESHNESS_CORRECTION` | [report](../experiments/yolo/gdt1119_preparation_residue_predicate/REPORT.md) | 18 | 11.5 MiB | 7 | STRUCTURED_YOLO |
 | GDT1118 | GDT1118_liquid_preparation_joint_reading | `NEW_JOINT_PREPARATION_C0_UNSELECTED` | [report](../experiments/yolo/gdt1118_liquid_preparation_joint_reading/REPORT.md) | 18 | 763.0 KiB | 13 | STRUCTURED_YOLO |
 | GDT1117 | GDT1117_purification_operation_efficacy | `C0_UNSELECTED_CAUS_RIGHT_PATIENT_CONTRADICTED` | [report](../experiments/yolo/gdt1117_purification_operation_efficacy/REPORT.md) | 18 | 3.6 MiB | 10 | STRUCTURED_YOLO |

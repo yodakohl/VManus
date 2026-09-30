@@ -1,3 +1,15 @@
+<!-- 2026-09-30 EO argument authorship and known-side screen -->
+Whole77r25–37 retained184groups;shared/separate identity/event accounts C0,
+notfullytranslated. OriginalauthorPUREfromPURIFIED mistake explicitlycorrected:
+G priorcleaning has no fixedPUREendpoint;25negativepropertyqualifiesresidue.
+IDEA819 of-basinadjacentheadleftpriority/right fallback declines onknown80r13:
+ZL OF-LIQUID QOKAR IS;IT IS QOKAR IS.5nativeP574groups10cases2capacity2contra6unbound,
+onephysicalcounteralreadyexposed,notnewexperiment/globalgenitiverefutation.
+No valuesselected;1120G/I1119S/Hopen;0words0capacity. RAW817/818unreviewed.
+Next full77r28–31 lexical/argument continuation, retain repeatedflows/sources and
+30ZL SA/IIN versusITSAIIN;no head-rule repair or purity-from-settling inference.
+[EO report](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EO_REPORT.md).
+
 <!-- 2026-09-30 EN CTH joint-family audit, not new experiment -->
 631/632/633 ordered formal family retained; four shared content drafts unselected.
 All80r11–27 nativeP:390groups82fixedC0,308unknown;22familypositions; no fixed32
