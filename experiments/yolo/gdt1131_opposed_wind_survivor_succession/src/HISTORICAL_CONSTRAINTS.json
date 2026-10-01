@@ -1,0 +1,66 @@
+{
+  "experiment": "GDT1131",
+  "role": "independent historical-source audit; claim obligations, not semantic parser declarations",
+  "blinding": {
+    "read": ["VOYNICH_CURRENT_ROUTE.md", "PREREGISTRATION.md", "src/HISTORICAL_PRIMARY.html", "src/HISTORICAL_RECEIPT.json"],
+    "candidate_artifacts_read": false,
+    "manuscript_meanings_inferred": false
+  },
+  "source": {
+    "author": "Ignoti Auctoris, not Thomas for these chapters",
+    "edition": "Leonine Rome 1882, modern electronically served text; not collated medieval witness",
+    "url": "https://www.corpusthomisticum.org/xme210.html",
+    "scope": "complete served page including II.10.6b, II.11.1-9, II.12.1-6 and apparatus",
+    "sha256": "cabb6903f68f9834c4b250485db250742ac4d55411446b59a0d74d5e9e04754d",
+    "bytes": 30678,
+    "receipt_match": true,
+    "byte_preserved": true
+  },
+  "accounts": {
+    "suppression": {
+      "paragraphs": ["II.12.1#90864", "II.12.2#90865"],
+      "strongest_fair_account": "Generic opposed-wind conditional: equal force produces mutual obstruction; unequal force lets the stronger eliminate the weaker active wind. A claimed survivor is the original stronger participant in the encounter, not an automatically generated successor.",
+      "requirements_if_claimed": ["specified opposition", "relative-strength condition", "correct outcome branch", "original stronger identity distinguished from later generated participants", "weaker cessation caused by stronger when incidence is asserted"],
+      "counterexamples": ["equal-strength survivor unsupported", "weaker survives as outcome of the unequal-strength branch", "opposed participants persistently blow jointly in the described confrontation", "suppression alone automatically generates an adjacent successor"],
+      "limits": ["conditional physics need not report an actual storm", "survivor persistence is an implication, not an explicit individuated narrative", "no permanent lifetime or unchanged properties of stronger", "no destruction of an entire wind kind", "non-opposed winds can jointly blow toward the same region from different source signs"]
+    },
+    "succession_after_cessation": {
+      "paragraphs": ["II.12.3#90866", "II.12.6#90869"],
+      "strongest_fair_account": "A preceding wind ceases; a nearby wind is subsequently generated around the horizon. Solar approach raises dry exhalation and generates winds in new regions; withdrawal removes elevation and causes cessation.",
+      "requirements_if_claimed": ["preceding wind and its cessation", "subsequent generation", "adjacent source relation", "distinction of generated participant from preceding participant", "solar cause if solar gyration is asserted"],
+      "counterexamples": ["continued unbroken first wind relabeled as successor", "mere kind equality presented as generation", "suppression or water collision required as the sole historical cause", "one universal four-leg annual route imposed on observer-specific descriptions"],
+      "limits": ["no constituent-matter identity criterion", "ordering but no exact interval or mandatory hiatus", "no measured angle or constant speed", "no mandatory suppression cause", "ground reflection and downward displacement belong to other source mechanisms"]
+    },
+    "kind_or_relational": {
+      "paragraphs": ["II.11.1#90855", "II.11.3#90857", "II.11.5#90859", "II.11.6#90860", "II.11.7#90861", "II.11.9#90863", "II.12.1#90864", "II.12.3#90866"],
+      "strongest_fair_account": "Connected generic predicates and conditional physics about kinds, source relations, strength, generation and effects; neither names-only taxonomy nor empty tautology is required.",
+      "requirements_if_claimed": ["distinguish kinds, instances, properties and events", "do not infer an actual event from a generic antecedent", "retain ordering if succession is asserted", "specify actual conditions and participants for an actual episode", "do not infer physical participant identity from kind equality"],
+      "counterexamples": ["generic rule treated as evidence its antecedent actually happened", "kind equality used to identify a surviving physical participant", "claimed succession with no preceding cessation or later generation"],
+      "limits": ["can fairly express both suppression and succession conditionals", "static explicit before/after states can express the same source obligations", "source supplies no preference for state mutation over equivalent relational description"]
+    }
+  },
+  "shared_controls": [
+    {
+      "issue": "observer and source orientation",
+      "paragraphs": ["II.11.2#90856", "II.11.4#90858", "II.11.6#90860", "II.11.7#90861", "II.11.8#90862", "II.12.2#90865", "II.12.5#90868", "II.12.6#90869"],
+      "requirements": ["observer horizons vary", "names identify origin bearings rather than destination bearings", "local non-observation is not global nonexistence", "proximity to northern observers is distinct from source strength and material abundance", "annual sequence descriptions vary by observer context"],
+      "does_not_supply": "manuscript diagram orientation, source ownership, cardinal names or universal route"
+    },
+    {
+      "issue": "place and quality opposition",
+      "paragraphs": ["II.11.3#90857", "II.11.5#90859", "II.11.7#90861", "II.11.9#90863"],
+      "requirements": ["distinguish diametrical place opposition from opposition in both qualities", "allow mixtures and degrees", "retain participative intermediate opposition and local visibility qualifications", "allow neighboring and broadened names"],
+      "counterexample": "a silently repaired unique name-quality table treated as the source's sole uniform system"
+    },
+    {
+      "issue": "accidental common and conditional effects",
+      "paragraphs": ["II.12.2#90865", "II.12.4#90867", "II.12.5#90868", "II.12.6#90869"],
+      "requirements": ["opposed winds can have the same effect accidentally", "intrinsic opposition does not prohibit common observed effects", "cold-driven condensation and force-driven clearing can coexist", "very cold winds need not clear the sky", "humidity mixing can change a wind's final effect", "distinguish cloud outflow from vertical displacement by another wind"],
+      "counterexamples": ["same effect implies same participant", "same effect disproves opposition", "stronger always implies clear sky"]
+    }
+  ],
+  "mechanisms_mutually_exclusive": false,
+  "fair_combination_condition": "Every claimed transition, participant, condition and causal mechanism must be specified; historical coexistence alone does not supply missing manuscript content.",
+  "absent_donations": ["Voynich lexical or phonetic values", "semantic parser or prefix meanings", "token or paragraph mapping", "manuscript wind names", "manuscript cardinals or four-part semantics", "water, mouth or head identification", "original-only consumer requirement", "dynamic-program semantic advantage", "alternate-reader equality", "meaning selection by typechecking", "independent manuscript confirmation", "manuscript authorship, date or exemplar"],
+  "claim_ceiling": "Historical content prior only; zero confirmed manuscript translations. Named winds, cardinal axes, intermediate winds and solar cycles exist in the source without thereby identifying manuscript entities."
+}

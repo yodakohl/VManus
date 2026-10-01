@@ -1,0 +1,81 @@
+{
+  "schema": "GDT1131_ACCOUNT_SCHEMA_PROPOSAL_v1",
+  "status": "TECHNICAL_SHARED_PROPOSAL_NOT_SEMANTIC_CONSTRAINT",
+  "scope": "473 exact raw positions; all12 native fields; primary N/E and mandatory OUTSIDE/S/W exact recurrences",
+  "native_fields": [
+    "edition",
+    "block",
+    "locus",
+    "source_group_id",
+    "source_group_index",
+    "source_group_count",
+    "within_line_position",
+    "paragraph_start",
+    "paragraph_end",
+    "left_separator",
+    "right_separator",
+    "ivtff_group_raw"
+  ],
+  "account_top": {
+    "candidate_id": "A/B/C",
+    "status": "Honest whole-account decision, e.g. PARTIAL; coverage PASS does not establish complete construction",
+    "source_sha256": "SHA256 of src/SOURCE.json",
+    "constructor_sha256": "SHA256 of immutable initial constructor file",
+    "rows": "One row per native source_group_id; source order recommended",
+    "dictionary": "Assigned exact wholes with stable entry_id, raw_form, fixed rule/value/arguments policy, explicit costs; unknown forms may also be listed",
+    "primary_units": "N and E records for each reader: native IDs/count, status, first barrier, complete boolean",
+    "costs": "Separate initial core families/constants and paid extensions/aliases/defaults/ambient inputs/unknown carry/unused instructions; unweighted counts",
+    "shared_part_uses": "Actual licensed aN use rows and arguments/returned values/consumers; non-null effect declaration stays manually reviewable"
+  },
+  "row_format": {
+    "native": "Prefer flat unchanged12 fields; nested native/source/source_raw is acceptable with all12 fields preserved. Additional derived fields must not replace native bytes.",
+    "entry_id": "Declared dictionary ID or null for UNKNOWN",
+    "status": "UNKNOWN/BLOCKED/PARTIAL/ACCOUNTED etc.; define statuses explicitly",
+    "interpretation": "Assigned value or explicit null/unassigned",
+    "arguments": "Typed IDs or compact typed values with producer_source_ids, if available",
+    "returns": "Returned IDs/typed values, if available",
+    "consumer_source_ids": "Actual referring source IDs or terminal retention/instruction declaration",
+    "cost": "Priced rule/root/residual/reference contributions or dictionary cost reference",
+    "delta": "Optional compact effects; full state duplication not required"
+  },
+  "dictionary_policy": "All assigned raw_form entries cover every exact occurrence in all473 rows, including context barriers; entry identity survives blocked execution. Typed overloads require explicit finite conditions/costs. Report countercases without replacing native literals.",
+  "shared_part_use_fields": [
+    "source_group_id",
+    "raw_form",
+    "interface_id",
+    "arguments",
+    "returned_value",
+    "consumer_source_ids",
+    "effect",
+    "status"
+  ],
+  "shared_part_limits": "Require actual declared shared operation on at least two exact licensed forms among aiin/daiin/shodaiin. Bare aiin is a root. Nonempty declarations/reference existence are checkable; semantic license/type/non-null truth is manual.",
+  "receipts": "Initial/final receipt files map repository-relative artifact paths to SHA256; root separately releases final account and initial freeze hashes before validator reads author content.",
+  "schema_flexibility": "Authors may preserve their own compact schema; root coordinates a technical adapter. No forced universal executor or invented interpretation fields.",
+  "manual_only": [
+    "actual participant identity/provenance/time/causality",
+    "type/owner/basis/scope truth",
+    "effectiveness of shared parts and consumers",
+    "generic versus occurring event status",
+    "manuscript-owned meaning discriminator",
+    "complete connected natural reading"
+  ],
+  "validator_release_format": {
+    "command": "python src/check_accounts.py --release artifacts/ROOT_FINAL_RELEASE.json",
+    "root_release_entry": {
+      "A": {
+        "account": {
+          "path": "artifacts/A_ACCOUNT.json",
+          "sha256": "ROOT_RELEASED_FINAL_ACCOUNT_HASH"
+        },
+        "constructor": {
+          "path": "src/A_CONSTRUCTORS.json",
+          "sha256": "ROOT_RELEASED_INITIAL_FREEZE_HASH"
+        },
+        "initial_receipt": "artifacts/A_INITIAL_FREEZE_RECEIPT.json",
+        "final_receipt": "artifacts/A_FINAL_FREEZE_RECEIPT.json"
+      }
+    },
+    "requirement": "Include A,B,C with actual paths; optional receipt paths may differ. Only root releases this map after all authors freeze. No author content read by validator beforehand."
+  }
+}

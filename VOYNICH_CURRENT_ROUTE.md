@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Whole opposed-wind survivor C0.
+Task: GDT1131 whole wind rival accounts.
 Latest decision: 1130 partial; static continuation contradicts.
-Working files: GD_WIND_ROUTE.md in source_supply_20260929.
+Working files: gdt1131_opposed_wind_survivor_succession.
 Assumptions: Fixed grammar; exposed sources; zero meanings.
-Resume: Register full survivor/fresh-output comparison.
-Running: Root selection; minimum2Oct06:09:20UTC.
+Resume: Freeze three full accounts; compare actual references.
+Running: Three authors plus producer; minimum2Oct06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
