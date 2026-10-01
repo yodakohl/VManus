@@ -1,0 +1,165 @@
+{
+  "unit": "FH bounded source-only review IDEA000836",
+  "status": "EXPLICIT_TYPE_BRANCH_ASYMMETRY_WITHOUT_CURRENT_MANUSCRIPT_BINDING",
+  "freeze_utc": "2026-10-01T02:09:20.483504+00:00",
+  "timing": {
+    "actual_first_tool_clock": "2026-10-01T02:06:36.274387+00:00",
+    "actual_end_inclusive": "2026-10-01T02:09:20.483504+00:00",
+    "elapsed_seconds_from_clock": 164.209117,
+    "cap_seconds_from_receipt": 180,
+    "receipt_to_first_clock": "Not independently timestamped; first tool followed initial acknowledgement. All bounded work/assembly included in recorded interval."
+  },
+  "primary_paths_sha256": {
+    "VOYNICH_CURRENT_ROUTE.md": "6cac689b17492cb237a9374afb1246ae8c941c4e04d6cda65a355c3531ce70f3",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FG_VITRUVIUS_COMPLETE_UNITS.md": "91b6fe7e7288128cdeaf6b637859a04095b0829f16d8b1c9349d523dfb5c86d2",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/D_SOURCE_VITRUVIUS.html": "fd9fa70b9a04f948c747f377224a9c1414479e0126fe33f4e7d2f69b12c822cd",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FG_PRODUCER_RECEIPT.json": "b5cede8987f4dcd763a4f9b9d93e7ce92170a48a277b98bb7b729ab001814119",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FG_PRODUCER_APPEND_RECEIPT.json": "319774646dd1607d5a4e2e1332e18f9bee4aaca58be6aab45570f749de8dd4d9"
+  },
+  "source_layer": {
+    "work": "Vitruvius De architectura VII.12 §§1–2, complete source unit",
+    "translator": "Morgan1914 English historical translation",
+    "url": "https://www.gutenberg.org/cache/epub/20239/pg20239-images.html",
+    "cache_sha256_verified": "fd9fa70b9a04f948c747f377224a9c1414479e0126fe33f4e7d2f69b12c822cd",
+    "original_cache_lines": [
+      6152,
+      6164
+    ],
+    "Markdown_complete_unit": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FG_VITRUVIUS_COMPLETE_UNITS.md",
+    "complete_quote": "CHAPTER XII\nWHITE LEAD, VERDIGRIS, AND ARTIFICIAL SANDARACH\n1. It is now in place to describe the preparation of white lead and of\nverdigris, which with us is called \"aeruca.\" In Rhodes they put shavings\nin jars, pour vinegar over them, and lay pieces of lead on the shavings;\nthen they cover the jars with lids to prevent evaporation. After a\ndefinite time they open them, and find that the pieces of lead have\nbecome white lead. In the same way they put in plates of copper and make\nverdigris, which is called \"aeruca.\"\n2. White lead on being heated in an oven changes its colour on the fire,\nand becomes sandarach. This was discovered as the result of an\naccidental fire. It is much more serviceable than the natural sandarach\ndug up in mines.\n",
+    "limit": "Existing English translation only. No Latin/diplomatic witness, modern chemistry, new acquisition or manuscript source attribution."
+  },
+  "idea_details": {
+    "registry_id": "IDEA000836",
+    "CLI_show": "imported_unreviewed/untested; no source pointers in compact card",
+    "full_design_read": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FG_PRODUCER_APPEND_RECEIPT.json",
+    "status": "Actual retry appended same source content with root-created Markdown provenance. Original HTML format rejection was engineering, not source failure or unexecuted scientific experiment. No novelty or target selection follows."
+  },
+  "source_events": [
+    {
+      "event": "Set up lead treatment",
+      "explicit": "In Rhodes shavings placed in jars, vinegar poured over them, pieces of lead laid on shavings",
+      "roles": [
+        "shavings",
+        "jars",
+        "vinegar",
+        "leadpieces"
+      ],
+      "not_supplied": "Shavings species/material, metal purity, quantities, jar geometry, immersion depth or temperature."
+    },
+    {
+      "event": "Cover jars",
+      "explicit": "Cover with lids to prevent evaporation",
+      "goal": "prevent evaporation",
+      "limit": "Purpose explicit; achieved zero evaporation or airtight seal not observed/asserted as quantified fact."
+    },
+    {
+      "event": "Wait/open/observe",
+      "explicit": "After a definite time open jars and find leadpieces have become whitelead",
+      "order": "setup→cover→elapsed interval→opening/finding",
+      "limit": "Numerical interval and exact moment of conversion unstated. Finding is an observation event in historical account, not measured chemical verification."
+    },
+    {
+      "event": "Copper branch",
+      "explicit": "In the same way put in copperplates and make verdigris, called aeruca",
+      "roles": [
+        "copperplates",
+        "verdigris/aeruca"
+      ],
+      "process_relation": "Explicit same-way anaphoric relation to prior treatment; detailed copied procedure is an elliptical inheritance interpretation.",
+      "limit": "Same individual jars, exact batch, quantities or identical numerical wait not stated; two metals not said mixed together."
+    },
+    {
+      "event": "Whitelead continuation",
+      "explicit": "Whitelead heated inoven changes colour onfire and becomes sandarach",
+      "roles": [
+        "whitelead",
+        "oven/fire",
+        "sandarach"
+      ],
+      "limit": "Whitelead is explicit named material type, not a pronoun automatically bound to last product verdigris. Same individual whitelead batch as prior paragraph not explicit."
+    },
+    {
+      "event": "Discovery/comparison",
+      "explicit": "Discovered through accidentalfire; much more serviceable than natural sandarach dug frommines",
+      "limit": "Historical discovery/superiority assertion, no modern efficacy/safety result, chemical identity proof, universal comparison scale or reason specified."
+    }
+  ],
+  "source_graph": {
+    "first_stage_alternatives": [
+      {
+        "input_type": "LEAD",
+        "treatment": "JAR_TREATMENT",
+        "product_type": "WHITE_LEAD"
+      },
+      {
+        "input_type": "COPPER",
+        "treatment": "SAME_WAY_JAR_TREATMENT",
+        "product_type": "VERDIGRIS"
+      }
+    ],
+    "second_stage": [
+      {
+        "input_type": "WHITE_LEAD",
+        "treatment": "OVEN_HEATING",
+        "product_type": "SANDARACH"
+      }
+    ],
+    "alias": "VERDIGRIS called aeruca; explicit alternative name, not a second product",
+    "count_scope": "Two metal input classes and two first-stage product classes; chapter has a third later product sandarach. Not two ingredients necessarily processed in one mixture.",
+    "whitelead_only_scope": "Only WHITE_LEAD bears a stated oven continuation in this complete chapter. This is positive source attachment plus absence of another clause, not NOT(heatable(verdigris)).",
+    "identity": "Type-level overlap WHITE_LEAD output/input explicit; token/batch coidentity across paragraphs not independently given."
+  },
+  "explicit_vs_inferred": [
+    {
+      "claim": "Shared process",
+      "status": "Explicit same-way relation; expansion into copied shavings/vinegar/lids/wait/open steps is reasonable ellipsis inheritance, not repeated text or proven exact numeric protocol."
+    },
+    {
+      "claim": "Two inputs/two products",
+      "status": "Source compression of two corresponding alternative metal→product branches, not a simultaneous two-input/two-output batch or measured mass-balance claim."
+    },
+    {
+      "claim": "Selective continuation",
+      "status": "Explicit repeated WHITE_LEAD subject of§2; branch specificity by material type supported. No explicit prohibition of copper/verdigris heating elsewhere."
+    },
+    {
+      "claim": "Same product survives into§2",
+      "status": "Type continuity explicit; same physical batch or conserved amount inferred only if separately paid."
+    },
+    {
+      "claim": "Lids mere storage versus purposeful covering",
+      "status": "Prevention purpose explicit. A storage-only account omitting that relation is incomplete as a source account, but storing and evaporation prevention can coexist."
+    },
+    {
+      "claim": "Whitelead/sandarach modern chemical nomenclature",
+      "status": "Not established here; historical translated names retained without chemical-formula import."
+    }
+  ],
+  "candidate_independent_textual_consequence": {
+    "structural_invariant": "One shared-treatment relation maps two input classes to distinct product classes, and a subsequent transformation explicitly selects the first product class, not the last-mentioned product class and not automatically both products. The graph remains asymmetric under consistent opaque relabeling.",
+    "minimal_contrast": "A fixed generic latest-product continuation or all-products propagation would attach oven event to verdigris or both outputs; the source instead explicitly names WHITE_LEAD.",
+    "when_it_can_distinguish_a_reading": "Only after a prospective whole reading separately fixes written participant/type bindings, output ownership and its actual continuation rule. Audit which already resolved product is consumed, without adding a source-shaped per-word glossary or forcing reference meaning.",
+    "what_it_cannot_do": "No direct manuscript discriminant is supplied by this source audit alone. Free assignments of names/clauses can realize either graph; source-fit cannot independently select word meanings, grammar or a source-copy claim.",
+    "missing_target_input": "No target nominated/read; no independently supported written material/product binding offered. Therefore this review records a possible fixed relational consequence, not a run test or selected reading."
+  },
+  "recommendation": "Retain IDEA836 as unreviewed source-specific supply. It has a real structural selective-type continuation duty, but source facts alone do not authorize another unconstrained glossary/paragraph chain. Root should select only an already constrained fixed whole-context consequence; no generic universal inheritance or chemistry negation.",
+  "smallest_next_action": "Compare the explicit graph with one existing prospectively frozen candidate that actually asserts shared-process and product-continuation bindings. If those prerequisites are absent, record missing binding and stop this source route instead of inventing names or expanding a decoder.",
+  "negative_claims_scope": [
+    "No copper-to-sandarach clause in completeVII12; no claim of impossible reaction or absence across other chapters/traditions.",
+    "No numerical wait in this chapter; no universal lack of ancient timing knowledge.",
+    "No target or corpus rarity/failure inferred from source-only reading.",
+    "No novelty against closed predecessor routes established here; that review remains separate."
+  ],
+  "access_exposure": {
+    "read_before_prior_FG_task": "Cachedsource receipt and raw producer already known; currentVII12 was read previously as adjacent source context. Not independent source discovery.",
+    "read_now": "Route; fullFGcompleteunitsMarkdown includingVII8 andVII12; completeVII12 originalHTML; IDEA836 CLI; original/fullappend producer receipts.",
+    "new_sources_or_Voynich_text_images_TSV": false,
+    "other_current_FH_agent_outputs": false,
+    "meaning_G_I_changes_decoder_reserves_contacts_Git_ledger": false,
+    "only_output": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FH_SOURCE_REVIEW.json",
+    "confirmed_words": 0,
+    "manuscript_findings": 0,
+    "independent_confirmation": 0
+  }
+}

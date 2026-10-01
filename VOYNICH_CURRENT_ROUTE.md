@@ -4,11 +4,11 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: FGnewmaterialfamily partial;oldFDC0 retained.
-Latest decision: 14unconsumed16unknown17unbound;noidentitycontrast.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FG_REPORT.md.
-Assumptions: 0words;756inconclusive;836raw;no repairs.
-Resume: Review836completebranchsource and closedprimaries.
+Task: FHnamed earlierproduct type;no targettest selected.
+Latest decision: Type return supported;batchidentity unresolved.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FH_REPORT.md.
+Assumptions: 0words;836not_tested;837raw;oldFG/FDfixed.
+Resume: Nominate full exposed typedbranch context beforeglosses.
 Running: None;threeSolthreads frozen.
 
 ## Structural baseline
