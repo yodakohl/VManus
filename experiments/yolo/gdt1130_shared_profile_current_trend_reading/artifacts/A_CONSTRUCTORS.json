@@ -1,0 +1,109 @@
+{
+  "author": "A",
+  "model": "TREND_CURRENT",
+  "freeze_utc": "2026-10-01T21:38:21.416345+00:00",
+  "before_whole_extension": true,
+  "known_exposure": "Registered prior exposed source scope and nominated .14/.16/.19 strings; full source has not been opened in this author turn.",
+  "types": [
+    "Owner",
+    "Property",
+    "Basis",
+    "TimePair",
+    "Profile",
+    "Field",
+    "FieldValue",
+    "WorldPredicate",
+    "Condition",
+    "Instruction"
+  ],
+  "opaque_constants": [
+    "U:upper-owner",
+    "L:lower-owner",
+    "M:prose-owner",
+    "I:one intensity property",
+    "B:one local calibrated basis",
+    "t0:earlier time",
+    "t1:current time",
+    "theta:current-level threshold"
+  ],
+  "constructors": [
+    {
+      "id": "OWNER",
+      "signature": "written-name -> Owner",
+      "effect": "Introduce or explicitly reference one of U,L,M; never supplies a medicinal or celestial name."
+    },
+    {
+      "id": "PROPERTY",
+      "signature": "written-name -> Property",
+      "effect": "Supply intensity I; owner transfer is not implied."
+    },
+    {
+      "id": "BASIS",
+      "signature": "written-name -> Basis",
+      "effect": "Supply basis B for that owner and property."
+    },
+    {
+      "id": "TIMES",
+      "signature": "written-name -> TimePair",
+      "effect": "Supply t0,t1 with t0<t1; same pair retained within an explicit profile."
+    },
+    {
+      "id": "PROFILE",
+      "signature": "Owner,Property,Basis,TimePair -> Profile",
+      "effect": "Bind one physical owner to intensity on that basis and time pair; all inputs must be written or separately paid in one exact whole compound."
+    },
+    {
+      "id": "FIELD",
+      "signature": "Profile, CURRENT|TREND -> Field",
+      "effect": "CURRENT means I(owner,t1,B); TREND means I(owner,t1,B)-I(owner,t0,B). Both are world quantities, not codebook objects."
+    },
+    {
+      "id": "VALUE",
+      "signature": "LOW|HIGH|RISING|FALLING -> FieldValue",
+      "effect": "LOW compares current quantity with theta; HIGH is >=theta; RISING compares change with zero; FALLING with zero. Types do not interchange."
+    },
+    {
+      "id": "aN",
+      "signature": "Field,FieldValue -> WorldPredicate",
+      "effect": "Apply matching value to field, yielding an actual world proposition about its profile. Same interface in exact licensed okaiin and qokaiin; pending field may await written value, never silently obtains one."
+    },
+    {
+      "id": "ASSERT",
+      "signature": "WorldPredicate -> WorldPredicate",
+      "effect": "Assert the written proposition without claiming independent truth."
+    },
+    {
+      "id": "CONJOIN",
+      "signature": "WorldPredicate,WorldPredicate -> WorldPredicate",
+      "effect": "Conjoin predicates. A LOW_AND_RISING predicate requires identical owner, property, basis and times; otherwise only separate conjunction."
+    },
+    {
+      "id": "CONDITION",
+      "signature": "WorldPredicate -> Condition",
+      "effect": "Make predicate an explicit condition for a written instruction; exact qokaiin extension may add this nonnull effect."
+    },
+    {
+      "id": "OBSERVE",
+      "signature": "Owner,Condition -> Instruction",
+      "effect": "Direct observation of that same owner at t1 under the condition; consumes a real conditional predicate, not a symbolic report."
+    }
+  ],
+  "core_vocabulary": {
+    "okaiin": "Exact licensed CURRENT field plus aN; requires written profile and field value.",
+    "qokaiin": "Exact licensed CURRENT field plus same aN; exact q whole residual also converts resulting predicate to a condition. No universal q rule.",
+    "dal": "RISING trend-value hypothesis only.",
+    "dalg": "LOW current-value hypothesis only, separately priced; no g negation.",
+    "ycheo": "OBSERVE conditional instruction hypothesis; requires explicit owner and condition.",
+    "okol": "Exact profile reference hypothesis; requires an already explicitly introduced profile, never binds owner by repetition alone."
+  },
+  "reference_policy": "Most recently explicitly constructed profile in the same complete native unit, unless a dictionary-fixed exact reference names an existing owner. Native units may open written profiles but line boundaries never do so automatically. Different rings may reuse intensity/basis/times as interfaces but owners U/L differ. No Moon-to-body causal transfer is licensed.",
+  "world_input_policy": "No external measured world data is supplied or claimed. World variable I(owner,time,basis) is hypothetical; assertions/conditions are text hypotheses, not empirical facts. Numerical truth is intentionally unevaluated. Any later outside measurement requires explicit source and new registration.",
+  "dictionary_policy": "Additional exact wholes may compose these twelve frozen families and reuse eight constants only, with each root/alias/compound/reference/default/residual charged. No new singleton action or opaque noun. No null parts, automatic uncertain-space joins, entity decoding or alternate-reader aliases. At first missing operand or unassigned raw whole retain UNKNOWN/BLOCKED; no repair of constructor families.",
+  "part_policy": "Invoke shared aN only on exact licensed forms with actual field-value predication. okoaiin extra internal o is a separately paid exact trend extension. This makes no universal o/prefix grammar.",
+  "limitations": [
+    "World predication construction is exploratory C0, not confirmed translation.",
+    "aN cannot have a nonnull predication effect unless written profile and compatible value are supplied.",
+    "Missing profile/value/consumer inputs produce partiality; no mechanical completeness target can erase those blocks.",
+    "Lower ring owner identity remains U/L opaque and both Sun-like/full-Moon alternatives remain unresolved."
+  ]
+}

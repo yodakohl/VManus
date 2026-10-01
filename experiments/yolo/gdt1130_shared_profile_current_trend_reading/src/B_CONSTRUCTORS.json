@@ -1,0 +1,216 @@
+{
+  "schema": "GDT1130_B_CONSTRUCTOR_FREEZE_v1",
+  "frozen_utc": "2026-10-01T21:41:45.180651+00:00",
+  "model": "STATIC_PROFILE",
+  "author_A_content_read": false,
+  "semantic_level": "C0, all content invented as explicit working hypotheses; no confirmed gloss",
+  "source_path": "src/SOURCE.json",
+  "source_sha256": "2cc848452b87b6fed5a19a6911ce970f32b59110892ebf5281a8ceb67c9a0943",
+  "core_families": [
+    {
+      "id": "INTRO_OWNER",
+      "definition": "The exact introductory word selects the fixed opaque referent Body C or Preparation Y. It asserts existence of that referent and binds owner, now-time tau, owner-relative ordinary reference norm. Repetition selects the identical referent, never a fresh per-line owner."
+    },
+    {
+      "id": "A_N_BIND",
+      "definition": "Exact licensed host+aiin constructs a ProfileField(owner,axis,norm,tau,mode). aiin converts a nominal property axis into an owner-bound predicable property and asserts/assumes owner has that property. It has a real eligibility/possession effect and supplies the field for following grades. Only okaiin, qokaiin, chokaiin, daiin and the separately paid okoaiin are licensed; no global parser. Exact q prefix in qokaiin opens a hypothetical antecedent; exact ch in chokaiin requires preceding world predicate and makes observation of the bound field an explicit consequent, closing the antecedent. Plain okaiin/daiin return to actual mode and close any prior antecedent."
+    },
+    {
+      "id": "ASSERT_GRADE",
+      "definition": "Require retained owner and explicit current field; predicate HIGH/LOW/EQUABLE(owner,axis,norm,tau) in current actual/antecedent mode. HIGH and LOW are opposed only for same owner, axis, norm, time and actual condition. No g-negation rule."
+    },
+    {
+      "id": "ASSERT_QUALITY",
+      "definition": "Predicate one of the frozen quality kinds CLEAR,PALE,WARM,FINE,COHESIVE,SMOOTH on retained owner at tau, in current actual/antecedent mode. It is a world proposition about that owner, not a symbolic-record label."
+    },
+    {
+      "id": "SELECT_FIELD",
+      "definition": "Select Appearance/Substance/Surface axis of existing owner with unchanged norm/tau; exact parameter declares actual or antecedent mode. This does not itself assert a grade, cannot manufacture a fresh owner/basis. No implicit line switch."
+    },
+    {
+      "id": "CONNECT",
+      "definition": "Require last actual or antecedent proposition; exact forms assert its conjunction/implication with next world proposition through an explicit pending relation. A missing following proposition stays partial. No inert grammatical filler."
+    },
+    {
+      "id": "DIRECT",
+      "definition": "Require existing owner and last written world proposition; issue one of RETAIN,CLARIFY,APPLY instructions to that owner, explicitly using that proposition as its stated condition. These are hypothetical instructions, never an efficacy claim or an actual executed event."
+    },
+    {
+      "id": "SEAL",
+      "definition": "Consume last written world proposition/instruction and assert it remains valid under retained owner/norm/tau/condition; lexical scope closure, never line reset or symbolic operation report. Repeats reaffirm the same world content."
+    },
+    {
+      "id": "QUALIFY",
+      "definition": "Consume last written owner proposition and qualify it as persistent or restricted to stated current condition. No new time, source, owner or numerical basis is supplied; restrictions reference existing written condition."
+    },
+    {
+      "id": "EXACT_SEQUENCE",
+      "definition": "An explicitly priced exact whole can run a finite declared sequence of preceding families in stated order. No productive concatenation license; every invoked part has a declared non-null effect. Pure whole residuals can invoke a family directly without any claim of meaningful internal glyph parts."
+    }
+  ],
+  "opaque_content_constants": [
+    "Body C",
+    "Preparation Y",
+    "Appearance axis",
+    "Substance axis",
+    "Surface axis",
+    "tau (one current observation time)",
+    "owner-relative ordinary norm"
+  ],
+  "types": {
+    "Owner": "Body C or Preparation Y",
+    "Axis": "Appearance/Substance/Surface",
+    "Basis": "same owner-relative ordinary norm, no numerical cross-owner comparison",
+    "Time": "tau, no time change constructor",
+    "Mode": "ACTUAL or HYPOTHETICAL_ANTECEDENT",
+    "ProfileField": "Owner+Axis+Basis+Time+Mode with written introduction/reference provenance",
+    "Proposition": "world assertion/condition with Owner,Axis or Quality,Basis where graded,Time and provenance",
+    "Instruction": "directive to same Owner with explicit written Proposition input",
+    "Connective": "pending conjunction/implication with exact source",
+    "Quality": "CLEAR/PALE/WARM/FINE/COHESIVE/SMOOTH",
+    "Grade": "HIGH/LOW/EQUABLE"
+  },
+  "core_dictionary": {
+    "okeo": {
+      "family": "INTRO_OWNER",
+      "owner": "Body C"
+    },
+    "tosheo": {
+      "family": "INTRO_OWNER",
+      "owner": "Preparation Y"
+    },
+    "okaiin": {
+      "family": "A_N_BIND",
+      "host": "ok",
+      "axis": "Appearance",
+      "mode": "ACTUAL",
+      "parts": [
+        "ok",
+        "aiin"
+      ]
+    },
+    "qokaiin": {
+      "family": "A_N_BIND",
+      "host": "ok",
+      "axis": "Appearance",
+      "mode": "HYPOTHETICAL_ANTECEDENT",
+      "parts": [
+        "q",
+        "ok",
+        "aiin"
+      ]
+    },
+    "chokaiin": {
+      "family": "A_N_BIND",
+      "host": "ok",
+      "axis": "Appearance",
+      "mode": "CONSEQUENT_OBSERVATION",
+      "parts": [
+        "ch",
+        "ok",
+        "aiin"
+      ]
+    },
+    "daiin": {
+      "family": "A_N_BIND",
+      "host": "d",
+      "axis": "Substance",
+      "mode": "ACTUAL",
+      "parts": [
+        "d",
+        "aiin"
+      ]
+    },
+    "okoaiin": {
+      "family": "A_N_BIND",
+      "host": "oko",
+      "axis": "Substance",
+      "mode": "ACTUAL",
+      "parts": [
+        "oko",
+        "aiin"
+      ],
+      "price": "separate exact host internal-o extension, no global o rule"
+    },
+    "dal": {
+      "family": "ASSERT_GRADE",
+      "grade": "HIGH"
+    },
+    "dalg": {
+      "family": "ASSERT_GRADE",
+      "grade": "LOW",
+      "price": "whole residual LOW, no g-negation"
+    },
+    "okol": {
+      "family": "ASSERT_QUALITY",
+      "quality": "CLEAR"
+    },
+    "cheo": {
+      "family": "DIRECT",
+      "action": "CLARIFY"
+    },
+    "ycheo": {
+      "family": "DIRECT",
+      "action": "APPLY"
+    },
+    "dy": {
+      "family": "SEAL"
+    },
+    "daldy": {
+      "family": "EXACT_SEQUENCE",
+      "parts": [
+        "dal",
+        "dy"
+      ],
+      "operations": [
+        {
+          "family": "ASSERT_GRADE",
+          "grade": "HIGH"
+        },
+        {
+          "family": "SEAL"
+        }
+      ]
+    },
+    "choldy": {
+      "family": "EXACT_SEQUENCE",
+      "parts": [
+        "chol",
+        "dy"
+      ],
+      "operations": [
+        {
+          "family": "ASSERT_QUALITY",
+          "quality": "COHESIVE"
+        },
+        {
+          "family": "SEAL"
+        }
+      ],
+      "price": "chol exact host introduced here as COHESIVE; no global ch/dy rule"
+    }
+  },
+  "reference_and_basis_policy": [
+    "One explicit introduction per source unit; no owner donated by circle ownership. Body C is a C0 same-body hypothesis across rings, not identified Moon/Sun. Preparation Y is introduced by tosheo; no Moon-body causal transfer asserted.",
+    "The introductory whole also establishes Substance as starting current field, ACTUAL mode, tau and own ordinary norm: four paid ambient assignments.",
+    "Only explicit A_N_BIND/SELECT_FIELD changes axis/mode; paragraph line boundaries do nothing.",
+    "A_N_BIND shares typed operation across fields with differing axes; internal o in okoaiin means separate Substance host, not rising derivative.",
+    "Hypothetical antecedents are written predications but not actual opposite grades. A subsequent ACTUAL binding closes them; no retrospective repair.",
+    "Every nominal host is actual argument to aiin binding; opaque owners are arguments to all world predicates/instructions.",
+    "Unknown marked groups are UNKNOWN and block later derivation in that unit; remaining rows retain exact dictionary inventory only. No uncertainty normalization or automatic joins.",
+    "Fresh exact extensions may parameterize only frozen grades/qualities/actions/axes and compose these families; all residuals/aliases/defaults priced. No new family, time transition or causal bridge after freeze.",
+    "No automatic parsing of ordinary forms; invoked exact compounds state parts/effects. Other raw forms are whole residuals and all unexplained subparts remain charged."
+  ],
+  "freeze_costs": {
+    "core_families": 10,
+    "opaque_constants": 7,
+    "core_whole_forms": 15,
+    "grade_enumerands": 3,
+    "quality_enumerands": 6,
+    "directive_enumerands": 3,
+    "ambient_introduction_assignments": 4,
+    "body_same_referent_across_rings_hypothesis": 1
+  },
+  "prospective_contrast": "okoaiin dal asserts substantial constitution HIGH; okaiin dalg asserts outward appearance LOW for same owner/time but different axes. This supplies a static two-axis rival without asserting a rise. qokaiin can make an appearance HIGH antecedent while okaiin makes appearance LOW actual. No LOW_BUT_RISING predication unless separately written within frozen vocabulary, which has no change constructor.",
+  "extension_policy": "Immutable core families/types/constants/policy. Missing written inputs or native uncertainties yield partial; no repaired core."
+}

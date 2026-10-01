@@ -1,0 +1,306 @@
+{
+  "schema": "gd_pipeline_real_predication_next_v1",
+  "status": "SOURCE_ONLY_BOUNDED_SUPPLY_UNREVIEWED_NOT_SELECTED",
+  "frozen_utc": "2026-10-01T21:42:46.023172+00:00",
+  "decision": "Offer two existing source-complete cards806and601; preserve previous593/597/838without replacement. No third filler or raw clone. Root may select later; no meaning preference or fixed test.",
+  "candidates": [
+    {
+      "id": "IDEA000806",
+      "status": "RAW_UNREVIEWED_NOT_SELECTED_UNTESTED",
+      "title": "One reagent separates gold/silver; an optional added reagent permits gold dissolution",
+      "raw_title_preserved": "RAW UNREVIEWED: ordered reagents dissolve silver first and gold only after reversal",
+      "proposal": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BW_01_SELECTIVE_DISSOLUTION_ORDER.json",
+      "complete_source_path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_COMPLETE_PASSAGES.md",
+      "complete_source_span": "Q4_GOLD_SILVER_SEPARATION, BookI p9/editorial ff15v–16r",
+      "complete_owned_text": "Book I p9, editorial fols15v–16r: complete gold/silver separation with optional added reagent\n\nNow I wole teche ȝou þe maistrie of departynge of gold fro siluir whanne þei be meyngid togidere / Forsoþe ȝe woot weel þat þer be manye werkis in þe whiche gold and siluir be meyngid, as in giltynge of vessel & Iewellis /\n\nþerfore whanne ȝe wole drawe þe toon fro þat oþir, putte al þat mixture into a strong watir maad of vitriol and of sał petre. and þe *siluyr wole be dissolued, and not þe gold: þanne ȝe haue þat oon departid fro þe toþir /\n\nAnd if ȝe wole dissolue þe gold to watir, putte þanne yn þe watir corosyue, Sał armoniac; and þat watir wiþoute doute wole dissolue gold into watir.",
+      "source_predications": [
+        {
+          "subject": "silver a in gold/silver mixture M",
+          "predicate": "DISSOLVES_IN(a,water(vitriol,saltpetre))",
+          "source_status": "ASSERTED_FUTURE_PROCEDURAL_OUTCOME"
+        },
+        {
+          "subject": "gold b in same mixture M",
+          "predicate": "NOT_DISSOLVES_IN(b,water(vitriol,saltpetre))",
+          "source_status": "EXPLICIT_NEGATIVE_UNDER_FIRST_REAGENT"
+        },
+        {
+          "subject": "silver/gold constituents a,b",
+          "predicate": "SEPARATED(a,b) via different first-reagent outcomes",
+          "source_status": "SOURCE_RESULT_CLAIM"
+        },
+        {
+          "subject": "corrosive water w1",
+          "predicate": "ADD(sal_ammoniac,w1) -> w2 when gold dissolution is wanted",
+          "source_status": "CONDITIONAL_COMMAND"
+        },
+        {
+          "subject": "gold b",
+          "predicate": "DISSOLVES_IN(b,w2)",
+          "source_status": "SOURCE_ASSERTED_OUTCOME_OF_OPTIONAL_BRANCH"
+        }
+      ],
+      "actual_consequence": "The first water makes silver dissolved and gold undissolved while both retain material identity. Gold dissolution becomes a claimed outcome only under the added-reagent branch. Changing target recipient, deleting NOT, skipping reagent change, or giving every metal the same first outcome changes this source account.",
+      "independent_unknown": "The source does NOT say what happens to silver under w2; a rival asserting silver becomes undissolved then is neither the literal source nor a supported reciprocal reversal. The optional branch is not necessarily executed in a separation-only case. No new material/celestial Sol/Luna equivalence.",
+      "reuse_offer": "One DISSOLVE(recipient,reagent) assertion interface applies to silver and gold with w1; explicit negative scope preserves the gold exception. The SAME gold reference then enters DISSOLVE(gold,w2), and an actually written added-component construction must distinguish w2 from w1. Directed owner/reagent argument order and finite nominal mixture/reference formation should do work; whole residuals price explicit negative/conditional scope and distinct material names. No word is simply given a long source sentence.",
+      "falsifier": "Under the frozen author meanings/rules, first water cannot entail both DISSOLVES(silver) and NOT_DISSOLVES(gold), or added-sal branch cannot bind the gold/w2 case without reassigning object/reagent identity. Missing written reagent/recipient/negation/conditional expressions give partial C0, not domain falsity.",
+      "historical_plausibility": "Complete alchemical separation procedure in Furnivall-edited Sloane73; editorial manuscript date c1460–70. This is a historical mechanism prior, not an established exact pre1450 witness or Vorlage. One witness also owns762; not independent confirmation.",
+      "different_from_previous_supply": "593 preserves material identity versus appearance and limited cleaning;806instead changes material solubility by recipient and reagent composition, with explicit first-stage material negative.597evaluates an inferred identity;838restricts command scope over kinds.",
+      "primary_predecessors_checked": [
+        {
+          "id": "IDEA000762",
+          "primary": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_RAW_SOL_INTERMEDIATE_CARRIER.json",
+          "difference": "Same witness Q3donor florin persists while virtues transfer through intermediate liquid and direct route forbidden.806is Q4selective destruction/dissolution of constituents under reagent composition. No source-family independence."
+        },
+        {
+          "id": "IDEA000601",
+          "difference": "Related selective outcome, but this offer uses two substances in one mixture and a written reagent-addition condition, rather than body/part and causal/teleological anatomy."
+        }
+      ],
+      "remaining_debts": [
+        "actual target mixture/material names",
+        "shared DISSOLVEpredication",
+        "reagent owner/components",
+        "negative and condition scope",
+        "stable gold referent",
+        "every full paragraph group/uncertainty"
+      ],
+      "readiness": {
+        "phase": "SOURCE_REVIEWED_FOR_BOUNDED_C0_OFFER_NOT_SCIENTIFICALLY_SELECTED",
+        "target_unit": null,
+        "target_forms": null,
+        "target_owner_binding": null,
+        "confirmed_translation": 0,
+        "author_ready": "A finite exploratory author can stipulate a complete owner-bound content account now without confirmed anchors, after root nominates an appropriate complete already-owned target. Every raw group/uncertainty must remain; unknown required input stops the dependent claim. No current author or target content was read here.",
+        "reuse_test": "The SAME directed contribution must affect at least two actual forms or actual object arguments; exact whole residuals may restrict senses/scopes but cannot donate the complete source proposition. No whole-word operation table, null-effect parts, ambient object or generic noun fallback."
+      }
+    },
+    {
+      "id": "IDEA000601",
+      "status": "RAW_UNREVIEWED_NOT_SELECTED_UNTESTED",
+      "title": "RAW selective injury preserves recipient and dependency roles across eye, plant, hair and unborn child",
+      "proposal": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/86_selective_injury_protection_dependent_recipient.json",
+      "source_basis": {
+        "path": "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_II25_SOURCE.txt",
+        "sha256": "c3f9442fe6b2134f3d93f6efa8f65b45d57bdcfc65e8c2a0e31071a2855cd61b",
+        "edition": "Pfeiffer1861 electronic TITUS, complete BookII chapter25; no native manuscript collation.",
+        "institutional_url": "https://titus.uni-frankfurt.de/texte/etcs/germ/mhd/konrmeg/konrmt.htm",
+        "complete_context_notes": "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_THUNDER_C_FIRST.md",
+        "report": "research_registry/proposals/laufenberg_f85r2_20260926/OWNED_SELECTIVE_NEXT_C_REPORT.md",
+        "locus": "93.8–32, full enumerated harmful effects plus the complete Marcia continuation, before the book's advance-warning assertion.",
+        "quote_eye": "daz er im die cristallischen fäuhten verprent in dem augapfel, dar an des gesihtes kraft ligt.",
+        "quote_cover": "dar umb verhüllet diu nâtûr diu fruhttragerlein ... mit pletern, sam dâ ain amme ir kint verhüllet mit windeln",
+        "quote_hair": "sô verprennet er daz dürr lind hâr an im ân des menschen versêrung.",
+        "quote_dependency": "daz von der frawen derschrecken diu pant sich rizzen, dâ mit daz kint gepunden was, und daz selb reizen raiz auch dem kind sein âdern und sein herzlein ab."
+      },
+      "complete_owned_text": "Line: 8 plitzen wirkt auch gar wunderleicheu werch und ist schäd\\leich\nLine: 9 gar an vil dingen. daz êrst ist, daz er dem men\\schen\nLine: 10 diu augen oft verplendet, daz in reht ansiht. daz 10\nLine: 11 ist dâ von, daz er im die cristallischen fäuhten verprent\nLine: 12 in dem augapfel, dar an des gesihtes kraft ligt. daz\nLine: 13 ander ist, daz er die plüet verderbt auf den paumen und\nLine: 14 aller maist die zarten plüet an dem weinreben; dar umb\nLine: 15 verhüllet diu nâtûr diu fruhttragerlein, daz sint die 15\nLine: 16 frühtigen knödel auf den paumen, mit pletern, sam dâ\nLine: 17 ain amme ir kint verhüllet mit windeln, und macht dem\nLine: 18 weinreben gar praiteu pleter, daz er sein weintrauben dâ\nLine: 19 mit verhüll vor dem plitzen. daz dritt ist, daz er oft dem\nLine: 20 menschen daz hâr verprent under den üehsen und an\\derswâ 20\nLine: 21 und doch seinem leib niht schadet. daz ist dar\nLine: 22 umb, daz der dunst niht sô vast vert, daz er dem men\\schen\nLine: 23 schad; seind aber er prinnet und hin und her\nLine: 24 lauft an dem menschen gar snell, sô verprennet er daz\nLine: 25 dürr lind hâr an im ân des menschen versêrung. alsô 25\nLine: 26 geschach, daz Marcia, der Rœmer fürstinne, von ainem\nLine: 27 donr geslagen wart und starp daz kint in irm leib. aber\nLine: 28 ir geschach niht. daz was dar umb, daz diu fruht in\nLine: 29 dem leib dannoch kranch was und daz von der frawen\nLine: 30 derschrecken diu pant sich rizzen, dâ mit daz kint ge\\punden 30\nLine: 31 was, und daz selb reizen raiz auch dem kind sein\nLine: 32 âdern und sein herzlein ab.",
+      "source_predications": [
+        {
+          "subject": "direct viewer ocular medium",
+          "predicate": "BURNS(crystalline_moisture_in_eye) => OFTEN_BLIND(viewer)",
+          "source_status": "SOURCE_CAUSE_CLAIM_WITH_OFTEN_AND_DIRECT_LOOKING"
+        },
+        {
+          "subject": "tender blossoms/fruit-bearing buds",
+          "predicate": "DAMAGES(lightning,blossoms); nature COVERS(buds,leaves) for protection",
+          "source_status": "HARM_CLAIM_PLUS_PURPOSE_NOT_OBSERVED_SUCCESS"
+        },
+        {
+          "subject": "hair h of person p",
+          "predicate": "BURNS(h) AND NOT_INJURED(p)",
+          "source_status": "SOURCE_SELECTIVE_RESULT_WITH_OFTEN"
+        },
+        {
+          "subject": "mother Marcia m and dependent unborn child c",
+          "predicate": "STRUCK(m) AND UNHARMED(m) AND DIES(c)",
+          "source_status": "EXEMPLARY_NARRATIVE_WITH_DISTINCT_OUTCOME_OWNERS"
+        },
+        {
+          "subject": "maternal fright and child binding structures",
+          "predicate": "FRIGHT(m) -> TEARS(child_binding_bands) -> TEARS(child_veins_and_heart) -> DIES(c)",
+          "source_status": "HISTORICAL_EXPLANATION_NOT_MODERN_ANATOMY"
+        }
+      ],
+      "actual_consequence": "Whole-body sparing does not propagate to hair or dependent child. Yet the damaged eye medium affects the viewers sight, so it is equally wrong to declare all part changes irrelevant to a whole. The named relationship and causal bridge, not shared proximity or one generic damage state, determine which actual outcome belongs to whom.",
+      "reuse_offer": "Reuse one owner-sensitive predication interface for BURNS(eye_medium) and BURNS(hair), retaining direct named arguments. Explicit PART_OF(hair,person) differs from DEPENDENT_CHILD_OF(child,mother); they are not aliases of one universal INrelation. A separately paid mediation construction expresses eye_medium->sight and fright->child_binding_damage while the two distinct causes retain exact residual/type restrictions. Whole residuals may select cause, purpose, analogy or narrative assertion, but cannot contain the entire respective outcome. A source-viewer/mother/body referent must be supplied by written expressions.",
+      "falsifier": "Fixed rule transfers burning/harm to every containing body, survival to every dependent child, or one causal mechanism to all blocks; swaps fright owner or damaged bands/veins/heart; asserts leaves guarantee protection or turns nurse analogy into an executed treatment. Each changes explicit source content. Missing target ownership/mechanism leaves partial C0.",
+      "different_from_previous_supply": "597uses observation to reject stone identity.601keeps physically different part/whole/dependent outcomes and specified intermediaries without an identity-refutation argument.806is chemical reagent selectivity.1130current/trend fields cannot alone supply eye-medium loss, hair/body dissociation or mother/child mediated death.",
+      "historical_plausibility": "Complete owned contiguous Megenberg II25effects sequence93.8–32 in electronic Pfeiffer1861/TITUS. Medieval natural-philosophy claims and anatomical analogies are plausible content priors, not verified physiology or a demonstrated manuscript owner. Source itself enumerates first/second/third plus Marcia; no fourfold figure mapping.",
+      "mandatory_source_duties": [
+        "93.8–12: retain often, direct looking at lightning, burning of crystalline moisture in the eyeball, and visual power located there. Blindness has the source's named intermediary; it is a historical claim, not modern guidance.",
+        "93.12–19: retain damage to blossoms and especially tender vine blossoms, fruit-bearing buds covered by leaves, nurse/child/swaddling comparison, and the vine's broad leaves covering grapes against lightning. The source gives nature's protective purpose, not measured efficacy, guaranteed immunity or an instruction to a human nurse/physician.",
+        "93.19–25: retain hair under the armpits and elsewhere, often burning without bodily harm, insufficient force to injure the person, burning rapid movement around the person, and dry soft hair. Rapid and forceful are not silently made one measured variable; no numerical threshold is supplied.",
+        "93.25–32: retain named Marcia, a Roman princely woman, being struck, her unborn child's death and her own lack of harm. Preserve the child still weak, the mother's fright, tearing of the bands binding the child, and that same tearing damaging the child's veins and heart. No unsupported identification of those bands with a modern named organ; no medical truth claim.",
+        "The Marcia continuation is introduced by alsô, linking selective outcome to the preceding account, but supplies a different proposed mechanism. It is not a second observation establishing identical vapour-burning causation or a controlled paired trial.",
+        "The local sequence enumerates first/second/third effects, then adds the Marcia story. It does not enumerate four parallel classes, four actors or four seasons; no figure map follows.",
+        "Preceding92.23–30 says hard bodies such as steel/rock/stone block vapour and break/split, while soft things suffer less; a sword and untranslated spæn break while sheath leather remains whole. Less harm is not universal soft-body immunity. This context must not erase the explicit dry soft hair burning in the focal unit.",
+        "Following93.32–94.1 is the separately retained596 claim and criticism of advance-warning immunity; it is outside this local scope and does not guarantee protection here. Following94.1–7 also reports human non-universal death versus trees/animals and especially eagle/laurel damage; retain its attribution/tension without silently reversing the source to canonical immunity.",
+        "Whole chapter91.13–95.12 remains owned context: vapour formation, perception, stone refutation, sound analogies, later wine story, seasons/places and three final classes. This source offer neither repairs their target contracts nor supplies independent historical attestation."
+      ],
+      "primary_predecessors_checked": [
+        {
+          "id": "IDEA000597",
+          "primary": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/82_cofalling_stone_identity_refutation.json",
+          "difference": "Owns92.11–20stone identity refutation, not the full effects unit93.8–32. Same chapter/witness, no independence."
+        },
+        {
+          "id": "IDEA000565",
+          "primary": "research_registry/proposals/laufenberg_f85r2_20260926/HONEY_EXTENSION_ROOT_DECISION.md",
+          "difference": "Recipient-conditioned food/product account remains nonconfirming at BENEFITS-EXISTS versus demonstrated causal production and unbound SUPPOSE/YIELD scopes. No old honey dictionary/causal rule carried into601; different owned effects do not repair it."
+        },
+        {
+          "id": "W97",
+          "primary": "research_registry/proposals/translation_programs_20260912/work/W97/REPORT.md",
+          "scope": "Live genealogy topic supplies the fixed self-reference stop;601does not offer a generation/name mapping or rescue it."
+        }
+      ],
+      "remaining_debts": [
+        "target viewer and eye medium",
+        "part/body reference",
+        "purpose and analogy scope",
+        "mother/child dependence",
+        "maternal fright and child damaged structures",
+        "all intervening controls and whole unit"
+      ],
+      "readiness": {
+        "phase": "SOURCE_REVIEWED_FOR_BOUNDED_C0_OFFER_NOT_SCIENTIFICALLY_SELECTED",
+        "target_unit": null,
+        "target_forms": null,
+        "target_owner_binding": null,
+        "confirmed_translation": 0,
+        "author_ready": "A finite exploratory author can stipulate a complete owner-bound content account now without confirmed anchors, after root nominates an appropriate complete already-owned target. Every raw group/uncertainty must remain; unknown required input stops the dependent claim. No current author or target content was read here.",
+        "reuse_test": "The SAME directed contribution must affect at least two actual forms or actual object arguments; exact whole residuals may restrict senses/scopes but cannot donate the complete source proposition. No whole-word operation table, null-effect parts, ambient object or generic noun fallback."
+      }
+    }
+  ],
+  "not_offered_as_ready": [
+    {
+      "id": "IDEA000437/335",
+      "reason": "Exact437proposal and complete-source audit inspected, but this tranche found no cached complete primarychapter43text. GDT979alreadyfails the six-atom global permission/no-permission code; no additional states/code/grouping repair and no symbolic obligation table relabelled as a whole C0."
+    },
+    {
+      "id": "IDEA000760",
+      "reason": "D_SOURCE_RECEIPTS explicitly says complete36/39chapters were read by earlier web tool but direct download403and no local fulltext claimed. A local17proposal summary cannot substitute for current exact primaryinspection. Retain lead, no fetch authorized here."
+    },
+    {
+      "id": "IDEA000446",
+      "reason": "Concrete rescript rules remain in raw card, but no complete cached Latin exchange inspected in this tranche; source-summary access alone is insufficient for ready source input."
+    },
+    {
+      "id": "593/597/838duplicates",
+      "reason": "Previoustranche alreadyowns material/seeming, identity rejection and subsetcommands. No changed-source hypothesis or separate consequence warrants cloning those exact mechanisms."
+    }
+  ],
+  "formal_limits": "GDT608directed reuse/exact-whole residuals and entry context retained; no universal o/q/r/l/k/t gloss. GDT1122property/schema/event type barriers retained. Source-world propositions do not assert manuscript meanings.",
+  "raw_action": "Added0cards; existing452semantic raw surplus adequate; exact806/601alreadyown mechanisms. No reviewed merge or decision alteration.",
+  "confirmed_translations": 0,
+  "target_binding_capacity": 0,
+  "access": "Read live route/GDT1130preregistration only, not author files. Existingownedsourcecache/proposals/claimprimaries, topic/registry navigation. No new target query/image/admission/reserve/contact, global edits/refresh, Git.",
+  "screens": {
+    "topics": [
+      "composition",
+      "genealogy",
+      "numbers"
+    ],
+    "shows": [
+      "437",
+      "446",
+      "806",
+      "601",
+      "335",
+      "760",
+      "565"
+    ],
+    "duplicates": [
+      "Benedict permission fault",
+      "reagents dissolve silver gold",
+      "selective injury dependent recipient",
+      "Benedict bread daily meal reserve portion"
+    ],
+    "searches": [
+      "conditional rescript",
+      "one operation different recipient",
+      "permission obligation",
+      "non-erasing",
+      "selective dissolution",
+      "Marcia",
+      "daily bread",
+      "reserved third"
+    ],
+    "route_checks": [
+      "Benedict permission lateness satisfaction fault",
+      "selective injury mother unborn child hair body",
+      "dissolve silver gold saltpetre vitriol",
+      "daily bread allowance third supper reservation"
+    ],
+    "lookups": [
+      "GDT979",
+      "GDT608"
+    ],
+    "reconsider": {
+      "437": "SOURCE_REVIEW_REQUIRED",
+      "806": "SOURCE_REVIEW_REQUIRED",
+      "601": "SOURCE_REVIEW_REQUIRED"
+    },
+    "limits": "Dry screens and lexical hits authorize no reopening; unrelated root closed rows not revived."
+  },
+  "references": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BW_01_SELECTIVE_DISSOLUTION_ORDER.json",
+      "sha256": "505821f0fdbbfc61bfd7c11bb1467885a6262f4b51a29e915e893c979007c664"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/86_selective_injury_protection_dependent_recipient.json",
+      "sha256": "5478f574ca201d5c73128c66a5004ccb0e1e5c06f924965db22b0af6a8597b31"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_COMPLETE_PASSAGES.md",
+      "sha256": "9acf8200d1e9ea35d38a47230cc9e2f39bfaee66530f9ed39ebb6fd8ab5765f5"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_COMPLETE_PASSAGES.json",
+      "sha256": "cc923429ddee8e12b664293ecdb3c7d4cd5e650ba9d27422f768293a5a195318"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_PRODUCER_REPORT.md",
+      "sha256": "fba314422eb1961602bf595be5aba765c82119ae6e9f288cfe75dcb956493c12"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_RAW_SOL_INTERMEDIATE_CARRIER.json",
+      "sha256": "f420ff311d4b784dd3a194882245e6a5da1b757e960a1ec46717ffd03d674cac"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_II25_SOURCE.txt",
+      "sha256": "c3f9442fe6b2134f3d93f6efa8f65b45d57bdcfc65e8c2a0e31071a2855cd61b"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/OWNED_SELECTIVE_NEXT_C_REPORT.md",
+      "sha256": "db195297d1e2c15ff17bf74b1a28d5f9d3260288753877c582472cab3e38199e"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/HONEY_EXTENSION_ROOT_DECISION.md",
+      "sha256": "8a87246d1081053d095d9a24bb5504fe9556ab6ce8772d4891538002f91d3586"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/TWO_SMALL_CONTENT_MODELS_SUPPLY_20260920.md",
+      "sha256": "5efbea1bf055a11e0bad1bfe8b23c46e6d7d0032a9b8dfdb5bedfaa386bc3ec7"
+    },
+    {
+      "path": "experiments/yolo/gdt979_partial_action_compound_accounts/REPORT.md",
+      "sha256": "cb69d1dd5b4741923607151387db23a194a4cbc6370acb0de860f6d9200aa688"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/D_SOURCE_RECEIPTS.json",
+      "sha256": "f76ef6b5d7f0b622ecf4e53bb0b41dc2d58296cdf1e9abb8e091d0a6db1a48bd"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_PIPELINE_REAL_PREDICATION.md",
+      "sha256": "d68c1b85ed1fec488919e36457cbfa9473162f0670131e6cfcdde00001ab74fa"
+    },
+    {
+      "path": "experiments/yolo/gdt1130_shared_profile_current_trend_reading/PREREGISTRATION.md",
+      "sha256": "ffff112d952c559acddca03aba12da1014f9f860983f7e723f423c98ab2af9c8"
+    }
+  ],
+  "next": "Root scientificselection and complete-targetnomination only. This boundedtranche is frozen; awaitfollowup,no unattendedexecution."
+}

@@ -1,15 +1,15 @@
 # Voynich current route
-Updated: 2026-10-01. Live resume point.
+Updated: 2026-10-02. Live resume point.
 
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1130 shared current/trend whole C0.
-Latest decision: 1129 symbolic only; try actual predication.
-Working files: experiments/yolo/gdt1130_shared_profile_current_trend_reading/.
-Assumptions: Fixed grammar; source exposed; zero meanings.
-Resume: Audit both full accounts, owner/basis and parts.
-Running: Independent authors/pipeline; minimum2Oct06:09:20UTC.
+Task: Whole opposed-wind survivor C0.
+Latest decision: 1130 partial; static continuation contradicts.
+Working files: GD_WIND_ROUTE.md in source_supply_20260929.
+Assumptions: Fixed grammar; exposed sources; zero meanings.
+Resume: Register full survivor/fresh-output comparison.
+Running: Root selection; minimum2Oct06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

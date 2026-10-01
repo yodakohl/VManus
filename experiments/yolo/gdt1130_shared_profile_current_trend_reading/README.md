@@ -1,3 +1,1 @@
-# GDT1130 — shared current/trend whole readings
-
-Registered exploratory authoring. See PREREGISTRATION.md; no new meaning selected.
+GDT1130: partial current/trend world fragment; exact static continuation contradicted. See REPORT.md, PREREGISTRATION.md and artifacts/CANDIDATE_TABLE.tsv. No meaning selected.

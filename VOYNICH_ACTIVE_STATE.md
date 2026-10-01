@@ -1,3 +1,16 @@
+## 2026-10-02 GD/GDT1130: real predication fragment, no whole reading
+
+A constructs current LOW and signed RISING on one retained owner/property/basis;
+sar/ycheo actually consume their conjunction and owner.46unresolved intervening
+positions leave continuity unproved; terminaldaiin blocked,0completeunits. B's
+static SubstanceHIGH/AppearanceLOW seed is compatible; exactITcontinuation
+assertsLOW/HIGHAppearance at identicalowner/norm/tau/ACTUAL. Rejectthatfixed
+continuation, notstaticmeanings; static-with-written-time rival remains. Both
+288nativeledgers/frozenpins retained;67accountingchecks prove nosemantics.
+Twoexposedleaves68/89,0words/independentconfirmation. Do notrepair either
+dictionary oropenreserves. Nextdifferentwholeparticipant/reference duty.
+[Decision](experiments/yolo/gdt1130_shared_profile_current_trend_reading/REPORT.md).
+
 ## 2026-10-01 GD/GDT1129: whole accounts, no semantic selection
 
 A completes IT59 as a costly symbolic relation construction:39 whole entries,

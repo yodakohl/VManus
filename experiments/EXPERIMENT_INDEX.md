@@ -1152,4 +1152,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 - GDT1129: complete symbolic IT account; event account retains strict gaps; hybrid survives. [Decision](yolo/gdt1129_whole_reciprocal_relation_description/REPORT.md), [six candidate/reader cases](yolo/gdt1129_whole_reciprocal_relation_description/artifacts/CANDIDATE_TABLE.tsv). No meaning selected.
 
-- GDT1130: registered exploratory whole current/trend versus static profile readings. [Preregistration](yolo/gdt1130_shared_profile_current_trend_reading/PREREGISTRATION.md). No result yet.
+- GDT1130: partial owner-directed current/trend fragment; exact static IT continuation contradicted. [Decision](yolo/gdt1130_shared_profile_current_trend_reading/REPORT.md), [six cases](yolo/gdt1130_shared_profile_current_trend_reading/artifacts/CANDIDATE_TABLE.tsv). No meaning selected.

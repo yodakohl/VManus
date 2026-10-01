@@ -1,0 +1,456 @@
+{
+  "schema": "GDT1130_ACCOUNTING_ONLY_v1",
+  "status": "PASS_ACCOUNTING_ONLY_MANUAL_REVIEW_REQUIRED",
+  "source_sha256": "2cc848452b87b6fed5a19a6911ce970f32b59110892ebf5281a8ceb67c9a0943",
+  "inputs": {
+    "A": {
+      "account_sha256": "cf1fd39cbdd9c0c57dfa7888ea028379e7d828692a87ce32d0bdaa00b0262ddd",
+      "constructor_sha256": "4bba07028d870018c0b857875abb0986c4430ea9f5bb015378a2ce27cb25be04"
+    },
+    "B": {
+      "account_sha256": "c63e620a9b7d5de6248aca36c67c5c43672d526daeb0c07ba7038aa9baa23dad",
+      "constructor_sha256": "98171fd814a8e81ac5e2260cdd4bc42de7ca54fa4ad916ed47fec029f87f7b04"
+    }
+  },
+  "checks": [
+    {
+      "check": "lossless_source_reproduces_registered_packets",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:released_account_identity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:released_constructor_identity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:account_source_pin",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:account_constructor_pin",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:constructor_family_limit",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:constant_limit",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:exact_288_native_ID_coverage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:unchanged_native_values_where_materialized",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:dictionary_forms_unique",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:repeated_declared_dictionary_rule_identity",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:all_embedded_SOURCE_rows_exact",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:dictionary_all_exact_forms_including_unknowns",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:dictionary_occurrence_lists_exact",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:step_families_declared",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:object_type_labels_declared",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:recorded_object_and_consumption_references_exist",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:named_constant_values_from_freeze",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:row_statuses_explicit",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:fragment_not_complete_unit_claim",
+      "status": "PASS",
+      "details": {
+        "FRAGMENT_ACCOUNTED": 96,
+        "UNKNOWN": 182,
+        "BLOCKED": 10
+      }
+    },
+    {
+      "check": "A:assigned_unresolved_dictionary_costs",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:primitive_assignment_costs",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:exact_alias_costs",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "A:shared_part_declarations_and_references",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:at_least_two_declared_licensed_aN_forms",
+      "status": "PASS",
+      "details": {
+        "supported_forms": [
+          "chokaiin",
+          "daiin",
+          "okaiin",
+          "qokaiin"
+        ],
+        "declarations": 21,
+        "actual_nonnull_semantic_effect_verified": false
+      }
+    },
+    {
+      "check": "A:released_inputs_unchanged_after_checks",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:released_account_identity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:released_constructor_identity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:account_source_pin",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:account_constructor_pin",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:constructor_family_limit",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:constant_limit",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:exact_288_native_ID_coverage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:unchanged_native_values_where_materialized",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "B:dictionary_forms_unique",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:repeated_declared_dictionary_rule_identity",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "B:all_SOURCE_fields_exact",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:frozen_core_families",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:frozen_types",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:frozen_opaque_content_constants",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:frozen_reference_and_basis_policy",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:extension_pin",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:core_and_extension_dictionary_identity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:each_added_whole_priced",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:core_extension_constant_cost_counts",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:all_occurrences_use_identical_whole_entry",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:materialized_step_families_declared",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:row_statuses_explicit",
+      "status": "PASS",
+      "details": {
+        "DERIVED_C0_WORLD_CONTENT": 161,
+        "UNKNOWN_FIRST_BARRIER": 6,
+        "BLOCKED_AFTER_FIRST_BARRIER": 121
+      }
+    },
+    {
+      "check": "B:recorded_consumer_producer_references_exist",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "B:exact_repeat_inventory_positions",
+      "status": "PASS",
+      "details": {
+        "interpreted_repeat_types": 75,
+        "unassigned_repeated_raw_forms": [
+          "@152;aiin",
+          "@231;@232;@233;@234;",
+          "dcheo{cy}"
+        ],
+        "unassigned_forms_have_no_semantic_repeat_identity": true
+      }
+    },
+    {
+      "check": "B:unit_counts_IT2a_UPPER_RING",
+      "status": "PASS",
+      "details": {
+        "operational_complete": false,
+        "author_complete": false,
+        "semantic_coherence_assessment": "NO_OPPOSED_ACTUAL_GRADE_IN_MATERIALIZED_ROWS"
+      }
+    },
+    {
+      "check": "B:unit_counts_IT2a_LOWER_RING",
+      "status": "PASS",
+      "details": {
+        "operational_complete": true,
+        "author_complete": true,
+        "semantic_coherence_assessment": "NO_OPPOSED_ACTUAL_GRADE"
+      }
+    },
+    {
+      "check": "B:unit_counts_IT2a_PROSE",
+      "status": "PASS",
+      "details": {
+        "operational_complete": true,
+        "author_complete": false,
+        "semantic_coherence_assessment": "EXACT_CONTRADICTION"
+      }
+    },
+    {
+      "check": "B:unit_counts_ZL3b_UPPER_RING",
+      "status": "PASS",
+      "details": {
+        "operational_complete": false,
+        "author_complete": false,
+        "semantic_coherence_assessment": "NO_OPPOSED_ACTUAL_GRADE_IN_MATERIALIZED_ROWS"
+      }
+    },
+    {
+      "check": "B:unit_counts_ZL3b_LOWER_RING",
+      "status": "PASS",
+      "details": {
+        "operational_complete": false,
+        "author_complete": false,
+        "semantic_coherence_assessment": "NO_OPPOSED_ACTUAL_GRADE_IN_MATERIALIZED_ROWS"
+      }
+    },
+    {
+      "check": "B:unit_counts_ZL3b_PROSE",
+      "status": "PASS",
+      "details": {
+        "operational_complete": false,
+        "author_complete": false,
+        "semantic_coherence_assessment": "NO_OPPOSED_ACTUAL_GRADE_IN_MATERIALIZED_ROWS"
+      }
+    },
+    {
+      "check": "B:unit_counts_RF1b_UPPER_RING",
+      "status": "PASS",
+      "details": {
+        "operational_complete": true,
+        "author_complete": true,
+        "semantic_coherence_assessment": "NO_OPPOSED_ACTUAL_GRADE"
+      }
+    },
+    {
+      "check": "B:unit_counts_RF1b_LOWER_RING",
+      "status": "PASS",
+      "details": {
+        "operational_complete": false,
+        "author_complete": false,
+        "semantic_coherence_assessment": "NO_OPPOSED_ACTUAL_GRADE_IN_MATERIALIZED_ROWS"
+      }
+    },
+    {
+      "check": "B:unit_counts_RF1b_PROSE",
+      "status": "PASS",
+      "details": {
+        "operational_complete": false,
+        "author_complete": false,
+        "semantic_coherence_assessment": "NO_OPPOSED_ACTUAL_GRADE_IN_MATERIALIZED_ROWS"
+      }
+    },
+    {
+      "check": "B:declared_exact_parts_concatenate",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:shared_aiin_effect_declarations_same_nonempty",
+      "status": "PASS",
+      "details": {
+        "forms": [
+          "okaiin",
+          "qokaiin",
+          "chokaiin",
+          "daiin"
+        ],
+        "actual_semantic_interface_verified": false
+      }
+    },
+    {
+      "check": "B:part_materialization_positions_real",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:released_inputs_unchanged_after_checks",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "B:final_receipt_file_pins",
+      "status": "PASS"
+    },
+    {
+      "check": "B:temporary_replay_exact_account_and_reading_bytes",
+      "status": "PASS",
+      "details": {
+        "return_codes": [
+          0,
+          0
+        ],
+        "semantic_validation": false
+      }
+    },
+    {
+      "check": "B:original_replay_inputs_and_outputs_unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "SOURCE_unchanged_after_checks",
+      "status": "PASS",
+      "details": null
+    }
+  ],
+  "manual_review": [
+    {
+      "author": "A",
+      "author_status": "PARTIAL_C0_NO_COMPLETE_WHOLE_READING",
+      "required_review": [
+        "Source metadata not materialized in a row remains pinned in SOURCE; inspect omitted author fields separately.",
+        "Each reused constant denotes one fixed content value; actual typed references and paid overload conditions.",
+        "Shared part: at least two exact licensed forms, same interface and actual non-null owner/property/basis effect.",
+        "Every residual/default/alias is priced and cannot override frozen core/types.",
+        "UNKNOWN/BLOCKED versus full construction, actual consumers and connected reading.",
+        "World predication, lower-owner ambiguity, common basis/time/condition and discriminating consequence."
+      ],
+      "automatic_semantic_certification": false
+    },
+    {
+      "author": "B",
+      "author_status": "EXACT_IT_STATIC_CANDIDATE_CONTRADICTED_NATIVE_UNCERTAINTIES_PARTIAL",
+      "required_review": [
+        "Source metadata not materialized in a row remains pinned in SOURCE; inspect omitted author fields separately.",
+        "Each reused constant denotes one fixed content value; actual typed references and paid overload conditions.",
+        "Shared part: at least two exact licensed forms, same interface and actual non-null owner/property/basis effect.",
+        "Every residual/default/alias is priced and cannot override frozen core/types.",
+        "UNKNOWN/BLOCKED versus full construction, actual consumers and connected reading.",
+        "World predication, lower-owner ambiguity, common basis/time/condition and discriminating consequence."
+      ],
+      "automatic_semantic_certification": false
+    }
+  ],
+  "semantic_winner": null,
+  "confirmed_meanings": 0,
+  "claim_ceiling": "Exact source/declaration accounting only. Repeated labels and declared non-null effects are not proven semantic interfaces or complete readings."
+}
