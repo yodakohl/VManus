@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Root closure of GDT1131 whole wind accounts.
-Latest decision: C completes IT N/E C0; A interface/B references fail.
-Working files: gdt1131_opposed_wind_survivor_succession.
+Task: GDT1132 seed-material original-agent derivation.
+Latest decision: 1131 C complete IT C0; no meaning selected.
+Working files: gdt1132_seed_material_agent_derivation.
 Assumptions: Fixed grammar; exposed sources; zero meanings.
-Resume: Publish actual nine-case table; select cross-domain duty.
-Running: Root closure; bounded producer/audits; min06:09:20UTC.
+Resume: Publish contract; run derived Person consumers.
+Running: Author/validator plus producer; min06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

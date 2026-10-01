@@ -1155,3 +1155,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 - GDT1130: partial owner-directed current/trend fragment; exact static IT continuation contradicted. [Decision](yolo/gdt1130_shared_profile_current_trend_reading/REPORT.md), [six cases](yolo/gdt1130_shared_profile_current_trend_reading/artifacts/CANDIDATE_TABLE.tsv). No meaning selected.
 
 - GDT1131: C complete conditional IT N19/E27 wind description; A frozen interface/E dead reference, B three dead references; all alternate readers partial. [Decision](yolo/gdt1131_opposed_wind_survivor_succession/REPORT.md). No meaning selected.
+
+- GDT1132: registered material-to-original-agent derivation and actual Person consumers; four fixed policies, complete seed-rite obligations. [Contract](yolo/gdt1132_seed_material_agent_derivation/PREREGISTRATION.md). No result yet.
