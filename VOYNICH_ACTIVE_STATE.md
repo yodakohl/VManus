@@ -1,3 +1,6 @@
+<!-- FD 2026-10-01 -->
+FD:full17ITpaidC0deposit/retainsediment/dry-moistportions;13newvalues8rules,73maps11rulesfixed,52rawgroups. N6/N7genericmoistureconditionshardcodeproperties;AIIN/DAIINrelation andDAIIN/QOTEEDYsynonymdebts absent. Localconnectedgraph notmeaningwinner;noauthorrepair. Nextallmatchednewtypedproperty/argumentframes, no morefreeglosseshere;FBZLconflict/FCremain.0words0independentleaves;834raw. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FD_REPORT.md.
+
 <!-- FC 2026-10-01 -->
 FC:542exactDAIN/LFCHEDYduties;258ownparagraphs15662groups frozen73valueoverlay. Four outsideDAINcandidate loci on3leaves, notresolvedentities; outsideLFCHEDY113blocked. No portablegraph/semantic test; hardcodedzero is no-claim, notimpossibility. PreserveFBlocalC0/ZLscopeconflict;no reference repair or repeatedcapacityscan. Nextcompletecontent hypothesis mustsupplyactualparticipant/consumer, notnominallabels.0words0independentleaves;832not_tested;833raw. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FC_REPORT.md.
 

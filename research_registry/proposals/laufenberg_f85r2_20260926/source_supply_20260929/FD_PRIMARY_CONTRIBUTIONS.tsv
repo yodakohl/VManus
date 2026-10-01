@@ -1,0 +1,18 @@
+source_group_id	raw	G_value	I_value	type	entity	event	contribution	rules
+IT2a|f113r.37|G001	tshedy	preparation	preparation	PREPARATION_MATERIAL	P	None	Introduces a preparation P	R1,N1,N2,N8
+IT2a|f113r.37|G002	qokaiin	of-liquid	of-liquid	LIQUID_GENITIVE_RELATION	L	None	GENITIVE(P,L); does not replace this value by liquid	R1,N1,N8
+IT2a|f113r.37|G003	shedar	deposits	deposits	DEPOSITION_PREDICATE	None	E1	DEPOSIT(E1,P,R) with both resolved material roles	R1,N2,N8
+IT2a|f113r.37|G004	sheocphy	sediment	sediment	RESIDUE_MATERIAL	R	None	Introduces sediment R	R1,N2,N8
+IT2a|f113r.37|G005	okchdy	fine	fine	GRANULARITY_PROPERTY	R	None	FINE(R)	R1,N2,N8
+IT2a|f113r.37|G006	pcheody	afterward	afterward	SEQUENCE_OPERATOR	None	['E1', 'E2']	BEFORE(E1,E2); no unresolved boundary	R1,N3,N8
+IT2a|f113r.37|G007	opchear	retain	retain	RETENTION_PREDICATE	R	E2	RETAIN(E2,R)	R1,N4,N8
+IT2a|f113r.37|G008	opchedy	gently	gently	MANNER_PROPERTY	None	E2	GENTLE(E2)	R1,N4,N8
+IT2a|f113r.37|G009	lfchedy	that-material	that-material	MATERIAL_REFERENCE	R	E2	R6 chooses R then N4 uses that written argument	R1,R6,N4,N8
+IT2a|f113r.37|G010	otal	covered	covered	COVER_STATE_PROPERTY	R	E2	COVERED_DURING(R,E2)	R1,N4,N8
+IT2a|f113r.38|G001	daiin	portion	portion	PORTION_RELATION	U	None	PART_OF(U,R), with paid shared carrier R	R1,N5,N6,N8
+IT2a|f113r.38|G002	sheor	dry	dry	MOISTURE_PROPERTY	U	None	DRY(U)	R1,N6,N8
+IT2a|f113r.38|G003	qoteey	store	store	STORAGE_PREDICATE	U	E3	STORE(E3,U)	R1,N6,N8
+IT2a|f113r.38|G004	daiin	portion	portion	PORTION_RELATION	V	None	Same portion value; PART_OF(V,R) under paired carrier scope	R1,N5,N7,N8
+IT2a|f113r.38|G005	okchedy	moist	moist	MOISTURE_PROPERTY	V	None	MOIST(V)	R1,N7,N8
+IT2a|f113r.38|G006	sheos	expose	expose	EXPOSURE_PREDICATE	V	E4	EXPOSE(E4,V,H)	R1,N7,N8
+IT2a|f113r.38|G007	aiin	air	air	AIR_MATERIAL	H	E4	Introduces H air and fills exposure medium slot	R1,N7,N8

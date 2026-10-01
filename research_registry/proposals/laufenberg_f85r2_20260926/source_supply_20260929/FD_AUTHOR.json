@@ -1,0 +1,2639 @@
+{
+  "unit": "FD AUTHOR",
+  "status": "COMPLETE_PRIMARY_C0_PROSPECTIVE_CONSTRUCTION_UNCONFIRMED",
+  "freeze_utc": "2026-10-01T00:52:46.810635+00:00",
+  "timing": {
+    "first_tool_clock_utc": "2026-10-01T00:45:42+00:00",
+    "end_inclusive_utc": "2026-10-01T00:52:46.810635+00:00",
+    "elapsed_seconds": 424.810635,
+    "cap_seconds": 480,
+    "receipt_to_first_clock": "Parent predispatch00:44:43UTC; verified firsttool00:45:42UTC. Cap counted from verified firsttool as assigned."
+  },
+  "inputs_sha256": {
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FD_DECISION.json": "5dc4b8cf56b9b765b03d40f7d3b14c1e4c7369e708528fbb68104b6b80c36270",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FD_SELECTION_REVIEW.json": "60aefd3bec1a333d388605e81bcdb26f3dda3564d1e2a8ade791721d9b6dde2a",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FD_FOCUS_PACKET.json": "dd5108d844e77a0e29810d725448c0ce22c89b7a82d8b00c8cf9f1206386f068",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FD_WORD_PRIORS.json": "8989ec634e6e2d007c9532dfc837ae48260e33521030cd0e7d16599ea09fe3c8",
+    "VOYNICH_CURRENT_ROUTE.md": "fb4927edb608303b6c0d3ea46f6b82e2d3cdee312c8365342c6f1abe24b37658"
+  },
+  "source_receipt": {
+    "cache_role": "disposable descriptive cache; no semantic conclusions",
+    "guard_stats": {
+      "selected": 96184,
+      "skipped_forbidden": 2122,
+      "skipped_not_allowed": 17164
+    },
+    "inputs": {
+      "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "allowlist_sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "code": "tools/word_profiles.py",
+      "code_sha256": "1e9cb2017525e8ee3fd07b6a088e73b28b1e4fe4e7c9d17b83b892b94d0943c6",
+      "columns": [
+        "source_group_id",
+        "edition",
+        "page",
+        "locus",
+        "section",
+        "currier",
+        "hand",
+        "kind",
+        "source_group_index",
+        "source_group_count",
+        "ivtff_group_raw",
+        "left_separator",
+        "right_separator"
+      ],
+      "exposure": "previously exposed exploration; not independent confirmation",
+      "matching": "exact_raw_group",
+      "reader_policy": "alternate readings, never pooled",
+      "schema_version": 1,
+      "selector_count": 179,
+      "selectors": [
+        "f100r",
+        "f100v",
+        "f102r1",
+        "f102v1",
+        "f102v2",
+        "f103r",
+        "f103v",
+        "f104r",
+        "f104v",
+        "f105r",
+        "f105v",
+        "f106r",
+        "f106v",
+        "f107r",
+        "f107v",
+        "f108r",
+        "f108v",
+        "f10r",
+        "f10v",
+        "f111r",
+        "f111v",
+        "f112r",
+        "f112v",
+        "f113r",
+        "f113v",
+        "f114r",
+        "f114v",
+        "f115r",
+        "f115v",
+        "f116r",
+        "f11r",
+        "f11v",
+        "f13r",
+        "f13v",
+        "f14r",
+        "f14v",
+        "f15r",
+        "f15v",
+        "f16r",
+        "f16v",
+        "f17r",
+        "f17v",
+        "f18r",
+        "f18v",
+        "f19r",
+        "f19v",
+        "f20r",
+        "f20v",
+        "f21r",
+        "f21v",
+        "f22r",
+        "f22v",
+        "f23r",
+        "f23v",
+        "f24r",
+        "f24v",
+        "f25r",
+        "f25v",
+        "f26r",
+        "f26v",
+        "f27r",
+        "f28r",
+        "f28v",
+        "f29r",
+        "f29v",
+        "f2r",
+        "f2v",
+        "f30r",
+        "f30v",
+        "f31r",
+        "f32r",
+        "f32v",
+        "f33r",
+        "f33v",
+        "f34r",
+        "f34v",
+        "f35r",
+        "f35v",
+        "f36r",
+        "f36v",
+        "f37r",
+        "f37v",
+        "f38r",
+        "f38v",
+        "f39r",
+        "f39v",
+        "f3r",
+        "f3v",
+        "f40r",
+        "f40v",
+        "f41r",
+        "f41v",
+        "f42r",
+        "f42v",
+        "f43r",
+        "f43v",
+        "f44r",
+        "f44v",
+        "f45r",
+        "f45v",
+        "f46r",
+        "f46v",
+        "f47r",
+        "f47v",
+        "f48r",
+        "f48v",
+        "f49r",
+        "f49v",
+        "f4r",
+        "f4v",
+        "f50r",
+        "f50v",
+        "f51r",
+        "f51v",
+        "f52r",
+        "f52v",
+        "f53r",
+        "f53v",
+        "f54v",
+        "f55r",
+        "f55v",
+        "f56r",
+        "f56v",
+        "f58r",
+        "f58v",
+        "f5r",
+        "f5v",
+        "f66r",
+        "f66v",
+        "f6r",
+        "f6v",
+        "f75r",
+        "f75v",
+        "f76r",
+        "f76v",
+        "f77r",
+        "f77v",
+        "f78r",
+        "f78v",
+        "f79r",
+        "f79v",
+        "f7r",
+        "f7v",
+        "f80r",
+        "f80v",
+        "f81r",
+        "f81v",
+        "f82r",
+        "f82v",
+        "f83r",
+        "f83v",
+        "f85r1",
+        "f85r2",
+        "f86v3",
+        "f86v5",
+        "f86v6",
+        "f87r",
+        "f87v",
+        "f88r",
+        "f88v",
+        "f89r1",
+        "f89v1",
+        "f8r",
+        "f8v",
+        "f90r1",
+        "f93r",
+        "f93v",
+        "f94r",
+        "f94v",
+        "f95r1",
+        "f95r2",
+        "f95v1",
+        "f95v2",
+        "f96r",
+        "f96v",
+        "f99r",
+        "f99v",
+        "f9r",
+        "f9v"
+      ],
+      "source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "source_sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    }
+  },
+  "exposure": "Root/FCreadfullIT/ZL paragraphs earlier; nativeRF38 cachequeriedafterFDregistration. Allpreviouslyprojectexposed admitted source; no independentholdout.",
+  "primary_reader": "IT2a",
+  "native_paragraph": "f113r|f113r.37-f113r.38",
+  "native_boundary_policy": "OwnIT/ZL GDT928 paragraph; RF ownlines only no paragraph borrowing",
+  "frozen73": {
+    "G": {
+      "saiin": "then",
+      "sho": "moist-preparation",
+      "sheody": "helps",
+      "oteeo": "becomes",
+      "qotchy": "purging/cleansing-efficacy",
+      "chody": "internal-use",
+      "qotain": "prepared-medicine",
+      "lkchey": "removes-U-from-P",
+      "chol": "drug-stock",
+      "okaiin": "liquid",
+      "dalchedy": "impure",
+      "chedy": "pure",
+      "lchey": "drug-stock",
+      "ror": "stock-impurity",
+      "dshedy": "moist-preparation",
+      "qokeedy": "flows",
+      "pchedy": "cleansing",
+      "lpchedy": "using-cleansing-preparation",
+      "lkechedy": "using-purified-preparation",
+      "solchedy": "here",
+      "qokain": "is",
+      "qokaiin": "of-liquid",
+      "shedy": "moist-preparation",
+      "qotedy": "from-mouth",
+      "otedy": "mouth",
+      "qoteedy": "portion",
+      "qokal": "in-basin",
+      "shedar": "deposits",
+      "daror": "residue",
+      "chcthy": "drug-extract",
+      "lchedy": "purified",
+      "qokaly": "into-basin",
+      "olchey": "receiving-liquid",
+      "qotey": "at-rest",
+      "olcheedy": "charged",
+      "sar": "batch",
+      "lom": "remains",
+      "cheeol": "mixture",
+      "qotal": "into-receiver",
+      "chckhey": "dose",
+      "qolkain": "mix",
+      "cheeky": "carefully",
+      "lol": "with-liquid",
+      "chckhy": "ready",
+      "qokeey": "flow-capable-liquid",
+      "qotary": "of-receiver",
+      "pchdaiin": "preparation-charge",
+      "otaiin": "in-vessel",
+      "cheedy": "clarified",
+      "qokeeey": "continuous-flow-capable-liquid",
+      "lkeeedy": "using-continuous-flow",
+      "cheey": "clear",
+      "lor": "fraction",
+      "eeedy": "flows-continuously",
+      "ychedal": "subsequently",
+      "checkhey": "dose-characterized",
+      "checkhy": "ready-characterized",
+      "qoteosam": "into",
+      "chos": "receiving-vessel",
+      "lkeedy": "using-flow",
+      "lkedy": "using-pulsed-flow",
+      "polal": "patient",
+      "shedal": "boil-up",
+      "qofchedy": "root",
+      "pykeor": "oil",
+      "cheefy": "old",
+      "qopchey": "in",
+      "opchedal": "apply",
+      "lfchedy": "that-material",
+      "pchal": "skin",
+      "dain": "that-stock",
+      "lcheeol": "portion-of",
+      "keeol": "that-liquid"
+    },
+    "I": {
+      "saiin": "then",
+      "sho": "moist-preparation",
+      "sheody": "helps",
+      "oteeo": "becomes",
+      "qotchy": "purging/cleansing-efficacy",
+      "chody": "internal-use",
+      "qotain": "prepared-medicine",
+      "lkchey": "removes-U-from-P",
+      "chol": "drug-stock",
+      "okaiin": "liquid",
+      "dalchedy": "impure",
+      "chedy": "pure",
+      "lchey": "drug-stock",
+      "ror": "stock-impurity",
+      "dshedy": "moist-preparation",
+      "qokeedy": "flows",
+      "pchedy": "cleansing",
+      "lpchedy": "using-cleansing-preparation",
+      "lkechedy": "using-purified-preparation",
+      "solchedy": "here",
+      "qokain": "is",
+      "qokaiin": "of-liquid",
+      "shedy": "moist-preparation",
+      "qotedy": "from-mouth",
+      "otedy": "mouth",
+      "qoteedy": "portion",
+      "qokal": "in-basin",
+      "shedar": "deposits",
+      "daror": "residue",
+      "chcthy": "drug-extract",
+      "lchedy": "purification-intended",
+      "qokaly": "into-basin",
+      "olchey": "receiving-liquid",
+      "qotey": "at-rest",
+      "olcheedy": "charged",
+      "sar": "batch",
+      "lom": "remains",
+      "cheeol": "mixture",
+      "qotal": "into-receiver",
+      "chckhey": "dose",
+      "qolkain": "mix",
+      "cheeky": "carefully",
+      "lol": "with-liquid",
+      "chckhy": "ready",
+      "qokeey": "flow-capable-liquid",
+      "qotary": "of-receiver",
+      "pchdaiin": "preparation-charge",
+      "otaiin": "in-vessel",
+      "cheedy": "clarified",
+      "qokeeey": "continuous-flow-capable-liquid",
+      "lkeeedy": "using-continuous-flow",
+      "cheey": "clear",
+      "lor": "fraction",
+      "eeedy": "flows-continuously",
+      "ychedal": "subsequently",
+      "checkhey": "dose-characterized",
+      "checkhy": "ready-characterized",
+      "qoteosam": "into",
+      "chos": "receiving-vessel",
+      "lkeedy": "using-flow",
+      "lkedy": "using-pulsed-flow",
+      "polal": "patient",
+      "shedal": "boil-up",
+      "qofchedy": "root",
+      "pykeor": "oil",
+      "cheefy": "old",
+      "qopchey": "in",
+      "opchedal": "apply",
+      "lfchedy": "that-material",
+      "pchal": "skin",
+      "dain": "that-stock",
+      "lcheeol": "portion-of",
+      "keeol": "that-liquid"
+    }
+  },
+  "retained_new12": {
+    "polal": {
+      "value": "patient",
+      "type": "PERSON",
+      "arity": 0,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "shedal": {
+      "value": "boil-up",
+      "type": "HEAT_PREDICATE",
+      "arity": 2,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "qofchedy": {
+      "value": "root",
+      "type": "ROOT_MATERIAL",
+      "arity": 0,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "pykeor": {
+      "value": "oil",
+      "type": "OIL_MATERIAL",
+      "arity": 0,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "cheefy": {
+      "value": "old",
+      "type": "AGE_PROPERTY",
+      "arity": 1,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "qopchey": {
+      "value": "in",
+      "type": "MEDIUM_POSTPOSITION",
+      "arity": 1,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "opchedal": {
+      "value": "apply",
+      "type": "APPLICATION_PREDICATE",
+      "arity": 2,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "lfchedy": {
+      "value": "that-material",
+      "type": "MATERIAL_REFERENCE",
+      "arity": 0,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "pchal": {
+      "value": "skin",
+      "type": "BODY_SITE",
+      "arity": 0,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "dain": {
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "arity": 0,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "lcheeol": {
+      "value": "portion-of",
+      "type": "PARCEL_RELATION",
+      "arity": 2,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "keeol": {
+      "value": "that-liquid",
+      "type": "LIQUID_REFERENCE",
+      "arity": 0,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    }
+  },
+  "frozen11_rules": {
+    "R1": {
+      "name": "Exact overlay and type inheritance",
+      "condition": "Whole raw token exactly matches a declared dictionary key; no entity substitution, splitting, joining or spelling normalization. ROOT_MATERIAL is a subtype of drug-stock/solid material; OIL_MATERIAL is a subtype of liquid.",
+      "output": "One fixed atomic value/type per exact whole. Known parent value survives G/I unchanged.",
+      "scope": "All nominated IT/ZL/RF positions; no outside verification claimed."
+    },
+    "R2": {
+      "name": "Clinical topic",
+      "condition": "A PERSON nominal immediately precedes HEAT_PREDICATE at the start of a currently unbound directive frame.",
+      "output": "Introduce person P and generic clinical instruction episode A; P is the intended recipient/topic, not heat object.",
+      "scope": "Typed contiguous pattern; no line boundary supplies an unexpressed person."
+    },
+    "R3": {
+      "name": "Prefix property",
+      "condition": "A property immediately precedes a compatible new material noun inside an unbound argument NP; parent-bound property assignments have priority and are never changed.",
+      "output": "Attach property to that noun only; cleansing at IT36G003 applies to ROOT at G004.",
+      "scope": "Immediate typed adjacency; no arbitrary attachment across unknowns."
+    },
+    "R4": {
+      "name": "Postfix age property",
+      "condition": "A new material noun is immediately followed by AGE_PROPERTY.",
+      "output": "Attach age to the immediately preceding noun; oil-old yields OLD(O), not OLD(R).",
+      "scope": "Immediate typed adjacency, stops at unknown or another head."
+    },
+    "R5": {
+      "name": "Root-in-medium heat frame",
+      "condition": "HEAT_PREDICATE followed by a solid argument NP and liquid argument NP terminated by MEDIUM_POSTPOSITION.",
+      "output": "Create generic instruction HEAT(solid, liquid medium); no extraction, separation, filtering, root removal, mixing or purification result.",
+      "scope": "Contiguous typed atoms, with optional R3/R4 NP modifiers; no unknown skipped."
+    },
+    "R6": {
+      "name": "Typed backward reference",
+      "condition": "A MATERIAL_REFERENCE/STOCK_REFERENCE/LIQUID_REFERENCE occurs after resolved nominal mentions.",
+      "output": "Choose the most recent compatible resolved material/stock/liquid entity in written order. Unknown tokens never introduce a guessed referent. If no compatible referent is available or an unresolved boundary obstructs scope, return UNBOUND.",
+      "scope": "Current resolved discourse frame; type restrictions are semantic hypotheses, not spelling laws."
+    },
+    "R7": {
+      "name": "Application argument and body-site ownership",
+      "condition": "APPLICATION_PREDICATE followed by a resolved MATERIAL_REFERENCE and BODY_SITE in a clinical-topic frame.",
+      "output": "Create generic APPLY(material, site) with topic person as recipient; site owned by that person is a paid default clinical grammar assumption. Material comes from the written reference, not a free placeholder.",
+      "scope": "Contiguous typed atoms; unresolved person/reference/site prevents complete application graph."
+    },
+    "R8": {
+      "name": "Directive order",
+      "condition": "Two resolved action frames follow under the same clinical topic with no phase marker or unknown between them.",
+      "output": "Procedure order HEAT before APPLY; neither actual execution nor completion is asserted.",
+      "scope": "Generic instruction aspect; does not replace parent actual stream episodes/phases."
+    },
+    "R9": {
+      "name": "Stock reintroduction",
+      "condition": "STOCK_REFERENCE immediately followed by old drug-stock nominal.",
+      "output": "Bind old D_stock nominal to the previously written compatible root reference through SAME_MATERIAL; root subtype is explicitly paid.",
+      "scope": "Contiguous exact atom pair; no unseen extraction relation."
+    },
+    "R10": {
+      "name": "Written parcel-of carrier continuation",
+      "condition": "PARCEL_RELATION followed by resolved LIQUID_REFERENCE then an old instrumental-flow operator and its explicit liquid material nominal.",
+      "output": "Instrument material is a parcel of referenced liquid. Parcel identity is distinct; do not merge stream events or all liquid tokens. The parent history supplies M38 co-material and subsequent M39/M40/etc identity, unchanged.",
+      "scope": "Contiguous typed frame; if a reader separates/changes any atom the relation is unbound, not repaired."
+    },
+    "R11": {
+      "name": "Parent commitment priority and unknown transparency",
+      "condition": "Any inherited positive role/entity/event/phase/attachment commitment is present, or raw token has no exact declared value.",
+      "output": "Copy inherited commitment literally; new graph adds only paid refinements. Every unmatched raw is UNKNOWN, interrupts new frame composition, and contributes an unresolved position rather than a guessed clause. RF graph is not inherited by reader analogy.",
+      "scope": "All82/86/81 positions. New local frames do not imply a full paragraph parse."
+    }
+  },
+  "frozen_parent_binding": "FB_AUTHOR.json hash and existingpositivegraph/history remain unchanged; no targetparticipant identity copied from f111r",
+  "parent_FB_AUTHOR_sha256": "e622c91b912bedc35baf71c685e8799ad23aa14f87f01460d3d4224c42ca6319",
+  "new_atomic_values": {
+    "tshedy": {
+      "value": "preparation",
+      "type": "PREPARATION_MATERIAL",
+      "arity": 0,
+      "definition": "A prepared material; subtype moist-preparation for this declared tuple, not identical to its liquid component."
+    },
+    "sheocphy": {
+      "value": "sediment",
+      "type": "RESIDUE_MATERIAL",
+      "arity": 0,
+      "definition": "A deposited material residue; no purity, medicinal efficacy or extraction result encoded."
+    },
+    "okchdy": {
+      "value": "fine",
+      "type": "GRANULARITY_PROPERTY",
+      "arity": 1,
+      "definition": "Small-grained; no PURE/IMPURE judgment."
+    },
+    "pcheody": {
+      "value": "afterward",
+      "type": "SEQUENCE_OPERATOR",
+      "arity": 2,
+      "definition": "Orders the preceding resolved episode before the following episode."
+    },
+    "opchear": {
+      "value": "retain",
+      "type": "RETENTION_PREDICATE",
+      "arity": 1,
+      "definition": "Keep the specified material available; no filtering or removal."
+    },
+    "opchedy": {
+      "value": "gently",
+      "type": "MANNER_PROPERTY",
+      "arity": 1,
+      "definition": "Gentle manner of the action; no application or mixing meaning."
+    },
+    "otal": {
+      "value": "covered",
+      "type": "COVER_STATE_PROPERTY",
+      "arity": 1,
+      "definition": "A covered state of a material; no cover action, cover identity, vessel or seal supplied."
+    },
+    "daiin": {
+      "value": "portion",
+      "type": "PORTION_RELATION",
+      "arity": 2,
+      "definition": "A material portion relative to a carrier. Quantity, size, event and carrier identity require grammar; identical value at both occurrences."
+    },
+    "sheor": {
+      "value": "dry",
+      "type": "MOISTURE_PROPERTY",
+      "arity": 1,
+      "definition": "Dry material condition; no drying action."
+    },
+    "qoteey": {
+      "value": "store",
+      "type": "STORAGE_PREDICATE",
+      "arity": 1,
+      "definition": "Keep a material in storage; no vessel, period or patient supplied."
+    },
+    "okchedy": {
+      "value": "moist",
+      "type": "MOISTURE_PROPERTY",
+      "arity": 1,
+      "definition": "Moist material condition; not the inherited whole moist-preparation noun."
+    },
+    "sheos": {
+      "value": "expose",
+      "type": "EXPOSURE_PREDICATE",
+      "arity": 2,
+      "definition": "Expose a material to a medium; no guarantee of drying or efficacy."
+    },
+    "aiin": {
+      "value": "air",
+      "type": "AIR_MATERIAL",
+      "arity": 0,
+      "definition": "Air as a medium/material. No duration, quantity, botanical taxon or season."
+    }
+  },
+  "new_rules": {
+    "N1": {
+      "condition": "PREPARATION_MATERIAL followed immediately by old QOKAIIN of-liquid at the start of this new content clause.",
+      "output": "Introduce distinct P preparation and L liquid; GENITIVE(P,L), with P head and L dependent. PREPARATION_OF(P,L) is a paid genitive interpretation, not identity P=L.",
+      "scope": "New clause content only; never changes QOKAIIN or old parent attachments."
+    },
+    "N2": {
+      "condition": "Resolved preparation NP, old SHEDAR, RESIDUE_MATERIAL, immediately postfix GRANULARITY_PROPERTY.",
+      "output": "DEPOSIT(E1,agent=P,theme=R); FINE(R). Subject is the preparation NP, object the residue NP. No basin or removal inferred.",
+      "scope": "Typed composition of this new clause; old SHEDAR stays transitive deposits."
+    },
+    "N3": {
+      "condition": "SEQUENCE_OPERATOR after a closed deposit clause and before a RETENTION_PREDICATE frame.",
+      "output": "BEFORE(E1,E2); retains current resolved material discourse frame; the marker is a resolved operator, not UNKNOWN or a frame reset.",
+      "scope": "New content sequence only; no parent phase or event changed."
+    },
+    "N4": {
+      "condition": "RETENTION_PREDICATE, MANNER_PROPERTY, old MATERIAL_REFERENCE, COVER_STATE_PROPERTY in that order.",
+      "output": "R6 resolves reference first; RETAIN(E2,theme=R), GENTLE(E2), COVERED_DURING(R,E2). The action consumes the written reference; postfix covered is a state qualification.",
+      "scope": "New typed retention frame. Does not alter R6 and does not reuse old R7 application grammar."
+    },
+    "N5": {
+      "condition": "A closed retention frame explicitly consumed a resolved material, followed by paired PORTION_RELATION clauses.",
+      "output": "Make that explicitly referenced material R the shared base-carrier of the pair. Each portion introduces its own new material U or V and PART_OF(U,R)/PART_OF(V,R). No portion is coidentical with R; distinct discourse variables do not assert physically disjoint samples.",
+      "scope": "Paid new topic/parallelism grammar; fixed carrier belongs to the pair, not a most-recent-reference repair. No R6 invocation for DAIIN."
+    },
+    "N6": {
+      "condition": "PORTION_RELATION, immediately postfix MOISTURE_PROPERTY, then STORAGE_PREDICATE.",
+      "output": "Introduce U portion of shared carrier R; DRY(U) restricts the portion; STORE(E3,theme=U). Preverbal NP supplies object in this new directive pattern.",
+      "scope": "New portion clause only; quantity/duration unspecified, no omitted patient."
+    },
+    "N7": {
+      "condition": "A second PORTION_RELATION, immediately postfix MOISTURE_PROPERTY, EXPOSURE_PREDICATE, AIR_MATERIAL.",
+      "output": "Introduce V portion of the same N5 carrier R and H air; MOIST(V); EXPOSE(E4,theme=V,medium=H). The second material nominal is the medium because of the declared predicate frame.",
+      "scope": "New parallel portion clause only; no drying result or event chronology between E3/E4."
+    },
+    "N8": {
+      "condition": "These closed new descriptive/directive frames occur in their own complete IT paragraph, with typed predicate valencies resolving clause cuts.",
+      "output": "E1 is a generic deposition description; E2/E3/E4 are generic recommendations. Retention and the portion pair share topic R. No actual execution, physiological success, exhaustive division, numerical amount, patient or authority is asserted. The written line break is layout only.",
+      "scope": "Aspect, clause cuts and topic continuation are paid new grammar, unconfirmed and owed globally wherever these constructions are asserted. Never extends or repairs f111r."
+    }
+  },
+  "primary_positions": [
+    {
+      "source_group_id": "IT2a|f113r.37|G001",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 1,
+      "source_group_count": 10,
+      "ivtff_group_raw": "tshedy",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 1,
+      "value_G": "preparation",
+      "value_I": "preparation",
+      "type": "PREPARATION_MATERIAL",
+      "entity": "P",
+      "event": null,
+      "role": "genitive head and deposition agent",
+      "contribution": "Introduces a preparation P",
+      "rule_ids": [
+        "R1",
+        "N1",
+        "N2",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G002",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 2,
+      "source_group_count": 10,
+      "ivtff_group_raw": "qokaiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 2,
+      "value_G": "of-liquid",
+      "value_I": "of-liquid",
+      "type": "LIQUID_GENITIVE_RELATION",
+      "entity": "L",
+      "event": null,
+      "role": "liquid genitive dependent of P",
+      "contribution": "GENITIVE(P,L); does not replace this value by liquid",
+      "rule_ids": [
+        "R1",
+        "N1",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G003",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 3,
+      "source_group_count": 10,
+      "ivtff_group_raw": "shedar",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 3,
+      "value_G": "deposits",
+      "value_I": "deposits",
+      "type": "DEPOSITION_PREDICATE",
+      "entity": null,
+      "event": "E1",
+      "role": "transitive predicate",
+      "contribution": "DEPOSIT(E1,P,R) with both resolved material roles",
+      "rule_ids": [
+        "R1",
+        "N2",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G004",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 4,
+      "source_group_count": 10,
+      "ivtff_group_raw": "sheocphy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 4,
+      "value_G": "sediment",
+      "value_I": "sediment",
+      "type": "RESIDUE_MATERIAL",
+      "entity": "R",
+      "event": null,
+      "role": "deposition theme and material nominal",
+      "contribution": "Introduces sediment R",
+      "rule_ids": [
+        "R1",
+        "N2",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G005",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 5,
+      "source_group_count": 10,
+      "ivtff_group_raw": "okchdy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 5,
+      "value_G": "fine",
+      "value_I": "fine",
+      "type": "GRANULARITY_PROPERTY",
+      "entity": "R",
+      "event": null,
+      "role": "postfix granular property",
+      "contribution": "FINE(R)",
+      "rule_ids": [
+        "R1",
+        "N2",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G006",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 6,
+      "source_group_count": 10,
+      "ivtff_group_raw": "pcheody",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 6,
+      "value_G": "afterward",
+      "value_I": "afterward",
+      "type": "SEQUENCE_OPERATOR",
+      "entity": null,
+      "event": [
+        "E1",
+        "E2"
+      ],
+      "role": "sequence operator",
+      "contribution": "BEFORE(E1,E2); no unresolved boundary",
+      "rule_ids": [
+        "R1",
+        "N3",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G007",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 7,
+      "source_group_count": 10,
+      "ivtff_group_raw": "opchear",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 7,
+      "value_G": "retain",
+      "value_I": "retain",
+      "type": "RETENTION_PREDICATE",
+      "entity": "R",
+      "event": "E2",
+      "role": "reference consumer predicate",
+      "contribution": "RETAIN(E2,R)",
+      "rule_ids": [
+        "R1",
+        "N4",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G008",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 8,
+      "source_group_count": 10,
+      "ivtff_group_raw": "opchedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 8,
+      "value_G": "gently",
+      "value_I": "gently",
+      "type": "MANNER_PROPERTY",
+      "entity": null,
+      "event": "E2",
+      "role": "manner modifier",
+      "contribution": "GENTLE(E2)",
+      "rule_ids": [
+        "R1",
+        "N4",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G009",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 9,
+      "source_group_count": 10,
+      "ivtff_group_raw": "lfchedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 9,
+      "value_G": "that-material",
+      "value_I": "that-material",
+      "type": "MATERIAL_REFERENCE",
+      "entity": "R",
+      "event": "E2",
+      "role": "resolved material argument",
+      "contribution": "R6 chooses R then N4 uses that written argument",
+      "rule_ids": [
+        "R1",
+        "R6",
+        "N4",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G010",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 10,
+      "source_group_count": 10,
+      "ivtff_group_raw": "otal",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "paragraph_position": 10,
+      "value_G": "covered",
+      "value_I": "covered",
+      "type": "COVER_STATE_PROPERTY",
+      "entity": "R",
+      "event": "E2",
+      "role": "postfix state qualifier",
+      "contribution": "COVERED_DURING(R,E2)",
+      "rule_ids": [
+        "R1",
+        "N4",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.38|G001",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.38",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 1,
+      "source_group_count": 7,
+      "ivtff_group_raw": "daiin",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 11,
+      "value_G": "portion",
+      "value_I": "portion",
+      "type": "PORTION_RELATION",
+      "entity": "U",
+      "event": null,
+      "role": "portion nominal, fronted storage object",
+      "contribution": "PART_OF(U,R), with paid shared carrier R",
+      "rule_ids": [
+        "R1",
+        "N5",
+        "N6",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.38|G002",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.38",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 2,
+      "source_group_count": 7,
+      "ivtff_group_raw": "sheor",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 12,
+      "value_G": "dry",
+      "value_I": "dry",
+      "type": "MOISTURE_PROPERTY",
+      "entity": "U",
+      "event": null,
+      "role": "postfix moisture property",
+      "contribution": "DRY(U)",
+      "rule_ids": [
+        "R1",
+        "N6",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.38|G003",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.38",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 3,
+      "source_group_count": 7,
+      "ivtff_group_raw": "qoteey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 13,
+      "value_G": "store",
+      "value_I": "store",
+      "type": "STORAGE_PREDICATE",
+      "entity": "U",
+      "event": "E3",
+      "role": "storage predicate",
+      "contribution": "STORE(E3,U)",
+      "rule_ids": [
+        "R1",
+        "N6",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.38|G004",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.38",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 4,
+      "source_group_count": 7,
+      "ivtff_group_raw": "daiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 14,
+      "value_G": "portion",
+      "value_I": "portion",
+      "type": "PORTION_RELATION",
+      "entity": "V",
+      "event": null,
+      "role": "portion nominal, fronted exposure theme",
+      "contribution": "Same portion value; PART_OF(V,R) under paired carrier scope",
+      "rule_ids": [
+        "R1",
+        "N5",
+        "N7",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.38|G005",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.38",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 5,
+      "source_group_count": 7,
+      "ivtff_group_raw": "okchedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 15,
+      "value_G": "moist",
+      "value_I": "moist",
+      "type": "MOISTURE_PROPERTY",
+      "entity": "V",
+      "event": null,
+      "role": "postfix moisture property",
+      "contribution": "MOIST(V)",
+      "rule_ids": [
+        "R1",
+        "N7",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.38|G006",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.38",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 6,
+      "source_group_count": 7,
+      "ivtff_group_raw": "sheos",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "paragraph_position": 16,
+      "value_G": "expose",
+      "value_I": "expose",
+      "type": "EXPOSURE_PREDICATE",
+      "entity": "V",
+      "event": "E4",
+      "role": "exposure predicate",
+      "contribution": "EXPOSE(E4,V,H)",
+      "rule_ids": [
+        "R1",
+        "N7",
+        "N8"
+      ]
+    },
+    {
+      "source_group_id": "IT2a|f113r.38|G007",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.38",
+      "section": "S",
+      "currier": "B",
+      "hand": "3",
+      "kind": "P",
+      "source_group_index": 7,
+      "source_group_count": 7,
+      "ivtff_group_raw": "aiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "paragraph_position": 17,
+      "value_G": "air",
+      "value_I": "air",
+      "type": "AIR_MATERIAL",
+      "entity": "H",
+      "event": "E4",
+      "role": "written exposure medium",
+      "contribution": "Introduces H air and fills exposure medium slot",
+      "rule_ids": [
+        "R1",
+        "N7",
+        "N8"
+      ]
+    }
+  ],
+  "alternate_readings": {
+    "ZL3b": {
+      "positions": [
+        {
+          "source_group_id": "ZL3b|f113r.37|G001",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 1,
+          "source_group_count": 10,
+          "ivtff_group_raw": "tshedy",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 1,
+          "value": "preparation",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.37|G002",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 2,
+          "source_group_count": 10,
+          "ivtff_group_raw": "qokaiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 2,
+          "value": "of-liquid",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.37|G003",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 3,
+          "source_group_count": 10,
+          "ivtff_group_raw": "shedar",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 3,
+          "value": "deposits",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.37|G004",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 4,
+          "source_group_count": 10,
+          "ivtff_group_raw": "sheocphy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 4,
+          "value": "sediment",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.37|G005",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 5,
+          "source_group_count": 10,
+          "ivtff_group_raw": "okchdy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 5,
+          "value": "fine",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.37|G006",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 6,
+          "source_group_count": 10,
+          "ivtff_group_raw": "pcheody",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 6,
+          "value": "afterward",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.37|G007",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 7,
+          "source_group_count": 10,
+          "ivtff_group_raw": "opchear",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 7,
+          "value": "retain",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.37|G008",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 8,
+          "source_group_count": 10,
+          "ivtff_group_raw": "opchedy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 8,
+          "value": "gently",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.37|G009",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 9,
+          "source_group_count": 10,
+          "ivtff_group_raw": "lfchedy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 9,
+          "value": "that-material",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.37|G010",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 10,
+          "source_group_count": 10,
+          "ivtff_group_raw": "otal",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_or_line_bundle_position": 10,
+          "value": "covered",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.38|G001",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 1,
+          "source_group_count": 7,
+          "ivtff_group_raw": "daiin",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 11,
+          "value": "portion",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.38|G002",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 2,
+          "source_group_count": 7,
+          "ivtff_group_raw": "sheor",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 12,
+          "value": "dry",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.38|G003",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 3,
+          "source_group_count": 7,
+          "ivtff_group_raw": "qoteey",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 13,
+          "value": "store",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.38|G004",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 4,
+          "source_group_count": 7,
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 14,
+          "value": "portion",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.38|G005",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 5,
+          "source_group_count": 7,
+          "ivtff_group_raw": "okchedy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 15,
+          "value": "moist",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.38|G006",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 6,
+          "source_group_count": 7,
+          "ivtff_group_raw": "sheo[s:r]",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 16,
+          "value": "UNKNOWN",
+          "entity": null,
+          "event": null,
+          "role": "unresolved raw group",
+          "contribution": "UNKNOWN barrier; no normalization or reader alias",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "ZL3b|f113r.38|G007",
+          "edition": "ZL3b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 7,
+          "source_group_count": 7,
+          "ivtff_group_raw": "aiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_or_line_bundle_position": 17,
+          "value": "air",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        }
+      ],
+      "complete_graph": false,
+      "reason": "ZL sheo[s:r] is not exact SHEOS or SHEOR; final exposure predicate unresolved."
+    },
+    "RF1b": {
+      "positions": [
+        {
+          "source_group_id": "RF1b|f113r.37|G001",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 1,
+          "source_group_count": 10,
+          "ivtff_group_raw": "tshedy",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 1,
+          "value": "preparation",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.37|G002",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 2,
+          "source_group_count": 10,
+          "ivtff_group_raw": "qokaiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 2,
+          "value": "of-liquid",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.37|G003",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 3,
+          "source_group_count": 10,
+          "ivtff_group_raw": "shedar",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 3,
+          "value": "deposits",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.37|G004",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 4,
+          "source_group_count": 10,
+          "ivtff_group_raw": "sheocphy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 4,
+          "value": "sediment",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.37|G005",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 5,
+          "source_group_count": 10,
+          "ivtff_group_raw": "okchdy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 5,
+          "value": "fine",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.37|G006",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 6,
+          "source_group_count": 10,
+          "ivtff_group_raw": "pcheody",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 6,
+          "value": "afterward",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.37|G007",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 7,
+          "source_group_count": 10,
+          "ivtff_group_raw": "opchear",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 7,
+          "value": "retain",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.37|G008",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 8,
+          "source_group_count": 10,
+          "ivtff_group_raw": "opchedy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 8,
+          "value": "gently",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.37|G009",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 9,
+          "source_group_count": 10,
+          "ivtff_group_raw": "lfchedy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 9,
+          "value": "that-material",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.37|G010",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.37",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 10,
+          "source_group_count": 10,
+          "ivtff_group_raw": "otal",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_or_line_bundle_position": 10,
+          "value": "covered",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.38|G001",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 1,
+          "source_group_count": 8,
+          "ivtff_group_raw": "daiin",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 11,
+          "value": "portion",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.38|G002",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 2,
+          "source_group_count": 8,
+          "ivtff_group_raw": "sheor",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 12,
+          "value": "dry",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.38|G003",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 3,
+          "source_group_count": 8,
+          "ivtff_group_raw": "qoteey",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 13,
+          "value": "store",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.38|G004",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 4,
+          "source_group_count": 8,
+          "ivtff_group_raw": "@152;aiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 14,
+          "value": "UNKNOWN",
+          "entity": null,
+          "event": null,
+          "role": "unresolved raw group",
+          "contribution": "UNKNOWN barrier; no normalization or reader alias",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.38|G005",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 5,
+          "source_group_count": 8,
+          "ivtff_group_raw": "okched",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "UNCERTAIN_SMALL_SPACE",
+          "paragraph_or_line_bundle_position": 15,
+          "value": "UNKNOWN",
+          "entity": null,
+          "event": null,
+          "role": "unresolved raw group",
+          "contribution": "UNKNOWN barrier; no normalization or reader alias",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.38|G006",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 6,
+          "source_group_count": 8,
+          "ivtff_group_raw": "y",
+          "left_separator": "UNCERTAIN_SMALL_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 16,
+          "value": "UNKNOWN",
+          "entity": null,
+          "event": null,
+          "role": "unresolved raw group",
+          "contribution": "UNKNOWN barrier; no normalization or reader alias",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.38|G007",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 7,
+          "source_group_count": 8,
+          "ivtff_group_raw": "sheos",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_or_line_bundle_position": 17,
+          "value": "expose",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        },
+        {
+          "source_group_id": "RF1b|f113r.38|G008",
+          "edition": "RF1b",
+          "page": "f113r",
+          "locus": "f113r.38",
+          "section": "S",
+          "currier": "B",
+          "hand": "3",
+          "kind": "P",
+          "source_group_index": 8,
+          "source_group_count": 8,
+          "ivtff_group_raw": "aiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_or_line_bundle_position": 18,
+          "value": "air",
+          "entity": null,
+          "event": null,
+          "role": "exact atomic overlay only; own graph not asserted",
+          "contribution": "Retained own raw token; primary entity identity not inherited",
+          "rule_ids": [
+            "R1",
+            "R11"
+          ]
+        }
+      ],
+      "complete_graph": false,
+      "reason": "RF @152;aiin, okched, y are distinct unknown raw groups; uncertain small space not joined. RF own lines lack paragraph flag; no IT boundary borrowed."
+    }
+  },
+  "phrase_graph": {
+    "entities": [
+      {
+        "id": "P",
+        "type": "PREPARATION_MATERIAL",
+        "anchor": 1,
+        "identity": "distinct from L and R",
+        "role": "deposit agent; genitive head"
+      },
+      {
+        "id": "L",
+        "type": "LIQUID",
+        "anchor": 2,
+        "identity": "distinct from P and R; not oil by default",
+        "role": "genitive liquid dependent"
+      },
+      {
+        "id": "R",
+        "type": "RESIDUE_MATERIAL",
+        "anchor": 4,
+        "identity": "distinct residue discourse entity",
+        "role": "deposit theme; reference antecedent; retention theme; portion carrier"
+      },
+      {
+        "id": "U",
+        "type": "PORTION_MATERIAL",
+        "anchor": 11,
+        "identity": "portion relative to R; no specified amount",
+        "role": "dry storage theme"
+      },
+      {
+        "id": "V",
+        "type": "PORTION_MATERIAL",
+        "anchor": 14,
+        "identity": "new portion relative to R; no asserted disjointness from U",
+        "role": "moist exposure theme"
+      },
+      {
+        "id": "H",
+        "type": "AIR_MATERIAL",
+        "anchor": 17,
+        "identity": "air medium, not L or oil",
+        "role": "exposure medium"
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "predicate": "deposits",
+        "anchor": 3,
+        "agent": "P",
+        "theme": "R",
+        "aspect": "generic description",
+        "rules": [
+          "N1",
+          "N2",
+          "N8"
+        ]
+      },
+      {
+        "id": "E2",
+        "predicate": "retain",
+        "anchor": 7,
+        "theme": "R",
+        "manner": "gentle",
+        "state_during": "covered(R)",
+        "aspect": "generic recommendation",
+        "rules": [
+          "N3",
+          "N4",
+          "R6",
+          "N8"
+        ]
+      },
+      {
+        "id": "E3",
+        "predicate": "store",
+        "anchor": 13,
+        "theme": "U",
+        "condition": "dry(U)",
+        "aspect": "generic recommendation",
+        "rules": [
+          "N5",
+          "N6",
+          "N8"
+        ]
+      },
+      {
+        "id": "E4",
+        "predicate": "expose",
+        "anchor": 16,
+        "theme": "V",
+        "medium": "H",
+        "condition": "moist(V)",
+        "aspect": "generic recommendation",
+        "rules": [
+          "N5",
+          "N7",
+          "N8"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "GENITIVE",
+        "arguments": [
+          "P",
+          "L"
+        ],
+        "anchors": [
+          1,
+          2
+        ],
+        "rules": [
+          "N1"
+        ]
+      },
+      {
+        "predicate": "FINE",
+        "arguments": [
+          "R"
+        ],
+        "anchors": [
+          4,
+          5
+        ],
+        "rules": [
+          "N2"
+        ]
+      },
+      {
+        "predicate": "BEFORE",
+        "arguments": [
+          "E1",
+          "E2"
+        ],
+        "anchors": [
+          6
+        ],
+        "rules": [
+          "N3"
+        ]
+      },
+      {
+        "predicate": "PART_OF",
+        "arguments": [
+          "U",
+          "R"
+        ],
+        "anchors": [
+          9,
+          11
+        ],
+        "rules": [
+          "N5",
+          "N6"
+        ]
+      },
+      {
+        "predicate": "PART_OF",
+        "arguments": [
+          "V",
+          "R"
+        ],
+        "anchors": [
+          9,
+          14
+        ],
+        "rules": [
+          "N5",
+          "N7"
+        ]
+      }
+    ],
+    "clause_spans": [
+      [
+        1,
+        5
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        14,
+        17
+      ]
+    ],
+    "clause_cuts_basis": "Typed valency closures and written sequence operator; no punctuation inferred from line break.",
+    "connectivity": "All clauses connect through explicit sediment R and paid portion carrier relations; E1 has P/L/R, E2 consumes R, E3/U and E4/V/H connect to R. No participant copied from f111r."
+  },
+  "anchor_discharge": {
+    "QOKAIIN": {
+      "head": "P at1",
+      "liquid": "L at2",
+      "relation": "GENITIVE(P,L)",
+      "paid_interpretation": "preparation of liquid; P and L distinct",
+      "not_bare_liquid": true
+    },
+    "SHEDAR": {
+      "event": "E1",
+      "agent": "P at1",
+      "theme": "R at4",
+      "aspect": "generic deposition description under N8",
+      "location": "not asserted; basin not universal"
+    },
+    "LFCHEDY": {
+      "reference_position": 9,
+      "compatible_prior_nominals_written_order": [
+        {
+          "position": 1,
+          "entity": "P",
+          "type": "PREPARATION_MATERIAL"
+        },
+        {
+          "position": 2,
+          "entity": "L",
+          "type": "LIQUID"
+        },
+        {
+          "position": 4,
+          "entity": "R",
+          "type": "RESIDUE_MATERIAL"
+        }
+      ],
+      "most_recent": "R at4",
+      "intervening_positions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "intervening_resolved_roles": [
+        "fine property",
+        "afterward sequence operator preserving frame",
+        "retain consumer predicate",
+        "gently manner"
+      ],
+      "unknown_barrier": false,
+      "R6_result": "R",
+      "written_consumer": "OPCHEAR at7 RETAIN(E2,R), completed by reference at9 under N4",
+      "no_boundary_skip": true
+    }
+  },
+  "whole_reading": {
+    "English": "A preparation of liquid deposits a fine sediment. Afterward, gently retain that material in a covered state. Store a dry portion; expose a moist portion to air.",
+    "German": "Eine Zubereitung aus Flüssigkeit setzt ein feinkörniges Sediment ab. Danach dieses Material behutsam in bedecktem Zustand aufbewahren. Einen trockenen Teil lagern; einen feuchten Teil der Luft aussetzen.",
+    "scope": "Generic described deposition followed by recommendations. Portions refer to sediment R via paid shared-carrier grammar. No actual occurrence, exhaustive alternatives, physiological efficacy or source identity."
+  },
+  "assumptions_and_costs": [
+    "13 free atomic whole values; no independently bound meaning evidence.",
+    "PREPARATION_MATERIAL subtype moist-preparation, RESIDUE_MATERIAL subtype material, PORTION_MATERIAL subtype material and AIR_MATERIAL subtype material are new paid types, not spelling facts.",
+    "8 new typed composition rules; subject-object alignment, genitive head attachment, modifiers, clause cuts, aspect and recommendation interpretation are paid.",
+    "Genitive supplies distinct liquid L; no SAME_MATERIAL identity of P/L/R.",
+    "Resolved sequence marker preserves the current frame for R6; this rule is explicit new content composition, not a boundary skip or old reference repair.",
+    "R6 unchanged, latest compatible prior nominal R wins over P and L; no root/oil default.",
+    "Both DAIIN whole values portion; N5 pins the shared carrier R to the preceding explicit reference consumer, rather than silently treating the second portion as part of the first.",
+    "U and V are distinct discourse introductions; no measured size, numerical quantity, physical disjointness or exhaustive dry/moist partition asserted.",
+    "COVERED is a material state during retention; no lid identity or cover event invented.",
+    "English to air is the paid exposure predicate medium argument, not an unexpressed preposition claimed as independently deciphered.",
+    "No chronological order between storage and exposure branches beyond their written parallel presentation; no guaranteed drying outcome.",
+    "No patient, root, oil, dosage, authority, clinical application, straining, essence, filtration or removal asserted.",
+    "No FB f111r repair: all old values/rules/positive commitments and original ZL KEEOL conflict remain unchanged.",
+    "Alternate ZL/RF contain preserved UNKNOWNs and have no complete graph claim."
+  ],
+  "global_outside_duties": {
+    "tshedy": {
+      "fixed_value": "preparation",
+      "type": "PREPARATION_MATERIAL",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "sheocphy": {
+      "fixed_value": "sediment",
+      "type": "RESIDUE_MATERIAL",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "okchdy": {
+      "fixed_value": "fine",
+      "type": "GRANULARITY_PROPERTY",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "pcheody": {
+      "fixed_value": "afterward",
+      "type": "SEQUENCE_OPERATOR",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "opchear": {
+      "fixed_value": "retain",
+      "type": "RETENTION_PREDICATE",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "opchedy": {
+      "fixed_value": "gently",
+      "type": "MANNER_PROPERTY",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "otal": {
+      "fixed_value": "covered",
+      "type": "COVER_STATE_PROPERTY",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "daiin": {
+      "fixed_value": "portion",
+      "type": "PORTION_RELATION",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "sheor": {
+      "fixed_value": "dry",
+      "type": "MOISTURE_PROPERTY",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "qoteey": {
+      "fixed_value": "store",
+      "type": "STORAGE_PREDICATE",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "okchedy": {
+      "fixed_value": "moist",
+      "type": "MOISTURE_PROPERTY",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "sheos": {
+      "fixed_value": "expose",
+      "type": "EXPOSURE_PREDICATE",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    },
+    "aiin": {
+      "fixed_value": "air",
+      "type": "AIR_MATERIAL",
+      "obligation": "Every exact raw occurrence retains this atomic value/type; any composed frame must discharge its declared arity and carrier/argument scope. No alias, one-edit transfer, new stem export, or silent value repair. Outside interpretation remains owed, not tested."
+    }
+  },
+  "formal_priors": {
+    "aiin": {
+      "count": 390,
+      "pages_with_form": 97,
+      "rank": 4,
+      "positions": {
+        "start": 0,
+        "middle": 366,
+        "end": 24,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 354,
+        "repeated_lines": 34,
+        "adjacent_pairs": 0,
+        "max_per_line": 3
+      },
+      "assessment": "390 uses/97 pages: air is a broad material hypothesis; frequency/medial predominance does not identify air. Every outside exact use owes an air reading, and asserted argument frames owe explicit medium/carrier roles."
+    },
+    "daiin": {
+      "count": 740,
+      "pages_with_form": 169,
+      "rank": 1,
+      "positions": {
+        "start": 134,
+        "middle": 488,
+        "end": 118,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 654,
+        "repeated_lines": 80,
+        "adjacent_pairs": 14,
+        "max_per_line": 3
+      },
+      "assessment": "740 uses/169 pages: broad relational portion hypothesis, identical whole at both positions; neither DAIN alias nor plant/season gloss. Outside uses must acquire carrier and portion role or remain unbound. High frequency supports only broad burden, not this meaning."
+    },
+    "okchdy": {
+      "count": 16,
+      "pages_with_form": 14,
+      "rank": 297,
+      "positions": {
+        "start": 0,
+        "middle": 14,
+        "end": 0,
+        "single": 2
+      },
+      "repetition": {
+        "lines_with_form": 16,
+        "repeated_lines": 0,
+        "adjacent_pairs": 0,
+        "max_per_line": 1
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "okchedy": {
+      "count": 21,
+      "pages_with_form": 15,
+      "rank": 230,
+      "positions": {
+        "start": 1,
+        "middle": 18,
+        "end": 2,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 21,
+        "repeated_lines": 0,
+        "adjacent_pairs": 0,
+        "max_per_line": 1
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "opchear": {
+      "count": 2,
+      "pages_with_form": 2,
+      "rank": 1409,
+      "positions": {
+        "start": 0,
+        "middle": 2,
+        "end": 0,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 2,
+        "repeated_lines": 0,
+        "adjacent_pairs": 0,
+        "max_per_line": 1
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "opchedy": {
+      "count": 49,
+      "pages_with_form": 33,
+      "rank": 100,
+      "positions": {
+        "start": 0,
+        "middle": 47,
+        "end": 2,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 46,
+        "repeated_lines": 3,
+        "adjacent_pairs": 0,
+        "max_per_line": 2
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "otal": {
+      "count": 123,
+      "pages_with_form": 57,
+      "rank": 40,
+      "positions": {
+        "start": 2,
+        "middle": 110,
+        "end": 10,
+        "single": 1
+      },
+      "repetition": {
+        "lines_with_form": 118,
+        "repeated_lines": 5,
+        "adjacent_pairs": 2,
+        "max_per_line": 2
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "pcheody": {
+      "count": 7,
+      "pages_with_form": 6,
+      "rank": 563,
+      "positions": {
+        "start": 4,
+        "middle": 3,
+        "end": 0,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 7,
+        "repeated_lines": 0,
+        "adjacent_pairs": 0,
+        "max_per_line": 1
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "qoteey": {
+      "count": 40,
+      "pages_with_form": 29,
+      "rank": 127,
+      "positions": {
+        "start": 4,
+        "middle": 36,
+        "end": 0,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 38,
+        "repeated_lines": 2,
+        "adjacent_pairs": 0,
+        "max_per_line": 2
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "sheocphy": {
+      "count": 2,
+      "pages_with_form": 2,
+      "rank": 1409,
+      "positions": {
+        "start": 0,
+        "middle": 2,
+        "end": 0,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 2,
+        "repeated_lines": 0,
+        "adjacent_pairs": 0,
+        "max_per_line": 1
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "sheor": {
+      "count": 44,
+      "pages_with_form": 35,
+      "rank": 114,
+      "positions": {
+        "start": 4,
+        "middle": 40,
+        "end": 0,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 44,
+        "repeated_lines": 0,
+        "adjacent_pairs": 0,
+        "max_per_line": 1
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "sheos": {
+      "count": 12,
+      "pages_with_form": 11,
+      "rank": 362,
+      "positions": {
+        "start": 0,
+        "middle": 12,
+        "end": 0,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 12,
+        "repeated_lines": 0,
+        "adjacent_pairs": 0,
+        "max_per_line": 1
+      },
+      "assessment": "Formal occurrence/position prior only. Declared atomic type is C0 and may be wrong; no heat/mix/clinical gloss inherited from profile."
+    },
+    "tshedy": {
+      "count": 8,
+      "pages_with_form": 7,
+      "rank": 511,
+      "positions": {
+        "start": 7,
+        "middle": 1,
+        "end": 0,
+        "single": 0
+      },
+      "repetition": {
+        "lines_with_form": 8,
+        "repeated_lines": 0,
+        "adjacent_pairs": 0,
+        "max_per_line": 1
+      },
+      "assessment": "8 uses/7 pages,7 starts and1 middle. Nominal subject at this start is compatible with location statistics; profile does not prove subjecthood, preparation meaning, or paragraph marker."
+    }
+  },
+  "retained_counterexamples": [
+    "GDT1117 immediate-right patient/causative conflict remains; no universal patient grammar added.",
+    "GDT1118 genitives remain dependent relations, not bare heads; no borrowed pipe tuple.",
+    "GDT1119 deposits versus contains remains unselected; this graph cannot independently discriminate meanings.",
+    "FB old f111r incomplete whole and original ZL scope conflict unchanged.",
+    "FC earlier UNKNOWN capacity limit was missing binding, not a refutation; only this new prospective graph resolves primary content."
+  ],
+  "validation_before_freeze": {
+    "all17_primary_raw_ids_order_and_separators_preserved": true,
+    "all17_ZL_and18_RF_raw_groups_preserved": true,
+    "new_distinct_values": 13,
+    "frozen_G_I_counts": [
+      73,
+      73
+    ],
+    "frozen_rules_count": 11,
+    "DAIIN_values_identical": true,
+    "all_primary_positions_have_explicit_role_and_entity_or_event": true,
+    "new_sources_or_target_queries": false,
+    "independent_review_pending": true,
+    "tests_or_meaning_confirmation": 0
+  },
+  "outcome_limits": "One complete conditional primary construction proposed, not a confirmed translation. Its derivation and newly paid scope choices require root independent review. Fluent plausibility alone changes no semantic winner. No second repair or revision after this freeze."
+}
