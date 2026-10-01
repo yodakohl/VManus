@@ -1,0 +1,1634 @@
+{
+  "unit": "FN",
+  "status": "INDEPENDENT_FOUR_CASE_PREDICTIONS_FROZEN",
+  "timing": {
+    "first_clock_utc": "2026-10-01T04:37:57+00:00",
+    "freeze_utc": "2026-10-01T04:40:03.060011+00:00",
+    "elapsed_seconds": 126.060011,
+    "cap_seconds": 180,
+    "overrun_seconds": 0
+  },
+  "inputs": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FM_AUTHOR.json",
+      "sha256": "6b09ef5c7dbc07efd09275f56a93a8363d86d19ab62090c62785a6f6353e0531"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FM_TARGET.json",
+      "sha256": "55713ecdd6df28c7cddb8f02bf93ccc26134a599ec90919d9bf4513020be9199"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FN_CONTRACT_REVIEW.json",
+      "sha256": "49850b3f788c6413d947703e879db2ef779faaba701861ded67be9b6f3e052fd"
+    }
+  ],
+  "independence": "Root code/run/result outputs not opened. Expectations calculated by independent finite source-position list and state updates from frozen FM rules and accepted FN bracketings. Exposed hypotheses, not meaning-blind confirmation.",
+  "source_prefix": [
+    {
+      "position": 1,
+      "id": "IT2a|f80v.30|G001",
+      "surface": "pol"
+    },
+    {
+      "position": 2,
+      "id": "IT2a|f80v.30|G002",
+      "surface": "or"
+    },
+    {
+      "position": 3,
+      "id": "IT2a|f80v.30|G003",
+      "surface": "olkain"
+    },
+    {
+      "position": 4,
+      "id": "IT2a|f80v.30|G004",
+      "surface": "ockhy"
+    },
+    {
+      "position": 5,
+      "id": "IT2a|f80v.30|G005",
+      "surface": "qokaiin"
+    },
+    {
+      "position": 6,
+      "id": "IT2a|f80v.30|G006",
+      "surface": "okain"
+    },
+    {
+      "position": 7,
+      "id": "IT2a|f80v.30|G007",
+      "surface": "okar"
+    },
+    {
+      "position": 8,
+      "id": "IT2a|f80v.30|G008",
+      "surface": "shey"
+    },
+    {
+      "position": 9,
+      "id": "IT2a|f80v.30|G009",
+      "surface": "qolky"
+    },
+    {
+      "position": 10,
+      "id": "IT2a|f80v.31|G001",
+      "surface": "qol"
+    },
+    {
+      "position": 11,
+      "id": "IT2a|f80v.31|G002",
+      "surface": "oloiin"
+    },
+    {
+      "position": 12,
+      "id": "IT2a|f80v.31|G003",
+      "surface": "olkain"
+    },
+    {
+      "position": 13,
+      "id": "IT2a|f80v.31|G004",
+      "surface": "ol"
+    },
+    {
+      "position": 14,
+      "id": "IT2a|f80v.31|G005",
+      "surface": "chedy"
+    },
+    {
+      "position": 15,
+      "id": "IT2a|f80v.31|G006",
+      "surface": "qokain"
+    },
+    {
+      "position": 16,
+      "id": "IT2a|f80v.31|G007",
+      "surface": "olshey"
+    },
+    {
+      "position": 17,
+      "id": "IT2a|f80v.31|G008",
+      "surface": "qokain"
+    },
+    {
+      "position": 18,
+      "id": "IT2a|f80v.32|G001",
+      "surface": "solkain"
+    },
+    {
+      "position": 19,
+      "id": "IT2a|f80v.32|G002",
+      "surface": "shol"
+    }
+  ],
+  "cases": [
+    {
+      "case": "TOPIC__SEPARATE",
+      "policy": "TOPIC",
+      "OL13_CHEDY14_scope": "SEPARATE",
+      "entities": {
+        "M2": {
+          "introduced_at": "IT2a|f80v.30|G001",
+          "sort": "Material",
+          "initial_attributes": [
+            "working_mixture"
+          ],
+          "parent": null
+        },
+        "P5": {
+          "introduced_at": "IT2a|f80v.30|G005",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P9": {
+          "introduced_at": "IT2a|f80v.30|G009",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P10": {
+          "introduced_at": "IT2a|f80v.31|G001",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "R14": {
+          "introduced_at": "IT2a|f80v.31|G005",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "retained_working_part_by_CHEDY",
+          "output_attributes_not_inherited": true
+        },
+        "P15": {
+          "introduced_at": "IT2a|f80v.31|G006",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P17": {
+          "introduced_at": "IT2a|f80v.31|G008",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "W18": {
+          "introduced_at": "IT2a|f80v.32|G001",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "fresh_working_material_part_NOT_ASSERTED_STRICT_OR_EXHAUSTIVE",
+          "output_attributes_not_inherited": true
+        }
+      },
+      "parent_graph": [
+        {
+          "child": "P5",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.30|G005"
+        },
+        {
+          "child": "P9",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.30|G009"
+        },
+        {
+          "child": "P10",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G001"
+        },
+        {
+          "child": "R14",
+          "parent": "M2",
+          "relation": "retained_working_part_by_CHEDY",
+          "introduced_id": "IT2a|f80v.31|G005"
+        },
+        {
+          "child": "P15",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G006"
+        },
+        {
+          "child": "P17",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G008"
+        },
+        {
+          "child": "W18",
+          "parent": "M2",
+          "relation": "fresh_working_material_part_NOT_ASSERTED_STRICT_OR_EXHAUSTIVE",
+          "introduced_id": "IT2a|f80v.32|G001"
+        }
+      ],
+      "event_patients": [
+        {
+          "position": 8,
+          "id": "IT2a|f80v.30|G008",
+          "predicate": "SHEY/macerate",
+          "patient": "M2",
+          "CURRENT_before": "P5",
+          "CURRENT_after": "P5",
+          "write_CURRENT": false
+        },
+        {
+          "position": 14,
+          "id": "IT2a|f80v.31|G005",
+          "predicate": "CHEDY/separate_retained_working_portion",
+          "patient": "M2",
+          "result": "R14",
+          "scope": "SEPARATE",
+          "nominal_argument_id": null,
+          "CURRENT_before": "P10",
+          "CURRENT_after": "R14",
+          "write_CURRENT": true
+        },
+        {
+          "position": 16,
+          "id": "IT2a|f80v.31|G007",
+          "predicate": "SHEY/macerate",
+          "explicit_nominal": "OL",
+          "patient": "M2",
+          "CURRENT_before": "P15",
+          "CURRENT_after": "P15",
+          "write_CURRENT": false
+        }
+      ],
+      "property_assertions": [
+        {
+          "position": 2,
+          "id": "IT2a|f80v.30|G002",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "small_amount"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 3,
+          "id": "IT2a|f80v.30|G003",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 4,
+          "id": "IT2a|f80v.30|G004",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "powdered"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 5,
+          "id": "IT2a|f80v.30|G005",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "powder_fine"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 6,
+          "id": "IT2a|f80v.30|G006",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 7,
+          "id": "IT2a|f80v.30|G007",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "dense"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 9,
+          "id": "IT2a|f80v.30|G009",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "fine"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 10,
+          "id": "IT2a|f80v.31|G001",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 11,
+          "id": "IT2a|f80v.31|G002",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "loosened"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 12,
+          "id": "IT2a|f80v.31|G003",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 13,
+          "id": "IT2a|f80v.31|G004",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 15,
+          "id": "IT2a|f80v.31|G006",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 16,
+          "id": "IT2a|f80v.31|G007",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 17,
+          "id": "IT2a|f80v.31|G008",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 18,
+          "id": "IT2a|f80v.32|G001",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        }
+      ],
+      "CURRENT_writes": [
+        {
+          "position": 5,
+          "id": "IT2a|f80v.30|G005",
+          "new_entity": "P5",
+          "parent": "M2",
+          "CURRENT_before": "M2",
+          "CURRENT_after": "P5"
+        },
+        {
+          "position": 9,
+          "id": "IT2a|f80v.30|G009",
+          "new_entity": "P9",
+          "parent": "M2",
+          "CURRENT_before": "P5",
+          "CURRENT_after": "P9"
+        },
+        {
+          "position": 10,
+          "id": "IT2a|f80v.31|G001",
+          "new_entity": "P10",
+          "parent": "M2",
+          "CURRENT_before": "P9",
+          "CURRENT_after": "P10"
+        },
+        {
+          "position": 14,
+          "id": "IT2a|f80v.31|G005",
+          "new_entity": "R14",
+          "parent": "M2",
+          "CURRENT_before": "P10",
+          "CURRENT_after": "R14"
+        },
+        {
+          "position": 15,
+          "id": "IT2a|f80v.31|G006",
+          "new_entity": "P15",
+          "parent": "M2",
+          "CURRENT_before": "R14",
+          "CURRENT_after": "P15"
+        },
+        {
+          "position": 17,
+          "id": "IT2a|f80v.31|G008",
+          "new_entity": "P17",
+          "parent": "M2",
+          "CURRENT_before": "P15",
+          "CURRENT_after": "P17"
+        },
+        {
+          "position": 18,
+          "id": "IT2a|f80v.32|G001",
+          "new_entity": "W18",
+          "parent": "M2",
+          "CURRENT_before": "P17",
+          "CURRENT_after": "W18"
+        }
+      ],
+      "CURRENT_after_SHEY16": "P15",
+      "final_state_after18": {
+        "TOPIC": "M2",
+        "CURRENT": "W18",
+        "OWNER": null
+      },
+      "stop": {
+        "position": 19,
+        "id": "IT2a|f80v.32|G002",
+        "surface": "shol",
+        "status": "UNPAID_WORD_AND_WRONG_SH_OPERAND_SORT_IF_SPLIT",
+        "effect": "D4 prevents all later context carry; no graph for late QOL/KAIN."
+      }
+    },
+    {
+      "case": "TOPIC__NOMINAL_EVENT",
+      "policy": "TOPIC",
+      "OL13_CHEDY14_scope": "NOMINAL_EVENT",
+      "entities": {
+        "M2": {
+          "introduced_at": "IT2a|f80v.30|G001",
+          "sort": "Material",
+          "initial_attributes": [
+            "working_mixture"
+          ],
+          "parent": null
+        },
+        "P5": {
+          "introduced_at": "IT2a|f80v.30|G005",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P9": {
+          "introduced_at": "IT2a|f80v.30|G009",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P10": {
+          "introduced_at": "IT2a|f80v.31|G001",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "R14": {
+          "introduced_at": "IT2a|f80v.31|G005",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "retained_working_part_by_CHEDY",
+          "output_attributes_not_inherited": true
+        },
+        "P15": {
+          "introduced_at": "IT2a|f80v.31|G006",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P17": {
+          "introduced_at": "IT2a|f80v.31|G008",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "W18": {
+          "introduced_at": "IT2a|f80v.32|G001",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "fresh_working_material_part_NOT_ASSERTED_STRICT_OR_EXHAUSTIVE",
+          "output_attributes_not_inherited": true
+        }
+      },
+      "parent_graph": [
+        {
+          "child": "P5",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.30|G005"
+        },
+        {
+          "child": "P9",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.30|G009"
+        },
+        {
+          "child": "P10",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G001"
+        },
+        {
+          "child": "R14",
+          "parent": "M2",
+          "relation": "retained_working_part_by_CHEDY",
+          "introduced_id": "IT2a|f80v.31|G005"
+        },
+        {
+          "child": "P15",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G006"
+        },
+        {
+          "child": "P17",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G008"
+        },
+        {
+          "child": "W18",
+          "parent": "M2",
+          "relation": "fresh_working_material_part_NOT_ASSERTED_STRICT_OR_EXHAUSTIVE",
+          "introduced_id": "IT2a|f80v.32|G001"
+        }
+      ],
+      "event_patients": [
+        {
+          "position": 8,
+          "id": "IT2a|f80v.30|G008",
+          "predicate": "SHEY/macerate",
+          "patient": "M2",
+          "CURRENT_before": "P5",
+          "CURRENT_after": "P5",
+          "write_CURRENT": false
+        },
+        {
+          "position": 14,
+          "id": "IT2a|f80v.31|G005",
+          "predicate": "CHEDY/separate_retained_working_portion",
+          "patient": "M2",
+          "result": "R14",
+          "scope": "NOMINAL_EVENT",
+          "nominal_argument_id": "IT2a|f80v.31|G004",
+          "CURRENT_before": "P10",
+          "CURRENT_after": "R14",
+          "write_CURRENT": true
+        },
+        {
+          "position": 16,
+          "id": "IT2a|f80v.31|G007",
+          "predicate": "SHEY/macerate",
+          "explicit_nominal": "OL",
+          "patient": "M2",
+          "CURRENT_before": "P15",
+          "CURRENT_after": "P15",
+          "write_CURRENT": false
+        }
+      ],
+      "property_assertions": [
+        {
+          "position": 2,
+          "id": "IT2a|f80v.30|G002",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "small_amount"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 3,
+          "id": "IT2a|f80v.30|G003",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 4,
+          "id": "IT2a|f80v.30|G004",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "powdered"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 5,
+          "id": "IT2a|f80v.30|G005",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "powder_fine"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 6,
+          "id": "IT2a|f80v.30|G006",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 7,
+          "id": "IT2a|f80v.30|G007",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "dense"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 9,
+          "id": "IT2a|f80v.30|G009",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "fine"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 10,
+          "id": "IT2a|f80v.31|G001",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 11,
+          "id": "IT2a|f80v.31|G002",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "loosened"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 12,
+          "id": "IT2a|f80v.31|G003",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 13,
+          "id": "IT2a|f80v.31|G004",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 15,
+          "id": "IT2a|f80v.31|G006",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 16,
+          "id": "IT2a|f80v.31|G007",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 17,
+          "id": "IT2a|f80v.31|G008",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 18,
+          "id": "IT2a|f80v.32|G001",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        }
+      ],
+      "CURRENT_writes": [
+        {
+          "position": 5,
+          "id": "IT2a|f80v.30|G005",
+          "new_entity": "P5",
+          "parent": "M2",
+          "CURRENT_before": "M2",
+          "CURRENT_after": "P5"
+        },
+        {
+          "position": 9,
+          "id": "IT2a|f80v.30|G009",
+          "new_entity": "P9",
+          "parent": "M2",
+          "CURRENT_before": "P5",
+          "CURRENT_after": "P9"
+        },
+        {
+          "position": 10,
+          "id": "IT2a|f80v.31|G001",
+          "new_entity": "P10",
+          "parent": "M2",
+          "CURRENT_before": "P9",
+          "CURRENT_after": "P10"
+        },
+        {
+          "position": 14,
+          "id": "IT2a|f80v.31|G005",
+          "new_entity": "R14",
+          "parent": "M2",
+          "CURRENT_before": "P10",
+          "CURRENT_after": "R14"
+        },
+        {
+          "position": 15,
+          "id": "IT2a|f80v.31|G006",
+          "new_entity": "P15",
+          "parent": "M2",
+          "CURRENT_before": "R14",
+          "CURRENT_after": "P15"
+        },
+        {
+          "position": 17,
+          "id": "IT2a|f80v.31|G008",
+          "new_entity": "P17",
+          "parent": "M2",
+          "CURRENT_before": "P15",
+          "CURRENT_after": "P17"
+        },
+        {
+          "position": 18,
+          "id": "IT2a|f80v.32|G001",
+          "new_entity": "W18",
+          "parent": "M2",
+          "CURRENT_before": "P17",
+          "CURRENT_after": "W18"
+        }
+      ],
+      "CURRENT_after_SHEY16": "P15",
+      "final_state_after18": {
+        "TOPIC": "M2",
+        "CURRENT": "W18",
+        "OWNER": null
+      },
+      "stop": {
+        "position": 19,
+        "id": "IT2a|f80v.32|G002",
+        "surface": "shol",
+        "status": "UNPAID_WORD_AND_WRONG_SH_OPERAND_SORT_IF_SPLIT",
+        "effect": "D4 prevents all later context carry; no graph for late QOL/KAIN."
+      }
+    },
+    {
+      "case": "CURRENT__SEPARATE",
+      "policy": "CURRENT",
+      "OL13_CHEDY14_scope": "SEPARATE",
+      "entities": {
+        "M2": {
+          "introduced_at": "IT2a|f80v.30|G001",
+          "sort": "Material",
+          "initial_attributes": [
+            "working_mixture"
+          ],
+          "parent": null
+        },
+        "P5": {
+          "introduced_at": "IT2a|f80v.30|G005",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P9": {
+          "introduced_at": "IT2a|f80v.30|G009",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P5",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P10": {
+          "introduced_at": "IT2a|f80v.31|G001",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P9",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "R14": {
+          "introduced_at": "IT2a|f80v.31|G005",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P10",
+          "relation": "retained_working_part_by_CHEDY",
+          "output_attributes_not_inherited": true
+        },
+        "P15": {
+          "introduced_at": "IT2a|f80v.31|G006",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "R14",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P17": {
+          "introduced_at": "IT2a|f80v.31|G008",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P15",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "W18": {
+          "introduced_at": "IT2a|f80v.32|G001",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P17",
+          "relation": "fresh_working_material_part_NOT_ASSERTED_STRICT_OR_EXHAUSTIVE",
+          "output_attributes_not_inherited": true
+        }
+      },
+      "parent_graph": [
+        {
+          "child": "P5",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.30|G005"
+        },
+        {
+          "child": "P9",
+          "parent": "P5",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.30|G009"
+        },
+        {
+          "child": "P10",
+          "parent": "P9",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G001"
+        },
+        {
+          "child": "R14",
+          "parent": "P10",
+          "relation": "retained_working_part_by_CHEDY",
+          "introduced_id": "IT2a|f80v.31|G005"
+        },
+        {
+          "child": "P15",
+          "parent": "R14",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G006"
+        },
+        {
+          "child": "P17",
+          "parent": "P15",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G008"
+        },
+        {
+          "child": "W18",
+          "parent": "P17",
+          "relation": "fresh_working_material_part_NOT_ASSERTED_STRICT_OR_EXHAUSTIVE",
+          "introduced_id": "IT2a|f80v.32|G001"
+        }
+      ],
+      "event_patients": [
+        {
+          "position": 8,
+          "id": "IT2a|f80v.30|G008",
+          "predicate": "SHEY/macerate",
+          "patient": "P5",
+          "CURRENT_before": "P5",
+          "CURRENT_after": "P5",
+          "write_CURRENT": false
+        },
+        {
+          "position": 14,
+          "id": "IT2a|f80v.31|G005",
+          "predicate": "CHEDY/separate_retained_working_portion",
+          "patient": "P10",
+          "result": "R14",
+          "scope": "SEPARATE",
+          "nominal_argument_id": null,
+          "CURRENT_before": "P10",
+          "CURRENT_after": "R14",
+          "write_CURRENT": true
+        },
+        {
+          "position": 16,
+          "id": "IT2a|f80v.31|G007",
+          "predicate": "SHEY/macerate",
+          "explicit_nominal": "OL",
+          "patient": "P15",
+          "CURRENT_before": "P15",
+          "CURRENT_after": "P15",
+          "write_CURRENT": false
+        }
+      ],
+      "property_assertions": [
+        {
+          "position": 2,
+          "id": "IT2a|f80v.30|G002",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "small_amount"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 3,
+          "id": "IT2a|f80v.30|G003",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 4,
+          "id": "IT2a|f80v.30|G004",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "powdered"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 5,
+          "id": "IT2a|f80v.30|G005",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "powder_fine"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 6,
+          "id": "IT2a|f80v.30|G006",
+          "evaluated_input": "P5",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 7,
+          "id": "IT2a|f80v.30|G007",
+          "evaluated_input": "P5",
+          "asserted_attributes": [
+            "dispersed",
+            "dense"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 9,
+          "id": "IT2a|f80v.30|G009",
+          "evaluated_input": "P5",
+          "asserted_attributes": [
+            "working_mixture",
+            "fine"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 10,
+          "id": "IT2a|f80v.31|G001",
+          "evaluated_input": "P9",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 11,
+          "id": "IT2a|f80v.31|G002",
+          "evaluated_input": "P10",
+          "asserted_attributes": [
+            "working_mixture",
+            "loosened"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 12,
+          "id": "IT2a|f80v.31|G003",
+          "evaluated_input": "P10",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 13,
+          "id": "IT2a|f80v.31|G004",
+          "evaluated_input": "P10",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 15,
+          "id": "IT2a|f80v.31|G006",
+          "evaluated_input": "R14",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 16,
+          "id": "IT2a|f80v.31|G007",
+          "evaluated_input": "P15",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 17,
+          "id": "IT2a|f80v.31|G008",
+          "evaluated_input": "P15",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 18,
+          "id": "IT2a|f80v.32|G001",
+          "evaluated_input": "P17",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        }
+      ],
+      "CURRENT_writes": [
+        {
+          "position": 5,
+          "id": "IT2a|f80v.30|G005",
+          "new_entity": "P5",
+          "parent": "M2",
+          "CURRENT_before": "M2",
+          "CURRENT_after": "P5"
+        },
+        {
+          "position": 9,
+          "id": "IT2a|f80v.30|G009",
+          "new_entity": "P9",
+          "parent": "P5",
+          "CURRENT_before": "P5",
+          "CURRENT_after": "P9"
+        },
+        {
+          "position": 10,
+          "id": "IT2a|f80v.31|G001",
+          "new_entity": "P10",
+          "parent": "P9",
+          "CURRENT_before": "P9",
+          "CURRENT_after": "P10"
+        },
+        {
+          "position": 14,
+          "id": "IT2a|f80v.31|G005",
+          "new_entity": "R14",
+          "parent": "P10",
+          "CURRENT_before": "P10",
+          "CURRENT_after": "R14"
+        },
+        {
+          "position": 15,
+          "id": "IT2a|f80v.31|G006",
+          "new_entity": "P15",
+          "parent": "R14",
+          "CURRENT_before": "R14",
+          "CURRENT_after": "P15"
+        },
+        {
+          "position": 17,
+          "id": "IT2a|f80v.31|G008",
+          "new_entity": "P17",
+          "parent": "P15",
+          "CURRENT_before": "P15",
+          "CURRENT_after": "P17"
+        },
+        {
+          "position": 18,
+          "id": "IT2a|f80v.32|G001",
+          "new_entity": "W18",
+          "parent": "P17",
+          "CURRENT_before": "P17",
+          "CURRENT_after": "W18"
+        }
+      ],
+      "CURRENT_after_SHEY16": "P15",
+      "final_state_after18": {
+        "TOPIC": "M2",
+        "CURRENT": "W18",
+        "OWNER": null
+      },
+      "stop": {
+        "position": 19,
+        "id": "IT2a|f80v.32|G002",
+        "surface": "shol",
+        "status": "UNPAID_WORD_AND_WRONG_SH_OPERAND_SORT_IF_SPLIT",
+        "effect": "D4 prevents all later context carry; no graph for late QOL/KAIN."
+      }
+    },
+    {
+      "case": "CURRENT__NOMINAL_EVENT",
+      "policy": "CURRENT",
+      "OL13_CHEDY14_scope": "NOMINAL_EVENT",
+      "entities": {
+        "M2": {
+          "introduced_at": "IT2a|f80v.30|G001",
+          "sort": "Material",
+          "initial_attributes": [
+            "working_mixture"
+          ],
+          "parent": null
+        },
+        "P5": {
+          "introduced_at": "IT2a|f80v.30|G005",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "M2",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P9": {
+          "introduced_at": "IT2a|f80v.30|G009",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P5",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P10": {
+          "introduced_at": "IT2a|f80v.31|G001",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P9",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "R14": {
+          "introduced_at": "IT2a|f80v.31|G005",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P10",
+          "relation": "retained_working_part_by_CHEDY",
+          "output_attributes_not_inherited": true
+        },
+        "P15": {
+          "introduced_at": "IT2a|f80v.31|G006",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "R14",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "P17": {
+          "introduced_at": "IT2a|f80v.31|G008",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P15",
+          "relation": "proper_portion",
+          "output_attributes_not_inherited": true
+        },
+        "W18": {
+          "introduced_at": "IT2a|f80v.32|G001",
+          "sort": "Material",
+          "initial_attributes": [],
+          "parent": "P17",
+          "relation": "fresh_working_material_part_NOT_ASSERTED_STRICT_OR_EXHAUSTIVE",
+          "output_attributes_not_inherited": true
+        }
+      },
+      "parent_graph": [
+        {
+          "child": "P5",
+          "parent": "M2",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.30|G005"
+        },
+        {
+          "child": "P9",
+          "parent": "P5",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.30|G009"
+        },
+        {
+          "child": "P10",
+          "parent": "P9",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G001"
+        },
+        {
+          "child": "R14",
+          "parent": "P10",
+          "relation": "retained_working_part_by_CHEDY",
+          "introduced_id": "IT2a|f80v.31|G005"
+        },
+        {
+          "child": "P15",
+          "parent": "R14",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G006"
+        },
+        {
+          "child": "P17",
+          "parent": "P15",
+          "relation": "proper_portion",
+          "introduced_id": "IT2a|f80v.31|G008"
+        },
+        {
+          "child": "W18",
+          "parent": "P17",
+          "relation": "fresh_working_material_part_NOT_ASSERTED_STRICT_OR_EXHAUSTIVE",
+          "introduced_id": "IT2a|f80v.32|G001"
+        }
+      ],
+      "event_patients": [
+        {
+          "position": 8,
+          "id": "IT2a|f80v.30|G008",
+          "predicate": "SHEY/macerate",
+          "patient": "P5",
+          "CURRENT_before": "P5",
+          "CURRENT_after": "P5",
+          "write_CURRENT": false
+        },
+        {
+          "position": 14,
+          "id": "IT2a|f80v.31|G005",
+          "predicate": "CHEDY/separate_retained_working_portion",
+          "patient": "P10",
+          "result": "R14",
+          "scope": "NOMINAL_EVENT",
+          "nominal_argument_id": "IT2a|f80v.31|G004",
+          "CURRENT_before": "P10",
+          "CURRENT_after": "R14",
+          "write_CURRENT": true
+        },
+        {
+          "position": 16,
+          "id": "IT2a|f80v.31|G007",
+          "predicate": "SHEY/macerate",
+          "explicit_nominal": "OL",
+          "patient": "P15",
+          "CURRENT_before": "P15",
+          "CURRENT_after": "P15",
+          "write_CURRENT": false
+        }
+      ],
+      "property_assertions": [
+        {
+          "position": 2,
+          "id": "IT2a|f80v.30|G002",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "small_amount"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 3,
+          "id": "IT2a|f80v.30|G003",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 4,
+          "id": "IT2a|f80v.30|G004",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "powdered"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 5,
+          "id": "IT2a|f80v.30|G005",
+          "evaluated_input": "M2",
+          "asserted_attributes": [
+            "dispersed",
+            "powder_fine"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 6,
+          "id": "IT2a|f80v.30|G006",
+          "evaluated_input": "P5",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 7,
+          "id": "IT2a|f80v.30|G007",
+          "evaluated_input": "P5",
+          "asserted_attributes": [
+            "dispersed",
+            "dense"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 9,
+          "id": "IT2a|f80v.30|G009",
+          "evaluated_input": "P5",
+          "asserted_attributes": [
+            "working_mixture",
+            "fine"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 10,
+          "id": "IT2a|f80v.31|G001",
+          "evaluated_input": "P9",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 11,
+          "id": "IT2a|f80v.31|G002",
+          "evaluated_input": "P10",
+          "asserted_attributes": [
+            "working_mixture",
+            "loosened"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 12,
+          "id": "IT2a|f80v.31|G003",
+          "evaluated_input": "P10",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 13,
+          "id": "IT2a|f80v.31|G004",
+          "evaluated_input": "P10",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 15,
+          "id": "IT2a|f80v.31|G006",
+          "evaluated_input": "R14",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 16,
+          "id": "IT2a|f80v.31|G007",
+          "evaluated_input": "P15",
+          "asserted_attributes": [
+            "working_mixture"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 17,
+          "id": "IT2a|f80v.31|G008",
+          "evaluated_input": "P15",
+          "asserted_attributes": [
+            "dispersed",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        },
+        {
+          "position": 18,
+          "id": "IT2a|f80v.32|G001",
+          "evaluated_input": "P17",
+          "asserted_attributes": [
+            "working_mixture",
+            "grain_bearing"
+          ],
+          "inherited_to_output": false
+        }
+      ],
+      "CURRENT_writes": [
+        {
+          "position": 5,
+          "id": "IT2a|f80v.30|G005",
+          "new_entity": "P5",
+          "parent": "M2",
+          "CURRENT_before": "M2",
+          "CURRENT_after": "P5"
+        },
+        {
+          "position": 9,
+          "id": "IT2a|f80v.30|G009",
+          "new_entity": "P9",
+          "parent": "P5",
+          "CURRENT_before": "P5",
+          "CURRENT_after": "P9"
+        },
+        {
+          "position": 10,
+          "id": "IT2a|f80v.31|G001",
+          "new_entity": "P10",
+          "parent": "P9",
+          "CURRENT_before": "P9",
+          "CURRENT_after": "P10"
+        },
+        {
+          "position": 14,
+          "id": "IT2a|f80v.31|G005",
+          "new_entity": "R14",
+          "parent": "P10",
+          "CURRENT_before": "P10",
+          "CURRENT_after": "R14"
+        },
+        {
+          "position": 15,
+          "id": "IT2a|f80v.31|G006",
+          "new_entity": "P15",
+          "parent": "R14",
+          "CURRENT_before": "R14",
+          "CURRENT_after": "P15"
+        },
+        {
+          "position": 17,
+          "id": "IT2a|f80v.31|G008",
+          "new_entity": "P17",
+          "parent": "P15",
+          "CURRENT_before": "P15",
+          "CURRENT_after": "P17"
+        },
+        {
+          "position": 18,
+          "id": "IT2a|f80v.32|G001",
+          "new_entity": "W18",
+          "parent": "P17",
+          "CURRENT_before": "P17",
+          "CURRENT_after": "W18"
+        }
+      ],
+      "CURRENT_after_SHEY16": "P15",
+      "final_state_after18": {
+        "TOPIC": "M2",
+        "CURRENT": "W18",
+        "OWNER": null
+      },
+      "stop": {
+        "position": 19,
+        "id": "IT2a|f80v.32|G002",
+        "surface": "shol",
+        "status": "UNPAID_WORD_AND_WRONG_SH_OPERAND_SORT_IF_SPLIT",
+        "effect": "D4 prevents all later context carry; no graph for late QOL/KAIN."
+      }
+    }
+  ],
+  "f85_first3": {
+    "source_ids": [
+      "IT2a|f85r1.1|G001",
+      "IT2a|f85r1.1|G002",
+      "IT2a|f85r1.1|G003"
+    ],
+    "entities": {
+      "M1": {
+        "sort": "Material",
+        "source": "p(d(SHEODY))",
+        "properties": [
+          "dense",
+          "fine_suspension"
+        ]
+      },
+      "C1": {
+        "sort": "Container",
+        "source": "sh(DOL)",
+        "relation": "Contains(C1,M1)"
+      }
+    },
+    "SHEY3_patient": "M1",
+    "TOPIC_after3": "M1",
+    "CURRENT_after3": "M1",
+    "OWNER_after3": "C1",
+    "policies_tie": true,
+    "stop": "OTCHDY4 unpaid; no owner borrowed by f80."
+  },
+  "expected_relations": {
+    "TOPIC": "P5,P9,P10,R14,P15,P17,W18 each has M2 as parent. SHEY8/CHEDY14/SHEY16 each patient M2. CURRENT after SHEY16=P15.",
+    "CURRENT": "M2->P5->P9->P10->R14->P15->P17->W18. SHEY8 patient P5; CHEDY14 patient P10; SHEY16 patient P15. CURRENT after SHEY16=P15.",
+    "OL13_scopes": "SEPARATE R9(OL)+D1(CHEDY) and NOMINAL_EVENT R10(OL,CHEDY) give identical patient, new R14 parent and state writes under each policy. No scope winner."
+  },
+  "limits": [
+    "Nominal schema-to-expression evaluation remains the explicitly accepted conditional projection, not a newly proved parser.",
+    "Properties are asserted only on evaluated input. New q/s/CHEDY materials start without inherited properties, including mixture/grain/dispersed qualifiers; later explicit assertions may add them.",
+    "R5 q produces proper portions; no pairwise disjointness, exhaustive quantities or numerical conservation follows.",
+    "R6 s produces a fresh working Material part; no strict subset or exhaustive split is imposed.",
+    "D2 preserves macerated patient identity and does not write CURRENT:=patient. Only p/q/s/CHEDY update that register.",
+    "f80 has no written enclosure entry, therefore OWNER=None for all four cases.",
+    "All results stop at SHOL19. They are not a complete129group reading, new lexicon, extra grammar, source selection or semantic confirmation.",
+    "No new word meaning/rule/alias/default introduced, no author bytes changed."
+  ],
+  "confirmed_words": 0,
+  "independent_meaning_confirmation": 0
+}

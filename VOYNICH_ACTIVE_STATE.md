@@ -1,3 +1,6 @@
+<!-- FN 2026-10-01 -->
+GDT1123 unchanged FM continuation executes10more groups:21of129 projected,108unconsumed;TOPIC original versusCURRENT chained parts remain unselected,scope13/14 pairs identical. No inherited portion qualities or SHEY CURRENT reset. SHOL19/OTCHDY4 unpaid;0whole readings/words/independent meaning confirmation. Next first unpaid SHOL role review before genuinely new whole-content construction. See experiments/yolo/gdt1123_fixed_nominal_portion_continuation/REPORT.md.
+
 <!-- FM 2026-10-01 -->
 GDT1122 newshared nominal entry supports conditional3+8prefix groups on whole129ITscope;TOPIC M2 vsCURRENT P5 changes SHEY8.118unconsumed,69unpaid49local;no whole reading/no winner. LateQOLs hypotheticalonly;TOPIC bareKAIN50→B contradictsD3→X, no bracketingrepair. Authorover145.492sec/serializationfailure retained. Nextregistered unchanged-rule paidf80 9–18 continuation, not gloss/census repair;SHOL19/OTCHDY4 unpaid.0words/0independentconfirmation. See experiments/yolo/gdt1122_joint_written_participant_entry/REPORT.md.
 

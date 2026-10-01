@@ -1,0 +1,2733 @@
+{
+  "experiment": "GDT1123",
+  "status": "CONDITIONAL_CONTINUATION_10_MORE_GROUPS__TWO_POLICY_CLASSES__WHOLE_PARTIAL",
+  "cases": [
+    {
+      "id": "TOPIC_SEPARATE",
+      "policy": "TOPIC",
+      "scope": "SEPARATE",
+      "status": "CONDITIONAL_PROJECTION_CONSISTENT",
+      "graph_sha256": "de2e1f6a96009135f83046e537ae2e904a4d642ccc1f09a78a646434d54e2709",
+      "graph": {
+        "entities": {
+          "M2": {
+            "sort": "Material",
+            "initial_attributes": [
+              "working_mixture"
+            ],
+            "attributes": [
+              "dense",
+              "dispersed",
+              "fine",
+              "grain_bearing",
+              "loosened",
+              "powder_fine",
+              "powdered",
+              "small_amount",
+              "working_mixture"
+            ],
+            "parent": null,
+            "introduced_id": "IT2a|f80v.30|G001"
+          },
+          "P5": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G005"
+          },
+          "P9": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G009"
+          },
+          "P10": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G001"
+          },
+          "P14": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "retained_part",
+            "introduced_id": "IT2a|f80v.31|G005"
+          },
+          "P15": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G006"
+          },
+          "P17": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G008"
+          },
+          "W18": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "working_part",
+            "introduced_id": "IT2a|f80v.32|G001"
+          }
+        },
+        "parents": [
+          {
+            "child": "P5",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G005"
+          },
+          {
+            "child": "P9",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G009"
+          },
+          {
+            "child": "P10",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G001"
+          },
+          {
+            "child": "P14",
+            "parent": "M2",
+            "relation": "retained_part",
+            "introduced_id": "IT2a|f80v.31|G005"
+          },
+          {
+            "child": "P15",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G006"
+          },
+          {
+            "child": "P17",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G008"
+          },
+          {
+            "child": "W18",
+            "parent": "M2",
+            "relation": "working_part",
+            "introduced_id": "IT2a|f80v.32|G001"
+          }
+        ],
+        "events": [
+          {
+            "position": 8,
+            "source_id": "IT2a|f80v.30|G008",
+            "predicate": "shey",
+            "patient": "M2",
+            "output": "M2",
+            "current_before": "P5",
+            "current_after": "P5",
+            "writes_current": false
+          },
+          {
+            "position": 14,
+            "source_id": "IT2a|f80v.31|G005",
+            "predicate": "chedy",
+            "patient": "M2",
+            "output": "P14",
+            "current_before": "P10",
+            "current_after": "P14",
+            "writes_current": true
+          },
+          {
+            "position": 16,
+            "source_id": "IT2a|f80v.31|G007",
+            "predicate": "shey",
+            "patient": "M2",
+            "output": "M2",
+            "current_before": "P15",
+            "current_after": "P15",
+            "writes_current": false
+          }
+        ],
+        "assertions": [
+          {
+            "position": 2,
+            "source_id": "IT2a|f80v.30|G002",
+            "input": "M2",
+            "attributes": [
+              "small_amount"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 3,
+            "source_id": "IT2a|f80v.30|G003",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 4,
+            "source_id": "IT2a|f80v.30|G004",
+            "input": "M2",
+            "attributes": [
+              "powdered"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 5,
+            "source_id": "IT2a|f80v.30|G005",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "powder_fine"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 6,
+            "source_id": "IT2a|f80v.30|G006",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 7,
+            "source_id": "IT2a|f80v.30|G007",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "dense"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 9,
+            "source_id": "IT2a|f80v.30|G009",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "fine"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 10,
+            "source_id": "IT2a|f80v.31|G001",
+            "input": "M2",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 11,
+            "source_id": "IT2a|f80v.31|G002",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "loosened"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 12,
+            "source_id": "IT2a|f80v.31|G003",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 13,
+            "source_id": "IT2a|f80v.31|G004",
+            "input": "M2",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 15,
+            "source_id": "IT2a|f80v.31|G006",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 16,
+            "source_id": "IT2a|f80v.31|G007",
+            "input": "M2",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 17,
+            "source_id": "IT2a|f80v.31|G008",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 18,
+            "source_id": "IT2a|f80v.32|G001",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          }
+        ],
+        "writes": [
+          {
+            "position": 5,
+            "before": "M2",
+            "after": "P5",
+            "parent": "M2"
+          },
+          {
+            "position": 9,
+            "before": "P5",
+            "after": "P9",
+            "parent": "M2"
+          },
+          {
+            "position": 10,
+            "before": "P9",
+            "after": "P10",
+            "parent": "M2"
+          },
+          {
+            "position": 14,
+            "before": "P10",
+            "after": "P14",
+            "parent": "M2"
+          },
+          {
+            "position": 15,
+            "before": "P14",
+            "after": "P15",
+            "parent": "M2"
+          },
+          {
+            "position": 17,
+            "before": "P15",
+            "after": "P17",
+            "parent": "M2"
+          },
+          {
+            "position": 18,
+            "before": "P17",
+            "after": "W18",
+            "parent": "M2"
+          }
+        ],
+        "final_state": {
+          "topic": "M2",
+          "current": "W18",
+          "owner": null
+        }
+      },
+      "trace": [
+        {
+          "position": 1,
+          "source_id": "IT2a|f80v.30|G001",
+          "surface": "pol",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 2,
+          "source_id": "IT2a|f80v.30|G002",
+          "surface": "or",
+          "expression_sort": "MaterialProperty",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 3,
+          "source_id": "IT2a|f80v.30|G003",
+          "surface": "olkain",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 4,
+          "source_id": "IT2a|f80v.30|G004",
+          "surface": "ockhy",
+          "expression_sort": "MaterialProperty",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 5,
+          "source_id": "IT2a|f80v.30|G005",
+          "surface": "qokaiin",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 6,
+          "source_id": "IT2a|f80v.30|G006",
+          "surface": "okain",
+          "expression_sort": "NominalExpr",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 7,
+          "source_id": "IT2a|f80v.30|G007",
+          "surface": "okar",
+          "expression_sort": "NominalExpr",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 8,
+          "source_id": "IT2a|f80v.30|G008",
+          "surface": "shey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 9,
+          "source_id": "IT2a|f80v.30|G009",
+          "surface": "qolky",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P9",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P9",
+          "owner": null
+        },
+        {
+          "position": 10,
+          "source_id": "IT2a|f80v.31|G001",
+          "surface": "qol",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 11,
+          "source_id": "IT2a|f80v.31|G002",
+          "surface": "oloiin",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 12,
+          "source_id": "IT2a|f80v.31|G003",
+          "surface": "olkain",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 13,
+          "source_id": "IT2a|f80v.31|G004",
+          "surface": "ol",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 14,
+          "source_id": "IT2a|f80v.31|G005",
+          "surface": "chedy",
+          "expression_sort": "Event(Material)->new Material part",
+          "output_sort": "Material",
+          "output": "P14",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P14",
+          "owner": null
+        },
+        {
+          "position": 15,
+          "source_id": "IT2a|f80v.31|G006",
+          "surface": "qokain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P15",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P15",
+          "owner": null
+        },
+        {
+          "position": 16,
+          "source_id": "IT2a|f80v.31|G007",
+          "surface": "olshey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P15",
+          "owner": null
+        },
+        {
+          "position": 17,
+          "source_id": "IT2a|f80v.31|G008",
+          "surface": "qokain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P17",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P17",
+          "owner": null
+        },
+        {
+          "position": 18,
+          "source_id": "IT2a|f80v.32|G001",
+          "surface": "solkain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "W18",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "W18",
+          "owner": null
+        }
+      ],
+      "f85_graph": {
+        "entities": {
+          "M1": {
+            "sort": "Material",
+            "initial_attributes": [
+              "dense",
+              "fine_suspension"
+            ],
+            "attributes": [
+              "dense",
+              "fine_suspension"
+            ],
+            "parent": null,
+            "introduced_id": "IT2a|f85r1.1|G001"
+          },
+          "C1": {
+            "sort": "Container",
+            "attributes": [
+              "enclosure"
+            ],
+            "contains": "M1",
+            "introduced_id": "IT2a|f85r1.1|G002"
+          }
+        },
+        "parents": [],
+        "events": [
+          {
+            "position": 3,
+            "source_id": "IT2a|f85r1.1|G003",
+            "predicate": "shey",
+            "patient": "M1",
+            "output": "M1",
+            "current_before": "M1",
+            "current_after": "M1",
+            "writes_current": false
+          }
+        ],
+        "assertions": [],
+        "writes": [],
+        "final_state": {
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        }
+      },
+      "f85_trace": [
+        {
+          "position": 1,
+          "source_id": "IT2a|f85r1.1|G001",
+          "surface": "pdsheody",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "M1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": null
+        },
+        {
+          "position": 2,
+          "source_id": "IT2a|f85r1.1|G002",
+          "surface": "shdol",
+          "expression_sort": "Container",
+          "output_sort": "Container",
+          "output": "C1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        },
+        {
+          "position": 3,
+          "source_id": "IT2a|f85r1.1|G003",
+          "surface": "shey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "M1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        }
+      ],
+      "stop": {
+        "f80_position": 19,
+        "f80_surface": "shol",
+        "f85_position": 4,
+        "f85_surface": "otchdy"
+      },
+      "meaning_selected": false,
+      "whole_complete": false
+    },
+    {
+      "id": "TOPIC_NOMINAL_EVENT",
+      "policy": "TOPIC",
+      "scope": "NOMINAL_EVENT",
+      "status": "CONDITIONAL_PROJECTION_CONSISTENT",
+      "graph_sha256": "de2e1f6a96009135f83046e537ae2e904a4d642ccc1f09a78a646434d54e2709",
+      "graph": {
+        "entities": {
+          "M2": {
+            "sort": "Material",
+            "initial_attributes": [
+              "working_mixture"
+            ],
+            "attributes": [
+              "dense",
+              "dispersed",
+              "fine",
+              "grain_bearing",
+              "loosened",
+              "powder_fine",
+              "powdered",
+              "small_amount",
+              "working_mixture"
+            ],
+            "parent": null,
+            "introduced_id": "IT2a|f80v.30|G001"
+          },
+          "P5": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G005"
+          },
+          "P9": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G009"
+          },
+          "P10": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G001"
+          },
+          "P14": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "retained_part",
+            "introduced_id": "IT2a|f80v.31|G005"
+          },
+          "P15": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G006"
+          },
+          "P17": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G008"
+          },
+          "W18": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "M2",
+            "relation": "working_part",
+            "introduced_id": "IT2a|f80v.32|G001"
+          }
+        },
+        "parents": [
+          {
+            "child": "P5",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G005"
+          },
+          {
+            "child": "P9",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G009"
+          },
+          {
+            "child": "P10",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G001"
+          },
+          {
+            "child": "P14",
+            "parent": "M2",
+            "relation": "retained_part",
+            "introduced_id": "IT2a|f80v.31|G005"
+          },
+          {
+            "child": "P15",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G006"
+          },
+          {
+            "child": "P17",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G008"
+          },
+          {
+            "child": "W18",
+            "parent": "M2",
+            "relation": "working_part",
+            "introduced_id": "IT2a|f80v.32|G001"
+          }
+        ],
+        "events": [
+          {
+            "position": 8,
+            "source_id": "IT2a|f80v.30|G008",
+            "predicate": "shey",
+            "patient": "M2",
+            "output": "M2",
+            "current_before": "P5",
+            "current_after": "P5",
+            "writes_current": false
+          },
+          {
+            "position": 14,
+            "source_id": "IT2a|f80v.31|G005",
+            "predicate": "chedy",
+            "patient": "M2",
+            "output": "P14",
+            "current_before": "P10",
+            "current_after": "P14",
+            "writes_current": true
+          },
+          {
+            "position": 16,
+            "source_id": "IT2a|f80v.31|G007",
+            "predicate": "shey",
+            "patient": "M2",
+            "output": "M2",
+            "current_before": "P15",
+            "current_after": "P15",
+            "writes_current": false
+          }
+        ],
+        "assertions": [
+          {
+            "position": 2,
+            "source_id": "IT2a|f80v.30|G002",
+            "input": "M2",
+            "attributes": [
+              "small_amount"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 3,
+            "source_id": "IT2a|f80v.30|G003",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 4,
+            "source_id": "IT2a|f80v.30|G004",
+            "input": "M2",
+            "attributes": [
+              "powdered"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 5,
+            "source_id": "IT2a|f80v.30|G005",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "powder_fine"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 6,
+            "source_id": "IT2a|f80v.30|G006",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 7,
+            "source_id": "IT2a|f80v.30|G007",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "dense"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 9,
+            "source_id": "IT2a|f80v.30|G009",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "fine"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 10,
+            "source_id": "IT2a|f80v.31|G001",
+            "input": "M2",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 11,
+            "source_id": "IT2a|f80v.31|G002",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "loosened"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 12,
+            "source_id": "IT2a|f80v.31|G003",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 13,
+            "source_id": "IT2a|f80v.31|G004",
+            "input": "M2",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 15,
+            "source_id": "IT2a|f80v.31|G006",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 16,
+            "source_id": "IT2a|f80v.31|G007",
+            "input": "M2",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 17,
+            "source_id": "IT2a|f80v.31|G008",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 18,
+            "source_id": "IT2a|f80v.32|G001",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          }
+        ],
+        "writes": [
+          {
+            "position": 5,
+            "before": "M2",
+            "after": "P5",
+            "parent": "M2"
+          },
+          {
+            "position": 9,
+            "before": "P5",
+            "after": "P9",
+            "parent": "M2"
+          },
+          {
+            "position": 10,
+            "before": "P9",
+            "after": "P10",
+            "parent": "M2"
+          },
+          {
+            "position": 14,
+            "before": "P10",
+            "after": "P14",
+            "parent": "M2"
+          },
+          {
+            "position": 15,
+            "before": "P14",
+            "after": "P15",
+            "parent": "M2"
+          },
+          {
+            "position": 17,
+            "before": "P15",
+            "after": "P17",
+            "parent": "M2"
+          },
+          {
+            "position": 18,
+            "before": "P17",
+            "after": "W18",
+            "parent": "M2"
+          }
+        ],
+        "final_state": {
+          "topic": "M2",
+          "current": "W18",
+          "owner": null
+        }
+      },
+      "trace": [
+        {
+          "position": 1,
+          "source_id": "IT2a|f80v.30|G001",
+          "surface": "pol",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 2,
+          "source_id": "IT2a|f80v.30|G002",
+          "surface": "or",
+          "expression_sort": "MaterialProperty",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 3,
+          "source_id": "IT2a|f80v.30|G003",
+          "surface": "olkain",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 4,
+          "source_id": "IT2a|f80v.30|G004",
+          "surface": "ockhy",
+          "expression_sort": "MaterialProperty",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 5,
+          "source_id": "IT2a|f80v.30|G005",
+          "surface": "qokaiin",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 6,
+          "source_id": "IT2a|f80v.30|G006",
+          "surface": "okain",
+          "expression_sort": "NominalExpr",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 7,
+          "source_id": "IT2a|f80v.30|G007",
+          "surface": "okar",
+          "expression_sort": "NominalExpr",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 8,
+          "source_id": "IT2a|f80v.30|G008",
+          "surface": "shey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 9,
+          "source_id": "IT2a|f80v.30|G009",
+          "surface": "qolky",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P9",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P9",
+          "owner": null
+        },
+        {
+          "position": 10,
+          "source_id": "IT2a|f80v.31|G001",
+          "surface": "qol",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 11,
+          "source_id": "IT2a|f80v.31|G002",
+          "surface": "oloiin",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 12,
+          "source_id": "IT2a|f80v.31|G003",
+          "surface": "olkain",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 13,
+          "source_id": "IT2a|f80v.31|G004",
+          "surface": "ol",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 14,
+          "source_id": "IT2a|f80v.31|G005",
+          "surface": "chedy",
+          "expression_sort": "Event(Material)->new Material part",
+          "output_sort": "Material",
+          "output": "P14",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P14",
+          "owner": null
+        },
+        {
+          "position": 15,
+          "source_id": "IT2a|f80v.31|G006",
+          "surface": "qokain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P15",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P15",
+          "owner": null
+        },
+        {
+          "position": 16,
+          "source_id": "IT2a|f80v.31|G007",
+          "surface": "olshey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P15",
+          "owner": null
+        },
+        {
+          "position": 17,
+          "source_id": "IT2a|f80v.31|G008",
+          "surface": "qokain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P17",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "P17",
+          "owner": null
+        },
+        {
+          "position": 18,
+          "source_id": "IT2a|f80v.32|G001",
+          "surface": "solkain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "W18",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "W18",
+          "owner": null
+        }
+      ],
+      "f85_graph": {
+        "entities": {
+          "M1": {
+            "sort": "Material",
+            "initial_attributes": [
+              "dense",
+              "fine_suspension"
+            ],
+            "attributes": [
+              "dense",
+              "fine_suspension"
+            ],
+            "parent": null,
+            "introduced_id": "IT2a|f85r1.1|G001"
+          },
+          "C1": {
+            "sort": "Container",
+            "attributes": [
+              "enclosure"
+            ],
+            "contains": "M1",
+            "introduced_id": "IT2a|f85r1.1|G002"
+          }
+        },
+        "parents": [],
+        "events": [
+          {
+            "position": 3,
+            "source_id": "IT2a|f85r1.1|G003",
+            "predicate": "shey",
+            "patient": "M1",
+            "output": "M1",
+            "current_before": "M1",
+            "current_after": "M1",
+            "writes_current": false
+          }
+        ],
+        "assertions": [],
+        "writes": [],
+        "final_state": {
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        }
+      },
+      "f85_trace": [
+        {
+          "position": 1,
+          "source_id": "IT2a|f85r1.1|G001",
+          "surface": "pdsheody",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "M1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": null
+        },
+        {
+          "position": 2,
+          "source_id": "IT2a|f85r1.1|G002",
+          "surface": "shdol",
+          "expression_sort": "Container",
+          "output_sort": "Container",
+          "output": "C1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        },
+        {
+          "position": 3,
+          "source_id": "IT2a|f85r1.1|G003",
+          "surface": "shey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "M1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        }
+      ],
+      "stop": {
+        "f80_position": 19,
+        "f80_surface": "shol",
+        "f85_position": 4,
+        "f85_surface": "otchdy"
+      },
+      "meaning_selected": false,
+      "whole_complete": false
+    },
+    {
+      "id": "CURRENT_SEPARATE",
+      "policy": "CURRENT",
+      "scope": "SEPARATE",
+      "status": "CONDITIONAL_PROJECTION_CONSISTENT",
+      "graph_sha256": "afe2ce8be6b6efda28610eeae1865d76097e4598cba0b32bad169a980670602c",
+      "graph": {
+        "entities": {
+          "M2": {
+            "sort": "Material",
+            "initial_attributes": [
+              "working_mixture"
+            ],
+            "attributes": [
+              "dispersed",
+              "grain_bearing",
+              "powder_fine",
+              "powdered",
+              "small_amount",
+              "working_mixture"
+            ],
+            "parent": null,
+            "introduced_id": "IT2a|f80v.30|G001"
+          },
+          "P5": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "dense",
+              "dispersed",
+              "fine",
+              "grain_bearing",
+              "working_mixture"
+            ],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G005"
+          },
+          "P9": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "working_mixture"
+            ],
+            "parent": "P5",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G009"
+          },
+          "P10": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "grain_bearing",
+              "loosened",
+              "working_mixture"
+            ],
+            "parent": "P9",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G001"
+          },
+          "P14": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "parent": "P10",
+            "relation": "retained_part",
+            "introduced_id": "IT2a|f80v.31|G005"
+          },
+          "P15": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "dispersed",
+              "grain_bearing",
+              "working_mixture"
+            ],
+            "parent": "P14",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G006"
+          },
+          "P17": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "grain_bearing",
+              "working_mixture"
+            ],
+            "parent": "P15",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G008"
+          },
+          "W18": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "P17",
+            "relation": "working_part",
+            "introduced_id": "IT2a|f80v.32|G001"
+          }
+        },
+        "parents": [
+          {
+            "child": "P5",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G005"
+          },
+          {
+            "child": "P9",
+            "parent": "P5",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G009"
+          },
+          {
+            "child": "P10",
+            "parent": "P9",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G001"
+          },
+          {
+            "child": "P14",
+            "parent": "P10",
+            "relation": "retained_part",
+            "introduced_id": "IT2a|f80v.31|G005"
+          },
+          {
+            "child": "P15",
+            "parent": "P14",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G006"
+          },
+          {
+            "child": "P17",
+            "parent": "P15",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G008"
+          },
+          {
+            "child": "W18",
+            "parent": "P17",
+            "relation": "working_part",
+            "introduced_id": "IT2a|f80v.32|G001"
+          }
+        ],
+        "events": [
+          {
+            "position": 8,
+            "source_id": "IT2a|f80v.30|G008",
+            "predicate": "shey",
+            "patient": "P5",
+            "output": "P5",
+            "current_before": "P5",
+            "current_after": "P5",
+            "writes_current": false
+          },
+          {
+            "position": 14,
+            "source_id": "IT2a|f80v.31|G005",
+            "predicate": "chedy",
+            "patient": "P10",
+            "output": "P14",
+            "current_before": "P10",
+            "current_after": "P14",
+            "writes_current": true
+          },
+          {
+            "position": 16,
+            "source_id": "IT2a|f80v.31|G007",
+            "predicate": "shey",
+            "patient": "P15",
+            "output": "P15",
+            "current_before": "P15",
+            "current_after": "P15",
+            "writes_current": false
+          }
+        ],
+        "assertions": [
+          {
+            "position": 2,
+            "source_id": "IT2a|f80v.30|G002",
+            "input": "M2",
+            "attributes": [
+              "small_amount"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 3,
+            "source_id": "IT2a|f80v.30|G003",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 4,
+            "source_id": "IT2a|f80v.30|G004",
+            "input": "M2",
+            "attributes": [
+              "powdered"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 5,
+            "source_id": "IT2a|f80v.30|G005",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "powder_fine"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 6,
+            "source_id": "IT2a|f80v.30|G006",
+            "input": "P5",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 7,
+            "source_id": "IT2a|f80v.30|G007",
+            "input": "P5",
+            "attributes": [
+              "dispersed",
+              "dense"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 9,
+            "source_id": "IT2a|f80v.30|G009",
+            "input": "P5",
+            "attributes": [
+              "working_mixture",
+              "fine"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 10,
+            "source_id": "IT2a|f80v.31|G001",
+            "input": "P9",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 11,
+            "source_id": "IT2a|f80v.31|G002",
+            "input": "P10",
+            "attributes": [
+              "working_mixture",
+              "loosened"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 12,
+            "source_id": "IT2a|f80v.31|G003",
+            "input": "P10",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 13,
+            "source_id": "IT2a|f80v.31|G004",
+            "input": "P10",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 15,
+            "source_id": "IT2a|f80v.31|G006",
+            "input": "P14",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 16,
+            "source_id": "IT2a|f80v.31|G007",
+            "input": "P15",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 17,
+            "source_id": "IT2a|f80v.31|G008",
+            "input": "P15",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 18,
+            "source_id": "IT2a|f80v.32|G001",
+            "input": "P17",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          }
+        ],
+        "writes": [
+          {
+            "position": 5,
+            "before": "M2",
+            "after": "P5",
+            "parent": "M2"
+          },
+          {
+            "position": 9,
+            "before": "P5",
+            "after": "P9",
+            "parent": "P5"
+          },
+          {
+            "position": 10,
+            "before": "P9",
+            "after": "P10",
+            "parent": "P9"
+          },
+          {
+            "position": 14,
+            "before": "P10",
+            "after": "P14",
+            "parent": "P10"
+          },
+          {
+            "position": 15,
+            "before": "P14",
+            "after": "P15",
+            "parent": "P14"
+          },
+          {
+            "position": 17,
+            "before": "P15",
+            "after": "P17",
+            "parent": "P15"
+          },
+          {
+            "position": 18,
+            "before": "P17",
+            "after": "W18",
+            "parent": "P17"
+          }
+        ],
+        "final_state": {
+          "topic": "M2",
+          "current": "W18",
+          "owner": null
+        }
+      },
+      "trace": [
+        {
+          "position": 1,
+          "source_id": "IT2a|f80v.30|G001",
+          "surface": "pol",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 2,
+          "source_id": "IT2a|f80v.30|G002",
+          "surface": "or",
+          "expression_sort": "MaterialProperty",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 3,
+          "source_id": "IT2a|f80v.30|G003",
+          "surface": "olkain",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 4,
+          "source_id": "IT2a|f80v.30|G004",
+          "surface": "ockhy",
+          "expression_sort": "MaterialProperty",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 5,
+          "source_id": "IT2a|f80v.30|G005",
+          "surface": "qokaiin",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "P5",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 6,
+          "source_id": "IT2a|f80v.30|G006",
+          "surface": "okain",
+          "expression_sort": "NominalExpr",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "P5",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 7,
+          "source_id": "IT2a|f80v.30|G007",
+          "surface": "okar",
+          "expression_sort": "NominalExpr",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "P5",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 8,
+          "source_id": "IT2a|f80v.30|G008",
+          "surface": "shey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "P5",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 9,
+          "source_id": "IT2a|f80v.30|G009",
+          "surface": "qolky",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P9",
+          "selected_context": "P9",
+          "topic": "M2",
+          "current": "P9",
+          "owner": null
+        },
+        {
+          "position": 10,
+          "source_id": "IT2a|f80v.31|G001",
+          "surface": "qol",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "P10",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 11,
+          "source_id": "IT2a|f80v.31|G002",
+          "surface": "oloiin",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "P10",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 12,
+          "source_id": "IT2a|f80v.31|G003",
+          "surface": "olkain",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "P10",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 13,
+          "source_id": "IT2a|f80v.31|G004",
+          "surface": "ol",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "P10",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 14,
+          "source_id": "IT2a|f80v.31|G005",
+          "surface": "chedy",
+          "expression_sort": "Event(Material)->new Material part",
+          "output_sort": "Material",
+          "output": "P14",
+          "selected_context": "P14",
+          "topic": "M2",
+          "current": "P14",
+          "owner": null
+        },
+        {
+          "position": 15,
+          "source_id": "IT2a|f80v.31|G006",
+          "surface": "qokain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P15",
+          "selected_context": "P15",
+          "topic": "M2",
+          "current": "P15",
+          "owner": null
+        },
+        {
+          "position": 16,
+          "source_id": "IT2a|f80v.31|G007",
+          "surface": "olshey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "P15",
+          "selected_context": "P15",
+          "topic": "M2",
+          "current": "P15",
+          "owner": null
+        },
+        {
+          "position": 17,
+          "source_id": "IT2a|f80v.31|G008",
+          "surface": "qokain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P17",
+          "selected_context": "P17",
+          "topic": "M2",
+          "current": "P17",
+          "owner": null
+        },
+        {
+          "position": 18,
+          "source_id": "IT2a|f80v.32|G001",
+          "surface": "solkain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "W18",
+          "selected_context": "W18",
+          "topic": "M2",
+          "current": "W18",
+          "owner": null
+        }
+      ],
+      "f85_graph": {
+        "entities": {
+          "M1": {
+            "sort": "Material",
+            "initial_attributes": [
+              "dense",
+              "fine_suspension"
+            ],
+            "attributes": [
+              "dense",
+              "fine_suspension"
+            ],
+            "parent": null,
+            "introduced_id": "IT2a|f85r1.1|G001"
+          },
+          "C1": {
+            "sort": "Container",
+            "attributes": [
+              "enclosure"
+            ],
+            "contains": "M1",
+            "introduced_id": "IT2a|f85r1.1|G002"
+          }
+        },
+        "parents": [],
+        "events": [
+          {
+            "position": 3,
+            "source_id": "IT2a|f85r1.1|G003",
+            "predicate": "shey",
+            "patient": "M1",
+            "output": "M1",
+            "current_before": "M1",
+            "current_after": "M1",
+            "writes_current": false
+          }
+        ],
+        "assertions": [],
+        "writes": [],
+        "final_state": {
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        }
+      },
+      "f85_trace": [
+        {
+          "position": 1,
+          "source_id": "IT2a|f85r1.1|G001",
+          "surface": "pdsheody",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "M1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": null
+        },
+        {
+          "position": 2,
+          "source_id": "IT2a|f85r1.1|G002",
+          "surface": "shdol",
+          "expression_sort": "Container",
+          "output_sort": "Container",
+          "output": "C1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        },
+        {
+          "position": 3,
+          "source_id": "IT2a|f85r1.1|G003",
+          "surface": "shey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "M1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        }
+      ],
+      "stop": {
+        "f80_position": 19,
+        "f80_surface": "shol",
+        "f85_position": 4,
+        "f85_surface": "otchdy"
+      },
+      "meaning_selected": false,
+      "whole_complete": false
+    },
+    {
+      "id": "CURRENT_NOMINAL_EVENT",
+      "policy": "CURRENT",
+      "scope": "NOMINAL_EVENT",
+      "status": "CONDITIONAL_PROJECTION_CONSISTENT",
+      "graph_sha256": "afe2ce8be6b6efda28610eeae1865d76097e4598cba0b32bad169a980670602c",
+      "graph": {
+        "entities": {
+          "M2": {
+            "sort": "Material",
+            "initial_attributes": [
+              "working_mixture"
+            ],
+            "attributes": [
+              "dispersed",
+              "grain_bearing",
+              "powder_fine",
+              "powdered",
+              "small_amount",
+              "working_mixture"
+            ],
+            "parent": null,
+            "introduced_id": "IT2a|f80v.30|G001"
+          },
+          "P5": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "dense",
+              "dispersed",
+              "fine",
+              "grain_bearing",
+              "working_mixture"
+            ],
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G005"
+          },
+          "P9": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "working_mixture"
+            ],
+            "parent": "P5",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G009"
+          },
+          "P10": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "grain_bearing",
+              "loosened",
+              "working_mixture"
+            ],
+            "parent": "P9",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G001"
+          },
+          "P14": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "parent": "P10",
+            "relation": "retained_part",
+            "introduced_id": "IT2a|f80v.31|G005"
+          },
+          "P15": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "dispersed",
+              "grain_bearing",
+              "working_mixture"
+            ],
+            "parent": "P14",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G006"
+          },
+          "P17": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [
+              "grain_bearing",
+              "working_mixture"
+            ],
+            "parent": "P15",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G008"
+          },
+          "W18": {
+            "sort": "Material",
+            "initial_attributes": [],
+            "attributes": [],
+            "parent": "P17",
+            "relation": "working_part",
+            "introduced_id": "IT2a|f80v.32|G001"
+          }
+        },
+        "parents": [
+          {
+            "child": "P5",
+            "parent": "M2",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G005"
+          },
+          {
+            "child": "P9",
+            "parent": "P5",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.30|G009"
+          },
+          {
+            "child": "P10",
+            "parent": "P9",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G001"
+          },
+          {
+            "child": "P14",
+            "parent": "P10",
+            "relation": "retained_part",
+            "introduced_id": "IT2a|f80v.31|G005"
+          },
+          {
+            "child": "P15",
+            "parent": "P14",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G006"
+          },
+          {
+            "child": "P17",
+            "parent": "P15",
+            "relation": "proper_portion",
+            "introduced_id": "IT2a|f80v.31|G008"
+          },
+          {
+            "child": "W18",
+            "parent": "P17",
+            "relation": "working_part",
+            "introduced_id": "IT2a|f80v.32|G001"
+          }
+        ],
+        "events": [
+          {
+            "position": 8,
+            "source_id": "IT2a|f80v.30|G008",
+            "predicate": "shey",
+            "patient": "P5",
+            "output": "P5",
+            "current_before": "P5",
+            "current_after": "P5",
+            "writes_current": false
+          },
+          {
+            "position": 14,
+            "source_id": "IT2a|f80v.31|G005",
+            "predicate": "chedy",
+            "patient": "P10",
+            "output": "P14",
+            "current_before": "P10",
+            "current_after": "P14",
+            "writes_current": true
+          },
+          {
+            "position": 16,
+            "source_id": "IT2a|f80v.31|G007",
+            "predicate": "shey",
+            "patient": "P15",
+            "output": "P15",
+            "current_before": "P15",
+            "current_after": "P15",
+            "writes_current": false
+          }
+        ],
+        "assertions": [
+          {
+            "position": 2,
+            "source_id": "IT2a|f80v.30|G002",
+            "input": "M2",
+            "attributes": [
+              "small_amount"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 3,
+            "source_id": "IT2a|f80v.30|G003",
+            "input": "M2",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 4,
+            "source_id": "IT2a|f80v.30|G004",
+            "input": "M2",
+            "attributes": [
+              "powdered"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 5,
+            "source_id": "IT2a|f80v.30|G005",
+            "input": "M2",
+            "attributes": [
+              "dispersed",
+              "powder_fine"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 6,
+            "source_id": "IT2a|f80v.30|G006",
+            "input": "P5",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 7,
+            "source_id": "IT2a|f80v.30|G007",
+            "input": "P5",
+            "attributes": [
+              "dispersed",
+              "dense"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 9,
+            "source_id": "IT2a|f80v.30|G009",
+            "input": "P5",
+            "attributes": [
+              "working_mixture",
+              "fine"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 10,
+            "source_id": "IT2a|f80v.31|G001",
+            "input": "P9",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 11,
+            "source_id": "IT2a|f80v.31|G002",
+            "input": "P10",
+            "attributes": [
+              "working_mixture",
+              "loosened"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 12,
+            "source_id": "IT2a|f80v.31|G003",
+            "input": "P10",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 13,
+            "source_id": "IT2a|f80v.31|G004",
+            "input": "P10",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 15,
+            "source_id": "IT2a|f80v.31|G006",
+            "input": "P14",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 16,
+            "source_id": "IT2a|f80v.31|G007",
+            "input": "P15",
+            "attributes": [
+              "working_mixture"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 17,
+            "source_id": "IT2a|f80v.31|G008",
+            "input": "P15",
+            "attributes": [
+              "dispersed",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          },
+          {
+            "position": 18,
+            "source_id": "IT2a|f80v.32|G001",
+            "input": "P17",
+            "attributes": [
+              "working_mixture",
+              "grain_bearing"
+            ],
+            "output_inheritance": false
+          }
+        ],
+        "writes": [
+          {
+            "position": 5,
+            "before": "M2",
+            "after": "P5",
+            "parent": "M2"
+          },
+          {
+            "position": 9,
+            "before": "P5",
+            "after": "P9",
+            "parent": "P5"
+          },
+          {
+            "position": 10,
+            "before": "P9",
+            "after": "P10",
+            "parent": "P9"
+          },
+          {
+            "position": 14,
+            "before": "P10",
+            "after": "P14",
+            "parent": "P10"
+          },
+          {
+            "position": 15,
+            "before": "P14",
+            "after": "P15",
+            "parent": "P14"
+          },
+          {
+            "position": 17,
+            "before": "P15",
+            "after": "P17",
+            "parent": "P15"
+          },
+          {
+            "position": 18,
+            "before": "P17",
+            "after": "W18",
+            "parent": "P17"
+          }
+        ],
+        "final_state": {
+          "topic": "M2",
+          "current": "W18",
+          "owner": null
+        }
+      },
+      "trace": [
+        {
+          "position": 1,
+          "source_id": "IT2a|f80v.30|G001",
+          "surface": "pol",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 2,
+          "source_id": "IT2a|f80v.30|G002",
+          "surface": "or",
+          "expression_sort": "MaterialProperty",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 3,
+          "source_id": "IT2a|f80v.30|G003",
+          "surface": "olkain",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 4,
+          "source_id": "IT2a|f80v.30|G004",
+          "surface": "ockhy",
+          "expression_sort": "MaterialProperty",
+          "output_sort": "Material",
+          "output": "M2",
+          "selected_context": "M2",
+          "topic": "M2",
+          "current": "M2",
+          "owner": null
+        },
+        {
+          "position": 5,
+          "source_id": "IT2a|f80v.30|G005",
+          "surface": "qokaiin",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "P5",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 6,
+          "source_id": "IT2a|f80v.30|G006",
+          "surface": "okain",
+          "expression_sort": "NominalExpr",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "P5",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 7,
+          "source_id": "IT2a|f80v.30|G007",
+          "surface": "okar",
+          "expression_sort": "NominalExpr",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "P5",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 8,
+          "source_id": "IT2a|f80v.30|G008",
+          "surface": "shey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "P5",
+          "selected_context": "P5",
+          "topic": "M2",
+          "current": "P5",
+          "owner": null
+        },
+        {
+          "position": 9,
+          "source_id": "IT2a|f80v.30|G009",
+          "surface": "qolky",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P9",
+          "selected_context": "P9",
+          "topic": "M2",
+          "current": "P9",
+          "owner": null
+        },
+        {
+          "position": 10,
+          "source_id": "IT2a|f80v.31|G001",
+          "surface": "qol",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "P10",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 11,
+          "source_id": "IT2a|f80v.31|G002",
+          "surface": "oloiin",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "P10",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 12,
+          "source_id": "IT2a|f80v.31|G003",
+          "surface": "olkain",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "P10",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 13,
+          "source_id": "IT2a|f80v.31|G004",
+          "surface": "ol",
+          "expression_sort": "MaterialSchema",
+          "output_sort": "Material",
+          "output": "P10",
+          "selected_context": "P10",
+          "topic": "M2",
+          "current": "P10",
+          "owner": null
+        },
+        {
+          "position": 14,
+          "source_id": "IT2a|f80v.31|G005",
+          "surface": "chedy",
+          "expression_sort": "Event(Material)->new Material part",
+          "output_sort": "Material",
+          "output": "P14",
+          "selected_context": "P14",
+          "topic": "M2",
+          "current": "P14",
+          "owner": null
+        },
+        {
+          "position": 15,
+          "source_id": "IT2a|f80v.31|G006",
+          "surface": "qokain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P15",
+          "selected_context": "P15",
+          "topic": "M2",
+          "current": "P15",
+          "owner": null
+        },
+        {
+          "position": 16,
+          "source_id": "IT2a|f80v.31|G007",
+          "surface": "olshey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "P15",
+          "selected_context": "P15",
+          "topic": "M2",
+          "current": "P15",
+          "owner": null
+        },
+        {
+          "position": 17,
+          "source_id": "IT2a|f80v.31|G008",
+          "surface": "qokain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "P17",
+          "selected_context": "P17",
+          "topic": "M2",
+          "current": "P17",
+          "owner": null
+        },
+        {
+          "position": 18,
+          "source_id": "IT2a|f80v.32|G001",
+          "surface": "solkain",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "W18",
+          "selected_context": "W18",
+          "topic": "M2",
+          "current": "W18",
+          "owner": null
+        }
+      ],
+      "f85_graph": {
+        "entities": {
+          "M1": {
+            "sort": "Material",
+            "initial_attributes": [
+              "dense",
+              "fine_suspension"
+            ],
+            "attributes": [
+              "dense",
+              "fine_suspension"
+            ],
+            "parent": null,
+            "introduced_id": "IT2a|f85r1.1|G001"
+          },
+          "C1": {
+            "sort": "Container",
+            "attributes": [
+              "enclosure"
+            ],
+            "contains": "M1",
+            "introduced_id": "IT2a|f85r1.1|G002"
+          }
+        },
+        "parents": [],
+        "events": [
+          {
+            "position": 3,
+            "source_id": "IT2a|f85r1.1|G003",
+            "predicate": "shey",
+            "patient": "M1",
+            "output": "M1",
+            "current_before": "M1",
+            "current_after": "M1",
+            "writes_current": false
+          }
+        ],
+        "assertions": [],
+        "writes": [],
+        "final_state": {
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        }
+      },
+      "f85_trace": [
+        {
+          "position": 1,
+          "source_id": "IT2a|f85r1.1|G001",
+          "surface": "pdsheody",
+          "expression_sort": "Material",
+          "output_sort": "Material",
+          "output": "M1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": null
+        },
+        {
+          "position": 2,
+          "source_id": "IT2a|f85r1.1|G002",
+          "surface": "shdol",
+          "expression_sort": "Container",
+          "output_sort": "Container",
+          "output": "C1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        },
+        {
+          "position": 3,
+          "source_id": "IT2a|f85r1.1|G003",
+          "surface": "shey",
+          "expression_sort": "Event(Material)->same Material",
+          "output_sort": "Material",
+          "output": "M1",
+          "selected_context": "M1",
+          "topic": "M1",
+          "current": "M1",
+          "owner": "C1"
+        }
+      ],
+      "stop": {
+        "f80_position": 19,
+        "f80_surface": "shol",
+        "f85_position": 4,
+        "f85_surface": "otchdy"
+      },
+      "meaning_selected": false,
+      "whole_complete": false
+    }
+  ],
+  "graph_equivalence_groups": [
+    [
+      "TOPIC_SEPARATE",
+      "TOPIC_NOMINAL_EVENT"
+    ],
+    [
+      "CURRENT_SEPARATE",
+      "CURRENT_NOMINAL_EVENT"
+    ]
+  ],
+  "primary_groups": 129,
+  "projected_groups": 21,
+  "newly_executed_groups": 10,
+  "remaining_unconsumed": 108,
+  "whole_contexts_complete": 0,
+  "lexical_values_changed": false,
+  "rules_changed": false,
+  "confirmed_words": 0,
+  "independent_confirmation_capacity": 0,
+  "significance_claim": false,
+  "claim_ceiling": "Fixed finite nominal/context AST projection only; no generic parser theorem, meaningful corpus translation or policy winner"
+}

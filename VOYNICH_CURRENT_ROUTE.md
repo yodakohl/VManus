@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: FM shared entry C0;whole129 partial.
-Latest decision: 1122 entry3+8 conditional;118unbound;lateTOPIC KAIN debt.
-Working files: experiments/yolo/gdt1122_joint_written_participant_entry/REPORT.md.
-Assumptions: 0words;20roots/1residual/10rules/4defaults;no sealaccess.
-Resume: Register unchanged-rule f80 paid9–18 continuation;stop at debt;19/85-4 unpaid.
-Running: None;Sol workers frozen.
+Task: FN fixed nominal continuation;whole129 partial.
+Latest decision: 1123 projects21/129;two reference graphs;scope tied;108unconsumed.
+Working files: experiments/yolo/gdt1123_fixed_nominal_portion_continuation/REPORT.md.
+Assumptions: 0words;frozen FM values;qualities on input,not inherited;seals closed.
+Resume: Review unpaid SHOL19/SHDOL role and primaries before new whole-content model.
+Running: None;three Sol workers frozen.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
