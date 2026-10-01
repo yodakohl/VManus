@@ -1,3 +1,6 @@
+<!-- FF 2026-10-01 -->
+FF:835completehistoricaldutyretained/not_tested;no targetbinding or newfixed86/19falsifier fromDAIINAIINpriors. Do not run source-onlyfreeparagraph, universalhost/morphemetest or unchangedFDtransfer. ExistingC0/positivecomposition retained;notglobalexplorationban. ThreeSolreviews finishedwithin caps;producer0newideas. Nextreview756completehistoricalcarrier/gold source andprimaries beforeselection.0words0independentleaves;FEpublic35c1a0f85. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FF_REPORT.md.
+
 <!-- FE 2026-10-01 -->
 FE:all4fixedwindows/1349ownparagraphs yield4cases3contexts onlyseed113;2ITeligible;0reverse/outside/conflict. Stop unchangedFDliteral transfer, preservecompleteC0/propertydebt andFBconflict. No meaningtest or reparsing;86values19rulesunchanged. Nextreview835historicalprimary/closedroutes beforeselection.0words0independentleaves;835raw;publicationbudgetoverrun. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FE_REPORT.md.
 

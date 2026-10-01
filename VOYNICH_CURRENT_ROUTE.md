@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: FEfixedframes closed;FDfull17paidC0 retained.
-Latest decision: All4cases seed113;0outside/meaningtests;no repairs.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FE_REPORT.md.
-Assumptions: 0words;propertydebt/FBconflict retained;835raw.
-Resume: Review835primary and closedroutes before newselection.
-Running: None;threeSolthreads idle;publication pending.
+Task: FF835held;no new86/19falsifier;FDpaidC0 retained.
+Latest decision: No repeatedFD/hostscan or source-onlyfreeparagraph.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FF_REPORT.md.
+Assumptions: 0words;835not_tested;exploration stillallowed.
+Resume: Review756completeVitruviussource and closedprimaries.
+Running: None;threeSolreviews frozen.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
