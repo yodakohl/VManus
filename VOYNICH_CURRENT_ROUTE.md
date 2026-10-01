@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GB/GDT1126 native whole/part relation capacity.
-Latest decision: Exactimagegrant registered;0words.
-Working files: experiments/yolo/gdt1126_native_plant_part_relations/PREREGISTRATION.md.
-Assumptions: Coidentityhyp;oldformalFAILs;noreserve/glyphreading.
-Resume: Acquire11canvases;7nativecases/allrows.
-Running: 7-caseanatomywork;end18:29UTC.
+Task: GDT1127 two source-corrected native pairs.
+Latest decision: 1126twoinvalid;2sameleafleads;0words.
+Working files: experiments/yolo/gdt1127_native_pair_correct_canvas_followup/PREREGISTRATION.md.
+Assumptions: Coidentityhyp;oldFAILs;noreserve/glyphreading.
+Resume: Acquire6234/6253;2nativecases/allneighbors.
+Running: 2-casefollowup;minimumends18:29UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -41,7 +41,7 @@ Other closed families remain in the existing registry; no automatic reopening.
 f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;92 legacy image keys/98 selectors (F scope receipt). f1r margins only;
-f106v image fixed paragraph only. Register new access first. GB: [image grant](docs/VOYNICH_DATA_SCOPE_20261001_NATIVE_PLANT_PAIRS.md). Contracts:
+f106v image fixed paragraph only. Register new access first. GB: [image grant](docs/VOYNICH_DATA_SCOPE_20261001_CORRECTED_PLANT_PAIRS.md). Contracts:
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [detail](docs/VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md); [base](docs/VOYNICH_DATA_SCOPE.md); [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use

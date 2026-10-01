@@ -1145,3 +1145,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 - GDT1125: original source-summary gate FAIL retained; separate diagnostic on all12 candidate-reader cases gives0complete transfers. [Decision](yolo/gdt1125_choice_method_written_dependency_transfer/REPORT.md).
 
 - GDT1126 — Native anatomy/owner capacity, seven fixed development relations; registered before images. [Preregistration](yolo/gdt1126_native_plant_part_relations/PREREGISTRATION.md).
+
+- GDT1127 — Separate two-case native followup, exact corrected source canvases pinned before images. [Preregistration](yolo/gdt1127_native_pair_correct_canvas_followup/PREREGISTRATION.md).

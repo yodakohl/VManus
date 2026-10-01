@@ -1,0 +1,355 @@
+{
+  "schema": "GDT1126-native-case-v1",
+  "case_id": "GB4",
+  "status": "SOURCE_BINDING_INVALID",
+  "qualified_pair": false,
+  "criterion_result": "NO_QUALIFIED_PAIR__ORIGINAL_SOURCE_BINDING_INVALID",
+  "registered_nomination": {
+    "herbal_selector": "f19r",
+    "herbal_canvas_id": "1006110",
+    "pharma_selector": "f102v1",
+    "pharma_canvas_id": "1006252",
+    "target_locator": "row2plant2; retainwhole row",
+    "nominal_fragment": "240",
+    "historical_label_locus": "f102v1.17",
+    "transcription_permitted": false
+  },
+  "registration": {
+    "utc": "2026-10-01T18:02:39.612640+00:00",
+    "commit": "5dd2a9bb0496a6ac13edff496640adfb346f40b7",
+    "view_go": "artifacts/NATIVE_VIEW_GO.json",
+    "view_go_utc": "2026-10-01T18:06:54.229625+00:00",
+    "go_read_before_any_native_view": true,
+    "first_view_exact_clock_unrecorded": true
+  },
+  "source_images": [
+    {
+      "canvas_id": "1006110",
+      "declared_selector": "f19r",
+      "url": "https://collections.library.yale.edu/iiif/2/1006110/full/full/0/default.jpg",
+      "sha256": "c05e13bd154a93d77e2f601f11d9bd886fdf4524a49dbae0339b0bd864f7283c",
+      "width": 2649,
+      "height": 3743,
+      "resolution": "SUCCESS_FULL",
+      "relative_runtime_cache": "experiments/yolo/gdt1126_native_plant_part_relations/runtime/canvas_1006110_full.jpg"
+    },
+    {
+      "canvas_id": "1006252",
+      "declared_selector": "f102v1",
+      "url": "https://collections.library.yale.edu/iiif/2/1006252/full/full/0/default.jpg",
+      "sha256": "8cdb1030d805b968932146124915cb0d86f7abf853167ffec028b59599820fad",
+      "width": 2981,
+      "height": 3795,
+      "resolution": "SUCCESS_FULL",
+      "relative_runtime_cache": "experiments/yolo/gdt1126_native_plant_part_relations/runtime/canvas_1006252_full.jpg"
+    }
+  ],
+  "native_view_method": "tools.view_image full canvases for permitted localization, then deterministic same-source whole-drawing/complete-row crops and root details through tools.view_image. No OCR, generation, glyph/prose/species reading or external substitute.",
+  "inspection_crops": [
+    {
+      "canvas_id": "1006110",
+      "runtime_name": "GB4_herbal_whole.png",
+      "source_coordinates_xyxy": [
+        420,
+        570,
+        2380,
+        3560
+      ],
+      "coordinate_origin": "top-left full native JPEG; right/bottom exclusive",
+      "sha256": "134518e4467a82bff6218cc0d89ee5778599b30716c4996b78d35872392b3c4c",
+      "purpose": "whole nominated herbal drawing, includes all root tips and top flower"
+    },
+    {
+      "canvas_id": "1006252",
+      "runtime_name": "GB4_pharma_row2.png",
+      "source_coordinates_xyxy": [
+        260,
+        1420,
+        2810,
+        2480
+      ],
+      "coordinate_origin": "top-left full native JPEG; right/bottom exclusive",
+      "sha256": "fe68753cc2b894665c74b1d612c859925173549d12a8d89d1959c850e384820c",
+      "purpose": "complete nominated visible lower pharmacy row, all five native shapes and jar"
+    },
+    {
+      "canvas_id": "1006252",
+      "runtime_name": "GB4_target_root_only.png",
+      "source_coordinates_xyxy": [
+        610,
+        1810,
+        1400,
+        2350
+      ],
+      "coordinate_origin": "top-left full native JPEG; right/bottom exclusive",
+      "sha256": "59e7bca6d00fdb8ffe63739aa411c7ab5ad728e3cd30b0ce8f59b718e5a425f7",
+      "purpose": "initial detail of visible second root shape; lower loop not fully included; superseded for extent inspection by wider detail, retained as exposure"
+    },
+    {
+      "canvas_id": "1006110",
+      "runtime_name": "GB4_herbal_root.png",
+      "source_coordinates_xyxy": [
+        1030,
+        2580,
+        1920,
+        3500
+      ],
+      "coordinate_origin": "top-left full native JPEG; right/bottom exclusive",
+      "sha256": "1732244528dc9f3167ee78c2646bb163a8d1b3bb7ab5e2b9b32f82898e50d4c8",
+      "purpose": "detail of whole herbal root; whole drawing also inspected"
+    },
+    {
+      "canvas_id": "1006252",
+      "runtime_name": "GB4_target_root_context.png",
+      "source_coordinates_xyxy": [
+        610,
+        1780,
+        1440,
+        2460
+      ],
+      "coordinate_origin": "top-left full native JPEG; right/bottom exclusive",
+      "sha256": "d529fd8db0ed76ffcb37b50ed8da1428c077d7ef6fd35dc60c9c3c653e0bd25b",
+      "purpose": "expanded root detail including lower loop and neighbor continuity; no image altered except crop"
+    }
+  ],
+  "herbal_anatomical_extent": {
+    "class": "FULLPLANT",
+    "observed": "One continuous root-crown and multiple upward stalks with two large deeply divided basal blades, smaller serrated/lobed leaves, several blue-edged oval heads and a conspicuous blue terminal flower. Thick brown crown divides into numerous curved/tapered arms including a conspicuous lower crossing/open-loop geometry.",
+    "limits": "Anatomical terms describe drawn geometry; no species identity, naturalistic accuracy, botanical family or counted real organ is inferred."
+  },
+  "fragment_anatomical_extent": {
+    "nominal_fragment240": "UNRESOLVED_NATIVE_OWNER",
+    "literal_second_visible_object": "ROOT_DOMINANT_FRAGMENT_WITH_SHORT_CROWN_STUBS",
+    "contrast_if_second_object_is_target": "Securely narrower drawn extent than full herbal plant: no attached leaves or flower are shown for this separate shape.",
+    "qualification_limit": "This conditional extent difference cannot establish the fragment240 relation until catalogue/native owner mapping is resolved."
+  },
+  "coidentity": "NOMINATED_TARGET_NOT_ASSESSABLE_UNDER_INVALID_SOURCE_BINDING",
+  "distinctive_concordance": {
+    "literal_second_object": "Both have bulky root bodies and curved/tapering arms, but this is generic root-like resemblance. No stable distinctive branching/open-loop homology was secured.",
+    "rival_object3": "Deep marginal green-blade division supplies possible leaf resemblance; this remains a separate possible owner.",
+    "rival_object4": "Multiple brown tapering root arms supply a generic root counterpart; no same topology is established."
+  },
+  "counter_features": [
+    "Herbal root has one elongated neck feeding a broad central crown with many longer curved arms fanning to both sides and downward; visible object2 is a compact red-brown lateral mass with short blunt crown stubs and much of its tapered mass directed right.",
+    "Herbal lower roots include conspicuous crossing/open-loop arms; object2 has a different lower open curve, without a secure corresponding branch topology.",
+    "Large divided basal leaves and blue flower/head architecture of the herbal are absent from visible object2. Their absence supports a partial-extent hypothesis only after coidentity is established, not identity by itself.",
+    "Visual object3 has a different broad-base/long taper root; visual object4 has a different narrow parallel-root fan and oval leaf architecture. They are retained rivals.",
+    "Red versus ochre/brown paint is recorded but not treated as a diagnostic taxonomic exclusion."
+  ],
+  "continuity_or_cut": {
+    "herbal": "visible stem-to-root continuity, whole crown and all displayed root tips retained",
+    "visible_object2": "separate root drawing with blunt upper crown stubs and no securely attached leafy stalk; no knife, operation sequence, unmistakable wound/cross-section or other direct cutting event is shown",
+    "cutting_status": "UNPROVEN; drawn truncation or absent upper organs can be illustrative simplification",
+    "neighbor_continuity": "Object1 thin stems/roots and object3 leaf stalk/root lie close to object2 but are not securely joined to its red body; all retained in full row."
+  },
+  "simplification_rival": "Stylistic shortening, omission of flowers/leaves, rotation or different schematic root emphasis can account for extent differences; no literal removal process is established. These possibilities do not create a unique coidentity or owner.",
+  "label_owner": {
+    "status": "UNCLEAR",
+    "nominal_locus": "f102v1.17 remains historical metadata, not a read manuscript label",
+    "geometry": "No visually secure singular fragment240-to-inscription attachment established. Proximity around object2 competes with adjacent object1 stem and object3 leaf/root spaces; neither glyph reading nor nearest-text assignment was used.",
+    "unique_native_owner": false
+  },
+  "neighbor_alternatives": [
+    {
+      "native_visual_position": 1,
+      "description": "green irregular broad blade/body at left, with thin outlined stems down to a small brown root and looping unfilled fine strands",
+      "approximate_source_bbox_xyxy": [
+        490,
+        1430,
+        1190,
+        2360
+      ],
+      "anatomical_extent": "LEAF_BEARING_ROOT_FRAGMENT",
+      "label_owner": "proximal inscription geometry exists near its thin stem; no glyph reading or secure cross-catalogue owner",
+      "alternative": "Its thin fine root does not reproduce the herbal thick many-armed root; retaining a leaf alone supplies only generic overlap."
+    },
+    {
+      "native_visual_position": 2,
+      "description": "separate red-brown bulky root form, short broad upright crown stubs, lateral tapered projections to right, one long open lower loop; no securely connected leaves/flower",
+      "approximate_source_bbox_xyxy": [
+        740,
+        1800,
+        1440,
+        2430
+      ],
+      "anatomical_extent": "ROOT_DOMINANT_FRAGMENT_WITH_SHORT_CROWN_STUBS",
+      "label_owner": "inscription cluster above crown lies in gap between object1 stems and object3 leaf stalks; no leader or enclosure securely singles out this root",
+      "alternative": "This is the preregistered literal second visible object under all-object counting, but mapping it to nominal fragment240 is not established."
+    },
+    {
+      "native_visual_position": 3,
+      "description": "large paired elongated green leaves with deep marginal lobes on slender stalks, attached to a broad pink/red base extending as a long tapering root to right",
+      "approximate_source_bbox_xyxy": [
+        1060,
+        1510,
+        2270,
+        2320
+      ],
+      "anatomical_extent": "LEAF_BEARING_ROOT_FRAGMENT",
+      "label_owner": "a spatially proximal inscription below green leaves/above long root exists, without transcription; it cannot be reassigned to object2 by convenience",
+      "alternative": "Deeply divided green blades offer a possible counterpart to herbal basal leaves; different root architecture and absent flower remain counterfeatures. This is a rival visual owner, not a substituted target."
+    },
+    {
+      "native_visual_position": 4,
+      "description": "brown root crown with many long tapered parallel/diverging strands, connected to a thin upright branching stem bearing several oval green/dark blades",
+      "approximate_source_bbox_xyxy": [
+        1880,
+        1500,
+        2790,
+        2310
+      ],
+      "anatomical_extent": "LEAF_BEARING_ROOT_FRAGMENT",
+      "label_owner": "proximal inscription beneath its brown root; no leader or catalogue-to-native binding established",
+      "alternative": "Multiple long root arms share generic architecture with herbal root better than a simple bulb does, but the narrow parallel fan and oval leaves differ; not an identical mapped root."
+    },
+    {
+      "native_visual_position": 5,
+      "description": "unfilled outlined bulb/ovoid basal form with nested ascending internal lines and fine lower strand tails at far right",
+      "approximate_source_bbox_xyxy": [
+        2450,
+        1800,
+        2790,
+        2370
+      ],
+      "anatomical_extent": "OUTLINED_BULB_ROOT_FRAGMENT_OR_SCHEMATIC_OTHER",
+      "label_owner": "no secure independently delimited inscription-to-shape mapping established",
+      "alternative": "No characteristic correspondence to herbal branched root or leaf geometry; simplification alone cannot select this as the nominated owner."
+    }
+  ],
+  "nonplant_row_context": {
+    "description": "large decorated jar at far left retained for complete-row geometry",
+    "status": "not counted as plant/root object or a taxonomic candidate"
+  },
+  "locator_counterevidence": {
+    "fixed_official_preselection": "PVO001-bound declaration f102v1 ->1006252 is retained; no image was swapped",
+    "cached_catalogue": "experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q19.html",
+    "catalogue_scan_bindings": {
+      "f102v2": "1006252",
+      "f102v1": "1006253"
+    },
+    "catalogue_nominal_rows": {
+      "f102v2": {
+        "row1": [
+          "214",
+          "215",
+          "216",
+          "217",
+          "218",
+          "219",
+          "220"
+        ],
+        "row2": [
+          "221",
+          "222",
+          "223",
+          "224",
+          "225",
+          "226",
+          "227"
+        ],
+        "row3": [
+          "229",
+          "230",
+          "231",
+          "232",
+          "233"
+        ]
+      },
+      "f102v1": {
+        "row1": [
+          "234",
+          "235",
+          "236",
+          "237",
+          "238"
+        ],
+        "row2": [
+          "239",
+          "240",
+          "241"
+        ]
+      }
+    },
+    "catalogue_nomination": "fragment240 nominated as same plant as f19r; this is pre-existing source hypothesis, not native result",
+    "native_visible_row_count": 5,
+    "human_annotation_metadata": {
+      "relation_id": "JSP2025_03",
+      "physical_file_row": 4,
+      "first_page": "f19r",
+      "second_page_source": "f102v1",
+      "second_page_current": "f102v1",
+      "second_row": 2,
+      "second_item": 3
+    },
+    "consequence": "Three nominal fragments239/240/241, five native visible objects, opposite cached scan binding, and old item3 metadata do not uniquely bind240 to second visible object. Do not choose favorable object3 or admit/fetch1006253.",
+    "final_root_instruction": "Freeze original SOURCE_BINDING_INVALID; do not rescue GDT1126 or open6253. Any corrected source is a separately registered study."
+  },
+  "exposure_accounting": {
+    "manuscript_glyph_or_prose_read": false,
+    "species_lore_read": false,
+    "sealed_f84_f84r_pixels_or_text": false,
+    "f116v_opened": false,
+    "reserved_confirmation_opened": false,
+    "outside_canvas_regions": "Whole admitted canvases viewed only for localization; other visible page/panel strips and glyphs incidental, uninterpreted. Text inside whole-drawing/row crops visible but not read.",
+    "old_human_hint_exposure": {
+      "file": "experiments/semantic_assumptions/cache/existing_human_annotations/stolfi_2025_internal_plant_pairs.tsv",
+      "row": 4,
+      "command": "rg -n -m 12 '240|f102v1|f19r' experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q20.html experiments/semantic_assumptions/cache/existing_human_annotations/stolfi_2025_internal_plant_pairs.tsv",
+      "returned_component_note": "pharma retains one leaf type and omits the other leaf type and flowers",
+      "timing": "after initial full-canvas/whole-row native observations, during intended locator crosscheck",
+      "use": "disclosed prior/external anatomy hint, not independent evidence and not a target-switch license"
+    },
+    "guard_limitation": "Initial locator rg searched the entire cached human-annotation TSV instead of selector-first querying and returned component_note. No manuscript transcription or sealed data was returned; this is not represented as compliant guarded retrieval.",
+    "subsequent_header_only_command": "sed -n '1p' experiments/semantic_assumptions/cache/existing_human_annotations/stolfi_2025_internal_plant_pairs.tsv",
+    "subsequent_guarded_metadata_command": "./vmanus-exp query-tsv experiments/semantic_assumptions/cache/existing_human_annotations/stolfi_2025_internal_plant_pairs.tsv --selector first_page --allow f19r --columns relation_id,first_page,second_page_source,second_page_current,second_row,second_item",
+    "guard_stats": {
+      "selected": 1,
+      "skipped_forbidden": 0,
+      "skipped_not_allowed": 11
+    }
+  },
+  "qualified_criteria": {
+    "independently_visible_distinctive_coidentity": "NOMINATED_TARGET_NOT_ASSESSABLE",
+    "securely_different_anatomical_extent": "VISIBLE_FOR_SECOND_NATIVE_OBJECT_ONLY_TARGET_MAPPING_UNRESOLVED",
+    "singular_inscription_owner": "NOT_ESTABLISHED",
+    "no_equally_adequate_neighbor_rival": "NOT_ESTABLISHED_WITH_UNRESOLVED_TARGET",
+    "decision": false
+  },
+  "limits": [
+    "Development/exposed nominated pair; no independent holdout or blind confirmation.",
+    "Source/native owner mismatch prevents a qualified pair even if one neighboring plant appears more similar.",
+    "No ROOT, part, plant name, species, process or q/other glyph meaning selected.",
+    "No actual cutting, removal, extraction or preparation is established from detached depiction.",
+    "No old formal decision superseded; GDT352/SNPL002/GDT1084/FPR001/PLC001 stops unchanged.",
+    "No GDT388 score-ready packet or semantic test produced.",
+    "No alternate canvas1006253, new text body, extra plant image or source acquisition.",
+    "Wrong-source native differences do not refute coidentity of the intended correct-source pair."
+  ],
+  "confirmed_words": 0,
+  "independent_meaning_selection": false,
+  "input_hashes": {
+    "experiments/yolo/gdt1126_native_plant_part_relations/PREREGISTRATION.md": "af73fbf6a79b228fa87234f3d74d17c27503e4499caa46527000789d9ad221d7",
+    "experiments/yolo/gdt1126_native_plant_part_relations/src/CASE_PLAN.json": "872e9d2b1352893eea0da8c26d2be36493ddc49a4f2c95244df0c1326c463c89",
+    "experiments/yolo/gdt1126_native_plant_part_relations/src/ACCESS_RECEIPT.json": "0606a5060a057824874320c69c2ae892a21befa3396ce6edba26aa12353d173e",
+    "experiments/yolo/gdt1126_native_plant_part_relations/artifacts/NATIVE_VIEW_GO.json": "621f278c70ab85b4a04a67d9f9f83f915765e5e7cb849d5c3f8dff2401dc80a3",
+    "experiments/yolo/gdt1126_native_plant_part_relations/artifacts/ACQUISITION_RECEIPT.json": "e7413cd8fd3340c692d71b76ba3306b3a7b5dc60990b67f063a41bfd6b918c50",
+    "docs/VOYNICH_DATA_SCOPE_20261001_NATIVE_PLANT_PAIRS.md": "c64cac50eb1bf9f7cbf8f02f1586ba4adcbb3b3fc493713aabb1f0166eb0d73e",
+    "experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q19.html": "119fe32a005723833ec07a313fd87e1cd044a1f685ddd4fdd199e573c1dff1fb",
+    "experiments/semantic_assumptions/cache/existing_human_annotations/stolfi_2025_internal_plant_pairs.tsv": "53248c1ab2a50ec43a56ecee0bb22478a890a00f38671c75882620d8c5d28230"
+  },
+  "report_sha256": "83115065f2aca21244e1bbe2e66f83d9b5699238371d9e8ef3f5103f52cd203f",
+  "frozen_original_no_afterfreeze_repairs": true,
+  "accounting_checks": {
+    "status": "PASS_ACCOUNTING_NOT_COIDENTITY_OR_MEANING",
+    "checks": {
+      "both_full_source_hashes_match": true,
+      "all_five_native_neighbor_objects_retained": true,
+      "all_crop_boxes_in_source": true,
+      "only_authorized_source_canvases_viewed": true,
+      "no_glyph_species_or_reserve_read_claim": true,
+      "old_hint_and_initial_guard_limitation_disclosed": true,
+      "original_invalid_and_zero_qualified": true,
+      "input_hashes_match": true
+    }
+  }
+}

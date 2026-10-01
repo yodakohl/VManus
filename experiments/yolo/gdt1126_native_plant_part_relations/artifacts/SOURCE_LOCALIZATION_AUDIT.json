@@ -1,0 +1,256 @@
+{
+  "task": "GDT1126 bounded metadata-only fragment-to-canvas source reconciliation",
+  "status": "GB1_AND_GB4_INVALID_SOURCE_LOCALIZATION_FOR_ORIGINAL_TEST; no rescue",
+  "source_sections": [
+    {
+      "cached_source": "experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q15.html",
+      "catalogue_selector": "f89v2",
+      "section_heading_line": 862,
+      "institutional_2014_scan_link": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006234",
+      "canvas_id": "1006234",
+      "all_catalogue_fragment_rows_in_section": [
+        {
+          "row": 1,
+          "fragment_numbers": [
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        },
+        {
+          "row": 2,
+          "fragment_numbers": [
+            55,
+            56,
+            57
+          ]
+        },
+        {
+          "row": 3,
+          "fragment_numbers": [
+            58,
+            59,
+            60,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "cached_source": "experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q15.html",
+      "catalogue_selector": "f89v1",
+      "section_heading_line": 1013,
+      "institutional_2014_scan_link": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006235",
+      "canvas_id": "1006235",
+      "all_catalogue_fragment_rows_in_section": [
+        {
+          "row": 1,
+          "fragment_numbers": [
+            62,
+            63,
+            64
+          ]
+        },
+        {
+          "row": 2,
+          "fragment_numbers": [
+            65,
+            66,
+            67
+          ]
+        }
+      ]
+    },
+    {
+      "cached_source": "experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q19.html",
+      "catalogue_selector": "f102v1",
+      "section_heading_line": 1470,
+      "institutional_2014_scan_link": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006253",
+      "canvas_id": "1006253",
+      "all_catalogue_fragment_rows_in_section": [
+        {
+          "row": 1,
+          "fragment_numbers": [
+            234,
+            235,
+            236,
+            237,
+            238
+          ]
+        },
+        {
+          "row": 2,
+          "fragment_numbers": [
+            239,
+            240,
+            241
+          ]
+        }
+      ]
+    },
+    {
+      "cached_source": "experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q19.html",
+      "catalogue_selector": "f102v2",
+      "section_heading_line": 1326,
+      "institutional_2014_scan_link": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006252",
+      "canvas_id": "1006252",
+      "all_catalogue_fragment_rows_in_section": [
+        {
+          "row": 1,
+          "fragment_numbers": [
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220
+          ]
+        },
+        {
+          "row": 2,
+          "fragment_numbers": [
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227
+          ]
+        },
+        {
+          "row": 3,
+          "fragment_numbers": [
+            229,
+            230,
+            231,
+            232,
+            233
+          ]
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "case": "GB1",
+      "source_fragment": 54,
+      "source_catalogue_selector": "f89v2",
+      "source_row": 1,
+      "source_row_numbers": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "source_position_in_catalogue_row": 5,
+      "historical_label_locus": "f89v2.6",
+      "old_label_owner_ambiguity": "SNPL001: partly under plant[1,4],next to plant[1,5]",
+      "catalogue_linked_canvas": "1006234",
+      "PVO_and_GDT1126_admitted_canvas": "1006235",
+      "catalogue_identity_of_tested_canvas": "f89v1,rows62–64/65–67",
+      "result": "SOURCE_TO_TESTED_CANVAS_JOIN_CONFLICT; nominated fragment54 not securely localized in admitted/tested canvas",
+      "counterfactual_permission": "No acquisition/view of excluded1006234 occurred in this audit; only prospective new admission could inspect it."
+    },
+    {
+      "case": "GB4",
+      "source_fragment": 240,
+      "source_catalogue_selector": "f102v1",
+      "source_row": 2,
+      "source_row_numbers": [
+        239,
+        240,
+        241
+      ],
+      "source_position_in_catalogue_row": 2,
+      "historical_label_locus": "f102v1.17",
+      "old_label_owner_ambiguity": "No new glyph/ownership check; nominal label connection retained as old source claim",
+      "catalogue_linked_canvas": "1006253",
+      "PVO_and_GDT1126_admitted_canvas": "1006252",
+      "catalogue_identity_of_tested_canvas": "f102v2,three catalogue rows214–220/221–227/229–233",
+      "result": "SOURCE_TO_TESTED_CANVAS_JOIN_CONFLICT; nominated fragment240 not securely localized in admitted/tested canvas",
+      "counterfactual_permission": "No acquisition/view of excluded1006253 occurred in this audit; only prospective new admission could inspect it."
+    }
+  ],
+  "numbering_definition_exact": "The fragments of herbs, plants and/or roots have been numbered for (cross-)reference:",
+  "numbering_definition_scope": "Catalogue fragment IDs are editorial cross-reference numbers, not label-locus numbers, native glyph values or a universal object parser. Numbers are retained exactly; missing228 in displayed f102v2 lists is not silently filled.",
+  "source_claims": [
+    {
+      "fragment": 54,
+      "complete_catalogue_relation": "Fragment54 appears to be the same plant as on f48v.",
+      "status": "Human-nominated coidentity; no botanical confirmation."
+    },
+    {
+      "fragment": 240,
+      "complete_catalogue_relation": "Fragment240 appears to be the same plant as on f19r.",
+      "status": "Human-nominated coidentity; no botanical confirmation."
+    }
+  ],
+  "PVO_mechanism_limit": "Legacy builder hardcodes f89v2→6235 and f102v1→6252. Its checks bind hardcoded canvas IDs to broad institutional labels and verify the set of pharmaceutical logical page names; they do not verify each catalogue folio section’s actual child_oid link or numbered fragment-to-image assignment. Institutional labels both say89v(part)/102v(part), so those checks cannot distinguish these numbered logical parts.",
+  "nomenclature_limit": "This audit does not establish whether different catalogue/current-transcription panel naming conventions caused the reversal. The original test needs the exact nominated fragment’s source image, not merely equal logical names. Old canonical label identities and glyph/current-locus crosswalks are not rechecked or remapped.",
+  "access": {
+    "new_image_fetch": 0,
+    "new_image_view": 0,
+    "new_target_transcription_query": 0,
+    "glyph_text_read": false,
+    "excluded_canvases_remain_unopened": [
+      "1006234",
+      "1006253"
+    ],
+    "no_test_repair": true,
+    "global_edit_or_Git": false
+  },
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q15.html",
+      "bytes": 35198,
+      "sha256": "25a8bb0083a2c6c09913910c52d03a699091c100294f8fe3c604e3846253f3a7"
+    },
+    {
+      "path": "experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q19.html",
+      "bytes": 40151,
+      "sha256": "119fe32a005723833ec07a313fd87e1cd044a1f685ddd4fdd199e573c1dff1fb"
+    },
+    {
+      "path": "experiments/semantic_assumptions/SNPL001_PUBLIC_REPEATED_PLANT_SOURCE_NATIVE_CAPACITY_METHOD.md",
+      "bytes": 2024,
+      "sha256": "17b02a16714e39e031e7394cafb7769acaaeedf2cfdcb020d6fe2f40b4612fab"
+    },
+    {
+      "path": "experiments/semantic_assumptions/build_pvo001_pharma_visible_ownership_selection.py",
+      "bytes": 6169,
+      "sha256": "06d2f1d3813df5457e77f45abc22737412050567866552cd172433dd666afb52"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/pvo001_pharma_visible_ownership_selection.json",
+      "bytes": 1421,
+      "sha256": "01fd08d98dac779e978be89afd8b9183dba6f23b3dc70c085853b7e04f09bde5"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/src/CASE_PLAN.json",
+      "bytes": 2676,
+      "sha256": "872e9d2b1352893eea0da8c26d2be36493ddc49a4f2c95244df0c1326c463c89"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/src/PAGE_ADMISSIONS.tsv",
+      "bytes": 1693,
+      "sha256": "5b31868df306be12d34e02ecde731811a67a9af9e0bda81ba573c2317e1a9de8"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/artifacts/ACQUISITION_RECEIPT.json",
+      "bytes": 19586,
+      "sha256": "e7413cd8fd3340c692d71b76ba3306b3a7b5dc60990b67f063a41bfd6b918c50"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GB_SOURCE_SCOPE_METADATA.json",
+      "bytes": 36271,
+      "sha256": "6d8dc48e93a928702df7b4680ba2344bac8c2c5fb925fdcf30881d153ccc0e38"
+    }
+  ],
+  "decision_consequence": "Original GB1/GB4 cannot assess nominated anatomy from their actual admitted canvases and should close as invalid source localization rather than biological contradiction or a repaired PASS. Newly registered inspection of the source-linked excluded canvases would be genuinely changed image input, separate from this frozen original result.",
+  "other_cases": "No claim that this audit validates every other relation/canvas; no broad mapping audit performed. GDT352 fragment94/116 label-owner distinctions remain unchanged."
+}
