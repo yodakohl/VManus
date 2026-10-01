@@ -1,0 +1,44 @@
+{
+  "unit": "FK",
+  "started_utc": "2026-10-01T03:15:01+00:00",
+  "inclusive_checkpoint_utc": "2026-10-01T03:40:01+00:00",
+  "inclusive_budget_seconds": 1500,
+  "material_commit": "e9491222ae5616f288b756e8aa43ef47a210cb60",
+  "fresh_remote_main_verified_utc": "2026-10-01T03:38:47+00:00",
+  "elapsed_seconds_through_material_verification": 1426.0,
+  "material_verification_inside_inclusive_budget": true,
+  "note": "Receipt commit and its verification are additional closing work; actual terminal time must not be silently excluded.",
+  "workers": {
+    "producer": {
+      "measured_seconds": 89.452858,
+      "cap": 120
+    },
+    "predecessor": {
+      "measured_seconds": 175.025,
+      "cap": 180
+    },
+    "author": {
+      "measured_seconds": 490.899374,
+      "cap": 420,
+      "overrun_seconds": 70.899374
+    },
+    "postauthor": {
+      "measured_seconds": 295.236,
+      "cap": 240,
+      "overrun_seconds": 55.236
+    }
+  },
+  "receipt_latency": "Receipt-to-first-clock latency unknown for each worker.",
+  "publication_checks": {
+    "exact_material_staged_files": 23,
+    "privacy_and_scope": "TASK_STAGED_PREFLIGHT_PASS",
+    "registry": "PASS",
+    "context": "PASS3998bytes",
+    "artifact_conservation": "PASS; meaning and generic composition false",
+    "global_legacy_check": "NOT_RUN; no old failures cleared",
+    "whitespace": "Initial default git diff --check rejected csv CRLF line endings. Bound table bytes preserved; repeat check with explicit core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol passed. No scientific file/model was repaired."
+  },
+  "confirmed_words": 0,
+  "independent_confirmation": 0,
+  "goal_status": "active; unit not goal completion"
+}
