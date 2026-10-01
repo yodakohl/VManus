@@ -1,0 +1,25 @@
+# FV: one written choice/reference constructor, whole-context transfer
+
+Phase: exploratory authorship followed by a frozen additional exposed-data transfer. No source-copy decoder or key search. FU found a full branch-aware historical material substitution and, under an exact predeclared metadata rule, three additional physical loci for `chey tal`. This supplies a new actual written input beyond T's sole fitted local amulet construction. It does not establish a meaning. GDT1023's fitted branch effects, GDT1038's old failures and GDT1047's universal mandatory right-source counterexamples remain unchanged.
+
+Unknown: can one explicitly priced choice/reference construction obtain its old and proposed material from written expressions, compute the selected result, and make later written consumers use that result in a different complete unit? A selected-material result merely supplied in the initial environment cannot pass this dependency check. A second coherent full reading with actual shared use retains a narrower C0 working construction; contradiction rejects that fixed constructor; unknown words/types or missing consumers yield NO_CAPACITY, not success or a general refutation of replacement. No claim of independent meaning selection from a shared-state bookkeeping PASS.
+
+## Prospective source partition, before new body access
+
+Metadata-only native flags were guarded-query retrieved for all three candidate selectors. Complete boundaries are:
+- f83r.9–17: original fitted amulet input, previously exposed; source native boundaries must be retained.
+- f83v.21–33: complete ZL/IT paragraph containing the all-reader new pair on .29; same physical leaf f83 as original fitting, therefore joint discovery, never independent confirmation.
+- f75v.43–49: complete ZL/IT paragraph containing the ZL/IT pair on .43.
+- f104v.22–26: complete ZL/IT paragraph containing the ZL/RF pair on .22.
+
+RF has no native paragraph flags: preserve all same-locus complete lines as external-scope alternatives, without imputing its own paragraph boundary. Retain every reader, including RF's absent pair at f75v and IT's absent pair at f104v. All ten exact original pair rows retained. Fitting leaf f83 includes both r/v. f75 and f104 are the additional application partition by entire physical leaf; the specific complete paragraph coverage does not assert complete folio/leaf reading. Prior cache/project exposure remains disclosed; independent confirmation capacity zero. No excluded reserve/new selector or image access.
+
+First prepare discovery f83v and the original f83r native packet; keep new f75/f104 bodies withheld from the author until the joint discovery grammar, dictionary, typed outputs, every default and full transfer predictions are frozen. Before that opening, report for each additional unit what the exact operator requires and how the missing-pair alternate is treated. An absent exact pair is unbound for that operator, not automatically a contradiction or repaired alias. Discovery author may consult only already exposed prior reports/source content and exact frequency/structural priors, not application bodies.
+
+## Authorship obligations
+
+No old gloss is a confirmed anchor. The new proposed complete discovery reading is explicitly C0. Keep nominal kinds distinct from individual objects, predicates from assertions, goals from performed actions and optional alternative from obligatory second ingredient. The source contrast informs a choice/reference operation, not a chicken/bird/plant word key. Charge every new whole value, part meaning, rule, fallback, bridge and inferred initial participant. Preserve the unchanged GDT605/GDT062 segmentation alternatives and exact whole/context residuals; do not impose a universal morph tree or add prefix/transcription rules.
+
+State a finite written production for old-role resolution, proposed-role formation, selection and each subsequent consumer. Compute and retain producer-before/after/output-ID, resolver input/output, branch guard (or explicitly distinguish a guardless optional alternative), consumer source-ID/argument and complete state. Initial ambient selected output is forbidden as evidence of written production. If unknown groups can control scope or supply arguments, preserve that barrier. Any physical execution or outcome is a C0 historical assertion/program, not observed efficacy.
+
+The targeted improvement over FT is actual written dependency transfer, not more fitted whole-value cards. One author may build a joint discovery candidate; independent critics freeze source/dependency/accounting criteria before receiving the draft. No synthetic mutation parade, broad graph/control corpus, source hunt or decoder repair. Initial estimate ninety minutes for preparation, authored derivation, literal transfer, independent manual audit and publication; reassess without abandoning required checks. If complete shared dependency is not supplied, retain the exact gap rather than expanding glosses indefinitely. No significance or confirmed translation from this pass; reserves/f84/f84r remain closed.

@@ -1,3 +1,9 @@
+<!-- FV exploratory authorship active 2026-10-01; older paragraphs preserve historical snapshots -->
+
+## FU source content and FV choice/reference — 2026-10-01
+
+Seven complete-source packets now retained: CoReMA3relatedrecipes give guarded material replacement and later uses; Bruges474 gives complete southern comparison/push/impact/result pair, not universal routing. GalenV1 third unit is UNBOUND_NEED; Dioscorides contrast duplicates known route; other source holds/exposure limits retained. Exact unchanged-source chey tal query finds10readerhits/4loci,3additional loci; f83v samefittingleaf83, applications75/104partialparagraphcoverage alreadyexposed. Independent source audit preserves503groups/18fields/formals/396priors with0representationerrors; frozen contract's RF-empty-flag premise fails because canonicalflags0/0, contract unchanged. One priced FV C0 candidate in authorship; application bodies closed untilfreeze, allreaders required.776gate not fulfilled by newmetadata.0words/0independentmeaningcapacity. [Source review](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_SOURCE_REPORT.md); [FV decision](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DECISION.md).
+
 <!-- FU source acquisition active 2026-10-01; older paragraphs preserve historical snapshots -->
 
 ## FU source-content acquisition — 2026-10-01

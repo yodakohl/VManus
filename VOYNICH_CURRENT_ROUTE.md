@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: FU acquire complete source effect contrast.
-Latest decision: 16cardsnotready;3fullsourcesavailable;0words.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_SELECTION_DECISION.md.
-Assumptions: FT/legacyfrozen;seals/reservesclosed.
-Resume: Read7sourcepackets;selectoneactualconstructor.
-Running: 7sourceagents+producer;goalpaused;until18:29UTC.
+Task: FV written choice/reference authorship.
+Latest decision: CoReMA branch+3extra chey tal loci;0words.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DECISION.md.
+Assumptions: Oldmodelsfrozen;noreserve;C0only.
+Resume: Freeze full FV candidate;then all2application paragraphs.
+Running: FV author+producer;4critic contracts frozen;18:29UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

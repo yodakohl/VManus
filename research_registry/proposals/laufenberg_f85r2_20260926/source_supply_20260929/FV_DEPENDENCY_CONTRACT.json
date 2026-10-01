@@ -1,0 +1,257 @@
+{
+  "status": "PREAUTHOR_DEPENDENCY_CRITERIA_FIXED_AWAITING_ROOT_RECEIPT_AND_GO",
+  "author_draft_received": false,
+  "target_body_opened": false,
+  "application_bodies_opened": false,
+  "input_receipt": [
+    {
+      "path": "VOYNICH_CURRENT_ROUTE.md",
+      "sha256": "2b0a580f1c95aa6e94e8dcd0af281da06c137a010bd602f54f3fe6b9736172e5"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DECISION.md",
+      "sha256": "b05033d1e518612e80f18195556dd423f5cdb2d5e4a956ab36d5099c7d1bc453"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/T_PROVENANCE_REPORT.md",
+      "sha256": "ee683de67731dfa73fd04363e341ea5c5745d7918e56f235b0b42b6378b097a6"
+    },
+    {
+      "path": "experiments/yolo/gdt1023_amulet_complete_typed_assembly/REPORT.md",
+      "sha256": "c3b3c0476a29b0a2319bca7006d93397e72b0b9ee92aa8f10e7e7c8d730f5639"
+    },
+    {
+      "path": "experiments/yolo/gdt1038_amulet_atomic_binary_packing/REPORT.md",
+      "sha256": "d8c42ebd101f0380ee170563fa1f4ca35f3d7679f541489bab1b6a5fe29444d7"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_PAIR_IDENTIFIABILITY.md",
+      "sha256": "aa36a8c5eca0e547ed7923564f7cd6585baf6b23912c386b6bfe936c006f1316"
+    }
+  ],
+  "exact_card_read": "IDEA000776",
+  "route_note": "Current route still reports FU acquisition; parent FV assignment and FV_DECISION authorize this preauthor next task.",
+  "question": "Written old/proposed material expressions -> selected result -> actual later written consumer, without an ambient donated selected output.",
+  "required_chain": [
+    {
+      "stage": "OLD_PRODUCER",
+      "required": [
+        "source_group_ids",
+        "raw/reader/order",
+        "input_ids/types",
+        "state_before",
+        "state_after",
+        "output_O_id/type",
+        "output provenance",
+        "scope/completion rule"
+      ],
+      "criterion": "Written expression creates or explicitly resolves old completed material role/specification; ambient fitted role alone does not pass."
+    },
+    {
+      "stage": "NEW_PRODUCER",
+      "required": [
+        "source_group_ids",
+        "input_ids/types",
+        "state_before/after",
+        "output_N_id/type",
+        "source/body/provenance arguments",
+        "pending completion"
+      ],
+      "criterion": "Written proposed expression forms new description without silent kind-to-body or instance lift."
+    },
+    {
+      "stage": "RESOLVER",
+      "required": [
+        "written trigger ids",
+        "candidate set",
+        "fixed compatibility",
+        "scope/boundary/completion rules",
+        "old_ref_id"
+      ],
+      "criterion": "Explicitly resolve O; any exclusion of pending N fixed beforehand, not selected after result."
+    },
+    {
+      "stage": "SELECTOR",
+      "required": [
+        "written operator ids",
+        "O/N actual argument ids",
+        "guard/mode",
+        "state_before/after",
+        "computed_R_id/type",
+        "branch ownership"
+      ],
+      "criterion": "Selection/reference result derives from written arguments and declared rule, not preloaded result."
+    },
+    {
+      "stage": "CONSUMER",
+      "required": [
+        "later written ids",
+        "required signature",
+        "actual operand ids",
+        "dependency edge to R or explicit derived instance",
+        "state/effect",
+        "all claimed dependent uses"
+      ],
+      "criterion": "At least one later written consumer actually uses R or its explicitly derived branch instance; all claimed consumers and continuation audited."
+    }
+  ],
+  "type_contract": {
+    "distinctions": [
+      "Kind/Name",
+      "MaterialSpec",
+      "MaterialInstance",
+      "Plan/AlternativeSet",
+      "Action",
+      "Predicate",
+      "Assertion/Goal"
+    ],
+    "paid_bridges_allowed": [
+      "kind-to-body/spec lift",
+      "Name-to-referent lookup",
+      "MaterialSpec instantiation",
+      "plan-to-executed-action"
+    ],
+    "silent_casts_allowed": false,
+    "same_kind_is_same_instance": false
+  },
+  "ambient_caveat": {
+    "known_primary": "FT_PAIR_IDENTIFIABILITY.md",
+    "criterion": "An initial or separately defaulted selected output cannot prove written production. Audit actual output-slot provenance and operand expression; no synthetic deletion test requested.",
+    "no_op_reference_policy": "May be legitimate language but meets FV production criterion only if explicit source-dependent lookup is recorded."
+  },
+  "branch_contract": {
+    "source_guard": "Corema lack-of-old-material condition must remain in upcoming source packet; no source-to-target word binding supplied.",
+    "guarded_replacement": "Unknown guard yields conditional outputs, not actual branch decision.",
+    "guardless_optional": "Requires separately paid permission/plan and selection rule; source guard cannot become invisible target argument.",
+    "obligatory_second_ingredient": "Different graph requiring both, not alias of alternative replacement.",
+    "retained_common_arguments": "Each shared ingredient/carrier has own written or paid contextual provenance.",
+    "both_branches_simultaneous": false,
+    "two_selector_argument_dependencies": "OLD_REF and N each require written source-linked output provenance; neither may come from a precomputed source-story branch table.",
+    "preserved_companion_and_carrier": "Later actual operands retain distinct IDs and source/default provenance; no donation merely to complete signature."
+  },
+  "unknown_barrier_policy": {
+    "dependent_downstream": "No bypass/restart/source-story donation if unknown could control scope, roles, completion, guard or material arguments.",
+    "independent_completed_values": "Only unaffected immutable outputs remain referenceable under frozen declared scope rule.",
+    "pending_state_preserved": true,
+    "finite_uncertain_raw_hypotheses_before_freeze": true,
+    "native_certainty_authorship_prerequisite": false
+  },
+  "cost_categories": [
+    "whole lexical values",
+    "semantic parts",
+    "whole residuals",
+    "constructors",
+    "completion/attachment",
+    "resolvers/defaults",
+    "context bridges",
+    "kind/Name/instance lifts",
+    "optional-plan licenses",
+    "guards",
+    "shared participant sources",
+    "native variant assignments",
+    "scope exceptions"
+  ],
+  "price_policy": "Descriptive choices; not calibrated probability/likelihood. Inherited guesses remain C0; new changes separate. No net-compression claim from deleting one alias alone.",
+  "rival_contract": {
+    "nominate_before_transfer": true,
+    "required_consequence": [
+      "output identity",
+      "arity",
+      "ownership",
+      "branch event",
+      "later relation"
+    ],
+    "consumer_meanings_C0_allowed": true,
+    "independently_confirmed_words_required": false,
+    "no_donated_consumer_to_reject_rival": true,
+    "same_name_denotation_projection": "representation/semantic relabel equivalence",
+    "distinct_name_or_activation": "new lookup/constructor/activation dependencies must be priced; not same frozen grammar",
+    "typed_mismatch": "conditional author-model distinction only, not empirical meaning choice",
+    "no_synthetic_mutation_parade": true
+  },
+  "scope_partition": {
+    "discovery": [
+      "f83r.9–17",
+      "f83v.21–33"
+    ],
+    "discovery_same_physical_leaf": true,
+    "application_withheld_until_freeze": [
+      "f75v.43–49",
+      "f104v.22–26"
+    ],
+    "pair_metadata": {
+      "f75v": "present ZL/IT; absent RF",
+      "f104v": "present ZL/RF; absent IT"
+    },
+    "missing_pair_alternate": "exact operator not applicable/unbound; not automatic contradiction or alias repair",
+    "RF_boundary": "whole same-locus lines as external-scope alternative; no native paragraph flags invented",
+    "whole_folio_reading_claim": false
+  },
+  "freeze_required": [
+    "packet source hashes/IDs",
+    "complete dictionary",
+    "finite productions",
+    "all scopes/defaults",
+    "output types",
+    "joint discovery traces",
+    "every gap",
+    "all dependent consumers",
+    "each application-reader preopening operator/input/consumer prediction"
+  ],
+  "application_policy": {
+    "unchanged_grammar": true,
+    "all_readers_and_full_units": true,
+    "postfreeze_gloss_or_default_repair": false,
+    "new_part_or_alias": false,
+    "boundary_revision": false,
+    "contradiction": "only fully bound violation; preserve first stopped state and remainder",
+    "missing_dependency": "NO_CAPACITY at exact locus; no complete transfer from partial success"
+  },
+  "classifications": [
+    {
+      "name": "COMPLETE_C0_WRITTEN_DEPENDENCY",
+      "decision": "Retain narrower shared written construction under fixed assumptions, no meaning confirmation."
+    },
+    {
+      "name": "CONTRADICTION_FIXED_CONSTRUCTOR",
+      "decision": "Reject only frozen version; retain old models and source alternatives."
+    },
+    {
+      "name": "NO_CAPACITY_DEPENDENCY",
+      "decision": "Retain exact unknown/nonapplicable/missing chain; stop expansion."
+    },
+    {
+      "name": "OPERATIONAL_EQUIVALENCE_LIMIT",
+      "decision": "Different descriptions or priced grammars preserve projected graph; no semantic preference."
+    }
+  ],
+  "retained_predecessors": {
+    "T776": "local ALSO+OF/replacement plus optional-plan apparatus; global right-source boundary limitation remains.",
+    "GDT1023": "fitted complete P12 material-world effects remain, diplomatic gaps not superseded.",
+    "GDT1038": "atomic/binary representation fit and original diplomatic failures unchanged; not semantic dependency execution.",
+    "FT": "ambient C_H dataflow caveat and zero confirmation remain."
+  },
+  "deliverable_fields": [
+    "source_id/raw/reader/order",
+    "operation/input/output IDs/types",
+    "before/after/pending state",
+    "scope/dependencies/guard/mode",
+    "selected branch result",
+    "consumer source/argument/effect",
+    "costs",
+    "sentence-to-locus prose"
+  ],
+  "audit_execution": "Independent manual symbolic audit sufficient; generated tables not claimed to be a generic parser.",
+  "new_decoder": false,
+  "new_source_or_target_access": false,
+  "new_registry_edits": false,
+  "git_operations": false,
+  "confirmed_words": 0,
+  "independent_meaning_confirmation_capacity": 0,
+  "ownership": [
+    "FV_DEPENDENCY_CONTRACT.md",
+    "FV_DEPENDENCY_CONTRACT.json"
+  ],
+  "contract_markdown_sha256": "6dec722dc885582678b5999cea1fc9b9bfa9e7c39ef0cd04882f19e0bd850e6c",
+  "criteria_fixed_at_utc": "2026-10-01 12:46:59 UTC"
+}
