@@ -3,13 +3,13 @@ Updated: 2026-10-01. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: FO partial recipient/application/layer C0.
-Latest decision: IDEA84438annotations;91unconsumed;ORdebt;no meaningwinner.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FO_REPORT.md.
-Assumptions: 0words;FM/FN frozen;no inherited qualities;seals/reserves closed.
-Resume: Inspect IDEA695/GDT791 ownerprimaries before any new lexicalextension.
-Running: None;three Sol workers frozen.
+Status: active
+Task: Publish FP;stop free lexical extension.
+Latest decision: 62handf80annotations;7+60unbound;no new f88r binding.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FP_REPORT.md.
+Assumptions: 0words;FM/FN/FO frozen;newmeaningsC0;seals/reserves closed.
+Resume: Require constrained content or fixedwhole-context rival contrast, not tailglosses.
+Running: None;FP publication closeout.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

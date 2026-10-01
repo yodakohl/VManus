@@ -1,3 +1,6 @@
+<!-- FP 2026-10-01 -->
+IDEA847 partial C0:62handf80annotations;67of129unbound;12newdefinitions/3rules explicitly propose old/newLayer visibility with chronological same-baseSurface owner selection. ORbranch paid onlynewversion;no executablewholegrammar/meaningselection/C1/image-substrate;0words. f88rjoin addsno independentownerbinding. Stop free tailglosses; require constrained content or fixedwhole-context contrast. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FP_REPORT.md.
+
 <!-- FO 2026-10-01 -->
 IDEA844 separatelypriced preparation/application C0:38authoredf80positions,91of129unconsumed;SHOLsurface andAROL/QOKEYlayers on sameR19. ORattachment underdefined, no generic38-consumption;noImageSubstrate/C1return/C2visibility/winner/confirmedwords. Authorover62.235sec. Nextinspect existingIDEA695/GDT791 ownerprimaries before lexicalextension. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FO_REPORT.md.
 

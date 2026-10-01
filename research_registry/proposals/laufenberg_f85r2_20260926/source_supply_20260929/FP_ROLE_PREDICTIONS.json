@@ -1,0 +1,276 @@
+{
+  "task": "FP independent pre-image FO role-transfer predictions",
+  "status": "FROZEN_PREDICTIONS",
+  "epistemic_status": "Conditional consequences of an exposed C0 model; not meaning-blind, not new authorship and not independent image confirmation",
+  "scope": {
+    "image_access": false,
+    "f88r_native_target_rows_access": false,
+    "f88r_body_payload_access": false,
+    "new_lexical_values_or_rules": false,
+    "read_only_metadata_exposure": [
+      "IDEA000695 registry card and actual source proposal",
+      "IDEA648 HIST:4beff8faf3d30c3f registry metadata and actual branch-versus-chain proposal",
+      "GDT791 compact index pointer; no report body or atlas opened"
+    ],
+    "already_known_metadata": "Three illustrated rows, three prose blocks,16 local labels,134 running tokens and coarse ownership are earlier proposal metadata, not new independent observation."
+  },
+  "input_hashes": {
+    "VOYNICH_CURRENT_ROUTE.md": "3549701db12dd4ed5e51f032d441c289143d75c49714384a33543d1ce3b5767a",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FO_AUTHOR.json": "0a28d6f096b560fe7d70302ff8bfc55e0e78c31ee77529a386f3ed630de58b09",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FO_REPORT.md": "75b9482da0f6a8f592c9b72fa7247fb3f230c311f4bc7d5c4c46e1fa31986192",
+    "research_registry/proposals/raw_f88r_compound_layer_vs_mixture_20260929.json": "c8dbffa2879aa48e36df346e3a6ec5132552cc6a3e05ce14360f1430f903252c",
+    "research_registry/proposals/raw_supply_20260928/f88r_branch_vs_chain.json": "42cdf0ccdf52864e1c3080ab5d7f177523ed450111227c6204d079247f14f88a"
+  },
+  "frozen_FO_definitions": {
+    "lexical_roots": {
+      "ol": "select active Paint material",
+      "or": "small quantity property",
+      "kain": "white pigment ingredient",
+      "kaiin": "fine powdered ingredient",
+      "kar": "bodying powdered ingredient",
+      "ky": "fine texture property",
+      "oiin": "liquid binding ingredient",
+      "shey": "combine Paint with all explicitly queued Ingredients",
+      "shol": "introduce paintable Surface",
+      "kair": "triturate Paint with all explicitly queued Ingredients",
+      "arol": "apply active Paint to current written Surface or Region, yielding a Layer",
+      "keedy": "dry the latest Paint-or-Layer result",
+      "shedy": "dark pigment ingredient",
+      "qokeedy": "homogenize Paint with all explicitly queued Ingredients",
+      "qoker": "inspect current written Surface",
+      "qokey": "apply active Paint to current written Surface or Region, yielding a Layer",
+      "qokeey": "spread current Layer on its already-bound recipient",
+      "tchcthy": "thinness property of current Layer",
+      "lom": "central placement property of current Layer",
+      "dol": "introduce border Region of current written Surface"
+    },
+    "regular_rules": [
+      {
+        "id": "G1",
+        "rule": "p + ol introduces fresh Paint material M1; this is a productive nominal introduction, not a pigment name."
+      },
+      {
+        "id": "G2",
+        "rule": "Ingredient root introduces an Ingredient entity; unconsumed standalone Ingredients enter explicit queue. No ambient additives."
+      },
+      {
+        "id": "G3",
+        "rule": "o + Ingredient disperses that written Ingredient; q + Ingredient measures it and queues it. These are Ingredient-to-Ingredient operations."
+      },
+      {
+        "id": "G4",
+        "rule": "ol + Ingredient selects active Paint and incorporates the written new Ingredient, returning the same Paint identity. It does not consume the independent queue."
+      },
+      {
+        "id": "G5",
+        "rule": "ol + Property selects active Paint and assigns that physical property; bare ol selects active Paint."
+      },
+      {
+        "id": "G6",
+        "rule": "q + Paint expression creates fresh portion with source-parent equal to the evaluated Paint and makes it active. s + Paint expression creates a retained working portion with the same parent rule; neither is exhaustive division. Repeated q applications each create a new portion."
+      },
+      {
+        "id": "G7",
+        "rule": "Paint-processing predicates require active Paint, consume the whole explicit Ingredient queue, and preserve Paint identity; no event-to-material conversion."
+      },
+      {
+        "id": "G8",
+        "rule": "Application predicates require active Paint and a previously written Surface/Region; create fresh Layer attached to that recipient, preserve remaining Paint and preserve earlier Layers. They do not invent a recipient."
+      },
+      {
+        "id": "G9",
+        "rule": "Layer predicates/properties require the latest explicitly created Layer and preserve its recipient. No Paint-to-Layer cast."
+      },
+      {
+        "id": "G10",
+        "rule": "dol introduces Region only from a written Surface. shol explicitly introduces Surface and does not pretend to decompose as sh+ol."
+      },
+      {
+        "id": "G11",
+        "rule": "shey+r iterates the same typed mixing event. ol+shey explicitly selects Paint patient before mixing, whether fused or spaced."
+      },
+      {
+        "id": "G12",
+        "rule": "Unknown group is an execution barrier; subsequent conditional contributions are not carried through it as a complete reading."
+      }
+    ],
+    "whole_form_residuals": {
+      "ockhy": "W1: finely grind active Paint, preserving its identity",
+      "chedy": "W2: separate fresh working Paint portion, make it active, preserve source parent"
+    },
+    "defaults": [
+      {
+        "id": "D1",
+        "rule": "Paint predicates lacking explicit ol take the uniquely maintained active Paint."
+      },
+      {
+        "id": "D2",
+        "rule": "Application uses latest explicitly introduced recipient; no cross-paragraph owner."
+      },
+      {
+        "id": "D3",
+        "rule": "Layer predicates use latest explicitly created Layer."
+      },
+      {
+        "id": "D4",
+        "rule": "Dry uses latest actual Paint-or-Layer event result. Ingredient creation and recipient introduction do not change this register."
+      }
+    ],
+    "aliases": [],
+    "counts": {
+      "roots": 20,
+      "rules": 12,
+      "whole_residuals": 2,
+      "defaults": 4,
+      "surface_exceptions": 0
+    },
+    "soft_caps": {
+      "roots": 40,
+      "rules": 14,
+      "whole_residuals": 8,
+      "defaults": 4
+    }
+  },
+  "FO_original_debts": {
+    "first_specification_debt": "OR2 and OR21 bare Property attachment not explicitly supplied by G5; do not repair by silently extending D1.",
+    "first_unknown_barrier": "CTHOR39;31 f80 groups unknown and60 f85 groups outside new derivation.",
+    "candidate_annotations": 38,
+    "completed_whole_contexts": 0,
+    "other_debts": "Result/composition registers and iteration multiplicity are not fully serialized. No attribute inheritance, recipe lookup, earlier-layer visibility or ImageSubstrate definition."
+  },
+  "owner_class_predictions": [
+    {
+      "class": "Paint",
+      "written_entry": "G1 p+ol introduces fresh Paint; G6 q(Paint) and s(Paint) introduce fresh portions, with evaluated Paint source-parent.",
+      "required_arguments": "No inherited Paint from f80v. A local fresh entry or otherwise already paid local Paint producer must precede Paint-consuming predicates.",
+      "prediction": "Each portion remains Paint, never becomes Surface or Layer through resemblance or label proximity."
+    },
+    {
+      "class": "Ingredient",
+      "written_entry": "G2 kain/kaiin/kar/oiin/shedy introduce Ingredients; G3 o disperses and q measures/queues that written Ingredient.",
+      "required_arguments": "Each consumed Ingredient is lexically introduced and explicitly queued or directly incorporated through G4.",
+      "prediction": "Ingredient ownership could be physically associated with material labels only with independent label-object binding; grammar alone gives no plant-part taxonomy or container owner."
+    },
+    {
+      "class": "Surface",
+      "written_entry": "Whole SHOL explicitly introduces a fresh paintable Surface.",
+      "required_arguments": "Application needs an earlier written Surface or Region in its permitted local scope.",
+      "prediction": "Repeated SHOL introduces fresh Surfaces, not one shared Surface by identical spelling. A pictured vessel, plant fragment or green area does not automatically bind the SHOL Surface."
+    },
+    {
+      "class": "Region",
+      "written_entry": "DOL/G10 introduces border Region from already-written Surface.",
+      "required_arguments": "A unique written Surface owner; no Surface means DOL has an unbound required input.",
+      "prediction": "Region ownership is part-of Surface. It is not a new Paint or independent pictured material product."
+    },
+    {
+      "class": "Layer",
+      "written_entry": "AROL or QOKEY/G8 creates fresh deposited Layer from active Paint and already-written Surface/Region.",
+      "required_arguments": "Both Material patient and recipient must be non-null and local; neither visual paint color nor row position supplies them.",
+      "prediction": "Layer.owner = application.recipient. Paint continues separately. Previous Layers persist, but neither visible survival, overlap, depth order nor common pictured product is entailed."
+    },
+    {
+      "class": "Container",
+      "written_entry": null,
+      "required_arguments": "No frozen FO constructor exists.",
+      "prediction": "Cannot obtain Container from SHOL by rewriting Surface. Vessel interior versus exterior Surface needs an explicit part-owner bridge absent from FO."
+    },
+    {
+      "class": "PlantFragment",
+      "written_entry": null,
+      "required_arguments": "No frozen FO fragment/organ constructor exists.",
+      "prediction": "A fragment illustration or local label cannot be exported as Paint, Ingredient, Surface or Layer without a new paid label-referent/type bridge."
+    },
+    {
+      "class": "ImageSubstrate",
+      "written_entry": null,
+      "required_arguments": "FO has generic paintable Surface only.",
+      "prediction": "No depicted body, panel, parchment or represented figure owner follows. Generic coating, ointment application and medical surface application remain possible content rivals."
+    }
+  ],
+  "exact_conditional_graph": {
+    "preconditions": [
+      "Locally written Paint P exists.",
+      "Locally written Surface R exists.",
+      "Two application predicates are consumed in a common admitted scope without an unknown barrier and without a new recipient replacing R."
+    ],
+    "consequence": [
+      "Apply1(P1,R) -> fresh Layer L1, owner(L1)=R; remaining Paint P1 persists.",
+      "Apply2(P2,R) -> fresh Layer L2 distinct from L1, owner(L2)=R; L1 persists.",
+      "QOKEEY after Apply2 acts on L2 and preserves R. TCHCTHY and LOM after that act on L2, not Paint or L1.",
+      "DOL(R) -> fresh Region B, owner(B)=R, making B the next recipient.",
+      "If another SHOL intervenes, it introduces R2 and a following application uses R2 under D2; R2 is not silently aliased to R.",
+      "If a Paint-processing event intervenes before KEEDY, D4 selects that latest Paint result; KEEDY is not always a Layer-drying word."
+    ],
+    "nonconsequences": [
+      "No counted three stages or exactly three Layers.",
+      "No Layer-on-Layer placement or above/below relation; common Surface allows disjoint painted areas.",
+      "No visible first Layer; physical persistence does not prove optical visibility.",
+      "No saved named recipe return; FO contains no recipe-type reference store.",
+      "No inherited white/dark/fine property on every new portion.",
+      "No cross-paragraph owner borrowing under D2."
+    ]
+  },
+  "rivals": {
+    "serial_layers": {
+      "content": "Successive applications form retained coats of one product on one owner.",
+      "necessary_written_duties": [
+        "A shared written Surface identity for all alleged coats.",
+        "Distinct application events with Paint and Surface/Region arguments and distinct deposited Layer results.",
+        "An explicit bridge between separately illustrated row owners and those Layer results.",
+        "For physical stacked layers rather than repeated/disjoint coatings: explicit common location or overlap and relative depth/earlier-layer visibility."
+      ],
+      "frozen_FO_capacity": "Conditional creation and retention of two Layers can be stated; three-row identification, cross-record shared owner, stack order and visibility are not supplied.",
+      "image_requirement": "Independent owner annotation must distinguish painted support/result layers from container and detached plant-fragment records; three horizontal rows alone fail this duty."
+    },
+    "parallel_material_register": {
+      "content": "Separate rows catalogue materials or preparations, with local labels attached to containers and plant fragments; no serial deposited-layer identity is required.",
+      "necessary_written_duties": [
+        "Independent row/record boundaries and local label-to-container/fragment bindings.",
+        "Separate local Material introductions or an explicit common precursor feeding distinct results if a branching version is claimed.",
+        "No result-to-input identity inferred from repeated form or vessel similarity."
+      ],
+      "frozen_FO_capacity": "Paint/Ingredient/portion roles may provide only a conditional local material account. Container/PlantFragment label roles need new meanings and independent ownership bridges; they cannot be inferred by relabeling FO Surface or Layer.",
+      "comparison": "Coarse row ownership consistent with a register is not a semantic winner; a serial chain also remains unscorable without precise written source/result owners."
+    },
+    "homogeneous_mixture": {
+      "content": "Written Ingredients combine into a single Paint material, while source ingredients are consumed rather than retained as separate Layers.",
+      "necessary_written_duties": [
+        "Explicit G2/G3 Ingredient introductions and G7 queued consumption into active Paint.",
+        "No automatic Layer result from mixing."
+      ],
+      "contrast": "Separately addressable deposited Layers require G8 application, so mixture and Layer graphs differ in patient/result types; mere green pigment does not select either."
+    }
+  },
+  "not_inferable_from_green_or_three_rows": [
+    "Pigment species or craft versus medicine.",
+    "Number, order or identity of application stages.",
+    "Surface recipient, Material input, Layer result, region owner or recipe return.",
+    "Container contents versus vessel external surface.",
+    "Plant fragment versus prepared pigment source.",
+    "A single common product or conserved batch linking separate records.",
+    "Earlier-layer visible retention, depth, overlap or relation to represented anatomy."
+  ],
+  "classification_contract": {
+    "LOCAL_UNKNOWN": "Unrecognized written form or unpaid role: preserve it; no free entity; unknown group execution barrier. This is incomplete coverage, not disproof of an already typed role.",
+    "MISSING_WRITTEN_ARGUMENT": "A proposed application lacks a paid Paint or Surface/Region input. No valid application derivation; this is a composition debt. It becomes an actual counterexample only to a predeclared claim requiring full local derivation there.",
+    "UNSCOREABLE_OWNERSHIP": "No unique independent text-label/picture owner or no common-owner identity across rows. Do not score as match, type failure or independent confirmation.",
+    "ACTUAL_TYPED_COUNTEREXAMPLE": "Only after explicit written identity and independently fixed owner make a required type impossible: for example an application recipient is proved to be a Material identity with no Surface/Region constructor; or QOKEEY is forced to Paint with no Layer producer. Physical objects can have surfaces, but FO has no automatic Material/Container/Fragment-to-Surface coercion.",
+    "CONDITIONAL_COMPATIBILITY": "A correctly bound application/Layer graph is compatible with FO; author-invented role labels do not empirically select painting."
+  },
+  "new_assumptions_needed_before_transfer_test": [
+    "That the English FO values and productive constructions transfer unchanged to the f88r section and local-label/running-prose register; no such semantic transfer was established.",
+    "A specified segmentation and record/paragraph scope consistent with raw boundaries; one cannot join three prose blocks into one execution scope because rows are horizontal.",
+    "A fixed text-to-image owner binding, distinguishing a vessel whole/interior/exterior and a detached plant fragment from an applied Layer.",
+    "If serial coats span separate paragraph/record contexts, an explicit paid written reference/identity mechanism. Frozen FO D2 supplies no cross-paragraph owner borrowing, so this would be a new model, not unchanged transfer.",
+    "If no local G1 Paint or SHOL Surface introduction exists, a new paid productive entry grammar would be required; ambient Paint or Surface cannot be supplied."
+  ],
+  "pre_image_decision": "FO unchanged transfer supports conditional role predictions only. There is no unconditional prediction that f88r has paint Layers or a three-stage process. An owner image may constrain a separately preregistered binding, but current coarse ownership and unconfirmed grammar do not supply an independently scoreable semantic test. No lexicon, operator or debt repaired.",
+  "timing": {
+    "first_clock_utc": "2026-10-01T05:23:34+00:00",
+    "cap_seconds": 180,
+    "freeze_utc": "2026-10-01T05:27:09.012636+00:00",
+    "elapsed_inclusive_seconds": 215.012636,
+    "overrun_seconds": 35.012635999999986
+  }
+}

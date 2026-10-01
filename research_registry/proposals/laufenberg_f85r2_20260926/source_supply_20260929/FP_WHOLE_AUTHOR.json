@@ -1,0 +1,1634 @@
+{
+  "task": "FP whole f80 preparation/application new version",
+  "status": "FROZEN_PARTIAL_C0",
+  "first_clock": "2026-10-01 05:38:47 UTC",
+  "cap_seconds": 240,
+  "base_FM_TARGET_sha256": "55713ecdd6df28c7cddb8f02bf93ccc26134a599ec90919d9bf4513020be9199",
+  "base_FO_AUTHOR_sha256": "0a28d6f096b560fe7d70302ff8bfc55e0e78c31ee77529a386f3ed630de58b09",
+  "model_base": "FO definitions unchanged except separately listed paid changes",
+  "changes": [
+    {
+      "id": "N1",
+      "rule": "Bare Property roots assert that property of the current Paint under D1; this explicitly adds the OR2/OR21 attachment branch absent from frozen FO. No Property can introduce a Material."
+    },
+    {
+      "id": "N2",
+      "rule": "Binary Layer predicates ylchdy/qoly bind latest Layer and its immediately preceding Layer whose base Surface is identical. baseSurface(Surface)=itself; baseSurface(Region)=its explicit Surface owner. Reject absent or nonunique previous Layer; no cross-paragraph identity. Visibility is asserted by these newly paid words, not inferred from persistence."
+    },
+    {
+      "id": "N3",
+      "rule": "For every event returning Paint or Layer, latestPhysicalResult becomes exactly that explicitly typed result. Ingredient/Surface/Region creation and pure references do not update it. This makes the formerly underspecified FO D4 result register explicit only in this new version."
+    }
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "ID": "IT2a|f80v.30|G001",
+      "raw": "pol",
+      "segments": [
+        "p",
+        "ol"
+      ],
+      "contribution": "Introduce working paint M1",
+      "typed_input": "none",
+      "typed_output": "Paint:M1",
+      "state": {
+        "activePaint": "M1",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 2,
+      "ID": "IT2a|f80v.30|G002",
+      "raw": "or",
+      "segments": [
+        "or"
+      ],
+      "contribution": "Mark M1 small in quantity",
+      "typed_input": "M1",
+      "typed_output": "M1 small",
+      "state": {
+        "activePaint": "M1",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 3,
+      "ID": "IT2a|f80v.30|G003",
+      "raw": "olkain",
+      "segments": [
+        "ol",
+        "kain"
+      ],
+      "contribution": "Introduce white pigment I3 and incorporate into M1",
+      "typed_input": "M1,I3",
+      "typed_output": "Paint:M1",
+      "state": {
+        "activePaint": "M1",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 4,
+      "ID": "IT2a|f80v.30|G004",
+      "raw": "ockhy",
+      "segments": [
+        "ockhy"
+      ],
+      "contribution": "Grind M1 finely",
+      "typed_input": "M1",
+      "typed_output": "Paint:M1",
+      "state": {
+        "activePaint": "M1",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 5,
+      "ID": "IT2a|f80v.30|G005",
+      "raw": "qokaiin",
+      "segments": [
+        "q",
+        "o",
+        "kaiin"
+      ],
+      "contribution": "Introduce dispersed measured fine powder I5; queue it",
+      "typed_input": "none",
+      "typed_output": "Ingredient:I5",
+      "state": {
+        "activePaint": "M1",
+        "IngredientQueue": [
+          "I5"
+        ],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 6,
+      "ID": "IT2a|f80v.30|G006",
+      "raw": "okain",
+      "segments": [
+        "o",
+        "kain"
+      ],
+      "contribution": "Introduce dispersed white pigment I6; queue it",
+      "typed_input": "none",
+      "typed_output": "Ingredient:I6",
+      "state": {
+        "activePaint": "M1",
+        "IngredientQueue": [
+          "I5",
+          "I6"
+        ],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 7,
+      "ID": "IT2a|f80v.30|G007",
+      "raw": "okar",
+      "segments": [
+        "o",
+        "kar"
+      ],
+      "contribution": "Introduce dispersed bodying powder I7; queue it",
+      "typed_input": "none",
+      "typed_output": "Ingredient:I7",
+      "state": {
+        "activePaint": "M1",
+        "IngredientQueue": [
+          "I5",
+          "I6",
+          "I7"
+        ],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 8,
+      "ID": "IT2a|f80v.30|G008",
+      "raw": "shey",
+      "segments": [
+        "shey"
+      ],
+      "contribution": "Combine M1 with I5,I6,I7",
+      "typed_input": "M1,I5,I6,I7",
+      "typed_output": "Paint:M1",
+      "state": {
+        "activePaint": "M1",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 9,
+      "ID": "IT2a|f80v.30|G009",
+      "raw": "qolky",
+      "segments": [
+        "q",
+        "ol",
+        "ky"
+      ],
+      "contribution": "Qualify M1 as fine; take portion P9",
+      "typed_input": "M1",
+      "typed_output": "Paint:P9 parent=M1",
+      "state": {
+        "activePaint": "P9",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 10,
+      "ID": "IT2a|f80v.31|G001",
+      "raw": "qol",
+      "segments": [
+        "q",
+        "ol"
+      ],
+      "contribution": "Take portion P10 from P9",
+      "typed_input": "P9",
+      "typed_output": "Paint:P10 parent=P9",
+      "state": {
+        "activePaint": "P10",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 11,
+      "ID": "IT2a|f80v.31|G002",
+      "raw": "oloiin",
+      "segments": [
+        "ol",
+        "oiin"
+      ],
+      "contribution": "Introduce binding liquid I11 and incorporate into P10",
+      "typed_input": "P10,I11",
+      "typed_output": "Paint:P10",
+      "state": {
+        "activePaint": "P10",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 12,
+      "ID": "IT2a|f80v.31|G003",
+      "raw": "olkain",
+      "segments": [
+        "ol",
+        "kain"
+      ],
+      "contribution": "Introduce white pigment I12 and incorporate into P10",
+      "typed_input": "P10,I12",
+      "typed_output": "Paint:P10",
+      "state": {
+        "activePaint": "P10",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 13,
+      "ID": "IT2a|f80v.31|G004",
+      "raw": "ol",
+      "segments": [
+        "ol"
+      ],
+      "contribution": "Select P10 explicitly",
+      "typed_input": "P10",
+      "typed_output": "Paint:P10",
+      "state": {
+        "activePaint": "P10",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 14,
+      "ID": "IT2a|f80v.31|G005",
+      "raw": "chedy",
+      "segments": [
+        "chedy"
+      ],
+      "contribution": "Separate a working portion P14 from P10",
+      "typed_input": "P10",
+      "typed_output": "Paint:P14 parent=P10",
+      "state": {
+        "activePaint": "P14",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 15,
+      "ID": "IT2a|f80v.31|G006",
+      "raw": "qokain",
+      "segments": [
+        "q",
+        "o",
+        "kain"
+      ],
+      "contribution": "Introduce measured dispersed white pigment I15; queue it",
+      "typed_input": "none",
+      "typed_output": "Ingredient:I15",
+      "state": {
+        "activePaint": "P14",
+        "IngredientQueue": [
+          "I15"
+        ],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 16,
+      "ID": "IT2a|f80v.31|G007",
+      "raw": "olshey",
+      "segments": [
+        "ol",
+        "shey"
+      ],
+      "contribution": "Explicitly combine P14 with I15",
+      "typed_input": "P14,I15",
+      "typed_output": "Paint:P14",
+      "state": {
+        "activePaint": "P14",
+        "IngredientQueue": [],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 17,
+      "ID": "IT2a|f80v.31|G008",
+      "raw": "qokain",
+      "segments": [
+        "q",
+        "o",
+        "kain"
+      ],
+      "contribution": "Introduce measured dispersed white pigment I17; queue it",
+      "typed_input": "none",
+      "typed_output": "Ingredient:I17",
+      "state": {
+        "activePaint": "P14",
+        "IngredientQueue": [
+          "I17"
+        ],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 18,
+      "ID": "IT2a|f80v.32|G001",
+      "raw": "solkain",
+      "segments": [
+        "s",
+        "ol",
+        "kain"
+      ],
+      "contribution": "Incorporate written white I18 in P14; retain portion S18",
+      "typed_input": "P14,I18",
+      "typed_output": "Paint:S18 parent=P14",
+      "state": {
+        "activePaint": "S18",
+        "IngredientQueue": [
+          "I17"
+        ],
+        "writtenSurface": null,
+        "currentRecipient": null,
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 19,
+      "ID": "IT2a|f80v.32|G002",
+      "raw": "shol",
+      "segments": [
+        "shol"
+      ],
+      "contribution": "Introduce paintable surface R19 explicitly",
+      "typed_input": "none",
+      "typed_output": "Surface:R19",
+      "state": {
+        "activePaint": "S18",
+        "IngredientQueue": [
+          "I17"
+        ],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 20,
+      "ID": "IT2a|f80v.32|G003",
+      "raw": "kair",
+      "segments": [
+        "kair"
+      ],
+      "contribution": "Triturate S18 with the still queued I17",
+      "typed_input": "S18,I17",
+      "typed_output": "Paint:S18",
+      "state": {
+        "activePaint": "S18",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 21,
+      "ID": "IT2a|f80v.32|G004",
+      "raw": "or",
+      "segments": [
+        "or"
+      ],
+      "contribution": "Specify a small quantity of S18",
+      "typed_input": "S18",
+      "typed_output": "S18 small",
+      "state": {
+        "activePaint": "S18",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": []
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 22,
+      "ID": "IT2a|f80v.32|G005",
+      "raw": "arol",
+      "segments": [
+        "arol"
+      ],
+      "contribution": "Apply S18 to R19; create deposited layer L22",
+      "typed_input": "S18,R19",
+      "typed_output": "Layer:L22 recipient=R19",
+      "state": {
+        "activePaint": "S18",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 23,
+      "ID": "IT2a|f80v.32|G006",
+      "raw": "keedy",
+      "segments": [
+        "keedy"
+      ],
+      "contribution": "Dry layer L22",
+      "typed_input": "L22",
+      "typed_output": "Layer:L22 dry",
+      "state": {
+        "activePaint": "S18",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 24,
+      "ID": "IT2a|f80v.32|G007",
+      "raw": "olky",
+      "segments": [
+        "ol",
+        "ky"
+      ],
+      "contribution": "Select remaining S18 and qualify it as fine",
+      "typed_input": "S18",
+      "typed_output": "Paint:S18",
+      "state": {
+        "activePaint": "S18",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 25,
+      "ID": "IT2a|f80v.32|G008",
+      "raw": "qolkain",
+      "segments": [
+        "q",
+        "ol",
+        "kain"
+      ],
+      "contribution": "Incorporate white I25 in S18 and take portion P25",
+      "typed_input": "S18,I25",
+      "typed_output": "Paint:P25 parent=S18",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 26,
+      "ID": "IT2a|f80v.32|G009",
+      "raw": "shedy",
+      "segments": [
+        "shedy"
+      ],
+      "contribution": "Introduce dark pigment I26 and queue it",
+      "typed_input": "none",
+      "typed_output": "Ingredient:I26",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [
+          "I26"
+        ],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 27,
+      "ID": "IT2a|f80v.33|G001",
+      "raw": "qokeedy",
+      "segments": [
+        "qokeedy"
+      ],
+      "contribution": "Homogenize P25 with written dark pigment I26",
+      "typed_input": "P25,I26",
+      "typed_output": "Paint:P25",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 28,
+      "ID": "IT2a|f80v.33|G002",
+      "raw": "qoker",
+      "segments": [
+        "qoker"
+      ],
+      "contribution": "Inspect the explicitly introduced surface R19",
+      "typed_input": "R19",
+      "typed_output": "Surface:R19 inspected",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 29,
+      "ID": "IT2a|f80v.33|G003",
+      "raw": "olkain",
+      "segments": [
+        "ol",
+        "kain"
+      ],
+      "contribution": "Incorporate white pigment I29 in P25",
+      "typed_input": "P25,I29",
+      "typed_output": "Paint:P25",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 30,
+      "ID": "IT2a|f80v.33|G004",
+      "raw": "olshedy",
+      "segments": [
+        "ol",
+        "shedy"
+      ],
+      "contribution": "Incorporate dark pigment I30 in P25",
+      "typed_input": "P25,I30",
+      "typed_output": "Paint:P25",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 31,
+      "ID": "IT2a|f80v.33|G005",
+      "raw": "qokey",
+      "segments": [
+        "qokey"
+      ],
+      "contribution": "Apply P25 to R19, creating L31; L22 persists",
+      "typed_input": "P25,R19",
+      "typed_output": "Layer:L31 recipient=R19",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22",
+          "L31"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 32,
+      "ID": "IT2a|f80v.33|G006",
+      "raw": "qokeey",
+      "segments": [
+        "qokeey"
+      ],
+      "contribution": "Spread L31 on its bound surface R19",
+      "typed_input": "L31,R19",
+      "typed_output": "Layer:L31 spread",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22",
+          "L31"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 33,
+      "ID": "IT2a|f80v.33|G007",
+      "raw": "tchcthy",
+      "segments": [
+        "tchcthy"
+      ],
+      "contribution": "Specify L31 thin",
+      "typed_input": "L31",
+      "typed_output": "Layer:L31 thin",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22",
+          "L31"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 34,
+      "ID": "IT2a|f80v.33|G008",
+      "raw": "lom",
+      "segments": [
+        "lom"
+      ],
+      "contribution": "Specify L31 central on R19",
+      "typed_input": "L31,R19",
+      "typed_output": "Layer:L31 central",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R19",
+        "Layers": [
+          "L22",
+          "L31"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 35,
+      "ID": "IT2a|f80v.34|G001",
+      "raw": "dol",
+      "segments": [
+        "dol"
+      ],
+      "contribution": "Introduce border region R35 of R19 as next recipient",
+      "typed_input": "R19",
+      "typed_output": "Region:R35 owner=R19",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R35",
+        "Layers": [
+          "L22",
+          "L31"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 36,
+      "ID": "IT2a|f80v.34|G002",
+      "raw": "sheyr",
+      "segments": [
+        "shey",
+        "r"
+      ],
+      "contribution": "Iterate mixing of remaining P25; queue is empty",
+      "typed_input": "P25",
+      "typed_output": "Paint:P25",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R35",
+        "Layers": [
+          "L22",
+          "L31"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 37,
+      "ID": "IT2a|f80v.34|G003",
+      "raw": "shey",
+      "segments": [
+        "shey"
+      ],
+      "contribution": "Mix remaining P25 again; this repeat is a real event",
+      "typed_input": "P25",
+      "typed_output": "Paint:P25",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R35",
+        "Layers": [
+          "L22",
+          "L31"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 38,
+      "ID": "IT2a|f80v.34|G004",
+      "raw": "olshey",
+      "segments": [
+        "ol",
+        "shey"
+      ],
+      "contribution": "Select P25 explicitly and mix again",
+      "typed_input": "P25",
+      "typed_output": "Paint:P25",
+      "state": {
+        "activePaint": "P25",
+        "IngredientQueue": [],
+        "writtenSurface": "R19",
+        "currentRecipient": "R35",
+        "Layers": [
+          "L22",
+          "L31"
+        ]
+      },
+      "status": "C0_CANDIDATE_BASE"
+    },
+    {
+      "position": 39,
+      "ID": "IT2a|f80v.34|G005",
+      "raw": "cthor",
+      "segments": [
+        "cthor"
+      ],
+      "contribution": "InspectBoundary(R35)",
+      "typed_input": "R35:Region",
+      "typed_output": "R35:Region marked",
+      "state": {
+        "activePaint": "P25",
+        "currentRecipient": "R35",
+        "currentLayer": "L31",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "InspectBoundary(R35)"
+    },
+    {
+      "position": 40,
+      "ID": "IT2a|f80v.34|G006",
+      "raw": "ylchdy",
+      "segments": [
+        "ylchdy"
+      ],
+      "contribution": "VisibleBeside(PreviousSameSurface(L31),L31)",
+      "typed_input": "L22:Layer,L31:Layer; baseSurface=R19",
+      "typed_output": "VisibleBeside(L22,L31)",
+      "state": {
+        "activePaint": "P25",
+        "currentRecipient": "R35",
+        "currentLayer": "L31",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "VisibleBeside(PreviousSameSurface(L31),L31)"
+    },
+    {
+      "position": 41,
+      "ID": "IT2a|f80v.34|G007",
+      "raw": "olkain",
+      "segments": [
+        "ol",
+        "kain"
+      ],
+      "contribution": "Incorporate(SelectPaint(),NewWhiteIngredient(I41))",
+      "typed_input": "P25:Paint,I41:Ingredient",
+      "typed_output": "P25:Paint",
+      "state": {
+        "activePaint": "P25",
+        "currentRecipient": "R35",
+        "currentLayer": "L31",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Incorporate(SelectPaint(),NewWhiteIngredient(I41))"
+    },
+    {
+      "position": 42,
+      "ID": "IT2a|f80v.34|G008",
+      "raw": "shcthy",
+      "segments": [
+        "shcthy"
+      ],
+      "contribution": "Apply(P25,R35)",
+      "typed_input": "P25:Paint,R35:Region",
+      "typed_output": "L42:Layer owner=R35; baseSurface=R19",
+      "state": {
+        "activePaint": "P25",
+        "currentRecipient": "R35",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Apply(P25,R35)"
+    },
+    {
+      "position": 43,
+      "ID": "IT2a|f80v.34|G009",
+      "raw": "qoly",
+      "segments": [
+        "qoly"
+      ],
+      "contribution": "VisibleBeside(PreviousSameSurface(L42),L42)",
+      "typed_input": "L31:Layer,L42:Layer; baseSurface=R19",
+      "typed_output": "VisibleBeside(L31,L42)",
+      "state": {
+        "activePaint": "P25",
+        "currentRecipient": "R35",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "VisibleBeside(PreviousSameSurface(L42),L42)"
+    },
+    {
+      "position": 44,
+      "ID": "IT2a|f80v.35|G001",
+      "raw": "tol",
+      "segments": [
+        "tol"
+      ],
+      "contribution": "ParentSurface(R35)",
+      "typed_input": "R35:Region owner=R19",
+      "typed_output": "R19:Surface currentRecipient",
+      "state": {
+        "activePaint": "P25",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "ParentSurface(R35)"
+    },
+    {
+      "position": 45,
+      "ID": "IT2a|f80v.35|G002",
+      "raw": "oltain",
+      "segments": [
+        "ol",
+        "tain"
+      ],
+      "contribution": "Qualify(SelectPaint(),cohesive)",
+      "typed_input": "P25:Paint",
+      "typed_output": "P25:Paint cohesive",
+      "state": {
+        "activePaint": "P25",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Qualify(SelectPaint(),cohesive)"
+    },
+    {
+      "position": 46,
+      "ID": "IT2a|f80v.35|G003",
+      "raw": "olkar",
+      "segments": [
+        "ol",
+        "kar"
+      ],
+      "contribution": "Incorporate(SelectPaint(),NewBodyingIngredient(I46))",
+      "typed_input": "P25:Paint,I46:Ingredient",
+      "typed_output": "P25:Paint",
+      "state": {
+        "activePaint": "P25",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Incorporate(SelectPaint(),NewBodyingIngredient(I46))"
+    },
+    {
+      "position": 47,
+      "ID": "IT2a|f80v.35|G004",
+      "raw": "y",
+      "segments": [
+        "y"
+      ],
+      "contribution": "Settle(P25)",
+      "typed_input": "P25:Paint",
+      "typed_output": "P25:Paint settled",
+      "state": {
+        "activePaint": "P25",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Settle(P25)"
+    },
+    {
+      "position": 48,
+      "ID": "IT2a|f80v.35|G005",
+      "raw": "qol",
+      "segments": [
+        "q",
+        "ol"
+      ],
+      "contribution": "Portion(SelectPaint())",
+      "typed_input": "P25:Paint",
+      "typed_output": "P48:Paint parent=P25",
+      "state": {
+        "activePaint": "P48",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Portion(SelectPaint())"
+    },
+    {
+      "position": 49,
+      "ID": "IT2a|f80v.35|G006",
+      "raw": "qol",
+      "segments": [
+        "q",
+        "ol"
+      ],
+      "contribution": "Portion(SelectPaint())",
+      "typed_input": "P48:Paint",
+      "typed_output": "P49:Paint parent=P48",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Portion(SelectPaint())"
+    },
+    {
+      "position": 50,
+      "ID": "IT2a|f80v.35|G007",
+      "raw": "kain",
+      "segments": [
+        "kain"
+      ],
+      "contribution": "Queue(NewWhiteIngredient(I50))",
+      "typed_input": "none",
+      "typed_output": "I50:Ingredient",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [
+          "I50"
+        ],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Queue(NewWhiteIngredient(I50))"
+    },
+    {
+      "position": 51,
+      "ID": "IT2a|f80v.35|G008",
+      "raw": "okiin",
+      "segments": [
+        "o",
+        "kiin"
+      ],
+      "contribution": "Queue(Disperse(NewAqueousIngredient(I51)))",
+      "typed_input": "I51:Ingredient",
+      "typed_output": "I51:Ingredient dispersed",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [
+          "I50",
+          "I51"
+        ],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Queue(Disperse(NewAqueousIngredient(I51)))"
+    },
+    {
+      "position": 52,
+      "ID": "IT2a|f80v.35|G009",
+      "raw": "ol",
+      "segments": [
+        "ol"
+      ],
+      "contribution": "SelectPaint()",
+      "typed_input": "P49:Paint",
+      "typed_output": "P49:Paint reference",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [
+          "I50",
+          "I51"
+        ],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "SelectPaint()"
+    },
+    {
+      "position": 53,
+      "ID": "IT2a|f80v.35|G010",
+      "raw": "kain",
+      "segments": [
+        "kain"
+      ],
+      "contribution": "Queue(NewWhiteIngredient(I53))",
+      "typed_input": "none",
+      "typed_output": "I53:Ingredient",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [
+          "I50",
+          "I51",
+          "I53"
+        ],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Queue(NewWhiteIngredient(I53))"
+    },
+    {
+      "position": 54,
+      "ID": "IT2a|f80v.35|G011",
+      "raw": "shey",
+      "segments": [
+        "shey"
+      ],
+      "contribution": "Combine(P49,IngredientQueue)",
+      "typed_input": "P49:Paint,I50,I51,I53:Ingredients",
+      "typed_output": "P49:Paint; ingredients consumed",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Combine(P49,IngredientQueue)"
+    },
+    {
+      "position": 55,
+      "ID": "IT2a|f80v.35|G012",
+      "raw": "ldy",
+      "segments": [
+        "ldy"
+      ],
+      "contribution": "SetLayer(L42)",
+      "typed_input": "L42:Layer owner=R35",
+      "typed_output": "L42:Layer set",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "SetLayer(L42)"
+    },
+    {
+      "position": 56,
+      "ID": "IT2a|f80v.36|G001",
+      "raw": "soin",
+      "segments": [
+        "soin"
+      ],
+      "contribution": "Stir(P49)",
+      "typed_input": "P49:Paint",
+      "typed_output": "P49:Paint stirred",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Stir(P49)"
+    },
+    {
+      "position": 57,
+      "ID": "IT2a|f80v.36|G002",
+      "raw": "okain",
+      "segments": [
+        "o",
+        "kain"
+      ],
+      "contribution": "Queue(Disperse(NewWhiteIngredient(I57)))",
+      "typed_input": "I57:Ingredient",
+      "typed_output": "I57:Ingredient dispersed",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [
+          "I57"
+        ],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Queue(Disperse(NewWhiteIngredient(I57)))"
+    },
+    {
+      "position": 58,
+      "ID": "IT2a|f80v.36|G003",
+      "raw": "sheor",
+      "segments": [
+        "sheor"
+      ],
+      "contribution": "InspectSmallAmount(P49)",
+      "typed_input": "P49:Paint",
+      "typed_output": "P49:Paint inspected; no new entity",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [
+          "I57"
+        ],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "InspectSmallAmount(P49)"
+    },
+    {
+      "position": 59,
+      "ID": "IT2a|f80v.36|G004",
+      "raw": "ol",
+      "segments": [
+        "ol"
+      ],
+      "contribution": "SelectPaint()",
+      "typed_input": "P49:Paint",
+      "typed_output": "P49:Paint reference",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [
+          "I57"
+        ],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "SelectPaint()"
+    },
+    {
+      "position": 60,
+      "ID": "IT2a|f80v.36|G005",
+      "raw": "shey",
+      "segments": [
+        "shey"
+      ],
+      "contribution": "Combine(P49,IngredientQueue)",
+      "typed_input": "P49:Paint,I57:Ingredient",
+      "typed_output": "P49:Paint; I57 consumed",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Combine(P49,IngredientQueue)"
+    },
+    {
+      "position": 61,
+      "ID": "IT2a|f80v.36|G006",
+      "raw": "daly",
+      "segments": [
+        "daly"
+      ],
+      "contribution": "InspectLayerContinuity(L42)",
+      "typed_input": "L42:Layer owner=R35",
+      "typed_output": "L42:Layer continuity inspected",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "InspectLayerContinuity(L42)"
+    },
+    {
+      "position": 62,
+      "ID": "IT2a|f80v.36|G007",
+      "raw": "olshedy",
+      "segments": [
+        "ol",
+        "shedy"
+      ],
+      "contribution": "Incorporate(SelectPaint(),NewDarkIngredient(I62))",
+      "typed_input": "P49:Paint,I62:Ingredient",
+      "typed_output": "P49:Paint",
+      "state": {
+        "activePaint": "P49",
+        "currentRecipient": "R19",
+        "currentLayer": "L42",
+        "IngredientQueue": [],
+        "Surface": "R19",
+        "Region": "R35 owner=R19",
+        "Layers": [
+          "L22 owner=R19",
+          "L31 owner=R19",
+          "L42 owner=R35"
+        ]
+      },
+      "status": "C0_NEW_CANDIDATE",
+      "expression": "Incorporate(SelectPaint(),NewDarkIngredient(I62))"
+    },
+    {
+      "position": 63,
+      "ID": "IT2a|f80v.36|G008",
+      "raw": "olal",
+      "segments": [
+        "olal"
+      ],
+      "contribution": "Unconsumed; no free material/entity supplied",
+      "typed_input": "UNBOUND",
+      "typed_output": "UNBOUND",
+      "state": null,
+      "status": "UNBOUND"
+    },
+    {
+      "position": 64,
+      "ID": "IT2a|f80v.36|G009",
+      "raw": "shedy",
+      "segments": [
+        "shedy"
+      ],
+      "contribution": "Unconsumed; no free material/entity supplied",
+      "typed_input": "UNBOUND",
+      "typed_output": "UNBOUND",
+      "state": null,
+      "status": "UNBOUND"
+    },
+    {
+      "position": 65,
+      "ID": "IT2a|f80v.36|G010",
+      "raw": "lchy",
+      "segments": [
+        "lchy"
+      ],
+      "contribution": "Unconsumed; no free material/entity supplied",
+      "typed_input": "UNBOUND",
+      "typed_output": "UNBOUND",
+      "state": null,
+      "status": "UNBOUND"
+    },
+    {
+      "position": 66,
+      "ID": "IT2a|f80v.37|G001",
+      "raw": "polshdy",
+      "segments": [
+        "polshdy"
+      ],
+      "contribution": "Unconsumed; no free material/entity supplied",
+      "typed_input": "UNBOUND",
+      "typed_output": "UNBOUND",
+      "state": null,
+      "status": "UNBOUND"
+    },
+    {
+      "position": 67,
+      "ID": "IT2a|f80v.37|G002",
+      "raw": "qokeedy",
+      "segments": [
+        "qokeedy"
+      ],
+      "contribution": "Unconsumed; no free material/entity supplied",
+      "typed_input": "UNBOUND",
+      "typed_output": "UNBOUND",
+      "state": null,
+      "status": "UNBOUND"
+    },
+    {
+      "position": 68,
+      "ID": "IT2a|f80v.37|G003",
+      "raw": "shky",
+      "segments": [
+        "shky"
+      ],
+      "contribution": "Unconsumed; no free material/entity supplied",
+      "typed_input": "UNBOUND",
+      "typed_output": "UNBOUND",
+      "state": null,
+      "status": "UNBOUND"
+    },
+    {
+      "position": 69,
+      "ID": "IT2a|f80v.37|G004",
+      "raw": "ololchey",
+      "segments": [
+        "ololchey"
+      ],
+      "contribution": "Unconsumed; no free material/entity supplied",
+      "typed_input": "UNBOUND",
+      "typed_output": "UNBOUND",
+      "state": null,
+      "status": "UNBOUND"
+    }
+  ],
+  "complete": false,
+  "added_lexical_definitions": {
+    "cthor": "Inspect and mark the already written current recipient boundary; Surface/Region -> same recipient",
+    "ylchdy": "Preserve the immediately preceding deposited Layer visibly beside the latest Layer on the same base Surface",
+    "shcthy": "Apply active Paint to current written recipient, creating a fresh deposited Layer",
+    "qoly": "Leave the preceding deposited Layer visibly discernible beside the latest Layer on the same base Surface",
+    "tol": "Return recipient reference from a Region to its explicitly written parent Surface; Surface input is retained",
+    "tain": "cohesive physical property of Paint",
+    "y": "Allow active Paint to settle; Paint -> same Paint, no queue consumption",
+    "kiin": "aqueous liquid Ingredient",
+    "ldy": "Allow current Layer to set; Layer -> same Layer",
+    "soin": "Stir active Paint without consuming an Ingredient queue",
+    "sheor": "Inspect a small sample of active Paint without introducing a fresh sample entity or consuming its Ingredient queue",
+    "daly": "Inspect continuity of latest Layer on its already bound recipient"
+  },
+  "first_unpaid": {
+    "position": 63,
+    "ID": "IT2a|f80v.36|G008",
+    "raw": "olal",
+    "reason": "ol is paid but al has no binding in the12-added-definition budget. OL cannot accept an unknown additive/property as a free entity."
+  },
+  "new_prefix_annotations": 62,
+  "unconsumed_positions": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "C1": "UNMET: no recipe/type identity or earlier-derived-recipe return constructor",
+  "C2": "Proposed explicit visibility assertions at40 and43, using typed same-base-Surface Layer pairs. Their English meanings are authored C0, not an empirical match to Theophilus or selected target truth.",
+  "budget": {
+    "base_roots": 20,
+    "base_whole_residuals": 2,
+    "base_rules": 12,
+    "base_defaults": 4,
+    "added_lexical_definitions": 12,
+    "new_generic_rules": 3,
+    "added_defaults": 0,
+    "aliases": 0,
+    "soft_added_caps": {
+      "lexical": 12,
+      "rules": 4
+    },
+    "excess": 0
+  },
+  "connected_intent": "Prepare written paint, apply and dry a first layer, prepare and apply a second central layer, explicitly preserve the earlier layer visibly beside it, apply remaining paint to the written border region and preserve the preceding layer beside this border application. Settle and portion remaining paint twice, add and mix written pigments and liquid, check the border layer, and begin darkening the final working portion. The continuation from OLAL63 remains unknown.",
+  "timing": {
+    "first_clock": "2026-10-01T05:38:47+00:00",
+    "freeze_clock": "2026-10-01T05:43:26.413762+00:00",
+    "cap_seconds": 240,
+    "elapsed_seconds": 279.413762,
+    "overrun_seconds": 39.41376200000002
+  },
+  "limits": [
+    "62 annotations are a hand-authored candidate trace, not an independently validated complete parse.",
+    "Positions1\u201338 inherit compact explicit typed input/output/state annotations from immutable FO, with segmentation as their finite construction reference; no new derivation of f85.",
+    "Exact first unpaid OLAL63; SHEDY64,LCHY65,POLSHDY66,QOKEEDY67,SHKY68,OLOLCHEY69 remain unconsumed after this barrier. Known QOKEEDY67 cannot restore continuity. Nested OLOLCHEY69 has no paid CHEY or recursive OL-argument branch in this new version.",
+    "All visibility meanings are newly invented hypotheses; no evidence selects them.",
+    "Original FO/FN/FM bytes remain immutable."
+  ]
+}
