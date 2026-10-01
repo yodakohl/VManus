@@ -1,0 +1,267 @@
+{
+  "unit": "FE independent replay/critic",
+  "status": "ONLY_SEED_NO_OUTSIDE_CONSEQUENCE",
+  "freeze_utc": "2026-10-01T01:13:22.186656+00:00",
+  "timing": {
+    "first_clock": "2026-10-01T01:10:20.823475+00:00",
+    "elapsed_seconds": 181.363181,
+    "cap_seconds": 120,
+    "budget_exception": "First artifact-building script failed at elapsed-cap assertion before any write; completed replay retained, final compact artifact records actual overrun without repair."
+  },
+  "inputs_sha256": {
+    "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FE_DECISION.json": "599afbea93b0de0cd0e4f48c80f9a8210216b862232d64e6d1d7a43b12ad9507",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FE_CONTRACT_REVIEW.json": "e84bc0291c4c74323def8e04e54bb06b76bf4d962c16deafe7872ba31ef84f06",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FD_AUTHOR.json": "c7b6e7c3073eed97c4d51c6e176de8bf285d7af86446ddf9e1996874f14cebed"
+  },
+  "independence": "Exact enumeration independently completed before accessing root runner/results. Did not import or run FE_RUN. FE_CONTRACT.json absent; actual FE_CONTRACT_REVIEW read. Cached179-admitted JSON source receipts only, no mixedTSV normalization.",
+  "denominators": {
+    "admitted_selectors": 179,
+    "native_paragraphs": {
+      "ZL3b": 659,
+      "IT2a": 690,
+      "RF1b": 0
+    }
+  },
+  "candidate_order": [
+    "N6_dry",
+    "N6_moist",
+    "N7_dry",
+    "N7_moist"
+  ],
+  "native_counts": {
+    "ZL3b": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "IT2a": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "RF1b": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "uncertain_candidate_counts": {
+    "ZL3b": 0,
+    "IT2a": 0,
+    "RF1b": 0
+  },
+  "own_locus_counts": {
+    "ZL3b": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "IT2a": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "RF1b": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "cases": [
+    {
+      "edition": "ZL3b",
+      "complete_native_context": {
+        "id": "f113r|f113r.37-f113r.38",
+        "page": "f113r",
+        "leaf": 113,
+        "lines": [
+          {
+            "locus": "f113r.37",
+            "row": 5095,
+            "start": true,
+            "end": false,
+            "words": [
+              "tshedy",
+              "qokaiin",
+              "shedar",
+              "sheocphy",
+              "okchdy",
+              "pcheody",
+              "opchear",
+              "opchedy",
+              "lfchedy",
+              "otal"
+            ],
+            "source_ids": [
+              "ZL3b|f113r.37|G001",
+              "ZL3b|f113r.37|G002",
+              "ZL3b|f113r.37|G003",
+              "ZL3b|f113r.37|G004",
+              "ZL3b|f113r.37|G005",
+              "ZL3b|f113r.37|G006",
+              "ZL3b|f113r.37|G007",
+              "ZL3b|f113r.37|G008",
+              "ZL3b|f113r.37|G009",
+              "ZL3b|f113r.37|G010"
+            ],
+            "anchor_eligible": true,
+            "offset": 0
+          },
+          {
+            "locus": "f113r.38",
+            "row": 5096,
+            "start": false,
+            "end": true,
+            "words": [
+              "daiin",
+              "sheor",
+              "qoteey",
+              "daiin",
+              "okchedy",
+              "sheo[s:r]",
+              "aiin"
+            ],
+            "source_ids": [
+              "ZL3b|f113r.38|G001",
+              "ZL3b|f113r.38|G002",
+              "ZL3b|f113r.38|G003",
+              "ZL3b|f113r.38|G004",
+              "ZL3b|f113r.38|G005",
+              "ZL3b|f113r.38|G006",
+              "ZL3b|f113r.38|G007"
+            ],
+            "anchor_eligible": false,
+            "offset": 10
+          }
+        ],
+        "groups": 17
+      },
+      "counts": {
+        "N6_dry": 1,
+        "N6_moist": 0,
+        "N7_dry": 0,
+        "N7_moist": 0
+      },
+      "definite": "All matching atoms independently checked both outer and inner separators as definite from cached GDT915 sources",
+      "invocation": "No full invocation: sheo[s:r] UNKNOWN second clause; N8 IT only"
+    },
+    {
+      "edition": "IT2a",
+      "complete_native_context": {
+        "id": "f113r|f113r.37-f113r.38",
+        "page": "f113r",
+        "leaf": 113,
+        "lines": [
+          {
+            "locus": "f113r.37",
+            "row": 4926,
+            "start": true,
+            "end": false,
+            "words": [
+              "tshedy",
+              "qokaiin",
+              "shedar",
+              "sheocphy",
+              "okchdy",
+              "pcheody",
+              "opchear",
+              "opchedy",
+              "lfchedy",
+              "otal"
+            ],
+            "source_ids": [
+              "IT2a|f113r.37|G001",
+              "IT2a|f113r.37|G002",
+              "IT2a|f113r.37|G003",
+              "IT2a|f113r.37|G004",
+              "IT2a|f113r.37|G005",
+              "IT2a|f113r.37|G006",
+              "IT2a|f113r.37|G007",
+              "IT2a|f113r.37|G008",
+              "IT2a|f113r.37|G009",
+              "IT2a|f113r.37|G010"
+            ],
+            "anchor_eligible": true,
+            "offset": 0
+          },
+          {
+            "locus": "f113r.38",
+            "row": 4927,
+            "start": false,
+            "end": true,
+            "words": [
+              "daiin",
+              "sheor",
+              "qoteey",
+              "daiin",
+              "okchedy",
+              "sheos",
+              "aiin"
+            ],
+            "source_ids": [
+              "IT2a|f113r.38|G001",
+              "IT2a|f113r.38|G002",
+              "IT2a|f113r.38|G003",
+              "IT2a|f113r.38|G004",
+              "IT2a|f113r.38|G005",
+              "IT2a|f113r.38|G006",
+              "IT2a|f113r.38|G007"
+            ],
+            "anchor_eligible": true,
+            "offset": 10
+          }
+        ],
+        "groups": 17
+      },
+      "counts": {
+        "N6_dry": 1,
+        "N6_moist": 0,
+        "N7_dry": 0,
+        "N7_moist": 1
+      },
+      "definite": "All matching atoms independently checked both outer and inner separators as definite from cached GDT915 sources",
+      "invocation": "Complete sufficient17 packet, N5 carrier R and IT N8; dry/moist agree"
+    }
+  ],
+  "RF_diagnostic": {
+    "locus": "f113r.38",
+    "raw": [
+      "daiin",
+      "sheor",
+      "qoteey",
+      "@152;aiin",
+      "okched",
+      "y",
+      "sheos",
+      "aiin"
+    ],
+    "target_source_ids": [
+      "RF1b|f113r.38|G001",
+      "RF1b|f113r.38|G002",
+      "RF1b|f113r.38|G003"
+    ],
+    "target_separators": "G001 LINE_START/DEFINITE_SPACE;G002/G003 DEFINITE_SPACE/DEFINITE_SPACE",
+    "unknowns": [
+      "@152;aiin",
+      "okched",
+      "y"
+    ],
+    "uncertain_space": "okched/y retained separate",
+    "native_capacity": 0,
+    "N8_eligible": false,
+    "meaning_failure": false
+  },
+  "runner_comparison": "Not completed within bounded time; independent counts reported to root, which owns comparison.",
+  "conclusion": "Only seed113 matched. No reversed candidates or other-leaf consequences. IT sufficient paid N5/N8 graph locally agrees; ZL/RF lacking prerequisites are capacity limits. Generic N6/N7 hardcoded-property portability defect remains logical debt, not observed invoked contradiction. Stop unchanged transfer route, no more scans or repairs.",
+  "confirmed_words": 0,
+  "independent_meaning_tests": 0,
+  "changes_to_frozen_values_rules": false,
+  "new_sources_images_contacts_holdouts_Git": false
+}

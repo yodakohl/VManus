@@ -1,3 +1,6 @@
+<!-- FE 2026-10-01 -->
+FE:all4fixedwindows/1349ownparagraphs yield4cases3contexts onlyseed113;2ITeligible;0reverse/outside/conflict. Stop unchangedFDliteral transfer, preservecompleteC0/propertydebt andFBconflict. No meaningtest or reparsing;86values19rulesunchanged. Nextreview835historicalprimary/closedroutes beforeselection.0words0independentleaves;835raw;publicationbudgetoverrun. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FE_REPORT.md.
+
 <!-- FD 2026-10-01 -->
 FD:full17ITpaidC0deposit/retainsediment/dry-moistportions;13newvalues8rules,73maps11rulesfixed,52rawgroups. N6/N7genericmoistureconditionshardcodeproperties;AIIN/DAIINrelation andDAIIN/QOTEEDYsynonymdebts absent. Localconnectedgraph notmeaningwinner;noauthorrepair. Nextallmatchednewtypedproperty/argumentframes, no morefreeglosseshere;FBZLconflict/FCremain.0words0independentleaves;834raw. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FD_REPORT.md.
 
