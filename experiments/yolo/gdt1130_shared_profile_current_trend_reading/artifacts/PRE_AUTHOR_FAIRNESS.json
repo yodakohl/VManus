@@ -1,0 +1,177 @@
+{
+  "schema": "GDT1130_PRE_AUTHOR_FAIRNESS_v1",
+  "frozen_utc": "2026-10-01T21:39:25.301452+00:00",
+  "author_constructor_account_reading_opened": false,
+  "allowed_scope": {
+    "raw_groups": 288,
+    "reader_counts": {
+      "IT2a": 97,
+      "ZL3b": 95,
+      "RF1b": 96
+    },
+    "units": [
+      "f68r2.6",
+      "f68r2.31",
+      "f89v1.13-20"
+    ],
+    "physical_development_leaves": 2,
+    "independent_meaning_confirmation_leaves": 0
+  },
+  "inputs": {
+    "PREREGISTRATION.md": "ffff112d952c559acddca03aba12da1014f9f860983f7e723f423c98ab2af9c8",
+    "METHOD.md": "ffff112d952c559acddca03aba12da1014f9f860983f7e723f423c98ab2af9c8",
+    "src/AUTHOR_PLAN.json": "49a3e9329f00551b3fa81db1246c15de120a9d9c9d722e4f14e38b83b9aba53e"
+  },
+  "fairness_md_sha256": "becaee0c0ebf4e12c77f53b545badc4c2a640055b36cd5cda35710850f887df3",
+  "criteria": [
+    {
+      "id": "F01",
+      "test": "Actual owner-bearing world proposition or condition/instruction",
+      "required_fields": [
+        "owner_introduction_source_id",
+        "owner",
+        "property",
+        "basis_scale",
+        "time_interval",
+        "condition_modality",
+        "proposition_instruction",
+        "input_provenance"
+      ],
+      "reject_as_success": [
+        "symbolic-only report",
+        "undeclared external-world input"
+      ],
+      "C0_hypothetical_predication_allowed": true
+    },
+    {
+      "id": "F02",
+      "test": "Conserve comparison tuple and axes",
+      "required_fields": [
+        "owner_coreference",
+        "same_property",
+        "same_basis_scale",
+        "time_relation",
+        "condition_scope",
+        "causal_interface_if_cross_domain"
+      ],
+      "contradiction_only_if": "Same owner/property/basis/time/condition and incompatible senses/values"
+    },
+    {
+      "id": "F03",
+      "test": "Same aN interface has non-null semantic effect in at least two supported exact forms",
+      "minimum_distinct_forms": 2,
+      "required_fields": [
+        "raw_form",
+        "source_id",
+        "ordered_host_part_inputs",
+        "exact_whole_residual",
+        "aN_effect",
+        "output",
+        "actual_consumer"
+      ],
+      "part_ablation": "May block; identify lost semantic commitment rather than merely absent symbol",
+      "retain_distinctions": [
+        "qokain versus qokaiin",
+        "okoaiin internal o",
+        "exact wrapper/residual licenses"
+      ]
+    },
+    {
+      "id": "F04",
+      "test": "Actual operand and consumer binding under fixed repeats",
+      "required_fields": [
+        "frozen_function",
+        "actual_arguments",
+        "owner_tuple_retained",
+        "output",
+        "consumer_source_id",
+        "paid_overloads_defaults_aliases"
+      ],
+      "raw_scope_groups": 288,
+      "author_assigned_tail_sort_not_independent_evidence": true
+    },
+    {
+      "id": "F05",
+      "test": "Fair static state/nominal rival with written time bridge",
+      "template": [
+        "State(o,p,b,t0,c,v0)",
+        "State(o,p,b,t1,c,v1)",
+        "Before(t0,t1)",
+        "SameProfile(o,p,b,c,t0,t1)",
+        "Low_b(v1)",
+        "Less_b(v0,v1)"
+      ],
+      "required_written_bindings": [
+        "owner/time/state introduction",
+        "state and interval reference",
+        "order/transition/comparison site",
+        "actual consumer"
+      ],
+      "incremental_costs": [
+        "time/state identities",
+        "scale comparability",
+        "co-reference",
+        "transition/comparison",
+        "nominal-to-predicate bridge where used"
+      ],
+      "no_donation_to_frozen_authors": true
+    },
+    {
+      "id": "F06",
+      "test": "Same-world scenario distinguishability",
+      "scenario_interpretation_fixed": true,
+      "illustrative_scale": {
+        "low": "v<2",
+        "time": "t0<t1"
+      },
+      "scenarios": [
+        {
+          "id": "W1",
+          "v0": 0,
+          "v1": 1,
+          "current": "LOW",
+          "change": "POSITIVE"
+        },
+        {
+          "id": "W2",
+          "v0": 2,
+          "v1": 1,
+          "current": "LOW",
+          "change": "NEGATIVE"
+        },
+        {
+          "id": "W3",
+          "v0": 2,
+          "v1": 3,
+          "current": "HIGH",
+          "change": "POSITIVE"
+        }
+      ],
+      "values_are_manuscript_number_claims": false,
+      "require_nonseed_source_ids_binding_or_consuming_consequence": true,
+      "conditional_predictions_allowed": true,
+      "tautological_comparator_not_world_information": true
+    }
+  ],
+  "initial_core_limits": {
+    "constructor_families": 12,
+    "opaque_content_constants": 8
+  },
+  "confirmed_anchors_required_for_C0": false,
+  "predeclared_semantic_winner": false,
+  "new_known_tail_signature_assumed": false,
+  "result_categories": [
+    "complete conditional C0",
+    "missing binding/input",
+    "incomplete construction",
+    "exact frozen contradiction",
+    "symbolic-only or tautological consequence",
+    "meaning not identified"
+  ],
+  "no_new_access": true,
+  "new_images": 0,
+  "new_source_queries": 0,
+  "global_edits": 0,
+  "git_operations": 0,
+  "predecessor_decisions_changed": false
+}

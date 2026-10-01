@@ -1,0 +1,375 @@
+{
+  "schema": "gd_pipeline_real_predication_v1",
+  "status": "RAW_SUPPLY_SOURCE_REVIEW_ONLY_NOT_SELECTED_NO_TARGET_FINDING",
+  "frozen_utc": "2026-10-01T21:29:59.782361+00:00",
+  "recommendation": "Retain three existing cards593/597/838;593first for actual-versus-appearing material predication,597for evidential identity rejection,838for restricted commands. Root selection remains separate.",
+  "candidates": [
+    {
+      "id": "IDEA000593",
+      "rank": 1,
+      "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+      "title": "RAW temporary cleansing changes a quality while lead remains lead despite silver-like appearance",
+      "source_basis": {
+        "chapter_path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/steele_science_complete_unit_20260927.txt",
+        "chapter_sha256": "db38ff8124bd71cb411325fc5011e8074e74872004a9a27f3dc53849e3a50a22",
+        "html_path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/steele_mediaeval_lore_pg6493_20260927.html",
+        "html_sha256": "7e6bfd3104fbdcb32215716d3aa8866c7e4f9b25f73886cf263378873b745cf9",
+        "locus": "id00103 complete lead paragraph, within owned ChapterI",
+        "quote": "And with wiping and cleansing, this uncleanness of lead may be taken away for a time, but never for always; a man may wipe off the uncleanness but alway it is lead although it seemeth silver. But strange qualities have mastery therein and beguile men, and make them err therein.",
+        "report": "research_registry/proposals/laufenberg_f85r2_20260926/OWNED_SOURCE_RELATIONAL_NEXT_C.md"
+      },
+      "complete_focal_source": "Of lead are two manner of kinds, white and black, and the white is the\nbetter, and was first found in the islands of the Atlantic Sea in old\ntime, and is now found in many places. For in France and in Portugal\nis a manner of black earth found full of gravel and of small stones,\nand is washed and blown, and so of that matter cometh the substance of\nlead. Also in gold quarries with matter of gold are small stones\nfound, and are gathered with the gold, and blown by themselves, and\nturn all to lead, and therefore gold is as heavy as lead. But of black\nlead is double kind. For black lead cometh alone of a vein, or is\ngendered of silver in medlied veins, and is blown, and in blowing\nfirst cometh tin, and then silver, and then what leaveth is blown and\nturneth into black lead. Aristotle saith that of brimstone that is\nboisterous and not swiftly pured, but troublous and thick, and of\nquicksilver, the substance of lead is gendered, and is gendered in\nmineral places; so of uncleanness of impure brimstone lead hath a\nmanner of neshness, and smircheth his hand that toucheth it. And with\nwiping and cleansing, this uncleanness of lead may be taken away for a\ntime, but never for always; a man may wipe off the uncleanness but\nalway it is lead although it seemeth silver. But strange qualities\nhave mastery therein and beguile men, and make them err therein. Some\nmen take Sal Ammoniac (to cleanse it) as Aristotle saith, and\nassigneth the cause of this uncleanness and saith, that in boisterous\nlead is evil quicksilver heavy and fenny. Also that brimstone thereof\nis evil vapour and stinking. Therefore it freezeth not well at full.\nHermes saith that lead in boiling undoeth the hardness of all sad and\nhard bodies, and also of the stone adamant. Aristotle speaketh of lead\nin the Meteorics and saith that lead without doubt when it is molten\nis as quicksilver, but it melteth not without heat, and then all that\nis molten seemeth red. Wonder it is that though lead be pale or brown,\nyet by burning or by refudation of vinegar oft it gendereth seemly\ncolour and fair, as tewly, red, and such other; therewith women paint\nthemselves for to seem fair of colour.",
+      "concrete_account": [
+        "There are white and black kinds and several origins/extraction descriptions of lead, including a mixed-vein separation narrative.",
+        "The source attributes lead generation and impurity/softness to brimstone and quicksilver, and says touching it soils the hand.",
+        "Wiping or cleansing may remove its uncleanness for a time; the removal is not permanent.",
+        "The retained material is still lead even while it seems silver; strange qualities mislead people.",
+        "Sal ammoniac is mentioned for cleaning, followed by attributed impurity/freezing explanations.",
+        "The paragraph retains attributed softening/hardness claims, heating/melting requirements and cosmetic color uses."
+      ],
+      "owner_predications": [
+        {
+          "owner": "material m",
+          "claim": "IS_KIND(m,lead)",
+          "mode": "ASSERTED_PERSISTENT_IN_SOURCE"
+        },
+        {
+          "owner": "uncleanness q of m",
+          "claim": "MAY_REMOVE(wiping_or_cleansing,q,TEMPORARILY)",
+          "mode": "SOURCE_POSSIBILITY_WITH_NONPERMANENCE"
+        },
+        {
+          "owner": "material m",
+          "claim": "SEEMS_KIND(m,silver)",
+          "mode": "APPEARANCE_NOT_IDENTITY"
+        },
+        {
+          "owner": "people observing m",
+          "claim": "MAY_ERR_ABOUT(people,m,due_to_strange_qualities)",
+          "mode": "SOURCE_OBSERVER_ERROR"
+        }
+      ],
+      "effective_reuse_offer": "One paid object-reference construction must preserve the same m across IS_KIND, quality-removal and SEEMS_KIND. A shared state/predicate interface can take an explicitly owned quality q and m; a whole residual may select BEING versus SEEMING, or temporal scope, but may not contain the entire lead/silver assertion. IS_KIND and SEEMS_KIND share m and a kind argument while producing different commitment types. The source repeated lead expressions and cleansing/seeming/observer clauses supply actual reuse duties, not an arbitrary agent label. No EVA part is assigned BE/SEEM here.",
+      "non_tautological_consequence": "TEMPORARY_REMOVAL(q,m) AND IS_KIND(m,lead) AND SEEMS_KIND(m,silver) can hold together. A rule that turns removal into silver transmutation, turns seeming into identity, or assigns nonpermanence to lead existence contradicts this source conjunction. The material cannot be replaced by the observer as the owner of silver appearance or impurity.",
+      "rivals": [
+        "Successful physical transmutation into silver",
+        "No real temporary cleaning, appearance only",
+        "One generic quality/trend tuple with no distinction between material kind and appearance/observer judgment"
+      ],
+      "difference_from_root": "Requires an actual material/appearance/observer assertion distinction and scopes a limited operation. A rising/falling property or arbitrary state vector cannot alone produce persistent lead identity despite silver seeming.",
+      "historical_plausibility": "Owned Steele anthology preserves a selected older encyclopedic account of substances, extraction, alchemical claims and cosmetics; this is a concrete technical-description prior. The modern anthology/editorial frame is not a newly collated medieval witness or proof of target register.",
+      "unbound_retained": [
+        "target material noun",
+        "target impurity expression",
+        "being/seeming contrast",
+        "temporal qualification",
+        "observer and error expressions",
+        "whole-source origins/extraction/attributions/melting/cosmetic clauses"
+      ],
+      "source_limits": [
+        "The identity/surface distinction is explicit; the particular causal path from wiping to silver appearance is context-linked, not asserted with a because clause. No microscopic explanation is supplied.",
+        "The account asserts generic possibilities and limits, not two controlled observations or a measured time until impurity returns.",
+        "Lead's other asserted effects and its comparison when molten to quicksilver remain in the full paragraph. A simile does not silently reclassify its material.",
+        "Gold id00093 separately says filings prevent leperhood or namely hide it and make it unknown. This unresolved cure-versus-concealment alternative is not an actual cure observation and is not corroboration of lead cleansing.",
+        "The chapter's introduction is modern editorial framing; focal id00103 is a selected older account as presented in this edition. No complete medieval work, original-language witness or independent textual tradition has been acquired.",
+        "Actual future scientific selection requires exact predecessor review and a whole written target-content contract; none is supplied or repaired here."
+      ],
+      "readiness": {
+        "phase": "exploratory_C0_permitted_now",
+        "target_binding": null,
+        "target_selection": "Root must separately nominate an already owned complete target unit; no source passage pasted onto a random paragraph. No new target query here.",
+        "epistemic_rule": "These are concrete historical propositions or commands. Source-world semantic entailment can reject an authored source-equivalence conjunction, but it does not prove manuscript meaning. Existing formal word construction constrains the author; it does not name a material/operator.",
+        "part_rule": "Reuse a finite directed owner-bearing predicate or modifier construction with actually shared typed arguments and separately paid exact-whole residuals. No source sentence may be hidden in a residual, no unread whole becomes an arbitrary noun or inert qualifier.",
+        "word_binding": null
+      }
+    },
+    {
+      "id": "IDEA000597",
+      "rank": 2,
+      "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+      "title": "RAW co-falling does not establish identity when its predicted injury is denied",
+      "source_basis": {
+        "path": "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_II25_SOURCE.txt",
+        "sha256": "c3f9442fe6b2134f3d93f6efa8f65b45d57bdcfc65e8c2a0e31071a2855cd61b",
+        "previous_read_cache": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/megenberg_II25_complete_20260927.txt",
+        "edition": "TITUS electronic Pfeiffer1861, BookII chapter25; not native manuscript collation.",
+        "institutional_url": "https://titus.uni-frankfurt.de/texte/etcs/germ/mhd/konrmeg/konrmt.htm",
+        "complete_context_notes": "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_THUNDER_C_FIRST.md",
+        "complete_context_notes_sha256": "1a15689b567523e559db55c1df2b2e4dd23138f1eea46a3e6e092f3b381041d7",
+        "report": "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_REMAINDER_C.md",
+        "locus": "92.11–20, from iedoch sint läut to erstickent si ân wunden, before the next face-turning sentence.",
+        "quote1": "iedoch sint läut, die wænent, daz der donr ain stain sei, dar umb, daz oft ain stain her ab vellt mit dem donr in grôzem weter.",
+        "quote2": "daz ist niht wâr, wan wær der donr ain stain, sô machte er wunden den läuten und den tiern, die er dersleht, sam ander vallend stain tuont.",
+        "quote3": "wan wir sehen, daz die läut, die der donr sleht, kain wunden habent. si sint aber swarz an dem slag",
+        "quote4": "daz ist dar umb, daz der haiz dunst si verprent und verprent in daz pluot in dem herzen, dar umb erstickent si ân wunden."
+      },
+      "complete_focal_source": "Line: 11 ân donr. iedoch sint läut, die wænent, daz der donr ain\nLine: 12 stain sei, dar umb, daz oft ain stain her ab vellt mit dem\nLine: 13 donr in grôzem weter. daz ist niht wâr, wan wær der\nLine: 14 donr ain stain, sô machte er wunden den läuten und den\nLine: 15 tiern, die er dersleht, sam ander vallend stain tuont. des 15\nLine: 16 geschiht doch niht, wan wir sehen, daz die läut, die der\nLine: 17 donr sleht, kain wunden habent. si sint aber swarz an\nLine: 18 dem slag, daz ist dar umb, daz der haiz dunst si ver\\prent\nLine: 19 und verprent in daz pluot in dem herzen, dar umb\nLine: 20 erstickent si ân wunden.",
+      "concrete_account": [
+        "Some people believe donr is a stone because a stone often falls with it in severe weather.",
+        "The author calls that identity untrue, while retaining the reported co-falling ground.",
+        "If it were a stone, humans and animals killed by it would have wounds like victims of other falling stones.",
+        "The claimed observation says human victims have no wounds but are blackened at the strike.",
+        "The source attributes their death without wounds to hot vapour burning them and blood in their hearts."
+      ],
+      "owner_predications": [
+        {
+          "owner": "reported people",
+          "claim": "BELIEVE(people,IS_KIND(donr,stone))",
+          "mode": "ATTRIBUTED_BELIEF"
+        },
+        {
+          "owner": "author",
+          "claim": "NOT(IS_KIND(donr,stone))",
+          "mode": "AUTHOR_REJECTION"
+        },
+        {
+          "owner": "victims under counterfactual stone hypothesis",
+          "claim": "KILLED(victims) IMPLIES WOUNDED(victims)",
+          "mode": "EXPECTED_CONSEQUENCE_IN_HYPOTHESIS"
+        },
+        {
+          "owner": "claimed observed human victims",
+          "claim": "KILLED(humans) AND NOT(WOUNDED(humans)) AND BLACKENED(humans)",
+          "mode": "SOURCE_OBSERVATION_CLAIM"
+        },
+        {
+          "owner": "hot vapour",
+          "claim": "BURNS(vapour,humans_and_heart_blood) => SUFFOCATED_WITHOUT_WOUNDS(humans)",
+          "mode": "AUTHORIAL_HISTORICAL_CAUSE"
+        }
+      ],
+      "effective_reuse_offer": "Reuse one concrete wound predicate and victim argument interface across counterfactual positive consequence and observed negative assertion. The shared donr referent participates in an attributed IS_KIND and an author-rejected IS_KIND. Paid whole residuals distinguish reported belief, counterfactual and asserted observation; explicit source status cannot be erased by a generic negative prefix. The same co-falling clause stays present while the identity proposition is denied.",
+      "non_tautological_consequence": "Rejecting donr=stone does not negate the reported co-falling. No wounds does not entail survival or no damage. The positive wound expectation belongs to the stone hypothesis, whereas no wounds/blackening belongs to the claimed human observation. Swapping their owners/statuses or letting a believed identity become authorial fact changes the argument.",
+      "rivals": [
+        "Co-falling proves identity",
+        "Identity denial deletes all falling stones",
+        "No wounds means no death",
+        "All named claims are flat asserted facts"
+      ],
+      "difference_from_root": "This is evidential rejection through an expected consequence, not comparison of current/trend values or a stronger/weaker event relation. The source supplies an asserted negative object predicate and a reported hypothesis about the same referent.",
+      "historical_plausibility": "Megenberg Buch der Natur II25 is an owned medieval natural-philosophy content prior; exact witness here is the TITUS electronic Pfeiffer1861 edition. Donr includes destructive-strike language and is not silently restricted to modern acoustic thunder. No manuscript collation or modern physiological validity claimed.",
+      "unbound_retained": [
+        "target donr/stone forms",
+        "belief and assertion constructions",
+        "counterfactual condition",
+        "shared wound predicate",
+        "human/animal scope difference",
+        "hot vapour/blood causal account",
+        "all intervening written controls"
+      ],
+      "source_limits": [
+        "Exact local scope92.11 beginning iedoch sint läut through92.20 ending erstickent si ân wunden; the following ez kêrt auch der mensch begins a separate face-turning account.",
+        "The belief is attributed to people; the stone often falls with thunder in great weather. Co-falling is the stated ground of the belief, not independently verified evidence here.",
+        "The counterfactual predicts wounds in people AND animals killed by the proposed stone, compared with other falling stones. The subsequent we-see claim explicitly mentions people, not a separately reported animal case.",
+        "The reported human victims are unwounded but black at the strike. They are killed/suffocated; absence of wounds must not become absence of injury or death. The source distinguishes blackening from wunden; do not erase that written category distinction through a modern broad definition of injury.",
+        "Hot vapour burns them and the blood in the heart; therefore they suffocate without wounds. This historical physiology is the authorial alternative, not a modern medical finding or a formally established exhaustive disjunction.",
+        "The preceding92.1–11 sensory-absence explanation, following92.20–23 face-turning and92.23–30 material-selective damage remain whole-chapter context. Do not recruit them as new observations proving the stone argument.",
+        "The rest of the complete chapter retains its formation, perception, analogies, bodily effects, warning objection, wine, seasonal and final classification claims. This card preserves one contiguous argument, not a whole-chapter translation or renamed recipient-damage offer."
+      ],
+      "readiness": {
+        "phase": "exploratory_C0_permitted_now",
+        "target_binding": null,
+        "target_selection": "Root must separately nominate an already owned complete target unit; no source passage pasted onto a random paragraph. No new target query here.",
+        "epistemic_rule": "These are concrete historical propositions or commands. Source-world semantic entailment can reject an authored source-equivalence conjunction, but it does not prove manuscript meaning. Existing formal word construction constrains the author; it does not name a material/operator.",
+        "part_rule": "Reuse a finite directed owner-bearing predicate or modifier construction with actually shared typed arguments and separately paid exact-whole residuals. No source sentence may be hidden in a residual, no unread whole becomes an arbitrary noun or inert qualifier.",
+        "word_binding": null
+      }
+    },
+    {
+      "id": "IDEA000838",
+      "rank": 3,
+      "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+      "title": "Cato list resumption and relative-selected procedural subset",
+      "source_basis": {
+        "path": "research_registry/work_batches/ten_hours_20260915/CATO133_COMPLETE_TYPED_SOURCE_20260920.md",
+        "sha256": "074983502c28165f9ce3dc8f6eaf3fae80255f8bb5c72c7ecb499c0187a4ed47",
+        "span": "Complete De Agri Cultura133 §§1–4; Hooper/Ash1934 Latin witness, corrected from older Goetz/Teubner label"
+      },
+      "complete_source_path": "research_registry/work_batches/ten_hours_20260915/CATO133_COMPLETE_TYPED_SOURCE_20260920.md",
+      "concrete_account": [
+        "Press emerged tree shoots down and raise tips so they may root; at proper time dig and plant straight.",
+        "The explicit named-kind catalogue is resumed as all these kinds with propagation/removal obligations.",
+        "Those the addressee wants planted more carefully enter the perforated-pot or basket procedure.",
+        "Thread a branch through the container; fill and pack earth; leave it on the tree; after the source two-year condition cut below and plant with the basket.",
+        "For the vine branch cover with earth, cut after one year, and plant with the basket."
+      ],
+      "owner_predications": [
+        {
+          "owner": "all resumed named kinds C",
+          "claim": "FOR_ALL(k in C,PROPAGATE_AND_REMOVE_OBLIGATION(k))",
+          "mode": "GENERIC_PRESCRIPTION"
+        },
+        {
+          "owner": "wanted more-careful selected kinds S",
+          "claim": "S={k in C:WANTS_CAREFUL_PLANTING(addressee,k)}",
+          "mode": "WRITTEN_SELECTION"
+        },
+        {
+          "owner": "branch/specimen selected for basket procedure",
+          "claim": "THREAD_FILL_PACK_LEAVE_CUT_PLANT_WITH_BASKET(specimen)",
+          "mode": "PRESCRIBED_ACTION_SEQUENCE"
+        },
+        {
+          "owner": "root formation on appropriate branch",
+          "claim": "MAY_ROOT(branch)",
+          "mode": "PURPOSE_OR_CAPABILITY_NOT_ACHIEVED_SUCCESS"
+        }
+      ],
+      "effective_reuse_offer": "Reuse one kind reference and one planting predicate under different written restrictions. The catalogue closure yields ClassRef(C), while quae+diligentius+voles supplies a restriction on that reference; it cannot be a new material name. Actual instructions requiring a branch/container must separately bind a specimen, with a paid class-to-instance bridge. Right-aN closure is one possible finite formal reuse constraint from the previously frozen contexts, not a proved ALL or OF translation. Exact whole residuals must encode lexical restrictions rather than donate the entire subset/planting branch.",
+      "non_tautological_consequence": "Every listed kind is under the resumed general obligation, but only selected kinds are under the careful-planting procedure. Being a kind in C does not assert that a physical specimen was planted or rooted. S may be empty or all of C; no compulsory proper subset. Latest-only reference loses earlier kinds; same-material-batch reference conflates kind classes with specimens.",
+      "rivals": [
+        "Only the last listed kind is resumed",
+        "All listed kinds obligatorily receive every later procedure",
+        "One conserved physical batch contains every kind",
+        "Purpose of rooting is already achieved rooting"
+      ],
+      "difference_from_root": "Quantified prescriptions and addressee-selected scope change which subjects fall under a command; no current/trend scalar or nominal roster alone supplies this consequence.",
+      "historical_plausibility": "Owned Cato133 is a complete agricultural instruction prior, in the1934Hooper/Ash Latin witness. It is no claim of copied Cato text or established Voynich botanical identity. Botanical names and container/age/cut antecedents remain uncertain.",
+      "unbound_retained": [
+        "target explicit catalogue",
+        "resumption expression",
+        "selection qualifier/addressee",
+        "planting predicate",
+        "kind-to-specimen binding",
+        "container and branch ownership",
+        "time and lower-cut expressions",
+        "all qualifier/control groups"
+      ],
+      "source_limits": [
+        "GDT1001 closes the192atom/96type tree under its PREFIX/POSTFIX serializers0/1108fits; no serializer shrinking/reordering or count-based rescue.",
+        "calix/quasillus/qualus, bimum antecedent, infra cut position and proper time remain source uncertainties.",
+        "No unexpressed individual, container or executed intervention may enter ambient context."
+      ],
+      "readiness": {
+        "phase": "exploratory_C0_permitted_now",
+        "target_binding": null,
+        "target_selection": "Root must separately nominate an already owned complete target unit; no source passage pasted onto a random paragraph. No new target query here.",
+        "epistemic_rule": "These are concrete historical propositions or commands. Source-world semantic entailment can reject an authored source-equivalence conjunction, but it does not prove manuscript meaning. Existing formal word construction constrains the author; it does not name a material/operator.",
+        "part_rule": "Reuse a finite directed owner-bearing predicate or modifier construction with actually shared typed arguments and separately paid exact-whole residuals. No source sentence may be hidden in a residual, no unread whole becomes an arbitrary noun or inert qualifier.",
+        "word_binding": null
+      }
+    }
+  ],
+  "composition_baseline": "Directed reusable parts plus exact-whole residuals and entry context; GDT608 formal result supplies no English words. GDT1122 property/schema and event/property type failures remain. No dictionary learned or source sentence serialized here.",
+  "rejected_as_new_supply": [
+    {
+      "id": "IDEA000384/486/776",
+      "reason": "GDT1023 already executed the full71whole-meaning projected amulet account;776already supplied local ALSO+OF and optional-plan construction with7commitments and GDT1047boundary limit. Another depiction/material swap repeats a stipulated outcome. Do not treat raw384unreviewed status as an unexecuted mechanism."
+    },
+    {
+      "id": "IDEA000351",
+      "reason": "Useful object/image reference account, but local edition/diagram reference conflicts and unowned prerequisite proof remain; precise pre1450 witness not acquired. It offers weaker immediate historical whole-content footing than593, without denying optical C0 exploration."
+    },
+    {
+      "id": "IDEA000326",
+      "reason": "Raw source is a summary and short target-line nomination, rather than the complete cached local primary argument inspected for597. No absence claim; full source acquisition/collation is not authorized in this tranche."
+    },
+    {
+      "id": "IDEA000843",
+      "reason": "Generic superseding-procedure mechanism overlaps already supplied413/clinical failure duties; no new complete source-bound assertion found in bounded owned review."
+    }
+  ],
+  "known_defect": "Raw415flow-direction evaluator defect remains unchanged and unexecuted; root verified but assessed review pending. It is not used in597.",
+  "raw_queue": {
+    "records": 7094,
+    "semantic_imported_unreviewed_ideas": 452,
+    "method_imported_unreviewed_ideas": 37,
+    "new_cards_added": 0,
+    "reason": "Three exact existing cards already own these source mechanisms; raw surplus adequate, no filler clones. Counts are records, not deduplicated semantic hypotheses."
+  },
+  "access": "Existing owned source caches, source-only proposals and exact primary reports only. No1130author files, new target query/image/admission/reserve, contacts, global registry/ledger/route/Git writes.",
+  "screen_receipt": {
+    "context": "composition",
+    "bounded_search": [
+      "appeared change",
+      "correction evidence",
+      "selected subset",
+      "reflection",
+      "reported belief",
+      "lead silver"
+    ],
+    "exact_shows": [
+      "351",
+      "326",
+      "593",
+      "597",
+      "384",
+      "776",
+      "843"
+    ],
+    "duplicates": [
+      "lead cleansing appearance identity",
+      "cofalling stone injury identity",
+      "Cato all kinds selected subset",
+      "lead seeming thunder identity Cato subset"
+    ],
+    "reconsider": {
+      "593": "SOURCE_REVIEW_REQUIRED",
+      "597": "SOURCE_REVIEW_REQUIRED",
+      "838": "SOURCE_REVIEW_REQUIRED"
+    },
+    "route_check": [
+      "optical apparent image real object correction Pliny vine belief",
+      "lead silver seeming identity cleansing",
+      "cofalling stone thunder reported inference wound",
+      "amulet depiction physical enclosed bird eagle hawk",
+      "Cato all kinds selected subset procedure"
+    ],
+    "meaning": "Lexical navigation/dry screens approve no selection or reopening."
+  },
+  "references": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/78_lead_cleansing_identity_appearance.json",
+      "sha256": "8e04ea8eb869c022b177d4d03bd34624803e22d8094f8abaea1df9848c2bc8b5"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/82_cofalling_stone_identity_refutation.json",
+      "sha256": "45dffcd03a4efb883b70d1f452557f64d4dbcb467aaa75ff53332390cc70edab"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/steele_science_complete_unit_20260927.txt",
+      "sha256": "db38ff8124bd71cb411325fc5011e8074e74872004a9a27f3dc53849e3a50a22"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/MEGENBERG_II25_SOURCE.txt",
+      "sha256": "c3f9442fe6b2134f3d93f6efa8f65b45d57bdcfc65e8c2a0e31071a2855cd61b"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_PIPELINE_NEXT.json",
+      "sha256": "ff9f4df131ac5b91a563d176e562a7ab44cc857a1fa694f0ff62d13d718fc950"
+    },
+    {
+      "path": "research_registry/work_batches/ten_hours_20260915/CATO133_COMPLETE_TYPED_SOURCE_20260920.md",
+      "sha256": "074983502c28165f9ce3dc8f6eaf3fae80255f8bb5c72c7ecb499c0187a4ed47"
+    },
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+      "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+    },
+    {
+      "path": "experiments/yolo/gdt1122_joint_written_participant_entry/REPORT.md",
+      "sha256": "31e79ac503fd202f32ce7500c8c379a4128dbf2f8db11dde68a3884aff7175f6"
+    },
+    {
+      "path": "experiments/yolo/gdt1001_cato_typed_complete_branch_code/REPORT.md",
+      "sha256": "9b4206f3f14d4095576c5b3ecd1f795f1a25a486d98c467681e638d45b1628d9"
+    },
+    {
+      "path": "experiments/yolo/gdt1023_amulet_complete_typed_assembly/REPORT.md",
+      "sha256": "c3b3c0476a29b0a2319bca7006d93397e72b0b9ee92aa8f10e7e7c8d730f5639"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/T_PROVENANCE_REPORT.md",
+      "sha256": "ee683de67731dfa73fd04363e341ea5c5745d7918e56f235b0b42b6378b097a6"
+    },
+    {
+      "path": "research_registry/proposals/raw_global_optical_appearance.json",
+      "sha256": "35e771a5b348db737b320bc1c8144e00c095a0a5048f386700172c7c85953f3b"
+    },
+    {
+      "path": "research_registry/proposals/raw_pliny_claim_correction.json",
+      "sha256": "95f8ad648e4833b84017e9eeefe023d9d9de0b29c1129afccc126e79b8eee090"
+    }
+  ],
+  "next": "Root may select one source-appropriate complete already owned target context and a bounded finite C0 author; author must derive concrete predicates/commands with reused forms and priced residuals. Producer is complete; await follow-up, no unattended work."
+}

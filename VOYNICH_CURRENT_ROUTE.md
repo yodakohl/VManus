@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GD shared-profile reading preparation.
-Latest decision: 1129 symbolic only; B strict partial.
-Working files: experiments/yolo/gdt1129_whole_reciprocal_relation_description/REPORT.md.
-Assumptions: Known grammar; zero meanings; reserves closed.
-Resume: Review 799 scope; register owner/current/trend C0.
-Running: Root and bounded pipeline; minimum 2 Oct 06:09:20 UTC.
+Task: GDT1130 shared current/trend whole C0.
+Latest decision: 1129 symbolic only; try actual predication.
+Working files: experiments/yolo/gdt1130_shared_profile_current_trend_reading/.
+Assumptions: Fixed grammar; source exposed; zero meanings.
+Resume: Audit both full accounts, owner/basis and parts.
+Running: Independent authors/pipeline; minimum2Oct06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
