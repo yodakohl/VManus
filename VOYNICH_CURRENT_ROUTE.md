@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Select a whole-context meaning discriminator after FS.
-Latest decision: IDEA859 full critique; semantic rivals retain identical graph.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FS_REPORT.md.
-Assumptions: 0 words; FO/FP/FR frozen; seals/reserves closed.
-Resume: Review f83 coupled-configuration primaries before a full rival reading.
-Running: None; eight Sol tasks complete and published. No timed abort.
+Task: FT whole f83 caption/consumer rivals; ten-hour request.
+Latest decision: FS graph invariance;0words; no freegloss extension.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_DECISION.md.
+Assumptions: Old models frozen;seals/reserves closed.
+Resume: Bind full packet and primary gates before rival authorship.
+Running: Eight Sol tasks;requested until18:29UTC;storedgoalpaused.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

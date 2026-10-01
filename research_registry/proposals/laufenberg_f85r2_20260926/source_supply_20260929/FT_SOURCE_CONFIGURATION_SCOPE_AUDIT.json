@@ -1,0 +1,54 @@
+{
+  "audit":"FT_SOURCE_CONFIGURATION_SCOPE_AUDIT",
+  "date":"2026-10-01",
+  "status":"PASS_SOURCE_SCOPE_NATIVE_QUALIFICATIONS_AND_FROZEN_HASHES_ONLY",
+  "confirmed_words":0,
+  "new_semantic_claims":0,
+  "scope":"FT fixed lowerf83r P4/P5/Q1/Q2+fourcaptions, and fixed exposedf77r P2+.49label predecessor; all three readings of one manuscript",
+  "frozen_hash_checks":{
+    "author_input_receipt":"FT_AUTHOR_INPUT_RECEIPT.json",
+    "all_13_frozen_input_hashes_match":true,
+    "packet_sha256":"31de602d3d3a6b1c58caf5563159a3f757fe05995971f9319b769c4bbb95fa26",
+    "groups_sha256":"d72590c4350134270156f928fe4d9d377e2fac1f920bcacd2573b16f3bd80928",
+    "source_receipt_sha256":"c41d92b31060a7591225a61e71ec7d0820c809dbeb119c4417727516cb523433",
+    "configuration_json_sha256":"626b0b28de01222243119ae6daef93d82415c02cb9cdde742273e0c50f8cbb6b",
+    "configuration_md_sha256":"4b8deb67541bf903ea82419dd36b481d387cbd52ea31c83771cacf00f6993503"
+  },
+  "scope_checks":{
+    "f83_unique_loci":31,
+    "main_records":[{"id":"F83_P4","loci":"f83r.25-.30"},{"id":"F83_P5","loci":"f83r.31-.44"}],
+    "embedded_records":[{"id":"F83_Q1","loci":"f83r.47-.49","physical_scope":"left arch/end field"},{"id":"F83_Q2","loci":"f83r.52-.55","physical_scope":"lower-left outlet field"}],
+    "four_caption_loci":["f83r.45","f83r.46","f83r.50","f83r.51"],
+    "Q1_Q2_not_opposite_side_handoff":true,
+    "singular_caption_owner_ambiguities_preserved":true,
+    "lower_prose_groups":{"ZL3b":122,"IT2a":119,"RF1b":123},
+    "lower_caption_groups_each_reader":4,
+    "F77_P2":{"loci":"f77r.25-.37","groups_each_reader":92,"panel":"F77_MIDDLE_BODY","scope":"PANEL_OWNER_ONLY","first_surface":"otedy; not the separateotchdylabel"},
+    "F77_label49":{"native_code_each_reader":"@Ln","native_kind_each_reader":"L","grammar_scope_each_reader":"DIAGNOSTIC_NONPROSE","surface_each_reader":"otchdy","panel":"F77_MIDDLE_BODY","component":"MIDDLE_WEST_FIGURE_ZONE","attachment":"PROXIMITY_ONLY","relationship_to_P2":"same external panel owner; separate label locus, not aP2prose group or a uniquely attached body-part name"}
+  },
+  "independent_projection_checks":[
+    {"input":"experiments/semantic_assumptions/results/source_separator_transcription.tsv","selected_rows":655,"input_hash_match":true,"projection_hash_match":true,"every_requested_field_equal_to_packet":true},
+    {"input":"experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_13_PANEL_RECORD_BINDINGS.tsv","selected_rows":5,"input_hash_match":true,"projection_hash_match":true,"packet_rows_exactly_equal":true},
+    {"input":"experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_27_LABEL_OWNER_ATLAS.tsv","selected_rows":5,"input_hash_match":true,"projection_hash_match":true,"packet_rows_exactly_equal":true},
+    {"input":"transcription/voynich_zl3b_lines.tsv","selected_rows":45,"input_hash_match":true,"projection_hash_match":true,"packet_native_ZL_lines_exactly_equal":true}
+  ],
+  "raw_native_countercheck":{
+    "method":"Anchored rg selects only45exact admitted locus keys from each bound native source text before selected-row parsing; use existing source-separator splitter without itsmain. Compare verbatim groups, nativecode, paragraphflags and all separator reconstruction against packet. No full native source or JSON history dump.",
+    "sources":{"ZL3b":"transcription/sources/ZL3b-n.txt","IT2a":"transcription/sources/IT2a-n.txt","RF1b":"transcription/sources/RF1b-e.txt"},
+    "selected_loci_each_reader":45,
+    "packet_group_totals":{"ZL3b":219,"IT2a":216,"RF1b":220},
+    "all_655_groups_verbatim_equal_to_native_split":true,
+    "all_separator_reconstructions_equal":true,
+    "all_native_codes_and_paragraph_flags_equal":true,
+    "qualified_loci":{
+      "ZL3b":["f83r.30","f83r.32","f83r.36","f77r.32","f77r.36"],
+      "IT2a":["f83r.32"],
+      "RF1b":["f83r.26","f83r.28","f83r.29","f83r.34","f83r.37","f83r.40","f83r.42","f83r.55","f83r.50","f77r.26","f77r.27","f77r.31","f77r.33","f77r.34","f77r.35","f77r.37"]
+    },
+    "qualification_result":"Square-bracket alternatives, questionmarks, braces, apostrophes, numericentities and uncertainseparator commas preserved. Numericentity semicolons remain inside their verbatim source groups; no entity cut found. No cleaner-normalized alternative silently substituted.",
+    "paragraph_qualification":"RF1b no native paragraph flags at these records; IT2a P4hasstart/noend andP5no-start/end. Packet retains these actual flags and imposes no extra independent boundary evidence."
+  },
+  "physical_counterpart_ceiling":"GDT790 metadata identifies the record/panel and caption-site counterparts for every selected unit. It does not uniquely identify caption-object ownership or confirm an alternate reader's glyph interpretation. Those existing ambiguities are marked, not assembly errors. No missing or mislocated counterpart detected at the licensed panel/site level.",
+  "access":"Route and rootGO read first; fixed packet/receipts/configuration and selected GDT790 tables/primaries and Music primary consulted. No author files, new pixels, expanded selectors, f88repeat, sealeddata or reserves accessed. Other frozen input files were hashed as bytes for receipt checking, not opened as author content.",
+  "decision":"Input remains suitable for the declared exploratory author comparison. No source/configuration correction required. PASS validates assembly and scope only, not readings, word senses, imagetruth or independent meaning selection."
+}

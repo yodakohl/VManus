@@ -1,0 +1,15 @@
+# FT independent source/configuration audit
+
+**PASS — source scope, native qualifications and frozen hashes only.** No assembly correction is required. No author draft was opened, and no pixels or admissions were added. This is no new semantic claim or meaning confirmation.
+
+All13 hashes in FT_AUTHOR_INPUT_RECEIPT match the current frozen files. Independently reran the source receipt's four selector-first guarded queries:655source-group rows,5record-owner rows,5caption-owner rows and45nativeZLline rows. Input/projection hashes match; every requested source field and owner row matches the packet.
+
+The lower f83r unit is exactly31loci: P4 `.25–.30`, P5 `.31–.44`, Q1 `.47–.49`, Q2 `.52–.55`, and captions `.45/.46/.50/.51`. Q1 is in the **left arch/end field**, Q2 in the **lower-left outlet field**; they are not opposite-side handoff records. GDT790's main/embedded scopes and ambiguous singular caption owners are retained. Prose group counts are122/119/123 forZL/IT/RF, plus four caption groups each.
+
+f77r P2 is `.25–.37`,92groups per reader, owned by F77_MIDDLE_BODY. Its first surface is `otedy`. The separate `.49` `otchdy` locus has native `@Ln`, kind `L`, and `DIAGNOSTIC_NONPROSE` in all readers; it occupies the western figure zone with proximity-only attachment. It shares P2's external panel owner but is neither a P2 prose group nor a uniquely identified body-part caption.
+
+A second countercheck selected only the same45exact locus keys from each bound native source text using anchored `rg`, then used the existing source-separator splitter without running its full-source builder. All219/216/220groups, separators, native codes and paragraph flags match the packet. Square alternatives, `?`, braces, apostrophes, numeric entities and uncertain commas remain verbatim; no unmarked simplification or numeric-entity cut was found. The packet retains, for example, ZL's `[?:s]cheol` and `so[r:s]`, IT's `?cheol`, RF's entity-bearing caption50, and the differing RFQ2group count. RF supplies no native paragraph flags here; IT P4start/no-end and P5no-start/end remain unchanged rather than being treated as three-reader boundary confirmation.
+
+The selected units all have identifiable counterparts at the licensed **panel/site** level in the GDT790/Music primaries. Unique caption-to-object ownership and alternate-reader glyph correctness remain their marked prior uncertainties; this audit does not resolve them. The common configuration therefore remains suitable for exploratory named-component/procedure authorship, without independently choosing either construction.
+
+Companion JSON records hashes, exact selected counts, qualification loci and the audit method. Packet SHA256 `31de602d3d3a6b1c58caf5563159a3f757fe05995971f9319b769c4bbb95fa26`; group-table SHA256 `d72590c4350134270156f928fe4d9d377e2fac1f920bcacd2573b16f3bd80928`; source-receipt SHA256 `c41d92b31060a7591225a61e71ec7d0820c809dbeb119c4417727516cb523433`. No frozen source, configuration, GO, ledger or registry file was changed. Parent owns publication.
