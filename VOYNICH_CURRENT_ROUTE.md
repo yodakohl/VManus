@@ -4,11 +4,11 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: FN fixed nominal continuation;whole129 partial.
-Latest decision: 1123 projects21/129;two reference graphs;scope tied;108unconsumed.
-Working files: experiments/yolo/gdt1123_fixed_nominal_portion_continuation/REPORT.md.
-Assumptions: 0words;frozen FM values;qualities on input,not inherited;seals closed.
-Resume: Review unpaid SHOL19/SHDOL role and primaries before new whole-content model.
+Task: FO partial recipient/application/layer C0.
+Latest decision: IDEA84438annotations;91unconsumed;ORdebt;no meaningwinner.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FO_REPORT.md.
+Assumptions: 0words;FM/FN frozen;no inherited qualities;seals/reserves closed.
+Resume: Inspect IDEA695/GDT791 ownerprimaries before any new lexicalextension.
 Running: None;three Sol workers frozen.
 
 ## Structural baseline

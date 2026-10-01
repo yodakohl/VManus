@@ -1,0 +1,17 @@
+# FO: content decision at the first unpaid form
+
+Start:2026-10-01 04:56:12 UTC. Inclusive checkpoint:05:21:12 UTC (25min:4predecessors+7exploration+7evaluation+7publication). Previous goal turn: progress in authoritative state—GDT1123 actually executes ten additional frozen conditional groups and preserves two reference graphs,108unconsumed. This is finite model progress, not ten deciphered words.
+
+Unknown: whether the first unpaid SHOL19 offers a genuinely constraining content construction or only another freely chosen glossary value. Known: FM SH requires ContainerSchema, OL is MaterialSchema; SHDOL2 has a written enclosure schema. No finite derivation pays SHOL19. Earlier W26 already compared wholeform wetting-action versus wet-quality with inherited patient rules; GDT685 rejected universal preparation heads within old card roles. These primary claims do not independently translate SH/OL or transfer their old glosses into FM.
+
+Decision outcomes: a concrete content rival with different written commitments and adequate existing evidence can justify one exploratory whole-content proposal; a graph-isomorphic relabeling cannot choose medical meanings and must redirect to content-specific evidence, rather than more prefix runs. If no distinct constraint survives the primary review, stop model-extension implementation in this unit and preserve an explicit proposal/gap; do not build a global census or decoder merely to produce another PASS.
+
+Smallest adequate work: independently review first unpaid role and known counterexamples, compare one substantive historical content rival against all paid written obligations, then author/evaluate a bounded new exploratory whole-content construction only if the outcome can change a research decision. No new images/raw TSV/reserve/contact. Frozen FM/FN bytes unchanged; all hypotheses C0. Whole129 duty remains visible, including108unconsumed, not a completion claim.
+
+Assumptions/dependencies: conditional finite schema/context projection; no proven unique word parser; all old quality and number cards unconfirmed; alternate readings one manuscript; no inherited portion qualities; no continuity across unpaid groups; no true meaning supplied by graph equality. Source findings, manuscript findings and engineering findings will be reported separately.
+
+## Selection after primary review
+
+Root read full W26/685/989 reports and complete cached TheophilusI.1–9 Latin. W26 already executes SHOL ACTION/STATE, so no redo. Theophilus supports a concrete craft content adversary with recipe-return and deposited-layer visibility duties; neither duty is already present in FN. Select one target-exposed exploratory complete69group f80 proposal, allowing explicitly priced new finite meanings/rules while FM/FN remain frozen. Keep all129accounting and C0 status. This is writing a substantive hypothesis, not testing new words as true. Prospective FO_CHECK_CONTRACT was frozen before the critic opens the new author; all69source, roles, transitions, prices and debts will be independently reviewed after freeze. GDT989 headers and old failures unchanged. No large decoder/control/census is started.
+
+The source producer accidentally opened a W59 target excerpt by treating COMPLETE_SOURCE.md as historical-source metadata. FO_PRODUCER_RECEIPT identifies f75v.38–42 ZL/IT exposure and excludes it scientifically; no new admission/independence credit. It is not used in this model selection.

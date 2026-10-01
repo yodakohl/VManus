@@ -1,0 +1,11 @@
+# FO exploratory writing contract
+
+The new author is exploratory and target-exposed, not independently meaning-validated. Scope is all69 primary IT2a groups of the frozen f80v paragraph; the other60 f85 groups remain in whole129 accounting. No new manuscript acquisition or reserve opening. One alternative finite content account may change meanings/constructions with explicit charges; FM/FN bytes and original decisions remain unchanged. Existing95form profiles provide descriptive frequency/context guidance, not word probabilities.
+
+A meaningful proposal must write every contribution or mark it unpaid, including the first barriers SHOL19/KAIR20/AROL22. It must distinguish nominal recipe type, a fresh physical portion and any deposited output, pay all introduced owners/consumers, and expose every default/reference dependence. A pigment label alone is not a new semantic relation. Body-region terms alone do not distinguish painted figures from medical bodies. Source C1 earlier derived recipe return and C2 substrate/layer/visibility relations are concrete obligations, currently not target findings.
+
+The complete cached TheophilusI.1–9 primary was read by root; I.7 explicitly resumes earlier posc, I.8 preserves earlier paint above/below, I.9 adds strokes on an earlier highlight. Chapters belong to a connected source passage, not a promised nineparagraph target layout. GDT989 fixed first-word stage writers remain refuted. No directcopy, alphabet, source language, pigment identity or named plant is selected.
+
+Review outcomes: a complete finite derivation with explicit paid roles can retain a coherent C0 whole-paragraph reading; actual type/reference inconsistency refutes that exact new construction; unconsumed groups or missing consumers remain incompleteness, not scientific success or a general content refutation. A complete application model still needs meaning-specific evidence to choose medicine/craft. No whole-search controls implies no significance claim. No independent meaning test implies0confirmedwords.
+
+Preparation and source/proposal review fit the FO inclusive25min checkpoint05:21:12UTC. The author's new stage is capped420sec from its first clock; independent prospective review150sec; actual postfreeze review will be bounded. Do not enlarge into infrastructure or keep appending arbitrary tail glosses after an inconsistency.
