@@ -1,0 +1,337 @@
+{
+  "task": "GC three-label pre-grant metadata-only scope/cached-source audit",
+  "status": "METADATA_RECEIPT_WITH_EXACT_LABEL_MAPPING_AND_C2_BOX_UNRESOLVED",
+  "reader_sources": [
+    {
+      "edition": "ZL3b",
+      "raw_source": {
+        "path": "transcription/sources/ZL3b-n.txt",
+        "bytes": 411671,
+        "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+      },
+      "format": "Cached IVTFF reading; no source-body or glyph contents read in this metadata audit."
+    },
+    {
+      "edition": "IT2a",
+      "raw_source": {
+        "path": "transcription/sources/IT2a-n.txt",
+        "bytes": 342104,
+        "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5"
+      },
+      "format": "Cached IVTFF reading; no source-body or glyph contents read in this metadata audit."
+    },
+    {
+      "edition": "RF1b",
+      "raw_source": {
+        "path": "transcription/sources/RF1b-e.txt",
+        "bytes": 362373,
+        "sha256": "e7d3238e35743e06c63367a933909ec37b1e2de7ada3a1b449447eafa1918782"
+      },
+      "format": "Cached IVTFF reading; no source-body or glyph contents read in this metadata audit."
+    }
+  ],
+  "preferred_cached_group_atlas": {
+    "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "bytes": 16754953,
+    "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+  },
+  "group_atlas_schema_columns": [
+    "source_group_id",
+    "edition",
+    "locus",
+    "page",
+    "section",
+    "currier",
+    "hand",
+    "code",
+    "kind",
+    "grammar_scope",
+    "source_row_index",
+    "source_group_index",
+    "source_group_count",
+    "paragraph_start",
+    "paragraph_end",
+    "left_separator",
+    "right_separator",
+    "ivtff_group_raw",
+    "clean_ascii_fragments",
+    "clean_ascii_fragment_count",
+    "legacy_surface_positions_1based",
+    "legacy_interlinear_row_present",
+    "legacy_mapping_status"
+  ],
+  "preservation_requirements": [
+    "Use actual edition source files and separator-aware rawgroups, not cleaned consensus strings.",
+    "Preserve uncertain forms,group boundaries,left/right separators,flags and each reader’s alternatives.",
+    "RF missing/unavailable boundary information must not be imputed.",
+    "ZL3b/IT2a/RF1b are alternate readings of one manuscript; do not count them as independent witnesses."
+  ],
+  "other_cached_schemas": [
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "header_columns": [
+        "page_order",
+        "page",
+        "locus",
+        "line_number",
+        "code",
+        "relation",
+        "kind",
+        "subtype",
+        "section",
+        "language",
+        "hand",
+        "quire",
+        "folio_type",
+        "paragraph_start",
+        "paragraph_end",
+        "token_count",
+        "eva_clean",
+        "ivtff_raw"
+      ],
+      "use_limit": "Single-reader row/cache; no contents read."
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "header_columns": [
+        "page",
+        "locus",
+        "all_three_present",
+        "all_present_exact",
+        "zl3b_it2a_similarity",
+        "zl3b_rf1b_similarity",
+        "zl3b_clean",
+        "it2a_clean",
+        "rf1b_clean"
+      ],
+      "use_limit": "Cleaned3-reader convenience representation lacks full separator/uncertain raw source detail; no contents read."
+    }
+  ],
+  "labels": [
+    {
+      "id": "GB2",
+      "fragment": 212,
+      "locus": "f102r2.21",
+      "selector": "f102r2",
+      "canvas": "1006251",
+      "label_envelope_xyxy_reported": [
+        5890,
+        2650,
+        6220,
+        2730
+      ],
+      "envelope_status": "APPROXIMATE_NATIVE_ENVELOPE_NOT_EXACT_GLYPH_BOUNDING_BOX",
+      "native_report": "experiments/yolo/gdt1126_native_plant_part_relations/artifacts/GB2_NATIVE.json",
+      "coordinate_origin": "Full8176×3864JPEGtop-left",
+      "proposed_margin_pixels": 20,
+      "proposed_window_xyxy": [
+        5870,
+        2630,
+        6240,
+        2750
+      ],
+      "margin_status": "Prospective conservative candidate only, not validated blank/body-free by new pixel view; published isolated-island geometry supports distance from other row label.",
+      "physical_leaf": "f102",
+      "current_179_text_selector_member": false,
+      "cached_locus_matches_native_inscription": "UNVERIFIED_BEFORE_NEW_GLYPH_GRANT",
+      "semantic_word_status": "UNBOUND",
+      "glyph_access_GO": false
+    },
+    {
+      "id": "GB3",
+      "fragment": 213,
+      "locus": "f102r2.22",
+      "selector": "f102r2",
+      "canvas": "1006251",
+      "label_envelope_xyxy_reported": [
+        6910,
+        2720,
+        7230,
+        2820
+      ],
+      "envelope_status": "APPROXIMATE_NATIVE_ENVELOPE_NOT_EXACT_GLYPH_BOUNDING_BOX",
+      "native_report": "experiments/yolo/gdt1126_native_plant_part_relations/artifacts/GB3_NATIVE.json",
+      "coordinate_origin": "Full8176×3864JPEGtop-left",
+      "proposed_margin_pixels": 20,
+      "proposed_window_xyxy": [
+        6890,
+        2700,
+        7250,
+        2840
+      ],
+      "margin_status": "Prospective conservative candidate only; no new pixel inspection or guarantee of all glyph boundaries/absence of incidental writing.",
+      "physical_leaf": "f102",
+      "current_179_text_selector_member": false,
+      "cached_locus_matches_native_inscription": "UNVERIFIED_BEFORE_NEW_GLYPH_GRANT",
+      "semantic_word_status": "UNBOUND",
+      "glyph_access_GO": false
+    },
+    {
+      "id": "C2",
+      "fragment": 240,
+      "locus": "f102v1.17",
+      "selector": "f102v1",
+      "canvas": "1006253",
+      "label_envelope_xyxy_reported": null,
+      "envelope_status": "NUMERICAL_LABEL_ONLY_BOX_MISSING",
+      "native_report": "experiments/yolo/gdt1127_native_pair_correct_canvas_followup/artifacts/C2_NATIVE.json",
+      "coordinate_origin": "Full2838×3697JPEGtop-left",
+      "existing_complete_row_xyxy": [
+        370,
+        1730,
+        2770,
+        2630
+      ],
+      "existing_complete_fragment_detail_xyxy": [
+        1150,
+        1790,
+        1980,
+        2610
+      ],
+      "owner_geometry": "Central inscription immediately right of240 neck and below retained divided blade; no direct leader/enclosure.",
+      "proposed_margin_pixels": null,
+      "proposed_window_xyxy": null,
+      "margin_status": "Cannot derive safe label-only window from coarse full-fragment box without newly authorized geometric localization. Do not promote830×820detail into glyph grant.",
+      "physical_leaf": "f102",
+      "current_179_text_selector_member": true,
+      "cached_locus_matches_native_inscription": "UNVERIFIED_BEFORE_NEW_GLYPH_GRANT",
+      "semantic_word_status": "UNBOUND",
+      "glyph_access_GO": false
+    }
+  ],
+  "metadata_queries": [
+    {
+      "command": "./vmanus-exp query-tsv experiments/semantic_assumptions/results/source_separator_transcription.tsv --selector locus --allow f102r2.21 --allow f102r2.22 --allow f102v1.17 --columns edition,locus --count-only",
+      "output": {
+        "selected": 9,
+        "skipped_forbidden": 2122,
+        "skipped_not_allowed": 113339
+      },
+      "limit": "Only aggregate group-row count; no individual reader/locus membership or native identity inferred from9. No label contents displayed."
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv",
+      "selector": "current_locus",
+      "allow": [
+        "f102r2.21",
+        "f102r2.22",
+        "f102v1.17"
+      ],
+      "requested_columns": "source/current nominal locus/position metadata only; no glyph fields",
+      "status": "GUARD_REJECTED",
+      "reason": "invalid selector field at source row179",
+      "bypass_attempted": false,
+      "consequence": "Actual historical source/current naming correspondence remains unresolved; no broad parsing/guard repair attempted."
+    }
+  ],
+  "convention_and_scope": {
+    "r2_binding": "GB2/GB3 actual native report gives rightmost f102r2 panel on1006251; root supplied loci remain nominal until direct inscription/cache comparison. Canvas also contains101v(part)/f102r1, which remain outside new3-label glyph interpretation.",
+    "v1_binding": "Direct cached q19 catalogue f102v1/fragment240 points1006253. Older PVO “f102v1→1006252” join invalid for this nominated source; GDT1127 uses correct1006253. This does not repair global transcription names or prove cachef102v1.17 is this inscription.",
+    "current_179": {
+      "f102r2": false,
+      "f102v1": true
+    },
+    "old_partial_label_exposure": "SNPL001/SNPL002/GDT1084 historically nominated/examined these labels; this is prior development exposure, not new anatomy-grant permission or native-cache identity proof.",
+    "existing_anatomy_grants": "1126/1127 permit anatomy/owner geometry ONLY, explicitly prohibit glyph/prose reading;1127 grants only correct first/second rows and reuses old herbal drawings.",
+    "reserved": "Physical leaf102 already development-exposed; exact global reserve list not established by prior bounded audit. f84/f84r/f116v and all actual reserved regions remain excluded. No reserve opening, independent confirmation or new body admission.",
+    "proposed_new_glyph_scope": "Root must register exact three candidate inscription windows/loci before contents are read; C2 requires explicitly bounded label localization before assigning a window. Partial cached-reader admission for exact loci must not expand to fullf102r2 body."
+  },
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "bytes": 16754953,
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.json",
+      "bytes": 3703,
+      "sha256": "c047bef98ad0f83c65e0dbdad8e6904b6ed4ea6e3d945407191c39fd482e36f4"
+    },
+    {
+      "path": "experiments/semantic_assumptions/build_source_separator_transcription.py",
+      "bytes": 15692,
+      "sha256": "dd93f78547a4917334b3bbf3d10e6af075b2ef2d2870e25bcfcdab5cd41aee51"
+    },
+    {
+      "path": "experiments/semantic_assumptions/SOURCE_SEPARATOR_TRANSCRIPTION_SPEC.md",
+      "bytes": 3186,
+      "sha256": "fdcfb65a67438ae154979b1499ce63dc359e0e65ae5eaf93e73637e7dec3ec46"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "bytes": 736297,
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "bytes": 886330,
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv",
+      "bytes": 334048,
+      "sha256": "4a128ed3d4b87a9d804a336a6c22ced65839fa39c83f3ecf45092bbc64f2eabc"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "bytes": 927,
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/artifacts/GB2_NATIVE.json",
+      "bytes": 13261,
+      "sha256": "c9f4cf411ac2bb8fe27f828de3357256896097d1ae1f9340e223ae23f20ca16c"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/artifacts/GB3_NATIVE.json",
+      "bytes": 13227,
+      "sha256": "1549e0ee43f8272a4b7468b51c9c55d09548155610acac70646da99f9604f0c8"
+    },
+    {
+      "path": "experiments/yolo/gdt1127_native_pair_correct_canvas_followup/artifacts/C2_NATIVE.json",
+      "bytes": 13870,
+      "sha256": "de5dea7c776cb642a2f7fdbcdf1fc3702fcd353c57fdf67f58b9c4e949dca75c"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/artifacts/SOURCE_LOCALIZATION_AUDIT.json",
+      "bytes": 9541,
+      "sha256": "f856827d1b6ca3caf40f9daeb5c342684d7418e4726f63cb28c4a2f195354c0b"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/src/PAGE_ADMISSIONS.tsv",
+      "bytes": 1693,
+      "sha256": "5b31868df306be12d34e02ecde731811a67a9af9e0bda81ba573c2317e1a9de8"
+    },
+    {
+      "path": "experiments/yolo/gdt1127_native_pair_correct_canvas_followup/src/PAGE_ADMISSIONS.tsv",
+      "bytes": 281,
+      "sha256": "a607a417a81ab77c52dc2b53c2d14e463790a8e5ff05e8b027683193760641d7"
+    },
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20261001_NATIVE_PLANT_PAIRS.md",
+      "bytes": 2801,
+      "sha256": "c64cac50eb1bf9f7cbf8f02f1586ba4adcbb3b3fc493713aabb1f0166eb0d73e"
+    },
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20261001_CORRECTED_PLANT_PAIRS.md",
+      "bytes": 1640,
+      "sha256": "83e0fb463d2ce00271b35a42942b15d5de685c978a556a0d975e9b603d7e032b"
+    },
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20260926.md",
+      "bytes": 13214,
+      "sha256": "e9d022e1ec7d27c5a6564067045ca0e703e88557b5eca5324422c59470b192c5"
+    }
+  ],
+  "access_accounting": {
+    "new_target_image_fetches": 0,
+    "new_native_target_views": 0,
+    "target_glyph_or_raw_group_contents_read": false,
+    "guarded_metadata_only_count_queries": 1,
+    "guard_rejected_crosswalk_queries": 1,
+    "scope_or_global_edit": false
+  },
+  "next_step": "Root registers1128 exact partial-label admission and finite comparison, treating native-cache identity and C2 box as unresolved inputs. No new decoder or semantic candidate is created by this receipt.",
+  "completed_tool_clock_utc": "2026-10-01 19:25:59 UTC",
+  "verification": "Three nominal labels,23-column group schema, all pinned sources match. Two approximate inscription envelopes, C2 numerical label box unresolved. No glyph/body/image opening."
+}

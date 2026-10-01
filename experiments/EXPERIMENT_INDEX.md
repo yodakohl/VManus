@@ -1147,3 +1147,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 - GDT1126 — Native anatomy/owner capacity, seven fixed development relations; registered before images. [Preregistration](yolo/gdt1126_native_plant_part_relations/PREREGISTRATION.md).
 
 - GDT1127 — Separate two-case native followup, exact corrected source canvases pinned before images. [Preregistration](yolo/gdt1127_native_pair_correct_canvas_followup/PREREGISTRATION.md).
+
+- GDT1128 — Exact three-owned-label native/cache binding. [Preregistration](yolo/gdt1128_native_owned_label_reading_binding/PREREGISTRATION.md).

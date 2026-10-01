@@ -3,13 +3,13 @@ Updated: 2026-10-01. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: GB/GDT1126–1127 native anatomy closure.
-Latest decision: 4graphic leads;3ownedpairs onleaf102;no meaning.
-Working files: experiments/yolo/gdt1127_native_pair_correct_canvas_followup/REPORT.md.
-Assumptions: Coidentityhyp;oldFAILs;noreserve/glyphreading.
-Resume: Register exact3label-reading map;retainwordgrammar.
-Running: none;10hminimum completed;closurepushedtomain.
+Status: active
+Task: GC/GDT1128 three owned native labels to cached readings.
+Latest decision: Nominal mappings old;direct native join unchecked.
+Working files: experiments/yolo/gdt1128_native_owned_label_reading_binding/PREREGISTRATION.md.
+Assumptions: Sameleaf102;oldFAILs;no meanings/reserves.
+Resume: Freeze native readings before exact3locus cache query.
+Running: native inspectors;bounded independent idea supply.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
