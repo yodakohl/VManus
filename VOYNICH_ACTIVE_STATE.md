@@ -1,3 +1,6 @@
+<!-- FG 2026-10-01 -->
+FG:newAIINmaterial/Dliquid/QOKwith familyattempt stoppedpartial:14DAIINunconsumed,16SHEOSunknown,17no retainedcontent. First13conditionalneeds6defaults beyond4namedoperators;no compressioncredit orwrittenPERSISTENT/FRESHcontrast.52rawpositionspreserved;oldFD86/19unchanged;756inconclusive,836raw. Nextreview836completebranchsource/primaries beforeselection, notrepairFG.0words0independentleaves. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FG_REPORT.md.
+
 <!-- FF 2026-10-01 -->
 FF:835completehistoricaldutyretained/not_tested;no targetbinding or newfixed86/19falsifier fromDAIINAIINpriors. Do not run source-onlyfreeparagraph, universalhost/morphemetest or unchangedFDtransfer. ExistingC0/positivecomposition retained;notglobalexplorationban. ThreeSolreviews finishedwithin caps;producer0newideas. Nextreview756completehistoricalcarrier/gold source andprimaries beforeselection.0words0independentleaves;FEpublic35c1a0f85. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FF_REPORT.md.
 
