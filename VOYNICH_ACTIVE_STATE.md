@@ -1,3 +1,6 @@
+<!-- FK 2026-10-01 -->
+FK:two fullassigned connectedC0 f85r1.1–6 graphs retained;60IT/182raw,42lex12rules6defaults;SHEYthermal,KEDYpolarity,QOKEEYaperture differ. Genericderivationunverified:modifier4,Bpatient18/29,partitionmotion19. No unconditionalcontradiction/no winner;alternate3ZL16RFunassigned. Nextexplicitcommon signatures plus prospectivewrittenaperture-stateconsequence;no free state-labelsearch/authorrepair.0words0independentleaves;839raw;worker overruns. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FK_REPORT.md.
+
 <!-- FJ 2026-10-01 -->
 FJ:283stillnot_tested; correctedvariants andFItypefailure do not bindconsumer. OldMEANING_PRIORITYwithdrawsautomaticfourfieldpriority. Stopunchangedpairaudit;nextactualconnectedwholef85r1.1–6 competingcontentdraft.838raw;f116r/vnavigationcorrected,no f116vpayload.0words0newmanuscriptfindings0independentleaves;budgetoverrun. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FJ_REPORT.md.
 

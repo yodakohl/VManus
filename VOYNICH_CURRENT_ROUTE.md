@@ -4,11 +4,11 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: FJpairaudit stop;wholecontent draftnext.
-Latest decision: 283notreopened;no newmeaning;838raw.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FJ_REPORT.md.
-Assumptions: 0words;old945946947/FI fixed;no sealaccess.
-Resume: Draft fullf85r1.1–6 competing contentaccounts.
+Task: FKtwo connected C0s;derivation unverified.
+Latest decision: no meaningwinner;42lex;839raw.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FK_REPORT.md.
+Assumptions: 0words;old945946FI fixed;no sealaccess.
+Resume: Specify common signatures and written aperture-state consequence.
 Running: None;Solthreads frozen.
 
 ## Structural baseline
