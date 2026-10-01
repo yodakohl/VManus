@@ -3,13 +3,13 @@ Updated: 2026-10-01. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: GDT1127 two source-corrected native pairs.
-Latest decision: 1126twoinvalid;2sameleafleads;0words.
-Working files: experiments/yolo/gdt1127_native_pair_correct_canvas_followup/PREREGISTRATION.md.
+Status: checkpoint
+Task: GB/GDT1126–1127 native anatomy closure.
+Latest decision: 4graphic leads;3ownedpairs onleaf102;no meaning.
+Working files: experiments/yolo/gdt1127_native_pair_correct_canvas_followup/REPORT.md.
 Assumptions: Coidentityhyp;oldFAILs;noreserve/glyphreading.
-Resume: Acquire6234/6253;2nativecases/allneighbors.
-Running: 2-casefollowup;minimumends18:29UTC.
+Resume: Register exact3label-reading map;retainwordgrammar.
+Running: none;10hminimum completed;publishactualcaseclosure.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
