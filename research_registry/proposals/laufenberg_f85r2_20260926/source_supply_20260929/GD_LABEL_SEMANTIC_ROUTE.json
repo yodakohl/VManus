@@ -1,0 +1,339 @@
+{
+  "schema": "GD_LABEL_SEMANTIC_ROUTE_v1",
+  "created_utc": "2026-10-01T20:41:48.089618+00:00",
+  "status": "READY_FOR_EXPLORATORY_ONE_CAPTION_WHOLE_UNIT_AUTHORING_NOT_FIXED_TEST_READY",
+  "scope": "Cached-primary independent naming/label-grounding route audit; no executed manuscript derivation.",
+  "audit_budget_minutes": 30,
+  "audit_started_utc": "2026-10-01T20:14:32Z",
+  "research_decision": "Authorize one bounded complete caption/prose C0 author pass; do not rerun failed surface motifs or build a decoder.",
+  "candidate": {
+    "name": "SOURCE_QUALIFIED_PRODUCT_APPELLATION",
+    "target": "f102v1.17 fragment240 paired conditionally with f19r source depiction",
+    "caption_primary": "loralody",
+    "caption_alternative": "losalody",
+    "primary_readers": [
+      "ZL3b",
+      "IT2a"
+    ],
+    "alternative_reader": "RF1b",
+    "native_status": "Conditional compatibility after notation calibration; original native freeze did not independently recover exact cached form.",
+    "formal_units_primary": [
+      "l",
+      "or",
+      "al",
+      "ody"
+    ],
+    "formal_units_alternative": [
+      "l",
+      "os",
+      "al",
+      "ody"
+    ],
+    "semantic_units_are_new_C0_choices": true,
+    "caption_denotation": "Appellation(S19), S19 a decoction material-kind with botanical provenance K19",
+    "picture_role": "Source-kind illustration, a paid cross-modal interpretation rather than a descriptive-caption assumption.",
+    "source_K19": "Generic botanical kind, conditional on native depiction coidentity; no species name or physical specimen.",
+    "product_S19": "Nominal schema, not a performed preparation or actual output specimen.",
+    "pipeline": [
+      {
+        "written": "l",
+        "input": "fixed owner240 geometry",
+        "output": "SourceKindRef(K19)",
+        "cost": "new exact-caption source-slot binding"
+      },
+      {
+        "written": "or",
+        "input": "SourceKindRef(K19)",
+        "output": "FromSourceSpec(K19)",
+        "cost": "new exact-caption provenance constructor"
+      },
+      {
+        "written": "al",
+        "input": "FromSourceSpec(K19)",
+        "output": "MaterialKindSpec(S19,source=K19,form=DECOCTION)",
+        "cost": "new predeclared decoction schema; reject trial rather than repair product value"
+      },
+      {
+        "written": "ody",
+        "input": "MaterialKindSpec(S19,source=K19,form=DECOCTION)",
+        "output": "Appellation(S19)",
+        "cost": "new nominalization preserving both restrictions"
+      }
+    ],
+    "finite_license": "Only the observed primary whole l-or-al-ody in this caption use; no universal unit values or unseen combination claim.",
+    "whole_residual": "One restricted appellation, exactly one source provenance and one material-form schema; no leftover atomic final-output card.",
+    "defaults": 0,
+    "allomorph_aliases": 0,
+    "declaration_costs": {
+      "caption_contributions": 4,
+      "source_picture_bridge": 1,
+      "new_semantic_grouping": 1,
+      "exact_whole_residual": 1,
+      "body_contributions": "all separately paid; none currently assigned"
+    },
+    "alternative_debt": "RF OS remains unresolved; OR/OS normalization is not licensed."
+  },
+  "complete_prose_author_contract": {
+    "actual_manuscript_endpoints_assigned": 0,
+    "caption_body_realization_rule": "Pay an explicit bidirectional realization/definition relation that preserves caption S19, source K19 and DECOCTION form. Exact wholeform repetition is not required.",
+    "roles": [
+      {
+        "n": 1,
+        "role": "written owner/input",
+        "arguments": "w:BotanicalMaterial, Kind(w)=K19",
+        "requirement": "actual whole expression introducing local source; page ownership cannot donate it"
+      },
+      {
+        "n": 2,
+        "role": "written producer",
+        "arguments": "e:PreparationEvent, input(e)=w plus explicit liquid/other inputs",
+        "requirement": "caption cannot perform event"
+      },
+      {
+        "n": 3,
+        "role": "written distinct outputs",
+        "arguments": "p:SolidOutput,d:LiquidOutput, From(p,e),From(d,e)",
+        "requirement": "two word counts are not two outputs"
+      },
+      {
+        "n": 4,
+        "role": "written selection/disposal",
+        "arguments": "selected(e)=d; disposition(p) explicit where asserted",
+        "requirement": "no omitted/harmless unknown control"
+      },
+      {
+        "n": 5,
+        "role": "written expanded appellation",
+        "arguments": "Kind(d)=S19,source(d)=K19,form(d)=DECOCTION",
+        "requirement": "actual complete definition of same caption denotation, not commentary equality"
+      },
+      {
+        "n": 6,
+        "role": "written consumer",
+        "arguments": "consumes(action,d or S19)",
+        "requirement": "liquid-compatible actual argument cannot revert to w/p across barrier"
+      },
+      {
+        "n": 7,
+        "role": "written effect/continuation",
+        "arguments": "same selected object and preparation scope",
+        "requirement": "every other raw group/control worked or explicit barrier"
+      }
+    ],
+    "whole_unit_obligation": "Retain complete source-marked f19r unit(s), every raw group/seam/order and alternate reader; not just old .11 motif.",
+    "first_gap": "No actual written expanded-appellation/denotation reference or producer/output endpoints assigned in this audit.",
+    "absence_of_exact_caption_prose_bridge": "Retained; expanded-definition hypothesis does not retrospectively change literal counts."
+  },
+  "concrete_existing_supply": {
+    "caption_units_and_profiles": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/",
+    "native_owner": "experiments/yolo/gdt1127_native_pair_correct_canvas_followup/artifacts/C2_NATIVE.md",
+    "body_packet": "experiments/yolo/gdt1109_fixed_units_joint_botanical_graph/artifacts/CARRIERS.json.gz",
+    "body_packet_access_this_audit": "Existence/report only; raw body records not opened or queried.",
+    "source_complete_entries": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_SOURCE_DIOSCORIDES.md",
+    "source_model_entries": [
+      "Dioscorides II.107 lentil",
+      "Dioscorides II.120 cabbage"
+    ],
+    "edition_limit": "Cached modern Wellmann critical edition of earlier tradition; no native wording collation or medieval source-copy proof.",
+    "source_xml_sha256": "e2a2175c5ca1c1a2313c5816bc79c7fa1c9103766fcad193356d0c13ce6746bc",
+    "wholecaption_comparison": [
+      {
+        "caption": "212",
+        "whole": "koldarod",
+        "units": [
+          "k",
+          "ol",
+          "dar",
+          "od"
+        ],
+        "status": "retained unglossed comparison"
+      },
+      {
+        "caption": "213",
+        "whole": "odalydary / odalydyry",
+        "units_primary": [
+          "od",
+          "al",
+          "y",
+          "dar",
+          "y"
+        ],
+        "units_alternative": [
+          "od",
+          "al",
+          "y",
+          "dy",
+          "r",
+          "y"
+        ],
+        "status": "retained unglossed comparison"
+      }
+    ],
+    "coverage_cautions": [
+      "All three captions belong to pharmaceutical leaf102; readers are alternate readings, not replications.",
+      "179-selector profile excludes f102r2: zero census values for212/213 do not mean absent manuscript words.",
+      "No exact formal unit is common to all three wholes; no common part gloss assumed."
+    ]
+  },
+  "source_side_first_pass": {
+    "lentil": "Peeled carefully boiled solid and first cooking water are distinct; first-water disposal is explicit; solid and decoction receive different stated effects.",
+    "cabbage": "Thorough-boiled solid and drunk decoction have distinct stated roles; decoction is source-qualified by its nominal description.",
+    "retained_counterexample": "Lightly boiled cabbage solid also loosens the bowel: LOOSEN cannot identify decoction or liquid output.",
+    "second_counterrestriction": "Cabbage lacks lentil first-water discard; do not transfer that operation.",
+    "use": "Concrete producer/output/selection/consumer and nominal-expansion duties; no source-to-EVA dictionary or f19r botanical identity.",
+    "reserved_entry": "II.109 unopened and unused",
+    "historical_effects": "Statements in source tradition, not modern efficacy claims."
+  },
+  "rival_and_different_consequence": {
+    "rivals": [
+      {
+        "name": "PRODUCT_APPELLATION",
+        "caption_denotation": "S19:SourceQualifiedDecoctionKind"
+      },
+      {
+        "name": "BARE_NAME",
+        "caption_denotation": "K19:BotanicalKind",
+        "same_other_values": true
+      },
+      {
+        "name": "PLANT_NAME_PLUS_PAID_PREPARATION",
+        "status": "Serious surviving rival, may agree on all process outcomes without caption-denotation binding."
+      },
+      {
+        "name": "CLASS_EMBEDDED_LEXICAL_WHOLE",
+        "status": "Same single-caption provenance possible without productive unit meanings."
+      }
+    ],
+    "discriminator": "An actual written expanded definition referring to caption denotation and requiring Kind(d)=that denotation. Bare plant-kind fails liquid-material-kind typing unless it pays another expansion/coercion.",
+    "interventions": [
+      "Delete written producer: nominal schema still nameable but no actual d for consumer.",
+      "Swap selected/consumed d to solid p: fails fixed DECOCTION restriction.",
+      "Swap source K19 to K2: changes provenance of caption appellation even if output remains liquid."
+    ],
+    "not_a_result": "These are internal fixed-contract consequences until actual manuscript expressions bind them.",
+    "equivalence_stop": "Without actual caption-denotational reference retain product appellation and plant-name-plus-preparation; two-output graph alone does not choose."
+  },
+  "novelty_and_predecessors": {
+    "narrow_new_contract": "Newly native-owned literal C2 whole + finite directed four-unit C0 + expanded prose definition preserving SAME caption denotation, source and product form.",
+    "not_claimed": [
+      "new general product-label mechanism",
+      "new source discovery",
+      "new semantic anchor",
+      "exhaustive novelty certification",
+      "fixed semantic test pass"
+    ],
+    "retained_predecessors": [
+      {
+        "id": "IDEA669",
+        "already_owned": "Herbal-to-pharmacy preparation rolegraph"
+      },
+      {
+        "id": "IDEA674",
+        "already_owned": "Named exudate alternative"
+      },
+      {
+        "id": "GDT585",
+        "already_owned": "Learned compound-name atlas; no meaning"
+      },
+      {
+        "id": "IDEA402",
+        "already_owned": "Complete fraction/consumer causal source contrast"
+      },
+      {
+        "id": "GDT948",
+        "already_owned": "Whole material/process versus inspection accounts unselected"
+      },
+      {
+        "id": "SNPL002 / GDT1084",
+        "unchanged": "Four-pair surface motif FAIL, retained crosshit and misses; not rescored"
+      },
+      {
+        "id": "GDT1109",
+        "unchanged": "Fixed13-role full-chunk joint graph0 successes, not universal composition refutation"
+      },
+      {
+        "id": "GDT916",
+        "unchanged": "Unseen pair generalization not established"
+      },
+      {
+        "id": "GDT608",
+        "constraint": "Formal directed composition with whole residual/context does not confirm caption meanings"
+      }
+    ]
+  },
+  "next_action": {
+    "budget_minutes": 20,
+    "action": "One manual complete f19r retained-unit C0 author pass with fixed caption values, seven body-role prices, actual definition relation, all raw controls and validation/closure.",
+    "outcomes": {
+      "full_consistent_binding": "Retain concrete C0; rival naming-plus-preparation/lexical whole remains unless actual reference distinguishes.",
+      "contradictory_form_type_source_or_endpoint": "Reject this exact finite trial; no retrospective product repair.",
+      "unpaid_controls_or_missing_expansion": "Partial author result with exact first gap; no universal product-label refutation or anchor prohibition.",
+      "equivalent_complete_contracts": "Retain both; do not build decoder."
+    },
+    "excluded_expansion": [
+      "New manuscript query/image",
+      "Source acquisition",
+      "New decoder",
+      "Broad corpus/motif/null campaign",
+      "Reserved confirmation"
+    ]
+  },
+  "access_and_exposure": {
+    "new_manuscript_queries": 0,
+    "new_images": 0,
+    "new_external_sources": 0,
+    "sealed_or_reserved_access": 0,
+    "global_edits": 0,
+    "git_actions": 0,
+    "navigation": "Live route/topics, bounded ideas search/show/duplicates, route-check, targeted GDT lookup and claim-bearing cached primaries.",
+    "incidental_old_gloss_exposure": [
+      "GDT585 historical/ceiling passage with old unit/organ values",
+      "AA named-material-portion card"
+    ],
+    "old_values_adopted": false,
+    "independence_limit": "Prior project/native/motif/source exposure; no blinded or reserved evidence."
+  },
+  "input_pins": [
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/REPORT.md",
+      "sha256": "07fc2463e16c2b8b2d6c04c0b023d6b499161ca30283f734be01fdd004eeb5cd"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/FIXED_COMPOSITION.json",
+      "sha256": "e298df0cfee22e9cc554bc85ca300cde36916bdbb1061e776deafe6d63dd4201"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/WORD_PROFILES.json",
+      "sha256": "98d011f53c51709a24a50d6dc8be5d4d63cebcfb6cca7475522f364c3de1cabc"
+    },
+    {
+      "path": "experiments/yolo/gdt1127_native_pair_correct_canvas_followup/artifacts/C2_NATIVE.md",
+      "sha256": "e75ca2c31b2e4294569f36067aef0d9ace2c551d2b7b5077a2edcbefa1b31999"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/C2_NATIVE_READING.md",
+      "sha256": "6226f65cc23effc9d36a6213b94b1be5920d01666784b808a1b2e5506662e353"
+    },
+    {
+      "path": "experiments/yolo/gdt1109_fixed_units_joint_botanical_graph/REPORT.md",
+      "sha256": "e2766b1c87cbf4b2f82fc28fff9def3c007a0c10dc4c2c66c8d7a127369157d7"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GC_LABEL_PREDECESSOR_AUDIT.md",
+      "sha256": "6e0b90c6c0e7697cfe12d00833c9886e80755ea0d7f37b54fda8ea2ff22820e0"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GC_SEMANTIC_NEXT_SUPPLY.md",
+      "sha256": "920108ecea5e5eae64a3c647180f8467359b989e2a2113f5e8f8b9577211fc0e"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_SOURCE_DIOSCORIDES.md",
+      "sha256": "14c1af83d5fee45a407dec8e3b37fd9810b19f2c59c54107b15a2d53c6241468"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_SOURCE_DIOSCORIDES.json",
+      "sha256": "e026c696708d0e6e186cb2bb8f78aef161df94ac1f55839c02f04e94f7224b61"
+    }
+  ],
+  "freeze": "Written once; MD/JSON externally hashed after consistency checks. No claim of completed body derivation."
+}

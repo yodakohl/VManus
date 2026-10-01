@@ -1149,3 +1149,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 - GDT1127 — Separate two-case native followup, exact corrected source canvases pinned before images. [Preregistration](yolo/gdt1127_native_pair_correct_canvas_followup/PREREGISTRATION.md).
 
 - GDT1128 — Exact three-owned-label native/cache binding. [Preregistration](yolo/gdt1128_native_owned_label_reading_binding/PREREGISTRATION.md).
+
+- GDT1129: registered exploratory whole reciprocal description/event comparison; [preregistration](yolo/gdt1129_whole_reciprocal_relation_description/PREREGISTRATION.md). No meaning selected.

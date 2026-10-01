@@ -1,0 +1,49 @@
+# GD: a useful exploratory reading must constrain its own continuation
+
+**Begin one whole comparative optical C0, using the two owned f68 rings and complete f89v1 paragraph. Do not require a confirmed word or an independent discriminator before authoring.** This is a changed authoring design descended from IDEA796, not a newly discovered source mechanism. Its useful result would be a connected hypothetical reading whose fixed rules explain more than the phrases used to invent them. Zero meanings are currently confirmed.
+
+## The positive knowledge worth spending
+
+GDT605 recovered separator information with stable learned units: uncertain boundaries were crossed substantially more often than certain boundaries, and no new unit type was needed on held folios. Its one-unit/one-letter attack failed. GDT608 establishes directed formal reuse across all23 held folios, while whole merge identity remains better on all23. Right `aN`, `dy`, `y` and left `q` have transferable edge profiles; `ol`, `or`, `ok`, `ot` and some `o` children retain important pair-specific behavior. These are excellent constraints on a small semantic constructor with exact exceptions; none identifies a noun, tense, sound or meaning. GDT318 adds a live rival: `q` can carry entry-context packaging associated with previous DY, rather than a distinct semantic action.
+
+Saved frequencies impose real explanation duties. Exact `daiin` occurs717/740/618 times across169/169/163 allowed selectors; `okaiin`200/198/187 across84/84/82. This makes occurrence-specific English glosses especially expensive, but neither frequency excludes WINTER or MOON by itself. A line edge is not a sentence edge; a neighbor is not an identified argument. Do not run another profile census: the useful next work is the actual same-rule interpretation of retained repeats and complete contexts.
+
+The clear upper f68 crescent supplies a strong celestial/phase working prior. The lower full-faced segmented disc is Sun-like but remains compatible with a lunar-body/full-Moon rival after AJ/BE/1108. A full face is not a full-phase name. GDT1127 adds compound botanical coidentity and reduced extent, not species identity or an actual cut; GDT1128 adds conditional owned inscription candidates, no independently recovered exact whole and no prose bridge. Those plant data justify exploratory part/kind hypotheses, but choosing a botanical taxon currently requires more unsupported specificity than choosing a luminary relation. Neither visual route translates a caption merely by proximity.
+
+## Five selection criteria for C0 whole passages
+
+1. **Connected complete content.** Retain all groups/readers and give each a concrete contribution or a visible barrier. Partial models may begin; a claimed whole consequence cannot reset after unknown controls.
+2. **Finite form reuse.** Give repeated forms one rule; use directed composition with priced whole residuals, wrappers, defaults and exact alternatives. A smaller card count is not a likelihood or significance score.
+3. **Written reference and scope.** Derive argument selection from the proposed text grammar. Paid hypothetical referents/defaults are allowed, but distinguish them from recovered written selection. Do not require an artificial event/output/consumer for classification or description.
+4. **Consequential connected meaning.** Combining the propositions must impose a stable identity, opposite comparison, exclusion, constituent preservation or changed dependency beyond a list of names. Compare an actual rival fairly; surviving joint semantic renamings remain ambiguity.
+5. **Adverse cases before fixed extension.** Preserve saved repeats, isolated labels, variant arity and known failures. Freeze the achieved grammar before the next complete-unit application. Independent confirmation is later; its absence is not an authorship ban.
+
+These select which exploratory model deserves completion, not which English words are already true. Near-full prose with many guessed whole lexemes and hidden scope assumptions is less useful than a smaller explicit grammar that forces its known repeats, but incomplete grammar is not promoted simply because its inventory is small.
+
+## One concrete authoring duty
+
+The fixed object is all288 retained reader positions: upper f68r2.6(8/8/8), lower f68r2.31(12/11/11), and f89v1.13–20(75/78/77). ZL/IT have a native paragraph; RF is its comparison window. No new target query, image or reserve is needed.
+
+First author **both complete rings** under one finite source/recipient/appearance grammar. Explore the two depicted appearances as one persistent lunar referent, without inheriting old `ok=MOON`, `oko=SUN` values. Keep the two-body Sun/Moon rival explicit. The exact shared IT opening `okeo` cannot simultaneously become two distinct body names without an additional deictic/context rule. Then finish the entire owned f89 paragraph under the same values and references; its repeated `okol`, `dal`, wrapped family forms and unknown controls must actually participate or remain barriers.
+
+The semantic kernel is small: a light source S, the same lunar body M, its illuminated portion and Earth-facing appearance A(M); greater source–M separation increases displayed light, approach decreases it, under the ordinary-course condition. M survives both directions. The author must find a finite written construction that supplies those shared inputs and opposite changes. One right-`aN` appearance/state projection is a possible paid constructor, not a required recovered suffix. `okoaiin` retains internal o and its whole residual; `okor/okar` preserve alternative readings; `q/ch` may be contextual packaging. No unknown word may conceal the entire causal chain.
+
+This law is actually stated in the complete Morgan M.7215r-C account. Its transparent heaven, opaque body, exposed portion and variable appearance are distinct; the uncertain eclipse guard remains uncertain. Do not introduce an invisible Sun/Earth because the source has them, impose a modern fraction formula, turn every opposition into an eclipse or copy Morgan's stanza order into the target. Medical influence is a separate relation and may enter only if the whole target reading supplies it.
+
+Why this differs: W/BB/Y gave sparse body/interval/light products or a binary LIGHTS relation; BI made no new comparative target assignments. Two opposed comparisons sharing a written source/recipient/reference grammar, surviving the whole continuation, are a genuinely different C0 design. Another named LIGHT or newly labeled unknown neighbor is unchanged work. IDEA796's recorded reopening condition explicitly allows this new whole comparative written-binding design without a prior confirmed word. IDEA672's wheel acquisition and IDEA659's non-admitted f67v2/missing-primary path audit are not selected.
+
+## Falsifiers and honest outcomes
+
+Freeze the completed grammar and its scope before extension. Its exact optical law fails if the unchanged parse, with the same selected S/M and comparison condition, requires increased separation with decreased Earth-facing light, or approach with increased light, without a previously licensed written exception. Its identity rule fails if the same M-expression must switch bodies merely to finish the connected reading. A same-scope repeat or alternate that needs incompatible argument sorts, deleted wrappers/internal o or a missing obligatory written argument rejects that particular constructor. An unknown control instead leaves the consequence conditional or incomplete; it does not refute astronomy.
+
+First apply this to all retained complete contexts as development, not fresh blindness. Only after an adequate whole account should root register a new complete-unit application or consider reserved confirmation. A future unit must contain the model's whole argument/condition chain; select it without inspecting the relevant outcome and retain all its groups. No new locus is requested here.
+
+The optical law alone does not select manuscript meanings. A jointly renamed material/state graph may preserve both comparative consequences. Conversely a fixed duration noun, a body-name-only reading and an appearance-state projection have different types and duties once actual written arguments are completed; their unfair prohibition by a specially invented consumer would not be evidence. If the optical whole account survives but domain renaming also survives, the gain is an explicit constrained C0 reading and a sharper next discriminator, not a translated Sun/Moon/light word.
+
+Likely failure points are absent written comparisons/source, unsupported same-Moon ownership, incompatible reader productions, and scope-changing controls in f89. Each is a concrete authored-model issue to resolve or reject. Do not replace a failure with100 extra singleton glosses, another source-face search or the unchanged missing-input audit.
+
+## Old decisions remain intact
+
+GDT888's18 IT name graphs were nonunique; GDT913 contradicted all18 fixed lexicons. This closes that contract, not botanical language generally. GDT1079 has no exact f85/f68 ring bridge; GDT1052's global bilateral source-linker and GDT1047's specified obligatory-host rules remain failed. FY's common aN operation was real conditional reuse, but15 hand-wired references did not become written reference grammar. AK's .43 sentence did not supply its unread same-portion continuation. None requires banning C0; each explains why complete reference/scope/reuse matters more than a pleasant English story.
+
+This review used live route/topic/card navigation and the hash-bound primaries listed in the companion JSON. It made no target queries, native views, acquisition, decoder, global edit or registry/Git change. The recommendation is one bounded authoring duty. Test counts, elapsed hours and note production are not meaning progress.
