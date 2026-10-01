@@ -1,0 +1,3 @@
+# GDT1124
+
+Necessaryparagraph-entryscreenforunchangedQOKEEYLayerconsumer;registeredtesthasnodiscriminator.SeparateposthocinitialQOKEEDYrequiresunenteredPaint. See REPORT.md;noglobalgrammarorwordconfirmation.

@@ -1,0 +1,9 @@
+# Method
+
+A fixed necessary entry screen, not a new decoder. Before firstbodyprojection bind822 block/group/result hashes and unchangedFO/FP models. Guard BLOCKS by the17exacttargetpage selectors; select completeP blocks having exactQOKEEY targets. Guard SOURCE_GROUPS by their exactfirst loci before payload parsing. Use first rawgroupG001 of each3reader line, retaining nativeboundary flags. A firstQOKEEY requires oneLayer; under strict emptyparagraphregister it underflows. Otherfirstwords are NOT_TESTED; unknownboundaries are UNSCOREABLE, notpassed.
+
+Initialrunner erroneously asserted that everyRFnative source group carries paragraph_start=1. It stopped withno validresult. AllRFflagsare0, a known structural limitation alreadyretainedinroute. Engineering correction labels these29 entries unscoreable under the preregistered requirement; doesnot changewordvalues, eligibilitycondition orscoretargets. No universalRFboundary was inferred fromZL. Raw projections and every87 entry remain public.
+
+After seeingtheentrytable root exploredALL87firstforms againstpaidFO/FP consumer definitions. Only initialQOKEEDY f83r.25ZL/IT requiresunenteredPaint. The empty-per-paragraph Paint policy is an added posthoc transfer assumption, not specified by FO D1 (FO D2 restricts recipient ownership only). This is separatelyPOSTHOC, conditionalonsharedlayoutmetadata, not a newlyregisteredQOKEEYprediction or nominalmeaningidentification. FO/FP bytesunchanged. Two readers ofsameword are not two independentreplications.
+
+Validator independentlyreprojectsbothrawsourceswithsameexplicitallowvalues, checksallentryidentity/eligibility/accounting andseparateposthoccaseIDs. ItsPASSvalidatesreproduction,notmeaning. No significance, controlsearch, newadmission,image,reserve,contact orGDT388relationpacket. Sealsf84/f84r explicit.

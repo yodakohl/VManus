@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Publish FP;stop free lexical extension.
-Latest decision: 62handf80annotations;7+60unbound;no new f88r binding.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FP_REPORT.md.
-Assumptions: 0words;FM/FN/FO frozen;newmeaningsC0;seals/reserves closed.
-Resume: Require constrained content or fixedwhole-context rival contrast, not tailglosses.
-Running: None;FP publication closeout.
+Task: QOKEEDY initial/medial argument entry;no newglosses.
+Latest decision: GDT1124 noQOKEEYentrycase;Paint-gap depends onaddedreset.
+Working files: experiments/yolo/gdt1124_qokeey_paragraph_entry_layer/REPORT.md.
+Assumptions: 0words;FO/FP frozen;posthocnotfixed;seals/reserves closed.
+Resume: Inspect entry/deferred-argument predecessors before choosing one newconstruction.
+Running: None;FQ publication closeout.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

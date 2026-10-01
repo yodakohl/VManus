@@ -1,3 +1,6 @@
+<!-- FQ 2026-10-01 -->
+GDT1124 fixedentryscreen:0initialQOKEEYin58supportedentries,29RFboundaryunscoreable. Posthocf83r25initialQOKEEDYhasnoPaintonlyunderaddedempty-entry/noambienttransfer;FO D1doesnotstateuniversalreset. Nextentry/argumentconstructionbeforeglosses;0words;oldFO/FP unchanged. See experiments/yolo/gdt1124_qokeey_paragraph_entry_layer/REPORT.md.
+
 <!-- FP 2026-10-01 -->
 IDEA847 partial C0:62handf80annotations;67of129unbound;12newdefinitions/3rules explicitly propose old/newLayer visibility with chronological same-baseSurface owner selection. ORbranch paid onlynewversion;no executablewholegrammar/meaningselection/C1/image-substrate;0words. f88rjoin addsno independentownerbinding. Stop free tailglosses; require constrained content or fixedwhole-context contrast. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FP_REPORT.md.
 
