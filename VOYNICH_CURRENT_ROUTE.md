@@ -2,14 +2,14 @@
 Updated: 2026-10-01. Live resume point.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: FV material choice / FW method reuse.
-Latest decision: FV frozen;FW authoring;apps closed;0words.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DECISION.md.
+Task: GDT1125 choice / method transfer.
+Latest decision: Both frozen;registeredpreopen;0words.
+Working files: experiments/yolo/gdt1125_choice_method_written_dependency_transfer/PREREGISTRATION.md.
 Assumptions: Oldmodelsfrozen;noreserve;C0only.
-Resume: Audit FV;freeze FW;then both2application pairs.
-Running: FWauthor/3FVcritics/producer;end18:29UTC.
+Resume: Publish fixedpins;GO;all12cases+critique.
+Running: 2FWcritics+wordpriors;end18:29UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

@@ -1141,3 +1141,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT001 | GDT001 | `UNREGISTERED` | [report](../GDT001_CURRENT_SUMMARY.md) | 305 | 76.2 MiB | 0 | LEGACY_ROOT |
 
 - GDT1124: necessary QOKEEY entry screen; no initial target, separate conditional posthoc Paint-input case. [Report](yolo/gdt1124_qokeey_paragraph_entry_layer/REPORT.md).
+
+- GDT1125: frozen choice / prior-method transfer; registered before additional opening, all12 candidate-reader cases. [Preregistration](yolo/gdt1125_choice_method_written_dependency_transfer/PREREGISTRATION.md).
