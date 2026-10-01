@@ -1,0 +1,1330 @@
+{
+  "unit": "FI",
+  "author_role": "bounded_source_name_withheld_exploratory_author",
+  "status": "PARTIAL_STOP_FROZEN",
+  "target_sha256": "27767719416696088ee56646a639fd7a0bb8599beaf379d277d8ac7963531a4e",
+  "read_scope": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "FI_DECISION.md",
+    "FI_CONTRACT.json",
+    "FI_TARGET.json"
+  ],
+  "withholding": "No previous lexica, source-specific reports, substance names, other-agent work, new raw sources, TSVs, images, or reserves read. This is not independent manuscript confirmation.",
+  "timing": {
+    "first_recorded_work_start_utc": "2026-10-01T02:20:28+00:00",
+    "actual_authorship_end_utc": "2026-10-01T02:25:43.830630+00:00",
+    "freeze_utc": "2026-10-01T02:25:43.830630+00:00",
+    "measured_seconds_from_first_clock": 315.83063,
+    "cap_seconds_from_receipt": 360,
+    "dispatch_receipt_utc": null,
+    "receipt_to_first_clock_latency_seconds": null,
+    "latency_note": "Exact receipt timestamp is not exposed to author. Work began immediately on receipt; initial commentary and first clock precede reading. Measured interval excludes that unmeasured initial latency. No wait for feedback or post-review repairs.",
+    "measured_overrun_seconds": 0,
+    "exact_receipt_based_overrun_seconds": null
+  },
+  "tentative_physical_account": {
+    "intention": "A handling account for one opaque particulate material M: recall a retained charge, acquire or portion it, agitate it, and permit it to settle. Prefixes express acquisition/portion and retained-type selection; they do not force substance names or two products.",
+    "completion": "This motivates local family fragments only. It is not a composed whole physical reading of all69groups. The opening pol/or and many intervening contributions remain unbound, so the paragraph-level account fails this contract requirement.",
+    "confirmed_meanings": 0
+  },
+  "inventories": {
+    "lexical_roots": [
+      {
+        "id": "L1",
+        "surface": "kain",
+        "binding": "Opaque physical particulate material type M, capable of suspension and settling; no substance name or confirmed meaning.",
+        "type": "MaterialType"
+      },
+      {
+        "id": "L2",
+        "surface": "shey",
+        "binding": "Agitate a material suspension.",
+        "type": "UnaryEventDefinition(M -> M)"
+      },
+      {
+        "id": "L3",
+        "surface": "shedy",
+        "binding": "Allow a suspension to settle.",
+        "type": "UnaryEventDefinition(M -> M)"
+      }
+    ],
+    "operation_primitives": [
+      {
+        "id": "P1",
+        "name": "ACQUIRE",
+        "arity": "MaterialRef -> Event(M_source, M_new_portion)",
+        "semantics": "Take an unspecified portion from the referenced physical material. Produces a new addressed M instance; conservation residue is not a second written product."
+      },
+      {
+        "id": "P2",
+        "name": "PORTION",
+        "arity": "MaterialRef -> Event(M_source, M_new_portion)",
+        "semantics": "Subdivide the referenced material, addressing one resulting portion. Quantity and remaining mass are unspecified; not a derived two-product construction."
+      },
+      {
+        "id": "P3",
+        "name": "AGITATE",
+        "arity": "M_patient -> Event(M_patient -> same M_patient in agitated state)",
+        "semantics": "Unary physical agitation; preserves batch identity if the patient is bound."
+      },
+      {
+        "id": "P4",
+        "name": "SETTLE",
+        "arity": "M_patient -> Event(M_patient -> same M_patient in settled state)",
+        "semantics": "Unary settling; does not, without more written arguments, name separated fractions or introduce a second participant type."
+      }
+    ],
+    "shared_grammar_operators": [
+      {
+        "id": "G1",
+        "surface": "ol",
+        "direction": "prefix, rightward operand",
+        "typed_rule": "On MaterialType M: RECALL(M) -> MaterialRef. On a UnaryEventDefinition with explicit input type M: substitute RECALL(M) for its patient.",
+        "scope": "Exactly its composed operand; recall succeeds only if one retained compatible instance is available. None is proved here.",
+        "role_condition": "The difference is solely operand type, never line or occurrence."
+      },
+      {
+        "id": "G2",
+        "surface": "q",
+        "direction": "prefix, rightward operand",
+        "typed_rule": "MaterialRef -> ACQUIRE(MaterialRef), an event expression with output type M.",
+        "scope": "Exactly one material reference. Does not accept an event expression or function as an intensifier."
+      },
+      {
+        "id": "G3",
+        "surface": "s",
+        "direction": "prefix, rightward operand",
+        "typed_rule": "MaterialRef -> PORTION(MaterialRef), an event expression with output type M.",
+        "scope": "Exactly one material reference. Only solkain supplies this tentative use here."
+      },
+      {
+        "id": "G4",
+        "surface": "composition",
+        "direction": "rightmost core first; successive left operators apply outward",
+        "typed_rule": "Every operator application must satisfy its declared input type. An output material type does not erase an event-expression wrapper.",
+        "scope": "Within an explicitly segmented form; no reordering or per-line templates."
+      },
+      {
+        "id": "G5",
+        "surface": "standalone operators",
+        "direction": "prefix scope may continue to the next group",
+        "typed_rule": "A standalone operator has the same semantics as its attached form and takes the next complete expression, if well typed. Unknown material blocks closure.",
+        "scope": "Ignores physical line boundaries but never skips an unknown group; stacked operators remain individually active."
+      },
+      {
+        "id": "G6",
+        "surface": "nominal-event attachment",
+        "direction": "left material reference to following unary event",
+        "typed_rule": "An immediately preceding unconsumed MaterialRef can fill the next UnaryEventDefinition patient, unless an explicit patient substitution already fills it.",
+        "scope": "Contiguous understood groups only; unknowns and type conflicts stop attachment."
+      }
+    ],
+    "whole_form_residuals": [],
+    "default_rules": [
+      {
+        "id": "D1",
+        "name": "active patient",
+        "rule": "A bare unary event may use the uniquely active M participant in an already interpreted contiguous span; otherwise its patient is unknown. No participant is supplied from paragraph layout."
+      },
+      {
+        "id": "D2",
+        "name": "acquisition focus",
+        "rule": "A successfully executed ACQUIRE or PORTION event makes its addressed output active within that interpreted span. This cannot execute while the source reference is unbound."
+      }
+    ],
+    "aliases": [],
+    "surface_exceptions": []
+  },
+  "budget_use": {
+    "lexical_roots": 3,
+    "operation_primitives": 4,
+    "shared_grammar_operators": 6,
+    "whole_form_residuals": 0,
+    "default_rules": 2,
+    "aliases": 0,
+    "surface_exceptions": 0
+  },
+  "budget_caps": {
+    "lexical_roots": 20,
+    "operation_primitives": 7,
+    "shared_grammar_operators": 10,
+    "whole_form_residuals": 12,
+    "default_rules": 6,
+    "aliases": 2,
+    "surface_exceptions": 3
+  },
+  "participant_slots": [
+    {
+      "id": "M_retained",
+      "type": "M particulate material/suspension",
+      "role": "Proposed physical input",
+      "written_introduction": null,
+      "binding_status": "UNKNOWN: no opening token identifies or introduces it; not an admitted ambient inventory default."
+    },
+    {
+      "id": "M_active",
+      "type": "M particulate material/suspension",
+      "role": "Potential unary operation patient",
+      "binding_status": "UNKNOWN outside conditional fragments; no physical-line reset."
+    },
+    {
+      "id": "P25",
+      "type": "M portion",
+      "role": "Conditional result of qolkain25, input to shedy26",
+      "binding_status": "Conditional, not actually derived because source M_retained is unbound."
+    }
+  ],
+  "conditional_events": [
+    {
+      "id": "F1",
+      "positions": [
+        25,
+        26
+      ],
+      "expression": "ACQUIRE(RECALL(M)) -> P25; SETTLE(P25)",
+      "consumption": "Two local contributions compose if unique retained source exists; neither executes in the incomplete paragraph."
+    },
+    {
+      "id": "F2",
+      "positions": [
+        29,
+        30
+      ],
+      "expression": "RECALL(M); SETTLE(RECALL(M))",
+      "consumption": "Nominal and explicit recalled-patient contribution are preserved; identity remains unknown."
+    },
+    {
+      "id": "F3",
+      "positions": [
+        52,
+        53,
+        54
+      ],
+      "expression": "ol(kain) -> RECALL(M); AGITATE(RECALL(M))",
+      "consumption": "Three local contributions compose conditionally; no new gloss for bare kain."
+    },
+    {
+      "id": "F4",
+      "positions": [
+        59,
+        60
+      ],
+      "expression": "ol(shey) -> AGITATE(RECALL(M))",
+      "consumption": "Same typed ol rule as attached olshey; no skipped predecessor or paragraph-level event chain."
+    }
+  ],
+  "scope_and_consumption": {
+    "paragraph_boundaries_used_only_for_target_extent": true,
+    "physical_lines_are_sentences": false,
+    "continuous_prefix_fully_consumed_positions": 0,
+    "all69positions_recorded": true,
+    "unknowns_may_be_skipped": false,
+    "independent_occurrence_meanings": false,
+    "fragment_consumption_is_not_whole_paragraph_consumption": true
+  },
+  "first_unmet": {
+    "position": 1,
+    "id": "IT2a|f80v.30|G001",
+    "raw_surface": "pol",
+    "reason": "No paid lexical, residual, operator, or typed participant/event contribution. Therefore there is no fully composed paragraph prefix."
+  },
+  "additional_explicit_type_stop": {
+    "positions": [
+      48,
+      49,
+      50
+    ],
+    "raw_surfaces": [
+      "qol",
+      "qol",
+      "kain"
+    ],
+    "reason": "The repeated acquisition/recall operators cannot both accept valid operands under the same q rule. Giving outer q a special sequencing or intensity value would be a new role repair; none is adopted."
+  },
+  "identity_alternatives": [
+    {
+      "alternative": "Persistent retained individual",
+      "description": "ol selects the same earlier M batch; acquire creates a new portion of that batch. Not derived: introduction, uniqueness and retention are missing."
+    },
+    {
+      "alternative": "Fresh participant of same type",
+      "description": "Repeated M descriptors can select newly supplied M of the same physical type. This fits the type-level local fragments and cannot be excluded. No independent gloss is assigned to repeated kain."
+    },
+    {
+      "alternative": "Latest compatible portion",
+      "description": "ol may recall the latest M portion if it alone is retained. This cannot be compared with a named older type because no two differently typed written products are derived."
+    }
+  ],
+  "unresolved_dependencies": [
+    "All physical root and operator meanings are exploratory C0 choices, with no confirmed external anchor.",
+    "Whether ol recalls an individual, a type, or some other structural relation is not established.",
+    "Retained M has no bound opening introduction; whole interpretation cannot begin.",
+    "The o segment and kaiin/kiin/eedy variants are not paid aliases or surface exceptions.",
+    "Event scopes cannot cross unknown groups and cannot be repaired by physical line endings.",
+    "qol repetition requires an additional typed account, not cancellation or redundant emphasis.",
+    "Material-state preservation in unary operations is a hypothetical physical model; no written second product is derived.",
+    "No second participant type, written product names, complete later consumer, or type-versus-latest contrast is established."
+  ],
+  "unconsumed_positions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "unknown_whole_form_positions": [
+    1,
+    2,
+    4,
+    7,
+    14,
+    19,
+    20,
+    21,
+    22,
+    23,
+    33,
+    34,
+    35,
+    36,
+    39,
+    40,
+    42,
+    43,
+    44,
+    47,
+    51,
+    55,
+    56,
+    58,
+    61,
+    65,
+    66,
+    68
+  ],
+  "unresolved_partial_form_positions": [
+    5,
+    6,
+    9,
+    11,
+    15,
+    17,
+    24,
+    27,
+    28,
+    31,
+    32,
+    45,
+    46,
+    57,
+    63,
+    67,
+    69
+  ],
+  "positions": [
+    {
+      "position": 1,
+      "id": "IT2a|f80v.30|G001",
+      "raw_surface": "pol",
+      "segmentation": [
+        "pol"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 2,
+      "id": "IT2a|f80v.30|G002",
+      "raw_surface": "or",
+      "segmentation": [
+        "or"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 3,
+      "id": "IT2a|f80v.30|G003",
+      "raw_surface": "olkain",
+      "segmentation": [
+        "ol",
+        "kain"
+      ],
+      "semantic_contribution": "RECALL(M): request the uniquely retained compatible material; no such instance is established.",
+      "attachment": "RECALL(M)",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 4,
+      "id": "IT2a|f80v.30|G004",
+      "raw_surface": "ockhy",
+      "segmentation": [
+        "ockhy"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 5,
+      "id": "IT2a|f80v.30|G005",
+      "raw_surface": "qokaiin",
+      "segmentation": [
+        "q",
+        "o",
+        "kaiin"
+      ],
+      "semantic_contribution": "q is tentative acquisition; o and kaiin are unassigned. kaiin is not silently aliased to kain.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 6,
+      "id": "IT2a|f80v.30|G006",
+      "raw_surface": "okain",
+      "segmentation": [
+        "o",
+        "kain"
+      ],
+      "semantic_contribution": "M core is recognized conditionally; o is unassigned, so the whole form has no composable contribution.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 7,
+      "id": "IT2a|f80v.30|G007",
+      "raw_surface": "okar",
+      "segmentation": [
+        "okar"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 8,
+      "id": "IT2a|f80v.30|G008",
+      "raw_surface": "shey",
+      "segmentation": [
+        "shey"
+      ],
+      "semantic_contribution": "AGITATE(M_patient); patient must be explicitly attached or uniquely active.",
+      "attachment": "Unary event with unresolved M patient",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 9,
+      "id": "IT2a|f80v.30|G009",
+      "raw_surface": "qolky",
+      "segmentation": [
+        "q",
+        "ol",
+        "ky"
+      ],
+      "semantic_contribution": "Pending acquisition of recalled unknown ky; no fraction label is invented.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    },
+    {
+      "position": 10,
+      "id": "IT2a|f80v.31|G001",
+      "raw_surface": "qol",
+      "segmentation": [
+        "q",
+        "ol"
+      ],
+      "semantic_contribution": "Pending ACQUIRE(RECALL(next operand)); both operators remain active.",
+      "attachment": "G5 requires next expression; repeated occurrences are not cancelled",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 11,
+      "id": "IT2a|f80v.31|G002",
+      "raw_surface": "oloiin",
+      "segmentation": [
+        "ol",
+        "oiin"
+      ],
+      "semantic_contribution": "Pending recall; oiin has no assigned type or meaning.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 12,
+      "id": "IT2a|f80v.31|G003",
+      "raw_surface": "olkain",
+      "segmentation": [
+        "ol",
+        "kain"
+      ],
+      "semantic_contribution": "RECALL(M): request the uniquely retained compatible material; no such instance is established.",
+      "attachment": "RECALL(M)",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 13,
+      "id": "IT2a|f80v.31|G004",
+      "raw_surface": "ol",
+      "segmentation": [
+        "ol"
+      ],
+      "semantic_contribution": "Pending RECALL or explicit recalled patient substitution, depending only on operand type.",
+      "attachment": "G5 requires next expression; cannot discard this group",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 14,
+      "id": "IT2a|f80v.31|G005",
+      "raw_surface": "chedy",
+      "segmentation": [
+        "chedy"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 15,
+      "id": "IT2a|f80v.31|G006",
+      "raw_surface": "qokain",
+      "segmentation": [
+        "q",
+        "o",
+        "kain"
+      ],
+      "semantic_contribution": "Tentative ACQUIRE requires a MaterialRef, but o is unassigned; the whole form is unresolved.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 16,
+      "id": "IT2a|f80v.31|G007",
+      "raw_surface": "olshey",
+      "segmentation": [
+        "ol",
+        "shey"
+      ],
+      "semantic_contribution": "AGITATE(patient=RECALL(M)); same agitation core as shey.",
+      "attachment": "Explicit retained-type patient; identity unresolved",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 17,
+      "id": "IT2a|f80v.31|G008",
+      "raw_surface": "qokain",
+      "segmentation": [
+        "q",
+        "o",
+        "kain"
+      ],
+      "semantic_contribution": "Tentative ACQUIRE requires a MaterialRef, but o is unassigned; the whole form is unresolved.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    },
+    {
+      "position": 18,
+      "id": "IT2a|f80v.32|G001",
+      "raw_surface": "solkain",
+      "segmentation": [
+        "s",
+        "ol",
+        "kain"
+      ],
+      "semantic_contribution": "PORTION(RECALL(M)): subdivide retained M and address a portion, conditionally.",
+      "attachment": "Event PORTION(source=RECALL(M), result=new M)",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 19,
+      "id": "IT2a|f80v.32|G002",
+      "raw_surface": "shol",
+      "segmentation": [
+        "shol"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 20,
+      "id": "IT2a|f80v.32|G003",
+      "raw_surface": "kair",
+      "segmentation": [
+        "kair"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 21,
+      "id": "IT2a|f80v.32|G004",
+      "raw_surface": "or",
+      "segmentation": [
+        "or"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 22,
+      "id": "IT2a|f80v.32|G005",
+      "raw_surface": "arol",
+      "segmentation": [
+        "arol"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 23,
+      "id": "IT2a|f80v.32|G006",
+      "raw_surface": "keedy",
+      "segmentation": [
+        "keedy"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 24,
+      "id": "IT2a|f80v.32|G007",
+      "raw_surface": "olky",
+      "segmentation": [
+        "ol",
+        "ky"
+      ],
+      "semantic_contribution": "Pending recall; ky has no assigned type or meaning.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 25,
+      "id": "IT2a|f80v.32|G008",
+      "raw_surface": "qolkain",
+      "segmentation": [
+        "q",
+        "ol",
+        "kain"
+      ],
+      "semantic_contribution": "ACQUIRE(RECALL(M)): acquire a new portion from retained M, conditionally.",
+      "attachment": "Conditional fragment F1: ACQUIRE source=RECALL(M), output P25:M. Source unbound.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 26,
+      "id": "IT2a|f80v.32|G009",
+      "raw_surface": "shedy",
+      "segmentation": [
+        "shedy"
+      ],
+      "semantic_contribution": "SETTLE(M_patient); no named fraction or second product is supplied.",
+      "attachment": "F1: SETTLE(P25), by D2 then D1, if acquisition executes. No paragraph-wide execution claimed.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    },
+    {
+      "position": 27,
+      "id": "IT2a|f80v.33|G001",
+      "raw_surface": "qokeedy",
+      "segmentation": [
+        "q",
+        "o",
+        "keedy"
+      ],
+      "semantic_contribution": "q has one acquisition role only. o and keedy are unassigned; no event-specific q role is added.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 28,
+      "id": "IT2a|f80v.33|G002",
+      "raw_surface": "qoker",
+      "segmentation": [
+        "q",
+        "o",
+        "ker"
+      ],
+      "semantic_contribution": "Unassigned o and ker block acquisition composition.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 29,
+      "id": "IT2a|f80v.33|G003",
+      "raw_surface": "olkain",
+      "segmentation": [
+        "ol",
+        "kain"
+      ],
+      "semantic_contribution": "RECALL(M): request the uniquely retained compatible material; no such instance is established.",
+      "attachment": "Conditional fragment F2: RECALL(M) is a material-reference expression; unique instance unbound.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 30,
+      "id": "IT2a|f80v.33|G004",
+      "raw_surface": "olshedy",
+      "segmentation": [
+        "ol",
+        "shedy"
+      ],
+      "semantic_contribution": "SETTLE(patient=RECALL(M)); same settling core as shedy.",
+      "attachment": "F2: SETTLE(RECALL(M)); ol explicitly supplies recalled-type patient. No latest-output fallback.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 31,
+      "id": "IT2a|f80v.33|G005",
+      "raw_surface": "qokey",
+      "segmentation": [
+        "q",
+        "o",
+        "key"
+      ],
+      "semantic_contribution": "Unassigned o and key block acquisition composition.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 32,
+      "id": "IT2a|f80v.33|G006",
+      "raw_surface": "qokeey",
+      "segmentation": [
+        "q",
+        "o",
+        "keey"
+      ],
+      "semantic_contribution": "Unassigned o and keey block acquisition composition; not an alias of qokey.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 33,
+      "id": "IT2a|f80v.33|G007",
+      "raw_surface": "tchcthy",
+      "segmentation": [
+        "tchcthy"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 34,
+      "id": "IT2a|f80v.33|G008",
+      "raw_surface": "lom",
+      "segmentation": [
+        "lom"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    },
+    {
+      "position": 35,
+      "id": "IT2a|f80v.34|G001",
+      "raw_surface": "dol",
+      "segmentation": [
+        "dol"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 36,
+      "id": "IT2a|f80v.34|G002",
+      "raw_surface": "sheyr",
+      "segmentation": [
+        "sheyr"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 37,
+      "id": "IT2a|f80v.34|G003",
+      "raw_surface": "shey",
+      "segmentation": [
+        "shey"
+      ],
+      "semantic_contribution": "AGITATE(M_patient); patient must be explicitly attached or uniquely active.",
+      "attachment": "Unary event with unresolved M patient",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 38,
+      "id": "IT2a|f80v.34|G004",
+      "raw_surface": "olshey",
+      "segmentation": [
+        "ol",
+        "shey"
+      ],
+      "semantic_contribution": "AGITATE(patient=RECALL(M)); same agitation core as shey.",
+      "attachment": "Explicit retained-type patient; identity unresolved",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 39,
+      "id": "IT2a|f80v.34|G005",
+      "raw_surface": "cthor",
+      "segmentation": [
+        "cthor"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 40,
+      "id": "IT2a|f80v.34|G006",
+      "raw_surface": "ylchdy",
+      "segmentation": [
+        "ylchdy"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 41,
+      "id": "IT2a|f80v.34|G007",
+      "raw_surface": "olkain",
+      "segmentation": [
+        "ol",
+        "kain"
+      ],
+      "semantic_contribution": "RECALL(M): request the uniquely retained compatible material; no such instance is established.",
+      "attachment": "RECALL(M)",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 42,
+      "id": "IT2a|f80v.34|G008",
+      "raw_surface": "shcthy",
+      "segmentation": [
+        "shcthy"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 43,
+      "id": "IT2a|f80v.34|G009",
+      "raw_surface": "qoly",
+      "segmentation": [
+        "qoly"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    },
+    {
+      "position": 44,
+      "id": "IT2a|f80v.35|G001",
+      "raw_surface": "tol",
+      "segmentation": [
+        "tol"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 45,
+      "id": "IT2a|f80v.35|G002",
+      "raw_surface": "oltain",
+      "segmentation": [
+        "ol",
+        "tain"
+      ],
+      "semantic_contribution": "Pending recall; tain is an unassigned descriptor, not a forced second material.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 46,
+      "id": "IT2a|f80v.35|G003",
+      "raw_surface": "olkar",
+      "segmentation": [
+        "ol",
+        "kar"
+      ],
+      "semantic_contribution": "Pending recall; kar is unassigned.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 47,
+      "id": "IT2a|f80v.35|G004",
+      "raw_surface": "y",
+      "segmentation": [
+        "y"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 48,
+      "id": "IT2a|f80v.35|G005",
+      "raw_surface": "qol",
+      "segmentation": [
+        "q",
+        "ol"
+      ],
+      "semantic_contribution": "Pending ACQUIRE(RECALL(next operand)); both operators remain active.",
+      "attachment": "Outer q(ol(...)) remains live. With the next complete expression q(ol(kain)), ol produces a patient-modified event; outer q then receives an Event, violating G2. Unconsumed typed conflict.",
+      "status": "unconsumed_type_conflict",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 49,
+      "id": "IT2a|f80v.35|G006",
+      "raw_surface": "qol",
+      "segmentation": [
+        "q",
+        "ol"
+      ],
+      "semantic_contribution": "Pending ACQUIRE(RECALL(next operand)); both operators remain active.",
+      "attachment": "Inner q(ol(kain)) would be ACQUIRE(RECALL(M)) from position50. It cannot erase the outer request at48.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 50,
+      "id": "IT2a|f80v.35|G007",
+      "raw_surface": "kain",
+      "segmentation": [
+        "kain"
+      ],
+      "semantic_contribution": "M type descriptor; identity alone is unspecified.",
+      "attachment": "M descriptor consumed only by the proposed inner request49; source identity remains unresolved. It is not an intensifier or zero contribution.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 51,
+      "id": "IT2a|f80v.35|G008",
+      "raw_surface": "okiin",
+      "segmentation": [
+        "okiin"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 52,
+      "id": "IT2a|f80v.35|G009",
+      "raw_surface": "ol",
+      "segmentation": [
+        "ol"
+      ],
+      "semantic_contribution": "Pending RECALL or explicit recalled patient substitution, depending only on operand type.",
+      "attachment": "Conditional fragment F3: standalone ol scopes onto kain53, giving RECALL(M).",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 53,
+      "id": "IT2a|f80v.35|G010",
+      "raw_surface": "kain",
+      "segmentation": [
+        "kain"
+      ],
+      "semantic_contribution": "M type descriptor; identity alone is unspecified.",
+      "attachment": "F3: same kain core as50; under ol52 yields RECALL(M), not a new independent lexical value.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 54,
+      "id": "IT2a|f80v.35|G011",
+      "raw_surface": "shey",
+      "segmentation": [
+        "shey"
+      ],
+      "semantic_contribution": "AGITATE(M_patient); patient must be explicitly attached or uniquely active.",
+      "attachment": "F3: AGITATE(RECALL(M)) by G6, conditional on unique recalled instance.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 55,
+      "id": "IT2a|f80v.35|G012",
+      "raw_surface": "ldy",
+      "segmentation": [
+        "ldy"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    },
+    {
+      "position": 56,
+      "id": "IT2a|f80v.36|G001",
+      "raw_surface": "soin",
+      "segmentation": [
+        "soin"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 57,
+      "id": "IT2a|f80v.36|G002",
+      "raw_surface": "okain",
+      "segmentation": [
+        "o",
+        "kain"
+      ],
+      "semantic_contribution": "M core is recognized conditionally; o is unassigned, so the whole form has no composable contribution.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 58,
+      "id": "IT2a|f80v.36|G003",
+      "raw_surface": "sheor",
+      "segmentation": [
+        "sheor"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 59,
+      "id": "IT2a|f80v.36|G004",
+      "raw_surface": "ol",
+      "segmentation": [
+        "ol"
+      ],
+      "semantic_contribution": "Pending RECALL or explicit recalled patient substitution, depending only on operand type.",
+      "attachment": "Conditional fragment F4: standalone ol scopes onto unary event shey60, substituting recalled M patient.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 60,
+      "id": "IT2a|f80v.36|G005",
+      "raw_surface": "shey",
+      "segmentation": [
+        "shey"
+      ],
+      "semantic_contribution": "AGITATE(M_patient); patient must be explicitly attached or uniquely active.",
+      "attachment": "F4: AGITATE(RECALL(M)), equal in declared semantics to olshey; retained instance unbound.",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 61,
+      "id": "IT2a|f80v.36|G006",
+      "raw_surface": "daly",
+      "segmentation": [
+        "daly"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 62,
+      "id": "IT2a|f80v.36|G007",
+      "raw_surface": "olshedy",
+      "segmentation": [
+        "ol",
+        "shedy"
+      ],
+      "semantic_contribution": "SETTLE(patient=RECALL(M)); same settling core as shedy.",
+      "attachment": "Explicit retained-type patient; identity unresolved",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 63,
+      "id": "IT2a|f80v.36|G008",
+      "raw_surface": "olal",
+      "segmentation": [
+        "ol",
+        "al"
+      ],
+      "semantic_contribution": "Pending recall; al is unassigned.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 64,
+      "id": "IT2a|f80v.36|G009",
+      "raw_surface": "shedy",
+      "segmentation": [
+        "shedy"
+      ],
+      "semantic_contribution": "SETTLE(M_patient); no named fraction or second product is supplied.",
+      "attachment": "Unary event with unresolved M patient",
+      "status": "conditional_family_fragment_unbound",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 65,
+      "id": "IT2a|f80v.36|G010",
+      "raw_surface": "lchy",
+      "segmentation": [
+        "lchy"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    },
+    {
+      "position": 66,
+      "id": "IT2a|f80v.37|G001",
+      "raw_surface": "polshdy",
+      "segmentation": [
+        "polshdy"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 67,
+      "id": "IT2a|f80v.37|G002",
+      "raw_surface": "qokeedy",
+      "segmentation": [
+        "q",
+        "o",
+        "keedy"
+      ],
+      "semantic_contribution": "q has one acquisition role only. o and keedy are unassigned; no event-specific q role is added.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 68,
+      "id": "IT2a|f80v.37|G003",
+      "raw_surface": "shky",
+      "segmentation": [
+        "shky"
+      ],
+      "semantic_contribution": "Unknown whole-form contribution; no silent consumption, default, residual gloss, or source narrative assigned.",
+      "attachment": "Unattached and unconsumed.",
+      "status": "unknown_whole_form",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "position": 69,
+      "id": "IT2a|f80v.37|G004",
+      "raw_surface": "ololchey",
+      "segmentation": [
+        "ol",
+        "ol",
+        "chey"
+      ],
+      "semantic_contribution": "Two nested recall operators would need typed operands; chey is unassigned and neither ol is erased.",
+      "attachment": "Unresolved operator/core typing; no clause attachment permitted across it.",
+      "status": "unresolved_whole_form_with_tentative_subparts",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    }
+  ],
+  "research_decision": "STOP this nominated tuple as partial/unbound. No836reopening, no selected meaning, no reserve use, no source-copying claim, and no postreview repair."
+}

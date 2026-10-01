@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: FHnamed earlierproduct type;no targettest selected.
-Latest decision: Type return supported;batchidentity unresolved.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FH_REPORT.md.
-Assumptions: 0words;836not_tested;837raw;oldFG/FDfixed.
-Resume: Nominate full exposed typedbranch context beforeglosses.
-Running: None;threeSolthreads frozen.
+Task: FIwholefamily partial;QOLnested typeconflict.
+Latest decision: OuterOL rejectsEvent;F2nominalunconsumed.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FI_REPORT.md.
+Assumptions: 0words;836unreopened;old944/FD/FGfixed.
+Resume: Review283primary usingFItype/consumptionconstraint.
+Running: None;Solthreads frozen.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

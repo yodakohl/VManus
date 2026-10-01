@@ -1,3 +1,6 @@
+<!-- FI 2026-10-01 -->
+FI:whole69IT/208rawsharedfamilyattemptpartial, allunconsumed;fixedQOLQOLKAIN nesting failsouterOL(Event), notauthorlaterQ. F2nominal29unconsumed;only3conditionalcomposablefragments. Stop3root4op6grammar2defaulttuple;unusedcapsnotallmodelsfailure.836notreopened;0words0independentleaves. Nextreview283actualgovernedpairprimary withnewtype/consumptionconflict;no paircensusrerun. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FI_REPORT.md.
+
 <!-- FH 2026-10-01 -->
 FH:completeVII12 explicitWHITELEAD return afterVERDIGRIS;6sourcepolicies checked. Type distinction required;physicalbatchidentityundetermined. No targettest/wordmeaning;R6/AIINnotrefuted.836not_tested,837raw. Nextnominate complete exposed typedbranchconstruction fromwritten evidence beforemetalglosses;no sourceauditloop or FGrepair.0words0independentleaves. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FH_REPORT.md.
 

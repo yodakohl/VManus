@@ -1,0 +1,111 @@
+{
+  "status": "FROZEN_PACKET_AND_LOCAL_SORT_DIAGNOSTIC_PASS",
+  "checks": 99,
+  "raw_counts": {
+    "IT2a": 69,
+    "ZL3b": 70,
+    "RF1b": 69
+  },
+  "primary_status_counts": {
+    "unknown_whole_form": 28,
+    "conditional_family_fragment_unbound": 23,
+    "unresolved_whole_form_with_tentative_subparts": 17,
+    "unconsumed_type_conflict": 1
+  },
+  "whole_account_complete": false,
+  "continuous_consumed_prefix": 0,
+  "conditional_fragment_count": 4,
+  "local_signature_trace": [
+    {
+      "stage": "kain",
+      "sort": "MaterialType"
+    },
+    {
+      "stage": "innerOL",
+      "sort": "MaterialRef"
+    },
+    {
+      "stage": "innerQ",
+      "sort": "EventExpression"
+    }
+  ],
+  "first_local_sort_failure": {
+    "stage": "outerOL",
+    "received": "EventExpression",
+    "accepted": [
+      "MaterialType",
+      "UnaryEventDefinition"
+    ]
+  },
+  "windows": [
+    {
+      "edition": "IT2a",
+      "ids": [
+        "IT2a|f80v.35|G005",
+        "IT2a|f80v.35|G006",
+        "IT2a|f80v.35|G007"
+      ],
+      "surface": [
+        "qol",
+        "qol",
+        "kain"
+      ],
+      "own_paragraph_capacity": true,
+      "fixed_nested_sort_result": {
+        "stage": "outerOL",
+        "received": "EventExpression",
+        "accepted": [
+          "MaterialType",
+          "UnaryEventDefinition"
+        ]
+      }
+    },
+    {
+      "edition": "ZL3b",
+      "ids": [
+        "ZL3b|f80v.35|G005",
+        "ZL3b|f80v.35|G006",
+        "ZL3b|f80v.35|G007"
+      ],
+      "surface": [
+        "qol",
+        "qol",
+        "kain"
+      ],
+      "own_paragraph_capacity": true,
+      "fixed_nested_sort_result": {
+        "stage": "outerOL",
+        "received": "EventExpression",
+        "accepted": [
+          "MaterialType",
+          "UnaryEventDefinition"
+        ]
+      }
+    },
+    {
+      "edition": "RF1b",
+      "ids": [
+        "RF1b|f80v.35|G005",
+        "RF1b|f80v.35|G006",
+        "RF1b|f80v.35|G007"
+      ],
+      "surface": [
+        "qol",
+        "qol",
+        "kain"
+      ],
+      "own_paragraph_capacity": false,
+      "fixed_nested_sort_result": {
+        "stage": "outerOL",
+        "received": "EventExpression",
+        "accepted": [
+          "MaterialType",
+          "UnaryEventDefinition"
+        ]
+      }
+    }
+  ],
+  "scope": "One fixed author nesting and signature projection; no exhaustive full-grammar search or generic meaning refutation",
+  "confirmed_words": 0,
+  "independent_confirmation_capacity": 0
+}
