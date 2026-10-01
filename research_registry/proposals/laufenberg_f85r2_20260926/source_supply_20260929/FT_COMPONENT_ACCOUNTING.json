@@ -1,0 +1,4554 @@
+{
+  "status": "PASS_SOURCE_ACCOUNTING_ONLY",
+  "source_hashes": {
+    "FT_SOURCE_PACKET.json": "31de602d3d3a6b1c58caf5563159a3f757fe05995971f9319b769c4bbb95fa26",
+    "FT_SOURCE_GROUPS.tsv": "d72590c4350134270156f928fe4d9d377e2fac1f920bcacd2573b16f3bd80928",
+    "FT_SOURCE_RECEIPT.json": "c41d92b31060a7591225a61e71ec7d0820c809dbeb119c4417727516cb523433",
+    "FT_WORD_PRIORS.json": "37eadbb4499609b9eb469be46613a72bbcb86e6234dd495ee5e3b8e3b4d6a5a9",
+    "FT_WORD_PRIORS.md": "39a85c77d84cbe2c90496dd6881cb416267ea644d0b8df68eb74b9b7af752fcd"
+  },
+  "validator_sha256": "385fafc7e5be8683237cfaf93d91c2d957addb0e4824babe0dca7bf8f82732ce",
+  "counts": {
+    "source_groups": 655,
+    "loci": 45,
+    "primary": {
+      "ZL3b": 126,
+      "IT2a": 123,
+      "RF1b": 127
+    },
+    "predecessors": {
+      "ZL3b": 93,
+      "IT2a": 93,
+      "RF1b": 93
+    },
+    "native_boundary_flags": {
+      "ZL3b": {
+        "paragraph_start": 5,
+        "paragraph_end": 5
+      },
+      "IT2a": {
+        "paragraph_start": 4,
+        "paragraph_end": 4
+      },
+      "RF1b": {
+        "paragraph_start": 0,
+        "paragraph_end": 0
+      }
+    }
+  },
+  "checks": [
+    {
+      "check": "frozen_hash:FT_SOURCE_PACKET.json",
+      "passed": true
+    },
+    {
+      "check": "frozen_hash:FT_SOURCE_GROUPS.tsv",
+      "passed": true
+    },
+    {
+      "check": "frozen_hash:FT_SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "frozen_hash:FT_WORD_PRIORS.json",
+      "passed": true
+    },
+    {
+      "check": "frozen_hash:FT_WORD_PRIORS.md",
+      "passed": true
+    },
+    {
+      "check": "receipt_packet_hash",
+      "passed": true
+    },
+    {
+      "check": "receipt_table_hash",
+      "passed": true
+    },
+    {
+      "check": "655_unique_source_groups",
+      "passed": true
+    },
+    {
+      "check": "655_unique_TSV_groups",
+      "passed": true
+    },
+    {
+      "check": "45_exact_loci",
+      "passed": true
+    },
+    {
+      "check": "no_sealed_or_unadmitted_page",
+      "passed": true
+    },
+    {
+      "check": "30_exact_contexts",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_P4:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_P4:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_P4:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_P4:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:ZL3b:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:ZL3b:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:ZL3b:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:ZL3b:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P4:ZL3b:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:ZL3b:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:ZL3b:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:ZL3b:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:ZL3b:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P4:ZL3b:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:ZL3b:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:ZL3b:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:ZL3b:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:ZL3b:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P4:ZL3b:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:ZL3b:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:ZL3b:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:ZL3b:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:ZL3b:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P4:ZL3b:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:ZL3b:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:ZL3b:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:ZL3b:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:ZL3b:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P4:ZL3b:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:ZL3b:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:ZL3b:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:ZL3b:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:ZL3b:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P4:ZL3b:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_P4:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_P4:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_P4:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_P4:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_P4:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:IT2a:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:IT2a:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:IT2a:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:IT2a:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:IT2a:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:IT2a:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:IT2a:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:IT2a:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:IT2a:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:IT2a:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:IT2a:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:IT2a:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:IT2a:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:IT2a:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:IT2a:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:IT2a:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:IT2a:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:IT2a:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:IT2a:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:IT2a:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:IT2a:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:IT2a:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:IT2a:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:IT2a:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_P4:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_P4:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_P4:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_P4:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_P4:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:RF1b:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:RF1b:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:RF1b:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:RF1b:f83r.25",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:RF1b:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:RF1b:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:RF1b:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:RF1b:f83r.26",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:RF1b:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:RF1b:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:RF1b:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:RF1b:f83r.27",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:RF1b:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:RF1b:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:RF1b:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:RF1b:f83r.28",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:RF1b:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:RF1b:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:RF1b:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:RF1b:f83r.29",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P4:RF1b:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P4:RF1b:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P4:RF1b:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P4:RF1b:f83r.30",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_P4:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_P5:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_P5:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_P5:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_P5:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:ZL3b:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:ZL3b:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:ZL3b:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:ZL3b:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_P5:ZL3b:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_P5:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_P5:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_P5:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_P5:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_P5:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:IT2a:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:IT2a:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:IT2a:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:IT2a:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_P5:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_P5:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_P5:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_P5:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_P5:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.31",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.32",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.33",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.34",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.35",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.36",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.37",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.38",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.39",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.40",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.41",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.42",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.43",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_P5:RF1b:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_P5:RF1b:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_P5:RF1b:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_P5:RF1b:f83r.44",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_P5:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_Q1:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_Q1:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_Q1:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_Q1:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q1:ZL3b:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q1:ZL3b:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q1:ZL3b:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q1:ZL3b:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_Q1:ZL3b:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q1:ZL3b:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q1:ZL3b:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q1:ZL3b:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q1:ZL3b:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_Q1:ZL3b:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q1:ZL3b:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q1:ZL3b:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q1:ZL3b:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q1:ZL3b:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_Q1:ZL3b:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_Q1:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_Q1:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_Q1:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_Q1:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_Q1:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q1:IT2a:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q1:IT2a:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q1:IT2a:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q1:IT2a:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q1:IT2a:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q1:IT2a:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q1:IT2a:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q1:IT2a:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q1:IT2a:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q1:IT2a:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q1:IT2a:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q1:IT2a:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_Q1:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_Q1:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_Q1:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_Q1:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_Q1:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q1:RF1b:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q1:RF1b:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q1:RF1b:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q1:RF1b:f83r.47",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q1:RF1b:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q1:RF1b:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q1:RF1b:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q1:RF1b:f83r.48",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q1:RF1b:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q1:RF1b:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q1:RF1b:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q1:RF1b:f83r.49",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_Q1:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_Q2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_Q2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_Q2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_Q2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:ZL3b:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:ZL3b:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:ZL3b:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:ZL3b:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_Q2:ZL3b:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:ZL3b:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:ZL3b:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:ZL3b:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:ZL3b:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_Q2:ZL3b:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:ZL3b:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:ZL3b:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:ZL3b:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:ZL3b:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_Q2:ZL3b:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:ZL3b:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:ZL3b:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:ZL3b:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:ZL3b:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_Q2:ZL3b:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_Q2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_Q2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_Q2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_Q2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_Q2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:IT2a:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:IT2a:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:IT2a:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:IT2a:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:IT2a:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:IT2a:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:IT2a:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:IT2a:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:IT2a:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:IT2a:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:IT2a:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:IT2a:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:IT2a:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:IT2a:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:IT2a:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:IT2a:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_Q2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_Q2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_Q2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_Q2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_Q2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:RF1b:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:RF1b:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:RF1b:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:RF1b:f83r.52",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:RF1b:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:RF1b:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:RF1b:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:RF1b:f83r.53",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:RF1b:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:RF1b:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:RF1b:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:RF1b:f83r.54",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_Q2:RF1b:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_Q2:RF1b:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_Q2:RF1b:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_Q2:RF1b:f83r.55",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_Q2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_45:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_45:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_45:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_45:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_45:ZL3b:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_45:ZL3b:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_45:ZL3b:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_45:ZL3b:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_CAPTION_45:ZL3b:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_45:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_45:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_45:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_45:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_45:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_45:IT2a:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_45:IT2a:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_45:IT2a:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_45:IT2a:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_45:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_45:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_45:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_45:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_45:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_45:RF1b:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_45:RF1b:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_45:RF1b:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_45:RF1b:f83r.45",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_45:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_46:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_46:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_46:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_46:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_46:ZL3b:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_46:ZL3b:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_46:ZL3b:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_46:ZL3b:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_CAPTION_46:ZL3b:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_46:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_46:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_46:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_46:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_46:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_46:IT2a:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_46:IT2a:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_46:IT2a:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_46:IT2a:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_46:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_46:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_46:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_46:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_46:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_46:RF1b:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_46:RF1b:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_46:RF1b:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_46:RF1b:f83r.46",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_46:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_50:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_50:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_50:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_50:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_50:ZL3b:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_50:ZL3b:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_50:ZL3b:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_50:ZL3b:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_CAPTION_50:ZL3b:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_50:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_50:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_50:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_50:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_50:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_50:IT2a:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_50:IT2a:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_50:IT2a:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_50:IT2a:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_50:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_50:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_50:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_50:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_50:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_50:RF1b:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_50:RF1b:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_50:RF1b:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_50:RF1b:f83r.50",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_50:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_51:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_51:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_51:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_51:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_51:ZL3b:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_51:ZL3b:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_51:ZL3b:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_51:ZL3b:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F83_CAPTION_51:ZL3b:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_51:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_51:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_51:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_51:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_51:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_51:IT2a:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_51:IT2a:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_51:IT2a:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_51:IT2a:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_51:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F83_CAPTION_51:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F83_CAPTION_51:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F83_CAPTION_51:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F83_CAPTION_51:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F83_CAPTION_51:RF1b:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F83_CAPTION_51:RF1b:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F83_CAPTION_51:RF1b:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F83_CAPTION_51:RF1b:f83r.51",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F83_CAPTION_51:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F77_P2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F77_P2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F77_P2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F77_P2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:ZL3b:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:ZL3b:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:ZL3b:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:ZL3b:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_P2:ZL3b:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F77_P2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F77_P2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F77_P2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F77_P2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F77_P2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:IT2a:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:IT2a:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:IT2a:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:IT2a:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F77_P2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F77_P2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F77_P2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F77_P2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F77_P2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.25",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.26",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.27",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.28",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.29",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.30",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.31",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.32",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.33",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.34",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.35",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.36",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_P2:RF1b:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_P2:RF1b:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_P2:RF1b:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_P2:RF1b:f77r.37",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F77_P2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F77_OTCHDY_LABEL:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F77_OTCHDY_LABEL:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F77_OTCHDY_LABEL:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F77_OTCHDY_LABEL:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_OTCHDY_LABEL:ZL3b:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_OTCHDY_LABEL:ZL3b:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_OTCHDY_LABEL:ZL3b:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_OTCHDY_LABEL:ZL3b:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_ZL_row_flags_body:F77_OTCHDY_LABEL:ZL3b:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F77_OTCHDY_LABEL:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F77_OTCHDY_LABEL:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F77_OTCHDY_LABEL:IT2a",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F77_OTCHDY_LABEL:IT2a",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F77_OTCHDY_LABEL:IT2a",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_OTCHDY_LABEL:IT2a:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_OTCHDY_LABEL:IT2a:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_OTCHDY_LABEL:IT2a:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_OTCHDY_LABEL:IT2a:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F77_OTCHDY_LABEL:IT2a",
+      "passed": true
+    },
+    {
+      "check": "unit_count:F77_OTCHDY_LABEL:RF1b",
+      "passed": true
+    },
+    {
+      "check": "unit_positions:F77_OTCHDY_LABEL:RF1b",
+      "passed": true
+    },
+    {
+      "check": "complete_loci:F77_OTCHDY_LABEL:RF1b",
+      "passed": true
+    },
+    {
+      "check": "lines_equal_context_groups:F77_OTCHDY_LABEL:RF1b",
+      "passed": true
+    },
+    {
+      "check": "native_IDs_ordinals_count:F77_OTCHDY_LABEL:RF1b:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_flags:F77_OTCHDY_LABEL:RF1b:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_separator_seams:F77_OTCHDY_LABEL:RF1b:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "verbatim_body:F77_OTCHDY_LABEL:RF1b:f77r.49",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_lists:F77_OTCHDY_LABEL:RF1b",
+      "passed": true
+    },
+    {
+      "check": "TSV_exact_all_fields_and_order",
+      "passed": true
+    },
+    {
+      "check": "literal_primary_126_123_127",
+      "passed": true
+    },
+    {
+      "check": "predecessor_93_each",
+      "passed": true
+    },
+    {
+      "check": "native_boundary_counts_not_imputed",
+      "passed": true
+    },
+    {
+      "check": "native_caption50_variants",
+      "passed": true
+    },
+    {
+      "check": "other_captions_and_predecessor_label_exact",
+      "passed": true
+    },
+    {
+      "check": "author_row_accounting:FT_AUTHOR_COMPONENT.json:655_unique_complete_IDs",
+      "passed": true
+    },
+    {
+      "check": "author_row_accounting:FT_AUTHOR_COMPONENT.json:exact_raw_wholes",
+      "passed": true
+    },
+    {
+      "check": "author_row_accounting:FT_AUTHOR_COMPONENT.json:native_order_within_unit_and_reader",
+      "passed": true
+    },
+    {
+      "check": "author_row_accounting:FT_AUTHOR_COMPONENT.json:repeat_whole_ID_sets",
+      "passed": true
+    },
+    {
+      "check": "author_row_accounting:FT_AUTHOR_COMPONENT.json:declared_packet_hash",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "author_ledgers": [
+    {
+      "file": "FT_AUTHOR_COMPONENT.json",
+      "sha256": "088e54f9865d77b6f4e461a522e750fd241111f40530feb37e24f35b1c890afc",
+      "recognized_identity_rows": 655,
+      "semantic_fields_inspected": false,
+      "schema_scope": "recognized ledger lists; IDs/raw forms/order only"
+    }
+  ],
+  "whole_repeat_ID_index": {
+    "ZL3b": {
+      "[?:s]cheol": [
+        "ZL3b|f83r.32|G001"
+      ],
+      "aiin": [
+        "ZL3b|f83r.33|G003",
+        "ZL3b|f83r.36|G002",
+        "ZL3b|f83r.48|G005"
+      ],
+      "ain": [
+        "ZL3b|f77r.32|G002"
+      ],
+      "chckhal": [
+        "ZL3b|f83r.39|G004"
+      ],
+      "chckhey": [
+        "ZL3b|f77r.30|G002"
+      ],
+      "chckhy": [
+        "ZL3b|f77r.31|G002"
+      ],
+      "chcthdy": [
+        "ZL3b|f83r.42|G003"
+      ],
+      "chcthy": [
+        "ZL3b|f77r.26|G004"
+      ],
+      "chdal": [
+        "ZL3b|f83r.48|G004"
+      ],
+      "chdy": [
+        "ZL3b|f83r.35|G005"
+      ],
+      "chealor": [
+        "ZL3b|f77r.32|G005"
+      ],
+      "chealy": [
+        "ZL3b|f77r.35|G008"
+      ],
+      "checkhy": [
+        "ZL3b|f77r.34|G007"
+      ],
+      "chedaiin": [
+        "ZL3b|f83r.40|G003",
+        "ZL3b|f77r.35|G007"
+      ],
+      "chedy": [
+        "ZL3b|f83r.25|G005",
+        "ZL3b|f83r.27|G002",
+        "ZL3b|f83r.42|G005",
+        "ZL3b|f83r.43|G003",
+        "ZL3b|f83r.49|G003",
+        "ZL3b|f77r.25|G007",
+        "ZL3b|f77r.33|G002",
+        "ZL3b|f77r.34|G003",
+        "ZL3b|f77r.35|G003",
+        "ZL3b|f77r.36|G004"
+      ],
+      "cheedy": [
+        "ZL3b|f77r.37|G005"
+      ],
+      "cheeky": [
+        "ZL3b|f83r.28|G002",
+        "ZL3b|f77r.30|G006"
+      ],
+      "cheeol": [
+        "ZL3b|f77r.29|G002"
+      ],
+      "cheety": [
+        "ZL3b|f77r.33|G008"
+      ],
+      "cheey": [
+        "ZL3b|f83r.29|G002",
+        "ZL3b|f77r.32|G006",
+        "ZL3b|f77r.37|G006"
+      ],
+      "cheky": [
+        "ZL3b|f83r.35|G002"
+      ],
+      "cheol": [
+        "ZL3b|f83r.48|G002",
+        "ZL3b|f83r.53|G002",
+        "ZL3b|f77r.32|G003"
+      ],
+      "chey": [
+        "ZL3b|f83r.38|G002",
+        "ZL3b|f83r.54|G004",
+        "ZL3b|f77r.37|G002"
+      ],
+      "chtorol": [
+        "ZL3b|f83r.45|G001"
+      ],
+      "cthal": [
+        "ZL3b|f83r.55|G003"
+      ],
+      "d[a:y]ry": [
+        "ZL3b|f77r.32|G008"
+      ],
+      "d[o:a]lchl": [
+        "ZL3b|f77r.36|G005"
+      ],
+      "daiiin": [
+        "ZL3b|f83r.49|G002"
+      ],
+      "daiin": [
+        "ZL3b|f83r.43|G001",
+        "ZL3b|f83r.54|G001",
+        "ZL3b|f77r.33|G001"
+      ],
+      "dain": [
+        "ZL3b|f83r.27|G001",
+        "ZL3b|f83r.54|G003"
+      ],
+      "dairydy": [
+        "ZL3b|f83r.38|G004"
+      ],
+      "dal": [
+        "ZL3b|f83r.41|G004",
+        "ZL3b|f83r.48|G001",
+        "ZL3b|f77r.25|G006"
+      ],
+      "darolsy": [
+        "ZL3b|f83r.51|G001"
+      ],
+      "daror": [
+        "ZL3b|f77r.25|G008"
+      ],
+      "dolshed": [
+        "ZL3b|f83r.34|G003"
+      ],
+      "dshedy": [
+        "ZL3b|f77r.36|G001"
+      ],
+      "dy": [
+        "ZL3b|f77r.33|G009"
+      ],
+      "iin": [
+        "ZL3b|f77r.30|G004"
+      ],
+      "kain": [
+        "ZL3b|f83r.39|G003"
+      ],
+      "keedy": [
+        "ZL3b|f77r.33|G004"
+      ],
+      "kesd": [
+        "ZL3b|f83r.29|G004"
+      ],
+      "l": [
+        "ZL3b|f83r.42|G004"
+      ],
+      "lchdy": [
+        "ZL3b|f83r.42|G006"
+      ],
+      "lchedy": [
+        "ZL3b|f83r.32|G003",
+        "ZL3b|f83r.34|G002",
+        "ZL3b|f83r.37|G003",
+        "ZL3b|f83r.41|G002",
+        "ZL3b|f77r.26|G005",
+        "ZL3b|f77r.37|G007"
+      ],
+      "ldalor": [
+        "ZL3b|f83r.54|G005"
+      ],
+      "ldy": [
+        "ZL3b|f83r.31|G004"
+      ],
+      "lkedy": [
+        "ZL3b|f83r.37|G002"
+      ],
+      "lol": [
+        "ZL3b|f83r.48|G003",
+        "ZL3b|f77r.30|G007"
+      ],
+      "lom": [
+        "ZL3b|f77r.28|G006"
+      ],
+      "lshedy": [
+        "ZL3b|f83r.36|G005"
+      ],
+      "oiiiin": [
+        "ZL3b|f77r.33|G007"
+      ],
+      "okaiin": [
+        "ZL3b|f77r.27|G003",
+        "ZL3b|f77r.35|G002"
+      ],
+      "okain": [
+        "ZL3b|f83r.35|G004"
+      ],
+      "okeedy": [
+        "ZL3b|f83r.30|G002",
+        "ZL3b|f83r.31|G003"
+      ],
+      "okeeol": [
+        "ZL3b|f83r.35|G003"
+      ],
+      "ol": [
+        "ZL3b|f83r.42|G002",
+        "ZL3b|f83r.52|G004",
+        "ZL3b|f83r.53|G004",
+        "ZL3b|f83r.54|G002",
+        "ZL3b|f77r.32|G004"
+      ],
+      "olchedy": [
+        "ZL3b|f83r.40|G002"
+      ],
+      "olcheedy": [
+        "ZL3b|f77r.28|G004"
+      ],
+      "olchey": [
+        "ZL3b|f77r.28|G001",
+        "ZL3b|f77r.36|G008"
+      ],
+      "oldy": [
+        "ZL3b|f83r.28|G006",
+        "ZL3b|f83r.29|G005"
+      ],
+      "olsaiin": [
+        "ZL3b|f83r.46|G001"
+      ],
+      "or": [
+        "ZL3b|f83r.38|G001"
+      ],
+      "otal": [
+        "ZL3b|f83r.25|G006"
+      ],
+      "otchdy": [
+        "ZL3b|f83r.47|G001",
+        "ZL3b|f77r.49|G001"
+      ],
+      "otchey": [
+        "ZL3b|f83r.26|G001"
+      ],
+      "otedy": [
+        "ZL3b|f77r.25|G001"
+      ],
+      "pchedy": [
+        "ZL3b|f77r.36|G002"
+      ],
+      "qekey": [
+        "ZL3b|f83r.52|G002"
+      ],
+      "qet[eiiin:aiin]": [
+        "ZL3b|f77r.32|G007"
+      ],
+      "qockhey": [
+        "ZL3b|f83r.38|G003"
+      ],
+      "qody": [
+        "ZL3b|f83r.29|G003"
+      ],
+      "qokaiin": [
+        "ZL3b|f77r.26|G003",
+        "ZL3b|f77r.30|G001",
+        "ZL3b|f77r.34|G001",
+        "ZL3b|f77r.34|G005",
+        "ZL3b|f77r.34|G006",
+        "ZL3b|f77r.35|G006"
+      ],
+      "qokain": [
+        "ZL3b|f83r.39|G001",
+        "ZL3b|f77r.27|G002",
+        "ZL3b|f77r.28|G003",
+        "ZL3b|f77r.31|G001",
+        "ZL3b|f77r.35|G004",
+        "ZL3b|f77r.37|G004"
+      ],
+      "qokal": [
+        "ZL3b|f77r.25|G004"
+      ],
+      "qokaly": [
+        "ZL3b|f77r.26|G006"
+      ],
+      "qokar": [
+        "ZL3b|f77r.25|G002"
+      ],
+      "qokchdy": [
+        "ZL3b|f83r.47|G002"
+      ],
+      "qokchedy": [
+        "ZL3b|f83r.32|G002"
+      ],
+      "qokchy": [
+        "ZL3b|f83r.34|G004"
+      ],
+      "qokedy": [
+        "ZL3b|f83r.25|G004",
+        "ZL3b|f83r.28|G004"
+      ],
+      "qokeedy": [
+        "ZL3b|f83r.25|G001",
+        "ZL3b|f83r.27|G003",
+        "ZL3b|f83r.30|G003",
+        "ZL3b|f77r.26|G002",
+        "ZL3b|f77r.27|G005",
+        "ZL3b|f77r.29|G003",
+        "ZL3b|f77r.29|G004",
+        "ZL3b|f77r.36|G006"
+      ],
+      "qokeey": [
+        "ZL3b|f83r.25|G003",
+        "ZL3b|f83r.26|G002",
+        "ZL3b|f77r.31|G003"
+      ],
+      "qokey": [
+        "ZL3b|f83r.32|G004",
+        "ZL3b|f83r.33|G005"
+      ],
+      "qokol": [
+        "ZL3b|f83r.37|G004",
+        "ZL3b|f77r.36|G007"
+      ],
+      "qoky": [
+        "ZL3b|f83r.26|G003",
+        "ZL3b|f83r.30|G004",
+        "ZL3b|f83r.36|G006"
+      ],
+      "qokylddy": [
+        "ZL3b|f83r.26|G006"
+      ],
+      "qol": [
+        "ZL3b|f77r.33|G003"
+      ],
+      "qolchedy": [
+        "ZL3b|f77r.34|G004"
+      ],
+      "qolchey": [
+        "ZL3b|f83r.25|G002"
+      ],
+      "qolkain": [
+        "ZL3b|f83r.41|G003",
+        "ZL3b|f77r.30|G005"
+      ],
+      "qor": [
+        "ZL3b|f77r.32|G001"
+      ],
+      "qotain": [
+        "ZL3b|f77r.36|G003"
+      ],
+      "qotal": [
+        "ZL3b|f83r.43|G004",
+        "ZL3b|f77r.29|G005"
+      ],
+      "qotar": [
+        "ZL3b|f83r.53|G003"
+      ],
+      "qotary": [
+        "ZL3b|f77r.31|G006"
+      ],
+      "qotchedy": [
+        "ZL3b|f83r.31|G002"
+      ],
+      "qotedy": [
+        "ZL3b|f77r.27|G006",
+        "ZL3b|f77r.31|G004",
+        "ZL3b|f77r.31|G005"
+      ],
+      "qoteedy": [
+        "ZL3b|f77r.26|G001",
+        "ZL3b|f77r.37|G003"
+      ],
+      "qoteeedy": [
+        "ZL3b|f77r.33|G005"
+      ],
+      "qotey": [
+        "ZL3b|f77r.28|G002"
+      ],
+      "raiin": [
+        "ZL3b|f77r.34|G008"
+      ],
+      "raly": [
+        "ZL3b|f83r.52|G003"
+      ],
+      "rtain": [
+        "ZL3b|f83r.55|G002"
+      ],
+      "s": [
+        "ZL3b|f83r.30|G001",
+        "ZL3b|f83r.33|G002"
+      ],
+      "sa": [
+        "ZL3b|f77r.30|G003"
+      ],
+      "saii@208;": [
+        "ZL3b|f83r.30|G005"
+      ],
+      "saiin": [
+        "ZL3b|f83r.28|G001",
+        "ZL3b|f83r.35|G001",
+        "ZL3b|f77r.29|G001"
+      ],
+      "sain": [
+        "ZL3b|f83r.33|G006"
+      ],
+      "salche'dy": [
+        "ZL3b|f83r.29|G001"
+      ],
+      "sar": [
+        "ZL3b|f83r.43|G005",
+        "ZL3b|f77r.28|G005",
+        "ZL3b|f77r.33|G006"
+      ],
+      "sasoldal": [
+        "ZL3b|f83r.50|G001"
+      ],
+      "shckhedy": [
+        "ZL3b|f83r.27|G004",
+        "ZL3b|f83r.27|G005"
+      ],
+      "shedal": [
+        "ZL3b|f83r.47|G003"
+      ],
+      "shedar": [
+        "ZL3b|f77r.25|G005"
+      ],
+      "shedy": [
+        "ZL3b|f83r.26|G005",
+        "ZL3b|f83r.28|G005",
+        "ZL3b|f83r.37|G005",
+        "ZL3b|f83r.44|G002",
+        "ZL3b|f77r.25|G003",
+        "ZL3b|f77r.27|G004",
+        "ZL3b|f77r.34|G002"
+      ],
+      "sheedy": [
+        "ZL3b|f77r.35|G005"
+      ],
+      "sheekchy": [
+        "ZL3b|f83r.33|G004"
+      ],
+      "sheey": [
+        "ZL3b|f83r.28|G003"
+      ],
+      "sheol": [
+        "ZL3b|f83r.43|G002"
+      ],
+      "shey": [
+        "ZL3b|f83r.36|G004",
+        "ZL3b|f83r.39|G002"
+      ],
+      "shky": [
+        "ZL3b|f83r.34|G001"
+      ],
+      "shy": [
+        "ZL3b|f83r.36|G003"
+      ],
+      "skar": [
+        "ZL3b|f83r.44|G001"
+      ],
+      "so[r:s]": [
+        "ZL3b|f83r.36|G001"
+      ],
+      "sol": [
+        "ZL3b|f83r.37|G001",
+        "ZL3b|f83r.42|G001",
+        "ZL3b|f83r.49|G001",
+        "ZL3b|f83r.55|G001"
+      ],
+      "solchedy": [
+        "ZL3b|f83r.40|G001",
+        "ZL3b|f77r.27|G001"
+      ],
+      "solchkal": [
+        "ZL3b|f83r.53|G001"
+      ],
+      "solkeey": [
+        "ZL3b|f83r.52|G001",
+        "ZL3b|f77r.35|G001"
+      ],
+      "solkey": [
+        "ZL3b|f83r.41|G001"
+      ],
+      "sy": [
+        "ZL3b|f83r.33|G001"
+      ],
+      "techedy": [
+        "ZL3b|f83r.31|G001"
+      ],
+      "teeolain": [
+        "ZL3b|f77r.37|G001"
+      ],
+      "tol": [
+        "ZL3b|f83r.26|G004"
+      ]
+    },
+    "IT2a": {
+      "?cheol": [
+        "IT2a|f83r.32|G001"
+      ],
+      "aiin": [
+        "IT2a|f83r.36|G002",
+        "IT2a|f83r.48|G005"
+      ],
+      "ain": [
+        "IT2a|f77r.32|G002"
+      ],
+      "chckhal": [
+        "IT2a|f83r.39|G004"
+      ],
+      "chckhey": [
+        "IT2a|f77r.30|G002"
+      ],
+      "chckhy": [
+        "IT2a|f77r.31|G002"
+      ],
+      "chcthdy": [
+        "IT2a|f83r.42|G003"
+      ],
+      "chcthy": [
+        "IT2a|f77r.26|G004"
+      ],
+      "chdal": [
+        "IT2a|f83r.48|G004"
+      ],
+      "chdy": [
+        "IT2a|f83r.35|G005"
+      ],
+      "chealor": [
+        "IT2a|f77r.32|G005"
+      ],
+      "chealy": [
+        "IT2a|f77r.35|G008"
+      ],
+      "checkhy": [
+        "IT2a|f77r.34|G008"
+      ],
+      "chedaiin": [
+        "IT2a|f83r.40|G003",
+        "IT2a|f77r.35|G007"
+      ],
+      "chedy": [
+        "IT2a|f83r.25|G005",
+        "IT2a|f83r.27|G002",
+        "IT2a|f83r.43|G003",
+        "IT2a|f83r.49|G003",
+        "IT2a|f77r.25|G007",
+        "IT2a|f77r.33|G002",
+        "IT2a|f77r.34|G003",
+        "IT2a|f77r.34|G005",
+        "IT2a|f77r.35|G003",
+        "IT2a|f77r.36|G004"
+      ],
+      "cheedy": [
+        "IT2a|f77r.37|G005"
+      ],
+      "cheeky": [
+        "IT2a|f83r.28|G002",
+        "IT2a|f77r.30|G005"
+      ],
+      "cheeol": [
+        "IT2a|f77r.29|G002"
+      ],
+      "cheety": [
+        "IT2a|f77r.33|G008"
+      ],
+      "cheey": [
+        "IT2a|f83r.29|G002",
+        "IT2a|f77r.32|G006",
+        "IT2a|f77r.37|G006"
+      ],
+      "cheky": [
+        "IT2a|f83r.35|G002"
+      ],
+      "cheol": [
+        "IT2a|f83r.48|G002",
+        "IT2a|f83r.53|G002",
+        "IT2a|f77r.32|G003"
+      ],
+      "chey": [
+        "IT2a|f83r.38|G002",
+        "IT2a|f83r.54|G004",
+        "IT2a|f77r.37|G002"
+      ],
+      "chtorol": [
+        "IT2a|f83r.45|G001"
+      ],
+      "cthol": [
+        "IT2a|f83r.55|G003"
+      ],
+      "daiiin": [
+        "IT2a|f83r.49|G002"
+      ],
+      "daiin": [
+        "IT2a|f83r.43|G001",
+        "IT2a|f83r.54|G001",
+        "IT2a|f77r.33|G001"
+      ],
+      "dain": [
+        "IT2a|f83r.27|G001",
+        "IT2a|f83r.54|G003"
+      ],
+      "dairydy": [
+        "IT2a|f83r.38|G004"
+      ],
+      "dal": [
+        "IT2a|f83r.41|G004",
+        "IT2a|f83r.48|G001",
+        "IT2a|f77r.25|G006"
+      ],
+      "darolsy": [
+        "IT2a|f83r.51|G001"
+      ],
+      "daror": [
+        "IT2a|f77r.25|G008"
+      ],
+      "dary": [
+        "IT2a|f77r.32|G008"
+      ],
+      "dolchl": [
+        "IT2a|f77r.36|G005"
+      ],
+      "dolshed": [
+        "IT2a|f83r.34|G003"
+      ],
+      "dshedy": [
+        "IT2a|f77r.36|G001"
+      ],
+      "dy": [
+        "IT2a|f77r.33|G009"
+      ],
+      "kain": [
+        "IT2a|f83r.39|G003"
+      ],
+      "keedy": [
+        "IT2a|f77r.33|G004"
+      ],
+      "kesd": [
+        "IT2a|f83r.29|G004"
+      ],
+      "lchdy": [
+        "IT2a|f83r.42|G005"
+      ],
+      "lchedy": [
+        "IT2a|f83r.32|G003",
+        "IT2a|f83r.34|G002",
+        "IT2a|f83r.37|G003",
+        "IT2a|f83r.41|G002",
+        "IT2a|f83r.42|G004",
+        "IT2a|f77r.26|G005",
+        "IT2a|f77r.37|G007"
+      ],
+      "ldalor": [
+        "IT2a|f83r.54|G005"
+      ],
+      "ldy": [
+        "IT2a|f83r.31|G004"
+      ],
+      "lkedy": [
+        "IT2a|f83r.37|G002"
+      ],
+      "lol": [
+        "IT2a|f83r.48|G003",
+        "IT2a|f77r.30|G006"
+      ],
+      "lom": [
+        "IT2a|f77r.28|G006"
+      ],
+      "lshedy": [
+        "IT2a|f83r.36|G005"
+      ],
+      "oiiiin": [
+        "IT2a|f77r.33|G007"
+      ],
+      "okaiin": [
+        "IT2a|f77r.27|G003",
+        "IT2a|f77r.35|G002"
+      ],
+      "okain": [
+        "IT2a|f83r.35|G004"
+      ],
+      "okeedy": [
+        "IT2a|f83r.31|G003"
+      ],
+      "okeeol": [
+        "IT2a|f83r.35|G003"
+      ],
+      "ol": [
+        "IT2a|f83r.42|G002",
+        "IT2a|f83r.52|G004",
+        "IT2a|f83r.53|G004",
+        "IT2a|f83r.54|G002",
+        "IT2a|f77r.32|G004"
+      ],
+      "olchedy": [
+        "IT2a|f83r.40|G002"
+      ],
+      "olcheedy": [
+        "IT2a|f77r.28|G004"
+      ],
+      "olchey": [
+        "IT2a|f77r.28|G001",
+        "IT2a|f77r.36|G008"
+      ],
+      "oldy": [
+        "IT2a|f83r.28|G006",
+        "IT2a|f83r.29|G005"
+      ],
+      "olsaiin": [
+        "IT2a|f83r.46|G001"
+      ],
+      "or": [
+        "IT2a|f83r.38|G001"
+      ],
+      "otal": [
+        "IT2a|f83r.25|G006"
+      ],
+      "otchdy": [
+        "IT2a|f83r.47|G001",
+        "IT2a|f77r.49|G001"
+      ],
+      "otchey": [
+        "IT2a|f83r.26|G001"
+      ],
+      "otedy": [
+        "IT2a|f77r.25|G001"
+      ],
+      "pchedy": [
+        "IT2a|f77r.36|G002"
+      ],
+      "qekey": [
+        "IT2a|f83r.52|G002"
+      ],
+      "qetaiin": [
+        "IT2a|f77r.32|G007"
+      ],
+      "qockhey": [
+        "IT2a|f83r.38|G003"
+      ],
+      "qody": [
+        "IT2a|f83r.29|G003"
+      ],
+      "qokaiin": [
+        "IT2a|f77r.26|G003",
+        "IT2a|f77r.30|G001",
+        "IT2a|f77r.34|G001",
+        "IT2a|f77r.34|G006",
+        "IT2a|f77r.34|G007",
+        "IT2a|f77r.35|G006"
+      ],
+      "qokain": [
+        "IT2a|f83r.39|G001",
+        "IT2a|f77r.27|G002",
+        "IT2a|f77r.28|G003",
+        "IT2a|f77r.31|G001",
+        "IT2a|f77r.35|G004",
+        "IT2a|f77r.37|G004"
+      ],
+      "qokal": [
+        "IT2a|f77r.25|G004"
+      ],
+      "qokaly": [
+        "IT2a|f77r.26|G006"
+      ],
+      "qokchdy": [
+        "IT2a|f83r.47|G002"
+      ],
+      "qokchedy": [
+        "IT2a|f83r.32|G002"
+      ],
+      "qokchy": [
+        "IT2a|f83r.34|G004"
+      ],
+      "qokedy": [
+        "IT2a|f83r.25|G004",
+        "IT2a|f83r.28|G004"
+      ],
+      "qokeedy": [
+        "IT2a|f83r.25|G001",
+        "IT2a|f83r.27|G003",
+        "IT2a|f83r.30|G002",
+        "IT2a|f77r.26|G002",
+        "IT2a|f77r.27|G005",
+        "IT2a|f77r.29|G003",
+        "IT2a|f77r.29|G004",
+        "IT2a|f77r.36|G006"
+      ],
+      "qokeey": [
+        "IT2a|f83r.25|G003",
+        "IT2a|f83r.26|G002",
+        "IT2a|f77r.31|G003"
+      ],
+      "qokey": [
+        "IT2a|f83r.32|G004",
+        "IT2a|f83r.33|G004"
+      ],
+      "qokol": [
+        "IT2a|f83r.37|G004",
+        "IT2a|f77r.36|G007"
+      ],
+      "qokor": [
+        "IT2a|f77r.25|G002"
+      ],
+      "qoky": [
+        "IT2a|f83r.26|G003",
+        "IT2a|f83r.30|G003",
+        "IT2a|f83r.36|G006"
+      ],
+      "qokylddy": [
+        "IT2a|f83r.26|G006"
+      ],
+      "qol": [
+        "IT2a|f77r.33|G003",
+        "IT2a|f77r.34|G004"
+      ],
+      "qolchey": [
+        "IT2a|f83r.25|G002"
+      ],
+      "qolkain": [
+        "IT2a|f83r.41|G003",
+        "IT2a|f77r.30|G004"
+      ],
+      "qor": [
+        "IT2a|f77r.32|G001"
+      ],
+      "qotain": [
+        "IT2a|f77r.36|G003"
+      ],
+      "qotal": [
+        "IT2a|f77r.29|G005"
+      ],
+      "qotar": [
+        "IT2a|f83r.53|G003"
+      ],
+      "qotary": [
+        "IT2a|f77r.31|G006"
+      ],
+      "qotchedy": [
+        "IT2a|f83r.31|G002"
+      ],
+      "qotedy": [
+        "IT2a|f77r.27|G006",
+        "IT2a|f77r.31|G004",
+        "IT2a|f77r.31|G005"
+      ],
+      "qoteedy": [
+        "IT2a|f77r.26|G001",
+        "IT2a|f77r.37|G003"
+      ],
+      "qoteeedy": [
+        "IT2a|f77r.33|G005"
+      ],
+      "qotey": [
+        "IT2a|f77r.28|G002"
+      ],
+      "qotyl": [
+        "IT2a|f83r.43|G004"
+      ],
+      "raiin": [
+        "IT2a|f77r.34|G009"
+      ],
+      "raly": [
+        "IT2a|f83r.52|G003"
+      ],
+      "rar": [
+        "IT2a|f83r.43|G005"
+      ],
+      "rtain": [
+        "IT2a|f83r.55|G002"
+      ],
+      "saiin": [
+        "IT2a|f83r.28|G001",
+        "IT2a|f83r.33|G002",
+        "IT2a|f83r.35|G001",
+        "IT2a|f77r.29|G001",
+        "IT2a|f77r.30|G003"
+      ],
+      "sain": [
+        "IT2a|f83r.33|G005"
+      ],
+      "sairn": [
+        "IT2a|f83r.30|G004"
+      ],
+      "sar": [
+        "IT2a|f77r.28|G005",
+        "IT2a|f77r.33|G006"
+      ],
+      "saroldal": [
+        "IT2a|f83r.50|G001"
+      ],
+      "shckhedy": [
+        "IT2a|f83r.27|G004",
+        "IT2a|f83r.27|G005"
+      ],
+      "shedal": [
+        "IT2a|f83r.47|G003"
+      ],
+      "shedar": [
+        "IT2a|f77r.25|G005"
+      ],
+      "shedy": [
+        "IT2a|f83r.26|G005",
+        "IT2a|f83r.28|G005",
+        "IT2a|f83r.37|G005",
+        "IT2a|f83r.44|G002",
+        "IT2a|f77r.25|G003",
+        "IT2a|f77r.27|G004",
+        "IT2a|f77r.34|G002"
+      ],
+      "sheedy": [
+        "IT2a|f77r.35|G005"
+      ],
+      "sheekchy": [
+        "IT2a|f83r.33|G003"
+      ],
+      "sheey": [
+        "IT2a|f83r.28|G003"
+      ],
+      "sheol": [
+        "IT2a|f83r.43|G002"
+      ],
+      "shey": [
+        "IT2a|f83r.36|G004",
+        "IT2a|f83r.39|G002"
+      ],
+      "shky": [
+        "IT2a|f83r.34|G001"
+      ],
+      "shy": [
+        "IT2a|f83r.36|G003"
+      ],
+      "skar": [
+        "IT2a|f83r.44|G001"
+      ],
+      "sokeedy": [
+        "IT2a|f83r.30|G001"
+      ],
+      "sol": [
+        "IT2a|f83r.37|G001",
+        "IT2a|f83r.42|G001",
+        "IT2a|f83r.49|G001",
+        "IT2a|f83r.55|G001"
+      ],
+      "solchedy": [
+        "IT2a|f83r.29|G001",
+        "IT2a|f83r.40|G001",
+        "IT2a|f77r.27|G001"
+      ],
+      "solchkal": [
+        "IT2a|f83r.53|G001"
+      ],
+      "solkeey": [
+        "IT2a|f83r.52|G001",
+        "IT2a|f77r.35|G001"
+      ],
+      "solkey": [
+        "IT2a|f83r.41|G001"
+      ],
+      "sor": [
+        "IT2a|f83r.36|G001"
+      ],
+      "sy": [
+        "IT2a|f83r.33|G001"
+      ],
+      "techedy": [
+        "IT2a|f83r.31|G001"
+      ],
+      "teeolain": [
+        "IT2a|f77r.37|G001"
+      ],
+      "tol": [
+        "IT2a|f83r.26|G004"
+      ]
+    },
+    "RF1b": {
+      "@206;aiin": [
+        "RF1b|f77r.34|G008"
+      ],
+      "@221;iiiin": [
+        "RF1b|f77r.33|G007"
+      ],
+      "aiin": [
+        "RF1b|f83r.33|G003",
+        "RF1b|f83r.36|G002",
+        "RF1b|f83r.48|G005",
+        "RF1b|f77r.30|G004"
+      ],
+      "ain": [
+        "RF1b|f77r.32|G002"
+      ],
+      "chckhal": [
+        "RF1b|f83r.39|G004"
+      ],
+      "chckhey": [
+        "RF1b|f77r.30|G002"
+      ],
+      "chckhy": [
+        "RF1b|f77r.31|G002"
+      ],
+      "chcth@152;y": [
+        "RF1b|f83r.42|G003"
+      ],
+      "chcthy": [
+        "RF1b|f77r.26|G004"
+      ],
+      "chdal": [
+        "RF1b|f83r.48|G004"
+      ],
+      "chdy": [
+        "RF1b|f83r.35|G005"
+      ],
+      "che@152;aiin": [
+        "RF1b|f83r.40|G004",
+        "RF1b|f77r.35|G007"
+      ],
+      "cheal": [
+        "RF1b|f83r.53|G002"
+      ],
+      "chealor": [
+        "RF1b|f77r.32|G005"
+      ],
+      "chealy": [
+        "RF1b|f77r.35|G008"
+      ],
+      "checkhy": [
+        "RF1b|f77r.34|G007"
+      ],
+      "chedy": [
+        "RF1b|f83r.25|G005",
+        "RF1b|f83r.27|G002",
+        "RF1b|f83r.31|G003",
+        "RF1b|f83r.40|G002",
+        "RF1b|f83r.42|G005",
+        "RF1b|f83r.43|G003",
+        "RF1b|f83r.49|G003",
+        "RF1b|f77r.25|G007",
+        "RF1b|f77r.33|G002",
+        "RF1b|f77r.34|G003",
+        "RF1b|f77r.35|G003",
+        "RF1b|f77r.36|G004"
+      ],
+      "cheedy": [
+        "RF1b|f77r.37|G005"
+      ],
+      "cheeky": [
+        "RF1b|f83r.28|G002",
+        "RF1b|f77r.30|G006"
+      ],
+      "cheeol": [
+        "RF1b|f77r.29|G002"
+      ],
+      "cheety": [
+        "RF1b|f77r.33|G008"
+      ],
+      "cheey": [
+        "RF1b|f83r.29|G002",
+        "RF1b|f77r.32|G006",
+        "RF1b|f77r.37|G006"
+      ],
+      "cheky": [
+        "RF1b|f83r.35|G002"
+      ],
+      "cheol": [
+        "RF1b|f83r.48|G002",
+        "RF1b|f77r.32|G003"
+      ],
+      "chey": [
+        "RF1b|f83r.38|G002",
+        "RF1b|f83r.54|G004",
+        "RF1b|f77r.37|G002"
+      ],
+      "chtorol": [
+        "RF1b|f83r.45|G001"
+      ],
+      "cth@221;l": [
+        "RF1b|f83r.55|G004"
+      ],
+      "daiiin": [
+        "RF1b|f83r.49|G002"
+      ],
+      "daiin": [
+        "RF1b|f83r.43|G001",
+        "RF1b|f83r.54|G001",
+        "RF1b|f77r.33|G001"
+      ],
+      "dain": [
+        "RF1b|f83r.27|G001",
+        "RF1b|f83r.54|G003"
+      ],
+      "dairydy": [
+        "RF1b|f83r.38|G004"
+      ],
+      "dal": [
+        "RF1b|f83r.41|G004",
+        "RF1b|f83r.48|G001",
+        "RF1b|f77r.25|G006"
+      ],
+      "darolsy": [
+        "RF1b|f83r.51|G001"
+      ],
+      "daror": [
+        "RF1b|f77r.25|G008"
+      ],
+      "dary": [
+        "RF1b|f77r.32|G008"
+      ],
+      "dolchl": [
+        "RF1b|f77r.36|G005"
+      ],
+      "dolshed": [
+        "RF1b|f83r.34|G003"
+      ],
+      "dshedy": [
+        "RF1b|f77r.36|G001"
+      ],
+      "dy": [
+        "RF1b|f77r.33|G009"
+      ],
+      "kain": [
+        "RF1b|f83r.39|G003"
+      ],
+      "kee@152;y": [
+        "RF1b|f77r.33|G004"
+      ],
+      "kes@152;": [
+        "RF1b|f83r.29|G004"
+      ],
+      "l": [
+        "RF1b|f83r.42|G004"
+      ],
+      "lchdy": [
+        "RF1b|f83r.42|G006"
+      ],
+      "lche@152;y": [
+        "RF1b|f83r.34|G002",
+        "RF1b|f77r.26|G005",
+        "RF1b|f77r.37|G007"
+      ],
+      "lchedy": [
+        "RF1b|f83r.32|G003",
+        "RF1b|f83r.37|G003",
+        "RF1b|f83r.41|G002"
+      ],
+      "ldalor": [
+        "RF1b|f83r.54|G005"
+      ],
+      "lke@152;y": [
+        "RF1b|f83r.37|G002"
+      ],
+      "lol": [
+        "RF1b|f83r.48|G003",
+        "RF1b|f77r.30|G007"
+      ],
+      "lom": [
+        "RF1b|f77r.28|G006"
+      ],
+      "lshedy": [
+        "RF1b|f83r.36|G005"
+      ],
+      "ocheol": [
+        "RF1b|f83r.32|G001"
+      ],
+      "okaiin": [
+        "RF1b|f77r.27|G003",
+        "RF1b|f77r.35|G002"
+      ],
+      "okain": [
+        "RF1b|f83r.35|G004"
+      ],
+      "okeedyldy": [
+        "RF1b|f83r.31|G004"
+      ],
+      "okeeol": [
+        "RF1b|f83r.35|G003"
+      ],
+      "ol": [
+        "RF1b|f83r.42|G002",
+        "RF1b|f83r.52|G004",
+        "RF1b|f83r.53|G004",
+        "RF1b|f83r.54|G002",
+        "RF1b|f77r.32|G004"
+      ],
+      "olche@152;y": [
+        "RF1b|f83r.40|G003"
+      ],
+      "olcheedy": [
+        "RF1b|f77r.28|G004"
+      ],
+      "olchey": [
+        "RF1b|f77r.28|G001",
+        "RF1b|f77r.36|G008"
+      ],
+      "oldy": [
+        "RF1b|f83r.28|G006",
+        "RF1b|f83r.29|G005"
+      ],
+      "olsaiin": [
+        "RF1b|f83r.46|G001"
+      ],
+      "or": [
+        "RF1b|f83r.38|G001"
+      ],
+      "otal": [
+        "RF1b|f83r.25|G006"
+      ],
+      "otchdy": [
+        "RF1b|f83r.47|G001",
+        "RF1b|f77r.49|G001"
+      ],
+      "otchey": [
+        "RF1b|f83r.26|G001"
+      ],
+      "otedy": [
+        "RF1b|f77r.25|G001"
+      ],
+      "pchedy": [
+        "RF1b|f77r.36|G002"
+      ],
+      "qekey": [
+        "RF1b|f83r.52|G002"
+      ],
+      "qeteiiin": [
+        "RF1b|f77r.32|G007"
+      ],
+      "qockhey": [
+        "RF1b|f83r.38|G003"
+      ],
+      "qody": [
+        "RF1b|f83r.29|G003"
+      ],
+      "qokaiin": [
+        "RF1b|f77r.26|G003",
+        "RF1b|f77r.30|G001",
+        "RF1b|f77r.34|G001",
+        "RF1b|f77r.34|G005",
+        "RF1b|f77r.34|G006"
+      ],
+      "qokain": [
+        "RF1b|f83r.39|G001",
+        "RF1b|f77r.27|G002",
+        "RF1b|f77r.28|G003",
+        "RF1b|f77r.31|G001",
+        "RF1b|f77r.35|G004",
+        "RF1b|f77r.37|G004"
+      ],
+      "qokal": [
+        "RF1b|f83r.43|G004",
+        "RF1b|f77r.25|G004"
+      ],
+      "qokaly": [
+        "RF1b|f77r.26|G006"
+      ],
+      "qokchdy": [
+        "RF1b|f83r.47|G002"
+      ],
+      "qokchedy": [
+        "RF1b|f83r.32|G002"
+      ],
+      "qokchy": [
+        "RF1b|f83r.34|G004"
+      ],
+      "qokedy": [
+        "RF1b|f83r.25|G004",
+        "RF1b|f83r.28|G004"
+      ],
+      "qokee@152;y": [
+        "RF1b|f77r.26|G002"
+      ],
+      "qokeedy": [
+        "RF1b|f83r.25|G001",
+        "RF1b|f83r.27|G003",
+        "RF1b|f83r.30|G002",
+        "RF1b|f77r.27|G005",
+        "RF1b|f77r.29|G003",
+        "RF1b|f77r.29|G004",
+        "RF1b|f77r.36|G006"
+      ],
+      "qokeey": [
+        "RF1b|f83r.25|G003",
+        "RF1b|f83r.26|G002",
+        "RF1b|f77r.31|G003"
+      ],
+      "qokey": [
+        "RF1b|f83r.32|G004",
+        "RF1b|f83r.33|G005"
+      ],
+      "qokol": [
+        "RF1b|f83r.37|G004",
+        "RF1b|f77r.36|G007"
+      ],
+      "qokor": [
+        "RF1b|f77r.25|G002"
+      ],
+      "qoky": [
+        "RF1b|f83r.26|G003",
+        "RF1b|f83r.30|G003",
+        "RF1b|f83r.36|G006"
+      ],
+      "qokylddy": [
+        "RF1b|f83r.26|G006"
+      ],
+      "qol": [
+        "RF1b|f77r.33|G003"
+      ],
+      "qolche@152;y": [
+        "RF1b|f77r.34|G004"
+      ],
+      "qolchey": [
+        "RF1b|f83r.25|G002"
+      ],
+      "qolkain": [
+        "RF1b|f83r.41|G003",
+        "RF1b|f77r.30|G005"
+      ],
+      "qor": [
+        "RF1b|f77r.32|G001"
+      ],
+      "qot": [
+        "RF1b|f83r.31|G002"
+      ],
+      "qotaiin": [
+        "RF1b|f77r.35|G006"
+      ],
+      "qotain": [
+        "RF1b|f77r.36|G003"
+      ],
+      "qotal": [
+        "RF1b|f77r.29|G005"
+      ],
+      "qotar": [
+        "RF1b|f83r.53|G003"
+      ],
+      "qotary": [
+        "RF1b|f77r.31|G006"
+      ],
+      "qote@152;y": [
+        "RF1b|f77r.31|G004"
+      ],
+      "qotedy": [
+        "RF1b|f77r.27|G006",
+        "RF1b|f77r.31|G005"
+      ],
+      "qotee@152;y": [
+        "RF1b|f77r.37|G003"
+      ],
+      "qoteedy": [
+        "RF1b|f77r.26|G001"
+      ],
+      "qoteeedy": [
+        "RF1b|f77r.33|G005"
+      ],
+      "qotey": [
+        "RF1b|f77r.28|G002"
+      ],
+      "r": [
+        "RF1b|f83r.55|G002"
+      ],
+      "raly": [
+        "RF1b|f83r.52|G003"
+      ],
+      "s": [
+        "RF1b|f83r.33|G002",
+        "RF1b|f77r.30|G003"
+      ],
+      "s@221;roldal": [
+        "RF1b|f83r.50|G001"
+      ],
+      "saiin": [
+        "RF1b|f83r.28|G001",
+        "RF1b|f83r.30|G004",
+        "RF1b|f83r.35|G001",
+        "RF1b|f77r.29|G001"
+      ],
+      "sain": [
+        "RF1b|f83r.33|G006"
+      ],
+      "sar": [
+        "RF1b|f83r.43|G005",
+        "RF1b|f77r.28|G005",
+        "RF1b|f77r.33|G006"
+      ],
+      "shckhedy": [
+        "RF1b|f83r.27|G004",
+        "RF1b|f83r.27|G005"
+      ],
+      "she@152;y": [
+        "RF1b|f83r.26|G005"
+      ],
+      "shedal": [
+        "RF1b|f83r.47|G003"
+      ],
+      "shedar": [
+        "RF1b|f77r.25|G005"
+      ],
+      "shedy": [
+        "RF1b|f83r.37|G005",
+        "RF1b|f83r.44|G002",
+        "RF1b|f77r.25|G003",
+        "RF1b|f77r.27|G004",
+        "RF1b|f77r.34|G002"
+      ],
+      "sheedy": [
+        "RF1b|f77r.35|G005"
+      ],
+      "sheekchy": [
+        "RF1b|f83r.33|G004"
+      ],
+      "sheey": [
+        "RF1b|f83r.28|G003"
+      ],
+      "sheol": [
+        "RF1b|f83r.43|G002"
+      ],
+      "shey": [
+        "RF1b|f83r.36|G004",
+        "RF1b|f83r.39|G002"
+      ],
+      "shy": [
+        "RF1b|f83r.36|G003"
+      ],
+      "skar": [
+        "RF1b|f83r.44|G001"
+      ],
+      "sokeedy": [
+        "RF1b|f83r.30|G001"
+      ],
+      "sol": [
+        "RF1b|f83r.37|G001",
+        "RF1b|f83r.40|G001",
+        "RF1b|f83r.42|G001",
+        "RF1b|f83r.49|G001",
+        "RF1b|f83r.55|G001"
+      ],
+      "solche'@152;y": [
+        "RF1b|f83r.29|G001"
+      ],
+      "solche@152;y": [
+        "RF1b|f77r.27|G001"
+      ],
+      "solchkal": [
+        "RF1b|f83r.53|G001"
+      ],
+      "solkeey": [
+        "RF1b|f83r.52|G001",
+        "RF1b|f77r.35|G001"
+      ],
+      "solkey": [
+        "RF1b|f83r.41|G001"
+      ],
+      "sor": [
+        "RF1b|f83r.36|G001"
+      ],
+      "sy": [
+        "RF1b|f83r.33|G001"
+      ],
+      "tain": [
+        "RF1b|f83r.55|G003"
+      ],
+      "techedy": [
+        "RF1b|f83r.31|G001"
+      ],
+      "teeolain": [
+        "RF1b|f77r.37|G001"
+      ],
+      "tol": [
+        "RF1b|f83r.26|G004"
+      ],
+      "{ch'}edy": [
+        "RF1b|f83r.28|G005"
+      ],
+      "{ch'}ky": [
+        "RF1b|f83r.34|G001"
+      ]
+    }
+  },
+  "semantic_validation": false,
+  "grammar_execution_validation": false,
+  "independent_meaning_confirmation": false,
+  "limits": "Frozen source identities, raw groups, separators, flags, and authored row coverage only. No semantic prose, word meaning, state transition, image owner, parser, uniqueness of reading, null test, or translation is validated. Optional ledger PASS conserves IDs; it does not validate contribution values or execution."
+}

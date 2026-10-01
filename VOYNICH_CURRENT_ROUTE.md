@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: FT whole f83 caption/consumer rivals; ten-hour request.
-Latest decision: FS graph invariance;0words; no freegloss extension.
+Task: FT full pair critique;finish B whole account.
+Latest decision: A fullC0;OTCHDYconsumerusesambientC_H;0words.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_DECISION.md.
 Assumptions: Old models frozen;seals/reserves closed.
-Resume: Bind full packet and primary gates before rival authorship.
-Running: Eight Sol tasks;requested until18:29UTC;storedgoalpaused.
+Resume: Freeze B;compare consumers/references;no late repairs.
+Running: B Sol author;A checkscomplete;goalpaused;until18:29UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

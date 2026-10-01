@@ -1,0 +1,4051 @@
+{
+  "task": "Source-bound formal composition guidance for actual Q1/Q2 and four captions",
+  "status": "COMPLETE_FOCAL_CACHE_COMPARISON_NO_NEW_PARSER",
+  "created_utc": "2026-10-01T09:01:40.315165+00:00",
+  "method": "Retrieve the existing GDT606 unit-sequence artifact and its frozen GDT608 merge tree; compare exact guarded ZL raw line/chunk order with the shared packet. Only frozen-tree metadata is expanded. No new tokenization, BPE application, parser, training, dictionary or meaning is constructed.",
+  "source_receipts": [
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+      "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+    },
+    {
+      "path": "GDT282_OUTER_WRAPPER_CLASS_TRANSFER_REPORT.md",
+      "sha256": "91a6f3e633a5fcf77328a2521c5721a476409a2a088696cdfec40b62e64bdded"
+    },
+    {
+      "path": "GDT286_HOST_TO_WRAPPER_TRANSFER_REPORT.md",
+      "sha256": "ac02891cd602e2c86646d721fdc1585b116b11d364ec665d9380b6d22b61a192"
+    },
+    {
+      "path": "GDT318_GLOBAL_WRAPPER_ENTRY_STATE_REPORT.md",
+      "sha256": "9f8a90d05db0ea4238ba45529e647ce999c305ab0e80e7167cedb0020b8e6eaa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/REPORT.md",
+      "sha256": "9b1ac4246714ece61b67aab4d3046eeef46cc054f0b3902fa8cc0a6d91a8648a"
+    },
+    {
+      "path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md",
+      "sha256": "d2957851cc00b97b29c11ca358e6a657704d1636ddf4ae8a44b7e3e7a9a0ceb3"
+    },
+    {
+      "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+      "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80"
+    },
+    {
+      "path": "experiments/yolo/gdt773_ol_capacity_equalized_composition_audit/REPORT.md",
+      "sha256": "575c52f952438fb037ba63bb40c2b0678c6cc25d4c291419977cc4f61d714e8e"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_AUTHOR_GO.md",
+      "sha256": "f19f0d07c2fc04bee268ceb9d7c7a92e5032651a74ca04ce2fb1b445c9a70643"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_SOURCE_PACKET.json",
+      "sha256": "31de602d3d3a6b1c58caf5563159a3f757fe05995971f9319b769c4bbb95fa26"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_WORD_PRIORS.json",
+      "sha256": "37eadbb4499609b9eb469be46613a72bbcb86e6234dd495ee5e3b8e3b4d6a5a9"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/unit_sequences.json",
+      "sha256": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/guarded_rows.tsv",
+      "sha256": "d6674f3d54edc49590c884b5d703cb032b966c1abd4da6338093795ce1f31ef9"
+    },
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_tree.tsv",
+      "sha256": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a"
+    },
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_composition_scores.tsv",
+      "sha256": "710f21337308a3459e95b5d869482428c484209316bf17776bc8357b5980e496"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py",
+      "sha256": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8"
+    }
+  ],
+  "guarded_query": {
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/guarded_rows.tsv",
+      "--selector",
+      "locus",
+      "--allow",
+      "f83r.45",
+      "--allow",
+      "f83r.46",
+      "--allow",
+      "f83r.47",
+      "--allow",
+      "f83r.48",
+      "--allow",
+      "f83r.49",
+      "--allow",
+      "f83r.50",
+      "--allow",
+      "f83r.51",
+      "--allow",
+      "f83r.52",
+      "--allow",
+      "f83r.53",
+      "--allow",
+      "f83r.54",
+      "--allow",
+      "f83r.55",
+      "--columns",
+      "page,locus,split,eva_clean,ivtff_raw",
+      "--forbid-prefix",
+      "f84",
+      "--forbid-prefix",
+      "f84r"
+    ],
+    "stdout_sha256": "5b19af328408ced5640dd06922492483279f6a83a7b05de97ad6f27b7dbaffe4",
+    "stats": "GUARD_STATS {\"selected\": 11, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 4154}",
+    "selected_lines": 11
+  },
+  "canonical_focal_line_checks": [
+    {
+      "locus": "f83r.47",
+      "native_ZL_groups": 3,
+      "cached_hard_chunks": 3,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "<%>otchdy.qokchdy.shedal"
+    },
+    {
+      "locus": "f83r.48",
+      "native_ZL_groups": 5,
+      "cached_hard_chunks": 5,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "dal.cheol.lol.chdal.aiin"
+    },
+    {
+      "locus": "f83r.49",
+      "native_ZL_groups": 3,
+      "cached_hard_chunks": 3,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "sol.daiiin.chedy<$>"
+    },
+    {
+      "locus": "f83r.52",
+      "native_ZL_groups": 4,
+      "cached_hard_chunks": 4,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "<%>solkeey.qekey.raly.ol"
+    },
+    {
+      "locus": "f83r.53",
+      "native_ZL_groups": 4,
+      "cached_hard_chunks": 4,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "solchkal.cheol.qotar.ol"
+    },
+    {
+      "locus": "f83r.54",
+      "native_ZL_groups": 5,
+      "cached_hard_chunks": 5,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "daiin.ol.dain.chey.ldalor"
+    },
+    {
+      "locus": "f83r.55",
+      "native_ZL_groups": 3,
+      "cached_hard_chunks": 3,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "sol.rtain.cthal<$>"
+    },
+    {
+      "locus": "f83r.45",
+      "native_ZL_groups": 1,
+      "cached_hard_chunks": 1,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "chtorol"
+    },
+    {
+      "locus": "f83r.46",
+      "native_ZL_groups": 1,
+      "cached_hard_chunks": 1,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "olsaiin"
+    },
+    {
+      "locus": "f83r.50",
+      "native_ZL_groups": 1,
+      "cached_hard_chunks": 1,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "sasoldal"
+    },
+    {
+      "locus": "f83r.51",
+      "native_ZL_groups": 1,
+      "cached_hard_chunks": 1,
+      "clean_raw_groups_match": true,
+      "guarded_ivtff_raw": "darolsy"
+    }
+  ],
+  "coverage": {
+    "native_occurrences": 94,
+    "ZL_occurrences": 31,
+    "IT_occurrences": 31,
+    "RF_occurrences": 32,
+    "distinct_raw_whole_forms": 34,
+    "distinct_wholes_with_exact_ZL_applied_sequence": 27,
+    "distinct_wholes_missing_focal_applied_native_sequence": 7,
+    "native_reader_applied_BPE_available": [
+      "ZL3b"
+    ],
+    "exact_raw_other_reader_comparison_only": true,
+    "known_GDT915_pair_matches": []
+  },
+  "whole_form_constraints": [
+    {
+      "raw_whole_form": "aiin",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.48|G005",
+          "locus": "f83r.48",
+          "chunk_index": 4,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "aN"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "aiin"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "aN",
+          "rank": 4,
+          "left": "a",
+          "right": "N"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.48|G005",
+          "raw": "aiin",
+          "locus": "f83r.48",
+          "group_index": "5",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "chdal",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.48|G005",
+          "raw": "aiin",
+          "locus": "f83r.48",
+          "group_index": "5",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "chdal",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.48|G005",
+          "raw": "aiin",
+          "locus": "f83r.48",
+          "group_index": "5",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "chdal",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "N=iin and I=in are frozen analyst collapse symbols. Different i-run spellings remain different; no numeric scale is supplied.",
+        "This chunk can be one final BPE unit with a documented inner merge tree. One final unit does not prove an indivisible word/morpheme; re-expansion is tree metadata, not alternative linguistic parsing."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "aN",
+          "left": "a",
+          "right": "N",
+          "held_n": "556",
+          "atomic_primary_bits": "0.8055277366259621",
+          "direct_primary_bits": "0.9638930044707674",
+          "atomic_gain_vs_direct_bits": "0.1583652678448053",
+          "held_chunk_initial_rate": "0.18705035971223022",
+          "held_chunk_final_rate": "0.9766187050359713"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "chdal",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.48|G004",
+          "locus": "f83r.48",
+          "chunk_index": 3,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "C",
+        "dal"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "ch",
+        "dal"
+      ],
+      "documented_merge_hierarchy": [
+        "C",
+        {
+          "unit": "dal",
+          "rank": 34,
+          "left": "d",
+          "right": {
+            "unit": "al",
+            "rank": 9,
+            "left": "a",
+            "right": "l"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.48|G004",
+          "raw": "chdal",
+          "locus": "f83r.48",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "lol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.48|G004",
+          "raw": "chdal",
+          "locus": "f83r.48",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "lol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.48|G004",
+          "raw": "chdal",
+          "locus": "f83r.48",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "lol",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "dal",
+          "left": "d",
+          "right": "al",
+          "held_n": "174",
+          "atomic_primary_bits": "1.0703998422327603",
+          "direct_primary_bits": "1.0872480747206124",
+          "atomic_gain_vs_direct_bits": "0.016848232487852055",
+          "held_chunk_initial_rate": "0.5057471264367817",
+          "held_chunk_final_rate": "0.6781609195402298"
+        },
+        {
+          "merged": "al",
+          "left": "a",
+          "right": "l",
+          "held_n": "476",
+          "atomic_primary_bits": "1.2303573411637874",
+          "direct_primary_bits": "1.5972741317360313",
+          "atomic_gain_vs_direct_bits": "0.3669167905722439",
+          "held_chunk_initial_rate": "0.2647058823529412",
+          "held_chunk_final_rate": "0.6323529411764706"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "cheal",
+      "status": "MISSING_APPLIED_NATIVE_DECOMPOSITION_IN_INSPECTED_FOCAL_CACHE",
+      "readers_in_packet": [
+        "RF1b"
+      ],
+      "applied_ZL_cache_examples": [],
+      "ordered_cached_final_units": null,
+      "raw_fragment_rendering_of_frozen_units": null,
+      "documented_merge_hierarchy": null,
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.53|G002",
+          "raw": "cheal",
+          "locus": "f83r.53",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "solchkal",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "No exact applied whole-form sequence at these focal native reader sites in the inspected ZL cache. Do not infer a new parse from one edit, shared substrings, deletion of entities, or the peer reader.",
+        "RF CHEAL differs from CHEOL. Same position and one-letter similarity do not license an alias or inherited semantic role."
+      ],
+      "existing_unit_score_provenance": [],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "chedy",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.49|G003",
+          "locus": "f83r.49",
+          "chunk_index": 2,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "Cedy"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "chedy"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "Cedy",
+          "rank": 15,
+          "left": {
+            "unit": "Ce",
+            "rank": 5,
+            "left": "C",
+            "right": "e"
+          },
+          "right": {
+            "unit": "dy",
+            "rank": 1,
+            "left": "d",
+            "right": "y"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.49|G003",
+          "raw": "chedy",
+          "locus": "f83r.49",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "daiiin",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.49|G003",
+          "raw": "chedy",
+          "locus": "f83r.49",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "daiiin",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.49|G003",
+          "raw": "chedy",
+          "locus": "f83r.49",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "daiiin",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "Right y/dy formal closure profiles apply to these frozen merge units, not sentence completion or meanings.",
+        "This chunk can be one final BPE unit with a documented inner merge tree. One final unit does not prove an indivisible word/morpheme; re-expansion is tree metadata, not alternative linguistic parsing."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "Cedy",
+          "left": "Ce",
+          "right": "dy",
+          "held_n": "448",
+          "atomic_primary_bits": "0.7772562898243295",
+          "direct_primary_bits": "0.9361806869915137",
+          "atomic_gain_vs_direct_bits": "0.1589243971671842",
+          "held_chunk_initial_rate": "0.35267857142857145",
+          "held_chunk_final_rate": "0.9575892857142857"
+        },
+        {
+          "merged": "Ce",
+          "left": "C",
+          "right": "e",
+          "held_n": "609",
+          "atomic_primary_bits": "1.0678218063546507",
+          "direct_primary_bits": "1.1179767496132973",
+          "atomic_gain_vs_direct_bits": "0.050154943258646556",
+          "held_chunk_initial_rate": "0.6338259441707718",
+          "held_chunk_final_rate": "0.0016420361247947454"
+        },
+        {
+          "merged": "dy",
+          "left": "d",
+          "right": "y",
+          "held_n": "204",
+          "atomic_primary_bits": "0.9866078981453897",
+          "direct_primary_bits": "1.3620861212187516",
+          "atomic_gain_vs_direct_bits": "0.37547822307336187",
+          "held_chunk_initial_rate": "0.18137254901960784",
+          "held_chunk_final_rate": "0.9362745098039216"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "cheol",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.48|G002",
+          "locus": "f83r.48",
+          "chunk_index": 1,
+          "split": "train"
+        },
+        {
+          "ID": "ZL3b|f83r.53|G002",
+          "locus": "f83r.53",
+          "chunk_index": 1,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "Ceol"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "cheol"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "Ceol",
+          "rank": 54,
+          "left": {
+            "unit": "Ce",
+            "rank": 5,
+            "left": "C",
+            "right": "e"
+          },
+          "right": {
+            "unit": "ol",
+            "rank": 3,
+            "left": "o",
+            "right": "l"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.48|G002",
+          "raw": "cheol",
+          "locus": "f83r.48",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "dal",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.48|G002",
+          "raw": "cheol",
+          "locus": "f83r.48",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "dal",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.48|G002",
+          "raw": "cheol",
+          "locus": "f83r.48",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "dal",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.53|G002",
+          "raw": "cheol",
+          "locus": "f83r.53",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "solchkal",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.53|G002",
+          "raw": "cheol",
+          "locus": "f83r.53",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "solchkal",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior.",
+        "This chunk can be one final BPE unit with a documented inner merge tree. One final unit does not prove an indivisible word/morpheme; re-expansion is tree metadata, not alternative linguistic parsing."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "Ceol",
+          "left": "Ce",
+          "right": "ol",
+          "held_n": "77",
+          "atomic_primary_bits": "0.7348725844782386",
+          "direct_primary_bits": "0.8041733012745779",
+          "atomic_gain_vs_direct_bits": "0.06930071679633931",
+          "held_chunk_initial_rate": "0.6883116883116883",
+          "held_chunk_final_rate": "0.8961038961038961"
+        },
+        {
+          "merged": "Ce",
+          "left": "C",
+          "right": "e",
+          "held_n": "609",
+          "atomic_primary_bits": "1.0678218063546507",
+          "direct_primary_bits": "1.1179767496132973",
+          "atomic_gain_vs_direct_bits": "0.050154943258646556",
+          "held_chunk_initial_rate": "0.6338259441707718",
+          "held_chunk_final_rate": "0.0016420361247947454"
+        },
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "chey",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.54|G004",
+          "locus": "f83r.54",
+          "chunk_index": 3,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "Cey"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "chey"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "Cey",
+          "rank": 22,
+          "left": {
+            "unit": "Ce",
+            "rank": 5,
+            "left": "C",
+            "right": "e"
+          },
+          "right": "y"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.54|G004",
+          "raw": "chey",
+          "locus": "f83r.54",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "dain",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.54|G004",
+          "raw": "chey",
+          "locus": "f83r.54",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "dain",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.54|G004",
+          "raw": "chey",
+          "locus": "f83r.54",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "dain",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "Right y/dy formal closure profiles apply to these frozen merge units, not sentence completion or meanings.",
+        "This chunk can be one final BPE unit with a documented inner merge tree. One final unit does not prove an indivisible word/morpheme; re-expansion is tree metadata, not alternative linguistic parsing."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "Cey",
+          "left": "Ce",
+          "right": "y",
+          "held_n": "264",
+          "atomic_primary_bits": "0.8393977995961011",
+          "direct_primary_bits": "1.0273936068263834",
+          "atomic_gain_vs_direct_bits": "0.1879958072302823",
+          "held_chunk_initial_rate": "0.4053030303030303",
+          "held_chunk_final_rate": "0.8939393939393939"
+        },
+        {
+          "merged": "Ce",
+          "left": "C",
+          "right": "e",
+          "held_n": "609",
+          "atomic_primary_bits": "1.0678218063546507",
+          "direct_primary_bits": "1.1179767496132973",
+          "atomic_gain_vs_direct_bits": "0.050154943258646556",
+          "held_chunk_initial_rate": "0.6338259441707718",
+          "held_chunk_final_rate": "0.0016420361247947454"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "chtorol",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.45|G001",
+          "locus": "f83r.45",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "C",
+        "t",
+        "or",
+        "ol"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "ch",
+        "t",
+        "or",
+        "ol"
+      ],
+      "documented_merge_hierarchy": [
+        "C",
+        "t",
+        {
+          "unit": "or",
+          "rank": 10,
+          "left": "o",
+          "right": "r"
+        },
+        {
+          "unit": "ol",
+          "rank": 3,
+          "left": "o",
+          "right": "l"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_CAPTION_45",
+          "record_kind": "LABEL",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.45|G001",
+          "raw": "chtorol",
+          "locus": "f83r.45",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_CAPTION_45",
+          "record_kind": "LABEL",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.45|G001",
+          "raw": "chtorol",
+          "locus": "f83r.45",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_CAPTION_45",
+          "record_kind": "LABEL",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.45|G001",
+          "raw": "chtorol",
+          "locus": "f83r.45",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior.",
+        "Cache uses C=ch followed by t, not T=cth. Do not transfer the CTHAL/CTHOL collapse to this differently ordered spelling.",
+        "Singleton caption has no native paragraph flags. Prose wrapper/entry statistics cannot silently turn it into a sentence or a noun."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "or",
+          "left": "o",
+          "right": "r",
+          "held_n": "535",
+          "atomic_primary_bits": "1.1993049865503813",
+          "direct_primary_bits": "1.351835095712631",
+          "atomic_gain_vs_direct_bits": "0.15253010916224974",
+          "held_chunk_initial_rate": "0.2504672897196262",
+          "held_chunk_final_rate": "0.6504672897196262"
+        },
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "cth@221;l",
+      "status": "MISSING_APPLIED_NATIVE_DECOMPOSITION_IN_INSPECTED_FOCAL_CACHE",
+      "readers_in_packet": [
+        "RF1b"
+      ],
+      "applied_ZL_cache_examples": [],
+      "ordered_cached_final_units": null,
+      "raw_fragment_rendering_of_frozen_units": null,
+      "documented_merge_hierarchy": null,
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.55|G004",
+          "raw": "cth@221;l",
+          "locus": "f83r.55",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "tain",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "No exact applied whole-form sequence at these focal native reader sites in the inspected ZL cache. Do not infer a new parse from one edit, shared substrings, deletion of entities, or the peer reader.",
+        "Raw unresolved entity is preserved. Old source cleaner could strip entities, but it is not run on this target; material would be lost by such normalization."
+      ],
+      "existing_unit_score_provenance": [],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "cthal",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.55|G003",
+          "locus": "f83r.55",
+          "chunk_index": 2,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "T",
+        "al"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "cth",
+        "al"
+      ],
+      "documented_merge_hierarchy": [
+        "T",
+        {
+          "unit": "al",
+          "rank": 9,
+          "left": "a",
+          "right": "l"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.55|G003",
+          "raw": "cthal",
+          "locus": "f83r.55",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "rtain",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "al",
+          "left": "a",
+          "right": "l",
+          "held_n": "476",
+          "atomic_primary_bits": "1.2303573411637874",
+          "direct_primary_bits": "1.5972741317360313",
+          "atomic_gain_vs_direct_bits": "0.3669167905722439",
+          "held_chunk_initial_rate": "0.2647058823529412",
+          "held_chunk_final_rate": "0.6323529411764706"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "cthol",
+      "status": "MISSING_APPLIED_NATIVE_DECOMPOSITION_IN_INSPECTED_FOCAL_CACHE",
+      "readers_in_packet": [
+        "IT2a"
+      ],
+      "applied_ZL_cache_examples": [],
+      "ordered_cached_final_units": null,
+      "raw_fragment_rendering_of_frozen_units": null,
+      "documented_merge_hierarchy": null,
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.55|G003",
+          "raw": "cthol",
+          "locus": "f83r.55",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "rtain",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "No exact applied whole-form sequence at these focal native reader sites in the inspected ZL cache. Do not infer a new parse from one edit, shared substrings, deletion of entities, or the peer reader.",
+        "IT literal CTHOL differs from ZL CTHAL. Frozen collapse recognizes CTH as T in general, but no target-applied CTHOL BPE sequence is supplied here; do not silently replace AL by OL."
+      ],
+      "existing_unit_score_provenance": [],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "daiiin",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.49|G002",
+          "locus": "f83r.49",
+          "chunk_index": 1,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "d",
+        "ai",
+        "N"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "d",
+        "ai",
+        "iin"
+      ],
+      "documented_merge_hierarchy": [
+        "d",
+        {
+          "unit": "ai",
+          "rank": 23,
+          "left": "a",
+          "right": "i"
+        },
+        "N"
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.49|G002",
+          "raw": "daiiin",
+          "locus": "f83r.49",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "sol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.49|G002",
+          "raw": "daiiin",
+          "locus": "f83r.49",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "sol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.49|G002",
+          "raw": "daiiin",
+          "locus": "f83r.49",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "sol",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "N=iin and I=in are frozen analyst collapse symbols. Different i-run spellings remain different; no numeric scale is supplied."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "ai",
+          "left": "a",
+          "right": "i",
+          "held_n": "143",
+          "atomic_primary_bits": "1.0169771090679594",
+          "direct_primary_bits": "1.201119306638849",
+          "atomic_gain_vs_direct_bits": "0.18414219757088968",
+          "held_chunk_initial_rate": "0.23076923076923078",
+          "held_chunk_final_rate": "0.02097902097902098"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "daiin",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.54|G001",
+          "locus": "f83r.54",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "daN"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "daiin"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "daN",
+          "rank": 13,
+          "left": "d",
+          "right": {
+            "unit": "aN",
+            "rank": 4,
+            "left": "a",
+            "right": "N"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.54|G001",
+          "raw": "daiin",
+          "locus": "f83r.54",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.54|G001",
+          "raw": "daiin",
+          "locus": "f83r.54",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.54|G001",
+          "raw": "daiin",
+          "locus": "f83r.54",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "N=iin and I=in are frozen analyst collapse symbols. Different i-run spellings remain different; no numeric scale is supplied.",
+        "This chunk can be one final BPE unit with a documented inner merge tree. One final unit does not prove an indivisible word/morpheme; re-expansion is tree metadata, not alternative linguistic parsing."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "daN",
+          "left": "d",
+          "right": "aN",
+          "held_n": "387",
+          "atomic_primary_bits": "0.6959205119822638",
+          "direct_primary_bits": "0.9003466314441948",
+          "atomic_gain_vs_direct_bits": "0.204426119461931",
+          "held_chunk_initial_rate": "0.49612403100775193",
+          "held_chunk_final_rate": "0.9896640826873385"
+        },
+        {
+          "merged": "aN",
+          "left": "a",
+          "right": "N",
+          "held_n": "556",
+          "atomic_primary_bits": "0.8055277366259621",
+          "direct_primary_bits": "0.9638930044707674",
+          "atomic_gain_vs_direct_bits": "0.1583652678448053",
+          "held_chunk_initial_rate": "0.18705035971223022",
+          "held_chunk_final_rate": "0.9766187050359713"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "dain",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.54|G003",
+          "locus": "f83r.54",
+          "chunk_index": 2,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "daI"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "dain"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "daI",
+          "rank": 55,
+          "left": "d",
+          "right": {
+            "unit": "aI",
+            "rank": 12,
+            "left": "a",
+            "right": "I"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.54|G003",
+          "raw": "dain",
+          "locus": "f83r.54",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "ol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.54|G003",
+          "raw": "dain",
+          "locus": "f83r.54",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "ol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.54|G003",
+          "raw": "dain",
+          "locus": "f83r.54",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "ol",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "N=iin and I=in are frozen analyst collapse symbols. Different i-run spellings remain different; no numeric scale is supplied.",
+        "This chunk can be one final BPE unit with a documented inner merge tree. One final unit does not prove an indivisible word/morpheme; re-expansion is tree metadata, not alternative linguistic parsing."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "daI",
+          "left": "d",
+          "right": "aI",
+          "held_n": "148",
+          "atomic_primary_bits": "0.8900488451574852",
+          "direct_primary_bits": "0.824181824988722",
+          "atomic_gain_vs_direct_bits": "-0.06586702016876322",
+          "held_chunk_initial_rate": "0.47297297297297297",
+          "held_chunk_final_rate": "0.9594594594594594"
+        },
+        {
+          "merged": "aI",
+          "left": "a",
+          "right": "I",
+          "held_n": "414",
+          "atomic_primary_bits": "0.7681897187438844",
+          "direct_primary_bits": "1.158552905961296",
+          "atomic_gain_vs_direct_bits": "0.3903631872174116",
+          "held_chunk_initial_rate": "0.0821256038647343",
+          "held_chunk_final_rate": "0.9685990338164251"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "dal",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.48|G001",
+          "locus": "f83r.48",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "dal"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "dal"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "dal",
+          "rank": 34,
+          "left": "d",
+          "right": {
+            "unit": "al",
+            "rank": 9,
+            "left": "a",
+            "right": "l"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.48|G001",
+          "raw": "dal",
+          "locus": "f83r.48",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.48|G001",
+          "raw": "dal",
+          "locus": "f83r.48",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.48|G001",
+          "raw": "dal",
+          "locus": "f83r.48",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "This chunk can be one final BPE unit with a documented inner merge tree. One final unit does not prove an indivisible word/morpheme; re-expansion is tree metadata, not alternative linguistic parsing."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "dal",
+          "left": "d",
+          "right": "al",
+          "held_n": "174",
+          "atomic_primary_bits": "1.0703998422327603",
+          "direct_primary_bits": "1.0872480747206124",
+          "atomic_gain_vs_direct_bits": "0.016848232487852055",
+          "held_chunk_initial_rate": "0.5057471264367817",
+          "held_chunk_final_rate": "0.6781609195402298"
+        },
+        {
+          "merged": "al",
+          "left": "a",
+          "right": "l",
+          "held_n": "476",
+          "atomic_primary_bits": "1.2303573411637874",
+          "direct_primary_bits": "1.5972741317360313",
+          "atomic_gain_vs_direct_bits": "0.3669167905722439",
+          "held_chunk_initial_rate": "0.2647058823529412",
+          "held_chunk_final_rate": "0.6323529411764706"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "darolsy",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.51|G001",
+          "locus": "f83r.51",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "dar",
+        "ol",
+        "s",
+        "y"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "dar",
+        "ol",
+        "s",
+        "y"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "dar",
+          "rank": 35,
+          "left": "d",
+          "right": {
+            "unit": "ar",
+            "rank": 8,
+            "left": "a",
+            "right": "r"
+          }
+        },
+        {
+          "unit": "ol",
+          "rank": 3,
+          "left": "o",
+          "right": "l"
+        },
+        "s",
+        "y"
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_CAPTION_51",
+          "record_kind": "LABEL",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.51|G001",
+          "raw": "darolsy",
+          "locus": "f83r.51",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_CAPTION_51",
+          "record_kind": "LABEL",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.51|G001",
+          "raw": "darolsy",
+          "locus": "f83r.51",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_CAPTION_51",
+          "record_kind": "LABEL",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.51|G001",
+          "raw": "darolsy",
+          "locus": "f83r.51",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior.",
+        "Cached final units are dar+ol+s+y, not a learned whole SY unit. No SY=OUT, influx/emission or nominal/deictic selection follows.",
+        "Singleton caption has no native paragraph flags. Prose wrapper/entry statistics cannot silently turn it into a sentence or a noun."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "dar",
+          "left": "d",
+          "right": "ar",
+          "held_n": "227",
+          "atomic_primary_bits": "1.005249925153939",
+          "direct_primary_bits": "1.0059967099810585",
+          "atomic_gain_vs_direct_bits": "0.0007467848271194288",
+          "held_chunk_initial_rate": "0.42731277533039647",
+          "held_chunk_final_rate": "0.7929515418502202"
+        },
+        {
+          "merged": "ar",
+          "left": "a",
+          "right": "r",
+          "held_n": "766",
+          "atomic_primary_bits": "1.061890295336394",
+          "direct_primary_bits": "1.2520655786774313",
+          "atomic_gain_vs_direct_bits": "0.19017528334103728",
+          "held_chunk_initial_rate": "0.19321148825065274",
+          "held_chunk_final_rate": "0.7480417754569191"
+        },
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "ldalor",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.54|G005",
+          "locus": "f83r.54",
+          "chunk_index": 4,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "l",
+        "dal",
+        "or"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "l",
+        "dal",
+        "or"
+      ],
+      "documented_merge_hierarchy": [
+        "l",
+        {
+          "unit": "dal",
+          "rank": 34,
+          "left": "d",
+          "right": {
+            "unit": "al",
+            "rank": 9,
+            "left": "a",
+            "right": "l"
+          }
+        },
+        {
+          "unit": "or",
+          "rank": 10,
+          "left": "o",
+          "right": "r"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.54|G005",
+          "raw": "ldalor",
+          "locus": "f83r.54",
+          "group_index": "5",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "chey",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.54|G005",
+          "raw": "ldalor",
+          "locus": "f83r.54",
+          "group_index": "5",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "chey",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.54|G005",
+          "raw": "ldalor",
+          "locus": "f83r.54",
+          "group_index": "5",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "chey",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "dal",
+          "left": "d",
+          "right": "al",
+          "held_n": "174",
+          "atomic_primary_bits": "1.0703998422327603",
+          "direct_primary_bits": "1.0872480747206124",
+          "atomic_gain_vs_direct_bits": "0.016848232487852055",
+          "held_chunk_initial_rate": "0.5057471264367817",
+          "held_chunk_final_rate": "0.6781609195402298"
+        },
+        {
+          "merged": "al",
+          "left": "a",
+          "right": "l",
+          "held_n": "476",
+          "atomic_primary_bits": "1.2303573411637874",
+          "direct_primary_bits": "1.5972741317360313",
+          "atomic_gain_vs_direct_bits": "0.3669167905722439",
+          "held_chunk_initial_rate": "0.2647058823529412",
+          "held_chunk_final_rate": "0.6323529411764706"
+        },
+        {
+          "merged": "or",
+          "left": "o",
+          "right": "r",
+          "held_n": "535",
+          "atomic_primary_bits": "1.1993049865503813",
+          "direct_primary_bits": "1.351835095712631",
+          "atomic_gain_vs_direct_bits": "0.15253010916224974",
+          "held_chunk_initial_rate": "0.2504672897196262",
+          "held_chunk_final_rate": "0.6504672897196262"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "lol",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.48|G003",
+          "locus": "f83r.48",
+          "chunk_index": 2,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "l",
+        "ol"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "l",
+        "ol"
+      ],
+      "documented_merge_hierarchy": [
+        "l",
+        {
+          "unit": "ol",
+          "rank": 3,
+          "left": "o",
+          "right": "l"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.48|G003",
+          "raw": "lol",
+          "locus": "f83r.48",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "cheol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.48|G003",
+          "raw": "lol",
+          "locus": "f83r.48",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "cheol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.48|G003",
+          "raw": "lol",
+          "locus": "f83r.48",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "cheol",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "ol",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.52|G004",
+          "locus": "f83r.52",
+          "chunk_index": 3,
+          "split": "train"
+        },
+        {
+          "ID": "ZL3b|f83r.53|G004",
+          "locus": "f83r.53",
+          "chunk_index": 3,
+          "split": "train"
+        },
+        {
+          "ID": "ZL3b|f83r.54|G002",
+          "locus": "f83r.54",
+          "chunk_index": 1,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "ol"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "ol"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "ol",
+          "rank": 3,
+          "left": "o",
+          "right": "l"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.52|G004",
+          "raw": "ol",
+          "locus": "f83r.52",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "raly",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.53|G004",
+          "raw": "ol",
+          "locus": "f83r.53",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "qotar",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.54|G002",
+          "raw": "ol",
+          "locus": "f83r.54",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "daiin",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.52|G004",
+          "raw": "ol",
+          "locus": "f83r.52",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "raly",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.53|G004",
+          "raw": "ol",
+          "locus": "f83r.53",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "qotar",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.54|G002",
+          "raw": "ol",
+          "locus": "f83r.54",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "daiin",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.52|G004",
+          "raw": "ol",
+          "locus": "f83r.52",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "raly",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.53|G004",
+          "raw": "ol",
+          "locus": "f83r.53",
+          "group_index": "4",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "qotar",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.54|G002",
+          "raw": "ol",
+          "locus": "f83r.54",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "daiin",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "olsaiin",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.46|G001",
+          "locus": "f83r.46",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "ol",
+        "s",
+        "aN"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "ol",
+        "s",
+        "aiin"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "ol",
+          "rank": 3,
+          "left": "o",
+          "right": "l"
+        },
+        "s",
+        {
+          "unit": "aN",
+          "rank": 4,
+          "left": "a",
+          "right": "N"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_CAPTION_46",
+          "record_kind": "LABEL",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.46|G001",
+          "raw": "olsaiin",
+          "locus": "f83r.46",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_CAPTION_46",
+          "record_kind": "LABEL",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.46|G001",
+          "raw": "olsaiin",
+          "locus": "f83r.46",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_CAPTION_46",
+          "record_kind": "LABEL",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.46|G001",
+          "raw": "olsaiin",
+          "locus": "f83r.46",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior.",
+        "N=iin and I=in are frozen analyst collapse symbols. Different i-run spellings remain different; no numeric scale is supplied.",
+        "Singleton caption has no native paragraph flags. Prose wrapper/entry statistics cannot silently turn it into a sentence or a noun."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        },
+        {
+          "merged": "aN",
+          "left": "a",
+          "right": "N",
+          "held_n": "556",
+          "atomic_primary_bits": "0.8055277366259621",
+          "direct_primary_bits": "0.9638930044707674",
+          "atomic_gain_vs_direct_bits": "0.1583652678448053",
+          "held_chunk_initial_rate": "0.18705035971223022",
+          "held_chunk_final_rate": "0.9766187050359713"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "otchdy",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.47|G001",
+          "locus": "f83r.47",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "ot",
+        "Cdy"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "ot",
+        "chdy"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "ot",
+          "rank": 6,
+          "left": "o",
+          "right": "t"
+        },
+        {
+          "unit": "Cdy",
+          "rank": 36,
+          "left": "C",
+          "right": {
+            "unit": "dy",
+            "rank": 1,
+            "left": "d",
+            "right": "y"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.47|G001",
+          "raw": "otchdy",
+          "locus": "f83r.47",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.47|G001",
+          "raw": "otchdy",
+          "locus": "f83r.47",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.47|G001",
+          "raw": "otchdy",
+          "locus": "f83r.47",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "Right y/dy formal closure profiles apply to these frozen merge units, not sentence completion or meanings.",
+        "Written left entry material is retained. OT/OK pairing has residual entry profiles; q has an aggregate chunk-entry tendency, not an argument or procedure gloss."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "ot",
+          "left": "o",
+          "right": "t",
+          "held_n": "689",
+          "atomic_primary_bits": "0.8073524687948325",
+          "direct_primary_bits": "1.1927041051509861",
+          "atomic_gain_vs_direct_bits": "0.38535163635615366",
+          "held_chunk_initial_rate": "0.9201741654571843",
+          "held_chunk_final_rate": "0.008708272859216255"
+        },
+        {
+          "merged": "Cdy",
+          "left": "C",
+          "right": "dy",
+          "held_n": "167",
+          "atomic_primary_bits": "0.8584097881504719",
+          "direct_primary_bits": "1.0517491996942525",
+          "atomic_gain_vs_direct_bits": "0.19333941154378065",
+          "held_chunk_initial_rate": "0.23353293413173654",
+          "held_chunk_final_rate": "0.9520958083832335"
+        },
+        {
+          "merged": "dy",
+          "left": "d",
+          "right": "y",
+          "held_n": "204",
+          "atomic_primary_bits": "0.9866078981453897",
+          "direct_primary_bits": "1.3620861212187516",
+          "atomic_gain_vs_direct_bits": "0.37547822307336187",
+          "held_chunk_initial_rate": "0.18137254901960784",
+          "held_chunk_final_rate": "0.9362745098039216"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "qekey",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.52|G002",
+          "locus": "f83r.52",
+          "chunk_index": 1,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "q",
+        "e",
+        "k",
+        "ey"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "q",
+        "e",
+        "k",
+        "ey"
+      ],
+      "documented_merge_hierarchy": [
+        "q",
+        "e",
+        "k",
+        {
+          "unit": "ey",
+          "rank": 24,
+          "left": "e",
+          "right": "y"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.52|G002",
+          "raw": "qekey",
+          "locus": "f83r.52",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "solkeey",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.52|G002",
+          "raw": "qekey",
+          "locus": "f83r.52",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "solkeey",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.52|G002",
+          "raw": "qekey",
+          "locus": "f83r.52",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "solkeey",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "Written left entry material is retained. OT/OK pairing has residual entry profiles; q has an aggregate chunk-entry tendency, not an argument or procedure gloss."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "ey",
+          "left": "e",
+          "right": "y",
+          "held_n": "259",
+          "atomic_primary_bits": "0.6428168939893162",
+          "direct_primary_bits": "0.8106185701151604",
+          "atomic_gain_vs_direct_bits": "0.16780167612584418",
+          "held_chunk_initial_rate": "0.015444015444015444",
+          "held_chunk_final_rate": "0.9575289575289575"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "qokchdy",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.47|G002",
+          "locus": "f83r.47",
+          "chunk_index": 1,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "qok",
+        "Cdy"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "qok",
+        "chdy"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "qok",
+          "rank": 7,
+          "left": "q",
+          "right": {
+            "unit": "ok",
+            "rank": 2,
+            "left": "o",
+            "right": "k"
+          }
+        },
+        {
+          "unit": "Cdy",
+          "rank": 36,
+          "left": "C",
+          "right": {
+            "unit": "dy",
+            "rank": 1,
+            "left": "d",
+            "right": "y"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.47|G002",
+          "raw": "qokchdy",
+          "locus": "f83r.47",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "otchdy",
+          "previous_raw_ends_literal_dy": true
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.47|G002",
+          "raw": "qokchdy",
+          "locus": "f83r.47",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "otchdy",
+          "previous_raw_ends_literal_dy": true
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.47|G002",
+          "raw": "qokchdy",
+          "locus": "f83r.47",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "otchdy",
+          "previous_raw_ends_literal_dy": true
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "Right y/dy formal closure profiles apply to these frozen merge units, not sentence completion or meanings.",
+        "Written left entry material is retained. OT/OK pairing has residual entry profiles; q has an aggregate chunk-entry tendency, not an argument or procedure gloss.",
+        "Its actual previous same-line whole is OTCHDY ending dy. This is compatible with the GDT318 q×PREV_DY tendency; it does not force a new argument or translate Q."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "qok",
+          "left": "q",
+          "right": "ok",
+          "held_n": "444",
+          "atomic_primary_bits": "0.6659894373320632",
+          "direct_primary_bits": "0.8191334139647116",
+          "atomic_gain_vs_direct_bits": "0.15314397663264845",
+          "held_chunk_initial_rate": "0.9842342342342343",
+          "held_chunk_final_rate": "0.009009009009009009"
+        },
+        {
+          "merged": "ok",
+          "left": "o",
+          "right": "k",
+          "held_n": "625",
+          "atomic_primary_bits": "0.8733051397410048",
+          "direct_primary_bits": "1.1953151696461342",
+          "atomic_gain_vs_direct_bits": "0.3220100299051294",
+          "held_chunk_initial_rate": "0.8208",
+          "held_chunk_final_rate": "0.0096"
+        },
+        {
+          "merged": "Cdy",
+          "left": "C",
+          "right": "dy",
+          "held_n": "167",
+          "atomic_primary_bits": "0.8584097881504719",
+          "direct_primary_bits": "1.0517491996942525",
+          "atomic_gain_vs_direct_bits": "0.19333941154378065",
+          "held_chunk_initial_rate": "0.23353293413173654",
+          "held_chunk_final_rate": "0.9520958083832335"
+        },
+        {
+          "merged": "dy",
+          "left": "d",
+          "right": "y",
+          "held_n": "204",
+          "atomic_primary_bits": "0.9866078981453897",
+          "direct_primary_bits": "1.3620861212187516",
+          "atomic_gain_vs_direct_bits": "0.37547822307336187",
+          "held_chunk_initial_rate": "0.18137254901960784",
+          "held_chunk_final_rate": "0.9362745098039216"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "qotar",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.53|G003",
+          "locus": "f83r.53",
+          "chunk_index": 2,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "qot",
+        "ar"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "qot",
+        "ar"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "qot",
+          "rank": 16,
+          "left": "q",
+          "right": {
+            "unit": "ot",
+            "rank": 6,
+            "left": "o",
+            "right": "t"
+          }
+        },
+        {
+          "unit": "ar",
+          "rank": 8,
+          "left": "a",
+          "right": "r"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.53|G003",
+          "raw": "qotar",
+          "locus": "f83r.53",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "cheol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.53|G003",
+          "raw": "qotar",
+          "locus": "f83r.53",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "cheol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.53|G003",
+          "raw": "qotar",
+          "locus": "f83r.53",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "cheal",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "Written left entry material is retained. OT/OK pairing has residual entry profiles; q has an aggregate chunk-entry tendency, not an argument or procedure gloss."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "qot",
+          "left": "q",
+          "right": "ot",
+          "held_n": "353",
+          "atomic_primary_bits": "0.7030994128720578",
+          "direct_primary_bits": "0.8173419343471049",
+          "atomic_gain_vs_direct_bits": "0.1142425214750471",
+          "held_chunk_initial_rate": "0.9915014164305949",
+          "held_chunk_final_rate": "0.0056657223796034"
+        },
+        {
+          "merged": "ot",
+          "left": "o",
+          "right": "t",
+          "held_n": "689",
+          "atomic_primary_bits": "0.8073524687948325",
+          "direct_primary_bits": "1.1927041051509861",
+          "atomic_gain_vs_direct_bits": "0.38535163635615366",
+          "held_chunk_initial_rate": "0.9201741654571843",
+          "held_chunk_final_rate": "0.008708272859216255"
+        },
+        {
+          "merged": "ar",
+          "left": "a",
+          "right": "r",
+          "held_n": "766",
+          "atomic_primary_bits": "1.061890295336394",
+          "direct_primary_bits": "1.2520655786774313",
+          "atomic_gain_vs_direct_bits": "0.19017528334103728",
+          "held_chunk_initial_rate": "0.19321148825065274",
+          "held_chunk_final_rate": "0.7480417754569191"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "r",
+      "status": "MISSING_APPLIED_NATIVE_DECOMPOSITION_IN_INSPECTED_FOCAL_CACHE",
+      "readers_in_packet": [
+        "RF1b"
+      ],
+      "applied_ZL_cache_examples": [],
+      "ordered_cached_final_units": null,
+      "raw_fragment_rendering_of_frozen_units": null,
+      "documented_merge_hierarchy": null,
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.55|G002",
+          "raw": "r",
+          "locus": "f83r.55",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "UNCERTAIN_SMALL_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "sol",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "No exact applied whole-form sequence at these focal native reader sites in the inspected ZL cache. Do not infer a new parse from one edit, shared substrings, deletion of entities, or the peer reader.",
+        "RF source supplies these two groups with an uncertain small-space seam. Older RTAIN sequence does not establish either native separate whole as an independently applied parse or give their meanings."
+      ],
+      "existing_unit_score_provenance": [],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "raly",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.52|G003",
+          "locus": "f83r.52",
+          "chunk_index": 2,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "r",
+        "al",
+        "y"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "r",
+        "al",
+        "y"
+      ],
+      "documented_merge_hierarchy": [
+        "r",
+        {
+          "unit": "al",
+          "rank": 9,
+          "left": "a",
+          "right": "l"
+        },
+        "y"
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.52|G003",
+          "raw": "raly",
+          "locus": "f83r.52",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "qekey",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.52|G003",
+          "raw": "raly",
+          "locus": "f83r.52",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "qekey",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.52|G003",
+          "raw": "raly",
+          "locus": "f83r.52",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "qekey",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "al",
+          "left": "a",
+          "right": "l",
+          "held_n": "476",
+          "atomic_primary_bits": "1.2303573411637874",
+          "direct_primary_bits": "1.5972741317360313",
+          "atomic_gain_vs_direct_bits": "0.3669167905722439",
+          "held_chunk_initial_rate": "0.2647058823529412",
+          "held_chunk_final_rate": "0.6323529411764706"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "rtain",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.55|G002",
+          "locus": "f83r.55",
+          "chunk_index": 1,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "r",
+        "t",
+        "aI"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "r",
+        "t",
+        "ain"
+      ],
+      "documented_merge_hierarchy": [
+        "r",
+        "t",
+        {
+          "unit": "aI",
+          "rank": 12,
+          "left": "a",
+          "right": "I"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.55|G002",
+          "raw": "rtain",
+          "locus": "f83r.55",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "sol",
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.55|G002",
+          "raw": "rtain",
+          "locus": "f83r.55",
+          "group_index": "2",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "sol",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "N=iin and I=in are frozen analyst collapse symbols. Different i-run spellings remain different; no numeric scale is supplied.",
+        "ZL/IT raw RTAIN is one definitely bounded group despite formal inner units r+t+aI. RF instead has r UNCERTAIN_SMALL_SPACE tain; retain both source groups and the uncertain seam."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "aI",
+          "left": "a",
+          "right": "I",
+          "held_n": "414",
+          "atomic_primary_bits": "0.7681897187438844",
+          "direct_primary_bits": "1.158552905961296",
+          "atomic_gain_vs_direct_bits": "0.3903631872174116",
+          "held_chunk_initial_rate": "0.0821256038647343",
+          "held_chunk_final_rate": "0.9685990338164251"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "s@221;roldal",
+      "status": "MISSING_APPLIED_NATIVE_DECOMPOSITION_IN_INSPECTED_FOCAL_CACHE",
+      "readers_in_packet": [
+        "RF1b"
+      ],
+      "applied_ZL_cache_examples": [],
+      "ordered_cached_final_units": null,
+      "raw_fragment_rendering_of_frozen_units": null,
+      "documented_merge_hierarchy": null,
+      "native_occurrences": [
+        {
+          "unit_id": "F83_CAPTION_50",
+          "record_kind": "LABEL",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.50|G001",
+          "raw": "s@221;roldal",
+          "locus": "f83r.50",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "No exact applied whole-form sequence at these focal native reader sites in the inspected ZL cache. Do not infer a new parse from one edit, shared substrings, deletion of entities, or the peer reader.",
+        "Raw unresolved entity is preserved. Old source cleaner could strip entities, but it is not run on this target; material would be lost by such normalization."
+      ],
+      "existing_unit_score_provenance": [],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "saroldal",
+      "status": "MISSING_APPLIED_NATIVE_DECOMPOSITION_IN_INSPECTED_FOCAL_CACHE",
+      "readers_in_packet": [
+        "IT2a"
+      ],
+      "applied_ZL_cache_examples": [],
+      "ordered_cached_final_units": null,
+      "raw_fragment_rendering_of_frozen_units": null,
+      "documented_merge_hierarchy": null,
+      "native_occurrences": [
+        {
+          "unit_id": "F83_CAPTION_50",
+          "record_kind": "LABEL",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.50|G001",
+          "raw": "saroldal",
+          "locus": "f83r.50",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "No exact applied whole-form sequence at these focal native reader sites in the inspected ZL cache. Do not infer a new parse from one edit, shared substrings, deletion of entities, or the peer reader.",
+        "IT SAROLDAL differs from ZL SASOLDAL. No raw SAS→SAR replacement or part meaning inherited."
+      ],
+      "existing_unit_score_provenance": [],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "sasoldal",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.50|G001",
+          "locus": "f83r.50",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "s",
+        "a",
+        "s",
+        "ol",
+        "dal"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "s",
+        "a",
+        "s",
+        "ol",
+        "dal"
+      ],
+      "documented_merge_hierarchy": [
+        "s",
+        "a",
+        "s",
+        {
+          "unit": "ol",
+          "rank": 3,
+          "left": "o",
+          "right": "l"
+        },
+        {
+          "unit": "dal",
+          "rank": 34,
+          "left": "d",
+          "right": {
+            "unit": "al",
+            "rank": 9,
+            "left": "a",
+            "right": "l"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_CAPTION_50",
+          "record_kind": "LABEL",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.50|G001",
+          "raw": "sasoldal",
+          "locus": "f83r.50",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "SINGLE",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior.",
+        "Singleton caption has no native paragraph flags. Prose wrapper/entry statistics cannot silently turn it into a sentence or a noun."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        },
+        {
+          "merged": "dal",
+          "left": "d",
+          "right": "al",
+          "held_n": "174",
+          "atomic_primary_bits": "1.0703998422327603",
+          "direct_primary_bits": "1.0872480747206124",
+          "atomic_gain_vs_direct_bits": "0.016848232487852055",
+          "held_chunk_initial_rate": "0.5057471264367817",
+          "held_chunk_final_rate": "0.6781609195402298"
+        },
+        {
+          "merged": "al",
+          "left": "a",
+          "right": "l",
+          "held_n": "476",
+          "atomic_primary_bits": "1.2303573411637874",
+          "direct_primary_bits": "1.5972741317360313",
+          "atomic_gain_vs_direct_bits": "0.3669167905722439",
+          "held_chunk_initial_rate": "0.2647058823529412",
+          "held_chunk_final_rate": "0.6323529411764706"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "shedal",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.47|G003",
+          "locus": "f83r.47",
+          "chunk_index": 2,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "Se",
+        "dal"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "she",
+        "dal"
+      ],
+      "documented_merge_hierarchy": [
+        {
+          "unit": "Se",
+          "rank": 11,
+          "left": "S",
+          "right": "e"
+        },
+        {
+          "unit": "dal",
+          "rank": 34,
+          "left": "d",
+          "right": {
+            "unit": "al",
+            "rank": 9,
+            "left": "a",
+            "right": "l"
+          }
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.47|G003",
+          "raw": "shedal",
+          "locus": "f83r.47",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "qokchdy",
+          "previous_raw_ends_literal_dy": true
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.47|G003",
+          "raw": "shedal",
+          "locus": "f83r.47",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "qokchdy",
+          "previous_raw_ends_literal_dy": true
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.47|G003",
+          "raw": "shedal",
+          "locus": "f83r.47",
+          "group_index": "3",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "LAST",
+          "immediate_same_line_previous_raw": "qokchdy",
+          "previous_raw_ends_literal_dy": true
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "Se",
+          "left": "S",
+          "right": "e",
+          "held_n": "260",
+          "atomic_primary_bits": "1.002898652989109",
+          "direct_primary_bits": "1.159223440388905",
+          "atomic_gain_vs_direct_bits": "0.15632478739979594",
+          "held_chunk_initial_rate": "0.7730769230769231",
+          "held_chunk_final_rate": "0.03076923076923077"
+        },
+        {
+          "merged": "dal",
+          "left": "d",
+          "right": "al",
+          "held_n": "174",
+          "atomic_primary_bits": "1.0703998422327603",
+          "direct_primary_bits": "1.0872480747206124",
+          "atomic_gain_vs_direct_bits": "0.016848232487852055",
+          "held_chunk_initial_rate": "0.5057471264367817",
+          "held_chunk_final_rate": "0.6781609195402298"
+        },
+        {
+          "merged": "al",
+          "left": "a",
+          "right": "l",
+          "held_n": "476",
+          "atomic_primary_bits": "1.2303573411637874",
+          "direct_primary_bits": "1.5972741317360313",
+          "atomic_gain_vs_direct_bits": "0.3669167905722439",
+          "held_chunk_initial_rate": "0.2647058823529412",
+          "held_chunk_final_rate": "0.6323529411764706"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "sol",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.49|G001",
+          "locus": "f83r.49",
+          "chunk_index": 0,
+          "split": "train"
+        },
+        {
+          "ID": "ZL3b|f83r.55|G001",
+          "locus": "f83r.55",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "s",
+        "ol"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "s",
+        "ol"
+      ],
+      "documented_merge_hierarchy": [
+        "s",
+        {
+          "unit": "ol",
+          "rank": 3,
+          "left": "o",
+          "right": "l"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.49|G001",
+          "raw": "sol",
+          "locus": "f83r.49",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.49|G001",
+          "raw": "sol",
+          "locus": "f83r.49",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q1",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.49|G001",
+          "raw": "sol",
+          "locus": "f83r.49",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.55|G001",
+          "raw": "sol",
+          "locus": "f83r.55",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.55|G001",
+          "raw": "sol",
+          "locus": "f83r.55",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "1",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.55|G001",
+          "raw": "sol",
+          "locus": "f83r.55",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior.",
+        "These target occurrences are line initial and consistent with the GDT318 s×line-start tendency; no universal command or scope reset follows."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "solchkal",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.53|G001",
+          "locus": "f83r.53",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "s",
+        "ol",
+        "C",
+        "k",
+        "al"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "s",
+        "ol",
+        "ch",
+        "k",
+        "al"
+      ],
+      "documented_merge_hierarchy": [
+        "s",
+        {
+          "unit": "ol",
+          "rank": 3,
+          "left": "o",
+          "right": "l"
+        },
+        "C",
+        "k",
+        {
+          "unit": "al",
+          "rank": 9,
+          "left": "a",
+          "right": "l"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.53|G001",
+          "raw": "solchkal",
+          "locus": "f83r.53",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.53|G001",
+          "raw": "solchkal",
+          "locus": "f83r.53",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.53|G001",
+          "raw": "solchkal",
+          "locus": "f83r.53",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior.",
+        "These target occurrences are line initial and consistent with the GDT318 s×line-start tendency; no universal command or scope reset follows."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        },
+        {
+          "merged": "al",
+          "left": "a",
+          "right": "l",
+          "held_n": "476",
+          "atomic_primary_bits": "1.2303573411637874",
+          "direct_primary_bits": "1.5972741317360313",
+          "atomic_gain_vs_direct_bits": "0.3669167905722439",
+          "held_chunk_initial_rate": "0.2647058823529412",
+          "held_chunk_final_rate": "0.6323529411764706"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "solkeey",
+      "status": "EXACT_ZL_NATIVE_APPLIED_BPE_AVAILABLE",
+      "readers_in_packet": [
+        "IT2a",
+        "RF1b",
+        "ZL3b"
+      ],
+      "applied_ZL_cache_examples": [
+        {
+          "ID": "ZL3b|f83r.52|G001",
+          "locus": "f83r.52",
+          "chunk_index": 0,
+          "split": "train"
+        }
+      ],
+      "ordered_cached_final_units": [
+        "s",
+        "olk",
+        "Ey"
+      ],
+      "raw_fragment_rendering_of_frozen_units": [
+        "s",
+        "olk",
+        "eey"
+      ],
+      "documented_merge_hierarchy": [
+        "s",
+        {
+          "unit": "olk",
+          "rank": 28,
+          "left": {
+            "unit": "ol",
+            "rank": 3,
+            "left": "o",
+            "right": "l"
+          },
+          "right": "k"
+        },
+        {
+          "unit": "Ey",
+          "rank": 14,
+          "left": "E",
+          "right": "y"
+        }
+      ],
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "ZL3b",
+          "ID": "ZL3b|f83r.52|G001",
+          "raw": "solkeey",
+          "locus": "f83r.52",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "IT2a",
+          "ID": "IT2a|f83r.52|G001",
+          "raw": "solkeey",
+          "locus": "f83r.52",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "1",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        },
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.52|G001",
+          "raw": "solkeey",
+          "locus": "f83r.52",
+          "group_index": "1",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "FIRST",
+          "immediate_same_line_previous_raw": null,
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "Cached sequence is directly applied at these ZL loci. Identical IT/RF raw groups inherit an exact-form formal comparison only; this is not a separately applied native reader parse.",
+        "Right y/dy formal closure profiles apply to these frozen merge units, not sentence completion or meanings.",
+        "OL remains a pair-specific unit; no shared O meaning or automatic OL deletion. Exact whole/chunk identity may retain additional residual behavior.",
+        "These target occurrences are line initial and consistent with the GDT318 s×line-start tendency; no universal command or scope reset follows."
+      ],
+      "existing_unit_score_provenance": [
+        {
+          "merged": "olk",
+          "left": "ol",
+          "right": "k",
+          "held_n": "152",
+          "atomic_primary_bits": "1.0191145512382145",
+          "direct_primary_bits": "1.2656544098205695",
+          "atomic_gain_vs_direct_bits": "0.24653985858235505",
+          "held_chunk_initial_rate": "0.6513157894736842",
+          "held_chunk_final_rate": "0.0"
+        },
+        {
+          "merged": "ol",
+          "left": "o",
+          "right": "l",
+          "held_n": "712",
+          "atomic_primary_bits": "1.2386405377960488",
+          "direct_primary_bits": "1.445574645441542",
+          "atomic_gain_vs_direct_bits": "0.20693410764549314",
+          "held_chunk_initial_rate": "0.4044943820224719",
+          "held_chunk_final_rate": "0.5463483146067416"
+        },
+        {
+          "merged": "Ey",
+          "left": "E",
+          "right": "y",
+          "held_n": "370",
+          "atomic_primary_bits": "0.5894229439937023",
+          "direct_primary_bits": "0.7616367693234389",
+          "atomic_gain_vs_direct_bits": "0.17221382532973661",
+          "held_chunk_initial_rate": "0.005405405405405406",
+          "held_chunk_final_rate": "0.9675675675675676"
+        }
+      ],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    },
+    {
+      "raw_whole_form": "tain",
+      "status": "MISSING_APPLIED_NATIVE_DECOMPOSITION_IN_INSPECTED_FOCAL_CACHE",
+      "readers_in_packet": [
+        "RF1b"
+      ],
+      "applied_ZL_cache_examples": [],
+      "ordered_cached_final_units": null,
+      "raw_fragment_rendering_of_frozen_units": null,
+      "documented_merge_hierarchy": null,
+      "native_occurrences": [
+        {
+          "unit_id": "F83_Q2",
+          "record_kind": "EMBEDDED_RECORD",
+          "edition": "RF1b",
+          "ID": "RF1b|f83r.55|G003",
+          "raw": "tain",
+          "locus": "f83r.55",
+          "group_index": "3",
+          "left_separator": "UNCERTAIN_SMALL_SPACE",
+          "right_separator": "DEFINITE_SPACE",
+          "paragraph_start": "0",
+          "paragraph_end": "0",
+          "physical_position": "INTERNAL",
+          "immediate_same_line_previous_raw": "r",
+          "previous_raw_ends_literal_dy": false
+        }
+      ],
+      "direction_entry_residual_constraints": [
+        "No exact applied whole-form sequence at these focal native reader sites in the inspected ZL cache. Do not infer a new parse from one edit, shared substrings, deletion of entities, or the peer reader.",
+        "RF source supplies these two groups with an uncertain small-space seam. Older RTAIN sequence does not establish either native separate whole as an independently applied parse or give their meanings."
+      ],
+      "existing_unit_score_provenance": [],
+      "selected_linguistic_decomposition": null,
+      "semantic_part_values": null
+    }
+  ],
+  "shared_frozen_final_units": [
+    {
+      "frozen_unit": "C",
+      "focal_whole_forms": [
+        "chdal",
+        "chtorol",
+        "solchkal"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "Cdy",
+      "focal_whole_forms": [
+        "otchdy",
+        "qokchdy"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "aN",
+      "focal_whole_forms": [
+        "aiin",
+        "olsaiin"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "al",
+      "focal_whole_forms": [
+        "cthal",
+        "raly",
+        "solchkal"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "dal",
+      "focal_whole_forms": [
+        "chdal",
+        "dal",
+        "ldalor",
+        "sasoldal",
+        "shedal"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "k",
+      "focal_whole_forms": [
+        "qekey",
+        "solchkal"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "l",
+      "focal_whole_forms": [
+        "ldalor",
+        "lol"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "ol",
+      "focal_whole_forms": [
+        "chtorol",
+        "darolsy",
+        "lol",
+        "ol",
+        "olsaiin",
+        "sasoldal",
+        "sol",
+        "solchkal"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "or",
+      "focal_whole_forms": [
+        "chtorol",
+        "ldalor"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "r",
+      "focal_whole_forms": [
+        "raly",
+        "rtain"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "s",
+      "focal_whole_forms": [
+        "darolsy",
+        "olsaiin",
+        "sasoldal",
+        "sasoldal",
+        "sol",
+        "solchkal",
+        "solkeey"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "t",
+      "focal_whole_forms": [
+        "chtorol",
+        "rtain"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    },
+    {
+      "frozen_unit": "y",
+      "focal_whole_forms": [
+        "darolsy",
+        "raly"
+      ],
+      "implication": "Same formal piece/order can constrain a proposed reusable construction. It supplies no same English meaning, output sort or argument default; price proposed semantics separately."
+    }
+  ],
+  "general_primary_constraints": [
+    {
+      "source": "GDT608",
+      "positive": "Reusable ordered components carry exterior context: direct beats global/swapped on all 23 held folios; exact atomic merge identity also beats direct on all 23 and 51/64 merge types.",
+      "limit": "BPE/collapse units are analyst formal pieces, not a proven linguistic parser. Chunk-final y/dy and entry q do not translate completion/arguments. The exact focal f83 cache is TRAIN, not held confirmation."
+    },
+    {
+      "source": "GDT282/286/318",
+      "positive": "Opaque wrapper identity transfers, host×position improves, and s×line-start / q×previous-DY show entry-context tendencies.",
+      "limit": "The old wrapper model is a distinct representation. No deterministic prefix deletion, universal grammatical role, state reset or unseen host license follows. Actual line/paragraph/seam metadata must be retained."
+    },
+    {
+      "source": "GDT915/916",
+      "positive": "Known two-group r/l stem families co-vary; the new-pair test is adequate but nonconfirming.",
+      "limit": "No general agreement or new suffix grammar. No exact focal adjacent pair belongs to the 22 nominated known families; raw CTHAL/CTHOL disagreement cannot be repaired by r/l or arbitrary allomorphy."
+    },
+    {
+      "source": "GDT557",
+      "positive": "Legacy renderer supplies OT=NEXT, OL=KEEP, DY=CLOSE within unchanged authored recipes, roots, segmentations and statement boundaries.",
+      "limit": "Its operational defaults are not independent historical syntax/meaning evidence for FT. Do not inherit them as shared rules or conflate renderer closure with GDT608 measured formal chunk edges."
+    },
+    {
+      "source": "GDT773",
+      "positive": "Capacity-equalized old contact/topology scoring prefers a formal nominal fallback and contextual OL field operator on fifteen fixed cases.",
+      "limit": "Root/amount-contact/old untyped display assumptions remain; zero confirmed syntax/meaning. OL=Ansatz or a nominal topology score is not an independently established FT grammar."
+    }
+  ],
+  "semantic_implication": "Authors can reuse these finite ordered formal pieces to reduce independent singleton productions, with declared semantic rules and exact whole-form residuals. Cache segmentation alone licenses no English value, typed consumer or unique morpheme cut. Different complete means or hidden defaults remain fully charged. Whole residuals cannot be freely dropped just to increase compositional compression.",
+  "missing_capacity": "Seven alternate raw wholes have no exact focal native applied sequence in the inspected cache; preserve them and the uncertain RF seam. No wider parser/cache join or new infrastructure is needed for this guidance.",
+  "limits": {
+    "no_author_or_critic_content_read": true,
+    "only_owned_files_written": true,
+    "f84_f84r_sealed": true,
+    "reserves_closed": true,
+    "new_admissions": 0,
+    "new_images_or_external_contacts": 0,
+    "old_source_bytes_preserved": true,
+    "confirmed_words": 0
+  },
+  "final_validation": {
+    "15_scientific_primary_cache_packet_hashes_unchanged": true,
+    "root_owned_GO_version_change": [
+      {
+        "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_AUTHOR_GO.md",
+        "initial_receipt_sha256": "a98ce80aa38b8f509a4fe6ae0c7bbbfbb3a26e6a2a516562e65071d80373e119",
+        "final_reread_sha256": "f19f0d07c2fc04bee268ceb9d7c7a92e5032651a74ca04ce2fb1b445c9a70643",
+        "interpretation": "Root-owned GO changed concurrently; current whole GO reread through bounded head/tail. Composition/data/primary constraints unaffected. This task did not mutate GO."
+      }
+    ],
+    "all94_native_IDs_covered_once": true,
+    "all27_cached_raw_fragment_concatenations_match": true,
+    "seven_alternate_raw_gaps_preserved": [
+      "cheal",
+      "cth@221;l",
+      "cthol",
+      "r",
+      "s@221;roldal",
+      "saroldal",
+      "tain"
+    ],
+    "no_new_BPE_or_parser_run": true,
+    "all11_ZL_line_and_chunk_counts_match": true
+  },
+  "shared_packet_sha256": "31de602d3d3a6b1c58caf5563159a3f757fe05995971f9319b769c4bbb95fa26"
+}
