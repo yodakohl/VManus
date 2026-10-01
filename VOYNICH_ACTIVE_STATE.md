@@ -1,3 +1,6 @@
+<!-- FL 2026-10-01 -->
+GDT1121 executed: new strict QOCTHDY14 Motion-only signature fails all five preceding UnaryProcess events; fixed entry introductions each singleton in seed, so outside initialization upper bound0. Seed CHY27 precedes QOKEEY57/CHOR58. No aperture test scored/no global search; FK C0 unchanged/no meaningwinner/0words. Stop strict refinement/census. Next review exposed second whole context with explicit written entry before shared semantics. See experiments/yolo/gdt1121_aperture_state_later_traversal/REPORT.md.
+
 <!-- FK 2026-10-01 -->
 FK:two fullassigned connectedC0 f85r1.1–6 graphs retained;60IT/182raw,42lex12rules6defaults;SHEYthermal,KEDYpolarity,QOKEEYaperture differ. Genericderivationunverified:modifier4,Bpatient18/29,partitionmotion19. No unconditionalcontradiction/no winner;alternate3ZL16RFunassigned. Nextexplicitcommon signatures plus prospectivewrittenaperture-stateconsequence;no free state-labelsearch/authorrepair.0words0independentleaves;839raw;worker overruns. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FK_REPORT.md.
 

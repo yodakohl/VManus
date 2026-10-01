@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: FKtwo connected C0s;derivation unverified.
-Latest decision: no meaningwinner;42lex;839raw.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FK_REPORT.md.
-Assumptions: 0words;old945946FI fixed;no sealaccess.
-Resume: Specify common signatures and written aperture-state consequence.
-Running: None;Solthreads frozen.
+Task: FL fixed aperture-state diagnostic executed.
+Latest decision: GDT1121 strict tuple fails14;outside entry0;no meaningwinner.
+Working files: experiments/yolo/gdt1121_aperture_state_later_traversal/REPORT.md.
+Assumptions: FK unchanged;0words;14newFL assumptions;no sealaccess.
+Resume: Review exposed second whole context with written participant entry before shared semantics; no FL repair/census.
+Running: None; FL workers frozen; no search.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
