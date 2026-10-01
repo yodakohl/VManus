@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: QOKEEDY initial/medial argument entry;no newglosses.
-Latest decision: GDT1124 noQOKEEYentrycase;Paint-gap depends onaddedreset.
-Working files: experiments/yolo/gdt1124_qokeey_paragraph_entry_layer/REPORT.md.
-Assumptions: 0words;FO/FP frozen;posthocnotfixed;seals/reserves closed.
-Resume: Inspect entry/deferred-argument predecessors before choosing one newconstruction.
-Running: None;FQ publication closeout.
+Task: Select a whole-context meaning discriminator after FS.
+Latest decision: IDEA859 full critique; semantic rivals retain identical graph.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FS_REPORT.md.
+Assumptions: 0 words; FO/FP/FR frozen; seals/reserves closed.
+Resume: Review f83 coupled-configuration primaries before a full rival reading.
+Running: Eight Sol tasks complete; root publication. No timed abort.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -38,7 +38,7 @@ controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primari
 Other closed families remain in the existing registry; no automatic reopening.
 
 ## Access and operating boundaries
-f84 and f84r remain sealed. f84r is sealed. f116v not admitted. Reserves closed until near-complete
+f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;92 legacy image keys/98 selectors (F scope receipt). f1r margins only;
 f106v image fixed paragraph only. Register new access first. Full admission contracts:

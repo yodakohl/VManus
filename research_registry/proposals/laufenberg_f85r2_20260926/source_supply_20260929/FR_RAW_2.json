@@ -1,0 +1,31 @@
+{
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_UNTESTED",
+  "source_status": "CREATIVE_RAW_MISSING_INPUTS_METADATA_ONLY",
+  "missing_inputs": [
+    "Complete prospective contexts and alternate positions",
+    "Immutable paid lexical types, grammar, event arguments and binding boundaries",
+    "Claim-bearing primary review before selection"
+  ],
+  "retained_caveats": [
+    "No target/source body access or new meaning claim.",
+    "GDT1124 and frozen FP/FQ failures unchanged; no paragraph-reset repair.",
+    "Related family metadata is navigation only; novelty unconfirmed."
+  ],
+  "title": "RAW UNREVIEWED: a repeated process consumes an explicitly referenced prior-stage result",
+  "summary": "The same paid operation can act first on a written initial input and later on a written earlier result. Initial/medial occurrence is explained by event dependency, not new process glosses or automatic entry scope.",
+  "design": {
+    "mechanism": "Use fixed P(input)->result with paid preconditions. A later P may consume the earlier result only through an explicitly written, already-priced event/result reference and compatible input type. Preserve original input, result and separate operation episodes.",
+    "prediction": "A whole chain must expose the first written input, each produced result and each reference authorizing reuse. Repeated P retains identical transition semantics; result state must meet its preconditions or an explicit paid restoration operation is required.",
+    "contrast": "Explicit result-fed iteration versus independent repeated instructions acting on separately written inputs.",
+    "scope": "No nearest-result fallback, invisible restoration, layer ownership census or missing-patient repair."
+  },
+  "required_falsifier": "Reject if a later P requires a result that was never produced/referenced, violates unchanged process preconditions, silently replaces an independent input, or changes P to permit repetition.",
+  "predecessor_links": [
+    "IDEA000842",
+    "IDEA000843",
+    "GDT1124",
+    "IDEA000847"
+  ],
+  "exact_changed_research_decision": "Prefer result-fed repetition only when the complete paid graph predicts lawful input reuse; otherwise retain independent-event rival or leave binding unresolved."
+}

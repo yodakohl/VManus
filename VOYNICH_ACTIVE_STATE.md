@@ -1,3 +1,9 @@
+<!-- FS completed 2026-10-01 -->
+IDEA859: eight Sol tasks completed. FR criticism now covers all101primary/65alternate groups,56inventory entries,19repeated families;65manualstate comparisons match but full execution is underdefined (initial environment, event classification, G7 precedence, iteration). Two complete34-value dictionaries preserve all abstract consequences: ceramic coating versus skin coating; formal fit cannot choose meaning. Native f83 two-body/channel/unlike-outlet configuration remains a concrete content obligation, not a bound recipient. No new lexeme/whole context/independent confirmation; no task stopped by time. Next one whole-context rival discriminator after primaries, no freeQOKEDY/ALgloss. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FS_REPORT.md.
+
+<!-- FR/FS 2026-10-01 -->
+IDEA852: separately paid fresh-Paint QOKEEDY / Paint-processing QOKEEY candidate. 101 primary groups, 36 unbound, 65 alternate groups uninterpreted; 0 whole contexts or words. Source accounting passes only identities/boundaries/authored assertions. Frozen connected reading adds unsupported spreading; reject that action, preserve original. Full rule/default/result-register audit remains open and FS resumes it with eight Sol agents; user prohibits time-based test abandonment. Semantic rivals, family priors, source/visual ownership audits determine next discriminator. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FR_REPORT.md.
+
 <!-- FQ 2026-10-01 -->
 GDT1124 fixedentryscreen:0initialQOKEEYin58supportedentries,29RFboundaryunscoreable. Posthocf83r25initialQOKEEDYhasnoPaintonlyunderaddedempty-entry/noambienttransfer;FO D1doesnotstateuniversalreset. Nextentry/argumentconstructionbeforeglosses;0words;oldFO/FP unchanged. See experiments/yolo/gdt1124_qokeey_paragraph_entry_layer/REPORT.md.
 
