@@ -9,7 +9,7 @@ Latest decision: Conditional joins;no wholeform prose bridge.
 Working files: experiments/yolo/gdt1128_native_owned_label_reading_binding/REPORT.md.
 Assumptions: Nativeunknowns;all102;oldFAILs;0meanings.
 Resume: Need complete discriminating written owner/argument case.
-Running: none;GC outcome awaiting publication.
+Running: none;GC closure pushed to main.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
