@@ -4,11 +4,11 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: FIwholefamily partial;QOLnested typeconflict.
-Latest decision: OuterOL rejectsEvent;F2nominalunconsumed.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FI_REPORT.md.
-Assumptions: 0words;836unreopened;old944/FD/FGfixed.
-Resume: Review283primary usingFItype/consumptionconstraint.
+Task: FJpairaudit stop;wholecontent draftnext.
+Latest decision: 283notreopened;no newmeaning;838raw.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FJ_REPORT.md.
+Assumptions: 0words;old945946947/FI fixed;no sealaccess.
+Resume: Draft fullf85r1.1–6 competing contentaccounts.
 Running: None;Solthreads frozen.
 
 ## Structural baseline

@@ -1,3 +1,6 @@
+<!-- FJ 2026-10-01 -->
+FJ:283stillnot_tested; correctedvariants andFItypefailure do not bindconsumer. OldMEANING_PRIORITYwithdrawsautomaticfourfieldpriority. Stopunchangedpairaudit;nextactualconnectedwholef85r1.1–6 competingcontentdraft.838raw;f116r/vnavigationcorrected,no f116vpayload.0words0newmanuscriptfindings0independentleaves;budgetoverrun. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FJ_REPORT.md.
+
 <!-- FI 2026-10-01 -->
 FI:whole69IT/208rawsharedfamilyattemptpartial, allunconsumed;fixedQOLQOLKAIN nesting failsouterOL(Event), notauthorlaterQ. F2nominal29unconsumed;only3conditionalcomposablefragments. Stop3root4op6grammar2defaulttuple;unusedcapsnotallmodelsfailure.836notreopened;0words0independentleaves. Nextreview283actualgovernedpairprimary withnewtype/consumptionconflict;no paircensusrerun. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FI_REPORT.md.
 
