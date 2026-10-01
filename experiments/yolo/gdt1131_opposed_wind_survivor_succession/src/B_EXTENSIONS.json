@@ -1,0 +1,846 @@
+{
+  "schema": "GDT1131_B_PRICED_EXACT_EXTENSIONS_v1",
+  "created_utc": "2026-10-01T22:45:06.996078+00:00",
+  "constructor_sha256": "6c71078c6edc039019cf60d8777e1b903ad2dc6ab6d7818bfe9e7af6ba6f7f65",
+  "dictionary": {
+    "sain": {
+      "entry_id": "B_CORE_SAIN",
+      "family": "CASE_SETUP"
+    },
+    "or": {
+      "entry_id": "B_CORE_OR",
+      "family": "SOURCE_NEXT"
+    },
+    "aiin": {
+      "entry_id": "B_CORE_A_N",
+      "family": "A_N_ANCHOR",
+      "parts": [
+        "aN"
+      ],
+      "root_policy": "bare aiin is the root aN, not a child of d/ok/qok"
+    },
+    "opchdy": {
+      "entry_id": "B_CORE_OPCHDY",
+      "family": "SOLAR_CHANGE",
+      "change": "WITHDRAW"
+    },
+    "qotor": {
+      "entry_id": "B_CORE_QOTOR",
+      "family": "SOLAR_CHANGE",
+      "change": "APPROACH"
+    },
+    "sheedy": {
+      "entry_id": "B_CORE_SHEEDY",
+      "family": "GENERATE_WIND"
+    },
+    "daiin": {
+      "entry_id": "B_CORE_D_A_N",
+      "family": "EXACT_SEQUENCE",
+      "parts": [
+        "d",
+        "aN"
+      ],
+      "operations": [
+        {
+          "family": "SELECT_WIND",
+          "selection": "LATEST_GENERATED"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "price": "paid exact d selects most recent generated physical wind; same root aN interface"
+    },
+    "shodaiin": {
+      "entry_id": "B_CORE_SO_D_A_N",
+      "family": "EXACT_SEQUENCE",
+      "parts": [
+        "So",
+        "daN"
+      ],
+      "operations": [
+        {
+          "family": "MATERIAL_SOURCE_CERTIFY",
+          "head": "So"
+        },
+        {
+          "family": "SELECT_WIND",
+          "selection": "LATEST_GENERATED"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "formal_structure": "So=[S,o] then daN=[d,[a,N]]; no learned monolithic shodaiin unit"
+    },
+    "dair": {
+      "entry_id": "B_CORE_DAIR",
+      "family": "SELECT_WIND",
+      "selection": "PREVIOUS"
+    },
+    "pchedeey": {
+      "entry_id": "B_CORE_PCHEDEEY",
+      "family": "BEGIN_NEXT_SUCCESSION"
+    },
+    "chol": {
+      "entry_id": "B_CORE_CHOL",
+      "family": "WORLD_PREDICATE",
+      "predicate": "BLOWING"
+    },
+    "ol": {
+      "entry_id": "B_CORE_OL",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "ADJACENT_SOURCE"
+    },
+    "shedy": {
+      "entry_id": "B_CORE_SHEDY",
+      "family": "WORLD_PREDICATE",
+      "predicate": "SOLAR_MATERIAL_ORIGIN_AT_CURSOR",
+      "price": "different exploratory interface from IDEA582; no rescue of its DescriptionRef type clash"
+    },
+    "olfar": {
+      "entry_id": "B_EXT_OLFAR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "CESSATION_BEFORE_GENERATION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotaiin": {
+      "entry_id": "B_EXT_QOTAIIN",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "CESSATION_BEFORE_GENERATION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "ary": {
+      "entry_id": "B_EXT_ARY",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "ADJACENT_SOURCE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "shoral": {
+      "entry_id": "B_EXT_SHORAL",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "ADJACENT_SOURCE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotchdy": {
+      "entry_id": "B_EXT_QOTCHDY",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "ADJACENT_SOURCE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "ockhdor": {
+      "entry_id": "B_EXT_OCKHDOR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "ockhdar": {
+      "entry_id": "B_EXT_OCKHDAR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "oloeorain": {
+      "entry_id": "B_EXT_OLOEORAIN",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "oloqorain": {
+      "entry_id": "B_EXT_OLOQORAIN",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "olkor": {
+      "entry_id": "B_EXT_OLKOR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "SOLAR_MATERIAL_ORIGIN",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "olkar": {
+      "entry_id": "B_EXT_OLKAR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "SOLAR_MATERIAL_ORIGIN",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "chckhey": {
+      "entry_id": "B_EXT_CHCKHEY",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "SOLAR_MATERIAL_ORIGIN",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "sosees": {
+      "entry_id": "B_EXT_SOSEES",
+      "family": "SEAL_SUCCESSION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "roseer": {
+      "entry_id": "B_EXT_ROSEER",
+      "family": "SEAL_SUCCESSION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "soiis": {
+      "entry_id": "B_EXT_SOIIS",
+      "family": "SEAL_SUCCESSION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "chokcod": {
+      "entry_id": "B_EXT_CHOKCOD",
+      "family": "SEAL_SUCCESSION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "sheo": {
+      "entry_id": "B_EXT_SHEO",
+      "family": "WORLD_PREDICATE",
+      "predicate": "OLD_SOLAR_WITHDRAWAL_CAUSE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "tchedy": {
+      "entry_id": "B_EXT_TCHEDY",
+      "family": "WORLD_PREDICATE",
+      "predicate": "OLD_SOLAR_WITHDRAWAL_CAUSE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "olkey": {
+      "entry_id": "B_EXT_OLKEY",
+      "family": "SELECT_WIND",
+      "selection": "PREVIOUS",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qokedy": {
+      "entry_id": "B_EXT_QOKEDY",
+      "family": "SOLAR_CHANGE",
+      "change": "WITHDRAW",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "sheos": {
+      "entry_id": "B_EXT_SHEOS",
+      "family": "WORLD_PREDICATE",
+      "predicate": "OLD_CEASED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "fcheey": {
+      "entry_id": "B_EXT_FCHEEY",
+      "family": "SOURCE_NEXT",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "otchedy": {
+      "entry_id": "B_EXT_OTCHEDY",
+      "family": "SOLAR_CHANGE",
+      "change": "APPROACH",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "chotey": {
+      "entry_id": "B_EXT_CHOTEY",
+      "family": "WORLD_PREDICATE",
+      "predicate": "MATERIAL_RAISED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qocthey": {
+      "entry_id": "B_EXT_QOCTHEY",
+      "family": "GENERATE_WIND",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "otedy": {
+      "entry_id": "B_EXT_OTEDY",
+      "family": "WORLD_PREDICATE",
+      "predicate": "BLOWING",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qtchedy": {
+      "entry_id": "B_EXT_QTCHEDY",
+      "family": "SELECT_WIND",
+      "selection": "LATEST_GENERATED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "ytchedy": {
+      "entry_id": "B_EXT_YTCHEDY",
+      "family": "SELECT_WIND",
+      "selection": "LATEST_GENERATED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotom": {
+      "entry_id": "B_EXT_QOTOM",
+      "family": "SELECT_WIND",
+      "selection": "LATEST_GENERATED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qodar": {
+      "entry_id": "B_EXT_QODAR",
+      "family": "WORLD_PREDICATE",
+      "predicate": "GENERATED_FRESH",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotedar": {
+      "entry_id": "B_EXT_QOTEDAR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY_AND_ORDER",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qokar": {
+      "entry_id": "B_EXT_QOKAR",
+      "family": "SELECT_WIND",
+      "selection": "PREVIOUS",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotchd": {
+      "entry_id": "B_EXT_QOTCHD",
+      "family": "WORLD_PREDICATE",
+      "predicate": "OLD_CEASED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "tedy": {
+      "entry_id": "B_EXT_TEDY",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "GENERATION_AT_OR_BEFORE_CURRENT_PHASE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "oraiin": {
+      "entry_id": "B_EXT_ORAIIN",
+      "family": "EXACT_SEQUENCE",
+      "operations": [
+        {
+          "family": "SOURCE_NEXT"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "parts": [
+        "or",
+        "aN"
+      ],
+      "structure": "or=[o,r] then aN=[a,N], both ordinary operations in order",
+      "price": "NEW_EXACT_SEQUENCE_WITH_PAID_PARTS",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "oteey": {
+      "entry_id": "B_EXT_OTEEY",
+      "family": "EXACT_SEQUENCE",
+      "operations": [
+        {
+          "family": "WORLD_PREDICATE",
+          "predicate": "SOLAR_MATERIAL_ORIGIN_AT_CURSOR"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "parts": null,
+      "structure": "unparsed whole residual also supplies an explicit anchor; no aiin spelling or universal rule asserted",
+      "price": "NEW_WHOLE_SEQUENCE_NO_PART_PROOF",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "shedaiin": {
+      "entry_id": "B_EXT_SHEDAIIN",
+      "family": "EXACT_SEQUENCE",
+      "operations": [
+        {
+          "family": "MATERIAL_SOURCE_CERTIFY",
+          "head": "Se"
+        },
+        {
+          "family": "SELECT_WIND",
+          "selection": "LATEST_GENERATED"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "parts": [
+        "Se",
+        "daN"
+      ],
+      "structure": "Se=[S,e] then daN=[d,[a,N]], not monolithic learned unit",
+      "price": "NEW_EXACT_SEQUENCE_WITH_PAID_PARTS",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    }
+  },
+  "added_exact_forms": {
+    "olfar": {
+      "entry_id": "B_EXT_OLFAR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "CESSATION_BEFORE_GENERATION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotaiin": {
+      "entry_id": "B_EXT_QOTAIIN",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "CESSATION_BEFORE_GENERATION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "ary": {
+      "entry_id": "B_EXT_ARY",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "ADJACENT_SOURCE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "shoral": {
+      "entry_id": "B_EXT_SHORAL",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "ADJACENT_SOURCE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotchdy": {
+      "entry_id": "B_EXT_QOTCHDY",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "ADJACENT_SOURCE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "ockhdor": {
+      "entry_id": "B_EXT_OCKHDOR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "ockhdar": {
+      "entry_id": "B_EXT_OCKHDAR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "oloeorain": {
+      "entry_id": "B_EXT_OLOEORAIN",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "oloqorain": {
+      "entry_id": "B_EXT_OLOQORAIN",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "olkor": {
+      "entry_id": "B_EXT_OLKOR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "SOLAR_MATERIAL_ORIGIN",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "olkar": {
+      "entry_id": "B_EXT_OLKAR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "SOLAR_MATERIAL_ORIGIN",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "chckhey": {
+      "entry_id": "B_EXT_CHCKHEY",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "SOLAR_MATERIAL_ORIGIN",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "sosees": {
+      "entry_id": "B_EXT_SOSEES",
+      "family": "SEAL_SUCCESSION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "roseer": {
+      "entry_id": "B_EXT_ROSEER",
+      "family": "SEAL_SUCCESSION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "soiis": {
+      "entry_id": "B_EXT_SOIIS",
+      "family": "SEAL_SUCCESSION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "chokcod": {
+      "entry_id": "B_EXT_CHOKCOD",
+      "family": "SEAL_SUCCESSION",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "sheo": {
+      "entry_id": "B_EXT_SHEO",
+      "family": "WORLD_PREDICATE",
+      "predicate": "OLD_SOLAR_WITHDRAWAL_CAUSE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "tchedy": {
+      "entry_id": "B_EXT_TCHEDY",
+      "family": "WORLD_PREDICATE",
+      "predicate": "OLD_SOLAR_WITHDRAWAL_CAUSE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "olkey": {
+      "entry_id": "B_EXT_OLKEY",
+      "family": "SELECT_WIND",
+      "selection": "PREVIOUS",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qokedy": {
+      "entry_id": "B_EXT_QOKEDY",
+      "family": "SOLAR_CHANGE",
+      "change": "WITHDRAW",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "sheos": {
+      "entry_id": "B_EXT_SHEOS",
+      "family": "WORLD_PREDICATE",
+      "predicate": "OLD_CEASED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "fcheey": {
+      "entry_id": "B_EXT_FCHEEY",
+      "family": "SOURCE_NEXT",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "otchedy": {
+      "entry_id": "B_EXT_OTCHEDY",
+      "family": "SOLAR_CHANGE",
+      "change": "APPROACH",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "chotey": {
+      "entry_id": "B_EXT_CHOTEY",
+      "family": "WORLD_PREDICATE",
+      "predicate": "MATERIAL_RAISED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qocthey": {
+      "entry_id": "B_EXT_QOCTHEY",
+      "family": "GENERATE_WIND",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "otedy": {
+      "entry_id": "B_EXT_OTEDY",
+      "family": "WORLD_PREDICATE",
+      "predicate": "BLOWING",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qtchedy": {
+      "entry_id": "B_EXT_QTCHEDY",
+      "family": "SELECT_WIND",
+      "selection": "LATEST_GENERATED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "ytchedy": {
+      "entry_id": "B_EXT_YTCHEDY",
+      "family": "SELECT_WIND",
+      "selection": "LATEST_GENERATED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotom": {
+      "entry_id": "B_EXT_QOTOM",
+      "family": "SELECT_WIND",
+      "selection": "LATEST_GENERATED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qodar": {
+      "entry_id": "B_EXT_QODAR",
+      "family": "WORLD_PREDICATE",
+      "predicate": "GENERATED_FRESH",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotedar": {
+      "entry_id": "B_EXT_QOTEDAR",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "DISTINCT_IDENTITY_AND_ORDER",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qokar": {
+      "entry_id": "B_EXT_QOKAR",
+      "family": "SELECT_WIND",
+      "selection": "PREVIOUS",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "qotchd": {
+      "entry_id": "B_EXT_QOTCHD",
+      "family": "WORLD_PREDICATE",
+      "predicate": "OLD_CEASED",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "tedy": {
+      "entry_id": "B_EXT_TEDY",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "GENERATION_AT_OR_BEFORE_CURRENT_PHASE",
+      "price": "NEW_EXACT_WHOLE_RESIDUAL",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "oraiin": {
+      "entry_id": "B_EXT_ORAIIN",
+      "family": "EXACT_SEQUENCE",
+      "operations": [
+        {
+          "family": "SOURCE_NEXT"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "parts": [
+        "or",
+        "aN"
+      ],
+      "structure": "or=[o,r] then aN=[a,N], both ordinary operations in order",
+      "price": "NEW_EXACT_SEQUENCE_WITH_PAID_PARTS",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "oteey": {
+      "entry_id": "B_EXT_OTEEY",
+      "family": "EXACT_SEQUENCE",
+      "operations": [
+        {
+          "family": "WORLD_PREDICATE",
+          "predicate": "SOLAR_MATERIAL_ORIGIN_AT_CURSOR"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "parts": null,
+      "structure": "unparsed whole residual also supplies an explicit anchor; no aiin spelling or universal rule asserted",
+      "price": "NEW_WHOLE_SEQUENCE_NO_PART_PROOF",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    },
+    "shedaiin": {
+      "entry_id": "B_EXT_SHEDAIIN",
+      "family": "EXACT_SEQUENCE",
+      "operations": [
+        {
+          "family": "MATERIAL_SOURCE_CERTIFY",
+          "head": "Se"
+        },
+        {
+          "family": "SELECT_WIND",
+          "selection": "LATEST_GENERATED"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "parts": [
+        "Se",
+        "daN"
+      ],
+      "structure": "Se=[S,e] then daN=[d,[a,N]], not monolithic learned unit",
+      "price": "NEW_EXACT_SEQUENCE_WITH_PAID_PARTS",
+      "whole_residual": "complete spelling retained, no inferred internal or wrapper meaning"
+    }
+  },
+  "unassigned_raw_form_types": [
+    "@221;iin",
+    "@221;l",
+    "@221;laiin",
+    "aiinog",
+    "ain",
+    "air",
+    "airol",
+    "aloees",
+    "am",
+    "an",
+    "ar",
+    "aram",
+    "arody",
+    "ch?s",
+    "ch@152;s",
+    "chckhy",
+    "chcph@152;ar",
+    "chcphdar",
+    "chcthy",
+    "chdy",
+    "che@152;y",
+    "chedy",
+    "chepaiin",
+    "chey",
+    "chok{co}m",
+    "chot{co}g",
+    "chy",
+    "chz[s:r]",
+    "ckhe@152;y",
+    "ckhed[a:y]",
+    "ckhedy",
+    "csedy",
+    "dar",
+    "dody",
+    "eey",
+    "lcheol",
+    "lkech?",
+    "lkech[ch:?]",
+    "lkechch",
+    "los",
+    "ochar",
+    "oche@152;y",
+    "ochedy",
+    "octhody",
+    "odain",
+    "odar",
+    "odchdy",
+    "odee@152;y",
+    "odeedy",
+    "ofaiin",
+    "og",
+    "okees",
+    "ol@176;ar",
+    "olaiin",
+    "olchedy",
+    "olchey",
+    "oldar",
+    "olfor",
+    "olkaiin",
+    "opaees",
+    "opaiin",
+    "opoees",
+    "opoiin",
+    "orar",
+    "os",
+    "ot@221;dar",
+    "otadar",
+    "otaiin",
+    "otar",
+    "otchdo",
+    "otchdy",
+    "otche@152;y",
+    "otchs",
+    "ote@152;y",
+    "oted[o:a]r",
+    "otedar",
+    "otedas",
+    "oteedo",
+    "oteedy",
+    "otees",
+    "oto@152;y",
+    "otodaiin",
+    "otodar",
+    "otody",
+    "qo@152;ain",
+    "qo@152;ar",
+    "qodaiin",
+    "qodain",
+    "qoekedy",
+    "qokal",
+    "qoke@152;y",
+    "qokeody",
+    "qokshedy",
+    "qokshey",
+    "qopchas",
+    "qopchchs",
+    "qose",
+    "qose?y",
+    "qoseey",
+    "qotedaiin",
+    "sary",
+    "she@152;y",
+    "shedor",
+    "sheoly",
+    "sodaiiin",
+    "sorain",
+    "yfshe@152;y",
+    "ykeedy",
+    "ypshedy",
+    "ytedar",
+    "{ch'}edy",
+    "{ch'}eos"
+  ],
+  "additional_family_count": 0,
+  "additional_opaque_constant_count": 0,
+  "typed_schemas": {
+    "GenericWorldCondition": "one lexical case scoped hypothetical physical antecedent",
+    "ObserverHorizon": "opaque observer O and horizon H",
+    "SourceSlot": "P/Q in H with declared adjacency",
+    "WindKind": "K, never instance identity",
+    "PhysicalWind": "immutable ID, source, kind and ordered phase states",
+    "SunState": "Sun at source at ordered phase",
+    "MaterialState": "M lifted or not lifted at source",
+    "PhysicalEvent": "SolarWithdraw/SolarApproach/RaiseMaterial/Cease/Generate with IDs and cause/phase",
+    "WindAnchor": "written physical Wind ID plus source/horizon/current phase state/provenance",
+    "WorldPredicate": "asserted physics relation inside generic conditional",
+    "Certificate": "written origin or cessation evidence tied to actual physical events",
+    "PhaseCursor": "ordered phase integer; no measured interval"
+  },
+  "additional_prices": {
+    "exact_form_assignments": 37,
+    "opaque_initial_participant_u_not_name": 1,
+    "generic_conditional_scope_opening": 1,
+    "explicit_N_to_E_episode_bridge": "pchedeey consumes N current anchor; E is dependent continuation, not independent holdout",
+    "lexical_setup_assignments": [
+      "Windu active as conditional antecedent atphase0/sourceP",
+      "Sun sourceP",
+      "material available atP",
+      "adjacent P/Q horizonH",
+      "currentwindu",
+      "oldwindu",
+      "cursorP",
+      "phase0"
+    ],
+    "written_non_aiin_anchor_alias": "oteey world-origin assertion then exact anchor operation, both paid; no productive aiin spelling claim",
+    "sunrise_solar_event_expansion": "each WITHDRAW records Sun departure and caused cessation at one ordered phase; APPROACH records Sun arrival and raised material at later phase; GENERATE at still later phase",
+    "unknown_continuity_assumptions": 0,
+    "strict_unknown_bridge_policy": "unknown taints bindings; no execution beyond it until explicit CASE_SETUP. Partial counters retain exact entries and available tainted inputs, not assumed-inert words.",
+    "instruction_count": 0,
+    "new_instruction_execution_defaults": 0,
+    "additional_semantic_type_schemas": 12,
+    "pair_source_reference_policies": 3,
+    "alias_policy": "every added form is individually priced even when same family/predicate; literal variants remain separate entries, no reader substitution"
+  },
+  "extension_frozen_before_replay": true,
+  "core_change": false,
+  "other_authors_read": false
+}

@@ -1,0 +1,158 @@
+{
+  "schema": "GDT1131_C_INITIAL_CONSTRUCTORS_v1",
+  "candidate_id": "C",
+  "hypothesis": "KIND_OR_RELATIONAL_DESCRIPTION with genuine generic conditional physics; no actual episode asserted",
+  "frozen_before_extensions": true,
+  "types": [
+    "GenericSchema",
+    "KindVar",
+    "PhysicalInstanceVar",
+    "FrameRef",
+    "TimeVar",
+    "DescriptionRecord",
+    "BoundDescriptionRef",
+    "Predicate",
+    "ConditionalRule"
+  ],
+  "families": [
+    {
+      "id": "OPEN",
+      "signature": "TopicPayload -> GenericSchema",
+      "effect": "Open explicit universally parameterized topic; no implicit scope reset."
+    },
+    {
+      "id": "KIND",
+      "signature": "GenericSchema -> KindVar",
+      "effect": "Introduce fresh universally bound kind variable, append to ordered kind buffer; freshness is syntactic quantification, not physical generation."
+    },
+    {
+      "id": "CONTEXT",
+      "signature": "Schema * TypedInputs * ContextPayload -> DescriptionRecord",
+      "effect": "Add an explicitly owned spatial, observer, material, solar, time, or instance context."
+    },
+    {
+      "id": "REQUIRE",
+      "signature": "Schema * TypedInputs * PredicatePayload -> DescriptionRecord",
+      "effect": "Add a substantive antecedent predicate; does not assert antecedent occurrence."
+    },
+    {
+      "id": "DESCRIBE",
+      "signature": "Schema * TypedInputs * PropertyPayload -> DescriptionRecord",
+      "effect": "Add a kind property, relation or distinction under written generic scope."
+    },
+    {
+      "id": "aN",
+      "signature": "NonemptyDescriptionRecord -> BoundDescriptionRef",
+      "effect": "Allocate a new retained description reference containing exact record; publish to discourse reference buffer. Consumer must use this retained content; not truth assertion or mere record copy without consumer."
+    },
+    {
+      "id": "d",
+      "signature": "CompletedDescriptionRecord -> NonemptyDescriptionRecord",
+      "effect": "Collate latest completed descriptive contribution with its dependency closure; replaces focus with that closed argument record before aN. No physical identity cast."
+    },
+    {
+      "id": "QUALIFIER",
+      "signature": "Schema * DescriptionRecord * ExplicitQualifierPayload -> CompletedDescriptionRecord",
+      "effect": "So or Se qualifies the description before d then aN; So and Se keep distinct exact residual payloads."
+    },
+    {
+      "id": "CONSEQUENT",
+      "signature": "Schema * TypedInputs * ConsequencePayload -> DescriptionRecord",
+      "effect": "Write consequent world predicates or ordered state relations; no execution of generic antecedent required."
+    },
+    {
+      "id": "COMPARE",
+      "signature": "Schema * TypedInputs * ComparisonPayload -> DescriptionRecord",
+      "effect": "Compare strength, qualities, event identity or temporal order; kind equality never gives instance equality."
+    },
+    {
+      "id": "QUANTIFY",
+      "signature": "Schema * DescriptionRecord -> ConditionalRule",
+      "effect": "Bind written variables and collect predicates as a generic implication."
+    },
+    {
+      "id": "CLOSE",
+      "signature": "GenericSchema * DescriptionRecord -> TerminalRule",
+      "effect": "Publish connected topic with explicit closure; missing operands remain a barrier."
+    }
+  ],
+  "opaque_constants": [
+    {
+      "id": "F",
+      "type": "FrameRef",
+      "meaning": "observer-relative horizon; manuscript owner unconfirmed"
+    },
+    {
+      "id": "O",
+      "type": "ObserverVar",
+      "meaning": "arbitrary observer of F; not cardinal orientation"
+    },
+    {
+      "id": "X",
+      "type": "MaterialKind",
+      "meaning": "dry exhalation"
+    },
+    {
+      "id": "SUN",
+      "type": "DriverKind",
+      "meaning": "solar driver"
+    },
+    {
+      "id": "QH",
+      "type": "QualityAxis",
+      "meaning": "hot/cold axis"
+    },
+    {
+      "id": "QM",
+      "type": "QualityAxis",
+      "meaning": "dry/moist axis"
+    }
+  ],
+  "initial_exact_entries": {
+    "sain": {
+      "families": [
+        "OPEN"
+      ],
+      "payload": "kind opposition and properties generic topic"
+    },
+    "or": {
+      "families": [
+        "KIND"
+      ],
+      "payload": "append next universally bound KindVar; same operation at both adjacent occurrences"
+    },
+    "aiin": {
+      "families": [
+        "aN"
+      ],
+      "payload": "current nonempty focus description"
+    },
+    "daiin": {
+      "families": [
+        "d",
+        "aN"
+      ],
+      "payload": "latest completed description plus dependency closure; high-frequency general reference operation"
+    },
+    "shodaiin": {
+      "families": [
+        "QUALIFIER",
+        "d",
+        "aN"
+      ],
+      "licensed_units": [
+        "So",
+        "daN"
+      ],
+      "payload": "So comparison-qualified description; d+aN explicitly nested; no learned whole Shodaiin"
+    }
+  },
+  "initial_premises": [
+    "Scope is generic, with wind kind and instance variable types declared by the two paid topic openers; no actual weather event donated.",
+    "F and O are ambient observer variables, explicitly paid; no manuscript cardinal direction supplied.",
+    "Current focus and latest completed-description buffers have general stack semantics; actual producer and consumer IDs will be recorded, never used as semantic lookup keys.",
+    "aN retains nonempty description; d collates latest completed contribution and dependency closure. No identity/time/cause is supplied by these record operations."
+  ],
+  "extension_policy": "Every additional exact whole, residual payload, finite rule, alias, default, ambient premise and scope/time bridge is itemized in C_ACCOUNT; frozen file is not edited. Initial seeds do not validate meanings.",
+  "unknown_policy": "UNKNOWN is an unavailable contribution, not an inert token. Consecutive unknown carry needs separately counted assumption. Outside-primary blocks have no donated topic or argument focus."
+}

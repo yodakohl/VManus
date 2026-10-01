@@ -1,0 +1,134 @@
+{
+  "experiment": "GDT1131",
+  "phase": "post_author_manual_comparison",
+  "frozen_at_utc": "2026-10-01T23:13:43.838598+00:00",
+  "pre_review_sha256": "988d2dcdd92f53e38434e336983976f657bf8a39e109f2ab5ff9330bbfe66650",
+  "final_release": {
+    "A": {
+      "account": {
+        "path": "artifacts/A_ACCOUNT.json",
+        "sha256": "0bd280da2aeaa5a9aeeb0c51c7318b1839199da21b9b4899b723161a03a23320"
+      },
+      "constructor": {
+        "path": "src/A_CONSTRUCTORS.json",
+        "sha256": "841cd33c17c73ac8bfec897e37711405ed00890beb8a7d0374811a82d6858edd"
+      },
+      "initial_receipt": "artifacts/A_INITIAL_FREEZE_RECEIPT.json",
+      "final_receipt": "artifacts/A_FINAL_FREEZE_RECEIPT.json"
+    },
+    "B": {
+      "account": {
+        "path": "artifacts/B_ACCOUNT.json",
+        "sha256": "c97c3471fc2742bfe020a50a1cfb5b69db25cc9b02b41e7ac431bbe5c39d972d"
+      },
+      "constructor": {
+        "path": "src/B_CONSTRUCTORS.json",
+        "sha256": "6c71078c6edc039019cf60d8777e1b903ad2dc6ab6d7818bfe9e7af6ba6f7f65"
+      },
+      "initial_receipt": "artifacts/B_INITIAL_FREEZE_RECEIPT.json",
+      "final_receipt": "artifacts/B_FINAL_FREEZE_RECEIPT.json"
+    },
+    "C": {
+      "account": {
+        "path": "artifacts/C_ACCOUNT.json",
+        "sha256": "aacf8d32faf009ea8da87aa3d0da9c337762140afdb98a0e2774e64b00e80154"
+      },
+      "constructor": {
+        "path": "src/C_CONSTRUCTORS.json",
+        "sha256": "57a414d0062ed83b97560bcbf93f62629dc4ce415e20bd8abe5c1062f39d06c8"
+      },
+      "initial_receipt": "artifacts/C_INITIAL_FREEZE_RECEIPT.json",
+      "final_receipt": "artifacts/C_FINAL_FREEZE_RECEIPT.json"
+    }
+  },
+  "pins_verified": true,
+  "source_conservation": {
+    "rows_per_account": 473,
+    "native_fields": 12,
+    "field_mismatches": 0,
+    "exact_entry_variation": 0
+  },
+  "row_summary": {
+    "A": {
+      "rows": 473,
+      "dictionary_entries": 49,
+      "status_counts": {
+        "UNKNOWN": 277,
+        "BLOCKED": 17,
+        "ACCOUNTED": 114,
+        "ACCOUNTED_WITH_UNPROVED_CARRY": 65
+      }
+    },
+    "B": {
+      "rows": 473,
+      "dictionary_entries": 50,
+      "status_counts": {
+        "UNKNOWN": 274,
+        "BLOCKED_MISSING_INITIAL_INPUTS": 20,
+        "ACCOUNTED_C0": 107,
+        "BLOCKED_UNPROVEN_UNKNOWN_BRIDGE": 72
+      }
+    },
+    "C": {
+      "rows": 473,
+      "dictionary_entries": 43,
+      "status_counts": {
+        "UNKNOWN": 293,
+        "BLOCKED_MISSING_OPERAND": 84,
+        "ACCOUNTED_C0": 82,
+        "PARTIAL_BOUNDARY_REPLAY": 7,
+        "ACCOUNTED_C0_WITH_GAP_ASSUMPTION": 6,
+        "BLOCKED_REFERENCE_CONTENT": 1
+      }
+    }
+  },
+  "decisions": {
+    "A": "FINAL_DICTIONARY_CONNECTED_IT_N_E; INITIAL_OR_INTERFACE_DISAGREEMENT; E_STRICT_CONTRIBUTION_PARTIAL_QODAR",
+    "B": "IT_N_COMPLETE_CONDITIONAL; IT_E_OPERATIONALLY_COMPLETE_STRICT_PARTIAL_THREE_REFERENCES",
+    "C": "IT_N_E_COMPLETE_AUTHORED_GENERIC_CONDITIONAL; ALTERNATES_PARTIAL; NO_MEANING_SELECTION"
+  },
+  "A_initial_or_mismatch": {
+    "initial_domain": [
+      "UniversalWorldRule",
+      "WorldProposition"
+    ],
+    "final_arguments": [
+      "WindVariable",
+      "WorldOutcome"
+    ],
+    "first_source_id": "IT2a|f85r2.2|G002",
+    "scope": "initial/final interface discrepancy; final PREDICATE family can type final operation; not a false physical proposition"
+  },
+  "whole_contribution_gaps": {
+    "A": [
+      "IT2a|f85r2.10|G002"
+    ],
+    "B": [
+      "IT2a|f85r2.7|G005",
+      "IT2a|f85r2.10|G004",
+      "IT2a|f85r2.11|G002"
+    ],
+    "C": []
+  },
+  "auxiliary_unused_is_not_automatic_whole_failure": {
+    "A_useful_ol": "IT2a|f85r2.8|G005 changes focus, consumed by IT2a|f85r2.9|G001",
+    "C_useful_qotaiin": "IT2a|f85r2.9|G002 generation and participant consumed while extra retained reference unused",
+    "A_auxiliary_handles": 19,
+    "C_unused_retained_references": 6
+  },
+  "counterfactual_qualifications": {
+    "A": "N .5 G002 condition v>u, not cited u>v; E .10 G003/.11 G001 actually bind u>v cessation/identity",
+    "C": "Continuous old blowing removes explicit old-cessation antecedent. Same-ID resumption after retained cessation tests distinct successor outcome."
+  },
+  "same_world_scenarios": {
+    "W1": "Original stronger survives opposed confrontation; independently two adjacent solar fresh-successor episodes occur; all three mechanisms can hold",
+    "W2": "Only opposed stronger survivor is fresh replacement: A and C N fail, B solar history unaffected",
+    "W3": "Retain solar cessation/adjacent approach/material/order, resume same ceased ID instead of fresh successor: B and C E fail, A suppression unaffected"
+  },
+  "meaning_discriminating_manuscript_evidence": null,
+  "confirmed_words": 0,
+  "independent_confirmation_capacity": 0,
+  "new_access": false,
+  "author_files_changed": false,
+  "post_review_md_sha256": "1c083039ee0f098ee5ee83a5c2fce0ea026bd14456b01c62d08497fa4cfba36b"
+}

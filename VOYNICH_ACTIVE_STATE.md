@@ -1,3 +1,16 @@
+## 2026-10-02 GD/GDT1131: complete conditional wind description, no meaning selection
+
+C completes all IT N19/E27 contributions: generic opposed-wind original-survivor
+physics and separately scoped solar adjacent fresh-successor causation. Shared
+aN retains actual nonempty description references consumed later; meanings remain
+authored. A final or violates its frozen initial interface and E qodar is dead;
+B E has three dead references. C pays43 whole payloads plus100 extra items; no
+likelihood ranking. All473 native rows/twelve fields retained, alternates partial.
+One exposed leaf85, zero independent confirmation/translated words; reserves
+closed.408 accounting checks:407 pass, retained A freeze-timestamp byte failure.
+Next requires constrained cross-domain shared meaning, not local aliases.
+[Decision](experiments/yolo/gdt1131_opposed_wind_survivor_succession/REPORT.md).
+
 ## 2026-10-02 GD/GDT1130: real predication fragment, no whole reading
 
 A constructs current LOW and signed RISING on one retained owner/property/basis;

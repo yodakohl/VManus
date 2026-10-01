@@ -1,0 +1,104 @@
+{
+  "candidate_id": "A",
+  "model": "SUPPRESSION",
+  "freeze_utc": "2026-10-01T22:36:22.400065+00:00",
+  "before_extension": true,
+  "exposure": "Registered scope, historical obligations and first SOURCE/PRIORS schema inspected; whole N/E surface not yet opened in this author turn.",
+  "types": [
+    "WindVariable",
+    "Observer",
+    "HorizonFrame",
+    "TimeOrder",
+    "StrengthComparison",
+    "SpatialRelation",
+    "WorldCondition",
+    "WorldOutcome",
+    "UniversalWorldRule",
+    "WorldProposition"
+  ],
+  "opaque_constants": [
+    "u:generic first wind participant variable",
+    "v:generic second wind participant variable",
+    "O:observer",
+    "H:observer horizon frame",
+    "t0:encounter time",
+    "t1:later outcome time",
+    "S:force basis",
+    "M:material/source-abundance basis"
+  ],
+  "constructors": [
+    {
+      "id": "BIND",
+      "signature": "written role -> WindVariable|Observer|Basis",
+      "effect": "Explicitly introduce or refer to u/v/O/S/M. Generic wind variables range over actual wind participants, not names or kinds."
+    },
+    {
+      "id": "FRAME",
+      "signature": "Observer,H -> HorizonFrame",
+      "effect": "Bind a horizon frame to the written observer; no cardinal directions."
+    },
+    {
+      "id": "SPATIAL",
+      "signature": "WindVariable,WindVariable,HorizonFrame,OPPOSED|ADJACENT -> SpatialRelation",
+      "effect": "Relate source bearings, not destination bearings. Spatial opposition is not qualitative opposition."
+    },
+    {
+      "id": "STRENGTH",
+      "signature": "WindVariable,WindVariable,Basis,GREATER|EQUAL -> StrengthComparison",
+      "effect": "State relative force on same written basis. No actual storm or numeric measurement is donated."
+    },
+    {
+      "id": "TIME",
+      "signature": "t0,t1 -> TimeOrder",
+      "effect": "Explicitly order encounter and outcome; no clock interval."
+    },
+    {
+      "id": "CONDITION",
+      "signature": "SpatialRelation,StrengthComparison,TimeOrder -> WorldCondition",
+      "effect": "Conjoin antecedents for same participant pair and frame; incomplete input is BLOCKED."
+    },
+    {
+      "id": "OUTCOME",
+      "signature": "WorldCondition -> WorldOutcome",
+      "effect": "For opposed participants: unequal force leaves original stronger u/v blowing at t1, original weaker ceases because of that stronger; equal force mutually obstructs. Identity references input variables rather than fresh same-kind winds. Conditional consequence, not actual occurrence."
+    },
+    {
+      "id": "SUCCESSION",
+      "signature": "ceased WindVariable,TimeOrder,ADJACENT relation,explicit solar/material cause -> WorldOutcome",
+      "effect": "Optional mixed mechanism produces a distinct new participant after cessation; no generation from suppression alone and no cardinal donation. All causal inputs must be written."
+    },
+    {
+      "id": "aN",
+      "signature": "WorldCondition,WorldOutcome -> UniversalWorldRule",
+      "effect": "Create nonnull generic world assertion: for every actual participant assignment satisfying this antecedent, its stated consequence holds. It changes an unasserted condition/outcome into a claim about winds. Shared operation required in exact bare aiin and d+aN forms, with consumers."
+    },
+    {
+      "id": "PREDICATE",
+      "signature": "WindVariable,WorldOutcome|SpatialRelation,property -> WorldProposition",
+      "effect": "State an actual conditional property about the written participant/result. A survivor predicate consumes its original participant reference, not just a kind name."
+    },
+    {
+      "id": "CONJOIN",
+      "signature": "WorldProposition|UniversalWorldRule,WorldProposition|UniversalWorldRule -> WorldProposition",
+      "effect": "Conjoin claims without erasing participant/frame/time distinctions."
+    },
+    {
+      "id": "APPLY",
+      "signature": "UniversalWorldRule,WindVariable|WorldCondition -> WorldProposition",
+      "effect": "Instantiate/refer to the rule for written participant/condition, retaining the actual outcome identity. No OriginalOnly type restriction; a fair fresh participant can be supplied but changes the proposition."
+    }
+  ],
+  "core_vocabulary": {
+    "aiin": "Bare exact root executing shared aN on written condition and outcome; not a fabricated child of d/q/ok.",
+    "daiin": "Exact d+aN: same aN assertion plus separately paid d participant-directed application.",
+    "shodaiin": "Fixed So\u00b7daN: same dai(in) interface plus paid So spatial/source contribution if actual frame arguments are available; not one learned whole.",
+    "or": "World assertion/application marker taking a UniversalWorldRule or WorldProposition, not the historical IDEA582 Assertable rule. Exact new candidate entry costs required.",
+    "shedy": "Potential participant/property predication, not a silent cast from the predecessor region description."
+  },
+  "references": "Most recent explicitly bound wind pair, observer/frame, strength comparison, time ordering, condition and outcome within continuous written scope. Exact paid lexical bindings establish them; native line/block metadata alone does not reset identity. Cross-block carry and every UNKNOWN bridge are costs and unresolved assumptions, never inferred word meanings.",
+  "scope_policy": "A generic rule may be reintroduced by explicit written lexical setup; no per-locus passage lookup, invisible record reset or new physical identity. Variables u/v retained until a paid explicit role rebinding.",
+  "dictionary": "Additional exact whole templates can compose only these families and reuse constants, with explicit entry/alias/reference/compound/ambient premise cost. No unseen cardinal names, forced rarity-as-name, universal productive prefix, null parts or undecoded alternative substitution. Missing inputs and unused instructions stay visible.",
+  "historical_limits": "Suppression and succession may coexist but only with explicit different transitions. Source conditional does not prove antecedent occurred. Static indexed-time account can match these commitments. No clearing-sky or equal-strength survivor inference.",
+  "new_access": false,
+  "blinding": "No B/C constructors or content read."
+}

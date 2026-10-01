@@ -1,0 +1,210 @@
+{
+  "schema": "GDT1131_B_INITIAL_CONSTRUCTOR_FREEZE_v1",
+  "candidate_id": "B",
+  "model": "SUCCESSION_AFTER_CESSATION",
+  "frozen_utc": "2026-10-01T22:41:14.224085+00:00",
+  "source_sha256": "d228057d52a97287f071b336a09dbaf9782f20c1ccde201df99c24f269e45a68",
+  "other_authors_read": false,
+  "core_families": [
+    {
+      "id": "CASE_SETUP",
+      "definition": "Declare a generic conditional solar-wind case: observer O/horizon H, two neighboring opaque source slots P and Q, Sun, dry material M, and original wind u of general wind kind K from P. Initial u is specified as a potential wind, not an asserted occurring storm. No diagram/cardinal identification. Starting phase0 and cursorP are paid premises; adjacency is a hypothetical geometric relation, later explicitly traversed/consumed."
+    },
+    {
+      "id": "SOURCE_NEXT",
+      "definition": "Consume current source cursor and declared P/Q adjacency in H. Set cursor to the other adjacent slot. If exactly one registered wind exists at that slot, select that physical participant; if none, keep the current participant without asserting its source equals cursor; multiple matching winds block. Every repeat has this exact finite policy. It creates no wind and no time change."
+    },
+    {
+      "id": "SELECT_WIND",
+      "definition": "Select PREVIOUS (old participant for current succession) or LATEST_GENERATED (the actual newest generation result); set cursor to its source. Selection creates no participant, changes no world/time. Missing referenced event blocks. Existing anchors are not automatically recast."
+    },
+    {
+      "id": "SOLAR_CHANGE",
+      "definition": "WITHDRAW consumes explicit old WindAnchor and Sun-at-source, advances ordered phase, records solar withdrawal/removal of material elevation causing cessation of that old wind; original ID is retained as ended. APPROACH consumes old cessation and neighbor geometry, advances ordered phase to adjacent slot, records solar arrival raising dry material there. No exact interval, speed, water impact, strength suppression or direction name."
+    },
+    {
+      "id": "GENERATE_WIND",
+      "definition": "Require raised dry material from explicit APPROACH after old cessation. Advance ordered phase and emit a fresh physical Wind ID v distinct from all prior IDs, source=current lifted slot, kindK, with generation event and exact solar/material causal ancestry. Select generated v. This is an event inside the generic conditional, not observed actual weather."
+    },
+    {
+      "id": "A_N_ANCHOR",
+      "definition": "Shared root aiin takes the currently selected physical wind whose source matches cursor, and its actual latest registered phase state/events. Return a fresh written WindAnchor binding participant ID, source, H, kind, current phase, activity/cessation and event/cause provenance. Consumers demanding WindAnchor require this written binding; ordinary selection is not an automatic anchor cast. This is a non-null topic/phase/reference operation, not a rare wind name or proof a generation occurred."
+    },
+    {
+      "id": "MATERIAL_SOURCE_CERTIFY",
+      "definition": "Exact So head verifies the selected latest-generation participant came from dry material lifted by Sun at its source and emits an actual physical-origin condition. Exact Se head verifies preceding old cessation and solar-withdrawal cause for latest generation. These paid exact typed head interfaces do not assign universal S/o/e meanings."
+    },
+    {
+      "id": "WORLD_PREDICATE",
+      "definition": "Assert a declared BLOWING, CEASED, SUN_WITHDRAWAL_CAUSE, MATERIAL_RAISED or GENERATED_FRESH predicate on the selected/old wind or registered physical material/event, preserving O/H, ID, phase and generic-conditional mode. Actual declared inputs required; false predicate is contradiction, not a repair."
+    },
+    {
+      "id": "COMPARE_PHYSICAL",
+      "definition": "Consume written WindAnchor and old wind/cessation/generation facts; compare distinct identity, cessation-before-generation order, adjacent source in retained H, or actual solar/material origin according to exact paid predicate. Output a non-tautological conditional world claim with both operands; missing facts block, false result contradicts."
+    },
+    {
+      "id": "SEAL_SUCCESSION",
+      "definition": "Consume current written WindAnchor plus old cessation, generation event, and declared comparison/cause claims. Assert SUCCESSOR(v,u,H): v is distinct, born after u ended, at adjacent source, by Sun raising material after withdrawal. It applies same predicate for each written episode; no OriginalOnly signature or naming consumer. This conditional world claim cannot select manuscript meaning."
+    },
+    {
+      "id": "BEGIN_NEXT_SUCCESSION",
+      "definition": "Consume current anchored generated participant as new old participant; retain same identity/source/horizon/time/material/Sun. Clear only prior episode comparison accumulator, not physical participants/events or global time. This explicit word pays the N-to-E reference bridge; there is no boundary reset."
+    },
+    {
+      "id": "EXACT_SEQUENCE",
+      "definition": "Only explicitly listed exact forms may execute priced ordered family operations. Parts aiin, d+aN, So·daN, Se·daN and or+aN retain ordinary listed functions when invoked. No productive parser/prefix/suffix meaning or deletion."
+    }
+  ],
+  "opaque_constants": [
+    "observer O",
+    "horizon H",
+    "source P",
+    "source Q",
+    "Sun",
+    "dry material M",
+    "original wind u",
+    "wind kind K"
+  ],
+  "core_dictionary": {
+    "sain": {
+      "entry_id": "B_CORE_SAIN",
+      "family": "CASE_SETUP"
+    },
+    "or": {
+      "entry_id": "B_CORE_OR",
+      "family": "SOURCE_NEXT"
+    },
+    "aiin": {
+      "entry_id": "B_CORE_A_N",
+      "family": "A_N_ANCHOR",
+      "parts": [
+        "aN"
+      ],
+      "root_policy": "bare aiin is the root aN, not a child of d/ok/qok"
+    },
+    "opchdy": {
+      "entry_id": "B_CORE_OPCHDY",
+      "family": "SOLAR_CHANGE",
+      "change": "WITHDRAW"
+    },
+    "qotor": {
+      "entry_id": "B_CORE_QOTOR",
+      "family": "SOLAR_CHANGE",
+      "change": "APPROACH"
+    },
+    "sheedy": {
+      "entry_id": "B_CORE_SHEEDY",
+      "family": "GENERATE_WIND"
+    },
+    "daiin": {
+      "entry_id": "B_CORE_D_A_N",
+      "family": "EXACT_SEQUENCE",
+      "parts": [
+        "d",
+        "aN"
+      ],
+      "operations": [
+        {
+          "family": "SELECT_WIND",
+          "selection": "LATEST_GENERATED"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "price": "paid exact d selects most recent generated physical wind; same root aN interface"
+    },
+    "shodaiin": {
+      "entry_id": "B_CORE_SO_D_A_N",
+      "family": "EXACT_SEQUENCE",
+      "parts": [
+        "So",
+        "daN"
+      ],
+      "operations": [
+        {
+          "family": "MATERIAL_SOURCE_CERTIFY",
+          "head": "So"
+        },
+        {
+          "family": "SELECT_WIND",
+          "selection": "LATEST_GENERATED"
+        },
+        {
+          "family": "A_N_ANCHOR"
+        }
+      ],
+      "formal_structure": "So=[S,o] then daN=[d,[a,N]]; no learned monolithic shodaiin unit"
+    },
+    "dair": {
+      "entry_id": "B_CORE_DAIR",
+      "family": "SELECT_WIND",
+      "selection": "PREVIOUS"
+    },
+    "pchedeey": {
+      "entry_id": "B_CORE_PCHEDEEY",
+      "family": "BEGIN_NEXT_SUCCESSION"
+    },
+    "chol": {
+      "entry_id": "B_CORE_CHOL",
+      "family": "WORLD_PREDICATE",
+      "predicate": "BLOWING"
+    },
+    "ol": {
+      "entry_id": "B_CORE_OL",
+      "family": "COMPARE_PHYSICAL",
+      "predicate": "ADJACENT_SOURCE"
+    },
+    "shedy": {
+      "entry_id": "B_CORE_SHEDY",
+      "family": "WORLD_PREDICATE",
+      "predicate": "SOLAR_MATERIAL_ORIGIN_AT_CURSOR",
+      "price": "different exploratory interface from IDEA582; no rescue of its DescriptionRef type clash"
+    }
+  },
+  "reference_policy": [
+    "Generic conditional mode is introduced by sain and preserved throughout N/E; conditional events are substantive physical claims if antecedent holds, not actual weather observations.",
+    "Only CASE_SETUP introduces observer/horizon/original participant and time0. The exact BEGIN_NEXT_SUCCESSION word binds a next episode to the existing generated ID; it never creates a new old participant or resets world/time.",
+    "Fresh IDs are outputs of actual GENERATE_WIND, not kind aliases. Source-next selects only a unique registered physical participant at its new source; zero/multiple-match policy explicitly paid.",
+    "Current cursor, selected wind, old wind, most recent generation, phase clock, Sun/source/material and current written anchor are ambient references explicitly paid. Consumers list their real bindings; a stale anchor remains stale until aiin rebinding.",
+    "Only explicit SOLAR_CHANGE and GENERATE_WIND advance ordered time. No instructions, line boundaries, naming words or unknown groups do so.",
+    "One paragraph-global physical state across the page stream; no boundary-dependent meaning. OutsideN/E unknowns taint continuity. No inferred UNKNOWN action or silent reset; exact assigned recurrences retain their entry and are BLOCKED_UNPROVEN_UNKNOWN_BRIDGE when needed.",
+    "For countercase diagnostics only, a separately itemized carry hypothesis may retain inputs across UNKNOWN rows, counted by their actual intervening IDs; resulting diagnostic execution never becomes complete construction.",
+    "All literal entities/uncertainties remain distinct. No alternate substitution, default noun or unidentified participant. New exact aliases/residuals/rules/defaults are individually charged; core stays immutable.",
+    "All outputs concerning source/cause/time are world predicates inside a generic conditional; immutable anchor objects are typed references only and cannot by themselves establish those predicates.",
+    "No solar-to-Moon, storm-to-water, suppression, cardinal direction or four-leg route is inferred. Two lexical cases do not establish a universal cycle."
+  ],
+  "initial_costs": {
+    "core_families": 12,
+    "opaque_constants": 8,
+    "core_exact_forms": 13,
+    "starting_premises": [
+      "observer-relative H",
+      "two adjacent source slotsP/Q",
+      "potential original windu kindK fromP",
+      "Sun initially atP and dry material available",
+      "generic conditional scope",
+      "phase0 cursorP"
+    ],
+    "ambient_reference_registers": [
+      "cursor",
+      "selected_wind",
+      "old_wind",
+      "latest_generation",
+      "clock",
+      "Sun_source",
+      "material_lift",
+      "current_anchor"
+    ],
+    "extra_source_next_reference_policies": [
+      "unique registered participant selects",
+      "zero registered participant preserves existing selected identity without matching cursor",
+      "multiple candidates block"
+    ],
+    "unknown_carry_default": 0,
+    "line_reset_default": 0,
+    "participant_alias_defaults": 0
+  },
+  "prospective_consequence": "N solar withdrawal ends originalu, adjacent solar approach raises material and generates distinctv; E explicitly bindsv as old, endsv, then createsdistinctw in adjacent source. Written ending claims must consume identity, ordered phases, adjacency and solar ancestry, not mere name/kind equality. Equivalent two-time-state relational account remains fair.",
+  "extension_policy": "No core/type/reference changes after freeze. A missing input or countercase remains recorded; do not repair constructor from outcome."
+}

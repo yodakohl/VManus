@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1131 whole wind rival accounts.
-Latest decision: 1130 partial; static continuation contradicts.
+Task: Root closure of GDT1131 whole wind accounts.
+Latest decision: C completes IT N/E C0; A interface/B references fail.
 Working files: gdt1131_opposed_wind_survivor_succession.
 Assumptions: Fixed grammar; exposed sources; zero meanings.
-Resume: Freeze three full accounts; compare actual references.
-Running: Three authors plus producer; minimum2Oct06:09:20UTC.
+Resume: Publish actual nine-case table; select cross-domain duty.
+Running: Root closure; bounded producer/audits; min06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
