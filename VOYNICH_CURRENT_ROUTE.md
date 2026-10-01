@@ -3,13 +3,13 @@ Updated: 2026-10-01. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: FBwhole111r C0 authoring;source/primaries frozen.
-Latest decision: Paidroot/oil/apply roles attempted;oldET61/history fixed.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FB_NOMINATION.md.
-Assumptions: Sourceinspired only;0confirmedwords;0independentleaves.
-Resume: Freezeauthor;checkall82IT+86ZL+81RF andsourceargumentbindings.
-Running: Solauthor10min+prior3min;root review/publication by00:16:14UTC.
+Status: checkpoint
+Task: FBwhole111r stopped;paidlocalcore+ZLscopeconflict retained.
+Latest decision: 12newvalues11rules;48ITunknown;832not_tested;ETfixed.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FB_REPORT.md.
+Assumptions: 0confirmedwords;0independentleaves;noauthor repair.
+Resume: Freeze12value outside duties DAIN/LFCHEDY before differentcontext.
+Running: None;Soltasks frozen;sameETglossary repair stopped.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
