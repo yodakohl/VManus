@@ -1,0 +1,46 @@
+{
+  "record_id": "IDEA000608",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "reviewer": "root",
+  "assessment_basis": "Bounded primary review and exact rehash of three complete edition caches; no concept annotation or target incidence test.",
+  "reason": "Complete edition input availability is now established. Original607 failed intake remains unchanged; complete-work concept demand still lacks annotations and a justified target unit/genre bridge. Do not rerun unchanged seasonal counts.",
+  "evidence": [
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_REPORT.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_IDEA_SUPPLY.json"
+  ],
+  "blockers": [
+    {
+      "code": "missing_meaning_binding",
+      "detail": "No uniform obligatory-concept footprint or justified source/target ceiling for a frozen target candidate.",
+      "evidence": [
+        "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_IDEA_SUPPLY.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "A frozen obligatory concept claim with complete source annotations and explicitly justified unit/genre bridge that changes candidate selection.",
+        "evidence": []
+      }
+    ],
+    "not_sufficient": [
+      "Cache presence alone",
+      "Another unchanged low-seasonality census",
+      "Source maximum treated as target probability"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1049",
+      "type": "related_to"
+    },
+    {
+      "target": "IDEA000607",
+      "type": "related_to"
+    }
+  ]
+}

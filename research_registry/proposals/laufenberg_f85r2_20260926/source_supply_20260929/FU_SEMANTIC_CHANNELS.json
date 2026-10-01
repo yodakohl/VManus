@@ -1,0 +1,307 @@
+{
+  "status": "BOUNDED_TWO_RAW_CANDIDATES_ASSESSED_NEITHER_SELECTED",
+  "phase": "exploratory_selection_not_new_manuscript_test",
+  "source_receipt": [
+    {
+      "path": "VOYNICH_CURRENT_ROUTE.md",
+      "sha256": "42a4980168e8b390287e48592d0fcea43718fb0da0253b695cb15bd588b2023a"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_SELECTION_DECISION.md",
+      "sha256": "2896d2b9d1c526a1d374efedd74b0d9059040da5b7aa321b5471e65bb8a60d8c"
+    },
+    {
+      "path": "GDT318_GLOBAL_WRAPPER_ENTRY_STATE_REPORT.md",
+      "sha256": "9f8a90d05db0ea4238ba45529e647ce999c305ab0e80e7167cedb0020b8e6eaa"
+    },
+    {
+      "path": "GDT326_HOST_COORDINATE_COMPOSITION_REPORT.md",
+      "sha256": "a5ad5dee83822301cafdb1f4bc60a540b293bd42cf8fc8327b08651dc8453523"
+    },
+    {
+      "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/REPORT.md",
+      "sha256": "934a3cda39d4c1f069778d789d3c7db2dfe1f54a26f343e3bd610fd53936e141"
+    },
+    {
+      "path": "experiments/yolo/gdt1014_semantic_wrapper_transport/REPORT.md",
+      "sha256": "60fc7621ffdfe8b0fc762d1e397df4fa515a13e4b56828158824ebc6a78dc8b6"
+    },
+    {
+      "path": "experiments/yolo/gdt1014_semantic_wrapper_transport/PREREGISTRATION.md",
+      "sha256": "66c77c23e04729577cdb2ccc3b994fb84fecbf5c78e92c0da15ac5c8ab114f21"
+    },
+    {
+      "path": "experiments/yolo/gdt575_repeated_relation_modifier_scope_atlas/REPORT.md",
+      "sha256": "060449b5efa5259311cf5758c25146823562b328bf6374253f40e5dbcfbf53a1"
+    },
+    {
+      "path": "experiments/yolo/gdt575_repeated_relation_modifier_scope_atlas/METHOD.md",
+      "sha256": "2a89a613500e5bd9c9153c91aa8d817620624a03f0f94d44a1cdd1e68a91d686"
+    },
+    {
+      "path": "experiments/yolo/gdt577_interrupted_modifier_attachment_topology/REPORT.md",
+      "sha256": "27b631f2d6f6ec623320349e1c4afa4fe835f7191df86e18793b1218f368ac55"
+    },
+    {
+      "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+      "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f"
+    },
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+      "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+    },
+    {
+      "path": "experiments/yolo/gdt1037_galen_fixed_entry_context_join/REPORT.md",
+      "sha256": "00277ad0a1c8c3a1989a0575710d41ebe273455a83831154a9d49eff892a83a4"
+    },
+    {
+      "path": "experiments/yolo/gdt1122_joint_written_participant_entry/REPORT.md",
+      "sha256": "31e79ac503fd202f32ce7500c8c379a4128dbf2f8db11dde68a3884aff7175f6"
+    }
+  ],
+  "confirmed_words": 0,
+  "new_target_data": false,
+  "new_image_access": false,
+  "reserves_opened": false,
+  "new_decoder": false,
+  "global_registry_modified": false,
+  "git_operations": false,
+  "bounded_search": {
+    "topics": [
+      "Wortzusammensetzung",
+      "variants"
+    ],
+    "search_queries": [
+      "semantic fields",
+      "context packaging",
+      "multiplex",
+      "payload",
+      "bound field",
+      "multi-field",
+      "bundle",
+      "two-channel",
+      "simultaneous"
+    ],
+    "exact_cards": [
+      "IDEA000431",
+      "IDEA000109"
+    ],
+    "related_exact_card": "IDEA000018",
+    "duplicate_queries": [
+      "Entry context selects local versus carried scope for an ordered payload",
+      "Independent modifiers commute when they target separate fields"
+    ],
+    "route_queries": [
+      "entry context local carried scope ordered payload",
+      "independent modifiers commute separate fields"
+    ],
+    "empty_search_policy": "multiplex had no lexical hits; targeted payload/cards and primaries followed, no absence-of-research claim",
+    "backlog_exhaustive": false
+  },
+  "candidate_records": [
+    {
+      "id": "IDEA000431",
+      "canonical_record_sha256": "9803464ee82d34a77c2e18bc4060c17eedf546b4247b7537d3b03477f96ce9b1",
+      "record": {
+        "aliases": [],
+        "blockers": [],
+        "design": {
+          "access": "Retained GDT282/286/318/563/608 reports and bounded duplicate checks only; no target data/image, reserve, GDT1001, source packet, decoder, experiment, route, ledger, or push.",
+          "complete_reading_consequence": "For a complete multi-clause passage with a fixed entry-context pattern, the model predicts exactly one carried update between the first two compatible forms and no leakage into the later reset/local clause. ALWAYS_LOCAL predicts two independent payloads; ALWAYS_CARRY predicts a mutation of the final clause as well. The contrast concerns scope and update count, not an assumed identity for the participants.",
+          "dependencies": [
+            "A finite predeclared entry-context selector and exact reset/boundary rule are required before fitting.",
+            "At least one complete passage must contain a compatible later payload with an omitted or changed argument and an independently visible context change.",
+            "Repeated spelling is not enough to identify the same participant or physical referent; active slots remain typed variables.",
+            "No target word gloss, Latin default, arbitrary nearest-reference rule, or post hoc reset is permitted."
+          ],
+          "falsifier": "Predeclare a complete passage with two compatible ordered payloads followed by a context change or explicit boundary. Reject the scoped model if the same entry context yields both LOCAL and CARRY without a written trigger, if an update crosses a declared reset, or if a carried slot has no typed source argument. Reject ALWAYS_LOCAL only if an independently repeated argument is omitted while the later form demonstrably updates the earlier operation; reject ALWAYS_CARRY if the reset clause demonstrably leaves the earlier payload unchanged.",
+          "mechanism": {
+            "chain": [
+              "Clause 1 establishes active payload P1 with an explicit argument under CARRY.",
+              "Clause 2 presents a compatible ordered form with one changed argument; CARRY updates P1 to P2 without silently creating a new event.",
+              "Clause 3 begins under LOCAL or an explicit reset, so its same-looking payload applies only to clause 3 and cannot alter P2."
+            ],
+            "frame": "Each clause has an ordered productive payload P(op,args,residual). A deterministic context function SCOPE(entry_context, wrapper_state) returns exactly LOCAL or CARRY before the payload is reduced.",
+            "rivals": [
+              "ALWAYS_LOCAL closes every payload after each clause.",
+              "ALWAYS_CARRY lets every compatible later form mutate the prior payload until an arbitrary analyst reset."
+            ],
+            "rules": [
+              "LOCAL consumes all arguments in the current clause and closes the payload at the clause boundary.",
+              "CARRY leaves one typed active payload slot open; the next compatible payload may update that slot, but an incompatible entry or explicit reset closes it.",
+              "The whole-form residual identifies the occurrence and may distinguish payload variants, but it cannot invent a participant or bypass the scope selector."
+            ]
+          },
+          "observations": [
+            "GDT282 finds opaque wrapper identity transfer across registers, but no lexical meaning; the present card uses only the transferable context signal.",
+            "GDT286 tests host-to-wrapper conditioning and reports a host/context effect without an accepted semantic endpoint; host times position is not treated as a solved meaning rule.",
+            "GDT318 reports a compact formal selector from line-start and preceding-DY state, with no semantic interpretation.",
+            "GDT563 carries active action/argument structure in a formal microphrase renderer, while GDT608 shows that exact whole-form residuals remain necessary."
+          ],
+          "predecessors": [
+            {
+              "id": "GDT282",
+              "limit": "Opaque wrapper transfer only; no semantic payload scope."
+            },
+            {
+              "id": "GDT286",
+              "limit": "Host/context conditioning is formal and did not pass the host-position semantic gate."
+            },
+            {
+              "id": "GDT318",
+              "limit": "Entry-state compression only; no meaning or reset semantics."
+            },
+            {
+              "id": "GDT563",
+              "limit": "Formal active action/argument carry in a renderer, not an independently bound target operation."
+            },
+            {
+              "id": "IDEA000428",
+              "limit": "Wrapper-scoped participant continuity; this card leaves participant identity opaque and varies only local-versus-carried payload scope."
+            }
+          ],
+          "strongest_failure": "GDT282/286/318/563 establish compressible formal context and state carry, not semantic scope. A wrapper or preceding-DY selector may be purely orthographic; without an independently observed boundary or omitted argument, LOCAL and CARRY remain observationally equivalent."
+        },
+        "events": [],
+        "id": "IDEA000431",
+        "kind": "idea",
+        "relations": [],
+        "reopen": {
+          "all_of": [],
+          "not_sufficient": [],
+          "policy": "unreviewed"
+        },
+        "review_status": "imported_unreviewed",
+        "scope": "semantic",
+        "source_status": "NEW_PROPOSAL",
+        "sources": [],
+        "summary": "RAW_UNREVIEWED, NOT SELECTED. A productive ordered payload is interpreted under a binary scope selector derived from entry context: LOCAL applies its arguments only to the current clause, while CARRY permits a later compatible clause to update the active payload without repeating every argument. This is a scope hypothesis, not participant identity continuity and not a whole-form glossary.",
+        "title": "Entry context selects local versus carried scope for an ordered payload",
+        "verdict": "untested"
+      }
+    },
+    {
+      "id": "IDEA000109",
+      "canonical_record_sha256": "55cd48d539e616e9820274b9ba30e712112eebc8c54b5551212ff2d1db23cd83",
+      "record": {
+        "aliases": [],
+        "blockers": [],
+        "design": {
+          "contrast": "Swap two disjoint modifiers in a matched construction: the typed field outputs should remain unchanged under commutation. If one modifier scopes over the other, swapping changes the output or makes the construction invalid.",
+          "countermodel": "A renderer or position-conditioned convention can reproduce the observed layouts without the proposed semantic law.",
+          "endpoint_status": "availability_unknown",
+          "falsifier": "A swap changes the typed output despite disjoint fields, or an order-sensitive effect appears only after importing renderer labels.",
+          "mechanism": "field-disjoint modifier commutation versus ordered semantic scope",
+          "prediction": "The old atlas preserved written order and German renderer attachment but did not test a semantic commutation law against an order-sensitive rival.",
+          "principal_risk": "Need independently typed fields and a matched swapped construction; current field labels are not gold.",
+          "prior_duplicate_pointers": "Nearest GDT575/GDT577 and IDEA000018; this proposal is the algebraic commutation falsifier, not order preservation.",
+          "selection_status": "raw unreviewed; no readiness or novelty claim",
+          "smallest_test": "Use two existing adjacent/interrupted pairs and define disjointness from a nonsemantic slot relation before checking outputs.",
+          "unit": "source-bound relation/modifier or argument-envelope construction"
+        },
+        "events": [],
+        "id": "IDEA000109",
+        "kind": "idea",
+        "relations": [],
+        "reopen": {
+          "all_of": [],
+          "not_sufficient": [],
+          "policy": "unreviewed"
+        },
+        "review_status": "imported_unreviewed",
+        "scope": "semantic",
+        "source_status": "NEW_PROPOSAL",
+        "sources": [],
+        "summary": "GDT575 distinguishes adjacent and interrupted relation/modifier slots. A semantic law can require two modifiers to commute only when they target disjoint fields; a scope-sensitive operator predicts order-dependent output.",
+        "title": "Independent modifiers commute when they target separate fields",
+        "verdict": "untested"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "IDEA000431",
+      "mechanism": "semantic ordered payload plus binary context-selected LOCAL/CARRY scope",
+      "raw_status": "untested / imported_unreviewed",
+      "decision": "RETAIN_RAW_NOT_READY_NO_IMPLEMENTATION",
+      "new_constraint": "Deterministic pre-reduction selector and fixed reset determine which earlier typed payload is updated; whole-form residual cannot invent a participant or bypass selector.",
+      "potential_calculated_output": "one carried update and preserved final local payload versus multiple independent payloads or final leakage; explicit argument/reference graph",
+      "available_inputs": [
+        "GDT318 formal wrapper/entry-context compression",
+        "GDT608 directed composition plus exact residuals",
+        "GDT563 creative active action/argument renderer",
+        "exposed FT local/imported-trace accounts demonstrate possible C0 constructions, not independently bound scope"
+      ],
+      "missing_exact_inputs": [
+        "nominated complete passage and raw source IDs",
+        "specific forms and bounded segmentation/reduction",
+        "finite SCOPE truth table",
+        "fixed compatibility and reset/boundary rules",
+        "an actual written argument/update or reset response beyond authored policy outputs"
+      ],
+      "C0_allowed": true,
+      "confirmed_word_prerequisite": false,
+      "novelty_limit": "State carrying alone duplicates prior mechanisms; the particular binary selector/reset law may differ only after fixed rules and actual consequence are nominated.",
+      "retained_closed_route": "GDT1037 fixed original denotations joined by LINE_START/literal PREV_DY is REFUTED_FIXED_CONTEXT_JOIN, including literal collision cells; not reopened.",
+      "smallest_adequate_test": "One already admitted complete three-part passage; prebind selector/compatibility/reset and calculate complete update graph; stop at selector inconsistency, reset crossing or missing typed source.",
+      "outcomes": {
+        "contradiction": "reject this fixed constructor, not all contextual semantics",
+        "complete_C0_replay": "retain constructor with zero semantic confirmation; independent binding still separate",
+        "same_research_decision_under_all_outcomes": "do not implement if no actual written consequence or new content commitment is provided",
+        "current": "input/design not nominated; do not implement"
+      }
+    },
+    {
+      "id": "IDEA000109",
+      "mechanism": "one payload with distinct semantic fields; modifier updates commute only for disjoint targets",
+      "raw_status": "untested / imported_unreviewed",
+      "decision": "RETAIN_RAW_NOT_READY_NO_IMPLEMENTATION",
+      "new_constraint": "M_a(M_b(x))=M_b(M_a(x)) for independently fixed disjoint fields; scoped modifier may change/invalidate reversal. Restricts compositions rather than assigning arbitrary function-input output cells.",
+      "potential_calculated_output": "same full typed field output under disjoint reversal versus scope-dependent output/type failure",
+      "available_inputs": [
+        "GDT575 renderer-slot/outer-inner inventory",
+        "GDT577 ordered local-attachment inventory",
+        "GDT735 historical descriptive/prescriptive architecture",
+        "GDT608 surface direction/residual baseline"
+      ],
+      "missing_exact_inputs": [
+        "two actual matched swapped construction pairs and original source IDs/reader bytes",
+        "fixed payload fields and operator update laws",
+        "noncircular field-target/disjointness rule",
+        "independently constrained output or written scope/result relation"
+      ],
+      "C0_allowed": true,
+      "confirmed_word_prerequisite": false,
+      "novelty_limit": "Algebraic commutation is stronger than GDT1014 equal-input consistency and differs from GDT575 order preservation, but no manuscript-ready instance is specified.",
+      "retained_closed_route": "GDT1014 free wrapper law remains NONSEPARATING; no narrower function tables or inherited semantic labels make this an executed new test.",
+      "smallest_adequate_test": "Fix actual admitted paired constructions, field assignments and operator laws before computing full outputs. Reject only on a declared result/scope contradiction; synthetic reversal of a recipe tests software, not manuscript meaning.",
+      "outcomes": {
+        "contradiction": "reject fixed disjoint-field law for those constructions",
+        "complete_C0_replay": "retain calculable constructor without confirming glosses",
+        "no_result_constraint": "software consistency or semantic capacity only; no manuscript selection",
+        "current": "no matched pairs or computed constructor supplied; do not implement"
+      }
+    }
+  ],
+  "predecessor_claim_limits": {
+    "GDT735": "Historical mixed learned-whole/bound-field architecture; all24head permutations unranked; no EVA initialism or semantic field identification.",
+    "GDT326": "Fixed unseen host-coordinate factorization loses to joint compatibility state; not a universal rejection of semantic tuples.",
+    "GDT318": "Shared opaque-cell surface entry-state compression; no semantic scope, prefix meaning, unseen license or deletion.",
+    "GDT1014": "All52classes and312cases survive; free function cells non-separating, not semantic confirmation.",
+    "GDT575": "Only input is GDT574 German working edition; semantic target types and swap results not independently observed.",
+    "GDT577": "Ordered renderer attachments with exploratory candidates; one retained history conflict; no new root semantics.",
+    "GDT563": "Creative editorial action/argument memory rather than recovered unseen manuscript signs.",
+    "GDT608": "Directed formal exterior-role transfer plus pair-specific residuals; semantic commutation not refuted by surface order alone.",
+    "GDT1037": "Original fixed context-denotation join refuted; no automatic feature expansion or word repair.",
+    "GDT1122": "Specific early C0 participant-entry traces retained; complete account partial and scope policies unselected."
+  },
+  "research_decision": "No fixed experiment selected from this two-card sample. Retain raw cards, require a specific calculable constructor with source-bounded input and outcome before implementation; no confirmed-word gate imposed.",
+  "validation": {
+    "assessed_candidate_count": 2,
+    "selected_candidate_count": 0,
+    "exact_registry_records_read": true,
+    "primaries_read_before_assessment": true,
+    "links_checked": true,
+    "no_model_manufactured_to_count": true
+  }
+}

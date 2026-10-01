@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: FU select next meaning-bearing candidate.
-Latest decision: FT frozenpairunranked;0words.
+Task: FU acquire complete source effect contrast.
+Latest decision: 16cardsnotready;3fullsourcesavailable;0words.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_SELECTION_DECISION.md.
-Assumptions: Old models frozen;seals/reserves closed.
-Resume: Audit rawshortlist/source;select actual consequence.
-Running: FU boundedassessors;goalpaused;until18:29UTC.
+Assumptions: FT/legacyfrozen;seals/reservesclosed.
+Resume: Read7sourcepackets;selectoneactualconstructor.
+Running: 7sourceagents+producer;goalpaused;until18:29UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

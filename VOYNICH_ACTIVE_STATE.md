@@ -1,4 +1,8 @@
-<!-- FT A interim 2026-10-01; full pair critique pending -->
+<!-- FU source acquisition active 2026-10-01; older paragraphs preserve historical snapshots -->
+
+## FU source-content acquisition — 2026-10-01
+
+Eight bounded assessments reviewed16existingrawcards, not16newexperiments. Complete Galen/Dioscorides/Megenberg edition caches exist and match prior hashes;607fixedintake failure stays unchanged. Concept annotation, unit/genre bridge and actual target binding remain missing. No new negation census: same-owner/state/assertion grammar is unspecified and1106alreadyclosed its frozen package. Next acquire one complete source-owned condition/action/output contrast before selecting a finite C0 constructor; seven independent source tasks plus bounded producer run. No new target/reserve access,0words. [FU decision](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_REPORT.md).
 
 ## FT frozen pair — 2026-10-01
 
