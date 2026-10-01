@@ -1,0 +1,112 @@
+{
+  "author": "A",
+  "model": "STATIC_RELATION",
+  "freeze_utc": "2026-10-01T20:44:13.690999+00:00",
+  "before_full_source_extension": true,
+  "known_exposure": "GDT982 report full .39 line and GDT985 report selected tail; complete paragraph has not yet been opened in this author turn",
+  "types": [
+    "Endpoint",
+    "Entity",
+    "Relation",
+    "Predicate",
+    "Clause",
+    "Record"
+  ],
+  "domain": {
+    "endpoints": [
+      "A",
+      "B"
+    ],
+    "entities": [
+      "X"
+    ],
+    "predicate_constants": [
+      "P",
+      "Q"
+    ],
+    "relation_constant_limit": 2
+  },
+  "constructors": [
+    {
+      "id": "OPEN",
+      "signature": "()->Record",
+      "effect": "Explicitly open a record; no entity/endpoint/relation is silently introduced."
+    },
+    {
+      "id": "TERM",
+      "signature": "()->Endpoint|Entity|Predicate|Relation",
+      "effect": "Produce one dictionary-fixed typed term. Opaque constants must later be consumed by an actual constructor or remain unpaid."
+    },
+    {
+      "id": "RELATION",
+      "signature": "Entity->Relation",
+      "effect": "Introduce the candidate link relation K of a written entity; K is an explicit relation object, not an executed event."
+    },
+    {
+      "id": "ENDPOINT_PAIR",
+      "signature": "Endpoint_target,Endpoint_source->Relation",
+      "effect": "Produce the directed edge source->target. Target/source role markers are explicitly paid in the dictionary; bare adjacency alone supplies no role."
+    },
+    {
+      "id": "UNION",
+      "signature": "Relation,Relation->Relation",
+      "effect": "Join their edge assertions; each remains an independently represented operand."
+    },
+    {
+      "id": "CONVERSE",
+      "signature": "Relation->Relation",
+      "effect": "Reverse every ordered pair."
+    },
+    {
+      "id": "COMPOSE",
+      "signature": "Relation,Relation->Relation",
+      "effect": "Relational composition; does not execute movement or assert current participant location."
+    },
+    {
+      "id": "RESTRICT",
+      "signature": "Relation,Predicate->Relation",
+      "effect": "Retain ordered pairs satisfying one explicitly written predicate; predicate extension remains opaque and is not picked to save consistency."
+    },
+    {
+      "id": "ASSERT",
+      "signature": "Relation->Clause",
+      "effect": "State membership/availability of the produced relation description for the explicit current record; no arrival-state check."
+    },
+    {
+      "id": "COMPARE",
+      "signature": "Relation,Relation->Clause",
+      "effect": "State equality/inclusion/disjointness, with one dictionary-fixed comparator per spelling."
+    },
+    {
+      "id": "SEAL",
+      "signature": "Record,Clause*->Record",
+      "effect": "Close and render the written claims; cannot make unresolved terms disappear."
+    }
+  ],
+  "grammar_policy": {
+    "scope": "one five-line unit, no line resets",
+    "arity": "fixed by selected constructor",
+    "binding": "typed most-recent nonconsuming reference, or written stack order for binary operators; each use recorded",
+    "missing_operand": "UNKNOWN/BLOCKED, no silent term introduction",
+    "scope_marking": "must be a written dictionary value or explicitly priced contiguous phrase template; no per-locus clause lookup",
+    "pair_direction": "local A/B hypothesis only, no global r/l semantics",
+    "hybrids": "event conjunction and event-naming relation accounts are legitimate rivals; static types do not refute them"
+  },
+  "dictionary_policy": {
+    "whole": "one value per exact raw whole, shared over all repeats; typed overload only if explicitly priced and not per-occurrence",
+    "parts": "only ordered existing formal decomposition if actually available; otherwise exact-whole value; no freshly invented parser",
+    "values": "assign only the frozen constructor/term inventory; no unrelated material/plant/action word per singleton",
+    "aliases": "every distinct whole sharing a value is paid; no automatic aliases for uncertain readings",
+    "residuals": "charge every extra whole residual separately and expose contribution",
+    "nulls": "none",
+    "unknowns": "visible rows retained; if a complete interpretation cannot be built under this inventory, report exact first block rather than repair constructors"
+  },
+  "required_accounting": "Every IT59, ZL59 and RF58 source group visible with ID, raw form, rule, operands, output, consumption; alternate unknowns not transparent.",
+  "prior_gloss_policy": "GDT982 fluid/mixture/pour meanings are not inherited. Only abstract reciprocal shape is a motivating observation.",
+  "limitations": [
+    "This finite inventory is an exploratory authoring choice, not manuscript grammar.",
+    "Opaque endpoint exchange does not identify polarity names.",
+    "Union/converse semantics must be paid, not inferred from consistency.",
+    "No semantic selection or independent confirmation."
+  ]
+}

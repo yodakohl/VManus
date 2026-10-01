@@ -1,0 +1,527 @@
+{
+  "schema": "GDT1129_AUTHOR_ACCOUNTING_VALIDATION_v1",
+  "created_utc": "2026-10-01T21:15:18.128102+00:00",
+  "status": "PASS_ACCOUNTING_ONLY_MANUAL_REVIEW_REQUIRED",
+  "claim_ceiling": "Source, declaration and accounting consistency only. No semantic PASS, type/argument truth certification, complete-content certification, manuscript meaning selection or source-independent confirmation.",
+  "budget_minutes": 20,
+  "publication_owner": "root",
+  "source_sha256": "2ac5094a1d4394cae01141050912c5ad2cef0ca3d0053918b0294af828eccac0",
+  "inputs": {
+    "A": {
+      "account_sha256": "d33f23fe2e992a813f168ff67ce353ee18c0dac57e78eb8283f38b5cd4c9f06e",
+      "root_released_final_sha256": "d33f23fe2e992a813f168ff67ce353ee18c0dac57e78eb8283f38b5cd4c9f06e",
+      "constructor_sha256": "1f90ec4505f9e75198db2a8f25695491cb0ec9235deff6193cc5992f9beb1cbe"
+    },
+    "B": {
+      "account_sha256": "3595cab3eaa8c824362ea91c336df1d118dc7c91c50f984fe4a2bcab68863988",
+      "root_released_final_sha256": "3595cab3eaa8c824362ea91c336df1d118dc7c91c50f984fe4a2bcab68863988",
+      "constructor_sha256": "941460d2579fb7ee9fcef8cc98444cf818189a93f5dc75f678a3f7e8a497d628"
+    }
+  },
+  "auxiliary_input_sha256": {
+    "src/AUTHOR_PLAN.json": "3ab6c9cf362a5a86ab0c4a06a4344bc1cecdb4f35a7f13d0ee6ff314131963f7",
+    "artifacts/SOURCE_ACCOUNTING.json": "c6b1d8688b4e0bbe20c497e3840668ad8f9c0670ad07d225f3451329f9653538",
+    "artifacts/GRAMMAR_PRIOR_CONSTRAINTS.json": "23d2a5799ea0784dda73977a0ef31aad07c6f37f7b326d1acf71b4d1434ef3fa",
+    "src/check_accounts.py": "a0dce7f5f04640d2949607054e3402d5b758a01890fb9cbd5c31b5d01ceceda0"
+  },
+  "author_summaries": {
+    "A": {
+      "source_rows": 176,
+      "dictionary_forms": 39,
+      "frozen_rules": 11,
+      "status_counts": [
+        {
+          "reader": "IT2a",
+          "status": "ACCOUNTED_C0",
+          "count": 59
+        },
+        {
+          "reader": "RF1b",
+          "status": "BLOCKED_AFTER_UNKNOWN_OPENING",
+          "count": 42
+        },
+        {
+          "reader": "RF1b",
+          "status": "UNKNOWN_EXACT_WHOLE",
+          "count": 16
+        },
+        {
+          "reader": "ZL3b",
+          "status": "BLOCKED_AFTER_UNKNOWN_OPENING",
+          "count": 54
+        },
+        {
+          "reader": "ZL3b",
+          "status": "UNKNOWN_EXACT_WHOLE",
+          "count": 5
+        }
+      ],
+      "author_status": "COMPLETE_IT_C0_WITH_ALTERNATE_BARRIERS",
+      "author_complete_IT_claim": "complete IT claimed in author status",
+      "operational_materialization_complete_IT": null,
+      "strict_retention_assessment": null,
+      "complete_content_automatic_validation": false
+    },
+    "B": {
+      "source_rows": 176,
+      "dictionary_forms": 39,
+      "frozen_rules": 35,
+      "status_counts": [
+        {
+          "reader": "IT2a",
+          "status": "DERIVED_C0",
+          "count": 59
+        },
+        {
+          "reader": "RF1b",
+          "status": "ALTERNATE_BLOCKED_NO_RESTART",
+          "count": 57
+        },
+        {
+          "reader": "RF1b",
+          "status": "ALTERNATE_UNKNOWN_FIRST_BARRIER",
+          "count": 1
+        },
+        {
+          "reader": "ZL3b",
+          "status": "ALTERNATE_BLOCKED_NO_RESTART",
+          "count": 58
+        },
+        {
+          "reader": "ZL3b",
+          "status": "ALTERNATE_UNKNOWN_FIRST_BARRIER",
+          "count": 1
+        }
+      ],
+      "author_status": "ALL_IT_ROWS_MATERIALIZED_C0_STRICT_RETENTION_NOT_ESTABLISHED",
+      "author_complete_IT_claim": false,
+      "operational_materialization_complete_IT": true,
+      "strict_retention_assessment": {
+        "constructor_or_dictionary_edits": false,
+        "operational_first_barrier": null,
+        "all59_rows_accounted": true,
+        "every_exact_repeat_uses_frozen_rule": true,
+        "terminal_unconsumed_output": {
+          "source_group_id": "IT2a|f75v.42|G004",
+          "raw": "qokain",
+          "rule": "RESTORE_W",
+          "actual_output": [
+            [
+              "A",
+              "B"
+            ]
+          ],
+          "prior_current_relation": [
+            [
+              "B",
+              "A"
+            ]
+          ],
+          "downstream_consumers": [],
+          "assessment": "A real register change, but neither PROJECT_TOTAL nor FINAL_COMPARE consumes it. Retain the dead concluding setting; do not redefine those rules to make it discriminating."
+        },
+        "record_type_obligation": {
+          "first_draft_receipt_source_id": "IT2a|f75v.38|G005",
+          "frozen_description_record": "relation path/projection with source provenance",
+          "draft_extra_kinds": [
+            "PERMISSION_ASSERTION",
+            "GOAL_ASSERTION",
+            "POSITION_ASSERTION"
+          ],
+          "assessment": "The draft puts these values into description_records and lets FINAL_COMPARE consume them. The frozen DescriptionRecord definition does not explicitly admit them. Permission/goal inputs are genuinely used elsewhere; position record consumption depends on this unresolved receipt typing. No post-freeze broadening is supplied."
+        },
+        "aggregate_report_obligation": "NAME_L and NAME_PROGRAM naming assertions are preserved only as report records; the named L and N registers never become traversal/comparison operands. Their report inclusion is visible, but it is weaker than an independently used named relation.",
+        "helper_container_obligation": [
+          "EndpointSet",
+          "PermissionSet",
+          "EventHistory",
+          "RunBoundary",
+          "DescriptionRecordList",
+          "BooleanRecordList"
+        ],
+        "helper_container_assessment": "These labels occur in materialization beyond the12 frozen semantic type schemas. They are conventional containers/boundaries of declared values, not demonstrated additional meanings; do not hide them in the cost comparison.",
+        "decision": "Conditional coherent event trace retained; strict complete whole-account gate not claimed. Missing frozen typing/contribution establishment is not general rejection of event or hybrid meanings."
+      },
+      "complete_content_automatic_validation": false
+    }
+  },
+  "checks": [
+    {
+      "check": "unchanged_registered_source_pin",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unique_176_ids",
+      "status": "PASS"
+    },
+    {
+      "check": "source_reader_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "source_accounting_matches_primary",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "exact_39_IT_wholes_prior_agreement",
+      "status": "PASS"
+    },
+    {
+      "check": "A:released_final_account_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "A:constructor_bytes_unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "A:account_source_pin",
+      "status": "PASS"
+    },
+    {
+      "check": "A:account_constructor_pin",
+      "status": "PASS"
+    },
+    {
+      "check": "A:declared_rules_unique",
+      "status": "PASS"
+    },
+    {
+      "check": "A:frozen_rule_inventory",
+      "status": "PASS",
+      "details": {
+        "frozen_rules": 11,
+        "account_rules": 0
+      }
+    },
+    {
+      "check": "A:dictionary_exact_39_IT_forms",
+      "status": "PASS"
+    },
+    {
+      "check": "A:all_176_native_ids_once",
+      "status": "PASS"
+    },
+    {
+      "check": "A:native_order_within_reader",
+      "status": "PASS"
+    },
+    {
+      "check": "A:raw_metadata_separator_conservation",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:declared_rule_and_later_source_references",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:dictionary_identity_on_active_occurrences",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:row_status_rule_honesty",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:no_alternate_capacity_flag_overwrite",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:complete_IT_status_consistency",
+      "status": "PASS"
+    },
+    {
+      "check": "A:dictionary_occurrence_inventory",
+      "status": "PASS"
+    },
+    {
+      "check": "A:resolved_lexical_rules_declared",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:primitive_assignment_cost_total",
+      "status": "PASS"
+    },
+    {
+      "check": "A:recorded_object_references_exist_by_row",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "A:object_type_labels_declared",
+      "status": "PASS"
+    },
+    {
+      "check": "A:alternate_native_paragraph_capacity",
+      "status": "PASS"
+    },
+    {
+      "check": "A:alias_cost_count",
+      "status": "PASS",
+      "details": {
+        "observed_shared_bindings": [
+          [
+            "chl",
+            "qokal"
+          ],
+          [
+            "dar",
+            "qoin"
+          ],
+          [
+            "chey",
+            "olked",
+            "sheey",
+            "sheolo",
+            "shey"
+          ],
+          [
+            "olkain",
+            "orol"
+          ],
+          [
+            "kchey",
+            "kedy",
+            "olol",
+            "qolshey"
+          ],
+          [
+            "dlshedy",
+            "otain",
+            "qokeor"
+          ],
+          [
+            "olchey",
+            "shedy",
+            "sheedy",
+            "sheky"
+          ],
+          [
+            "okar",
+            "sal"
+          ],
+          [
+            "dedy",
+            "qokar",
+            "qol"
+          ],
+          [
+            "aiin",
+            "cheey",
+            "qokain",
+            "qoqokeey"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "A:account_and_constructor_unchanged_after_validation",
+      "status": "PASS"
+    },
+    {
+      "check": "B:released_final_account_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "B:constructor_bytes_unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "B:account_source_pin",
+      "status": "PASS"
+    },
+    {
+      "check": "B:account_constructor_pin",
+      "status": "PASS"
+    },
+    {
+      "check": "B:declared_rules_unique",
+      "status": "PASS"
+    },
+    {
+      "check": "B:frozen_rule_inventory",
+      "status": "PASS",
+      "details": {
+        "frozen_rules": 35,
+        "account_rules": 35
+      }
+    },
+    {
+      "check": "B:frozen_type_inventory",
+      "status": "PASS"
+    },
+    {
+      "check": "B:frozen_cost_inventory",
+      "status": "PASS"
+    },
+    {
+      "check": "B:frozen_dictionary",
+      "status": "PASS"
+    },
+    {
+      "check": "B:dictionary_exact_39_IT_forms",
+      "status": "PASS"
+    },
+    {
+      "check": "B:all_176_native_ids_once",
+      "status": "PASS"
+    },
+    {
+      "check": "B:native_order_within_reader",
+      "status": "PASS"
+    },
+    {
+      "check": "B:raw_metadata_separator_conservation",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "B:declared_rule_and_later_source_references",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "B:dictionary_identity_on_active_occurrences",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "B:row_status_rule_honesty",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "B:no_alternate_capacity_flag_overwrite",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "B:complete_IT_status_consistency",
+      "status": "PASS",
+      "details": {
+        "complete_IT_claim": false,
+        "IT_blocked_ids": []
+      }
+    },
+    {
+      "check": "B:alternate_native_paragraph_capacity",
+      "status": "PASS"
+    },
+    {
+      "check": "B:alias_form_inventory",
+      "status": "PASS",
+      "details": {
+        "observed_shared_bindings": [
+          [
+            "qokar",
+            "qol"
+          ],
+          [
+            "qokain",
+            "qokeor"
+          ],
+          [
+            "qoin",
+            "qoky"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "B:account_and_constructor_unchanged_after_validation",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unchanged_after_validation",
+      "status": "PASS"
+    }
+  ],
+  "schema_or_prose_unverifiable": [
+    {
+      "check": "A:account_rule_definitions",
+      "status": "MANUAL_REVIEW",
+      "details": "Account uses pinned constructor inventory by reference; prose adaptations require manual review."
+    },
+    {
+      "check": "A:cost_inventory_freeze",
+      "status": "MANUAL_REVIEW",
+      "details": "Freeze defines policies/constructors, not a numeric full dictionary cost inventory; inspect paid declarations manually."
+    },
+    {
+      "check": "A:COMPARE_specialized_constructor_label",
+      "status": "MANUAL_REVIEW",
+      "details": {
+        "id": "IT2a|f75v.42|G005",
+        "parent": "COMPARE",
+        "declared_specialization": "older relation included in newer relation",
+        "note": "Frozen COMPARE permits dictionary-fixed inclusion comparator. Exact label specializes that declaration; record-context extra operand and application require manual review."
+      }
+    },
+    {
+      "check": "A:alternate_capacity_fields_missing",
+      "status": "MANUAL_REVIEW",
+      "details": {
+        "missing_fields": 351,
+        "note": "Native metadata conserved; inherited eligibility is separately pinned in SOURCE_ACCOUNTING, not copied into these account rows. Do not infer eligibility from C0 compatibility."
+      }
+    },
+    {
+      "check": "A:OL_typed_overload_application",
+      "status": "MANUAL_REVIEW",
+      "details": {
+        "declared_condition": "Immediately preceding primary lexical output type only: Relation -> UNION, Endpoint -> TERM target A. Compound dal/or explicitly designate Endpoint as primary.",
+        "uses": [
+          {
+            "id": "IT2a|f75v.39|G011",
+            "resolved_rule": "UNION"
+          },
+          {
+            "id": "IT2a|f75v.40|G006",
+            "resolved_rule": "UNION"
+          },
+          {
+            "id": "IT2a|f75v.40|G010",
+            "resolved_rule": "A"
+          },
+          {
+            "id": "IT2a|f75v.41|G006",
+            "resolved_rule": "A"
+          },
+          {
+            "id": "IT2a|f75v.41|G008",
+            "resolved_rule": "UNION"
+          },
+          {
+            "id": "IT2a|f75v.42|G001",
+            "resolved_rule": "UNION"
+          }
+        ],
+        "note": "Declaration and occurrences enumerated; condition/type truth requires independent review."
+      }
+    },
+    {
+      "check": "B:alternate_capacity_fields_missing",
+      "status": "MANUAL_REVIEW",
+      "details": {
+        "missing_fields": 351,
+        "note": "Native metadata conserved; inherited eligibility is separately pinned in SOURCE_ACCOUNTING, not copied into these account rows. Do not infer eligibility from C0 compatibility."
+      }
+    }
+  ],
+  "mandatory_manual_checks": [
+    "Actual argument identity, constructor arity/type truth and scope in free prose.",
+    "Whether recorded contribution/consumption is an effective content operation.",
+    "Semantic atomicity, hidden defaults, nominal constants and paid co-reference.",
+    "Whether declared overload conditions apply without occurrence-fitted repair.",
+    "Written continuation's relation/event consequence and scientific selection.",
+    "Hypothetical word meanings and manuscript participant/reference truth."
+  ],
+  "automatic_semantic_validation": false
+}

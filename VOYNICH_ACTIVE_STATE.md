@@ -1,3 +1,17 @@
+## 2026-10-01 GD/GDT1129: whole accounts, no semantic selection
+
+A completes IT59 as a costly symbolic relation construction:39 whole entries,
+21 aliases, zero semantic part derivations. Its inclusion is tautological and
+no independent world predicate is bound. R24 is consumed only by aiin/qokain
+assertions; the later reciprocal union is rebuilt, correcting the author
+summary. B retains a continuous ten-event trace with unused terminal qokain
+and receipt-schema gaps; strict completion remains false. Both176 native
+ledgers are conserved; alternates first block at tolsheor. A paid whole hybrid
+survives. One exposed leaf, zero words/confirmation; old failures unchanged.
+Exploration without anchors remains permitted. Next: an owner/profile current
+versus trend whole account with shared effective content, rather than another
+symbolic whole-word table. [Decision](experiments/yolo/gdt1129_whole_reciprocal_relation_description/REPORT.md).
+
 ## 2026-10-01 GC/GDT1128: conditional native-label bindings, no prose bridge
 
 All3owned islands and9fixed ZL/IT/RF groups were actually inspected after separate glyph registration. Native whole predictions: GB2/GB3 UNKNOWN; C2 two uncertain sets, neither matching cache, no robust ink contradiction. Post-cache standard-EVA reference explains fallible q/k assignments; koldarod/loralody possibly compatible, GB3 reader distinction unresolved. No repaired native prediction or source-error claim. Exact179 profiles: no cached fullform in prose; GB2/3 targets outside179, C2singleownlabel only. Fixed605/608 reused, no universal shared learned-unit organ wrapper; not a true-morphology/ROOT exclusion. Allpharma102,0independentconfirmation/translatedwords; originalFAILs retained. Unused f1rbodyexample incidentally returned by EVA-PDF extractor is exposure only, no admission. Full candidate/reader table and decision: experiments/yolo/gdt1128_native_owned_label_reading_binding/REPORT.md. Next semantic gate needs a complete actually written discriminating owner/argument construction, not another literal/motif rerun.

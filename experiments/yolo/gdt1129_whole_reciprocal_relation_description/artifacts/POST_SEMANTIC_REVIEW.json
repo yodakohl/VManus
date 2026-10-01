@@ -1,0 +1,3946 @@
+{
+  "schema": "GDT1129_POST_SEMANTIC_REVIEW_v1",
+  "completed_utc": "2026-10-01T21:11:47.766361+00:00",
+  "scope": "Post-freeze manual adversarial review of complete readings and bounded account fields; no author repair",
+  "review_inputs": {
+    "PREREGISTRATION.md": "b4090f0a2a9fa247f9374091ff2cdac36748d1e71d943011e77f7b3040b9111d",
+    "artifacts/PRE_AUTHOR_FAIRNESS.md": "8d77ca0fcfc3c0afd4e4869db5a62724a5a7faac30729fa948f281c982ece394",
+    "artifacts/GENRE_CONSTRAINTS.md": "b37dde7343c57146f839e131ac6226caf2a79d9c68309f4e72a37ec1e55715a6",
+    "artifacts/GRAMMAR_PRIOR_CONSTRAINTS.md": "6cf5259ba9b9aa998c66309a84dd95660620d509ac4584c9c6b5c99be9054abf",
+    "artifacts/A_READING.md": "dae2af606a3d2cf894a76b6c3f35a022013187f8cc78f32ef695fd9129e6b069",
+    "artifacts/B_READING.md": "4eb5504117900f60cfbe28fa4268a1b3e345d2b2d729510fb7428c034d469b19",
+    "src/A_CONSTRUCTOR_FREEZE.json": "1f90ec4505f9e75198db2a8f25695491cb0ec9235deff6193cc5992f9beb1cbe",
+    "src/B_CONSTRUCTOR_FREEZE.json": "941460d2579fb7ee9fcef8cc98444cf818189a93f5dc75f678a3f7e8a497d628",
+    "artifacts/A_ACCOUNT.json": "d33f23fe2e992a813f168ff67ce353ee18c0dac57e78eb8283f38b5cd4c9f06e",
+    "artifacts/B_ACCOUNT.json": "3595cab3eaa8c824362ea91c336df1d118dc7c91c50f984fe4a2bcab68863988"
+  },
+  "read_route_and_agents_first": true,
+  "new_target_source_queries": 0,
+  "new_images": 0,
+  "new_admissions": 0,
+  "reserves_used": 0,
+  "global_edits": 0,
+  "git_operations": 0,
+  "confirmed_english_meanings": 0,
+  "account_raw_field_crosscheck": {
+    "all176_ID_raw_separator_index_metadata_match_between_accounts": true,
+    "counts": {
+      "IT": 59,
+      "ZL": 59,
+      "RF": 58
+    },
+    "errors": [],
+    "limit": "Between frozen accounts; not an independent reread of primary manuscript source"
+  },
+  "A": {
+    "assessment": "Complete coherent IT symbolic construction; no independently variable world relation/truth binding; sole inclusion proposition tautological",
+    "objects": 63,
+    "clauses": 11,
+    "unconsumed_nonterminal_outputs": [],
+    "costs": {
+      "cost_units_are_unweighted_inventory_counts_not_probabilities": true,
+      "exact_whole_entries": 39,
+      "primitive_assignments_including_compounds_and_overload_branches": 42,
+      "typed_overloads": 1,
+      "compound_whole_entries": 2,
+      "aliases_beyond_first_identical_semantic_rule": 21,
+      "ordered_part_derivations_used": 0,
+      "unpriced_nulls": 0,
+      "reference_defaults": 6,
+      "reference_defaults_named": [
+        "most recent written entity",
+        "most recent target A and source B, independently retained",
+        "most recent written predicate",
+        "most recent relation",
+        "two most recent produced relation objects in written order, nonconsuming",
+        "all written clauses belonging to the one open record at SEAL"
+      ],
+      "role_assignments": [
+        "A=target",
+        "B=source"
+      ],
+      "assert_record_binding": "ASSERT and COMPARE are bound to the most recent and sole explicit OPEN record; paid once as constructor-context rule",
+      "overload_condition": "Immediately preceding primary lexical output type only: Relation -> UNION, Endpoint -> TERM target A. Compound dal/or explicitly designate Endpoint as primary.",
+      "redundancy_policy": "Repeated terms/operators and duplicate relational assertions remain. No synonymous English deletion counts as source conservation."
+    },
+    "repeat_audit": {
+      "whole_types": 39,
+      "varying_repeat_rules": {}
+    },
+    "all59_compact_rows": [
+      {
+        "source_id": "IT2a|f75v.38|G001",
+        "raw_form": "tol",
+        "dictionary_rule": "OPEN",
+        "resolved_rule": "OPEN",
+        "actual_operands": [],
+        "outputs": [
+          "O1"
+        ],
+        "primary_output": "O1",
+        "later_consumption": [
+          {
+            "output": "O1",
+            "consumer_ids": [
+              "IT2a|f75v.39|G001",
+              "IT2a|f75v.39|G008",
+              "IT2a|f75v.39|G012",
+              "IT2a|f75v.40|G002",
+              "IT2a|f75v.40|G008",
+              "IT2a|f75v.40|G012",
+              "IT2a|f75v.41|G003",
+              "IT2a|f75v.41|G012",
+              "IT2a|f75v.41|G014",
+              "IT2a|f75v.42|G004",
+              "IT2a|f75v.42|G005",
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G002",
+        "raw_form": "sheor",
+        "dictionary_rule": "X",
+        "resolved_rule": "X",
+        "actual_operands": [],
+        "outputs": [
+          "T2"
+        ],
+        "primary_output": "T2",
+        "later_consumption": [
+          {
+            "output": "T2",
+            "consumer_ids": [
+              "IT2a|f75v.38|G006",
+              "IT2a|f75v.39|G002"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G003",
+        "raw_form": "qokal",
+        "dictionary_rule": "A",
+        "resolved_rule": "A",
+        "actual_operands": [],
+        "outputs": [
+          "T3"
+        ],
+        "primary_output": "T3",
+        "later_consumption": [
+          {
+            "output": "T3",
+            "consumer_ids": [
+              "IT2a|f75v.38|G005"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G004",
+        "raw_form": "dar",
+        "dictionary_rule": "B",
+        "resolved_rule": "B",
+        "actual_operands": [],
+        "outputs": [
+          "T4"
+        ],
+        "primary_output": "T4",
+        "later_consumption": [
+          {
+            "output": "T4",
+            "consumer_ids": [
+              "IT2a|f75v.38|G005"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G005",
+        "raw_form": "olked",
+        "dictionary_rule": "PAIR",
+        "resolved_rule": "PAIR",
+        "actual_operands": [
+          "T3",
+          "T4"
+        ],
+        "outputs": [
+          "R5"
+        ],
+        "primary_output": "R5",
+        "later_consumption": [
+          {
+            "output": "R5",
+            "consumer_ids": [
+              "IT2a|f75v.38|G007"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G006",
+        "raw_form": "orol",
+        "dictionary_rule": "K",
+        "resolved_rule": "K",
+        "actual_operands": [
+          "T2"
+        ],
+        "outputs": [
+          "R6"
+        ],
+        "primary_output": "R6",
+        "later_consumption": [
+          {
+            "output": "R6",
+            "consumer_ids": [
+              "IT2a|f75v.38|G007"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G007",
+        "raw_form": "kchey",
+        "dictionary_rule": "UNION",
+        "resolved_rule": "UNION",
+        "actual_operands": [
+          "R5",
+          "R6"
+        ],
+        "outputs": [
+          "R7"
+        ],
+        "primary_output": "R7",
+        "later_consumption": [
+          {
+            "output": "R7",
+            "consumer_ids": [
+              "IT2a|f75v.38|G009"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G008",
+        "raw_form": "otain",
+        "dictionary_rule": "P",
+        "resolved_rule": "P",
+        "actual_operands": [],
+        "outputs": [
+          "T8"
+        ],
+        "primary_output": "T8",
+        "later_consumption": [
+          {
+            "output": "T8",
+            "consumer_ids": [
+              "IT2a|f75v.38|G009"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G009",
+        "raw_form": "olchey",
+        "dictionary_rule": "RESTRICT",
+        "resolved_rule": "RESTRICT",
+        "actual_operands": [
+          "R7",
+          "T8"
+        ],
+        "outputs": [
+          "R9"
+        ],
+        "primary_output": "R9",
+        "later_consumption": [
+          {
+            "output": "R9",
+            "consumer_ids": [
+              "IT2a|f75v.38|G011"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G010",
+        "raw_form": "okar",
+        "dictionary_rule": "Q",
+        "resolved_rule": "Q",
+        "actual_operands": [],
+        "outputs": [
+          "T10"
+        ],
+        "primary_output": "T10",
+        "later_consumption": [
+          {
+            "output": "T10",
+            "consumer_ids": [
+              "IT2a|f75v.38|G011",
+              "IT2a|f75v.39|G004"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G011",
+        "raw_form": "sheky",
+        "dictionary_rule": "RESTRICT",
+        "resolved_rule": "RESTRICT",
+        "actual_operands": [
+          "R9",
+          "T10"
+        ],
+        "outputs": [
+          "R11"
+        ],
+        "primary_output": "R11",
+        "later_consumption": [
+          {
+            "output": "R11",
+            "consumer_ids": [
+              "IT2a|f75v.38|G012",
+              "IT2a|f75v.38|G013"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G012",
+        "raw_form": "dedy",
+        "dictionary_rule": "CONVERSE",
+        "resolved_rule": "CONVERSE",
+        "actual_operands": [
+          "R11"
+        ],
+        "outputs": [
+          "R12"
+        ],
+        "primary_output": "R12",
+        "later_consumption": [
+          {
+            "output": "R12",
+            "consumer_ids": [
+              "IT2a|f75v.38|G013"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G013",
+        "raw_form": "kedy",
+        "dictionary_rule": "UNION",
+        "resolved_rule": "UNION",
+        "actual_operands": [
+          "R11",
+          "R12"
+        ],
+        "outputs": [
+          "R13"
+        ],
+        "primary_output": "R13",
+        "later_consumption": [
+          {
+            "output": "R13",
+            "consumer_ids": [
+              "IT2a|f75v.39|G001"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G001",
+        "raw_form": "qoqokeey",
+        "dictionary_rule": "ASSERT",
+        "resolved_rule": "ASSERT",
+        "actual_operands": [
+          "O1",
+          "R13"
+        ],
+        "outputs": [
+          "C14"
+        ],
+        "primary_output": "C14",
+        "later_consumption": [
+          {
+            "output": "C14",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G002",
+        "raw_form": "olkain",
+        "dictionary_rule": "K",
+        "resolved_rule": "K",
+        "actual_operands": [
+          "T2"
+        ],
+        "outputs": [
+          "R15"
+        ],
+        "primary_output": "R15",
+        "later_consumption": [
+          {
+            "output": "R15",
+            "consumer_ids": [
+              "IT2a|f75v.39|G003"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G003",
+        "raw_form": "qol",
+        "dictionary_rule": "CONVERSE",
+        "resolved_rule": "CONVERSE",
+        "actual_operands": [
+          "R15"
+        ],
+        "outputs": [
+          "R16"
+        ],
+        "primary_output": "R16",
+        "later_consumption": [
+          {
+            "output": "R16",
+            "consumer_ids": [
+              "IT2a|f75v.39|G004"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G004",
+        "raw_form": "sheedy",
+        "dictionary_rule": "RESTRICT",
+        "resolved_rule": "RESTRICT",
+        "actual_operands": [
+          "R16",
+          "T10"
+        ],
+        "outputs": [
+          "R17"
+        ],
+        "primary_output": "R17",
+        "later_consumption": [
+          {
+            "output": "R17",
+            "consumer_ids": [
+              "IT2a|f75v.39|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G005",
+        "raw_form": "qokeor",
+        "dictionary_rule": "P",
+        "resolved_rule": "P",
+        "actual_operands": [],
+        "outputs": [
+          "T18"
+        ],
+        "primary_output": "T18",
+        "later_consumption": [
+          {
+            "output": "T18",
+            "consumer_ids": [
+              "IT2a|f75v.39|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G006",
+        "raw_form": "sheedy",
+        "dictionary_rule": "RESTRICT",
+        "resolved_rule": "RESTRICT",
+        "actual_operands": [
+          "R17",
+          "T18"
+        ],
+        "outputs": [
+          "R19"
+        ],
+        "primary_output": "R19",
+        "later_consumption": [
+          {
+            "output": "R19",
+            "consumer_ids": [
+              "IT2a|f75v.39|G008"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G007",
+        "raw_form": "qokal",
+        "dictionary_rule": "A",
+        "resolved_rule": "A",
+        "actual_operands": [],
+        "outputs": [
+          "T20"
+        ],
+        "primary_output": "T20",
+        "later_consumption": [
+          {
+            "output": "T20",
+            "consumer_ids": [
+              "IT2a|f75v.39|G009",
+              "IT2a|f75v.40|G003",
+              "IT2a|f75v.40|G009"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G008",
+        "raw_form": "or",
+        "dictionary_rule": "B_ASSERT",
+        "resolved_rule": "B_ASSERT",
+        "actual_operands": [
+          "O1",
+          "R19"
+        ],
+        "outputs": [
+          "T21",
+          "C21"
+        ],
+        "primary_output": "T21",
+        "later_consumption": [
+          {
+            "output": "T21",
+            "consumer_ids": [
+              "IT2a|f75v.39|G009"
+            ],
+            "terminal": false
+          },
+          {
+            "output": "C21",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G009",
+        "raw_form": "chey",
+        "dictionary_rule": "PAIR",
+        "resolved_rule": "PAIR",
+        "actual_operands": [
+          "T20",
+          "T21"
+        ],
+        "outputs": [
+          "R22"
+        ],
+        "primary_output": "R22",
+        "later_consumption": [
+          {
+            "output": "R22",
+            "consumer_ids": [
+              "IT2a|f75v.39|G010",
+              "IT2a|f75v.39|G011"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G010",
+        "raw_form": "qokar",
+        "dictionary_rule": "CONVERSE",
+        "resolved_rule": "CONVERSE",
+        "actual_operands": [
+          "R22"
+        ],
+        "outputs": [
+          "R23"
+        ],
+        "primary_output": "R23",
+        "later_consumption": [
+          {
+            "output": "R23",
+            "consumer_ids": [
+              "IT2a|f75v.39|G011"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G011",
+        "raw_form": "ol",
+        "dictionary_rule": "OL",
+        "resolved_rule": "UNION",
+        "actual_operands": [
+          "R23",
+          "R22",
+          "R23"
+        ],
+        "outputs": [
+          "R24"
+        ],
+        "primary_output": "R24",
+        "later_consumption": [
+          {
+            "output": "R24",
+            "consumer_ids": [
+              "IT2a|f75v.39|G012",
+              "IT2a|f75v.40|G002"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G012",
+        "raw_form": "aiin",
+        "dictionary_rule": "ASSERT",
+        "resolved_rule": "ASSERT",
+        "actual_operands": [
+          "O1",
+          "R24"
+        ],
+        "outputs": [
+          "C25"
+        ],
+        "primary_output": "C25",
+        "later_consumption": [
+          {
+            "output": "C25",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G001",
+        "raw_form": "dlshedy",
+        "dictionary_rule": "P",
+        "resolved_rule": "P",
+        "actual_operands": [],
+        "outputs": [
+          "T26"
+        ],
+        "primary_output": "T26",
+        "later_consumption": [
+          {
+            "output": "T26",
+            "consumer_ids": [
+              "IT2a|f75v.40|G007"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G002",
+        "raw_form": "qokain",
+        "dictionary_rule": "ASSERT",
+        "resolved_rule": "ASSERT",
+        "actual_operands": [
+          "O1",
+          "R24"
+        ],
+        "outputs": [
+          "C27"
+        ],
+        "primary_output": "C27",
+        "later_consumption": [
+          {
+            "output": "C27",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G003",
+        "raw_form": "dal",
+        "dictionary_rule": "B_PAIR",
+        "resolved_rule": "B_PAIR",
+        "actual_operands": [
+          "T20",
+          "T28"
+        ],
+        "outputs": [
+          "T28",
+          "R28"
+        ],
+        "primary_output": "T28",
+        "later_consumption": [
+          {
+            "output": "T28",
+            "consumer_ids": [
+              "IT2a|f75v.40|G003"
+            ],
+            "terminal": false
+          },
+          {
+            "output": "R28",
+            "consumer_ids": [
+              "IT2a|f75v.40|G004"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G004",
+        "raw_form": "qol",
+        "dictionary_rule": "CONVERSE",
+        "resolved_rule": "CONVERSE",
+        "actual_operands": [
+          "R28"
+        ],
+        "outputs": [
+          "R29"
+        ],
+        "primary_output": "R29",
+        "later_consumption": [
+          {
+            "output": "R29",
+            "consumer_ids": [
+              "IT2a|f75v.40|G005",
+              "IT2a|f75v.40|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G005",
+        "raw_form": "qol",
+        "dictionary_rule": "CONVERSE",
+        "resolved_rule": "CONVERSE",
+        "actual_operands": [
+          "R29"
+        ],
+        "outputs": [
+          "R30"
+        ],
+        "primary_output": "R30",
+        "later_consumption": [
+          {
+            "output": "R30",
+            "consumer_ids": [
+              "IT2a|f75v.40|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G006",
+        "raw_form": "ol",
+        "dictionary_rule": "OL",
+        "resolved_rule": "UNION",
+        "actual_operands": [
+          "R30",
+          "R29",
+          "R30"
+        ],
+        "outputs": [
+          "R31"
+        ],
+        "primary_output": "R31",
+        "later_consumption": [
+          {
+            "output": "R31",
+            "consumer_ids": [
+              "IT2a|f75v.40|G007"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G007",
+        "raw_form": "sheedy",
+        "dictionary_rule": "RESTRICT",
+        "resolved_rule": "RESTRICT",
+        "actual_operands": [
+          "R31",
+          "T26"
+        ],
+        "outputs": [
+          "R32"
+        ],
+        "primary_output": "R32",
+        "later_consumption": [
+          {
+            "output": "R32",
+            "consumer_ids": [
+              "IT2a|f75v.40|G008"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G008",
+        "raw_form": "cheey",
+        "dictionary_rule": "ASSERT",
+        "resolved_rule": "ASSERT",
+        "actual_operands": [
+          "O1",
+          "R32"
+        ],
+        "outputs": [
+          "C33"
+        ],
+        "primary_output": "C33",
+        "later_consumption": [
+          {
+            "output": "C33",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G009",
+        "raw_form": "dal",
+        "dictionary_rule": "B_PAIR",
+        "resolved_rule": "B_PAIR",
+        "actual_operands": [
+          "T20",
+          "T34"
+        ],
+        "outputs": [
+          "T34",
+          "R34"
+        ],
+        "primary_output": "T34",
+        "later_consumption": [
+          {
+            "output": "T34",
+            "consumer_ids": [
+              "IT2a|f75v.40|G009",
+              "IT2a|f75v.40|G010",
+              "IT2a|f75v.40|G011",
+              "IT2a|f75v.41|G004"
+            ],
+            "terminal": false
+          },
+          {
+            "output": "R34",
+            "consumer_ids": [
+              "IT2a|f75v.40|G013"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G010",
+        "raw_form": "ol",
+        "dictionary_rule": "OL",
+        "resolved_rule": "A",
+        "actual_operands": [
+          "T34"
+        ],
+        "outputs": [
+          "T35"
+        ],
+        "primary_output": "T35",
+        "later_consumption": [
+          {
+            "output": "T35",
+            "consumer_ids": [
+              "IT2a|f75v.40|G011",
+              "IT2a|f75v.41|G004"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G011",
+        "raw_form": "sheey",
+        "dictionary_rule": "PAIR",
+        "resolved_rule": "PAIR",
+        "actual_operands": [
+          "T35",
+          "T34"
+        ],
+        "outputs": [
+          "R36"
+        ],
+        "primary_output": "R36",
+        "later_consumption": [
+          {
+            "output": "R36",
+            "consumer_ids": [
+              "IT2a|f75v.40|G012",
+              "IT2a|f75v.40|G013"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G012",
+        "raw_form": "qokain",
+        "dictionary_rule": "ASSERT",
+        "resolved_rule": "ASSERT",
+        "actual_operands": [
+          "O1",
+          "R36"
+        ],
+        "outputs": [
+          "C37"
+        ],
+        "primary_output": "C37",
+        "later_consumption": [
+          {
+            "output": "C37",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G013",
+        "raw_form": "olol",
+        "dictionary_rule": "UNION",
+        "resolved_rule": "UNION",
+        "actual_operands": [
+          "R34",
+          "R36"
+        ],
+        "outputs": [
+          "R38"
+        ],
+        "primary_output": "R38",
+        "later_consumption": [
+          {
+            "output": "R38",
+            "consumer_ids": [
+              "IT2a|f75v.41|G002"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G001",
+        "raw_form": "sal",
+        "dictionary_rule": "Q",
+        "resolved_rule": "Q",
+        "actual_operands": [],
+        "outputs": [
+          "T39"
+        ],
+        "primary_output": "T39",
+        "later_consumption": [
+          {
+            "output": "T39",
+            "consumer_ids": [
+              "IT2a|f75v.41|G002"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G002",
+        "raw_form": "shedy",
+        "dictionary_rule": "RESTRICT",
+        "resolved_rule": "RESTRICT",
+        "actual_operands": [
+          "R38",
+          "T39"
+        ],
+        "outputs": [
+          "R40"
+        ],
+        "primary_output": "R40",
+        "later_consumption": [
+          {
+            "output": "R40",
+            "consumer_ids": [
+              "IT2a|f75v.41|G003"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G003",
+        "raw_form": "qokain",
+        "dictionary_rule": "ASSERT",
+        "resolved_rule": "ASSERT",
+        "actual_operands": [
+          "O1",
+          "R40"
+        ],
+        "outputs": [
+          "C41"
+        ],
+        "primary_output": "C41",
+        "later_consumption": [
+          {
+            "output": "C41",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G004",
+        "raw_form": "shey",
+        "dictionary_rule": "PAIR",
+        "resolved_rule": "PAIR",
+        "actual_operands": [
+          "T35",
+          "T34"
+        ],
+        "outputs": [
+          "R42"
+        ],
+        "primary_output": "R42",
+        "later_consumption": [
+          {
+            "output": "R42",
+            "consumer_ids": [
+              "IT2a|f75v.41|G008"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G005",
+        "raw_form": "qoin",
+        "dictionary_rule": "B",
+        "resolved_rule": "B",
+        "actual_operands": [],
+        "outputs": [
+          "T43"
+        ],
+        "primary_output": "T43",
+        "later_consumption": [
+          {
+            "output": "T43",
+            "consumer_ids": [
+              "IT2a|f75v.41|G006",
+              "IT2a|f75v.41|G007",
+              "IT2a|f75v.41|G009"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G006",
+        "raw_form": "ol",
+        "dictionary_rule": "OL",
+        "resolved_rule": "A",
+        "actual_operands": [
+          "T43"
+        ],
+        "outputs": [
+          "T44"
+        ],
+        "primary_output": "T44",
+        "later_consumption": [
+          {
+            "output": "T44",
+            "consumer_ids": [
+              "IT2a|f75v.41|G007",
+              "IT2a|f75v.41|G009"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G007",
+        "raw_form": "shey",
+        "dictionary_rule": "PAIR",
+        "resolved_rule": "PAIR",
+        "actual_operands": [
+          "T44",
+          "T43"
+        ],
+        "outputs": [
+          "R45"
+        ],
+        "primary_output": "R45",
+        "later_consumption": [
+          {
+            "output": "R45",
+            "consumer_ids": [
+              "IT2a|f75v.41|G008"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G008",
+        "raw_form": "ol",
+        "dictionary_rule": "OL",
+        "resolved_rule": "UNION",
+        "actual_operands": [
+          "R45",
+          "R42",
+          "R45"
+        ],
+        "outputs": [
+          "R46"
+        ],
+        "primary_output": "R46",
+        "later_consumption": [
+          {
+            "output": "R46",
+            "consumer_ids": [
+              "IT2a|f75v.41|G010"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G009",
+        "raw_form": "shey",
+        "dictionary_rule": "PAIR",
+        "resolved_rule": "PAIR",
+        "actual_operands": [
+          "T44",
+          "T43"
+        ],
+        "outputs": [
+          "R47"
+        ],
+        "primary_output": "R47",
+        "later_consumption": [
+          {
+            "output": "R47",
+            "consumer_ids": [
+              "IT2a|f75v.41|G010"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G010",
+        "raw_form": "qoky",
+        "dictionary_rule": "COMPOSE",
+        "resolved_rule": "COMPOSE",
+        "actual_operands": [
+          "R46",
+          "R47"
+        ],
+        "outputs": [
+          "R48"
+        ],
+        "primary_output": "R48",
+        "later_consumption": [
+          {
+            "output": "R48",
+            "consumer_ids": [
+              "IT2a|f75v.41|G011"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G011",
+        "raw_form": "qol",
+        "dictionary_rule": "CONVERSE",
+        "resolved_rule": "CONVERSE",
+        "actual_operands": [
+          "R48"
+        ],
+        "outputs": [
+          "R49"
+        ],
+        "primary_output": "R49",
+        "later_consumption": [
+          {
+            "output": "R49",
+            "consumer_ids": [
+              "IT2a|f75v.41|G012",
+              "IT2a|f75v.41|G014",
+              "IT2a|f75v.42|G001"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G012",
+        "raw_form": "cheey",
+        "dictionary_rule": "ASSERT",
+        "resolved_rule": "ASSERT",
+        "actual_operands": [
+          "O1",
+          "R49"
+        ],
+        "outputs": [
+          "C50"
+        ],
+        "primary_output": "C50",
+        "later_consumption": [
+          {
+            "output": "C50",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G013",
+        "raw_form": "chl",
+        "dictionary_rule": "A",
+        "resolved_rule": "A",
+        "actual_operands": [],
+        "outputs": [
+          "T51"
+        ],
+        "primary_output": "T51",
+        "later_consumption": [
+          {
+            "output": "T51",
+            "consumer_ids": [
+              "IT2a|f75v.41|G015",
+              "IT2a|f75v.42|G002"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G014",
+        "raw_form": "or",
+        "dictionary_rule": "B_ASSERT",
+        "resolved_rule": "B_ASSERT",
+        "actual_operands": [
+          "O1",
+          "R49"
+        ],
+        "outputs": [
+          "T52",
+          "C52"
+        ],
+        "primary_output": "T52",
+        "later_consumption": [
+          {
+            "output": "T52",
+            "consumer_ids": [
+              "IT2a|f75v.41|G015",
+              "IT2a|f75v.42|G002"
+            ],
+            "terminal": false
+          },
+          {
+            "output": "C52",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G015",
+        "raw_form": "sheolo",
+        "dictionary_rule": "PAIR",
+        "resolved_rule": "PAIR",
+        "actual_operands": [
+          "T51",
+          "T52"
+        ],
+        "outputs": [
+          "R53"
+        ],
+        "primary_output": "R53",
+        "later_consumption": [
+          {
+            "output": "R53",
+            "consumer_ids": [
+              "IT2a|f75v.42|G001"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G001",
+        "raw_form": "ol",
+        "dictionary_rule": "OL",
+        "resolved_rule": "UNION",
+        "actual_operands": [
+          "R53",
+          "R49",
+          "R53"
+        ],
+        "outputs": [
+          "R54"
+        ],
+        "primary_output": "R54",
+        "later_consumption": [
+          {
+            "output": "R54",
+            "consumer_ids": [
+              "IT2a|f75v.42|G003"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G002",
+        "raw_form": "sheey",
+        "dictionary_rule": "PAIR",
+        "resolved_rule": "PAIR",
+        "actual_operands": [
+          "T51",
+          "T52"
+        ],
+        "outputs": [
+          "R55"
+        ],
+        "primary_output": "R55",
+        "later_consumption": [
+          {
+            "output": "R55",
+            "consumer_ids": [
+              "IT2a|f75v.42|G003",
+              "IT2a|f75v.42|G005"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G003",
+        "raw_form": "qolshey",
+        "dictionary_rule": "UNION",
+        "resolved_rule": "UNION",
+        "actual_operands": [
+          "R54",
+          "R55"
+        ],
+        "outputs": [
+          "R56"
+        ],
+        "primary_output": "R56",
+        "later_consumption": [
+          {
+            "output": "R56",
+            "consumer_ids": [
+              "IT2a|f75v.42|G004",
+              "IT2a|f75v.42|G005"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G004",
+        "raw_form": "qokain",
+        "dictionary_rule": "ASSERT",
+        "resolved_rule": "ASSERT",
+        "actual_operands": [
+          "O1",
+          "R56"
+        ],
+        "outputs": [
+          "C57"
+        ],
+        "primary_output": "C57",
+        "later_consumption": [
+          {
+            "output": "C57",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G005",
+        "raw_form": "okaiin",
+        "dictionary_rule": "COMPARE",
+        "resolved_rule": "COMPARE",
+        "actual_operands": [
+          "O1",
+          "R55",
+          "R56"
+        ],
+        "outputs": [
+          "C58"
+        ],
+        "primary_output": "C58",
+        "later_consumption": [
+          {
+            "output": "C58",
+            "consumer_ids": [
+              "IT2a|f75v.42|G006"
+            ],
+            "terminal": false
+          }
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G006",
+        "raw_form": "charor",
+        "dictionary_rule": "SEAL",
+        "resolved_rule": "SEAL",
+        "actual_operands": [
+          "O1",
+          "C14",
+          "C21",
+          "C25",
+          "C27",
+          "C33",
+          "C37",
+          "C41",
+          "C50",
+          "C52",
+          "C57",
+          "C58"
+        ],
+        "outputs": [
+          "O59"
+        ],
+        "primary_output": "O59",
+        "later_consumption": [
+          {
+            "output": "O59",
+            "consumer_ids": [],
+            "terminal": true
+          }
+        ]
+      }
+    ],
+    "complete_clause_objects": [
+      {
+        "id": "C14",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R13"
+          ]
+        },
+        "producer": "IT2a|f75v.39|G001"
+      },
+      {
+        "id": "C21",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R19"
+          ]
+        },
+        "producer": "IT2a|f75v.39|G008"
+      },
+      {
+        "id": "C25",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R24"
+          ]
+        },
+        "producer": "IT2a|f75v.39|G012"
+      },
+      {
+        "id": "C27",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R24"
+          ]
+        },
+        "producer": "IT2a|f75v.40|G002"
+      },
+      {
+        "id": "C33",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R32"
+          ]
+        },
+        "producer": "IT2a|f75v.40|G008"
+      },
+      {
+        "id": "C37",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R36"
+          ]
+        },
+        "producer": "IT2a|f75v.40|G012"
+      },
+      {
+        "id": "C41",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R40"
+          ]
+        },
+        "producer": "IT2a|f75v.41|G003"
+      },
+      {
+        "id": "C50",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R49"
+          ]
+        },
+        "producer": "IT2a|f75v.41|G012"
+      },
+      {
+        "id": "C52",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R49"
+          ]
+        },
+        "producer": "IT2a|f75v.41|G014"
+      },
+      {
+        "id": "C57",
+        "type": "Clause",
+        "value": {
+          "constructor": "ASSERT",
+          "record": "O1",
+          "operands": [
+            "R56"
+          ]
+        },
+        "producer": "IT2a|f75v.42|G004"
+      },
+      {
+        "id": "C58",
+        "type": "Clause",
+        "value": {
+          "constructor": "COMPARE_INCLUSION_OLDER_IN_NEWER",
+          "record": "O1",
+          "operands": [
+            "R55",
+            "R56"
+          ]
+        },
+        "producer": "IT2a|f75v.42|G005"
+      }
+    ],
+    "relation_semantics_opaque": true,
+    "free_actual_operands_found": false,
+    "occurrence_specific_rule_found": false,
+    "actual_contradictory_claim_found": false,
+    "freeze_ASSERT_definition": {
+      "id": "ASSERT",
+      "signature": "Relation->Clause",
+      "effect": "State membership/availability of the produced relation description for the explicit current record; no arrival-state check."
+    },
+    "completed_ASSERT_assumption": "ASSERT is description of the relation object in the record, not a claim that every mathematically named pair must hold in an independently known world.",
+    "assertion_interpretation_limit": "Constructed description in explicit record is coherent. Strengthening to actual-world availability requires an undeclared carrier relation/truth condition; no such strengthening was supplied.",
+    "R24_consumer_summary_correction": {
+      "overstatement": "The R24 reciprocal union is consumed by aiin, later converse/union/restriction operations. Its contrast with a sequential return is explicitly authored rather than independently identified.",
+      "actual_direct_consumers": [
+        "IT2a|f75v.39|G012",
+        "IT2a|f75v.40|G002"
+      ],
+      "later_relation_operators_consume_R24": false,
+      "later_reciprocal_union_R31_origin": "Fresh R28 endpoint pair, conversed twice then unioned"
+    },
+    "whole_clause_reductions": [
+      {
+        "clauses": [
+          "C14"
+        ],
+        "expression": "F union converse(F); F=(E union K) intersection P intersection Q"
+      },
+      {
+        "clauses": [
+          "C21"
+        ],
+        "expression": "converse(K) intersection Q intersection P"
+      },
+      {
+        "clauses": [
+          "C25",
+          "C27"
+        ],
+        "expression": "E union converse(E)"
+      },
+      {
+        "clauses": [
+          "C33"
+        ],
+        "expression": "(E union converse(E)) intersection P"
+      },
+      {
+        "clauses": [
+          "C37",
+          "C57"
+        ],
+        "expression": "E"
+      },
+      {
+        "clauses": [
+          "C41"
+        ],
+        "expression": "E intersection Q"
+      },
+      {
+        "clauses": [
+          "C50",
+          "C52"
+        ],
+        "expression": "empty relation"
+      },
+      {
+        "clauses": [
+          "C58"
+        ],
+        "expression": "E subset E; more generally R55 subset (R54 union R55)",
+        "truth": "true under every extension"
+      }
+    ],
+    "free_world_assignments": {
+      "domain": "A distinct from B; E={(B,A)}; K subset of endpoint pairs; P,Q opaque edge predicates",
+      "accepted_examples": [
+        "K empty; P,Q universal",
+        "K=E; P,Q universal",
+        "P empty; arbitrary K,Q"
+      ],
+      "consequence": "Description values may change but no world assignment is rejected by an independently bound assertion"
+    },
+    "counterfactual": {
+      "alternative": "R48={(B,B)} while preceding E edges and distinct endpoints fixed",
+      "excluding_nonseed_source_ids": [
+        "IT2a|f75v.41|G004",
+        "IT2a|f75v.41|G007",
+        "IT2a|f75v.41|G008",
+        "IT2a|f75v.41|G009",
+        "IT2a|f75v.41|G010",
+        "IT2a|f75v.41|G011"
+      ],
+      "actual_consequence": "E composed with E is empty, converse empty",
+      "kind": "Constructed-output exclusion, not world/meaning evidence"
+    },
+    "tail_counterfactual": {
+      "alternative": "R55=E, R56=empty",
+      "excluding_nonseed_source_ids": [
+        "IT2a|f75v.42|G002",
+        "IT2a|f75v.42|G003",
+        "IT2a|f75v.42|G005"
+      ],
+      "reason": "Prior union forces R56 to include R55; inclusion itself adds no restriction"
+    },
+    "sheolo_ablation": {
+      "kind": "Diagnostic effect suppression, not valid revised account",
+      "static_denotation": "Final E and inclusion unchanged",
+      "declared_state_behavior": "Prior or primary Endpoint causes existing ol overload to write A; sheey writes E; qolshey unions R49 empty with that E",
+      "strict_missing_output_alternative": "Barrier at required PAIR production; does not demonstrate loss of independent world proposition",
+      "provenance_changes": true
+    }
+  },
+  "B": {
+    "assessment": "Coherent conditional event trace; strict frozen whole-account retention not established",
+    "complete_IT": false,
+    "operational_materialization_complete_IT": true,
+    "strict_retention_assessment": {
+      "constructor_or_dictionary_edits": false,
+      "operational_first_barrier": null,
+      "all59_rows_accounted": true,
+      "every_exact_repeat_uses_frozen_rule": true,
+      "terminal_unconsumed_output": {
+        "source_group_id": "IT2a|f75v.42|G004",
+        "raw": "qokain",
+        "rule": "RESTORE_W",
+        "actual_output": [
+          [
+            "A",
+            "B"
+          ]
+        ],
+        "prior_current_relation": [
+          [
+            "B",
+            "A"
+          ]
+        ],
+        "downstream_consumers": [],
+        "assessment": "A real register change, but neither PROJECT_TOTAL nor FINAL_COMPARE consumes it. Retain the dead concluding setting; do not redefine those rules to make it discriminating."
+      },
+      "record_type_obligation": {
+        "first_draft_receipt_source_id": "IT2a|f75v.38|G005",
+        "frozen_description_record": "relation path/projection with source provenance",
+        "draft_extra_kinds": [
+          "PERMISSION_ASSERTION",
+          "GOAL_ASSERTION",
+          "POSITION_ASSERTION"
+        ],
+        "assessment": "The draft puts these values into description_records and lets FINAL_COMPARE consume them. The frozen DescriptionRecord definition does not explicitly admit them. Permission/goal inputs are genuinely used elsewhere; position record consumption depends on this unresolved receipt typing. No post-freeze broadening is supplied."
+      },
+      "aggregate_report_obligation": "NAME_L and NAME_PROGRAM naming assertions are preserved only as report records; the named L and N registers never become traversal/comparison operands. Their report inclusion is visible, but it is weaker than an independently used named relation.",
+      "helper_container_obligation": [
+        "EndpointSet",
+        "PermissionSet",
+        "EventHistory",
+        "RunBoundary",
+        "DescriptionRecordList",
+        "BooleanRecordList"
+      ],
+      "helper_container_assessment": "These labels occur in materialization beyond the12 frozen semantic type schemas. They are conventional containers/boundaries of declared values, not demonstrated additional meanings; do not hide them in the cost comparison.",
+      "decision": "Conditional coherent event trace retained; strict complete whole-account gate not claimed. Missing frozen typing/contribution establishment is not general rejection of event or hybrid meanings."
+    },
+    "costs": {
+      "exact_whole_types": 39,
+      "paid_atomic_whole_values": 37,
+      "derived_exact_compounds": 2,
+      "constructor_rules": 35,
+      "type_schemas": 12,
+      "literal_endpoint_constants": 2,
+      "traveller_constant": 1,
+      "new_whole_aliases": [
+        {
+          "forms": [
+            "qol",
+            "qokar"
+          ],
+          "value": "CONVERSE"
+        },
+        {
+          "forms": [
+            "qokeor",
+            "qokain"
+          ],
+          "value": "RESTORE_W"
+        },
+        {
+          "forms": [
+            "qoin",
+            "qoky"
+          ],
+          "value": "RECORD_POSITION"
+        }
+      ],
+      "extra_alias_forms": 3,
+      "ambient_operand_policies": 6,
+      "line_reset_defaults": 0,
+      "unknown_noun_defaults": 0,
+      "semantic_null_parts": 0,
+      "contextual_whole_overloads": 0,
+      "whole_residual_policy": "37 paid exact atomic meanings; do not call them composition-derived."
+    },
+    "repeat_audit": {
+      "whole_types": 39,
+      "varying_repeat_rules": {}
+    },
+    "all59_compact_rows": [
+      {
+        "source_id": "IT2a|f75v.38|G001",
+        "raw": "tol",
+        "rule": "ENDPOINT_A",
+        "operand_roles": [],
+        "outputs": [
+          {
+            "type": "Endpoint",
+            "id": "A"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G003",
+          "IT2a|f75v.39|G007",
+          "IT2a|f75v.40|G001"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G002",
+        "raw": "sheor",
+        "rule": "ENDPOINT_B",
+        "operand_roles": [],
+        "outputs": [
+          {
+            "type": "Endpoint",
+            "id": "B"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G003",
+          "IT2a|f75v.39|G007",
+          "IT2a|f75v.40|G001"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G003",
+        "raw": "qokal",
+        "rule": "BASE_EDGE",
+        "operand_roles": [
+          "endpoints"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "name": "E",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G004"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G004",
+        "raw": "dar",
+        "rule": "NAME_BASE",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.38|G004#name_R",
+            "kind": "NAMING_ASSERTION",
+            "source_id": "IT2a|f75v.38|G004",
+            "value": {
+              "name": "R",
+              "path": [
+                [
+                  "A",
+                  "B"
+                ]
+              ]
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G005",
+          "IT2a|f75v.38|G006",
+          "IT2a|f75v.38|G007",
+          "IT2a|f75v.38|G008",
+          "IT2a|f75v.38|G009",
+          "IT2a|f75v.38|G013",
+          "IT2a|f75v.39|G001",
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G005",
+        "raw": "olked",
+        "rule": "AUTHORIZE_BASE",
+        "operand_roles": [
+          "named_R"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.38|G005#permission_R",
+            "kind": "PERMISSION_ASSERTION",
+            "source_id": "IT2a|f75v.38|G005",
+            "value": {
+              "permitted_edges": [
+                [
+                  "A",
+                  "B"
+                ]
+              ]
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G006",
+        "raw": "orol",
+        "rule": "MAKE_REVERSE_NAME",
+        "operand_roles": [
+          "named_R"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.38|G006#name_S",
+            "kind": "NAMING_ASSERTION",
+            "source_id": "IT2a|f75v.38|G006",
+            "value": {
+              "name": "S",
+              "path": [
+                [
+                  "B",
+                  "A"
+                ]
+              ]
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G007",
+          "IT2a|f75v.38|G010",
+          "IT2a|f75v.38|G013",
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G007",
+        "raw": "kchey",
+        "rule": "AUTHORIZE_PAIR",
+        "operand_roles": [
+          "named_R",
+          "named_S"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.38|G007#permission_pair",
+            "kind": "PERMISSION_ASSERTION",
+            "source_id": "IT2a|f75v.38|G007",
+            "value": {
+              "permitted_edges": [
+                [
+                  "A",
+                  "B"
+                ],
+                [
+                  "B",
+                  "A"
+                ]
+              ]
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G011",
+          "IT2a|f75v.39|G004",
+          "IT2a|f75v.39|G006",
+          "IT2a|f75v.40|G007",
+          "IT2a|f75v.40|G011",
+          "IT2a|f75v.41|G004",
+          "IT2a|f75v.41|G007",
+          "IT2a|f75v.41|G009",
+          "IT2a|f75v.42|G002",
+          "IT2a|f75v.42|G003",
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G008",
+        "raw": "otain",
+        "rule": "INTRO_TRAVELLER",
+        "operand_roles": [
+          "named_R"
+        ],
+        "outputs": [
+          {
+            "type": "Traveller",
+            "value": {
+              "id": "p",
+              "position": "B",
+              "initial_position": "B",
+              "introduction_source_id": "IT2a|f75v.38|G008"
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G009",
+          "IT2a|f75v.38|G011",
+          "IT2a|f75v.38|G013",
+          "IT2a|f75v.39|G004",
+          "IT2a|f75v.39|G006",
+          "IT2a|f75v.40|G001",
+          "IT2a|f75v.40|G007",
+          "IT2a|f75v.40|G011",
+          "IT2a|f75v.41|G004",
+          "IT2a|f75v.41|G005",
+          "IT2a|f75v.41|G007",
+          "IT2a|f75v.41|G009",
+          "IT2a|f75v.41|G010",
+          "IT2a|f75v.42|G002",
+          "IT2a|f75v.42|G003",
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G009",
+        "raw": "olchey",
+        "rule": "SET_GOAL",
+        "operand_roles": [
+          "named_R",
+          "traveller"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.38|G009#goal",
+            "kind": "GOAL_ASSERTION",
+            "source_id": "IT2a|f75v.38|G009",
+            "value": {
+              "actor": "p",
+              "goal": "A"
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G012",
+          "IT2a|f75v.38|G013",
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G010",
+        "raw": "okar",
+        "rule": "SELECT_REVERSE",
+        "operand_roles": [
+          "named_S"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "B",
+                "A"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G011",
+          "IT2a|f75v.38|G012"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G011",
+        "raw": "sheky",
+        "rule": "CHECK_ENABLED",
+        "operand_roles": [
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.38|G011#enabled",
+            "source_id": "IT2a|f75v.38|G011",
+            "predicate": "ENABLED",
+            "value": true,
+            "operands": {
+              "position": "B",
+              "path": [
+                [
+                  "B",
+                  "A"
+                ]
+              ],
+              "permitted": [
+                [
+                  "A",
+                  "B"
+                ],
+                [
+                  "B",
+                  "A"
+                ]
+              ]
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G013",
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G012",
+        "raw": "dedy",
+        "rule": "CHECK_GOAL",
+        "operand_roles": [
+          "current_relation",
+          "goal"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.38|G012#goal_reach",
+            "source_id": "IT2a|f75v.38|G012",
+            "predicate": "TARGET_IS_GOAL",
+            "value": true,
+            "operands": {
+              "path": [
+                [
+                  "B",
+                  "A"
+                ]
+              ],
+              "goal": "A"
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.38|G013",
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.38|G013",
+        "raw": "kedy",
+        "rule": "SEAL_SETUP",
+        "operand_roles": [
+          "setup_check",
+          "setup_check",
+          "named_R",
+          "named_S",
+          "traveller",
+          "goal"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.38|G013#setup",
+            "source_id": "IT2a|f75v.38|G013",
+            "base": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "reverse": [
+              [
+                "B",
+                "A"
+              ]
+            ],
+            "traveller": {
+              "id": "p",
+              "position": "B",
+              "initial_position": "B",
+              "introduction_source_id": "IT2a|f75v.38|G008"
+            },
+            "goal": "A",
+            "checks": [
+              {
+                "id": "IT2a|f75v.38|G011#enabled",
+                "source_id": "IT2a|f75v.38|G011",
+                "predicate": "ENABLED",
+                "value": true,
+                "operands": {
+                  "position": "B",
+                  "path": [
+                    [
+                      "B",
+                      "A"
+                    ]
+                  ],
+                  "permitted": [
+                    [
+                      "A",
+                      "B"
+                    ],
+                    [
+                      "B",
+                      "A"
+                    ]
+                  ]
+                }
+              },
+              {
+                "id": "IT2a|f75v.38|G012#goal_reach",
+                "source_id": "IT2a|f75v.38|G012",
+                "predicate": "TARGET_IS_GOAL",
+                "value": true,
+                "operands": {
+                  "path": [
+                    [
+                      "B",
+                      "A"
+                    ]
+                  ],
+                  "goal": "A"
+                }
+              }
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G001",
+        "raw": "qoqokeey",
+        "rule": "RESTORE_R",
+        "operand_roles": [
+          "named_R"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "reference": "R"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.39|G002",
+          "IT2a|f75v.39|G003"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G002",
+        "raw": "olkain",
+        "rule": "SAVE_W",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.39|G002#name_W",
+            "kind": "NAMING_ASSERTION",
+            "source_id": "IT2a|f75v.39|G002",
+            "value": {
+              "name": "W",
+              "path": [
+                [
+                  "A",
+                  "B"
+                ]
+              ]
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.39|G005",
+          "IT2a|f75v.40|G002",
+          "IT2a|f75v.40|G012",
+          "IT2a|f75v.41|G003",
+          "IT2a|f75v.42|G004",
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G003",
+        "raw": "qol",
+        "rule": "CONVERSE",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "B",
+                "A"
+              ]
+            ],
+            "computed_from": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.39|G004"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G004",
+        "raw": "sheedy",
+        "rule": "EXECUTE",
+        "operand_roles": [
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "id": "B_EV_01",
+            "type": "TRAVERSAL",
+            "source_id": "IT2a|f75v.39|G004",
+            "actor": "p",
+            "source": "B",
+            "target": "A",
+            "ordered_edge": [
+              "B",
+              "A"
+            ],
+            "previous_event_id": null
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.39|G006",
+          "IT2a|f75v.39|G012",
+          "IT2a|f75v.41|G013",
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G005",
+        "raw": "qokeor",
+        "rule": "RESTORE_W",
+        "operand_roles": [
+          "named_W"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "reference": "W"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.39|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G006",
+        "raw": "sheedy",
+        "rule": "EXECUTE",
+        "operand_roles": [
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "id": "B_EV_02",
+            "type": "TRAVERSAL",
+            "source_id": "IT2a|f75v.39|G006",
+            "actor": "p",
+            "source": "A",
+            "target": "B",
+            "ordered_edge": [
+              "A",
+              "B"
+            ],
+            "previous_event_id": "B_EV_01"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.39|G012",
+          "IT2a|f75v.40|G001",
+          "IT2a|f75v.41|G013",
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G007",
+        "raw": "qokal",
+        "rule": "BASE_EDGE",
+        "operand_roles": [
+          "endpoints"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "name": "E",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.39|G008",
+          "IT2a|f75v.39|G009"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G008",
+        "raw": "or",
+        "rule": "NAME_L",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.39|G008#name_L",
+            "kind": "NAMING_ASSERTION",
+            "source_id": "IT2a|f75v.39|G008",
+            "value": {
+              "name": "L",
+              "path": [
+                [
+                  "A",
+                  "B"
+                ]
+              ]
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G009",
+        "raw": "chey",
+        "rule": "ROUNDTRIP_EXPRESSION",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "B",
+                "A"
+              ]
+            ],
+            "status": "NAMED_DESCRIPTION_NO_EVENT"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.39|G010"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G010",
+        "raw": "qokar",
+        "rule": "CONVERSE",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "B",
+                "A"
+              ]
+            ],
+            "computed_from": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "B",
+                "A"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.39|G011"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G011",
+        "raw": "ol",
+        "rule": "RECORD_RELATION",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.39|G011#relation_7",
+            "kind": "RELATION_DESCRIPTION",
+            "source_id": "IT2a|f75v.39|G011",
+            "value": [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "B",
+                "A"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.39|G012",
+        "raw": "aiin",
+        "rule": "RETURN_CHECK",
+        "operand_roles": [
+          "events"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.39|G012#return",
+            "source_id": "IT2a|f75v.39|G012",
+            "predicate": "RETURN_TO_INITIAL",
+            "value": true,
+            "event_ids": [
+              "B_EV_01",
+              "B_EV_02"
+            ],
+            "source": "B",
+            "target": "B"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G001",
+        "raw": "dlshedy",
+        "rule": "RELOCATE_A",
+        "operand_roles": [
+          "endpoints",
+          "traveller"
+        ],
+        "outputs": [
+          {
+            "id": "B_EV_03",
+            "type": "EXPLICIT_RELOCATION",
+            "source_id": "IT2a|f75v.40|G001",
+            "actor": "p",
+            "source": "B",
+            "target": "A",
+            "previous_event_id": "B_EV_02"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.40|G007",
+          "IT2a|f75v.41|G013",
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G002",
+        "raw": "qokain",
+        "rule": "RESTORE_W",
+        "operand_roles": [
+          "named_W"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "reference": "W"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.40|G003",
+          "IT2a|f75v.40|G004"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G003",
+        "raw": "dal",
+        "rule": "SAVE_COMPARAND",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "role": "D",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.40|G008"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G004",
+        "raw": "qol",
+        "rule": "CONVERSE",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "B",
+                "A"
+              ]
+            ],
+            "computed_from": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.40|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G005",
+        "raw": "qol",
+        "rule": "CONVERSE",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "computed_from": [
+              [
+                "B",
+                "A"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.40|G006",
+          "IT2a|f75v.40|G007",
+          "IT2a|f75v.40|G008",
+          "IT2a|f75v.40|G009",
+          "IT2a|f75v.40|G010",
+          "IT2a|f75v.40|G011"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G006",
+        "raw": "ol",
+        "rule": "RECORD_RELATION",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.40|G006#relation_8",
+            "kind": "RELATION_DESCRIPTION",
+            "source_id": "IT2a|f75v.40|G006",
+            "value": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G007",
+        "raw": "sheedy",
+        "rule": "EXECUTE",
+        "operand_roles": [
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "id": "B_EV_04",
+            "type": "TRAVERSAL",
+            "source_id": "IT2a|f75v.40|G007",
+            "actor": "p",
+            "source": "A",
+            "target": "B",
+            "ordered_edge": [
+              "A",
+              "B"
+            ],
+            "previous_event_id": "B_EV_03"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.40|G011",
+          "IT2a|f75v.41|G013",
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G008",
+        "raw": "cheey",
+        "rule": "COMPARE_RELATION",
+        "operand_roles": [
+          "current_relation",
+          "comparand"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.40|G008#eq",
+            "source_id": "IT2a|f75v.40|G008",
+            "predicate": "EXTENSIONAL_RELATION_EQUAL",
+            "left": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "right": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "value": true
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G009",
+        "raw": "dal",
+        "rule": "SAVE_COMPARAND",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "role": "D",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.41|G012"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G010",
+        "raw": "ol",
+        "rule": "RECORD_RELATION",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.40|G010#relation_9",
+            "kind": "RELATION_DESCRIPTION",
+            "source_id": "IT2a|f75v.40|G010",
+            "value": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G011",
+        "raw": "sheey",
+        "rule": "EXECUTE_REVERSE",
+        "operand_roles": [
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "id": "B_EV_05",
+            "type": "TRAVERSAL",
+            "source_id": "IT2a|f75v.40|G011",
+            "actor": "p",
+            "source": "B",
+            "target": "A",
+            "ordered_edge": [
+              "B",
+              "A"
+            ],
+            "previous_event_id": "B_EV_04"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.41|G004",
+          "IT2a|f75v.41|G013",
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G012",
+        "raw": "qokain",
+        "rule": "RESTORE_W",
+        "operand_roles": [
+          "named_W"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "reference": "W"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.40|G013",
+          "IT2a|f75v.41|G002"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.40|G013",
+        "raw": "olol",
+        "rule": "ORDERED_COMPOSITION",
+        "operand_roles": [
+          "current_relation",
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.40|G013#relation_10",
+            "kind": "RELATION_DESCRIPTION",
+            "source_id": "IT2a|f75v.40|G013",
+            "value": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          },
+          {
+            "id": "IT2a|f75v.40|G013#relation_11",
+            "kind": "RELATION_DESCRIPTION",
+            "source_id": "IT2a|f75v.40|G013",
+            "value": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G001",
+        "raw": "sal",
+        "rule": "MARK_RUN",
+        "operand_roles": [],
+        "outputs": [
+          {
+            "type": "RunBoundary",
+            "next_event_index": 5
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.41|G013",
+          "IT2a|f75v.41|G015"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G002",
+        "raw": "shedy",
+        "rule": "NAME_PROGRAM",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.41|G002#name_N",
+            "kind": "NAMING_ASSERTION",
+            "source_id": "IT2a|f75v.41|G002",
+            "value": {
+              "name": "N",
+              "path": [
+                [
+                  "A",
+                  "B"
+                ]
+              ]
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G003",
+        "raw": "qokain",
+        "rule": "RESTORE_W",
+        "operand_roles": [
+          "named_W"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "reference": "W"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.41|G004"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G004",
+        "raw": "shey",
+        "rule": "EXECUTE_ALTERNATE",
+        "operand_roles": [
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "id": "B_EV_06",
+            "type": "TRAVERSAL",
+            "source_id": "IT2a|f75v.41|G004",
+            "actor": "p",
+            "source": "A",
+            "target": "B",
+            "ordered_edge": [
+              "A",
+              "B"
+            ],
+            "previous_event_id": "B_EV_05"
+          },
+          {
+            "type": "RelationPath",
+            "role": "next_enabled_direction",
+            "path": [
+              [
+                "B",
+                "A"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.41|G005",
+          "IT2a|f75v.41|G006",
+          "IT2a|f75v.41|G007",
+          "IT2a|f75v.41|G013",
+          "IT2a|f75v.41|G015",
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G005",
+        "raw": "qoin",
+        "rule": "RECORD_POSITION",
+        "operand_roles": [
+          "traveller"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.41|G005#position",
+            "kind": "POSITION_ASSERTION",
+            "source_id": "IT2a|f75v.41|G005",
+            "value": {
+              "actor": "p",
+              "position": "B"
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G006",
+        "raw": "ol",
+        "rule": "RECORD_RELATION",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.41|G006#relation_14",
+            "kind": "RELATION_DESCRIPTION",
+            "source_id": "IT2a|f75v.41|G006",
+            "value": [
+              [
+                "B",
+                "A"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G007",
+        "raw": "shey",
+        "rule": "EXECUTE_ALTERNATE",
+        "operand_roles": [
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "id": "B_EV_07",
+            "type": "TRAVERSAL",
+            "source_id": "IT2a|f75v.41|G007",
+            "actor": "p",
+            "source": "B",
+            "target": "A",
+            "ordered_edge": [
+              "B",
+              "A"
+            ],
+            "previous_event_id": "B_EV_06"
+          },
+          {
+            "type": "RelationPath",
+            "role": "next_enabled_direction",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.41|G008",
+          "IT2a|f75v.41|G009",
+          "IT2a|f75v.41|G013",
+          "IT2a|f75v.41|G015",
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G008",
+        "raw": "ol",
+        "rule": "RECORD_RELATION",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.41|G008#relation_15",
+            "kind": "RELATION_DESCRIPTION",
+            "source_id": "IT2a|f75v.41|G008",
+            "value": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G009",
+        "raw": "shey",
+        "rule": "EXECUTE_ALTERNATE",
+        "operand_roles": [
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "id": "B_EV_08",
+            "type": "TRAVERSAL",
+            "source_id": "IT2a|f75v.41|G009",
+            "actor": "p",
+            "source": "A",
+            "target": "B",
+            "ordered_edge": [
+              "A",
+              "B"
+            ],
+            "previous_event_id": "B_EV_07"
+          },
+          {
+            "type": "RelationPath",
+            "role": "next_enabled_direction",
+            "path": [
+              [
+                "B",
+                "A"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.41|G010",
+          "IT2a|f75v.41|G011",
+          "IT2a|f75v.41|G013",
+          "IT2a|f75v.41|G015",
+          "IT2a|f75v.42|G002",
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G010",
+        "raw": "qoky",
+        "rule": "RECORD_POSITION",
+        "operand_roles": [
+          "traveller"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.41|G010#position",
+            "kind": "POSITION_ASSERTION",
+            "source_id": "IT2a|f75v.41|G010",
+            "value": {
+              "actor": "p",
+              "position": "B"
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G011",
+        "raw": "qol",
+        "rule": "CONVERSE",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "computed_from": [
+              [
+                "B",
+                "A"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.41|G012",
+          "IT2a|f75v.41|G014"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G012",
+        "raw": "cheey",
+        "rule": "COMPARE_RELATION",
+        "operand_roles": [
+          "current_relation",
+          "comparand"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.41|G012#eq",
+            "source_id": "IT2a|f75v.41|G012",
+            "predicate": "EXTENSIONAL_RELATION_EQUAL",
+            "left": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "right": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "value": true
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G013",
+        "raw": "chl",
+        "rule": "SEAL_RUN",
+        "operand_roles": [
+          "run_start",
+          "events"
+        ],
+        "outputs": [
+          {
+            "id": "B_RUN_1",
+            "source_id": "IT2a|f75v.41|G013",
+            "start_marker_source_id": "IT2a|f75v.41|G001",
+            "events": [
+              {
+                "id": "B_EV_06",
+                "type": "TRAVERSAL",
+                "source_id": "IT2a|f75v.41|G004",
+                "actor": "p",
+                "source": "A",
+                "target": "B",
+                "ordered_edge": [
+                  "A",
+                  "B"
+                ],
+                "previous_event_id": "B_EV_05"
+              },
+              {
+                "id": "B_EV_07",
+                "type": "TRAVERSAL",
+                "source_id": "IT2a|f75v.41|G007",
+                "actor": "p",
+                "source": "B",
+                "target": "A",
+                "ordered_edge": [
+                  "B",
+                  "A"
+                ],
+                "previous_event_id": "B_EV_06"
+              },
+              {
+                "id": "B_EV_08",
+                "type": "TRAVERSAL",
+                "source_id": "IT2a|f75v.41|G009",
+                "actor": "p",
+                "source": "A",
+                "target": "B",
+                "ordered_edge": [
+                  "A",
+                  "B"
+                ],
+                "previous_event_id": "B_EV_07"
+              }
+            ],
+            "event_ids": [
+              "B_EV_06",
+              "B_EV_07",
+              "B_EV_08"
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.41|G015"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G014",
+        "raw": "or",
+        "rule": "NAME_L",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.41|G014#name_L",
+            "kind": "NAMING_ASSERTION",
+            "source_id": "IT2a|f75v.41|G014",
+            "value": {
+              "name": "L",
+              "path": [
+                [
+                  "A",
+                  "B"
+                ]
+              ]
+            }
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.41|G015",
+        "raw": "sheolo",
+        "rule": "NAME_RUN_RELATION",
+        "operand_roles": [
+          "closed_run"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.41|G015#name_T",
+            "kind": "NAMING_ASSERTION",
+            "source_id": "IT2a|f75v.41|G015",
+            "value": {
+              "name": "T",
+              "path": [
+                [
+                  "A",
+                  "B"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Projection",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "event_ids": [
+              "B_EV_06",
+              "B_EV_07",
+              "B_EV_08"
+            ],
+            "computed_from": "B_RUN_1"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G001",
+          "IT2a|f75v.42|G002",
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G001",
+        "raw": "ol",
+        "rule": "RECORD_RELATION",
+        "operand_roles": [
+          "current_relation"
+        ],
+        "outputs": [
+          {
+            "id": "IT2a|f75v.42|G001#relation_19",
+            "kind": "RELATION_DESCRIPTION",
+            "source_id": "IT2a|f75v.42|G001",
+            "value": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G002",
+        "raw": "sheey",
+        "rule": "EXECUTE_REVERSE",
+        "operand_roles": [
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "id": "B_EV_09",
+            "type": "TRAVERSAL",
+            "source_id": "IT2a|f75v.42|G002",
+            "actor": "p",
+            "source": "B",
+            "target": "A",
+            "ordered_edge": [
+              "B",
+              "A"
+            ],
+            "previous_event_id": "B_EV_08"
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G003",
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G003",
+        "raw": "qolshey",
+        "rule": "ORDERED_COMPOSITION",
+        "operand_roles": [
+          "current_relation",
+          "current_relation",
+          "traveller",
+          "permitted_edges"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "computed_from": [
+              [
+                "B",
+                "A"
+              ]
+            ]
+          },
+          {
+            "id": "B_EV_10",
+            "type": "TRAVERSAL",
+            "source_id": "IT2a|f75v.42|G003",
+            "actor": "p",
+            "source": "A",
+            "target": "B",
+            "ordered_edge": [
+              "A",
+              "B"
+            ],
+            "previous_event_id": "B_EV_09"
+          },
+          {
+            "type": "RelationPath",
+            "role": "next_enabled_direction",
+            "path": [
+              [
+                "B",
+                "A"
+              ]
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G005"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G004",
+        "raw": "qokain",
+        "rule": "RESTORE_W",
+        "operand_roles": [
+          "named_W"
+        ],
+        "outputs": [
+          {
+            "type": "RelationPath",
+            "path": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "reference": "W"
+          }
+        ],
+        "later_consumption_source_ids": []
+      },
+      {
+        "source_id": "IT2a|f75v.42|G005",
+        "raw": "okaiin",
+        "rule": "PROJECT_TOTAL",
+        "operand_roles": [
+          "events"
+        ],
+        "outputs": [
+          {
+            "id": "H",
+            "path": [
+              [
+                "B",
+                "B"
+              ]
+            ],
+            "source_id": "IT2a|f75v.42|G005",
+            "event_ids": [
+              "B_EV_01",
+              "B_EV_02",
+              "B_EV_03",
+              "B_EV_04",
+              "B_EV_05",
+              "B_EV_06",
+              "B_EV_07",
+              "B_EV_08",
+              "B_EV_09",
+              "B_EV_10"
+            ]
+          }
+        ],
+        "later_consumption_source_ids": [
+          "IT2a|f75v.42|G006"
+        ]
+      },
+      {
+        "source_id": "IT2a|f75v.42|G006",
+        "raw": "charor",
+        "rule": "FINAL_COMPARE",
+        "operand_roles": [
+          "named_T",
+          "total_projection",
+          "setup",
+          "description_records",
+          "comparison_records",
+          "return_checks",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record",
+          "stored_record"
+        ],
+        "outputs": [
+          {
+            "id": "B_FINAL_REPORT",
+            "source_id": "IT2a|f75v.42|G006",
+            "run_relation_T": [
+              [
+                "A",
+                "B"
+              ]
+            ],
+            "total_history_projection_H": [
+              [
+                "B",
+                "B"
+              ]
+            ],
+            "T_equals_H": false,
+            "total_returns": true,
+            "consumed_setup_id": "IT2a|f75v.38|G013#setup",
+            "consumed_description_record_ids": [
+              "IT2a|f75v.38|G004#name_R",
+              "IT2a|f75v.38|G005#permission_R",
+              "IT2a|f75v.38|G006#name_S",
+              "IT2a|f75v.38|G007#permission_pair",
+              "IT2a|f75v.38|G009#goal",
+              "IT2a|f75v.39|G002#name_W",
+              "IT2a|f75v.39|G008#name_L",
+              "IT2a|f75v.39|G011#relation_7",
+              "IT2a|f75v.40|G006#relation_8",
+              "IT2a|f75v.40|G010#relation_9",
+              "IT2a|f75v.40|G013#relation_10",
+              "IT2a|f75v.40|G013#relation_11",
+              "IT2a|f75v.41|G002#name_N",
+              "IT2a|f75v.41|G005#position",
+              "IT2a|f75v.41|G006#relation_14",
+              "IT2a|f75v.41|G008#relation_15",
+              "IT2a|f75v.41|G010#position",
+              "IT2a|f75v.41|G014#name_L",
+              "IT2a|f75v.41|G015#name_T",
+              "IT2a|f75v.42|G001#relation_19"
+            ],
+            "consumed_comparison_ids": [
+              "IT2a|f75v.40|G008#eq",
+              "IT2a|f75v.41|G012#eq"
+            ],
+            "consumed_return_check_ids": [
+              "IT2a|f75v.39|G012#return"
+            ],
+            "consumed_event_ids": [
+              "B_EV_01",
+              "B_EV_02",
+              "B_EV_03",
+              "B_EV_04",
+              "B_EV_05",
+              "B_EV_06",
+              "B_EV_07",
+              "B_EV_08",
+              "B_EV_09",
+              "B_EV_10"
+            ]
+          }
+        ],
+        "later_consumption_source_ids": []
+      }
+    ],
+    "event_history": [
+      {
+        "id": "B_EV_01",
+        "type": "TRAVERSAL",
+        "source_id": "IT2a|f75v.39|G004",
+        "actor": "p",
+        "source": "B",
+        "target": "A",
+        "ordered_edge": [
+          "B",
+          "A"
+        ],
+        "previous_event_id": null
+      },
+      {
+        "id": "B_EV_02",
+        "type": "TRAVERSAL",
+        "source_id": "IT2a|f75v.39|G006",
+        "actor": "p",
+        "source": "A",
+        "target": "B",
+        "ordered_edge": [
+          "A",
+          "B"
+        ],
+        "previous_event_id": "B_EV_01"
+      },
+      {
+        "id": "B_EV_03",
+        "type": "EXPLICIT_RELOCATION",
+        "source_id": "IT2a|f75v.40|G001",
+        "actor": "p",
+        "source": "B",
+        "target": "A",
+        "previous_event_id": "B_EV_02"
+      },
+      {
+        "id": "B_EV_04",
+        "type": "TRAVERSAL",
+        "source_id": "IT2a|f75v.40|G007",
+        "actor": "p",
+        "source": "A",
+        "target": "B",
+        "ordered_edge": [
+          "A",
+          "B"
+        ],
+        "previous_event_id": "B_EV_03"
+      },
+      {
+        "id": "B_EV_05",
+        "type": "TRAVERSAL",
+        "source_id": "IT2a|f75v.40|G011",
+        "actor": "p",
+        "source": "B",
+        "target": "A",
+        "ordered_edge": [
+          "B",
+          "A"
+        ],
+        "previous_event_id": "B_EV_04"
+      },
+      {
+        "id": "B_EV_06",
+        "type": "TRAVERSAL",
+        "source_id": "IT2a|f75v.41|G004",
+        "actor": "p",
+        "source": "A",
+        "target": "B",
+        "ordered_edge": [
+          "A",
+          "B"
+        ],
+        "previous_event_id": "B_EV_05"
+      },
+      {
+        "id": "B_EV_07",
+        "type": "TRAVERSAL",
+        "source_id": "IT2a|f75v.41|G007",
+        "actor": "p",
+        "source": "B",
+        "target": "A",
+        "ordered_edge": [
+          "B",
+          "A"
+        ],
+        "previous_event_id": "B_EV_06"
+      },
+      {
+        "id": "B_EV_08",
+        "type": "TRAVERSAL",
+        "source_id": "IT2a|f75v.41|G009",
+        "actor": "p",
+        "source": "A",
+        "target": "B",
+        "ordered_edge": [
+          "A",
+          "B"
+        ],
+        "previous_event_id": "B_EV_07"
+      },
+      {
+        "id": "B_EV_09",
+        "type": "TRAVERSAL",
+        "source_id": "IT2a|f75v.42|G002",
+        "actor": "p",
+        "source": "B",
+        "target": "A",
+        "ordered_edge": [
+          "B",
+          "A"
+        ],
+        "previous_event_id": "B_EV_08"
+      },
+      {
+        "id": "B_EV_10",
+        "type": "TRAVERSAL",
+        "source_id": "IT2a|f75v.42|G003",
+        "actor": "p",
+        "source": "A",
+        "target": "B",
+        "ordered_edge": [
+          "A",
+          "B"
+        ],
+        "previous_event_id": "B_EV_09"
+      }
+    ],
+    "run_event_ids": [
+      "B_EV_06",
+      "B_EV_07",
+      "B_EV_08"
+    ],
+    "T": [
+      [
+        "A",
+        "B"
+      ]
+    ],
+    "H": [
+      [
+        "B",
+        "B"
+      ]
+    ],
+    "T_equals_H": false,
+    "total_returns": true,
+    "projections_distinct": {
+      "edge_set": "{(A,B),(B,A)}",
+      "total_endpoint_projection": "{(B,B)}",
+      "marked_run_endpoint_projection": "{(A,B)}",
+      "ordered_prefix": "B->A->B",
+      "unexecuted_description": "A->B->A"
+    },
+    "counterfactual": {
+      "alternative": "Omit event10 while preceding actual history fixed",
+      "excluding_nonseed_source_ids": [
+        "IT2a|f75v.42|G003",
+        "IT2a|f75v.42|G005",
+        "IT2a|f75v.42|G006"
+      ],
+      "actual_rules": [
+        "ORDERED_COMPOSITION(CONVERSE,EXECUTE_ALTERNATE)",
+        "PROJECT_TOTAL",
+        "FINAL_COMPARE"
+      ],
+      "changed_hypothetical_output": "Nine events project B->A with return false; qolshey requires tenth A->B event",
+      "limit": "Comparator reports results; it does not impose a donated expected return truth"
+    },
+    "order_and_identity_checks": {
+      "first_A_start": "Blocked by p@B and EXECUTE source check at .39G004",
+      "second_actor": "Not supplied by sole existing-p policy at .39G006",
+      "additional_roundtrips": "Endpoint return does not distinguish multiplicity; exact invocation/history provenance does"
+    },
+    "sheolo_ablation": {
+      "full_ten_event_history_and_H_still_derivable": true,
+      "T_binding_absent": true,
+      "first_missing_terminal_operand": "FINAL_COMPARE named_T",
+      "no_L_N_current_relation_substitution_allowed": true
+    }
+  },
+  "hybrid": {
+    "status": "Adversarial explicit rival mapping only; not frozen-author repair or manuscript finding",
+    "base": "All A whole mappings/reference rules unchanged except aiin",
+    "invocation_source_id": "IT2a|f75v.39|G012",
+    "fixed_extended_aiin_effects": [
+      "ASSERT(R24)->C25",
+      "NAME_RELATION(R24)->r",
+      "INTRO_PARTICIPANT(p,source(R22))->p@B",
+      "ORDER_FROM_UNION_OPERANDS(R24)->[R22,R23]",
+      "INVOKE(r,p,route)->h=[B->A,A->B],p@B",
+      "HISTORY_REPORT(h)->Clause C25h"
+    ],
+    "actual_written_operand_sources": [
+      "IT2a|f75v.39|G009",
+      "IT2a|f75v.39|G010",
+      "IT2a|f75v.39|G011"
+    ],
+    "history_consumer": "IT2a|f75v.42|G006 charor uses existing SEAL with all clauses, including C25h",
+    "remaining_static_continuation": "Unchanged: R48/R49 empty; tail E; inclusion true",
+    "hybrid_consequences": {
+      "named_relation": "{(B,A),(A,B)}",
+      "ordered_history": "B->A->B",
+      "history_edge_set": "{(B,A),(A,B)}",
+      "history_endpoint_projection": "{(B,B)}",
+      "return": true
+    },
+    "incremental_paid_commitments": {
+      "extended_exact_whole_compounds": 1,
+      "extra_primitive_effects_constructor_families": [
+        "NAME_RELATION",
+        "INTRO_PARTICIPANT",
+        "ORDER_FROM_UNION_OPERANDS",
+        "INVOKE",
+        "HISTORY_REPORT"
+      ],
+      "added_schemas": [
+        "NamedRelation",
+        "Traveller",
+        "Route",
+        "Event",
+        "History"
+      ],
+      "named_register": "r",
+      "participant": "p",
+      "reference_scope_rules": [
+        "Immediate prior union operand provenance in written order",
+        "Start at older operand source",
+        "History from this invocation for report"
+      ],
+      "inside_INVOKE": [
+        "fresh ordered event identities",
+        "edge membership in named relation",
+        "participant source/continuity checks",
+        "isolation from existing latest-Relation register"
+      ],
+      "inside_HISTORY_REPORT": [
+        "edge-set projection",
+        "endpoint projection",
+        "order/participant/return report",
+        "extended Clause payload"
+      ],
+      "already_paid_not_double_counted": [
+        "OPEN",
+        "endpoints",
+        "UNION",
+        "ASSERT",
+        "record binding",
+        "SEAL"
+      ]
+    },
+    "not_a_calibrated_cost_probability": true,
+    "counterfactual": {
+      "alternative": "Same two edges but second traversal by p2 rather than p, or four emitted traversals",
+      "excluding_site": "Extended .39G012 INVOKE uses sole p and explicit two-edge route",
+      "limit": "These are new rival paid rules, not author or target evidence"
+    },
+    "alternate_barriers": "Same as A; no new tolsheor/okain/dol/o/l meanings"
+  },
+  "symmetries": {
+    "global_endpoint_renaming": "Preserves reciprocity, empty same-edge composition, return, projection inequality",
+    "joint_direction_convention_reversal": "May preserve account if all interpretations transform consistently",
+    "single_word_intervention": "Different fixed-model counterfactual",
+    "endpoint_ontologies": "Places, roles, accounts or other nodes unresolved",
+    "participant_identity": "Absent in A; paid hypothetical policy in B/hybrid",
+    "order_multiplicity": "Erased by edge-set or endpoint projections; retain ordered event provenance"
+  },
+  "decision": {
+    "A": "Retain complete conditional symbolic IT construction without demonstrated world-information gain",
+    "B": "Retain coherent conditional history; strict frozen retention incomplete",
+    "static_vs_event_selection": false,
+    "tail_meaning_identified": false,
+    "confirmed_anchors_required_for_C0": false,
+    "new_known_tail_signature_assumed": false,
+    "predecessor_results_changed": false,
+    "IDEA785_reopening": false,
+    "independent_physical_confirmation_leaves": 0
+  }
+}

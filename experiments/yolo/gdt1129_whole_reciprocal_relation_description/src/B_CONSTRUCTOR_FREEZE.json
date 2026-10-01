@@ -1,0 +1,482 @@
+{
+  "schema": "GDT1129_B_CONSTRUCTOR_FREEZE_v1",
+  "frozen_utc": "2026-10-01T20:46:28.842058+00:00",
+  "phase": "EXPLORATORY_C0_INDEPENDENT_AUTHOR_B",
+  "source_path": "experiments/yolo/gdt985_f75v_source_availability_continuation/artifacts/SOURCE_PACKET.json",
+  "source_sha256": "2ac5094a1d4394cae01141050912c5ad2cef0ca3d0053918b0294af828eccac0",
+  "discovery_reader": "IT2a",
+  "complete_unit": "f75v.38-42",
+  "groups": 59,
+  "constructor_freeze_before_account_extension": true,
+  "author_A_files_or_messages_read": false,
+  "model": "Sequential traversal with named relation/program and event-history projection; hybrid is intentionally permitted.",
+  "types": {
+    "Endpoint": "opaque constant identity A or B",
+    "Traveller": "p with actual position and goal",
+    "DirectedEdge": "ordered endpoint pair",
+    "RelationPath": "nonempty ordered edges with adjacent matching endpoints",
+    "NamedRelation": "bound relation path plus exact defining source ID",
+    "Event": "fresh ID with source,target,path/edge and triggering source ID",
+    "Run": "ordered event IDs bounded by explicit MARK_RUN and SEAL_RUN",
+    "Projection": "first source to final target, retaining source history provenance",
+    "BooleanRecord": "typed assertion with exact compared operands",
+    "DescriptionRecord": "relation path/projection with source provenance",
+    "Setup": "named inputs, permission and goal checks; hypothetical premises distinguished from event history",
+    "Report": "finite collection of consumed records and computed comparisons"
+  },
+  "rules": [
+    {
+      "id": "ENDPOINT_A",
+      "definition": "Introduce opaque endpoint A; node focus A."
+    },
+    {
+      "id": "ENDPOINT_B",
+      "definition": "Introduce opaque endpoint B; node focus B."
+    },
+    {
+      "id": "BASE_EDGE",
+      "definition": "Require A,B; set current relation to edge E=A->B; repeated use co-refers exact same E."
+    },
+    {
+      "id": "NAME_BASE",
+      "definition": "Store current relation as R; no traversal."
+    },
+    {
+      "id": "AUTHORIZE_BASE",
+      "definition": "Mark named R permitted; no traversal."
+    },
+    {
+      "id": "MAKE_REVERSE_NAME",
+      "definition": "Derive inverse(R) and store S."
+    },
+    {
+      "id": "AUTHORIZE_PAIR",
+      "definition": "Declare named R and S permitted."
+    },
+    {
+      "id": "INTRO_TRAVELLER",
+      "definition": "Introduce traveller p at R.target B; initial position is explicit paid input, not an observed fact."
+    },
+    {
+      "id": "SET_GOAL",
+      "definition": "Set p.goal=R.source A."
+    },
+    {
+      "id": "SELECT_REVERSE",
+      "definition": "Set current relation=S."
+    },
+    {
+      "id": "CHECK_ENABLED",
+      "definition": "Compare p.position with current relation.source and permitted status; produce boolean."
+    },
+    {
+      "id": "CHECK_GOAL",
+      "definition": "Compare current relation.target with p.goal; produce boolean."
+    },
+    {
+      "id": "SEAL_SETUP",
+      "definition": "Store setup predicates with actual inputs; current relation remains unchanged."
+    },
+    {
+      "id": "RESTORE_R",
+      "definition": "Set current relation to named R."
+    },
+    {
+      "id": "SAVE_W",
+      "definition": "Store current relation as W."
+    },
+    {
+      "id": "CONVERSE",
+      "definition": "Inverse current relation; reverse ordered path order and inverse every edge."
+    },
+    {
+      "id": "EXECUTE",
+      "definition": "Require current relation enabled; execute its ordered edges as fresh events, update p.position; current relation unchanged."
+    },
+    {
+      "id": "RESTORE_W",
+      "definition": "Set current relation to named W."
+    },
+    {
+      "id": "NAME_L",
+      "definition": "Store current relation as L, replacing previous L explicitly."
+    },
+    {
+      "id": "ROUNDTRIP_EXPRESSION",
+      "definition": "Build current relation followed by its converse; produce a named path expression, no event."
+    },
+    {
+      "id": "RETURN_CHECK",
+      "definition": "Consume current accumulated event history since INTRO_TRAVELLER; report whether first source equals last target."
+    },
+    {
+      "id": "RELOCATE_A",
+      "definition": "Perform explicit relocation of existing traveller from actual position to A as a fresh event; this is not a line reset or hidden premise."
+    },
+    {
+      "id": "SAVE_COMPARAND",
+      "definition": "Save current relation as comparison register D, replacing prior D explicitly."
+    },
+    {
+      "id": "RECORD_RELATION",
+      "definition": "Append current relation and source provenance to description-record list; no event."
+    },
+    {
+      "id": "COMPARE_RELATION",
+      "definition": "Compare current relation with D extensionally; write true/false record with both operands."
+    },
+    {
+      "id": "EXECUTE_REVERSE",
+      "definition": "Set current relation=converse(current); require enabled and execute it as fresh events."
+    },
+    {
+      "id": "MARK_RUN",
+      "definition": "Mark next event index as beginning of a run; no location reset."
+    },
+    {
+      "id": "NAME_PROGRAM",
+      "definition": "Name current relation N, an unexecuted program; no event."
+    },
+    {
+      "id": "EXECUTE_ALTERNATE",
+      "definition": "Execute enabled current relation as fresh event(s), then set current relation to its converse for next step."
+    },
+    {
+      "id": "RECORD_POSITION",
+      "definition": "Record actual p.position; no event."
+    },
+    {
+      "id": "SEAL_RUN",
+      "definition": "Close run begun by MARK_RUN; bind ordered run events by exact event IDs."
+    },
+    {
+      "id": "NAME_RUN_RELATION",
+      "definition": "Require closed run; name its endpoint projection T and set current relation to T; retains full event history distinct from projection."
+    },
+    {
+      "id": "PROJECT_TOTAL",
+      "definition": "Project full ordered executed history to endpoint relation H; retain original events, no traversal."
+    },
+    {
+      "id": "FINAL_COMPARE",
+      "definition": "Consume named T and H plus stored setup/description/comparison records; report their endpoint relations, equality/non-equality and return checks."
+    },
+    {
+      "id": "ORDERED_COMPOSITION",
+      "definition": "Only two exact listed compounds: olol executes ol then ol; qolshey executes qol then shey. Every part has its ordinary effective behavior. No general concatenation/parser/license."
+    }
+  ],
+  "whole_dictionary": [
+    {
+      "raw": "tol",
+      "rule": "ENDPOINT_A",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "sheor",
+      "rule": "ENDPOINT_B",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "qokal",
+      "rule": "BASE_EDGE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "dar",
+      "rule": "NAME_BASE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "olked",
+      "rule": "AUTHORIZE_BASE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "orol",
+      "rule": "MAKE_REVERSE_NAME",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "kchey",
+      "rule": "AUTHORIZE_PAIR",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "otain",
+      "rule": "INTRO_TRAVELLER",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "olchey",
+      "rule": "SET_GOAL",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "okar",
+      "rule": "SELECT_REVERSE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "sheky",
+      "rule": "CHECK_ENABLED",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "dedy",
+      "rule": "CHECK_GOAL",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "kedy",
+      "rule": "SEAL_SETUP",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "qoqokeey",
+      "rule": "RESTORE_R",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "olkain",
+      "rule": "SAVE_W",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "qol",
+      "rule": "CONVERSE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "sheedy",
+      "rule": "EXECUTE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "qokeor",
+      "rule": "RESTORE_W",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "or",
+      "rule": "NAME_L",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "chey",
+      "rule": "ROUNDTRIP_EXPRESSION",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "qokar",
+      "rule": "CONVERSE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "ol",
+      "rule": "RECORD_RELATION",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "aiin",
+      "rule": "RETURN_CHECK",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "dlshedy",
+      "rule": "RELOCATE_A",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "qokain",
+      "rule": "RESTORE_W",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "dal",
+      "rule": "SAVE_COMPARAND",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "cheey",
+      "rule": "COMPARE_RELATION",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "sheey",
+      "rule": "EXECUTE_REVERSE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "olol",
+      "rule": "ORDERED_COMPOSITION",
+      "fixed_parameters": {
+        "parts": [
+          "ol",
+          "ol"
+        ],
+        "rules": [
+          "RECORD_RELATION",
+          "RECORD_RELATION"
+        ]
+      },
+      "price": "DECLARED_EXACT_DERIVATION"
+    },
+    {
+      "raw": "sal",
+      "rule": "MARK_RUN",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "shedy",
+      "rule": "NAME_PROGRAM",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "shey",
+      "rule": "EXECUTE_ALTERNATE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "qoin",
+      "rule": "RECORD_POSITION",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "qoky",
+      "rule": "RECORD_POSITION",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "chl",
+      "rule": "SEAL_RUN",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "sheolo",
+      "rule": "NAME_RUN_RELATION",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "qolshey",
+      "rule": "ORDERED_COMPOSITION",
+      "fixed_parameters": {
+        "parts": [
+          "qol",
+          "shey"
+        ],
+        "rules": [
+          "CONVERSE",
+          "EXECUTE_ALTERNATE"
+        ]
+      },
+      "price": "DECLARED_EXACT_DERIVATION"
+    },
+    {
+      "raw": "okaiin",
+      "rule": "PROJECT_TOTAL",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    },
+    {
+      "raw": "charor",
+      "rule": "FINAL_COMPARE",
+      "fixed_parameters": {},
+      "price": "NEW_C0_WHOLE_VALUE"
+    }
+  ],
+  "policies": {
+    "repeats": "One fixed whole rule for every exact repeat; fresh events from repeat execution differ only by input state and identity. No occurrence-fitted values.",
+    "scope": "One paragraph/global register scope; line ends have no semantic reset/closure. Only explicit constructor words modify state.",
+    "reference": "R,S,W,L,D,N,T,H are named typed registers; use before definition blocks. Current relation and existing traveller are explicitly paid ambient operands for rules named above.",
+    "unknown": "No unknown noun/default/repair/alias; unavailable word, operand or type is first barrier. Complete all59 rows even if blocked.",
+    "execution": "Path source must equal p.position; explicit relocation is an actual paid event. Each execution emits fresh identities. No implicit initial stock/sole participant availability.",
+    "semantics": "Opaque journey endpoints/traveller and operation names are C0 guesses; no old recipe/prepare/pour meanings or confirmed anchors inherited.",
+    "formal_composition": "The two hypothesized exact compound cuts are paid semantic choices, not learned BPE grammar evidence; keep whole residuals for all other exact words. No universal qo/r/l/dy/aiin semantics.",
+    "alternates": "Preserve all ZL59/RF58 rows, raw uncertainty, native separators and flags; no joining o/l or entity normalization. This dictionary admits only exact listed forms; report actual alternative barriers, no independent witnesses."
+  },
+  "paid_ambient_input_policies": [
+    "Current relation is explicit ambient operand for applicable relation/execution/record operators.",
+    "Existing traveller p is explicit ambient execution subject after otain introduces p at named R.target.",
+    "EXECUTE_ALTERNATE switches relation only after completed actual execution.",
+    "RETURN_CHECK/PROJECT_TOTAL consume history beginning at explicit traveller introduction.",
+    "MARK_RUN/SEAL_RUN identify a subhistory by explicit marker positions, not by fixed line or fixed number of events.",
+    "Only literal A,B and actor p introduced by explicit whole words; no unnamed participant."
+  ],
+  "costs_at_freeze": {
+    "exact_whole_types": 39,
+    "paid_atomic_whole_values": 37,
+    "derived_exact_compounds": 2,
+    "constructor_rules": 35,
+    "type_schemas": 12,
+    "literal_endpoint_constants": 2,
+    "traveller_constant": 1,
+    "new_whole_aliases": [
+      {
+        "forms": [
+          "qol",
+          "qokar"
+        ],
+        "value": "CONVERSE"
+      },
+      {
+        "forms": [
+          "qokeor",
+          "qokain"
+        ],
+        "value": "RESTORE_W"
+      },
+      {
+        "forms": [
+          "qoin",
+          "qoky"
+        ],
+        "value": "RECORD_POSITION"
+      }
+    ],
+    "extra_alias_forms": 3,
+    "ambient_operand_policies": 6,
+    "line_reset_defaults": 0,
+    "unknown_noun_defaults": 0,
+    "semantic_null_parts": 0,
+    "contextual_whole_overloads": 0,
+    "whole_residual_policy": "37 paid exact atomic meanings; do not call them composition-derived."
+  },
+  "prospective_internal_consequence": "Named relation E=A->B is distinct from a B-start executed return history. Closed subrun projects A->B; final total history is compared with that subrun projection, without storing a per-line result. Internal coherence is not semantic selection.",
+  "extension_policy": "No constructor/dictionary edits after this freeze. If the finite declared account cannot finish, retain first construction barrier rather than repair this file."
+}

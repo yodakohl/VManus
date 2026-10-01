@@ -1150,4 +1150,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 - GDT1128 — Exact three-owned-label native/cache binding. [Preregistration](yolo/gdt1128_native_owned_label_reading_binding/PREREGISTRATION.md).
 
-- GDT1129: registered exploratory whole reciprocal description/event comparison; [preregistration](yolo/gdt1129_whole_reciprocal_relation_description/PREREGISTRATION.md). No meaning selected.
+- GDT1129: complete symbolic IT account; event account retains strict gaps; hybrid survives. [Decision](yolo/gdt1129_whole_reciprocal_relation_description/REPORT.md), [six candidate/reader cases](yolo/gdt1129_whole_reciprocal_relation_description/artifacts/CANDIDATE_TABLE.tsv). No meaning selected.
