@@ -1,0 +1,650 @@
+{
+  "schema": "FY_ROOT_REPORT_V1",
+  "status": "ROOT_APPROVED_RETAIN_CONDITIONAL_MINIMUM_CORES_STOP_FREE_DICTIONARY_GROWTH",
+  "phase": "EXPLORATORY_REVIEW_NOT_REGISTERED_MEANING_TEST",
+  "decision": "Retain conditional minimum cores,stop free-dictionary growth,no newmeaning or registeredPASS. No hypothesisrepair follows thisreport.",
+  "candidates": [
+    {
+      "candidate_id": "FY_RELATIVE_MIN_CORE",
+      "status": "RETAIN_CONDITIONAL_CORE_STOP_GLOSSARY_NO_FIXED_MEANING_TEST",
+      "source_idea": "IDEA000594",
+      "target_unit": "f83v.11–20",
+      "raw_groups": 298,
+      "reader_groups": {
+        "IT2a": 98,
+        "ZL3b": 99,
+        "RF1b": 101
+      },
+      "actual_frozen_content": {
+        "declared_subject": "X11:MaterialKind(x11) from IT2a|f83v.11|G001 pchedas",
+        "constituents": "U12={WATER,EARTH,AIR} from IT2a|f83v.12|G002 shckhy",
+        "class": "C16=METAL_PRODUCT_CLASS from IT2a|f83v.16|G002 qokal",
+        "distinct_propositions": [
+          "MixedFrom(x11,U12)",
+          "MatterOf(x11,C16)",
+          "ElementRelative(x11,C16)"
+        ],
+        "occurrences": [
+          {
+            "id": "M12",
+            "source_id": "IT2a|f83v.12|G001",
+            "left_spec": "D(U12)",
+            "binder": "R3_A_N",
+            "subject_reference": "IT2a|f83v.11|G001",
+            "argument_references": [
+              "IT2a|f83v.12|G002"
+            ],
+            "result": "MixedFrom(x11,U12)",
+            "dependencies": [
+              "X11",
+              "U12"
+            ],
+            "status": "CORE_CONDITIONAL_ON_R6"
+          },
+          {
+            "id": "M13",
+            "source_id": "IT2a|f83v.13|G009",
+            "left_spec": "D(U12)",
+            "binder": "R3_A_N",
+            "subject_reference": "IT2a|f83v.13|G008",
+            "argument_references": [
+              "IT2a|f83v.12|G002"
+            ],
+            "result": "MixedFrom(x11,U12)",
+            "dependencies": [
+              "REF13B",
+              "U12"
+            ],
+            "status": "CORE_CONDITIONAL_ON_R6"
+          },
+          {
+            "id": "M16",
+            "source_id": "IT2a|f83v.16|G001",
+            "left_spec": "D(U12)",
+            "binder": "R3_A_N",
+            "subject_reference": "IT2a|f83v.11|G001",
+            "argument_references": [
+              "IT2a|f83v.12|G002"
+            ],
+            "result": "MixedFrom(x11,U12)",
+            "dependencies": [
+              "X11",
+              "U12"
+            ],
+            "status": "CORE_CONDITIONAL_ON_R6"
+          },
+          {
+            "id": "E16",
+            "source_id": "IT2a|f83v.16|G007",
+            "left_spec": "Q(OK(C16))",
+            "binder": "R3_A_N",
+            "subject_reference": "IT2a|f83v.16|G008",
+            "argument_references": [
+              "IT2a|f83v.16|G002"
+            ],
+            "result": "ElementRelative(x11,C16)",
+            "dependencies": [
+              "REF16",
+              "C16",
+              "P18"
+            ],
+            "status": "CORE_CONDITIONAL_ON_R6_AND_PAID_LATER_PREMISE"
+          },
+          {
+            "id": "P18",
+            "source_id": "IT2a|f83v.18|G005",
+            "left_spec": "OK(C16)",
+            "binder": "R3_A_N",
+            "subject_reference": "IT2a|f83v.18|G006",
+            "argument_references": [
+              "IT2a|f83v.16|G002"
+            ],
+            "result": "MatterOf(x11,C16)",
+            "dependencies": [
+              "REF18",
+              "C16"
+            ],
+            "status": "CORE_CONDITIONAL_ON_R6"
+          }
+        ],
+        "manual_wires": 15,
+        "forward_premise": "P18→E16, same x11/C16"
+      },
+      "actual_counters": [
+        {
+          "source_id": "IT2a|f83v.17|G003",
+          "raw": "qokaiin",
+          "successor": "IT2a|f83v.17|G004",
+          "successor_raw": "sheol",
+          "result": "UNBOUND_X; same R3/R4 operators have no typed nominal under fixed license. No later MatterOf for a written alternate subject is licensed."
+        },
+        {
+          "source_id": "IT2a|f83v.19|G005",
+          "raw": "okaiin",
+          "successor": "IT2a|f83v.19|G006",
+          "successor_raw": "chear",
+          "result": "UNBOUND_X; no unknown-to-MaterialKindRef coercion."
+        },
+        {
+          "source_id": "ZL3b|f83v.15|G001",
+          "raw": "qokaiin",
+          "successor_raw": "cheol",
+          "result": "UNBOUND_X and no material title; IT counterpart is literal qotaiin, not another qokaiin."
+        },
+        {
+          "source_id": "RF1b|f83v.15|G001",
+          "raw": "qokaiin",
+          "successor_raw": "cheol",
+          "result": "UNBOUND_X; RF native frame absent."
+        },
+        {
+          "primary": "GDT1047 REPORT",
+          "loci": [
+            "f28v.6",
+            "f58v.30"
+          ],
+          "result": "The title-bound d+aN account cannot be exported as a universal paragraph-local preceding-host rule. Reported native starts contain no such preceding title. No implicit binder repair is licensed."
+        }
+      ],
+      "typed_internal_gain": "One aN(RelationSpec,WrittenRef)->Assertion signature instantiated five times. P18 deletion or subject x2 blocks E16; ConstituentSet cannot replace ProductClass. These consequences require the fixed15link graph and asserted scope.",
+      "scope_limit": "IT first unknown SHEDAS .11G002; ZL/RF unlicensed PCHEDAR .11G001. Fifteen paid links do not derive selection of class/reference/forward premise from written control grammar. No unknown transparency or whole paragraph assertion claim.",
+      "equivalents": [
+        "CLASS_EMBEDDED_UNARY preserves all three actual propositions and same-subject P18 premise on this one class.",
+        "DOMAIN_RELABEL preserves the graph with jointly changed typed semantic labels."
+      ],
+      "conditional_rival_failures": [
+        "ABSOLUTE_SIMPLE meaning heterogeneous-constituent-free conflicts with MixedFrom under the assumed common assertion scope.",
+        "PURIFIED_SIMPLE lacks a written transformation/removed part/post-treatment specimen within paid nodes; this does not prove absence of processes in79unknownITgroups."
+      ],
+      "prices": {
+        "root_count": 8,
+        "rule_count": 6,
+        "whole_residual_count": 4,
+        "default_count": 0,
+        "alias_count": 0,
+        "morphological_commitments": 6,
+        "document_endpoint_wires": 15,
+        "later_premise_wires": 1,
+        "additional_notes": [
+          "Three WATER/EARTH/AIR constants are charged inside SHCKH.",
+          "QOKAL sort adapter and document-frame assumption remain separate obligations.",
+          "R6 contains endpoint information; raw rule counts are not calibrated likelihood or code length.",
+          "Literal CHEDY and paragraph-specific licensing are explanatory restrictions, not independent validation."
+        ]
+      },
+      "opening_condition": "A separately declared source-owned relation must distinguish class/premise/subject scope from surviving unary/domain equivalents; a target continuation additionally needs written selection of those references under unchanged values. No newwhole alias, implicitclass fallback or transparentunknown rule is admitted.",
+      "next_route": "FZ_EXTERNAL_SOURCE_OWNED_ROLES",
+      "meaning_identified": false,
+      "test_registered_pass": false
+    },
+    {
+      "candidate_id": "FY_REFLUX_MIN_CORE",
+      "status": "RETAIN_CONDITIONAL_CORE_STOP_GLOSSARY_NO_FIXED_MEANING_TEST",
+      "source_idea": "IDEA000861",
+      "target_unit": "f85r2N19/E27; fullpage473accounted",
+      "raw_groups": 473,
+      "reader_groups": {
+        "ZL3b": 156,
+        "IT2a": 157,
+        "RF1b": 160
+      },
+      "actual_frozen_content": {
+        "manual_first10": "sain or or aiin opchdy qotor sheedy shodaiin olfar ary",
+        "manual_trace": [
+          [
+            "sain",
+            "Frame F1; Shore s1=South; ports [East,West] empty."
+          ],
+          [
+            "or",
+            "Fill East port with fresh WaterFlow e1."
+          ],
+          [
+            "or",
+            "Fill West port with fresh WaterFlow w1."
+          ],
+          [
+            "aiin",
+            "R3(Greater(x,y),{x:e1,y:w1}) -> immutable comparison C1=Greater(e1,w1)."
+          ],
+          [
+            "opchdy",
+            "Push P1(agent=e1,patient=w1), consuming C1."
+          ],
+          [
+            "qotor",
+            "Impact I1(owner=s1=South,side=West), derived from P1 and paid southern case."
+          ],
+          [
+            "sheedy",
+            "Perform Generate G1(I1); create fresh Wind v1(class=Affricus). No initial Wind."
+          ],
+          [
+            "shodaiin",
+            "SHO selects out(G1)=v1; D supplies Referent(x); same R3 binds {x:v1}, evidence G1 -> reference B1(v1)."
+          ],
+          [
+            "olfar",
+            "Write name n1=Affricus, separate from G1 and B1."
+          ],
+          [
+            "ary",
+            "Names(B1.participant=v1,n1), generic naming of the actual derived identity."
+          ]
+        ],
+        "hypothesis_rows": 30,
+        "physical_groups": 10,
+        "barriers": 443,
+        "N_E_rows": 138,
+        "unworked_N_perreader": 9,
+        "unworked_E_perreader": 27
+      },
+      "actual_counters": [
+        "OR at .13 before SHEDY cannot instantiate a free WaterFlow without locally written source frame; retained as barrier",
+        "all16 exact AIINs and9 DAIINs retained with same role and explicit missing arguments",
+        "QODAIN is not QODAIIN; no QODAIIN->QOKAIIN repair",
+        "no QOKAIIN or OKAIIN on f85r2",
+        "GDT608 exact-whole residual and entry dependence retained",
+        "GDT1122 type/scope debt not replaced by a renderer PASS",
+        "GDT958 no-reference failure retained"
+      ],
+      "typed_internal_gain": "OR allocates two explicit Flow IDs; R3 grounds paid Greater and ReferentSpecs; SHO selects producedWind v1. This is generic typedrecord/identity reuse rather than predicatecontent from aN.",
+      "scope_limit": "N first DAIR .4G001; E first PCHEDEEY .7G001. All9DAIIN/5QODAIIN occurrences remainargumentbarriers. ZL OR|AIIN and OLFAR|ARY are uncertain seams; RFentry0/0 requires an unstated externalR1 convention.",
+      "equivalents": [
+        "Preexisting samekindWind yields the same generic Names projection because ARY doesnot inspect G1 ancestry.",
+        "Whole-case lookup reproduces the two southernsource rows; no independenttargetbranch discriminates it.",
+        "Hydraulic referent may also be generically named; no independentVoynichsort observation choosesWind."
+      ],
+      "prices": {
+        "literal_roots": 17,
+        "literal_rules": 8,
+        "exact_whole_licenses": 4,
+        "residuals_excluding_bareAIINpayloadroot": 3,
+        "claimed_defaults": 0,
+        "claimed_aliases": 0,
+        "unpriced_or_underdefined_entry_seam_debt": [
+          "ZL uncertain split choices",
+          "RF R1 externalentry interpretation"
+        ],
+        "fact_mapping_commitments": {
+          "R5": [
+            "E>W→Impact(S,W)",
+            "W>E→Impact(S,E)"
+          ],
+          "R6": [
+            "Impact(S,W)→Affricus",
+            "Impact(S,E)→Nothus"
+          ]
+        },
+        "cost_ceiling": "Named entrycounts include compoundpayload/source-schema facts; not an informationtheoreticminimum."
+      },
+      "source_facts": "South/East/West frame and portorder plus two comparison→impact and two impact→class mappings are paid. COMPARE_GT supplies Greater payload; d supplies Referent payload.",
+      "opening_condition": "Actual standaloneD+aN must have a written participant after the retained controls, and an independently specified consequence must depend on the stated participant/event ancestry or source-role interaction. Generic naming alone is inadequate; no default cursor/initialWind, newnominal filler, seamrepair or northernrouting extrapolation is admitted.",
+      "next_route": "FZ_EXTERNAL_SOURCE_OWNED_ROLES",
+      "meaning_identified": false,
+      "test_registered_pass": false
+    }
+  ],
+  "accounting_totals": {
+    "relative_raw_groups": 298,
+    "relative_14nativefields_checked": true,
+    "relative_distinct_assertions": 3,
+    "relative_occurrences": 5,
+    "relative_manual_wires": 15,
+    "relative_forward_premises": 1,
+    "reflux_raw_groups": 473,
+    "reflux_12nativefields_checked": true,
+    "reflux_authored_hypothesis_rows": 30,
+    "reflux_physical_core_groups": 10,
+    "reflux_barriers": 443,
+    "same_reader_rows_are_not_independent": true
+  },
+  "external_identification": {
+    "confirmed_words": 0,
+    "independent_semantic_confirmation": 0,
+    "binaryclass_productivity": false,
+    "metal_domain_identified": false,
+    "wind_domain_identified": false,
+    "eventancestry_naming_discriminator": false,
+    "source_fact_fidelity_is_not_target_meaning": true
+  },
+  "sameform_counteruses_preserved": {
+    "relative": [
+      {
+        "source_id": "IT2a|f83v.17|G003",
+        "raw": "qokaiin",
+        "successor": "IT2a|f83v.17|G004",
+        "successor_raw": "sheol",
+        "result": "UNBOUND_X; same R3/R4 operators have no typed nominal under fixed license. No later MatterOf for a written alternate subject is licensed."
+      },
+      {
+        "source_id": "IT2a|f83v.19|G005",
+        "raw": "okaiin",
+        "successor": "IT2a|f83v.19|G006",
+        "successor_raw": "chear",
+        "result": "UNBOUND_X; no unknown-to-MaterialKindRef coercion."
+      },
+      {
+        "source_id": "ZL3b|f83v.15|G001",
+        "raw": "qokaiin",
+        "successor_raw": "cheol",
+        "result": "UNBOUND_X and no material title; IT counterpart is literal qotaiin, not another qokaiin."
+      },
+      {
+        "source_id": "RF1b|f83v.15|G001",
+        "raw": "qokaiin",
+        "successor_raw": "cheol",
+        "result": "UNBOUND_X; RF native frame absent."
+      },
+      {
+        "primary": "GDT1047 REPORT",
+        "loci": [
+          "f28v.6",
+          "f58v.30"
+        ],
+        "result": "The title-bound d+aN account cannot be exported as a universal paragraph-local preceding-host rule. Reported native starts contain no such preceding title. No implicit binder repair is licensed."
+      }
+    ],
+    "reflux": [
+      "OR at .13 before SHEDY cannot instantiate a free WaterFlow without locally written source frame; retained as barrier",
+      "all16 exact AIINs and9 DAIINs retained with same role and explicit missing arguments",
+      "QODAIN is not QODAIIN; no QODAIIN->QOKAIIN repair",
+      "no QOKAIIN or OKAIIN on f85r2",
+      "GDT608 exact-whole residual and entry dependence retained",
+      "GDT1122 type/scope debt not replaced by a renderer PASS",
+      "GDT958 no-reference failure retained"
+    ]
+  },
+  "opening_conditions": {
+    "relative": "A separately declared source-owned relation must distinguish class/premise/subject scope from surviving unary/domain equivalents; a target continuation additionally needs written selection of those references under unchanged values. No newwhole alias, implicitclass fallback or transparentunknown rule is admitted.",
+    "reflux": "Actual standaloneD+aN must have a written participant after the retained controls, and an independently specified consequence must depend on the stated participant/event ancestry or source-role interaction. Generic naming alone is inadequate; no default cursor/initialWind, newnominal filler, seamrepair or northernrouting extrapolation is admitted."
+  },
+  "next_route": {
+    "id": "FZ_EXTERNAL_SOURCE_OWNED_ROLES",
+    "concrete_duty": "Root proceeds to external source-owned subjects,argumentroles,relation scope and actual identity/ancestry consequences. Keep relative source subject/mixedconstituents/productclass/matterground and reflux source comparison/pushpatient/receivingshore/impactside/result roles explicit. Require a source-owned distinction that survives unary/domain/naming/lookup projections before another targetglossary.",
+    "not_authorized_by_this_report": [
+      "New target hypothesisrepair",
+      "Unknownnoun filler",
+      "New readeralias/seam normalization",
+      "New primitive/default to repair FY",
+      "New parser/executor",
+      "Reserve or sealed admission",
+      "A registered semantic PASS"
+    ]
+  },
+  "original_decisions_unchanged": [
+    "GDT608 formal directed/exactwhole residual limits",
+    "GDT1047 obligatory-host/boundary failures",
+    "GDT1122 type/scope incompleteness",
+    "GDT1125 originalFAIL and0complete diagnostic transfer across12cases; no sourcegateoverride or registeredPASS"
+  ],
+  "source_pins": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_RELATIVE_AUTHOR.md",
+      "sha256": "1879ec0cd426292ee49cf84a57ca9481bfc95ae53305bd22ff3bdfdd5fdba06f",
+      "bytes": 10684,
+      "role": "frozen_relative_author",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_RELATIVE_AUTHOR.json",
+      "sha256": "cf4c8eda75b9181df9ee9cad1100d1748990d7e80e821c0e46c62960ba1361ee",
+      "bytes": 22726,
+      "role": "frozen_relative_author",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_RELATIVE_DERIVATION.tsv",
+      "sha256": "cd573c9c2ba8ecddb0773818cc1dd7141d9e0395c4451f34ed00a21b525b4992",
+      "bytes": 279685,
+      "role": "frozen_relative_author",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_REFLUX_AUTHOR.md",
+      "sha256": "9c5fab9248db36a8f466076cf865b00b3f8d0eb293477b82053fa0729a7db829",
+      "bytes": 6294,
+      "role": "frozen_reflux_author",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_REFLUX_AUTHOR.json",
+      "sha256": "d5c05ccfa02be2651d0b4670f5da6ced2b0cc69c74c9cc5a05e76e406b3c1a33",
+      "bytes": 25161,
+      "role": "frozen_reflux_author",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_REFLUX_DERIVATION.tsv",
+      "sha256": "7ebebab6b83cc606e4e0054eec06a53dfe8007cbfaf002cbcb9b56921c50e3bc",
+      "bytes": 123044,
+      "role": "frozen_reflux_author",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_RELATIVE_AUDIT.md",
+      "sha256": "7dc35016407aa868ce4fd33b70d1e205749d8c7dc5a7ecaa3a06260841a36fe0",
+      "bytes": 11789,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_RELATIVE_AUDIT.json",
+      "sha256": "f128387f459d64d5428fa283165f8d0c192317919af5af758c0b26ba1d992291",
+      "bytes": 13997,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_REFLUX_AUDIT.md",
+      "sha256": "6cdf7613cbc8ced813e705517c553e9f7dcf82bbcdefc705363f230c79ccff60",
+      "bytes": 3884,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_REFLUX_AUDIT.json",
+      "sha256": "e503c1d1911d9fb6ca092946bca2fbe91393018d6169260e51b760185171740d",
+      "bytes": 291624,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_REFLUX_FROZEN_HASH_RECEIPT.json",
+      "sha256": "8d48c606b7a88c11955df4912ab5b216dc1bb0dc38c740c16f8eae174f8b04fe",
+      "bytes": 2449,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_DECISION.md",
+      "sha256": "7e6a7dd2593e99cc4c790a8c07ef415c25c4a6cd1675a3d2d4e43f00c4af4d45",
+      "bytes": 4364,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_MEANING_SELECTION_CRITIC.md",
+      "sha256": "968a1d613cb00a6d1ed7535e9dcdbc9bde3204e11871ffbefbf0dcafda7078d2",
+      "bytes": 18570,
+      "role": "relative_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_MEANING_SELECTION_CRITIC.json",
+      "sha256": "916b3162df771c221ae874713eea496b0cd1274c796a3e827fce2683563cb93c",
+      "bytes": 19087,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_RELATIVE_ELEMENT_SOURCE_CRITIC.md",
+      "sha256": "dc517ce8a95867f4a560a978fe55f9e72392ff2a572ce50a2f21dd9e76409dea",
+      "bytes": 10069,
+      "role": "relative_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_RELATIVE_ELEMENT_SOURCE_CRITIC.json",
+      "sha256": "a28c9cbea45bdf4f3526eca6162d0e157b1910f9cb522edb309c8d08ee5c3509",
+      "bytes": 28575,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_COMPOSITION_SEMANTIC_LEVER.md",
+      "sha256": "0cd21fd4b957436580f9594e977fd96b27e8712668b12f1c5cdb8b96edfc3bde",
+      "bytes": 10036,
+      "role": "relative_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_COMPOSITION_SEMANTIC_LEVER.json",
+      "sha256": "93a3860f4220182c4a7194d6ca8be26b0ef0ef5d5b58b20432215e219860ed90",
+      "bytes": 14463,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_WIND_TARGET_CONSTRUCTION.md",
+      "sha256": "18e02c0a79662a2e1004b540aea8740ef70411da21a59bf99a720475bc3ff0c1",
+      "bytes": 11041,
+      "role": "reflux_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_WIND_TARGET_CONSTRUCTION.json",
+      "sha256": "f70a2db190739210fc337dd346e2655b020d29379eb15fac046664162090b587",
+      "bytes": 89834,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_AN_SEMANTIC_POSSIBILITIES.md",
+      "sha256": "11759c020e8cfb193308c305a4c7e8618f1fb7e7d72c7ac345f06d87b977753a",
+      "bytes": 17632,
+      "role": "relative_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_AN_SEMANTIC_POSSIBILITIES.json",
+      "sha256": "50acc83c53877af9866f1da4080b6e98287bcf9c6aa2732acf937dc912660446",
+      "bytes": 72271,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_NEXT_MEANING_SELECTION.md",
+      "sha256": "07847a68ec90f609e90058d5409053e4ca78b0972cb4fa3442cf2b7ba5af60f8",
+      "bytes": 9335,
+      "role": "reflux_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_NEXT_MEANING_SELECTION.json",
+      "sha256": "03c97b52007064797a63a21fb0afeecb76533aef83ac1433eec0a63d592e6a3a",
+      "bytes": 12613,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_SOURCE_WIND_PROCESS.md",
+      "sha256": "b98f7b667e5d3d38363af2bfd202922e8a5ccf9cb695363e1360625d9776b3ed",
+      "bytes": 11879,
+      "role": "reflux_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_SOURCE_WIND_PROCESS.json",
+      "sha256": "76fce22bd0db5cbfb8977c8e5514b2fc152a43fc9a3977fd44a6cc51feb0e6c1",
+      "bytes": 31619,
+      "role": "review_or_source_pin",
+      "expected_frozen_hash_matched": false
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/ideas/79_relative_element_classification.json",
+      "sha256": "a082d0625d21503be770f196e39495d28590851ff95a42452f9b243d0da3ed41",
+      "bytes": 6772,
+      "role": "relative_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/steele_science_complete_unit_20260927.txt",
+      "sha256": "db38ff8124bd71cb411325fc5011e8074e74872004a9a27f3dc53849e3a50a22",
+      "bytes": 47834,
+      "role": "relative_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/steele_mediaeval_lore_pg6493_20260927.html",
+      "sha256": "7e6bfd3104fbdcb32215716d3aa8866c7e4f9b25f73886cf263378873b745cf9",
+      "bytes": 283576,
+      "role": "relative_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+      "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501",
+      "bytes": 18873,
+      "role": "reflux_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "experiments/yolo/gdt1047_bare_value_left_host/REPORT.md",
+      "sha256": "42901a717a45d19b1d101c2a2368d085b498b011ccdd8b7add395e770785067d",
+      "bytes": 7980,
+      "role": "relative_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "experiments/yolo/gdt1122_joint_written_participant_entry/REPORT.md",
+      "sha256": "31e79ac503fd202f32ce7500c8c379a4128dbf2f8db11dde68a3884aff7175f6",
+      "bytes": 6640,
+      "role": "reflux_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv",
+      "sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+      "bytes": 41645,
+      "role": "reflux_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_RAW_REFLUX_EVENT_OUTPUT.json",
+      "sha256": "c6ad9babe2b214fc3ca9610862b1d41176fc7cb1ce46d83d613520324a57ace5",
+      "bytes": 9098,
+      "role": "reflux_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_REFLUX_PREEXISTING_PRIORS.json",
+      "sha256": "ef242c5737c92ca3b0a7ede55608fdb1bafc012d329d07678dd90300f238828d",
+      "bytes": 52091,
+      "role": "reflux_author_input",
+      "expected_frozen_hash_matched": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DISCOVERY_PACKET.json",
+      "sha256": "518d03e887d788e4b3da0ec702d7df95c338cb71f14a40faad9d65be8d2e59e1",
+      "bytes": 2509520,
+      "role": "relative_source_packet",
+      "expected_frozen_hash_matched": true
+    }
+  ],
+  "candidate_table": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_CANDIDATE_TABLE.tsv",
+    "sha256": "842fc91c1669517dc6c2e5e48028c4a5e80b0c92650c6846de7b20a455b6f7ce",
+    "rows": 2
+  },
+  "reproducible_accounting_python": "import pathlib,json,csv,hashlib,collections\nB=pathlib.Path('research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929');report=json.loads((B/'FY_ROOT_REPORT.json').read_text())\nfor pin in report['source_pins']:assert hashlib.sha256(pathlib.Path(pin['path']).read_bytes()).hexdigest()==pin['sha256'],pin['path']\nrr=list(csv.DictReader((B/'FY_RELATIVE_DERIVATION.tsv').open(),delimiter='\\t'));wr=list(csv.DictReader((B/'FY_REFLUX_DERIVATION.tsv').open(),delimiter='\\t'));packet=json.loads((B/'FW_DISCOVERY_PACKET.json').read_text());relative=[g for g in packet['groups'] if g['unit_id']=='FW_F83V_PREVIOUS']\nassert len(rr)==len(relative)==len({g['source_group_id'] for g in rr})==298\nnative=list(rr[0])[:14]\nassert all(all(row[k]==str(group[k]) for k in native) for row,group in zip(rr,relative))\nsource=list(csv.DictReader(pathlib.Path('experiments/yolo/gdt1042_f85r2_source_program_surface_census/artifacts/native_groups.tsv').open(),delimiter='\\t'))\nassert len(wr)==len(source)==len({g['source_group_id'] for g in wr})==473\nassert all(all(row[k]==group[k] for k in group) for row,group in zip(wr,source))\nassert dict(collections.Counter(x['execution_status'] for x in wr))=={'HYPOTHETICAL_MANUAL_EXECUTED':30,'UNASSIGNED_BARRIER':400,'ASSIGNED_ARGUMENT_BARRIER':43}\nrelativeauthor=json.loads((B/'FY_RELATIVE_AUTHOR.json').read_text());assert len(relativeauthor['claims'])==5 and len({x['result'] for x in relativeauthor['claims']})==3 and len(relativeauthor['explicit_dependency_edges'])==15\nassert sum(x.get('later_premise',False) for x in relativeauthor['explicit_dependency_edges'])==1\nprint('PASS_SOURCE_AND_INVENTORY_ACCOUNTING_ONLY: 298 relative +473 reflux rows. No semantic/parser/registered PASS.')\n",
+  "accounting_instructions": [
+    "From repository root load FY_ROOT_REPORT.json and exec its reproducible_accounting_python in a separate namespace. It verifies pinned files,14native relativefields/12refluxfields, ID/order/counts and3/5/15/1 inventory.",
+    "For existing formal-view conservation use FY_RELATIVE_AUDIT.json conservation: GDT012/062 and605views unchanged;15collapsed nulls serialize empty. No new parser or normalization.",
+    "The existing FY_REFLUX_AUDIT.json accounting-only routine checks all473source rows and allassigned exact recurrence ledgers.",
+    "These checks reproduce source/inventory bookkeeping; manualtype/scope/rival findings remain in frozen audits and are not a registered meaning PASS."
+  ],
+  "source_scope": "Only frozen FYauthors/audits and selected FXcritic/source reports; no othercandidate drafted/read, no new target/source acquisition.",
+  "global_source_or_model_changes": false,
+  "new_hypothesis_repairs": false
+}

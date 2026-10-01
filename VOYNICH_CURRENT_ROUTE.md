@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1125 closure; FX meaning selection.
-Latest decision: 0complete transfers; originalFAILretained;0words.
-Working files: experiments/yolo/gdt1125_choice_method_written_dependency_transfer/REPORT.md.
-Assumptions: No dictionaryrepair;noreserve;C0allowed.
-Resume: Publish12cases;reviewFXsources+compositionprimaries.
-Running: 3FXscouts;end18:29UTC.
+Task: FZ native animal–plant roles; stop freeworldfitting.
+Latest decision: FY partial cores unselected;0words;1125FAIL.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FZ_DECISION.md.
+Assumptions: C0allowed;label!=therapy;noreserve/newtarget.
+Resume: Readall8openingpages; caption/roleaudit; publishFY.
+Running: source reader+nativecritic+producer;end18:29UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

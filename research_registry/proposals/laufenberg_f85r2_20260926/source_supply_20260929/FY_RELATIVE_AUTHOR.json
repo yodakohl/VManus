@@ -1,0 +1,623 @@
+{
+  "schema": "FY-relative-author-v1",
+  "status": "PARTIAL_C0__FIVE_CONDITIONAL_IT_ASSERTIONS__SAME_WHOLE_COUNTERGAPS__NO_COMPLETE_PARAGRAPH",
+  "phase": "exploratory authoring after exposure; no fixed test",
+  "source_offer": "IDEA000594 / raw card79 / complete cached Steele96 with82 and95",
+  "source_claim_ceiling": "Generic material-kind retains mixed composition and matter-of-product-class role; role grounds relative elementary classification. No purification grounds that classification; complete96 does include other processes. No claimed Voynich quicksilver identity.",
+  "data_scope": {
+    "packet": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DISCOVERY_PACKET.json",
+    "packet_sha256": "518d03e887d788e4b3da0ec702d7df95c338cb71f14a40faad9d65be8d2e59e1",
+    "unit": "FW_F83V_PREVIOUS",
+    "loci": [
+      "f83v.11",
+      "f83v.12",
+      "f83v.13",
+      "f83v.14",
+      "f83v.15",
+      "f83v.16",
+      "f83v.17",
+      "f83v.18",
+      "f83v.19",
+      "f83v.20"
+    ],
+    "all_readers": [
+      "IT2a",
+      "ZL3b",
+      "RF1b"
+    ],
+    "total_raw_groups": 298,
+    "no_new_query_image_access": true,
+    "sealed": [
+      "f84",
+      "f84r"
+    ],
+    "reserved_confirmation_opened": false,
+    "f116v_opened": false
+  },
+  "roots": [
+    {
+      "id": "CHED",
+      "surface": "ched",
+      "sort": "MaterialKindSchema",
+      "value": "a generic stock-material kind; no quicksilver identity, planet or measured specimen is assigned"
+    },
+    {
+      "id": "SHCKH",
+      "surface": "shckh",
+      "sort": "ConstituentSetSpec",
+      "value": [
+        "WATER",
+        "EARTH",
+        "AIR"
+      ],
+      "limitation": "one paid three-constituent content choice, not ratios or composition quantities"
+    },
+    {
+      "id": "AL",
+      "surface": "al",
+      "sort": "ProductClassTerm",
+      "value": "METAL_PRODUCT_CLASS",
+      "limitation": "explicit hypothetical metal-class content, not a confirmed metal word"
+    },
+    {
+      "id": "D",
+      "surface": "d",
+      "sort": "RelationSpecBuilder",
+      "value": "U -> MixedFrom(_,U)",
+      "license": "d within daiin only"
+    },
+    {
+      "id": "OK",
+      "surface": "ok",
+      "sort": "RelationSpecBuilder",
+      "value": "C -> MatterOf(_,C)",
+      "license": "ok within okaiin and the exact qok constructions only"
+    },
+    {
+      "id": "WATER",
+      "surface": null,
+      "sort": "ConstituentKindConstant",
+      "value": "water",
+      "paid_inside": "SHCKH"
+    },
+    {
+      "id": "EARTH",
+      "surface": null,
+      "sort": "ConstituentKindConstant",
+      "value": "earth",
+      "paid_inside": "SHCKH"
+    },
+    {
+      "id": "AIR",
+      "surface": null,
+      "sort": "ConstituentKindConstant",
+      "value": "air",
+      "paid_inside": "SHCKH"
+    }
+  ],
+  "rules": [
+    {
+      "id": "R1_TITLE",
+      "signature": "p(ched,as) -> DeclareMaterialKind(x)",
+      "license": [
+        "pchedas"
+      ],
+      "contribution": "p constructs one kind declaration from CHED schema; as is a paid declarative-title marker. x is the generic kind introduced by this literal token, not a donated initial object. Native IT paragraph11–20 is its declared frame.",
+      "costed_operators": [
+        "p",
+        "as"
+      ],
+      "not_licensed": [
+        "pchedar",
+        "ar title repair"
+      ]
+    },
+    {
+      "id": "R2_Y",
+      "signature": "DenotationSpec(K) + y -> WrittenRef(K)",
+      "license": [
+        "chedy=ched+y",
+        "shckhy=shckh+y"
+      ],
+      "contribution": "CHEDY resolves only to the explicit CHED declaration in this same fixed frame; SHCKHY denotes the explicit finite constituent set U. No nearest-noun or latest-object resolver.",
+      "costed_operators": [
+        "y"
+      ]
+    },
+    {
+      "id": "R3_A_N",
+      "signature": "aN(RelationSpec(P,args),WrittenRef(x)) -> Assertion(P(x,args))",
+      "license": [
+        "d+aN=daiin",
+        "ok+aN=okaiin",
+        "q+ok+aN=qokaiin"
+      ],
+      "contribution": "one typed assertion binder in all three exact licensed wholes; aN does not create an event, subject, class, output object or an initial proposition. N remains formal collapsed iin.",
+      "costed_operators": [
+        "aN"
+      ],
+      "no_licenses": [
+        "qotaiin",
+        "saiin",
+        "qokain",
+        "cheeaiin"
+      ]
+    },
+    {
+      "id": "R4_Q_OK",
+      "signature": "q(MatterOf(_,C)) -> ElementRelativeSpec(_,C;requires MatterOf(_,C))",
+      "license": [
+        "q+ok inside qokaiin",
+        "q+ok inside qokal under R5"
+      ],
+      "contribution": "finite role-qualified element template. It preserves C and needs a same-x/C matter assertion. q has no universal meaning and ok is not o+k semantics.",
+      "costed_operators": [
+        "q only in q+ok"
+      ]
+    },
+    {
+      "id": "R5_QOK_AL",
+      "signature": "qok+AL -> ClassDeclaration(C=METAL_PRODUCT_CLASS,relativeElementRole)",
+      "license": [
+        "qokal"
+      ],
+      "contribution": "AL supplies the written class content; this exact finite adapter yields a comparison-class declaration with indicated relative-element role, not an ElementRelative assertion. No x is supplied and no successful result is stored in the whole residual. This type adapter is an extra paid rule."
+    },
+    {
+      "id": "R6_GRAPH",
+      "signature": "fixed document-frame references over explicitly enumerated endpoints -> typed claim dependencies",
+      "license": [
+        "this IT f83v.11–20 graph only"
+      ],
+      "contribution": "paid declarative, nonchronological links. Every link is named below; no runtime reset/current/topic state, automatic barrier transparency, forward nearest premise, or graph completion. It does not explain an intervening unknown control. Exactly one later-premise edge is licensed: MatterOf at18 -> RelativeElement at16.",
+      "limitation": "Long explicit wires are an exploratory scope hypothesis. Whole-paragraph consistency remains unresolved because intervening controls are unknown; they are not freely traversable to generate additional claims."
+    }
+  ],
+  "exact_whole_residuals": [
+    {
+      "whole": "daiin",
+      "restriction": "exact d+aN; permits native line-initial or medial entry; graph must supply written x and U, neither must be inferred from a universal left/right host rule"
+    },
+    {
+      "whole": "qokaiin",
+      "restriction": "exact q+ok+aN; nominal subject must be the immediately following literal CHEDY across definite space in this minimal candidate; C and same-x/C MatterOf must be explicitly bound; no default when successor is SHEOL/CHEOL/other"
+    },
+    {
+      "whole": "okaiin",
+      "restriction": "exact ok+aN; nominal subject must be the immediately following literal CHEDY across definite space; C must be explicitly bound; no default when successor is CHEAR"
+    },
+    {
+      "whole": "qokal",
+      "restriction": "exact q+ok+al class-declaration adapter only; no arbitrary qok suffix family"
+    }
+  ],
+  "cost_accounting": {
+    "content_roots_including_three_hidden_in_root_constants": 8,
+    "rules_including_six_morphological_operators_and_graph_rule": 6,
+    "paid_morphological_operators": [
+      "p",
+      "as",
+      "y",
+      "aN",
+      "q only in q+ok",
+      "qok+al finite sort adapter"
+    ],
+    "whole_residuals": 4,
+    "defaults": 0,
+    "aliases": 0,
+    "scope_assumption": "R6 exact document graph, separately costed; not an all-unknown-transparent default",
+    "endpoint_wires": 15,
+    "later_premise_edges": 1,
+    "caps": {
+      "roots": 32,
+      "rules": 12,
+      "whole_residuals": 8,
+      "defaults": 3,
+      "aliases": 0
+    }
+  },
+  "declarations": [
+    {
+      "id": "X11",
+      "source_id": "IT2a|f83v.11|G001",
+      "result": "MaterialKind(x11)",
+      "sort": "MaterialKind"
+    },
+    {
+      "id": "U12",
+      "source_id": "IT2a|f83v.12|G002",
+      "result": "ConstituentSet(U12={WATER,EARTH,AIR})",
+      "sort": "ConstituentSet"
+    },
+    {
+      "id": "C16",
+      "source_id": "IT2a|f83v.16|G002",
+      "result": "ProductClass(C16=METAL_PRODUCT_CLASS)",
+      "sort": "ProductClass"
+    },
+    {
+      "id": "REF13A",
+      "source_id": "IT2a|f83v.13|G007",
+      "result": "WrittenRef(x11)",
+      "sort": "MaterialKindRef",
+      "dependencies": [
+        "X11"
+      ]
+    },
+    {
+      "id": "REF13B",
+      "source_id": "IT2a|f83v.13|G008",
+      "result": "WrittenRef(x11)",
+      "sort": "MaterialKindRef",
+      "dependencies": [
+        "X11"
+      ]
+    },
+    {
+      "id": "REF16",
+      "source_id": "IT2a|f83v.16|G008",
+      "result": "WrittenRef(x11)",
+      "sort": "MaterialKindRef",
+      "dependencies": [
+        "X11"
+      ]
+    },
+    {
+      "id": "REF18",
+      "source_id": "IT2a|f83v.18|G006",
+      "result": "WrittenRef(x11)",
+      "sort": "MaterialKindRef",
+      "dependencies": [
+        "X11"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "M12",
+      "source_id": "IT2a|f83v.12|G001",
+      "left_spec": "D(U12)",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.11|G001",
+      "argument_references": [
+        "IT2a|f83v.12|G002"
+      ],
+      "result": "MixedFrom(x11,U12)",
+      "dependencies": [
+        "X11",
+        "U12"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6"
+    },
+    {
+      "id": "M13",
+      "source_id": "IT2a|f83v.13|G009",
+      "left_spec": "D(U12)",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.13|G008",
+      "argument_references": [
+        "IT2a|f83v.12|G002"
+      ],
+      "result": "MixedFrom(x11,U12)",
+      "dependencies": [
+        "REF13B",
+        "U12"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6"
+    },
+    {
+      "id": "M16",
+      "source_id": "IT2a|f83v.16|G001",
+      "left_spec": "D(U12)",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.11|G001",
+      "argument_references": [
+        "IT2a|f83v.12|G002"
+      ],
+      "result": "MixedFrom(x11,U12)",
+      "dependencies": [
+        "X11",
+        "U12"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6"
+    },
+    {
+      "id": "E16",
+      "source_id": "IT2a|f83v.16|G007",
+      "left_spec": "Q(OK(C16))",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.16|G008",
+      "argument_references": [
+        "IT2a|f83v.16|G002"
+      ],
+      "result": "ElementRelative(x11,C16)",
+      "dependencies": [
+        "REF16",
+        "C16",
+        "P18"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6_AND_PAID_LATER_PREMISE"
+    },
+    {
+      "id": "P18",
+      "source_id": "IT2a|f83v.18|G005",
+      "left_spec": "OK(C16)",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.18|G006",
+      "argument_references": [
+        "IT2a|f83v.16|G002"
+      ],
+      "result": "MatterOf(x11,C16)",
+      "dependencies": [
+        "REF18",
+        "C16"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6"
+    }
+  ],
+  "explicit_dependency_edges": [
+    {
+      "from": "X11",
+      "to": "REF13A",
+      "kind": "explicit_written_nominal_reference",
+      "cost": "R6 endpoint wire, individually retained"
+    },
+    {
+      "from": "X11",
+      "to": "REF13B",
+      "kind": "explicit_written_nominal_reference",
+      "cost": "R6 endpoint wire, individually retained"
+    },
+    {
+      "from": "X11",
+      "to": "REF16",
+      "kind": "explicit_written_nominal_reference",
+      "cost": "R6 endpoint wire, individually retained"
+    },
+    {
+      "from": "X11",
+      "to": "REF18",
+      "kind": "explicit_written_nominal_reference",
+      "cost": "R6 endpoint wire, individually retained"
+    },
+    {
+      "from": "X11",
+      "to": "M12",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    },
+    {
+      "from": "U12",
+      "to": "M12",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    },
+    {
+      "from": "REF13B",
+      "to": "M13",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    },
+    {
+      "from": "U12",
+      "to": "M13",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    },
+    {
+      "from": "X11",
+      "to": "M16",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    },
+    {
+      "from": "U12",
+      "to": "M16",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    },
+    {
+      "from": "REF16",
+      "to": "E16",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    },
+    {
+      "from": "C16",
+      "to": "E16",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    },
+    {
+      "from": "P18",
+      "to": "E16",
+      "kind": "later_same_subject_same_class_premise",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": true
+    },
+    {
+      "from": "REF18",
+      "to": "P18",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    },
+    {
+      "from": "C16",
+      "to": "P18",
+      "kind": "written_argument",
+      "cost": "R6 endpoint wire, individually retained",
+      "later_premise": false
+    }
+  ],
+  "counts": {
+    "IT2a": {
+      "raw_groups": 98,
+      "whole_unknown_barriers": 79,
+      "paid_unbound_barriers": 2,
+      "core_assertions": 5
+    },
+    "ZL3b": {
+      "raw_groups": 99,
+      "whole_unknown_barriers": 80,
+      "paid_unbound_barriers": 12,
+      "core_assertions": 0
+    },
+    "RF1b": {
+      "raw_groups": 101,
+      "whole_unknown_barriers": 83,
+      "paid_unbound_barriers": 11,
+      "core_assertions": 0
+    }
+  },
+  "same_whole_countercases": [
+    {
+      "source_id": "IT2a|f83v.17|G003",
+      "raw": "qokaiin",
+      "successor": "IT2a|f83v.17|G004",
+      "successor_raw": "sheol",
+      "result": "UNBOUND_X; same R3/R4 operators have no typed nominal under fixed license. No later MatterOf for a written alternate subject is licensed."
+    },
+    {
+      "source_id": "IT2a|f83v.19|G005",
+      "raw": "okaiin",
+      "successor": "IT2a|f83v.19|G006",
+      "successor_raw": "chear",
+      "result": "UNBOUND_X; no unknown-to-MaterialKindRef coercion."
+    },
+    {
+      "source_id": "ZL3b|f83v.15|G001",
+      "raw": "qokaiin",
+      "successor_raw": "cheol",
+      "result": "UNBOUND_X and no material title; IT counterpart is literal qotaiin, not another qokaiin."
+    },
+    {
+      "source_id": "RF1b|f83v.15|G001",
+      "raw": "qokaiin",
+      "successor_raw": "cheol",
+      "result": "UNBOUND_X; RF native frame absent."
+    },
+    {
+      "primary": "GDT1047 REPORT",
+      "loci": [
+        "f28v.6",
+        "f58v.30"
+      ],
+      "result": "The title-bound d+aN account cannot be exported as a universal paragraph-local preceding-host rule. Reported native starts contain no such preceding title. No implicit binder repair is licensed."
+    }
+  ],
+  "declared_rivals": [
+    {
+      "id": "ABSOLUTE_SIMPLE",
+      "unchanged": "all roots, x/U/C declarations, aN, written order and endpoints",
+      "only_change": "R4 comparison-class scope removed; output AbsoluteSimple(x), defined for this rival as no heterogeneous constituents",
+      "actual_core_consequence": "Conflicts with the three retained MixedFrom(x,{WATER,EARTH,AIR}) claims; class does no work. This is a conditional candidate-internal consequence, not discovered Voynich truth."
+    },
+    {
+      "id": "PURIFIED_SIMPLE",
+      "unchanged": "all roots, x/U/C declarations, aN, written order and endpoints",
+      "only_change": "R4 treats simple as class-free achieved purification rather than material-role-relative classification",
+      "actual_core_consequence": "Cannot derive a treatment/event, removed constituent or new sample from paid written nodes. Undefined event debt; unknown words are not proof of purification. Generic material-kind cannot be silently turned into post-treatment measured specimen."
+    },
+    {
+      "id": "CLASS_EMBEDDED_UNARY",
+      "unchanged": "all explicit content and relative class restriction",
+      "only_change": "ElementRelative(x,METAL_PRODUCT_CLASS) is one class-embedded unary predicate instead of productive binary function",
+      "actual_core_consequence": "Observationally equivalent on this one C. Unresolved; no productivity claim."
+    }
+  ],
+  "core_interventions": [
+    {
+      "change": "remove qokal16 class endpoint",
+      "result": "E16 and P18 lose their fixed C argument. Other qokal/al tokens remain but no fallback edge may substitute them."
+    },
+    {
+      "change": "redirect E16 class to U12",
+      "result": "ConstituentSet is not ProductClass; rejected under unchanged declared sorts. Jointly renaming all sorts remains a domain-isomorphism rival."
+    },
+    {
+      "change": "remove P18",
+      "result": "E16 keeps written x/C but loses its same-x/C matter ground; no unconditional RelElement assertion may be returned."
+    },
+    {
+      "change": "change REF18 subject to a second kind x2",
+      "result": "P18 does not ground E16 about x11; no same-kind-equals-same-reference default."
+    }
+  ],
+  "first_gaps": {
+    "IT2a": {
+      "source_id": "IT2a|f83v.11|G002",
+      "raw": "shedas",
+      "debt": "whole contribution and whether it controls title/scope unknown"
+    },
+    "ZL3b": {
+      "source_id": "ZL3b|f83v.11|G001",
+      "raw": "pchedar",
+      "debt": "written x declaration not licensed; pchedas is not normalized or aliased"
+    },
+    "RF1b": {
+      "source_id": "RF1b|f83v.11|G001",
+      "raw": "pchedar",
+      "debt": "written x declaration unlicensed, native paragraph frame absent"
+    }
+  },
+  "unworked_debt": [
+    "Whole semantic contributions and all control/scope effects for the explicitly retained barrier rows.",
+    "How the title-frame graph remains coherent under unknown SHEDAS and subsequent controls; explicit endpoint wires price a provisional core and do not settle this debt.",
+    "Actual nominal/reference contribution of SHEOL after qokaiin17 and CHEAR after okaiin19 under unchanged root values.",
+    "Reader-alternative x declaration at literal PCHEDAR; RF source does not provide native paragraph boundaries.",
+    "No target account of Steele96 nonadhesion, whiteness, qualified congealing, joint melting-metal matter, attribution/production, gilding, attraction or storage was constructed. Chosen target core is a proposed classification account, not a translation of complete96.",
+    "Domain identity and productive class variation remain unbound; class-embedded unary rival survives."
+  ],
+  "no_after_freeze_repair": true,
+  "confirmed_words": 0,
+  "fixed_test_selected": false,
+  "input_hashes": {
+    "research_registry/proposals/laufenberg_f85r2_20260926/ideas/79_relative_element_classification.json": "a082d0625d21503be770f196e39495d28590851ff95a42452f9b243d0da3ed41",
+    "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/steele_science_complete_unit_20260927.txt": "db38ff8124bd71cb411325fc5011e8074e74872004a9a27f3dc53849e3a50a22",
+    "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/steele_mediaeval_lore_pg6493_20260927.html": "7e6bfd3104fbdcb32215716d3aa8866c7e4f9b25f73886cf263378873b745cf9",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_MEANING_SELECTION_CRITIC.md": "968a1d613cb00a6d1ed7535e9dcdbc9bde3204e11871ffbefbf0dcafda7078d2",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_AN_SEMANTIC_POSSIBILITIES.md": "11759c020e8cfb193308c305a4c7e8618f1fb7e7d72c7ac345f06d87b977753a",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_COMPOSITION_SEMANTIC_LEVER.md": "0cd21fd4b957436580f9594e977fd96b27e8712668b12f1c5cdb8b96edfc3bde",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FX_RELATIVE_ELEMENT_SOURCE_CRITIC.md": "dc517ce8a95867f4a560a978fe55f9e72392ff2a572ce50a2f21dd9e76409dea",
+    "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501",
+    "experiments/yolo/gdt1047_bare_value_left_host/REPORT.md": "42901a717a45d19b1d101c2a2368d085b498b011ccdd8b7add395e770785067d",
+    "experiments/yolo/gdt1122_joint_written_participant_entry/REPORT.md": "31e79ac503fd202f32ce7500c8c379a4128dbf2f8db11dde68a3884aff7175f6"
+  },
+  "derivation_path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FY_RELATIVE_DERIVATION.tsv",
+  "derivation_sha256": "cd573c9c2ba8ecddb0773818cc1dd7141d9e0395c4451f34ed00a21b525b4992",
+  "root_count_note": "Eight paid content roots includes WATER/EARTH/AIR constants packaged inside SHCKH. The Metal class constant is the AL value, not an unlisted ambient class. No semantic values are supplied for remaining whole words.",
+  "rule_count_note": "R1 contains two named paid operators p/as; R2 y; R3 aN; R4 q-in-qok; R5 finite qokal sort adapter; R6 scope/endpoints. This is six rules containing six named morphological commitments plus one graph commitment, not six discovered morphemes.",
+  "accounting_checks": {
+    "status": "PASS_ACCOUNTING_ONLY_NOT_SEMANTIC_VALIDATION",
+    "checks": {
+      "complete298_unique_source_ids": true,
+      "all_literal_identity_order_and_seams": true,
+      "native_paragraph_flags_not_imputed": true,
+      "chosen_window_only_no_sealed_or_reserve": true,
+      "all_formal_views_unchanged": true,
+      "all_gdt605_trees_unchanged": true,
+      "all_rows_have_known_or_explicit_barrier_account": true,
+      "five_claims_and_exact_shared_binder": true,
+      "same_written_x_and_C_for_both_actual_CHEDY_contacts": true,
+      "actual_literal_adjacent_CHEDY_definite_seams": true,
+      "later_premise_exactly_one_no_hidden_repair": true,
+      "known_same_whole_countercases_not_projected": true,
+      "no_ZL_RF_title_alias_or_projected_assertions": true,
+      "declared_cost_caps": true,
+      "no_event_or_final_output_card": true,
+      "input_and_derivation_hashes_match": true,
+      "no_complete_test_or_confirmed_word_claim": true
+    },
+    "meaning_limit": "These checks verify literal coverage and the declared core dependencies. They do not interpret unknown groups, establish title/control coherence, validate word meanings or implement a new decoder."
+  },
+  "freeze_status": "FROZEN_AFTER_ACCOUNTING_AND_EXACT_COUNTERGAP_CHECKS"
+}

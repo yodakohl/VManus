@@ -1,0 +1,398 @@
+{
+  "schema": "FY_RELATIVE_INDEPENDENT_AUDIT_V1",
+  "status": "CONDITIONAL_COMMON_BINDER_WITH_MANUAL_REFERENCE_WIRING_SCOPE_UNRESOLVED",
+  "audit_scope": "Frozen FY relative model only; selected cached f83v.11-20 discovery source; no other FY candidate, target query, images, admissions, model repair, engine, global edits or author feedback.",
+  "frozen_author_sha256": {
+    "FY_RELATIVE_AUTHOR.md": "1879ec0cd426292ee49cf84a57ca9481bfc95ae53305bd22ff3bdfdd5fdba06f",
+    "FY_RELATIVE_AUTHOR.json": "cf4c8eda75b9181df9ee9cad1100d1748990d7e80e821c0e46c62960ba1361ee",
+    "FY_RELATIVE_DERIVATION.tsv": "cd573c9c2ba8ecddb0773818cc1dd7141d9e0395c4451f34ed00a21b525b4992"
+  },
+  "author_hashes_match": true,
+  "author_input_pins_match": true,
+  "source_packet_sha256": "518d03e887d788e4b3da0ec702d7df95c338cb71f14a40faad9d65be8d2e59e1",
+  "conservation": {
+    "source_unit": "FW_F83V_PREVIOUS",
+    "unique_groups": 298,
+    "reader_counts": {
+      "IT2a": 98,
+      "ZL3b": 99,
+      "RF1b": 101
+    },
+    "native_order_exact": true,
+    "stored_source_native_fields_checked": 14,
+    "stored_source_native_fields_exact": true,
+    "formal_views_exact": true,
+    "serialization_note": "15 marked/unresolved source chunk collapsed=null values serialize to empty TSV. Trees, units and GDT012/062 records match; no parse or source correction. Not a claim to compare all original 18 fields."
+  },
+  "coverage": {
+    "IT2a": {
+      "whole_unknown": 79,
+      "paid_unbound": 2,
+      "conditional_assertion_occurrences": 5
+    },
+    "ZL3b": {
+      "whole_unknown": 80,
+      "paid_unbound": 12,
+      "conditional_assertion_occurrences": 0
+    },
+    "RF1b": {
+      "whole_unknown": 83,
+      "paid_unbound": 11,
+      "conditional_assertion_occurrences": 0
+    },
+    "semantic_whole_paragraph_coverage": false,
+    "first_IT_barrier": "IT2a|f83v.11|G002 SHEDAS"
+  },
+  "actual_conditional_claims": [
+    {
+      "id": "M12",
+      "source_id": "IT2a|f83v.12|G001",
+      "left_spec": "D(U12)",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.11|G001",
+      "argument_references": [
+        "IT2a|f83v.12|G002"
+      ],
+      "result": "MixedFrom(x11,U12)",
+      "dependencies": [
+        "X11",
+        "U12"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6"
+    },
+    {
+      "id": "M13",
+      "source_id": "IT2a|f83v.13|G009",
+      "left_spec": "D(U12)",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.13|G008",
+      "argument_references": [
+        "IT2a|f83v.12|G002"
+      ],
+      "result": "MixedFrom(x11,U12)",
+      "dependencies": [
+        "REF13B",
+        "U12"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6"
+    },
+    {
+      "id": "M16",
+      "source_id": "IT2a|f83v.16|G001",
+      "left_spec": "D(U12)",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.11|G001",
+      "argument_references": [
+        "IT2a|f83v.12|G002"
+      ],
+      "result": "MixedFrom(x11,U12)",
+      "dependencies": [
+        "X11",
+        "U12"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6"
+    },
+    {
+      "id": "E16",
+      "source_id": "IT2a|f83v.16|G007",
+      "left_spec": "Q(OK(C16))",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.16|G008",
+      "argument_references": [
+        "IT2a|f83v.16|G002"
+      ],
+      "result": "ElementRelative(x11,C16)",
+      "dependencies": [
+        "REF16",
+        "C16",
+        "P18"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6_AND_PAID_LATER_PREMISE"
+    },
+    {
+      "id": "P18",
+      "source_id": "IT2a|f83v.18|G005",
+      "left_spec": "OK(C16)",
+      "binder": "R3_A_N",
+      "subject_reference": "IT2a|f83v.18|G006",
+      "argument_references": [
+        "IT2a|f83v.16|G002"
+      ],
+      "result": "MatterOf(x11,C16)",
+      "dependencies": [
+        "REF18",
+        "C16"
+      ],
+      "status": "CORE_CONDITIONAL_ON_R6"
+    }
+  ],
+  "distinct_propositions": [
+    "MixedFrom(x11,U12)",
+    "MatterOf(x11,C16)",
+    "ElementRelative(x11,C16)"
+  ],
+  "claim_count_note": "Five written applications, three distinct propositions; MixedFrom occurs three times. Repetition is a consistency duty, not independent semantic confirmation.",
+  "finite_common_operation": {
+    "signature": "aN(RelationSpec(P,args),WrittenRef(x))->Assertion(P(x,args))",
+    "licenses": [
+      "d+aN",
+      "ok+aN",
+      "q+ok+aN"
+    ],
+    "reused_under_frozen_rules": true,
+    "segmentation_semantics_confirmed": false,
+    "extra_qokal_sort_adapter_separately_paid": true
+  },
+  "grammar_vs_annotation": {
+    "finite_local_hypotheses": [
+      "R2 CHEDY reference reuses the hypothesized CHED declaration within the declared paragraph frame.",
+      "QOKAIIN at IT2a|f83v.16|G007 and OKAIIN at IT2a|f83v.18|G005 take immediately following literal CHEDY over definite space."
+    ],
+    "explicit_dependency_edges": [
+      {
+        "from": "X11",
+        "to": "REF13A",
+        "kind": "explicit_written_nominal_reference",
+        "cost": "R6 endpoint wire, individually retained"
+      },
+      {
+        "from": "X11",
+        "to": "REF13B",
+        "kind": "explicit_written_nominal_reference",
+        "cost": "R6 endpoint wire, individually retained"
+      },
+      {
+        "from": "X11",
+        "to": "REF16",
+        "kind": "explicit_written_nominal_reference",
+        "cost": "R6 endpoint wire, individually retained"
+      },
+      {
+        "from": "X11",
+        "to": "REF18",
+        "kind": "explicit_written_nominal_reference",
+        "cost": "R6 endpoint wire, individually retained"
+      },
+      {
+        "from": "X11",
+        "to": "M12",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      },
+      {
+        "from": "U12",
+        "to": "M12",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      },
+      {
+        "from": "REF13B",
+        "to": "M13",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      },
+      {
+        "from": "U12",
+        "to": "M13",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      },
+      {
+        "from": "X11",
+        "to": "M16",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      },
+      {
+        "from": "U12",
+        "to": "M16",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      },
+      {
+        "from": "REF16",
+        "to": "E16",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      },
+      {
+        "from": "C16",
+        "to": "E16",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      },
+      {
+        "from": "P18",
+        "to": "E16",
+        "kind": "later_same_subject_same_class_premise",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": true
+      },
+      {
+        "from": "REF18",
+        "to": "P18",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      },
+      {
+        "from": "C16",
+        "to": "P18",
+        "kind": "written_argument",
+        "cost": "R6 endpoint wire, individually retained",
+        "later_premise": false
+      }
+    ],
+    "endpoint_wires": 15,
+    "later_premise_wires": 1,
+    "edge_table_locally_consistent": true,
+    "graph_acyclic": true,
+    "written_rule_selecting_long_arguments_class_or_later_premise": false,
+    "distinction": "R6 licenses these source-index endpoints only. Paying the wires makes assumptions explicit but does not derive their selection from written reference/control grammar."
+  },
+  "scope": {
+    "native_paragraph_boundary_establishes_assertion_scope": false,
+    "unknown_controls_may_qualify_negate_quote_or_redirect": true,
+    "scope_of_state_assertion_vs_property_or_goal_selected": false,
+    "full_state_or_paragraph_reading": false,
+    "interpretation_remains_conditional": true,
+    "reason": "SHEDAS is the first unresolved IT contribution/control immediately after the title. Static graph design does not establish barrier transparency."
+  },
+  "retained_counteruses": [
+    {
+      "source_group_id": "IT2a|f83v.17|G003",
+      "raw": "qokaiin",
+      "next": "IT2a|f83v.17|G004 sheol",
+      "result": "PAID_UNBOUND: no licensed MaterialKindRef or matter premise"
+    },
+    {
+      "source_group_id": "IT2a|f83v.19|G005",
+      "raw": "okaiin",
+      "next": "IT2a|f83v.19|G006 chear",
+      "result": "PAID_UNBOUND: no licensed MaterialKindRef"
+    },
+    {
+      "locus": "f83v.15 G001",
+      "ZL_RF": "qokaiin followed by cheol",
+      "IT": "qotaiin unlicensed",
+      "result": "No default or alternative-reader repair"
+    },
+    {
+      "locus": "f83v.11 G001",
+      "ZL_RF": "pchedar",
+      "IT": "pchedas",
+      "result": "PCHEDAR title alias unlicensed; RF native paragraph flags unavailable"
+    },
+    {
+      "predecessor": "GDT1047",
+      "known_cases": [
+        "f28v.6 paragraph-initial daiin",
+        "f58v.30 paragraph-initial daiin"
+      ],
+      "result": "Obligatory prior-title host cannot be exported; no new query"
+    }
+  ],
+  "counterfactuals": [
+    {
+      "intervention": "delete P18",
+      "fixed_graph_consequence": "E16 lacks the required same-x/C MatterOf premise",
+      "gain": "Conditional relation dependency",
+      "limitation": "Unary class-embedded rival can preserve the same premise and deletion consequence"
+    },
+    {
+      "intervention": "P18 subject becomes x2",
+      "fixed_graph_consequence": "Cannot ground E16 about x11",
+      "gain": "Same-subject identity pressure",
+      "limitation": "Identity is supplied by paid references and unresolved scope"
+    },
+    {
+      "intervention": "E16 class endpoint redirected to U12",
+      "fixed_graph_consequence": "ConstituentSet is not ProductClass",
+      "gain": "Conditional typed argument restriction",
+      "limitation": "Sort definitions are authored, not independently bound"
+    },
+    {
+      "intervention": "delete C16 qokal",
+      "fixed_graph_consequence": "E16/P18 class endpoint absent under the no-fallback wire table",
+      "gain": "Endpoint dependence of fixed annotations",
+      "limitation": "Other QOKAL13/15/17/19 and AL16 still denote the same paid metal class; no written selection rule establishes unique C16 eligibility"
+    }
+  ],
+  "rivals": {
+    "CLASS_EMBEDDED_UNARY": {
+      "survives": true,
+      "trace": [
+        "MixedFrom(x,U)",
+        "MatterOfMetals(x)",
+        "ElementOfMetals(x), requiring MatterOfMetals(x)"
+      ],
+      "same_x_and_P18_dependency_preserved": true,
+      "reason": "Only one class value is derived. Several tokens of one class do not select binary class productivity."
+    },
+    "ABSOLUTE_SIMPLE": {
+      "conditional_exclusion": true,
+      "condition": "Defined as no heterogeneous constituents, under the same asserted scope as MixedFrom",
+      "independent_English_relative_selection": false
+    },
+    "PURIFIED_SIMPLE": {
+      "paid_model_derives_transformation": false,
+      "manuscript_transformation_absence_proved": false,
+      "reason": "Paid nodes contain no event, removed-constituent or post-treatment specimen; 79 unknown IT groups and unresolved scopes cannot certify absence."
+    },
+    "DOMAIN_RELABEL": {
+      "survives": true,
+      "example": "Heterogeneous premix as material of manufactured products and relative element of those products; rename labels and their sorts jointly.",
+      "domain_meaning_learned": false,
+      "structural_production_change_required": false,
+      "domain_label_interpretations_changed_jointly": true
+    }
+  },
+  "cost_accounting": {
+    "root_count": 8,
+    "rule_count": 6,
+    "whole_residual_count": 4,
+    "default_count": 0,
+    "alias_count": 0,
+    "morphological_commitments": 6,
+    "document_endpoint_wires": 15,
+    "later_premise_wires": 1,
+    "additional_notes": [
+      "Three WATER/EARTH/AIR constants are charged inside SHCKH.",
+      "QOKAL sort adapter and document-frame assumption remain separate obligations.",
+      "R6 contains endpoint information; raw rule counts are not calibrated likelihood or code length.",
+      "Literal CHEDY and paragraph-specific licensing are explanatory restrictions, not independent validation."
+    ]
+  },
+  "legitimate_gain": [
+    "One identical aN input/output operation constrains five whole-form uses rather than five unrelated lexical meanings.",
+    "Shared CHED reference and same-kind identity impose inspectable reuse duties.",
+    "Matter/relative-classification premise creates a real conditional argument dependency without an artificial output consumer."
+  ],
+  "not_learned": [
+    "WATER/EARTH/AIR constituent meanings",
+    "Metal-product domain",
+    "Intrinsic/asserted scope",
+    "Long reference/class/premise selection",
+    "Productive binary class argument over embedded fixed-class predicate"
+  ],
+  "independent_semantic_confirmation": 0,
+  "fixed_semantic_test_selected": false,
+  "research_decision": "Retain frozen conditional common-binder example; stop glossary growth and repeated source-world fitting. Do not call complete scope or identified meanings. A concrete written rule choosing reference/class/premise scope from already paid values, or a distinction breaking the unary/domain rivals, would change the decision; the frozen model supplies neither.",
+  "no_confirmed_word_prerequisite_imposed": true,
+  "original_decisions_unchanged": [
+    "GDT608",
+    "GDT1047",
+    "GDT1122",
+    "GDT1125"
+  ],
+  "root_adjudication_separate": true,
+  "frozen_model_repair_permitted": false
+}
