@@ -1,0 +1,1074 @@
+{
+  "status": "PASS_TSV_SOURCE_LEDGER__FROZEN_JSON_INTERFACE_UNSUPPORTED",
+  "frozen_JSON_interface_result": {
+    "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_PROCEDURE_ACCOUNTING.json",
+    "sha256": "991174799c99e511a615cacc35103731943ab2d3a5ac8d002f3b4dae248f100a",
+    "status": "FAIL_ACCOUNTING",
+    "recognized_identity_rows": 0,
+    "errors": [
+      "author_row_accounting:FT_AUTHOR_PROCEDURE.json:655_unique_complete_IDs",
+      "author_row_accounting:FT_AUTHOR_PROCEDURE.json:native_order_within_unit_and_reader",
+      "author_row_accounting:FT_AUTHOR_PROCEDURE.json:repeat_whole_ID_sets"
+    ],
+    "interpretation": "Unsupported JSON ledger layout. B places source rows in a separately hash-bound TSV; original interface failure retained, not rewritten as missing source or meaning failure."
+  },
+  "source_only_scope": [
+    "unit_id",
+    "edition",
+    "source_group_id",
+    "unit_position",
+    "locus",
+    "source_group_index",
+    "raw_group",
+    "left_separator",
+    "right_separator",
+    "paragraph_start",
+    "paragraph_end"
+  ],
+  "guard_command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_PROCEDURE_DERIVATION.tsv",
+    "--selector",
+    "locus",
+    "--allow",
+    "f77r.25",
+    "--allow",
+    "f77r.26",
+    "--allow",
+    "f77r.27",
+    "--allow",
+    "f77r.28",
+    "--allow",
+    "f77r.29",
+    "--allow",
+    "f77r.30",
+    "--allow",
+    "f77r.31",
+    "--allow",
+    "f77r.32",
+    "--allow",
+    "f77r.33",
+    "--allow",
+    "f77r.34",
+    "--allow",
+    "f77r.35",
+    "--allow",
+    "f77r.36",
+    "--allow",
+    "f77r.37",
+    "--allow",
+    "f77r.49",
+    "--allow",
+    "f83r.25",
+    "--allow",
+    "f83r.26",
+    "--allow",
+    "f83r.27",
+    "--allow",
+    "f83r.28",
+    "--allow",
+    "f83r.29",
+    "--allow",
+    "f83r.30",
+    "--allow",
+    "f83r.31",
+    "--allow",
+    "f83r.32",
+    "--allow",
+    "f83r.33",
+    "--allow",
+    "f83r.34",
+    "--allow",
+    "f83r.35",
+    "--allow",
+    "f83r.36",
+    "--allow",
+    "f83r.37",
+    "--allow",
+    "f83r.38",
+    "--allow",
+    "f83r.39",
+    "--allow",
+    "f83r.40",
+    "--allow",
+    "f83r.41",
+    "--allow",
+    "f83r.42",
+    "--allow",
+    "f83r.43",
+    "--allow",
+    "f83r.44",
+    "--allow",
+    "f83r.45",
+    "--allow",
+    "f83r.46",
+    "--allow",
+    "f83r.47",
+    "--allow",
+    "f83r.48",
+    "--allow",
+    "f83r.49",
+    "--allow",
+    "f83r.50",
+    "--allow",
+    "f83r.51",
+    "--allow",
+    "f83r.52",
+    "--allow",
+    "f83r.53",
+    "--allow",
+    "f83r.54",
+    "--allow",
+    "f83r.55",
+    "--columns",
+    "unit_id,edition,source_group_id,unit_position,locus,source_group_index,raw_group,left_separator,right_separator,paragraph_start,paragraph_end",
+    "--forbid-prefix",
+    "f84",
+    "--forbid-prefix",
+    "f84r"
+  ],
+  "guard_stats": {
+    "selected": 655,
+    "skipped_forbidden": 0,
+    "skipped_not_allowed": 0
+  },
+  "projection_sha256": "862958bc78c118626b513f9ebd1f51ab8b3d95f1b022598f14af250d8b8384e9",
+  "input_hash_checks": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_AUTHOR_COMPONENT.md",
+      "expected": "10e318acad59fd74acce9527e1d1f7fdca56086f2064f08b28829192b878f0db",
+      "observed": "10e318acad59fd74acce9527e1d1f7fdca56086f2064f08b28829192b878f0db",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_AUTHOR_COMPONENT.json",
+      "expected": "088e54f9865d77b6f4e461a522e750fd241111f40530feb37e24f35b1c890afc",
+      "observed": "088e54f9865d77b6f4e461a522e750fd241111f40530feb37e24f35b1c890afc",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_COMPONENT_DERIVATION.tsv",
+      "expected": "0c5154cb966e89d31b178f706295d68990d6c31909d21ec72b63728804173c33",
+      "observed": "0c5154cb966e89d31b178f706295d68990d6c31909d21ec72b63728804173c33",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_AUTHOR_PROCEDURE.md",
+      "expected": "f5613ed300f601892c771688dce67a9815b1a6f1b7a9c051a3e493ff120aa559",
+      "observed": "f5613ed300f601892c771688dce67a9815b1a6f1b7a9c051a3e493ff120aa559",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_AUTHOR_PROCEDURE.json",
+      "expected": "207ea6274ecbc085124465b78702d3a392d354597fa5d7fe8e42f659fcb2b05d",
+      "observed": "207ea6274ecbc085124465b78702d3a392d354597fa5d7fe8e42f659fcb2b05d",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_PROCEDURE_DERIVATION.tsv",
+      "expected": "ea13755baccbf63152e3016817d00b1625a84732134947500d4f12ebca4c0e18",
+      "observed": "ea13755baccbf63152e3016817d00b1625a84732134947500d4f12ebca4c0e18",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_AUTHOR_GO.md",
+      "expected": "f19f0d07c2fc04bee268ceb9d7c7a92e5032651a74ca04ce2fb1b445c9a70643",
+      "observed": "f19f0d07c2fc04bee268ceb9d7c7a92e5032651a74ca04ce2fb1b445c9a70643",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_CHECK_CONTRACT.md",
+      "expected": "1d42d29619e6b7abf8d5b106dd07a94c87b328569c4a1d27c0e30d9c856b489f",
+      "observed": "1d42d29619e6b7abf8d5b106dd07a94c87b328569c4a1d27c0e30d9c856b489f",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_CHECK_CONTRACT.json",
+      "expected": "e6966b35421cd4c2fefdcc6425a91e1ba4f4eeaf668410e567bd14dfe2137d9c",
+      "observed": "e6966b35421cd4c2fefdcc6425a91e1ba4f4eeaf668410e567bd14dfe2137d9c",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_COMPOSITION_CONSTRAINTS.md",
+      "expected": "5a96608c2732a2c75c42525290a660da9eec73c61ed74f7fecf26b37c516aacf",
+      "observed": "5a96608c2732a2c75c42525290a660da9eec73c61ed74f7fecf26b37c516aacf",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_COMPOSITION_CONSTRAINTS.json",
+      "expected": "a1e055bb4e75b64aaf41bc8dcfdffa99d437d674bc4aab3b53cfe9e2e5a6f0fb",
+      "observed": "a1e055bb4e75b64aaf41bc8dcfdffa99d437d674bc4aab3b53cfe9e2e5a6f0fb",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_F83R32_NATIVE_READING.md",
+      "expected": "bbe4710fed5cff85b8830de5ac35419a3ac187d2fa4993245645314d56f3ca13",
+      "observed": "bbe4710fed5cff85b8830de5ac35419a3ac187d2fa4993245645314d56f3ca13",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_F83R32_NATIVE_READING.json",
+      "expected": "8b932e3719213c43c54b4c4af1f4f3e1607a01ef0a59eb910c4d47d9cfa01e56",
+      "observed": "8b932e3719213c43c54b4c4af1f4f3e1607a01ef0a59eb910c4d47d9cfa01e56",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "source_group_rows": 655,
+    "unique_source_group_ids": 655,
+    "physical_loci": 45,
+    "readers": {
+      "ZL3b": {
+        "primary_lower": 126,
+        "predecessors": 93
+      },
+      "IT2a": {
+        "primary_lower": 123,
+        "predecessors": 93
+      },
+      "RF1b": {
+        "primary_lower": 127,
+        "predecessors": 93
+      }
+    },
+    "bound_lower_groups": 376,
+    "bound_predecessor_groups": 279
+  },
+  "checks": [
+    {
+      "check": "frozen_input_hash:FT_AUTHOR_COMPONENT.md",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_AUTHOR_COMPONENT.json",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_COMPONENT_DERIVATION.tsv",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_AUTHOR_PROCEDURE.md",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_AUTHOR_PROCEDURE.json",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_PROCEDURE_DERIVATION.tsv",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_AUTHOR_GO.md",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_CHECK_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_CHECK_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_COMPOSITION_CONSTRAINTS.md",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_COMPOSITION_CONSTRAINTS.json",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_F83R32_NATIVE_READING.md",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:FT_F83R32_NATIVE_READING.json",
+      "passed": true
+    },
+    {
+      "check": "packet_hash_unchanged",
+      "passed": true
+    },
+    {
+      "check": "frozen_validator_unchanged",
+      "passed": true
+    },
+    {
+      "check": "original_source_only_report_unchanged",
+      "passed": true
+    },
+    {
+      "check": "author_declared_packet_hash",
+      "passed": true
+    },
+    {
+      "check": "author_declared_ledger_hash",
+      "passed": true
+    },
+    {
+      "check": "source_scope_projection_655_no_excluded_rows",
+      "passed": true
+    },
+    {
+      "check": "655_unique_complete_IDs",
+      "passed": true
+    },
+    {
+      "check": "45_complete_loci",
+      "passed": true
+    },
+    {
+      "check": "exact_source_fields_every_row",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_P4:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_P4:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_P4:RF1b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_P5:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_P5:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_P5:RF1b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_Q1:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_Q1:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_Q1:RF1b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_Q2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_Q2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_Q2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_45:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_45:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_45:RF1b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_46:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_46:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_46:RF1b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_50:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_50:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_50:RF1b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_51:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_51:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F83_CAPTION_51:RF1b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F77_P2:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F77_P2:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F77_P2:RF1b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F77_OTCHDY_LABEL:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F77_OTCHDY_LABEL:IT2a",
+      "passed": true
+    },
+    {
+      "check": "literal_count_and_native_order:F77_OTCHDY_LABEL:RF1b",
+      "passed": true
+    },
+    {
+      "check": "whole_form_repetition_identity:ZL3b",
+      "passed": true
+    },
+    {
+      "check": "whole_form_repetition_identity:IT2a",
+      "passed": true
+    },
+    {
+      "check": "whole_form_repetition_identity:RF1b",
+      "passed": true
+    },
+    {
+      "check": "original_JSON_interface_failure_retained",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "whole_form_repeat_ID_index": {
+    "ZL3b": {
+      "qokeedy": [
+        "ZL3b|f83r.25|G001",
+        "ZL3b|f83r.27|G003",
+        "ZL3b|f83r.30|G003",
+        "ZL3b|f77r.26|G002",
+        "ZL3b|f77r.27|G005",
+        "ZL3b|f77r.29|G003",
+        "ZL3b|f77r.29|G004",
+        "ZL3b|f77r.36|G006"
+      ],
+      "qokeey": [
+        "ZL3b|f83r.25|G003",
+        "ZL3b|f83r.26|G002",
+        "ZL3b|f77r.31|G003"
+      ],
+      "qokedy": [
+        "ZL3b|f83r.25|G004",
+        "ZL3b|f83r.28|G004"
+      ],
+      "chedy": [
+        "ZL3b|f83r.25|G005",
+        "ZL3b|f83r.27|G002",
+        "ZL3b|f83r.42|G005",
+        "ZL3b|f83r.43|G003",
+        "ZL3b|f83r.49|G003",
+        "ZL3b|f77r.25|G007",
+        "ZL3b|f77r.33|G002",
+        "ZL3b|f77r.34|G003",
+        "ZL3b|f77r.35|G003",
+        "ZL3b|f77r.36|G004"
+      ],
+      "qoky": [
+        "ZL3b|f83r.26|G003",
+        "ZL3b|f83r.30|G004",
+        "ZL3b|f83r.36|G006"
+      ],
+      "shedy": [
+        "ZL3b|f83r.26|G005",
+        "ZL3b|f83r.28|G005",
+        "ZL3b|f83r.37|G005",
+        "ZL3b|f83r.44|G002",
+        "ZL3b|f77r.25|G003",
+        "ZL3b|f77r.27|G004",
+        "ZL3b|f77r.34|G002"
+      ],
+      "dain": [
+        "ZL3b|f83r.27|G001",
+        "ZL3b|f83r.54|G003"
+      ],
+      "shckhedy": [
+        "ZL3b|f83r.27|G004",
+        "ZL3b|f83r.27|G005"
+      ],
+      "saiin": [
+        "ZL3b|f83r.28|G001",
+        "ZL3b|f83r.35|G001",
+        "ZL3b|f77r.29|G001"
+      ],
+      "cheeky": [
+        "ZL3b|f83r.28|G002",
+        "ZL3b|f77r.30|G006"
+      ],
+      "oldy": [
+        "ZL3b|f83r.28|G006",
+        "ZL3b|f83r.29|G005"
+      ],
+      "cheey": [
+        "ZL3b|f83r.29|G002",
+        "ZL3b|f77r.32|G006",
+        "ZL3b|f77r.37|G006"
+      ],
+      "s": [
+        "ZL3b|f83r.30|G001",
+        "ZL3b|f83r.33|G002"
+      ],
+      "okeedy": [
+        "ZL3b|f83r.30|G002",
+        "ZL3b|f83r.31|G003"
+      ],
+      "lchedy": [
+        "ZL3b|f83r.32|G003",
+        "ZL3b|f83r.34|G002",
+        "ZL3b|f83r.37|G003",
+        "ZL3b|f83r.41|G002",
+        "ZL3b|f77r.26|G005",
+        "ZL3b|f77r.37|G007"
+      ],
+      "qokey": [
+        "ZL3b|f83r.32|G004",
+        "ZL3b|f83r.33|G005"
+      ],
+      "aiin": [
+        "ZL3b|f83r.33|G003",
+        "ZL3b|f83r.36|G002",
+        "ZL3b|f83r.48|G005"
+      ],
+      "shey": [
+        "ZL3b|f83r.36|G004",
+        "ZL3b|f83r.39|G002"
+      ],
+      "sol": [
+        "ZL3b|f83r.37|G001",
+        "ZL3b|f83r.42|G001",
+        "ZL3b|f83r.49|G001",
+        "ZL3b|f83r.55|G001"
+      ],
+      "qokol": [
+        "ZL3b|f83r.37|G004",
+        "ZL3b|f77r.36|G007"
+      ],
+      "chey": [
+        "ZL3b|f83r.38|G002",
+        "ZL3b|f83r.54|G004",
+        "ZL3b|f77r.37|G002"
+      ],
+      "qokain": [
+        "ZL3b|f83r.39|G001",
+        "ZL3b|f77r.27|G002",
+        "ZL3b|f77r.28|G003",
+        "ZL3b|f77r.31|G001",
+        "ZL3b|f77r.35|G004",
+        "ZL3b|f77r.37|G004"
+      ],
+      "solchedy": [
+        "ZL3b|f83r.40|G001",
+        "ZL3b|f77r.27|G001"
+      ],
+      "chedaiin": [
+        "ZL3b|f83r.40|G003",
+        "ZL3b|f77r.35|G007"
+      ],
+      "qolkain": [
+        "ZL3b|f83r.41|G003",
+        "ZL3b|f77r.30|G005"
+      ],
+      "dal": [
+        "ZL3b|f83r.41|G004",
+        "ZL3b|f83r.48|G001",
+        "ZL3b|f77r.25|G006"
+      ],
+      "ol": [
+        "ZL3b|f83r.42|G002",
+        "ZL3b|f83r.52|G004",
+        "ZL3b|f83r.53|G004",
+        "ZL3b|f83r.54|G002",
+        "ZL3b|f77r.32|G004"
+      ],
+      "daiin": [
+        "ZL3b|f83r.43|G001",
+        "ZL3b|f83r.54|G001",
+        "ZL3b|f77r.33|G001"
+      ],
+      "qotal": [
+        "ZL3b|f83r.43|G004",
+        "ZL3b|f77r.29|G005"
+      ],
+      "sar": [
+        "ZL3b|f83r.43|G005",
+        "ZL3b|f77r.28|G005",
+        "ZL3b|f77r.33|G006"
+      ],
+      "otchdy": [
+        "ZL3b|f83r.47|G001",
+        "ZL3b|f77r.49|G001"
+      ],
+      "cheol": [
+        "ZL3b|f83r.48|G002",
+        "ZL3b|f83r.53|G002",
+        "ZL3b|f77r.32|G003"
+      ],
+      "lol": [
+        "ZL3b|f83r.48|G003",
+        "ZL3b|f77r.30|G007"
+      ],
+      "solkeey": [
+        "ZL3b|f83r.52|G001",
+        "ZL3b|f77r.35|G001"
+      ],
+      "qoteedy": [
+        "ZL3b|f77r.26|G001",
+        "ZL3b|f77r.37|G003"
+      ],
+      "qokaiin": [
+        "ZL3b|f77r.26|G003",
+        "ZL3b|f77r.30|G001",
+        "ZL3b|f77r.34|G001",
+        "ZL3b|f77r.34|G005",
+        "ZL3b|f77r.34|G006",
+        "ZL3b|f77r.35|G006"
+      ],
+      "okaiin": [
+        "ZL3b|f77r.27|G003",
+        "ZL3b|f77r.35|G002"
+      ],
+      "qotedy": [
+        "ZL3b|f77r.27|G006",
+        "ZL3b|f77r.31|G004",
+        "ZL3b|f77r.31|G005"
+      ],
+      "olchey": [
+        "ZL3b|f77r.28|G001",
+        "ZL3b|f77r.36|G008"
+      ]
+    },
+    "IT2a": {
+      "qokeedy": [
+        "IT2a|f83r.25|G001",
+        "IT2a|f83r.27|G003",
+        "IT2a|f83r.30|G002",
+        "IT2a|f77r.26|G002",
+        "IT2a|f77r.27|G005",
+        "IT2a|f77r.29|G003",
+        "IT2a|f77r.29|G004",
+        "IT2a|f77r.36|G006"
+      ],
+      "qokeey": [
+        "IT2a|f83r.25|G003",
+        "IT2a|f83r.26|G002",
+        "IT2a|f77r.31|G003"
+      ],
+      "qokedy": [
+        "IT2a|f83r.25|G004",
+        "IT2a|f83r.28|G004"
+      ],
+      "chedy": [
+        "IT2a|f83r.25|G005",
+        "IT2a|f83r.27|G002",
+        "IT2a|f83r.43|G003",
+        "IT2a|f83r.49|G003",
+        "IT2a|f77r.25|G007",
+        "IT2a|f77r.33|G002",
+        "IT2a|f77r.34|G003",
+        "IT2a|f77r.34|G005",
+        "IT2a|f77r.35|G003",
+        "IT2a|f77r.36|G004"
+      ],
+      "qoky": [
+        "IT2a|f83r.26|G003",
+        "IT2a|f83r.30|G003",
+        "IT2a|f83r.36|G006"
+      ],
+      "shedy": [
+        "IT2a|f83r.26|G005",
+        "IT2a|f83r.28|G005",
+        "IT2a|f83r.37|G005",
+        "IT2a|f83r.44|G002",
+        "IT2a|f77r.25|G003",
+        "IT2a|f77r.27|G004",
+        "IT2a|f77r.34|G002"
+      ],
+      "dain": [
+        "IT2a|f83r.27|G001",
+        "IT2a|f83r.54|G003"
+      ],
+      "shckhedy": [
+        "IT2a|f83r.27|G004",
+        "IT2a|f83r.27|G005"
+      ],
+      "saiin": [
+        "IT2a|f83r.28|G001",
+        "IT2a|f83r.33|G002",
+        "IT2a|f83r.35|G001",
+        "IT2a|f77r.29|G001",
+        "IT2a|f77r.30|G003"
+      ],
+      "cheeky": [
+        "IT2a|f83r.28|G002",
+        "IT2a|f77r.30|G005"
+      ],
+      "oldy": [
+        "IT2a|f83r.28|G006",
+        "IT2a|f83r.29|G005"
+      ],
+      "solchedy": [
+        "IT2a|f83r.29|G001",
+        "IT2a|f83r.40|G001",
+        "IT2a|f77r.27|G001"
+      ],
+      "cheey": [
+        "IT2a|f83r.29|G002",
+        "IT2a|f77r.32|G006",
+        "IT2a|f77r.37|G006"
+      ],
+      "lchedy": [
+        "IT2a|f83r.32|G003",
+        "IT2a|f83r.34|G002",
+        "IT2a|f83r.37|G003",
+        "IT2a|f83r.41|G002",
+        "IT2a|f83r.42|G004",
+        "IT2a|f77r.26|G005",
+        "IT2a|f77r.37|G007"
+      ],
+      "qokey": [
+        "IT2a|f83r.32|G004",
+        "IT2a|f83r.33|G004"
+      ],
+      "aiin": [
+        "IT2a|f83r.36|G002",
+        "IT2a|f83r.48|G005"
+      ],
+      "shey": [
+        "IT2a|f83r.36|G004",
+        "IT2a|f83r.39|G002"
+      ],
+      "sol": [
+        "IT2a|f83r.37|G001",
+        "IT2a|f83r.42|G001",
+        "IT2a|f83r.49|G001",
+        "IT2a|f83r.55|G001"
+      ],
+      "qokol": [
+        "IT2a|f83r.37|G004",
+        "IT2a|f77r.36|G007"
+      ],
+      "chey": [
+        "IT2a|f83r.38|G002",
+        "IT2a|f83r.54|G004",
+        "IT2a|f77r.37|G002"
+      ],
+      "qokain": [
+        "IT2a|f83r.39|G001",
+        "IT2a|f77r.27|G002",
+        "IT2a|f77r.28|G003",
+        "IT2a|f77r.31|G001",
+        "IT2a|f77r.35|G004",
+        "IT2a|f77r.37|G004"
+      ],
+      "chedaiin": [
+        "IT2a|f83r.40|G003",
+        "IT2a|f77r.35|G007"
+      ],
+      "qolkain": [
+        "IT2a|f83r.41|G003",
+        "IT2a|f77r.30|G004"
+      ],
+      "dal": [
+        "IT2a|f83r.41|G004",
+        "IT2a|f83r.48|G001",
+        "IT2a|f77r.25|G006"
+      ],
+      "ol": [
+        "IT2a|f83r.42|G002",
+        "IT2a|f83r.52|G004",
+        "IT2a|f83r.53|G004",
+        "IT2a|f83r.54|G002",
+        "IT2a|f77r.32|G004"
+      ],
+      "daiin": [
+        "IT2a|f83r.43|G001",
+        "IT2a|f83r.54|G001",
+        "IT2a|f77r.33|G001"
+      ],
+      "otchdy": [
+        "IT2a|f83r.47|G001",
+        "IT2a|f77r.49|G001"
+      ],
+      "cheol": [
+        "IT2a|f83r.48|G002",
+        "IT2a|f83r.53|G002",
+        "IT2a|f77r.32|G003"
+      ],
+      "lol": [
+        "IT2a|f83r.48|G003",
+        "IT2a|f77r.30|G006"
+      ],
+      "solkeey": [
+        "IT2a|f83r.52|G001",
+        "IT2a|f77r.35|G001"
+      ],
+      "qoteedy": [
+        "IT2a|f77r.26|G001",
+        "IT2a|f77r.37|G003"
+      ],
+      "qokaiin": [
+        "IT2a|f77r.26|G003",
+        "IT2a|f77r.30|G001",
+        "IT2a|f77r.34|G001",
+        "IT2a|f77r.34|G006",
+        "IT2a|f77r.34|G007",
+        "IT2a|f77r.35|G006"
+      ],
+      "okaiin": [
+        "IT2a|f77r.27|G003",
+        "IT2a|f77r.35|G002"
+      ],
+      "qotedy": [
+        "IT2a|f77r.27|G006",
+        "IT2a|f77r.31|G004",
+        "IT2a|f77r.31|G005"
+      ],
+      "olchey": [
+        "IT2a|f77r.28|G001",
+        "IT2a|f77r.36|G008"
+      ],
+      "sar": [
+        "IT2a|f77r.28|G005",
+        "IT2a|f77r.33|G006"
+      ],
+      "qol": [
+        "IT2a|f77r.33|G003",
+        "IT2a|f77r.34|G004"
+      ]
+    },
+    "RF1b": {
+      "qokeedy": [
+        "RF1b|f83r.25|G001",
+        "RF1b|f83r.27|G003",
+        "RF1b|f83r.30|G002",
+        "RF1b|f77r.27|G005",
+        "RF1b|f77r.29|G003",
+        "RF1b|f77r.29|G004",
+        "RF1b|f77r.36|G006"
+      ],
+      "qokeey": [
+        "RF1b|f83r.25|G003",
+        "RF1b|f83r.26|G002",
+        "RF1b|f77r.31|G003"
+      ],
+      "qokedy": [
+        "RF1b|f83r.25|G004",
+        "RF1b|f83r.28|G004"
+      ],
+      "chedy": [
+        "RF1b|f83r.25|G005",
+        "RF1b|f83r.27|G002",
+        "RF1b|f83r.31|G003",
+        "RF1b|f83r.40|G002",
+        "RF1b|f83r.42|G005",
+        "RF1b|f83r.43|G003",
+        "RF1b|f83r.49|G003",
+        "RF1b|f77r.25|G007",
+        "RF1b|f77r.33|G002",
+        "RF1b|f77r.34|G003",
+        "RF1b|f77r.35|G003",
+        "RF1b|f77r.36|G004"
+      ],
+      "qoky": [
+        "RF1b|f83r.26|G003",
+        "RF1b|f83r.30|G003",
+        "RF1b|f83r.36|G006"
+      ],
+      "dain": [
+        "RF1b|f83r.27|G001",
+        "RF1b|f83r.54|G003"
+      ],
+      "shckhedy": [
+        "RF1b|f83r.27|G004",
+        "RF1b|f83r.27|G005"
+      ],
+      "saiin": [
+        "RF1b|f83r.28|G001",
+        "RF1b|f83r.30|G004",
+        "RF1b|f83r.35|G001",
+        "RF1b|f77r.29|G001"
+      ],
+      "cheeky": [
+        "RF1b|f83r.28|G002",
+        "RF1b|f77r.30|G006"
+      ],
+      "oldy": [
+        "RF1b|f83r.28|G006",
+        "RF1b|f83r.29|G005"
+      ],
+      "cheey": [
+        "RF1b|f83r.29|G002",
+        "RF1b|f77r.32|G006",
+        "RF1b|f77r.37|G006"
+      ],
+      "lchedy": [
+        "RF1b|f83r.32|G003",
+        "RF1b|f83r.37|G003",
+        "RF1b|f83r.41|G002"
+      ],
+      "qokey": [
+        "RF1b|f83r.32|G004",
+        "RF1b|f83r.33|G005"
+      ],
+      "s": [
+        "RF1b|f83r.33|G002",
+        "RF1b|f77r.30|G003"
+      ],
+      "aiin": [
+        "RF1b|f83r.33|G003",
+        "RF1b|f83r.36|G002",
+        "RF1b|f83r.48|G005",
+        "RF1b|f77r.30|G004"
+      ],
+      "lche@152;y": [
+        "RF1b|f83r.34|G002",
+        "RF1b|f77r.26|G005",
+        "RF1b|f77r.37|G007"
+      ],
+      "shey": [
+        "RF1b|f83r.36|G004",
+        "RF1b|f83r.39|G002"
+      ],
+      "sol": [
+        "RF1b|f83r.37|G001",
+        "RF1b|f83r.40|G001",
+        "RF1b|f83r.42|G001",
+        "RF1b|f83r.49|G001",
+        "RF1b|f83r.55|G001"
+      ],
+      "qokol": [
+        "RF1b|f83r.37|G004",
+        "RF1b|f77r.36|G007"
+      ],
+      "shedy": [
+        "RF1b|f83r.37|G005",
+        "RF1b|f83r.44|G002",
+        "RF1b|f77r.25|G003",
+        "RF1b|f77r.27|G004",
+        "RF1b|f77r.34|G002"
+      ],
+      "chey": [
+        "RF1b|f83r.38|G002",
+        "RF1b|f83r.54|G004",
+        "RF1b|f77r.37|G002"
+      ],
+      "qokain": [
+        "RF1b|f83r.39|G001",
+        "RF1b|f77r.27|G002",
+        "RF1b|f77r.28|G003",
+        "RF1b|f77r.31|G001",
+        "RF1b|f77r.35|G004",
+        "RF1b|f77r.37|G004"
+      ],
+      "che@152;aiin": [
+        "RF1b|f83r.40|G004",
+        "RF1b|f77r.35|G007"
+      ],
+      "qolkain": [
+        "RF1b|f83r.41|G003",
+        "RF1b|f77r.30|G005"
+      ],
+      "dal": [
+        "RF1b|f83r.41|G004",
+        "RF1b|f83r.48|G001",
+        "RF1b|f77r.25|G006"
+      ],
+      "ol": [
+        "RF1b|f83r.42|G002",
+        "RF1b|f83r.52|G004",
+        "RF1b|f83r.53|G004",
+        "RF1b|f83r.54|G002",
+        "RF1b|f77r.32|G004"
+      ],
+      "daiin": [
+        "RF1b|f83r.43|G001",
+        "RF1b|f83r.54|G001",
+        "RF1b|f77r.33|G001"
+      ],
+      "qokal": [
+        "RF1b|f83r.43|G004",
+        "RF1b|f77r.25|G004"
+      ],
+      "sar": [
+        "RF1b|f83r.43|G005",
+        "RF1b|f77r.28|G005",
+        "RF1b|f77r.33|G006"
+      ],
+      "otchdy": [
+        "RF1b|f83r.47|G001",
+        "RF1b|f77r.49|G001"
+      ],
+      "cheol": [
+        "RF1b|f83r.48|G002",
+        "RF1b|f77r.32|G003"
+      ],
+      "lol": [
+        "RF1b|f83r.48|G003",
+        "RF1b|f77r.30|G007"
+      ],
+      "solkeey": [
+        "RF1b|f83r.52|G001",
+        "RF1b|f77r.35|G001"
+      ],
+      "qokaiin": [
+        "RF1b|f77r.26|G003",
+        "RF1b|f77r.30|G001",
+        "RF1b|f77r.34|G001",
+        "RF1b|f77r.34|G005",
+        "RF1b|f77r.34|G006"
+      ],
+      "okaiin": [
+        "RF1b|f77r.27|G003",
+        "RF1b|f77r.35|G002"
+      ],
+      "qotedy": [
+        "RF1b|f77r.27|G006",
+        "RF1b|f77r.31|G005"
+      ],
+      "olchey": [
+        "RF1b|f77r.28|G001",
+        "RF1b|f77r.36|G008"
+      ]
+    }
+  },
+  "semantic_columns_read": false,
+  "semantic_status_counts_validated": false,
+  "semantic_prose_read": false,
+  "grammar_execution_validation": false,
+  "semantic_ranking": false,
+  "confirmed_meanings_added": 0,
+  "limitations": "No contribution/type/reference/state/status/instantiation field was included in the guarded TSV projection. Counts conserve sources only, not interpreted or executed groups. No source, author, frozen validator or original report was changed; no new manuscript access, global registry change or Git action.",
+  "reproduction_python": "from pathlib import Path\nimport csv,io,json,hashlib,subprocess,collections\nbase=Path(\"research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929\")\nsha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()\naudit=json.loads((base/\"FT_PROCEDURE_SOURCE_AUDIT.json\").read_text())\npacket=json.loads((base/\"FT_SOURCE_PACKET.json\").read_text())\ninputs=json.loads((base/\"FT_DRAFT_INPUTS.json\").read_text())\nassert all(sha(r[\"path\"])==r[\"sha256\"] for r in inputs[\"inputs\"])\nassert sha(base/\"FT_SOURCE_PACKET.json\")==\"31de602d3d3a6b1c58caf5563159a3f757fe05995971f9319b769c4bbb95fa26\"\nassert sha(base/\"FT_ACCOUNTING_VALIDATOR.py\")==\"385fafc7e5be8683237cfaf93d91c2d957addb0e4824babe0dca7bf8f82732ce\"\nassert sha(base/\"FT_ACCOUNTING_VALIDATION.json\")==\"1d8383a062be66bc5d1bc146c4269ea07cfe6114449480cf212b2cb9c82b2486\"\nauthor=json.loads((base/\"FT_AUTHOR_PROCEDURE.json\").read_text())\nassert author[\"shared_packet_sha256\"]==sha(base/\"FT_SOURCE_PACKET.json\")\nassert author[\"derivation_sha256\"]==sha(base/\"FT_PROCEDURE_DERIVATION.tsv\")\nrun=subprocess.run(audit[\"guard_command\"],text=True,capture_output=True,check=True)\nassert hashlib.sha256(run.stdout.encode()).hexdigest()==audit[\"projection_sha256\"]\nstats=[json.loads(s[len(\"GUARD_STATS \"):]) for s in run.stderr.splitlines() if s.startswith(\"GUARD_STATS \")]\nassert stats==[{\"selected\":655,\"skipped_forbidden\":0,\"skipped_not_allowed\":0}]\nrows=list(csv.DictReader(io.StringIO(run.stdout),delimiter=\"\\t\"))\nsource={g[\"source_group_id\"]:{\"unit_id\":c[\"unit_id\"],**g} for c in packet[\"contexts\"] for g in c[\"groups\"]}\nassert len(rows)==len(source)==len({r[\"source_group_id\"] for r in rows})==655\nassert {r[\"source_group_id\"] for r in rows}==set(source)\nassert {r[\"locus\"] for r in rows}=={g[\"locus\"] for g in source.values()}\nassert all(all(r[k]==str(source[r[\"source_group_id\"]][{\"raw_group\":\"ivtff_group_raw\"}.get(k,k)]) for k in audit[\"source_only_scope\"]) for r in rows)\nfor c in packet[\"contexts\"]:\n rr=[r for r in rows if r[\"unit_id\"]==c[\"unit_id\"] and r[\"edition\"]==c[\"edition\"]]\n assert len(rr)==c[\"literal_group_count\"]\n assert [r[\"source_group_id\"] for r in rr]==[g[\"source_group_id\"] for g in c[\"groups\"]]\nfor e in (\"ZL3b\",\"IT2a\",\"RF1b\"):\n expected=collections.defaultdict(list);observed=collections.defaultdict(list)\n for c in packet[\"contexts\"]:\n  if c[\"edition\"]==e:\n   for g in c[\"groups\"]:expected[g[\"ivtff_group_raw\"]].append(g[\"source_group_id\"])\n for r in rows:\n  if r[\"edition\"]==e:observed[r[\"raw_group\"]].append(r[\"source_group_id\"])\n assert dict(expected)==dict(observed)\ninterface=json.loads((base/\"FT_PROCEDURE_ACCOUNTING.json\").read_text())\nassert interface[\"status\"]==\"FAIL_ACCOUNTING\" and interface[\"author_ledgers\"][0][\"recognized_identity_rows\"]==0\nprint(\"PASS: 655 source IDs/raw/seams/flags/unit orders/repeated-whole identities; 45 loci; frozen JSON interface remains unsupported. No semantic validation.\")\n",
+  "reproduction_note": "Run the supplied Python from repository root; it reproduces the narrow independent TSV audit and writes no files."
+}

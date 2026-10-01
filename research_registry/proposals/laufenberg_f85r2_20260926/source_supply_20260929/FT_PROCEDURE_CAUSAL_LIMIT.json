@@ -1,0 +1,109 @@
+{
+  "audit_id": "FT_PROCEDURE_CAUSAL_LIMIT_B1",
+  "date_utc": "2026-10-01T10:36:21Z",
+  "status": "EXPLANATORY_AUDIT_OF_FROZEN_B_NOT_SEMANTIC_REPAIR",
+  "frozen_author_inputs_sha256": {
+    "FT_AUTHOR_PROCEDURE.md": "f5613ed300f601892c771688dce67a9815b1a6f1b7a9c051a3e493ff120aa559",
+    "FT_AUTHOR_PROCEDURE.json": "207ea6274ecbc085124465b78702d3a392d354597fa5d7fe8e42f659fcb2b05d",
+    "FT_PROCEDURE_DERIVATION.tsv": "ea13755baccbf63152e3016817d00b1625a84732134947500d4f12ebca4c0e18"
+  },
+  "scope": "Only exact frozen B internals, A10/A25, Q1/Q2, and .39 source/derivation; no peer or postcritic material, target acquisition, decoder, simulation or experiment.",
+  "question": "Does two-call reuse of p and perceived MarkerOf(p) at uncleared D establish two origin-specific arrivals?",
+  "answer": "No. Distinct invocation and readout identities establish two stated attempts/reports, but do not establish two causally distinct arrivals from the respective origins.",
+  "frozen_constraints": {
+    "R_internal_steps": [
+      "close nonselected origin",
+      "release selected-origin and return gates",
+      "place p",
+      "wait Delta"
+    ],
+    "R_does_not_guarantee_arrival": true,
+    "CHEOL_is_separate_written_observation_assertion": true,
+    "A25_signal": "sensory MarkerOf(p) at D, not whole-portion displacement",
+    "LOL": "same p, same D, same Delta; new invocation e2 and stated readout u2",
+    "Q2": "references same u1/u2; no new independent observation at second CHEOL",
+    "between_call_D_clearing_in_R": false,
+    "note": "This is an audit of the exact protocol, not a claim that the manuscript lacks clearing instructions globally."
+  },
+  "countercase": {
+    "kind": "Small hypothetical physical world, not a new semantic rule or empirical finding",
+    "initial_state": "D initially free of marker; A-to-D path communicates; B entrance can be released but downstream B-to-D path is obstructed; MarkerOf(p) can persist at D through the second wait.",
+    "events": [
+      {
+        "step": "e1",
+        "R_actions": "Close B entrance, release A/D entrances, place p at A, wait Delta.",
+        "new_marker_arrival_from_selected_origin": true,
+        "residual_before": false,
+        "marker_present_at_observation": true,
+        "true_marker_provenance": "e1 via A"
+      },
+      {
+        "step": "e2",
+        "R_actions": "Close A entrance, release B/D entrances, place same p at B, wait Delta.",
+        "new_marker_arrival_from_selected_origin": false,
+        "residual_before": true,
+        "marker_present_at_observation": true,
+        "true_marker_provenance": "e1 via A only"
+      }
+    ],
+    "why_no_R_contradiction": "Opening the selected entrance does not guarantee every downstream segment communicates. R expressly does not guarantee an arrival; it has no between-call marker-clearing step.",
+    "minimal_observation_model": "PresentAfter(D)=ResidualBefore(D) OR NewArrival(D). In the second call set ResidualBefore=true and NewArrival=false.",
+    "not_added_to_B": [
+      "No washout/reset default",
+      "No assumption that observation removes the marker",
+      "No origin-specific marker",
+      "No event-coded signal",
+      "No automatic new-arrival inference from waiting",
+      "No new dictionary entry"
+    ]
+  },
+  "event_index_vs_signal_provenance": {
+    "stated_semantic_object": "u2=ObservedArrival(e2,p,D) remains the exact frozen textual assertion; it is not renamed Presence(D).",
+    "observable_countercase": "The observer perceives MarkerOf(p) at D at both observation times; the physical causal source remains e1.",
+    "non_entailment": "e1!=e2 and two positive perception records do not imply NewArrivalFrom(A) and NewArrivalFrom(B). Event-indexed storage alone does not tag the physical signal.",
+    "meaning_limit": "If Arrival entails fresh e2-caused arrival, that statement is false in the countercase. If it reports a perception attributed to the selected call, that attribution can be mistaken. Neither option is established by the observation alone.",
+    "Q1_Q2_limit": "DAIIIN/CHEDY and Q2 LDALOR/CTHOL state a paired route conclusion under the proposed semantic story; source identity preservation, equal waiting intervals and repeated u2 reference cannot rule out retained e1 signal."
+  },
+  "line39_positive_reference": {
+    "source_id_SHEY": "IT2a|f83r.39|G002",
+    "frozen_W073": "allow the selected test stage to settle for Delta",
+    "frozen_row_effect": "settle c4; positive reference output uC4 under A10",
+    "A10": "closed Kref predicts no signal; opened Kref predicts signal as assumed reference standard",
+    "distinction": "The predicted uC4 comes from the authored reference-standard assumption and QOKAIN open/run conditions after waiting. SHEY does not itself mean observe positive arrival.",
+    "CHCKHAL_role": "Presupposes/retains the completed negative and positive control outcomes as a pair; does not independently validate those outcomes or create a measurement method.",
+    "limit": "Calling c4 a positive observation exceeds what SHEY supplies. In frozen B it is assumption-dependent modeled output, not independent manuscript evidence of an observed positive control. No observation/reset rule is added."
+  },
+  "outcomes_and_research_decisions": [
+    {
+      "condition": "Retain B as a hypothesis about what the text asserts, allowing a historical procedure to make an invalid causal inference.",
+      "decision": "Keep B only as the same heavily assumed exploratory C0 text account; reject any claim that its two-call observer isolates both origin routes. No word confirmation, reserve opening or semantic winner follows."
+    },
+    {
+      "condition": "Require B to provide a physically valid origin-specific diagnostic before semantic selection.",
+      "decision": "Current frozen B does not meet that causal-capacity requirement. Do not select or confirm it on this protocol; any future washout/provenance improvement would be a separately declared new model, not an edit to B."
+    },
+    {
+      "condition": "Assume two event-indexed Arrival assertions are independently true.",
+      "decision": "A paired route story can be stated conditionally, but the truth assumption cannot be justified by the persistence-vulnerable observer. Retain the missing independent provenance requirement and no semantic preference."
+    },
+    {
+      "condition": "An independent admitted constraint were to exclude marker persistence or establish call-specific provenance.",
+      "decision": "That changed input could make the persistence countercase inadmissible and permit reassessing causal capacity. No such constraint is present in frozen B; this audit neither seeks new data nor adds it."
+    },
+    {
+      "condition": "A true lexical/grammar contradiction were independently demonstrated, rather than an invalid causal procedure alone.",
+      "decision": "Reject the exact conflicting frozen lexical/construction reading. This persistence countercase and the A10-dependent .39 output do not themselves demonstrate such a lexical contradiction."
+    }
+  ],
+  "historical_limit": "FT_HISTORICAL_CONTENT.md describes an asserted garlic placement/odor/diagnosis relation and explicitly endorses no physiological efficacy. Possible historical inaccuracy does not alone falsify a translation hypothesis; no historical text gives B a carryover exclusion.",
+  "scientific_decision_now": "The event/procedure/component type contrast remains a conditional authored semantic distinction, not independent causal evidence or a selected meaning. Frozen B cannot demonstrate two origin-specific arrivals with its stated observation protocol.",
+  "frozen_semantic_files_unchanged": true,
+  "new_semantic_rules": 0,
+  "new_dictionary_entries": 0,
+  "new_experiments": 0,
+  "new_target_access": 0,
+  "git_operations": 0,
+  "confirmed_words": 0,
+  "reserves_closed": true,
+  "f84_and_f84r_sealed": true
+}

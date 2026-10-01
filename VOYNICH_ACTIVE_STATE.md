@@ -1,4 +1,9 @@
 <!-- FT A interim 2026-10-01; full pair critique pending -->
+
+## FT frozen pair — 2026-10-01
+
+Both complete primary C0 accounts are retained, unranked. A's required component is ambient before OTCHDY; B's two-call/result-reference chain is explicit but its consumer grammar is guessed. B's uncleared observer permits a persistent first signal to mimic a second-origin result; this limits causal discrimination, not necessarily historical text plausibility. Native-reader/f77 gaps and manual-state/prose limits remain. Confirmed words and independent whole-folio confirmation capacity:0. No reserve/new source/decoder. [Full decision](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_REPORT.md).
+
 FT: complete conditional lower-f83 component account now covers126ZL/123IT/127RF groups with109 paid lexical/part choices. Its proposed consumer does not depend on OTCHDY output: C_H is already provided before that word, which changes no state; a separately paid noninvoking heading can preserve all Q1 consumers/events. No semantic ranking or IDEA697 gate fulfillment. Unsupported pulse.41 and undeclared C46 proximal/distal frame retained; full f77 prose276groups unparsed. B is independently authoring full rival; do not discard necessary checks at a timer. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FT_DECISION.md.
 
 <!-- FS completed 2026-10-01 -->
