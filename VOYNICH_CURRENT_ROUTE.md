@@ -2,14 +2,14 @@
 Updated: 2026-10-01. Live resume point.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: GDT1125 choice / method transfer.
-Latest decision: Both frozen;registeredpreopen;0words.
-Working files: experiments/yolo/gdt1125_choice_method_written_dependency_transfer/PREREGISTRATION.md.
-Assumptions: Oldmodelsfrozen;noreserve;C0only.
-Resume: Publish fixedpins;GO;all12cases+critique.
-Running: 2FWcritics+wordpriors;end18:29UTC.
+Task: GDT1125 closure; FX meaning selection.
+Latest decision: 0complete transfers; originalFAILretained;0words.
+Working files: experiments/yolo/gdt1125_choice_method_written_dependency_transfer/REPORT.md.
+Assumptions: No dictionaryrepair;noreserve;C0allowed.
+Resume: Publish12cases;reviewFXsources+compositionprimaries.
+Running: 3FXscouts;end18:29UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

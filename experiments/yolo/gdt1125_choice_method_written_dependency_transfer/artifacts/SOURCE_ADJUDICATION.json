@@ -1,0 +1,149 @@
+{
+  "schema": "gdt1125-source-summary-adjudication-v1",
+  "status": "ADJUDICATED_SCHEMA_ASSUMPTION_ERROR__REGISTERED_FAIL_RETAINED",
+  "owner": "fs_sun_moon_binding",
+  "protected_artifact_pins": {
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/validate_source.py": "f759aea2b9a586adc0695a11b2595ad958a5059e8f17117df6848347ae54df36",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/prepare_source.py": "f4f267fb371e0073642a6abc5b1e73bf74ae977036a77a12e2b3eeb00e0d6376",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/SPEC.json": "44548e8dea8e9c0fdabd68c6627bc5ce73947b3984a69bffdad68356193ef472",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/artifacts/APPLICATION_PACKET.json": "63b2d639c65152565bf531452f4c121256c1e24208a56d101031641a2ad5f3fa",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/artifacts/APPLICATION_GROUPS.tsv": "c277afa94e301e91ec2b50d28117943fc380be567fcd0f39dcb1085bd8cd9a69",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/artifacts/SOURCE_VALIDATION.json": "217457ffccbf55dab564877b100ba9374f16faa01b07982c5fe5b36786f11d2e"
+  },
+  "original_registered_source_gate": {
+    "status": "FAIL_SOURCE_REPRESENTATION",
+    "error_count": 1,
+    "errors": [
+      {
+        "kind": "FORMAL_SUMMARY",
+        "detail": "Independent pure replay aggregate summary"
+      }
+    ],
+    "validator_sha256": "f759aea2b9a586adc0695a11b2595ad958a5059e8f17117df6848347ae54df36",
+    "spec_sha256": "44548e8dea8e9c0fdabd68c6627bc5ce73947b3984a69bffdad68356193ef472",
+    "open_receipt_sha256_at_validation": "a2388ca90ba4369f6caafe7011c84965fbaba898749b61fa4b10a83d208999b9",
+    "gate_result_changed": false,
+    "rerun_performed": false
+  },
+  "evidence_receipt": {
+    "canonical_projection_matches_original_query_hash": true,
+    "canonical_projection_sha256": "c277afa94e301e91ec2b50d28117943fc380be567fcd0f39dcb1085bd8cd9a69",
+    "new_guarded_query": false,
+    "new_pixels": false,
+    "author_or_critic_model_contents_read": false,
+    "new_decoder_or_replay_runner": false,
+    "method": "Recount existing hash-matched scoped canonical TSV; compare frozen packet summary with original full literal validation counts; inspect existing formal output local-frame flags only."
+  },
+  "independent_projection_recount": {
+    "groups": 646,
+    "physical_loci": 20,
+    "reader_locus_cells": 60,
+    "eligible_groups": 614,
+    "unresolved_groups": 32,
+    "hard_chunks": 627,
+    "eligible_chunks": 596,
+    "uncertain_small_space_seams": 19,
+    "eligible_exact_whole_types": 156,
+    "merges_from_existing_validated_replay": 64
+  },
+  "actual_frozen_preparer_summary": {
+    "eligible_groups": 614,
+    "unresolved_marked_or_nonlowercase_groups": 32,
+    "hard_chunks": 627,
+    "eligible_chunks": 596,
+    "merges": 64,
+    "new_rules_or_licenses": false
+  },
+  "actual_frozen_validator_expected_summary": {
+    "eligible_groups": 614,
+    "marked_or_nonlowercase_unresolved_groups": 32,
+    "hard_chunks": 627,
+    "eligible_chunks": 596,
+    "eligible_exact_whole_types": 156,
+    "merges": 64,
+    "new_rules_or_local_frames": false
+  },
+  "per_value_comparison": [
+    {
+      "actual_key": "eligible_groups",
+      "validator_key": "eligible_groups",
+      "actual_value": 614,
+      "validated_value": 614,
+      "match": true
+    },
+    {
+      "actual_key": "unresolved_marked_or_nonlowercase_groups",
+      "validator_key": "marked_or_nonlowercase_unresolved_groups",
+      "actual_value": 32,
+      "validated_value": 32,
+      "match": true
+    },
+    {
+      "actual_key": "hard_chunks",
+      "validator_key": "hard_chunks",
+      "actual_value": 627,
+      "validated_value": 627,
+      "match": true
+    },
+    {
+      "actual_key": "eligible_chunks",
+      "validator_key": "eligible_chunks",
+      "actual_value": 596,
+      "validated_value": 596,
+      "match": true
+    },
+    {
+      "actual_key": "merges",
+      "validator_key": "merges",
+      "actual_value": 64,
+      "validated_value": 64,
+      "match": true
+    },
+    {
+      "actual_key": "new_rules_or_licenses",
+      "validator_key": "new_rules_or_local_frames",
+      "actual_value": false,
+      "validated_value": false,
+      "match": true,
+      "support": "All frozen source/formal pins matched; every literal group and chunk matched unchanged pure replay; all614 eligible group local_frame values are NOT_FROZEN_FOR_NEW_INPUT. Different names are not asserted to be universal semantic synonyms."
+    }
+  ],
+  "schema_difference": {
+    "actual_only_keys": [
+      "new_rules_or_licenses",
+      "unresolved_marked_or_nonlowercase_groups"
+    ],
+    "validator_only_keys": [
+      "eligible_exact_whole_types",
+      "marked_or_nonlowercase_unresolved_groups",
+      "new_rules_or_local_frames"
+    ],
+    "exact_dictionary_equality": false,
+    "missing_diagnostic_type_statistic": {
+      "validator_key": "eligible_exact_whole_types",
+      "recounted_value": 156,
+      "actual_summary_has_field": false,
+      "native_groups_missing": false,
+      "role": "Supplemental raw whole-type count demanded by validator; absence from six-field frozen application summary is not omitted source data."
+    }
+  },
+  "adjudication": {
+    "invalidity": "Validator assumed a different summary interface: two alternate field names and one additional diagnostic field. Actual dictionary therefore fails exact equality even though every actual measured value agrees with the canonical recount/existing validated replay. This is a frozen validator contract/schema assumption error, not observed native-source corruption.",
+    "representation_evidence": "Original full validation reports no other error:646groups/all18fields/IDs/order/raw projection/seams/nativeflags/legacyreplay/chunks/candidate scopes match. Existing canonical TSV independently recount agrees.",
+    "registered_test_status": "Original SOURCE_VALIDATION.json remains FAIL_SOURCE_REPRESENTATION. No corrected summary, alias map fed to validator, rerun or PASS restoration occurs.",
+    "permitted_diagnostic_use": "Root may separately finish explicitly diagnostic literal applications of unchanged frozen candidates on the already conserved canonical inputs. Report results as diagnostic after the failed registered source gate. Preserve full FV current-only and FW four-window scopes, raw groups/unknown barriers and original failures.",
+    "forbidden_inferences": [
+      "No registered scientific PASS",
+      "No semantic or lexical confirmation",
+      "No restoration/reopening of old scientific failures",
+      "No new source/decoder/model repair or retrospective meaning changes",
+      "No independent held-out confirmation",
+      "No donation of FW previous paragraphs to FV"
+    ]
+  },
+  "independent_confirmation": 0,
+  "confirmed_words": 0,
+  "semantic_validation": false,
+  "global_edits": false,
+  "protected_files_unchanged": true
+}

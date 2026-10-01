@@ -6,12 +6,12 @@ All three author hashes, both unchanged contract hashes and all 15 input-receipt
 
 | Unit | Reader | Groups | Unbound | First barrier |
 |---|---|---:|---:|---|
-| FV_F83R_DISCOVERY | ZL3b | 84 | 3 | ZL3b|f83r.12|G006 |
+| FV_F83R_DISCOVERY | ZL3b | 84 | 3 | ZL3b\|f83r.12\|G006 |
 | FV_F83R_DISCOVERY | IT2a | 83 | 0 | none; manual C0 complete |
-| FV_F83R_DISCOVERY | RF1b | 83 | 11 | RF1b|f83r.10|G008 |
-| FV_F83V_DISCOVERY | ZL3b | 84 | 2 | ZL3b|f83v.31|G001 |
+| FV_F83R_DISCOVERY | RF1b | 83 | 11 | RF1b\|f83r.10\|G008 |
+| FV_F83V_DISCOVERY | ZL3b | 84 | 2 | ZL3b\|f83v.31\|G001 |
 | FV_F83V_DISCOVERY | IT2a | 85 | 0 | none; manual C0 complete |
-| FV_F83V_DISCOVERY | RF1b | 84 | 12 | RF1b|f83v.21|G005 |
+| FV_F83V_DISCOVERY | RF1b | 84 | 12 | RF1b\|f83v.21\|G005 |
 
 All 503 raw groups/native source flags/separators/order and GDT605/062 views match the frozen packet. Every one of the 335 alternate-reader groups remains whole UNKNOWN without execution. All 28 barriers are retained; RF native paragraph flags remain unavailable.
 

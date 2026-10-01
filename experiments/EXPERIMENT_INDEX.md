@@ -1142,4 +1142,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 - GDT1124: necessary QOKEEY entry screen; no initial target, separate conditional posthoc Paint-input case. [Report](yolo/gdt1124_qokeey_paragraph_entry_layer/REPORT.md).
 
-- GDT1125: frozen choice / prior-method transfer; registered before additional opening, all12 candidate-reader cases. [Preregistration](yolo/gdt1125_choice_method_written_dependency_transfer/PREREGISTRATION.md).
+- GDT1125: original source-summary gate FAIL retained; separate diagnostic on all12 candidate-reader cases gives0complete transfers. [Decision](yolo/gdt1125_choice_method_written_dependency_transfer/REPORT.md).

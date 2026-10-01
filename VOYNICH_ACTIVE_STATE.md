@@ -1,3 +1,7 @@
+## GDT1125 actual transfer closed — 2026-10-01
+
+Original registered source-summary gate FAIL remains unchanged. Independent adjudication conserves all646rawgroups/18fields; separate diagnostic applies both frozen models to all12cases. Neither supplies complete required inputs/call/consumers on75/104; first-word barriers and joined-reader forms retained. No dictionary expansion or reset; no bound whole-type refutation,0words/independentconfirmation. Next selection must use reusable composition and a source-owned relation. [Full decision](experiments/yolo/gdt1125_choice_method_written_dependency_transfer/REPORT.md); [all predictions](experiments/yolo/gdt1125_choice_method_written_dependency_transfer/artifacts/CANDIDATE_PREDICTIONS.tsv).
+
 ## GDT1125 registered before application opening — 2026-10-01
 
 Both FV/FW frozen. Independent discovery audits retain actual conditional IT producer/consumer chains;FV oldBrealization underdefined and stone/birdscopequalification retained. FW200nominal catalogue and302paid choices remain no meaning selection; attachedPlan projection equivalent. Fixed GDT1125 binds45inputs and all12candidate-reader cases, FVcurrentonly/FWprevious+current; additional bodies closed until explicitGO afterpublication. No repairedgloss/morphology,0confirmedwords/independentconfirmation. [Frozen transfer contract](experiments/yolo/gdt1125_choice_method_written_dependency_transfer/PREREGISTRATION.md); [discovery decision](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_FW_DISCOVERY_ROOT_REPORT.md).

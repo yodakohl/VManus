@@ -1,0 +1,517 @@
+{
+  "schema": "gdt1125-application-source-receipt-v1",
+  "status": "PASS_SOURCE_ACCOUNTING_ONLY",
+  "source_path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+  "source_sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+  "allowlist_path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+  "allowlist_sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+  "preparer_path": "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/prepare_source.py",
+  "preparer_sha256": "f4f267fb371e0073642a6abc5b1e73bf74ae977036a77a12e2b3eeb00e0d6376",
+  "input_hashes": {
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+    "experiments/yolo/gdt1051_frozen_grammar_local_application/src/run.py": "8fd6000574b289dd539e9a7b04c45e15a5a767871dae770fd454af91c7146ba2",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/PREREGISTRATION.md": "5e40dbb7cad855bff2613f9f4fa5e0b9cb045f11b9dc950344d6ed0971d55698",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/apply_fv.py": "7df1dae0ec9783a21a36122b7e1cd7aaa3db0bc734467835a36629458c673a0d",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/apply_fw.py": "d9bc51e853f4e85971cd7aa8df1b8eabcf47daa43354011ab19e8b743c2c8f61",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/prepare_source.py": "f4f267fb371e0073642a6abc5b1e73bf74ae977036a77a12e2b3eeb00e0d6376",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/run.py": "3c746bd9c40b7165d0ab961b920926d9aa4139c273c7312bbd7e88a715f8fb86",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/validate.py": "6b3ded02230d15614ee03e0070bbc582664b5712875a16c83d6958911327038a",
+    "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/src/validate_source.py": "f759aea2b9a586adc0695a11b2595ad958a5059e8f17117df6848347ae54df36",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8",
+    "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_AUTHOR_CHOICE.json": "165fb5f711b563689c4de18bfabebba1e11e3df5061b0dfec6d2afba12996ec6",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_AUTHOR_CHOICE.md": "b7b9183504b13b251f928f7062b804d21dc2ab6adbb9d5a9217156caa8fbc66f",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_AUTHOR_FREEZE_RECEIPT.json": "c5cd6cc93f8d76e88b471daa75596327477d19f8f6114932ec35670da4bca495",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_AUTHOR_INPUT_RECEIPT.json": "bd10cb2933ec5437c9a51d44f63a043c3339bc8406142d5f4a1659ecefe242ce",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_CONTENT_CONTRACT.json": "4d90e661a44c4770b3c8ae0afd847818493d0e5f59db5e044e9e20e57a3f2268",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_CONTENT_CONTRACT.md": "7bed0e1e56a3838cf1ac5886406ebe9cae752b8fb26bdbf4a253bcd9635e5e44",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DECISION.md": "b05033d1e518612e80f18195556dd423f5cdb2d5e4a956ab36d5099c7d1bc453",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DEPENDENCY_CONTRACT.json": "21eba4e6c301eae992c44f7dd26518e48e6ccbebd8b8fc3987c8291b9482f316",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DEPENDENCY_CONTRACT.md": "6dec722dc885582678b5999cea1fc9b9bfa9e7c39ef0cd04882f19e0bd850e6c",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DERIVATION.tsv": "d8e2ea284b48bc872bc8617742e5006b335e70e780a4bebe1d7efef529a961b2",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_GRAMMAR_CONTRACT.json": "dea24fdf62ebaa1060ccd1aae4f1a26b2638a406a9bc7b516faa36b271aef283",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_GRAMMAR_CONTRACT.md": "f88fd1abfd9241ff5f74253e4a7d2e9fd625d62125f71e3951c18531ea02f540",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_SOURCE_CONTRACT.json": "b4ac16df9322eef8f2067be3e9568ee980a0cd5388457b5821ff7ca4d818ec6b",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_SOURCE_CONTRACT.md": "83b8f87c8775385d7591c0ba8f080971f4c3ab642d5ff9f4ee280b33dfb1324c",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_APPLICATION_PREDICTIONS.json": "3f002dcef4dcd6b9222fe65da82e1bb1f47c906a360323c7636185ca6239f27c",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_BUILD.py": "270d116f889f7dc966e5590a319d61a2bb658496b8e97e0115042261bd03b765",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_FREEZE.json": "c446f4db94e84d65964693740b149685fe35599a4e4c9829ffdd16b0a649e75d",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_INPUT_RECEIPT.json": "ca3cfd9e5f7494975394f5bfdd693af53fa14c97399f8ebd0e32478e0c9844a3",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_METHOD.json": "b02a2d38eaf1c8822d946761fb1727a23557686b589205d2b344f4f267bcfa09",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_METHOD.md": "d8cf6364baaf41268accf9843c0601a3245fe93690b83e8e44cf6c69cdae48c4",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_SELF_CHECK.json": "ea5689be442ee56dc1a9c1bbc1f2607e7371d75ca85a46521278be6c6304eac9",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_CONTENT_CONTRACT.json": "39aa256e722c9113cd1a26359944a7db27de49b29a1e4be065cf8b90aa8dd3ae",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_CONTENT_CONTRACT.md": "73dc4ac30cff56302180539d88f7646b9b049172cba76b2f947b0c79c48da812",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DECISION.md": "3508676a35921e802efc364ade42b6bdf50dad5dc2fb77bf7d01a678d71d5335",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DEPENDENCY_CONTRACT.json": "ba7935b72a8894617eda11745718873c35df9d719c44f7ac47147bccaefd517f",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DEPENDENCY_CONTRACT.md": "be828ec6f4a99eea56848b000d3eb0dc4e1e76155fe65e3639b9bf261aa0ac63",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DERIVATION.tsv": "3ec6a3c4849756ef7f2821ff134f4e8240b4aab20ba850be84a8e3aafb546c04",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_GRAMMAR_CONTRACT.json": "c24801baa568e83f036c99146a05d73fa9de6e4da278e8ad07f21f3f22b50833",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_GRAMMAR_CONTRACT.md": "fb8670f148933e15e2c1951d2a813db3e164d310f6a3b15021380bd50fffdaf3",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_SOURCE_CONTRACT.json": "1504d00a86c01868ffdb5e824988ddcb2a532ef1081708ba99878feae9036f10",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_SOURCE_CONTRACT.md": "418f12189e69cb59bd05bfc4ab443d98f29b1d9078c765bb2eadddfebe9c79f0",
+    "run_gdt012_core_semantic_atlas.py": "7db6d7eff0937e9fa67a77356a61e00a0e28a6cd73b2c62146844adea8b8fc1c",
+    "run_gdt062_right_family_register_renderer.py": "9c9e7a35278d59ace7dd88f3c1e0ca6112ec48cef29fdd86c4e5546c6ec9a665"
+  },
+  "model_files": {
+    "FV": [
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_AUTHOR_CHOICE.md",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_AUTHOR_CHOICE.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DERIVATION.tsv",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_AUTHOR_FREEZE_RECEIPT.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_AUTHOR_INPUT_RECEIPT.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DECISION.md"
+    ],
+    "FW": [
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_METHOD.md",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_METHOD.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DERIVATION.tsv",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_APPLICATION_PREDICTIONS.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_BUILD.py",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_SELF_CHECK.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_FREEZE.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_AUTHOR_INPUT_RECEIPT.json",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DECISION.md"
+    ]
+  },
+  "spec_sha256": "44548e8dea8e9c0fdabd68c6627bc5ce73947b3984a69bffdad68356193ef472",
+  "open_receipt_sha256": "8f2e43a6a11f68033f29314cdbb7bd3938676fe3f99294e70be355796e682174",
+  "query_receipt": {
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "--selector",
+      "locus",
+      "--allow",
+      "f75v.38",
+      "--allow",
+      "f75v.39",
+      "--allow",
+      "f75v.40",
+      "--allow",
+      "f75v.41",
+      "--allow",
+      "f75v.42",
+      "--allow",
+      "f75v.43",
+      "--allow",
+      "f75v.44",
+      "--allow",
+      "f75v.45",
+      "--allow",
+      "f75v.46",
+      "--allow",
+      "f75v.47",
+      "--allow",
+      "f75v.48",
+      "--allow",
+      "f75v.49",
+      "--allow",
+      "f104v.19",
+      "--allow",
+      "f104v.20",
+      "--allow",
+      "f104v.21",
+      "--allow",
+      "f104v.22",
+      "--allow",
+      "f104v.23",
+      "--allow",
+      "f104v.24",
+      "--allow",
+      "f104v.25",
+      "--allow",
+      "f104v.26",
+      "--columns",
+      "source_group_id,edition,locus,page,section,currier,hand,code,kind,grammar_scope,source_row_index,source_group_index,source_group_count,paragraph_start,paragraph_end,left_separator,right_separator,ivtff_group_raw",
+      "--forbid-prefix",
+      "f84",
+      "--forbid-prefix",
+      "f84r"
+    ],
+    "selector": "locus",
+    "allow_values": [
+      "f75v.38",
+      "f75v.39",
+      "f75v.40",
+      "f75v.41",
+      "f75v.42",
+      "f75v.43",
+      "f75v.44",
+      "f75v.45",
+      "f75v.46",
+      "f75v.47",
+      "f75v.48",
+      "f75v.49",
+      "f104v.19",
+      "f104v.20",
+      "f104v.21",
+      "f104v.22",
+      "f104v.23",
+      "f104v.24",
+      "f104v.25",
+      "f104v.26"
+    ],
+    "output_columns": [
+      "source_group_id",
+      "edition",
+      "locus",
+      "page",
+      "section",
+      "currier",
+      "hand",
+      "code",
+      "kind",
+      "grammar_scope",
+      "source_row_index",
+      "source_group_index",
+      "source_group_count",
+      "paragraph_start",
+      "paragraph_end",
+      "left_separator",
+      "right_separator",
+      "ivtff_group_raw"
+    ],
+    "guard_stats": {
+      "selected": 646,
+      "skipped_forbidden": 2122,
+      "skipped_not_allowed": 112702
+    },
+    "projection_sha256": "c277afa94e301e91ec2b50d28117943fc380be567fcd0f39dcb1085bd8cd9a69"
+  },
+  "coverage": [
+    {
+      "unit_id": "FW_F75V_PREVIOUS",
+      "edition": "ZL3b",
+      "loci": [
+        "f75v.38",
+        "f75v.39",
+        "f75v.40",
+        "f75v.41",
+        "f75v.42"
+      ],
+      "paragraph_role": "PREVIOUS",
+      "literal_group_count": 59,
+      "native_paragraph_flags_available": true,
+      "native_start_loci": [
+        "f75v.38"
+      ],
+      "native_end_loci": [
+        "f75v.42"
+      ],
+      "candidate_scoring_scope": [
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F75V_PREVIOUS",
+      "edition": "IT2a",
+      "loci": [
+        "f75v.38",
+        "f75v.39",
+        "f75v.40",
+        "f75v.41",
+        "f75v.42"
+      ],
+      "paragraph_role": "PREVIOUS",
+      "literal_group_count": 59,
+      "native_paragraph_flags_available": true,
+      "native_start_loci": [
+        "f75v.38"
+      ],
+      "native_end_loci": [
+        "f75v.42"
+      ],
+      "candidate_scoring_scope": [
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F75V_PREVIOUS",
+      "edition": "RF1b",
+      "loci": [
+        "f75v.38",
+        "f75v.39",
+        "f75v.40",
+        "f75v.41",
+        "f75v.42"
+      ],
+      "paragraph_role": "PREVIOUS",
+      "literal_group_count": 58,
+      "native_paragraph_flags_available": false,
+      "native_start_loci": [],
+      "native_end_loci": [],
+      "candidate_scoring_scope": [
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F75V_CURRENT",
+      "edition": "ZL3b",
+      "loci": [
+        "f75v.43",
+        "f75v.44",
+        "f75v.45",
+        "f75v.46",
+        "f75v.47",
+        "f75v.48",
+        "f75v.49"
+      ],
+      "paragraph_role": "CURRENT",
+      "literal_group_count": 75,
+      "native_paragraph_flags_available": true,
+      "native_start_loci": [
+        "f75v.43"
+      ],
+      "native_end_loci": [
+        "f75v.49"
+      ],
+      "candidate_scoring_scope": [
+        "FV",
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F75V_CURRENT",
+      "edition": "IT2a",
+      "loci": [
+        "f75v.43",
+        "f75v.44",
+        "f75v.45",
+        "f75v.46",
+        "f75v.47",
+        "f75v.48",
+        "f75v.49"
+      ],
+      "paragraph_role": "CURRENT",
+      "literal_group_count": 77,
+      "native_paragraph_flags_available": true,
+      "native_start_loci": [
+        "f75v.43"
+      ],
+      "native_end_loci": [
+        "f75v.49"
+      ],
+      "candidate_scoring_scope": [
+        "FV",
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F75V_CURRENT",
+      "edition": "RF1b",
+      "loci": [
+        "f75v.43",
+        "f75v.44",
+        "f75v.45",
+        "f75v.46",
+        "f75v.47",
+        "f75v.48",
+        "f75v.49"
+      ],
+      "paragraph_role": "CURRENT",
+      "literal_group_count": 73,
+      "native_paragraph_flags_available": false,
+      "native_start_loci": [],
+      "native_end_loci": [],
+      "candidate_scoring_scope": [
+        "FV",
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F104V_PREVIOUS",
+      "edition": "ZL3b",
+      "loci": [
+        "f104v.19",
+        "f104v.20",
+        "f104v.21"
+      ],
+      "paragraph_role": "PREVIOUS",
+      "literal_group_count": 31,
+      "native_paragraph_flags_available": true,
+      "native_start_loci": [
+        "f104v.19"
+      ],
+      "native_end_loci": [
+        "f104v.21"
+      ],
+      "candidate_scoring_scope": [
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F104V_PREVIOUS",
+      "edition": "IT2a",
+      "loci": [
+        "f104v.19",
+        "f104v.20",
+        "f104v.21"
+      ],
+      "paragraph_role": "PREVIOUS",
+      "literal_group_count": 31,
+      "native_paragraph_flags_available": true,
+      "native_start_loci": [
+        "f104v.19"
+      ],
+      "native_end_loci": [
+        "f104v.21"
+      ],
+      "candidate_scoring_scope": [
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F104V_PREVIOUS",
+      "edition": "RF1b",
+      "loci": [
+        "f104v.19",
+        "f104v.20",
+        "f104v.21"
+      ],
+      "paragraph_role": "PREVIOUS",
+      "literal_group_count": 31,
+      "native_paragraph_flags_available": false,
+      "native_start_loci": [],
+      "native_end_loci": [],
+      "candidate_scoring_scope": [
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F104V_CURRENT",
+      "edition": "ZL3b",
+      "loci": [
+        "f104v.22",
+        "f104v.23",
+        "f104v.24",
+        "f104v.25",
+        "f104v.26"
+      ],
+      "paragraph_role": "CURRENT",
+      "literal_group_count": 51,
+      "native_paragraph_flags_available": true,
+      "native_start_loci": [
+        "f104v.22"
+      ],
+      "native_end_loci": [
+        "f104v.26"
+      ],
+      "candidate_scoring_scope": [
+        "FV",
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F104V_CURRENT",
+      "edition": "IT2a",
+      "loci": [
+        "f104v.22",
+        "f104v.23",
+        "f104v.24",
+        "f104v.25",
+        "f104v.26"
+      ],
+      "paragraph_role": "CURRENT",
+      "literal_group_count": 48,
+      "native_paragraph_flags_available": true,
+      "native_start_loci": [
+        "f104v.22"
+      ],
+      "native_end_loci": [
+        "f104v.26"
+      ],
+      "candidate_scoring_scope": [
+        "FV",
+        "FW"
+      ]
+    },
+    {
+      "unit_id": "FW_F104V_CURRENT",
+      "edition": "RF1b",
+      "loci": [
+        "f104v.22",
+        "f104v.23",
+        "f104v.24",
+        "f104v.25",
+        "f104v.26"
+      ],
+      "paragraph_role": "CURRENT",
+      "literal_group_count": 53,
+      "native_paragraph_flags_available": false,
+      "native_start_loci": [],
+      "native_end_loci": [],
+      "candidate_scoring_scope": [
+        "FV",
+        "FW"
+      ]
+    }
+  ],
+  "unique_source_groups": 646,
+  "physical_loci": 20,
+  "reader_locus_cells": 60,
+  "application_packet_path": "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/artifacts/APPLICATION_PACKET.json",
+  "application_packet_sha256": "63b2d639c65152565bf531452f4c121256c1e24208a56d101031641a2ad5f3fa",
+  "application_groups_path": "experiments/yolo/gdt1125_choice_method_written_dependency_transfer/artifacts/APPLICATION_GROUPS.tsv",
+  "application_groups_sha256": "c277afa94e301e91ec2b50d28117943fc380be567fcd0f39dcb1085bd8cd9a69",
+  "candidate_scopes": {
+    "FV": {
+      "loci": [
+        "f75v.43",
+        "f75v.44",
+        "f75v.45",
+        "f75v.46",
+        "f75v.47",
+        "f75v.48",
+        "f75v.49",
+        "f104v.22",
+        "f104v.23",
+        "f104v.24",
+        "f104v.25",
+        "f104v.26"
+      ],
+      "earlier_role_donation_permitted": false
+    },
+    "FW": {
+      "loci": [
+        "f75v.38",
+        "f75v.39",
+        "f75v.40",
+        "f75v.41",
+        "f75v.42",
+        "f75v.43",
+        "f75v.44",
+        "f75v.45",
+        "f75v.46",
+        "f75v.47",
+        "f75v.48",
+        "f75v.49",
+        "f104v.19",
+        "f104v.20",
+        "f104v.21",
+        "f104v.22",
+        "f104v.23",
+        "f104v.24",
+        "f104v.25",
+        "f104v.26"
+      ],
+      "previous_current_pairs": [
+        "FW_F75V_PREVIOUS",
+        "FW_F75V_CURRENT",
+        "FW_F104V_PREVIOUS",
+        "FW_F104V_CURRENT"
+      ]
+    }
+  },
+  "formal_summary": {
+    "eligible_groups": 614,
+    "unresolved_marked_or_nonlowercase_groups": 32,
+    "hard_chunks": 627,
+    "eligible_chunks": 596,
+    "merges": 64,
+    "new_rules_or_licenses": false
+  },
+  "semantic_validation": false
+}
