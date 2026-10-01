@@ -1,0 +1,52 @@
+# FW independent source and scope contract
+
+Status: **frozen before FW authorship; source comparison not executed**. Prepared from [FW_DECISION.md](FW_DECISION.md), [metadata decision](FW_METADATA_DECISION.md), [metadata result](FW_METADATA_RESULT.json) and live route. No new previous-paragraph body, FW packet, FW author draft, current FV draft, peer criticism, application body or pixels were opened. This auditor previously saw the current discovery paragraphs during the separate FV literal-source audit; that exposure is disclosed and supplies no new confirmation. Own raw query waits for later explicit root GO.
+
+## Fixed native input
+
+| Partition | Previous complete ZL/IT paragraph | Current complete ZL/IT paragraph |
+|---|---|---|
+| Joint discovery, f83r | .1–8 | .9–17 |
+| Joint discovery, f83v | .11–20 | .21–33 |
+| Closed application, f75v | .38–42 | .43–49 |
+| Closed application, f104v | .19–21 | .22–26 |
+
+Discovery fixes40 individually admitted loci across four complete paragraph windows, all three readers:120 requested reader/locus cells. Applications fix20 loci/60 requested cells. These are request grids, **not observed row/group counts or independent samples**. Actual rows, groups, chunks, unresolved forms and errors remain null until independently queried. The metadata-only page selected4307 count is not a discovery-body count and is not imported as one. f83v.9/.10, an earlier paragraph beyond these windows, another leaf or a favorable subset are not added.
+
+The canonical source is `experiments/semantic_assumptions/results/source_separator_transcription.tsv`, SHA256 `4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0`. Later discovery acquisition must use `query-tsv --selector locus` with exactly each of the40 explicit allows in the companion JSON, all18 fixed fields and forbidden prefixes `f84` and `f84r` before content materialization. No full mixed-file parse followed by filtering, page/body fallback or source-window enlargement is permitted.
+
+All three native readers are preserved, including missing-pair alternatives. Native source IDs, row/group indices/counts, raw groups/entities, metadata, flags and seams are conserved exactly and in source order. Generated unit/reader/chunk ordinals cannot replace native identity. A provided native TSV projection must equal guarded output bytes. This is canonical group/separator conservation, not a diplomatic original full-line-byte claim without a separately admitted raw-line source.
+
+ZL/IT metadata fixes four discovery boundary pairs:1/8,9/17,11/20,21/33. RF raw absence flags are literal `"0"`, `"0"`, retained exactly; `native_paragraph_flags_available=false` and native boundary lists remain empty. Matching-locus comparison windows are external. RF zeros do not establish native paragraph boundaries, membership, or proof that a boundary is impossible. An actual contrary encoding is reported as a source/contract premise discrepancy; it is never normalized to satisfy expectation. The earlier FV empty-field wording error is not repeated.
+
+## Checks fixed before draft
+
+**W01 — Independent guarded acquisition.** Only after explicit root GO: direct selector-first query-tsv canonical source with exactly40 individually listed discovery locus allows,18 exact selected columns,forbid-prefix f84 and f84r. Never parse full mixed TSV then filter. Record exact argv,guard statistics and output SHA. No page/body fallback, omitted-locus span extension, application body or pixels.
+
+**W02 — Actual counts and all-reader capacity.** Determine actual source rows/groups/chunks/errors directly. Account for all120 requested edition/locus cells individually, including explicit source absence.40loci×3readers is a requested grid, not actual source row count or independence. Native group counts are not taken from prep summaries or metadata-only page totals. Missing exact pair in one reader cannot be filled by another reader or silently discarded.
+
+**W03 — Literal native source conservation.** Compare every18 canonical field strings, source group ID, row/group indexes/count, raw group spelling/entities, flags and separators one-to-one and in exact source order against packet JSON and native TSV. Require TSV guarded projection bytes to match when exact projection is supplied. No trim/normalization/alias/entity deletion/guessed correction or ID substitution. Generated unit/reader/chunk ordinals are extra metadata and must preserve original native identity.
+
+**W04 — Source ordering/seams and completeness.** Verify native ID uniqueness, expected native row identity within locus, contiguous ordered group indexes, declared group_count, LINE_START/LINE_END, adjacent left/right seam agreement and all explicit uncertainty/gap markers. Report missing/extra/duplicate/conflicting entries separately. Keep groups exactly once even when formal chunks concatenate them. Full four discovery windows include every group, not only a selected call or pair.
+
+**W05 — Native paragraph facts.** Compare ZL/IT raw paragraph_start/end fields literally. Metadata fixes starts/ends1/8,9/17,11/20,21/33. RF raw fields must be preserved as observed literal strings0/0, with native flags unavailable, empty native boundary lists and externally imposed matching-locus windows. Zero flags do not mean confirmed internal paragraph membership or no possible boundary. Any discrepant actual encoding must be reported, not repaired to match this expectation.
+
+**W06 — Unchanged formal application.** Replay GDT1051 pure parse_group/make_chunks independently from guarded canonical source, importing unchanged hash-pinned GDT012 strip_layers,GDT062 preparse,GDT605 collapse/apply_bpe and64 ordered merges. Only [a-z]+ raw groups eligible; marked/nonlowercase remain unresolved. Only UNCERTAIN_SMALL_SPACE can join within-locus groups; definite spaces and line ends remain hard. Compare wrapper/host outputs, raw joined chunks, collapse, units, ordered recursive trees and unique membership/source references. Units joining collapsed spelling is not alone raw-source conservation.
+
+**W07 — No new parser/semantic license.** Keep GDT062 local frame NOT_FROZEN_FOR_NEW_INPUT and no new O/OT host license, fits or merge changes. Formal parts and wrapper/host alternatives are not confirmed morphemes, semantic roles or English meanings. Full context/entry/residual and directed composition remain relevant; no universal segmentation tree or prefix stripping is licensed by replay.
+
+**W08 — Existing exact-whole aggregate prior.** Verify existing word_profiles.sqlite receipt, source/code/allowlist/cache SHA pins and fixed179-selector provenance without opening outside bodies. After GO, read-only aggregate SQL for distinct eligible discovery raw whole forms only, separately ZL/IT/RF, may compare exact counts,distinct-page counts,locus-edge start/middle/end/single,reader denominators and section/Currier/hand/kind strata. No occurrence rows, neighbors, examples,profile()/occurrences(),new census or cache rebuild. Locus edge is not sentence/paragraph role.
+
+**W09 — Scope/exposure and candidate separation.** All four discovery paragraphs are joint training on physicalleaf83, never independent r/v confirmation. Four application paragraphs are exposed selected coverage on physicalleaves75/104, not wholeleaf readings or pristine holdouts. Existing current-paragraph FV exposure is disclosed. An independent source observer and3transcriptions do not create independent manuscript evidence. FW enlarges source; it cannot retroactively fill FV gaps, change original FV partition or lend an unregistered prior role. Both author application bodies remain closed until their respective complete freezes/root gate.
+
+**W10 — Research consequences and honest limits.** Exact source/model replay PASS permits faithful exploratory FW input, no meaning selection. Representation mismatch blocks affected packet until corrected, not a lexical refutation. Missing native cell/pair/marked input stays explicit and narrows capacity without aliases. Unverified prior blocks that prior as verified evidence. Scope/blinding breach is recorded as exposure and invalidates independence claims; root decides remaining exploratory usability. Contract premises contradicted by actual source are separately disclosed without silently editing frozen bytes.
+
+## Model and exposure limits
+
+All formal/source/cache pins are recorded in [FW_SOURCE_CONTRACT.json](FW_SOURCE_CONTRACT.json). GDT1051 pure replay uses unchanged GDT012/GDT062 functions and GDT605 collapse/BPE with64 ordered merges. No fit, host license, decoder, semantic interpretation or new parser is authorized. Marked/nonlowercase groups remain unresolved; uncertain-small-space concatenation retains each source group; definite spaces/line ends remain hard. `NOT_FROZEN_FOR_NEW_INPUT` stays literal. Formal output conservation does not select a meaning or confirm morphemes.
+
+Existing exact-whole aggregate profile counts may be verified only after GO, with read-only SQL and hash/receipt provenance, separately by reader. No outside occurrence body, neighboring token, example, occurrence lookup, new census or cache rebuild is opened. Position is source-locus edge, not a sentence/paragraph claim. The fixed179 allowlist pin concerns cache provenance, not new body admission.
+
+All discovery is joint training on physicalleaf83; application coverage is four previously exposed complete paragraph windows on physicalleaves75/104, not complete-leaf reading or pristine holdout. Three readers are alternative readings of one manuscript; an independent source observer changes neither exposure nor independent confirmation, which remains **0**. Enlarged FW inputs cannot rescue original FV gaps, change FV's partition or donate prior semantic roles. Applications remain closed until both independent candidates/predictions freeze (or explicit non-capacity freeze) and root separately authorizes opening. No frozen semantic revision follows waiting or exposure.
+
+A source/replay PASS permits faithfully represented exploratory input. Mismatch blocks the affected representation, not a lexical hypothesis. Missing/marked source stays explicit and limits capacity. Unverified provenance blocks prior evidence. A contradicted contract premise is disclosed separately, leaving frozen bytes unchanged. Scope/blinding breaches are recorded as exposure and invalidate independence claims. No result or meaning PASS is claimed by this contract; actual comparison remains NOT_EXECUTED.

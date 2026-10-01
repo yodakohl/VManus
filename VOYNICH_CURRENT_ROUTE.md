@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: FV written choice/reference authorship.
-Latest decision: CoReMA branch+3extra chey tal loci;0words.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_DECISION.md.
+Task: FV material choice / FW method reuse.
+Latest decision: FV frozen;FW authoring;apps closed;0words.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FW_DECISION.md.
 Assumptions: Oldmodelsfrozen;noreserve;C0only.
-Resume: Freeze full FV candidate;then all2application paragraphs.
-Running: FV author+producer;4critic contracts frozen;18:29UTC.
+Resume: Audit FV;freeze FW;then both2application pairs.
+Running: FWauthor/3FVcritics/producer;end18:29UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
