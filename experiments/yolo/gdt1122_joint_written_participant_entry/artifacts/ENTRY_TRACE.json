@@ -1,0 +1,602 @@
+[
+  {
+    "context": "f85r1.1-6",
+    "policy": "TOPIC",
+    "position": 1,
+    "raw_id": "IT2a|f85r1.1|G001",
+    "surface": "pdsheody",
+    "segmentation": [
+      "p",
+      "d",
+      "sheody"
+    ],
+    "root_sort": "MaterialSchema",
+    "operand": "M1",
+    "selected_context": "M1",
+    "effect": "Introduce described Material by R3",
+    "state": {
+      "topic": "M1",
+      "current": "M1",
+      "entities": {
+        "M1": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f85r1.1-6",
+    "policy": "TOPIC",
+    "position": 2,
+    "raw_id": "IT2a|f85r1.1|G002",
+    "surface": "shdol",
+    "segmentation": [
+      "sh",
+      "dol"
+    ],
+    "root_sort": "ContainerSchema",
+    "operand": "M1",
+    "selected_context": "M1",
+    "effect": "Introduce C1 Contains(C1,M1) by R4",
+    "state": {
+      "topic": "M1",
+      "current": "M1",
+      "entities": {
+        "M1": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": "C1"
+    }
+  },
+  {
+    "context": "f85r1.1-6",
+    "policy": "TOPIC",
+    "position": 3,
+    "raw_id": "IT2a|f85r1.1|G003",
+    "surface": "shey",
+    "segmentation": [
+      "shey"
+    ],
+    "root_sort": "Event(Material)->same Material",
+    "operand": "M1",
+    "selected_context": "M1",
+    "effect": "Macerate M1; preserve identity D1/D2",
+    "state": {
+      "topic": "M1",
+      "current": "M1",
+      "entities": {
+        "M1": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": "C1"
+    }
+  },
+  {
+    "context": "f85r1.1-6",
+    "policy": "CURRENT",
+    "position": 1,
+    "raw_id": "IT2a|f85r1.1|G001",
+    "surface": "pdsheody",
+    "segmentation": [
+      "p",
+      "d",
+      "sheody"
+    ],
+    "root_sort": "MaterialSchema",
+    "operand": "M1",
+    "selected_context": "M1",
+    "effect": "Introduce described Material by R3",
+    "state": {
+      "topic": "M1",
+      "current": "M1",
+      "entities": {
+        "M1": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f85r1.1-6",
+    "policy": "CURRENT",
+    "position": 2,
+    "raw_id": "IT2a|f85r1.1|G002",
+    "surface": "shdol",
+    "segmentation": [
+      "sh",
+      "dol"
+    ],
+    "root_sort": "ContainerSchema",
+    "operand": "M1",
+    "selected_context": "M1",
+    "effect": "Introduce C1 Contains(C1,M1) by R4",
+    "state": {
+      "topic": "M1",
+      "current": "M1",
+      "entities": {
+        "M1": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": "C1"
+    }
+  },
+  {
+    "context": "f85r1.1-6",
+    "policy": "CURRENT",
+    "position": 3,
+    "raw_id": "IT2a|f85r1.1|G003",
+    "surface": "shey",
+    "segmentation": [
+      "shey"
+    ],
+    "root_sort": "Event(Material)->same Material",
+    "operand": "M1",
+    "selected_context": "M1",
+    "effect": "Macerate M1; preserve identity D1/D2",
+    "state": {
+      "topic": "M1",
+      "current": "M1",
+      "entities": {
+        "M1": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": "C1"
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "TOPIC",
+    "position": 1,
+    "raw_id": "IT2a|f80v.30|G001",
+    "surface": "pol",
+    "segmentation": [
+      "p",
+      "ol"
+    ],
+    "root_sort": "MaterialSchema",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Introduce described Material by R3",
+    "state": {
+      "topic": "M2",
+      "current": "M2",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "TOPIC",
+    "position": 2,
+    "raw_id": "IT2a|f80v.30|G002",
+    "surface": "or",
+    "segmentation": [
+      "or"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Assert paid schema/property of M2 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "M2",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "TOPIC",
+    "position": 3,
+    "raw_id": "IT2a|f80v.30|G003",
+    "surface": "olkain",
+    "segmentation": [
+      "ol",
+      "kain"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Assert paid schema/property of M2 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "M2",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "TOPIC",
+    "position": 4,
+    "raw_id": "IT2a|f80v.30|G004",
+    "surface": "ockhy",
+    "segmentation": [
+      "ockhy"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Assert paid schema/property of M2 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "M2",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "TOPIC",
+    "position": 5,
+    "raw_id": "IT2a|f80v.30|G005",
+    "surface": "qokaiin",
+    "segmentation": [
+      "q",
+      "o",
+      "kaiin"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Introduce proper part P5 by R5 from explicit property/context expression R7",
+    "state": {
+      "topic": "M2",
+      "current": "P5",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        },
+        "P5": {
+          "sort": "Material",
+          "parent": "M2"
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "TOPIC",
+    "position": 6,
+    "raw_id": "IT2a|f80v.30|G006",
+    "surface": "okain",
+    "segmentation": [
+      "o",
+      "kain"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Assert paid schema/property of M2 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "P5",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        },
+        "P5": {
+          "sort": "Material",
+          "parent": "M2"
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "TOPIC",
+    "position": 7,
+    "raw_id": "IT2a|f80v.30|G007",
+    "surface": "okar",
+    "segmentation": [
+      "o",
+      "kar"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Assert paid schema/property of M2 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "P5",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        },
+        "P5": {
+          "sort": "Material",
+          "parent": "M2"
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "TOPIC",
+    "position": 8,
+    "raw_id": "IT2a|f80v.30|G008",
+    "surface": "shey",
+    "segmentation": [
+      "shey"
+    ],
+    "root_sort": "Event(Material)->same Material",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Macerate M2; preserve identity D1/D2",
+    "state": {
+      "topic": "M2",
+      "current": "P5",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        },
+        "P5": {
+          "sort": "Material",
+          "parent": "M2"
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "CURRENT",
+    "position": 1,
+    "raw_id": "IT2a|f80v.30|G001",
+    "surface": "pol",
+    "segmentation": [
+      "p",
+      "ol"
+    ],
+    "root_sort": "MaterialSchema",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Introduce described Material by R3",
+    "state": {
+      "topic": "M2",
+      "current": "M2",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "CURRENT",
+    "position": 2,
+    "raw_id": "IT2a|f80v.30|G002",
+    "surface": "or",
+    "segmentation": [
+      "or"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Assert paid schema/property of M2 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "M2",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "CURRENT",
+    "position": 3,
+    "raw_id": "IT2a|f80v.30|G003",
+    "surface": "olkain",
+    "segmentation": [
+      "ol",
+      "kain"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Assert paid schema/property of M2 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "M2",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "CURRENT",
+    "position": 4,
+    "raw_id": "IT2a|f80v.30|G004",
+    "surface": "ockhy",
+    "segmentation": [
+      "ockhy"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "M2",
+    "effect": "Assert paid schema/property of M2 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "M2",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "CURRENT",
+    "position": 5,
+    "raw_id": "IT2a|f80v.30|G005",
+    "surface": "qokaiin",
+    "segmentation": [
+      "q",
+      "o",
+      "kaiin"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "M2",
+    "selected_context": "P5",
+    "effect": "Introduce proper part P5 by R5 from explicit property/context expression R7",
+    "state": {
+      "topic": "M2",
+      "current": "P5",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        },
+        "P5": {
+          "sort": "Material",
+          "parent": "M2"
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "CURRENT",
+    "position": 6,
+    "raw_id": "IT2a|f80v.30|G006",
+    "surface": "okain",
+    "segmentation": [
+      "o",
+      "kain"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "P5",
+    "selected_context": "P5",
+    "effect": "Assert paid schema/property of P5 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "P5",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        },
+        "P5": {
+          "sort": "Material",
+          "parent": "M2"
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "CURRENT",
+    "position": 7,
+    "raw_id": "IT2a|f80v.30|G007",
+    "surface": "okar",
+    "segmentation": [
+      "o",
+      "kar"
+    ],
+    "root_sort": "MaterialProperty",
+    "operand": "P5",
+    "selected_context": "P5",
+    "effect": "Assert paid schema/property of P5 by R2/R7/R9/D3",
+    "state": {
+      "topic": "M2",
+      "current": "P5",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        },
+        "P5": {
+          "sort": "Material",
+          "parent": "M2"
+        }
+      },
+      "owner": null
+    }
+  },
+  {
+    "context": "f80v.30-37",
+    "policy": "CURRENT",
+    "position": 8,
+    "raw_id": "IT2a|f80v.30|G008",
+    "surface": "shey",
+    "segmentation": [
+      "shey"
+    ],
+    "root_sort": "Event(Material)->same Material",
+    "operand": "P5",
+    "selected_context": "P5",
+    "effect": "Macerate P5; preserve identity D1/D2",
+    "state": {
+      "topic": "M2",
+      "current": "P5",
+      "entities": {
+        "M2": {
+          "sort": "Material",
+          "parent": null
+        },
+        "P5": {
+          "sort": "Material",
+          "parent": "M2"
+        }
+      },
+      "owner": null
+    }
+  }
+]

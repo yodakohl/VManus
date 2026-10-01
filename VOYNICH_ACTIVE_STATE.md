@@ -1,3 +1,6 @@
+<!-- FM 2026-10-01 -->
+GDT1122 newshared nominal entry supports conditional3+8prefix groups on whole129ITscope;TOPIC M2 vsCURRENT P5 changes SHEY8.118unconsumed,69unpaid49local;no whole reading/no winner. LateQOLs hypotheticalonly;TOPIC bareKAIN50→B contradictsD3→X, no bracketingrepair. Authorover145.492sec/serializationfailure retained. Nextregistered unchanged-rule paidf80 9–18 continuation, not gloss/census repair;SHOL19/OTCHDY4 unpaid.0words/0independentconfirmation. See experiments/yolo/gdt1122_joint_written_participant_entry/REPORT.md.
+
 <!-- FL 2026-10-01 -->
 GDT1121 executed: new strict QOCTHDY14 Motion-only signature fails all five preceding UnaryProcess events; fixed entry introductions each singleton in seed, so outside initialization upper bound0. Seed CHY27 precedes QOKEEY57/CHOR58. No aperture test scored/no global search; FK C0 unchanged/no meaningwinner/0words. Stop strict refinement/census. Next review exposed second whole context with explicit written entry before shared semantics. See experiments/yolo/gdt1121_aperture_state_later_traversal/REPORT.md.
 

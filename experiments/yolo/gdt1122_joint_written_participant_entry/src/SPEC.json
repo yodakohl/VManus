@@ -1,0 +1,35 @@
+{
+  "experiment": "GDT1122",
+  "registered_utc": "2026-10-01T04:26:36.236339+00:00",
+  "phase": "Postauthor exposed-data projection diagnostic, not blind meaning test",
+  "inputs": {
+    "author": {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FM_AUTHOR.json",
+      "sha256": "6b09ef5c7dbc07efd09275f56a93a8363d86d19ab62090c62785a6f6353e0531"
+    },
+    "target": {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FM_TARGET.json",
+      "sha256": "55713ecdd6df28c7cddb8f02bf93ccc26134a599ec90919d9bf4513020be9199"
+    },
+    "priors": {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FM_PRIORS.json",
+      "sha256": "24258bdd94ca1a0eac9994ac2bf4526b5a6e6ccd91050ddd0d6621b0580dde4a"
+    },
+    "additional_priors": {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FM_ADDITIONAL_PRIORS.json",
+      "sha256": "c5e60d5f2b9f988ec406daba0dc37fc8c866a92515da2bf1984b8f84b1f3b584"
+    }
+  },
+  "early_prefix_lengths": {
+    "f85r1.1-6": 3,
+    "f80v.30-37": 8
+  },
+  "policies": [
+    "TOPIC",
+    "CURRENT"
+  ],
+  "projection": "Hand-selected written entry expressions only. R3 creates Material from schema; R4 requires already bound Material; R7/D3 evaluate properties against declared state; R5 creates nominal proper part from that explicit state; D1 selects event patient. No English-rule parser or entire-paragraph state derivation. All later patient rows UNBOUND.",
+  "late_qol": "Conditional input X only; process QOL48 and49 separately, then KAIN50 as bare property under D3. Compare author said B with actual selected context. Do not add q(OL+KAIN) bracketing after result. This is a projection of the author stated sequential trace, not every possible grammar bracketing.",
+  "expected": "Early f85 policies agree; early f80 TOPIC original batch vsCURRENT proper part. No meaning selected. Whole incomplete. Late trace may reveal author prose/rule mismatch; unknown state bars manuscript inference.",
+  "stop": "No additional word values or new census; close partial model, preserve original FI/FK/FL and failed larger author attempt."
+}

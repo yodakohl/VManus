@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: FL fixed aperture-state diagnostic executed.
-Latest decision: GDT1121 strict tuple fails14;outside entry0;no meaningwinner.
-Working files: experiments/yolo/gdt1121_aperture_state_later_traversal/REPORT.md.
-Assumptions: FK unchanged;0words;14newFL assumptions;no sealaccess.
-Resume: Review exposed second whole context with written participant entry before shared semantics; no FL repair/census.
-Running: None; FL workers frozen; no search.
+Task: FM shared entry C0;whole129 partial.
+Latest decision: 1122 entry3+8 conditional;118unbound;lateTOPIC KAIN debt.
+Working files: experiments/yolo/gdt1122_joint_written_participant_entry/REPORT.md.
+Assumptions: 0words;20roots/1residual/10rules/4defaults;no sealaccess.
+Resume: Register unchanged-rule f80 paid9–18 continuation;stop at debt;19/85-4 unpaid.
+Running: None;Sol workers frozen.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

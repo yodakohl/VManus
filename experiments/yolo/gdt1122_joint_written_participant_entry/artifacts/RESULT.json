@@ -1,0 +1,125 @@
+{
+  "experiment": "GDT1122",
+  "status": "PARTIAL_SHARED_ENTRY__SCOPE_UNSELECTED__LATE_TRACE_DEBT",
+  "groups": 129,
+  "forms": 95,
+  "author_counts": {
+    "roots": 20,
+    "whole_residuals": 1,
+    "rules": 10,
+    "defaults": 4,
+    "aliases": 0
+  },
+  "status_counts": {
+    "WORKED_ENTRY_DERIVATION": 11,
+    "UNBOUND_UNPAID": 69,
+    "LOCAL_SCHEMA_NOT_CONSUMED": 49
+  },
+  "early_worked_groups": 11,
+  "remaining_unbound_groups": 118,
+  "whole_complete_contexts": 0,
+  "candidates": [
+    {
+      "context": "f85r1.1-6",
+      "policy": "TOPIC",
+      "first_shey_position": 3,
+      "predicted_patient": "M1",
+      "observed_projected_patient": "M1",
+      "contradiction": false,
+      "meaning_selected": false,
+      "whole_complete": false,
+      "independent_confirmation": 0
+    },
+    {
+      "context": "f85r1.1-6",
+      "policy": "CURRENT",
+      "first_shey_position": 3,
+      "predicted_patient": "M1",
+      "observed_projected_patient": "M1",
+      "contradiction": false,
+      "meaning_selected": false,
+      "whole_complete": false,
+      "independent_confirmation": 0
+    },
+    {
+      "context": "f80v.30-37",
+      "policy": "TOPIC",
+      "first_shey_position": 8,
+      "predicted_patient": "M2",
+      "observed_projected_patient": "M2",
+      "contradiction": false,
+      "meaning_selected": false,
+      "whole_complete": false,
+      "independent_confirmation": 0
+    },
+    {
+      "context": "f80v.30-37",
+      "policy": "CURRENT",
+      "first_shey_position": 8,
+      "predicted_patient": "P5",
+      "observed_projected_patient": "P5",
+      "contradiction": false,
+      "meaning_selected": false,
+      "whole_complete": false,
+      "independent_confirmation": 0
+    }
+  ],
+  "late_conditional": [
+    {
+      "policy": "TOPIC",
+      "hypothetical_input": "X",
+      "parts": [
+        {
+          "position": 48,
+          "introduced": "A",
+          "parent": "X"
+        },
+        {
+          "position": 49,
+          "introduced": "B",
+          "parent": "X"
+        }
+      ],
+      "bare_kain_patient_by_D3": "X",
+      "author_stated_kain_patient": "B",
+      "sequential_trace_mismatch": true,
+      "actual_manuscript_state_bound": false
+    },
+    {
+      "policy": "CURRENT",
+      "hypothetical_input": "X",
+      "parts": [
+        {
+          "position": 48,
+          "introduced": "A",
+          "parent": "X"
+        },
+        {
+          "position": 49,
+          "introduced": "B",
+          "parent": "A"
+        }
+      ],
+      "bare_kain_patient_by_D3": "B",
+      "author_stated_kain_patient": "B",
+      "sequential_trace_mismatch": false,
+      "actual_manuscript_state_bound": false
+    }
+  ],
+  "first_unmet": {
+    "f85": {
+      "position": 4,
+      "surface": "otchdy",
+      "reason": "No retained paid whole contribution or typed modifier in minimal construction."
+    },
+    "f80": {
+      "position": 9,
+      "surface": "qolky",
+      "reason": "Local q(OL+KY) schema is paid, but its actual state transition and subsequent whole sequence were not worked before freeze; context/patient explicitly UNBOUND, not a lexical failure."
+    }
+  },
+  "confirmed_words": 0,
+  "independent_confirmation_capacity": 0,
+  "significance_claim": false,
+  "claim_ceiling": "Finite declared early entry projection and conditioned late sequential trace, not a full grammar or independent meaning test"
+}

@@ -1,0 +1,2565 @@
+{
+  "unit": "FM",
+  "status": "MINIMAL_SHARED_ENTRY_CONSTRUCTION_FROZEN_PARTIAL",
+  "timing": {
+    "first_clock_utc": "2026-10-01T04:13:09+00:00",
+    "freeze_utc": "2026-10-01T04:22:34.492056+00:00",
+    "elapsed_seconds": 565.492056,
+    "cap_seconds": 420,
+    "overrun_seconds": 145.49205600000005
+  },
+  "serialization_failure": "First larger attempted writer failed assertion before creating artifact. Immediately froze this minimal actually worked construction; all other material remains unconsumed. No repaired full-reading claim.",
+  "target_sha256": "55713ecdd6df28c7cddb8f02bf93ccc26134a599ec90919d9bf4513020be9199",
+  "roots": {
+    "ol": [
+      "working mixture",
+      "MaterialSchema"
+    ],
+    "sheody": [
+      "fine suspension",
+      "MaterialSchema"
+    ],
+    "dol": [
+      "enclosure",
+      "ContainerSchema"
+    ],
+    "shey": [
+      "macerate",
+      "Event(Material)->same Material"
+    ],
+    "or": [
+      "small amount",
+      "MaterialProperty"
+    ],
+    "kain": [
+      "grain-bearing",
+      "MaterialProperty"
+    ],
+    "kaiin": [
+      "powder-fine",
+      "MaterialProperty"
+    ],
+    "kar": [
+      "dense",
+      "MaterialProperty"
+    ],
+    "ky": [
+      "fine",
+      "MaterialProperty"
+    ],
+    "oiin": [
+      "loosened",
+      "MaterialProperty"
+    ],
+    "shedy": [
+      "liquid",
+      "MaterialProperty"
+    ],
+    "chedy": [
+      "separate a retained working portion",
+      "Event(Material)->new Material part"
+    ],
+    "keedy": [
+      "dry",
+      "Event(Material)->same Material"
+    ],
+    "key": [
+      "reduced",
+      "MaterialProperty"
+    ],
+    "ker": [
+      "compact",
+      "MaterialProperty"
+    ],
+    "tain": [
+      "coherent",
+      "MaterialProperty"
+    ],
+    "kiin": [
+      "moistened",
+      "MaterialProperty"
+    ],
+    "al": [
+      "thick",
+      "MaterialProperty"
+    ],
+    "chey": [
+      "smooth",
+      "MaterialProperty"
+    ],
+    "shdy": [
+      "wetted",
+      "MaterialProperty"
+    ]
+  },
+  "whole_residuals": {
+    "ockhy": [
+      "powdered",
+      "MaterialProperty"
+    ]
+  },
+  "rules": {
+    "R1": "Lexical finite signatures only; unknown whole never supplies an entity.",
+    "R2": "MaterialSchema + MaterialProperty -> qualified MaterialSchema, left head and right property; fused and split nominal construction identical.",
+    "R3": "p(MaterialSchema) introduces fresh described Material, sets TOPIC and CURRENT. Applies generically at any written position; no singleton name or paragraph macro.",
+    "R4": "sh(ContainerSchema) introduces C and Contains(C,CURRENT), requiring a previously bound Material; does not replace CURRENT Material.",
+    "R5": "q(NominalExpr Material) evaluates explicit policy context and introduces fresh proper portion of it; sets CURRENT. This is a complete nominal expression, not an event expression.",
+    "R6": "s(NominalExpr Material) subdivides explicit input, addressing a fresh working Material part; sets CURRENT.",
+    "R7": "o(MaterialProperty) makes dispersed-property nominal expression evaluated against explicit context; no Event/Motion domain.",
+    "R8": "d(MaterialSchema/property) adds dense property; no independent introduction.",
+    "R9": "Bare nominal/property evaluates explicit context and asserts its paid properties; no ambient Material or Container.",
+    "R10": "NominalExpr + Event(Material) supplies explicit patient by nominal context evaluation, in fused or separate spelling; no event-to-material cast."
+  },
+  "defaults": {
+    "D1": "Unexpressed Material event patient is explicit policy context TOPIC or CURRENT only.",
+    "D2": "Maceration/drying preserves input; CHEDY explicitly creates a retained part and updates CURRENT.",
+    "D3": "Bare property modifies selected context, not a fresh independent object.",
+    "D4": "Unknown contribution invalidates TOPIC/CURRENT/OWNER continuity; no crossing. Fresh p schema may start local derivation, never consumes prior unknowns."
+  },
+  "counts": {
+    "roots": 20,
+    "whole_residuals": 1,
+    "rules": 10,
+    "defaults": 4,
+    "aliases": 0
+  },
+  "caps": {
+    "roots": 30,
+    "whole_residuals": 20,
+    "rules": 12,
+    "defaults": 4
+  },
+  "policies": {
+    "TOPIC": "Context argument is latest p-introduced Material; q/s/CHEDY do not replace it.",
+    "CURRENT": "Context argument is latest derived Material; q/s/CHEDY update it."
+  },
+  "worked_entries": {
+    "f85": [
+      "SHEODY MaterialSchema -> d adds dense property -> p introduces M1 by R3. TOPIC=CURRENT=M1.",
+      "DOL ContainerSchema -> sh introduces C1 with Contains(C1,M1), requires written M1; no hidden owner.",
+      "SHEY Event(Material) -> macerate M1 under both policies, identity preserved."
+    ],
+    "f80": [
+      "OL MaterialSchema -> p introduces M2; TOPIC=CURRENT=M2; no Container introduced.",
+      "OR small-amount property of M2.",
+      "OL+KAIN qualified mixture schema evaluates M2 and asserts grain-bearing.",
+      "OCKHY paid powdered property of M2.",
+      "o(KAIIN) dispersed powder-fine nominal expression; q creates proper portion P5 from M2 and sets CURRENT=P5, TOPIC=M2.",
+      "o(KAIN) qualifies selected M2 or P5 as dispersed grain-bearing.",
+      "o(KAR) qualifies selected M2 or P5 as dense dispersed.",
+      "SHEY uses M2 under TOPIC versus P5 under CURRENT: same actual maceration predicate, different written input identity."
+    ]
+  },
+  "QOL_repeat": {
+    "location": "f80v48–50",
+    "status": "Conditional local trace only; no actual bound context survives unknown gaps.",
+    "TOPIC": "For explicitly supplied X: q(OL)48 introduces A=part(X); q(OL)49 introduces B=part(X); KAIN50 qualifies B as grain-bearing. Distinct sibling parts.",
+    "CURRENT": "For explicitly supplied X: A=part(X); B=part(A); KAIN50 qualifies B. Nested proper parts.",
+    "rule": "Each QOL is complete, meaningful nominal constructor. No erasure, intensifier, EventResult coercion or nested event operator."
+  },
+  "POLSHDY": {
+    "location": "f80v66",
+    "trace": "OL MaterialSchema + SHDY wetted property -> qualified schema by R2; p introduces fresh M66 by same R3. Local symbolic derivation possible without ambient owner.",
+    "status": "Not part of a consumed whole context; all prior unknowns remain."
+  },
+  "first_unmet": {
+    "f85": {
+      "position": 4,
+      "surface": "otchdy",
+      "reason": "No retained paid whole contribution or typed modifier in minimal construction."
+    },
+    "f80": {
+      "position": 9,
+      "surface": "qolky",
+      "reason": "Local q(OL+KY) schema is paid, but its actual state transition and subsequent whole sequence were not worked before freeze; context/patient explicitly UNBOUND, not a lexical failure."
+    }
+  },
+  "positions": [
+    {
+      "context": "f85r1.1-6",
+      "position": 1,
+      "raw_id": "IT2a|f85r1.1|G001",
+      "raw_surface": "pdsheody",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "p",
+        "d",
+        "sheody"
+      ],
+      "contribution": "Local composed schema: p+d+sheody",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M1",
+        "CURRENT": "M1"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 2,
+      "raw_id": "IT2a|f85r1.1|G002",
+      "raw_surface": "shdol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "sh",
+        "dol"
+      ],
+      "contribution": "Local composed schema: sh+dol",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M1",
+        "CURRENT": "M1"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 3,
+      "raw_id": "IT2a|f85r1.1|G003",
+      "raw_surface": "shey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shey"
+      ],
+      "contribution": "macerate",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M1",
+        "CURRENT": "M1"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 4,
+      "raw_id": "IT2a|f85r1.1|G004",
+      "raw_surface": "otchdy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "otchdy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 5,
+      "raw_id": "IT2a|f85r1.1|G005",
+      "raw_surface": "dshedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "d",
+        "shedy"
+      ],
+      "contribution": "Local composed schema: d+shedy",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 6,
+      "raw_id": "IT2a|f85r1.1|G006",
+      "raw_surface": "soeeedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "soeeedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 7,
+      "raw_id": "IT2a|f85r1.1|G007",
+      "raw_surface": "dchefoey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "dchefoey"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 8,
+      "raw_id": "IT2a|f85r1.1|G008",
+      "raw_surface": "sair",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "sair"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 9,
+      "raw_id": "IT2a|f85r1.1|G009",
+      "raw_surface": "shedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shedy"
+      ],
+      "contribution": "liquid",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 10,
+      "raw_id": "IT2a|f85r1.1|G010",
+      "raw_surface": "sodair",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "sodair"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 11,
+      "raw_id": "IT2a|f85r1.1|G011",
+      "raw_surface": "shey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "shey"
+      ],
+      "contribution": "macerate",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 12,
+      "raw_id": "IT2a|f85r1.2|G001",
+      "raw_surface": "yoiin",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "yoiin"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 13,
+      "raw_id": "IT2a|f85r1.2|G002",
+      "raw_surface": "cheey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "cheey"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 14,
+      "raw_id": "IT2a|f85r1.2|G003",
+      "raw_surface": "qocthdy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qocthdy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 15,
+      "raw_id": "IT2a|f85r1.2|G004",
+      "raw_surface": "otedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "otedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 16,
+      "raw_id": "IT2a|f85r1.2|G005",
+      "raw_surface": "dol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "dol"
+      ],
+      "contribution": "enclosure",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 17,
+      "raw_id": "IT2a|f85r1.2|G006",
+      "raw_surface": "oraiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "oraiin"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 18,
+      "raw_id": "IT2a|f85r1.2|G007",
+      "raw_surface": "okshd",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "okshd"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 19,
+      "raw_id": "IT2a|f85r1.2|G008",
+      "raw_surface": "okchedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "okchedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 20,
+      "raw_id": "IT2a|f85r1.2|G009",
+      "raw_surface": "otedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "otedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 21,
+      "raw_id": "IT2a|f85r1.2|G010",
+      "raw_surface": "chckhdy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "chckhdy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 22,
+      "raw_id": "IT2a|f85r1.2|G011",
+      "raw_surface": "otam",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "otam"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 23,
+      "raw_id": "IT2a|f85r1.3|G001",
+      "raw_surface": "tarar",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "tarar"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 24,
+      "raw_id": "IT2a|f85r1.3|G002",
+      "raw_surface": "otedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "otedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 25,
+      "raw_id": "IT2a|f85r1.3|G003",
+      "raw_surface": "opcheey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "opcheey"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 26,
+      "raw_id": "IT2a|f85r1.3|G004",
+      "raw_surface": "ykdair",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ykdair"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 27,
+      "raw_id": "IT2a|f85r1.3|G005",
+      "raw_surface": "chy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "chy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 28,
+      "raw_id": "IT2a|f85r1.3|G006",
+      "raw_surface": "qotedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qotedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 29,
+      "raw_id": "IT2a|f85r1.3|G007",
+      "raw_surface": "qokchdy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qokchdy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 30,
+      "raw_id": "IT2a|f85r1.3|G008",
+      "raw_surface": "otedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "otedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 31,
+      "raw_id": "IT2a|f85r1.3|G009",
+      "raw_surface": "cheol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "cheol"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 32,
+      "raw_id": "IT2a|f85r1.3|G010",
+      "raw_surface": "saiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "saiin"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 33,
+      "raw_id": "IT2a|f85r1.3|G011",
+      "raw_surface": "otedam",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "otedam"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 34,
+      "raw_id": "IT2a|f85r1.4|G001",
+      "raw_surface": "odeedaiin",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "odeedaiin"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 35,
+      "raw_id": "IT2a|f85r1.4|G002",
+      "raw_surface": "qokechy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qokechy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 36,
+      "raw_id": "IT2a|f85r1.4|G003",
+      "raw_surface": "daiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "daiin"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 37,
+      "raw_id": "IT2a|f85r1.4|G004",
+      "raw_surface": "chekchy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "chekchy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 38,
+      "raw_id": "IT2a|f85r1.4|G005",
+      "raw_surface": "olshedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "shedy"
+      ],
+      "contribution": "Local composed schema: ol+shedy",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 39,
+      "raw_id": "IT2a|f85r1.4|G006",
+      "raw_surface": "qokeedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qokeedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 40,
+      "raw_id": "IT2a|f85r1.4|G007",
+      "raw_surface": "doltshdy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "doltshdy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 41,
+      "raw_id": "IT2a|f85r1.4|G008",
+      "raw_surface": "otar",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "otar"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 42,
+      "raw_id": "IT2a|f85r1.4|G009",
+      "raw_surface": "otchdy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "otchdy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 43,
+      "raw_id": "IT2a|f85r1.4|G010",
+      "raw_surface": "ols",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "ols"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 44,
+      "raw_id": "IT2a|f85r1.5|G001",
+      "raw_surface": "tchedy",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "tchedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 45,
+      "raw_id": "IT2a|f85r1.5|G002",
+      "raw_surface": "kchedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "kchedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 46,
+      "raw_id": "IT2a|f85r1.5|G003",
+      "raw_surface": "qodaiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qodaiin"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 47,
+      "raw_id": "IT2a|f85r1.5|G004",
+      "raw_surface": "olkeedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "keedy"
+      ],
+      "contribution": "Local composed schema: ol+keedy",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 48,
+      "raw_id": "IT2a|f85r1.5|G005",
+      "raw_surface": "oraiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "oraiin"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 49,
+      "raw_id": "IT2a|f85r1.5|G006",
+      "raw_surface": "olshedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "shedy"
+      ],
+      "contribution": "Local composed schema: ol+shedy",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 50,
+      "raw_id": "IT2a|f85r1.5|G007",
+      "raw_surface": "okchy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "okchy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 51,
+      "raw_id": "IT2a|f85r1.5|G008",
+      "raw_surface": "kedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "kedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 52,
+      "raw_id": "IT2a|f85r1.5|G009",
+      "raw_surface": "tedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "tedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 53,
+      "raw_id": "IT2a|f85r1.5|G010",
+      "raw_surface": "tdam",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "tdam"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 54,
+      "raw_id": "IT2a|f85r1.6|G001",
+      "raw_surface": "rorain",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "rorain"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 55,
+      "raw_id": "IT2a|f85r1.6|G002",
+      "raw_surface": "shey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shey"
+      ],
+      "contribution": "macerate",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 56,
+      "raw_id": "IT2a|f85r1.6|G003",
+      "raw_surface": "pchey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "pchey"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 57,
+      "raw_id": "IT2a|f85r1.6|G004",
+      "raw_surface": "qokeey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qokeey"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 58,
+      "raw_id": "IT2a|f85r1.6|G005",
+      "raw_surface": "chor",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "chor"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 59,
+      "raw_id": "IT2a|f85r1.6|G006",
+      "raw_surface": "ol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol"
+      ],
+      "contribution": "working mixture",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f85r1.1-6",
+      "position": 60,
+      "raw_id": "IT2a|f85r1.6|G007",
+      "raw_surface": "shedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "shedy"
+      ],
+      "contribution": "liquid",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 1,
+      "raw_id": "IT2a|f80v.30|G001",
+      "raw_surface": "pol",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "p",
+        "ol"
+      ],
+      "contribution": "Local composed schema: p+ol",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M2",
+        "CURRENT": "M2"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 2,
+      "raw_id": "IT2a|f80v.30|G002",
+      "raw_surface": "or",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "or"
+      ],
+      "contribution": "small amount",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M2",
+        "CURRENT": "M2"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 3,
+      "raw_id": "IT2a|f80v.30|G003",
+      "raw_surface": "olkain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "kain"
+      ],
+      "contribution": "Local composed schema: ol+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M2",
+        "CURRENT": "M2"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 4,
+      "raw_id": "IT2a|f80v.30|G004",
+      "raw_surface": "ockhy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ockhy"
+      ],
+      "contribution": "powdered",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M2",
+        "CURRENT": "M2"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 5,
+      "raw_id": "IT2a|f80v.30|G005",
+      "raw_surface": "qokaiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "q",
+        "o",
+        "kaiin"
+      ],
+      "contribution": "Local composed schema: q+o+kaiin",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M2",
+        "CURRENT": "P5"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 6,
+      "raw_id": "IT2a|f80v.30|G006",
+      "raw_surface": "okain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "o",
+        "kain"
+      ],
+      "contribution": "Local composed schema: o+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M2",
+        "CURRENT": "P5"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 7,
+      "raw_id": "IT2a|f80v.30|G007",
+      "raw_surface": "okar",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "o",
+        "kar"
+      ],
+      "contribution": "Local composed schema: o+kar",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M2",
+        "CURRENT": "P5"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 8,
+      "raw_id": "IT2a|f80v.30|G008",
+      "raw_surface": "shey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shey"
+      ],
+      "contribution": "macerate",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "M2",
+        "CURRENT": "P5"
+      },
+      "status": "WORKED_ENTRY_DERIVATION"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 9,
+      "raw_id": "IT2a|f80v.30|G009",
+      "raw_surface": "qolky",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "q",
+        "ol",
+        "ky"
+      ],
+      "contribution": "Local composed schema: q+ol+ky",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 10,
+      "raw_id": "IT2a|f80v.31|G001",
+      "raw_surface": "qol",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "q",
+        "ol"
+      ],
+      "contribution": "Local composed schema: q+ol",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 11,
+      "raw_id": "IT2a|f80v.31|G002",
+      "raw_surface": "oloiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "oiin"
+      ],
+      "contribution": "Local composed schema: ol+oiin",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 12,
+      "raw_id": "IT2a|f80v.31|G003",
+      "raw_surface": "olkain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "kain"
+      ],
+      "contribution": "Local composed schema: ol+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 13,
+      "raw_id": "IT2a|f80v.31|G004",
+      "raw_surface": "ol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol"
+      ],
+      "contribution": "working mixture",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 14,
+      "raw_id": "IT2a|f80v.31|G005",
+      "raw_surface": "chedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "chedy"
+      ],
+      "contribution": "separate a retained working portion",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 15,
+      "raw_id": "IT2a|f80v.31|G006",
+      "raw_surface": "qokain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "q",
+        "o",
+        "kain"
+      ],
+      "contribution": "Local composed schema: q+o+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 16,
+      "raw_id": "IT2a|f80v.31|G007",
+      "raw_surface": "olshey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "shey"
+      ],
+      "contribution": "Local composed schema: ol+shey",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 17,
+      "raw_id": "IT2a|f80v.31|G008",
+      "raw_surface": "qokain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "q",
+        "o",
+        "kain"
+      ],
+      "contribution": "Local composed schema: q+o+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 18,
+      "raw_id": "IT2a|f80v.32|G001",
+      "raw_surface": "solkain",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "s",
+        "ol",
+        "kain"
+      ],
+      "contribution": "Local composed schema: s+ol+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 19,
+      "raw_id": "IT2a|f80v.32|G002",
+      "raw_surface": "shol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shol"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 20,
+      "raw_id": "IT2a|f80v.32|G003",
+      "raw_surface": "kair",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "kair"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 21,
+      "raw_id": "IT2a|f80v.32|G004",
+      "raw_surface": "or",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "or"
+      ],
+      "contribution": "small amount",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 22,
+      "raw_id": "IT2a|f80v.32|G005",
+      "raw_surface": "arol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "arol"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 23,
+      "raw_id": "IT2a|f80v.32|G006",
+      "raw_surface": "keedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "keedy"
+      ],
+      "contribution": "dry",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 24,
+      "raw_id": "IT2a|f80v.32|G007",
+      "raw_surface": "olky",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "ky"
+      ],
+      "contribution": "Local composed schema: ol+ky",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 25,
+      "raw_id": "IT2a|f80v.32|G008",
+      "raw_surface": "qolkain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "q",
+        "ol",
+        "kain"
+      ],
+      "contribution": "Local composed schema: q+ol+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 26,
+      "raw_id": "IT2a|f80v.32|G009",
+      "raw_surface": "shedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "shedy"
+      ],
+      "contribution": "liquid",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 27,
+      "raw_id": "IT2a|f80v.33|G001",
+      "raw_surface": "qokeedy",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qokeedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 28,
+      "raw_id": "IT2a|f80v.33|G002",
+      "raw_surface": "qoker",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "q",
+        "o",
+        "ker"
+      ],
+      "contribution": "Local composed schema: q+o+ker",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 29,
+      "raw_id": "IT2a|f80v.33|G003",
+      "raw_surface": "olkain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "kain"
+      ],
+      "contribution": "Local composed schema: ol+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 30,
+      "raw_id": "IT2a|f80v.33|G004",
+      "raw_surface": "olshedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "shedy"
+      ],
+      "contribution": "Local composed schema: ol+shedy",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 31,
+      "raw_id": "IT2a|f80v.33|G005",
+      "raw_surface": "qokey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "q",
+        "o",
+        "key"
+      ],
+      "contribution": "Local composed schema: q+o+key",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 32,
+      "raw_id": "IT2a|f80v.33|G006",
+      "raw_surface": "qokeey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qokeey"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 33,
+      "raw_id": "IT2a|f80v.33|G007",
+      "raw_surface": "tchcthy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "tchcthy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 34,
+      "raw_id": "IT2a|f80v.33|G008",
+      "raw_surface": "lom",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "lom"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 35,
+      "raw_id": "IT2a|f80v.34|G001",
+      "raw_surface": "dol",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "dol"
+      ],
+      "contribution": "enclosure",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 36,
+      "raw_id": "IT2a|f80v.34|G002",
+      "raw_surface": "sheyr",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "sheyr"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 37,
+      "raw_id": "IT2a|f80v.34|G003",
+      "raw_surface": "shey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shey"
+      ],
+      "contribution": "macerate",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 38,
+      "raw_id": "IT2a|f80v.34|G004",
+      "raw_surface": "olshey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "shey"
+      ],
+      "contribution": "Local composed schema: ol+shey",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 39,
+      "raw_id": "IT2a|f80v.34|G005",
+      "raw_surface": "cthor",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "cthor"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 40,
+      "raw_id": "IT2a|f80v.34|G006",
+      "raw_surface": "ylchdy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ylchdy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 41,
+      "raw_id": "IT2a|f80v.34|G007",
+      "raw_surface": "olkain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "kain"
+      ],
+      "contribution": "Local composed schema: ol+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 42,
+      "raw_id": "IT2a|f80v.34|G008",
+      "raw_surface": "shcthy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shcthy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 43,
+      "raw_id": "IT2a|f80v.34|G009",
+      "raw_surface": "qoly",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "qoly"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 44,
+      "raw_id": "IT2a|f80v.35|G001",
+      "raw_surface": "tol",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "tol"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 45,
+      "raw_id": "IT2a|f80v.35|G002",
+      "raw_surface": "oltain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "tain"
+      ],
+      "contribution": "Local composed schema: ol+tain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 46,
+      "raw_id": "IT2a|f80v.35|G003",
+      "raw_surface": "olkar",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "kar"
+      ],
+      "contribution": "Local composed schema: ol+kar",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 47,
+      "raw_id": "IT2a|f80v.35|G004",
+      "raw_surface": "y",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "y"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 48,
+      "raw_id": "IT2a|f80v.35|G005",
+      "raw_surface": "qol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "q",
+        "ol"
+      ],
+      "contribution": "Local composed schema: q+ol",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 49,
+      "raw_id": "IT2a|f80v.35|G006",
+      "raw_surface": "qol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "q",
+        "ol"
+      ],
+      "contribution": "Local composed schema: q+ol",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 50,
+      "raw_id": "IT2a|f80v.35|G007",
+      "raw_surface": "kain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "kain"
+      ],
+      "contribution": "grain-bearing",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 51,
+      "raw_id": "IT2a|f80v.35|G008",
+      "raw_surface": "okiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "o",
+        "kiin"
+      ],
+      "contribution": "Local composed schema: o+kiin",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 52,
+      "raw_id": "IT2a|f80v.35|G009",
+      "raw_surface": "ol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol"
+      ],
+      "contribution": "working mixture",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 53,
+      "raw_id": "IT2a|f80v.35|G010",
+      "raw_surface": "kain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "kain"
+      ],
+      "contribution": "grain-bearing",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 54,
+      "raw_id": "IT2a|f80v.35|G011",
+      "raw_surface": "shey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shey"
+      ],
+      "contribution": "macerate",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 55,
+      "raw_id": "IT2a|f80v.35|G012",
+      "raw_surface": "ldy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "ldy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 56,
+      "raw_id": "IT2a|f80v.36|G001",
+      "raw_surface": "soin",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "soin"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 57,
+      "raw_id": "IT2a|f80v.36|G002",
+      "raw_surface": "okain",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "o",
+        "kain"
+      ],
+      "contribution": "Local composed schema: o+kain",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 58,
+      "raw_id": "IT2a|f80v.36|G003",
+      "raw_surface": "sheor",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "sheor"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 59,
+      "raw_id": "IT2a|f80v.36|G004",
+      "raw_surface": "ol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol"
+      ],
+      "contribution": "working mixture",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 60,
+      "raw_id": "IT2a|f80v.36|G005",
+      "raw_surface": "shey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shey"
+      ],
+      "contribution": "macerate",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 61,
+      "raw_id": "IT2a|f80v.36|G006",
+      "raw_surface": "daly",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "daly"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 62,
+      "raw_id": "IT2a|f80v.36|G007",
+      "raw_surface": "olshedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "shedy"
+      ],
+      "contribution": "Local composed schema: ol+shedy",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 63,
+      "raw_id": "IT2a|f80v.36|G008",
+      "raw_surface": "olal",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "ol",
+        "al"
+      ],
+      "contribution": "Local composed schema: ol+al",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 64,
+      "raw_id": "IT2a|f80v.36|G009",
+      "raw_surface": "shedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shedy"
+      ],
+      "contribution": "liquid",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 65,
+      "raw_id": "IT2a|f80v.36|G010",
+      "raw_surface": "lchy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "lchy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 66,
+      "raw_id": "IT2a|f80v.37|G001",
+      "raw_surface": "polshdy",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "p",
+        "ol",
+        "shdy"
+      ],
+      "contribution": "Local composed schema: p+ol+shdy",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "LOCAL_SCHEMA_NOT_CONSUMED"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 67,
+      "raw_id": "IT2a|f80v.37|G002",
+      "raw_surface": "qokeedy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "qokeedy"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 68,
+      "raw_id": "IT2a|f80v.37|G003",
+      "raw_surface": "shky",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE",
+      "segmentation": [
+        "shky"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    },
+    {
+      "context": "f80v.30-37",
+      "position": 69,
+      "raw_id": "IT2a|f80v.37|G004",
+      "raw_surface": "ololchey",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END",
+      "segmentation": [
+        "ololchey"
+      ],
+      "contribution": "UNPAID whole contribution",
+      "typed_rule": "R1 root/residual; R2 nominal qualification; spelled p/sh/q/s/o/d use R3-R8; nominal-event uses R10",
+      "computed_or_UNBOUND_patient": {
+        "TOPIC": "UNBOUND",
+        "CURRENT": "UNBOUND"
+      },
+      "status": "UNBOUND_UNPAID"
+    }
+  ],
+  "actual_intended_content": "Introduce working mixtures/suspensions, qualify their consistency, take or subdivide explicit portions, and macerate selected material. TOPIC treats later actions as work on original batch; CURRENT treats actions as work on derived current portion. This is new C0 content, not imported FK/FI/FL meanings.",
+  "renderings": {
+    "f85": "Introduce a dense fine suspension in an enclosure and macerate it. [All remaining57groups retained, not rendered as complete passage.]",
+    "f80": "Introduce a small working mixture, classify it grain-bearing and powdered, take a dispersed fine portion, qualify the selected original mixture or portion as grain-bearing and dense, and macerate that chosen input. [All remaining61groups retained, not rendered as complete passage.]"
+  },
+  "prior_effects": "Initial54 inherited profiles for95forms were read; additional41 profiles prepared04:14:06UTC supplied/read before freeze complete descriptive coverage. Broad OR/OL/CHEDY/QOL/KAIN use generic property/operation/context roles. POLSHDY rarity does not justify singleton introduction: p constructor is shared. No calibrated semantic probability or new author census.",
+  "assumptions": [
+    "All lexical and grammar values conjectural; no confirmed anchors required or supplied.",
+    "Mixture schema plus property cannot be treated as free physical participant without p or explicit bound context.",
+    "Generic p is an authored hypothesis, not proven by p/y distribution.",
+    "SHEODY, SHEDY, SHDY and KAIN/KAIIN separately inventoried, never aliases.",
+    "Proper-part and TOPIC/CURRENT semantics are substantive assumptions; no quantities or conservation proven.",
+    "No manual participant lookup stands in for entry traces; beyond those traces all patients remain UNBOUND.",
+    "Nominal whole-role change from FI OL is a new authored model; frozen FI/FK/FL decisions unchanged."
+  ],
+  "decision": "STOP partial: shared typed initial entry derived; all129group whole consumption and later discrimination not achieved. No postfreeze repairs.",
+  "confirmed_words": 0,
+  "independent_confirmation_capacity": 0
+}
