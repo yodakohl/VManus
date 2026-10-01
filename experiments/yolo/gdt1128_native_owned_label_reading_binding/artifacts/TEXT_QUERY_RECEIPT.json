@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-01T19:48:08.243469+00:00",
+  "exact_command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "--selector",
+    "locus",
+    "--allow",
+    "f102r2.21",
+    "--allow",
+    "f102r2.22",
+    "--allow",
+    "f102v1.17",
+    "--columns",
+    "source_group_id,edition,locus,page,section,currier,hand,code,kind,grammar_scope,source_row_index,source_group_index,source_group_count,paragraph_start,paragraph_end,left_separator,right_separator,ivtff_group_raw,clean_ascii_fragments,clean_ascii_fragment_count,legacy_surface_positions_1based,legacy_interlinear_row_present,legacy_mapping_status",
+    "--forbid-prefix",
+    "f84",
+    "--forbid-prefix",
+    "f84r"
+  ],
+  "guard_statistics_stderr": "GUARD_STATS {\"selected\": 9, \"skipped_forbidden\": 2122, \"skipped_not_allowed\": 113339}\n",
+  "rows": 9,
+  "forms": [
+    "koldarod",
+    "loralody",
+    "losalody",
+    "odalydary",
+    "odalydyry"
+  ],
+  "cache_selector_count": 179,
+  "cache_matching": "exact_raw_group",
+  "target_labels_not_added_to179": true,
+  "input_hashes": {
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+    "tools/word_profiles.py": "1e9cb2017525e8ee3fd07b6a088e73b28b1e4fe4e7c9d17b83b892b94d0943c6",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539",
+    "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+    "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/unit_profiles.tsv": "032f66566ee2675521d40036d2379f910aa0b1b1353ce50be812bc7fbaa66d44",
+    "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_tree.tsv": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a"
+  },
+  "query_GO_sha256": "347b5590fbc7b697cb7b670e1accc566c0c599f624fafbd81d7fb980f67917fe",
+  "native_freeze_hashes": {
+    "GB23_NATIVE_READING.json": "1a871fd56921582de9f8e55f7d419cb4f07f96d26c3e1b6727c4d8a9ad8dbaf3",
+    "C2_NATIVE_READING.json": "4081b1a691ae4d8d1a7149e6548c502cee308e5117dfce854c8fa15c41b5c9e0",
+    "INDEPENDENT_NATIVE_READING.json": "89522511411824b77c3c12c6a6729fa4a791d31f5d7f586d546c39d9d27a1e56"
+  },
+  "no_new_parser_or_training": true
+}

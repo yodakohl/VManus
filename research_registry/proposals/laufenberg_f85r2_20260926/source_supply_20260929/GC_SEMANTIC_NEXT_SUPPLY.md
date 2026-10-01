@@ -1,0 +1,87 @@
+# GC smallest semantic construction consequences
+
+**STOP pending an actual owned written construction.** Two conditional execution checks are retained, rather than another shared-name score. They assign no current glyph, species, organ word or English property and claim no capacity. No current three-label strings,1128result, pixels or new target text were read.
+
+## CONDITIONAL_NESTED_ARGUMENT_TYPE
+
+Directional part selection changes the argument from a whole-owner to a part; a fixed broad property filter preserves its input witness/type. A later reuse must accept the type actually produced, not restore the whole-owner silently.
+
+Fixed versions:
+
+- **name_organ:** K introduces opaque kind/owner W; O:WholeOwner->PartWitness; subsequent operators retain that PartWitness.
+- **property:** Q:Entity->Entity retains x and adds a property restriction; Q(Q(x)) retains the same x. No English property is assigned.
+
+Multi-step consequence:
+
+1. x=W. Apply the frozen whole-to-part wrapper: p=O(W); type(p)=PartWitness.
+2. Apply the same licensed written operation M at a genuinely nested later position, using p rather than an implicit W.
+3. If M is frozen WholeOwner->PartWitness, M(p) is TYPE_FAIL. If M is frozen Q:Entity->Entity, Q(p) is type-compatible and preserves p.
+
+**Decisive difference:** A complete owned written derivation can reject the exact WholeOwner-only wrapper when the reused input is independently a part; it can reject the witness-preserving qualifier if that same written operation demonstrably changes the selected participant/type.
+
+Necessary input:
+
+- Actual nested written construction with a repeated finite licensed operation/interface and a fixed boundary, not two nearby labels or occurrences.
+- Native ownership binds the respective whole/part operands; no botanic species name needed.
+- An argument-type contract fixed before the comparison, with all groups and known whole residual/context retained.
+- No unread group may change or replace the operand before reuse.
+
+**Why old tests do not answer:** 352/SNPL002/1084 test surface/family or motif coidentity, not execution of a typed nested construction.608 supports directed parts but does not give these argument types;1122 already demonstrates how property/schema and event/property type mismatches can break a guessed construction.
+
+**Equivalence limit:** An organ wrapper allowing Part->Part or a property restricted to Whole can reverse or erase the contrast. Both are possible different hypotheses and must be charged/frozen; type signatures cannot be chosen solely to reject one. No root meaning follows from mere type compatibility.
+
+**Novelty:** This is a narrower executable consequence of existingGBconstructors1–3/669, not a novel raw mechanism or new claim-bearing input.
+
+**Readiness:** STOP: supplied inputs contain no actual nested construction or independently typed interface instance.
+
+## CONDITIONAL_SAME_WITNESS_VS_SEPARATE_PART_REFERENCES
+
+A same-witness conjunction applies two qualifiers to one x. Two separately owned part references retain distinct reference endpoints p1/p2 even when both share opaque parent kind K. Noun renaming does not change the number of reference endpoints a fixed rule must preserve.
+
+Fixed versions:
+
+- **name_organ:** Define p1=O1(W), p2=O2(W); a fixed two-reference construction keeps both owner-bound endpoint identities.
+- **property:** Apply Q1 and Q2 to the same x: Q2(Q1(x)); result remains one witness x with two restrictions. No qualifier semantics inferred from spelling.
+
+Multi-step consequence:
+
+1. Start from one fixed opaque owner W.
+2. Part-reference account introduces/points to p1 and p2 through two written organ arguments; keep both endpoint IDs.
+3. Same-witness qualifier account retains x through Q1 then Q2; it may not create p2 or silently turn conjunction into an enumeration.
+4. A subsequent already-written attachment addressed specifically to p2 must bind p2 under the first contract; a one-witness contract owes a separately paid reference introduction/selection.
+
+**Decisive difference:** Reject an exact same-witness-only contract if the complete unit independently commits to two distinct addressed part-reference endpoints but the contract generates one. Reject the two-reference construction if the complete written scope independently requires one unchanged witness and the model creates another.
+
+Necessary input:
+
+- One complete written unit with independently constrained conjunction-versus-enumeration scope and a genuine separately addressed endpoint.
+- Singular native inscription-to-fragment owners for both part references; distinct drawings alone do not prove distinct physical specimens. Endpoint identities here are discourse references, not botanical individuals.
+- A fixed shared-kind/organ wrapper or same-witness qualifier rule, priced across a finite licensed family.
+- All intervening words, unknown ownership and same-leaf dependence retained.
+
+**Why old tests do not answer:** Old coidentity/form matching does not determine referent cardinality or conjunction scope. GDT942 shows three written forms/spacing do not independently create a list; repeated words/values do not establish multiple patients or arity. GBminimum already warns that a name+separate owner wrapper can preserve the same relation.
+
+**Equivalence limit:** A property model permitting an explicit enumeration of p1/p2 can predict the same addressed endpoints; a name model may use two labels for one referent. Only the fixed full-construction versions are distinguishable, not NAME versus PROPERTY as universal classes.
+
+**Novelty:** Conditional refinement ofGBowner/property consequences and raw67/669; no novel adequate input and no new raw card warranted.
+
+**Readiness:** STOP: no supplied full written conjunction/enumeration or separately addressed endpoint is established.
+
+## Decision and scope
+
+Native label binding first establishes exact units/owners. Root then needs admitted whole-word profiles and a finite licensed composition before assigning a reused operation. Directed composition, exact-whole residual and entry context are all retained; frequency constrains complete usage but does not infer name/property POS. No profiles queried here.
+
+These checks could reject particular complete typed/scope constructions without species names or inherited English glosses. Supplied inputs do not provide an unequal owned written consequence. PriorGBSTOP remains; no immediate semantic test or further data access selected.
+
+C0 hypothetical full constructions remain permissible and need not guarantee translation. The STOP is specific to missing execution/endpoint scope, not an absolute confirmed-anchor requirement.
+
+Bounded ideas search exited2 due stale EXPERIMENT_INDEX after new1128index. Root confirms hold until its material-result refresh. Producer did not refresh/add; failed search proves no absence or novelty. Route-check succeeded as navigation only.
+
+Exact existing inputs:
+
+- `research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GB_CROSSED_CONSTRUCTOR_SUPPLY.json` — SHA256 `b65a79c93f05c64fd077a308b316c203804f5e330c0dbd4007f1f8f4c6132799`.
+- `research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GB_POST_NATIVE_CONSTRUCTOR_LIMIT.json` — SHA256 `1cb5257b353c5f36d93163582c3d59cd441d52d193c9d5a912950c7fbfb5874f`.
+- `research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GC_IDEA_SUPPLY.json` — SHA256 `bd76e36c3460e529519565bc381dc9617702f603e5d471b75a11409d5eb10a57`.
+- `research_registry/proposals/raw_repeated_plant_cross_register_role_graph_20260928.json` — SHA256 `78b3e3438910a393aa530a7ccadda8545218e83de48e0779d2694964a37290f0`.
+
+Zero raw additions; no add call or global write. Root selection remains separate.

@@ -1,0 +1,708 @@
+{
+  "schema": 1,
+  "status": "COMPLETE_BOUNDED_PROFILE_INTERPRETATION_AUDIT_NO_MEANING_SELECTION",
+  "input_pins": [
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/CACHED_LABELS.tsv",
+      "sha256": "751840aa638d64a20a11b5a534a66862c288f58cf960a7e19fab9c56e9e3bf46"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/WORD_PROFILES.json",
+      "sha256": "98d011f53c51709a24a50d6dc8be5d4d63cebcfb6cca7475522f364c3de1cabc"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/FIXED_COMPOSITION.json",
+      "sha256": "e298df0cfee22e9cc554bc85ca300cde36916bdbb1061e776deafe6d63dd4201"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/TEXT_QUERY_RECEIPT.json",
+      "sha256": "e7062ed60c3388b2f9218e9ddbbb54fac2938030baee61929387792920a0fdb2"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/GB23_NATIVE_READING.json",
+      "sha256": "1a871fd56921582de9f8e55f7d419cb4f07f96d26c3e1b6727c4d8a9ad8dbaf3"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/C2_NATIVE_READING.json",
+      "sha256": "4081b1a691ae4d8d1a7149e6548c502cee308e5117dfce854c8fa15c41b5c9e0"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/INDEPENDENT_NATIVE_READING.json",
+      "sha256": "89522511411824b77c3c12c6a6729fa4a791d31f5d7f586d546c39d9d27a1e56"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/ROOT_NATIVE_READING.json",
+      "sha256": "21540d330a4b5f36d3624cd695f015a545c29e25df10b6e8463f4ba8d5fde77a"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/TEXT_QUERY_GO.json",
+      "sha256": "347b5590fbc7b697cb7b670e1accc566c0c599f624fafbd81d7fb980f67917fe"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/NATIVE_VIEW_GO.json",
+      "sha256": "bccfaf1b7775c21905ec0193dc3e6ab3c56b139bbe324b2cf1f1c58d7dfae0d9"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/ROOT_POST_REFERENCE_COMPARISON.md",
+      "sha256": "bb8a9b98595ab41dbd3ac2ba46e918950e57898f772e9b9f6b05f65a73bb285e"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/NOTATION_REFERENCE_RECEIPT.json",
+      "sha256": "6220b2d304160cdc038a21c68a51128b2b0f99fdc1c72e50d504791ad7dfaa0d"
+    },
+    {
+      "path": "experiments/yolo/gdt1128_native_owned_label_reading_binding/artifacts/POST_FREEZE_NOTATION_NOTE.md",
+      "sha256": "d6bd71924699464ce57da947abb51c19f160e9654b5fcd52bcf3c86572814e28"
+    }
+  ],
+  "accounting_only": {
+    "cached_rows": 9,
+    "unique_loci": 3,
+    "editions_per_locus": 3,
+    "eachrow_single_rawgroup": true,
+    "source_flags_and_separators_retained": true,
+    "native_freezes_match_queryreceipt": true,
+    "profile_forms": 5,
+    "editions_perprofile": 3,
+    "all15_form_reader_cells_kindP_count": 0,
+    "sameleaf102": true,
+    "newsource_queries": 0,
+    "newimageviews": 0,
+    "newgrammar_model_or_parser_changes": 0
+  },
+  "cases": [
+    {
+      "case": "GB2",
+      "cached_readings": {
+        "ZL3b": "koldarod",
+        "IT2a": "koldarod",
+        "RF1b": "koldarod"
+      },
+      "native_whole_status": "UNKNOWN in both observers/root",
+      "native_cache_join": "UNBOUND; cache agreement among three editions does not fill native whole UNKNOWN",
+      "cache_profile_ceiling": "zero all179 counts; own f102r2 selector is not included; not global absence or zero in expandedcache"
+    },
+    {
+      "case": "GB3",
+      "cached_readings": {
+        "ZL3b": "odalydary",
+        "IT2a": "odalydary",
+        "RF1b": "odalydyry"
+      },
+      "native_whole_status": "UNKNOWN in both observers/root",
+      "native_cache_join": "UNBOUND; tentative initial o/d-like strokes are not fullword equivalence; RF ending retained",
+      "cache_profile_ceiling": "zero all179 counts for bothwholes; own f102r2 excluded"
+    },
+    {
+      "case": "C2",
+      "cached_readings": {
+        "ZL3b": "loralody",
+        "IT2a": "loralody",
+        "RF1b": "losalody"
+      },
+      "native_whole_status": "8 worker low-certainty alternatives;4 critic low-certainty alternatives; rootuncertifiedstrokeaccount",
+      "native_cache_join": "UNRESOLVED_DISCREPANCY; neither finite native set includescache; sets also mutuallydisjoint",
+      "cache_profile_ceiling": "correspondingreader whole once, solely ownL label f102v1.17; zero prose/elsewhere",
+      "possible_explanations": [
+        "native provisional EVA glyph/segmentation confusion",
+        "misalignment between owned inkisland and historical locus/cache entry",
+        "source/transcription disagreement or error"
+      ],
+      "adjudication": "none selected; sets explicitly fallible/nonexhaustive; no definitive sourceerror or confirmedmismatch; cache cannot repair frozenproposal"
+    }
+  ],
+  "profile_table": [
+    {
+      "form": "koldarod",
+      "editions": {
+        "ZL3b": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": []
+        },
+        "IT2a": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": []
+        },
+        "RF1b": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": []
+        }
+      },
+      "matching": "exact_raw_group"
+    },
+    {
+      "form": "loralody",
+      "editions": {
+        "ZL3b": {
+          "total": 1,
+          "kind_L": 1,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [
+            {
+              "source_group_id": "ZL3b|f102v1.17|G001",
+              "edition": "ZL3b",
+              "page": "f102v1",
+              "locus": "f102v1.17",
+              "section": "P",
+              "currier": "A",
+              "hand": "1",
+              "kind": "L",
+              "source_group_index": 1,
+              "source_group_count": 1,
+              "ivtff_group_raw": "loralody",
+              "left_separator": "LINE_START",
+              "right_separator": "LINE_END",
+              "previous_literal": null,
+              "next_literal": null,
+              "position": "single",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            }
+          ],
+          "spelling_neighbors": [
+            {
+              "form": "oralody",
+              "count": 1
+            }
+          ]
+        },
+        "IT2a": {
+          "total": 1,
+          "kind_L": 1,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [
+            {
+              "source_group_id": "IT2a|f102v1.17|G001",
+              "edition": "IT2a",
+              "page": "f102v1",
+              "locus": "f102v1.17",
+              "section": "P",
+              "currier": "A",
+              "hand": "1",
+              "kind": "L",
+              "source_group_index": 1,
+              "source_group_count": 1,
+              "ivtff_group_raw": "loralody",
+              "left_separator": "LINE_START",
+              "right_separator": "LINE_END",
+              "previous_literal": null,
+              "next_literal": null,
+              "position": "single",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            }
+          ],
+          "spelling_neighbors": []
+        },
+        "RF1b": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": [
+            {
+              "form": "losalody",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "matching": "exact_raw_group"
+    },
+    {
+      "form": "losalody",
+      "editions": {
+        "ZL3b": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": [
+            {
+              "form": "loralody",
+              "count": 1
+            }
+          ]
+        },
+        "IT2a": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": [
+            {
+              "form": "loralody",
+              "count": 1
+            }
+          ]
+        },
+        "RF1b": {
+          "total": 1,
+          "kind_L": 1,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [
+            {
+              "source_group_id": "RF1b|f102v1.17|G001",
+              "edition": "RF1b",
+              "page": "f102v1",
+              "locus": "f102v1.17",
+              "section": "P",
+              "currier": "A",
+              "hand": "1",
+              "kind": "L",
+              "source_group_index": 1,
+              "source_group_count": 1,
+              "ivtff_group_raw": "losalody",
+              "left_separator": "LINE_START",
+              "right_separator": "LINE_END",
+              "previous_literal": null,
+              "next_literal": null,
+              "position": "single",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            }
+          ],
+          "spelling_neighbors": []
+        }
+      },
+      "matching": "exact_raw_group"
+    },
+    {
+      "form": "odalydary",
+      "editions": {
+        "ZL3b": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": []
+        },
+        "IT2a": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": []
+        },
+        "RF1b": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": []
+        }
+      },
+      "matching": "exact_raw_group"
+    },
+    {
+      "form": "odalydyry",
+      "editions": {
+        "ZL3b": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": []
+        },
+        "IT2a": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": []
+        },
+        "RF1b": {
+          "total": 0,
+          "kind_L": 0,
+          "kind_P": 0,
+          "pages_total": 179,
+          "examples": [],
+          "spelling_neighbors": []
+        }
+      },
+      "matching": "exact_raw_group"
+    }
+  ],
+  "fixed_composition": [
+    {
+      "form": "koldarod",
+      "fixed605_units_ordered": [
+        "k",
+        "ol",
+        "dar",
+        "od"
+      ],
+      "status": "FORMAL_FIXED_MODEL_PROJECTION_NOT_MORPHOLOGY",
+      "selected608_distribution_priors": [
+        {
+          "split": "train",
+          "unit": "k",
+          "occurrences": "1025",
+          "standalone_rate": "0.005853658536585366",
+          "chunk_initial_rate": "0.5482926829268293",
+          "chunk_final_rate": "0.014634146341463415",
+          "distinct_folios": "68"
+        },
+        {
+          "split": "train",
+          "unit": "dar",
+          "occurrences": "341",
+          "standalone_rate": "0.4310850439882698",
+          "chunk_initial_rate": "0.6158357771260997",
+          "chunk_final_rate": "0.7595307917888563",
+          "distinct_folios": "58"
+        },
+        {
+          "split": "held",
+          "unit": "k",
+          "occurrences": "478",
+          "standalone_rate": "0.0",
+          "chunk_initial_rate": "0.49372384937238495",
+          "chunk_final_rate": "0.01882845188284519",
+          "distinct_folios": "23"
+        },
+        {
+          "split": "held",
+          "unit": "dar",
+          "occurrences": "227",
+          "standalone_rate": "0.3039647577092511",
+          "chunk_initial_rate": "0.42731277533039647",
+          "chunk_final_rate": "0.7929515418502202",
+          "distinct_folios": "23"
+        }
+      ]
+    },
+    {
+      "form": "loralody",
+      "fixed605_units_ordered": [
+        "l",
+        "or",
+        "al",
+        "ody"
+      ],
+      "status": "FORMAL_FIXED_MODEL_PROJECTION_NOT_MORPHOLOGY",
+      "selected608_distribution_priors": [
+        {
+          "split": "train",
+          "unit": "l",
+          "occurrences": "666",
+          "standalone_rate": "0.03003003003003003",
+          "chunk_initial_rate": "0.7162162162162162",
+          "chunk_final_rate": "0.16066066066066065",
+          "distinct_folios": "59"
+        },
+        {
+          "split": "train",
+          "unit": "ody",
+          "occurrences": "608",
+          "standalone_rate": "0.039473684210526314",
+          "chunk_initial_rate": "0.04111842105263158",
+          "chunk_final_rate": "0.9786184210526315",
+          "distinct_folios": "62"
+        },
+        {
+          "split": "held",
+          "unit": "l",
+          "occurrences": "524",
+          "standalone_rate": "0.04580152671755725",
+          "chunk_initial_rate": "0.6965648854961832",
+          "chunk_final_rate": "0.1851145038167939",
+          "distinct_folios": "21"
+        },
+        {
+          "split": "held",
+          "unit": "ody",
+          "occurrences": "272",
+          "standalone_rate": "0.014705882352941176",
+          "chunk_initial_rate": "0.014705882352941176",
+          "chunk_final_rate": "0.9816176470588235",
+          "distinct_folios": "22"
+        }
+      ]
+    },
+    {
+      "form": "losalody",
+      "fixed605_units_ordered": [
+        "l",
+        "os",
+        "al",
+        "ody"
+      ],
+      "status": "FORMAL_FIXED_MODEL_PROJECTION_NOT_MORPHOLOGY",
+      "selected608_distribution_priors": [
+        {
+          "split": "train",
+          "unit": "l",
+          "occurrences": "666",
+          "standalone_rate": "0.03003003003003003",
+          "chunk_initial_rate": "0.7162162162162162",
+          "chunk_final_rate": "0.16066066066066065",
+          "distinct_folios": "59"
+        },
+        {
+          "split": "train",
+          "unit": "ody",
+          "occurrences": "608",
+          "standalone_rate": "0.039473684210526314",
+          "chunk_initial_rate": "0.04111842105263158",
+          "chunk_final_rate": "0.9786184210526315",
+          "distinct_folios": "62"
+        },
+        {
+          "split": "held",
+          "unit": "l",
+          "occurrences": "524",
+          "standalone_rate": "0.04580152671755725",
+          "chunk_initial_rate": "0.6965648854961832",
+          "chunk_final_rate": "0.1851145038167939",
+          "distinct_folios": "21"
+        },
+        {
+          "split": "held",
+          "unit": "ody",
+          "occurrences": "272",
+          "standalone_rate": "0.014705882352941176",
+          "chunk_initial_rate": "0.014705882352941176",
+          "chunk_final_rate": "0.9816176470588235",
+          "distinct_folios": "22"
+        }
+      ]
+    },
+    {
+      "form": "odalydary",
+      "fixed605_units_ordered": [
+        "od",
+        "al",
+        "y",
+        "dar",
+        "y"
+      ],
+      "status": "FORMAL_FIXED_MODEL_PROJECTION_NOT_MORPHOLOGY",
+      "selected608_distribution_priors": [
+        {
+          "split": "train",
+          "unit": "y",
+          "occurrences": "1554",
+          "standalone_rate": "0.043758043758043756",
+          "chunk_initial_rate": "0.2728442728442728",
+          "chunk_final_rate": "0.711068211068211",
+          "distinct_folios": "68"
+        },
+        {
+          "split": "train",
+          "unit": "dar",
+          "occurrences": "341",
+          "standalone_rate": "0.4310850439882698",
+          "chunk_initial_rate": "0.6158357771260997",
+          "chunk_final_rate": "0.7595307917888563",
+          "distinct_folios": "58"
+        },
+        {
+          "split": "held",
+          "unit": "y",
+          "occurrences": "554",
+          "standalone_rate": "0.039711191335740074",
+          "chunk_initial_rate": "0.33212996389891697",
+          "chunk_final_rate": "0.6389891696750902",
+          "distinct_folios": "23"
+        },
+        {
+          "split": "held",
+          "unit": "dar",
+          "occurrences": "227",
+          "standalone_rate": "0.3039647577092511",
+          "chunk_initial_rate": "0.42731277533039647",
+          "chunk_final_rate": "0.7929515418502202",
+          "distinct_folios": "23"
+        }
+      ]
+    },
+    {
+      "form": "odalydyry",
+      "fixed605_units_ordered": [
+        "od",
+        "al",
+        "y",
+        "dy",
+        "r",
+        "y"
+      ],
+      "status": "FORMAL_FIXED_MODEL_PROJECTION_NOT_MORPHOLOGY",
+      "selected608_distribution_priors": [
+        {
+          "split": "train",
+          "unit": "y",
+          "occurrences": "1554",
+          "standalone_rate": "0.043758043758043756",
+          "chunk_initial_rate": "0.2728442728442728",
+          "chunk_final_rate": "0.711068211068211",
+          "distinct_folios": "68"
+        },
+        {
+          "split": "train",
+          "unit": "dy",
+          "occurrences": "603",
+          "standalone_rate": "0.19900497512437812",
+          "chunk_initial_rate": "0.30016583747927034",
+          "chunk_final_rate": "0.8689883913764511",
+          "distinct_folios": "68"
+        },
+        {
+          "split": "held",
+          "unit": "y",
+          "occurrences": "554",
+          "standalone_rate": "0.039711191335740074",
+          "chunk_initial_rate": "0.33212996389891697",
+          "chunk_final_rate": "0.6389891696750902",
+          "distinct_folios": "23"
+        },
+        {
+          "split": "held",
+          "unit": "dy",
+          "occurrences": "204",
+          "standalone_rate": "0.14705882352941177",
+          "chunk_initial_rate": "0.18137254901960784",
+          "chunk_final_rate": "0.9362745098039216",
+          "distinct_folios": "23"
+        }
+      ]
+    }
+  ],
+  "composition_constraints": {
+    "no_common_exact605_unit_allthree_ZL_IT": true,
+    "no_common_exact605_unit_allthree_RF": true,
+    "605status": "fixed learnedunits not morphological groundtruth",
+    "608status": "marginalunitdistribution/order priors, not meaning/production or whole-label likelihood test",
+    "real_formal_constraints": [
+      "Keep exactwholes andordered605projections; preserveGB3andC2RF alternatives.",
+      "k primarilyinitial/rarestandalone; l primarilyinitial; ody overwhelminglyfinal. Do nottreatthose rates as absolute semanticroles.",
+      "GB3 RFchanges dar projection to dy|r; C2RFchanges or to os. Nofree r/s or a/y alias islicensed.",
+      "Shared dar/od inGB2/GB3 andal/y-or-ody neighborhoods do notform a commontyped organconstructor.",
+      "Exactwhole residuals/entrycontext remain; labels have0/0 paragraphflags and no sentences orparagraphscope inferred.",
+      "GDT631 ch/sh+cth family is notinstantiated bythese exactunits; dry/moist defaultisnot inherited."
+    ],
+    "missing": [
+      "word-owned organ/name/property/event groundtruth",
+      "typedsemanticproducer/consumer consequence",
+      "crossed plant/organ reuse",
+      "nativewhole-to-cache acceptedcorrespondence"
+    ]
+  },
+  "rival_assessment": [
+    {
+      "hypothesis": "Unchanged whole plant-kind name reused literally in paired herbal prose",
+      "actual_constraint": "No exact rawwholeP recurrence in179profiles; no eligible exactlabel-to-prose edge inthispacket",
+      "ceiling": "No bridge capacity. Conditional/cache-specific nooccurrence is not universal refutation of names or inflected/compositionalreference; no targetformalrerun."
+    },
+    {
+      "hypothesis": "One invariant whole organ label or one identical fixed605 organ-wrapper unit shared acrossall3",
+      "actual_constraint": "Three cached mainwholes differ; intersection of exactfixed605 units acrossall3 is empty in ZL/ITandRF views",
+      "ceiling": "No support for that narrowly invariantencoding. Cannot identifyROOT, refute all organsemantics or turn learnedcuts into morphemes; nativejoins unbound."
+    },
+    {
+      "hypothesis": "Compositional plant-name plus part/organ wrapper",
+      "actual_constraint": "Units individually recur infixed608 background; pairwise sharedunits but no commonunitacrossall3; order/residuals remain; no semanticconstructor or crossedorgan/plant reuse predicted",
+      "ceiling": "CompatibleconditionalC0rival, unselected. Componentfamiliarity doesnot construct typedmeaning or newlexeme."
+    },
+    {
+      "hypothesis": "Whole kind/name, label class/property/state, or procedure heading",
+      "actual_constraint": "Singleton/distribution andpartcuts alone permit allthese; anatomy givesno word-owned class/property/eventvalue",
+      "ceiling": "Survive asalternativeC0families; nonepreferred bythese counts. No glossselected."
+    },
+    {
+      "hypothesis": "Physical cutting/extraction/removal encoded bylabels",
+      "actual_constraint": "1126/1127 nativeanatomy didnotfindsecurecutoperation; newcachedwords/profilescontainnone oftheir own eventevidence",
+      "ceiling": "Unselected; no processmeaning or repair. Basaldetail/stylization/growthstage/template rivals persist."
+    }
+  ],
+  "C2_discrepancy": {
+    "worker_proposals": [
+      "qodalody",
+      "qodaloly",
+      "qodarody",
+      "qodaroly",
+      "qotalody",
+      "qotaloly",
+      "qotarody",
+      "qotaroly"
+    ],
+    "critic_proposals": [
+      "qokalody",
+      "qokarody",
+      "qokolody",
+      "qokorody"
+    ],
+    "cached_reader_forms": [
+      "loralody",
+      "losalody"
+    ],
+    "worker_critic_intersection": [],
+    "native_cache_intersections": [],
+    "certified_exhaustive": false,
+    "sourceerror_concluded": false,
+    "cache_attachment_undisputed": false,
+    "reason": "Bothobservers givefallibleEVAproposals, unresolvedjoins anduncertainty; alternatives explicitlynotexhaustive. Initialqo… vs cachedlo… is anunresolvednative/correspondence difference, not automaticoldsourceerror.",
+    "post_reference_ceiling": "CONDITIONAL_CACHE_COMPATIBILITY; pre-cache literalsets unchanged; no demonstrated sourceerror orindependentexactrecovery"
+  },
+  "exposure_and_independence": [
+    "Allprojectnativegeometry,humanplantnominations,oldSNPL/motiflabel exposure persist. Proceduralpre-cachefreeze isnot blindsemanticconfirmation.",
+    "Three readers are alternatetranscriptionsofonemanuscript; nativeobservers addcriticism, notphysicalreplication.",
+    "Allthree pharmaceuticalobjects/labels are onphysical102; threecases,ninecache rows and179selectors donot supply independentleaf confirmation.",
+    "GB2/GB3zero counts excludeownlogicalr2from179; C2countdoesincludeownlabel, so counts are notequallysampledoriginrecurrence.",
+    "Oneeditspellingneighbors suchas oralody are rawsimilarity only; no semantic/variantbridge isadmitted.",
+    "Rootpost-cache notationreference has incidentalunused unadmittedf1rbodyextractorexposure; doesnot admitbody orcreateconfirmation. Auditor readfrozen diagnosticreport only."
+  ],
+  "original_decisions_unchanged": [
+    "SNPL002 NO_SOURCE_NATIVE_LOCAL_REFERENCE_RECOVERY",
+    "GDT1084 REDUNDANT_WITH_SNPL002_NO_NEW_DECISION / original NO_FOUR_PAIR_FORMAL_SIGNAL",
+    "FPR001 FINAL_NONCONFIRMATION_FIFTH_RELATION_ORDERED_ROOT",
+    "GDT1126 PARTIAL_SOURCE_INVALID_CAPACITY_NOT_ESTABLISHED",
+    "GDT1127 distinctpharmaceuticalleaf capacitycriterion unmet",
+    "GDT1125 FAIL"
+  ],
+  "decision": {
+    "pure_whole_label_exactprose_bridge_capacity": "NONE_IN_THIS_PACKET",
+    "new_word_or_meaning_selected": false,
+    "newregisteredscientificPASS": false,
+    "oldtests_rerun_authorized": false,
+    "conditionalcache_priors_retained": true,
+    "C2directreading_to_cache_status": "CONDITIONAL_POST_REFERENCE_COMPATIBILITY_NOT_INDEPENDENT_EXACT_JOIN",
+    "next_research_consequence": "Retain conditionalcache formalpriors andfrozennativeunknowns/discrepancy, with rootpost-reference compatibility asdiagnostic. Do notattachC2undisputed, growglossary orrerunmotifs. A furthermeaning hypothesis needs a separatelyselected word-owned constraint andcomputedconsequence beyondsingletoninventory; noadditionalwork authorizedhere."
+  },
+  "coverage": "Allnine exactcachedrows, allfiveprofiles/fifteenreaderformcells, allfivefixed605projections and their608context records, completefrozennativeobserverrecords reviewed. No newtargetdata acquisition/query; accounting/sourcepinchecks only, no independent visual reread orsemanticvalidation.",
+  "post_freeze_notation_diagnostic": {
+    "source": "Root post-reference comparison; this auditor read text report only, no PDF/crop/newimage view",
+    "chronology": "After nativefreeze and cache exposure, separately noted diagnostic; cannot repair originalpredictions",
+    "reported_result": "Root reports first C2 glyph fits standard EVA l ratherthan4-likeq; third fits r ratherthan2-shaft gallowsk; unchangedcrop compatible with loralody; losalody notconfidentlyexcluded. GB2compatiblewithkoldarod;GB3stilluncertain.",
+    "effect": "Weakens treating the pre-cacheproposal mismatch as source/locuserror; permits conditional compatibility only, not independentexactrecovery orundisputedjoin.",
+    "originalnativeandcountsunchanged": true,
+    "incidental_exposure": "PDF text extractor returned unadmitted f1rbodyexample page5 parserlines112–138; unused, disclosed outside marginadmission; no newgrant/meaning or confirmation capacity.",
+    "reference_pdf_sha256": "2f9a9c7e81dedfbd934e49eeac47de07e7e0855eda46f063a0624958d3e524fc"
+  }
+}

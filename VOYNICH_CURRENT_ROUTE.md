@@ -3,13 +3,13 @@ Updated: 2026-10-01. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: GC/GDT1128 three owned native labels to cached readings.
-Latest decision: Nominal mappings old;direct native join unchecked.
-Working files: experiments/yolo/gdt1128_native_owned_label_reading_binding/PREREGISTRATION.md.
-Assumptions: Sameleaf102;oldFAILs;no meanings/reserves.
-Resume: Freeze native readings before exact3locus cache query.
-Running: native inspectors;bounded independent idea supply.
+Status: checkpoint
+Task: GC/GDT1128 owned-label input check closed.
+Latest decision: Conditional joins;no wholeform prose bridge.
+Working files: experiments/yolo/gdt1128_native_owned_label_reading_binding/REPORT.md.
+Assumptions: Nativeunknowns;all102;oldFAILs;0meanings.
+Resume: Need complete discriminating written owner/argument case.
+Running: none;GC outcome awaiting publication.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -41,7 +41,7 @@ Other closed families remain in the existing registry; no automatic reopening.
 f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;92 legacy image keys/98 selectors (F scope receipt). f1r margins only;
-f106v image fixed paragraph only. Register new access first. GB: [image grant](docs/VOYNICH_DATA_SCOPE_20261001_CORRECTED_PLANT_PAIRS.md). Contracts:
+f106v image fixed paragraph only. Register new access first. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts:
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [detail](docs/VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md); [base](docs/VOYNICH_DATA_SCOPE.md); [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use

@@ -1,0 +1,132 @@
+{
+  "schema": "GDT1128_INDEPENDENT_NATIVE_READING_V1",
+  "status": "FROZEN_NATIVE_PROPOSALS_WITH_TWO_WHOLE_UNKNOWNS",
+  "frozen_utc": "2026-10-01T19:46:46.385764+00:00",
+  "preregistration_commit": "9170a4ae9",
+  "GO_sha256": "bccfaf1b7775c21905ec0193dc3e6ab3c56b139bbe324b2cf1f1c58d7dfae0d9",
+  "scope_sha256": "170fdfb8661df05a1cee13d006fd4eef132c5bcef6b67771b0d5f9537721860e",
+  "C2_geometry": {
+    "source_canvas": "1006253",
+    "localization_box_xyxy": [
+      1150,
+      1790,
+      1980,
+      2610
+    ],
+    "label_only_box_xyxy": [
+      1540,
+      2075,
+      1840,
+      2220
+    ],
+    "criterion": "Entire central isolated ink island immediately right of240 neck and below divided blade; exclude neighboring inscription patches and prose. Geometry frozen before glyph reading.",
+    "frozen_utc": "2026-10-01T19:39:14.119703+00:00"
+  },
+  "C2_geometry_sha256": "c389aa34162023520c5783564d4089b38a862901c3f9c329883160bc147e8dc2",
+  "geometry_frozen_before_glyph_reading": true,
+  "C2_geometry_crop_sha256": "fea25f975c1af532de64ad2a394b2eec8570c4b1d852fbed772886246b2ee42b",
+  "native_readings": [
+    {
+      "case": "GB2",
+      "source_canvas": "1006251",
+      "box_xyxy": [
+        5870,
+        2630,
+        6240,
+        2750
+      ],
+      "crop": "critic_GB2_label_only.png",
+      "complete_whole_EVA": "UNKNOWN",
+      "tentative_fragment": "Initial tall gallows compatible with p/t; terminal looped ascender compatible with d. No reliable whole-string proposal.",
+      "strokes": [
+        "Leftmost sign has two tall close upright strokes and an upper curve; gallows identity p/t unresolved.",
+        "Following low ink is joined/faint; separable ch versus several simple curved signs unresolved.",
+        "Middle includes small closed/part-closed loops and at least one higher curved stroke.",
+        "Right end has a tall looped/curled sign; d possible."
+      ],
+      "uncertainty": "Too many unresolved linked signs to assert a complete EVA word or a unique glyph count. Do not fill from later cache.",
+      "word_boundaries": "One isolated horizontal ink island; no secure internal word break seen.",
+      "clipping": "Ink appears inside all four fixed crop edges; faint strokes and joins, not clipping, limit reading.",
+      "crop_sha256": "05e612b870ba448d3cf62081434a61e5e385a14b019fdde4c5e0a6c8fa644b6a"
+    },
+    {
+      "case": "GB3",
+      "source_canvas": "1006251",
+      "box_xyxy": [
+        6890,
+        2700,
+        7250,
+        2840
+      ],
+      "crop": "critic_GB3_label_only.png",
+      "complete_whole_EVA": "UNKNOWN",
+      "tentative_fragment": "Initial o followed by d-like looped sign; subsequent low/looped signs and tail unresolved.",
+      "strokes": [
+        "Initial small closed o-like loop.",
+        "Next sign has a dark upper oval and lower loop, compatible with EVA d.",
+        "Central small low curves are difficult to separate into a/o and r/l-like signs.",
+        "Final sequence crosses a vertical crease and dark specks; tail cannot be confidently separated from defect/ink."
+      ],
+      "uncertainty": "No complete whole EVA string supported; the final crease-obscured signs must remain UNKNOWN, not repaired from profile or reader agreement.",
+      "word_boundaries": "One isolated island, no secure internal break; faint spacing does not prove multiple groups.",
+      "clipping": "Island appears within fixed box; crease degradation is material. No enlargement or alternate island used.",
+      "crop_sha256": "db24521abfc54585cf3ae279d211c1db6eb8e3a6d020ea2932da7362d998d81c"
+    },
+    {
+      "case": "C2",
+      "source_canvas": "1006253",
+      "box_xyxy": [
+        1540,
+        2075,
+        1840,
+        2220
+      ],
+      "crop": "critic_C2_label_only.png",
+      "complete_whole_EVA": "TENTATIVE_FINITE_ALTERNATIVES",
+      "EVA_candidates": [
+        "qokalody",
+        "qokarody",
+        "qokolody",
+        "qokorody"
+      ],
+      "EVA_notation": "qok{a/o}{l/r}ody",
+      "certainty": "Low; candidates are hypotheses, not accepted transcription.",
+      "strokes": [
+        "Initial sign has a small loop/knot and long descending leftward stroke, compatible with q.",
+        "Next compact rounded loop compatible with o.",
+        "Third sign has a high curved hook/arch with a descending lower fork; k proposed, not sound or meaning.",
+        "Next low rounded/angular sign could be a or o.",
+        "Next loop-and-descending-slant sign could be l or r.",
+        "A further clear rounded loop supports o.",
+        "Penultimate high dark looped sign supports d.",
+        "Final curved upper loop with descending tail supports y."
+      ],
+      "uncertainty": "a/o and l/r unresolved; segmentation and initial q/k reading remain fallible. Candidate set is not claimed exhaustive of damaged-hand possibilities.",
+      "word_boundaries": "One central isolated island; no compelling internal space. Read as one tentative whole, preserving possible segmentation uncertainty.",
+      "clipping": "All island ink including descending first/final tails lies inside frozen label box. A tiny root-pigment trace at extreme left/bottom is not treated as glyph. Adjacent inscriptions excluded.",
+      "crop_sha256": "f9feaf0b032ae8ef13f85fc9066b2b6d46c498871c5ddaf2e3bb79d706088ecd"
+    }
+  ],
+  "source_pins": [
+    {
+      "source_canvas": "1006251",
+      "sha256": "30fd529fc6bf8999d5be48024ee6a1676af55e8d66dc0a4f77993fe2565e9d94"
+    },
+    {
+      "source_canvas": "1006253",
+      "sha256": "e3ed770ad77b1c1127b8e60b2ee2d9e226ab4089d4861b85dbf22299925397ce"
+    }
+  ],
+  "separation": {
+    "target_cache_contents_opened": false,
+    "first_reader_outputs_opened": false,
+    "root_stroke_account_opened": false,
+    "previous_project_exposure": true,
+    "not_blind_replication": true,
+    "native_boxes_enlarged_after_reading": false,
+    "other_inscriptions_read": false,
+    "OCR_decoder_reference_expansion": false
+  },
+  "limits": "Manual EVA proposals only. UNKNOWN is a completed native result. No cached join, correction, name, organ, operation, sound, meaning or GDT388 score selected. All labels on physical leaf102; original prior decisions unchanged.",
+  "after_freeze_policy": "Do not change proposals to match cached strings; comparison may retain disagreement or native uncertainty."
+}
