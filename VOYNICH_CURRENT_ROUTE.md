@@ -9,7 +9,7 @@ Latest decision: IDEA859 full critique; semantic rivals retain identical graph.
 Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FS_REPORT.md.
 Assumptions: 0 words; FO/FP/FR frozen; seals/reserves closed.
 Resume: Review f83 coupled-configuration primaries before a full rival reading.
-Running: Eight Sol tasks complete; root publication. No timed abort.
+Running: None; eight Sol tasks complete and published. No timed abort.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
