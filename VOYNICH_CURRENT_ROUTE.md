@@ -9,7 +9,7 @@ Latest decision: 4graphic leads;3ownedpairs onleaf102;no meaning.
 Working files: experiments/yolo/gdt1127_native_pair_correct_canvas_followup/REPORT.md.
 Assumptions: Coidentityhyp;oldFAILs;noreserve/glyphreading.
 Resume: Register exact3label-reading map;retainwordgrammar.
-Running: none;10hminimum completed;publishactualcaseclosure.
+Running: none;10hminimum completed;closurepushedtomain.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
