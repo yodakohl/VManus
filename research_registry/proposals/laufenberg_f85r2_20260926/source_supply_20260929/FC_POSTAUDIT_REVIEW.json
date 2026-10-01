@@ -1,0 +1,752 @@
+{
+  "unit": "FC independent post-audit review",
+  "status": "CAPACITY_DIAGNOSTIC_ACCEPTED_NO_RESOLVED_OUTSIDE_GRAPH_NO_MEANING_REFUTATION",
+  "frozen": "2026-10-01T00:31:21.907063+00:00",
+  "timing": {
+    "first_clock": "2026-10-01 00:28:23 UTC",
+    "finished": "2026-10-01T00:31:21.907063+00:00",
+    "elapsed_seconds": 178.907063,
+    "cap_seconds": 180,
+    "receipt_to_first_clock": "not measured"
+  },
+  "inputs": {
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FC_DECISION.json": "b68255b6939f3ea9bbc22fc15d74d8a53ec80b9aba8affd587a7b2ccc5fb9914",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FC_RESULT.json": "e59c347fb5e7a27ed0128ccebdc9062d6ba7d042c74cb99fa64484858dff5c5e",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FC_CASES.json": "ce4feab60aca8a7d876cddbac96694d109c24028fb12646a7dcfe90a346d4a8e",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FC_WHOLE_CONTEXTS.json": "693b99849f466a51704a235b0989af06c9955741c583b5f8ec9a5a288cb17d63",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FC_AUDIT.py": "6576e223aa20b23d4420f5f6c9344969181cb42c75d879de2d16c5ca60d3c39d",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FB_AUTHOR.json": "e622c91b912bedc35baf71c685e8799ad23aa14f87f01460d3d4224c42ca6319",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FC_CONTRACT_REVIEW.json": "d8bf134cb48399919e8de200fc0b1a1689b6590d2a29018983c60812de18b6da"
+  },
+  "public_registration": {
+    "commit": "0a48344509bb7eac6dea5e4e8bf9b029743e8a8e",
+    "lookup": "read-only git log exact commit plus git show FC_DECISION.json",
+    "frozen_decision_byte_equal_to_public_registration": true,
+    "first_successful_body_audit_utc": "2026-10-01T00:27:57.730816+00:00",
+    "audit_time_provenance": "root dispatch; not independently reconstructed runtime"
+  },
+  "coverage": {
+    "target_count": 542,
+    "unique_target_ids": 542,
+    "reader_target_counts": {
+      "IT2a": 190,
+      "RF1b": 159,
+      "ZL3b": 193
+    },
+    "reader_form_counts": {
+      "IT2a|dain": 188,
+      "IT2a|lfchedy": 2,
+      "RF1b|dain": 158,
+      "RF1b|lfchedy": 1,
+      "ZL3b|dain": 191,
+      "ZL3b|lfchedy": 2
+    },
+    "own_complete_paragraphs": 258,
+    "reader_paragraph_counts": {
+      "ZL3b": 130,
+      "IT2a": 128
+    },
+    "paragraph_groups": 15662,
+    "line_only_contexts": 172,
+    "no_own_paragraph_targets": 180,
+    "artifact_target_ids_equal_case_inventory": true,
+    "G_I_overlay_mismatches": 0,
+    "split_counts": {
+      "OTHER_EXPOSED_LEAF": 512,
+      "OTHER_PARAGRAPH_SAME_SELECTION_LEAF": 25,
+      "ORIGINAL_CONSTRUCTION": 5
+    },
+    "limits": "Original construction remains in inventory as five separate target cases, not transfer. All matching own paragraphs are retained, including unrelated positions. Coverage agrees across frozen outputs and audited SQL selection code; no independent new cache/source query was run. 172 line contexts contain 180 targets; do not confuse these denominators."
+  },
+  "LFCHEDY_all_cases": [
+    {
+      "source_group_id": "IT2a|f111r.36|G009",
+      "edition": "IT2a",
+      "page": "f111r",
+      "locus": "f111r.36",
+      "physical_leaf": 111,
+      "split": "ORIGINAL_CONSTRUCTION",
+      "form": "lfchedy",
+      "value": "that-material",
+      "type": "MATERIAL_REFERENCE",
+      "paragraph_id": "f111r|f111r.36-f111r.43",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "IT2a|f111r.36|G005",
+        "raw": "pykeor",
+        "value": "oil",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "IT2a|f111r.36|G005",
+          "raw": "pykeor",
+          "value": "oil",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        },
+        {
+          "source_group_id": "IT2a|f111r.36|G004",
+          "raw": "qofchedy",
+          "value": "root",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": null,
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "IT2a|f113r.37|G009",
+      "edition": "IT2a",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "physical_leaf": 113,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "lfchedy",
+      "value": "that-material",
+      "type": "MATERIAL_REFERENCE",
+      "paragraph_id": "f113r|f113r.37-f113r.38",
+      "status": "UNKNOWN_OR_BOUNDARY_BLOCKED",
+      "latest_candidate": null,
+      "all_candidate_mentions": [],
+      "last_barrier": {
+        "source_group_id": "IT2a|f113r.37|G008",
+        "raw": "opchedy",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "RF1b|f113r.37|G009",
+      "edition": "RF1b",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "physical_leaf": 113,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "lfchedy",
+      "value": "that-material",
+      "type": "MATERIAL_REFERENCE",
+      "paragraph_id": null,
+      "status": "NO_PARAGRAPH_CAPACITY",
+      "latest_candidate": null,
+      "all_candidate_mentions": [],
+      "last_barrier": null,
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "ZL3b|f111r.36|G009",
+      "edition": "ZL3b",
+      "page": "f111r",
+      "locus": "f111r.36",
+      "physical_leaf": 111,
+      "split": "ORIGINAL_CONSTRUCTION",
+      "form": "lfchedy",
+      "value": "that-material",
+      "type": "MATERIAL_REFERENCE",
+      "paragraph_id": "f111r|f111r.36-f111r.43",
+      "status": "TARGET_BOUNDARY_UNCERTAIN",
+      "latest_candidate": {
+        "source_group_id": "ZL3b|f111r.36|G005",
+        "raw": "pykeor",
+        "value": "oil",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "ZL3b|f111r.36|G005",
+          "raw": "pykeor",
+          "value": "oil",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        },
+        {
+          "source_group_id": "ZL3b|f111r.36|G004",
+          "raw": "qofchedy",
+          "value": "root",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": null,
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "ZL3b|f113r.37|G009",
+      "edition": "ZL3b",
+      "page": "f113r",
+      "locus": "f113r.37",
+      "physical_leaf": 113,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "lfchedy",
+      "value": "that-material",
+      "type": "MATERIAL_REFERENCE",
+      "paragraph_id": "f113r|f113r.37-f113r.38",
+      "status": "UNKNOWN_OR_BOUNDARY_BLOCKED",
+      "latest_candidate": null,
+      "all_candidate_mentions": [],
+      "last_barrier": {
+        "source_group_id": "ZL3b|f113r.37|G008",
+        "raw": "opchedy",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    }
+  ],
+  "LFCHEDY_full_paragraph_assessment": [
+    {
+      "reader": "IT2a",
+      "paragraph": "f111r|f111r.36-f111r.43",
+      "groups": 82,
+      "assessment": "Original construction. Contiguous .36 paid FB nominal/root/oil/application graph already conditional; FC labels alone intentionally do not reconstruct it. Do not erase retained FB local graph because diagnostic emits candidate-only."
+    },
+    {
+      "reader": "ZL3b",
+      "paragraph": "f111r|f111r.36-f111r.43",
+      "groups": 86,
+      "assessment": "Original construction, full paragraph inspected. LFCHEDY G009 right and PCHAL G010 left separators UNCERTAIN_SMALL_SPACE. Target-boundary uncertainty and subsequent conservative run barrier are justified source-capacity classifications; not a new universal boundary law or silent FB repair. Original ZL.37 KEEOL crossing UNKNOWN G003 remains unchanged."
+    },
+    {
+      "reader": "IT2a",
+      "paragraph": "f113r|f113r.37-f113r.38",
+      "groups": 17,
+      "assessment": "Sole outside exact full paragraph. Prior .37 tokens tshedy UNKNOWN, qokaiin of-liquid, shedar deposits, then sheocphy/okchdy/pcheody/opchear/opchedy UNKNOWN. OPCHEDY G008 is not frozen OPCHEDAL apply. LFCHEDY G009 has no candidate within current unknown-free run; following OTAL and entire .38 remain UNKNOWN. No oil/root/patient/site binding."
+    },
+    {
+      "reader": "ZL3b",
+      "paragraph": "f113r|f113r.37-f113r.38",
+      "groups": 17,
+      "assessment": "Same outside locus, own-reader full paragraph separately inspected; sheo[s:r] differs in .38 and remains UNKNOWN. Same OPCHEDY G008 barrier. Not independent replication."
+    },
+    {
+      "reader": "RF1b",
+      "paragraph": null,
+      "assessment": "Outside f113r.37 LFCHEDY exists but no own native full paragraph capacity; preserve source line only without borrowed ZL/IT scope."
+    }
+  ],
+  "DAIN_candidate_only_cases": [
+    {
+      "source_group_id": "IT2a|f111r.37|G001",
+      "edition": "IT2a",
+      "page": "f111r",
+      "locus": "f111r.37",
+      "physical_leaf": 111,
+      "split": "ORIGINAL_CONSTRUCTION",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f111r|f111r.36-f111r.43",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "IT2a|f111r.36|G004",
+        "raw": "qofchedy",
+        "value": "root",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "IT2a|f111r.36|G004",
+          "raw": "qofchedy",
+          "value": "root",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": null,
+      "R9_exact_pair": true,
+      "R9_next_id": "IT2a|f111r.37|G002",
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "IT2a|f47r.3|G007",
+      "edition": "IT2a",
+      "page": "f47r",
+      "locus": "f47r.3",
+      "physical_leaf": 47,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f47r|f47r.1-f47r.5",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "IT2a|f47r.3|G006",
+        "raw": "chol",
+        "value": "drug-stock",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "IT2a|f47r.3|G006",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": {
+        "source_group_id": "IT2a|f47r.3|G005",
+        "raw": "ckhey",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "IT2a|f47v.9|G005",
+      "edition": "IT2a",
+      "page": "f47v",
+      "locus": "f47v.9",
+      "physical_leaf": 47,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f47v|f47v.7-f47v.14",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "IT2a|f47v.9|G004",
+        "raw": "chol",
+        "value": "drug-stock",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "IT2a|f47v.9|G004",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        },
+        {
+          "source_group_id": "IT2a|f47v.9|G003",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": {
+        "source_group_id": "IT2a|f47v.9|G002",
+        "raw": "chety",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "IT2a|f5v.2|G005",
+      "edition": "IT2a",
+      "page": "f5v",
+      "locus": "f5v.2",
+      "physical_leaf": 5,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f5v|f5v.1-f5v.6",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "IT2a|f5v.2|G003",
+        "raw": "chol",
+        "value": "drug-stock",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "IT2a|f5v.2|G003",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": {
+        "source_group_id": "IT2a|f5v.2|G002",
+        "raw": "sy",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "IT2a|f81r.10|G002",
+      "edition": "IT2a",
+      "page": "f81r",
+      "locus": "f81r.10",
+      "physical_leaf": 81,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f81r|f81r.1-f81r.15",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "IT2a|f81r.10|G001",
+        "raw": "chol",
+        "value": "drug-stock",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "IT2a|f81r.10|G001",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": {
+        "source_group_id": "IT2a|f81r.9|G004",
+        "raw": "chcphey",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "ZL3b|f47r.3|G007",
+      "edition": "ZL3b",
+      "page": "f47r",
+      "locus": "f47r.3",
+      "physical_leaf": 47,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f47r|f47r.1-f47r.5",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "ZL3b|f47r.3|G006",
+        "raw": "chol",
+        "value": "drug-stock",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "ZL3b|f47r.3|G006",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": {
+        "source_group_id": "ZL3b|f47r.3|G005",
+        "raw": "ckhey",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "ZL3b|f47v.9|G005",
+      "edition": "ZL3b",
+      "page": "f47v",
+      "locus": "f47v.9",
+      "physical_leaf": 47,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f47v|f47v.7-f47v.14",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "ZL3b|f47v.9|G004",
+        "raw": "chol",
+        "value": "drug-stock",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "ZL3b|f47v.9|G004",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        },
+        {
+          "source_group_id": "ZL3b|f47v.9|G003",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": {
+        "source_group_id": "ZL3b|f47v.9|G002",
+        "raw": "chety",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "ZL3b|f5v.2|G005",
+      "edition": "ZL3b",
+      "page": "f5v",
+      "locus": "f5v.2",
+      "physical_leaf": 5,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f5v|f5v.1-f5v.6",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "ZL3b|f5v.2|G003",
+        "raw": "chol",
+        "value": "drug-stock",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "ZL3b|f5v.2|G003",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": {
+        "source_group_id": "ZL3b|f5v.2|G002",
+        "raw": "{c'y}",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "ZL3b|f81r.10|G002",
+      "edition": "ZL3b",
+      "page": "f81r",
+      "locus": "f81r.10",
+      "physical_leaf": 81,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f81r|f81r.1-f81r.15",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "ZL3b|f81r.10|G001",
+        "raw": "chol",
+        "value": "drug-stock",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "ZL3b|f81r.10|G001",
+          "raw": "chol",
+          "value": "drug-stock",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": {
+        "source_group_id": "ZL3b|f81r.9|G004",
+        "raw": "chcphey",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": false,
+      "R9_next_id": null,
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    }
+  ],
+  "DAIN_candidate_assessment": {
+    "outside_reader_cases": 8,
+    "outside_distinct_loci": [
+      "f5v.2",
+      "f47r.3",
+      "f47v.9",
+      "f81r.10"
+    ],
+    "outside_physical_leaves": [
+      5,
+      47,
+      81
+    ],
+    "full_paragraphs_inspected": "Each own IT and ZL paragraph separately: f5v.1-6, f47r.1-5, f47v.7-14, f81r.1-15. Original f111r.36-43 also inspected.",
+    "specific_duties": [
+      "f5v.2 CHOL G003, OTAIIN G004, DAIN G005: candidate label across known in-vessel phrase, no paid resolved vessel/stock event.",
+      "f47r.3 CHOL G006 DAIN G007 is local latest candidate; earlier CHOL mentions are separated by UNKNOWNs. Further DAIN on .5 remains blocked, not rescued by this candidate.",
+      "f47v.9 CHOL G003 and G004 precede DAIN G005: latest G004 selected as candidate; same nominal word does not decide one versus two stock individuals.",
+      "f81r.10 CHOL G001 DAIN G002: preceding .9 UNKNOWN blocks earlier history; subsequent MOUTH/CLEAR/PREPARED-MEDICINE labels do not create an application or execution graph."
+    ],
+    "verdict": "These are honest candidate-only fixed dictionary consequences, not independently bound participants, English confirmations or complete readings."
+  },
+  "R9_all_four_pairs": [
+    {
+      "source_group_id": "IT2a|f111r.37|G001",
+      "edition": "IT2a",
+      "page": "f111r",
+      "locus": "f111r.37",
+      "physical_leaf": 111,
+      "split": "ORIGINAL_CONSTRUCTION",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f111r|f111r.36-f111r.43",
+      "status": "CANDIDATE_LABEL_ONLY",
+      "latest_candidate": {
+        "source_group_id": "IT2a|f111r.36|G004",
+        "raw": "qofchedy",
+        "value": "root",
+        "identity": "UNRESOLVED_NOMINAL_LABEL"
+      },
+      "all_candidate_mentions": [
+        {
+          "source_group_id": "IT2a|f111r.36|G004",
+          "raw": "qofchedy",
+          "value": "root",
+          "identity": "UNRESOLVED_NOMINAL_LABEL"
+        }
+      ],
+      "last_barrier": null,
+      "R9_exact_pair": true,
+      "R9_next_id": "IT2a|f111r.37|G002",
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "IT2a|f116r.19|G012",
+      "edition": "IT2a",
+      "page": "f116r",
+      "locus": "f116r.19",
+      "physical_leaf": 116,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f116r|f116r.18-f116r.30",
+      "status": "UNKNOWN_OR_BOUNDARY_BLOCKED",
+      "latest_candidate": null,
+      "all_candidate_mentions": [],
+      "last_barrier": {
+        "source_group_id": "IT2a|f116r.19|G011",
+        "raw": "oty",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": true,
+      "R9_next_id": "IT2a|f116r.20|G001",
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "ZL3b|f111r.37|G001",
+      "edition": "ZL3b",
+      "page": "f111r",
+      "locus": "f111r.37",
+      "physical_leaf": 111,
+      "split": "ORIGINAL_CONSTRUCTION",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f111r|f111r.36-f111r.43",
+      "status": "UNKNOWN_OR_BOUNDARY_BLOCKED",
+      "latest_candidate": null,
+      "all_candidate_mentions": [],
+      "last_barrier": {
+        "source_group_id": "ZL3b|f111r.36|G010",
+        "raw": "pchal",
+        "G_value": "skin",
+        "reason": "UNCERTAIN_BOUNDARY"
+      },
+      "R9_exact_pair": true,
+      "R9_next_id": "ZL3b|f111r.37|G002",
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    },
+    {
+      "source_group_id": "ZL3b|f116r.19|G013",
+      "edition": "ZL3b",
+      "page": "f116r",
+      "locus": "f116r.19",
+      "physical_leaf": 116,
+      "split": "OTHER_EXPOSED_LEAF",
+      "form": "dain",
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "paragraph_id": "f116r|f116r.18-f116r.30",
+      "status": "UNKNOWN_OR_BOUNDARY_BLOCKED",
+      "latest_candidate": null,
+      "all_candidate_mentions": [],
+      "last_barrier": {
+        "source_group_id": "ZL3b|f116r.19|G012",
+        "raw": "y",
+        "G_value": "UNKNOWN",
+        "reason": "UNKNOWN"
+      },
+      "R9_exact_pair": true,
+      "R9_next_id": "ZL3b|f116r.20|G001",
+      "resolved_outside_entity": false,
+      "semantic_contradiction": false,
+      "diagnostic_limit": "Nominal labels are not resolved identities; available paragraph/run is no universal reference-scope law."
+    }
+  ],
+  "R9_assessment": "Two original pairs IT/ZL f111r.37 G001→G002 and one outside physical instance f116r.19→20 represented by IT G012→.20 G001 and ZL G013→.20 G001. Cross-line exact adjacency is preserved within each own paragraph. Outside preceding IT OTY/ZL Y is UNKNOWN; no resolved backward stock. Earlier QOTAIN prepared-medicine and CHCTHY drug-extract do not become stocks to repair this. R9 is not unconditional root identity and pair occurrence alone does not satisfy R6. f116r admitted; this is not sealed f116v.",
+  "scope_classification_critique": {
+    "accepted": "Source boundary uncertainty, UNKNOWN barriers, candidate-only labels and missing own paragraph are separated. Nominal candidate eligibility is fixed before opening and preparations are not promoted to STOCK_REFERENCE antecedents. G/I differ only at LCHEDY property, so candidate classification identity across branches does not select G or I.",
+    "conservative_limit": "UNKNOWN-free run and paragraph container bound this diagnostic only. No universal same-paragraph antecedent or arbitrary leftmost/nearest nominal law follows. A known action/THEN can alter discourse even within an unknown-free run; diagnostic wisely does not claim these labels resolve a frame.",
+    "hardcoded_zero": "FC_AUDIT.py sets every resolved_outside_entity=False and aggregate outside_resolved_reference_claims=0; it does not implement or search inherited entity graphs. Zero means no graph asserted by this diagnostic/manual inspection, not exhaustive proof that all possible reference bindings are impossible. Original local entities already paid in FB must remain separately retained.",
+    "status_priority": "CANDIDATE_LABEL_ONLY can coexist with earlier last_barrier: barrier precedes candidate, not crossed by nearest local candidate. TARGET_BOUNDARY_UNCERTAIN can retain diagnostic candidate metadata without scoring it. NO_PARAGRAPH_CAPACITY takes priority and line remains visible.",
+    "absence_limit": "No known antecedent or all-blocked cases are missing lexical/participant capacity under frozen dictionary, not semantic contradiction. semantic_contradiction=False is an appropriate claim ceiling, not experimental proof of meaning compatibility."
+  },
+  "decision": "Accept finite coverage/capacity accounting. Frozen glossary does not supply an outside resolved complete participant graph here; do not nominate DAIN/LFCHEDY as translated anchors or expand reference engine/glossary to rescue. Preserve paid original FB core and original ZL scope conflict. No portable meaning winner; next whole-context selection needs explicit participant evidence and separate prior contract.",
+  "boundaries": {
+    "only_output": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FC_POSTAUDIT_REVIEW.json",
+    "new_data_queries": false,
+    "audit_runner_reexecuted": false,
+    "author_or_sharedstate_changes": false,
+    "images_or_contacts_or_reserves": false,
+    "published_context_exposure": "Reviewed frozen FC whole contexts and prior published reports. All exposed internal transfer; alternative readers are one manuscript.",
+    "confirmed_words": 0,
+    "independent_confirmation_leaves": 0,
+    "tests_run": false,
+    "status_distinctions": "Blocked/unknown identity = missing meaning binding; absent own paragraph/uncertain source = capacity/data limit; asserted rule violation would invalidate a fixed graph, not automatically refute word value; no new semantic failure established."
+  }
+}

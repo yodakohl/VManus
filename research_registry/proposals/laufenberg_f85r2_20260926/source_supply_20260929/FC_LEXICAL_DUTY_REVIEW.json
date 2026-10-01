@@ -1,0 +1,107 @@
+{
+  "status": "FROZEN_LEXICAL_DUTY_REVIEW_BUDGET_EXCEEDED_BEFORE_ARTIFACT_NO_EXPANSION",
+  "started_utc": "2026-10-01T00:23:19+00:00",
+  "completed_utc": "2026-10-01T00:27:16.866359+00:00",
+  "elapsed_seconds": 237.866,
+  "budget_seconds": 180,
+  "budget_note": "The attempted artifact assembly hit its3minute assertion before writing. No file was created by that command. This compact artifact records the completed reasoning and timing without additional research.",
+  "scope": "Route,FB_REPORT,FB_AUTHORexact12definitions/11rules/assumptions/decision,FB_WORD_PRIORSaggregate metadata only. No FCroot output or manuscriptbody query, external source, image, other TSV, reserve, contact, Git or shared-state edits.",
+  "independence": "No FCroot conclusions seen before freeze. Prior FB source/profile work is disclosed; no blind meaning confirmation.",
+  "definitions": {
+    "dain": {
+      "value": "that-stock",
+      "type": "STOCK_REFERENCE",
+      "arity": 0,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    },
+    "lfchedy": {
+      "value": "that-material",
+      "type": "MATERIAL_REFERENCE",
+      "arity": 0,
+      "status": "NEW_UNCONFIRMED_GLOBAL_WHOLE_VALUE",
+      "scope": "Same exact value at every admitted occurrence; this author validates only nominated whole context, outside consequences owed, no silent fallback."
+    }
+  },
+  "exact_rules": {
+    "R1": {
+      "name": "Exact overlay and type inheritance",
+      "condition": "Whole raw token exactly matches a declared dictionary key; no entity substitution, splitting, joining or spelling normalization. ROOT_MATERIAL is a subtype of drug-stock/solid material; OIL_MATERIAL is a subtype of liquid.",
+      "output": "One fixed atomic value/type per exact whole. Known parent value survives G/I unchanged.",
+      "scope": "All nominated IT/ZL/RF positions; no outside verification claimed."
+    },
+    "R6": {
+      "name": "Typed backward reference",
+      "condition": "A MATERIAL_REFERENCE/STOCK_REFERENCE/LIQUID_REFERENCE occurs after resolved nominal mentions.",
+      "output": "Choose the most recent compatible resolved material/stock/liquid entity in written order. Unknown tokens never introduce a guessed referent. If no compatible referent is available or an unresolved boundary obstructs scope, return UNBOUND.",
+      "scope": "Current resolved discourse frame; type restrictions are semantic hypotheses, not spelling laws."
+    },
+    "R9": {
+      "name": "Stock reintroduction",
+      "condition": "STOCK_REFERENCE immediately followed by old drug-stock nominal.",
+      "output": "Bind old D_stock nominal to the previously written compatible root reference through SAME_MATERIAL; root subtype is explicitly paid.",
+      "scope": "Contiguous exact atom pair; no unseen extraction relation."
+    },
+    "R11": {
+      "name": "Parent commitment priority and unknown transparency",
+      "condition": "Any inherited positive role/entity/event/phase/attachment commitment is present, or raw token has no exact declared value.",
+      "output": "Copy inherited commitment literally; new graph adds only paid refinements. Every unmatched raw is UNKNOWN, interrupts new frame composition, and contributes an unresolved position rather than a guessed clause. RF graph is not inherited by reader analogy.",
+      "scope": "All82/86/81 positions. New local frames do not imply a full paragraph parse."
+    }
+  },
+  "metadata": {
+    "dain": {
+      "form": "dain",
+      "focus_IT_occurrences": "1",
+      "IT_count": "188",
+      "IT_selectors": "90",
+      "IT_first": "44",
+      "IT_middle": "115",
+      "IT_last": "29",
+      "prior_ids": "WE001,WE006,WE007,WE009,WE012"
+    },
+    "lfchedy": {
+      "form": "lfchedy",
+      "focus_IT_occurrences": "1",
+      "IT_count": "2",
+      "IT_selectors": "2",
+      "IT_first": "0",
+      "IT_middle": "2",
+      "IT_last": "0",
+      "prior_ids": "WE009"
+    }
+  },
+  "duties": [
+    "DAINall188ITusages retains STOCK_REFERENCE/that-stock and the nearest-compatible resolved stock underR6;187outsidefocus remain owed. No fallback to amount, season, first-use introduction, liquid or generic material. Exact STOCK_REFERENCE+oldstock pair activatesR9; do not demand that pair for everyDAIN occurrence becauseR9is conditional.",
+    "LFCHEDYbothITusages retains MATERIAL_REFERENCE/that-material, nearest compatible resolved solid or liquid. Only1focus usage inspected; the outsideusage is owed. Oil was local nearest-material result, not its universal lexical denotation.",
+    "A current resolved frame and existing resolved nominal entity are required; unknown text never introduces a stock/material. No cataphora, hidden binder, reader fusion, alias, scope exception or new morphology may be supplied.",
+    "R9requires compatible root reintroduction when its exactpair condition fires; retain bothR6nearest-stock andR9coidentity duties rather than weaken it to any material. Outside instances need not be the originalR0/O0 or Kyklaminos."
+  ],
+  "prior_assessment": [
+    "DAIN188occurrences/90selectors,44first/115medial/29final: strong broad-use obligation, not a semantic refutation. First-line position does not establish no antecedent: physical lines are not sentence/frame boundaries.",
+    "LFCHEDY2occurrences/2selectors bothmedial is compatible with internal reference but supplies no anaphor, material or referent identity.",
+    "DAINWE001/006/007/009/012andLFCHEDYWE009are navigation, not meaning evidence. No uninspected source primary claim promoted; general directed composition/hierarchy/whole residuals gives neither STOCK nor MATERIAL semantics.",
+    "DAINandDAIINare exact distinct wholes. The fixed FB unknownDAIINcannot inherit ASdefinite-reference or numeral/season semantics through spelling similarity."
+  ],
+  "unknown_barriers": {
+    "UNBOUND": "R6explicitly returnsUNBOUND for missing compatible resolved antecedent or obstructive unresolved boundary;R11UNKNOWNinterrupts composition. Such outcomes are permitted behavior of the weakpartial contract and missing portability capacity, not lexical contradictions.",
+    "actual_conflict": "A bound graph that crosses a declared barrier, invents an unknown binder, ignores the nearest compatible resolved entity, chooses a frozen wrong type or violates preserved positive identity is a true conditional rule/graph contradiction. The old reported ZLKEEOLcross-barrier conflict remains; it cannot be relabeled missingcapacity.",
+    "fully_resolved_no_antecedent": "Even complete absence returnsUNBOUND underR6. It contradicts a separately frozen requirement that thatcase or allcases must resolve, not the fallback function itself. Do not invent that strongercoverageclaim after inspection.",
+    "semantic_ceiling": "ManyUNBOUND outputs may show lack of testcapacity but do not accumulate into evidence against a meaning. Source-fit desired referents are not independent endpoints."
+  },
+  "material_falsifiers_without_new_grammar": [
+    "A fully resolved frame with competing compatible nominal entities and an independently bound consumer requiring the earlierone whileR6selects the laterone.",
+    "A known typed consumer requiring liquid while the nearestMATERIAL_REFERENCEselects a solid, or STOCK_REFERENCEselecting a frozennonstock, with noUNKNOWNpremise.",
+    "A qualifyingDAIN+stockpair whoseR9root/coidentity contradictsR6neareststock or an alreadypositive entity inequality; no hiddenroot allowed.",
+    "An output explicitly binds across a boundary whichR6/R11makes obstructive: direct model/implementationconflict, not confirmed lexical rejection.",
+    "Prospectively freeze a finite resolved-context set and successful-binding requirement before bodyinspection. Failure in complete eligible cases rejects that strongerportabilityclaim. Coverage criterion is evaluation, not newgrammar; no retrospective eligibility selection."
+  ],
+  "decision": "Metadata alone establishes no new outside-use success or contradiction. Separate RESOLVED,UNBOUND,ACTUAL_FROZEN_RULE_CONFLICT and INDEPENDENT_ENDPOINT_CONTRADICTION. Portability needs an actual predeclared resolved participant consequence; no repair or unchangedETsource-fit continuation.",
+  "input_hashes": {
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FB_REPORT.md": "6d228be6427eb38284b15e7024170aa71843c9ba1f6af5a043a6e293adaf6020",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FB_AUTHOR.json": "e622c91b912bedc35baf71c685e8799ad23aa14f87f01460d3d4224c42ca6319",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FB_WORD_PRIORS.tsv": "c8e8b7e0fafb57beb326babca1594196dd5b71dc2ff749e97cc29711bfe48714"
+  },
+  "confirmed_words": 0,
+  "mutations": "Only FC_LEXICAL_DUTY_REVIEW.json;no lexical/grammar repair."
+}

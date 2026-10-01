@@ -1,3 +1,6 @@
+<!-- FC 2026-10-01 -->
+FC:542exactDAIN/LFCHEDYduties;258ownparagraphs15662groups frozen73valueoverlay. Four outsideDAINcandidate loci on3leaves, notresolvedentities; outsideLFCHEDY113blocked. No portablegraph/semantic test; hardcodedzero is no-claim, notimpossibility. PreserveFBlocalC0/ZLscopeconflict;no reference repair or repeatedcapacityscan. Nextcompletecontent hypothesis mustsupplyactualparticipant/consumer, notnominallabels.0words0independentleaves;832not_tested;833raw. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FC_REPORT.md.
+
 <!-- FB 2026-10-01 -->
 FB:complete111r36–43attempt preserved61ETvalues/history/all249groups;12newvalues11rules yieldpaidroot/old-oil/application localC0. Wholepartial48IT/53ZL/61RFunknown;ZL37KEEOLcrossesUNKNOWNl againstR6/R11. Stopnominationwithoutrepair;832not_tested formeaning,833raw. Nextdifferentcontext requireswrittenparticipant consequence underfrozenvalues,startingDAIN/LFCHEDYwholeoutside duties.0words0independentleaves;ETunchanged. See research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FB_REPORT.md.
 
