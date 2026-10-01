@@ -4,12 +4,12 @@ Updated: 2026-10-01. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: FZ native animal–plant roles; stop freeworldfitting.
-Latest decision: FY partial cores unselected;0words;1125FAIL.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FZ_DECISION.md.
-Assumptions: C0allowed;label!=therapy;noreserve/newtarget.
-Resume: Readall8openingpages; caption/roleaudit; publishFY.
-Running: source reader+nativecritic+producer;end18:29UTC.
+Task: GB/GDT1126 native whole/part relation capacity.
+Latest decision: Exactimagegrant registered;0words.
+Working files: experiments/yolo/gdt1126_native_plant_part_relations/PREREGISTRATION.md.
+Assumptions: Coidentityhyp;oldformalFAILs;noreserve/glyphreading.
+Resume: Acquire11canvases;7nativecases/allrows.
+Running: 7-caseanatomywork;end18:29UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -41,7 +41,7 @@ Other closed families remain in the existing registry; no automatic reopening.
 f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
 179 text selectors;92 legacy image keys/98 selectors (F scope receipt). f1r margins only;
-f106v image fixed paragraph only. Register new access first. Full admission contracts:
+f106v image fixed paragraph only. Register new access first. GB: [image grant](docs/VOYNICH_DATA_SCOPE_20261001_NATIVE_PLANT_PAIRS.md). Contracts:
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [detail](docs/VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md); [base](docs/VOYNICH_DATA_SCOPE.md); [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use

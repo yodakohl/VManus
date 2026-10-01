@@ -1143,3 +1143,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 - GDT1124: necessary QOKEEY entry screen; no initial target, separate conditional posthoc Paint-input case. [Report](yolo/gdt1124_qokeey_paragraph_entry_layer/REPORT.md).
 
 - GDT1125: original source-summary gate FAIL retained; separate diagnostic on all12 candidate-reader cases gives0complete transfers. [Decision](yolo/gdt1125_choice_method_written_dependency_transfer/REPORT.md).
+
+- GDT1126 — Native anatomy/owner capacity, seven fixed development relations; registered before images. [Preregistration](yolo/gdt1126_native_plant_part_relations/PREREGISTRATION.md).

@@ -1,0 +1,110 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Anatomical relation capacity only; no ROOT, part-prefix, species, process, significance or independentconfirmation; oldformal tests unchanged.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1126_native_plant_part_relations/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1126_native_plant_part_relations/src/validate.py"
+  },
+  "created": "2026-10-01",
+  "dependencies": [
+    "GDT352",
+    "GDT631",
+    "GDT1084"
+  ],
+  "experiment_id": "GDT1126",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/src/CASE_PLAN.json",
+      "sha256": "872e9d2b1352893eea0da8c26d2be36493ddc49a4f2c95244df0c1326c463c89",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/PREREGISTRATION.md",
+      "sha256": "af73fbf6a79b228fa87234f3d74d17c27503e4499caa46527000789d9ad221d7",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/METHOD.md",
+      "sha256": "af73fbf6a79b228fa87234f3d74d17c27503e4499caa46527000789d9ad221d7",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GB_NATIVE_PAIR_DECISION.md",
+      "sha256": "446685601ba737ac759561199cc7643f3444bcd682233535d010c4515d0bfd29",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GB_PREACCESS_AMENDMENT.json",
+      "sha256": "738197b192df2e9bf8691977efe4942258ccea849739c46abbe8b4cdc11f4484",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GB_NOVELTY_CRITIC.md",
+      "sha256": "2d3a0a46d74fe9093a72561ff65f2fd2de0ddc8938c7f62680556293509f9e52",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "docs/VOYNICH_DATA_SCOPE_20261001_NATIVE_PLANT_PAIRS.md",
+      "sha256": "c64cac50eb1bf9f7cbf8f02f1586ba4adcbb3b3fc493713aabb1f0166eb0d73e",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/src/PAGE_ADMISSIONS.tsv",
+      "sha256": "5b31868df306be12d34e02ecde731811a67a9af9e0bda81ba573c2317e1a9de8",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/src/ACCESS_RECEIPT.json",
+      "sha256": "0606a5060a057824874320c69c2ae892a21befa3396ce6edba26aa12353d173e",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GB_SOURCE_SCOPE_METADATA.md",
+      "sha256": "abf9da68d30e82a104f44d38af5aad08c9dcf302e563e93e23dc718b3615194d",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GB_SOURCE_SCOPE_METADATA.json",
+      "sha256": "6d8dc48e93a928702df7b4680ba2344bac8c2c5fb925fdcf30881d153ccc0e38",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/src/run.py",
+      "sha256": "f8043ee10a6ca9bcd38b6825b21378de8f46af32706343b3e0031fafd2c65121",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/src/validate.py",
+      "sha256": "f8043ee10a6ca9bcd38b6825b21378de8f46af32706343b3e0031fafd2c65121",
+      "role": "frozen preregistration, source or admission binding"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/src/PREVIEW_LOCATOR_CORRECTION.json",
+      "role": "prospective locator correction before image viewing",
+      "sha256": "489a9e2518ffd70f07d4e141bbba7cc763c06f2180a684c7d335707d27aa5d8e"
+    },
+    {
+      "path": "experiments/yolo/gdt1126_native_plant_part_relations/README.md",
+      "role": "reproducibility description",
+      "sha256": "bcf220e4645ab51526ab455506aca60a885b6653739f12fc777d221526478b01"
+    }
+  ],
+  "outputs": [],
+  "question": "Do the specified development-image pairs independently support distinctive coidentity and a whole/part anatomical difference with singular label ownership?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "native_plant_part_relations",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Native anatomy and owner capacity on seven historical plant relations",
+  "updated": "2026-10-01",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

@@ -1,0 +1,11 @@
+# GDT1126 native whole/part relations, preregistered before images
+
+Source-nominated coidentity is a hypothesis. Register and examine every seven named relation/control cases in CASE_PLAN, not only the two former formal hits. New input is direct anatomy and label-owner geometry; old GDT352/SNPL002/GDT1084/FPR001formal failures andPLC001capacitystop unchanged. No word, species or extraction meaning predicted.
+
+Review whole herbal drawing and complete pharmacy row. Independently record fullplant/rootonly/leafbearing/other/UNCLEAR, distinctive sharedgeometry/counterfeatures, actual continuity/cut edge versus drawing simplification, singular fragment-to-inscription ownership and everyneighbor alternative. Do not read glyphs/prose. Visible letters and previoushuman/catalogue hints are exposure, not blind independentconfirmation. Exact sourcepanels must be localized under admission; all other figures/textregions uninterpreted.
+
+Qualifiedpair requires independently visible distinctive coidentity hypothesis, securelydifferentanatomicalextent, singular owner, and no equallyadequateneighbor rival. Two qualifiedrelations on differentpharmaceuticalphysicalleaves mayfund boundedPart(K,O)consideration; sharedf102pairs arenotindependentcontexts. It doesnottranslateROOT/q, implyactualcutting, beatplantname/propertyrivals, satisfyGDT388 or clearreservedconfirmation.
+
+Source metadata and exactadmission must be pinned before any acquisitionGO; currentstate NO_GO. Allpairs development/exposed sources, no freshwholefolioholdout. Known ambiguous89v2and100rcontrols retained. Any unavailable/reserved/unidentifiablecase gets explicitclosed/UNKNOWN withno substitute. Allcompletednativeaccounts remain, no favourableexamplesonly. Seven-caseclosure is required; individualbadavailability doesnoteraseothers or authorizeexpansion.
+
+Initialinclusive40minutes in existingGBdecision, includingregistration/acquisition/parallelnativeviews/audit/publication. No decoder/controlcorpus/semanticengine. Ifnonequalifiedorunclear, closeswithnocandidate. Ifqualified, nextwrittenconstructorstillneeds crossedorgan/plantreuse;no glossarygrowthbyanatomyalone. GDT1125sourceFAIL remains,0confirmedwords/independentmeaningselection.
