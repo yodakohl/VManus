@@ -227,3 +227,54 @@ nor that key; jointly inventing new whole-word assignments would repeat the
 freedom of recent programs. Retain this exact source obligation, mark the whole
 proposal NOT_TESTED for missing design, and do not start another source-only
 calibration or long missing-input audit.
+
+
+## One lexical name-motivation offer — 2026-10-02
+
+Retained **IDEA000868** through `ideas add`, **RAW UNREVIEWED, UNTESTED,
+NOT SELECTED**: [shared lexical writing with different referents](GD_PIPELINE_RAW_NAME_MOTIVATION_KEY_20261002.json).
+Registry receipt:7,111 records. No second proposal was added.
+
+The owned complete Dioscorides IV.20 names the plant with the written
+alternative `μαχαιρίωνα`, motivated by leaf shape, then compares its sharpness
+with `μαχαίριον`. These related forms are not proven to be one inflectional
+lemma. I.1 has plant `ἶρις` and celestial `Ἴριδι` in its colour analogy;
+that clause does not explicitly assert an etymological derivation. A proposed
+source-preserving lexical writing key would have to account for those form
+relations while retaining different referents. Plant roots, dosage or effects
+must not automatically transfer to a knife or celestial comparator.
+
+GDT963 already includes both complete passages, but its METHOD deliberately
+separates IRIS/CELESTIAL_IRIS and its PREDICTIONS leaves the plant alias opaque.
+The new contract is therefore lexical form reuse with distinct referents,
+not another free content-atom code.357 already supplies reciprocal widths;
+810 already repeats stem-to-spindle function;622 already asks for a common
+channel across Viola synonyms.868 adds a different relation: name/comparator
+forms need a common key despite referring to different things. It adopts
+none of the old codes and does not repair them.963 stays unresolved;1097's
+three solver-INFEASIBLE/four UNKNOWN cases retain their exact limits.
+
+The necessary new binding is specific: an independently nominated complete
+admitted target with name and ordinary comparison uses, one prospectively
+fixed language-level form relation, and two nonseed complete consumers.
+A free new English synonym, stem boundary or per-word key would defeat the
+contract. A translation may preserve the explanation but lose the source
+wordplay, so failure of this channel cannot refute all translation. No Greek
+or Latin default, phonetic alphabet, confirmed lemma or target owner is assumed.
+This is a prospective full-target constraint, not a source-only calibration.
+It is not ready for C0 authorship or testing: no actual target construction or
+finite common writing key is specified. Raw retention does not supply those.
+
+Primary review excluded unchanged additions around594 relative simplicity,
+777 tense/privation,719 geographic grade,395 possessive ownership and90 plant
+part roles. Both bounded query and exact proposal duplicate screens returned
+no `same_declared_design`, a navigation result rather than novelty approval.
+Reconsider357 remained review-required without approval. The card retains
+source pins, explicit inequalities, predecessor limits and a30-minute future
+budget. **Confirmed translations0; new confirmed target bindings0.**
+
+The bounded tranche read the live route first. No new manuscript/source access,
+image,reserve,admission,solver,decoder,experiment,global route,index,ledger or
+Git work occurred. Earlier TARGETS content, including root's intervening864
+review, and frozen1134 inputs are preserved. Root owns the next review,
+metadata refresh and publication.

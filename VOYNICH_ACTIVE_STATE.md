@@ -1,3 +1,14 @@
+## 2026-10-02 IDEA866: scope discriminator corrected
+
+The owned source contrasts singular/dual hot modifiers but describes generic
+remedy benefits, not current patient heat. Two positive members do not separate
+scope readings; omitted fields are not negatives. IDEA866 remains NOT_TESTED
+for missing concrete full target key and written separating consequence. The
+small logical table is illustrative, not a manuscript test. No new access or
+confirmed meaning. [Review](research_registry/decisions/idea866_scope_result_20261002.md).
+Next inspect raw868 lexical name-motivation against its whole-source precedent;
+no automatic decoder or source calibration.
+
 ## 2026-10-02 Greek1364: partial source rule, full writer unresolved
 
 All11 sourceIV positions were retained in separate native inventories. A separate
