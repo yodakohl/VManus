@@ -1,0 +1,1870 @@
+{
+  "date": "2026-10-03",
+  "status": "RETROSPECTIVE_SELECTION_REVIEW_NOT_NEW_EXPERIMENT",
+  "source_receipt": {
+    "cache_role": "disposable descriptive cache; no semantic conclusions",
+    "guard_stats": {
+      "selected": 96184,
+      "skipped_forbidden": 2122,
+      "skipped_not_allowed": 17164
+    },
+    "inputs": {
+      "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "allowlist_sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "code": "tools/word_profiles.py",
+      "code_sha256": "1e9cb2017525e8ee3fd07b6a088e73b28b1e4fe4e7c9d17b83b892b94d0943c6",
+      "columns": [
+        "source_group_id",
+        "edition",
+        "page",
+        "locus",
+        "section",
+        "currier",
+        "hand",
+        "kind",
+        "source_group_index",
+        "source_group_count",
+        "ivtff_group_raw",
+        "left_separator",
+        "right_separator"
+      ],
+      "exposure": "previously exposed exploration; not independent confirmation",
+      "matching": "exact_raw_group",
+      "reader_policy": "alternate readings, never pooled",
+      "schema_version": 1,
+      "selector_count": 179,
+      "selectors": [
+        "f100r",
+        "f100v",
+        "f102r1",
+        "f102v1",
+        "f102v2",
+        "f103r",
+        "f103v",
+        "f104r",
+        "f104v",
+        "f105r",
+        "f105v",
+        "f106r",
+        "f106v",
+        "f107r",
+        "f107v",
+        "f108r",
+        "f108v",
+        "f10r",
+        "f10v",
+        "f111r",
+        "f111v",
+        "f112r",
+        "f112v",
+        "f113r",
+        "f113v",
+        "f114r",
+        "f114v",
+        "f115r",
+        "f115v",
+        "f116r",
+        "f11r",
+        "f11v",
+        "f13r",
+        "f13v",
+        "f14r",
+        "f14v",
+        "f15r",
+        "f15v",
+        "f16r",
+        "f16v",
+        "f17r",
+        "f17v",
+        "f18r",
+        "f18v",
+        "f19r",
+        "f19v",
+        "f20r",
+        "f20v",
+        "f21r",
+        "f21v",
+        "f22r",
+        "f22v",
+        "f23r",
+        "f23v",
+        "f24r",
+        "f24v",
+        "f25r",
+        "f25v",
+        "f26r",
+        "f26v",
+        "f27r",
+        "f28r",
+        "f28v",
+        "f29r",
+        "f29v",
+        "f2r",
+        "f2v",
+        "f30r",
+        "f30v",
+        "f31r",
+        "f32r",
+        "f32v",
+        "f33r",
+        "f33v",
+        "f34r",
+        "f34v",
+        "f35r",
+        "f35v",
+        "f36r",
+        "f36v",
+        "f37r",
+        "f37v",
+        "f38r",
+        "f38v",
+        "f39r",
+        "f39v",
+        "f3r",
+        "f3v",
+        "f40r",
+        "f40v",
+        "f41r",
+        "f41v",
+        "f42r",
+        "f42v",
+        "f43r",
+        "f43v",
+        "f44r",
+        "f44v",
+        "f45r",
+        "f45v",
+        "f46r",
+        "f46v",
+        "f47r",
+        "f47v",
+        "f48r",
+        "f48v",
+        "f49r",
+        "f49v",
+        "f4r",
+        "f4v",
+        "f50r",
+        "f50v",
+        "f51r",
+        "f51v",
+        "f52r",
+        "f52v",
+        "f53r",
+        "f53v",
+        "f54v",
+        "f55r",
+        "f55v",
+        "f56r",
+        "f56v",
+        "f58r",
+        "f58v",
+        "f5r",
+        "f5v",
+        "f66r",
+        "f66v",
+        "f6r",
+        "f6v",
+        "f75r",
+        "f75v",
+        "f76r",
+        "f76v",
+        "f77r",
+        "f77v",
+        "f78r",
+        "f78v",
+        "f79r",
+        "f79v",
+        "f7r",
+        "f7v",
+        "f80r",
+        "f80v",
+        "f81r",
+        "f81v",
+        "f82r",
+        "f82v",
+        "f83r",
+        "f83v",
+        "f85r1",
+        "f85r2",
+        "f86v3",
+        "f86v5",
+        "f86v6",
+        "f87r",
+        "f87v",
+        "f88r",
+        "f88v",
+        "f89r1",
+        "f89v1",
+        "f8r",
+        "f8v",
+        "f90r1",
+        "f93r",
+        "f93v",
+        "f94r",
+        "f94v",
+        "f95r1",
+        "f95r2",
+        "f95v1",
+        "f95v2",
+        "f96r",
+        "f96v",
+        "f99r",
+        "f99v",
+        "f9r",
+        "f9v"
+      ],
+      "source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "source_sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    }
+  },
+  "reproduce": "./vmanus-work words profile ol or ar y s --json",
+  "profiles": [
+    {
+      "form": "ol",
+      "editions": {
+        "ZL3b": {
+          "count": 455,
+          "total_groups": 32363,
+          "pages_with_form": 107,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 189,
+                "total_groups": 5678
+              },
+              {
+                "value": "C",
+                "count": 4,
+                "total_groups": 437
+              },
+              {
+                "value": "H",
+                "count": 84,
+                "total_groups": 10869
+              },
+              {
+                "value": "P",
+                "count": 22,
+                "total_groups": 1588
+              },
+              {
+                "value": "S",
+                "count": 114,
+                "total_groups": 11646
+              },
+              {
+                "value": "T",
+                "count": 42,
+                "total_groups": 2145
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 74,
+                "total_groups": 9930
+              },
+              {
+                "value": "B",
+                "count": 381,
+                "total_groups": 22433
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 70,
+                "total_groups": 9177
+              },
+              {
+                "value": "2",
+                "count": 250,
+                "total_groups": 10163
+              },
+              {
+                "value": "3",
+                "count": 123,
+                "total_groups": 11720
+              },
+              {
+                "value": "5",
+                "count": 9,
+                "total_groups": 842
+              },
+              {
+                "value": "@",
+                "count": 3,
+                "total_groups": 461
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 1,
+                "total_groups": 48
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 397
+              },
+              {
+                "value": "P",
+                "count": 454,
+                "total_groups": 31918
+              }
+            ]
+          },
+          "positions": {
+            "start": 30,
+            "middle": 386,
+            "end": 39,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 410,
+            "repeated_lines": 40,
+            "adjacent_pairs": 7,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 456,
+          "total_groups": 31875,
+          "pages_with_form": 106,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 199,
+                "total_groups": 5660
+              },
+              {
+                "value": "C",
+                "count": 6,
+                "total_groups": 436
+              },
+              {
+                "value": "H",
+                "count": 80,
+                "total_groups": 10676
+              },
+              {
+                "value": "P",
+                "count": 21,
+                "total_groups": 1591
+              },
+              {
+                "value": "S",
+                "count": 115,
+                "total_groups": 11414
+              },
+              {
+                "value": "T",
+                "count": 35,
+                "total_groups": 2098
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 70,
+                "total_groups": 9753
+              },
+              {
+                "value": "B",
+                "count": 386,
+                "total_groups": 22122
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 66,
+                "total_groups": 9021
+              },
+              {
+                "value": "2",
+                "count": 254,
+                "total_groups": 10051
+              },
+              {
+                "value": "3",
+                "count": 125,
+                "total_groups": 11516
+              },
+              {
+                "value": "5",
+                "count": 10,
+                "total_groups": 843
+              },
+              {
+                "value": "@",
+                "count": 1,
+                "total_groups": 444
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 2,
+                "total_groups": 50
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 392
+              },
+              {
+                "value": "P",
+                "count": 454,
+                "total_groups": 31433
+              }
+            ]
+          },
+          "positions": {
+            "start": 29,
+            "middle": 381,
+            "end": 46,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 408,
+            "repeated_lines": 42,
+            "adjacent_pairs": 9,
+            "max_per_line": 4
+          }
+        },
+        "RF1b": {
+          "count": 469,
+          "total_groups": 31946,
+          "pages_with_form": 103,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 205,
+                "total_groups": 5701
+              },
+              {
+                "value": "C",
+                "count": 5,
+                "total_groups": 441
+              },
+              {
+                "value": "H",
+                "count": 78,
+                "total_groups": 10550
+              },
+              {
+                "value": "P",
+                "count": 27,
+                "total_groups": 1592
+              },
+              {
+                "value": "S",
+                "count": 116,
+                "total_groups": 11546
+              },
+              {
+                "value": "T",
+                "count": 38,
+                "total_groups": 2116
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 75,
+                "total_groups": 9662
+              },
+              {
+                "value": "B",
+                "count": 394,
+                "total_groups": 22284
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 71,
+                "total_groups": 8920
+              },
+              {
+                "value": "2",
+                "count": 263,
+                "total_groups": 10116
+              },
+              {
+                "value": "3",
+                "count": 127,
+                "total_groups": 11625
+              },
+              {
+                "value": "5",
+                "count": 7,
+                "total_groups": 822
+              },
+              {
+                "value": "@",
+                "count": 1,
+                "total_groups": 463
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 2,
+                "total_groups": 51
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 391
+              },
+              {
+                "value": "P",
+                "count": 467,
+                "total_groups": 31504
+              }
+            ]
+          },
+          "positions": {
+            "start": 33,
+            "middle": 395,
+            "end": 41,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 420,
+            "repeated_lines": 43,
+            "adjacent_pairs": 9,
+            "max_per_line": 4
+          }
+        }
+      }
+    },
+    {
+      "form": "or",
+      "editions": {
+        "ZL3b": {
+          "count": 312,
+          "total_groups": 32363,
+          "pages_with_form": 112,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 49,
+                "total_groups": 5678
+              },
+              {
+                "value": "C",
+                "count": 14,
+                "total_groups": 437
+              },
+              {
+                "value": "H",
+                "count": 115,
+                "total_groups": 10869
+              },
+              {
+                "value": "P",
+                "count": 18,
+                "total_groups": 1588
+              },
+              {
+                "value": "S",
+                "count": 77,
+                "total_groups": 11646
+              },
+              {
+                "value": "T",
+                "count": 39,
+                "total_groups": 2145
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 74,
+                "total_groups": 9930
+              },
+              {
+                "value": "B",
+                "count": 238,
+                "total_groups": 22433
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 67,
+                "total_groups": 9177
+              },
+              {
+                "value": "2",
+                "count": 151,
+                "total_groups": 10163
+              },
+              {
+                "value": "3",
+                "count": 84,
+                "total_groups": 11720
+              },
+              {
+                "value": "5",
+                "count": 6,
+                "total_groups": 842
+              },
+              {
+                "value": "@",
+                "count": 4,
+                "total_groups": 461
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 1,
+                "total_groups": 48
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 397
+              },
+              {
+                "value": "P",
+                "count": 311,
+                "total_groups": 31918
+              }
+            ]
+          },
+          "positions": {
+            "start": 30,
+            "middle": 269,
+            "end": 13,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 280,
+            "repeated_lines": 27,
+            "adjacent_pairs": 6,
+            "max_per_line": 4
+          }
+        },
+        "IT2a": {
+          "count": 298,
+          "total_groups": 31875,
+          "pages_with_form": 106,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 48,
+                "total_groups": 5660
+              },
+              {
+                "value": "C",
+                "count": 15,
+                "total_groups": 436
+              },
+              {
+                "value": "H",
+                "count": 116,
+                "total_groups": 10676
+              },
+              {
+                "value": "P",
+                "count": 17,
+                "total_groups": 1591
+              },
+              {
+                "value": "S",
+                "count": 71,
+                "total_groups": 11414
+              },
+              {
+                "value": "T",
+                "count": 31,
+                "total_groups": 2098
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 67,
+                "total_groups": 9753
+              },
+              {
+                "value": "B",
+                "count": 231,
+                "total_groups": 22122
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 62,
+                "total_groups": 9021
+              },
+              {
+                "value": "2",
+                "count": 147,
+                "total_groups": 10051
+              },
+              {
+                "value": "3",
+                "count": 80,
+                "total_groups": 11516
+              },
+              {
+                "value": "5",
+                "count": 6,
+                "total_groups": 843
+              },
+              {
+                "value": "@",
+                "count": 3,
+                "total_groups": 444
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 1,
+                "total_groups": 50
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 392
+              },
+              {
+                "value": "P",
+                "count": 297,
+                "total_groups": 31433
+              }
+            ]
+          },
+          "positions": {
+            "start": 27,
+            "middle": 257,
+            "end": 14,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 272,
+            "repeated_lines": 23,
+            "adjacent_pairs": 4,
+            "max_per_line": 3
+          }
+        },
+        "RF1b": {
+          "count": 298,
+          "total_groups": 31946,
+          "pages_with_form": 105,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 43,
+                "total_groups": 5701
+              },
+              {
+                "value": "C",
+                "count": 13,
+                "total_groups": 441
+              },
+              {
+                "value": "H",
+                "count": 110,
+                "total_groups": 10550
+              },
+              {
+                "value": "P",
+                "count": 18,
+                "total_groups": 1592
+              },
+              {
+                "value": "S",
+                "count": 74,
+                "total_groups": 11546
+              },
+              {
+                "value": "T",
+                "count": 40,
+                "total_groups": 2116
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 67,
+                "total_groups": 9662
+              },
+              {
+                "value": "B",
+                "count": 231,
+                "total_groups": 22284
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 61,
+                "total_groups": 8920
+              },
+              {
+                "value": "2",
+                "count": 145,
+                "total_groups": 10116
+              },
+              {
+                "value": "3",
+                "count": 83,
+                "total_groups": 11625
+              },
+              {
+                "value": "5",
+                "count": 6,
+                "total_groups": 822
+              },
+              {
+                "value": "@",
+                "count": 3,
+                "total_groups": 463
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 1,
+                "total_groups": 51
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 391
+              },
+              {
+                "value": "P",
+                "count": 297,
+                "total_groups": 31504
+              }
+            ]
+          },
+          "positions": {
+            "start": 27,
+            "middle": 259,
+            "end": 12,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 271,
+            "repeated_lines": 24,
+            "adjacent_pairs": 5,
+            "max_per_line": 4
+          }
+        }
+      }
+    },
+    {
+      "form": "ar",
+      "editions": {
+        "ZL3b": {
+          "count": 307,
+          "total_groups": 32363,
+          "pages_with_form": 85,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 14,
+                "total_groups": 5678
+              },
+              {
+                "value": "C",
+                "count": 9,
+                "total_groups": 437
+              },
+              {
+                "value": "H",
+                "count": 73,
+                "total_groups": 10869
+              },
+              {
+                "value": "P",
+                "count": 5,
+                "total_groups": 1588
+              },
+              {
+                "value": "S",
+                "count": 170,
+                "total_groups": 11646
+              },
+              {
+                "value": "T",
+                "count": 36,
+                "total_groups": 2145
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 49,
+                "total_groups": 9930
+              },
+              {
+                "value": "B",
+                "count": 258,
+                "total_groups": 22433
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 23,
+                "total_groups": 9177
+              },
+              {
+                "value": "2",
+                "count": 105,
+                "total_groups": 10163
+              },
+              {
+                "value": "3",
+                "count": 164,
+                "total_groups": 11720
+              },
+              {
+                "value": "5",
+                "count": 6,
+                "total_groups": 842
+              },
+              {
+                "value": "@",
+                "count": 9,
+                "total_groups": 461
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 3,
+                "total_groups": 48
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 397
+              },
+              {
+                "value": "P",
+                "count": 304,
+                "total_groups": 31918
+              }
+            ]
+          },
+          "positions": {
+            "start": 2,
+            "middle": 285,
+            "end": 20,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 279,
+            "repeated_lines": 27,
+            "adjacent_pairs": 6,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 281,
+          "total_groups": 31875,
+          "pages_with_form": 83,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 14,
+                "total_groups": 5660
+              },
+              {
+                "value": "C",
+                "count": 9,
+                "total_groups": 436
+              },
+              {
+                "value": "H",
+                "count": 66,
+                "total_groups": 10676
+              },
+              {
+                "value": "P",
+                "count": 3,
+                "total_groups": 1591
+              },
+              {
+                "value": "S",
+                "count": 160,
+                "total_groups": 11414
+              },
+              {
+                "value": "T",
+                "count": 29,
+                "total_groups": 2098
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 38,
+                "total_groups": 9753
+              },
+              {
+                "value": "B",
+                "count": 243,
+                "total_groups": 22122
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 19,
+                "total_groups": 9021
+              },
+              {
+                "value": "2",
+                "count": 92,
+                "total_groups": 10051
+              },
+              {
+                "value": "3",
+                "count": 155,
+                "total_groups": 11516
+              },
+              {
+                "value": "5",
+                "count": 6,
+                "total_groups": 843
+              },
+              {
+                "value": "@",
+                "count": 9,
+                "total_groups": 444
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 4,
+                "total_groups": 50
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 392
+              },
+              {
+                "value": "P",
+                "count": 277,
+                "total_groups": 31433
+              }
+            ]
+          },
+          "positions": {
+            "start": 2,
+            "middle": 260,
+            "end": 19,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 254,
+            "repeated_lines": 23,
+            "adjacent_pairs": 9,
+            "max_per_line": 3
+          }
+        },
+        "RF1b": {
+          "count": 323,
+          "total_groups": 31946,
+          "pages_with_form": 86,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 18,
+                "total_groups": 5701
+              },
+              {
+                "value": "C",
+                "count": 11,
+                "total_groups": 441
+              },
+              {
+                "value": "H",
+                "count": 69,
+                "total_groups": 10550
+              },
+              {
+                "value": "P",
+                "count": 6,
+                "total_groups": 1592
+              },
+              {
+                "value": "S",
+                "count": 183,
+                "total_groups": 11546
+              },
+              {
+                "value": "T",
+                "count": 36,
+                "total_groups": 2116
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 48,
+                "total_groups": 9662
+              },
+              {
+                "value": "B",
+                "count": 275,
+                "total_groups": 22284
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 25,
+                "total_groups": 8920
+              },
+              {
+                "value": "2",
+                "count": 107,
+                "total_groups": 10116
+              },
+              {
+                "value": "3",
+                "count": 176,
+                "total_groups": 11625
+              },
+              {
+                "value": "5",
+                "count": 5,
+                "total_groups": 822
+              },
+              {
+                "value": "@",
+                "count": 10,
+                "total_groups": 463
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 4,
+                "total_groups": 51
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 391
+              },
+              {
+                "value": "P",
+                "count": 319,
+                "total_groups": 31504
+              }
+            ]
+          },
+          "positions": {
+            "start": 2,
+            "middle": 301,
+            "end": 20,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 290,
+            "repeated_lines": 30,
+            "adjacent_pairs": 8,
+            "max_per_line": 3
+          }
+        }
+      }
+    },
+    {
+      "form": "y",
+      "editions": {
+        "ZL3b": {
+          "count": 242,
+          "total_groups": 32363,
+          "pages_with_form": 114,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 32,
+                "total_groups": 5678
+              },
+              {
+                "value": "C",
+                "count": 2,
+                "total_groups": 437
+              },
+              {
+                "value": "H",
+                "count": 106,
+                "total_groups": 10869
+              },
+              {
+                "value": "P",
+                "count": 4,
+                "total_groups": 1588
+              },
+              {
+                "value": "S",
+                "count": 78,
+                "total_groups": 11646
+              },
+              {
+                "value": "T",
+                "count": 20,
+                "total_groups": 2145
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 86,
+                "total_groups": 9930
+              },
+              {
+                "value": "B",
+                "count": 156,
+                "total_groups": 22433
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 80,
+                "total_groups": 9177
+              },
+              {
+                "value": "2",
+                "count": 68,
+                "total_groups": 10163
+              },
+              {
+                "value": "3",
+                "count": 79,
+                "total_groups": 11720
+              },
+              {
+                "value": "5",
+                "count": 10,
+                "total_groups": 842
+              },
+              {
+                "value": "@",
+                "count": 5,
+                "total_groups": 461
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 48
+              },
+              {
+                "value": "L",
+                "count": 11,
+                "total_groups": 397
+              },
+              {
+                "value": "P",
+                "count": 231,
+                "total_groups": 31918
+              }
+            ]
+          },
+          "positions": {
+            "start": 59,
+            "middle": 142,
+            "end": 32,
+            "single": 9
+          },
+          "repetition": {
+            "lines_with_form": 232,
+            "repeated_lines": 9,
+            "adjacent_pairs": 0,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 120,
+          "total_groups": 31875,
+          "pages_with_form": 72,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 12,
+                "total_groups": 5660
+              },
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 436
+              },
+              {
+                "value": "H",
+                "count": 72,
+                "total_groups": 10676
+              },
+              {
+                "value": "P",
+                "count": 1,
+                "total_groups": 1591
+              },
+              {
+                "value": "S",
+                "count": 30,
+                "total_groups": 11414
+              },
+              {
+                "value": "T",
+                "count": 5,
+                "total_groups": 2098
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 56,
+                "total_groups": 9753
+              },
+              {
+                "value": "B",
+                "count": 64,
+                "total_groups": 22122
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 51,
+                "total_groups": 9021
+              },
+              {
+                "value": "2",
+                "count": 28,
+                "total_groups": 10051
+              },
+              {
+                "value": "3",
+                "count": 31,
+                "total_groups": 11516
+              },
+              {
+                "value": "5",
+                "count": 8,
+                "total_groups": 843
+              },
+              {
+                "value": "@",
+                "count": 2,
+                "total_groups": 444
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 50
+              },
+              {
+                "value": "L",
+                "count": 9,
+                "total_groups": 392
+              },
+              {
+                "value": "P",
+                "count": 111,
+                "total_groups": 31433
+              }
+            ]
+          },
+          "positions": {
+            "start": 32,
+            "middle": 60,
+            "end": 19,
+            "single": 9
+          },
+          "repetition": {
+            "lines_with_form": 118,
+            "repeated_lines": 2,
+            "adjacent_pairs": 0,
+            "max_per_line": 2
+          }
+        },
+        "RF1b": {
+          "count": 133,
+          "total_groups": 31946,
+          "pages_with_form": 83,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 23,
+                "total_groups": 5701
+              },
+              {
+                "value": "C",
+                "count": 2,
+                "total_groups": 441
+              },
+              {
+                "value": "H",
+                "count": 55,
+                "total_groups": 10550
+              },
+              {
+                "value": "P",
+                "count": 3,
+                "total_groups": 1592
+              },
+              {
+                "value": "S",
+                "count": 42,
+                "total_groups": 11546
+              },
+              {
+                "value": "T",
+                "count": 8,
+                "total_groups": 2116
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 41,
+                "total_groups": 9662
+              },
+              {
+                "value": "B",
+                "count": 92,
+                "total_groups": 22284
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 37,
+                "total_groups": 8920
+              },
+              {
+                "value": "2",
+                "count": 41,
+                "total_groups": 10116
+              },
+              {
+                "value": "3",
+                "count": 45,
+                "total_groups": 11625
+              },
+              {
+                "value": "5",
+                "count": 7,
+                "total_groups": 822
+              },
+              {
+                "value": "@",
+                "count": 3,
+                "total_groups": 463
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 51
+              },
+              {
+                "value": "L",
+                "count": 9,
+                "total_groups": 391
+              },
+              {
+                "value": "P",
+                "count": 124,
+                "total_groups": 31504
+              }
+            ]
+          },
+          "positions": {
+            "start": 28,
+            "middle": 82,
+            "end": 14,
+            "single": 9
+          },
+          "repetition": {
+            "lines_with_form": 130,
+            "repeated_lines": 3,
+            "adjacent_pairs": 0,
+            "max_per_line": 2
+          }
+        }
+      }
+    },
+    {
+      "form": "s",
+      "editions": {
+        "ZL3b": {
+          "count": 261,
+          "total_groups": 32363,
+          "pages_with_form": 124,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 24,
+                "total_groups": 5678
+              },
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 437
+              },
+              {
+                "value": "H",
+                "count": 164,
+                "total_groups": 10869
+              },
+              {
+                "value": "P",
+                "count": 27,
+                "total_groups": 1588
+              },
+              {
+                "value": "S",
+                "count": 33,
+                "total_groups": 11646
+              },
+              {
+                "value": "T",
+                "count": 13,
+                "total_groups": 2145
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 164,
+                "total_groups": 9930
+              },
+              {
+                "value": "B",
+                "count": 97,
+                "total_groups": 22433
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 156,
+                "total_groups": 9177
+              },
+              {
+                "value": "2",
+                "count": 65,
+                "total_groups": 10163
+              },
+              {
+                "value": "3",
+                "count": 35,
+                "total_groups": 11720
+              },
+              {
+                "value": "5",
+                "count": 4,
+                "total_groups": 842
+              },
+              {
+                "value": "@",
+                "count": 1,
+                "total_groups": 461
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 48
+              },
+              {
+                "value": "L",
+                "count": 8,
+                "total_groups": 397
+              },
+              {
+                "value": "P",
+                "count": 253,
+                "total_groups": 31918
+              }
+            ]
+          },
+          "positions": {
+            "start": 15,
+            "middle": 205,
+            "end": 33,
+            "single": 8
+          },
+          "repetition": {
+            "lines_with_form": 250,
+            "repeated_lines": 10,
+            "adjacent_pairs": 0,
+            "max_per_line": 3
+          }
+        },
+        "IT2a": {
+          "count": 181,
+          "total_groups": 31875,
+          "pages_with_form": 100,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 9,
+                "total_groups": 5660
+              },
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 436
+              },
+              {
+                "value": "H",
+                "count": 137,
+                "total_groups": 10676
+              },
+              {
+                "value": "P",
+                "count": 12,
+                "total_groups": 1591
+              },
+              {
+                "value": "S",
+                "count": 17,
+                "total_groups": 11414
+              },
+              {
+                "value": "T",
+                "count": 6,
+                "total_groups": 2098
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 130,
+                "total_groups": 9753
+              },
+              {
+                "value": "B",
+                "count": 51,
+                "total_groups": 22122
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 125,
+                "total_groups": 9021
+              },
+              {
+                "value": "2",
+                "count": 31,
+                "total_groups": 10051
+              },
+              {
+                "value": "3",
+                "count": 20,
+                "total_groups": 11516
+              },
+              {
+                "value": "5",
+                "count": 5,
+                "total_groups": 843
+              },
+              {
+                "value": "@",
+                "count": 0,
+                "total_groups": 444
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 50
+              },
+              {
+                "value": "L",
+                "count": 8,
+                "total_groups": 392
+              },
+              {
+                "value": "P",
+                "count": 173,
+                "total_groups": 31433
+              }
+            ]
+          },
+          "positions": {
+            "start": 5,
+            "middle": 134,
+            "end": 34,
+            "single": 8
+          },
+          "repetition": {
+            "lines_with_form": 175,
+            "repeated_lines": 5,
+            "adjacent_pairs": 0,
+            "max_per_line": 3
+          }
+        },
+        "RF1b": {
+          "count": 246,
+          "total_groups": 31946,
+          "pages_with_form": 113,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 28,
+                "total_groups": 5701
+              },
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 441
+              },
+              {
+                "value": "H",
+                "count": 149,
+                "total_groups": 10550
+              },
+              {
+                "value": "P",
+                "count": 28,
+                "total_groups": 1592
+              },
+              {
+                "value": "S",
+                "count": 29,
+                "total_groups": 11546
+              },
+              {
+                "value": "T",
+                "count": 12,
+                "total_groups": 2116
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 154,
+                "total_groups": 9662
+              },
+              {
+                "value": "B",
+                "count": 92,
+                "total_groups": 22284
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 147,
+                "total_groups": 8920
+              },
+              {
+                "value": "2",
+                "count": 63,
+                "total_groups": 10116
+              },
+              {
+                "value": "3",
+                "count": 30,
+                "total_groups": 11625
+              },
+              {
+                "value": "5",
+                "count": 4,
+                "total_groups": 822
+              },
+              {
+                "value": "@",
+                "count": 2,
+                "total_groups": 463
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 51
+              },
+              {
+                "value": "L",
+                "count": 8,
+                "total_groups": 391
+              },
+              {
+                "value": "P",
+                "count": 238,
+                "total_groups": 31504
+              }
+            ]
+          },
+          "positions": {
+            "start": 15,
+            "middle": 193,
+            "end": 30,
+            "single": 8
+          },
+          "repetition": {
+            "lines_with_form": 235,
+            "repeated_lines": 10,
+            "adjacent_pairs": 0,
+            "max_per_line": 3
+          }
+        }
+      }
+    }
+  ],
+  "claim_ceiling": "Descriptive exposed-data audit. Physical lines are not sentences. A rule violation contradicts only the declared conjunction of assumptions. Compatibility, word frequency, spelling similarity and formal roles do not identify a meaning. Readers are alternatives, not independent evidence. No significance, calibrated probability or confirmed translation."
+}

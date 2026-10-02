@@ -4,11 +4,11 @@ Updated: 2026-10-03. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1150 exact counterpart census complete;branch parked.
-Latest decision: 331Dentries,0local internal bare/D counterparts;0words.
-Working files: experiments/yolo/gdt1150_minim_entry_counterparts/REPORT.md.
-Assumptions: 1149entryconstraint retained;frequency before gloss.
-Resume: New discriminating consequence;no shorter-context retry.
+Task: Short-word profiles and ol-role predecessors reconciled;WE013.
+Latest decision: ol role tied;repeats unexplained;1150 parked;0words.
+Working files: research_registry/proposals/laufenberg_f85r2_20260926/WORD_SELECTION_DECISION.md.
+Assumptions: Frequency before gloss;formal parts do not prove numerals.
+Resume: Whole-construction role discriminator;no window relaxation.
 Running: None.
 
 ## Structural baseline

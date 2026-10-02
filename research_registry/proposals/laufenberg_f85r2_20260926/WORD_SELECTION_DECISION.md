@@ -74,3 +74,24 @@ context check and exact staged-tree privacy/scope review before publication.
 
 Detailed execution outcome will be appended here; this is not another resume
 file. The current-route file remains the sole live resume point.
+
+
+## 2026-10-03 — frequent short forms, grounded selection review
+
+This is a retrospective profile/primary reconciliation, not GDT1151 or a new semantic experiment. GDT1150 remains parked. The existing profile tool was run for exact free `ol or ar y s` on the admitted179selectors; no new image, reserve or raw source admission. Full compact per-reader counts and source receipt: [SHORT_WORD_PROFILES_20261003.json](SHORT_WORD_PROFILES_20261003.json).
+
+| Exact form | ZL / IT / RF all-kind occurrences | Label occurrences ZL / IT / RF | Adjacent self-pairs ZL / IT / RF |
+|---|---|---|---|
+| ol |455 /456 /469|0 /0 /0|7 /9 /9|
+| or |312 /298 /298|0 /0 /0|6 /4 /5|
+| ar |307 /281 /323|0 /0 /0|6 /9 /8|
+| y |242 /120 /133|11 /9 /9|0 /0 /0|
+| s |261 /181 /246|8 /8 /8|0 /0 /0|
+
+These are alternate readings, not independent manuscripts. Label absence is relative to the admitted sample and is not proof of function-word status. A label can be an index or abbreviation, so label presence is not proof of a noun. Positions are physical lines, not clauses. Raw adjacent pairs retain source transcription; no visual adjudication occurred. The marked cross-reader y/s counts make their exact free-word inventory more reading-sensitive; no correction or merging was imposed. Frequency supplies a plausibility constraint, not a calibrated meaning probability.
+
+**Concrete selection change:** the inherited `ol = und/mit/von/aus` default cannot be used as a learned connector premise. GDT769 gives relation, nominal preparation and product roles equal1.0 scores; it selects the relation through dispatch priority. GDT774 gives49/376 historical exact occurrences contextual renderings and327 the nominal fallback, including all seven adjacent ol-ol pairs. Its observed right-neighbour concentration remains useful, but is compatible with both a head taking a complement and an operator before a field. No nominal meaning wins by default either.
+
+GDT571 is not an independent rescue of the repeated free word. Its14 OL+OL cards project inherited state-recipe markers and apply German entry/follower wording. Equating these with native adjacent whole-word ol-ol pairs would mix units; no such crosswalk was established. The new curated WE013 makes these specific predecessor limits appear in future `words profile ol` / `words review` retrieval. WE012's correction still applies: formal minim composition does not logically rule out AND or TAKE, and numerical I/II/III/IV values are unconfirmed.
+
+IDEA32's shared-predicate test and IDEA454's historical connector classes already cover the proposed coordination direction. A missing fourth expression after three combinations does not refute conjunction: grammatical permission does not imply corpus occurrence. No shortened1150window, rectangle-closure test or automatic grammar/decoder implementation is selected. A next ol hypothesis must provide an explicit complete construction handling both repeated and single ol, with a consequence distinguishing a connecting role from an operand role; it may remain hypothetical, but cannot inherit the old renderer as evidence for that same role. No new translated word, significance claim or independent semantic confirmation.
