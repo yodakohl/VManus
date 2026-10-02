@@ -3,13 +3,13 @@ Updated: 2026-10-02. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: Review raw868 lexical name-motivation constraint.
-Latest decision: 866 lacks a separating target consequence; no test run.
-Working files: idea866_scope_result_20261002.md; raw868.
-Assumptions: Generic remedy restriction is not observed patient heat.
-Resume: Inspect868 source/key novelty against963 and complete target priors.
-Running: Critic868; producer closing; minimum06:09:20UTC unfulfilled.
+Status: checkpoint
+Task: Complete shared-event construction remains open (IDEA869).
+Latest decision: Right binder fails114r; STIR unselected;1116 NEG is old.
+Working files: GD_SINGLE_C0_DAL_STIR_CONSTRUCTION_20261002.md and receipt.
+Assumptions: No hidden patients, space deletion or automatic grammar repair.
+Resume: Inspect1118–1120 primaries before any successor to869.
+Running: None; minimum06:09:20UTC remains unfulfilled.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

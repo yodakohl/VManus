@@ -1,3 +1,17 @@
+## 2026-10-02 IDEA869: event/state/prohibition draft, right binder stopped
+
+A concrete exposed C0 draft relates dalchedy and dal chedy through a shared
+illustrative activity plus different history-state/prohibition constructions.
+STIR is not selected. GDT1116 already supplied the NEG family; only the type
+contrast differs. The proposed obligatory right patient fails at the retained
+IT f114r32–33 paragraph ending in dal chedy. No left/anaphoric repair was made.
+All238groups of four complete ZL/IT focal units are retained and checked, not
+translated. No new fixed target test or independent meaning confirmation.
+[Draft](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_SINGLE_C0_DAL_STIR_CONSTRUCTION_20261002.md).
+Any continuation must first compare1118–1120's later constructions before
+claiming a new full shared-key reading; do not restart1115 from its old next-step.
+Raw868 remains unselected:963/976/1097 provide no complete lexical code witness.
+
 ## 2026-10-02 IDEA866: scope discriminator corrected
 
 The owned source contrasts singular/dual hot modifiers but describes generic
