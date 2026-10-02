@@ -1,3 +1,7 @@
+## 2026-10-02 post1146 typed argument alternative, no new test
+
+[Explicit two-construction draft](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GL_TYPED_ARGUMENT_DESIGN.md): rightDY retains unary QOKEDY; immediate leftDY/QOKEDY/rightEY constructs from left then asserts source agreement with right through the unchanged1137functions. New argument direction/predication/scope assumptions are paid, not recovered syntax. All3EY reader rows in1146are the same motivatingf76r6;32DYcalls unchanged. No nonmotivating binary locus, no new census/PASS or GDT1147. Material mismatch would yield false assertion, not typeerror. Preserve1146failure,1137localpositive,0words. Another fixed test requires genuinely additional application or distinct whole-context consequence; no wider/looser search automatically selected.
+
 ## 2026-10-02 GDT1146 fixed type-transfer assumption contradicted
 
 [All35eligible cases](experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/REPORT.md): unchanged1137core accepts32reader rows and rejects3readings of the samef76r6qokedy-sheey pair. FrozenSHEEY is source-stage;QOKEDYrequiresconverted-stage. New universal immediate-right binding plus these types fails; no attribution to wordvalue versus syntax alone. All613scopedQOKEDYclassified outsidewholeleaf83; no newdata/reserves. Retain original1137localC0 and unresolvedmeaning; whole876transfer remains uncompleted. Any new argument construction must explain seedcalls and this retained countercase, not silently coerce types or omitf76.1145parked;0confirmedwords.

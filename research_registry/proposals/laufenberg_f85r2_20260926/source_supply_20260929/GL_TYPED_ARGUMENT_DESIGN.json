@@ -1,0 +1,68 @@
+{
+  "utc": "2026-10-02T17:32:14.626323+00:00",
+  "status": "EXPLICIT_C0_DESIGN_NOT_SELECTED_NO_NEW_TEST",
+  "parent": "IDEA000876",
+  "preserved_decisions": {
+    "GDT1137": "RETAIN_SCOPED_C0_NO_MEANING_SELECTION",
+    "GDT1146": "CONTRADICTED_TRANSFER_ASSUMPTION"
+  },
+  "new_assumption": "Disjoint right-D unary versus left-D/Q/right-E material predication; old functions unchanged",
+  "domains": {
+    "D": [
+      "chedy",
+      "shedy"
+    ],
+    "E": [
+      "cheey",
+      "sheey"
+    ],
+    "Q": "qokedy"
+  },
+  "predictions": [
+    {
+      "left": "chedy",
+      "operator": "qokedy",
+      "right": "cheey",
+      "material_assertion": true
+    },
+    {
+      "left": "chedy",
+      "operator": "qokedy",
+      "right": "sheey",
+      "material_assertion": false
+    },
+    {
+      "left": "shedy",
+      "operator": "qokedy",
+      "right": "cheey",
+      "material_assertion": false
+    },
+    {
+      "left": "shedy",
+      "operator": "qokedy",
+      "right": "sheey",
+      "material_assertion": true
+    }
+  ],
+  "prediction_status": "logical consequences from existing field equality, no new executed or observed trials",
+  "existing_case_capacity": {
+    "right_D_reader_rows": 32,
+    "right_E_reader_rows": 3,
+    "right_E_physical_loci": 1,
+    "nonmotivating_binary_physical_loci": 0
+  },
+  "full_paragraph_reading": false,
+  "new_experiment": null,
+  "confirmed_words": 0,
+  "source_pins": {
+    "experiments/yolo/gdt1137_material_process_type_return/src/core.py": "592e070b934c54ff7e5965ed7a4ee1cd6789b14cd4d59de216a40d229e54ec02",
+    "experiments/yolo/gdt1137_material_process_type_return/src/author.py": "7cc3c8c1562cfc1e5440f7e4ca0bf5e13dcaa3bb341e52388660af4896c10c96",
+    "experiments/yolo/gdt1137_material_process_type_return/REPORT.md": "cc1224634a5f6f7ef26ac535ec9c884d425a02166e9dd727db857a2f843925d2",
+    "experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/METHOD.md": "15ece3a578befe9d4d7fb06c115e5b65aae403ac1f9e7f49c704d35dcf865f48",
+    "experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/artifacts/RESULT.json": "31254443fd5324a499c6da8f4a57432d8ebdece9a54d999eeab8c6313e9923d9",
+    "experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/artifacts/CASES.json": "1a85bd14e5cce6bfbac7182943bc431fa3e17ef68030455a79d168229140bc47",
+    "experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/artifacts/OCCURRENCES.json": "0c69101d51db901140ef223b9a9dc766ce697b49e05b680c34143b5b301d1b78",
+    "experiments/yolo/gdt1117_purification_operation_efficacy/REPORT.md": "e7a616f421d081396f7f9ee3f427313d2e4c21e9ca263a83736a36a019e541c9"
+  },
+  "report_sha256": "8ec88d8a58b51f87b06b21adfbbbd0b70aa356092e938fc92b56434e0636a2f8"
+}

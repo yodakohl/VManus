@@ -2,14 +2,14 @@
 Updated: 2026-10-02. Live resume point.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: checkpoint
-Task: GDT1146 frozen QOKEDY argument-type transfer.
-Latest decision: f76r6 contradicts new universal right binding;1137retained.
-Working files: experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/REPORT.md.
-Assumptions: Fixed4licenses;outside83;all exposed;no semantic confirmation.
-Resume: New argument grammar must cover seed+f76r6;no silent patch.
-Running: None;fixed census and reviews complete.
+Task: Post1146 typed argument alternative drafted;no new test.
+Latest decision: BinaryDY_Q_EY fits motivating case;0new applications;0words.
+Working files: source_supply_20260929/GL_TYPED_ARGUMENT_DESIGN.md.
+Assumptions: New C0 syntax;old1137core/1146failure unchanged;no reserve.
+Resume: Require additional application or distinct whole-context consequence.
+Running: None;bounded design and review complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
