@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1132 seed-material original-agent derivation.
-Latest decision: 1131 C complete IT C0; no meaning selected.
-Working files: gdt1132_seed_material_agent_derivation.
+Task: GDT1133 caption/body shared-component reading.
+Latest decision: 1132 Person use live; aN payload bypass, policy tie.
+Working files: gdt1133_caption_product_shared_components.
 Assumptions: Fixed grammar; exposed sources; zero meanings.
-Resume: Publish contract; run derived Person consumers.
-Running: Author/validator plus producer; min06:09:20UTC.
+Resume: Publish contract; author full body with fixed functions.
+Running: 1132 closure;1133 author/reviewer; min06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

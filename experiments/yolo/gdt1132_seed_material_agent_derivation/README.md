@@ -1,3 +1,3 @@
 # GDT1132 seed-material / agent derivation
 
-[Prospective contract](PREREGISTRATION.md). Four fixed policies; actual derived-person consumers across the complete exposed37-group seed-rite hypothesis. Registration only: no result, translation or new access.
+[Decision](REPORT.md), [contract](PREREGISTRATION.md), [candidate table](artifacts/CANDIDATE_TABLE.tsv). Actual Person consumers work; strict aN payload wiring fails. Three policies remain equivalent. Validator preserves two failures; no word confirmed.

@@ -1156,4 +1156,6 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 - GDT1131: C complete conditional IT N19/E27 wind description; A frozen interface/E dead reference, B three dead references; all alternate readers partial. [Decision](yolo/gdt1131_opposed_wind_survivor_succession/REPORT.md). No meaning selected.
 
-- GDT1132: registered material-to-original-agent derivation and actual Person consumers; four fixed policies, complete seed-rite obligations. [Contract](yolo/gdt1132_seed_material_agent_derivation/PREREGISTRATION.md). No result yet.
+- GDT1132: live Person consumers, strict aN payload bypass retained; three policies equivalent. [Decision](yolo/gdt1132_seed_material_agent_derivation/REPORT.md). No meaning selected.
+
+- GDT1133: registered C2 product-caption functions plus complete f19r and nonseed returned-value consumers. [Contract](yolo/gdt1133_caption_product_shared_components/PREREGISTRATION.md). No result yet.

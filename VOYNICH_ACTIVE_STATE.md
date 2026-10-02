@@ -1,3 +1,15 @@
+## 2026-10-02 GD/GDT1132: live Person consumers, root-payload bypass
+
+Original-acquisition/last-working/addressee each preserve60cases(12complete,48
+negative); derivedPersons actually feed9/18/35. aN returns are copied/logged but
+projections read originalG: extensional identity only, strict payload wiring
+fails. Body-support policy missingat9 inall60; late12diagnostics8contrasts/4self
+are conditionalonly.44/46validationchecks; secondfailure is eight wrong frozen
+expectedinterventiontails, actualauthorordercorrect. No code repair or policy
+selection. One exposedleaf31,0words/confirmation. Next GDT1133 fixedcaption
+functions plus wholef19r and actual later component consumers.
+[Decision](experiments/yolo/gdt1132_seed_material_agent_derivation/REPORT.md).
+
 ## 2026-10-02 GD/GDT1131: complete conditional wind description, no meaning selection
 
 C completes all IT N19/E27 contributions: generic opposed-wind original-survivor

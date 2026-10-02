@@ -1,0 +1,2544 @@
+[
+  {
+    "engineering_only": true,
+    "name": "FORCED_PERSON_9",
+    "expected_violation": "EXTRACT_SOURCE_ACTOR",
+    "output": {
+      "policy": "ORIGIN",
+      "coherent": false,
+      "status": "INSTRUCTION_CONTRADICTION",
+      "first_failure_step": 2,
+      "first_failure_position": null,
+      "first_violations": [
+        "EXTRACT_SOURCE_ACTOR"
+      ],
+      "completed_actions": 1,
+      "unexecuted": [
+        "PLACE",
+        "BIND",
+        "CLAIM"
+      ],
+      "unexecuted_plan": [
+        {
+          "op": "PLACE",
+          "actor": "A",
+          "object": "G",
+          "destination": "C"
+        },
+        {
+          "op": "BIND",
+          "actor": "A",
+          "object": "C",
+          "destination": "NECK(W)"
+        },
+        {
+          "op": "CLAIM",
+          "actor": "A",
+          "recipient": "W",
+          "condition": "Q",
+          "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+          "kind": "SOURCE_ATTRIBUTED_ONLY"
+        }
+      ],
+      "unexecuted_daiin_positions": [
+        18,
+        35
+      ],
+      "unexecuted_aiin_positions": [
+        23
+      ],
+      "reference_bindings": [
+        {
+          "position": 9,
+          "raw": "daiin",
+          "derivation": {
+            "policy": "ORIGIN",
+            "interface": "d+(a+N)",
+            "root_operation": {
+              "status": "KNOWN",
+              "value": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "arguments": {
+              "material": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "status": "KNOWN",
+            "value": "W",
+            "evidence": [
+              {
+                "initial_contains": {
+                  "R": {
+                    "G": [
+                      "r0s0",
+                      "r0s1",
+                      "r0s2",
+                      "r0s3"
+                    ]
+                  }
+                },
+                "original_container_ids": [
+                  "R"
+                ],
+                "completed_acquisitions": [
+                  {
+                    "event": "E1",
+                    "op": "TAKE",
+                    "actor": "A",
+                    "object": "R",
+                    "material": "G",
+                    "completed": true,
+                    "scope": "one complete f31r.1-5 rite"
+                  }
+                ]
+              }
+            ],
+            "returned_type": "Person",
+            "engineering_override": true,
+            "unmodified_policy_value": "A"
+          },
+          "consumer": "EXTRACT actor and NAILS owner",
+          "actual_consumed_person": "W",
+          "history_completed_operations": 1,
+          "actual_instrument": {
+            "kind": "NAILS",
+            "owner": "W"
+          },
+          "source_imperative_actor_duty": "A"
+        }
+      ],
+      "bare_root_bindings": [
+        {
+          "position": 5,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "C01 quantity/CONTAINS and completed TAKE provenance",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        },
+        {
+          "position": 13,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "EXTRACT exact G from R",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        }
+      ],
+      "knowledge_assertions": [],
+      "knowledge_staging": {
+        "subject_resolution": "after completed EXTRACT, at source18",
+        "truth_check": "at BIND t_bind; no KNOWN inference from purity"
+      },
+      "purity_check": null,
+      "clause_accounting": [
+        {
+          "id": "C01",
+          "source_positions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "required_duties": [
+            "TAKE"
+          ],
+          "completed_duties": [
+            "TAKE"
+          ],
+          "attempted_duties": [
+            "TAKE"
+          ],
+          "unexecuted_duties": [],
+          "status": "DUTIES_COMPLETED"
+        },
+        {
+          "id": "C02",
+          "source_positions": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "required_duties": [
+            "EXTRACT"
+          ],
+          "completed_duties": [],
+          "attempted_duties": [
+            "EXTRACT"
+          ],
+          "unexecuted_duties": [],
+          "status": "PARTIAL_OR_FAILED"
+        },
+        {
+          "id": "C03",
+          "source_positions": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "required_duties": [
+            "KNOWS"
+          ],
+          "completed_duties": [],
+          "attempted_duties": [],
+          "unexecuted_duties": [
+            "KNOWS"
+          ],
+          "status": "UNEXECUTED"
+        },
+        {
+          "id": "C04",
+          "source_positions": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "required_duties": [
+            "PLACE",
+            "BIND"
+          ],
+          "completed_duties": [],
+          "attempted_duties": [],
+          "unexecuted_duties": [
+            "PLACE",
+            "BIND"
+          ],
+          "status": "UNEXECUTED"
+        },
+        {
+          "id": "C05",
+          "source_positions": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "required_duties": [
+            "PURITY_AT_BIND",
+            "CLAIM"
+          ],
+          "completed_duties": [],
+          "attempted_duties": [],
+          "unexecuted_duties": [
+            "PURITY_AT_BIND",
+            "CLAIM"
+          ],
+          "status": "UNEXECUTED"
+        }
+      ],
+      "provenance": {
+        "initial_contains": {
+          "R": {
+            "G": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ]
+          }
+        },
+        "initial_seed_raisin_membership": {
+          "r0s0": "r0",
+          "r0s1": "r0",
+          "r0s2": "r0",
+          "r0s3": "r0"
+        },
+        "scope": "one complete f31r.1-5 rite",
+        "imperative_actor_input": {
+          "type": "Person",
+          "value": "A",
+          "independent_of_daiin": true,
+          "paid": true
+        }
+      },
+      "completed_history": [
+        {
+          "event": "E1",
+          "op": "TAKE",
+          "actor": "A",
+          "object": "R",
+          "material": "G",
+          "completed": true,
+          "scope": "one complete f31r.1-5 rite"
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "operation": {
+            "op": "TAKE",
+            "actor": "A",
+            "object": "R"
+          },
+          "before": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": false,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          },
+          "violations": [],
+          "after": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          }
+        },
+        {
+          "step": 2,
+          "operation": {
+            "op": "EXTRACT",
+            "actor": "W",
+            "object": "G",
+            "source": "R",
+            "using": "NAILS(W)",
+            "forbidden": "MOUTH(W)"
+          },
+          "before": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          },
+          "violations": [
+            "EXTRACT_SOURCE_ACTOR"
+          ],
+          "after": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          }
+        }
+      ],
+      "final": {
+        "raisins": {
+          "r0": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        },
+        "taken": true,
+        "loose": [],
+        "contents": [],
+        "bound": null,
+        "claims": [],
+        "current_container": "R",
+        "bound_person": null
+      },
+      "scope_costs": {
+        "imperative_input": 1,
+        "material_case_register": 1,
+        "initial_membership_retention": 1,
+        "completed_action_history": 1,
+        "unique_acquisition_projection": 1,
+        "latest_relevant_history_projection": 0,
+        "explicit_addressee_input": 0,
+        "current_support_and_body_projection": 0,
+        "live_person_to_three_consumers": 3
+      },
+      "source_purity_attachment": "ACTOR_RETAINED"
+    }
+  },
+  {
+    "engineering_only": true,
+    "name": "FORCED_PERSON_18",
+    "expected_violation": "ACTOR_KNOWLEDGE",
+    "output": {
+      "policy": "ORIGIN",
+      "coherent": false,
+      "status": "INSTRUCTION_CONTRADICTION",
+      "first_failure_step": 4,
+      "first_failure_position": null,
+      "first_violations": [
+        "ACTOR_KNOWLEDGE"
+      ],
+      "completed_actions": 3,
+      "unexecuted": [
+        "CLAIM"
+      ],
+      "unexecuted_plan": [
+        {
+          "op": "CLAIM",
+          "actor": "A",
+          "recipient": "W",
+          "condition": "Q",
+          "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+          "kind": "SOURCE_ATTRIBUTED_ONLY"
+        }
+      ],
+      "unexecuted_daiin_positions": [
+        35
+      ],
+      "unexecuted_aiin_positions": [],
+      "reference_bindings": [
+        {
+          "position": 9,
+          "raw": "daiin",
+          "derivation": {
+            "policy": "ORIGIN",
+            "interface": "d+(a+N)",
+            "root_operation": {
+              "status": "KNOWN",
+              "value": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "arguments": {
+              "material": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "status": "KNOWN",
+            "value": "A",
+            "evidence": [
+              {
+                "initial_contains": {
+                  "R": {
+                    "G": [
+                      "r0s0",
+                      "r0s1",
+                      "r0s2",
+                      "r0s3"
+                    ]
+                  }
+                },
+                "original_container_ids": [
+                  "R"
+                ],
+                "completed_acquisitions": [
+                  {
+                    "event": "E1",
+                    "op": "TAKE",
+                    "actor": "A",
+                    "object": "R",
+                    "material": "G",
+                    "completed": true,
+                    "scope": "one complete f31r.1-5 rite"
+                  }
+                ]
+              }
+            ],
+            "returned_type": "Person"
+          },
+          "consumer": "EXTRACT actor and NAILS owner",
+          "actual_consumed_person": "A",
+          "history_completed_operations": 1,
+          "actual_instrument": {
+            "kind": "NAILS",
+            "owner": "A"
+          },
+          "source_imperative_actor_duty": "A"
+        },
+        {
+          "position": 18,
+          "raw": "daiin",
+          "derivation": {
+            "policy": "ORIGIN",
+            "interface": "d+(a+N)",
+            "root_operation": {
+              "status": "KNOWN",
+              "value": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "arguments": {
+              "material": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "status": "KNOWN",
+            "value": "W",
+            "evidence": [
+              {
+                "initial_contains": {
+                  "R": {
+                    "G": [
+                      "r0s0",
+                      "r0s1",
+                      "r0s2",
+                      "r0s3"
+                    ]
+                  }
+                },
+                "original_container_ids": [
+                  "R"
+                ],
+                "completed_acquisitions": [
+                  {
+                    "event": "E1",
+                    "op": "TAKE",
+                    "actor": "A",
+                    "object": "R",
+                    "material": "G",
+                    "completed": true,
+                    "scope": "one complete f31r.1-5 rite"
+                  }
+                ]
+              }
+            ],
+            "returned_type": "Person",
+            "engineering_override": true,
+            "unmodified_policy_value": "A"
+          },
+          "consumer": "KNOWS subject at t_bind",
+          "actual_consumed_person": "W",
+          "history_completed_operations": 2,
+          "actual_knowledge_content": [
+            {
+              "source_position": 18,
+              "subject": "W",
+              "object": "P_rite",
+              "time": "t_bind",
+              "required_value": true,
+              "actual_value": false
+            },
+            {
+              "source_position": 20,
+              "subject": "W",
+              "object": "P_rite",
+              "time": "t_bind",
+              "required_value": false,
+              "actual_value": false
+            }
+          ]
+        }
+      ],
+      "bare_root_bindings": [
+        {
+          "position": 5,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "C01 quantity/CONTAINS and completed TAKE provenance",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        },
+        {
+          "position": 13,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "EXTRACT exact G from R",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        },
+        {
+          "position": 23,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "C04 PLACE/BIND same G; resolved before either physical action",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        }
+      ],
+      "knowledge_assertions": [
+        {
+          "source_position": 18,
+          "subject": "W",
+          "object": "P_rite",
+          "time": "t_bind",
+          "required_value": true,
+          "actual_value": false
+        },
+        {
+          "source_position": 20,
+          "subject": "W",
+          "object": "P_rite",
+          "time": "t_bind",
+          "required_value": false,
+          "actual_value": false
+        }
+      ],
+      "knowledge_staging": {
+        "subject_resolution": "after completed EXTRACT, at source18",
+        "truth_check": "at BIND t_bind; no KNOWN inference from purity"
+      },
+      "purity_check": {
+        "person": "A",
+        "time": "t_bind",
+        "actual_value": true,
+        "required_value": true,
+        "attachment": "ACTOR",
+        "source_actor_condition_retained": true
+      },
+      "clause_accounting": [
+        {
+          "id": "C01",
+          "source_positions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "required_duties": [
+            "TAKE"
+          ],
+          "completed_duties": [
+            "TAKE"
+          ],
+          "attempted_duties": [
+            "TAKE"
+          ],
+          "unexecuted_duties": [],
+          "status": "DUTIES_COMPLETED"
+        },
+        {
+          "id": "C02",
+          "source_positions": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "required_duties": [
+            "EXTRACT"
+          ],
+          "completed_duties": [
+            "EXTRACT"
+          ],
+          "attempted_duties": [
+            "EXTRACT"
+          ],
+          "unexecuted_duties": [],
+          "status": "DUTIES_COMPLETED"
+        },
+        {
+          "id": "C03",
+          "source_positions": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "required_duties": [
+            "KNOWS"
+          ],
+          "completed_duties": [],
+          "attempted_duties": [
+            "KNOWS"
+          ],
+          "unexecuted_duties": [],
+          "status": "PARTIAL_OR_FAILED"
+        },
+        {
+          "id": "C04",
+          "source_positions": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "required_duties": [
+            "PLACE",
+            "BIND"
+          ],
+          "completed_duties": [
+            "PLACE"
+          ],
+          "attempted_duties": [
+            "PLACE",
+            "BIND"
+          ],
+          "unexecuted_duties": [],
+          "status": "PARTIAL_OR_FAILED"
+        },
+        {
+          "id": "C05",
+          "source_positions": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "required_duties": [
+            "PURITY_AT_BIND",
+            "CLAIM"
+          ],
+          "completed_duties": [
+            "PURITY_AT_BIND"
+          ],
+          "attempted_duties": [
+            "PURITY_AT_BIND"
+          ],
+          "unexecuted_duties": [
+            "CLAIM"
+          ],
+          "status": "PARTIAL_OR_FAILED"
+        }
+      ],
+      "provenance": {
+        "initial_contains": {
+          "R": {
+            "G": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ]
+          }
+        },
+        "initial_seed_raisin_membership": {
+          "r0s0": "r0",
+          "r0s1": "r0",
+          "r0s2": "r0",
+          "r0s3": "r0"
+        },
+        "scope": "one complete f31r.1-5 rite",
+        "imperative_actor_input": {
+          "type": "Person",
+          "value": "A",
+          "independent_of_daiin": true,
+          "paid": true
+        }
+      },
+      "completed_history": [
+        {
+          "event": "E1",
+          "op": "TAKE",
+          "actor": "A",
+          "object": "R",
+          "material": "G",
+          "completed": true,
+          "scope": "one complete f31r.1-5 rite"
+        },
+        {
+          "event": "E2",
+          "op": "EXTRACT",
+          "actor": "A",
+          "object": "G",
+          "material": "G",
+          "completed": true,
+          "scope": "one complete f31r.1-5 rite"
+        },
+        {
+          "event": "E3",
+          "op": "PLACE",
+          "actor": "A",
+          "object": "G",
+          "material": "G",
+          "completed": true,
+          "scope": "one complete f31r.1-5 rite"
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "operation": {
+            "op": "TAKE",
+            "actor": "A",
+            "object": "R"
+          },
+          "before": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": false,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          },
+          "violations": [],
+          "after": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          }
+        },
+        {
+          "step": 2,
+          "operation": {
+            "op": "EXTRACT",
+            "actor": "A",
+            "object": "G",
+            "source": "R",
+            "using": "NAILS(A)",
+            "forbidden": "MOUTH(A)"
+          },
+          "before": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          },
+          "violations": [],
+          "after": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "LOOSE",
+            "bound_person": null
+          }
+        },
+        {
+          "step": 3,
+          "operation": {
+            "op": "PLACE",
+            "actor": "A",
+            "object": "G",
+            "destination": "C"
+          },
+          "before": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "LOOSE",
+            "bound_person": null
+          },
+          "violations": [],
+          "after": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "bound": null,
+            "claims": [],
+            "current_container": "C",
+            "bound_person": null
+          }
+        },
+        {
+          "step": 4,
+          "operation": {
+            "op": "BIND",
+            "actor": "A",
+            "object": "C",
+            "destination": "NECK(W)"
+          },
+          "before": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "bound": null,
+            "claims": [],
+            "current_container": "C",
+            "bound_person": null
+          },
+          "violations": [
+            "ACTOR_KNOWLEDGE"
+          ],
+          "after": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "bound": null,
+            "claims": [],
+            "current_container": "C",
+            "bound_person": null
+          }
+        }
+      ],
+      "final": {
+        "raisins": {
+          "r0": []
+        },
+        "taken": true,
+        "loose": [],
+        "contents": [
+          "r0s0",
+          "r0s1",
+          "r0s2",
+          "r0s3"
+        ],
+        "bound": null,
+        "claims": [],
+        "current_container": "C",
+        "bound_person": null
+      },
+      "scope_costs": {
+        "imperative_input": 1,
+        "material_case_register": 1,
+        "initial_membership_retention": 1,
+        "completed_action_history": 1,
+        "unique_acquisition_projection": 1,
+        "latest_relevant_history_projection": 0,
+        "explicit_addressee_input": 0,
+        "current_support_and_body_projection": 0,
+        "live_person_to_three_consumers": 3
+      },
+      "source_purity_attachment": "ACTOR_RETAINED"
+    }
+  },
+  {
+    "engineering_only": true,
+    "name": "FORCED_PERSON_35",
+    "expected_violation": "CLAIM_SOURCE_ACTOR",
+    "output": {
+      "policy": "ORIGIN",
+      "coherent": false,
+      "status": "INSTRUCTION_CONTRADICTION",
+      "first_failure_step": 5,
+      "first_failure_position": null,
+      "first_violations": [
+        "CLAIM_SOURCE_ACTOR"
+      ],
+      "completed_actions": 4,
+      "unexecuted": [],
+      "unexecuted_plan": [],
+      "unexecuted_daiin_positions": [],
+      "unexecuted_aiin_positions": [],
+      "reference_bindings": [
+        {
+          "position": 9,
+          "raw": "daiin",
+          "derivation": {
+            "policy": "ORIGIN",
+            "interface": "d+(a+N)",
+            "root_operation": {
+              "status": "KNOWN",
+              "value": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "arguments": {
+              "material": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "status": "KNOWN",
+            "value": "A",
+            "evidence": [
+              {
+                "initial_contains": {
+                  "R": {
+                    "G": [
+                      "r0s0",
+                      "r0s1",
+                      "r0s2",
+                      "r0s3"
+                    ]
+                  }
+                },
+                "original_container_ids": [
+                  "R"
+                ],
+                "completed_acquisitions": [
+                  {
+                    "event": "E1",
+                    "op": "TAKE",
+                    "actor": "A",
+                    "object": "R",
+                    "material": "G",
+                    "completed": true,
+                    "scope": "one complete f31r.1-5 rite"
+                  }
+                ]
+              }
+            ],
+            "returned_type": "Person"
+          },
+          "consumer": "EXTRACT actor and NAILS owner",
+          "actual_consumed_person": "A",
+          "history_completed_operations": 1,
+          "actual_instrument": {
+            "kind": "NAILS",
+            "owner": "A"
+          },
+          "source_imperative_actor_duty": "A"
+        },
+        {
+          "position": 18,
+          "raw": "daiin",
+          "derivation": {
+            "policy": "ORIGIN",
+            "interface": "d+(a+N)",
+            "root_operation": {
+              "status": "KNOWN",
+              "value": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "arguments": {
+              "material": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "status": "KNOWN",
+            "value": "A",
+            "evidence": [
+              {
+                "initial_contains": {
+                  "R": {
+                    "G": [
+                      "r0s0",
+                      "r0s1",
+                      "r0s2",
+                      "r0s3"
+                    ]
+                  }
+                },
+                "original_container_ids": [
+                  "R"
+                ],
+                "completed_acquisitions": [
+                  {
+                    "event": "E1",
+                    "op": "TAKE",
+                    "actor": "A",
+                    "object": "R",
+                    "material": "G",
+                    "completed": true,
+                    "scope": "one complete f31r.1-5 rite"
+                  }
+                ]
+              }
+            ],
+            "returned_type": "Person"
+          },
+          "consumer": "KNOWS subject at t_bind",
+          "actual_consumed_person": "A",
+          "history_completed_operations": 2,
+          "actual_knowledge_content": [
+            {
+              "source_position": 18,
+              "subject": "A",
+              "object": "P_rite",
+              "time": "t_bind",
+              "required_value": true,
+              "actual_value": true
+            },
+            {
+              "source_position": 20,
+              "subject": "W",
+              "object": "P_rite",
+              "time": "t_bind",
+              "required_value": false,
+              "actual_value": false
+            }
+          ]
+        },
+        {
+          "position": 35,
+          "raw": "daiin",
+          "derivation": {
+            "policy": "ORIGIN",
+            "interface": "d+(a+N)",
+            "root_operation": {
+              "status": "KNOWN",
+              "value": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "arguments": {
+              "material": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "status": "KNOWN",
+            "value": "W",
+            "evidence": [
+              {
+                "initial_contains": {
+                  "R": {
+                    "G": [
+                      "r0s0",
+                      "r0s1",
+                      "r0s2",
+                      "r0s3"
+                    ]
+                  }
+                },
+                "original_container_ids": [
+                  "R"
+                ],
+                "completed_acquisitions": [
+                  {
+                    "event": "E1",
+                    "op": "TAKE",
+                    "actor": "A",
+                    "object": "R",
+                    "material": "G",
+                    "completed": true,
+                    "scope": "one complete f31r.1-5 rite"
+                  }
+                ]
+              }
+            ],
+            "returned_type": "Person",
+            "engineering_override": true,
+            "unmodified_policy_value": "A"
+          },
+          "consumer": "source-attributed RELEASE claim actor",
+          "actual_consumed_person": "W",
+          "history_completed_operations": 4,
+          "actual_attempted_claim_content": {
+            "actor": "W",
+            "recipient": "W",
+            "condition": "Q",
+            "grace": "GOD",
+            "content": "RELEASE(W,W,Q) BY_GRACE(GOD)",
+            "status": "SOURCE_ATTRIBUTED_ONLY"
+          },
+          "source_actor_duty_match": false
+        }
+      ],
+      "bare_root_bindings": [
+        {
+          "position": 5,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "C01 quantity/CONTAINS and completed TAKE provenance",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        },
+        {
+          "position": 13,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "EXTRACT exact G from R",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        },
+        {
+          "position": 23,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "C04 PLACE/BIND same G; resolved before either physical action",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        }
+      ],
+      "knowledge_assertions": [
+        {
+          "source_position": 18,
+          "subject": "A",
+          "object": "P_rite",
+          "time": "t_bind",
+          "required_value": true,
+          "actual_value": true
+        },
+        {
+          "source_position": 20,
+          "subject": "W",
+          "object": "P_rite",
+          "time": "t_bind",
+          "required_value": false,
+          "actual_value": false
+        }
+      ],
+      "knowledge_staging": {
+        "subject_resolution": "after completed EXTRACT, at source18",
+        "truth_check": "at BIND t_bind; no KNOWN inference from purity"
+      },
+      "purity_check": {
+        "person": "A",
+        "time": "t_bind",
+        "actual_value": true,
+        "required_value": true,
+        "attachment": "ACTOR",
+        "source_actor_condition_retained": true
+      },
+      "clause_accounting": [
+        {
+          "id": "C01",
+          "source_positions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "required_duties": [
+            "TAKE"
+          ],
+          "completed_duties": [
+            "TAKE"
+          ],
+          "attempted_duties": [
+            "TAKE"
+          ],
+          "unexecuted_duties": [],
+          "status": "DUTIES_COMPLETED"
+        },
+        {
+          "id": "C02",
+          "source_positions": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "required_duties": [
+            "EXTRACT"
+          ],
+          "completed_duties": [
+            "EXTRACT"
+          ],
+          "attempted_duties": [
+            "EXTRACT"
+          ],
+          "unexecuted_duties": [],
+          "status": "DUTIES_COMPLETED"
+        },
+        {
+          "id": "C03",
+          "source_positions": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "required_duties": [
+            "KNOWS"
+          ],
+          "completed_duties": [
+            "KNOWS"
+          ],
+          "attempted_duties": [
+            "KNOWS"
+          ],
+          "unexecuted_duties": [],
+          "status": "DUTIES_COMPLETED"
+        },
+        {
+          "id": "C04",
+          "source_positions": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "required_duties": [
+            "PLACE",
+            "BIND"
+          ],
+          "completed_duties": [
+            "PLACE",
+            "BIND"
+          ],
+          "attempted_duties": [
+            "PLACE",
+            "BIND"
+          ],
+          "unexecuted_duties": [],
+          "status": "DUTIES_COMPLETED"
+        },
+        {
+          "id": "C05",
+          "source_positions": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "required_duties": [
+            "PURITY_AT_BIND",
+            "CLAIM"
+          ],
+          "completed_duties": [
+            "PURITY_AT_BIND"
+          ],
+          "attempted_duties": [
+            "PURITY_AT_BIND",
+            "CLAIM"
+          ],
+          "unexecuted_duties": [],
+          "status": "PARTIAL_OR_FAILED"
+        }
+      ],
+      "provenance": {
+        "initial_contains": {
+          "R": {
+            "G": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ]
+          }
+        },
+        "initial_seed_raisin_membership": {
+          "r0s0": "r0",
+          "r0s1": "r0",
+          "r0s2": "r0",
+          "r0s3": "r0"
+        },
+        "scope": "one complete f31r.1-5 rite",
+        "imperative_actor_input": {
+          "type": "Person",
+          "value": "A",
+          "independent_of_daiin": true,
+          "paid": true
+        }
+      },
+      "completed_history": [
+        {
+          "event": "E1",
+          "op": "TAKE",
+          "actor": "A",
+          "object": "R",
+          "material": "G",
+          "completed": true,
+          "scope": "one complete f31r.1-5 rite"
+        },
+        {
+          "event": "E2",
+          "op": "EXTRACT",
+          "actor": "A",
+          "object": "G",
+          "material": "G",
+          "completed": true,
+          "scope": "one complete f31r.1-5 rite"
+        },
+        {
+          "event": "E3",
+          "op": "PLACE",
+          "actor": "A",
+          "object": "G",
+          "material": "G",
+          "completed": true,
+          "scope": "one complete f31r.1-5 rite"
+        },
+        {
+          "event": "E4",
+          "op": "BIND",
+          "actor": "A",
+          "object": "C",
+          "material": "G",
+          "completed": true,
+          "scope": "one complete f31r.1-5 rite"
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "operation": {
+            "op": "TAKE",
+            "actor": "A",
+            "object": "R"
+          },
+          "before": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": false,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          },
+          "violations": [],
+          "after": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          }
+        },
+        {
+          "step": 2,
+          "operation": {
+            "op": "EXTRACT",
+            "actor": "A",
+            "object": "G",
+            "source": "R",
+            "using": "NAILS(A)",
+            "forbidden": "MOUTH(A)"
+          },
+          "before": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          },
+          "violations": [],
+          "after": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "LOOSE",
+            "bound_person": null
+          }
+        },
+        {
+          "step": 3,
+          "operation": {
+            "op": "PLACE",
+            "actor": "A",
+            "object": "G",
+            "destination": "C"
+          },
+          "before": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "LOOSE",
+            "bound_person": null
+          },
+          "violations": [],
+          "after": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "bound": null,
+            "claims": [],
+            "current_container": "C",
+            "bound_person": null
+          }
+        },
+        {
+          "step": 4,
+          "operation": {
+            "op": "BIND",
+            "actor": "A",
+            "object": "C",
+            "destination": "NECK(W)"
+          },
+          "before": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "bound": null,
+            "claims": [],
+            "current_container": "C",
+            "bound_person": null
+          },
+          "violations": [],
+          "after": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "bound": "NECK(W)",
+            "claims": [],
+            "current_container": "C",
+            "bound_person": "W"
+          }
+        },
+        {
+          "step": 5,
+          "operation": {
+            "op": "CLAIM",
+            "actor": "W",
+            "recipient": "W",
+            "condition": "Q",
+            "content": "RELEASE(W,W,Q) BY_GRACE(GOD)",
+            "kind": "SOURCE_ATTRIBUTED_ONLY"
+          },
+          "before": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "bound": "NECK(W)",
+            "claims": [],
+            "current_container": "C",
+            "bound_person": "W"
+          },
+          "violations": [
+            "CLAIM_SOURCE_ACTOR"
+          ],
+          "after": {
+            "raisins": {
+              "r0": []
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ],
+            "bound": "NECK(W)",
+            "claims": [],
+            "current_container": "C",
+            "bound_person": "W"
+          }
+        }
+      ],
+      "final": {
+        "raisins": {
+          "r0": []
+        },
+        "taken": true,
+        "loose": [],
+        "contents": [
+          "r0s0",
+          "r0s1",
+          "r0s2",
+          "r0s3"
+        ],
+        "bound": "NECK(W)",
+        "claims": [],
+        "current_container": "C",
+        "bound_person": "W"
+      },
+      "scope_costs": {
+        "imperative_input": 1,
+        "material_case_register": 1,
+        "initial_membership_retention": 1,
+        "completed_action_history": 1,
+        "unique_acquisition_projection": 1,
+        "latest_relevant_history_projection": 0,
+        "explicit_addressee_input": 0,
+        "current_support_and_body_projection": 0,
+        "live_person_to_three_consumers": 3
+      },
+      "source_purity_attachment": "ACTOR_RETAINED"
+    }
+  },
+  {
+    "engineering_only": true,
+    "name": "WRONG_NAIL_OWNER",
+    "output": {
+      "policy": "ORIGIN",
+      "coherent": false,
+      "status": "INSTRUCTION_CONTRADICTION",
+      "first_failure_step": 2,
+      "first_failure_position": null,
+      "first_violations": [
+        "INSTRUMENT_OWNER"
+      ],
+      "completed_actions": 1,
+      "unexecuted": [
+        "PLACE",
+        "BIND",
+        "CLAIM"
+      ],
+      "unexecuted_plan": [
+        {
+          "op": "PLACE",
+          "actor": "A",
+          "object": "G",
+          "destination": "C"
+        },
+        {
+          "op": "BIND",
+          "actor": "A",
+          "object": "C",
+          "destination": "NECK(W)"
+        },
+        {
+          "op": "CLAIM",
+          "actor": "A",
+          "recipient": "W",
+          "condition": "Q",
+          "content": "RELEASE(A,W,Q) BY_GRACE(GOD)",
+          "kind": "SOURCE_ATTRIBUTED_ONLY"
+        }
+      ],
+      "unexecuted_daiin_positions": [
+        18,
+        35
+      ],
+      "unexecuted_aiin_positions": [
+        23
+      ],
+      "reference_bindings": [
+        {
+          "position": 9,
+          "raw": "daiin",
+          "derivation": {
+            "policy": "ORIGIN",
+            "interface": "d+(a+N)",
+            "root_operation": {
+              "status": "KNOWN",
+              "value": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "arguments": {
+              "material": {
+                "id": "G",
+                "type": "SeedGroup",
+                "members": [
+                  "r0s0",
+                  "r0s1",
+                  "r0s2",
+                  "r0s3"
+                ]
+              }
+            },
+            "status": "KNOWN",
+            "value": "A",
+            "evidence": [
+              {
+                "initial_contains": {
+                  "R": {
+                    "G": [
+                      "r0s0",
+                      "r0s1",
+                      "r0s2",
+                      "r0s3"
+                    ]
+                  }
+                },
+                "original_container_ids": [
+                  "R"
+                ],
+                "completed_acquisitions": [
+                  {
+                    "event": "E1",
+                    "op": "TAKE",
+                    "actor": "A",
+                    "object": "R",
+                    "material": "G",
+                    "completed": true,
+                    "scope": "one complete f31r.1-5 rite"
+                  }
+                ]
+              }
+            ],
+            "returned_type": "Person"
+          },
+          "consumer": "EXTRACT actor and NAILS owner",
+          "actual_consumed_person": "A",
+          "history_completed_operations": 1,
+          "actual_instrument": {
+            "kind": "NAILS",
+            "owner": "W"
+          },
+          "source_imperative_actor_duty": "A"
+        }
+      ],
+      "bare_root_bindings": [
+        {
+          "position": 5,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "C01 quantity/CONTAINS and completed TAKE provenance",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        },
+        {
+          "position": 13,
+          "raw": "aiin",
+          "root": {
+            "status": "KNOWN",
+            "value": {
+              "id": "G",
+              "type": "SeedGroup",
+              "members": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "consumer": "EXTRACT exact G from R",
+          "same_material_id": "G",
+          "same_members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        }
+      ],
+      "knowledge_assertions": [],
+      "knowledge_staging": {
+        "subject_resolution": "after completed EXTRACT, at source18",
+        "truth_check": "at BIND t_bind; no KNOWN inference from purity"
+      },
+      "purity_check": null,
+      "clause_accounting": [
+        {
+          "id": "C01",
+          "source_positions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "required_duties": [
+            "TAKE"
+          ],
+          "completed_duties": [
+            "TAKE"
+          ],
+          "attempted_duties": [
+            "TAKE"
+          ],
+          "unexecuted_duties": [],
+          "status": "DUTIES_COMPLETED"
+        },
+        {
+          "id": "C02",
+          "source_positions": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "required_duties": [
+            "EXTRACT"
+          ],
+          "completed_duties": [],
+          "attempted_duties": [
+            "EXTRACT"
+          ],
+          "unexecuted_duties": [],
+          "status": "PARTIAL_OR_FAILED"
+        },
+        {
+          "id": "C03",
+          "source_positions": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "required_duties": [
+            "KNOWS"
+          ],
+          "completed_duties": [],
+          "attempted_duties": [],
+          "unexecuted_duties": [
+            "KNOWS"
+          ],
+          "status": "UNEXECUTED"
+        },
+        {
+          "id": "C04",
+          "source_positions": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "required_duties": [
+            "PLACE",
+            "BIND"
+          ],
+          "completed_duties": [],
+          "attempted_duties": [],
+          "unexecuted_duties": [
+            "PLACE",
+            "BIND"
+          ],
+          "status": "UNEXECUTED"
+        },
+        {
+          "id": "C05",
+          "source_positions": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "required_duties": [
+            "PURITY_AT_BIND",
+            "CLAIM"
+          ],
+          "completed_duties": [],
+          "attempted_duties": [],
+          "unexecuted_duties": [
+            "PURITY_AT_BIND",
+            "CLAIM"
+          ],
+          "status": "UNEXECUTED"
+        }
+      ],
+      "provenance": {
+        "initial_contains": {
+          "R": {
+            "G": [
+              "r0s0",
+              "r0s1",
+              "r0s2",
+              "r0s3"
+            ]
+          }
+        },
+        "initial_seed_raisin_membership": {
+          "r0s0": "r0",
+          "r0s1": "r0",
+          "r0s2": "r0",
+          "r0s3": "r0"
+        },
+        "scope": "one complete f31r.1-5 rite",
+        "imperative_actor_input": {
+          "type": "Person",
+          "value": "A",
+          "independent_of_daiin": true,
+          "paid": true
+        }
+      },
+      "completed_history": [
+        {
+          "event": "E1",
+          "op": "TAKE",
+          "actor": "A",
+          "object": "R",
+          "material": "G",
+          "completed": true,
+          "scope": "one complete f31r.1-5 rite"
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "operation": {
+            "op": "TAKE",
+            "actor": "A",
+            "object": "R"
+          },
+          "before": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": false,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          },
+          "violations": [],
+          "after": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          }
+        },
+        {
+          "step": 2,
+          "operation": {
+            "op": "EXTRACT",
+            "actor": "A",
+            "object": "G",
+            "source": "R",
+            "using": "NAILS(W)",
+            "forbidden": "MOUTH(A)"
+          },
+          "before": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          },
+          "violations": [
+            "INSTRUMENT_OWNER"
+          ],
+          "after": {
+            "raisins": {
+              "r0": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            },
+            "taken": true,
+            "loose": [],
+            "contents": [],
+            "bound": null,
+            "claims": [],
+            "current_container": "R",
+            "bound_person": null
+          }
+        }
+      ],
+      "final": {
+        "raisins": {
+          "r0": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        },
+        "taken": true,
+        "loose": [],
+        "contents": [],
+        "bound": null,
+        "claims": [],
+        "current_container": "R",
+        "bound_person": null
+      },
+      "scope_costs": {
+        "imperative_input": 1,
+        "material_case_register": 1,
+        "initial_membership_retention": 1,
+        "completed_action_history": 1,
+        "unique_acquisition_projection": 1,
+        "latest_relevant_history_projection": 0,
+        "explicit_addressee_input": 0,
+        "current_support_and_body_projection": 0,
+        "live_person_to_three_consumers": 3
+      },
+      "source_purity_attachment": "ACTOR_RETAINED"
+    }
+  },
+  {
+    "engineering_only": true,
+    "name": "NO_COMPLETED_TAKE",
+    "result": {
+      "policy": "ORIGIN",
+      "interface": "d+(a+N)",
+      "root_operation": {
+        "status": "KNOWN",
+        "value": {
+          "id": "G",
+          "type": "SeedGroup",
+          "members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        }
+      },
+      "arguments": {
+        "material": {
+          "id": "G",
+          "type": "SeedGroup",
+          "members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        }
+      },
+      "status": "MISSING",
+      "value": null,
+      "evidence": [
+        {
+          "initial_contains": {
+            "R": {
+              "G": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "original_container_ids": [
+            "R"
+          ],
+          "completed_acquisitions": []
+        }
+      ]
+    }
+  },
+  {
+    "engineering_only": true,
+    "name": "AMBIGUOUS_ACQUISITION_ACTORS",
+    "result": {
+      "policy": "ORIGIN",
+      "interface": "d+(a+N)",
+      "root_operation": {
+        "status": "KNOWN",
+        "value": {
+          "id": "G",
+          "type": "SeedGroup",
+          "members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        }
+      },
+      "arguments": {
+        "material": {
+          "id": "G",
+          "type": "SeedGroup",
+          "members": [
+            "r0s0",
+            "r0s1",
+            "r0s2",
+            "r0s3"
+          ]
+        }
+      },
+      "status": "AMBIGUOUS",
+      "value": null,
+      "evidence": [
+        {
+          "initial_contains": {
+            "R": {
+              "G": [
+                "r0s0",
+                "r0s1",
+                "r0s2",
+                "r0s3"
+              ]
+            }
+          },
+          "original_container_ids": [
+            "R"
+          ],
+          "completed_acquisitions": [
+            {
+              "event": "E1",
+              "op": "TAKE",
+              "actor": "A",
+              "object": "R",
+              "material": "G",
+              "completed": true,
+              "scope": "one complete f31r.1-5 rite"
+            },
+            {
+              "event": "ENGINEERING_ONLY_SECOND_TAKE",
+              "op": "TAKE",
+              "actor": "W",
+              "object": "R",
+              "material": "G",
+              "completed": true,
+              "scope": "one complete f31r.1-5 rite"
+            }
+          ]
+        }
+      ],
+      "alternatives": [
+        "A",
+        "W"
+      ]
+    }
+  },
+  {
+    "engineering_only": true,
+    "name": "CLOTH_NOT_SEED_GROUP",
+    "result": {
+      "status": "TYPE_MISMATCH",
+      "value": null
+    }
+  }
+]

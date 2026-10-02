@@ -1,0 +1,194 @@
+{
+  "experiment": "GDT1132",
+  "reviewer": "independent postreview",
+  "review_utc": "2026-10-02T00:08:28.963614+00:00",
+  "status": "LIVE_PERSON_CONSUMERS_RETAINED_EXTENTIONAL_ROOT_COMPOSITION_ONLY_POLICIES_UNSELECTED",
+  "author_files_modified": false,
+  "author_or_validator_executed": false,
+  "new_source_fetch_or_target_access": false,
+  "release_hashes_verified": true,
+  "reviewed_hashes": {
+    "src/model.py": "869489a4d8ef7dcd95a3dddc6c7adb033aaceecf5fc3008cdfd694313792c89e",
+    "src/run.py": "e6701e4b851e7c5f2eae5fd6cd22365b2a3c300039ed6c2bb8a7e1d2c81e2a83",
+    "artifacts/AUTHOR_SOURCE_ACCOUNT.json": "a407112170ad62972f7285cf45059a2d1098ce9f03570806d00f972876f0e282",
+    "artifacts/AUTHOR_TRACES.json": "2a1dec04379513a2a4c5844661f24a5fbc45ca4c780fb498404bc09723eb05a6",
+    "artifacts/AUTHOR_LATE_DIAGNOSTICS.json": "d3e2644ec6df02b6294af659ac55fc7084cadd77119cab4a1cf8c049928b7dfa",
+    "artifacts/AUTHOR_ENGINEERING_PROBES.json": "aeb43898eafa9891da67efd2e516b7580bee5ed9aafdf82c1d0085415b79e8a7",
+    "artifacts/AUTHOR_RESULT.json": "0f180cdb54b5ab874ee94412e88f63fd0aa09edf4a0d82f802f1147b126d61ac",
+    "artifacts/AUTHOR_REPORT.md": "a56e28eb90a2ca124407a1f757ced7fa931cab340dc66b38e7ee214b53ea8640"
+  },
+  "policy_summary": [
+    {
+      "policy": "ORIGIN",
+      "stored_inputs": 60,
+      "complete_internal_witnesses": 12,
+      "actor_purity_complete_witnesses": 6,
+      "recipient_purity_complete_witnesses_omit_source_actor_condition": 6,
+      "first_failures": {
+        "NONE": 12,
+        "MOUTH_PROHIBITED_BY_INSTRUCTION": 8,
+        "SEED_IDENTITIES": 24,
+        "BIND_CONTENTS": 8,
+        "PURITY_AT_BIND": 8
+      },
+      "reached_daiin_positions": {
+        "9": 60,
+        "18": 52,
+        "35": 12
+      }
+    },
+    {
+      "policy": "LAST_WORKING",
+      "stored_inputs": 60,
+      "complete_internal_witnesses": 12,
+      "actor_purity_complete_witnesses": 6,
+      "recipient_purity_complete_witnesses_omit_source_actor_condition": 6,
+      "first_failures": {
+        "NONE": 12,
+        "MOUTH_PROHIBITED_BY_INSTRUCTION": 8,
+        "SEED_IDENTITIES": 24,
+        "BIND_CONTENTS": 8,
+        "PURITY_AT_BIND": 8
+      },
+      "reached_daiin_positions": {
+        "9": 60,
+        "18": 52,
+        "35": 12
+      }
+    },
+    {
+      "policy": "ADDRESSEE",
+      "stored_inputs": 60,
+      "complete_internal_witnesses": 12,
+      "actor_purity_complete_witnesses": 6,
+      "recipient_purity_complete_witnesses_omit_source_actor_condition": 6,
+      "first_failures": {
+        "NONE": 12,
+        "MOUTH_PROHIBITED_BY_INSTRUCTION": 8,
+        "SEED_IDENTITIES": 24,
+        "BIND_CONTENTS": 8,
+        "PURITY_AT_BIND": 8
+      },
+      "reached_daiin_positions": {
+        "9": 60,
+        "18": 52,
+        "35": 12
+      }
+    },
+    {
+      "policy": "BODILY_SUPPORT",
+      "stored_inputs": 60,
+      "complete_internal_witnesses": 0,
+      "actor_purity_complete_witnesses": 0,
+      "recipient_purity_complete_witnesses_omit_source_actor_condition": 0,
+      "first_failures": {
+        "REFERENCE_MISSING_POSITION9": 60
+      },
+      "reached_daiin_positions": {
+        "9": 60
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "PERSON_BINDINGS",
+      "decision": "RETAIN",
+      "claim": "Returned Person is used by all three actual consumers; no replacement by global A at these consumers.",
+      "evidence": [
+        "src/model.py:127-140 EXTRACT actor and NAILS owner from r.value",
+        "src/model.py:113-117 resolves positive knowledge subject;163-169 uses knowledge_person in actual lookup",
+        "src/model.py:179-194 constructs RELEASE from r.value and conditionally appends it",
+        "AUTHOR_ENGINEERING_PROBES.json FORCED_PERSON_9/18/35 construct W-based consumers and produce EXTRACT_SOURCE_ACTOR/ACTOR_KNOWLEDGE/CLAIM_SOURCE_ACTOR respectively"
+      ],
+      "scope": "TAKE, PLACE, BIND and actor-purity still use disclosed imperative input; this local experiment does not derive every agent in the paragraph."
+    },
+    {
+      "id": "ROOT_PAYLOAD_EDGE",
+      "decision": "QUALIFY",
+      "claim": "aN returns the exact G value at every reached root use, but its returned payload is not literally passed onward.",
+      "evidence": [
+        "src/model.py:13-16 aN checks SeedGroup/idG and returns deepcopy(material)",
+        "src/model.py:22-27 root.status is used as type gate",
+        "src/model.py:32-35 ORIGIN projects using original material.id/members, not root.value",
+        "src/model.py:41-50 LAST_WORKING/BODILY_SUPPORT likewise use original material",
+        "src/model.py:90-94 root_reference returns the root result;118/121/145 discard it",
+        "src/model.py:147/151/155 physical material operations read the seeds register"
+      ],
+      "current_input_adjudication": "Because frozen aN is an identity-copy operation and every stored value matches the original material exactly, d really projects the material that aN denotes extensionally. Current consumer outcomes are not invalidated. The actual returned-payload edge and productive nonidentity aN contribution are not certified.",
+      "same_type_G2_read_only_branch_analysis": "A SeedGroup with idG2 reaches TYPE_MISMATCH at model.py:14 before ORIGIN. A changed members list under idG passes aN, but ORIGIN only matches an initial container if provenance has exactly that members list; otherwise MISSING. No such world exists among registered inputs and no new experiment was run."
+    },
+    {
+      "id": "ACQUISITION_NOT_CIRCULAR",
+      "decision": "RETAIN_WITH_COST",
+      "claim": "Initial imperative actor is supplied before any daiin; ORIGIN selects the actual completed TAKE actor via G initial container membership.",
+      "evidence": [
+        "src/model.py:70 world.actor supplies imperative",
+        "src/model.py:73-78 initializes material/provenance and declares independent imperative input",
+        "src/model.py:119-125 TAKE uses that input before position9 resolution",
+        "src/model.py:202-205 stores only completed operations",
+        "ORIGIN positive stored_trace_index0 positions9/18/35 evidence is completed E1 TAKE(actorA,objectR)"
+      ],
+      "costs": "Persistent caseG, initial G-in-R and seed-raisin membership, completed action history, independent imperative subject and unique projection are declared paid. They are additional assumptions, not meanings inferred from aN."
+    },
+    {
+      "id": "REFERENCE_POLICY_TIE",
+      "decision": "UNSELECTED",
+      "claim": "ORIGIN/LAST_WORKING/ADDRESSEE agree on all reached consumers because every completed material operation uses the same actor.",
+      "evidence": [
+        "ORIGIN evidence E1 at9/18/35",
+        "LAST_WORKING positive evidence E1 TAKE at9,E2 EXTRACT at18,E4 BIND at35",
+        "ADDRESSEE uses imperative input at each reached consumer",
+        "All60 prior outcomes retained under each of the three policies"
+      ],
+      "limit": "No changed working actor, second material instance, distinct acquisition actor or independent source core exists. This is not confirmation of origin over recency/addressee."
+    },
+    {
+      "id": "ADDRESSEE_GATE",
+      "decision": "QUALIFY_OUTSIDE_REGISTERED_SCOPE",
+      "claim": "Whole-word ADDRESSEE rival nevertheless passes the G-specific root gate before its own branch.",
+      "evidence": [
+        "src/model.py:22-29 calls aN and rejects its type mismatch before ADDRESSEE selection"
+      ],
+      "consequence": "Benign on all registered exactG histories; do not generalize the rival as independently tested without materialG or treat that artificial gate as a semantic result."
+    },
+    {
+      "id": "FULL_CLAUSES",
+      "decision": "RETAIN_BOUNDED_ACCOUNTING",
+      "claim": "All37 ZL groups are retained in five fitted clauses; complete outputs execute TAKE,EXTRACT,KNOWS,PLACE/BIND,PURITY/attributedCLAIM rather than only displaying the three derived-person labels.",
+      "evidence": [
+        "AUTHOR_SOURCE_ACCOUNT.json compiled_ZL_graphs consumes37 in C01[1..7],C02[8..15],C03[16..21],C04[22..29],C05[30..37]",
+        "AUTHOR_TRACES.json stored_trace_index0 all five clause duty lists complete",
+        "MOUTH fails EXTRACT with later C03/C04/C05 unexecuted; BIND_BEFORE_PLACE resolves18/root23 before failed attempted BIND and retains PLACE/CLAIM tail; PURITY_ONLY_EARLIER fails BIND and retains CLAIM tail"
+      ],
+      "limits": "Thirty freely guessed exact wholes, five fitted schemas, eleven old binding assumptions, all eight old scope candidates and chey proposition macro remain. The new test supplies no independent lexical likelihood or meaning discriminator. Recipient-purity six internally complete witnesses omit the Greek actor-purity condition; positive actor knowledge is an added hypothesis rather than supplied by Greek purity."
+    },
+    {
+      "id": "BODILY_MISSING_VS_LATE",
+      "decision": "PARTIAL_AT9",
+      "claim": "All60 complete bodily-policy attempts stop with MISSING at9;18/35 and their tails are unexecuted.",
+      "evidence": [
+        "BODILY_SUPPORT AUTHOR_TRACES statusMISSING_REFERENCE first_failure_position9 completed_actions1 all60",
+        "AUTHOR_LATE_DIAGNOSTICS has12 only from complete ADDRESSEE baseline prefixes;8 distinct-person attempts RELEASE(W,W,Q) fail source-actor duty,4 self cases agree"
+      ],
+      "limit": "No48 failed physical prefix supplies completed BIND. Late support cannot rescue whole candidate; missing initial support is not general falsification of nominal/possessive meaning."
+    },
+    {
+      "id": "SOURCE_AND_SCOPE",
+      "decision": "RETAIN_LIMITS",
+      "claim": "ZL37 and IT35 native group/ID sequences, literal entities/markers and ineligible flags are conserved; IT nine exact unknowns remain.",
+      "evidence": [
+        "AUTHOR_SOURCE_ACCOUNT.json groups match both raw records without normalization",
+        "ZL ineligible linesf31r.1/.3/.4;IT ineligiblelinef31r.4 retained",
+        "IT unknown ch?d?,da,lk,qokeefcy,rair,saiin,shckhey,shees,sheoody"
+      ],
+      "limits": "No full RF source was searched or added. One previously exposed leaf31; independent confirmation0, confirmed words0, medical outcomes0. f84/f84r/f116v/reserves unchanged."
+    }
+  ],
+  "late_diagnostic": {
+    "eligible_complete_prefixes": 12,
+    "distinct_person_content_changes": 8,
+    "self_equivalences": 4,
+    "not_complete_candidate": true
+  },
+  "scientific_decision": "Retain the exact material-to-original-acquisition-actor C0 reference recipe and its live Person consumers, with stated costs; do not claim certified literal returned-aN-value dataflow, productive morphology, origin policy selection, new transfer capacity or confirmed meaning. Preserve whole bodily policy missing-at9 and scoped conditional late contrast."
+}
