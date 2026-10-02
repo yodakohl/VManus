@@ -1,0 +1,43 @@
+# GDT1136 independent semantic review plan
+
+Frozen before author release,2026-10-02. Review phase: exploratory C0 account assessment, not a meaning-identification test. No author draft, target body, image or new historical source was read. Root releases the frozen account before post-review. This plan introduces no solver, new target requirement or presumed winner.
+
+Read the route first, METHOD/PREREGISTRATION, and the preceding [selection critique](../../../../research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_SURFACE_MEMORY_SELECTION_CRITIC_20261002.md). METHOD and PREREGISTRATION currently share SHA256 `3ef982c889acde16f3b4dc62e03c04db4132db03df7f3266807309111da0197e`; selection critique `ae43837af27db8de789e2ecdfdec306f92319f1830d0834e8aec8b38207d4c04`. S02's old failures/incompleteness remain unchanged. The new account has its own fresh C0 lexicon; prior P12/P4 values are not mandatory.
+
+## Review the actual complete account
+
+After release, inspect the whole reading, finite meanings/rules, aligned clauses, and returned-state trace. Identify which written source spans contribute conditioning, BULK withdrawal, apparatus reference, both fresh inputs, cleaning, and both product assertions. Require the registered complete IT attempt and honest alternate-reader accounting. Unknowns, uncertain forms, boundaries and unsupported contributions remain explicit; alternate readers are one manuscript. Mechanical alignment or executable assertions do not substitute for the semantic review.
+
+Record the owner, material class, initial property, time/phase, operating-condition assumptions and quantifier scope for each relevant operation. Same spelling or variable names alone do not establish identity; differing output names alone do not establish distinct products. Shared vessel and relevant fresh-input equality may be supplied by declared C0 reference rules/defaults. Those are allowed but charged assumptions, not manuscript observations. Whole-page completeness does not force procedural unity.
+
+## Find a real causal return and a separate written contrast
+
+Distinguish bulk contents `c(V,t)` from the proposed apparatus-associated state `σ(V,t)`. Check whether conditioning produces σ, BULK withdrawal preserves it, later B-contact actually reads that same returned state, and cleaning resets it while preserving V. Trace the actual field/value path. Retaining an object ID or nested provenance payload establishes reachability only; the consumer must read information relevant to its effect. Independently preseeded duplicate state values do not establish the required return dependency. A live shared register is permitted when its producer/update and later field read are explicit.
+
+Locate separate written assertions `P(O1)` and `¬P(O2)`, or incompatible values of one conserved property. They must constrain the two outputs independently of merely generating the desired results by a causal law. Omission of P is not NOT-P; two unrelated positive adjectives need not be incompatible. An ordinary terminal property assertion need not itself have a later consumer to contribute descriptive content.
+
+Separate three sources of information: what the word/property construction asserts; what the transfer/reset law predicts; and what clause context supplies. If a single bespoke whole meaning or occurrence default already encodes “this is the changed product” versus “this is the unchanged product,” report that assignment explicitly. Do not call the later agreement an additional prediction. Whole lexical meanings are permitted by METHOD and charged; arbitrary whole-sentence macros are not.
+
+For manual conditional checks, hold identities, inputs and laws fixed while changing the proposed conditioning or cleaning update. The later inferred product state must change or become incompatible with its separately written assertion when the model says that update matters. Do not silently change the written product assertion alongside the intervention. These are checks of the authored dependency, not observed manuscript counterfactuals.
+
+## Fair rivals under conserved commitments
+
+Compare the persistent-state account with the **fixed deterministic memory-free bulk model**: after emptying, the same relevant fresh input and operating conditions yield the same output property. An explicit opposite-output contrast can reject that model under those premises. Do not generalize the result to every memory-free or stochastic process. A rival with changed fresh input, temperature, operation or another ambient condition requires explicit changed commitments; preserve it if the written account has not excluded that change.
+
+Preserve the independent-entry/new-vessel rival unless the paid written reference construction couples the apparatus across records. Removing those references produces a different model, not a free renaming within the conserved one. Reference consistency may establish conditional coupling without independently identifying the lexeme.
+
+The strongest rival is an adherent A-film state `r(V,t)`: bulk emptying preserves it; B-contact affects the product; cleaning removes it. If its updates and outputs match σ, `σ↔r` preserves every consequence. Zero BULK contents, or no A in the final product, does not exclude a nontransferring film. Only an additional explicit claim excluding A on/in V before B would conflict with this particular A-film interpretation. Do not donate that claim or impose modern chemistry. Surface alteration and film remain equivalent unless the frozen account genuinely distinguishes them.
+
+## Useful transfer versus a self-consistent free mapping
+
+Useful **within-account reuse** means the same finite meanings and operations, with conserved inputs, constrain multiple written spans: an earlier state affects a later independently written output; the same fresh-input/property construction works before and after cleaning; a common negation, reference or reset rule contributes its usual effect in each licensed occurrence. The decisive output must not be selected by paragraph identity, occurrence number, a separate product lookup or a new clause-specific result default. All genuine whole-form residuals, overloads and attachment choices remain visible and priced.
+
+Assess how many consequential equalities, reusable operations and actual state reads constrain the account, rather than equating a large covered-token count with reduced flexibility. A fully assigned page using mostly singleton lexical values plus desired clause defaults can still be a coherent C0 reading; it has not shown productive semantic transfer. Derivation of another written construction from an already fixed operator/input without adding its desired result is stronger. No additional held-out passage is required by this plan, and no retrospective intra-page derivation is independent prediction or a calibrated probability.
+
+Root's supplied metadata reports209 IT groups and144 exact types; this review has not independently read/count-checked them before release. In the post-review, distinguish exact whole-word payloads from actually reused semantic parts, and identify at least the strongest concrete consequence, if any, forced by the **same value at distinct written positions** under fixed rules. Repeated whole-word meanings can supply real constraints too; merely recurring spelling with occurrence-specific results or clause defaults cannot. State the two source positions, conserved value, consumed field and resulting equality/contrast, rather than reporting a reuse count alone. If none is present, say so even with full coverage. Numeric priors remain descriptive: f101r is reported absent from the179-selector baseline cache, so a zero baseline count means not found there, not a corpus hapax or rarity bound.
+
+## Result categories
+
+Report separately: complete/partial source account; causal return achieved/partial/absent; separately written contrast achieved/partial/absent; genuine shared constraints versus free result assignments; memory-free rival compatibility; film equivalence; other surviving reference/input alternatives.
+
+A complete coherent account satisfying the registered dependency retains the C0 extension, even with unconfirmed meanings. A coherent but heavily free mapping receives that precise limitation, not a semantic preference. A contradiction rejects only the frozen candidate and its relevant commitments. Missing coverage, contrast or return is incomplete construction, not empirical refutation of the family. No author repairs, semantic winner, probability, significance or confirmed lexeme. Root owns final judgment and publication.

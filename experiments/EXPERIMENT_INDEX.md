@@ -1163,3 +1163,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 - GDT1134: actual separate counteraccount mark reads; unpriced dependency and failed precise forecast; no meaning selection. [Decision](yolo/gdt1134_paired_posting_reciprocal_consumers/REPORT.md).
 
 - GDT1135: native f81v replication; external contacts unresolved, no new meaning binding. [Report](yolo/gdt1135_f81v_native_contour_topology/REPORT.md).
+
+| GDT1136 | GDT1136 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1136_apparatus_state_whole_account/METHOD.md) | 13 | 1.6 MiB | 4 | STRUCTURED_YOLO |

@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Publish partial f83 result; review raw872 before selection.
-Latest decision: Actual relation reuse; incomplete draft, no ink prediction.
-Working files: GD_TEXT_GRAPH_RESULT_20261002.md.
-Assumptions: C0; prior exposure; no reserves or confirmed word.
-Resume: Publish checked result; inspect872 predecessors and scope.
-Running: root publication/review;10h ends13:52:40UTC Oct2.
+Task: GDT1136 whole f101r apparatus-state authorship.
+Latest decision: f83 partial published e75c925; shortlist872 with film rival.
+Working files: gdt1136_apparatus_state_whole_account/METHOD.md.
+Assumptions: C0; fresh glossary; exposed f101r; no reserves.
+Resume: Guard native packet; author complete account; fixed rival review.
+Running: root GDT1136; checkpoint09:17;10h ends13:52:40UTC Oct2.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

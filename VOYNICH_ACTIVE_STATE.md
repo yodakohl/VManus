@@ -7,8 +7,9 @@ No complete alternative was authored/rejected. G13 temporal order is prose-only;
 global display order differs while per-reader source order remains exact.
 Zero adopted graphical duties/owner bindings: UNKNOWN, not image PASS or contradiction.
 Outcome3 closes this partial unit without parent repair or confirmed word.
-Next: review raw872 retained-surface/fresh-charge proposal and predecessors before
-selection; no apparatus identity or product contrast yet observed. Publication pending.
+Result public at e75c925. Next: GDT1136 independently authors all f101r prose under
+a new C0 glossary; apparatus identity and product contrast remain obligations, not
+observations. Surface condition and adherent-film rivals are retained.
 User ten-hour minimum ends13:52:40UTC; still unmet.
 
 ## 2026-10-02 Shared motion: computed consequence, unselected meaning

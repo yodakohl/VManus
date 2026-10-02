@@ -1,0 +1,29 @@
+# GDT1136 — whole written apparatus-state account
+
+Registered 2026-10-02 before new target-body projection for this attempt.
+Phase: exploratory authorship, then fixed review of frozen author outputs.
+
+## Decision and predecessors
+Select IDEA000872 for one complete C0 account of the already exposed f101r ten prose lines. Unknown: can a finite shared lexicon and composition/reference rules express the conditioning–bulk-withdrawal–fresh-charge–product–cleaning–repeat dependency across this whole text? This is not a prior finding in these paragraphs.
+S02's actual bulk-content-only variants remain failed/incomplete as originally reported. Cleaning was already proposed there; the new obligation is a separately persistent apparatus-associated state plus two separately written incompatible product properties. W35 lacked a later written recipient. GDT940's fixed nominal extension failed; GDT1116's negative-then-pure universal process obligation failed. None is repaired here. GDT812 licenses these exposed paragraphs but supplies zero local labels and no vessel/paragraph bijection.
+Positive structural baseline: directed reusable composition, whole-form residuals and entry context; not a single confirmed parser, alphabet or Latin reading. Frequencies/dispersion must be consulted before fixing prominent meanings. Prior P12/P4 meanings are NOT inherited in this independent candidate; every new value is explicitly C0 and its cost counted. This is an additional reading candidate, not replacement of any old frozen lexicon.
+
+## Scope and access
+All raw source groups at f101r.1 through f101r.10, all three native editions, from the selector-first guarded source-separator table. ZL paragraphs .1–2/.3–6/.7–10 provide the nominated prose scope; preserve each reader's actual native flags, spaces and uncertainty. Do not impute native RF boundaries. Alternate readers are one manuscript. This whole page was previously admitted/exposed (GDT812); there is no independent holdout here. No fresh image access, f84/f84r/f116v, reserves or outside contacts. Author may use numeric profiles over the already admitted 179 selectors; record cache/source provenance. No unrelated target bodies.
+
+## Author contract
+Attempt a COMPLETE finite reading of all IT2a groups, with a concrete clause/event account and per-group source alignment. Record alternate reader coverage and incompatible/unknown alternatives in full; no silent normalization. Freeze explicit lexicon, reusable components, homonyms, participant/reference rules, boundaries and event laws. Whole-form lexical entries are permitted and charged; an entire arbitrary sentence attached to one word is not a word meaning. No identity from identical variable spelling, no invisible cleaning, no assertion generated solely by the causal law. Uncertain meanings can be authored as hypotheses: lack of an independent anchor is not a reason to abandon every difficult word. If the complete attempt cannot be achieved, publish actual attempted assignments/remaining gaps, without pretending the whole hypothesis was falsified. No decoder, generic parser, automatic fit or large process engine.
+The candidate should separately write: conditioning A on V; complete BULK withdrawal; same V; two fresh B portions with equal relevant initial conditions; a cleaning of V between runs; distinct products O1/O2; P(O1) and NOT-P(O2) or incompatible values. Order and participant identities must arise from declared reading rules or priced defaults. Return actual earlier state to later consumers, not independently preseeded duplicate values. All extra premises remain visible.
+
+## Fixed review after author freeze
+1. Exhaustive exact group coverage/order/native boundaries; all costs and unresolved reader branches.
+2. Type and reference consistency and actual causal state reuse; counterfactual changes to conditioning/cleaning must propagate. Existence of a finite witness is only conditional satisfiability.
+3. Locate independently written product assertions and conserved V/B conditions. Opposite values supplied only by the simulation are not two textual observations.
+4. Compare fixed memoryless bulk reset, persistent apparatus state, and an adherent A-film with equivalent update/reset law. Bulk-empty does not exclude film. Preserve independent-entry/new-vessel and changed-input alternatives unless the written commitments exclude them.
+5. A complete coherent account satisfying the contrast retains this C0 extension for further exposed-text testing; it does not select its meanings or distinguish surface-state from film. A contradiction rejects only the frozen candidate. Missing full account/contrast is incomplete construction, not empirical family refutation. No significance, calibrated probability, independent confirmation, plant name or image-owner claim.
+
+## Assumptions and dependencies
+Scope previously exposed; single finite author account can be highly fitted. Cross-paragraph procedural unity, vessel identity, fresh-input equality, initial condition, fixed transfer/reset laws, explicit negation/property contrast and semantic segmentation all require declared support or priced C0 assumptions. A retained-film rival is not removed by zero bulk contents or no A in final product. No claim that historical craftsmen used modern surface chemistry.
+
+## Work budget
+Begin selection/preparation 07:17 UTC; inclusive checkpoint 09:17 UTC covers preparation, complete authorship, independent review and publication. This checkpoint reassesses expansion, not a reason to truncate a running check or declare failure. The user-authorized research block continues to at least 13:52:40 UTC. One bounded producer maintains diverse raw ideas during testing; no quota and no forced missing-anchor rejection. No other active experimental question.
