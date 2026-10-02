@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Close1133; review paired posting/reference proposal767.
+Task: GDT1134 paired posting and actual counteraccount mark reads.
 Latest decision: 1133 directOR/ODY; four dead words; no whole reading.
-Working files: gdt1133_caption_product_shared_components; GD_POSTING_SOURCE_DUTIES.
-Assumptions: Fixed grammar; exposed sources; zero meanings.
-Resume: Publish1133; register bounded whole posting account if selected.
-Running: 1133 publication; min06:09:20UTC.
+Working files: gdt1134_paired_posting_reciprocal_consumers.
+Assumptions: Local C0; no inherited glosses; exposed f105v.5–7.
+Resume: Publish contract; author all30groups/reader with actual consumers.
+Running: 1134 author awaitingGO; min06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

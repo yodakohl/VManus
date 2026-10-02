@@ -7,9 +7,9 @@ ZL18/78 and RF3/76 stop at native unknowns; RF caption os also blocks.233native
 rows conserved.34/35checks: common-provenance guard does not enforce its claim;
 baseline co-provenance still consistent.23families/40unitassignments/63licenses
 remain costly C0, not selected meanings. Two exposed leaves19/102,0independent
-confirmation/words. No author repair or old-failure rescue. Next review the
-already owned paired-posting role/reference consumer proposal, not more caption
-aliases or eight/eight wind-count matching.
+confirmation/words. No author repair or old-failure rescue. Next GDT1134 is
+registered for the owned paired-posting role/reference consumer proposal,
+with all30groups/reader and no inherited word meanings.
 [Decision](experiments/yolo/gdt1133_caption_product_shared_components/REPORT.md).
 
 ## 2026-10-02 GD/GDT1132: live Person consumers, root-payload bypass

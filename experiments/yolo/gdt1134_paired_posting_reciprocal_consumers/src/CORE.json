@@ -1,0 +1,104 @@
+{
+  "experiment": "GDT1134",
+  "author": "single independent author",
+  "freeze_utc": "2026-10-02T00:57:16.743533+00:00",
+  "target_packet_opened": false,
+  "mode": "DECLARATIVE_PREEXISTING_LEDGER_CERTIFICATES_WITH_ACTUAL_JOURNAL_MARKING",
+  "mode_limit": "Ledger transfers are declared background completed records tested at written certificate/mark sites; this program does not physically perform Journal-to-Ledger posting. Marking is a separate written Journal act.",
+  "types": [
+    "Frame",
+    "Transaction",
+    "AccountRole",
+    "LedgerEntry",
+    "EntryCertificate",
+    "PostingField",
+    "JournalMark",
+    "RoleSelection",
+    "CounterResult",
+    "Collection",
+    "MarkRead",
+    "Proposition"
+  ],
+  "constants": [
+    "T:opaque transaction identity",
+    "role1:first role in explicitly written ordered frame",
+    "role2:second distinct role in that frame",
+    "J:Journal",
+    "L:Ledger",
+    "V:uninterpreted common value metadata",
+    "D:uninterpreted common date metadata"
+  ],
+  "primitives": [
+    {
+      "id": "FRAME",
+      "signature": "T,ordered(role1,role2),J,L,V,D -> Frame",
+      "effect": "Written binder explicitly introduces one transaction and two distinct ordered roles. No entry, mark, completion, amount, calendar value, counterresult or entire episode is supplied by the frame."
+    },
+    {
+      "id": "ENTRY_CERT",
+      "signature": "Frame,written ordinal selector,background LedgerEntry -> EntryCertificate",
+      "effect": "Read the specified role from the actual frame and test a preexisting completed Ledger record for that transaction/role/date/value. Missing or mismatched record gives MISSING/CONTRADICTION, not an invented posting. The word asserts/certifies a supplied entry; background existence is a separate paid assumption."
+    },
+    {
+      "id": "FIELD",
+      "signature": "Frame,EntryCertificate -> PostingField",
+      "effect": "Retain actual certificate, role, transaction and Journal as the input to marking."
+    },
+    {
+      "id": "MARK_POSTED",
+      "signature": "Frame,PostingField -> JournalMark",
+      "effect": "Same operation at both local daiin applications. Recheck actual entry/certificate dependency; record that side completed transfer in Journal and return a distinct mark object with transaction/owner. Never creates a Ledger entry."
+    },
+    {
+      "id": "SELECT_MARK_ROLE",
+      "signature": "Frame,actual earlier MARK_POSTED output(s),FIRST|LAST -> RoleSelection",
+      "effect": "Project owner and transaction from the selected actual retained mark object. Every lexical FIRST/LAST license is paid; no global A/B substitution. Missing selected output blocks."
+    },
+    {
+      "id": "COUNTER",
+      "signature": "Frame,RoleSelection -> CounterResult",
+      "effect": "Same reciprocal operation at both dar applications. Use the explicitly written two-role frame; retain source owner/mark origin/T and return its distinct opposite account role. No hidden address map, self-account, generated role or universal d prefix."
+    },
+    {
+      "id": "COLLECT",
+      "signature": "returned CounterResult|MarkRead|Proposition,returned CounterResult|MarkRead|Proposition -> Collection",
+      "effect": "Collect both distinct actual returned inputs in written order without rebuilding them."
+    },
+    {
+      "id": "READ_MARK",
+      "signature": "Frame,actual CounterResult,retained actual JournalMark outputs -> MarkRead",
+      "effect": "Read the mark whose owner is exactly the returned role, retaining transaction and the actual mark-object ID/value. Missing owner/transaction or missing mark yields a visible barrier; never reads a global DONE value or hardcoded role."
+    },
+    {
+      "id": "CHECK",
+      "signature": "MarkRead|Collection|EntryCertificate,explicit duty -> Proposition",
+      "effect": "State/test the specified source dependency, mark availability or owner/transaction consistency using actual returned values; no economic settlement inference."
+    },
+    {
+      "id": "PROJECT",
+      "signature": "actual Collection,explicit FIRST|LAST -> actual member",
+      "effect": "Return that very contained object unchanged, with provenance; selectors are explicit costs rather than raw position exceptions."
+    },
+    {
+      "id": "ASSERT",
+      "signature": "Proposition|MarkRead|Collection -> Proposition",
+      "effect": "Terminal conditional assertion of its actual content; redundancy is retained, not claimed new evidence."
+    },
+    {
+      "id": "REFERENCE",
+      "signature": "actual earlier typed return,explicit fixed reference policy -> that return",
+      "effect": "Retain object identity under a priced selector. No free recreated-role lookup or carry over unknown raw intervals."
+    }
+  ],
+  "reference_policy": "Select actual prior returns by finite type and written order; exact whole selectors and scope/collection rules are declared in EXTENSIONS before first complete derivation. Explicit source IDs document resulting dataflow, never choose per-occurrence semantic exceptions.",
+  "syntax_policy": "One paid local prefix COUNTER application construction may delay lexicalized whole dar until its written right operand returns a RoleSelection. Collection/project grammar is finite and explicit. No universal immediate-host or prefix semantics.",
+  "whole_policy": "The two required local daiin uses share MARK_POSTED. dar is one context-bound lexicalized whole COUNTER operator; atomic fixed605 representation is preserved. All extra exact-whole values, aliases, selector defaults and any proposed part licenses must be frozen separately before first completed derivation. No whole token encodes the complete two-mark/two-counter/read episode.",
+  "background_costs": [
+    "One declared preexisting Ledger record per role, each with T/date/value and its distinct account identity. These are hypothetical external world inputs, not observed manuscript/historical transactions.",
+    "Written ENTRY_CERT assertions are charged separately from background entry existence.",
+    "Opaque T/ordered roles/J/L/V/D are introduced only by actual written FRAME construction, not simulator initialization."
+  ],
+  "unknown_policy": "UNKNOWN raw or unresolved interval remains a barrier; no silent carry, entity normalization or alternate-word alias. Literal words may retain fixed diagnoses after first block, with later operations unexecuted.",
+  "counterfactual_policy": "Missing background entry must fail the actual ENTRY_CERT or dependent MARK site; changing a retained mark must affect only its dependent owner-read; wrong counter/T must propagate or fail; consistent role1/role2 global renaming remains equivalent.",
+  "claim_ceiling": "Conditional local C0 only; no physical Ledger posting execution, confirmed lexemes, historical source identification, likelihood, reserve use or independent confirmation."
+}

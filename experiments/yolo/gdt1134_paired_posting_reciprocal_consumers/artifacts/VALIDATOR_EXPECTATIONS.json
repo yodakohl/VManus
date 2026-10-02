@@ -1,0 +1,194 @@
+{
+  "experiment": "GDT1134",
+  "phase": "BLINDED_INDEPENDENT_EXPECTATIONS",
+  "frozen_at_utc": "2026-10-02T00:55:44.831778+00:00",
+  "read_scope": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "PREREGISTRATION.md",
+    "METHOD.md",
+    "src/REGISTRATION.json"
+  ],
+  "source_or_full_L_opened": false,
+  "author_files_opened": false,
+  "contract_pins": {
+    "PREREGISTRATION.md": "ad652ba48487ff77b117960504f12e396e9e5e5def400f311915e053fbda34ee",
+    "METHOD.md": "ad652ba48487ff77b117960504f12e396e9e5e5def400f311915e053fbda34ee",
+    "src/REGISTRATION.json": "29042e9e93e998b76895f72a9675d29f5ff16926544dbeea4a2df2c5900f63ff"
+  },
+  "registered_input_pins": {
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_02_PAIRED_POSTING_FLAGS.json": "99496690eed422150ea86e07012e4af864dfa864b0e526e489a40f404782b4b6",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/V_ROOT_REVIEW.md": "ef19e5650d7a25cfd0ed3d60afbdf48a5a083005d7d0cd7a16577ffcbe9ff706",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_F105V_COMPLETE_PARAGRAPH.tsv": "3b9542a43f37f8906bbaa2ca7872e41e34421b5cdb321235a447f34801b40d17",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_POSTING_SOURCE_DUTIES.md": "e5120d8a4101ae86b0efea2dd175d00bea2bf89e6b7403c893c438a3f9f58fb4",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_PIPELINE_CROSS_DOMAIN_NEXT.md": "63ff198645b58b45bd2dfca17849fe9544c5967e09f99b29781830845cabd7dd",
+    "research_registry/work_batches/ten_hours_20260915/ISNAD_LEDGER_CONTEXTUAL_SOURCE_20260920.json": "07aef4a6b7795b472ff75e5e2d86652841c31dc94c1024728b027203a9c506f3",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539"
+  },
+  "literal_scope": {
+    "native_rows": 90,
+    "rows_each_reader": 30,
+    "readers": [
+      "ZL3b",
+      "IT2a",
+      "RF1b"
+    ],
+    "loci": [
+      "f105v.5",
+      "f105v.6",
+      "f105v.7"
+    ],
+    "locus_group_counts": [
+      10,
+      13,
+      7
+    ],
+    "native_columns": 11,
+    "preserve": [
+      "every raw native field and ID",
+      "reader identity",
+      "all group and line boundaries",
+      "paragraph flags when supplied",
+      "unknown entities and uncertain separators",
+      "unchanged GDT605 collapse/64 merges",
+      "fixed GDT1051-style hardchunk and final-unit representation"
+    ],
+    "RF": "Complete corresponding spatial union; not independent replication.",
+    "no_new_segmentation": true,
+    "semantic_decomposition": "Atomic dar/daN remain formal units; any additional semantic decomposition requires a separately frozen finite license."
+  },
+  "transaction_and_roles": {
+    "required": "Actual written frame introduces one T and two distinct ordered opaque account roles A/B. All later selectors/address/role maps derive from explicit written rules or paid frozen bindings.",
+    "forbidden_shortcuts": [
+      "implicit simulator T",
+      "unpaid role ordering or address maps",
+      "AIIN/AR pretranslated as A/B",
+      "al treated as free EQUALS",
+      "same-value accounts treated as same identity",
+      "physical stock conservation or settlement inference"
+    ]
+  },
+  "MARK_POSTED_contract": {
+    "same_function_at_both_sites": true,
+    "signature": "MARK_POSTED(T,posting/role)",
+    "hosts": "The two distinct written opening X daiin constructions supply actual relevant posting/role.",
+    "required_output_information": [
+      "T identity",
+      "actual posting/role owner identity",
+      "separate retained recorded-completion state",
+      "explicit later consumer IDs"
+    ],
+    "entry_dependency": "Journal marking must not create an absent Ledger entry. Performed posting must precede its dependent mark according to the actual declared plan; a declarative certificate/assertion instead must disclose its written entry assumption and actual certificate dependency.",
+    "not_assumed": "No predetermined implementation order, mark object type name, performed event sequence or success is anticipated."
+  },
+  "COUNTER_contract": {
+    "same_function_at_both_sites": true,
+    "signature": "COUNTER(T,role)",
+    "nominated_written_sites": [
+      "dar aiin",
+      "dar ar"
+    ],
+    "required_actual_inputs": [
+      "actual earlier-bound T",
+      "actual earlier-bound right role argument selected by frozen rule"
+    ],
+    "required_output_information": [
+      "opposite role/account",
+      "T retained",
+      "origin role/reference retained"
+    ],
+    "actual_edges": "Both returned counteraccounts must flow to genuinely later written consumers which read the separately retained mark of each returned account, retaining T. Both earlier MARK outputs must actually supply information to these reads.",
+    "no_bypass": [
+      "hardcoded A/B reread",
+      "global DONE",
+      "logged returned account followed by independently rebuilt lookup",
+      "self-counteraccount",
+      "rebound function to fit second occurrence"
+    ],
+    "optional_finite_collection": "Allowed only if paid/frozen and actually read.",
+    "additional_reciprocal_reference_constructions_maximum": 1
+  },
+  "actual_flow_validation": {
+    "records": [
+      "raw group/span and final-unit IDs",
+      "finite semantic license",
+      "actual argument/return identities and owner/T fields",
+      "later written consumer identities",
+      "actual mark lookup operand and resulting side-specific status"
+    ],
+    "method": "After release, inspect existing executable API and independently change actual returned COUNTER values/fields and retained MARK values separately at their written sites. Observe later consumer sensitivity or actual binding failure; recursive-ID logs, equality tags and successful baseline are insufficient.",
+    "missing_interface": "Explicitly record unavailable executable/probe capacity; never build missing semantic author machinery or silently award PASS.",
+    "both_sides": "Each of the two MARK-to-consumer and COUNTER-to-consumer paths is checked individually."
+  },
+  "word_contribution_and_barriers": {
+    "all30_each_reader": "Every raw group contributes or is an explicit barrier; unknown or dead word precludes strict whole completion.",
+    "transitive_deadness": "A reference merely consumed by another reference whose chain ends unused does not establish contribution; trace all paths to actual read/terminal assertion.",
+    "terminal_assertions": "Allowed with actual stipulated content and declared redundancy; no automatic demand for another consumer.",
+    "unknown_continuity": "No required state/operand crosses unresolved intervals without frozen paid bridge. Preserve first actual barrier and dependent unexecuted tail.",
+    "actual_plan_only": "Determine first failure and tail from each actual stated account/intervention plan, never guessed order or universal fixed tail."
+  },
+  "conditional_countercases": [
+    {
+      "case": "earlier role or written selector identity change",
+      "hold_fixed": [
+        "T",
+        "value",
+        "date"
+      ],
+      "change": "One actual earlier role/selector to unrelated same-value account.",
+      "observe": "Actual returned account/mark lookup changes or real binding failure; value equality cannot restore identity."
+    },
+    {
+      "case": "one retained mark change or marking-operation removal",
+      "change": "One actual mark state or one actual marking operation only.",
+      "observe": "Its dependent read changes or becomes unavailable while the other side remains separately retained; missing completion mark does not infer no transfer/payment."
+    },
+    {
+      "case": "wrong returned counteraccount or T",
+      "hold_fixed": [
+        "both original marks"
+      ],
+      "change": "One actual counterreference account/T only.",
+      "observe": "Actual later consumer detects or propagates mismatch; global DONE cannot hide it."
+    },
+    {
+      "case": "posting dependency",
+      "performed_branch": "Delete an actual required Ledger-posting event while preserving its actual mark instruction; no absent entry may be invented.",
+      "declarative_branch": "If no performed posting exists, alter actual entry/certificate dependency instead and disclose the different question; do not fabricate event deletion."
+    }
+  ],
+  "orientation_and_rivals": {
+    "global_orientation": "Consistent A/B renaming may remain equivalent.",
+    "partial_swap": "Swap one reference only while retaining fixed bindings; inspect actual changed operand/consumer.",
+    "strict_interfaces": [
+      "single-DONE replacement",
+      "shared-scalar replacement"
+    ],
+    "strict_interface_rule": "Apply at same actual fixed written interfaces. Missing interfaces are untested, not rejected; pure type rejection alone does not rule out unrestricted alternatives.",
+    "wider_rivals": [
+      "two scalar quantities plus separately paid role/status relations",
+      "numeric Boolean coding",
+      "copied content/reference implementation"
+    ]
+  },
+  "freeze_and_costs": [
+    "All primitive families, lexicalized wholes, constants, role selectors, state bindings, scopes, aliases and component licenses frozen before first completed derivation.",
+    "At most one context-bound lexicalized whole operator; no whole token encodes the entire successful two-posting/reference episode.",
+    "Verify inventory counts against actual definitions and hash pins. Atomicity, plausibility and semantic truth remain manual."
+  ],
+  "branch_reporting": {
+    "complete": "Only actual full contribution, two retained owner marks, both COUNTER bindings and actual later reads can support a constrained C0 account.",
+    "partial": "Preserve missing role/transaction/reference bindings, unknowns, dead transitive chains or absent execution capacity separately.",
+    "contradiction": "Preserve rejected finite claim without repairing author or universalizing failure.",
+    "procedural_invalidity": "Source/freeze failures remain distinct from semantic contradiction.",
+    "no_anticipated_success": true
+  },
+  "ceiling": [
+    "One previously exposed physical leaf; zero independent confirmation.",
+    "Historical Pacioli mechanism is later than1450, not identified Voynich source or settlement/stock proof.",
+    "No named commodity, number40, page2/3, Latin/Italian gloss or borrowed equal measure.",
+    "No global POSTED/immediate-left attachment or inferred division orientation.",
+    "No meaning selection, likelihood/significance/calibrated whole-search claim or reserve opening."
+  ],
+  "release_gate": "Await root final release before opening SOURCE, full L input, author files or executable replay."
+}
