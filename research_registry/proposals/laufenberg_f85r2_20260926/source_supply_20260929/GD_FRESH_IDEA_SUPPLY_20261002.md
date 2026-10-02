@@ -545,3 +545,64 @@ Egerton full report
 Only this existing note was appended. No new RAW/source cache, image,
 target/Voynich admission, reserve, outside contact, test, implementation,
 registry mutation, root route/ledger/state or Git action.
+
+## Eighth bounded unit: contested kinship narrative, 10:27–10:39 UTC
+
+**One new explicitly unreviewed RAW retained as IDEA878:**
+[GD_FRESH_CONTESTED_KINSHIP_REBASING_RAW_20261002.json](GD_FRESH_CONTESTED_KINSHIP_REBASING_RAW_20261002.json),
+SHA256 `f9ea7878719a17f9ab62ed9d7766ffbfafcad645ced47bc40fde612efbf5bd10`.
+`ideas add` returned UNTESTED_PROPOSAL; `ideas show IDEA000878` confirms
+`untested` / `imported_unreviewed`. Not selected, executed or meaning-confirmed.
+
+The complete Luke15.11–32 parable supplies a concrete reconciliation narrative
+with three principal family participants. The source's repeated condition
+concerns the same returned younger person, described first relative to the
+father and later relative to the elder addressee. The RAW pays for a family
+graph, speaker/addressee resolution and scoped eligibility claims rather than
+coining a separate stage name at each narrative position. Its actual later
+consumer is the father's final reason for celebration addressed to the
+refusing elder about his brother. No elder's agreement is asserted.
+
+Two linked consequences are predeclared. With the same parent and two distinct
+children bound, changing the address frame changes the relational description
+but must preserve the repeated condition's subject. A wrong addressee produces
+a different/self relation and changes whose family relationship supports the
+invitation. Separately, a quoted unworthiness claim can coexist with the
+continuing parent/child relation; a world-level disowning rival must pay for an
+actual written restoration before the final brother relation. A silently
+supplied restoration or participant is a stopping condition. A nonbiblical
+account with the identical scoped relation graph remains equivalent: passing
+these C0 obligations would not identify the parable or confirm word meanings.
+
+Tentative scope is **whole already-owned f83r P1/72 ZL groups**, using exact
+GDT790 ownership and W91 pointers/pins from existing producer metadata. No
+target body was opened and no form, pronoun, status or position was assigned.
+All remaining narrative events, secondary participants, groups and alternate
+readings remain explicit whole-account debt. A single pictured owner does not
+prove one textual actor. This is a different proposed content account from
+877's changing roster and does not alter any1137/1139 file or root's777 work.
+
+Read the current route, differential topic, bounded searches/route-check and
+actual close primaries before retention. Unknown discourse topic/empty
+son-brother searches were followed by targeted primary lookup. Compared actual
+470 kinship/military appeal,563 nested life/medical episode,777 tense/privation,
+877 dynamic ordinal,827 gift-worthiness, and the older whole-f83r kinship
+register. No novelty is claimed for kinship persistence, worthy recipients or
+speaker scope alone; the joint deictic relation and repeated-condition duty is
+the proposed difference. The proposal-based duplicate screen returned no
+same-declared-design match; its broad ranking remains navigation only.
+The original generation-register/lexicon failures stay closed. Exact closed
+reports would still be required before scientific selection or reuse of their
+mappings; no reopening gate is claimed.
+
+Ordinary primary-text web access checked the entire source passage in
+[USCCB's modern English translation](https://bible.usccb.org/bible/luke/15)
+and the [public-domain KJV reproduction](https://en.wikisource.org/wiki/Bible_(King_James)/Luke).
+These are access witnesses, not independent medieval source confirmations.
+No Latin default, medieval native collation, source-copy or dating claim.
+No source cache/image/corpus was acquired. Source synopsis, exact verse limits,
+transmission qualifications, predecessor pointers and pins are in the RAW.
+
+Only the new RAW, this note append and authorized `ideas add` changed.
+No target body/image, reserve/new Voynich admission,1139 evidence or observer
+output, outside contact, test/decoder, root route/ledger/state or Git action.

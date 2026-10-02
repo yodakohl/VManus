@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "experiment": "GDT1140",
+  "stage": "CORE_BEFORE_EXTENSION",
+  "status": "EXPLORATORY_CORE_NOT_MEANING_SELECTION",
+  "created_utc": "2026-10-02T10:41:21.522007+00:00",
+  "primary": "ZL3b",
+  "confirmed_words": 0,
+  "confirmation_capacity": 0,
+  "language": "UNKNOWN",
+  "encipherment": "UNKNOWN",
+  "genre_assumption": "general mutable-standing account inspired by historical status/tense/privation; Fortune and royal status remain unbound",
+  "architectural_prior": "IDEA000554 is an existing RAW unreviewed d=HAS / qo=NOT property lifting architecture. This core reuses that architecture as an assumption with aiin=standing; it is neither a new architecture nor an inherited moisture/heat fact. Historical source permits the distinction, but does not identify any carrier.",
+  "lexicon": {
+    "aiin": {
+      "category": "NOUN",
+      "sense": "standing / capacity; deliberately not kingship",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "or": {
+      "category": "NP",
+      "sense": "that bearer T of the current block",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "ol": {
+      "category": "NP",
+      "sense": "another bearer A, distinct from T of the current block",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "d": {
+      "category": "OPERATOR",
+      "sense": "HOLD(noun); no inherent tense",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "qo": {
+      "category": "OPERATOR",
+      "sense": "NOT(predicate); explicit privation when predicate is HOLD(standing)",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "t": {
+      "category": "OPERATOR",
+      "sense": "FUTURE(predicate); nominal argument receives HOLD lifting",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "sho": {
+      "category": "OPERATOR",
+      "sense": "PAST(predicate)",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "ch": {
+      "category": "OPERATOR",
+      "sense": "definite reference; licensed only with ol in this core",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "sain": {
+      "category": "TOPIC",
+      "sense": "as for; consumes the immediately following NP as topic",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "opchdy": {
+      "category": "ADVERB",
+      "sense": "now; whole form, no proposed internal parse",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "dair": {
+      "category": "ADVERB",
+      "sense": "earlier; whole form, scopes the clause",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "sheo": {
+      "category": "PREPOSITION",
+      "sense": "concerning; consumes immediately following NP",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "oteey": {
+      "category": "ADVERB",
+      "sense": "now; separately paid synonym of opchdy, no spelling argument",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "odain": {
+      "category": "PREDICATE",
+      "sense": "wait; whole form, intransitive, not an alias of daiin",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "an": {
+      "category": "CONJUNCTION",
+      "sense": "and; coordinates adjacent clauses",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "chey": {
+      "category": "PREDICATE",
+      "sense": "remain; whole form, intransitive",
+      "epistemic_status": "invented C0 assumption"
+    },
+    "chedy": {
+      "category": "PREDICATE",
+      "sense": "rise; whole form, intransitive; no cause or value judgment",
+      "epistemic_status": "invented C0 assumption"
+    }
+  },
+  "ordered_component_licenses": {
+    "daiin": [
+      "d",
+      "aiin"
+    ],
+    "qodaiin": [
+      "qo",
+      "d",
+      "aiin"
+    ],
+    "qotaiin": [
+      "qo",
+      "t",
+      "aiin"
+    ],
+    "oraiin": [
+      "or",
+      "aiin"
+    ],
+    "olaiin": [
+      "ol",
+      "aiin"
+    ],
+    "chol": [
+      "ch",
+      "ol"
+    ],
+    "shodaiin": [
+      "sho",
+      "d",
+      "aiin"
+    ],
+    "tchedy": [
+      "t",
+      "chedy"
+    ]
+  },
+  "rules": [
+    {
+      "id": "R1",
+      "rule": "Read exact ZL groups in native order within each spatial block. Physical line end is not itself a sentence boundary. Authored clause boundaries are separately listed."
+    },
+    {
+      "id": "R2",
+      "rule": "or always denotes block-local deictic T; ol always denotes block-local A with A != T. The block deictic anchor is an assumption, not image ownership. No identity is asserted across blocks."
+    },
+    {
+      "id": "R3",
+      "rule": "NP+aiin compounding licensed only for oraiin and olaiin: standing OF the named bearer. Such possessive NPs do not switch the grammatical subject."
+    },
+    {
+      "id": "R4",
+      "rule": "d lifts aiin to HOLD(standing). A bare aiin used predicatively also receives zero HOLD lifting; this is a separately paid nominal-predication construction, not a second sense."
+    },
+    {
+      "id": "R5",
+      "rule": "qo negates its following predicate; t places its predicate strictly after the clause NOW anchor, and sho strictly before it. No past/future predicate entails its present truth value."
+    },
+    {
+      "id": "R6",
+      "rule": "All exact ordered part licenses are finite and listed; no substring receives a sense inside an unlicensed form. No dropping e, adding i, or interpreting raw uncertainty/entities as a favorable spelling."
+    },
+    {
+      "id": "R7",
+      "rule": "sain NP sets a topic without predicating it. A following independent NP may be the subject. Thus sain or / or aiin is TOPIC(T), SUBJECT(T), HOLD(standing), rather than assigning the two or groups different meanings."
+    },
+    {
+      "id": "R8",
+      "rule": "sheo NP sets an aboutness phrase without changing subject. ch+ol is definite A, and as standalone nominative NP switches the subject to A."
+    },
+    {
+      "id": "R9",
+      "rule": "An explicit nominative NP consumes the following predicate sequence until a further nominative NP. An omitted subject inherits the nearest earlier explicit nominative within the block; where none exists, its value is UNKNOWN_SUBJECT. No block-to-block inheritance."
+    },
+    {
+      "id": "R10",
+      "rule": "Default unmarked clause time is block NOW. dair sets earlier time for its authored clause; opchdy and oteey explicitly set NOW. These adverbs scope the whole declared clause irrespective of surface edge. No token asserts loss merely from earlier possession."
+    },
+    {
+      "id": "R11",
+      "rule": "Adjacent complete predicates with inherited subject may form paratactic clauses. Only an provides a lexical AND; punctuation and English subject repetition realize the paid clause/ellipsis grammar and add no causal, adversative or temporal relationship."
+    }
+  ],
+  "complete_contexts": [
+    {
+      "id": "C_N2",
+      "locus": "f85r2.2",
+      "native_ids": [
+        "ZL3b|f85r2.2|G001",
+        "ZL3b|f85r2.2|G002",
+        "ZL3b|f85r2.2|G003",
+        "ZL3b|f85r2.2|G004",
+        "ZL3b|f85r2.2|G005"
+      ],
+      "raw": [
+        "sain",
+        "or",
+        "or",
+        "aiin",
+        "opchdy"
+      ],
+      "analysis": [
+        "TOPIC_OPEN",
+        "TOPIC(T_N)",
+        "SUBJECT(T_N)",
+        "ZERO_HOLD(standing)",
+        "NOW(clause)"
+      ],
+      "attachments": [
+        "G001 consumes G002",
+        "G002 supplies topic only",
+        "G003 subject of G004",
+        "G004 predicate of G003",
+        "G005 temporal adjunct of G003-G004"
+      ],
+      "clause": "As for that bearer, that bearer holds standing now.",
+      "subject": "T_N",
+      "time": "NOW_N",
+      "assertions": [
+        "HOLD(T_N,standing,NOW_N)"
+      ],
+      "extra_inferences": [
+        "clause boundary after G005",
+        "zero HOLD nominal lifting; the same standing sense is used in daiin"
+      ]
+    },
+    {
+      "id": "C_N4",
+      "locus": "f85r2.4",
+      "native_ids": [
+        "ZL3b|f85r2.4|G001",
+        "ZL3b|f85r2.4|G002",
+        "ZL3b|f85r2.4|G003",
+        "ZL3b|f85r2.4|G004",
+        "ZL3b|f85r2.4|G005"
+      ],
+      "raw": [
+        "dair",
+        "sheo",
+        "oraiin",
+        "chol",
+        "daiin"
+      ],
+      "analysis": [
+        "PAST_ANCHOR",
+        "CONCERNING",
+        "POSSESSIVE_NP(T_N,standing)",
+        "SUBJECT(DEFINITE_A_N)",
+        "HOLD(standing)"
+      ],
+      "attachments": [
+        "G001 scopes G004-G005",
+        "G002 consumes G003",
+        "G003 aboutness NP, no subject switch",
+        "G004 subject of G005",
+        "G005 predicate of G004"
+      ],
+      "clause": "Earlier, concerning that bearer's standing, the other bearer held standing.",
+      "subject": "A_N != T_N",
+      "time": "EARLIER_N < NOW_N",
+      "assertions": [
+        "ABOUT(standing_of_T_N)",
+        "HOLD(A_N,standing,EARLIER_N)",
+        "A_N != T_N"
+      ],
+      "extra_inferences": [
+        "clause boundary after G005",
+        "definite other bearer is the block A, not covertly T",
+        "no assertion that A or T currently lacks standing"
+      ]
+    },
+    {
+      "id": "C_S16",
+      "locus": "f85r2.16",
+      "native_ids": [
+        "ZL3b|f85r2.16|G001",
+        "ZL3b|f85r2.16|G002",
+        "ZL3b|f85r2.16|G003",
+        "ZL3b|f85r2.16|G004",
+        "ZL3b|f85r2.16|G005"
+      ],
+      "raw": [
+        "oteey",
+        "qodaiin",
+        "odain",
+        "an",
+        "chey"
+      ],
+      "analysis": [
+        "NOW(clause)",
+        "NOT(HOLD(standing))",
+        "WAIT",
+        "AND",
+        "REMAIN"
+      ],
+      "attachments": [
+        "G001 scopes G002-G005",
+        "G002 predicate of inherited T_S",
+        "G003 predicate of inherited T_S",
+        "G004 coordinates G003 and G005",
+        "G005 predicate of inherited T_S"
+      ],
+      "subject_anchor": "ZL3b|f85r2.15|G004 = or; nominated written NP carrier, rest of .15 unresolved in stage1",
+      "clause": "Now that bearer does not hold standing. That bearer waits and remains.",
+      "subject": "T_S",
+      "time": "NOW_S",
+      "assertions": [
+        "NOT(HOLD(T_S,standing,NOW_S))",
+        "WAIT(T_S,NOW_S)",
+        "REMAIN(T_S,NOW_S)"
+      ],
+      "extra_inferences": [
+        "boundaries after G002 and G005",
+        "inherit nominative T_S from .15 G004",
+        "no gloss dain=aiin and no meaning imported into odain from its spelling"
+      ]
+    }
+  ],
+  "nominated_additional_carriers": [
+    "ZL3b|f85r2.3|G003 shodaiin = PAST(HOLD(standing))",
+    "ZL3b|f85r2.8|G005 ol = A_E",
+    "ZL3b|f85r2.9|G001 daiin = HOLD(standing)",
+    "ZL3b|f85r2.9|G002 qotaiin = FUTURE(NOT(HOLD(standing)))",
+    "ZL3b|f85r2.9|G003 tchedy = FUTURE(RISE)",
+    "ZL3b|f85r2.18|G002 olaiin = standing_of_A_W",
+    "ZL3b|f85r2.21|G005 qodaiin = NOT(HOLD(standing))",
+    "ZL3b|f85r2.23|G003 chol = definite_A_W"
+  ],
+  "frequency_prior_account": {
+    "source": "artifacts/WORD_PRIORS.md + direct bounded words profile aiin daiin or ol sain opchdy dair sheo oraiin chol oteey qodaiin chey an odain shedy",
+    "aiin": "ZL423/100 selectors, rank4; broad standing/capacity noun assumed, no kingship/Winter gloss. Many corpus contexts remain unauthored, so compatibility is unverified outside fixed scope.",
+    "daiin": "ZL717/169 selectors rank1; broad possession predicate assumed. It is not a narrow reign word; variation relative to aiin is not proved morphology.",
+    "or_ol": "ZL312/112 and455/107; broad deictic/reference NPs plausible conditional on assumed grammar, but profiles do not establish pronouns. Adjacent repetitions require actual topicalization/predication rules, not different senses.",
+    "chol_chey": "chol338/124, chey310/99. Broad other-reference/remain, no narrow historical object. Whole-corpus reading not delivered.",
+    "rare_synonyms": "opchdy18/14 and oteey96/41 both now is a costly homosemy assumption; frequency is no support. an5/4 as AND is a poor universal-conjunction prior, provisionally retained only as a scoped lexical proposal.",
+    "scope": "179 cached admitted selectors; not all current admissions, no grammatical sentence oracle, no calibrated posterior."
+  },
+  "costs": {
+    "counting_convention": "transparent inventory counts, not code length/MDL or measured search freedom",
+    "primitive_entries": 17,
+    "ordered_whole_form_licenses": 8,
+    "ordinary_grammar_rules": 11,
+    "complete_authored_contexts": 3,
+    "context_group_positions": 15,
+    "semantic_aliases": [
+      "opchdy and oteey both NOW (two whole-word assumptions)",
+      "explicit d HOLD and zero nominal HOLD (one extra construction)"
+    ],
+    "polysemy": [],
+    "deictic_anchors": "one T and one distinct A per used block, external identities UNKNOWN",
+    "clause_boundaries": [
+      "N2 after G005",
+      "N4 after G005",
+      "S16 after G002 and G005"
+    ],
+    "paid_subject_inheritance": [
+      "S16 T_S from written or at .15 G004"
+    ],
+    "unmeasured_freedom": [
+      "target-aware carrier selection",
+      "semantic renaming of standing/rise/wait/remain",
+      "finite component-license selection",
+      "block anchors",
+      "aboutness and temporal-scope assignment",
+      "any future stage2 extensions"
+    ]
+  },
+  "assumptions": [
+    "Status-narrative genre and standing noun are unconfirmed.",
+    "Exact candidate segmentation and finite licenses are invented beyond structural baseline.",
+    "Block-local deictic anchors T/A are not confirmed picture ownership or source persons.",
+    "Authored clause boundaries do not follow from physical lines.",
+    "Zero nominal HOLD, ellipsis, past-adverb scope and topic doubling are paid grammar assumptions.",
+    "Historical Carmina16 alter requires actor distinction; it does not prove target or/ol identities.",
+    "Past holding does not imply present lack; future lack does not imply current lack.",
+    "Primary spelling fixed; IT/RF alternatives are preserved but do not receive favorable substitutions.",
+    "All outside .1/.24 and every unknown remain untranslated.",
+    "No Latin/phonetic assumption, source identity, clockwise order, independent confirmation or reserve eligibility."
+  ],
+  "strongest_rival": "Same constructions with aiin=physiological capacity/moisture and chedy=increase; actor NPs can be substance/bearer references. Many consequences are observationally identical. General status/record wording and lexical renamings remain equivalent."
+}

@@ -8,8 +8,8 @@ Task: GDT1140 whole Fortune/status reading.
 Latest decision: 1139native1compatible9unresolved;1137C0 retained.
 Working files: gdt1140_fortune_status_whole_reading/METHOD.md.
 Assumptions: Exposedf85r2; noLatin default,meaning orreserve.
-Resume: Publish1140; releaseauthor; freezeactualcore beforeextension.
-Running: Authorawaitingrelease;validatorplan;producer;end13:52:40UTC.
+Resume: Publishcore1140; releasefull108-positionextension; thenreview.
+Running: Frozenauthorcore;validatorwaiting;producer;end13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
