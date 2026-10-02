@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Select new evidence after paired composition gap.
-Latest decision: f83 first candidate stopsG003; no prospective transfer.
-Working files: GD_PAIRED_COMPOSITION_CANDIDATE; GD_SEMANTIC_NEXT_BIG_PICTURE.
-Assumptions: C0;513ownedrows, IT169; one exposedleaf83;0words.
-Resume: Publish closure; review native-capacity and rhyme proposals.
-Running: source/vision/rhyme advice; parent minimum06:09:20UTC.
+Task: GDT1135 full f81v lower-panel native topology.
+Latest decision: f83first partial; no transfer. New visual inventory registered.
+Working files: gdt1135_f81v_native_contour_topology.
+Assumptions: exposedleaf81; no flow, HOT/COLD or word ownership inferred.
+Resume: Publish registration; two separate native observations, then compare.
+Running: GDT1135checkpoint02:49:33; parent minimum06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

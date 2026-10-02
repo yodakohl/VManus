@@ -1161,3 +1161,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 - GDT1133: actual IT OR/ODY consumers, four dead references, alternate barriers; no complete reading. [Decision](yolo/gdt1133_caption_product_shared_components/REPORT.md).
 
 - GDT1134: actual separate counteraccount mark reads; unpriced dependency and failed precise forecast; no meaning selection. [Decision](yolo/gdt1134_paired_posting_reciprocal_consumers/REPORT.md).
+
+- GDT1135: registered complete f81v lower-panel native contour inventory; no semantic score. [Method](yolo/gdt1135_f81v_native_contour_topology/METHOD.md).
