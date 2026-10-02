@@ -1405,3 +1405,38 @@ selection follows.
 881 RAW SHA256 `4fc67142bdbbc136e65e9b5352112836d8924cbf3fc5a259e68a5d8bacc57f5f`;
 corrected Moerbeke JSON SHA256 `804e9b45ec887b16e196da9cd560db92642a0308f96b3a2222312b7d4ebf75ab`.
 Only the unique RAW, authorized ideas add and this note append changed. No target body/pixels, new source acquisition, reserve, contact, decoder, root files/ledger, global refresh or Git.0confirmed words.
+
+## Continuation source-only pipeline receipt — 2026-10-02,13:59–14:02UTC
+
+**0new RAW.** Read current route/numbers topic, bounded calendar/Vitruvius
+searches,394 duplicate candidates and original primary, plus the complete owned
+Gwilt IX.8.8–15 excerpt and worked account. No881 author/core or target data read.
+A variable-hour content offer is already394: the same apparatus retains its
+parts while date setting, water flow, fill time and hour length remain distinct.
+The two equinoctial positions share an hour class, not necessarily one angle,
+flow value or physical setting. The explicit written relations, including
+opposed float/counterweight directions, are useful positive source constraints;
+a new noun list or equal-duration variant would not add a mechanism.
+
+Do not donate an exact twelve-equal-fractions-of-day rule: this excerpt names
+twelve zodiac signs, not that numerical hour equation. Do not convert the
+opaque printed eighth-part/division labels to degrees or identify initial
+Capricornus sign-position with terminal eighth division.365 regulator points
+and month-specific display holes remain different mark systems. The cached
+translation includes a stray modern HTML/editorial north-orientation fragment;
+it supplies no medieval cardinal-direction premise. Mechanical adequacy and
+Latin/witness variants remain uncollated. Exploratory complete authorship can
+be attempted without independent meanings; none was attempted in this unit.
+
+394 stays RAW;504's missing complete frozen extension is not a global clock
+failure. The duplicate screen also returned524; no new primary review or
+reopening of that card is claimed here. No widened
+calendar/counting test, source acquisition or decoder follows. Source-only
+relation constraints remain distinct from target meaning selection.
+
+Checked SHA256 pins:
+raw_vitruvius_clock_state_reference.json `22c7ac2cc5d650fbf0b9d02b5af834607e714ef7f32badc5bf9f1e7cc28c1443`;
+VITRUVIUS_CLOCK_WORKED_ACCOUNT_20260920.md `9a4a7f8e8099ab1601f159482c59ca7272960db3e6582aefc1f4ff0343ba4e63`;
+CONTEXTUAL_FULL_CONTENT_RAW_SOURCES_20260920.json `72a93568f698c0b8da628d2cf3967d2ee6d98abcfa20cc96f3e3873436b95d44`;
+complete IX.8.8–15 source excerpt pin remains `56f3089ee2c941cee1e33baaee2eb64fc3387dce38a13dfbb017898690ad8149`.
+Only this owned note append changed; old bytes preserved. No ideas mutation, target body/pixels, reserve, acquisition, contact, root files/ledger/globals or Git.0confirmed words.
