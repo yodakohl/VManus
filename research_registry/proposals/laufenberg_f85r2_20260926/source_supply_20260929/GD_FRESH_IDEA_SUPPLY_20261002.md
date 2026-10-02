@@ -116,3 +116,81 @@ acquisition, image/target query, reserve, f84/f84r/f116v access, outside contact
 ledger/state/route edit or git/publication action. No statistical or decipherment
 progress claimed. The inclusive producer budget was 30 minutes; raw retention
 ends this bounded producer unit. Root will review IDEA000872 later.
+
+## 2026-10-02, second bounded unit during GDT1136 authorship
+
+The preceding supply record remains historical text. The newly read live route
+now has root authoring IDEA872 as GDT1136. This producer did not inspect its
+author outputs or participate in that test. Inclusive new producer budget:
+approximately 20 minutes, maximum two retained ideas. **Two added:** IDEA000873
+and IDEA000874, both `RAW_UNREVIEWED_NOT_SELECTED`, with no proposed word glosses.
+These concern delegated acts and adversarial choice, rather than another
+apparatus, cleanup, occupancy or material-state variation.
+
+**IDEA000873 — one actor's authorized act binds another party.**
+[Proposal](GD_FRESH_DELEGATED_AUTHORITY_RAW_20261002.json).
+P authorizes A to undertake an act toward T; A performs it; the later obligation
+belongs to P. Revocation before the act blocks that effect, while revocation
+after the completed act leaves the existing obligation. Discharging an existing
+obligation and withdrawing future authority are distinct events. The owned
+nomination is the **entire f83r P1/72-group record**, with exact existing reader,
+record-binding and source-receipt paths in the proposal. Neither a principal nor
+an agent is identified in the illustration or text by this producer.
+
+The actual IDEA333 charter proposal has grant/object/protection/attestation and
+a terminal procurator role, not this three-party delegated act and later
+principal obligation. The actual Benedict permission/debt proposal has the same
+actor receiving permission and owing satisfaction. Loan372 separates title and
+custody; sale424 separates contract, delivery and risk. These remain nearby
+contents, with no demonstrated same delegation design. Bounded duplicates and
+route checks were followed by actual charter/permission proposal primaries and
+GDT979's claim-bearing report. Its failed six-action/global-code/cross-leaf
+contract remains failed and is not enlarged here. W91 and IDEA528 failures are
+likewise retained.
+
+A paid complete actor-versus-obligation-bearer consequence could warrant a fixed
+exposed-data test later. If authoring produces only authority labels or a direct
+action chain, park the offer; if generic action guards predict the same world,
+keep equivalence. The system is explicitly hypothetical, not a historical or
+present-law claim. Written actor identities, authorization, revocation and
+obligation remain unpaid. Lack of confirmed legal words does not make the raw
+idea a duplicate.
+
+**IDEA000874 — a strategy covers every permitted opposing reply.**
+[Proposal](GD_FRESH_ADVERSARIAL_STRATEGY_RAW_20261002.json).
+An opening creates a common case; the opponent chooses X or Y; the actor uses
+C or D accordingly; the complete account asserts one common goal. Its distinct
+consequence is universal: a legal successful illustrative path is insufficient
+if another permitted response defeats the goal. Changing an opening can change
+the allowed replies and invalidate a formerly sufficient policy. The owned
+nomination is **entire f83r P5/.31–44/62 groups**, with Q1/Q2 and all other
+records kept separate. No board, combat scene, tactic or guarantee is identified
+in the manuscript by this producer.
+
+The actual IDEA140 proposal replays one legal actual move narrative from a fixed
+starting position to a terminal position. It does not quantify over all opponent
+choices. The actual IDEA388 Fiore proposal binds scholar continuations to master
+starts and includes opponent-dependent cases/counters, but does not assert
+exhaustive response coverage or a universal winning outcome. Its unresolved later
+calls remain unresolved. This candidate adds an explicit outcome claim over the
+full response set, not another image/reference convention. Both proposal
+primaries were read after bounded registry/duplicate/route searches. No external
+game rulebook or combat-source body was acquired or collated this unit.
+
+The goal and permitted response set are both unpaid assumptions; they may be
+explored jointly with a whole account. Modern chess rules cannot be silently
+imported. If an eventual complete reading actually pays a universal outcome
+claim, root can assess the changed consequence before testing. If the guarantee
+exists only in added English or the opposing choices remain freely inventable,
+park it without a game engine. Missing board/seedword confirmation is a limitation,
+not a duplicate reason. W91, GDT947, GDT979 and the fixed numerical/source-prefix
+failures remain unchanged; no source or writing-law repair is proposed.
+
+This second unit used current route, bounded composition/transfer excerpts,
+compact ideas records, selected proposal/report sections and receipt metadata.
+No complete target-body files, new target queries, evolving author outputs,
+new sources/images, reserves/f84/f84r/f116v, outside contacts, tests, simulations,
+parser/decoder, route/ledger/state edit, commit or push. The only writes are the
+two proposal JSON files, this appended note and their authorized `ideas add`
+registry/index updates. Both ideas remain raw supply for root's later review;
+no translation or decipherment progress claimed.
