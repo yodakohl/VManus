@@ -288,3 +288,21 @@ GD_MOERBEKE_COLLATION_20261002.md und
 GD_BIG_PICTURE_CONSTRAINT_ADVISORY_20261002.md im selben Dossier.
 Alle experimentellen Entscheidungen bleiben in ihren jeweiligen REPORTs;
 kein PASS für Buchführung oder Bildbytes wird zur Bedeutungsbestätigung.
+
+### Anschließende Primärprüfung vonRAW881
+
+Root hat inzwischen die Originalvorschläge584,810,868 und die einschlägigen
+behaltenen Quellentexte gelesen: die Regimen-Tierbeispiele führen zur
+menschlichen Mantelanweisung zurück; Atractylis wiederholt den Stängel als
+Spindel; die Dioskurides-Iris/Schwert-Beispiele betreffen zusammenhängende
+Namens- und Vergleichsformen.881 unterscheidet sich davon durch die
+Rezeptindikationen plus abschließende Tier-Namensbegründung. Die Quelle
+rechtfertigt diesen Unterschied, aber noch keine neue Zieltextkonstruktion.
+Registryreview881 lautet daher NOT_TESTED, nicht widerlegt und nicht als
+Lesung unterstützt. Voraussetzung für einen Zielversuch ist eine tatsächlich
+ausformulierte vollständige C0-Konstruktion; bestätigte Anfangsglossen werden
+nicht verlangt. Kein neues Quellensuchpaket oder Decoder wird automatisch
+gestartet. Der Bericht GD_WHOLE_ENTRY_881_ROOT_REVIEW_20261002.json hält die
+Primärpfade, Unterschiede und noch fehlende Leistung fest.
+
+Arbeitsblockabschluss: 2026-10-02 13:53:08 UTC. Beginn03:52:40UTC; mindestens10Stunden sind jetzt tatsächlich verstrichen. Alle Agentenaufgaben sind abgeschlossen. Quellenbefunde und Korrekturen sind veröffentlicht; diese abschließende Auswahlprüfung wird mit ihrem Registrydatensatz nach dem exakten Staging-/Privacycheck veröffentlicht. Weiterhin0bestätigte Wörter, keine neue Reserve und keine Außenkontakte.

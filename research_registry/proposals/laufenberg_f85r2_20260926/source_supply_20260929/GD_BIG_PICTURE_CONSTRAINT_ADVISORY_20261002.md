@@ -778,3 +778,11 @@ S313 `eff6526de1a3197a0454a66149888a916bf4038cd0a61a213df97a4e2482b91f`.
 Weitere positive Primärpins: SXXVIII
 `a4cbdb80545e77c2aec65c613ae36fd745567ab61fb35320179643ea1fe9aa6a`,
 SXL `cd0acafeee6f5472153d010e1e026196548a983616b139a62f7312e084c4c24e`.
+
+Root hat anschließend dieselben gecachten vollständigen EditionsbilderS312
+undS313 im Originaldetail visuell angesehen. S312.10 enthält den genannten
+W/Orib.-Variantenbeleg; S313.12–13 die lateinische Namensschluss-Wiedergabe
+und die folgende Blitum/Atraphaxys-Rubrik. Dies ist eine nichtblinde Prüfung
+derselben Editionsseiten, keine zweite Handschrift. Der Agent hatte zuerst
+pdftotext versucht (nurFormfeed), dann die ganzenPDF-Seiten gerendert und
+visuell einschließlich Apparat gelesen; seine Befunde stammen nicht ausOCR.

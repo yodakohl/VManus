@@ -3,13 +3,13 @@ Updated: 2026-10-02. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: Close source-role comparisons; review whole-entry alternative.
-Latest decision: 1142contact;CXIIIbenefit/naming;0words.
+Status: checkpoint
+Task: Whole-entry C0 construction decision after source review.
+Latest decision: 1142contact;881NOT_TESTED;0words.
 Working files: source_supply_20260929/BNF_CONTACT_OBSERVATIONS.md.
 Assumptions: Source roles not target meanings;reserves closed.
-Resume: Review RAW881 against1094 before whole-entry authorship.
-Running: Root publication/review;end13:52:40UTC.
+Resume: Draft explicit881whole-entry core;no renamed free roles.
+Running: None;10h block complete;next work awaits continuation.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
