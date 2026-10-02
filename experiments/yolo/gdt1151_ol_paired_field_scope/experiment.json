@@ -1,0 +1,158 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed scope grammar only, no word meaning or universal grammatical exclusion",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1151_ol_paired_field_scope/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1151_ol_paired_field_scope/src/validate.py"
+  },
+  "created": "2026-10-03",
+  "dependencies": [
+    "GDT774",
+    "GDT915",
+    "GDT1149"
+  ],
+  "experiment_id": "GDT1151",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+      "sha256": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd",
+      "role": "fixed source or predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+      "role": "fixed source or predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+      "role": "fixed source or predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+      "role": "fixed source or predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "fixed source or predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "fixed source or predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+      "role": "fixed source or predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt1149_minim_line_entry_control/artifacts/BLOCKS.json",
+      "sha256": "716073b4307777dc5a2c7747cf5fe5bae924fc323cc162606a4319fbdd93cb6a",
+      "role": "fixed predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt774_ol_376_contextual_transfer/REPORT.md",
+      "sha256": "832d29aa84ee851c30df8bb5aece64b4eeb686f55c6fb0c7b5b7e83c9a5b24f6",
+      "role": "fixed predecessor"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/METHOD.md",
+      "sha256": "c149d7a92fa370042bfe216cf0b541799714dab37f3fa7d76a4c1c204fd16c81",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/PREREGISTRATION.md",
+      "sha256": "c149d7a92fa370042bfe216cf0b541799714dab37f3fa7d76a4c1c204fd16c81",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/README.md",
+      "sha256": "0ee8faa6424e47ad0f8190334e44826f350feddb65cfdb878b0624f21f14779f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/REPORT.md",
+      "sha256": "203d42ae23178106b874649dad957158b01f947cb054e702146e2bc9de91aa8e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/artifacts/ADJACENT_PAIRS.tsv",
+      "sha256": "51ab3646d4bb675daa77b2941229b215c4db7461b7d9929c5ca924342b947261",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/artifacts/OCCURRENCES.json",
+      "sha256": "4e978d588040983b6d6fb282c4f22878cbb469a24f443d593d0b8a5057963725",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/artifacts/PARAGRAPHS.json.gz",
+      "sha256": "eca09ed10c9026ef3caa908bc39c183d1f0543fa0a1c23067e6f51f96f91e290",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/artifacts/PARAGRAPH_DECISIONS.tsv",
+      "sha256": "60692bea928a5a311db797296f332f64eab36cf39d9603b4e24ec8cdd4e5063b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/artifacts/README.md",
+      "sha256": "0d358677a3a0f8b2a500a941ae75a2b00032a725a30e151455b723c2ccf12e21",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/artifacts/RESULT.json",
+      "sha256": "576131071a64e57271ee820f641867b7cea56d7a90fe3e53a53a7e41cdfaf73c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/artifacts/VALIDATION.json",
+      "sha256": "ca98083f131d839b4d35df946cccdf21adb9424be1fdad175e1c20625386fc27",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/src/PREREG_LOCK.json",
+      "sha256": "d7948b0b507b95893ee2c398f726be431cf56bd6c4eec959974a339401e8159d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/src/SOURCE.json",
+      "sha256": "75eec9c78142f20da0a491c0d51f3ed29840eb29056dab20a99f7889aa6a4058",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/src/run.py",
+      "sha256": "88dc8e9f980e5d3ff254a0adf592eacbaee6169fa2ae286a35737fe283a39636",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1151_ol_paired_field_scope/src/validate.py",
+      "sha256": "f7835ae847ea38d04c6b448056d15835b0e36e528181ce0649fa7e26c22dd676",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Can exact free ol alternate as nonempty field delimiters across complete native paragraphs?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN",
+    "f116v": "UNADMITTED",
+    "reserves": "CLOSED"
+  },
+  "slug": "ol_paired_field_scope",
+  "status": "REFUTED_FIXED_PAIRED_FIELD_SCOPE",
+  "title": "ol paired field scope",
+  "updated": "2026-10-03",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1151_ol_paired_field_scope/artifacts/VALIDATION.json"
+  }
+}

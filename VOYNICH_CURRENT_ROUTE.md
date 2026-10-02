@@ -2,13 +2,13 @@
 Updated: 2026-10-03. Live resume point.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: Short-word profiles and ol-role predecessors reconciled;WE013.
-Latest decision: ol role tied;repeats unexplained;1150 parked;0words.
-Working files: research_registry/proposals/laufenberg_f85r2_20260926/WORD_SELECTION_DECISION.md.
-Assumptions: Frequency before gloss;formal parts do not prove numerals.
-Resume: Whole-construction role discriminator;no window relaxation.
+Phase: fixed_test
+Status: complete
+Task: GDT1151 full ol paired-field scope tested;WE014.
+Latest decision: ZL59/74,IT177/232 contradictions;fixed scope fails.
+Working files: experiments/yolo/gdt1151_ol_paired_field_scope/REPORT.md.
+Assumptions: No phase/marker repair;frequency before gloss;0words.
+Resume: Distinct complete consequence;no paired-field or window retry.
 Running: None.
 
 ## Structural baseline

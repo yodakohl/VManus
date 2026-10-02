@@ -1179,3 +1179,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1148 | GDT1148 | `NO_JOINT_TRANSFER` | [report](../experiments/yolo/gdt1148_aiin_crossed_context_prediction/REPORT.md) | 19 | 3.4 MiB | 5 | STRUCTURED_YOLO |
 | GDT1149 | GDT1149 | `MINIM_SPECIFIC_CONTINUATION_AVOIDANCE` | [report](../experiments/yolo/gdt1149_minim_line_entry_control/REPORT.md) | 16 | 608.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT1150 | GDT1150 | `NO_LOCAL_COUNTERPARTS` | [report](../experiments/yolo/gdt1150_minim_entry_counterparts/REPORT.md) | 14 | 506.5 KiB | 3 | STRUCTURED_YOLO |
+| GDT1151 | GDT1151 | `REFUTED_FIXED_PAIRED_FIELD_SCOPE` | [report](../experiments/yolo/gdt1151_ol_paired_field_scope/REPORT.md) | 16 | 783.0 KiB | 3 | STRUCTURED_YOLO |
