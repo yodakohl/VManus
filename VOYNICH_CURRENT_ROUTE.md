@@ -2,14 +2,14 @@
 Updated: 2026-10-02. Live resume point.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: checkpoint
-Task: Post1146 typed argument alternative drafted;no new test.
-Latest decision: BinaryDY_Q_EY fits motivating case;0new applications;0words.
-Working files: source_supply_20260929/GL_TYPED_ARGUMENT_DESIGN.md.
-Assumptions: New C0 syntax;old1137core/1146failure unchanged;no reserve.
-Resume: Require additional application or distinct whole-context consequence.
-Running: None;bounded design and review complete.
+Task: GDT1147 full-context test complete;H2 reading parked.
+Latest decision: Two earlier Q arguments unbound;no return chain;0words.
+Working files: experiments/yolo/gdt1147_complete_return_context_capacity/.
+Assumptions: Fixed1137+H2;unknowns unexecuted;RF window inherited.
+Resume: Select distinct complete consequence;no fitted dictionary repair.
+Running: None after independent validation and publication.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
