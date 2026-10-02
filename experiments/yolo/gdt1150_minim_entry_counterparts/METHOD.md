@@ -1,0 +1,18 @@
+# GDT1150 — exact written counterparts of minim entry forms
+
+## Decision note
+GDT1149 zero bare entry and plentiful internal D do not license global d deletion. GDT320's fresh-surface dual-entry predictor failed. GDT1148 tested ain/aiin choice, not matched bare/D forms; GDT853's exact joined/split pairing lacked capacity. IDEA000002 concerns semantic owner-state and remains blocked, not a generic line-wrap test.
+
+Unknown: do actual repeated written continuations offer local bare/D counterparts, instead of inferring them from marginal counts? Candidate entry-neutralization permits both bare and D internally but realizes a bare class as D initially; it does not identify lexical identity. The smallest adequate test is an exhaustive fixed-tail + next-two-group counterpart census. A positive supplies bounded instances for later discrimination, not proof; zero leaves this route without these counterparts and stops window relaxation. Budget20minutes for registration, implementation, validation and publication; no new decoder or images. No model selection by observed yield.
+
+## Frozen source and scope
+Use six already exposed GDT915 cached snapshots and GDT1149 complete native paragraph blocks and eligibility. All179 admitted selectors, f84/f84r sealed, f116v unadmitted, reserves closed. Native groups, indices, spaces and alternate readers preserved. ZL/IT primary independently tabulated; RF has no bounded paragraphs and is diagnostic only. No independent confirmation capacity.
+
+Inventory all exact ain/aiin/aiiin/dain/daiin/daiiin P-group occurrences, including every ineligible one with reasons. Target class BARE or D, tail exact one of ain/aiin/aiiin. For each target retain complete source line, raw IDs and native paragraph/scope/position. Eligible windows require GDT1149 PRIMARY scope, the target and two following groups on the same line, pure lowercase following groups and DEFINITE_SPACE for both gaps. No shifted indices or repaired groups. Positions retain paragraph-start/continuation/internal distinctions; paragraph-start targets are reported but not paired.
+
+For every eligible D continuation-start target, collect ALL eligible INTERNAL occurrences with identical exact tail and next two whole groups, separately in the same paragraph (primary) and same physical leaf (diagnostic, including primary). No cross-reader joins. Store every partner, including D partners; no favourite pair. Classify each target as BARE_ONLY, D_ONLY, BOTH or NEITHER in each scope. Distinct tails cannot match. No learned or normalized neighbour family. The two following groups are a written signature, NOT an established full clause or construction.
+
+## Fixed result and ceiling
+Primary counterpart availability: at least one same-paragraph BARE partner exists in each ZL/IT => LOCAL_COUNTERPARTS_AVAILABLE; in only one => READING_SENSITIVE_COUNTERPARTS; none => NO_LOCAL_COUNTERPARTS. Report each outcome even if physical-leaf diagnostics differ. This is an existence/capacity gate, not a power or significance threshold. Counterparts alone cannot separate accidental repetition, grammatical contrast, free spelling or neutralization. Even BARE_ONLY means only observed support in a finite panel; D_ONLY/NEITHER do not refute neutralization because the latent source class is unobserved. No occurrence can establish a meaning or a silent d.
+
+Do not loosen next-two-group identity, definite gaps, paragraph scope or fixed tails after results. Preserve the already known zeros, internal D, GDT320 failure and all missing/counterpart cases. Independent reconstruction must check all target windows, exclusions, partner sets and decisions. No p-values or semantic probability. No new word assignment.

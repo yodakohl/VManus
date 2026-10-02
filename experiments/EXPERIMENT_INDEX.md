@@ -1178,3 +1178,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1147 | GDT1147 | `FIXED_CONSTRUCTION_CONTEXT_INCOMPLETE` | [report](../experiments/yolo/gdt1147_complete_return_context_capacity/REPORT.md) | 17 | 714.3 KiB | 3 | STRUCTURED_YOLO |
 | GDT1148 | GDT1148 | `NO_JOINT_TRANSFER` | [report](../experiments/yolo/gdt1148_aiin_crossed_context_prediction/REPORT.md) | 19 | 3.4 MiB | 5 | STRUCTURED_YOLO |
 | GDT1149 | GDT1149 | `MINIM_SPECIFIC_CONTINUATION_AVOIDANCE` | [report](../experiments/yolo/gdt1149_minim_line_entry_control/REPORT.md) | 16 | 608.6 KiB | 3 | STRUCTURED_YOLO |
+| GDT1150 | GDT1150 | `NO_LOCAL_COUNTERPARTS` | [report](../experiments/yolo/gdt1150_minim_entry_counterparts/REPORT.md) | 14 | 506.5 KiB | 3 | STRUCTURED_YOLO |

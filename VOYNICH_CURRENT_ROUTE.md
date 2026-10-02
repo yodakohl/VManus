@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-02. Live resume point.
+Updated: 2026-10-03. Live resume point.
 
 ## Current work
-Phase: fixed_test
-Status: complete
-Task: GDT1149 continuation-line census independently validated.
-Latest decision: Bare0 vs D182/175 and otherA8/8 starts;no meaning.
-Working files: experiments/yolo/gdt1149_minim_line_entry_control/REPORT.md.
-Assumptions: Strong general a-avoidance remains;frequency before gloss.
-Resume: Check IDEA000002;explain internal bare/D and entryD jointly.
+Phase: exploration
+Status: checkpoint
+Task: GDT1150 exact counterpart census complete;branch parked.
+Latest decision: 331Dentries,0local internal bare/D counterparts;0words.
+Working files: experiments/yolo/gdt1150_minim_entry_counterparts/REPORT.md.
+Assumptions: 1149entryconstraint retained;frequency before gloss.
+Resume: New discriminating consequence;no shorter-context retry.
 Running: None.
 
 ## Structural baseline
