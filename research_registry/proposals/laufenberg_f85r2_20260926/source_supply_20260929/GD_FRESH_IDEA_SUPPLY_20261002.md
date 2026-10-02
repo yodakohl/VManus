@@ -194,3 +194,55 @@ parser/decoder, route/ledger/state edit, commit or push. The only writes are the
 two proposal JSON files, this appended note and their authorized `ideas add`
 registry/index updates. Both ideas remain raw supply for root's later review;
 no translation or decipherment progress claimed.
+
+## 2026-10-02 — third bounded source-grounded supply unit
+
+**Zero new proposals.** This is a duplicate finding about the specific accounts
+below, not a claim that the backlog is exhausted or that unbound meanings may
+not be retained. Existing unreviewed source-grounded whole accounts already
+preserve their proposed additional consequences; their lack of target meanings
+was not used as a rejection reason.
+
+- **Intention-qualified migration:** the complete cached `hadith.muslim_a`
+  member in
+  `research_registry/work_batches/ten_hours_20260915/ISNAD_LEDGER_CONTEXTUAL_SOURCE_20260920.json`
+  and the actual
+  `research_registry/proposals/raw_arabic_isnad_shared_tail_and_meaning.json`
+  (**IDEA399**) were read. Its contract already retains general intention,
+  each person's intended goal, both migration conditionals, and distinct
+  worldly-gain/marriage alternatives. Its rival explicitly destroys the
+  outcome's dependence on the person's intention. Recasting this as a moral
+  attribution account would duplicate that retained consequence. A separate
+  reward/value noun is hypothetical in the existing proposal, not additional
+  written source content available to make a new candidate.
+- **Constitutive versus final explanation, coupled to motion:** the complete
+  cached
+  `research_registry/work_batches/ten_hours_20260915/LULL_TYPED_QUESTIONS_SOURCE_20260920.json`
+  and actual
+  `research_registry/proposals/raw_lull_typed_question_correlatives.json`
+  (**IDEA398**) already preserve all eight answered questions, the same heaven
+  subject's form/matter and purpose answers, and the active/receptive inversion
+  in the denied external-mover argument. This is already a whole causal account,
+  not merely a table of reused question labels. The source's metaphysical
+  premises and unresolved pronoun owners remain limitations.
+- **Refuted accusations followed by an unjust action:** the complete cached
+  `PHAEDRUS_I1` source member in
+  `research_registry/work_batches/ten_hours_20260915/DISCOURSE_CONSTRAINT_RAW_SOURCES_20260920.json`
+  and actual
+  `research_registry/proposals/raw_phaedrus_rebuttal_commitment_scope.json`
+  (**IDEA397**) already couple flow direction to the first rebuttal and birth
+  time to the second, then preserve the new father referent and the killing
+  without making the disproved accusations true. A proposal separating
+  warranted judgment from coercive action would reproduce its existing rival
+  and changed consequence. The unverified father accusation stays unverified.
+
+The three are retained raw candidates available for a later source-grounded
+shortlist; this unit neither selects nor reruns them. Relevant bounded topic,
+registry and route screens preceded the claim-bearing primaries. Other source
+families were navigation only and are not asserted absent or closed. The
+structural baseline and registered failures retain their earlier scope.
+
+Only this note was appended. No target-body files, evolving author/reviewer
+outputs, new source acquisition, target queries, images, reserves, tests,
+decoder/parser, global registry mutation, route/ledger/state edits or Git
+actions. Root's GDT1137 remains independent.

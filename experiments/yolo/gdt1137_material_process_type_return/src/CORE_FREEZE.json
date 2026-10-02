@@ -1,0 +1,78 @@
+{
+  "experiment": "GDT1137",
+  "freeze_phase": "focal core before finite whole lexicon extension",
+  "registration_commit": "279ccdd0ef124ba7625a7c93e38c71c94f365d76",
+  "release_utc": "2026-10-02 08:52:07 UTC",
+  "core_sha256": "592e070b934c54ff7e5965ed7a4ee1cd6789b14cd4d59de216a40d229e54ec02",
+  "claim": "Finite local C0 hypothesis; none of these meanings is recovered morphology.",
+  "primitives": {
+    "che": "powder-form feedstock; granular",
+    "she": "sheet-form feedstock; laminar",
+    "ey": "source preparation recipe, no conversion operations",
+    "dy": "converted preparation recipe, surface-convert operation",
+    "qokedy": "specify a derived product TYPE from the supplied converted recipe",
+    "sol": "retrieve actual earlier generated type matching embedded recipe",
+    "qody": "emit further dry-setting prescription using returned type"
+  },
+  "signatures": [
+    "nominal(root,state,materials=None,states=None)->recipe",
+    "lexical_nominal(surface,**kwargs)->recipe",
+    "qokedy(recipe,producer_id)->product_type",
+    "sol(product_types,embedded_recipe,policy)->selection",
+    "source_predicate(selected_type,source_recipe)->assertion",
+    "qody(selected_type)->further_prescription"
+  ],
+  "literal_assemblies": {
+    "cheey": [
+      "che",
+      "ey"
+    ],
+    "chedy": [
+      "che",
+      "dy"
+    ],
+    "sheey": [
+      "she",
+      "ey"
+    ],
+    "shedy": [
+      "she",
+      "dy"
+    ],
+    "solchedy": [
+      "sol",
+      "chedy"
+    ]
+  },
+  "focal_clause_bindings": [
+    ".25G004 QOKEDY takes .25G005 CHEDY converted recipe and generates first TYPE",
+    ".28G004 QOKEDY takes .28G005 SHEDY converted recipe and generates second TYPE",
+    ".29G001 SOL+CHEDY selects actual first TYPE after second TYPE",
+    ".29G002 CHEEY is a source predicate of the returned TYPE, not an earlier load",
+    ".29G003 QODY takes the same returned TYPE after a satisfied source assertion"
+  ],
+  "rival_policies": [
+    "explicit-earlier-type",
+    "latest-product-only"
+  ],
+  "rival_limit": "Latest-only may return the other type; preserve first failed written source assertion, no invented executed tail.",
+  "costs": {
+    "material_kind_primitives": 2,
+    "nominal_state_primitives": 2,
+    "focal_operator_senses": 3,
+    "focal_literal_assemblies": 5,
+    "focal_clause_bindings": 5,
+    "source_predication_rule": 1,
+    "reference_policies": 2,
+    "type_only_ontology_default": 1
+  },
+  "chronology": "All recipes/types are prescriptions. Early SHEDY.26 can be mentioned before its .28 generation. CHEEY.29 follows CHEDY.25. No production/batch/load asserted.",
+  "limits": [
+    "No metal names",
+    "No universal DY",
+    "No CHEY=CHEEY alias",
+    "No source identity",
+    "Fresh and persistent instances of same TYPE are indistinguishable",
+    "Focal sharing does not independently confirm any English meaning"
+  ]
+}
