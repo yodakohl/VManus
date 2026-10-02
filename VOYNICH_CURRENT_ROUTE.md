@@ -3,12 +3,12 @@ Updated: 2026-10-02. Live resume point.
 
 ## Current work
 Phase: fixed_test
-Status: checkpoint
-Task: GDT1148 complete;word-selection user rule made persistent.
-Latest decision: No material ain/aiin neighbour gain;0words.
-Working files: AGENTS.md;research_registry/README.md.
-Assumptions: Frequency/distribution before gloss;C0 is no exemption.
-Resume: No arbitrary meanings;use existing word profiles and primaries.
+Status: complete
+Task: GDT1149 continuation-line census independently validated.
+Latest decision: Bare0 vs D182/175 and otherA8/8 starts;no meaning.
+Working files: experiments/yolo/gdt1149_minim_line_entry_control/REPORT.md.
+Assumptions: Strong general a-avoidance remains;frequency before gloss.
+Resume: Check IDEA000002;explain internal bare/D and entryD jointly.
 Running: None.
 
 ## Structural baseline
