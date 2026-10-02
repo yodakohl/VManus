@@ -3,13 +3,13 @@ Updated: 2026-10-02. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: GDT1143 whole f25v mixed-entry C0 authorship.
-Latest decision: Register fixed-core attempt;0words.
-Working files: gdt1143_mixed_herbal_entry_whole_reading/METHOD.md.
-Assumptions: Exposed57IT/176native;source881notidentity.
-Resume: Freeze core, author all groups, independent review.
-Running: Author/reviewer/producer;checkpoint14:43UTC.
+Status: checkpoint
+Task: GDT1143 whole f25v attempt closed incomplete.
+Latest decision: 43whole guesses;missing arguments;0words.
+Working files: gdt1143_mixed_herbal_entry_whole_reading/REPORT.md.
+Assumptions: Exposed176groups;corefrozen;no reserve.
+Resume: Require explicit patient/habitat/naming linkage before more guesses.
+Running: None; author and independent review finished.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

@@ -1,0 +1,307 @@
+{
+  "experiment": "GDT1143",
+  "validation_status": "PASS_PROTOCOL_ACCOUNTING",
+  "validation_plan_sha256": "4ef6069b188eac1e67f5d0fafe6ed89698b143650fdea5f623763bd3a9c5a693",
+  "validation_scope": "Independent source-pin, freeze, row-accounting, recurring-value, and contract checks. No new source/target/image access and no decoder or semantic truth test.",
+  "core_freeze": {
+    "core_sha256": "5ae57ed62723b29ca45a5f7d24b16d811b2faab5ad235685c3cabb2574c0b7f3",
+    "core_md_sha256": "23f7f11627580fd989741476268f79d755af2823705be2f3e368b6133d32896b",
+    "core_receipts_identical": true,
+    "author_after_freeze_receipt_verified": true
+  },
+  "registered_inputs": [
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/REPORT.md",
+      "expected_sha256": "f9c9da6ce4bd81a6c97cb38155a31069980fcf1fb9526b0559248d42fcf276c7",
+      "actual_sha256": "f9c9da6ce4bd81a6c97cb38155a31069980fcf1fb9526b0559248d42fcf276c7",
+      "passed": true
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/FULL_PASSAGE.tsv",
+      "expected_sha256": "a179de44cd51a800b018f992f808cf1a6ae340d9f0bfe3d1ffe7bd55731cbd94",
+      "actual_sha256": "a179de44cd51a800b018f992f808cf1a6ae340d9f0bfe3d1ffe7bd55731cbd94",
+      "passed": true
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/artifacts/FORMAL_REPLAY.json",
+      "expected_sha256": "692eb2a4542c24168dfec90e5ff97e98dfdc74fa2a8c750e185104de9bdde9c3",
+      "actual_sha256": "692eb2a4542c24168dfec90e5ff97e98dfdc74fa2a8c750e185104de9bdde9c3",
+      "passed": true
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/TARGET_RAW.tsv",
+      "expected_sha256": "320cd0ff38a58aa1050a4f3b7e8c4be5813703cecb883ef40bf04440f09e4263",
+      "actual_sha256": "320cd0ff38a58aa1050a4f3b7e8c4be5813703cecb883ef40bf04440f09e4263",
+      "passed": true
+    },
+    {
+      "path": "experiments/yolo/gdt1094_f25v_source_package_whole_reading/src/WORD_PROFILES.json",
+      "expected_sha256": "f92a6ab4b86ab192b67cfc88a082f84b3523f8ccfadeeb5ae6054c1096b187b0",
+      "actual_sha256": "f92a6ab4b86ab192b67cfc88a082f84b3523f8ccfadeeb5ae6054c1096b187b0",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_AUTHOR_STRATEGIC_REASSESSMENT_20261002.md",
+      "expected_sha256": "c824a802e64fa3ec63f33b701c11995da3dea3aadca80f358e9884244a988cb1",
+      "actual_sha256": "c824a802e64fa3ec63f33b701c11995da3dea3aadca80f358e9884244a988cb1",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_FRESH_HUMAN_REMEDIES_ANIMAL_NAMING_RAW_20261002.json",
+      "expected_sha256": "359b2b27fbaa6c3fa8d72b949ec83e1626a5f27c7ca0ef312193ac6840b21dfa",
+      "actual_sha256": "359b2b27fbaa6c3fa8d72b949ec83e1626a5f27c7ca0ef312193ac6840b21dfa",
+      "passed": true
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_WHOLE_ENTRY_881_ROOT_REVIEW_20261002.json",
+      "expected_sha256": "d384d4c762a770c600bd4352b6afd453a2de1167627dda4e2f2a08155fe7744b",
+      "actual_sha256": "d384d4c762a770c600bd4352b6afd453a2de1167627dda4e2f2a08155fe7744b",
+      "passed": true
+    },
+    {
+      "path": "experiments/yolo/gdt1142_f25v_native_contact_followup/REPORT.md",
+      "expected_sha256": "414d72b717a13178a520d569eabc90549f57052f72c7180f8f7d03317c5ed814",
+      "actual_sha256": "414d72b717a13178a520d569eabc90549f57052f72c7180f8f7d03317c5ed814",
+      "passed": true
+    }
+  ],
+  "source_accounting": {
+    "full_passage_reader_counts": {
+      "IT2a": 57,
+      "RF1b": 59,
+      "ZL3b": 60
+    },
+    "paragraph_boundary_counts": {
+      "IT2a": {
+        "paragraph_starts": 1,
+        "paragraph_ends": 1
+      },
+      "ZL3b": {
+        "paragraph_starts": 1,
+        "paragraph_ends": 1
+      },
+      "RF1b": {
+        "paragraph_starts": 0,
+        "paragraph_ends": 0
+      }
+    },
+    "registered_raw_group_rows": 176,
+    "account_rows": 176,
+    "account_to_input_mismatches": [],
+    "account_status_counts": {
+      "CORE_C0": 86,
+      "UNKNOWN_OR_UNSEGMENTED": 22,
+      "EXTENSION_C0": 68
+    },
+    "daiin_counts_by_reader": {
+      "IT2a": 11,
+      "ZL3b": 11,
+      "RF1b": 9
+    },
+    "adjacent_daiin_loci_by_reader": {
+      "IT2a": [
+        "f25v.5"
+      ],
+      "ZL3b": [
+        "f25v.5"
+      ],
+      "RF1b": []
+    }
+  },
+  "frequent_form_profiles": {
+    "daiin": {
+      "IT2a_count": 740,
+      "IT2a_pages": 169,
+      "edition_scope": "exact raw form; exploratory prior"
+    },
+    "chor": {
+      "IT2a_count": 196,
+      "IT2a_pages": 103,
+      "edition_scope": "exact raw form; exploratory prior"
+    },
+    "chol": {
+      "IT2a_count": 345,
+      "IT2a_pages": 127,
+      "edition_scope": "exact raw form; exploratory prior"
+    },
+    "shol": {
+      "IT2a_count": 163,
+      "IT2a_pages": 86,
+      "edition_scope": "exact raw form; exploratory prior"
+    },
+    "qokcho": {
+      "IT2a_count": 9,
+      "IT2a_pages": 8,
+      "edition_scope": "exact raw form; exploratory prior"
+    }
+  },
+  "recurrent_form_assignments": {
+    "qokcho": {
+      "occurrences": 6,
+      "assigned_values": [
+        "is called/named"
+      ]
+    },
+    "dshey": {
+      "occurrences": 6,
+      "assigned_values": [
+        "therefore"
+      ]
+    },
+    "cho": {
+      "occurrences": 6,
+      "assigned_values": [
+        "by / because of"
+      ]
+    },
+    "chor": {
+      "occurrences": 3,
+      "assigned_values": [
+        "relieves/remedies"
+      ]
+    },
+    "chol": {
+      "occurrences": 3,
+      "assigned_values": [
+        "binds/holds"
+      ]
+    },
+    "shol": {
+      "occurrences": 3,
+      "assigned_values": [
+        "grows"
+      ]
+    },
+    "qokaiin": {
+      "occurrences": 2,
+      "assigned_values": [
+        "hare"
+      ]
+    },
+    "daiity": {
+      "occurrences": 3,
+      "assigned_values": [
+        "hare-lettuce/hare-plant epithet"
+      ]
+    }
+  },
+  "semantic_coverage_assessment": {
+    "whole_account_status": "PARTIAL_LEXICAL_ACCOUNT_NO_COMPLETE_READING",
+    "lexical_bookkeeping": "PASS",
+    "shared_plant_values": "CONSISTENT_C0_ASSIGNMENT; discourse identity remains conjectural/underived",
+    "separate_functions": "PROPOSED; habitat and hair/recipient syntax not derived",
+    "prescription_recipients": "first is a tentative feverish-person guess; hair/eye recipient remains untyped/unread",
+    "naming_reason_consumer": "NOT_DERIVED: author expressly leaves cross-line hare→plant→name causal attachment underbound",
+    "paragraph_basis": "IT2a and ZL3b mark one paragraph; RF1b has no paragraph boundary flags in the registered projection, so no RF boundary agreement is inferred",
+    "high_frequency_transfer_debt": "SUPPORTED_AS_COST; registered exact-form counts establish commonness only",
+    "semantic_refutation_by_context_breadth": "NOT_ESTABLISHED_BY_REGISTERED_PROFILES; they contain distributional metadata, not independent semantic labels for these forms",
+    "meaning_truth": "NOT_ASSESSED",
+    "independent_confirmed_meanings": 0,
+    "significance": "NOT_CLAIMED"
+  },
+  "registered_wording_ambiguity": {
+    "classification": "REGISTERED_WORDING_AMBIGUITY",
+    "strict_literal_method_reading": "METHOD prohibits a named animal/plant, which conflicts with CORE C0 labels qokaiin=hare and daiity=hare-plant/epithet.",
+    "stated_nonidentity_c0_reading": "Core/account mark those as tentative whole-form C0 labels, not pictured species, taxon, or identified native owner; root states the intended method restriction concerns native-owner identification.",
+    "resolution": "NOT_SILENTLY_RESOLVED_BY_VALIDATOR",
+    "meaning_credit": 0
+  },
+  "checks": [
+    {
+      "check": "registered_input_hashes",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "All SOURCE.json input pins match current registered bytes; no outside inputs are read."
+    },
+    {
+      "check": "frozen_core_bytes_and_duplicate_receipts",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "Both freeze receipts are byte-identical and bind the current CORE files and frozen status."
+    },
+    {
+      "check": "core_freeze_precedes_author_account",
+      "passed": true,
+      "evidence_type": "byte_check_plus_receipt_chronology",
+      "detail": "Recorded author/freeze timestamps and receipt hashes put the single frozen core before the account; timestamp provenance is receipt-backed."
+    },
+    {
+      "check": "author_receipt_binds_frozen_artifacts",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "AUTHOR_RECEIPT.json binds every listed frozen core, account, method, source, and reading byte; the account is independently checked below."
+    },
+    {
+      "check": "registered_three_reader_passage_reconciles",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "The registered f25v FULL_PASSAGE sequences and TARGET_RAW group inventory agree exactly: IT2a 57, ZL3b 60, RF1b 59 (176 total)."
+    },
+    {
+      "check": "reader_paragraph_boundary_metadata_is_kept_distinct",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "Pinned FULL_PASSAGE marks one start/end for IT2a and ZL3b, while RF1b has no start/end flags in this projection. Treat RF as unscored/missing boundary evidence, not as evidence of no paragraph or of agreement: {'IT2a': {'paragraph_starts': 1, 'paragraph_ends': 1}, 'ZL3b': {'paragraph_starts': 1, 'paragraph_ends': 1}, 'RF1b': {'paragraph_starts': 0, 'paragraph_ends': 0}}."
+    },
+    {
+      "check": "account_rows_exactly_match_all_176_registered_native_groups",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "Every account row has a unique reader/locus/index and matches its registered raw spelling and both separators; alternate-reader differences are retained."
+    },
+    {
+      "check": "finite_core_and_priced_extension_references",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "Each assigned occurrence resolves to its frozen whole-form core license or separately priced extension; identical exact raw forms never receive conflicting English values. This checks bookkeeping, not whether any value is true."
+    },
+    {
+      "check": "occurrence_status_arithmetic",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "Independently counted statuses are core=86, extension=68, unknown=22; numbers must sum to all 176 rows."
+    },
+    {
+      "check": "all_daiin_occurrences_and_immediate_double_preserved",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "Exact token counts IT2a/ZL3b/RF1b={'IT2a': 11, 'ZL3b': 11, 'RF1b': 9}; adjacent double loci IT2a/ZL3b/RF1b={'IT2a': ['f25v.5'], 'ZL3b': ['f25v.5'], 'RF1b': []}. Every exact daiin keeps its frozen core value, including both members of the pair."
+    },
+    {
+      "check": "fixed_recurrent_surface_values",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "Repeated exact forms retain one assigned whole-form value; counts and assigned values: {'qokcho': {'occurrences': 6, 'assigned_values': ['is called/named']}, 'dshey': {'occurrences': 6, 'assigned_values': ['therefore']}, 'cho': {'occurrences': 6, 'assigned_values': ['by / because of']}, 'chor': {'occurrences': 3, 'assigned_values': ['relieves/remedies']}, 'chol': {'occurrences': 3, 'assigned_values': ['binds/holds']}, 'shol': {'occurrences': 3, 'assigned_values': ['grows']}, 'qokaiin': {'occurrences': 2, 'assigned_values': ['hare']}, 'daiity': {'occurrences': 3, 'assigned_values': ['hare-lettuce/hare-plant epithet']}}. Unknown alternate spellings remain separate."
+    },
+    {
+      "check": "high_frequency_costs_referenced_to_registered_profiles",
+      "passed": true,
+      "evidence_type": "independent_byte_or_row_check",
+      "detail": "The common-form risk is checked against the pinned exact-form profile, not interpreted as a grammatical or semantic result: {'daiin': {'IT2a_count': 740, 'IT2a_pages': 169, 'edition_scope': 'exact raw form; exploratory prior'}, 'chor': {'IT2a_count': 196, 'IT2a_pages': 103, 'edition_scope': 'exact raw form; exploratory prior'}, 'chol': {'IT2a_count': 345, 'IT2a_pages': 127, 'edition_scope': 'exact raw form; exploratory prior'}, 'shol': {'IT2a_count': 163, 'IT2a_pages': 86, 'edition_scope': 'exact raw form; exploratory prior'}, 'qokcho': {'IT2a_count': 9, 'IT2a_pages': 8, 'edition_scope': 'exact raw form; exploratory prior'}}."
+    },
+    {
+      "check": "base_text_and_beta_version_separation_recorded",
+      "passed": true,
+      "evidence_type": "recorded_claim_check",
+      "detail": "The author selects the CXIII base version and explicitly keeps beta eating/aestu omission separate; this checks version documentation, not historical or Voynich meaning."
+    },
+    {
+      "check": "underived_recipient_habitat_and_naming_links_reported",
+      "passed": true,
+      "evidence_type": "manual_account_scope_check",
+      "detail": "The author explicitly retains the hair-function recipient, habitat/argument bindings, and hare-to-plant-to-name attachment as underived; the proposed connected prose is not counted as a complete reading."
+    },
+    {
+      "check": "method_scope_wording_ambiguity_preserved",
+      "passed": true,
+      "evidence_type": "registered_protocol_ambiguity",
+      "detail": "The phrase and the competing literal versus nonidentity-C0 readings are reported as an ambiguity; this validation neither edits frozen METHOD nor awards semantic support."
+    }
+  ],
+  "limits": [
+    "C0 assignment and complete row accounting do not demonstrate grammar, recipient binding, a shared discourse referent, a consumed naming reason, or a correct translation.",
+    "This is one exposed physical page with alternate readings of the same manuscript; no blindness or independent confirmation is claimed.",
+    "The CML IV base and apparatus beta are separate historical variants; neither identifies a Voynich exemplar.",
+    "The frozen METHOD wording is unchanged; its named-animal/plant clause remains a recorded ambiguity, not silently overridden."
+  ]
+}

@@ -1,0 +1,7 @@
+# Registered wording ambiguity and scope decision
+
+The reviewer identified an overbroad sentence in the unchanged METHOD: “no Latin/phonetic default, named animal/plant or equivalence toHarley/Payne.” Read literally, “named animal/plant” conflicts with CORE01's expressly hypothetical hare and hare-plant values. Root wrote that sentence and owns the ambiguity; it must not be silently edited or treated as proof that the author's choices were authorized by an unambiguous contract.
+
+The user's standing instructions explicitly permit unconfirmed hypothetical meanings. METHODsteps1and5 likewise permit C0 semantic guesses and require an explicit choice of the full historical source version, whose content includes a hare naming story. Root's intended limit was against claiming a named native animal/plant identity from the image, not against naming the source-hypothesis referents. The author repeatedly labels those values tentative and denies a pictured species/taxon identification.
+
+The independent assessment therefore records both the strict literal conflict and this narrower exploratory interpretation. No original method/core/account bytes are repaired. The ambiguity cannot confer semantic support or waive the whole-construction duties. Even under the interpretation allowing the C0 names, the authored account must derive its patient/plant/naming relations; a failure there remains a failure. This scope note is subsequent to the frozen account and is not a new preregistration.
