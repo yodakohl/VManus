@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Close1134; develop cross-context composition next.
-Latest decision: Two actual mark reads; unpriced dependency; no meaning.
-Working files: gdt1134_paired_posting_reciprocal_consumers.
-Assumptions: Local C0; 28 whole meanings; exposed f105v.5–7.
-Resume: Publish1134; develop actual new-formation prediction on owned f83pair.
-Running: root closure/publication; min06:09:20UTC.
+Task: Develop shared f83pair semantic composition.
+Latest decision: 1134published; actual reads, unpriced edge, no meaning.
+Working files: GD_SEMANTIC_NEXT_BIG_PICTURE; GD_PAIRED_COMPOSITION_SOURCE.
+Assumptions: C0; owned513rows, IT169; one exposedleaf83; no old glosses.
+Resume: Author first whole; freeze formation before second derivation.
+Running: paired author active; checkpoint01:51; min06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

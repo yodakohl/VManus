@@ -80,3 +80,57 @@ That makes a clinical C0 worth considering as the content hypothesis for the pai
 No ready generator or independently selected domain was found in this source-only review. The recommendation is therefore **better candidate development with a predeclared second-context obligation**, not another sole-passage author program, missing-input audit or inevitable failed transfer. A meaningful positive would narrow the admitted semantic writing contract; it would still not confirm a first word. All earlier failure/partial/source-uncertainty decisions and zero confirmed meanings remain.
 
 This follow-up read the live route/composition topic, bounded registry/route navigation, exact1131/1132/1133 and1003/1013/1008/1009/1025/1122/1123 claim reports, the raw438/396 definitions and owned FW/FX target-preparation reports. No target packet/body query, new source/image, reserve, contact, frozen1134 file, global state or Git was opened/edited. One overly broad local dossier text search returned a truncated cached source-manifest metadata line; no image or target content was used from it. No new experiment was created.
+
+
+## Root selection: bounded paired candidate development — 2026-10-02T01:30:51.390284+00:00
+
+GDT1134 is closed and published as99c35396e6da3628423b843090898a8cee046e1e,
+verified on origin/main. Its actual mark reads do not overcome28 local whole
+assignments/30positions. Select the above f83 pair for **manual exploratory
+candidate development**, not a new transfer test, decoder or semantic ranking.
+No fresh manuscript/image access or reserve use. Exact owned FW units are
+FW_F83R_PREVIOUS and FW_F83V_PREVIOUS, all513 alternative-reader positions;
+primary authorship is the complete169-position IT pair. Other readers remain
+fully represented with literal barriers. Both bodies are project-exposed, on
+one physical leaf83. Source-native flags and fixed605/012 views stay unchanged.
+
+Unknown: can one small finite semantic construction, developed on whole first
+IT passage, actually determine the new okaiin formation and the same CHEDY
+argument duty on the whole second passage without buying new semantic whole
+aliases? Formal608 licenses are positive structure, not already morphology.
+Strongest counters are1003/1013 free aliases;1122/1123 partial paid prefixes;
+753/754 circular analyst compounds and787 failed unrestricted suffix transfer.
+All are preserved; no HOT/COLD/loan/old reference gloss is inherited.
+
+Smallest task: one author develops one finite candidate from complete f83r.1–8,
+with component signatures, exact pair residuals, entry/reference rules and
+CHEDY semantics. Freeze those before deriving full f83v.11–20. Its known
+qokaiin→chedy .16G007–008 and okaiin→chedy .18G005–006 are disclosed selection
+information, not blinded targets. First-pass inventory must prospectively
+specify OK/QOK/aN and the result fields of second-only okaiin. The rest of the
+second passage must follow the same rules; new opaque nouns are allowed only
+under a previously frozen, genuinely constrained typed naming production.
+Unknown controls cannot be converted to names, redundant certificates or
+whole-episode payloads. If no such productive mapping can be authored, retain
+the exact compositional gap and do not execute a predictable UNKNOWN-only
+transfer. No solver, validator campaign or additional data follows that outcome.
+
+Clinical438/396 is a source-supported content option, not a required donor or
+second-paragraph copy. The complete historical source and its ambiguity are
+already read. Any chosen specific symptoms, query/time/patient meanings are
+new C0 assumptions; history-dependent prognosis and question-specification
+versus fresh answer must remain distinct if used. A nonclinical comparator
+can preserve the same relation graph; coherence cannot identify medicine.
+
+A complete two-context derivation with an actually new composed formation
+licenses a separately registered consequence check; a partial first model or
+payload-bearing second exception does not. If both bodies are used to invent
+the model, label joint fitting explicitly and make no first-to-second prediction
+claim. Lack of English anchors does not prohibit authorship; lack of a
+prospective compositional consequence prohibits calling this transfer success.
+
+Inclusive budget35minutes:3preparation,20author,7review,5publication. Start
+2026-10-02T01:30:51.390284+00:00; checkpoint2026-10-02T02:05:51.390284+00:00.
+At checkpoint stop expansion, preserve the actual candidate and finish review.
+Root owns decision/publication. No new experiment is selected by this note;
+this is bounded development within the existing proposal.
