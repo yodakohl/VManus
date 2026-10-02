@@ -3,13 +3,13 @@ Updated: 2026-10-02. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: Shared lexical construction remains unresolved.
-Latest decision: 869 STIR deprioritized;4/7 values changed versus1119.
-Working files: GD_DAL_SUCCESSOR_COMPARISON_20261002.md/json.
-Assumptions: QOKAIN unassigned in869; no inferred clause or stirring history.
-Resume: Read IDEA414 composition audit before any qok/che writer proposal.
-Running: None; minimum06:09:20UTC remains unfulfilled.
+Status: active
+Task: Publish constructions; select a discriminator.
+Latest decision: E/S incomplete; condition does not select diagnosis.
+Working files: GD_SHARED_CONSTRUCTION_RESULT_20261002.md; GD_F85_SHARED_PATIENT_RESULT_20261002.md.
+Assumptions: C0; whole units; no new target access.
+Resume: Review method provenance and raw ideas; no prefix repair.
+Running: producer+reader;10h block03:52:40–13:52:40UTC Oct2.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

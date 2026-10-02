@@ -1,3 +1,25 @@
+## 2026-10-02 Explicit constructions: conditional computation is not meaning selection
+
+The existing ES witness reading now has seven executable part reductions and
+its manual17-position bindings independently replay. All four exact frozen
+EY/EDY pairs are retained; drug-stock/purification and rest/mouth stay outside
+that narrow kernel. No new prediction or word value results.
+[Result](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_SHARED_CONSTRUCTION_RESULT_20261002.md).
+
+IDEA533's E27/S26 patient attempt preserves all159 positions but stops with
+13 conditional reductions, five type gaps, one unknown and140 unconsumed.
+The fcheey tree adds an e. Later consumers require condition, not observation
+evidence; broader administration/instruction rivals survive. No actual E/S
+patient return or complete reading. Keep the honest partial construction;
+do not automatically extend another supplied-input prefix program.
+[Result](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_F85_SHARED_PATIENT_RESULT_20261002.md).
+
+Three new Edinburgh metadata providers yielded no exact121v image. No new
+target access, reserve or confirmed meaning. Next: bounded external-method
+provenance and diverse raw proposal review before selecting one changed
+research question; no automatic new decoder or baseline-statistics rerun.
+The current user block began03:52:40UTC; minimum13:52:40UTC is still unmet.
+
 ## 2026-10-02 IDEA869 successor comparison: STIR not prioritized
 
 The actual1118/1119/ET successor reports do not supply a separating written

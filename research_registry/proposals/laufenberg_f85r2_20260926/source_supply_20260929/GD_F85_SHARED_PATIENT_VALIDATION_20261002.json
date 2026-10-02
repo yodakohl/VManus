@@ -1,0 +1,472 @@
+{
+  "status": "INDEPENDENT_REVIEW_COMPLETE_PARTIAL_CONSTRUCTION_WITH_REAL_LITERAL_FINDINGS",
+  "created_utc": "2026-10-02T04:34:26.416092+00:00",
+  "frozen_expectations_sha256": "2d026cbea3a19425d29582423e0823ce190e76bbd18fb9e2925a95cc0215df46",
+  "author_freeze_utc": "2026-10-02T04:24:19.284580+00:00",
+  "author_pins": {
+    "json": "45aa3f64eb0b49e92767e723935e9a39730254a2dd0db687e17f6c7867e1d0f0",
+    "py": "d370d547590df69bd45e3fe4c889bc5f0dc6d887451bf68c10dded404fbb0e03",
+    "md": "c4900a54ac2fa6554514d52736536322a383f454c0d4e9c188a51f07f85cb687"
+  },
+  "checks": [
+    {
+      "name": "author_pins",
+      "status": "PASS",
+      "detail": {
+        "json": "45aa3f64eb0b49e92767e723935e9a39730254a2dd0db687e17f6c7867e1d0f0",
+        "py": "d370d547590df69bd45e3fe4c889bc5f0dc6d887451bf68c10dded404fbb0e03",
+        "md": "c4900a54ac2fa6554514d52736536322a383f454c0d4e9c188a51f07f85cb687"
+      }
+    },
+    {
+      "name": "input_pins",
+      "status": "PASS",
+      "detail": {
+        "native_sha256": "e50307f834b04ff2ce17a97f14fd2c7b3f24b4818bc7fda3f57c372afc6b9d3c",
+        "guarded_sha256": "489c3960116c88f76de39187eef3d2f9d3dd68d3c2e514f54abe7a2294d185e9",
+        "decision_sha256": "db77132787ba6c98cb70e7aa29eac5932d0db0ca076f5167a83c26b72d8f11c9"
+      }
+    },
+    {
+      "name": "exact_guarded_rows",
+      "status": "PASS",
+      "detail": {
+        "rows": 159,
+        "columns": [
+          "source_group_id",
+          "edition",
+          "locus",
+          "page",
+          "source_group_index",
+          "source_group_count",
+          "paragraph_start",
+          "paragraph_end",
+          "left_separator",
+          "right_separator",
+          "ivtff_group_raw"
+        ],
+        "query_receipt": "GUARD_STATS {\"selected\": 159, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 314}"
+      }
+    },
+    {
+      "name": "native_IDs_and_shared_fields",
+      "status": "PASS",
+      "detail": {
+        "native_rows": 159,
+        "author_rows": 159,
+        "unique_native_IDs": 159,
+        "unique_author_IDs": 159,
+        "conserved_native_fields": [
+          "edition",
+          "ivtff_group_raw",
+          "left_separator",
+          "locus",
+          "paragraph_end",
+          "paragraph_start",
+          "right_separator",
+          "source_group_count",
+          "source_group_id",
+          "source_group_index"
+        ]
+      }
+    },
+    {
+      "name": "all_native_fields_literal_copy",
+      "status": "FAIL",
+      "detail": {
+        "omitted_original_fields": [
+          "block",
+          "within_line_position"
+        ],
+        "added_field": "page",
+        "omitted_fields_exactly_reconstructable": false,
+        "qualification": "No raw-group/separator/paragraph information lost; literal copy of all 12 bound native fields not satisfied."
+      }
+    },
+    {
+      "name": "six_block_replay",
+      "status": "PASS",
+      "detail": [
+        {
+          "reader": "IT2a",
+          "block": "E",
+          "rows": 27,
+          "replay_exact": true,
+          "first_gap": "IT2a|f85r2.7|G005",
+          "status_counts": {
+            "CONDITIONAL_REDUCED": 4,
+            "CONDITIONAL_CONSTRUCTION_GAP": 1,
+            "UNCONSUMED_REMAINDER": 22
+          },
+          "barrier": "TYPE_GAP:diagnose:requires:Specimen:received:Person"
+        },
+        {
+          "reader": "IT2a",
+          "block": "S",
+          "rows": 26,
+          "replay_exact": true,
+          "first_gap": "IT2a|f85r2.12|G002",
+          "status_counts": {
+            "CONDITIONAL_REDUCED": 1,
+            "CONDITIONAL_CONSTRUCTION_GAP": 1,
+            "UNCONSUMED_REMAINDER": 24
+          },
+          "barrier": "TYPE_GAP:specimen:requires:Person:received:Description"
+        },
+        {
+          "reader": "ZL3b",
+          "block": "E",
+          "rows": 27,
+          "replay_exact": true,
+          "first_gap": "ZL3b|f85r2.7|G005",
+          "status_counts": {
+            "CONDITIONAL_REDUCED": 4,
+            "CONDITIONAL_CONSTRUCTION_GAP": 1,
+            "UNCONSUMED_REMAINDER": 22
+          },
+          "barrier": "TYPE_GAP:diagnose:requires:Specimen:received:Person"
+        },
+        {
+          "reader": "ZL3b",
+          "block": "S",
+          "rows": 26,
+          "replay_exact": true,
+          "first_gap": "ZL3b|f85r2.12|G002",
+          "status_counts": {
+            "CONDITIONAL_REDUCED": 1,
+            "CONDITIONAL_CONSTRUCTION_GAP": 1,
+            "UNCONSUMED_REMAINDER": 24
+          },
+          "barrier": "TYPE_GAP:specimen:requires:Person:received:Description"
+        },
+        {
+          "reader": "RF1b",
+          "block": "E",
+          "rows": 27,
+          "replay_exact": true,
+          "first_gap": "RF1b|f85r2.7|G003",
+          "status_counts": {
+            "CONDITIONAL_REDUCED": 2,
+            "UNKNOWN_PART_CONSTRUCTION": 1,
+            "UNCONSUMED_REMAINDER": 24
+          },
+          "barrier": "RF1b|f85r2.7|G003"
+        },
+        {
+          "reader": "RF1b",
+          "block": "S",
+          "rows": 26,
+          "replay_exact": true,
+          "first_gap": "RF1b|f85r2.12|G002",
+          "status_counts": {
+            "CONDITIONAL_REDUCED": 1,
+            "CONDITIONAL_CONSTRUCTION_GAP": 1,
+            "UNCONSUMED_REMAINDER": 24
+          },
+          "barrier": "TYPE_GAP:specimen:requires:Person:received:Description"
+        }
+      ]
+    },
+    {
+      "name": "account_rows_preserved",
+      "status": "PASS",
+      "detail": {
+        "rows": 159,
+        "counts": {
+          "CONDITIONAL_REDUCED": 13,
+          "CONDITIONAL_CONSTRUCTION_GAP": 5,
+          "UNCONSUMED_REMAINDER": 140,
+          "UNKNOWN_PART_CONSTRUCTION": 1
+        }
+      }
+    },
+    {
+      "name": "literal_part_trees",
+      "status": "FAIL",
+      "detail": {
+        "declared_trees": 9,
+        "mismatches": [
+          {
+            "whole": "fcheey",
+            "parts": [
+              "f",
+              "che",
+              "ee",
+              "y"
+            ],
+            "concatenated": "fcheeey"
+          }
+        ]
+      }
+    },
+    {
+      "name": "frozen_inventory_and_trees",
+      "status": "PASS",
+      "detail": {
+        "functions": 11,
+        "part_spellings": 17,
+        "aliases": 6
+      }
+    },
+    {
+      "name": "actual_part_return_condition_dependency",
+      "status": "PASS",
+      "detail": "olkey/qokedy consume retained ee part return. The enclosing Assertion whole-word return is not the selected supplier; author discloses this."
+    },
+    {
+      "name": "strict_observation_specific_consumer",
+      "status": "NOT_ESTABLISHED",
+      "detail": {
+        "specimen_and_evidence_actual_field_requirement": false,
+        "richer_administration_and_instruction_pass": true,
+        "declared_read_condition_action_overstates_field_reads": [
+          "specimen",
+          "evidence"
+        ],
+        "mode_is_copied_not_validated": true
+      }
+    },
+    {
+      "name": "cross_block_shared_patient_return",
+      "status": "NOT_ESTABLISHED",
+      "detail": "E and S are evaluated separately, with fresh state and supplied world. AIIN and OTEEY are not executed in any full block. Default equal Person is an external assumption, not written E-to-S data flow."
+    },
+    {
+      "name": "declared_numeric_costs",
+      "status": "PASS",
+      "detail": {
+        "calculated": {
+          "function_families": 11,
+          "part_spellings": 17,
+          "extra_alias_spellings": 6,
+          "exact_development_trees": 9,
+          "background_world_facts": 7
+        },
+        "successful_function_families": 10,
+        "successful_function_step_counts": {
+          "frame": 8,
+          "subject": 8,
+          "specimen": 3,
+          "diagnose": 3,
+          "assert": 8,
+          "reference": 10,
+          "owner_reference": 5,
+          "read_condition": 5,
+          "owner": 2,
+          "support": 5
+        },
+        "declared_reference_defaults": 2,
+        "declared_diagnose_operations": 2,
+        "limits": "Seven world-fact bullets are disclosures, not an objective total of semantic atoms. Zero whole-clause macros verified by bounded code inspection, not automatic semantic count."
+      }
+    },
+    {
+      "name": "honest_partial_ceiling",
+      "status": "PASS",
+      "detail": "Partial prefixes, unconsumed remainders, distinct type and unknown gaps, source analogues, wider rivals and zero confirmation are explicit."
+    },
+    {
+      "name": "author_unchanged_after_review",
+      "status": "PASS",
+      "detail": {
+        "json": "45aa3f64eb0b49e92767e723935e9a39730254a2dd0db687e17f6c7867e1d0f0",
+        "py": "d370d547590df69bd45e3fe4c889bc5f0dc6d887451bf68c10dded404fbb0e03",
+        "md": "c4900a54ac2fa6554514d52736536322a383f454c0d4e9c188a51f07f85cb687"
+      }
+    }
+  ],
+  "criteria": [
+    {
+      "id": "literal_scope",
+      "status": "PARTIAL_PASS_METADATA_OMISSION",
+      "finding": "All 159 IDs and ten overlapping native fields exact; block/within_line_position absent but exactly reconstructable."
+    },
+    {
+      "id": "receipts",
+      "status": "PASS",
+      "finding": "All three release pins, decision/source and constructor identity verified; author files unchanged."
+    },
+    {
+      "id": "complete_reduction",
+      "status": "PARTIAL_NOT_COMPLETE",
+      "finding": "13 conditional reductions, five typed gaps, one unknown construction, 140 unconsumed rows; no complete E/S reading."
+    },
+    {
+      "id": "parts",
+      "status": "PARTIAL_WITH_LITERAL_TREE_FAILURE",
+      "finding": "Computed typed parts exist for prefix; fcheey declared tree adds an e. Most whole groups lack reductions."
+    },
+    {
+      "id": "reused_functions",
+      "status": "PASS_FOR_EXECUTED_FRAGMENT",
+      "finding": "Functions operate unchanged on actual values; ten families successfully executed, retained_person unused. Nine whole-to-tree choices remain local parsing assumptions."
+    },
+    {
+      "id": "no_macro_payloads",
+      "status": "PASS_FOR_DECLARED_FRAGMENT",
+      "finding": "No arbitrary source-clause whole payload found. Diagnosis bundles two expressly disclosed primitive operations and supplied inference content."
+    },
+    {
+      "id": "no_fresh_carrier",
+      "status": "PASS_WITH_EXTERNAL_WORLD",
+      "finding": "No per-spelling carriers; seven supplied world assumptions donate participants/content outside writing. Not a manuscript-owned source construction."
+    },
+    {
+      "id": "producer_to_consumer",
+      "status": "PARTIAL_PASS",
+      "finding": "Eastern condition reads depend on actual ee part return. Support Description is nonterminal, full-word Assertion supplier not used, and cross-block edge absent."
+    },
+    {
+      "id": "ownership",
+      "status": "PARTIAL_PASS_LIMITED",
+      "finding": "Specimen selection and diagnosis preserve actual owner/observer in baseline; no E/S binding. Injected stale/changed Description patient can pass later k/e without specimen-owner revalidation."
+    },
+    {
+      "id": "diagnosis_administration",
+      "status": "NOT_DISTINGUISHED_FROM_WIDER_RIVALS",
+      "finding": "Strict fixtures lack condition and fail; richer administration/instruction with a condition and no observation pass. Consumer copies mode and reads condition, not observation evidence."
+    },
+    {
+      "id": "status_truth",
+      "status": "PASS",
+      "finding": "Type mismatch at fcheey/shedor and RF unknown are construction-local; remainder does not resume or claim conclusions."
+    },
+    {
+      "id": "alternates",
+      "status": "PASS",
+      "finding": "All readers replayed; RF earlier unknown retained. No normalization or independent corroboration."
+    },
+    {
+      "id": "choice_accounting",
+      "status": "PASS_DECLARED_COUNTS_WITH_LIMITS",
+      "finding": "11 families, 17 spellings, six aliases, nine trees, seven world bullets, two diagnose operations and two reference defaults; total semantic atom count not independently measurable."
+    },
+    {
+      "id": "priors_and_scope",
+      "status": "PASS_DISCLOSURES_TIMING_UNVERIFIED",
+      "finding": "Cached frequency metadata present for 13 forms. Inspection-before-preference chronology cannot be independently established; sources remain analogues and N/W unread."
+    },
+    {
+      "id": "ceiling",
+      "status": "PASS",
+      "finding": "Honest conditional fragment; no complete reading, confirmed meaning, significance, or independent confirmation."
+    }
+  ],
+  "post_release_diagnostic_probes": [
+    {
+      "name": "observed_sign_True_olkey",
+      "status": "CONDITIONAL_REDUCED",
+      "barrier": null,
+      "condition": true,
+      "mode": "DIAGNOSTIC",
+      "patient": "P",
+      "detail": null
+    },
+    {
+      "name": "observed_sign_True_qokedy",
+      "status": "CONDITIONAL_REDUCED",
+      "barrier": null,
+      "condition": true,
+      "mode": "DIAGNOSTIC",
+      "patient": "P",
+      "detail": null
+    },
+    {
+      "name": "observed_sign_False_olkey",
+      "status": "CONDITIONAL_REDUCED",
+      "barrier": null,
+      "condition": false,
+      "mode": "DIAGNOSTIC",
+      "patient": "P",
+      "detail": null
+    },
+    {
+      "name": "observed_sign_False_qokedy",
+      "status": "CONDITIONAL_REDUCED",
+      "barrier": null,
+      "condition": false,
+      "mode": "DIAGNOSTIC",
+      "patient": "P",
+      "detail": null
+    },
+    {
+      "name": "mutate_actual_part_return_condition_only",
+      "status": "CONDITIONAL_REDUCED",
+      "barrier": null,
+      "condition": false,
+      "mode": "DIAGNOSTIC",
+      "patient": "P",
+      "detail": "World observation/rule remains true; later output follows the changed returned Description."
+    },
+    {
+      "name": "remove_returned_specimen_and_observation",
+      "status": "CONDITIONAL_REDUCED",
+      "barrier": null,
+      "condition": true,
+      "mode": "DIAGNOSTIC",
+      "patient": "P",
+      "detail": "Post-release diagnostic: evidence fields are not required by read_condition."
+    },
+    {
+      "name": "remove_actual_return_condition",
+      "status": "CONDITIONAL_CONSTRUCTION_GAP",
+      "barrier": "MISSING_ACTUAL_CONDITION_FIELD",
+      "condition": null,
+      "mode": null,
+      "patient": null,
+      "detail": null
+    },
+    {
+      "name": "richer_ADMINISTRATION_condition_without_observation",
+      "status": "CONDITIONAL_REDUCED",
+      "barrier": null,
+      "condition": false,
+      "mode": "ADMINISTRATION",
+      "patient": "R",
+      "detail": "Paid alternative field, no specimen/observation: passes the same condition reader."
+    },
+    {
+      "name": "richer_INSTRUCTION_condition_without_observation",
+      "status": "CONDITIONAL_REDUCED",
+      "barrier": null,
+      "condition": false,
+      "mode": "INSTRUCTION",
+      "patient": "R",
+      "detail": "Paid alternative field, no specimen/observation: passes the same condition reader."
+    },
+    {
+      "name": "post_release_replace_description_patient_with_examiner",
+      "status": "CONDITIONAL_REDUCED",
+      "barrier": null,
+      "condition": true,
+      "mode": "DIAGNOSTIC",
+      "patient": "X",
+      "detail": "Diagnostic injected inconsistent payload: specimen.owner remains P; k/e accept X because they compare the newly projected reference with the same Description field, not with specimen.owner."
+    },
+    {
+      "name": "wrong_owner_before_specimen_selection",
+      "status": "CONDITIONAL_CONSTRUCTION_GAP",
+      "barrier": "NO_UNIQUE_ACTUAL_OWNED_SPECIMEN",
+      "condition": null,
+      "mode": null,
+      "patient": null,
+      "detail": null
+    },
+    {
+      "name": "wrong_observer_before_diagnosis",
+      "status": "CONDITIONAL_CONSTRUCTION_GAP",
+      "barrier": "NO_ACTUAL_OBSERVATION",
+      "condition": null,
+      "mode": null,
+      "patient": null,
+      "detail": null
+    }
+  ],
+  "scientific_decision": "Requested complete shared E/S construction not achieved. Preserve computed conditional prefix and genuine proposed-program gaps. Two literal metadata/tree findings do not imply manuscript contradiction. No meaning validation.",
+  "manual_limits": [
+    "Word/part meanings and source-to-target identity are C0 assumptions.",
+    "No images, additional target/source acquisition, reserves or new control corpus.",
+    "All sensitivity cases beyond the author five examples are labelled post-release diagnostics, not preregistered whole-world contradictions.",
+    "No author repair; only own validation artifacts written."
+  ]
+}
