@@ -8,8 +8,8 @@ Task: GDT1137 shared product types and earlier return.
 Latest decision: Fresh constrained P4 account; no inherited meanings.
 Working files: gdt1137_material_process_type_return/METHOD.md.
 Assumptions: Local part grammar; exposed97groups; no label/reserve use.
-Resume: Acknowledge1137 core; review1138 contract before author.
-Running: 1137author;1138strict_an_galen_transfer prep;10h ends13:52:40UTC.
+Resume: Review frozen1137 account; release1138 after registration push.
+Running: 1137two reviewers;1138registration;10h ends13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

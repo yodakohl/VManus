@@ -1,0 +1,10 @@
+# Independent GDT1138 validation
+
+Coordinator validates after author freezes, never authors/repairs its candidate. Author replay must not overwrite frozen files. Root reviews whole semantic truth separately.
+
+1. Compare exact49ZL/51IT groups/IDs/flags/offsets with owned parent projection. Preserve RF no-complete status and missing separators. Full34 entry objects equal parent minus aiin/daiin; old WATER/BECAUSE do not survive as aliases. Pin C operators/implementation.
+2. Core receipt precedes SOURCE access/full authorship; final receipt precedes intervention. Inspect real shared computation, typed projections/entry rules and costs. Reject expected-output table bypass, locus/source-ID semantic dispatch, free chain aliases, hidden casts or post-core added functions. Give exact offending rule/position.
+3. Verify all49 contributions or barriers, IT51 raw alternatives and retained remainder. Require actual producer→immutable record→later consumer for both aiin and daiin. Shape/count checks alone are not meaning tests.
+4. Intervene at actual returned-record/dependency boundary with unchanged consumer code and fixed external roles. Delete donor; swap admissible water-role content W0/W1; substitute food/water with appropriate stable role/type to expose actual content sensitivity; remove/change quotation/prohibition dependency. Dereference stored IDs if needed; do not mutate unused annotations. If no meaningful hook exists, record limitation rather than invent a PASS.
+5. Compare exact returned predicates/barriers and source duty. At least one water/food plus one quoted-prohibition consequence must actually depend on retained information for full transfer. Preserve generic-reference rivals. No whole-name permutation, new medical fixture corpus or old228fixture rerun.
+6. Root checks source fidelity, B16, norm/execution, lexical literalness and complete consistency/readability. Engineering PASS separate. Freeze failures/unknown remainder; no repairs. Parent owns09:48 checkpoint/publication.

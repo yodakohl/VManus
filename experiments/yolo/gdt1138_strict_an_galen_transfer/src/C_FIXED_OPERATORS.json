@@ -1,0 +1,42 @@
+{
+  "schema": "gdt1138-fixed-c-operators-v1",
+  "parent_path": "experiments/yolo/gdt1131_opposed_wind_survivor_succession/src/C_CONSTRUCTORS.json",
+  "parent_sha256": "57a414d0062ed83b97560bcbf93f62629dc4ce415e20bd8abe5c1062f39d06c8",
+  "families": [
+    {
+      "id": "aN",
+      "signature": "NonemptyDescriptionRecord -> BoundDescriptionRef",
+      "effect": "Allocate a new retained description reference containing exact record; publish to discourse reference buffer. Consumer must use this retained content; not truth assertion or mere record copy without consumer."
+    },
+    {
+      "id": "d",
+      "signature": "CompletedDescriptionRecord -> NonemptyDescriptionRecord",
+      "effect": "Collate latest completed descriptive contribution with its dependency closure; replaces focus with that closed argument record before aN. No physical identity cast."
+    }
+  ],
+  "initial_exact_entries": {
+    "aiin": {
+      "families": [
+        "aN"
+      ],
+      "payload": "current nonempty focus description"
+    },
+    "daiin": {
+      "families": [
+        "d",
+        "aN"
+      ],
+      "payload": "latest completed description plus dependency closure; high-frequency general reference operation"
+    }
+  },
+  "initial_premises": [
+    "Current focus and latest completed-description buffers have general stack semantics; actual producer and consumer IDs will be recorded, never used as semantic lookup keys.",
+    "aN retains nonempty description; d collates latest completed contribution and dependency closure. No identity/time/cause is supplied by these record operations."
+  ],
+  "implementation_receipt": {
+    "path": "experiments/yolo/gdt1131_opposed_wind_survivor_succession/src/C_MATERIALIZE.py",
+    "sha256": "6a230fe530971e0e3b2dff5a645e53bfac8d76d61fcdb966e72bb873f3883507"
+  },
+  "known_all_whole_barrier_not_selected": "C oteey solar/wind formula is not transferred. Medical oteey remains the frozen old BOILED_FOOD value; other exact whole/domain meanings separate.",
+  "scope": "Exact bare aiin/daiin plus their aN/d operations only; no universal substring/host rule"
+}
