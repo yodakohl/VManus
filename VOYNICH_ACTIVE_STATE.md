@@ -1,3 +1,22 @@
+## 2026-10-02 Next complete construction: a shared motion grade
+
+Selected one bounded exploratory continuation: preserve ES59/kernel and ET's
+three instrumental forms, then derive QOKEDY pulsed flow from the same grade
+map in complete f83P4. QOKEY is the pulse-capability form; QOKY is different.
+PULSE must compute two positive intervals separated by zero flow, not merely
+carry metadata. Both full-phase bindings and all new meanings remain C0.
+[Decision](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_MOTION_SHARED_GRADE_DECISION_20261002.md).
+Native source counts are ZL33/IT32/RF32; the older P12 report33 is separate.
+A complete report display alone is not a complete native reading. Frozen
+review criteria precede author release; inclusive checkpoint05:59UTC.
+
+QOKEDY already has246IT occurrences: the proposed sense must be a frequent
+general concept. Counts neither select nor refute it. Newly located physical-gap
+archive is only a method-review resource; no target data were acquired. Existing
+FT accounts consume graphic bridges but do not compute opposing ink predictions.
+A possible future diagram-description constructor remains unselected. No new
+confirmed meaning or reserved access; user minimum13:52:40UTC still unmet.
+
 ## 2026-10-02 Explicit constructions: conditional computation is not meaning selection
 
 The existing ES witness reading now has seven executable part reductions and
