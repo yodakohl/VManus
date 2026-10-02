@@ -1,0 +1,237 @@
+{
+  "status": "POST_RELEASE_BOUND_REVIEW_COMPUTED_MOTION_WITH_REGISTER_RETURN_BYPASS_AND_DOSE_DISTINCTNESS_LIMIT",
+  "diagnostics": [
+    {
+      "id": "CONDUIT_RETURN_ONLY",
+      "changed_donor_outputs": [
+        "IT2a|f83r.25|G002"
+      ],
+      "target_consumer": "IT2a|f83r.26|G001",
+      "consumer_return_unchanged": true,
+      "consumer_context_unchanged": true,
+      "mapping": {
+        "C": "C_CHANGED"
+      },
+      "scope": "POST_RELEASE_RETURN_PAYLOAD_DIAGNOSTIC_NOT_WORLD_OR_MEANING_TEST"
+    },
+    {
+      "id": "INTENTION_RETURN_ONLY",
+      "changed_donor_outputs": [
+        "IT2a|f83r.26|G003"
+      ],
+      "target_consumer": "IT2a|f83r.26|G006",
+      "consumer_return_unchanged": true,
+      "consumer_context_unchanged": true,
+      "mapping": {
+        "P2": "P_CHANGED"
+      },
+      "scope": "POST_RELEASE_RETURN_PAYLOAD_DIAGNOSTIC_NOT_WORLD_OR_MEANING_TEST"
+    },
+    {
+      "id": "GOAL_RETURN_ONLY",
+      "changed_donor_outputs": [
+        "IT2a|f83r.26|G004"
+      ],
+      "target_consumer": "IT2a|f83r.26|G006",
+      "consumer_return_unchanged": true,
+      "consumer_context_unchanged": true,
+      "mapping": {
+        "O": "O_CHANGED"
+      },
+      "scope": "POST_RELEASE_RETURN_PAYLOAD_DIAGNOSTIC_NOT_WORLD_OR_MEANING_TEST"
+    },
+    {
+      "id": "REMAINDER_RETURN_ONLY",
+      "changed_donor_outputs": [
+        "IT2a|f83r.30|G004"
+      ],
+      "target_consumer": "IT2a|f83r.30|G002",
+      "consumer_return_unchanged": true,
+      "consumer_context_unchanged": true,
+      "mapping": {
+        "R": "R_CHANGED"
+      },
+      "scope": "POST_RELEASE_RETURN_PAYLOAD_DIAGNOSTIC_NOT_WORLD_OR_MEANING_TEST"
+    },
+    {
+      "id": "LAST_SERIES_EVENT_RETURN_ONLY",
+      "changed_donor_outputs": [
+        "IT2a|f83r.27|G005"
+      ],
+      "target_consumer": "IT2a|f83r.28|G001",
+      "consumer_return_unchanged": true,
+      "consumer_context_unchanged": true,
+      "mapping": {
+        "E3c": "E_CHANGED",
+        "I3c": "I_CHANGED"
+      },
+      "scope": "POST_RELEASE_RETURN_PAYLOAD_DIAGNOSTIC_NOT_WORLD_OR_MEANING_TEST"
+    }
+  ],
+  "baseline_replay_all_four": true,
+  "distinctness_predicate_present": false,
+  "actual_native_positions": 97,
+  "native_IT_rows": 32,
+  "report_P12_rows": 33,
+  "predicate_inventory": [
+    "ACTUAL",
+    "AT_EVENT",
+    "AT_MATERIAL",
+    "AT_REFERENT",
+    "BEFORE_PHASE",
+    "CAPABLE",
+    "CAREFUL",
+    "CLEAR",
+    "COMPLETED",
+    "CONDUIT",
+    "CURRENT_CASE_MATERIAL",
+    "DISPENSE",
+    "DOSE",
+    "END_NOT_AFTER_START",
+    "FINAL_CASE_PHASE",
+    "FLOW",
+    "FULFILLS",
+    "FULL_PHASE",
+    "GOAL",
+    "GOAL_SATISFIED",
+    "HERE",
+    "INTENDED",
+    "INTERNAL_OBJECT",
+    "LIQUID",
+    "MATERIAL",
+    "MEMBER_EVENT",
+    "MOIST_PREPARATION",
+    "MOVE_IMPLIES_FLOW_MOTION",
+    "MOVING",
+    "NONEMPTY_SUBINTERVAL",
+    "ORDERED_SERIES",
+    "OUTLET",
+    "PORTION_OF",
+    "POSITIVE_FLOW_THROUGHOUT",
+    "PURE",
+    "REMAINDER_OF",
+    "RETURN_FLOW",
+    "RETURN_GOAL",
+    "SAME_MATERIAL",
+    "SAME_TIME",
+    "SUBSEQUENT",
+    "THROUGH",
+    "TOPIC",
+    "ZERO_FLOW_THROUGHOUT"
+  ],
+  "freeze_rule": "Author files unchanged; no run() called; imported function diagnostics are post-release only.",
+  "baseline_replay": {
+    "native_IT_G": true,
+    "native_IT_I": true,
+    "report_P12_G": true,
+    "report_P12_I": true
+  },
+  "raw_python_comparison_note": "The initial direct Python comparison differed only because ordered_series_actual_members contains tuples in memory and lists in JSON. Serialized replay matches all frozen account fields.",
+  "shared_pattern_return_diagnostic": {
+    "scope": "POST_RELEASE_OPERATOR_SENSITIVITY_NOT_MEANING_EVIDENCE",
+    "changed_only": "pattern(0) calls original pattern(2); no donor/register change",
+    "written_sites": [
+      "IT2a|f83r.25|G004",
+      "IT2a|f83r.28|G004"
+    ],
+    "both_return_continuous": true
+  },
+  "native_preservation": {
+    "conserved_objects": 97,
+    "edition_counts": {
+      "ZL3b": 33,
+      "IT2a": 32,
+      "RF1b": 32
+    },
+    "all_source_fields_equal_to_frozen_owned_contexts": true,
+    "scope": "Only frozen author JSON; no source packet reopened"
+  },
+  "review_started_utc": "2026-10-02T05:34:05+00:00",
+  "review_completed_utc": "2026-10-02T05:43:00.303893+00:00",
+  "author_sha256": {
+    ".py": "d13016c532ad28652e9fe8944e01343a4dbf520f1bc931228da793218c623c9c",
+    ".json": "1fa29aa7612a05143fcafad06da58b19e921854d211b1308f3343acdf8462f3b",
+    ".md": "3068e8cb671648f563ea404ed12cd2a274527264aff2491e9489bdb88a2d6f22"
+  },
+  "findings": [
+    {
+      "id": "MOTION_FIELD_COMPUTED",
+      "classification": "positive_conditional_construction",
+      "sites": [
+        "IT2a|f83r.25|G004",
+        "IT2a|f83r.28|G004"
+      ],
+      "lines": [
+        12,
+        31,
+        142,
+        143
+      ],
+      "claim": "Both exact QOKEDY actual conditions use shared pattern return; QOKEY/QOKY remain separate."
+    },
+    {
+      "id": "REGISTER_VS_LITERAL_RETURN",
+      "classification": "implementation_lineage_limit_not_baseline_contradiction",
+      "lines": [
+        190,
+        191,
+        195,
+        198,
+        203,
+        212,
+        214,
+        216,
+        217
+      ],
+      "claim": "Reference/intention/material state generated from raw-token triggers and context independently of compiled outputs. Later functions read that state. Both channels align extensionally on baseline."
+    },
+    {
+      "id": "LIVE_INTENTION_FIELDS",
+      "classification": "positive_register_dependency_with_dead_pattern_field",
+      "lines": [
+        109,
+        115,
+        118
+      ],
+      "claim": "link checks root/patient and fulfill consumes root/patient/plan/goal; stored pattern UNMARKED is not read, because fulfillment uses literal grade1. Equal under current fixed frame, unproved for changed patterns."
+    },
+    {
+      "id": "DOSE_IDENTITY_UNDERCONSTRAINED",
+      "classification": "logical_prose_overclaim",
+      "lines": [
+        122,
+        200,
+        202,
+        250,
+        252
+      ],
+      "claim": "D1/D2 exported as distinct variable spellings but no inequality or declared unique-name axiom; same dose can satisfy both. Two dispensing mentions/ordered phases are supported, distinct physical doses are not forced."
+    },
+    {
+      "id": "COMPLETE_AST_NOT_TRUTH_EVALUATION",
+      "classification": "claim_bound",
+      "lines": [
+        240,
+        242,
+        243,
+        257
+      ],
+      "claim": "All32 native and33 report AST contributions collected; generic later_consumption annotation is no edge certificate. COMPLETE_C0 checks assignment and patient-port resolution, not truth or satisfiability."
+    }
+  ],
+  "cost_assessment": {
+    "new_primitive_frames": 22,
+    "exact_non_motion_assemblies": 18,
+    "motion_cases": 3,
+    "manual_clause_frames": 6,
+    "disclosed_binding_scope_entries": 11,
+    "hidden_whole_clause_bundle_detected": false,
+    "qualification": "Raw branches hand-assemble paid lexical/frame meanings; no independent general parser. Identity and phase maps supplied manually and costed qualitatively, not an economy or evidence score."
+  },
+  "unresolved_logic_notes": [
+    "Series3 occurs as a discourse series name but is absent from final EXISTS binders; treating it as a named constant is possible, and no claim of a fully closed variable-only graph is certified.",
+    "collect_packages removes WITNESS_PACKAGE wrappers recursively even inside capability schemas; possible-world/event placeholders remain schema metavariables. No independently defined CAPABLE interpreter checks that boundary.",
+    "No new physical world observations or truth values were validated. ZL/RF literal unassigned variants remain partial rather than failures."
+  ],
+  "elapsed_seconds": 535.303893
+}

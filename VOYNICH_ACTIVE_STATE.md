@@ -1,21 +1,24 @@
-## 2026-10-02 Next complete construction: a shared motion grade
+## 2026-10-02 Shared motion: computed consequence, unselected meaning
 
-Selected one bounded exploratory continuation: preserve ES59/kernel and ET's
-three instrumental forms, then derive QOKEDY pulsed flow from the same grade
-map in complete f83P4. QOKEY is the pulse-capability form; QOKY is different.
-PULSE must compute two positive intervals separated by zero flow, not merely
-carry metadata. Both full-phase bindings and all new meanings remain C0.
-[Decision](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_MOTION_SHARED_GRADE_DECISION_20261002.md).
-Native source counts are ZL33/IT32/RF32; the older P12 report33 is separate.
-A complete report display alone is not a complete native reading. Frozen
-review criteria precede author release; inclusive checkpoint05:59UTC.
+The frozen extension generates a complete conditional native IT32 account and
+separate report33 accounts. Native G/I are identical. All97 native positions
+remain; ZL/RF have six unassigned forms and no full binding account. QOKEDY's
+pulse obligation is actually computed by the common QOK/LK grade function;
+36 fixed synthetic histories check that fragment, not manuscript meaning.
+[Result](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_MOTION_SHARED_GRADE_RESULT_20261002.md).
 
-QOKEDY already has246IT occurrences: the proposed sense must be a frequent
-general concept. Counts neither select nor refute it. Newly located physical-gap
-archive is only a method-review resource; no target data were acquired. Existing
-FT accounts consume graphic bridges but do not compute opposing ink predictions.
-A possible future diagram-description constructor remains unselected. No new
-confirmed meaning or reserved access; user minimum13:52:40UTC still unmet.
+Keep substantial costs:22 new primitive/frame entries,18 assembly licenses,
+six manual clauses and explicit identity/time assumptions. Later consumers
+read live registers seeded independently of compiled returns; binding gate
+is partial. Different dose variable names do not prove different physical
+doses. Capability accessibility and whole-account satisfiability are unverified.
+No parent repair, confirmed word, new target access or semantic winner.
+
+Do not automatically repair the pipeline or add more free local glosses.
+The producer found later Quinte Essence/Tadhg caches relevant to the old607
+missing-input gate; metadata only, no automatic reopening. Next: qualify a
+separately registered source intake before any comparative frequency inference.
+User block03:52:40–13:52:40UTC remains incomplete. Publication in progress.
 
 ## 2026-10-02 Explicit constructions: conditional computation is not meaning selection
 

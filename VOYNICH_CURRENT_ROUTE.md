@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Complete native f83 P4 with shared ES/ET motion grades.
-Latest decision: QOKEDY pulse forecast; QOKEY differs from QOKY.
-Working files: GD_MOTION_SHARED_GRADE_DECISION_20261002.md and frozen expectations.
-Assumptions: C0; ES59 unchanged; native33/32/32, P12report33 separate.
-Resume: Review full release against frozen criteria; no grade repair.
-Running: author+producer; unit ends05:59;10h ends13:52:40UTC Oct2.
+Task: Publish motion review; qualify source input.
+Latest decision: Computed pulse; partial bindings; no meaning selected.
+Working files: GD_MOTION_SHARED_GRADE_RESULT_20261002.md; GD_PIPELINE_TARGETS.
+Assumptions: C0; native G/I equal;97 positions; no reserve.
+Resume: Publish unit; register changed607 source intake.
+Running: publication; unit ends05:59;10h ends13:52:40UTC Oct2.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
