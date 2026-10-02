@@ -1,0 +1,495 @@
+{
+  "schema": "gdt1138-author-core-v1",
+  "decision": "FINITE_PARTIAL_TYPED_ACCOUNT",
+  "literal_entries": [
+    {
+      "form": "porain",
+      "value": "DESIRE",
+      "type": "agent × desideratum → goal",
+      "denotation": "An agent desires the following purpose or predicate; no achievement entailed.",
+      "positions": [
+        1
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okain",
+      "value": "DRY",
+      "type": "belly → clinical-purpose",
+      "denotation": "Drying is the intended medical purpose, not a successful physiological effect.",
+      "positions": [
+        2
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okechdy",
+      "value": "MOIST_BELLY",
+      "type": "belly-description",
+      "denotation": "One compound noun phrase: belly characterized as moist.",
+      "positions": [
+        3
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "dal",
+      "value": "WHEN",
+      "type": "guard × policy → guarded-policy",
+      "denotation": "Introduces the observation guard; does not assert its satisfaction in an actual patient or cook.",
+      "positions": [
+        4
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "keeedal",
+      "value": "SEEMS_MODERATELY_BOILED",
+      "type": "food × observation-stage → observed-appearance",
+      "denotation": "Composite observation predicate on the current food after the first boiling stage. No exact time, temperature or objective degree is measured.",
+      "positions": [
+        5
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "shedy",
+      "value": "DISCARD",
+      "type": "agent × liquid → prescribed-disposal",
+      "denotation": "Pour away the selected water; does not silently remove the food or every liquid belonging to it.",
+      "positions": [
+        6
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okeeolkcheey",
+      "value": "FIRST",
+      "type": "ordered-water-context × WATER → water-reference",
+      "denotation": "Select the former member W0 of this preparation’s water sequence. Its noun argument is position9 across position8.",
+      "positions": [
+        7
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "lkar",
+      "value": "IMMEDIATE_TRANSFER",
+      "type": "agent × food × destination-water → prescribed-event",
+      "denotation": "One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.",
+      "positions": [
+        8
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "al",
+      "value": "IN",
+      "type": "food × liquid-medium → containment-relation",
+      "denotation": "Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.",
+      "positions": [
+        10,
+        15
+      ],
+      "count": 2,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "soain",
+      "value": "OTHER",
+      "type": "water-reference × WATER → distinct-water-reference",
+      "denotation": "Introduces W1 distinct from previously selected W0, with the same water kind.",
+      "positions": [
+        11
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "chey",
+      "value": "LIQUID",
+      "type": "liquid-kind",
+      "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+      "positions": [
+        13,
+        36,
+        40,
+        44
+      ],
+      "count": 4,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qolaiin",
+      "value": "HOT",
+      "type": "liquid → property",
+      "denotation": "HOT(W1), no numeric temperature or patient state.",
+      "positions": [
+        14
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "chedy",
+      "value": "THAT_WATER",
+      "type": "active-water-context → water-reference",
+      "denotation": "Resumes the W1 introduced by OTHER WATER, not W0.",
+      "positions": [
+        16
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "kedy",
+      "value": "THOROUGH_REBOIL",
+      "type": "food × water × prior-boil-event → prescribed-event",
+      "denotation": "Composite AGAIN + thorough BOIL. Introduces a second boiling event, distinct from the first moderately boiled appearance. Its internal three-part content is counted as a lexical cost.",
+      "positions": [
+        17
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qoteey",
+      "value": "UNTIL",
+      "type": "event × endpoint-predicate → endpoint-instruction",
+      "denotation": "SOFT is the instructed endpoint; UNTIL does not guarantee eventual reachability.",
+      "positions": [
+        18
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "oteey",
+      "value": "BOILED_FOOD",
+      "type": "cooked-food-kind",
+      "denotation": "Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.",
+      "positions": [
+        19,
+        38
+      ],
+      "count": 2,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qokeeylkain",
+      "value": "SOFT",
+      "type": "food → preparation-property",
+      "denotation": "Softness endpoint of the same food; not successful drying or evacuation.",
+      "positions": [
+        20
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "y",
+      "value": "FOR",
+      "type": "purpose × discourse-content → purpose-frame",
+      "denotation": "Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.",
+      "positions": [
+        21,
+        29,
+        46
+      ],
+      "count": 3,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "cheey",
+      "value": "EVACUATION",
+      "type": "clinical-purpose",
+      "denotation": "Same evacuation goal at22/47, resumed by THIS_USE30.",
+      "positions": [
+        22,
+        47
+      ],
+      "count": 2,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qokeey",
+      "value": "BOIL",
+      "type": "food × cooking-history → process",
+      "denotation": "One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.",
+      "positions": [
+        23,
+        27,
+        45
+      ],
+      "count": 3,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okeoteey",
+      "value": "NOT",
+      "type": "norm-content → prohibition",
+      "denotation": "In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.",
+      "positions": [
+        24
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qokey",
+      "value": "FULLY",
+      "type": "completion-bearing-predicate → completed-predicate",
+      "denotation": "One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.",
+      "positions": [
+        25,
+        26,
+        33
+      ],
+      "count": 3,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okeey",
+      "value": "THIS_USE",
+      "type": "active-purpose-context → purpose-reference",
+      "denotation": "Resumes the evacuation purpose of C02; no unmarked return to the drying branch.",
+      "positions": [
+        30
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "odain",
+      "value": "DESIRE",
+      "type": "agent × desideratum → goal",
+      "denotation": "Same denotation as porain; freely assumed whole-word synonym, counted.",
+      "positions": [
+        31
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "oteedy",
+      "value": "RETAIN",
+      "type": "food × own-liquid × extent → retention-predicate",
+      "denotation": "Retain the food’s own intrinsic liquid/juice. Under DESIRE/AS_POSSIBLE this is a goal, not an observed achieved amount.",
+      "positions": [
+        32
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qokeedy",
+      "value": "AS_POSSIBLE",
+      "type": "completion-directed-desideratum → qualified-desideratum",
+      "denotation": "Qualify the desired extent as as much/as fully as feasible. No numerical optimum, attained maximum or existence of a maximizing physical state is asserted.",
+      "positions": [
+        34
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "chody",
+      "value": "OWN",
+      "type": "food-owner × LIQUID → owner-dependent-liquid",
+      "denotation": "Select the food’s intrinsic juice, J(owner), rather than the cooking water merely surrounding that owner.",
+      "positions": [
+        35
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qoky",
+      "value": "NO",
+      "type": "kind × predicate → negative-existential",
+      "denotation": "No member of the stated cooked-food kind can satisfy the following complete-retention capability.",
+      "positions": [
+        37
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "otain",
+      "value": "CAN_RETAIN",
+      "type": "food × own-liquid × extent → retention-capability",
+      "denotation": "Capability to retain at a given extent. It is not an alias of the DESIRE-governed RETAIN verb at32; final COMPLETELY supplies its extent argument.",
+      "positions": [
+        39
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "aiinal",
+      "value": "COMPLETELY",
+      "type": "retention-extent-modifier",
+      "denotation": "Same completion extent as FULLY when applied to retention. Its scope is the embedded retention extent of CAN_RETAIN, not completion of an ability itself. This is one freely assumed lexical synonym.",
+      "positions": [
+        41
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "ycheosaiin",
+      "value": "LONGER",
+      "type": "matched-boiling-histories → qualitative-duration-order",
+      "denotation": "Compare longer with shorter relevant histories; no minutes or universal unbounded continuous-time law.",
+      "positions": [
+        42
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "oekey",
+      "value": "MORE",
+      "type": "matched-losses → qualitative-loss-order",
+      "denotation": "Greater own-juice loss in the corresponding history; no fraction or invented measured amount.",
+      "positions": [
+        43
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "dy",
+      "value": "LOSE",
+      "type": "food × own-liquid × cooking-history → loss-relation",
+      "denotation": "Loss of own juice during boiling; the word does not encode a clinical effect.",
+      "positions": [
+        48
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qoy",
+      "value": "THEREFORE",
+      "type": "reason × prior-policy → inferential-discourse-link",
+      "denotation": "Connect the final loss comparison to the earlier evacuation policy/rationale; it is not a newly executed cooking step.",
+      "positions": [
+        49
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    }
+  ],
+  "fixed_operators": {
+    "schema": "gdt1138-fixed-c-operators-v1",
+    "parent_path": "experiments/yolo/gdt1131_opposed_wind_survivor_succession/src/C_CONSTRUCTORS.json",
+    "parent_sha256": "57a414d0062ed83b97560bcbf93f62629dc4ce415e20bd8abe5c1062f39d06c8",
+    "families": [
+      {
+        "id": "aN",
+        "signature": "NonemptyDescriptionRecord -> BoundDescriptionRef",
+        "effect": "Allocate a new retained description reference containing exact record; publish to discourse reference buffer. Consumer must use this retained content; not truth assertion or mere record copy without consumer."
+      },
+      {
+        "id": "d",
+        "signature": "CompletedDescriptionRecord -> NonemptyDescriptionRecord",
+        "effect": "Collate latest completed descriptive contribution with its dependency closure; replaces focus with that closed argument record before aN. No physical identity cast."
+      }
+    ],
+    "initial_exact_entries": {
+      "aiin": {
+        "families": [
+          "aN"
+        ],
+        "payload": "current nonempty focus description"
+      },
+      "daiin": {
+        "families": [
+          "d",
+          "aN"
+        ],
+        "payload": "latest completed description plus dependency closure; high-frequency general reference operation"
+      }
+    },
+    "initial_premises": [
+      "Current focus and latest completed-description buffers have general stack semantics; actual producer and consumer IDs will be recorded, never used as semantic lookup keys.",
+      "aN retains nonempty description; d collates latest completed contribution and dependency closure. No identity/time/cause is supplied by these record operations."
+    ],
+    "implementation_receipt": {
+      "path": "experiments/yolo/gdt1131_opposed_wind_survivor_succession/src/C_MATERIALIZE.py",
+      "sha256": "6a230fe530971e0e3b2dff5a645e53bfac8d76d61fcdb966e72bb873f3883507"
+    },
+    "known_all_whole_barrier_not_selected": "C oteey solar/wind formula is not transferred. Medical oteey remains the frozen old BOILED_FOOD value; other exact whole/domain meanings separate.",
+    "scope": "Exact bare aiin/daiin plus their aN/d operations only; no universal substring/host rule"
+  },
+  "exposure": "Before DIRECT SOURCE access only. BASELINE34 positions reveal46/49 forms; METHOD names remaining3 aiin/daiin sites. Full order is reconstructible: this is not informational target blinding.",
+  "rules": [
+    {
+      "id": "R1",
+      "rule": "Every fixed literal contributes a DescriptionRecord containing its exact value, type and denotation; this is descriptive lexical content, not an applied clause.",
+      "semantic_items": 3
+    },
+    {
+      "id": "R2",
+      "rule": "Current focus is latest written nonempty description. Latest completed description is latest completed lexical contribution or typed constructed proposition. A lexeme description is complete as a description, not complete as an argument-saturated predicate.",
+      "semantic_items": 2
+    },
+    {
+      "id": "R3",
+      "rule": "BOIL NOT FULLY builds prohibition of FULLY(BOIL), retaining all three written lexical dependencies. No cooking execution.",
+      "semantic_items": 3
+    },
+    {
+      "id": "R4",
+      "rule": "FULLY BOIL after an identical previously prohibited FULLY(BOIL) builds a quoted reprise with that prohibition dependency; without prior norm it is an unsaturated completed-boiling predicate description.",
+      "semantic_items": 3
+    },
+    {
+      "id": "R5",
+      "rule": "FIRST requests its WATER noun at next bare aiin across one IMMEDIATE_TRANSFER; OTHER requests next bare aiin. Both consume only explicit WATER field returned from retained description plus typed required contexts. No LIQUID-to-WATER narrowing or source-side supplementation.",
+      "semantic_items": 4
+    },
+    {
+      "id": "R6",
+      "rule": "DescriptionRef projection returns only explicit payload fields. Lexical DescriptionRecords have no WATER field. No source IDs/positions choose content or functions.",
+      "semantic_items": 2
+    }
+  ],
+  "costs": {
+    "fixed_unconfirmed_whole_values": 34,
+    "new_whole_aliases": 0,
+    "productive_rules": 6,
+    "new_syntax_semantic_items": 17,
+    "opaque_water_constants": 0,
+    "source_topic_food_binding_used": false,
+    "manual_stage2_bindings_allowed": 0
+  },
+  "assumptions": [
+    "Literal34 are unconfirmed whole values inherited unchanged.",
+    "Quoted-reprise grammar is a paid working hypothesis.",
+    "No new type cast, owner binding, WATER producer or explanatory BECAUSE rule is licensed.",
+    "Description completeness does not make an unapplied predicate true."
+  ],
+  "dependencies": [
+    "Written lexical contributions drive actual retained content.",
+    "aN returns the exact current focus and publishes immutable ref.",
+    "d recursively collates latest completed contribution dependency closure.",
+    "Source historical duties remain external fixed comparison; they do not seed WATER or food."
+  ],
+  "unknown_policy": "Unapplied fixed predicates retain exact signatures/denotations and explicit residual argument slots; no source-derived macro completion. An absent WATER producer is PARTIAL_NO_CAPACITY, not refutation of all C operators.",
+  "source_fidelity_limits": [
+    "Preserve drying/evacuation distinctions in literal denotations, but do not assert connected whole reading.",
+    "No B16 assumptions, no intention-to-select optimum, no NOT_LOSE_ALL entailment.",
+    "No actual execution, endpoint attainment, medical efficacy or exposure reset."
+  ],
+  "intervention_policy": "Interventions apply to actual returned payloads at ref creation. Available projection barriers are distinguished from content-sensitive meaningful consumers; this partial core has no licensed water or rationale consumer. Donor deletion can block ref availability; no decorative dependency PASS."
+}

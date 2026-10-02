@@ -246,3 +246,87 @@ Only this note was appended. No target-body files, evolving author/reviewer
 outputs, new source acquisition, target queries, images, reserves, tests,
 decoder/parser, global registry mutation, route/ledger/state edits or Git
 actions. Root's GDT1137 remains independent.
+
+## 2026-10-02 — fourth bounded unit: consequences beyond shared type construction
+
+**Zero additions; exact best retained candidate: IDEA752.** Read the current
+route, composition/names topics, GDT1137's frozen METHOD, IDEA876's actual
+proposal, bounded search/duplicates/route screens and the nearby primaries.
+No GDT1137/1138 author or reviewer output, target body, new source, image,
+reserve or test was opened. GDT1137's new ability to compute a common
+material×state type and return an earlier derived type is a useful conditional
+capability. It does not bind material, state, quality, quantity, or purpose.
+
+The attempted new offer was Cennini LXII's **fineness/use tradeoff**: further
+grinding produces finer blue but sacrifices its strong/deep colour impression,
+while the fine material is particularly useful for miniature work and
+lightened garments. The complete cached LXII section and its existing full
+native-print review were read. A shared state constructor followed by two
+criterion-specific evaluations would constrain a criterion-independent
+`BETTER` interpretation; it would not establish that an unnamed target state
+means fineness. A scalar physical state with separate property functions is
+still a valid rival. No universal ordering, numerical quality law or measured
+physics follows from the historical statement.
+
+Actual **IDEA752**,
+`research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/09_iris_perfume_yield_quality.json`,
+already retains the discriminating mechanism more directly: prior treatment
+changes absorption/oil loss, while the separately scoped iris quality
+comparison favors dry unheated material. Its explicit rival is a single
+generic beneficial state. The complete cached **De odoribus §§23–24** was read
+from `D_SOURCE_THEOPHRASTUS.html`; its approximate quantities, reported loss,
+iris-qualified preference, squeezing-out tension and late spice-removal
+clause remain. It is not a current chemical claim. Using another historical
+material to reproduce this two-property consequence would add source context,
+not a new proposal.
+
+**Prospective changed input for752, not a reopening certificate:** nominate
+one complete already-exposed record (none nominated here), freeze its shared
+material/state constructor and complete native readings, and pay two distinct
+output properties plus a written later evaluation or choice that consumes
+them. Freeze property/purpose scopes and reference roles before comparison;
+use the same lexical rules under a one-improvement rival and a two-property
+rival. A concrete contrary evaluation could reject the universal improvement
+reading. If changing the computed descriptor leaves the later evaluation
+unchanged, the constructor is not supplying this consequence. If different
+arbitrary output words or occurrence-specific evaluation rules supply the
+result, no semantic information has been gained. Generic relabeling may still
+leave material names unresolved. This is a later exploratory option, not
+authorization to append a tradeoff story to P4 or rerun a fixed failure.
+
+The best **other already-retained falsifier** is IDEA515,
+`research_registry/proposals/raw370_nested_sieve_cut_consequence_20260922.json`.
+Its scope is the entire offered **f32v.7–11**, with entire **f21r.8–12** as the
+countercase. Under its expressly additional stable-particle and binary-cut
+contract, the carried coarse fraction cannot produce two positive pass/retain
+fractions at the same or finer cut without an intervening particle-changing
+operation. It therefore needs a larger written cut or a written transformation.
+The existing weaker SORT meaning is not contradicted. GDT1137 supplies neither
+that cut identity nor those positive quantities; a new type constructor alone
+is insufficient changed input. The required prospective input is an actually
+bound shared output-class constructor and complete second separation with its
+cut relation, preserving all old values and the countercase. This card already
+contains the multistep restriction and was not duplicated.
+
+Actual766's separate extracts/retained residue,578's mode-scoped attraction
+priority,583's contextual working verbs and1005's failed fixed record writers
+were compared. None is imported as a meaning. GDT1005 remains failed; no seam,
+source, mask or field contract is relaxed. IDEA876's full nonseed label/prose
+duty remains its existing proposal, not fresh supply. No new registry review,
+selection, corpus scan, code, global state change or Git action.
+
+### Exact pins for later review
+
+| Primary | SHA256 |
+|---|---|
+| `experiments/yolo/gdt1137_material_process_type_return/METHOD.md` | `57d23dec78afc859f039fa7a5118842b235be55080e4768678b2a85dd3659b35` |
+| `source_supply_20260929/09_iris_perfume_yield_quality.json` | `5b36801b93b398b8cca478b3aa070095aaaaa54518e1d8999c17b18b10f7b2b1` |
+| `source_supply_20260929/D_SOURCE_THEOPHRASTUS.html`, complete §§23–24 only | `9aa68dc7d9ace9b003367b5c9d227960c0954d7e9c19cd54c458e1ff747826b5` |
+| `research_registry/work_batches/ten_hours_20260915/CENNINI_FINE_DRY_FRACTIONS_SOURCE_OFFER_20260922.json`, complete LXII member | `fede18664e56c845ac2818949c9adbc61209b4378c916fd047c540ba8d8f4acd` |
+| `research_registry/work_batches/ten_hours_20260915/CENNINI_LXII_NATIVE_SEPARATE_FRACTIONS_REVIEW_20260922.md` | `bd45979854bec03c2f7e6267221c2715a3538542529ecd0c6e46469c44f07dfc` |
+| `research_registry/proposals/raw370_nested_sieve_cut_consequence_20260922.json` | `0702d2db0000bb1129e5a18002ad60d198ddc9d9ca1eba66cb3fb6f32e501289` |
+| IDEA515's unchanged parent `research_registry/proposals/raw370_two_paragraph_powder_partition_offer_20260922.json` (pin only this unit) | `4654afe0414d85f431371c799df6189b73b2cd4ace6adfc7eae833a51bf837da` |
+
+Short `source_supply_20260929/` paths in this table refer to this note's directory.
+The only write in this unit is this appended note. Missing bindings remain
+limitations of retained raw ideas, not duplicate reasons or failed experiments.

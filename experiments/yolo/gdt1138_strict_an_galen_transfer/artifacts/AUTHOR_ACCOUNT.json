@@ -1,0 +1,4402 @@
+{
+  "schema": "gdt1138-author-account-v1",
+  "outcome": "PARTIAL_NO_CAPACITY",
+  "exposure": {
+    "direct_SOURCE_read_after_CORE_GO": true,
+    "CORE_GO_receipt_utc": "2026-10-02T09:19:23.740563+00:00",
+    "informational_target_blinding": false,
+    "independent_confirmation": 0,
+    "confirmed_words": 0
+  },
+  "complete_selected_source": {
+    "source_path": "research_registry/work_batches/ten_hours_20260915/GALEN_CABBAGE_COMPLETE_SOURCE_20260920.json",
+    "source_sha256": "8bc3c51306fe27a9f4d6366e569b93b03f5fe760b0fb99e0fbfdae06cf975a97",
+    "work": {
+      "author": "Galen",
+      "date": "Second-century CE work. A complete medieval Latin translation is documented in1277; the work date is not inferred from a Renaissance print.",
+      "title": "De alimentorum facultatibus / Περὶ τῶν ἐν ταῖς τροφαῖς δυνάμεων",
+      "complete_unit": "BookII, chapter44, all five paragraphs.",
+      "edition": "Georg Helmreich, CMG V4,2, Leipzig/Berlin1923.",
+      "printed_pages": [
+        311,
+        312,
+        313
+      ],
+      "kuhn_locator": "VI630–633",
+      "source_urls": [
+        "https://cmg.bbaw.de/epubl/online/cmg_05_04_02.php?p=311",
+        "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg037.1st1K-grc1:2.44/",
+        "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0057/tlg037/tlg0057.tlg037.1st1K-grc1.xml"
+      ],
+      "whole_xml_sha256": "f6e0bef02c373093d8f8edddfeef204c8dbe846b78fd983066d8e9bd0580b3a4",
+      "digital_text_attribution": "Open Greek and Latin, First1KGreek, based on Helmreich1923. Digital conversion/editing credits appear in the whole XML header. Digital text license: CC BY-SA4.0; ancient Greek and1923 edition are public domain.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "medieval_reception_url": "https://www.galenolatino.com/traduzioni.php?id=23",
+      "medieval_reception_scope": "The scholarly catalog gives a complete Moerbeke translation finished1277-10-22 and pre1450 witnesses. No Latin passage or native medieval folio collation is claimed."
+    },
+    "exact_section": {
+      "locus": "2.44.2",
+      "greek": "ξηρᾶναι δ’ ὑγρὰν γαϲτέρα βουληθέντεϲ, ὅταν ἤδη μετρίωϲ ἡψῆϲθαι δοκῇ, τὸ πρότερον ὕδωρ ἀποχέοντεϲ ἐμβαλοῦμεν εὐθέωϲ ἑτέρῳ θερμῷ κἄπειτα πάλιν ἐν ἐκείνῳ καθεψήϲομεν, ὡϲ τακερὰν γενέϲθαι, μὴ καθέψοντεϲ, ὅταν ὑπαγωγῆϲ ἕνεκα λαμβάνηται. βουλόμεθα γὰρ οὐκ ἀποθέϲθαι πάντα τὸν ἴδιον αὐτῆϲ χυλὸν ἐπὶ τῆϲ τοιαύτηϲ χρείαϲ, ἀλλὰ φυλάττειν ὅϲον οἵόν τε μάλιϲτα. τελέωϲ μὲν οὖν φυλάττειν τὸν ἴδιον χυλὸν οὐδὲν τῶν ἑψομένων δύναται, μᾶλλον δ’ ἀποβάλλει τὰ μέχρι πλείονοϲ ἑψηθέντα.",
+      "english_working_translation": "But when wishing to dry a moist belly, once it seems moderately boiled, pouring away the former water we shall immediately put it into other hot water and then boil it thoroughly again in that, so that it becomes soft. We do not boil it thoroughly when it is taken for evacuation. For in that use we wish not to lose all its own juice, but to preserve as much as possible. None of the things being boiled can preserve its own juice completely; those boiled for longer lose more.",
+      "translation_status": "Own source-side semantic translation; not a target reading or certified modern pharmacology."
+    },
+    "scope": "All of II.44.2, including both preparation branches, rationale, inability to retain all own juice and comparative loss. This is not a reading of all five sections of the parent cabbage entry.",
+    "context": "The surrounding source supplies the cabbage topic, portion versus water versus constituent-juice distinction and known transfer-exposure limit. No new source was acquired. The target paragraph has no explicit cabbage lexeme under this draft: that topic assignment is an extra assumption.",
+    "source_truth": "Historical assertions and preparation instructions only; the medical goals do not set a real patient-health state. No modern efficacy or chemistry claim is made."
+  },
+  "source_obligations_locked": [
+    "Drying goal for a moist belly.",
+    "The first material seems moderately boiled before transfer.",
+    "Discard the first water.",
+    "Immediately transfer into other hot water.",
+    "Boil again in that second water until soft.",
+    "For evacuation avoid thorough boiling and retain as much own juice as possible.",
+    "No boiled thing preserves all own juice.",
+    "Longer boiling loses more juice.",
+    "No implied disposal of the second water; no actual medical efficacy state.",
+    "Known scoped air/cold-water exposure countercase from2.44.3 is retained as a source-context restriction and is not magically erased by current hotness."
+  ],
+  "strongest_prior_countercases": [
+    "RAW402 owns all five Galen sections; RAW482 fixes persistent air/cold-water exposure through later hot boiling. This smaller II.44.2 target account does not claim those broader target bindings are solved or remove those source conditions.",
+    "HOT replacement water does not reset transfer exposure. An instruction UNTIL SOFT can lack a reachable endpoint after the prohibited exposure described in II.44.3; no actual success is inferred.",
+    "The source does not order disposal of the second water, supply retention fractions or guarantee a clinical effect. No such event or output appears in this draft.",
+    "The parent source limits vision with an abnormal-moist-eye exception and leaves urination epistemically uncertain; neither is translated or replaced by a positive/zero-health claim here.",
+    "W89’s recipe/description comparison is paused and does not confirm English operations. Its old five predicates and failed material/reference matches are not repaired by this independent dictionary. W94’s quantity/ratio alternatives likewise remain old incompatible values, including daiin as a mass/ratio role instead of new BECAUSE.",
+    "The exact f107v paragraph was already exposed in W80/W82/W89/W94 whole-paragraph readings. Their mostly unknown material/quantity projections do not supply independent support for this Galen account.",
+    "All36 values and five productions are fitted after target inspection. Twenty-eight singleton forms and composite lexemes leave high content freedom. The repeated forms constrain internal uniformity, not historical correctness.",
+    "C03’s positive retention desideratum does not alone ensure a NOT_LOSE_ALL intention: an all-zero feasible set is a real logical counterexample. The base version retains that source-goal gap. The optional conditional version adds B16a–d plus an explicit intention to choose a best option. Strict preference alone does not establish such a selected intention, nor is maximizer existence automatic. No positive quantity is measured, source-proved or actually achieved.",
+    "The full IT2a paragraph has51 groups and different word boundaries/readings. The frozen36-value ZL account is not a full literal IT2a reading; no alternative is smoothed to rescue it."
+  ],
+  "literal34": [
+    {
+      "form": "porain",
+      "value": "DESIRE",
+      "type": "agent × desideratum → goal",
+      "denotation": "An agent desires the following purpose or predicate; no achievement entailed.",
+      "positions": [
+        1
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okain",
+      "value": "DRY",
+      "type": "belly → clinical-purpose",
+      "denotation": "Drying is the intended medical purpose, not a successful physiological effect.",
+      "positions": [
+        2
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okechdy",
+      "value": "MOIST_BELLY",
+      "type": "belly-description",
+      "denotation": "One compound noun phrase: belly characterized as moist.",
+      "positions": [
+        3
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "dal",
+      "value": "WHEN",
+      "type": "guard × policy → guarded-policy",
+      "denotation": "Introduces the observation guard; does not assert its satisfaction in an actual patient or cook.",
+      "positions": [
+        4
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "keeedal",
+      "value": "SEEMS_MODERATELY_BOILED",
+      "type": "food × observation-stage → observed-appearance",
+      "denotation": "Composite observation predicate on the current food after the first boiling stage. No exact time, temperature or objective degree is measured.",
+      "positions": [
+        5
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "shedy",
+      "value": "DISCARD",
+      "type": "agent × liquid → prescribed-disposal",
+      "denotation": "Pour away the selected water; does not silently remove the food or every liquid belonging to it.",
+      "positions": [
+        6
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okeeolkcheey",
+      "value": "FIRST",
+      "type": "ordered-water-context × WATER → water-reference",
+      "denotation": "Select the former member W0 of this preparation’s water sequence. Its noun argument is position9 across position8.",
+      "positions": [
+        7
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "lkar",
+      "value": "IMMEDIATE_TRANSFER",
+      "type": "agent × food × destination-water → prescribed-event",
+      "denotation": "One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.",
+      "positions": [
+        8
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "al",
+      "value": "IN",
+      "type": "food × liquid-medium → containment-relation",
+      "denotation": "Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.",
+      "positions": [
+        10,
+        15
+      ],
+      "count": 2,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "soain",
+      "value": "OTHER",
+      "type": "water-reference × WATER → distinct-water-reference",
+      "denotation": "Introduces W1 distinct from previously selected W0, with the same water kind.",
+      "positions": [
+        11
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "chey",
+      "value": "LIQUID",
+      "type": "liquid-kind",
+      "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+      "positions": [
+        13,
+        36,
+        40,
+        44
+      ],
+      "count": 4,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qolaiin",
+      "value": "HOT",
+      "type": "liquid → property",
+      "denotation": "HOT(W1), no numeric temperature or patient state.",
+      "positions": [
+        14
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "chedy",
+      "value": "THAT_WATER",
+      "type": "active-water-context → water-reference",
+      "denotation": "Resumes the W1 introduced by OTHER WATER, not W0.",
+      "positions": [
+        16
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "kedy",
+      "value": "THOROUGH_REBOIL",
+      "type": "food × water × prior-boil-event → prescribed-event",
+      "denotation": "Composite AGAIN + thorough BOIL. Introduces a second boiling event, distinct from the first moderately boiled appearance. Its internal three-part content is counted as a lexical cost.",
+      "positions": [
+        17
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qoteey",
+      "value": "UNTIL",
+      "type": "event × endpoint-predicate → endpoint-instruction",
+      "denotation": "SOFT is the instructed endpoint; UNTIL does not guarantee eventual reachability.",
+      "positions": [
+        18
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "oteey",
+      "value": "BOILED_FOOD",
+      "type": "cooked-food-kind",
+      "denotation": "Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.",
+      "positions": [
+        19,
+        38
+      ],
+      "count": 2,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qokeeylkain",
+      "value": "SOFT",
+      "type": "food → preparation-property",
+      "denotation": "Softness endpoint of the same food; not successful drying or evacuation.",
+      "positions": [
+        20
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "y",
+      "value": "FOR",
+      "type": "purpose × discourse-content → purpose-frame",
+      "denotation": "Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.",
+      "positions": [
+        21,
+        29,
+        46
+      ],
+      "count": 3,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "cheey",
+      "value": "EVACUATION",
+      "type": "clinical-purpose",
+      "denotation": "Same evacuation goal at22/47, resumed by THIS_USE30.",
+      "positions": [
+        22,
+        47
+      ],
+      "count": 2,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qokeey",
+      "value": "BOIL",
+      "type": "food × cooking-history → process",
+      "denotation": "One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.",
+      "positions": [
+        23,
+        27,
+        45
+      ],
+      "count": 3,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okeoteey",
+      "value": "NOT",
+      "type": "norm-content → prohibition",
+      "denotation": "In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.",
+      "positions": [
+        24
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qokey",
+      "value": "FULLY",
+      "type": "completion-bearing-predicate → completed-predicate",
+      "denotation": "One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.",
+      "positions": [
+        25,
+        26,
+        33
+      ],
+      "count": 3,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "okeey",
+      "value": "THIS_USE",
+      "type": "active-purpose-context → purpose-reference",
+      "denotation": "Resumes the evacuation purpose of C02; no unmarked return to the drying branch.",
+      "positions": [
+        30
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "odain",
+      "value": "DESIRE",
+      "type": "agent × desideratum → goal",
+      "denotation": "Same denotation as porain; freely assumed whole-word synonym, counted.",
+      "positions": [
+        31
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "oteedy",
+      "value": "RETAIN",
+      "type": "food × own-liquid × extent → retention-predicate",
+      "denotation": "Retain the food’s own intrinsic liquid/juice. Under DESIRE/AS_POSSIBLE this is a goal, not an observed achieved amount.",
+      "positions": [
+        32
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qokeedy",
+      "value": "AS_POSSIBLE",
+      "type": "completion-directed-desideratum → qualified-desideratum",
+      "denotation": "Qualify the desired extent as as much/as fully as feasible. No numerical optimum, attained maximum or existence of a maximizing physical state is asserted.",
+      "positions": [
+        34
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "chody",
+      "value": "OWN",
+      "type": "food-owner × LIQUID → owner-dependent-liquid",
+      "denotation": "Select the food’s intrinsic juice, J(owner), rather than the cooking water merely surrounding that owner.",
+      "positions": [
+        35
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qoky",
+      "value": "NO",
+      "type": "kind × predicate → negative-existential",
+      "denotation": "No member of the stated cooked-food kind can satisfy the following complete-retention capability.",
+      "positions": [
+        37
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "otain",
+      "value": "CAN_RETAIN",
+      "type": "food × own-liquid × extent → retention-capability",
+      "denotation": "Capability to retain at a given extent. It is not an alias of the DESIRE-governed RETAIN verb at32; final COMPLETELY supplies its extent argument.",
+      "positions": [
+        39
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "aiinal",
+      "value": "COMPLETELY",
+      "type": "retention-extent-modifier",
+      "denotation": "Same completion extent as FULLY when applied to retention. Its scope is the embedded retention extent of CAN_RETAIN, not completion of an ability itself. This is one freely assumed lexical synonym.",
+      "positions": [
+        41
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "ycheosaiin",
+      "value": "LONGER",
+      "type": "matched-boiling-histories → qualitative-duration-order",
+      "denotation": "Compare longer with shorter relevant histories; no minutes or universal unbounded continuous-time law.",
+      "positions": [
+        42
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "oekey",
+      "value": "MORE",
+      "type": "matched-losses → qualitative-loss-order",
+      "denotation": "Greater own-juice loss in the corresponding history; no fraction or invented measured amount.",
+      "positions": [
+        43
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "dy",
+      "value": "LOSE",
+      "type": "food × own-liquid × cooking-history → loss-relation",
+      "denotation": "Loss of own juice during boiling; the word does not encode a clinical effect.",
+      "positions": [
+        48
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    },
+    {
+      "form": "qoy",
+      "value": "THEREFORE",
+      "type": "reason × prior-policy → inferential-discourse-link",
+      "denotation": "Connect the final loss comparison to the earlier evacuation policy/rationale; it is not a newly executed cooking step.",
+      "positions": [
+        49
+      ],
+      "count": 1,
+      "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+    }
+  ],
+  "operators": {
+    "schema": "gdt1138-fixed-c-operators-v1",
+    "parent_path": "experiments/yolo/gdt1131_opposed_wind_survivor_succession/src/C_CONSTRUCTORS.json",
+    "parent_sha256": "57a414d0062ed83b97560bcbf93f62629dc4ce415e20bd8abe5c1062f39d06c8",
+    "families": [
+      {
+        "id": "aN",
+        "signature": "NonemptyDescriptionRecord -> BoundDescriptionRef",
+        "effect": "Allocate a new retained description reference containing exact record; publish to discourse reference buffer. Consumer must use this retained content; not truth assertion or mere record copy without consumer."
+      },
+      {
+        "id": "d",
+        "signature": "CompletedDescriptionRecord -> NonemptyDescriptionRecord",
+        "effect": "Collate latest completed descriptive contribution with its dependency closure; replaces focus with that closed argument record before aN. No physical identity cast."
+      }
+    ],
+    "initial_exact_entries": {
+      "aiin": {
+        "families": [
+          "aN"
+        ],
+        "payload": "current nonempty focus description"
+      },
+      "daiin": {
+        "families": [
+          "d",
+          "aN"
+        ],
+        "payload": "latest completed description plus dependency closure; high-frequency general reference operation"
+      }
+    },
+    "initial_premises": [
+      "Current focus and latest completed-description buffers have general stack semantics; actual producer and consumer IDs will be recorded, never used as semantic lookup keys.",
+      "aN retains nonempty description; d collates latest completed contribution and dependency closure. No identity/time/cause is supplied by these record operations."
+    ],
+    "implementation_receipt": {
+      "path": "experiments/yolo/gdt1131_opposed_wind_survivor_succession/src/C_MATERIALIZE.py",
+      "sha256": "6a230fe530971e0e3b2dff5a645e53bfac8d76d61fcdb966e72bb873f3883507"
+    },
+    "known_all_whole_barrier_not_selected": "C oteey solar/wind formula is not transferred. Medical oteey remains the frozen old BOILED_FOOD value; other exact whole/domain meanings separate.",
+    "scope": "Exact bare aiin/daiin plus their aN/d operations only; no universal substring/host rule"
+  },
+  "costs": {
+    "fixed_unconfirmed_whole_values": 34,
+    "new_whole_aliases": 0,
+    "productive_rules": 6,
+    "new_syntax_semantic_items": 17,
+    "opaque_water_constants": 0,
+    "source_topic_food_binding_used": false,
+    "manual_stage2_bindings_allowed": 0
+  },
+  "assumptions": [
+    "Literal34 are unconfirmed whole values inherited unchanged.",
+    "Quoted-reprise grammar is a paid working hypothesis.",
+    "No new type cast, owner binding, WATER producer or explanatory BECAUSE rule is licensed.",
+    "Description completeness does not make an unapplied predicate true."
+  ],
+  "source_separators": "NOT_PRESENT_IN_GDT1028_SOURCE; do not reconstruct or fetch",
+  "ZL3b": {
+    "status": "PARTIAL_NO_CAPACITY",
+    "trace": [
+      {
+        "position": 1,
+        "form": "porain",
+        "literal_entry": {
+          "form": "porain",
+          "value": "DESIRE",
+          "type": "agent × desideratum → goal",
+          "denotation": "An agent desires the following purpose or predicate; no achievement entailed.",
+          "positions": [
+            1
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:1",
+          "content_json": "{\"denotation\": \"An agent desires the following purpose or predicate; no achievement entailed.\", \"form\": \"porain\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 desideratum \\u2192 goal\", \"value\": \"DESIRE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "agent × desideratum → goal",
+        "raw_group": {
+          "form": "porain",
+          "source_id": "ZL3b|f107v.45|G001",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 0,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 2,
+        "form": "okain",
+        "literal_entry": {
+          "form": "okain",
+          "value": "DRY",
+          "type": "belly → clinical-purpose",
+          "denotation": "Drying is the intended medical purpose, not a successful physiological effect.",
+          "positions": [
+            2
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:2",
+          "content_json": "{\"denotation\": \"Drying is the intended medical purpose, not a successful physiological effect.\", \"form\": \"okain\", \"kind\": \"lexical-description\", \"type\": \"belly \\u2192 clinical-purpose\", \"value\": \"DRY\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "belly → clinical-purpose",
+        "raw_group": {
+          "form": "okain",
+          "source_id": "ZL3b|f107v.45|G002",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 1,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 3,
+        "form": "okechdy",
+        "literal_entry": {
+          "form": "okechdy",
+          "value": "MOIST_BELLY",
+          "type": "belly-description",
+          "denotation": "One compound noun phrase: belly characterized as moist.",
+          "positions": [
+            3
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:3",
+          "content_json": "{\"denotation\": \"One compound noun phrase: belly characterized as moist.\", \"form\": \"okechdy\", \"kind\": \"lexical-description\", \"type\": \"belly-description\", \"value\": \"MOIST_BELLY\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "belly-description",
+        "raw_group": {
+          "form": "okechdy",
+          "source_id": "ZL3b|f107v.45|G003",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 2,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 4,
+        "form": "dal",
+        "literal_entry": {
+          "form": "dal",
+          "value": "WHEN",
+          "type": "guard × policy → guarded-policy",
+          "denotation": "Introduces the observation guard; does not assert its satisfaction in an actual patient or cook.",
+          "positions": [
+            4
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:4",
+          "content_json": "{\"denotation\": \"Introduces the observation guard; does not assert its satisfaction in an actual patient or cook.\", \"form\": \"dal\", \"kind\": \"lexical-description\", \"type\": \"guard \\u00d7 policy \\u2192 guarded-policy\", \"value\": \"WHEN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "guard × policy → guarded-policy",
+        "raw_group": {
+          "form": "dal",
+          "source_id": "ZL3b|f107v.45|G004",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 3,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 5,
+        "form": "keeedal",
+        "literal_entry": {
+          "form": "keeedal",
+          "value": "SEEMS_MODERATELY_BOILED",
+          "type": "food × observation-stage → observed-appearance",
+          "denotation": "Composite observation predicate on the current food after the first boiling stage. No exact time, temperature or objective degree is measured.",
+          "positions": [
+            5
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:5",
+          "content_json": "{\"denotation\": \"Composite observation predicate on the current food after the first boiling stage. No exact time, temperature or objective degree is measured.\", \"form\": \"keeedal\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 observation-stage \\u2192 observed-appearance\", \"value\": \"SEEMS_MODERATELY_BOILED\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × observation-stage → observed-appearance",
+        "raw_group": {
+          "form": "keeedal",
+          "source_id": "ZL3b|f107v.45|G005",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 4,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 6,
+        "form": "shedy",
+        "literal_entry": {
+          "form": "shedy",
+          "value": "DISCARD",
+          "type": "agent × liquid → prescribed-disposal",
+          "denotation": "Pour away the selected water; does not silently remove the food or every liquid belonging to it.",
+          "positions": [
+            6
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:6",
+          "content_json": "{\"denotation\": \"Pour away the selected water; does not silently remove the food or every liquid belonging to it.\", \"form\": \"shedy\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 liquid \\u2192 prescribed-disposal\", \"value\": \"DISCARD\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "agent × liquid → prescribed-disposal",
+        "raw_group": {
+          "form": "shedy",
+          "source_id": "ZL3b|f107v.45|G006",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 5,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 7,
+        "form": "okeeolkcheey",
+        "literal_entry": {
+          "form": "okeeolkcheey",
+          "value": "FIRST",
+          "type": "ordered-water-context × WATER → water-reference",
+          "denotation": "Select the former member W0 of this preparation’s water sequence. Its noun argument is position9 across position8.",
+          "positions": [
+            7
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:7",
+          "content_json": "{\"denotation\": \"Select the former member W0 of this preparation\\u2019s water sequence. Its noun argument is position9 across position8.\", \"form\": \"okeeolkcheey\", \"kind\": \"lexical-description\", \"type\": \"ordered-water-context \\u00d7 WATER \\u2192 water-reference\", \"value\": \"FIRST\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "ordered-water-context × WATER → water-reference",
+        "raw_group": {
+          "form": "okeeolkcheey",
+          "source_id": "ZL3b|f107v.45|G007",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 6,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 8,
+        "form": "lkar",
+        "literal_entry": {
+          "form": "lkar",
+          "value": "IMMEDIATE_TRANSFER",
+          "type": "agent × food × destination-water → prescribed-event",
+          "denotation": "One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.",
+          "positions": [
+            8
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:8",
+          "content_json": "{\"denotation\": \"One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.\", \"form\": \"lkar\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 food \\u00d7 destination-water \\u2192 prescribed-event\", \"value\": \"IMMEDIATE_TRANSFER\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "agent × food × destination-water → prescribed-event",
+        "raw_group": {
+          "form": "lkar",
+          "source_id": "ZL3b|f107v.45|G008",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 7,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 9,
+        "form": "aiin",
+        "operations": [
+          "aN"
+        ],
+        "status": "BOUND_REFERENCE",
+        "actual_return": {
+          "id": "ref:1:written:8",
+          "record": {
+            "id": "written:8",
+            "content_json": "{\"denotation\": \"One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.\", \"form\": \"lkar\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 food \\u00d7 destination-water \\u2192 prescribed-event\", \"value\": \"IMMEDIATE_TRANSFER\"}",
+            "dependencies": [],
+            "completed": true
+          }
+        },
+        "licensed_later_meaningful_consumer": false,
+        "raw_group": {
+          "form": "aiin",
+          "source_id": "ZL3b|f107v.45|G009",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 8,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 10,
+        "form": "al",
+        "literal_entry": {
+          "form": "al",
+          "value": "IN",
+          "type": "food × liquid-medium → containment-relation",
+          "denotation": "Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.",
+          "positions": [
+            10,
+            15
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:10",
+          "content_json": "{\"denotation\": \"Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.\", \"form\": \"al\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 liquid-medium \\u2192 containment-relation\", \"value\": \"IN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × liquid-medium → containment-relation",
+        "raw_group": {
+          "form": "al",
+          "source_id": "ZL3b|f107v.45|G010",
+          "locus": "f107v.45",
+          "row": 4754,
+          "offset": 0,
+          "within_line": 9,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 11,
+        "form": "soain",
+        "literal_entry": {
+          "form": "soain",
+          "value": "OTHER",
+          "type": "water-reference × WATER → distinct-water-reference",
+          "denotation": "Introduces W1 distinct from previously selected W0, with the same water kind.",
+          "positions": [
+            11
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:11",
+          "content_json": "{\"denotation\": \"Introduces W1 distinct from previously selected W0, with the same water kind.\", \"form\": \"soain\", \"kind\": \"lexical-description\", \"type\": \"water-reference \\u00d7 WATER \\u2192 distinct-water-reference\", \"value\": \"OTHER\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "water-reference × WATER → distinct-water-reference",
+        "raw_group": {
+          "form": "soain",
+          "source_id": "ZL3b|f107v.46|G001",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 0,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 12,
+        "form": "aiin",
+        "operations": [
+          "aN"
+        ],
+        "status": "BOUND_REFERENCE",
+        "actual_return": {
+          "id": "ref:2:written:11",
+          "record": {
+            "id": "written:11",
+            "content_json": "{\"denotation\": \"Introduces W1 distinct from previously selected W0, with the same water kind.\", \"form\": \"soain\", \"kind\": \"lexical-description\", \"type\": \"water-reference \\u00d7 WATER \\u2192 distinct-water-reference\", \"value\": \"OTHER\"}",
+            "dependencies": [],
+            "completed": true
+          }
+        },
+        "licensed_later_meaningful_consumer": false,
+        "raw_group": {
+          "form": "aiin",
+          "source_id": "ZL3b|f107v.46|G002",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 1,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 13,
+        "form": "chey",
+        "literal_entry": {
+          "form": "chey",
+          "value": "LIQUID",
+          "type": "liquid-kind",
+          "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+          "positions": [
+            13,
+            36,
+            40,
+            44
+          ],
+          "count": 4,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:13",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "liquid-kind",
+        "raw_group": {
+          "form": "chey",
+          "source_id": "ZL3b|f107v.46|G003",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 2,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 14,
+        "form": "qolaiin",
+        "literal_entry": {
+          "form": "qolaiin",
+          "value": "HOT",
+          "type": "liquid → property",
+          "denotation": "HOT(W1), no numeric temperature or patient state.",
+          "positions": [
+            14
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:14",
+          "content_json": "{\"denotation\": \"HOT(W1), no numeric temperature or patient state.\", \"form\": \"qolaiin\", \"kind\": \"lexical-description\", \"type\": \"liquid \\u2192 property\", \"value\": \"HOT\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "liquid → property",
+        "raw_group": {
+          "form": "qolaiin",
+          "source_id": "ZL3b|f107v.46|G004",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 3,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 15,
+        "form": "al",
+        "literal_entry": {
+          "form": "al",
+          "value": "IN",
+          "type": "food × liquid-medium → containment-relation",
+          "denotation": "Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.",
+          "positions": [
+            10,
+            15
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:15",
+          "content_json": "{\"denotation\": \"Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.\", \"form\": \"al\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 liquid-medium \\u2192 containment-relation\", \"value\": \"IN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × liquid-medium → containment-relation",
+        "raw_group": {
+          "form": "al",
+          "source_id": "ZL3b|f107v.46|G005",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 4,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 16,
+        "form": "chedy",
+        "literal_entry": {
+          "form": "chedy",
+          "value": "THAT_WATER",
+          "type": "active-water-context → water-reference",
+          "denotation": "Resumes the W1 introduced by OTHER WATER, not W0.",
+          "positions": [
+            16
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:16",
+          "content_json": "{\"denotation\": \"Resumes the W1 introduced by OTHER WATER, not W0.\", \"form\": \"chedy\", \"kind\": \"lexical-description\", \"type\": \"active-water-context \\u2192 water-reference\", \"value\": \"THAT_WATER\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "active-water-context → water-reference",
+        "raw_group": {
+          "form": "chedy",
+          "source_id": "ZL3b|f107v.46|G006",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 5,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 17,
+        "form": "kedy",
+        "literal_entry": {
+          "form": "kedy",
+          "value": "THOROUGH_REBOIL",
+          "type": "food × water × prior-boil-event → prescribed-event",
+          "denotation": "Composite AGAIN + thorough BOIL. Introduces a second boiling event, distinct from the first moderately boiled appearance. Its internal three-part content is counted as a lexical cost.",
+          "positions": [
+            17
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:17",
+          "content_json": "{\"denotation\": \"Composite AGAIN + thorough BOIL. Introduces a second boiling event, distinct from the first moderately boiled appearance. Its internal three-part content is counted as a lexical cost.\", \"form\": \"kedy\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 water \\u00d7 prior-boil-event \\u2192 prescribed-event\", \"value\": \"THOROUGH_REBOIL\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × water × prior-boil-event → prescribed-event",
+        "raw_group": {
+          "form": "kedy",
+          "source_id": "ZL3b|f107v.46|G007",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 6,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 18,
+        "form": "qoteey",
+        "literal_entry": {
+          "form": "qoteey",
+          "value": "UNTIL",
+          "type": "event × endpoint-predicate → endpoint-instruction",
+          "denotation": "SOFT is the instructed endpoint; UNTIL does not guarantee eventual reachability.",
+          "positions": [
+            18
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:18",
+          "content_json": "{\"denotation\": \"SOFT is the instructed endpoint; UNTIL does not guarantee eventual reachability.\", \"form\": \"qoteey\", \"kind\": \"lexical-description\", \"type\": \"event \\u00d7 endpoint-predicate \\u2192 endpoint-instruction\", \"value\": \"UNTIL\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "event × endpoint-predicate → endpoint-instruction",
+        "raw_group": {
+          "form": "qoteey",
+          "source_id": "ZL3b|f107v.46|G008",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 7,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 19,
+        "form": "oteey",
+        "literal_entry": {
+          "form": "oteey",
+          "value": "BOILED_FOOD",
+          "type": "cooked-food-kind",
+          "denotation": "Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.",
+          "positions": [
+            19,
+            38
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:19",
+          "content_json": "{\"denotation\": \"Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.\", \"form\": \"oteey\", \"kind\": \"lexical-description\", \"type\": \"cooked-food-kind\", \"value\": \"BOILED_FOOD\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "cooked-food-kind",
+        "raw_group": {
+          "form": "oteey",
+          "source_id": "ZL3b|f107v.46|G009",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 8,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 20,
+        "form": "qokeeylkain",
+        "literal_entry": {
+          "form": "qokeeylkain",
+          "value": "SOFT",
+          "type": "food → preparation-property",
+          "denotation": "Softness endpoint of the same food; not successful drying or evacuation.",
+          "positions": [
+            20
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:20",
+          "content_json": "{\"denotation\": \"Softness endpoint of the same food; not successful drying or evacuation.\", \"form\": \"qokeeylkain\", \"kind\": \"lexical-description\", \"type\": \"food \\u2192 preparation-property\", \"value\": \"SOFT\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food → preparation-property",
+        "raw_group": {
+          "form": "qokeeylkain",
+          "source_id": "ZL3b|f107v.46|G010",
+          "locus": "f107v.46",
+          "row": 4755,
+          "offset": 10,
+          "within_line": 9,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 21,
+        "form": "y",
+        "literal_entry": {
+          "form": "y",
+          "value": "FOR",
+          "type": "purpose × discourse-content → purpose-frame",
+          "denotation": "Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.",
+          "positions": [
+            21,
+            29,
+            46
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:21",
+          "content_json": "{\"denotation\": \"Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.\", \"form\": \"y\", \"kind\": \"lexical-description\", \"type\": \"purpose \\u00d7 discourse-content \\u2192 purpose-frame\", \"value\": \"FOR\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "purpose × discourse-content → purpose-frame",
+        "raw_group": {
+          "form": "y",
+          "source_id": "ZL3b|f107v.47|G001",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 0,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 22,
+        "form": "cheey",
+        "literal_entry": {
+          "form": "cheey",
+          "value": "EVACUATION",
+          "type": "clinical-purpose",
+          "denotation": "Same evacuation goal at22/47, resumed by THIS_USE30.",
+          "positions": [
+            22,
+            47
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:22",
+          "content_json": "{\"denotation\": \"Same evacuation goal at22/47, resumed by THIS_USE30.\", \"form\": \"cheey\", \"kind\": \"lexical-description\", \"type\": \"clinical-purpose\", \"value\": \"EVACUATION\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "clinical-purpose",
+        "raw_group": {
+          "form": "cheey",
+          "source_id": "ZL3b|f107v.47|G002",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 1,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 23,
+        "form": "qokeey",
+        "literal_entry": {
+          "form": "qokeey",
+          "value": "BOIL",
+          "type": "food × cooking-history → process",
+          "denotation": "One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.",
+          "positions": [
+            23,
+            27,
+            45
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:23",
+          "content_json": "{\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × cooking-history → process",
+        "raw_group": {
+          "form": "qokeey",
+          "source_id": "ZL3b|f107v.47|G003",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 2,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 24,
+        "form": "okeoteey",
+        "literal_entry": {
+          "form": "okeoteey",
+          "value": "NOT",
+          "type": "norm-content → prohibition",
+          "denotation": "In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.",
+          "positions": [
+            24
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:24",
+          "content_json": "{\"denotation\": \"In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.\", \"form\": \"okeoteey\", \"kind\": \"lexical-description\", \"type\": \"norm-content \\u2192 prohibition\", \"value\": \"NOT\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "norm-content → prohibition",
+        "raw_group": {
+          "form": "okeoteey",
+          "source_id": "ZL3b|f107v.47|G004",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 3,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 25,
+        "form": "qokey",
+        "literal_entry": {
+          "form": "qokey",
+          "value": "FULLY",
+          "type": "completion-bearing-predicate → completed-predicate",
+          "denotation": "One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.",
+          "positions": [
+            25,
+            26,
+            33
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "construct:25",
+          "content_json": "{\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}",
+          "dependencies": [
+            "written:23",
+            "written:24",
+            "written:25"
+          ],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "completion-bearing-predicate → completed-predicate",
+        "raw_group": {
+          "form": "qokey",
+          "source_id": "ZL3b|f107v.47|G005",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 4,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 26,
+        "form": "qokey",
+        "literal_entry": {
+          "form": "qokey",
+          "value": "FULLY",
+          "type": "completion-bearing-predicate → completed-predicate",
+          "denotation": "One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.",
+          "positions": [
+            25,
+            26,
+            33
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:26",
+          "content_json": "{\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "completion-bearing-predicate → completed-predicate",
+        "raw_group": {
+          "form": "qokey",
+          "source_id": "ZL3b|f107v.47|G006",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 5,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 27,
+        "form": "qokeey",
+        "literal_entry": {
+          "form": "qokeey",
+          "value": "BOIL",
+          "type": "food × cooking-history → process",
+          "denotation": "One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.",
+          "positions": [
+            23,
+            27,
+            45
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "construct:27",
+          "content_json": "{\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}",
+          "dependencies": [
+            "written:26",
+            "written:27",
+            "construct:25"
+          ],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × cooking-history → process",
+        "raw_group": {
+          "form": "qokeey",
+          "source_id": "ZL3b|f107v.47|G007",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 6,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 28,
+        "form": "daiin",
+        "operations": [
+          "d",
+          "aN"
+        ],
+        "status": "BOUND_REFERENCE",
+        "actual_return": {
+          "id": "ref:3:d:construct:27",
+          "record": {
+            "id": "d:construct:27",
+            "content_json": "{\"contribution\": {\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}, \"dependency_closure\": [{\"content\": {\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}, \"id\": \"written:26\"}, {\"content\": {\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}, \"id\": \"written:27\"}, {\"content\": {\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}, \"id\": \"written:23\"}, {\"content\": {\"denotation\": \"In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.\", \"form\": \"okeoteey\", \"kind\": \"lexical-description\", \"type\": \"norm-content \\u2192 prohibition\", \"value\": \"NOT\"}, \"id\": \"written:24\"}, {\"content\": {\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}, \"id\": \"written:25\"}, {\"content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"id\": \"construct:25\"}, {\"content\": {\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}, \"id\": \"construct:27\"}]}",
+            "dependencies": [
+              "written:26",
+              "written:27",
+              "construct:25"
+            ],
+            "completed": true
+          }
+        },
+        "licensed_later_meaningful_consumer": false,
+        "raw_group": {
+          "form": "daiin",
+          "source_id": "ZL3b|f107v.47|G008",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 7,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 29,
+        "form": "y",
+        "literal_entry": {
+          "form": "y",
+          "value": "FOR",
+          "type": "purpose × discourse-content → purpose-frame",
+          "denotation": "Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.",
+          "positions": [
+            21,
+            29,
+            46
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:29",
+          "content_json": "{\"denotation\": \"Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.\", \"form\": \"y\", \"kind\": \"lexical-description\", \"type\": \"purpose \\u00d7 discourse-content \\u2192 purpose-frame\", \"value\": \"FOR\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "purpose × discourse-content → purpose-frame",
+        "raw_group": {
+          "form": "y",
+          "source_id": "ZL3b|f107v.47|G009",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 8,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 30,
+        "form": "okeey",
+        "literal_entry": {
+          "form": "okeey",
+          "value": "THIS_USE",
+          "type": "active-purpose-context → purpose-reference",
+          "denotation": "Resumes the evacuation purpose of C02; no unmarked return to the drying branch.",
+          "positions": [
+            30
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:30",
+          "content_json": "{\"denotation\": \"Resumes the evacuation purpose of C02; no unmarked return to the drying branch.\", \"form\": \"okeey\", \"kind\": \"lexical-description\", \"type\": \"active-purpose-context \\u2192 purpose-reference\", \"value\": \"THIS_USE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "active-purpose-context → purpose-reference",
+        "raw_group": {
+          "form": "okeey",
+          "source_id": "ZL3b|f107v.47|G010",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 9,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 31,
+        "form": "odain",
+        "literal_entry": {
+          "form": "odain",
+          "value": "DESIRE",
+          "type": "agent × desideratum → goal",
+          "denotation": "Same denotation as porain; freely assumed whole-word synonym, counted.",
+          "positions": [
+            31
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:31",
+          "content_json": "{\"denotation\": \"Same denotation as porain; freely assumed whole-word synonym, counted.\", \"form\": \"odain\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 desideratum \\u2192 goal\", \"value\": \"DESIRE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "agent × desideratum → goal",
+        "raw_group": {
+          "form": "odain",
+          "source_id": "ZL3b|f107v.47|G011",
+          "locus": "f107v.47",
+          "row": 4756,
+          "offset": 20,
+          "within_line": 10,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 32,
+        "form": "oteedy",
+        "literal_entry": {
+          "form": "oteedy",
+          "value": "RETAIN",
+          "type": "food × own-liquid × extent → retention-predicate",
+          "denotation": "Retain the food’s own intrinsic liquid/juice. Under DESIRE/AS_POSSIBLE this is a goal, not an observed achieved amount.",
+          "positions": [
+            32
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:32",
+          "content_json": "{\"denotation\": \"Retain the food\\u2019s own intrinsic liquid/juice. Under DESIRE/AS_POSSIBLE this is a goal, not an observed achieved amount.\", \"form\": \"oteedy\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 own-liquid \\u00d7 extent \\u2192 retention-predicate\", \"value\": \"RETAIN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × own-liquid × extent → retention-predicate",
+        "raw_group": {
+          "form": "oteedy",
+          "source_id": "ZL3b|f107v.48|G001",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 0,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 33,
+        "form": "qokey",
+        "literal_entry": {
+          "form": "qokey",
+          "value": "FULLY",
+          "type": "completion-bearing-predicate → completed-predicate",
+          "denotation": "One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.",
+          "positions": [
+            25,
+            26,
+            33
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:33",
+          "content_json": "{\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "completion-bearing-predicate → completed-predicate",
+        "raw_group": {
+          "form": "qokey",
+          "source_id": "ZL3b|f107v.48|G002",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 1,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 34,
+        "form": "qokeedy",
+        "literal_entry": {
+          "form": "qokeedy",
+          "value": "AS_POSSIBLE",
+          "type": "completion-directed-desideratum → qualified-desideratum",
+          "denotation": "Qualify the desired extent as as much/as fully as feasible. No numerical optimum, attained maximum or existence of a maximizing physical state is asserted.",
+          "positions": [
+            34
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:34",
+          "content_json": "{\"denotation\": \"Qualify the desired extent as as much/as fully as feasible. No numerical optimum, attained maximum or existence of a maximizing physical state is asserted.\", \"form\": \"qokeedy\", \"kind\": \"lexical-description\", \"type\": \"completion-directed-desideratum \\u2192 qualified-desideratum\", \"value\": \"AS_POSSIBLE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "completion-directed-desideratum → qualified-desideratum",
+        "raw_group": {
+          "form": "qokeedy",
+          "source_id": "ZL3b|f107v.48|G003",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 2,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 35,
+        "form": "chody",
+        "literal_entry": {
+          "form": "chody",
+          "value": "OWN",
+          "type": "food-owner × LIQUID → owner-dependent-liquid",
+          "denotation": "Select the food’s intrinsic juice, J(owner), rather than the cooking water merely surrounding that owner.",
+          "positions": [
+            35
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:35",
+          "content_json": "{\"denotation\": \"Select the food\\u2019s intrinsic juice, J(owner), rather than the cooking water merely surrounding that owner.\", \"form\": \"chody\", \"kind\": \"lexical-description\", \"type\": \"food-owner \\u00d7 LIQUID \\u2192 owner-dependent-liquid\", \"value\": \"OWN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food-owner × LIQUID → owner-dependent-liquid",
+        "raw_group": {
+          "form": "chody",
+          "source_id": "ZL3b|f107v.48|G004",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 3,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 36,
+        "form": "chey",
+        "literal_entry": {
+          "form": "chey",
+          "value": "LIQUID",
+          "type": "liquid-kind",
+          "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+          "positions": [
+            13,
+            36,
+            40,
+            44
+          ],
+          "count": 4,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:36",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "liquid-kind",
+        "raw_group": {
+          "form": "chey",
+          "source_id": "ZL3b|f107v.48|G005",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 4,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 37,
+        "form": "qoky",
+        "literal_entry": {
+          "form": "qoky",
+          "value": "NO",
+          "type": "kind × predicate → negative-existential",
+          "denotation": "No member of the stated cooked-food kind can satisfy the following complete-retention capability.",
+          "positions": [
+            37
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:37",
+          "content_json": "{\"denotation\": \"No member of the stated cooked-food kind can satisfy the following complete-retention capability.\", \"form\": \"qoky\", \"kind\": \"lexical-description\", \"type\": \"kind \\u00d7 predicate \\u2192 negative-existential\", \"value\": \"NO\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "kind × predicate → negative-existential",
+        "raw_group": {
+          "form": "qoky",
+          "source_id": "ZL3b|f107v.48|G006",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 5,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 38,
+        "form": "oteey",
+        "literal_entry": {
+          "form": "oteey",
+          "value": "BOILED_FOOD",
+          "type": "cooked-food-kind",
+          "denotation": "Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.",
+          "positions": [
+            19,
+            38
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:38",
+          "content_json": "{\"denotation\": \"Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.\", \"form\": \"oteey\", \"kind\": \"lexical-description\", \"type\": \"cooked-food-kind\", \"value\": \"BOILED_FOOD\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "cooked-food-kind",
+        "raw_group": {
+          "form": "oteey",
+          "source_id": "ZL3b|f107v.48|G007",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 6,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 39,
+        "form": "otain",
+        "literal_entry": {
+          "form": "otain",
+          "value": "CAN_RETAIN",
+          "type": "food × own-liquid × extent → retention-capability",
+          "denotation": "Capability to retain at a given extent. It is not an alias of the DESIRE-governed RETAIN verb at32; final COMPLETELY supplies its extent argument.",
+          "positions": [
+            39
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:39",
+          "content_json": "{\"denotation\": \"Capability to retain at a given extent. It is not an alias of the DESIRE-governed RETAIN verb at32; final COMPLETELY supplies its extent argument.\", \"form\": \"otain\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 own-liquid \\u00d7 extent \\u2192 retention-capability\", \"value\": \"CAN_RETAIN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × own-liquid × extent → retention-capability",
+        "raw_group": {
+          "form": "otain",
+          "source_id": "ZL3b|f107v.48|G008",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 7,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 40,
+        "form": "chey",
+        "literal_entry": {
+          "form": "chey",
+          "value": "LIQUID",
+          "type": "liquid-kind",
+          "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+          "positions": [
+            13,
+            36,
+            40,
+            44
+          ],
+          "count": 4,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:40",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "liquid-kind",
+        "raw_group": {
+          "form": "chey",
+          "source_id": "ZL3b|f107v.48|G009",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 8,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 41,
+        "form": "aiinal",
+        "literal_entry": {
+          "form": "aiinal",
+          "value": "COMPLETELY",
+          "type": "retention-extent-modifier",
+          "denotation": "Same completion extent as FULLY when applied to retention. Its scope is the embedded retention extent of CAN_RETAIN, not completion of an ability itself. This is one freely assumed lexical synonym.",
+          "positions": [
+            41
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:41",
+          "content_json": "{\"denotation\": \"Same completion extent as FULLY when applied to retention. Its scope is the embedded retention extent of CAN_RETAIN, not completion of an ability itself. This is one freely assumed lexical synonym.\", \"form\": \"aiinal\", \"kind\": \"lexical-description\", \"type\": \"retention-extent-modifier\", \"value\": \"COMPLETELY\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "retention-extent-modifier",
+        "raw_group": {
+          "form": "aiinal",
+          "source_id": "ZL3b|f107v.48|G010",
+          "locus": "f107v.48",
+          "row": 4757,
+          "offset": 31,
+          "within_line": 9,
+          "start": false,
+          "end": false,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 42,
+        "form": "ycheosaiin",
+        "literal_entry": {
+          "form": "ycheosaiin",
+          "value": "LONGER",
+          "type": "matched-boiling-histories → qualitative-duration-order",
+          "denotation": "Compare longer with shorter relevant histories; no minutes or universal unbounded continuous-time law.",
+          "positions": [
+            42
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:42",
+          "content_json": "{\"denotation\": \"Compare longer with shorter relevant histories; no minutes or universal unbounded continuous-time law.\", \"form\": \"ycheosaiin\", \"kind\": \"lexical-description\", \"type\": \"matched-boiling-histories \\u2192 qualitative-duration-order\", \"value\": \"LONGER\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "matched-boiling-histories → qualitative-duration-order",
+        "raw_group": {
+          "form": "ycheosaiin",
+          "source_id": "ZL3b|f107v.49|G001",
+          "locus": "f107v.49",
+          "row": 4758,
+          "offset": 41,
+          "within_line": 0,
+          "start": false,
+          "end": true,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 43,
+        "form": "oekey",
+        "literal_entry": {
+          "form": "oekey",
+          "value": "MORE",
+          "type": "matched-losses → qualitative-loss-order",
+          "denotation": "Greater own-juice loss in the corresponding history; no fraction or invented measured amount.",
+          "positions": [
+            43
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:43",
+          "content_json": "{\"denotation\": \"Greater own-juice loss in the corresponding history; no fraction or invented measured amount.\", \"form\": \"oekey\", \"kind\": \"lexical-description\", \"type\": \"matched-losses \\u2192 qualitative-loss-order\", \"value\": \"MORE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "matched-losses → qualitative-loss-order",
+        "raw_group": {
+          "form": "oekey",
+          "source_id": "ZL3b|f107v.49|G002",
+          "locus": "f107v.49",
+          "row": 4758,
+          "offset": 41,
+          "within_line": 1,
+          "start": false,
+          "end": true,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 44,
+        "form": "chey",
+        "literal_entry": {
+          "form": "chey",
+          "value": "LIQUID",
+          "type": "liquid-kind",
+          "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+          "positions": [
+            13,
+            36,
+            40,
+            44
+          ],
+          "count": 4,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:44",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "liquid-kind",
+        "raw_group": {
+          "form": "chey",
+          "source_id": "ZL3b|f107v.49|G003",
+          "locus": "f107v.49",
+          "row": 4758,
+          "offset": 41,
+          "within_line": 2,
+          "start": false,
+          "end": true,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 45,
+        "form": "qokeey",
+        "literal_entry": {
+          "form": "qokeey",
+          "value": "BOIL",
+          "type": "food × cooking-history → process",
+          "denotation": "One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.",
+          "positions": [
+            23,
+            27,
+            45
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:45",
+          "content_json": "{\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × cooking-history → process",
+        "raw_group": {
+          "form": "qokeey",
+          "source_id": "ZL3b|f107v.49|G004",
+          "locus": "f107v.49",
+          "row": 4758,
+          "offset": 41,
+          "within_line": 3,
+          "start": false,
+          "end": true,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 46,
+        "form": "y",
+        "literal_entry": {
+          "form": "y",
+          "value": "FOR",
+          "type": "purpose × discourse-content → purpose-frame",
+          "denotation": "Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.",
+          "positions": [
+            21,
+            29,
+            46
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:46",
+          "content_json": "{\"denotation\": \"Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.\", \"form\": \"y\", \"kind\": \"lexical-description\", \"type\": \"purpose \\u00d7 discourse-content \\u2192 purpose-frame\", \"value\": \"FOR\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "purpose × discourse-content → purpose-frame",
+        "raw_group": {
+          "form": "y",
+          "source_id": "ZL3b|f107v.49|G005",
+          "locus": "f107v.49",
+          "row": 4758,
+          "offset": 41,
+          "within_line": 4,
+          "start": false,
+          "end": true,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 47,
+        "form": "cheey",
+        "literal_entry": {
+          "form": "cheey",
+          "value": "EVACUATION",
+          "type": "clinical-purpose",
+          "denotation": "Same evacuation goal at22/47, resumed by THIS_USE30.",
+          "positions": [
+            22,
+            47
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:47",
+          "content_json": "{\"denotation\": \"Same evacuation goal at22/47, resumed by THIS_USE30.\", \"form\": \"cheey\", \"kind\": \"lexical-description\", \"type\": \"clinical-purpose\", \"value\": \"EVACUATION\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "clinical-purpose",
+        "raw_group": {
+          "form": "cheey",
+          "source_id": "ZL3b|f107v.49|G006",
+          "locus": "f107v.49",
+          "row": 4758,
+          "offset": 41,
+          "within_line": 5,
+          "start": false,
+          "end": true,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 48,
+        "form": "dy",
+        "literal_entry": {
+          "form": "dy",
+          "value": "LOSE",
+          "type": "food × own-liquid × cooking-history → loss-relation",
+          "denotation": "Loss of own juice during boiling; the word does not encode a clinical effect.",
+          "positions": [
+            48
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:48",
+          "content_json": "{\"denotation\": \"Loss of own juice during boiling; the word does not encode a clinical effect.\", \"form\": \"dy\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 own-liquid \\u00d7 cooking-history \\u2192 loss-relation\", \"value\": \"LOSE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × own-liquid × cooking-history → loss-relation",
+        "raw_group": {
+          "form": "dy",
+          "source_id": "ZL3b|f107v.49|G007",
+          "locus": "f107v.49",
+          "row": 4758,
+          "offset": 41,
+          "within_line": 6,
+          "start": false,
+          "end": true,
+          "anchor_eligible": false
+        }
+      },
+      {
+        "position": 49,
+        "form": "qoy",
+        "literal_entry": {
+          "form": "qoy",
+          "value": "THEREFORE",
+          "type": "reason × prior-policy → inferential-discourse-link",
+          "denotation": "Connect the final loss comparison to the earlier evacuation policy/rationale; it is not a newly executed cooking step.",
+          "positions": [
+            49
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:49",
+          "content_json": "{\"denotation\": \"Connect the final loss comparison to the earlier evacuation policy/rationale; it is not a newly executed cooking step.\", \"form\": \"qoy\", \"kind\": \"lexical-description\", \"type\": \"reason \\u00d7 prior-policy \\u2192 inferential-discourse-link\", \"value\": \"THEREFORE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "reason × prior-policy → inferential-discourse-link",
+        "raw_group": {
+          "form": "qoy",
+          "source_id": "ZL3b|f107v.49|G008",
+          "locus": "f107v.49",
+          "row": 4758,
+          "offset": 41,
+          "within_line": 7,
+          "start": false,
+          "end": true,
+          "anchor_eligible": false
+        }
+      }
+    ],
+    "water_applications": [
+      {
+        "position": 7,
+        "status": "TYPED_BARRIER",
+        "operator": "FIRST",
+        "required_noun_type": "WATER",
+        "projection": {
+          "status": "MISSING_TYPED_FIELD",
+          "field": "WATER",
+          "actual_type": "BoundDescriptionRef",
+          "retained_content": {
+            "denotation": "One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.",
+            "form": "lkar",
+            "kind": "lexical-description",
+            "type": "agent × food × destination-water → prescribed-event",
+            "value": "IMMEDIATE_TRANSFER"
+          }
+        },
+        "required_context_type": "ordered-water-context",
+        "context_supplied": false,
+        "later_predicate": null
+      },
+      {
+        "position": 11,
+        "status": "TYPED_BARRIER",
+        "operator": "OTHER",
+        "required_noun_type": "WATER",
+        "projection": {
+          "status": "MISSING_TYPED_FIELD",
+          "field": "WATER",
+          "actual_type": "BoundDescriptionRef",
+          "retained_content": {
+            "denotation": "Introduces W1 distinct from previously selected W0, with the same water kind.",
+            "form": "soain",
+            "kind": "lexical-description",
+            "type": "water-reference × WATER → distinct-water-reference",
+            "value": "OTHER"
+          }
+        },
+        "required_context_type": "water-reference",
+        "context_supplied": false,
+        "later_predicate": null
+      }
+    ],
+    "retained_references": [
+      {
+        "id": "ref:1:written:8",
+        "record": {
+          "id": "written:8",
+          "content_json": "{\"denotation\": \"One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.\", \"form\": \"lkar\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 food \\u00d7 destination-water \\u2192 prescribed-event\", \"value\": \"IMMEDIATE_TRANSFER\"}",
+          "dependencies": [],
+          "completed": true
+        }
+      },
+      {
+        "id": "ref:2:written:11",
+        "record": {
+          "id": "written:11",
+          "content_json": "{\"denotation\": \"Introduces W1 distinct from previously selected W0, with the same water kind.\", \"form\": \"soain\", \"kind\": \"lexical-description\", \"type\": \"water-reference \\u00d7 WATER \\u2192 distinct-water-reference\", \"value\": \"OTHER\"}",
+          "dependencies": [],
+          "completed": true
+        }
+      },
+      {
+        "id": "ref:3:d:construct:27",
+        "record": {
+          "id": "d:construct:27",
+          "content_json": "{\"contribution\": {\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}, \"dependency_closure\": [{\"content\": {\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}, \"id\": \"written:26\"}, {\"content\": {\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}, \"id\": \"written:27\"}, {\"content\": {\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}, \"id\": \"written:23\"}, {\"content\": {\"denotation\": \"In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.\", \"form\": \"okeoteey\", \"kind\": \"lexical-description\", \"type\": \"norm-content \\u2192 prohibition\", \"value\": \"NOT\"}, \"id\": \"written:24\"}, {\"content\": {\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}, \"id\": \"written:25\"}, {\"content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"id\": \"construct:25\"}, {\"content\": {\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}, \"id\": \"construct:27\"}]}",
+          "dependencies": [
+            "written:26",
+            "written:27",
+            "construct:25"
+          ],
+          "completed": true
+        }
+      }
+    ],
+    "quoted_reference_consumer": "NO_LICENSED_LATER_CONSUMER_OR_EXPLANATORY_RULE",
+    "meaningful_content_sensitivity": "NOT_ESTABLISHED",
+    "complete_connected_reading": false,
+    "reader": "ZL3b",
+    "raw_record": {
+      "id": "f107v|f107v.45-f107v.49",
+      "page": "f107v",
+      "leaf": 107,
+      "lines": [
+        {
+          "locus": "f107v.45",
+          "row": 4754,
+          "start": true,
+          "end": false,
+          "words": [
+            "porain",
+            "okain",
+            "okechdy",
+            "dal",
+            "keeedal",
+            "shedy",
+            "okeeolkcheey",
+            "lkar",
+            "aiin",
+            "al"
+          ],
+          "source_ids": [
+            "ZL3b|f107v.45|G001",
+            "ZL3b|f107v.45|G002",
+            "ZL3b|f107v.45|G003",
+            "ZL3b|f107v.45|G004",
+            "ZL3b|f107v.45|G005",
+            "ZL3b|f107v.45|G006",
+            "ZL3b|f107v.45|G007",
+            "ZL3b|f107v.45|G008",
+            "ZL3b|f107v.45|G009",
+            "ZL3b|f107v.45|G010"
+          ],
+          "anchor_eligible": true,
+          "offset": 0
+        },
+        {
+          "locus": "f107v.46",
+          "row": 4755,
+          "start": false,
+          "end": false,
+          "words": [
+            "soain",
+            "aiin",
+            "chey",
+            "qolaiin",
+            "al",
+            "chedy",
+            "kedy",
+            "qoteey",
+            "oteey",
+            "qokeeylkain"
+          ],
+          "source_ids": [
+            "ZL3b|f107v.46|G001",
+            "ZL3b|f107v.46|G002",
+            "ZL3b|f107v.46|G003",
+            "ZL3b|f107v.46|G004",
+            "ZL3b|f107v.46|G005",
+            "ZL3b|f107v.46|G006",
+            "ZL3b|f107v.46|G007",
+            "ZL3b|f107v.46|G008",
+            "ZL3b|f107v.46|G009",
+            "ZL3b|f107v.46|G010"
+          ],
+          "anchor_eligible": true,
+          "offset": 10
+        },
+        {
+          "locus": "f107v.47",
+          "row": 4756,
+          "start": false,
+          "end": false,
+          "words": [
+            "y",
+            "cheey",
+            "qokeey",
+            "okeoteey",
+            "qokey",
+            "qokey",
+            "qokeey",
+            "daiin",
+            "y",
+            "okeey",
+            "odain"
+          ],
+          "source_ids": [
+            "ZL3b|f107v.47|G001",
+            "ZL3b|f107v.47|G002",
+            "ZL3b|f107v.47|G003",
+            "ZL3b|f107v.47|G004",
+            "ZL3b|f107v.47|G005",
+            "ZL3b|f107v.47|G006",
+            "ZL3b|f107v.47|G007",
+            "ZL3b|f107v.47|G008",
+            "ZL3b|f107v.47|G009",
+            "ZL3b|f107v.47|G010",
+            "ZL3b|f107v.47|G011"
+          ],
+          "anchor_eligible": false,
+          "offset": 20
+        },
+        {
+          "locus": "f107v.48",
+          "row": 4757,
+          "start": false,
+          "end": false,
+          "words": [
+            "oteedy",
+            "qokey",
+            "qokeedy",
+            "chody",
+            "chey",
+            "qoky",
+            "oteey",
+            "otain",
+            "chey",
+            "aiinal"
+          ],
+          "source_ids": [
+            "ZL3b|f107v.48|G001",
+            "ZL3b|f107v.48|G002",
+            "ZL3b|f107v.48|G003",
+            "ZL3b|f107v.48|G004",
+            "ZL3b|f107v.48|G005",
+            "ZL3b|f107v.48|G006",
+            "ZL3b|f107v.48|G007",
+            "ZL3b|f107v.48|G008",
+            "ZL3b|f107v.48|G009",
+            "ZL3b|f107v.48|G010"
+          ],
+          "anchor_eligible": false,
+          "offset": 31
+        },
+        {
+          "locus": "f107v.49",
+          "row": 4758,
+          "start": false,
+          "end": true,
+          "words": [
+            "ycheosaiin",
+            "oekey",
+            "chey",
+            "qokeey",
+            "y",
+            "cheey",
+            "dy",
+            "qoy"
+          ],
+          "source_ids": [
+            "ZL3b|f107v.49|G001",
+            "ZL3b|f107v.49|G002",
+            "ZL3b|f107v.49|G003",
+            "ZL3b|f107v.49|G004",
+            "ZL3b|f107v.49|G005",
+            "ZL3b|f107v.49|G006",
+            "ZL3b|f107v.49|G007",
+            "ZL3b|f107v.49|G008"
+          ],
+          "anchor_eligible": false,
+          "offset": 41
+        }
+      ],
+      "groups": 49
+    }
+  },
+  "IT2a": {
+    "status": "PARTIAL_NO_CAPACITY",
+    "trace": [
+      {
+        "position": 1,
+        "form": "porain",
+        "literal_entry": {
+          "form": "porain",
+          "value": "DESIRE",
+          "type": "agent × desideratum → goal",
+          "denotation": "An agent desires the following purpose or predicate; no achievement entailed.",
+          "positions": [
+            1
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:1",
+          "content_json": "{\"denotation\": \"An agent desires the following purpose or predicate; no achievement entailed.\", \"form\": \"porain\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 desideratum \\u2192 goal\", \"value\": \"DESIRE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "agent × desideratum → goal",
+        "raw_group": {
+          "form": "porain",
+          "source_id": "IT2a|f107v.45|G001",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 0,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 2,
+        "form": "okain",
+        "literal_entry": {
+          "form": "okain",
+          "value": "DRY",
+          "type": "belly → clinical-purpose",
+          "denotation": "Drying is the intended medical purpose, not a successful physiological effect.",
+          "positions": [
+            2
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:2",
+          "content_json": "{\"denotation\": \"Drying is the intended medical purpose, not a successful physiological effect.\", \"form\": \"okain\", \"kind\": \"lexical-description\", \"type\": \"belly \\u2192 clinical-purpose\", \"value\": \"DRY\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "belly → clinical-purpose",
+        "raw_group": {
+          "form": "okain",
+          "source_id": "IT2a|f107v.45|G002",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 1,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 3,
+        "form": "okechdy",
+        "literal_entry": {
+          "form": "okechdy",
+          "value": "MOIST_BELLY",
+          "type": "belly-description",
+          "denotation": "One compound noun phrase: belly characterized as moist.",
+          "positions": [
+            3
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:3",
+          "content_json": "{\"denotation\": \"One compound noun phrase: belly characterized as moist.\", \"form\": \"okechdy\", \"kind\": \"lexical-description\", \"type\": \"belly-description\", \"value\": \"MOIST_BELLY\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "belly-description",
+        "raw_group": {
+          "form": "okechdy",
+          "source_id": "IT2a|f107v.45|G003",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 2,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 4,
+        "form": "dal",
+        "literal_entry": {
+          "form": "dal",
+          "value": "WHEN",
+          "type": "guard × policy → guarded-policy",
+          "denotation": "Introduces the observation guard; does not assert its satisfaction in an actual patient or cook.",
+          "positions": [
+            4
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:4",
+          "content_json": "{\"denotation\": \"Introduces the observation guard; does not assert its satisfaction in an actual patient or cook.\", \"form\": \"dal\", \"kind\": \"lexical-description\", \"type\": \"guard \\u00d7 policy \\u2192 guarded-policy\", \"value\": \"WHEN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "guard × policy → guarded-policy",
+        "raw_group": {
+          "form": "dal",
+          "source_id": "IT2a|f107v.45|G004",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 3,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 5,
+        "form": "keeedal",
+        "literal_entry": {
+          "form": "keeedal",
+          "value": "SEEMS_MODERATELY_BOILED",
+          "type": "food × observation-stage → observed-appearance",
+          "denotation": "Composite observation predicate on the current food after the first boiling stage. No exact time, temperature or objective degree is measured.",
+          "positions": [
+            5
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:5",
+          "content_json": "{\"denotation\": \"Composite observation predicate on the current food after the first boiling stage. No exact time, temperature or objective degree is measured.\", \"form\": \"keeedal\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 observation-stage \\u2192 observed-appearance\", \"value\": \"SEEMS_MODERATELY_BOILED\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × observation-stage → observed-appearance",
+        "raw_group": {
+          "form": "keeedal",
+          "source_id": "IT2a|f107v.45|G005",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 4,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 6,
+        "form": "shedy",
+        "literal_entry": {
+          "form": "shedy",
+          "value": "DISCARD",
+          "type": "agent × liquid → prescribed-disposal",
+          "denotation": "Pour away the selected water; does not silently remove the food or every liquid belonging to it.",
+          "positions": [
+            6
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:6",
+          "content_json": "{\"denotation\": \"Pour away the selected water; does not silently remove the food or every liquid belonging to it.\", \"form\": \"shedy\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 liquid \\u2192 prescribed-disposal\", \"value\": \"DISCARD\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "agent × liquid → prescribed-disposal",
+        "raw_group": {
+          "form": "shedy",
+          "source_id": "IT2a|f107v.45|G006",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 5,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 7,
+        "form": "okeeolkcheey",
+        "literal_entry": {
+          "form": "okeeolkcheey",
+          "value": "FIRST",
+          "type": "ordered-water-context × WATER → water-reference",
+          "denotation": "Select the former member W0 of this preparation’s water sequence. Its noun argument is position9 across position8.",
+          "positions": [
+            7
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:7",
+          "content_json": "{\"denotation\": \"Select the former member W0 of this preparation\\u2019s water sequence. Its noun argument is position9 across position8.\", \"form\": \"okeeolkcheey\", \"kind\": \"lexical-description\", \"type\": \"ordered-water-context \\u00d7 WATER \\u2192 water-reference\", \"value\": \"FIRST\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "ordered-water-context × WATER → water-reference",
+        "raw_group": {
+          "form": "okeeolkcheey",
+          "source_id": "IT2a|f107v.45|G007",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 6,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 8,
+        "form": "lkar",
+        "literal_entry": {
+          "form": "lkar",
+          "value": "IMMEDIATE_TRANSFER",
+          "type": "agent × food × destination-water → prescribed-event",
+          "denotation": "One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.",
+          "positions": [
+            8
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:8",
+          "content_json": "{\"denotation\": \"One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.\", \"form\": \"lkar\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 food \\u00d7 destination-water \\u2192 prescribed-event\", \"value\": \"IMMEDIATE_TRANSFER\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "agent × food × destination-water → prescribed-event",
+        "raw_group": {
+          "form": "lkar",
+          "source_id": "IT2a|f107v.45|G008",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 7,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 9,
+        "form": "aiin",
+        "operations": [
+          "aN"
+        ],
+        "status": "BOUND_REFERENCE",
+        "actual_return": {
+          "id": "ref:1:written:8",
+          "record": {
+            "id": "written:8",
+            "content_json": "{\"denotation\": \"One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.\", \"form\": \"lkar\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 food \\u00d7 destination-water \\u2192 prescribed-event\", \"value\": \"IMMEDIATE_TRANSFER\"}",
+            "dependencies": [],
+            "completed": true
+          }
+        },
+        "licensed_later_meaningful_consumer": false,
+        "raw_group": {
+          "form": "aiin",
+          "source_id": "IT2a|f107v.45|G009",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 8,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 10,
+        "form": "al",
+        "literal_entry": {
+          "form": "al",
+          "value": "IN",
+          "type": "food × liquid-medium → containment-relation",
+          "denotation": "Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.",
+          "positions": [
+            10,
+            15
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:10",
+          "content_json": "{\"denotation\": \"Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.\", \"form\": \"al\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 liquid-medium \\u2192 containment-relation\", \"value\": \"IN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × liquid-medium → containment-relation",
+        "raw_group": {
+          "form": "al",
+          "source_id": "IT2a|f107v.45|G010",
+          "locus": "f107v.45",
+          "row": 4585,
+          "offset": 0,
+          "within_line": 9,
+          "start": true,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 11,
+        "form": "soain",
+        "literal_entry": {
+          "form": "soain",
+          "value": "OTHER",
+          "type": "water-reference × WATER → distinct-water-reference",
+          "denotation": "Introduces W1 distinct from previously selected W0, with the same water kind.",
+          "positions": [
+            11
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:11",
+          "content_json": "{\"denotation\": \"Introduces W1 distinct from previously selected W0, with the same water kind.\", \"form\": \"soain\", \"kind\": \"lexical-description\", \"type\": \"water-reference \\u00d7 WATER \\u2192 distinct-water-reference\", \"value\": \"OTHER\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "water-reference × WATER → distinct-water-reference",
+        "raw_group": {
+          "form": "soain",
+          "source_id": "IT2a|f107v.46|G001",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 0,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 12,
+        "form": "aiin",
+        "operations": [
+          "aN"
+        ],
+        "status": "BOUND_REFERENCE",
+        "actual_return": {
+          "id": "ref:2:written:11",
+          "record": {
+            "id": "written:11",
+            "content_json": "{\"denotation\": \"Introduces W1 distinct from previously selected W0, with the same water kind.\", \"form\": \"soain\", \"kind\": \"lexical-description\", \"type\": \"water-reference \\u00d7 WATER \\u2192 distinct-water-reference\", \"value\": \"OTHER\"}",
+            "dependencies": [],
+            "completed": true
+          }
+        },
+        "licensed_later_meaningful_consumer": false,
+        "raw_group": {
+          "form": "aiin",
+          "source_id": "IT2a|f107v.46|G002",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 1,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 13,
+        "form": "chey",
+        "literal_entry": {
+          "form": "chey",
+          "value": "LIQUID",
+          "type": "liquid-kind",
+          "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+          "positions": [
+            13,
+            36,
+            40,
+            44
+          ],
+          "count": 4,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:13",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "liquid-kind",
+        "raw_group": {
+          "form": "chey",
+          "source_id": "IT2a|f107v.46|G003",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 2,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 14,
+        "form": "qol",
+        "status": "UNKNOWN_WHOLE_RESIDUAL",
+        "raw_group": {
+          "form": "qol",
+          "source_id": "IT2a|f107v.46|G004",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 3,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 15,
+        "form": "aiin",
+        "operations": [
+          "aN"
+        ],
+        "status": "BOUND_REFERENCE",
+        "actual_return": {
+          "id": "ref:3:written:13",
+          "record": {
+            "id": "written:13",
+            "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+            "dependencies": [],
+            "completed": true
+          }
+        },
+        "licensed_later_meaningful_consumer": false,
+        "raw_group": {
+          "form": "aiin",
+          "source_id": "IT2a|f107v.46|G005",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 4,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 16,
+        "form": "al",
+        "literal_entry": {
+          "form": "al",
+          "value": "IN",
+          "type": "food × liquid-medium → containment-relation",
+          "denotation": "Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.",
+          "positions": [
+            10,
+            15
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:16",
+          "content_json": "{\"denotation\": \"Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.\", \"form\": \"al\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 liquid-medium \\u2192 containment-relation\", \"value\": \"IN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × liquid-medium → containment-relation",
+        "raw_group": {
+          "form": "al",
+          "source_id": "IT2a|f107v.46|G006",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 5,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 17,
+        "form": "chedy",
+        "literal_entry": {
+          "form": "chedy",
+          "value": "THAT_WATER",
+          "type": "active-water-context → water-reference",
+          "denotation": "Resumes the W1 introduced by OTHER WATER, not W0.",
+          "positions": [
+            16
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:17",
+          "content_json": "{\"denotation\": \"Resumes the W1 introduced by OTHER WATER, not W0.\", \"form\": \"chedy\", \"kind\": \"lexical-description\", \"type\": \"active-water-context \\u2192 water-reference\", \"value\": \"THAT_WATER\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "active-water-context → water-reference",
+        "raw_group": {
+          "form": "chedy",
+          "source_id": "IT2a|f107v.46|G007",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 6,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 18,
+        "form": "kedy",
+        "literal_entry": {
+          "form": "kedy",
+          "value": "THOROUGH_REBOIL",
+          "type": "food × water × prior-boil-event → prescribed-event",
+          "denotation": "Composite AGAIN + thorough BOIL. Introduces a second boiling event, distinct from the first moderately boiled appearance. Its internal three-part content is counted as a lexical cost.",
+          "positions": [
+            17
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:18",
+          "content_json": "{\"denotation\": \"Composite AGAIN + thorough BOIL. Introduces a second boiling event, distinct from the first moderately boiled appearance. Its internal three-part content is counted as a lexical cost.\", \"form\": \"kedy\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 water \\u00d7 prior-boil-event \\u2192 prescribed-event\", \"value\": \"THOROUGH_REBOIL\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × water × prior-boil-event → prescribed-event",
+        "raw_group": {
+          "form": "kedy",
+          "source_id": "IT2a|f107v.46|G008",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 7,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 19,
+        "form": "qoteey",
+        "literal_entry": {
+          "form": "qoteey",
+          "value": "UNTIL",
+          "type": "event × endpoint-predicate → endpoint-instruction",
+          "denotation": "SOFT is the instructed endpoint; UNTIL does not guarantee eventual reachability.",
+          "positions": [
+            18
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:19",
+          "content_json": "{\"denotation\": \"SOFT is the instructed endpoint; UNTIL does not guarantee eventual reachability.\", \"form\": \"qoteey\", \"kind\": \"lexical-description\", \"type\": \"event \\u00d7 endpoint-predicate \\u2192 endpoint-instruction\", \"value\": \"UNTIL\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "event × endpoint-predicate → endpoint-instruction",
+        "raw_group": {
+          "form": "qoteey",
+          "source_id": "IT2a|f107v.46|G009",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 8,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 20,
+        "form": "oteey",
+        "literal_entry": {
+          "form": "oteey",
+          "value": "BOILED_FOOD",
+          "type": "cooked-food-kind",
+          "denotation": "Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.",
+          "positions": [
+            19,
+            38
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:20",
+          "content_json": "{\"denotation\": \"Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.\", \"form\": \"oteey\", \"kind\": \"lexical-description\", \"type\": \"cooked-food-kind\", \"value\": \"BOILED_FOOD\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "cooked-food-kind",
+        "raw_group": {
+          "form": "oteey",
+          "source_id": "IT2a|f107v.46|G010",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 9,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 21,
+        "form": "qokeey",
+        "literal_entry": {
+          "form": "qokeey",
+          "value": "BOIL",
+          "type": "food × cooking-history → process",
+          "denotation": "One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.",
+          "positions": [
+            23,
+            27,
+            45
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:21",
+          "content_json": "{\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × cooking-history → process",
+        "raw_group": {
+          "form": "qokeey",
+          "source_id": "IT2a|f107v.46|G011",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 10,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 22,
+        "form": "lkain",
+        "status": "UNKNOWN_WHOLE_RESIDUAL",
+        "raw_group": {
+          "form": "lkain",
+          "source_id": "IT2a|f107v.46|G012",
+          "locus": "f107v.46",
+          "row": 4586,
+          "offset": 10,
+          "within_line": 11,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 23,
+        "form": "ycheey",
+        "status": "UNKNOWN_WHOLE_RESIDUAL",
+        "raw_group": {
+          "form": "ycheey",
+          "source_id": "IT2a|f107v.47|G001",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 0,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 24,
+        "form": "qokeey",
+        "literal_entry": {
+          "form": "qokeey",
+          "value": "BOIL",
+          "type": "food × cooking-history → process",
+          "denotation": "One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.",
+          "positions": [
+            23,
+            27,
+            45
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:24",
+          "content_json": "{\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × cooking-history → process",
+        "raw_group": {
+          "form": "qokeey",
+          "source_id": "IT2a|f107v.47|G002",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 1,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 25,
+        "form": "okeoteey",
+        "literal_entry": {
+          "form": "okeoteey",
+          "value": "NOT",
+          "type": "norm-content → prohibition",
+          "denotation": "In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.",
+          "positions": [
+            24
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:25",
+          "content_json": "{\"denotation\": \"In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.\", \"form\": \"okeoteey\", \"kind\": \"lexical-description\", \"type\": \"norm-content \\u2192 prohibition\", \"value\": \"NOT\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "norm-content → prohibition",
+        "raw_group": {
+          "form": "okeoteey",
+          "source_id": "IT2a|f107v.47|G003",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 2,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 26,
+        "form": "qokey",
+        "literal_entry": {
+          "form": "qokey",
+          "value": "FULLY",
+          "type": "completion-bearing-predicate → completed-predicate",
+          "denotation": "One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.",
+          "positions": [
+            25,
+            26,
+            33
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "construct:26",
+          "content_json": "{\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}",
+          "dependencies": [
+            "written:24",
+            "written:25",
+            "written:26"
+          ],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "completion-bearing-predicate → completed-predicate",
+        "raw_group": {
+          "form": "qokey",
+          "source_id": "IT2a|f107v.47|G004",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 3,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 27,
+        "form": "qokey",
+        "literal_entry": {
+          "form": "qokey",
+          "value": "FULLY",
+          "type": "completion-bearing-predicate → completed-predicate",
+          "denotation": "One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.",
+          "positions": [
+            25,
+            26,
+            33
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:27",
+          "content_json": "{\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "completion-bearing-predicate → completed-predicate",
+        "raw_group": {
+          "form": "qokey",
+          "source_id": "IT2a|f107v.47|G005",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 4,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 28,
+        "form": "qokeey",
+        "literal_entry": {
+          "form": "qokeey",
+          "value": "BOIL",
+          "type": "food × cooking-history → process",
+          "denotation": "One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.",
+          "positions": [
+            23,
+            27,
+            45
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "construct:28",
+          "content_json": "{\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}",
+          "dependencies": [
+            "written:27",
+            "written:28",
+            "construct:26"
+          ],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × cooking-history → process",
+        "raw_group": {
+          "form": "qokeey",
+          "source_id": "IT2a|f107v.47|G006",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 5,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 29,
+        "form": "daiin",
+        "operations": [
+          "d",
+          "aN"
+        ],
+        "status": "BOUND_REFERENCE",
+        "actual_return": {
+          "id": "ref:4:d:construct:28",
+          "record": {
+            "id": "d:construct:28",
+            "content_json": "{\"contribution\": {\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}, \"dependency_closure\": [{\"content\": {\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}, \"id\": \"written:27\"}, {\"content\": {\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}, \"id\": \"written:28\"}, {\"content\": {\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}, \"id\": \"written:24\"}, {\"content\": {\"denotation\": \"In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.\", \"form\": \"okeoteey\", \"kind\": \"lexical-description\", \"type\": \"norm-content \\u2192 prohibition\", \"value\": \"NOT\"}, \"id\": \"written:25\"}, {\"content\": {\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}, \"id\": \"written:26\"}, {\"content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"id\": \"construct:26\"}, {\"content\": {\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}, \"id\": \"construct:28\"}]}",
+            "dependencies": [
+              "written:27",
+              "written:28",
+              "construct:26"
+            ],
+            "completed": true
+          }
+        },
+        "licensed_later_meaningful_consumer": false,
+        "raw_group": {
+          "form": "daiin",
+          "source_id": "IT2a|f107v.47|G007",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 6,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 30,
+        "form": "y",
+        "literal_entry": {
+          "form": "y",
+          "value": "FOR",
+          "type": "purpose × discourse-content → purpose-frame",
+          "denotation": "Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.",
+          "positions": [
+            21,
+            29,
+            46
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:30",
+          "content_json": "{\"denotation\": \"Same relation to a use/purpose at21,29,46. C02 norm, C03 reason and C05 relevance scopes are declared by productions; FOR does not itself create a medical effect.\", \"form\": \"y\", \"kind\": \"lexical-description\", \"type\": \"purpose \\u00d7 discourse-content \\u2192 purpose-frame\", \"value\": \"FOR\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "purpose × discourse-content → purpose-frame",
+        "raw_group": {
+          "form": "y",
+          "source_id": "IT2a|f107v.47|G008",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 7,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 31,
+        "form": "okoey",
+        "status": "UNKNOWN_WHOLE_RESIDUAL",
+        "raw_group": {
+          "form": "okoey",
+          "source_id": "IT2a|f107v.47|G009",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 8,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 32,
+        "form": "odain",
+        "literal_entry": {
+          "form": "odain",
+          "value": "DESIRE",
+          "type": "agent × desideratum → goal",
+          "denotation": "Same denotation as porain; freely assumed whole-word synonym, counted.",
+          "positions": [
+            31
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:32",
+          "content_json": "{\"denotation\": \"Same denotation as porain; freely assumed whole-word synonym, counted.\", \"form\": \"odain\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 desideratum \\u2192 goal\", \"value\": \"DESIRE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "agent × desideratum → goal",
+        "raw_group": {
+          "form": "odain",
+          "source_id": "IT2a|f107v.47|G010",
+          "locus": "f107v.47",
+          "row": 4587,
+          "offset": 22,
+          "within_line": 9,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 33,
+        "form": "oteedy",
+        "literal_entry": {
+          "form": "oteedy",
+          "value": "RETAIN",
+          "type": "food × own-liquid × extent → retention-predicate",
+          "denotation": "Retain the food’s own intrinsic liquid/juice. Under DESIRE/AS_POSSIBLE this is a goal, not an observed achieved amount.",
+          "positions": [
+            32
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:33",
+          "content_json": "{\"denotation\": \"Retain the food\\u2019s own intrinsic liquid/juice. Under DESIRE/AS_POSSIBLE this is a goal, not an observed achieved amount.\", \"form\": \"oteedy\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 own-liquid \\u00d7 extent \\u2192 retention-predicate\", \"value\": \"RETAIN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × own-liquid × extent → retention-predicate",
+        "raw_group": {
+          "form": "oteedy",
+          "source_id": "IT2a|f107v.48|G001",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 0,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 34,
+        "form": "qokey",
+        "literal_entry": {
+          "form": "qokey",
+          "value": "FULLY",
+          "type": "completion-bearing-predicate → completed-predicate",
+          "denotation": "One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.",
+          "positions": [
+            25,
+            26,
+            33
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:34",
+          "content_json": "{\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "completion-bearing-predicate → completed-predicate",
+        "raw_group": {
+          "form": "qokey",
+          "source_id": "IT2a|f107v.48|G002",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 1,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 35,
+        "form": "qokeedy",
+        "literal_entry": {
+          "form": "qokeedy",
+          "value": "AS_POSSIBLE",
+          "type": "completion-directed-desideratum → qualified-desideratum",
+          "denotation": "Qualify the desired extent as as much/as fully as feasible. No numerical optimum, attained maximum or existence of a maximizing physical state is asserted.",
+          "positions": [
+            34
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:35",
+          "content_json": "{\"denotation\": \"Qualify the desired extent as as much/as fully as feasible. No numerical optimum, attained maximum or existence of a maximizing physical state is asserted.\", \"form\": \"qokeedy\", \"kind\": \"lexical-description\", \"type\": \"completion-directed-desideratum \\u2192 qualified-desideratum\", \"value\": \"AS_POSSIBLE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "completion-directed-desideratum → qualified-desideratum",
+        "raw_group": {
+          "form": "qokeedy",
+          "source_id": "IT2a|f107v.48|G003",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 2,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 36,
+        "form": "chody",
+        "literal_entry": {
+          "form": "chody",
+          "value": "OWN",
+          "type": "food-owner × LIQUID → owner-dependent-liquid",
+          "denotation": "Select the food’s intrinsic juice, J(owner), rather than the cooking water merely surrounding that owner.",
+          "positions": [
+            35
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:36",
+          "content_json": "{\"denotation\": \"Select the food\\u2019s intrinsic juice, J(owner), rather than the cooking water merely surrounding that owner.\", \"form\": \"chody\", \"kind\": \"lexical-description\", \"type\": \"food-owner \\u00d7 LIQUID \\u2192 owner-dependent-liquid\", \"value\": \"OWN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food-owner × LIQUID → owner-dependent-liquid",
+        "raw_group": {
+          "form": "chody",
+          "source_id": "IT2a|f107v.48|G004",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 3,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 37,
+        "form": "chey",
+        "literal_entry": {
+          "form": "chey",
+          "value": "LIQUID",
+          "type": "liquid-kind",
+          "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+          "positions": [
+            13,
+            36,
+            40,
+            44
+          ],
+          "count": 4,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:37",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "liquid-kind",
+        "raw_group": {
+          "form": "chey",
+          "source_id": "IT2a|f107v.48|G005",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 4,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 38,
+        "form": "qoky",
+        "literal_entry": {
+          "form": "qoky",
+          "value": "NO",
+          "type": "kind × predicate → negative-existential",
+          "denotation": "No member of the stated cooked-food kind can satisfy the following complete-retention capability.",
+          "positions": [
+            37
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:38",
+          "content_json": "{\"denotation\": \"No member of the stated cooked-food kind can satisfy the following complete-retention capability.\", \"form\": \"qoky\", \"kind\": \"lexical-description\", \"type\": \"kind \\u00d7 predicate \\u2192 negative-existential\", \"value\": \"NO\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "kind × predicate → negative-existential",
+        "raw_group": {
+          "form": "qoky",
+          "source_id": "IT2a|f107v.48|G006",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 5,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 39,
+        "form": "oteey",
+        "literal_entry": {
+          "form": "oteey",
+          "value": "BOILED_FOOD",
+          "type": "cooked-food-kind",
+          "denotation": "Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.",
+          "positions": [
+            19,
+            38
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:39",
+          "content_json": "{\"denotation\": \"Same kind at19/38: the current cooked portion at19, a variable of that same kind under NO at38. A new generic binder, not a switch to all objects.\", \"form\": \"oteey\", \"kind\": \"lexical-description\", \"type\": \"cooked-food-kind\", \"value\": \"BOILED_FOOD\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "cooked-food-kind",
+        "raw_group": {
+          "form": "oteey",
+          "source_id": "IT2a|f107v.48|G007",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 6,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 40,
+        "form": "otain",
+        "literal_entry": {
+          "form": "otain",
+          "value": "CAN_RETAIN",
+          "type": "food × own-liquid × extent → retention-capability",
+          "denotation": "Capability to retain at a given extent. It is not an alias of the DESIRE-governed RETAIN verb at32; final COMPLETELY supplies its extent argument.",
+          "positions": [
+            39
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:40",
+          "content_json": "{\"denotation\": \"Capability to retain at a given extent. It is not an alias of the DESIRE-governed RETAIN verb at32; final COMPLETELY supplies its extent argument.\", \"form\": \"otain\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 own-liquid \\u00d7 extent \\u2192 retention-capability\", \"value\": \"CAN_RETAIN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × own-liquid × extent → retention-capability",
+        "raw_group": {
+          "form": "otain",
+          "source_id": "IT2a|f107v.48|G008",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 7,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 41,
+        "form": "chey",
+        "literal_entry": {
+          "form": "chey",
+          "value": "LIQUID",
+          "type": "liquid-kind",
+          "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+          "positions": [
+            13,
+            36,
+            40,
+            44
+          ],
+          "count": 4,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:41",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "liquid-kind",
+        "raw_group": {
+          "form": "chey",
+          "source_id": "IT2a|f107v.48|G009",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 8,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 42,
+        "form": "aiin",
+        "operations": [
+          "aN"
+        ],
+        "status": "BOUND_REFERENCE",
+        "actual_return": {
+          "id": "ref:5:written:41",
+          "record": {
+            "id": "written:41",
+            "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+            "dependencies": [],
+            "completed": true
+          }
+        },
+        "licensed_later_meaningful_consumer": false,
+        "raw_group": {
+          "form": "aiin",
+          "source_id": "IT2a|f107v.48|G010",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 9,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 43,
+        "form": "al",
+        "literal_entry": {
+          "form": "al",
+          "value": "IN",
+          "type": "food × liquid-medium → containment-relation",
+          "denotation": "Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.",
+          "positions": [
+            10,
+            15
+          ],
+          "count": 2,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:43",
+          "content_json": "{\"denotation\": \"Same IN relation in transfer postcondition and the reboil location; no TO-versus-IN word polysemy.\", \"form\": \"al\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 liquid-medium \\u2192 containment-relation\", \"value\": \"IN\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × liquid-medium → containment-relation",
+        "raw_group": {
+          "form": "al",
+          "source_id": "IT2a|f107v.48|G011",
+          "locus": "f107v.48",
+          "row": 4588,
+          "offset": 32,
+          "within_line": 10,
+          "start": false,
+          "end": false,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 44,
+        "form": "ycheo",
+        "status": "UNKNOWN_WHOLE_RESIDUAL",
+        "raw_group": {
+          "form": "ycheo",
+          "source_id": "IT2a|f107v.49|G001",
+          "locus": "f107v.49",
+          "row": 4589,
+          "offset": 43,
+          "within_line": 0,
+          "start": false,
+          "end": true,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 45,
+        "form": "saiin",
+        "status": "UNKNOWN_WHOLE_RESIDUAL",
+        "raw_group": {
+          "form": "saiin",
+          "source_id": "IT2a|f107v.49|G002",
+          "locus": "f107v.49",
+          "row": 4589,
+          "offset": 43,
+          "within_line": 1,
+          "start": false,
+          "end": true,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 46,
+        "form": "oekey",
+        "literal_entry": {
+          "form": "oekey",
+          "value": "MORE",
+          "type": "matched-losses → qualitative-loss-order",
+          "denotation": "Greater own-juice loss in the corresponding history; no fraction or invented measured amount.",
+          "positions": [
+            43
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:46",
+          "content_json": "{\"denotation\": \"Greater own-juice loss in the corresponding history; no fraction or invented measured amount.\", \"form\": \"oekey\", \"kind\": \"lexical-description\", \"type\": \"matched-losses \\u2192 qualitative-loss-order\", \"value\": \"MORE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "matched-losses → qualitative-loss-order",
+        "raw_group": {
+          "form": "oekey",
+          "source_id": "IT2a|f107v.49|G003",
+          "locus": "f107v.49",
+          "row": 4589,
+          "offset": 43,
+          "within_line": 2,
+          "start": false,
+          "end": true,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 47,
+        "form": "chey",
+        "literal_entry": {
+          "form": "chey",
+          "value": "LIQUID",
+          "type": "liquid-kind",
+          "denotation": "Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food’s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.",
+          "positions": [
+            13,
+            36,
+            40,
+            44
+          ],
+          "count": 4,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:47",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "liquid-kind",
+        "raw_group": {
+          "form": "chey",
+          "source_id": "IT2a|f107v.49|G004",
+          "locus": "f107v.49",
+          "row": 4589,
+          "offset": 43,
+          "within_line": 3,
+          "start": false,
+          "end": true,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 48,
+        "form": "qokeey",
+        "literal_entry": {
+          "form": "qokeey",
+          "value": "BOIL",
+          "type": "food × cooking-history → process",
+          "denotation": "One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.",
+          "positions": [
+            23,
+            27,
+            45
+          ],
+          "count": 3,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:48",
+          "content_json": "{\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × cooking-history → process",
+        "raw_group": {
+          "form": "qokeey",
+          "source_id": "IT2a|f107v.49|G005",
+          "locus": "f107v.49",
+          "row": 4589,
+          "offset": 43,
+          "within_line": 4,
+          "start": false,
+          "end": true,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 49,
+        "form": "ycheey",
+        "status": "UNKNOWN_WHOLE_RESIDUAL",
+        "raw_group": {
+          "form": "ycheey",
+          "source_id": "IT2a|f107v.49|G006",
+          "locus": "f107v.49",
+          "row": 4589,
+          "offset": 43,
+          "within_line": 5,
+          "start": false,
+          "end": true,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 50,
+        "form": "dy",
+        "literal_entry": {
+          "form": "dy",
+          "value": "LOSE",
+          "type": "food × own-liquid × cooking-history → loss-relation",
+          "denotation": "Loss of own juice during boiling; the word does not encode a clinical effect.",
+          "positions": [
+            48
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:50",
+          "content_json": "{\"denotation\": \"Loss of own juice during boiling; the word does not encode a clinical effect.\", \"form\": \"dy\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 own-liquid \\u00d7 cooking-history \\u2192 loss-relation\", \"value\": \"LOSE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "food × own-liquid × cooking-history → loss-relation",
+        "raw_group": {
+          "form": "dy",
+          "source_id": "IT2a|f107v.49|G007",
+          "locus": "f107v.49",
+          "row": 4589,
+          "offset": 43,
+          "within_line": 6,
+          "start": false,
+          "end": true,
+          "anchor_eligible": true
+        }
+      },
+      {
+        "position": 51,
+        "form": "qoy",
+        "literal_entry": {
+          "form": "qoy",
+          "value": "THEREFORE",
+          "type": "reason × prior-policy → inferential-discourse-link",
+          "denotation": "Connect the final loss comparison to the earlier evacuation policy/rationale; it is not a newly executed cooking step.",
+          "positions": [
+            49
+          ],
+          "count": 1,
+          "status": "NEW_UNCONFIRMED_WHOLE_FORM_VALUE"
+        },
+        "record": {
+          "id": "written:51",
+          "content_json": "{\"denotation\": \"Connect the final loss comparison to the earlier evacuation policy/rationale; it is not a newly executed cooking step.\", \"form\": \"qoy\", \"kind\": \"lexical-description\", \"type\": \"reason \\u00d7 prior-policy \\u2192 inferential-discourse-link\", \"value\": \"THEREFORE\"}",
+          "dependencies": [],
+          "completed": true
+        },
+        "status": "LITERAL_DESCRIPTION_ONLY",
+        "unfilled_signature": "reason × prior-policy → inferential-discourse-link",
+        "raw_group": {
+          "form": "qoy",
+          "source_id": "IT2a|f107v.49|G008",
+          "locus": "f107v.49",
+          "row": 4589,
+          "offset": 43,
+          "within_line": 7,
+          "start": false,
+          "end": true,
+          "anchor_eligible": true
+        }
+      }
+    ],
+    "water_applications": [
+      {
+        "position": 7,
+        "status": "TYPED_BARRIER",
+        "operator": "FIRST",
+        "required_noun_type": "WATER",
+        "projection": {
+          "status": "MISSING_TYPED_FIELD",
+          "field": "WATER",
+          "actual_type": "BoundDescriptionRef",
+          "retained_content": {
+            "denotation": "One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.",
+            "form": "lkar",
+            "kind": "lexical-description",
+            "type": "agent × food × destination-water → prescribed-event",
+            "value": "IMMEDIATE_TRANSFER"
+          }
+        },
+        "required_context_type": "ordered-water-context",
+        "context_supplied": false,
+        "later_predicate": null
+      },
+      {
+        "position": 11,
+        "status": "TYPED_BARRIER",
+        "operator": "OTHER",
+        "required_noun_type": "WATER",
+        "projection": {
+          "status": "MISSING_TYPED_FIELD",
+          "field": "WATER",
+          "actual_type": "BoundDescriptionRef",
+          "retained_content": {
+            "denotation": "Introduces W1 distinct from previously selected W0, with the same water kind.",
+            "form": "soain",
+            "kind": "lexical-description",
+            "type": "water-reference × WATER → distinct-water-reference",
+            "value": "OTHER"
+          }
+        },
+        "required_context_type": "water-reference",
+        "context_supplied": false,
+        "later_predicate": null
+      }
+    ],
+    "retained_references": [
+      {
+        "id": "ref:1:written:8",
+        "record": {
+          "id": "written:8",
+          "content_json": "{\"denotation\": \"One composite transfer predicate with an immediacy modifier; its food argument is supplied by the declared topic binding. Immediacy does not prove zero air exposure.\", \"form\": \"lkar\", \"kind\": \"lexical-description\", \"type\": \"agent \\u00d7 food \\u00d7 destination-water \\u2192 prescribed-event\", \"value\": \"IMMEDIATE_TRANSFER\"}",
+          "dependencies": [],
+          "completed": true
+        }
+      },
+      {
+        "id": "ref:2:written:11",
+        "record": {
+          "id": "written:11",
+          "content_json": "{\"denotation\": \"Introduces W1 distinct from previously selected W0, with the same water kind.\", \"form\": \"soain\", \"kind\": \"lexical-description\", \"type\": \"water-reference \\u00d7 WATER \\u2192 distinct-water-reference\", \"value\": \"OTHER\"}",
+          "dependencies": [],
+          "completed": true
+        }
+      },
+      {
+        "id": "ref:3:written:13",
+        "record": {
+          "id": "written:13",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        }
+      },
+      {
+        "id": "ref:4:d:construct:28",
+        "record": {
+          "id": "d:construct:28",
+          "content_json": "{\"contribution\": {\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}, \"dependency_closure\": [{\"content\": {\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}, \"id\": \"written:27\"}, {\"content\": {\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}, \"id\": \"written:28\"}, {\"content\": {\"denotation\": \"One boiling operation in the C02 prohibition, C03 quoted reprise and C05 duration comparison. Occurrence mode comes from the production, not a new word meaning.\", \"form\": \"qokeey\", \"kind\": \"lexical-description\", \"type\": \"food \\u00d7 cooking-history \\u2192 process\", \"value\": \"BOIL\"}, \"id\": \"written:24\"}, {\"content\": {\"denotation\": \"In C02 negates permission for FULLY(BOIL), not all boiling, not the evacuation goal and not the retention desire.\", \"form\": \"okeoteey\", \"kind\": \"lexical-description\", \"type\": \"norm-content \\u2192 prohibition\", \"value\": \"NOT\"}, \"id\": \"written:25\"}, {\"content\": {\"denotation\": \"One completion modifier: BOIL has a thorough-preparation endpoint; RETAIN has complete own-juice retention. These two chosen endpoint interpretations are explicit semantic assumptions, not a shared numerical scale.\", \"form\": \"qokey\", \"kind\": \"lexical-description\", \"type\": \"completion-bearing-predicate \\u2192 completed-predicate\", \"value\": \"FULLY\"}, \"id\": \"written:26\"}, {\"content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"id\": \"construct:26\"}, {\"content\": {\"kind\": \"quoted-reprise\", \"mode\": \"quoted\", \"norm_content\": {\"kind\": \"prohibition\", \"mode\": \"prohibited\", \"predicate\": {\"FULLY\": \"BOIL\"}}, \"predicate\": {\"FULLY\": \"BOIL\"}}, \"id\": \"construct:28\"}]}",
+          "dependencies": [
+            "written:27",
+            "written:28",
+            "construct:26"
+          ],
+          "completed": true
+        }
+      },
+      {
+        "id": "ref:5:written:41",
+        "record": {
+          "id": "written:41",
+          "content_json": "{\"denotation\": \"Generic liquid kind. Apposition in C01 resolves it to W1; OWN in C03 and the inherited owner schema in C04/C05 resolve it to the food\\u2019s intrinsic juice. This context narrowing is an explicit grammar cost, not a fixed JUICE gloss.\", \"form\": \"chey\", \"kind\": \"lexical-description\", \"type\": \"liquid-kind\", \"value\": \"LIQUID\"}",
+          "dependencies": [],
+          "completed": true
+        }
+      }
+    ],
+    "quoted_reference_consumer": "NO_LICENSED_LATER_CONSUMER_OR_EXPLANATORY_RULE",
+    "meaningful_content_sensitivity": "NOT_ESTABLISHED",
+    "complete_connected_reading": false,
+    "reader": "IT2a",
+    "raw_record": {
+      "id": "f107v|f107v.45-f107v.49",
+      "page": "f107v",
+      "leaf": 107,
+      "lines": [
+        {
+          "locus": "f107v.45",
+          "row": 4585,
+          "start": true,
+          "end": false,
+          "words": [
+            "porain",
+            "okain",
+            "okechdy",
+            "dal",
+            "keeedal",
+            "shedy",
+            "okeeolkcheey",
+            "lkar",
+            "aiin",
+            "al"
+          ],
+          "source_ids": [
+            "IT2a|f107v.45|G001",
+            "IT2a|f107v.45|G002",
+            "IT2a|f107v.45|G003",
+            "IT2a|f107v.45|G004",
+            "IT2a|f107v.45|G005",
+            "IT2a|f107v.45|G006",
+            "IT2a|f107v.45|G007",
+            "IT2a|f107v.45|G008",
+            "IT2a|f107v.45|G009",
+            "IT2a|f107v.45|G010"
+          ],
+          "anchor_eligible": true,
+          "offset": 0
+        },
+        {
+          "locus": "f107v.46",
+          "row": 4586,
+          "start": false,
+          "end": false,
+          "words": [
+            "soain",
+            "aiin",
+            "chey",
+            "qol",
+            "aiin",
+            "al",
+            "chedy",
+            "kedy",
+            "qoteey",
+            "oteey",
+            "qokeey",
+            "lkain"
+          ],
+          "source_ids": [
+            "IT2a|f107v.46|G001",
+            "IT2a|f107v.46|G002",
+            "IT2a|f107v.46|G003",
+            "IT2a|f107v.46|G004",
+            "IT2a|f107v.46|G005",
+            "IT2a|f107v.46|G006",
+            "IT2a|f107v.46|G007",
+            "IT2a|f107v.46|G008",
+            "IT2a|f107v.46|G009",
+            "IT2a|f107v.46|G010",
+            "IT2a|f107v.46|G011",
+            "IT2a|f107v.46|G012"
+          ],
+          "anchor_eligible": true,
+          "offset": 10
+        },
+        {
+          "locus": "f107v.47",
+          "row": 4587,
+          "start": false,
+          "end": false,
+          "words": [
+            "ycheey",
+            "qokeey",
+            "okeoteey",
+            "qokey",
+            "qokey",
+            "qokeey",
+            "daiin",
+            "y",
+            "okoey",
+            "odain"
+          ],
+          "source_ids": [
+            "IT2a|f107v.47|G001",
+            "IT2a|f107v.47|G002",
+            "IT2a|f107v.47|G003",
+            "IT2a|f107v.47|G004",
+            "IT2a|f107v.47|G005",
+            "IT2a|f107v.47|G006",
+            "IT2a|f107v.47|G007",
+            "IT2a|f107v.47|G008",
+            "IT2a|f107v.47|G009",
+            "IT2a|f107v.47|G010"
+          ],
+          "anchor_eligible": true,
+          "offset": 22
+        },
+        {
+          "locus": "f107v.48",
+          "row": 4588,
+          "start": false,
+          "end": false,
+          "words": [
+            "oteedy",
+            "qokey",
+            "qokeedy",
+            "chody",
+            "chey",
+            "qoky",
+            "oteey",
+            "otain",
+            "chey",
+            "aiin",
+            "al"
+          ],
+          "source_ids": [
+            "IT2a|f107v.48|G001",
+            "IT2a|f107v.48|G002",
+            "IT2a|f107v.48|G003",
+            "IT2a|f107v.48|G004",
+            "IT2a|f107v.48|G005",
+            "IT2a|f107v.48|G006",
+            "IT2a|f107v.48|G007",
+            "IT2a|f107v.48|G008",
+            "IT2a|f107v.48|G009",
+            "IT2a|f107v.48|G010",
+            "IT2a|f107v.48|G011"
+          ],
+          "anchor_eligible": true,
+          "offset": 32
+        },
+        {
+          "locus": "f107v.49",
+          "row": 4589,
+          "start": false,
+          "end": true,
+          "words": [
+            "ycheo",
+            "saiin",
+            "oekey",
+            "chey",
+            "qokeey",
+            "ycheey",
+            "dy",
+            "qoy"
+          ],
+          "source_ids": [
+            "IT2a|f107v.49|G001",
+            "IT2a|f107v.49|G002",
+            "IT2a|f107v.49|G003",
+            "IT2a|f107v.49|G004",
+            "IT2a|f107v.49|G005",
+            "IT2a|f107v.49|G006",
+            "IT2a|f107v.49|G007",
+            "IT2a|f107v.49|G008"
+          ],
+          "anchor_eligible": true,
+          "offset": 43
+        }
+      ],
+      "groups": 51
+    }
+  },
+  "RF1b": {
+    "status": "No matching complete owned RF record in original packet; not absence of manuscript text",
+    "raw_record": []
+  },
+  "scope": "Source-side entireII44.2 is retained as external historical comparison. No connected target translation of it is claimed.",
+  "exact_barrier": {
+    "FIRST": "Requires ordered-water-context x WATER. Bare aiin9 retains written IMMEDIATE_TRANSFER8 description, not WATER. No prior explicit WATER field or ordered-water-context exists.",
+    "OTHER": "Requires water-reference x WATER. Bare aiin12 retains written OTHER11 unsaturated description, not WATER. FIRST is already blocked; no prior W0 exists.",
+    "daiin": "d+aN retains quoted FULLY_BOIL27 and complete lexical/norm closure. No frozen syntax uses that returned ref as later rationale/explanandum; no BECAUSE introduced.",
+    "general": "Other known literals remain description contributions with unfilled predicate arguments. Neither lexical completeness nor49-row coverage is whole semantic completion."
+  },
+  "manuscript_finding": "No new manuscript finding or meaning binding. This fixed candidate has an explicit construction-capacity barrier.",
+  "control_finding": "Required water-role/content, food-vs-water and quoted-prohibition downstream sensitivity remain unestablished; do not score absent consumers as PASS.",
+  "engineering_finding": "Pure replay exposes actual immutable payloads and projection barriers for independent inspection; outcome does not certify full C functional transfer.",
+  "intervention_api": {
+    "call": "AUTHOR_FULL.replay(interventions, reader)",
+    "keys": "1-based actual written positions at aN/d+aN sites, as int or string",
+    "supported": [
+      "delete_donor: true",
+      "replace_payload: actual alternative description dictionary"
+    ],
+    "semantics": "Core code and external source duties stay fixed. Donor deletion or field replacement can change projection/reference availability; no meaningful later predicate exists in this candidate."
+  },
+  "not_claimed": [
+    "complete49meaningful connected contributions",
+    "water/food content-sensitive downstream predicate",
+    "quoted-prohibition content-sensitive later rationale",
+    "independent confirmation",
+    "English meaning selection"
+  ],
+  "reopening_requirement": "A prospectively licensed prior written WATER producer/projection and noncircular contexts, plus independently specified retained-content consumers. This frozen candidate is not repaired."
+}
