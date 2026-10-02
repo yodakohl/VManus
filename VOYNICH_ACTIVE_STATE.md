@@ -1,3 +1,9 @@
+## 2026-10-02 source-role closure after GDT1142
+
+Native f25v leaf contact remains positive and its semantic role unselected. [Source comparison](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/BNF_CONTACT_OBSERVATIONS.md): BnF123v original GET403 supplies no pixels; Payne Figure18 is a printed reproduction with mouthgap/pawcontact despite its eating caption. Direct CMLIVp198 now supplies the complete animal-benefit/naming story and a separate eating variant, not a Harley/f25v identification. Its two remedy recipients are contextually human, not explicit homo nouns. RAW881 proposes separating remedy clauses from the animal naming epilogue; still unreviewed/unselected, no whole target reading.
+
+Urb.lat.247 collation did not obtain completeII44.2. Boletos/mushroom and secure omission claims are withdrawn in the explicit correction. Helmreich's apparatus positively attests later passages in GreekW/Oribasius and a Latin comparison; this does not transcribe Urb247. No source-shortening rescue or new decoder follows. Preserve1140partial/transfercap2failure,1141missingcore,1137conditionalstructuralpositive and1142roleceiling.0confirmedwords;reservesclosed. Minimum13:52:40UTC still pending at this update.
+
 ## 2026-10-02 GDT1142 native observations retained; role unselected
 
 [1142](experiments/yolo/gdt1142_f25v_native_contact_followup/REPORT.md) acquired exact native2863x3769 after public registration. Two separately frozen five-item records agree: outlined leaf continuity to mouth and distinct body PRESENT; no identifiable shaft, tether or second actor at supplied scale.17protocol/pixel checksPASS, not visual truth. Same exposed photograph; contact does not select ingestion, healing or emblematic role.1095 remains unavailable under its old contract; no further resolution loop.0confirmedwords/independentconfirmation. Specific historical role comparison under review; no new target/reserve. Minimum13:52:40UTC remains unmet.

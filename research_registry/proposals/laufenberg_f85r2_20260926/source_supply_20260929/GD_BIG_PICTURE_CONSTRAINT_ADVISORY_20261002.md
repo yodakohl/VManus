@@ -662,3 +662,119 @@ Die Beschaffungsprüfung endet hier. Root übernimmt die Registrierung vor
 jedem zukünftigen Pixel-/Textzugriff; vollständige123v-Seite ohne Extrazoom,
 kompletter zugehöriger Rezeptabschnitt oder explizite fehlende Kapazität,
 falls dieser über die Seite hinausgeht.
+
+
+## Vorab-Entscheidungsnotiz: Überlieferung DioskuridesII44.2–5
+
+Bounded source-only task,2.Oktober2026. Ziel ist ausschließlich der behauptete
+Umfang des Kohlabschnitts in Urb.lat.247f13r: die vorhandene Kollation liest
+anscheinendII44.1 vor Boletos, lokalisiertII44.2–5 nicht und enthält schwache
+Lesungen sowie ungesicherte lateinische Attribution. Vor Quellenretrieval
+prüfe ich die vorhandene Kollation und die vollständige griechische
+GALEN_CABBAGE_COMPLETE_SOURCE_20260920.json; danach nur Primär-Editionsapparat
+oder primären Übersetzungskatalog zu diesem konkreten Block. Keine zweite
+Handschrift/Abbildung, kein Voynich/Reserve, keine Decoderregel.
+
+Unbekannt: nennt ein tatsächlicher editorischer BefundII44.2–5 als Zusatz,
+abweichenden Textumfang oder für diese lateinische Überlieferung relevante
+Schicht? Ein belegter entsprechender Apparat würde die längere griechische
+Passage als Proxy für die konkrete lateinische Seite begrenzen. Ein belegter
+voller Übersetzungsumfang würde die lokale Kollation zur offenen Lesefrage
+machen. Findet sich keine passende editorische Aussage, bleibt dies UNKNOWN;
+kein allgemeiner Auslassungsbefund und keine Zuschreibung an Moerbeke daraus.
+Kleinster adäquater Output ist ein genauer Primärverweis mit vorsichtiger
+Paraphrase/kurzem Zitat oder ein ausdrücklich nicht lokalisiertes Ergebnis.
+Gesamtbudget15Minuten inklusive Vorbereitung, Retrieval, Prüfung und dieser
+Append-only-Dokumentation. Keine Archiv-/Registry-/Ledger-/Git-Änderung.
+
+
+Vorab-Notiz sofort präzisiert: „Dioskurides“ im eben gesetzten Titel war
+mein Zuschreibungsfehler vor dem Quellenlesen. Die tatsächliche Einheit ist
+**Galen, De alimentorum facultatibusII44**, HelmreichCMGV4,2(1923),
+S.311–313/KühnVI630–633. Kein Dioskurides-Apparat wird untersucht. Die
+lateinische Moerbeke-Zuschreibung bleibt catalogue-supported; die lokale
+Kollation liefert keinen vollständig gelesenen Attributionsexplicit.
+
+
+### GalenII44: tatsächlicher Apparatsbefund, Überlieferungsursache weiter offen
+
+**Keine editorische Notiz lokalisiert, dieII44.2–5 insgesamt als späteren
+Zusatz oder in der Moerbeke-Überlieferung fehlenden Block erklärt.** Das ist
+kein allgemeiner Negativbeweis. Es liegen aber konkrete primäre Befunde vor,
+die einer schnellen Ergänzungshypothese entgegenstehen. Gelesen wurden nur
+Helmreichs gedruckte Edition/Preface und der Übersetzungskatalog, kein zweiter
+mittelalterlicher Zeuge und kein Voynichinhalt.
+
+1. [HelmreichS312](https://cmg.bbaw.de/epubl/online/PDF/cmg_05_04_02/CMG_05_04_02_0376.pdf)
+und [S313](https://cmg.bbaw.de/epubl/online/PDF/cmg_05_04_02/CMG_05_04_02_0377.pdf)
+druckenII44.2–5 als gewöhnlichen Haupttext. Der Variantenapparat hat lokale
+Lesarten in allen späteren Abschnitten, keine hier sichtbare Auslassungsnotiz
+für den ganzen Block. S312.10 nennt ausdrücklich „ἐμβαλοῦμεν W Orib.“ bei
+der Ersatzwasserhandlung aus44.2. Das ist positiver Lesartenbefund, kein
+Schluss aus Apparatschweigen. [SXXIX](https://cmg.bbaw.de/epubl/online/PDF/cmg_05_04_02/CMG_05_04_02_0029.pdf)
+führt genau312.10 nochmals unter von Oribasius bestätigten Lesarten des
+alten Zeugen auf.
+
+2. **W ist ein bestimmter griechischer Zeuge, nicht die lateinische
+Urb.lat.247.** [SXXVIII](https://cmg.bbaw.de/epubl/online/PDF/cmg_05_04_02/CMG_05_04_02_0028.pdf)
+identifiziert W als den reskribierten Wissenburgensis64 in Wolfenbüttel und
+datiert ihn ins6.Jh. Dies ist Helmreichs Editionsangabe, keine neue
+Handschriftenansicht oder von uns geprüfte Datierung. [SXLI](https://cmg.bbaw.de/epubl/online/PDF/cmg_05_04_02/CMG_05_04_02_0041.pdf),
+Fußnote2, warnt ausdrücklich davor, aus Apparatschweigen auf W zu schließen:
+Die Stelle kann mit dem Text übereinstimmen oder im Codex nicht mehr lesbar
+sein. Daher kein W-Omissionsbefund aus unmarkierten Zeilen. Die bekannte
+Nähe der Latinversion zu W erklärt keine behauptete ganze44.2–5-Lücke.
+
+3. **Eine spätere Teilpassage hat sogar ein tatsächliches lateinisches
+Apparatszeugnis:** S313 zu12–13 gibt beim44.5-Namensschluss die Wiedergabe
+„quibus omnibus consuetudo est de alia planta caulis nomen ferre“ an.
+Damit ist der entsprechende Schluss in einer von Helmreich verglichenen
+lateinischen Version vorhanden; es ist keine nach unserer Kollation aus
+Griechisch erfundene Latinergänzung. [SXL](https://cmg.bbaw.de/epubl/online/PDF/cmg_05_04_02/CMG_05_04_02_0040.pdf)
+erläutert seine Latinbasis: die Moerbeke-Version im Lyoner Druck1528,
+BdI/f253vff. (zusätzlich nennt die Fußnote drei von ihm angesehene
+Latinzeugen). Er beurteilt die Übersetzung als sehr wörtlich und deshalb
+textkritisch verwertbar. SXLI präzisiert, dass er die Latinversion sorgfältig
+kollationierte, im Apparat aber nur zur Absicherung bestimmter griechischer
+Lesarten verwendete. Das Lateinzeugnis ist **kein direktes Wortlautzeugnis
+fürUrb.lat.247f13r** und beweist nicht automatisch, dass alle fünf Abschnitte
+in dieser Handschrift vollständig stehen.
+
+4. **Die folgende griechische Rubrik ist tatsächlich anders als zunächst
+im lokalen Bericht benannt:** S313 beginntII45 mit
+„Περὶ βλίτου καὶ ἀτραφάξυος“, also Blitum/Atraphaxys, nicht Pilzen/Boletos.
+Diese neue konkrete Editionsgrenze wurde Root sofort gemeldet. Die lokal
+berichtete Folge salt/garum→verziertesB/„Boletos“ bleibt eine ungesicherte
+Latinlesung; hier wurde kein Manuskriptpixel gelesen und weder Bleta/Blitum
+noch eine andere Wortform an ihrer Stelle eingesetzt. Wenn Boletos sicher
+wäre, wäre ein direkter Standardfolge-Abgleich44→45 ebenfalls unsicher.
+Die bisherige LokalisierungII44.1 mit unmittelbarer Folgerubrik ist deshalb
+**provisorisch**, kein zertifizierter Nachweis, dass44.2–5 ausgelassen wurden.
+
+Der primäre [Galeno-Latino-Übersetzungsrecord23](https://www.galenolatino.com/traduzioni.php?id=23)
+führt Moerbekes Übersetzung als vollständig mit Datum22.Oktober1277 und
+begründetUrb247s Zuschreibung unter anderem über einen marginalen Explicit.
+Der eigene Kollationsbericht hat diesen Explicit nicht vollständig gelesen;
+die Zuschreibung bleibt catalogue-supported. „Vollständig“ auf Werkebene
+ist keine Zusage des exakten Kapitelumfangs. Die verfügbaren Katalognotes
+nennen keine eigene44.2–5-Schicht/Auslassung für diesen Zeugen.
+
+**Entscheidung:** Der längere vollständige griechischeII44-Text bleibt ein
+vertretbarer eigenständiger historischer Quelltext. Ihn als vollständigen
+Wortlaut-Proxy für genauUrb247f13r zu behandeln ist derzeit ungesichert.
+Umgekehrt ist eine spätere Gesamtaddition44.2–5 nicht belegt; der positive
+W/Oribasius-Befund und die Latinwiedergabe44.5 sind zu erhalten. Zuerst die
+bereits besessene lokale Kapitel-/Folgerubriklesung berichtigen oder als
+UNKNOWN bewahren; hieraus weder neue Decoderwerte noch eine allgemeine
+Moerbeke-Auslassung ableiten. Kein zweiter Zeuge, keine neue Theorie-/
+Morphologieregel, keine Reserve oder Ledgeränderung durch diesen Agenten.
+
+Quellenretrieval: offizielle BBAW-PDFs waren HTTP200 überurllib; web.open
+scheiterte an ihrer technischen Darstellung. Betrachtet wurden nur die
+PDF-Primärdruckseiten, nicht zusätzliche mittelalterliche Abbildungen.
+Die S312/313-PDF-SHA256 stimmen mit der bereits besessenen Greek-source-
+Receipt überein: S312 `24573d2784c3b394b8233e5951d380272bfdc5df7bb20b66142c9d177f38c65c`,
+S313 `eff6526de1a3197a0454a66149888a916bf4038cd0a61a213df97a4e2482b91f`.
+Weitere positive Primärpins: SXXVIII
+`a4cbdb80545e77c2aec65c613ae36fd745567ab61fb35320179643ea1fe9aa6a`,
+SXL `cd0acafeee6f5472153d010e1e026196548a983616b139a62f7312e084c4c24e`.

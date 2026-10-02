@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Close1142; source-role comparison.
-Latest decision: 1142leafcontact/body;roleunselected;0words.
-Working files: gdt1142_f25v_native_contact_followup/REPORT.md.
-Assumptions: Same exposed25v;noreserve;1095unchanged.
-Resume: Publish1142;check specific historical role contrast.
-Running: 3source/route advisers;producer;end13:52:40UTC.
+Task: Close source-role comparisons; review whole-entry alternative.
+Latest decision: 1142contact;CXIIIbenefit/naming;0words.
+Working files: source_supply_20260929/BNF_CONTACT_OBSERVATIONS.md.
+Assumptions: Source roles not target meanings;reserves closed.
+Resume: Review RAW881 against1094 before whole-entry authorship.
+Running: Root publication/review;end13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

@@ -67,3 +67,86 @@ owner tests, or translate any word. Next, any proposed whole-passage reading
 must make the actor/patient/danger distinction explicit and account for the
 actual repeated forms; assigning an animal name to a convenient rare group
 would not solve that problem.
+
+## 2026-10-02 separately registered original123v follow-up
+
+The changed official metadata/HEAD route was registered in CONTACT_ROLE_PREFLIGHT.md and publicly pushed atc7b0527c3 before the one full/full native GET. Actual request13:02:03UTC returned HTTP403. No image bytes were obtained, no picture was viewed and no dog-associated prescription was read. The three registered questions—outlined mouth/leaf contact, dog role, and complete linked prescription—are all NOT_OBSERVED_MISSING_SOURCE, not negative findings.
+
+GD_BNF123V_METADATA_RECEIPT_20261002.json preserves the200metadata/HEAD evidence; GD_BNF123V_ACQUISITION_20261002.json preserves the distinct failed GET. Metadata availability is not pixel availability. Old full/1800 failure and the original four-inspected/three-unavailable sample remain unchanged. There is no repeated resolution/mirror loop and no inference aboutf25v.1142 contact remains role-unselected; no source-convention support or falsification was obtained here. Preparation preceded the rounded13:02budget start; closure occurred shortly after13:02, well before the13:37checkpoint.
+
+## 2026-10-02 Payne Figure18: checked reproduction, limited relation
+
+The source-only follow-up in CONTACT_ROLE_PREFLIGHT.md preceded the first
+facsimile inspection. Payne's 1904 book was actually inspected at PDF page183,
+not the initially supplied printed-page22 locator. Figure18 and its caption
+are on an unnumbered plate at the end; Figure17 is a separate illustration.
+The root record lists every navigation image and the final 300dpi composite
+render. This is a printed reproduction of an attributed medieval illustration,
+not a photograph of the medieval original; reproduction fidelity is unverified.
+
+Root froze its record at13:11:53UTC before the second observer's answers.
+The observer froze at13:14:58UTC after exactly one full-page view without root's
+answers. Both records retain a narrow white mouth/leaf gap at supplied scale,
+paw/leaf contact, one animal, and no separate wound, shaft, tether or second
+actor within Figure18. Agreement on this image is not independent manuscript
+evidence. Exact observation language and hashes are in
+GD_PAYNE_FIG18_ROOT_OBSERVATION_20261002.json and
+GD_PAYNE_FIG18_OBSERVER_20261002.json.
+
+The printed caption calls the animal a hare eating the plant; that action
+identification exceeds what exact contour contact alone establishes. It does
+not follow that the caption is wrong, or that the animal is not eating. No
+medieval prescription is printed on this plate. The separate Latin remedy
+sentence supplied in the strategic advisory came from a modern secondary
+citation, not a directly collated primary edition; it describes relief of
+heat distress and does not itself explicitly say eating. We have therefore
+not obtained a securely collated medieval picture-and-prescription pair here.
+The caption's Harley1585/column180 attribution and the modern catalogue's
+f52r locator have not been independently reconciled.
+
+This expands the historical comparison beyond the wounded Caprea narrative:
+a single animal/plant picture without a wound can receive a consumption
+interpretation. But this example supplies neither a reliable exact-contact
+classifier nor benefit/harm direction from pixels alone. GDT1142's actual
+leaf continuity remains positive; animal role, species, plant name, and word
+meanings remain unselected. The old source-copy tests are unchanged.
+
+Public source: Joseph Frank Payne, *English Medicine in the Anglo-Saxon
+Times* (1904), Figure18, PDF page183,
+https://history-of-obgyn.com/uploads/3/5/4/8/35483599/1904-payne-anglo-saxon_med-rev-feb2015.pdf .
+PDF SHA256 d599f39a0c852121163c21501c1fd567c4b8d1ea2d6c6e77dc8a6481659fa379.
+The unmodified source PDF and render can be regenerated from the source;
+this update publishes observations and provenance, not a new Voynich image.
+
+### Subsequent direct critical-text check,13:27UTC
+
+The earlier missing primary-text supply has now changed for the textual
+tradition, not for the Harley image/text pairing. AL retrieved and read the
+complete Pseudo-Apuleius CXIII in Howald–Sigerist,CMLIV(1927),p198, including
+the apparatus and following-page boundary. Root then viewed the whole p198
+scan with those proposed readings already known; this is nonblind corroboration
+on the same edition. The primary page confirms two human indications
+(fever/pillow placement and obstructing eye-hairs), habitat, and the naming
+explanation: summer heat weakens the hare and the herb remedies it. These
+other clauses cannot be dropped if the whole entry is later proposed as a
+source package. They are historical claims, not medical recommendations.
+
+Separately, the apparatus beta group (Vr Vi B, witness identities not checked
+here) has an explicit eating clause, `hanc herbam comedit`; `aestu` is omitted
+in beta/gamma. Do not merge base text and variants into an invented original
+or identify beta with Harley1585 or Payne's picture. The exact wording,
+normalization corrections, complete entry and retrieval hashes are retained
+in GD_AUTHOR_STRATEGIC_REASSESSMENT_20261002.md.
+
+We now have a directly checked historical animal-benefit text and an explicit
+ingestion variant without a wound premise. The pictured manuscript's precise
+textual version remains uncollated. This strengthens the historical candidate
+relationship, not the claim that f25v depicts it. GDT1094 already admits
+competing animal/plant roles and requires a coherent complete construction;
+new historical plausibility alone does not supply that construction.
+
+Scope clarification: the first two CXIII indications are naturally read as
+human remedies in this context, but their printed text does not explicitly
+supply a `homo` noun. That recipient type is an interpretation, not a separately
+written human/animal type contrast. IDEA000881 retains the mixed-function
+entry as RAW/unreviewed; it has not produced a Voynich reading or a test.

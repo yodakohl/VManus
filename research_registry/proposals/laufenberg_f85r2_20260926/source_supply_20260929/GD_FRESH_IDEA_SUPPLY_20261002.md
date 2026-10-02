@@ -1317,3 +1317,91 @@ GD_PIPELINE_RAW_RHYME_REASON_SCOPE_20261002.json
 GDT1033 REPORT `9f9ee8b91efc038c335f34f57dde75a7a1eb260fde86a2656bf32c2954e4d277`.
 Only this owned note append changed; no ideas mutation,1142/observer access,
 new acquisition, reserve, contact, globals or Git.0confirmed target words.
+
+## Final source-collation producer receipt — 2026-10-02,13:21–13:26UTC
+
+**0new proposals.** Route and names topic were read first; bounded route-check,
+the1142 report, frozen Payne records, Moerbeke collation result and exact retained
+RAWs were compared. Ideas search remained blocked by stale ledger metadata;
+root was notified and no refresh performed. Only744–746 and402 metadata were
+projected from targeted registry rows for navigation, then their original RAW
+primaries were read. No claim of absence or completed CLI novelty certification.
+
+1142 is a genuine changed input: its report retains continuous leaf-to-mouth
+outline and a body separately outlined from the plant.744 already anticipated
+this visible cue while requiring the SAME animal through consumption and a
+later encounter with a distinct opponent.746 already requires both recipient
+and preparation bindings for opposed benefit/harm roles. Neither obtains those
+written bindings from1142. The absence of a visible shaft does not positively
+support745's foreign-object expulsion account, and also does not prove a text
+cannot mention such an object. None of these RAW content accounts was authored
+or refuted by the new visual observation.1092/1093/1095 remain unchanged.
+
+The frozen Payne records agree on paw/leaf contact and no traceable mouth/leaf
+junction at the printed reproduction's scale. Its caption's hare-eating
+interpretation is editorial, not a complete medieval prescription. Do not
+convert the caption into a second independent semantic actor binding, or infer
+that an image convention has been disproved merely because this reproduction
+does not display the same contact. The original medieval folio/text was not
+collated here. This supplies an evidence-layer distinction, already explicit
+in the contact preflight, rather than a new complete-language mechanism.
+
+The Moerbeke result retains certain `De caule` food/drying-medicine wording and
+an apparent local ending before `Boletos`, with incomplete diplomatic legibility.
+It does not recover the former/replacement-water or own-juice consumers.
+402 already owns those linked relations in its complete Greek-source account.
+The newly provisional short witness may eventually constrain which clauses a
+specific exemplar supplies; it cannot presently select a shortened target
+reading, establish that all Latin witnesses omit them, or automatically rescue
+the frozen Galen transfer. No extra short-Latin RAW is justified on these bytes.
+
+SHA256 pins checked:1142 REPORT
+`414d72b717a13178a520d569eabc90549f57052f72c7180f8f7d03317c5ed814`;
+GD_PAYNE_FIG18_ROOT_OBSERVATION_20261002.json
+`902393466aa1169e23686c7630ff0bd16a0b91db3c0b141784330eb9698c77a3`;
+GD_MOERBEKE_COLLATION_RESULT.json
+`b2ab2f9c577fd1a59a1ab85fa9883818f258427ff8518d0d315132b38f630c3b`;
+744 original `827a31fda375eda7b90a7c30a484f3f906f4b1801d1fc5856b9e37cf6b770dcb`;
+746 original `479e9d260fddee0736789fcb25bb13a534878857a099d639d07a3e5d86e930ff`;
+402 original `4ac4c6b056aab73cc968daa9feee3e1f617e78dcc4e5c57aedfcb40748d9b2eb`.
+Only this supply note appended; no target body/pixels, acquisition, reserve,
+observer contact, ideas mutation, root files/ledger/globals or Git.0confirmed words.
+
+## New complete-CXIII input receipt — 2026-10-02,13:31–13:35UTC
+
+Retained **IDEA000881, RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED**, through
+ideas add after renewed CLI search/show and proposal-file duplicates (no
+same-declared-design result), route-check, and exact810/868/584/744 primary
+comparison. The new object is GD_FRESH_HUMAN_REMEDIES_ANIMAL_NAMING_RAW_20261002.json.
+It prices a whole herbal entry's shift from remedy indications to a naming
+rationale, preserving one herb but not donating its pictured animal as every
+prescription's patient. This differs from584's animal exemplum returning to a
+human directive,810's same stem/instrument use, and868's shared lexical name
+key. Lexical search is navigation, not novelty certification; root still owns
+review/selection. No whole target reading was authored.
+
+AL's retained complete CMLIV1927 CXIII,p198 transcription and apparatus now
+supply two numbered indications, habitat and the hare narrative ending
+ideo leporina dicitur. This producer read the latest critical-page transcription
+and corrections in GD_AUTHOR_STRATEGIC_REASSESSMENT_20261002.md, not page pixels.
+The raw preserves subponitur; base remedy versus beta eating; and aestu omitted
+in beta/gamma. It does not combine base heat and beta ingestion or attribute
+beta to Harley/Payne. Crucially, human patients are contextual interpretation:
+the base indications do not explicitly print homo.881 cannot declare an
+independent human/animal type collision from that alone. A naming-reason consumer
+and stable herb reference are real source obligations; all target bindings
+remain paid C0 possibilities. Existing1142 geometry supports only a potential
+separate animal naming vignette, not that actual meaning.
+
+Correction to the preceding producer receipt's Boletos/end-boundary wording:
+the current independently reviewed Moerbeke JSON withdraws that secure word,
+mushroom identification and demonstrated omission. The following marker is
+B[uncertain]; Bleta/Blita must not be substituted from the expected Greek title.
+The retained opening/salt-garum words remain positive; chapter sequence and
+complete endpoint remain unproved. Previous text/pins above stay historical;
+this correction governs current use. No Galen rescue or shortened-source
+selection follows.
+
+881 RAW SHA256 `4fc67142bdbbc136e65e9b5352112836d8924cbf3fc5a259e68a5d8bacc57f5f`;
+corrected Moerbeke JSON SHA256 `804e9b45ec887b16e196da9cd560db92642a0308f96b3a2222312b7d4ebf75ab`.
+Only the unique RAW, authorized ideas add and this note append changed. No target body/pixels, new source acquisition, reserve, contact, decoder, root files/ledger, global refresh or Git.0confirmed words.

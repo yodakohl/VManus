@@ -229,3 +229,62 @@ comparison or paragraph census would not change that. Root instead selected
 the separately registered small Greek1364 native source alignment. This is
 a source-writing constraint measurement, not a Greek target reading, f9v
 rescue or a claim that a confirmed word is required before exploration.
+
+## 2026-10-02 Schlussentscheidung dieses Arbeitsblocks
+
+Der laufende Mindestblock begann03:52:40UTC und endet frühestens13:52:40UTC.
+Diese Entscheidung wird davor vorbereitet; sie behauptet noch keinen Ablauf.
+Wir haben weiterhin kein ausgewähltes übersetztes Wort. Die unten erhaltenen
+positiven Ergebnisse sind unterschiedlich stark und dürfen nicht addiert
+werden, als wären sie unabhängige Bedeutungsbestätigungen.
+
+| Tatsächlich erarbeitete Konsequenz | Was erhalten bleibt | Was daraus nicht folgt |
+|---|---|---|
+| GDT1137: ganze32IT-Gruppen mit gemeinsam berechneter Produktkonstruktion und weiterverwendetem Rückbezug;97native Gruppen erhalten | Ein ausführbarer C0-Zusammenhang statt bloßer Einzelglossen; gemeinsame Teile und nachfolgende Verbraucher sind konkret | Keine Materialnamen. EARLIER und latest-compatible liefern, wenn beide definiert sind, dieselben Material-/Prozesswerte; ihre Definiertheit kann differieren |
+| GDT1138: unveränderte Referenzregel erreicht in der festen Galenübertragung keine vollständige Verbraucherkette | Die offen gebliebenen Bindungen sind lokalisiert | Kein allgemeiner Gegenbeweis gegen Referenz oder die historische Quelle |
+| GDT1140: ganze Statuslesung teilweise ausgefüllt; feste32Bausteine plus höchstens2beliebige neue Teilstrings erreichen0/49 vollständige Transferpakete | Die konkrete kleine Erweiterungsannahme genügt im deklarierten905Umfang nicht | Kein Naturgesetz eines2Bausteinlimits, keine Widerlegung jeder sprachlichen Lesung, keine automatische Budgeterhöhung |
+| GDT1141: beide vorgelegten Kerne unvollständig | Keine scheinbar erfolgreiche Lichtlesung aus undefinierten Regeln | Kein ausgeführter97Positionen-Test und keine Widerlegung von Licht als Thema |
+| GDT1142: zwei getrennt eingefrorene native Bildprotokolle stimmen über Blattkontinuität und getrennten Tierkörper überein | Tatsächlicher optischer Kontakt, nicht bloß Katalogvermutung | Fressen, Heilung, Tierart und Pflanzenname bleiben offen; dieselbe Aufnahme ist keine zweite Handschrift |
+
+Die jüngste Quellenarbeit verändert den sinnvollen nächsten Lesungsversuch
+inhaltlich. Der vollständig geprüfte Pseudo-Apuleius-CXIII-Eintrag verbindet
+zwei Rezeptindikationen, Standort und eine abschließende Namensbegründung
+mit dem Hasen. Die ersten beiden Empfänger sind im Kontext menschlich
+interpretiert, nicht durch ein ausdrückliches homo-Wort festgelegt. Der
+Basistext und die Fressvariante sind getrennt; Harley/Payne ist keiner
+Textfassung sicher zugeordnet. Ein Tierbild kann deshalb auf eine
+Namensgeschichte innerhalb eines gemischten Eintrags verweisen. Es muss
+nicht jeden Patienten oder jede Handlung des ganzen Eintrags bezeichnen.
+
+RAW881 hält genau diese Möglichkeit offen. Das ist noch keine Auswahl und
+kein Erfolg gegen f25v. GDT1094s vollständige Absatzanforderungen gelten
+weiter: alle57IT/60ZL/59RF-Gruppen,11exakte daiin inIT/ZL einschließlich
+Doppelung, gleiche Regeln für wiederkehrende Formen und die vorhandene
+Wortzerlegung. Kein seltener Tiername wird an eine bequeme Form verteilt.
+Die neue Quelle rechtfertigt auch nicht, ihren kurzen Hasensatz für den
+ganzen Absatz auszugeben und ihre Rezepte wegzulassen.
+
+**Exakter nächster Schritt:** RAW881s Original und die eng verwandten584,810,
+868 anhand ihrer Primärbelege prüfen; dann entscheiden, ob eine vollständige
+f25v-Konstruktion einen gemeinsamen Pflanzenreferenten, getrennte
+Rezept-/Erklärungsfunktionen und einen wirklichen Verbraucher der
+Namensbegründung ausdrücken kann. Erst eine explizite ganze Konstruktion
+verdient den nächsten registrierten Zielversuch. Wenn lediglich die alten
+freien Rollen umbenannt werden, bleibt der Kandidat RAW; kein neuer Decoder
+oder neues Quellenpaket soll diese fehlende Leistung kaschieren. Dies ist
+keine Forderung nach einer vorab bestätigten Wortglosse: vollständige
+hypothetische Lesungen sind weiterhin ausdrücklich zulässig.
+
+Die lokale Galen-Kollation liefert dagegen noch keinen neuen Zielansatz:
+die ungesicherte Boletos-Lesung ist korrigiert, eine ganze Auslassung nicht
+belegt, alle drei verlangtenII44.2-Beziehungen ungebunden. Helmreichs
+positiver späterer griechischer/lateinischer Variantenbefund bleibt erhalten.
+Die Quelle ist weder widerlegt noch als vollständiger Wortlaut der
+konkretenUrb247-Seite verfügbar.
+
+Quellennachweise und getrennte Protokolle: BNF_CONTACT_OBSERVATIONS.md,
+GD_AUTHOR_STRATEGIC_REASSESSMENT_20261002.md,
+GD_MOERBEKE_COLLATION_20261002.md und
+GD_BIG_PICTURE_CONSTRAINT_ADVISORY_20261002.md im selben Dossier.
+Alle experimentellen Entscheidungen bleiben in ihren jeweiligen REPORTs;
+kein PASS für Buchführung oder Bildbytes wird zur Bedeutungsbestätigung.

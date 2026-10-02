@@ -679,3 +679,65 @@ dictionary, because the result decides whether the proposed repeated-operation
 and ownership scaffolding has historical written support at all. The present
 advisory closes with no ready language experiment, no new data and0 confirmed
 words; all cited predecessor outcomes remain unchanged.
+
+### Authorized Moerbeke retrieval decision,13:02:33UTC
+
+Root authorized executing the source-only task. Inclusive20-minute ceiling:
+13:22:33UTC, including retrieval, reading, provenance and closure. The original
+unknown is one accessible **complete pre1450 witness of Galen II.44 in
+Moerbeke's translation**, with three finite questions: explicit prohibited-
+operation reprise before the rationale; former/replacement-water reference
+wording; and intrinsic-juice ownership through inability and comparative loss.
+Locate via existing Galenolatino record23 and an official witness library.
+At most one accessible exact witness may be inspected. No fabricated folio,
+new Voynich target, decoder, outside contact or automatic extension.
+
+Explicit reprise plus preserved linked references permits root to consider a
+new source-constrained native role contract; direct prohibition-to-rationale
+leaves the old quoted reprise author-paid; unreadable/incomplete/unavailable
+whole witness yields missing supply, not a semantic refutation. Distinct
+source roots/references remain exact constraints rather than repaired aliases.
+Existing1028/1034/1035/769/1138 decisions stay unchanged. Save the obtained
+public source and provenance under GD_MOERBEKE_* in this existing source-supply
+directory, without private paths. This is source acquisition only, not a new
+Voynich experiment or a language selection.
+
+### Moerbeke task closure,13:19:12UTC
+
+One exact pre1450 witness was actually retrieved: BAV Urb. lat.247. The
+official digital images are accessible, with native f1r/explicit checks and
+public HTTP/hash receipts. The visibly numbered f13rB cabbage block is bounded
+by `de caule`/decorated E and the following `Boletos` entry. Certain source
+words were read firsthand, but its middle is faint. The observed short block
+matches the first Greek section's beginning and salt/garum endpoint; the
+complete II.44.2–5 wording was not obtained. Apparent local abbreviation or
+omission remains provisional, not a certified edition or a Galen contradiction.
+
+All three prospective relations are therefore UNBOUND for this acquired
+witness. Catalogue completeness of the work did not deliver a complete
+five-section chapter. Detailed whole-section comparison and the exact ceiling
+are in GD_MOERBEKE_COLLATION_20261002.md; machine closure and provenance are
+GD_MOERBEKE_COLLATION_RESULT.json plus the two GD_MOERBEKE_*RECEIPTS.json files.
+Images/reading crops remain outside the repository and are excluded from public
+publication. Root can independently review the same image within the remaining
+registered time; corrections must be explicit. No second witness, target,
+decoder, registry/global edit, contact or Git action was used. This source
+task closes within17minutes of the20-minute allowance and selects no new
+language experiment. The original three-question decision and all old stops
+remain intact; no automatic further witness hunt follows.
+
+Root same-image review agreed with the observed boundaries/certain words,
+with no independent complete transcription and no all-Moerbeke inference.
+Final receipt/source recording at13:21:16UTC closes the inclusive task after
+18minutes43seconds; the13:19 note above was its preliminary closure. Root
+explicitly authorized one source-result ledger row, now appended. Exact
+publication allowlist and outside-repository cache exclusions are in the
+collation report. No other global edit or Git action was made.
+
+Explicit correction2026-10-02 13:26UTC: the proposed next-entry word
+Boletos and mushroom identification are not secure after same-crop review.
+Only a decorated B initial with uncertain following letters is retained;
+Bleta/Blita is not substituted from the Greek II45 title. See dated correction
+in GD_MOERBEKE_COLLATION_20261002.md and RESULT.json. Full section sequence/
+endpoint is unproved; no completeII44.2 collation obtained, all3questions
+UNBOUND. Earlier receipt/text retained, no new retrieval or witness.
