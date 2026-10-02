@@ -313,3 +313,87 @@ renamings still survive. Retain the exact partial account and local positives;
 do not promote lexical accounting into four completed readings or classify
 undefined scope as CONTRADICTED_FIXED_CORE. This review supplies no repair,
 new experiment, reserve opening, global edit or Git action.
+
+## GDT1141 proposed-core gate review
+
+**Do not treat the submitted timestamp/status as authorization for stage2.**
+The [1141 method](../../../../experiments/yolo/gdt1141_light_observation_whole_reading/METHOD.md)
+requires actual arguments and at least two composed contexts for the shared
+observation/extent/change construction. The submitted
+[core](../../../../experiments/yolo/gdt1141_light_observation_whole_reading/CORE.json)
+has one partly composed observation context. B supplies only inherited
+LIGHT_OF(SUN), with all surrounding words unknown. That noun has an inherited
+internal composition, but no second contextual application of the new grammar.
+It is a preserved counter-context, not fulfillment of the two-context duty.
+This judgment concerns the registered staged design; it requires no confirmed
+meaning or independent discriminator before exploratory authorship.
+
+[BB_MODEL](BB_MODEL.json) explicitly defines exact okaiin as LIGHT_OF(MOON),
+with zero following operands. Observation formation can be a separately paid
+grammatical use of that unchanged noun. Here, however, new_values assigns the
+whole okaiin CURRENT_OBSERVATION(LIGHT_OF(MOON)), labels it arity1 and supplies
+no distinct lifting/operand rule. Preserving the old noun inside a record is
+not by itself preserving the noun's whole denotation. Clarify whether arity1
+means an internally supplied noun argument or an additional written operand;
+the present document leaves that consequential distinction unresolved.
+
+R2's literal "Only in ... .16" binds four particular words to the reference
+record. A nominated instance or finite surface-licensed field construction
+can be acceptable paid syntax; a locus address alone is not a shared linguistic
+condition. R2 currently provides the latter rather than a reusable trigger.
+DAL does have a uniform immediate-flank binder, which is a positive finite
+commitment. RELATES(left,right) nevertheless defines neither the asserted
+relation nor how the amount/approach pair supplies the current record. The
+author correctly leaves that output debt unresolved. Charging it does not
+make it a specified consumer or authorize later output invention under a
+supposedly complete frozen interface.
+
+Retain the submitted partial core and explicit debts without patching it.
+The appropriate gate outcome is unmet core design/binding requirements,
+not CONTRADICTED manuscript meaning and not an automatic ban on nominal-light
+exploration. No stage2 file was read, experimental bytes changed or decoder
+proposed in this review.
+
+## GDT1141 Kandidat02: unabhängige begrenzte Gateprüfung
+
+**MISSING_CORE_DESIGN; keine Stage2-Freigabe.** Geprüft wurden
+[Kandidat02](../../../../experiments/yolo/gdt1141_light_observation_whole_reading/CORE_CANDIDATE_02.json),
+seine Markdown-Erklärung, METHOD und CORE_REVIEW. Die Alternative verbessert
+den Entwurf: BBs Nomen bleiben als Nomen erhalten; q bildet einen gesonderten
+Referenzrecord; Feldadjunkte hängen an einem geschriebenen, kompatiblen
+Konstituenten statt an einer Blattadresse; DAL bekommt die gewöhnliche
+Relation VARIES_WITH. Diese zusätzlichen C0-Annahmen sind grundsätzlich
+zulässig. Das Problem ist deren unvollständige tatsächliche Anwendung.
+
+R3 verlangt links einen Skalar/Zustand oder einen vollständigen Konstituenten
+mit einem solchen Feld. Bei .14 liefert okoaiin lediglich BBs LIGHT_OF(SUN).
+BB definiert damit keinen skalaren Mengenwert. R2 ergänzt Felder an
+ReferenceLight, nicht am nackten Nomen; eine LIGHT_OF→skalare Eigenschaft-
+Projektion fehlt. Daher ist die als vollständig bezeichnete Anwendung
+okoaiin dal chdy unter den eigenen Typregeln nicht vollständig wohltypisiert.
+Ein unbekannter Zahlenwert wäre erlaubt; hier fehlt vorher die Definition,
+welche skalare Eigenschaft der Nominalreferent überhaupt trägt.
+
+Die Folge .14 okoaiin dal chdy dal daldy hat zusätzlich keine erklärte
+Kettenkonstruktion. Nach der ersten binären Anwendung ist der vollständige
+linke Ausdruck die Abhängigkeitsproposition. Für den zweiten DAL setzt die
+Tabelle stattdessen nur chdy als linken Operanden ein, obwohl dieser schon
+rechter Operand war. Eine explizite Konstruktion mit geteiltem Mittelglied
+wäre eine zulässige hypothetische Sprachregel; das bloße Nichtlöschen eines
+Arguments definiert weder diese Teilung noch den neuen linken Konstituenten.
+Damit ist keine einheitliche Konsumierungs-/Bindungsregel demonstriert.
+
+Bei .16 ist der Feldrecord deutlicher: die Mengenrolle stammt aus dem
+geschriebenen otal. Dalg bekommt jedoch ReferenceLight plus ein unmodifiziertes
+LIGHT_OF-Nomen, keine zwei erzeugten Beobachtungsrecords. Der unbekannte
+aktuelle Betrag bleibt eine zulässige Schuld; ein Vergleichsplatzhalter ist
+aber noch kein erfüllter Zwei-Record-Vergleich. Die verlangten zwei wirklichen
+wohltypisierten Anwendungen der gemeinsamen Konstruktion liegen nicht vor.
+
+Root übermittelte anschließend die ausdrückliche Autorenbestätigung, dass
+R3 keine Skalarprojektion, die DAL-Folge keine Überlappungsregel und DALG
+keinen zweiten Record hat. Diese Klarstellung bestätigt die Aktenprüfung;
+sie ersetzt keine eingefrorene Regel und wurde nicht in die Kandidatdateien
+eingearbeitet. Ergebnis ist fehlendes Kerndesign, keine Manuskriptkontradiktion
+und kein Erfordernis bestätigter Bedeutungen. Kandidat02 unverändert erhalten;
+keine dritte Variante, kein Stage2, keine Quelle, Reparatur oder Git-Aktion.

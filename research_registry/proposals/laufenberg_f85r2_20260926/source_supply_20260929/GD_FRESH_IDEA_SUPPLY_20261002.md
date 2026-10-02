@@ -857,3 +857,163 @@ No1140/1141 author/core/validator/results, active light/f89 author packet,
 Voynich body/image, reserve, acquisition, contact, test/decoder, global
 route/ledger/state or Git action. Confirmed words remain0. New source/content
 families were not manufactured to increase the card count.
+
+## Twelfth bounded supply unit: 2026-10-02, 11:27–11:32 UTC
+
+**0 new proposals; no ideas add.** A one-body/changing-appearance content
+alternative is already precisely retained in **IDEA796**:
+`AS_RAW_MOON_ILLUMINATION.json`, the complete Morgan M.7215r-C stanza in
+`AI_COMPLETE_READING.md`, and `BI_ROOT_REVIEW.md`. BI explicitly preserves
+the same body while appearance changes. This is a surviving source-content
+alternative, not an established assignment of the two f68r2 owners.
+
+The complete source has one Moon with no light of its own; the Sun lights its
+exposed portion, its figure varies while half shines, and the light shown above
+Earth increases with greater separation from the Sun and decreases on approach.
+Thus same lunar body does not mean same visible appearance. A whole C0 phase-owner
+account could reuse one lunar referent across the two depicted treatments while
+keeping illuminated portion and Earth-facing appearance distinct. It must not
+turn the source's illuminated half into independently chosen total illuminated
+fractions at each occurrence, equate the receiving body with its illuminator,
+or silently replace a comparative appearance with a new body name. The fixed
+Sun remains a distinct illuminating role in that source account; saying the
+two depicted owners are one Moon would not mean that the whole account contains
+only one celestial entity. Every such role/reference still needs written payment.
+
+A second useful retained consumer is **IDEA799**, `BH_01_LUNAR_MEDICAL_POLARITY.json`:
+complete M.7215v-B links lunar increase/decrease to humours/living bodies,
+strength/weakness, healer attention and failure under consumption. This can
+constrain a phase-condition/recipient/outcome account beyond a body-name list.
+It does not prescribe a particular treatment, dose or phase-day protocol.
+The increase/strength and decrease/weakness alignment remains a reading of the
+historical parallel wording, not a controlled effect, numerical law or modern
+clinical truth. Both complete stanzas and all local uncertainties were read;
+the six-stanza48-line source context remains retained, including eclipse
+conditions and the final stereotype. Do not fill the uncertain5v-A conditional
+geometry or identify every opposition with an eclipse.
+
+**IDEA672** already supplies the identity/direction contrast: one Moon and the
+same illuminated fraction on increasing versus decreasing branches, with a
+shape-only rival repeating and a directional phase term changing. Its original
+design still seeks dated, labelled matched pairs, new/full endpoints and an
+independently fixed progression/viewing convention. The present crescent versus
+complete face pair is not an equal-illumination matched pair; no source or
+target phase order was secured by this review.672 therefore cannot donate its
+missing phase labels/order to a whole reading here. No new matched-pair source
+was acquired or decoder written.
+
+Actual AJ target/source reports, BE complete native-source report and GDT1108
+primary preserve the lower Sun/full-Moon ambiguity. Upper clear crescent and
+lower segmented border establish different drawn treatments; they do not
+establish different bodies or a lunar full phase. BE's79r is a concrete
+counterexample to **full face = full Moon**: a native Moon-in-Cancer context
+contains a circular blue frontal lunar face with a separate cream crescent,
+without a written full-phase binding.1108's41r has no native portrait-specific
+Sun/Moon identification. Neither source supplies the strict named full-phase
+face contrast; no lower target alternative is selected or refuted.
+
+**IDEA640**, `research_registry/proposals/raw_supply_20260928/f68_cross_register.json`,
+already owes both complete rings and the complete outsider under one reading.
+A prospective new input would be a separately attributed **whole phase-owner
+C0 composition** over that owned scope, with one explicit shared lunar referent,
+written different conditions/appearance claims and a real outsider consumer.
+It may jointly propose meanings/grammar without preconfirmed anchors. It must
+keep every raw reader/group, avoid shape-derived lexical assignments and
+freeze its own costs/rivals. This is a distinct exploratory deliverable, not
+permission to replace current fixed BB nouns or repair1141 retrospectively.
+No such target composition, gloss or new nomination was authored in this unit.
+Generic renamed body/appearance or condition/outcome accounts still survive.
+
+Read route/variants topic, bounded ideas searches/show/duplicates and route-check,
+then exact AJ/BE/1108/672/640/796/799/BI primaries. Proposal-based duplicates
+identify796 as the same declared source design; another same-body optical
+card would duplicate it.799's medical condition consumer is already separately
+retained. Preserve original curated796 NOT_TESTED decision and all ownership/
+consumer stops; source constraints are not confirmed manuscript conclusions and no failed
+experiment has been rescued.0 confirmed words remains unchanged.
+
+Exact pins (all in the existing source_supply dossier unless stated):
+
+- `AI_COMPLETE_READING.md`: `1f07ae98c89eb3e63742b110ab14a2a63f14709a4230971071098f7ebde5b995`.
+- `AS_RAW_MOON_ILLUMINATION.json`: `bdc84c81e23640224dee478acb31c929f26d47b3a7495ab76888fabfdcb35617`.
+- `BI_ROOT_REVIEW.md`: `f953a2713112bb466f7ceb02791f35938e76736260a42278b6d5fb18d1a154d1`.
+- `BH_01_LUNAR_MEDICAL_POLARITY.json`: `4502b0f2fecf521b05d500e85a07402cc56caec711b93207a4c2c2eaf981389d`.
+- `BH_SOURCE_CORRECTION.md`: `d822891c6b40bf0b1eb78dcac53cbc901a2e25722ec52d88836f31faa827fe49`.
+- `AJ_RESULT.md`: `41640dd2c55e65fe87328fdf205a2b4337a30f098aa3ea6c92cd2ef763e1fba8`.
+- `BE_RESULT.md`: `f41fb6c8c803c129b758eaf31cdcad7cabc5f196ae9a256fa8478bac0e4dfd49`.
+- GDT1108 `REPORT.md`: `2685daa5ad50cc8f604ae2b248b26f5a7fab3da25227978fd93954df2cceee35`.
+- 640 RAW: `2b396971a181bd35e02ed7ecc29af1efd2675c8ac34b03bd6b4519b3fc604c05`.
+
+799's originally wrong De materia medica URL is explicitly corrected by
+BH_SOURCE_CORRECTION to M.7215v; original RAW bytes remain preserved. The source
+is a normalized working reading of a probably Florentine second-half15th-century
+witness, without a new diplomatic or early15th-century collation. No new source
+face, image, corpus, phase name, dating or exemplar claim.
+
+Only this existing note append changed. Prior BI/640 contain already exposed
+illustrative forms; no new target-body query or packet,1140/1141 core/author/
+validator/body, current BB authored contract, image, reserve, acquisition,
+outside contact, test/decoder, root route/ledger/state or Git was inspected or
+mutated. The current fixed BB experiment remains unchanged.
+
+## Thirteenth bounded supply unit: 2026-10-02, 11:48–11:53 UTC
+
+**0 new proposals; no ideas add.** Read the entire already cached Megenberg
+II.25, printed91.13–95.12, and exact597/596 RAWs plus588/595 root closures.
+The suitable existing discourse offer is **IDEA597**,
+`../ideas/82_cofalling_stone_identity_refutation.json`; a newly titled
+identity-versus-observation card would duplicate its declared design.
+
+The concrete92.11–20 argument retains co-falling stones as the stated ground
+of a reported identity belief. The author rejects thunder-as-stone: that
+counterfactual predicts wounds in killed people/animals, while his stated
+human observation gives unwounded but blackened victims. He offers hot vapour
+as another cause of unwounded death. The useful relation is predicted effect
+versus scoped contrary observation, not a collection of thunder/stone names.
+Negating identity does not negate co-falling; negating wounds does not negate
+harm/death; rejecting the stone account does not by itself prove the offered
+vapour physiology. The explicit human observation cannot be widened into an
+observed animal census. Historical donr also refers to destructive strikes,
+so a modern sound-only category must not replace the source's subject.
+
+**Precise next input:** a separately attributed whole C0 composition on one
+already-owned complete unit, with fixed subject/patient references and a shared
+written negation/conditional construction applied to the identity hypothesis
+and wound predication. The counterfactual must consume the proposed identity;
+the observation must target its predicted effect; the alternative explanation
+must preserve unwounded death. The local source argument is fully owed, not
+the entire chapter or a few conveniently named slots. Every native group and
+alternate reading must remain visible. No independent confirmed word is
+required for that exploratory deliverable. A generic jointly renamed inference
+account remains equivalent, preventing unique meteorological meaning selection.
+
+596's93.32–94.1 warning objection is a distinct retained alternative: prior
+hearing/seeing alone is disputed as protection; the exception concerns possible
+hiding before the strike, not an observed escape or guaranteed safety. It
+cannot supply missing action from a sensory mention.397 already separates
+accusations from endorsed facts, but597's changed inference concerns proposed
+entity identity and its predicted effect. None is a new primitive or a repair
+of588's sensory-order or595's season/heat account. Their actual whole allocations,
+internal computations, formal/reader gaps and nonconfirming decisions remain.
+Initial Benedict permission/admission navigation found existing437/452; no
+uncached chapter or new normative proposal was acquired or retained.
+
+Route/recipes topic, bounded registry searches, route-check and proposal-based
+duplicates read before retention. The duplicate screen identifies597 itself as
+the same design and596 as its own retained design; lexical rankings supply no
+novelty certificate. Complete source SHA256:
+`c3f9442fe6b2134f3d93f6efa8f65b45d57bdcfc65e8c2a0e31071a2855cd61b`.
+597 RAW pin: `45dffcd03a4efb883b70d1f452557f64d4dbcb467aaa75ff53332390cc70edab`;
+596 RAW pin: `16807350573488e998f1a019dc98c0e8ad69243b4b63abde60055548856fab9a`.
+`PERCEPTION_WHOLE_ROOT_RESULT.md`:
+`5ba19b3196537e03bface830d38fd9a500951e390051635eed24f01a660eb090`;
+`SEASON_STAGE_ROOT_RESULT.md`:
+`08343f87e9bdc16d157747a0404befc032bebf9d539fdc3965e0535e91b350b9`.
+The source is the cached TITUS/Pfeiffer1861 electronic edition, with its
+existing collation limits; historical causal/physiological assertions are not
+modern findings, source dependence or recovered Voynich wording.
+
+Only this note append changed. Earlier root reports contain previously exposed
+illustrative groups; no new target text/body query,1140/1141 author/core/validator,
+image, source acquisition, outside contact, reserve, test/decoder, global
+route/ledger/state or Git action. Confirmed words remain0.

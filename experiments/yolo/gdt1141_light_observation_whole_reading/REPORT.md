@@ -1,0 +1,18 @@
+# GDT1141 — Ergebnis der Kernprüfung
+
+**MISSING_CORE_DESIGN.** Zwei offen dokumentierte Kernentwürfe wurden geprüft; keiner erfüllt die registrierte Bedingung von zwei tatsächlich komponierten Anwendungen einer gemeinsamen Grammatik. Stage2 wurde nicht freigegeben. Es gibt keine vollständige Lesung der97 IT-Positionen und keine bestätigte Wortbedeutung.
+
+| Entwurf | Konkrete versuchte Lesung | Tatsächlich geprüfte Konsequenz | Entscheidung |
+|---|---|---|---|
+|01|Referenz des Mondlichts; Abstand, beleuchteter Teil und sichtbare Menge; Annäherung; Vergleich|Die zweite Anwendung enthält nur das alte BB-Nomen. R2 bindet über den Ort statt eine sprachliche Regel. RELATES bleibt unbestimmt; okaiin vermischt Nomen und Beobachtung.|Nicht als Kern akzeptiert; unverändert erhalten.|
+|02|`okoaiin dal chdy`: Sonnenlicht variiert mit einem abnehmenden Lichtzustand. `.16`: eine Referenz des Mondlichts mit Mengen-/Abstandsangaben, Variation bei Annäherung und späterem Vergleich.|R3 definiert keine Mengenprojektion des Licht-Nomens; die erste Anwendung ist daher nicht wohltypisiert. Zwei aufeinanderfolgende DAL-Konstruktionen verwenden CHDY doppelt ohne definierte Überlappungsregel. DALG bindet ein Referenzrecord und ein Nomen statt zwei Beobachtungen.|Kernanforderung weiterhin unerfüllt; keine dritte Variante.|
+
+Die Klärung des Autors erfolgte nach Abgabe ohne Änderung seiner Dateien. FINAL_AUTHOR_FREEZE.json bindet beide Entwürfe und die ausdrücklich bestätigten Lücken. CORE_REVIEW.md enthält die Entscheidung vor dem einmalig erlaubten zweiten Versuch. CORE bezeichnet weiterhin den ersten **Autorenentwurf**, keinen vom Root akzeptierten Kern. METHOD und alle historischen Modelle bleiben unverändert.
+
+Entwurf02 bezahlt acht neue ganze Wortwerte und vier Regeln einschließlich der endlichen q-Referenzbildung. Seine `.16`-Konstruktion kann höchstens eine partielle Aussage über eine Referenzmenge liefern. Eine aktuelle Menge, der tatsächliche Vergleich und ein nachfolgender Verbraucher fehlen. Die verlangten Eingriffe in frühere Bedingung/Menge wurden deshalb **nicht ausgeführt: NO_CAPACITY**, kein bestandenes Abhängigkeitsresultat. Insbesondere wurde keine Menge erfunden, um ein Resultat zu erzwingen.
+
+Die registrierte Entwicklungsscope umfasst beide kompletten f68r2-Ringe und f89v1.13–20:97 IT-Positionen,288 native Positionen aller drei alternativen Lesungen. Die unveränderte guarded projection konserviert die Quelle; sie ist keine von diesem Versuch verfasste Übersetzungstabelle. Keine Seite wurde neu geöffnet; f84/f84r, f116v und Reserven bleiben ausgeschlossen. Alles war bereits Entwicklungsmaterial; unabhängige Bestätigungskapazität0.
+
+BBs Licht-Nomen sind weiterhin Hypothesen. W bleibt das feste Eigenumlaufintervall im unveränderten Bezugsrahmen; kein Vergleich hat es hier ausgesondert. Generische Eigenschafts-/Beobachtungslesungen und semantische Umbenennungen bleiben möglich. Ein fehlender Satzbau widerlegt weder Licht noch astronomischen Inhalt. Die Häufigkeiten aus179 älteren Selektoren sind keine unabhängigen Blattzahlen; f68r2 fehlt dort, f89v1 ist enthalten. Seltenheit ist eine Belastung für enge Glossen, kein eigenständiger Ausschluss.
+
+Nächste Entscheidung: diesen Kern nicht weiter reparieren und keinen Decoder dafür bauen. Für eine erneute Lichtlesung wäre ein tatsächlich vollständiger, anders begründeter Satzbau erforderlich. Die Untersuchung hat die Übersetzung nicht geliefert; sie hat zwei konkrete Angebote vor einer teuren Erweiterung auf ihre tatsächlichen Bindungen geprüft. Keine Signifikanz-, Quellenkopie-, Pflanzen- oder Bedeutungsbestätigung.

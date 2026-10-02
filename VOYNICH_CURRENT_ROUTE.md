@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Whole light-observation reading1141.
-Latest decision: 1140partial44unknown/68syntaxgaps;0words.
-Working files: gdt1141_light_observation_whole_reading/METHOD.md.
-Assumptions: Exposed97IT/288native;BB nouns hypothetical;noreserve.
-Resume: Publish1140result/1141; release1141coreauthor; thenfreeze.
-Running: 1141authorawaitsrelease;validatorplan;producer;end13:52:40UTC.
+Task: Close1141; choose constraint-led whole reading.
+Latest decision: 1141two cores lack typed syntax;0words.
+Working files: gdt1141_light_observation_whole_reading/REPORT.md.
+Assumptions: All development;BB nouns C0;noreserve.
+Resume: Publish1141gate;review concrete next candidates.
+Running: 1141validator;2route reviewers;producer;end13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

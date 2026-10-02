@@ -1,6 +1,6 @@
-## 2026-10-02 GDT1140 partial; GDT1141 registered
+## 2026-10-02 GDT1140 partial; GDT1141 missing core design
 
-[1140 result](experiments/yolo/gdt1140_fortune_status_whole_reading/REPORT.md): explicit local d/qo/reference composition, but44unknown words and68syntax/scope gaps across108primary positions;473native conserved,30accountingchecksPASS.32primitives18finite licenses16rules; no whole translation or Fortune preference. qotaiin future-negation and AGAIN scopes stay underdefined. Counts are cached selectors, not independently counted leaves. No automatic core repair. [1141 contract](experiments/yolo/gdt1141_light_observation_whole_reading/METHOD.md): unchangedBB light nouns with proposed actual same-Moon two-observation consumer, whole97IT/288native scope. Fixedinterval rival and source/owner stops retained; no1140gloss transfer.0confirmedwords/reserveconfirmation. User minimum13:52:40UTC remains unmet.
+[1140 result](experiments/yolo/gdt1140_fortune_status_whole_reading/REPORT.md) retains local d/qo/reference composition but44unknown words/68syntax gaps; no whole translation or Fortune preference. [1141 result](experiments/yolo/gdt1141_light_observation_whole_reading/REPORT.md): two unchanged Stage1 proposals; no accepted core or whole extension. Candidate02 lacks a LIGHT-noun scalar projection and shared-middle-operand DAL rule. Its record-plus-noun is not two observations; actual comparison NO_CAPACITY. Preserve BB/W and prior results; no third core repair or source-theme refutation. Next selection must use actual linguistic constraints, not merely price additional glosses.0confirmedwords/reserveconfirmation. Minimum13:52:40UTC still unmet.
 
 ## 2026-10-02 GDT1140: exploratory complete status reading registered
 

@@ -1,0 +1,58 @@
+{
+  "experiment": "GDT1141",
+  "stage": 1,
+  "status": "EXPLORATORY_C0_CORE_FROZEN",
+  "semantic_verdict": "not_tested",
+  "exposure": "All target scope and relevant predecessors were development-exposed; not blind.",
+  "inherited_BB_hypotheses": {
+    "ok": "MOON",
+    "oko": "SUN",
+    "okaiin": "LIGHT_OF(MOON)",
+    "okoaiin": "LIGHT_OF(SUN)",
+    "light_of": "Externally manifest light attributed to B; no intrinsic Moon emission and no implicit recipient or amount."
+  },
+  "new_values": [
+    {"form":"qokaiin","value":"REFERENCE_OBSERVATION(LIGHT_OF(MOON))","cost":"new whole form and exact q wrapper, arity 1"},
+    {"form":"ykchol","value":"SAME_MOON_FRAME","cost":"new whole-form value"},
+    {"form":"qockhy","value":"GREATER_SUN_SEPARATION","cost":"new whole-form condition value"},
+    {"form":"okalda","value":"EXPOSED_LUNAR_PORTION","cost":"new whole-form value, IT2a only; no alias to okaldy or okal@152;y"},
+    {"form":"otal","value":"EARTH_FACING_LIGHT_AMOUNT","cost":"new whole-form value"},
+    {"form":"dal","value":"RELATES(left,right)","cost":"new relational construction; binary immediate-flank binder"},
+    {"form":"chodar","value":"APPROACHING_SUN_CONDITION","cost":"new whole-form condition value"},
+    {"form":"okaiin","value":"CURRENT_OBSERVATION(LIGHT_OF(MOON))","cost":"new whole use layered on BB's exact LIGHT_OF value, arity 1"},
+    {"form":"dalg","value":"COMPARE_SAME_BODY_LIGHT(reference,current)","cost":"new whole predicate, arity 2; no dal|g morphology"}
+  ],
+  "rules": [
+    {"id":"R1","rule":"qokaiin wraps the inherited Moon-light product as an explicitly referenced observation record; it does not assign q a free meaning elsewhere."},
+    {"id":"R2","rule":"Only in the frozen IT2a .16 context, the following ykchol, qockhy, okalda and otal fill fields of the qokaiin reference in written left-to-right order. No cross-line or universal adjacency export."},
+    {"id":"R3","rule":"The exact standalone IT2a dal groups use one binary relation RELATES(left,right), binding only their immediate flanking groups."},
+    {"id":"R4","rule":"dalg consumes exactly the earlier referenced and current light records, requires the same named body, and returns their relative visible amount. In this core the result is not fixed to lower/higher."}
+  ],
+  "open_binding": "The .16 DAL relation between EARTH_FACING_LIGHT_AMOUNT and APPROACHING_SUN_CONDITION is not yet bound to dalg's current result. Therefore the source-compatible lower-light consequence remains unresolved.",
+  "contexts": [
+    {
+      "locus":"f89v1.16",
+      "reader":"IT2a",
+      "groups":["qokaiin","ykchol","qockhy","okalda","otal","dal","chodar","okaiin","dalg"],
+      "reading":"Reference Moon-light report; same-Moon frame; at greater Sun separation, with exposed portion and Earth-facing amount, that amount is related to an approaching-Sun condition; current Moon-light report; compare the two same-body reports.",
+      "result":"Partial composition; comparison fields have written candidates, but DAL-to-DALG output binding and direction are unknown."
+    },
+    {
+      "locus":"f68r2.31",
+      "reader":"IT2a",
+      "groups":["okeo","okoaiin","okol","oky","oeeeo","r","ekey","okchol","cheo","o","koiin"],
+      "reading":"okoaiin = light attributed to the Sun; all other groups, including adjacent okol, are UNKNOWN.",
+      "result":"Partial counter-context only; no full sentence or Earth-facing relation claimed."
+    }
+  ],
+  "paid_assumptions": [
+    "IT2a developmental reading is the primary authored branch; ZL3b/RF1b remain alternatives and are not normalized into it.",
+    "The stored local order of f89v1.16 is used as left-to-right discourse order for this exploratory binding; it is not a proven sentence boundary.",
+    "The four groups after qokaiin fill reference-record comparison fields by local adjacency; this is a local, not universal, syntax hypothesis.",
+    "Morgan M.721 is a historical plausibility constraint only, not evidence of copying or lexical identity."
+  ],
+  "not_assigned": ["okol","okaldy","okal@152;y","qokool","qokol","chokaiin","okor","okar","all other native groups not listed as new values"],
+  "rivals": ["W fixed-zodiac proper-return interval", "generic property/content/reference", "renamed observation accounts"],
+  "cost_counts": {"new_semantic_values_or_constructors":9,"new_compositional_rules":4,"confirmed_words":0,"independent_confirmation_capacity":0},
+  "scope_debt": "No whole97/288 coverage in Stage 1. Stage 2 must account for all primary positions and alternatives without changing frozen values; if the DAL-DALG consumer cannot be connected, retain partial status."
+}
