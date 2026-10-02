@@ -1,3 +1,14 @@
+## 2026-10-02 IDEA869 successor comparison: STIR not prioritized
+
+The actual1118/1119/ET successor reports do not supply a separating written
+consequence for869. Relative to1119, four of its seven focal word values change;
+QOKAIN has no869assignment. Importing IS or inventing a clause boundary at
+f77r35 would add assumptions. Purity, deposition and flow do not prove stirring.
+The exact comparison is [retained](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_DAL_SUCCESSOR_COMPARISON_20261002.md).
+No new fixed test or meaning;869 remains not_tested and is not preferred for
+further free lexical expansion. Producer retained zero new cards:385/610 already
+contain its considered targets. No global impossibility conclusion follows.
+
 ## 2026-10-02 IDEA869: event/state/prohibition draft, right binder stopped
 
 A concrete exposed C0 draft relates dalchedy and dal chedy through a shared

@@ -4,11 +4,11 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Complete shared-event construction remains open (IDEA869).
-Latest decision: Right binder fails114r; STIR unselected;1116 NEG is old.
-Working files: GD_SINGLE_C0_DAL_STIR_CONSTRUCTION_20261002.md and receipt.
-Assumptions: No hidden patients, space deletion or automatic grammar repair.
-Resume: Inspect1118–1120 primaries before any successor to869.
+Task: Shared lexical construction remains unresolved.
+Latest decision: 869 STIR deprioritized;4/7 values changed versus1119.
+Working files: GD_DAL_SUCCESSOR_COMPARISON_20261002.md/json.
+Assumptions: QOKAIN unassigned in869; no inferred clause or stirring history.
+Resume: Read IDEA414 composition audit before any qok/che writer proposal.
 Running: None; minimum06:09:20UTC remains unfulfilled.
 
 ## Structural baseline

@@ -278,3 +278,16 @@ image,reserve,admission,solver,decoder,experiment,global route,index,ledger or
 Git work occurred. Earlier TARGETS content, including root's intervening864
 review, and frozen1134 inputs are preserved. Root owns the next review,
 metadata refresh and publication.
+
+
+### Bounded complete-target construction screen — 2026-10-02 03:43:59 UTC
+
+**Zero new raw cards.** The ten-minute tranche checked concrete existing whole-target offers, rather than requiring confirmed words before C0. Root's1118–1120/IDEA869 route and the failed right-patient binder were not extended.
+
+IDEA385 already contains the whole f83r31–44 (62 groups) and a consequential chain: measured altitude → same front setting, same Sun degree → pointer, same border marker → counting. Independent resets could change the reading. Its five C0 word guesses and finite source-side productions already encode that contract. Repeated `qokey`/`lchedy` alone do not supply a written argument/reference construction selecting the same observation instance. No different common word law was constructed here. Assigning the remaining words to the historical actions would clone the existing offer. Keep385 unchanged; this is not a rejection of C0.
+
+IDEA610 already retains a relation-versus-list/process contrast over complete f76r.42 and f83r.3. GDT1055's owned packet preserves the three alternate readings of both lines, including repeated `daiin chey lchedy` and f83r.3's `chey daiin chey lchedy`. A new gloss such as PER/EQUAL would not settle written argument selection, scope or composition of the two `chey` occurrences. No new complete-unit grammar with a later-use consequence was supplied. GDT1040's fixed loan-valency failure remains; recurrence and broad physical ownership do not establish individual operand meanings. Keep610 unchanged, without another recurrence audit.
+
+IDEA383 was also screened: its complete f77r9–24 endpoint/segment/circle identity story is already retained. Reassigning AB/AC/BC would not provide a new common endpoint composition. Topic, bounded cards, exact primaries, duplicates and route-checks were inspected. An empty `same_declared_design` result was not treated as scientific novelty.
+
+The constructive limit is the absence of a newly specified finite word-level argument/reference law in these particular designs, not a missing confirmed anchor and not proof that meaning is absent. **Confirmed translations0; new confirmed target bindings0.** No new target/source access, image, reserves, builds, experiments, globals or Git actions. Exact primary pins and prior TARGETS hashes are recorded in the appended JSON note. Old TARGETS content is preserved; root owns selection/publication.
