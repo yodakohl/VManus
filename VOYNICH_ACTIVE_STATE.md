@@ -1,3 +1,7 @@
+## 2026-10-02 GDT1139: native premises registered
+
+Ten fixed core occurrences in complete f83r.25–30 receive separate native observations before comparison. This checks the physical realization of retained1137C0, not its English meanings. All material exposed; no reserve access. [Contract](experiments/yolo/gdt1139_native_p4_core_reading/METHOD.md).
+
 ## 2026-10-02 GDT1138: preserved descriptions, missing consumers
 
 [Result](experiments/yolo/gdt1138_strict_an_galen_transfer/REPORT.md): PARTIAL_NO_CAPACITY. All34 inherited entries and49ZL/51IT groups conserved, but aiin retains unsaturated descriptions without WATER/contexts; daiin retains norm/quote closure without a later rationale consumer. Five actual-return challenges produce0 meaningful later changes; missing W0/W1 identities make swaps inapplicable, not PASS. Core order was reconstructible before SOURCE access; no informational blindness. Do not repair this frozen partial candidate. Separately, the proposed1137 nonseed otochedy label extension is not selected: literalstar/product conflict already known, symbolic association adds unbound meaning. [Decision clarification](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_POST1137_MEANING_DECISION_ADVISORY_20261002.md). Preserve1137 real computation, no materialword selected. Ten-hour minimum13:52:40UTC remains unmet.

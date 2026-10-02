@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Select a new meaning constraint after1137/1138.
-Latest decision: 1137C0 retained;1138partial; no OTOlabel test.
-Working files: gdt1138_strict_an_galen_transfer/REPORT.md.
-Assumptions: Exposed data; no automatic grammar repair/reserve use.
-Resume: Use GD_POST1137 advisory clarification for next selection.
-Running: Root selection; no agents active;10h ends13:52:40UTC.
+Task: GDT1139 native P4 source premises.
+Latest decision: 1137C0 retained;1138partial; no glossary expansion.
+Working files: gdt1139_native_p4_core_reading/METHOD.md.
+Assumptions: Exposed f83r;10fixed positions; no reserve access.
+Resume: Publish1139; localizeP4; freeze both native observations.
+Running: Observer awaiting release;validator plan;producer;end13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
