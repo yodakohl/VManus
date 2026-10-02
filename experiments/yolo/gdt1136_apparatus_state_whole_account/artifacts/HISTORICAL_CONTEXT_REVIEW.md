@@ -1,0 +1,46 @@
+# GDT1136 historical procedural context: conditioning, remnant and cleaning
+
+Source-only support for the registered GDT1136 question. **No complete historical comparator with the specified cleaning-reset contrast was established in the inspected owned spans. There are concrete partial procedural comparators.** This is a historical-plausibility limit, not a falsification of C0, an experiment selection or a repair to an author. The evolving author and fresh target bodies/images were not read.
+
+The exact requested distinction is demanding: an earlier charge conditions the same vessel; its bulk is withdrawn; a fresh charge has an affected product; cleaning intervenes before another otherwise comparable fresh charge; the second product is separately given an incompatible property. Material remaining in a coating is compatible with apparatus-associated memory. Empty bulk does not distinguish that film from a differently represented vessel condition. None of the sources below supplies this complete controlled contrast.
+
+## Concrete retained historical comparisons
+
+| Exact owned source | Positive procedure actually written | What it does not establish |
+|---|---|---|
+| Pliny, *Natural History* XXI.49, Bostock/Riley1856 volIV pp345–347; cached HTML `BOOK_XXI_CHAP_49` | Wax from extracted honeycombs is cleaned, dried, melted in a **new** earthen vessel, strained, then boiled again in **the same water and pot**. It is poured into cold-water vessels whose interiors have been rubbed with honey. Thus deliberately prepared vessel interiors and an explicit reused vessel both occur in a historical procedure. | No affected-vs-unaffected wax product pair, no vessel cleaning between fresh charges, no specific effect of honey coating or repeated lifetime is stated. An anti-adhesion explanation would be an inference, not source wording. The honey is an intentionally present material film, not evidence for a nonmaterial or film-free state. |
+| Pliny XVIII.73, volIV pp106–107; `BOOK_XVIII_CHAP_73` | In the grain-preservation discussion, some people store leguminous grain in vessels that previously held salted provisions, with plaster sealing above. **Prior contents are an explicit vessel-selection condition for later storage.** | The earlier contents' complete withdrawal is not stated. Residual salt is compatible; no cleanup/reset branch or paired product contrast appears. The surrounding passage reports multiple preservation practices, not a controlled comparison proving which one works. |
+| Pliny XXI.48, p345; `BOOK_XXI_CHAP_48` | Honey-pots and combs are washed; the water is boiled to produce vinegar. Cleaning/washing has an explicit downstream material use. | The later consumer is wash water. This is remnant recovery, not a claim that cleaning changes the same vessel's response to a later fresh charge. XXI.49's initial cleaning likewise selects **combs**, not a vessel reset. |
+| *Book of Quinte Essence*, Sloane73 edition, BookI pp7–8, editorial fol14v; cached span before `firewithout` | Lead quenched repeatedly in wine/water is followed by iron quenched in **that same liquid**, with softness attributed to the later iron. Reversing the metal order in the same liquid yields a hardening claim. This is a historical ordered-conditioning account with a later distinct participant. | The persistent carrier is the liquid; its bulk is retained. Neither passage conditions a bulk-empty vessel or washes it to reset the effect. Historical assertions are not modern verification of those metallurgical effects. |
+| Same Sloane73 edition, BookI p10, `antimony` | Red vinegar is withdrawn and new distilled vinegar added repeatedly to the antimony powder. The collected fractions are later distilled. | Powder remains as the active material. The instruction to keep the withdrawn vinegar clean is not an instruction to clean the glass. No persistent state apart from remaining material, and no cleaning reset, is supplied. |
+
+The strongest apparatus comparison is therefore **intentional interior coating before a charge**, while the strongest later-participant comparison is **retained-liquid conditioning**. Together they show that earlier treatment, apparatus preparation, reused carriers and later operations are historical procedural distinctions. Combining them into GDT1136's full condition/empty/fresh/clean/repeat contrast would be a new authored hypothesis; the passages do not jointly constitute that account.
+
+## Cached alternatives checked and bounded limits
+
+Theophrastus, *On Odours*, cached Loeb1926 translation: §26 replaces quince ingredient batches in prepared oil; §40–41 connects storage-vessel material/texture with preservation; §51 flavours wine with honeyed dough. The inspected vessel paragraphs also concern gentle heating and mixture management. These distinguish bulk replacement, intrinsic vessel characteristics and retained ingredients, but supply no cleaning-reset comparison. Modern translation is not a collated medieval donor.
+
+The owned Cennini LXII native-review primary covers Tambroni1821 printed49–53: fresh lye repeatedly extracts pigment from the **same residual pastello**, with first/last qualities differing; that residual is discarded only when it no longer colours lye. This is a particularly strong retained-material countercase, not apparatus-only memory. Its clean grinding stone and contaminated-pigment washing instructions do not give two later fresh-charge products before/after cleaning the extraction vessel. The five original raster images and OCR were not reopened here.
+
+Theophilus I.1–9's complete normalized Latin in the owned1847-edition packet was read. I.1 uses a copper/iron vessel to heat material; I.6's water washing belongs to the painting sequence. Neither fixes a reused-container cleaning contrast. No quarantined semantic values, model cards or modern chemistry analogy are transferred from these sources.
+
+S02's original report was read as requested, without its raw projection or alignment files. It remains an incomplete bulk-content comparison, with a locally executable empty/refill/withdraw sequence and failures or unresolved roles elsewhere. Its existing proposal of cleaning is not historical evidence or an executed separately persistent apparatus state. GDT1136's new C0 and its film rival remain exactly as registered; no old word value or implicit cleaning is added.
+
+Scope: route/METHOD, recipes topic, bounded registry navigation for872 and historical vessel/perfume/Cennini/Theophilus pointers; only cached source text and predecessor reports. Pliny XXI.48–49 was read through the following chapter boundary; the selected XVIII.73 preservation paragraphs and XVIII.74 vintage/reuse discussion were read with adjacent context, not the whole volIV. Sloane73's complete local metal-order, antimony and clean-receiver spans were read in main text, separating modern marginal summaries. Its p12 `elements` instruction calls for a clean receiving amphora initially; that alone is no reset. Theophrastus's relevant complete sections and vessel paragraphs were read, not a complete new source census. Ancient/medieval content, modern editions and source claims remain distinct; no medieval transmission to the Voynich manuscript is demonstrated.
+
+**Decision ceiling:** zero complete reset comparators in this bounded review; positive partial procedures retained. Lack of a comparator does not refute a manuscript reading. Conversely, these analogies cannot donate GDT1136's equal fresh-input premise, product negation, vessel identity, update/reset law or words. The fixed author must supply its own written commitments and the adherent-film rival remains. No fetch, OCR, native source image, target access, reserve, contact, decoder, global write or experiment rerun occurred.
+
+## Inspected-file receipts
+
+SHA256 hashes bind read inputs, not historical truth. Relative repository paths only.
+
+- `experiments/yolo/gdt1136_apparatus_state_whole_account/METHOD.md` — `3ef982c889acde16f3b4dc62e03c04db4132db03df7f3266807309111da0197e`
+- `research_registry/proposals/translation_programs_20260912/work/S02/REPORT.md` — `9595bd59b66b4686d4ce991a97f2b4669fd72f347e6740771c7b616720171474`
+- `research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/D_SOURCE_PLINY_IV.html` — `fa8df17459830172d8f7551033db38e78bc99b38079d49ee2e280d5919e14505`
+- `research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/D_SOURCE_THEOPHRASTUS.html` — `9aa68dc7d9ace9b003367b5c9d227960c0954d7e9c19cd54c458e1ff747826b5`
+- `research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_SOURCE_QUINTE_ESSENCE.html` — `be118a6627a77c5ab1918170bf63956d88fb4df8c0afd8c835883bd23ea4aaec`
+- `research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/E_SOURCE_RECEIPTS.json` — `a95ef8db89dd7c755028dd0feaae1e01436285693f694ca8d17f045909d5abe3`
+- `research_registry/work_batches/ten_hours_20260915/CENNINI_LXII_NATIVE_SEPARATE_FRACTIONS_REVIEW_20260922.md` — `bd45979854bec03c2f7e6267221c2715a3538542529ecd0c6e46469c44f07dfc`
+- `research_registry/work_batches/ten_hours_20260915/THEOPHILUS_I1_I9_SOURCE_CONTENT.json` — `1b65a924686633322bc7be73fa8723d97a04174361b062ae892502c28fe248bb`
+
+Frozen 2026-10-02T07:37:44.310506+00:00.

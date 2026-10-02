@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1136 whole f101r apparatus-state authorship.
-Latest decision: f83 partial published e75c925; shortlist872 with film rival.
+Task: GDT1136 whole f101r apparatus-state account.
+Latest decision: Preregistered 9be18de; author checking full IT draft.
 Working files: gdt1136_apparatus_state_whole_account/METHOD.md.
-Assumptions: C0; fresh glossary; exposed f101r; no reserves.
-Resume: Guard native packet; author complete account; fixed rival review.
-Running: root GDT1136; checkpoint09:17;10h ends13:52:40UTC Oct2.
+Assumptions: 144 C0 glosses; film rival; exposed page; no reserves.
+Resume: Await author freeze; release independent fixed reviews.
+Running: author; root/context review;checkpoint09:17;10h ends13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

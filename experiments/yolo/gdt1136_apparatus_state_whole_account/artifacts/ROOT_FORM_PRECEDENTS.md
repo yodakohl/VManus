@@ -1,0 +1,11 @@
+# GDT1136 — bounded check of proposed consequential forms
+
+2026-10-02, during authorship, before author freeze. This is a provenance check, not a new experiment or reopening. Root has received a progress sketch naming OTEOL and SHEEOR/SHEOOR; no final author files inspected. No meanings are inherited from the following reports.
+
+Exact bounded registry searches for `sheeor` and `sheoor` return zero, which is not an absence-of-research claim. Targeted primary navigation via IDEA204/W08 and the modifier-lattice historical record was therefore used. `words profile` provides only structural WE009/GDT608 curated evidence for all three forms; that small catalog is not exhaustive.
+
+- `experiments/yolo/sidequest_semantic_modifier_lattice/MODIFIER_LATTICE_REPORT.md`, whole short report: OTEOL previously appeared in a conditional astro continuation/grade lattice, alongside OTOLDOS/OTOLY. Its free E/EE and current/end meanings are old authored cards, not established linguistic facts. Nothing here certifies fresh-charge semantics or a global E-versus-O property polarity.
+- `research_registry/proposals/translation_programs_20260912/work/W08/REPORT.md`, beginning through the first concrete example: f102v2.35 SHEEOR was a processing patient under the old B attachment, but CHEO under J/M; the take-patient SHEOL differed. That is an assumption-bound referential countercase, not a confirmed SHEEOR translation or a contradiction of every new nominal-property reading. Existing AT/AP failures and conditional nimm branch remain unchanged. Root read the predecessor's reported exposed examples only; no original transcription/query, new body admission or scoring was performed here.
+- GDT608 primary remains the structural obligation: directed composition plus whole-form residuals and entry context, not arbitrary global component meanings. It was read before the new selection and given to the author.
+
+The new draft therefore must keep E_OR/O_OR, fresh-charge OTEOL and its references explicit as freshly priced C0 assumptions. Neither empty registry hits, prior renderer labels nor old patient attachments make them observed meanings. No new surface constraint or retroactive pass criterion is added by this note.
