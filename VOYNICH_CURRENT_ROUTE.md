@@ -2,14 +2,14 @@
 Updated: 2026-10-02. Live resume point.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: checkpoint
-Task: GDT1147 full-context test complete;H2 reading parked.
-Latest decision: Two earlier Q arguments unbound;no return chain;0words.
-Working files: experiments/yolo/gdt1147_complete_return_context_capacity/.
-Assumptions: Fixed1137+H2;unknowns unexecuted;RF window inherited.
-Resume: Select distinct complete consequence;no fitted dictionary repair.
-Running: None after independent validation and publication.
+Task: GM selection review complete;no new test selected.
+Latest decision: 669anatomy done1126/27;1128no prosebridge;694owner unbound.
+Working files: source_supply_20260929/GM_PAIR_ORGAN_DECISION.md.
+Assumptions: Three basal-unit leads retained;allleaf102;0words.
+Resume: New written owner/consumer contrast needed;do not repeat anatomy.
+Running: None;1147/H2parked;GM reviewed and published.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
