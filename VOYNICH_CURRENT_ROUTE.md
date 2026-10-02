@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: IDEA748 historical construction source acquired.
-Latest decision: Shadow-axis-wind-street template;target unbound;0words.
-Working files: source_supply_20260929/GK_VITRUVIUS_SOURCE_REPORT.md.
-Assumptions: Medieval prose;full figure chain1511;no reserve.
-Resume: Require target-owned measurement/axis contrast before748lexical test.
-Running: None;source and bounded reviews complete.
+Task: GDT1144 construction-capacity test complete.
+Latest decision: Fixed f67r canvas lacks owned chain;748 source retained;0words.
+Working files: experiments/yolo/gdt1144_shadow_axis_native_capacity/REPORT.md.
+Assumptions: Exposed single canvas;two informed records;no reserve.
+Resume: Select distinct complete consequence;no same-canvas repair.
+Running: None;native test and bounded idea review complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

@@ -1,3 +1,7 @@
+## 2026-10-02 GDT1144 fixed construction capacity tested
+
+[Full native canvas comparison](experiments/yolo/gdt1144_shadow_axis_native_capacity/REPORT.md): two informed observers, eight paired cells; four absent at supplied scale and four unresolved, including one preserved disagreement. No visibly owned observation-to-axis or region-to-street candidate on Yale1006194. This stops the literal bridge on this canvas, not astronomical text generally. IDEA748 historical acquisition remains positive; f57v report-only in this follow-up. 72 protocol/accounting checks PASS, not visual truth. 0 confirmed words and independent meaning confirmation; reserves closed. No same-canvas crop or guessed-word repair; next candidate requires a distinct complete consequence. All current work complete.
+
 ## 2026-10-02 IDEA748 historical construction source acquired
 
 [Seven source pages inspected](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GK_VITRUVIUS_SOURCE_REPORT.md): Harley2767ff16v–17r (catalogue0800–0824) attests shadow-to-meridian construction in prose beside a wind diagram;1511FraGiocondo29–33 explicitly labels shadows/gnomon, wind regions and street grid. Separate local letter keys and changing page orientation retained. No pre1420 complete figure chain, Voynich match or word established. Existingf67r1/f57v primary observations do not bind these roles; no target test/opening. Retain748as limited acquisition success, not permission for fitted rotation.1143branch stays parked.
