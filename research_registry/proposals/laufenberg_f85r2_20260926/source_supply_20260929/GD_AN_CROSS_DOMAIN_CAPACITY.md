@@ -181,3 +181,129 @@ inside an ongoing whole-reading authoring task, but this note warrants no
 separate run to rediscover its absence. The prior root/medical and C0 limits
 remain. No additional corpus/artifact-body inspection, census or engine followed
 this objection.
+
+## New-input advisory: concrete diagnostic comparator, no acquisition selected
+
+Bounded25-minute source/decision review. Read the current route, composition
+and pictures excerpts, bounded registry/route navigation, exact GDT611/GDT967/
+GDT1043 reports, existing Laufenberg/regional and LJS463 source decisions, and
+the star-color validation. No new Voynich page, target query, native target
+image, reserve, source corpus, code, contact, scoring or experiment selection.
+External research was institutional catalogue/metadata only. Unknown topic
+Laufenberg was resolved through targeted registry/primary lookup, not treated
+as absent research.
+
+### One concrete new input worth distinguishing from another story
+
+The [Rosenbach/OPenn primary record](https://openn.library.upenn.edu/Data/0028/html/ms_1004_029.html)
+locates **MS1004/29, York1364**, a physician's folded belt book. Sheet9A is
+`Tabula urinarum`; sheet8A is `Ymago fleobotomie`. Its metadata identifies20
+coloured urine samples and anatomical vein/condition annotations in circles.
+This is an English Latin comparator, not a Laufenberg witness. The public
+listing supplies whole-sheet and unfolded-detail renditions. These image
+contents have **not** been natively inspected in this task, and direct image
+delivery was not tested; published links are verified metadata, not successful
+acquisition receipts.
+
+Exact possible bounded input: complete diagram-facing sheet9 (listed views
+9A,9C-B,9C,9D and9v) and only the diagram-bearing8D control. Official links:
+[9A](https://openn.library.upenn.edu/Data/0028/ms_1004_029/data/web/5964_0042_web.jpg),
+[9C-B](https://openn.library.upenn.edu/Data/0028/ms_1004_029/data/web/5964_0043_web.jpg),
+[9C](https://openn.library.upenn.edu/Data/0028/ms_1004_029/data/web/5964_0044_web.jpg),
+[9D](https://openn.library.upenn.edu/Data/0028/ms_1004_029/data/web/5964_0045_web.jpg),
+[9v](https://openn.library.upenn.edu/Data/0028/ms_1004_029/data/web/5964_0046_web.jpg),
+[8D](https://openn.library.upenn.edu/Data/0028/ms_1004_029/data/web/5964_0040_web.jpg).
+These are overlapping folded/unfolded views of two source sheets, not six
+independent witnesses. No need to acquire the full almanac or an OCR corpus.
+
+The proposed multifeature source contract is stronger than a physician/flask
+topic: (1) vessel drawings depict **samples**, (2) sample colour is a measured
+attribute, (3) readable local inscriptions own particular samples, (4) an
+explicit grouping or relation maps those observations to diagnostic conditions,
+and (5) the anatomical control instead owns body sites and their treatment/
+condition labels. A native check would record actual orientation, grouping,
+scope and all counterexamples, rather than assume that catalogue20 implies
+twenty unique diagnoses or that colour itself is a diagnosis. That is a
+potentially obtainable independently readable semantic interface, not another
+unrestricted medical program. No20-slot Voynich requirement is proposed.
+
+### Strongest predecessors checked first
+
+GDT611 shows that real formal exchange slots leave named plant parts/materials/
+medical roles permutation-symmetric; a section label cannot break that symmetry.
+GDT967 contradicts its fixed lossless32-bath/13-term incidence models; a new
+urine source cannot rescue those models by flexible paraphrase. The star-color
+route remains nonconfirming: its validation reproduces zero eligible passes
+and supplies no colour meaning. A new diagnostic wheel must not be used as
+permission to retry a colour-only correlation.
+
+The already-owned Laufenberg sources directly establish the variable season/
+age/physician program; adding thematic book cohabitation is redundant.
+The regional C760 primary covers Mercury p47, not this diagnostic wheel.
+LJS463's four-face urine acquisition stopped at TLS failure with no pixels;
+it neither established this input nor disproved diagnostic teaching. No old
+failed LJS endpoint was retried. Bounded Rosenbach registry hits included a
+lexical false hit on ledger row1004; its exact card concerns a diagnostic
+concentration validator, not inspected Rosenbach ownership. Empty filename
+matches are navigation evidence only, not proof of global novelty.
+
+### Actual target relation and decision change
+
+The exact owned GDT1043 East observation is **rounded bulb + narrow neck +
+raised hand + face directed toward object**. Grip near base versus neck differs
+between observers. Contents/material are not visible, and the complete panel
+has **no explicit word-to-held-item connector**. Uroscopy and generic-vessel
+alternatives both preserve all four observed features. A source sample-to-
+diagnosis relation is not presently tied to an owned target sample colour,
+diagnostic inscription owner, anatomical site pointer or written patient-
+specimen relation. The source's readable labels cannot donate any of those.
+
+Consequently a positive source finding would supply a fixed historical
+observation→diagnosis interface, but would **not** eliminate the generic-vessel
+reading, select the f83 clinical predicates, contradict the local generic-wind
+account, or bind one Voynich whole. A negative/unreadable source result would
+close only this proposed acquisition's useful-interface claim; it would not
+disprove the Hausbuch hypothesis. Both outcomes presently leave the live
+Voynich meaning decision unchanged. The current f83 authoring stop at a new
+whole is no reason to buy diagnostic payloads from this source.
+
+**Recommendation: no historical image acquisition or target test now.** This
+is a concretely located candidate whose proposed distinctive relation fails
+the present decision-change check, not a generic missing-binding checklist.
+Retain its exact source identity and delivery roster for a future existing-
+target observation that actually supplies a sample/inscription/body-site owner.
+Such a relation could make a sample-diagnosis versus prepared-liquid/celestial-
+object rival predict different local connections without a confirmed English
+anchor; no such connection is invented here. Do not inspect new Voynich leaves
+to manufacture it. Current C0 work remains permitted; confirmed words remain0.
+
+### Root qualification: source usefulness and a future visual gate
+
+Rosenbach is retained as a concrete publicly locatable historical prior, not
+discarded as useless. Its present no-selection does not require confirmed
+lexemes before exploratory iconographic comparison. The positive owned GDT1043
+ensemble is **West held plant-like stem, South staff/support and linked strand,
+and East raised necked vessel facing its holder**, with North's presenter gesture;
+south attachment and east grip remain qualified. It is stronger than an isolated
+flask, and the retained Laufenberg medical/season program already explains parts
+of that conjunction without fixing a word.
+
+A future small source visual acquisition has a concrete gate: the source unit
+must present a **single owned relation** joining at least two of that ensemble's
+specific attributes to a readable diagnostic/medical role or to an explicit
+alternative role. Match attachments, viewing/acting direction, source object
+ownership and the picture's connected layout, not just four counts, a roundel,
+a flower or blue paint. Predeclare the attribute pair and rival before images.
+Do not assemble a match from the Rosenbach urine wheel plus an unrelated
+anatomical sheet or from different holders elsewhere in a codex. These two
+Rosenbach sheets currently promise a diagnostic **control**, not a catalogued
+copy of the ensemble; no connected matching scene is asserted.
+
+If a bounded source unit yields the predeclared conjunction with an explicit
+different object role, that changes which narrow iconographic reading deserves
+a whole C0 account. If it yields only the already-known generic vessels or
+unrelated diagrams, it contributes no such preference; unreadability remains
+an access/interpretation gap. This is a legitimate source-informed visual lead,
+not lexical confirmation or independent Voynich holdout. A word meaning would
+still owe the actual target expression/owner relation. This qualification
+authorizes no acquisition now and adds no target observation.

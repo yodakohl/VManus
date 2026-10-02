@@ -134,3 +134,43 @@ Inclusive budget35minutes:3preparation,20author,7review,5publication. Start
 At checkpoint stop expansion, preserve the actual candidate and finish review.
 Root owns decision/publication. No new experiment is selected by this note;
 this is bounded development within the existing proposal.
+
+
+### Independent frozen paired-candidate review — 2026-10-02T02:01:40.189202+00:00
+
+Decision: **partial candidate construction; no passage-supported new formation or transfer consequence.** This review preserves the root selection and frozen author files. It checks the released inventory against the already owned source; it does not interpret the second body, repair the author, or select a meaning.
+
+The release pins match. The source has 513 native reader positions and 505 formal chunks: first passage ZL72/IT71/RF72; second ZL99/IT98/RF101. All 513 native IDs and 505 chunk IDs occur uniquely in the candidate's source-hash references. All 71 first IT rows preserve exact source metadata, raw text and formal chunks. The first passage has 53 distinct raw forms and 50 final unit types; the reported final-unit frequencies match recomputation. These checks establish preservation, not 513 semantic derivations. The other-reader and second-passage entries remain source references, not completed readings.
+
+The actual first prefix is conditional. At f83r.1 G001 `tchedy`, the paid entry rule creates an opaque Workpiece, an INTEGRITY question at sampling ordinal0, and a hypothetical answer v0. At G002 `lpchedy`, `l` replays that question template, `p` advances the ordinal to1, and CHEDY would obtain a fresh answer v1 for the same owner/property. Those fields would matter to the defined observation consumer. Neither answer is supplied or executed; this is a typed conditional story, not two observed consequences.
+
+The first gap is IT2a|f83r.1|G003 `opcsedy`, final units `[op,c,s,edy]`. Frozen `op` expands to `p(o(scope),case)`: `o` returns OwnerRef, whereas `p` requires PredicateTemplate. The missing predicate/adapter is substantive under these definitions. The subsequent c, s and edy also have no assigned semantics. The remaining 68 first-passage positions are not derived after this gap. This is a failure to construct the proposed complete reading, **not a contradiction found in manuscript meaning**, and it does not rule out every inquiry interpretation. No bridge or continuation is donated.
+
+The nine primitive functions, eight finite routes and three constants impose real hypothetical type and field duties; they are more constrained than assigning each whole an arbitrary payload. Their semantic choices are nevertheless authored assumptions. `t` pays for owner introduction, scope initialization and the fixed property; `l` is a separately paid alias of `d`. The ordinal is not a demonstrated physical clock, and Workpiece/INTEGRITY are not identified lexemes. Later `lchedy` would require a ReadyQuestion closure that replay alone does not supply; later t cannot reset a live case under its frozen entry rule. Unassigned intervening text prevents treating these as proven manuscript contradictions or assuming continuous scope across the first gap.
+
+OK/QOK/aN is **prospectively specified but not passage-supported here**. OK forms a current-owner INTEGRITY predicate; QOK adds a strictly earlier matching report and its baseline; aN stamps an explicit current case. The first passage's three qokaiin and two daiin positions are all unreached. Thus no actual earlier report, baseline lookup, aN result or later CHEDY field read is established there. The second-only okaiin route is a coherent stipulated POINT interface, but it is not evaluated on the second passage. The author explicitly reports no genuine passage-supported new formation, no determined downstream payload and no second derivation. Known second contacts remain disclosed selection information on an exposed physical leaf, not a holdout.
+
+GDT1047's retained DAIIN host counterexamples prohibit exporting an exceptionless left/right rule. This candidate's conditional local last-report rule does not assert that universal rule, so those counters are not silently converted into a new target contradiction. The decisive present failure is earlier: the whole first reading never supplies the context that would test the proposed reuse. Preserve this partial inventory; the selected route's condition for registering a consequence check is unmet. An inevitable UNKNOWN-only second run would add no predictive information.
+
+
+### Root closure: partial construction retained — 2026-10-02T02:02:19.366417+00:00
+
+Accept the independent review. The selected manual development is complete as a
+recorded unsuccessful construction: two conditional opening expressions, the
+first type gap at G003, and no executable full first passage. All71 first IT
+positions remain;513native/505chunk references preserve both exposed passages
+and all alternatives. Zero observations were executed. A defined OK/QOK/aN
+interface is not a derived new formation, so no transfer experiment follows.
+This adds a precise candidate limitation, not a new manuscript contradiction or
+a translated word. No automatic adapter, alternate whole dictionary or decoder
+repair is selected. A future candidate must have a genuinely different finite
+writing contract or new binding evidence, and retain this core's exact limits.
+
+The root source/freeze/account/reading hash check matched the independent review;
+no author file changed. The budget stopped semantic expansion at01:51; receipt,
+review and publication preparation continued within the02:05:51 inclusive
+checkpoint. The ongoing parent block remains active until at least06:09:20UTC.
+Next selection reviews explicitly raw IDEA862/863 and a bounded native-image
+capacity proposal; none is yet an approved experiment. Rosenbach MS1004/29 is
+an obtainable historical prior, not a newly bound Voynich meaning or selected
+image acquisition. No fresh manuscript access or reserve opening follows here.

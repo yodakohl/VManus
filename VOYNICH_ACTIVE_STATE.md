@@ -1,3 +1,16 @@
+## 2026-10-02 GD paired composition: first-body construction incomplete
+
+The frozen f83r candidate assigns two hypothetical opening observations, then
+stops at opcsedy (third group): o returns OwnerRef but p needs a predicate.
+No observations execute; the remaining68groups stay underived. All71 first
+IT positions and513 alternative-source references are retained. The proposed
+OK/QOK/aN/CHEDY interface has no passage-supported new formation; no second-body
+transfer was run. This is candidate incompleteness, not a manuscript contradiction.
+No repair or new decoder. Next selection seeks a concrete source/visual or writing
+constraint beyond another freely assigned local program; current raw proposals
+remain unselected. One exposedleaf83; zero independent confirmation/words.
+[Candidate](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_PAIRED_COMPOSITION_CANDIDATE.md).
+
 ## 2026-10-02 GD/GDT1134: live separate marks, incomplete frozen inventory
 
 IT30 operations execute; both actual CounterResult owners reach the two retained

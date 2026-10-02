@@ -1,0 +1,191 @@
+{
+  "status": "FROZEN_PARTIAL_MANUAL_INVENTORY",
+  "frozen_at_utc": "2026-10-02T01:54:58.070942+00:00",
+  "author_checkpoint_utc": "2026-10-02T01:51:00+00:00",
+  "checkpoint_outcome": "Stop semantic expansion; preserve partial inventory. Receipt writing continues only.",
+  "source_file": "GD_PAIRED_COMPOSITION_SOURCE.json",
+  "source_sha256": "86c9ce1db3489ae81036e61e15894e7bef03637f089fd4dbb0e668d8836882f8",
+  "core": {
+    "t": {
+      "function": "BeginInquiry",
+      "input": "EmptyCaseScope",
+      "output": "ReadyQuestionSpec",
+      "definition": "At a written entry t, create the one opaque Workpiece identified by this native entry source ID, initialize explicit case scope at sampling ordinal 0, and form a POINT question about INTEGRITY. Requires an empty scope; t elsewhere cannot reset a live case.",
+      "paid_commitments": [
+        "opaque owner introduction",
+        "case-scope initialization",
+        "fixed-property question formation"
+      ]
+    },
+    "o": {
+      "function": "CurrentOwner",
+      "input": "CaseScope",
+      "output": "OwnerRef",
+      "definition": "Read owner from the explicit case scope. No nearest-noun or guessed-owner default."
+    },
+    "k": {
+      "function": "IntegrityPredicate",
+      "input": "OwnerRef",
+      "output": "PredicateTemplate",
+      "definition": "Retain the supplied owner, set property INTEGRITY and mode POINT, baseline null. The fixed property is an unconfirmed C0 choice."
+    },
+    "q": {
+      "function": "HistoricalContrast",
+      "input": "PredicateTemplate + earlier matching ObservationReport + current CaseScope",
+      "output": "PredicateTemplate",
+      "definition": "Preserve owner and property; require an earlier report for that owner/property at a strictly earlier sampling ordinal. Set mode HISTORY_CONTRAST and retain its report ID and value as baseline. Missing or ambiguous baseline blocks. Do not copy its answer as the new answer."
+    },
+    "aN": {
+      "function": "StampQuestion",
+      "input": "PredicateTemplate + explicit current CaseScope",
+      "output": "ReadyQuestionSpec",
+      "definition": "Copy owner/property/mode/baseline from its actual predicate input and bind the explicit current sampling ordinal. Output fields must be read by the later consumer."
+    },
+    "d": {
+      "function": "ReplayPredicate",
+      "input": "last completed ObservationReport in explicit current case",
+      "output": "PredicateTemplate",
+      "definition": "Recover the earlier question owner, property, mode and baseline; drop its sampling time and answer. A later aN must supply current sampling time. Requires an actual completed report; no universal left host, right host or next-CHEDY assumption."
+    },
+    "l": {
+      "function": "ReplayPredicate",
+      "input": "last completed ObservationReport in explicit current case",
+      "output": "PredicateTemplate",
+      "definition": "Recover the same earlier question owner/property/mode/baseline, drop answer and sampling time. This is an explicitly charged semantic alias of d, not confirmed l/d identity."
+    },
+    "p": {
+      "function": "AdvanceSampling",
+      "input": "PredicateTemplate + explicit current CaseScope",
+      "output": "ReadyQuestionSpec + updated CaseScope",
+      "definition": "Advance the sampling ordinal by one and stamp the supplied predicate, preserving its owner/property/mode/baseline. An OwnerRef alone is insufficient. This is sampling advance, not a universal THEN."
+    },
+    "Cedy": {
+      "function": "Observe",
+      "input": "ReadyQuestionSpec + fresh ObservationEvidence",
+      "output": "ObservationReport",
+      "definition": "Read owner, property, sampling ordinal, mode and baseline from the actual question. Require fresh evidence indexed by exactly that owner/property/time. POINT returns the current Boolean value. HISTORY_CONTRAST additionally computes current value != baseline value using the supplied matched report. This instruction changes state only when executed; no observations are supplied or executed here."
+    }
+  },
+  "finite_productions": {
+    "ok": {
+      "tree": [
+        "o",
+        "k"
+      ],
+      "route": "k(o(CaseScope))",
+      "output": "PredicateTemplate POINT"
+    },
+    "qok": {
+      "tree": [
+        "q",
+        [
+          "o",
+          "k"
+        ]
+      ],
+      "route": "q(ok(CaseScope), matched earlier ObservationReport, current CaseScope)",
+      "output": "PredicateTemplate HISTORY_CONTRAST"
+    },
+    "okaN": {
+      "tree": [
+        [
+          "o",
+          "k"
+        ],
+        [
+          "a",
+          "N"
+        ]
+      ],
+      "route": "aN(ok(CaseScope), current CaseScope)",
+      "output": "ReadyQuestionSpec POINT",
+      "capacity": "Second-only form disclosed in advance; no occurrence evaluated."
+    },
+    "qokaN": {
+      "tree": [
+        [
+          "q",
+          [
+            "o",
+            "k"
+          ]
+        ],
+        [
+          "a",
+          "N"
+        ]
+      ],
+      "route": "aN(qok(CaseScope, matched earlier report), current CaseScope)",
+      "output": "ReadyQuestionSpec HISTORY_CONTRAST"
+    },
+    "daN": {
+      "tree": [
+        "d",
+        [
+          "a",
+          "N"
+        ]
+      ],
+      "route": "aN(d(last completed report), current CaseScope)",
+      "output": "ReadyQuestionSpec preserving recovered mode/baseline"
+    },
+    "tchedy": {
+      "route": "Cedy(t(EmptyCaseScope), fresh evidence)",
+      "output": "ObservationReport"
+    },
+    "lpchedy": {
+      "route": "Cedy(p(l(last completed report), current CaseScope), fresh evidence)",
+      "output": "ObservationReport"
+    },
+    "op": {
+      "tree": [
+        "o",
+        "p"
+      ],
+      "route": "p(o(CaseScope), current CaseScope)",
+      "output": null,
+      "status": "TYPE_GAP: p requires PredicateTemplate, o returns OwnerRef"
+    }
+  },
+  "policies": {
+    "constants": [
+      "INTEGRITY",
+      "POINT",
+      "HISTORY_CONTRAST"
+    ],
+    "opaque_naming": "Exactly one name may be instantiated by a written entry t at an EmptyCaseScope: Workpiece(entry source ID). No unknown word, repeated residual or line boundary introduces a name.",
+    "entry": "The initial IT paragraph-start t is the sole attempted entry. No implicit line resets. Its three paid commitments are disclosed above; they are choices, not evidence.",
+    "reference": "Explicit current case and last completed report only. No invisible co-reference, occurrence-index routing or unknown-noun filler. Missing state blocks.",
+    "evidence": "The only hypothetical prefix evidence is symbolic v0 and v1, each indexed by its respective owner/property/time. It is not supplied manuscript evidence, historical effectiveness, or an executed observation.",
+    "residuals": "Listed exact pair residuals license only the written routing above. No residual introduces owner/property/measurement/effect, repairs an incompatible type, or creates a whole episode. Unlisted residuals are unassigned.",
+    "shared_component_scope": "d/l/p/q/o/k/aN functions retain their definitions at every proposed application. Unreached occurrences are not executed. Cedy is a licensed whole final unit; no translation of its C/e/d/y internals is claimed.",
+    "boundaries": "Native separators and paragraph flags stay as recorded. No semantic sentence boundary inferred from each row. Alternate uncertain seams remain uninterpreted.",
+    "time": "Sampling ordinals are an explicit paid model convention. There is no independent temporal anchor or observed clock value.",
+    "no_repair": "No adapter from OwnerRef to PredicateTemplate, no additional default property, no free question closure, no episode alias, no historical-baseline invention."
+  },
+  "first_gap": {
+    "source_group_id": "IT2a|f83r.1|G003",
+    "raw": "opcsedy",
+    "fixed_units": [
+      "op",
+      "c",
+      "s",
+      "edy"
+    ],
+    "first_obligation": "Attempted op=[o,p]: o returns OwnerRef; p requires PredicateTemplate containing owner and property. No written k or frozen adapter supplies the missing template.",
+    "additional_unassigned_controls": [
+      "c",
+      "s",
+      "edy"
+    ],
+    "decision": "Partial candidate. Do not derive later rows from guessed continuation."
+  },
+  "second_body_interpreted": false,
+  "known_second_critical_sites": [
+    "IT2a|f83v.16|G007 qokaiin -> G008 chedy",
+    "IT2a|f83v.18|G005 okaiin -> G006 chedy"
+  ],
+  "confirmed_english_words": 0,
+  "all_unlisted_units": "UNASSIGNED; no default lexical value",
+  "genuine_passage_supported_new_formation_consequence": false
+}
