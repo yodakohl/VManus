@@ -1,0 +1,44 @@
+{
+  "experiment": "GDT1137",
+  "status": "final frozen author before independent reviews",
+  "freeze_utc": "2026-10-02 09:07 UTC",
+  "author_owned_files": [
+    "src/core.py",
+    "src/CORE_FREEZE.json",
+    "src/author.py",
+    "artifacts/AUTHOR_ACCOUNT.json",
+    "AUTHOR_READING.md",
+    "AUTHOR_RECEIPT.json"
+  ],
+  "pins_excluding_self": {
+    "src/core.py": "592e070b934c54ff7e5965ed7a4ee1cd6789b14cd4d59de216a40d229e54ec02",
+    "src/CORE_FREEZE.json": "b59b793c6a5e7c811e70cfb5c6af5a8b186598858d219a95295931cf6bd74cb0",
+    "src/author.py": "7cc3c8c1562cfc1e5440f7e4ca0bf5e13dcaa3bb341e52388660af4896c10c96",
+    "artifacts/AUTHOR_ACCOUNT.json": "77a12a678693e5630bd4506d5c59419917507a58373a2913615a9298137e6785",
+    "AUTHOR_READING.md": "2f7bc029c318ddbcd12b5fb264d41ca25515b30a8c43fda636665902c4333eff"
+  },
+  "registration_commit": "279ccdd0ef124ba7625a7c93e38c71c94f365d76",
+  "registration_release_utc": "2026-10-02 08:52:07 UTC",
+  "focal_freeze": {
+    "core_sha256": "592e070b934c54ff7e5965ed7a4ee1cd6789b14cd4d59de216a40d229e54ec02",
+    "core_freeze_sha256": "b59b793c6a5e7c811e70cfb5c6af5a8b186598858d219a95295931cf6bd74cb0",
+    "order": "core written and pins sent; root read entire core+freeze and acknowledged before author.py extension",
+    "unchanged": "Final author imports and calls exactly the acknowledged core bytes"
+  },
+  "reviewer_plan_pins": {
+    "artifacts/VALIDATION_PLAN.md": "d193c280be97c416575fcbda12b9698e4ba4f0202753b552b638d710e9e1098d",
+    "artifacts/SEMANTIC_REVIEW_PLAN.md": "62d9212f2d700bc85dce6ffdfd6f97b22c2238bca05bf6bb5ce864c69b240ec1"
+  },
+  "author_checks": {
+    "deterministic_byte_replay": "Two in-memory builds and saved account match exact bytes",
+    "replay_sha256": "77a12a678693e5630bd4506d5c59419917507a58373a2913615a9298137e6785",
+    "native_objects": "all97 complete native rows retained without normalization; all fields conserved",
+    "primary_order": "all32 IT source IDs preserved in native order",
+    "default": "32 contributing primary positions; no first failure",
+    "latest_only": "first failed written source assertion .29G002; remainder not reached",
+    "scientific_status": "author checks only, independent validation and semantic adjudication pending"
+  },
+  "access": "Only bound artifacts and local source; no additional target/image/raw/corpus/reserve/contact. f84/f84r sealed; f116v unadmitted.",
+  "freeze_policy": "No post-review author repair or candidate semantics change. Root may publish exact author bytes and independent results.",
+  "claim_ceiling": "Finite coherent IT32 hypothesis, alternate semantic barriers explicit. No confirmed meanings/source identity/physical execution/batch identity/fullIDEA876 duty."
+}
