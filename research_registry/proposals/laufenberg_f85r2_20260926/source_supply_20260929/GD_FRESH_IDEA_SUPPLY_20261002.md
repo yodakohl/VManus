@@ -455,3 +455,93 @@ GDT998 report `b2878614c893bd3f5614ae9de3b58c3100987cf97381b6867d6628aad83c5649`
 Only this note was appended. No target-body file,1139 evidence/observer/result,
 source/Voynich image, acquisition, reserve, new admission, outside contact,
 test, parser/decoder, registry mutation, root route/ledger/state or Git action.
+
+## Seventh bounded unit: rare-feature source discovery, 10:11–10:21 UTC
+
+**0 new RAW proposals.** Parent requested a distinct accessible historical
+program connecting several of the staff/linked-strand/raised-flask/plant/solar
+features and supplying complete neighboring propositions. Read the current
+route first. The unknown `iconography` topic was followed by the live `pictures`
+topic and targeted catalogue/primary lookup; it was not treated as absent
+research. Read the exact composite and regional source rosters before external
+discovery, then bounded ideas searches, duplicate navigation and route-check.
+No target body, image,1139 observer/validator file or result was opened.
+
+**The inspected prior catalogue establishes different linked programs, not a
+new whole-cluster witness.** Arundel83 II126v actually links elderly support and
+the physician's raised urinal within one life wheel; the bearded centre is
+divine, not established as solar, and neither plant nor linked beads is owned.
+Egerton2572 f51r links a cross-staff, a urinal and a celestial/calendar
+instrument, but their owners are explicitly different saints. The support and
+four humoral figures are on f51v, where no urinal or held plant is established.
+Its reported physical recto/verso fastening remains an unverified scholarly
+claim in the owned reproduction. Cgm5185's physician, shared distaff, Death's
+cord and cosmological wheel occupy different surfaces. The full catalogue
+does not supply a written physician-to-times-to-cosmos assertion. Salzburg
+MIII36 connects planets, ages and hours, but its catalogue does not identify
+the rare attributes or attached medical propositions. No objects were merged
+across these witnesses to manufacture the requested match.
+
+**Best already retained content offer: IDEA563**, actual
+`../ideas/33_life_trajectory_embedded_care.json`. It is explicitly RAW and
+already nominates the complete owned f85r2.1–24 scope, while assigning no word
+values. The later owned [Arundel full-label report](../ARUNDEL_WHOLE_LABELS_REPORT.md)
+is a prospective input beyond the small reproduction cited in that RAW:
+roundel6 contains the complete staff-user self-predication; roundel8 contains
+the complete patient-decline proposition and a distinct flask-examining
+attendant; the centre separately asserts seeing the whole and governing by
+reason. Those complete local propositions constrain **who owns which action
+and condition**. They do not authorize a physician-as-age identity, physician
+causing decline, patient-specimen origin, cure, or a solar centre. Three other
+annular stretches remain unresolved, so the entire painting must not be
+called a completely translated source. The RAW's original older source state
+was preserved; no `ideas reconsider` eligibility or scientific selection is
+claimed here. A review of563 could use these already owned clauses without
+acquiring another source image, but its cross-episode identity binder and
+whole-target realization remain paid assumptions. It is not the requested
+rare-cluster source match.
+
+The [Egerton full report](../EGERTON_VERSO_REPORT.md) supplies a different
+concrete written restriction: plural humours are alternatively named
+complexions, followed by an unresolved kind clause and element relation.
+Its four banners distribute a shared argument rather than four independent
+season speeches. This is already retained in `egerton2572_shared_banner_argument`;
+the uncertain `hus` and verb must not be repaired from expectation. More
+source acquisition there would clarify that argument, but would not establish
+the missing plant/flask/support conjunction on the same face.
+
+**External discovery was narrow and did not produce a distinct complete
+candidate.** Primary institutional access reidentified the known
+[Caius428/428 solar-turning diagram](https://www.cai.cam.ac.uk/discover/library/online-exhibitions/safe-return-doubtful/four-winds),
+whose single complete annular couplet is already in SOURCE_NEXT_COMPARATOR;
+its requested staff/strand/physician conjunction is not established. The
+newly encountered [NLM record101436077](https://www.flickr.com/photos/nlmhmd/52444311518)
+identifies a Paris1501 Pigouchet/Vostre hours woodcut, aii recto, with explicit
+body-part-to-humoral-element lines and hunting borders. This is a real linked
+medical arrangement, but the catalogue text supplies no complete neighboring
+propositions or requested rare-attribute cluster. It was retained here as a
+metadata-only lead, not nominated for acquisition or registered as another
+generic fourfold proposal. Its image was not opened. One direct access to the
+already known Cambridge1496 age/uroscopy institutional item timed out; no
+replacement, guessed endpoint or serial repair followed. Search snippets,
+commercial reproductions and a surfaced Voynich-forum hit were navigation
+only; the forum was not opened or used as evidence.
+
+Decision: no new source-content contract or registry addition from this unit.
+An actual different source with written ownership of multiple rare attributes
+would change the source-shortlist decision; another generic quartet or another
+Laufenberg face would not. This bounded screen does not prove such a source
+absent. Positive complete Arundel clauses and Egerton's shared argument stay
+available, with their exact mismatches and predecessor ownership preserved.
+
+Pins: composite roster
+`930649ede1f26875fbc43c84a4ece6f5ed4ee01bc599ee7e4e8c0892744faab0`;
+regional roster `46d75d5585a3b53ebde3e8670233c67eda0fa6b5a5d252cb4443ba2368bd98be`;
+Arundel full-label report
+`9d9b9ac985781dc6a991771b13b99cd0f90ebcca10eda0a44b9fdf87fcd13fc6`;
+Egerton full report
+`f0cea126f54b56c5c2158dd9c551c276fb3587e4cfb7e41579ab58a36f75bd70`;
+563 actual RAW `6a1bdcc8a9e655f884d3b5eb7255142010d07cdb5751db0c21f9a7e4b39e4d44`.
+Only this existing note was appended. No new RAW/source cache, image,
+target/Voynich admission, reserve, outside contact, test, implementation,
+registry mutation, root route/ledger/state or Git action.

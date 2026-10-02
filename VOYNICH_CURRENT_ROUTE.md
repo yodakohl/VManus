@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Post1139 historical meaning constraints.
+Task: GDT1140 whole Fortune/status reading.
 Latest decision: 1139native1compatible9unresolved;1137C0 retained.
-Working files: gdt1139_native_p4_core_reading/REPORT.md;source_supply20260929.
-Assumptions: Exposed data; no meanings or reserve access.
-Resume: Publish1139; review777/source offer before new selection.
-Running: Bounded source producer; minimumend13:52:40UTC.
+Working files: gdt1140_fortune_status_whole_reading/METHOD.md.
+Assumptions: Exposedf85r2; noLatin default,meaning orreserve.
+Resume: Publish1140; releaseauthor; freezeactualcore beforeextension.
+Running: Authorawaitingrelease;validatorplan;producer;end13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

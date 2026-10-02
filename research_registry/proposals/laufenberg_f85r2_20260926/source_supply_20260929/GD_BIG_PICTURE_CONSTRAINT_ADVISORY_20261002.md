@@ -105,3 +105,30 @@ owned exact primaries supplied source review, with no infrastructure repair.
 No 1139 file/image/observer, new manuscript body, image, reserve, f84/f84r,
 f116v, external contact, Git action or global-state edit occurred. Root owns
 selection and publication; this note makes no ledger-worthy experimental claim.
+
+## Follow-up: IDEA777 permits a distinct whole-reading attempt
+
+Root subsequently proposed exploratory authorship, expressly without a meaning
+selection claim. **This is worth one bounded attempt:** all four f85r2 blocks
+under one linguistic status/reference grammar would extend beyond1131's complete
+N/E wind account and its partial S/W.1042 is a census;921 is source topology.
+The [Arundel report](../ARUNDEL_WHOLE_LABELS_REPORT.md) already owns royal speech,
+life stages and different actors; those alone are not new constraints.
+
+[IDEA777's owned source](U_01_FORTUNE_STATUS.json) instead distinguishes a common
+status nucleus, temporal predication and explicit privation. Complete
+[Carmen16/18a](U_CARMINA_COMPLETE_PASSAGES.json) makes a retained counterexample
+fatal to a universal same-person hypothesis: I persists from past enthronement
+to current descent, but another participant explicitly rises. Past reigning
+does not entail present loss; the privative construction states a different
+claim. Preserve those distinctions rather than prescribe four formulas or
+one source poem per spatial block.
+
+No reviewed predecessor refutes root's broader exploratory contract. Missing
+confirmed anchors or a complete existing key is not a prohibition. The useful
+delivery is complete connected linguistic prose with exact repeat consistency,
+shared directed word construction, explicit scope/actor choices and preserved
+unknowns/alternates. A per-token episode payload or four stage aliases would
+repeat earlier flexibility. GDT998's exact tense-table writer and GDT884's
+literal-copy equation remain closed; neither is required by this new attempt.
+No new target body was read in this focused review.
