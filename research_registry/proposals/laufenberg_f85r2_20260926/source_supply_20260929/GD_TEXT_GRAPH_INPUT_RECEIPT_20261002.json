@@ -1,0 +1,91 @@
+{
+  "registered": "2026-10-02T06:25:00Z",
+  "phase": "exploratory_C0",
+  "inputs": {
+    "GD_TEXT_GRAPH_CONTINUATION_DECISION_20261002.md": "8ae4a9eff935f312b5b066e9b16768c89a5fca0abc6c6c19f691dda5e25e23d5",
+    "GD_TEXT_GRAPH_AUTHOR_PACKET_20261002.tsv": "5e85d377cbea6fbecf5ce0505e93188629f9a4e783f9cbab163fc46942a47d2a",
+    "GD_TEXT_GRAPH_AUTHOR_PRIORS_20261002.json": "07fc147a8c21427e21fa60ff4d5b91f21063d3de6f0025a87f5707cc585d2620",
+    "GD_TEXT_GRAPH_PARENT_INPUT_20261002.json": "9da51e065abc8adc3de5f8e90c71422f1493ecbd469bc0bbbe61ec12f333b3a4",
+    "GD_MOTION_SHARED_GRADE_AUTHOR_20261002.py": "d13016c532ad28652e9fe8944e01343a4dbf520f1bc931228da793218c623c9c",
+    "GD_MOTION_SHARED_GRADE_AUTHOR_20261002.json": "1fa29aa7612a05143fcafad06da58b19e921854d211b1308f3343acdf8462f3b",
+    "FT_SOURCE_GROUPS.tsv": "d72590c4350134270156f928fe4d9d377e2fac1f920bcacd2573b16f3bd80928",
+    "GD_TEXT_GRAPH_GEOMETRY_CONTRACT_20261002.md": "849b7179325d8ca85e99d053afbfdfaf95e0c356674e95660d45219913d5bb80",
+    "GD_TEXT_GRAPH_GEOMETRY_CONTRACT_20261002.json": "e620f4150cb18a1eb8c3f59acf92c45bb1991cb14c684da8469bf91e7ce02faa",
+    "GD_TEXT_GRAPH_AUTHOR_INSTRUCTIONS_20261002.md": "4b3c9485f5ef8d7b67fbffcb920be4a9b9b7aedede1f3a3bfdc69d477e6ab864"
+  },
+  "packet_selection": {
+    "selector": "locus",
+    "allow": [
+      "f83r.45",
+      "f83r.46",
+      "f83r.47",
+      "f83r.48",
+      "f83r.49",
+      "f83r.50",
+      "f83r.51",
+      "f83r.52",
+      "f83r.53",
+      "f83r.54",
+      "f83r.55"
+    ],
+    "columns": [
+      "unit_id",
+      "unit_position",
+      "source_group_id",
+      "edition",
+      "locus",
+      "kind",
+      "grammar_scope",
+      "source_group_index",
+      "source_group_count",
+      "paragraph_start",
+      "paragraph_end",
+      "left_separator",
+      "right_separator",
+      "ivtff_group_raw"
+    ],
+    "guard_stats": {
+      "selected": 94,
+      "skipped_forbidden": 0,
+      "skipped_not_allowed": 561
+    }
+  },
+  "word_profile_inputs": {
+    "commands": [
+      "./vmanus-work words profile otchdy qokchdy shedal dal cheol lol chdal aiin sol daiiin solkeey qekey raly ol solchkal qotar --json --limit 2",
+      "./vmanus-work words profile daiin dain chey ldalor rtain cthol cthal chtorol olsaiin sasoldal saroldal darolsy --json --limit 2"
+    ],
+    "retained_fields": [
+      "count",
+      "total_groups",
+      "fraction",
+      "rank",
+      "pages_with_form",
+      "pages_total",
+      "strata",
+      "positions",
+      "repetition"
+    ],
+    "omitted": "examples, neighbor literals, lexical review metadata, geometry, old target glosses"
+  },
+  "exposure": "Prior project exposure, no independent holdout; drafting separation only",
+  "sealed": [
+    "f84",
+    "f84r"
+  ],
+  "unadmitted": [
+    "f116v"
+  ],
+  "new_target_access": false,
+  "independent_confirmation_capacity": 0,
+  "geometry_freeze_reported_utc": "2026-10-02T06:31:47Z",
+  "author_release": "After reported geometry freeze, fresh gd_text_only_author GPT6.1-sol/high with fork_turns=none",
+  "author_allowed_inputs": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "GD_TEXT_GRAPH_AUTHOR_INSTRUCTIONS_20261002.md",
+    "GD_TEXT_GRAPH_AUTHOR_PACKET_20261002.tsv",
+    "GD_TEXT_GRAPH_PARENT_INPUT_20261002.json",
+    "GD_TEXT_GRAPH_AUTHOR_PRIORS_20261002.json",
+    "GD_MOTION_SHARED_GRADE_AUTHOR_20261002.py"
+  ]
+}

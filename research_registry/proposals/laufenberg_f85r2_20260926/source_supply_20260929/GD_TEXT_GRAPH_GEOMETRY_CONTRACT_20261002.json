@@ -1,0 +1,119 @@
+{
+  "schema": "text-graph-frozen-geometry-evaluation-v1",
+  "date": "2026-10-02",
+  "status": "EVALUATOR_ONLY_FROZEN_BEFORE_FRESH_AUTHOR_RELEASE",
+  "author_output_access": false,
+  "author_receives_geometry_contract": false,
+  "new_image_or_target_access": false,
+  "independent_confirmation_capacity": 0,
+  "confirmed_words": 0,
+  "scope": {
+    "Q1": "f83r.47-49",
+    "Q2": "f83r.52-55",
+    "captions": ["f83r.45", "f83r.46", "f83r.50", "f83r.51"],
+    "inherited_context": "Frozen motion P4 f83r.25-30",
+    "P5": "Excluded; original FT full inventory does not require its translation here",
+    "reader_policy": "Native ZL3b/IT2a/RF1b alternatives retained; one manuscript",
+    "no_expansion": ["upper scenes", "neighbor-page sliver", "another panel", "f84", "f84r", "f116v", "reserves"]
+  },
+  "anchors": {
+    "F_L": "left drawn figure instance",
+    "F_R": "right drawn figure instance",
+    "R_L": "left rim/station neighborhood",
+    "R_R": "right rim/station neighborhood",
+    "H": "continuous overhead arch",
+    "B_L": "left lower continuation",
+    "B_R": "right lower continuation",
+    "T_L": "left lower terminal neighborhood",
+    "T_C": "lower central branching terminal/base neighborhood",
+    "ontology_limit": "Ink regions; no identified physical objects or proper-part ontology"
+  },
+  "observed_relations": [
+    ["F_L", "within-rim-neighborhood", "R_L"],
+    ["F_R", "within-rim-neighborhood", "R_R"],
+    ["H", "meets-station-neighborhood", "R_L"],
+    ["H", "meets-station-neighborhood", "R_R"],
+    ["R_L", "continues-graphically-into", "B_L"],
+    ["R_R", "continues-graphically-into", "B_R"],
+    ["B_L", "terminates-in-neighborhood", "T_L"],
+    ["B_R", "terminates-in-neighborhood", "T_C"],
+    ["B_L", "different-drawn-shape-and-fill", "B_R"]
+  ],
+  "additional_retained_observations": [
+    "Two separate drawn figure instances",
+    "H visibly continuous",
+    "Left red rim band and predominantly blue lower continuation",
+    "Right pale sinuous lower continuation with blue rounded branching terminal/base",
+    "Several terminal strokes and dot marks",
+    "No unique visible caption leader"
+  ],
+  "caption_domains": [
+    {"site": "S45", "locus": "f83r.45", "alternatives": ["left figure", "left arch/rim interface"], "limit": "Proximity only; no unique object or mandatory record heading"},
+    {"site": "S46", "locus": "f83r.46", "alternatives": ["right figure", "right arch/rim interface"], "limit": "Proximity only; no unique object or mandatory record heading"},
+    {"site": "S50", "locus": "f83r.50", "alternatives": ["left lower terminal neighborhood"], "limit": "Singular object versus action/site unresolved; no new object enumeration"},
+    {"site": "S51", "locus": "f83r.51", "alternatives": ["lower central branching terminal/base neighborhood"], "limit": "Singular object versus action/site unresolved; no new object enumeration"}
+  ],
+  "pre_unblinding_author_projection_fields": [
+    "computed returned relation",
+    "written producer expression",
+    "stored payload",
+    "later written Q2 consumer and field actually consumed",
+    "graphical interpretation and domain",
+    "participating referents",
+    "positive graphical obligation",
+    "explicit negative obligation if any",
+    "exhaustive depiction claim if any",
+    "fixed mapping if claimed; otherwise unresolved embedding class"
+  ],
+  "comparison_policy": {
+    "evaluator_mappings": "Only fixed coarse anchors and caption domains; enumerate surviving alternatives; no semantic identity or new measurement added",
+    "fixed_mapping_failure": "Report separately from contradiction across all unresolved allowed mappings; no retrospective remapping of an author's fixed mapping",
+    "directed_semantics": "Undirected projection only if declared; direction remains unknown",
+    "proper_part": "Testable only through a frozen graphical interpretation reducible to retained observed relations; otherwise UNKNOWN",
+    "missing_edges": "Not asserted absences",
+    "closed_world": "Only an explicitly frozen exhaustive literal inventory supports absence predictions",
+    "no_automatic_runtime": "Shared panel does not carry material, patient, event or component identities between records",
+    "no_new_code": true
+  },
+  "claim_outcomes": {
+    "COMPATIBLE": "At least one allowed fixed embedding satisfies explicit obligation through retained observed facts; list support and ambiguity",
+    "CONTRADICTED": "Explicit literal obligation conflicts with known facts under every allowed fixed embedding",
+    "UNKNOWN": "Relation unmeasured, unbound, unprojected or unresolved at retained coarse scale; no absence inference",
+    "aggregate": "Keep claim-level outcomes; unavoidable literal conflict rejects literal continuation; unknown duties block fully checked projection",
+    "discrimination": "Separately report whether compatibility excludes any allowed alternative; generic existence/contact/shared topic is insufficient",
+    "meaning_selection": "No outcome confirms lexical values or independent manuscript meaning"
+  },
+  "hard_conflicts_from_original_FT": [
+    {"id": "I1", "conflict": "Exhaustive literal inventory claims zero or exactly one drawn figure"},
+    {"id": "I2", "conflict": "No joining arch, or asserted visible gap disconnects its span"},
+    {"id": "I3", "conflict": "Identical lower branch contour/fill, or no right sinuous continuation"},
+    {"id": "I4", "conflict": "Erases all terminal/dot marks, or uniformly sealed contour without extensions"},
+    {"id": "I5", "conflict": "False relocation, merging or omission of records/captions within the complete scope actually claimed; P5 excluded here"},
+    {"id": "I6", "conflict": "Claims a unique visible caption leader or explicit word-to-person attachment"}
+  ],
+  "unmeasured_or_unbound": [
+    "physical proper-part relation",
+    "exact internal junction",
+    "path length or degree",
+    "exact physical outlet count",
+    "flow direction or temporal history",
+    "pulse/continuity of actual material",
+    "material identity or blue=water/pigment",
+    "distinct persons or simultaneous actors",
+    "unique caption object, caption lexical type or compulsory heading syntax"
+  ],
+  "provenance": {
+    "route_sha256_at_read": "a8c3195d14d0fc10941709e0323dccb7f8f8eb2cd8ac700f5291b46291149602",
+    "decision_file": "GD_TEXT_GRAPH_CONTINUATION_DECISION_20261002.md",
+    "decision_sha256": "8ae4a9eff935f312b5b066e9b16768c89a5fca0abc6c6c19f691dda5e25e23d5",
+    "primary_md": "FT_CONFIGURATION_CONTRACT.md",
+    "primary_md_sha256": "4b8deb67541bf903ea82419dd36b481d387cbd52ea31c83771cacf00f6993503",
+    "primary_json": "FT_CONFIGURATION_CONTRACT.json",
+    "primary_json_sha256": "626b0b28de01222243119ae6daef93d82415c02cb9cdde742273e0c50f8cbb6b",
+    "image_pointer_only": "experiments/yolo/gdt996_f83r_candidate_seam_consequences/artifacts/YALE_1006224_ORIGINAL.jpg",
+    "image_hash_in_primary_not_reinspected": "dc353557586906cbe4210f503cc57af58599a3948517fb45b1d222760be96729",
+    "exposure": "Root/project already exposed to image and old FT accounts; current evaluator knows prior configuration; no independent confirmation",
+    "reads": "Current route, current decision, pictures live context, existing FT configuration MD/JSON only",
+    "ownership": "Only this MD/JSON; parent integrates and publishes"
+  }
+}

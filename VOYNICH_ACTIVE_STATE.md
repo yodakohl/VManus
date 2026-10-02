@@ -15,10 +15,15 @@ doses. Capability accessibility and whole-account satisfiability are unverified.
 No parent repair, confirmed word, new target access or semantic winner.
 
 Do not automatically repair the pipeline or add more free local glosses.
-The producer found later Quinte Essence/Tadhg caches relevant to the old607
-missing-input gate; metadata only, no automatic reopening. Next: qualify a
-separately registered source intake before any comparative frequency inference.
-User block03:52:40–13:52:40UTC remains incomplete. Publication in progress.
+Published and remote-verified as a620a78. Continuation review found that608/FU
+already establishes three complete editions and1049's full Galen season profile.
+Quinte/Tadhg cache facts add no generic availability gate: proposed repeat intake
+withdrawn before access. A text-first continuation is now registered: preserve frozen P4 meanings across
+complete Q1/Q2 and four captions; independent geometry contract precedes author
+release. It seeks an actual written relation/consumer and literal projection,
+not another source count or parent repair. Prior exposure and all seals remain.
+User minimum13:52:40UTC remains unmet; checkpoint07:55UTC.
+[Decision](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_TEXT_GRAPH_CONTINUATION_DECISION_20261002.md).
 
 ## 2026-10-02 Explicit constructions: conditional computation is not meaning selection
 

@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Publish motion review; qualify source input.
-Latest decision: Computed pulse; partial bindings; no meaning selected.
-Working files: GD_MOTION_SHARED_GRADE_RESULT_20261002.md; GD_PIPELINE_TARGETS.
-Assumptions: C0; native G/I equal;97 positions; no reserve.
-Resume: Publish unit; register changed607 source intake.
-Running: publication; unit ends05:59;10h ends13:52:40UTC Oct2.
+Task: Continue frozen P4 into Q1/Q2 without image-fed meanings.
+Latest decision: Source-footprint detour rejected; text-first continuation selected.
+Working files: GD_TEXT_GRAPH_CONTINUATION_DECISION_20261002.md.
+Assumptions: C0; prior exposure; no reserves or confirmed word.
+Resume: Await frozen author; check payload then fixed ink projection.
+Running: text-only author, validator;07:55 checkpoint;10h end13:52:40.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

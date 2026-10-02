@@ -134,3 +134,23 @@ began03:52:40UTC and is still incomplete: minimum end13:52:40UTC,2026-10-02.
 No new Voynich page, image, reserve, f84/f84r or f116v was accessed. No whole
 search countercontrol, significance, source identity or confirmed meaning is
 claimed.
+
+## Continuation correction after publication
+
+The current unit was pushed and fresh-remote verified as
+`a620a78eada51b4416fe7aba8fb27161a5e076c0`. Before selecting the proposed
+source intake, the mandatory route screen retrieved
+[GDT1049](../../../../experiments/yolo/gdt1049_galen_season_concept_countercheck/REPORT.md)
+and curated IDEA608. The claim-bearing
+[FU review](FU_IDEA_SUPPLY.md) already establishes three complete edition
+caches: Brock Galen, Wellmann Dioscorides and Megenberg. Generic complete-work
+availability is therefore **not a new decision-changing input**. The accurate
+Quinte/Tadhg/ALIM cache facts remain, but the suggested repeat availability
+intake is withdrawn before source-body access or implementation.
+
+GDT1049 already read all266 Galen paragraphs for seasons; another expected
+low-seasonality census would not change the decision. IDEA608 still lacks
+uniform concept annotations and a justified target unit/genre bridge. Neither
+the current motion result nor cache presence supplies that bridge. A possible
+new PULSE/FLOW/CONT source question is only under decision review, not selected;
+no source maximum may be called a Voynich probability or upper bound.

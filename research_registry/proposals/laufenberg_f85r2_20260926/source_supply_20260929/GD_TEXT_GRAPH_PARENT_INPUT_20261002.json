@@ -1,0 +1,6458 @@
+{
+  "status": "INHERITED_C0_NOT_CONFIRMED",
+  "frozen_parent_file": "GD_MOTION_SHARED_GRADE_AUTHOR_20261002.json",
+  "frozen_parent_sha256": "1fa29aa7612a05143fcafad06da58b19e921854d211b1308f3343acdf8462f3b",
+  "inherited": {
+    "shared_motion_grade": {
+      "map": {
+        "0": "PULSED",
+        "1": "UNMARKED",
+        "2": "CONTINUOUS"
+      },
+      "routes": {
+        "qokey": {
+          "stem": "qok",
+          "extra_E": 0,
+          "mode": "ey",
+          "grade": "PULSED"
+        },
+        "qokedy": {
+          "stem": "qok",
+          "extra_E": 0,
+          "mode": "edy",
+          "grade": "PULSED"
+        },
+        "qokeey": {
+          "stem": "qok",
+          "extra_E": 1,
+          "mode": "ey",
+          "grade": "UNMARKED"
+        },
+        "qokeedy": {
+          "stem": "qok",
+          "extra_E": 1,
+          "mode": "edy",
+          "grade": "UNMARKED"
+        },
+        "qokeeey": {
+          "stem": "qok",
+          "extra_E": 2,
+          "mode": "ey",
+          "grade": "CONTINUOUS"
+        },
+        "qokeeedy": {
+          "stem": "qok",
+          "extra_E": 2,
+          "mode": "edy",
+          "grade": "CONTINUOUS"
+        },
+        "lkedy": {
+          "stem": "lk",
+          "extra_E": 0,
+          "mode": "edy",
+          "grade": "PULSED"
+        },
+        "lkeedy": {
+          "stem": "lk",
+          "extra_E": 1,
+          "mode": "edy",
+          "grade": "UNMARKED"
+        },
+        "lkeeedy": {
+          "stem": "lk",
+          "extra_E": 2,
+          "mode": "edy",
+          "grade": "CONTINUOUS"
+        }
+      },
+      "forecasts": {
+        "qokey": {
+          "route": {
+            "stem": "qok",
+            "extra_E": 0,
+            "mode": "ey",
+            "grade": "PULSED"
+          },
+          "computed_predicates": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "LIQUID",
+                "arguments": [
+                  "$w",
+                  "$patient"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "CAPABLE",
+                "arguments": [
+                  "$w",
+                  "$patient",
+                  {
+                    "root_relation": "FLOW",
+                    "argument": "$patient",
+                    "interval": "$full_phase",
+                    "event_condition": {
+                      "op": "WITNESS_PACKAGE",
+                      "exported_ports": [
+                        "$possible_event"
+                      ],
+                      "condition": {
+                        "op": "AND",
+                        "arguments": [
+                          {
+                            "op": "ATOM",
+                            "predicate": "ACTUAL",
+                            "arguments": [
+                              "$possible_world",
+                              "$possible_event"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "FLOW",
+                            "arguments": [
+                              "$possible_world",
+                              "$possible_event",
+                              "$patient",
+                              "$full_phase"
+                            ]
+                          },
+                          {
+                            "op": "EXISTS",
+                            "binders": [
+                              "$possible_event:positive1",
+                              "$possible_event:zero",
+                              "$possible_event:positive2"
+                            ],
+                            "body": {
+                              "op": "AND",
+                              "arguments": [
+                                {
+                                  "op": "ATOM",
+                                  "predicate": "NONEMPTY_SUBINTERVAL",
+                                  "arguments": [
+                                    "$possible_event:positive1",
+                                    "$full_phase"
+                                  ]
+                                },
+                                {
+                                  "op": "ATOM",
+                                  "predicate": "NONEMPTY_SUBINTERVAL",
+                                  "arguments": [
+                                    "$possible_event:zero",
+                                    "$full_phase"
+                                  ]
+                                },
+                                {
+                                  "op": "ATOM",
+                                  "predicate": "NONEMPTY_SUBINTERVAL",
+                                  "arguments": [
+                                    "$possible_event:positive2",
+                                    "$full_phase"
+                                  ]
+                                },
+                                {
+                                  "op": "ATOM",
+                                  "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                                  "arguments": [
+                                    "$possible_world",
+                                    "$possible_event",
+                                    "$patient",
+                                    "$possible_event:positive1"
+                                  ]
+                                },
+                                {
+                                  "op": "ATOM",
+                                  "predicate": "ZERO_FLOW_THROUGHOUT",
+                                  "arguments": [
+                                    "$possible_world",
+                                    "$possible_event",
+                                    "$patient",
+                                    "$possible_event:zero"
+                                  ]
+                                },
+                                {
+                                  "op": "ATOM",
+                                  "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                                  "arguments": [
+                                    "$possible_world",
+                                    "$possible_event",
+                                    "$patient",
+                                    "$possible_event:positive2"
+                                  ]
+                                },
+                                {
+                                  "op": "ATOM",
+                                  "predicate": "END_NOT_AFTER_START",
+                                  "arguments": [
+                                    "$possible_event:positive1",
+                                    "$possible_event:zero"
+                                  ]
+                                },
+                                {
+                                  "op": "ATOM",
+                                  "predicate": "END_NOT_AFTER_START",
+                                  "arguments": [
+                                    "$possible_event:zero",
+                                    "$possible_event:positive2"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "grade": "PULSED"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "qokedy": {
+          "route": {
+            "stem": "qok",
+            "extra_E": 0,
+            "mode": "edy",
+            "grade": "PULSED"
+          },
+          "computed_predicates": {
+            "op": "WITNESS_PACKAGE",
+            "exported_ports": [
+              "$event"
+            ],
+            "condition": {
+              "op": "AND",
+              "arguments": [
+                {
+                  "op": "ATOM",
+                  "predicate": "ACTUAL",
+                  "arguments": [
+                    "$w",
+                    "$event"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "FLOW",
+                  "arguments": [
+                    "$w",
+                    "$event",
+                    "$patient",
+                    "$full_phase"
+                  ]
+                },
+                {
+                  "op": "EXISTS",
+                  "binders": [
+                    "$event:positive1",
+                    "$event:zero",
+                    "$event:positive2"
+                  ],
+                  "body": {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "NONEMPTY_SUBINTERVAL",
+                        "arguments": [
+                          "$event:positive1",
+                          "$full_phase"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "NONEMPTY_SUBINTERVAL",
+                        "arguments": [
+                          "$event:zero",
+                          "$full_phase"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "NONEMPTY_SUBINTERVAL",
+                        "arguments": [
+                          "$event:positive2",
+                          "$full_phase"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                        "arguments": [
+                          "$w",
+                          "$event",
+                          "$patient",
+                          "$event:positive1"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "ZERO_FLOW_THROUGHOUT",
+                        "arguments": [
+                          "$w",
+                          "$event",
+                          "$patient",
+                          "$event:zero"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                        "arguments": [
+                          "$w",
+                          "$event",
+                          "$patient",
+                          "$event:positive2"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "END_NOT_AFTER_START",
+                        "arguments": [
+                          "$event:positive1",
+                          "$event:zero"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "END_NOT_AFTER_START",
+                        "arguments": [
+                          "$event:zero",
+                          "$event:positive2"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "qokeey": {
+          "route": {
+            "stem": "qok",
+            "extra_E": 1,
+            "mode": "ey",
+            "grade": "UNMARKED"
+          },
+          "computed_predicates": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "LIQUID",
+                "arguments": [
+                  "$w",
+                  "$patient"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "CAPABLE",
+                "arguments": [
+                  "$w",
+                  "$patient",
+                  {
+                    "root_relation": "FLOW",
+                    "argument": "$patient",
+                    "interval": "$full_phase",
+                    "event_condition": {
+                      "op": "WITNESS_PACKAGE",
+                      "exported_ports": [
+                        "$possible_event"
+                      ],
+                      "condition": {
+                        "op": "AND",
+                        "arguments": [
+                          {
+                            "op": "ATOM",
+                            "predicate": "ACTUAL",
+                            "arguments": [
+                              "$possible_world",
+                              "$possible_event"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "FLOW",
+                            "arguments": [
+                              "$possible_world",
+                              "$possible_event",
+                              "$patient",
+                              "$full_phase"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "grade": "UNMARKED"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "qokeedy": {
+          "route": {
+            "stem": "qok",
+            "extra_E": 1,
+            "mode": "edy",
+            "grade": "UNMARKED"
+          },
+          "computed_predicates": {
+            "op": "WITNESS_PACKAGE",
+            "exported_ports": [
+              "$event"
+            ],
+            "condition": {
+              "op": "AND",
+              "arguments": [
+                {
+                  "op": "ATOM",
+                  "predicate": "ACTUAL",
+                  "arguments": [
+                    "$w",
+                    "$event"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "FLOW",
+                  "arguments": [
+                    "$w",
+                    "$event",
+                    "$patient",
+                    "$full_phase"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "qokeeey": {
+          "route": {
+            "stem": "qok",
+            "extra_E": 2,
+            "mode": "ey",
+            "grade": "CONTINUOUS"
+          },
+          "computed_predicates": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "LIQUID",
+                "arguments": [
+                  "$w",
+                  "$patient"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "CAPABLE",
+                "arguments": [
+                  "$w",
+                  "$patient",
+                  {
+                    "root_relation": "FLOW",
+                    "argument": "$patient",
+                    "interval": "$full_phase",
+                    "event_condition": {
+                      "op": "WITNESS_PACKAGE",
+                      "exported_ports": [
+                        "$possible_event"
+                      ],
+                      "condition": {
+                        "op": "AND",
+                        "arguments": [
+                          {
+                            "op": "ATOM",
+                            "predicate": "ACTUAL",
+                            "arguments": [
+                              "$possible_world",
+                              "$possible_event"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "FLOW",
+                            "arguments": [
+                              "$possible_world",
+                              "$possible_event",
+                              "$patient",
+                              "$full_phase"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "CONTINUOUS_FULL_PHASE",
+                            "arguments": [
+                              "$possible_world",
+                              "$possible_event",
+                              "$full_phase"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "grade": "CONTINUOUS"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "qokeeedy": {
+          "route": {
+            "stem": "qok",
+            "extra_E": 2,
+            "mode": "edy",
+            "grade": "CONTINUOUS"
+          },
+          "computed_predicates": {
+            "op": "WITNESS_PACKAGE",
+            "exported_ports": [
+              "$event"
+            ],
+            "condition": {
+              "op": "AND",
+              "arguments": [
+                {
+                  "op": "ATOM",
+                  "predicate": "ACTUAL",
+                  "arguments": [
+                    "$w",
+                    "$event"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "FLOW",
+                  "arguments": [
+                    "$w",
+                    "$event",
+                    "$patient",
+                    "$full_phase"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "CONTINUOUS_FULL_PHASE",
+                  "arguments": [
+                    "$w",
+                    "$event",
+                    "$full_phase"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "lkedy": {
+          "route": {
+            "stem": "lk",
+            "extra_E": 0,
+            "mode": "edy",
+            "grade": "PULSED"
+          },
+          "computed_predicates": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "WITNESS_PACKAGE",
+                "exported_ports": [
+                  "$event"
+                ],
+                "condition": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "ACTUAL",
+                      "arguments": [
+                        "$w",
+                        "$event"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "FLOW",
+                      "arguments": [
+                        "$w",
+                        "$event",
+                        "$patient",
+                        "$full_phase"
+                      ]
+                    },
+                    {
+                      "op": "EXISTS",
+                      "binders": [
+                        "$event:positive1",
+                        "$event:zero",
+                        "$event:positive2"
+                      ],
+                      "body": {
+                        "op": "AND",
+                        "arguments": [
+                          {
+                            "op": "ATOM",
+                            "predicate": "NONEMPTY_SUBINTERVAL",
+                            "arguments": [
+                              "$event:positive1",
+                              "$full_phase"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "NONEMPTY_SUBINTERVAL",
+                            "arguments": [
+                              "$event:zero",
+                              "$full_phase"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "NONEMPTY_SUBINTERVAL",
+                            "arguments": [
+                              "$event:positive2",
+                              "$full_phase"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                            "arguments": [
+                              "$w",
+                              "$event",
+                              "$patient",
+                              "$event:positive1"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "ZERO_FLOW_THROUGHOUT",
+                            "arguments": [
+                              "$w",
+                              "$event",
+                              "$patient",
+                              "$event:zero"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                            "arguments": [
+                              "$w",
+                              "$event",
+                              "$patient",
+                              "$event:positive2"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "END_NOT_AFTER_START",
+                            "arguments": [
+                              "$event:positive1",
+                              "$event:zero"
+                            ]
+                          },
+                          {
+                            "op": "ATOM",
+                            "predicate": "END_NOT_AFTER_START",
+                            "arguments": [
+                              "$event:zero",
+                              "$event:positive2"
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "op": "ATOM",
+                "predicate": "USING",
+                "arguments": [
+                  "$w",
+                  "$host",
+                  "$event"
+                ]
+              }
+            ]
+          }
+        },
+        "lkeedy": {
+          "route": {
+            "stem": "lk",
+            "extra_E": 1,
+            "mode": "edy",
+            "grade": "UNMARKED"
+          },
+          "computed_predicates": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "WITNESS_PACKAGE",
+                "exported_ports": [
+                  "$event"
+                ],
+                "condition": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "ACTUAL",
+                      "arguments": [
+                        "$w",
+                        "$event"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "FLOW",
+                      "arguments": [
+                        "$w",
+                        "$event",
+                        "$patient",
+                        "$full_phase"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "op": "ATOM",
+                "predicate": "USING",
+                "arguments": [
+                  "$w",
+                  "$host",
+                  "$event"
+                ]
+              }
+            ]
+          }
+        },
+        "lkeeedy": {
+          "route": {
+            "stem": "lk",
+            "extra_E": 2,
+            "mode": "edy",
+            "grade": "CONTINUOUS"
+          },
+          "computed_predicates": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "WITNESS_PACKAGE",
+                "exported_ports": [
+                  "$event"
+                ],
+                "condition": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "ACTUAL",
+                      "arguments": [
+                        "$w",
+                        "$event"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "FLOW",
+                      "arguments": [
+                        "$w",
+                        "$event",
+                        "$patient",
+                        "$full_phase"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "CONTINUOUS_FULL_PHASE",
+                      "arguments": [
+                        "$w",
+                        "$event",
+                        "$full_phase"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "op": "ATOM",
+                "predicate": "USING",
+                "arguments": [
+                  "$w",
+                  "$host",
+                  "$event"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "PULSE_definition": "At least two positive-flow periods separated by a nonempty zero-flow interval within the entire assigned handling phase; endpoint pause or one flow period plus rest insufficient.",
+      "CONTINUOUS_definition": "No stopping/zero-flow interval anywhere through the full assigned phase.",
+      "unmarked_definition": "Actual FLOW only; no continuity or pulse assertion.",
+      "QOKEY_not_QOKY": true,
+      "LK_EY_licensed": false
+    },
+    "new_primitive_inventory": {
+      "qol": "THROUGH: consume a location noun and return path adjunct",
+      "chey": "CONDUIT noun; first mention introduces C, later scoped mention refers to C",
+      "ot": "AT: consume a location noun and return location adjunct",
+      "al": "OUTLET noun O, stored as current explicit goal reference",
+      "y": "INTENTION frame for FLOW, distinct from EY capability and independent of the grade map",
+      "t": "GOAL binder consuming an intention and a goal-reference specification",
+      "ol": "reference specification for the already written outlet O",
+      "l": "link an intention schema to the matching live written intention; no new plan",
+      "ddy": "FULFILL: introduce actual completed event satisfying that linked intention",
+      "dain": "ORDERED_SERIES discourse operator; successive actual event mentions receive successive phases",
+      "sh": "DISPENSE event root in SHCKH/SHEE routes only; frozen SHEDY remains exact MOIST_PREPARATION",
+      "ckh": "DOSE internal-object constructor for DISPENSE; exports a dose material and dose predicate",
+      "e_SH": "scoped material-patient capability frame; not QOK/LK grade or a universal E value",
+      "dy": "REFERENCE_CLOSURE on OL location and QO material specifications; grammar consumes resolved type",
+      "qo": "reference specification for the current material of this written case",
+      "kes": "MOVING current-state predicate, not an efficacy or heat claim",
+      "d": "NEGATION of the supplied state predicate in KESD only",
+      "sa": "TOPIC frame: bind an existing material-property or relational material noun as topic/subject",
+      "s": "FINAL_PHASE operator; prefixes the following actual event or an event expression",
+      "oke": "RETURN_FLOW event root; returns to the first explicitly introduced conduit C",
+      "ii": "REMAINDER relational material noun",
+      "irn": "REMAINDER relational material noun; explicitly paid semantic alias of II, no spelling normalization"
+    },
+    "new_exact_assemblies": {
+      "qolchey": [
+        "qol",
+        "chey"
+      ],
+      "otal": [
+        "ot",
+        "al"
+      ],
+      "otchey": [
+        "ot",
+        "chey"
+      ],
+      "qoky": [
+        "qok",
+        "y"
+      ],
+      "tol": [
+        "t",
+        "ol"
+      ],
+      "qokylddy": [
+        "qok",
+        "y",
+        "l",
+        "ddy"
+      ],
+      "dain": [
+        "dain"
+      ],
+      "shckhedy": [
+        "sh",
+        "ckh",
+        "edy"
+      ],
+      "sheey": [
+        "sh",
+        "e",
+        "ey"
+      ],
+      "oldy": [
+        "ol",
+        "dy"
+      ],
+      "qody": [
+        "qo",
+        "dy"
+      ],
+      "kesd": [
+        "kes",
+        "d"
+      ],
+      "salchedy": [
+        "sa",
+        "lchedy"
+      ],
+      "s": [
+        "s"
+      ],
+      "okeedy": [
+        "oke",
+        "edy"
+      ],
+      "sokeedy": [
+        "s",
+        "oke",
+        "edy"
+      ],
+      "saii": [
+        "sa",
+        "ii"
+      ],
+      "sairn": [
+        "sa",
+        "irn"
+      ]
+    },
+    "preserved_parent_dictionaries": {
+      "G": {
+        "saiin": "then",
+        "sho": "moist-preparation",
+        "sheody": "helps",
+        "oteeo": "becomes",
+        "qotchy": "purging/cleansing-efficacy",
+        "chody": "internal-use",
+        "qotain": "prepared-medicine",
+        "lkchey": "removes-U-from-P",
+        "chol": "drug-stock",
+        "okaiin": "liquid",
+        "dalchedy": "impure",
+        "chedy": "pure",
+        "lchey": "drug-stock",
+        "ror": "stock-impurity",
+        "dshedy": "moist-preparation",
+        "qokeedy": "flows",
+        "pchedy": "cleansing",
+        "lpchedy": "using-cleansing-preparation",
+        "lkechedy": "using-purified-preparation",
+        "solchedy": "here",
+        "qokain": "is",
+        "qokaiin": "of-liquid",
+        "shedy": "moist-preparation",
+        "qotedy": "from-mouth",
+        "otedy": "mouth",
+        "qoteedy": "portion",
+        "qokal": "in-basin",
+        "shedar": "deposits",
+        "daror": "residue",
+        "chcthy": "drug-extract",
+        "lchedy": "purified",
+        "qokaly": "into-basin",
+        "olchey": "receiving-liquid",
+        "qotey": "at-rest",
+        "olcheedy": "charged",
+        "sar": "batch",
+        "lom": "remains",
+        "cheeol": "mixture",
+        "qotal": "into-receiver",
+        "chckhey": "dose",
+        "qolkain": "mix",
+        "cheeky": "carefully",
+        "lol": "with-liquid",
+        "chckhy": "ready",
+        "qokeey": "flow-capable-liquid",
+        "qotary": "of-receiver",
+        "pchdaiin": "preparation-charge",
+        "otaiin": "in-vessel",
+        "cheedy": "clarified",
+        "qokeeey": "continuous-flow-capable-liquid",
+        "lkeeedy": "using-continuous-flow",
+        "cheey": "clear",
+        "lor": "fraction",
+        "eeedy": "flows-continuously",
+        "ychedal": "subsequently",
+        "checkhey": "dose-characterized",
+        "checkhy": "ready-characterized",
+        "qoteosam": "into",
+        "chos": "receiving-vessel"
+      },
+      "I": {
+        "saiin": "then",
+        "sho": "moist-preparation",
+        "sheody": "helps",
+        "oteeo": "becomes",
+        "qotchy": "purging/cleansing-efficacy",
+        "chody": "internal-use",
+        "qotain": "prepared-medicine",
+        "lkchey": "removes-U-from-P",
+        "chol": "drug-stock",
+        "okaiin": "liquid",
+        "dalchedy": "impure",
+        "chedy": "pure",
+        "lchey": "drug-stock",
+        "ror": "stock-impurity",
+        "dshedy": "moist-preparation",
+        "qokeedy": "flows",
+        "pchedy": "cleansing",
+        "lpchedy": "using-cleansing-preparation",
+        "lkechedy": "using-purified-preparation",
+        "solchedy": "here",
+        "qokain": "is",
+        "qokaiin": "of-liquid",
+        "shedy": "moist-preparation",
+        "qotedy": "from-mouth",
+        "otedy": "mouth",
+        "qoteedy": "portion",
+        "qokal": "in-basin",
+        "shedar": "deposits",
+        "daror": "residue",
+        "chcthy": "drug-extract",
+        "lchedy": "purification-intended",
+        "qokaly": "into-basin",
+        "olchey": "receiving-liquid",
+        "qotey": "at-rest",
+        "olcheedy": "charged",
+        "sar": "batch",
+        "lom": "remains",
+        "cheeol": "mixture",
+        "qotal": "into-receiver",
+        "chckhey": "dose",
+        "qolkain": "mix",
+        "cheeky": "carefully",
+        "lol": "with-liquid",
+        "chckhy": "ready",
+        "qokeey": "flow-capable-liquid",
+        "qotary": "of-receiver",
+        "pchdaiin": "preparation-charge",
+        "otaiin": "in-vessel",
+        "cheedy": "clarified",
+        "qokeeey": "continuous-flow-capable-liquid",
+        "lkeeedy": "using-continuous-flow",
+        "cheey": "clear",
+        "lor": "fraction",
+        "eeedy": "flows-continuously",
+        "ychedal": "subsequently",
+        "checkhey": "dose-characterized",
+        "checkhy": "ready-characterized",
+        "qoteosam": "into",
+        "chos": "receiving-vessel"
+      }
+    },
+    "paid_scope_and_binding_assumptions": [
+      "Six manually declared clause spans; category transitions, ordered-series DAIN, THEN, HERE and FINAL frame delimit semantic phases. This is not an inferred universal parser or automatic line reset.",
+      "One paid local description-time convention anchors each event-clause time at its phase onset; HERE state-description time lies in J5. The anchors are actual SAME_TIME atoms, not inherited universal syntax.",
+      "First QOKEEDY has a forward material port resolved by written QOKEEY; QOKEDY in that same first clause predicates the same E1/full I1, adding actual pulse to unmarked FLOW.",
+      "Case material L carried into subsequent explicit material mentions; repeated MOIST_PREPARATION alone does not prove identity. The coidentity policy is scoped to this candidate.",
+      "CHEY introduces the case conduit C and then references it; AL introduces outlet O, OL resolves that exact outlet. First conduit serves RETURN_FLOW origin; no unmentioned source or vessel.",
+      "QOKY introduces written intention P2; TOL adds its written goal O; L in QOKYLDDY resolves P2 by owner/root match; DDY adds a completed actual fulfillment E2.",
+      "DAIN makes successive actual event mentions E3, E3b and E3c separate phases; identical SHCKHEDY produces same DISPENSE/DOSE operation with new witness ports. No hidden two-item source list or changed second-word meaning.",
+      "State clause after HERE is interpreted at later J5, after the full pulsed phase I4; NOT MOVING at T5 does not deny the earlier actual pulse. This temporal clause convention is unconfirmed and explicitly charged.",
+      "FINAL prefix opens E6; RETURN_FLOW and following generic FLOW refer to the same event. Native SAIRN/topic remainder resolves the forward patient to R, remainder of L.",
+      "II and IRN are paid remainder-noun aliases in different spellings; no raw normalization. SA topicizes inherited LCHEDY in P12 but does not change frozen native SOLCHEDY=HERE.",
+      "CASE quantities, finality and event recurrence are assumed; no treatment efficacy, filtration mechanism, heat, digging, source copied text, dose measurement or full arrival supplied."
+    ],
+    "ET_preservation": {
+      "lkedy": "actual instrumental PULSED FLOW",
+      "lkeedy": "actual instrumental FLOW pattern unmarked",
+      "lkeeedy": "actual instrumental CONTINUOUS FLOW",
+      "frames": "All consume their material/full-phase/host event; not LK EY."
+    },
+    "formal_analysis_qualification": "Local C0 raw-surface resegmentation, not established morphology: GDT605 can retain learned qokEdy/raw qokeedy, E can stand for raw ee; GDT689/516 distinguish DY from D_ADDR+Y. No canonical morpheme ladder or GDT787 additive-meaning proof is claimed.",
+    "capability_qualification": "CAPABLE is retained as a primitive with an event-condition schema; admissible apparatus and conditions are not independently specified. Pulse-capable and continuous-capable materials may overlap. Nominal grade schemas are conditional expressions, not independently demonstrated different extensions or meaning evidence.",
+    "full_connected_native_reading": "The flow-capable liquid flows through a conduit in pulses, pure, at an outlet. At the conduit, that moist preparation has an intended flow directed to the outlet, and the intention is fulfilled by a completed flow reaching that goal. In succession, the pure material flows and a dose, then another dose, is dispensed from it. Then, with care, the dispensable moist preparation flows in pulses at the outlet. Here, that same material is clear and stationary at the outlet. Finally its remainder flows back toward the conduit, with flow intended; no final fulfillment or completed return is asserted.",
+    "costs": {
+      "new_primitive_or_frame_entries": 22,
+      "new_exact_assembly_licenses": 18,
+      "motion_grade_cases": 3,
+      "distinct_motion_frames": [
+        "QOK nominal liquid",
+        "QOK finite material",
+        "LK instrumental material"
+      ],
+      "parent_ES_semantic_decisions": 16,
+      "parent_ES_grammar_decisions": 7,
+      "extra_costs": "All scene, reference, phase, topicization, scalar aliases, single-conduit/outlet assumptions above. Counts overlap and are not code length or evidential score."
+    }
+  },
+  "known_limits": [
+    "Parent P4 bindings are manual; duplicated register updates do not establish general returned-payload grammar.",
+    "Two dose variable names do not imply distinct physical doses or events.",
+    "Full paragraph truth/satisfiability and capability accessibility are unverified.",
+    "No caption owner, image geometry, common object identity across records or source semantic binding is supplied."
+  ],
+  "inherited_native_IT_account": {
+    "namespace": "IT2a_NATIVE",
+    "parent_variant": "G",
+    "rows": [
+      {
+        "source_group_id": "IT2a|f83r.25|G001",
+        "raw": "qokeedy",
+        "clause": 25,
+        "assembly": [
+          "qok",
+          "e",
+          "edy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X1",
+          "event_port": "E1",
+          "phase": "I1",
+          "reference_time": "T1",
+          "context": {
+            "time": "T1",
+            "intention": "P6",
+            "reference_target": "$X1",
+            "references": {
+              "conduit": null,
+              "outlet": null,
+              "case_material": null
+            },
+            "live_intention": null,
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "E1"
+          ],
+          "condition": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E1"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E1",
+                  "$X1",
+                  "I1"
+                ]
+              }
+            ]
+          }
+        },
+        "bindings_before": {
+          "$X3": "L"
+        },
+        "bindings_after": {
+          "$X3": "L"
+        },
+        "reference_registers_after": {
+          "conduit": null,
+          "outlet": null,
+          "case_material": null
+        },
+        "live_intention_after": null,
+        "reference_donor_source_ids": {},
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "E1"
+          ],
+          "condition": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E1"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E1",
+                  "L",
+                  "I1"
+                ]
+              }
+            ]
+          }
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.25|G002",
+        "raw": "qolchey",
+        "clause": 25,
+        "assembly": [
+          "qol",
+          "chey"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X1",
+          "event_port": "E1",
+          "phase": "I1",
+          "reference_time": "T1",
+          "context": {
+            "time": "T1",
+            "intention": "P6",
+            "reference_target": "$X1",
+            "references": {
+              "conduit": "C",
+              "outlet": null,
+              "case_material": null
+            },
+            "live_intention": null,
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "CONDUIT",
+              "arguments": [
+                "W_actual",
+                "C"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "THROUGH",
+              "arguments": [
+                "W_actual",
+                "E1",
+                "C"
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L"
+        },
+        "bindings_after": {
+          "$X3": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": null,
+          "case_material": null
+        },
+        "live_intention_after": null,
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "CONDUIT",
+              "arguments": [
+                "W_actual",
+                "C"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "THROUGH",
+              "arguments": [
+                "W_actual",
+                "E1",
+                "C"
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.25|G003",
+        "raw": "qokeey",
+        "clause": 25,
+        "assembly": [
+          "qok",
+          "e",
+          "ey"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X1",
+          "event_port": "E1",
+          "phase": "I1",
+          "reference_time": "T1",
+          "context": {
+            "time": "T1",
+            "intention": "P6",
+            "reference_target": "$X1",
+            "references": {
+              "conduit": "C",
+              "outlet": null,
+              "case_material": null
+            },
+            "live_intention": null,
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "LIQUID",
+              "arguments": [
+                "W_actual",
+                "$X1"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "CAPABLE",
+              "arguments": [
+                "W_actual",
+                "$X1",
+                {
+                  "root_relation": "FLOW",
+                  "argument": "$X1",
+                  "interval": "I1",
+                  "event_condition": {
+                    "op": "WITNESS_PACKAGE",
+                    "exported_ports": [
+                      "$possible_event"
+                    ],
+                    "condition": {
+                      "op": "AND",
+                      "arguments": [
+                        {
+                          "op": "ATOM",
+                          "predicate": "ACTUAL",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event"
+                          ]
+                        },
+                        {
+                          "op": "ATOM",
+                          "predicate": "FLOW",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event",
+                            "$X1",
+                            "I1"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "grade": "UNMARKED"
+                }
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": null,
+          "case_material": "L"
+        },
+        "live_intention_after": null,
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "LIQUID",
+              "arguments": [
+                "W_actual",
+                "L"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "CAPABLE",
+              "arguments": [
+                "W_actual",
+                "L",
+                {
+                  "root_relation": "FLOW",
+                  "argument": "L",
+                  "interval": "I1",
+                  "event_condition": {
+                    "op": "WITNESS_PACKAGE",
+                    "exported_ports": [
+                      "$possible_event"
+                    ],
+                    "condition": {
+                      "op": "AND",
+                      "arguments": [
+                        {
+                          "op": "ATOM",
+                          "predicate": "ACTUAL",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event"
+                          ]
+                        },
+                        {
+                          "op": "ATOM",
+                          "predicate": "FLOW",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event",
+                            "L",
+                            "I1"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "grade": "UNMARKED"
+                }
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.25|G004",
+        "raw": "qokedy",
+        "clause": 25,
+        "assembly": [
+          "qok",
+          "",
+          "edy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X1",
+          "event_port": "E1",
+          "phase": "I1",
+          "reference_time": "T1",
+          "context": {
+            "time": "T1",
+            "intention": "P6",
+            "reference_target": "$X1",
+            "references": {
+              "conduit": "C",
+              "outlet": null,
+              "case_material": "L"
+            },
+            "live_intention": null,
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "E1"
+          ],
+          "condition": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E1"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E1",
+                  "$X1",
+                  "I1"
+                ]
+              },
+              {
+                "op": "EXISTS",
+                "binders": [
+                  "E1:positive1",
+                  "E1:zero",
+                  "E1:positive2"
+                ],
+                "body": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E1:positive1",
+                        "I1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E1:zero",
+                        "I1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E1:positive2",
+                        "I1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E1",
+                        "$X1",
+                        "E1:positive1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "ZERO_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E1",
+                        "$X1",
+                        "E1:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E1",
+                        "$X1",
+                        "E1:positive2"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E1:positive1",
+                        "E1:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E1:zero",
+                        "E1:positive2"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": null,
+          "case_material": "L"
+        },
+        "live_intention_after": null,
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "E1"
+          ],
+          "condition": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E1"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E1",
+                  "L",
+                  "I1"
+                ]
+              },
+              {
+                "op": "EXISTS",
+                "binders": [
+                  "E1:positive1",
+                  "E1:zero",
+                  "E1:positive2"
+                ],
+                "body": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E1:positive1",
+                        "I1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E1:zero",
+                        "I1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E1:positive2",
+                        "I1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E1",
+                        "L",
+                        "E1:positive1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "ZERO_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E1",
+                        "L",
+                        "E1:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E1",
+                        "L",
+                        "E1:positive2"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E1:positive1",
+                        "E1:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E1:zero",
+                        "E1:positive2"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.25|G005",
+        "raw": "chedy",
+        "clause": 25,
+        "assembly": [
+          "chedy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X1",
+          "event_port": "E1",
+          "phase": "I1",
+          "reference_time": "T1",
+          "context": {
+            "time": "T1",
+            "intention": "P6",
+            "reference_target": "$X1",
+            "references": {
+              "conduit": "C",
+              "outlet": null,
+              "case_material": "L"
+            },
+            "live_intention": null,
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "PURE",
+          "arguments": [
+            "W_actual",
+            "$X1",
+            "T1"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": null,
+          "case_material": "L"
+        },
+        "live_intention_after": null,
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "PURE",
+          "arguments": [
+            "W_actual",
+            "L",
+            "T1"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.25|G006",
+        "raw": "otal",
+        "clause": 25,
+        "assembly": [
+          "ot",
+          "al"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X1",
+          "event_port": "E1",
+          "phase": "I1",
+          "reference_time": "T1",
+          "context": {
+            "time": "T1",
+            "intention": "P6",
+            "reference_target": "$X1",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": null,
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "OUTLET",
+              "arguments": [
+                "W_actual",
+                "O"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "AT_EVENT",
+              "arguments": [
+                "W_actual",
+                "E1",
+                "O"
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": null,
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "OUTLET",
+              "arguments": [
+                "W_actual",
+                "O"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "AT_EVENT",
+              "arguments": [
+                "W_actual",
+                "E1",
+                "O"
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.26|G001",
+        "raw": "otchey",
+        "clause": 26,
+        "assembly": [
+          "ot",
+          "chey"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X2",
+          "event_port": "E2",
+          "phase": "I2",
+          "reference_time": "T2",
+          "context": {
+            "time": "T2",
+            "intention": "P2",
+            "reference_target": "$X2",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": null,
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "CONDUIT",
+              "arguments": [
+                "W_actual",
+                "C"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "AT_MATERIAL",
+              "arguments": [
+                "W_actual",
+                "$X2",
+                "C"
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": null,
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "CONDUIT",
+              "arguments": [
+                "W_actual",
+                "C"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "AT_MATERIAL",
+              "arguments": [
+                "W_actual",
+                "L",
+                "C"
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.26|G002",
+        "raw": "qokeey",
+        "clause": 26,
+        "assembly": [
+          "qok",
+          "e",
+          "ey"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X2",
+          "event_port": "E2",
+          "phase": "I2",
+          "reference_time": "T2",
+          "context": {
+            "time": "T2",
+            "intention": "P2",
+            "reference_target": "$X2",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": null,
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "LIQUID",
+              "arguments": [
+                "W_actual",
+                "$X2"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "CAPABLE",
+              "arguments": [
+                "W_actual",
+                "$X2",
+                {
+                  "root_relation": "FLOW",
+                  "argument": "$X2",
+                  "interval": "I2",
+                  "event_condition": {
+                    "op": "WITNESS_PACKAGE",
+                    "exported_ports": [
+                      "$possible_event"
+                    ],
+                    "condition": {
+                      "op": "AND",
+                      "arguments": [
+                        {
+                          "op": "ATOM",
+                          "predicate": "ACTUAL",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event"
+                          ]
+                        },
+                        {
+                          "op": "ATOM",
+                          "predicate": "FLOW",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event",
+                            "$X2",
+                            "I2"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "grade": "UNMARKED"
+                }
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": null,
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "LIQUID",
+              "arguments": [
+                "W_actual",
+                "L"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "CAPABLE",
+              "arguments": [
+                "W_actual",
+                "L",
+                {
+                  "root_relation": "FLOW",
+                  "argument": "L",
+                  "interval": "I2",
+                  "event_condition": {
+                    "op": "WITNESS_PACKAGE",
+                    "exported_ports": [
+                      "$possible_event"
+                    ],
+                    "condition": {
+                      "op": "AND",
+                      "arguments": [
+                        {
+                          "op": "ATOM",
+                          "predicate": "ACTUAL",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event"
+                          ]
+                        },
+                        {
+                          "op": "ATOM",
+                          "predicate": "FLOW",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event",
+                            "L",
+                            "I2"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "grade": "UNMARKED"
+                }
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.26|G003",
+        "raw": "qoky",
+        "clause": 26,
+        "assembly": [
+          "qok",
+          "y"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X2",
+          "event_port": "E2",
+          "phase": "I2",
+          "reference_time": "T2",
+          "context": {
+            "time": "T2",
+            "intention": "P2",
+            "reference_target": "$X2",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": null
+            },
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "P2"
+          ],
+          "condition": {
+            "op": "ATOM",
+            "predicate": "INTENDED",
+            "arguments": [
+              "W_actual",
+              "P2",
+              "$X2",
+              {
+                "root": "FLOW",
+                "pattern": "UNMARKED"
+              }
+            ]
+          }
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": null
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [
+          "Live intended FLOW P2 available for L/DDY or final plan mention"
+        ],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "P2"
+          ],
+          "condition": {
+            "op": "ATOM",
+            "predicate": "INTENDED",
+            "arguments": [
+              "W_actual",
+              "P2",
+              "L",
+              {
+                "root": "FLOW",
+                "pattern": "UNMARKED"
+              }
+            ]
+          }
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.26|G004",
+        "raw": "tol",
+        "clause": 26,
+        "assembly": [
+          "t",
+          "ol"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X2",
+          "event_port": "E2",
+          "phase": "I2",
+          "reference_time": "T2",
+          "context": {
+            "time": "T2",
+            "intention": "P2",
+            "reference_target": "$X2",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "GOAL",
+          "arguments": [
+            "W_actual",
+            "P2",
+            "O"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "GOAL",
+          "arguments": [
+            "W_actual",
+            "P2",
+            "O"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.26|G005",
+        "raw": "shedy",
+        "clause": 26,
+        "assembly": [
+          "shedy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X2",
+          "event_port": "E2",
+          "phase": "I2",
+          "reference_time": "T2",
+          "context": {
+            "time": "T2",
+            "intention": "P2",
+            "reference_target": "$X2",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "MOIST_PREPARATION",
+          "arguments": [
+            "W_actual",
+            "$X2"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "MOIST_PREPARATION",
+          "arguments": [
+            "W_actual",
+            "L"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.26|G006",
+        "raw": "qokylddy",
+        "clause": 26,
+        "assembly": [
+          "qok",
+          "y",
+          "l",
+          "ddy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X2",
+          "event_port": "E2",
+          "phase": "I2",
+          "reference_time": "T2",
+          "context": {
+            "time": "T2",
+            "intention": "P2",
+            "reference_target": "$X2",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "WITNESS_PACKAGE",
+              "exported_ports": [
+                "E2"
+              ],
+              "condition": {
+                "op": "AND",
+                "arguments": [
+                  {
+                    "op": "ATOM",
+                    "predicate": "ACTUAL",
+                    "arguments": [
+                      "W_actual",
+                      "E2"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "FLOW",
+                    "arguments": [
+                      "W_actual",
+                      "E2",
+                      "$X2",
+                      "I2"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "op": "ATOM",
+              "predicate": "COMPLETED",
+              "arguments": [
+                "W_actual",
+                "E2"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "FULFILLS",
+              "arguments": [
+                "W_actual",
+                "E2",
+                "P2"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "GOAL",
+              "arguments": [
+                "W_actual",
+                "E2",
+                "O"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "GOAL_SATISFIED",
+              "arguments": [
+                "W_actual",
+                "E2",
+                "O"
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "WITNESS_PACKAGE",
+              "exported_ports": [
+                "E2"
+              ],
+              "condition": {
+                "op": "AND",
+                "arguments": [
+                  {
+                    "op": "ATOM",
+                    "predicate": "ACTUAL",
+                    "arguments": [
+                      "W_actual",
+                      "E2"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "FLOW",
+                    "arguments": [
+                      "W_actual",
+                      "E2",
+                      "L",
+                      "I2"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "op": "ATOM",
+              "predicate": "COMPLETED",
+              "arguments": [
+                "W_actual",
+                "E2"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "FULFILLS",
+              "arguments": [
+                "W_actual",
+                "E2",
+                "P2"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "GOAL",
+              "arguments": [
+                "W_actual",
+                "E2",
+                "O"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "GOAL_SATISFIED",
+              "arguments": [
+                "W_actual",
+                "E2",
+                "O"
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.27|G001",
+        "raw": "dain",
+        "clause": 27,
+        "assembly": [
+          "dain"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X3",
+          "event_port": "E3",
+          "phase": "I3a",
+          "reference_time": "T3",
+          "context": {
+            "time": "T3",
+            "intention": "P6",
+            "reference_target": "$X3",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "ORDERED_SERIES",
+          "arguments": [
+            "W_actual",
+            "Series3"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "ORDERED_SERIES",
+          "arguments": [
+            "W_actual",
+            "Series3"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.27|G002",
+        "raw": "chedy",
+        "clause": 27,
+        "assembly": [
+          "chedy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X3",
+          "event_port": "E3",
+          "phase": "I3a",
+          "reference_time": "T3",
+          "context": {
+            "time": "T3",
+            "intention": "P6",
+            "reference_target": "$X3",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "PURE",
+          "arguments": [
+            "W_actual",
+            "$X3",
+            "T3"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "PURE",
+          "arguments": [
+            "W_actual",
+            "L",
+            "T3"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.27|G003",
+        "raw": "qokeedy",
+        "clause": 27,
+        "assembly": [
+          "qok",
+          "e",
+          "edy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X3",
+          "event_port": "E3",
+          "phase": "I3a",
+          "reference_time": "T3",
+          "context": {
+            "time": "T3",
+            "intention": "P6",
+            "reference_target": "$X3",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": null
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "WITNESS_PACKAGE",
+              "exported_ports": [
+                "E3"
+              ],
+              "condition": {
+                "op": "AND",
+                "arguments": [
+                  {
+                    "op": "ATOM",
+                    "predicate": "ACTUAL",
+                    "arguments": [
+                      "W_actual",
+                      "E3"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "FLOW",
+                    "arguments": [
+                      "W_actual",
+                      "E3",
+                      "$X3",
+                      "I3a"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "op": "ATOM",
+              "predicate": "MEMBER_EVENT",
+              "arguments": [
+                "Series3",
+                "E3"
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "WITNESS_PACKAGE",
+              "exported_ports": [
+                "E3"
+              ],
+              "condition": {
+                "op": "AND",
+                "arguments": [
+                  {
+                    "op": "ATOM",
+                    "predicate": "ACTUAL",
+                    "arguments": [
+                      "W_actual",
+                      "E3"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "FLOW",
+                    "arguments": [
+                      "W_actual",
+                      "E3",
+                      "L",
+                      "I3a"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "op": "ATOM",
+              "predicate": "MEMBER_EVENT",
+              "arguments": [
+                "Series3",
+                "E3"
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.27|G004",
+        "raw": "shckhedy",
+        "clause": 27,
+        "assembly": [
+          "sh",
+          "ckh",
+          "edy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X3",
+          "event_port": "E3b",
+          "phase": "I3b",
+          "reference_time": "T3",
+          "context": {
+            "time": "T3",
+            "intention": "P6",
+            "reference_target": "$X3",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3a",
+            "dose": "D1"
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "AND",
+              "arguments": [
+                {
+                  "op": "ATOM",
+                  "predicate": "DOSE",
+                  "arguments": [
+                    "W_actual",
+                    "D1"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "MATERIAL",
+                  "arguments": [
+                    "W_actual",
+                    "D1"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "PORTION_OF",
+                  "arguments": [
+                    "W_actual",
+                    "D1",
+                    "$X3"
+                  ]
+                },
+                {
+                  "op": "WITNESS_PACKAGE",
+                  "exported_ports": [
+                    "E3b"
+                  ],
+                  "condition": {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "ACTUAL",
+                        "arguments": [
+                          "W_actual",
+                          "E3b"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "DISPENSE",
+                        "arguments": [
+                          "W_actual",
+                          "E3b",
+                          "$X3",
+                          "I3b"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "INTERNAL_OBJECT",
+                  "arguments": [
+                    "W_actual",
+                    "E3b",
+                    "D1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "MEMBER_EVENT",
+              "arguments": [
+                "Series3",
+                "E3b"
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "AND",
+              "arguments": [
+                {
+                  "op": "ATOM",
+                  "predicate": "DOSE",
+                  "arguments": [
+                    "W_actual",
+                    "D1"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "MATERIAL",
+                  "arguments": [
+                    "W_actual",
+                    "D1"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "PORTION_OF",
+                  "arguments": [
+                    "W_actual",
+                    "D1",
+                    "L"
+                  ]
+                },
+                {
+                  "op": "WITNESS_PACKAGE",
+                  "exported_ports": [
+                    "E3b"
+                  ],
+                  "condition": {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "ACTUAL",
+                        "arguments": [
+                          "W_actual",
+                          "E3b"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "DISPENSE",
+                        "arguments": [
+                          "W_actual",
+                          "E3b",
+                          "L",
+                          "I3b"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "INTERNAL_OBJECT",
+                  "arguments": [
+                    "W_actual",
+                    "E3b",
+                    "D1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "MEMBER_EVENT",
+              "arguments": [
+                "Series3",
+                "E3b"
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.27|G005",
+        "raw": "shckhedy",
+        "clause": 27,
+        "assembly": [
+          "sh",
+          "ckh",
+          "edy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X3",
+          "event_port": "E3c",
+          "phase": "I3c",
+          "reference_time": "T3",
+          "context": {
+            "time": "T3",
+            "intention": "P6",
+            "reference_target": "$X3",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3b",
+            "dose": "D2"
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "AND",
+              "arguments": [
+                {
+                  "op": "ATOM",
+                  "predicate": "DOSE",
+                  "arguments": [
+                    "W_actual",
+                    "D2"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "MATERIAL",
+                  "arguments": [
+                    "W_actual",
+                    "D2"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "PORTION_OF",
+                  "arguments": [
+                    "W_actual",
+                    "D2",
+                    "$X3"
+                  ]
+                },
+                {
+                  "op": "WITNESS_PACKAGE",
+                  "exported_ports": [
+                    "E3c"
+                  ],
+                  "condition": {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "ACTUAL",
+                        "arguments": [
+                          "W_actual",
+                          "E3c"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "DISPENSE",
+                        "arguments": [
+                          "W_actual",
+                          "E3c",
+                          "$X3",
+                          "I3c"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "INTERNAL_OBJECT",
+                  "arguments": [
+                    "W_actual",
+                    "E3c",
+                    "D2"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "MEMBER_EVENT",
+              "arguments": [
+                "Series3",
+                "E3c"
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "AND",
+              "arguments": [
+                {
+                  "op": "ATOM",
+                  "predicate": "DOSE",
+                  "arguments": [
+                    "W_actual",
+                    "D2"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "MATERIAL",
+                  "arguments": [
+                    "W_actual",
+                    "D2"
+                  ]
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "PORTION_OF",
+                  "arguments": [
+                    "W_actual",
+                    "D2",
+                    "L"
+                  ]
+                },
+                {
+                  "op": "WITNESS_PACKAGE",
+                  "exported_ports": [
+                    "E3c"
+                  ],
+                  "condition": {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "ACTUAL",
+                        "arguments": [
+                          "W_actual",
+                          "E3c"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "DISPENSE",
+                        "arguments": [
+                          "W_actual",
+                          "E3c",
+                          "L",
+                          "I3c"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "INTERNAL_OBJECT",
+                  "arguments": [
+                    "W_actual",
+                    "E3c",
+                    "D2"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "MEMBER_EVENT",
+              "arguments": [
+                "Series3",
+                "E3c"
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.28|G001",
+        "raw": "saiin",
+        "clause": 28,
+        "assembly": [
+          "saiin"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X4",
+          "event_port": "E4",
+          "phase": "I4",
+          "reference_time": "T4",
+          "context": {
+            "time": "T4",
+            "intention": "P6",
+            "reference_target": "E4",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "SUBSEQUENT",
+          "arguments": [
+            "W_actual",
+            "I4",
+            "I3c"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "SUBSEQUENT",
+          "arguments": [
+            "W_actual",
+            "I4",
+            "I3c"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.28|G002",
+        "raw": "cheeky",
+        "clause": 28,
+        "assembly": [
+          "cheeky"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X4",
+          "event_port": "E4",
+          "phase": "I4",
+          "reference_time": "T4",
+          "context": {
+            "time": "T4",
+            "intention": "P6",
+            "reference_target": "E4",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "CAREFUL",
+          "arguments": [
+            "W_actual",
+            "E4"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "CAREFUL",
+          "arguments": [
+            "W_actual",
+            "E4"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.28|G003",
+        "raw": "sheey",
+        "clause": 28,
+        "assembly": [
+          "sh",
+          "e",
+          "ey"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X4",
+          "event_port": "E4",
+          "phase": "I4",
+          "reference_time": "T4",
+          "context": {
+            "time": "T4",
+            "intention": "P6",
+            "reference_target": "E4",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "CAPABLE",
+          "arguments": [
+            "W_actual",
+            "$X4",
+            {
+              "root_relation": "DISPENSE",
+              "argument": "$X4",
+              "interval": "I4",
+              "event_condition": {
+                "op": "WITNESS_PACKAGE",
+                "exported_ports": [
+                  "$possible_event"
+                ],
+                "condition": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "ACTUAL",
+                      "arguments": [
+                        "$possible_world",
+                        "$possible_event"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "DISPENSE",
+                      "arguments": [
+                        "$possible_world",
+                        "$possible_event",
+                        "$X4",
+                        "I4"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "CAPABLE",
+          "arguments": [
+            "W_actual",
+            "L",
+            {
+              "root_relation": "DISPENSE",
+              "argument": "L",
+              "interval": "I4",
+              "event_condition": {
+                "op": "WITNESS_PACKAGE",
+                "exported_ports": [
+                  "$possible_event"
+                ],
+                "condition": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "ACTUAL",
+                      "arguments": [
+                        "$possible_world",
+                        "$possible_event"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "DISPENSE",
+                      "arguments": [
+                        "$possible_world",
+                        "$possible_event",
+                        "L",
+                        "I4"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.28|G004",
+        "raw": "qokedy",
+        "clause": 28,
+        "assembly": [
+          "qok",
+          "",
+          "edy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X4",
+          "event_port": "E4",
+          "phase": "I4",
+          "reference_time": "T4",
+          "context": {
+            "time": "T4",
+            "intention": "P6",
+            "reference_target": "E4",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "E4"
+          ],
+          "condition": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E4"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E4",
+                  "$X4",
+                  "I4"
+                ]
+              },
+              {
+                "op": "EXISTS",
+                "binders": [
+                  "E4:positive1",
+                  "E4:zero",
+                  "E4:positive2"
+                ],
+                "body": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E4:positive1",
+                        "I4"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E4:zero",
+                        "I4"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E4:positive2",
+                        "I4"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E4",
+                        "$X4",
+                        "E4:positive1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "ZERO_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E4",
+                        "$X4",
+                        "E4:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E4",
+                        "$X4",
+                        "E4:positive2"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E4:positive1",
+                        "E4:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E4:zero",
+                        "E4:positive2"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "E4"
+          ],
+          "condition": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E4"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E4",
+                  "L",
+                  "I4"
+                ]
+              },
+              {
+                "op": "EXISTS",
+                "binders": [
+                  "E4:positive1",
+                  "E4:zero",
+                  "E4:positive2"
+                ],
+                "body": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E4:positive1",
+                        "I4"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E4:zero",
+                        "I4"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E4:positive2",
+                        "I4"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E4",
+                        "L",
+                        "E4:positive1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "ZERO_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E4",
+                        "L",
+                        "E4:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E4",
+                        "L",
+                        "E4:positive2"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E4:positive1",
+                        "E4:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E4:zero",
+                        "E4:positive2"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.28|G005",
+        "raw": "shedy",
+        "clause": 28,
+        "assembly": [
+          "shedy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X4",
+          "event_port": "E4",
+          "phase": "I4",
+          "reference_time": "T4",
+          "context": {
+            "time": "T4",
+            "intention": "P6",
+            "reference_target": "E4",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "MOIST_PREPARATION",
+          "arguments": [
+            "W_actual",
+            "$X4"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "MOIST_PREPARATION",
+          "arguments": [
+            "W_actual",
+            "L"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.28|G006",
+        "raw": "oldy",
+        "clause": 28,
+        "assembly": [
+          "ol",
+          "dy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X4",
+          "event_port": "E4",
+          "phase": "I4",
+          "reference_time": "T4",
+          "context": {
+            "time": "T4",
+            "intention": "P6",
+            "reference_target": "E4",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "AT_REFERENT",
+          "arguments": [
+            "W_actual",
+            "E4",
+            "O"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "AT_REFERENT",
+          "arguments": [
+            "W_actual",
+            "E4",
+            "O"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.29|G001",
+        "raw": "solchedy",
+        "clause": 29,
+        "assembly": [
+          "solchedy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X5",
+          "event_port": "State5",
+          "phase": "J5",
+          "reference_time": "T5",
+          "context": {
+            "time": "T5",
+            "intention": "P6",
+            "reference_target": "$X5",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "HERE",
+          "arguments": [
+            "W_actual",
+            "O",
+            "T5"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "HERE",
+          "arguments": [
+            "W_actual",
+            "O",
+            "T5"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.29|G002",
+        "raw": "cheey",
+        "clause": 29,
+        "assembly": [
+          "cheey"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X5",
+          "event_port": "State5",
+          "phase": "J5",
+          "reference_time": "T5",
+          "context": {
+            "time": "T5",
+            "intention": "P6",
+            "reference_target": "$X5",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "CLEAR",
+          "arguments": [
+            "W_actual",
+            "$X5",
+            "T5"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "CLEAR",
+          "arguments": [
+            "W_actual",
+            "L",
+            "T5"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.29|G003",
+        "raw": "qody",
+        "clause": 29,
+        "assembly": [
+          "qo",
+          "dy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X5",
+          "event_port": "State5",
+          "phase": "J5",
+          "reference_time": "T5",
+          "context": {
+            "time": "T5",
+            "intention": "P6",
+            "reference_target": "$X5",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "SAME_MATERIAL",
+          "arguments": [
+            "W_actual",
+            "$X5",
+            "L"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "SAME_MATERIAL",
+          "arguments": [
+            "W_actual",
+            "L",
+            "L"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.29|G004",
+        "raw": "kesd",
+        "clause": 29,
+        "assembly": [
+          "kes",
+          "d"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X5",
+          "event_port": "State5",
+          "phase": "J5",
+          "reference_time": "T5",
+          "context": {
+            "time": "T5",
+            "intention": "P6",
+            "reference_target": "$X5",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "NOT",
+          "argument": {
+            "op": "ATOM",
+            "predicate": "MOVING",
+            "arguments": [
+              "W_actual",
+              "$X5",
+              "T5"
+            ]
+          }
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "NOT",
+          "argument": {
+            "op": "ATOM",
+            "predicate": "MOVING",
+            "arguments": [
+              "W_actual",
+              "L",
+              "T5"
+            ]
+          }
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.29|G005",
+        "raw": "oldy",
+        "clause": 29,
+        "assembly": [
+          "ol",
+          "dy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X5",
+          "event_port": "State5",
+          "phase": "J5",
+          "reference_time": "T5",
+          "context": {
+            "time": "T5",
+            "intention": "P6",
+            "reference_target": "$X5",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "ATOM",
+          "predicate": "AT_REFERENT",
+          "arguments": [
+            "W_actual",
+            "$X5",
+            "O"
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "ATOM",
+          "predicate": "AT_REFERENT",
+          "arguments": [
+            "W_actual",
+            "L",
+            "O"
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.30|G001",
+        "raw": "sokeedy",
+        "clause": 30,
+        "assembly": [
+          "s",
+          "oke",
+          "edy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X6",
+          "event_port": "E6",
+          "phase": "I6",
+          "reference_time": "T6",
+          "context": {
+            "time": "T6",
+            "intention": "P6",
+            "reference_target": "$X6",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "FINAL_CASE_PHASE",
+              "arguments": [
+                "W_actual",
+                "I6"
+              ]
+            },
+            {
+              "op": "AND",
+              "arguments": [
+                {
+                  "op": "WITNESS_PACKAGE",
+                  "exported_ports": [
+                    "E6"
+                  ],
+                  "condition": {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "ACTUAL",
+                        "arguments": [
+                          "W_actual",
+                          "E6"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "RETURN_FLOW",
+                        "arguments": [
+                          "W_actual",
+                          "E6",
+                          "$X6",
+                          "I6"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "RETURN_GOAL",
+                  "arguments": [
+                    "W_actual",
+                    "E6",
+                    "C"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "FINAL_CASE_PHASE",
+              "arguments": [
+                "W_actual",
+                "I6"
+              ]
+            },
+            {
+              "op": "AND",
+              "arguments": [
+                {
+                  "op": "WITNESS_PACKAGE",
+                  "exported_ports": [
+                    "E6"
+                  ],
+                  "condition": {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "ACTUAL",
+                        "arguments": [
+                          "W_actual",
+                          "E6"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "RETURN_FLOW",
+                        "arguments": [
+                          "W_actual",
+                          "E6",
+                          "R",
+                          "I6"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "op": "ATOM",
+                  "predicate": "RETURN_GOAL",
+                  "arguments": [
+                    "W_actual",
+                    "E6",
+                    "C"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.30|G002",
+        "raw": "qokeedy",
+        "clause": 30,
+        "assembly": [
+          "qok",
+          "e",
+          "edy"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X6",
+          "event_port": "E6",
+          "phase": "I6",
+          "reference_time": "T6",
+          "context": {
+            "time": "T6",
+            "intention": "P6",
+            "reference_target": "$X6",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X2",
+              "pattern": "UNMARKED",
+              "plan": "P2",
+              "goal": "O"
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "E6"
+          ],
+          "condition": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E6"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E6",
+                  "$X6",
+                  "I6"
+                ]
+              }
+            ]
+          }
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X2",
+          "pattern": "UNMARKED",
+          "plan": "P2",
+          "goal": "O"
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "E6"
+          ],
+          "condition": {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E6"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E6",
+                  "R",
+                  "I6"
+                ]
+              }
+            ]
+          }
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.30|G003",
+        "raw": "qoky",
+        "clause": 30,
+        "assembly": [
+          "qok",
+          "y"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X6",
+          "event_port": "E6",
+          "phase": "I6",
+          "reference_time": "T6",
+          "context": {
+            "time": "T6",
+            "intention": "P6",
+            "reference_target": "$X6",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X6",
+              "pattern": "UNMARKED",
+              "plan": "P6",
+              "goal": null
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "P6"
+          ],
+          "condition": {
+            "op": "ATOM",
+            "predicate": "INTENDED",
+            "arguments": [
+              "W_actual",
+              "P6",
+              "$X6",
+              {
+                "root": "FLOW",
+                "pattern": "UNMARKED"
+              }
+            ]
+          }
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X6",
+          "pattern": "UNMARKED",
+          "plan": "P6",
+          "goal": null
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [
+          "Live intended FLOW P6 available for L/DDY or final plan mention"
+        ],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "WITNESS_PACKAGE",
+          "exported_ports": [
+            "P6"
+          ],
+          "condition": {
+            "op": "ATOM",
+            "predicate": "INTENDED",
+            "arguments": [
+              "W_actual",
+              "P6",
+              "R",
+              {
+                "root": "FLOW",
+                "pattern": "UNMARKED"
+              }
+            ]
+          }
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      },
+      {
+        "source_group_id": "IT2a|f83r.30|G004",
+        "raw": "sairn",
+        "clause": 30,
+        "assembly": [
+          "sa",
+          "irn"
+        ],
+        "operator_input": {
+          "world": "W_actual",
+          "patient_port": "$X6",
+          "event_port": "E6",
+          "phase": "I6",
+          "reference_time": "T6",
+          "context": {
+            "time": "T6",
+            "intention": "P6",
+            "reference_target": "$X6",
+            "references": {
+              "conduit": "C",
+              "outlet": "O",
+              "case_material": "L"
+            },
+            "live_intention": {
+              "root": "FLOW",
+              "patient": "$X6",
+              "pattern": "UNMARKED",
+              "plan": "P6",
+              "goal": null
+            },
+            "previous_phase": "I3c"
+          }
+        },
+        "returned_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "MATERIAL",
+              "arguments": [
+                "W_actual",
+                "R"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "REMAINDER_OF",
+              "arguments": [
+                "W_actual",
+                "R",
+                "L"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "TOPIC",
+              "arguments": [
+                "W_actual",
+                "R"
+              ]
+            }
+          ]
+        },
+        "bindings_before": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L"
+        },
+        "bindings_after": {
+          "$X3": "L",
+          "$X1": "L",
+          "$X2": "L",
+          "$X4": "L",
+          "$X5": "L",
+          "$X6": "R"
+        },
+        "reference_registers_after": {
+          "conduit": "C",
+          "outlet": "O",
+          "case_material": "L"
+        },
+        "live_intention_after": {
+          "root": "FLOW",
+          "patient": "$X6",
+          "pattern": "UNMARKED",
+          "plan": "P6",
+          "goal": null
+        },
+        "reference_donor_source_ids": {
+          "conduit": "IT2a|f83r.25|G002",
+          "case_material": "IT2a|f83r.25|G003",
+          "outlet": "IT2a|f83r.25|G006"
+        },
+        "pending_contribution": [],
+        "status": "DERIVED_C0",
+        "resolved_predicates": {
+          "op": "AND",
+          "arguments": [
+            {
+              "op": "ATOM",
+              "predicate": "MATERIAL",
+              "arguments": [
+                "W_actual",
+                "R"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "REMAINDER_OF",
+              "arguments": [
+                "W_actual",
+                "R",
+                "L"
+              ]
+            },
+            {
+              "op": "ATOM",
+              "predicate": "TOPIC",
+              "arguments": [
+                "W_actual",
+                "R"
+              ]
+            }
+          ]
+        },
+        "later_consumption": "Collected into final conjunction; patient ports resolved by the explicit binding table and intention P2 consumed by QOKYLDDY."
+      }
+    ],
+    "bindings": {
+      "$X3": "L",
+      "$X1": "L",
+      "$X2": "L",
+      "$X4": "L",
+      "$X5": "L",
+      "$X6": "R"
+    },
+    "final_predicates": {
+      "op": "EXISTS",
+      "binders": [
+        "L",
+        "C",
+        "O",
+        "R",
+        "D1",
+        "D2",
+        "E1",
+        "E2",
+        "E3",
+        "E3b",
+        "E3c",
+        "E4",
+        "E6",
+        "P2",
+        "P6",
+        "I1",
+        "I2",
+        "I3a",
+        "I3b",
+        "I3c",
+        "I4",
+        "J5",
+        "I6",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6"
+      ],
+      "body": {
+        "op": "AND",
+        "arguments": [
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E1"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E1",
+                  "L",
+                  "I1"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "CONDUIT",
+                "arguments": [
+                  "W_actual",
+                  "C"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "THROUGH",
+                "arguments": [
+                  "W_actual",
+                  "E1",
+                  "C"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "LIQUID",
+                "arguments": [
+                  "W_actual",
+                  "L"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "CAPABLE",
+                "arguments": [
+                  "W_actual",
+                  "L",
+                  {
+                    "root_relation": "FLOW",
+                    "argument": "L",
+                    "interval": "I1",
+                    "event_condition": {
+                      "op": "AND",
+                      "arguments": [
+                        {
+                          "op": "ATOM",
+                          "predicate": "ACTUAL",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event"
+                          ]
+                        },
+                        {
+                          "op": "ATOM",
+                          "predicate": "FLOW",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event",
+                            "L",
+                            "I1"
+                          ]
+                        }
+                      ]
+                    },
+                    "grade": "UNMARKED"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E1"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E1",
+                  "L",
+                  "I1"
+                ]
+              },
+              {
+                "op": "EXISTS",
+                "binders": [
+                  "E1:positive1",
+                  "E1:zero",
+                  "E1:positive2"
+                ],
+                "body": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E1:positive1",
+                        "I1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E1:zero",
+                        "I1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E1:positive2",
+                        "I1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E1",
+                        "L",
+                        "E1:positive1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "ZERO_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E1",
+                        "L",
+                        "E1:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E1",
+                        "L",
+                        "E1:positive2"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E1:positive1",
+                        "E1:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E1:zero",
+                        "E1:positive2"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "PURE",
+            "arguments": [
+              "W_actual",
+              "L",
+              "T1"
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "OUTLET",
+                "arguments": [
+                  "W_actual",
+                  "O"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "AT_EVENT",
+                "arguments": [
+                  "W_actual",
+                  "E1",
+                  "O"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "CONDUIT",
+                "arguments": [
+                  "W_actual",
+                  "C"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "AT_MATERIAL",
+                "arguments": [
+                  "W_actual",
+                  "L",
+                  "C"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "LIQUID",
+                "arguments": [
+                  "W_actual",
+                  "L"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "CAPABLE",
+                "arguments": [
+                  "W_actual",
+                  "L",
+                  {
+                    "root_relation": "FLOW",
+                    "argument": "L",
+                    "interval": "I2",
+                    "event_condition": {
+                      "op": "AND",
+                      "arguments": [
+                        {
+                          "op": "ATOM",
+                          "predicate": "ACTUAL",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event"
+                          ]
+                        },
+                        {
+                          "op": "ATOM",
+                          "predicate": "FLOW",
+                          "arguments": [
+                            "$possible_world",
+                            "$possible_event",
+                            "L",
+                            "I2"
+                          ]
+                        }
+                      ]
+                    },
+                    "grade": "UNMARKED"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "INTENDED",
+            "arguments": [
+              "W_actual",
+              "P2",
+              "L",
+              {
+                "root": "FLOW",
+                "pattern": "UNMARKED"
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "GOAL",
+            "arguments": [
+              "W_actual",
+              "P2",
+              "O"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "MOIST_PREPARATION",
+            "arguments": [
+              "W_actual",
+              "L"
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "AND",
+                "arguments": [
+                  {
+                    "op": "ATOM",
+                    "predicate": "ACTUAL",
+                    "arguments": [
+                      "W_actual",
+                      "E2"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "FLOW",
+                    "arguments": [
+                      "W_actual",
+                      "E2",
+                      "L",
+                      "I2"
+                    ]
+                  }
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "COMPLETED",
+                "arguments": [
+                  "W_actual",
+                  "E2"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FULFILLS",
+                "arguments": [
+                  "W_actual",
+                  "E2",
+                  "P2"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "GOAL",
+                "arguments": [
+                  "W_actual",
+                  "E2",
+                  "O"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "GOAL_SATISFIED",
+                "arguments": [
+                  "W_actual",
+                  "E2",
+                  "O"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "ORDERED_SERIES",
+            "arguments": [
+              "W_actual",
+              "Series3"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "PURE",
+            "arguments": [
+              "W_actual",
+              "L",
+              "T3"
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "AND",
+                "arguments": [
+                  {
+                    "op": "ATOM",
+                    "predicate": "ACTUAL",
+                    "arguments": [
+                      "W_actual",
+                      "E3"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "FLOW",
+                    "arguments": [
+                      "W_actual",
+                      "E3",
+                      "L",
+                      "I3a"
+                    ]
+                  }
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "MEMBER_EVENT",
+                "arguments": [
+                  "Series3",
+                  "E3"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "AND",
+                "arguments": [
+                  {
+                    "op": "ATOM",
+                    "predicate": "DOSE",
+                    "arguments": [
+                      "W_actual",
+                      "D1"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "MATERIAL",
+                    "arguments": [
+                      "W_actual",
+                      "D1"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "PORTION_OF",
+                    "arguments": [
+                      "W_actual",
+                      "D1",
+                      "L"
+                    ]
+                  },
+                  {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "ACTUAL",
+                        "arguments": [
+                          "W_actual",
+                          "E3b"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "DISPENSE",
+                        "arguments": [
+                          "W_actual",
+                          "E3b",
+                          "L",
+                          "I3b"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "INTERNAL_OBJECT",
+                    "arguments": [
+                      "W_actual",
+                      "E3b",
+                      "D1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "MEMBER_EVENT",
+                "arguments": [
+                  "Series3",
+                  "E3b"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "AND",
+                "arguments": [
+                  {
+                    "op": "ATOM",
+                    "predicate": "DOSE",
+                    "arguments": [
+                      "W_actual",
+                      "D2"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "MATERIAL",
+                    "arguments": [
+                      "W_actual",
+                      "D2"
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "PORTION_OF",
+                    "arguments": [
+                      "W_actual",
+                      "D2",
+                      "L"
+                    ]
+                  },
+                  {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "ACTUAL",
+                        "arguments": [
+                          "W_actual",
+                          "E3c"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "DISPENSE",
+                        "arguments": [
+                          "W_actual",
+                          "E3c",
+                          "L",
+                          "I3c"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "INTERNAL_OBJECT",
+                    "arguments": [
+                      "W_actual",
+                      "E3c",
+                      "D2"
+                    ]
+                  }
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "MEMBER_EVENT",
+                "arguments": [
+                  "Series3",
+                  "E3c"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "SUBSEQUENT",
+            "arguments": [
+              "W_actual",
+              "I4",
+              "I3c"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "CAREFUL",
+            "arguments": [
+              "W_actual",
+              "E4"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "CAPABLE",
+            "arguments": [
+              "W_actual",
+              "L",
+              {
+                "root_relation": "DISPENSE",
+                "argument": "L",
+                "interval": "I4",
+                "event_condition": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "ACTUAL",
+                      "arguments": [
+                        "$possible_world",
+                        "$possible_event"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "DISPENSE",
+                      "arguments": [
+                        "$possible_world",
+                        "$possible_event",
+                        "L",
+                        "I4"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E4"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E4",
+                  "L",
+                  "I4"
+                ]
+              },
+              {
+                "op": "EXISTS",
+                "binders": [
+                  "E4:positive1",
+                  "E4:zero",
+                  "E4:positive2"
+                ],
+                "body": {
+                  "op": "AND",
+                  "arguments": [
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E4:positive1",
+                        "I4"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E4:zero",
+                        "I4"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "NONEMPTY_SUBINTERVAL",
+                      "arguments": [
+                        "E4:positive2",
+                        "I4"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E4",
+                        "L",
+                        "E4:positive1"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "ZERO_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E4",
+                        "L",
+                        "E4:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "POSITIVE_FLOW_THROUGHOUT",
+                      "arguments": [
+                        "W_actual",
+                        "E4",
+                        "L",
+                        "E4:positive2"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E4:positive1",
+                        "E4:zero"
+                      ]
+                    },
+                    {
+                      "op": "ATOM",
+                      "predicate": "END_NOT_AFTER_START",
+                      "arguments": [
+                        "E4:zero",
+                        "E4:positive2"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "MOIST_PREPARATION",
+            "arguments": [
+              "W_actual",
+              "L"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "AT_REFERENT",
+            "arguments": [
+              "W_actual",
+              "E4",
+              "O"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "HERE",
+            "arguments": [
+              "W_actual",
+              "O",
+              "T5"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "CLEAR",
+            "arguments": [
+              "W_actual",
+              "L",
+              "T5"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "SAME_MATERIAL",
+            "arguments": [
+              "W_actual",
+              "L",
+              "L"
+            ]
+          },
+          {
+            "op": "NOT",
+            "argument": {
+              "op": "ATOM",
+              "predicate": "MOVING",
+              "arguments": [
+                "W_actual",
+                "L",
+                "T5"
+              ]
+            }
+          },
+          {
+            "op": "ATOM",
+            "predicate": "AT_REFERENT",
+            "arguments": [
+              "W_actual",
+              "L",
+              "O"
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "FINAL_CASE_PHASE",
+                "arguments": [
+                  "W_actual",
+                  "I6"
+                ]
+              },
+              {
+                "op": "AND",
+                "arguments": [
+                  {
+                    "op": "AND",
+                    "arguments": [
+                      {
+                        "op": "ATOM",
+                        "predicate": "ACTUAL",
+                        "arguments": [
+                          "W_actual",
+                          "E6"
+                        ]
+                      },
+                      {
+                        "op": "ATOM",
+                        "predicate": "RETURN_FLOW",
+                        "arguments": [
+                          "W_actual",
+                          "E6",
+                          "R",
+                          "I6"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "op": "ATOM",
+                    "predicate": "RETURN_GOAL",
+                    "arguments": [
+                      "W_actual",
+                      "E6",
+                      "C"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "ACTUAL",
+                "arguments": [
+                  "W_actual",
+                  "E6"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "FLOW",
+                "arguments": [
+                  "W_actual",
+                  "E6",
+                  "R",
+                  "I6"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "INTENDED",
+            "arguments": [
+              "W_actual",
+              "P6",
+              "R",
+              {
+                "root": "FLOW",
+                "pattern": "UNMARKED"
+              }
+            ]
+          },
+          {
+            "op": "AND",
+            "arguments": [
+              {
+                "op": "ATOM",
+                "predicate": "MATERIAL",
+                "arguments": [
+                  "W_actual",
+                  "R"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "REMAINDER_OF",
+                "arguments": [
+                  "W_actual",
+                  "R",
+                  "L"
+                ]
+              },
+              {
+                "op": "ATOM",
+                "predicate": "TOPIC",
+                "arguments": [
+                  "W_actual",
+                  "R"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "BEFORE_PHASE",
+            "arguments": [
+              "I3a",
+              "I3b"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "BEFORE_PHASE",
+            "arguments": [
+              "I3b",
+              "I3c"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "BEFORE_PHASE",
+            "arguments": [
+              "I1",
+              "I2"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "BEFORE_PHASE",
+            "arguments": [
+              "I2",
+              "I3a"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "BEFORE_PHASE",
+            "arguments": [
+              "I3a",
+              "I3b"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "BEFORE_PHASE",
+            "arguments": [
+              "I3b",
+              "I3c"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "BEFORE_PHASE",
+            "arguments": [
+              "I3c",
+              "I4"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "BEFORE_PHASE",
+            "arguments": [
+              "I4",
+              "J5"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "BEFORE_PHASE",
+            "arguments": [
+              "J5",
+              "I6"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "CURRENT_CASE_MATERIAL",
+            "arguments": [
+              "L"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "MATERIAL",
+            "arguments": [
+              "W_actual",
+              "L"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "FULL_PHASE",
+            "arguments": [
+              "E1",
+              "I1"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "FULL_PHASE",
+            "arguments": [
+              "E4",
+              "I4"
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "SAME_TIME",
+            "arguments": [
+              "T1",
+              {
+                "phase": "I1",
+                "position": "onset"
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "SAME_TIME",
+            "arguments": [
+              "T2",
+              {
+                "phase": "I2",
+                "position": "onset"
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "SAME_TIME",
+            "arguments": [
+              "T3",
+              {
+                "phase": "I3a",
+                "position": "onset"
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "SAME_TIME",
+            "arguments": [
+              "T4",
+              {
+                "phase": "I4",
+                "position": "onset"
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "SAME_TIME",
+            "arguments": [
+              "T5",
+              {
+                "phase": "J5",
+                "position": "description-time"
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "SAME_TIME",
+            "arguments": [
+              "T6",
+              {
+                "phase": "I6",
+                "position": "onset"
+              }
+            ]
+          },
+          {
+            "op": "ATOM",
+            "predicate": "MOVE_IMPLIES_FLOW_MOTION",
+            "arguments": [
+              "FLOW",
+              "MOVING"
+            ]
+          }
+        ]
+      }
+    },
+    "context_edges": [
+      {
+        "op": "ATOM",
+        "predicate": "BEFORE_PHASE",
+        "arguments": [
+          "I3a",
+          "I3b"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "BEFORE_PHASE",
+        "arguments": [
+          "I3b",
+          "I3c"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "BEFORE_PHASE",
+        "arguments": [
+          "I1",
+          "I2"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "BEFORE_PHASE",
+        "arguments": [
+          "I2",
+          "I3a"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "BEFORE_PHASE",
+        "arguments": [
+          "I3a",
+          "I3b"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "BEFORE_PHASE",
+        "arguments": [
+          "I3b",
+          "I3c"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "BEFORE_PHASE",
+        "arguments": [
+          "I3c",
+          "I4"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "BEFORE_PHASE",
+        "arguments": [
+          "I4",
+          "J5"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "BEFORE_PHASE",
+        "arguments": [
+          "J5",
+          "I6"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "CURRENT_CASE_MATERIAL",
+        "arguments": [
+          "L"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "MATERIAL",
+        "arguments": [
+          "W_actual",
+          "L"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "FULL_PHASE",
+        "arguments": [
+          "E1",
+          "I1"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "FULL_PHASE",
+        "arguments": [
+          "E4",
+          "I4"
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "SAME_TIME",
+        "arguments": [
+          "T1",
+          {
+            "phase": "I1",
+            "position": "onset"
+          }
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "SAME_TIME",
+        "arguments": [
+          "T2",
+          {
+            "phase": "I2",
+            "position": "onset"
+          }
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "SAME_TIME",
+        "arguments": [
+          "T3",
+          {
+            "phase": "I3a",
+            "position": "onset"
+          }
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "SAME_TIME",
+        "arguments": [
+          "T4",
+          {
+            "phase": "I4",
+            "position": "onset"
+          }
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "SAME_TIME",
+        "arguments": [
+          "T5",
+          {
+            "phase": "J5",
+            "position": "description-time"
+          }
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "SAME_TIME",
+        "arguments": [
+          "T6",
+          {
+            "phase": "I6",
+            "position": "onset"
+          }
+        ]
+      },
+      {
+        "op": "ATOM",
+        "predicate": "MOVE_IMPLIES_FLOW_MOTION",
+        "arguments": [
+          "FLOW",
+          "MOVING"
+        ]
+      }
+    ],
+    "ordered_series_actual_members": [
+      [
+        "E3",
+        "I3a"
+      ],
+      [
+        "E3b",
+        "I3b"
+      ],
+      [
+        "E3c",
+        "I3c"
+      ]
+    ],
+    "intention_P2_consumed": true,
+    "final_P6_status": "Terminal descriptive intention mention; no unwritten fulfillment instruction or claim.",
+    "unresolved_patient_ports": [],
+    "status": "COMPLETE_C0"
+  }
+}
