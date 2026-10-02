@@ -397,3 +397,268 @@ sie ersetzt keine eingefrorene Regel und wurde nicht in die Kandidatdateien
 eingearbeitet. Ergebnis ist fehlendes Kerndesign, keine Manuskriptkontradiktion
 und kein Erfordernis bestätigter Bedeutungen. Kandidat02 unverändert erhalten;
 keine dritte Variante, kein Stage2, keine Quelle, Reparatur oder Git-Aktion.
+
+
+## Nächste begrenzte Entscheidung: vollständiger Kurzabsatz mit geerbtem Kern
+
+**Empfehlung: ein einziger Prosaversuch an IT2a f103v.37–38, nicht ein weiterer1141-Entwurf.** Der bereits veröffentlichte ganze Absatz hat18 Gruppen und14 exakte Formen:
+
+`ol shey qokain ol shey qokeshe lsheok shdy qcphhy chety dar / oteey lchees ol chey chey chol keechy`
+
+Quelle ist GDT905s [vollständige Schlüsselerklärung](../../../../experiments/yolo/gdt905_joint_cv_complete_passage_candidates/artifacts/LEXICAL_KEYS.md), ausdrücklich kein neuer Zielzugriff. Die dortige Latein-/CV-Ausgabe scheiterte an ihrer Grammatik; [GDT906](../../../../experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md) schließt genau diesen festen Suchraum. Hier wird kein Zeichenschlüssel repariert. Die Auswahl ist exponiert und zielbewusst, keine unabhängige Bestätigung.
+
+**Der Input bietet eine echte Bindung statt einen leeren Start:** gegen CORE und [AUTHOR_ACCOUNT](../../../../experiments/yolo/gdt1140_fortune_status_whole_reading/artifacts/AUTHOR_ACCOUNT.json) geprüft, bleiben ol×3=A, chol=definites A, chey×2=REMAIN, oteey=NOW und dar=d+ar=HOLD(resources). Das sind fünf gebundene Typen an8/18 Stellen. Die übrigen neun Typen haben keine geerbte Ganzwortbedeutung. Insbesondere bleiben shey, shdy und qokain zunächst ungebunden: she/y besitzen lediglich ihre alten endlichen Lizenzen; qokain ist weder qokaiin noch qodain. Keine zusätzliche Bindung wird durch ähnliche Buchstaben behauptet.
+
+Der Vertrag muss **vor** dem Lesenversuch feststehen. Alle32 alten Primitive,18 alten Wortlizenzen und16 Satz-/Erweiterungsregeln bleiben unverändert; ihr alter Geltungsbereich wird genannt. Neu erlaubt sind höchstens zwei benannte lexikalische Ganzwortausnahmen. Jedes andere neue Wort muss durch eine separat deklarierte Konstruktion entstehen. Eine neue Wortbildungsregel braucht mindestens zwei tatsächlich vorliegende verschiedene Ganzformen; eine neue Satzkonstruktion mindestens zwei vollständige native Anwendungen. Neue semantische Bausteine dürfen nicht neun einmalige Tokenwerte in kleinteiliger Verpackung sein. Keine Blattadresse oder Positionsnummer darf eine Bedeutung auswählen. Der Autor benennt die zwei Ausnahmen und alle neuen Regeln zusammen mit der vollständigen Lesung einmalig; anschließend werden sie eingefroren, ohne Reparaturrunde. GDT608 erlaubt Ganzwortresiduen: das Zwei-Ausnahmen-Budget ist eine harte Kandidatenwette, kein Gesetz der Handschrift.
+
+Die Ausgabe muss ein lesbarer ganzer deutscher Absatz sein, mit einfacher Zuordnung aller18 Gruppen, stabilen Referenten, expliziten Satzgrenzen und bezahlten Ellipsen. Keine UNKNOWN-Syntax, kein vorausgesetzter ungeschriebener neuer Akteur und keine in einer Glosse versteckte Ereigniskette. Die zweimalige Folge ol shey erhält dieselbe Konstruktion. Beide chey müssen als dasselbe Bleiben erscheinen; Parataxe/Wiederholung ist zulässig, ein unbelegtes „zweimal“, „dauerhaft“ oder Bedeutungswechsel nicht. Eine gewöhnliche sprachliche Erklärung genügt; keine typisierte Engine. Erwartet wird eine vollständige allgemeine Zustands-/Ressourcenaussage über A, falls dieser Kern tatsächlich trägt, keine versprochene Fortune-Übersetzung.
+
+Historisch wirken nur die schon besessenen Carmina16/18a als **Inhaltsgrenzen**: früherer Besitz impliziert keinen jetzigen Verlust; Fortsetzung/Wiederholung setzt den jeweils erklärten früheren Zustand voraus; verschiedene Träger werden nicht nach Bedarf identifiziert. Sie liefern keine fehlenden Zielwörter, keine Königsidentität und keinen kopierten Vers. Häufigkeiten werden ebenfalls vorab respektiert: ol, chol, chey, dar und oteey bleiben breite Vorschläge; keine dieser häufigen Formen wird zur seltenen historischen Eigennennung. GDT608s gerichtete Außenteile und Ganzwortresiduen sind formale Grenzen, keine bewiesenen englischen Wortarten. Neue Zerlegungen werden gegen die vorhandenen unveränderten Analysen angezeigt, nicht als universal bestätigte Morpheme ausgegeben. Ungeklärte qotaiin-Skopierung bleibt im alten Kern sichtbar; dieser Absatz enthält qotaiin nicht.
+
+**Tatsächliche Gegenkontrolle:** Nach dem Freeze dieselbe Lexik und Satzregeln auf den Absatz mit vertauschten Gruppen1 und11 anwenden, also dar am Anfang und ol an Stelle11. Inventar, Wiederholungen und Länge bleiben gleich. Unter altem R9 hat das anfängliche HOLD(resources) keinen früher geschriebenen Nominativ. Die Kontrolle muss diese ungebundene Aussage offen zeigen; ein rückwärts eingefügtes A würde die alte Regel ändern. Der erwartete Defekt dieser Kontrolle ist bereits aus R9 bekannt und zählt selbst ausdrücklich nicht als neue Bedeutungsselektion. Ihr Zweck ist der konkrete Nachweis, dass die ganze Lesung tatsächlich an geschriebener Bindung hängt. Zusätzlich bleiben die drei vollständig verfassten alten1140-Kontexte unter den neuen Regeln gleich; alternative Analysen oder neue Rückbindungen dürfen ihre Aussagen nicht still ersetzen.
+
+**Zwei routenändernde Ausgänge:** (A) Alle18 Stellen ergeben eine verständliche vollständige Aussage, mindestens zwei native Anwendungen jeder neuen Konstruktion sind erklärt, alte Kontexte bleiben gleich und die Kontrolle bleibt gebunden an ihren tatsächlichen Syntaxdefekt. Dann erstmals diesen kurzen ganzen Prosakandidaten behalten und als nächsten Schritt seine eingefrorenen neuen Konstruktionen in einem weiteren bereits besessenen ganzen Absatz prüfen. (B) Das verlangt dritte Ganzwortausnahme, einmalige Restregeln, unbekannte Syntax oder eine geänderte alte Bindung: diesen Transfer/Konstruktionskandidaten stoppen, ohne neue Adapter oder größere Wortliste. Kein Ausgang bestätigt englische Bedeutungen. Auch bei(A) überleben freie breite Umbenennungen, Synonymie und der Rival einer allgemeinen physiologischen Zustands-/Ressourcenbeschreibung; sprachliche Vollständigkeit und Bedeutungswahl werden getrennt berichtet.
+
+**Duplikatprüfung:** composition/controls, bounded ideas search/duplicates und route-check wurden benutzt, GDT905/906,1094,1140,624 sowie die bereits geprüften1137/1141-Primären gelesen. GDT624 ist eine48-Zellen-Oberflächenfamilie mit hypothetischen Qualitätsglossen, keine ganze f103v-Lesung; seine Glossen werden nicht geerbt.1094 hat vollständige Buchführung ohne Konstruktion;1140 hat44 unbekannte Wörter/68 Syntaxlücken;1137 hat echte lokale Berechnung ohne Wortwahl. Der neue unbekannte Ausgang ist somit die **vollständige18-Gruppen-Prosa unter unverändertem geerbtem Kern und einem vorab harten Ausnahmenlimit**, nicht das bekannte Versagen eines beliebig umbenannten Formalmodells. Die Registry lieferte keine identische deklarierte Konstruktion; ihre Suche ist kein Vollständigkeitsbeweis. Zeitbudget: höchstens60Minuten einschließlich einmaligem Autorversuch, unabhängiger Ganzsatz-/Regelprüfung, Freeze, Kontrolllesung und Veröffentlichung; nach30Minuten ohne ganze Kandidatenlesung keine Erweiterung. Kein neuer Quelltext, Reserve, Bild, Kontakt oder Infrastrukturprojekt nötig.
+
+
+### Sofortige Machbarkeitskorrektur; noch keine Autorfreigabe
+
+Eine exakte Zerlegung der neun ungebundenen f103v-Formen mit ausschließlich
+1140s alten32 Primitiven ergibt nur shey=she+y. Diese Folge enthält zudem
+keinen Prädikatsoperanden für CONTINUE/PAST. Die anderen acht Formen haben
+überhaupt keine vollständige exakte Zerlegung. Mit zwei neuen Ganzwortwerten
+und ohne neue freie Primitive ist der oben vorgeschlagene Absatz somit
+bereits vor einem Autorversuch unter Budget unmöglich. Empfehlung zur
+Autorfreigabe zurückgezogen; kein neues Experiment und keine Reparatur dieses
+Entwurfs. Neue freie Morphembedeutungen unter „Grammatik“ würden das Budget
+umgehen und werden nicht zugelassen.
+
+Root beauftragt als letzten engen Machbarkeitsschritt ausschließlich die
+schon öffentlichen GDT905/906-Pakete: ihre41 ganzen Absätze/49 Lesungsfälle
+mit12–24 Gruppen, nicht den Rohkorpus. Vorab-Regel: alte32 Primitive und
+alte exakte Lizenzen unverändert; zusätzlich allein neue exakte
+Konkatenationslizenzen aus diesen alten Primitiven, ohne Schreibänderung oder
+neue Primitive. Fehlende Ganzwortbedeutungen zählen unabhängig davon, ob man
+sie „Lexem“ oder „Morphem“ nennt. Spelling-Zerlegbarkeit ist nur eine notwendige
+Bedingung; Operatoren müssen danach wirkliche passende Argumente haben
+(z.B. qo+keedy als NOT(FLOURISH) ist möglich, she+y ist nicht gesättigt).
+Ein Packet mit mehr als zwei überhaupt unzerlegbaren Typen kann nicht als
+≤2-neue-Primitive-Kandidat freigegeben werden. Auch ein formal passendes
+Packet verlangt später tatsächliche Syntax-/Argumentprüfung. Diese kleine
+Intake ist Machbarkeit, keine neue Bedeutungsprüfung und keine Behauptung
+universeller Morphemzerlegung.
+
+
+### Abschließende enge Packet-Machbarkeit und1137-Grenze
+
+**Kein Autorpacket unter dem geprüften1140-Vertrag.** Aus GDT905s öffentlichem
+TARGET.json wurden ausschließlich die schon registrierten12–24-Gruppen-Fälle
+verwendet; SCOPE.json bestätigt41IT/5RF/3ZL=49 Fälle auf41 Absätzen.
+Bei exakter Konkatenation aus den32 unveränderten1140-Primitiven hat selbst
+der günstigste Fall sechs unzerlegbare verschiedene Ganzformen
+(IT f85r2.2–6, bereits1140-Nordblock). f103v.37–38 hat acht vollständig
+unzerlegbare Typen und zusätzlich die ungesättigte she+y-Folge. Zwei neue
+Ganzwortausnahmen reichen somit in keinem Packet.
+
+Auch die großzügigere notwendige Bedingung wurde vollständig geprüft:
+höchstens zwei **beliebige neue exakte Substrings** zusätzlich zu den alten32,
+noch ganz ohne Bedeutungs-/Wortart-/Argumentbeschränkung. Ergebnis:
+**0/49 vollständig zerlegbare Fälle;2738 relevante Substringpaare geprüft.**
+Die kleine Berechnung fand keine semantischen Zuordnungen und setzte keine
+Morphologie als Fakt. Suchvollständigkeit: Jedes mögliche neue Primitive muss
+in einem unter alten Einträgen ungedeckten Wort vorkommen. Für jedes Substring
+u des ersten solchen Wortes wurden alle Wörter unter alt+u geprüft. Bleibt
+etwas ungedeckt, muss der zweite Substring v im ersten noch ungedeckten Wort
+vorkommen; alle dessen Substrings wurden geprüft und die komplette
+Wortmenge unter alt+u+v getestet. Eine erfolgreiche Ein-Primitive-Variante
+wäre ebenfalls erfasst worden. Bereits alte Substrings wurden nicht als neue
+gezählt. Keine Leerprimitive, Buchstabenänderung oder Weglassung erlaubt.
+Unter diesen optimistischen Bedingungen ist das Nullergebnis schon eine
+Spelling-Untergrenze; tatsächliche Operatorargumente können keine fehlende
+Zerlegung retten. Keine Suchraumerweiterung oder neue Morphemwerte folgen.
+Dies schließt nur diesen geerbten Kern mit≤2 neuen Primitiven auf diesen49
+Paketen, keine gewöhnliche Sprache oder andere Lesung.
+
+**1137 ist ebenfalls kein bereitstehender Selektortransfer.** Die tatsächlich
+geprüften [Funktionen](../../../../experiments/yolo/gdt1137_material_process_type_return/src/core.py)
+binden SOL über Gleichheit sowohl von material als auch operations.
+QOKEDY berechnet prepared_form und genealogy ausschließlich aus diesen
+Feldern. Für EARLIER und LATEST_COMPATIBLE ausgewählte passende Typen sind
+somit alle später bedeutungstragend gelesenen Felder identisch. SOURCE_PREDICATE
+vergleicht material; QODY liest material/operations und hängt dry-set an.
+Abweichende producer_id/parent_producer sind Herkunftsmetadaten ohne weiteren
+bedeutungstragenden Prädikatsunterschied. QODY erzeugt zudem eine weitere
+Vorschrift, keinen modifizierten wieder eingespeisten preparation-recipe.
+Selbst drei oder mehr vorhandene geschriebene Produzenten könnten diese
+Invarianz unter unveränderten Funktionen nicht aufheben. Daher kein neuer
+Prosezugriff für eine scheinbare EARLIER-vs-LATEST_COMPATIBLE-Selektion.
+Eine künftig verschiedene, tatsächlich gelesene Eigenschaft wäre ein neues
+Kerndesign und braucht eigene Motivation; sie wird hier nicht nachgerüstet.
+
+Die anfängliche18-Gruppen-Empfehlung bleibt als transparent zurückgezogener
+Entwurf erhalten. Entscheidungsfolge heute: keine Autorfreigabe, kein1142,
+kein größeres Lexikon/Parser, keine Wiederaufnahme des bekannten OTO-Kontrasts.
+Der nächste vollständige Lesungsversuch muss einen anderen tragenden Kern
+oder einen anders begründeten, vorher begrenzten Lexikvertrag besitzen.
+Die ursprüngliche Bitte um einen heute ausführbaren ganzen Absatz ist durch
+diese beiden geprüften Wege **noch nicht erfüllt**; eine freie neunwortige
+Fortsetzung wird nicht als substantieller Gewinn ausgegeben.
+
+
+###1137-Definedness präzisiert; Machbarkeit reproduzierbar gesichert
+
+Root wies korrekt auf eine zusätzliche mögliche Konsequenz hin: Wenn nur der
+letzte Typ passt, ist explicit-earlier-type undefiniert, während
+latest-compatible definiert sein kann. Die obige1137-Invarianzaussage gilt
+somit ausdrücklich **wenn beide Auswahlen definiert sind**; sie schließt
+keinen Availability-Discriminator aus. Die unterschiedlichen parent-/producer-
+IDs bleiben sichtbare Provenienz, derzeit ohne unterschiedliches physikalisches
+Material-/Prozessprädikat. Eine Availability-Prüfung wäre nur bei einem bereits
+besessenen ganzen Prosapacket mit tatsächlich erklärten lokalen Produzenten,
+Selector und nachfolgendem Verbraucher eine sinnvolle neue Lesung; bloßer
+solchedy-Zensus oder übersprungene unbekannte Syntax wäre keine Kapazität.
+Hier wurde kein solches Packet gefunden oder neu geöffnet und kein neuer
+globaler Anspruch für1137 erhoben.
+
+Die vorher angekündigte kleine49-Fälle-Machbarkeit ist jetzt unter
+[GD_1140_TRANSFER_FEASIBILITY.py](GD_1140_TRANSFER_FEASIBILITY.py) und
+[GD_1140_TRANSFER_FEASIBILITY.json](GD_1140_TRANSFER_FEASIBILITY.json)
+reproduzierbar gesichert. Die JSON enthält sämtliche49 kompakten Fallzeilen,
+primitive inventory, registrierte Leserzahlen, exakte relative Inputpfade
+mitSHA256 für TARGET/SCOPE/CORE/AUTHOR_ACCOUNT und den Quellcodehash. Der
+Quellcode legt Suchvollständigkeit und Scopefilter offen. Aus dem Repo-Root
+`python research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_1140_TRANSFER_FEASIBILITY.py`
+reproduziert49 Fälle/41Absätze, Minimum6 alte ungedeckte Typen,2738 geprüfte
+Paare und0 feasible cases. Dies ist ausdrücklich die exponierte explorative
+Machbarkeit des vorab begrenzten Vertrags; Root übernimmt unabhängige
+Validierung/Veröffentlichung. Kein GDT, keine globale Registeränderung oder
+Git-Aktion durch diesen Agenten.
+
+
+### Faktische Zählkorrektur der1140-Machbarkeit
+
+2738 bezeichnet **adaptive Paar-Auswertungsaufrufe**, nicht2738 verschiedene
+Primitivepaare. Pro Fall gerechnet und anschließend summiert waren es2138
+verschiedene ungeordnete Paare, darin204 Diagonalpaare;600 Aufrufe waren
+Wiederholungen. Die unabhängige vollständige Enumeration von713524 Paaren
+bestätigt das unveränderte Ergebnis0/49. Die Grenze von höchstens zwei neuen
+Primitiven war unsere explizite Kandidatenhypothese, keine Vorgabe des Users
+und kein allgemein gültiges Sprachgesetz. Diese Korrektur verändert nicht
+die49-Fälle-Spelling-Untergrenze, aber die Beschreibung ihrer Auszählung.
+
+
+## Nach1142: gezielte relationale Entscheidung statt weiterer Glossen
+
+**Mit den geprüften besessenen Einheiten besteht derzeit keine neue
+bedeutungswählende Relation.** Als1142-Input wurde Roots Mitteilung verwendet:
+beide Records sehen Blattkontinuität und einen getrennten Körper; Schaft,
+Tether und zweiter Akteur sind bei diesem Maßstab absent; die Rolle bleibt
+unselektiert. Keine neuen Bilder/Targets wurden hier gelesen. Diese Geometrie
+macht ein Pflanzenkontaktmodell konkreter, erklärt aber weder Essen noch
+Nutzen, Schaden, Heilung oder die Identität eines Patienten.
+
+Geprüfte genaue Vorgänger:1092 schließt den festen Sloane4016-Dragontea-
+Viermerkmalsvergleich;1093 samt Korrektur liefert Plantago-Nähe ohne strikten
+Owner;1094 hat57/60/59 ganze Gruppen, Wiederholungszwänge und drei
+ungebundene Rezeptbeziehungen. CONTACT_ROLE_PREFLIGHT und
+BNF_CONTACT_OBSERVATIONS liefern bereits **zwei tatsächlich gelesene
+Rollen**: Verbena29v mit „Ad morsus canis rabidi“ hat den Hund als Gefahr,
+Harley4751f14v hat das verwundete Tier als Pflanzenberührer/Patient.
+Harleys Berührung darf nicht in Plinys Essen oder Waffenaustritt umbenannt
+werden. RAW744–746 sind alternative Schutz/Heilungs/Schadensbeziehungen,
+keine gelesenen f25v-Sätze. GDT878s getrennte Objekt-/Textvariation blieb
+ohne reusable binding; die neue1142-Kontinuität schließt diese Lücke nicht
+nachträglich.1137s beidseitig definierte TYPE-Selektoren unterscheiden keine
+bedeutungstragenden Verbraucherfelder; eine lokale Availability-Konsequenz
+wäre dagegen zulässig, aber hier liegt kein dafür vollständiges neues
+Prosapacket vor. Keine Wiederholung von Häufigkeits-/Positionszählungen.
+
+**Eine konkrete neue Evidenzbeschaffung:** genau **BnF Latin6823f123v**,
+vollständige Primärabbildung plus diplomatische Transkription des zum Hund
+gehörenden ganzen Rezeptabschnitts. Diese deklarierte Quelle war im
+Sieben-Folio-Preflight NOT VIEWED, keine negative Beobachtung. Der
+[institutionelle Record](https://portail.biblissima.fr/fr/ark:/43093/ifdata1ea6c7cbe98d93788429e496ab3613010208fab3)
+bindet Plantago+Hund an123v und den Gallica-Canvasf254
+(btv1b6000517p). Die jetzige Metadatensuche bestätigt nur diese Bindung,
+nicht Bildrolle oder Rezept; kein Quellenpixel wurde geöffnet. Dies ist
+keine weitere generische Plantago-Bestimmung und keine Quellenneueröffnung
+in dieser Advisory-Prüfung.
+
+Vor der Beschaffung als falsifizierbare **C0-Konventionshypothese** festlegen:
+„Ununterbrochener Blatt–Schnauzenkontakt bezeichnet einen Pflanzenbenutzer;
+das gefährliche, dessen Biss behandelte Tier wird ohne diesen Kontakt
+gezeigt.“ Prüfen genau Blattkontinuität, Schnauzenkontakt und ob der
+vollständige Text das gemalte Tier als verletzenden Akteur oder als
+behandelten/geschützten Empfänger bindet. Catalogue descriptors genügen
+nicht. Ein menschlicher Empfänger darf nicht als dog consumer ergänzt
+werden. Kein neuer Voynichwortwert wird für diese Quelle gekauft.
+
+**Unterschiedliche Folgen:** Derselbe eindeutige Kontakt bei textlich
+gebundenem gefährlichem Hund widerlegt diese Kontakt-Konvention und beendet
+jede bevorzugte Pflanzenbenutzer-Lesung von f25v, die allein1142 als
+Begründung benutzt. Ein textlich gebundener gefährlicher Hund ohne Kontakt
+würde zusammen mit dem besessenen Harley-Patientenkontakt die bedingte
+Benutzerhypothese begrenzt stützen; eine nächste ganze C0-Lesung müsste dann
+das gemalte Tier ausdrücklich als Empfänger behandeln statt den Hund nach
+Bedarf zum verletzenden Akteur zu machen. Heilung vs Prophylaxe vs Vergiftung
+und sämtliche Wortglossen blieben trotzdem offen. Zeigt die Quelle nur
+Dekoration, andere Kontur oder unlesbare/ungebundene Rolle, ist die
+Konventionsfrage unresolved; keine Kontakt-Übersetzung und kein zusätzlicher
+Glossenbau folgen. Das ist Quellenkalibrierung, kein eindeutiger f25v-
+Semantikselektor.
+
+**Praktische Grenze:** Der identische Gallica-Abruf war bereits unavailable;
+es wurde jetzt keine neue öffentliche Bildverfügbarkeit nachgewiesen.
+Daher kein unveränderter403-Retry und kein weiterer missing-input-Audit.
+Eine tatsächlich verfügbare offizielle Quelle oder eindeutig attributierter
+vollständiger Mirror dieses exakten Canvas wäre der neue Input; maximal45
+Minuten einschließlich vollständiger Rezeptlesung und Gegenvergleich, sobald
+Bytes verfügbar sind. Der Vorteil dieser Beschaffung ist die mögliche
+Widerlegung einer konkreten Kontakt→Rollen-Inferenz, nicht eine versprochene
+Vollübersetzung. Duplicate-search/route-check finden den vorhandenen
+Kontakt-Preflight als direkten Vorgänger; sein Missing-Input-Gate und1092/93
+bleiben erhalten. Der vorgeschlagene Konventionsfalsifier wird vor einem
+zukünftigen Quellenlesen festgelegt, nicht aus dessen günstigem Bild gewählt.
+
+
+###123v: neuer konkreter Verfügbarkeitsbefund ohne Bildzugriff
+
+Der enge reine Metadatencheck am2.Oktober liefert nun einen tatsächlichen
+veränderten Beschaffungsweg. Die offizielle
+[IIIF-info.json](https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254/info.json)
+antwortete mit HTTP200/application-json; service@id ist exakt
+`https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254`, Originalgröße
+**3351×4466**. Der rohe JSON-Response hatSHA256
+`d3515efddc489da05d18c9a661b5f5a4a52932cd9d6b0e4dbefe2be436e6f01d`.
+Der schon besessene GDT617-Manifest (SHA256
+`f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187`)
+verbindet Canvasf254 eindeutig mit Label123v, diesen Maßen und genau dem
+Originalpfad `https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254/full/full/0/native.jpg`.
+Ein **HEAD**, ausdrücklich ohne Responsebody, auf genau diesem
+manifestgebundenen Pfad antwortete ebenfalls HTTP200/image-jpeg; Content-Length
+war nicht angegeben. Kein Bildbyte wurde gelesen, gespeichert oder betrachtet.
+Das ist stärkere aktuelle Verfügbarkeitsmetadaten als die alte fehlgeschlagene
+`full/1800`-Anfrage, aber noch kein zugesicherter erfolgreicher Bild-GET.
+
+Commons' API war HTTP200, meldete die exakte Datei
+`File:BnF Latin 6823, f.123v.jpg` aber missing; kein Mirror wurde erfunden.
+Der Biblissima-Live-HTML-Abruf traf eine Anti-Bot-Seite; sein Suchindex bestätigt
+lediglich Plantago/Hund und den Gallica-Locator, keine Rolle. Für eine nun
+registrierbare source-only Beschaffung ist daher der oben gebundene offizielle
+3351×4466-Originalpfad die konkrete Option. Root soll vor Pixel-/Rezeptlesen
+die vollständige Quelle und den Kontakt→Benutzer-Falsifier festhalten;
+f25v/reservierte Voynichdaten werden dabei nicht erneut geöffnet. Die
+Verfügbarkeitsprüfung ist Metadaten-/Beschaffungsarbeit, kein semantischer
+Befund und kein Nachweis, dass der Hund tatsächlich einen Blattkontakt hat.
+
+
+Vollständige reine Metadatenreceipt samt rohem JSON-Response, Request-/
+Completion-UTC, URL/Status/Hash und exakt besessenem Manifestcanvas jetzt
+unter [GD_BNF123V_METADATA_RECEIPT_20261002.json](GD_BNF123V_METADATA_RECEIPT_20261002.json)
+gesichert. Der zuvor ausgeführte HEAD bleibt mit seiner ehrlichen zeitlichen
+Obergrenze12:57:25UTC ausgewiesen; keine erfundene präzise Requestzeit.
+Die Beschaffungsprüfung endet hier. Root übernimmt die Registrierung vor
+jedem zukünftigen Pixel-/Textzugriff; vollständige123v-Seite ohne Extrazoom,
+kompletter zugehöriger Rezeptabschnitt oder explizite fehlende Kapazität,
+falls dieser über die Seite hinausgeht.

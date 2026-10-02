@@ -366,3 +366,316 @@ source acquisition or decoder. A partial result remains partial. This advisory
 does not allocate or start that budget; root must select it after1140 and the
 current time constraint. Its deliverable is a concrete complete reading task,
 not another audit asking for an independently confirmed light word.
+
+## After1141: shared CHOR construction capacity, 2026-10-02
+
+This is an independent selection advisory, not a1141 repair or a selected
+experiment. Root reports1141 closed at MISSING_CORE_DESIGN, which is not a
+refutation of light. The route was read first, followed by recipes/numbers
+topics, bounded registry searches, duplicate checks and route-checks, then
+the primaries below. No new source, image, reserve, corpus census or decoder
+was used. This advisory does not require an independently confirmed word
+meaning before exploratory authorship.
+
+**Finding: no examined predecessor already supplies a complete historically
+bound target reading.** There is one smaller, potentially useful complete
+authoring task: the already exposed second paragraph of f9v. Its repeat and
+entry constraints can reduce semantic freedom, but cannot presently select
+a concrete English noun for CHOR. It should not be sold as a discovered
+historical passage match. I recommend no second fresh scalar/numeral task.
+
+### The complete owned paragraph and actual constraints
+
+The admitted published source is GDT661
+`artifacts/ALL_LINE_CONCRETE_COVERAGE_V38.tsv`, queried with the guarded
+selector `page=f9v`, columns page/locus/token_count/zl3b_line only. The
+complete second paragraph is48 ZL groups,42 different whole forms:
+
+```text
+f9v.5  pchor ypcheey qotor ypchy olcfholy to ar chty daiiin
+f9v.6  odol choy ksheody chody dain otchy cthod yko
+f9v.7  qo chol chol chy daiin otal dor daim
+f9v.8  soiin daiin qokcho rokyd daly
+f9v.9  daiin chy tor chyty dary ytoldy
+f9v.10 oty kchol chol chy kyty
+f9v.11 ychor chshoty oky kaiin
+f9v.12 chkaiin ckhy chor
+```
+
+The complete first paragraph .1–4 remains38 context groups; it contains
+bare CHOR at .2/.3 but no PCHOR/YCHOR. The first paragraph cannot supply a
+different silently selected subject every time the second becomes hard.
+Choose ZL explicitly as the developmental reading because this exact complete
+owned artifact is available; preserve its48 groups. Keep IT/RF alternatives
+where the owned packets actually supply them, rather than selecting a best
+reader per occurrence or importing new raw bodies.
+
+The proposed new core would give CHOR one stable nominal kind/content value
+K. PCHOR is a paid entry-form construction P(K), YCHOR a paid continuation
+construction Y(K), and final CHOR the same K. P/Y are not inherited translated
+prefixes. P(K) introduces one locally written description of K; Y(K) must
+resume that description and cannot introduce a fresh unmentioned kind. A
+plain K occurrence need not denote the identical physical specimen, so the
+author must state whether reference is to a kind, material or entry. This
+is deliberately stricter than PCHOR=NIMM, YCHOR=FERNER, CHOR=BLUETE assigned
+as unrelated cards. Do not delete p/y, split YPCHEEY/YPCHY opportunistically,
+or turn their common letters into meanings without a declared rule.
+
+The meaning restrictions actually enter the authoring task as follows:
+
+* CHOL occurs .7G2, .7G3 and .10G3. All three need the same value/type;
+  the adjacent .7 CHOL CHOL must remain an explicit repetition. It cannot
+  become two differently named substances or actions without a written rule.
+* CHY occurs .7G4, .9G2 and .10G4; DAIIN occurs .7G5, .8G2 and .9G1.
+  Their repeated predicates/values must have the same rules and arity.
+  DAIIN at .9G1 is inside the paragraph: a proposed left-host law has to
+  account for the preceding .8G5 DALY across the line, not reset the parser.
+* The .5 PCHOR entry must acquire at least one property/value from actual
+  following written expressions. A predicate in .11–12 must consume that
+  same field under a frozen rule. Merely carrying a named record/cursor from
+  PCHOR to YCHOR and ending with the word CHOR adds no semantic constraint.
+* All48 groups must contribute under declared finite rules. The42 distinct
+  forms leave considerable lexical freedom: introducing42 unrelated cards
+  and attaching the repeated words decoratively would still fail this task.
+
+The entry core's arity is one kind argument K; its mutable description is
+an explicit record formed by the intervening written expressions. Y has one
+previous-description argument, with no implicit pictured object. Declare a
+finite property signature before completion. The required consumer must
+change an actual later assertion/result when that earlier written property
+changes, and reject or change reference when its antecedent kind changes.
+This can constrain relationships without claiming the guessed noun is
+confirmed. A globally applicable P/Y semantic rule is a separate claim and
+must not be smuggled into this local complete reading.
+
+### Historical comparison and retained predecessors
+
+Exact primary reports read for this choice: GDT757 initial-formula atlas,
+GDT766 ofch/chor roles, GDT1073 pX/yX scope, GDT844 visual subentry, and
+GDT1122 joint written participant entry. GDT757/766 favor different whole
+roles under their exploratory scoring; they do not confirm NIMM/BLUETE.
+The observed distribution prevents treating all complete forms as the same
+unqualified nominal: PCHOR has10 exact occurrences,7 first in a line and6
+true paragraph initial, while CHOR's176 are predominantly medial. The new
+proposal pays for a shared nominal plus a construction, rather than rerunning
+that failed unqualified-noun comparison. GDT1073's seven ZL/eight IT pX/yX
+pairs support a broader position contrast, not a unique CHOR key; RF remains
+unscorable. GDT844 found no common visible subentry cue at the two checked
+YCHOR lines, including f9v.11. Thus Y cannot be rescued by inserting an
+unwritten paragraph boundary or by opening another image.
+
+The strongest rival remains one common lexical content with position-conditioned
+writing and no semantic entry/continuation operation. Another retained rival
+is the existing learned-whole formula account. Compare those with the new
+construction on the same complete paragraph. If all three yield the same
+assertions and actual dependencies, the manuscript has not selected the
+P/Y semantic construction; do not claim an advantage from its English names.
+
+GDT756's existing historical comparator table gives late-medieval Take/Item
+sequences (Wellcome MS407; Durham Cosin V.iv.1; Harley2378). These make an
+entry followed by continuation historically possible. They neither give a
+common CHOR stem key nor a complete target-bound recipe; the catalogue and
+selective-transcription limitations remain. The full-entry f9v Jacea decision
+dossiers likewise leave name versus address unresolved and do not license a
+CHOR component or pre1450 passage identity. No new historical passage was
+retrieved, and a Latin default would add no bridge.
+
+GDT1122 already tried a shared typed written entry on two other complete
+paragraphs: only early traces were bound, with118 groups unconsumed and a
+property/material type conflict. New-entry or cursor vocabulary is therefore
+not novel. What this smaller task changes is the actual full owned scope,
+same lexical kind constraint, repeated whole obligations and mandatory late
+consumer. Its novelty must be assessed on those concrete rules, not on a
+claim that written state has never been tried. IDEA284 is an unreviewed
+continuation idea, not an executed language proof. IDEA630's name/address
+branch remains blocked; this task does not reopen that referent branch.
+
+### Why no scalar second candidate
+
+GDT812 REPORT/WORKING_THEORY and its family/historical/intensifier sources
+were read, alongside GDT810, GDT813, GDT1000, GDT1047 and GDT1094 reports.
+The repeated CHOL with DAIN/DAIIN/DAIIIN is a retained positive structural
+constraint. It does not establish values from minim count. Existing failures
+include strict VERY under the old CTHY interpretation, triple DAIIN outside
+the predeclared two-level rule, and the universal overt left-host family
+law's source-marked paragraph counterexamples. GDT1000's fixed complete
+Trotula quantity proposal failed its joint literal fit, including an actual
+repeated QD1 against the source's one occurrence. These stops cannot be
+repaired by assigning1/2/3 or a new English degree series.
+
+GDT1094 already accounted for the whole Plantago passage without producing
+a complete semantic reading. Frequent CHOR/CHOL/SHOL and repeated DAIIN
+cannot simply become the three rare treatment targets from the pictures or
+three source packages. A new whole f17r/f32v interpretation would first need
+real shared content heads and all unchanged neighboring text, precisely the
+obligation retained by812/813. I found no already bound full historical
+pattern that removes that debt, so I do not recommend another quantity-only
+authoring trial or present this known structure as a new result.
+
+### Smallest executable authoring deliverable and decision
+
+Prospective task, if root selects it: **one complete48-group f9v .5–12 reading**
+plus its explicit context boundary, frozen K/P/Y signatures, one shared
+dictionary, every group consumed, and an actual late semantic consumer.
+Use no new decoder. First write the core dependency as a worked .5-to-.11/.12
+example with native inputs; reject a decorative-cursor design before filling
+the whole paragraph. Then complete the48 groups without changing that core,
+retaining alternate readings and known countercases as stated limits. The
+deliverable is an exploratory complete language account, not another role
+table, word census or independent-anchor audit.
+
+The next unknown changes a real decision: can the three related forms carry
+a shared nominal through a complete written description with an actual
+consumer, or does completion require unrelated whole senses/default subjects?
+The former retains a constrained C0 language construction with rivals; the
+latter stops this particular construction. If completion succeeds but the
+position-writing rival yields the same consequences, retain the complete
+reading provisionally without a selected P/Y meaning. Historical noun naming
+remains separate; no confirmed words result merely from this construction.
+
+Inclusive prospective budget55 minutes:10 core/dependency authorship,
+20 whole paragraph completion,15 native/semantic review,10 recording and
+publication by root. At10 minutes, a missing actual consumer is a design
+stop, not permission to implement a machine. At30 minutes, reassess an
+incomplete paragraph without new corpus/source acquisition or automatic
+repairs. This advisory's own bounded research is finished; it selects no
+experiment and changes no live state or global registry.
+
+## One whole-source/target pair after1142: Galen49, 2026-10-02
+
+Bounded independent advisory; no experiment selected. The route was read
+first, then the recipes/closure topics, registry/duplicates and route-check,
+followed by the exact primaries. Root reports1142 native contact plus a
+distinct body, without a shaft/tether/second actor; those pixels were not
+opened here. The earlier f9v proposal is unselected. This check concerns one
+existing whole source/target pair, not another scalar, P/Y or image-name trial.
+
+**No ready new candidate emerged. The useful next obtainable evidence is the
+actual complete medieval wording of the already owned Galen passage, with
+its discourse and reference forms preserved.** This would test whether a
+particular linked-role construction is supplied by a historical witness or
+is entirely an author-added explanation. It is not an independent-word-anchor
+requirement, a default Latin claim, or a request to build an engine.
+
+### Exact pair and native role constraints
+
+The pair is complete Galen *De alimentorum facultatibus* II.44.2 and complete
+ZL f107v.45–49,49 groups, with its51-group IT alternative and unavailable RF
+status preserved. Exact primary packets read: GDT1028 REPORT; GDT1138 REPORT,
+METHOD, `src/SOURCE_CONTENT.json` and `artifacts/AUTHOR_READING.md`; GDT1034/1035
+REPORTs; IDEA769's full `GALEN_SCOPE_POLICY_20260929.md` and
+`GALEN_SCOPE_RESULT_20260929.md`. No new manuscript body was queried. The
+source owns all of II.44.2; the parent all-five-section cabbage text supplies
+context, not a claim that all five sections have a target reading.
+
+Here the restrictions really are linked: the former water W0 and hot
+replacement water W1 must differ; one food participant persists across
+transfer/reboiling; surrounding cooking water differs from that food's own
+juice; a desired retention outcome differs from an available capability or
+actual outcome; mentioning a prohibited boil is not performing it. These
+relations remain meaningful under noun-name permutations. They are much
+stronger than separately labelling several materials, but all are assumed
+source-to-target assignments in the existing reading.
+
+The exact native commitments that a historically supplied role account would
+have to constrain are these:
+
+* ZL .45G7 OKEEOLKCHEEY / .45G9 AIIN and .46G1 SOAIN / .46G2 AIIN
+  participate in the proposed former/replacement contrast. The same bare
+  AIIN construction must preserve the two distinct references; it cannot be
+  independently renamed WATER at one place and FOOD at another.
+* CHEY at .46G3, .48G5, .48G9 and .49G3 has one proposed liquid-kind value,
+  with distinct referents. CHODY .48G4 must supply the owned-constituent
+  restriction, which subsequent retention/loss claims must actually retain.
+  Identifying all four CHEY occurrences as one physical liquid would erase
+  the source's water/own-juice distinction. Giving each a new whole meaning
+  would evade the repeated-form constraint instead.
+* ZL .47G3–8 is `qokeey okeoteey qokey qokey qokeey daiin`.
+  QOKEY also occurs .48G2; QOKEEY also occurs .49G4. A proposed shared
+  operation/degree construction must preserve every occurrence and derive
+  prohibition, mentioned reprise and comparative-operation scope through
+  actual written governors. Nothing licenses three independently named
+  actions simply because the surrounding historical clauses differ.
+
+These are existing conditional obligations, **not new native discoveries**.
+The one-degree-slot/reversed-operation analysis was already authored in769.
+It does not derive the prohibition's polarity as the subject of the later
+explanation. In1138 the actual returned references retain schematic content,
+but no water producer, complete application context or later meaningful
+consumer was bound. A handwritten version of the same unbound chains would
+not be a new result. Likewise1028 already demonstrated conditional water/goal
+consequences; its invented worlds do not select the manuscript reading.
+
+### The source-side discriminator that can actually change selection
+
+The owned Greek II.44.2 explicitly prohibits thorough boiling for evacuation,
+then says why own juice should be retained, followed by inability to retain
+all juice and a longer-boiling loss comparison. It does **not explicitly
+repeat a quoted FULLY BOIL expression immediately between the prohibition
+and its rationale**, as the proposed native .47 split does. Thus the repeated
+native operation has acquired an additional quotation/reprise construction.
+This is a concrete historical-writing debt, not merely a missing water field.
+The Greek original can allow an explanatory paraphrase, but it cannot itself
+prove that this particular written reprise was historically present.
+
+The parent source receipt identifies a complete Moerbeke translation finished
+1277-10-22 and pre1450 witnesses via the existing primary pointer
+`https://www.galenolatino.com/traduzioni.php?id=23`. No Latin passage/native
+medieval folio was collated in that receipt. The exact obtainable packet is
+**one identified pre1450 witness's complete II.44**, with II.44.2 delimited
+against the existing five Greek sections, a diplomatic transcription of all
+words/abbreviation marks/references, and the catalogue's date/translator
+evidence. If the catalogue supplies no accessible complete witness, record
+that supply result once; do not fabricate a witness identity or use a later
+print as a medieval manuscript. This advisory acquired none of that packet.
+
+Before any target fitting, a source assessor should answer three finite
+questions across that complete unit: does the evacuation prohibition explicitly
+resume the prohibited operation before the reason; how are former/replacement
+water and subsequent "in that" reference actually written; and is intrinsic
+juice ownership maintained or elliptically resumed in the inability/comparative
+clauses? Preserve the naming and exposure countercases in the full chapter,
+not merely the attractive sentence. Do not normalize different written roots
+into BOIL/LIQUID or insert omitted nouns while making this comparison.
+
+The possible outcomes have different consequences. A witness with an explicit
+reprise plus stable referential/ownership wording licenses a historically
+constrained complete role-assignment task on the existing49/51 groups; its
+same repeated native wholes must realize those linked roles under one finite
+contract, still with C0 meanings. A witness with a single prohibition followed
+directly by desire/rationale removes that proposed historical support: keep
+the old quotation account as a paid exploratory construction, and do not
+select another Galen whole-reading attempt on the claim that the source
+supplies its reversed operation. Distinct roots or lost ownership references
+would require a prospectively different writing contract, rather than per-site
+aliases. An unreadable/incomplete witness cannot decide either outcome.
+
+Neither positive outcome confirms Latin as the manuscript language or names
+QOKEEY as BOIL. A source-side law constrains a conditional reading only when
+its complete written obligations are actually assigned without repairs. If
+both nominal-description and quoted-operation readers remain equivalent,
+retain that ambiguity. No independent meaning selector is imposed before
+exploratory authorship.
+
+### Closed predecessors and smallest next action
+
+GDT1034's common context-free four-inventory code is contradicted, and1035
+retains that contradiction on161 mandatory exact ZL/IT positions: CHEY's five
+A uses cannot fit any of the frozen B pools' capacities. Do not reopen it by
+this source retrieval, relax its pools or repeat its computation. The local
+Galen49 account is distinct and remains C0. IDEA769's full95-group surface
+dependencies are unresolved;1138's strict34-value/aN-d transfer is stopped
+PARTIAL_NO_CAPACITY. This advisory proposes neither repair. Its only changed
+input would be independently fixed historical written wording, unavailable
+in those current packets, not another simulation or new gloss.
+
+Smallest next action: a **source retrieval/collation task only**, bounded20
+minutes including provenance and a compact three-question result. No decoder,
+target search or image admission. If a complete accessible witness is obtained,
+root can then decide whether one new native role contract is justified; if
+not, choose another route instead of extending the source hunt automatically.
+This is preferable to spending the remaining block filling a new whole-word
+dictionary, because the result decides whether the proposed repeated-operation
+and ownership scaffolding has historical written support at all. The present
+advisory closes with no ready language experiment, no new data and0 confirmed
+words; all cited predecessor outcomes remain unchanged.

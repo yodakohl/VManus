@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "scope": "Source metadata only; no image body or target read",
+  "source": "BnF Latin 6823 f123v",
+  "metadata_response": {
+    "request_utc": "2026-10-02T12:58:13.264402+00:00",
+    "completed_utc": "2026-10-02T12:58:13.527481+00:00",
+    "method": "GET",
+    "requested_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254/info.json",
+    "final_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254/info.json",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 249,
+    "sha256": "d3515efddc489da05d18c9a661b5f5a4a52932cd9d6b0e4dbefe2be436e6f01d",
+    "raw_response_utf8": "{\"profile\":\"http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2\",\"width\":3351,\"height\":4466,\"@context\":\"http://library.stanford.edu/iiif/image-api/1.1/context.json\",\"@id\":\"https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254\"}",
+    "metadata": {
+      "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+      "width": 3351,
+      "height": 4466,
+      "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+      "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254"
+    }
+  },
+  "owned_manifest": {
+    "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/bnf_lat6823_manifest.json",
+    "sha256": "f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187",
+    "exact_canvas": {
+      "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/canvas/f254",
+      "label": "123v",
+      "height": 4466,
+      "width": 3351,
+      "images": [
+        {
+          "motivation": "sc:painting",
+          "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/canvas/f254",
+          "resource": {
+            "format": "image/jpeg",
+            "service": {
+              "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+              "@context": "http://iiif.io/api/image/1/context.json",
+              "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254"
+            },
+            "height": 4466,
+            "width": 3351,
+            "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254/full/full/0/native.jpg",
+            "@type": "dctypes:Image"
+          },
+          "@type": "oa:Annotation"
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://gallica.bnf.fr/ark:/12148/btv1b6000517p/f254.thumbnail"
+      },
+      "@type": "sc:Canvas"
+    }
+  },
+  "earlier_head": {
+    "requested_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f254/full/full/0/native.jpg",
+    "method": "HEAD",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "content_length": null,
+    "body_read": false,
+    "timestamp_limit": "Completed before current-clock observation2026-10-02 12:57:25UTC; exact HEAD request timestamp not recorded"
+  },
+  "commons_metadata_check": {
+    "status": 200,
+    "exact_title": "File:BnF Latin 6823, f.123v.jpg",
+    "missing": true,
+    "image_body_read": false
+  },
+  "limits": [
+    "Successful metadata/HEAD does not guarantee future image GET",
+    "No image pixels or prescription text viewed",
+    "Institutional Plantago/dog descriptors do not identify contact roles"
+  ]
+}

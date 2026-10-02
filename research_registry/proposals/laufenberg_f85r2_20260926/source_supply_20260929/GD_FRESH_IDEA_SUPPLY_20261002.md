@@ -1017,3 +1017,303 @@ Only this note append changed. Earlier root reports contain previously exposed
 illustrative groups; no new target text/body query,1140/1141 author/core/validator,
 image, source acquisition, outside contact, reserve, test/decoder, global
 route/ledger/state or Git action. Confirmed words remain0.
+
+
+## Fourteenth bounded unit — 2026-10-02 11:54–12:03 UTC: one intersecting written constraint, 0 new RAW
+
+Result: **0 new proposal; retain the concrete three-record intersection below
+as prospective whole-reading input.** This is not another historical genre,
+a recurrence census, a missing-anchor requirement, or a reopened611 flow test.
+Route and Wortzusammensetzung/closure topics, bounded searches, exact926/1055,
+822/823/850 and1002/1003 primaries,196/197 original RAWs and611 original RAW
+were read. p/y1073 and f32v/scalar812 were not reviewed or duplicated.
+No novelty is claimed from an empty search or from the overlap alone.
+
+The already-owned GDT926 packet gives three complete ZL host lines:
+
+| Locus | Complete written host line | Shared construction / exact source groups |
+| --- | --- | --- |
+| f104v.4 | qoteedy chedaiin chokar qotol qotched chol **chey qol chedy** qoeeey qokeedy | left triple, ZL3b G007–G009 |
+| f82r.21 | daiin cheoky lkedy salshey daiin **chey qol chedy qokeey** dal | left triple G006–G008; right triple G007–G009 |
+| f81r.20 | qopchedy **qol chedy qokeey** odaiin rain daly | right triple, ZL3b G002–G004 |
+
+These are28whole groups in three host lines, not three complete paragraphs.
+The intersection is f82r.21: its same qol/chedy occurrences participate in
+both three-word recurrences. Reading the left expression as one proposition
+and the right as another cannot give their shared occurrences incompatible
+lexical values, types, owners or scope in the combined four-word expression.
+This is a joint written obligation, **not evidence that either triple is a
+constituent**, that the two passages describe one entity, or that any assigned
+role is its meaning. Whole idioms, contextual anaphora, generic predicates and
+ordinary copying remain rivals. A fixed idiom account may distinguish the two
+triples without a productive internal construction; that must be priced rather
+than silently ruled out.
+
+All three ZL hosts are marked paragraph-interior in TOP_CONTEXTS. Thus this
+particular comparison does not have926's f15v/f19r end-versus-interior contrast.
+It does not equate line endings with clause endings.926's left pair has exact
+ZL/IT anchor-plus-following-word matches; RF f104v's entire host is ineligible
+under926's full-line rules. That is missing audit capacity, not a refutation of
+the raw triple.1055 separately retains the **right** f81r/f82r triple at the
+same loci in all three alternate readings under its window-local rules; this
+does not certify the left pair or make three independent manuscripts. No
+branch is replicated twice per distinct continuation in926.
+
+**Precise prospective new input:** separately authored, joint C0 whole accounts
+for the containing records, with the same four whole values chey/qol/chedy/
+qokeey and one declared composition/scope account that handles both alignments
+on f82r.21. Already-owned823 supplies whole f81r.16–31 and f82r.20–33;926's
+bounded f104v.3–5 neighbourhood is not a complete paragraph and must not stand
+in for the full containing f104v record. Root can nominate that existing
+admitted record separately, preserving its boundaries/uncertain groups. This
+producer opened only the three existing TOP_CONTEXTS entries, not a new body
+projection. The prospective deliverable must explain the changing neighbours
+and every remaining word, retain unknowns and demonstrate a real additional
+consumer/consequence in each whole account. It must not inherit822/823's fire,
+water, becomes or source-anaphor values, or infer directed pool endpoints.
+
+A concrete changed research decision would be whether a specified common
+written reading survives this joint intersection. Incompatible role/scope at
+the shared occurrences defeats that particular composition; a coherent whole
+C0 account survives for further authorship/evidence review. Generic relabeling
+or idiom rivals prevent unique meaning selection, **not** exploratory whole
+C0 authorship. Merely repeating the triples, assigning new isolated nouns or
+counting all-reader agreement would leave that decision unchanged. No engine,
+new scan or independent-anchor prerequisite is justified by this note.
+
+Predecessor distinctions:196/197 already retain whole branch/return and
+ending-versus-case proposals;611 already retains directed relation versus
+static inventory and its original no-directed-endpoint decision.850's actual
+split+qokain counterexample, no matched four-neighbour frame and nonsemantic
+spacing results remain; the intersection does not repair those claims.1003's
+24conditional shared transport tuples are positive retained possibilities,
+with free aliases, inherited syntax and0confirmed meanings; this note does
+not upgrade them. No separate, concrete complete-language alternative was
+constructed here beyond existing shared-code obligations, so adding another
+method RAW would inflate the queue. The useful supply is the exact intersection
+and the prospective joint author input, not a new proposal count.
+
+Duplicates initially refused the concurrently stale experiment-index snapshot;
+no producer refresh/global mutation was attempted. The later bounded duplicate
+query succeeded and returned611/771/383/785 and823 as navigation candidates,
+without automatic same-design identification. Original611/196/197 and exact
+823/850 primaries, rather than ranking alone, support the retention decision.
+
+Pins (SHA256):926 REPORT `675a8a0d79952f7711a7ac80211ec8f40ba59d7d21830c455abed72f33c7fb72`;
+926 CANDIDATE_TABLE `5153972047d1826d54815e76cc15d84d260ca62442b83f3230271684ba5540f8`;
+926 TOP_CONTEXTS `13ecbce2000080e9b83d16e7cc1b91e4d2147f466924b3eab8f75fb3d22dcef8`.
+For only the selected f104v|f104v.4, f82r|f82r.21 and f81r|f81r.20 entries,
+canonical JSON (sort_keys=True, ensure_ascii=False, separators=(',',':'), UTF8)
+is `fedc46b5382fe7d9bba5105981e86e651e4f52072bf14f016c1aa050f0453f7d`.
+1055 REPORT `e6031a5896aa6db12cd7761145ea43fd89cc0b1c1a8b56f650f1adc5573b94ac`;
+823 WORKING_THEORY `90cc80a1b95fac81dd17f45ca79b902072de8a37a40beaf36ffcfb3618e14b3b`;
+823 PREREGISTRATION `e42593c78af7d7e5e7070606fa5cfb1e40bcc7e6001f4e89a08a09d43337ee89`;
+850 REPORT `aed20548a1de762ceb4f56a204830e599878f6b5320579eda167355de91e30a0`;
+611 original RAW `9fc5da4f759d9fc20adf5befedec7ac67f69c2500293c2f37660f45e09e4ea86`;
+196 original RAW `59009ab3e8085bb79941e9af4f95951e5a53660f6e58b60810537be434ab28b0`;
+197 original RAW `66ed83008f45e786935d40e4a33dfa45798f349e7e680e2e07553076b3f9dd35`.
+
+Only this existing note append changed; no ideas add, new RAW, test/decoder,
+source/image acquisition, mixed-TSV read, reserve/contact,1140/1141 author/core/
+validator or current observer result, global route/ledger/state or Git action.
+This unit does include the explicitly nominated, already-owned older926 host
+and neighbouring lines; no complete target blindness is claimed.0confirmed words.
+
+
+## Fifteenth bounded unit — 2026-10-02 12:11–12:18 UTC: already retained source-linked reference duties, 0 new RAW
+
+**0newRAW.** No fresh historical theme or renamed grammar was added. The
+strong concrete parallel is already389/411; the named owned-target counterpart
+for a source reference/layer mechanism is already695/390. Exact originals,
+relevant source passages,866's source-scope review,989 and980 primaries and
+bounded route/search/duplicate navigation were read. This is a retained-input
+clarification, not scientific selection or a new Voynich finding.
+
+The two complete Latin armorial assertions in389 repeat **Portat arma**,
+**cum vno signo capitali**, and **de dictis coloribus transmutatis**. These
+are actual shared written constructions, not similarity of counts. One item
+states a quartered black/silver field; the other a vertical gold/red field.
+The same backward phrase uses the previously named pair and field division
+in each case. After binding that pair and one chevron, it fixes opposite
+charge/field color in every region. Giving the whole chevron one uniform
+color fails somewhere on that same two-color field; copying the field color
+onto it loses the required contrast. Freely naming each segment can imitate
+the result but discards the common reference. These failures survive any
+consistent global renaming of colors. Such renaming itself remains equivalent
+and does not recover sable/silver/gold/red.
+
+The owned source reproduction dates to1486 and supplies complete narrow
+armorial assertions, with full expository/figure-call context summarized in
+the source note. The entire printed page has not been diplomatically collated.
+The second reproduction is monochrome: gold/red are written source claims,
+not independently seen colors. Both division and pair change between items;
+this is not a controlled one-feature experiment.389 has no target owner.
+411 already uses this source restriction for shared partial relation signatures
+across existing complete f77r candidate readings; no new source-to-target
+binding appeared here. A new 'shared reference' card would duplicate that
+retained obligation, rather than add semantic information.
+
+**Precise surviving owned-target input:695**, the three admitted f88r material
+rows with their complete texts, using390's full Theophilus I.1–9 as architectural
+comparator. No f88r body or image was opened in this unit. Source I.4/I.5
+repeat **cum simplici membrina**, despite intervening preparations. I.7
+explicitly returns to posc from I.3 after rosa/lumina/veneda. I.8 uses rosa
+as input paint and later rosam as deposited paint, requiring the earlier
+color still visible above/below the new application. These real source duties
+make a latest-preparation reference or full opaque replacement wrong without
+assigning any target word a known meaning.
+
+A necessary precision for future695 authorship: the complete source has
+**mixing and subsequent layering together**. These are not mutually exclusive
+genres. A discriminating reading must fix what each of the SAME three row
+referents denotes: ingredient/input paint, resulting mixture, deposited layer,
+and common depicted-product owner are different types. The relation between
+`cum rosa` and `super rosam` preserves a recipe/color family, not necessarily
+one physical portion. Row order or an image of three materials alone supplies
+neither a retained layer nor a homogeneous mixture. The concrete prospective
+input is a whole C0 f88r account with one shared family key and a written
+consumer retaining or eliminating the earlier deposit's separately addressable
+position. This can be attempted without a confirmed anchor; the present
+producer supplied no such new consumer and selected no experiment.
+
+Keep866's original **NOT_TESTED/missing_design** distinction: a remedy's
+restricted benefit claim is not a patient's observed heat; unknown/omitted
+fields are not negatives. Neither the two blazons nor the painted-layer
+comparison repairs866.989's two fixed first-group stage-header writers remain
+excluded; its source-unknown bundles and the general painting-content family
+are not refuted.980's all-atom tautology remains noninformative while its
+original description retains its specific content. Here, the source reference
+and visibility restrictions are positive knowledge; no counterexample is
+presented as a new translation result.
+
+Pins (SHA256): REFERENCE_ROLE_SOURCE_SUPPLY_20260920.md
+`47e9145c5bbf7915156d4eca9ffb1e3e06d367b70b240909aac9f755d89fbeb2`;
+389 original `3bcdcd74444e64caa2f131b681d938e6f9de4c63b6f2149f301ee95ca289edf6`;
+411 original `3e2a1150701635adad2b3810b0af522fc1ec6b74ac92d05449c3f3407c9b3348`;
+695 original `c8dbffa2879aa48e36df346e3a6ec5132552cc6a3e05ce14360f1430f903252c`;
+THEOPHILUS_NAMED_MIXTURE_REFERENCE_SUPPLY_20260920.md
+`0b24d47db8ee55b3e30c77b7b678d5c890e67b72eda3b5011e34c002b6c88f2c`;
+390 original `95a31d933dadc309dc22e8e923bec34dc580827c870a88468a0c69c81d787148`;
+866 scope result `f7d35b7d4708103d28ac6125b84e08fa92beedb489222716b6b413dcd3a41c5d`;
+989 REPORT `71f84dac9bad8b0c87766d0abb02264315a22a35bf6cc19a43510518f6b03153`.
+The source note's complete Theophilus JSON pin remains
+`1b65a924686633322bc7be73fa8723d97a04174361b062ae892502c28fe248bb`;
+this unit read the source note's full I.1–9 Latin, not newly collated folios.
+
+Only this existing supply-note append changed. No new RAW/ideas add, acquisition,
+new target body/image,1140/1141 core/author/validator, reserve, mixed TSV, contact,
+test/decoder, global route/ledger/state or Git action.0confirmed target words.
+
+## Sixteenth bounded producer unit — 2026-10-02,12:41–12:53UTC
+
+**0new RAW; retain692/697 and the already authored693 alternatives.** Route,
+relevant topic, bounded idea/duplicate and primary checks preceded this supply
+decision. No selection or experiment change follows. The parent refreshed stale
+registry metadata; this producer did not refresh or change global metadata.
+
+GDT1032's cached Ashmole399f13v primary report preserves three differently
+positioned `similit(er) hic` inscriptions alongside a possible anatomical noun
+phrase. This is positive evidence that historical diagram inscriptions can
+include references/predicates as well as names. The incomplete neighboring
+inscriptions do **not** bind the particular shared antecedent or property, and
+three inscriptions on one leaf are not three independent source witnesses.
+Thus it is a source grammar possibility, not a recovered complete historical
+multi-relation account.692 already retains the common-antecedent/common-property
+across locations mechanism;697 already places the name-versus-relation question
+in the complete owned f83r lower-panel record scope. A new card making that
+same proposal would duplicate them.692 is unexecuted RAW;697's curated
+NOT_TESTED/missing binding is not a failed reference-language family.
+
+The concrete reusable obligation remains: a whole C0 caption/prose account can
+assign one antecedent and property in its first use, then make a second complete
+use consume that SAME assignment. A contrary second predicate or a different
+required owner would defeat that reading under its frozen common grammar;
+separately inventing a new prototype/property at each location would avoid the
+obligation. Global consistent renaming still leaves meanings unidentified. This
+obligation is already692's mechanism, not additional meaning information
+supplied here. Exploratory authorship need not wait for independent meanings.
+The precise prospective input is a whole caption-and-written-consumer account
+on the existing697 owner scope, explicitly choosing the antecedent and reused
+property and pricing its rival name account, rather than another proximity
+count or source-only fixture. It is not presently selected.
+
+GDT790's owner overlay and BX preserve the record boundaries, not those missing
+meanings. BX's f75v/f82r/f83r occurrences are labels; `darolsy` is not the same
+whole expression as `darol`, its owner/function is not fixed, and the f83r hub
+label is not automatically Q1 prose. No OUT value for `sy` is inherited. Existing
+structural whole-word links provide scope, not a confirmed part or function.
+
+Crucially693 is **already authored**, not just an unexecuted proposal: FT retains
+two distinct complete C0 accounts of the owned f83r/f77r scope, with their paid
+consumer bindings and unparsed comparison barriers. Their underdetermination
+does not erase that positive authorship. FT's persistent first signal can give
+two positive readouts while the second path is blocked: without a reset,
+distinct event IDs do not establish two independently successful paths. This
+defeats that causal inference, while a historical text could still prescribe
+an unreliable procedure. It does not prove the text cannot describe one, select
+either account, or authorize a retrospective repair. The fixed REALIZATION
+extension's failure remains separate from both C0 accounts and from692/697.
+
+SHA256 pins, checked against the files: GDT1032 REPORT
+`96c7d29f4562b93949cdb35e4cdb2bdf817554c07bcc5c4459c52f5fbe3fb700`;
+GDT790 REPORT `c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3`;
+692 original `6b087176c0861395cd18aed4940ea91ca0ff9941a12fc895a5191d9ad0a17fbd`;
+697 original `77e225dd8d152c3afcaff52d3ca1e183428b28a758211daefec217b19d62da77`;
+BX_LABEL_READING_REPORT.md
+`e0903f68ec1479bcf18a800292552ee133ae7b695459e76ce2e0f28a2c6e34c5`;
+FT_REPORT.md `8edf67bf0a952e68dc39367bf55911d550d0de65ed66635fbeb6b8909986e0d5`;
+FT_PAIR_IDENTIFIABILITY.md
+`aa36a8c5eca0e547ed7923564f7cd6585baf6b23912c386b6bfe936c006f1316`.
+
+Only this note append changed. Reads were predecessor reports/RAWs and already
+cached historical source prose, not new target packets/pixels; reports retain
+prior target exposure, so no target-blind claim is made. No new source/target
+acquisition,1140/1141 core/author/validator or1142/observer material, reserve,
+contact, mixed TSV, test/decoder, ideas mutation, global file or Git action.
+0confirmed target words.
+
+## Seventeenth bounded producer receipt — 2026-10-02,12:54–12:57UTC
+
+**0new RAW; stop early on the primary-level duplicate863.** Route, genealogy
+topic, bounded negation/exclusion searches,863/616 cards, duplicates and
+route-check were followed by the linked cached source reports and863 original.
+No new source image or target body was opened. The source construction is
+different from16's cross-location reference and from animal-contact hypotheses.
+
+Karlsruhe88v supplies a named relationship rather than an event prohibition:
+the fiery designation is **not because the heaven burns**; its shining supplies
+the comparison with fire. SOURCE_NEGATION_QUALIFICATION governs the earlier
+COSMIC report's stronger wording. The secure scope denies burning as the reason
+for the name, not BURNS itself. As a logical counterexample, BURNS=true and
+NOT(REASON(BURNS,FIERY_NAME)) can coexist; this is **not** an assertion that the
+historical source says the heaven burns. Conversely, a reading that also sets
+BURNS=false may satisfy both accounts, so the distinction alone does not select
+a meaning. The full native-source report is retained with its incomplete
+diplomatic wording; no exact full verse/stress annotation is invented.
+
+863 already retains precisely this scope distinction, shared whole wording and
+a second consumer under one key, together with the optional rhyme constraint.
+Merely dropping rhyme or renaming REASON as naming-motivation would supply no
+new binding, owned consumer or falsifier. It remains unreviewed/not authored,
+not a failed scope-language hypothesis. Frozen560's stronger NOT(BURNS) is not
+repaired. A useful prospective input under863 would be a whole C0 account whose
+second P-dependent consumer explicitly distinguishes the naming reason from
+the event proposition, with one P operand and common scope grammar throughout.
+An exploratory paid account can be written before independent meanings; no
+such additional consumer is supplied or selected here.
+
+The separately checked Galen food-frame primary1033 preserves NO_CAPACITY:
+zero predeclared triggers outside development leaves, not a contradiction of
+NOT or SOLID_FOOD. It supplies no new exclusion relationship and authorizes no
+widened frame census. Generic named exceptions remain already RAW616. This is
+not an exhaustive queue or missing-input audit.
+
+Checked SHA256 pins: SOURCE_NEGATION_QUALIFICATION.md
+`cb88bf5a9d2328dd75ab088acdc167ea0329124ebaf4fc5e00d6745b66b021dd`;
+COSMIC_CONTINUATION_NATIVE.md
+`bf06bb6a8043125f4ac27fcc91bfbe6f61a21535a64cd3d4ef88adb5b7ddb13b`;
+GD_PIPELINE_RAW_RHYME_REASON_SCOPE_20261002.json
+`977563d6cd95c55762652a3b743451946b5a6ef9e5b64617f319d1ecb19e650d`;
+GDT1033 REPORT `9f9ee8b91efc038c335f34f57dde75a7a1eb260fde86a2656bf32c2954e4d277`.
+Only this owned note append changed; no ideas mutation,1142/observer access,
+new acquisition, reserve, contact, globals or Git.0confirmed target words.
