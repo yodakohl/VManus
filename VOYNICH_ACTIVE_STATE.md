@@ -1,3 +1,16 @@
+## 2026-10-02 Text-first continuation: real reuse, no image consequence
+
+[Result](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_TEXT_GRAPH_RESULT_20261002.md): all94 native positions retained;
+39 assigned fragments,3 open DAIN operators,52 unknown. CHEOL's actual returned
+relation is reasserted in Q2; metadata fields alone do not determine assertions.
+No complete alternative was authored/rejected. G13 temporal order is prose-only;
+global display order differs while per-reader source order remains exact.
+Zero adopted graphical duties/owner bindings: UNKNOWN, not image PASS or contradiction.
+Outcome3 closes this partial unit without parent repair or confirmed word.
+Next: review raw872 retained-surface/fresh-charge proposal and predecessors before
+selection; no apparatus identity or product contrast yet observed. Publication pending.
+User ten-hour minimum ends13:52:40UTC; still unmet.
+
 ## 2026-10-02 Shared motion: computed consequence, unselected meaning
 
 The frozen extension generates a complete conditional native IT32 account and

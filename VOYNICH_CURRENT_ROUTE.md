@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Continue frozen P4 into Q1/Q2 without image-fed meanings.
-Latest decision: Source-footprint detour rejected; text-first continuation selected.
-Working files: GD_TEXT_GRAPH_CONTINUATION_DECISION_20261002.md.
+Task: Publish partial f83 result; review raw872 before selection.
+Latest decision: Actual relation reuse; incomplete draft, no ink prediction.
+Working files: GD_TEXT_GRAPH_RESULT_20261002.md.
 Assumptions: C0; prior exposure; no reserves or confirmed word.
-Resume: Await frozen author; check payload then fixed ink projection.
-Running: text-only author, validator;07:55 checkpoint;10h end13:52:40.
+Resume: Publish checked result; inspect872 predecessors and scope.
+Running: root publication/review;10h ends13:52:40UTC Oct2.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
