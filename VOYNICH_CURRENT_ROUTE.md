@@ -3,13 +3,13 @@ Updated: 2026-10-02. Live resume point.
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: Whole-entry C0 construction decision after source review.
-Latest decision: 1142contact;881NOT_TESTED;0words.
-Working files: source_supply_20260929/BNF_CONTACT_OBSERVATIONS.md.
-Assumptions: Source roles not target meanings;reserves closed.
-Resume: Draft explicit881whole-entry core;no renamed free roles.
-Running: None;10h block complete;next work awaits continuation.
+Status: active
+Task: GDT1143 whole f25v mixed-entry C0 authorship.
+Latest decision: Register fixed-core attempt;0words.
+Working files: gdt1143_mixed_herbal_entry_whole_reading/METHOD.md.
+Assumptions: Exposed57IT/176native;source881notidentity.
+Resume: Freeze core, author all groups, independent review.
+Running: Author/reviewer/producer;checkpoint14:43UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

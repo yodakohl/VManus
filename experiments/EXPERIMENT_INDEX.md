@@ -1171,3 +1171,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1142 | GDT1142 | `NATIVE_OBSERVATIONS_RETAINED_ROLE_UNSELECTED` | [report](../experiments/yolo/gdt1142_f25v_native_contact_followup/REPORT.md) | 26 | 4.6 MiB | 3 | STRUCTURED_YOLO |
 | GDT1141 | GDT1141 | `MISSING_CORE_DESIGN` | [report](../experiments/yolo/gdt1141_light_observation_whole_reading/REPORT.md) | 28 | 1.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT1140 | GDT1140 | `PARTIAL_SCOPED_C0` | [report](../experiments/yolo/gdt1140_fortune_status_whole_reading/REPORT.md) | 27 | 1.6 MiB | 6 | STRUCTURED_YOLO |
+| GDT1143 | mixed herbal entry whole reading | `REGISTERED_UNSCORED` | — | 8 | 16.7 KiB | 2 | STRUCTURED_YOLO |
