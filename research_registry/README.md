@@ -75,7 +75,20 @@ entry's full dependencies, limits and primary links. The catalog is a small
 reviewed subset; the embedded existing registry search remains navigation, not
 an exhaustive audit. Missing entries never mean absent previous research.
 State how the reading accounts for those observations before a source-fit
-writer assigns more glosses. `words review CONTRACT.json --fail-unready`
+writer assigns more glosses. **Persistent user requirement (2026-10-02):**
+do not propose or adopt a concrete word assignment from one locally fitting
+picture, historical passage or invented narrative. Exact frequency, thematic
+dispersion, positions, repetitions and retained counterexamples must support
+the candidate's priority. A narrow concept such as "winter" is not a sensible
+default for a broadly frequent form without an explicit distributional account.
+Frequent function words and recurrent domain terms are competing candidates,
+not automatically translated words. Separate standalone forms from embedded
+strings and alternate readers from independent observations. If the account
+is absent or contradicted, keep the meaning unassigned; a C0/exploratory label
+is no exemption. Unassessed raw ideas can be retained, but not used as
+supported lexical premises. Frozen historical glosses are not lexical facts.
+This requirement also applies to delegated work and requires no new tool.
+`words review CONTRACT.json --fail-unready`
 checks explicit finite surface conditions over their full declared scope and
 flags missing accounts. It does not infer a part of speech, interpret an
 account's prose as verified evidence, or rank meanings by a made-up probability.

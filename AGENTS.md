@@ -1,5 +1,26 @@
 # Workspace continuity instructions
 
+## Persistent user rule: no arbitrary word meanings
+
+Before proposing or adopting a concrete Voynich word meaning, retrieve its
+existing `vmanus-work words profile` and claim-bearing prior evidence. Account
+for exact-form frequency, dispersion across sections/leaves, grammatical
+positions, repetitions and known counterexamples. Keep a standalone word
+separate from the same string embedded in longer forms; do not pool readers.
+A local picture/source resemblance or a coherent invented story is never
+enough. Broadly frequent forms require broadly reusable functions or concepts;
+do not prefer narrow content such as "winter" without evidence explaining its
+actual distribution. Consider function words AND recurrent domain vocabulary;
+frequency alone does not establish "and", a numeral or any other translation.
+If this account is missing or contradicted, leave the meaning unassigned and
+do not build a reading on it. Calling a guess C0, provisional or exploratory
+does not waive this rule. Raw alternatives may be retained as unassessed ideas,
+but must not be presented or used as supported word assignments. Historical
+guesses remain frozen evidence of past work, not reusable lexical facts.
+Apply this rule to root and delegated work; use the existing profile/review
+tools, not another generic audit system. See the live guide's word-selection
+rule. This instruction persists across sessions.
+
 Before any Voynich action, read `VOYNICH_CURRENT_ROUTE.md` directly or through
 `./vmanus-work context start`. It is the sole live resume point and includes the
 structural baseline and current stops. Before scientific selection, use

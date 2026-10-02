@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: fixed_test
 Status: checkpoint
-Task: GDT1148 ain/aiin crossed prediction complete.
-Latest decision: No material neighbour gain for bare/bound;0words.
-Working files: experiments/yolo/gdt1148_aiin_crossed_context_prediction/.
-Assumptions: Orthographic tails;wholeleaf+prefix excluded;sparsecontexts.
-Resume: Larger written dependency required;no local predictor tuning.
-Running: None after validation/publication;all old stops retained.
+Task: GDT1148 complete;word-selection user rule made persistent.
+Latest decision: No material ain/aiin neighbour gain;0words.
+Working files: AGENTS.md;research_registry/README.md.
+Assumptions: Frequency/distribution before gloss;C0 is no exemption.
+Resume: No arbitrary meanings;use existing word profiles and primaries.
+Running: None.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
