@@ -1,3 +1,7 @@
+## 2026-10-02 post1143 construction decision
+
+[Bounded design review](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GJ_ROOT_CONSTRUCTION_DECISION.md) parks the frozen f25v branch: immediate-following-NP attachment gives the guessed HEAT as weakened participant and leaves both naming predicates unbound; a local typed-valency sketch lacks determined clause boundaries. These are two assessed designs, not a new experiment or universal grammar refutation. NoGDT1144; no new words or data. Do not turn the prior request for syntax into arbitrary repairs. Any reopening needs an explicit written contrast between complete argument constructions, not confirmed seed glosses.
+
 ## 2026-10-02 GDT1143 whole-entry attempt incomplete
 
 [Actual whole f25v attempt](experiments/yolo/gdt1143_mixed_herbal_entry_whole_reading/REPORT.md):18 frozen core plus25 paid whole-form extensions assign provisional values to154/176 groups across three alternate readings;22 unknown. All seven IT lines assessed.15 independent protocol/accounting checks PASS; patient ownership, habitat attachment and naming-reason construction remain underived. IDEA881 now has an actual incomplete attempt, superseding its source-only NOT_TESTED state below. No semantic refutation from frequency alone; no further free dictionary expansion. Reopening needs an explicit argument/attachment construction, not confirmed seed words.0confirmedwords; no new target or reserve access. Registration wording ambiguity is preserved, not repaired.

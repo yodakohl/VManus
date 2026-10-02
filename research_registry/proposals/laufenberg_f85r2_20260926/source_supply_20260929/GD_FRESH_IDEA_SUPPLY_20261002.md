@@ -1440,3 +1440,46 @@ VITRUVIUS_CLOCK_WORKED_ACCOUNT_20260920.md `9a4a7f8e8099ab1601f159482c59ca727296
 CONTEXTUAL_FULL_CONTENT_RAW_SOURCES_20260920.json `72a93568f698c0b8da628d2cf3967d2ee6d98abcfa20cc96f3e3873436b95d44`;
 complete IX.8.8–15 source excerpt pin remains `56f3089ee2c941cee1e33baaee2eb64fc3387dce38a13dfbb017898690ad8149`.
 Only this owned note append changed; old bytes preserved. No ideas mutation, target body/pixels, reserve, acquisition, contact, root files/ledger/globals or Git.0confirmed words.
+
+## Bounded pipeline after1143 — 2026-10-02
+
+**0new RAW; three diverse content mechanisms already retained.** Route/recipes
+baseline, bounded idea searches/show/duplicates and route-check preceded exact
+original-card and cached-source reads. No1143 core/author/report body or target
+packet was opened. Parent closes the local1143 grammar-repair next step after
+two design reviews; that is not a general grammar refutation.
+
+827 already binds equal courtesy to ALL recipients while gift allocation
+selects recipient and time. The cached Carmina19 numbered argument was read:
+sis equalis omnibus scopes face/speech, not every transfer of a gift. Grain/chaff
+and generosity oil stay within the moral argument. A new universal-versus-
+selective card would repeat this same predicate-specific obligation.
+
+822 already separates inhabitants' head-processing actions from the additional
+reported sunset/sunrise plant-state account. Full owned PlinyXIII107–110 was
+read, not merely108's isolated night clause. Shared plant/head vocabulary does
+not assert that processed and eaten physical heads subsequently reopen;
+traditur supplies reported provenance, not denial of the event. A new actor-
+route/report-route card would repeat822, without supplying target bindings.
+
+Third, the possible unaware-recipient/operator distinction was compared with
+493's complete owned CyranidesI.1.36 quotation and exact knowledge contract.
+493 already prices positive actor knowledge, one common knowledge object, and
+same time before deriving actor!=recipient. Recipient ignorance alone proves
+neither two people nor its object. Actor purity is a separate condition. The
+CXIII nescienti source cannot silently donate those three added arguments to881
+or repair1143. This useful limiting relation is retained, not a new RAW.
+
+Pins checked:827 EV_PRODUCER_PROPOSAL.json
+`60c004892ded86f95a259c0e6b6924c629c9b639496dcb9b81a3f1df41abb92f`;
+822 EQ_RAW_LOTUS_AGENT_TRACKS.json
+`3f2cb30e59b4ee6a8f78fdd82939415456dcea8ee510027541893b58c8658705`;
+493 raw_f31r_cyranides36_complete_seed_rite_20260921.json
+`1ae949e75da7a31de9ad1782d7abbcebf532d14ac5a49f83e0a7e58ee8548898`;
+U_CARMINA_COMPLETE_PASSAGES.json
+`02cce7f98c9e793f47fb7b49eee5b20a36124df28010b18596c420d7013b591b`;
+U_COMPLETE_SOURCE_READINGS.md
+`22e9e349f62ad0e8c52ec07b274b705c7d3fd8a555691c49002881da28dc853c`.
+Only this owned note append changed; prior bytes preserved. No registry
+mutation/refresh, target body/pixels, acquisition, reserve, contact, test,
+root files/ledger/globals or Git.0confirmed words.

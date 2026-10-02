@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1143 whole f25v attempt closed incomplete.
-Latest decision: 43whole guesses;missing arguments;0words.
-Working files: gdt1143_mixed_herbal_entry_whole_reading/REPORT.md.
-Assumptions: Exposed176groups;corefrozen;no reserve.
-Resume: Require explicit patient/habitat/naming linkage before more guesses.
-Running: None; author and independent review finished.
+Task: f25v grammar follow-up reviewed;branch parked.
+Latest decision: Two sketches do not derive missing roles;0words.
+Working files: source_supply_20260929/GJ_ROOT_CONSTRUCTION_DECISION.md.
+Assumptions: Fixed1143lexicon;no new data/reserve.
+Resume: Select distinct proposal with a written attachment contrast.
+Running: None;three bounded agents finished.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
