@@ -1,0 +1,27 @@
+# Unabhängige Prüfung der begrenzten1140-Transfermachbarkeit
+
+**Bestätigt:0/49 vollständig zerlegbare Lesungsfälle unter dem festen32-Primitive-Vertrag plus höchstens zwei neuen exakten Strings.** Dreizehn unabhängige Buchhaltungs-/Algorithmusprüfungen bestehen. Das ist keine Bedeutungsbestätigung und keine Aussage über das gesamte Manuskript.
+
+Geprüft wurden der vollständige bestehende Quellcode, sein JSON, die neuesten Anhänge des Big-Picture-Advisory und die ursprünglichen Scope-Primaries905/906. TARGET/SCOPE und der eingefrorene1140-Core/Account stimmen mit sämtlichen vier festgehaltenen SHA256 überein. Der Scopefilter erfasst alle und nur die ursprünglichen12–24-Gruppen-Fälle:41IT/5RF/3ZL,49Lesungsfälle für41Absätze auf15 physischen Blättern,917 wörtliche Gruppen mit gleich vielen IDs/Loci. Tatsächlich vorkommende Absatzlängen sind13–24. Es gibt523 unterschiedliche Strings über die alternativen Lesungen; diese sind keine unabhängigen Zeugen. Ausgeschlossene Absätze bleiben ausgeschlossene Metadaten, keine nachträglich ausgewählten Fenster.
+
+## Vollständigkeit der ursprünglichen Auswahl
+
+Sei L die feste Menge alter nichtleerer Strings. Ein Wort ist erreichbar genau dann, wenn ein Pfad von Position0 zu seinem Ende besteht, dessen Kanten Strings aus L sind. Der ursprüngliche Vorwärtsalgorithmus berücksichtigt jede mögliche Kante ab jeder erreichbaren Position; er ist kein gieriger Präfixparser.
+
+Für eine erfolgreiche Erweiterung S mit höchstens zwei neuen Strings gilt: Ist das erste unter L unerreichbare Wort w vorhanden, muss mindestens ein tatsächlich verwendetes u aus S ein Substring von w sein. Ohne neue Kante kann w nicht erreichbar werden. Der Code probiert alle solchen u außerhalb L. Falls L+u alles deckt, ist die Ein-Primitive-Lösung gefunden. Andernfalls muss im ersten noch unerreichbaren Wort eine Kante des anderen Strings v verwendet werden; der Code probiert alle seine Substrings. Ein nützlicher String außerhalb sämtlicher Zielwörter ist unmöglich. Schon alte Strings erhöhen L nicht; u=v erhöht die Kapazität nicht. Schon unter L erreichbare Wörter dürfen durch Monotonie der Erweiterung aus den weiteren Prüfungen entfallen. Damit lässt das adaptive Pruning keine erfolgreiche Menge mit≤2 neuen Strings aus. Es müssen nicht beide Strings im ersten Wort vorkommen.
+
+## Separate Implementierung
+
+Der unabhängige Validator übernimmt die adaptive Paar-Auswahl **nicht**. Für jeden Absatz bildet er die globale Menge aller nichtalten Substrings sämtlicher Wörter, einschließlich schon alterreichbarer Wörter. Er prüft jeden einzelnen neuen String und jedes ungeordnete Zweierpaar. Wortzerlegung wird unabhängig durch vorberechnete eingehende Kanten und erreichbare Schnittpositionen geprüft. Insgesamt wurden713524 globale Paare vollständig geprüft:0Treffer. Alle49 Mengen alter unerreichbarer Worttypen, Wortzahlen und Typzahlen stimmen überein; Minimum6. Die ursprünglichen kompakten Fallzeilen reproduzieren exakt.
+
+Sechs kleine reine Algorithmusfixtures prüfen alte Komplettdeckung, wiederverwendete neue Strings, überlappende/gierig problematische Schnitte, einen zweiten String außerhalb des ersten Wortes und notwendige drei verschiedene Zeichen. Besonders wichtig: Drei alte unzerlegbare Typen können mit zwei **geteilten Substrings** vollständig gedeckt werden. Daher ist das Minimum6 allein nur ein Argument gegen zwei neue Ganzwortausnahmen. Das stärkere Substring-Nullergebnis braucht die tatsächlich vollständige Paarprüfung.
+
+Die publizierte Zahl2738 ist korrekt als Zahl zweiter Kandidatenprüfungen. Sie enthält600 Wiederholungen ungeordneter Paare und204u=v-Versuche; proFall summiert sind es2138 verschiedene ungeordnete Paare. Das ist kein Vollständigkeitsfehler oder zusätzlicher Bedeutungsbefund. Die unabhängigen713524 Paare sind ebenfalls proFall summiert, kein manuskriptweiter einzigartiger Modellsatz.
+
+## Aussage der Zwei-Primitive-Grenze
+
+Die Grenze ist eine von Root/Advisor vorgeschlagene explorative Arbeitsannahme und selbstgesetzte Machbarkeitsgrenze, **keine vom Benutzer vorgegebene Pflicht**. Innerhalb dieses Transferentwurfs soll der alte Kern nicht durch viele freie neue Einträge unter dem Namen „Grammatik“ ersetzt werden. Die Prüfung lässt sogar **jede** Konkatenation alter Primitive zu, ohne die eingefrorenen endlichen Lizenzen, Typen oder Operatorargumente zu verlangen. Das ist eine großzügige Obermenge des strengeren Sprachmodells. Wenn schon diese Obermenge scheitert, kann passende Syntax keine fehlende exakte Zerlegung retten.
+
+Auf diesen49 Paketen wären deshalb mindestens drei neue nichtleere Strings für irgendeine vollständige exakte Zerlegung nötig; drei werden weder als ausreichend noch als eine bestimmte Zahl neuer Bedeutungen behauptet. Andere Lexika/Budgets/Absätze, Allomorphie, Schreibtransformationen oder nichtkonkatenative Verfahren sind nicht geprüft. Die Grenze ist kein erschlossenes Manuskriptgesetz. Es werden weder Fortune-Inhalt, gewöhnliche Sprache, Latein noch alle Voynich-Lesungen widerlegt. Exponierte Machbarkeit, keine unabhängige Bestätigung; neue bestätigte Wortbedeutungen0.
+
+Reproduktion: `python research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_1140_TRANSFER_FEASIBILITY_VALIDATION.py`. Nur die eigene VALIDATION.json wird geschrieben. Originalcode, Originalresultat und vier Quellen bleiben bytegleich; der Validator-Hash und sämtliche geprüften Pins stehen im eigenen JSON. Kein neuer Korpus, keine Bildansicht, kein Autor-/Legacy-/Global-/Git-Eingriff.

@@ -1,0 +1,3 @@
+# f25v original-size follow-up
+
+Before new pixels, GDT1142 registers only the already admitted Yale canvas1006123 at https://collections.library.yale.edu/iiif/2/1006123/full/full/0/default.jpg, expected2863x3769 native pixels, plus the fixed same-byte analytical crop in its METHOD. New official metadata establishes native dimensions; image retrieval is still unproved. No additional folio/key/transcription or reserve. Old1095's3000px contract remains unchanged and failed. f84/f84r sealed; f116v unadmitted. All historical page exposure remains development exposure. Current key/selector counts do not increase.

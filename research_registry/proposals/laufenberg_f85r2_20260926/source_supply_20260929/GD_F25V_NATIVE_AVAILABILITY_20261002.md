@@ -1,0 +1,9 @@
+# f25v native-source availability precheck
+
+2026-10-02, before the new metadata request. GDT1095 remains MISSING_REGISTERED_HIGHRES_INPUT: its exact3000px request failed and is not repeated or replaced inside that experiment. Current local f25v files inspected for dimensions only are1500px wide. GDT1139 independently used the official original-size full/full form for another Yale image; this motivates checking service metadata, not assuming a working f25v original.
+
+Unknown: does the public metadata for the already admitted canvas1006123 expose a usable native-size source different from the unavailable registered3000px rendition? Smallest action: one official info.json request, retaining status, redirect, dimensions and source identifier. No target pixels or transcription in this precheck, no proxy, credential or resolution-guess loop. No f84/f84r, f116v, reserve or outside contact. Budget12minutes including accounting and publication; this is source feasibility, not a decipherment experiment.
+
+If the metadata identifies an available native service with higher source sampling, a separately registered follow-up may nominate exactly that native source and preserve1095's five observations. Metadata alone does not prove that pixels can be retrieved. If metadata is unavailable or gives no materially different input route, stop this precheck without another identical1095 request. An image follow-up would address mouth/leaf continuity versus a separate shaft/tether/actor; contact alone would leave consumption, healing and emblematic roles unresolved and select no word.
+
+Official metadata returned200: native2863x3769; maxArea10790647 exactly equals native area. Thus the registered3000px proportional rendition exceeded this advertised cap; causation of its403 remains an inference. A new GDT1142 original-size contract is registered separately before pixels; metadata does not promise image delivery.

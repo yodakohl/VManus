@@ -1,6 +1,8 @@
-## 2026-10-02 GDT1140 partial; GDT1141 missing core design
+## 2026-10-02 GDT1141 closed; GDT1142 native follow-up registered
 
-[1140 result](experiments/yolo/gdt1140_fortune_status_whole_reading/REPORT.md) retains local d/qo/reference composition but44unknown words/68syntax gaps; no whole translation or Fortune preference. [1141 result](experiments/yolo/gdt1141_light_observation_whole_reading/REPORT.md): two unchanged Stage1 proposals; no accepted core or whole extension. Candidate02 lacks a LIGHT-noun scalar projection and shared-middle-operand DAL rule. Its record-plus-noun is not two observations; actual comparison NO_CAPACITY. Preserve BB/W and prior results; no third core repair or source-theme refutation. Next selection must use actual linguistic constraints, not merely price additional glosses.0confirmedwords/reserveconfirmation. Minimum13:52:40UTC still unmet.
+[1141](experiments/yolo/gdt1141_light_observation_whole_reading/REPORT.md) is public: two incomplete core proposals, no accepted core or Stage2, no light refutation.1140 remains partial. Its exploratory fixed32-plus2-new-substring transfer has no complete packet in49public905cases, independently checked; that cap was our assumption, not the user's or manuscript's law.1137 EARLIER/latest-compatible material/process outputs agree whenever both defined; definedness may differ. No arbitrary dictionary expansion follows.
+
+[1142](experiments/yolo/gdt1142_f25v_native_contact_followup/METHOD.md) registers a new concrete input: official25v metadata now supplies native2863x3769 and equal maxArea; old1095 requested3000width above this cap. Error causation inferred, original1095failure unchanged. Request exactfull/full original only after public registration, then two separately frozen five-item native observations. Same exposedphotograph/no newfolio, no transcript/reserve/wordconfirmation.0confirmedwords; minimum13:52:40UTC notmet.
 
 ## 2026-10-02 GDT1140: exploratory complete status reading registered
 

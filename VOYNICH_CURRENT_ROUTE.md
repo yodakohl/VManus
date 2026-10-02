@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Close1141; choose constraint-led whole reading.
-Latest decision: 1141two cores lack typed syntax;0words.
-Working files: gdt1141_light_observation_whole_reading/REPORT.md.
-Assumptions: All development;BB nouns C0;noreserve.
-Resume: Publish1141gate;review concrete next candidates.
-Running: 1141validator;2route reviewers;producer;end13:52:40UTC.
+Task: Native f25v contact follow-up1142.
+Latest decision: 1141no core;limited1140transfer none;0words.
+Working files: gdt1142_f25v_native_contact_followup/METHOD.md.
+Assumptions: Exposed25v;native2863x3769metadata;noreserve.
+Resume: Publish1142beforepixels;freeze2observer records.
+Running: observer/validatorplans;end13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -41,7 +41,7 @@ f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-compl
 plausible reading. Prior exposure is not independent confirmation.
 179 cached selectors; later grants separate.92 image keys/98 selectors (F receipt). f1r margins only;
 f106v image fixed paragraph only. Register new access first. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts:
-[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [detail](docs/VOYNICH_DATA_SCOPE_20260929_F25V_DETAIL.md); [base](docs/VOYNICH_DATA_SCOPE.md); [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md).
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [native](docs/VOYNICH_DATA_SCOPE_20261002_F25V_NATIVE.md); [base](docs/VOYNICH_DATA_SCOPE.md); [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r
