@@ -1,0 +1,207 @@
+{
+  "experiment": "GDT1135",
+  "status": "PASS_RECEIPT_SCHEMA_CEILING_BOOKKEEPING_ONLY",
+  "visual_truth_validation": false,
+  "semantic_validation": false,
+  "scientific_PASS_certified": false,
+  "checks": [
+    {
+      "check": "all_registered_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "exact_original_cache_SHA_and_byte_count",
+      "status": "PASS"
+    },
+    {
+      "check": "original_cache_dimensions_metadata_only",
+      "status": "PASS"
+    },
+    {
+      "check": "registration_and_public_receipt_chronology",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_scope_and_explicit_semantic_ceiling",
+      "status": "PASS"
+    },
+    {
+      "check": "all16_required_observation_fields_and_three_topology_values",
+      "status": "PASS"
+    },
+    {
+      "check": "root_released_adjudication_exact_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "both_observers_and_freeze_receipt_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "ROOT_all16_required_fields_populated",
+      "status": "PASS"
+    },
+    {
+      "check": "ROOT_source_observation_freeze_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "ROOT_public_before_recording_and_freeze_before_comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "ROOT_declared_initial_blinding",
+      "status": "PASS",
+      "detail": "Receipt declaration and timing only; absence of communications is not independently provable from file contents."
+    },
+    {
+      "check": "ROOT_approximate_original_coordinate_boxes_within_dimensions",
+      "status": "PASS"
+    },
+    {
+      "check": "ROOT_registered_topology_and_disconfirming_limits",
+      "status": "PASS"
+    },
+    {
+      "check": "ROOT_figure_inventory_internal_arithmetic_only",
+      "status": "PASS",
+      "detail": "This compares recorded counts; it does not recount native pixels."
+    },
+    {
+      "check": "ROOT_external_and_inscription_records_identified_with_uncertainty",
+      "status": "PASS"
+    },
+    {
+      "check": "B_all16_required_fields_populated",
+      "status": "PASS"
+    },
+    {
+      "check": "B_source_observation_freeze_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "B_public_before_recording_and_freeze_before_comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "B_declared_initial_blinding",
+      "status": "PASS",
+      "detail": "Receipt declaration and timing only; absence of communications is not independently provable from file contents."
+    },
+    {
+      "check": "B_approximate_original_coordinate_boxes_within_dimensions",
+      "status": "PASS"
+    },
+    {
+      "check": "B_registered_topology_and_disconfirming_limits",
+      "status": "PASS"
+    },
+    {
+      "check": "B_figure_inventory_internal_arithmetic_only",
+      "status": "PASS",
+      "detail": "This compares recorded counts; it does not recount native pixels."
+    },
+    {
+      "check": "B_external_and_inscription_records_identified_with_uncertainty",
+      "status": "PASS"
+    },
+    {
+      "check": "both_full_packet_fields_do_not_establish_ordered_segments",
+      "status": "PASS"
+    },
+    {
+      "check": "adjudication_retains_bundle_disagreement_exactly",
+      "status": "PASS"
+    },
+    {
+      "check": "zero_certified_open_joins_not_recast_as_closed",
+      "status": "PASS"
+    },
+    {
+      "check": "ownership_direction_and_semantic_ceilings_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "prior_figure_count_shared_field_qualification_retained",
+      "status": "PASS"
+    },
+    {
+      "check": "late_novelty_note_chronology_without_observer_repair",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_and_observer_bytes_still_unchanged",
+      "status": "PASS"
+    }
+  ],
+  "failed_checks": 0,
+  "observer_record_counts": {
+    "ROOT": {
+      "required_fields_present": 16,
+      "recorded_figures": 16,
+      "recorded_row_counts": [
+        8,
+        8
+      ],
+      "external_contour_families": 4,
+      "inscription_placement_items": 2,
+      "external_classifications": {
+        "ROOT_E1": "UNKNOWN",
+        "ROOT_E2": "UNKNOWN",
+        "ROOT_E3": "UNKNOWN",
+        "ROOT_E4": "CONTIGUOUS_AT_TERMINAL_BUNDLE_LOCAL_ONLY"
+      },
+      "preferred_graphic_topology": "SHARED_FIELD",
+      "ordered_segment_capacity": false
+    },
+    "B": {
+      "required_fields_present": 16,
+      "recorded_figures": 16,
+      "recorded_row_counts": [
+        8,
+        8
+      ],
+      "external_contour_families": 4,
+      "inscription_placement_items": 2,
+      "external_classifications": {
+        "C1": "UNKNOWN",
+        "C2": "UNKNOWN_AT_BOTH_ENDS",
+        "C3": "OCCLUDED_OR_UNKNOWN",
+        "C4": "UNKNOWN"
+      },
+      "preferred_graphic_topology": "SHARED_FIELD",
+      "ordered_segment_capacity": false
+    }
+  },
+  "retained_disagreements": [
+    {
+      "feature": "lower_right_bundle",
+      "root": "CONTIGUOUS_AT_TERMINAL_BUNDLE_LOCAL_ONLY",
+      "B": "UNKNOWN",
+      "adjudication": "Preserve both; no certifiedattachment orinterioropenjoin follows."
+    }
+  ],
+  "adjudication_sha256": "6c436a6175c346233c510c09e7b3c4df2e68a5c378bc17d2b54ffacfa13caa7a",
+  "prior_novelty_qualification_sha256": "5fc52b8495ac8e1fd282eaf6273b2091e7cf2c574e0ca20c9f6a425e489f8504",
+  "source_image_sha256": "bb1a2316e7fc2966f5761f591d79339c75dcfbc6c2c9ab2b88a37e800266d4bf",
+  "source_dimensions": [
+    2835,
+    3705
+  ],
+  "observer_and_receipt_pins": {
+    "OBSERVER_ROOT.json": "6d3508c5d74d60d364842285b5a440bf33357f691d637e24ba88151410e16d64",
+    "ROOT_FREEZE.json": "994ecba9e366f06580df9929dfdb3715892c6984a2a0683000e5eaa9fbfb5459",
+    "OBSERVER_B.json": "72416cf38b04016a991c33bcd0dc0a67984e0e8a0946a74cd9052126b7a48af0",
+    "B_FREEZE.json": "6e2a838742320d88462f077b801c1b69015dda24f00dadeab262a1d08510a30e"
+  },
+  "validator_sha256": "284a10cef70bfa94e5303d20e373ba96ba468939b8d3fa467dce14fce744ef22",
+  "manual_unverified_limits": [
+    "This validator checks bytes, receipt chronology, field presence, recorded arithmetic, disagreement retention and explicit claim ceilings only.",
+    "No native image rendered or visually recounted. Exhaustiveness of contours/figures/inscriptions and correctness of each visual classification are unverified here.",
+    "Declared observer separation is supported by frozen receipts and timing; absence of prefreeze communication is not independently certified.",
+    "Zero certified open joins expresses unavailable connectivity capacity, not evidence that those joins are closed. No certified direction marker is not proof of no direction or flow.",
+    "Shared graphic field and sixteen figures/two rows of eight were already recorded in the late-retrieved V70/IDEA653 prior according to the preserved qualification; they are not new discoveries or reopening evidence.",
+    "ROOT_E4 local bundle contiguity versus B_C4 uncertain attachment remains disagreement/UNKNOWN; it does not identify an open interior join or transported substance.",
+    "One exposed leaf supplies zero independent meaning confirmation; no ink owner, word meaning, physical medium, HOT/COLD, chronology or directed relation score is certified."
+  ]
+}

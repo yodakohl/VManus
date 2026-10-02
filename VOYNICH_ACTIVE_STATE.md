@@ -1,3 +1,15 @@
+## 2026-10-02 GDT1135: native replication, no new binding
+
+Two separately frozen f81v observations preserve one field and16 figures,
+already recorded in V70/IDEA653. The initially missed predecessor is disclosed.
+Four descriptive curve families do not establish open interior joins or singular
+inscription ownership; one lower-right contact disagreement remains UNKNOWN.
+31/31 protocol checks do not validate visual truth or semantics. No further
+image expansion or IDEA653 reopening follows. One exposed leaf; zero meanings
+or independent confirmation. Next: inspect retained f9v C0 constraints before
+selecting any new construction.
+[Report](experiments/yolo/gdt1135_f81v_native_contour_topology/REPORT.md).
+
 ## 2026-10-02 GD paired composition: first-body construction incomplete
 
 The frozen f83r candidate assigns two hypothetical opening observations, then

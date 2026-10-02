@@ -1162,4 +1162,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 - GDT1134: actual separate counteraccount mark reads; unpriced dependency and failed precise forecast; no meaning selection. [Decision](yolo/gdt1134_paired_posting_reciprocal_consumers/REPORT.md).
 
-- GDT1135: registered complete f81v lower-panel native contour inventory; no semantic score. [Method](yolo/gdt1135_f81v_native_contour_topology/METHOD.md).
+- GDT1135: native f81v replication; external contacts unresolved, no new meaning binding. [Report](yolo/gdt1135_f81v_native_contour_topology/REPORT.md).

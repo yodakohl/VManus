@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1135 full f81v lower-panel native topology.
-Latest decision: f83first partial; no transfer. New visual inventory registered.
-Working files: gdt1135_f81v_native_contour_topology.
-Assumptions: exposedleaf81; no flow, HOT/COLD or word ownership inferred.
-Resume: Publish registration; two separate native observations, then compare.
-Running: GDT1135checkpoint02:49:33; parent minimum06:09:20UTC.
+Task: Select a meaning-bearing constraint after GDT1135 closure.
+Latest decision: f81v replicates prior inventory; no new meaning binding.
+Working files: GDT1135 REPORT; GD_PIPELINE_TARGETS; GDT1064 REPORT.
+Assumptions: fochor/Viola remains C0; no independent second owner.
+Resume: Publish1135; check f9v primary constraints before new selection.
+Running: Bounded idea producer; parent minimum06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
