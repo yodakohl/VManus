@@ -1,5 +1,5 @@
 # GDT1136 — apparatus state whole account
 
-Status: `REGISTERED_UNSCORED`
+Status: `FULL_ASSIGNMENT_PARTIAL_ACCOUNT_NO_MEANING_SELECTION`
 
-See `METHOD.md` and `experiment.json`.
+[Report](REPORT.md):209 fixed word assignments and a working seven-step conditional program; shared-part computation fails and whole procedural truth remains unverified. Film and operation-sensitive memoryless rivals survive.0 confirmed words. See the preregistration, frozen author table and independent reviews.

@@ -1,3 +1,7 @@
+## 2026-10-02 GDT1136: complete assignment, partial operational account
+
+[Fixed result](experiments/yolo/gdt1136_apparatus_state_whole_account/REPORT.md):209 IT groups/144 whole cards;665 native groups preserved. Seven primary updates propagate actual state and meet two independently emitted whole-card product assertions under paid laws. Ten ASTs/23 component values are semantically inert. Auxiliary preloading actions, chronological and owner bindings remain unverified; film and operation-sensitive memoryless rivals survive. No full procedural reading, mechanism selection or translated word. Frozen author unchanged. Do not automatically repair or extend this glossary; next selection needs additional meaning-bearing constraints. Ten-hour block remains active until at least13:52:40UTC.
+
 ## 2026-10-02 Text-first continuation: real reuse, no image consequence
 
 [Result](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_TEXT_GRAPH_RESULT_20261002.md): all94 native positions retained;

@@ -1164,4 +1164,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 - GDT1135: native f81v replication; external contacts unresolved, no new meaning binding. [Report](yolo/gdt1135_f81v_native_contour_topology/REPORT.md).
 
-| GDT1136 | GDT1136 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1136_apparatus_state_whole_account/METHOD.md) | 13 | 1.6 MiB | 4 | STRUCTURED_YOLO |
+| GDT1136 | GDT1136 | `FULL_ASSIGNMENT_PARTIAL_ACCOUNT_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1136_apparatus_state_whole_account/REPORT.md) | 29 | 5.8 MiB | 4 | STRUCTURED_YOLO |

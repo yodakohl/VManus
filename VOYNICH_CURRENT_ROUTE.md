@@ -4,20 +4,19 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1136 whole f101r apparatus-state account.
-Latest decision: Preregistered 9be18de; author checking full IT draft.
-Working files: gdt1136_apparatus_state_whole_account/METHOD.md.
-Assumptions: 144 C0 glosses; film rival; exposed page; no reserves.
-Resume: Await author freeze; release independent fixed reviews.
-Running: author; root/context review;checkpoint09:17;10h ends13:52:40UTC.
+Task: Publish GDT1136 fixed review; select next constraint.
+Latest decision: Full assignment; partial program; no meaning selected.
+Working files: gdt1136_apparatus_state_whole_account/REPORT.md.
+Assumptions: Free whole cards; inert parts; film/operation rivals; no reserves.
+Resume: Publish frozen result; screen additional content constraints.
+Running: root closure and idea producer;10h ends13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
 whole-form residuals and entry context matter (GDT608/282/286/318).
 Segmentations are not one proven parser; 98 learned units are no alphabet.
 No default Latin/phonetic reading. Global k/t polarity is unresolved (1058).
-General adjacency transfers across
-Currier/section/hand; extra direction only across Currier. Known r/l families
+Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
 reversible rendering are not confirmed meanings or sentence boundaries.
 pX/yX paragraph contrast is broader (ZL7/IT8 supported bases;RF unscorable,1073);
