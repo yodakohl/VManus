@@ -1,3 +1,7 @@
+## 2026-10-02 GDT1139: exact native premises remain unresolved
+
+[Full ten-position result](experiments/yolo/gdt1139_native_p4_core_reading/REPORT.md):1compatible(QODY),9unresolved,0agreed incompatible. Fresh observer without expectedstrings leaves essential joins/counts/endings uncertain; root informed9compatible does not override it. Full SOL prefix and EY/DY exact distinctions not independently confirmed.97nativegroups preserved;37protocol/pixelchecksPASS, controls partly clipped. Retain1137C0 with unresolved physical premises; no translation or repaired predecessor. Big-picture/lexical advisories select no new arbitrary event-machine/Latin fit. Existing777source convention under review, not selected; source producer seeks genuinely additional constraints. Ten-hour minimum13:52:40UTC not met.
+
 ## 2026-10-02 GDT1139: native premises registered
 
 Ten fixed core occurrences in complete f83r.25–30 receive separate native observations before comparison. This checks the physical realization of retained1137C0, not its English meanings. All material exposed; no reserve access. [Contract](experiments/yolo/gdt1139_native_p4_core_reading/METHOD.md).

@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1139 native P4 source premises.
-Latest decision: 1137C0 retained;1138partial; no glossary expansion.
-Working files: gdt1139_native_p4_core_reading/METHOD.md.
-Assumptions: Exposed f83r;10fixed positions; no reserve access.
-Resume: Publish1139; localizeP4; freeze both native observations.
-Running: Observer awaiting release;validator plan;producer;end13:52:40UTC.
+Task: Post1139 historical meaning constraints.
+Latest decision: 1139native1compatible9unresolved;1137C0 retained.
+Working files: gdt1139_native_p4_core_reading/REPORT.md;source_supply20260929.
+Assumptions: Exposed data; no meanings or reserve access.
+Resume: Publish1139; review777/source offer before new selection.
+Running: Bounded source producer; minimumend13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

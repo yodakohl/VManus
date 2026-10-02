@@ -330,3 +330,128 @@ selection, corpus scan, code, global state change or Git action.
 Short `source_supply_20260929/` paths in this table refer to this note's directory.
 The only write in this unit is this appended note. Missing bindings remain
 limitations of retained raw ideas, not duplicate reasons or failed experiments.
+
+## 2026-10-02 — fifth bounded unit during GDT1139 native check
+
+Added **IDEA000877**, explicitly **RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED**:
+[current roster and ordinal duty](GD_FRESH_CURRENT_ROSTER_ORDINAL_RAW_20261002.json).
+Nomination is the **entire already-owned f83r P1/72 ZL-group record**, with the
+GDT790 reader, record bindings and W91 receipt/report byte pins in the proposal.
+The nomination does not use P4, labels, images or an appended paragraph.
+
+The concrete hypothetical content is an overseer's ordered membership record.
+Admitting A,B,C, removing B, and then admitting D produces A,C,D. The total is
+again three, but the later instruction to the **current second member** gives
+the duty to C. Identity and ordinal position are separate: C persists while
+its rank changes. A shared current-position construction and an actual written
+duty consumer must compute this difference. Permanent ordinal member codes
+target departed B; a total-only account cannot distinguish the old and new
+groups; a vacant-slot register can instead leave second empty or refill it
+with D. All are prospectively distinct whole-account rivals. This is possible
+register content, without a claim that an uncached medieval rule supplies it
+or that the manuscript writes these events.
+
+Actual335's fault/demotion/repair account changes one actor's participation;
+actual452's guest classifier decides admission and possible higher rank.
+Neither inspected primary computes a surviving member's new position after a
+different member's departure and a later addition restore cardinality.
+Actual873 delegates authority and separates actor from obligation bearer,
+without this ordinal mechanism. Exact IDEA729 was retrieved as **one targeted
+registry row**, after bounded searches did not locate a separate proposal
+file. Its full short design rotates a marked member under **fixed cyclic
+membership**, distinguishing total count from that member's ordinal. The new
+offer changes member identities and consumes the recomputed ordinal in a later
+duty. No fixed cyclic source or numerical label is imported.729 has no linked
+primary and remains imported_unreviewed; this is bounded raw novelty review,
+not a certification of all predecessors.
+
+The primary GDT793 strict `okal < okaly < okal` counterexample is retained;
+neither form is assigned an ordinal. W94/W96 number/identity stops, W97's fixed
+genealogy failure, W91's connector failures and closed f69 roster/counting routes
+are unchanged. No hypothesis is selected from the successful calculation of a
+stipulated roster. A generic correctly ordered entity register can express the
+same consequence, so even a later complete C0 account may leave meanings
+equivalent. The member identities, membership events, ordinal construction and
+duty must all be paid in the whole record; no confirmed anchor is required to
+retain RAW, and no unknown interval may silently replace the roster.
+
+If shortlisted, the smallest next step is fresh complete P1 authorship under
+frozen shared rules, then comparison of the actual later duty bearer across
+the declared rivals. If only a source-side array example or unattached
+membership labels exists, park this offer. If every rival yields the same
+consumer, preserve equivalence. No generic register engine, decoder, source
+intake or new target is proposed.
+
+Current route was read first; workflow/numbers topics, bounded searches,
+duplicates, route-check and relevant primary comparisons preceded retention.
+This unit opened **no1139 image/observer/result file**, no target-body file,
+new image/source/data, reserve, f84/f84r/f116v or outside contact. No observer
+was contacted or influenced. Only the new proposal, this append and its
+authorized `ideas add` registry/index update were written. No root route,
+ledger/state, tests or Git action.
+
+## 2026-10-02 — sixth bounded unit: smaller content kernels
+
+**Zero new proposals.** Two inspected existing raw offers already carry the
+smaller source-constrained kernels sought here. This does not certify their
+total lexical cost or select either for testing. The newly retained877 remains
+RAW; no attempt was made to repair it or the1137/1138 accounts.
+
+**Best target-facing existing offer: IDEA777**,
+[U_01_FORTUNE_STATUS.json](U_01_FORTUNE_STATUS.json). Its existing nomination is
+all four owned f85r2 spatial blocks, N.2–6/E.7–11/S.12–17/W.18–23, retaining
+.1/.24 separately. The concrete content kernel is one status predicate, three
+temporal predications and an explicit privative predication. Complete cached
+edited Carmen18a actually gives `regnabo; regno; regnavi; sum sine regno`.
+Complete cached Carmen16 retains a first-person speaker across past
+enthronement and present descent, then explicitly introduces `alter` and later
+names Hecuba. This keeps status identity distinct from actor identity without
+inventing four unrelated stage nouns or a new event machine.
+
+Its useful semantic restriction is that **past possession does not by itself
+mean present privation**, and future possession does not assert present
+possession. The privative clause adds a separate present-status consequence.
+A participant switch can change the bearer while retaining the same status
+relation. This is already777's intended consequence, so another tense/absence
+card was not added. The manuscript's complete four texts must still pay their
+remaining groups and actual scopes; a four-form source cannot stand in for a
+whole108-group reading. No Latin alphabet/default, aiin gloss, image identity
+or spatial tense order follows from the source. GDT998's **actual report** was
+read: its complete stem/person/tense concatenation tables remain contradicted
+on all6925 exposed windows. No table boundary, allomorph or field-order repair
+is proposed. The present smaller kernel is a reuse of an existing raw offer,
+not changed input proving a reopening gate.
+
+**Different compact source kernel: IDEA391**,
+`research_registry/proposals/raw_franco_contextual_duration_groups.json`.
+The actual raw proposal and complete cached main-text chaptersIV–V/source
+inventory were read. Its explicitly bounded five-note3|2 exemplar requires
+durations1,1,1,1,2 at free scale u. The long-first rival1,1,1,2,1 preserves
+counts, both group totals and total6, but shifts the last onset from4u to5u.
+Thus a whole ordered timing consequence is stronger than total closure with
+only a note-duration kind, grouping and position. This already exists in391;
+no rhythm card, source-only executable fixture, E-run notation or guessed
+space-as-musical-divider was added. Different staff pitches mean that the
+five shapes are not five identical complete pitched signs. No target owner,
+staff or word realization is nominated here, and no music meaning or numeric
+value is selected. Its native edition is1864, not a newly collated medieval
+example. The earlier solmization/Rota stops remain unchanged.
+
+These are positive retained possibilities with fewer **core content kinds**,
+not a claim that their eventual whole accounts need fewer total paid values.
+The source distinctions themselves are concrete; their manuscript realization
+is unconfirmed. Current route and differential topic were read first, then
+bounded ideas/route/duplicate navigation and actual proposal/report/cached-text
+primaries. Modal455 and memory450 were navigation/comparator reads only; no
+selection or absence claim is drawn from them.
+
+Pins:777 proposal `3d2708c40062c607adadafd8ff6bb561ff6f69a15f1cb3ce1740cc851489c569`;
+complete cached Carmina packet
+`02cce7f98c9e793f47fb7b49eee5b20a36124df28010b18596c420d7013b591b`;
+391 proposal `9e1c7c3121c64e3e8ad3bedab342102efa898d91ffe4d9f2407468238323a135`;
+Franco source packet `3ce3337abb1fdb4c389e2b48f517b73f49f92b652b627f60fe966d6c9df5a3c2`;
+GDT998 report `b2878614c893bd3f5614ae9de3b58c3100987cf97381b6867d6628aad83c5649`.
+
+Only this note was appended. No target-body file,1139 evidence/observer/result,
+source/Voynich image, acquisition, reserve, new admission, outside contact,
+test, parser/decoder, registry mutation, root route/ledger/state or Git action.
