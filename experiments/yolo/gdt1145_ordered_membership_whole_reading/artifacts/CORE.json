@@ -1,0 +1,83 @@
+{
+  "experiment": "GDT1145",
+  "candidate": "ordered active-membership register with mutable ordinal selection",
+  "status": "FROZEN_NONLEXICAL_PRETARGET_CORE",
+  "task_started_utc": "2026-10-02T16:36:50Z",
+  "target_opened_before_freeze": false,
+  "lexical_values": [],
+  "glyph_or_whole_form_meanings": [],
+  "initial_state": {
+    "entry": "E",
+    "active_order": [],
+    "membership_history": [],
+    "duties": []
+  },
+  "state_types": {
+    "ENTRY": "one continuing written account/record; not a pictured panel identity",
+    "MEMBER": "a distinct introduced participant identity",
+    "ACTIVE_ORDER": "ordered list of current members",
+    "HISTORY": "retained membership events; removal does not erase identity",
+    "DUTY": "an action/content plus an explicitly bound recipient"
+  },
+  "finite_operations": [
+    {
+      "name": "CREATE_ENTRY",
+      "input": "entry",
+      "effect": "create entry with active_order=[], membership_history=[], duties=[]"
+    },
+    {
+      "name": "INTRODUCE_APPEND",
+      "input": "entry, previously unintroduced member",
+      "effect": "append the distinct member to active_order and record introduction in history"
+    },
+    {
+      "name": "REMOVE_ACTIVE",
+      "input": "entry, explicitly identified current member",
+      "effect": "remove that identity from active_order, retain its history, do not renumber historical identities"
+    },
+    {
+      "name": "CURRENT_COUNT",
+      "input": "entry",
+      "effect": "return the cardinality of active_order at this point in written event order"
+    },
+    {
+      "name": "CURRENT_SELECT",
+      "input": "entry, positive rank k",
+      "effect": "select active_order[k] after all preceding written mutations; selection is recomputed and is unavailable if k exceeds current count"
+    },
+    {
+      "name": "ASSIGN_DUTY",
+      "input": "entry, explicitly written duty, recipient from a bound CURRENT_SELECT result",
+      "effect": "record the duty and recipient identity; no implicit role inheritance from former rank"
+    }
+  ],
+  "required_trace_not_target_translation": [
+    {"event": "CREATE_ENTRY(E)", "active_order_after": []},
+    {"event": "INTRODUCE_APPEND(E,A)", "active_order_after": ["A"]},
+    {"event": "INTRODUCE_APPEND(E,B)", "active_order_after": ["A","B"]},
+    {"event": "INTRODUCE_APPEND(E,C)", "active_order_after": ["A","B","C"]},
+    {"event": "REMOVE_ACTIVE(E,B)", "active_order_after": ["A","C"]},
+    {"event": "INTRODUCE_APPEND(E,D)", "active_order_after": ["A","C","D"]},
+    {"event": "CURRENT_COUNT(E)", "result": 3},
+    {"event": "CURRENT_SELECT(E,2)", "result": "C"},
+    {"event": "ASSIGN_DUTY(E,X,recipient=C)", "result": "current second bears written X"}
+  ],
+  "predeclared_differing_consequence": {
+    "dynamic_current_second_after_removal_and_append": "C",
+    "original_second_identity_before_mutation": "B",
+    "control_without_removal_then_append_D": {"active_order": ["A","B","C","D"], "current_second": "B"},
+    "pass_requirement": "The target must write and bind the duty X to CURRENT_SELECT(E,2) after the removal and append. A name list, restored count alone, or static rank-word hypothesis is not a pass."
+  },
+  "uniformity_and_scope": [
+    "The same operations apply to every corresponding member and every event; no locus/index-specific exception.",
+    "Member identities are trace placeholders only. A/E/B/C/D are not proposed glyph meanings or labels inherited from the drawing.",
+    "No numeric/ordinal reading of okal, okaly, or any suffix is imported.",
+    "All participants, mutation causes, operation order, count, selector, and duty must be explicitly bound by written constituents under a reusable construction.",
+    "Open groups cannot silently be treated as no-ops, separators, references, or event operators."
+  ],
+  "known_limits": [
+    "This is only a finite nonlexical semantic contract, not evidence that f83r writes any operation.",
+    "A written roster count does not entail that membership was dynamically mutated.",
+    "The test is exploratory on previously exposed text and offers no independent confirmation."
+  ]
+}

@@ -1,0 +1,856 @@
+{
+  "experiment": "GDT1145",
+  "status": "PARTIAL_ACCOUNT_NO_EXECUTED_MEMBERSHIP_CHAIN",
+  "exposure": "All72 ZL3b groups in the one guarded F83_P1 paragraph; previously exposed exploratory text, not blind or confirmatory.",
+  "target": {
+    "path": "experiments/yolo/gdt1145_ordered_membership_whole_reading/artifacts/TARGET.tsv",
+    "sha256": "1e49d1cbe8ee49bd92f17fd19e209cc724e4e3c81c8b4d9ae271bfea6d41e800",
+    "edition": "ZL3b",
+    "groups": 72,
+    "lines": 8,
+    "guard_stderr": "experiments/yolo/gdt1145_ordered_membership_whole_reading/artifacts/TARGET_GUARD.stderr.txt",
+    "guard_stderr_sha256": "c4da0c3da185e4d622c0dfd2f964e07b997209d869877ea7f342b583866044d1"
+  },
+  "core": {
+    "path": "experiments/yolo/gdt1145_ordered_membership_whole_reading/artifacts/CORE.json",
+    "sha256": "6f20ab9aaadebb0be15cd3ecc98526f6861c49a244a7da9007b43600cf8bc6e1",
+    "freeze_path": "experiments/yolo/gdt1145_ordered_membership_whole_reading/artifacts/CORE_FREEZE.json",
+    "frozen_before_target": true
+  },
+  "lexical_values": [
+    {
+      "id": "V1",
+      "form": "qokaiin",
+      "provisional_sense": "introduce and append one fresh member to the active roster",
+      "cost": "1 whole-form C0 value; no morpheme segmentation or member identity encoded",
+      "target_occurrences": 3,
+      "profile": "IT2a exact-form cache: 257 occurrences on 67 admitted page selectors; separate manuscript reader, not pooled with ZL3b. ZL3b target has three occurrences; no ZL frequency supplied here. Frequency is descriptive, not semantic evidence.",
+      "status": "unconfirmed hypothesis; each occurrence is assumed to introduce a distinct fresh member, but no identities are textually bound."
+    },
+    {
+      "id": "V2",
+      "form": "qoteedy",
+      "provisional_sense": "select the current second member in roster order",
+      "cost": "1 whole-form C0 value; ordinal is paid as lexical content, not inferred from suffix or okal family",
+      "target_occurrences": 4,
+      "profile": "IT2a exact-form cache: 72 occurrences on 36 admitted page selectors; separate from ZL3b. ZL3b target has four occurrences, including adjacent repeated final pair. Frequency is descriptive, not semantic evidence.",
+      "status": "unconfirmed hypothesis; selector has no demonstrated recipient/duty attachment."
+    },
+    {
+      "id": "V3",
+      "form": "qokal",
+      "provisional_sense": "remove an explicitly identified active member from roster",
+      "cost": "1 whole-form C0 value; no transfer from okal/okaly or suffix analysis",
+      "target_occurrences": 1,
+      "profile": "ROOT_PROFILE_CHECK exact-form counts: ZL3b 176 on54 selectors; IT2a 177 on55; RF1b 168 on51. Readers remain separate and descriptive; no semantic inference.",
+      "status": "unconfirmed hypothesis; target supplies no resolved member argument under the authored rules."
+    }
+  ],
+  "rules": [
+    {
+      "id": "R1",
+      "name": "fresh-member introduction",
+      "definition": "Every qokaiin occurrence contributes exactly one previously unintroduced member by appending it to the current active order. Each occurrence creates a distinct identity; no earlier identity is reused unless written reference establishes it.",
+      "scope": "uniform across all target positions",
+      "status": "proposed; actual trace cannot meet all required roster events without assigning values/arguments to unknown groups."
+    },
+    {
+      "id": "R2",
+      "name": "current rank-two selection",
+      "definition": "Every qoteedy occurrence returns the second identity in the current active order after all earlier explicitly parsed mutations. Undefined when active roster has fewer than two members. This is a selector, not a duty assignment.",
+      "scope": "uniform across all target positions",
+      "status": "proposed; no rule binds its result to a later written duty."
+    },
+    {
+      "id": "R3",
+      "name": "explicit-member removal",
+      "definition": "Every qokal occurrence removes one explicitly identified current member while retaining its history. No default target or nearest-token argument is supplied.",
+      "scope": "uniform across all target positions",
+      "status": "proposed but unapplied: no member argument is derived."
+    }
+  ],
+  "construction_attempt": {
+    "parse": "No executable complete parse. Three lexical hypotheses and three uniform operations were tried against all72 groups. No unknown token was treated as a no-op, boundary, alias, introduction, count, referent, or duty.",
+    "dependencies": [
+      "Need three written introductions before first successful rank-two selection; the shown qokaiin occurrences do not by themselves establish a completed three-member roster before f83r.2:7. Earlier unknown groups remain unparsed and cannot be silently counted.",
+      "Need a written identity argument for removal at f83r.6:3 qokal; the immediately later qokaiin is not an argument by R1 and cannot retroactively identify the removed member.",
+      "Need a written duty predicate/content and a construction binding a selected current-second result to its recipient. None is derived; chedy remains unassigned.",
+      "Need event ordering/reference across lines; no line break is treated as proof of a clause or event boundary.",
+      "Repeated qokaiin is provisionally a fresh introduction each time, not a repeated mention. That assumption does not itself identify A/B/C or prove intended entities.",
+      "Repeated adjacent qoteedy at f83r.7:9–10 are both retained as selectors; no deduplication."
+    ],
+    "required_trace_result": "NOT ACHIEVED: no derived A,B,C → remove B → append D → count 3 → select current second C → assign written duty to C. The changing-recipient contrast with original-slot B cannot be evaluated on this parse."
+  },
+  "accounting": {
+    "groups": 72,
+    "word_occurrences": 72,
+    "assigned_candidate_occurrences": 8,
+    "unassigned_occurrences": 64,
+    "unassigned_types": 51,
+    "target_type_counts": {
+      "ar": 1,
+      "chary": 1,
+      "checkhy": 1,
+      "chedchy": 1,
+      "chedy": 5,
+      "cheey": 1,
+      "cheg": 1,
+      "chepol": 1,
+      "chey": 2,
+      "chkedy": 1,
+      "chkeedy": 1,
+      "daiin": 2,
+      "dar": 1,
+      "deey": 1,
+      "dor": 1,
+      "lchedy": 2,
+      "lchs": 1,
+      "lo": 1,
+      "lpchedy": 1,
+      "lsheedy": 1,
+      "o": 1,
+      "olchedy": 1,
+      "olkeedy": 1,
+      "opedy": 1,
+      "otedy": 1,
+      "pchedal": 1,
+      "pchedar": 1,
+      "qeeedy": 1,
+      "qekaiin": 1,
+      "qokaiin": 3,
+      "qokal": 1,
+      "qokedy": 2,
+      "qokeedy": 1,
+      "qokeey": 1,
+      "qokshedy": 1,
+      "qoky": 3,
+      "qol": 1,
+      "qopchedy": 1,
+      "qotaiin": 1,
+      "qotal": 2,
+      "qoteedy": 4,
+      "qoty": 1,
+      "rchedy": 1,
+      "rches": 1,
+      "rsheedy": 1,
+      "schedy": 1,
+      "shecthedchy": 1,
+      "shedy": 3,
+      "shetar": 1,
+      "shey": 1,
+      "shol": 1,
+      "sol": 1,
+      "solshed": 1,
+      "tchedy": 1
+    },
+    "rows": [
+      {
+        "at": "f83r.1:1",
+        "edition": "ZL3b",
+        "word": "tchedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.1:2",
+        "edition": "ZL3b",
+        "word": "lpchedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.1:3",
+        "edition": "ZL3b",
+        "word": "opedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.1:4",
+        "edition": "ZL3b",
+        "word": "chepol",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.1:5",
+        "edition": "ZL3b",
+        "word": "pchedar",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.1:6",
+        "edition": "ZL3b",
+        "word": "shedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.1:7",
+        "edition": "ZL3b",
+        "word": "qopchedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.2:1",
+        "edition": "ZL3b",
+        "word": "sol",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.2:2",
+        "edition": "ZL3b",
+        "word": "cheey",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.2:3",
+        "edition": "ZL3b",
+        "word": "qokaiin",
+        "value_id": "V1",
+        "rule": "INTRODUCE_APPEND_FRESH_MEMBER",
+        "status": "proposed_value_unbound",
+        "binding": "No complete participant/event parse; see open dependencies."
+      },
+      {
+        "at": "f83r.2:4",
+        "edition": "ZL3b",
+        "word": "shol",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.2:5",
+        "edition": "ZL3b",
+        "word": "lchs",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.2:6",
+        "edition": "ZL3b",
+        "word": "shey",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.2:7",
+        "edition": "ZL3b",
+        "word": "qoteedy",
+        "value_id": "V2",
+        "rule": "CURRENT_SELECT_RANK_2",
+        "status": "proposed_value_unbound",
+        "binding": "No complete participant/event parse; see open dependencies."
+      },
+      {
+        "at": "f83r.2:8",
+        "edition": "ZL3b",
+        "word": "rches",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.2:9",
+        "edition": "ZL3b",
+        "word": "ar",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.2:10",
+        "edition": "ZL3b",
+        "word": "chedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.2:11",
+        "edition": "ZL3b",
+        "word": "dor",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.3:1",
+        "edition": "ZL3b",
+        "word": "olkeedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.3:2",
+        "edition": "ZL3b",
+        "word": "qotal",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.3:3",
+        "edition": "ZL3b",
+        "word": "chkeedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.3:4",
+        "edition": "ZL3b",
+        "word": "chey",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.3:5",
+        "edition": "ZL3b",
+        "word": "daiin",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.3:6",
+        "edition": "ZL3b",
+        "word": "chey",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.3:7",
+        "edition": "ZL3b",
+        "word": "lchedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.3:8",
+        "edition": "ZL3b",
+        "word": "qokaiin",
+        "value_id": "V1",
+        "rule": "INTRODUCE_APPEND_FRESH_MEMBER",
+        "status": "proposed_value_unbound",
+        "binding": "No complete participant/event parse; see open dependencies."
+      },
+      {
+        "at": "f83r.3:9",
+        "edition": "ZL3b",
+        "word": "qotal",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.3:10",
+        "edition": "ZL3b",
+        "word": "dar",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.4:1",
+        "edition": "ZL3b",
+        "word": "qokshedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.4:2",
+        "edition": "ZL3b",
+        "word": "chedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.4:3",
+        "edition": "ZL3b",
+        "word": "qokedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.4:4",
+        "edition": "ZL3b",
+        "word": "chkedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.4:5",
+        "edition": "ZL3b",
+        "word": "daiin",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.4:6",
+        "edition": "ZL3b",
+        "word": "shetar",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.4:7",
+        "edition": "ZL3b",
+        "word": "shedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.4:8",
+        "edition": "ZL3b",
+        "word": "qekaiin",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.4:9",
+        "edition": "ZL3b",
+        "word": "chedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.5:1",
+        "edition": "ZL3b",
+        "word": "deey",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.5:2",
+        "edition": "ZL3b",
+        "word": "qotaiin",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.5:3",
+        "edition": "ZL3b",
+        "word": "checkhy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.5:4",
+        "edition": "ZL3b",
+        "word": "qoty",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.5:5",
+        "edition": "ZL3b",
+        "word": "cheg",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.5:6",
+        "edition": "ZL3b",
+        "word": "shedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.5:7",
+        "edition": "ZL3b",
+        "word": "qokeey",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.5:8",
+        "edition": "ZL3b",
+        "word": "rchedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.5:9",
+        "edition": "ZL3b",
+        "word": "qoteedy",
+        "value_id": "V2",
+        "rule": "CURRENT_SELECT_RANK_2",
+        "status": "proposed_value_unbound",
+        "binding": "No complete participant/event parse; see open dependencies."
+      },
+      {
+        "at": "f83r.5:10",
+        "edition": "ZL3b",
+        "word": "lo",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.6:1",
+        "edition": "ZL3b",
+        "word": "schedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.6:2",
+        "edition": "ZL3b",
+        "word": "chedchy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.6:3",
+        "edition": "ZL3b",
+        "word": "qokal",
+        "value_id": "V3",
+        "rule": "REMOVE_EXPLICIT_MEMBER",
+        "status": "proposed_value_unbound",
+        "binding": "No complete participant/event parse; see open dependencies."
+      },
+      {
+        "at": "f83r.6:4",
+        "edition": "ZL3b",
+        "word": "olchedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.6:5",
+        "edition": "ZL3b",
+        "word": "qokaiin",
+        "value_id": "V1",
+        "rule": "INTRODUCE_APPEND_FRESH_MEMBER",
+        "status": "proposed_value_unbound",
+        "binding": "No complete participant/event parse; see open dependencies."
+      },
+      {
+        "at": "f83r.6:6",
+        "edition": "ZL3b",
+        "word": "chedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.6:7",
+        "edition": "ZL3b",
+        "word": "qokeedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.6:8",
+        "edition": "ZL3b",
+        "word": "lchedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.6:9",
+        "edition": "ZL3b",
+        "word": "qoky",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.7:1",
+        "edition": "ZL3b",
+        "word": "solshed",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.7:2",
+        "edition": "ZL3b",
+        "word": "lsheedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.7:3",
+        "edition": "ZL3b",
+        "word": "qeeedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.7:4",
+        "edition": "ZL3b",
+        "word": "qoky",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.7:5",
+        "edition": "ZL3b",
+        "word": "o",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.7:6",
+        "edition": "ZL3b",
+        "word": "qol",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.7:7",
+        "edition": "ZL3b",
+        "word": "rsheedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.7:8",
+        "edition": "ZL3b",
+        "word": "qokedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.7:9",
+        "edition": "ZL3b",
+        "word": "qoteedy",
+        "value_id": "V2",
+        "rule": "CURRENT_SELECT_RANK_2",
+        "status": "proposed_value_unbound",
+        "binding": "No complete participant/event parse; see open dependencies."
+      },
+      {
+        "at": "f83r.7:10",
+        "edition": "ZL3b",
+        "word": "qoteedy",
+        "value_id": "V2",
+        "rule": "CURRENT_SELECT_RANK_2",
+        "status": "proposed_value_unbound",
+        "binding": "No complete participant/event parse; see open dependencies."
+      },
+      {
+        "at": "f83r.8:1",
+        "edition": "ZL3b",
+        "word": "pchedal",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.8:2",
+        "edition": "ZL3b",
+        "word": "otedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.8:3",
+        "edition": "ZL3b",
+        "word": "shecthedchy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.8:4",
+        "edition": "ZL3b",
+        "word": "qoky",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.8:5",
+        "edition": "ZL3b",
+        "word": "chedy",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      },
+      {
+        "at": "f83r.8:6",
+        "edition": "ZL3b",
+        "word": "chary",
+        "value_id": null,
+        "rule": null,
+        "status": "unknown_unassigned",
+        "binding": "Retained as an accounted group; no semantic value or silent no-op assigned."
+      }
+    ]
+  },
+  "profile_source": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/EE_WORD_PROFILES.json for qokaiin/qoteedy; experiments/yolo/gdt1145_ordered_membership_whole_reading/artifacts/ROOT_PROFILE_CHECK.json for qokal/qekaiin; exact forms, alternate readers kept separate, descriptive only.",
+  "confirmation": "0 confirmed meanings; no significance claim; no independent semantic confirmation.",
+  "replay": "No replay code: no live complete chain exists.",
+  "profile_observations": [
+    {
+      "form": "qokaiin",
+      "ZL3b_target_occurrences": 3,
+      "IT2a_profile": {
+        "count": 257,
+        "pages_with_form": 67
+      },
+      "RF1b_profile": "not reported here",
+      "meaning_status": "unconfirmed; frequency is not meaning evidence"
+    },
+    {
+      "form": "qoteedy",
+      "ZL3b_target_occurrences": 4,
+      "IT2a_profile": {
+        "count": 72,
+        "pages_with_form": 36
+      },
+      "RF1b_profile": "not reported here",
+      "meaning_status": "unconfirmed; frequency is not meaning evidence"
+    },
+    {
+      "form": "qokal",
+      "ZL3b_target_occurrences": 1,
+      "ZL3b_profile": {
+        "count": 176,
+        "pages_with_form": 54
+      },
+      "IT2a_profile": {
+        "count": 177,
+        "pages_with_form": 55
+      },
+      "RF1b_profile": {
+        "count": 168,
+        "pages_with_form": 51
+      },
+      "meaning_status": "unconfirmed; readers remain separate"
+    },
+    {
+      "form": "qekaiin",
+      "ZL3b_target_occurrences": 1,
+      "ZL3b_profile": {
+        "count": 2,
+        "pages_with_form": 2
+      },
+      "IT2a_profile": {
+        "count": 2,
+        "pages_with_form": 2
+      },
+      "RF1b_profile": {
+        "count": 1,
+        "pages_with_form": 1
+      },
+      "meaning_status": "unassigned; no candidate gloss selected"
+    }
+  ]
+}

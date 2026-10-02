@@ -1,3 +1,7 @@
+## 2026-10-02 GDT1145 membership whole-reading attempt incomplete
+
+[Complete f83r P1 account](experiments/yolo/gdt1145_ordered_membership_whole_reading/REPORT.md): all72ZLgroups retained;3provisional rules cover8unbound occurrences,64unknown. No derived removal argument, later duty or changed current-second recipient. Rival/intervention not executable; no whole semantic reading or membership-family refutation. Freeze preserves two wording inaccuracies corrected in independent review. Park this draft; no free-gloss expansion. 1137's local computed composition/reference remains positive but semantically unselected; examine its nonseed transfer contract before any next selection.0confirmedwords;reservesclosed.
+
 ## 2026-10-02 GDT1144 fixed construction capacity tested
 
 [Full native canvas comparison](experiments/yolo/gdt1144_shadow_axis_native_capacity/REPORT.md): two informed observers, eight paired cells; four absent at supplied scale and four unresolved, including one preserved disagreement. No visibly owned observation-to-axis or region-to-street candidate on Yale1006194. This stops the literal bridge on this canvas, not astronomical text generally. IDEA748 historical acquisition remains positive; f57v report-only in this follow-up. 72 protocol/accounting checks PASS, not visual truth. 0 confirmed words and independent meaning confirmation; reserves closed. No same-canvas crop or guessed-word repair; next candidate requires a distinct complete consequence. All current work complete.

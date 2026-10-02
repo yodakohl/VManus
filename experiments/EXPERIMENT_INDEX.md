@@ -1173,3 +1173,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1140 | GDT1140 | `PARTIAL_SCOPED_C0` | [report](../experiments/yolo/gdt1140_fortune_status_whole_reading/REPORT.md) | 27 | 1.6 MiB | 6 | STRUCTURED_YOLO |
 | GDT1143 | GDT1143 | `PARTIAL_LEXICAL_ACCOUNT_NO_COMPLETE_READING` | [report](../experiments/yolo/gdt1143_mixed_herbal_entry_whole_reading/REPORT.md) | 24 | 165.3 KiB | 2 | STRUCTURED_YOLO |
 | GDT1144 | GDT1144 | `NO_OWNED_CONSTRUCTION_CAPACITY_IN_FIXED_CANVAS` | [report](../experiments/yolo/gdt1144_shadow_axis_native_capacity/REPORT.md) | 18 | 53.5 KiB | 1 | STRUCTURED_YOLO |
+| GDT1145 | GDT1145 | `PARTIAL_ACCOUNT_NO_EXECUTED_WRITTEN_MEMBERSHIP_CHAIN` | [report](../experiments/yolo/gdt1145_ordered_membership_whole_reading/REPORT.md) | 26 | 170.6 KiB | 3 | STRUCTURED_YOLO |

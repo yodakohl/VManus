@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-02T16:40:57.927187+00:00",
+  "scope": "root intake of already guarded F83_P1 extraction",
+  "source_projection": "experiments/yolo/gdt1145_ordered_membership_whole_reading/artifacts/TARGET.tsv",
+  "sha256": "1e49d1cbe8ee49bd92f17fd19e209cc724e4e3c81c8b4d9ae271bfea6d41e800",
+  "lines": 8,
+  "groups": 72,
+  "records": [
+    "F83_P1"
+  ],
+  "pages": [
+    "f83r"
+  ],
+  "command": "./vmanus-exp query-tsv research_registry/proposals/translation_programs_20260912/work/W91/PROSE.tsv --selector record_id --allow F83_P1 --columns page,panel_id,record_id,locus,zl3b_line",
+  "core_freeze_sha256": "d2208ebbfa977a49d518ec52190d85bbf8768c8e1dd13fd068376db75cfe9521",
+  "exposure": "root read entire extracted record after core freeze; no fresh independent holdout"
+}

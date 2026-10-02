@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: GDT1144 construction-capacity test complete.
-Latest decision: Fixed f67r canvas lacks owned chain;748 source retained;0words.
-Working files: experiments/yolo/gdt1144_shadow_axis_native_capacity/REPORT.md.
-Assumptions: Exposed single canvas;two informed records;no reserve.
-Resume: Select distinct complete consequence;no same-canvas repair.
-Running: None;native test and bounded idea review complete.
+Task: GDT1145 membership draft incomplete;parked.
+Latest decision: 8/72groups assigned;64unknown;no written chain;0words.
+Working files: experiments/yolo/gdt1145_ordered_membership_whole_reading/REPORT.md.
+Assumptions: Exposed ZL;unbound C0 roles;no inferred ordinal;reserves closed.
+Resume: Read876 full transfer duty against frozen1137 before selection.
+Running: None;authorship and reviews complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
