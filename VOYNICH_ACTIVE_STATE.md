@@ -1,3 +1,7 @@
+## 2026-10-02 GDT1146 fixed type-transfer assumption contradicted
+
+[All35eligible cases](experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/REPORT.md): unchanged1137core accepts32reader rows and rejects3readings of the samef76r6qokedy-sheey pair. FrozenSHEEY is source-stage;QOKEDYrequiresconverted-stage. New universal immediate-right binding plus these types fails; no attribution to wordvalue versus syntax alone. All613scopedQOKEDYclassified outsidewholeleaf83; no newdata/reserves. Retain original1137localC0 and unresolvedmeaning; whole876transfer remains uncompleted. Any new argument construction must explain seedcalls and this retained countercase, not silently coerce types or omitf76.1145parked;0confirmedwords.
+
 ## 2026-10-02 GDT1145 membership whole-reading attempt incomplete
 
 [Complete f83r P1 account](experiments/yolo/gdt1145_ordered_membership_whole_reading/REPORT.md): all72ZLgroups retained;3provisional rules cover8unbound occurrences,64unknown. No derived removal argument, later duty or changed current-second recipient. Rival/intervention not executable; no whole semantic reading or membership-family refutation. Freeze preserves two wording inaccuracies corrected in independent review. Park this draft; no free-gloss expansion. 1137's local computed composition/reference remains positive but semantically unselected; examine its nonseed transfer contract before any next selection.0confirmedwords;reservesclosed.

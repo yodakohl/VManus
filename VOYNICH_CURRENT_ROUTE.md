@@ -2,14 +2,14 @@
 Updated: 2026-10-02. Live resume point.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: checkpoint
-Task: GDT1145 membership draft incomplete;parked.
-Latest decision: 8/72groups assigned;64unknown;no written chain;0words.
-Working files: experiments/yolo/gdt1145_ordered_membership_whole_reading/REPORT.md.
-Assumptions: Exposed ZL;unbound C0 roles;no inferred ordinal;reserves closed.
-Resume: Read876 full transfer duty against frozen1137 before selection.
-Running: None;authorship and reviews complete.
+Task: GDT1146 frozen QOKEDY argument-type transfer.
+Latest decision: f76r6 contradicts new universal right binding;1137retained.
+Working files: experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/REPORT.md.
+Assumptions: Fixed4licenses;outside83;all exposed;no semantic confirmation.
+Resume: New argument grammar must cover seed+f76r6;no silent patch.
+Running: None;fixed census and reviews complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

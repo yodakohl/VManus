@@ -1,0 +1,112 @@
+{
+  "chedy": {
+    "outcome": "ACCEPT",
+    "recipe": {
+      "surface": "chedy",
+      "sort": "preparation recipe",
+      "material": {
+        "kind": "powder-form feedstock",
+        "form": "granular"
+      },
+      "stage": "converted preparation",
+      "operations": [
+        "surface-convert"
+      ],
+      "prepared_form": "granular:converted preparation"
+    },
+    "product": {
+      "sort": "product type",
+      "producer_id": "PREDICTION_ONLY",
+      "material": {
+        "kind": "powder-form feedstock",
+        "form": "granular"
+      },
+      "operations": [
+        "surface-convert"
+      ],
+      "prepared_form": "granular:surface-convert",
+      "genealogy": {
+        "source_material": {
+          "kind": "powder-form feedstock",
+          "form": "granular"
+        },
+        "recipe_operations": [
+          "surface-convert"
+        ]
+      },
+      "ontological_status": "prescribed type; no production or batch asserted"
+    },
+    "error": null
+  },
+  "shedy": {
+    "outcome": "ACCEPT",
+    "recipe": {
+      "surface": "shedy",
+      "sort": "preparation recipe",
+      "material": {
+        "kind": "sheet-form feedstock",
+        "form": "laminar"
+      },
+      "stage": "converted preparation",
+      "operations": [
+        "surface-convert"
+      ],
+      "prepared_form": "laminar:converted preparation"
+    },
+    "product": {
+      "sort": "product type",
+      "producer_id": "PREDICTION_ONLY",
+      "material": {
+        "kind": "sheet-form feedstock",
+        "form": "laminar"
+      },
+      "operations": [
+        "surface-convert"
+      ],
+      "prepared_form": "laminar:surface-convert",
+      "genealogy": {
+        "source_material": {
+          "kind": "sheet-form feedstock",
+          "form": "laminar"
+        },
+        "recipe_operations": [
+          "surface-convert"
+        ]
+      },
+      "ontological_status": "prescribed type; no production or batch asserted"
+    },
+    "error": null
+  },
+  "cheey": {
+    "outcome": "REJECT",
+    "recipe": {
+      "surface": "cheey",
+      "sort": "preparation recipe",
+      "material": {
+        "kind": "powder-form feedstock",
+        "form": "granular"
+      },
+      "stage": "source preparation",
+      "operations": [],
+      "prepared_form": "granular:source preparation"
+    },
+    "product": null,
+    "error": "QOKEDY requires a converted preparation recipe"
+  },
+  "sheey": {
+    "outcome": "REJECT",
+    "recipe": {
+      "surface": "sheey",
+      "sort": "preparation recipe",
+      "material": {
+        "kind": "sheet-form feedstock",
+        "form": "laminar"
+      },
+      "stage": "source preparation",
+      "operations": [],
+      "prepared_form": "laminar:source preparation"
+    },
+    "product": null,
+    "error": "QOKEDY requires a converted preparation recipe"
+  }
+}
