@@ -1,0 +1,31 @@
+# GDT1148 — ain/aiin crossed stem and physical-leaf prediction
+
+## Pre-data decision and budget
+User requests using retained structure to investigate frequent aiin, rather than free word glosses. Known directed composition and full-form residuals (608/1051) motivate a shared functional contrast, not an assumed morpheme. 1047 already tests necessary left/right host availability; do not replay it or interpret paragraph edges as sentences. 999's exact ykar frame failed transfer. 802 supplies the transparent smoothed-neighbour method for a DIFFERENT l/m target; its context gain was estimator-sensitive and its daiin lead retired. 626/636/637 paradigm and 759 boundary observations do not answer this crossed prediction. This changes the candidate family and outcome, not the claim that holdout modelling is new.
+
+Unknown: can immediate whole-word context predict ain versus aiin for an entirely withheld orthographic prefix on withheld whole physical leaves, beyond physical position/register? Positive transfer would justify a common context-sensitive formal contrast; failure parks this exact predictor rather than inventing semantic values. Bare forms must have their own transfer result; a bound-family positive cannot be exported automatically to bare aiin.
+
+Smallest test: one fixed transparent predictor, all six pinned GDT915 snapshots, all their admitted selectors, P prose only. No tuning, new decoder, image, reserve, external contact or larger control search. Inclusive45-minute checkpoint from local lock for implementation, validation, review, publication; preparation preceded lock. At checkpoint finish checks, do not expand. No semantic or significance claim whatever the result.
+
+## Sources, units and exposure
+Use DISCOVERY and EVALUATION snapshots for ZL3b/IT2a/RF1b. These are previously exposed179-selector sources, now recombined for deterministic crossed folds; original915 partitions and decisions remain unchanged. Treat alternate readings separately, not independent witnesses. Source allowlist fixed by915 SPEC; f84/f84r sealed and f116v unadmitted; all reserves closed. No raw TSV necessary. Pin all files before opening occurrence data for this test.
+
+Every raw group and uncertain group is retained in the source snapshots. Enumerate every pure lowercase whole matching ^(.*?)a(i{1,3})n$ in P rows. Prefix is an orthographic residual, not an identified stem or lexical meaning. Store ain,aiin,aiiin separately; main outcome is binary ain=0,aiin=1. aiiin remains an explicit unscored inventory stratum, no pooled numerical ladder. Other pure words containing aiin and uncertain groups containing literal ain/aiin are separate audit counts, never silently normalized. No trimming, casefolding or uncertainty repair.
+
+Physical leaf is integer in ^f([0-9]+), joining both faces and all panels. Fold=leaf modulo5. For each main event training excludes ALL events with its exact prefix, plus ALL events on ANY leaf in its fold. Thus no target prefix or physical leaf appears in training. Bare prefix empty is its own wholly withheld family. All events get predictions, including single-tail families; no favorable stem selection.
+
+## Frozen predictors
+Cell=(section,currier,hand,position). Position=SINGLE if one group, FINAL if last, PENULTIMATE if second last, otherwise EARLIER. Native original group indices/counts decide position; no deletion of uncertain groups. No paragraph flags used (RF missing). No page IDs, stem spelling, target characters, paragraph identities or target-tail outcomes used as features.
+
+A context is immediate same-line group with consecutive index and DEFINITE_SPACE on both sides of seam, and pure lowercase. Mask EVERY neighbour matching ^.*ai+n$ for any positive i-count, not just the two outcomes. Invalid/edge/echo neighbours are explicit missing, not context features. This avoids easy serial-tail copying. Whole-form neighbours remain whole; no learned component meanings exported.
+
+For each permitted training set: p0=(sum(y)+1)/(N+2). Baseline B for cell c: (sum_c(y)+20*p0)/(N_c+20). For side S and eligible neighbour w, prediction P_S=(sum_c,w(y)+20*B)/(N_c,w+20); missing/unseen neighbours fall back to B. Both sides are fit separately. C=(L+R)/2, including baseline fallback for a missing side. Fixed shrinkage20 from802's transparent audit; no learned hyperparameters. Four probabilities B/L/R/C produce exact candidate-form choices prefix+ain vs prefix+aiin; >=0.5 chooses aiin. Persist every probability, observed form, predicted form and log loss. Probabilities are classifier outputs, NOT probabilities of meanings.
+
+Report inventory/counts, own-stem and cross-stem exact forms, uncertainty/boundary/echo exclusions, prefix and leaf counts, side-context training coverage, and every per-event prediction. Full-source pins and group IDs permit reconstruction; don't export an isolated success as a reading.
+
+## Outcomes fixed before scoring
+Primary metric gain=loss(B)-loss(C), natural-log units, first mean within physical leaf then mean over leaves. Report event mean and prefix mean too, not a new decision gate. Separately evaluate NONBARE and BARE. Capacity: nonbare >=100 binary events, >=5 physical leaves and >=2 prefixes each containing both outcomes; bare >=30 binary events, >=5 leaves and both outcomes. Count source uncertainty separately; no cross-reader pooling.
+
+A stratum is TRANSFER_SUPPORTED_LIMITED only if capacity and gain>=0.01 in BOTH ZL and IT. Otherwise INSUFFICIENT_CAPACITY if either capacity fails, else NO_MATERIAL_TRANSFER. RF is required descriptive sensitivity, not a deciding independent replicate. Family decision JOINT_BARE_BOUND_TRANSFER only if both strata supported; BOUND_ONLY or BARE_ONLY if just one; otherwise NO_JOINT_TRANSFER. Left-minus-right gain is descriptive; it does not identify attachment direction or conjunction scope.
+
+No suitable full-search null, significance or semantic probability. No independent meanings or reserve confirmation. Prior source exposure and earlier paradigm selection preclude blind discovery claims. A positive is predictive formal information only; negative applies to this encoding/context/smoothing choice, not all grammar, numerals or aiin meaning. Keep1047/999/802 stops and1051 distinctions.

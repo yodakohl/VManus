@@ -1176,3 +1176,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1145 | GDT1145 | `PARTIAL_ACCOUNT_NO_EXECUTED_WRITTEN_MEMBERSHIP_CHAIN` | [report](../experiments/yolo/gdt1145_ordered_membership_whole_reading/REPORT.md) | 26 | 170.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT1146 | GDT1146 | `CONTRADICTED_TRANSFER_ASSUMPTION` | [report](../experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/REPORT.md) | 22 | 579.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT1147 | GDT1147 | `FIXED_CONSTRUCTION_CONTEXT_INCOMPLETE` | [report](../experiments/yolo/gdt1147_complete_return_context_capacity/REPORT.md) | 17 | 714.3 KiB | 3 | STRUCTURED_YOLO |
+| GDT1148 | GDT1148 | `NO_JOINT_TRANSFER` | [report](../experiments/yolo/gdt1148_aiin_crossed_context_prediction/REPORT.md) | 19 | 3.4 MiB | 5 | STRUCTURED_YOLO |
