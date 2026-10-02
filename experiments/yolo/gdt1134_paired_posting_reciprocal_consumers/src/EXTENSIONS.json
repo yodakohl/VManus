@@ -1,0 +1,706 @@
+{
+  "freeze_utc": "2026-10-02T01:03:44.993094+00:00",
+  "phase": "PRE_FIRST_COMPLETED_DERIVATION_EXTENSIONS",
+  "public_go_commit": "ce9740c3b8cda0c939d27fe837586bcbc93fed8a223a8ac96f454007a1481f7209474",
+  "core_sha256": "5de11596e2409aa4005002fc6a4d31257d5aaff1d01b07bec4c92dd2fd3d886c",
+  "source_sha256": "ee7d0c84fe66793b03c6bc2b021c475da8a223a8ac96f454007a1481f7209474",
+  "mode": "DECLARATIVE_LEDGER_CERTIFICATES_ACTUAL_JOURNAL_MARKS",
+  "dictionary": [
+    {
+      "raw_form": "pchedal",
+      "entry_id": "W:pchedal",
+      "rule": "FRAME",
+      "meaning": "Introduce only T, J/L, ordered role1/role2, uninterpreted V/D; no posting or mark.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 3
+      },
+      "fixed_representation": [
+        "p",
+        "Ce",
+        "dal"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.5|G001",
+        "IT2a|f105v.5|G001",
+        "RF1b|f105v.5|G001"
+      ]
+    },
+    {
+      "raw_form": "qopchdy",
+      "entry_id": "W:qopchdy",
+      "rule": "ENTRY_FIRST_FIELD",
+      "meaning": "Certify the preexisting Ledger transfer for first written frame role, then expose that certificate as its posting field.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 2,
+        "fixed_unit_whole_residual_cost": 3
+      },
+      "fixed_representation": [
+        "qo",
+        "p",
+        "Cdy"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.5|G002",
+        "IT2a|f105v.5|G002",
+        "RF1b|f105v.5|G002"
+      ]
+    },
+    {
+      "raw_form": "daiin",
+      "entry_id": "W:daiin",
+      "rule": "MARK",
+      "meaning": "Apply identical MARK_POSTED to the current actual posting field; return separate Journal mark.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 1
+      },
+      "fixed_representation": [
+        "daN"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.5|G003",
+        "ZL3b|f105v.5|G005",
+        "IT2a|f105v.5|G003",
+        "IT2a|f105v.5|G005",
+        "RF1b|f105v.5|G003",
+        "RF1b|f105v.5|G005"
+      ]
+    },
+    {
+      "raw_form": "chedy",
+      "entry_id": "W:chedy",
+      "rule": "ENTRY_LAST_FIELD",
+      "meaning": "Certify the preexisting Ledger transfer for last written frame role, then expose its posting field.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 2,
+        "fixed_unit_whole_residual_cost": 1
+      },
+      "fixed_representation": [
+        "Cedy"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.5|G004",
+        "IT2a|f105v.5|G004",
+        "RF1b|f105v.5|G004"
+      ]
+    },
+    {
+      "raw_form": "okaildy",
+      "entry_id": "W:okaildy",
+      "rule": "CHECK_LAST_CERT",
+      "meaning": "State the actual second-entry certificate is completed and belongs to this transaction.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 4
+      },
+      "fixed_representation": [
+        "ok",
+        "ai",
+        "l",
+        "dy"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.5|G006",
+        "IT2a|f105v.5|G006",
+        "RF1b|f105v.5|G006"
+      ]
+    },
+    {
+      "raw_form": "opchedaiin",
+      "entry_id": "W:opchedaiin",
+      "rule": "CHECK_FIRST_CERT",
+      "meaning": "State the actual first-entry certificate is completed and belongs to this transaction.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 3
+      },
+      "fixed_representation": [
+        "op",
+        "Ce",
+        "daN"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.5|G007",
+        "IT2a|f105v.5|G007",
+        "RF1b|f105v.5|G007"
+      ]
+    },
+    {
+      "raw_form": "opcheo",
+      "entry_id": "W:opcheo",
+      "rule": "COLLECT_CERT_PROPS",
+      "meaning": "Collect the two actual certificate propositions, with their separate owners.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 3
+      },
+      "fixed_representation": [
+        "op",
+        "Ce",
+        "o"
+      ],
+      "occurrences": [
+        "IT2a|f105v.5|G008"
+      ]
+    },
+    {
+      "raw_form": "olkeedy",
+      "entry_id": "W:olkeedy",
+      "rule": "CHECK_CERT_PAIR",
+      "meaning": "Check the collected entry certificates share T/V/D and have distinct frame owners.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 2
+      },
+      "fixed_representation": [
+        "olk",
+        "Edy"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.5|G009",
+        "IT2a|f105v.5|G009",
+        "RF1b|f105v.5|G009"
+      ]
+    },
+    {
+      "raw_form": "sairom",
+      "entry_id": "W:sairom",
+      "rule": "ASSERT_LAST_PROP",
+      "meaning": "Assert that tested certificate-pair content; does not assert payment or physical posting.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 4
+      },
+      "fixed_representation": [
+        "s",
+        "air",
+        "o",
+        "m"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.5|G010",
+        "IT2a|f105v.5|G010",
+        "RF1b|f105v.5|G010"
+      ]
+    },
+    {
+      "raw_form": "dcheo",
+      "entry_id": "W:dcheo",
+      "rule": "CHECK_FIRST_CERT",
+      "meaning": "State the retained first-entry certificate with the same owner/T.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 3
+      },
+      "fixed_representation": [
+        "d",
+        "Ce",
+        "o"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G001",
+        "IT2a|f105v.6|G001",
+        "RF1b|f105v.6|G001"
+      ]
+    },
+    {
+      "raw_form": "fcheeody",
+      "entry_id": "W:fcheeody",
+      "rule": "CHECK_LAST_CERT",
+      "meaning": "State the retained second-entry certificate with the same owner/T.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 3
+      },
+      "fixed_representation": [
+        "f",
+        "CE",
+        "ody"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G002",
+        "IT2a|f105v.6|G002"
+      ]
+    },
+    {
+      "raw_form": "ckheey",
+      "entry_id": "W:ckheey",
+      "rule": "COLLECT_CERT_PROPS",
+      "meaning": "Collect those two actual retained-entry propositions for later reading.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 2
+      },
+      "fixed_representation": [
+        "K",
+        "Ey"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G003",
+        "IT2a|f105v.6|G003",
+        "RF1b|f105v.6|G003"
+      ]
+    },
+    {
+      "raw_form": "dar",
+      "entry_id": "W:dar",
+      "rule": "COUNTER_PREFIX",
+      "meaning": "The one paid lexicalized whole COUNTER operator awaiting the actual written right RoleSelection.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 1
+      },
+      "fixed_representation": [
+        "dar"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G004",
+        "ZL3b|f105v.6|G007",
+        "IT2a|f105v.6|G004",
+        "IT2a|f105v.6|G007",
+        "RF1b|f105v.6|G004",
+        "RF1b|f105v.6|G007"
+      ]
+    },
+    {
+      "raw_form": "aiin",
+      "entry_id": "W:aiin",
+      "rule": "SELECT_FIRST_MARK_ROLE",
+      "meaning": "Project original owner/T from the actual first MARK_POSTED return; not a free role1 constant.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 1
+      },
+      "fixed_representation": [
+        "aN"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G005",
+        "IT2a|f105v.6|G005",
+        "RF1b|f105v.6|G005"
+      ]
+    },
+    {
+      "raw_form": "al",
+      "entry_id": "W:al",
+      "rule": "COLLECT_COUNTER_INFIX",
+      "meaning": "Capture first actual COUNTER result and collect it with the next written returned COUNTER result.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 1
+      },
+      "fixed_representation": [
+        "al"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G006",
+        "IT2a|f105v.6|G006",
+        "RF1b|f105v.6|G006"
+      ]
+    },
+    {
+      "raw_form": "ar",
+      "entry_id": "W:ar",
+      "rule": "SELECT_LAST_MARK_ROLE",
+      "meaning": "Project original owner/T from the actual last MARK_POSTED return; not a free role2 constant.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 1
+      },
+      "fixed_representation": [
+        "ar"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G008",
+        "IT2a|f105v.6|G008",
+        "RF1b|f105v.6|G008"
+      ]
+    },
+    {
+      "raw_form": "daiiidy",
+      "entry_id": "W:daiiidy",
+      "rule": "CHECK_COUNTER_PAIR",
+      "meaning": "Check both actual counter results have T and distinct opposite owners with their source mark origins retained.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 5
+      },
+      "fixed_representation": [
+        "d",
+        "ai",
+        "i",
+        "i",
+        "dy"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G009",
+        "IT2a|f105v.6|G009",
+        "RF1b|f105v.6|G009"
+      ]
+    },
+    {
+      "raw_form": "otedy",
+      "entry_id": "W:otedy",
+      "rule": "PROJECT_FIRST_COUNTER",
+      "meaning": "Return the actual first member of the COUNTER collection.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 2
+      },
+      "fixed_representation": [
+        "ot",
+        "edy"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G010",
+        "IT2a|f105v.6|G010",
+        "RF1b|f105v.6|G010"
+      ]
+    },
+    {
+      "raw_form": "oteody",
+      "entry_id": "W:oteody",
+      "rule": "READ_RETURNED_MARK",
+      "meaning": "Read the retained mark owned by that actual returned counteraccount, preserving T.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 3
+      },
+      "fixed_representation": [
+        "ot",
+        "e",
+        "ody"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.6|G011",
+        "IT2a|f105v.6|G011",
+        "RF1b|f105v.6|G011"
+      ]
+    },
+    {
+      "raw_form": "ytaiin",
+      "entry_id": "W:ytaiin",
+      "rule": "PROJECT_LAST_COUNTER",
+      "meaning": "Return the actual last member of the COUNTER collection.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 2
+      },
+      "fixed_representation": [
+        "yt",
+        "aN"
+      ],
+      "occurrences": [
+        "IT2a|f105v.6|G012",
+        "RF1b|f105v.6|G012"
+      ]
+    },
+    {
+      "raw_form": "g",
+      "entry_id": "W:g",
+      "rule": "READ_RETURNED_MARK",
+      "meaning": "Same mark-read operation for the other actual projected returned account.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 1
+      },
+      "fixed_representation": [
+        "g"
+      ],
+      "occurrences": [
+        "IT2a|f105v.6|G013",
+        "RF1b|f105v.6|G013"
+      ]
+    },
+    {
+      "raw_form": "ycheeo",
+      "entry_id": "W:ycheeo",
+      "rule": "COLLECT_MARK_READS",
+      "meaning": "Collect the two actual owner-specific MarkRead returns, no recreated account lookup.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 3
+      },
+      "fixed_representation": [
+        "y",
+        "CE",
+        "o"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.7|G001",
+        "IT2a|f105v.7|G001",
+        "RF1b|f105v.7|G001"
+      ]
+    },
+    {
+      "raw_form": "lkaiin",
+      "entry_id": "W:lkaiin",
+      "rule": "CHECK_READ_PAIR",
+      "meaning": "State whether the actual read pair records completion for both returned owners under one T.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 2
+      },
+      "fixed_representation": [
+        "lk",
+        "aN"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.7|G002",
+        "IT2a|f105v.7|G002",
+        "RF1b|f105v.7|G002"
+      ]
+    },
+    {
+      "raw_form": "otair",
+      "entry_id": "W:otair",
+      "rule": "ASSERT_LAST_PROP",
+      "meaning": "Assert that mark-pair result with its actual values, including a false/missing changed world.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 2
+      },
+      "fixed_representation": [
+        "ot",
+        "air"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.7|G003",
+        "IT2a|f105v.7|G003",
+        "RF1b|f105v.7|G003"
+      ]
+    },
+    {
+      "raw_form": "ol",
+      "entry_id": "W:ol",
+      "rule": "REFERENCE_READ_PAIR",
+      "meaning": "Refer to the actual earlier MarkRead collection; identity-preserving reference, not role reconstruction.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 1
+      },
+      "fixed_representation": [
+        "ol"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.7|G004",
+        "IT2a|f105v.7|G004",
+        "RF1b|f105v.7|G004"
+      ]
+    },
+    {
+      "raw_form": "olkaiin",
+      "entry_id": "W:olkaiin",
+      "rule": "PROJECT_FIRST_READ",
+      "meaning": "Return actual first MarkRead member from that referred collection.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 2
+      },
+      "fixed_representation": [
+        "olk",
+        "aN"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.7|G005",
+        "IT2a|f105v.7|G005",
+        "RF1b|f105v.7|G005"
+      ]
+    },
+    {
+      "raw_form": "okairody",
+      "entry_id": "W:okairody",
+      "rule": "PROJECT_LAST_READ",
+      "meaning": "Return actual last MarkRead member from that referred collection.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 1,
+        "fixed_unit_whole_residual_cost": 3
+      },
+      "fixed_representation": [
+        "ok",
+        "air",
+        "ody"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.7|G006",
+        "IT2a|f105v.7|G006",
+        "RF1b|f105v.7|G006"
+      ]
+    },
+    {
+      "raw_form": "lchedr",
+      "entry_id": "W:lchedr",
+      "rule": "COLLECT_ASSERT_READS",
+      "meaning": "Collect those actual MarkRead members and assert their individual recorded statuses as the terminal statement.",
+      "cost": {
+        "whole_assignment": 1,
+        "primitive_components": 2,
+        "fixed_unit_whole_residual_cost": 4
+      },
+      "fixed_representation": [
+        "l",
+        "Ce",
+        "d",
+        "r"
+      ],
+      "occurrences": [
+        "ZL3b|f105v.7|G007",
+        "IT2a|f105v.7|G007"
+      ]
+    }
+  ],
+  "formal_policy": "All fixed ordered units are preserved; meanings are paid exact-whole values. No new internal semantic segmentation or transparent null unit is claimed. dar remains fixed atomicdar; daiin remains fixeddaN. opchedaiin is a separately paid exact whole, not a productive daN extension.",
+  "additional_primitive_families": 0,
+  "extra_grammar_rules": [
+    {
+      "id": "PREFIX_COUNTER",
+      "rule": "dar stores the unchanged COUNTER callable; next RoleSelection directly supplies its operand and produces the result. No intervening unknown allowed.",
+      "cost": 1
+    },
+    {
+      "id": "INFIX_COLLECT_COUNTER",
+      "rule": "al captures latest returned COUNTER object and awaits the next returned COUNTER object, preserving both exact object references.",
+      "cost": 1
+    }
+  ],
+  "reference_defaults": [
+    {
+      "name": "most recent posting field",
+      "cost": 1
+    },
+    {
+      "name": "actual first/last retained MARK outputs in written order",
+      "cost": 2
+    },
+    {
+      "name": "actual first/last earlier certificate returns",
+      "cost": 2
+    },
+    {
+      "name": "two most recent certificate-check propositions",
+      "cost": 1
+    },
+    {
+      "name": "latest earlier countercollection; first/last actual member",
+      "cost": 2
+    },
+    {
+      "name": "most recent projected actual COUNTER object",
+      "cost": 1
+    },
+    {
+      "name": "actual two latest MarkRead objects; later reference to that exact collection",
+      "cost": 2
+    },
+    {
+      "name": "latest prior CHECK proposition",
+      "cost": 1
+    }
+  ],
+  "background_world_inputs": [
+    {
+      "id": "ledger_entry_for_role1",
+      "content": "Completed transfer record exists for T,first written frame role,V,D in L.",
+      "cost": 1,
+      "not_created_by_program": true
+    },
+    {
+      "id": "ledger_entry_for_role2",
+      "content": "Completed transfer record exists for T,last written frame role,V,D in L.",
+      "cost": 1,
+      "not_created_by_program": true
+    }
+  ],
+  "written_assertion_costs": "Both ENTRY_CERT+FIELD whole entries are additional costs beyond the two background records. FRAME introduces only role structure and metadata, no completed episode.",
+  "role_order_cost": 1,
+  "constants_introduction_cost": 7,
+  "aliases": [
+    {
+      "rule": "ASSERT_LAST_PROP",
+      "words": [
+        "sairom",
+        "otair"
+      ],
+      "extra_alias_cost": 1
+    },
+    {
+      "rule": "CHECK_FIRST_CERT",
+      "words": [
+        "opchedaiin",
+        "dcheo"
+      ],
+      "extra_alias_cost": 1
+    },
+    {
+      "rule": "CHECK_LAST_CERT",
+      "words": [
+        "okaildy",
+        "fcheeody"
+      ],
+      "extra_alias_cost": 1
+    },
+    {
+      "rule": "COLLECT_CERT_PROPS",
+      "words": [
+        "opcheo",
+        "ckheey"
+      ],
+      "extra_alias_cost": 1
+    },
+    {
+      "rule": "READ_RETURNED_MARK",
+      "words": [
+        "oteody",
+        "g"
+      ],
+      "extra_alias_cost": 1
+    }
+  ],
+  "unknown_exact_forms": [
+    "@221;pcheo",
+    "[g:m]",
+    "[o:y]pcheo",
+    "fcheeojy",
+    "lche@152;r",
+    "ykaiin"
+  ],
+  "unknown_policy": "First unknown raw form stops semantic execution; later native rows and fixed representations remain visible with dictionary entries but unexecuted. Literal entity/bracket variants never inherit IT meaning.",
+  "terminal_policy": "CHECK propositions and ASSERT outputs are genuine conditional terminal statements; repeated certificate assertions are explicitly redundant. Collection/reference intermediates require actual later use.",
+  "counterfactuals": [
+    "delete one actual background entry; fail actual written ENTRY_CERT and execute no invented posting",
+    "change only one retained mark value; only its dependent READ changes",
+    "remove one MARK operation; later markselector/read obligation missing",
+    "replace one earlier mark owner/selector by unrelated same-value role; COUNTER membership or mark identity fails",
+    "wrong Counter returned role or T must reach READ and fail actual lookup",
+    "global consistent role-label renaming preserves all statuses/origin dataflow",
+    "strict common-DONE/sharedscalar replacements evaluated at fixed interfaces; missing owner/status interfaces are partial, not semantic type-refutations; wide numericcoding and separate role/status relations remain rivals"
+  ]
+}

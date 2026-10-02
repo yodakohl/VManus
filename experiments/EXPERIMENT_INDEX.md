@@ -1160,4 +1160,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 - GDT1133: actual IT OR/ODY consumers, four dead references, alternate barriers; no complete reading. [Decision](yolo/gdt1133_caption_product_shared_components/REPORT.md).
 
-- GDT1134: registered whole30-group paired posting/reference consumer trial. [Contract](yolo/gdt1134_paired_posting_reciprocal_consumers/PREREGISTRATION.md). No result yet.
+- GDT1134: actual separate counteraccount mark reads; unpriced dependency and failed precise forecast; no meaning selection. [Decision](yolo/gdt1134_paired_posting_reciprocal_consumers/REPORT.md).

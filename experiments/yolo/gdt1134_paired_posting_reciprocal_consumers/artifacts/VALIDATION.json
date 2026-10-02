@@ -1,0 +1,549 @@
+{
+  "experiment": "GDT1134",
+  "status": "REPLAY_AND_FLOW_PASS_WITH_PRESERVED_FROZEN_CONTRACT_LIMITS",
+  "semantic_validation": false,
+  "strict_frozen_complete_certified": false,
+  "checks": [
+    {
+      "check": "blinded_expectation_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "contract_and_all_eight_registered_input_pins",
+      "status": "PASS"
+    },
+    {
+      "check": "root_release_final_receipt_and_all_five_author_pins",
+      "status": "PASS"
+    },
+    {
+      "check": "initial_extension_final_freeze_bytes_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "source_core_extension_account_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "guarded_selector_only_three_owned_loci",
+      "status": "PASS"
+    },
+    {
+      "check": "all90_source_native_rows_11fields_guarded_conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "IT2a_all30_native_fields_and_boundaries",
+      "status": "PASS"
+    },
+    {
+      "check": "ZL3b_all30_native_fields_and_boundaries",
+      "status": "PASS"
+    },
+    {
+      "check": "RF1b_all30_native_fields_and_boundaries",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged605_64merges_all_hardchunks_and_units",
+      "status": "PASS"
+    },
+    {
+      "check": "exact_whole_occurrences_and_frozen_representations",
+      "status": "PASS"
+    },
+    {
+      "check": "same_rule_aliases_declared_and_priced",
+      "status": "PASS"
+    },
+    {
+      "check": "account_cost_inventory_exact_frozen_extensions",
+      "status": "PASS"
+    },
+    {
+      "check": "all_three_deterministic_account_replays_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "IT2a_first_barrier_and_exact_unexecuted_tail",
+      "status": "PASS"
+    },
+    {
+      "check": "ZL3b_first_barrier_and_exact_unexecuted_tail",
+      "status": "PASS"
+    },
+    {
+      "check": "RF1b_first_barrier_and_exact_unexecuted_tail",
+      "status": "PASS"
+    },
+    {
+      "check": "IT_actual_graph_all30_contribute_to_real_terminal_assertions",
+      "status": "PASS"
+    },
+    {
+      "check": "two_distinct_marks_same_frozen_function_owners_T",
+      "status": "PASS"
+    },
+    {
+      "check": "two_COUNTER_same_function_actual_right_role_mark_bindings",
+      "status": "PASS"
+    },
+    {
+      "check": "both_late_reads_use_actual_counterreturn_owner_mark_and_T",
+      "status": "PASS"
+    },
+    {
+      "check": "all13_actual_intervention_outcomes_replayed_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "both_mark_changes_reach_late_read_only_dependent_side_changes",
+      "status": "PASS"
+    },
+    {
+      "check": "early_wrong_counter_owner_T_probes_honestly_stop_before_READ",
+      "status": "PASS"
+    },
+    {
+      "check": "declarative_entry_deletion_never_creates_entries",
+      "status": "PASS"
+    },
+    {
+      "check": "strict_DONE_loses_mixed_side_status_and_scalar_interface_missing",
+      "status": "PASS"
+    },
+    {
+      "check": "late_READ_1_actually_uses_changed_returned_account",
+      "status": "PASS"
+    },
+    {
+      "check": "late_READ_1_actually_checks_returned_T",
+      "status": "PASS"
+    },
+    {
+      "check": "late_READ_2_actually_uses_changed_returned_account",
+      "status": "PASS"
+    },
+    {
+      "check": "late_READ_2_actually_checks_returned_T",
+      "status": "PASS"
+    },
+    {
+      "check": "strict_MARK_dynamic_role_value_date_ledger_revalidation_diagnostic",
+      "status": "FAIL",
+      "detail": "Post-release diagnostic only: separately injected external entry mutations after valid certification are accepted by MARK. All preregistered initial-world entry deletions pass; unchanged baseline remains consistent. This is absent dynamic metadata revalidation, not a preregistered whole-world contradiction."
+    },
+    {
+      "check": "all_actual_lkaiin_certificate_dependencies_individually_frozen_and_priced",
+      "status": "FAIL",
+      "detail": "Code CHECK_READ_PAIR additionally reads latest cert_props collection. Frozen lkaiin meaning/defaults do not individually declare this edge; without it ckheey collection is dead."
+    },
+    {
+      "check": "frozen_extension_counter_policy_late_READ_claim_matches_actual13_cases",
+      "status": "FAIL",
+      "detail": "EXTENSIONS says wrong Counter owner/T must reach READ; actual frozen probes stop at earlier .6G009 pair check. Honest account disclosure retained; do not invent late execution."
+    },
+    {
+      "check": "public_GO_metadata_literal_matches_actual_public_commit",
+      "status": "FAIL",
+      "detail": "Frozen EXTENSIONS public_go_commit has source-hash suffix; separate public registration is valid and disclosed."
+    },
+    {
+      "check": "source_and_all_frozen_author_bytes_unchanged_after_validation",
+      "status": "PASS"
+    }
+  ],
+  "failed_checks": 4,
+  "computed_cost_counts": {
+    "core_primitives": 12,
+    "opaque_constants": 7,
+    "whole_entries": 28,
+    "whole_assignment_cost": 28,
+    "primitive_component_cost": 31,
+    "formal_residual_cost": 66,
+    "extra_syntax_rules": 2,
+    "reference_default_cost": 12,
+    "alias_cost": 5,
+    "background_entries": 2
+  },
+  "first_barriers": {
+    "IT2a": null,
+    "ZL3b": "ZL3b|f105v.5|G008",
+    "RF1b": "RF1b|f105v.5|G008"
+  },
+  "whole_contribution": {
+    "IT2a": {
+      "terminal_assertion_sources": [
+        "IT2a|f105v.5|G006",
+        "IT2a|f105v.5|G007",
+        "IT2a|f105v.5|G009",
+        "IT2a|f105v.5|G010",
+        "IT2a|f105v.6|G001",
+        "IT2a|f105v.6|G002",
+        "IT2a|f105v.6|G009",
+        "IT2a|f105v.7|G002",
+        "IT2a|f105v.7|G003",
+        "IT2a|f105v.7|G007"
+      ],
+      "transitively_dead_operational_groups": [],
+      "dead_without_extra_lkaiin_certificate_dependency": [
+        "IT2a|f105v.6|G003"
+      ]
+    },
+    "ZL3b": {
+      "terminal_assertion_sources": [
+        "ZL3b|f105v.5|G006",
+        "ZL3b|f105v.5|G007"
+      ],
+      "transitively_dead_operational_groups": [
+        "ZL3b|f105v.5|G003",
+        "ZL3b|f105v.5|G005"
+      ],
+      "dead_without_extra_lkaiin_certificate_dependency": [
+        "ZL3b|f105v.5|G003",
+        "ZL3b|f105v.5|G005"
+      ]
+    },
+    "RF1b": {
+      "terminal_assertion_sources": [
+        "RF1b|f105v.5|G006",
+        "RF1b|f105v.5|G007"
+      ],
+      "transitively_dead_operational_groups": [
+        "RF1b|f105v.5|G003",
+        "RF1b|f105v.5|G005"
+      ],
+      "dead_without_extra_lkaiin_certificate_dependency": [
+        "RF1b|f105v.5|G003",
+        "RF1b|f105v.5|G005"
+      ]
+    }
+  },
+  "thirteen_intervention_outcomes": [
+    {
+      "name": "FALSE_FIRST_MARK",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "COMPLETE_C0",
+      "first_barrier": null,
+      "read_values": [
+        {
+          "transaction": "T",
+          "owner": "B",
+          "mark_id": "IT2a|f105v.5|G005#1",
+          "counter_result_id": "IT2a|f105v.6|G005#2",
+          "recorded_completed": true
+        },
+        {
+          "transaction": "T",
+          "owner": "A",
+          "mark_id": "IT2a|f105v.5|G003#1",
+          "counter_result_id": "IT2a|f105v.6|G008#2",
+          "recorded_completed": false
+        }
+      ],
+      "entry_count": 2
+    },
+    {
+      "name": "FALSE_LAST_MARK",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "COMPLETE_C0",
+      "first_barrier": null,
+      "read_values": [
+        {
+          "transaction": "T",
+          "owner": "B",
+          "mark_id": "IT2a|f105v.5|G005#1",
+          "counter_result_id": "IT2a|f105v.6|G005#2",
+          "recorded_completed": false
+        },
+        {
+          "transaction": "T",
+          "owner": "A",
+          "mark_id": "IT2a|f105v.5|G003#1",
+          "counter_result_id": "IT2a|f105v.6|G008#2",
+          "recorded_completed": true
+        }
+      ],
+      "entry_count": 2
+    },
+    {
+      "name": "REMOVE_FIRST_MARK",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "first_barrier": "IT2a|f105v.6|G009",
+      "read_values": [],
+      "entry_count": 2
+    },
+    {
+      "name": "REMOVE_LAST_MARK",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "first_barrier": "IT2a|f105v.6|G009",
+      "read_values": [],
+      "entry_count": 2
+    },
+    {
+      "name": "UNRELATED_SAME_VALUE_SELECTOR",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "first_barrier": "IT2a|f105v.6|G005",
+      "read_values": [],
+      "entry_count": 2
+    },
+    {
+      "name": "PARTIAL_SELECTOR_SWAP",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "first_barrier": "IT2a|f105v.6|G009",
+      "read_values": [],
+      "entry_count": 2
+    },
+    {
+      "name": "WRONG_RETURNED_OWNER",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "first_barrier": "IT2a|f105v.6|G009",
+      "read_values": [],
+      "entry_count": 2
+    },
+    {
+      "name": "WRONG_RETURNED_TRANSACTION",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "first_barrier": "IT2a|f105v.6|G009",
+      "read_values": [],
+      "entry_count": 2
+    },
+    {
+      "name": "COMMON_DONE_FALSE_FIRST",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "COMPLETE_C0",
+      "first_barrier": null,
+      "read_values": [
+        {
+          "transaction": "T",
+          "owner": "B",
+          "mark_id": "IT2a|f105v.5|G005#1",
+          "counter_result_id": "IT2a|f105v.6|G005#2",
+          "recorded_completed": false
+        },
+        {
+          "transaction": "T",
+          "owner": "A",
+          "mark_id": "IT2a|f105v.5|G003#1",
+          "counter_result_id": "IT2a|f105v.6|G008#2",
+          "recorded_completed": false
+        }
+      ],
+      "entry_count": 2
+    },
+    {
+      "name": "COMMON_SCALAR",
+      "engineering_or_declared_counterfactual_only": true,
+      "status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "first_barrier": "IT2a|f105v.7|G002",
+      "read_values": [
+        {
+          "transaction": "T",
+          "owner": "B",
+          "mark_id": "IT2a|f105v.5|G005#1",
+          "counter_result_id": "IT2a|f105v.6|G005#2",
+          "recorded_completed": "V"
+        },
+        {
+          "transaction": "T",
+          "owner": "A",
+          "mark_id": "IT2a|f105v.5|G003#1",
+          "counter_result_id": "IT2a|f105v.6|G008#2",
+          "recorded_completed": "V"
+        }
+      ],
+      "entry_count": 2
+    },
+    {
+      "name": "DELETE_ACTUAL_LEDGER_ENTRY_1",
+      "question": "Declarative certificate-dependency failure; no physical posting event was performed.",
+      "deleted_background_record": {
+        "id": "external-entry-A",
+        "transaction": "T",
+        "role": "A",
+        "value": "V",
+        "date": "D",
+        "ledger": "L",
+        "completed": true
+      },
+      "status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "first_barrier": "IT2a|f105v.5|G002",
+      "entry_count": 1,
+      "ledger_entry_invented": false
+    },
+    {
+      "name": "DELETE_ACTUAL_LEDGER_ENTRY_2",
+      "question": "Declarative certificate-dependency failure; no physical posting event was performed.",
+      "deleted_background_record": {
+        "id": "external-entry-B",
+        "transaction": "T",
+        "role": "B",
+        "value": "V",
+        "date": "D",
+        "ledger": "L",
+        "completed": true
+      },
+      "status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "first_barrier": "IT2a|f105v.5|G004",
+      "entry_count": 1,
+      "ledger_entry_invented": false
+    },
+    {
+      "name": "GLOBAL_ROLE_LABEL_RENAMING",
+      "status": "COMPLETE_C0",
+      "read_values": [
+        {
+          "transaction": "T",
+          "owner": "A",
+          "mark_id": "IT2a|f105v.5|G005#1",
+          "counter_result_id": "IT2a|f105v.6|G005#2",
+          "recorded_completed": true
+        },
+        {
+          "transaction": "T",
+          "owner": "B",
+          "mark_id": "IT2a|f105v.5|G003#1",
+          "counter_result_id": "IT2a|f105v.6|G008#2",
+          "recorded_completed": true
+        }
+      ],
+      "interpretation": "All role identities, entries and labels renamed consistently; no cardinal orientation selected."
+    }
+  ],
+  "independent_midstream_probes": [
+    {
+      "name": "CHANGE_RETURNED_ROLE_AT_LATE_READ_1",
+      "site": "IT2a|f105v.6|G011",
+      "first_barrier": null,
+      "read_values": [
+        {
+          "transaction": "T",
+          "owner": "A",
+          "mark_id": "IT2a|f105v.5|G003#1",
+          "counter_result_id": "IT2a|f105v.6|G005#2",
+          "recorded_completed": true
+        },
+        {
+          "transaction": "T",
+          "owner": "A",
+          "mark_id": "IT2a|f105v.5|G003#1",
+          "counter_result_id": "IT2a|f105v.6|G008#2",
+          "recorded_completed": true
+        }
+      ],
+      "mutation_reached": true,
+      "post_release_diagnostic": true
+    },
+    {
+      "name": "CHANGE_RETURNED_T_AT_LATE_READ_1",
+      "site": "IT2a|f105v.6|G011",
+      "first_barrier": "IT2a|f105v.6|G011",
+      "read_values": [],
+      "mutation_reached": true,
+      "post_release_diagnostic": true
+    },
+    {
+      "name": "CHANGE_RETURNED_ROLE_AT_LATE_READ_2",
+      "site": "IT2a|f105v.6|G013",
+      "first_barrier": null,
+      "read_values": [
+        {
+          "transaction": "T",
+          "owner": "B",
+          "mark_id": "IT2a|f105v.5|G005#1",
+          "counter_result_id": "IT2a|f105v.6|G005#2",
+          "recorded_completed": true
+        },
+        {
+          "transaction": "T",
+          "owner": "B",
+          "mark_id": "IT2a|f105v.5|G005#1",
+          "counter_result_id": "IT2a|f105v.6|G008#2",
+          "recorded_completed": true
+        }
+      ],
+      "mutation_reached": true,
+      "post_release_diagnostic": true
+    },
+    {
+      "name": "CHANGE_RETURNED_T_AT_LATE_READ_2",
+      "site": "IT2a|f105v.6|G013",
+      "first_barrier": "IT2a|f105v.6|G013",
+      "read_values": [
+        {
+          "transaction": "T",
+          "owner": "B",
+          "mark_id": "IT2a|f105v.5|G005#1",
+          "counter_result_id": "IT2a|f105v.6|G005#2",
+          "recorded_completed": true
+        }
+      ],
+      "mutation_reached": true,
+      "post_release_diagnostic": true
+    },
+    {
+      "name": "POST_RELEASE_DIAGNOSTIC_MUTATE_ROLE_AFTER_CERTIFICATION",
+      "site": "IT2a|f105v.5|G003",
+      "mark_accepted": true,
+      "first_barrier": null,
+      "entry_field_changed": "role",
+      "mutated_value": "X",
+      "terminal_truth": true,
+      "naturally_arose_in_baseline": false,
+      "post_release_diagnostic": true
+    },
+    {
+      "name": "POST_RELEASE_DIAGNOSTIC_MUTATE_VALUE_AFTER_CERTIFICATION",
+      "site": "IT2a|f105v.5|G003",
+      "mark_accepted": true,
+      "first_barrier": null,
+      "entry_field_changed": "value",
+      "mutated_value": "OTHER_VALUE",
+      "terminal_truth": true,
+      "naturally_arose_in_baseline": false,
+      "post_release_diagnostic": true
+    },
+    {
+      "name": "POST_RELEASE_DIAGNOSTIC_MUTATE_DATE_AFTER_CERTIFICATION",
+      "site": "IT2a|f105v.5|G003",
+      "mark_accepted": true,
+      "first_barrier": null,
+      "entry_field_changed": "date",
+      "mutated_value": "OTHER_DATE",
+      "terminal_truth": true,
+      "naturally_arose_in_baseline": false,
+      "post_release_diagnostic": true
+    },
+    {
+      "name": "POST_RELEASE_DIAGNOSTIC_MUTATE_LEDGER_AFTER_CERTIFICATION",
+      "site": "IT2a|f105v.5|G003",
+      "mark_accepted": true,
+      "first_barrier": null,
+      "entry_field_changed": "ledger",
+      "mutated_value": "OTHER_LEDGER",
+      "terminal_truth": true,
+      "naturally_arose_in_baseline": false,
+      "post_release_diagnostic": true
+    }
+  ],
+  "manual_unverified_limits": [
+    "Conservation/replay/argument sensitivity are technical behavior, not semantic truth or productive morphology.",
+    "IT complete operational graph uses an extra code-visible latest certificate-collection dependency at lkaiin not individually priced in the frozen meaning/defaults; strict frozen completeness is not certified.",
+    "Late READ tracing and post-certificate mutation are post-release diagnostics, separate from the original13 frozen intervention fixtures.",
+    "Wrong returned owner/T registered fixtures stop at the earlier written counter-pair check. Separate midstream late-READ instrumentation tests actual account/T operand use without claiming those fixtures reached READ.",
+    "Post-release diagnostic externally mutates role/value/date/ledger one field at a time after valid certification; MARK accepts all four. Baseline is consistent and all initial-world deletion fixtures pass. This demonstrates absent dynamic metadata revalidation, not naturally occurring mutation or a preregistered whole-world contradiction.",
+    "Strict DONE loses independent mixed recorded status; scalar branch lacks a scalar-to-completion interface. Neither excludes numerical coding with separately paid role/status relations or copied reference implementation.",
+    "A/B global renaming remains equivalent; equal V/D do not identify unrelated accounts or settlement.",
+    "Terminal propositions and redundant assertions count as stipulated C0 content, not independent observations. Primitive atomicity and interpretation plausibility remain manual.",
+    "One exposed leaf, zero confirmed meanings/independent confirmation, no physical Ledger posting, no payment/stock/settlement or reserve claim."
+  ],
+  "expected_sha256": "006007f772d4e8acf3738ffcbe191cf8c4ac68a5793532458c396b9c4e40108b",
+  "validator_sha256": "7ef437fe7df6d13b136c7ac1c2b560ff1059ce10a493b15d0708f03299a99f1c",
+  "final_receipt_sha256": "1a6ff24fef46114dfa4d2aedc083d4e0c125d50aa0a6fa5b3fbb1fe161ad6fc8"
+}

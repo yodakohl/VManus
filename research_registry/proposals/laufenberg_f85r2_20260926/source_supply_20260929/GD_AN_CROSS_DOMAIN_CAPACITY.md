@@ -47,3 +47,137 @@ This provides a **bounded candidate-specific whole-code compatibility barrier**,
 GDT1002 demonstrates that shared-code contradictions require a genuinely fixed whole grammar and complete joint parses; free aliases or a few surviving samples do not validate meaning. GDT1047 preserves bare-aiin left-host capacity, but retains IT paragraph-boundary countercases for daiin and does not identify any host's semantic type. GDT1033's fixed food-slot route has NO_CAPACITY; its absent trigger does not license widened frames or automatic new types. GDT1028's designed fixture success preserves its original source-conditioned decision, not the old word guesses as bindings.
 
 Advice only: retain the generic aN transfer possibility as untested and underconstrained; record the exact oteey barrier if all three whole entries are required to transfer. No selected experiment, new gloss, decoder, source admission or reopened predecessor is claimed. Both physical leaves were previously exposed; independent meaning-confirmation capacity remains0; confirmed translated words remain0. The accompanying JSON hashes the exact inspected primaries and frozen source/code inputs.
+
+## Advisory addendum: remove the actual alias freedom, not local C0 exploration
+
+Bounded12-minute decision advice only. Read current route/composition excerpt,
+exact GDT1003/1013 reports, GD_SEMANTIC_NEXT_BIG_PICTURE, GD_PIPELINE_TARGETS,
+and this existing capacity note. No target-body query, new source/image, experiment
+selection, Git/global edit or alteration of frozen1134 inputs. Prior entries and
+decisions above remain intact.
+
+### What enabled the old whole fits
+
+GDT1003 really shared one dictionary across each complete pair and exhausted
+its24 shared-value tuples. But61–62 **new whole spellings** could be assigned
+aliases to the47 assumed values; complete parses within each tuple remained
+unexhausted. In particular2–6 new THEN spellings could fill connective material.
+No representative instantiated a hazard pair, and shodol=agent uniqueness was
+imposed by the initial-clause grammar. Thus these solutions satisfy real joint
+constraints without establishing the labels' historical meanings.
+
+GDT1013 fixed all47 old values, valid settings and17 constructions. The added
+whole paragraph had only four old spellings, once each. Its remaining71–75
+whole assignments could distribute the existing cargo, action, reference and
+connective values across the written sequence while selecting a successful
+parse.14–28 fresh THEN spellings produced17–39 THEN positions, including runs
+of2–11 clauses. This is free **many-spellings-to-one-value assignment**, not
+changing the old dictionary or leaving words unconsumed. Cargo renaming,
+FIRST/OTHER and location-reference alternatives add explicit surviving symmetry.
+Full safe physical execution cannot recover the lexical/compositional information
+that this freedom did not require. A new source story completed with independently
+guessed producers and consumers repeats that existence question even if its
+underlying world is richer.
+
+### Smallest prospective constraint that removes it
+
+Freeze from a complete first account **more than aN**: the supported cuts, shared
+component function, left-payload contribution, whole residual, written argument
+construction, scope/time/reference policy, and actual output-consumer interface.
+Before a second account is authored, predict one exact interface consequence:
+the corresponding written derived form returns the same declared semantic type
+and provenance/owner rule, and a later written consumer must use that actual
+output rather than an ambient/default object. If aN preserves a description,
+the prediction is retrieval of its already-produced content, **not** automatic
+material identity, an event, an explanation or a report of actual truth.
+
+At the second passage, allow **zero new free whole-word aliases or predicate-
+bearing residuals in the tested producer→derived-form→consumer chain**. Permit
+only already-frozen operations or a predeclared productive rule with its fixed
+entry conditions. An opaque local content constant can be paid only in its
+declared argument slot; it cannot encode the required relation, final answer,
+new consumer or skipped paragraph. Freeze treatment of all remaining groups:
+previously paid entry or UNKNOWN barrier. If filling those barriers is necessary,
+that is another discovery authoring pass, not this prediction's successful test.
+The whole second paragraph stays present and cannot be called complete unless
+all its groups genuinely execute under the fixed contract.
+
+Concrete decision: a fully bound incompatible consumer rejects this particular
+portable interface; a missing producer/consumer or type yields PARTIAL/NO_CAPACITY;
+unchanged full reuse retains a more constrained C0 than the all-alias fit.
+The observation must distinguish a predeclared rival—e.g. retained description
+reference versus a derived material object—at a written consumer whose two
+requirements really differ. A rival with the same interfaces remains equivalent.
+No confirmed anchor is required to formulate these hypothetical consequences,
+but guessed source content remains an assumption rather than an independent
+endpoint. A purely forced consumer signature does not choose historical meaning.
+
+### Actual owned pair, and its concrete blocker
+
+GD_PIPELINE_TARGETS already owns two complete eligible **structural** units:
+f83r.1–8 (IT71/ZL72/RF72) and f83v.11–20 (IT98/ZL99/RF101). Both contain
+licensed d+aN and qok+aN whole types; the latter also has ok+aN. ZL/IT starts
+and ends agree; RF is an externally fixed same-locus window with0/0 flags.
+These are two passages on physical leaf83, previously exposed—not independent
+holdout leaves. This pair can be nominated **for bounded exploratory authoring**
+without inventing a new corpus pair. It has no currently fixed patient, finding,
+transaction or source meaning in that preparation.
+
+**The blocker is not absence of repeated aN:** it is absence of a paid full
+first-account producer/consumer chain whose left payload and output interface
+already determine a second-passage consequence. The recommendations' Hippocratic
+FindingSpec/BoundFinding interface is only a proposed schema; the clinical/loan
+priors remain partial or their exact contracts failed. Picking reference, patient,
+query and judgment entries after seeing both passages would spend the same
+missing degrees of freedom as1003/1013. No exact second consumer is nominated
+by this memo, and this structural pair is not ready for meaning ranking.
+
+The C2 caption/body offer in GD_SEMANTIC_NEXT_BIG_PICTURE likewise demanded two
+nonseed component outputs and actual consumers; its requirement should not be
+weakened to a shared English gloss. The current route records1133's four dead
+words/no whole reading, so that prospective offer is not an accomplished seed.
+The exact wind/medical oteey incompatibility above is already visible under
+an all-whole-code contract; repeating it is not a novel meaning discriminator.
+
+Local C0 exploration may openly invent and pay a finite first account, including
+unconfirmed source hypotheses. That is useful candidate production. Evidence
+ranking begins only where unchanged frozen alternatives predict different
+written consequences under the same declared scope; a smaller dictionary,
+successful typecheck or appealing story alone is not a meaning score. Exposure,
+alternate readers and model fixtures create no independent confirmation, and no
+significance claim follows without a control of the complete search. Recommendation:
+use one small authoring pass only to obtain the missing real chain; freeze it
+before any second-passage application, and stop at a barrier instead of buying
+another glossary. This memo selects no experiment or target execution.
+
+### Follow-up: a predictable new-word barrier is not a useful test
+
+Root's objection narrows the preceding authorship recommendation: applying a
+frozen **whole-word lexicon** to the second passage until its first new whole
+is UNKNOWN would reproduce a known capacity gap, not test portable meaning.
+Do not commission that application or a new implementation for it.
+
+From the already-owned GD_PIPELINE_TARGETS preparation, the fixed formal
+inventory licenses d+aN and qok+aN structures in both units and ok+aN in the
+second. Its proposed meanings, argument sorts, scopes and referents are
+explicitly null. A formal tree therefore does not yet derive the new whole's
+semantic payload or its applicable consumer. The existing big-picture note
+also demands frozen nonseed **semantic function applications** rather than
+mere recurrence of formal parts. Neither artifact exhibits a finite frozen
+semantic generator for the second unit's additional wholes.
+
+Answer to the narrower question: **actual productive semantic licensing is
+UNKNOWN/unavailable in the inspected preparation**. There is no primary-backed
+new second-whole semantic prediction to nominate here. This does not claim
+that a valid mapping is impossible or require confirmed English anchors; it
+distinguishes an available formal inventory from an unavailable semantic rule.
+
+The pair remains advisory only. A prospective test becomes worthwhile only
+after an already-authored finite mapping genuinely derives the relevant new
+second-whole expressions through supported parts/entry rules, with no relation
+or desired result hidden in new residuals, and thereby reaches a written
+consumer at which frozen rivals differ. That prerequisite may be established
+inside an ongoing whole-reading authoring task, but this note warrants no
+separate run to rediscover its absence. The prior root/medical and C0 limits
+remain. No additional corpus/artifact-body inspection, census or engine followed
+this objection.

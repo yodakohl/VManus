@@ -1,3 +1,17 @@
+## 2026-10-02 GD/GDT1134: live separate marks, incomplete frozen inventory
+
+IT30 operations execute; both actual CounterResult owners reach the two retained
+marks. A hidden-in-inventory lkaiin certificate-collection selection/predicate
+prevents exact frozen whole compliance. Wrong-return fixtures stop earlier than
+promised; broader identity detection still works. ZL/RF7of30 then nativeunknown;
+90rows conserved.32/36checks retain metadata and separate dynamic-revalidation
+limits; no baseline external mutation.28wholevalues/30positions, five aliases,
+redundant certificates and wider scalar/status rivals prevent meaning selection.
+One exposedleaf105,0words/confirmation. No repair. Next: develop cross-context
+semantic composition that derives an additional formation, not another local
+whole dictionary or guaranteed UNKNOWN-only transfer.
+[Decision](experiments/yolo/gdt1134_paired_posting_reciprocal_consumers/REPORT.md).
+
 ## 2026-10-02 GD/GDT1133: direct component use, no complete reading
 
 Fixed caption/body OR source information is read at four IT sites; ODY kind,

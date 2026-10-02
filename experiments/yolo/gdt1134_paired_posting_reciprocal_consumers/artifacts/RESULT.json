@@ -1,0 +1,147 @@
+{
+  "experiment": "GDT1134",
+  "status": "LIVE_COUNTERACCOUNT_MARK_READS_UNLICENSED_DEPENDENCY_NO_MEANING_SELECTION",
+  "strict_frozen_complete": false,
+  "author_accounts_operational_only": true,
+  "candidates": [
+    {
+      "candidate": "IT2a_SAME_FROZEN_ACCOUNT",
+      "reader": "IT2a",
+      "native_groups": 30,
+      "prediction": "Two separate MARK outputs; same COUNTER twice; both actual returned accounts feed later mark reads; all30 groups under fixed exact dictionary/inventory.",
+      "author_status": "COMPLETE_C0",
+      "operationally_accounted": 30,
+      "first_barrier": null,
+      "observed_reads": [
+        {
+          "transaction": "T",
+          "owner": "B",
+          "mark_id": "IT2a|f105v.5|G005#1",
+          "counter_result_id": "IT2a|f105v.6|G005#2",
+          "recorded_completed": true
+        },
+        {
+          "transaction": "T",
+          "owner": "A",
+          "mark_id": "IT2a|f105v.5|G003#1",
+          "counter_result_id": "IT2a|f105v.6|G008#2",
+          "recorded_completed": true
+        }
+      ],
+      "root_status": "OPERATIONAL_COMPLETE_FROZEN_LICENSE_DEBT",
+      "contradictions_or_debts": "Unpriced lkaiin certificate-collection dependency; frozen wrong-owner/T late-READ forecast false; metadata typo. Separate dynamic-revalidation diagnostic.",
+      "ambiguity": "Whole values stipulated; role renaming, wider numeric role/status code and copied reference account remain; no semantic selection.",
+      "independent_confirmation_capacity": 0
+    },
+    {
+      "candidate": "ZL3b_SAME_FROZEN_ACCOUNT",
+      "reader": "ZL3b",
+      "native_groups": 30,
+      "prediction": "Two separate MARK outputs; same COUNTER twice; both actual returned accounts feed later mark reads; all30 groups under fixed exact dictionary/inventory.",
+      "author_status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "operationally_accounted": 7,
+      "first_barrier": "ZL3b|f105v.5|G008",
+      "observed_reads": [],
+      "root_status": "PARTIAL_LITERAL_BARRIER",
+      "contradictions_or_debts": "First native variant unassigned; all later operations unexecuted; no COUNTER/read chain.",
+      "ambiguity": "Whole values stipulated; role renaming, wider numeric role/status code and copied reference account remain; no semantic selection.",
+      "independent_confirmation_capacity": 0
+    },
+    {
+      "candidate": "RF1b_SAME_FROZEN_ACCOUNT",
+      "reader": "RF1b",
+      "native_groups": 30,
+      "prediction": "Two separate MARK outputs; same COUNTER twice; both actual returned accounts feed later mark reads; all30 groups under fixed exact dictionary/inventory.",
+      "author_status": "PARTIAL_OR_CONTRADICTED_FIXED_ACCOUNT",
+      "operationally_accounted": 7,
+      "first_barrier": "RF1b|f105v.5|G008",
+      "observed_reads": [],
+      "root_status": "PARTIAL_LITERAL_BARRIER",
+      "contradictions_or_debts": "First native variant unassigned; all later operations unexecuted; no COUNTER/read chain.",
+      "ambiguity": "Whole values stipulated; role renaming, wider numeric role/status code and copied reference account remain; no semantic selection.",
+      "independent_confirmation_capacity": 0
+    }
+  ],
+  "all_native_rows": 90,
+  "native_fields": [
+    "source_group_id",
+    "edition",
+    "page",
+    "locus",
+    "source_group_index",
+    "source_group_count",
+    "paragraph_start",
+    "paragraph_end",
+    "left_separator",
+    "right_separator",
+    "ivtff_group_raw"
+  ],
+  "physical_leaves": [
+    "105"
+  ],
+  "prior_project_exposure": true,
+  "new_target_or_image_access": false,
+  "sealed": [
+    "f84",
+    "f84r"
+  ],
+  "f116v_admitted": false,
+  "reserved_confirmation_opened": false,
+  "public_registration": {
+    "public_commit": "ce9740c3b8cda0c939d27fe837586bcbc93fed8a",
+    "remote": "origin/main",
+    "published": true,
+    "fresh_remote_verified": true,
+    "released_at_utc": "2026-10-02T00:58:42.535234+00:00",
+    "author_checkpoint_utc": "2026-10-02T01:18:42.535234+00:00",
+    "body_authoring_authorized": true,
+    "preregistration_sha256": "ad652ba48487ff77b117960504f12e396e9e5e5def400f311915e053fbda34ee"
+  },
+  "source_sha256": "ee7d0c84fe66793b03c6bc2b021c475da8a223a8ac96f454007a1481f7209474",
+  "core_sha256": "5de11596e2409aa4005002fc6a4d31257d5aaff1d01b07bec4c92dd2fd3d886c",
+  "extensions_sha256": "0062de3e43a5a8d711ba97228232255d42953991c1404749ea756b9e4b018a30",
+  "final_receipt_sha256": "1a6ff24fef46114dfa4d2aedc083d4e0c125d50aa0a6fa5b3fbb1fe161ad6fc8",
+  "cost_counts": {
+    "core_primitives": 12,
+    "opaque_constants": 7,
+    "whole_entries": 28,
+    "whole_assignment_cost": 28,
+    "primitive_component_cost": 31,
+    "formal_residual_cost": 66,
+    "extra_syntax_rules": 2,
+    "reference_default_cost": 12,
+    "alias_cost": 5,
+    "background_entries": 2
+  },
+  "unpriced_dependency": "lkaiin selects latest certificate-proposition collection and tests each read.mark.certificate membership; generic CHECK family exists, this particular selection/predicate was not individually frozen.",
+  "frozen_forecast_discrepancy": "Wrong returned owner/T stop at .6G009 pair check, contrary to EXT statement that they reach READ; broad identity detection still met.",
+  "post_release_diagnostics": "Actual projected return role/T changes affect each late READ. Separate external role/value/date/ledger changes after certification are accepted by MARK; no baseline such mutation and no preregistered contradiction claimed.",
+  "validator": {
+    "status": "REPLAY_AND_FLOW_PASS_WITH_PRESERVED_FROZEN_CONTRACT_LIMITS",
+    "total_checks": 36,
+    "failed_checks": 4,
+    "semantic_validation": false,
+    "root_replay_exit_code": 1,
+    "artifact": "artifacts/VALIDATION.json"
+  },
+  "post_review_pending": false,
+  "physical_ledger_posting_performed": false,
+  "historical_prior": "Pacioli1494 teaching example via Geijsbeek1914 English; source duties only, no identified pre1450 donor.",
+  "independent_confirmation_capacity": 0,
+  "confirmed_translated_words": 0,
+  "whole_search_control": false,
+  "significance_claim": false,
+  "next_decision": "Do not repair or repeat local whole-alias construction. Develop a finite shared semantic composition with a genuine additional formation/consumer prediction before another transfer test.",
+  "timing": {
+    "registered_at_utc": "2026-10-02T00:53:27.107879+00:00",
+    "author_final_freeze_utc": "2026-10-02T01:12:18.209666+00:00",
+    "inclusive_checkpoint_utc": "2026-10-02T01:38:27.107879+00:00",
+    "closure_at_utc": "2026-10-02T01:25:57.072023+00:00",
+    "publication_verification": "Pending direct push; do not infer publication from this closure timestamp."
+  },
+  "post_review": {
+    "status": "RETAIN_ACTUAL_OPERATIONAL_LINKS_PARTIAL_EXACT_FROZEN_INVENTORY",
+    "artifact": "artifacts/POST_REVIEW.json",
+    "sha256": "a917db6aece371dd747dc76022efb8019cc8115dd1b040dbb0807218986ad9e2"
+  }
+}

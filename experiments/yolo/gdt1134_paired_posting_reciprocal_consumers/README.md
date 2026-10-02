@@ -1,5 +1,11 @@
 # GDT1134 paired posting and reciprocal consumers
 
-[Registered whole-account contract](PREREGISTRATION.md): all30 groups in each
-reading of f105v.5–7; two separately owned marks, two actual returned counteraccount
-references and later reads of their marks. Exploratory only, no result yet.
+[Decision](REPORT.md): genuine separate returned-owner mark reads, but incomplete
+frozen-inventory compliance. All90 native positions retained; IT30 operational,
+ZL/RF7 each before literal barriers. No selected meanings or independent confirmation.
+
+[Contract](PREREGISTRATION.md), [candidate table](artifacts/CANDIDATE_TABLE.tsv),
+[complete groups](artifacts/COMPLETE_GROUP_TABLE.tsv),
+[validation](artifacts/VALIDATION_REPORT.md), [semantic review](artifacts/POST_REVIEW.md).
+Run src/run.py for exact read-only baseline replay and src/validate.py for the
+independent checks; validator exit1 intentionally preserves four reported limits.
