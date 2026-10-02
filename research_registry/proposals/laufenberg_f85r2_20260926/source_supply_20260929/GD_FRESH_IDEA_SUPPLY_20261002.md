@@ -606,3 +606,254 @@ transmission qualifications, predecessor pointers and pins are in the RAW.
 Only the new RAW, this note append and authorized `ideas add` changed.
 No target body/image, reserve/new Voynich admission,1139 evidence or observer
 output, outside contact, test/decoder, root route/ledger/state or Git action.
+
+## Ninth bounded supply unit: 2026-10-02, 10:42–10:58 UTC
+
+Retained **IDEA000879**, explicitly RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED:
+`GD_FRESH_APPEARANCE_CORRECTION_RAW_20261002.json`.
+SHA256 `fb2182275e046bd53b074badfe44237ceefe88a1cca0d764d8825e9a9e0cb537`.
+`ideas add` returned UNTESTED_PROPOSAL; `ideas show IDEA000879` confirms
+`untested` / `imported_unreviewed`. No selection, execution or confirmed word.
+
+The complete owned Vitruvius III.3.11 paragraph supplies a historically
+intelligible dimensional argument. Spacing affects the appearance of a
+column's thickness; inappropriate diameter-to-height proportions make shafts
+look thin or swollen. Corner columns should be thicker than the others by a
+fiftieth of their own diameter because their unobstructed outline makes them
+appear slender. The resulting prescription consumes a referenced quantity,
+rather than naming a new material state or participant at each step. The
+complete III.3.1–13 chapter and VI.2.1–5 were read as bounded context from the
+existing cache. VI.2 preserves actual/apparent shape and leaves the optical
+theory open; it does not certify modern optical causality.
+
+Three prospective written consequences are declared. Given the explicitly
+paid common positive height H, the source's araeostyle D=H/8 and pycnostyle
+D=H/10 rules imply a 5/4 diameter ratio; a later expression must consume its
+own derived D. A common fractional correction also must retain its reference
+base. The English 'own diameter' is ambiguous: an uncorrected base gives
+51D/50, while a resulting-diameter reference gives 50D/49. These are paid
+interpretations, not source-certified measured outcomes; one interpretation
+must be frozen before authoring. Finally, apparent slenderness does not
+assert physical thinning, and the correction does not assert a prior
+diminution event or exact equality of corrected perceived sizes.
+
+The strongest rivals remain visible. A style-specific unary dimensional
+recipe with a named corner uplift can preserve all arithmetic without a
+productive viewing-context predicate. A jointly renamed generic calibration
+account preserves every declared type and numeric dependency. Thus even a
+future C0 pass would not identify architecture, literal perception or source
+copying. An absolute increment differs only when a second actual written
+base is present; no manufactured second observation or held credit is used.
+
+Tentative scope is **entire already-owned f83r P5, .31–44/62 ZL groups**,
+with GDT790 ownership and W91 complete-scope receipt/pins in the RAW. This is
+a freely declared content nomination. No column, unit, number, comparison
+standard, visual context, target form or position has been identified. Every
+focal clause, native group and alternate reading remains owed; a lower
+illustrated system does not establish architectural ownership. The smallest
+future review is a whole P5 outline with a common fraction/reference grammar
+and an actual written later consumer, budget20minutes. Source equations or
+annotation wires alone stop glossary expansion rather than establish meaning.
+
+Read route/numbers topic, bounded searches and route-check before retention;
+compared actual048/181 relative-standard,351 optical reflection,593 lead
+appearance,639 observer-capacity and FY relative-classification primaries.
+This does not reopen their fixed failures or missing-input stops. Appearance,
+relative standards and fractions are existing knowledge; the proposed distinct
+offer is the complete source-owned appearance-motivated dimensional correction
+with a later quantity obligation. Proposal-based duplicates returned no
+same-declared-design match. Its broad ranked cards are navigation, not
+scientific novelty certification.
+
+Owned source cache `D_SOURCE_VITRUVIUS.html` remains byte-unchanged, SHA256
+`fd9fa70b9a04f948c747f377224a9c1414479e0126fe33f4e7d2f69b12c822cd`.
+Complete focal p-element pin:
+`af7ca34fa5ac5ef216010289d83c7869be2cc07c28387c798bb02df7489f7d1a`.
+Complete III.3 chapter pin:
+`1d88553707ee959fa6d820f8f63eaa600efab22c82ad94386af1ff743395e179`;
+complete VI.2 chapter pin:
+`8f500f4e07924c0c0a05abf09bf5b77255d511648d91c765cf52d42c086fd91b`.
+The RAW supplies byte-slicing method and other complete-paragraph pins.
+This is Morgan1914 English of an ancient work, not a collated medieval native
+witness, Latin default, source-dependence or dating claim.
+
+Only the new RAW, this append and authorized `ideas add` changed. Earlier
+historical critique reports include previously exposed illustrative groups;
+no target-body packet,1140 CORE/author file,1139 file, source/Voynich image,
+reserve, new acquisition/admission, external contact, test/decoder,
+root route/ledger/state or Git action was used.
+
+2026-10-02 clarification for879 after root review: the RAW's surviving
+compiled-context/domain-renaming rivals prevent unique meaning selection.
+They do **not** require independently confirmed meanings before exploratory
+whole C0 authorship. A concrete written composition with complete group debts
+and real shared-construction consumers may still be attempted. The stop before
+implementation applies to a large new engine whose plausible outcomes leave
+the research decision unchanged, not to that bounded composition deliverable.
+Source-only RAWs naturally allow joint renaming. Preserve879 RAW bytes and
+its ambiguity/rival obligations; do not treat them as a new semantic-anchor
+prerequisite or a prohibition on whole exploratory reading.
+
+## Tenth bounded supply unit: 2026-10-02, 10:59–11:09 UTC
+
+Retained **IDEA000880**, RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED:
+`GD_FRESH_SHARED_CENTRE_BURDEN_RAW_20261002.json`.
+SHA256 `dea5f2aa84e54adb8fb77b7631c25220813fa63a40fb22e02aa5ffd7b53141d7`.
+`ideas add` returned UNTESTED_PROPOSAL; `ideas show` confirms `untested` /
+`imported_unreviewed`. No selection, execution or confirmed meaning.
+
+The complete owned Vitruvius X.3.7–9 passage links central carrying shares,
+precautions against strap slipping, a yoke adjustment to help a weaker ox,
+unequal endpoint circles and the common shorter-side/heavier-burden rule.
+The whole nine-paragraph chapter was read for context. This is a practical
+written explanation, with source-asserted mechanics rather than certified
+modern causality. No exact torque/support-reaction equation is imported.
+
+One shared attachment/centre determines both endpoint distances. Under the
+paid straight fixed-span interpretation their sum stays L as one shortens
+and the other lengthens. The source supplies that complementary change;
+the sum notation is analytical geometry, not a written source equation.
+Applying the source's burden rule then constrains the later helping purpose:
+the weaker ox must occupy the longer, burden-easing side, so the attachment
+is nearer the stronger endpoint. The later circle comparison must also put
+the larger circle at the farther endpoint under the same centre. Neither
+consumer permits independently chosen short/long labels or silent actor swaps.
+
+This only partly matches the requested reference-change theme: the geometric
+reference is an actually shifted attachment. A passive coordinate origin
+change cannot itself redistribute burden. It is not IDEA849's unit conversion
+or an observer-frame discovery. Equal imposed share is separate from equal
+strength; four/six porters are not silently reduced to two people. Endpoint-side
+aggregation, full grouping and every source clause remain paid obligations.
+
+Tentative target nomination is **whole already-owned f83r P1/72 ZL groups**,
+from inherited GDT790/W91 scope metadata/pins. No target body, mechanical
+role, word, position, quantity or participant has been identified. All native
+groups and alternate readings remain owed. A source circle or burden is not
+assigned to a pictured ring, channel or figure. The proposed bounded next
+deliverable is one whole C0 composition with a common reference/distance
+construction and a real later helping/circle consumer, budget20minutes;
+no mechanics engine, new corpus or image search.
+
+The generic alternatives remain explicit. A compiled configuration recipe can
+return the same paired burdens/circles. A jointly renamed allocation account
+preserves the qualitative dependency and fixed-span identity. These prevent
+unique mechanical meaning selection; they do not forbid exploratory whole
+C0 authorship or require preconfirmed anchors. Intrinsic-strength-only burden,
+two independent centres and passive-coordinate-only change differ from this
+specific declared source account. Violating fixed endpoint/centre resolution
+stops that fixed account, not the entire meaning family.
+
+Read route/numbers topic and bounded registry/route searches. The unknown
+measurement topic and empty yoke/steelyard searches did not establish absence;
+they prompted actual849,575,462,394,350 and363 primary comparison. Common
+reference, configuration, equilibrium and conservation are already retained.
+The proposed difference is the complete passage's joint endpoint geometry
+and subsequent helping/circle consumers. Proposal-based duplicates returned
+no same-declared-design match; broad lexical ranking is navigation only.
+879 optics,877 roster and878 kinship remain unchanged; no values inherited.
+
+Byte-unchanged source cache SHA256 remains
+`fd9fa70b9a04f948c747f377224a9c1414479e0126fe33f4e7d2f69b12c822cd`.
+Complete X.3 chapter pin
+`e9650e249f1eabf9a6e8a8013b388a3a968812436d902d62beaf10a14f1f25ae`;
+complete7/8/9 p-element pins are in the RAW, along with slicing method and
+exact predecessor/owned-record pointers. This remains Morgan1914 English
+of an ancient work, without medieval native collation, Latin default,
+source-dependence or dating claims.
+
+Only this new RAW, existing note appends and authorized `ideas add` changed.
+879 RAW SHA remains
+`fb2182275e046bd53b074badfe44237ceefe88a1cca0d764d8825e9a9e0cb537`.
+No new target body/image,1140 CORE/author/results, active light/f89 author
+packet,1139, reserve, source/corpus acquisition, outside contact, test/decoder,
+global route/ledger/state or Git action. Earlier reports may contain already
+exposed illustrative groups; no fresh target-body packet was inspected.
+
+## Eleventh bounded supply unit: 2026-10-02, 11:14–11:20 UTC
+
+**0 new proposals; no ideas add.** The existing stock already contains the
+specific complete-language mechanism sought here. Best retained content offer
+is **IDEA000397**, not selected: entire Phaedrus I.1,15-line wolf-and-lamb
+account, in `research_registry/proposals/raw_phaedrus_rebuttal_commitment_scope.json`.
+This is a concrete retention decision after comparing actual source/predecessor
+primaries, not an unchanged missing-input audit or a claim that speech is novel.
+
+Two actual uses of reported accusation have different written rebuttal duties.
+The alleged water-fouling is challenged by the flow from the wolf's drinking
+place to the lamb's. The alleged offense six months earlier is challenged by
+the lamb's not-yet-born reply. A third accusation explicitly changes the alleged
+agent to the father; that accusation remains unverified. The wolf then kills
+the lamb, and the narrator closes with oppression of innocents through invented
+causes. Thus a common reporting construction cannot mean either narrator-endorsed
+fact or automatic falsehood: the third use is the counterexample to treating
+every report as negation. Completed action also cannot promote rejected
+allegations to truth or require a successful rebuttal to prevent action.
+
+This supplies more than independent animal/action class labels. Fixed speaker,
+addressee and alleged-agent arguments let the flow and temporal prerequisites
+constrain separate embedded propositions; the later father substitution and
+actual action must preserve those scopes. No water portion conservation,
+literal modern hydraulic law or factual father offense is inferred. The
+complete thirst/setup, narrator characterization, frightened reply, moral and
+all source clauses remain whole-account obligations. An otherwise equivalent
+generic accusation tale with jointly renamed animals survives; a C0 reading
+would not select Phaedrus, species or a source language.
+
+Prospective genuinely useful input is a **whole already-owned manuscript
+composition** with one shared written reporting/commitment rule, explicit
+speaker/agent reference, both reasoning consumers and the final action/moral
+relation; every native group and alternate reading must contribute or remain
+UNKNOWN. It is not another known-role source calculation or a ready fixed test.
+An exploratory author may jointly choose provisional meanings/grammar without
+preconfirmed anchors. Scope must be frozen before checking consequences;
+contradictory clauses cannot retrospectively become quoted/false material.
+No target body was opened or concrete new target nomination made in this unit.
+
+**IDEA415 remains separately NOT_TESTED** for its internally conflicting
+unexecuted proposal input. Its literal evaluator says the upstream-fouling
+claim fails under accused-to-accuser flow, while its worked example rejects
+under wolf-to-lamb flow and its generated reversal removes rejection. Actual
+proposal bytes and compact reviewed decision were inspected; no implementation
+ran and no manuscript failure occurred. The complete397 source account has
+not been invalidated by that constructor defect. No new corrected variant,
+counterfactual fixture, parser or solver was authored here.
+
+Compared actual878 source/claim scope,777 original status-family RAW,764 source
+scope and original nonconfirming result,873 delegation,840 instruction/intention/
+report and843 corrective-instruction RAWs.878's unworthiness speech does not
+erase kinship;777 past tense does not itself deny present status;764 absence
+from a prohibition does not assert permission/preference. Those positive
+distinctions and stops remain. They do not replace397's causal/temporal
+prerequisites and outcome-versus-truth relation. Actual363 net/gross and
+reported-opinion source/selection decision also read: the3/2 rejection versus
+4/1 endorsement is already retained, not grounds for a new speech card.
+451's two harm-based duty exceptions remain an existing normative alternative,
+distinct from truth commitment; no legal/medical hypothesis was rewritten.
+
+Read current route/differential topic, bounded ideas searches/show/duplicates
+and route-check. Exact source packet
+`research_registry/work_batches/ten_hours_20260915/DISCOURSE_CONSTRAINT_RAW_SOURCES_20260920.json`
+was read only at its complete `PHAEDRUS_I1` entry. Packet SHA256
+`983b7214da3a90c57b34398379bfa03a00ee413439dbc5c1566833213668aeb1`;
+complete normalized source-text SHA256
+`5be84335369371bb737f6e3f92a66d4b74f66bb7101ed45d96a06e6513eb55a4`.
+The existing IntraText Latin witness has uncollated edition ancestry; no
+medieval native witness, Latin target default or source-dependence claim.
+No external source access/acquisition or image inspection in this unit.
+
+Exact retained primary pins:
+
+- 397 RAW: `61815d1bbc9e8748c42753e3221a0243af7d9583d4bb65b88ffac3711e2373fa`.
+- 415 original proposal: `a0b98cd0fc206d76bc388946ebf18da808e6ed857d4f4926c62ffb21e81334f1`.
+- 363 RAW: `6c498e710b29fa286382ee59efdd479036819c16a8327b9d3b11425c2b18fe61`.
+- 363 selection decision: `7b45f63ed0cb29874a23dd15243f37bef5413c00339901241491ad8a2d6695d6`.
+- 764 result: `e337aac50e2ad6329debd881e6e0760aaad52d0ec1796ed13a02f839cee7e0ef`.
+- 777 original RAW: `3d2708c40062c607adadafd8ff6bb561ff6f69a15f1cb3ce1740cc851489c569`.
+
+Only this existing note append changed. Historical764 and other earlier
+reports contain previously exposed illustrative groups, not fresh body queries.
+No1140/1141 author/core/validator/results, active light/f89 author packet,
+Voynich body/image, reserve, acquisition, contact, test/decoder, global
+route/ledger/state or Git action. Confirmed words remain0. New source/content
+families were not manufactured to increase the card count.

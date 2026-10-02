@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1140 whole Fortune/status reading.
-Latest decision: 1139native1compatible9unresolved;1137C0 retained.
-Working files: gdt1140_fortune_status_whole_reading/METHOD.md.
-Assumptions: Exposedf85r2; noLatin default,meaning orreserve.
-Resume: Publishcore1140; releasefull108-positionextension; thenreview.
-Running: Frozenauthorcore;validatorwaiting;producer;end13:52:40UTC.
+Task: Whole light-observation reading1141.
+Latest decision: 1140partial44unknown/68syntaxgaps;0words.
+Working files: gdt1141_light_observation_whole_reading/METHOD.md.
+Assumptions: Exposed97IT/288native;BB nouns hypothetical;noreserve.
+Resume: Publish1140result/1141; release1141coreauthor; thenfreeze.
+Running: 1141authorawaitsrelease;validatorplan;producer;end13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
