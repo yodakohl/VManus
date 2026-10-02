@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1119**
-- Experiment-associated tracked files: **22,234** (2.0 GiB)
-- Structured GDT337+ experiments: **784**
+- Experiments indexed: **1136**
+- Experiment-associated tracked files: **22,709** (2.0 GiB)
+- Structured GDT337+ experiments: **787**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -1165,3 +1165,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 - GDT1135: native f81v replication; external contacts unresolved, no new meaning binding. [Report](yolo/gdt1135_f81v_native_contour_topology/REPORT.md).
 
 | GDT1136 | GDT1136 | `FULL_ASSIGNMENT_PARTIAL_ACCOUNT_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1136_apparatus_state_whole_account/REPORT.md) | 29 | 5.8 MiB | 4 | STRUCTURED_YOLO |
+| GDT1137 | GDT1137 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1137_material_process_type_return/METHOD.md) | 12 | 481.5 KiB | 7 | STRUCTURED_YOLO |

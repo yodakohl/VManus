@@ -1,0 +1,36 @@
+# GDT1137: shared product construction and earlier-type return
+
+Exploratory C0 authorship, registered before the new author; all target content already exposed. Selection/primary review began08:32UTC on2026-10-02; inclusive90minute checkpoint10:02UTC covers preparation, author, independent review and publication. The user's ten-hour block remains active until13:52:40UTC. At checkpoint reassess expansion; do not abandon a running check or repair a frozen author merely for PASS.
+
+## Unknown and decision
+
+GDT1136 provided144 whole cards with inert part semantics. Earlier P4 motion work computed a common grade but had independently seeded references. Can a DIFFERENT entire P4 account derive two product types from common components, and make a later written expression consume the earlier type after the other intervenes? The unknown is this concrete compositional and reference construction, not whether an arbitrary story can be programmed. Coherent completion would retain a more constrained C0 reading, not select its meanings. Failure/gaps stop this exact candidate; no old model is repaired.
+
+The selected scoped first stage draws on IDEA876/836 but does NOT fulfill876's additional independent whole label/passage duty. No label is admitted or a label/prose transfer claimed here. The full876 proposal remains untested beyond this expressly limited construction attempt. Complete VitruviusVII12 motivates common-method/different-material outputs and an explicitly earlier named type for further processing. This is a relational synopsis, not a claim to translate every historical jar, metal, pigment, fire discovery or comparison. No metal name is assigned to a target form. Products may be represented as typed preparation descriptions; distinguish recipes, types, instances and actual events.
+
+## Fixed scope and evidence before meanings
+
+Use only F83_P4 from byte-bound FT_SOURCE_PACKET.json: all f83r.25–30,97 native groups ZL33/IT32/RF32. This is the complete inherited ZL paragraph with aligned IT/RF windows: IT end flag missing, RF both flags absent. Preserve all native fields, separators, uncertainties, exact spelling and source order. No P12 report33 spelling substitutions, new target/image/raw query/reserve/f84/f84r/f116v access or contact. One previously exposed physical leaf, zero independent confirmation capacity.
+
+The nomination precedes this author: exact qokedy chedy(.25G004–005) versus qokedy shedy(.28G004–005) in IT/ZL; IT later solchedy(.29G001) can literally contain earlier chedy. ZL salche'dy and RF solche'@152;y are NOT that same exact assembly; RF second result is {ch'}edy. CHEEY is first written .29 AFTER CHEDY, while SHEEY .28 precedes SHEDY; SHEDY already occurs .26. No symmetric chronological input-before-output pattern is claimed. QOLCHEY contains CHEY, not CHEEY. No inserted/deleted E or donated material identity. The complete native context, all repeat obligations and alternate barriers remain.
+
+## Author contract
+
+Before extending the rest of the lexicon, freeze a small explicit focal construction: two paid material-kind primitives; one shared nominal formation using actual che/she and ey/dy hypotheses (or declare failure of that focal proposal); one exact QOKEDY function at both positions; one literal SOL+CHEDY rule for explicit earlier-type selection. These are new LOCAL C0 rules, not established morphemes or general DY/q semantics. Each common function must calculate the same field in both relevant words; merely copying AST text or dispatching precomputed whole meanings fails. Product genealogy must carry its actually derived material and operation contributions. A lookup of arbitrary English output names is insufficient.
+
+After freezing core signatures/primitive senses/rules, author every IT32 position under finite declared rules. Charge all additions, residual wholes, overloads, scope/default rules and clause bindings; repeated forms retain identical rules. Meaningful terminal assertions need not all be state updates. Nominal product mentions may precede production only with explicit type/recipe semantics, never an undisclosed fluid or execution. Every group must have a contribution to the connected account; unknowns/barriers remain recorded. Whole-account chronology/truth limits must be stated, not equated to successful code execution.
+
+The later SOL+CHEDY must select the actual earlier generated product TYPE, after the second branch, and a subsequent written expression must use its returned type field in a real predicate/operation. Do not independently seed an equivalent object in a parallel register. The remaining word CHEEY and all .29–30 content must be accounted for under unchanged rules; no convenient stopping at the selector. Same type does not prove same batch. A fresh batch of that type remains allowed unless explicitly excluded by paid written identity rules.
+
+Do not import old ES/ET, GDT1136, GDT719 or GDT944 meanings. GDT719 rejects a free DY decomposition for its specific three old wholes; it supplies no new result marker. GDT1114's universal immediate-right-result CHEDY grammar remains rejected; this scoped nominal attempt is different. GDT914/925/928 exact-parallel failures are unchanged; this is no new census or criterion relaxation. GDT608 directed composition/whole residuals and GDT915 known-family co-variation remain structural evidence only. No98-unit alphabet, Latin default or general decoder.
+
+## Predicted consequences and evaluation fixed before author release
+
+1. All97 raw groups retained exactly; every primary32 contribution audited; alternate uncertain strings not silently aliased. Fixed core separately preserved before whole extension.
+2. Common material/state constructors actually generate CHEEY/CHEDY and SHEEY/SHEDY; same QOKEDY at both paired sites. Runtime part interventions must change the corresponding derived types, not leave semantic output unchanged.
+3. The late expression and later consumer must dereference the earlier actual derived type. Change only that producer's material/process field: the consumer must change or reject it. Changing irrelevant audit metadata alone proves nothing.
+4. Freeze explicit-earlier-type versus latest-product-only reference policies with identical lexicon and operation definitions. Show concrete returned types and the next written consequence under BOTH, even if both compatible. Different policy names or a source-only graph do not count as a target consequence.
+5. Fresh versus persistent instances of the same type remain indistinguishable without additional written identity. No physical impossibility of processing the other type is inferred from its absent source clause.
+6. Report a connected readable hypothesis, all predicates/operations, unresolved constructions, costs, alternate-reader limits and known counterexamples. No significance, best-of-restarts, source identity, preferred English names or confirmed word from self-generated fixtures.
+
+Use an independent validator for native identity, exact repeat/core reuse and actual return interventions; a separate semantic reviewer reads the whole account. Freeze author source/account/receipt before both reviews. Preserve failures without post-release repair. Source truth, implemented binding, coherent whole reading and manuscript meaning are four different decisions.

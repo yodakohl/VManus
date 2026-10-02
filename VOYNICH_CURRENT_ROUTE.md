@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Publish GDT1136 fixed review; select next constraint.
-Latest decision: Full assignment; partial program; no meaning selected.
-Working files: gdt1136_apparatus_state_whole_account/REPORT.md.
-Assumptions: Free whole cards; inert parts; film/operation rivals; no reserves.
-Resume: Publish frozen result; screen additional content constraints.
-Running: root closure and idea producer;10h ends13:52:40UTC.
+Task: GDT1137 shared product types and earlier return.
+Latest decision: Fresh constrained P4 account; no inherited meanings.
+Working files: gdt1137_material_process_type_return/METHOD.md.
+Assumptions: Local part grammar; exposed97groups; no label/reserve use.
+Resume: Publish contract; freeze core then author full IT32.
+Running: author waiting;two preplans;producer;checkpoint10:02;10h ends13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

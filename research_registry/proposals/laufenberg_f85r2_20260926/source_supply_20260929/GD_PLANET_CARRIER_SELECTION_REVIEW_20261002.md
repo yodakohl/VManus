@@ -1,0 +1,51 @@
+# IDEA875: paired metal/carrier routes and the surviving confound
+
+Bounded selection review,2026-10-02. **Retain875 as a distinct source-backed raw construction; do not select its proposed paired-order test yet.** It adds two named donor/recipient routes, but their endpoints do not separate carrier memory from recipient-/operation-sensitive processing. A new whole glossary fitted to those two outcomes would repeat GDT1136's decisive freedom. C0 whole authorship remains permitted without confirmed words; this recommendation concerns the next decision-bearing test.
+
+Read the current route first, differential/names/recipes topics, exact875/762/765/406 definitions and linked primaries. Read the already-owned Quinte Essence maintext pp7–8, stopping before the next fire-without-fire section; no new source acquisition or Voynich target/image/reserve access. No decoder, test, new proposal, registry or Git action. Only this note was written. Started08:26:46UTC; completed within30minutes.
+
+## The real additional source content
+
+The [exact raw875](GD_RAW_PLANET_METAL_ORDERED_CARRIER_20261002.json), SHA256 `4b39e854315519dea90b929af0911438a01beb7a5a0cfe5de39d109efe59542a`, points to the cached Furnivall/Sloane73 edition, SHA256 `be118a6627a77c5ab1918170bf63956d88fb4df8c0afd8c835883bd23ea4aaec`. Its actual maintext, not marginal summaries, supplies:
+
+| Complete branch | Retained participants/actions | Written endpoint |
+|---|---|---|
+|First|Liquified Saturn quenched seven times in wine/common water; afterward Mars quenched many times in **that** carrier.|Mars acquires Saturn's softness.|
+|Alternative|Mars quenched many times in white wine/common water; afterward liquified Saturn cast often into **the same** carrier.|Saturn becomes hard.|
+
+Carrier identity is written **within each branch**. This does not establish the same physical liquid across the two alternative procedures. The continuation includes Venus/other liquibles and a general claim that wine/water retains their properties. The preceding calx-versus-florin passage retains fine-particle/plate contrasts,50 repetitions and claimed stronger gilding. A reading selecting this particular full source continuation cannot cherry-pick only its two endpoints. None of these details is a mandatory condition for every planetary-metal interpretation.
+
+Compared with [762's source review](E_PRODUCER_REPORT.md), the new local continuation offers two distinct named materials exchanging roles, rather than one persistent florin transmitting claimed virtues through liquid into quintessence. This is a useful historical contrast, not a newly discovered source tradition: GDT378 had already used this edition. Source-attested celestial/mineral Sol polysemy remains real; it supplies no target name mapping. Here the maintext explicitly names Saturn/Mars as quenchable participants; lead/iron identifications in the displayed marginal summaries are editorial explanation. The first endpoint explicitly attributes **Saturn's softness**; the second says **Saturn is made hard**, without separately stating Mars's initial hardness. Assigning that latter donor property under a universal transfer law is a model inference, not a second independently written initial-property observation.
+
+## Why this is not the controlled order contrast of406
+
+[Raw406](../../producer_20260920_ordered_state_swap.json) requires the same operation inventory/participants, a fixed final operation, and independently different downstream consequences when preceding order changes.875's pair also changes the final recipient, action wording (quench versus cast), repetition expressions, and part of the carrier specification. One may hypothesize a common abstract receipt operation, but that projection is an additional paid rule, not an already controlled swap.
+
+The attractive carrier law is `K_D(C)=carrier with property ρ(D)`, then `A_R(K_D(C))=recipient R acquires ρ(D)`. It would couple two contexts if the later written endpoint truly constrains the same returned property. The two source rows, however, also admit `f(Mars,QUENCH)=soft` and `f(liquified Saturn,CAST)=hard`. This rival retains acquisition, repeated handling and the named outputs; it need not call the acquired values ordinary intrinsic properties. It can also retain the source's assertion that the liquid has donor properties while denying that those stored properties are what selects these two outcomes.
+
+This is the source-specific counterpart of [GDT1136](../../../../experiments/yolo/gdt1136_apparatus_state_whole_account/REPORT.md): equal input factories did not equate PRODUCE_CONTACT and PRODUCE_WITHDRAWAL. Here neither recipient nor finishing operation is equal. An undirected association or purely intrinsic-description rival is therefore too weak as the only competitor. The stronger operation-sensitive account must remain. The historical conditional statements do not state that omission of donor conditioning necessarily prevents the endpoint; do not infer that necessity from the two positive examples.
+
+## What the executed predecessors actually establish
+
+[IDEA765's executed influence construction](../INFLUENCE_CONSTRUCTION_REPORT_20260929.md) already distinguished adjacent active arguments, a head-preserving class relay, and a passive incoming-effects rival. Its complete288-group accounting left270 positions without local roles; no further written selective effect followed. Same participant class was not same physical drug.875 must preserve that distinction for metals/carriers and must not equate INFLUENCE with the source's DRAW_AWAY relation.
+
+762 remains source supply/scope correction, not an executed target translation.406 is a raw design; its cited [GDT747](../../../../experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md) actually applied inherited whole-word axes in local series and confirmed zero meanings. [GDT437](../../../../experiments/yolo/gdt437_future_card_state_transition_order_repair/REPORT.md) repaired an order-discarding renderer for authored cards; it did not identify a historical downstream state from manuscript order. [GDT346](../../../../experiments/yolo/gdt346_compositional_operator_manifold/REPORT.md) retained local compatibility but failed its unseen-combination transfer gates. None supplies875's missing shared semantic writer.
+
+The stricter relational antecedent [GDT1052](../../../../experiments/yolo/gdt1052_chody_source_frame_audit/REPORT.md) rejects only its global, overt two-sided paragraph-local source linker; no free reuse of that failed frame or normalization of chody/uncertain readers is allowed. [GDT205](../../../../GDT205_CONSTANTINE_CREATION_DIAGRAM_HOMOLOG_REPORT.md) supports medieval planet/metal cosmology but rejects the exact proposed f77 homolog. Planetary plausibility cannot reinstate the topology or become a name key.
+
+## Decision-bearing outcomes and recommendation
+
+The strongest useful extension would conserve a finite participant/property inventory and one evaluated carrier operation across complete written contexts, with an actual later endpoint consuming its returned donor property. A **same recipient and same finishing operation with different written donor histories**, or an explicit conditioning-dependent contrast for that same recipient/operator, would separate the operation-sensitive rival.875 supplies neither such source pair nor a nominated target unit; I do not invent one from new target access. It therefore supplies no ready discriminating test today.
+
+| Possible later complete-account result | Defensible decision change |
+|---|---|
+|Shared evaluated meanings actually derive later written endpoints without new endpoint defaults, and a conserved recipient/operator contrast excludes the stronger rival.|Retain a more constrained C0 carrier candidate for further exposed-context work; no word/source identity confirmation.|
+|A frozen carrier/participant rule conflicts with a separately written endpoint or explicitly fresh carrier.|Reject that precise whole account; no general rejection of metals, polysemy or gold.|
+|Both source-like branches fit, but recipient-/operation-sensitive processing fits too.|Retain the ambiguity; no preference for carrier-mediated inheritance or planetary nouns.|
+|New whole cards, occurrence clauses or freely assigned properties encode the desired two results; no additional written consequence follows.|C0 story construction only; stop this extension without a process engine or another audit loop.|
+
+**No-go for an immediate875 experiment as written; keep the raw source-backed offer.** Its extra historical pair is genuine, but it does not remove the exact confound that survived1136. A future exploratory whole reading need not start from confirmed anchors or a Rosetta correspondence. It must add a real conserved-context constraint rather than simply choose Saturn/Mars labels and two convenient product words. This is a scoped decision about875, not an impossibility claim about source-informed reading. Root owns subsequent selection.
+
+## Scoped attribution clarification after root review
+
+The source's **Mars takes the softness OF SATURN** supports a typed donor/property attribution, stronger than merely `Soft(Mars)`. An endpoint-only recipient/operation lookup does not preserve that complete assertion unless it additionally accounts for the named donor/property provenance. A complete rival must retain that information; dropping it would caricature the carrier proposal. This source assertion legitimately motivates a C0 TAKE_FROM/material-property construction without confirmed target words or a controlled physical experiment. The preceding recipient/operation confound concerns whether the two endpoint values establish **donor-dependent causal necessity**, not whether the source writes an attribution or whether the hypothesized historical chemistry is true. No such physical proof is required for exploratory interpretation. A shared written attribution could itself provide a useful additional constraint if genuinely realized and reused in a complete target account.875 still supplies no nominated target construction realizing that constraint, so the no-go applies to an immediately ready test, not to permitted source-inspired whole authorship.
