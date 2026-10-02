@@ -1,8 +1,8 @@
-## 2026-10-02 GDT1141 closed; GDT1142 native follow-up registered
+## 2026-10-02 GDT1142 native observations retained; role unselected
 
-[1141](experiments/yolo/gdt1141_light_observation_whole_reading/REPORT.md) is public: two incomplete core proposals, no accepted core or Stage2, no light refutation.1140 remains partial. Its exploratory fixed32-plus2-new-substring transfer has no complete packet in49public905cases, independently checked; that cap was our assumption, not the user's or manuscript's law.1137 EARLIER/latest-compatible material/process outputs agree whenever both defined; definedness may differ. No arbitrary dictionary expansion follows.
+[1142](experiments/yolo/gdt1142_f25v_native_contact_followup/REPORT.md) acquired exact native2863x3769 after public registration. Two separately frozen five-item records agree: outlined leaf continuity to mouth and distinct body PRESENT; no identifiable shaft, tether or second actor at supplied scale.17protocol/pixel checksPASS, not visual truth. Same exposed photograph; contact does not select ingestion, healing or emblematic role.1095 remains unavailable under its old contract; no further resolution loop.0confirmedwords/independentconfirmation. Specific historical role comparison under review; no new target/reserve. Minimum13:52:40UTC remains unmet.
 
-[1142](experiments/yolo/gdt1142_f25v_native_contact_followup/METHOD.md) registers a new concrete input: official25v metadata now supplies native2863x3769 and equal maxArea; old1095 requested3000width above this cap. Error causation inferred, original1095failure unchanged. Request exactfull/full original only after public registration, then two separately frozen five-item native observations. Same exposedphotograph/no newfolio, no transcript/reserve/wordconfirmation.0confirmedwords; minimum13:52:40UTC notmet.
+1141's two incomplete cores remain MISSING_CORE_DESIGN, no Stage2 or light refutation.1140 remains partial; the fixed32-plus2-new-substring exploratory transfer has0/49 complete packets in905scope, independently checked. Cap2 is our assumption, not the user's/manuscript's law.1137 EARLIER/latest-compatible material/process outputs agree when both defined; definedness may differ. No arbitrary dictionary expansion follows.
 
 ## 2026-10-02 GDT1140: exploratory complete status reading registered
 

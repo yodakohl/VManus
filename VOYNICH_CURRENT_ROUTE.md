@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Native f25v contact follow-up1142.
-Latest decision: 1141no core;limited1140transfer none;0words.
-Working files: gdt1142_f25v_native_contact_followup/METHOD.md.
-Assumptions: Exposed25v;native2863x3769metadata;noreserve.
-Resume: Publish1142beforepixels;freeze2observer records.
-Running: observer/validatorplans;end13:52:40UTC.
+Task: Close1142; source-role comparison.
+Latest decision: 1142leafcontact/body;roleunselected;0words.
+Working files: gdt1142_f25v_native_contact_followup/REPORT.md.
+Assumptions: Same exposed25v;noreserve;1095unchanged.
+Resume: Publish1142;check specific historical role contrast.
+Running: 3source/route advisers;producer;end13:52:40UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

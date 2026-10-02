@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1141**
-- Experiment-associated tracked files: **22,843** (2.0 GiB)
+- Experiment-associated tracked files: **22,859** (2.0 GiB)
 - Structured GDT337+ experiments: **792**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -1168,6 +1168,6 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1137 | GDT1137 | `RETAIN_SCOPED_C0_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1137_material_process_type_return/REPORT.md) | 26 | 966.1 KiB | 8 | STRUCTURED_YOLO |
 | GDT1138 | GDT1138 | `PARTIAL_NO_CAPACITY` | [report](../experiments/yolo/gdt1138_strict_an_galen_transfer/REPORT.md) | 26 | 336.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT1139 | GDT1139 | `RETAIN_WITH_UNRESOLVED_SOURCE_PREMISES` | [report](../experiments/yolo/gdt1139_native_p4_core_reading/REPORT.md) | 29 | 2.0 MiB | 4 | STRUCTURED_YOLO |
-| GDT1142 | GDT1142 | `REGISTERED_NATIVE_FOLLOWUP` | [report](../experiments/yolo/gdt1142_f25v_native_contact_followup/METHOD.md) | 10 | 26.0 KiB | 3 | STRUCTURED_YOLO |
+| GDT1142 | GDT1142 | `NATIVE_OBSERVATIONS_RETAINED_ROLE_UNSELECTED` | [report](../experiments/yolo/gdt1142_f25v_native_contact_followup/REPORT.md) | 26 | 4.6 MiB | 3 | STRUCTURED_YOLO |
 | GDT1141 | GDT1141 | `MISSING_CORE_DESIGN` | [report](../experiments/yolo/gdt1141_light_observation_whole_reading/REPORT.md) | 28 | 1.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT1140 | GDT1140 | `PARTIAL_SCOPED_C0` | [report](../experiments/yolo/gdt1140_fortune_status_whole_reading/REPORT.md) | 27 | 1.6 MiB | 6 | STRUCTURED_YOLO |

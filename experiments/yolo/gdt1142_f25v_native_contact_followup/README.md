@@ -1,3 +1,3 @@
 # GDT1142
 
-Registered original-size follow-up to unavailable1095 rendition. See METHOD. No pixels acquired yet; no outcome. Prior decisions remain unchanged.
+See [REPORT](REPORT.md), fixed [METHOD](METHOD.md), and all five paired observations in artifacts/RESULT.json. Original-size input acquired; leaf contact and distinct body retained, role unselected. No confirmed word or independent confirmation.
