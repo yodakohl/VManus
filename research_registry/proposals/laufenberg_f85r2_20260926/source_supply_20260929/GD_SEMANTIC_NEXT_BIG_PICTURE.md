@@ -203,3 +203,29 @@ GDT911 proves a specific source-exposed injective-syllable/quantitative-metre co
 There is **no ready manuscript constructive task**. The exact missing relation is independently constrained target verse endpoints/phase/order, or a prior complete shared-key reading that predicts the endpoints before the rhyme is fitted. Treating98 learned BPE units as sounds would add a hypothetical writing channel; assigning brenne/bekenne to selected target endings and jointly choosing their values would be source-conditioned fitting. A future complete reader must separately recover lexical wording, reused sound values, rhyme and the written scope of the reason connective; rhyme cannot donate that connective's meaning or categorical nonburning.
 
 The smallest available preparation would freeze the owned source's complete clause, uncertain wording, rhyme alternatives and reason-versus-event scope, with continuation preserved. It could provide a concrete constraint for a later reader, but its plausible outcomes currently leave the target decision unchanged. Root therefore selects **no source annotation, collision campaign or decoder**. This advisory is a capacity assessment, not an executed falsifier, an alphabet identification, a copied-source claim or a manuscript contradiction. Zero confirmed words. Research expansion stopped before the shared-file write hold; this append records the accepted advice only.
+
+
+## Retained f9v constraint review, 2 October 2026
+
+After1135, root reread1064,1099 and the complete-entry capacity decision;
+a separate reviewer checked1074/1075 and the fixed608 merge tree. No new f9v
+experiment was selected. The formally licensed common core is Cor=[C,[o,r]],
+where C collapses ch: pchor=p·Cor, ychor=y·Cor, fochor=f·o·Cor. There is no
+licensed fo merge in that fixed tree. This constrains a proposed common interface
+without assigning flower, Viola or a word class. Bare chor on.2/.3/.12 must be
+accounted for as well as the wrappers. The whole-form/entry residual remains.
+
+The .5 pchor→.11 ychor contact in complete.5–.12 is already exposed and is
+1099's sole common paragraph-head/reprise opportunity. Internal pchor on
+f86v5.27, paragraph-initial ycheor on f10r.6, internal pchedy on f81r and
+reversed yaiin/paiin on f86v6 prevent an exceptionless semantic operator.
+ZL .7 qo chol chol versus IT qochol chol remains a native-boundary distinction.
+The first .1–.4 paragraph and second .5–.12 cannot be replaced with selected
+matching phrases. W08/W13 command/additive/content alternatives remain open.
+
+No newly available meaning discriminator emerged. The source1485 full Yacea
+entry was already inspected in the28September decision; another source-name
+comparison or paragraph census would not change that. Root instead selected
+the separately registered small Greek1364 native source alignment. This is
+a source-writing constraint measurement, not a Greek target reading, f9v
+rescue or a claim that a confirmed word is required before exploration.

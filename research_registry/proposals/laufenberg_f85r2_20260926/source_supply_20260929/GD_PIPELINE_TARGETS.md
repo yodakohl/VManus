@@ -149,3 +149,81 @@ The exact prior matters for865: [GREEK1364_SOURCE_REVIEW](../../../work_batches/
 Both cards retain193/207 rejection,156/157 limits,610/612 wrong/unstable key results,613/614/616 original stops and835/995’s conditional synthetic inverse ceiling. Neither imports34 invented slots or mandatory abbreviation precedence into historical writing. Neither assumes EVA/98BPE sounds, new p/y equality, rhyme or local domain-dependent English programs. Each names a bounded source-only30-minute alignment decision; target nomination and any decoder remain separate root decisions.
 
 No source fetch, target query, new pixels,1135 observer files, reserves, contacts or decoder/control/corpus build. Confirmed words0; independent confirmation leaves0. Original TARGETS content and frozen1134 CROSS_DOMAIN inputs preserved.
+
+
+## Raw agreement and logical reuse tranche — 2026-10-02
+
+Two proposals were retained through `ideas add`, explicitly **RAW UNREVIEWED,
+UNTESTED, NOT SELECTED**. No new source or manuscript input was acquired.
+These are prospective meaning constraints, with no bound target counterpart.
+
+- **IDEA000866**, [overt dual agreement and scope](GD_PIPELINE_RAW_DUAL_SCOPE_20261002.json):
+  the complete PGP40129 stomach/liver clause has a working dual modifier
+  candidate, alongside a single-head hot-stomach relative in the quince
+  record. Under that source analysis, one property applies to both overt
+  heads. The new contract couples one morphological writing rule to that
+  scope across complete records. IDEA77 already proposes cardinality;
+  IDEA45 already proposes distributivity;337/339 already own the source
+  grammar. This proposal needs a source-verified inflectional relation and
+  an independently nominated complete target consumer that distinguishes
+  both-head, nearest-head and collective-only scope. It supplies neither.
+  GDT1105's paid owner alternatives and GDT965/966 failures remain.
+- **IDEA000867**, [shared necessity direction](GD_PIPELINE_RAW_SHARED_NECESSITY_20261002.json):
+  the full tin and Galen nourishment passages constrain one proposed common
+  logical writing family. Necessary support must not become sufficient
+  success; tin's `soon` and grease-or-tallow scope stay explicit.603 already
+  contains those distinctions and553 already contains necessity. The new
+  contract requires one unchanged lexical/compositional family across the
+  two domains, plus a third separately written consumer whose dependency
+  differs under the rival reading. A truth table implementing the proposed
+  meaning supplies no manuscript evidence. No old six-word553 values,
+  hidden events, free type casts or domain-specific connective aliases are
+  inherited. GDT899/908's fixed writer exclusion remains closed.
+
+Registry receipts were866 at7,107 records and867 at7,108. Exact proposal
+screens returned no `same_declared_design`; that is navigation, not a
+novelty certificate. The nearest substantive predecessors above were read.
+Reconsider77 remained review-required and603 source-review-required,
+both without approval. Source pins and precise future observations, rivals,
+known counterexamples and25/30-minute prospective budgets are in the cards.
+
+No additional421 dose/scaling,357 inverse-width or326 report/correction
+proposal was added: their exact primaries already contain the proposed
+constraint. Both new offers remain conditional on actual form-family and
+whole-unit bindings. **Confirmed translations0; new confirmed target
+bindings0.** Raw retention is distinct from experimental selection.
+
+This tranche read the live route first, relevant bounded topics/cards and
+claim-bearing owned primaries. No target/image/source fetch,1135 observer
+artifact,new pixels,reserve,held-data access,decoder,experiment,global route,
+index,ledger or Git work occurred. Frozen1134 inputs were untouched. Root
+owns the next review, metadata refresh and publication.
+
+## Root review of864 after the Greek source pilot
+
+No separate contraction calibration selected. Root and the independent critic
+checked155 unblind,157,207,832,836 and995. The actual owned Ste1 sites preserve
+a concrete contextual obligation: ASDF9B40EFEEB989 expands bare eine to einem
+in “sewd die in einem kessel”; AS39589AA45348B7 expands the same bare form to
+einen in “schuht sie in einen dicken sack”; ASB2721803F2F966 also yields einen
+after leg. These exact rows were checked in gdt155_unblinded_abbreviation_sites.tsv
+and the corresponding complete lines in gdt155_unblinded_lines.tsv. Location
+versus destination changes the restored case ending; the decisive ending was
+omitted, not preserved. This limits an ending-preservation premise without
+rejecting every interior contraction or contextual lexical reading. The generic
+¤ source marker is an editorial device, not a measured historical glyph.
+
+155 already documents ambiguous expansions;157 already measures a learned
+historical rewrite system. Another source count/reconstruction would repeat
+calibration.832's co-lemma factor adds no recovery, but does not reject every
+hard case/governor constraint;836 ran no historical fit;995 supplies the other
+key parts and a mandatory synthetic law. None supplies a target spelling key.
+
+A genuinely different C0 authorship would fix one finite lexical spelling law
+and use two actual complete target contexts to choose different forms of the
+same lemma through written grammatical consumers. No confirmed anchor is
+required in advance.864 presently specifies neither those target constructions
+nor that key; jointly inventing new whole-word assignments would repeat the
+freedom of recent programs. Retain this exact source obligation, mark the whole
+proposal NOT_TESTED for missing design, and do not start another source-only
+calibration or long missing-input audit.

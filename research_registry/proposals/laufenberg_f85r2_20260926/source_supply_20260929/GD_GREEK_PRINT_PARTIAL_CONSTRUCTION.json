@@ -1,0 +1,48 @@
+{
+  "status": "PRINT_ASSISTED_PARTIAL_COMPOSITION_NOT_NATIVE_FULL_WRITER",
+  "recorded_utc": "2026-10-02T02:44:19.826285+00:00",
+  "after_root_freeze": true,
+  "other_observer_packets_seen": false,
+  "source": "Allen1890 printed287, PDF699; enlarged PDF rendering of sourceIV, no altered native image",
+  "source_pdf_sha256": "26d7d326ae9b8ef2fd5524fc17c22809c9a04d6eb2cc0983520c4f1ca66677a8",
+  "ordinary_abbreviations_expanded_by_editor": true,
+  "construction": [
+    {
+      "editorial_word": "τὸ",
+      "carrier": "ο",
+      "annotation": "two marks above carrier in the printed surrogate; exact accent/mark boundary must be checked against native",
+      "operation": "insert τ before ο",
+      "output_unaccented": "το"
+    },
+    {
+      "editorial_word": "σύμμετρον",
+      "carrier_sequence": [
+        "σ",
+        "υ",
+        "ε",
+        "ρ",
+        "ο",
+        "ν"
+      ],
+      "annotation": "printed surrogate shows four lower dots leading into/under epsilon and a pair above rho; the four lower dots can be parsed as two mu supplements",
+      "operations": [
+        "insert μμ before ε from two lower pairs",
+        "insert τ before ρ from upper pair"
+      ],
+      "output_unaccented": "συμμετρον",
+      "unresolved": "Native count/location and ordinary written sigma/upsilon/epsilon/rho/omicron/nu segmentation remain to be independently checked; no gemination rule imported merely to fit the edition."
+    },
+    {
+      "editorial_word": "καὶ",
+      "positions": [
+        5,
+        8
+      ],
+      "annotation": "same compact vertical dotted note with upper oblique head in printed IV; do not equate with arbitrary punctuation or ordinary diaeresis",
+      "operation": "one whole-note value και",
+      "output_unaccented": "και"
+    }
+  ],
+  "potential_shared_rule": "tau inserted before following carrier in article and internal rho case; a mu supplement may repeat as two pairs rather than one free whole-word value",
+  "ceiling": "Only a printed-source constructive hypothesis for four of11 positions; seven ordinary-word carrier decompositions and the native mixed-word marks are not independently licensed. No Voynich output or actual out-of-fit reconstruction."
+}

@@ -1,3 +1,19 @@
+## 2026-10-02 Greek1364: partial source rule, full writer unresolved
+
+All11 sourceIV positions were retained in separate native inventories. A separate
+219v observation supports annotated μ insertion in εν and τ insertion in αυος,
+with edition-assisted αυ and unresolved span ownership in τοῖς. Ordinary
+ligatures and mixed-word mark multiplicity prevent full native reconstruction.
+No continuation transfer or Greek target fit ran. This is incomplete source
+recovery, not a contradiction of historical shorthand. Original observations
+and the older source review are preserved; Voynich meanings remain zero.
+[Result](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_GREEK_WORD_ALIGNMENT_RESULT.md).
+The f9v review adds no new discriminator. GDT155 unblind and157 already tested
+historical abbreviation recovery/generation; another aggregate control would
+repeat them. IDEA864 is now reviewed NOT_TESTED: exact eine-to-einem/einen context
+contrast is retained, but no fixed target spelling law/consumers are specified.
+Any next lexical-family proposal must add a different constraint.
+
 ## 2026-10-02 GDT1135: native replication, no new binding
 
 Two separately frozen f81v observations preserve one field and16 figures,

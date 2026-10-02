@@ -1,0 +1,320 @@
+{
+  "status": "FROZEN_INDEPENDENT_SOURCE_OBSERVATION_PARTIAL_ALIGNMENT",
+  "observer": "C",
+  "recorded_utc": "2026-10-02T02:45:58.093056+00:00",
+  "scope": "All eleven editorial words of the first Allen IV sentence, native Reg.gr.181 265v; no later sentence used for rule fitting.",
+  "exposure": "Registration, editorial sentence and prior 14 September source review known. Full 265v and full cached Allen passage image viewed; continuation and other passages incidentally visible but not transcribed or used as tests. No source-naive discovery claimed. Root new observations and Observer B not read.",
+  "inputs": [
+    {
+      "path": "research_registry/work_batches/seven_hours_20260914/greek1364_cache/reg181_265v.jpg",
+      "sha256": "63f3eeac2b5382684467a7a8581da95e263683877b0612b622f4ad513217c5b5",
+      "dimensions": [
+        1360,
+        1988
+      ],
+      "view": "original full existing image"
+    },
+    {
+      "path": "research_registry/work_batches/seven_hours_20260914/greek1364_cache/allen_passage-699.png",
+      "sha256": "9b803d92a229d026d99a97131f2425b11b504c79e46cfe23141d2df92ca0d1f4",
+      "view": "original full existing image; first IV sentence only for alignment"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_GREEK_WORD_ALIGNMENT_REGISTRATION.json",
+      "sha256": "ea5f7bbd8465dfd91e638d07f59c26302d5ca8aeb75b4f4bf82c731cf7c2f8a7"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_GREEK_WORD_ALIGNMENT.md",
+      "sha256": "5329c83dd04bade7a71eafb6755df1948e69575a7c3feb24f0ce18f0d2b88e15"
+    }
+  ],
+  "coordinate_policy": "Manual approximate 0-based native-image x/y locators, tolerance about 20 px; boxes may overlap because seams are uncertain. They are neither crops nor measured letter boundaries. N1 is the lower text line containing the initial editorial word, approximately y1370, N2 the next line containing the sentence end.",
+  "words": [
+    {
+      "index": 1,
+      "editorial_word": "ἐπίβαλε",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N1, first ordinary cluster at left",
+      "approximate_locator_box_xyxy": [
+        450,
+        1340,
+        580,
+        1400
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "A connected ordinary-letter cluster. Initial rounded/open stroke, short following uprights, a taller loop/descending stroke, and a low connected ending are visible; upper accent-like strokes occur over the cluster.",
+      "literal_carrier_assessment": "The cluster can be located as the first editorial word, but I cannot independently divide its connected middle and ending into all seven literal letters.",
+      "supplied_or_expansion_dependencies": [],
+      "unknowns": [
+        "Exact internal carrier boundaries",
+        "Whether the low ending separately writes λ and ε",
+        "Accent/breathing assignment"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 2,
+      "editorial_word": "μέλιτος",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N1, following ordinary cluster before short article carrier",
+      "approximate_locator_box_xyxy": [
+        565,
+        1340,
+        650,
+        1400
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "A compact connected ordinary-letter cluster with low rounded strokes and a taller central stroke; marks occur above it. Its end is crowded against the following short form.",
+      "literal_carrier_assessment": "Editorial μέλιτος is the locator, not a certified letter-by-letter diplomatic reading. In particular the internal λ/ι/τ division and final ο/ς division are unresolved.",
+      "supplied_or_expansion_dependencies": [],
+      "unknowns": [
+        "Exact start/end against adjacent words",
+        "Whether τ has an independent carrier here",
+        "Literal final-letter inventory"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 3,
+      "editorial_word": "τὸ",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N1, short carrier immediately before the mixed long word",
+      "approximate_locator_box_xyxy": [
+        630,
+        1340,
+        673,
+        1400
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "A small rounded carrier in the article position, with nearby upper marking; no independent full-sized τ is separately resolved.",
+      "literal_carrier_assessment": "An ο-like carrier is compatible with Allen’s article; the independent native view does not prove the nearby mark’s exact attachment or dot count.",
+      "supplied_or_expansion_dependencies": [
+        "τ is supplied by Allen’s expanded reading; an attached-tau interpretation is inherited from the prior source explanation, not independently demonstrated here."
+      ],
+      "unknowns": [
+        "Carrier/mark ownership at crowded word seam",
+        "Exact number and vertical position of tau marks",
+        "Accent versus shorthand mark"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 4,
+      "editorial_word": "σύμμετρον",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N1, mixed cluster ending before first compact separator/note",
+      "approximate_locator_box_xyxy": [
+        654,
+        1340,
+        805,
+        1404
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "Ordinary strokes at the left lead to a conspicuous medial epsilon-like carrier and a low connected ending. Small dark marks occur around/below the medial area; the ending is connected rather than separated printed letters.",
+      "literal_carrier_assessment": "The epsilon-like medial carrier is visibly distinct. Full literal σύ + ε + ρον segmentation remains provisional; neither two separate μ letters nor a separate full-sized τ is independently resolved.",
+      "supplied_or_expansion_dependencies": [
+        "The editorial μμ and τ require an attachment/expansion account, not merely the visible epsilon-like carrier. The known under-dot mu rule does not by itself certify how both μ occurrences are represented."
+      ],
+      "unknowns": [
+        "Exact leading σ/υ boundary",
+        "Number, position and ownership of dots",
+        "Single versus double μ and any redundant writing",
+        "Exact τ contribution and final ρ/ο/ν ligatures"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 5,
+      "editorial_word": "καὶ",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N1, compact vertical note between mixed word and βραχύ",
+      "approximate_locator_box_xyxy": [
+        798,
+        1348,
+        829,
+        1400
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "A compact vertical stack of small dark strokes/dot-like components stands apart from the larger adjacent clusters.",
+      "literal_carrier_assessment": "Its location and compact form agree with Allen’s whole-word καί note. This is not three separately visible κ/α/ι letters. Exact component count and allographic equality to token 8 are not certified.",
+      "supplied_or_expansion_dependencies": [
+        "Whole-word καί expansion is inherited from Allen/prior source review."
+      ],
+      "unknowns": [
+        "Dot versus short-stroke component count",
+        "Accent contribution",
+        "Exact identity with token 8"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 6,
+      "editorial_word": "βραχὺ",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N1, ordinary cluster after first compact note",
+      "approximate_locator_box_xyxy": [
+        827,
+        1340,
+        931,
+        1404
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "A tall initial double-loop/descending carrier, following connected round/descending strokes, a crossing/slanting middle stroke, and a final shallow curved carrier with an upper mark are visible.",
+      "literal_carrier_assessment": "The initial β-like carrier and χ-like crossing are plausible independent identifications. I cannot certify every intervening ρ/α join or the complete final υ/diacritic inventory merely from the expected spelling.",
+      "supplied_or_expansion_dependencies": [],
+      "unknowns": [
+        "ρ/α carrier division",
+        "Final υ shape and grave-mark assignment",
+        "All literal letters versus ligature expansions"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 7,
+      "editorial_word": "ἑψήσεις",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N1, final ordinary cluster at right before line break",
+      "approximate_locator_box_xyxy": [
+        925,
+        1340,
+        1080,
+        1404
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "A connected final cluster includes short low strokes, a taller forked/descending complex, uprights and a curved ending; several upper marks are present.",
+      "literal_carrier_assessment": "The ψ/η-shaped middle is compatible with the edition, but its division and the ε/η/σ/ε/ι/ς carrier count remain unresolved. Allen’s printed diplomatic line and expanded line do not establish a native one-letter-per-stroke inventory.",
+      "supplied_or_expansion_dependencies": [],
+      "unknowns": [
+        "ε versus ἑ and breathing",
+        "ψ and adjacent η ligature",
+        "Ending σεις segmentation",
+        "Exact accent/breathing ownership"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 8,
+      "editorial_word": "καὶ",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N2, first compact note at left",
+      "approximate_locator_box_xyxy": [
+        451,
+        1406,
+        480,
+        1458
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "A second compact vertical stack of dark components begins the next line before a larger connected cluster.",
+      "literal_carrier_assessment": "This supplies a genuine repeated note occurrence in the corresponding editorial position, without an independent κ/α/ι sequence. Visual family resemblance to token 5 is stronger than an exact stroke-identity claim.",
+      "supplied_or_expansion_dependencies": [
+        "Whole-word καί expansion is inherited from Allen/prior review."
+      ],
+      "unknowns": [
+        "Exact dot/stroke count",
+        "Exact allography compared with token 5"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 9,
+      "editorial_word": "διηθήσας",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N2, connected cluster after initial note",
+      "approximate_locator_box_xyxy": [
+        477,
+        1404,
+        619,
+        1458
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "The first ordinary cluster of this line has connected looped/upright carriers and upper marks. A central rounded taller complex and a repeated low-curved ending are visible.",
+      "literal_carrier_assessment": "The cluster’s word position is secure; a complete literal δ/ι/η/θ/η/σ/α/ς segmentation is not. The central θ-like structure may involve an ordinary ligature.",
+      "supplied_or_expansion_dependencies": [],
+      "unknowns": [
+        "Individual ι/η boundaries",
+        "θ carrier versus connected complex",
+        "Final σας inventory",
+        "Accent assignment"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 10,
+      "editorial_word": "δίδου",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N2, shorter cluster between long filtering word and final drinking word",
+      "approximate_locator_box_xyxy": [
+        614,
+        1404,
+        704,
+        1458
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "A short connected group of looped/low rounded carriers follows, with an upper mark; it is separated sufficiently to distinguish its word position from the adjoining clusters.",
+      "literal_carrier_assessment": "The δ-like loops and low ο/υ ending are compatible with δίδου. Literal duplication of δ and precise ι/ο/υ boundaries are not independently certified.",
+      "supplied_or_expansion_dependencies": [],
+      "unknowns": [
+        "Two independently written δ occurrences",
+        "ι versus connecting stroke",
+        "ο/υ ligature and accent ownership"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    },
+    {
+      "index": 11,
+      "editorial_word": "πίνειν",
+      "editorial_word_is_locator_not_pixel_reading": true,
+      "native_location": "N2, terminal cluster before sentence punctuation and next sentence",
+      "approximate_locator_box_xyxy": [
+        697,
+        1404,
+        807,
+        1458
+      ],
+      "box_is_measured_segmentation": false,
+      "visible_inventory": "A low connected cluster with short upright/arched strokes terminates before a visible separator; small upper strokes occur over the cluster.",
+      "literal_carrier_assessment": "The word position and sentence endpoint are located. An exact π/ι/ν/ε/ι/ν inventory cannot be recovered independently at this viewing resolution and ordinary ligature uncertainty.",
+      "supplied_or_expansion_dependencies": [],
+      "unknowns": [
+        "π versus connected opening strokes",
+        "Both ι and ν occurrences",
+        "ε and final ν carrier boundaries",
+        "Exact endpoint punctuation"
+      ],
+      "exact_native_word_writer_status": "UNRESOLVED",
+      "ordinary_expansions_certified_absent": false
+    }
+  ],
+  "complete_sentence_decision": {
+    "all_11_editorial_positions_accounted_for": true,
+    "all_11_exact_native_carrier_sequences_recovered": false,
+    "complete_finite_source_writer_demonstrated": false,
+    "reason": "The inventory locates every editorial word but leaves ordinary connected-letter boundaries, literal-versus-ligature expansions and attachment ownership unresolved. A word-complete writer would currently obtain letter information from the edition or word identity rather than independently observed carriers.",
+    "local_retention": [
+      "Two compact note occurrences in the two editorial καί positions",
+      "A medial epsilon-like carrier in the mixed σύμμετρον position with nearby small marks",
+      "Ordinary-letter clusters in the other registered word positions"
+    ],
+    "not_new_independent_rule": [
+      "Exact attached τ",
+      "Exact μ multiplicity and under-dot ownership",
+      "Full ordinary ligature expansion dictionary"
+    ],
+    "channel_consequence": "Retain the known mixed source mechanism and partial local correspondences. Do not calibrate a complete shared spelling channel from this packet, nominate a target key, or count any Voynich meaning."
+  },
+  "no_new_source_fetch": true,
+  "no_crop_enhancement_ocr": true,
+  "no_voynich_access": true,
+  "confirmed_voynich_meanings": 0,
+  "prefreeze_locator_correction": "Before transmitting freeze, corrected N1 from penultimate full text line to lower text line approximately y1370; two continuation lines below sentence were not used."
+}
