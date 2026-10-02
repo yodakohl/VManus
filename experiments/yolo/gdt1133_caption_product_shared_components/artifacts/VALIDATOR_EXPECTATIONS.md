@@ -1,0 +1,15 @@
+# GDT1133 independent validator expectations
+
+Frozen from the live route and preregistration/method/registration/design note/pre-review only. SOURCE, body carriers, author files and input payloads were not opened. JSON SHA256: `fbae55398a9a53c12af9a329a0ea46daec3cb4efb4b7529187f5b21f12cb1c6f`.
+
+After root final release, conserve every retained f19r raw line/group/hardchunk for each reader and the literal C2 caption, including native IDs, separators, uncertainty, metadata and fixed final units. Derive counts from released source, not anticipated outcomes. RF os is not or. Verify contract/input/freeze/author pins without editing frozen files.
+
+Keep the four caption signatures fixed: l returns SourceKindRef(K19); or returns FromSourceSpec(K19); al returns MaterialKindSpec(S19,K19,DECOCTION); ody returns Appellation(S19) preserving source/form. This nominal chain produces no preparation event or physical d. Check explicit written w, preparation e, distinct p/d, selection/disposal, expanded caption-denotation definition, d consumer and identity continuation. Extra predicates, constants, licenses, aliases and bridges must be inventoried and frozen.
+
+At least two distinct nonseed or/al/ody functions must run at fixed body units, and each function’s returned information must be read by a later complete written expression at a different raw group/span. Local or-to-al chaining and independently reconstructed K19/S19 do not qualify. Both functions may originate in one whole; propagated fields can suffice without preserving an auxiliary handle. Inspect actual argument flow and returned-field sensitivity through a released observable API. Missing execution capacity is unverified; do not invent it or repair the author.
+
+Unknown groups remain barriers. No required state crosses unresolved text without an explicit frozen paid bridge/reset. Report first actual barrier and dependent blocked/unreached consumers. Validate the actual stated operation and intervention order, including exact tails, rather than guessing a common plan. Unused auxiliary values, ignored required functions and dead wholes are distinct findings.
+
+Evaluate preparation deletion, output d-to-p and source K19-to-K2 substitutions only at actual written producer/consumer sites. Preserve all other rules and trace missing/changed identity, form and provenance. Evaluate the strict denotation flip only if an actual caption-denotation reference exists; otherwise report untested/equivalent. Do not anticipate success, a specific first failure or operation order. Wider plant-name plus preparation/definition and lexical whole rivals remain.
+
+Conservation PASS is not semantic PASS. A complete reader may retain its own C0 while all-reader completeness remains partial. Missing operands/interface, semantic contradiction and procedural invalidity remain separate. Atomicity, linguistic truth, botanical identity and medical effects remain manual/unverified; zero confirmed words and zero independent confirmation. Await root release before source/author inspection or replay.

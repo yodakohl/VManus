@@ -1,3 +1,17 @@
+## 2026-10-02 GD/GDT1133: direct component use, no complete reading
+
+Fixed caption/body OR source information is read at four IT sites; ODY kind,
+source and form are read by later Col. IT76 executes but four reference-only
+words have no terminal contribution (one additional dead chain in postreview).
+ZL18/78 and RF3/76 stop at native unknowns; RF caption os also blocks.233native
+rows conserved.34/35checks: common-provenance guard does not enforce its claim;
+baseline co-provenance still consistent.23families/40unitassignments/63licenses
+remain costly C0, not selected meanings. Two exposed leaves19/102,0independent
+confirmation/words. No author repair or old-failure rescue. Next review the
+already owned paired-posting role/reference consumer proposal, not more caption
+aliases or eight/eight wind-count matching.
+[Decision](experiments/yolo/gdt1133_caption_product_shared_components/REPORT.md).
+
 ## 2026-10-02 GD/GDT1132: live Person consumers, root-payload bypass
 
 Original-acquisition/last-working/addressee each preserve60cases(12complete,48

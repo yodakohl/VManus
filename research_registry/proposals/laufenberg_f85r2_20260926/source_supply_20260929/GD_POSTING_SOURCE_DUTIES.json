@@ -1,0 +1,54 @@
+{
+  "status": "SOURCE_ONLY_PREPARATION_IDEA767_NOT_SELECTED",
+  "inclusive_budget_minutes": 12,
+  "source_packet": {
+    "path": "research_registry/work_batches/ten_hours_20260915/ISNAD_LEDGER_CONTEXTUAL_SOURCE_20260920.json",
+    "sha256": "07aef4a6b7795b472ff75e5e2d86652841c31dc94c1024728b027203a9c506f3",
+    "stones_text_sha256": "0d02618e4cbb40f9b4cb7e51fce9351f046a92bd79c9768284550165f655ea94",
+    "hashes_verified": true,
+    "complete_unit": "Geijsbeek1914 English translation of Pacioli1494 chapter15 precious-stones teaching item, printed49/opening51 before chapter16",
+    "supporting_context": "Chapter14 rules and chapter15 prerequisites retained separately",
+    "native_layer": "Prior partial Italian-facsimile printed48 comparison of per/page references/amount pairing; no full diplomatic transcription",
+    "limitations": ["1494 later than1450", "schematic counts/weights remain placeholders", "English transcription normalized typography", "cash amount omission remains recorded", "not all chapter15 or complete commercial daybook"]
+  },
+  "single_POSTED_predicate": {
+    "verdict": "FAIR_ROLE_PARAMETERIZED_SHORTHAND_WITH_EXPLICIT_CONVENTION",
+    "semantics": "Journal-to-Ledger transfer completion recorded separately for debit and credit roles of one transaction",
+    "both_mark_locations": "Journal",
+    "different_journal_vs_ledger_phases": false,
+    "distinct_acts": ["write debit Ledger entry", "mark Journal debit transfer", "write credit Ledger entry", "mark Journal credit transfer"],
+    "limits": ["marking instruction does not create absent Ledger entry", "marker presence alone does not certify correctly executed posting", "one global DONE cannot discharge two obligations", "posted is not settled or paid"]
+  },
+  "ordered_item_duties": [
+    "Choose Ledger space and supply missing header/date",
+    "Stones debit left on page3, November8, counteraccount capital2, amount40/0/0/0 and descriptive placeholders",
+    "Journal debit stroke",
+    "Capital credit page2 under prior entry, date ditto, abbreviated description, counteraccount stones3, same40/0/0/0",
+    "Journal credit stroke and marginal debit-page3 above credit-page2",
+    "Immediate subsequent index under G or Z according to Gioie pronunciation"
+  ],
+  "time_constraints": {
+    "ordered_transfer_then_mark": true,
+    "credit_may_be_later": true,
+    "fixed_interval_or_physical_adjacency_required": false
+  },
+  "shared_constraints": ["one original Journal transaction", "same owned date", "same value vector", "opposed host/side assignments", "stones3 debit counterreferences capital2", "capital2 credit counterreferences stones3", "Journal margin3/2 resolves these sides", "index refers to same account/page", "abbreviated Ledger description resolves fuller Journal owner"],
+  "contextual_forms": {
+    "per": "Journal debtor marker versus Ledger counteraccount introducer on both sides",
+    "ditto": "Reuses stated date/description owner, not arbitrary latest object",
+    "stacked_3_2": "Debit-page over credit-page, not fraction",
+    "G_or_Z": "Alternative pronunciation-dependent index initials, not two postings"
+  },
+  "countercases": [
+    {"case": "equal amounts wrong credited account", "result": "balance preserved but written counteraccount/ownership violated"},
+    {"case": "both strokes with swapped Journal2/3 or wrong Ledger/index reference", "result": "completion flags present but reference network inconsistent"},
+    {"case": "only debit marked", "result": "temporary one-sided posting permitted; credit completion not supplied"},
+    {"case": "posting completion interpreted as settlement/payment", "result": "economic event not established by source marks"}
+  ],
+  "claim_ceiling": "Historical contextual mechanism only; no manuscript semantic binding, account identity, date, value, source identification or confirmed word",
+  "target_table_or_image_access": false,
+  "fetch_contact_reserve_or_new_admission": false,
+  "experiment_selection": false,
+  "global_or_git_edits": false,
+  "V_partial_unbound_decision_preserved": true
+}

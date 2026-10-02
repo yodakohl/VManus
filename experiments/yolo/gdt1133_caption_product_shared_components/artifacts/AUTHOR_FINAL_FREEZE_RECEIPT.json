@@ -1,0 +1,108 @@
+{
+  "schema": "GDT1133_AUTHOR_FINAL_FREEZE_v1",
+  "frozen_utc": "2026-10-02T00:37:06.006575+00:00",
+  "status": "PARTIAL_REQUIRED_UNCONSUMED_WHOLES_AND_NATIVE_ALTERNATE_BARRIERS",
+  "files": {
+    "src/CORE.json": "08602d89d452576d2ced7cc1106be56ee0cfeee64404730400117701686c1fb3",
+    "src/EXTENSIONS.json": "c6c38bcd86a415376d0d9bc3239883d768e6619f8ee67575b03468d24b3dbee1",
+    "src/BUILD_FREEZE.py": "a7da093ee4525ff2fbbd99a309fe96712b402f9891a8cde29ab2a6caf766ebff",
+    "src/AUTHOR_MATERIALIZE.py": "d426291f179dcff1abf677e789c780420cd12cb13fe9142819ada4be0257b606",
+    "src/AUTHOR_WRITE_READING.py": "40bf9610706ca29d847cb95cfd6a59090f3a1ae182760c856d9713407459ae35",
+    "artifacts/AUTHOR_INITIAL_FREEZE_RECEIPT.json": "cec353514b6cffa6231bf543a13ac6dadcba64bd7a592f4ceea98be39974cbb7",
+    "artifacts/AUTHOR_ACCOUNT.json": "7d733d8fc51b3cbd3d7ce328dcac4e6f4051ac12256a6186337ea7a3d9705c48",
+    "artifacts/AUTHOR_READING.md": "23022f86d4197e5b0584593ba4e418091879a7af97cb1de8106101f279cdf729",
+    "artifacts/AUTHOR_TECHNICAL_RECEIPT.json": "a0b77e669d21ed9d05ab623a5bf5ed95cfd7c323828306123ae27f4388cfadbe"
+  },
+  "source_sha256": "8a8a4b3460ab6aca175098fa08e7d4d53e1695e8e17f2978f5515a0353b7a612",
+  "initial_freeze_utc": "2026-10-02T00:25:08.770734+00:00",
+  "author_start_utc": "2026-10-02T00:18:37+00:00",
+  "checkpoint_utc": "2026-10-02T00:38:37+00:00",
+  "selected_author_attempt_finished": true,
+  "constructor_changes": 0,
+  "other_C2_author_read": false,
+  "summary": [
+    {
+      "reader": "IT2a",
+      "native_body_groups": 76,
+      "accounted_native_groups": 76,
+      "full_body_operational": true,
+      "first_barrier": null,
+      "nonseed_consumed_caption_functions": [
+        "ody",
+        "or"
+      ],
+      "required_two_functions_reached": true,
+      "caption_complete": true,
+      "wholly_unused_reference_gaps": [
+        {
+          "source_id": "IT2a|f19r.3|G005",
+          "raw": "dor",
+          "returned_types": [
+            "SourceKindRef",
+            "FromSourceSpec"
+          ],
+          "reason": "Entire reference-only whole has no actual later written consumer; output overwritten. Frozen functions retained, no repair."
+        },
+        {
+          "source_id": "IT2a|f19r.8|G001",
+          "raw": "or",
+          "returned_types": [
+            "FromSourceSpec"
+          ],
+          "reason": "Entire reference-only whole has no actual later written consumer; output overwritten. Frozen functions retained, no repair."
+        },
+        {
+          "source_id": "IT2a|f19r.9|G003",
+          "raw": "dor",
+          "returned_types": [
+            "SourceKindRef",
+            "FromSourceSpec"
+          ],
+          "reason": "Entire reference-only whole has no actual later written consumer; output overwritten. Frozen functions retained, no repair."
+        }
+      ],
+      "strict_complete": false
+    },
+    {
+      "reader": "RF1b",
+      "native_body_groups": 76,
+      "accounted_native_groups": 3,
+      "full_body_operational": false,
+      "first_barrier": {
+        "source_id": "RF1b|f19r.1|G004",
+        "raw": "d@222;",
+        "status": "UNKNOWN",
+        "reason": "UNPARSED_OR_UNASSIGNED_FIXED_FINAL_UNITS"
+      },
+      "nonseed_consumed_caption_functions": [],
+      "required_two_functions_reached": false,
+      "caption_complete": false,
+      "wholly_unused_reference_gaps": [],
+      "strict_complete": false
+    },
+    {
+      "reader": "ZL3b",
+      "native_body_groups": 78,
+      "accounted_native_groups": 18,
+      "full_body_operational": false,
+      "first_barrier": {
+        "source_id": "ZL3b|f19r.2|G010",
+        "raw": "@241;",
+        "status": "UNKNOWN",
+        "reason": "UNPARSED_OR_UNASSIGNED_FIXED_FINAL_UNITS"
+      },
+      "nonseed_consumed_caption_functions": [],
+      "required_two_functions_reached": false,
+      "caption_complete": true,
+      "wholly_unused_reference_gaps": [],
+      "strict_complete": false
+    }
+  ],
+  "unresolved": [
+    "Three wholly unused IT reference words .3dor/.8or/.9dor; no strict whole complete result",
+    "RF first unparsed .1G004 plus captionos barrier",
+    "ZL first unparsed .2G010; no unknown carry to laterpartsites",
+    "High C0 primitive/alias/scope freedom; no meaningselected",
+    "No albody, no globalOR export, naming-plus-preparation and lexicalwhole wider rivals retained"
+  ]
+}

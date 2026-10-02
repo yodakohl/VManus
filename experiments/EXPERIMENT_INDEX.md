@@ -1158,4 +1158,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 - GDT1132: live Person consumers, strict aN payload bypass retained; three policies equivalent. [Decision](yolo/gdt1132_seed_material_agent_derivation/REPORT.md). No meaning selected.
 
-- GDT1133: registered C2 product-caption functions plus complete f19r and nonseed returned-value consumers. [Contract](yolo/gdt1133_caption_product_shared_components/PREREGISTRATION.md). No result yet.
+- GDT1133: actual IT OR/ODY consumers, four dead references, alternate barriers; no complete reading. [Decision](yolo/gdt1133_caption_product_shared_components/REPORT.md).

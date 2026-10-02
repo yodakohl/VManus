@@ -1,0 +1,4341 @@
+{
+  "experiment": "GDT1133",
+  "status": "TECHNICAL_ACCOUNTING_PASS_WITH_PROVENANCE_PREDICATE_FAILURE",
+  "semantic_validation": false,
+  "checks": [
+    {
+      "check": "independent_expectation_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "all_frozen_contract_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "all_registered_input_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "final_receipt_and_all_author_pins",
+      "status": "PASS"
+    },
+    {
+      "check": "initial_core_extension_source_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "inventory_freeze_before_materialized_account",
+      "status": "PASS"
+    },
+    {
+      "check": "source_exact_three_retained_f19r_readers",
+      "status": "PASS"
+    },
+    {
+      "check": "guarded_literal_C2_three_caption_rows",
+      "status": "PASS"
+    },
+    {
+      "check": "all233_native_rows_all_fields_no_duplicates",
+      "status": "PASS"
+    },
+    {
+      "check": "all227_hardchunks_final_units_and_native_spans_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "source_and_inventory_pins_in_account",
+      "status": "PASS"
+    },
+    {
+      "check": "declared_core_extension_counts_from_actual_definitions",
+      "status": "PASS"
+    },
+    {
+      "check": "licenses_match_fixed_units_and_frozen_unit_functions",
+      "status": "PASS"
+    },
+    {
+      "check": "four_caption_functions_not_changed",
+      "status": "PASS"
+    },
+    {
+      "check": "actual_nominal_caption_return_contracts_and_RF_barrier",
+      "status": "PASS"
+    },
+    {
+      "check": "IT2a_summary_actual_scope_and_first_barrier",
+      "status": "PASS"
+    },
+    {
+      "check": "RF1b_summary_actual_scope_and_first_barrier",
+      "status": "PASS"
+    },
+    {
+      "check": "ZL3b_summary_actual_scope_and_first_barrier",
+      "status": "PASS"
+    },
+    {
+      "check": "unknown_barriers_stop_all_later_execution_no_default_carry",
+      "status": "PASS"
+    },
+    {
+      "check": "strict_PARTIAL_and_three_dead_wholes_retained",
+      "status": "PASS"
+    },
+    {
+      "check": "replay_only_final_write_and_print_omitted",
+      "status": "PASS"
+    },
+    {
+      "check": "deterministic_entire_account_replay_without_writing_author",
+      "status": "PASS"
+    },
+    {
+      "check": "existing_operate_API_baseline_reaches_written_drink",
+      "status": "PASS"
+    },
+    {
+      "check": "actual_returned_OR_field_read_at_later_raw_group",
+      "status": "PASS"
+    },
+    {
+      "check": "actual_returned_ODY_field_read_at_later_raw_group",
+      "status": "PASS"
+    },
+    {
+      "check": "DELETE_FIRST_PREPARATION_does_not_invent_physical_d",
+      "status": "PASS"
+    },
+    {
+      "check": "DELETE_ALL_PERFORMED_PREPARATIONS_does_not_invent_physical_d",
+      "status": "PASS"
+    },
+    {
+      "check": "selected_solid_fails_actual_written_liquid_definition",
+      "status": "PASS"
+    },
+    {
+      "check": "actual_selection_return_substitution_reaches_liquid_consumer_gate",
+      "status": "PASS"
+    },
+    {
+      "check": "actual_source_producer_change_detected_at_first_written_source_assertion",
+      "status": "PASS"
+    },
+    {
+      "check": "changed_source_fails_actual_written_provenance_definition",
+      "status": "PASS"
+    },
+    {
+      "check": "strict_flip_actual_reference_exists_and_fixed_definition_rejects",
+      "status": "PASS"
+    },
+    {
+      "check": "two_distinct_consumed_nonseed_functions_reported_only_IT",
+      "status": "PASS"
+    },
+    {
+      "check": "strict_common_input_preparation_provenance_predicate_checks_mismatch",
+      "status": "FAIL",
+      "detail": "Frozen ASSERT_OUTPUT_PROVENANCE claims common e/w; actual predicate only checks distinct physical IDs and solid/liquid phases, so the mutated input/source/preparation is accepted."
+    },
+    {
+      "check": "all_author_source_freeze_bytes_unchanged_after_replay_probes",
+      "status": "PASS"
+    }
+  ],
+  "failed_checks": 1,
+  "scope_counts": {
+    "native_rows": 233,
+    "body_rows": 230,
+    "body_hardchunks": 227,
+    "caption_rows": 3
+  },
+  "summary": [
+    {
+      "reader": "IT2a",
+      "native_body_groups": 76,
+      "accounted_native_groups": 76,
+      "full_body_operational": true,
+      "first_barrier": null,
+      "nonseed_consumed_caption_functions": [
+        "ody",
+        "or"
+      ],
+      "required_two_functions_reached": true,
+      "caption_complete": true,
+      "wholly_unused_reference_gaps": [
+        {
+          "source_id": "IT2a|f19r.3|G005",
+          "raw": "dor",
+          "returned_types": [
+            "SourceKindRef",
+            "FromSourceSpec"
+          ],
+          "reason": "Entire reference-only whole has no actual later written consumer; output overwritten. Frozen functions retained, no repair."
+        },
+        {
+          "source_id": "IT2a|f19r.8|G001",
+          "raw": "or",
+          "returned_types": [
+            "FromSourceSpec"
+          ],
+          "reason": "Entire reference-only whole has no actual later written consumer; output overwritten. Frozen functions retained, no repair."
+        },
+        {
+          "source_id": "IT2a|f19r.9|G003",
+          "raw": "dor",
+          "returned_types": [
+            "SourceKindRef",
+            "FromSourceSpec"
+          ],
+          "reason": "Entire reference-only whole has no actual later written consumer; output overwritten. Frozen functions retained, no repair."
+        }
+      ],
+      "strict_complete": false
+    },
+    {
+      "reader": "RF1b",
+      "native_body_groups": 76,
+      "accounted_native_groups": 3,
+      "full_body_operational": false,
+      "first_barrier": {
+        "source_id": "RF1b|f19r.1|G004",
+        "raw": "d@222;",
+        "status": "UNKNOWN",
+        "reason": "UNPARSED_OR_UNASSIGNED_FIXED_FINAL_UNITS"
+      },
+      "nonseed_consumed_caption_functions": [],
+      "required_two_functions_reached": false,
+      "caption_complete": false,
+      "wholly_unused_reference_gaps": [],
+      "strict_complete": false
+    },
+    {
+      "reader": "ZL3b",
+      "native_body_groups": 78,
+      "accounted_native_groups": 18,
+      "full_body_operational": false,
+      "first_barrier": {
+        "source_id": "ZL3b|f19r.2|G010",
+        "raw": "@241;",
+        "status": "UNKNOWN",
+        "reason": "UNPARSED_OR_UNASSIGNED_FIXED_FINAL_UNITS"
+      },
+      "nonseed_consumed_caption_functions": [],
+      "required_two_functions_reached": false,
+      "caption_complete": true,
+      "wholly_unused_reference_gaps": [],
+      "strict_complete": false
+    }
+  ],
+  "cost_counts": {
+    "primitive_families": 23,
+    "unit_function_assignments": 40,
+    "opaque_constants": 9,
+    "finite_whole_hardchunk_licenses": 63,
+    "body_al_final_unit_sites": 0
+  },
+  "conditional_API_probes": [
+    {
+      "name": "BASELINE",
+      "first_failure": null,
+      "physical_liquid_exists": true,
+      "executed_operations": 136,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V224",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V224"
+        },
+        "p": {
+          "id": "IT2a:V412",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V412"
+        },
+        "d": {
+          "id": "IT2a:V413",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "kind": "S19",
+          "payload_lookup_id": "IT2a:V413"
+        },
+        "selected": {
+          "id": "IT2a:V432",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.12|G004"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "payload_lookup_id": "IT2a:V432"
+        },
+        "use_selected": {
+          "id": "IT2a:V367",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.8|G003"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "payload_lookup_id": "IT2a:V367"
+        },
+        "e": {
+          "id": "IT2a:V411",
+          "type": "PhysicalEvent",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "event": "REBOIL_SAME_OUTPUTS",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V411"
+        },
+        "source_ref": {
+          "id": "IT2a:V441",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.13|G002"
+          ],
+          "kind": "K19",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V441"
+        },
+        "from_spec": {
+          "id": "IT2a:V439",
+          "type": "FromSourceSpec",
+          "producer_source_ids": [
+            "IT2a|f19r.13|G001"
+          ],
+          "source_kind": "K19",
+          "payload_lookup_id": "IT2a:V439"
+        },
+        "definition": {
+          "id": "IT2a:V417",
+          "type": "MaterialKindSpec",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G002"
+          ],
+          "kind": "S19",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "payload_lookup_id": "IT2a:V417"
+        },
+        "body_appellation": {
+          "id": "IT2a:V419",
+          "type": "Appellation",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G002"
+          ],
+          "denotation": "S19",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V419"
+        },
+        "drink": {
+          "id": "IT2a:V422",
+          "type": "PhysicalEvent",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G004"
+          ],
+          "event": "DRINK_POSITIVE_PORTION",
+          "amount": "UNSPECIFIED_POSITIVE_PORTION",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V422"
+        },
+        "event_ids": [
+          "IT2a:V228",
+          "IT2a:V231",
+          "IT2a:V241",
+          "IT2a:V314",
+          "IT2a:V338",
+          "IT2a:V377",
+          "IT2a:V411",
+          "IT2a:V422"
+        ],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "ALTER_ONLY_RETURNED_OR_SOURCE_FIELD",
+      "first_failure": {
+        "source_ids": [
+          "IT2a|f19r.11|G001"
+        ],
+        "unit": "qot",
+        "reason": "PREPARATION_SOURCE_MISMATCH",
+        "actual_remaining_plan": [
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G001"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "qol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "ody"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "Ty"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "ol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "o"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "Cor"
+          }
+        ]
+      },
+      "physical_liquid_exists": true,
+      "executed_operations": 116,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V443",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V443"
+        },
+        "p": {
+          "id": "IT2a:V597",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.9|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V597"
+        },
+        "d": {
+          "id": "IT2a:V598",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.9|G001"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V598"
+        },
+        "selected": {
+          "id": "IT2a:V617",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G001"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "payload_lookup_id": "IT2a:V617"
+        },
+        "use_selected": {
+          "id": "IT2a:V586",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.8|G003"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "payload_lookup_id": "IT2a:V586"
+        },
+        "e": {
+          "id": "IT2a:V596",
+          "type": "PhysicalEvent",
+          "producer_source_ids": [
+            "IT2a|f19r.9|G001"
+          ],
+          "event": "REBOIL_SAME_OUTPUTS",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V596"
+        },
+        "source_ref": {
+          "id": "IT2a:V627",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G005"
+          ],
+          "kind": "K19",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V627"
+        },
+        "from_spec": {
+          "id": "IT2a:V621",
+          "type": "FromSourceSpec",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G002"
+          ],
+          "source_kind": "K2",
+          "payload_lookup_id": "IT2a:V621"
+        },
+        "definition": null,
+        "body_appellation": null,
+        "drink": null,
+        "event_ids": [
+          "IT2a:V447",
+          "IT2a:V450",
+          "IT2a:V460",
+          "IT2a:V533",
+          "IT2a:V557",
+          "IT2a:V596"
+        ],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "ALTER_ONLY_RETURNED_ODY_FORM_FIELD",
+      "first_failure": {
+        "source_ids": [
+          "IT2a|f19r.11|G003"
+        ],
+        "unit": "Col",
+        "reason": "APPELLATION_NOT_THIS_ACTUAL_LIQUID",
+        "actual_remaining_plan": [
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "Ty"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "ol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "o"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "Cor"
+          }
+        ]
+      },
+      "physical_liquid_exists": true,
+      "executed_operations": 120,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V630",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V630"
+        },
+        "p": {
+          "id": "IT2a:V818",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V818"
+        },
+        "d": {
+          "id": "IT2a:V819",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "kind": "S19",
+          "payload_lookup_id": "IT2a:V819"
+        },
+        "selected": {
+          "id": "IT2a:V820",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "payload_lookup_id": "IT2a:V820"
+        },
+        "use_selected": {
+          "id": "IT2a:V773",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.8|G003"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "payload_lookup_id": "IT2a:V773"
+        },
+        "e": {
+          "id": "IT2a:V817",
+          "type": "PhysicalEvent",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "event": "REBOIL_SAME_OUTPUTS",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V817"
+        },
+        "source_ref": {
+          "id": "IT2a:V814",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G005"
+          ],
+          "kind": "K19",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V814"
+        },
+        "from_spec": {
+          "id": "IT2a:V808",
+          "type": "FromSourceSpec",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G002"
+          ],
+          "source_kind": "K19",
+          "payload_lookup_id": "IT2a:V808"
+        },
+        "definition": {
+          "id": "IT2a:V823",
+          "type": "MaterialKindSpec",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G002"
+          ],
+          "kind": "S19",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "payload_lookup_id": "IT2a:V823"
+        },
+        "body_appellation": {
+          "id": "IT2a:V825",
+          "type": "Appellation",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G002"
+          ],
+          "denotation": "S19",
+          "source_kind": "K19",
+          "form": "RAW_JUICE",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V825"
+        },
+        "drink": null,
+        "event_ids": [
+          "IT2a:V634",
+          "IT2a:V637",
+          "IT2a:V647",
+          "IT2a:V720",
+          "IT2a:V744",
+          "IT2a:V783",
+          "IT2a:V817"
+        ],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "DELETE_FIRST_PREPARATION",
+      "first_failure": {
+        "source_ids": [
+          "IT2a|f19r.1|G003"
+        ],
+        "unit": "Sy",
+        "reason": "MISSING_D",
+        "actual_remaining_plan": [
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G004"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G005"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G006"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G006"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G007"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G007"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G008"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G009"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G009"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G009"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G001"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G001"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G003"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G004"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G004"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G005"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G006"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G006"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G006"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G007"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G007"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G008"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G009"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G009"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G009"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G010"
+            ],
+            "unit": "s"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G011"
+            ],
+            "unit": "Co"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G011"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G001"
+            ],
+            "unit": "Ce"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G002"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G003"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G004"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G005"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G005"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G006"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G006"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G001"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G001"
+            ],
+            "unit": "ar"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G002"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G003"
+            ],
+            "unit": "C"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G003"
+            ],
+            "unit": "Ky"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G004"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G005"
+            ],
+            "unit": "k"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G005"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G001"
+            ],
+            "unit": "ot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G001"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G002"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G002"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G003"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G003"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G005"
+            ],
+            "unit": "r"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G001"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G002"
+            ],
+            "unit": "S"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G002"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G003"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G005"
+            ],
+            "unit": "ot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G005"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G006"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G001"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G001"
+            ],
+            "unit": "Co"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G002"
+            ],
+            "unit": "ky"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G003"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G003"
+            ],
+            "unit": "ar"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G004"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G005"
+            ],
+            "unit": "C"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G005"
+            ],
+            "unit": "a"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G005"
+            ],
+            "unit": "n"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G006"
+            ],
+            "unit": "dar"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G003"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G003"
+            ],
+            "unit": "a"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G003"
+            ],
+            "unit": "ky"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G004"
+            ],
+            "unit": "dal"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G005"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G006"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G006"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G006"
+            ],
+            "unit": "l"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G007"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G001"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G002"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G003"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G003"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G004"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "k"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G006"
+            ],
+            "unit": "S"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G006"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G001"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G002"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G002"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G004"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G004"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G005"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G005"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G001"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G001"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "qol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "ody"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "Ty"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "ol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "o"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "Cor"
+          }
+        ]
+      },
+      "physical_liquid_exists": false,
+      "executed_operations": 6,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V826",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V826"
+        },
+        "p": null,
+        "d": null,
+        "selected": {
+          "id": "IT2a:V831",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G002"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "RAW_BOTANICAL",
+          "payload_lookup_id": "IT2a:V831"
+        },
+        "use_selected": null,
+        "e": null,
+        "source_ref": {
+          "id": "IT2a:V827",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "kind": "K19",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V827"
+        },
+        "from_spec": null,
+        "definition": null,
+        "body_appellation": null,
+        "drink": null,
+        "event_ids": [
+          "IT2a:V830"
+        ],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "DELETE_ALL_PERFORMED_PREPARATIONS",
+      "first_failure": {
+        "source_ids": [
+          "IT2a|f19r.1|G003"
+        ],
+        "unit": "Sy",
+        "reason": "MISSING_D",
+        "actual_remaining_plan": [
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G004"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G005"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G006"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G006"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G007"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G007"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G008"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G009"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G009"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G009"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G001"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G001"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G003"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G004"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G004"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G005"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G006"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G006"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G006"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G007"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G007"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G008"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G009"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G009"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G009"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G010"
+            ],
+            "unit": "s"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G011"
+            ],
+            "unit": "Co"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G011"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G001"
+            ],
+            "unit": "Ce"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G002"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G003"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G004"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G005"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G005"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G006"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G006"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G001"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G001"
+            ],
+            "unit": "ar"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G002"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G003"
+            ],
+            "unit": "C"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G003"
+            ],
+            "unit": "Ky"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G004"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G005"
+            ],
+            "unit": "k"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G005"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G001"
+            ],
+            "unit": "ot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G001"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G002"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G002"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G003"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G003"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G005"
+            ],
+            "unit": "r"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G001"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G002"
+            ],
+            "unit": "S"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G002"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G003"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G005"
+            ],
+            "unit": "ot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G005"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G006"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G001"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G001"
+            ],
+            "unit": "Co"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G002"
+            ],
+            "unit": "ky"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G003"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G003"
+            ],
+            "unit": "ar"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G004"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G005"
+            ],
+            "unit": "C"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G005"
+            ],
+            "unit": "a"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G005"
+            ],
+            "unit": "n"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G006"
+            ],
+            "unit": "dar"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G003"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G003"
+            ],
+            "unit": "a"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G003"
+            ],
+            "unit": "ky"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G004"
+            ],
+            "unit": "dal"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G005"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G006"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G006"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G006"
+            ],
+            "unit": "l"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G007"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G001"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G002"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G003"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G003"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G004"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "k"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G006"
+            ],
+            "unit": "S"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G006"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G001"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G002"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G002"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G004"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G004"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G005"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G005"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G001"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G001"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "qol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "ody"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "Ty"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "ol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "o"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "Cor"
+          }
+        ]
+      },
+      "physical_liquid_exists": false,
+      "executed_operations": 6,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V833",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V833"
+        },
+        "p": null,
+        "d": null,
+        "selected": {
+          "id": "IT2a:V838",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G002"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "RAW_BOTANICAL",
+          "payload_lookup_id": "IT2a:V838"
+        },
+        "use_selected": null,
+        "e": null,
+        "source_ref": {
+          "id": "IT2a:V834",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "kind": "K19",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V834"
+        },
+        "from_spec": null,
+        "definition": null,
+        "body_appellation": null,
+        "drink": null,
+        "event_ids": [
+          "IT2a:V837"
+        ],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "SUBSTITUTE_SELECTED_PHYSICAL_OUTPUT_P_AT_WRITTEN_DEFINITION",
+      "first_failure": {
+        "source_ids": [
+          "IT2a|f19r.11|G002"
+        ],
+        "unit": "qol",
+        "reason": "WRITTEN_OUTPUT_SELECTION_NOT_LIQUID_D",
+        "actual_remaining_plan": [
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "ody"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "Ty"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "ol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "o"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "Cor"
+          }
+        ]
+      },
+      "physical_liquid_exists": true,
+      "executed_operations": 118,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V840",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V840"
+        },
+        "p": {
+          "id": "IT2a:V1028",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V1028"
+        },
+        "d": {
+          "id": "IT2a:V1029",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V1029"
+        },
+        "selected": {
+          "id": "IT2a:V1030",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "payload_lookup_id": "IT2a:V1030"
+        },
+        "use_selected": {
+          "id": "IT2a:V1028",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V1028"
+        },
+        "e": {
+          "id": "IT2a:V1027",
+          "type": "PhysicalEvent",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "event": "REBOIL_SAME_OUTPUTS",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V1027"
+        },
+        "source_ref": {
+          "id": "IT2a:V1024",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G005"
+          ],
+          "kind": "K19",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V1024"
+        },
+        "from_spec": {
+          "id": "IT2a:V1018",
+          "type": "FromSourceSpec",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G002"
+          ],
+          "source_kind": "K19",
+          "payload_lookup_id": "IT2a:V1018"
+        },
+        "definition": null,
+        "body_appellation": null,
+        "drink": null,
+        "event_ids": [
+          "IT2a:V844",
+          "IT2a:V847",
+          "IT2a:V857",
+          "IT2a:V930",
+          "IT2a:V954",
+          "IT2a:V993",
+          "IT2a:V1027"
+        ],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "CHANGE_ACTUAL_LAST_USE_SELECTION_RETURN_TO_SOLID_P",
+      "first_failure": {
+        "source_ids": [
+          "IT2a|f19r.11|G002"
+        ],
+        "unit": "qol",
+        "reason": "WRITTEN_OUTPUT_SELECTION_NOT_LIQUID_D",
+        "actual_remaining_plan": [
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "ody"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "Ty"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "ol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "o"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "Cor"
+          }
+        ]
+      },
+      "physical_liquid_exists": true,
+      "executed_operations": 118,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V1033",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V1033"
+        },
+        "p": {
+          "id": "IT2a:V1221",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V1221"
+        },
+        "d": {
+          "id": "IT2a:V1222",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V1222"
+        },
+        "selected": {
+          "id": "IT2a:V1223",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "payload_lookup_id": "IT2a:V1223"
+        },
+        "use_selected": {
+          "id": "IT2a:V1176",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.8|G003"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "payload_lookup_id": "IT2a:V1176"
+        },
+        "e": {
+          "id": "IT2a:V1220",
+          "type": "PhysicalEvent",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "event": "REBOIL_SAME_OUTPUTS",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V1220"
+        },
+        "source_ref": {
+          "id": "IT2a:V1217",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G005"
+          ],
+          "kind": "K19",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V1217"
+        },
+        "from_spec": {
+          "id": "IT2a:V1211",
+          "type": "FromSourceSpec",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G002"
+          ],
+          "source_kind": "K19",
+          "payload_lookup_id": "IT2a:V1211"
+        },
+        "definition": null,
+        "body_appellation": null,
+        "drink": null,
+        "event_ids": [
+          "IT2a:V1037",
+          "IT2a:V1040",
+          "IT2a:V1050",
+          "IT2a:V1123",
+          "IT2a:V1147",
+          "IT2a:V1186",
+          "IT2a:V1220"
+        ],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "CHANGE_ACTUAL_BOTANICAL_INPUT_PRODUCER_SOURCE_TO_K2",
+      "first_failure": {
+        "source_ids": [
+          "IT2a|f19r.1|G001"
+        ],
+        "unit": "Cor",
+        "reason": "CONTRADICTED_BODY_INPUT_SOURCE",
+        "actual_remaining_plan": [
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G002"
+            ],
+            "unit": "q"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G002"
+            ],
+            "unit": "od"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G002"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G003"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G003"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G004"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G005"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G006"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G006"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G007"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G007"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G008"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G009"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G009"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.1|G009"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G001"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G001"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G003"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G004"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G004"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G005"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G006"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G006"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G006"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G007"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G007"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G008"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G009"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G009"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G009"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G010"
+            ],
+            "unit": "s"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G011"
+            ],
+            "unit": "Co"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.2|G011"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G001"
+            ],
+            "unit": "Ce"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G002"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G003"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G004"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G005"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G005"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G006"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.3|G006"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G001"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G001"
+            ],
+            "unit": "ar"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G002"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G003"
+            ],
+            "unit": "C"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G003"
+            ],
+            "unit": "Ky"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G004"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G005"
+            ],
+            "unit": "k"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.4|G005"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G001"
+            ],
+            "unit": "ot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G001"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G002"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G002"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G003"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G003"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.5|G005"
+            ],
+            "unit": "r"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G001"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G002"
+            ],
+            "unit": "S"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G002"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G003"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G005"
+            ],
+            "unit": "ot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G005"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.6|G006"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G001"
+            ],
+            "unit": "qok"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G001"
+            ],
+            "unit": "Co"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G002"
+            ],
+            "unit": "ky"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G003"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G003"
+            ],
+            "unit": "ar"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G004"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G005"
+            ],
+            "unit": "C"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G005"
+            ],
+            "unit": "a"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G005"
+            ],
+            "unit": "n"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.7|G006"
+            ],
+            "unit": "dar"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G003"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G003"
+            ],
+            "unit": "a"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G003"
+            ],
+            "unit": "ky"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G004"
+            ],
+            "unit": "dal"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G005"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G006"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G006"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G006"
+            ],
+            "unit": "l"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.8|G007"
+            ],
+            "unit": "Sy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G001"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G002"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G003"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G003"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G004"
+            ],
+            "unit": "y"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "t"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "k"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G005"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G006"
+            ],
+            "unit": "S"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.9|G006"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G001"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G002"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G002"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G004"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G004"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G005"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.10|G005"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G001"
+            ],
+            "unit": "qot"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G001"
+            ],
+            "unit": "Cy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "qol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "ody"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "Ty"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "ol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "o"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "Cor"
+          }
+        ]
+      },
+      "physical_liquid_exists": false,
+      "executed_operations": 1,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V1226",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K2",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V1226"
+        },
+        "p": null,
+        "d": null,
+        "selected": {
+          "id": "IT2a:V1226",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K2",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V1226"
+        },
+        "use_selected": null,
+        "e": null,
+        "source_ref": {
+          "id": "IT2a:V1227",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "kind": "K2",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V1227"
+        },
+        "from_spec": null,
+        "definition": null,
+        "body_appellation": null,
+        "drink": null,
+        "event_ids": [],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "SUBSTITUTE_PHYSICAL_OUTPUT_SOURCE_K2_AT_WRITTEN_DEFINITION",
+      "first_failure": {
+        "source_ids": [
+          "IT2a|f19r.11|G002"
+        ],
+        "unit": "qol",
+        "reason": "EXPANDED_DEFINITION_SOURCE_FORM_MISMATCH",
+        "actual_remaining_plan": [
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "ody"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "Ty"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "ol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "o"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "Cor"
+          }
+        ]
+      },
+      "physical_liquid_exists": true,
+      "executed_operations": 118,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V1228",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V1228"
+        },
+        "p": {
+          "id": "IT2a:V1416",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V1416"
+        },
+        "d": {
+          "id": "IT2a:V1417",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "d",
+          "source_kind": "K2",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V1417"
+        },
+        "selected": {
+          "id": "IT2a:V1418",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "payload_lookup_id": "IT2a:V1418"
+        },
+        "use_selected": {
+          "id": "IT2a:V1371",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.8|G003"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "payload_lookup_id": "IT2a:V1371"
+        },
+        "e": {
+          "id": "IT2a:V1415",
+          "type": "PhysicalEvent",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "event": "REBOIL_SAME_OUTPUTS",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V1415"
+        },
+        "source_ref": {
+          "id": "IT2a:V1412",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G005"
+          ],
+          "kind": "K19",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V1412"
+        },
+        "from_spec": {
+          "id": "IT2a:V1406",
+          "type": "FromSourceSpec",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G002"
+          ],
+          "source_kind": "K19",
+          "payload_lookup_id": "IT2a:V1406"
+        },
+        "definition": null,
+        "body_appellation": null,
+        "drink": null,
+        "event_ids": [
+          "IT2a:V1232",
+          "IT2a:V1235",
+          "IT2a:V1245",
+          "IT2a:V1318",
+          "IT2a:V1342",
+          "IT2a:V1381",
+          "IT2a:V1415"
+        ],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "STRICT_CAPTION_DENOTATION_FLIP_AT_ACTUAL_WRITTEN_REFERENCE",
+      "first_failure": {
+        "source_ids": [
+          "IT2a|f19r.11|G002"
+        ],
+        "unit": "qol",
+        "reason": "CAPTION_DENOTATION_NOT_MATERIAL_KIND",
+        "actual_remaining_plan": [
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G002"
+            ],
+            "unit": "ody"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "Col"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G003"
+            ],
+            "unit": "dy"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "Ty"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.11|G004"
+            ],
+            "unit": "d"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "yk"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G001"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G002"
+            ],
+            "unit": "Cor"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G003"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "daN"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.12|G004"
+            ],
+            "unit": "ol"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "os"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "o"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "T"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G001"
+            ],
+            "unit": "or"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "yt"
+          },
+          {
+            "source_ids": [
+              "IT2a|f19r.13|G002"
+            ],
+            "unit": "Cor"
+          }
+        ]
+      },
+      "physical_liquid_exists": true,
+      "executed_operations": 118,
+      "state": {
+        "initialized": true,
+        "w": {
+          "id": "IT2a:V1421",
+          "type": "BotanicalInput",
+          "producer_source_ids": [
+            "IT2a|f19r.1|G001"
+          ],
+          "physical_id": "w",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V1421"
+        },
+        "p": {
+          "id": "IT2a:V1609",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V1609"
+        },
+        "d": {
+          "id": "IT2a:V1610",
+          "type": "PhysicalMaterial",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "kind": null,
+          "payload_lookup_id": "IT2a:V1610"
+        },
+        "selected": {
+          "id": "IT2a:V1611",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "physical_id": "p",
+          "source_kind": "K19",
+          "phase": "SOLID_PHASE",
+          "form": "BOILED_SOLID",
+          "payload_lookup_id": "IT2a:V1611"
+        },
+        "use_selected": {
+          "id": "IT2a:V1564",
+          "type": "MaterialReference",
+          "producer_source_ids": [
+            "IT2a|f19r.8|G003"
+          ],
+          "physical_id": "d",
+          "source_kind": "K19",
+          "phase": "LIQUID_PHASE",
+          "form": "DECOCTION",
+          "payload_lookup_id": "IT2a:V1564"
+        },
+        "e": {
+          "id": "IT2a:V1608",
+          "type": "PhysicalEvent",
+          "producer_source_ids": [
+            "IT2a|f19r.11|G001"
+          ],
+          "event": "REBOIL_SAME_OUTPUTS",
+          "source_kind": "K19",
+          "form": "DECOCTION",
+          "mode": "GENERIC_CONDITIONAL",
+          "payload_lookup_id": "IT2a:V1608"
+        },
+        "source_ref": {
+          "id": "IT2a:V1605",
+          "type": "SourceKindRef",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G005"
+          ],
+          "kind": "K19",
+          "owner": "Owner240",
+          "payload_lookup_id": "IT2a:V1605"
+        },
+        "from_spec": {
+          "id": "IT2a:V1599",
+          "type": "FromSourceSpec",
+          "producer_source_ids": [
+            "IT2a|f19r.10|G002"
+          ],
+          "source_kind": "K19",
+          "payload_lookup_id": "IT2a:V1599"
+        },
+        "definition": null,
+        "body_appellation": null,
+        "drink": null,
+        "event_ids": [
+          "IT2a:V1425",
+          "IT2a:V1428",
+          "IT2a:V1438",
+          "IT2a:V1511",
+          "IT2a:V1535",
+          "IT2a:V1574",
+          "IT2a:V1608"
+        ],
+        "unknown_ids": [],
+        "barrier": null
+      }
+    },
+    {
+      "name": "MISMATCH_SOLID_PROVENANCE_AT_ACTUAL_COMMON_PROVENANCE_ASSERTION",
+      "source_ids": [
+        "IT2a|f19r.4|G003"
+      ],
+      "unit": "C",
+      "first_failure": null,
+      "mismatched_fields": [
+        "p.source_kind",
+        "p.origin_input.id",
+        "p.preparation.id"
+      ],
+      "accepted": true,
+      "returned_predicates": [
+        "SAME_INPUT_PREPARATION_PROVENANCE"
+      ]
+    }
+  ],
+  "manual_unverified_limits": [
+    "Technical preservation/replay and conditional value-flow checks do not prove semantic truth or productive morphology.",
+    "Nested-ID consumer metadata overcounts possible field readership; direct OR and ODY return-field probes independently show actual reads at later written groups.",
+    "IT76 is operational; three entirely unused reference wholes prevent strict whole completion. RF3/76 and ZL18/78 stop at native unknowns; no state crosses them.",
+    "Actual source-producer K2 intervention fails immediately at .1G001 source assertion; separate local physical-output sourceK2 intervention reaches .11G002 definition. The last actual use-selection returned MaterialReference was also independently changed to solid p and failed at definition.",
+    "Countercases are independent conditional API interventions at actual sites; narrative author consequences were not themselves executed branches.",
+    "Deleting first versus all preparations was checked separately; both stop at actual first missing-liquid view before any later boil can occur.",
+    "ASSERT_OUTPUT_PROVENANCE accepts a changed solid source/input/preparation: its actual truth test checks only distinct IDs and phase. Baseline co-provenance construction is consistent, but this claimed identity predicate is not enforced.",
+    "Expanded qol compound has two paid primitive predicates; alias atomicity, interpretation plausibility, provenance assertion strength and linguistic justification remain manual.",
+    "Wider plant-name plus preparation/definition and one-pair lexical whole rivals remain untested/equivalent, even though the strict fixed flip rejects.",
+    "No independent confirmation, medical efficacy, selected meaning or reserve opening."
+  ],
+  "expectations_sha256": "fbae55398a9a53c12af9a329a0ea46daec3cb4efb4b7529187f5b21f12cb1c6f",
+  "author_final_receipt_sha256": "8edf745bfbbc9076376d6ca9acb2abcdf5ad9a8451477a334a713d1bbf76bb33",
+  "validator_sha256": "d05b463844cf62549820e4c4d8715388b20ad7e0a6470795cea21756cc55063a"
+}

@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: GDT1133 caption/body shared-component reading.
-Latest decision: 1132 Person use live; aN payload bypass, policy tie.
-Working files: gdt1133_caption_product_shared_components.
+Task: Close1133; review paired posting/reference proposal767.
+Latest decision: 1133 directOR/ODY; four dead words; no whole reading.
+Working files: gdt1133_caption_product_shared_components; GD_POSTING_SOURCE_DUTIES.
 Assumptions: Fixed grammar; exposed sources; zero meanings.
-Resume: Publish contract; author full body with fixed functions.
-Running: 1132 closure;1133 author/reviewer; min06:09:20UTC.
+Resume: Publish1133; register bounded whole posting account if selected.
+Running: 1133 publication; min06:09:20UTC.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

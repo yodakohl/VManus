@@ -1,0 +1,127 @@
+{
+  "experiment": "GDT1133",
+  "frozen_at_utc": "2026-10-02T00:45:27.723494+00:00",
+  "decision": "STRICT_PARTIAL_ALL_READERS_DIRECT_OR_ODY_READS_RETAINED",
+  "pins_verified": true,
+  "author_final_pins": {
+    "src/CORE.json": "08602d89d452576d2ced7cc1106be56ee0cfeee64404730400117701686c1fb3",
+    "src/EXTENSIONS.json": "c6c38bcd86a415376d0d9bc3239883d768e6619f8ee67575b03468d24b3dbee1",
+    "src/BUILD_FREEZE.py": "a7da093ee4525ff2fbbd99a309fe96712b402f9891a8cde29ab2a6caf766ebff",
+    "src/AUTHOR_MATERIALIZE.py": "d426291f179dcff1abf677e789c780420cd12cb13fe9142819ada4be0257b606",
+    "src/AUTHOR_WRITE_READING.py": "40bf9610706ca29d847cb95cfd6a59090f3a1ae182760c856d9713407459ae35",
+    "artifacts/AUTHOR_INITIAL_FREEZE_RECEIPT.json": "cec353514b6cffa6231bf543a13ac6dadcba64bd7a592f4ceea98be39974cbb7",
+    "artifacts/AUTHOR_ACCOUNT.json": "7d733d8fc51b3cbd3d7ce328dcac4e6f4051ac12256a6186337ea7a3d9705c48",
+    "artifacts/AUTHOR_READING.md": "23022f86d4197e5b0584593ba4e418091879a7af97cb1de8106101f279cdf729",
+    "artifacts/AUTHOR_TECHNICAL_RECEIPT.json": "a0b77e669d21ed9d05ab623a5bf5ed95cfd7c323828306123ae27f4388cfadbe"
+  },
+  "source_pin_verified": true,
+  "native_rows_conserved": 233,
+  "native_columns": 23,
+  "fixed_chunk_units_conserved": true,
+  "reader_decisions": {
+    "IT2a": {
+      "operational": 76,
+      "body_total": 76,
+      "strict_complete": false,
+      "terminal_reference_gaps": [
+        "IT2a|f19r.3|G005",
+        "IT2a|f19r.7|G004",
+        "IT2a|f19r.8|G001",
+        "IT2a|f19r.9|G003"
+      ],
+      "shared_nonseed_functions": [
+        "or",
+        "ody"
+      ]
+    },
+    "ZL3b": {
+      "operational": 18,
+      "body_total": 78,
+      "unknown": 4,
+      "blocked": 56,
+      "first_barrier": "ZL3b|f19r.2|G010",
+      "caption_complete": true,
+      "strict_complete": false
+    },
+    "RF1b": {
+      "operational": 3,
+      "body_total": 76,
+      "unknown": 7,
+      "blocked": 66,
+      "first_barrier": "RF1b|f19r.1|G004",
+      "caption_complete": false,
+      "caption_barrier": "os",
+      "strict_complete": false
+    }
+  },
+  "direct_OR_reads": [
+    {
+      "value": "IT2a:V83",
+      "producer": "IT2a|f19r.4|G001",
+      "consumer": "IT2a|f19r.5|G001"
+    },
+    {
+      "value": "IT2a:V114",
+      "producer": "IT2a|f19r.6|G002",
+      "consumer": "IT2a|f19r.6|G005"
+    },
+    {
+      "value": "IT2a:V154",
+      "producer": "IT2a|f19r.8|G006",
+      "consumer": "IT2a|f19r.9|G001"
+    },
+    {
+      "value": "IT2a:V183",
+      "producer": "IT2a|f19r.10|G002",
+      "consumers": [
+        "IT2a|f19r.11|G001",
+        "IT2a|f19r.11|G002"
+      ]
+    }
+  ],
+  "direct_ODY_read": {
+    "value": "IT2a:V200",
+    "producer": "IT2a|f19r.11|G002",
+    "consumer": "IT2a|f19r.11|G003",
+    "fields": [
+      "denotation",
+      "source_kind",
+      "form"
+    ]
+  },
+  "extra_transitive_dead_chain": {
+    "producer": "IT2a|f19r.7|G004",
+    "values": [
+      "IT2a:V136",
+      "IT2a:V137"
+    ],
+    "only_later_reference_reader": "IT2a|f19r.8|G001",
+    "dead_result": "IT2a:V143"
+  },
+  "costs": {
+    "families": 23,
+    "unit_assignments": 40,
+    "constants": 9,
+    "exact_licenses": 63,
+    "explicit_qol_atomic_predicates": 2,
+    "body_AL_sites": 0,
+    "unused_objects": 223,
+    "unknown_carry": 0
+  },
+  "implementation_limit": "ASSERT_OUTPUT_PROVENANCE guard checks only distinct IDs/phases; actual current constructors give common provenance but unequal-origin guard not implemented",
+  "consumer_limit": "recursive nested-ID reachability overstates actual field reads",
+  "in_memory_countercases": {
+    "baseline_definition": "EXECUTES",
+    "baseline_Col": "EXECUTES",
+    "strict_caption_flip": "CAPTION_DENOTATION_NOT_MATERIAL_KIND",
+    "selected_solid": "WRITTEN_OUTPUT_SELECTION_NOT_LIQUID_D",
+    "OR_K2": "EXPANDED_DEFINITION_SOURCE_FORM_MISMATCH",
+    "ODY_K2": "APPELLATION_NOT_THIS_ACTUAL_LIQUID",
+    "delete_first_boil_then_Sy": "MISSING_D"
+  },
+  "fair_wider_rival": "lexical source-name K19 + altered written source reference interpretation + separately paid DERIVE_DECOCTION_KIND_FROM_REFERENCED_SOURCE bridge to S19; preserves physical d effects; not a new completed account",
+  "confirmed_meanings": 0,
+  "repairs": false,
+  "new_access": false,
+  "review_md_sha256": "66429136f46b85187ba654b728117b63fcc656de185420bce861f8b47be1fe53"
+}

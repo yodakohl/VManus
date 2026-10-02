@@ -1,0 +1,160 @@
+{
+  "experiment": "GDT1133",
+  "status": "PARTIAL_COMPONENT_REUSE_FOUR_DEAD_REFERENCES_NO_MEANING_SELECTION",
+  "registered_scope": {
+    "body": "complete retained f19r all13lines/all3readers",
+    "caption": "f102v1.17 object240",
+    "native_rows": 233,
+    "body_groups": 230,
+    "body_hardchunks": 227,
+    "caption_groups": 3
+  },
+  "reader_results": [
+    {
+      "reader": "IT2a",
+      "native_body_groups": 76,
+      "accounted_native_groups": 76,
+      "full_body_operational": true,
+      "first_barrier": null,
+      "nonseed_consumed_caption_functions": [
+        "ody",
+        "or"
+      ],
+      "required_two_functions_reached": true,
+      "caption_complete": true,
+      "wholly_unused_reference_gaps": [
+        {
+          "source_id": "IT2a|f19r.3|G005",
+          "raw": "dor",
+          "returned_types": [
+            "SourceKindRef",
+            "FromSourceSpec"
+          ],
+          "reason": "Entire reference-only whole has no actual later written consumer; output overwritten. Frozen functions retained, no repair."
+        },
+        {
+          "source_id": "IT2a|f19r.8|G001",
+          "raw": "or",
+          "returned_types": [
+            "FromSourceSpec"
+          ],
+          "reason": "Entire reference-only whole has no actual later written consumer; output overwritten. Frozen functions retained, no repair."
+        },
+        {
+          "source_id": "IT2a|f19r.9|G003",
+          "raw": "dor",
+          "returned_types": [
+            "SourceKindRef",
+            "FromSourceSpec"
+          ],
+          "reason": "Entire reference-only whole has no actual later written consumer; output overwritten. Frozen functions retained, no repair."
+        }
+      ],
+      "strict_complete": false,
+      "root_strict_reference_gaps": 4
+    },
+    {
+      "reader": "RF1b",
+      "native_body_groups": 76,
+      "accounted_native_groups": 3,
+      "full_body_operational": false,
+      "first_barrier": {
+        "source_id": "RF1b|f19r.1|G004",
+        "raw": "d@222;",
+        "status": "UNKNOWN",
+        "reason": "UNPARSED_OR_UNASSIGNED_FIXED_FINAL_UNITS"
+      },
+      "nonseed_consumed_caption_functions": [],
+      "required_two_functions_reached": false,
+      "caption_complete": false,
+      "wholly_unused_reference_gaps": [],
+      "strict_complete": false,
+      "root_strict_reference_gaps": 0
+    },
+    {
+      "reader": "ZL3b",
+      "native_body_groups": 78,
+      "accounted_native_groups": 18,
+      "full_body_operational": false,
+      "first_barrier": {
+        "source_id": "ZL3b|f19r.2|G010",
+        "raw": "@241;",
+        "status": "UNKNOWN",
+        "reason": "UNPARSED_OR_UNASSIGNED_FIXED_FINAL_UNITS"
+      },
+      "nonseed_consumed_caption_functions": [],
+      "required_two_functions_reached": false,
+      "caption_complete": true,
+      "wholly_unused_reference_gaps": [],
+      "strict_complete": false,
+      "root_strict_reference_gaps": 0
+    }
+  ],
+  "actual_nonseed_functions": [
+    "or",
+    "ody"
+  ],
+  "actual_direct_or_sites": [
+    "IT2a|f19r.4|G001",
+    "IT2a|f19r.6|G002",
+    "IT2a|f19r.8|G006",
+    "IT2a|f19r.10|G002"
+  ],
+  "actual_direct_ody_site": "IT2a|f19r.11|G002",
+  "ody_consumer": "IT2a|f19r.11|G003",
+  "body_al_applications": 0,
+  "strict_dead_reference_sites": [
+    "IT2a|f19r.3|G005",
+    "IT2a|f19r.7|G004",
+    "IT2a|f19r.8|G001",
+    "IT2a|f19r.9|G003"
+  ],
+  "author_direct_gap_count": 3,
+  "additional_review_gap": "IT2a .7G004 dor feeds only dead .8G001 or; no terminal contribution",
+  "validator": {
+    "checks": 35,
+    "pass": 34,
+    "fail": 1,
+    "failure": "ASSERT_OUTPUT_PROVENANCE accepts mismatched solid input/source/preparation"
+  },
+  "costs": {
+    "families": 23,
+    "body_unit_assignments": 40,
+    "constants": 9,
+    "finite_whole_licenses": 63,
+    "additional_qol_atomic_predicates": 2
+  },
+  "physical_events_IT": {
+    "wet": 1,
+    "boil": 6,
+    "drink_portion": 1
+  },
+  "equivalent_or_untested_rivals": [
+    "plant-name plus separately paid written preparation/definition bridge",
+    "lexicalized source-qualified product name",
+    "consistent opaque identity renamings"
+  ],
+  "independent_confirmation_capacity": 0,
+  "physical_leaves": [
+    19,
+    102
+  ],
+  "prior_exposure": true,
+  "new_access": false,
+  "confirmed_words": 0,
+  "significance_claim": false,
+  "reserves_opened": false,
+  "seals": [
+    "f84",
+    "f84r"
+  ],
+  "author_files_changed": false,
+  "decision": "Retain direct conditional component uses; no complete reading, productive morphology or meaning selection. Preserve dead words and provenance implementation failure without repair.",
+  "pins": {
+    "PREREGISTRATION.md": "945286dae7e0b97823ed71b302d6e5866002484b1fb2496f3ed18912d14033e2",
+    "src/SOURCE.json": "8a8a4b3460ab6aca175098fa08e7d4d53e1695e8e17f2978f5515a0353b7a612",
+    "artifacts/AUTHOR_FINAL_FREEZE_RECEIPT.json": "8edf745bfbbc9076376d6ca9acb2abcdf5ad9a8451477a334a713d1bbf76bb33",
+    "artifacts/POST_REVIEW.json": "8cfdbcea76522553d685dc7c375f4e675e22d079e5104aee015fea75883c9188",
+    "artifacts/VALIDATION.json": "6e6ca2f0a505f6aa9d145d9c5996842db3a8eaa5c7be20f76a5ca8aa7347cf68"
+  }
+}
