@@ -1483,3 +1483,52 @@ U_COMPLETE_SOURCE_READINGS.md
 Only this owned note append changed; prior bytes preserved. No registry
 mutation/refresh, target body/pixels, acquisition, reserve, contact, test,
 root files/ledger/globals or Git.0confirmed words.
+
+## Wind/diagram and two other relation offers — 2026-10-02
+
+**0new RAW.** Route and differential topic were read; unknown winds topic was
+followed by targeted wind/diagram idea and primary lookup, not an absence claim.
+Bounded show/search/duplicates and route-check preceded original748/751/547
+cards and their complete cached historical source spans. Best conditional
+candidate748 was sent to root early. No target body/pixels or new source read.
+
+748 is the strongest attachment contrast: I.6.6–8 builds one meridian from
+morning and equal-length afternoon shadow points, derives wind sectors, then
+places streets on the BETWEEN-wind divisions. Static wind lists omit the
+measurement→axis dependency; wind-aligned streets reverse the prescribed
+consumer. I.6.12–13 explanatory letter construction was read as a separately
+declared continuation, not merged into the original6–8 boundary. This gives a
+real multi-step source obligation, but no owned target shadow endpoints,
+meridian or street consumer is bound. A source diagram alone does not satisfy
+that debt, and GDT794's orientation/label failures are not reopened.
+
+751 supplies a different comparison: equal-weight gold, silver and crown are
+immersed with water restored to the same brim baseline between trials. Equal
+mass does not mean equal displacement. IXpreface9–12 reports crown displacement
+above gold, not an explicit crown-versus-silver ordering. Restored level/quantity
+does not identify every refill as the same physical water portion. No numerical
+alloy fraction or balance-in-water procedure is donated. This whole assay is
+already retained, not a new amount-word reading or material-process card.
+
+547 supplies a temporal relation: full IX.3 equates courses at separate signs
+while retaining increasing/decreasing branches. Most course pairings do not
+explicitly equate day lengths. One stronger clause DOES say that passage from
+Capricorn into Aquarius increases days to the length they had in Sagittarius.
+That particular equality is direct source wording; it still does not equate
+the phases or the signs of their changes. The complete chapter's stellar
+landmarks and first-eighth conventions remain obligations, not degrees supplied
+by a modern model. This is already within547's whole-source boundary. Its
+prospective1042 block scope remains unbound; no free sign names were assigned.
+
+Allthree stay RAW/unselected.582's fixed outside typing/binder exclusion and
+605's incomplete whole-account/order debts were noticed in curated cards;
+neither unchanged route was recommended. No new source relation here reopens
+a closed model. Root owns primary predecessor review and scientific selection;
+C0 whole authorship need not await independent meanings.
+
+Checked SHA256 pins:
+05_shadow_constructed_direction.json `43ec2a9b077ceac6e6b2aca5e75d54059472b32a0bd2f9eb73ead5ed7ecb5d3b`;
+08_crown_equal_mass_displacement.json `d2e885efa2a69b7a5f3d97d7a48e86f481cc364e71e4be17801b21d16d6089a3`;
+17_vitruvius_solar_year_relations.json `cc2adc6d98c3f5c34d7f8469fe6b5a616d24d3cb61baeea4759affdfb39b306c`;
+D_SOURCE_VITRUVIUS.html `fd9fa70b9a04f948c747f377224a9c1414479e0126fe33f4e7d2f69b12c822cd`;
+Only this note append changed; prior bytes preserved. No ideas mutation, target/reserve access, acquisition, contact, decoder, global refresh, root files/ledger or Git.0confirmed words.

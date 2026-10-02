@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: f25v grammar follow-up reviewed;branch parked.
-Latest decision: Two sketches do not derive missing roles;0words.
-Working files: source_supply_20260929/GJ_ROOT_CONSTRUCTION_DECISION.md.
-Assumptions: Fixed1143lexicon;no new data/reserve.
-Resume: Select distinct proposal with a written attachment contrast.
-Running: None;three bounded agents finished.
+Task: IDEA748 historical construction source acquired.
+Latest decision: Shadow-axis-wind-street template;target unbound;0words.
+Working files: source_supply_20260929/GK_VITRUVIUS_SOURCE_REPORT.md.
+Assumptions: Medieval prose;full figure chain1511;no reserve.
+Resume: Require target-owned measurement/axis contrast before748lexical test.
+Running: None;source and bounded reviews complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

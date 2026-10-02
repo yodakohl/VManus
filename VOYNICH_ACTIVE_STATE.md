@@ -1,3 +1,7 @@
+## 2026-10-02 IDEA748 historical construction source acquired
+
+[Seven source pages inspected](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GK_VITRUVIUS_SOURCE_REPORT.md): Harley2767ff16v–17r (catalogue0800–0824) attests shadow-to-meridian construction in prose beside a wind diagram;1511FraGiocondo29–33 explicitly labels shadows/gnomon, wind regions and street grid. Separate local letter keys and changing page orientation retained. No pre1420 complete figure chain, Voynich match or word established. Existingf67r1/f57v primary observations do not bind these roles; no target test/opening. Retain748as limited acquisition success, not permission for fitted rotation.1143branch stays parked.
+
 ## 2026-10-02 post1143 construction decision
 
 [Bounded design review](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GJ_ROOT_CONSTRUCTION_DECISION.md) parks the frozen f25v branch: immediate-following-NP attachment gives the guessed HEAT as weakened participant and leaves both naming predicates unbound; a local typed-valency sketch lacks determined clause boundaries. These are two assessed designs, not a new experiment or universal grammar refutation. NoGDT1144; no new words or data. Do not turn the prior request for syntax into arbitrary repairs. Any reopening needs an explicit written contrast between complete argument constructions, not confirmed seed glosses.
