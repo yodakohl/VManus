@@ -4,12 +4,12 @@ Updated: 2026-10-02. Live resume point.
 ## Current work
 Phase: exploration
 Status: active
-Task: Select a meaning-bearing constraint after GDT1135 closure.
-Latest decision: f81v replicates prior inventory; no new meaning binding.
-Working files: GDT1135 REPORT; GD_PIPELINE_TARGETS; GDT1064 REPORT.
-Assumptions: fochor/Viola remains C0; no independent second owner.
-Resume: Publish1135; check f9v primary constraints before new selection.
-Running: Bounded idea producer; parent minimum06:09:20UTC.
+Task: Greek1364 source11-word native alignment.
+Latest decision: 1135 replication published; no new meaning binding.
+Working files: GD_GREEK_WORD_ALIGNMENT in current source dossier.
+Assumptions: source marks do not identify Voynich letters or language.
+Resume: Account for all265v sentence carriers and supplied expansions.
+Running: Source checkpoint03:13:33; parent minimum06:09:20UTC; idea producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
