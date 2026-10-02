@@ -4,11 +4,11 @@ Updated: 2026-10-03. Live resume point.
 ## Current work
 Phase: fixed_test
 Status: complete
-Task: GDT1151 full ol paired-field scope tested;WE014.
-Latest decision: ZL59/74,IT177/232 contradictions;fixed scope fails.
-Working files: experiments/yolo/gdt1151_ol_paired_field_scope/REPORT.md.
-Assumptions: No phase/marker repair;frequency before gloss;0words.
-Resume: Distinct complete consequence;no paired-field or window retry.
+Task: GDT1152 native f81r.5 seam compared;WE015.
+Latest decision: A/B SPACE,SPACE,INTERNAL;local join support;0words.
+Working files: experiments/yolo/gdt1152_f81r_minim_seam_native/REPORT.md.
+Assumptions: Word boundary unproved;1151unchanged;frequency before gloss.
+Resume: Preserve local seam evidence;no repeat-view or fusion rule.
 Running: None.
 
 ## Structural baseline

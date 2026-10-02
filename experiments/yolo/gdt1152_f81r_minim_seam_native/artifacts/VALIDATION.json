@@ -1,0 +1,222 @@
+{
+  "experiment": "GDT1152",
+  "accounting_pass": true,
+  "checks": [
+    {
+      "name": "registered_method_prereg_source_exact_pins",
+      "pass": true
+    },
+    {
+      "name": "four_access_and_predecessor_pins",
+      "pass": true
+    },
+    {
+      "name": "original_image_byte_identity",
+      "pass": true
+    },
+    {
+      "name": "display_crop_byte_identity",
+      "pass": true
+    },
+    {
+      "name": "crop_coordinates_inside_registered_original",
+      "pass": true
+    },
+    {
+      "name": "registered_original_and_display_dimensions",
+      "pass": true
+    },
+    {
+      "name": "lossless_display_crop_exact_pixel_match",
+      "pass": true
+    },
+    {
+      "name": "A_observation_freeze_byte_identity",
+      "pass": true
+    },
+    {
+      "name": "A_complete_frozen_rating_fields",
+      "pass": true
+    },
+    {
+      "name": "A_registered_source_image_and_declared_line_scope",
+      "pass": true
+    },
+    {
+      "name": "A_declared_freeze_source_crop_identity",
+      "pass": true
+    },
+    {
+      "name": "A_recorded_registration_observation_freeze_order",
+      "pass": true
+    },
+    {
+      "name": "B_observation_freeze_byte_identity",
+      "pass": true
+    },
+    {
+      "name": "B_complete_frozen_rating_fields",
+      "pass": true
+    },
+    {
+      "name": "B_registered_source_image_and_declared_line_scope",
+      "pass": true
+    },
+    {
+      "name": "B_declared_freeze_source_crop_identity",
+      "pass": true
+    },
+    {
+      "name": "B_recorded_registration_observation_freeze_order",
+      "pass": true
+    },
+    {
+      "name": "recorded_A_freeze_before_B_observation_and_freeze",
+      "pass": true
+    },
+    {
+      "name": "fixed_two_observer_decision_no_averaging",
+      "pass": true
+    },
+    {
+      "name": "result_exact_rating_and_source_account",
+      "pass": true
+    },
+    {
+      "name": "result_retains_old_refutation_and_zero_meaning_capacity",
+      "pass": true
+    },
+    {
+      "name": "recorded_successful_result_after_both_freezes",
+      "pass": true
+    },
+    {
+      "name": "comparison_receipt_result_hash",
+      "pass": true
+    },
+    {
+      "name": "protocol_order_record_explicitly_not_exact_delivery_clock",
+      "pass": true
+    },
+    {
+      "name": "all_registered_observation_image_runner_and_result_bytes_unchanged",
+      "pass": true
+    }
+  ],
+  "independently_reconstructed_decision": "LOCAL_JOIN_SUPPORTED",
+  "observer_rating_summary": {
+    "A": {
+      "location_status": "LOCATED",
+      "original_location": "LOCATED",
+      "seams": {
+        "motif1_to_motif2": "SPACE_LIKE",
+        "motif2_to_motif3": "SPACE_LIKE",
+        "motif3_to_minims": "INTERNAL_LIKE"
+      }
+    },
+    "B": {
+      "location_status": "LOCATED",
+      "original_location": "LOCATED: f81r upper text block, fifth native running-text row below the upper figure; the row starts near crop x45,y270 and slopes downward to the right. Three recurring loop+tall-stroke motifs lie near crop x550–790,y285–335, followed by the low minim run near x790–900.",
+      "seams": {
+        "motif1_to_motif2": "SPACE_LIKE",
+        "motif2_to_motif3": "SPACE_LIKE",
+        "motif3_to_minims": "INTERNAL_LIKE"
+      }
+    }
+  },
+  "image_numeric_audit": {
+    "source_size": [
+      2776,
+      3737
+    ],
+    "crop_box_xyxy": [
+      400,
+      745,
+      1870,
+      1170
+    ],
+    "crop_size": [
+      1470,
+      425
+    ],
+    "modes": [
+      "RGB",
+      "RGB"
+    ],
+    "formats": [
+      "JPEG",
+      "PNG"
+    ],
+    "pixel_identity_verified": true,
+    "image_visually_viewed_by_validator": false
+  },
+  "recorded_chronology": {
+    "registered_utc": "2026-10-02T22:31:21.824221+00:00",
+    "observers": {
+      "A": {
+        "observed_utc": "2026-10-02T22:32:25.350931+00:00",
+        "frozen_utc": "2026-10-02T22:32:25.351097+00:00"
+      },
+      "B": {
+        "observed_utc": "2026-10-02T22:34:32Z",
+        "frozen_utc": "2026-10-02T22:34:32Z"
+      }
+    },
+    "comparison_receipt": {
+      "successful_result_recorded_utc": "2026-10-02T22:35:36.039614+00:00",
+      "result_sha256": "33cff4bade1f5c11e3502ae7361ab2aff22289e2b16a670f5acdd30681898797",
+      "schema_note": "First score invocation stopped at schema assertion: B records seam status in detailed objects and location as LOCATED plus description. Runner now extracts these explicit status labels without changing observations or decision rule. Original A/B bytes and freeze hashes retained.",
+      "independence": "A frozen before B task by recorded tool-call order; B declares no A/METHOD/report/transcription access. No exact B-task delivery timestamp available."
+    },
+    "protocol_order_attestation": {
+      "recorded_utc": "2026-10-02T22:34:36.826768+00:00",
+      "kind": "ROOT_PROTOCOL_ORDER_ATTESTATION_NOT_INDEPENDENT_CLOCK_PROOF",
+      "order": [
+        "METHOD/SOURCE lock written",
+        "Root full original and native crop viewed",
+        "OBSERVER_A.json and its SHA freeze written; tool returned",
+        "followup_task delivered to B with original/crop paths and neutral seam locations",
+        "B tasked not to read A, METHOD, source strings or report"
+      ],
+      "B_task_exact_delivery_utc": null,
+      "limitations": [
+        "Conversation tool-call order documents A freeze before B task, but a separate exact B task delivery timestamp was not captured.",
+        "No observer-receipt timestamp may be invented from later observed/frozen times."
+      ]
+    }
+  },
+  "schema_adapter": "B detailed seam objects use their explicit status field; LOCATED colon description supplies explicit location label; B artifact key and A file key identify their respective frozen observation paths. Original observations remain unchanged.",
+  "unverified_protocol_edges": [
+    "B line field is a descriptive native-row locator rather than a transcription ID; matching the actual manuscript row and seam remains visual/manual.",
+    "Exact first unsuccessful score invocation time was not recorded; comparison clock is the successful result recording time.",
+    "Exact B-task delivery time was not recorded. Root reports tool-call order A write/freeze completed before B task dispatch; this audit does not independently certify delivery time or secrecy."
+  ],
+  "validator_sha256": "4842038a8e866de3843a2bc4ff7d2f7347f7ba396970cbc25912c2f090b92540",
+  "bound_hashes": {
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/METHOD.md": "1852c215533368fd8666ccedd2e0155ad12d7ea5d60271312b5b49a6355f62ea",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/PREREGISTRATION.md": "1852c215533368fd8666ccedd2e0155ad12d7ea5d60271312b5b49a6355f62ea",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/src/SOURCE.json": "36b63f387197d5e817d2309ce34a0ae7134ee9e67fc380d7982c27db4ecb5d71",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/src/PREREG_LOCK.json": "57c15d6a33b02d136bbe15c160d1795f5be7fec5709c9e692b8f5df5629dd79d",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/src/run.py": "6e79757a25d21a85a958b8614d4b2147dead3f3abae64265c8d7046bc48436d5",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/DISPLAY.json": "423aeb4741e466f19f28b380ef22a7f5d96960190ae9e9592d6c2525c22844e9",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/RESULT.json": "33cff4bade1f5c11e3502ae7361ab2aff22289e2b16a670f5acdd30681898797",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/OBSERVER_A.json": "13223cb95355c089d02a8552f1deff5809d82a6e3d59947289b6978645b5a708",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/OBSERVER_A_FREEZE.json": "8943a97497cf7ea227a47663bc52e34b59aab0d5f5b46948722ab847dd97afa4",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/OBSERVER_B.json": "b4282bed1a0c7b37114c8b4cd5be3340cc9e8593424e9eded6fefc377381af22",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/OBSERVER_B_FREEZE.json": "1cc2cd99c685435d09d94ceec454206b800da1a0d5a7390b0c277cece6a5bcf8",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/COMPARISON_RECEIPT.json": "84ada55b25250b65af026e02e82b1e36a72a2ca094399bef2259627e6b1aed6a",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/PROTOCOL_ORDER.json": "28ac11e6e097369c428533d3fc4c9e88ca4de7cc2c4a1c090a18bccfd318fba8",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/ORIGINAL.jpg": "e5e83f606eb9c3089051035f53ea694bcb1dadb5a93ee0064019c903ec6802fe",
+    "experiments/yolo/gdt1152_f81r_minim_seam_native/artifacts/LINE_CONTEXT.png": "275864b9f054a101436c5fbd107bb1b4f02cd7abb25980c7fc5518ecdf041b46",
+    "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae",
+    "experiments/yolo/gdt819_written_predicate_boundary_review/src/F81R_IMAGES.tsv": "75a5e4984637b1fe0ca81a0511a5438e7ef2035de7df30e6dfaabf6f7697557b",
+    "experiments/yolo/gdt1151_ol_paired_field_scope/REPORT.md": "203d42ae23178106b874649dad957158b01f947cb054e702146e2bc9de91aa8e",
+    "experiments/yolo/gdt852_f75v_native_join_split_spacing/REPORT.md": "25802c0f6f86ec19663b63bb3b5418b52bce051b28774b5dfcaabd0549857e66"
+  },
+  "limits": [
+    "Accounting PASS and pixel identity do not certify visual spacing judgments or correct native line/seam identification.",
+    "B has limited rating independence; prior exposure and the mandatory live route preclude perfect research blinding.",
+    "Matching ratings are not independent manuscript witnesses or semantic confirmation.",
+    "Outcome supports only the disputed local physical seam description; no word identity, general parser, meaning, significance or revised GDT1151 result."
+  ]
+}
