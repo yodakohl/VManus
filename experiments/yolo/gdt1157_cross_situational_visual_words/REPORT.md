@@ -37,7 +37,7 @@ Die positiven Vorhersagegewinne bleiben reale Ergebnisse dieses festen Modells. 
 
 ## Mehrdeutigkeit, Grenzen und nächste Entscheidung
 
-Es gibt keine zwei vollkommen identischen ternären Merkmalsmasken auf dem ursprünglichen38-Seiten-Bestand. Alle objektiv gleichen Modellentscheidungen bleiben dennoch in den Faltungsdateien erhalten, einschließlich Gleichständen mit dem Hintergrundmodell. Auch eine eindeutige Auswahl unter diesen sechs Prädiktoren schließt nicht kodierte, korrelierte Bildeigenschaften, Themen oder generische Textfunktionen nicht aus.
+Keines der sechs Merkmale hat über alle38Seiten dieselbe ternäre Kodierungsfolge wie ein anderes. Alle objektiv gleichen Modellentscheidungen bleiben dennoch in den Faltungsdateien erhalten, einschließlich Gleichständen mit dem Hintergrundmodell. Auch eine eindeutige Auswahl unter diesen sechs Prädiktoren schließt nicht kodierte, korrelierte Bildeigenschaften, Themen oder generische Textfunktionen nicht aus.
 
 Der Hintergrund modelliert Seitenpräsenz, aber weder gesamte Textmenge noch Zeilenposition. Der COUNT-Konkurrent deckt nur einen begrenzten generischen Einfluss ab. Diese Einschränkungen rechtfertigen keine Uminterpretation des negativen Suchergebnisses und wurden nicht nachträglich korrigiert. Wortinventar und Bildseiten waren bereits ausgewählt und exponiert; die Referenzränge sind keine projektweite Signifikanz oder unabhängige Bestätigung.
 

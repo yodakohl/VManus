@@ -1,0 +1,269 @@
+{
+  "reviewers": [
+    "A",
+    "B"
+  ],
+  "witnesses": [
+    "LATIN",
+    "CLM"
+  ],
+  "observation_sources": {
+    "A": {
+      "path": "experiments/yolo/gdt1158_source_drawing_transmission/artifacts/REVIEWER_A.json",
+      "sha256": "dda8702e13e0c5081a7b2db7c49a751541c4366a15cc3a28ff81810fbfc54b21"
+    },
+    "B": {
+      "path": "experiments/yolo/gdt1158_source_drawing_transmission/artifacts/REVIEWER_B.json",
+      "sha256": "3fca0b4807a794b0eed7d71a9b13a698ab677c487c182e1e8b17248bf49a148f"
+    }
+  },
+  "entries": [
+    {
+      "entry": "DEV01",
+      "label": "Balsamus",
+      "signature": {
+        "descriptors": [
+          {
+            "id": "D1",
+            "region": "accessory",
+            "description": "A crenellated polygonal masonry wall encloses the selected plant; lower axes descend behind the front wall.",
+            "concrete": true,
+            "exception_family": "BUILT_ENCLOSURE",
+            "support": {
+              "A": {
+                "LATIN": "YES",
+                "CLM": "YES"
+              },
+              "B": {
+                "LATIN": "YES",
+                "CLM": "YES"
+              }
+            },
+            "evidence_refs": [
+              "REVIEWER_A.json:images:sequence=1,6",
+              "REVIEWER_B.json:observations:sequence=1,6",
+              "RECONCILIATION_SUPPORT.json"
+            ]
+          },
+          {
+            "id": "D2",
+            "region": "stem",
+            "description": "Ascending axes branch into multiple lateral leafy sprays within the enclosure.",
+            "concrete": true,
+            "exception_family": null,
+            "support": {
+              "A": {
+                "LATIN": "YES",
+                "CLM": "YES"
+              },
+              "B": {
+                "LATIN": "YES",
+                "CLM": "YES"
+              }
+            },
+            "evidence_refs": [
+              "REVIEWER_A.json:images:sequence=1,6",
+              "REVIEWER_B.json:observations:sequence=1,6",
+              "RECONCILIATION_SUPPORT.json"
+            ]
+          },
+          {
+            "id": "D3",
+            "region": "leaf",
+            "description": "Oval leaf units are distributed and attached along those branches.",
+            "concrete": true,
+            "exception_family": null,
+            "support": {
+              "A": {
+                "LATIN": "YES",
+                "CLM": "YES"
+              },
+              "B": {
+                "LATIN": "YES",
+                "CLM": "YES"
+              }
+            },
+            "evidence_refs": [
+              "REVIEWER_A.json:images:sequence=1,6",
+              "REVIEWER_B.json:observations:sequence=1,6",
+              "RECONCILIATION_SUPPORT.json"
+            ]
+          }
+        ],
+        "joint_attachment_support": {
+          "A": {
+            "LATIN": "YES",
+            "CLM": "YES"
+          },
+          "B": {
+            "LATIN": "YES",
+            "CLM": "YES"
+          }
+        }
+      },
+      "comparisons": [
+        {
+          "other_entry": "DEV02",
+          "witness": "CLM",
+          "descriptor_states": {
+            "D1": "NO",
+            "D2": "NO",
+            "D3": "UNKNOWN"
+          },
+          "evidence_refs": [
+            "REVIEWER_A.json:images:sequence=2:exceptional_details.built_enclosure",
+            "REVIEWER_B.json:observations:sequence=2:exceptional_families.built_enclosure"
+          ],
+          "note": "No enclosure around selected plant, so both D1 and full D2 (within enclosure) fail; D3 not needed for exclusion and left unscored."
+        },
+        {
+          "other_entry": "DEV02",
+          "witness": "LATIN",
+          "descriptor_states": {
+            "D1": "NO",
+            "D2": "NO",
+            "D3": "UNKNOWN"
+          },
+          "evidence_refs": [
+            "REVIEWER_A.json:images:sequence=7:exceptional_details.built_enclosure",
+            "REVIEWER_B.json:observations:sequence=7:exceptional_families.built_enclosure"
+          ],
+          "note": "No enclosure around selected plant, so both D1 and full D2 (within enclosure) fail; D3 not needed for exclusion and left unscored."
+        },
+        {
+          "other_entry": "DEV03",
+          "witness": "CLM",
+          "descriptor_states": {
+            "D1": "NO",
+            "D2": "NO",
+            "D3": "UNKNOWN"
+          },
+          "evidence_refs": [
+            "REVIEWER_A.json:images:sequence=3:exceptional_details.built_enclosure",
+            "REVIEWER_B.json:observations:sequence=3:exceptional_families.built_enclosure"
+          ],
+          "note": "No enclosure around selected plant, so both D1 and full D2 (within enclosure) fail; D3 not needed for exclusion and left unscored."
+        },
+        {
+          "other_entry": "DEV03",
+          "witness": "LATIN",
+          "descriptor_states": {
+            "D1": "NO",
+            "D2": "NO",
+            "D3": "UNKNOWN"
+          },
+          "evidence_refs": [
+            "REVIEWER_A.json:images:sequence=8:exceptional_details.built_enclosure",
+            "REVIEWER_B.json:observations:sequence=8:exceptional_families.built_enclosure"
+          ],
+          "note": "No enclosure around selected plant, so both D1 and full D2 (within enclosure) fail; D3 not needed for exclusion and left unscored."
+        },
+        {
+          "other_entry": "DEV04",
+          "witness": "CLM",
+          "descriptor_states": {
+            "D1": "NO",
+            "D2": "NO",
+            "D3": "UNKNOWN"
+          },
+          "evidence_refs": [
+            "REVIEWER_A.json:images:sequence=4:exceptional_details.built_enclosure",
+            "REVIEWER_B.json:observations:sequence=4:exceptional_families.built_enclosure"
+          ],
+          "note": "No enclosure around selected plant, so both D1 and full D2 (within enclosure) fail; D3 not needed for exclusion and left unscored."
+        },
+        {
+          "other_entry": "DEV04",
+          "witness": "LATIN",
+          "descriptor_states": {
+            "D1": "NO",
+            "D2": "NO",
+            "D3": "UNKNOWN"
+          },
+          "evidence_refs": [
+            "REVIEWER_A.json:images:sequence=9:exceptional_details.built_enclosure",
+            "REVIEWER_B.json:observations:sequence=9:exceptional_families.built_enclosure"
+          ],
+          "note": "No enclosure around selected plant, so both D1 and full D2 (within enclosure) fail; D3 not needed for exclusion and left unscored."
+        },
+        {
+          "other_entry": "DEV05",
+          "witness": "CLM",
+          "descriptor_states": {
+            "D1": "NO",
+            "D2": "NO",
+            "D3": "UNKNOWN"
+          },
+          "evidence_refs": [
+            "REVIEWER_A.json:images:sequence=5:exceptional_details.built_enclosure",
+            "REVIEWER_B.json:observations:sequence=5:exceptional_families.built_enclosure"
+          ],
+          "note": "No enclosure around selected plant, so both D1 and full D2 (within enclosure) fail; D3 not needed for exclusion and left unscored."
+        },
+        {
+          "other_entry": "DEV05",
+          "witness": "LATIN",
+          "descriptor_states": {
+            "D1": "NO",
+            "D2": "NO",
+            "D3": "UNKNOWN"
+          },
+          "evidence_refs": [
+            "REVIEWER_A.json:images:sequence=10:exceptional_details.built_enclosure",
+            "REVIEWER_B.json:observations:sequence=10:exceptional_families.built_enclosure"
+          ],
+          "note": "No enclosure around selected plant, so both D1 and full D2 (within enclosure) fail; D3 not needed for exclusion and left unscored."
+        }
+      ],
+      "discovery_rejection_reasons": [],
+      "limits": [
+        "Common oval outline does not establish identical leaf proportions or insertion.",
+        "Containment is depicted inside/outside relation, not physical bonding to masonry.",
+        "Cylinder-to-branch attachment unknown; cylinders excluded from signature.",
+        "This scene was previously exposed; no unseen discovery claim."
+      ]
+    },
+    {
+      "entry": "DEV02",
+      "label": "Cerfolium",
+      "signature": null,
+      "comparisons": [],
+      "discovery_rejection_reasons": [
+        "No positively supported exceptional attached detail in either selected plant; nearby Clm vessel belongs to another entry.",
+        "Latin root extent is uncertain; ordinary branching/umbels do not satisfy exceptional gate."
+      ]
+    },
+    {
+      "entry": "DEV03",
+      "label": "Liquiricia / Liquiritia",
+      "signature": null,
+      "comparisons": [],
+      "discovery_rejection_reasons": [
+        "No positive shared exceptional detail; source plant must be narrow Latin gutter plant, not large Laudanum illustration.",
+        "Latin plant and root terminals clipped; unknown closed loops are not affirmative."
+      ]
+    },
+    {
+      "entry": "DEV04",
+      "label": "Cucurbita",
+      "signature": null,
+      "comparisons": [],
+      "discovery_rejection_reasons": [
+        "No positive shared exceptional detail; open tendrils are not intertwined closed root/branch loops or artificial supports.",
+        "Root unavailable and lateral foliage clipped; ordinary vine similarity retained but insufficient."
+      ]
+    },
+    {
+      "entry": "DEV05",
+      "label": "Diptamus",
+      "signature": null,
+      "comparisons": [],
+      "discovery_rejection_reasons": [
+        "No positive shared exceptional detail; nearby Latin snake has no visible plant attachment.",
+        "Paired toothed leaves, terminal flowers and radiating roots are ordinary botanical similarities; outer tips clipped."
+      ]
+    }
+  ],
+  "discovery_only": true,
+  "uncertainty_policy": "Absent positive exceptional detail is a capacity failure, not proof of absence in clipped or hidden regions."
+}
