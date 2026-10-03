@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: 10h until04Oct03:47:39UTC.
-Latest decision: 1167 prior weakened.
-Working files: GDT1167;production_origin_supply_20261003.
+Latest decision: 918 forward draft conflicts.
+Working files: production_origin_supply_20261003.
 Assumptions: No default language;no gold IDs.
-Resume: Content relation needed;no numeric remapping.
-Running: Root;idea review.
+Resume: Inspect IDEA000916 and primaries.
+Running: None.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
