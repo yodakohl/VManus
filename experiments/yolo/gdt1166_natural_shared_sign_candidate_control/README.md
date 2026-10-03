@@ -1,6 +1,6 @@
 # GDT1166 — natural shared-sign candidate control
 
-Status: **REGISTERED_UNSCORED; no real-source fit or recovery result yet.**
+Status: **FAIL_SOURCE_CANDIDATE_CONTROL; independently validated.** See [REPORT.md](REPORT.md) and the [complete candidate table](CANDIDATE_TABLE.md). Public preregistration was commit `0de43e794`, before fitting.
 
 A fixed source-only test asks whether a shared opaque writing channel can generate expansion candidates for previously unseen abbreviated B4 word types from the other five CoReMA witnesses. The three arms share one finite 32-key panel: literal output, a constant per-mark residual, and a variable residual. This is not a Voynich translation or a complete historical writer model.
 
@@ -60,3 +60,5 @@ python3 experiments/yolo/gdt1166_natural_shared_sign_candidate_control/src/valid
 It recomputes all saved surrogate snapshots, every finite final-arm contract, selections, complete held candidate rankings and endpoint accounting. It does not independently replay the full XML projection or optimizer trajectories. No real audit PASS is claimed at registration.
 
 Primary success requires at least20 known novel abbreviated types, variable-arm conservative Top5 score at least0.50, and gains of at least0.10 over both comparators. Every unknown abbreviated occurrence contributes a separate zero-credit obligation; all OOV and unsupported known cases remain errors. No search-wide significance, calibrated semantic probability, Voynich meaning, new target access or reserve opening is claimed. f84/f84r remain sealed.
+
+Post-lock descriptive diagnosis (not a registered endpoint): `python3 experiments/yolo/gdt1166_natural_shared_sign_candidate_control/src/diagnose.py`. Do not use its revealed source identities or reference ceiling to modify the frozen run.

@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: 10h until04Oct03:47:39UTC.
-Latest decision: GDT1166 fixed source control selected.
-Working files: gdt1166_natural_shared_sign_candidate_control/.
+Latest decision: GDT1166 pipeline failed;no repair.
+Working files: GDT1166.
 Assumptions: No gold sign IDs;no default language.
-Resume: Register GDT1166;fit only after public freeze.
-Running: Root;validator;fit not released.
+Resume: Distinct content consequence;no automatic decoder.
+Running: Root next selection.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -24,7 +24,8 @@ layout does not translate pchor/ychor. Confirmed translated words: 0. Hypotheses
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
-GDT1165 invalid;no repair.1164 ranking failed;1160 supervised gain retained.
+1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
+1164 ranking failed;1160 supervised gain retained.
 GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
 W89 paused; W93 naming: NO_CAPACITY.
 W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted.
