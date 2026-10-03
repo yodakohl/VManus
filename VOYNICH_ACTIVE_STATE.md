@@ -1,3 +1,7 @@
+## 2026-10-03 IDEA895 partial whole-context authoring
+
+[Two complete-position accounts and root assessment](research_registry/proposals/production_origin_supply_20261003/IDEA895_WHOLE_ACCOUNT.md): f107v.35–36 has20ITgroups;12proposed classes cover13positions,7remain UNKNOWN. TOKEN versus PATTERN gives conditional USE(b)/USE(c1), but no independently observed written difference; deletion invalidates both proposed unary valencies. Retain partial readings, no selected grammar or word, no fixed experiment. No new image access; alternate readers and scope gaps retained. Next bounded review: IDEA897 known phrase families versus genuinely bound participant classes, with915/916/981 unchanged.
+
 ## 2026-10-03 GDT1159 source graph lexical recovery fails continuation
 
 [All42unknown-form assignments](experiments/yolo/gdt1159_corema_unknown_lexical_graph/REPORT.md): six readable culinary collections; oracle ingredient spans, original variants retained, top4trainconcepts/top7heldforms without held-gold selection. Exact78,125many-to-one maps: graph4.52446percentagepoints above marginal-only (4.9603→9.4848percent), but3/6positive and complete-search conditionalrank.145 fail all three gates. Independent17checks reconstruct all1,194nulls and both fits. Unique graph minima coexist with wrong names and broad1%alternatives. Stop this fixed model; no vocabulary/weight repair or target ingredient export. Different grounded relation needed; source normalization/related traditions are retained limits, not after-result excuses.10hblock remains active.

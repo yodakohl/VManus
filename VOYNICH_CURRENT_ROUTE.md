@@ -4,12 +4,12 @@ Updated: 2026-10-03.
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block from02:27UTC;meaning dependencies.
-Latest decision: 1159sourcegraph fails all3gates.
+Task: Ten-hour block from02:27UTC;meaning.
+Latest decision: 1159fails;895partial, no written discriminator.
 Working files: research_registry/proposals/production_origin_supply_20261003/BLOCK_DECISION.md.
 Assumptions: Source recovery is not target homology.
-Resume: Review895TOKEN/PATTERN fullpassage prerequisites.
-Running: Root10hblock;1159publication;boundedideas.
+Resume: Check897knownphrases against actual owner binding.
+Running: Root10hblock;897capacityreview;boundedideas.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
