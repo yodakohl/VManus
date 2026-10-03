@@ -1,0 +1,39 @@
+# Independent design review: unpaired context-only candidate ranking
+
+2026-10-03. Design only, ten-minute ceiling. No model, source-stream extraction, gold scoring, target access or GDT1163 modification. Read the newest BLOCK_DECISION selection note. The companion preflight was not yet present when this review began; this review assesses root's proposed finite design, not an unseen implementation.
+
+**Conditional recommendation: worth a bounded preflight, but not yet a fully specified experiment.** The proposed question differs from GDT1159's oracle ingredient graph and GDT1160's supplied expansion domains. A source-only success could justify a separately registered exploratory candidate ranker. It cannot establish that target geometry is isomorphic to this source, choose a plaintext language or identify a word.
+
+## Leakage and eligibility
+
+Use exact whole written groups from the raw held book and expanded groups from the other books. Neither side may use paired IDs, expanded length, spelling overlap, compiler-stripped strings, source-word labels or GDT1160's qualified-type inventory. Pin the complete expanded-lines input and its extraction rules, including treatment of punctuation, editorial markers, empty lines and multiword expansions. Do not normalize away the very unknown writing channel being evaluated.
+
+Selecting the 128/256 types and support ≥20 must use each own stream only. Choose complete records under the 32,000-group ceiling by a fixed rule independent of gold and retain discarded-record counts. A large skipped first record, insufficient eligible types, disconnected context geometry or too few identifiable marked forms is a capacity outcome, not permission to change the corpus budget or type inventory.
+
+Gold-free model input should use opaque IDs. Lexical strings must not reach initialization, type matching or candidate scoring. Break count ties with independently seeded opaque ordering, or disclose deterministic lexical ordering and show it is not a cross-side alignment signal. Raw and expanded records from the same underlying entry must not be paired, even through shared order or metadata. Cross-book copying remains prior exposure/dependence; a held book is not necessarily an independent textual tradition.
+
+**Crucial scope check:** the top128 raw types may predominantly be ordinary unmarked words. Their successful recovery would not show recovery of opaque abbreviated forms. Freeze a marked-form stratum using only the observable raw editorial convention, with a minimum type/book capacity and its own required improvement. Report all raw types as well. Do not use known ambiguity or expansion labels to select that stratum. If the retained representation cannot define it without gold, limit the claimed next action accordingly.
+
+## Objective and numerical contract
+
+“Signed ±5 PPMI cosine geometry with entropic GW” leaves material choices unresolved:
+
+- Exact distance-weighted or unweighted context counts; whether contexts include all observed types or only selected nodes; no windows across complete-record boundaries; handling of zero vectors; PPMI marginal population, smoothing and negative clipping; concatenation of left/right channels; cosine distance scale and diagonal.
+- Row masses: uniform types versus normalized token counts changes the task. Column KL prior likewise needs an exact definition. Selected vocabularies cover unequal portions of the stream; normalizing their counts to one does not make their meanings exhaust the same universe. Column relaxation is therefore substantive, not cosmetic.
+- Write the objective explicitly: squared intra-space distance discrepancy, the exact entropy sign/reference measure and column-marginal KL direction, with numerical coefficients fixed on the declared distance/mass scale. Hard row sums plus relaxed columns permit many-to-many rankings; they do not automatically supply an OTHER candidate or guarantee sensible column allocation.
+- Freeze initialization(s), update equation, numerical floor, step or line search, iteration cap, tolerance, restart selection by unsupervised objective, and deterministic ranking ties. Nonconvergence or collapsed/rank-identical rows must be reported; no gold-guided rerun or entropy adjustment.
+- Specify frequency distance and sorted-distance-fingerprint competitors completely. In particular, 128-node versus256-node distance fingerprints need a fixed quantile/interpolation rule. Neither competitor may exploit readable string similarity.
+
+Rank each row by its normalized coupling. Declare top-k before scoring. Candidate-OOV gold and multiword expansions are not eligibility exclusions; they remain failures unless the candidate representation was prospectively designed to express them. Score a raw form's actual expansion mixture, not its best matching gold sense, and macro-average raw types as well as reporting token-weighted performance. No calibrated-probability claim follows from coupling values.
+
+## Nulls and an action-changing gate
+
+Globally shuffle each complete stream's token multiset independently, reinsert tokens into the unchanged record slots, reconstruct all contexts and refit the entire selected algorithm and competitors. Freeze whether both sides are shuffled and how 19 worlds are paired across four folds. Preserve model-selection/restart effort in every world. This tests contextual information beyond the unchanged frequencies; it is not a project-wide significance calibration.
+
+Use improvement over the stronger baseline as the primary statistic, not raw accuracy alone. With19 nulls the smallest inclusive rank is1/20; ties count against the method. Do not search top-k, coefficients, marked definitions or folds and then apply the same nominal rank.
+
+Before implementation the root should freeze numeric gates for (a) practically useful macro improvement over **both** competitors, (b) improvement and capacity on observable marked forms, (c) cross-book consistency, and (d) the complete-refit conditional null rank. A concrete defensible candidate is ≥5 percentage-point macro top5 gain over the stronger competitor overall and on the marked stratum, positive marked gain in at least3/4 books, and observed gain above all19 null gains. The capacity threshold must be set prospectively, not after discovering how many marked forms happen to survive. These numbers are a design suggestion, not new registered gates.
+
+Only a pass on the meaning-relevant marked scope should license the stated next action: separately register an exploratory finite candidate ranker with explicit source-language/domain competitors and full Voynich frequency/dispersion constraints. A gain confined to ordinary words licenses only that narrower control result. Failure or capacity failure ends this fixed proposal; no free vocabulary, corpus-size or optimizer repair. This keeps the source test from becoming another favorable metric with no change to reading practice.
+
+Root clarification received during review: marked-form performance will be primary; all-node coverage is secondary and cannot carry a positive decision. Proposed capacity is at least10 eligible marked types and200 marked occurrences **in every book**, fixed before body counts. This is a reasonable minimal feasibility gate, not precision assurance: ten macro units per book leave substantial type variation, and occurrences of one type are not independent evidence. Retain per-type results and four book-level effects. The gate can be used without automatically enlarging the stream if it fails. The final contract should supersede the illustrative overall-plus-marked gate above with one unambiguous marked-primary statistic. GDT190's stripped PAGE_HOST/bijective mapping remains closed; exact raw whole groups and a nonbijective ranking objective are essential distinctions, not reasons to revive its old host mapping.

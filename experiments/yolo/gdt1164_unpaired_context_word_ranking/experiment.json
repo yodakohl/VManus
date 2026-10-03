@@ -1,0 +1,126 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Source-only editorial-representation word-candidate recovery. No Voynich writer/language, translation, calibrated target confidence or independent semantic confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1164_unpaired_context_word_ranking/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1164_unpaired_context_word_ranking/src/validate.py"
+  },
+  "created": "2026-10-03",
+  "dependencies": [
+    "GDT155",
+    "GDT157",
+    "GDT167",
+    "GDT190",
+    "GDT347",
+    "GDT398",
+    "GDT1159",
+    "GDT1160"
+  ],
+  "experiment_id": "GDT1164",
+  "inputs": [
+    {
+      "path": "gdt155_blinded_diplomatic.tsv",
+      "sha256": "8e907ee5a29def9098e84239617c8deab4d3420c8df50860107d8637489ec03b",
+      "role": "historically exposed source; stage-specific role in METHOD/SOURCE"
+    },
+    {
+      "path": "gdt155_unblinded_lines.tsv",
+      "sha256": "57cbf58af98a14e220852054ce2b6aff90702f332757d0229cc9b6d6f6968ab7",
+      "role": "historically exposed source; stage-specific role in METHOD/SOURCE"
+    },
+    {
+      "path": "gdt155_blinded_abbreviation_sites.tsv",
+      "sha256": "859e4d40331493bf830b8eca0bf435301e51ec623712a2822ff3fab6f630a01f",
+      "role": "historically exposed source; stage-specific role in METHOD/SOURCE"
+    },
+    {
+      "path": "gdt155_unblinded_abbreviation_sites.tsv",
+      "sha256": "99397730f0dc3cc4920b44c6da7a1ceadfd27937d57e4a5ab2168e366bce39c6",
+      "role": "historically exposed source; stage-specific role in METHOD/SOURCE"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CONCEPT_RANKING_UNPAIRED_PREFLIGHT.md",
+      "sha256": "cb6794b3005d46ef0a44c9647e37dee90b67c9b37050e79d90f871df05dded92",
+      "role": "predata method/design review; registered METHOD/SPEC governs"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CONCEPT_RANKING_DESIGN_REVIEW.md",
+      "sha256": "aa7b95e8a35b7fe9df19bade7623bf678d205a685c6cf9f16b54aed440f2249f",
+      "role": "predata method/design review; registered METHOD/SPEC governs"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/OPTIMAL_TRANSPORT_METHOD_REVIEW.md",
+      "sha256": "f8c6ef28d90f07b08047281cfd9b992be1b7cc011fd3fd45001d3ec0e7d51b48",
+      "role": "predata method/design review; registered METHOD/SPEC governs"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/OPTIMAL_TRANSPORT_LOCAL_SCOPE.md",
+      "sha256": "87b1f4842db94ca925af72292f9c1116dfcb5396168c0bc2334816ac63c3e626",
+      "role": "predata method/design review; registered METHOD/SPEC governs"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/METHOD.md",
+      "sha256": "ec586ba8368ba94ddc86673381f5d73a4002b43a3f70bc600bdae6227d4da497",
+      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/PREREGISTRATION.md",
+      "sha256": "85f614f4e2abf10425407942fb4e51b3e58f2db8d127824f92f6734920246386",
+      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/README.md",
+      "sha256": "509c2b697298c4609d4c70ab0f0484edfe67b513a7df9c3ddf2185fb023c4686",
+      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/SPEC.json",
+      "sha256": "60c59eb8e0b6e417df86a8aca2903062f3e43557ed36ced2c256d379b801dc27",
+      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/requirements.txt",
+      "sha256": "4680e41c5be073f82ec34f6149d7e150e7d6304a5240705b9613233e654df9f3",
+      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/src/SOURCE.json",
+      "sha256": "55f8495eda4ee58e328597e7c27fb6db672c5c71e5242758ae5e0aa90843a02f",
+      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/src/run.py",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
+      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/src/validate.py",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
+      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+    }
+  ],
+  "question": "Can unpaired full-context geometry recover unknown frequent marked-source lexical candidates beyond frequency and contextual fingerprints at a32k-group budget?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "unpaired_context_word_ranking",
+  "status": "REGISTERED_UNSCORED",
+  "title": "unpaired context word ranking",
+  "updated": "2026-10-03",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

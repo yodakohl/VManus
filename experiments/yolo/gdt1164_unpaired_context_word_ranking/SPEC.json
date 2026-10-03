@@ -1,0 +1,182 @@
+{
+  "experiment": "GDT1164",
+  "status": "REGISTERED_UNSCORED",
+  "selected_utc": "2026-10-03T12:31:47+00:00",
+  "checkpoint_utc": "2026-10-03T14:01:47+00:00",
+  "books": [
+    "Band2",
+    "Band3",
+    "Band4",
+    "Band5"
+  ],
+  "corpus": "NUREMBERG",
+  "inputs": {
+    "gdt155_blinded_diplomatic.tsv": "8e907ee5a29def9098e84239617c8deab4d3420c8df50860107d8637489ec03b",
+    "gdt155_unblinded_lines.tsv": "57cbf58af98a14e220852054ce2b6aff90702f332757d0229cc9b6d6f6968ab7",
+    "gdt155_blinded_abbreviation_sites.tsv": "859e4d40331493bf830b8eca0bf435301e51ec623712a2822ff3fab6f630a01f",
+    "gdt155_unblinded_abbreviation_sites.tsv": "99397730f0dc3cc4920b44c6da7a1ceadfd27937d57e4a5ab2168e366bce39c6"
+  },
+  "panel": {
+    "group_budget_each_side": 32000,
+    "tokenization": "exact Unicode whitespace split; case, punctuation, marker retained",
+    "record_order": "first appearance in original table; lines original table order",
+    "written": "whole held-book records in order; stop before first overflow",
+    "reference": "round-robin other books in SPEC order; whole records in each original order; stop before first overflow; skip exhausted book only",
+    "written_types": 128,
+    "reference_types_max": 256,
+    "reference_types_min": 128,
+    "minimum_fit_type_support": 20,
+    "vocabulary_tie": "descending count then exact Unicode string; independently permute selected IDs afterward",
+    "opaque_seed_base": 20261004,
+    "opaque_seed_rule": "base + 2*fold_index + side_index, written=0 reference=1; NumPy default_rng permutation",
+    "contexts_top_types": 1024,
+    "context_rare_bucket": true,
+    "offsets": [
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cross_record_context": false
+  },
+  "capacity": {
+    "minimum_selected_marked_types_each_book": 10,
+    "minimum_selected_marked_wholebook_sites_each_book": 200,
+    "all_four_books_required": true,
+    "all_selected_ppmi_profiles_nonzero": true,
+    "mean_offdiagonal_distance_positive": true,
+    "failure": "NO_CAPACITY without smaller vocabulary or threshold repair"
+  },
+  "geometry": {
+    "ppmi": "max(0, log(C_ij * sum_all_C / (row_i_sum * col_j_sum))); zero count=zero; marginals over ALL center types before selected rows",
+    "context_columns": "own top1024 types plus RARE, separately tagged by each of10 offsets",
+    "distance": "1-cosine, clipped[0,2], diagonal0, divide by ordered offdiagonal mean",
+    "fingerprint_quantiles": [
+      0.0,
+      0.06666666666666667,
+      0.13333333333333333,
+      0.2,
+      0.26666666666666666,
+      0.3333333333333333,
+      0.4,
+      0.4666666666666667,
+      0.5333333333333333,
+      0.6,
+      0.6666666666666666,
+      0.7333333333333333,
+      0.8,
+      0.8666666666666667,
+      0.9333333333333333,
+      1.0
+    ],
+    "quantile_method": "linear, diagonal excluded"
+  },
+  "models": [
+    "F",
+    "B",
+    "G"
+  ],
+  "transport": {
+    "p": "selected written counts normalized to sum1",
+    "q": "selected reference counts normalized to sum1",
+    "G": "diag(p)*row_softmax(Z)",
+    "column_kl_weight": 1.0,
+    "joint_kl_weight": 0.01,
+    "kl": "sum(x*log(x/y)); unit totals; zero terms=0",
+    "G_cost": "sum_ikjl (Dw_ik-De_jl)^2 G_ij G_kl",
+    "F_cost": "abs(log(written_count_i/N_written_panel)-log(reference_count_j/N_reference_panel))",
+    "B_cost": "squared Euclidean distance between16 within-space offdiagonal row quantiles",
+    "baseline_cost_scaling": "divide pair cost by full-cell mean; zero mean stays zero",
+    "baseline_objective": "sum(cost*G) plus identical column and joint KL terms",
+    "G_objective": "G_cost + KL(colsum(G)||q) + .01 KL(G||p outer q)"
+  },
+  "optimizer": {
+    "dtype": "float64",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "initial_Z": "log(q)+Normal(0,.1) from NumPy default_rng(seed), full n-by-m array",
+    "steps": 200,
+    "algorithm": "torch.optim.Adam",
+    "learning_rate": 0.05,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 0,
+    "clipping": false,
+    "early_stopping": false,
+    "selection": "minimum declared objective AFTER step200; exact ties seed order",
+    "ranking": "descending normalized row coupling; exact ties opaque candidate index",
+    "failure": "INVALID_NUMERICS; no repaired optimizer or skipped fold/world"
+  },
+  "nulls": {
+    "worlds": 19,
+    "world_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "seed_base": 20261100,
+    "seed_rule": "base+100*fold_index+2*world_id+side_index",
+    "operation": "independently globally permute all tokens within each side panel; reinsert original record lengths",
+    "refit": "full geometry and all3 starts of B/G; F identical input/output reused with hash",
+    "vocabulary_and_ids": "same frequency-selected types and IDs; count-preserving worlds"
+  },
+  "scoring": {
+    "eligibility": "blinded surface_span_marked equals complete containing whitespace group, exactly one marker; selected raw node; no expansion-based selection",
+    "all_wholebook_sites": true,
+    "truth": "exact expanded_span; OOV, empty or multiword spans are errors, no normalization",
+    "primary": "mean over selected observable marked types of occurrence top5 inclusion; then equal mean4books",
+    "secondary": [
+      "top1",
+      "MRR",
+      "all eligible marked coverage including unsupported types",
+      "outside fit record scores",
+      "full truth mixtures and collisions",
+      "oracle top5 ceiling after lock"
+    ],
+    "gold_release": "after ALL4observed folds and ALL19worlds complete, rankings/fit code/payloads locked"
+  },
+  "promotion": {
+    "mean_top5_at_least": 0.5,
+    "mean_gain_over_stronger_F_B_at_least": 0.1,
+    "books_strictly_above_both_at_least": 3,
+    "whole_pipeline_null_rank_at_most": 0.05,
+    "null_rank": "(1+number of19 null aggregate G-minus-max(F,B) gains >= observed aggregate gain)/20",
+    "interpretation": "operational conditional source ranking criterion, not population/project-wide significance or target meaning probability"
+  },
+  "software": {
+    "python": "3.12",
+    "numpy": "1.26.4",
+    "torch": "2.6.0+cpu",
+    "cpu_workers_at_most": 32,
+    "blas_threads_per_worker": 1
+  },
+  "claim_ceiling": "Source-only editorial-representation word-candidate recovery. No Voynich writer/language, translation, calibrated target confidence or independent semantic confirmation."
+}
