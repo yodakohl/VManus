@@ -8,8 +8,8 @@ Task: 10h until04Oct03:47:39UTC.
 Latest decision: 1166 failed;no repair.
 Working files: production_origin_supply_20261003.
 Assumptions: No default language;no gold IDs.
-Resume: Select whole-content consequence;no repair.
-Running: Root;source readers completed.
+Resume: f38v draft partial;new content construction.
+Running: Root;bounded idea producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
