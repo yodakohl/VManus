@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: 10h until04Oct07:38:14UTC.
-Latest decision: 1169 no bound path.
+Latest decision: 1169 no path;Cava word disputed.
 Working files: GDT1169.
 Assumptions: No language or label meaning fixed.
-Resume: Select changed-input content test.
-Running: Root;idea producer.
+Resume: No selected content test.
+Running: Root.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

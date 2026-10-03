@@ -1,0 +1,51 @@
+{
+  "record_id": "IDEA000923",
+  "scope": "semantic",
+  "verdict": "inconclusive",
+  "reviewer": "root_after_published_Cava_counterreading",
+  "assessment_basis": "GDT1169_complete_census_plus_later_source_qualification",
+  "reason": "Neither target reader binds a ring exit to an inner entry. Later published transcription of the SAME Cava witness conflicts with clean COMMV|NICAT: exact split-word premise downgraded, clause-continuation possibility retained; target result unchanged.",
+  "blockers": [
+    {
+      "code": "unbound_target_path",
+      "detail": "No explicit path in either eight-case inventory; four classification disagreements preserved.",
+      "evidence": [
+        "experiments/yolo/gdt1169_f57_annular_continuation_layout/REPORT.md"
+      ]
+    },
+    {
+      "code": "disputed_source_word_seam",
+      "detail": "Published COMMVNIS NICAT is not silently normalized to clean COMMVNICAT; no second witness.",
+      "evidence": [
+        "research_registry/proposals/laufenberg_f85r2_20260926/CAVA_PARALLEL_CLAUSE_SEARCH_20261004.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "written_dependency",
+        "change": "new_data",
+        "detail": "A separately specified written dependency or new source-bound path constraint discriminates destinations before lexical fit.",
+        "evidence": [
+          "experiments/yolo/gdt1169_f57_annular_continuation_layout/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Compatible tangent orientation alone",
+      "Assuming all inner texts are nouns or predicates",
+      "Posthoc semantic fit after concatenation"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1169",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1169_f57_annular_continuation_layout/REPORT.md"
+      ]
+    }
+  ]
+}
