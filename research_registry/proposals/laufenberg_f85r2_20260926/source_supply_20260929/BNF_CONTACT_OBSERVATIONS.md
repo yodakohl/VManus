@@ -166,3 +166,53 @@ Both complete Gallica-derived Commons photographs were acquired at1024px width a
 Correction at 2026-10-03T14:25:50Z: the verified169r catalogue record associates Curcuma with the keywords curcuma and dragon; the169v record identifies sugar cane and the rubric de zucharo. The earlier claim that the companion record explicitly assigns the169v dragon to the preceding169r notice is withdrawn: that cross-page ownership was not verified. Catalogue co-description is not image contact. The anatomical NO/NO/NO decision is unchanged. At this resolution neither reader produced a complete associated-passage transcription. The second reader tentatively read a169r heading as Curcuma, with that catalogue cue already known; root instead sees a Zinziber-like left heading and Zedoaria-like right heading, consistent with the Commons indexing. This disagreement is preserved: no secure new diplomatic transcription or modern botanical identity is claimed. The three anatomical mismatches do not depend on resolving it. The second reader is another model observation, not an independent historical witness.
 
 Institutional records: [169r](https://mandragore.bnf.fr/ark:/12148/cgfbt1144950), [169v](https://mandragore.bnf.fr/ark:/12148/cgfbt114496c). Images: [recto](https://commons.wikimedia.org/wiki/File:BnF_Latin_6823,_f.169r.jpg), [verso](https://commons.wikimedia.org/wiki/File:BnF_Latin_6823,_f.169v.jpg). Exact URLs, successful bytes/hashes and failed transports are in BNF_CURCUMA_SOURCE_RECEIPT_20261003.json. Wikimedia's initial requests required an identifying research user-agent; the documented public images then downloaded normally. Original GDT1092/1093 outcomes remain unchanged. This is a source-comparison result, not progress in translated Voynich vocabulary.
+
+## Separate Harley textual-branch metadata check,3 October2026
+
+A bounded content-constraint review reopened only the official British Library
+[Harley1585 component record](https://searcharchives.bl.uk/catalog/041-001958807),
+not manuscript pixels or a new Voynich target. Its Pseudo-Apuleius description
+explicitly assigns ff16v–58r to the **beta branch** of the tradition, and its
+decoration list places Lactuca leporina at f52r. This supplies a catalogue-level
+branch association left unchecked in the earlier notes above. It does not
+identify the apparatus sigla Vr/Vi/B, reconcile Payne's column180 with f52r,
+or directly transcribe Harley's particular CXIII text. Digital images are
+still listed as unavailable; no new pixel request was attempted.
+
+The owned CMLIV p198 apparatus separately supplies beta's explicit eating
+clause and omission of `aestu`. Consequently an ingestion-package exploration
+has a better historical source lead than treating Payne's illustration as
+paired with the critical base's heat-remedy wording. This is a conditional
+source-text lead: global branch metadata cannot guarantee every local variant.
+No f25v source identity, animal identity, word value, new visual observation,
+or changed GDT1143 decision follows. The missing discriminating input remains
+the complete directly collated f52r entry and its illustration ownership.
+Another generic animal/plant picture or edition base text would not supply it.
+
+Official metadata was captured at2026-10-03T19:35:55.584714Z (HTTP200),
+record041-001958807, Scope & Content item2, ff16v–58r; the web reader displays
+the sentence atline35. Exact10-word excerpt: “The text belongs to the β branch
+of the tradition.” [Receipt](HARLEY1585_BRANCH_METADATA_20261003.json) binds
+the retained original HTML bytes and their SHA256. This metadata/source result
+is different from any local manuscript reading; GDT1143 remains partial.
+
+**Feasibility conclusion.** A directly collated complete Harleyf52r would
+change an exploratory whole f25v package if it confirms an eating/name chain
+instead of the old heat/remedy chain: the animal is the agent of consumption,
+the herb its object, and that event explains the plant's name. Those are
+different argument and causal dependencies, not a renamed animal. Pillow,
+eye-hair, habitat and all other retained clauses would still need a complete
+account, and frequent target forms cannot be assigned HARE/HEAT from this
+relation. The strict non-wound contour onf25v is compatible but cannot select
+the account. Nearest retained countermodels remain the wounded Caprea's
+contact-healing, and animal contamination reversing benefit direction.
+
+No positively available fullf52r primary image was established: the official
+record still says unavailable and bounded exact-locator searches over Commons,
+BL Digirati and Biblissima returned no source. Thus this is a concrete future
+acquisition target, not a presently executable retrieval or a warranted new
+experiment. A different facsimile's chapter cannot complete the missing
+Harley/Payne pairing. The catalogue bridge alone changes the historical
+prior; it does not supply the target's missing written attachment rule.
+
+Publication note: the raw catalogue HTML remains in local cache. The public HTML snapshot removes transient CSRF meta tags and nonce attributes; the receipt distinguishes original acquisition and sanitized-snapshot hashes. The catalogue text and branch quotation are unchanged. Root independently checked that the beta sentence occurs within item2 as well as item1; the claim is not a misplaced attribution from the preceding Musa entry.
