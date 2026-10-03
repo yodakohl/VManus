@@ -3,13 +3,13 @@ Updated: 2026-10-03.
 
 ## Current work
 Phase: fixed_test
-Status: active
-Task: GDT1165 q+base transfer.
-Latest decision: 12 pairs;217 events;source checks pass.
+Status: checkpoint
+Task: GDT1165 closed;no reading selected.
+Latest decision: NUMERICAL_FIT_FAIL;descriptive gain negative;no word.
 Working files: GDT1165.
-Assumptions: Image-linked inversion would not translate q as NOT.
-Resume: Frozen run,199 nulls,validation.
-Running: Root and validator.
+Assumptions: Sign agreement is not meaning;invalid test is not rejection.
+Resume: No automatic repair;next research route unselected.
+Running: None.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
