@@ -1,3 +1,7 @@
+## 2026-10-03 conditional role-prior implementation not selected
+
+[Feasibility receipt](research_registry/proposals/production_origin_supply_20261003/CONDITIONAL_ROLE_PRIOR_FEASIBILITY.md) preserves exact source surface-group reconstruction capacity. A new source POS score would not distinguish the current LIGHT/DURATION or TOKEN/PATTERN alternatives; no model or target POS transfer selected. GDT1160 complete results are public at2a68b500f. Next seek a concrete source-constrained content relation that changes a complete candidate account, retaining prior semantic and renderer failures.
+
 ## 2026-10-03 GDT1160 positive controlled context ranking
 
 [Complete result](experiments/yolo/gdt1160_contextual_abbreviation_inverse/REPORT.md): all21,512 eligible held source sites; equal-book/type F68.315%, L68.857%, C76.155%, N79.651%; both preregistered gains pass in allfourbooks. Independent122checks and24weightforwards agree. N still makes2,414 errors, including171 unseen expansions; all retained. This selects a fixed supervised source-ranking architecture, not a Voynich language/word or native glyph homography. No calibrated meaning probabilities; linear convergence unproved at20epochs. Original155/832/837/995 decisions unchanged; no automatic target decoder or source-model repair.

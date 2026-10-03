@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: Ten-hour block from02:27UTC;meaning.
-Latest decision: 1160source contextual ranking passes;no targetkey.
-Working files: experiments/yolo/gdt1160_contextual_abbreviation_inverse/REPORT.md.
-Assumptions: Source-trained ranks do not translate Voynich.
-Resume: Publish1160;review conditional role-prior feasibility.
-Running: Root;bounded role/source reviews.
+Latest decision: 1161fixed textile-tool image contrast selected.
+Working files: experiments/yolo/gdt1161_f85r2_textile_instrument_contrast/.
+Assumptions: Source gesture/plant alignment is exposed;no new credit.
+Resume: Publish registration;freeze two image packets then compare.
+Running: Root;bounded source/reading reviewers.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
