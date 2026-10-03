@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: Ten-hour block from02:27UTC;meaning.
-Latest decision: Native mnemonic tree;literal mismatch retained.
+Latest decision: Ritual reuse verified;no target reading.
 Working files: research_registry/proposals/production_origin_supply_20261003/.
 Assumptions: Source mechanism is not Voynich meaning.
-Resume: Publish source result;review quality-state predecessors.
-Running: Root;next candidate not selected.
+Resume: Publish ritual-source result;choose new content-bearing route.
+Running: Root;892review closed by905/906primaries.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
