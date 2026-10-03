@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: 10h until04Oct07:38:14UTC.
-Latest decision: Cava pixels;920 target unselected.
-Working files: production_origin_supply_20261003.
-Assumptions: No default language;no gold IDs.
-Resume: Source-informed content;1097 remains parked.
-Running: Root;bounded idea producer.
+Latest decision: Cava SOCIATVR;923 raw.
+Working files: laufenberg_f85r2_20260926.
+Assumptions: No language or label meaning fixed.
+Resume: Check923 scope;no new f57 access.
+Running: Root;scope review.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
