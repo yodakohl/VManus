@@ -1,0 +1,21 @@
+# Natural shared-writing channel: selection decision
+
+2026-10-03. **Select a bounded design/capacity stage; no fit has run.** The Egerton first-entry task is closed separately. The changed input here is the original CoReMA TEI, which preserves actual transcription-level written carriers and abbreviation signs lost in the previously consumed recipe derivatives. This is not a new corpus, a new Voynich admission or a rescued earlier score.
+
+## Actual unknown and predecessor constraints
+
+GDT1160 ranks supplied word-expansion candidates with supervised context;1164 deliberately removes internal sign sharing and fails unknown whole-word ranking. GDT834 already recovers hidden synthetic roles and3,160new composed words, so ordinary unknown-alphabet recovery is not new. GDT837/995 mandatory wholeword/suffix rules do not describe optional natural abbreviation. IDEA864 retains a contextual expansion ambiguity but no common unknown target spelling law. The source receipt now supplies a real shared written overline with different editorial e/m/n resolutions. Ref IDs for these resolutions leak answers and must collapse by documented visible identity before opaque remapping. Other glyph declarations have conflicts and cannot be blindly merged by codepoint alone.
+
+Question: can one unknown shared carrier/sign rule generate previously unsupplied exact expansion candidates for previously unseen abbreviated wordtypes from a different-book reference vocabulary? This addresses the candidate-inventory gap, not grammatical translation or semantic graph similarity. Success would justify a source-conditioned candidate generator; failure would close this finite natural channel without rebuilding it or importing arbitrary Voynich glosses.
+
+## Minimal design to fix before execution
+
+Use B4 original complete edition records as the initial candidate source, with other owned CoReMA originals supplying the unpaired expanded reference. No paired B4 expansions, abbr/ex/am boundaries, value-bearing sign IDs or roles enter the fitter. A full source contract must first preserve actual written word boundaries without expansion-informed segmentation. All unresolved source cases remain explicit; no unmarked-majority success can hide abbreviation failure.
+
+A narrow channel under review preserves all decoded ordinary carriers in order; one latent mark class licenses a bounded omitted-letter residual inside its word. Mark position does not identify the omitted position. A constant-residual channel and literal channel share the same input/reference and search budget. Other attested nonliteral marks must be covered by a declared finite shared rule or remain explicit unsupported errors; do not select an implementation already contradicted by the two inspected development examples. No per-word free expansion rule or supplied nominal26L/4S/8W capacities.
+
+The final registration must fix normalization, canonical glyph identity, unknown handling, record/physical-leaf split, unseen-type denominator, reference inventory, finite search, every comparator and decision threshold before scoring. Abbreviated types unseen in fitting are primary; OOV and unrecoverable types are errors. Output all candidates/ties and freeze predictions before gold scoring. A heuristic search failure is not mathematical impossibility. No null-calibrated significance or target probability claim. Existing source exposure and the first two read development recipes are disclosed; computational exclusion is not historical blindness.
+
+## Scope and budget
+
+No new target data, no reserves or f84/f84r/f116v, no source language assignment to Voynich, no target decoder. Root owns selection; source reviewer prepares only a source/markup contract; algorithm designer proposes a finite search; independent reviewer checks the proposed semantic ceiling. This stage may stop for a concrete input/channel contradiction rather than creating a large infrastructure project. The total proposed preparation, implementation, execution, validation and publication checkpoint is two hours from final selection; a scientific run is not aborted merely to satisfy the checkpoint. No automatic optimization or new-source repair chain follows. The user-requested ten-hour block remains active until at least04October03:47:39UTC; this shorter scope checkpoint is not its completion.

@@ -1,0 +1,13 @@
+# Egerton747: fixed first-entry source feasibility
+
+2026-10-03. **NO_SECURE_FIRST_SUBSTITUTION_PAIR.** The official catalogue supplies the coexistence of recipe, substitution and synonym sections, but the fixed native first entry does not securely supply two named materials. Root and separately prompted readerB inspected125v/126r. Both distinguish the black entry from the red rubric continuing alongside it; both leave the first material ending uncertain. Root reads approximately `p[ro] acanti(?) semen`, B `p[ro] acanta(?) semen`. `semen` is clearer; turning the two words into two separately identified substances is unsupported. The next black line is a different entry and was not substituted for the selected case.
+
+This closes the one-entry feasibility question without a graph fit, synonym/recipe link search or Voynich word assignment. It does not reject the whole witness, substitutions generally, or RAW IDEA910. A different explicitly nominated, securely collated complete source relation would be a changed input; simply treating the rubric's position or an ingredient-list absence as an edge would not. No claim of source-wide absence is made.
+
+## Inputs, procedure and limits
+
+The selection rule was written in BLOCK_DECISION before source image access: first substitution entry in the catalogue125v section, retaining continuation. Official manifest has309canvases; catalogue125v begins the rubric at its foot and126r contains its continuation and first entries. Exact official URLs, coordinates, byte hashes and manifest rights are in EGERTON_FIRST_ENTRY_NATIVE_ROOT.json. EGERTON_FIRST_ENTRY_NATIVE_B.md is the separate native observation. Neither used OCR or an image-derived word expansion tool. B received locations and the catalogue's substitution identification but not Root's readings. These are observations of the same source, not independent semantic confirmation.
+
+Catalogue: https://searcharchives.bl.uk/catalog/032-001983805 . Manifest: https://bl.digirati.io/iiif/ark:/81055/vdc_100058663072.0x000001 . Image assets were cached locally; no redistribution license beyond the manifest's stated rights is inferred. Reproduce by fetching the pinned URLs in the root receipt and checking SHA256 before viewing. No Voynich content was opened in this task. The source is earlier than the manuscript and is a comparator, not an identified exemplar.
+
+The task was completed before its45minute checkpoint; no implementation or source-acquisition chain was extended after this result. Root source observation preceded receipt ofB. No significance or translated-word claim. Independent Voynich meaning-confirmation capacity0.

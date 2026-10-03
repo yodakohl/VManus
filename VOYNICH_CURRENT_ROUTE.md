@@ -2,14 +2,14 @@
 Updated: 2026-10-03.
 
 ## Current work
-Phase: fixed_test
-Status: checkpoint
-Task: GDT1165 closed;no reading selected.
-Latest decision: NUMERICAL_FIT_FAIL;descriptive gain negative;no word.
-Working files: GDT1165.
-Assumptions: Sign agreement is not meaning;invalid test is not rejection.
-Resume: No automatic repair;next research route unselected.
-Running: None.
+Phase: exploration
+Status: active
+Task: 10h until04Oct03:47:39UTC.
+Latest decision: Egerton unclear;native abbreviation supply.
+Working files: production_origin_supply_20261003/.
+Assumptions: No gold sign IDs;no default language.
+Resume: Register GDT1166;fit only after public freeze.
+Running: Root;preparer;fitter;validator.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -24,7 +24,7 @@ layout does not translate pchor/ychor. Confirmed translated words: 0. Hypotheses
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
-GDT1164 ranking failed;GDT1160 supervised gain retained.
+GDT1165 invalid;no repair.1164 ranking failed;1160 supervised gain retained.
 GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
 W89 paused; W93 naming: NO_CAPACITY.
 W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted.
