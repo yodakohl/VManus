@@ -2,13 +2,13 @@
 Updated: 2026-10-03.
 
 ## Current work
-Phase: exploration
+Phase: workflow
 Status: complete
-Task: Ten-hour block completed;0translated words.
-Latest decision: 1164 ranking failed;1160 supervised gain retained.
-Working files: experiments/yolo/gdt1164_unpaired_context_word_ranking/.
-Assumptions: Source controls do not establish Voynich meanings.
-Resume: Distinct constraints needed;no1164 tuning or B promotion.
+Task: Prevent stale research restarts.
+Latest decision: No new reading;embryology priority withdrawn.
+Working files: tools/lookup_followups.py.
+Assumptions: References do not supersede decisions.
+Resume: Check followups before selection.
 Running: None.
 
 ## Structural baseline
@@ -20,10 +20,11 @@ Adjacency transfers across Currier/section/hand; extra direction only across Cur
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
 reversible rendering are not confirmed meanings or sentence boundaries.
 pX/yX paragraph contrast is broader (ZL7/IT8 supported bases;RF unscorable,1073);
-layout does not translate pchor/ychor. Confirmed English lexemes: **0**. Hypothetical readings remain permitted.
+layout does not translate pchor/ychor. Confirmed translated words: 0. Hypotheses permitted.
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
+GDT1164 ranking failed;GDT1160 supervised gain retained.
 GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
 W89 paused; W93 naming: NO_CAPACITY.
 W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted.
@@ -42,7 +43,9 @@ f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-compl
 plausible reading. Prior exposure is not independent confirmation.
 179 cached selectors; later grants separate.92 image keys/98 selectors (F receipt). f1r margins only;
 f106v image fixed paragraph only. Register new access first. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts:
-[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md), [native](docs/VOYNICH_DATA_SCOPE_20261002_F25V_NATIVE.md); [base](docs/VOYNICH_DATA_SCOPE.md); [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md).
+[scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md),
+[native](docs/VOYNICH_DATA_SCOPE_20261002_F25V_NATIVE.md); [base](docs/VOYNICH_DATA_SCOPE.md);
+[f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md).
 ZL3b/IT2a/RF1b are alternate readings of one manuscript. Preserve raw entities/spaces.
 Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 `--selector locus` plus repeated `--allow` before content. 28 Sep f68r2/f69r
@@ -53,7 +56,7 @@ require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTI
 `./vmanus-work context start` returns this route.
 `./vmanus-work context topic Wortzusammensetzung` returns a bounded live excerpt.
 `context topics` lists eight topics; `context check` checks retrieval.
-Use `ideas search/show`, `lookup`, `vmanus-exp route-check` before selection.
+Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before selection.
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Update this resume block before a context switch. Store results and reopening terms

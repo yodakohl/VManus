@@ -40,6 +40,19 @@ An unreviewed import may describe an executed experiment; a latest diagnostic
 PASS may coexist with an unchanged registered failure. GDT616 now has a scoped
 append-only review separating these outcomes. No old source bytes were rewritten.
 
+`lookup GDT939` now includes up to four higher-numbered indexed experiments
+referencing that experiment, with their questions, statuses and primary-report
+pointers. Thus GDT940's executed rejection accompanies the older GDT939 draft.
+Before adopting a report's old next-step, inspect these cards and the relevant
+later primaries. `lookup GDT939 --followups --limit 4 --offset 0` traverses the
+reverse dependency chain; output reports totals, omissions, paths and paging.
+These are dependency references, not proven successors or automatic replacement
+of earlier decisions. Missing metadata and unresolved edges are explicit; prose-
+only links and unindexed work still require targeted search. No reports, raw
+transcriptions or images are opened by lookup. JSON includes the index hash.
+This is retrieval protection, not a semantic approval engine: use existing
+`ideas reconsider` and append-only reviews for any changed reopening proposal.
+
 The original [30-program plan](../docs/TRANSLATION_PROGRAMS_30.md) is historical.
 Its “28 unexecuted” status and WORKFLOW's “Start with P09” instruction are
 superseded: [all 30 have documented first passes](proposals/translation_programs_20260912/work/PROGRESS.md).

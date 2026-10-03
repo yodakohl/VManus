@@ -40,6 +40,15 @@ when auditing a claim, correcting the route, or checking for duplicate work,
 not on every turn. `VOYNICH_HANDOFF.md`, `VOYNICH_WORKLOG.md`, and the older
 experiment log/README are recovery archives and may contain superseded claims.
 
+Before adopting an old report's proposed next step, inspect the automatic
+followup cards in `lookup`; use `lookup GDTNNN --followups` for the dependency
+chain, paging when needed, and read the relevant later primary decisions.
+Do not nominate an already executed continuation as new. References are not
+automatic supersession; retain original failures and use the existing
+`ideas reconsider`/review process for a genuinely changed proposal. Empty or
+incomplete dependency metadata is not evidence of absent followup research.
+This applies equally to delegated recommendations.
+
 Use `./vmanus-work lookup GDT811` (or the relevant IDs) for compact index
 pointers instead of dumping entire index rows. The live operating guide is
 `research_registry/README.md`. Root README, `docs/WORKFLOW.md`, and the original

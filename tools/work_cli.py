@@ -4,8 +4,6 @@ from __future__ import annotations
 import argparse
 import sys
 
-from tools.experiment_lookup import lookup_experiments, render_lookup
-
 
 def main(argv: list[str] | None = None) -> int:
     arguments = list(sys.argv[1:] if argv is None else argv)
@@ -52,6 +50,9 @@ def main(argv: list[str] | None = None) -> int:
     lookup = commands.add_parser('lookup', help='compact metadata pointers; opens no manuscript data')
     lookup.add_argument('identifiers', nargs='+')
     lookup.add_argument('--json', action='store_true', dest='json_output')
+    lookup.add_argument('--followups', action='store_true', help='page transitive later dependency references')
+    lookup.add_argument('--limit', type=int, default=4, help='followup cards per requested ID (1..20)')
+    lookup.add_argument('--offset', type=int, default=0, help='followup page offset')
     locate = commands.add_parser('locate', help='exact-ID tracked Markdown filenames only; reads no report contents')
     locate.add_argument('identifier')
     staged = commands.add_parser('check-staged', help='explicit task scope, not a full global check',
@@ -64,7 +65,10 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     if args.command == 'lookup':
         try:
-            sys.stdout.write(render_lookup(lookup_experiments(args.identifiers), json_output=args.json_output))
+            from tools.lookup_followups import lookup_with_followups, render_followups
+            cards = lookup_with_followups(args.identifiers, transitive=args.followups,
+                                          limit=args.limit, offset=args.offset)
+            sys.stdout.write(render_followups(cards, json_output=args.json_output))
             return 0
         except ValueError as exc:
             parser.error(str(exc))
