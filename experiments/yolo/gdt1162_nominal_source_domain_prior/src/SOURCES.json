@@ -1,0 +1,62 @@
+{
+  "schema": "GDT1162_SOURCES_V1",
+  "source_only": true,
+  "sources": [
+    {
+      "id": "GALEN",
+      "cache_name": "galen.html",
+      "url": "https://www.gutenberg.org/cache/epub/43383/pg43383-images.html",
+      "sha256": "d234a983f9c363828a8c71b9b7ae68569548c72cfe2b2691ad5c0409d3609590",
+      "bytes": 1258731,
+      "edition": "ArthurJohnBrock1916, Gutenberg43383",
+      "work": "Galen, On the Natural Faculties",
+      "rights": "Gutenberg edition; public domain in USA; raw and extracted text local only",
+      "boundaries": "English I_1 through III_15, ending before Greek; excludes frontmatter, footnotes, page markers, duplicate language versions and index",
+      "local_prior": "research_registry/proposals/laufenberg_f85r2_20260926/external_cache/complete_source_roster/galen_gutenberg43383.html"
+    },
+    {
+      "id": "QUINTE",
+      "cache_name": "quinte.html",
+      "url": "https://www.gutenberg.org/cache/epub/17179/pg17179-images.html",
+      "sha256": "be118a6627a77c5ab1918170bf63956d88fb4df8c0afd8c835883bd23ea4aaec",
+      "bytes": 170832,
+      "edition": "F.J. Furnivall, first1866, revised1889, reproduced1965; Sloane73, dated1460–1470 in edition",
+      "work": "QUINTE_SLOANE73_FURNIVALL",
+      "rights": "Gutenberg catalog says public domain in USA; embedded Gutenberg terms retained. Publish only this metadata, not full text.",
+      "boundaries": "Complete offered English tract: BookI and BookII, each with explicit ending; body printedpp1–25. This adaptation is not the complete Latin work it abridges. No whole book/chapter omission identified in offered text; no new manuscript collation."
+    },
+    {
+      "id": "SALERNO",
+      "cache_name": "salerno.html",
+      "url": "https://www.tha.de/~harsch/Chronologia/Lspost11/Regimen/reg_sana.html",
+      "sha256": "c6f0e3fdef0c7cbc4fd5a9f8c84a20129c2e0f70d6d7e87d1a6f51488c27989b",
+      "bytes": 30852,
+      "edition": "Das medizinische Lehrgedicht der Hohen Schule zu Salerno, P.Tesdorpf and Th.Tesdorpf-Sickenberger,1915; Latin web transcription",
+      "work": "SALERNO_TESDORPF1915_HARSCH",
+      "rights": "Underlying medieval Latin text is public domain; site-specific digital reuse license not identified. Cache locally; publish metadata only.",
+      "boundaries": "All104 offered sections I–CIV present consecutively, ending De salvatella. This is completeness of the offered named-edition transcription, not proof of coverage of every Regimen recension or collation against the1915 print. No exact missing offered section detected."
+    },
+    {
+      "id": "BALNEIS",
+      "cache_name": "balneis.txt",
+      "url": "https://alim-admin.unisi.it/download_txt?id=553",
+      "sha256": "397968f02fc5faf54161f2c0df9e7557f96d36e649a27a140e64c2cfe0c69ecd",
+      "bytes": 17907,
+      "edition": "ALIM553; M. Hanly, Traditio51(1996),232–254",
+      "work": "Petrus de Ebulo, De balneis puteolanis",
+      "rights": "Medieval underlying text public domain; digital reuse grant not verified; raw and extracted text local only",
+      "boundaries": "Entire offered text: prologue plus numbered I–XXXIII, including dedication XXXI",
+      "local_prior": "research_registry/work_batches/ten_hours_20260915/balneis_cache/ALIM553.txt"
+    }
+  ],
+  "dependencies": {
+    "experiments/yolo/gdt1049_galen_season_concept_countercheck/src/run.py": "626e4299598d0ead1c2f3f9bac11748da6afe07829ef00ce7c4fafc07639a257",
+    "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/SOURCE_UNITS.json": "102b288230ec98dd15c6deab26a947c8eeba2932b7351bbc2cb73f767d0f9ed7"
+  },
+  "limits": [
+    "Complete offered editions, not new manuscript collation",
+    "Galen is ancient physiological prose in modern English; Quinte is a complete English adaptation, not its full Latin antecedent",
+    "Salerno anonymous compilation and Balneis medical poetry; not four representative random medical manuscripts",
+    "No semantic annotations or target access during preparation"
+  ]
+}

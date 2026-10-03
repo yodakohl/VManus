@@ -1,0 +1,127 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional source-domain authorship priority only; no target probability, local-reading rejection, significance or word translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1162_nominal_source_domain_prior/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1162_nominal_source_domain_prior/src/validate.py --cache \"$VMANUS_SOURCE_CACHE/gdt1162_sources\""
+  },
+  "created": "2026-10-03",
+  "dependencies": [
+    "GDT827",
+    "GDT1049",
+    "GDT1058",
+    "GDT1161"
+  ],
+  "experiment_id": "GDT1162",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/REPORT.md",
+      "sha256": "9dcd5f3aee7145861bd7c20d0db9cae65876296a0515f463c86fe3bf5e6497ae",
+      "role": "prior scope or prospective decision"
+    },
+    {
+      "path": "experiments/yolo/gdt1049_galen_season_concept_countercheck/artifacts/SOURCE_UNITS.json",
+      "sha256": "102b288230ec98dd15c6deab26a947c8eeba2932b7351bbc2cb73f767d0f9ed7",
+      "role": "prior scope or prospective decision"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/NOMINAL_SOURCE_PRIOR_PROPOSAL.md",
+      "sha256": "7fa8861c41b01afe2d4b28b1f0d75457b351fab995e8f452b49727d21b3db3fb",
+      "role": "prior scope or prospective decision"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/NOMINAL_PRIOR_DESIGN_REVIEW.md",
+      "sha256": "72105502872b5208010f662a68903326e7d20be165a91e57cb4a43e9fa4b042f",
+      "role": "prior scope or prospective decision"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/NOMINAL_PRIOR_DECISION.md",
+      "sha256": "d8268489b460e16ad060569986c7735affadf4405a228236f1c8c47a9628934b",
+      "role": "prior scope or prospective decision"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/ANNOTATION_GUIDE.md",
+      "sha256": "7579691c3fd2ea3fa3a69218bc8262df6cf26a00831cbd36ed5365df6996283a",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/METHOD.md",
+      "sha256": "e3107ca49dd8007cfad86468706cf44375cf34f032c566baf6fd063e61094ce2",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/README.md",
+      "sha256": "9550f67f9088aa4ca7b64e111b38441fe019b24a8a7c8136384e459345324448",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/SPEC.json",
+      "sha256": "cca58a9b544f82b544375f0f185df8fb93499976fcde5b9b802ad7c7ea5e7d58",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/artifacts/SOURCE_UNITS.json",
+      "sha256": "bffe7e8379834d54c83e0944546b527df2c4765d200776bd4236ff085be60847",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/artifacts/VALIDATION.json",
+      "sha256": "c65b1b9728ddc09a418cc2485da0510e20fed5a8466746fbdec87fb9b827643c",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/artifacts/WINDOWS.json",
+      "sha256": "14ccc153d3094309536da92980f0401934b1f6a1fc054e30e7073c7e4dd82c4a",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/src/SOURCES.json",
+      "sha256": "6153469283d72068f9f05c69f7caf53e23a2bf788f438f15710cf795aa5efb47",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/src/extract.py",
+      "sha256": "43d29b85e09793b359c18f73d6031d65682c29f0a423bd6accbc2ca70fc7cd8d",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/src/make_windows.py",
+      "sha256": "a65a605539e333bf1f7c4dfad3e251ce730181ceda3ed275d3c74da94948f0a6",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/src/run.py",
+      "sha256": "0acd78fbd72c975a46c9678dd71576cb0a451ce6b637f4dca643f2eff8923b6c",
+      "role": "prospective contract or source preparation"
+    },
+    {
+      "path": "experiments/yolo/gdt1162_nominal_source_domain_prior/src/validate.py",
+      "sha256": "6a8a4ab4b5b15fd089759465c1362b07fc7a3800ae6c3004fd71caece524b7af",
+      "role": "prospective contract or source preparation"
+    }
+  ],
+  "question": "Can complete medical source concept footprints robustly prioritize newly global WATER/AIR versus typed BASIN/PIPE nominal hypotheses across four genres and three source-window scales?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "nominal_source_domain_prior",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Complete source-domain nominal priority under explicit scope assumptions",
+  "updated": "2026-10-03",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
