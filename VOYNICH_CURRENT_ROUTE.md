@@ -4,12 +4,12 @@ Updated: 2026-10-03.
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour research block from02:27UTC;GDT1158.
-Latest decision: 1158one source signature;needs two;stop panel.
+Task: Ten-hour block from02:27UTC;source transmission.
+Latest decision: 1158one of two required;panel stopped.
 Working files: research_registry/proposals/production_origin_supply_20261003/BLOCK_DECISION.md.
-Assumptions: Source drawing agreement is not meaning.
-Resume: Publish1158;review distinct production/content consequence.
-Running: Root10hblock;1158publication.
+Assumptions: Picture lineage is not text identity.
+Resume: Check CoReMA lexical-recovery design;no target fit.
+Running: Root10hblock;bounded source/control design.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
