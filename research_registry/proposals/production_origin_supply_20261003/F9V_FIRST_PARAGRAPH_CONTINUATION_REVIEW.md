@@ -140,3 +140,7 @@ review supplies its actual text and counterobligations, not a translation,
 supported English meaning, new fixed falsifier, or proof of economical
 completion. Rechecking hapaxes, known image ownership, second-owner absence,
 or the same late source chapter would repeat assessed work.
+
+## Followup correction before actual authorship
+
+Root's subsequent GDT1105 lookup and primary review found [GDT1106](../../../experiments/yolo/gdt1106_frozen_domain_transfer/REPORT.md): all16 unchanged local survivors fail the broader admitted-prose screen at f114v.31/.37 under their fixed owner/domain assumptions. The local16/64 result above remains historical and conditional; none is a surviving globally transferable thermal reading. The original continuation review omitted this material followup. The current authoring inherits no thermal polarity or noun values, and does not repair those fixed models.

@@ -4,11 +4,11 @@ Updated: 2026-10-03.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Whole-paragraph candidate review.
-Latest decision: RAW909/f104r yields no complete contrast.
+Task: f9v A/B actual authoring completed.
+Latest decision: Both partial;no preferred new word value.
 Working files: production_origin_supply_20261003/.
-Assumptions: Hypotheses allowed;no selected word values.
-Resume: f9v spans;retain family constraints.
+Assumptions: C0 assignments are not translations.
+Resume: No further f9v glossary fill;next route unselected.
 Running: None.
 
 ## Structural baseline
