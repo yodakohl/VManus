@@ -3,13 +3,13 @@ Updated: 2026-10-03.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: 10h until04Oct07:38:14UTC.
+Status: checkpoint;10h incomplete
+Task: 10h requested;about1h44 elapsed.
 Latest decision: 1169 no path;Cava word disputed.
 Working files: GDT1169.
 Assumptions: No language or label meaning fixed.
 Resume: No selected content test.
-Running: Root.
+Running: None.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
