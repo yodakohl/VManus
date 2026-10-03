@@ -17,9 +17,9 @@ The source is the editorial English translation of the1415 Irish Materia Medica,
 
 ## Complete comparison
 
-The old43-expression target vector in DAN, DAIN, DAIIN, DAIIIN order remains(2,4,35,2). [CANDIDATE_TABLE.md](CANDIDATE_TABLE.md) retains every permutation and tie. Original mapping TV is1297/2967=0.437141894; four mappings tie best at2207/5934=0.371924503. They all assign the most frequent target form DAIIN to gradeII, but differ on the other forms. None is selected as a reading.
+The old43-expression target vector remains(2,4,35,2). The registered/table labels DAN, DAIN, DAIIN, DAIIIN are shorthand for value bins across CHOL expressions, not counts of four standalone words: GDT628 includes3 direct,3 fused and37 separated realizations. Its aggregate `chol_value_counts` supplies the vector. Registration/code remain frozen; their whole-form wording is imprecise. This is not the manuscript-wide DAIIN frequency. [CANDIDATE_TABLE.md](CANDIDATE_TABLE.md) retains every permutation and tie. Original mapping TV is1297/2967=0.437141894; four mappings tie best at2207/5934=0.371924503. They all assign the most frequent target value bin labelled DAIIN to gradeII, but differ on the other forms. None is selected as a reading.
 
-Known dry grades are9.42%,44.20%,37.68%,8.70%. Of177 dry entries,39(22.03%) have unknown grades. Allowing every unknown to belong to one grade gives marginal bounds: I7.34–29.38%, II34.46–56.50%, III29.38–51.41%, IV6.78–28.81%. These are separate marginal bounds, not simultaneous proportions. Missing cases can change the modal grade and permutation ranking. Moreover, even the largest bound is far below the81.40% share of the most frequent target form. Merely swapping II and III does not make these frequency populations match.
+Known dry grades are9.42%,44.20%,37.68%,8.70%. Of177 dry entries,39(22.03%) have unknown grades. Allowing every unknown to belong to one grade gives marginal bounds: I7.34–29.38%, II34.46–56.50%, III29.38–51.41%, IV6.78–28.81%. These are separate marginal bounds, not simultaneous proportions. Missing cases can change the modal grade and permutation ranking. Moreover, even the largest bound is far below the81.40% share of the most frequent target value bin. Merely swapping II and III does not make these frequency populations match.
 
 ## Validation and limits
 
