@@ -1,0 +1,98 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional historical source prior only; no numeral, quality, language, target source or translated word selected.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1167_historical_grade_prior/src/run.py --stage score --annotations-a experiments/yolo/gdt1167_historical_grade_prior/artifacts/ANNOTATIONS_A.json --annotations-b experiments/yolo/gdt1167_historical_grade_prior/artifacts/ANNOTATIONS_B.json --adjudication experiments/yolo/gdt1167_historical_grade_prior/artifacts/ADJUDICATION.json --annotation-lock experiments/yolo/gdt1167_historical_grade_prior/artifacts/ANNOTATION_LOCK.json",
+    "validate": "python3 experiments/yolo/gdt1167_historical_grade_prior/src/validate.py --runtime experiments/yolo/gdt1167_historical_grade_prior/runtime --annotations-a experiments/yolo/gdt1167_historical_grade_prior/artifacts/ANNOTATIONS_A.json --annotations-b experiments/yolo/gdt1167_historical_grade_prior/artifacts/ANNOTATIONS_B.json --adjudication experiments/yolo/gdt1167_historical_grade_prior/artifacts/ADJUDICATION.json --annotation-lock experiments/yolo/gdt1167_historical_grade_prior/artifacts/ANNOTATION_LOCK.json"
+  },
+  "created": "2026-10-03",
+  "dependencies": [
+    "GDT628",
+    "GDT629",
+    "GDT809",
+    "GDT1057",
+    "GDT1058"
+  ],
+  "experiment_id": "GDT1167",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt628_chol_measure_frame/REPORT.md",
+      "sha256": "c66cdf8f4c7766ec1f32a9f2eeae1bf599fff95386c2f93fa71733cd1f279264",
+      "role": "fixed predecessor count or source identity"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/MANUAL_AUDIT.tsv",
+      "sha256": "c0fd4c7c71fdfadf1127574bafea1a6d04cef461648bad1246f2db65619fcf4f",
+      "role": "fixed predecessor count or source identity"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/SOURCE_ENTRIES.tsv",
+      "sha256": "a764e68731edcaee5c7b9ddb15bd11828879bb0ff2dcd3b91d7f5f63503661ab",
+      "role": "fixed predecessor count or source identity"
+    },
+    {
+      "path": "experiments/yolo/gdt1057_quality_full_source_orientation/artifacts/RESULT.json",
+      "sha256": "452ee678ce4e53532829cb28eaf6713f98d449e2806e76be388e271becafa310",
+      "role": "fixed predecessor count or source identity"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1167_historical_grade_prior/.gitignore",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9",
+      "role": "registered method, report or reproducibility code"
+    },
+    {
+      "path": "experiments/yolo/gdt1167_historical_grade_prior/METHOD.md",
+      "sha256": "37a3a92ee6e899b849fd446ebddced48c56a52a4bc5986e76e28e1e60385cd5c",
+      "role": "registered method, report or reproducibility code"
+    },
+    {
+      "path": "experiments/yolo/gdt1167_historical_grade_prior/PREREGISTRATION.md",
+      "sha256": "73f00907bd39715acd104ad36424093b5c9a3206d963a81330aa8b9d598e8474",
+      "role": "registered method, report or reproducibility code"
+    },
+    {
+      "path": "experiments/yolo/gdt1167_historical_grade_prior/README.md",
+      "sha256": "82d8b5442607cfaeb49cb73733fe0af74b4023f1fb24a1dc1ced0a26870e25c6",
+      "role": "registered method, report or reproducibility code"
+    },
+    {
+      "path": "experiments/yolo/gdt1167_historical_grade_prior/REPORT.md",
+      "sha256": "d5c4832c36cdca11026562323018a02c6a203a800b21149fbf5c637d678cf9c4",
+      "role": "registered method, report or reproducibility code"
+    },
+    {
+      "path": "experiments/yolo/gdt1167_historical_grade_prior/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "registered method, report or reproducibility code"
+    },
+    {
+      "path": "experiments/yolo/gdt1167_historical_grade_prior/src/run.py",
+      "sha256": "c48d7742c67ee9429badfd7c3d8d6e55cf56a88524c309a33db5226495bfce77",
+      "role": "registered method, report or reproducibility code"
+    },
+    {
+      "path": "experiments/yolo/gdt1167_historical_grade_prior/src/validate.py",
+      "sha256": "eb19f8ff86b995666ce67c87f1d0ae1094030f039433eadbc29355e9f64dc690",
+      "role": "registered method, report or reproducibility code"
+    }
+  ],
+  "question": "Does the inherited I-II-III-IV mapping match the already used historical dry-degree prior better than its23 permutations?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "historical_grade_prior",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Historical degree prior for the inherited minim values",
+  "updated": "2026-10-03",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

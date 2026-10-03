@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1141**
-- Experiment-associated tracked files: **22,859** (2.0 GiB)
-- Structured GDT337+ experiments: **792**
+- Experiments indexed: **1166**
+- Experiment-associated tracked files: **23,500** (2.2 GiB)
+- Structured GDT337+ experiments: **815**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1167 | gdt1167_historical_grade_prior | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1167_historical_grade_prior/REPORT.md) | 9 | 35.0 KiB | 5 | STRUCTURED_YOLO |
 | GDT1120 | GDT1120 | `ET_EXACT_LK_EXTENSION_C0_UNSELECTED` | [report](../research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/ET_REPORT.md) | 18 | 13.1 MiB | 13 | STRUCTURED_YOLO |
 | GDT1119 | GDT1119 | `DOC_POINTER_AND_REVIEW_FRESHNESS_CORRECTION` | [report](../experiments/yolo/gdt1119_preparation_residue_predicate/REPORT.md) | 18 | 11.5 MiB | 7 | STRUCTURED_YOLO |
 | GDT1118 | GDT1118_liquid_preparation_joint_reading | `NEW_JOINT_PREPARATION_C0_UNSELECTED` | [report](../experiments/yolo/gdt1118_liquid_preparation_joint_reading/REPORT.md) | 18 | 763.0 KiB | 13 | STRUCTURED_YOLO |
