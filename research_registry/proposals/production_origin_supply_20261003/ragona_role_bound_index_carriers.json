@@ -1,0 +1,140 @@
+{
+  "title": "RAW UNREVIEWED: Ragona separates serial position, card rank and suit through role-bound mnemonic carriers",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. An actual 1434 worked card account uses outer locus for serial position, person for suit, held locus-object for numerical rank and crown/horse/kneeling for court rank. Four OR six apples both encode seven clubs because apples occupy seventh catalogue position; one OR two fish encode five cups. Arbitrary actions are expressly permitted but typed carriers are not interchangeable. No Voynich numerals or meanings assigned.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+    "source": {
+      "work": "Jacopo Ragona, Artificialis memoriae regulae (1434)",
+      "owner": "Venice, Biblioteca Nazionale Marciana, Lat.VI.274 (=2885), ff15v–34r",
+      "exact_sections": "ff23r–24v cards; f24v numerical rule; f17r ff household loci.",
+      "text_layer": "Cacopardo 2021 thesis printed pp170–171 notes427–430; ownership n396. Historical Latin quoted by scholar; no direct manuscript collation by producer.",
+      "url": "https://sas-space.sas.ac.uk/9846/1/VCacopardoMemoryandImaginationPhDthesis.pdf",
+      "corpus_limit": "Complete quoted card-example passage retained by exact locator. Independent full100-locus catalogue not transcribed here; named index relations below are author statements within the example."
+    },
+    "complete_example_units": [
+      {
+        "serial": 1,
+        "card": "eight coins",
+        "scene": "Rich man at paternoster locus, holding a cap",
+        "author_commitment": "Cap is eighth locus-object; first outside locus fixes first card. Urinating in cap, tearing it or another action permitted."
+      },
+      {
+        "serial": 2,
+        "card": "king coins",
+        "scene": "Same rich man at cabbages locus, with gold crown",
+        "author_commitment": "Second locus fixes position; crown king rank."
+      },
+      {
+        "serial": 3,
+        "card": "knight coins",
+        "scene": "Same rich man at cheese locus, on horse",
+        "author_commitment": "Third locus fixes position; horse knight rank."
+      },
+      {
+        "serial": 4,
+        "card": "small coins / knave category",
+        "scene": "Same rich man at fourth locus, kneeling",
+        "author_commitment": "Kneeling is rank cue; Latin el picol / pedestrem retained rather than assuming pictorial age."
+      },
+      {
+        "serial": 5,
+        "card": "seven clubs",
+        "scene": "Club bearer with four OR six apples hanging on club",
+        "author_commitment": "Apples are seventh locus-object; multiplicity four/six not rank."
+      },
+      {
+        "serial": 6,
+        "card": "five cups",
+        "scene": "Drunkard with one OR two fish on wine cup",
+        "author_commitment": "Five cups is encoded using one OR two fish. Fish-as-fifth-locus is inferred from this paired example and the general index rule; unlike apple=seventh and cheese=third, this quoted passage does not explicitly state the ordinal in a separate explanatory clause."
+      },
+      {
+        "serial": "following clause, transition incomplete",
+        "card": "three swords",
+        "scene": "Cheese attached to sword",
+        "author_commitment": "Cheese third locus-object, sword-person suit. Quoted transition does not clearly introduce new swordsman or outer position; do not repair."
+      }
+    ],
+    "source_wording_short": [
+      "quatuor aut sex poma",
+      "poma significant tibi septimum locum",
+      "unum vel duo pisces",
+      "loci sunt significantes numerum"
+    ],
+    "finite_alternatives": {
+      "literal_scene": "Object types and counts describe the remembered event itself; four apples versus six apples changes that event.",
+      "global_object_number": "An object has one numerical denotation regardless of its relation or location.",
+      "role_bound_mnemonic_tuple": "External locus denotes serial address; attached locus-object denotes rank; selected person denotes suit; action variations can be mnemonic intensifiers rather than payload."
+    },
+    "unequal_consequences": [
+      "The author explicitly preserves seven clubs across four/six apples and five cups across one/two fish. Literal cardinal matching predicts different ranks and fails this source.",
+      "Cheese is the OUTER location for third card knight coins, but an ATTACHED object for rank three swords. A reading conflating the two roles loses either serial position or card value.",
+      "Same rich person occurs in four different ordered loci with changed attributes; those records share suit but differ in rank and sequence. A global person=entire-card identity fails.",
+      "Court ranks use attribute substitutions rather than arithmetic locus indices; not every object is a uniform numeral."
+    ],
+    "not_illustrator_inference": "These are instructions and explanations in authorial Latin as transcribed in the thesis, not deductions from an illustration. Cosimo is an optional familiar wealthy exemplar; not a fixed personal-name lexicon. Choice of gambling/counting application and intended merchant audience are scholarly interpretations, not necessary encoding commitments.",
+    "construction_constraint": "Any whole account adopting this production model must bind serial, category and value separately over all entries. Changing outer place alone changes address; changing held index carrier changes rank; optional action changes need not change payload. Distinct lexical constructions might encode these relations, but none is nominated in Voynich.",
+    "unknowns": [
+      "Full locus catalogue and exact manuscript variants require collation.",
+      "Seven-example excerpt has an unresolved transition before swords.",
+      "No independent target role binding or candidate complete account is supplied.",
+      "Context-free object substitution could memorize these scenes; the repeated binding law across additional complete entries is the distinguishing requirement.",
+      "The method encodes structured tuples, not arbitrary proposition syntax or fluent narrative translation."
+    ],
+    "predecessors": [
+      {
+        "id": "IDEA000076",
+        "retained": "Ratio-only scaling contrast invalid; current contrast changes pictured number while explicitly retaining encoded value, not amount ratios."
+      },
+      {
+        "id": "IDEA000902",
+        "primary": "research_registry/proposals/production_origin_supply_20261003/inherited_count_bearing_names.json",
+        "retained": "Historical count-bearing names/class counts differ from a stable predefined object-index relation applied across cards."
+      },
+      {
+        "id": "IDEA000904",
+        "primary": "research_registry/proposals/production_origin_supply_20261003/fontana_scoped_symbol_representations.json",
+        "retained": "Scoped mirror meanings depend on virtue/science registers; here the same catalogue object has serial-place or rank-carrier role within one account."
+      },
+      {
+        "id": "IDEA000905",
+        "retained": "Recursive prefix tree is textual compression; this is relational scene encoding. Neither implies the other."
+      },
+      {
+        "id": "GDT474",
+        "primary": "experiments/yolo/gdt474_locus_bundle_meaning_triptych/REPORT.md",
+        "retained": "Old fixed-root coordinate/instruction/catalogue exploratory dispatch supplies no independent word bindings or evidence for Ragona. No old German meanings imported."
+      }
+    ],
+    "duplicate_checks": [
+      "context topic numbers",
+      "ideas search Ragona (empty is not universal absence)",
+      "ideas search locus index",
+      "route-check mnemonic rank suit locus indexed object",
+      "ideas show76 and902 plus source primaries474/902/904"
+    ],
+    "smallest_next_step": "If root chooses this source route, collate its six complete units plus defective seventh transition and author-named index values; preserve no-count and replaceable-action contrasts before any target selection. A future native whole-reading must supply independently owned relation roles, not merely locate apples/fish/people or assume four suits.",
+    "meaning_priority": "No narrow common-word meaning, numeral, suit, AND or operator is assigned. Any native descendant must use exact wholeform frequency/dispersion/position/repetition profiles and all prior counterexamples.",
+    "access": "Historical thesis and prior reports/cards only; no target access, new images, data admission, scoring or decoder."
+  },
+  "appended_qualifications": [
+    {
+      "status": "ROOT_CORRECTION_RETAIN_ORIGINAL_RAW_HISTORY",
+      "issue": "The GLOBAL_OBJECT_NUMBER rival was not distinguished from role-bound mnemonic tuples by the cheese example.",
+      "source_case": "Cheese retains ordinal THREE both when used as outer third serial location and when attached to encode rank three. No object-denotation or namespace change occurs.",
+      "surviving_rival": "A fixed object-to-index dictionary plus ordinary role-sensitive binding reproduces these observations. It is a surviving rival or the same architecture described at a different level, not an excluded model.",
+      "actual_unequal_consequences": [
+        "The explicit four-OR-six apples variants both encode rank seven; interpreting depicted cardinality directly as rank gives four or six instead.",
+        "The first cap scene permits alternative actions while preserving first-position eight-coins payload; treating the entire detailed action narrative as payload would distinguish the alternatives."
+      ],
+      "boundaries": [
+        "The rich person consistently represents coins; crown, horse and kneeling distinguish court ranks. This does not demonstrate context-dependent suit identity.",
+        "Different syntactic roles distinguish serial index from rank, but role binding is not itself a change of lexical object value.",
+        "No claim that actions are always arbitrary: court-rank kneeling is a committed attribute, while the author expressly permits alternatives for the first cap action.",
+        "No Voynich namespace, numeral, word meaning, correspondence or experiment follows."
+      ],
+      "effect": "IDEA000906 remains RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED; original registry submission and original candidate text retained, with this correction governing interpretation."
+    }
+  ]
+}

@@ -51,3 +51,24 @@ branch remains inside the current10:35UTC checkpoint; no Voynich decoder,
 alphabet assignment or new data access. A genuine source law may supply a
 more constrained whole-account hypothesis; inaccessible or incomplete text
 remains a source lead only, not a reason to invent the missing dictionary.
+
+## Native source collation selected,10:02UTC
+
+Official Bartolomeo tree images are now available. Both pages visibly carry
+50 leaf positions,10 five-child parents,two five-parent compounds and one
+page root. This is stronger than the secondary four-name example. Before any
+target selection, root collates all13 f17v parent nodes and a separate reader
+all13 f18r nodes, recording parent readings and directly visible child onsets.
+Uncertain/stub entries remain uncertain; do not reconstruct them from a parent.
+Full leaf expansions or naming each figure are not required for this necessary
+prefix-relation check. No claim of independent semantic witnesses or perfect
+source blinding: both readers know the proposed rule.
+
+Question: does the visible hierarchical relation actually support ordered
+nonempty prefix concatenation throughout, or only in the initially attractive
+example? The source's phonological clipping details and literal letter equality
+must remain separate. A systematic relation would retain a concretely bounded
+historical writer for future whole-account authoring; counterexamples or missing
+letters would restrict that claim, not authorize arbitrary repairs. No target
+hidden tree or free expansion dictionary is selected. This minimal collation
+remains inside10:35UTC including review/publication; no new control corpus.
