@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: 10h until04Oct03:47:39UTC.
-Latest decision: 1167 registered;1166closed.
+Latest decision: 1167 prior weakened.
 Working files: GDT1167;production_origin_supply_20261003.
 Assumptions: No default language;no gold IDs.
-Resume: 1167 source grade prior;no target fit.
-Running: Root;1167 source team.
+Resume: Content relation needed;no numeric remapping.
+Running: Root;idea review.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
