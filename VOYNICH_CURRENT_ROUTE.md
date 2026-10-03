@@ -2,14 +2,14 @@
 Updated: 2026-10-03.
 
 ## Current work
-Phase: fixed_test
-Status: complete
-Task: GDT1154 whole-entry order correspondence.
-Latest decision: 6611pairs; nullrank.59; no internal-parallel lead;0words.
-Working files: experiments/yolo/gdt1154_paragraph_order_correspondence/REPORT.md.
-Assumptions: Exposed928cache; ancestry unresolved.
-Resume: No LCS repair; distinct production evidence required.
-Running: None.
+Phase: exploration
+Status: active
+Task: Ten-hour production block from02:27UTC.
+Latest decision: 1155ENDchannel fails DRAWING; intermediate mrate retained.
+Working files: research_registry/proposals/production_origin_supply_20261003/BLOCK_DECISION.md.
+Assumptions: No l=m or causal manufacturing claim.
+Resume: Select distinct production evidence; no channel repair.
+Running: Root research block.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

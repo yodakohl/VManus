@@ -1,0 +1,15 @@
+# Production-origin research block, 2026-10-03
+
+User requested at least10hours continued research. Start02:27:05UTC; requested minimum end12:27:05UTC. This records requested active work, not a claim of elapsed work or an unattended process. No completion claimed.
+
+GDT1154 is complete and published05276f661; no internal-parallel nomination. Do not repair its LCS or relaxed eligibility. Next selection must concern a different production mechanism and use positive grammar rather than arbitrary meanings. f84/f84r,reserves closed; no contacts.
+
+Bounded parallel reviews: source/workshop transformations, physical production traces, latent-model prerequisites, and raw idea supply. Added883–885 are RAW UNREVIEWED, not tested findings. Current unknown is whether any independent production contrast can constrain same-content/different-writing behavior. No assumed canonical payload from substring stripping.
+
+Known constraints checked this block:605/608 directed composition plus wholeform residual;282/286/318 shared position/context effects;167 cross-register geometry fails;290latentclasses and326unseenhost combinations fail. DIC001 retains interruption edge-shape similarity but corrected comparator is consecutive below-locus prose, not semantic/paragraph reset; right-initial component not independently confirmed. This is observational, not exogenous intervention. Do not repeat boundary classifier. Full primary references and follow-up selection will be recorded here.
+
+Decision pending: inverse historical writing-channel calibration is potentially feasible from authentic157parallel data, but will not be implemented merely because it is easy. It must change a concrete target research decision; success alone cannot bind meaning. Corrections/recopy need actual earlier-state visibility; closed correction family not reopened from speculative retouching.
+
+Selected planning candidate: transfer the known GDT800/801/802 l/m physical-line-edge effect to line-internal drawing edges, fitted without drawing-adjacent events and excluding the evaluated physicalleaf. This is not829same-context reflow or1154textsimilarity. A positive would justify shared display-boundary conditioning in later reading models; negative keeps margin/drawing behavior distinct. Both leave l=m and semanticidentity unproved. Exact915boundary schema must support that distinction before registration. DIC001side decomposition and1100sy exceptions retained. Generic inverse-abbreviation calibration is not selected while its targetaction remains unspecified.
+
+GDT1155 completed: unchanged below-locus l/mchannel fails drawingedge prediction inall3readings despite positiveENDcalibration. Fullreport andcounterexamples in experiment;intermediateDRAWINGmrate retained, no posthocattenuation. Independent15checksPASS. Inverse calibration reviewed and NOT IMPLEMENTED because its success would still supply no identified targettask. Five RAWproposals883–887 retained unselected. The requested10hblock is ongoing, not elapsed.

@@ -1,0 +1,51 @@
+{
+  "record_id": "GDT1155",
+  "scope": "structural",
+  "verdict": "nonconfirming",
+  "reviewer": "root_GDT1155",
+  "assessment_basis": "fixed_leave_leaf_out_ending_channel_transport",
+  "reason": "All3readers meetcapacity;ENDcalibration positive, unchanged ENDchannel vsSPACE worsens DRAWING by-.3372/-.3496/-.2381bits macro(ZL/IT/RF).No supportedtransfer. Drawingmrate intermediate retained, no universalboundary inference.",
+  "blockers": [
+    {
+      "code": "fixed_transfer_failed",
+      "detail": "No unchanged ENDchannel installation at drawingedges; weaker/other conditioning unresolved.",
+      "evidence": [
+        "experiments/yolo/gdt1155_terminal_drawing_edge_transport/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "distinct_evidence",
+        "change": "new_design",
+        "detail": "Independently justified production evidence, not tuning attenuation or familyselection on these outputs.",
+        "evidence": [
+          "experiments/yolo/gdt1155_terminal_drawing_edge_transport/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "DIC001coarse resetlikeness",
+      "Drawingmrate alone",
+      "Alternate readers as independentreplication"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT800",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1155_terminal_drawing_edge_transport/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT802",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1155_terminal_drawing_edge_transport/REPORT.md"
+      ]
+    }
+  ]
+}
