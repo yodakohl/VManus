@@ -1,0 +1,84 @@
+{
+  "experiment": "GDT1166",
+  "schema_version": 1,
+  "algorithm": {
+    "fit_word_selection": "exclude discovery types containing unknown atom -1, then top512 known-input types by descending occurrence count, lexicographic opaque atom array ties; retain all original discovery records/types for held novelty; never filter using expanded-side/gold flags",
+    "output_alphabet": "all Unicode codepoints appearing in exact other-five-book reference words, sorted by Unicode; engineering capacity 2..1024 codepoints",
+    "mapping": "many-to-one global one-character output per opaque atom; unsupported held atoms absent actual top512 fit inventory force empty predictions",
+    "marker": "none or one fit-supported opaque atom; all occurrences removed to obtain ordered carriers; observed position never supplies missing-letter position",
+    "channel": {
+      "L": "all atoms ordinary, exact resulting word",
+      "C": "at least2 retained carriers if marked; reference word must contain carriers in order; omitted sequence equals global residual r repeated k marker occurrences; total omitted0..4",
+      "V": "at least2 retained carriers if marked; reference word contains carriers in order, with total omitted0..4; arbitrary omitted sequence",
+      "unmarked": "exact literal decoding in every arm",
+      "multiple_alignments": "reference word counts once per contract, never by number of alignments",
+      "constant_domain": "empty residual plus every residual inferred from discovery/reference compatible alignments that is exact k-fold repetition; no held or gold domain information"
+    },
+    "surrogate": {
+      "model": "reference within-word character4gram, three start pads and one terminal; start not an output",
+      "smoothing": ".1 additive to every reference character and terminal for every history; denominator contextcount+.1*(A+1)",
+      "word_score": "sum transition natural logs divided by decoded length+1 including terminal",
+      "objective": "occurrence-weighted mean of word scores over actual top512 discovery types",
+      "no_calibrated_likelihood": true
+    },
+    "search": {
+      "starts": 8,
+      "seed": "std::mt19937_64(116600+start), start0..7",
+      "rng_integer": "rng()%n; modulo choice intentional and frozen",
+      "rng_uniform": "((rng()>>11)+.5)/2^53",
+      "initial_key": "rank atom occurrence frequency in actual fit types and character occurrence frequency in reference, descending count/ID tie; atom rank i maps to character rank i modulo A",
+      "start_perturbation": "start0 unperturbed; starts1..7 exactly10 swaps of two independently drawn supported atoms, allowing same atom",
+      "initial_marker": -1,
+      "arms": "starts0..3 FORCED_NO_OMISSION; starts4..7 LATENT_OMISSION",
+      "proposals": 20000,
+      "forced_moves": "uniform integer0..99: <50 swap two distinct supported atom values, else replace one supported atom by uniform reference character",
+      "latent_moves": "<45 swap, <90 replace, else choose uniformly among supported marker atoms+none",
+      "temperature": ".02*(.0002/.02)^((step-1)/19999), step1..20000",
+      "accept": "delta>=0 or log(U)<delta/temperature; delta is change of occurrence-weighted mean surrogate; no gold",
+      "snapshots": [
+        5000,
+        10000,
+        15000,
+        20000
+      ],
+      "panel": "all32 snapshots retained with duplicates, accessible to every final arm; no best-state substitution",
+      "objective_recheck": "direct surrogate recomputed each snapshot, after incremental consistency assertion"
+    },
+    "dictionary_score": {
+      "reference_prior": "exact other-five-book reference occurrence count / total reference occurrences, no smoothing",
+      "compatible_word_weight": "reference_prior*2^(-d), d=reference character length-retained carrier length",
+      "word_mass": "sum compatible reference words once each",
+      "objective": "sum over top512 discovery types count*log(1e-8+(1-1e-8)*word_mass); unnormalized compatibility/search score, not likelihood or calibrated probability",
+      "search": "all32 keys, all fit-supported marker choices+none; all finite discovery-derived constant residuals; L only none",
+      "ties": "within1e-12 below actual maximum; select lexicographically(key output-ID array,marker with none=-1,residual character-ID array,panel index); retain all tied candidates",
+      "constant_empty_always_considered": true
+    },
+    "prediction": {
+      "unlock": "KEY_SELECTION_LOCK precedes first HOLDOUT_INPUT read; explicit root PREDICTION_RELEASE required",
+      "ranking": "compatible references descending weight then exact Unicode lexical word; fixed first5, report all cutoff ties without expanding top5",
+      "no_compatible_words": "empty candidate list, no free filler",
+      "unknown_atom": -1,
+      "unknown_or_unfit_atom": "empty candidates for all arms",
+      "gold": "never opened by fitter/predictor; separate scorer after PREDICTION_LOCK"
+    },
+    "limitations": [
+      "supplied word/atom boundaries and reference language inventory",
+      "single variable-sign hypothesis, not full historical inverse",
+      "whole-word/multichar glyphs may be unsupported and remain errors",
+      "heuristic32-state panel not exhaustive global-key optimization",
+      "first two original examples already design-exposed; no fresh analyst blindness"
+    ],
+    "minimum_fit_supported_atoms": 2
+  },
+  "primary_endpoint": {
+    "minimum_known_novel_abbreviated_types": 20,
+    "unknown_policy": "known written novel types K macro credit; every held abbreviated occurrence with unknown written or unknown expansion contributes mandatory zero-credit unit U; denominator K+U; do not call U distinct lexical types",
+    "novelty": "against ALL130 discovery record written types, not top512 fitting subset",
+    "V_minimum": 0.5,
+    "V_minus_L_minimum": 0.1,
+    "V_minus_C_minimum": 0.1,
+    "all_OOV_or_unsupported": "errors, never discarded",
+    "pure_known_type_score": "diagnostic only",
+    "claim_ceiling": "source-only candidate generation; no target decoding or calibrated semantic probability; no significance claim"
+  }
+}

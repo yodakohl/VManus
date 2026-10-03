@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: 10h until04Oct03:47:39UTC.
-Latest decision: Egerton unclear;native abbreviation supply.
-Working files: production_origin_supply_20261003/.
+Latest decision: GDT1166 fixed source control selected.
+Working files: gdt1166_natural_shared_sign_candidate_control/.
 Assumptions: No gold sign IDs;no default language.
 Resume: Register GDT1166;fit only after public freeze.
-Running: Root;preparer;fitter;validator.
+Running: Root;validator;fit not released.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

@@ -37,6 +37,8 @@ INDEX_PATH = "experiments/EXPERIMENT_INDEX.tsv"
 # the host generally or affect credential/private-key scanning.
 REVIEWED_PUBLIC_SOURCE_URLS = (
     b"https://www.memofonte.it/home/files/pdf/XV_2015_RICOTTA.pdf",
+    # Public institution URL in original CoReMA BS1 XML, verified 2026-10-03.
+    b"https://ub.unibas.ch/de/home/",
 )
 
 

@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "source_pins": [
+    {
+      "path": "sources/b4.xml",
+      "sha256": "ca890ca0820c1ec6b1cb713eeb75cda77a2c580d017c0fa8fcbb813da068938f",
+      "bytes": 496931,
+      "url": "https://gams.uni-graz.at/o:corema.b4/TEI_SOURCE"
+    },
+    {
+      "path": "sources/b6.xml",
+      "sha256": "40d585eddac00db4d889308c956f1dd446d4df769dadf478244bb77571c27985",
+      "bytes": 68691,
+      "url": "https://gams.uni-graz.at/o:corema.b6/TEI_SOURCE"
+    },
+    {
+      "path": "sources/br1.xml",
+      "sha256": "a097422700c50b9e21433e9ff4cd2ff5d213f05419c8ef22eee3d664bedbe8b6",
+      "bytes": 129712,
+      "url": "https://gams.uni-graz.at/o:corema.br1/TEI_SOURCE"
+    },
+    {
+      "path": "sources/bs1.xml",
+      "sha256": "28a46cdfef82975e4d834c081edc5465f887d9efa7b86b65f70ec12a7d0993a6",
+      "bytes": 835071,
+      "url": "https://gams.uni-graz.at/o:corema.bs1/TEI_SOURCE"
+    },
+    {
+      "path": "sources/gr1.xml",
+      "sha256": "39285d4e49394c267de3d1cefbb7892538e08202a94ec72957d88b75574ed0a4",
+      "bytes": 862126,
+      "url": "https://gams.uni-graz.at/o:corema.gr1/TEI_SOURCE"
+    },
+    {
+      "path": "sources/w1.xml",
+      "sha256": "d1ae0998ee0ef34573d8db8ab3ebac2e895ad12a0eaf23059ddbcc7a968373e7",
+      "bytes": 560595,
+      "url": "https://gams.uni-graz.at/o:corema.w1/TEI_SOURCE"
+    },
+    {
+      "path": "sources/chardec.xml",
+      "sha256": "09d35185befb273eb13d95fc4d8054afc5c358dc0caada03eb20f51e70ec3945",
+      "bytes": 78834,
+      "url": "https://gams.uni-graz.at/o:corema.chardec/TEI_SOURCE"
+    },
+    {
+      "path": "sources/editorialdec.xml",
+      "sha256": "6d79574a35b88d51c5f9d5eae2edef71350d846d7f6b62c8c0f1cced2d96fb9e",
+      "bytes": 77460,
+      "url": "https://gams.uni-graz.at/o:corema.editorialdec/TEI_SOURCE"
+    }
+  ],
+  "projection_fixtures": {
+    "status": "PASS",
+    "scope": "independent source-projection fixtures; not recovery"
+  },
+  "split": {
+    "ordered_physical_leaves": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "cut_after_leaf": 91,
+    "train_physical_leaves": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "test_physical_leaves": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "complete_recto_verso_pairs": true,
+    "record_counts": {
+      "TRAIN": 130,
+      "BRIDGE": 1,
+      "TEST": 138
+    },
+    "bridge_record_ids": [
+      "R0131"
+    ]
+  },
+  "n_atoms": 64,
+  "outputs": [
+    {
+      "path": "artifacts/TRAIN_INPUT.json",
+      "sha256": "08369fc64ef1f40735ab0cf7e2ee3da33d0b2297195f6f0b8c2cf6a556999f6a",
+      "bytes": 1006336
+    },
+    {
+      "path": "artifacts/HOLDOUT_INPUT.json",
+      "sha256": "aa07296611c9172a1aede8abb2cc3f75262278cbcda4ebf825e3330d394ac576",
+      "bytes": 1037735
+    },
+    {
+      "path": "artifacts/REFERENCE_INPUT.json",
+      "sha256": "5cfed1d1988b97fba3bca5b9b84401d2d58194b17d916e1e967b57ca64658519",
+      "bytes": 402921
+    },
+    {
+      "path": "artifacts/SOURCE_GOLD_LEDGER.json",
+      "sha256": "1ebaa02dfddb50f9e6fb14efbd634ce08754ef7fb8355bb831860f74f8cb3247",
+      "bytes": 4849709
+    },
+    {
+      "path": "artifacts/OPAQUE_KEY_PRIVATE_TO_PREPARATION.json",
+      "sha256": "632d466a2c3369b2ada21f8043cf911a18ba9317c0e2ea2f87a9db9c51a32b66",
+      "bytes": 3704
+    }
+  ],
+  "claim_ceiling": "Source preparation only; no candidate recovery or oracle capacity scored"
+}

@@ -1,0 +1,1371 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Editorial guidelines for the hyperdiplomatic transcriptions in the CoReMA
+               project.</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Hyperdiplomatic transcription in the CoReMA project</edition>
+        <editor>Astrid Böhm, Helmut W. Klug</editor>
+        <principal>Helmut W. Klug</principal>
+        <funder>fwf</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://uni-graz.at"></ref>
+          <orgName>University of Graz</orgName>
+        </publisher>
+        <publisher>
+          <persName>
+            <forename>Helmut W.</forename>
+            <surname>Klug</surname>
+          </persName>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, University of Graz</orgName>
+        </publisher>
+        <authority>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">Centre for Information Modelling -
+                  Austrian Centre for Digital Humanities, University of Graz</orgName>
+        </authority>
+        <distributor>
+          <ref target="https://gams.uni-graz.at"></ref>
+          <orgName>GAMS - Humanities Asset Management System</orgName>
+        </distributor>
+        <date>2020</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                  4.0</licence>
+        </availability>
+        <date when="2020">2020</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:corema.editorialdec</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl n="introduction">
+        <p rendition="heading1">Representation of German Cooking Recipe Collections</p>
+        <p>The digital edition of the German language cooking recipe collections aims at
+               providing a hyperdiplomatic transcription of the source texts. This kind of research
+               output is meant to provide our own and other disciplines with source texts further
+               research can be built upon.</p>
+        <p>The central aim is to represent the historical source using only characters from the
+               ASCII table.</p>
+
+        <p>The characters of the historical source not available in the ASCII table are
+               described with the help of the <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html#D25-20"> TEI
+                  Character Declaration</ref>. In the XML of the sources they are modeled with the
+                  <gi>g</gi> element.</p>
+      </editorialDecl>
+      <editorialDecl n="general">
+        <p rendition="heading1">General Rules</p>
+        <p corresp="makro" rendition="heading3">Macro structure</p>
+        <p>Macrostructuring elements: <list>
+            <item>Page break is modeled with the <gi>pb</gi> element and the attributes
+                        <att>xml:id</att>, <att>n</att> (page count).</item>
+            <item>Line break is modeled with the <gi>lb</gi> element and the attribute
+                        <att>n</att> (line count).</item>
+            <item>Column break is modeled with the element <gi>cb</gi> and the attribute
+                        <att>n</att> (alphabetical column count).</item>
+            <item>
+              <gi>milestone</gi>-elements indicate individual recipe collections that are handed down in one manuscript.</item>
+          </list>
+        </p>
+        <p corresp="mikro" rendition="heading3">Micro structure</p>
+        <p>Microstructuring text elements are modeled:</p>
+        <p>
+          <list>
+            <item>Semantic text units (e.g. recipes) with the <gi>seg</gi> element. </item>
+
+            <item>Headings with the element <gi>hi</gi>, the attribute <att>style</att> and
+                     the attribute value <val>heading</val>. Non linear headings are transcribed
+                     diplomatically but modeled for transformation into a linear reading text with
+                     the elements <gi>seg</gi> and an <att>xml:id</att> attribute.<lb></lb> The position
+                     for linear reading is indicated with the element <gi>anchor</gi> and the
+                     attributes <att>type</att> (value: <val>heading</val>) and <att>corresp</att>
+                     referring to the respective <att>xml:id</att> values (e.g. <ref target="/o:corema.bs1#Bs1_023r">Bs1, fol.
+                     23r</ref>).</item>
+            <item>Initials with the <gi>hi</gi> element, the attribute <att>style</att> and
+                     the value <val>initial</val>. </item>
+            <item>Rubrication with the element <gi>hi</gi>, the attribute <att>rend</att> and the
+                     value <val>textColour:RED;</val>. </item>
+            <item>Vertical rubricated strokes with the symbol | (&apos;Pipe&apos;, U+007C) and
+                     the element <gi>hi</gi>, the attribute <att>rend</att> and the value
+                        <val>textColour:RED;</val>. </item>
+            <item>Underline with the element <gi>hi</gi>, the attribute <att>style</att> and
+                     the value <val>underlined;</val>. </item>
+            <item>Marginal entries or any other kind of insertion between text lines that are
+                     part of the running text are inserted in the text where they 
+                     belong semantically. They are annotated according to their character (e.g. as addition, cf.
+                     below) and commented with the element <gi>note</gi>.</item>
+            <item>Catchwords are indicated with the help of the <gi>note</gi> element and
+                     described verbally.</item>
+          </list>
+        </p>
+        <p corresp="abbr" rendition="heading3">Abbreviations</p>
+        <p>Abbreviations are modeled in the shortest possible way using the respective elements
+               available: <gi>abbr</gi>, <gi>ex</gi>, <gi>am</gi>
+        </p>
+        
+        <p rendition="teiCode">
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <abbr> It<ex>e</ex>
+              <am>
+                <g ref="#bar_e"></g>
+              </am>m</abbr>
+          </egXML>
+        </p>
+        <p corresp="revision" rendition="heading3">Text revisions</p>
+        <p>Text revisions are modeled according to <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/">TEI P5
+                  Guidelines</ref> using the standard elements.</p>
+        <p>Elements used to model revisions: <gi>del</gi>, <gi>add</gi>, <gi>metamark</gi>. </p>
+        <p corresp="edirek" rendition="heading3">Editorial reconstruction</p>
+        <p> Changes by the editors are modeled with the element <gi>supplied</gi>, the attribute
+                  <att>reason</att> provides more detailed information: <list>
+            <item>
+              <val>missing</val>: text was not written down (e.g. a missing initial).</item>
+            <item>
+              <val>overbinding</val>: text is bound into the fold.</item>
+            <item>
+              <val>illegible</val>: text is not readable (e.g. blurred ink, bad handwriting,
+                     etc.).</item>
+            <item>
+              <val>damaged</val>: carrier material is damaged (e.g. hole/puncture, corner
+                     missing, water damage, trimmed folio, missing folio).</item>
+            <item>
+
+              <val>list</val>: omitted text of the source (e.g. text connected through lines
+                     or brackets as in <ref target="/o:corema.gr1#Gr1_087r">Gr1, fol. 87r</ref>) is supplied.</item>
+          </list>
+        </p>
+      </editorialDecl>
+      <editorialDecl n="glyphs">
+        <p rendition="heading1">Character representation</p>
+        <p corresp="richtlinien" rendition="heading3">General guidelines</p>
+        <p>The text of the source is represented as detailed as feasible.</p>
+        <p>Illegible characters are indicated by the element <gi>unclear</gi>. The element can
+               span a width of more than one character.</p>
+
+        <p>During the hyperdiplomatic transcription we build an inventory of special characters
+               used in the manuscripts. All information on the general characters are collected in
+               the character declaration (<gi>charDecl</gi>). Individual characters typical for a
+               certain scribe are detailed in the script description (<gi>scriptDesc</gi>): The 
+               script description provides a precise paleographic description of the respective 
+               scribal hand. The description refers only to those hands which are responsible for 
+               the recipe texts, thus not necessarily to the entire surviving medium.
+               In addition to the description of certain leading graphs, special features of the 
+               script as well as the layout are recorded. Thus, information on abbreviations, 
+               diacritics, ornaments, rubrications, punctuation, terminators, hyphenation, 
+               corrections, and scribe-specific features can be found here. 
+               In the
+               course of the transcription workflow the characters are primarily used to generate a
+               diplomatic text representation for text correction and manual collation with the
+               digital facsimile. The basis for the description of characters is the defacto
+               community standard of the <ref target="https://folk.uib.no/hnooh/mufi/">Medieval
+                  Unicode Font Initiative (MUFI)</ref>.</p>
+
+        <p>Characters that have no representation in the MUFI are represented through visually
+               similar characters to allow the generation of the diplomatic collation view.
+               In some cases they may even be characters from a script (as described in the <ref target="http://hdl.handle.net/1956/10699">MUFI character recommendation</ref>)
+               other than the late medieval bastarda of the cooking recipe collections.</p>
+        <p>We focus on a human readable TEI-XML, therefore high frequent special characters like
+               tailed z, round z, single or two storey a are transcribed against above rules: the
+               less frequent characters are annotated, the more frequent characters represented by
+               the respective character of the ASCII code chart. These deviations are recorded in
+               the <gi>scriptDesc</gi>.</p>
+
+        <p>The list of special characters is subdivided into alphabetic characters, diacritics,
+               abbreviation signs, and punctuation. The hierarchic structure of the list is aligned
+               to the <ref target="http://www.digipal.eu/blog/describing-handwriting-part-iv-recapitulation-and-formal-model/">model for script description of the DigiPal project</ref>:</p>
+        <p n="citation">graphem/letter &gt; character &gt; allograph &gt; idiograph &gt;
+               graph.</p>
+        <p>In our model the element <gi>char</gi> annotates a &apos;character&apos;. The element
+                  <gi>glyph</gi>, including the attributes <att>n</att>, <att>ana</att>, the
+               &apos;allograph&apos;.</p>
+        <p>Individual <gi>glyph</gi> descriptions include the following information: <list>
+            <item>
+              <att>corresp</att>: the value indicates a hierarchical dependence between
+                     allographs and characters (e.g. between the <gi>glyph</gi> &apos;long s&apos;
+                     (LATIN SMALL LETTER LONG S) and <gi>char</gi> &apos;s&apos; (LATIN SMALL LETTER
+                     S). The first is an allograph of the latter.</item>
+            <item>
+              <att>xml:id</att>: distinct identificator, naming conventions are based on the
+                     MUFI character recommendation.</item>
+            <item>
+              <att>n</att>: is used to differentiate abbreviation symbols (<val>abbr</val>)
+                     from other characters.</item>
+            <item> 
+             <att>ana</att>: the attribute values <val>abbreviation_mark</val>,
+                        <val>brevigraph</val>, <val>contraction</val> are used to apply some kind of
+                     systematics to the abbreviation symbols. The values <val>dia</val> and
+                        <val>pct</val> indicate diacritics and punctuation.</item>
+            <item>
+              <att>resp</att>: reference source: the <ref target="http://hdl.handle.net/1956/10699">MUFI character
+                        recommendation</ref>. </item>
+            <item>
+              <att>source</att>: page reference within the <ref target="http://hdl.handle.net/1956/10699">MUFI character
+                        recommendation</ref>.</item>
+          </list>
+        </p>
+        <p>The names of the characters meet the unicode standard:<list>
+
+            <item>The name of the <gi>glyph</gi> is annotated with the element
+                        <gi>glyphName</gi> as provided by the <ref target="http://hdl.handle.net/1956/10699">MUFI character
+                        recommendation</ref>. If the <ref target="http://hdl.handle.net/1956/10699">MUFI character recommendation</ref> has no entry for a character or
+                     character combination, the <gi>glyphName</gi> is build according to unicode
+                     rules.</item>
+          </list>
+        </p>
+        <p>The element <gi>mapping</gi> holds information on the possible representations of a
+                  <gi>char</gi> or <gi>glyph</gi>: <list>
+            <item>plus the attribute <att>type</att> with the value <val>normalized</val> it
+                     indicates the character used for the normalized HTML output.</item>
+            <item>plus the attribute <att>type</att> with the value <val>transcription</val>
+                     it indicates the proprietary markup used in the initial transcription.</item>
+            <item>plus the attribute <att>type</att> with the value
+                        <val>unicode_codepoint</val> and the attribute <att>subtype</att>, which has
+                     as value the respective unicode code chart, it names the unicode
+                     codepoint.</item>
+            <item>plus the attribute <att>type</att> with the value <val>encoding</val> and
+                     the attribute <att>subtype</att> with the value <val>html_entity</val> it
+                     provides the respective HTML entity.</item>
+            <item>plus the attribute <att>type</att> with the value <val>encoding</val> and
+                     the attribute <att>subtype</att> with the value <val>unicode_symbol</val> it
+                     provides the symbol of the unicode character.</item>
+          </list>
+        </p>
+        <p>There are no detailed descriptions for characters and character combinations which
+               are part of the ASCII code chart.</p>
+        <p corresp="alphabet" rendition="heading3">Letters of the alphabet</p>
+        
+        <p corresp="einstocka" rendition="heading3">One storey a and two storey a are
+               differentiated. LATIN SMALL LETTER A INSULAR FORM is used to represent the two storey
+               a.</p>
+        <ab>
+          <ref select="a"></ref>
+        </ab>
+        <ab>
+          <ref corresp="ains"></ref>
+        </ab>
+        <p corresp="superskriptij" rendition="heading3">i/j with and without superscript are
+               differentiated. i/j without superscript are annotated.</p>
+        <ab>
+          <ref select="i"></ref>
+        </ab>
+        <ab>
+          <ref corresp="inodot"></ref>
+        </ab>
+        <ab>
+          <ref select="j"></ref>
+        </ab>
+        <ab>
+          <ref corresp="jnodot"></ref>
+        </ab>
+        <p corresp="geradesr" rendition="heading3">Straight r und round / rotunda r are
+               differentiated.</p>
+        <ab>
+          <ref select="r"></ref>
+        </ab>
+        <ab>
+          <ref corresp="rrot"></ref>
+        </ab>
+        <p corresp="schafts" rendition="heading3">Long s and round s are differentiated.</p>
+        <ab>
+          <ref select="s"></ref>       
+ </ab>
+        <ab>
+          <ref corresp="slong"></ref>
+        </ab>
+        <p corresp="scharfess" rendition="heading3">ß ligature is used if the individual
+               characters long s and tailed z cannot be differentiated anymore.</p>
+        <ab>
+          <ref select="szlig"></ref>
+        </ab>
+        <p corresp="superskriptij" rendition="heading3">Two forms of &apos;w&apos; are differentiated.</p>
+        <ab>
+          <ref select="w"></ref>
+        </ab>
+        <ab>
+          <ref corresp="lb"></ref>
+        </ab>
+        <p corresp="diakritik" rendition="heading3">Diacritics</p>
+        <p>
+          <list>
+            <item>Superscript and umlaut signs above &lt;a&gt;, &lt;e&gt;, &lt;o&gt;,
+                     &lt;u&gt;, &lt;v&gt;, &lt;w&gt;, &lt;y&gt; are generally transcribed without
+                     differentiating their real shape (e.g. dot, dash, tilde). If we really do
+                     differentiate (as is the case with some recipe collections), the respective
+                     information is available in the encoding description.</item>
+            <item>If superscripts resemble vowels, they are transcribed according to their
+                     shape.</item>
+          </list>
+        </p>
+        <ab>
+          <ref ana="dia"></ref>
+        </ab>
+        <p corresp="kurz" rendition="heading3">Abbreviation signs</p>
+        <p>Abbreviations are modelled throughout.</p>
+        <p corresp="brevigraph" rendition="heading3">Brevigraphs</p>
+        <ab>
+          <ref ana="brevigraph"></ref>
+        </ab>
+        <p corresp="kurz2" rendition="heading3">General abbreviation signs</p>
+        <ab>
+          <ref ana="abbreviation_mark"></ref>
+        </ab>
+        <p corresp="kontrakt" rendition="heading3">Contractions</p>
+        <ab>
+          <ref ana="contraction"></ref>
+        </ab>
+        <p corresp="punkt" rendition="heading3">Punctuation</p>
+        <ab>
+          <ref ana="pct"></ref>
+        </ab>
+      </editorialDecl>
+      <editorialDecl n="digital">
+        <p rendition="heading1">Digital presentation</p>
+        <p>The hyperdiplomatic transcription can be downloaded as TEI-XML for the individual
+               collections. It contains all of the phenomena normalized in the synoptic representation.</p>
+        <p>In the synoptic visual presentations the source text is slightly normalized: <list>
+            <item>Capital and small letters are differentiated.</item>
+            <item>Dottless i/j and i/j with dot as superscript are not differentiated.</item>
+            <item>Diacritics are displayed.</item>
+            <item>Vocals used as superscripts are displayed.</item>
+            <item>Long s and round s are not differentiated.</item>
+            <item>Plain w and loop-w are not differentiated</item>
+            <item>Straight z and round z are not distinguished.</item>
+            <item>Terminator symbols are not displayed.</item>
+            <item>Foreign language text is rendered italic.</item>
+          </list>
+        </p>
+        <p>Synopsis: This is a horizontal text / image synopsis where the transcription is
+               aligned with the digital facsimile. This view can be used to simply scroll through
+               the text. The first line holds information on the versioning of the base file.</p>
+        <p>Full-Width: This is a vertical text / image synopsis where the transcription is
+               aligned with the digital facsimile. In this view the buttons of the image viewer have
+               to be used to jump from one page to the next.</p>
+        <p>The macro structure of the source is represented: page and line breaks are displayed but
+               column breaks are resolved into linear text according to the reading order.</p>
+        <p>Structuring text elements are displayed: headings, initials, rubrication (except vertical
+               dashes and underlining).</p>
+        <p>Abbreviations are expanded. The expanded text is highlighted by italics and a
+               different text color. A mouse-over function provides a detailed explanation.</p>
+        <p>Text revisions are highlighted (deletion: strike through plus blue text; addition: bold
+               red text).</p>
+        <p>Uncertain readings are indicated by light grey text color.</p>
+        <p>Editorial reconstructions or insertions are indicated by square brackets. A
+               mouse-over function provides a detailed explanation.</p>
+        <p>A pointing hand indicates peculiar passages. A mouse-over function provides a
+               detailed explanation.</p>
+        <p>Respective icons below the digital facsimile provide information on legal matters, a suggestion how to cite the page, and access to the cange log. </p>
+        <p>Metadata: This view provides archival metadata, versioning information, view and export functions, and a citation suggestion for the data set.</p>
+        
+        
+      </editorialDecl>
+      <charDecl>
+        
+        <char ana="character" resp="https://bora.uib.no/handle/1956/10699" source="p.12" xml:id="a">
+          <charName>LATIN SMALL LETTER A</charName>
+          <mapping subtype="Baslat" type="unicode_codepoint">0061</mapping>
+          <mapping subtype="html_entity" type="encoding">a</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">a</mapping>
+        </char>
+        <glyph ana="allograph" corresp="#a" resp="https://bora.uib.no/handle/1956/10699" source="p.24" xml:id="ains">
+          <glyphName>LATIN SMALL LETTER A INSULAR FORM</glyphName>
+          <mapping type="normalized">a</mapping>
+          <mapping type="transcription">a2</mapping>
+          <mapping subtype="PUA-var" type="unicode_codepoint">F200</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <char xml:id="A">
+          <charName>LATIN CAPITAL LETTER A</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="b">
+          <charName>LATIN SMALL LETTER B</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="B">
+          <charName>LATIN CAPITAL LETTER B</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="c">
+          <charName>LATIN SMALL LETTER C</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="C">
+          <charName>LATIN CAPITAL LETTER C</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="d">
+          <charName>LATIN SMALL LETTER D</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="D">
+          <charName>LATIN CAPITAL LETTER D</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="e">
+          <charName>LATIN SMALL LETTER E</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="E">
+          <charName>LATIN CAPITAL LETTER E</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="f">
+          <charName>LATIN SMALL LETTER F</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="F">
+          <charName>LATIN CAPITAL LETTER F</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="g">
+          <charName>LATIN SMALL LETTER G</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="G">
+          <charName>LATIN CAPITAL LETTER G</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="h">
+          <charName>LATIN SMALL LETTER H</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="H">
+          <charName>LATIN CAPITAL LETTER H</charName>
+          <mapping></mapping>
+        </char>
+        <char ana="character" resp="https://bora.uib.no/handle/1956/10699" source="p.47" xml:id="i">
+          <charName>LATIN SMALL LETTER I</charName>
+          <mapping subtype="BasLat" type="unicode_codepoint">0069</mapping>
+          <mapping subtype="html_entity" type="encoding">i</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">i</mapping>
+        </char>
+        <glyph ana="allograph" corresp="#i" resp="https://bora.uib.no/handle/1956/10699" source="p.48" xml:id="inodot">
+          <glyphName>LATIN SMALL LETTER DOTLESS I</glyphName>
+          <mapping type="normalized">i</mapping>
+          <mapping type="transcription">i2</mapping>
+          <mapping subtype="LatExtA" type="unicode_codepoint">0131</mapping>
+          <mapping subtype="html_entity" type="encoding">ı</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ı</mapping>
+        </glyph>
+        <char xml:id="I">
+          <charName>LATIN CAPITAL LETTER I</charName>
+          <mapping></mapping>
+        </char>
+        <char ana="character" resp="https://bora.uib.no/handle/1956/10699" source="p.52" xml:id="j">
+          <charName>LATIN SMALL LETTER J</charName>
+          <mapping subtype="BasLat" type="unicode_codepoint">006A</mapping>
+          <mapping subtype="html_entity" type="encoding">j</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">j</mapping>
+        </char>
+        <glyph ana="allograph" corresp="#j" resp="https://bora.uib.no/handle/1956/10699" source="p.52" xml:id="jnodot">
+          <glyphName>LATIN SMALL LETTER DOTLESS J</glyphName>
+          <mapping type="normalized">j</mapping>
+          <mapping type="transcription">j2</mapping>
+          <mapping subtype="LatExB" type="unicode_codepoint">0237</mapping>
+          <mapping subtype="html_entity" type="encoding">ȷ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ȷ</mapping>
+        </glyph>
+        
+        <glyph ana="allograph" corresp="#j" resp="https://bora.uib.no/handle/1956/10699" source="p.52" xml:id="jnodotstrok">
+          <glyphName>LATIN SMALL LETTER DOTLESS J WITH STROKE</glyphName>
+          <mapping type="normalized">1/2</mapping>
+          <mapping type="transcription">\*j\*</mapping>
+          <mapping subtype="IPAExt" type="unicode_codepoint">025F</mapping>
+          <mapping subtype="html_entity" type="encoding">ɟ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ɟ</mapping>
+        </glyph>
+        <char xml:id="J">
+          <charName>LATIN CAPITAL LETTER J</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="k">
+          <charName>LATIN SMALL LETTER K</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="K">
+          <charName>LATIN CAPITAL LETTER K</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="l">
+          <charName>LATIN SMALL LETTER L</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="L">
+          <charName>LATIN CAPITAL LETTER L</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="m">
+          <charName>LATIN SMALL LETTER M</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="M">
+          <charName>LATIN CAPITAL LETTER M</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="n">
+          <charName>LATIN SMALL LETTER N</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="N">
+          <charName>LATIN CAPITAL LETTER N</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="o">
+          <charName>LATIN SMALL LETTER O</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="O">
+          <charName>LATIN CAPITAL LETTER O</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="p">
+          <charName>LATIN SMALL LETTER P</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="P">
+          <charName>LATIN CAPITAL LETTER P</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="q">
+          <charName>LATIN SMALL LETTER Q</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="Q">
+          <charName>LATIN CAPITAL LETTER Q</charName>
+          <mapping></mapping>
+        </char>
+        <char ana="character" resp="https://bora.uib.no/handle/1956/10699" source="p.82" xml:id="r">
+          <charName>LATIN SMALL LETTER R</charName>
+          <mapping subtype="Baslat" type="unicode_codepoint">0073</mapping>
+          <mapping subtype="html_entity" type="encoding">r</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">r</mapping>
+        </char>
+        <glyph ana="allograph" corresp="#r" resp="https://bora.uib.no/handle/1956/10699" source="p.84" xml:id="rrot">
+          <glyphName>LATIN SMALL LETTER R ROTUNDA</glyphName>
+          <mapping type="normalized">r</mapping>
+          <mapping type="transcription">r2</mapping>
+          <mapping subtype="LatExtA" type="unicode_codepoint">A75B</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝛ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝛ</mapping>
+        </glyph>
+        <char xml:id="R">
+          <charName>LATIN CAPITAL LETTER R</charName>
+          <mapping></mapping>
+        </char>
+        <char ana="character" resp="https://bora.uib.no/handle/1956/10699" source="p.85" xml:id="s">
+          <charName>LATIN SMALL LETTER S</charName>
+          <mapping subtype="Baslat" type="unicode_codepoint">0072</mapping>
+          <mapping subtype="html_entity" type="encoding">s</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">s</mapping>
+        </char>
+        <char ana="character" resp="https://bora.uib.no/handle/1956/10699" source="p.86" xml:id="szlig">
+          <charName>LATIN SMALL LETTER SHARP S</charName>
+          <mapping subtype="LatISuppl" type="unicode_codepoint">00DF</mapping>
+          <mapping subtype="html_entity" type="encoding">ß</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ß</mapping>
+        </char>
+        <char xml:id="S">
+          <charName>LATIN CAPITAL LETTER S</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="t">
+          <charName>LATIN SMALL LETTER T</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="T">
+          <charName>LATIN CAPITAL LETTER T</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="u">
+          <charName>LATIN SMALL LETTER U</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="U">
+          <charName>LATIN CAPITAL LETTER U</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="v">
+          <charName>LATIN SMALL LETTER V</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="V">
+          <charName>LATIN CAPITAL LETTER V</charName>
+          <mapping></mapping>
+        </char>
+        <char ana="character" resp="https://bora.uib.no/handle/1956/10699" source="p.103" xml:id="w">
+          <charName>LATIN SMALL LETTER W</charName>
+          <mapping subtype="Baslat" type="unicode_codepoint">0077</mapping>
+          <mapping subtype="html_entity" type="encoding">w</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">w</mapping>
+        </char>
+        <glyph ana="allograph" corresp="#w" resp="https://bora.uib.no/handle/1956/10699" source="p.89" xml:id="lb">
+          <glyphName>LATIN SMALL LETTERS LIGATURE LB FOR W</glyphName>
+          <mapping type="normalized">w</mapping>
+          <mapping type="transcription">w2</mapping>
+          <mapping subtype="PUA-12" type="unicode_codepoint">F2EA</mapping>
+          
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <char xml:id="W">
+          <charName>LATIN CAPITAL LETTER W</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="x">
+          <charName>LATIN SMALL LETTER X</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="X">
+          <charName>LATIN CAPITAL LETTER X</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="y">
+          <charName>LATIN SMALL LETTER Y</charName>
+          <mapping></mapping>
+        </char>
+        <char xml:id="Y">
+          <charName>LATIN CAPITAL LETTER Y</charName>
+          <mapping></mapping>
+        </char>  
+      <char xml:id="z">
+          <charName>LATIN SMALL LETTER Z</charName>
+          <mapping></mapping>
+        </char> 
+       
+        
+        <glyph ana="allograph" corresp="#z" resp="https://bora.uib.no/handle/1956/10699" source="p.111/112" xml:id="z_round">
+          <glyphName>LATIN SMALL LETTER Z WITH STROKE</glyphName>
+          <mapping type="normalized">z</mapping>
+          <mapping type="transcription">z2</mapping>
+          <mapping subtype="LatExB" type="unicode_codepoint">01B6</mapping>
+          <mapping subtype="html_entity" type="encoding">ƶ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ƶ</mapping>
+        </glyph>
+        
+        <char xml:id="Z">
+          <charName>LATIN CAPITAL LETTER Z</charName>
+          <mapping></mapping>
+        </char>
+        
+        
+        
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.30" xml:id="dtail_den">
+          <glyphName>LATIN SMALL LETTER D WITH TAIL</glyphName>
+          <mapping type="normalized">den</mapping>
+          <mapping type="transcription">d\$8</mapping>
+          <mapping subtype="IPAExt" type="unicode_codepoint">0256</mapping>
+          <mapping subtype="html_entity" type="encoding">ɖ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ɖ</mapping>
+        </glyph>
+        
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.134" xml:id="usbase">
+          <glyphName>LATIN ABBREVIATION SIGN SPACING BASE-LINE US</glyphName>
+          <mapping type="normalized">us</mapping>
+          <mapping type="expansion">us</mapping>
+          <mapping type="transcription">\$2</mapping>
+          <mapping subtype="PUA-4" type="unicode_codepoint">F1A6</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.135" xml:id="rum">
+          <glyphName>LATIN SMALL LETTER RUM ROTUNDA</glyphName>
+          <mapping type="normalized">rum</mapping>
+          <mapping type="expansion">rum</mapping>
+          <mapping type="transcription">r\$</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A75D</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝝ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝝ</mapping>
+        </glyph>
+        
+        
+        
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.78" xml:id="pbardes_per">
+          <glyphName>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</glyphName>
+          <mapping type="normalized">per</mapping>
+          <mapping type="transcription">p_1</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A751</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝑ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝑ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.78" xml:id="pbardes_perir">
+          <glyphName>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</glyphName>
+          <mapping type="normalized">perir</mapping>
+          <mapping type="transcription">p_2</mapping> 
+         <mapping subtype="LatExtD" type="unicode_codepoint">A751</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝑ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝑ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.78" xml:id="pbardes_par">
+          <glyphName>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</glyphName>
+          <mapping type="normalized">par</mapping>
+          <mapping type="transcription">p_3</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A751</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝑ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝑ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.78" xml:id="pflour">
+          <glyphName>LATIN SMALL LETTER P WITH FLOURISH</glyphName>
+          <mapping type="normalized">pro</mapping>
+          <mapping type="transcription">p_4</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A753</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝓ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝓ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.78" xml:id="pbardes_pri">
+          <glyphName>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</glyphName>
+          <mapping type="normalized">pri</mapping>
+          <mapping type="transcription">p_5</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A751</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝑ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝑ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.79" xml:id="pmacr">
+          <glyphName>LATIN SMALL LETTER P WITH MACRON</glyphName>
+          <mapping type="normalized">pre</mapping>
+          <mapping type="transcription">p_6</mapping>
+          <mapping subtype="PUA-15" type="unicode_codepoint">E665</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.78" xml:id="pbardes_por">
+          <glyphName>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</glyphName>
+          <mapping type="normalized">por</mapping>
+          <mapping type="transcription">p_7</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A751</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝑ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝑ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.134" xml:id="usbase_post">
+          <glyphName>LATIN ABBREVIATION SIGN SPACING BASE-LINE US</glyphName>
+          <mapping type="normalized">ost</mapping>
+          <mapping type="transcription">_8</mapping>
+          <mapping subtype="PUA-4" type="unicode_codepoint">F1A6</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        
+        
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.134" xml:id="condes">
+          <glyphName>LATIN SMALL LETTER CON</glyphName>
+          <mapping type="normalized">con</mapping>
+          <mapping type="transcription">;2</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76F</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝯ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝯ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.134" xml:id="condes_com">
+          <glyphName>LATIN SMALL LETTER CON</glyphName>
+          <mapping type="normalized">com</mapping>
+          <mapping type="transcription">;3</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76F</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝯ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝯ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.134" xml:id="condes_co">
+          <glyphName>LATIN SMALL LETTER CON</glyphName>
+          <mapping type="normalized">co</mapping>
+          <mapping type="transcription">;4</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76F</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝯ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝯ</mapping>
+        </glyph>
+        
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.89" xml:id="slongflour">
+          <glyphName>LATIN SMALL LETTER LONG S WITH FLOURISH</glyphName>
+          <mapping type="normalized">ser</mapping>
+          <mapping type="transcription">§€</mapping>
+          <mapping subtype="PUA-5" type="unicode_codepoint">E8B7</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.89" xml:id="flongflour">
+          <glyphName>LATIN SMALL LETTER LONG S WITH FLOURISH</glyphName>
+          <mapping type="normalized">fer</mapping>
+          <mapping type="transcription">f€</mapping>
+          <mapping subtype="PUA-5" type="unicode_codepoint">E8B7</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        
+        <glyph ana="allograph" corresp="#s" resp="https://bora.uib.no/handle/1956/10699" source="p.89" xml:id="slong">
+          <glyphName>LATIN SMALL LETTER LONG S</glyphName>
+          <mapping type="normalized">s</mapping>
+          <mapping type="transcription">§</mapping>
+          <mapping subtype="LatExtA" type="unicode_codepoint">017F</mapping>
+          <mapping subtype="html_entity" type="encoding">ſ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ſ</mapping>
+        </glyph>
+        
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.133" xml:id="etslash">
+          <glyphName>LATIN ABBREVIATION SIGN SMALL ET WITH STROKE</glyphName>
+          <mapping type="normalized">et</mapping>
+          <mapping type="transcription">%</mapping>
+          <mapping subtype="PUA-4" type="unicode_codepoint">F158</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.136" xml:id="lbbar">
+          <glyphName>L B BAR SYMBOL</glyphName>
+          <mapping type="normalized">libra</mapping>
+          <mapping type="transcription">lb_2</mapping>
+          <mapping subtype="LettSymb" type="unicode_codepoint">2114</mapping>
+          <mapping subtype="html_entity" type="encoding">℔</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">℔</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.100" xml:id="vdiagstrok">
+          <glyphName>LATIN SMALL LETTER V WITH DIAGONAL STROKE</glyphName>
+          <mapping type="normalized">ver</mapping>
+          <mapping type="transcription">v&apos;8</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A75F</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝟ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝟ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.83" xml:id="Rtailstrok">
+          <glyphName>PRESCRIPTION TAKE</glyphName>
+          <mapping type="normalized">Require</mapping>
+          <mapping type="transcription">R~8</mapping>
+          <mapping subtype="LettSymb" type="unicode_codepoint">211E</mapping>
+          <mapping subtype="html_entity" type="encoding">℞</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">℞</mapping>
+        </glyph>
+        
+        
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">
+            
+          </mapping>
+          
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_e">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">e</mapping>
+          <mapping type="transcription">\-1</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_n">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">n</mapping>
+          <mapping type="transcription">\-2</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_m">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">m</mapping>
+          <mapping type="transcription">\-3</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_d">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">d</mapping>
+          <mapping type="transcription">\-4</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_en">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">en</mapping>
+          <mapping type="transcription">\-5</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_em">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">em</mapping>
+          <mapping type="transcription">\-6</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_un">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">un</mapping>
+          <mapping type="transcription">\-7</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_st">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">st</mapping>
+          <mapping type="transcription">\-8</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_de">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">de</mapping>
+          <mapping type="transcription">\-9</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_me">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">me</mapping>
+          <mapping type="transcription">\-0</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_i">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">i</mapping>
+          <mapping type="transcription">~6</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_in">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">in</mapping>
+          <mapping type="transcription">~7</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="bar_b">
+          <glyphName>COMBINING OVERLINE</glyphName>
+          <mapping type="normalized">b</mapping>
+          <mapping type="transcription">~9</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0305</mapping>
+          <mapping subtype="html_entity" type="encoding">̅</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̅</mapping>
+        </glyph>
+        
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.130" xml:id="combcomma_r">
+          <glyphName>COMBINING COMMA ABOVE RIGHT</glyphName>
+          <mapping type="normalized">r</mapping>
+          <mapping type="transcription">&apos;1</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0315</mapping>
+          <mapping subtype="html_entity" type="encoding">̕</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̕</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.130" xml:id="combcomma_er">
+          <glyphName>COMBINING COMMA ABOVE RIGHT</glyphName>
+          <mapping type="normalized">er</mapping>
+          <mapping type="transcription">&apos;2</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0315</mapping>
+          <mapping subtype="html_entity" type="encoding">̕</mapping>
+          <mapping type="unicode_symbol">̕</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.130" xml:id="combcomma_ir">
+          <glyphName>COMBINING COMMA ABOVE RIGHT</glyphName>
+          <mapping type="normalized">ir</mapping>
+          <mapping type="transcription">&apos;3</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0315</mapping>
+          <mapping subtype="html_entity" type="encoding">̕</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̕</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.130" xml:id="combcomma_ri">
+          <glyphName>COMBINING COMMA ABOVE RIGHT</glyphName>
+          <mapping type="normalized">ri</mapping>
+          <mapping type="transcription">&apos;4</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0315</mapping>
+          <mapping subtype="html_entity" type="encoding">̕</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̕</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.130" xml:id="combcomma_re">
+          <glyphName>COMBINING COMMA ABOVE RIGHT</glyphName>
+          <mapping type="normalized">re</mapping>
+          <mapping type="transcription">&apos;5</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0315</mapping>
+          <mapping subtype="html_entity" type="encoding">̕</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̕</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.130" xml:id="combcomma_ut">
+          <glyphName>COMBINING COMMA ABOVE RIGHT</glyphName>
+          <mapping type="normalized">ut</mapping>
+          <mapping type="transcription">&apos;6</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0315</mapping>
+          <mapping subtype="html_entity" type="encoding">̕</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̕</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.130" xml:id="combcomma_e">
+          <glyphName>COMBINING COMMA ABOVE RIGHT</glyphName>
+          <mapping type="normalized">e</mapping>
+          <mapping type="transcription">&apos;7</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0315</mapping>
+          <mapping subtype="html_entity" type="encoding">̕</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̕</mapping>
+        </glyph>
+        
+        <glyph ana="abbreviation_mark" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="combcurlbar_tra">
+          <glyphName>COMBINING CURLY BAR ABOVE</glyphName>
+          <mapping type="normalized">tra</mapping>
+          <mapping type="transcription">~1</mapping>
+          <mapping subtype="PUA-6" type="unicode_codepoint">F1CC</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="combcurlbar_ra">
+          <glyphName>COMBINING CURLY BAR ABOVE</glyphName>
+          <mapping type="normalized">ra</mapping>
+          <mapping type="transcription">~2</mapping>
+          <mapping subtype="PUA-6" type="unicode_codepoint">F1CC</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="combcurlbar_ua">
+          <glyphName>COMBINING CURLY BAR ABOVE</glyphName>
+          <mapping type="normalized">ua</mapping>
+          <mapping type="transcription">~3</mapping>
+          <mapping subtype="PUA-6" type="unicode_codepoint">F1CC</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" resp="https://bora.uib.no/handle/1956/10699" source="p.129" xml:id="combcurlbar_ta">
+          <glyphName>COMBINING CURLY BAR ABOVE</glyphName>
+          <mapping type="normalized">ta</mapping>
+          <mapping type="transcription">~5</mapping>
+          <mapping subtype="PUA-6" type="unicode_codepoint">F1CC</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.135" xml:id="en">
+          <glyphName>LATIN SMALL LETTER IS</glyphName>
+          <mapping type="normalized">en</mapping>
+          <mapping type="transcription">≠2</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76D</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝭ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝭ</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.135" xml:id="em">
+          <glyphName>LATIN SMALL LETTER IS</glyphName>
+          <mapping type="normalized">em</mapping>
+          <mapping type="transcription">≠3</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76D</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝭ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝭ</mapping>
+        </glyph>
+        
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.135" xml:id="is">
+          <glyphName>LATIN SMALL LETTER IS</glyphName>
+          <mapping type="normalized">is</mapping>
+          <mapping type="transcription">\*2</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76D</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝭ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝭ</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.135" xml:id="es">
+          <glyphName>LATIN SMALL LETTER IS</glyphName>
+          <mapping type="normalized">es</mapping>
+          <mapping type="transcription">\*3</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76D</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝭ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝭ</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.135" xml:id="ecipe">
+          <glyphName>LATIN SMALL LETTER IS</glyphName>
+          <mapping type="normalized">ecipe</mapping>
+          <mapping type="transcription">#0</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76D</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝭ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝭ</mapping>
+        </glyph>
+        
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.135" xml:id="etfin_m">
+          <glyphName>LATIN SMALL LETTER ET</glyphName>
+          <mapping type="normalized">m</mapping>
+          <mapping type="transcription">\*4</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76B</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝫ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝫ</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.135" xml:id="etfin_em">
+          <glyphName>LATIN SMALL LETTER ET</glyphName>
+          <mapping type="normalized">em</mapping>
+          <mapping type="transcription">\*6</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76B</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝫ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝫ</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.135" xml:id="etfin">
+          <glyphName>LATIN SMALL LETTER ET</glyphName>
+          <mapping type="normalized">et</mapping>
+          <mapping type="transcription">\*8</mapping>
+          <mapping subtype="LatExtD" type="unicode_codepoint">A76B</mapping>
+          <mapping subtype="html_entity" type="encoding">ꝫ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ꝫ</mapping>
+        </glyph>
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.134" xml:id="est">
+          <glyphName>LATIN ABBREVIATION SIGN EST</glyphName>
+          <mapping type="normalized">id est</mapping>
+          <mapping type="transcription">∑</mapping>
+          <mapping subtype="MathOp" type="unicode_codepoint">223B</mapping>
+          <mapping subtype="html_entity" type="encoding">∻</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">∻</mapping>
+        </glyph>
+        
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.58" xml:id="lbar">
+          <glyphName>LATIN SMALL LETTER L WITH BAR</glyphName>
+          <mapping type="normalized">eil</mapping>
+          <mapping type="transcription">l_2</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">019A</mapping>
+          <mapping subtype="html_entity" type="encoding">ƚ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ƚ</mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.58" xml:id="llbar">
+          <glyphName>LATIN SMALL LETTER LL WITH BAR</glyphName>
+          <mapping type="normalized">eill</mapping>
+          <mapping type="transcription">ll_2</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">019A 019A</mapping>
+          <mapping subtype="html_entity" type="encoding">ƚƚ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ƚƚ</mapping>
+        </glyph>
+        
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.131" xml:id="urrot">
+          <glyphName>COMBINING ABBREVIATION MARK SUPERSCRIPT UR ROUND R FORM</glyphName>
+          <mapping type="normalized">ur</mapping>
+          <mapping type="transcription">&quot;1</mapping>
+          <mapping subtype="PUA-6" type="unicode_codepoint">F153</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.131" xml:id="urrot_tur">
+          <glyphName>COMBINING ABBREVIATION MARK SUPERSCRIPT UR ROUND R FORM</glyphName>
+          <mapping type="normalized">tur</mapping>
+          <mapping type="transcription">&quot;2</mapping>
+          <mapping subtype="PUA-6" type="unicode_codepoint">F153</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <glyph ana="abbreviation_mark" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.131" xml:id="urrot_tura">
+          <glyphName>COMBINING ABBREVIATION MARK SUPERSCRIPT UR ROUND R FORM</glyphName>
+          <mapping type="normalized">tura</mapping>
+          <mapping type="transcription">&quot;6</mapping>
+          <mapping subtype="PUA-6" type="unicode_codepoint">F153</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        
+        <glyph ana="contraction" n="abbr" resp="http://bit.ly/Schneider_Handschriftenkunde" source="p.90" xml:id="dz">       
+   <glyphName>GERMAN ABBREVIATION DAZ</glyphName>
+          <mapping type="normalized">daz</mapping>
+          <mapping type="transcription">d_z</mapping>
+          <mapping subtype="html_entity" type="encoding">dʒ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">dʒ</mapping>
+        </glyph>
+        <glyph ana="contraction" n="abbr" resp="http://bit.ly/Schneider_Handschriftenkunde" source="p.90" xml:id="wz">
+          <glyphName>GERMAN ABBREVIATION WAZ</glyphName>
+          <mapping type="normalized">waz</mapping>
+          <mapping type="transcription">w_z</mapping>
+          <mapping subtype="html_entity" type="encoding">wʒ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">wʒ</mapping>
+        </glyph>
+        
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.130" xml:id="combcurlbar">
+          <glyphName>COMBINING CURLY BAR ABOVE</glyphName>
+          <mapping type="normalized"></mapping>
+          <mapping type="transcription">~</mapping>
+          <mapping subtype="PUA-6" type="unicode_codepoint">F1CC</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        
+        <glyph resp="https://bora.uib.no/handle/1956/10699" source="p.128" xml:id="combuml">
+          <glyphName>COMBINING DIAERESIS</glyphName>
+          <mapping type="normalized"></mapping>
+          <mapping type="transcription">:</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0308</mapping>
+          <mapping subtype="html_entity" type="encoding">̈</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̈</mapping>
+          <figure>
+            <graphic url="111.png"></graphic>
+          </figure>
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.128" xml:id="combring">
+          <glyphName>COMBINING RING ABOVE</glyphName>
+          <mapping type="normalized"></mapping>
+          <mapping type="transcription">°</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">030A</mapping>
+          <mapping subtype="html_entity" type="encoding">̊</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">̊</mapping>
+          
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.122" xml:id="asup">
+          <glyphName>COMBINING LATIN SMALL LETTER A</glyphName>
+          <mapping type="normalized">a</mapping>
+          <mapping type="transcription">!a!</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0363</mapping>
+          <mapping subtype="html_entity" type="encoding">ͣ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ͣ</mapping>
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.123" xml:id="esup">
+          <glyphName>COMBINING LATIN SMALL LETTER E</glyphName>
+          <mapping type="normalized">e</mapping>
+          <mapping type="transcription">!e!</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0364</mapping>
+          <mapping subtype="html_entity" type="encoding">ͤ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ͤ</mapping>
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.124" xml:id="isup">
+          <glyphName>COMBINING LATIN SMALL LETTER I</glyphName>
+          <mapping type="normalized">i</mapping>
+          <mapping type="transcription">!i!</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0365</mapping>
+          <mapping subtype="html_entity" type="encoding">ͥ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ͥ</mapping>
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.125" xml:id="osup">
+          <glyphName>COMBINING LATIN SMALL LETTER O</glyphName>
+          <mapping type="normalized">o</mapping>
+          <mapping type="transcription">!o!</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0366</mapping>
+          <mapping subtype="html_entity" type="encoding">ͦ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ͦ</mapping>
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.126" xml:id="usup">
+          <glyphName>COMBINING LATIN SMALL LETTER U</glyphName>
+          <mapping type="normalized">u</mapping>
+          <mapping type="transcription">!u!</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">0367</mapping>
+          <mapping subtype="html_entity" type="encoding">ͧ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ͧ</mapping>
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.126" xml:id="vsup">
+          <glyphName>COMBINING LATIN SMALL LETTER V</glyphName>
+          <mapping type="normalized">v</mapping>
+          <mapping type="transcription">!v!</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">036E</mapping>
+          <mapping subtype="html_entity" type="encoding">ͮ</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ͮ</mapping>
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.14" xml:id="acirc">
+          <glyphName>LATIN SMALL LETTER A WITH CIRCUMFLEX</glyphName>
+          <mapping type="normalized">a</mapping>
+          <mapping type="transcription">â</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">00E2</mapping>
+          <mapping subtype="html_entity" type="encoding">â</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">â</mapping>
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.35" xml:id="ecirc">
+          <glyphName>LATIN SMALL LETTER E WITH CIRCUMFLEX</glyphName>
+          <mapping type="normalized">e</mapping>
+          <mapping type="transcription">ê</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">00EA</mapping>
+          <mapping subtype="html_entity" type="encoding">ê</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ê</mapping>
+        </glyph>
+        <glyph ana="dia" resp="https://bora.uib.no/handle/1956/10699" source="p.71" xml:id="ocirc">
+          <glyphName>LATIN SMALL LETTER O WITH CIRCUMFLEX</glyphName>
+          <mapping type="normalized">o</mapping>
+          <mapping type="transcription">ô</mapping>
+          <mapping subtype="CombDiaMk" type="unicode_codepoint">00F4</mapping>
+          <mapping subtype="html_entity" type="encoding">ô</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">ô</mapping>
+        </glyph>
+        
+        <glyph ana="brevigraph" n="abbr" resp="https://bora.uib.no/handle/1956/10699" source="p.131" xml:id="etcamp">
+          <glyphName>AMPERSAND</glyphName>
+          <mapping type="normalized">etc.</mapping>
+          <mapping type="transcription">@</mapping>
+          <mapping subtype="BasLat" type="unicode_codepoint">0026</mapping>
+          <mapping subtype="html_entity" type="encoding">&amp;c</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">&amp;c</mapping>
+        </glyph>
+        <glyph ana="pct" resp="https://bora.uib.no/handle/1956/10699" source="p.142" xml:id="dbloblhyph">
+          <glyphName>DOUBLE OBLIQUE HYPHEN</glyphName>
+          <mapping type="normalized">=</mapping>
+          <mapping type="transcription">=</mapping>
+          <mapping subtype="SupplPunct" type="unicode_codepoint">2E17</mapping>
+          <mapping subtype="html_entity" type="encoding">⸗</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">⸗</mapping>
+        </glyph>
+        <glyph ana="pct" resp="https://bora.uib.no/handle/1956/10699" source="p.148" xml:id="tridotscomposit">
+          <glyphName>THREE DOTS WITH COMMA POSITURA</glyphName>
+          <mapping type="normalized"></mapping>
+          <mapping type="transcription">¶</mapping>    
+      <mapping subtype="PUA-8" type="unicode_codepoint">F1E6</mapping>
+          <mapping subtype="html_entity" type="encoding"></mapping>
+          <mapping subtype="unicode_symbol" type="encoding"></mapping>
+        </glyph>
+        <glyph ana="pct" resp="https://bora.uib.no/handle/1956/10699" source="p.139" xml:id="tridotright">
+          <glyphName>GEORGIAN PARAGRAPH SEPARATOR</glyphName>
+          
+          <mapping type="normalized"></mapping>
+          <mapping type="transcription">\+</mapping>
+          <mapping subtype="Georgian" type="unicode_codepoint">10FB</mapping>
+          <mapping subtype="html_entity" type="encoding">჻</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">჻</mapping>
+        </glyph>
+        <glyph ana="pct" resp="https://bora.uib.no/handle/1956/10699" source="p.155" xml:id="para">
+          <glyphName>PILCROW SIGN</glyphName>
+          <mapping type="normalized"></mapping>
+          <mapping type="transcription">√</mapping>
+          <mapping subtype="Lat1Suppl" type="unicode_codepoint">00B6</mapping>
+          <mapping subtype="html_entity" type="encoding">¶</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">¶</mapping>
+        </glyph>
+        <glyph ana="pct" resp="https://bora.uib.no/handle/1956/10699" source="p.140" xml:id="dblsol">
+          <glyphName>PUNCTUATION MARK DOUBLE SOLIDUS</glyphName>
+          <mapping type="normalized"></mapping>
+          <mapping type="transcription">/2</mapping>
+          <mapping subtype="SupplMathOp" type="unicode_codepoint">2AFD</mapping>
+          <mapping subtype="html_entity" type="encoding">⫽</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">⫽</mapping>
+        </glyph>
+        <glyph ana="pct" resp="https://bora.uib.no/handle/1956/10699" source="p.140" xml:id="fracsol">
+          <glyphName>FRACTION SLASH</glyphName>
+          <mapping type="normalized"></mapping>
+          <mapping type="transcription">/</mapping>
+          <mapping subtype="GenPunct" type="unicode_codepoint">2044</mapping>
+          <mapping subtype="html_entity" type="encoding">⁄</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">⁄</mapping>
+        </glyph>
+        <glyph ana="pct" resp="https://bora.uib.no/handle/1956/10699" source="p.140" xml:id="verbar">
+          <glyphName>VERTICAL LINE</glyphName>
+          <mapping type="normalized"></mapping>
+          <mapping type="transcription">\|</mapping>
+          <mapping subtype="BasLat" type="unicode_codepoint">007C</mapping>
+          <mapping subtype="html_entity" type="encoding">|</mapping>
+          <mapping subtype="unicode_symbol" type="encoding">|</mapping>
+        </glyph>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange prev="TEI_SOURCE.2021-03-25">
+        <change when="2021-03-30" who="Klug">
+          <ab>Added explanation on <gi>scriptDesc</gi>; updated section on &apos;Digital representation&apos;.</ab>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="col2">
+        <p>
+          <figure>
+            <graphic mimeType="image/jpg" url="info:fedora/o:malab.editorialdec" xml:id="IMAGE.1"></graphic>
+            <desc type="bildcaption"> &quot;Graz, UB, Ms 1609, fol. 50v: excessive
+                     deletions&quot; by UB Graz </desc>
+          </figure>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
