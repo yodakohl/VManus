@@ -1,3 +1,7 @@
+## 2026-10-03 IDEA865 local augmentation update
+
+[Same-pixel counter-read](research_registry/proposals/production_origin_supply_20261003/SOURCE865_DOUBLE_MARK_REVIEW.json):four lower-zone points flank epsilon; under the documented two-point mu rule, two applications locally account for doubledmu. This improves the earlier specific uncertainty without inventing an unmarked consonant. Two reviewers knew the edition; pairing remains interpretive, complete writer stillpartial. No target correspondence. Next check concerns existing native evidence of transcription-lost mark distinctions, not automatic decoder selection.
+
 ## 2026-10-03 IDEA897 and865 concrete input limits
 
 [Known-phrase owner inventory](research_registry/proposals/production_origin_supply_20261003/IDEA897_OWNER_CAPACITY_RECEIPT.md):23of162 published ZL occurrences join791;22page-only, one deeprecord without component binding. Realotol/okal label intersections do not instantiate participant crossover; no targettest. [Native source alignment](research_registry/proposals/production_origin_supply_20261003/SOURCE865_ALIGNMENT.md):all11Greek source words plus3additional complete-word regions retained; upper/lower marks locally visible, complete diplomatic reconstruction and doublemu unresolved. No Greek targetkey or decoder.1143 frozen qokaiin=hare must not gain priority through grammar completion: broad exact-use profile remains unexplained and C0is no exemption. Original experiments unchanged.
