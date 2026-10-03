@@ -1,0 +1,139 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Image-linked held-combination transfer only; no q=NOT translation or independent confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1165_q_visual_combination_transfer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1165_q_visual_combination_transfer/src/validate.py"
+  },
+  "created": "2026-10-03",
+  "dependencies": [
+    "GDT316",
+    "GDT317",
+    "GDT753",
+    "GDT1051",
+    "GDT1090",
+    "GDT1157"
+  ],
+  "experiment_id": "GDT1165",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/METHOD.md",
+      "sha256": "5f770a848426db576b09896b9bbdcfb3b2372a4f041ad73ed676e1ebdc46aec4",
+      "role": "frozen_source"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/PREREGISTRATION.md",
+      "sha256": "1d415f95e6bea3f016abe570c8bd85c0a94791a7de480da7f0d717547dd48c66",
+      "role": "frozen_source"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/src/prepare.py",
+      "sha256": "8e96aa95100f26feca67bae38b73a1665b867497dc5984e15145cc441a90f71c",
+      "role": "frozen_source"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/src/run.py",
+      "sha256": "be70a3b87cd23af7dbdb3b02ab208ac5ac27d1f55ec2ec6c0cc17b5a2cf20c74",
+      "role": "frozen_source"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/src/INPUT.json",
+      "sha256": "30b76359a510cfacdd0a4fb3e741715e51487568378b6817c02f5a8dc33b0135",
+      "role": "frozen_source"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/artifacts/SOURCE_RECEIPT.json",
+      "sha256": "c881b155e3bbe63fb973fe1b6f9b2dced52837b3530a35ba68ba309052745f4c",
+      "role": "frozen_source"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/src/run.py",
+      "sha256": "3c8e7642d4d4f7807f180e20fe49a4f7a53d5253ca7180ff051fc88046d02fa2",
+      "role": "frozen_source"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/INPUT.json",
+      "sha256": "83284e1a3370697e243090bdb3b4c1d6a6ae49f3f411ea1d1706d7bf33d2f54d",
+      "role": "frozen_source"
+    },
+    {
+      "path": "run_gdt012_core_semantic_atlas.py",
+      "sha256": "7db6d7eff0937e9fa67a77356a61e00a0e28a6cd73b2c62146844adea8b8fc1c",
+      "role": "frozen_source"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/PREREG_LOCK.json",
+      "sha256": "7444fcb54f0eddad73567816e57bc125921eb632a843cdf218cc383f71c5a80f",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/README.md",
+      "sha256": "169b70f6979992629851e5e5152c896e9daa234b57d63c0f48c21c56c81fc21d",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/REPORT.md",
+      "sha256": "c206cc6450624357acaffa1f91f8a1f8c0b006c707e8637a4b327dd8a8bb9110",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/artifacts/DY_PROJECTION.tsv.gz",
+      "sha256": "aa86d22346502e3ff73f4a4ae9da24ca9b2737a1f24adc7ade746163f32b1f73",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/artifacts/DY_PROJECTION_initial.tsv.gz",
+      "sha256": "aa86d22346502e3ff73f4a4ae9da24ca9b2737a1f24adc7ade746163f32b1f73",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/artifacts/SEPARATOR_PROJECTION.tsv.gz",
+      "sha256": "0352cbcf3dd72146bb3fbcf5275a5a40a3541275a4ebebfb7b44f83f16e0fff8",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/artifacts/SEPARATOR_PROJECTION_initial.tsv.gz",
+      "sha256": "509a17e655ade326788ad40644942a888fd327919ba1a98ef2d54af42444769d",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/artifacts/SOURCE_RECEIPT_initial.json",
+      "sha256": "3e843b84fc6dea63d1837f9173c8fdf4218a9fab16263391eae3674bbf979cd6",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/src/INPUT_initial.json",
+      "sha256": "88e88971985ba0c612b24cace701d90d9a53e5589829b7b4cb110c3d6d5741e7",
+      "role": "reproducibility_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1165_q_visual_combination_transfer/src/prepare_initial.py",
+      "sha256": "af4d15c9f4d4f66989879fb3ea770a947706b8bd573c6fed4d627723989f0117",
+      "role": "reproducibility_artifact"
+    }
+  ],
+  "question": "Does a base-only visual association predict inverted q-choice across excluded families and physical leaves?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "q_visual_combination_transfer",
+  "status": "REGISTERED_UNSCORED",
+  "title": "q visual combination transfer",
+  "updated": "2026-10-03",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

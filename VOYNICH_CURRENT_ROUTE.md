@@ -2,14 +2,14 @@
 Updated: 2026-10-03.
 
 ## Current work
-Phase: exploration
-Status: checkpoint
-Task: f9v A/B actual authoring completed.
-Latest decision: Both partial;no preferred new word value.
-Working files: production_origin_supply_20261003/.
-Assumptions: C0 assignments are not translations.
-Resume: No further f9v glossary fill;next route unselected.
-Running: None.
+Phase: fixed_test
+Status: active
+Task: GDT1165 q+base transfer.
+Latest decision: 12 pairs;217 events;source checks pass.
+Working files: GDT1165.
+Assumptions: Image-linked inversion would not translate q as NOT.
+Resume: Frozen run,199 nulls,validation.
+Running: Root and validator.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
