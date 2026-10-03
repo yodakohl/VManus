@@ -2,13 +2,13 @@
 Updated: 2026-10-03.
 
 ## Current work
-Phase: workflow
-Status: complete
-Task: Support informed reading hypotheses.
-Latest decision: Lookup shows claim scopes;no semantic veto.
-Working files: tools/lookup_followups.py.
+Phase: exploration
+Status: checkpoint
+Task: OTOR exploratory draft completed.
+Latest decision: OTOR partial;no preferred meaning.
+Working files: production_origin_supply_20261003/.
 Assumptions: Hypotheses allowed;original findings retained.
-Resume: Develop justified readings;check prior consequences.
+Resume: No HAS/POWER export;seek motivated whole reading.
 Running: None.
 
 ## Structural baseline
