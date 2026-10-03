@@ -1,0 +1,52 @@
+{
+  "title": "RAW UNREVIEWED: inherited count-bearing drug names versus live counts of a selected ingredient class",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. A compiler may retain a medicine's count-bearing name while expanding its recipe. Separately, a numerical name may count only one named ingredient class rather than every ingredient. Actual Reichenau and Antidotarium Nicolai entries distinguish these mechanisms. Whole-entry readings must jointly explain title, counted scope, ingredients and any written historical explanation, rather than infer numerals from list length.",
+  "scope": "semantic",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+    "historical_inputs": [
+      {
+        "url": "https://medimanus.chs.harvard.edu/app/en/pharmantica/03-Antidote",
+        "pointer": "Reichenau Antidotarium, Sigerist 1923 p.43; complete diatessaron and diatrionpipereon entries",
+        "observation": "Diatessaron lists four measured drugs followed by sufficient honey. Diatrionpipereon lists black, white and long pepper, nine further measured ingredients, then preparation with honey. The three pepper classes are explicitly named, not selected after counting arbitrary tokens.",
+        "limit": "Institutional transcription of an edition read, not a new collation of the ninth-century manuscript. These are different medicines, not proof of a target prefix family or one universal numerical title grammar."
+      },
+      {
+        "url": "https://www.dbnl.org/tekst/_ant004wsva01_01/_ant004wsva01_01_0017.php",
+        "pointer": "Van den Berg 1917 edition, Dutch entry107 and parallel Latin112, pp.146–149",
+        "observation": "The four-based drug title is retained. Both texts explicitly explain its older four constituents and subsequent additions; the written recipe includes further ingredients. Thus the unchanged numerical title and expanded recipe coexist inside an actual whole entry.",
+        "limit": "Dutch107 and Latin112 are printed in interleaved blocks; they must not be joined as one recipe. No exact chronological relationship to the Reichenau witness is inferred."
+      }
+    ],
+    "manufacture_hypothesis": "A compiler copies a named preparation and its explanation as a unit, while incorporating additions to its manufacturing instructions. A technical name can therefore preserve an earlier recipe state. In another entry, a productive count may instead take a restricted lexical class as its argument. These are distinct production rules, not interchangeable exceptions.",
+    "finite_rivals": {
+      "LIVE_TOTAL": "A productive numerical component denotes the number of all current ingredients under one fixed carrier-inclusion rule.",
+      "LIVE_CLASS": "It denotes the number of current members of a separately written ingredient class; unrelated additional ingredients do not change it.",
+      "INHERITED_NAME": "The complete name identifies a transmitted preparation and retains an older count, explicitly explained in the entry where applicable. Its value is not recomputed from current ingredients."
+    },
+    "written_consequences": [
+      "LIVE_TOTAL must change a count-bearing title when additional counted ingredients are written. It cannot preserve four by silently selecting the first four items or excluding arbitrary additions.",
+      "LIVE_CLASS must reuse the same lexical class relation in the title and in the listed members. A whole reader must account for all occurrences of that class, including ingredients outside the counted set. It cannot assign a different membership set to each recipe.",
+      "INHERITED_NAME permits stable title identity across a changed recipe, but a reading claiming an explicit origin explanation must retain the distinction between former recipe, subsequent additions and present preparation. It cannot turn the explanation into another dose instruction.",
+      "The actual source entries separate total ingredient count from selected-class count and inherited naming. They do not by themselves establish which rule any Voynich form uses. A model that freely declares every inconvenient form an inherited name has no falsifiable prediction."
+    ],
+    "smallest_next_step": "Before selecting a Voynich experiment, use these already accessible complete entries to freeze a compact three-rival contract: what counts as an ingredient, how carriers are treated, whether a class is overtly written, and which title/body equalities each rival requires. For one future whole-reading hypothesis, jointly infer candidate lexical functions and these bindings over complete admitted units; require an actual cross-entry changed-member or written former/current contrast. Do not build a count decoder or a source benchmark from scratch. No native candidate is nominated here.",
+    "known_structure_and_limits": [
+      "GDT608/282/286/318 support directed composition plus whole-form and context effects. They do not establish semantic transparency, numerical components or a universal parser.",
+      "GDT754 removed concrete analyst-generated compound prose from 172 whole-form cards; no old heat, grade, substance or count assignment is inherited here.",
+      "GDT1160 supports source-context abbreviation ranking, not native lexicalization. It motivates keeping whole-entry context available, not selecting one of these three rivals.",
+      "Any concrete native candidate must first receive exact-form frequency, section/leaf dispersion, position, repetitions and counterexample review through existing word profiles. Embedded strings and standalone words, and alternative readers, remain separate. A frequent whole form cannot be named after one rare preparation.",
+      "No numeral, medicine name or plant name has been translated by this proposal. No statistical significance or independent confirmation is claimed."
+    ],
+    "duplicate_review": [
+      "IDEA76 concerns quantity scaling and has an invalid ratio-only discriminator; this proposal neither repairs it nor changes doses.",
+      "IDEA77 concerns participant-number agreement, with missing selected-set capacity. The present source changes the meaning of a transmitted technical title, not singular/plural agreement.",
+      "IDEA426 distributes ana over ingredients; no per-member amount events are manufactured here.",
+      "kn_compositional_transparency.json already proposes generic transparent composition versus idiom. This card supplies a source-written historical explanation and separates selected-class scope from inherited naming, rather than grant arbitrary whole-form overrides.",
+      "GD_PIPELINE_RAW_NAME_MOTIVATION_KEY_20261002.json already owns plant/comparator name motivation. This card preserves a title despite altered manufacturing content, rather than requiring related words for two contemporaneous comparison referents.",
+      "GDT913 fixed lexicon contradictions and GDT914/925/928 literal-parallel stops remain unchanged. No new source is donated as a repair."
+    ],
+    "access": "Route, registry, relevant existing reports and external historical source transcriptions only. No target body/image, reserve, new admission, model fitting or experiment. f84/f84r remain sealed.",
+    "selection": "RAW supply only. Independent root review required before experimental selection. No readiness claim."
+  }
+}

@@ -6,10 +6,10 @@ Phase: exploration
 Status: active
 Task: Ten-hour block from02:27UTC;meaning.
 Latest decision: 1161textile account lacks distinctive support.
-Working files: experiments/yolo/gdt1161_f85r2_textile_instrument_contrast/.
+Working files: research_registry/proposals/production_origin_supply_20261003/.
 Assumptions: Shared iconography remains exploratory;zero word claims.
-Resume: Publish1161result;select a different content consequence.
-Running: Root;bounded source/reading reviewers.
+Resume: Review source intake and competing sense priors.
+Running: Root;source, sense and algebra reviewers.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
