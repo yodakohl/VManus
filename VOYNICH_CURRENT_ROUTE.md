@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-03. Live resume point.
+Updated: 2026-10-03.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: complete
-Task: GDT1152 native f81r.5 seam compared;WE015.
-Latest decision: A/B SPACE,SPACE,INTERNAL;local join support;0words.
-Working files: experiments/yolo/gdt1152_f81r_minim_seam_native/REPORT.md.
-Assumptions: Word boundary unproved;1151unchanged;frequency before gloss.
-Resume: Preserve local seam evidence;no repeat-view or fusion rule.
+Task: Check1152 and retained meaning leads.
+Latest decision: No new test justified;not impossibility;0words.
+Working files: source_supply_20260929/GD_FRESH_IDEA_SUPPLY_20261002.md (Laufenberg proposal).
+Assumptions: Frequency before gloss;message is not word meaning.
+Resume: New content consequence needed;no unchanged audit.
 Running: None.
 
 ## Structural baseline
@@ -24,6 +24,7 @@ layout does not translate pchor/ychor. Confirmed English lexemes: **0**. Hypothe
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
+GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
 W89 paused; W93 naming: NO_CAPACITY.
 W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted.
 GDT913 contradicts all18 frozen IT2a lexicons; original GDT888 non-uniqueness retained.
@@ -48,7 +49,7 @@ Mixed TSVs via selector-first `vmanus-exp query-tsv`; partial grants use
 page-query overreach is exposure only in the scope note. New scored relation packets
 require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
-## Load only the next relevant layer
+## Retrieval
 `./vmanus-work context start` returns this route.
 `./vmanus-work context topic Wortzusammensetzung` returns a bounded live excerpt.
 `context topics` lists eight topics; `context check` checks retrieval.
