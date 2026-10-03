@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: Ten-hour block from02:27UTC;meaning.
-Latest decision: 1162source nominal-priority pilot selected.
+Latest decision: 1162literal pair dominated;no common priority.
 Working files: experiments/yolo/gdt1162_nominal_source_domain_prior/.
-Assumptions: Global noun extensions/genre prior hypothetical;no targetcap.
-Resume: Publish prereg;two source readings;checkpoint09:48UTC.
-Running: Root;independent validator;source readers next.
+Assumptions: Source prior hypothetical;no translated nouns.
+Resume: Publish1162 result;select unequal written consequence.
+Running: Bounded idea producer;root.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

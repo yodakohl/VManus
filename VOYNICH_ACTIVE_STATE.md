@@ -1,3 +1,11 @@
+## 2026-10-03 GDT1162 literal-vessel comparison narrowed; no common priority
+
+[Complete source result](experiments/yolo/gdt1162_nominal_source_domain_prior/REPORT.md): A/B each579windows across57707words. WATER/AIR robustly dominates manufactured BASIN/PIPE at all4works×3scales. Broadened natural reservoirs/conduits reverse the Galen comparison and fail to dominate Quinte; NO_ROBUST_SOURCE_PRIORITY. Retain the narrow conditional source preference without promoting an overall reading, source likelihood or word. All579 observer rows and all12 cells retained; independent accounting PASS. No target access/confirmation;827 unchanged. Ten-hour block from02:27UTC continues until at least12:27UTC.
+
+## 2026-10-03 GDT1162 source-priority pilot registered
+
+[Fixed four-work comparison](experiments/yolo/gdt1162_nominal_source_domain_prior/METHOD.md), public6dd15b237 before annotation:57,707 words/579 base windows, two complete reading streams, six typed concepts and100/200/400-word scales. Question is conditional domain-use priority of newly global WATER/AIR versus BASIN/PIPE nominal extensions, not rejection of GDT827's local sentence. All-work interval dominance cannot average away genre or broadened natural-conduit countercases. No target access or frequency ceiling; no translated word. Checkpoint09:48UTC within continuing ten-hour block ending no earlier than12:27UTC. Source availability was already established by IDEA608; no reopened generic missing-three-works claim.
+
 ## 2026-10-03 GDT1161 textile comparison lacks distinctive support
 
 [Complete observations and decision](experiments/yolo/gdt1161_f85r2_textile_instrument_contrast/REPORT.md): both observers leave all three south textile features uncertain; east frame/winding absent for ROOT but uncertain for B. Both retain bulb/neck/rim geometry. Neither joint support nor strict joint contradiction gate passes: NO_DISTINCTIVE_TEXTILE_SUPPORT_OR_CAPACITY. Do not resolve uncertainty by voting or promote a medical word from vessel geometry. Same exposed leaf, partial expectation separation, zero independent leaves/words; original1043 unchanged. Ten-hour block from02:27UTC continues; select a different content consequence after publication.

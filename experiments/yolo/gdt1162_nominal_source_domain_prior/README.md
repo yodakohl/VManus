@@ -1,6 +1,6 @@
 # GDT1162 — nominal source-domain priority
 
-Status: REGISTERED_UNSCORED. Complete four-work source-only comparison; no target concept scores or translation.
+Status: NO_ROBUST_SOURCE_PRIORITY. See REPORT.md and CANDIDATE_TABLE.md for the completed four-work comparison. WATER/AIR dominates the manufactured pair, but neither overall candidate receives priority after the fixed natural-object comparison. No target concept scores or translation.
 
 Read METHOD.md, ANNOTATION_GUIDE.md and SPEC.json. Raw and extracted full texts remain external. Use an external cache directory:
 

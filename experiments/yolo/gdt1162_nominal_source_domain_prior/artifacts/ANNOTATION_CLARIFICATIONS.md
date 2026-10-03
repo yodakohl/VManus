@@ -1,0 +1,3 @@
+# Annotation-time clarification log
+
+2026-10-03, before observerA_SHORT packet freeze. No counts or category results were supplied in the question. Reader asked whether a definite collective reference to previously enumerated elements counts each constituent. Root did not add a membership-expansion rule: apply the frozen identified-antecedent/anaphora rule, do not infer AIR/WATER from background doctrine alone, and preserve genuine collective-versus-member ambiguity as U with the actual source antecedent and explanation. Independent reader judgment remains; no cross-reader harmonization or gate change. This is not a new automatic category assignment.
