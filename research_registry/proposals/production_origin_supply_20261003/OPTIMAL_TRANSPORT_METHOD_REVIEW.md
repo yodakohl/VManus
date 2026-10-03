@@ -1,0 +1,40 @@
+# Optimal transport for unpaired lexical alignment
+
+2026-10-03. Independent primary-literature review begun12:03:32UTC;20minute maximum. No model download, implementation, source extraction or new target access. Root separately reviews local predecessors and2023FGWEA; this note covers the two requested papers. Recommendation: **a substantive alternative representation/aligner, but not a bypass of the unknown writing channel and not presently a selected target decoder.**
+
+## Exact paper inputs and supervision
+
+| Primary | Inputs, scale and actual training | What the result establishes |
+|---|---|---|
+| [Alvarez-Melis and Jaakkola2018, §§3–4](https://aclanthology.org/D18-1214.pdf) | Pretrained monolingual word embeddings: Wikipedia fastText benchmarks and the harder Dinu dataset. GW uses within-language cosine matrices, uniform word masses, entropy regularization, **no seed translations or supervised model selection**. Optimization uses up to20,000 words; optional projection extends it. Raw embedding-training token totals are not specified here. The supervised Procrustes comparator uses5,000 translation pairs. | Seed-free lexical alignment. Example P@1:81.7% EN→ES on the easier benchmark; normalized GW18.3% EN→FI on Dinu versus33.50% for the compared Artetxe method. Performance is dataset-dependent; geometry is not an automatic correct dictionary. |
+| [Vulić, Ruder and Søgaard2020, §§3–4/Table1](https://aclanthology.org/2020.emnlp-main.257.pdf) | Main mapping experiments use **supervised VecMap with1,000 or5,000 translation seeds**, optionally self-learning. fastText skip-gram:15epochs, window5, character ngrams3–6,15negative samples, learning rate.025. Table1 gives50k/100k/200k/500k/1M/2M/5M/10M Spanish sentences =1.3/2.7/5.4/13.4/26.8/53.7/134.1/268.3M tokens. Three frequency-bin evaluation sets have300 pairs each. | Training size/duration, preprocessing and topical skew substantially affect alignability. Frequent-word performance stabilizes around1–2M sentences; less frequent words around10M. This is not a seed-free low-resource recovery demonstration or a universal minimum-size theorem. |
+
+The2020 paper's §4.2 sentence-count list contains a repeated500k and differs from its figure/Table1 presentation; the table's explicit sentence/token pairs above are retained without inventing a corrected sweep. “Low resource” here includes million-token corpora, not a demonstrated few-dozen-groups setting.
+
+## What is aligned, and what is not
+
+GW compares **relations between vectors** across two spaces. It avoids needing their coordinates to coincide or an externally supplied initial word pairing. Its input still consists of an already selected vocabulary with a vector for each word type. The geometry is learned from textual context, rather than supplied human semantic graph labels. This is richer than seven ingredient nodes' recipe-incidence rates, but semantic usefulness remains empirical.
+
+Assessment/inference for this project: a stable opaque wholeword substitution preserves contextual relations, so GW can in principle align it without knowing any target word first. It does not require a one-to-one hard dictionary as an input: its coupling is soft. However, one vector per type aggregates that type's occurrences. Context-dependent abbreviation, many spellings per lexeme, polysemy, uncertain group boundaries, and productive components can split or mix the intended lexical objects before alignment begins. Balanced transport also assigns its declared mass; it is not an OOV/UNKNOWN detector. Those are representation and writer questions, not problems removed by Sinkhorn optimization.
+
+No sound values, spelling transducer, expansion rules, temporal grammar, or component-to-word assembly are returned by this method. A transport score or coupling entry should not be reported as a calibrated probability of a Voynich meaning. Better contextual vectors could rank working hypotheses, but would not justify treating all raw groups as stable single-meaning nouns.
+
+## Relation to the retained project failures
+
+[GDT1159](../../../experiments/yolo/gdt1159_corema_unknown_lexical_graph/REPORT.md) exhaustively tested a specific marginal-plus-pair-incidence objective with four candidate concepts/seven forms per fold. It failed all continuation gates; unique optima still gave wrong names and every form changed label in the retained score envelope. GW is not a rerun if it introduces full textual-context representations and tests their actual recovery. Merely feeding those same incidence matrices to a transport solver adds an optimization formulation, not evidence that they identify names.
+
+[GDT603/604](../../../experiments/yolo/gdt604_naibbe_frozen_target_attack/REPORT.md) already separate successful conditional source inversion from failed target transfer. [GDT833](../../../experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md) positively recovers complete unpaired source plaintext under a supplied writer. [GDT616](../../../experiments/yolo/gdt616_joint_child_feasible_binding/REPORT.md) and the complete [GDT906](../../../experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md) exclusion remain unchanged. No original failure is repaired by citing modern alignment methods. The bounded lexical route screen did not locate a direct GW experiment; that is navigation, not proof of novelty.
+
+## Smallest control with a changed decision
+
+A useful *conditional* control would use the already owned Nuremberg editions: one complete book's written groups as the opaque side, other complete books' expanded text as the unpaired reference, and expansion pairs only for locked evaluation. Train **context-only** word vectors independently; remove shared spelling/identity cues and disable subword-name features, since random anonymous IDs would otherwise create artificial morphology. Declare a small frequency-selected vocabulary and keep all its occurrences, gold mixtures and out-of-reference expansions; publish its coverage of the whole book. Repeat the fixed book partitions rather than choose the successful book. This is an editorial-representation control, not native-sign collation.
+
+Compare GW against frequency-rank assignment and a fixed simpler contextual-distance/graph matcher with the same vocabulary and information. Fix model capacity, transport masses, normalization and budget before gold. Refit the entire method in context-destroyed controls preserving type frequency; retain all mappings and ambiguities. If written context does not support repeatable lexical geometry, a rotated copy of the same learned space is only an engineering fixture and cannot substitute for this test.
+
+| Outcome | Changed action |
+|---|---|
+| Independent unpaired context recovers exact source expansions beyond both baselines across fixed partitions and ambiguity remains honestly bounded | Retain GW as a ranking component for an explicitly hypothetical **stable-wholeform** target account; separately register a complete candidate comparison. No writing-channel identification or source-gloss import. |
+| Gain disappears under corpus separation, source-sized scarcity, or matched controls; or labels remain unstable | Stop this GW/representation route. Do not enlarge a model or repair the source vocabulary automatically. |
+| Only favorable large/pretrained or supplied-identity vectors align | Retain that conditional engineering result; no manuscript-scale inference. |
+
+This control changes method priority only if a concrete stable-wholeform candidate comparison is waiting. It does not resolve the more ambitious joint unknown-writer task in [the unpaired predecessor review](UNPAIRED_DECIPHERMENT_PREDECESSOR_REVIEW.md). With no such target comparison currently specified, do not implement the control merely to obtain another positive benchmark. Exploratory readings require no confirmed-word prerequisite; their assumptions, complete coverage, paid residuals and distinguishing consequences still must be stated.

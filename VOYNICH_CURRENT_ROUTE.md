@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: Ten-hour block02:27–12:27UTC minimum.
-Latest decision: Unpaired recovery known;target writer unknown.
+Latest decision: 1163 partial;static disjoint roles contradicted.
 Working files: research_registry/proposals/production_origin_supply_20261003/.
 Assumptions: C0 accounts allowed;no new confirmed meaning.
-Resume: Publish1163 registration;release author and diagnostic review.
-Running: Root;author and reviewers await release.
+Resume: Publish1163;assess unpaired contextual ranking feasibility.
+Running: Root publication;bounded feasibility reviewer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
