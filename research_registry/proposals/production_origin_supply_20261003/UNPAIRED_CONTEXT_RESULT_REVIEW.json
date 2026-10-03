@@ -1,0 +1,74 @@
+{
+  "record_id": "GDT1164",
+  "scope": "method",
+  "verdict": "nonconfirming",
+  "reviewer": "root_after_independent_source_numeric_score_validation",
+  "assessment_basis": "complete_preregistered_source_context_ranking_and19_pipeline_nulls",
+  "reason": "Unknown marked-word candidate ranking fails all4gates: G2.042% vsF4.443% andB11.832%,gain−9.790points,0/4books,nullrank1. Capacity valid, not a missing-data outcome.",
+  "blockers": [
+    {
+      "code": "all_promotion_gates_failed",
+      "detail": "All156markedtypes/47342sites and all80worldjobs retained;oracle87.561% is not an achieved score.",
+      "evidence": [
+        "experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md",
+        "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_information_and_falsifier",
+        "change": "new_design",
+        "detail": "A genuinely different independently motivated source of constraints and predeclared discriminating test; not retuning this representation or optimizer.",
+        "evidence": [
+          "experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More restarts or entropy/optimizer tuning",
+      "Larger corpus or smaller vocabulary as automatic repair",
+      "Promoting B after G fails",
+      "Source-only accuracy treated as a Voynich gloss"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1160",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1159",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT167",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT190",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md"
+      ]
+    },
+    {
+      "target": "IDEA000908",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md"
+      ]
+    }
+  ]
+}

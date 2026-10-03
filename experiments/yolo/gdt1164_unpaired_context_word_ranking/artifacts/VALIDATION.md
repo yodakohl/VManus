@@ -1,0 +1,15 @@
+# GDT1164 independent validation
+
+**PASS: 12,320 checks**, excluding duplicate counting of the initial observed-capacity review. Source capacity, numerical outputs and exact scoring agree; the scientific result is **NO_SUPPORTED_SOURCE_CONTEXT_RANKING**.
+
+The validator imports neither builder, fitter nor scorer. It independently reconstructed original-table record order, all marker/site ordinal and line joins, complete-record panels, raw vocabulary selection, opaque permutations, eligibility and exclusion accounting. All four observed folds meet capacity. Every numerical array in the observed payloads matches exactly; all 76 null geometries match within1e-12 after independently recreating the fixed token shuffles and record slots. No null world was omitted.
+
+The small four-index GW calculation agrees with the matrix expression within3.4e-16. An independent analytic-gradient check against central differences had maximum error1.1e-10. All164 selected plans, objective values, complete rankings and column masses were reconstructed; all492 restart records have correct seeded initialization hashes, finite component accounting and minimum-objective selection. F reuse preserves its exact inputs.
+
+A separate NumPy analytic-gradient Adam implementation replayed the selected start for F/B/G on each observed book:12 full200-step replays. All complete rankings agree. Maximum row-probability difference is1.66e-12. This is not a claim to have independently rerun all492 optimization trajectories or proved global optimality.
+
+After explicit root gold release and the complete prediction lock, an independent Fraction scorer reconstructed all240 fold/world/model score records, all156 selected marked types and47,342 selected sites. Exact expansion mixtures, OOV/multiword/empty errors, outside-fit denominators, candidate collisions, oracle ceilings and all19 null gains agree. Macro top5: F4.442867%, B11.831972%, G2.041712%; G's gain over the stronger baseline is−9.790260 percentage points. The inclusive null rank is1; all four promotion gates fail. The post-lock oracle top5 ceiling is87.56127%, so candidate absence alone does not explain G's low score. No retrospective promotion of B is validated.
+
+Timing and limits: the validation plan was written locally before source inspection but was not included in the initial public registration commit. The original capacity receipt remains byte-frozen; VALIDATION.json records its hash and the earlier validator-code hash. Subsequent code extends that validator rather than rewriting the capacity decision. Serialization and fitter code were inspected after independent equations were implemented. Source expansions are editorial truth for this control, not identified Voynich words or calibrated target probabilities. No target/reserve data, model download or contact occurred.
+
+Reproduce with `src/validate.py --runtime <runtime> --all-worlds`, then `--fits`; only after the existing gold-release condition, run `--scores --release-gold`; `--summary` binds the retained phase receipts. The original CAPACITY_VALIDATION.json is preserved; capacity replay writes a separate CAPACITY_REPLAY.json.

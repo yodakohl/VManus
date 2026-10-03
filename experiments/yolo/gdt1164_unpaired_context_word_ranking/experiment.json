@@ -1,12 +1,12 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "",
+    "large_artifact_justification": "80 complete compressed prediction files retain492 restart rankings and164 selected probability plans for reproducibility; each file below5MB.",
     "max_inline_bytes": 5000000
   },
   "claim_ceiling": "Source-only editorial-representation word-candidate recovery. No Voynich writer/language, translation, calibrated target confidence or independent semantic confirmation.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt1164_unpaired_context_word_ranking/src/run.py",
-    "validate": "python3 experiments/yolo/gdt1164_unpaired_context_word_ranking/src/validate.py"
+    "run": "See README.md for capacity, null geometry, fit-lock and explicit score stages",
+    "validate": "See README.md; src/validate.py independently audits geometry, fits and scores"
   },
   "created": "2026-10-03",
   "dependencies": [
@@ -64,49 +64,574 @@
   ],
   "outputs": [
     {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/CANDIDATE_TABLE.md",
+      "sha256": "3afae3cfa912d535600fa841da654fb227cf44dfac3f454fb6d8d446e8339592",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
       "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/METHOD.md",
       "sha256": "ec586ba8368ba94ddc86673381f5d73a4002b43a3f70bc600bdae6227d4da497",
-      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
     },
     {
       "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/PREREGISTRATION.md",
       "sha256": "85f614f4e2abf10425407942fb4e51b3e58f2db8d127824f92f6734920246386",
-      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
     },
     {
       "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/README.md",
-      "sha256": "509c2b697298c4609d4c70ab0f0484edfe67b513a7df9c3ddf2185fb023c4686",
-      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+      "sha256": "4f3c2cadaaca514d6c51da47a1449ca43e4d88f90a7046e5b6e56d7ccbeccd6e",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md",
+      "sha256": "b14520a2cf26ba38d3138440607fc8d801bc6519282e4a511cd068c910783ab9",
+      "role": "primary report"
     },
     {
       "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/SPEC.json",
       "sha256": "60c59eb8e0b6e417df86a8aca2903062f3e43557ed36ced2c256d379b801dc27",
-      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/VALIDATION_PLAN.md",
+      "sha256": "e0364711c5f0c2ab4dff3daff142bf181cbaf340e1b6ee35714834af61b371f6",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/ALL_SCORES.json.gz",
+      "sha256": "a9ed14900f7a86ae92be64c081997a77689d278055e87c5df5ec8691f32f48e8",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/BUILDER_AUDIT.json.gz",
+      "sha256": "60ad212ede6d2037fbb4abf261198da634c868ffd132619faf847a22c9ead581",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/CAPACITY.json",
+      "sha256": "2a209763309c0c23278bf6c9a25a1c299c504ef7cb60acc6ae6cc80f1da0fa0f",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/CAPACITY_VALIDATION.json",
+      "sha256": "13f8d8fc074a506813c99f938a77d7d21e26c4a1652ec1eab4d57938301283d2",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/EVALUATION_SITES.json.gz",
+      "sha256": "ca4ab3408fed1963ad64f66dfc7ede302776878b9aa60498c72f3114b5208fa1",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/FIT_RELEASE.json",
+      "sha256": "a442529deb93b7173646d06f8e519fde24173c3510410939d96b92a73d75471c",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/FIT_VALIDATION.json",
+      "sha256": "4a52501f82bbc70a342c6a8192ae32efbf2ced3387f22c8113d3498a8358ec9a",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/GEOMETRY.json",
+      "sha256": "1b9cab1cf0fcfd54cc0235bccce3e39f2c3f86feb8f97668872c8e97abcf2cc5",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/GEOMETRY_VALIDATION.json",
+      "sha256": "8d52a587d116faebb41c920cd845b25975176ff0ff3adbb8ca7fe45a1e75345f",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/GOLD_OPENING_RECEIPT.json",
+      "sha256": "6a5f73ebbe3e05011b7297486b8b1df3631b89041b173331d34b9fa231773ceb",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/GOLD_RELEASE_AUTHORIZATION.json",
+      "sha256": "b32d7840a4ae5b800173090976c6396de2de31f8cbd44542309208f7d8da9b14",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/NUMERIC_FIXTURE.json",
+      "sha256": "2cb910442e33f71e2ea0dd48e257fa7b94daf7d1e56cf22a6915260081dc9a58",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/PREDICTION_LOCK.json",
+      "sha256": "171a1374b5044242e20d74d89dffc0f42a1c1c0e9e90394899a10940c318d75e",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/PREFIT_REVIEW.json",
+      "sha256": "5fab368946c2477fdb643ee838a1366e30c681be61227176e9c7de55f1aee744",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
     },
     {
       "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/README.md",
-      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
-      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+      "sha256": "6a3e0e3878fe2ef576038a4d3643a3e7d2e36fbe5d3fbabbcd9185471d38f829",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/RESULT.json",
+      "sha256": "47d494814e199137e3350c1ba657263411df7438225f259283f8f76aca0fb41d",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/SCORE_VALIDATION.json",
+      "sha256": "1ea24054e2aada610e219effbc932434c19f58b27485ec8fbad8f62d22eb4c14",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/TYPE_RESULTS.json.gz",
+      "sha256": "898266f7d5fe4eaaf577ec5bd2feb49496ade450b3ec84508a8f44df64fc552e",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/VALIDATION.json",
+      "sha256": "05dd91a84ea034b836563f766efc3738b2e773a09a7be9128987e4f25ab450ea",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/VALIDATION.md",
+      "sha256": "3f6a183c14e06f73acd38dfa6f0c38b00338dc41ce29ffd70fdd44d7f1c36d20",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_00.json.gz",
+      "sha256": "5d709dbba7afdb787c7d1f60c9dd7622f6c592ee210ccd8ef4396f455343a834",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_01.json.gz",
+      "sha256": "b71a3ae108754202834b16c9a1a14b92437d8b9c60492a408ddd3abd55b2dca8",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_02.json.gz",
+      "sha256": "59c54fd47270b43c6d48b0d40eb2e5046c3089fab16ce2cad00cbd2c284d2e12",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_03.json.gz",
+      "sha256": "d830131ef98a70a93fc1dbd4f9a9d7a03573e3033e0724edc865382032c8bfab",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_04.json.gz",
+      "sha256": "4c79b9c155ba749ee22d9d06551cdd50586fea2ff33cb8af065c006afb52efb4",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_05.json.gz",
+      "sha256": "610df5271fd5d4e340693d8dda84469381933811e1d85f5fc8bb76fbab8c3eea",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_06.json.gz",
+      "sha256": "9d7e5e69d84e1e64bd0cf13c8de87460e942f03c3a2dc87c9a0344b546621a4e",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_07.json.gz",
+      "sha256": "fc54543243852e5a8669156ee1870f0c07b4719b71f309b2778e09ee7a63370e",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_08.json.gz",
+      "sha256": "1d92198c8049e4f38cfc6d539d55d2e5f235ed4dbafb4e8609f523be8d2b9dbd",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_09.json.gz",
+      "sha256": "93a84bd595bff83dee1f237e52c71b82a81ceb0702c8dbc572a96064505eafa0",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_10.json.gz",
+      "sha256": "532acbf3c44aa56ba3e05dc5feb25c93248c1f445d7abc4034b2cb8864e38105",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_11.json.gz",
+      "sha256": "965cb5504c955b42fc819b139194d92757619ba9e33b59cecb9035849cbe8ba5",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_12.json.gz",
+      "sha256": "37900066b375a50cd07ffe7980f4fbe787e7d314d445a2a33845c271f922e710",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_13.json.gz",
+      "sha256": "c2a639393d90b6b8cd0f21d9d3d5fcb9af2f4c007f3c36c436c9562b76814e2d",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_14.json.gz",
+      "sha256": "d731a3566e9396117c50224761b6e15e107176b19a536c103751bec714663a4c",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_15.json.gz",
+      "sha256": "96b5bf8e20b8c68f8897011cdccd9ca35c141ef1cbb7a6ea6ab08480d46c99ae",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_16.json.gz",
+      "sha256": "ff7e7183a14de101142d6098a5b413197efcde0f0c6a0bbf53ca6f72861e671f",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_17.json.gz",
+      "sha256": "4dce506bdb1e328f1fb95a6ecaa6d47f4125443f8a894992ad9d9bc4aec84b00",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_18.json.gz",
+      "sha256": "96791d1d5657ddf38ee153f514da2e10a122a96de2cb7babaabc7aa75fbdcafe",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_0_world_19.json.gz",
+      "sha256": "bd779f7f0dfef9eec7331f949edb4ea74c193fe61a3777cfbc519b319a60cf42",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_00.json.gz",
+      "sha256": "6044707cf331421dae52a3b8cf8a409e951f15c402a02c4013fd22f3abd01022",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_01.json.gz",
+      "sha256": "02df37d2165dd99e54bbe70a0458031494ba98b7ff3170383ca1e8580725a026",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_02.json.gz",
+      "sha256": "6bfefe75902427864c2d037b66a8f08c515970051c9ead50994be081337be74a",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_03.json.gz",
+      "sha256": "4402ecb655aa7e3b388b917acbd588256717b1fcf5b3575aa6468c7fb6c460b8",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_04.json.gz",
+      "sha256": "32b87f4780bf7c3e1662a53eabbac16cff974be4178c0218dd0bb137dc81d481",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_05.json.gz",
+      "sha256": "d771d591a84f1c555b13cde92f2f2b82eedfee56c82f09c88f47063f476d57c2",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_06.json.gz",
+      "sha256": "1610c3d03e7cb308b67293799a9cc05b60d992dad69488a2c6e887f50d966074",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_07.json.gz",
+      "sha256": "230818f1edc91afbcc806ff5806cce8014d87dfa11731aa4f84810119ee5e0ea",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_08.json.gz",
+      "sha256": "cce01caea8d356eea26da430281e4e699ab5cd2d72ea35f26bb6f20de8465a17",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_09.json.gz",
+      "sha256": "d51655af976deee9dc1c050f89050015b2264493b6a25156939082d6f5ac1509",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_10.json.gz",
+      "sha256": "5924fc2fb6128f3621de6d71e661e0b888f2c36f9c48b6b3e76b7321f23d0e81",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_11.json.gz",
+      "sha256": "9933298130dcf668ea218a4d4869a80ab74b4dcce8c7b275e7e321df26c9e8df",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_12.json.gz",
+      "sha256": "05f8322de7500331128d5a4c1eaf887eb2f4a87c1965d33a04c4219a7e4e00c6",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_13.json.gz",
+      "sha256": "a0a5902a0e147a1ec4b7f3bc593d4f6627cf1d01e25727f38b65b90435c3ed22",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_14.json.gz",
+      "sha256": "ad0640911e4e6bece10d493c0d1e6a7b908410da743e60518501ad650bceef1c",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_15.json.gz",
+      "sha256": "3be602ed2d0e872e137c312826548664b6190f5a59b3fad0a6213e02b056cf93",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_16.json.gz",
+      "sha256": "2e546783975ae3d65a100eaf405c84a77374b893835830939c766da4426e439f",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_17.json.gz",
+      "sha256": "b3ca158ea6db621148de05fb01614d95e55dd3a9c26a363c2e378892f3acfe4f",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_18.json.gz",
+      "sha256": "36012161cf571f63b457036e4cf18cb0ed9980506af76d368fd1bd7454d6b205",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_1_world_19.json.gz",
+      "sha256": "d6917d3bfff4edbb66f3b3ca132f94beabe76a0d1dd1cccc4e69110aedea8804",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_00.json.gz",
+      "sha256": "c2751d98cbbf4e22f5d1821386d6643e0cbd86d60f39b97545c12a95146c5d83",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_01.json.gz",
+      "sha256": "f185abc38a593f29fbb467fe00810a98335b9f5150ed4d9554aeea17efde7921",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_02.json.gz",
+      "sha256": "5b52be8b0024d41b67c9b033cbe07b99f2a6d8637f770e687baf233dfb2ddfca",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_03.json.gz",
+      "sha256": "1849a9bcdc56a94beaa5c34ed23eee99dfb68872d24dae6fd97f540513c4a1d8",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_04.json.gz",
+      "sha256": "c742179bbe70b5defcb4875bd4b4649e6441c763a0a4664c09d2ca3d2e456e9c",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_05.json.gz",
+      "sha256": "f570511352a849702af7555fa322957bab32530e8cfc5b8399434858374dcaa7",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_06.json.gz",
+      "sha256": "3e32e67f8935769b8fe43043093586271208a8fa370ea440e4ed83309ab554b1",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_07.json.gz",
+      "sha256": "d75ffa3e1ba802e83c87099cff11032676b5b7728a4d9887d3550f539e738fef",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_08.json.gz",
+      "sha256": "cc612027827026791b1cb848a3ba1904f561a05475dea89a07d770b9e78798f9",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_09.json.gz",
+      "sha256": "f5e5810c358aef7195226a9a485f23f6877155b282314f9819da11e5afb8d6af",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_10.json.gz",
+      "sha256": "090d3758598cf3d783cd66bd6995dd0803ee5689b177676fb0e76af5014aa965",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_11.json.gz",
+      "sha256": "fd0eeeecd34e90cf146764b55567ba58895f4504f5fcbd977bc81b0687a6acbe",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_12.json.gz",
+      "sha256": "03dcf5d6b7bc6b2e271d89aee008dce0144acc9fd63b492d3ae0e0becc067456",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_13.json.gz",
+      "sha256": "1e2429df66c4fdd800cf2a404dbc1615aba52cd3f7414bcacad565e0a2539989",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_14.json.gz",
+      "sha256": "6d51e30cd9fa07032aeb914aa9d085c778b5bef193ebc43f2a6c5c57a2c37451",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_15.json.gz",
+      "sha256": "de7ac4e4ffa24d4ce48df01d645db3de5eb4cb27446c77a3d054414f34528637",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_16.json.gz",
+      "sha256": "b42e6eb22193907da758112d6dcd79f2416f4dac1bb2a1b71f4781a90bfd951c",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_17.json.gz",
+      "sha256": "8e5043e9a83cb02e0a7a09f1c77a7a9291355b889d4004b5c1707335f230d26a",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_18.json.gz",
+      "sha256": "3ac04e74c6bfd0c2295e7ca77315888d762744cce9ad20a3637648fbd88e09f8",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_2_world_19.json.gz",
+      "sha256": "46eb4cf72eb386ee59a95679c43b4b96aab5388425dea42501a7852f92e46b73",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_00.json.gz",
+      "sha256": "3116ff867151d964c8ecabfbb168cde49935d4bc2dd7fde9142a527448846007",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_01.json.gz",
+      "sha256": "2f474be456f7ca2222204a595a3f93ded8c3b44f0de2e7b32d2f0dca3ffe5c5f",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_02.json.gz",
+      "sha256": "7af11b8b059f46040390a65dfcbfbe922761e2af7586ca28a0d9e516468a815c",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_03.json.gz",
+      "sha256": "f6d1b6deb5e7f869df8a7fb55e147825ceff92a0a86197918844fd62065527ba",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_04.json.gz",
+      "sha256": "059b7bb8b12dcb5c1461469ad871eca051b804d6a93bb9153961f361c44f32dc",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_05.json.gz",
+      "sha256": "fe3357984f1eb55304d182cdd5c1f7bf1608748a161a92ea55cc5be836f3a574",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_06.json.gz",
+      "sha256": "48330cde3c3306e88758ba86cb352d54bdf703f39176257369d7f6ec98bc564f",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_07.json.gz",
+      "sha256": "3c22de1e61bc52a1e84ab5e65df98cbc54c93d69d6dcd8825422f38c7787e34a",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_08.json.gz",
+      "sha256": "b3ca3874e9bf0a33b8bd0d3e5a734dafbf2f8cc46a160484dedf5ab1678a46ab",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_09.json.gz",
+      "sha256": "7a544c29b8f2cd304eaf93b8f52172a9a1e602bb92dd0b57e111ff6c749866c6",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_10.json.gz",
+      "sha256": "07280d9b766954e759bad77df89f589b88d8854c53178155d97a8fbce16790a9",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_11.json.gz",
+      "sha256": "d659d8f306936ab74ee90603fff1a132a80550d011ab526d52049b66a0210d9e",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_12.json.gz",
+      "sha256": "7f24588230f9b0e71dee323194c09a27d9e540d14c11d5104f278b83a814d93c",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_13.json.gz",
+      "sha256": "adf26109c399f375e0d71dd2245dec4ed2611f29e420495e58b89b6d0ffb468f",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_14.json.gz",
+      "sha256": "8a8da4e5deb343502aaaaa63a4485808c25bd3054ce074b77925f0e314636f5d",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_15.json.gz",
+      "sha256": "f8997c54f26a7e078c30cc510592650ab98bdeda7127322cf8a907fe55fb5b4b",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_16.json.gz",
+      "sha256": "bcdcaf1404412903776e8a3b6952b5050fc35179d74ab9c8455acc62b1d0e9bf",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_17.json.gz",
+      "sha256": "50e74ec051ee7e1498f5e8bb4ad4cecc705a81fe5937b50da41d323ebea3e8b4",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_18.json.gz",
+      "sha256": "2c7c619e44e19606712a65892d2e80d9e8777064b01495080f1c1fce6171bf9a",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/predictions/fold_3_world_19.json.gz",
+      "sha256": "4ccdcb88e718b5cf1be64d76b09c3727b3e6e2e2e58af19047baddaa343b2c5a",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
     },
     {
       "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/requirements.txt",
       "sha256": "4680e41c5be073f82ec34f6149d7e150e7d6304a5240705b9613233e654df9f3",
-      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
     },
     {
       "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/src/SOURCE.json",
       "sha256": "55f8495eda4ee58e328597e7c27fb6db672c5c71e5242758ae5e0aa90843a02f",
-      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/src/fit.py",
+      "sha256": "eab1f503fa02386fb1246cd0879390ea558f5ee889a1ab39b95367daafc1f495",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/src/prepare.py",
+      "sha256": "9da923fcf96ceb639cefb22d96f96fb63ebc062ad01008096bd3f6112c3ccf60",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
     },
     {
       "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/src/run.py",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
-      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+      "sha256": "cec43f9ac691e4a9cbaa1354c7e09b790720b85e39a1d581712004d745c6088e",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/src/score.py",
+      "sha256": "cbcc14b4332ae34147da2bfef2ed739a4fa48639afa846c6d81a6a20aded1bda",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
     },
     {
       "path": "experiments/yolo/gdt1164_unpaired_context_word_ranking/src/validate.py",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
-      "role": "registered method/spec/source or explicitly unimplemented runner stub"
+      "sha256": "4b2fcbfe0cc54c2a048962a80b0c511de06600b46b96b766ed7ac5d4527457ec",
+      "role": "reproducibility source, fixed contract, prediction or result artifact"
     }
   ],
   "question": "Can unpaired full-context geometry recover unknown frequent marked-source lexical candidates beyond frequency and contextual fingerprints at a32k-group budget?",
@@ -116,11 +641,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "unpaired_context_word_ranking",
-  "status": "REGISTERED_UNSCORED",
+  "status": "NO_SUPPORTED_SOURCE_CONTEXT_RANKING",
   "title": "unpaired context word ranking",
   "updated": "2026-10-03",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1164_unpaired_context_word_ranking/artifacts/VALIDATION.json"
   }
 }

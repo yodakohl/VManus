@@ -3,13 +3,13 @@ Updated: 2026-10-03.
 
 ## Current work
 Phase: exploration
-Status: active
-Task: Finish1164;ten-hour minimum reached.
-Latest decision: 1163 partial;1164 context-only source ranking selected.
+Status: complete
+Task: Ten-hour block completed;0translated words.
+Latest decision: 1164 ranking failed;1160 supervised gain retained.
 Working files: experiments/yolo/gdt1164_unpaired_context_word_ranking/.
-Assumptions: No supplied expansion inventory;source success is not meaning.
-Resume: Publish contract;validate blinded capacity before fits.
-Running: Builder,fitter,validator,ideas.
+Assumptions: Source controls do not establish Voynich meanings.
+Resume: Distinct constraints needed;no1164 tuning or B promotion.
+Running: None.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

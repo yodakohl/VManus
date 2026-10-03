@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "phase_statuses": {
+    "CAPACITY_VALIDATION.json": "PASS",
+    "GEOMETRY_VALIDATION.json": "PASS",
+    "FIT_VALIDATION.json": "PASS",
+    "SCORE_VALIDATION.json": "PASS"
+  },
+  "checks_excluding_duplicated_observed_capacity": 12320,
+  "geometry_checks": 360,
+  "fit_checks": 1488,
+  "score_checks": 10472,
+  "receipt_sha256": {
+    "CAPACITY_VALIDATION.json": "13f8d8fc074a506813c99f938a77d7d21e26c4a1652ec1eab4d57938301283d2",
+    "GEOMETRY_VALIDATION.json": "8d52a587d116faebb41c920cd845b25975176ff0ff3adbb8ca7fe45a1e75345f",
+    "FIT_VALIDATION.json": "4a52501f82bbc70a342c6a8192ae32efbf2ced3387f22c8113d3498a8358ec9a",
+    "SCORE_VALIDATION.json": "1ea24054e2aada610e219effbc932434c19f58b27485ec8fbad8f62d22eb4c14",
+    "PREDICTION_LOCK.json": "171a1374b5044242e20d74d89dffc0f42a1c1c0e9e90394899a10940c318d75e",
+    "RESULT.json": "47d494814e199137e3350c1ba657263411df7438225f259283f8f76aca0fb41d"
+  },
+  "validator_sha256": "4b2fcbfe0cc54c2a048962a80b0c511de06600b46b96b766ed7ac5d4527457ec",
+  "independent_numerical_fixture": {
+    "direct": 0.5964884507643619,
+    "matrix": 0.5964884507643616,
+    "row_mass_error": 1.1102230246251565e-16,
+    "finite_difference_gradient": [
+      [
+        0.11518296894053037,
+        -0.020133883726902724,
+        -0.09504908521362765
+      ],
+      [
+        0.12194407589261047,
+        -0.10428130664541513,
+        -0.01766276913617304
+      ]
+    ],
+    "analytic_gradient_max_error": 1.0139478839876759e-10,
+    "agreement": true
+  },
+  "initial_capacity_validator_sha256": "af4cd72241a7dd3e17bc991e42095dc300b734a5c96c8fbbd906ba3f31e73c9a",
+  "initial_capacity_receipt_preserved": true,
+  "independence": "No builder/fitter/scorer imports. Original source/panel/site/geometry reconstruction, separate NumPy analytic-gradient Adam, and separate Fraction scoring. Serialization and fitter implementation inspected after independent equations were written.",
+  "scope": [
+    "All80 observed/null geometries and token-count-preserving seed constructions",
+    "All164 selected transport plans, objectives and complete rankings",
+    "All492 restart record initialization hashes, finite objective/component records and minimum selection; not independent replay of all492 trajectories",
+    "Twelve complete observed selected-start Adam replays with identical rankings",
+    "All240 fold/world/model score records, all156 selected marked types and47342 selected sites, exact null arithmetic"
+  ],
+  "limits": [
+    "Prospective local validation plan was not part of initial public registration commit.",
+    "Capacity receipt predates extended validator code and remains unchanged; original hash retained.",
+    "Source expansion labels are editorial representation truth, not Voynich meanings.",
+    "Nonconvex fixed optimizer was checked, not certified globally optimal.",
+    "Source negative result does not reject every context representation; no unregistered baseline promotion or tuning follows."
+  ]
+}
