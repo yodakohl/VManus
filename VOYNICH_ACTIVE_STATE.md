@@ -1,3 +1,7 @@
+## 2026-10-03 IDEA897 and865 concrete input limits
+
+[Known-phrase owner inventory](research_registry/proposals/production_origin_supply_20261003/IDEA897_OWNER_CAPACITY_RECEIPT.md):23of162 published ZL occurrences join791;22page-only, one deeprecord without component binding. Realotol/okal label intersections do not instantiate participant crossover; no targettest. [Native source alignment](research_registry/proposals/production_origin_supply_20261003/SOURCE865_ALIGNMENT.md):all11Greek source words plus3additional complete-word regions retained; upper/lower marks locally visible, complete diplomatic reconstruction and doublemu unresolved. No Greek targetkey or decoder.1143 frozen qokaiin=hare must not gain priority through grammar completion: broad exact-use profile remains unexplained and C0is no exemption. Original experiments unchanged.
+
 ## 2026-10-03 IDEA895 partial whole-context authoring
 
 [Two complete-position accounts and root assessment](research_registry/proposals/production_origin_supply_20261003/IDEA895_WHOLE_ACCOUNT.md): f107v.35–36 has20ITgroups;12proposed classes cover13positions,7remain UNKNOWN. TOKEN versus PATTERN gives conditional USE(b)/USE(c1), but no independently observed written difference; deletion invalidates both proposed unary valencies. Retain partial readings, no selected grammar or word, no fixed experiment. No new image access; alternate readers and scope gaps retained. Next bounded review: IDEA897 known phrase families versus genuinely bound participant classes, with915/916/981 unchanged.

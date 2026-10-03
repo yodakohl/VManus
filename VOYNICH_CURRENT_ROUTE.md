@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: Ten-hour block from02:27UTC;meaning.
-Latest decision: 1159fails;895partial, no written discriminator.
+Latest decision: 897no crossover;865partial;1143notpreferred.
 Working files: research_registry/proposals/production_origin_supply_20261003/BLOCK_DECISION.md.
 Assumptions: Source recovery is not target homology.
-Resume: Check897knownphrases against actual owner binding.
-Running: Root10hblock;897capacityreview;boundedideas.
+Resume: AssessFU suffix consequence and role-coupling design.
+Running: Root10hblock;two bounded designreviews.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
