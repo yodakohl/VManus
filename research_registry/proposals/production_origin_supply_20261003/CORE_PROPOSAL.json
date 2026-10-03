@@ -1,0 +1,2237 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN_PROPOSAL_BEFORE_ROOT_REGISTRATION_AND_AUTHORING",
+  "created_utc": "2026-10-03T11:38:54.207557+00:00",
+  "scope": "Exploratory whole-passage C0 authoring; no meaning selection or fixed target test yet",
+  "input": {
+    "primary": "IT2a f83r.25–30, all32 groups",
+    "native_packet": "experiments/yolo/gdt1137_material_process_type_return/artifacts/NATIVE_SOURCE.json",
+    "native_groups": 97,
+    "native_readers": [
+      "ZL3b",
+      "IT2a",
+      "RF1b"
+    ],
+    "completeness": "ZL has complete paragraph flags; IT end and RF paragraph flags remain unconfirmed",
+    "groups": {
+      "25": [
+        "qokeedy",
+        "qolchey",
+        "qokeey",
+        "qokedy",
+        "chedy",
+        "otal"
+      ],
+      "26": [
+        "otchey",
+        "qokeey",
+        "qoky",
+        "tol",
+        "shedy",
+        "qokylddy"
+      ],
+      "27": [
+        "dain",
+        "chedy",
+        "qokeedy",
+        "shckhedy",
+        "shckhedy"
+      ],
+      "28": [
+        "saiin",
+        "cheeky",
+        "sheey",
+        "qokedy",
+        "shedy",
+        "oldy"
+      ],
+      "29": [
+        "solchedy",
+        "cheey",
+        "qody",
+        "kesd",
+        "oldy"
+      ],
+      "30": [
+        "sokeedy",
+        "qokeedy",
+        "qoky",
+        "sairn"
+      ]
+    },
+    "native_packet_sha256": "40fab9cdfced7433f9b250d811bdcc654b3e5c17370eeb43d156f9bc474d6b2d"
+  },
+  "whole_word_licenses": {
+    "chey": {
+      "root": "UNDERSTAND",
+      "role": "ACT"
+    },
+    "cheey": {
+      "root": "UNDERSTAND",
+      "role": "ACTIVE"
+    },
+    "chedy": {
+      "root": "UNDERSTAND",
+      "role": "RECEPTIVE"
+    },
+    "shey": {
+      "root": "LOVE",
+      "role": "ACT"
+    },
+    "sheey": {
+      "root": "LOVE",
+      "role": "ACTIVE"
+    },
+    "shedy": {
+      "root": "LOVE",
+      "role": "RECEPTIVE"
+    },
+    "qokeey": {
+      "root": "LOCAL_PRINCIPLE_VARIABLE",
+      "role": "ACTIVE",
+      "meaning": "corresponding active bearer",
+      "binding": "unify principle variable with written rooted receptive argument in same QOKEDY construction",
+      "no_segmentation": "not QOKE+EY"
+    },
+    "qokedy": {
+      "meaning": "binary directed correlative relation",
+      "arity": 2,
+      "arguments": "one ACTIVE and one RECEPTIVE nominal of SAME root, in either surface order",
+      "producer": "only this exact whole word constructs relation edges in frozen core"
+    },
+    "solchedy": {
+      "meaning": "earlier relation concerning UNDERSTAND receptive correlate",
+      "reference": "nearest earlier written QOKEDY relation with root UNDERSTAND",
+      "no_material_or_product_return": true
+    },
+    "qody": {
+      "meaning": "named ACTIVE kind is ORIGIN of selected correlative relation",
+      "arity": 2,
+      "arguments": "selected RELATION_REF then written ACTIVE nominal, both directly left in that order"
+    }
+  },
+  "constructions": [
+    {
+      "pattern": "N qokedy N",
+      "checks": [
+        "exactly one active and one receptive argument",
+        "same principle root",
+        "QOKEEY variable unifies only with actual written rooted recipient"
+      ],
+      "result": "ordered edge from written ACTIVE argument to written RECEPTIVE argument; record both source IDs and root"
+    },
+    {
+      "pattern": "solchedy",
+      "checks": [
+        "select nearest earlier QOKEDY relation with UNDERSTAND root"
+      ],
+      "result": "relation reference, never invented edge or CHEDY-only producer"
+    },
+    {
+      "pattern": "RELATION_REF ACTIVE qody",
+      "checks": [
+        "ACTIVE root matches selected relation root",
+        "named ACTIVE kind equals selected endpoint under model policy"
+      ],
+      "result": "explicit endpoint assertion; record source of reference, actor and relation producer"
+    }
+  ],
+  "candidate_core_bindings": [
+    {
+      "span": "IT2a|f83r.25|G003..G005",
+      "nominals": [
+        "qokeey",
+        "chedy"
+      ],
+      "active": "G003",
+      "receptive": "G005",
+      "root": "UNDERSTAND",
+      "producer": "G004"
+    },
+    {
+      "span": "IT2a|f83r.28|G003..G005",
+      "nominals": [
+        "sheey",
+        "shedy"
+      ],
+      "active": "G003",
+      "receptive": "G005",
+      "root": "LOVE",
+      "producer": "G004"
+    },
+    {
+      "span": "IT2a|f83r.29|G001..G003",
+      "reference": "G001",
+      "named_active": "G002",
+      "consumer": "G003",
+      "selected_producer": "IT2a|f83r.25|G004",
+      "root": "UNDERSTAND"
+    }
+  ],
+  "models": {
+    "FORWARD_ORIGIN": {
+      "qokedy_edge": "ACTIVE→RECEPTIVE",
+      "qody_endpoint": "ORIGIN",
+      "conditional_29_result": "PASS"
+    },
+    "INVERTED_ORIGIN": {
+      "qokedy_edge": "RECEPTIVE→ACTIVE",
+      "qody_endpoint": "ORIGIN",
+      "conditional_29_result": "FAIL"
+    },
+    "INVERTED_DESTINATION": {
+      "qokedy_edge": "RECEPTIVE→ACTIVE",
+      "qody_endpoint": "DESTINATION",
+      "conditional_29_result": "PASS; observational rival to FORWARD_ORIGIN retained"
+    }
+  },
+  "retained_countercase": {
+    "source": "GDT1146 f76r.6 full native line, already known",
+    "local_groups": "shedy qokedy sheey",
+    "binding": "written recipient first and actor last; same LOVE principle",
+    "forward_result": "ACTIVE(LOVE)→RECEPTIVE(LOVE), identical orientation to f83r.28 despite surface-order reversal",
+    "scope": "full line remains unread; no transfer success or repair of1137 unary constructor is claimed"
+  },
+  "unknown_policy": [
+    "all other groups initially UNKNOWN; consequential assertion/question/negation/reference scope remains unresolved",
+    "no UNKNOWN span defaults to no-op or producer",
+    "no invisible actor, repeated-value emphasis, line reset, object seed or argument supplied across UNKNOWN",
+    "no universal EY/DY/Y export; only six exact licenses",
+    "alternate-reader irregular groups retained UNKNOWN absent exact separate license",
+    "no global identity of persons; core uses generic kind identity",
+    "no role inversion preference without evidence distinct from fixed C0 decoder"
+  ],
+  "stage2_extension_limits": {
+    "additional_content_roots": 3,
+    "additional_functional_heads": 4,
+    "constructions_total_max": 6,
+    "exceptional_whole_form_entries_max": 8,
+    "all32_positions": "individual binding and connected prose required; no per-position lexical exception",
+    "producer_lock": "do not add hidden relation producers to repair reference",
+    "budget": "root to register90-minute inclusive authoring budget before release"
+  },
+  "assumptions": [
+    "UNDERSTAND and LOVE are freely chosen broad C0 concepts, not selected by spelling or frequency",
+    "historical source supports relational-correlative production architecture, not actual target meanings",
+    "cataphoric QOKEEY principle reference is paid",
+    "same-root condition is paid",
+    "generic nominal kinds and relation-reference policy are paid",
+    "QODY endpoint check is paid C0; paired global edge/endpoint reversal remains observationally equivalent",
+    "core fragments may be under UNKNOWN external scope; no unconditional target assertion until whole passage is accounted"
+  ],
+  "source_precedent": "research_registry/work_batches/ten_hours_20260915/LULL_TYPED_QUESTIONS_SOURCE_20260920.json",
+  "predecessors": [
+    "GDT1026",
+    "GDT1137",
+    "GDT1146",
+    "GDT1147",
+    "GDT787",
+    "GDT882",
+    "GDT992",
+    "GDT936",
+    "GDT939",
+    "IDEA398"
+  ],
+  "word_prior_source": "experiments/yolo/gdt1137_material_process_type_return/artifacts/WORD_PRIORS.json",
+  "word_prior_limits": "counts/selectors, not independent physical leaves; descriptive profiles never select KNOW/LOVE or another meaning",
+  "word_prior_sha256": "7f25081cdd2178d2c8fa2a38159ab83a39f5f8789f065f8503e7b19eb50813d8",
+  "inherited_priors": {
+    "chedy": {
+      "ZL3b": {
+        "count": 466,
+        "selectors": 73,
+        "positions": {
+          "start": 6,
+          "middle": 428,
+          "end": 32,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 416,
+          "repeated_lines": 46,
+          "adjacent_pairs": 8,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 163,
+          "C": 5,
+          "H": 59,
+          "P": 1,
+          "S": 198,
+          "T": 40
+        },
+        "currier_counts": {
+          "A": 1,
+          "B": 465
+        }
+      },
+      "IT2a": {
+        "count": 465,
+        "selectors": 75,
+        "positions": {
+          "start": 6,
+          "middle": 423,
+          "end": 36,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 415,
+          "repeated_lines": 47,
+          "adjacent_pairs": 9,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 166,
+          "C": 4,
+          "H": 63,
+          "P": 1,
+          "S": 190,
+          "T": 41
+        },
+        "currier_counts": {
+          "A": 2,
+          "B": 463
+        }
+      },
+      "RF1b": {
+        "count": 319,
+        "selectors": 63,
+        "positions": {
+          "start": 5,
+          "middle": 288,
+          "end": 26,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 291,
+          "repeated_lines": 27,
+          "adjacent_pairs": 2,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 125,
+          "C": 3,
+          "H": 26,
+          "P": 1,
+          "S": 134,
+          "T": 30
+        },
+        "currier_counts": {
+          "A": 1,
+          "B": 318
+        }
+      }
+    },
+    "cheeky": {
+      "ZL3b": {
+        "count": 21,
+        "selectors": 20,
+        "positions": {
+          "start": 1,
+          "middle": 20,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 21,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 10,
+          "C": 0,
+          "H": 5,
+          "P": 0,
+          "S": 5,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 3,
+          "B": 18
+        }
+      },
+      "IT2a": {
+        "count": 22,
+        "selectors": 21,
+        "positions": {
+          "start": 1,
+          "middle": 21,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 22,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 10,
+          "C": 0,
+          "H": 6,
+          "P": 0,
+          "S": 5,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 4,
+          "B": 18
+        }
+      },
+      "RF1b": {
+        "count": 23,
+        "selectors": 22,
+        "positions": {
+          "start": 1,
+          "middle": 22,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 23,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 11,
+          "C": 0,
+          "H": 5,
+          "P": 0,
+          "S": 6,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 3,
+          "B": 20
+        }
+      }
+    },
+    "cheey": {
+      "ZL3b": {
+        "count": 153,
+        "selectors": 63,
+        "positions": {
+          "start": 2,
+          "middle": 145,
+          "end": 6,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 144,
+          "repeated_lines": 9,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 39,
+          "C": 1,
+          "H": 20,
+          "P": 9,
+          "S": 79,
+          "T": 5
+        },
+        "currier_counts": {
+          "A": 25,
+          "B": 128
+        }
+      },
+      "IT2a": {
+        "count": 150,
+        "selectors": 61,
+        "positions": {
+          "start": 2,
+          "middle": 142,
+          "end": 6,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 143,
+          "repeated_lines": 7,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 39,
+          "C": 1,
+          "H": 19,
+          "P": 9,
+          "S": 77,
+          "T": 5
+        },
+        "currier_counts": {
+          "A": 23,
+          "B": 127
+        }
+      },
+      "RF1b": {
+        "count": 148,
+        "selectors": 62,
+        "positions": {
+          "start": 2,
+          "middle": 141,
+          "end": 5,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 141,
+          "repeated_lines": 7,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 38,
+          "C": 1,
+          "H": 19,
+          "P": 10,
+          "S": 75,
+          "T": 5
+        },
+        "currier_counts": {
+          "A": 25,
+          "B": 123
+        }
+      }
+    },
+    "dain": {
+      "ZL3b": {
+        "count": 191,
+        "selectors": 89,
+        "positions": {
+          "start": 46,
+          "middle": 118,
+          "end": 27,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 181,
+          "repeated_lines": 10,
+          "adjacent_pairs": 2,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 34,
+          "C": 0,
+          "H": 91,
+          "P": 7,
+          "S": 48,
+          "T": 11
+        },
+        "currier_counts": {
+          "A": 87,
+          "B": 104
+        }
+      },
+      "IT2a": {
+        "count": 188,
+        "selectors": 90,
+        "positions": {
+          "start": 44,
+          "middle": 115,
+          "end": 29,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 178,
+          "repeated_lines": 10,
+          "adjacent_pairs": 2,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 33,
+          "C": 0,
+          "H": 84,
+          "P": 8,
+          "S": 53,
+          "T": 10
+        },
+        "currier_counts": {
+          "A": 81,
+          "B": 107
+        }
+      },
+      "RF1b": {
+        "count": 158,
+        "selectors": 77,
+        "positions": {
+          "start": 40,
+          "middle": 98,
+          "end": 20,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 150,
+          "repeated_lines": 8,
+          "adjacent_pairs": 2,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 30,
+          "C": 0,
+          "H": 71,
+          "P": 4,
+          "S": 44,
+          "T": 9
+        },
+        "currier_counts": {
+          "A": 69,
+          "B": 89
+        }
+      }
+    },
+    "kesd": {
+      "ZL3b": {
+        "count": 1,
+        "selectors": 1,
+        "positions": {
+          "start": 0,
+          "middle": 1,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 1,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 1,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 1
+        }
+      },
+      "IT2a": {
+        "count": 1,
+        "selectors": 1,
+        "positions": {
+          "start": 0,
+          "middle": 1,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 1,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 1,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 1
+        }
+      },
+      "RF1b": {
+        "count": 0,
+        "selectors": 0,
+        "positions": {
+          "start": 0,
+          "middle": 0,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 0,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 0
+        },
+        "section_counts": {
+          "B": 0,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 0
+        }
+      }
+    },
+    "oldy": {
+      "ZL3b": {
+        "count": 25,
+        "selectors": 18,
+        "positions": {
+          "start": 1,
+          "middle": 10,
+          "end": 13,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 24,
+          "repeated_lines": 1,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 10,
+          "C": 0,
+          "H": 7,
+          "P": 5,
+          "S": 2,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 7,
+          "B": 18
+        }
+      },
+      "IT2a": {
+        "count": 24,
+        "selectors": 18,
+        "positions": {
+          "start": 1,
+          "middle": 10,
+          "end": 12,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 23,
+          "repeated_lines": 1,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 9,
+          "C": 0,
+          "H": 7,
+          "P": 5,
+          "S": 2,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 7,
+          "B": 17
+        }
+      },
+      "RF1b": {
+        "count": 18,
+        "selectors": 12,
+        "positions": {
+          "start": 1,
+          "middle": 7,
+          "end": 9,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 17,
+          "repeated_lines": 1,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 9,
+          "C": 0,
+          "H": 3,
+          "P": 5,
+          "S": 1,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 7,
+          "B": 11
+        }
+      }
+    },
+    "otal": {
+      "ZL3b": {
+        "count": 119,
+        "selectors": 57,
+        "positions": {
+          "start": 2,
+          "middle": 106,
+          "end": 10,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 115,
+          "repeated_lines": 4,
+          "adjacent_pairs": 2,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 19,
+          "C": 0,
+          "H": 24,
+          "P": 2,
+          "S": 60,
+          "T": 14
+        },
+        "currier_counts": {
+          "A": 19,
+          "B": 100
+        }
+      },
+      "IT2a": {
+        "count": 123,
+        "selectors": 57,
+        "positions": {
+          "start": 2,
+          "middle": 110,
+          "end": 10,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 118,
+          "repeated_lines": 5,
+          "adjacent_pairs": 2,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 19,
+          "C": 0,
+          "H": 23,
+          "P": 3,
+          "S": 65,
+          "T": 13
+        },
+        "currier_counts": {
+          "A": 21,
+          "B": 102
+        }
+      },
+      "RF1b": {
+        "count": 115,
+        "selectors": 54,
+        "positions": {
+          "start": 2,
+          "middle": 103,
+          "end": 9,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 110,
+          "repeated_lines": 5,
+          "adjacent_pairs": 2,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 17,
+          "C": 0,
+          "H": 20,
+          "P": 3,
+          "S": 61,
+          "T": 14
+        },
+        "currier_counts": {
+          "A": 18,
+          "B": 97
+        }
+      }
+    },
+    "otchey": {
+      "ZL3b": {
+        "count": 26,
+        "selectors": 21,
+        "positions": {
+          "start": 3,
+          "middle": 23,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 26,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 3,
+          "C": 2,
+          "H": 8,
+          "P": 0,
+          "S": 12,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 8,
+          "B": 18
+        }
+      },
+      "IT2a": {
+        "count": 25,
+        "selectors": 22,
+        "positions": {
+          "start": 3,
+          "middle": 22,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 25,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 3,
+          "C": 2,
+          "H": 9,
+          "P": 0,
+          "S": 10,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 9,
+          "B": 16
+        }
+      },
+      "RF1b": {
+        "count": 24,
+        "selectors": 21,
+        "positions": {
+          "start": 3,
+          "middle": 21,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 24,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 2,
+          "C": 2,
+          "H": 9,
+          "P": 0,
+          "S": 10,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 9,
+          "B": 15
+        }
+      }
+    },
+    "qody": {
+      "ZL3b": {
+        "count": 15,
+        "selectors": 13,
+        "positions": {
+          "start": 3,
+          "middle": 9,
+          "end": 3,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 15,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 3,
+          "C": 0,
+          "H": 6,
+          "P": 0,
+          "S": 5,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 4,
+          "B": 11
+        }
+      },
+      "IT2a": {
+        "count": 15,
+        "selectors": 13,
+        "positions": {
+          "start": 3,
+          "middle": 9,
+          "end": 3,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 15,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 3,
+          "C": 0,
+          "H": 6,
+          "P": 0,
+          "S": 5,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 4,
+          "B": 11
+        }
+      },
+      "RF1b": {
+        "count": 12,
+        "selectors": 11,
+        "positions": {
+          "start": 3,
+          "middle": 7,
+          "end": 2,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 12,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 3,
+          "C": 0,
+          "H": 4,
+          "P": 0,
+          "S": 4,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 3,
+          "B": 9
+        }
+      }
+    },
+    "qokedy": {
+      "ZL3b": {
+        "count": 248,
+        "selectors": 58,
+        "positions": {
+          "start": 18,
+          "middle": 222,
+          "end": 8,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 210,
+          "repeated_lines": 32,
+          "adjacent_pairs": 15,
+          "max_per_line": 4
+        },
+        "section_counts": {
+          "B": 135,
+          "C": 2,
+          "H": 39,
+          "P": 0,
+          "S": 61,
+          "T": 11
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 248
+        }
+      },
+      "IT2a": {
+        "count": 246,
+        "selectors": 58,
+        "positions": {
+          "start": 18,
+          "middle": 220,
+          "end": 8,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 209,
+          "repeated_lines": 31,
+          "adjacent_pairs": 14,
+          "max_per_line": 4
+        },
+        "section_counts": {
+          "B": 133,
+          "C": 2,
+          "H": 39,
+          "P": 0,
+          "S": 61,
+          "T": 11
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 246
+        }
+      },
+      "RF1b": {
+        "count": 164,
+        "selectors": 45,
+        "positions": {
+          "start": 14,
+          "middle": 145,
+          "end": 5,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 142,
+          "repeated_lines": 20,
+          "adjacent_pairs": 8,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 97,
+          "C": 0,
+          "H": 26,
+          "P": 0,
+          "S": 33,
+          "T": 8
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 164
+        }
+      }
+    },
+    "qokeedy": {
+      "ZL3b": {
+        "count": 291,
+        "selectors": 52,
+        "positions": {
+          "start": 30,
+          "middle": 258,
+          "end": 3,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 250,
+          "repeated_lines": 34,
+          "adjacent_pairs": 17,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 133,
+          "C": 1,
+          "H": 11,
+          "P": 0,
+          "S": 136,
+          "T": 10
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 291
+        }
+      },
+      "IT2a": {
+        "count": 288,
+        "selectors": 51,
+        "positions": {
+          "start": 30,
+          "middle": 255,
+          "end": 3,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 247,
+          "repeated_lines": 34,
+          "adjacent_pairs": 17,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 131,
+          "C": 1,
+          "H": 9,
+          "P": 0,
+          "S": 137,
+          "T": 10
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 288
+        }
+      },
+      "RF1b": {
+        "count": 209,
+        "selectors": 47,
+        "positions": {
+          "start": 25,
+          "middle": 183,
+          "end": 1,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 182,
+          "repeated_lines": 24,
+          "adjacent_pairs": 11,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 107,
+          "C": 1,
+          "H": 7,
+          "P": 0,
+          "S": 87,
+          "T": 7
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 209
+        }
+      }
+    },
+    "qokeey": {
+      "ZL3b": {
+        "count": 280,
+        "selectors": 70,
+        "positions": {
+          "start": 28,
+          "middle": 242,
+          "end": 10,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 247,
+          "repeated_lines": 29,
+          "adjacent_pairs": 12,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 66,
+          "C": 2,
+          "H": 21,
+          "P": 12,
+          "S": 165,
+          "T": 14
+        },
+        "currier_counts": {
+          "A": 30,
+          "B": 250
+        }
+      },
+      "IT2a": {
+        "count": 280,
+        "selectors": 69,
+        "positions": {
+          "start": 28,
+          "middle": 242,
+          "end": 10,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 249,
+          "repeated_lines": 27,
+          "adjacent_pairs": 12,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 67,
+          "C": 2,
+          "H": 20,
+          "P": 12,
+          "S": 165,
+          "T": 14
+        },
+        "currier_counts": {
+          "A": 29,
+          "B": 251
+        }
+      },
+      "RF1b": {
+        "count": 269,
+        "selectors": 69,
+        "positions": {
+          "start": 27,
+          "middle": 230,
+          "end": 12,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 242,
+          "repeated_lines": 23,
+          "adjacent_pairs": 10,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 63,
+          "C": 2,
+          "H": 20,
+          "P": 11,
+          "S": 162,
+          "T": 11
+        },
+        "currier_counts": {
+          "A": 29,
+          "B": 240
+        }
+      }
+    },
+    "qoky": {
+      "ZL3b": {
+        "count": 135,
+        "selectors": 64,
+        "positions": {
+          "start": 4,
+          "middle": 105,
+          "end": 26,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 133,
+          "repeated_lines": 2,
+          "adjacent_pairs": 1,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 54,
+          "C": 1,
+          "H": 32,
+          "P": 5,
+          "S": 33,
+          "T": 10
+        },
+        "currier_counts": {
+          "A": 30,
+          "B": 105
+        }
+      },
+      "IT2a": {
+        "count": 138,
+        "selectors": 67,
+        "positions": {
+          "start": 5,
+          "middle": 107,
+          "end": 26,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 134,
+          "repeated_lines": 4,
+          "adjacent_pairs": 1,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 53,
+          "C": 1,
+          "H": 35,
+          "P": 5,
+          "S": 33,
+          "T": 11
+        },
+        "currier_counts": {
+          "A": 33,
+          "B": 105
+        }
+      },
+      "RF1b": {
+        "count": 124,
+        "selectors": 63,
+        "positions": {
+          "start": 4,
+          "middle": 96,
+          "end": 24,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 121,
+          "repeated_lines": 3,
+          "adjacent_pairs": 1,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 50,
+          "C": 1,
+          "H": 29,
+          "P": 4,
+          "S": 32,
+          "T": 8
+        },
+        "currier_counts": {
+          "A": 27,
+          "B": 97
+        }
+      }
+    },
+    "qokylddy": {
+      "ZL3b": {
+        "count": 1,
+        "selectors": 1,
+        "positions": {
+          "start": 0,
+          "middle": 0,
+          "end": 1,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 1,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 1,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 1
+        }
+      },
+      "IT2a": {
+        "count": 1,
+        "selectors": 1,
+        "positions": {
+          "start": 0,
+          "middle": 0,
+          "end": 1,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 1,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 1,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 1
+        }
+      },
+      "RF1b": {
+        "count": 1,
+        "selectors": 1,
+        "positions": {
+          "start": 0,
+          "middle": 0,
+          "end": 1,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 1,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 1,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 1
+        }
+      }
+    },
+    "qolchey": {
+      "ZL3b": {
+        "count": 9,
+        "selectors": 6,
+        "positions": {
+          "start": 1,
+          "middle": 8,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 9,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 5,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 1,
+          "T": 3
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 9
+        }
+      },
+      "IT2a": {
+        "count": 9,
+        "selectors": 6,
+        "positions": {
+          "start": 1,
+          "middle": 8,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 9,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 5,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 1,
+          "T": 3
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 9
+        }
+      },
+      "RF1b": {
+        "count": 8,
+        "selectors": 5,
+        "positions": {
+          "start": 1,
+          "middle": 7,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 8,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 4,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 1,
+          "T": 3
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 8
+        }
+      }
+    },
+    "saiin": {
+      "ZL3b": {
+        "count": 108,
+        "selectors": 64,
+        "positions": {
+          "start": 52,
+          "middle": 48,
+          "end": 7,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 107,
+          "repeated_lines": 1,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 27,
+          "C": 1,
+          "H": 31,
+          "P": 5,
+          "S": 36,
+          "T": 8
+        },
+        "currier_counts": {
+          "A": 27,
+          "B": 81
+        }
+      },
+      "IT2a": {
+        "count": 126,
+        "selectors": 69,
+        "positions": {
+          "start": 53,
+          "middle": 62,
+          "end": 11,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 125,
+          "repeated_lines": 1,
+          "adjacent_pairs": 1,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 32,
+          "C": 1,
+          "H": 38,
+          "P": 7,
+          "S": 40,
+          "T": 8
+        },
+        "currier_counts": {
+          "A": 32,
+          "B": 94
+        }
+      },
+      "RF1b": {
+        "count": 107,
+        "selectors": 63,
+        "positions": {
+          "start": 50,
+          "middle": 44,
+          "end": 12,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 106,
+          "repeated_lines": 1,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 25,
+          "C": 1,
+          "H": 31,
+          "P": 5,
+          "S": 38,
+          "T": 7
+        },
+        "currier_counts": {
+          "A": 26,
+          "B": 81
+        }
+      }
+    },
+    "sairn": {
+      "ZL3b": {
+        "count": 0,
+        "selectors": 0,
+        "positions": {
+          "start": 0,
+          "middle": 0,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 0,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 0
+        },
+        "section_counts": {
+          "B": 0,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      "IT2a": {
+        "count": 1,
+        "selectors": 1,
+        "positions": {
+          "start": 0,
+          "middle": 0,
+          "end": 1,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 1,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 1,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 1
+        }
+      },
+      "RF1b": {
+        "count": 0,
+        "selectors": 0,
+        "positions": {
+          "start": 0,
+          "middle": 0,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 0,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 0
+        },
+        "section_counts": {
+          "B": 0,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 0
+        }
+      }
+    },
+    "shckhedy": {
+      "ZL3b": {
+        "count": 5,
+        "selectors": 4,
+        "positions": {
+          "start": 0,
+          "middle": 3,
+          "end": 2,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 4,
+          "repeated_lines": 1,
+          "adjacent_pairs": 1,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 5,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 5
+        }
+      },
+      "IT2a": {
+        "count": 5,
+        "selectors": 4,
+        "positions": {
+          "start": 0,
+          "middle": 3,
+          "end": 2,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 4,
+          "repeated_lines": 1,
+          "adjacent_pairs": 1,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 5,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 5
+        }
+      },
+      "RF1b": {
+        "count": 3,
+        "selectors": 2,
+        "positions": {
+          "start": 0,
+          "middle": 2,
+          "end": 1,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 2,
+          "repeated_lines": 1,
+          "adjacent_pairs": 1,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 3,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 3
+        }
+      }
+    },
+    "shedy": {
+      "ZL3b": {
+        "count": 388,
+        "selectors": 64,
+        "positions": {
+          "start": 6,
+          "middle": 362,
+          "end": 20,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 345,
+          "repeated_lines": 40,
+          "adjacent_pairs": 9,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 184,
+          "C": 8,
+          "H": 36,
+          "P": 1,
+          "S": 116,
+          "T": 43
+        },
+        "currier_counts": {
+          "A": 1,
+          "B": 387
+        }
+      },
+      "IT2a": {
+        "count": 379,
+        "selectors": 65,
+        "positions": {
+          "start": 6,
+          "middle": 353,
+          "end": 20,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 339,
+          "repeated_lines": 37,
+          "adjacent_pairs": 8,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 181,
+          "C": 7,
+          "H": 35,
+          "P": 1,
+          "S": 114,
+          "T": 41
+        },
+        "currier_counts": {
+          "A": 2,
+          "B": 377
+        }
+      },
+      "RF1b": {
+        "count": 227,
+        "selectors": 59,
+        "positions": {
+          "start": 3,
+          "middle": 211,
+          "end": 13,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 216,
+          "repeated_lines": 10,
+          "adjacent_pairs": 3,
+          "max_per_line": 3
+        },
+        "section_counts": {
+          "B": 108,
+          "C": 2,
+          "H": 16,
+          "P": 0,
+          "S": 76,
+          "T": 25
+        },
+        "currier_counts": {
+          "A": 1,
+          "B": 226
+        }
+      }
+    },
+    "sheey": {
+      "ZL3b": {
+        "count": 126,
+        "selectors": 64,
+        "positions": {
+          "start": 4,
+          "middle": 119,
+          "end": 3,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 123,
+          "repeated_lines": 3,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 27,
+          "C": 2,
+          "H": 23,
+          "P": 11,
+          "S": 52,
+          "T": 11
+        },
+        "currier_counts": {
+          "A": 33,
+          "B": 93
+        }
+      },
+      "IT2a": {
+        "count": 128,
+        "selectors": 62,
+        "positions": {
+          "start": 4,
+          "middle": 121,
+          "end": 3,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 125,
+          "repeated_lines": 3,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 28,
+          "C": 3,
+          "H": 24,
+          "P": 9,
+          "S": 53,
+          "T": 11
+        },
+        "currier_counts": {
+          "A": 31,
+          "B": 97
+        }
+      },
+      "RF1b": {
+        "count": 111,
+        "selectors": 62,
+        "positions": {
+          "start": 4,
+          "middle": 104,
+          "end": 3,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 109,
+          "repeated_lines": 2,
+          "adjacent_pairs": 0,
+          "max_per_line": 2
+        },
+        "section_counts": {
+          "B": 23,
+          "C": 2,
+          "H": 23,
+          "P": 8,
+          "S": 47,
+          "T": 8
+        },
+        "currier_counts": {
+          "A": 30,
+          "B": 81
+        }
+      }
+    },
+    "sokeedy": {
+      "ZL3b": {
+        "count": 2,
+        "selectors": 2,
+        "positions": {
+          "start": 2,
+          "middle": 0,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 2,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 2,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 2
+        }
+      },
+      "IT2a": {
+        "count": 3,
+        "selectors": 3,
+        "positions": {
+          "start": 3,
+          "middle": 0,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 3,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 3,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 3
+        }
+      },
+      "RF1b": {
+        "count": 2,
+        "selectors": 2,
+        "positions": {
+          "start": 2,
+          "middle": 0,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 2,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 2,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 0
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 2
+        }
+      }
+    },
+    "solchedy": {
+      "ZL3b": {
+        "count": 6,
+        "selectors": 6,
+        "positions": {
+          "start": 5,
+          "middle": 0,
+          "end": 1,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 6,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 4,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 1,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 6
+        }
+      },
+      "IT2a": {
+        "count": 8,
+        "selectors": 7,
+        "positions": {
+          "start": 7,
+          "middle": 0,
+          "end": 1,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 8,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 6,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 1,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 8
+        }
+      },
+      "RF1b": {
+        "count": 4,
+        "selectors": 4,
+        "positions": {
+          "start": 3,
+          "middle": 1,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 4,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 3,
+          "C": 0,
+          "H": 0,
+          "P": 0,
+          "S": 0,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 0,
+          "B": 4
+        }
+      }
+    },
+    "tol": {
+      "ZL3b": {
+        "count": 33,
+        "selectors": 24,
+        "positions": {
+          "start": 21,
+          "middle": 12,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 33,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 7,
+          "C": 0,
+          "H": 15,
+          "P": 3,
+          "S": 7,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 16,
+          "B": 17
+        }
+      },
+      "IT2a": {
+        "count": 39,
+        "selectors": 28,
+        "positions": {
+          "start": 24,
+          "middle": 15,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 39,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 10,
+          "C": 0,
+          "H": 18,
+          "P": 3,
+          "S": 7,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 18,
+          "B": 21
+        }
+      },
+      "RF1b": {
+        "count": 29,
+        "selectors": 22,
+        "positions": {
+          "start": 18,
+          "middle": 11,
+          "end": 0,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 29,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        },
+        "section_counts": {
+          "B": 6,
+          "C": 0,
+          "H": 15,
+          "P": 1,
+          "S": 6,
+          "T": 1
+        },
+        "currier_counts": {
+          "A": 14,
+          "B": 15
+        }
+      }
+    }
+  },
+  "diagnostic_scope": {
+    "input": "experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/artifacts/CASES.json",
+    "sha256": "1a85bd14e5cce6bfbac7182943bc431fa3e17ef68030455a79d168229140bc47",
+    "scope": "ALL35 retained1146 eligible reader cases,13 distinct loci,eight physical leaves; use complete native lines, not only f76r6",
+    "timing": "inspect/diagnose after root registration and release; no evaluation conducted in this proposal",
+    "status_rules": {
+      "compatible": "written closed QOKEDY pair supplies one ACTIVE and one RECEPTIVE of same principle under unchanged exact core",
+      "contradiction": "a completely assigned forced construction violates fixed role/root/arity/endpoint constraints",
+      "unknown": "unassigned surrounding material could change attachment/assertion/reference or argument binding",
+      "not_applicable": "no complete exact licensed correlative construction; no contradiction inferred from unlicensed whole form"
+    },
+    "limits": [
+      "alternate readers are not independent confirmations",
+      "preserve full1147 missing complete earlier-product chain",
+      "no old product/source meanings imported",
+      "no unknown no-op, inferred producer or argument-seeding repair"
+    ]
+  },
+  "root_sense_policy": "UNDERSTAND/LOVE are explicit C0 content hypotheses, historically present as intelligendi/intelligibilis and amandi/amabilis in owned398 prerequisite. Frequency provides no root identification or priority. CHE/SHE can still be anonymously renamed; no evidence selects these English root names."
+}
