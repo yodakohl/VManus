@@ -2,14 +2,14 @@
 Updated: 2026-10-03.
 
 ## Current work
-Phase: fixed_test
+Phase: exploration
 Status: active
-Task: Ten-hour block from02:27UTC;GDT1160.
-Latest decision: Source ambiguity supports context test.
-Working files: experiments/yolo/gdt1160_contextual_abbreviation_inverse/.
-Assumptions: Editorial ambiguity is not native homography.
-Resume: Freeze code; publish preregistration before fitting.
-Running: Root;1160runner/validator;bounded idea supply.
+Task: Ten-hour block from02:27UTC;meaning.
+Latest decision: 1160source contextual ranking passes;no targetkey.
+Working files: experiments/yolo/gdt1160_contextual_abbreviation_inverse/REPORT.md.
+Assumptions: Source-trained ranks do not translate Voynich.
+Resume: Publish1160;review conditional role-prior feasibility.
+Running: Root;bounded role/source reviews.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

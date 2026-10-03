@@ -1,3 +1,7 @@
+## 2026-10-03 GDT1160 positive controlled context ranking
+
+[Complete result](experiments/yolo/gdt1160_contextual_abbreviation_inverse/REPORT.md): all21,512 eligible held source sites; equal-book/type F68.315%, L68.857%, C76.155%, N79.651%; both preregistered gains pass in allfourbooks. Independent122checks and24weightforwards agree. N still makes2,414 errors, including171 unseen expansions; all retained. This selects a fixed supervised source-ranking architecture, not a Voynich language/word or native glyph homography. No calibrated meaning probabilities; linear convergence unproved at20epochs. Original155/832/837/995 decisions unchanged; no automatic target decoder or source-model repair.
+
 ## 2026-10-03 GDT1160 fixed source-context comparison selected
 
 [Registered design](experiments/yolo/gdt1160_contextual_abbreviation_inverse/METHOD.md): 21,512 exact-marked ambiguous Nuremberg source sites, four whole-book partitions; frequency/layout/linear context versus one small neural architecture. No predictions at selection. Scope is supervised editorial-expansion ranking, not native homography or a Voynich channel. GDT001 already used neural source-symbol models; this different endpoint must earn its complexity against simple context. Native follow-up after865 found no localized hidden unanimous-word mark class; no new image panel. IDEA900/901 remain raw source mechanisms with no target binding. The ten-hour block from02:27UTC continues.

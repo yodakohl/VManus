@@ -1,0 +1,46 @@
+{
+  "record_id": "GDT1160",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root_after_independent_source_and_weight_replay",
+  "assessment_basis": "preregistered_complete_four_book_contextual_expansion_comparison",
+  "reason": "On all21512 source ambiguity sites, equal-book/type accuracyF.683145 L.688565 C.761552 N.796511; context and neural gates pass, allfourfold incrementspositive. Independent122checks and24weightforwards pass. Supervised editorial-expansion ranking only;2414Nerrors and171OOVtruths retained; no Voynich meaning or nativehomography.",
+  "blockers": [
+    {
+      "code": "target_representation_and_lattice_unspecified",
+      "detail": "The experiment supplies training expansion labels and a known source representation. It does not construct comparable candidates or identify a Voynich writing channel.",
+      "evidence": [
+        "experiments/yolo/gdt1160_contextual_abbreviation_inverse/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "separate_finite_target_candidate_contract",
+        "change": "new_design",
+        "detail": "A separately justified finite reading-candidate representation and training/target relationship with explicit unknowns, original counterexamples and full fixed evaluation.",
+        "evidence": [
+          "experiments/yolo/gdt1160_contextual_abbreviation_inverse/METHOD.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Replacing arbitrary glosses with neural scores",
+      "Calling softmax a meaning probability",
+      "Repeating source training until a larger gain",
+      "Treating all written Voynich groups as ordinary words by default"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT155",
+      "type": "related_to"
+    },
+    {
+      "target": "GDT995",
+      "type": "related_to"
+    }
+  ]
+}

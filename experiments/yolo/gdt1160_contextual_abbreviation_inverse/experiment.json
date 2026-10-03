@@ -6,7 +6,7 @@
   "claim_ceiling": "Supervised source calibration only; editorial ambiguity is not native homography; no Voynich input, decoder permission, language, word meaning, neural necessity or significance.",
   "commands": {
     "run": "python3 experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/run.py fit --fold 0",
-    "validate": "python3 experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/validate.py"
+    "validate": "python3 experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/validate.py --release"
   },
   "created": "2026-10-03",
   "dependencies": [
@@ -61,59 +61,149 @@
   ],
   "outputs": [
     {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/CANDIDATE_TABLE.md",
+      "sha256": "ee9ee0cdbb80733965ce2a6f19c4534fb83409592a172b7ded7c50248f6bf644",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/METHOD.md",
       "sha256": "7a72e6bcc8ae1675ad00f20846ed7ac7961b8c92ed0be9351eecff5cd2b35f10",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/PREREGISTRATION.md",
       "sha256": "23ea7d1fc4737fa4465d1920eb889ab52fff9340d6a21518fab74809e02d4b67",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/README.md",
-      "sha256": "c8ac532d922b87bebb3ee0b5a1c93883d1479098189460ead24af2909c302bbf",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "sha256": "5780d483642206fc0caec33eb235e7e983a98f13c91f3618925c86c7b3aef801",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/REPORT.md",
+      "sha256": "34068dd118e2ce5b55d38b10357d076710440dfdd9e3a480c905c301e1261ffb",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/REVIEW.json",
+      "sha256": "339f156d73308dbfb542b9d113a69f8f2ed02f77bbf8d20e6f5f90da649a9b97",
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/SPEC.json",
       "sha256": "f4e068bc0c3d5aa101407586ddb98532a584b803aff655ab2e7e450d7b2b0211",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/FIT_Band2.json",
+      "sha256": "172bd659b2f6eb93959e7062666a07414f7787ab269031a7529e408292b0c6d2",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/FIT_Band3.json",
+      "sha256": "cbd149fbd9ee41b062eb7b50f9bc63ee1c8a3e27687db206117cc71ba248d86f",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/FIT_Band4.json",
+      "sha256": "436d7705e1dc6f464dd484fe227b6fd348039d6cda417107a19ed5123ea0b156",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/FIT_Band5.json",
+      "sha256": "078c570debcf8a5eb953bc083e26948e508e6680e607446a15814308ad32030a",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/PREDICTIONS_Band2.jsonl.gz",
+      "sha256": "51944c28add58663808e20d9495f1b5b5a3c59e9d309a824da00d8b5b3d89367",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/PREDICTIONS_Band3.jsonl.gz",
+      "sha256": "005a908fe7a0a11477c42fc71cede71fa2b634b5e8eda3731ed2a1c95a2f969d",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/PREDICTIONS_Band4.jsonl.gz",
+      "sha256": "f7a478b2f10e99c2f1cfb88f60d35628dd31ba138c57fa2b093d4bdbe2fca8f0",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/PREDICTIONS_Band5.jsonl.gz",
+      "sha256": "171e12f5e15d891289c8ffd7386058833f9023ef7e964f1cd55fce9e19f94f51",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/PREDICTION_LOCK.json",
+      "sha256": "ad10979bcb7244c2df0f8eb77c58b94bcc35390c88dfea67f14f9bb756fb55fc",
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/PREPARATION.json",
       "sha256": "1ed7e44d72a3d665bcd1dcfccc477fb5173f04476147c3219f43f742f6699ca0",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/PREPARATION_VALIDATION.json",
       "sha256": "0d5a72b1a34a85cd61c21ee8364c1c44801e5f9a948bf63ad0dcc7bebd0f5165",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/README.md",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/REGISTRATION_LOCK.json",
+      "sha256": "cce1ca6cb842e44c77371832853e0a96e1ea74046d2d96420c09f1e59f43bc70",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/RESULT.json",
+      "sha256": "978053f6ffb6373daaa083c91711f2f4b0b25e6d5eb9a2cfdd7077c4e4aaacc2",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/SITE_RESULTS.jsonl.gz",
+      "sha256": "75d075a0720b4119419a98d1268652832f78df1df7c477e03e549ab11ab3e481",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/TYPE_RESULTS.json",
+      "sha256": "6ae2caef19cad58cd1c4e5b2f78ec1eefbe8dfc83a7ea1ce469306fc4b7b9992",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/VALIDATION.json",
+      "sha256": "94944a611b9c29d9f2a77cfe2bbb68ce7f9cbe4dd68e2802c72c35af9f644eda",
+      "role": "registered contract, source, complete predictions or independently validated result"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/VALIDATION.md",
+      "sha256": "138c538bf25119bebf6f538e00355aca4a644c99cc35ff2691e5fa216335fe00",
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/requirements.txt",
       "sha256": "4680e41c5be073f82ec34f6149d7e150e7d6304a5240705b9613233e654df9f3",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/SOURCE.json",
       "sha256": "f67dc3400e760b35846996e3e90e53136b97a931ddc94eb6b6ccd6e19577d3e1",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/run.py",
       "sha256": "32216e60363e8437daa13e0640966959b22e14d1b2e81bba4f32e97d962f3859",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "role": "registered contract, source, complete predictions or independently validated result"
     },
     {
       "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/validate.py",
-      "sha256": "cd5244be9497a06ef9ceb4ddd2de97585d0d98585b0f0f987db07ab43a93d409",
-      "role": "preregistered contract, implementation or source-capacity receipt"
+      "sha256": "e71fdc10458064f9f00d6f5569a9cf1a3f7eeac81b7c7162d045d2bda6552f5f",
+      "role": "registered contract, source, complete predictions or independently validated result"
     }
   ],
   "question": "Does written context resolve identical marked editorial forms across held source books, and does one fixed small neural architecture improve on linear context?",
@@ -123,11 +213,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "contextual_abbreviation_inverse",
-  "status": "REGISTERED_UNSCORED",
+  "status": "CONTEXT_AND_NEURAL_INCREMENT",
   "title": "Contextual recovery of ambiguous historical abbreviation expansions",
   "updated": "2026-10-03",
   "validation": {
-    "status": "NOT_RUN",
-    "artifact": null
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/VALIDATION.json"
   }
 }
