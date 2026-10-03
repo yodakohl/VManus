@@ -1,0 +1,143 @@
+{
+  "status": "RAW_UNSELECTED_DESIGN_ASSESSMENT_NO_TEST_NO_NEW_CARD",
+  "scope": "Source-only bounded review; no target records/images/reserves, new data admission, control implementation, solver, or GDT1162 packet/result access.",
+  "main_source_finding": {
+    "path": ".gdt176/corema/b6.recipes.xml",
+    "public_url": "https://gams.uni-graz.at/o:corema.b6.recipes/TEI_SOURCE",
+    "source_unit": "ab xml:id=b6.6, n=6; instruction wirtz sie woll",
+    "exact_markup": "<instruction><ingredient commodity=\"Q42527\" en=\"spice\">wirtz</ingredient> sie woll</instruction>",
+    "interpretation": "The written wirtz is used imperatively here: season it well. The ingredient annotation identifies a commodity concept expressed by a verb. Consequently ingredient-tagged span does not entail noun POS, a nominal occurrence, or an exact noun lemma translation.",
+    "not_an_error_claim": "This need not be an annotation mistake: concept annotation and part of speech answer different questions. GDT1159 predicts commodity concepts, not noun lemmas. Its failed decision is unchanged; no selected1159 form has been newly scored or reclassified here.",
+    "gold_implication": "A new noun/action task must distinguish concept identity, lexical realization and procedural role; using the ingredient tag as a noun mask would silently supply a false POS assumption."
+  },
+  "available_distinct_relation": {
+    "whole_unit": "The entire existing b6.6 Liver, roast entry, including its damaged opener, unassigned adjuncts and final coating instruction.",
+    "written_sequence": [
+      "take liver",
+      "chop it small",
+      "season it",
+      "take bacon and grapes",
+      "lay out netz",
+      "coat es with yolk",
+      "take liver again",
+      "place schlags onto netz",
+      "put another nez over it",
+      "fasten das",
+      "lay es on a grate",
+      "coat beschlags with yolk and parsley"
+    ],
+    "limits": "These English summaries interpret the readable German; they are not supplied anonymous observations. The editor identifies netz/nez as caul fat and both yolk spellings by shared concepts. Pronoun antecedents and complete material genealogy are not provided by the XML parent relation. The imperative spice occurrence must remain, not be dropped as noise.",
+    "contrast": "Directed action/patient/medium and container roles distinguish e.g. the wrapped liver from the wrapper and coating. A recipe-level bag of their identities loses those distinctions. Order additionally distinguishes input preparation from later incorporation or coating. Mere ingredient co-occurrence and generic recurring-entity flow do not encode this full typed relation.",
+    "not_yet_in_target": "No current native marker or complete source-independent observation is being asserted to identify CHOP, COAT, FASTEN, patient, medium, wrapper, or the necessary pronoun bindings."
+  },
+  "finite_diagnostic_task": {
+    "unit_selection": "b6.6 complete entry only, deliberately exposed diagnostic material, not a holdout or representative source sample. No claim that this is a statistically selected sample.",
+    "input": "Whole ordered written entry with ingredient spans and instruction spans explicitly marked as supplied editorial assistance. Replace the five listed ingredient-span surfaces and four listed action surfaces by stable opaque IDs; retain all other written material. Preserve distinct spellings, every occurrence and the damaged opener. Do not provide the target variables with their concept/POS labels.",
+    "ingredient_unknowns": [
+      "leber",
+      "netz",
+      "nez",
+      "Eyr thotternn",
+      "Eir dotternn"
+    ],
+    "ingredient_candidates": [
+      "LIVER",
+      "CAUL_FAT",
+      "YOLK",
+      "OTHER"
+    ],
+    "action_unknowns": [
+      "hacke",
+      "lege",
+      "bestreich",
+      "verspeill"
+    ],
+    "action_candidates": [
+      "CUT_SMALL",
+      "LAY_OUT",
+      "COAT",
+      "FASTEN",
+      "OTHER"
+    ],
+    "candidate_space": "4^5 * 5^4 = 640000 total joint mappings before any constraints; many-to-one allowed. No assumed bijection. Exact whole-span spellings, not a productive morphological rule.",
+    "gold": {
+      "leber": "LIVER",
+      "netz": "CAUL_FAT",
+      "nez": "CAUL_FAT",
+      "Eyr thotternn": "YOLK",
+      "Eir dotternn": "YOLK",
+      "hacke": "CUT_SMALL",
+      "lege": "LAY_OUT",
+      "bestreich": "COAT",
+      "verspeill": "FASTEN"
+    },
+    "gold_status": "Ingredient gold is editor commodity annotation. Action gold is this disclosed interpretation of the readable imperatives and would require separately fixed adjudication before a scored control. CAUL_FAT versus generic membrane and YOLK versus other adhesive/coating material must remain different levels of specificity.",
+    "desired_comparison": "Can exact named ingredient concepts, not merely solid/liquid or wrapper/coating classes, be recovered when the four action values are unknown jointly, compared with the same task supplying those action values? Include every mapping surviving the same fixed constraints, not only a favored optimum.",
+    "critical_oracles": [
+      "The finite label vocabularies are supplied and tailored to this known source; this is a small capability diagnostic, not unsupervised discovery.",
+      "Editorial ingredient spans and instruction boundaries are supplied.",
+      "Unmasked German words still reveal actions and grammatical relations; this is partial lexical masking, not Voynich-level unknown language.",
+      "A manually supplied patient/medium genealogy would be another oracle, not recoverable input.",
+      "Physical compatibility may identify a class of usable membranes/coatings without identifying the historical ingredient. Uniqueness inside a tiny supplied list is not global lexical identity."
+    ],
+    "execution_recommendation": "Do not implement this ceiling diagnostic now. Its input can be specified finitely, but even a perfect result would not license the equivalent oracles in Voynich. A fully anonymous successor would be a genuinely larger joint grammar/lexicon task, not a quick extension of this finite example."
+  },
+  "predecessor_assessment": [
+    {
+      "id": "GDT1159",
+      "result": "Unknown ingredient concept recovery from recipe co-occurrence failed all registered gates. Ordered participant/action relations were not in that fixed graph. No weight change or after-result source selection repairs it."
+    },
+    {
+      "id": "GDT343",
+      "result": "Persistent normalized opaque identity plus ordered flow failed to improve parallel-recipe retrieval over identity alone. Identity-specific paths, edges and ordered fields were already used. This does not exhaust recovering unknown identities jointly with unknown action meanings, but generic add-order/flow is not novel."
+    },
+    {
+      "id": "GDT376",
+      "result": "Only local predicate-head-with-dependents signature passed. HIGH_VALENCY_HEAD and PARENTED_DEPENDENT did not; no free argument-role detector."
+    },
+    {
+      "id": "GDT385",
+      "result": "One weak parent relation increment passed but the registered instrument failed overall. No licensed Voynich parent links or pointer vocabulary."
+    },
+    {
+      "id": "GDT394",
+      "result": "The role bottleneck loses to matched generic source compressions. Do not repackage a role score as new information or a privileged semantic layer."
+    },
+    {
+      "id": "GDT948",
+      "result": "Four complete native material/process accounts with jointly assigned nouns/actions already executed; manufacture and inspection remained viable, with open material identities and unobserved state requirements. Singleton repairs were explicitly charged. A new physically coherent story alone repeats this limitation."
+    },
+    {
+      "id": "GDT923",
+      "result": "The literal-source pool already contains b6.6. This is not newly discovered external source coverage and does not reopen the frozen word-key compatibility result."
+    },
+    {
+      "id": "GDT1160",
+      "result": "Contextual abbreviation control remains conditional source evidence; it supplies neither verb meanings nor ingredient/event argument boundaries."
+    }
+  ],
+  "research_decision": {
+    "if_oracle_ceiling_passes": "Keep native ingredient and action meanings unassigned; do not reopen GDT948 or select manufacture over inspection. Known actions and tiny candidate vocabularies would explain the success.",
+    "if_oracle_ceiling_fails": "Keep those native meanings unassigned; reject this finite source-identification mechanism or preserve its ambiguity, without broad claims against procedural semantics.",
+    "same_target_decision": "For the concrete presently available finite task, both outcomes leave the manuscript research decision unchanged. Therefore no substantial control/decoder implementation is justified now.",
+    "genuinely_changed_input_needed": "A different authoring proposal could jointly pay for the action and material bindings using complete already owned passages and make an unequal written consequence, with its reused lexical profiles. That would be a new selection decision, not supplied by this source diagnostic. No demand for a confirmed semantic anchor is imposed; explicit hypothetical joint bindings are allowed, but their consequences cannot be defined from whichever source mapping later wins.",
+    "positive_use_now": "Preserve the source-specific concept-versus-POS distinction when interpreting1159 and when evaluating proposed noun/action priors. Preserve ordered role constraints as a separate unexhausted research question, without claiming the available source-only assay answers it."
+  },
+  "primary_paths": [
+    "experiments/yolo/gdt1159_corema_unknown_lexical_graph/REPORT.md",
+    "experiments/yolo/gdt343_persistent_identity_flow/COMPARATOR_REPORT.md",
+    "experiments/yolo/gdt343_persistent_identity_flow/METHOD.md",
+    "experiments/yolo/gdt376_corema_hidden_function_oracle/REPORT.md",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/REPORT.md",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/REPORT.md",
+    "experiments/yolo/gdt948_herb4_joint_material_reading/REPORT.md",
+    "experiments/yolo/gdt923_fixed_word_key_even_paragraph_compatibility/REPORT.md"
+  ],
+  "no_claims": [
+    "No new manuscript finding",
+    "No recovered Voynich word or action",
+    "No significance claim",
+    "No new experiment or source model executed",
+    "No changes to predecessor results"
+  ]
+}
