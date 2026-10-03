@@ -52,6 +52,12 @@ only links and unindexed work still require targeted search. No reports, raw
 transcriptions or images are opened by lookup. JSON includes the index hash.
 This is retrieval protection, not a semantic approval engine: use existing
 `ideas reconsider` and append-only reviews for any changed reopening proposal.
+Lookup also displays the original and later claim scopes, retaining positives
+alongside failures. A failed specific model is not a ban on its whole topic.
+Lack of an already confirmed word does not veto exploratory reading; plausible
+whole readings remain permitted under the frequency, grammar, visual-context
+and counterexample requirements. The lookup creates no permission gate or
+automatic blacklist. Distinguish developing a hypothesis from confirming it.
 
 The original [30-program plan](../docs/TRANSLATION_PROGRAMS_30.md) is historical.
 Its “28 unexecuted” status and WORKFLOW's “Start with P09” instruction are

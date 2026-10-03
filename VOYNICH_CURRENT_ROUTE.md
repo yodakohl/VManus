@@ -4,11 +4,11 @@ Updated: 2026-10-03.
 ## Current work
 Phase: workflow
 Status: complete
-Task: Prevent stale research restarts.
-Latest decision: No new reading;embryology priority withdrawn.
+Task: Support informed reading hypotheses.
+Latest decision: Lookup shows claim scopes;no semantic veto.
 Working files: tools/lookup_followups.py.
-Assumptions: References do not supersede decisions.
-Resume: Check followups before selection.
+Assumptions: Hypotheses allowed;original findings retained.
+Resume: Develop justified readings;check prior consequences.
 Running: None.
 
 ## Structural baseline

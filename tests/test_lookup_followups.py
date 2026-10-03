@@ -65,6 +65,23 @@ class FollowupTests(unittest.TestCase):
         self.assertEqual(card['followups']['total'], 0)
         self.assertIn('No matches does not establish absent research', render_followups([card]))
 
+    def test_later_failure_does_not_erase_positive_or_veto_exploration(self):
+        for row in self.rows:
+            row['claim_ceiling'] = 'Only this fixed model was evaluated.'
+        self.rows[0]['status'] = 'POSITIVE_WITH_SUPPLIED_CANDIDATES'
+        self.rows[0]['claim_ceiling'] = 'Supervised recovery supported; unknown inventories untested.'
+        self.write()
+        cards = self.lookup()
+        rendered = render_followups(cards)
+        self.assertIn('POSITIVE_WITH_SUPPLIED_CANDIDATES', rendered)
+        self.assertIn('REJECT_FIXED_NOMINAL_EXTENSION', rendered)
+        self.assertIn('Supervised recovery supported; unknown inventories untested.', rendered)
+        self.assertIn('Only this fixed model was evaluated.', rendered)
+        self.assertIn('do not require an already confirmed word', rendered)
+        self.assertIn('grants or denies no research permission', rendered)
+        self.assertEqual(json.loads(render_followups(cards, json_output=True))[0]['status'],
+                         'POSITIVE_WITH_SUPPLIED_CANDIDATES')
+
     def test_missing_dependency_column_is_explicit(self):
         for row in self.rows:
             del row['dependencies']

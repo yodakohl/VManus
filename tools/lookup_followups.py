@@ -18,6 +18,10 @@ from tools.vmanus_experiment import ROOT
 NOTE = ("Dependency references are review leads, not supersession or reopening approval. "
         "Read later primary reports before reusing an old next-step proposal. "
         "No matches does not establish absent research; unindexed/prose-only links are not covered.")
+EXPLORATION = ("Exploratory readings do not require an already confirmed word. "
+               "A failed specific model does not reject its whole topic or erase earlier positives. "
+               "Use frequency, grammar, image context and retained counterexamples to develop justified hypotheses; "
+               "confirmation is a separate step. This lookup grants or denies no research permission.")
 
 
 def lookup_with_followups(identifiers, *, index_path=None, transitive=False,
@@ -60,6 +64,8 @@ def lookup_with_followups(identifiers, *, index_path=None, transitive=False,
         values.sort(key=lambda identifier: int(identifier[3:]))
     for card in cards:
         start = card['experiment_id']
+        card['claim_ceiling'] = indexed[start].get('claim_ceiling', '')
+        card['exploration_policy'] = EXPLORATION
         queue = deque([(start, 0)])
         distances = {start: 0}
         via = {}
@@ -99,12 +105,14 @@ def render_followups(cards, *, json_output=False):
     for card in cards:
         result = card['followups']
         lines = [render_lookup([card]).rstrip(),
+                 '  original_claim_scope: ' + (' '.join(card['claim_ceiling'].split()) or '[not recorded; inspect primary]'),
                  f"  FOLLOWUP REVIEW: {result['total']} {result['mode']} higher-numbered indexed reference(s); "
                  f"showing {len(result['items'])} from offset {result['offset']}."]
         for item in result['items']:
             lines.extend([
                 f"    {item['experiment_id']} via {','.join(item['via'])}: " + (' '.join(item['status'].split()) or '[not recorded]'),
                 '      question: ' + (' '.join(item['question'].split()) or '[not recorded]'),
+                '      claim_scope: ' + (' '.join(item['claim_ceiling'].split()) or '[not recorded; inspect primary]'),
                 '      primary_report: ' + (' '.join(item['primary_report'].split()) or '[not recorded]'),
             ])
         if result['next_offset'] is not None:
@@ -120,5 +128,6 @@ def render_followups(cards, *, json_output=False):
             lines.append(f"  INCOMPLETE: {result['unresolved_dependency_count']} unresolved dependency entries; "
                          + '; '.join(result['unresolved_dependency_examples']))
         lines.append('  ' + NOTE)
+        lines.append('  ' + EXPLORATION)
         sections.append('\n'.join(lines))
     return '\n\n'.join(sections) + '\n'
