@@ -4,11 +4,11 @@ Updated: 2026-10-03.
 ## Current work
 Phase: exploration
 Status: complete
-Task: Check1152 and retained meaning leads.
-Latest decision: No new test justified;not impossibility;0words.
-Working files: source_supply_20260929/GD_FRESH_IDEA_SUPPLY_20261002.md (Laufenberg proposal).
-Assumptions: Frequency before gloss;message is not word meaning.
-Resume: New content consequence needed;no unchanged audit.
+Task: Moerbeke1490 chapter acquired;native errata retained.
+Latest decision: Water/juice chains supplied;extra quote absent;1138unchanged.
+Working files: source_supply_20260929/GD_MOERBEKE_1490_* (Laufenberg proposal).
+Assumptions: Not1277/Urb247 wording;transcript partial;0words.
+Resume: No target selected;use source with errata,not another acquisition.
 Running: None.
 
 ## Structural baseline

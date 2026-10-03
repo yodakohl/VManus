@@ -165,3 +165,78 @@ and changed the live fields to decorated B[uncertain] and incomplete collation.
 The original observation remains auditable without a machine-readable reader
 mistaking the withdrawn word for a current certain reading. This is a claim
 consistency repair before first publication, not a new manuscript observation.
+
+## Changed-input acquisition decision,2026-10-03 01:26:36UTC
+
+Root authorized a new bounded15-minute source acquisition through01:41:36UTC.
+The prior same-image correction is retained. The changed input sought is a
+different complete readable primary chapter, located through the exact
+Galenolatino bibliography and its public library resource. A complete printed
+Moerbeke chapter is admissible source acquisition, explicitly distinguished
+from a pre1450 manuscript witness; no print proves earlier native wording.
+Obtain actual chapter words and boundaries, or record an exact access/reading
+failure. No Voynich target/reserve access, decoder, contact, global edit or Git.
+Source receipts/own substantive annotations remain in this existing dossier;
+restricted study images remain outside the repository. No automatic extension
+or word-meaning selection follows either outcome.
+
+Specific questions remain: explicit operation reprise before rationale;
+former/replacement-water reference wording; intrinsic-juice ownership through
+inability/comparative loss. The first selected resource is the public1490
+Pinzi edition, volume2, via the official BIU Santé copy linked by Galenolatino.
+A readable continuous II.44 plus its II.44.2 words would supply a historical
+source constraint relevant to1138; absence/access failure leaves that input
+missing. Neither outcome selects Latin or authorizes an automatic target
+retest. Budget includes provenance, transcription and compact recording for
+root publication; no library image will be published against its rights.
+
+## Complete later printed source acquisition,2026-10-03 01:36UTC
+
+Within the prospective15-minute budget, obtained one readable public print
+copy:1490 Pinzi *Opera*, vol2, BIU Santé digital cote extacadinca12, identified
+as the Moerbeke translation by Galenolatino23/edition1. The complete chapter is
+printedXLII `de caule`, scan215 right bottom (k iiii) continuously through216
+left column, ending beforeXLIII `de blita & attriplice`. This supplies all five
+GreekII44 content segments in a later printed witness; actual1277/pre1450
+wording and Urb247 completeness/sequence are not thereby established. The old
+decoratedB/mushroom correction remains intact.
+
+New substantive original transcription and three-relation analysis:
+`GD_MOERBEKE_1490_CHAPTER_XLII_20261003.md`; provenance/hashes:
+`GD_MOERBEKE_1490_RECEIPTS_20261003.json`; compact outcome:
+`GD_MOERBEKE_1490_RESULT_20261003.json`. Marked spelling/abbreviation gaps
+remain; no source text was filled from Greek. Cooking is repeated in the
+prohibition after positive decoquimus; what is absent is a separate additional
+quoted-operation reprise **between that prohibition and the volumus enim
+rationale**. Later sicut dixi in instanti is present at a different position.
+The exact former/other warm/pronominal water chain and proprium ipsius succum
+ownership/repeated proprium succum/inability/loss chain are newly available
+actual source wording. They do not supply1138's missing target water producers,
+contexts or later consumers, selectLatin, or authorize a retest.
+
+Root inspected native215/216 with prior Greek/source-question knowledge;
+corroboration is informed, not blind. Publish only the three new original
+source/receipt/result files and this append. Raw library images/crops/HTML
+remain outside the repository and excluded under the library rights marker.
+No global, ledger, target, decoder or Git change by this author. Acquisition
+expansion now stops; root handles review/publication.
+
+### Informed native-review correction,2026-10-03 01:38UTC
+
+Root flagged material draft spellings after the freeze. Explicit errata are
+appended to the new chapterMD; original transcription/oldhash remain retained.
+Most importantly nullum la[cha?]norum and the “vegetable noun” characterization
+are withdrawn:current nullum [UNRESOLVED NOUN] potest, possible [li?]xatorum
+unselected. Several peripheral predicates/naming words are likewise uncertain.
+The new resultJSON records corrections and both artifact pins. Core water and
+preciseQ1 extra-reprise absence are retained; exact diplomatic transcription
+not achieved. No target conclusions or oldUrb247 repair follow.
+
+
+### 2026-10-03 root closure and source-byte validation
+
+Independent receipt review verified all eight new cached source records and three retained older bibliographic retrieval records against their recorded byte lengths and hashes. The corrected chapter hash is `2e79700698750f049f61d9566648dbb6d948b23f2862b102fe926b4a46e6e7cb`; its pre-errata prefix exactly reproduces original frozen draft `9c1c926fed169a41539571e26199feeff0dde02f82ef62458ea89d4811f70cd2`. The reviewer did not certify Latin accuracy. Root directly inspected the same215/216 native pages with prior Greek/context exposure and raised the explicit spelling corrections. Q3's noun remains unresolved. This is informed corroboration, not blind confirmation.
+
+`GD_MOERBEKE_1490_VALIDATE_20261003.py` reproduces chapter/current-original hash and correction bookkeeping checks. Optional `--cache DIR` additionally verifies all eight new receipt bytes in a separately held public-source study cache; without it source-byte validation is explicitly NOT_RUN. Root ran that mode successfully. No network download, Voynich access, semantic executor or Latin-accuracy check is hidden in the validator. Library images and HTML remain excluded from publication.
+
+Scientific decision: actual later Latin print wording is now supplied; no further acquisition is needed for these three source questions. The immediate extra quoted-operation reprise is not source-attested at the proposed position. The former/other-water chain and juice expressions are retained with the errata ceiling. GDT1138 and all other registered target decisions remain unchanged; no next target test was selected, no source-copy inference or translated Voynich word obtained. The15-minute acquisition budget ended with a qualified source result; subsequent root validation and publication add no source hunt or target-model expansion.
