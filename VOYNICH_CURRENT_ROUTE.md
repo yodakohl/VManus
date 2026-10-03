@@ -2,14 +2,14 @@
 Updated: 2026-10-03.
 
 ## Current work
-Phase: exploration
+Phase: fixed_test
 Status: active
-Task: Ten-hour block from02:27UTC;meaning.
-Latest decision: 865local doublemark supported;writer partial.
-Working files: research_registry/proposals/production_origin_supply_20261003/BLOCK_DECISION.md.
-Assumptions: Source recovery is not target homology.
-Resume: Seek a content constraint; native review has no new panel.
-Running: Root10hblock;bounded reading and source reviews.
+Task: Ten-hour block from02:27UTC;GDT1160.
+Latest decision: Source ambiguity supports context test.
+Working files: experiments/yolo/gdt1160_contextual_abbreviation_inverse/.
+Assumptions: Editorial ambiguity is not native homography.
+Resume: Freeze code; publish preregistration before fitting.
+Running: Root;1160runner/validator;bounded idea supply.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

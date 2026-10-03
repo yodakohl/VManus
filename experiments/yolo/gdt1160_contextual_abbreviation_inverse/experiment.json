@@ -1,0 +1,133 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Supervised source calibration only; editorial ambiguity is not native homography; no Voynich input, decoder permission, language, word meaning, neural necessity or significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/run.py fit --fold 0",
+    "validate": "python3 experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/validate.py"
+  },
+  "created": "2026-10-03",
+  "dependencies": [
+    "GDT001",
+    "GDT155",
+    "GDT157",
+    "GDT832",
+    "GDT995"
+  ],
+  "experiment_id": "GDT1160",
+  "inputs": [
+    {
+      "path": "gdt155_blinded_diplomatic.tsv",
+      "sha256": "8e907ee5a29def9098e84239617c8deab4d3420c8df50860107d8637489ec03b",
+      "role": "frozen source or primary predecessor"
+    },
+    {
+      "path": "gdt155_blinded_abbreviation_sites.tsv",
+      "sha256": "859e4d40331493bf830b8eca0bf435301e51ec623712a2822ff3fab6f630a01f",
+      "role": "frozen source or primary predecessor"
+    },
+    {
+      "path": "gdt155_unblinded_abbreviation_sites.tsv",
+      "sha256": "99397730f0dc3cc4920b44c6da7a1ceadfd27937d57e4a5ab2168e366bce39c6",
+      "role": "frozen source or primary predecessor"
+    },
+    {
+      "path": "GDT155_MEDIEVAL_ABBREVIATION_SOURCE_AUDIT.md",
+      "sha256": "d1603fb4e16b97e428aa512599c3ba5b4bcefaa6884dc0d23f756e575f1a16b2",
+      "role": "frozen source or primary predecessor"
+    },
+    {
+      "path": "GDT155_MEDIEVAL_ABBREVIATION_UNBLIND_REPORT.md",
+      "sha256": "31ce348b16e21645d811787e2c887065e2a2a631577b0630d673d16c7c871570",
+      "role": "frozen source or primary predecessor"
+    },
+    {
+      "path": "GDT157_LEARNED_ABBREVIATION_CAUSAL_REPORT.md",
+      "sha256": "e38b8ad7508ff7d1f39552f9fb12df1c290a18bde43f324e1276c51ea4edfc9c",
+      "role": "frozen source or primary predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt995_conditional_suffix_inverse/REPORT.md",
+      "sha256": "4b6550d67777f869fc0b93419e7efead557e275a87aadd7ade9fe412fed31b99",
+      "role": "frozen source or primary predecessor"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CONTEXTUAL_EXPANSION_CAPACITY.json",
+      "sha256": "b40d069a2b1aed5ab2d1bbedaad257a985509bd6cfad3a0e4dda001d9631d693",
+      "role": "frozen source or primary predecessor"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/METHOD.md",
+      "sha256": "7a72e6bcc8ae1675ad00f20846ed7ac7961b8c92ed0be9351eecff5cd2b35f10",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/PREREGISTRATION.md",
+      "sha256": "23ea7d1fc4737fa4465d1920eb889ab52fff9340d6a21518fab74809e02d4b67",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/README.md",
+      "sha256": "c8ac532d922b87bebb3ee0b5a1c93883d1479098189460ead24af2909c302bbf",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/SPEC.json",
+      "sha256": "f4e068bc0c3d5aa101407586ddb98532a584b803aff655ab2e7e450d7b2b0211",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/PREPARATION.json",
+      "sha256": "1ed7e44d72a3d665bcd1dcfccc477fb5173f04476147c3219f43f742f6699ca0",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/PREPARATION_VALIDATION.json",
+      "sha256": "0d5a72b1a34a85cd61c21ee8364c1c44801e5f9a948bf63ad0dcc7bebd0f5165",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/requirements.txt",
+      "sha256": "4680e41c5be073f82ec34f6149d7e150e7d6304a5240705b9613233e654df9f3",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/SOURCE.json",
+      "sha256": "f67dc3400e760b35846996e3e90e53136b97a931ddc94eb6b6ccd6e19577d3e1",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/run.py",
+      "sha256": "32216e60363e8437daa13e0640966959b22e14d1b2e81bba4f32e97d962f3859",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    },
+    {
+      "path": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/src/validate.py",
+      "sha256": "cd5244be9497a06ef9ceb4ddd2de97585d0d98585b0f0f987db07ab43a93d409",
+      "role": "preregistered contract, implementation or source-capacity receipt"
+    }
+  ],
+  "question": "Does written context resolve identical marked editorial forms across held source books, and does one fixed small neural architecture improve on linear context?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "contextual_abbreviation_inverse",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Contextual recovery of ambiguous historical abbreviation expansions",
+  "updated": "2026-10-03",
+  "validation": {
+    "status": "NOT_RUN",
+    "artifact": null
+  }
+}

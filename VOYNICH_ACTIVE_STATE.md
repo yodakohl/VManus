@@ -1,3 +1,7 @@
+## 2026-10-03 GDT1160 fixed source-context comparison selected
+
+[Registered design](experiments/yolo/gdt1160_contextual_abbreviation_inverse/METHOD.md): 21,512 exact-marked ambiguous Nuremberg source sites, four whole-book partitions; frequency/layout/linear context versus one small neural architecture. No predictions at selection. Scope is supervised editorial-expansion ranking, not native homography or a Voynich channel. GDT001 already used neural source-symbol models; this different endpoint must earn its complexity against simple context. Native follow-up after865 found no localized hidden unanimous-word mark class; no new image panel. IDEA900/901 remain raw source mechanisms with no target binding. The ten-hour block from02:27UTC continues.
+
 ## 2026-10-03 IDEA865 local augmentation update
 
 [Same-pixel counter-read](research_registry/proposals/production_origin_supply_20261003/SOURCE865_DOUBLE_MARK_REVIEW.json):four lower-zone points flank epsilon; under the documented two-point mu rule, two applications locally account for doubledmu. This improves the earlier specific uncertainty without inventing an unmarked consonant. Two reviewers knew the edition; pairing remains interpretive, complete writer stillpartial. No target correspondence. Next check concerns existing native evidence of transcription-lost mark distinctions, not automatic decoder selection.

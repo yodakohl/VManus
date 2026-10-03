@@ -1,0 +1,117 @@
+{
+  "experiment": "GDT1160",
+  "selected_utc": "2026-10-03 06:25:07 UTC",
+  "expansion_checkpoint_utc": "2026-10-03 07:55:07 UTC",
+  "source_inputs": {
+    "gdt155_blinded_diplomatic.tsv": "8e907ee5a29def9098e84239617c8deab4d3420c8df50860107d8637489ec03b",
+    "gdt155_blinded_abbreviation_sites.tsv": "859e4d40331493bf830b8eca0bf435301e51ec623712a2822ff3fab6f630a01f",
+    "gdt155_unblinded_abbreviation_sites.tsv": "99397730f0dc3cc4920b44c6da7a1ceadfd27937d57e4a5ab2168e366bce39c6"
+  },
+  "books": [
+    "Band2",
+    "Band3",
+    "Band4",
+    "Band5"
+  ],
+  "eligibility": "Exact original-case Unicode marked site equals its entire containing whitespace group, exactly one synthetic editorial marker. No gold-based length filtering.",
+  "training_type_support": {
+    "minimum_expansions": 2,
+    "minimum_sites_per_supported_expansion": 5,
+    "minimum_pages_per_supported_expansion": 3,
+    "candidate_domain": "ALL train-attested exact expansions including rare; never held truth"
+  },
+  "expected_source_eligible_sites": 118843,
+  "expected_held_sites": [
+    3043,
+    4870,
+    4763,
+    8836
+  ],
+  "context": {
+    "scope": "complete record, ordered lines then whitespace groups",
+    "radius_groups": 8,
+    "exclude_offset_zero": true,
+    "cross_physical_lines": true,
+    "never_cross_records": true,
+    "expanded_neighbors": false,
+    "ngrams": [
+      2,
+      3,
+      4
+    ],
+    "boundary_padding": false,
+    "feature_key": "str(signed_offset) + colon + exact_ngram",
+    "hash": "SHA256 UTF-8 key; first8 digest bytes as unsigned big endian modulo4096",
+    "dimensions": 4096,
+    "value": "counts then per-row L2 normalization; all-zero stays zero"
+  },
+  "layout": [
+    "record_position_quartile onehot0..3 from source",
+    "floor(4*zero_based_group_index/line_group_count) onehot0..3",
+    "first source line in record indicator",
+    "last source line in record indicator"
+  ],
+  "family_feature": "onehot exact marked group among sorted training-qualified types; no learned category from held labels",
+  "models": {
+    "F": "empirical unsmoothed train candidate probabilities",
+    "L": "linear family+layout with fixed log F offset",
+    "C": "linear family+layout+context with fixed log F offset",
+    "N": "one hidden layer64 ReLU on same C features with fixed log F offset"
+  },
+  "outputs": "Sorted unique exact train expansion strings; softmax masked to each type’s full train candidate domain",
+  "training": {
+    "dtype": "float32",
+    "device": "CPU",
+    "epochs": 20,
+    "optimizer": "AdamW",
+    "learning_rate": 0.003,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "seeds": [
+      116001,
+      116002
+    ],
+    "fold_seed_offset": "100*zero_based_fold_index",
+    "model_initialization": "PyTorch standard Linear initialization",
+    "shuffle": "independent seeded epoch permutation generator reset to fold/seed for each arm; identical minibatch orders across L/C/N, separate from model initialization RNG",
+    "selection": "none; final epoch each seed; arithmetic mean candidate probabilities",
+    "threads_per_fit": 2,
+    "maximum_cpu_workers": 32,
+    "deterministic_algorithms": true,
+    "loss": "masked candidate cross entropy, all qualified training sites equally weighted",
+    "row_order": "site_id lexicographic",
+    "loss_curve": "sample-weighted mean online batch cross entropy per epoch, not full post-epoch reevaluation"
+  },
+  "primary_metric": "For each held book, equal mean of exact expansion accuracy across its held qualified marked types; primary aggregate equal mean of four book metrics",
+  "context_gate": {
+    "mean_gain_over_max_F_L": 0.03,
+    "folds_strictly_above_both_F_L": 3,
+    "mean_definition": "mean_book_macrotype(arm) - max(mean_book_macrotype(F),mean_book_macrotype(L)); positive folds compare arm against BOTH individually"
+  },
+  "neural_gate": {
+    "also_pass_own_context_gate": true,
+    "mean_gain_over_C": 0.01,
+    "folds_strictly_above_C": 3
+  },
+  "tie_rule": "lexicographically first exact candidate among maximal stored mean probabilities",
+  "secondary": [
+    "token accuracy",
+    "all ambiguous sites correct per eligible record",
+    "each marked type",
+    "training-defined terminal m/n pair subset with original support threshold",
+    "input-only novel exact sixteen-neighbor-group window among same-marked-type training windows; missing positions represented explicitly",
+    "all OOV truths counted as errors",
+    "train loss by epoch; underconvergence disclosed not repaired"
+  ],
+  "scope_ceiling": [
+    "supervised source calibration",
+    "not native graphical homography",
+    "no Voynich input or decoder permission",
+    "no neural necessity, nonlinearity causation, long-range grammar, semantic confirmation or significance claim",
+    "four related books not independent traditions",
+    "all source labels previously exposed"
+  ],
+  "prediction_lock": "Fit/prediction artifact hashes frozen before separate held scoring; prior analyst exposure disclosed",
+  "no_repairs": "No architecture, normalization, candidate, threshold, epoch or hyperparameter changes after first real fit; implementation bugs may be corrected transparently with invalidated outputs retained.",
+  "secondary_mn_rule": "Training-qualified exact marked type with two exact expansions sharing all characters except final m versus n; BOTH expansions individually meet >=5 sites and >=3 pages. Keep all its held sites and ALL other train candidate expansions."
+}
