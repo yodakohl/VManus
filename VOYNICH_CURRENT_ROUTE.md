@@ -4,12 +4,12 @@ Updated: 2026-10-03.
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour production block from02:27UTC.
-Latest decision: 1156NO_CAPACITY;4sheets/1quire.
+Task: Ten-hour research block from02:27UTC.
+Latest decision: 1157all6candidates fail full-search control.
 Working files: research_registry/proposals/production_origin_supply_20261003/BLOCK_DECISION.md.
-Assumptions: Structure is not meaning; no l=m.
-Resume: Review joint ambiguous image/text evidence against1090.
-Running: Root10hblock; bounded image/text review.
+Assumptions: Feature association is not meaning.
+Resume: Check image-contact graph primaries; no1157repair.
+Running: Root10hblock;two bounded graph reviews.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

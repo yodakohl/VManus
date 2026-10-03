@@ -1,0 +1,12 @@
+{
+  "title": "RAW UNREVIEWED: three-channel relation triangles separate visual association from historically usable word roles",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. Infer a small distribution over joint word-role assignments from three distinct evidence channels: ambiguous image attributes, Voynich construction dependencies, and independently annotated historical concept-role relations. Retain all near-equivalent assignments. Require the first two channels to predict withheld relations in the third and repeat by rotating the withheld channel; an attractive fit to all observations at once is insufficient.",
+  "scope": "method",
+  "design": {
+    "mechanism": "A shared latent role inventory couples weak observations without assuming a single picture-to-word pointer, a single source language, or one-to-one lexical mapping.",
+    "unit": "Small connected sets of complete-word types and construction occurrences across whole physical leaves, matched against a finite externally fixed concept-role family from complete historical entries.",
+    "contrast": "One joint assignment distribution versus independently optimal pairwise alignments, frequency-only matching, construction-only states and wrong historical-domain controls at the same complexity.",
+    "prediction": "Two evidence channels select relation triangles that predict a withheld third-channel relation not fixed by any marginal frequency or single edge; pairwise solutions that disagree on the shared roles must lose. Rotate channel holdout and preserve all assignment symmetries.",
+    "scope": "RAW proposal; no target scoring or meanings. GDT341-343 recipe graph control failures and GDT347 nontransfer of formal coordinate graphs retained. This is not their unchanged graph decoder: native source and target roles may have different observed spellings and are joined through uncertain relations. IDEA411 relation signatures is a predecessor; novelty is predictive leave-one-channel-out compatibility, not free complete-reading fitting. Historical annotation coverage, latent model specification, exchangeability and concept independence require review. Co-dependent visual features are not independent evidence; alternate readers are one manuscript."
+  }
+}

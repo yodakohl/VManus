@@ -1,0 +1,5 @@
+# GDT1157 artifacts
+
+INPUT.json: pinned38-page,169-word,6-feature input and metadata. CAPACITY.json: physical-leaf signature blocks, actual observable-bundle multiplicities and orbit. OBSERVED_FOLDS.json.gz: all32 folds, latent priors/posteriors, training counts and estimates, every selected model/alias and6422 held word/page predictions. CANDIDATES.json: all169 observed summaries including failed gates and search ranks. NULL_RESULTS.json.gz: all199 serially seeded complete-leaf assignments, all169 candidate summaries per world, and complete-search maxima. ALIASES.json retains exact mask aliases and semantic limitations. RESULT.json gives the fixed final decision.
+
+Compressed JSON uses gzip with mtime0, retains every field and can be read through Python gzip.open. Array word order is INPUT.words; page-state rows INPUT.pages; features INPUT.features;64 latent states itertools.product([0,1],repeat=6); training means/variances append COUNT after the six features. Feature fits include all eligible models, while selected_models includes every objective tie and BACKGROUND. No new manuscript images or reserved data are included.

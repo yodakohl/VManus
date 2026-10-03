@@ -1185,3 +1185,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1154 | GDT1154 | `NO_ORDER_LEAD` | [report](../experiments/yolo/gdt1154_paragraph_order_correspondence/REPORT.md) | 19 | 1.2 MiB | 1 | STRUCTURED_YOLO |
 | GDT1155 | GDT1155 | `NO_SUPPORTED_TRANSFER` | [report](../experiments/yolo/gdt1155_terminal_drawing_edge_transport/REPORT.md) | 20 | 14.1 MiB | 2 | STRUCTURED_YOLO |
 | GDT1156 | GDT1156 | `NO_CAPACITY` | [report](../experiments/yolo/gdt1156_sheet_face_ending_residual/REPORT.md) | 22 | 3.5 MiB | 3 | STRUCTURED_YOLO |
+| GDT1157 | GDT1157 | `NO_SUPPORTED_VISUAL_WORD_LEAD` | [report](../experiments/yolo/gdt1157_cross_situational_visual_words/REPORT.md) | 22 | 1.8 MiB | 3 | STRUCTURED_YOLO |

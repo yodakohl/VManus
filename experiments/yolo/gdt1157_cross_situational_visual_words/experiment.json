@@ -1,0 +1,178 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete observed-fold and199-world search data retained using deterministicgzip withmtime0; compressed artifacts below5MB.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory feature-compatible whole-word association only; no word meaning, authorial owner, organ name, independent confirmation or project-wide significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1157_cross_situational_visual_words/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1157_cross_situational_visual_words/src/validate.py"
+  },
+  "created": "2026-10-03",
+  "dependencies": [
+    "GDT915",
+    "GDT1089",
+    "GDT1090"
+  ],
+  "experiment_id": "GDT1157",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/src/BLIND_IMAGE_LIST.tsv",
+      "sha256": "c06ddd3b4e13d0cd3fa9d843b4732ddd307672181f65ea86e18e44b05f5c7c85",
+      "role": "frozen input"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/BLIND_A.tsv",
+      "sha256": "7796e93125d113d1359dc4385a919fec0bff2a701b1bb8da31068ba5d8d5fc15",
+      "role": "frozen input"
+    },
+    {
+      "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/artifacts/BLIND_B.tsv",
+      "sha256": "f6f7bcb1115e8e2dd312d9818a6bcc094e79040b75934361c83ed48c5e5a5b2a",
+      "role": "frozen input"
+    },
+    {
+      "path": "experiments/yolo/gdt1090_schor_visual_search_control/artifacts/ALL_WORDS.tsv",
+      "sha256": "5946e5fecb7a947a3de0ddc3779650a4df75586de5f3829ee05d3800139850bf",
+      "role": "frozen input"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+      "role": "frozen input"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "frozen input"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+      "sha256": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd",
+      "role": "frozen input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/CANDIDATE_TABLE.md",
+      "sha256": "66f2a779a3b070cb4333da0b4c0a6c7ff74b9c47f4074f750b304c09162b9f68",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/METHOD.md",
+      "sha256": "1e71138b819709a8acb928d704d42afcf8eb33f40fb4d33d9d8b6ebb3440d8af",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/PREREGISTRATION.md",
+      "sha256": "1e71138b819709a8acb928d704d42afcf8eb33f40fb4d33d9d8b6ebb3440d8af",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/PREREG_LOCK.json",
+      "sha256": "88a4b8aea5cecaafa1bef32ae7d48ee1b8be92220735a79a0b8e1dc429acfff5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/README.md",
+      "sha256": "c765cc897ee8664b0283978b7194dc6f59b0ccfd635120e8f9701c77b83f23be",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/REPORT.md",
+      "sha256": "138c9ed6b236a063472b70a8e03ae615ebf2fc90fa09bd847ea46cec980d41e4",
+      "role": "primary report"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/REVIEW.json",
+      "sha256": "ef1dcc985e8a3e44aad0a988406a5bc60ca1a3e39f11318129c4768f407cfd36",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/ALIASES.json",
+      "sha256": "ee13fc6c957b6d9a7e253360e49ac1027c8f8ec5a7c339eab52f070c6c334649",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/CANDIDATES.json",
+      "sha256": "dd265fe7123b2e4e42b6489f2d397e785648813686f48aaa381ddb4f7093f87a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/CAPACITY.json",
+      "sha256": "33ca91597c480c4a2a51af8ce6f25459e8f6ecbc7da8034c3d837cf4ac27f8ca",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/INPUT.json",
+      "sha256": "83284e1a3370697e243090bdb3b4c1d6a6ae49f3f411ea1d1706d7bf33d2f54d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/NULL_RESULTS.json.gz",
+      "sha256": "7193504913d1f975f707c2b3128c1e68b7cf89fc07853ae2c2b36c37ee43ac67",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/OBSERVED_FOLDS.json.gz",
+      "sha256": "7abeda43d774f8f5cea10da2700e1ef221006e7f7f2076f1de29ec0f9157e652",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/README.md",
+      "sha256": "9dca8dd37ce447a041ca329da1e10f960b9ad65ba0182d83146461969326ae4d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/RESULT.json",
+      "sha256": "78f1a3c3135420a1fb44c80aa56a6c1ad7104f7d29379d253b3a69a6b43f635c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/VALIDATION.json",
+      "sha256": "4093d4f519d18bbdb19b5df0621a385c0b741483a903c011aa46e6dae84b2bc7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/VALIDATION.md",
+      "sha256": "7fb7b145f2602098bab6b9ecb19de88ba765a70b94c5f1afba9ea6211c783a10",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/src/METADATA.json",
+      "sha256": "bb9d12bcf6e7168cf764d3443716c13837b5321c283c2ad5a025308a83c5f47c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/src/SOURCE.json",
+      "sha256": "7d7aa04e6ac67571519a137001b34ce0845306f3364692f410ea2442b88e5320",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/src/run.py",
+      "sha256": "3c8e7642d4d4f7807f180e20fe49a4f7a53d5253ca7180ff051fc88046d02fa2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1157_cross_situational_visual_words/src/validate.py",
+      "sha256": "daa40b3ccb49d116591631d5473519eb91afcd89bedd1dc6ab87ae44b1a270c3",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Do fixed single-feature joint-uncertainty visual models improve whole-leaf-held word-presence prediction beyond background andCOUNT and survive complete-search image-bundle permutation?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN",
+    "f116v": "UNADMITTED",
+    "reserves": "CLOSED"
+  },
+  "slug": "cross_situational_visual_words",
+  "status": "NO_SUPPORTED_VISUAL_WORD_LEAD",
+  "title": "Cross-situational visual prediction of fixed whole-word presence",
+  "updated": "2026-10-03",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1157_cross_situational_visual_words/artifacts/VALIDATION.json"
+  }
+}
