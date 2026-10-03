@@ -1,0 +1,141 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory text correspondence only; no common ancestry, copying direction, word meaning or manuscript-wide significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1154_paragraph_order_correspondence/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1154_paragraph_order_correspondence/src/validate.py"
+  },
+  "created": "2026-10-03",
+  "dependencies": [
+    "GDT928"
+  ],
+  "experiment_id": "GDT1154",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b",
+      "role": "frozen input"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/src/run.py",
+      "sha256": "9838c29bc6dbbe57952604b12dd6b009fe55762cd3ede37d2291246207c1c11a",
+      "role": "frozen input"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/PREREG_LOCK.json",
+      "sha256": "b8bb305b4930019f0a5b546df4af9ccd85b2cf9ecc54fed511d9ce671f064dac",
+      "role": "frozen input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/CANDIDATE_TABLE.md",
+      "sha256": "a9a539573caa13be0c2ddecec984583efef6c875e0c0fd5839ad84f424376a63",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/METHOD.md",
+      "sha256": "269228c677c5e3160d7a45b0c246755d0aecad4b063d025b573ccd7fc929e533",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/PREREGISTRATION.md",
+      "sha256": "269228c677c5e3160d7a45b0c246755d0aecad4b063d025b573ccd7fc929e533",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/PREREG_LOCK.json",
+      "sha256": "e1747ce63d398aa7a554cbc95be5380029e63cc783a5319e0067a2b0d626892a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/README.md",
+      "sha256": "1b89816b2d5262014eb6147cd4d0aab4de1b46f4b006a20ae762978dbedb27cc",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/REPORT.md",
+      "sha256": "c7579c43e9367d90f0efb7814cacc6b491e6d22119202fd41b224727a6449ee6",
+      "role": "primary report"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/REVIEW.json",
+      "sha256": "6344c1d50c52185a75a0ad75d32436552ad7d1273ef0b31ee9e759a1943e4eed",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/WHOLE_CONTEXTS.md",
+      "sha256": "6c32952952fca1de1ed642a9a28d621d9d208298a0170a31b9a9af509530076a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/artifacts/ALL_PAIRS.tsv",
+      "sha256": "4aa0dd810bd38321224ad0491a1bd472bce4b468780f784fa52a62fae63d1d72",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/artifacts/NULL_MAXIMA.json",
+      "sha256": "d894d055042c176b89561e6f0b8d2717f474c4b4b3ae46f6630be322c5a932e6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/artifacts/README.md",
+      "sha256": "6accbce45c26b97e426cb6766e944f27795121e00b0719b75cc7bb6848a3c383",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/artifacts/RESULT.json",
+      "sha256": "968e427e269bdbcd6c6626f69ff727c1dc639e21b1af42975849f77b7e432b17",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/artifacts/TOP_CONTEXTS.json",
+      "sha256": "68b4ef6c04283a4b7418e0ce8a47d576821583f05e7fd954823002d0368596e4",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/artifacts/VALIDATION.json",
+      "sha256": "cdbe831b9bae34298bedf630475d02ef44dadf8e6a685cb7b6621958d03def90",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/artifacts/VALIDATION.md",
+      "sha256": "e0870333b23dbbfe8fa646a7222836e011de49cc3a78ec8046049e34f334ee60",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/artifacts/eligibility.json",
+      "sha256": "bdbd6f14296247625bfa4321157d734d6e098b911d491179fd6b4491b0fd99a3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/src/run.py",
+      "sha256": "5a083b84f0db2c3772fee323eea98e023eb5245e94165309963b45686ebc23a3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1154_paragraph_order_correspondence/src/validate.py",
+      "sha256": "30002c6bd6f405f660781e51cee6fd8277a9bdff19966cce9b3240bcf667de00",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Do complete cross-leaf paragraphs show distributed ordered correspondence beyond the maximum from intact-line rearrangements?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN",
+    "f116v": "UNADMITTED",
+    "reserves": "CLOSED"
+  },
+  "slug": "paragraph_order_correspondence",
+  "status": "NO_ORDER_LEAD",
+  "title": "Whole-entry order correspondence under intact-line rearrangement",
+  "updated": "2026-10-03",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1154_paragraph_order_correspondence/artifacts/VALIDATION.json"
+  }
+}

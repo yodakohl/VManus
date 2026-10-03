@@ -4,11 +4,11 @@ Updated: 2026-10-03.
 ## Current work
 Phase: fixed_test
 Status: complete
-Task: GDT1153 prior continuation choice.
-Latest decision: Strict rule refuted; same counts/different choices;0words.
-Working files: experiments/yolo/gdt1153_prior_continuation_choice/REPORT.md.
-Assumptions: Exposed915caches; no new meaning or access.
-Resume: Retain paired counterexamples; no recency repair or anaphor gloss.
+Task: GDT1154 whole-entry order correspondence.
+Latest decision: 6611pairs; nullrank.59; no internal-parallel lead;0words.
+Working files: experiments/yolo/gdt1154_paragraph_order_correspondence/REPORT.md.
+Assumptions: Exposed928cache; ancestry unresolved.
+Resume: No LCS repair; distinct production evidence required.
 Running: None.
 
 ## Structural baseline
