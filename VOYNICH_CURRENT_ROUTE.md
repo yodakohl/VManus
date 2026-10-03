@@ -4,11 +4,11 @@ Updated: 2026-10-03.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: OTOR exploratory draft completed.
-Latest decision: OTOR partial;no preferred meaning.
+Task: Whole-paragraph candidate review.
+Latest decision: RAW909/f104r yields no complete contrast.
 Working files: production_origin_supply_20261003/.
-Assumptions: Hypotheses allowed;original findings retained.
-Resume: No HAS/POWER export;seek motivated whole reading.
+Assumptions: Hypotheses allowed;no selected word values.
+Resume: f9v spans;retain family constraints.
 Running: None.
 
 ## Structural baseline
