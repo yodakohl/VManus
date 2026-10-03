@@ -1,3 +1,7 @@
+## 2026-10-03 GDT1161 textile comparison lacks distinctive support
+
+[Complete observations and decision](experiments/yolo/gdt1161_f85r2_textile_instrument_contrast/REPORT.md): both observers leave all three south textile features uncertain; east frame/winding absent for ROOT but uncertain for B. Both retain bulb/neck/rim geometry. Neither joint support nor strict joint contradiction gate passes: NO_DISTINCTIVE_TEXTILE_SUPPORT_OR_CAPACITY. Do not resolve uncertainty by voting or promote a medical word from vessel geometry. Same exposed leaf, partial expectation separation, zero independent leaves/words; original1043 unchanged. Ten-hour block from02:27UTC continues; select a different content consequence after publication.
+
 ## 2026-10-03 conditional role-prior implementation not selected
 
 [Feasibility receipt](research_registry/proposals/production_origin_supply_20261003/CONDITIONAL_ROLE_PRIOR_FEASIBILITY.md) preserves exact source surface-group reconstruction capacity. A new source POS score would not distinguish the current LIGHT/DURATION or TOKEN/PATTERN alternatives; no model or target POS transfer selected. GDT1160 complete results are public at2a68b500f. Next seek a concrete source-constrained content relation that changes a complete candidate account, retaining prior semantic and renderer failures.
