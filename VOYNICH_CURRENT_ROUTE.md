@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: Ten-hour production block from02:27UTC.
-Latest decision: 1155ENDchannel fails DRAWING; intermediate mrate retained.
+Latest decision: 1156NO_CAPACITY;4sheets/1quire.
 Working files: research_registry/proposals/production_origin_supply_20261003/BLOCK_DECISION.md.
-Assumptions: No l=m or causal manufacturing claim.
-Resume: Select distinct production evidence; no channel repair.
-Running: Root research block.
+Assumptions: Structure is not meaning; no l=m.
+Resume: Review joint ambiguous image/text evidence against1090.
+Running: Root10hblock; bounded image/text review.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

@@ -1184,3 +1184,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1153 | GDT1153 | `STRICT_PRIOR_CONTINUATION_CHOICE_REFUTED` | [report](../experiments/yolo/gdt1153_prior_continuation_choice/REPORT.md) | 17 | 879.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT1154 | GDT1154 | `NO_ORDER_LEAD` | [report](../experiments/yolo/gdt1154_paragraph_order_correspondence/REPORT.md) | 19 | 1.2 MiB | 1 | STRUCTURED_YOLO |
 | GDT1155 | GDT1155 | `NO_SUPPORTED_TRANSFER` | [report](../experiments/yolo/gdt1155_terminal_drawing_edge_transport/REPORT.md) | 20 | 14.1 MiB | 2 | STRUCTURED_YOLO |
+| GDT1156 | GDT1156 | `NO_CAPACITY` | [report](../experiments/yolo/gdt1156_sheet_face_ending_residual/REPORT.md) | 22 | 3.5 MiB | 3 | STRUCTURED_YOLO |

@@ -1,0 +1,12 @@
+{
+  "title": "RAW UNREVIEWED: table-to-prose copying preserves omitted-header scope across row switches",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. A compiler copying a table into prose may omit repeated headers while retaining row keys and dependent cell order. An independently bound table schema would predict exactly where a new row key changes the scope of subsequent cells, distinguishing a repeated participant name from a column property or inherited header. No four-column, numeric or astronomical schema is presumed.",
+  "scope": "method",
+  "design": {
+    "mechanism": "A bounded historical copying procedure linearizes rows and suppresses repeated headers with explicit scope retention.",
+    "unit": "Complete externally attested source table and its known prose redaction, followed only after selection by complete admitted target entries.",
+    "contrast": "Row-wise inherited-header copying versus column-wise copying and independently written prose under the same fixed spelling model.",
+    "prediction": "Changing a row key changes the owner of subsequent cell values but not their column roles; a retained header controls multiple unequal values and its scope ends at the next independently bound row boundary. Whole-entry assignments must satisfy every occupied and empty source cell.",
+    "scope": "RAW proposal; no source-target binding supplied. GDT273 position/record-size baseline and closed ZODIAC_AND_ASTRONOMICAL_DICTIONARIES retained. Requires authorial coordinate/order or independently owned schema before target matching; cannot rescue serialized circular maps by choosing a new rotation. IDEA120/121 source montage is related, but this adds explicit row-header inheritance and empty-cell consequences. No arbitrary meanings or target access."
+  }
+}

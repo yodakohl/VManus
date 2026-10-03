@@ -1,3 +1,7 @@
+## 2026-10-03 GDT1156 sheet-face contrast lacks registered capacity
+
+[Complete fixed comparison](experiments/yolo/gdt1156_sheet_face_ending_residual/REPORT.md):35 nominal bifolia in quires1–7/20; only105/114,106/113,107/112,108/111 survive all four-page and block rules in every reader. Four sheets/one quire fall below eight/three. NO_CAPACITY; diagnostic centered effects negative, IT reference rank20/24, ZL22/24, RF24/24. Independent14checksPASS. No generic sheet-production rejection or chronology inference; serial content gradients remain a rival even for a positive. No new access, meanings or threshold relaxation. Requested10h block continues; no automatic physical-width or latent-decoder expansion from these inputs.
+
 ## 2026-10-03 GDT1155 ending channel does not transfer unchanged
 
 [All predictions and exact contract](experiments/yolo/gdt1155_terminal_drawing_edge_transport/REPORT.md): frozen155l/mfamilies;all171drawingreader-events scored outside targetleaf and all drawingtraining. ZL/IT/RF leafgains ENDvsSPACE are-.3372/-.3496/-.2381bits, while heldENDcalibrationpositive.15independentchecksPASS. Do not install unchanged below-locus endingchannel atdrawinggaps. Drawingmrawrate remains19percent versusSPACE5-6percent andEND58-60percent: notordinary-space equivalence or absenceoflayoutinfluence. Reference is source-locus ending beforecodedbelowitem, notguaranteedphysicalrightedge;DIC001correctionretained. No l=m, semanticidentity orcausalmanufacture.0newaccess/words.10hproductionblock continues;no attenuation/familyselectionrepair.
