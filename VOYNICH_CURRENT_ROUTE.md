@@ -4,12 +4,12 @@ Updated: 2026-10-03.
 ## Current work
 Phase: exploration
 Status: active
-Task: Ten-hour block from02:27UTC;source transmission.
-Latest decision: 1158one of two required;panel stopped.
+Task: Ten-hour block from02:27UTC;meaning dependencies.
+Latest decision: 1159sourcegraph fails all3gates.
 Working files: research_registry/proposals/production_origin_supply_20261003/BLOCK_DECISION.md.
-Assumptions: Picture lineage is not text identity.
-Resume: Check CoReMA lexical-recovery design;no target fit.
-Running: Root10hblock;bounded source/control design.
+Assumptions: Source recovery is not target homology.
+Resume: Review895TOKEN/PATTERN fullpassage prerequisites.
+Running: Root10hblock;1159publication;boundedideas.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
