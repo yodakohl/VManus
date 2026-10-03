@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: 10h until04Oct07:38:14UTC.
-Latest decision: Cava SOCIATVR;923 raw.
-Working files: laufenberg_f85r2_20260926.
+Latest decision: 1169 no bound path.
+Working files: GDT1169.
 Assumptions: No language or label meaning fixed.
-Resume: Check923 scope;no new f57 access.
-Running: Root;scope review.
+Resume: Select changed-input content test.
+Running: Root;idea producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
@@ -42,8 +42,9 @@ Other closed families remain in the existing registry; no automatic reopening.
 ## Access and operating boundaries
 f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not independent confirmation.
-179 cached selectors; later grants separate.92 image keys/98 selectors (F receipt). f1r margins only;
+179 cached selectors; later grants separate. F counts are historical. f1r margins only;
 f106v image fixed paragraph only. Register new access first. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts:
+[f57layout](docs/VOYNICH_DATA_SCOPE_20261004_F57V_LAYOUT.md);
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md),
 [native](docs/VOYNICH_DATA_SCOPE_20261002_F25V_NATIVE.md); [base](docs/VOYNICH_DATA_SCOPE.md);
 [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md).

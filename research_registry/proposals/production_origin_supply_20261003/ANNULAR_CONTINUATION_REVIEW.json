@@ -1,0 +1,44 @@
+{
+  "record_id": "IDEA000923",
+  "scope": "semantic",
+  "verdict": "inconclusive",
+  "reviewer": "root_after_two_native_layout_readings",
+  "assessment_basis": "GDT1169_complete_eight_case_census",
+  "reason": "Source continuation is real; neither target reader binds a ring exit to an inner entry. Four tangent cases remain possible but unbound; implicit language is not refuted.",
+  "blockers": [
+    {
+      "code": "unbound_target_path",
+      "detail": "No explicit path in either eight-case inventory; four classification disagreements preserved.",
+      "evidence": [
+        "experiments/yolo/gdt1169_f57_annular_continuation_layout/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "written_dependency",
+        "change": "new_data",
+        "detail": "A separately specified written dependency or new source-bound path constraint discriminates destinations before lexical fit.",
+        "evidence": [
+          "experiments/yolo/gdt1169_f57_annular_continuation_layout/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Compatible tangent orientation alone",
+      "Assuming all inner texts are nouns or predicates",
+      "Posthoc semantic fit after concatenation"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1169",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1169_f57_annular_continuation_layout/REPORT.md"
+      ]
+    }
+  ]
+}
