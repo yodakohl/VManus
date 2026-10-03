@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: 10h until04Oct07:38:14UTC.
-Latest decision: 916 source-only pointer.
+Latest decision: Cava pixels;920 target unselected.
 Working files: production_origin_supply_20261003.
 Assumptions: No default language;no gold IDs.
-Resume: New content consequence;1097 parked.
-Running: Root;candidate review.
+Resume: Source-informed content;1097 remains parked.
+Running: Root;bounded idea producer.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
