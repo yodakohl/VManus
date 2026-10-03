@@ -1,0 +1,186 @@
+{
+  "schema": "vmanus-source-acquisition-v1",
+  "created_utc": "2026-10-03T20:19:30.292644+00:00",
+  "scope": "One preselected public historical source folio; no Voynich target, reserve or experiment",
+  "budget": {
+    "start_utc": "2026-10-03T20:02:18Z",
+    "reassess_utc": "2026-10-03T20:47:18Z",
+    "max_minutes_including_preparation": 45
+  },
+  "institution_link": {
+    "url": "https://casanatense.cultura.gov.it/en/library-holdings/manuscripts/",
+    "linked_collection": "https://casanatense.contentdm.oclc.org/digital/collection/miniature"
+  },
+  "identity_query": {
+    "url": "https://casanatense.contentdm.oclc.org/digital/bl/dmwebservices/index.php?q=dmQuery/miniature/title^Ms.459%20c.19V^exact^and/title/title/10/1/0/0/json",
+    "retrieved_utc": "2026-10-03T20:08:59.897852+00:00",
+    "status": 200,
+    "bytes": 180,
+    "sha256": "c46f0cbfbec9a37a4fe59150a7b5c605e60198ee92766e05d1fc95088947ce99",
+    "file": "CASANATENSE_EMOROYDARUM_SOURCE_CDM_EXACT_QUERY.json",
+    "result": {
+      "pager": {
+        "start": "1",
+        "maxrecs": "10",
+        "total": 1
+      },
+      "records": [
+        {
+          "collection": "/miniature",
+          "pointer": 3505,
+          "filetype": "jpg",
+          "parentobject": -1,
+          "title": "Ms.459 c.19V",
+          "find": "8499.JPG"
+        }
+      ]
+    }
+  },
+  "item_metadata": {
+    "url": "https://casanatense.contentdm.oclc.org/digital/bl/dmwebservices/index.php?q=dmGetItemInfo/miniature/3505/json",
+    "retrieved_utc": "2026-10-03T20:09:17.724213+00:00",
+    "status": 200,
+    "bytes": 736,
+    "sha256": "5720cfc8e278f24c8306fda4ed9c5f14205870e0d441868f7d2afc6af15a662c",
+    "file": "CASANATENSE_EMOROYDARUM_SOURCE_INSTITUTIONAL_ITEM_0.json",
+    "fields": {
+      "title": "Ms.459 c.19V",
+      "manusc": "Historia Plantarum",
+      "manusa": "Ms.459",
+      "carta": "c.19V",
+      "identi": "MS0459C0019V",
+      "dmrecord": "3505",
+      "access": "public",
+      "find": "8499.JPG"
+    }
+  },
+  "iiif_information": {
+    "url": "https://casanatense.contentdm.oclc.org/iiif/2/miniature:3505/info.json",
+    "retrieved_utc": "2026-10-03T20:09:17.919567+00:00",
+    "status": 200,
+    "bytes": 848,
+    "sha256": "bf6504380c8e4f01da086f0a0c4eff65243b2a90c00fffca09c38a2125c7439c",
+    "file": "CASANATENSE_EMOROYDARUM_SOURCE_INSTITUTIONAL_ITEM_1.json",
+    "width": 1019,
+    "height": 1533
+  },
+  "primary_image": {
+    "retrieved_utc": "2026-10-03T20:09:35.995484+00:00",
+    "url": "https://casanatense.contentdm.oclc.org/iiif/2/miniature:3505/full/full/0/default.jpg",
+    "http_status": 200,
+    "file": "CASANATENSE_EMOROYDARUM_SOURCE_F019V_INSTITUTIONAL.jpg",
+    "bytes": 417997,
+    "sha256": "f531ee475000f4511e07b898e18aea3e9bcb1c87e5776100d1b84cb0c9878ae0",
+    "width": 1019,
+    "height": 1533,
+    "metadata_title": "Ms.459 c.19V",
+    "metadata_identifier": "MS0459C0019V",
+    "metadata_record": "3505",
+    "pixels_viewed": true,
+    "source_identity": "Casanatense own digital shelf; institution-linked public CONTENTdm item"
+  },
+  "earlier_lower_resolution_image": {
+    "retrieved_utc": "2026-10-03T20:03:55.729909+00:00",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Casanatense_459%2C_f.019v.jpg",
+    "http_status": 200,
+    "file": "CASANATENSE_EMOROYDARUM_SOURCE_F019V_COMMONS.jpg",
+    "sha256": "6b9de6211d032fb91b91673cef096702705a12498795a8e498f088cb5e871ca6",
+    "bytes": 197379,
+    "width": 681,
+    "height": 1024,
+    "source_identity": "Commons file page attributes to WDL11560; folio remains to verify natively",
+    "pixels_viewed": true
+  },
+  "native_views": {
+    "recorded_utc": "2026-10-03T20:13:21.318098+00:00",
+    "full_view_before_crop": true,
+    "only_folio_viewed": "Casanatense459 c19V",
+    "crops": [
+      {
+        "file": "CASANATENSE_EMOROYDARUM_SOURCE_TEXT_NATIVE_CROP.png",
+        "source": "CASANATENSE_EMOROYDARUM_SOURCE_F019V_COMMONS.jpg",
+        "xyxy": [
+          374,
+          623,
+          618,
+          824
+        ],
+        "display_scale": 1,
+        "method": "native crop",
+        "sha256": "8ee5fe3d3cde3ddbe55bdfadede8d3787e71786fba70294ef75980ef000a5e12",
+        "bytes": 118583
+      },
+      {
+        "file": "CASANATENSE_EMOROYDARUM_SOURCE_TEXT_INSTITUTIONAL_NATIVE.png",
+        "source": "CASANATENSE_EMOROYDARUM_SOURCE_F019V_INSTITUTIONAL.jpg",
+        "xyxy": [
+          557,
+          939,
+          927,
+          1241
+        ],
+        "display_scale": 1,
+        "method": "native crop",
+        "sha256": "560829a4c13ae8e1bae14736db0c309422f60e289faf06e85359c5942723c98e",
+        "bytes": 252957
+      },
+      {
+        "file": "CASANATENSE_EMOROYDARUM_SOURCE_TEXT_DISPLAY_ONLY.png",
+        "source": "CASANATENSE_EMOROYDARUM_SOURCE_F019V_INSTITUTIONAL.jpg",
+        "xyxy": [
+          557,
+          939,
+          927,
+          1241
+        ],
+        "display_scale": 3,
+        "method": "nearest-neighbor display of same pixels; no new detail",
+        "sha256": "83078d5955c0bc8e160ddffa8410ab7a9625f5edd5f24260f533b7ae3aa8a8cf",
+        "bytes": 351835
+      }
+    ],
+    "ocr_used": false,
+    "source_text_used_to_fill_pixels": false
+  },
+  "preferred_wdl_transport": {
+    "retrieved_utc": "2026-10-03T20:06:14.399504+00:00",
+    "records": [
+      {
+        "url": "https://tile.loc.gov/storage-services/service/gdc/gdcwdl/wd/l_/11/56/0/wdl_11560/manifest.json",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://tile.loc.gov/storage-services/service/gdc/gdcwdl/wd/l_/11/56/0/wdl_11560/",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://dl.wdl.org/11560/service/11560.pdf",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  },
+  "transcription_freeze": {
+    "file": "CASANATENSE_EMOROYDARUM_SOURCE_TRANSCRIPTION.md",
+    "sha256": "af5ace67066aed25f12f025d4c0d1bc15667497f3ad09dae8963c3a1c7903ecc",
+    "bytes": 5332,
+    "written_utc": "2026-10-03T20:15:19.010377+00:00",
+    "physical_lines": 15,
+    "frozen_before_root_feedback": true,
+    "letters_secure": false
+  },
+  "entry_extent": {
+    "start": "Illuminated A with pium emoroydarum in the right text block",
+    "end": "emoroydarum dicatur before separate Apium agreste heading",
+    "continuation_acquired": false,
+    "folio_verified_by": "Institutional title, carta and identifier; handwritten numeral not secured"
+  },
+  "ceilings": [
+    "Complete physical entry extent, incomplete diplomatic letter reading",
+    "No normalization from scholarly or cognate source texts",
+    "No botanical or Voynich word identification",
+    "Conditional hinge and application forms remain uncertain",
+    "Root review after transcription freeze was not blind"
+  ],
+  "runtime_cache_policy": "Original images, crop bytes and exploratory retrieval records remain outside the public dossier; receipt uses filenames only.",
+  "reproduction": "Retrieve the exact public URLs, compare byte SHA256; text crop xyxy uses PIL-style right/bottom exclusive bounds, display-only crop is nearest-neighbor x3. Byte changes in hosted images require manual reassessment, not silent replacement."
+}

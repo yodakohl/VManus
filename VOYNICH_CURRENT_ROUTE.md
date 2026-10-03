@@ -5,11 +5,11 @@ Updated: 2026-10-03.
 Phase: exploration
 Status: active
 Task: 10h until04Oct03:47:39UTC.
-Latest decision: GDT1166 pipeline failed;no repair.
-Working files: GDT1166.
-Assumptions: No gold sign IDs;no default language.
-Resume: Distinct content consequence;no automatic decoder.
-Running: Root next selection.
+Latest decision: 1166 failed;no repair.
+Working files: production_origin_supply_20261003.
+Assumptions: No default language;no gold IDs.
+Resume: Select whole-content consequence;no repair.
+Running: Root;source readers completed.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

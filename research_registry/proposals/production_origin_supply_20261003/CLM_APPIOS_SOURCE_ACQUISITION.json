@@ -1,0 +1,86 @@
+{
+  "task": "IDEA000894 source-only complete Clm28531 Appios entry",
+  "observer": "B",
+  "recorded_utc": "2026-10-03T20:07:20.845262+00:00",
+  "manifest": {
+    "requested_url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107549/manifest",
+    "response_url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107549/manifest",
+    "sha256": "eda0d90d9a553cd75e44bf201112d07a764f89ddd5f5eb82bec89b56244f447f",
+    "bytes": 248040,
+    "label": "Herbarius - BSB Clm 28531",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "cache_path": ".cache/clm_appios_source_20261003/manifest.json"
+  },
+  "canvas": {
+    "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107549/canvas/7",
+    "label": "(0007)",
+    "width": 1707,
+    "height": 2531,
+    "resource": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107549_00007/full/full/0/default.jpg"
+  },
+  "folio_identification": {
+    "claimed_folio": "f1v",
+    "basis": "Wagner Table3 and existing SOURCE_TRANSMISSION_DISPLACEMENT.md specify Clm28531 f1v Appios; native canvas7 contains the Appios entry and its matching lower-right label. The inherited GDT619 global mapping places f10v at canvas25, consistent with canvas7 for f1v.",
+    "limits": "The official manifest labels only scan ordinals; no independently readable f1v foliation was found on this scan. Folio identification therefore retains the cited scholarly locator plus consistent inherited mapping, rather than claiming manifest-labelled f1v."
+  },
+  "requests": [
+    {
+      "requested_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107549_00007/full/full/0/default.jpg",
+      "response_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107549_00007/full/full/0/default.jpg",
+      "utc": "2026-10-03T20:02:39.380409+00:00",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 561562,
+      "sha256": "61475aca347d6744fd3d6c265cc01df9812077ee6d517dd8ed8a42cb0d237820",
+      "cache_path": ".cache/clm_appios_source_20261003/canvas7_original.jpg"
+    },
+    {
+      "requested_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107549_00007/860,320,720,610/full/0/default.jpg",
+      "response_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107549_00007/860,320,720,610/full/0/default.jpg",
+      "utc": "2026-10-03T20:03:41.102706+00:00",
+      "status": 200,
+      "bytes": 97411,
+      "sha256": "5ac20686fef7bf221223e9afc3970e8bd759830f1a81edd45f4b6fb50e65919c",
+      "cache_path": ".cache/clm_appios_source_20261003/appios_native_detail.jpg",
+      "note": "Official IIIF unenhanced source region at native pixel scale, not OCR or local pixel editing."
+    },
+    {
+      "requested_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107549_00007/860,320,720,610/1440,/0/default.jpg",
+      "response_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107549_00007/860,320,720,610/1440,/0/default.jpg",
+      "utc": "2026-10-03T20:04:50.789053+00:00",
+      "status": 200,
+      "bytes": 232093,
+      "sha256": "dc8153638a14073559dedeafcf8f0751b799a76fc3c825e4c3f122b928545315",
+      "cache_path": ".cache/clm_appios_source_20261003/appios_native_display_2x.jpg",
+      "note": "Official IIIF two-times display of the same native source region. No additional detail or enhancement claimed."
+    }
+  ],
+  "native_inspections": [
+    {
+      "path": ".cache/clm_appios_source_20261003/canvas7_original.jpg",
+      "method": "native view_image original detail"
+    },
+    {
+      "path": ".cache/clm_appios_source_20261003/appios_native_detail.jpg",
+      "method": "native view_image original detail"
+    },
+    {
+      "path": ".cache/clm_appios_source_20261003/appios_native_display_2x.jpg",
+      "method": "native view_image original detail"
+    }
+  ],
+  "entry_scope": {
+    "start": "upper-right paragraph, first line beginning uncertain initial + pios siue chamebalanos",
+    "end": "last line ending purgat, immediately before separate Appolinaria heading",
+    "physical_lines": 14,
+    "image_region": "Official IIIF rectangle860,320,720,610 contains the complete14-line paragraph plus part of the next heading; whole canvas viewed first."
+  },
+  "scope_exclusions": [
+    "No Voynich image, text, raw cache, sealed source, reserve or downstream comparison accessed.",
+    "No OCR, classifier, image generation, local pixel editing or guessed restoration.",
+    "The two-times IIIF display uses the same source pixels and provides no extra resolution."
+  ],
+  "failed_requests": [],
+  "reassess_by_utc": "2026-10-03T20:47:04+00:00",
+  "status": "OFFICIAL_ACQUISITION_SUCCEEDED_NATIVE_ENTRY_READ_WITH_UNCERTAIN_SPANS"
+}
