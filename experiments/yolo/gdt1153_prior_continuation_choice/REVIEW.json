@@ -1,0 +1,45 @@
+{
+  "record_id": "IDEA000198",
+  "scope": "structural",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_GDT1153",
+  "assessment_basis": "executed_fixed_exactly_one_prior_instantiation",
+  "reason": "GDT1153 executes all13fixed926contexts/26loci with bothcompetitors. Strict exactly-one-prior selection is contradicted:ZL1,IT5;IT4compatible;RFunbounded. The broader association question and originalf21/f32seed are not exhausted; no anaphor or meaning selected. No statisticalpreference or independentconfirmation.",
+  "blockers": [
+    {
+      "code": "strict_prior_choice_contradicted",
+      "detail": "Do not reuse the exactly-one-previous selector as a universal writing rule; count pairs can match while continuation differs. Broader recurrence effects remain untested.",
+      "evidence": [
+        "experiments/yolo/gdt1153_prior_continuation_choice/REPORT.md",
+        "experiments/yolo/gdt1153_prior_continuation_choice/PREREGISTRATION.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "different_consequence",
+        "change": "new_design",
+        "detail": "A genuinely different predeclared written consequence must retain these counterexamples; no posthoc repair by recency, altered boundaries or prefix stripping.",
+        "evidence": [
+          "experiments/yolo/gdt1153_prior_continuation_choice/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "An already repeated word by itself",
+      "The four compatible IT cases alone",
+      "Treating alternate readers as independent confirmations"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1153",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1153_prior_continuation_choice/REPORT.md"
+      ]
+    }
+  ]
+}

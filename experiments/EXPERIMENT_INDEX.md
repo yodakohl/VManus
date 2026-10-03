@@ -1181,3 +1181,4 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1150 | GDT1150 | `NO_LOCAL_COUNTERPARTS` | [report](../experiments/yolo/gdt1150_minim_entry_counterparts/REPORT.md) | 14 | 506.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT1151 | GDT1151 | `REFUTED_FIXED_PAIRED_FIELD_SCOPE` | [report](../experiments/yolo/gdt1151_ol_paired_field_scope/REPORT.md) | 16 | 783.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1152 | GDT1152 | `LOCAL_JOIN_SUPPORTED` | [report](../experiments/yolo/gdt1152_f81r_minim_seam_native/REPORT.md) | 21 | 3.6 MiB | 4 | STRUCTURED_YOLO |
+| GDT1153 | GDT1153 | `STRICT_PRIOR_CONTINUATION_CHOICE_REFUTED` | [report](../experiments/yolo/gdt1153_prior_continuation_choice/REPORT.md) | 17 | 879.7 KiB | 3 | STRUCTURED_YOLO |

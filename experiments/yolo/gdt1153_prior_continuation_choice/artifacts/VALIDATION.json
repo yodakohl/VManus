@@ -1,0 +1,459 @@
+{
+  "experiment": "GDT1153",
+  "accounting_pass": true,
+  "checks": [
+    {
+      "name": "all_12_registration_and_source_pins",
+      "pass": true
+    },
+    {
+      "name": "all_referenced_927_legacy_pins",
+      "pass": true
+    },
+    {
+      "name": "all_13_contexts_26_occurrences_two_first_divergent_forms",
+      "pass": true
+    },
+    {
+      "name": "sealed_and_unadmitted_scope",
+      "pass": true
+    },
+    {
+      "name": "ZL3b_all_26_host_matches_prefix_exclusion_counts_ids_distances_and_outcomes",
+      "pass": true
+    },
+    {
+      "name": "ZL3b_all_complete_partial_paragraph_metadata_words_ids_gaps_and_uncertainty",
+      "pass": true
+    },
+    {
+      "name": "ZL3b_all_panel_counts_leaf_capacity_and_decision",
+      "pass": true
+    },
+    {
+      "name": "IT2a_all_26_host_matches_prefix_exclusion_counts_ids_distances_and_outcomes",
+      "pass": true
+    },
+    {
+      "name": "IT2a_all_complete_partial_paragraph_metadata_words_ids_gaps_and_uncertainty",
+      "pass": true
+    },
+    {
+      "name": "IT2a_all_panel_counts_leaf_capacity_and_decision",
+      "pass": true
+    },
+    {
+      "name": "RF1b_all_26_host_matches_prefix_exclusion_counts_ids_distances_and_outcomes",
+      "pass": true
+    },
+    {
+      "name": "RF1b_all_complete_partial_paragraph_metadata_words_ids_gaps_and_uncertainty",
+      "pass": true
+    },
+    {
+      "name": "RF1b_all_panel_counts_leaf_capacity_and_decision",
+      "pass": true
+    },
+    {
+      "name": "all_78_rows_order_retained_and_no_extra_selection",
+      "pass": true
+    },
+    {
+      "name": "all_prefixes_exclude_anchor_and_later_stream",
+      "pass": true
+    },
+    {
+      "name": "full_fixed_result_exact",
+      "pass": true
+    },
+    {
+      "name": "every_human_table_row_matches_independent_case",
+      "pass": true
+    },
+    {
+      "name": "all_registered_legacy_runner_and_source_output_bytes_unchanged",
+      "pass": true
+    }
+  ],
+  "independent_panels": {
+    "ZL3b": {
+      "cases": 26,
+      "counts": {
+        "UNTESTABLE": 20,
+        "ABSTAIN": 5,
+        "CONTRADICTION": 1
+      },
+      "reasons": {
+        "UNCERTAIN_PRIOR_SCOPE": 20,
+        "NEITHER_PREVIOUS": 5,
+        "EXACTLY_ONE_PREVIOUS": 1
+      },
+      "physical_leaves": 16,
+      "choice_leaves": 1,
+      "complete_paragraphs": 22,
+      "decision": "CONTRADICTED"
+    },
+    "IT2a": {
+      "cases": 26,
+      "counts": {
+        "ABSTAIN": 16,
+        "UNTESTABLE": 1,
+        "CONTRADICTION": 5,
+        "COMPATIBLE": 4
+      },
+      "reasons": {
+        "NEITHER_PREVIOUS": 16,
+        "UNCERTAIN_PRIOR_SCOPE": 1,
+        "EXACTLY_ONE_PREVIOUS": 9
+      },
+      "physical_leaves": 16,
+      "choice_leaves": 8,
+      "complete_paragraphs": 22,
+      "decision": "CONTRADICTED"
+    },
+    "RF1b": {
+      "cases": 26,
+      "counts": {
+        "UNTESTABLE": 26
+      },
+      "reasons": {
+        "NATIVE_TRIPLE_NOT_UNIQUE_OR_HOST_UNCERTAIN": 20,
+        "NO_COMPLETE_MARKED_PARAGRAPH": 6
+      },
+      "physical_leaves": 16,
+      "choice_leaves": 0,
+      "complete_paragraphs": 0,
+      "decision": "NO_CHOICE_CAPACITY"
+    }
+  },
+  "contradictions": [
+    {
+      "reader": "ZL3b",
+      "context_id": "A9f94a7677163",
+      "anchor": [
+        "shedy",
+        "qokaiin",
+        "chedy"
+      ],
+      "line": "f103v|f103v.6",
+      "chosen": "qokam",
+      "competitors": [
+        "qokam",
+        "qokeedy"
+      ],
+      "original_start": 7,
+      "leaf": 103,
+      "matches": [
+        7
+      ],
+      "paragraph_key": "ZL3b|f103v|f103v.5--f103v|f103v.8",
+      "prefix_groups": 17,
+      "prefix_reliable": true,
+      "earlier": {
+        "qokam": [],
+        "qokeedy": [
+          {
+            "word": "qokeedy",
+            "group_id": "ZL3b|f103v.6|G003",
+            "line": "f103v|f103v.6",
+            "distance_to_anchor": 5
+          }
+        ]
+      },
+      "counts": {
+        "qokam": 0,
+        "qokeedy": 1
+      },
+      "predicted": "qokeedy",
+      "status": "CONTRADICTION",
+      "reason": "EXACTLY_ONE_PREVIOUS"
+    },
+    {
+      "reader": "IT2a",
+      "context_id": "A4c3293d97584",
+      "anchor": [
+        "daiin",
+        "cthor",
+        "chol"
+      ],
+      "line": "f19r|f19r.10",
+      "chosen": "ykchor",
+      "competitors": [
+        "chor",
+        "ykchor"
+      ],
+      "original_start": 0,
+      "leaf": 19,
+      "matches": [
+        0
+      ],
+      "paragraph_key": "IT2a|f19r|f19r.1--f19r|f19r.13",
+      "prefix_groups": 61,
+      "prefix_reliable": true,
+      "earlier": {
+        "chor": [
+          {
+            "word": "chor",
+            "group_id": "IT2a|f19r.2|G002",
+            "line": "f19r|f19r.2",
+            "distance_to_anchor": 51
+          },
+          {
+            "word": "chor",
+            "group_id": "IT2a|f19r.8|G002",
+            "line": "f19r|f19r.8",
+            "distance_to_anchor": 12
+          },
+          {
+            "word": "chor",
+            "group_id": "IT2a|f19r.8|G005",
+            "line": "f19r|f19r.8",
+            "distance_to_anchor": 9
+          }
+        ],
+        "ykchor": []
+      },
+      "counts": {
+        "chor": 3,
+        "ykchor": 0
+      },
+      "predicted": "chor",
+      "status": "CONTRADICTION",
+      "reason": "EXACTLY_ONE_PREVIOUS"
+    },
+    {
+      "reader": "IT2a",
+      "context_id": "A1e27d24a7452",
+      "anchor": [
+        "ol",
+        "shedy",
+        "qokedy"
+      ],
+      "line": "f75v|f75v.47",
+      "chosen": "qokeedy",
+      "competitors": [
+        "qokedy",
+        "qokeedy"
+      ],
+      "original_start": 4,
+      "leaf": 75,
+      "matches": [
+        4
+      ],
+      "paragraph_key": "IT2a|f75v|f75v.43--f75v|f75v.49",
+      "prefix_groups": 51,
+      "prefix_reliable": true,
+      "earlier": {
+        "qokedy": [
+          {
+            "word": "qokedy",
+            "group_id": "IT2a|f75v.46|G004",
+            "line": "f75v|f75v.46",
+            "distance_to_anchor": 11
+          },
+          {
+            "word": "qokedy",
+            "group_id": "IT2a|f75v.46|G005",
+            "line": "f75v|f75v.46",
+            "distance_to_anchor": 10
+          }
+        ],
+        "qokeedy": []
+      },
+      "counts": {
+        "qokedy": 2,
+        "qokeedy": 0
+      },
+      "predicted": "qokedy",
+      "status": "CONTRADICTION",
+      "reason": "EXACTLY_ONE_PREVIOUS"
+    },
+    {
+      "reader": "IT2a",
+      "context_id": "Aea7396f0f503",
+      "anchor": [
+        "qokal",
+        "shedy",
+        "qokedy"
+      ],
+      "line": "f83r|f83r.23",
+      "chosen": "shecthedy",
+      "competitors": [
+        "lchedy",
+        "shecthedy"
+      ],
+      "original_start": 2,
+      "leaf": 83,
+      "matches": [
+        2
+      ],
+      "paragraph_key": "IT2a|f83r|f83r.18--f83r|f83r.24",
+      "prefix_groups": 51,
+      "prefix_reliable": true,
+      "earlier": {
+        "lchedy": [
+          {
+            "word": "lchedy",
+            "group_id": "IT2a|f83r.19|G011",
+            "line": "f83r|f83r.19",
+            "distance_to_anchor": 31
+          }
+        ],
+        "shecthedy": []
+      },
+      "counts": {
+        "lchedy": 1,
+        "shecthedy": 0
+      },
+      "predicted": "lchedy",
+      "status": "CONTRADICTION",
+      "reason": "EXACTLY_ONE_PREVIOUS"
+    },
+    {
+      "reader": "IT2a",
+      "context_id": "A9f94a7677163",
+      "anchor": [
+        "shedy",
+        "qokaiin",
+        "chedy"
+      ],
+      "line": "f103v|f103v.6",
+      "chosen": "qokam",
+      "competitors": [
+        "qokam",
+        "qokeedy"
+      ],
+      "original_start": 7,
+      "leaf": 103,
+      "matches": [
+        7
+      ],
+      "paragraph_key": "IT2a|f103v|f103v.5--f103v|f103v.8",
+      "prefix_groups": 17,
+      "prefix_reliable": true,
+      "earlier": {
+        "qokam": [],
+        "qokeedy": [
+          {
+            "word": "qokeedy",
+            "group_id": "IT2a|f103v.6|G003",
+            "line": "f103v|f103v.6",
+            "distance_to_anchor": 5
+          }
+        ]
+      },
+      "counts": {
+        "qokam": 0,
+        "qokeedy": 1
+      },
+      "predicted": "qokeedy",
+      "status": "CONTRADICTION",
+      "reason": "EXACTLY_ONE_PREVIOUS"
+    },
+    {
+      "reader": "IT2a",
+      "context_id": "A81d532240357",
+      "anchor": [
+        "chedy",
+        "qokeey",
+        "qokeey"
+      ],
+      "line": "f108v|f108v.46",
+      "chosen": "ral",
+      "competitors": [
+        "lchedy",
+        "ral"
+      ],
+      "original_start": 7,
+      "leaf": 108,
+      "matches": [
+        8
+      ],
+      "paragraph_key": "IT2a|f108v|f108v.34--f108v|f108v.52",
+      "prefix_groups": 143,
+      "prefix_reliable": true,
+      "earlier": {
+        "lchedy": [
+          {
+            "word": "lchedy",
+            "group_id": "IT2a|f108v.34|G011",
+            "line": "f108v|f108v.34",
+            "distance_to_anchor": 133
+          },
+          {
+            "word": "lchedy",
+            "group_id": "IT2a|f108v.35|G003",
+            "line": "f108v|f108v.35",
+            "distance_to_anchor": 129
+          }
+        ],
+        "ral": []
+      },
+      "counts": {
+        "lchedy": 2,
+        "ral": 0
+      },
+      "predicted": "lchedy",
+      "status": "CONTRADICTION",
+      "reason": "EXACTLY_ONE_PREVIOUS"
+    }
+  ],
+  "shared_paragraph_case_counts": {
+    "ZL3b": {
+      "ZL3b|f82r|f82r.20--f82r|f82r.33": 2,
+      "ZL3b|f107v|f107v.35--f107v|f107v.36": 2,
+      "ZL3b|f77v|f77v.29--f77v|f77v.42": 2,
+      "ZL3b|f103v|f103v.5--f103v|f103v.8": 2
+    },
+    "IT2a": {
+      "IT2a|f82r|f82r.20--f82r|f82r.33": 2,
+      "IT2a|f107v|f107v.35--f107v|f107v.36": 2,
+      "IT2a|f77v|f77v.29--f77v|f77v.42": 2,
+      "IT2a|f103v|f103v.5--f103v|f103v.8": 2
+    },
+    "RF1b": {
+      "RF1b|f82r|f82r.1--f82r|f82r.33": 2
+    }
+  },
+  "compared_totals": {
+    "contexts": 13,
+    "original_occurrences": 26,
+    "reader_cases": 78,
+    "retained_paragraph_windows": 49,
+    "prefix_audits": 58
+  },
+  "prefix_anchor_exclusion_verified": true,
+  "native_one_group_prior_lines_retained": 0,
+  "validator_sha256": "295b6fef7a13ec5db1a00dc43bbfeefb62d5ae02362d3126081fe721eab66890",
+  "bound_hashes": {
+    "experiments/yolo/gdt1153_prior_continuation_choice/PREREGISTRATION.md": "65e065d35da0f631e39df38397c9d641497198b1075b80c2dd1a0c987341641a",
+    "experiments/yolo/gdt1153_prior_continuation_choice/METHOD.md": "65e065d35da0f631e39df38397c9d641497198b1075b80c2dd1a0c987341641a",
+    "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/CANDIDATES_ZL3b.json": "078ab7de7003ef7257d1d961c84be1451cd1a113db2ad47cfaf5e265d0b504b7",
+    "experiments/yolo/gdt927_chor_continuation_full_context_audit/src/run.py": "016419cabc0c617415301c884c51640b9a1836dcd245af01509c68b7d1f6034a",
+    "experiments/yolo/gdt927_chor_continuation_full_context_audit/PREREG_LOCK.json": "52308656507f56ce3fd6a407de8bc5ff00c767d5dc3bff0a37537f3f4587df27",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd",
+    "experiments/yolo/gdt927_chor_continuation_full_context_audit/PREREGISTRATION.md": "1b0993e8064c6c35c58804673f07fcfce6c452b66f69508b8b30a5309312f840",
+    "experiments/yolo/gdt1153_prior_continuation_choice/PREREG_LOCK.json": "ad39cac8d20a6430a9e29420b6e5a9a9cf2020888de1884ec4181889917599af",
+    "experiments/yolo/gdt1153_prior_continuation_choice/src/run.py": "c1076e3ff8c7cb785957a7b580d22c6c6ec14368d3227e248764f7d23ce31945",
+    "experiments/yolo/gdt1153_prior_continuation_choice/artifacts/CASES.json": "928d59be246199e42e81dd35c91b28102711aeb5b51b773604d792078e3b0667",
+    "experiments/yolo/gdt1153_prior_continuation_choice/artifacts/PARAGRAPHS.json": "c072366c3680f68535be7de67c59a34942ea51922aa190c5eb1cc85b7fc32c9f",
+    "experiments/yolo/gdt1153_prior_continuation_choice/artifacts/RESULT.json": "b0388462774d36ea0831395fb53d681a15f9512f1a421c6de37ae024257b0178",
+    "experiments/yolo/gdt1153_prior_continuation_choice/CANDIDATE_TABLE.md": "0c751a904ce78bdb5750b73398c7ec9d6bbc655c646cbcd9b4ea3dd7f5821fc3"
+  },
+  "mismatch_paths": [],
+  "artifact_schema_note": "Root removed the old helper call-specific seed label before paragraph deduplication; this validator compares all paragraph content/boundary fields and excludes only that documented metadata label.",
+  "limits": [
+    "All sources and selected contexts were already exposed; no independent holdout or semantic confirmation.",
+    "Unknown/partial paragraph prior counts remain diagnostic; zero there is not an eligible absence claim.",
+    "Alternative readings and overlapping paragraphs are not independent cases.",
+    "Matching uses the complete literal host line and exact original anchor+chosen form, not repaired or reader-specific branch selection.",
+    "Contradictions refute only the fixed exactly-one-prior reuse selection rule, not anaphora, referent identity, meanings or IDEA198 generally.",
+    "No significance, whole-search null, meaning assignment, threshold repair or target expansion."
+  ]
+}
