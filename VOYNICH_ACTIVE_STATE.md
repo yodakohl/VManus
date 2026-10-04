@@ -1,3 +1,7 @@
+## 2026-10-04 GDT1173: cross-scale shuffle excess does not identify words
+
+[GDT1173](experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md): a fixed eight-form artificial line gives whole-identity shuffle excess0 and edge excess0.843136429bits. Exhaustive40320permutation result agrees with independent2520multiset reconstruction. This constrains interpretation of the newly encountered external source comparison, not the manuscript; no Voynich bias estimate or refutation of the paper's empirical profile. Keep whole-form residuals and component evidence608, known-phrase915 positive, new-pair916 negative. No new decoder, boundary predictor or meaning selected.
+
 ## 2026-10-04 GDT1172: literal complete rota source copy contradicted
 
 [GDT1172](experiments/yolo/gdt1172_literal_rota_source_word_contract/REPORT.md): the complete Harley978 instruction has86 known-source word carriers (black box62, red directions10+14), against IDEA871's fixed62-group ZL projection. Both English/Latin paired alternatives fail that shared necessary conjunct. Same source image hash, two carried words joined once, within-word abbreviation alternatives retained; one-author manual lexical collation, no independent paleography. The black-box62 coincidence omits24 declared words and does not reopen the model. No lyric/equality/underlay/code test, no new target access or word meaning. Preserve1022 conditional account,1024 fitted additions,1041 extension stop and970/911 distinct results; stop871 decoder and source-boundary repairs.

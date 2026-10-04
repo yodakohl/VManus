@@ -4,11 +4,11 @@ Updated: 2026-10-04.
 ## Current work
 Phase: fixed_test
 Status: complete
-Task: GDT1172 source count.
-Latest decision: 871 full copy fails86/62.
-Working files: experiments/yolo/gdt1172_literal_rota_source_word_contract/REPORT.md.
-Assumptions: Exposed;ZL projection;0 meanings.
-Resume: No871decoder;justify different writer.
+Task: GDT1173 MI.
+Latest decision: Edge rank is not word disproof.
+Working files: experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md.
+Assumptions: Toy only;0 meanings.
+Resume: No next test;keep whole-form evidence.
 Running: None.
 
 ## Structural baseline
@@ -24,7 +24,7 @@ layout does not translate pchor/ychor. Confirmed translated words: 0. Hypotheses
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
-1171:no context gain.1172:full rota copy fails86/62.
+1171:no context gain;1172:rota86/62.1173:MI excess is not unit proof.
 CoReMA partial;no complete writer.
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
 1164 ranking failed;1160 supervised gain retained.
