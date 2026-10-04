@@ -4,11 +4,11 @@ Updated: 2026-10-04.
 ## Current work
 Phase: exploration
 Status: complete
-Task: CoReMA source-rule reconstruction.
-Latest decision: Partial writer;no decoder.
-Working files: production_origin_supply_20261003/source_rule_package/REPORT.md.
-Assumptions: Supplied source values;editorial classes;0 meanings.
-Resume: Need independent context/native constraint.
+Task: Manual source check.
+Latest decision: Limited plausibility;no fit.
+Working files: production_origin_supply_20261003/source_rule_package/MANUAL_PLAUSIBILITY.md.
+Assumptions: Supplied values;exposed;0 meanings.
+Resume: Fix novel-form test;no generic repeat.
 Running: None.
 
 ## Structural baseline
