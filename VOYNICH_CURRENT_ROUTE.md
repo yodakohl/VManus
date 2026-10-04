@@ -4,11 +4,11 @@ Updated: 2026-10-04.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Read f2v text and image.
-Latest decision: f2v.5 unresolved;0 meanings.
-Working files: F2V_NATIVE_TEXT_IMAGE_20261004.json.
-Assumptions: EVA is not plaintext.
-Resume: Keep native uncertainties.
+Task: Review semantic candidates.
+Latest decision: No new test;0 meanings.
+Working files: GDT1088/1141/1026/1041.
+Assumptions: Model fit is not translation.
+Resume: No repeat kooiin/light/music audit.
 Running: None.
 
 ## Structural baseline
