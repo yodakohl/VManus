@@ -3,13 +3,13 @@ Updated: 2026-10-04.
 
 ## Current work
 Phase: fixed_test
-Status: active
-Task: GDT1171 open-vocabulary source recovery.
-Latest decision: Fix U/C/shuffle before scoring.
-Working files: experiments/yolo/gdt1171_open_vocabulary_context_recovery/METHOD.md.
+Status: complete
+Task: GDT1171 source comparison.
+Latest decision: OOV recovery;no context gain.
+Working files: experiments/yolo/gdt1171_open_vocabulary_context_recovery/REPORT.md.
 Assumptions: Supplied rules;exposed;0 meanings.
-Resume: Register, run, validate once.
-Running: Root;producer review complete.
+Resume: Stop model;require distinct identifying constraint.
+Running: None.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;

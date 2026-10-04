@@ -1,6 +1,8 @@
 # GDT1171 — open vocabulary context recovery
 
-Status: `REGISTERED_UNSCORED`
+Status: `NO_USEFUL_OPEN_CONTEXT_RECOVERY`
+
+See REPORT.md for the completed result and its qualified source-only positive.
 
 One fixed U/C/S comparison on supplied historical sign rules, not Voynich.
 See METHOD.md for source separation, exact search, fixed gates and limitations.
