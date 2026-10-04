@@ -4,11 +4,11 @@ Updated: 2026-10-04.
 ## Current work
 Phase: exploration
 Status: complete
-Task: Manual source check.
-Latest decision: Limited plausibility;no fit.
-Working files: production_origin_supply_20261003/source_rule_package/MANUAL_PLAUSIBILITY.md.
-Assumptions: Supplied values;exposed;0 meanings.
-Resume: Fix novel-form test;no generic repeat.
+Task: Source capacity audit.
+Latest decision: Limited capacity;no context fit.
+Working files: production_origin_supply_20261003/source_rule_package/FEASIBILITY_REPORT.md.
+Assumptions: Supplied rules;exposed;0 meanings.
+Resume: New OOV mechanism or specific narrow decision.
 Running: None.
 
 ## Structural baseline
