@@ -1,3 +1,7 @@
+## 2026-10-04 CoReMA source-rule package remains a partial writer
+
+[Source reconstruction](research_registry/proposals/production_origin_supply_20261003/source_rule_package/REPORT.md): the accepted source task enumerated all six original witnesses with the fixed character-declaration relation.11,724 selected complete groups:11,517 compatible,204 unresolved,3 local mismatches;11,436 compatible groups still allow multiple outputs.169 witness/exact-expansion pairs retain shortened and unabbreviated spellings. Values are supplied by the edition; no key was recovered. Native graphic identities and full contextual/obligatory application conditions remain insufficient. Publish the executable partial package; do not start a Voynich decoder or automatically repair1166. All known failures and0 confirmed words remain. No target data or reserves used; source work complete, no running task.
+
 ## 2026-10-03 GDT1167 inherited numeric prior weakened
 
 [Complete comparison](experiments/yolo/gdt1167_historical_grade_prior/REPORT.md): original DAN/DAIN/DAIIN/DAIIIN=I/II/III/IV ranks7of24 against fixed historical dry-grade panel.138known grades13/61/52/12;39unknown of177. Fourbestmaps still TV0.372; no numeral selected. Even allmissing assigned to onegrade leave dominance below target35/43. Independent validatorPASS; source/target populations differ. Retain628/629formation evidence; stop treating original numeric values as established prior. A construction-level relation must motivate any later grade/amount hypothesis; no confirmed seed required.

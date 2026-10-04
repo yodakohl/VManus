@@ -3,12 +3,12 @@ Updated: 2026-10-04.
 
 ## Current work
 Phase: exploration
-Status: checkpoint
-Task: Review semantic candidates.
-Latest decision: No new test;0 meanings.
-Working files: GDT1088/1141/1026/1041.
-Assumptions: Model fit is not translation.
-Resume: No repeat kooiin/light/music audit.
+Status: complete
+Task: CoReMA source-rule reconstruction.
+Latest decision: Partial writer;no decoder.
+Working files: production_origin_supply_20261003/source_rule_package/REPORT.md.
+Assumptions: Supplied source values;editorial classes;0 meanings.
+Resume: Need independent context/native constraint.
 Running: None.
 
 ## Structural baseline
@@ -24,6 +24,7 @@ layout does not translate pchor/ychor. Confirmed translated words: 0. Hypotheses
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
+CoReMA rules partial;no complete writer (4Oct).
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
 1164 ranking failed;1160 supervised gain retained.
 GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
@@ -37,7 +38,7 @@ with no second bound Viola owner (IDEA621).
 IDEA237 untested/not preferred; all30 programs first-passed, P09 closed.
 Details via `context topic NAME`: recipes, names, numbers, genealogy, variants,
 controls, differential; then exact `ideas show ID` / `lookup GDTNNN` and primaries.
-Other closed families remain in the existing registry; no automatic reopening.
+Other closed families: registry; no automatic reopening.
 
 ## Access and operating boundaries
 f84 and f84r remain sealed. f116v not admitted. Reserves closed until near-complete
@@ -55,13 +56,11 @@ page-query overreach is exposure only in the scope note. New scored relation pac
 require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Retrieval
-`./vmanus-work context start` returns this route.
 `./vmanus-work context topic Wortzusammensetzung` returns a bounded live excerpt.
-`context topics` lists eight topics; `context check` checks retrieval.
+`context topics`: eight topics; `context check`: retrieval check.
 Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before selection.
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
-Update this resume block before a context switch. Store results and reopening terms
-in the existing dossier/review/ACTIVE_EXPERIMENT_LEDGER.tsv; update
-VOYNICH_ACTIVE_STATE.md only when its live interpretation changes. No history dumps.
-Retain positives as well as failures; publish after exact staged privacy/scope checks.
+Results in existing dossiers/ledger; keep resume current. Update
+VOYNICH_ACTIVE_STATE.md on interpretation changes. No history dumps.
+Publish substantive findings only; checkpoints stay local (user,4 Oct).
