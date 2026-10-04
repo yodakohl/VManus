@@ -1,0 +1,390 @@
+{
+  "purpose": "User requested combined native text and image inspection; descriptive rereading, not a new decipherment experiment",
+  "folio": "f2v",
+  "image": {
+    "url": "https://collections.library.yale.edu/iiif/2/1006079/full/full/0/default.jpg",
+    "sha256": "ae2e9591c75389fe093e7f35d5c670781d196c253d472030dd4a1d1c86ae1cb7",
+    "size": [
+      2771,
+      3797
+    ],
+    "display_crops": {
+      "upper": [
+        637,
+        532,
+        2466,
+        1025
+      ],
+      "lower": [
+        554,
+        2050,
+        2494,
+        2582
+      ]
+    },
+    "processing": "Unmodified full image and native-resolution crops only; no OCR, generative image, sharpening or glyph restoration"
+  },
+  "access": {
+    "image_primary": "experiments/yolo/gdt1087_botanical_blind_name_audit/artifacts/SOURCE.tsv",
+    "text_allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+    "text_query": "./vmanus-exp query-tsv experiments/semantic_assumptions/results/source_separator_transcription.tsv --selector page --allow f2v --columns edition,locus,source_group_index,ivtff_group_raw,left_separator,right_separator",
+    "guard_counts": {
+      "selected": 178,
+      "forbidden_skipped": 2122,
+      "other_skipped": 113170
+    }
+  },
+  "initial_native_draft": {
+    "purpose": "Native reading draft before this-turn transcription lookup; prior project exposure remains",
+    "source_sha256": "ae2e9591c75389fe093e7f35d5c670781d196c253d472030dd4a1d1c86ae1cb7",
+    "upper_first_line": "kooiin cheo pchor otaiin odaiin chol | [dair?] [cthy?]",
+    "upper_last_line": "[shy?] [cholo?] chol chodaiin",
+    "lower_first_line": "[k...chol] chy daiin [cthor?] | [shchy?] dal chor [dain?]",
+    "other_visible_recurrences": [
+      "chol",
+      "chor",
+      "daiin",
+      "chodaiin"
+    ],
+    "limits": "Partial manual EVA-like transcription, not an independent edition. Brackets uncertain; | marks plant interruption, not syntax. No word meanings assigned."
+  },
+  "comparison_lines": [
+    {
+      "edition": "ZL3b",
+      "locus": "f2v.1",
+      "raw_groups": [
+        "kooiin",
+        "cheo",
+        "pchor",
+        "otaiin",
+        "odain",
+        "chor",
+        "dair",
+        "shty"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "locus": "f2v.2",
+      "raw_groups": [
+        "kcho",
+        "kchy",
+        "sho",
+        "shol",
+        "qotcho",
+        "loeees",
+        "qoty",
+        "chor",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "locus": "f2v.3",
+      "raw_groups": [
+        "otchy",
+        "chor",
+        "lshy",
+        "chol",
+        "chody",
+        "chodain",
+        "chcthy",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "locus": "f2v.4",
+      "raw_groups": [
+        "sho",
+        "cholo",
+        "cheor",
+        "chodaiin"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "locus": "f2v.5",
+      "raw_groups": [
+        "kchor<!mark above o>",
+        "shy",
+        "daiiin",
+        "ch{cko}m",
+        "s",
+        "shey",
+        "dor",
+        "chol",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "locus": "f2v.6",
+      "raw_groups": [
+        "dor",
+        "chol",
+        "chor",
+        "chol",
+        "keol",
+        "chy",
+        "chty",
+        "daiin",
+        "o",
+        "tchor",
+        "chan"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "locus": "f2v.7",
+      "raw_groups": [
+        "daiin",
+        "chotchey",
+        "qoteeey",
+        "chokeos",
+        "chees",
+        "chr",
+        "cheaiin"
+      ]
+    },
+    {
+      "edition": "ZL3b",
+      "locus": "f2v.8",
+      "raw_groups": [
+        "chokoishe",
+        "chor",
+        "cheol",
+        "chol",
+        "dolody"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "locus": "f2v.1",
+      "raw_groups": [
+        "kooiin",
+        "cheo",
+        "pchor",
+        "otaiin",
+        "o",
+        "dain",
+        "chor",
+        "dair",
+        "shty"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "locus": "f2v.2",
+      "raw_groups": [
+        "kcho",
+        "kchy",
+        "sho",
+        "shol",
+        "qotcho",
+        "loeees",
+        "qoty",
+        "chor",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "locus": "f2v.3",
+      "raw_groups": [
+        "otchy",
+        "chor",
+        "lshy",
+        "chol",
+        "chody",
+        "chodain",
+        "chcthy",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "locus": "f2v.4",
+      "raw_groups": [
+        "sho",
+        "cholo",
+        "cheor",
+        "chodaiin"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "locus": "f2v.5",
+      "raw_groups": [
+        "kchor",
+        "shy",
+        "daiiin",
+        "chckhoy",
+        "s",
+        "shey",
+        "dor",
+        "chol",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "locus": "f2v.6",
+      "raw_groups": [
+        "dor",
+        "chol",
+        "chor",
+        "chol",
+        "keol",
+        "chy",
+        "chty",
+        "daiin",
+        "otchor",
+        "chan"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "locus": "f2v.7",
+      "raw_groups": [
+        "daiin",
+        "chotchey",
+        "qoteeey",
+        "chokeos",
+        "chees",
+        "chr",
+        "cheaiin"
+      ]
+    },
+    {
+      "edition": "IT2a",
+      "locus": "f2v.8",
+      "raw_groups": [
+        "chokoishe",
+        "chor",
+        "cheol",
+        "chol",
+        "dolody"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "locus": "f2v.1",
+      "raw_groups": [
+        "kooiin",
+        "cheopchor",
+        "otaiinodain",
+        "chor",
+        "dair",
+        "shty"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "locus": "f2v.2",
+      "raw_groups": [
+        "kch@221;kchy",
+        "sho",
+        "shol",
+        "qotcho",
+        "loeees",
+        "qoty",
+        "chor",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "locus": "f2v.3",
+      "raw_groups": [
+        "otchy",
+        "chor",
+        "lshy",
+        "chol",
+        "chody",
+        "chodain",
+        "chcthy",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "locus": "f2v.4",
+      "raw_groups": [
+        "sho",
+        "cholo",
+        "cheor",
+        "chodaiin"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "locus": "f2v.5",
+      "raw_groups": [
+        "kchor",
+        "shy",
+        "daiiin",
+        "ch{cko}m",
+        "sshey",
+        "dor",
+        "chol",
+        "daiin"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "locus": "f2v.6",
+      "raw_groups": [
+        "dor",
+        "chol",
+        "chor",
+        "chol",
+        "keol",
+        "chy",
+        "chty",
+        "daiin",
+        "otchor",
+        "chan"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "locus": "f2v.7",
+      "raw_groups": [
+        "daiin",
+        "chotchey",
+        "qoteeey",
+        "chokeos",
+        "chees",
+        "chr",
+        "cheaiin"
+      ]
+    },
+    {
+      "edition": "RF1b",
+      "locus": "f2v.8",
+      "raw_groups": [
+        "chokoi{ch'}e",
+        "chor",
+        "cheol",
+        "chol",
+        "dolody"
+      ]
+    }
+  ],
+  "observations": [
+    "Both upper and lower text areas contain four line levels; drawing interrupts several line levels, with writing also on its right. Existing editions provide the text traversal, not newly decoded syntax.",
+    "The native first-line draft incorrectly favored chol for the sixth written group and odaiin for a minim form; editions favor chor and odain or o dain. Root comparison supports correction but does not certify all manuscript boundaries.",
+    "The lower beginning contains a longer minim sequence rendered daiiin by all three readings, whereas many other occurrences are daiin. Initial native draft undercounted it. No number value is inferred.",
+    "The complex group in lower line1/f2v.5 remains disputed: ZL/RF ch{cko}m versus IT chckhoy. No fresh glyph resolution claimed.",
+    "Raw splitting also differs at upper line1 and lower line2; these are reading alternatives, not independent witnesses.",
+    "The repeated lower line2 segment dor chol chor chol and upper line4 sho cholo cheor chodaiin are present in all three transcriptions and were compared back to the crops. They do not identify a part of the pictured plant.",
+    "Two written blocks accompany one large plant depiction; no visible connector individually assigns the inspected word groups to leaf, root or flower. This does not determine the subjects of the blocks."
+  ],
+  "limits": [
+    "Earlier f2v project exposure; no blind claim",
+    "Initial manual reading partial and fallible; standard EVA renderings are borrowed from the named editions after comparison",
+    "No plant name, clause meaning, grammar rule or word translation selected",
+    "No new Voynich admission, reserve access or contacts"
+  ]
+}

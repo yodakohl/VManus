@@ -4,11 +4,11 @@ Updated: 2026-10-04.
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: Correct repeated C0 replies.
-Latest decision: No new meaning selected.
-Working files: research_registry/README.md.
-Assumptions: C0 allowed;unconfirmed.
-Resume: Check actual reuse before selection.
+Task: Read f2v text and image.
+Latest decision: f2v.5 unresolved;0 meanings.
+Working files: F2V_NATIVE_TEXT_IMAGE_20261004.json.
+Assumptions: EVA is not plaintext.
+Resume: Keep native uncertainties.
 Running: None.
 
 ## Structural baseline
