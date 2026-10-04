@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1171**
-- Experiment-associated tracked files: **23,598** (2.2 GiB)
+- Experiment-associated tracked files: **23,601** (2.2 GiB)
 - Structured GDT337+ experiments: **820**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1173 | GDT1173_edge_identity_statistic_scope | `SHUFFLE_EXCESS_ORDERING_IS_NOT_INFORMATION_LOCALIZATION` | [report](../experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md) | 16 | 32.3 KiB | 3 | STRUCTURED_YOLO |
+| GDT1173 | GDT1173_source_provenance_correction | `SOURCE_NOVELTY_WITHDRAWN_ARITHMETIC_UNCHANGED` | [report](../experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md) | 19 | 39.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT1172 | GDT1172_literal_rota_source_word_contract | `COMPLETE_LITERAL_INSTRUCTION_COUNT_CONTRADICTED` | [report](../experiments/yolo/gdt1172_literal_rota_source_word_contract/REPORT.md) | 14 | 991.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT1171 | GDT1171_open_vocabulary_context_recovery | `NO_USEFUL_OPEN_CONTEXT_RECOVERY` | [report](../experiments/yolo/gdt1171_open_vocabulary_context_recovery/REPORT.md) | 38 | 6.8 MiB | 6 | STRUCTURED_YOLO |
 | GDT1168 | GDT1168_interval_unknown_completion_preparation | `NOT_SELECTED_NOT_EXECUTED` | [report](../experiments/yolo/gdt1168_interval_unknown_completion/REPORT.md) | 9 | 14.7 KiB | 2 | STRUCTURED_YOLO |

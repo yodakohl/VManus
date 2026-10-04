@@ -4,11 +4,11 @@ Updated: 2026-10-04.
 ## Current work
 Phase: fixed_test
 Status: complete
-Task: GDT1173 MI.
-Latest decision: Edge rank is not word disproof.
-Working files: experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md.
-Assumptions: Toy only;0 meanings.
-Resume: No next test;keep whole-form evidence.
+Task: Correct1173 provenance.
+Latest decision: Paper/code known5Sep.
+Working files: experiments/yolo/gdt1173_edge_identity_statistic_scope/CORRECTION.md.
+Assumptions: Arithmetic retained;0 meanings.
+Resume: No next test;internal evidence only.
 Running: None.
 
 ## Structural baseline
@@ -24,7 +24,7 @@ layout does not translate pchor/ychor. Confirmed translated words: 0. Hypotheses
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
-1171:no context gain;1172:rota86/62.1173:MI excess is not unit proof.
+1171:no context gain;1172:rota86/62.1173:arithmetic only;source old.
 CoReMA partial;no complete writer.
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
 1164 ranking failed;1160 supervised gain retained.
@@ -57,11 +57,11 @@ page-query overreach is exposure only in the scope note. New scored relation pac
 require `check-edge-packet`. Read [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Retrieval
-`./vmanus-work context topic Wortzusammensetzung` returns a bounded live excerpt.
+No public-approach search: [user rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
+`context topic Wortzusammensetzung`: bounded baseline.
 `context topics`: eight topics; `context check`: retrieval check.
 Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before selection.
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
-Results in existing dossiers/ledger; keep resume current. Update
-VOYNICH_ACTIVE_STATE.md on interpretation changes. No history dumps.
+Results: dossiers/ledger. Update active state on interpretation changes.
 Publish substantive findings only; checkpoints stay local (user,4 Oct).

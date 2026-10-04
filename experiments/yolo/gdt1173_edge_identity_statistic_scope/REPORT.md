@@ -1,5 +1,11 @@
 # GDT1173 — shuffle excess does not locate information outside whole forms
 
+**Provenance correction,4October:** the paper and identical inspected code were
+already reviewed in the project's5September proposal. The claim of new project
+input and the resulting external-search selection are withdrawn. The arithmetic
+below is unchanged. See [CORRECTION.md](CORRECTION.md) for primary evidence and
+the user's previously recorded restriction on public-approach searches.
+
 **Decision: SHUFFLE_EXCESS_ORDERING_IS_NOT_INFORMATION_LOCALIZATION.**
 The comparison alone cannot establish that the written groups are not words,
 or justify discarding whole-form identity. This is an exact small estimator

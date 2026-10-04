@@ -1,3 +1,7 @@
+## 2026-10-04 GDT1173 provenance correction
+
+[GDT1173 correction](experiments/yolo/gdt1173_edge_identity_statistic_scope/CORRECTION.md): the same paper and identical edge-driver hash were already reviewed in the5September primary proposal, which also records the user restriction on public-approach searches. Withdraw the fresh-source rationale and restore that instruction in the live route. The fixed arithmetic and original protocol remain unchanged. This is a provenance/selection correction; no new manuscript result, executable reading test or meaning.
+
 ## 2026-10-04 GDT1173: cross-scale shuffle excess does not identify words
 
 [GDT1173](experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md): a fixed eight-form artificial line gives whole-identity shuffle excess0 and edge excess0.843136429bits. Exhaustive40320permutation result agrees with independent2520multiset reconstruction. This constrains interpretation of the newly encountered external source comparison, not the manuscript; no Voynich bias estimate or refutation of the paper's empirical profile. Keep whole-form residuals and component evidence608, known-phrase915 positive, new-pair916 negative. No new decoder, boundary predictor or meaning selected.

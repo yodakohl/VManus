@@ -1,0 +1,61 @@
+{
+  "record_id": "GDT1173",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root_20261004_unit_source_provenance_correction",
+  "assessment_basis": "Direct prior-document and identical inspected-code hash comparison; original arithmetic preserved",
+  "reason": "The same paper and same code hash were already in the5September primary proposal, which also records the user restriction on public-approach searches. Withdraw new-source selection; retain only the exact arithmetic counterexample under its original ceiling.",
+  "blockers": [
+    {
+      "code": "source_novelty_claim_contradicted",
+      "detail": "The source is previously reviewed and cannot justify a fresh public-method route. This does not contradict the fixed mathematical result.",
+      "evidence": [
+        "experiments/yolo/gdt1173_edge_identity_statistic_scope/CORRECTION.md",
+        "docs/NEXT_BOUNDARY_PROPOSAL.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_decision_bearing_claim",
+        "change": "new_design",
+        "detail": "A genuinely different internal-evidence question with a reading consequence, respecting the user restriction on public-approach searches; not more estimator demonstrations.",
+        "evidence": [
+          "experiments/yolo/gdt1173_edge_identity_statistic_scope/CORRECTION.md",
+          "docs/NEXT_BOUNDARY_PROPOSAL.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More permutations or artificial words",
+      "External paper title alone",
+      "Low token shuffle excess alone",
+      "Re-encountering an already reviewed public paper"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT608",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT915",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT916",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md"
+      ]
+    }
+  ]
+}
