@@ -1,0 +1,46 @@
+{
+  "record_id": "IDEA000871",
+  "scope": "semantic",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261004_source_count",
+  "assessment_basis": "native_source_word_count_against_declared_ZL_projection_no_new_target_access",
+  "reason": "Complete R01-R07 instruction has86source words versus62fixed target groups; both paired literal alternatives fail the shared instruction conjunct. Black box alone62 is retained as a partial coincidence but omits24words of the declared source. No lyric, key, underlay or general music test.",
+  "blockers": [
+    {
+      "code": "model_counterexample",
+      "detail": "The fixed complete-copy word-boundary invariant fails86versus62.",
+      "evidence": [
+        "experiments/yolo/gdt1172_literal_rota_source_word_contract/REPORT.md",
+        "experiments/yolo/gdt1172_literal_rota_source_word_contract/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_bound_writer_or_source_unit",
+        "change": "new_design",
+        "detail": "A genuinely separately justified changed source/word law with a prospective unequal consequence; retain this whole-source failure. The black-box count coincidence alone is not justification.",
+        "evidence": [
+          "experiments/yolo/gdt1172_literal_rota_source_word_contract/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Deleting either red instruction after the count",
+      "Keeping old free music glosses",
+      "Count62from only the black box",
+      "Matching rhythm or hypothetical performance"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1172",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1172_literal_rota_source_word_contract/REPORT.md"
+      ]
+    }
+  ]
+}

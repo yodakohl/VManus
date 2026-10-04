@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1169**
-- Experiment-associated tracked files: **23,568** (2.2 GiB)
-- Structured GDT337+ experiments: **818**
+- Experiments indexed: **1170**
+- Experiment-associated tracked files: **23,582** (2.2 GiB)
+- Structured GDT337+ experiments: **819**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1172 | GDT1172_literal_rota_source_word_contract | `COMPLETE_LITERAL_INSTRUCTION_COUNT_CONTRADICTED` | [report](../experiments/yolo/gdt1172_literal_rota_source_word_contract/REPORT.md) | 14 | 991.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT1171 | GDT1171_open_vocabulary_context_recovery | `NO_USEFUL_OPEN_CONTEXT_RECOVERY` | [report](../experiments/yolo/gdt1171_open_vocabulary_context_recovery/REPORT.md) | 38 | 6.8 MiB | 6 | STRUCTURED_YOLO |
 | GDT1168 | GDT1168_interval_unknown_completion_preparation | `NOT_SELECTED_NOT_EXECUTED` | [report](../experiments/yolo/gdt1168_interval_unknown_completion/REPORT.md) | 9 | 14.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT1167 | gdt1167_target_bin_label_clarification | `ORIGINAL_NUMERAL_PRIOR_WEAKENED` | [report](../experiments/yolo/gdt1167_historical_grade_prior/REPORT.md) | 17 | 468.5 KiB | 5 | STRUCTURED_YOLO |

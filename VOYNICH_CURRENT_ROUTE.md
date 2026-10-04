@@ -4,11 +4,11 @@ Updated: 2026-10-04.
 ## Current work
 Phase: fixed_test
 Status: complete
-Task: GDT1171 source comparison.
-Latest decision: OOV recovery;no context gain.
-Working files: experiments/yolo/gdt1171_open_vocabulary_context_recovery/REPORT.md.
-Assumptions: Supplied rules;exposed;0 meanings.
-Resume: Stop model;require distinct identifying constraint.
+Task: GDT1172 source count.
+Latest decision: 871 full copy fails86/62.
+Working files: experiments/yolo/gdt1172_literal_rota_source_word_contract/REPORT.md.
+Assumptions: Exposed;ZL projection;0 meanings.
+Resume: No871decoder;justify different writer.
 Running: None.
 
 ## Structural baseline
@@ -24,7 +24,8 @@ layout does not translate pchor/ychor. Confirmed translated words: 0. Hypotheses
 GDT327/GDT336 are historical sources, not expanded access.
 
 ## Decisions to retain
-CoReMA rules partial;no complete writer (4Oct).
+1171:no context gain.1172:full rota copy fails86/62.
+CoReMA partial;no complete writer.
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
 1164 ranking failed;1160 supervised gain retained.
 GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
