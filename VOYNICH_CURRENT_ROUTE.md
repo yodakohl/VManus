@@ -2,14 +2,14 @@
 Updated: 2026-10-04.
 
 ## Current work
-Phase: exploration
-Status: complete
-Task: Source capacity audit.
-Latest decision: Limited capacity;no context fit.
-Working files: production_origin_supply_20261003/source_rule_package/FEASIBILITY_REPORT.md.
+Phase: fixed_test
+Status: active
+Task: GDT1171 open-vocabulary source recovery.
+Latest decision: Fix U/C/shuffle before scoring.
+Working files: experiments/yolo/gdt1171_open_vocabulary_context_recovery/METHOD.md.
 Assumptions: Supplied rules;exposed;0 meanings.
-Resume: New OOV mechanism or specific narrow decision.
-Running: None.
+Resume: Register, run, validate once.
+Running: Root;producer review complete.
 
 ## Structural baseline
 Spaces carry hierarchy; reusable parts build unseen forms. Composition is directed;
