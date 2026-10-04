@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-03.
+Updated: 2026-10-04.
 
 ## Current work
 Phase: exploration
 Status: checkpoint
-Task: 10h requested;1h44 elapsed.
-Latest decision: 1169 no path;Cava word disputed.
-Working files: GDT1169.
-Assumptions: No language or label meaning fixed.
-Resume: No selected content test.
+Task: Correct repeated C0 replies.
+Latest decision: No new meaning selected.
+Working files: research_registry/README.md.
+Assumptions: C0 allowed;unconfirmed.
+Resume: Check actual reuse before selection.
 Running: None.
 
 ## Structural baseline

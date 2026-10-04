@@ -78,3 +78,20 @@ einem Refresh. Die Suchabfragen im JSON lassen sich jeweils mit
 `./vmanus-work ideas search QUERY` nachstellen, die dort verzeichneten genauen
 ID-Aufrufe mit ihrem gespeicherten `command`. Spätere Metadatenänderungen dürfen
 die Treffer verändern; der datierte Befund bleibt als solcher erhalten.
+
+## Korrektur nach erneutem Nutzerwiderspruch — 4. Oktober 2026
+
+Die letzten Antworten haben dieselbe bekannte fochor-Vermutung erneut angeboten, obwohl keine neue Bedeutungsbindung vorlag und der Nutzer diese Ersatzantwort ausdrücklich zurückgewiesen hatte. Das war ein Fehler der Arbeitsauswahl und Kommunikation. Eine weitere Statusprüfung dieser unveränderten Vermutung wird nicht als Forschungsergebnis ausgegeben.
+
+Die gezielte Primärprüfung zeigt, warum auch Wörterbucherhalt kein ausreichendes Fortschrittsmaß ist:
+
+| Bestehender Versuch | Tatsächliche zusätzliche Erklärung | Grenze |
+|---|---|---|
+| [GDT994](../../experiments/yolo/gdt994_frozen_transport_whole_transfer/REPORT.md) | Keine weitere vollständige Lesung unter unveränderten47Werten/17Produktionen; nur der angepasste Ausgangsabsatz | Fehlende Wörter sind keine1348Bedeutungswiderlegungen. Unveränderter Wiederlauf ist nutzlos. |
+| [GDT1024](../../experiments/yolo/gdt1024_rota_two_paragraph_fixed_lexicon/REPORT.md) |6alte Typen an9von33neuen Stellen;18neue Bedeutungen und6neue Konstruktionen |53erhaltene Wörterbucheinträge sind nicht53übertragene Bedeutungen. Bedingte Kohärenz bleibt erhalten, keine semantische Bestätigung. |
+
+Für neue Erweiterungen werden tatsächliche Wiederverwendung und neu angepasste Bedeutungen, Konstruktionen sowie Referentenbindungen nebeneinander berichtet. Das ist keine neue Kennzahl mit erfundener Wahrscheinlichkeit und kein weiterer globaler Tracker. Exploration bleibt erlaubt; eine lokal entscheidbare Konsequenz verlangt nicht automatisch eine Vollübersetzung des ganzen Absatzes. Unbekannte Umgebung darf dabei ihre behauptete Entscheidungskraft nicht stillschweigend verlieren.
+
+Bei einem neuen QOKEDY-Beziehungsmodell sind die bereits publizierten Konstruktionen `shedy qokedy sheey` und `chedy qokedy chedy` von Anfang an gemeinsam zu berücksichtigen. [GDT1163](../../experiments/yolo/gdt1163_correlative_relation_whole_account/REPORT.md) zeigt, dass starre entgegengesetzte Rollen der flankierenden Gesamtwörter am zweiten Fall scheitern. Ein neuer englischer Bedeutungsname beseitigt das nicht; eine ausdrücklich anders begründete Kontextregel ist nicht generell ausgeschlossen. Kein solcher neuer Kandidat ist in dieser Prüfung ausgewählt worden.
+
+Umsetzung: gezielte Ergänzung im bestehenden Live-Leitfaden, keine neue Infrastruktur, keine alten wissenschaftlichen Dateien geändert, keine neuen Manuskriptdaten oder Reserven geöffnet. Dies ist eine Arbeitskorrektur, kein neuer Entzifferungsbefund. Die defekte ältere priorities-Ansicht wurde nicht zu einem Infrastrukturprojekt ausgeweitet; aktuelle Themen, Registry und Primärberichte genügten.

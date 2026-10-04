@@ -106,6 +106,21 @@ strings and alternate readers from independent observations. If the account
 is absent or contradicted, keep the meaning unassigned; a C0/exploratory label
 is no exemption. Unassessed raw ideas can be retained, but not used as
 supported lexical premises. Frozen historical glosses are not lexical facts.
+
+**Response and selection correction (2026-10-04):** an unchanged old C0 gloss
+is not an answer to a renewed request for a translation. State the actual new
+evidence, if any; do not cycle back to `fochor` after the user has rejected that
+substitution. This does not ban tentative readings or require a confirmed seed.
+For a proposed extension, report how many old word types actually recur, how
+many target positions they cover, and which new meanings, constructions or
+referent bindings were fitted. Preserving a dictionary's entries is not the
+same as successfully predicting their use. GDT1024 retained53 entries but
+reused only6 types at9/33 new positions, adding18 values and6 constructions;
+GDT994 found no additional complete paragraph under its unchanged inventory.
+These are existing results, not new discoveries or reasons to rerun either
+experiment. Keep exploration costs visible; do not impose an automatic
+full-paragraph coverage gate on a separately testable local consequence.
+
 This requirement also applies to delegated work and requires no new tool.
 `words review CONTRACT.json --fail-unready`
 checks explicit finite surface conditions over their full declared scope and
