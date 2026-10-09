@@ -4,7 +4,7 @@ Updated: 2026-10-09.
 ## Work
 Phase: exploration
 Status: active
-Task: qeeey review.
+Task: qeeey.
 Latest decision: 1304 q/non-o support.
 Working files: 1304.
 Assumptions: No meanings.
@@ -21,7 +21,7 @@ Adjacency transfers across Currier/section/hand; extra direction only across Cur
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
 reversible rendering are not confirmed meanings or sentence boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
-1076no follower capacity;1099one reprise. No meanings. Confirmed lexemes: **0**
+1076no follower capacity;1099one reprise. No meanings. Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
 
 ## Decisions to retain

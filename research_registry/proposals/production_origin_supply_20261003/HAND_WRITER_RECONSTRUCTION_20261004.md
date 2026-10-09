@@ -10104,3 +10104,9 @@ For even-L AAA, any fixed pair inverse with unchanged gaps requires w1[1:]=w2[1:
 After bounded prior review, no new surface generator selected: replacing1300with stationary M1+SPACE would mostly refit form control, not decide content;1279/1285do not establish M1writer sufficiency. Fixed931/936/945/954/998outcomes remain scoped; no general script/paradigm exclusion. Decision inGENERATOR_SELECTION_DECISION_20261009.json.
 
 Three fixed qeeey sites f76r.17G004,f107r.2G012,f108r.38G005 show q-like initials followed directly by low open curves, without the separate round body of same-line qo comparisons. Alloutside gaps space-like. One overview+onefixedcrop/page; one informed root observer. Exact9readerlines+2ZLlocalizationlines andRFentities/flags preserved. Supports local strict-interior1233qfork premises, not phonemes, intended omission vsregular spelling, true alphabet, meanings or globaltranscriptionrepair. Imageslocalonly. Provenance/source aggregationvalidatorPASS. See1304REPORT.
+
+## 2026-10-09 route-format correction and final candidate screen
+
+The1304publication preflight had one NEW documentation regression: shortening Confirmed English lexemes to Confirmed lexemes violated the pre-existing literal gate. The initial count-only closure incorrectly labelled it among existing failures. Restore the exact required zero-lexeme phrase in both copies and recheck differences against1303; no semantic count or research decision changes.
+
+The bounded e-run stretching review found no ready new experiment:846leaves physical position open but does not measure width;848supports a2-body comparison with incomplete0/1controls;1283already lacks independent target margin and counterfactual letter widths. No new RAW card, altered old failure, numerical test, images or stretch-meaning assignment. This is reuse of the existing stop, not a new refutation of all optional lengthening.
