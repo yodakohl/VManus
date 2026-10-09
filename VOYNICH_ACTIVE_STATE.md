@@ -1,3 +1,7 @@
+# 2026-10-09: GDT1300 complete codec, failed held screen
+
+838output entries; all4source books recover exactly, but every frozen basic/stronger held-reader comparison fails. Glyph conditionalentropy/lengthspread too high; adjacent equal/edit-one groups too scarce. Sourcebits improve type diversity versusfairbits under the samekey, without restoringjointfit. No native key/meaning or historically selected writer. Independent key/inverse/metricchecksPASS. No automatic moretable/context/whitening repair. See1300REPORT.
+
 # 2026-10-09: GDT1299 fixed-source radix block bound
 
 Allfour existing source streams haveR3. Under shortest base22 whole-block output and inputN22..82, short1 or wholeol2 plus qoteytyqoky11 require source bases>=2271 or485. The fixed carrier fails for everyk/key order on these sources, including the weaker ol-only check. Not a general cipher/language rejection or word meaning. Independent raw/source/integer replayPASS. Source-free proof reviewed before counts. See1299REPORT; no repair selected.

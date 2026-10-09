@@ -1,0 +1,41 @@
+# GDT1300 — complete canonical-pair message codec
+
+Exploration/control construction, not a Voynich reading. Preparation began08:33:07UTC9October; complete decision/protocol before implementation or new train/evaluation counts. Inclusive120minute budget through10:33:07UTC includes the substantial prior review, implementation, independent validation and privacy-checked publication. Stop expansion at that deadline; no new pairing count, tables, smoothing, whitening or source changes after outcomes.
+
+## Decision and prior evidence
+Unknown: can a compact canonical-part code carry complete real source text while matching the frozen held written-form screen without memorizing a whole-word dictionary? Legal form coverage or a source roundtrip alone does not answer this. A joint statistical pass within the1200output-entry cap retains a viable SYNTHETIC control, not an original writer/key. A failure parks only this frozen component-code mechanism; no optimizer or larger-context/table repair. A fair-bit control distinguishes the ideal coded-choice distribution from actual natural-language bitstream behavior; neither is an independent manuscript confirmation.
+
+1263 already excludes global monotone glyph slots; it is not rerun. 1264/1265support limited binary interior ordering but not phonemes. 787/808/865retain whole-form and record effects; old HOT/END displays are not lexical facts. 1253 already proves a one-pair canonical grammar, so greedy legality is not new native evidence. 1181/1182use Huffman for source fragments and source-word boundaries;1193/1195use much larger source codebooks and fixed searches. This code instead routes a continuous source BIT stream through generated whole groups, with no word-to-word meaning assignment or whole-word inventory in its key. The17-character numeric module984 and fixed-radix1299 remain separate/parked.
+
+## Learned key and complete source alphabet
+Use only old strict1233ZLgroups on odd physical leaf numbers as TRAIN. Count adjacent working-unit pairs; take exactly16 highest counts, ties by the declared22-unit order for first then second member. Vocabulary is all22single units plus these16pairs. No new glyph or assumed phonetic value. Parse every training word greedily from the left, consuming a pair exactly when the next two units are in the pair list, otherwise one unit.
+
+The source alphabet is the union of actual Unicode characters in the four fixed source streams, plus distinct NUL END (assert absent from content). Count source characters over all four complete books and add one END per book. Learn one source Huffman table. This stores character frequencies, not source words, transitions or a hidden complete message; any finite new string over this alphabet can be written. Characters outside it are explicitly unsupported. The source input is the declared old textual projection, not all original manuscript metadata.
+
+All Huffman trees are deterministic: positive integer weights; heap order by(weight,minimum leaf index); merge the two smallest nodes, first as bit0, second as bit1. Source character indices follow Unicode order including END. Token indices are the fixed22units followed by the ordered selected pairs. T indices are1..13. All target-derived row weights are 2*count+1 (half-count smoothing). No randomness chooses an encoding or a key.
+
+## Word production
+Encode one complete plaintext book plus END to its source bits. For each written word, read a T-Huffman code, T in1..13. That T is the number of greedy tokens, not a count of source letters or a claimed native morpheme count.
+
+For T=1 choose one token using SINGLE counts. For T>1 choose its first token using HEAD counts, interior tokens using MIDDLE counts and last using TAIL counts. MIDDLE/TAIL weights condition on the last working unit of the previous token via the old fixed1264class0/1; m uses a pooled MIDDLE/TAIL row. SINGLE andHEAD have no such previous-token class. Count these roles only in TRAIN. At each choice, use a Huffman table over allowed tokens with those weights.
+
+Canonical restriction: after a bare unit x, forbid every next token whose first unit is y with(x,y)in the16-pair list. After a pair token there is no restriction. This is necessary and sufficient for the concatenated word to reparse to exactly the chosen tokens. With only16forbidden pairs among22heads, at least six single-unit alternatives survive after any bare unit; no choice table is empty or one-leaf. T1..13has13positive choices. No invisible or zero-length output token is used.
+
+Emit each token's literal one/two working units, then a visible word separator. Physical lines wrap between words at48working units; line breaks have no content meaning. Original source spaces and paragraph breaks are recovered from the source bitstream, not inferred from output layout.
+
+## End, padding and inverse
+When the source bitstream is exhausted, complete only the already started output word by supplying zero bits as needed, then stop at that word boundary. If exhaustion is exactly between words, do not begin another word. END alone encodes an empty plaintext, not an empty bitstream.
+
+The reader reads each complete written word, greedily obtains its tokens and henceT, emits the corresponding T code plus each token's context/role-specific code, and concatenates these recovered bits. Decode source characters through the source Huffman tree until END. Require only zero trailing recovered bits and exact canonical re-encoding to reject additional all-zero words. Missing END, unknown glyphs, noncanonical controls or extra nonzero tail are invalid. The bounded input alphabet and all key tables are paid explicitly. No output word is assigned a plaintext word.
+
+## Cost and scoring gates
+Count actual unique tokenID-to-bitcode tables after filtering/deduplicating identical mappings across every possible previous token and role. Sum their leaf counts. Stop before source generation if this exceeds1200output lookup entries. Separately disclose source-character/T tables, pair list, class list, code strings and learned weight parameters. Do not count only seven weight rows while hiding derived lookup tables.
+
+Seal MODEL before evaluating even-leaf targets or emitted-source statistics. Encode/decode each full source book; all characters and recipe separators must return. Statistics use the first8000outputwords per book with deterministic48-unit line wrapping, compared with each reader's frozen even-leaf8000sample; missing capacity stops instead of lowering8000. Reuse1174metrics and the1194stronger tolerances (SPEC). This is a new fixed held-sample engineering comparison, not the old pooled sample or universally portable bounds;1223/1225limits remain. Train/evaluation were historically exposed; no untouched reserve is claimed. Report all individual conditions, not a favorable subset. All4sources/all3readingsmustpass for joint compatibility; readers are alternatives of one manuscript.
+
+Generate one separate8000word control driven directly by independent fair bits, seed1300, through the same output tables. It is NOT a source-language message and must not be counted as a semantic roundtrip. Huffman choice probabilities are dyadic, not exactly the learned fractions; actual source Huffman bits are not automatically IID/fair. Report both controls separately. No post-result whitening or threshold adjustment follows.
+
+## Validation/access
+Before empirical execution, source-free fixtures cover greedy boundary collisions (including self-pairs), Huffman prefix completeness, empty/plain/changed messages, terminal padding and invalid extra words. Independent code rebuilds training counts and tables, decodes all emitted sources and checks scientific metrics with a separate edit-distance/entropy implementation. No new raw TSV, image, source corpus or semantic relation. f84/f84r/f116v and reserves remain closed. Privacy scan of exact staged changes required before publication.
+
+Prospective precision before code/model/counts: exact working-unit order is `a o e i n d q y s r l m k t p f ch sh ckh cth cph cfh`. If any TRAIN word has more than13greedy tokens, stop before source encoding, without extendingT or dropping that word.

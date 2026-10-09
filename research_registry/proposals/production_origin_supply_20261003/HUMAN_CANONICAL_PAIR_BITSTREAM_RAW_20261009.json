@@ -1,0 +1,86 @@
+{
+  "title": "RAW UNREVIEWED: a canonical-pair word generator carries an exact source bitstream",
+  "summary": "Root-proposed complete modern message channel. A source character Huffman code supplies bits to a word generator with an explicitly coded token count,22 singleton working units and16 learned pair tokens. Role- and previous-class-conditioned Huffman choices obey a local canonical restriction, so every written word uniquely restores its chosen tokens and bits. A distinct source END and minimal zero completion of the last word preserve the entire declared input. This is a synthetic writer proposal, not a manuscript reading or a claim that greedy coverage is explanatory success.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_EMPIRICALLY_ASSESSED",
+  "source_status": "MODERN_CONTROL_CONSTRUCTION_NO_HISTORICAL_ATTESTATION",
+  "origin": "Root proposed and froze GDT1300 before code and new counts. The bounded producer checked the contract and source-free inverse and records one RAW after agreement. No empirical artifacts were inspected by the producer; no claim of blinded independence from the research history.",
+  "frozen_contract": {
+    "preregistration": "experiments/yolo/gdt1300_canonical_pair_message_codec/PREREGISTRATION.md",
+    "preregistration_sha256": "1a842560efd94741e60bfe9c22654d4c620a35bdbfe4035f296f30da0b1392cb",
+    "specification": "experiments/yolo/gdt1300_canonical_pair_message_codec/src/SPEC.json",
+    "specification_sha256": "ebc0474386a44b616103cb4b39df1879aee13e78f004eff2a35155d9e955898d",
+    "authority": "These root-owned files define the selected fixed construction and empirical protocol. This RAW does not change them or assert their outcome. The source-free review includes the prospectively clarified exact sign order and TRAIN T-overflow stop."
+  },
+  "design": {
+    "mechanism": "Compose two public codes: source characters plus END to binary bits, then bits to canonically segmented output words. Word length in tokens and each legal token choice are explicit Huffman decisions; output word spaces delimit generated words, not source words.",
+    "unit": "A complete source character string over one fixed public alphabet, including ordinary spaces and paragraph newlines. Visible output units are the fixed22working drawings; a word is1..13tokens, each one or two working units.",
+    "contrast": "No whole-source-word dictionary or fixed source-word/output-word alignment. Unlike1181/1182, source fragments are not individually assigned output words. Unlike1253 alone, an unconstrained source message supplies the choices through a separately decodable bitstream rather than a freely interpreted source-token grammar.",
+    "prediction": "The frozen learned key makes one deterministic complete output for every supported source string. Greedy reparsing must recover exactly the chosen token list; decoding through source END and canonical reencoding must recover the input. The actual emitted-source statistics and table costs are unknown, separately selected questions, not consequences of formal coverage.",
+    "scope": "Complete modern synthetic message codec under the pinned specification. No glyph meaning, language identification, historical usability, native source/key, statistical pass, new image or reserved-data claim.",
+    "working_units": ["a","o","e","i","n","d","q","y","s","r","l","m","k","t","p","f","ch","sh","ckh","cth","cph","cfh"],
+    "training_and_cost_contract": [
+      "Use only unchanged strict1233ZL groups on odd physical leaf numbers. Select the16most frequent adjacent unit pairs, with pair ties ordered by the exact working-unit list above. Vocabulary is the22singleton units followed by the selected ordered pair list.",
+      "Greedily parse each training word left to right. If a selected pair begins at the cursor, take it; otherwise take one singleton. If any TRAIN word has more than13tokens, stop before source encoding, without dropping it or extending the support.",
+      "Token-count support is exactly1..13. SINGLE counts use one-token words; HEAD, MIDDLE and TAIL counts use their respective positions in longer words. The old1264class of the preceding token's last unit conditions MIDDLE/TAIL; m uses the pooled role row, not a newly fitted class.",
+      "All target-derived code-tree weights are2*count+1. Build deterministic binary Huffman trees using heap order(weight,minimum leaf index), first popped child bit0 and second bit1. T indices are1..13; token indices follow the singleton and selected-pair orders.",
+      "The actual conditional codebook also depends on the exact previous bare unit when canonical filtering removes starts. Count unique resulting tokenID-to-bitcode mappings across every possible previous token and role, after exact mapping deduplication. Stop before source generation if their total leaf count exceeds1200. Source and T tables, pair/class lists, code strings and weight parameters are disclosed separately."
+    ],
+    "source_alphabet": {
+      "definition": "Union of actual Unicode characters in the four fixed source streams b4,w1,bs1,gr1, plus distinct NUL END, asserted absent from source content. Source character frequencies across all four complete books plus one END per book determine one frozen Huffman tree; leaf indices use Unicode order.",
+      "projection": "The old1177 recipe words are joined with one space and recipes with one newline, with no additional Unicode/case normalization. The exact projected text, not every diplomatic source feature, is preserved.",
+      "open_vocabulary": "Any finite new string over this declared character alphabet is writable without a word table. An unsupported character is rejected rather than dropped or guessed. The literal END character is not an ordinary input character."
+    },
+    "writer": [
+      "Append END to one complete source string and encode the resulting character sequence through the public source Huffman tree.",
+      "Start a new output word only while genuine source bits remain. Read a T code from the output-count Huffman tree.",
+      "For T=1 decode one token with SINGLE. For T>1 decode HEAD, then T-2 MIDDLE tokens, then TAIL, using the applicable context and canonical filter at each step.",
+      "After a preceding singleton x, disallow every next token starting y with xy in the selected pair list. After a preceding pair token apply no extra boundary restriction. All singleton/pair emissions remain nonempty.",
+      "Write each selected token's one or two working units, concatenate them into one visible word, and then write a separator. Wrap only between whole words at48working units. Line breaks do not encode source paragraph or sentence boundaries.",
+      "If genuine source bits end during T or token decoding, provide zero bits only until this already started word is complete. Stop at that word boundary. If exhaustion occurs exactly between words, do not start a further word."
+    ],
+    "reader": [
+      "Read a complete output word as working units and greedily segment it using the same pair list. T is the recovered token count and must lie in1..13.",
+      "Recover the T code and the exact code of each token under its SINGLE/HEAD/MIDDLE/TAIL role, previous last-unit class and canonical filter. Concatenate these bits across written words in order.",
+      "Decode source characters through the public source Huffman tree until the first END. Missing END or unsupported/invalid output is an error. The recovered ordinary spaces and paragraph newlines are source content; output layout is not used to infer them.",
+      "Require that all recovered bits after END are zero, then reencode the recovered source with the fixed writer and demand the same logical output words. This final check rejects extra all-zero words or excessive padding that a zero-tail check alone would permit."
+    ],
+    "source_free_examples": [
+      "With a hypothetical pair list containing ab and bc: [ab,c] is canonical, [a,bc] is not, and [ab,bc] is canonical. These are metanotation examples, not native units or word values.",
+      "A selected self-pair aa permits tokens[aa,a] for aaa and[aa,aa] for aaaa; two adjacent singleton a tokens would instead violate the greedy rule.",
+      "An empty ordinary source is represented by the nonempty source END code and any necessary last-word completion, not by silently accepting an empty ciphertext."
+    ],
+    "human_work_and_limits": [
+      "A reader/writer uses the public character code, T code, token tables, pair list and class list; follows binary branches; counts at most13tokens; and tracks the preceding token and role. This is mechanically executable on paper, but table learning, bit manipulation and lookup costs are real and historical practicality is not established.",
+      "There are at most26working units in a generated word, so every word fits wholly within the declared48-unit line width. There is no unpaid overwide-word exception.",
+      "With16selected pairs, at most16first-unit choices are forbidden after a singleton. At least six singleton tokens therefore remain legal. Positive weights make each token tree finite, nonempty and nondegenerate. The13choice T tree also consumes bits.",
+      "Every started word has finitely many decisions; zero completion terminates. A separate ciphertext object is one complete source message. No outer convention for concatenating several END-terminated objects without a boundary is silently supplied.",
+      "Huffman leaf probabilities under fair input bits are dyadic2^(-code length), not exactly the smoothed empirical weights. Character-Huffman source bits need not be independent or fair. The fair-bit generator is a separate nonsemantic control, not a source-text roundtrip.",
+      "Legal surface coverage follows broadly from the canonical parser. It does not establish the intended message, explain all whole-form residuals or select this architecture. A learned output grammar is not a recovered native morphology."
+    ],
+    "frozen_empirical_question_not_executed_here": "The pinned root protocol alone controls TRAIN/model sealing, output-table capacity, four complete source encodings, historically exposed even-leaf evaluation, the inherited fixed statistical gates, the separate8000-word fair-bit control and independent validation. This RAW records no measurements or outcomes. A positive would retain only a synthetic control; a failure stops this frozen proposal without automatic smoothing, pair-count, table, source, whitening or context repair."
+  },
+  "predecessor_review": [
+    {
+      "id": "GDT1253",
+      "primaries": ["experiments/yolo/gdt1253_grammar_restricted_code_attainment/METHOD.md","experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md"],
+      "retained": "The one-pair canonical restriction and its universal coverage are already constructed. The multi-pair boundary lemma is a direct extension, not a new manuscript discovery or evidence of language."
+    },
+    {
+      "id": "GDT1181/GDT1182",
+      "primaries": ["experiments/yolo/gdt1181_productive_source_syllabary/PREREGISTRATION.md","experiments/yolo/gdt1182_explicit_fragment_continuation/METHOD.md"],
+      "difference": "They use learned source fragments and Huffman trees with preserved or explicitly marked source-word boundaries. This proposal codes a continuous source bitstream into generated output words. Their fixed failures remain."
+    },
+    {
+      "id": "GDT1193/GDT1195",
+      "primaries": ["experiments/yolo/gdt1193_three_source_code_cycle/PREREGISTRATION.md","experiments/yolo/gdt1195_final_table_feasibility_witness/PREREGISTRATION.md"],
+      "difference": "Those fixed large source-codebook constructions and allocation searches are not reused or repaired. There is no whole-word inventory in the present key and no post-result optimizer."
+    },
+    {
+      "id": "IDEA000925",
+      "review": "Registry card inspected as a conceptual cover-writing predecessor: a position-indexed cover-word table. The present output is composed from singleton/pair tokens through bit codes rather than chosen as a cover word from a whole-word column. No historical table or dating is borrowed."
+    }
+  ],
+  "novelty_review": "Bounded live-route, registry search/duplicates, targeted Huffman/bitstream primary retrieval and relevant followups found no identical full selected channel. The novelty claim is limited to this project combination of ordinary source bits, canonical pair composition, generated word counts, END/padding and fully charged filtered code tables. No mathematical or historical priority is asserted.",
+  "actions": {"native_payload_or_results_read": false,"images": false,"new_source_acquisition": false,"encoder_or_test_run": false,"word_meanings": false,"root_files_changed": false,"raw_cards_to_add": 1}
+}

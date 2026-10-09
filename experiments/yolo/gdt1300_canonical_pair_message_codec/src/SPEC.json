@@ -1,0 +1,100 @@
+{
+  "id": "GDT1300",
+  "pairs": 16,
+  "token_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "pseudocount_twice": 1,
+  "max_output_lookup_entries": 1200,
+  "training": "ZL3b, odd physical leaf numbers, unchanged strict1233groups",
+  "evaluation": "Each reader even physical leaves; natural page/locus/group order, first8000eligible whole groups; maximal source-index consecutive runs within one locus, no gap or line bridges.",
+  "books": [
+    "b4",
+    "w1",
+    "bs1",
+    "gr1"
+  ],
+  "sample_words": 8000,
+  "line_width": 48,
+  "class0": [
+    "a",
+    "e",
+    "l",
+    "n",
+    "o",
+    "p",
+    "y"
+  ],
+  "class1": [
+    "cfh",
+    "ch",
+    "ckh",
+    "cph",
+    "cth",
+    "d",
+    "f",
+    "i",
+    "k",
+    "q",
+    "r",
+    "s",
+    "sh",
+    "t"
+  ],
+  "unknown_class": [
+    "m"
+  ],
+  "source_END": "\u0000",
+  "source_rendering": "Exact1177 words joined by one space inside recipes and recipes joined by one newline, no new Unicode/case normalization.",
+  "fair_bit_control_seed": 1300,
+  "hand_examples": [
+    "nimm wasser",
+    "nimm kein wasser",
+    ""
+  ],
+  "primary_screen": "Existing1174ten tolerances applied to this frozen held sample, plus1194tightened edit1(.01),q_followed_o(.03),q_count(relative.25),y_final(.05),glyph_entropy(.15),word_entropy(.30). All4sourcebooks/all3readersjoint required for a selected compatible synthetic control. Fairbit control separate. No inference of word meaning or original key.",
+  "input_hashes": {
+    "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+    "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e",
+    "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/metrics.py": "de8a9540793b081f39886e9a7e962b4f4c9ec57f6fdc1ce8653ad9e180425c42",
+    "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/validate.py": "c05094fd4ed81efe416cd6bd60a0ecdb2bc2057adecc8e210f6d2e93caa78bf5",
+    "experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md": "d6887e32b10db533aaf9bed92dd4e3f3630cbafcdf9f3328eed6d9b46f850545"
+  },
+  "sign_order": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "training_T_overflow": "Stop before encoding if any training word has more than13 greedy tokens; do not extend or drop it."
+}

@@ -1,0 +1,1 @@
+MODEL is a synthetic trained key, not a Voynich key. MODEL_SEAL precedes scoring. SYNTHETIC_TEXTS are encoded old source texts plus a separately labelled fair-bit control; none is a manuscript transcription. EXAMPLES are artificial readback checks. TARGETS holds fixed old cached evaluation IDs. RESULT/VALIDATION preserve all failures and exact checks.

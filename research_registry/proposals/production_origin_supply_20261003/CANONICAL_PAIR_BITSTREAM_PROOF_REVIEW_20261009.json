@@ -1,0 +1,58 @@
+{
+  "title": "Source-free proof review of the frozen canonical-pair bitstream writer",
+  "date": "2026-10-09",
+  "status": "CONCEPTUAL_REVIEW_BEFORE_EMPIRICAL_INPUT_INSPECTION",
+  "reviewer": "bounded_idea_supply",
+  "timing": "Root reports the prospectively clarified protocol was fixed before implementation and new counts. Producer read only the live route, the two contract files and old predecessor prose/code definitions; no GDT1300empirical file or model was opened. This records a mathematical review, not independent experimental validation.",
+  "contract_pins": {
+    "experiments/yolo/gdt1300_canonical_pair_message_codec/PREREGISTRATION.md": "1a842560efd94741e60bfe9c22654d4c620a35bdbfe4035f296f30da0b1392cb",
+    "experiments/yolo/gdt1300_canonical_pair_message_codec/src/SPEC.json": "ebc0474386a44b616103cb4b39df1879aee13e78f004eff2a35155d9e955898d"
+  },
+  "verdict": "No source-free mathematical flaw found in the clarified fixed contract. Empirical feasibility, implementation correctness, lookup-entry cap and all statistical decisions remain unassessed.",
+  "canonical_token_lemma": {
+    "premises": "Finite token vocabulary containing all singleton working units and selected pairs M; every pair token belongs to M. Greedy parsing consumes a matching pair at the current cursor, else one singleton, and restarts at each visible word boundary.",
+    "necessary_and_sufficient_condition": "After a singleton x with a following token beginning y, xy must not be in M. No additional restriction follows a pair token.",
+    "necessity": "If a singleton x is followed by a token beginning y and xy is selected, greedy parsing consumes xy across the intended boundary; the intended token list is not recovered.",
+    "sufficiency": "Induct at each intended boundary. A next pair is in M and is consumed exactly. A next singleton either ends the word or has no selected pair crossing to the following first unit, so is consumed alone. The induction recovers every intended token and hence T.",
+    "scope": "Self-pairs and mutually overlapping candidate pairs are allowed. A consumed pair's second unit is not reconsidered as a new cursor. This extends1253's prior one-pair principle; it is not proof of native linguistic units."
+  },
+  "nonempty_choices_and_termination": {
+    "allowed_singletons": "For a fixed preceding singleton x, at most16different y can have xy in M. Of22singleton token choices, at least6therefore remain. After a pair all38tokens remain available. Positive2count+1weights give complete finite binary Huffman trees with more than one leaf.",
+    "count_tree": "T ranges over1..13with positive weights. No zero-token word exists; the count tree is also nondegenerate. TRAIN overflow is a stop, not truncation or support extension.",
+    "message_tree": "The declared source alphabet contains ordinary source characters and a distinct END. Require a nonempty END code; the actual declared multi-character source alphabet yields a nondegenerate finite tree. Empty ordinary content is encoded as END.",
+    "finite_progress": "Each output word consumes at least one count-code bit and one token-code bit. Its token count is finite. Finite source bits therefore start only finitely many words, and virtual zero completion finishes the last one after finitely many tree traversals.",
+    "word_width": "At most13tokens of length at most2give at most26working units, below the frozen48-unit line width. No token or word must be silently split to wrap."
+  },
+  "inverse_proof": [
+    "The canonical token lemma makes each generated written word recover its original tokens and T.",
+    "Those tokens and T determine the same role sequence, previous-token class, exact singleton filter and Huffman table at every step. Their public codewords recover exactly the binary choices consumed by the writer.",
+    "Concatenating recovered codes across words produces the original source bitstream followed by a possibly empty string of zero padding. Word spaces and line breaks do not alter that bitstream.",
+    "The source Huffman code is prefix-free and END is not ordinary input. Decoding until the first END therefore recovers exactly the complete input string, including original projected spaces and newlines.",
+    "If two different source strings had the same output, deterministic decoding would recover both, a contradiction. The writer is injective on its declared source domain.",
+    "Conversely, accepted ciphertexts must have a source END, an all-zero recovered tail and identical canonical reencoding. Reencoding is needed to reject overlong zero completion and extra zero-driven words; a zero-tail check alone is not sufficient."
+  ],
+  "boundary_and_cost_checks": [
+    "If real bits end during count decoding, finish that count with zeros and then produce all of that word's tokens. If they end at a completed word boundary, stop without another word.",
+    "The precise output Huffman mapping after a bare unit depends on its exact identity when M filters successors, even though weights use its binary class. The frozen cap correctly counts the actual filtered mappings, not just base weight rows.",
+    "The1200-entry cap is an empirical construction-cost gate, not a theorem guaranteed by16pairs. Its failure must stop before source generation.",
+    "The exact sign order was missing from the initial text and was fixed prospectively by root in SPEC and the protocol. TRAIN T>13was likewise explicitly resolved to stop before encoding. This review binds those clarified bytes.",
+    "Canonical output-unit parsing assumes the declared22working units and explicit output-word spaces. It supplies no new physical alphabet or word-boundary evidence.",
+    "Messages are individually delimited ciphertext objects. Internal source paragraph newlines are ordinary source characters; no hidden output-layout reset is introduced.",
+    "Outside-alphabet source characters, literal input END, malformed codewords, missing END, nonzero post-END bits and extra noncanonical words are errors, not fallback spellings."
+  ],
+  "hand_reasoned_fixtures_no_execution": [
+    "M={ab,bc}: tokens[ab,c] and[ab,bc]are canonical;[a,bc]is not. This catches checking only the next singleton rather than the first unit of any next token.",
+    "M containing aa: [aa,a]is the greedy parse of aaa. Pair tokens need no constraint against the first unit of their successor; [a,a]is noncanonical.",
+    "A final bare x is legal even if some selected pair starts x, since there is no next unit within that word. Never test a pair across visible word spaces.",
+    "Source END ending inside a T code must finish a whole positive-T word; END ending exactly at a word boundary must not create a further word.",
+    "Appending an extra word produced wholly from zero bits can satisfy the zero-tail test but must fail canonical reencoding.",
+    "Empty source, a source with spaces/newlines, and a changed source must retain respectively empty content, exact separators and the changed message under the same fixed key. These are proposed fixtures, not reported test results."
+  ],
+  "scientific_limits": [
+    "Huffman probabilities under fair bits are2^(-length), not the smoothed frequency fractions. Character-Huffman encoding does not prove natural source bits are IID or fair.",
+    "A good ideal output model does not imply that the actual source-driven writer has the same statistics. The pinned protocol correctly separates these controls.",
+    "Legal greedy coverage is largely guaranteed and cannot select a native key or meaning.1253's universal-cover caution remains.",
+    "Old1181/1182/1193/1195failures and1223/1225comparison-scope limits are not rescued. A joint pass would be a synthetic control only."
+  ],
+  "administrative_scope": "One separate producer proof note plus one RAW proposal/ideas-add. No code, toy execution, native count, target image, semantic assignment or root-file edit."
+}
