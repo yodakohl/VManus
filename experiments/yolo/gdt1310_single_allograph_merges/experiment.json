@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT1310",
+  "slug": "single_allograph_merges",
+  "title": "Exact individual allograph-merge compatibility",
+  "created": "2026-10-09",
+  "updated": "2026-10-09",
+  "status": "EXACT_SINGLE_MERGE_COMPATIBILITY",
+  "question": "Which individual pairs remain compatible under the unchanged local allograph rule once their own source-neighbor mergers are accounted for?",
+  "claim_ceiling": "Conditional exact single-pair consistency, not actual allographs, a compact human writer, joint partition, alphabet or meaning.",
+  "dependencies": [
+    "GDT1233",
+    "GDT1295"
+  ],
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "fixed guarded current source or prior edge metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "fixed guarded current source or prior edge metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt1295_local_allograph_letter_bound/artifacts/CONFLICTS.json.gz",
+      "sha256": "3345133470834dcca774328b4c3d623cb2d712f153d9c011d446fac54a4c42c2",
+      "role": "fixed guarded current source or prior edge metadata"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/METHOD.md",
+      "sha256": "53541a5c467265c072685d62b1bdf8f9f390554b9a36437dc2756d2e9e7d5da7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/PREREGISTRATION.md",
+      "sha256": "53541a5c467265c072685d62b1bdf8f9f390554b9a36437dc2756d2e9e7d5da7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/README.md",
+      "sha256": "d08da60e5f5729b73303d4242a057812dc58e5915bc4a99a54e0a9ad09b60fa9",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/REPORT.md",
+      "sha256": "edd301387a19bb6c7b17ef1cc25f26485d1404f183d6f52fb64e3ce412e743da",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/artifacts/PAIR_RESULTS.json",
+      "sha256": "e35920c90ba53b925e8dc6bbc8d98ccb7aa157411a5e34bc564dd7a1a6386b5d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/artifacts/RESULT.json",
+      "sha256": "0564722202de89d491828de3502d9a635321ec1182faf3999fce6989c7cb2975",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/artifacts/VALIDATION.json",
+      "sha256": "e83e4fc69c4b08e6fd270aa57ff5160b0ed499ec6bc4e7561d3658e59a139191",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/src/PROOF_REVIEW.json",
+      "sha256": "77bcfc04cfbe8f652bf7a19ded9fbe1a2e753c1db5871a7ca355ec518bf3bb91",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/src/REGISTRATION_LOCK.json",
+      "sha256": "8ed10ed47fcb82952dd163b9f2545afb1afaaa723d59ee2a0b5dfd0dc8649a45",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/src/run.py",
+      "sha256": "a495feba8c6d088c64b5532912bbe02239f4f79c54f5a563120c6628701a17b7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1310_single_allograph_merges/src/validate.py",
+      "sha256": "ebf4ba95097b34df7ac37f54c3c27c1dee062f330773a859b80e468015040395",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1310_single_allograph_merges/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1310_single_allograph_merges/src/validate.py"
+  },
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1310_single_allograph_merges/artifacts/VALIDATION.json"
+  },
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": ""
+  }
+}

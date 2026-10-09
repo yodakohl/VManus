@@ -1,3 +1,17 @@
+# 2026-10-09: GDT1310 single-pair allograph check
+
+Exact1310pair maps add3reader-specific obstructions beyond1295's literal
+neighbors: ZL d/i,i/o;IT e/i. IT e/i64contexts on25leaves; old ZL/RF e/i
+contradictions retained. Totalfailed173/178/178of231perreader;58/53/53
+lookup-compatible individual pairs,48separatelyinallreadings. Compatibility
+can need hundreds ofexceptions and doesnot establish humanallography.
+No actual alphabet, phoneme, wordmeaning or jointpartition was fitted.
+Old<=11failure remains; no capincrease, newdata or automaticdecoder.
+Producer pre-execution proof; independent source/context validationPASS.
+Source: experiments/yolo/gdt1310_single_allograph_merges/REPORT.md.
+Reproducible artifacts included; publication requires the exact staged privacy check.
+No running scientific computation.
+
 # 2026-10-09: GDT1309 concentration and avoided edge-coupling repeat
 
 1308gain is distributed: top20positive forms coverabout25%of positive mass;

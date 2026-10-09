@@ -5,10 +5,10 @@ Updated: 2026-10-09.
 Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 1309 gain dispersed.
-Working files: GDT1309.
-Assumptions: No meanings.
-Resume: Read1309 and old edge-coupling review.
+Latest decision: 1310 exact alias constraints.
+Working files: GDT1310.
+Assumptions: Conditional aliases;no meanings.
+Resume: Read1310 scope.
 Running: none.
 
 ## Structural baseline
@@ -17,6 +17,7 @@ Wholeform/entry608/282/286/318;BPE selection1306.
 1308whole-form gain;1309distributed,not lexical minimum.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet(98learned units).
+1310alias constraints;no identity.
 No default Latin/phonetics;k/t open(1058).
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
@@ -71,4 +72,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
 Results: ledger.
-Publicbc00e84f4.
+Public441522ee7.

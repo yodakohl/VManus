@@ -10155,3 +10155,18 @@ change would remove the second-unit control. Primary/spec/oldvalidation read
 and reviewed in OPENING_CLOSING_PRIOR_REVIEW_20261009.json. No rerun and no
 universal rejection of long-range information. New meaningful writer not yet
 selected; no automatic wholewordtable optimization. Budget14:35:15–15:15:15UTC.
+
+## 2026-10-09: GDT1310 exact single-pair alias compatibility
+
+Under unchanged1295local deterministic source-neighbor/page/length/index model,
+231single-pair inverse maps perreader were fully checked after merging neighbors
+as well as centers. Old171/177/178inequalities become173/178/178. NewZL d/i
+(oneleaf) andi/o(twoleaves), newIT e/i(64contexts,25leaves). All oldbounds remain.
+58/53/53singlepairmergers are finite-lookup compatible;48pairs separatelyinall3.
+These are not physical allographs or a compact writer; jointmergers can fail.
+Examples a/q lookup4576/5094/4673contexts andcfh/f223/264/226show cost.
+Producer source-free proof was checked beforeexecution; separate validator
+reconstructs693pairdecisions,529witnesses,164lookupdigests and278564positions.
+See experiments/yolo/gdt1310_single_allograph_merges/REPORT.md and
+SINGLE_ALLOGRAPH_MERGE_REVIEW_20261009.json. No colorcap, joint solver or meaning.
+Budget14:52:36–15:37:36UTCincludes preparation throughpublication.
