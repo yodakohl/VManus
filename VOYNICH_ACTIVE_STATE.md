@@ -1,3 +1,16 @@
+# 2026-10-09: GDT1313 unavoidable decoded repetitions
+
+Under continuouswithin-lineblock interpretation, every1312key requires a run
+of6equal sourcecharacters and at leastone3letterrun evenafter6nonletters
+absorb the largestpercode runs. Sharedf66r.78sixdifferent5unitgroups all00000.
+No actualletter/meaning, languageexclusion or fullsourcefit. Sourceframing,
+workingunits andgaps remain assumptions; no hiddenrecordbreak repair.
+IndependentvalidationPASS61181joins/14keys/393codemaxima. No image accessed.
+1312lookupscientificpointer restored via appendedrow; its engineering record
+is retained and numericalresultsunchanged.
+Source: experiments/yolo/gdt1313_binary_decoded_runs/REPORT.md.
+Publication pending exactstagedprivacycheck.
+
 # 2026-10-09: GDT1312 finite binary-code capacity, rare signal class
 
 All2^21-1nontrivial22to2partitions perreader tested for<=32completebitword

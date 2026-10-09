@@ -5,10 +5,10 @@ Updated: 2026-10-09.
 Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 1312 rare-class capacity only.
-Working files: GDT1312.
-Assumptions: No meanings.
-Resume: Read1312limits; no key fit.
+Latest decision: 1313 requires6char/3letterruns.
+Working files: GDT1313.
+Assumptions: Continuous blocks.
+Resume: Read1313framing; no keyfit.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ Selection: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
 Results: ledger.
-Public9fab0ca30.
+Publiccc118730c.

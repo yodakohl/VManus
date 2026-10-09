@@ -10223,3 +10223,20 @@ ornewsourcecorpus. Postresult1264illustration: its two mcompletions need353-375
 patterns,not32; oldalternationpositiveunchanged. No codebook/reader/key repair.
 Source: experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md and
 BINARY_WHOLE_CODE_CAPACITY_REVIEW_20261009.json. Budget15:57:55–16:57:55UTC.
+
+## 2026-10-09: GDT1313 decoded repetitions
+
+Every1312feasible partition(6/5/3) has observedmaximum6andletterbound3after
+optimally assigning6largest code maxima to6nonletters. Sharedf66r.78G3-8:
+sheeol lshedy lchedy cheedy shekol dalol, each5workingunits, all00000.
+This is conditional decoded-value equality; continuousplaintext inside each
+retainedsame-lineblock is explicit, not historicalrecordproof. SPACE/punctuation
+can carrylargest runs; arbitraryrepeats are legal, so no language/cipherban.
+Independentposition-windowcheck validates61181joins,14keys,393codemaxima.
+Source-freeequal-codeproof beforecount; seventh-rankreview afterward,noresults.
+See experiments/yolo/gdt1313_binary_decoded_runs/REPORT.md. No keyfit or newimage.
+
+Lookup1312had selected laterengineeringrowasprimary; scientificREPORTread
+directly and append-onlycorrection restores its scientificrouting. Engineering
+row/artifacts preserved. BINARY_CODE_ROUTING_CORRECTION_20261009.json records
+this navigationrepair, not a changed researchresult. Budget16:57:59–17:32:59UTC.
