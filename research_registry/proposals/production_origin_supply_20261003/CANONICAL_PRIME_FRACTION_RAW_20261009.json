@@ -1,0 +1,143 @@
+{
+  "title": "RAW UNREVIEWED: canonical prime-denominator cells for complete rational values",
+  "summary": "Modern source-only number module extending IDEA386's existing common-bar reader by one fixed choice of cells. Reduce a nonnegative rational p/q, sort the prime factors of q, and take successive remainders for all but the final numerator cell. The final quotient remains unrestricted. A complete logical frame has a unique rational readback and canonical re-encoding. This preserves the whole rational value, not historical spelling, calculation provenance or unrestricted compositional substitution of equal-valued subpieces.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXPERIMENTED",
+  "source_status": "MODERN_NORMALIZATION_NO_HISTORICAL_ATTESTATION_CLAIM",
+  "origin": "Root-proposed canonical completion of IDEA386, independently checked conceptually by the bounded producer. Familiar mixed-radix arithmetic and prime factorization are not claimed as new mathematics. No native data, glyph values or experimental result informed a source parameter choice.",
+  "design": {
+    "mechanism": "Write a complete reduced rational value through a unique ordered list of common-bar cells, using the sorted prime factorization of its denominator and a fixed mixed-radix numerator decomposition.",
+    "unit": "One complete nonnegative rational value per logical frame; an optional message is an ordered finite list of such independently framed values. This is not a source word, sentence or unrestricted prose channel.",
+    "contrast": "IDEA386 already gives meaningful directed evaluation of supplied cells but does not canonically choose them from a rational value. This module fixes that choice. It differs from a whole-fraction lookup table, a freely selected decomposition, and IDEA979's L/R addition path.",
+    "prediction": "Equal complete rational values must have exactly the same logical frame; unequal values must have different frames. Prime denominators are sorted, nonfinal numerator cells are bounded remainders, and the decoded numerator/denominator are coprime. These are source-side consequences, not current native predictions.",
+    "scope": "Complete modern number module only. No 22-working-unit carrier claim, Voynich fit, historical attestation of this canonical encoder, statistical pass, corpus encoding, decoder selection or word meaning.",
+    "input_and_preserved_information": {
+      "domain": "A nonnegative rational value, supplied as integers p>=0 and q>=1 in lowest terms. Zero is supplied as 0/1. Negative values and undefined fractions with denominator zero are outside this version.",
+      "normalization": "If a caller supplies an unreduced pair, first divide both integers by their greatest common divisor. The module preserves the rational value only; original numerator/denominator wording, absolute quantity provenance and the unreduced pair are intentionally not recoverable.",
+      "units_and_names": "No physical unit, material, person, reference, operation, polarity or sentence is silently inferred. Such information needs an external complete notation and is not supplied by this module."
+    },
+    "writer": [
+      "For denominator q=1, write the single cell (p,1). This includes the unique zero form (0,1). Do not use an empty cell list.",
+      "For q>1, factor q as b1*b2*...*bn, where every bi is prime and b1<=b2<=...<=bn. Retain repeated prime factors as separate cells. This ordering is fixed before any example or target comparison.",
+      "Set r=p. For i=1,...,n-1, set ai to the remainder r mod bi, then replace r by floor(r/bi).",
+      "Set an=r without taking another remainder. In particular, the final numerator may exceed its denominator for an improper fraction, or may be zero.",
+      "Write the ordered cells (a1,b1),...,(an,bn) in the declared logical frame. The writer has no optional spellings or selectable cell counts."
+    ],
+    "reader": [
+      "Parse the complete cell frame with nonnegative integer numerators and positive integer denominators. Reject missing fields, empty lists and truncated frames.",
+      "A denominator1 is permitted only as the sole denominator of a one-cell integer frame. Otherwise require every denominator to be prime and their order nondecreasing.",
+      "For every nonfinal cell require 0<=ai<bi. The final numerator an is any nonnegative integer. Do not impose an<bn.",
+      "Starting with v=0, process the written cells from left to right using v=(v+ai)/bi. The result is the represented rational value.",
+      "For an exact canonical check, form Q=product_i bi and P=sum_i ai*product_{j<i} bj, with empty product1. Require gcd(P,Q)=1. Equivalently, reduce the value and reapply the writer, demanding the identical complete cell list.",
+      "Read each separately framed value independently. Concatenating cell lists inside one frame is a different semantic operation from putting two complete value frames next to one another."
+    ],
+    "inverse_and_uniqueness_proof": [
+      "Repeated Euclidean division gives p=a1+b1*a2+...+(b1*...*b(n-1))*an. Each nonfinal remainder is unique in its range; the final quotient is also unique.",
+      "The reader recurrence gives V=sum_i ai/product_{j=i..n} bj=P/Q, so every encoded input value is recovered exactly.",
+      "For a reduced input, Q=q has a unique prime multiset, whose ascending order is unique. The division rule then uniquely fixes every ai. q=1 has its separately fixed one-cell form.",
+      "Conversely, a parsed frame satisfying the prime/order/range/coprimality checks reconstructs a reduced P/Q and is exactly the output of the writer on that value. Thus these checks characterize canonical frames, not merely value-compatible strings."
+    ],
+    "teaching_frame_not_native_binding": {
+      "syntax": "Use the literal teaching syntax [a1:b1,a2:b2,...,an:bn]. Every integer is written in ordinary decimal with no leading zeros, except the number0 itself. An integer is [p:1].",
+      "readability": "Brackets delimit the complete value; a colon separates numerator and denominator; a comma separates cells. These visible punctuation marks and the decimal numerals are paid notation, not invisible structure.",
+      "layout": "The canonical logical frame contains no whitespace. For physical writing, whitespace and line breaks are ignored by the reader, including inside a long decimal numeral; a long frame may therefore continue on following lines without changing its contents. A missing closing bracket is an incomplete frame, not a silently inferred end.",
+      "multiple_values": "Several bracketed frames form an ordered list of values, delimited by their explicit brackets. Spaces alone do not delimit numerical fields or establish addition, multiplication or a real-world instruction.",
+      "limit": "This is an ordinary modern teaching serialization of the cell list. It is neither a claimed historical rendering nor a proposed mapping onto the manuscript's 22 working units."
+    },
+    "hand_checked_examples_not_computer_tests": [
+      {
+        "input": "5/12",
+        "prime_denominators": [2,2,3],
+        "division": "5=2*2+1; 2=2*1+0; final quotient1",
+        "frame": "[1:2,0:2,1:3]",
+        "readback": "0 -> 1/2 -> 1/4 -> 5/12"
+      },
+      {
+        "input": "17/12",
+        "division": "17=2*8+1; 8=2*4+0; final quotient4",
+        "frame": "[1:2,0:2,4:3]",
+        "readback": "0 -> 1/2 -> 1/4 -> 17/12",
+        "point": "The final numerator4 exceeds denominator3 legitimately. A final remainder-only rule would lose the integer part."
+      },
+      {
+        "input": "1/14",
+        "frame": "[1:2,0:7]",
+        "readback": "0 -> 1/2 -> 1/14",
+        "point": "A zero numerator cell still contributes a denominator. Removing it changes the value."
+      },
+      {
+        "input": "7 and 0",
+        "frames": ["[7:1]", "[0:1]"],
+        "point": "Integers and zero are overtly represented, not empty messages."
+      },
+      {
+        "input": "19/24",
+        "frame": "[1:2,1:2,0:2,2:3]",
+        "readback": "0 -> 1/2 -> 3/4 -> 3/8 -> 19/24",
+        "source_comparison": "The old historical-source cells (1,5,7)/(2,6,10) have the same value but are NOT preserved by this invented normalization. Their denominator product120 and written grading are not the new denominator product24."
+      }
+    ],
+    "essential_composition_limit": {
+      "old_common_bar_law": "For any cell list C, define V(C) by the original common-bar reader and D(C) as the product of its denominators. Then V(X followed by C)=V(C)+V(X)/D(C). The contextual effect of C depends on BOTH V(C) and D(C).",
+      "counterexample": "B=[(1,2),(1,3)] has V(B)=1/2 and D(B)=6. Its normalized complete-value frame B'=[(1,2)] has the same V=1/2 but D=2. With X=[(1,2)], XB has value7/12, whereas XB' has value3/4. Both XB and XB' are valid canonical whole frames for those different values; the original internal suffix B need not itself be a canonical isolated-value frame.",
+      "consequence": "Equality of rational values is not a substitution congruence for arbitrary common-bar sublists. Normalize a whole isolated numerical input only. Do not replace a fragment inside a larger common-bar expression solely because it has the same standalone V.",
+      "not_a_repair": "IDEA386's original directed reader remains correct. This new normalization neither makes its fragments transparently interchangeable nor proves a general homomorphic writing channel. A full contextual module would need to preserve at least the relevant affine action, here the pair(V,D), and is not designed in this card."
+    },
+    "effort_and_costs": [
+      "Learn decimal integers, the four explicit framing/separator marks, elementary exact division and fractions, primality/factorization, and reduction by a greatest common divisor.",
+      "The writer performs denominator factorization and n-1 successive divisions. A simple hand procedure can use increasing trial divisors, retaining repeated factors; scratch arithmetic and storage are real costs.",
+      "For q>1, the cell count is the number of prime factors with multiplicity, at most floor(log2(q)); q=1 uses one cell. This is not a bound on decimal digit count or physical ink width.",
+      "Large denominators may be expensive to factor. A prime denominator gives a single literal fraction cell; the final numerator of an improper fraction may be long. No general efficiency, brevity or historical practicality claim is made.",
+      "All numerator and denominator digits, frame punctuation and optional physical whitespace are written. No whole-fraction lookup dictionary, hidden unit, source paragraph, participant or free source word is supplied."
+    ],
+    "countercases_and_scope": [
+      "Nonprime denominators, an unsorted prime list, out-of-range nonfinal numerators or a reducible reconstructed P/Q may denote a number under the old reader but are noncanonical here.",
+      "For example [1:2,1:3] denotes1/2 but is noncanonical because its reconstructed3/6 is reducible; the complete-value canonical frame is [1:2].",
+      "Equivalent source fractions such as10/24 and5/12 intentionally normalize together; original calculation paths or particular subdivisions cannot be recovered from this module alone.",
+      "An arbitrary native group cannot simply be assigned a rational number and counted as explanatory success. A future manuscript test needs a separately justified numerical scope and physical realization, with a consequence not guaranteed by free value assignment.",
+      "No native symbol is declared a digit, fraction cell, bar, delimiter or quantity. There is no full-text writer, corpus statistic, scientific selection or experimental pass."
+    ]
+  },
+  "predecessor_review": [
+    {
+      "id": "IDEA000386",
+      "primaries": [
+        "research_registry/proposals/raw_fibonacci_contextual_fraction_notation.json",
+        "research_registry/work_batches/ten_hours_20260915/CONTEXTUAL_NOTATION_SOURCE_SUPPLY_20260920.md",
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_THREE_COMPOSITION_CONVENTIONS_REVIEW_20261006.json"
+      ],
+      "source_locator": "Fibonacci, Liber abbaci, Boncompagni1857, printed24-25/PDF31-32; existing owned-source collation only, no new image or scan.",
+      "difference": "The old sources supply the common-bar value law and examples with composite denominators. The later review explicitly leaves fixed cell choice open. Sorted prime decomposition and this canonical encoder are a modern addition, not a source-attested historical writer."
+    },
+    {
+      "id": "IDEA000358",
+      "primaries": [
+        "research_registry/proposals/raw_common_measure_rational_accounts.json",
+        "research_registry/work_batches/ten_hours_20260915/COMMON_MEASURE_CONTENT_SUPPLY.md"
+      ],
+      "difference": "The existing Liber abbaci printed50-51 account compares calculation paths and fully reduced rational endpoints. It does not specify the present prime-ordered cell encoding. Its unresolved literal register references and old fixed arithmetic-code stops remain unchanged."
+    },
+    {
+      "id": "IDEA000979",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/RATIONAL_ADDITION_PATH_RAW_20261008.json",
+      "difference": "979 encodes positive proportions by L/R addition paths and reverse subtraction. This module instead uses denominator factors and radix digits and includes zero and integer cases. Both are numerical modules, not established manuscript readings."
+    },
+    {
+      "id": "GDT1188",
+      "primary": "experiments/yolo/gdt1188_greedy_fragment_dictionary/METHOD.md",
+      "difference": "Its mixed-radix strings allocate whole dictionary ranks and maintain a source-character counter. It is not an arithmetic value-preserving fraction encoder. No source dictionary, allocation repair or rerun is proposed."
+    },
+    {
+      "id": "GDT1173",
+      "primary": "experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md",
+      "correction": "An earlier navigation suggestion was corrected:1173 concerns a mutual-information estimator and is NOT a fraction-notation predecessor. No arithmetic claim is attributed to it."
+    }
+  ],
+  "novelty_and_actions": {
+    "bounded_screen": "Live route, current IDEA386 and incoming-relation metadata, ideas search/duplicates, route-check, targeted prime-factor/mixed-radix primary search, and the concrete386/358/979/1188 sources were reviewed. No identical declared canonical cell writer was located in this bounded screen; this is not an exhaustive novelty claim or historical-priority claim.",
+    "retention_reason": "Fills the explicitly retained fixed-cell-choice obligation with one complete modern source-side value encoder and reader. The equal-value fragment counterexample sharply limits its compositional use. Retaining it as RAW does not nominate a manuscript test.",
+    "originals_preserved": "The old386 source cells and every earlier failure are unchanged. This is one separate source-only proposal, not a silent normalization of a historical witness.",
+    "access": "Existing proposal and primary prose only. No native payload, image, new source, glossary, score, encoder implementation, synthetic run or experiment.",
+    "ownership": "One new producer proposal file and one ideas-add entry only; no root route, ledger, old RAW or experiment changes."
+  }
+}

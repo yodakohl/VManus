@@ -1,3 +1,7 @@
+# 2026-10-09: canonical quantity module retained, no native number reading
+
+IDEA984 gives a complete modern rational-value writer/reader. It does not preserve historical decomposition or arbitrary internal substitution: equal isolated1/2 blocks with denominator products6/2 give7/12 versus3/4 after the same prefix. Preserve affine action(V,D), not just value. This specializes old386/1201 principles; no native count, meaning, source language or decoder selected. Scope note and reviewed decision are in the writer dossier.
+
 # 2026-10-09 05:37 UTC: fourth interval checkpoint
 
 Actual cumulative work 5h05m56s; ten-hour request unfulfilled, at least 4h54m04s outstanding. GDT1297 conditional pool constraints retained; GDT1298 supports six major repeat patterns but leaves a required .46 gap unresolved. No ready new writer selected from bounded predecessor review. No worker running between turns; local only. Current route is the resume point.

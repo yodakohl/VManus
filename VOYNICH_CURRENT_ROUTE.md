@@ -4,11 +4,11 @@ Updated: 2026-10-09.
 ## Work
 Phase: exploration
 Status: active
-Task: Research checkpoint.
-Latest decision: chof-free1287 proof.
+Task: Writer selection.
+Latest decision: 984 module only.
 Working files: writer dossier.
 Assumptions: No meanings.
-Resume: Review new numeric idea.
+Resume: Seek bound content rule.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Results: dossiers/ledger; state on route changes.
-Push authorized (user,9 Oct).
+Public export separate; local raw retained.
