@@ -1,0 +1,47 @@
+{
+  "title": "Source-free proof of the fixed2by11pair-column exchange",
+  "date": "2026-10-09",
+  "status": "SOURCE_FREE_REVIEW_NO_EMPIRICAL_INPUT_OR_RESULT_READ",
+  "reviewer": "bounded_idea_supply",
+  "timing": "Root requested this proof before running the selected GDT1303empirical source screen and stated it would wait for delivery. No source/target counts or experimental metrics were opened by the producer. This is not a claim of independence from previously exposed research.",
+  "fixed_contract": {
+    "alphabet": "אבגדהוזחטיכלמנסעפצקרשת",
+    "coordinates": "rank i -> (floor(i/11),i mod11), i=0..21",
+    "scope": "Unchanged old1228/1268bare Deot projected source, its ordered words and sections. Pair consecutive source logical positions0/1,2/3...across word gaps; reset each section. Odd final unit stays unchanged.",
+    "output": "Integers0..21with one arbitrary fixed bijection to22working drawings. Restore original word lengths and gaps; no added escape or new source normalization."
+  },
+  "involution": {
+    "map": "F((r1,c1),(r2,c2))=((r1,c2),(r2,c1))",
+    "proof": "The first application preserves rows and swaps columns. The second preserves those rows and swaps the columns back. Thus F(F(x,y))=(x,y)for every pair of table cells.",
+    "whole_message": "The operation preserves unit count and every gap position. Encoder and decoder therefore identify the same consecutive pair slots after ignoring gaps within a section. Involution on each pair, identity on an odd final unit and the same section resets prove a whole projected-message inverse."
+  },
+  "paired_equality": {
+    "statement": "At an actually processed pair, x=y if and only if F(x,y)'s two output cells are equal.",
+    "proof": "Output equality is r1=r2and c2=c1, exactly input equality. A fixed injective output-unit relabeling preserves this equivalence.",
+    "limit": "This is not equality preservation at every adjacent edge. Edges between successive processing pairs, word boundaries and the odd final unit require their actual phase; no new empirical count follows."
+  },
+  "other_exact_properties": [
+    "The row coordinate remains at its original source position. The pair's column multiset is preserved. The complete-letter multiset need not be preserved: ranks0,12become1,11.",
+    "One source-letter substitution affects at most its pair's two output slots. Inserting/deleting a source letter can shift the rest of the section's pair alignment; no stronger error-localization claim is made.",
+    "Every word's output length equals its projected source length. The crossed-column operation may change within-word conditional entropy relative to the source. A subsequent global OUTPUT-UNIT bijection preserves the generated stream's empirical conditional entropy and all word lengths; this does not describe an arbitrary whole-group relabeling.",
+    "The procedure need not be a deterministic word-to-word map: a boundary pair can depend on the first/last letter of a neighboring source word."
+  ],
+  "hand_examples_not_executed": [
+    {"input": [0,12],"output": [1,11],"second_application": [0,12]},
+    {"input_words": [[0],[12,2]],"output_words": [[1],[11,2]],"readback_words": [[0],[12,2]],"purpose": "cross-word pairing plus odd terminal identity"},
+    {"same_first_source_word": [0],"next_word_options": [[12],[13]],"first_output_options": [[1],[2]],"purpose": "neighbor-dependent spelling without word meanings"},
+    {"input": [0,0],"output": [0,0],"purpose": "equal pair preserved"},
+    {"input": [0,11],"output": [0,11],"purpose": "unequal same-column pair can be unchanged but remains unequal"},
+    {"input": [0,1],"output": [1,0],"purpose": "same-row pair swaps whole cells as a special case, not the general rule"}
+  ],
+  "critical_boundaries": [
+    "Use source logical sequence order only, not visual reversal of Hebrew text. No alternate orientation or pair phase is searched.",
+    "Word gaps are copied at the same unit offsets. A gap inside a processed pair is retained between its two outputs; a physical line wrap does not create a new pair reset.",
+    "A source section with zero or one letter has respectively no pairs or one unchanged unit. Never pad an odd final unit or pair it with the next section.",
+    "The full old projection is preserved; its earlier loss of points, final-form distinctions or editorial material is not undone. Old larger source alphabets cannot enter without a separately declared channel, which is not proposed.",
+    "The empirical old1228screen remains a fixed-source necessary comparison, not a proof that the selected source is Voynich, a new source-language exclusion, or a historical cipher finding.",
+    "Prior fixed-gap sign swap,929folded coordinates,883overlap and1268difference failures remain unchanged. No identity of this new fixed operation with those contracts was found in the bounded primary review."
+  ],
+  "verdict": "The declared algebraic writer/inverse and paired-equality lemma are valid. Source statistical compatibility, actual handwriting practicality and manuscript binding are unassessed.",
+  "actions": "No code, synthetic run, source encoding, native query, image, optimizer, new meaning or root-owned file modification. One RAW retention and this separate proof note only."
+}

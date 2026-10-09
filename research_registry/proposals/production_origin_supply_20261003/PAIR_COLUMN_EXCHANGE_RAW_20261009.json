@@ -1,0 +1,110 @@
+{
+  "title": "RAW UNREVIEWED: exchange the columns of consecutive source-letter coordinates",
+  "summary": "A complete fixed logical writer uses the old22-base-letter Deot projection and a row-major2by11alphabet table. In each consecutive letter pair, exchange only the column coordinates, retain row coordinates, and restore the original word gaps. Pairs continue across word boundaries and reset only at the old source sections; a final unpaired letter stays unchanged. The same operation reads back exactly. This differs from permuting whole letters or writing separate coordinate halves and has an exact paired-equality invariant. No native glyph value or empirical fit is claimed.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_EMPIRICALLY_ASSESSED",
+  "source_status": "MODERN_HAND_TABLE_CONSTRUCTION_NO_HISTORICAL_ATTESTATION",
+  "origin": "Bounded producer proposed the coordinate operation; root selected exactly the fixed Deot2by11instantiation as GDT1303and requested this RAW and source-free proof before empirical execution. No new source or target counts were inspected by the producer. Root retains experimental ownership.",
+  "design": {
+    "mechanism": "Read consecutive source letters as table cells. For each pair(r1,c1),(r2,c2), write(r1,c2),(r2,c1). This operation is its own inverse. Preserve word-gap positions but pair across those gaps.",
+    "unit": "One old projected source base letter becomes one output working unit. Two-letter processing blocks may straddle a source word space. Whole source words keep their lengths and visible boundaries.",
+    "contrast": "A crossed-coordinate digraph operation rather than a permutation of whole letters, a sorted sequence of row/column classes, overlapping fixed blocks, a difference from a previous plaintext letter/word, or a trained word dictionary.",
+    "prediction": "At every processed pair, the source letters are equal if and only if the two output units are equal. Exact word lengths are invariant. A one-letter source change affects at most its processed pair, and a fixed source word may change its edge spelling with the adjacent word because pairing crosses a gap. Actual conditional-entropy and form statistics remain unknown.",
+    "scope": "One fixed source-known logical writer and necessary relabeling-invariant screen. No grid search, alphabet retuning, extra source symbols, literal escape, normalization, new meaning, historical claim or automatic repair.",
+    "source": {
+      "reference": "The unchanged complete bare Deot projection already used by GDT1228andGDT1268, including its existing section boundaries and ordered words. Root binds the exact cached source input and hashes in1303.",
+      "alphabet_in_order": "אבגדהוזחטיכלמנסעפצקרשת",
+      "rows": [["א","ב","ג","ד","ה","ו","ז","ח","ט","י","כ"],["ל","מ","נ","ס","ע","פ","צ","ק","ר","ש","ת"]],
+      "rank_coordinates": "A source-letter rank i in0..21has row floor(i/11) and column i mod11. The first11letters form row0and the last11row1.",
+      "honesty_limit": "The writer recovers exactly this already-defined projection, not the original edition's stripped points, editorial distinctions, folded forms or other removed features. No new character deletion or normalization is performed here. The old larger CoReMA inventories are not silently reduced to22characters.",
+      "open_spelling": "Any finite sequence over these22source letters with declared word/section boundaries is algebraically writable. A character outside this alphabet is unsupported; no unpriced escape or normalization is supplied. This is not an unrestricted multilingual source alphabet."
+    },
+    "writer": [
+      "At each old source section start, begin pair phase0. Retain the ordered source-word lengths and every logical word boundary.",
+      "Traverse the section's letters in source logical index order, ignoring word gaps for pair counting. Pair positions0/1,2/3,and so on. Do not reset at a source word boundary or an ordinary physical line break.",
+      "For source ranks i and j, output u=11*floor(i/11)+(j mod11) and v=11*floor(j/11)+(i mod11), in that order.",
+      "If the section has an odd number of letters, output its last rank unchanged. Do not pad, omit it or invent a partner across the next section boundary.",
+      "Restore gaps at the original word lengths. Each output integer0..21stands for one working drawing under an arbitrary single fixed bijection. No particular native drawing assignment is selected by this source-free proposal."
+    ],
+    "reader": [
+      "Use the public output-unit bijection to recover ranks0..21; record the written word-gap positions and public section boundaries.",
+      "Inside each section flatten the working units while retaining those gap positions. Use the same consecutive pairing, irrespective of gaps and ordinary line wraps.",
+      "Apply the identical crossed-column formula to each pair. Keep an odd final rank unchanged.",
+      "Map the resulting ranks back through the fixed source alphabet and restore the retained word gaps and section boundaries. No dictionary, inferred word meaning or source original is needed."
+    ],
+    "mathematical_inverse": "After one operation the coordinates are(r1,c2),(r2,c1). Applying it again gives(r1,c1),(r2,c2). The number and positions of units and gaps never change, so the reader reconstructs the same pairing and the entire original projected source. The final odd unit and section-reset convention are self-inverse too.",
+    "paired_equality_proof": "The two outputs are equal precisely when r1=r2and c2=c1. These are exactly the conditions for equality of the two input cells. The statement concerns processed pair positions only; it does not assert preservation of every adjacent pair, whole-word frequencies or individual-letter frequency counts.",
+    "hand_examples_no_native_binding": [
+      {
+        "input_ranks": [0,12],
+        "coordinates": [[0,0],[1,1]],
+        "output_ranks": [1,11],
+        "point": "Both output cells can differ from both source letters. This is not a whole-letter position permutation."
+      },
+      {
+        "input_words": [[0],[12,2]],
+        "flattened": [0,12,2],
+        "output_words": [[1],[11,2]],
+        "inverse_words": [[0],[12,2]],
+        "point": "The first pair crosses the written gap; the final rank2is unpaired and unchanged."
+      },
+      {
+        "input_words_A": [[0],[12]],
+        "output_words_A": [[1],[11]],
+        "input_words_B": [[0],[13]],
+        "output_words_B": [[2],[11]],
+        "point": "The same first source word can have different output because its partner's column changes. No native word is assigned to either example."
+      },
+      {
+        "input_ranks": [0,0],
+        "output_ranks": [0,0],
+        "point": "An equal input pair remains equal and unchanged in coordinate ranks. Conversely an unequal input pair cannot turn into an equal pair."
+      }
+    ],
+    "reader_costs_and_framing": [
+      "Learn one22-letter2by11source table and the one-to-one22-drawing output labeling. Retain at most a pending letter plus whether a gap occurred before its partner. No wordbook or per-word meaning table is needed.",
+      "The writer needs one-letter lookahead, possibly across a word gap. A reader likewise waits for a partner across such a gap. A source-letter substitution affects at most two neighboring output slots; an insertion/deletion shifts subsequent pairing until the next section reset.",
+      "Source word gaps remain visible; source sections must have public boundaries. Ordinary output line wrapping may occur only between complete groups without resetting pair phase. No hidden END, null sign, cell fusion or mode change is allowed.",
+      "The necessary source screen concerns logical words and does not supply a separate fixed-width long-word continuation convention. Do not silently split an overwide logical word into new groups in a future physical presentation.",
+      "This is hand-executable table work, but no claim is made that it was historically used or that arithmetic/source reconstruction establishes native meaning."
+    ],
+    "selected_question_without_results": "Root's GDT1303will consider only this fixed natural-alphabet row-major grid and unchanged source sections, using the old1228mean/SD/within-word H2comparison. Global output-unit renaming preserves these statistics, so a table of native values is not needed for that necessary screen. No empirical values, outcome, source count or code implementation are supplied by the producer.",
+    "limits": [
+      "Output word lengths are the source lengths, but exact whole-word frequencies need not be preserved because phase and boundary partners can vary. Do not automatically transfer1202's fixed word-to-word-bijection conclusion.",
+      "The table operation preserves row coordinates at each slot and the multiset of columns within each processed pair. It does not preserve the multiset of complete source letters;1256's whole-letter permutation condition is not its premise.",
+      "It is not1295's one-output-unit-to-one-source-letter allography: an individual source letter generally needs two adjacent output coordinates to be recovered.",
+      "A surviving source screen would be a synthetic writer candidate only, not an alphabet, source identification, historical plausibility judgment, word-formation fit or translated content.",
+      "No alternative grid, reversed source orientation, word reset, variable pair phase, escape, larger alphabet or source substitution is automatically authorized after failure."
+    ]
+  },
+  "predecessors": [
+    {
+      "id": "IDEA000929",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_FOLDED_COORDINATES_RAW_20261004.json",
+      "review": "ideas show929and its fixed-motif assessment/incoming1209/941relations were read.",
+      "difference": "929outputs disjoint coordinate alphabets in two word halves; its boundS-O-Scontradiction remains. Here each output is itself a complete table cell, and no coordinate-class sorting is imposed."
+    },
+    {
+      "id": "Existing fixed-gap whole-sign pair swap",
+      "primaries": ["research_registry/proposals/production_origin_supply_20261003/HUMAN_FIXED_GAP_PAIR_SWAP_CONSTRUCTION_20261006.json","research_registry/proposals/production_origin_supply_20261003/HUMAN_FIXED_GAP_PAIR_SWAP_ROOT_REVIEW_20261006.json"],
+      "difference": "That construction swaps whole935carrier signs and has a retained literal-carrier contradiction. This one exchanges only columns of source-letter cells and does not reuse935's escapes, shortcuts or r-controls."
+    },
+    {
+      "id": "GDT001 within-word transposition",
+      "primary": "run_gdt001_within_word_transposition.py",
+      "difference": "The inspected schemes REVERSE/ODD_EVEN/EVEN_ODD/OUTSIDE_IN/INSIDE_OUTpermute entire observed characters separately inside words. This pair operation can create different complete cells and continues across word gaps."
+    },
+    {
+      "id": "GDT883",
+      "primary": "experiments/yolo/gdt883_overlapping_digram_constraints/METHOD.md",
+      "difference": "883requires fixed overlapping source blocks sharing full endpoint coordinates at every adjacent written sign. This writer uses nonoverlapping pairs and crossed component coordinates, not that overlap equality."
+    },
+    {
+      "id": "GDT1268",
+      "primary": "experiments/yolo/gdt1268_previous_word_column_difference/METHOD.md",
+      "difference": "1268subtracts alphabet ranks at corresponding coordinates of successive whole words. The new operation is a local involution on consecutive source-letter pairs and has no previous-word buffer or subtraction. Its use of the old source projection does not repair1268."
+    }
+  ],
+  "bounded_novelty": "Current route/topic, targeted registry searches/duplicates and relevant primary procedures were checked, including Bifid/Trifid/Playfair/Polybius/fractionation and coordinate-swap navigation. No identical executed project contract was located. Empty searches are not exhaustive absence-of-research evidence, and no historical novelty is claimed.",
+  "actions": {"source_or_native_counts": false,"images": false,"experiments_or_code": false,"native_meanings": false,"root_files_changed": false,"intended_raw_additions": 1}
+}

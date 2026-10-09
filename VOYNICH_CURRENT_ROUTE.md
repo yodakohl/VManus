@@ -4,11 +4,11 @@ Updated: 2026-10-09.
 ## Work
 Phase: exploration
 Status: active
-Task: Writer review.
-Latest decision: 1302 local support.
-Working files: 1302.
+Task: Pair-table writer.
+Latest decision: 1303 pair/source fail.
+Working files: 1303.
 Assumptions: No meanings.
-Resume: Review supply.
+Resume: Review non-pair supply.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Results: dossiers/ledger; state on route changes.
-Public maineb87e0da7; local raw retained.
+Public mainbb8a040b0; local raw retained.

@@ -1,0 +1,43 @@
+{
+  "title": "Source-free even-word triple overlap ladder for a fixed pair bijection",
+  "date": "2026-10-09",
+  "status": "SOURCE_FREE_PROOF_BEFORE_REPORTED_EMPIRICAL_GDT1303_RUN",
+  "reviewer": "bounded_idea_supply",
+  "timing": "The proof was already confirmed to root by message. Root explicitly reports that the empirical1303run has not started and will hash-lock this file before counts. No source or native payload, metric, image or experimental output was opened for this review.",
+  "contract": {
+    "pair_channel": "One fixed bijection maps each disjoint consecutive source-letter pair to two output units. Its inverse is a fixed function on output pairs, with no contextual choice. Pairing continues across preserved word gaps.",
+    "boundaries": "One source letter per output unit; source word lengths and gap positions are unchanged. Pairing may reset only at the declared outer section boundary, never within the selected triple. No omitted, inserted, hidden or padding unit changes phase.",
+    "terminal_rule": "A single unpaired final unit of a section receives the contract's unchanged terminal treatment. The possible last unit of the third word is an outer exception and will not enter the required overlap equality.",
+    "triple": "Three consecutive complete identical output words A,A,A, each of the same positive EVEN length L>=2 in working units. Multicharacter transcription names remain individual declared working units, not separate ASCII letters."
+  },
+  "theorem": "Let w1,w2,w3 be the corresponding source words. Necessarily w1[1:]=w2[1:] AND w2[:-1]=w3[:-1], using zero-based slices. In particular all three have identical internal L-2 letters. This is only a necessary condition for the fixed source and channel family.",
+  "proof": {
+    "phase_exhaustion": "Because L is even, each of the three output words starts at the same parity of the continuous disjoint-pair stream. There are exactly two cases.",
+    "aligned": "If the first unit of A is the first unit of a processed pair, every pair lies wholly within its word. All three identical output words contain the same ordered list of output pairs. Applying the same inverse gives w1=w2=w3, hence both required equalities.",
+    "offset_internal": "If the first unit of A is the second unit of a pair, the internal complete pairs are (g2,g3),(g4,g5),...,(g(L-2),g(L-1)), where A=g1...gL. They are identical in all three words, so source positions2throughL-1are identical in w1,w2,w3.",
+    "offset_seams": "The output pair crossing the first/second word boundary is (gL,g1), exactly the same as the pair crossing the second/third boundary. Its fixed inverse gives one ordered pair(u,v). Therefore last(w1)=u=last(w2) and first(w2)=v=first(w3). Combined with the common internal letters, these are precisely w1[1:]=w2[1:] and w2[:-1]=w3[:-1].",
+    "outer_freedom": "Only first(w1) can depend on the preceding external partner and only last(w3) can depend on the following external partner. Neither is required to agree by the theorem. If the third word ends the section in the offset case, its final unit may be unpaired; this changes only the already unrestricted last(w3). Both internal word-seam pairs remain complete."
+  },
+  "length6_consequence": "For an even six-unit AAA, the source must contain three consecutive six-letter words such that the first two share their final five letters and the last two share their first five letters. This test does not require a chosen2by11grid or any native symbol values. Its sufficiency for a shared global pair map is not claimed.",
+  "hand_example_not_executed": {
+    "inverse_pair_rule": "Swap the two complete letters of each pair, merely as a source-free example within the larger bijection family.",
+    "output_context": "p | abcdef | abcdef | abcdef | q, with the first a in offset phase",
+    "source_triple": ["pcbeda","fcbeda","fcbedq"],
+    "check": "The first two share suffix cbeda; the last two share prefix fcbed. Their outer first/last letters may differ. This shows why full equality of all three source words is not a necessary conclusion in offset phase."
+  },
+  "scope_limits": [
+    "For odd L, pair phase alternates between successive words; this proof and the stated ladder do not follow. Do not extend the theorem to odd-length triples.",
+    "A reset between words of the triple, a different pair table at different positions, a variable-stride code, unequal-length emission, skipped units or changed word boundaries is outside the contract.",
+    "The fixed2by11column-exchange writer is a subclass. A source lacking the necessary ladder would exclude every fixed pair bijection with these source/boundary conventions, not every language or all cipher writing.",
+    "A source ladder witness does not determine the pair table or show that all other source and target words can share it. It is necessary capacity only.",
+    "No extra empirical criterion is substituted for the already frozen2by11length/entropy screen. Root records the broader pre-count necessary consequence in a separate protocol addendum.",
+    "The theorem depends on exact complete repeated words and their stated unit lengths. It does not independently establish paleographic identity, spacing or a linguistic alphabet."
+  ],
+  "predecessor_scope": {
+    "closest_primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_FIXED_GAP_PAIR_SWAP_ROOT_REVIEW_20261006.json",
+    "old_result": "The6Octoberreview analyzed both phases of a repeated whole word only for the particular whole-sign swap and the fixed935literal/shortcut carrier, rejecting that literal carrier's inverse syntax.",
+    "difference": "The present statement applies to any fixed pair bijection and asks for a source-word overlap ladder before choosing a table. It does not rerun or repair the old935carrier test.",
+    "other_limits": "GDT1239requires source-letter runs at positions under a different feedback writer;1256concerns complete-letter multiplicities under word permutations. Neither is substituted for this theorem. No exhaustive prior-art claim is made."
+  },
+  "actions": "One separate proof-note file only. No RAW ID, new research, code, fixture execution, source/target count, image, word assignment or root-file edit."
+}

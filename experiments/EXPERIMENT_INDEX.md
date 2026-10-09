@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1301**
-- Experiment-associated tracked files: **25,750** (2.3 GiB)
-- Structured GDT337+ experiments: **966**
+- Experiments indexed: **1302**
+- Experiment-associated tracked files: **25,765** (2.3 GiB)
+- Structured GDT337+ experiments: **967**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1303 | GDT1303_paired_coordinate_exchange | `SOURCE_PAIR_FAMILY_EXCLUDED__FIXED_GRID_SCREEN_FAILED` | [report](../experiments/yolo/gdt1303_paired_coordinate_exchange/REPORT.md) | 15 | 1010.9 KiB | 5 | STRUCTURED_YOLO |
 | GDT1302 | GDT1302_f40r_triple_source_review | `LOCAL_REPEAT_AND_GAP_SUPPORT` | [report](../experiments/yolo/gdt1302_f40r_triple_source_review/REPORT.md) | 14 | 22.6 KiB | 5 | STRUCTURED_YOLO |
 | GDT1301 | GDT1301_wordbook_delta_triple_capacity | `ALL_FIXED_SOURCES_PRIMARY_EXCLUDED` | [report](../experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md) | 11 | 143.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT1300 | GDT1300_canonical_pair_message_codec | `FIXED_CODEC_SCREEN_FAILED` | [report](../experiments/yolo/gdt1300_canonical_pair_message_codec/REPORT.md) | 22 | 510.4 KiB | 6 | STRUCTURED_YOLO |

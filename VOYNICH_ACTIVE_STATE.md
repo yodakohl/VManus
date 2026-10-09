@@ -1,3 +1,12 @@
+# 2026-10-09: GDT1303 fixed-source pair-table obstruction
+
+Even-length AAA requires source suffix/prefix overlap ladder under any fixed
+invertible disjoint pair table preserving word boundaries. Old Deot:5length6
+triples,0ladder witnesses. Fixed2x11writer separately recovers all6288words but
+fails every old entropy screen (4.00503bits). Not other plaintext/language
+exclusion; no native meaning or grid repair. Pre-count theorem and validatorPASS.
+See experiments/yolo/gdt1303_paired_coordinate_exchange/REPORT.md.
+
 # 2026-10-09: GDT1302 local triple image support
 
 One fixed f40r crop supports three similarly built separated groups at .9 G006–008.

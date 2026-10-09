@@ -10094,3 +10094,7 @@ See PREREGISTRATION.md for the frozen decision and inclusive budget.
 ## 2026-10-09 GDT1302 f40r triple source review
 
 One overview and one fixed1930x200crop support the separated repeated layout of f40r.9 G006–008 (okaiin in allreaders). Stroke shape/terminal closure vary; no exactglyph identity or meaning established. Preserve RFfollowing@152;aram versusZL/ITdaram. Earlier drawinginterruptionoutside triple. Retain857/1301premises locally; other triple sites unviewed. Officialcanvas1006152, image/crophashes andlocalonlyscope in1302. No widerzoom, sourcecorrection orindependentconfirmation.
+
+## 2026-10-09 GDT1303 pair-table even-triple obstruction
+
+For even-L AAA, any fixed pair inverse with unchanged gaps requires w1[1:]=w2[1:] and w2[:-1]=w3[:-1]. Old Deot has6146triples;5all-length6;0overlap witnesses. This excludes every such fixed pair table on THISsource, not other content. Fixed2x11column exchange also fails all old3metric comparisons (H2=4.00503) while recovering6288projected words. Pre-count addendum/proof/lock11:17:08; source-free exhaustive fixtures and separate source/metrics validatorPASS. No adaptivegrid/source/resetrepair or native meaning. See1303REPORT.
