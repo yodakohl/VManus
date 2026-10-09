@@ -1,0 +1,50 @@
+{
+  "record_id": "GDT1302",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root informed image inspection; provenance validator",
+  "assessment_basis": "bounded_original_image_local_repeat_and_gap_compatibility",
+  "reason": "One overview and one fixed original-resolution crop support three similarly built separated groups at the retained f40r.9 AAA site; stroke variation and reader differences remain.",
+  "blockers": [
+    {
+      "code": "informed_single_observer",
+      "detail": "No blind or independent visual replication, exact graphemic identity or semantic reading.",
+      "evidence": [
+        "experiments/yolo/gdt1302_f40r_triple_source_review/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_source_adjudication",
+        "change": "new_data",
+        "detail": "New appropriately scoped source evidence bears on an unresolved exact-unit or boundary question.",
+        "evidence": [
+          "experiments/yolo/gdt1302_f40r_triple_source_review/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Repeated viewing of same crop",
+      "Agreement of alternate readings treated as independent manuscripts"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT857",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1302_f40r_triple_source_review/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1301",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1302_f40r_triple_source_review/REPORT.md"
+      ]
+    }
+  ]
+}

@@ -10090,3 +10090,7 @@ trie-child ranks. Their original outcomes remain binding. This test changes the
 state unit to exact whole words and uses an equality invariant before rendering.
 See PREREGISTRATION.md for the frozen decision and inclusive budget.
 
+
+## 2026-10-09 GDT1302 f40r triple source review
+
+One overview and one fixed1930x200crop support the separated repeated layout of f40r.9 G006–008 (okaiin in allreaders). Stroke shape/terminal closure vary; no exactglyph identity or meaning established. Preserve RFfollowing@152;aram versusZL/ITdaram. Earlier drawinginterruptionoutside triple. Retain857/1301premises locally; other triple sites unviewed. Officialcanvas1006152, image/crophashes andlocalonlyscope in1302. No widerzoom, sourcecorrection orindependentconfirmation.

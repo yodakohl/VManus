@@ -1,3 +1,10 @@
+# 2026-10-09: GDT1302 local triple image support
+
+One fixed f40r crop supports three similarly built separated groups at .9 G006–008.
+Stroke variation retained; no exact graphemic identity or meaning. Informed AI,
+not independent confirmation. Supports this local premise of857/1301 only.
+Official-image bytes stay local. See1302REPORT; no transcription correction.
+
 # 2026-10-09: GDT1301 wordbook displacement capacity fails
 
 Four fixed source books have zero triple-capable residues for every shared

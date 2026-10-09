@@ -1,0 +1,109 @@
+{
+  "title": "Source-free proof: whole-word rank-difference triple-residue capacity",
+  "date": "2026-10-09",
+  "status": "MATHEMATICAL_REVIEW_ONLY_NO_EMPIRICAL_FILE_INSPECTION",
+  "timing": "Inverse/interior reasoning was delivered earlier by message. File finalization overlapped the root run; root announced completion before final registry retention. Do not call this a pre-count file or an outcome-blind registration. No empirical artifact was opened, no source or target was counted, and the mathematical rule was not adapted to the communicated outcome.",
+  "reviewer": "bounded_idea_supply",
+  "contract": "For each fixed book, exact whole-token Unicode-sorted W, V>=1, rank range0..V-1. One anchor a is shared by all source paragraphs. Emit one fixed nonempty codeword C[d] per d=(current rank-previous rank) modV; C is injective. Reset only at declared paragraph boundaries. Whole codeword identities and boundaries are preserved.",
+  "inverse": "Reader starts at a, obtains d via the unique C inverse, and adds it modulo V. This returns the next source rank. Induction reconstructs every supported token sequence and its declared paragraph scope.",
+  "interior_lemma": {
+    "statement": "Three equal consecutive output groups beginning at a position with an actual preceding source word imply four consecutive source ranks in arithmetic progression modulo V.",
+    "proof": "Injectivity gives the same residue d for all three groups. If the preceding rank is r, the three subsequent ranks are r+d,r+2d,r+3d modV. Conversely such a rank quadruple produces three equal C[d]groups, irrespective of the paragraph anchor.",
+    "scope": "All four source ranks belong to the same reset segment. Overlapping quadruples are permitted but repeated occurrences of the same d do not create extra residue types."
+  },
+  "initial_lemma": {
+    "statement": "For the first three ranks r1,r2,r3of a paragraph, an initial equal triple exists precisely when r2-r1=r3-r2=d modV and a=r1-d modV.",
+    "proof": "The second and third output differences require the stated common d. Equality of the first difference then requires r1-a=d, which fixes a uniquely modulo V. The converse follows by substitution.",
+    "scope": "The start anchor is not a fourth written word. A three-word paragraph can have an initial triple even though it has no source quadruple."
+  },
+  "capacity_theorem": {
+    "definitions": "D is the set of differences d of all consecutive four-rank progressions wholly within source paragraphs. I_a is the set of differences of qualifying initial three-rank progressions whose uniquely required anchor is a.",
+    "exact_residue_inventory": "For one fixed anchor a, the set of all residues producing at least one equal output triple is exactly D union I_a: every triple is either initial or has an actual preceding word, and the two lemmas characterize those two cases.",
+    "shared_anchor_maximum": "The maximum possible triple-residue type count over the candidate's one shared anchor is B=max_(a in Z/VZ) |D union I_a|. This is exact for that marginal statistic, but only a necessary capacity bound for a complete text correspondence.",
+    "finite_anchor_reduction": "Anchors not required by any initial progression have I_a empty. Therefore B=max(|D|,max_over_recorded_initial_anchors |D union I_a|). This is a mathematical reduction, not a code or source census.",
+    "target_requirement": "Distinct identical-triple whole forms X_j must be different C[d_j]and therefore require distinct residues. Root's inherited four distinct common GDT857forms imply the necessary B>=4. This review makes no new manuscript observation or source count.",
+    "forbidden_shortcuts": [
+      "Do not union I_a over different anchors: that would admit independent paragraph starts instead of one shared anchor.",
+      "Do not count progressions, paragraphs or windows instead of distinct residue values.",
+      "Do not count D and I_a twice when they contain the same d.",
+      "Do not require d!=0, four distinct ranks, monotone integer ranks or absence of modular wraparound.",
+      "Do not join source paragraphs to manufacture a quadruple or pool different books' moduli and dictionaries."
+    ]
+  },
+  "hand_checked_fixtures_not_run": [
+    {
+      "name": "Nonzero step with wrap",
+      "V": 5,
+      "ranks": [1,3,0,2],
+      "step": 2,
+      "expected": "Three equal final output groups; the initial output depends on the selected anchor."
+    },
+    {
+      "name": "Zero step",
+      "V": 7,
+      "ranks": [4,4,4,4],
+      "step": 0,
+      "expected": "Interior triple C[0]is valid and must be included."
+    },
+    {
+      "name": "Order2 cycle",
+      "V": 6,
+      "ranks": [1,4,1,4],
+      "step": 3,
+      "expected": "ABAB produces a triple even though only two source words alternate."
+    },
+    {
+      "name": "Order3 cycle",
+      "V": 6,
+      "ranks": [1,3,5,1],
+      "step": 2,
+      "expected": "ABCA is a valid modular progression."
+    },
+    {
+      "name": "Initial triple with no fourth source word",
+      "V": 5,
+      "ranks": [1,3,0],
+      "step": 2,
+      "required_anchor": 4,
+      "expected": "Only anchor4produces three C[2]groups. There is no source quadruple in this paragraph."
+    },
+    {
+      "name": "Do not combine incompatible anchors",
+      "V": 5,
+      "paragraphs": [[1,3,0],[1,2,3]],
+      "interior_D": [],
+      "initial_sets": "I_4={2}; I_0={1}; every other I empty",
+      "expected": "Shared-anchor maximum1, not the union-over-anchors value2."
+    },
+    {
+      "name": "Overlap between initial and interior inventories",
+      "V": 5,
+      "paragraphs": [[1,3,0,2]],
+      "expected": "D={2}; at anchor4initial I also contains2, but the union has size1."
+    },
+    {
+      "name": "Break in arithmetic progression",
+      "V": 5,
+      "ranks": [1,3,0,3],
+      "expected": "Differences2,2,3are not a triple; equal first two increments are insufficient."
+    }
+  ],
+  "readability_and_scope_limits": [
+    "A fixed wordbook, its exact order and V, one anchor and the complete C table are required reader knowledge. Unknown words, code aliases, silent zero differences or dynamically inserted entries are outside the stated writer.",
+    "Source token punctuation and paragraph delimiters are whatever the predeclared projection actually preserves. No extra normalization or hidden boundary supplies a missing antecedent.",
+    "Visible output spaces delimit codewords. Their internal working-unit decomposition need not be interpreted for this theorem, but exact whole-group identity and boundaries remain assumptions.",
+    "Codeword lengths and shapes can vary arbitrarily under this necessary family. Surviving B>=4does not produce a physical codebook, explain word parts or pass any statistical/semantic condition.",
+    "V=1is valid with only residue0. An empty book with V=0is outside the channel. Empty or fewer-than-three-token paragraphs contribute no initial residue; fewer-than-four-token paragraphs contribute no interior residue.",
+    "The broader common modular arithmetic already appears in IDEA237. The word-rank source contract and marginal progression check are the specific reviewed addition; old1217/1268/001outcomes are unchanged."
+  ],
+  "primary_pointers": [
+    "research_registry/proposals/differential_reading_20260914/ASSESSMENT.md",
+    "experiments/yolo/gdt1217_circular_difference_source_screen/METHOD.md",
+    "experiments/yolo/gdt1268_previous_word_column_difference/METHOD.md",
+    "run_gdt001_differential_records.py",
+    "run_gdt001_rank_nomenclator.py",
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_END_OPTION_WORD_INDEX_PATH_RAW_20261006.json",
+    "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md"
+  ],
+  "access": "Source-free proof and hand arithmetic only. No source/native payload, empirical output, image, program or fixture execution. Files authored in the original VManus proposal directory; no publication checkout or root experiment modified."
+}

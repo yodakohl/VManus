@@ -1,0 +1,104 @@
+{
+  "title": "RAW UNREVIEWED: whole-word lexicographic rank differences with one shared paragraph anchor",
+  "summary": "Root-proposed finite-wordbook channel: assign exact source tokens Unicode-sorted ranks, write the modular difference from the preceding decoded rank, and cumulatively add differences to read. A globally fixed injective codeword table spells each residue as one complete written group. Inner identical triples require four source ranks in modular arithmetic progression; paragraph-initial triples have a uniquely determined compatible anchor. The selected1301question concerns necessary triple-residue capacity, not a constructed glyph key or a translation.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_EMPIRICALLY_ASSESSED",
+  "source_status": "MODERN_PARAMETERIZED_WORDBOOK_WRITER_NO_HISTORICAL_CLAIM",
+  "retention_timing": "The source-free inverse and interior-triple arguments were supplied by message earlier. These proposal/proof files were being finalized while root ran1301; root announced completion before ideas-add. Registration is therefore after the root run, not a pre-count registration. The producer did not open empirical files, and no rule was changed in response to the communicated outcome. Root's separate protocol and later assessment govern the fixed-source test.",
+  "origin": "Root proposed and selected the bounded GDT1301necessary-capacity question. Producer reviewed the source-free inverse and predecessors without inspecting source/native counts or experimental outputs. This records a specific instantiation of old differential arithmetic, not invention of the general idea.",
+  "design": {
+    "mechanism": "Each complete source token has one fixed lexicographic wordbook rank. Emit its difference modulo V from the previously decoded rank, using one fixed nonempty codeword per residue. One shared anchor resets the rank at each explicitly marked paragraph.",
+    "unit": "One exact source token and one complete output group per step, with source paragraph boundaries retained. Neither source token identity nor output codeword is assigned a new manuscript meaning.",
+    "contrast": "The written value is a difference between whole plaintext-word indices. This differs from1217's preceding source-letter ring,1268's coordinatewise preceding-word letter differences, and960's static whole-word ordinals.",
+    "prediction": "Distinct written AAAforms require distinct modular steps available in the fixed source. For an interior triple, four consecutive ranks share one step. At paragraph start, the first three ranks must be a progression and fix the one permissible anchor. Maximize the union of interior and initial residue types over ONE globally shared anchor; do not combine different paragraph anchors.",
+    "scope": "Source-free writer family and necessary source-conditioned form consequence. No source query, target data/image, source arithmetic census, codeword table search, alphabet assignment, historical practice or statistical fit is supplied here.",
+    "fixed_parameters": [
+      "For each fixed source-book case separately, W is the list of distinct exact projected whole tokens sorted by Unicode code-point lexicographic order. Its entries have zero-based ranks0..V-1; V>=1. The source projection, punctuation treatment and paragraph definition must already be fixed, with no new normalization during this writer.",
+      "One anchor a in0..V-1 is public and shared across every paragraph of that book. The selected necessary capacity considers all possible shared anchors before any codeword construction. It does not permit a separate anchor for each paragraph.",
+      "C maps each residue d in0..V-1 to one fixed nonempty complete codeword. All C[d] are different and contain no output word separator. Every occurrence uses the same table, without optional aliases, omissions or literal exceptions.",
+      "Visible output group boundaries separate codewords. Public paragraph boundaries reset to the same anchor. Ordinary line wrapping does not reset anything. A physical realization must preserve complete groups or explicitly pay any continuation convention."
+    ],
+    "writer": [
+      "At an explicitly marked paragraph start, set s=a.",
+      "For the next exact source token w, lookup r=rank_W(w). Reject a token outside the fixed book rather than adding it or changing existing ranks.",
+      "Set d=(r-s) mod V. Emit exactly C[d] as one complete output group, then replace s by r.",
+      "Continue in source order. Preserve the source paragraph boundary and reset s=a before the next paragraph. Source tokens are not silently joined, split, omitted or reordered."
+    ],
+    "reader": [
+      "At the same public paragraph start set s=a.",
+      "For each complete output group, recover its unique d through the inverse table C^-1. An unknown codeword is invalid.",
+      "Set s=(s+d) mod V and output the exact token W[s].",
+      "Retain the declared token and paragraph structure. The codeword boundary supplies token scope; no prefix-free or freely uniquely-decodable concatenation property of C is required when the complete groups are explicitly delimited."
+    ],
+    "inverse": "If the reader and writer share s before a step, adding d=(r-s) mod V recovers r uniquely in0..V-1. Both then store r. Induction from the shared anchor proves exact recovery of every finite token sequence over W in each paragraph.",
+    "example_no_native_assignment": {
+      "wordbook": ["amber","birch","cedar","elm","fir"],
+      "anchor": 0,
+      "source_list": ["birch","elm","amber","cedar"],
+      "ranks": [1,3,0,2],
+      "residues": [1,2,2,2],
+      "written_metannotation": ["C[1]","C[2]","C[2]","C[2]"],
+      "meaning": "The exact ordered source list is recovered. Its three equal final codewords correspond to a step2progression with wraparound. C labels are placeholders for a public teaching codebook, not Voynich spellings or word meanings."
+    },
+    "triple_consequences": {
+      "interior": "If identical codewords occupy output positions i,i+1,i+2 with i>=2 in one paragraph, their residue is d and the four actual source ranks are r,r+d,r+2d,r+3d modulo V, starting at position i-1.",
+      "paragraph_initial": "For source ranks r1,r2,r3, an initial triple is possible exactly when r2-r1=r3-r2=d modulo V and a=r1-d modulo V. That anchor is unique. The anchor is a state, not a fourth written source word.",
+      "allowed_degeneracies": "d=0 gives repeated identical words; order2 permits ABAB; order3 permits ABCA. Wraparound is allowed. Do not demand four distinct ranks or a strictly increasing ordinary-integer progression.",
+      "capacity": "Let D be the set of residues witnessed by consecutive four-rank progressions wholly inside source paragraphs. For each anchor a, let I_a be the residues of qualifying initial three-rank progressions requiring that anchor. The exact set of triple-producing residue types for anchor a is D union I_a. The selected generous type capacity is max_a |D union I_a|.",
+      "target_requirement": "Root selects the four distinct common GDT857AAA forms as an inherited necessary target-type requirement. Thus capacity at least4is necessary for this source/model case, independent of how C spells the residues. This RAW retrieves no new target record or count and makes no capacity-outcome assertion.",
+      "not_sufficient": "Enough distinct residues does not align the complete source, satisfy all other repetitions or build a common physical codebook. This is one marginal necessary statistic, not a full textual fit."
+    },
+    "costs_and_unpaid_parts": [
+      "The complete exact wordbook, its order and edition, V, one anchor, and the fixed residue-to-codeword table are public key costs. Alphabetical ordering is not a free vocabulary or a semantic explanation of neighboring ranks.",
+      "Writing requires word lookup, one modular subtraction and retention of one rank; reading requires codeword lookup, one modular addition and wordbook lookup. New inflected forms and proper names outside W are unsupported; a paid open-spelling channel would be another contract.",
+      "The parameterized known-word writer is complete once W,a,C and physical framing are supplied. This proposal does not supply a fitted22-working-unit C table, a useful code-length distribution or an overwide-word implementation.",
+      "A single-token label can use the same public start convention as its own paragraph. An unmarked reset, invisible initial codeword, omitted zero difference or changed anchor is forbidden.",
+      "An empty source paragraph emits no codewords but its structural boundary must still be preserved by the declared framing. V=0is not a wordbook channel. For V=1all differences are0and the inverse remains trivial and valid.",
+      "Only the declared projected token sequence is preserved. Exact punctuation is preserved only where it is part of the token inventory; lost pre-projection whitespace or other metadata is not reconstructed.",
+      "The code can change equality frequencies because the same source word has different residues after different predecessors. It does not by itself explain directed internal written components; an arbitrary whole-codeword table must not be sold as a small productive word-formation rule."
+    ],
+    "retained_limits": [
+      "The triple theorem requires a fixed injective C and faithful one-token/one-group emission. Homographic residue values, optional spellings, copying, word regrouping or hidden resets would change it.",
+      "Different source books have their own predeclared exact wordbooks in the selected review. Do not pool their ranks, V values, anchors or residue sets as if they formed one fixed source.",
+      "The known GDT857whole-group and transcription assumptions remain conditional. No new atomization inside a written word is required by this type-capacity theorem.",
+      "A source-conditioned exclusion is not a prohibition on differential writing or a language. A surviving case is necessary capacity only, not a new deciphered text."
+    ]
+  },
+  "predecessors": [
+    {
+      "id": "IDEA000237",
+      "primary": "research_registry/proposals/differential_reading_20260914/ASSESSMENT.md",
+      "retained": "The old assessment explicitly supplies x_i=(x_(i-1)+m_i) mod4with a difference inverse and discusses start/reset and message-identifiability costs. Ring arithmetic is not new. Here the emitted group encodes the difference of successive plaintext-word indices, the opposite assignment of visible-state and message roles."
+    },
+    {
+      "id": "GDT1217/IDEA000948",
+      "primary": "experiments/yolo/gdt1217_circular_difference_source_screen/METHOD.md",
+      "difference": "That fixed ring acts between expanded source character units. Its source-length failure is unchanged; this proposal acts once on each full dictionary-word index."
+    },
+    {
+      "id": "GDT1268",
+      "primary": "experiments/yolo/gdt1268_previous_word_column_difference/METHOD.md",
+      "difference": "1268retains the entire previous plaintext word and subtracts individual letter ranks at corresponding coordinates. It has no whole-word lexical rank. Its fixed source/model result remains closed."
+    },
+    {
+      "id": "GDT001 differential records and rank nomenclator",
+      "primaries": ["run_gdt001_differential_records.py","run_gdt001_rank_nomenclator.py"],
+      "difference": "The former chooses literal versus KEEP/SUB/DEL/INS edit records under line/page reset; the latter pairs fixed word-frequency ranks. Neither reviewed implementation performs this sequential lexicographic whole-word modular difference. No old decoder output was inspected."
+    },
+    {
+      "id": "IDEA000960 and IDEA000958/GDT1229",
+      "primaries": ["research_registry/proposals/production_origin_supply_20261003/HUMAN_END_OPTION_WORD_INDEX_PATH_RAW_20261006.json","experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md"],
+      "difference": "960writes static word ordinals through an end-aware path;958writes local next-letter ranks in a source spelling trie. Their codebook, framing and fixed-source limitations remain; neither establishes this residue capacity."
+    },
+    {
+      "id": "GDT857",
+      "primary": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md",
+      "difference": "The old repeated-whole witnesses are reused only as a target necessity. This model is not a without-replacement pool, cache or new triple census."
+    }
+  ],
+  "review_and_actions": {
+    "novelty": "Targeted route/registry/duplicates, incoming relations,1217/1268followups and the listed primary procedures were checked. No identical executed source-word-rank progression screen was found in this bounded review. This is a concrete new project instantiation, not exhaustive originality or absence-of-prior-art proof.",
+    "selected_question": "Root separately selected GDT1301before empirical counts, as reported in the task. The producer authored this source-free record without opening its empirical inputs or results; no assertion about its eventual outcome.",
+    "mutations": "One producer RAW file, one separate proof note and one ideas-add only. No source/native count, new image, code implementation, root-file change, source swap, optimizer or post-result repair."
+  }
+}
