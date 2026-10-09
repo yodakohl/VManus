@@ -4,11 +4,11 @@ Updated: 2026-10-09.
 ## Work
 Phase: exploration
 Status: active
-Task: Trace.
-Latest decision: 1306 mixed.
-Working files: 1306.
+Task: Fusion.
+Latest decision: 1307 bound failure.
+Working files: 1307.
 Assumptions: No meanings.
-Resume: Read1306 scope.
+Resume: Read1307scope.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Results: dossiers/ledger; state on route changes.
-Public2b103256b;local raw retained.
+Publiceb8d813c4;local raw retained.

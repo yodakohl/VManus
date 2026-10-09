@@ -1,3 +1,11 @@
+# 2026-10-09: GDT1307 bound compulsory fusion fails
+
+Whole chky andkchy defeat both fixed obligatory ch+k/k+ch→ckh orders.
+Strict counts12/15/13 and18/23/20 remainreader-specific; source validatorPASS.
+Known-form earlypretest, not newpalaeography or meanings. Optional/contextual
+fusion and933unboundkey construction remain outside. No largecoder built.
+See experiments/yolo/gdt1307_mandatory_bench_fusion/REPORT.md.
+
 # 2026-10-09: GDT1306 later merge selection quantified
 
 All64rules/reader on current1233strictgroups: newpositive gaps1ZL/1IT/0RF,

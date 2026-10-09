@@ -10118,3 +10118,7 @@ The source-free IID/memoryless construction AB→M thenMC→N gives Mfinal2/5 vs
 ## 2026-10-09 GDT1306 actual common-stage selection accounting
 
 On unchanged1233strictgroups andonce-only605projection, all64rules/reader scorable. Positive-signcreation is1ZL(CEy/Ey tiny),1IT(ai/i tiny),0RF; notsharedreplication. Preselectedol/l gap grows16.33→48.14ppZL,18.84→50.98IT,16.31→46.82RF; or/r alsoamplifies; dy/yshrinks. Earliercontrastsremain. All1069/1283/1171lostfinal-l eventsafterolstage consumedby a+l→al, not erasedink. od/dchangespositive→negative allreaders solelybycomponentdselection. Exact4875traces/61181groups/192rows/135examples replayPASS. This ismechanical current-panel accounting, not608score decomposition, true morphology or meaning. No old population reopened. See1306REPORT andRAW989scopedexecutionreview.
+
+## 2026-10-09 GDT1307 mandatory bench-fusion early stop
+
+Bound ch,k literals andckhshortcut, either compulsoryorder: chky invalidforward, kchy invalidreverse; strictcounts12/15/13 and18/23/20 overmultipleleaves.101readerrecords,202orderchecks and2184sourcefree roundtrips replayPASS. Fullprofilesknown beforeprotocol; notblindnewdiscovery. No physicalbinding or wordmeaning established; optional/contextualfusion and933freecoverage remainopen. IP039missingcomplementnotresolved. Binaryclassr/linversion candidate already1276, no newfit. No largewriter/sourceoptimization selected afterexactcountercase. See1307REPORT.

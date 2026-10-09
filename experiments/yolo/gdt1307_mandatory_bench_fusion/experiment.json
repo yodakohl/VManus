@@ -1,0 +1,110 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional literal-binding canonicalization pretest only; no native ligature, sound, meaning or general abbreviation exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1307_mandatory_bench_fusion/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1307_mandatory_bench_fusion/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT1233",
+    "GDT1276"
+  ],
+  "experiment_id": "GDT1307",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "fixed guarded source or current text allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "fixed guarded source or current text allowlist"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/METHOD.md",
+      "sha256": "4db2bd8ca8fe8cd01b55cdadcd87c5b8bff14ae11c2e4e711fb144080a9bed4e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/PREREGISTRATION.md",
+      "sha256": "4db2bd8ca8fe8cd01b55cdadcd87c5b8bff14ae11c2e4e711fb144080a9bed4e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/README.md",
+      "sha256": "05b806f73229b97113bf29003fcb305bc60e660dd6b0636f11d299e52ab5fc98",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/REPORT.md",
+      "sha256": "0e00b98fa73a9278d8ec864eb2808f2066c996460ee01b89dbfeb3ab66fbb783",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/artifacts/README.md",
+      "sha256": "3dbcc2e46f908739cc475fe10fd9a6f5e7e982652fe1d14a0976a95e8bb5472a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/artifacts/RESULT.json",
+      "sha256": "d2c2f1f58c5ae30fd5d3076f75701661c384d57497ad6711d076958850a381de",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/artifacts/VALIDATION.json",
+      "sha256": "44b810eeafde20dc872510e5777e9b6ef9acdbebcb2a6f28088fbb860ea5a2c9",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/artifacts/WITNESSES.json",
+      "sha256": "4ce0d032d57af0942b9f306908270a09b0bf45492b3614da112192697d614070",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/src/PROOF_REVIEW.json",
+      "sha256": "09d1941a48e844b122bb8d104630f0d82196c5b21315457ccb8e25bb80a46779",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/src/REGISTRATION_LOCK.json",
+      "sha256": "d72e8b134cad81d6f6474af16efa5533712fe3497c02433b9629513f3e765023",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/src/SELECTION_REVIEW.json",
+      "sha256": "31c7c5f9919407623903ade14bb47c4bd8fc566cb9966bf537238c5b96cc1a06",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/src/run.py",
+      "sha256": "26032cba9ed3f5873605f0e2aaf678ad2de1ac8524c9f451efe18e3fd88a4633",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1307_mandatory_bench_fusion/src/validate.py",
+      "sha256": "fcf834146aa9a936c45465ddd2326595e5707da766068b9565c5e87d59b576c3",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Can either compulsory ch+k or k+ch fusion to ckh preserve the retained whole chky and kchy forms under one literal binding?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "mandatory_bench_fusion",
+  "status": "BOTH_BOUND_ORDERS_EXCLUDED",
+  "title": "Bound mandatory bench/gallows fusion early pretest",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1307_mandatory_bench_fusion/artifacts/VALIDATION.json"
+  }
+}
