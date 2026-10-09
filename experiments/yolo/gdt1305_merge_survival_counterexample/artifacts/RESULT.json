@@ -1,0 +1,140 @@
+{
+  "status": "SOURCE_FREE_SELECTION_COUNTEREXAMPLE",
+  "infinite_expectations": {
+    "raw_B": {
+      "numerator": 1,
+      "denominator": 1
+    },
+    "raw_AB": {
+      "numerator": 3,
+      "denominator": 16
+    },
+    "raw_ABC": {
+      "numerator": 9,
+      "denominator": 128
+    },
+    "M_count": {
+      "numerator": 15,
+      "denominator": 128
+    },
+    "M_final": {
+      "numerator": 3,
+      "denominator": 64
+    },
+    "B_count": {
+      "numerator": 13,
+      "denominator": 16
+    },
+    "B_final": {
+      "numerator": 13,
+      "denominator": 64
+    },
+    "M_final_rate": {
+      "numerator": 2,
+      "denominator": 5
+    },
+    "B_final_rate": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "first_merge_M_final_rate": {
+      "numerator": 1,
+      "denominator": 4
+    }
+  },
+  "M_own_vs_component_expected_bit_gain": 0.07807190511263762,
+  "finite_max_length": 8,
+  "finite_words": 9840,
+  "finite_weighted_expectations": {
+    "mass": {
+      "numerator": 58975,
+      "denominator": 65536
+    },
+    "M_count": {
+      "numerator": 41757,
+      "denominator": 524288
+    },
+    "B_count": {
+      "numerator": 609211,
+      "denominator": 1048576
+    },
+    "M_final": {
+      "numerator": 42591,
+      "denominator": 1048576
+    },
+    "B_final": {
+      "numerator": 193309,
+      "denominator": 1048576
+    }
+  },
+  "examples": [
+    {
+      "word": "AB",
+      "first_pass": [
+        "M"
+      ],
+      "final_tokens": [
+        "M"
+      ]
+    },
+    {
+      "word": "ABC",
+      "first_pass": [
+        "M",
+        "C"
+      ],
+      "final_tokens": [
+        "N"
+      ]
+    },
+    {
+      "word": "ABCAB",
+      "first_pass": [
+        "M",
+        "C",
+        "M"
+      ],
+      "final_tokens": [
+        "N",
+        "M"
+      ]
+    },
+    {
+      "word": "AAB",
+      "first_pass": [
+        "A",
+        "M"
+      ],
+      "final_tokens": [
+        "A",
+        "M"
+      ]
+    },
+    {
+      "word": "ABAB",
+      "first_pass": [
+        "M",
+        "M"
+      ],
+      "final_tokens": [
+        "M",
+        "M"
+      ]
+    },
+    {
+      "word": "CABCA",
+      "first_pass": [
+        "C",
+        "M",
+        "C",
+        "A"
+      ],
+      "final_tokens": [
+        "C",
+        "N",
+        "A"
+      ]
+    }
+  ],
+  "scope": "Fixed merge-table IID counterexample for one boundary feature; not trained BPE, actual608gap attribution, native data or meanings."
+}

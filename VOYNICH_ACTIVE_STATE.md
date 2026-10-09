@@ -1,3 +1,12 @@
+# 2026-10-09: GDT1305 source-free token-selection witness
+
+Fixed two-stage merges on an IID source give survivingMfinal2/5 versusB1/4.
+The exact-form advantage need not come from source lexicalmemory; occurrence
+selection alone suffices in this toy.608already allowed this possibility:
+its native positives remain, actual contribution is unmeasured, and fixedtoy
+rules are not a claim about learnedBPE. No new native meaning or decoder.
+See experiments/yolo/gdt1305_merge_survival_counterexample/REPORT.md.
+
 # 2026-10-09: GDT1304 qeeey exceptions have local image support
 
 All3fixed qeeey sites (76r.17,107r.2,108r.38) show no separate rounded

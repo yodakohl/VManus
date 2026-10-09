@@ -1,0 +1,21 @@
+{
+  "status": "SOURCE_FREE_MATHEMATICAL_REVIEW",
+  "recorded_by": "root from bounded_idea_supply messages before program execution",
+  "reviewer": "bounded_idea_supply",
+  "formulas_confirmed": {
+    "M_count": "15/128",
+    "M_final": "3/64",
+    "M_final_rate": "2/5",
+    "B_count": "13/16",
+    "B_final": "13/64",
+    "B_final_rate": "1/4"
+  },
+  "reason": "AB occurs3/16times per word in expectation; a followingC absorbs fraction(3/4)(1/2)=3/8. TerminalAB always survives. BareB excludes precedingA, which does not affect its memoryless future.",
+  "qualifications": [
+    "Profiles are ratios of expected occurrence counts, not means of per-word ratios.",
+    "No source-side lexical pair memory; the representation does contain two pair-sensitive rules.",
+    "Without MC-to-N the effect vanishes; matching the no-following-C selection on the component also removes the contrast.",
+    "Fixed rules are not proven frequency-trained BPE choices.",
+    "No guarantee for every finite held split and no measurement of608artifact share."
+  ]
+}

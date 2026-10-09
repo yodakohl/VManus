@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1303**
-- Experiment-associated tracked files: **25,783** (2.3 GiB)
-- Structured GDT337+ experiments: **968**
+- Experiments indexed: **1304**
+- Experiment-associated tracked files: **25,795** (2.3 GiB)
+- Structured GDT337+ experiments: **969**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1305 | GDT1305_merge_survival_counterexample | `SOURCE_FREE_SELECTION_COUNTEREXAMPLE` | [report](../experiments/yolo/gdt1305_merge_survival_counterexample/REPORT.md) | 12 | 28.5 KiB | 1 | STRUCTURED_YOLO |
 | GDT1304 | GDT1304_qeeey_source_comparison | `THREE_LOCAL_Q_NON_O_SUPPORT` | [report](../experiments/yolo/gdt1304_qeeey_source_comparison/REPORT.md) | 18 | 56.0 KiB | 5 | STRUCTURED_YOLO |
 | GDT1303 | GDT1303_paired_coordinate_exchange | `SOURCE_PAIR_FAMILY_EXCLUDED__FIXED_GRID_SCREEN_FAILED` | [report](../experiments/yolo/gdt1303_paired_coordinate_exchange/REPORT.md) | 15 | 1010.9 KiB | 5 | STRUCTURED_YOLO |
 | GDT1302 | GDT1302_f40r_triple_source_review | `LOCAL_REPEAT_AND_GAP_SUPPORT` | [report](../experiments/yolo/gdt1302_f40r_triple_source_review/REPORT.md) | 14 | 22.6 KiB | 5 | STRUCTURED_YOLO |

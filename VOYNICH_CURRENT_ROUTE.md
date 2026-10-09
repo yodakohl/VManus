@@ -4,16 +4,16 @@ Updated: 2026-10-09.
 ## Work
 Phase: exploration
 Status: active
-Task: qeeey.
-Latest decision: 1304 q/non-o support.
-Working files: 1304.
-Assumptions: No meanings.
-Resume: Read1304;no qo hard rule.
+Task: Scope.
+Latest decision: 1305 toy pass.
+Working files: 1305.
+Assumptions: Toy;meanings0.
+Resume: Read1305;retain608.
 Running: none.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
-wholeform/entry context matter(608/282/286/318).
+Wholeform/entry effects(608/282/286/318);BPE caveat:1305toy.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet(98learned units).
 No default Latin/phonetics;k/t open(1058).
@@ -70,4 +70,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Results: dossiers/ledger; state on route changes.
-Public826a38c29;local raw retained.
+Public541062684;local raw retained.
