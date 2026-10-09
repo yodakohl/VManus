@@ -1,3 +1,13 @@
+# 2026-10-09: GDT1306 later merge selection quantified
+
+All64rules/reader on current1233strictgroups: newpositive gaps1ZL/1IT/0RF,
+atdifferentmerges andsmall. ol/l andor/r gaps alreadypositive atcommonstage;
+laterprocessing amplifies them strongly, chiefly byfiltering component tokens.
+Forol/l extra30.51–32.14percentagepoints; dy/yinsteadshrinks; od/dreverses.
+Exactspan/cohort/sourcevalidatorPASS. Not608'spopulation/score decomposition,
+no all-artifact or lexical-memory conclusion, no words translated.
+See experiments/yolo/gdt1306_common_stage_merge_survival/REPORT.md.
+
 # 2026-10-09: GDT1305 source-free token-selection witness
 
 Fixed two-stage merges on an IID source give survivingMfinal2/5 versusB1/4.

@@ -4,16 +4,16 @@ Updated: 2026-10-09.
 ## Work
 Phase: exploration
 Status: active
-Task: Select.
-Latest decision: 1305 toy pass.
-Working files: 1305/989.
-Assumptions: RAW989;meanings0.
-Resume: Review989scope.
+Task: Trace.
+Latest decision: 1306 mixed.
+Working files: 1306.
+Assumptions: No meanings.
+Resume: Read1306 scope.
 Running: none.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
-Wholeform/entry effects(608/282/286/318);BPE caveat:1305toy.
+Wholeform/entry effects(608/282/286/318);BPE selection:1306.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet(98learned units).
 No default Latin/phonetics;k/t open(1058).
@@ -70,4 +70,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Results: dossiers/ledger; state on route changes.
-Public4f2bf50e1;local raw retained.
+Public2b103256b;local raw retained.

@@ -1,0 +1,132 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exposed deterministic processing counts only; new scoped population, no608score decomposition, native morpheme, source memory, language or meaning identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1306_common_stage_merge_survival/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1306_common_stage_merge_survival/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT605",
+    "GDT608",
+    "GDT1233",
+    "GDT1305"
+  ],
+  "experiment_id": "GDT1306",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "frozen source/model metadata or precursor design"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "frozen source/model metadata or precursor design"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv",
+      "sha256": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539",
+      "role": "frozen source/model metadata or precursor design"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py",
+      "sha256": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8",
+      "role": "frozen source/model metadata or precursor design"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/BPE_COMMON_STAGE_SURVIVAL_DIAGNOSTIC_RAW_20261009.json",
+      "sha256": "f6d053cd8cef4ba79c43a742af95a0f90f4d1e0ab13917eab04b86367de5d38e",
+      "role": "frozen source/model metadata or precursor design"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/METHOD.md",
+      "sha256": "f4a85295e70731dea840a33f3e627b159920b6e656091542a0a3c5d00929b129",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/PREREGISTRATION.md",
+      "sha256": "f4a85295e70731dea840a33f3e627b159920b6e656091542a0a3c5d00929b129",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/README.md",
+      "sha256": "512951f853d256026a9ce266b0ec95e081442118b7fd64754b59dd8d6bdd4585",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/REPORT.md",
+      "sha256": "9aa9cde0748157f19952211083fdf7d38d048d6ec032c1d2cdd9198f3a82f7f9",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/artifacts/CONTROLS.json",
+      "sha256": "1aaff47ea3b966538780b3e36fa5c605108b50728371c38810ebae6b9d638304",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/artifacts/EXAMPLES.json",
+      "sha256": "c95bf27e7e63ffa0ede98fbe2e44774a56638116701074e19042b650340a090f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/artifacts/README.md",
+      "sha256": "4d966754e8d045b0e45f3714ac4c1474f7ad6c23aa7793b188ea49219071a954",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/artifacts/RESULT.json",
+      "sha256": "0895a7f4752999e346ba2f93cba551d7e76c261c60d0d179a61c5ce1cdf16b84",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/artifacts/VALIDATION.json",
+      "sha256": "a75b51e94239d2c821e82041c3b14321f2e4374ffc037d0df7fbbf0ce41476d1",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/src/PROOF_REVIEW.json",
+      "sha256": "92bd573a6f2eef913df24aa5094dd57e509af56405e2e469d8af90cf558303f9",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/src/REGISTRATION_LOCK.json",
+      "sha256": "ac34df20bad654438ac0bd809175506ec5cae4340fcf0bfd090d77fffbc76f03",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/src/SPEC.json",
+      "sha256": "a64bee301f91e0bc40849a4e52a5954c295be71acff202bf22979375c8652d14",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/src/run.py",
+      "sha256": "e38751ffaace4e8910bdb32180caf8c3aef85499c98572a0d43ed12296ad3746",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/src/validate.py",
+      "sha256": "d300bd1a0086e0e2474b13fa919436177ca47d5bec7affd6002d06c728c5d2d9",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Do later fixed merges create or change M-versus-R group-final contrasts on the currently admitted strict source panel?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "common_stage_merge_survival",
+  "status": "LATER_SELECTION_EFFECTS_WITH_READER_DEPENDENT_SIGN_CREATION",
+  "title": "Common-stage versus final merge-survival boundary profiles",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1306_common_stage_merge_survival/artifacts/VALIDATION.json"
+  }
+}
