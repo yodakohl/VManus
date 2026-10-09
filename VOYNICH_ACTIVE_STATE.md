@@ -1,3 +1,15 @@
+# 2026-10-09: IDEA950 selection correction, no new experiment
+
+IDEA950intrawordcopy is now curated inconclusive with the already stated1202
+fixedsource word-frequency obstruction and unpaid physical carrier. Raw and
+prior review already contained these limits; no new result, source count or
+meaning. Do not nominate its unchanged frequency test again.1225limits retain
+source-conditioned rather than universal interpretation.
+No new complete writing mechanism was selected from this bounded review.
+1311visual boundary/atomicity uncertainty remains; no image reopened.
+Source: research_registry/proposals/production_origin_supply_20261003/INTRAWORD_COPY950_SELECTION_REVIEW_20261009.json.
+Publication requires the exact staged privacy check.
+
 # 2026-10-09: GDT1311 visual body contrast, boundary unresolved
 
 Fixed1006252overview/twofull-linecrops locate the intendedf102v2.21/.33

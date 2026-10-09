@@ -10188,3 +10188,19 @@ boundheaders/generator andselector-keylines:oneadmittedselector,no forbidden
 selector; this is not inferredfromtruncation. No newcandidatefrompayload and
 producerhadnoimagerole. ExistingincidentJSONrecords exposure,notpermission.
 Completeworkbudget15:15:44–16:15:44UTC. No newcompletewriter selected.
+
+## 2026-10-09: IDEA950 existing stop made explicit in the registry
+
+No new experiment selected. The RAW950module and6Octoberpartial-stem review
+already state its deterministic within-wordcopy/equality invariant and1202's
+fixedfour-source one-token/one-group exclusion. The imported unreviewed card
+was misleading as a next-test queue item. It is now curated inconclusive with
+that existing source-conditioned blocker and the separately incomplete22-sign
+carrier. No general copy/language exclusion;1225pooled-band portability limits
+retained. No source counts, newdata, image, solver or meaning. Existing raw
+bytes are unchanged; see INTRAWORD_COPY950_SELECTION_REVIEW_20261009.json.
+
+Bounded producer supplied no new complete motivated writer; no quota card was
+added. Root therefore did not launch another statistical diagnostic or repair
+solely to keep an experiment running. This is a selection/continuity correction,
+not decipherment progress.1311uncertain gap/atomicity remains.
