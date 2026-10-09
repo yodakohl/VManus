@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT1312",
+  "slug": "binary_whole_code_capacity",
+  "title": "Exact capacity of a binary whole-group codebook",
+  "created": "2026-10-09",
+  "updated": "2026-10-09",
+  "status": "CAPACITY_FEASIBLE",
+  "question": "Can any global two-class projection of22workingunits place all strict complete groups in a32-row bitword codebook, and how active can both signal classes be?",
+  "claim_ceiling": "Exact finite codebook capacity and activity bounds only; no plaintext, actualpartition, glyphchoicelaw, historicalwriter or meaning.",
+  "dependencies": [
+    "GDT1233",
+    "GDT1264",
+    "GDT1300",
+    "GDT192",
+    "GDT889",
+    "GDT1310"
+  ],
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "unchanged guarded native source and allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "unchanged guarded native source and allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md",
+      "sha256": "d6887e32b10db533aaf9bed92dd4e3f3630cbafcdf9f3328eed6d9b46f850545",
+      "role": "documentary frozen partition for explicitly post-result illustration"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/METHOD.md",
+      "sha256": "fe9ac275ed363fa3cdde95cdaaf545d68dd295fdb0805da7aa855005ddfe8945",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/PREREGISTRATION.md",
+      "sha256": "fe9ac275ed363fa3cdde95cdaaf545d68dd295fdb0805da7aa855005ddfe8945",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/README.md",
+      "sha256": "88b2cf636c19f0121ab0ab2326f2c6bb609aeae1df1791c7f4702ae14a357fdc",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md",
+      "sha256": "63e927dcd6ba37a2b954d4476f968b5e4ce1cb874063a48c6bb97d31f67fb1e5",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/CACHE_REPRODUCTION_CHECK.json",
+      "sha256": "73e4ecd8855e3062c12c22b16dd53f1fa7bd14b2b69ac8c026ec92885c138c45",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/COUNTS_IT2a.u16.gz",
+      "sha256": "b2260aa9e413bb009a7e9c405143bf57a55c5f2c8953b0b53c475611d6500575",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/COUNTS_RF1b.u16.gz",
+      "sha256": "ff370a79e944bd076817a8dd55df7274b591414cc6a9f76758e4dbd84c738206",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/COUNTS_ZL3b.u16.gz",
+      "sha256": "44452efac70c65669f03e478cbe6969d2852eff0b9a0e7242910314cbd08f656",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/COUNT_FORMAT.json",
+      "sha256": "7607356c76c9865bb97bbc95ec2e57cb47617b38f174d7a08cec6d189585af88",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/FIXTURES.json",
+      "sha256": "386c535cd421eca9ed1e3bb6d9c4418bc18adb2a5cc45727ab2fb9ab742bf2d5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/PANEL.json",
+      "sha256": "26b7d693545493eca9aa1c28aa5437d9d84187c14069c45c9bfb45b546e0c758",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/PANEL.txt",
+      "sha256": "b41ee045409b579aa839a90d299140d3b5c2621b5d81e1370dacd18772da0464",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/RESULT.json",
+      "sha256": "e8a077c1987a76322b1ce95a439b27eb961ffebfd02c019f627765dec8ddf697",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/VALIDATION.json",
+      "sha256": "329ad33dbdb6a0c574b47d59f82ad21f121f09fcad7301dfcd531f6752fb813b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/src/CACHE_LAYOUT_NOTE.json",
+      "sha256": "efb8da39f7e00e1bf00bdd2c67d4245d5e08f59f235204b9e72efa1a34528895",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/src/PROOF_REVIEW.json",
+      "sha256": "2e3a1c62cf4cd238ba889ad012b5c6e756f29e265a82ca652b2a52680138247a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/src/REGISTRATION_LOCK.json",
+      "sha256": "533724d89b6c9daf00ca6759841c11a676c0d673fd77f7c4eec62465b5cb7dc6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/src/gray.cpp",
+      "sha256": "51a8a80c92e21747b763172c70c079b52abfbf37f7c60dd16ec87b28143e82cc",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/src/recurse.cpp",
+      "sha256": "9a5d417a7d9d088ec2415957c0827089023e5a4fb531fc6552bdc51f4c309a51",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/src/reproduce.py",
+      "sha256": "3bd85cd5fc2b5c5eef58bc5e7c46f44f29ececaacc508c58438bd92b564a3f44",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/src/run.py",
+      "sha256": "7fad1c3cb2038c2c971a3a6d119aa4ebfd8ed7ba80df06fa6b9714fbfd097b6b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1312_binary_whole_code_capacity/src/validate.py",
+      "sha256": "8a125b9c4cd2552b8f13ced6a3f23930a336e5b7ae5074e9ded563a3252d93f4",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1312_binary_whole_code_capacity/src/reproduce.py run",
+    "validate": "python3 experiments/yolo/gdt1312_binary_whole_code_capacity/src/reproduce.py validate"
+  },
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1312_binary_whole_code_capacity/artifacts/VALIDATION.json"
+  },
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": "Three compressed deterministic uint16arrays preserve everypartitioncount for exhaustive independentverification; no executables/images/privatecache."
+  }
+}

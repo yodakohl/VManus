@@ -2,13 +2,13 @@
 Updated: 2026-10-09.
 
 ## Work
-Phase: workflow
+Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: IDEA950 existing stop curated.
-Working files: IDEA950.
-Assumptions: No new meanings.
-Resume: Select complete new rule; no950rerun.
+Latest decision: 1312 rare-class capacity only.
+Working files: GDT1312.
+Assumptions: No meanings.
+Resume: Read1312limits; no key fit.
 Running: none.
 
 ## Structural baseline
@@ -17,7 +17,7 @@ Wholeform/entry608/282/286/318;BPE selection1306.
 1308whole-form gain;1309distributed,not lexical minimum.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet.
-1310alias constraints;1311boundary unresolved.
+1310aliases;1311gap open;1312rare-bit capacity.
 No default Latin/phonetics;k/t open(1058).
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
@@ -72,4 +72,4 @@ Selection: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
 Results: ledger.
-Public8f6f59420.
+Public9fab0ca30.

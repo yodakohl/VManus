@@ -1,0 +1,75 @@
+{
+  "record_id": "GDT1312",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root independent full-count recursive verification; bounded producer pre-result source-free proof",
+  "assessment_basis": "exhaustive_binary_whole_bitword_codebook_capacity",
+  "reason": "All2,097,151nontrivial partitions per reading were enumerated. Minimum22bitwords each; only6/5/3partitions meet32rows. Maximum smaller-signal unit share3.95957/3.77028/.20327percent. Only singletonm,cph,cfhpartitions pass separatelyinallreadings; commonmostbalancedmhasabout.2percent minorityactivity. This is finite codebook capacity with a near length-based payload, not meaningful plaintext, a native partition or a full graphical choice rule.",
+  "blockers": [
+    {
+      "code": "no_plaintext_or_glyph_choice_identification",
+      "detail": "Unknown source-character assignment and freely permitted glyph choices remain; codebook coverage does not explain observed shape/frequency selection or identify a language.",
+      "evidence": [
+        "experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md"
+      ]
+    },
+    {
+      "code": "fixed_working_units_gaps_and32row_contract",
+      "detail": "Conditional onevisiblegroup/onesourcecharacter framing, preservedbitlength/leading0s, global22to2partition. SourceSPACE/punctuation/NEWLINEpaid; externalmessageendexplicit. Othersegmentations or larger/multiple-code tables outside.",
+      "evidence": [
+        "experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "distinct_source_or_construction_falsifier",
+        "change": "new_design",
+        "detail": "A separately justified complete source/control or human construction contract with a new distinguishing consequence confronting the rare signal class and near-length payload; not an automatic larger codebook, favorable-reader selection or language-key fit.",
+        "evidence": [
+          "experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treat22minimumrows as native22letteralphabet",
+      "Assign common projectedcode to a sourceletter by frequencyalone",
+      "Raise32to33afterRF nmiss",
+      "Interpret6ofmillions as significance",
+      "Treat freeshapechoices as explanation ofworddistribution",
+      "Poolreaders orignoretheir differentfeasible sets"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1264",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1300",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT192",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT889",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

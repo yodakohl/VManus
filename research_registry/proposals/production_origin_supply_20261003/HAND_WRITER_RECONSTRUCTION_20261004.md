@@ -10204,3 +10204,22 @@ Bounded producer supplied no new complete motivated writer; no quota card was
 added. Root therefore did not launch another statistical diagnostic or repair
 solely to keep an experiment running. This is a selection/continuity correction,
 not decipherment progress.1311uncertain gap/atomicity remains.
+
+## 2026-10-09: GDT1312 binary whole-group capacity
+
+New complete conditional channel: each whole group projects through a fixed
+22to2signal partition to one codeword for one of32sourcecharacters; SPACE,
+punctuation,NEWLINEincluded; recordendexternal; leadingzeros/length preserved.
+Glyphalternatives within a bit are free, not assumedrandom and not yetexplained.
+Every2,097,151nontrivial partition perreader checked. Minimum22rows;6ZL/5IT/3RF
+partitions fit<=32. Mostbalanced smaller-class share3.95957%ZL(n,m),3.77028%IT(n),
+.20327%RF(m). Commonpartitions isolatem,cph,cfh; mostbalancedcommonmhasabout.2%
+minorityunits. Information then mostly follows length for groupswithoutthatunit.
+Finitecapacityonly, not plaintext, nativealphabet, historicalwriter or fullfit.
+
+Independent recursive typecount traversal checks every6,291,456storedcount
+againstGray weighted traversal; source/raw/witness checksPASS. No nativeimages
+ornewsourcecorpus. Postresult1264illustration: its two mcompletions need353-375
+patterns,not32; oldalternationpositiveunchanged. No codebook/reader/key repair.
+Source: experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md and
+BINARY_WHOLE_CODE_CAPACITY_REVIEW_20261009.json. Budget15:57:55–16:57:55UTC.

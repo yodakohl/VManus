@@ -1,3 +1,17 @@
+# 2026-10-09: GDT1312 finite binary-code capacity, rare signal class
+
+All2^21-1nontrivial22to2partitions perreader tested for<=32completebitword
+rows. Minimum22;6/5/3partitions pass. Maximumminorityunitshare3.95957/3.77028/
+.20327percent;commonpartitions isolate m,cph,cfh. Thus finitecapacity remains
+possible only with a rare class, and mostgroupsencode throughlength.
+No sourcechar meaning, actualpartition, language or glyph-choice law selected.
+ExactsourceSPACE/punctuation/NEWLINEcost and suppliedrecordend retained.
+IndependentverificationPASSall6291456counts and source/witness accounting.
+1264alternation remainspositive but its split needs>350wholebitcodes here.
+Source: experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md.
+No automatic larger-table, new-reader or languagekeyfit. Publication requires
+the exact staged privacycheck; compiled executables stay in localcache.
+
 # 2026-10-09: IDEA950 selection correction, no new experiment
 
 IDEA950intrawordcopy is now curated inconclusive with the already stated1202

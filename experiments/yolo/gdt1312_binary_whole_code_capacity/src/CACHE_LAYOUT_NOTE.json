@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-09T16:36:42.034651+00:00",
+  "issue": "Experiment index scanner classified generated scratch files under a GDT-numbered cache directory as out-of-layout artifacts. No numerical failure.",
+  "repair": "Preserved registered run.py and validate.py bytes and REGISTRATION_LOCK. Added reproduce.py wrapper changing only module CACHE to a non-GDT-named untracked scratch directory; moved existing scratch files there. Wrapper also disables source bytecode writes when called without an environment override.",
+  "scientific_change": false,
+  "verification": "Final wrapper run and validate completed across root/public checkouts; every original numerical artifact hash unchanged; no bytecode or scratch files left in public tree.",
+  "new_reproduction_commands": [
+    "python3 experiments/yolo/gdt1312_binary_whole_code_capacity/src/reproduce.py run",
+    "python3 experiments/yolo/gdt1312_binary_whole_code_capacity/src/reproduce.py validate"
+  ],
+  "verification_status": "PASS",
+  "checked_files": 10,
+  "final_runtime": "reproduce.py now uses a fresh temporary directory outside the checkout and removes it on return; source bytecode writes are disabled. Earlier generated scratch files retained outside the publication tree."
+}
