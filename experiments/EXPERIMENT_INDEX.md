@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1309**
-- Experiment-associated tracked files: **25,865** (2.3 GiB)
-- Structured GDT337+ experiments: **974**
+- Experiments indexed: **1310**
+- Experiment-associated tracked files: **25,884** (2.3 GiB)
+- Structured GDT337+ experiments: **975**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1311 | GDT1311_f102v2_run_shape_comparison | `BODY_CONTRAST_SUPPORTED_LEFT_BOUNDARY_UNRESOLVED` | [report](../experiments/yolo/gdt1311_f102v2_run_shape_comparison/REPORT.md) | 19 | 50.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT1310 | GDT1310_single_allograph_merges | `EXACT_SINGLE_MERGE_COMPATIBILITY` | [report](../experiments/yolo/gdt1310_single_allograph_merges/REPORT.md) | 13 | 1.0 MiB | 3 | STRUCTURED_YOLO |
 | GDT1309 | GDT1309_whole_form_gain_concentration | `FIXED_SCORE_CONCENTRATION_ACCOUNTED` | [report](../experiments/yolo/gdt1309_whole_form_gain_concentration/REPORT.md) | 12 | 677.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT1308 | GDT1308_whole_form_prediction | `WHOLE_FORM_PREDICTIVE_LEAD` | [report](../experiments/yolo/gdt1308_whole_form_prediction/REPORT.md) | 16 | 2.8 MiB | 7 | STRUCTURED_YOLO |

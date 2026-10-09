@@ -10170,3 +10170,21 @@ reconstructs693pairdecisions,529witnesses,164lookupdigests and278564positions.
 See experiments/yolo/gdt1310_single_allograph_merges/REPORT.md and
 SINGLE_ALLOGRAPH_MERGE_REVIEW_20261009.json. No colorcap, joint solver or meaning.
 Budget14:52:36–15:37:36UTCincludes preparation throughpublication.
+
+## 2026-10-09: GDT1311 fixed same-page native shapes
+
+Prospective docs/102v2-runs.md admits candidate1006252only, oneoverview/twofixed
+crops forf102v2.21oeees/.33aiiin. Knownlineanchors/layout locallycompatible;
+rounded curved bodies versus oblique minims visible. oeeesoutsidegapsspace-like;
+aiiinleftgap andexactrun/terminalcutUNRESOLVED. PreserveZLuncertainseam and
+IT/RFdefiniteconventions; no full5unitcounterexampleconfirmation or sourceedit.
+No alternativecanvas,crop,enhancement,OCR,meaning or other63ITcontextvisualcheck.
+Sixfulllines andall3imagebytehashes verified; handwritingjudgment notautomated.
+Imagebyteslocalonly. See experiments/yolo/gdt1311_f102v2_run_shape_comparison/REPORT.md.
+
+Priorproducer mistakenlyopened old928RESULTwith embeddedwitnesses on a
+source-freetask;4000tokenoutputtruncated, accessesstopped. Rootaudited only
+boundheaders/generator andselector-keylines:oneadmittedselector,no forbidden
+selector; this is not inferredfromtruncation. No newcandidatefrompayload and
+producerhadnoimagerole. ExistingincidentJSONrecords exposure,notpermission.
+Completeworkbudget15:15:44–16:15:44UTC. No newcompletewriter selected.

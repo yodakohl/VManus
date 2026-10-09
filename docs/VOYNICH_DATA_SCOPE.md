@@ -21,6 +21,7 @@ frühere Einzelverträge bleiben unverändert.
 
 | Zulassung | Vertrag |
 |---|---|
+| GDT1311: candidate1006252, f102v2.21/.33run comparison only | [Prospective scope](102v2-runs.md) |
 | GDT1298: f103r.46/.53 repetition premises | [Prospective scope](103r.md) |
 | GDT1294: f82v.12, three qoky seams | [Prospective scope](82v.md) |
 | GDT1292: f99v upper hole, ink/edge timing only | [Prospective scope](99v.md) |

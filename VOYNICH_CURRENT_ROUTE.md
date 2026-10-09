@@ -5,10 +5,10 @@ Updated: 2026-10-09.
 Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 1310 exact alias constraints.
-Working files: GDT1310.
-Assumptions: Conditional aliases;no meanings.
-Resume: Read1310 scope.
+Latest decision: 1311 gap unresolved.
+Working files: GDT1311.
+Assumptions: Known strings;no meanings.
+Resume: Read1311limits; select rule.
 Running: none.
 
 ## Structural baseline
@@ -16,8 +16,8 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 Wholeform/entry608/282/286/318;BPE selection1306.
 1308whole-form gain;1309distributed,not lexical minimum.
 852:same-line join/split differs;meaning open.
-No proven parser/alphabet(98learned units).
-1310alias constraints;no identity.
+No proven parser/alphabet.
+1310alias constraints;1311boundary unresolved.
 No default Latin/phonetics;k/t open(1058).
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
@@ -50,7 +50,7 @@ f84 and f84r remain sealed. <!-- f84r is sealed -->
 f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not confirmation.
 179 cached selectors; grants separate; F historical. f1r margins only;
-f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts: [qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
+f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts: [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
 [f57layout](docs/VOYNICH_DATA_SCOPE_20261004_F57V_LAYOUT.md);
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md),
 [native](docs/VOYNICH_DATA_SCOPE_20261002_F25V_NATIVE.md); [base](docs/VOYNICH_DATA_SCOPE.md);
@@ -65,11 +65,11 @@ Mixed TSVs: selector-first `vmanus-exp query-tsv`; partial grants require
 New relations require `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Retrieval
-No approach websearch: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
+No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `context topic Wortzusammensetzung`: bounded baseline.
 `context topics`; `context check`.
-Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before selection.
+Selection: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
 Results: ledger.
-Public441522ee7.
+Public9c0fdf9a6.

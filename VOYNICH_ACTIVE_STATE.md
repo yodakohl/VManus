@@ -1,3 +1,16 @@
+# 2026-10-09: GDT1311 visual body contrast, boundary unresolved
+
+Fixed1006252overview/twofull-linecrops locate the intendedf102v2.21/.33
+examples locally. oeeescurves andaiiinminims arevisiblydifferent; aiiinleft
+gap andexactrun/terminalcutremainUNRESOLVED. No full5unitnativeconfirmation
+of1310sselectedcase; other63ITcontextsnotviewed. No sourcecorrection,
+allographidentity or meaning. Allreaderflagsretained. Imagesstaylocal.
+Source/provenancevalidationPASS6lines/6targets/3imagehashes; doesnotvalidate
+perception. Source-freeproducer928payloadviewdisclosed inexistingincident
+record; no independentreview or currentimagecontribution claimed.
+Source: experiments/yolo/gdt1311_f102v2_run_shape_comparison/REPORT.md.
+Publication requires exactstagedprivacycheck; no moreimages/cropsauthorized.
+
 # 2026-10-09: GDT1310 single-pair allograph check
 
 Exact1310pair maps add3reader-specific obstructions beyond1295's literal
