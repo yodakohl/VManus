@@ -4,11 +4,11 @@ Updated: 2026-10-09.
 ## Work
 Phase: exploration
 Status: active
-Task: Scope.
+Task: Select.
 Latest decision: 1305 toy pass.
-Working files: 1305.
-Assumptions: Toy;meanings0.
-Resume: Read1305;retain608.
+Working files: 1305/989.
+Assumptions: RAW989;meanings0.
+Resume: Review989scope.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Results: dossiers/ledger; state on route changes.
-Public541062684;local raw retained.
+Public4f2bf50e1;local raw retained.
